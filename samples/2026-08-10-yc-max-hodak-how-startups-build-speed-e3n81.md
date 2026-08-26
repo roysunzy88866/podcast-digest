@@ -180,9 +180,9 @@ Max 坦言生物技术极难,是长达十年的不可逆承诺,而且极其烧�
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|AI 时代 Staff 工程师的核心挑战：判断力怎么教]]<span class="pd-rz">同概念:判断力 (judgment)</span>
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]]<span class="pd-rz">同公司:Anthropic</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic</span>
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]]<span class="pd-rz">同公司:Anthropic</span>
 
 </div>
 <div class="pd-ex">

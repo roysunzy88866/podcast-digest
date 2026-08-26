@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Patrick Debois]]
+[[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"HubSpot":4,"Sequoia":2,"MongoDB":3,"Salesforce":7,"Google":27,"Microsoft":12,"McKinsey":4,"Delphi":3,"DRI":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"HubSpot":4,"Sequoia":2,"MongoDB":3,"Salesforce":8,"Google":27,"Microsoft":12,"McKinsey":4,"Delphi":3,"DRI":2}</script>
 
 <script>
 (function(){

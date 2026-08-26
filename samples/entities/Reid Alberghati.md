@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]] [[Roblox CEO]]
+[[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":59,"NVIDIA":20,"Microsoft":12,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":1,"Meta":18,"Apple":12,"智能体":132,"算力":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":61,"NVIDIA":20,"Microsoft":12,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":1,"Meta":19,"Apple":12,"智能体":135,"算力":2}</script>
 
 <script>
 (function(){

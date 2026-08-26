@@ -85,7 +85,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[智能体]] · [[Meta]] · [[NVIDIA]] · [[Claude]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":59,"Anthropic":65,"Google":27,"Lenny":65,"ChatGPT":34,"智能体":132,"Meta":18,"NVIDIA":20,"Claude":32,"后训练":12}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":61,"Anthropic":67,"Google":27,"Lenny":65,"ChatGPT":35,"智能体":135,"Meta":19,"NVIDIA":20,"Claude":32,"后训练":12}</script>
 
 <script>
 (function(){

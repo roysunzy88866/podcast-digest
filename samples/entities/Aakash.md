@@ -22,7 +22,7 @@ unlisted: true
 
 [[Figma]] · [[Oji Udezue]] · [[Srini Raghavan]] · [[Claude Code]] · [[Freshworks]] · [[项目脚手架技能]] · [[Cursor]] · [[可行性闸门]] · [[Databricks]] · [[vibe coder]]
 
-<script type="application/json" class="pd-epn">{"Figma":10,"Oji Udezue":1,"Srini Raghavan":1,"Claude Code":35,"Freshworks":1,"项目脚手架技能":1,"Cursor":34,"可行性闸门":1,"Databricks":6,"vibe coder":1}</script>
+<script type="application/json" class="pd-epn">{"Figma":10,"Oji Udezue":1,"Srini Raghavan":1,"Claude Code":35,"Freshworks":1,"项目脚手架技能":1,"Cursor":35,"可行性闸门":1,"Databricks":6,"vibe coder":1}</script>
 
 <script>
 (function(){

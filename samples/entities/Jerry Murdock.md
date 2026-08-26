@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]] [[Willem Avé]]
+[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Aaron Zolman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Neoclouds":1,"Fireworks":2,"前沿模型":4,"开源模型":9,"沙箱":25,"智能体":132,"推理":1,"GPU":6,"持续学习模型":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Neoclouds":1,"Fireworks":2,"前沿模型":4,"开源模型":9,"沙箱":25,"智能体":135,"推理":1,"GPU":6,"持续学习模型":1}</script>
 
 <script>
 (function(){

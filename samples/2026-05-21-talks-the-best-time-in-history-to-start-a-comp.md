@@ -115,9 +115,9 @@ Amjad 也补充道，LLM 就像计算能力一样，正在变成一种极其底�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层才是下一个金矿：模型不是商品]]<span class="pd-rz">同公司:OpenAI、Replit · 同概念:护城河 (moat)、智能体 (agent)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:Replit · 同概念:护城河 (moat)、智能体 (agent)</span>
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同公司:Replit、OpenAI、Stripe · 同概念:智能体 (agent)</span>
-- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

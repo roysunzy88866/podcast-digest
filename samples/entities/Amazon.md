@@ -37,9 +37,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[NVIDIA]] · [[Apple]] · [[Meta]] · [[AGI]] · [[资本支出]]
+[[OpenAI]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[NVIDIA]] · [[Apple]] · [[编码智能体]] · [[Meta]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":59,"Google":27,"Anthropic":65,"Microsoft":12,"智能体":132,"NVIDIA":20,"Apple":12,"Meta":18,"AGI":16,"资本支出":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":61,"Google":27,"Anthropic":67,"Microsoft":12,"智能体":135,"NVIDIA":20,"Apple":12,"编码智能体":1,"Meta":19,"AGI":16}</script>
 
 <script>
 (function(){

@@ -1,0 +1,141 @@
+{
+  "title_zh": "AI 应用层才是下一个金矿：模型不是商品",
+  "tldr": "a16z 合伙人 Anish Acharya 认为 AI 模型各有比较优势而非商品，应用层把智能原语变成经济成果的空间才刚刚打开。",
+  "digest_md": "GPU 这种非前沿芯片的小时价格在涨，这非常反常——通常硬件价格是通缩的。这说明一件事：需求几乎无限，供应高度受限。所以比起讨论\"这是不是泡沫\"，更值得问的是：我们是不是还不够乐观？[04:15 Anish Acharya]\n\n## 护城河没有消失，但有一种被攻破了\n\n研究护城河（最系统的框架是《七种力量》这本书）会发现，绝大多数护城河根本不受\"廉价智能泛滥\"的影响。网络效应、规模效应、品牌效应——这些东西一如既往地强。再多的编码智能体也不会让 Nike 不再是 Nike，Instagram 的力量从来不是 app 本身的代码复杂度，而是背后的网络。[06:09 Anish Acharya]\n\n但有一种护城河确实暴露了：集成护城河。SAP 以集成复杂著称，从一个版本迁移到下一个甚至有生存风险。编码智能体让这件事变得容易多了，这对历史上靠做集成点赚钱的系统集成商（SI）来说是存在级威胁。[06:47 Anish Acharya]\n\n## 模型不是商品，它们有\"性格\"\n\n如果你每天用这些模型，会发现它们在特定领域有比较优势，根本不是同质化商品。OpenAI 的新 GPT 模型非常擅长知识工作，ChatGPT 桌面应用是做电子表格、幻灯片、文档的完美容器；Claude Code 极度面向软件工程，从终端 UI 到代码规划测试都为工程师量身定制。两个产品为了各自的专业化做了大量不同的权衡。[11:42 Anish Acharya]\n\n更有意思的是模型\"性格\"差异——类似心理学的大五人格特质。GLM 5.2 和 GLM 5.3 非常字面化、只做你说的，属于\"高神经质\"；而另一些模型更开放、更有创造力。做会计问题时你需要神经质（精确），做设计问题时你需要开放性。一个组织里两种\"心智\"都需要，所以你会同时选不同模型，而不是只绑一个。[09:10 Anish Acharya]\n\n## 模型聚合：应用层的关键价值\n\n很多产品品类里，把多个模型聚合在一起，效果大于各部分之和。比喻就像 Expedia——你不想分别去联合航空、达美航空、西南航空的网站，你想要一个地方看到所有库存。[13:20 Anish Acharya]\n\n编码领域 Cursor 已经在这么做：用前沿模型做规划，用小模型做执行，但需要一个统一的产品架构来调度。创意工具也一样——11 Labs 擅长语音和音乐，Black Forest 擅长视频和创意方向，正确的产品是把它们整合到一个外壳里。研究和决策领域更明显：模型用不重叠的数据集训练，把同一个查询对抗性地跑过多模型、再用一个单独的模型帮你收敛，能获得更多信息。但实验室只会提供自己的模型——这是应用层真正大放异彩的地方。[13:39 Anish Acharya]\n\n## 智能是原语，应用层把它变成钱\n\n智能是一种原语，就像买云是一种原语。Salesforce 拿 AWS 云原语变成 CRM 软件交付经济成果，AI 应用层也一样——你需要 Harvey 把智能原语变成法律行业的经济成果。[14:44 Anish Acharya]\n\nAI 使用方式的演进：从提示模型，到把模型放进循环。智能体（agent）说白了就是带工具、带记忆的循环中的模型。编码是最成熟的例子：Bug 被报告→复现→生成修复→验证→低风险就自动合入，高风险就人审。每个报告的 Bug 都被这个循环自主修复了。[15:46 Anish Acharya]\n\n把同样的思路推到业务其他部分——价格优化、采购——都是可以全自动化natural业务循环。更激进的\"业务循环\"是模型做出横跨整个业务的建议，比如\"我觉得我们应该在蒂华纳开个分公司\"——模型不能自主执行，但能在整个业务表面层提出改变。这就是企业自动化通过 AI 发生的路径。[16:24 Anish Acharya]\n\n## 消费者 AI：为什么现在可能是\"消费者的季度\"\n\n阻碍消费者 AI 的三件事正在改变。第一，消费者不爱为软件付费，而 AI 软件有边际成本——有人做了一个帮浏览 X 时间线的应用，接入一个新用户成本 250 美元，做大众市场免费产品根本算不过来。但开放权重模型正在让成本大幅下降。[17:53 Anish Acharya]\n\n第二，没有 AI 原生分发渠道，没有\"AI 的 App Store\"，产品周期更像 Web 2.0（得自己建渠道），不像移动端有中心分发点。[18:31 Anish Acharya]\n\n第三，我们处于 AI 的\"DOS 时代\"——命令行。要让消费者完全接受，需要\"Windows\"级别的产品和设计工艺。[18:50 Anish Acharya]\n\n正在起作用的两类东西：编码智能体让非程序员能构建年入 10 万甚至 100 万美元的软件产品——这不是风投能投的规模，但是一种\"夫妻店 SaaS\"机会；个人智能体开始真正面向消费者，比如 GrokBot——睡觉前拍张牛仔裤照片说\"别超 500 美元\"，早上醒来它已经研究、比价、用信用卡买好了。[19:09 Anish Acharya]\n\n## 消费者的定义在变\n\n一个水管工用 GrokBot 端到端改造业务，这算消费者还是企业？规则很简单：如果获取这个客户的成本无法通过销售团队 justified（通常意味着年合同额 15K），只能通过营销获取，那就当消费者看——大多数小企业主都归这一类。[21:00 Anish Acharya]\n\n个人智能体的终极形态不是\"一个助手包揽一切\"，而是多个专精的智能体协调工作——你想从 CFA（理财顾问）那里得到的特质，和从聚会策划那里得到的不同。GrokBot 的产品形态很好地说明了这一点：多个指向不同方向的机器人协调，交付全局最优结果。[25:09 Anish Acharya]\n\n## 实验室不会吃掉应用层\n\nClaude 发布法律插件时（其实就是一打包提示词），汤森路透等法律公司股价暴跌，大家恐慌实验室要纵向整合进应用层。但实际发生的是相反的方向——实验室向下整合到推理和算力，因为推理工作负载高度同质化，可以在价值链一段建巨大规模；而应用层在定价、包装、产品化上极其碎片化，进入成本高得多。[10:30 Anish Acharya]\n\n而且现在不是\"一个模型统治一切\"的 2023 年了——帕累托前沿上每个点都有多个选项，实验室想拿走你 100% 毛利难多了。[26:40 Anish Acharya]\n\n## 消费级构建者的复兴\n\n这对做消费级产品的人是一种复兴。我们有了能在情感、人际领域运作的原语——40 年的技术提升了智力和生产力，但没什么触动过人性。而且有些产品大公司在文化上做不了——想想在 Google 推一个可能反驳你、可能含性暗示的伴侣产品，一千个委员会会拦着。初创公司有独特能力。[28:29 Anish Acharya]\n\n消费者现在愿意下载新软件、愿意付费——像 2009 年圣诞节的 iPhone 时刻，但不同于当年 99 美分，现在人们愿意一个月付 200 美元。所以要做的是思考\"软件界的奢侈品\"是什么——如果 20 美元是历史上限，你产品的 200 美元档位是什么？2000 美元档位是什么？[29:16 Anish Acharya]\n\n创始人画像也变了：MBA 更少，研究员更多。商业成熟度下降，但技术成熟度大幅上升——而技术成熟度是所有好事的上游，商业可以学，技术通常学不来。年轻创始人最好的地方是：他们假设一切都可能。[31:46 Anish Acharya]\n\n## 本集带走\n- **模型有性格和专长，不是商品**: 做会计用\"高神经质\"的精确模型，做设计用\"高开放性\"的创造模型，组织里两种都需要\n- **应用层的核心价值是模型聚合**: 像 Expedia 聚合航空公司库存一样，用统一产品架构调度多个模型，效果大于单一模型\n- **智能是原语，应用层把它变成经济成果**: 关键演进是从\"提示模型\"到\"把模型放进循环\"——Bug 修复循环、价格优化循环、甚至跨业务的战略建议循环\n- **消费者 AI 的三个障碍正在松动**: 边际成本（开放权重模型降价）、分发渠道（仍在建）、产品形态（需要从 DOS 时代进化到 Windows 级别）\n- **消费级定义在扩展**: 无法通过销售团队获取的客户（年合同额不够 15K）都算消费者，包括用 AI 改造业务的小企业主\n- **实验室向下整合到推理，不是向上吃应用层**: 推理同质化适合建规模，应用层定价包装太碎片化，实验室进不来\n- **支付意愿空前高涨**: 想产品的 200 美元甚至 2000 美元月费档位是什么——\"软件界的奢侈品\"正在出现\n- **创始人画像变了**: 技术成熟度比商业成熟度重要得多，因为商业可以教、技术通常教不会",
+  "quotes": [
+    {
+      "en": "And if you look at some of the underlying indicators, what they point to is essentially infinite demand and highly constrained supply.",
+      "zh": "如果你看看一些底层指标，它们指向的是基本无限的需求和高度受限的供应。",
+      "timestamp": "04:27",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "And we've had 40 years of technology that really boosted our intellect and productivity, but nothing that kind of spoke to our humanity.",
+      "zh": "我们经历了 40 年的技术，它真正提升了我们的智力和生产力，但没有什么能触动我们的人性。",
+      "timestamp": "28:46",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "It's like Christmas 2009 with the iPhone. People want to try new apps, but unlike the 99 cents days, they're willing to pay 200 a month.",
+      "zh": "这就像 2009 年的圣诞节伴随着 iPhone。人们想尝试新应用，但不同于 99 美分的日子，他们愿意一个月支付 200 美元。",
+      "timestamp": "29:20",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "I think the business sophistication of the founders we're seeing today is lower, but the kind of technical sophistication is dramatically higher.",
+      "zh": "我认为我们今天看到的创始人的商业成熟度较低，但技术成熟度显著更高。",
+      "timestamp": "31:51",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "Business sophistication can be kind of taught and observed, but technical sophistication typically not.",
+      "zh": "商业成熟度可以被教导和观察，但技术成熟度通常不能。",
+      "timestamp": "32:02",
+      "speaker": "Anish Acharya"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:27",
+      "speaker": "Anish Acharya",
+      "en": "And if you look at some of the underlying indicators, what they point to is essentially infinite demand and highly constrained supply.",
+      "zh": "如果你看看一些底层指标，它们指向的是基本无限的需求和高度受限的供应。"
+    },
+    {
+      "timestamp": "04:41",
+      "speaker": "Anish Acharya",
+      "en": "That is very strange. Normally we see these things be highly deflationary and it sort of points to very constricted supply and essentially infinite demand.",
+      "zh": "这非常奇怪。通常我们看到这些东西是高度通缩的，这指向了非常受限的供应和基本无限的需求。"
+    },
+    {
+      "timestamp": "06:22",
+      "speaker": "Anish Acharya",
+      "en": "No amount of coding agents is going to make Nike not Nike.",
+      "zh": "再多的编码智能体也不会让 Nike 变成不是 Nike。"
+    },
+    {
+      "timestamp": "06:50",
+      "speaker": "Anish Acharya",
+      "en": "SAP is so famously complex to integrate into and out of that it's a sort of existential risk to even migrate from one version of SAP to the next.",
+      "zh": "SAP 集成进和集成出是如此著名的复杂，以至于从一个 SAP 版本迁移到下一个版本甚至是一种生存风险。"
+    },
+    {
+      "timestamp": "09:15",
+      "speaker": "Anish Acharya",
+      "en": "GLM 5.2 and GLM 5.3 are great examples of this where they're very literal and only do exactly what you told them to do and nothing more.",
+      "zh": "GLM 5.2 和 GLM 5.3 就是这方面的很好例子，它们非常字面化，只做你告诉它们要做的确切事情，仅此而已。"
+    },
+    {
+      "timestamp": "11:49",
+      "speaker": "Anish Acharya",
+      "en": "You start to appreciate the fact that these things are not commodities, that they have comparative advantage at a domain level.",
+      "zh": "你开始体会到这些东西不是商品，它们在领域层面上具有比较优势。"
+    },
+    {
+      "timestamp": "11:58",
+      "speaker": "Anish Acharya",
+      "en": "OpenAI with their new GPT models are just so, so good at knowledge work.",
+      "zh": "OpenAI 凭借它们的新 GPT 模型非常非常擅长知识工作。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Anish Acharya",
+      "en": "There are many product categories in which model aggregation delivers a greater than sum of parts outcome.",
+      "zh": "在许多产品类别中，模型聚合能产生大于部分之和的成果。"
+    },
+    {
+      "timestamp": "14:44",
+      "speaker": "Anish Acharya",
+      "en": "The key point about the application layer is that intelligence is a primitive, just like buying cloud is a primitive.",
+      "zh": "关于应用层的关键点是，智能是一种原语，就像购买云是一种原语一样。"
+    },
+    {
+      "timestamp": "15:53",
+      "speaker": "Anish Acharya",
+      "en": "The term agent is overused, but agent is just a model in a loop with sort of tools and memory and a few other things.",
+      "zh": "\"智能体\"这个词被滥用了，但智能体只是一个处于循环中的模型，带有工具、记忆和其他一些东西。"
+    },
+    {
+      "timestamp": "18:10",
+      "speaker": "Anish Acharya",
+      "en": "AI software has marginal costs of distribution and engagement. And the marginal cost can sometimes be very high.",
+      "zh": "AI 软件在分发和参与方面有边际成本。而且边际成本有时会非常高。"
+    },
+    {
+      "timestamp": "25:37",
+      "speaker": "Anish Acharya",
+      "en": "I think GrokBots has done a nice job of kind of illustrating this in product, where you have many bots that are pointed in slightly different directions that all coordinate to deliver a globally optimal outcome.",
+      "zh": "我认为 GrokBots 在产品方面很好地说明了这一点，你有许多指向略微不同方向的机器人，它们都协调以交付全局最优结果。"
+    },
+    {
+      "timestamp": "28:46",
+      "speaker": "Anish Acharya",
+      "en": "And we've had 40 years of technology that really boosted our intellect and productivity, but nothing that kind of spoke to our humanity.",
+      "zh": "我们经历了 40 年的技术，它真正提升了我们的智力和生产力，但没有什么能触动我们的人性。"
+    },
+    {
+      "timestamp": "29:20",
+      "speaker": "Anish Acharya",
+      "en": "It's like Christmas 2009 with the iPhone. People want to try new apps, but unlike the 99 cents days, they're willing to pay 200 a month.",
+      "zh": "这就像 2009 年的圣诞节伴随着 iPhone。人们想尝试新应用，但不同于 99 美分的日子，他们愿意一个月支付 200 美元。"
+    },
+    {
+      "timestamp": "31:51",
+      "speaker": "Anish Acharya",
+      "en": "I think the business sophistication of the founders we're seeing today is lower, but the kind of technical sophistication is dramatically higher.",
+      "zh": "我认为我们今天看到的创始人的商业成熟度较低，但技术成熟度显著更高。"
+    },
+    {
+      "timestamp": "32:02",
+      "speaker": "Anish Acharya",
+      "en": "Business sophistication can be kind of taught and observed, but technical sophistication typically not.",
+      "zh": "商业成熟度可以被教导和观察，但技术成熟度通常不能。"
+    },
+    {
+      "timestamp": "35:19",
+      "speaker": "Anish Acharya",
+      "en": "So what founders have to do is actually build a product that has the original network effect, which is word of mouth.",
+      "zh": "所以创业者必须做的是真正构建一个具有原始网络效应的产品，也就是口碑。"
+    }
+  ]
+}

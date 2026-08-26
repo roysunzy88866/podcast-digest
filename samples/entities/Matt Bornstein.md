@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
+[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Simon Mo":1,"vLLM":2,"开源权重":3,"推理":1,"智能体":132,"后训练":12,"护栏":27,"Infrax":1,"K3":1}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Simon Mo":1,"vLLM":2,"开源权重":3,"推理":1,"智能体":135,"后训练":12,"护栏":28,"Infrax":1,"K3":1}</script>
 
 <script>
 (function(){

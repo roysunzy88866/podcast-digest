@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]] [[Roblox CEO]] [[Will Gabrick]]
+[[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"代币化":2,"Meta":18,"AI":9}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"代币化":2,"Meta":19,"AI":9}</script>
 
 <script>
 (function(){

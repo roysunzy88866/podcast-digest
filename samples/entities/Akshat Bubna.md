@@ -38,11 +38,11 @@ aliases: ["Akshat"]
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
+[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"swyx":1,"Vibhu":1,"Modal":2,"智能体":132,"AX":1,"DX":3,"沙箱":25,"推理":1,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"swyx":1,"Vibhu":1,"Modal":2,"智能体":135,"AX":1,"DX":3,"沙箱":25,"推理":1,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

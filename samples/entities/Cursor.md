@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>34</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>35</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -45,6 +45,7 @@ unlisted: true
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]]**(02:42起):本集提到 Ryan 一年前在 Cursor 里做工程，当时非常手把手地指导智能体，后来转向了云端
 - **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]]**(06:31起):本集说它是一个集成开发环境（IDE），被选作 AI PDLC 的核心运行环境，因为它是无代码 IDE、可以按任务挑选不同模型、且能通过 MCP 插件读取 Figma 原型并生成代码。
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(68:28起):本集称其为Sequoia之外最好的智能体公司，处于最重要市场之一，并且是第一家真正理解可以后训练模型深入堆栈底层的公司
+- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(13:39起):本集说 Cursor 在编码领域做模型聚合，用前沿模型做规划、用小模型做执行
 
 ## ① 提到它的金句
 
@@ -62,7 +63,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*34 集*
+*35 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -98,14 +99,15 @@ unlisted: true
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为被讨论公司(提及)
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为被讨论公司
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Codex]] · [[OpenAI]] · [[vibe coding]] · [[Claude Code]] · [[Anthropic]] · [[Lovable]] · [[ChatGPT]] · [[护栏]]
+[[智能体]] · [[Lenny]] · [[OpenAI]] · [[Codex]] · [[vibe coding]] · [[Anthropic]] · [[Claude Code]] · [[Lovable]] · [[ChatGPT]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":132,"Lenny":65,"Codex":27,"OpenAI":59,"vibe coding":23,"Claude Code":35,"Anthropic":65,"Lovable":9,"ChatGPT":34,"护栏":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":135,"Lenny":65,"OpenAI":61,"Codex":27,"vibe coding":23,"Anthropic":67,"Claude Code":35,"Lovable":9,"ChatGPT":35,"护栏":28}</script>
 
 <script>
 (function(){

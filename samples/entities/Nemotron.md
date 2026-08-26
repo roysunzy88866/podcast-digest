@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[NVIDIA]] · [[前沿模型]] · [[护栏]] · [[沙箱]] · [[Anthropic]] · [[OpenAI]] · [[Jensen Huang]] · [[Jensen Wong]] · [[Tane]]
 
-<script type="application/json" class="pd-epn">{"智能体":132,"NVIDIA":20,"前沿模型":4,"护栏":27,"沙箱":25,"Anthropic":65,"OpenAI":59,"Jensen Huang":3,"Jensen Wong":1,"Tane":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":135,"NVIDIA":20,"前沿模型":4,"护栏":28,"沙箱":25,"Anthropic":67,"OpenAI":61,"Jensen Huang":3,"Jensen Wong":1,"Tane":1}</script>
 
 <script>
 (function(){

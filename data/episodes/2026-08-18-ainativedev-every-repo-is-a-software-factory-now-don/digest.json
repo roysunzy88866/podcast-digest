@@ -1,115 +1,109 @@
 {
-  "title_zh": "GitHub Don Syme：为什么AI自动化的归宿是\"持续AI\"",
-  "tldr": "GitHub 首席研究员 Don Syme 提出\"持续 AI\"概念，主张把智能体自动化像 CI/CD 一样嵌入仓库，让团队而非个人成为 AI 编码的主战场。",
-  "digest_md": "AI 行业有个盲点：几乎所有注意力都放在了聊天模式和个人生产力上，却忽略了协作和自动化这个维度。Don Syme 把后者叫做\"持续 AI\"（continuous AI）——跟持续集成、持续部署并列的第三根支柱 [03:57 Don Syme]。\n\nCI/CD 是确定性的：跑测试、部署，要么过要么不过。持续 AI 处理的是另一类事——持续改进代码性能、给 issue 打标签、找重复 bug、简化文档语言。这些事是\"主观的\"，AI 能做但结果不确定，可你又必须让它们变成一种持久运行的运营活动，而不是一次性地跑一下就算了 [06:12 Don Syme]。\n\n关键在于\"界定上下文\"：自动化必须在仓库这个有边界的场景里跑，每次运行只能创建特定的 issue 或 pull request，不能乱来。AI 一旦脱离边界就会脱轨，但有了防火墙式的约束，它就能稳定地做事 [09:42 Don Syme]。\n\n不过这听起来反直觉——很多人听到\"把 AI 放进 CI/CD 附近\"就紧张，觉得那是\"大人们待的地方\"，是确立系统确定性的核心，不该掺入主观判断。所以 Don 强调：持续 AI 是独立的一类东西，CI/CD 原样不动，你想用多少持续 AI 就用多少，可以调高也可以关掉 [11:00 Don Syme]。\n\n## GitHub 智能体工作流：在仓库里跑云端智能体\n\nGitHub 把这个理念做成了产品——GitHub 智能体工作流（Agentic Workflows），目前处于公开预览阶段 [18:52 Don Syme]。本质就是：把你熟悉的编码智能体（Claude Code、Copilot CLI、Gemini CLI 等），放在 GitHub Actions 里、在强护栏下自动运行。智能体可以自选，模型可以自选，密钥自带，整体开源可审计 [19:11 Don Syme]。\n\n护栏是核心——护栏越强，自动化就能跑越快，就像铁轨越结实火车就能跑越快。没有护栏的自动化，你根本没法安心睡觉 [20:08 Don Syme]。具体做法包括：默认忽略不受信任贡献者的 issue，你要处理第三方信息必须主动选择加入；禁止私有仓库的数据被公共仓库里的智能体访问 [21:10 Don Syme]。\n\n单次运行不一定是一对一。一个工作流可以处理多个 issue、创建多个 PR，也可以每天做一次研究但不改代码——比如分析仓库性能瓶颈，输出\"前五大优化机会\"的报告，然后由人决定接下来实现哪些 [23:05 Don Syme]。\n\n## 仓库作为生产现场：为什么是以仓库为中心\n\n设计上刻意选择了\"以仓库为中心\"——自动化定义在仓库里、在仓库里执行，跟 CI/CD 一样。这不仅仅是技术选择，更是一个组织决策：当企业采用 GitHub 时，实际上是在告诉开发者\"这个叫仓库的地方，你被授权在这里自动化\" [28:04 Don Syme]。\n\n开发者不需要去找云团队申请新机器、不需要申请预算，他们直接在仓库里声明计算、网络、存储资源就能用。这正是 CI/CD 如此成功的关键组织动态——把资源授权推到了一线 [29:13 Don Syme]。持续 AI 走同一条路：会有成本中心、会计控制、可见性、授权上下文，但在边界内，接近代码的人自己决定怎么用 AI [30:05 Don Syme]。\n\nDon 更愿意把仓库叫\"生产现场\"而非\"工厂\"——工厂暗示重复流水线，但 AI 的用途极其广泛，也可以像电影制片厂或工作台，关键是\"在这里产生价值\" [27:09 Don Syme]。\n\n当然有张力。跨仓库的自动化不好处理；AI 又在推动 monorepo（单一大仓库）回潮——因为模型训练在单仓库上下文里效果最好，但 monorepo 庞大难管之后，仓库作为安全边界和授权单元就开始模糊了 [33:10 Guy Fajani]。Don 承认这些张力是真实的，GitHub 需要做工作让\"仓库集合\"也能成为协作上下文，而不是逼着所有人把东西塞进一个仓库 [34:35 Don Syme]。\n\n一个实用的分层：最内层是仓库自有数据的自动化（最佳场景）；中间层是\"侧仓库\"模式——专门建一个仓库来跑自动化、监控其他仓库（GitOps 世界常见的做法）；最外层是需要大量计算突发或专有 AI 工具的场景，逻辑上应该在 GitHub 外面跑 [43:30 Guy Fajani]。\n\n## 一个工作流还是一群工作流\n\nDon 的个人倾向是\"一个工作流做多件事\"——他做了一个叫 Repo Assist 的广谱仓库助手，集成了 issue 标记、首次回复、可选的 PR 创建，每天早上看它昨晚产出了什么 [47:18 Don Syme]。理由是概念简单、维护负担低，尤其当你同时维护多个仓库时，一个关注点比五个工作流好管得多 [46:38 Don Syme]。\n\n他的合作者 Pelly 则倾向于\"智能体动物园\"——几十个独立工作流各干各的，更多是为了探索空间。两种方式都有道理，但如果你的注意力有限，合并是更务实的选择 [46:08 Don Syme]。\n\n成本控制在这种模式下变得自然：定时工作流有固定节奏，你可以在历史记录里看到每次运行的平均成本（几美分到一美元不等），据此估算月度开销 [50:13 Don Syme]。GitHub 智能体工作流内置了成本控制功能——Don 认为这应该是所有智能体编排系统的标配，但在个人生产力场景里反而不太自然 [50:36 Don Syme]。\n\n还有一个实用的\"考试测试\"功能：让多个模型在完全相同的时间做完全相同的工作，然后比较结果。关键是必须同时跑——因为它们共享同一个仓库作为账本，如果不同时跑，后跑的模型会看到前面模型写的已关闭 issue 或 PR，等于偷看了答案 [51:05 Don Syme]。\n\n## 人在回路里，但工厂的活法不一样\n\n当前的原则很明确：人在回路里，没有 PR 会被自动合并。代码是\"黄金真理\"，修改代码的 PR 必须人来批 [54:19 Don Syme]。GitHub Actions 本身就有内置限制，防止工作流创建的 PR 去修改工作流自身，防止恶意行为者篡改 CI/CD 流水线 [54:51 Don Syme]。\n\n但 Don 也承认，人类审查是瓶颈。他的解法不是绕过人，而是把工厂的质量关卡做足——如果智能体产出的 PR 质量低，根本就不该送到人面前。工厂创建者的职责是交付高质量的 PR，并且\"装备\"审查者：提供为什么要改、风险是什么、权衡是什么、是否最小化变更等全部信息，加上尽可能多的自动化质量门禁检查 [60:08 Don Syme]。\n\n他在 GitHub 内部跑了一个 CI 性能改进工厂，每天找长时间运行的测试、分析矩阵是否过大。产出 PR 时附带直接证据：改之前测试跑 120 秒，改之后 15 秒。审阅者看到数字就能拍板 [61:19 Don Syme]。至于质量不过关的产出——\"如果工厂生产垃圾，你就扔掉，这是工厂的本质\" [00:00 Don Syme]。\n\n## 本集带走\n\n- **持续 AI 是 CI/CD 的补充，不是替代**：它处理主观、非确定性的活动（文档优化、bug 分类、性能改进），但跟 CI/CD 分开，你可以自由调节用量。\n- **仓库是授权边界，不只是代码容器**：以仓库为中心的设计把 AI 资源的使用权推到了一线开发者手里，跟 CI/CD 当年的组织逻辑一致。\n- **护栏越强，自动化越快**：默认忽略不受信任来源、禁止私有数据外泄、限制 PR 自修改——这些不是阻碍，是让自动化能放心跑的\"铁轨\"。\n- **一个工作流 vs 智能体动物园**：如果维护精力有限，合并成单个广谱工作流（如 Repo Assist）比养几十个独立工作流更务实；成本控制和节奏调节也更简单。\n- **工厂的思路是\"大量丢弃\"**：把质量关卡做在 PR 送到人之前，低质量产出直接丢弃；送到人面前的 PR 要附带完整证据和上下文，让审查者能快速决策。\n- **多模型\"考试测试\"必须同时跑**：因为共享仓库账本，不同时执行就会互相\"偷看\"已写入的答案，导致比较失效。",
+  "title_zh": "Don Syme：持续AI，把仓库变成软件工厂",
+  "tldr": "GitHub 首席研究员 Don Syme 提出\"持续AI\"概念——把AI驱动的主观性任务（文档、bug分类、代码改进）像CI/CD一样跑在仓库里，形成可调度、有护栏的自动化流水线。",
+  "digest_md": "AI 行业有一个盲点：几乎所有关注都集中在\"一个人跟 AI 聊天\"的个人生产力模式上。Don Syme 认为缺失的另一面是——协作、自动化、以及嵌入在具体上下文中的自动化。他们给这个东西起了个名字叫\"持续 AI\"，跟持续集成（CI）、持续部署（CD）并列 [04:23 Don Syme]。\n\nCI/CD 的核心特征是\"持续\"——不断融入变化、事件、增量，然后重新确立关键的不变性：软件能跑、部署正确。持续 AI 继承了\"持续\"这个特质，但处理的是不同类型的活动：持续改进性能、持续分类 bug、持续给 issue 打标签、持续找重复 bug。这些活动是主观的、非确定性的，不像 CI/CD 那样追求完全确定性 [06:12 Don Syme]。你可以一次性做这些事，但要让它们真正可持续，就得放在一个操作性的、永久运行的基础上 [06:54 Don Syme]。\n\n持续 AI 跟 CI/CD 是分开的两个桶，不是把 AI 塞进你的 CI 里。CI/CD 保持原样，持续 AI 是独立的东西，你可以全做、可以不做、可以随意调节力度 [11:54 Don Syme]。\n\n这个概念的具体实现就是 GitHub Agentic Workflows，目前处于公开预览阶段 [18:52 Don Syme]。它的定义很简洁：在 GitHub Actions 里，用强护栏运行你熟悉的 coding agents（比如 Claude Code、Copilot CLI、Gemini CLI），做智能自动化 [19:11 Don Syme]。你可以选不同的 agent、不同的模型、自带 key，整个东西是开源的 [19:48 Don Syme]。\n\n## 护栏就是铁轨，铁轨越强跑得越快\n\n\"护栏越好，你用自动化跑得就越快。这就像铁轨——铁轨越强，你跑得越快。\" [20:17 Don Syme] 这是一个被广泛忽略的点。在自动化模式下，你必须能晚上睡得着觉——东西在你不在的时候跑、响应事件、你不监看也能信任它，同时确保信息流的完整性和可审查性，不泄露信息 [20:32 Don Syme]。\n\n具体的智能体安全基础包括：不要让私有仓库对运行在公共仓库里的 agent 可访问；处理来自第三方的问题时要三思。GitHub 的默认做法是忽略来自不受信任贡献者的 issue，你必须主动选择加入才能让 agent 处理那类信息 [21:10 Don Syme]。\n\n## 仓库是生产现场，也是权限边界\n\n持续 AI 的核心设计决策是以仓库为中心。这跟 CI/CD 的做法一致——高度以仓库为锚点的流程和自动化 [26:20 Don Syme]。当组织采用 CI/CD 和 GitHub 时，本质上是在对开发者说：这个叫仓库的地方，我们授权你在它的边界内做自动化。你不需要去找云团队申请机器、不需要申请预算，你在边界内就有权声明计算、网络、存储资源 [28:40 Don Syme]。这就是 CI/CD 如此成功的一个关键组织动态——它赋权了最接近一线的人 [29:32 Don Syme]。\n\nDon 更喜欢把仓库叫\"生产现场\"而非\"工厂\"——工厂的类比在重复性流水线任务时最有用，但 AI 的使用广度远超流水线，也可以像制片厂、工作台 [27:09 Don Syme]。\n\n当然有张力。跨仓库的操作（比如 CD 经常涉及多个仓库）是个问题；AI 时代单体仓库的回潮也带来挑战——智能体被训练在单仓库上下文工作，但需要其他仓库的信息，于是大家把东西全塞进一个仓库，导致仓库变成怪兽，\"仓库作为项目身份\"的清晰度被磨损 [33:10 Guy Fajani]。Don 承认这些张力是真实的，GitHub 需要做工作让\"仓库集合\"也能成为有效的协作上下文，而不是强迫一切进一个仓库 [34:35 Don Syme]。\n\n## 什么适合跑在仓库里，什么不适合\n\n大致分三层 [43:30 Guy Fajani]：\n\n**第一层——最佳场景**：信息跟仓库里的代码/内容直接相关。比如代码改进、性能优化、样式调整。Don 的团队记录了 20 到 40 个 agent 模式，很多有 70% 到 80% 的 PR 合并率 [38:13 Don Syme]。\n\n**第二层——便利场景**：仓库只是运行定期任务的便利载体。比如 GitOps 模式——创建一个\"侧仓库\"，里面的自动化目标是监控别的仓库。侧仓库模式对控制\"谁能改自动化、谁能跑自动化\"的权限也很有用 [44:07 Don Syme]。\n\n**第三层——外部场景**：需要大量算力突发、或使用专有 AI 工具的深度专业任务（如安全 agent、渗透测试），逻辑上应该在 GitHub 外面跑 [42:07 Don Syme]。但也经常看到混合模式——比如一家叫 HUD 的公司，主智能在生产环境做探针和 AI 处理，然后用 GitHub Agentic Workflows 做向仓库定期汇报的辅助角色 [42:22 Don Syme]。\n\n## 一个工作流还是一群工作流\n\nDon 的合作者 Pelly 偏好\"智能体动物园\"——几十个独立工作流各干各的，适合探索空间 [46:08 Don Syme]。但 Don 自己维护多个开源仓库，注意力有限，他偏好一个广谱工作流（他叫 Repo Assist）——打标签、研究 issue、首次回复、选择性地开 PR 修 issue，但不会自动合并 PR [47:18 Don Syme]。理由是概念简洁性——五个工作流比一个复杂得多；而且一个工作流是一个成本控制点 [48:01 Don Syme]。\n\n成本是调度频率 × 每次运行费用。每次运行可能在几美分到一美元之间，取决于用的模型。你可以根据仓库活跃度调高或调低频率 [50:17 Don Syme]。GitHub Agentic Workflows 有很强的成本控制功能——Don 认为这是 harness/loop 讨论中缺失的关键一块，在自动化世界里很自然，在个人生产力模式下反而不自然 [50:36 Don Syme]。\n\n还有一个实用功能：可以让多个模型在完全相同的时间做完全相同的工作（\"考试测试\"），然后比较结果。关键是必须同时跑，因为如果共享账本里已经被某个模型写入了答案（比如关掉的 issue），其他模型会去找那个答案 [51:14 Don Syme]。\n\n## 人类始终在回路里，但工厂的活法是\"扔垃圾\"\n\n\"在这个世界里，人类始终在回路中。\"没有 PR 会在人类没批准的情况下被合并 [54:19 Don Syme]。GitHub Actions 本身就有内置限制——action 创建的 PR 不能修改 action 自身，防止恶意行为者篡改 CI/CD 流水线，这个思路延续到了智能体工作流 [54:51 Don Syme]。\n\n那人类审查的瓶颈怎么办？Don 的思路不是自动合并，而是把工厂的质量关卡做到极致。他自己在 GitHub 内部跑了一个\"CI 性能改进工厂\"——他的工作是交付高质量的 PR，让审查者\"装备齐全\"：带着所有需要的信息——为什么要改、风险是什么、权衡是什么、是不是最小改动、尽可能多的质量门禁检查 [60:34 Don Syme]。\n\n在这种场景下，证据就在眼前：改之前的测试跑了 120 秒，改之后跑了 15 秒，这种改进是可以\"存进银行\"的 [61:22 Don Syme]。而那些质量不行的？\"如果它生产垃圾，你就把它扔掉。这就是工厂的天性。\" [00:02 Don Syme] 在这种世界里，扔掉的东西比以前多得多，因为生产的成本相对低了 [61:52 Don Syme]。\n\n## 本集带走\n\n- **持续 AI 是 CI/CD 的并列伙伴，不是 AI 塞进 CI**：它处理主观性、非确定性的重复任务（文档、bug分类、代码改进），跟 CI/CD 分开，力度可调\n- **护栏等于速度**：在自动化模式下，护栏越好你跑得越快；不要让私有仓库对公共 agent 可访问，处理第三方 issue 要主动选择加入\n- **仓库是权限边界，不只是代码容器**：CI/CD 成功的关键组织动态是——在仓库边界内赋权开发者声明计算资源，不需要额外审批。持续 AI 延续这个模式\n- **一个广谱工作流 vs 智能体动物园**：探索期可以放开跑很多工作流，但维护期偏好一个能做多件事的工作流——概念更简洁、成本控制点更集中\n- **工厂的核心不是自动合并，是质量关卡**：人类始终在 PR 合并的回路里；工厂要做的就是尽可能多的自动化质量检查，把低质量产出在到达人类之前就筛掉，质量不够的直接扔掉\n- **用\"考试测试\"选模型**：让多个模型同时做同样的工作、同时出结果，避免后跑的模型从共享账本里偷看答案",
   "quotes": [
     {
-      "timestamp": "00:00",
+      "timestamp": "00:02",
       "speaker": "Don Syme",
       "en": "If it produces rubbish, you throw it away, right?",
-      "zh": "如果它生产垃圾，你就把它扔掉，对吧？"
-    },
-    {
-      "timestamp": "00:10",
-      "speaker": "Don Syme",
-      "en": "You know, there's just no point creating a pull request for the human to review when that thing is low quality.",
-      "zh": "你知道，当那个东西质量低劣时，让人去审查它而创建一个拉取请求是没有意义的。"
+      "zh": "如果它生产垃圾，你就会把它扔掉，对吧？"
     },
     {
       "timestamp": "04:23",
       "speaker": "Don Syme",
       "en": "But we think there's kind of a a missing point of view, which is about uh collaboration and which is about automation and which is about situated automation.",
-      "zh": "但我们认为缺少一种观点，即关于协作，关于自动化，以及关于情境化自动化。"
+      "zh": "但我们认为有点缺失的观点，它是关于协作，它是关于自动化，它是关于情境化自动化。"
     },
     {
-      "timestamp": "06:52",
+      "timestamp": "06:54",
       "speaker": "Don Syme",
-      "en": "But you've got to make that continuous, right?",
-      "zh": "但你必须让它变得持续，对吧？"
+      "en": "But you've got to make that continuous, right? You gotta you gotta get that on an operational, permanently running kind of basis for that to really be a sustained activity.",
+      "zh": "但你得让它持续化，对吧？你得把它放在操作性的、永久运行的基础上，对那来说真正成为一项持续的活动。"
     },
     {
-      "timestamp": "09:52",
+      "timestamp": "11:02",
       "speaker": "Don Syme",
-      "en": "People, um, conversations about some kind of automated I often go AI go off the rails unless you're actually situated inside actually some bounded kind of context.",
-      "zh": "关于某种自动化的对话，我经常说，除非你实际上处于某种被界定的上下文内，否则 AI 会脱轨。"
+      "en": "A lot of people listening on this might say, CI CD, I don't want AI anywhere near that, right? That's like that's my determinism, and there's a reason for that, which is it the one of my friends kind of says, it's the place where the grown-ups are, right?",
+      "zh": "很多听这个的人可能会说，CI CD，我不希望 AI 出现在那附近，对吧？那是我的确定性，那是有原因的，它是我一个朋友说的，那是成年人的地方，对吧？"
     },
     {
-      "timestamp": "11:09",
+      "timestamp": "11:54",
       "speaker": "Don Syme",
-      "en": "That's like that's my determinism, and there's a reason for that, which is it the one of my friends kind of says, it's the place where the grown-ups are, right?",
-      "zh": "这就像是那是我的决定论，而且那是有原因的，就是我朋友中有人有点这么说，那是大人们待的地方，对吧？"
-    },
-    {
-      "timestamp": "11:57",
-      "speaker": "Don Syme",
-      "en": "And continuous AI is a separate bucket of things.",
-      "zh": "而持续 AI 是一个独立的一类事物。"
+      "en": "It's CICD, they stay as they are. And continuous AI is a separate bucket of things. You can do none of it if you like, you can do a lot of it if you like.",
+      "zh": "CI CD 保持原样。而持续 AI 是一个独立的事物桶。如果你愿意，你可以什么都不做，如果你愿意，你可以做很多事情。"
     },
     {
       "timestamp": "20:17",
       "speaker": "Don Syme",
       "en": "It's like train tracks, you know. The the stronger the train tracks, the the faster you can run.",
-      "zh": "这就像铁轨，你知道。铁轨越强，你就能跑得越快。"
+      "zh": "这就像铁轨，你知道。铁轨越强，你跑得就越快。"
     },
     {
-      "timestamp": "20:22",
+      "timestamp": "20:32",
       "speaker": "Don Syme",
       "en": "This is so crucial, and so many people are kind of missing this in that uh in the automated modality, in the continuous AI modality, you've got to be able to sleep at night.",
-      "zh": "这非常关键，很多人在自动化模式下，在持续 AI 模式下错过了这一点，你必须能够晚上睡得着觉。"
+      "zh": "这是如此关键，而且这么多人错过了这一点，在自动化模式中，在持续 AI 模式中，你必须能够晚上睡得着觉。"
+    },
+    {
+      "timestamp": "28:40",
+      "speaker": "Don Syme",
+      "en": "Here's a place called the repo, where we as the the organization give you the permission to automate within that bound. You the developers know best what automation you need for your repositories.",
+      "zh": "这是一个叫仓库的地方，我们作为组织给你许可在那个边界内自动化。你们开发者最清楚你们仓库需要什么自动化。"
     },
     {
       "timestamp": "29:32",
       "speaker": "Don Syme",
-      "en": "And this is why CICD is so successful, okay, because there is a boundary context where they can developers are empowered to claim resources.",
-      "zh": "这就是为什么 CI/CD 如此成功，好的，因为存在一个边界上下文，在这个上下文中开发者被授权去声明资源。"
+      "en": "This is why CICD is so successful, okay, because there is a boundary context where they can developers are empowered to claim resources. They do not have to go and ask the cloud team in the company for a new machine, they do not have to go ask for a budget.",
+      "zh": "这就是为什么 CI CD 如此成功，因为有一个边界上下文，开发者被赋予权力在其中声明资源。他们不需要去公司里的云团队申请一台新机器，他们不需要去申请预算。"
     },
     {
-      "timestamp": "29:40",
+      "timestamp": "34:35",
       "speaker": "Don Syme",
-      "en": "They do not have to go and ask the cloud team in the company for a new machine, they do not have to go ask for a budget.",
-      "zh": "他们不必去向公司的云团队申请新机器，也不必去申请预算。"
+      "en": "I think there's absolutely work we can do at GitHub to to tackle to give more effective solutions to stop you being sort of forced to bring everything into one repo, at least give you more kind of choice and control about where that's where how that works.",
+      "zh": "我认为我们在 GitHub 绝对可以做些工作来提供更有效的解决方案，阻止你被迫把所有东西带到一个仓库，至少给你更多的选择和控制，关于那是如何工作的。"
     },
     {
-      "timestamp": "39:15",
+      "timestamp": "48:01",
       "speaker": "Don Syme",
-      "en": "And there's some a lot of them have got like 70, 80 percent kind of PR merge rates.",
-      "zh": "有一些很多它们有像 70、80 百分比的那种 PR 合并率。"
+      "en": "I just find having five workflows considerably more complex than kind of having one.",
+      "zh": "我只是觉得拥有五个工作流比拥有一个要复杂得多。"
     },
     {
-      "timestamp": "46:38",
+      "timestamp": "50:36",
       "speaker": "Don Syme",
-      "en": "You know, that's you've got to maintain that zoo, you've got to attend to that. And my attention like span is limited, right? I don't want this to be sucking all my my my time.",
-      "zh": "你知道，就是你得维护那个动物园，你得照顾它。而且我的注意力持续时间是有限的，对吧？我不想这吸干我所有的时间。"
+      "en": "I think harnesses should have cost controls and kind of budgeting as an absolutely crucial kind of thing. And again, it's the kind of thing that becomes natural in the automation world, but it's a little bit uh unnatural in individual productivity.",
+      "zh": "我认为 harnesses 应该具有成本控制和预算编制，作为一个绝对关键的事情。同样，这是在自动化世界中变得自然的事情，但在个人生产力方面有点不自然。"
     },
     {
-      "timestamp": "50:42",
+      "timestamp": "51:14",
       "speaker": "Don Syme",
-      "en": "It's the thing that's missing from the harness discussion. I think harnesses should have cost controls and kind of budgeting as an absolutely crucial kind of thing.",
-      "zh": "这是 harness 讨论中缺失的东西。我认为 harness 应该具有成本控制和预算作为一种绝对关键的事情。"
-    },
-    {
-      "timestamp": "51:33",
-      "speaker": "Don Syme",
-      "en": "And that really matters when you're using a shared ledger, because if you write anything to that ledger that hints at the answer to that, like a closed issue or something like that, those models will go find it.",
-      "zh": "当你使用共享账本时，这真的很重要，因为如果你向该账本写入了任何暗示答案的东西，比如一个已关闭的问题或类似的东西，那些模型会去找到它。"
+      "en": "You can absolutely you can uh we we've we've added features that it will do exactly the same work at exactly the same time with multiple models. No, you've got to test those models at exactly the same time.",
+      "zh": "你绝对可以，我们添加了功能，让多个模型在完全相同的时间做完全相同的工作。不，你必须在完全相同的时间测试那些模型。"
     },
     {
       "timestamp": "54:19",
       "speaker": "Don Syme",
-      "en": "To be uh to be clear that in this world the human is always in the loop.",
-      "zh": "为了明确在这个世界中人类总是在循环中。"
-    },
-    {
-      "timestamp": "56:16",
-      "speaker": "Don Syme",
-      "en": "The code is kind of a kind of the golden truth of uh of of what's going on.",
-      "zh": "代码是有点某种关于正在发生什么的黄金真理。"
+      "en": "To be uh to be clear that in this world the human is always in the loop. No pull request gets merged without the human actually approving that.",
+      "zh": "需要明确的是，在这个世界里，人类始终在回路中。没有拉取请求会在人类实际批准的情况下被合并。"
     },
     {
       "timestamp": "60:34",
       "speaker": "Don Syme",
-      "en": "My job is to equip the reviewer with all the information they need to understand why this is being done, what are the risks involved, what are the trade-offs involved, is this a minimal thing, as many quality gate checks on this thing as possible.",
-      "zh": "我的工作是用所有他们需要的信息来装备审阅者，以理解为什么要做这个，涉及什么风险，涉及什么权衡，这是否是一个最小的事物，尽可能多地对这个事物进行质量门禁检查。"
+      "en": "My job as a factory creator is to deliver high-quality pull requests where the reviewer is equipped, and I love that word equipped. My job is to equip the reviewer with all the information they need to understand why this is being done, what are the risks involved, what are the trade-offs involved.",
+      "zh": "我作为工厂创建者的工作是交付高质量的拉取请求，让审查者装备齐全，我喜欢 equipped 这个词。我的工作是装备审查者以他们理解为什么这样做所需的所有信息，涉及什么风险，涉及什么权衡。"
+    },
+    {
+      "timestamp": "61:22",
+      "speaker": "Don Syme",
+      "en": "You've got a run that was done with the zero changes or the latest run on master or whatever, on main, and then you've got the run that's done here, and you see, look, the test took 120 seconds there, and it took 15 seconds there. That we can bank that kind of improvement.",
+      "zh": "你有一个零更改的运行或在 main 上的最新运行，然后你有在这里做的运行，你看，测试在那里花了 120 秒，在这里花了 15 秒。这种改进我们可以存进银行。"
+    },
+    {
+      "timestamp": "61:52",
+      "speaker": "Don Syme",
+      "en": "It's a lot of throwing stuff away in this kind of world, much more than before.",
+      "zh": "在这种世界里扔掉很多东西比以前多得多。"
     }
   ]
 }

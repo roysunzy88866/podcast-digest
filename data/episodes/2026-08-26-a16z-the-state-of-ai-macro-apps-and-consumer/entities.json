@@ -1,0 +1,1000 @@
+{
+  "episode_id": "2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer",
+  "podcast": "The a16z Show",
+  "date": "2026-08-26",
+  "tags": [
+    "AI 应用层",
+    "模型聚合",
+    "消费者 AI",
+    "智能体循环",
+    "护城河"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "anish-acharya",
+      "type": "person",
+      "role": "host",
+      "name": "Anish Acharya",
+      "file": "Anish Acharya",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.242,
+            24.734
+          ],
+          "quote": "In this episode, Jen Ka sits down with Anish Acharya to unpack where AI goes next, from an increasingly competitive model landscape to the explosion of applications turning raw intelligence into products people actually use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jen-ka",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jen Ka",
+      "file": "Jen Ka",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.242,
+            24.734
+          ],
+          "quote": "In this episode, Jen Ka sits down with Anish Acharya to unpack where AI goes next, from an increasingly competitive model landscape to the explosion of applications turning raw intelligence into products people actually use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 的新 GPT 模型非常擅长知识工作，ChatGPT 桌面应用是做电子表格、幻灯片、文档的完美容器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            158.292,
+            166.975
+          ],
+          "quote": "Even more broadly over the course of the year, we went from Anthropic feeling like they were so dominant they could do no wrong to OpenAI who's just had an excellent three months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            718.165,
+            722.747
+          ],
+          "quote": "OpenAI with their new GPT models are just so, so good at knowledge work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1471.053,
+            1478.235
+          ],
+          "quote": "So we're starting to see some of these sort of loops emerge around self-improvement, kind of health and finance are the two areas that OpenAI is focused on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1721.24,
+            1726.005
+          ],
+          "quote": "You know, you could like have a conversation with Claude or OpenAI or K3 and feel feelings.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Claude Code 极度面向软件工程，从终端 UI 到代码规划测试都为工程师量身定制；还提到 Claude 发布法律插件引发汤森路透等股价暴跌",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            158.292,
+            166.975
+          ],
+          "quote": "Even more broadly over the course of the year, we went from Anthropic feeling like they were so dominant they could do no wrong to OpenAI who's just had an excellent three months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            212.146,
+            214.386
+          ],
+          "quote": "But obviously, Anthropic's going public later this year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            635.548,
+            639.131
+          ],
+          "quote": "You know, Anthropic, Claude released what is called a legal plugin.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "xai",
+      "type": "company",
+      "role": "company",
+      "name": "xAI",
+      "file": "xAI",
+      "primary": false,
+      "how_described": "本集说 xAI 从模型方面不是真正竞争者变成了三强之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            145.743,
+            153.789
+          ],
+          "quote": "I mean, if you look at what's happened in the last two weeks, xAI went from not even being a real contender on the model side to being one of three.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            176.298,
+            182.18
+          ],
+          "quote": "They're both growing like crazy despite each other's continued successes, xAI and OpenWave as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sap",
+      "type": "company",
+      "role": "company",
+      "name": "SAP",
+      "file": "SAP",
+      "primary": false,
+      "how_described": "本集说 SAP 以集成复杂著称，从一个版本迁移到下一个甚至有生存风险，是集成护城河的典型例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            410.187,
+            418.493
+          ],
+          "quote": "SAP is so famously complex to integrate into and out of that it's a sort of existential risk to even migrate from one version of SAP to the next.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集说 Salesforce 拿 AWS 云原语变成 CRM 软件交付经济成果，是应用层角色的比喻",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            892.085,
+            893.466
+          ],
+          "quote": "And what does Salesforce do?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "本集说你需要 Harvey 把智能原语变成法律行业的经济成果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            905.735,
+            912.478
+          ],
+          "quote": "You know, it's great to have the raw intelligence primitive, but you really need Harvey to turn that into an economic outcome for the legal industry.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说 Cursor 在编码领域做模型聚合，用前沿模型做规划、用小模型做执行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            819.813,
+            830.303
+          ],
+          "quote": "Similarly, in coding, we're actually seeing this with Cursor a ton where you want to do a very frontier model for planning, for example, but then you can use a lesser model for execution.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "11-labs",
+      "type": "company",
+      "role": "company",
+      "name": "11 Labs",
+      "file": "11 Labs",
+      "primary": false,
+      "how_described": "本集说 11 Labs 在语音和音乐方面做得令人难以置信",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            841.413,
+            845.717
+          ],
+          "quote": "So you've got something like in 11 Labs, which of course is incredible at voice, music as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "black-forest",
+      "type": "company",
+      "role": "company",
+      "name": "Black Forest",
+      "file": "Black Forest",
+      "primary": false,
+      "how_described": "本集说 Black Forest 在视频和创意方向方面做得非常出色",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            845.737,
+            851.503
+          ],
+          "quote": "And then you've got something like Black Forest, which is doing such an excellent job in kind of video and creative direction.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "grokbot",
+      "type": "company",
+      "role": "company",
+      "name": "GrokBot",
+      "file": "GrokBot",
+      "primary": true,
+      "how_described": "本集说 GrokBot 是一个足智多谋的个人智能体产品，睡觉前拍张牛仔裤照片说预算，早上醒来它已经研究、比价、用信用卡买好了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            68.803,
+            77.033
+          ],
+          "quote": "Anish and I were at a GP offsite earlier this week, and he shared with me that he's already running GrokBot, and it's purchased a bunch of genes for him.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1209.962,
+            1216.867
+          ],
+          "quote": "We're starting to see, with the emergence of Grokbot and ChatGPT, more personal agents being turned into software that consumers can use.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "type": "company",
+      "role": "company",
+      "name": "Town",
+      "file": "Town",
+      "primary": false,
+      "how_described": "本集说 Town 是一个非凡的生产力产品，能管理个人收件箱、清洗订阅，并通过记忆实现复合改进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1217.562,
+            1220.643
+          ],
+          "quote": "Anisha, actually, do you mind just pausing on this before we go to the town demo?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1303.645,
+            1307.247
+          ],
+          "quote": "Okay, and I think Town, for folks who have used it, it's just such a magical experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1319.575,
+            1320.876
+          ],
+          "quote": "And Town is an investment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1358.806,
+            1363.291
+          ],
+          "quote": "Yeah, this is a great one because folks can utilize Town for their personal use case.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1391.603,
+            1394.464
+          ],
+          "quote": "However, I plug town into it and like, I don't even check it anymore.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1394.504,
+            1396.365
+          ],
+          "quote": "If there's something important, town will surface it to me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1498.91,
+            1509.116
+          ],
+          "quote": "You know, when you think about these personal agent examples, whether it be town or ethos, et cetera, all point to, you know, kind of one assistant having context, but it seems like there's many different options.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "decagon",
+      "type": "company",
+      "role": "company",
+      "name": "Decagon",
+      "file": "Decagon",
+      "primary": false,
+      "how_described": "本集提到 Decagon 的创始人 Jesse Tsang 发文说对很多公司来说开源实际上是唯一选项，因为可以本地化、训练、微调",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            511.9,
+            516.982
+          ],
+          "quote": "But our founder, Jesse Tsang from Decagon, dropped this great post around the fact that in some respects, and...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集说 Replit 是普通不熟悉代码的小企业主的一个极好的抽象层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1041.153,
+            1046.258
+          ],
+          "quote": "All the way up to Replit, which is a great abstraction layer for the average small business owner that's unfamiliar with code.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "character",
+      "type": "company",
+      "role": "company",
+      "name": "Character",
+      "file": "Character",
+      "primary": false,
+      "how_described": "本集说 Character 有点像是一家娱乐公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1280.848,
+            1283.429
+          ],
+          "quote": "You know, I would argue Character was kind of an entertainment company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "expedia",
+      "type": "company",
+      "role": "company",
+      "name": "Expedia",
+      "file": "Expedia",
+      "primary": false,
+      "how_described": "本集用 Expedia 做比喻：你不想分别去联合航空、达美航空、西南航空的网站，你想要一个地方看到所有库存",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            806.427,
+            809.088
+          ],
+          "quote": "And a good metaphor for this is Expedia.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            809.288,
+            814.79
+          ],
+          "quote": "It's so much more useful to use Expedia than it is to go to United, than to go to Delta, than to go to Southwest.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "thomson-reuters",
+      "type": "company",
+      "role": "company",
+      "name": "Thomson Reuters",
+      "file": "Thomson Reuters",
+      "primary": false,
+      "how_described": "本集说 Claude 发布法律插件时汤森路透等法律公司股价暴跌",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            647.037,
+            653.444
+          ],
+          "quote": "And there was this huge panic and all of a sudden, Thomson Reuters and a bunch of other sort of, you know, big legal names traded down dramatically.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体就是带工具、带记忆的循环中的模型，从提示模型演进到把模型放进循环，如 Bug 修复循环、价格优化循环、甚至跨业务的战略建议循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            953.692,
+            959.114
+          ],
+          "quote": "The term agent is overused, but agent is just a model in a loop with sort of tools and memory and a few other things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1498.91,
+            1509.116
+          ],
+          "quote": "You know, when you think about these personal agent examples, whether it be town or ethos, et cetera, all point to, you know, kind of one assistant having context, but it seems like there's many different options.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "application-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "应用层 (application layer)",
+      "file": "应用层",
+      "primary": true,
+      "how_described": "本集说应用层的关键是把智能原语变成经济成果，在定价、包装、产品化上极其碎片化，实验室进不来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            25.575,
+            37.666
+          ],
+          "quote": "They discuss why AI models aren't becoming commodities, where open-weight models have an advantage, and why a niche believes the application layer can capture significant value even as frontier labs continue to grow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            234.104,
+            240.767
+          ],
+          "quote": "Then we're going to hop into the application layer broadly and sort of talk through why applications are the productization of the intelligence primitive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            655.467,
+            660.953
+          ],
+          "quote": "And there was a lot of discussion about if labs were going to integrate, vertically integrate up into the application layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            677.682,
+            689.045
+          ],
+          "quote": "Whereas when you think about the application layer, you know, you've got so many idiosyncrasies and unique needs in terms of pricing, packaging, sort of productization, how the market wants to buy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            689.065,
+            696.987
+          ],
+          "quote": "So it's actually a much more challenging and OpEx heavy proposition to move into the application layer versus moving down into the inference layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            871.131,
+            878.755
+          ],
+          "quote": "This is a place where the application layer really shines because labs, of course, are both incentivized and structurally only able to provide their own in-house models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            884.999,
+            891.664
+          ],
+          "quote": "The key point about the application layer is that intelligence is a primitive, just like buying cloud is a primitive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            902.954,
+            905.415
+          ],
+          "quote": "The same thing is true of the AI application layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            939.881,
+            943.185
+          ],
+          "quote": "And the application layer's opportunity is to be the one that kind of delivers that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1551.48,
+            1559.324
+          ],
+          "quote": "So if the application layer captures economic outcomes, how do you think about the competition from the model companies?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "model-aggregation",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型聚合 (model aggregation)",
+      "file": "模型聚合",
+      "primary": true,
+      "how_described": "本集说在许多产品类别里，把多个模型聚合在一起效果大于各部分之和，就像 Expedia 聚合航空公司库存一样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            800.844,
+            806.387
+          ],
+          "quote": "There are many product categories in which model aggregation delivers a greater than sum of parts outcome.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集说绝大多数护城河（网络效应、规模效应、品牌效应）不受廉价智能影响，但集成护城河被编码智能体攻破了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            407.465,
+            409.746
+          ],
+          "quote": "For me, the integration moat is the most obvious one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            428.865,
+            434.592
+          ],
+          "quote": "So I do think this moat is a little bit at risk, but for the other traditional moats, they persist and they're as important as they've ever been.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1797.329,
+            1799.331
+          ],
+          "quote": "Capital is such a moat in this environment.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说实验室向下纵向整合到推理和算力，因为推理的工作负载非常同质化，可以在价值链一段建巨大规模",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            661.413,
+            667.42
+          ],
+          "quote": "Instead, we've seen the very opposite, which is yes, they are vertically integrating, but they're vertically integrating down into inference and compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            667.84,
+            673.721
+          ],
+          "quote": "It's actually logical now in hindsight because the workloads for inference are very homogeneous.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            689.065,
+            696.987
+          ],
+          "quote": "So it's actually a much more challenging and OpEx heavy proposition to move into the application layer versus moving down into the inference layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1590.036,
+            1596.019
+          ],
+          "quote": "To me, it just makes less sense for the labs to move up to the apps layer than to move down to inference.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weight models)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说开放权重模型正在让消费者 AI 的边际成本大幅下降，对很多公司来说开源实际上是唯一选项因为可以本地化和微调",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            25.575,
+            37.666
+          ],
+          "quote": "They discuss why AI models aren't becoming commodities, where open-weight models have an advantage, and why a niche believes the application layer can capture significant value even as frontier labs continue to grow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            491.306,
+            499.715
+          ],
+          "quote": "So as a result, you kind of have this bounded upside problem where it makes sense to use open weight models with reinforcement learning for the kind of Pareto-efficient cost curve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1107.57,
+            1111.393
+          ],
+          "quote": "That is changing now because of open weight models, dramatically cheaper and more performant.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "intelligence-primitive",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能原语 (intelligence primitive)",
+      "file": "智能原语",
+      "primary": true,
+      "how_described": "本集说智能是一种原语就像买云是一种原语，应用层的机会是把它变成特定行业的经济成果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            234.104,
+            240.767
+          ],
+          "quote": "Then we're going to hop into the application layer broadly and sort of talk through why applications are the productization of the intelligence primitive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            905.735,
+            912.478
+          ],
+          "quote": "You know, it's great to have the raw intelligence primitive, but you really need Harvey to turn that into an economic outcome for the legal industry.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            934.032,
+            939.56
+          ],
+          "quote": "So it's just a very specific way that they see the intelligence primitive playing out in their market segment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1579.41,
+            1587.355
+          ],
+          "quote": "You know, the way that a teenager wants to consume the intelligence primitive is different than the way a marketing executive at a credit union wants to actually consume it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说编码智能体让非程序员能构建年入 10 万甚至 100 万美元的软件产品，是'夫妻店 SaaS'机会；也让集成 SAP 这类系统变得容易",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            336.815,
+            343.038
+          ],
+          "quote": "So most enterprise software today demands a level of precision that just isn't afforded by coding agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            391.174,
+            394.195
+          ],
+          "quote": "No amount of coding agents is going to make Nike not Nike.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            418.993,
+            420.875
+          ],
+          "quote": "Coding agents makes this dramatically better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1150.99,
+            1154.755
+          ],
+          "quote": "So coding agents are extraordinary, I know have been discussed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1178.838,
+            1185.043
+          ],
+          "quote": "Now with coding agents, you can build a software product that generates $100,000 of revenue a year, $1 million of revenue a year.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "personal-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人智能体 (personal agents)",
+      "file": "个人智能体",
+      "primary": true,
+      "how_described": "本集说个人智能体开始真正面向消费者，终极形态不是一个助手包揽一切，而是多个专精的智能体协调工作交付全局最优结果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            38.567,
+            45.934
+          ],
+          "quote": "Then they turn to consumer AI, where personal agents are beginning to shop, manage inboxes, and take action on our behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1193.23,
+            1204.478
+          ],
+          "quote": "Personal agents, we had this collective moment of excitement around OpenClaw in January, and it was an extraordinary sort of composition of primitives, but it never really crossed over into consumer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1209.962,
+            1216.867
+          ],
+          "quote": "We're starting to see, with the emergence of Grokbot and ChatGPT, more personal agents being turned into software that consumers can use.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集说使用带有强化学习的开放权重模型对于帕累托效率的成本曲线是合理的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            491.306,
+            499.715
+          ],
+          "quote": "So as a result, you kind of have this bounded upside problem where it makes sense to use open weight models with reinforcement learning for the kind of Pareto-efficient cost curve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            580.24,
+            582.502
+          ],
+          "quote": "The reinforcement learning is a really important point.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tune)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集说对很多公司来说开源模型是唯一选项，因为它们可以本地化、训练、微调",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            522.969,
+            525.972
+          ],
+          "quote": "It's that they can actually localize it, train, fine-tune it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

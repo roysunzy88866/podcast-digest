@@ -39,7 +39,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Revolut]] · [[OpenAI]] · [[Lenny]] · [[Airbnb]] · [[智能体]] · [[Airtable]] · [[Peter Deng]] · [[Nesrine Changuel]] · [[Blake Scholl]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":34,"Revolut":4,"OpenAI":59,"Lenny":65,"Airbnb":9,"智能体":132,"Airtable":2,"Peter Deng":1,"Nesrine Changuel":1,"Blake Scholl":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":35,"Revolut":4,"OpenAI":61,"Lenny":65,"Airbnb":9,"智能体":135,"Airtable":2,"Peter Deng":1,"Nesrine Changuel":1,"Blake Scholl":1}</script>
 
 <script>
 (function(){

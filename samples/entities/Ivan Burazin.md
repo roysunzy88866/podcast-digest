@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
+[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":2,"Cognition":7,"Neon":2,"Parallel":4,"智能体":132,"沙箱":25,"突发负载":1,"裸金属":1,"计算机使用":4,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":2,"Cognition":7,"Neon":2,"Parallel":4,"智能体":135,"沙箱":25,"突发负载":1,"裸金属":1,"计算机使用":4,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){

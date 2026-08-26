@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
+[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":32,"Claude Code":35,"智能体":132,"对抗性智能体":1,"MCP":16,"知识库":1,"技能":6,"vibe coding":23,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":32,"Claude Code":35,"智能体":135,"对抗性智能体":1,"MCP":16,"知识库":1,"技能":6,"vibe coding":23,"红队测试":2}</script>
 
 <script>
 (function(){

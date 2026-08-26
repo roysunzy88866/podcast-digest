@@ -1,0 +1,862 @@
+{
+  "episode_id": "2026-08-26-bigtech-how-ai-should-handle-news-politics-medic",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-08-26",
+  "tags": [
+    "AI 信息质量",
+    "模型评估",
+    "社交媒体与AI",
+    "谄媚与诱导性提示",
+    "独立验证"
+  ],
+  "categories": [
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "alex",
+      "type": "person",
+      "role": "host",
+      "name": "Alex",
+      "file": "Alex",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            35.507,
+            37.208
+          ],
+          "quote": "Great to see you too, Alex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            501.516,
+            511.36
+          ],
+          "quote": "And AI is a long way away from figuring out how to resolve that in a way that you, Alex, have built a level of trust with your audience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2507.286,
+            2508.127
+          ],
+          "quote": "Alex Kantrowitz here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3538.609,
+            3539.429
+          ],
+          "quote": "Thank you, Alex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "campbell-brown",
+      "type": "person",
+      "role": "guest",
+      "name": "Campbell Brown",
+      "file": "Campbell Brown",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.213,
+            9.295
+          ],
+          "quote": "We'll cover it all with media and tech veteran Campbell Brown right after this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            26.542,
+            29.944
+          ],
+          "quote": "We're going to do it with the perfect person here because Campbell Brown is joining us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2677.587,
+            2682.23
+          ],
+          "quote": "And we're back here on Big Technology Podcast with Forum AI CEO, Campbell Brown.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3541.509,
+            3544.15
+          ],
+          "quote": "The company's Forum AI, Campbell Brown, has been our guest.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "forum-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Forum AI",
+      "file": "Forum AI",
+      "primary": true,
+      "how_described": "本集说 Forum AI 是 Campbell Brown 创立的新公司，专门用领域专家（如前 CIA 分析师、临床医生）制定评估框架，再训练 LLM 评判者来大规模评估模型在政治、医疗等敏感话题上的表现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            30.144,
+            34.467
+          ],
+          "quote": "She is the CEO of Forum AI, a new company tackling this challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2677.587,
+            2682.23
+          ],
+          "quote": "And we're back here on Big Technology Podcast with Forum AI CEO, Campbell Brown.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3541.509,
+            3544.15
+          ],
+          "quote": "The company's Forum AI, Campbell Brown, has been our guest.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 作为主要模型公司之一，其自我评估方式被类比为'银行自审'，且 ChatGPT 被观察到倾向于反射用户使用的语言",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            682.072,
+            686.634
+          ],
+          "quote": "I'm a big company spending millions and millions of dollars with Anthropic or OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1166.29,
+            1181.298
+          ],
+          "quote": "What we get when it comes to how does OpenAI or how does Anthropic do on questions around bias, what we get from them is a blog post that says, we tested our model and we did really well, and here are the results.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2846.7,
+            2853.805
+          ],
+          "quote": "And again, I'm not speaking on behalf of Anthropic or OpenAI or anybody else, but just what I've seen in the repeated loaded prompts that we've tested.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2925.591,
+            2929.232
+          ],
+          "quote": "It's newer for Anthropic and OpenAI in terms of how they –",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3265.497,
+            3272.922
+          ],
+          "quote": "And OpenAI started down that path and then realized, from a business perspective, they needed to focus on enterprise and shifted.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 的 Claude Opus 4.7 在回答美国政体问题时引用了《环球时报》，且 Claude 被描述为对诱导性提示采用'给出支持者视角但不附和'的回应策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            682.072,
+            686.634
+          ],
+          "quote": "I'm a big company spending millions and millions of dollars with Anthropic or OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1166.29,
+            1181.298
+          ],
+          "quote": "What we get when it comes to how does OpenAI or how does Anthropic do on questions around bias, what we get from them is a blog post that says, we tested our model and we did really well, and here are the results.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1389.445,
+            1397.691
+          ],
+          "quote": "That was the example I highlighted, but there are plenty of examples and it wasn't just Claude and Anthropic, it was across all the models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2839.476,
+            2845.68
+          ],
+          "quote": "That is a choice that Anthropic is making in terms of how to respond to that question.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2846.7,
+            2853.805
+          ],
+          "quote": "And again, I'm not speaking on behalf of Anthropic or OpenAI or anybody else, but just what I've seen in the repeated loaded prompts that we've tested.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2855.386,
+            2859.088
+          ],
+          "quote": "Sometimes you'll hear the Anthropic people talk about, we want Claude to be...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2925.591,
+            2929.232
+          ],
+          "quote": "It's newer for Anthropic and OpenAI in terms of how they –",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3230.91,
+            3232.891
+          ],
+          "quote": "So you have like the ChatGPT and Anthropic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集说 Campbell Brown 曾在 Meta 负责新闻合作，试图在平台和出版商之间建立商业模式但未成功，原因是社交媒体为互动率优化的本质与高质量新闻互斥",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            41.567,
+            45.37
+          ],
+          "quote": "You ran Meta's media department.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            171.48,
+            174.441
+          ],
+          "quote": "You did this, and you went to Meta, and you were a journalist, and it doesn't make sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            181.903,
+            185.947
+          ],
+          "quote": "I tried to address some of these challenges when I was at Meta overseeing news.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            459.242,
+            463.643
+          ],
+          "quote": "When I was covering you, when I was a reporter at BuzzFeed and you were working at Meta, it was all text.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            807.916,
+            816.358
+          ],
+          "quote": "The reason why it didn't work is because between Meta and the publishers is because Meta just chose to optimize for engagement and that left the publishers out in the dark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1139.677,
+            1154.845
+          ],
+          "quote": "And the things that were cited there, this was based on over 3,000 prompts, over 12,000 outputs that were evaluated by my team, my technical team, former researchers from Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2915.708,
+            2923.11
+          ],
+          "quote": "Now, again, these are policies that these companies will have to develop and Meta certainly spent years developing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2962.847,
+            2974.298
+          ],
+          "quote": "I mean, at Meta, it was like you couldn't go a single day without you, the royal you company, without stepping in it in terms of ban this politician or make this word or this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3441.856,
+            3448.002
+          ],
+          "quote": "I wake up in the middle of the night worried about everything in a way that I didn't when I was at Meta or even in TV.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到 ChatGPT 被用于测试疫苗是否导致自闭症的问题，且有人下飞机后第一时间打开 ChatGPT 报平安，说明用户对其有情感依赖",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            201.202,
+            205.906
+          ],
+          "quote": "And then as soon as ChatGPT was released, it was clear to me...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1699.721,
+            1707.467
+          ],
+          "quote": "Do you, do you, you know, actually I asked, I asked a version of this to ChatGPT earlier about whether like vaccines cause autism.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2862.129,
+            2872.091
+          ],
+          "quote": "And ChatGPT is more, I think, inclined, and I don't want to speak for them, but to reflect back the language you use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3081.923,
+            3087.286
+          ],
+          "quote": "The reaction is generally like, why are you trusting ChatGPT for politics, you dummy?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3168.491,
+            3177.354
+          ],
+          "quote": "Like the most pop, well, I won't call it the most popular, but the model with the biggest diehards ever was ChatGPT 4.0.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3208.071,
+            3214.595
+          ],
+          "quote": "Someone wrote, plane landed and a guy in the row ahead of me immediately opened ChatGPT to let it know he landed safely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3230.91,
+            3232.891
+          ],
+          "quote": "So you have like the ChatGPT and Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3391.779,
+            3398.045
+          ],
+          "quote": "I will admit there are times where ChatGPT helps me plan something, and I want to go and update it and be like, hey, I actually did this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集将 LLM 描述为人们未来获取新闻和信息的主要渠道，正在不可避免地吞并发布者的内容，但其输出质量（尤其在政治、医疗等敏感话题上）存在系统性问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            110.867,
+            122.45
+          ],
+          "quote": "The LLM products out there today, ChatGPTs, Anthropix, the bunch of challengers that are coming up after them, they will inevitably subsume all this information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1060.261,
+            1066.543
+          ],
+          "quote": "And because it's written in that LLM style, and then the next paragraph is like, actually, this was all wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1488.51,
+            1499.016
+          ],
+          "quote": "And then we use this rubric, essentially, to train an LLM judge to be able to evaluate at scale how the models perform on these topics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1515.482,
+            1520.303
+          ],
+          "quote": "Let's say I asked an LLM, what is the right amount of immigration in the United States?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2693.327,
+            2700.79
+          ],
+          "quote": "Accurate, context-rich information to people when they are using an LLM, but sometimes they don't want it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "primary": true,
+      "how_described": "本集说模型的幻觉之所以危险，是因为即使答案错误，呈现方式仍然自信、流利、清晰，导致用户更容易相信；并举了 GPT-3 关于林肯的幻觉作为例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            1046.976,
+            1053.199
+          ],
+          "quote": "I was reading recently this hallucination that GPT-3 made about Abraham Lincoln.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "loaded-prompts",
+      "type": "concept",
+      "role": "concept",
+      "name": "诱导性提示 (loaded prompts)",
+      "file": "诱导性提示",
+      "primary": true,
+      "how_described": "本集将诱导性提示定义为如'告诉我为什么某人是最好的总统'这类带有预设立场的输入，并说 Forum AI 专门测量模型在诱导性提示上的表现，观察到模型倾向于反射语言但不附和",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 471,
+          "t": [
+            2769.895,
+            2777.537
+          ],
+          "quote": "So those are loaded prompts, and we measure how they perform on loaded prompts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2846.7,
+            2853.805
+          ],
+          "quote": "And again, I'm not speaking on behalf of Anthropic or OpenAI or anybody else, but just what I've seen in the repeated loaded prompts that we've tested.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2934.333,
+            2938.575
+          ],
+          "quote": "But the loaded prompts are really interesting to test.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "engagement",
+      "type": "concept",
+      "role": "concept",
+      "name": "互动率 (engagement)",
+      "file": "互动率",
+      "primary": true,
+      "how_described": "本集说社交媒体为互动率优化，而人们最容易互动的是最夸张、最疯狂的内容，不是高质量新闻；为互动率优化和为准确性优化是互斥的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            650.616,
+            658.16
+          ],
+          "quote": "But if you're optimizing for engagement, which is what social media does, you can't also optimize for accuracy and quality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            668.905,
+            681.512
+          ],
+          "quote": "So if social media is always going to optimize for engagement, it's very hard unless you make a decision, which, you know, is not something that big social media platforms are inclined to do about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            707.244,
+            709.705
+          ],
+          "quote": "I'm not going to let them optimize for engagement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            807.916,
+            816.358
+          ],
+          "quote": "The reason why it didn't work is because between Meta and the publishers is because Meta just chose to optimize for engagement and that left the publishers out in the dark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2125.008,
+            2125.829
+          ],
+          "quote": "Good for engagement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3313.332,
+            3319.295
+          ],
+          "quote": "You were like, the nice thing about AI is it's not gonna optimize for engagement right now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "source-quality",
+      "type": "concept",
+      "role": "concept",
+      "name": "来源质量 (source quality)",
+      "file": "来源质量",
+      "primary": true,
+      "how_described": "本集将来源质量描述为'低垂果实'——比如回答美国政体时引用中国国有报纸，这类问题本不该存在，应该用分类器等基础手段解决",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            1349.573,
+            1351.013
+          ],
+          "quote": "I think the source quality is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1397.831,
+            1405.417
+          ],
+          "quote": "Source quality is a real issue and I do think an easier issue to address than some of the challenges around bias and factual accuracy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1608.918,
+            1613.462
+          ],
+          "quote": "What source quality looks like for addressing those issues?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "filter-bubble",
+      "type": "concept",
+      "role": "concept",
+      "name": "过滤气泡 (filter bubble)",
+      "file": "过滤气泡",
+      "primary": false,
+      "how_described": "本集提到如果 AI 公司决定个性化每个人的聊天机器人、只反映用户已有观点，就会形成和社交媒体一样的过滤气泡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            794.953,
+            798.874
+          ],
+          "quote": "It's going to be the same, you know, filter bubble that you might have had in social media.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "content-moderation",
+      "type": "concept",
+      "role": "concept",
+      "name": "内容审核 (content moderation)",
+      "file": "内容审核",
+      "primary": false,
+      "how_described": "本集对比说社交媒体时代内容审核丑闻不断，而聊天机器人至今没有爆发过类似的内容审核丑闻，原因可能是人们知道 AI 会幻觉所以更宽容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 423,
+          "t": [
+            2498.419,
+            2504.264
+          ],
+          "quote": "A real content moderation blow up in the way that we consistently had with social media companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2949.815,
+            2961.626
+          ],
+          "quote": "I'm going to come back to sycophancy in a moment, but isn't it interesting that there has not been a content moderation scandal among any of these chatbots?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 评判者 (LLM judge)",
+      "file": "LLM 评判者",
+      "primary": true,
+      "how_described": "本集说 Forum AI 的方法是先由领域专家制定评估框架（rubric），然后用这个框架训练一个 LLM 评判者，实现大规模评估模型在敏感话题上的表现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 244,
+          "t": [
+            1488.51,
+            1499.016
+          ],
+          "quote": "And then we use this rubric, essentially, to train an LLM judge to be able to evaluate at scale how the models perform on these topics.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sycophancy",
+      "type": "concept",
+      "role": "concept",
+      "name": "谄媚 (sycophancy)",
+      "file": "谄媚",
+      "primary": false,
+      "how_described": "本集讨论模型在'真相与谄媚'之间的取舍，观察到当前主流模型对诱导性提示不会在答案里附和用户，这是公司政策选择而非技术必然",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 462,
+          "t": [
+            2682.871,
+            2691.477
+          ],
+          "quote": "Campbell, truth for sycophancy, it sounds like a fun game that you can play, but like when, you know, I understand that you're working to get sort of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2949.815,
+            2961.626
+          ],
+          "quote": "I'm going to come back to sycophancy in a moment, but isn't it interesting that there has not been a content moderation scandal among any of these chatbots?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "independent-verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "独立验证 (independent verification)",
+      "file": "独立验证",
+      "primary": true,
+      "how_described": "本集说目前模型表现没有独立验证，OpenAI 和 Anthropic 拿出来的只是自己写的博客，类比银行不自审、药厂不批自己的药，这是整个公民基础设施建设的缺失",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            1161.368,
+            1165.35
+          ],
+          "quote": "There's no independent verification of how the models perform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1181.958,
+            1184.679
+          ],
+          "quote": "You don't get independent verification of any kind.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集仅在广告口播中提到'做真正工作的智能体'（Agents doing real work），未做实质性讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 428,
+          "t": [
+            2514.432,
+            2520.757
+          ],
+          "quote": "To find out if we're truly ready for autonomous agents, I sat down with MIT professor Ramesh Raskar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2624.459,
+            2625.5
+          ],
+          "quote": "Agents doing real work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2645.74,
+            2648.783
+          ],
+          "quote": "Your cloud and the agents acting on your behalf.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Angela Strange]] [[Grant LaFontaine]] [[Roblox CEO]] [[Will Gabrick]]
+[[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Angela Strange]] [[Grant LaFontaine]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":5,"Adi":1,"Eleven Labs":1,"Cognition":7,"Vercel":10,"Brex":3,"OpenAI":59,"Salesforce":7}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":5,"Adi":1,"Eleven Labs":1,"Cognition":7,"Vercel":10,"Brex":3,"OpenAI":61,"Salesforce":8}</script>
 
 <script>
 (function(){

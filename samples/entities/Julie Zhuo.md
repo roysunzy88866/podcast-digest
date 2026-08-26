@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
+[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":132,"构建者":2,"可观测性":11,"对话分析":1,"评估":15,"维度思维":1,"ChatGPT":34,"Cursor":34,"OpenAI":59}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":135,"构建者":2,"可观测性":12,"对话分析":1,"评估":15,"维度思维":1,"ChatGPT":35,"Cursor":35,"OpenAI":61}</script>
 
 <script>
 (function(){

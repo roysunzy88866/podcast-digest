@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]] [[Roblox CEO]] [[Will Gabrick]]
+[[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]] [[Grant LaFontaine]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Sequoia":2,"智能体":132,"Copilot":5,"自动驾驶":1,"服务伪装成软件":1,"IC":5,"AEO":3,"Sierra":4,"SpaceX":8}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Sequoia":2,"智能体":135,"Copilot":5,"自动驾驶":1,"服务伪装成软件":1,"IC":5,"AEO":3,"Sierra":4,"SpaceX":8}</script>
 
 <script>
 (function(){

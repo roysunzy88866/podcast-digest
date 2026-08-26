@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Brandon Foo":1,"ChatGPT":34,"Facebook":9,"Uber":5,"Instagram":3,"OpenAI":59,"Copilot":5,"Cursor":34,"Windsurf":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Brandon Foo":1,"ChatGPT":35,"Facebook":9,"Uber":5,"Instagram":3,"OpenAI":61,"Copilot":5,"Cursor":35,"Windsurf":1}</script>
 
 <script>
 (function(){

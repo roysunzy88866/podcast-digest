@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]] [[Michael Giannangelli]] [[Mike LeBlanc]]
+[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Simile":1,"智能体":132,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":5,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Simile":1,"智能体":135,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":5,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

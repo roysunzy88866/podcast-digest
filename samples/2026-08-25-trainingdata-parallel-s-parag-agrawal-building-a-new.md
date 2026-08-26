@@ -140,8 +140,8 @@ Parag 把智能体使用网络的演进分三层。第一层：智能体把网�
 **顺着「智能体」挖下去**
 
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|Parag：为什么智能体搜索不该照搬人类那一套]]<span class="pd-rz">同嘉宾:Parag、Sonia · 同公司:Parallel · 同概念:后台智能体 (background agent)、推理 (inference)、搜索智能体 (search agent)、智能体 (agent)、爬取 (crawl)、索引 (index)、差异化定价 (differential pricing)</span>
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层才是下一个金矿：模型不是商品]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

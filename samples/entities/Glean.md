@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[Snapchat]] · [[Spectacles]] · [[Specs]] · [[分发]] · [[护城河]] · [[网络效应]] · [[增强现实]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Evan Spiegel":1,"Snap":1,"Snapchat":2,"Spectacles":1,"Specs":1,"分发":4,"护城河":6,"网络效应":3,"增强现实":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Evan Spiegel":1,"Snap":1,"Snapchat":2,"Spectacles":1,"Specs":1,"分发":4,"护城河":7,"网络效应":3,"增强现实":1}</script>
 
 <script>
 (function(){

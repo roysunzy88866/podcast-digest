@@ -1,0 +1,777 @@
+{
+  "episode_id": "2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w",
+  "podcast": "Beyond Coding",
+  "date": "2026-08-26",
+  "tags": [
+    "判断力与品味",
+    "智能体工作流",
+    "工程师成长",
+    "组织设计",
+    "AI 时代的工程管理"
+  ],
+  "categories": [
+    "智能体",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "malika-rao",
+      "type": "person",
+      "role": "host",
+      "name": "Malika Rao",
+      "file": "Malika Rao",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            70.989,
+            72.05
+          ],
+          "quote": "This is Malika Rao.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说初级工程师现在与智能体协作、能大量产出代码，智能体也改变了团队定义和工作流方式（如代码审查智能体、智能体搜索等），Staff 工程师需要教新人不要无脑派智能体重写代码而抹掉历史决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            905.235,
+            916.404
+          ],
+          "quote": "They were made five years ago or three years ago so that someone doesn't just come in and use an agent to kind of rewrite the code and knowing that history, that trail.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1433.702,
+            1448.408
+          ],
+          "quote": "Can I have a little bit more face time with the team instead of everything being in Claude or, you know, on a code review agent or working with your harnesses and tools, which you can and get by the week.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "type": "concept",
+      "role": "concept",
+      "name": "判断力 (judgment)",
+      "file": "判断力",
+      "primary": true,
+      "how_described": "本集将判断力定义为：不是尽快找到解决方案，而是保持步调、同时容纳多种替代思路并享受权衡评估的过程，思考二阶效应和未来可能站不住脚的假设，本质是'预演未来'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            60.243,
+            63.505
+          ],
+          "quote": "Implementation is becoming abundant, but judgment isn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            83.437,
+            86.899
+          ],
+          "quote": "Judgment isn't about getting to the solution as soon as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            89.561,
+            93.783
+          ],
+          "quote": "How do you take judgment when you don't have those years of experience?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            186.478,
+            197.522
+          ],
+          "quote": "It's also about how do they take all those years of experience and compress what it takes to build good judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            253.958,
+            257.22
+          ],
+          "quote": "Implementation is becoming abundant, but judgment isn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            257.26,
+            262.904
+          ],
+          "quote": "So staff engineers now have to deal with a lot of cognitive overload as to how do you teach judgment?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            270.824,
+            279.351
+          ],
+          "quote": "That is one of the things that I have been thinking about a lot from, you know, what is judgment first, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            296.392,
+            297.434
+          ],
+          "quote": "That could be judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            314.951,
+            318.394
+          ],
+          "quote": "Judgment isn't about getting to the solution as soon as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            349.137,
+            351.619
+          ],
+          "quote": "Keeping that open mind, that is judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            353.26,
+            360.846
+          ],
+          "quote": "I've seen great engineers with good judgment think about second order effects as to, oh yeah, this decision means this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            376.778,
+            379.3
+          ],
+          "quote": "This sense of judgment, they rehearse futures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            382.863,
+            383.964
+          ],
+          "quote": "That to me is judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            477.185,
+            483.811
+          ],
+          "quote": "So can you build, can you compress building judgment without that apprenticeship?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            729.485,
+            732.887
+          ],
+          "quote": "Because how can we help build that judgment and taste?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            762.54,
+            772.064
+          ],
+          "quote": "But potentially don't have that judgment, potentially don't have those use cases in the back of their mind, haven't really studied or discussed, theorized as much yet, but they are very effective, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            790.993,
+            792.791
+          ],
+          "quote": "Taste or judgment to that level yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            898.811,
+            902.913
+          ],
+          "quote": "Judgment, depth of understanding, empathy towards the systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            945.763,
+            956.709
+          ],
+          "quote": "And then on the junior level, they are basically figuring out how to build a judgment from scratch without the experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1685.662,
+            1691.287
+          ],
+          "quote": "Before we can even get there, you can scale it afterwards, but how do you kind of build that judgment?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2274.27,
+            2297.239
+          ],
+          "quote": "And they can't really, it feels a little overwhelming the speed at which some of the other engineers are really using these in their toolkit is probably because, again, that judgment to know that instead of having 10 parallel workflows, maybe I can think about it in themes of planning and project execution, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2339.866,
+            2342.868
+          ],
+          "quote": "Where do you intervene with judgment?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2519.039,
+            2531.27
+          ],
+          "quote": "And if I do so, is there a risk of me falling flat or falling behind in some of the other things that you've mentioned, either in judgment or in taste, or how do I still grow as fast as I can when I'm relying on agents as heavy as I am?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2596.922,
+            2616.339
+          ],
+          "quote": "So I wouldn't really worry so much about having to figure out whether I need to go deep versus broad if building that judgment and taste and that experience, that nuance, that subtle decision making skill is what we are going after.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2793.974,
+            2796.395
+          ],
+          "quote": "Is it really helping me build that judgment and taste?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2839.319,
+            2856.908
+          ],
+          "quote": "That's why going back to first principles and really thinking about is this going to help me build that judgment, that taste, that acumen, thinking about second order implications, validating assumptions, and that should guide us on the route that we want to take.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2906.047,
+            2907.608
+          ],
+          "quote": "Does that differ from judgment?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            3025.94,
+            3035.548
+          ],
+          "quote": "And judgment is a combination of the ability of making credible decisions, making decisions correctly over and over again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            3058.43,
+            3062.274
+          ],
+          "quote": "Yeah, and that jamming session was judgment to me, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 456,
+          "t": [
+            3078.648,
+            3080.43
+          ],
+          "quote": "That's elegance and that's judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            3155.095,
+            3159.378
+          ],
+          "quote": "For a reason, there is a lot of patterns about human judgment and taste in there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集说品味是在多个层次上思考（从1层到50层）、从不同角度形成观点，同时保持开放心态、有新数据进来就愿意改变想法的能力；可通过设计评审建立，也可通过绘画、音乐、文学等在软件工程之外培养",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            298.235,
+            300.499
+          ],
+          "quote": "And how do you develop good taste?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            729.485,
+            732.887
+          ],
+          "quote": "Because how can we help build that judgment and taste?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            790.993,
+            792.791
+          ],
+          "quote": "Taste or judgment to that level yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2519.039,
+            2531.27
+          ],
+          "quote": "And if I do so, is there a risk of me falling flat or falling behind in some of the other things that you've mentioned, either in judgment or in taste, or how do I still grow as fast as I can when I'm relying on agents as heavy as I am?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2596.922,
+            2616.339
+          ],
+          "quote": "So I wouldn't really worry so much about having to figure out whether I need to go deep versus broad if building that judgment and taste and that experience, that nuance, that subtle decision making skill is what we are going after.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2793.974,
+            2796.395
+          ],
+          "quote": "Is it really helping me build that judgment and taste?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2839.319,
+            2856.908
+          ],
+          "quote": "That's why going back to first principles and really thinking about is this going to help me build that judgment, that taste, that acumen, thinking about second order implications, validating assumptions, and that should guide us on the route that we want to take.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2857.231,
+            2870.025
+          ],
+          "quote": "Yeah, one of the last thoughts I had was specifically about taste because I talked to a person that was leaving their company and I was talking about who could do their role specifically in their team because it's quite a senior engineer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2875.01,
+            2878.615
+          ],
+          "quote": "This person is fantastic, but they just lack taste.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2880.317,
+            2894.933
+          ],
+          "quote": "So you can be very apt in what you're doing and in how you execute, but there can still be an opinion, which I think taste for me is still a little bit subjective, that kind of takes away someone giving you that compliment or saying this is really excellent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2895.614,
+            2896.575
+          ],
+          "quote": "What for you is taste?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2905.085,
+            2906.007
+          ],
+          "quote": "What for you is taste?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2971.564,
+            2988.519
+          ],
+          "quote": "Taste to me is the ability to be able to think in multiple layers, starting off with probably 1 and then 3 and then 10 and think about scaling that to about 50 layers, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            3023.918,
+            3024.939
+          ],
+          "quote": "That to me is taste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            3081.851,
+            3091.877
+          ],
+          "quote": "And taste is, I think, especially in software engineering, it can be built by being part of these design reviews, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            3123.605,
+            3130.252
+          ],
+          "quote": "Having that opinion, right, that is like a combination of taste and communication coming together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            3130.873,
+            3140.303
+          ],
+          "quote": "I also want to highlight that taste can be built outside of just your profession and your software engineering career, right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            3145.428,
+            3153.934
+          ],
+          "quote": "A lot of the taste building can happen through studying paintings, classical Renaissance paintings, reading classical literature.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            3155.095,
+            3159.378
+          ],
+          "quote": "For a reason, there is a lot of patterns about human judgment and taste in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            3160.078,
+            3189.485
+          ],
+          "quote": "So you know over the time like and it's been true in my experience as well where first you look at a painting you like it for the colors or just the cosmetic aspect of it then you start noticing the various technicalities in it then you might want to go and create something right and then you figure out how complex it it is through all those layers that is what i mean by you know layers um you build taste and it needs to happen in different areas and that is my wish for the future generation",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-coordination",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知协调 (cognitive coordination)",
+      "file": "认知协调",
+      "primary": true,
+      "how_described": "本集说在 Staff 和 Staff Plus 层面，核心挑战正转向认知协调——比如从 AI 生成的会议笔记里提炼潜台词和核心可执行项、应对代码产出量暴增后的审查负荷，这不应是个人负担而应是组织责任",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            876.115,
+            882.62
+          ],
+          "quote": "So at staff level, I feel like the core challenge is shifting towards cognitive coordination.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1382.857,
+            1393.88
+          ],
+          "quote": "And I was actually advocating for focused time and less meetings because I thought cognitive coordination means you need time to relax and lesser meetings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "case-method",
+      "type": "concept",
+      "role": "concept",
+      "name": "案例教学法 (case method)",
+      "file": "案例教学法",
+      "primary": true,
+      "how_described": "本集提出在传统计算机科学课程之上引入案例教学法，拿真实事故报告（如2017年 AWS S3 大规模故障）从技术决策、组织决策、产品决策、运行手册等多角度深度拆解，用一学期建立对模糊性的从容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            454.667,
+            457.268
+          ],
+          "quote": "But on top of that, can we have a case method?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            705.714,
+            728.765
+          ],
+          "quote": "I think instead of just having a very one-dimensional view at how our curriculum is just set up, I think this case method gives me a lot more hope of building all these skills before they get to the implementation or they join the industry and become part of teams.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体工程 (agentic engineering)",
+      "file": "智能体工程",
+      "primary": false,
+      "how_described": "本集提到公司可以提供一种'智能体工程的铺好的路'（paved road of agentic engineering），作为建议的工作方式蓝图，但具体使用仍是可选的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 367,
+          "t": [
+            2477.999,
+            2488.004
+          ],
+          "quote": "So a whole blueprint, which I think is fantastic that you have this approach, where it's really a blueprint of this is what we advise you to use, kind of a paved road of agentic engineering.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-ways",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体工作流 (agentic ways)",
+      "file": "智能体工作流",
+      "primary": false,
+      "how_described": "本集提到团队正在向更多 AI 工作流和'更多构建软件的智能体方式'演进，讨论工作流有多具智能体特性、解锁了多少生产力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            2190.192,
+            2213.503
+          ],
+          "quote": "I see that especially as we are thinking about evolving our teams towards more AI workflows, more agentic ways of just building software, designing harnesses and tools around productivity and what that means for our system health over the next decade, let's say.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集在讨论产品过了发布期后需要的第一性原则时，将可观测性列为与可靠性、可解释性并列的关键要求",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 293,
+          "t": [
+            1986.484,
+            1989.945
+          ],
+          "quote": "Are we set up for observability, monitoring?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集说智能体工作方式很灵活，但'只要它在护栏之内，就不会完全脱轨'；也提到设计评审中护栏是品味可以建立的领域之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 372,
+          "t": [
+            2506.511,
+            2509.912
+          ],
+          "quote": "As long as it's within guardrails, that it doesn't just go off the rails completely.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "canary",
+      "type": "concept",
+      "role": "concept",
+      "name": "金丝雀发布 (canary)",
+      "file": "金丝雀发布",
+      "primary": false,
+      "how_described": "本集在列举产品被广泛采用后需要的第一性原则时，将金丝雀发布与安全回滚、可解释性等并列提出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 295,
+          "t": [
+            1992.986,
+            1993.947
+          ],
+          "quote": "Can we canary?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-reviews",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code reviews)",
+      "file": "代码审查",
+      "primary": false,
+      "how_described": "本集说在智能体时代代码产出量暴增，'谁来做代码审查、我们还需要做代码审查吗、还是直接跳过'成了组织层面的新问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            96.525,
+            98.266
+          ],
+          "quote": "Do we need to do code reviews at all?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            883.96,
+            888.524
+          ],
+          "quote": "A lot more code reviews, a lot more mentoring and coaching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1347.28,
+            1368.172
+          ],
+          "quote": "Similarly about you know code reviews right like in an area where in a time where we are able to churn so much code one thing that I hear constantly is how do we deal with the load around code reviews who does it can we have does it mean that we have more senior engineers in the team do we need to do code reviews at all",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集以2017年 AWS S3 大规模故障作为案例教学法的经典案例，用于从多角度拆解技术决策与组织决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            586.43,
+            602.165
+          ],
+          "quote": "So how do we make sure that as part of our curriculum, when I mentioned the case studies, incident failures, for example, the AWS S3 failure is a classic one, where the 2017 one, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

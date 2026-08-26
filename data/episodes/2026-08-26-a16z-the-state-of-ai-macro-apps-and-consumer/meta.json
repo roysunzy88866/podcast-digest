@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/95ad917f-6caa-4d3b-a9c8-2a3a2541c5d0/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=95ad917f-6caa-4d3b-a9c8-2a3a2541c5d0&feed=JGE3yC0V",
+  "duration_sec": 2223.284,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 441,
+  "asr": true,
+  "title_en": "The State of AI: Macro, Apps, and Consumer",
+  "podcast": "The a16z Show",
+  "date": "2026-08-26",
+  "added": "2026-08-26",
+  "speaker_map": {
+    "SPEAKER_01": "Anish Acharya",
+    "SPEAKER_02": "Jen Ka"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Anish Acharya",
+  "cohosts": [
+    "Jen Ka"
+  ],
+  "title_zh": "AI 应用层才是下一个金矿：模型不是商品",
+  "guest_name": "Anish Acharya",
+  "guest_title": "a16z 合伙人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

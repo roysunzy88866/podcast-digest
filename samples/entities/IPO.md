@@ -31,7 +31,7 @@ unlisted: true
 
 [[Ranjan]] · [[Ranjan Roy]] · [[Meta]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[表外承诺]] · [[AGI]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Ranjan":1,"Ranjan Roy":2,"Meta":18,"Anthropic":65,"OpenAI":59,"Google":27,"NVIDIA":20,"表外承诺":1,"AGI":16,"智能体":132}</script>
+<script type="application/json" class="pd-epn">{"Ranjan":1,"Ranjan Roy":2,"Meta":19,"Anthropic":67,"OpenAI":61,"Google":27,"NVIDIA":20,"表外承诺":1,"AGI":16,"智能体":135}</script>
 
 <script>
 (function(){

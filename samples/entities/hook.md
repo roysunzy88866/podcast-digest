@@ -37,7 +37,7 @@ unlisted: true
 
 [[Heitor Lessa]] · [[Quintin]] · [[智能体]] · [[Elliot]] · [[规范驱动开发]] · [[Portola]] · [[苏格拉底方法]] · [[Tolan]] · [[对抗性审查]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Heitor Lessa":1,"Quintin":1,"智能体":132,"Elliot":1,"规范驱动开发":1,"Portola":1,"苏格拉底方法":1,"Tolan":1,"对抗性审查":1,"LLM":15}</script>
+<script type="application/json" class="pd-epn">{"Heitor Lessa":1,"Quintin":1,"智能体":135,"Elliot":1,"规范驱动开发":1,"Portola":1,"苏格拉底方法":1,"Tolan":1,"对抗性审查":1,"LLM":16}</script>
 
 <script>
 (function(){

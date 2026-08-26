@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Dylan]] [[Firas]]
+[[Campbell Brown]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Dylan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":6,"Cursor":34,"GitHub":16,"智能体":132,"沙箱":25,"泄露的凭证":3,"权限":1,"软件供应链":2,"漏洞":1}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":6,"Cursor":35,"GitHub":16,"智能体":135,"沙箱":25,"泄露的凭证":3,"权限":1,"软件供应链":2,"漏洞":1}</script>
 
 <script>
 (function(){

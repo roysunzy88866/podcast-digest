@@ -27,7 +27,7 @@ unlisted: true
 
 [[Google]] · [[OpenAI]] · [[Anthropic]] · [[Apple]] · [[Harry Stabbings]] · [[Microsoft]] · [[Jason Lamkin]] · [[Amazon]] · [[Canva]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"Google":27,"OpenAI":59,"Anthropic":65,"Apple":12,"Harry Stabbings":1,"Microsoft":12,"Jason Lamkin":1,"Amazon":8,"Canva":3,"NVIDIA":20}</script>
+<script type="application/json" class="pd-epn">{"Google":27,"OpenAI":61,"Anthropic":67,"Apple":12,"Harry Stabbings":1,"Microsoft":12,"Jason Lamkin":1,"Amazon":8,"Canva":3,"NVIDIA":20}</script>
 
 <script>
 (function(){

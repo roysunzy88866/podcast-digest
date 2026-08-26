@@ -35,7 +35,7 @@ unlisted: true
 
 [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[推理]] · [[OpenRouter]] · [[人工智能]] · [[智能体]] · [[后训练]] · [[Cursor]] · [[深度学习]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":20,"Anthropic":65,"OpenAI":59,"推理":1,"OpenRouter":4,"人工智能":2,"智能体":132,"后训练":12,"Cursor":34,"深度学习":3}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":20,"Anthropic":67,"OpenAI":61,"推理":1,"OpenRouter":4,"人工智能":2,"智能体":135,"后训练":12,"Cursor":35,"深度学习":3}</script>
 
 <script>
 (function(){
