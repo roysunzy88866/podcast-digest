@@ -174,7 +174,7 @@ Travis 当年的信条是"要比全世界所有竞争对手加起来融更多的
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:Uber、OpenAI · 同概念:ChatGPT</span>
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|Nesrine：产品愉悦感不是彩纸，是增长策略]]<span class="pd-rz">同公司:Uber、Revolut</span>
-- [[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|MercadoLibre 的 18000 人工程团队怎么管]]<span class="pd-rz">同概念:智能体 (agents)</span>
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|一家百亿对冲基金如何全员强推 AI]]<span class="pd-rz">同概念:智能体 (agents)、ChatGPT</span>
 
 </div>
 </div>

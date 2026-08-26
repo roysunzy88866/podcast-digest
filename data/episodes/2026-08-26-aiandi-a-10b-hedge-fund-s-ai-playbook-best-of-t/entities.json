@@ -1,0 +1,755 @@
+{
+  "episode_id": "2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t",
+  "podcast": "AI & I",
+  "date": "2026-08-26",
+  "tags": [
+    "AI 组织落地",
+    "对冲基金 AI 实践",
+    "全员 AI 培训",
+    "智能体",
+    "数据策略"
+  ],
+  "categories": [
+    "组织与领导力",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "ben",
+      "type": "person",
+      "role": "host",
+      "name": "Ben",
+      "file": "Ben",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            53.822,
+            54.222
+          ],
+          "quote": "Thanks, Ben.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "will",
+      "type": "person",
+      "role": "cohost",
+      "name": "Will",
+      "file": "Will",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            52.561,
+            53.442
+          ],
+          "quote": "Will, welcome to the show.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 137,
+          "t": [
+            609.105,
+            616.187
+          ],
+          "quote": "And, you know, me saying to the firm, like, okay, we are going to be a place that is going to be leading that, that we will actually train you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            616.207,
+            617.327
+          ],
+          "quote": "We will give the tools available.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 208,
+          "t": [
+            948.492,
+            950.132
+          ],
+          "quote": "The edge is real and we will not fall behind.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1922.46,
+            1927.043
+          ],
+          "quote": "And then, yes, it will suggest a string of words that convey that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2161.875,
+            2167.599
+          ],
+          "quote": "It's just like there isn't even a great way to process all of a firm's emails right now using AI, which I'm sure will be solved.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2227.255,
+            2232.677
+          ],
+          "quote": "Maybe a beta user of current will give you feedback to help make the product better, which we've done in some cases.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2319.138,
+            2321.6
+          ],
+          "quote": "That will happen.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2949.895,
+            2961.885
+          ],
+          "quote": "And that is where, on a go-forward basis, I still very much believe that human investors will have an edge, particularly on low, large numbers situations where a machine hasn't exactly seen all the priors.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3959.588,
+            3961.489
+          ],
+          "quote": "Will, always a pleasure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 814,
+          "t": [
+            4000.207,
+            4007.629
+          ],
+          "quote": "Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat, craving for more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "walleye",
+      "type": "company",
+      "role": "company",
+      "name": "Walleye",
+      "file": "Walleye",
+      "primary": true,
+      "how_described": "本集说 Walleye 是一家管理近 100 亿 AUM 的多策略对冲基金，CEO 自称 owner-operator，拥有穿透式结构（pass-through structure），全公司约 400 人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            56.172,
+            64.834
+          ],
+          "quote": "For people who don't know you, you are the benevolent dictator of Walleye, which is a close to 10 billion AUM hedge fund.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            67.334,
+            71.755
+          ],
+          "quote": "We're working with you to help you do AI training and implementation inside of Walleye.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            157.937,
+            160.459
+          ],
+          "quote": "So for your main audience this year, it's the people at Walleye.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 186,
+          "t": [
+            849.275,
+            858.843
+          ],
+          "quote": "So yeah, so this is an email that I wrote to the firm, the entire firm, and the subject is AI at Walleye, a challenge to all of us.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            879.687,
+            881.888
+          ],
+          "quote": "Walleye is all in on AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 201,
+          "t": [
+            921.463,
+            923.584
+          ],
+          "quote": "This is not optional for anyone at Walleye.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1758.085,
+            1767.709
+          ],
+          "quote": "You know, not just Walleye, not just hedge funds, really any company of saying, hey, let's actually put all of our data together into effectively a collective and then that information can get processed.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "current",
+      "type": "concept",
+      "role": "concept",
+      "name": "Current",
+      "file": "Current",
+      "primary": true,
+      "how_described": "本集说 Current 是 Walleye 最先进的内部 AI 产品，用于基本面投资，摄入分析师笔记、经纪人信息、PDF、财报电话会议记录等所有与股票相关的信息，所有 PM 视其为不可或缺的工具，不只是总结而是提供真正的分析",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            405.306,
+            410.289
+          ],
+          "quote": "The first was two years ago called our most advanced internal AI project is called Current.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1423.935,
+            1424.555
+          ],
+          "quote": "It's called Current.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2169.279,
+            2192.478
+          ],
+          "quote": "So the most salient example of where we've done a miniature example of this goes back to set our internal product current, which takes analyst notes, all information's coming in from brokers and these PDFs that get emailed around all the time, earnings transcripts, really any bit of information that's germane to a stock.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2227.255,
+            2232.677
+          ],
+          "quote": "Maybe a beta user of current will give you feedback to help make the product better, which we've done in some cases.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说对于基本面投资，应该有智能体（agents）最终帮助分析，并最终为正在发生的事情提供意义；两年前就基于这个想法启动了 Current 项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            457.426,
+            469.834
+          ],
+          "quote": "And so that's when we started an effort to say, okay, for fundamental investing, absolutely, there should be agents that are ultimately helping with analysis and ultimately to provide meaning to what's going on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1803.236,
+            1812.304
+          ],
+          "quote": "With revenue agents and automations that build pipeline, advance deals, and grow accounts around the clock, you'll get all the context and velocity you need to scale any go-to-market motion.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 是全公司 75% 员工几乎每天都在使用的工具，CEO 用它写邮件和备忘录，将过去四五个小时的写作任务缩短到 15 分钟，并明确说「使用 ChatGPT 不是作弊」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.033,
+            15.754
+          ],
+          "quote": "Using ChatGPT is not cheating.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 5,
+          "t": [
+            18.534,
+            20.194
+          ],
+          "quote": "I use ChatGPT to write this email.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 143,
+          "t": [
+            640.553,
+            657.836
+          ],
+          "quote": "But then over the past year, I've seen everyone across the firm, even in accounting, finance, compliance, legal, like, yes, you should be using either ChatGPT or Grok or some LLM to assist in anything that you're doing that's analysis or writing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 187,
+          "t": [
+            859.684,
+            861.705
+          ],
+          "quote": "It says, I use ChatGPT to write this email.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 196,
+          "t": [
+            900.323,
+            902.045
+          ],
+          "quote": "Using ChatGPT is not cheating.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 202,
+          "t": [
+            924.204,
+            933.828
+          ],
+          "quote": "If you write, research, analyze, build decks, process data, or think for a living, you should be using ChatGPT and or other AI tools every single day.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1111.536,
+            1121.766
+          ],
+          "quote": "Because what I was seeing before is people were using ChatGPT or another similar product to create an email and they were trying to dust it up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1391.227,
+            1398.936
+          ],
+          "quote": "So some of us were doing like, you know, 75% of the firm, you know, was an active called ChatGPT, ChatGPT-like user.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1966.502,
+            1972.145
+          ],
+          "quote": "But if I get an internal report that looks like it's written by ChatGPT, and I did this actually last week because",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1977.056,
+            1979.556
+          ],
+          "quote": "It's not that I care that the voice sounds like ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3665.695,
+            3674.087
+          ],
+          "quote": "And help me understand that more like you're maybe now you're like typing this into ChatGPT, you're speaking it, you're writing into Google Doc and then putting it into ChatGPT?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 813,
+          "t": [
+            3991.719,
+            3999.426
+          ],
+          "quote": "It's like finding a treasure chest in your backyard, but instead of gold, it's filled with pure, unadulterated knowledge bombs about ChatGPT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sentiment-analysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "情感分析 (sentiment analysis)",
+      "file": "情感分析",
+      "primary": true,
+      "how_described": "本集说随着大语言模型的出现，将非结构化数据转化为信号——历史上被称为情感分析（sentiment analysis）——大规模做到这一点的能力已经急剧上升，这是量化交易端纯赚钱角度的改进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 294,
+          "t": [
+            1343.449,
+            1356.137
+          ],
+          "quote": "More recently, with the advent of large language models coming about, the ability to process unstructured data, of course, and incorporate that into signals, which historically was called sentiment analysis, the ability to do that at scale has gone up dramatically.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "operating-leverage",
+      "type": "concept",
+      "role": "concept",
+      "name": "营运杠杆 (operating leverage)",
+      "file": "营运杠杆",
+      "primary": true,
+      "how_described": "本集说如果你不知道如何使用 AI 工具，或者你不在一家能给你访问这些工具的权限以给你营运杠杆（operating leverage）的公司里，那么你也将会过时",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            1178.336,
+            1190.804
+          ],
+          "quote": "And in future years, you're going to have sort of the same thing, where if you don't know how to use these tools or you're not at a firm that could give you access to the tools to give you operating leverage, then you're also going to be obsolete.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1190.844,
+            1196.568
+          ],
+          "quote": "And so that phrase is one I use a lot is just this concept of operating leverage and not being afraid of that.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "type": "concept",
+      "role": "concept",
+      "name": "Grok",
+      "file": "Grok",
+      "primary": false,
+      "how_described": "本集提到全公司每个人应该使用 ChatGPT 或 Grok 或某些 LLM 来协助分析和写作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            640.553,
+            657.836
+          ],
+          "quote": "But then over the past year, I've seen everyone across the firm, even in accounting, finance, compliance, legal, like, yes, you should be using either ChatGPT or Grok or some LLM to assist in anything that you're doing that's analysis or writing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "type": "concept",
+      "role": "concept",
+      "name": "Windsurf",
+      "file": "Windsurf",
+      "primary": false,
+      "how_described": "本集说公司里大约三分之一的人使用 AI 编码工具，比如 Windsurf",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1404.52,
+            1411.826
+          ],
+          "quote": "About a third of the firm, you know, use AI coding tools such as Windsurf.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说持续拥有处理风险会议逐字稿的 LLM，帮助记忆、提供洞察并起到一定预测作用；最终目标是把所有部门生成的文本跟数值数据打通",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            640.553,
+            657.836
+          ],
+          "quote": "But then over the past year, I've seen everyone across the firm, even in accounting, finance, compliance, legal, like, yes, you should be using either ChatGPT or Grok or some LLM to assist in anything that you're doing that's analysis or writing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3064.798,
+            3067.72
+          ],
+          "quote": "You know, it's just like, why does an LLM do what it's going to do?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "quant-investing",
+      "type": "concept",
+      "role": "concept",
+      "name": "量化投资 (quant investing)",
+      "file": "量化投资",
+      "primary": true,
+      "how_described": "本集说量化投资建立在历史模式会重复这一概念之上，世界级量化模型中的非线性关系复杂到人类心智根本无法理解其全部维度，几十年前就已跨越了人类所能理解的范畴",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 597,
+          "t": [
+            2887.226,
+            2901.657
+          ],
+          "quote": "So when it comes to investing, when we look for patterns, quant investing, of course, is built on this concept that there are patterns in history, in stock prices and information that was predictive.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2909.783,
+            2911.665
+          ],
+          "quote": "And in world-class quant investing,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2918.318,
+            2930.603
+          ],
+          "quote": "People forget how long the book on Renaissance came out, but some people still don't realize that the quant investing has been going full bore since at least the early 90s.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3049.385,
+            3051.867
+          ],
+          "quote": "Well, there's so many different flavors of quant investing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "first-principles",
+      "type": "concept",
+      "role": "concept",
+      "name": "第一性原理 (first principles)",
+      "file": "第一性原理",
+      "primary": false,
+      "how_described": "本集说直觉就是第一性原理，但在决策意义上与数学公理不同，存在主观性成分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 641,
+          "t": [
+            3199.388,
+            3201.809
+          ],
+          "quote": "So it's analogous intuition is first principles.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3203.15,
+            3206.252
+          ],
+          "quote": "And there's a very famous guy that uses first principles all the time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3211.135,
+            3217.298
+          ],
+          "quote": "If you can understand some of the core concepts of first principles in math, then you can take any test and get 100%.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3218.859,
+            3220.04
+          ],
+          "quote": "I like thinking of first principles.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3256.113,
+            3264.16
+          ],
+          "quote": "Do you think that first principles, and this is a leading question because I have an opinion on this, but do you think that first principles in this...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3264.22,
+            3270.866
+          ],
+          "quote": "I don't think that first principles in the math sense are the same thing as first principles in the, let's say, decision-making sense.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3272.367,
+            3276.67
+          ],
+          "quote": "In the sense that when you use the word first principles in a math sense...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3287.02,
+            3290.644
+          ],
+          "quote": "But first principles in a kind of a decision-making sense, like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3333.573,
+            3338.436
+          ],
+          "quote": "What could be first principles to one person might be totally the opposite of someone else's first principles.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3370.113,
+            3380.637
+          ],
+          "quote": "Yeah, that kind of falls down at some point because people might just totally be schooled in first principles that are so different that they would lead them to make completely different decisions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3382.777,
+            3392.821
+          ],
+          "quote": "As you've learned to improve your decisions over time, what are the things that you've learned to take as good, reliable first principles, and what are some of the ones that you've thrown out?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3507.451,
+            3513.796
+          ],
+          "quote": "So, yeah, you know, the biggest first principles I said, power of incentives and intellectual honesty.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "citadel",
+      "type": "company",
+      "role": "company",
+      "name": "Citadel",
+      "file": "Citadel",
+      "primary": false,
+      "how_described": "本集提到拥有穿透式结构的最著名公司之一是 Citadel，但真正拥有这种结构的公司可能不到一打",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 785,
+          "t": [
+            3873.237,
+            3875.959
+          ],
+          "quote": "Biggest ones, or most famous ones, is Citadel.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "data-lake",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据湖 (data lake)",
+      "file": "数据湖",
+      "primary": false,
+      "how_described": "本集说很大一部分力量在于是否有数据策略，把所有数据放入湖（lake）中，然后可以用吸管取出来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 452,
+          "t": [
+            2110.053,
+            2116.317
+          ],
+          "quote": "I want to talk about that, the thing you brought up next, which is sort of this data lake idea of recording everything.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

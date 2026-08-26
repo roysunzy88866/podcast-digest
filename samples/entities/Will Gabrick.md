@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
+[[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":2,"Stripe":19,"Stripe Minions":1,"智能体":135,"智能体商务":1,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":15}</script>
+<script type="application/json" class="pd-epn">{"David George":2,"Stripe":19,"Stripe Minions":1,"智能体":136,"智能体商务":1,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":15}</script>
 
 <script>
 (function(){

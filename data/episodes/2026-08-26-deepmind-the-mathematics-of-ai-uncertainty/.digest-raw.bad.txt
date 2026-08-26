@@ -1,0 +1,127 @@
+===标题===
+给AI装上"自知之明"：为什么机器需要学会怀疑
+===导语===
+剑桥大学教授、Google DeepMind Frontier AI 联合负责人 Zubin Gharemani 认为，真正智能的系统必须能表征自身的不确定性，而不是盲目自信地给出答案。
+===正文===
+今天的大语言模型有一个致命弱点：无论对错，它都带着绝对的自信开口。你质疑它，它可能立刻改口；你顺着它，它就坚定到底。这不是"知道"的表现，而是在做下一个词的概率预测——它根本没有显式地表征"我对这句话有多大把握" [19:51 Unknown]。
+
+Zubin 认为，智能的核心是决策，而决策必然发生在不确定性之中。从细菌到人类到机器人，没有一个智能体能掌握全部信息。所以一个真正智能的系统，需要三样东西：能表示不确定性、能更新不确定性、能利用不确定性做出好的决策 [01:55 Unknown]。
+
+不确定性本身不止一种。一种是世界固有的随机性，比如街上一个行人要往哪边转，你猜不出来；另一种是你从没见过的场景，比如自动驾驶汽车在冰雹天遇到一匹马跳到车前——训练数据里根本没有这种情况 [02:53 Unknown]。两种不确定性意味着不同的应对方式：前者你可能放弃预测，后者你应该减速、收集更多信息。但从数学上看，所有形式的不确定性都可以归结为概率，用概率论的规则来统一处理 [03:49 Unknown]。
+
+## 贝叶斯：一套让AI"讲道理"的数学
+
+Zubin 是贝叶斯学派的信徒。贝叶斯规则的逻辑很直观：在看到证据之前，你有"先验信念"（比如侦探小说里你觉得管家最可疑）；看到证据后（凶器在食品储藏室被发现），你把先验乘以每个嫌疑人条件下出现这个证据的概率（叫"似然"），再归一化，就得到"后验信念"——你更新后的知识状态 [17:07 Unknown]。再来新证据，就把当前后验当新先验，重复这个流程。
+
+这套框架能同时建模感知和学习。感知就是不断用感官证据更新对世界的判断；学习就是用数据不断更新模型参数。而且它天然避免"灾难性遗忘"——因为新数据是在旧知识基础上做更新，而不是从零开始覆盖 [38:13 Unknown]。理论上，贝叶斯更新能做到持续学习，不会像现在的大模型训练方式那样，隔几个月就重新训一个巨型模型 [37:04 Unknown]。
+
+## 为什么现在的大模型"装"而不"真"
+
+大语言模型确实在用概率——它预测下一个 token 的概率分布。但 Zubin 区分了"用概率"和"仔细表征概率"。前者是模型内部数十亿个神经元的激活值里隐含着某种不确定性的信号，后者是你能明确指着某处说"模型对这个判断的置信度是多少" [15:20 Unknown]。
+
+有人试图从模型内部提取不确定性信号，比如看输出概率分布的"熵"（低熵=尖峰=确定，高熵=分散=不确定）。Zubin 的比喻很直白：这就像你通过给计算器看大量加法和乘法的例子来"模仿"一个计算器，但你从没教过它加法到底是什么——遇到没见过的数字它就露馅了。你想要的不是一个"装作会算的计算器"，而是一个真正会算的计算器 [25:03 Unknown]。
+
+## 真正用了不确定性反而更准的案例
+
+天气预报是一个成功范例。Google DeepMind 的 GenCast 模型用扩散模型生成预报集合——对同一个风暴，它不给出一条轨迹，而是跑出许多条可能的轨迹，形成一个概率分布 [28:02 Unknown]。随着新观测数据进来，它更新这个分布。这本质上就是在用贝叶斯更新的思想。反直觉的是：你往系统里加入了不确定性，预测反而更准确了 [29:20 Unknown]。
+
+AlphaFold 是另一个例子。蛋白质结构预测的结果按模型的确信程度做颜色编码——有些区域模型很确定，有些区域物理上本身就会摇摆，模型诚实地标出"这里我不确定" [30:30 Unknown]。
+
+## "太诚实"会不会变成什么都不说？
+
+如果模型对不确定性太诚实，会不会永远在说"我不知道"？Zubin 的回答是：校准。如果模型说"下雨概率 70%"，那么在所有它说这句话的日子里，应该有 70% 真的下了雨 [31:21 Unknown]。对于只发生一次的事件（比如某个人类首次抵达某天的日期），贝叶斯统计同样允许你用概率来表达"信念程度"——这不违反数学，只是表达的不是频率，而是主观不确定性 [32:29 Unknown]。
+
+## 为什么这个方向被搁置了
+
+贝叶斯方法听起来像万能药：自带谦逊、支持持续学习、数据效率更高。但有一个巨大的"诅咒"——计算上太慢了 [40:36 Unknown]。精确表示所有可能事物的概率分布是计算不可解的问题，教科书会告诉你"理论上可以，但实际上做不了" [40:48 Unknown]。所以整个领域转向了"堆数据堆算力"的路线。
+
+但 Zubin 指出，80 年代人们也是这么评价神经网络的——"计算上不可能"。他本科时用的那台 65,000 个处理器的并行超级计算机，比不上今天口袋里的手机 [41:43 Unknown]。他认为现在该重新审视这些被搁置的想法了。
+
+除了不确定性表征，他还点出几个需要突破的方向：持续学习（像人一样不断吸收新数据而不是周期性重训）、能效（人脑 20 瓦，大模型训练差了好几个数量级）、数据效率（人看几张图就能认猫，模型需要百万张），以及可能存在的全新架构——Transformer 和扩散模型不一定是终点 [38:33 Unknown]。
+
+## 本集带走
+- **区分"正确性"和"置信度"**：一个校车图片改几个像素，神经网络就 99% 确信那是猎豹——我们需要的不是永远答对的系统，而是"知道自己什么时候不确定"的系统 [08:04 Unknown]。
+- **不确定性有两种，应对方式不同**：世界固有的随机性（猜不中的就别猜）vs 从没见过的场景（应该减速、收集信息），但数学上都可以用概率统一处理 [04:10 Unknown]。
+- **贝叶斯更新的本质**：先验信念 × 新证据的似然 → 后验信念，重复迭代。它同时是感知模型和学习模型，理论上天然避免灾难性遗忘 [17:07 Unknown]。
+- **大模型在"装"不确定性**：内部概率分布的熵信号不等于真正的信念表征，就像通过看例子模仿出来的计算器不是真正的计算器 [25:03 Unknown]。
+- **加入不确定性反而提升准确性**：GenCast 天气模型用预报集合表达概率分布，AlphaFold 用颜色编码标注确信度——诚实标注"不知道"的区域，整体预测反而更可靠 [29:20 Unknown]。
+- **贝叶斯方法的"诅咒"是计算成本**：精确计算在数学上不可解，80 年代人们同样这么评价神经网络，算力进步可能让这些想法重新变得可行 [40:36 Unknown]。
+
+===金句===
+01:55 Unknown
+EN | And so fundamentally, to build an intelligent system, you need a system that can represent uncertainty, that can update its uncertainty, and then can use that to make good decisions under uncertainty.
+ZH | 所以根本上，要构建一个智能系统，你需要一个能够表示不确定性、能够更新其不确定性，然后利用它在不确定性下做出良好决策的系统。
+
+08:04 Unknown
+EN | And more than a decade ago, people discovered that you can take an image, for example, of a school bus, modify just a few pixels in that image in an imperceptible way.
+ZH | 十多年前，人们发现你可以拿一张图像，例如校车的图像，以难以察觉的方式修改其中的几个像素。
+
+08:19 Unknown
+EN | You give it to the neural network, and it confidently says, that's a cheetah.
+ZH | 你把它交给神经网络，它自信地说，那是一只猎豹。
+
+08:41 Unknown
+EN | It's actually correctness and confidence. We don't want systems that can be over confidently wrong.
+ZH | 实际上是正确性和置信度。我们不想要会过度自信地犯错的系统。
+
+15:20 Unknown
+EN | But what's missing is we're not really doing what I said, which is the careful representation of probabilities.
+ZH | 但缺失的是，我们并没有真正做到我所说的，即对概率的仔细表示。
+
+20:09 Unknown
+EN | It doesn't have an explicit representation of how confident it is in that statement. It's not calculating Bayes' rule.
+ZH | 它对于它对该陈述有多大信心没有明确的表征。它不是在计算贝叶斯法则。
+
+20:29 Unknown
+EN | It's sort of faking it, right?
+ZH | 它有点像是在装样子，对吧？
+
+20:41 Unknown
+EN | So it's not really coherent. It's not going to stand its ground.
+ZH | 所以它并不真的是连贯的。它不会坚持它的立场。
+
+25:03 Unknown
+EN | It's like trying to build the calculator just by showing it examples of addition and multiplication. You want a calculator that actually calculates.
+ZH | 这就像试图仅仅通过向它展示加法和乘法的例子来构建计算器。你想要一个真正进行计算的计算器。
+
+25:50 Unknown
+EN | We just thought like, well, representing probability distributions over every possible thing is computationally intractable. It would take giant supercomputers that we don't have.
+ZH | 我们只是想，嗯，表示每个可能事物的概率分布在计算上是难处理的。这将需要我们没有的巨型超级计算机。
+
+28:02 Unknown
+EN | It has a whole probability distribution over the possible tracks. You rerun the model over and over and over again.
+ZH | 它在可能的轨迹上有一个完整的概率分布。你一遍又一遍地重新运行模型。
+
+29:20 Unknown
+EN | I think there's something quite delightfully counterintuitive about that, that you add in uncertainty to the system and it makes the predictions more accurate.
+ZH | 我认为这点非常令人愉悦地反直觉，你向系统加入了不确定性，而它让预测更准确。
+
+31:21 Unknown
+EN | If I say the chance of rain is 0.7 or 70%, then for all days that I've said that, if I'm calibrated, then on 70% of those days it actually rained, on 30% it didn't rain.
+ZH | 如果我说下雨的几率是 0.7 或 70%，那么对于我说过那话的所有日子，如果我是被校准的，那么在那些日子中有 70% 的日子实际上下雨了，30% 没有下雨。
+
+35:49 Unknown
+EN | The problem is that when you stretch them in the long tail of sort of unusual things, then you can uncover some gaps.
+ZH | 问题在于，当你把它们延伸到长尾的那些不寻常事物时，你就会发现一些差距。
+
+38:13 Unknown
+EN | That sort of Bayesian updating can do continual learning and does not suffer from catastrophic forgetting and all these things in theory.
+ZH | 这种贝叶斯更新在理论上可以进行持续学习，并且不会遭受灾难性遗忘以及所有这些问题。
+
+40:36 Unknown
+EN | The magic trick comes with a big curse. The curse here is that to do all of this, is computationally very slow.
+ZH | 这个魔法技巧伴随着一个巨大的诅咒。这里的诅咒是，为了做所有这一切，在计算上是非常慢的。
+
+40:48 Unknown
+EN | But they will say, we can't do these things exactly because they're computationally hard problems.
+ZH | 但它们会说，我们无法精确地做这些事情，因为它们是计算上的难题。
+
+43:41 Unknown
+EN | For, I think, all problems that matter, I would rather have an AI system that knows when it doesn't know than an AI system that is arrogant and overconfident.
+ZH | 对于我认为所有重要的问题，我宁愿拥有一个知道自己不知道的 AI 系统，也不愿拥有一个傲慢和过度自信的 AI 系统。
+
+44:13 Unknown
+EN | When they fail, they fail with total confidence.
+ZH | 当它们失败时，它们带着绝对的自信失败。
+
+===END===

@@ -47,7 +47,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Cursor]] · [[ChatGPT]] · [[Instagram]] · [[Claude]] · [[vibe coding]] · [[Anthropic]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":135,"OpenAI":61,"Cursor":35,"ChatGPT":35,"Instagram":3,"Claude":32,"vibe coding":23,"Anthropic":67,"产品市场契合":9}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":136,"OpenAI":61,"Cursor":35,"ChatGPT":36,"Instagram":3,"Claude":32,"vibe coding":23,"Anthropic":67,"产品市场契合":9}</script>
 
 <script>
 (function(){

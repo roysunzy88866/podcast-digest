@@ -1,0 +1,1091 @@
+{
+  "episode_id": "2026-08-26-deepmind-the-mathematics-of-ai-uncertainty",
+  "podcast": "Google DeepMind: The Podcast",
+  "date": "2026-08-26",
+  "tags": [
+    "不确定性",
+    "贝叶斯推断",
+    "大语言模型校准",
+    "AI 安全",
+    "概率表示"
+  ],
+  "categories": [
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "zubin-gharemani",
+      "type": "person",
+      "role": "host",
+      "name": "Zubin Gharemani",
+      "file": "Zubin Gharemani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            25.433,
+            32.655
+          ],
+          "quote": "Zubin Gharemani has spent the last 30 years pioneering a type of intelligence built on the mathematics of uncertainty.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": true,
+      "how_described": "本集说 Google DeepMind 开发了最先进的天气预报模型（如 GenCast）和 AlphaFold，这些模型在处理不确定性方面做出了正面示范",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.071,
+            2.193
+          ],
+          "quote": "Welcome to Google DeepMind, the podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            33.235,
+            41.778
+          ],
+          "quote": "Today, as a professor at Cambridge and co-lead of Frontier AI at Google DeepMind, Zubin finds himself at the heart of another interesting debate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1605.99,
+            1611.751
+          ],
+          "quote": "Yeah, so we've developed a whole series of state-of-the-art weather forecasting models at Google DeepMind.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "type": "concept",
+      "role": "concept",
+      "name": "不确定性 (uncertainty)",
+      "file": "不确定性",
+      "primary": true,
+      "how_described": "本集说任何在现实世界做决策的智能系统（从细菌到人类到机器人）都必须能表示不确定性、根据新证据更新不确定性、然后在不确定性下做出好的决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            25.433,
+            32.655
+          ],
+          "quote": "Zubin Gharemani has spent the last 30 years pioneering a type of intelligence built on the mathematics of uncertainty.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            47.82,
+            59.13
+          ],
+          "quote": "And on the other are those like Zubin who believe that true intelligence requires innovations in architecture and that improving machine uncertainty may be one of the missing pieces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            67.11,
+            73.538
+          ],
+          "quote": "If you were to distill it all down, I mean, your central thesis is that we need to have uncertainty in AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            102.825,
+            110.009
+          ],
+          "quote": "So we are always uncertain about the state of the real world, and we need to make decisions under uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            115.612,
+            129.92
+          ],
+          "quote": "And so fundamentally, to build an intelligent system, you need a system that can represent uncertainty, that can update its uncertainty, and then can use that to make good decisions under uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            130.2,
+            134.382
+          ],
+          "quote": "Because actually, I mean, there's two different types of uncertainty, I guess, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            134.942,
+            138.224
+          ],
+          "quote": "There's the uncertainty of just the inherent randomness of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            145.768,
+            149.71
+          ],
+          "quote": "But then there's the uncertainty of a scenario that you've never encountered before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            192.747,
+            197.892
+          ],
+          "quote": "A certain self-awareness, if we can use those terms, a self-awareness about its uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            212.064,
+            228.68
+          ],
+          "quote": "where to have a sense of its uncertainty it would basically decide to slow down because it hasn't encountered that situation before it's not confident that the horse isn't a bicycle or whatever it is right there are many different kinds of uncertainty but the beauty of it is that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            233.204,
+            244.694
+          ],
+          "quote": "So we can map all these different forms of uncertainty onto probabilities and then use the rules of probability theory to manipulate uncertainty, update your state of uncertainty, etc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            245.174,
+            249.018
+          ],
+          "quote": "But how important is it that a machine can tell the different types of uncertainty apart?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            250.246,
+            257.29
+          ],
+          "quote": "Yeah, I think it's important insofar that the different types of uncertainty may mean different decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            257.871,
+            265.936
+          ],
+          "quote": "So, for example, if you have, you know, what's called aleatoric uncertainty, which is the sort of randomness of a coin flip.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            287.367,
+            294.971
+          ],
+          "quote": "So information, a bit of information that we use in computer science is the reduction of your uncertainty by a factor of two.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            296.771,
+            300.453
+          ],
+          "quote": "And so collecting information is the way we reduce our uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            300.713,
+            304.795
+          ],
+          "quote": "How do these ideas of uncertainty map onto what humans are doing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            315.641,
+            325.987
+          ],
+          "quote": "And one of the really interesting things is that the field of cognitive science has really embraced these ideas of uncertainty and probabilities and so on to try to understand",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            410.279,
+            416.781
+          ],
+          "quote": "Kahneman and Tversky showed that humans are actually quite bad at representations of uncertainty at a conscious level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            461.46,
+            466.743
+          ],
+          "quote": "Correctness and confidence, which both sometimes come under the umbrella of uncertainty.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            880.449,
+            887.911
+          ],
+          "quote": "And in that paper, you argue, many aspects of intelligence depend crucially on the careful probabilistic representation of uncertainty.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1047.95,
+            1054.635
+          ],
+          "quote": "And through that evidence, by the way, you've gained information, literally measured in bits, how much your uncertainty has decreased.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1186.508,
+            1191.952
+          ],
+          "quote": "The AI systems that we're all used to playing around with, how good are they at representing uncertainty?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1302.726,
+            1312.651
+          ],
+          "quote": "You know, cause and effect, they need to have an understanding of their own uncertainty and they need to use that to be able to act in the real world in a safe way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1390.861,
+            1394.824
+          ],
+          "quote": "If you wanted large language models to have uncertainty in them, how do you do it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1422.246,
+            1428.291
+          ],
+          "quote": "And that probability distribution, the entropy of that distribution tells you something about the uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1583.887,
+            1599.563
+          ],
+          "quote": "Okay, so moving away from the large language model, the transformer type system then for a moment, because I mean, there are other examples of, you know, really cutting edge artificial intelligence, which does handle uncertainty in more of this Bayesian way that you're describing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1716.309,
+            1721.874
+          ],
+          "quote": "Because you're essentially saying there is an inherent uncertainty in the way that weather works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1760.367,
+            1770.19
+          ],
+          "quote": "I think there's something quite delightfully counterintuitive about that, that you add in uncertainty to the system and it makes the predictions more accurate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1815.269,
+            1829.797
+          ],
+          "quote": "I think the other example that really manages to get this uncertainty idea right is AlphaFold, where the protein prediction is color-coded by how sure the model is that that's the correct folding, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1848.744,
+            1855.126
+          ],
+          "quote": "And you also have just uncertainty because you've used the model to predict that it's not like experimental data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1855.186,
+            1860.388
+          ],
+          "quote": "And so you need to be able to represent that uncertainty in the sort of cloud of forecasts of where the molecules are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1864.952,
+            1872.299
+          ],
+          "quote": "You could end up with a model that was so honest about its uncertainty that it just sort of didn't ever really give you an answer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1913.106,
+            1922.593
+          ],
+          "quote": "Now, if you ask me a statement of uncertainty about something that is not a repeatable event, so for example, we may be uncertain about the first day a human being",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1949.479,
+            1962.532
+          ],
+          "quote": "So what Bayesian statistics tells you is that it's perfectly valid and in fact the right thing to do to use probabilities to represent your degree of uncertainty about things that only happen once.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1962.842,
+            1975.106
+          ],
+          "quote": "How do you communicate that uncertainty in a way that actually means it adds value rather than just has a human sort of nodding along or kind of taking cognitive shortcuts when the machine says it's really confident?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2034.2,
+            2045.763
+          ],
+          "quote": "But to be able to do that, we need our AI systems to be honest about their uncertainty and bring that uncertainty in a visible form to the human users so we can understand it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2125.152,
+            2132.159
+          ],
+          "quote": "I mean, there are some people who sort of say, look, you just put in more data and then you don't need to worry about uncertainty because the model will know everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2406.963,
+            2418.855
+          ],
+          "quote": "Like this magic trick which embeds humility and uncertainty, offers the opportunity for continual learning, and makes the data more efficient, and you can write in a single line of Bayes' rule.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2544.534,
+            2549.878
+          ],
+          "quote": "The sort of ineffable characteristics of humility and honesty and uncertainty and doubt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2593.312,
+            2599.218
+          ],
+          "quote": "We're actually quite bad at making good rational decisions under uncertainty in the real world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2657.086,
+            2665.709
+          ],
+          "quote": "But by teaching AI to embrace uncertainty, it gives it something more human, humility and honesty and the wisdom to doubt.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bayes-rule",
+      "type": "concept",
+      "role": "concept",
+      "name": "贝叶斯规则 (Bayes' rule)",
+      "file": "贝叶斯规则",
+      "primary": true,
+      "how_described": "本集说贝叶斯规则是用概率更新信念的数学方法：先验信念乘以似然再归一化得到后验信念，每获得新证据就循环往复，既描述感知也描述学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            1071.007,
+            1084.977
+          ],
+          "quote": "And through that application of Bayes' rule, we can model both perception, like I open my eyes, I see something, then I see more things, and I know it's not a jaguar that's following me in Costa Rica, but you can also model what learning is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1092.962,
+            1100.768
+          ],
+          "quote": "You get some data and you update the model parameters sequentially through that data applying Bayes' rule in theory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1130.47,
+            1133.652
+          ],
+          "quote": "That's essentially a one sentence description of what Bayes' rule is doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1213.888,
+            1215.049
+          ],
+          "quote": "It's not calculating Bayes' rule.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1215.289,
+            1217.812
+          ],
+          "quote": "It's not calculating Bayes' rule, at least not explicitly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2406.963,
+            2418.855
+          ],
+          "quote": "Like this magic trick which embeds humility and uncertainty, offers the opportunity for continual learning, and makes the data more efficient, and you can write in a single line of Bayes' rule.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "large-language-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (large language model)",
+      "file": "大语言模型",
+      "primary": true,
+      "how_described": "本集说大语言模型在做 next token prediction 时没有显式的置信度表示，概率隐式散布在数十亿参数的激活值里，所以你反驳它一句它就改口",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            548.211,
+            557.098
+          ],
+          "quote": "But when we deploy them, for example, large language models, we've all encountered this, no matter what large language model you interact with, it will confidently give you an answer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1197.116,
+            1205.262
+          ],
+          "quote": "And you can tell that because if you interact with a large language model and it asserts something, you can ask it, how confident are you?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1262.904,
+            1267.772
+          ],
+          "quote": "I feel like that would be a very useful feature for a large language model to be able to say it's not sure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1339.316,
+            1352.879
+          ],
+          "quote": "For example, if I want my large language model to write me a short story of that time that Albert Einstein went to the moon in a rocket, that's clearly a hallucination, but it's an act of creative writing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1411.577,
+            1421.426
+          ],
+          "quote": "So before it answers, before it produces a token in a large language model, you actually have a probability distribution over all possible next tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1583.887,
+            1599.563
+          ],
+          "quote": "Okay, so moving away from the large language model, the transformer type system then for a moment, because I mean, there are other examples of, you know, really cutting edge artificial intelligence, which does handle uncertainty in more of this Bayesian way that you're describing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2333.663,
+            2340.888
+          ],
+          "quote": "You know, if you compare that to training a large language model in a big data center, it's orders of magnitude off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2341.328,
+            2348.313
+          ],
+          "quote": "I don't want to compare a single brain to a large language model because single brains involve kind of the single lived experience of a human being.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-entropy",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义熵 (semantic entropy)",
+      "file": "语义熵",
+      "primary": true,
+      "how_described": "本集说语义熵是从模型内部提取不确定性的一种方向——生成 token 之前的概率分布的熵低说明确定、熵高说明不确定，但本质上是靠数据频率'装'的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1396.124,
+            1398.306
+          ],
+          "quote": "I mean, I'm thinking about semantic entropy here, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gencast",
+      "type": "concept",
+      "role": "concept",
+      "name": "GenCast",
+      "file": "GenCast",
+      "primary": true,
+      "how_described": "本集说 GenCast 是 Google DeepMind 开发的天气预报模型，使用扩散模型生成预报集合（ensemble），用概率分布表示飓风路径等预测的不确定性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 334,
+          "t": [
+            1611.991,
+            1620.994
+          ],
+          "quote": "And if you look at the GenCast model, sort of very recent model, one of the key features it has, it can predict sort of weather over 15 days.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alphafold",
+      "type": "concept",
+      "role": "concept",
+      "name": "AlphaFold",
+      "file": "AlphaFold",
+      "primary": true,
+      "how_described": "本集说 AlphaFold 的蛋白质预测结果按模型确信程度做颜色编码，将物理学上摇摆不定的区域和模型预测不确定的区域都显式标出来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 363,
+          "t": [
+            1815.269,
+            1829.797
+          ],
+          "quote": "I think the other example that really manages to get this uncertainty idea right is AlphaFold, where the protein prediction is color-coded by how sure the model is that that's the correct folding, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "diffusion-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩散模型 (diffusion model)",
+      "file": "扩散模型",
+      "primary": false,
+      "how_described": "本集说扩散模型是在时间维度上操纵概率分布的方法，GenCast 天气预报模型就是使用扩散模型来生成预报集合",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 339,
+          "t": [
+            1636.698,
+            1645.963
+          ],
+          "quote": "It uses a diffusion model, so that already is like the image generation models that already is manipulating probability distributions over time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continual-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continual learning)",
+      "file": "持续学习",
+      "primary": false,
+      "how_described": "本集说当前 AI 系统每隔几个月重新训练一个巨大模型，不像人类持续学习；而贝叶斯更新理论上能做持续学习且不遭受灾难性遗忘",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 423,
+          "t": [
+            2222.066,
+            2224.149
+          ],
+          "quote": "One example is continual learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2293.056,
+            2302.023
+          ],
+          "quote": "That sort of Bayesian updating can do continual learning and does not suffer from catastrophic forgetting and all these things in theory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2302.303,
+            2310.189
+          ],
+          "quote": "Actually, many of our attempts at doing continual learning in large neural networks are approximations of that Bayesian updating.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2310.229,
+            2312.951
+          ],
+          "quote": "So that's one area of research is continual learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2406.963,
+            2418.855
+          ],
+          "quote": "Like this magic trick which embeds humility and uncertainty, offers the opportunity for continual learning, and makes the data more efficient, and you can write in a single line of Bayes' rule.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "catastrophic-forgetting",
+      "type": "concept",
+      "role": "concept",
+      "name": "灾难性遗忘 (catastrophic forgetting)",
+      "file": "灾难性遗忘",
+      "primary": false,
+      "how_described": "本集说当前的 AI 系统不像人类那样持续学习，而是遭受灾难性遗忘——贝叶斯更新在理论上可以避免这个问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 430,
+          "t": [
+            2259.346,
+            2262.669
+          ],
+          "quote": "They suffer from things like catastrophic forgetting and so on and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2293.056,
+            2302.023
+          ],
+          "quote": "That sort of Bayesian updating can do continual learning and does not suffer from catastrophic forgetting and all these things in theory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "self-driving-car",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶汽车 (self-driving car)",
+      "file": "自动驾驶汽车",
+      "primary": false,
+      "how_described": "本集说自动驾驶汽车作为长尾场景的例子：模型可能没在冰雹天马突然跳出来这种场景训练过，如果有不确定性感知就应该减速",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            157.096,
+            162.761
+          ],
+          "quote": "So when you're in a self-driving car, you know, the self-driving car has been trained on lots and lots of data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            207.94,
+            211.504
+          ],
+          "quote": "And in the case of the self-driving car, for example, if it",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "confidence",
+      "type": "concept",
+      "role": "concept",
+      "name": "置信度 (confidence)",
+      "file": "置信度",
+      "primary": false,
+      "how_described": "本集说正确性和置信度不同，我们关心的是系统不要过度自信地犯错（如对抗样本让神经网络把校车识别为猎豹还 99% 确信）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            461.46,
+            466.743
+          ],
+          "quote": "Correctness and confidence, which both sometimes come under the umbrella of uncertainty.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            521.371,
+            523.192
+          ],
+          "quote": "It's actually correctness and confidence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2653.081,
+            2656.365
+          ],
+          "quote": "When they fail, they fail with total confidence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "probability-distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "概率分布 (probability distribution)",
+      "file": "概率分布",
+      "primary": false,
+      "how_described": "本集说概率分布是用来表示信念的方式，从先验信念到后验信念都用概率分布表示，GenCast 用它表示飓风路径的所有可能轨迹",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            983.319,
+            985.4
+          ],
+          "quote": "You represent those with a probability distribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1003.544,
+            1005.545
+          ],
+          "quote": "You represent those with a probability distribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1055.596,
+            1065.543
+          ],
+          "quote": "And now, if you get more evidence, you just take your current posterior probability distribution, which is now your new prior, and you repeat and rinse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1411.577,
+            1421.426
+          ],
+          "quote": "So before it answers, before it produces a token in a large language model, you actually have a probability distribution over all possible next tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1422.246,
+            1428.291
+          ],
+          "quote": "And that probability distribution, the entropy of that distribution tells you something about the uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1682.472,
+            1687.174
+          ],
+          "quote": "It has a whole probability distribution over the possible tracks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "transformer",
+      "file": "transformer",
+      "primary": false,
+      "how_described": "本集顺带提到 Transformer 是现代 AI 的两个主力架构之一（另一个是扩散模型），但未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            676.547,
+            681.87
+          ],
+          "quote": "We talk about the transformer revolution and all that, but back in the mid-1980s, that was a real revolution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1583.887,
+            1599.563
+          ],
+          "quote": "Okay, so moving away from the large language model, the transformer type system then for a moment, because I mean, there are other examples of, you know, really cutting edge artificial intelligence, which does handle uncertainty in more of this Bayesian way that you're describing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "aleatoric-uncertainty",
+      "type": "concept",
+      "role": "concept",
+      "name": "偶然不确定性 (aleatoric uncertainty)",
+      "file": "偶然不确定性",
+      "primary": false,
+      "how_described": "本集说偶然不确定性是世界内在的随机性，比如行人往哪边转，面对这种不确定性你可能决定放弃预测",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            257.871,
+            265.936
+          ],
+          "quote": "So, for example, if you have, you know, what's called aleatoric uncertainty, which is the sort of randomness of a coin flip.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hallucinations",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucinations)",
+      "file": "幻觉",
+      "primary": false,
+      "how_described": "本集说幻觉是症状，与不确定性相关；但有时我们想要模型产生幻觉（如创意写作），需要在完全不幻觉和没有创造力之间找平衡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1314.232,
+            1317.793
+          ],
+          "quote": "But then, I mean, I'm just thinking about hallucinations here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1327.613,
+            1330.954
+          ],
+          "quote": "Yeah, I mean, hallucinations are a symptom, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "calibrated",
+      "type": "concept",
+      "role": "concept",
+      "name": "校准 (calibrated)",
+      "file": "校准",
+      "primary": false,
+      "how_described": "本集说校准的含义是：如果我说下雨概率 70%，那么在所有我说 70% 的日子里，应该有 70% 的日子确实下雨了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 362,
+          "t": [
+            1811.567,
+            1814.609
+          ],
+          "quote": "So that we can get better calibrated forecasts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1881.69,
+            1895.685
+          ],
+          "quote": "Yeah, I think the balance is if there is a repeatable event in the real world, then you want to be calibrated in that if I say the chance of rain is 0.7 or 70%, then",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1898.795,
+            1911.184
+          ],
+          "quote": "For all days that I've said that, if I sum up over all those days, if I'm calibrated, then on 70% of those days it actually rained, on 30% it didn't rain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1911.204,
+            1913.006
+          ],
+          "quote": "So that's the calibrated probability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ensemble",
+      "type": "concept",
+      "role": "concept",
+      "name": "集合预报 (ensemble)",
+      "file": "集合预报",
+      "primary": false,
+      "how_described": "本集说 GenCast 生成预报的集合——反复运行模型得到所有可能轨迹的概率分布，几小时后拿到新观测数据就更新这个集合",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 340,
+          "t": [
+            1646.443,
+            1649.445
+          ],
+          "quote": "But then it generates an ensemble of forecasts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1678.31,
+            1682.412
+          ],
+          "quote": "And so it represents that with an ensemble of forecasts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1689.615,
+            1696.338
+          ],
+          "quote": "And then as you get more data, so, you know, a few hours later, you get more observations, you update that ensemble.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

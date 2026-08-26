@@ -40,7 +40,7 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 [[智能体]] · [[Codex]] · [[OpenAI]] · [[Cursor]] · [[vibe coding]] · [[Sherwin Wu]] · [[swyx]] · [[Vaibhav Gupta]] · [[Simon Maple]] · [[Ken]]
 
-<script type="application/json" class="pd-epn">{"智能体":135,"Codex":27,"OpenAI":61,"Cursor":35,"vibe coding":23,"Sherwin Wu":1,"swyx":1,"Vaibhav Gupta":1,"Simon Maple":4,"Ken":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":136,"Codex":27,"OpenAI":61,"Cursor":35,"vibe coding":23,"Sherwin Wu":1,"swyx":1,"Vaibhav Gupta":1,"Simon Maple":4,"Ken":1}</script>
 
 <script>
 (function(){

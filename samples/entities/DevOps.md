@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Guy Pajani]] · [[Michael Giannangelli]] · [[Patrick Debois]] · [[Nova]] · [[Simon Maple]] · [[模型路由]] · [[暗工厂]] · [[基准测试]]
 
-<script type="application/json" class="pd-epn">{"智能体":135,"评估":15,"Guy Pajani":3,"Michael Giannangelli":1,"Patrick Debois":1,"Nova":1,"Simon Maple":4,"模型路由":2,"暗工厂":2,"基准测试":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":136,"评估":15,"Guy Pajani":3,"Michael Giannangelli":1,"Patrick Debois":1,"Nova":1,"Simon Maple":4,"模型路由":2,"暗工厂":2,"基准测试":5}</script>
 
 <script>
 (function(){

@@ -1,0 +1,123 @@
+{
+  "title_zh": "AI 最缺的不是智商，是「知道自己不知道」",
+  "tldr": "Zubin Gharemani（剑桥大学教授、Google DeepMind Frontier AI 联合负责人）认为，真正智能的系统必须能表示和更新自身的不确定性，而不是假装无所不知。",
+  "digest_md": "现在的 AI 最大的问题不是答错，而是答错时跟答对一样自信——你反驳它一句，它马上改口说「对不起，我错了」，这说明它根本不是在推理，只是在模仿推理的语气 [20:30 Unknown]。Zubin Gharemani 过去 30 年一直在研究怎么让机器拥有「知道自己不知道」的能力，他认为这不仅是人类特质，而是任何智能系统在现实世界做决策的基本前提 [01:18 Unknown]。\n\n## 为什么不确定性是智能的刚需\n\n从细菌到人类到机器人，所有智能体都在不确定性下做决策——感官有限、无法预测未来，所以任何智能系统必须能做三件事：表示不确定性、根据新证据更新不确定性、然后在不确定性下做出好的决策 [01:55 Unknown]。不确定性分两种：一种是世界本身的随机性（比如行人往哪边转），另一种是你遇到了从没见过的场景（比如冰雹天马突然跳到自动驾驶车前面）[02:14 Unknown]。后一种情况下，系统需要意识到「这个情况我没见过」，然后做出保守决策比如减速——但现在的 AI 做不到这一点 [03:17 Unknown]。\n\n## 贝叶斯思维：用概率把「不知道」讲清楚\n\nZubin 的核心框架来自贝叶斯规则（一种用概率来更新信念的数学方法）：你先有先验信念（比如侦探案里觉得管家最可疑），然后观察到新证据（凶器在食品储藏室被发现），把先验乘以似然再归一化，就得到后验信念——你的知识状态更新了 [16:10 Unknown]。每获得一条新证据，当前的后验就变成新的先验，循环往复。这个过程既描述了人类感知（听到树叶响，结合「我在哥斯达黎加」的先验，判断可能是美洲豹），也描述了学习本身（模型参数从不确定到逐渐确定）[18:05 Unknown]。人类在意识层面其实很不擅长估计概率（卡尼曼和特沃斯基早就证明了），但在感知层面——那些关乎生存的无意识判断——我们天然在做贝叶斯推断 [06:28 Unknown]。\n\n## 大语言模型为什么「装」自信\n\n大语言模型本质上在做下一个 token 的概率预测，概率确实在它内部，但它是「隐式」散布在数十亿参数的激活值里的，没有一个显式的「我对这句话有多大把握」的表示 [15:35 Unknown]。训练范式也没把「校准置信度」当优先事项——训练数据里混着无数不同人的不同信念，模型学到的是一锅大杂烩 [21:10 Unknown]。所以你问它「你多确定」，它回答你时其实还是在做 next token prediction，并不是在计算自己的置信度 [20:09 Unknown]。\n\n有一个方向是从模型内部提取「语义熵」——生成 token 之前的概率分布，熵低说明确定（比如「埃菲尔铁塔在巴黎」），熵高说明不确定 [23:23 Unknown]。但 Zubin 认为这本质上还是在靠数据频率「装」，就像通过给计算器看大量加法例子来造计算器，而不是让它真正做运算——你希望 AI 真正推理世界，而不是在训练数据里查频率 [25:05 Unknown]。\n\n## 真正做到的案例：天气预报和 AlphaFold\n\nGoogle DeepMind 的 GenCast 天气预报模型是一个正面例子。它用扩散模型（一种在时间维度上操纵概率分布的方法）生成预报集合，不是跑一次说「明天晴天」，而是跑很多次得到一条概率分布曲线——比如预测飓风路径，给你的是所有可能路径的分布，几小时后拿到新观测数据就更新这个分布 [26:45 Unknown]。AlphaFold 也类似：蛋白质预测结果按模型的确信程度做颜色编码，物理学上本身就摇摆不定的区域和模型预测不确定的区域都显式标出来 [30:15 Unknown]。这两个例子的反直觉之处在于：你给系统加入了不确定性表示，预测反而更准确了 [29:20 Unknown]。\n\n## 为什么不用贝叶斯？因为算不动\n\n贝叶斯方法的「魔法」在于：一行公式同时解决持续学习（不会灾难性遗忘，因为新知识是跟旧知识合并更新而不是覆盖）和数据效率问题 [37:57 Unknown]。但诅咒也在此——精确贝叶斯更新是计算上的难题，理论上可能要等数百万年才能出结果 [25:34 Unknown]。80 年代人们因此放弃了这条路，转向纯数据驱动。Zubin 认为现在算力今非昔比（他本科时那台 65,000 个处理器的并行超级计算机，比不上现在口袋里的手机 [41:43 Unknown]），可以重新审视这些想法，但怎么近似得又快又好，仍然是开放问题 [41:37 Unknown]。\n\n## 规模派 vs 架构派\n\n当前 AI 领域有两大阵营：一派认为只要更多数据、更多算力就能解决一切；另一派（包括 Zubin）认为真正智能需要架构创新，而不确定性是缺失的关键拼图 [00:42 Unknown]。Zubin 不否认规模派有道理——模型在很多有用的事情上确实做得不错 [35:39 Unknown]。但问题出在长尾场景：当你把模型推到它没见过的角落，过度自信就会变成危险，尤其是自动驾驶、医疗诊断这类高后果决策场景 [36:00 Unknown]。\n\n> 【背景】Zubin Gharemani 的姓氏在转写稿中未完整出现，开头旁白念的是「Zubin Gharemani」，但正文全程被主持人称为「Stephen」——应为同一人，本集按转写稿称 Zubin / Stephen。他在 2015 年发表于 Nature 的论文与 Hinton 的深度学习 foundational papers 出现在同一期。\n\n## 本集带走\n\n- **不确定性不是弱点，是智能的前提**：任何在现实世界做决策的系统都必须能表示「我不知道」，否则就是带着绝对自信犯错。\n- **贝叶斯更新的核心循环**：先验信念 → 观察证据 → 乘以似然 → 归一化得到后验 → 后验变新先验，循环往复。这个框架同时描述了感知和学习。\n- **大语言模型的自信是「装的」**：它没有显式的置信度表示，问你「你确定吗」时还是在做 next token prediction，所以你一反驳它就改口。\n- **语义熵是从内部读不确定性的一个方向，但有天花板**：它依赖训练数据中的频率信号，不是真正的推理。\n- **天气预报和 AlphaFold 是已经落地的好例子**：用概率分布（集合预报、颜色编码）显式表达不确定性，结果反而更准。\n- **贝叶斯方法的瓶颈是计算**：理论上完美，但精确计算不可行，80 年代因此被放弃；现在算力暴涨，怎么高效近似是关键开放问题。\n- **长尾场景是试金石**：日常对话里过度自信只是烦人，在自动驾驶和医疗诊断里就是危险——这才是「知道自己不知道」真正不可替代的地方。",
+  "quotes": [
+    {
+      "en": "But what's missing is we're not really doing what I said, which is the careful representation of probabilities. We're actually sort of hoping that the models represent probabilities okay because we've trained them on enough data.",
+      "zh": "但缺失的是，我们并没有真正做到我所说的，即对概率的仔细表示。我们实际上有点希望模型能很好地表示概率，因为我们在足够多的数据上训练了它们。",
+      "timestamp": "15:20",
+      "speaker": "Zubin Gharemani"
+    },
+    {
+      "en": "It's like trying to build the calculator just by showing it examples of addition and multiplication. But imagine you never show it a particular number, then it might not generalize that particular number. And you don't want to fake a calculator. You want a calculator that actually calculates.",
+      "zh": "这就像试图仅仅通过向它展示加法和乘法的例子来构建计算器。但想象一下你从未向它展示过一个特定的数字，那么它可能无法泛化那个特定的数字。而且你不想伪造一个计算器。你想要一个真正进行计算的计算器。",
+      "timestamp": "25:05",
+      "speaker": "Zubin Gharemani"
+    },
+    {
+      "en": "I think there's something quite delightfully counterintuitive about that, that you add in uncertainty to the system and it makes the predictions more accurate.",
+      "zh": "我认为这点非常令人愉悦地反直觉，你向系统加入了不确定性，而它让预测更准确。",
+      "timestamp": "29:20",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "You know, the giant state-of-the-art supercomputer, parallel connection machine computer that I used in my undergraduate years is actually slower than the Pixel phone that I have in my pocket.",
+      "zh": "你知道，我在本科时使用的那个巨大的最先进的超级计算机，并行连接机器计算机，实际上比我口袋里的 Pixel 手机还要慢。",
+      "timestamp": "41:43",
+      "speaker": "Zubin Gharemani"
+    },
+    {
+      "en": "And for, I think, all problems that matter, I would rather have an AI system that knows when it doesn't know than an AI system that is arrogant and overconfident.",
+      "zh": "对于我认为所有重要的问题，我宁愿拥有一个知道自己不知道的 AI 系统，也不愿拥有一个傲慢和过度自信的 AI 系统。",
+      "timestamp": "43:41",
+      "speaker": "Zubin Gharemani"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:55",
+      "speaker": "Unknown",
+      "en": "And so fundamentally, to build an intelligent system, you need a system that can represent uncertainty, that can update its uncertainty, and then can use that to make good decisions under uncertainty.",
+      "zh": "所以根本上，要构建一个智能系统，你需要一个能够表示不确定性、能够更新其不确定性，然后利用它在不确定性下做出良好决策的系统。"
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Unknown",
+      "en": "You know, from a mathematical point of view, we can boil it all down to probabilities.",
+      "zh": "你知道，从数学角度来看，我们可以把这一切归结为概率。"
+    },
+    {
+      "timestamp": "08:33",
+      "speaker": "Unknown",
+      "en": "And so that sort of adversarial example shows us that it's not correctness that we care about alone. It's actually correctness and confidence.",
+      "zh": "所以这种对抗样本表明，我们关心的不仅仅是正确性。实际上是正确性和置信度。"
+    },
+    {
+      "timestamp": "09:17",
+      "speaker": "Unknown",
+      "en": "And then you question it, and maybe it'll then flip-flop and give you a different answer. And so it's hard to trust the system that is overconfident.",
+      "zh": "然后你去质疑它，也许它随后会改变主意，给你一个不同的答案。所以很难信任过度自信的系统。"
+    },
+    {
+      "timestamp": "15:20",
+      "speaker": "Unknown",
+      "en": "But what's missing is we're not really doing what I said, which is the careful representation of probabilities. We're actually sort of hoping that the models represent probabilities okay because we've trained them on enough data.",
+      "zh": "但缺失的是，我们并没有真正做到我所说的，即对概率的仔细表示。我们实际上有点希望模型能很好地表示概率，因为我们在足够多的数据上训练了它们。"
+    },
+    {
+      "timestamp": "20:29",
+      "speaker": "Unknown",
+      "en": "It's sort of faking it, right? And you can tell it's faking it because then if you push back and you say something silly like, no, I think you're wrong. Then it might respond, oh, sorry, yes, I was wrong, right?",
+      "zh": "它有点像是在装样子，对吧？你可以看出它在装样子，因为如果你反驳它，说些傻话，比如\"不，我觉得你错了\"。然后它可能会回应，噢，抱歉，是的，我错了，对吧？"
+    },
+    {
+      "timestamp": "25:05",
+      "speaker": "Unknown",
+      "en": "It's like trying to build the calculator just by showing it examples of addition and multiplication. But imagine you never show it a particular number, then it might not generalize that particular number. And you don't want to fake a calculator. You want a calculator that actually calculates.",
+      "zh": "这就像试图仅仅通过向它展示加法和乘法的例子来构建计算器。但想象一下你从未向它展示过一个特定的数字，那么它可能无法泛化那个特定的数字。而且你不想伪造一个计算器。你想要一个真正进行计算的计算器。"
+    },
+    {
+      "timestamp": "25:34",
+      "speaker": "Unknown",
+      "en": "It is genuinely hard because it's computationally hard. So essentially, I would argue we had all the ingredients of AI maybe 15 or 20 years ago. We just thought like, well, representing probability distributions over every possible thing is computationally intractable.",
+      "zh": "它真的很难，因为它在计算上很难。所以本质上，我认为我们要么拥有了 AI 的所有要素，也许在 15 或 20 年前。我们只是想，嗯，表示每个可能事物的概率分布在计算上是难处理的。"
+    },
+    {
+      "timestamp": "29:20",
+      "speaker": "Unknown",
+      "en": "I think there's something quite delightfully counterintuitive about that, that you add in uncertainty to the system and it makes the predictions more accurate.",
+      "zh": "我认为这点非常令人愉悦地反直觉，你向系统加入了不确定性，而它让预测更准确。"
+    },
+    {
+      "timestamp": "35:49",
+      "speaker": "Unknown",
+      "en": "The problem is that when you stretch them in the long tail of sort of unusual things, then you can uncover some gaps.",
+      "zh": "问题在于，当你把它们延伸到长尾的那些不寻常事物时，你就会发现一些差距。"
+    },
+    {
+      "timestamp": "37:57",
+      "speaker": "Unknown",
+      "en": "Yeah, so it turns out if you think of learning from a strictly Bayesian point of view, you have your prior beliefs, you get a data point, you update them, you get a posterior, and you get another data point, you update them. That sort of Bayesian updating can do continual learning and does not suffer from catastrophic forgetting and all these things in theory.",
+      "zh": "是的，所以结果证明如果你从严格的贝叶斯角度思考学习，你有你的先验信念，你得到一个数据点，你更新它们，你得到一个后验分布，然后你得到另一个数据点，你再更新它们。这种贝叶斯更新在理论上可以进行持续学习，并且不会遭受灾难性遗忘以及所有这些问题。"
+    },
+    {
+      "timestamp": "40:36",
+      "speaker": "Unknown",
+      "en": "The magic trick comes with a big curse. The curse here is that to do all of this, is computationally very slow.",
+      "zh": "这个魔法技巧伴随着一个巨大的诅咒。这里的诅咒是，为了做所有这一切，在计算上是非常慢的。"
+    },
+    {
+      "timestamp": "41:43",
+      "speaker": "Unknown",
+      "en": "You know, the giant state-of-the-art supercomputer, parallel connection machine computer that I used in my undergraduate years is actually slower than the Pixel phone that I have in my pocket.",
+      "zh": "你知道，我在本科时使用的那个巨大的最先进的超级计算机，并行连接机器计算机，实际上比我口袋里的 Pixel 手机还要慢。"
+    },
+    {
+      "timestamp": "43:41",
+      "speaker": "Unknown",
+      "en": "And for, I think, all problems that matter, I would rather have an AI system that knows when it doesn't know than an AI system that is arrogant and overconfident.",
+      "zh": "对于我认为所有重要的问题，我宁愿拥有一个知道自己不知道的 AI 系统，也不愿拥有一个傲慢和过度自信的 AI 系统。"
+    }
+  ]
+}

@@ -143,8 +143,8 @@ Campbell 预测，随着模型能力商品化、智能服务变便宜，一定�
 **换个口味**
 
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:LLM</span>
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|一家百亿对冲基金如何全员强推 AI]]<span class="pd-rz">同公司:ChatGPT · 同概念:LLM、智能体 (agents)</span>
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:ChatGPT · 同概念:LLM</span>
-- [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
 
 </div>
 </div>

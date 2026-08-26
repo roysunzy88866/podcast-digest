@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t",
+  "audio_mp3": "https://pscrb.fm/rss/p/media.transistor.fm/b8265c0b/c6776ed3.mp3",
+  "duration_sec": 4024.952,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 820,
+  "asr": true,
+  "title_en": "A $10B Hedge Fund’s AI Playbook (Best of the Pod)",
+  "podcast": "AI & I",
+  "date": "2026-08-26",
+  "added": "2026-08-27",
+  "speaker_map": {
+    "SPEAKER_02": "Ben",
+    "SPEAKER_03": "Will"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Ben",
+  "cohosts": [
+    "Will"
+  ],
+  "title_zh": "一家百亿对冲基金如何全员强推 AI",
+  "guest_name": "Will",
+  "guest_title": "对冲基金所有者兼经营者",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

@@ -79,7 +79,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Cursor]] · [[ChatGPT]] · [[Claude]] · [[护栏]] · [[Anthropic]] · [[OpenAI]] · [[Replit]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":135,"Lenny":65,"Cursor":35,"ChatGPT":35,"Claude":32,"护栏":28,"Anthropic":67,"OpenAI":61,"Replit":11,"评估":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":136,"Lenny":65,"Cursor":35,"ChatGPT":36,"Claude":32,"护栏":28,"Anthropic":67,"OpenAI":61,"Replit":11,"评估":15}</script>
 
 <script>
 (function(){

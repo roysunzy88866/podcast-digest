@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]]
+[[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]] [[Tom Verrilli]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Block":2,"Goose":1,"智能体":135,"MCP":16,"康威定律":1,"职能型架构":1,"LLM":16,"开源模型":9,"Anthropic":67}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Block":2,"Goose":1,"智能体":136,"MCP":16,"康威定律":1,"职能型架构":1,"LLM":17,"开源模型":9,"Anthropic":67}</script>
 
 <script>
 (function(){

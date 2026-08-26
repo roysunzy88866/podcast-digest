@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Windsurf</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Windsurf">WI</div><div class="pi"><h1 class="pt">Windsurf</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Windsurf">WI</div><div class="pi"><h1 class="pt">Windsurf</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(29:51起):本集将其作为数据飞轮的完美例子：先在 Claude 上构建，收集了用户接受和拒绝代码推荐的独特数据，然后据此推出自己的模型。
+- **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《一家百亿对冲基金如何全员强推 AI》]]**(23:24起):本集说公司里大约三分之一的人使用 AI 编码工具，比如 Windsurf
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《一家百亿对冲基金如何全员强推 AI》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Peter Deng]] · [[Brandon Foo]] · [[ChatGPT]] · [[Facebook]] · [[Uber]] · [[Instagram]] · [[OpenAI]] · [[Copilot]] · [[Cursor]]
+[[ChatGPT]] · [[Lenny]] · [[Ben]] · [[Peter Deng]] · [[Will]] · [[Brandon Foo]] · [[Walleye]] · [[Facebook]] · [[Current]] · [[Uber]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Peter Deng":1,"Brandon Foo":1,"ChatGPT":35,"Facebook":9,"Uber":5,"Instagram":3,"OpenAI":61,"Copilot":5,"Cursor":35}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":36,"Lenny":65,"Ben":1,"Peter Deng":1,"Will":1,"Brandon Foo":1,"Walleye":1,"Facebook":9,"Current":1,"Uber":5}</script>
 
 <script>
 (function(){

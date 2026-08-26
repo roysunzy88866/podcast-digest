@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]]
+[[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":2,"Meta":19,"MuseSpark":1,"开源模型":9,"智能体":135,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":15,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":2,"Meta":19,"MuseSpark":1,"开源模型":9,"智能体":136,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":15,"Spark API":1}</script>
 
 <script>
 (function(){

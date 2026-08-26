@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jen Ka":1,"OpenAI":61,"Anthropic":67,"Salesforce":8,"Cursor":35,"GrokBot":2,"Town":2,"Decagon":3,"Replit":11,"智能体":135}</script>
+<script type="application/json" class="pd-epn">{"Jen Ka":1,"OpenAI":61,"Anthropic":67,"Salesforce":8,"Cursor":35,"GrokBot":2,"Town":2,"Decagon":3,"Replit":11,"智能体":136}</script>
 
 <script>
 (function(){

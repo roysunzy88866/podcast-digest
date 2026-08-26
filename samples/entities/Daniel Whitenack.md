@@ -32,7 +32,7 @@ unlisted: true
 
 [[Chris Benson]] · [[智能体]] · [[OpenAI]] · [[IBM]] · [[Hugging Face]] · [[企业软件]] · [[沙箱]] · [[微调]] · [[护栏]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":3,"智能体":135,"OpenAI":61,"IBM":2,"Hugging Face":9,"企业软件":1,"沙箱":25,"微调":5,"护栏":28,"MCP":16}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":3,"智能体":136,"OpenAI":61,"IBM":2,"Hugging Face":9,"企业软件":1,"沙箱":25,"微调":5,"护栏":28,"MCP":16}</script>
 
 <script>
 (function(){

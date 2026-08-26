@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Campbell Brown]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]] [[Dylan]]
+[[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":4,"OpenAI":61,"Anthropic":67,"Hugging Face":9,"NVIDIA":20,"智能体":135,"对齐":4,"AI 安全":1,"护栏":28,"开源模型":9}</script>
+<script type="application/json" class="pd-epn">{"Alex":4,"OpenAI":61,"Anthropic":67,"Hugging Face":9,"NVIDIA":20,"智能体":136,"对齐":4,"AI 安全":1,"护栏":28,"开源模型":9}</script>
 
 <script>
 (function(){

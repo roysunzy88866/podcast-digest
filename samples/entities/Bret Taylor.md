@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
+[[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Sierra":4,"智能体":135,"基于结果的定价":1,"应用 AI":1,"前沿模型":4,"工具层":1,"上下文工程":6,"编程系统":1,"MCP":16}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Sierra":4,"智能体":136,"基于结果的定价":1,"应用 AI":1,"前沿模型":4,"工具层":1,"上下文工程":6,"编程系统":1,"MCP":16}</script>
 
 <script>
 (function(){

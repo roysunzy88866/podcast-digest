@@ -37,7 +37,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[Lenny]] · [[前向部署工程师]] · [[开源模型]] · [[后训练]] · [[预训练]] · [[Scale]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":67,"智能体":135,"OpenAI":61,"Meta":19,"Lenny":65,"前向部署工程师":6,"开源模型":9,"后训练":12,"预训练":5,"Scale":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":67,"智能体":136,"OpenAI":61,"Meta":19,"Lenny":65,"前向部署工程师":6,"开源模型":9,"后训练":12,"预训练":5,"Scale":2}</script>
 
 <script>
 (function(){

@@ -136,7 +136,7 @@ Sebastian 不跟风，但也不是直接忽略。他 2010 年左右就买过甚�
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:智能体 (agents)、主观能动性 (agency)</span>
 - [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同概念:智能体 (agents)</span>
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|把同事当幼儿带:育儿专家的职场领导力课]]<span class="pd-rz">同概念:彻底坦诚 (radical candor)</span>
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|一家百亿对冲基金如何全员强推 AI]]<span class="pd-rz">同概念:智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,4074 @@
+[
+ {
+  "seg": 0,
+  "start": 0.071,
+  "end": 2.193,
+  "speaker": "Unknown",
+  "en": "Welcome to Google DeepMind, the podcast.",
+  "zh": "欢迎来到 Google DeepMind 播客。"
+ },
+ {
+  "seg": 1,
+  "start": 2.453,
+  "end": 11.821,
+  "speaker": "Unknown",
+  "en": "Now, if you ask an AI a question, it will usually give you an absolute answer with unwavering authority, even if that answer turns out to be wrong.",
+  "zh": "现在，如果你问 AI 一个问题，它通常会给你一个绝对确定的答案，即使那个答案是错的。"
+ },
+ {
+  "seg": 2,
+  "start": 11.921,
+  "end": 16.946,
+  "speaker": "Unknown",
+  "en": "In fact, today's AI seems to be missing a fundamental human trait, self-doubt.",
+  "zh": "事实上，今天的 AI 似乎缺乏一种基本的人类特征，自我怀疑。"
+ },
+ {
+  "seg": 3,
+  "start": 17.266,
+  "end": 24.733,
+  "speaker": "Unknown",
+  "en": "But long before the current wave of large language models, one academic researcher was trying to give machines a sense of their own limitations.",
+  "zh": "但在当前大语言模型浪潮很久之前，一位学术研究者就试图赋予机器一种自身局限性的感觉。"
+ },
+ {
+  "seg": 4,
+  "start": 25.433,
+  "end": 32.655,
+  "speaker": "Unknown",
+  "en": "Zubin Gharemani has spent the last 30 years pioneering a type of intelligence built on the mathematics of uncertainty.",
+  "zh": "Zubin Gharemani 在过去 30 年里一直致力于开创一种建立在不确定性数学基础上的智能。"
+ },
+ {
+  "seg": 5,
+  "start": 33.235,
+  "end": 41.778,
+  "speaker": "Unknown",
+  "en": "Today, as a professor at Cambridge and co-lead of Frontier AI at Google DeepMind, Zubin finds himself at the heart of another interesting debate.",
+  "zh": "如今，作为剑桥大学的教授以及 Google DeepMind 的 Frontier AI 联合负责人，Zubin 发现自己处于另一个有趣辩论的中心。"
+ },
+ {
+  "seg": 6,
+  "start": 42.218,
+  "end": 47.04,
+  "speaker": "Unknown",
+  "en": "On the one side are those who are hoping that pure scale will be the answer to ever-improving AI,",
+  "zh": "一方面是那些希望纯粹规模将成为持续改进 AI 答案的人，"
+ },
+ {
+  "seg": 7,
+  "start": 47.82,
+  "end": 59.13,
+  "speaker": "Unknown",
+  "en": "And on the other are those like Zubin who believe that true intelligence requires innovations in architecture and that improving machine uncertainty may be one of the missing pieces.",
+  "zh": "另一方面是像 Zubin 这样的人，他们认为真正的智能需要架构上的创新，而改进机器的不确定性可能是缺失的一环。"
+ },
+ {
+  "seg": 8,
+  "start": 64.807,
+  "end": 66.189,
+  "speaker": "Unknown",
+  "en": "Stephen, welcome to the podcast.",
+  "zh": "Stephen，欢迎来到播客。"
+ },
+ {
+  "seg": 9,
+  "start": 66.369,
+  "end": 66.769,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 10,
+  "start": 67.11,
+  "end": 73.538,
+  "speaker": "Unknown",
+  "en": "If you were to distill it all down, I mean, your central thesis is that we need to have uncertainty in AI.",
+  "zh": "如果你要把它提炼出来，我是说，你的核心论点是我们在 AI 中需要不确定性。"
+ },
+ {
+  "seg": 11,
+  "start": 73.878,
+  "end": 76.221,
+  "speaker": "Unknown",
+  "en": "Just, I mean, give me the top line of it.",
+  "zh": "就是，我是说，给我个大概的总结。"
+ },
+ {
+  "seg": 12,
+  "start": 76.241,
+  "end": 76.762,
+  "speaker": "Unknown",
+  "en": "So why?",
+  "zh": "所以为什么？"
+ },
+ {
+  "seg": 13,
+  "start": 77.282,
+  "end": 77.543,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么？"
+ },
+ {
+  "seg": 14,
+  "start": 78.083,
+  "end": 80.526,
+  "speaker": "Unknown",
+  "en": "Well, you know, if you think about intelligence,",
+  "zh": "嗯，你知道，如果你思考智能，"
+ },
+ {
+  "seg": 15,
+  "start": 81.087,
+  "end": 84.69,
+  "speaker": "Unknown",
+  "en": "One of the most important parts of intelligence is decision making.",
+  "zh": "智能最重要的部分之一是决策。"
+ },
+ {
+  "seg": 16,
+  "start": 85.13,
+  "end": 88.092,
+  "speaker": "Unknown",
+  "en": "Like you can't have an intelligent system that doesn't make decisions.",
+  "zh": "就像你不能拥有一个不决策的智能系统。"
+ },
+ {
+  "seg": 17,
+  "start": 88.592,
+  "end": 94.657,
+  "speaker": "Unknown",
+  "en": "You know, from bacteria to animals to humans to robots, you know, decision making is really important.",
+  "zh": "你知道，从细菌到动物到人类到机器人，你知道，决策真的很重要。"
+ },
+ {
+  "seg": 18,
+  "start": 95.237,
+  "end": 101.782,
+  "speaker": "Unknown",
+  "en": "And if you want to make decisions in the real world, our perception is limited.",
+  "zh": "而且如果你想在现实世界中做决策，我们的感知是有限的。"
+ },
+ {
+  "seg": 19,
+  "start": 102.825,
+  "end": 110.009,
+  "speaker": "Unknown",
+  "en": "So we are always uncertain about the state of the real world, and we need to make decisions under uncertainty.",
+  "zh": "所以我们总是不确定现实世界的状态，我们需要在不确定性下做决策。"
+ },
+ {
+  "seg": 20,
+  "start": 110.249,
+  "end": 111.33,
+  "speaker": "Unknown",
+  "en": "We can't know everything.",
+  "zh": "我们无法知道一切。"
+ },
+ {
+  "seg": 21,
+  "start": 111.35,
+  "end": 113.271,
+  "speaker": "Unknown",
+  "en": "We don't know everything from our senses.",
+  "zh": "我们无法从感官中知道一切。"
+ },
+ {
+  "seg": 22,
+  "start": 113.631,
+  "end": 114.812,
+  "speaker": "Unknown",
+  "en": "We can't predict the future.",
+  "zh": "我们无法预测未来。"
+ },
+ {
+  "seg": 23,
+  "start": 115.612,
+  "end": 129.92,
+  "speaker": "Unknown",
+  "en": "And so fundamentally, to build an intelligent system, you need a system that can represent uncertainty, that can update its uncertainty, and then can use that to make good decisions under uncertainty.",
+  "zh": "所以根本上，要构建一个智能系统，你需要一个能够表示不确定性、能够更新其不确定性，然后利用它在不确定性下做出良好决策的系统。"
+ },
+ {
+  "seg": 24,
+  "start": 130.2,
+  "end": 134.382,
+  "speaker": "Unknown",
+  "en": "Because actually, I mean, there's two different types of uncertainty, I guess, right?",
+  "zh": "因为实际上，我是说，有两种不同类型的不确定性，我猜，对吧？"
+ },
+ {
+  "seg": 25,
+  "start": 134.942,
+  "end": 138.224,
+  "speaker": "Unknown",
+  "en": "There's the uncertainty of just the inherent randomness of the world.",
+  "zh": "有一种仅仅是世界内在随机性的不确定性。"
+ },
+ {
+  "seg": 26,
+  "start": 139.605,
+  "end": 145.168,
+  "speaker": "Unknown",
+  "en": "There's a pedestrian in a normal, typical street, and you just don't know which way they're going to turn.",
+  "zh": "在一个普通的、典型的街道上有一个行人，而你只是不知道他们会转向哪边。"
+ },
+ {
+  "seg": 27,
+  "start": 145.768,
+  "end": 149.71,
+  "speaker": "Unknown",
+  "en": "But then there's the uncertainty of a scenario that you've never encountered before.",
+  "zh": "但还有一种你从未遇到过的场景的不确定性。"
+ },
+ {
+  "seg": 28,
+  "start": 149.91,
+  "end": 156.936,
+  "speaker": "Unknown",
+  "en": "Let me give an example from something that is becoming more and more of a reality in all our lives, which is self-driving cars.",
+  "zh": "让我举一个例子，来自我们生活中越来越成为现实的东西，也就是自动驾驶汽车。"
+ },
+ {
+  "seg": 29,
+  "start": 157.096,
+  "end": 162.761,
+  "speaker": "Unknown",
+  "en": "So when you're in a self-driving car, you know, the self-driving car has been trained on lots and lots of data.",
+  "zh": "所以当你在自动驾驶汽车里时，你知道，自动驾驶汽车已经在大量的数据上受过训练。"
+ },
+ {
+  "seg": 30,
+  "start": 163.142,
+  "end": 165.444,
+  "speaker": "Unknown",
+  "en": "It's seen many, many scenarios.",
+  "zh": "它见过许多许多场景。"
+ },
+ {
+  "seg": 31,
+  "start": 166.004,
+  "end": 171.469,
+  "speaker": "Unknown",
+  "en": "But you can imagine that there is what's called the long tail of things that could happen.",
+  "zh": "但你可以想象，有一系列所谓的可能发生的事情的长尾。"
+ },
+ {
+  "seg": 32,
+  "start": 171.549,
+  "end": 172.37,
+  "speaker": "Unknown",
+  "en": "Like, for example,",
+  "zh": "比如，例如，"
+ },
+ {
+  "seg": 33,
+  "start": 173.991,
+  "end": 185.641,
+  "speaker": "Unknown",
+  "en": "The car may have not been trained in many instances of hailstorms and it may not have been trained with, you know, horses suddenly jumping in front of the car in a hailstorm.",
+  "zh": "汽车可能没有在许多冰雹的实例中受过训练，而且它可能没有受过，你知道，马在冰雹中突然跳到汽车前面的训练。"
+ },
+ {
+  "seg": 34,
+  "start": 186.342,
+  "end": 190.665,
+  "speaker": "Unknown",
+  "en": "And so essentially what you really want from an intelligence system is",
+  "zh": "所以基本上，你真正想要从一个智能系统得到的是"
+ },
+ {
+  "seg": 35,
+  "start": 192.747,
+  "end": 197.892,
+  "speaker": "Unknown",
+  "en": "A certain self-awareness, if we can use those terms, a self-awareness about its uncertainty.",
+  "zh": "某种自我意识，如果我们可以用这些术语的话，一种关于其不确定性的自我意识。"
+ },
+ {
+  "seg": 36,
+  "start": 197.972,
+  "end": 207.2,
+  "speaker": "Unknown",
+  "en": "So it needs to be able to know the situation that it's in is something that is unusual or it hasn't seen before.",
+  "zh": "所以它需要能够知道它所处的情况是不寻常的或者它以前没见过的东西。"
+ },
+ {
+  "seg": 37,
+  "start": 207.94,
+  "end": 211.504,
+  "speaker": "Unknown",
+  "en": "And in the case of the self-driving car, for example, if it",
+  "zh": "例如在自动驾驶汽车的情况下，如果它"
+ },
+ {
+  "seg": 38,
+  "start": 212.064,
+  "end": 228.68,
+  "speaker": "Unknown",
+  "en": "where to have a sense of its uncertainty it would basically decide to slow down because it hasn't encountered that situation before it's not confident that the horse isn't a bicycle or whatever it is right there are many different kinds of uncertainty but the beauty of it is that",
+  "zh": "如果它对其不确定性有一种感知，它基本上会决定减速，因为它以前没有遇到过那种情况，它不确信那匹马不是自行车或者在那里的任何东西，对吧，有许多不同种类的不确定性，但它的美妙之处在于"
+ },
+ {
+  "seg": 39,
+  "start": 229.18,
+  "end": 233.144,
+  "speaker": "Unknown",
+  "en": "You know, from a mathematical point of view, we can boil it all down to probabilities.",
+  "zh": "你知道，从数学角度来看，我们可以把这一切归结为概率。"
+ },
+ {
+  "seg": 40,
+  "start": 233.204,
+  "end": 244.694,
+  "speaker": "Unknown",
+  "en": "So we can map all these different forms of uncertainty onto probabilities and then use the rules of probability theory to manipulate uncertainty, update your state of uncertainty, etc.",
+  "zh": "所以我们可以将所有这些不同形式的不确定性映射到概率上，然后使用概率论的规则来处理不确定性，更新你的不确定性状态，等等。"
+ },
+ {
+  "seg": 41,
+  "start": 245.174,
+  "end": 249.018,
+  "speaker": "Unknown",
+  "en": "But how important is it that a machine can tell the different types of uncertainty apart?",
+  "zh": "但是机器能够区分不同类型的不确定性有多重要？"
+ },
+ {
+  "seg": 42,
+  "start": 250.246,
+  "end": 257.29,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's important insofar that the different types of uncertainty may mean different decisions.",
+  "zh": "是的，我认为这很重要，因为不同类型的不确定性可能意味着不同的决定。"
+ },
+ {
+  "seg": 43,
+  "start": 257.871,
+  "end": 265.936,
+  "speaker": "Unknown",
+  "en": "So, for example, if you have, you know, what's called aleatoric uncertainty, which is the sort of randomness of a coin flip.",
+  "zh": "所以，例如，如果你有，你知道，所谓的偶然不确定性，也就是掷硬币的那种随机性。"
+ },
+ {
+  "seg": 44,
+  "start": 266.136,
+  "end": 267.297,
+  "speaker": "Unknown",
+  "en": "Which way is the pedestrian going to turn?",
+  "zh": "行人会转向哪一边？"
+ },
+ {
+  "seg": 45,
+  "start": 267.337,
+  "end": 269.138,
+  "speaker": "Unknown",
+  "en": "Or which way is the pedestrian going to turn?",
+  "zh": "或者行人会转向哪一边？"
+ },
+ {
+  "seg": 46,
+  "start": 269.498,
+  "end": 275.202,
+  "speaker": "Unknown",
+  "en": "You might want to decide that you're going to give up on trying to predict because it is just random.",
+  "zh": "你可能想要决定你将放弃试图预测，因为它只是随机的。"
+ },
+ {
+  "seg": 47,
+  "start": 275.582,
+  "end": 287.047,
+  "speaker": "Unknown",
+  "en": "Whereas in other cases, your state of belief is uncertain and you would want to collect more information to sort of, and in fact, that's the definition of information, right?",
+  "zh": "而在其他情况下，你的信念状态是不确定的，你会想要收集更多信息来，实际上"
+ },
+ {
+  "seg": 48,
+  "start": 287.367,
+  "end": 294.971,
+  "speaker": "Unknown",
+  "en": "So information, a bit of information that we use in computer science is the reduction of your uncertainty by a factor of two.",
+  "zh": "所以信息，我们在计算机科学中使用的一点点信息就是把你的不确定性减少两倍。"
+ },
+ {
+  "seg": 49,
+  "start": 295.151,
+  "end": 296.311,
+  "speaker": "Unknown",
+  "en": "That's what a bit is.",
+  "zh": "这就是一比特的含义。"
+ },
+ {
+  "seg": 50,
+  "start": 296.771,
+  "end": 300.453,
+  "speaker": "Unknown",
+  "en": "And so collecting information is the way we reduce our uncertainty.",
+  "zh": "所以收集信息是我们减少不确定性的方式。"
+ },
+ {
+  "seg": 51,
+  "start": 300.713,
+  "end": 304.795,
+  "speaker": "Unknown",
+  "en": "How do these ideas of uncertainty map onto what humans are doing?",
+  "zh": "这些关于不确定性的想法如何映射到人类正在做的事情上？"
+ },
+ {
+  "seg": 52,
+  "start": 305.395,
+  "end": 307.176,
+  "speaker": "Unknown",
+  "en": "So I actually studied cognitive science.",
+  "zh": "所以我实际上学过认知科学。"
+ },
+ {
+  "seg": 53,
+  "start": 307.236,
+  "end": 309.677,
+  "speaker": "Unknown",
+  "en": "I studied computer science and cognitive science as an undergraduate.",
+  "zh": "我在本科时学过计算机科学和认知科学。"
+ },
+ {
+  "seg": 54,
+  "start": 309.698,
+  "end": 314.8,
+  "speaker": "Unknown",
+  "en": "So I've always been interested in human intelligence as well as machine intelligence.",
+  "zh": "所以我一直对人类智能以及机器智能感兴趣。"
+ },
+ {
+  "seg": 55,
+  "start": 315.641,
+  "end": 325.987,
+  "speaker": "Unknown",
+  "en": "And one of the really interesting things is that the field of cognitive science has really embraced these ideas of uncertainty and probabilities and so on to try to understand",
+  "zh": "其中一件真正有趣的事情是，认知科学领域真正拥抱了这些关于不确定性和概率等等的想法，试图理解"
+ },
+ {
+  "seg": 56,
+  "start": 326.707,
+  "end": 331.569,
+  "speaker": "Unknown",
+  "en": "Both human perception and human decision-making.",
+  "zh": "人类的感知和人类的决策。"
+ },
+ {
+  "seg": 57,
+  "start": 332.149,
+  "end": 335.55,
+  "speaker": "Unknown",
+  "en": "So we go through our lives perceiving things.",
+  "zh": "所以我们在生活中感知事物。"
+ },
+ {
+  "seg": 58,
+  "start": 335.65,
+  "end": 341.372,
+  "speaker": "Unknown",
+  "en": "Perceiving the world is fundamentally an act of sensing something that is uncertain.",
+  "zh": "感知世界本质上是一种感知不确定事物的行为。"
+ },
+ {
+  "seg": 59,
+  "start": 341.672,
+  "end": 348.794,
+  "speaker": "Unknown",
+  "en": "You know, I can't see the back of your head, but I can sort of infer what the back of your head might look like from- You'd hope it was there.",
+  "zh": "你知道，我看不到你的后脑勺，但我可以大致推断你的后脑勺可能是什么样的，因为——你希望它在那里。"
+ },
+ {
+  "seg": 60,
+  "start": 348.914,
+  "end": 350.034,
+  "speaker": "Unknown",
+  "en": "I would hope it's there.",
+  "zh": "我希望它在那儿。"
+ },
+ {
+  "seg": 61,
+  "start": 350.134,
+  "end": 353.756,
+  "speaker": "Unknown",
+  "en": "And, you know, similarly, let's say I'm hiking in Costa Rica and",
+  "zh": "而且，你知道，同样地，假设我在哥斯达黎加徒步旅行，并且"
+ },
+ {
+  "seg": 62,
+  "start": 355.856,
+  "end": 358.838,
+  "speaker": "Unknown",
+  "en": "Suddenly, there's a rustling of the leaves.",
+  "zh": "突然，树叶沙沙作响。"
+ },
+ {
+  "seg": 63,
+  "start": 359.378,
+  "end": 360.899,
+  "speaker": "Unknown",
+  "en": "It may be a jaguar, right?",
+  "zh": "可能是一只美洲豹，对吧？"
+ },
+ {
+  "seg": 64,
+  "start": 360.959,
+  "end": 370.385,
+  "speaker": "Unknown",
+  "en": "And so my senses, through evolution, my senses have developed to take in perceptual information, take in my prior beliefs,",
+  "zh": "所以我的感官，通过进化，我的感官已经发展成可以接收感知信息，接收我的先验信念，"
+ },
+ {
+  "seg": 65,
+  "start": 371.105,
+  "end": 376.267,
+  "speaker": "Unknown",
+  "en": "Because, you know, there are jaguars in Costa Rica, or there wouldn't be jaguars in the middle of London.",
+  "zh": "因为，你知道，哥斯达黎加有美洲豹，而伦敦市中心不会有美洲豹。"
+ },
+ {
+  "seg": 66,
+  "start": 376.887,
+  "end": 387.792,
+  "speaker": "Unknown",
+  "en": "And that process of combining information has been modeled by cognitive scientists and psychologists and neuroscientists through the language of probabilistic inference, basically.",
+  "zh": "这种结合信息的过程基本上已经被认知科学家、心理学家和神经科学家通过概率推理的语言进行了建模。"
+ },
+ {
+  "seg": 67,
+  "start": 388.272,
+  "end": 394.855,
+  "speaker": "Unknown",
+  "en": "And also, actually, one of the interesting things is that we as humans are actually quite bad at estimating probabilities.",
+  "zh": "还有，实际上，有趣的事情之一是我们作为人类实际上非常不擅长估计概率。"
+ },
+ {
+  "seg": 68,
+  "start": 395.815,
+  "end": 404.458,
+  "speaker": "Unknown",
+  "en": "Explicitly, like if you ask somebody what is the probability of a certain event, they might get it wrong by orders of magnitude, for example.",
+  "zh": "明确地说，比如如果你问某人某件事发生的概率是多少，他们可能会错好几个数量级，比如说。"
+ },
+ {
+  "seg": 69,
+  "start": 404.918,
+  "end": 410.239,
+  "speaker": "Unknown",
+  "en": "And we have these fallacies of probabilistic inference and belief.",
+  "zh": "我们有这些概率推理和信念的谬误。"
+ },
+ {
+  "seg": 70,
+  "start": 410.279,
+  "end": 416.781,
+  "speaker": "Unknown",
+  "en": "Kahneman and Tversky showed that humans are actually quite bad at representations of uncertainty at a conscious level.",
+  "zh": "卡尼曼和特沃斯基表明，人类在意识层面上实际上非常不擅长表现不确定性。"
+ },
+ {
+  "seg": 71,
+  "start": 417.221,
+  "end": 423.743,
+  "speaker": "Unknown",
+  "en": "But in our perceptual systems, unconsciously, we tend to be quite good about these things because our survival depends on them.",
+  "zh": "但在我们的感知系统中，在无意识层面，我们往往擅长这些事情，因为我们的生存取决于它们。"
+ },
+ {
+  "seg": 72,
+  "start": 424.002,
+  "end": 433.032,
+  "speaker": "Unknown",
+  "en": "I'm thinking also about babies here, you know, or toddlers, and sort of the way that they learn is a lot about their belief in what action will drive a particular outcome.",
+  "zh": "我在这里也想到了婴儿，你知道，或者是学步的幼儿，他们学习的方式很大程度上是关于他们相信什么行动会驱动特定的结果。"
+ },
+ {
+  "seg": 73,
+  "start": 433.212,
+  "end": 435.595,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, it's all implicit.",
+  "zh": "是的，我是说，这都是隐式的。"
+ },
+ {
+  "seg": 74,
+  "start": 435.635,
+  "end": 439.98,
+  "speaker": "Unknown",
+  "en": "Obviously, babies don't know what probabilities are, and they won't be able to write down any equations for you.",
+  "zh": "显然，婴儿不知道概率是什么，他们也无法为你写下任何方程。"
+ },
+ {
+  "seg": 75,
+  "start": 440.44,
+  "end": 455.374,
+  "speaker": "Unknown",
+  "en": "But there are many cognitive scientists and psychologists who try to understand human learning, human perception, human decision making using these same formalisms that we're using for AI systems.",
+  "zh": "但是有许多认知科学家和心理学家试图使用我们用于 AI 系统的相同形式主义来理解人类学习、人类感知、人类决策。"
+ },
+ {
+  "seg": 76,
+  "start": 455.474,
+  "end": 458.958,
+  "speaker": "Unknown",
+  "en": "I think there are a few things here we should probably tease apart before we get really into it.",
+  "zh": "我认为在我们真正深入探讨之前，有几件事情我们应该可能把它们区分开。"
+ },
+ {
+  "seg": 77,
+  "start": 459.618,
+  "end": 460.739,
+  "speaker": "Unknown",
+  "en": "Because there's a difference between...",
+  "zh": "因为……是有区别的"
+ },
+ {
+  "seg": 78,
+  "start": 461.46,
+  "end": 466.743,
+  "speaker": "Unknown",
+  "en": "Correctness and confidence, which both sometimes come under the umbrella of uncertainty.",
+  "zh": "正确性和置信度，这两者有时都归属于不确定性的范畴下。"
+ },
+ {
+  "seg": 79,
+  "start": 466.763,
+  "end": 467.724,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 80,
+  "start": 467.964,
+  "end": 473.927,
+  "speaker": "Unknown",
+  "en": "A great example of this is we use AI systems for image classification all the time.",
+  "zh": "一个很好的例子是我们一直使用 AI 系统进行图像分类。"
+ },
+ {
+  "seg": 81,
+  "start": 474.067,
+  "end": 477.849,
+  "speaker": "Unknown",
+  "en": "So you give it an image and it gives you an answer of what's in the image.",
+  "zh": "所以你给它一张图像，它会给你一个关于图像里有什么的答案。"
+ },
+ {
+  "seg": 82,
+  "start": 478.61,
+  "end": 483.593,
+  "speaker": "Unknown",
+  "en": "And we can measure correctness, but we also want it to tell us how confident it is.",
+  "zh": "我们可以衡量正确性，但我们也希望它告诉我们它有多自信。"
+ },
+ {
+  "seg": 83,
+  "start": 484.573,
+  "end": 495.197,
+  "speaker": "Unknown",
+  "en": "And more than a decade ago, people discovered that you can take an image, for example, of a school bus, modify just a few pixels in that image in an imperceptible way.",
+  "zh": "十多年前，人们发现你可以拿一张图像，例如校车的图像，以难以察觉的方式修改其中的几个像素。"
+ },
+ {
+  "seg": 84,
+  "start": 495.257,
+  "end": 498.358,
+  "speaker": "Unknown",
+  "en": "So a human being would look at it and say, well, that's an image of a school bus.",
+  "zh": "所以人类看着它会说，嗯，那是一张校车的图像。"
+ },
+ {
+  "seg": 85,
+  "start": 499.019,
+  "end": 503.34,
+  "speaker": "Unknown",
+  "en": "You give it to the neural network, and it confidently says, that's a cheetah.",
+  "zh": "你把它交给神经网络，它自信地说，那是一只猎豹。"
+ },
+ {
+  "seg": 86,
+  "start": 503.44,
+  "end": 504.561,
+  "speaker": "Unknown",
+  "en": "99%, that's a cheetah.",
+  "zh": "99%，那是猎豹。"
+ },
+ {
+  "seg": 87,
+  "start": 505.401,
+  "end": 507.522,
+  "speaker": "Unknown",
+  "en": "And so, in fact, you could do it for any category.",
+  "zh": "所以，事实上，你可以对任何类别这样做。"
+ },
+ {
+  "seg": 88,
+  "start": 507.542,
+  "end": 513.126,
+  "speaker": "Unknown",
+  "en": "You could turn the school bus into a monkey or whatever in the eyes of the neural network.",
+  "zh": "在神经网络的眼中，你可以把校车变成猴子或任何东西。"
+ },
+ {
+  "seg": 89,
+  "start": 513.746,
+  "end": 520.871,
+  "speaker": "Unknown",
+  "en": "And so that sort of adversarial example shows us that it's not correctness that we care about alone.",
+  "zh": "所以这种对抗样本表明，我们关心的不仅仅是正确性。"
+ },
+ {
+  "seg": 90,
+  "start": 521.371,
+  "end": 523.192,
+  "speaker": "Unknown",
+  "en": "It's actually correctness and confidence.",
+  "zh": "实际上是正确性和置信度。"
+ },
+ {
+  "seg": 91,
+  "start": 523.252,
+  "end": 526.574,
+  "speaker": "Unknown",
+  "en": "We don't want systems that can be over confidently wrong.",
+  "zh": "我们不想要会过度自信地犯错的系统。"
+ },
+ {
+  "seg": 92,
+  "start": 526.814,
+  "end": 527.175,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 93,
+  "start": 527.875,
+  "end": 529.076,
+  "speaker": "Unknown",
+  "en": "Or can be fooled, I guess.",
+  "zh": "或者可能会被愚弄，我猜。"
+ },
+ {
+  "seg": 94,
+  "start": 529.096,
+  "end": 529.897,
+  "speaker": "Unknown",
+  "en": "Or can be fooled.",
+  "zh": "或者可能会被愚弄。"
+ },
+ {
+  "seg": 95,
+  "start": 530.237,
+  "end": 532.499,
+  "speaker": "Unknown",
+  "en": "And I think our systems can still be fooled in that way.",
+  "zh": "而且我认为我们的系统仍然可能以那种方式被愚弄。"
+ },
+ {
+  "seg": 96,
+  "start": 532.619,
+  "end": 539.985,
+  "speaker": "Unknown",
+  "en": "These ideas of overconfidence and humility, are these going to end up being important as we start to build AGI?",
+  "zh": "这些关于过度自信和谦逊的想法，当我们开始构建 AGI 时，最终会变得重要吗？"
+ },
+ {
+  "seg": 97,
+  "start": 540.265,
+  "end": 541.286,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 98,
+  "start": 541.406,
+  "end": 547.531,
+  "speaker": "Unknown",
+  "en": "I think we've advanced a great deal with systems that can acquire a lot of knowledge.",
+  "zh": "我认为我们在能够获取大量知识的系统方面取得了很大进展。"
+ },
+ {
+  "seg": 99,
+  "start": 548.211,
+  "end": 557.098,
+  "speaker": "Unknown",
+  "en": "But when we deploy them, for example, large language models, we've all encountered this, no matter what large language model you interact with, it will confidently give you an answer.",
+  "zh": "但是当我们部署它们时，例如大语言模型，我们都遇到过这种情况，无论你与哪个大语言模型交互，它都会自信地给你一个答案。"
+ },
+ {
+  "seg": 100,
+  "start": 557.799,
+  "end": 563.263,
+  "speaker": "Unknown",
+  "en": "And then you question it, and maybe it'll then flip-flop and give you a different answer.",
+  "zh": "然后你去质疑它，也许它随后会改变主意，给你一个不同的答案。"
+ },
+ {
+  "seg": 101,
+  "start": 563.804,
+  "end": 568.748,
+  "speaker": "Unknown",
+  "en": "And so it's hard to trust the system that is overconfident.",
+  "zh": "所以很难信任过度自信的系统。"
+ },
+ {
+  "seg": 102,
+  "start": 569.288,
+  "end": 571.93,
+  "speaker": "Unknown",
+  "en": "It's also hard to trust people that are overconfident, right?",
+  "zh": "信任过度自信的人也很难，对吧？"
+ },
+ {
+  "seg": 103,
+  "start": 572.01,
+  "end": 584.321,
+  "speaker": "Unknown",
+  "en": "I think we would like all intelligence systems to have a sense of their limits, their knowledge, and we need to bake that into our AI systems for sure.",
+  "zh": "我认为我们希望所有智能系统都有一种对其限制和知识的感知，我们需要肯定将其融入我们的 AI 系统。"
+ },
+ {
+  "seg": 104,
+  "start": 584.863,
+  "end": 585.423,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 105,
+  "start": 586.204,
+  "end": 588.744,
+  "speaker": "Unknown",
+  "en": "I know that you've been working in AI for a really long time, right?",
+  "zh": "我知道你在 AI 领域工作很长时间了，对吧？"
+ },
+ {
+  "seg": 106,
+  "start": 590.305,
+  "end": 591.806,
+  "speaker": "Unknown",
+  "en": "I mean, since the late 80s, basically.",
+  "zh": "我是说，基本上从 80 年代末开始。"
+ },
+ {
+  "seg": 107,
+  "start": 591.826,
+  "end": 592.346,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 108,
+  "start": 592.446,
+  "end": 593.826,
+  "speaker": "Unknown",
+  "en": "What was the field like then?",
+  "zh": "当时这个领域是什么样的？"
+ },
+ {
+  "seg": 109,
+  "start": 594.307,
+  "end": 598.948,
+  "speaker": "Unknown",
+  "en": "So I'm pretty boring in that I was interested in AI as a teenager.",
+  "zh": "所以我挺无聊的，因为我十几岁时就对 AI 感兴趣。"
+ },
+ {
+  "seg": 110,
+  "start": 599.068,
+  "end": 602.07,
+  "speaker": "Unknown",
+  "en": "So when I was 14 or 15, I already wanted to work in AI.",
+  "zh": "所以当我 14 或 15 岁时，我就已经想在 AI 领域工作了。"
+ },
+ {
+  "seg": 111,
+  "start": 602.53,
+  "end": 604.891,
+  "speaker": "Unknown",
+  "en": "When I went to university, I needed a summer job.",
+  "zh": "当我上大学时，我需要一份暑期工作。"
+ },
+ {
+  "seg": 112,
+  "start": 605.411,
+  "end": 613.114,
+  "speaker": "Unknown",
+  "en": "So I went to the head of the computer science department, this very famous computational linguist, Arvind Joshi, at University of Pennsylvania, and I said,",
+  "zh": "所以我去了计算机系的系主任那里，这位非常有名的计算语言学家，宾夕法尼亚大学的 Arvind Joshi，我说，"
+ },
+ {
+  "seg": 113,
+  "start": 614.114,
+  "end": 614.955,
+  "speaker": "Unknown",
+  "en": "I'm here for the summer.",
+  "zh": "我夏天在这里。"
+ },
+ {
+  "seg": 114,
+  "start": 615.475,
+  "end": 616.516,
+  "speaker": "Unknown",
+  "en": "I'm a first-year student.",
+  "zh": "我是一年级学生。"
+ },
+ {
+  "seg": 115,
+  "start": 616.596,
+  "end": 617.396,
+  "speaker": "Unknown",
+  "en": "I need a summer job.",
+  "zh": "我需要一份暑期工作。"
+ },
+ {
+  "seg": 116,
+  "start": 618.057,
+  "end": 623.641,
+  "speaker": "Unknown",
+  "en": "And what he said was that these two books that have come out, these were called Parallel Distributed Processing.",
+  "zh": "他说的是这两本已经出来的书，它们被称为 Parallel Distributed Processing。"
+ },
+ {
+  "seg": 117,
+  "start": 623.661,
+  "end": 629.825,
+  "speaker": "Unknown",
+  "en": "This was in 1986, the same year that the back propagation paper had come out that launched the whole neural network.",
+  "zh": "那是在 1986 年，同年反向传播论文发表，开启了整个神经网络领域。"
+ },
+ {
+  "seg": 118,
+  "start": 630.285,
+  "end": 631.246,
+  "speaker": "Unknown",
+  "en": "Thank you so much for having me.",
+  "zh": "非常感谢邀请我。"
+ },
+ {
+  "seg": 119,
+  "start": 650.52,
+  "end": 653.604,
+  "speaker": "Unknown",
+  "en": "The dominant paradigm in AI was expert systems.",
+  "zh": "AI 中的主导范式是专家系统。"
+ },
+ {
+  "seg": 120,
+  "start": 654.565,
+  "end": 661.494,
+  "speaker": "Unknown",
+  "en": "So people were looking at rule-based systems that would make decisions, and they were quite brittle.",
+  "zh": "所以人们在研究基于规则的系统来做决策，而且它们相当脆弱。"
+ },
+ {
+  "seg": 121,
+  "start": 661.874,
+  "end": 667.241,
+  "speaker": "Unknown",
+  "en": "And neural networks, which were sort of modeled after the human brain, were actually much more flexible.",
+  "zh": "而神经网络，那种模仿人脑建模的，实际上要灵活得多。"
+ },
+ {
+  "seg": 122,
+  "start": 668.142,
+  "end": 673.845,
+  "speaker": "Unknown",
+  "en": "And fundamentally, they could learn from data in a way that previous methods were not very good at learning from data.",
+  "zh": "而且从根本上说，它们能够从数据中学习，而以前的方法不擅长从数据中学习。"
+ },
+ {
+  "seg": 123,
+  "start": 674.205,
+  "end": 676.527,
+  "speaker": "Unknown",
+  "en": "So that was really a revolution back in the 1980s.",
+  "zh": "所以那真的是 1980 年代的一场革命。"
+ },
+ {
+  "seg": 124,
+  "start": 676.547,
+  "end": 681.87,
+  "speaker": "Unknown",
+  "en": "We talk about the transformer revolution and all that, but back in the mid-1980s, that was a real revolution.",
+  "zh": "我们谈论 Transformer 革命等等，但在 1980 年代中期，那是一场真正的革命。"
+ },
+ {
+  "seg": 125,
+  "start": 682.69,
+  "end": 689.534,
+  "speaker": "Unknown",
+  "en": "And it attracted people from cognitive science, from computer science, psychology, neuroscience, economics.",
+  "zh": "它吸引了来自认知科学、计算机科学、心理学、神经科学、经济学的人。"
+ },
+ {
+  "seg": 126,
+  "start": 689.674,
+  "end": 694.757,
+  "speaker": "Unknown",
+  "en": "And then I went on to write an undergraduate thesis on learning",
+  "zh": "然后我继续写了一篇关于学习的本科论文"
+ },
+ {
+  "seg": 127,
+  "start": 695.637,
+  "end": 698.439,
+  "speaker": "Unknown",
+  "en": "How to parse human natural language using neural networks.",
+  "zh": "如何使用神经网络解析人类自然语言。"
+ },
+ {
+  "seg": 128,
+  "start": 698.499,
+  "end": 699.96,
+  "speaker": "Unknown",
+  "en": "It was one of the very earliest.",
+  "zh": "这是最早期的之一。"
+ },
+ {
+  "seg": 129,
+  "start": 700.04,
+  "end": 704.583,
+  "speaker": "Unknown",
+  "en": "I didn't publish it, but if I'd published it, it would have been a very early paper on small language.",
+  "zh": "我没有发表它，但如果我当时发表了，那会是一篇关于小语言的非常早期的论文。"
+ },
+ {
+  "seg": 130,
+  "start": 704.603,
+  "end": 707.325,
+  "speaker": "Unknown",
+  "en": "Let's call them small language models because my models are very small.",
+  "zh": "让我们称它们为小语言模型，因为我的模型非常小。"
+ },
+ {
+  "seg": 131,
+  "start": 707.385,
+  "end": 708.325,
+  "speaker": "Unknown",
+  "en": "Wait, what year is this?",
+  "zh": "等等，这是哪一年？"
+ },
+ {
+  "seg": 132,
+  "start": 708.566,
+  "end": 709.066,
+  "speaker": "Unknown",
+  "en": "This is 1989.",
+  "zh": "这是 1989 年。"
+ },
+ {
+  "seg": 133,
+  "start": 711.047,
+  "end": 712.929,
+  "speaker": "Unknown",
+  "en": "We're very much ahead of time.",
+  "zh": "我们非常超前。"
+ },
+ {
+  "seg": 134,
+  "start": 712.969,
+  "end": 733.587,
+  "speaker": "Unknown",
+  "en": "Yeah, and we actually had a parallel computer, so now people think about data centers and all sorts of GPUs and parallel computers, and we had the most sci-fi, beautiful, iconic parallel computer of the time, which was this connection machine, which was this cube with 65,000 little red lights blinking inside this kind of opaque cube.",
+  "zh": "是的，我们实际上有一台并行计算机，所以现在人们会想到数据中心和各种 GPU 以及并行计算机，而我们当时拥有最具科幻感、最美丽、最具标志性的并行计算机，就是这台 Connection Machine，它是一个立方体，在这个半透明的立方体里面有 65,000 个闪烁的小红灯。"
+ },
+ {
+  "seg": 135,
+  "start": 734.547,
+  "end": 736.289,
+  "speaker": "Unknown",
+  "en": "Because it had 65,000 processors.",
+  "zh": "因为它有 65,000 个处理器。"
+ },
+ {
+  "seg": 136,
+  "start": 736.309,
+  "end": 740.732,
+  "speaker": "Unknown",
+  "en": "So I would sit there coding up in this parallel language neural networks for natural language.",
+  "zh": "所以我坐在那里用这种并行语言编写用于自然语言的神经网络代码。"
+ },
+ {
+  "seg": 137,
+  "start": 741.333,
+  "end": 747.077,
+  "speaker": "Unknown",
+  "en": "And it was pretty revolutionary at the time because neural networks were the counterculture.",
+  "zh": "这在当时相当具有革命性，因为神经网络是反主流文化。"
+ },
+ {
+  "seg": 138,
+  "start": 747.258,
+  "end": 751.941,
+  "speaker": "Unknown",
+  "en": "People were very enamored of the old school of AI.",
+  "zh": "人们非常迷恋老派的 AI。"
+ },
+ {
+  "seg": 139,
+  "start": 752.161,
+  "end": 757.506,
+  "speaker": "Unknown",
+  "en": "But then, okay, despite being ahead of the game by approximately, what, 40 years?",
+  "zh": "但是，好吧，尽管领先了大约，什么，40 年？"
+ },
+ {
+  "seg": 140,
+  "start": 758.086,
+  "end": 758.266,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 141,
+  "start": 759.307,
+  "end": 760.008,
+  "speaker": "Unknown",
+  "en": "Then I messed it up.",
+  "zh": "然后我搞砸了。"
+ },
+ {
+  "seg": 142,
+  "start": 761.299,
+  "end": 762.119,
+  "speaker": "Unknown",
+  "en": "Well, what happened?",
+  "zh": "嗯，发生了什么？"
+ },
+ {
+  "seg": 143,
+  "start": 762.259,
+  "end": 764.8,
+  "speaker": "Unknown",
+  "en": "No, no, what happened is actually really fascinating.",
+  "zh": "不，不，实际上发生的事情非常迷人。"
+ },
+ {
+  "seg": 144,
+  "start": 764.84,
+  "end": 771.922,
+  "speaker": "Unknown",
+  "en": "So I was working in neural networks and at the time, this is now the early 1990s, we felt like we understood how they worked.",
+  "zh": "所以我当时在神经网络领域工作，在那个时期，也就是 1990 年代初，我们感觉我们理解了它们是如何工作的。"
+ },
+ {
+  "seg": 145,
+  "start": 772.122,
+  "end": 775.683,
+  "speaker": "Unknown",
+  "en": "So neural networks are these amazing function approximators.",
+  "zh": "所以神经网络是这些神奇的函数逼近器。"
+ },
+ {
+  "seg": 146,
+  "start": 775.703,
+  "end": 783.125,
+  "speaker": "Unknown",
+  "en": "We can feed them data, they can map from inputs to outputs, from X to Y, from images to labels of images and so on.",
+  "zh": "我们可以喂给它们数据，它们可以从输入映射到输出，从 X 到 Y，从图像到图像标签等等。"
+ },
+ {
+  "seg": 147,
+  "start": 783.585,
+  "end": 786.066,
+  "speaker": "Unknown",
+  "en": "And remember, the data sets were very small at the time.",
+  "zh": "记住，当时的数据集非常小。"
+ },
+ {
+  "seg": 148,
+  "start": 786.146,
+  "end": 790.428,
+  "speaker": "Unknown",
+  "en": "So when I was writing my undergraduate thesis, the World Wide Web didn't even exist.",
+  "zh": "所以当我写本科论文时，万维网甚至还不存在。"
+ },
+ {
+  "seg": 149,
+  "start": 790.928,
+  "end": 792.289,
+  "speaker": "Unknown",
+  "en": "Compute was also very limited.",
+  "zh": "计算能力也非常有限。"
+ },
+ {
+  "seg": 150,
+  "start": 792.689,
+  "end": 794.55,
+  "speaker": "Unknown",
+  "en": "So we felt like we understood neural networks.",
+  "zh": "所以我们觉得我们理解神经网络。"
+ },
+ {
+  "seg": 151,
+  "start": 794.57,
+  "end": 807.256,
+  "speaker": "Unknown",
+  "en": "We felt like they're nice function approximators, but people started to uncover these beautiful relationships between neural networks and other ideas from probability theory, statistics, stochastic processes.",
+  "zh": "我们觉得它们是很好的函数逼近器，但人们开始揭示神经网络与来自概率论、统计学、随机过程的其他想法之间的这些美妙关系。"
+ },
+ {
+  "seg": 152,
+  "start": 807.296,
+  "end": 812.338,
+  "speaker": "Unknown",
+  "en": "I mean, you actually gave up working on neural networks in favor of these probability questions.",
+  "zh": "我的意思是，你实际上放弃了研究神经网络，转而研究这些概率问题。"
+ },
+ {
+  "seg": 153,
+  "start": 812.558,
+  "end": 813.899,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, absolutely.",
+  "zh": "是的，是的，绝对是。"
+ },
+ {
+  "seg": 154,
+  "start": 814.059,
+  "end": 815.18,
+  "speaker": "Unknown",
+  "en": "Was it annoying, though?",
+  "zh": "不过，那很烦人吗？"
+ },
+ {
+  "seg": 155,
+  "start": 816.101,
+  "end": 816.501,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 156,
+  "start": 816.581,
+  "end": 820.544,
+  "speaker": "Unknown",
+  "en": "In the end, neural networks were the thing, and you were there so much earlier than anyone else.",
+  "zh": "最终，神经网络才是那个东西，而且你比其他人早到那里太多了。"
+ },
+ {
+  "seg": 157,
+  "start": 820.564,
+  "end": 824.166,
+  "speaker": "Unknown",
+  "en": "Yeah, well, you know, I did redeem myself.",
+  "zh": "是的，嗯，你知道，我确实挽回了声誉。"
+ },
+ {
+  "seg": 158,
+  "start": 824.507,
+  "end": 828.129,
+  "speaker": "Unknown",
+  "en": "I spent a number of years working with Geoff Hinton.",
+  "zh": "我花了几年时间与 Geoff Hinton 一起工作。"
+ },
+ {
+  "seg": 159,
+  "start": 828.229,
+  "end": 831.572,
+  "speaker": "Unknown",
+  "en": "You know, of course, he went on to win the Nobel Prize for his work on neural networks.",
+  "zh": "你知道，当然，他继续凭借他在神经网络方面的工作获得了诺贝尔奖。"
+ },
+ {
+  "seg": 160,
+  "start": 831.852,
+  "end": 839.061,
+  "speaker": "Unknown",
+  "en": "So we were attempting to do deep learning, but we were using probabilistic models rather than simple neural networks.",
+  "zh": "所以我们当时尝试做深度学习，但我们使用的是概率模型，而不是简单的神经网络。"
+ },
+ {
+  "seg": 161,
+  "start": 839.101,
+  "end": 844.308,
+  "speaker": "Unknown",
+  "en": "We were overcomplicating things because we hadn't seen what happens with large-scale data.",
+  "zh": "我们把事情复杂化了，因为我们还没见过大规模数据会发生什么。"
+ },
+ {
+  "seg": 162,
+  "start": 844.548,
+  "end": 847.432,
+  "speaker": "Unknown",
+  "en": "And then I went off and worked on...",
+  "zh": "然后我离开去做了……"
+ },
+ {
+  "seg": 163,
+  "start": 848.333,
+  "end": 852.836,
+  "speaker": "Unknown",
+  "en": "Bayesian machine learning and probabilistic models and all these things for many years.",
+  "zh": "贝叶斯机器学习和概率模型以及所有这些东西很多年。"
+ },
+ {
+  "seg": 164,
+  "start": 853.076,
+  "end": 859.08,
+  "speaker": "Unknown",
+  "en": "But I never, I never totally dismissed neural networks, actually, because I knew that they work.",
+  "zh": "但我从来没有，从来没有完全否定神经网络，实际上，因为我知道它们是有效的。"
+ },
+ {
+  "seg": 165,
+  "start": 859.2,
+  "end": 862.362,
+  "speaker": "Unknown",
+  "en": "It's just that they weren't sort of from a research point of view.",
+  "zh": "只是从研究角度来看，它们并不算是……"
+ },
+ {
+  "seg": 166,
+  "start": 862.862,
+  "end": 868.866,
+  "speaker": "Unknown",
+  "en": "They weren't as interesting to me because the mathematics was sort of at the time we felt well understood.",
+  "zh": "它们对我来说没那么有趣，因为数学在当时我们觉得已经被很好理解了。"
+ },
+ {
+  "seg": 167,
+  "start": 869.166,
+  "end": 879.629,
+  "speaker": "Unknown",
+  "en": "In 2015, though, you wrote this seminal Nature paper, which appeared in the same issue as all of the foundational deep learning and reinforcement learning papers by Hinton.",
+  "zh": "不过在 2015 年，你写了这篇开创性的 Nature 论文，它出现在与 Hinton 的所有基础深度学习和强化学习论文相同的期刊上。"
+ },
+ {
+  "seg": 168,
+  "start": 880.449,
+  "end": 887.911,
+  "speaker": "Unknown",
+  "en": "And in that paper, you argue, many aspects of intelligence depend crucially on the careful probabilistic representation of uncertainty.",
+  "zh": "在那篇论文中，你论证说，智能的许多方面在很大程度上取决于对不确定性的仔细概率表示。"
+ },
+ {
+  "seg": 169,
+  "start": 887.991,
+  "end": 888.251,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 170,
+  "start": 888.591,
+  "end": 890.711,
+  "speaker": "Unknown",
+  "en": "I mean, has everyone heard you?",
+  "zh": "我的意思是，大家都听到你的观点了吗？"
+ },
+ {
+  "seg": 171,
+  "start": 890.771,
+  "end": 892.792,
+  "speaker": "Unknown",
+  "en": "Like, have they needed your warning?",
+  "zh": "比如，他们需要你的警告吗？"
+ },
+ {
+  "seg": 172,
+  "start": 893.272,
+  "end": 893.792,
+  "speaker": "Unknown",
+  "en": "No, no.",
+  "zh": "不，不。"
+ },
+ {
+  "seg": 173,
+  "start": 893.912,
+  "end": 896.993,
+  "speaker": "Unknown",
+  "en": "I think there are many people who",
+  "zh": "我想有很多人"
+ },
+ {
+  "seg": 174,
+  "start": 897.873,
+  "end": 898.153,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 175,
+  "start": 910.866,
+  "end": 915.39,
+  "speaker": "Unknown",
+  "en": "They predict the probability of the next token or word given a sequence of previous tokens.",
+  "zh": "它们预测给定前一个 token 序列的下一个 token 或单词的概率。"
+ },
+ {
+  "seg": 176,
+  "start": 915.43,
+  "end": 919.673,
+  "speaker": "Unknown",
+  "en": "So probabilities are at the heart of everything we do in machine learning.",
+  "zh": "所以概率处于我们在机器学习中所做一切的核心。"
+ },
+ {
+  "seg": 177,
+  "start": 920.334,
+  "end": 926.758,
+  "speaker": "Unknown",
+  "en": "But what's missing is we're not really doing what I said, which is the careful representation of probabilities.",
+  "zh": "但缺失的是，我们并没有真正做到我所说的，即对概率的仔细表示。"
+ },
+ {
+  "seg": 178,
+  "start": 927.179,
+  "end": 933.123,
+  "speaker": "Unknown",
+  "en": "We're actually sort of hoping that the models represent probabilities okay because we've trained them on enough data.",
+  "zh": "我们实际上有点希望模型能很好地表示概率，因为我们在足够多的数据上训练了它们。"
+ },
+ {
+  "seg": 179,
+  "start": 933.363,
+  "end": 935.445,
+  "speaker": "Unknown",
+  "en": "But not thinking about it in an explicit way.",
+  "zh": "但没有以显式的方式思考它。"
+ },
+ {
+  "seg": 180,
+  "start": 935.745,
+  "end": 952.377,
+  "speaker": "Unknown",
+  "en": "Yeah, if you look in a giant neural network, you can't really find the explicit representation of, say, the probability that, you know, it thinks something or other, right?",
+  "zh": "是的，如果你观察一个巨大的神经网络，你无法真正找到显式的表示，比如说，它认为某事的概率，你知道，对吧？"
+ },
+ {
+  "seg": 181,
+  "start": 952.397,
+  "end": 960.623,
+  "speaker": "Unknown",
+  "en": "It's sort of spread out somehow over the, you know, all the activations of the, you know, billions of units in the neural network.",
+  "zh": "它某种程度上以某种方式分布在，你知道，神经网络中数十亿单元的所有激活上。"
+ },
+ {
+  "seg": 182,
+  "start": 961.125,
+  "end": 965.908,
+  "speaker": "Unknown",
+  "en": "And by contrast, I mean, you're more of a, I guess, a Bayesian thinker.",
+  "zh": "相比之下，我的意思是，我想，你更像是一个贝叶斯思考者。"
+ },
+ {
+  "seg": 183,
+  "start": 965.988,
+  "end": 966.408,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 184,
+  "start": 966.448,
+  "end": 970.691,
+  "speaker": "Unknown",
+  "en": "Just explain for anybody who hasn't come across this before, just explain to us what that actually means.",
+  "zh": "请为以前没遇到过这个的人解释一下，给我们解释一下这实际上意味着什么。"
+ },
+ {
+  "seg": 185,
+  "start": 970.751,
+  "end": 975.994,
+  "speaker": "Unknown",
+  "en": "Yeah, so Bayes' rules is fascinating and very simple concept from probability theory.",
+  "zh": "是的，所以贝叶斯规则是概率论中一个迷人且非常简单的概念。"
+ },
+ {
+  "seg": 186,
+  "start": 976.155,
+  "end": 982.559,
+  "speaker": "Unknown",
+  "en": "So before you observe something, before you get some evidence or data, you have what's called prior beliefs.",
+  "zh": "所以在你观察某事之前，在你获得一些证据或数据之前，你拥有所谓的先验信念。"
+ },
+ {
+  "seg": 187,
+  "start": 983.319,
+  "end": 985.4,
+  "speaker": "Unknown",
+  "en": "You represent those with a probability distribution.",
+  "zh": "你用概率分布来表示它们。"
+ },
+ {
+  "seg": 188,
+  "start": 986.08,
+  "end": 990.181,
+  "speaker": "Unknown",
+  "en": "So, for example, think of a detective story, like a whodunit.",
+  "zh": "所以，例如，想象一个侦探故事，比如一个犯罪小说。"
+ },
+ {
+  "seg": 189,
+  "start": 990.221,
+  "end": 998.303,
+  "speaker": "Unknown",
+  "en": "There's a number of suspects, and you may have some prior beliefs about, like, it's the butler that did it or whatever, right?",
+  "zh": "有一些嫌疑人，你可能会对它有一些先验信念，比如，是管家干的，或者其他的，对吧？"
+ },
+ {
+  "seg": 190,
+  "start": 998.743,
+  "end": 999.743,
+  "speaker": "Unknown",
+  "en": "He's looking suspicious.",
+  "zh": "他看起来很可疑。"
+ },
+ {
+  "seg": 191,
+  "start": 1000.304,
+  "end": 1002.384,
+  "speaker": "Unknown",
+  "en": "Yeah, somebody's looking suspicious or something, right?",
+  "zh": "是的，有人看起来很可疑或者什么的，对吧？"
+ },
+ {
+  "seg": 192,
+  "start": 1002.404,
+  "end": 1003.504,
+  "speaker": "Unknown",
+  "en": "So you have some beliefs.",
+  "zh": "所以你有一些信念。"
+ },
+ {
+  "seg": 193,
+  "start": 1003.544,
+  "end": 1005.545,
+  "speaker": "Unknown",
+  "en": "You represent those with a probability distribution.",
+  "zh": "你用概率分布来表示它们。"
+ },
+ {
+  "seg": 194,
+  "start": 1006.385,
+  "end": 1007.726,
+  "speaker": "Unknown",
+  "en": "And there are many, many",
+  "zh": "而且有很多，很多"
+ },
+ {
+  "seg": 195,
+  "start": 1009.586,
+  "end": 1013.649,
+  "speaker": "Unknown",
+  "en": "Reasons why probability theory is the right way of representing beliefs.",
+  "zh": "概率论是表示信念的正确方式的原因。"
+ },
+ {
+  "seg": 196,
+  "start": 1013.709,
+  "end": 1017.452,
+  "speaker": "Unknown",
+  "en": "There's whole like branches of mathematics that have proven that.",
+  "zh": "有像数学的整个分支已经证明了这一点。"
+ },
+ {
+  "seg": 197,
+  "start": 1018.153,
+  "end": 1020.375,
+  "speaker": "Unknown",
+  "en": "And now you observe some evidence like...",
+  "zh": "现在你观察一些证据，像……"
+ },
+ {
+  "seg": 198,
+  "start": 1021.194,
+  "end": 1026.536,
+  "speaker": "Unknown",
+  "en": "You know, the murder weapon is found in the pantry or something like that, right?",
+  "zh": "你知道，凶器是在食品储藏室被发现的，或者类似的事情，对吧？"
+ },
+ {
+  "seg": 199,
+  "start": 1027.136,
+  "end": 1042.683,
+  "speaker": "Unknown",
+  "en": "And so you take your prior beliefs, multiply them by what's called the likelihood, the probability under each possible, you know, culprit, and then you renormalize because probabilities have to sum to one.",
+  "zh": "所以你取你的先验信念，乘以所谓的似然，即在每个可能的，你知道，嫌疑犯条件下的概率，然后你重新归一化，因为概率之和必须为一。"
+ },
+ {
+  "seg": 200,
+  "start": 1043.163,
+  "end": 1045.064,
+  "speaker": "Unknown",
+  "en": "And from that, you get your posterior beliefs.",
+  "zh": "由此，你得到了你的后验信念。"
+ },
+ {
+  "seg": 201,
+  "start": 1045.888,
+  "end": 1047.149,
+  "speaker": "Unknown",
+  "en": "Your new state of knowledge.",
+  "zh": "你的新知识状态。"
+ },
+ {
+  "seg": 202,
+  "start": 1047.95,
+  "end": 1054.635,
+  "speaker": "Unknown",
+  "en": "And through that evidence, by the way, you've gained information, literally measured in bits, how much your uncertainty has decreased.",
+  "zh": "顺便提一句，通过那个证据，你获得了信息——字面上以比特为单位衡量——你的不确定性减少了多少。"
+ },
+ {
+  "seg": 203,
+  "start": 1055.596,
+  "end": 1065.543,
+  "speaker": "Unknown",
+  "en": "And now, if you get more evidence, you just take your current posterior probability distribution, which is now your new prior, and you repeat and rinse.",
+  "zh": "现在，如果你获得更多证据，你只需取你当前的后验概率分布，它现在是你新的先验，然后重复这一流程。"
+ },
+ {
+  "seg": 204,
+  "start": 1065.583,
+  "end": 1066.264,
+  "speaker": "Unknown",
+  "en": "You do it again.",
+  "zh": "你再做一次。"
+ },
+ {
+  "seg": 205,
+  "start": 1066.364,
+  "end": 1067.325,
+  "speaker": "Unknown",
+  "en": "You get the new evidence.",
+  "zh": "你获得新证据。"
+ },
+ {
+  "seg": 206,
+  "start": 1068.145,
+  "end": 1070.547,
+  "speaker": "Unknown",
+  "en": "Update the probabilities, and so on and so forth.",
+  "zh": "更新概率，诸如此类。"
+ },
+ {
+  "seg": 207,
+  "start": 1071.007,
+  "end": 1084.977,
+  "speaker": "Unknown",
+  "en": "And through that application of Bayes' rule, we can model both perception, like I open my eyes, I see something, then I see more things, and I know it's not a jaguar that's following me in Costa Rica, but you can also model what learning is.",
+  "zh": "通过贝叶斯法则的应用，我们既可以建模感知——比如我睁开眼，看到某样东西，然后看到更多东西，我知道那不是在哥斯达黎加跟踪我的美洲豹——你也可以对什么是学习进行建模。"
+ },
+ {
+  "seg": 208,
+  "start": 1085.737,
+  "end": 1089.68,
+  "speaker": "Unknown",
+  "en": "So learning is you have a model, the model has parameters.",
+  "zh": "所以学习就是，你有一个模型，模型有参数。"
+ },
+ {
+  "seg": 209,
+  "start": 1090.2,
+  "end": 1092.362,
+  "speaker": "Unknown",
+  "en": "At the beginning, you don't know what the parameters should be.",
+  "zh": "起初，你不知道参数应该是什么。"
+ },
+ {
+  "seg": 210,
+  "start": 1092.962,
+  "end": 1100.768,
+  "speaker": "Unknown",
+  "en": "You get some data and you update the model parameters sequentially through that data applying Bayes' rule in theory.",
+  "zh": "你获得一些数据，然后通过这些数据依次更新模型参数，理论上应用的是贝叶斯法则。"
+ },
+ {
+  "seg": 211,
+  "start": 1100.828,
+  "end": 1108.173,
+  "speaker": "Unknown",
+  "en": "That's the sort of beautiful model that I had been pushing forward as a model of learning.",
+  "zh": "这就是我一直在推广的那类作为学习模型的优美模型。"
+ },
+ {
+  "seg": 212,
+  "start": 1108.482,
+  "end": 1117.005,
+  "speaker": "Unknown",
+  "en": "Because I guess, I mean, on the one hand, this is a very elegant mathematical way to link together evidence and unknowns and knowns.",
+  "zh": "因为我想，我是说，一方面，这是将证据、未知事物和已知事物联系在一起的一种非常优雅的数学方式。"
+ },
+ {
+  "seg": 213,
+  "start": 1117.525,
+  "end": 1123.148,
+  "speaker": "Unknown",
+  "en": "But I guess, actually, on an intuitive level, I mean, this sort of is the way that our brains work.",
+  "zh": "但我想，实际上，在直觉层面上，我是说，这大概就是我们大脑工作的方式。"
+ },
+ {
+  "seg": 214,
+  "start": 1123.168,
+  "end": 1130.21,
+  "speaker": "Unknown",
+  "en": "I mean, going back to your example of the detective, you know, it's like, oh, I did think it was that person, but now this new evidence has come in and I've changed my mind.",
+  "zh": "我是说，回到你那个侦探的例子，你知道，就像这样，噢，我确实认为那是那个人，但现在这个新证据出现了，我改变了主意。"
+ },
+ {
+  "seg": 215,
+  "start": 1130.47,
+  "end": 1133.652,
+  "speaker": "Unknown",
+  "en": "That's essentially a one sentence description of what Bayes' rule is doing.",
+  "zh": "这本质上就是一句话描述贝叶斯法则在做的事情。"
+ },
+ {
+  "seg": 216,
+  "start": 1133.692,
+  "end": 1133.972,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确实如此。"
+ },
+ {
+  "seg": 217,
+  "start": 1134.112,
+  "end": 1134.532,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 218,
+  "start": 1134.652,
+  "end": 1137.473,
+  "speaker": "Unknown",
+  "en": "But this is a formal way to get AI to be able to do it.",
+  "zh": "但这是让 AI 能够做到这一点的一种正规方式。"
+ },
+ {
+  "seg": 219,
+  "start": 1137.573,
+  "end": 1137.993,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确切如此。"
+ },
+ {
+  "seg": 220,
+  "start": 1138.074,
+  "end": 1144.659,
+  "speaker": "Unknown",
+  "en": "So we would like to build AI systems that accumulate knowledge and information over time.",
+  "zh": "所以我们希望建立能够随时间积累知识和信息的 AI 系统。"
+ },
+ {
+  "seg": 221,
+  "start": 1145.56,
+  "end": 1153.788,
+  "speaker": "Unknown",
+  "en": "And we would like them to be rational, you know, sort of like data from Star Trek is a very rational being.",
+  "zh": "我们希望它们是理性的，你知道，就像《星际迷航》里的 Data 一样，是一个非常理性的存在。"
+ },
+ {
+  "seg": 222,
+  "start": 1153.828,
+  "end": 1159.953,
+  "speaker": "Unknown",
+  "en": "We don't want them to flip-flop around, you know, unpredictably based on no evidence, right?",
+  "zh": "我们不希望它们摇摆不定，你知道，在没有证据的情况下不可预测地变化，对吧？"
+ },
+ {
+  "seg": 223,
+  "start": 1160.333,
+  "end": 1163.136,
+  "speaker": "Unknown",
+  "en": "And I mean, I would argue that ideally we would like them to be",
+  "zh": "我是说，我认为理想情况下我们希望它们是"
+ },
+ {
+  "seg": 224,
+  "start": 1164.337,
+  "end": 1166.258,
+  "speaker": "Unknown",
+  "en": "You know, even more rational than humans, right?",
+  "zh": "你知道，甚至比人类更理性，对吧？"
+ },
+ {
+  "seg": 225,
+  "start": 1166.298,
+  "end": 1179.425,
+  "speaker": "Unknown",
+  "en": "You know, I want my AI, just like I want my calculator to be really good at multiplying large numbers, I would actually like our AI systems to be, you know, more rational, better at representing and manipulating probabilities than humans are.",
+  "zh": "你知道，我想要我的 AI，就像我想要我的计算器非常擅长做大数乘法一样，我实际上希望我们的 AI 系统，你知道，比人类更理性，更善于表征和处理概率。"
+ },
+ {
+  "seg": 226,
+  "start": 1179.605,
+  "end": 1183.687,
+  "speaker": "Unknown",
+  "en": "Okay, if we fast forward to today, I mean, the paper you wrote was a decade ago.",
+  "zh": "好吧，如果我们快进到今天，我是说，你写的那篇论文是十年前的事了。"
+ },
+ {
+  "seg": 227,
+  "start": 1183.727,
+  "end": 1184.427,
+  "speaker": "Unknown",
+  "en": "A decade, yeah.",
+  "zh": "十年，是的。"
+ },
+ {
+  "seg": 228,
+  "start": 1184.607,
+  "end": 1186.148,
+  "speaker": "Unknown",
+  "en": "How good really are...",
+  "zh": "真的有多好……"
+ },
+ {
+  "seg": 229,
+  "start": 1186.508,
+  "end": 1191.952,
+  "speaker": "Unknown",
+  "en": "The AI systems that we're all used to playing around with, how good are they at representing uncertainty?",
+  "zh": "我们都习惯于摆弄的 AI 系统，它们在表征不确定性方面表现如何？"
+ },
+ {
+  "seg": 230,
+  "start": 1191.972,
+  "end": 1196.135,
+  "speaker": "Unknown",
+  "en": "Yeah, they've been getting better, but they're not very good, right?",
+  "zh": "是的，它们一直在变好，但它们不是很好，对吧？"
+ },
+ {
+  "seg": 231,
+  "start": 1197.116,
+  "end": 1205.262,
+  "speaker": "Unknown",
+  "en": "And you can tell that because if you interact with a large language model and it asserts something, you can ask it, how confident are you?",
+  "zh": "你可以看出来，因为如果你与大语言模型交互并且它断言某事，你可以问它，你有多自信？"
+ },
+ {
+  "seg": 232,
+  "start": 1205.782,
+  "end": 1209.105,
+  "speaker": "Unknown",
+  "en": "And it might say something back, but it's really doing next token prediction.",
+  "zh": "它可能会回你一些话，但它实际上是在做下一个 token 的预测。"
+ },
+ {
+  "seg": 233,
+  "start": 1209.125,
+  "end": 1213.868,
+  "speaker": "Unknown",
+  "en": "It doesn't have an explicit representation of how confident it is in that statement.",
+  "zh": "它对于它对该陈述有多大信心没有明确的表征。"
+ },
+ {
+  "seg": 234,
+  "start": 1213.888,
+  "end": 1215.049,
+  "speaker": "Unknown",
+  "en": "It's not calculating Bayes' rule.",
+  "zh": "它不是在计算贝叶斯法则。"
+ },
+ {
+  "seg": 235,
+  "start": 1215.289,
+  "end": 1217.812,
+  "speaker": "Unknown",
+  "en": "It's not calculating Bayes' rule, at least not explicitly.",
+  "zh": "它不是在计算贝叶斯法则，至少不是显式地计算。"
+ },
+ {
+  "seg": 236,
+  "start": 1217.872,
+  "end": 1223.198,
+  "speaker": "Unknown",
+  "en": "It may be because you've trained it on trillions of tokens, of stuff on the web.",
+  "zh": "这可能是因为你在数万亿个 token 上、在网络上的东西上训练了它。"
+ },
+ {
+  "seg": 237,
+  "start": 1223.518,
+  "end": 1228.383,
+  "speaker": "Unknown",
+  "en": "It's mimicked a lot of other kinds of reasoning traces and so on.",
+  "zh": "它模仿了很多其他类型的推理轨迹等等。"
+ },
+ {
+  "seg": 238,
+  "start": 1229.164,
+  "end": 1230.606,
+  "speaker": "Unknown",
+  "en": "It's sort of faking it, right?",
+  "zh": "它有点像是在装样子，对吧？"
+ },
+ {
+  "seg": 239,
+  "start": 1230.946,
+  "end": 1236.612,
+  "speaker": "Unknown",
+  "en": "And you can tell it's faking it because then if you push back and you say something silly like, no, I think you're wrong.",
+  "zh": "你可以看出它在装样子，因为如果你反驳它，说些傻话，比如“不，我觉得你错了”。"
+ },
+ {
+  "seg": 240,
+  "start": 1237.473,
+  "end": 1241.455,
+  "speaker": "Unknown",
+  "en": "Then it might respond, oh, sorry, yes, I was wrong, right?",
+  "zh": "然后它可能会回应，噢，抱歉，是的，我错了，对吧？"
+ },
+ {
+  "seg": 241,
+  "start": 1241.495,
+  "end": 1245.376,
+  "speaker": "Unknown",
+  "en": "So it's not really coherent.",
+  "zh": "所以它并不真的是连贯的。"
+ },
+ {
+  "seg": 242,
+  "start": 1245.436,
+  "end": 1246.957,
+  "speaker": "Unknown",
+  "en": "It's not going to stand its ground.",
+  "zh": "它不会坚持它的立场。"
+ },
+ {
+  "seg": 243,
+  "start": 1247.577,
+  "end": 1251.799,
+  "speaker": "Unknown",
+  "en": "And our systems are getting better, better at factual grounding and things like that.",
+  "zh": "我们的系统正在变得更好，更善于事实基础之类的事情。"
+ },
+ {
+  "seg": 244,
+  "start": 1252.099,
+  "end": 1262.263,
+  "speaker": "Unknown",
+  "en": "But we haven't really nailed the idea of how one of these models should be able to represent probabilities over its beliefs.",
+  "zh": "但我们还没有真正搞定这些模型之一应该如何对其信念表征概率的想法。"
+ },
+ {
+  "seg": 245,
+  "start": 1262.904,
+  "end": 1267.772,
+  "speaker": "Unknown",
+  "en": "I feel like that would be a very useful feature for a large language model to be able to say it's not sure.",
+  "zh": "我觉得对于一个大语言模型来说，能够说出它不确定将是一个非常实用的功能。"
+ },
+ {
+  "seg": 246,
+  "start": 1268.433,
+  "end": 1269.956,
+  "speaker": "Unknown",
+  "en": "Why do they struggle with that so much?",
+  "zh": "为什么它们在这件事上如此挣扎？"
+ },
+ {
+  "seg": 247,
+  "start": 1270.617,
+  "end": 1273.923,
+  "speaker": "Unknown",
+  "en": "They struggle because the paradigm for training them",
+  "zh": "它们挣扎是因为训练它们的范式"
+ },
+ {
+  "seg": 248,
+  "start": 1274.822,
+  "end": 1277.004,
+  "speaker": "Unknown",
+  "en": "hasn't prioritized that.",
+  "zh": "并没有优先考虑这一点。"
+ },
+ {
+  "seg": 249,
+  "start": 1277.144,
+  "end": 1281.127,
+  "speaker": "Unknown",
+  "en": "We train them to be just really good at modeling the data.",
+  "zh": "我们训练它们只是为了非常擅长对数据建模。"
+ },
+ {
+  "seg": 250,
+  "start": 1281.448,
+  "end": 1290.435,
+  "speaker": "Unknown",
+  "en": "If the data involves a lot of human reasoning by many different humans with many different beliefs, then what you get is a soup.",
+  "zh": "如果数据涉及许多不同人类的大量人类推理，且这些人类有许多不同的信念，那么你得到的就是一锅汤。"
+ },
+ {
+  "seg": 251,
+  "start": 1290.736,
+  "end": 1292.757,
+  "speaker": "Unknown",
+  "en": "You get sort of a mishmash of everything.",
+  "zh": "你得到的是所有东西的一种大杂烩。"
+ },
+ {
+  "seg": 252,
+  "start": 1292.918,
+  "end": 1300.064,
+  "speaker": "Unknown",
+  "en": "But if we want to build, like I said, self-driving cars or robots, they need to be able to reason about the real world.",
+  "zh": "但是如果我们想要制造，就像我说的，自动驾驶汽车或机器人，它们需要能够推理现实世界。"
+ },
+ {
+  "seg": 253,
+  "start": 1300.124,
+  "end": 1302.106,
+  "speaker": "Unknown",
+  "en": "They need to have an understanding of",
+  "zh": "它们需要理解"
+ },
+ {
+  "seg": 254,
+  "start": 1302.726,
+  "end": 1312.651,
+  "speaker": "Unknown",
+  "en": "You know, cause and effect, they need to have an understanding of their own uncertainty and they need to use that to be able to act in the real world in a safe way.",
+  "zh": "你知道，因果关系，它们需要理解它们自己的不确定性，并且它们需要利用这一点来在现实世界中以安全的方式行动。"
+ },
+ {
+  "seg": 255,
+  "start": 1314.232,
+  "end": 1317.793,
+  "speaker": "Unknown",
+  "en": "But then, I mean, I'm just thinking about hallucinations here.",
+  "zh": "但是那，我是说，我只是在想这里的幻觉问题。"
+ },
+ {
+  "seg": 256,
+  "start": 1317.833,
+  "end": 1318.134,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 257,
+  "start": 1318.514,
+  "end": 1320.215,
+  "speaker": "Unknown",
+  "en": "Because that's part of this as well, right?",
+  "zh": "因为那也是这的一部分，对吧？"
+ },
+ {
+  "seg": 258,
+  "start": 1320.235,
+  "end": 1324.076,
+  "speaker": "Unknown",
+  "en": "There are some times where you just want, there's a verifiable fact that it's getting wrong.",
+  "zh": "有些时候你只是想要，有一个它弄错的可验证事实。"
+ },
+ {
+  "seg": 259,
+  "start": 1324.417,
+  "end": 1324.677,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 260,
+  "start": 1324.977,
+  "end": 1327.138,
+  "speaker": "Unknown",
+  "en": "And that all plays into this too.",
+  "zh": "而且这也都渗入了其中。"
+ },
+ {
+  "seg": 261,
+  "start": 1327.613,
+  "end": 1330.954,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, hallucinations are a symptom, right?",
+  "zh": "是的，我是说，幻觉是一个症状，对吧？"
+ },
+ {
+  "seg": 262,
+  "start": 1330.974,
+  "end": 1334.055,
+  "speaker": "Unknown",
+  "en": "And of course, sometimes we want our models to hallucinate.",
+  "zh": "当然，有时候我们想要我们的模型产生幻觉。"
+ },
+ {
+  "seg": 263,
+  "start": 1334.095,
+  "end": 1339.276,
+  "speaker": "Unknown",
+  "en": "So there's a tension between not hallucinating at all and not being creative, right?",
+  "zh": "所以在完全不产生幻觉和没有创造力之间存在一种张力，对吧？"
+ },
+ {
+  "seg": 264,
+  "start": 1339.316,
+  "end": 1352.879,
+  "speaker": "Unknown",
+  "en": "For example, if I want my large language model to write me a short story of that time that Albert Einstein went to the moon in a rocket, that's clearly a hallucination, but it's an act of creative writing.",
+  "zh": "例如，如果我想要我的大语言模型给我写一个关于阿尔伯特·爱因斯坦乘坐火箭去月球的那次经历的短篇故事，那显然是一个幻觉，但那是一个创意写作的行为。"
+ },
+ {
+  "seg": 265,
+  "start": 1353.239,
+  "end": 1354.86,
+  "speaker": "Unknown",
+  "en": "So it should be able to do that.",
+  "zh": "所以它应该能够做到那一点。"
+ },
+ {
+  "seg": 266,
+  "start": 1354.88,
+  "end": 1355.48,
+  "speaker": "Unknown",
+  "en": "It should be able to",
+  "zh": "它应该能够"
+ },
+ {
+  "seg": 267,
+  "start": 1356.26,
+  "end": 1359.042,
+  "speaker": "Unknown",
+  "en": "Infer that that's what you want, infer your intent.",
+  "zh": "推断出那是你想要的，推断你的意图。"
+ },
+ {
+  "seg": 268,
+  "start": 1359.622,
+  "end": 1363.204,
+  "speaker": "Unknown",
+  "en": "If I ask it a factual question, it should try to be grounded.",
+  "zh": "如果我问它一个事实性问题，它应该尝试基于事实。"
+ },
+ {
+  "seg": 269,
+  "start": 1363.224,
+  "end": 1369.829,
+  "speaker": "Unknown",
+  "en": "And of course, at Google, we think a lot about grounding our models in what's available.",
+  "zh": "当然，在 Google，我们考虑很多关于将我们的模型基于可获得的内容。"
+ },
+ {
+  "seg": 270,
+  "start": 1370.329,
+  "end": 1375.192,
+  "speaker": "Unknown",
+  "en": "And even information on the web is often contradictory, right?",
+  "zh": "而且即使是网上的信息也经常是矛盾的，对吧？"
+ },
+ {
+  "seg": 271,
+  "start": 1375.292,
+  "end": 1376.933,
+  "speaker": "Unknown",
+  "en": "And so you want to hedge your bets.",
+  "zh": "所以你想对冲你的赌注。"
+ },
+ {
+  "seg": 272,
+  "start": 1377.353,
+  "end": 1382.677,
+  "speaker": "Unknown",
+  "en": "So actually what you would like is a system that's able to tell you for any statement",
+  "zh": "所以实际上你想要的是一个能够针对任何陈述告诉你"
+ },
+ {
+  "seg": 273,
+  "start": 1383.377,
+  "end": 1386.279,
+  "speaker": "Unknown",
+  "en": "Some estimate of its belief or probability.",
+  "zh": "它的信念或概率的某种估计。"
+ },
+ {
+  "seg": 274,
+  "start": 1386.439,
+  "end": 1387.399,
+  "speaker": "Unknown",
+  "en": "I think that's what we want.",
+  "zh": "我认为那就是我们想要的。"
+ },
+ {
+  "seg": 275,
+  "start": 1387.52,
+  "end": 1388.6,
+  "speaker": "Unknown",
+  "en": "We don't have it yet.",
+  "zh": "我们还没有它。"
+ },
+ {
+  "seg": 276,
+  "start": 1388.9,
+  "end": 1389.2,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不。"
+ },
+ {
+  "seg": 277,
+  "start": 1389.661,
+  "end": 1390.801,
+  "speaker": "Unknown",
+  "en": "How might you build it?",
+  "zh": "你会如何构建它？"
+ },
+ {
+  "seg": 278,
+  "start": 1390.861,
+  "end": 1394.824,
+  "speaker": "Unknown",
+  "en": "If you wanted large language models to have uncertainty in them, how do you do it?",
+  "zh": "如果你想要大语言模型里面包含不确定性，你会怎么做？"
+ },
+ {
+  "seg": 279,
+  "start": 1394.844,
+  "end": 1396.104,
+  "speaker": "Unknown",
+  "en": "Because there are some quite good ideas.",
+  "zh": "因为有一些相当好的想法。"
+ },
+ {
+  "seg": 280,
+  "start": 1396.124,
+  "end": 1398.306,
+  "speaker": "Unknown",
+  "en": "I mean, I'm thinking about semantic entropy here, right?",
+  "zh": "我是说，我在想这里的语义熵，对吧？"
+ },
+ {
+  "seg": 281,
+  "start": 1398.326,
+  "end": 1400.047,
+  "speaker": "Unknown",
+  "en": "Which is one of your students came up with.",
+  "zh": "那是你的一个学生想出来的。"
+ },
+ {
+  "seg": 282,
+  "start": 1401.128,
+  "end": 1402.028,
+  "speaker": "Unknown",
+  "en": "Tell me a little bit about that.",
+  "zh": "给我稍微讲讲那件事。"
+ },
+ {
+  "seg": 283,
+  "start": 1402.068,
+  "end": 1403.35,
+  "speaker": "Unknown",
+  "en": "How might that work?",
+  "zh": "那可能如何起作用？"
+ },
+ {
+  "seg": 284,
+  "start": 1403.43,
+  "end": 1411.136,
+  "speaker": "Unknown",
+  "en": "I think you can take the internals of a particular model and try to infer from that its degree of belief.",
+  "zh": "我认为你可以提取特定模型的内部状态并尝试从中推断它的置信度。"
+ },
+ {
+  "seg": 285,
+  "start": 1411.577,
+  "end": 1421.426,
+  "speaker": "Unknown",
+  "en": "So before it answers, before it produces a token in a large language model, you actually have a probability distribution over all possible next tokens.",
+  "zh": "所以在它回答之前，在它在大语言模型中生成一个 token 之前，你实际上有一个关于所有可能的下一个 token 的概率分布。"
+ },
+ {
+  "seg": 286,
+  "start": 1422.246,
+  "end": 1428.291,
+  "speaker": "Unknown",
+  "en": "And that probability distribution, the entropy of that distribution tells you something about the uncertainty.",
+  "zh": "而那个概率分布，那个分布的熵告诉你一些关于不确定性的信息。"
+ },
+ {
+  "seg": 287,
+  "start": 1428.851,
+  "end": 1432.914,
+  "speaker": "Unknown",
+  "en": "A low entropy distribution is very spiky, is very certain.",
+  "zh": "低熵分布是非常尖峰状的，是非常确定的。"
+ },
+ {
+  "seg": 288,
+  "start": 1433.435,
+  "end": 1436.917,
+  "speaker": "Unknown",
+  "en": "A high entropy distribution is very spread out, is very uncertain.",
+  "zh": "高熵分布是非常分散的，是非常不确定的。"
+ },
+ {
+  "seg": 289,
+  "start": 1437.358,
+  "end": 1442.502,
+  "speaker": "Unknown",
+  "en": "And so there are ways of sort of teasing from the internals of a model how certain it might be.",
+  "zh": "所以有一些方法可以从模型的内部状态中得出它可能有多确定。"
+ },
+ {
+  "seg": 290,
+  "start": 1443.062,
+  "end": 1445.143,
+  "speaker": "Unknown",
+  "en": "Yeah, I guess I'm thinking here about an example.",
+  "zh": "是的，我想我在这儿在想一个例子。"
+ },
+ {
+  "seg": 291,
+  "start": 1445.183,
+  "end": 1448.545,
+  "speaker": "Unknown",
+  "en": "Let's say the Eiffel Tower in Paris, right?",
+  "zh": "比如说巴黎的埃菲尔铁塔，对吧？"
+ },
+ {
+  "seg": 292,
+  "start": 1448.605,
+  "end": 1452.407,
+  "speaker": "Unknown",
+  "en": "Like those two things would be an example of something that's quite spiky.",
+  "zh": "就像那两样东西会是某种相当尖峰状的东西的一个例子。"
+ },
+ {
+  "seg": 293,
+  "start": 1452.987,
+  "end": 1453.708,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 294,
+  "start": 1453.728,
+  "end": 1457.55,
+  "speaker": "Unknown",
+  "en": "Sort of like if you ask it, you know, where is the Eiffel Tower?",
+  "zh": "有点像如果你问它，你知道，埃菲尔铁塔在哪里？"
+ },
+ {
+  "seg": 295,
+  "start": 1458.65,
+  "end": 1460.852,
+  "speaker": "Unknown",
+  "en": "It should have a high probability.",
+  "zh": "它应该有一个高概率。"
+ },
+ {
+  "seg": 296,
+  "start": 1461.772,
+  "end": 1465.833,
+  "speaker": "Unknown",
+  "en": "Over Paris, although I believe there's one in New York as well, isn't there?",
+  "zh": "对应巴黎，虽然我相信在纽约也有一个，不是吗？"
+ },
+ {
+  "seg": 297,
+  "start": 1465.873,
+  "end": 1467.614,
+  "speaker": "Unknown",
+  "en": "There's a little Eiffel Tower.",
+  "zh": "有一个小埃菲尔铁塔。"
+ },
+ {
+  "seg": 298,
+  "start": 1468.054,
+  "end": 1469.294,
+  "speaker": "Unknown",
+  "en": "Vegas as well, I think they've got one.",
+  "zh": "维加斯也有，我想他们有一个。"
+ },
+ {
+  "seg": 299,
+  "start": 1469.314,
+  "end": 1470.895,
+  "speaker": "Unknown",
+  "en": "Maybe there's one in Vegas as well.",
+  "zh": "也许在维加斯也有一个。"
+ },
+ {
+  "seg": 300,
+  "start": 1470.935,
+  "end": 1480.037,
+  "speaker": "Unknown",
+  "en": "So basically, you know, depending on the context, you might have little bits of entropy on these other Vegas and New York as options, but Paris would have a big spike on it.",
+  "zh": "所以基本上，你知道，取决于上下文，你可能会在这些其他的拉斯维加斯和纽约作为选项上有一点点熵，但巴黎在那上面会有一个大的峰值。"
+ },
+ {
+  "seg": 301,
+  "start": 1480.217,
+  "end": 1486.181,
+  "speaker": "Unknown",
+  "en": "Is that sort of the idea then that like in the data set, Paris and the Eiffel Tower appear near each other a lot.",
+  "zh": "那么这个想法是不是就像在数据集中，巴黎和埃菲尔铁塔经常彼此出现在附近。"
+ },
+ {
+  "seg": 302,
+  "start": 1486.201,
+  "end": 1488.683,
+  "speaker": "Unknown",
+  "en": "You have a lot of like a really big signal there.",
+  "zh": "你在那里有很多像是一个真正大的信号。"
+ },
+ {
+  "seg": 303,
+  "start": 1489.163,
+  "end": 1493.386,
+  "speaker": "Unknown",
+  "en": "Whereas, I don't know, the Eiffel Tower and sort of Marrakesh.",
+  "zh": "而，我不知道，埃菲尔铁塔和某种马拉喀什。"
+ },
+ {
+  "seg": 304,
+  "start": 1493.927,
+  "end": 1496.068,
+  "speaker": "Unknown",
+  "en": "Yeah, that might have very low probability.",
+  "zh": "是的，那可能有非常低的概率。"
+ },
+ {
+  "seg": 305,
+  "start": 1496.469,
+  "end": 1500.632,
+  "speaker": "Unknown",
+  "en": "The problem with that is that's sort of faking it in the sense that",
+  "zh": "问题在于这有点像是伪造它，在这个意义上来说"
+ },
+ {
+  "seg": 306,
+  "start": 1501.472,
+  "end": 1503.653,
+  "speaker": "Unknown",
+  "en": "You're relying on the data.",
+  "zh": "你依赖于数据。"
+ },
+ {
+  "seg": 307,
+  "start": 1503.913,
+  "end": 1505.554,
+  "speaker": "Unknown",
+  "en": "I'll give you the analogy of a calculator.",
+  "zh": "我给你一个计算器的类比。"
+ },
+ {
+  "seg": 308,
+  "start": 1505.954,
+  "end": 1511.217,
+  "speaker": "Unknown",
+  "en": "It's like trying to build the calculator just by showing it examples of addition and multiplication.",
+  "zh": "这就像试图仅仅通过向它展示加法和乘法的例子来构建计算器。"
+ },
+ {
+  "seg": 309,
+  "start": 1511.737,
+  "end": 1518.02,
+  "speaker": "Unknown",
+  "en": "But imagine you never show it a particular number, then it might not generalize that particular number.",
+  "zh": "但想象一下你从未向它展示过一个特定的数字，那么它可能无法泛化那个特定的数字。"
+ },
+ {
+  "seg": 310,
+  "start": 1518.5,
+  "end": 1521.261,
+  "speaker": "Unknown",
+  "en": "And you don't want to fake a calculator.",
+  "zh": "而且你不想伪造一个计算器。"
+ },
+ {
+  "seg": 311,
+  "start": 1521.301,
+  "end": 1523.202,
+  "speaker": "Unknown",
+  "en": "You want a calculator that actually calculates.",
+  "zh": "你想要一个真正进行计算的计算器。"
+ },
+ {
+  "seg": 312,
+  "start": 1523.502,
+  "end": 1526.864,
+  "speaker": "Unknown",
+  "en": "You want it to actually reason about the world that it's in.",
+  "zh": "你想要它真正推理它所处的世界。"
+ },
+ {
+  "seg": 313,
+  "start": 1527.164,
+  "end": 1528.885,
+  "speaker": "Unknown",
+  "en": "That's what we want from our AI systems.",
+  "zh": "这就是我们从我们的 AI 系统中想要得到的。"
+ },
+ {
+  "seg": 314,
+  "start": 1529.475,
+  "end": 1531.858,
+  "speaker": "Unknown",
+  "en": "So why hasn't this been done yet?",
+  "zh": "那么为什么这还没做到呢？"
+ },
+ {
+  "seg": 315,
+  "start": 1531.898,
+  "end": 1534.1,
+  "speaker": "Unknown",
+  "en": "I mean, what is it that makes it so hard to do?",
+  "zh": "我的意思是，是什么让这这么难做？"
+ },
+ {
+  "seg": 316,
+  "start": 1534.38,
+  "end": 1538.364,
+  "speaker": "Unknown",
+  "en": "It is genuinely hard because it's computationally hard.",
+  "zh": "它真的很难，因为它在计算上很难。"
+ },
+ {
+  "seg": 317,
+  "start": 1538.524,
+  "end": 1544.711,
+  "speaker": "Unknown",
+  "en": "So essentially, I would argue we had all the ingredients of AI",
+  "zh": "所以本质上，我认为我们要么拥有了 AI 的所有要素"
+ },
+ {
+  "seg": 318,
+  "start": 1546.158,
+  "end": 1547.799,
+  "speaker": "Unknown",
+  "en": "Maybe 15 or 20 years ago.",
+  "zh": "也许在 15 或 20 年前。"
+ },
+ {
+  "seg": 319,
+  "start": 1548.02,
+  "end": 1550.582,
+  "speaker": "Unknown",
+  "en": "Like we kind of know how to build rational systems.",
+  "zh": "就像我们有点知道如何构建理性系统。"
+ },
+ {
+  "seg": 320,
+  "start": 1550.982,
+  "end": 1559.509,
+  "speaker": "Unknown",
+  "en": "We just thought like, well, representing probability distributions over every possible thing is computationally intractable.",
+  "zh": "我们只是想，嗯，表示每个可能事物的概率分布在计算上是难处理的。"
+ },
+ {
+  "seg": 321,
+  "start": 1559.529,
+  "end": 1562.271,
+  "speaker": "Unknown",
+  "en": "It would take giant supercomputers that we don't have.",
+  "zh": "这将需要我们没有的巨型超级计算机。"
+ },
+ {
+  "seg": 322,
+  "start": 1563.232,
+  "end": 1565.974,
+  "speaker": "Unknown",
+  "en": "And it would be incredibly slow.",
+  "zh": "而且它将会非常慢。"
+ },
+ {
+  "seg": 323,
+  "start": 1566.074,
+  "end": 1569.317,
+  "speaker": "Unknown",
+  "en": "You'd be waiting for millions of years before you get the answer.",
+  "zh": "你可能要等数百万年才能得到答案。"
+ },
+ {
+  "seg": 324,
+  "start": 1569.517,
+  "end": 1574.32,
+  "speaker": "Unknown",
+  "en": "So people abandoned that for let's go with just training from data.",
+  "zh": "所以人们抛弃了那个，转而选择仅仅从数据训练。"
+ },
+ {
+  "seg": 325,
+  "start": 1574.64,
+  "end": 1576.902,
+  "speaker": "Unknown",
+  "en": "And I think we can revisit this idea.",
+  "zh": "我认为我们可以重新审视这个想法。"
+ },
+ {
+  "seg": 326,
+  "start": 1577.442,
+  "end": 1583.467,
+  "speaker": "Unknown",
+  "en": "And I have ideas for how to do this and I'm exploring them now, but you know, it's not sort of super well formed yet.",
+  "zh": "而且我对如何做到这一点有想法，我现在正在探索它们，但你知道，它还没有非常成熟。"
+ },
+ {
+  "seg": 327,
+  "start": 1583.887,
+  "end": 1599.563,
+  "speaker": "Unknown",
+  "en": "Okay, so moving away from the large language model, the transformer type system then for a moment, because I mean, there are other examples of, you know, really cutting edge artificial intelligence, which does handle uncertainty in more of this Bayesian way that you're describing.",
+  "zh": "好的，所以暂时远离大型语言模型，那种 Transformer 类型系统，因为我的意思是，还有其他的例子，你知道，真正前沿的人工智能，它确实以你描述的这种更多贝叶斯的方式处理不确定性。"
+ },
+ {
+  "seg": 328,
+  "start": 1599.583,
+  "end": 1601.085,
+  "speaker": "Unknown",
+  "en": "I'm thinking about weather forecasting here.",
+  "zh": "我在想这里的天气预报。"
+ },
+ {
+  "seg": 329,
+  "start": 1601.385,
+  "end": 1601.786,
+  "speaker": "Unknown",
+  "en": "Ah, yes.",
+  "zh": "啊，是的。"
+ },
+ {
+  "seg": 330,
+  "start": 1602.006,
+  "end": 1603.788,
+  "speaker": "Unknown",
+  "en": "I mean, that's really important.",
+  "zh": "我的意思是，那真的很重要。"
+ },
+ {
+  "seg": 331,
+  "start": 1603.808,
+  "end": 1604.949,
+  "speaker": "Unknown",
+  "en": "Yes, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 332,
+  "start": 1604.969,
+  "end": 1605.71,
+  "speaker": "Unknown",
+  "en": "Tell me a bit about that.",
+  "zh": "给我讲讲那方面的事。"
+ },
+ {
+  "seg": 333,
+  "start": 1605.99,
+  "end": 1611.751,
+  "speaker": "Unknown",
+  "en": "Yeah, so we've developed a whole series of state-of-the-art weather forecasting models at Google DeepMind.",
+  "zh": "是的，所以我们已经在 Google DeepMind 开发了一系列最先进的天气预报模型。"
+ },
+ {
+  "seg": 334,
+  "start": 1611.991,
+  "end": 1620.994,
+  "speaker": "Unknown",
+  "en": "And if you look at the GenCast model, sort of very recent model, one of the key features it has, it can predict sort of weather over 15 days.",
+  "zh": "如果你看看 GenCast 模型，一种非常近期的模型，它具有的关键特征之一，它可以预测大约 15 天的天气。"
+ },
+ {
+  "seg": 335,
+  "start": 1621.694,
+  "end": 1623.694,
+  "speaker": "Unknown",
+  "en": "And it can do it very fast, much faster.",
+  "zh": "而且它可以做得非常快，快得多。"
+ },
+ {
+  "seg": 336,
+  "start": 1623.714,
+  "end": 1627.615,
+  "speaker": "Unknown",
+  "en": "It can do it sort of like in eight minutes rather than on a giant supercomputer for hours.",
+  "zh": "它可以在大约八分钟内完成，而不是在巨型超级计算机上花费数小时。"
+ },
+ {
+  "seg": 337,
+  "start": 1628.095,
+  "end": 1630.516,
+  "speaker": "Unknown",
+  "en": "And it's obviously using neural networks and things like that.",
+  "zh": "而且它显然正在使用神经网络之类的东西。"
+ },
+ {
+  "seg": 338,
+  "start": 1631.136,
+  "end": 1635.077,
+  "speaker": "Unknown",
+  "en": "But a key ingredient for getting this to work is that",
+  "zh": "但是让这个工作起来的一个关键要素是"
+ },
+ {
+  "seg": 339,
+  "start": 1636.698,
+  "end": 1645.963,
+  "speaker": "Unknown",
+  "en": "It uses a diffusion model, so that already is like the image generation models that already is manipulating probability distributions over time.",
+  "zh": "它使用扩散模型，所以这已经像图像生成模型那样已经在时间上操纵概率分布了。"
+ },
+ {
+  "seg": 340,
+  "start": 1646.443,
+  "end": 1649.445,
+  "speaker": "Unknown",
+  "en": "But then it generates an ensemble of forecasts.",
+  "zh": "但它随后生成了预报的集合。"
+ },
+ {
+  "seg": 341,
+  "start": 1649.485,
+  "end": 1660.191,
+  "speaker": "Unknown",
+  "en": "So if you're trying to track a tropical storm like the Hurricane Melissa, let's say, which we did with this model, you have the data so far.",
+  "zh": "所以如果你试图追踪像飓风 Melissa 这样的热带风暴，比方说，我们用这个模型做过这个，你有目前的数据。"
+ },
+ {
+  "seg": 342,
+  "start": 1662.283,
+  "end": 1677.55,
+  "speaker": "Unknown",
+  "en": "And then you want to be able to forecast the track of this into the future because your decisions depend on that, whether you evacuate a city or whether you call in emergency services and so on.",
+  "zh": "然后你希望能够预测它未来的轨迹，因为你的决定取决于此，无论你是疏散一个城市还是呼叫紧急服务等等。"
+ },
+ {
+  "seg": 343,
+  "start": 1678.31,
+  "end": 1682.412,
+  "speaker": "Unknown",
+  "en": "And so it represents that with an ensemble of forecasts.",
+  "zh": "所以它用预报的集合来表示这一点。"
+ },
+ {
+  "seg": 344,
+  "start": 1682.472,
+  "end": 1687.174,
+  "speaker": "Unknown",
+  "en": "It has a whole probability distribution over the possible tracks.",
+  "zh": "它在可能的轨迹上有一个完整的概率分布。"
+ },
+ {
+  "seg": 345,
+  "start": 1687.674,
+  "end": 1689.475,
+  "speaker": "Unknown",
+  "en": "You rerun the model over and over and over again.",
+  "zh": "你一遍又一遍地重新运行模型。"
+ },
+ {
+  "seg": 346,
+  "start": 1689.615,
+  "end": 1696.338,
+  "speaker": "Unknown",
+  "en": "And then as you get more data, so, you know, a few hours later, you get more observations, you update that ensemble.",
+  "zh": "然后随着你获得更多数据，所以，你知道，几个小时后，你获得更多观测，你更新那个集合。"
+ },
+ {
+  "seg": 347,
+  "start": 1696.358,
+  "end": 1703.362,
+  "speaker": "Unknown",
+  "en": "And that is essentially applying these basic ideas from Bayesian updating to this sort of problem.",
+  "zh": "这本质上是将贝叶斯更新的这些基本思想应用于这类问题。"
+ },
+ {
+  "seg": 348,
+  "start": 1703.602,
+  "end": 1707.804,
+  "speaker": "Unknown",
+  "en": "Because, I mean, the original weather forecasting models that came out of here did not have this.",
+  "zh": "因为，我的意思是，这里诞生的原始天气预报模型没有这个。"
+ },
+ {
+  "seg": 349,
+  "start": 1707.924,
+  "end": 1709.945,
+  "speaker": "Unknown",
+  "en": "Yeah, that was sort of added on.",
+  "zh": "是的，那有点像是后来加上的。"
+ },
+ {
+  "seg": 350,
+  "start": 1710.085,
+  "end": 1715.648,
+  "speaker": "Unknown",
+  "en": "And every time we add on, you know, these features, it makes the model better.",
+  "zh": "每次我们加上这些功能，它就会让模型变得更好。"
+ },
+ {
+  "seg": 351,
+  "start": 1716.309,
+  "end": 1721.874,
+  "speaker": "Unknown",
+  "en": "Because you're essentially saying there is an inherent uncertainty in the way that weather works.",
+  "zh": "因为你本质上是在说，在天气运作的方式中存在一种内在的不确定性。"
+ },
+ {
+  "seg": 352,
+  "start": 1721.894,
+  "end": 1726.399,
+  "speaker": "Unknown",
+  "en": "You can't just sort of run the model once and be like, oh, that's going to be the weather tomorrow.",
+  "zh": "你不能只是简单地运行一次模型然后说，哦，那就是明天的天气。"
+ },
+ {
+  "seg": 353,
+  "start": 1726.459,
+  "end": 1729.061,
+  "speaker": "Unknown",
+  "en": "You have to do it lots of times and then work out a probability.",
+  "zh": "你必须做很多次，然后计算出一个概率。"
+ },
+ {
+  "seg": 354,
+  "start": 1729.222,
+  "end": 1729.882,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 355,
+  "start": 1730.082,
+  "end": 1736.248,
+  "speaker": "Unknown",
+  "en": "It's a combination of both that inherent randomness, a sort of, you know, classic butterfly effect in weather and that it's...",
+  "zh": "这是两者结合的结果，那种内在的随机性，一种，你知道的，经典的蝴蝶效应在天气中，而且它……"
+ },
+ {
+  "seg": 356,
+  "start": 1736.889,
+  "end": 1737.63,
+  "speaker": "Unknown",
+  "en": "Thank you for joining us.",
+  "zh": "感谢加入我们。"
+ },
+ {
+  "seg": 357,
+  "start": 1760.367,
+  "end": 1770.19,
+  "speaker": "Unknown",
+  "en": "I think there's something quite delightfully counterintuitive about that, that you add in uncertainty to the system and it makes the predictions more accurate.",
+  "zh": "我认为这点非常令人愉悦地反直觉，你向系统加入了不确定性，而它让预测更准确。"
+ },
+ {
+  "seg": 358,
+  "start": 1770.55,
+  "end": 1771.13,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确切如此。"
+ },
+ {
+  "seg": 359,
+  "start": 1771.17,
+  "end": 1776.111,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it is definitely a key insight in AI.",
+  "zh": "是的，我认为这绝对是 AI 中的一个关键洞察。"
+ },
+ {
+  "seg": 360,
+  "start": 1776.211,
+  "end": 1780.773,
+  "speaker": "Unknown",
+  "en": "I mean, it's not that you're sort of making the system noisy in a...",
+  "zh": "我的意思是，这并不是说你以一种……的方式让系统变得充满噪声。"
+ },
+ {
+  "seg": 361,
+  "start": 1781.813,
+  "end": 1782.633,
+  "speaker": "Unknown",
+  "en": "Thank you for joining us.",
+  "zh": "感谢加入我们。"
+ },
+ {
+  "seg": 362,
+  "start": 1811.567,
+  "end": 1814.609,
+  "speaker": "Unknown",
+  "en": "So that we can get better calibrated forecasts.",
+  "zh": "以便我们可以获得校准得更好的预报。"
+ },
+ {
+  "seg": 363,
+  "start": 1815.269,
+  "end": 1829.797,
+  "speaker": "Unknown",
+  "en": "I think the other example that really manages to get this uncertainty idea right is AlphaFold, where the protein prediction is color-coded by how sure the model is that that's the correct folding, right?",
+  "zh": "我认为另一个真正正确处理这种不确定性概念的例子是 AlphaFold，其中蛋白质预测是根据模型确信那是正确折叠的程度来进行颜色编码的，对吧？"
+ },
+ {
+  "seg": 364,
+  "start": 1829.817,
+  "end": 1830.778,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 365,
+  "start": 1830.858,
+  "end": 1834.86,
+  "speaker": "Unknown",
+  "en": "And essentially, you're fundamentally trying to solve an uncertain problem.",
+  "zh": "而本质上，你根本上是在试图解决一个不确定的问题。"
+ },
+ {
+  "seg": 366,
+  "start": 1834.88,
+  "end": 1836.141,
+  "speaker": "Unknown",
+  "en": "You're going from a sequence",
+  "zh": "你是从一个序列出发"
+ },
+ {
+  "seg": 367,
+  "start": 1836.961,
+  "end": 1846.524,
+  "speaker": "Unknown",
+  "en": "To the folded structure and the physics itself means that some parts of the protein are going to wiggle around more.",
+  "zh": "到折叠结构，而物理学本身意味着蛋白质的某些部分会更多地摇摆。"
+ },
+ {
+  "seg": 368,
+  "start": 1846.784,
+  "end": 1848.264,
+  "speaker": "Unknown",
+  "en": "So you don't know exactly where they are.",
+  "zh": "所以你并不确切知道它们在哪里。"
+ },
+ {
+  "seg": 369,
+  "start": 1848.744,
+  "end": 1855.126,
+  "speaker": "Unknown",
+  "en": "And you also have just uncertainty because you've used the model to predict that it's not like experimental data.",
+  "zh": "而且你也有仅仅是的不确定性，因为你使用了模型来预测，这不像实验数据。"
+ },
+ {
+  "seg": 370,
+  "start": 1855.186,
+  "end": 1860.388,
+  "speaker": "Unknown",
+  "en": "And so you need to be able to represent that uncertainty in the sort of cloud of forecasts of where the molecules are.",
+  "zh": "所以你需要能够在这种关于分子位置的预测云中代表那种不确定性。"
+ },
+ {
+  "seg": 371,
+  "start": 1861.448,
+  "end": 1864.852,
+  "speaker": "Unknown",
+  "en": "There is a danger here that you could go too far the other way.",
+  "zh": "这里存在一种危险，你可能走得太远到了另一个方向。"
+ },
+ {
+  "seg": 372,
+  "start": 1864.952,
+  "end": 1872.299,
+  "speaker": "Unknown",
+  "en": "You could end up with a model that was so honest about its uncertainty that it just sort of didn't ever really give you an answer.",
+  "zh": "你最终可能得到一个模型，它对它的不确定性太诚实了，以至于它真的从来不给你一个答案。"
+ },
+ {
+  "seg": 373,
+  "start": 1872.379,
+  "end": 1873.521,
+  "speaker": "Unknown",
+  "en": "It just always said, I don't know.",
+  "zh": "它总是说，我不知道。"
+ },
+ {
+  "seg": 374,
+  "start": 1873.641,
+  "end": 1875.343,
+  "speaker": "Unknown",
+  "en": "Just hedging, hedging all the time.",
+  "zh": "就是在回避，一直在回避。"
+ },
+ {
+  "seg": 375,
+  "start": 1875.423,
+  "end": 1876.464,
+  "speaker": "Unknown",
+  "en": "That would be pretty funny.",
+  "zh": "那会挺有趣的。"
+ },
+ {
+  "seg": 376,
+  "start": 1876.664,
+  "end": 1879.467,
+  "speaker": "Unknown",
+  "en": "But, you know, I think there's different degrees of I don't know.",
+  "zh": "但是，你知道，我认为“我不知道”有不同的程度。"
+ },
+ {
+  "seg": 377,
+  "start": 1879.647,
+  "end": 1881.269,
+  "speaker": "Unknown",
+  "en": "How do you get the balance right then?",
+  "zh": "那么如何正确地获得这种平衡呢？"
+ },
+ {
+  "seg": 378,
+  "start": 1881.69,
+  "end": 1895.685,
+  "speaker": "Unknown",
+  "en": "Yeah, I think the balance is if there is a repeatable event in the real world, then you want to be calibrated in that if I say the chance of rain is 0.7 or 70%, then",
+  "zh": "是的，我认为这种平衡是，如果现实世界中有一个可重复的事件，那么你希望被校准，即如果我说下雨的几率是 0.7 或 70%，那么"
+ },
+ {
+  "seg": 379,
+  "start": 1898.795,
+  "end": 1911.184,
+  "speaker": "Unknown",
+  "en": "For all days that I've said that, if I sum up over all those days, if I'm calibrated, then on 70% of those days it actually rained, on 30% it didn't rain.",
+  "zh": "对于我说过那话的所有日子，如果我把所有那些日子加起来，如果我是被校准的，那么在那些日子中有 70% 的日子实际上下雨了，30% 没有下雨。"
+ },
+ {
+  "seg": 380,
+  "start": 1911.204,
+  "end": 1913.006,
+  "speaker": "Unknown",
+  "en": "So that's the calibrated probability.",
+  "zh": "所以这就是校准后的概率。"
+ },
+ {
+  "seg": 381,
+  "start": 1913.106,
+  "end": 1922.593,
+  "speaker": "Unknown",
+  "en": "Now, if you ask me a statement of uncertainty about something that is not a repeatable event, so for example, we may be uncertain about the first day a human being",
+  "zh": "现在，如果你让我对一个不可重复事件做出不确定性陈述，例如，我们可能对人类的第一天"
+ },
+ {
+  "seg": 382,
+  "start": 1923.974,
+  "end": 1925.255,
+  "speaker": "Unknown",
+  "en": "So that's the date.",
+  "zh": "所以那是日期。"
+ },
+ {
+  "seg": 383,
+  "start": 1926.276,
+  "end": 1930.901,
+  "speaker": "Unknown",
+  "en": "It's either going to happen or it's not going to happen, and that date, when it happens, you'll be certain of it.",
+  "zh": "它要么会发生，要么不会发生，而那个日期，当它发生时，你会对它确定无疑。"
+ },
+ {
+  "seg": 384,
+  "start": 1931.702,
+  "end": 1941.812,
+  "speaker": "Unknown",
+  "en": "That's the sort of event that you can have probabilities over, you can have beliefs over, and it will resolve itself when it happens, if it happens.",
+  "zh": "这就是那种你可以有概率、可以有信念的事件类型，它会在发生时（如果它发生的话）自行解决。"
+ },
+ {
+  "seg": 385,
+  "start": 1942.292,
+  "end": 1947.077,
+  "speaker": "Unknown",
+  "en": "And Bayes also has a way of handling that, where it's not just 50%, right?",
+  "zh": "贝叶斯也有一种处理这种情况的方法，不仅仅是 50%，对吧？"
+ },
+ {
+  "seg": 386,
+  "start": 1947.297,
+  "end": 1949.419,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 387,
+  "start": 1949.479,
+  "end": 1962.532,
+  "speaker": "Unknown",
+  "en": "So what Bayesian statistics tells you is that it's perfectly valid and in fact the right thing to do to use probabilities to represent your degree of uncertainty about things that only happen once.",
+  "zh": "所以贝叶斯统计告诉你的是，使用概率来表示你对只发生一次的事情的不确定性程度是完全有效的，实际上是正确的做法。"
+ },
+ {
+  "seg": 388,
+  "start": 1962.842,
+  "end": 1975.106,
+  "speaker": "Unknown",
+  "en": "How do you communicate that uncertainty in a way that actually means it adds value rather than just has a human sort of nodding along or kind of taking cognitive shortcuts when the machine says it's really confident?",
+  "zh": "你如何传达那种不确定性，以使其真正意味着增加价值，而不是让人类只是点头附和，或者在机器说它非常有信心时采取某种认知捷径？"
+ },
+ {
+  "seg": 389,
+  "start": 1975.326,
+  "end": 1979.127,
+  "speaker": "Unknown",
+  "en": "Yeah, I think people have different reactions to AI systems.",
+  "zh": "是的，我认为人们对 AI 系统有不同的反应。"
+ },
+ {
+  "seg": 390,
+  "start": 1979.727,
+  "end": 2000.317,
+  "speaker": "Unknown",
+  "en": "some people are just very skeptical and will kind of not believe anything the AI system tells it other people are going to end up being over reliant let's say let's imagine a future where we've got not not a very distant future but imagine a future where we've got AI systems in a medical domain for example and you have doctors",
+  "zh": "有些人只是非常怀疑，并且不会相信 AI 系统告诉它的任何东西，其他人最终会变得过度依赖，比如说，让我们想象一个未来，我们要有一个不是非常遥远的未来，但想象一个未来，我们在医疗领域拥有 AI 系统，例如，你有医生"
+ },
+ {
+  "seg": 391,
+  "start": 2000.937,
+  "end": 2001.818,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "感谢收看。"
+ },
+ {
+  "seg": 392,
+  "start": 2019.04,
+  "end": 2023.204,
+  "speaker": "Unknown",
+  "en": "So it's absolutely essential that first of all, we don't become over-reliant on overconfident AI systems.",
+  "zh": "所以绝对必要的是，首先，我们不要变得过度依赖过度自信的 AI 系统。"
+ },
+ {
+  "seg": 393,
+  "start": 2034.2,
+  "end": 2045.763,
+  "speaker": "Unknown",
+  "en": "But to be able to do that, we need our AI systems to be honest about their uncertainty and bring that uncertainty in a visible form to the human users so we can understand it.",
+  "zh": "但为了能够做到这一点，我们需要我们的 AI 系统对它们的不确定性诚实，并以可见的形式将那种不确定性带给人类用户，以便我们可以理解它。"
+ },
+ {
+  "seg": 394,
+  "start": 2047.343,
+  "end": 2060.866,
+  "speaker": "Unknown",
+  "en": "My colleague at Cambridge, David Spiegelhalter, has done a lot of amazing work on how to convey uncertainties and probabilities in elegant ways to the general public.",
+  "zh": "我在剑桥的同事 David Spiegelhalter，在如何以优雅的方式向公众传达不确定性和概率方面做了很多惊人的工作。"
+ },
+ {
+  "seg": 395,
+  "start": 2061.426,
+  "end": 2063.708,
+  "speaker": "Unknown",
+  "en": "And I think there are ways you can do that.",
+  "zh": "我认为有一些方法可以做到这一点。"
+ },
+ {
+  "seg": 396,
+  "start": 2063.728,
+  "end": 2065.849,
+  "speaker": "Unknown",
+  "en": "You can visualize the answer and so on.",
+  "zh": "你可以可视化答案等等。"
+ },
+ {
+  "seg": 397,
+  "start": 2066.49,
+  "end": 2078.218,
+  "speaker": "Unknown",
+  "en": "So, I mean, I really believe that it's important to have AI systems that are doing complementary things that are additive to humans, that are helping people solve problems that we care about.",
+  "zh": "所以，我是说，我真的相信拥有做互补事情的 AI 系统很重要，这对人类是附加的，是帮助人们解决我们关心的问题。"
+ },
+ {
+  "seg": 398,
+  "start": 2079.039,
+  "end": 2083.542,
+  "speaker": "Unknown",
+  "en": "And in order to do that, you want them to be honest about what they know and what they don't know.",
+  "zh": "为了做到这一点，你希望它们对自己知道什么和不知道什么诚实。"
+ },
+ {
+  "seg": 399,
+  "start": 2083.958,
+  "end": 2086.88,
+  "speaker": "Unknown",
+  "en": "It feels like this is really very critical that we get this right.",
+  "zh": "感觉这一点真的非常关键，我们要把这做对。"
+ },
+ {
+  "seg": 400,
+  "start": 2087.741,
+  "end": 2091.604,
+  "speaker": "Unknown",
+  "en": "It's like such an important part of designing our collective future with AI.",
+  "zh": "这就像是用 AI 设计我们共同未来中如此重要的一部分。"
+ },
+ {
+  "seg": 401,
+  "start": 2091.724,
+  "end": 2094.306,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it is really important.",
+  "zh": "是的，我认为这真的很重要。"
+ },
+ {
+  "seg": 402,
+  "start": 2094.366,
+  "end": 2101.052,
+  "speaker": "Unknown",
+  "en": "I mean, I don't want to take away from the fact that AI systems have been incredibly useful already.",
+  "zh": "我的意思是，我并不想抹杀 AI 系统已经非常有用这一事实。"
+ },
+ {
+  "seg": 403,
+  "start": 2101.192,
+  "end": 2104.634,
+  "speaker": "Unknown",
+  "en": "I think they're pretty good at some of these things and we can do better.",
+  "zh": "我认为它们在这些事情上做得相当不错，我们可以做得更好。"
+ },
+ {
+  "seg": 404,
+  "start": 2105.956,
+  "end": 2109.018,
+  "speaker": "Unknown",
+  "en": "And there are open problems along the way.",
+  "zh": "而且在这个过程中还有未解决的问题。"
+ },
+ {
+  "seg": 405,
+  "start": 2109.038,
+  "end": 2112.661,
+  "speaker": "Unknown",
+  "en": "And that's one of the reasons we actually need more research, actually.",
+  "zh": "而这实际上是我们确实需要更多研究的理由之一。"
+ },
+ {
+  "seg": 406,
+  "start": 2112.841,
+  "end": 2115.083,
+  "speaker": "Unknown",
+  "en": "The thing is, I mean, I'm sort of sitting here agreeing with you.",
+  "zh": "问题是，我的意思是，我坐在这里有点同意你的观点。"
+ },
+ {
+  "seg": 407,
+  "start": 2115.503,
+  "end": 2120.228,
+  "speaker": "Unknown",
+  "en": "You're also a Bayesian thinker, so this is very much my philosophy.",
+  "zh": "你也是一个贝叶斯思考者，所以这非常符合我的哲学。"
+ },
+ {
+  "seg": 408,
+  "start": 2121.129,
+  "end": 2122.53,
+  "speaker": "Unknown",
+  "en": "But not everybody does.",
+  "zh": "但并不是每个人都这么认为。"
+ },
+ {
+  "seg": 409,
+  "start": 2122.79,
+  "end": 2123.431,
+  "speaker": "Unknown",
+  "en": "No, no.",
+  "zh": "不，不。"
+ },
+ {
+  "seg": 410,
+  "start": 2124.111,
+  "end": 2125.132,
+  "speaker": "Unknown",
+  "en": "Not everyone agrees with you.",
+  "zh": "不是每个人都同意你的看法。"
+ },
+ {
+  "seg": 411,
+  "start": 2125.152,
+  "end": 2132.159,
+  "speaker": "Unknown",
+  "en": "I mean, there are some people who sort of say, look, you just put in more data and then you don't need to worry about uncertainty because the model will know everything.",
+  "zh": "我的意思是，有些人会说，瞧，你只需要投入更多数据，然后就不需要担心不确定性，因为模型会知道一切。"
+ },
+ {
+  "seg": 412,
+  "start": 2132.659,
+  "end": 2137.123,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that is a view that a lot of people have in the field.",
+  "zh": "是的，我认为这是该领域很多人持有的观点。"
+ },
+ {
+  "seg": 413,
+  "start": 2139.557,
+  "end": 2149.466,
+  "speaker": "Unknown",
+  "en": "They're not completely wrong, just like I'm not completely right, in that the models are actually pretty good at a lot of useful things.",
+  "zh": "他们并没有完全错，就像我没有完全对一样，因为模型在很多有用的事情上实际上做得相当好。"
+ },
+ {
+  "seg": 414,
+  "start": 2149.786,
+  "end": 2159.815,
+  "speaker": "Unknown",
+  "en": "The problem is that when you stretch them in the long tail of sort of unusual things, then you can uncover some gaps.",
+  "zh": "问题在于，当你把它们延伸到长尾的那些不寻常事物时，你就会发现一些差距。"
+ },
+ {
+  "seg": 415,
+  "start": 2160.516,
+  "end": 2169.372,
+  "speaker": "Unknown",
+  "en": "And also, I think when the decisions, if you're just interacting with a chatbot, the decisions may not be so consequential, but if we're trying to build",
+  "zh": "还有，我认为当涉及决策时，如果你只是在和聊天机器人互动，决策可能不会那么重大，但如果我们正在尝试建立"
+ },
+ {
+  "seg": 416,
+  "start": 2170.577,
+  "end": 2178.722,
+  "speaker": "Unknown",
+  "en": "Self-driving cars that are reliable or, you know, medical AI systems that are helping us make, you know, diagnosis decisions.",
+  "zh": "可靠的自动驾驶汽车，或者，你知道，帮助我们做出，你知道，诊断决策的医疗 AI 系统。"
+ },
+ {
+  "seg": 417,
+  "start": 2179.242,
+  "end": 2181.663,
+  "speaker": "Unknown",
+  "en": "Then we really do care about getting those probabilities right.",
+  "zh": "那么我们真的很关心弄对这些概率。"
+ },
+ {
+  "seg": 418,
+  "start": 2181.784,
+  "end": 2187.207,
+  "speaker": "Unknown",
+  "en": "Because I guess when it comes to building AGI, there's sort of, to oversimplify it, two camps, really.",
+  "zh": "因为我想当谈到构建 AGI 时，可以说，为了简化它，确实有两个阵营。"
+ },
+ {
+  "seg": 419,
+  "start": 2187.267,
+  "end": 2192.01,
+  "speaker": "Unknown",
+  "en": "One which says you just need scale, you just need more data, more compute, off you go.",
+  "zh": "一个阵营说你只需要规模，你只需要更多数据、更多算力，然后你就可以去了。"
+ },
+ {
+  "seg": 420,
+  "start": 2192.39,
+  "end": 2196.032,
+  "speaker": "Unknown",
+  "en": "And then the other that's sort of known we actually need a new architecture.",
+  "zh": "而另一个则是那种认为我们实际上需要一种新架构的阵营。"
+ },
+ {
+  "seg": 421,
+  "start": 2196.512,
+  "end": 2198.914,
+  "speaker": "Unknown",
+  "en": "Thank you for joining us.",
+  "zh": "谢谢你加入我们。"
+ },
+ {
+  "seg": 422,
+  "start": 2218.02,
+  "end": 2221.245,
+  "speaker": "Unknown",
+  "en": "Things that I think are important areas of research.",
+  "zh": "我认为这可能是重要的研究领域。"
+ },
+ {
+  "seg": 423,
+  "start": 2222.066,
+  "end": 2224.149,
+  "speaker": "Unknown",
+  "en": "One example is continual learning.",
+  "zh": "一个例子是持续学习。"
+ },
+ {
+  "seg": 424,
+  "start": 2224.79,
+  "end": 2232.06,
+  "speaker": "Unknown",
+  "en": "So the way we currently train our models, and we means everybody in the field, we train a giant model.",
+  "zh": "所以我们目前训练模型的方式，也就是我们在该领域所有人的方式，我们训练一个巨大的模型。"
+ },
+ {
+  "seg": 425,
+  "start": 2233.126,
+  "end": 2237.87,
+  "speaker": "Unknown",
+  "en": "And then we use it in products or we release it in various forms.",
+  "zh": "然后我们在产品中使用它，或者我们以各种形式发布它。"
+ },
+ {
+  "seg": 426,
+  "start": 2238.29,
+  "end": 2241.593,
+  "speaker": "Unknown",
+  "en": "And then a few months later, we train another giant model and so on.",
+  "zh": "然后几个月后，我们训练另一个巨大的模型，以此类推。"
+ },
+ {
+  "seg": 427,
+  "start": 2241.953,
+  "end": 2246.016,
+  "speaker": "Unknown",
+  "en": "If you compare that to how humans and animals learn, we learn continuously.",
+  "zh": "如果你将其与人类和动物的学习方式进行比较，我们是在持续学习的。"
+ },
+ {
+  "seg": 428,
+  "start": 2246.176,
+  "end": 2254.803,
+  "speaker": "Unknown",
+  "en": "We're basically constantly getting a stream of data and constantly adapting our connections between our neurons and so on.",
+  "zh": "我们基本上不断获得数据流，并不断调整我们神经元之间的连接等等。"
+ },
+ {
+  "seg": 429,
+  "start": 2255.684,
+  "end": 2259.066,
+  "speaker": "Unknown",
+  "en": "And our AI systems are not really able to do that very well.",
+  "zh": "而我们的 AI 系统并不是真的能做得很好。"
+ },
+ {
+  "seg": 430,
+  "start": 2259.346,
+  "end": 2262.669,
+  "speaker": "Unknown",
+  "en": "They suffer from things like catastrophic forgetting and so on and so forth.",
+  "zh": "它们遭受诸如灾难性遗忘之类的问题，诸如此类。"
+ },
+ {
+  "seg": 431,
+  "start": 2262.789,
+  "end": 2277.292,
+  "speaker": "Unknown",
+  "en": "Which absolutely links back to the idea of Bayesian thinking that we were talking about earlier, because the reason why humans, animals are able to do that is because we have this updating system in our minds of incorporating evidence with existing knowledge.",
+  "zh": "这绝对联系到了我们之前谈论的贝叶斯思考的观点，因为人类和动物能够做到这一点的原因是因为我们大脑中有这种将证据与现有知识结合的更新系统。"
+ },
+ {
+  "seg": 432,
+  "start": 2277.552,
+  "end": 2290.555,
+  "speaker": "Unknown",
+  "en": "Yeah, so it turns out if you think of learning from a strictly Bayesian point of view, you have your prior beliefs, you get a data point, you update them, you get a posterior, and you get another data point, you update them.",
+  "zh": "是的，所以结果证明如果你从严格的贝叶斯角度思考学习，你有你的先验信念，你得到一个数据点，你更新它们，你得到一个后验分布，然后你得到另一个数据点，你再更新它们。"
+ },
+ {
+  "seg": 433,
+  "start": 2291.016,
+  "end": 2292.076,
+  "speaker": "Unknown",
+  "en": "It turns out that",
+  "zh": "结果证明"
+ },
+ {
+  "seg": 434,
+  "start": 2293.056,
+  "end": 2302.023,
+  "speaker": "Unknown",
+  "en": "That sort of Bayesian updating can do continual learning and does not suffer from catastrophic forgetting and all these things in theory.",
+  "zh": "这种贝叶斯更新在理论上可以进行持续学习，并且不会遭受灾难性遗忘以及所有这些问题。"
+ },
+ {
+  "seg": 435,
+  "start": 2302.303,
+  "end": 2310.189,
+  "speaker": "Unknown",
+  "en": "Actually, many of our attempts at doing continual learning in large neural networks are approximations of that Bayesian updating.",
+  "zh": "实际上，我们在大型神经网络中进行持续学习的许多尝试都是对那种贝叶斯更新的近似。"
+ },
+ {
+  "seg": 436,
+  "start": 2310.229,
+  "end": 2312.951,
+  "speaker": "Unknown",
+  "en": "So that's one area of research is continual learning.",
+  "zh": "所以持续学习是一个研究领域。"
+ },
+ {
+  "seg": 437,
+  "start": 2313.912,
+  "end": 2319.775,
+  "speaker": "Unknown",
+  "en": "Another area where I think we may need breakthroughs is energy efficiency.",
+  "zh": "我认为另一个我们可能需要突破的领域是能效。"
+ },
+ {
+  "seg": 438,
+  "start": 2320.376,
+  "end": 2324.618,
+  "speaker": "Unknown",
+  "en": "So if you look at like the power consumption of a human brain, it's about 20 watts.",
+  "zh": "所以如果你看看人类大脑的功耗，大约是 20 瓦。"
+ },
+ {
+  "seg": 439,
+  "start": 2325.238,
+  "end": 2326.459,
+  "speaker": "Unknown",
+  "en": "I don't want to make an equivalence.",
+  "zh": "我不想做一个等效比较。"
+ },
+ {
+  "seg": 440,
+  "start": 2326.759,
+  "end": 2327.46,
+  "speaker": "Unknown",
+  "en": "It's a light bulb.",
+  "zh": "它是一个灯泡。"
+ },
+ {
+  "seg": 441,
+  "start": 2327.72,
+  "end": 2328.78,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a light bulb.",
+  "zh": "是的，它是一个灯泡。"
+ },
+ {
+  "seg": 442,
+  "start": 2328.82,
+  "end": 2329.561,
+  "speaker": "Unknown",
+  "en": "It's a rubbish light bulb.",
+  "zh": "它是一个糟糕的灯泡。"
+ },
+ {
+  "seg": 443,
+  "start": 2329.581,
+  "end": 2333.243,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a nice, very energy efficient light bulb, let's say.",
+  "zh": "是的，让我们说它是一个很好的、非常节能的灯泡。"
+ },
+ {
+  "seg": 444,
+  "start": 2333.663,
+  "end": 2340.888,
+  "speaker": "Unknown",
+  "en": "You know, if you compare that to training a large language model in a big data center, it's orders of magnitude off.",
+  "zh": "你知道，如果你将其与在大型数据中心训练大型语言模型相比，这差了好几个数量级。"
+ },
+ {
+  "seg": 445,
+  "start": 2341.328,
+  "end": 2348.313,
+  "speaker": "Unknown",
+  "en": "I don't want to compare a single brain to a large language model because single brains involve kind of the single lived experience of a human being.",
+  "zh": "我不想把单个大脑与大型语言模型进行比较，因为单个大脑涉及人类个体的单一生活体验。"
+ },
+ {
+  "seg": 446,
+  "start": 2348.714,
+  "end": 2354.638,
+  "speaker": "Unknown",
+  "en": "Large language models are basically giant soups of all of world knowledge of some kind.",
+  "zh": "大型语言模型基本上是某种形式的所有世界知识的巨大汤。"
+ },
+ {
+  "seg": 447,
+  "start": 2354.738,
+  "end": 2356.239,
+  "speaker": "Unknown",
+  "en": "But they're definitely less efficient.",
+  "zh": "但它们肯定效率较低。"
+ },
+ {
+  "seg": 448,
+  "start": 2356.479,
+  "end": 2358.941,
+  "speaker": "Unknown",
+  "en": "But they're way less efficient, right?",
+  "zh": "但它们的效率要低得多，对吧？"
+ },
+ {
+  "seg": 449,
+  "start": 2359.301,
+  "end": 2365.505,
+  "speaker": "Unknown",
+  "en": "So we can certainly afford to do more research in more energy efficient learning.",
+  "zh": "所以我们当然可以投入更多研究在更节能的学习上。"
+ },
+ {
+  "seg": 450,
+  "start": 2366.145,
+  "end": 2369.927,
+  "speaker": "Unknown",
+  "en": "I also think that there may be new architectures that we need to discover.",
+  "zh": "我也认为可能存在我们需要去发现的新架构。"
+ },
+ {
+  "seg": 451,
+  "start": 2369.967,
+  "end": 2375.371,
+  "speaker": "Unknown",
+  "en": "Basically, the two workhorses of modern AI are transformers and diffusion models.",
+  "zh": "基本上，现代 AI 的两个主力是 Transformer 和扩散模型。"
+ },
+ {
+  "seg": 452,
+  "start": 2376.091,
+  "end": 2389.401,
+  "speaker": "Unknown",
+  "en": "They're great, but there may be completely other co-evolutions of software and hardware, like novel hardware architectures that may involve very sparse neural networks of various kinds.",
+  "zh": "它们很棒，但可能存在完全不同的软件和硬件协同进化，比如可能涉及各种非常稀疏的神经网络的新型硬件架构。"
+ },
+ {
+  "seg": 453,
+  "start": 2389.521,
+  "end": 2391.182,
+  "speaker": "Unknown",
+  "en": "And, oh, I'll give you another one.",
+  "zh": "噢，我再给你举一个例子。"
+ },
+ {
+  "seg": 454,
+  "start": 2392.563,
+  "end": 2398.687,
+  "speaker": "Unknown",
+  "en": "Our learning systems are incredibly data inefficient compared to human and animal learning.",
+  "zh": "与人类和动物的学习相比，我们的学习系统在数据利用方面非常低效。"
+ },
+ {
+  "seg": 455,
+  "start": 2399.147,
+  "end": 2403.851,
+  "speaker": "Unknown",
+  "en": "So again, I think Bayesian ideas can help us there.",
+  "zh": "所以再说一次，我认为贝叶斯思想可以在那里帮助我们。"
+ },
+ {
+  "seg": 456,
+  "start": 2404.401,
+  "end": 2406.803,
+  "speaker": "Unknown",
+  "en": "It sort of sounds a bit like you've discovered a magic trick, you know?",
+  "zh": "这听起来有点像你发现了一个魔法技巧，你知道吗？"
+ },
+ {
+  "seg": 457,
+  "start": 2406.963,
+  "end": 2418.855,
+  "speaker": "Unknown",
+  "en": "Like this magic trick which embeds humility and uncertainty, offers the opportunity for continual learning, and makes the data more efficient, and you can write in a single line of Bayes' rule.",
+  "zh": "就像这个魔法技巧，它嵌入了谦逊和不确定性，提供了持续学习的机会，并使数据更高效，而且你可以用一行贝叶斯规则来写出来。"
+ },
+ {
+  "seg": 458,
+  "start": 2419.055,
+  "end": 2420.596,
+  "speaker": "Unknown",
+  "en": "Is this a little bit too good to be true?",
+  "zh": "这是不是有点好得不真实？"
+ },
+ {
+  "seg": 459,
+  "start": 2420.616,
+  "end": 2421.858,
+  "speaker": "Unknown",
+  "en": "It's too good to be true, right?",
+  "zh": "它好得不真实，对吧？"
+ },
+ {
+  "seg": 460,
+  "start": 2421.918,
+  "end": 2423.839,
+  "speaker": "Unknown",
+  "en": "Obviously, we've known this for a long time.",
+  "zh": "显然，我们早就知道这一点了。"
+ },
+ {
+  "seg": 461,
+  "start": 2423.96,
+  "end": 2428.003,
+  "speaker": "Unknown",
+  "en": "I think it's important to understand these ideas.",
+  "zh": "我认为理解这些思想很重要。"
+ },
+ {
+  "seg": 462,
+  "start": 2428.764,
+  "end": 2436.228,
+  "speaker": "Unknown",
+  "en": "You know, I think all students of machine learning should at least understand that it's possible to do these things.",
+  "zh": "你知道，我认为所有机器学习的学生至少应该明白，做这些事情是可能的。"
+ },
+ {
+  "seg": 463,
+  "start": 2436.488,
+  "end": 2440.05,
+  "speaker": "Unknown",
+  "en": "The magic trick comes with a big curse.",
+  "zh": "这个魔法技巧伴随着一个巨大的诅咒。"
+ },
+ {
+  "seg": 464,
+  "start": 2441.171,
+  "end": 2444.613,
+  "speaker": "Unknown",
+  "en": "The curse here is that to do all of this,",
+  "zh": "这里的诅咒是，为了做所有这一切，"
+ },
+ {
+  "seg": 465,
+  "start": 2445.593,
+  "end": 2447.675,
+  "speaker": "Unknown",
+  "en": "is computationally very slow.",
+  "zh": "在计算上是非常慢的。"
+ },
+ {
+  "seg": 466,
+  "start": 2448.555,
+  "end": 2456.121,
+  "speaker": "Unknown",
+  "en": "So essentially, you know, if you look at textbooks in AI, they will explain to you how to do some of these things.",
+  "zh": "所以本质上，你知道，如果你看 AI 的教科书，它们会向你解释如何做其中一些事情。"
+ },
+ {
+  "seg": 467,
+  "start": 2456.161,
+  "end": 2462.426,
+  "speaker": "Unknown",
+  "en": "But they will say, we can't do these things exactly because they're computationally hard problems.",
+  "zh": "但它们会说，我们无法精确地做这些事情，因为它们是计算上的难题。"
+ },
+ {
+  "seg": 468,
+  "start": 2462.466,
+  "end": 2467.17,
+  "speaker": "Unknown",
+  "en": "They're like, you know, kind of MP complete or MP hard problems to solve.",
+  "zh": "它们就像，你知道，某种要解决的 MP 完全或 MP 困难问题。"
+ },
+ {
+  "seg": 469,
+  "start": 2467.73,
+  "end": 2469.752,
+  "speaker": "Unknown",
+  "en": "And so we need to approximate them somehow.",
+  "zh": "所以我们需要以某种方式近似它们。"
+ },
+ {
+  "seg": 470,
+  "start": 2470.132,
+  "end": 2472.454,
+  "speaker": "Unknown",
+  "en": "And you could argue, well, we know how to build",
+  "zh": "你可以争辩说，嗯，我们知道如何构建"
+ },
+ {
+  "seg": 471,
+  "start": 2474.075,
+  "end": 2476.017,
+  "speaker": "Unknown",
+  "en": "Because the thing is, what you just said there...",
+  "zh": "因为问题是，你刚才在那里说的..."
+ },
+ {
+  "seg": 472,
+  "start": 2489.089,
+  "end": 2491.63,
+  "speaker": "Unknown",
+  "en": "...about, well, it's very computationally expensive, it's very slow.",
+  "zh": "...关于，嗯，它计算成本非常高，它非常慢。"
+ },
+ {
+  "seg": 473,
+  "start": 2492.111,
+  "end": 2494.532,
+  "speaker": "Unknown",
+  "en": "They were saying that about neural networks in the 80s.",
+  "zh": "他们在 80 年代就是这样说神经网络的。"
+ },
+ {
+  "seg": 474,
+  "start": 2494.592,
+  "end": 2495.012,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 475,
+  "start": 2495.072,
+  "end": 2496.413,
+  "speaker": "Unknown",
+  "en": "You're not going to make that mistake twice.",
+  "zh": "你不会犯两次那个错误。"
+ },
+ {
+  "seg": 476,
+  "start": 2496.613,
+  "end": 2497.314,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 477,
+  "start": 2497.414,
+  "end": 2502.917,
+  "speaker": "Unknown",
+  "en": "I think we can revisit some of these ideas with the compute power that we have now.",
+  "zh": "我认为我们可以利用我们现在拥有的计算能力重新审视其中一些想法。"
+ },
+ {
+  "seg": 478,
+  "start": 2503.257,
+  "end": 2514.783,
+  "speaker": "Unknown",
+  "en": "You know, the giant state-of-the-art supercomputer, parallel connection machine computer that I used in my undergraduate years is actually slower than the Pixel phone that I have in my pocket.",
+  "zh": "你知道，我在本科时使用的那个巨大的最先进的超级计算机，并行连接机器计算机，实际上比我口袋里的 Pixel 手机还要慢。"
+ },
+ {
+  "seg": 479,
+  "start": 2515.323,
+  "end": 2517.865,
+  "speaker": "Unknown",
+  "en": "Computation is getting, you know, better.",
+  "zh": "计算正在变得，你知道，更好。"
+ },
+ {
+  "seg": 480,
+  "start": 2518.425,
+  "end": 2523.306,
+  "speaker": "Unknown",
+  "en": "What really strikes me is everything we've discussed",
+  "zh": "真正让我震惊的是我们讨论的一切"
+ },
+ {
+  "seg": 481,
+  "start": 2540.77,
+  "end": 2544.514,
+  "speaker": "Unknown",
+  "en": "They feel like very human-like qualities, right?",
+  "zh": "它们感觉像是非常像人的特质，对吧？"
+ },
+ {
+  "seg": 482,
+  "start": 2544.534,
+  "end": 2549.878,
+  "speaker": "Unknown",
+  "en": "The sort of ineffable characteristics of humility and honesty and uncertainty and doubt.",
+  "zh": "那些难以言喻的谦逊、诚实、不确定性和怀疑的特征。"
+ },
+ {
+  "seg": 483,
+  "start": 2550.719,
+  "end": 2562.51,
+  "speaker": "Unknown",
+  "en": "I mean, did you imagine when you started all these years ago that this would be the thing that our systems are lacking rather than just computational power or power for analysis?",
+  "zh": "我的意思是，当你多年前开始的时候，你有没有想象过这会是我们系统缺乏的东西，而不仅仅是计算能力或分析能力？"
+ },
+ {
+  "seg": 484,
+  "start": 2562.87,
+  "end": 2566.452,
+  "speaker": "Unknown",
+  "en": "I mean, certainly I didn't really imagine we would be where we are now, right?",
+  "zh": "我的意思是，当然，我并没有真正想象到我们会达到现在的位置，对吧？"
+ },
+ {
+  "seg": 485,
+  "start": 2566.472,
+  "end": 2572.276,
+  "speaker": "Unknown",
+  "en": "Because I think if you talk to any AI researcher, they will be saying that they're stunned by the rate of progress.",
+  "zh": "因为我认为如果你和任何 AI 研究人员交谈，他们都会说他们对进步的速度感到震惊。"
+ },
+ {
+  "seg": 486,
+  "start": 2572.936,
+  "end": 2581.362,
+  "speaker": "Unknown",
+  "en": "But I also think that although these are human qualities we want to add, they're also kind of fundamental qualities of intelligence systems.",
+  "zh": "但我也认为，虽然这些是我们想要添加的人类品质，它们也是智能系统的一种基本品质。"
+ },
+ {
+  "seg": 487,
+  "start": 2581.502,
+  "end": 2587.066,
+  "speaker": "Unknown",
+  "en": "So I think we need to have a concept of intelligence that transcends humans.",
+  "zh": "所以我认为我们需要有一个超越人类的智能概念。"
+ },
+ {
+  "seg": 488,
+  "start": 2587.946,
+  "end": 2593.232,
+  "speaker": "Unknown",
+  "en": "Because, as I mentioned before, we have flaws in our reasoning.",
+  "zh": "因为，正如我之前提到的，我们的推理中有缺陷。"
+ },
+ {
+  "seg": 489,
+  "start": 2593.312,
+  "end": 2599.218,
+  "speaker": "Unknown",
+  "en": "We're actually quite bad at making good rational decisions under uncertainty in the real world.",
+  "zh": "在现实世界的不确定性下，我们在做出良好的理性决策方面实际上相当差。"
+ },
+ {
+  "seg": 490,
+  "start": 2599.579,
+  "end": 2605.345,
+  "speaker": "Unknown",
+  "en": "We will miscalculate probabilities or misestimate probabilities and so on.",
+  "zh": "我们会误算概率或误估概率等等。"
+ },
+ {
+  "seg": 491,
+  "start": 2605.646,
+  "end": 2609.129,
+  "speaker": "Unknown",
+  "en": "So I think if we build human-centric AI systems,",
+  "zh": "所以我认为如果我们构建以人为中心的 AI 系统，"
+ },
+ {
+  "seg": 492,
+  "start": 2609.81,
+  "end": 2613.012,
+  "speaker": "Unknown",
+  "en": "We work backwards from, well, what do humans need?",
+  "zh": "我们反过来推导，嗯，人类需要什么？"
+ },
+ {
+  "seg": 493,
+  "start": 2613.252,
+  "end": 2615.513,
+  "speaker": "Unknown",
+  "en": "What are sort of society's biggest problems?",
+  "zh": "社会最大的问题是什么？"
+ },
+ {
+  "seg": 494,
+  "start": 2615.853,
+  "end": 2617.494,
+  "speaker": "Unknown",
+  "en": "What are humanity's biggest problems?",
+  "zh": "人类最大的问题是什么？"
+ },
+ {
+  "seg": 495,
+  "start": 2617.574,
+  "end": 2620.516,
+  "speaker": "Unknown",
+  "en": "And what are the AI systems that we need to solve those things?",
+  "zh": "我们需要什么样的 AI 系统来解决这些问题？"
+ },
+ {
+  "seg": 496,
+  "start": 2621.116,
+  "end": 2632.422,
+  "speaker": "Unknown",
+  "en": "And for, I think, all problems that matter, I would rather have an AI system that knows when it doesn't know than an AI system that is arrogant and overconfident.",
+  "zh": "对于我认为所有重要的问题，我宁愿拥有一个知道自己不知道的 AI 系统，也不愿拥有一个傲慢和过度自信的 AI 系统。"
+ },
+ {
+  "seg": 497,
+  "start": 2633.322,
+  "end": 2635.043,
+  "speaker": "Unknown",
+  "en": "What an amazing point to end on.",
+  "zh": "多么精彩的结束点啊。"
+ },
+ {
+  "seg": 498,
+  "start": 2635.644,
+  "end": 2636.544,
+  "speaker": "Unknown",
+  "en": "Stephen, thank you so much.",
+  "zh": "Stephen，非常感谢你。"
+ },
+ {
+  "seg": 499,
+  "start": 2636.564,
+  "end": 2637.204,
+  "speaker": "Unknown",
+  "en": "That was brilliant.",
+  "zh": "那太精彩了。"
+ },
+ {
+  "seg": 500,
+  "start": 2637.525,
+  "end": 2638.145,
+  "speaker": "Unknown",
+  "en": "Thank you, Hannah.",
+  "zh": "谢谢你，Hannah。"
+ },
+ {
+  "seg": 501,
+  "start": 2638.423,
+  "end": 2642.288,
+  "speaker": "Unknown",
+  "en": "For years, we tried to build AI that was focused on accuracy, right?",
+  "zh": "多年来，我们试图构建专注于准确性的 AI，对吧？"
+ },
+ {
+  "seg": 502,
+  "start": 2642.328,
+  "end": 2646.934,
+  "speaker": "Unknown",
+  "en": "Building systems that crunch through enormous amounts of data to land an answer.",
+  "zh": "构建那些处理巨量数据以得出答案的系统。"
+ },
+ {
+  "seg": 503,
+  "start": 2647.394,
+  "end": 2652.681,
+  "speaker": "Unknown",
+  "en": "And these things, they're astonishingly capable, of course, but they're also quite brittle in some ways.",
+  "zh": "而这些东西，它们当然能力惊人，但在某些方面也相当脆弱。"
+ },
+ {
+  "seg": 504,
+  "start": 2653.081,
+  "end": 2656.365,
+  "speaker": "Unknown",
+  "en": "When they fail, they fail with total confidence.",
+  "zh": "当它们失败时，它们带着绝对的自信失败。"
+ },
+ {
+  "seg": 505,
+  "start": 2657.086,
+  "end": 2665.709,
+  "speaker": "Unknown",
+  "en": "But by teaching AI to embrace uncertainty, it gives it something more human, humility and honesty and the wisdom to doubt.",
+  "zh": "但通过教导 AI 拥抱不确定性，赋予了它更人性的东西，谦逊、诚实以及怀疑的智慧。"
+ },
+ {
+  "seg": 506,
+  "start": 2666.329,
+  "end": 2668.59,
+  "speaker": "Unknown",
+  "en": "And this isn't a vulnerability.",
+  "zh": "而这并不是一个弱点。"
+ },
+ {
+  "seg": 507,
+  "start": 2668.61,
+  "end": 2670.11,
+  "speaker": "Unknown",
+  "en": "It doesn't make AI weaker.",
+  "zh": "它并不会让 AI 变弱。"
+ },
+ {
+  "seg": 508,
+  "start": 2670.55,
+  "end": 2675.932,
+  "speaker": "Unknown",
+  "en": "It grounds it in reality, making it a collaborator we can actually rely on.",
+  "zh": "它使其立足于现实，使其成为我们真正可以依靠的合作者。"
+ }
+]

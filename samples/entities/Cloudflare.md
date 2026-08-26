@@ -41,7 +41,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Copilot]] · [[Notion]] · [[ChatGPT]] · [[Google]] · [[Revolut]] · [[Eric Ries]] · [[Idan Gazit]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":67,"智能体":135,"OpenAI":61,"Copilot":5,"Notion":8,"ChatGPT":35,"Google":27,"Revolut":4,"Eric Ries":1,"Idan Gazit":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":67,"智能体":136,"OpenAI":61,"Copilot":5,"Notion":8,"ChatGPT":36,"Google":27,"Revolut":4,"Eric Ries":1,"Idan Gazit":1}</script>
 
 <script>
 (function(){

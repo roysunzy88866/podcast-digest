@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AlphaFold</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AlphaFold">AL</div><div class="pi"><h1 class="pt">AlphaFold</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AlphaFold">AL</div><div class="pi"><h1 class="pt">AlphaFold</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(30:30起):本集把它说成：Google 同事为蛋白质折叠打造的极度精准的小众模型，是非通用模型的典范；Jeff 鼓励小团队在材料科学、芯片设计等硬核领域去训练类似的专用模型。
+- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]]**(30:15起):本集说 AlphaFold 的蛋白质预测结果按模型确信程度做颜色编码，将物理学上摇摆不定的区域和模型预测不确定的区域都显式标出来
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]] — 作为概念
+- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jeff Dean]] · [[智能体]] · [[多智能体系统]] · [[专用推理硬件]] · [[推理]] · [[上下文工程]] · [[TPU]] · [[MapReduce]] · [[蒸馏]] · [[Gemini]]
+[[Jeff Dean]] · [[Zubin Gharemani]] · [[智能体]] · [[Google DeepMind]] · [[多智能体系统]] · [[不确定性]] · [[专用推理硬件]] · [[贝叶斯规则]] · [[推理]] · [[大语言模型]]
 
-<script type="application/json" class="pd-epn">{"Jeff Dean":1,"智能体":135,"多智能体系统":1,"专用推理硬件":1,"推理":1,"上下文工程":6,"TPU":2,"MapReduce":1,"蒸馏":6,"Gemini":4}</script>
+<script type="application/json" class="pd-epn">{"Jeff Dean":1,"Zubin Gharemani":1,"智能体":136,"Google DeepMind":3,"多智能体系统":1,"不确定性":1,"专用推理硬件":1,"贝叶斯规则":1,"推理":1,"大语言模型":1}</script>
 
 <script>
 (function(){

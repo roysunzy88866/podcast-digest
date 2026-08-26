@@ -27,7 +27,7 @@ unlisted: true
 
 [[Guy Pajani]] · [[Simon Maple]] · [[暗工厂]] · [[智能体]] · [[Patrick Debois]] · [[Rob Willoughby]] · [[vibe coding]] · [[验证器]] · [[harness]] · [[编排器]]
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":4,"暗工厂":2,"智能体":135,"Patrick Debois":1,"Rob Willoughby":1,"vibe coding":23,"验证器":1,"harness":16,"编排器":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":4,"暗工厂":2,"智能体":136,"Patrick Debois":1,"Rob Willoughby":1,"vibe coding":23,"验证器":1,"harness":16,"编排器":2}</script>
 
 <script>
 (function(){

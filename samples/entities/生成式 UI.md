@@ -39,7 +39,7 @@ unlisted: true
 
 [[Wes Bos]] · [[vibe coding]] · [[智能体]] · [[迭代循环]] · [[LLM]] · [[本地模型]] · [[个人品牌]] · [[简报]] · [[上下文]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Wes Bos":1,"vibe coding":23,"智能体":135,"迭代循环":1,"LLM":16,"本地模型":1,"个人品牌":1,"简报":2,"上下文":11,"Cursor":35}</script>
+<script type="application/json" class="pd-epn">{"Wes Bos":1,"vibe coding":23,"智能体":136,"迭代循环":1,"LLM":17,"本地模型":1,"个人品牌":1,"简报":2,"上下文":11,"Cursor":35}</script>
 
 <script>
 (function(){

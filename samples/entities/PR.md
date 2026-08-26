@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Claude Code]] · [[Codex]] · [[设计系统]] · [[Cursor]] · [[Sherwin Wu]] · [[Jenny Wen]] · [[Bruno Scott Sperka]] · [[Ryan Carson]]
 
-<script type="application/json" class="pd-epn">{"智能体":135,"Lenny":65,"Claude Code":35,"Codex":27,"设计系统":4,"Cursor":35,"Sherwin Wu":1,"Jenny Wen":1,"Bruno Scott Sperka":1,"Ryan Carson":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":136,"Lenny":65,"Claude Code":35,"Codex":27,"设计系统":4,"Cursor":35,"Sherwin Wu":1,"Jenny Wen":1,"Bruno Scott Sperka":1,"Ryan Carson":2}</script>
 
 <script>
 (function(){

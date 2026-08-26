@@ -1,0 +1,51 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "15:20",
+      "speaker": "Zubin Gharemani",
+      "trimmed": false,
+      "tsWas": "15:20",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 2,
+      "timestamp": "25:05",
+      "speaker": "Zubin Gharemani",
+      "trimmed": false,
+      "tsWas": "25:05",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 4,
+      "timestamp": "29:20",
+      "speaker": "SPEAKER_01",
+      "trimmed": false,
+      "tsWas": "29:20",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 5,
+      "timestamp": "41:43",
+      "speaker": "Zubin Gharemani",
+      "trimmed": false,
+      "tsWas": "41:43",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 6,
+      "timestamp": "43:41",
+      "speaker": "Zubin Gharemani",
+      "trimmed": false,
+      "tsWas": "43:41",
+      "spkWas": "Unknown"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 3,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "It is genuinely hard because it's computationally hard. So essentially, I would argue we had all the ingredients of AI maybe 15 or 20 years ago. We just thought like, well, representing probability distributions over every possible thing is computationally intractable."
+    }
+  ]
+}

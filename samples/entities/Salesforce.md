@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[MCP]] · [[Replit]] · [[编码智能体]] · [[Anthropic]] · [[Cursor]] · [[Vercel]] · [[Brex]]
 
-<script type="application/json" class="pd-epn">{"智能体":135,"Lenny":65,"OpenAI":61,"MCP":16,"Replit":11,"编码智能体":1,"Anthropic":67,"Cursor":35,"Vercel":10,"Brex":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":136,"Lenny":65,"OpenAI":61,"MCP":16,"Replit":11,"编码智能体":1,"Anthropic":67,"Cursor":35,"Vercel":10,"Brex":3}</script>
 
 <script>
 (function(){

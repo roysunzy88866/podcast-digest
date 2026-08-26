@@ -61,7 +61,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Cursor]] · [[MCP]] · [[Codex]] · [[Microsoft]] · [[开源模型]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":135,"OpenAI":61,"Anthropic":67,"Lenny":65,"Cursor":35,"MCP":16,"Codex":27,"Microsoft":12,"开源模型":9,"NVIDIA":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":136,"OpenAI":61,"Anthropic":67,"Lenny":65,"Cursor":35,"MCP":16,"Codex":27,"Microsoft":12,"开源模型":9,"NVIDIA":20}</script>
 
 <script>
 (function(){

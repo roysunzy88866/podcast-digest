@@ -132,7 +132,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Claude Code]] · [[vibe coding]] · [[Codex]] · [[Google]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":135,"Lenny":65,"Anthropic":67,"ChatGPT":35,"OpenAI":61,"Claude Code":35,"vibe coding":23,"Codex":27,"Google":27,"Cursor":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":136,"Lenny":65,"Anthropic":67,"ChatGPT":36,"OpenAI":61,"Claude Code":35,"vibe coding":23,"Codex":27,"Google":27,"Cursor":35}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
+[[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":9,"ChatGPT":35,"物理 AI":4,"强化学习":13,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":5}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":9,"ChatGPT":36,"物理 AI":4,"强化学习":13,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":5}</script>
 
 <script>
 (function(){

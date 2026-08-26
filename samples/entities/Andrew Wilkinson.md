@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]]
+[[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Tiny":1,"Lindy":2,"Replit":11,"Limitless":1,"ChatGPT":35,"Letterboxd":1,"智能体":135,"vibe coding":23,"网络效应":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Tiny":1,"Lindy":2,"Replit":11,"Limitless":1,"ChatGPT":36,"Letterboxd":1,"智能体":136,"vibe coding":23,"网络效应":3}</script>
 
 <script>
 (function(){

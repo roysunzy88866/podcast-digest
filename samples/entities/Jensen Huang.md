@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]] [[Julien Bek]] [[Jerry Murdock]]
+[[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":20,"深度学习":3,"智能体":135,"沙箱":25,"Condi Rice":1,"harness":16,"Jerry":1,"GPU":6,"前沿模型":4,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":20,"深度学习":3,"智能体":136,"沙箱":25,"Condi Rice":1,"harness":16,"Jerry":1,"GPU":6,"前沿模型":4,"Sega":1}</script>
 
 <script>
 (function(){

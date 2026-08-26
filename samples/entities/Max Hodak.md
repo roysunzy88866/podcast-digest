@@ -39,7 +39,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Patrick Debois]]
+[[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Adam Ward]] [[Tom Verrilli]] [[Blake Scholl]]
 
 </div>
 

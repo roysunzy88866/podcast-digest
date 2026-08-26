@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]] [[Ranjan]] [[Gabriel Vasquez]] [[Angela Strange]]
+[[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":3,"智能体":135,"开源模型":9,"微调":5,"业务逻辑":1,"前向部署工程师":6,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":3,"智能体":136,"开源模型":9,"微调":5,"业务逻辑":1,"前向部署工程师":6,"Duet":1}</script>
 
 <script>
 (function(){
