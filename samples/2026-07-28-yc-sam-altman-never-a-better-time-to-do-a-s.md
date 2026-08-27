@@ -181,7 +181,7 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
-- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|NETIC：让基础服务企业用AI自主运营]]<span class="pd-rz">同公司:OpenAI · 同概念:主观能动性 (agency)、智能体 (agents)</span>
+- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司]]<span class="pd-rz">同公司:OpenAI · 同概念:主观能动性 (agency)、智能体 (agents)</span>
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)</span>
 
 </div>

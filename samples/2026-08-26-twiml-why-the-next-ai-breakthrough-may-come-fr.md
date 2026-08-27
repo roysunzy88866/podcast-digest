@@ -1,5 +1,5 @@
 ---
-title: 物理学如何塑造下一代AI架构
+title: 用物理设计新材料：Max Welling 的 AI for Science 双向之路
 podcast: The TWIML AI Podcast
 date: 2026-08-27
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "58:03"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr.jpg"
-description: 阿姆斯特丹大学教授、cusp.ai 联合创始人 Max Welling 主张：物理学的数学思想——热力学、对称性破缺、波传播——不只是 AI 的应用场景，而是塑造下一代 AI 架构的设计原理。
+description: cusp.ai 联合创始人 Max Welling 讲如何用生成式 AI 从头设计碳捕集、半导体新材料，以及为什么热力学和波现象会塑造下一代 AI 架构。
 host: "[[Sam Charrington]]"
 cohosts: ["[[Max Welling]]"]
 companies: ["[[cusp.ai]]"]
@@ -17,18 +17,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr#post","headline":"物理学如何塑造下一代AI架构","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr","description":"阿姆斯特丹大学教授、cusp.ai 联合创始人 Max Welling 主张：物理学的数学思想——热力学、对称性破缺、波传播——不只是 AI 的应用场景，而是塑造下一代 AI 架构的设计原理。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr.jpg","about":[{"@type":"Person","name":"Sam Charrington"},{"@type":"Person","name":"Max Welling"},{"@type":"Organization","name":"cusp.ai"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"等变性 (equivariance)"},{"@type":"Thing","name":"扩散模型 (diffusion models)"},{"@type":"Thing","name":"自发对称性破缺 (spontaneous symmetry breaking)"},{"@type":"Thing","name":"波 (waves)"},{"@type":"Thing","name":"机器学习力场 (machine learning force fields)"},{"@type":"Thing","name":"分子动力学 (molecular dynamics)"},{"@type":"Thing","name":"金属有机框架 (metal organic frameworks)"},{"@type":"Thing","name":"自动驾驶实验室 (self-driving labs)"},{"@type":"Thing","name":"熵 (entropy)"},{"@type":"Thing","name":"随机热力学 (stochastic thermodynamics)"},{"@type":"Thing","name":"混沌边缘 (edge of chaos)"},{"@type":"Thing","name":"基础模型 (foundation model)"},{"@type":"Thing","name":"蒸馏 (distillation)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"物理学如何塑造下一代AI架构","item":"https://talk.solomind.cc/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr#post","headline":"用物理设计新材料：Max Welling 的 AI for Science 双向之路","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr","description":"cusp.ai 联合创始人 Max Welling 讲如何用生成式 AI 从头设计碳捕集、半导体新材料，以及为什么热力学和波现象会塑造下一代 AI 架构。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr.jpg","about":[{"@type":"Person","name":"Sam Charrington"},{"@type":"Person","name":"Max Welling"},{"@type":"Organization","name":"cusp.ai"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"等变性 (equivariance)"},{"@type":"Thing","name":"扩散模型 (diffusion models)"},{"@type":"Thing","name":"自发对称性破缺 (spontaneous symmetry breaking)"},{"@type":"Thing","name":"波 (waves)"},{"@type":"Thing","name":"机器学习力场 (machine learning force fields)"},{"@type":"Thing","name":"分子动力学 (molecular dynamics)"},{"@type":"Thing","name":"金属有机框架 (metal organic frameworks)"},{"@type":"Thing","name":"自动驾驶实验室 (self-driving labs)"},{"@type":"Thing","name":"熵 (entropy)"},{"@type":"Thing","name":"随机热力学 (stochastic thermodynamics)"},{"@type":"Thing","name":"混沌边缘 (edge of chaos)"},{"@type":"Thing","name":"基础模型 (foundation model)"},{"@type":"Thing","name":"蒸馏 (distillation)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"用物理设计新材料：Max Welling 的 AI for Science 双向之路","item":"https://talk.solomind.cc/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>物理学如何塑造下一代AI架构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用物理设计新材料：Max Welling 的 AI for Science 双向之路</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 物理学如何塑造下一代AI架构
+# 用物理设计新材料：Max Welling 的 AI for Science 双向之路
 
 <div class="pd-byl"><b>Max Welling</b> · cusp.ai 联合创始人 · 2026-08-27</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">所以我们的一些科学家说过这样的话，我们现在几天就能做完以前博士才能做完的事，但这更多是在数字领域。</div><div class="a">— Max Welling <button class="pd-ts" data-t="22:04" data-who="Max Welling" data-en="So some of our scientists, they have said things like, we can do now in a few days what took a PhD before, but that's more in the digital domain." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">相对这些量子力学近似，有三到四个数量级的加速，效率更高。</div><div class="a">— Max Welling <button class="pd-ts" data-t="04:57" data-who="Max Welling" data-en="Three-order to four-order magnitude acceleration, more efficiency relative to these quantum mechanical approximations." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Sam Charrington]] · [[Max Welling]]
@@ -37,75 +37,113 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[等变性]] · [[扩散模型]] · [[自发对称性破缺]] · [[波]] · [[机器学习力场]] · [[分子动力学]] · [[金属有机框架]] · [[自动驾驶实验室]] · [[熵]] · [[随机热力学]] · [[混沌边缘]] · [[基础模型]] · [[蒸馏]]
 
-把原子拼成新材料的方式有无限种可能，但宇宙自己只摸索出了其中一小部分——剩下的全等着被设计出来，带着各种奇异的特性。[[Max Welling|Max Welling]] 现在做的事，就是用生成式 AI 去搜索那些自然界没有给我们的材料 <button class="pd-ts" data-t="08:40" data-who="Unknown" data-en="How did you get started with that effort? The opportunity is, to me, there's a deep fascination with the fact that there is a sheer infinite amount of possibilities in which you can put together atoms." aria-label="回原文"></button>。
+这一集的主角是 [[Max Welling|Max Welling]]——[[cusp.ai|cusp.ai]] 的联合创始人兼 CTO、阿姆斯特丹大学教授，理论物理博士出身。他的核心主张是：物理与 AI 不是「AI 应用于物理」的单向关系，而是一场双向的交叉授粉——AI 在帮他设计全新材料，而物理里热力学、[[波|波]]、对称性破缺这些深层结果，可能反过来成为下一代神经网络的设计原理。最反直觉的一点：他book里论证，现代生成式 AI 的数学与非平衡热力学的数学**不是类比，而是同一套**。
 
-他创办的 [[cusp.ai|cusp.ai]] 做了一个材料设计平台：不是搜文档，是搜已知和未知的材料本身。没有合适的就从头设计。
+## 为什么是材料：原子的组合近乎无限，宇宙只「发现」了一小部分
 
-平台核心是一个[[智能体|智能体]]，它编排一整套计算流程 <button class="pd-ts" data-t="10:54" data-who="Unknown" data-en="And there's many components. It's agentic, so there is an agent sitting at the core of it who orchestrates a long computation. And it searches through existing databases." aria-label="回原文"></button>：先搜现有数据库和文献，找不到就调生成模型，一次性生成数十万个候选分子 <button class="pd-ts" data-t="17:51" data-who="Unknown" data-en="And so you tell it, I want molecules with these very specific properties, the conditioning statement it's called. And then it will start to generate these molecules, often hundreds of thousands of them, because it's quite cheap in the computer." aria-label="回原文"></button>——因为在计算机上这很便宜。然后是筛选：先做快速检查（带不带电、摇晃会不会散、孔隙多大），把没希望的丢掉；接着为这个特定材料类别[[蒸馏|蒸馏]]一个[[机器学习力场|机器学习力场]]（用神经网络替代昂贵的量子力学计算来预测原子受力），放进[[分子动力学|分子动力学]]模拟里跑，算出关键属性 <button class="pd-ts" data-t="18:23" data-who="Unknown" data-en="In some sense, you build a multi-scale digital twin of the process that you really want these molecules to operate in. And so the first step is basically you relax the molecule to its ground state." aria-label="回原文"></button>；最后才进实验室验证，而且他们正在接入 self-driving labs（[[自动驾驶实验室|自动驾驶实验室]]），一天能跑上百个实验，智能体自动设定实验参数，实验数据回来后和计算数据合并，再决定下一轮怎么做 <button class="pd-ts" data-t="20:15" data-who="Unknown" data-en="And so then, and then you get a candidate. What we are currently, the current, I would say, revolution that's happening in this space is self-driving labs, where the amount of experiments you can do is much, much faster." aria-label="回原文"></button>。
+Max 对材料着迷的起点很朴素：原子组合的方式近乎无限，宇宙里自然形成的只是其中一小部分，剩下的都可以由人去设计，带着各种奇异特性 <button class="pd-ts" data-t="08:40" data-who="Max Welling" data-en="How did you get started with that effort? The opportunity is, to me, there's a deep fascination with the fact that there is a sheer infinite amount of possibilities in which you can put together atoms." aria-label="回原文"></button>。他和联合创始人 Chad Edwards 创办 cusp.ai（2024 年春，初始融资约 3000 万美元，团队如今约 50 人，在伦敦、柏林设实验室）时的动机是气候：加速能源转型，以及把大气中的二氧化碳抽出来 [05:44-06:58 Max Welling]。
 
-这套流程比传统方法快得多。他们的一些科学家说，现在几天能干完以前一个博士才能干完的事 <button class="pd-ts" data-t="22:04" data-who="Unknown" data-en="Yeah, so I definitely think that there's definite evidence that these things are much more efficient. So some of our scientists, they have said things like, we can do now in a few days what took a PhD before, but that's more in the digital domain." aria-label="回原文"></button>——不过这更多是在数字仿真层面，真正的实验验证还在跑，和亚洲一个国家实验室、丹麦技术大学等都有合作 <button class="pd-ts" data-t="22:27" data-who="Unknown" data-en="We have two projects going which have experimental pieces to it. But we have a contract with a big national lab in Asia, which I cannot quite say the details of yet, where we have many more of these experiments planned out." aria-label="回原文"></button>。
+碳移除的量级常被低估：在实现碳中和之后，仍有 50 到 100 年，人类需要每年移除的量约为当前排放量的一半——大约相当于一个装满液态二氧化碳的日内瓦湖，而目前根本没有低成本的技术做这件事 [09:33-09:52 Max Welling]。难点在于二氧化碳在大气中太稀薄，捕集的成本大头是能源和吸附材料——于是第一个项目就落在改进吸附材料上，用的是「[[金属有机框架|金属有机框架]]」（MOF：金属节点加有机连接体构成的网状分子，极其多孔、表面积巨大，空气吹过时分子会粘在孔壁上）[10:21-12:18 Max Welling]。这类材料正是今年诺贝尔化学奖的获奖对象——Max 特意澄清，发现者是化学家（他记得是 Kitagawa、Yagi、Robson 等教授），不是他 [11:31-11:46 Max Welling]。
 
-他们的第一个项目是碳捕获材料：[[金属有机框架|金属有机框架]]（MOF，一种极其多孔的晶体结构，今年刚拿了诺贝尔化学奖）。目标是设计出一种 MOF，让空气吹过去的时候只有二氧化碳粘在孔里，氮气和水都穿过去 <button class="pd-ts" data-t="12:18" data-who="Unknown" data-en="So they have a very large holes in the middle with an enormous surface area. And so if you blow sort of air atmosphere through it, the molecules in the air, which is water, nitrogen, and carbon dioxide, but carbon dioxide is only a small fraction of that, they tend to stick to the sides." aria-label="回原文"></button>。
+> 【背景】「今年获诺贝尔化学奖」的金属有机框架，指 2025 年授予 Kitagawa、Robson、Yagi 三位化学家的奖项，与转写稿中 Max 的回忆一致。
 
-这个需求很现实——即使实现了碳中和，之后 50 到 100 年每年还得从大气里抽出当前排放量的大约一半（也就是每年 20 gigaton 的二氧化碳），而目前的技术成本太高，贵就贵在能耗和吸附材料上 <button class="pd-ts" data-t="09:33" data-who="Unknown" data-en="So not many people know that by the time it's 2015, of course, we really like to be completely carbon neutral. But after that, there is still 50 to 100 years where we have to take out every year about half of what we currently put in." aria-label="回原文"></button>。除了 MOF，他们还扩展到了钙钛矿太阳能电池材料、半导体芯片材料、电池、燃料电池、以及从水中去除 PFAS <button class="pd-ts" data-t="13:55" data-who="Unknown" data-en="molecules that we worked with we have hence expanded to semiconductors we're doing a lot of work on pro and perovskites which is materials for solar panels improved improved solar panels and we look at semiconductors for new chip chip materials" aria-label="回原文"></button>。
+## 平台怎么工作：一个「搜索未知材料」的智能体
 
-这些技术底座里有条贯穿的线：[[等变性|等变性]]（equivariance，即旋转一个分子，预测出的力也跟着转，不会被坐标变化搞乱）。Max 早年做几何神经网络，发现等变性在化学和材料科学里特别好用，因为三维世界的对称性是真实的 <button class="pd-ts" data-t="05:05" data-who="Unknown" data-en="Three-order to four-order magnitude acceleration, more efficiency relative to these quantum mechanical approximations. And in those models, because the world is three-dimensional symmetric, so if I rotate a molecule, all the forces will rotate with it, and so we could now put the same ideas that we use for images, we could put them in these molecules, these models that predict the forces." aria-label="回原文"></button>。
+cusp.ai 做的东西可以理解成一个搜索引擎，但搜的不是已有文档，而是**已知和未知的材料**——没有合适的就从头设计 [10:38-10:47 Max Welling]。核心是一个[[智能体|智能体]]，编排一长串计算，整个管线是这样：
 
-他们还和 Meta 一起训练了材料[[基础模型|基础模型]]——把分子结构映射到潜在空间得到一种表示，可以拿去做属性预测器、给生成模型做条件输入，也可以作为蒸馏特定材料类别模型的起点 <button class="pd-ts" data-t="26:28" data-who="Unknown" data-en="Are the representations of the molecules, like are there standard formats for representing these things that someone working in the space would already have and then your machinery just works on those existing ones?" aria-label="回原文"></button>。最近他们还和 NVIDIA 一起开源了一个叫 COPS 的分子动力学框架，把力场编译成 JAX 在 GPU 上高效并行跑，因为传统 MD 模拟器主要跑在 CPU 上，跑神经网络力场效率很低 <button class="pd-ts" data-t="24:44" data-who="Unknown" data-en="And the most important thing, I think, that we've recently released open source and published a blog post about, is our new molecular dynamics framework called COPS, confusingly." aria-label="回原文"></button>。
+1. **查库**：先在大规模材料数据库里检索（其中不少是大型出版商的独家授权文献），看是否已有满足目标性质的材料 [16:56-17:22 Max Welling]。
+2. **生成**：没有就上生成式模型——和生成图像/视频同类的模型，只是这里以「条件陈述」告诉它「我要这些特定性质的分子」，一次生成数十万个，因为算起来很便宜 [17:31-17:59 Max Welling]。
+3. **多尺度过滤**：从便宜到昂贵逐级筛选——先把分子弛豫到基态、查带电性、稳定性、孔径等快速检查，扔掉大批不靠谱的；再为该材料类别微调/[[蒸馏|蒸馏]]一个[[机器学习力场|机器学习力场]]，跑[[分子动力学|分子动力学]]模拟（让分子「扭动」起来算关键性质）；更贵的尺度上还用偏微分方程建模材料所在的器件 [17:59-19:58 Max Welling]。
+4. **实验**：最后才进实验室，老办法下只敢对 10 个量级的候选做实验；正在兴起的「[[自动驾驶实验室|自动驾驶实验室]]」一天能做上百个实验，智能体根据实验数据与计算数据定下一轮实验设置，闭环快得多 [20:02-20:52 Max Welling]。
 
-但 Max 想讲的东西远不止"AI for science"。他正在写一本书，核心论点是：生成式 AI 的数学和非平衡统计力学（[[随机热力学|随机热力学]]）的数学是等价的，这不是类比，是非常具体的同构 <button class="pd-ts" data-t="35:26" data-who="Unknown" data-en="Modern generative AI, including probabilistic models, including diffusion models, and many other things, their mathematics turns out to be equivalent to the mathematics that describes modern non-equilibrium statistical mechanics or thermodynamics." aria-label="回原文"></button>。
+这条管线的地基是[[等变性|等变性]]（equivariance，指模型输出随输入的旋转平移同步变换——世界是三维对称的，转一下分子，力也跟着转）[05:05-05:25 Max Welling]。背景是：算原子间力理论上要求解薛定谔方程，10 个电子以上就不可行，连 DFT（密度泛函理论，其发明者拿了诺贝尔奖）这样的近似都昂贵；用神经网络做替代模型能拿到相对量子力学近似三到四个数量级的加速 [04:03-04:57 Max Welling]。Max 理论物理博士的旧热情与机器学习的新热情在这里「完美统一」[05:30-05:41 Max Welling]。
 
-两个领域都建立在信息论之上——都有一个观察者试图描述一个过程，但自由度太多跟踪不了，信息在丢失，必须用概率来捕捉 <button class="pd-ts" data-t="36:16" data-who="Unknown" data-en="And both of these are described. So if you talk about information theory with loss of information, in other words, processes where you lose information as you are evolving over time." aria-label="回原文"></button>。[[熵|熵]]在物理学里感觉像是系统的真实属性（你要从能量里减去熵才得到能做功的自由能），但在贝叶斯统计里它描述的就是"你不知道的东西"。
+## 进展、商业模式与开源
 
-物理学家 E.T. Jaynes 的观点是：物理学里的熵也精确描述了你关于世界缺失的所有信息 <button class="pd-ts" data-t="38:08" data-who="Unknown" data-en="But in my view and a number of physicists as well, in particular E.T. Jaynes is a famous one, entropy in physics also precisely describes all the information you're missing about the world." aria-label="回原文"></button>。Landauer 定理更直接：擦除一个比特的香农信息，就必须向环境辐射一定量的热量——信息损失和物理耗散直接挂钩 <button class="pd-ts" data-t="38:21" data-who="Unknown" data-en="And so there's this very deep connection between these two fields. Maybe the last thing I want to say about this, there is this famous theorem by Landauer who basically said that if you erase a bit from a device, you must radiate, you know, KLNT, which is just a number, amount of energy as heat to the environment." aria-label="回原文"></button>。
+效果上已有定性证据：做仿真的科学家说，**以前要一个博士周期才能做完的事，现在几天搞定**（不过这主要指数字领域）[22:04-22:20 Max Welling]。有实验环节的项目在跑：一个已做完实验室实验，半导体项目几个月后进实验，阿姆斯特丹的钙钛矿（一种可叠在硅太阳能电池上、把更多可见光转为电能的半导体晶体结构）项目进行中，还与丹麦技术大学合作催化，并与一家亚洲大型国家实验室签了约 [21:20-23:42 Max Welling]。
 
-这种对应关系有实际用处。机器学习里叫随机正则化流的方法，在热力学里叫伴随自由能估计，完全是同一个东西 <button class="pd-ts" data-t="40:05" data-who="Unknown" data-en="And this book is a lot about finding these different, this kind of dictionary between the two fields. There's something called stochastic normalizing flows in one, in the machine learning, and then there is escorted free energy estimation in the other." aria-label="回原文"></button>。
+商业模式是合作伙伴生态：材料类别太广，每类都有学界或业界的「超级专家」，cusp 负责设计、合作方负责合成；同时也自筹资金跑内部项目（碳捕集 MOF、半导体），发现好东西就持有 IP 再找客户 [14:26-15:32 Max Welling]。
 
-[[扩散模型|扩散模型]]就是最典型的例子：第一篇扩散模型论文标题里就写了"非平衡热力学"——前向过程是结构被摧毁（熵增），反向过程是从噪声里创造结构（生成） <button class="pd-ts" data-t="40:50" data-who="Unknown" data-en="And in reverse, it's also for the physicist who wants to get into machine learning and build on the things they already know. And I just want to point out that the first paper that was written about diffusion models actually had the word non-equilibrium thermodynamics in the title." aria-label="回原文"></button>。反过来，热力学里发展出来的"对抗耗散驱动"概念可以用来降低扩散过程的统计误差，帮你造出更好的扩散模型 <button class="pd-ts" data-t="42:36" data-who="Unknown" data-en="Because there is... Things which have been developed in stochastic thermodynamics, like a concept called counter-diabetic driving is something that they have figured out on how to do very efficient control of particular physical systems." aria-label="回原文"></button>。
+学术侧没停：cusp 也发表论文，最近最重要的是和 NVIDIA 一起开源了新的分子动力学框架——把机器学习力场编译进 JAX（基于 Python），让模拟在 GPU 上高效并行运行，因为传统 MD 模拟器多跑在 CPU 上，跑不动神经网络 [24:38-26:01 Max Welling]。[[基础模型|基础模型]]方面用 Materials Project 数据集和 Meta 的 OMOL（大量 DFT 计算构成）训练广泛适用的力场/表示，再按材料类别微调蒸馏成又专又快的小模型——MD 模拟一步只有一飞秒，力场要被调用极多次，快是硬需求 [27:54-29:01 Max Welling]。分子还能写成 SMILE 字符串，所以 LLM 风格模型与图神经网络都能用，甚至可以把文献文本和分子图混在一起——每次提到某个分子，就用一个小图神经网络把它变成词元 [30:14-31:06 Max Welling]。
 
-在 iClear 的演讲里，Max 又往前走了一步：[[波|波]]。大脑里现在到处观测到了行进波——以前单电极看不到，放几百上千个电极就看到了 <button class="pd-ts" data-t="46:28" data-who="Unknown" data-en="Yeah, so this is, I think, very exciting in the sense that, so the thing that, so there's two reasons why we thought we needed to think more about waves in science." aria-label="回原文"></button>。
+## 生成式 AI 的数学 = 非平衡热力学的数学
 
-神经网络里有个老问题叫过度平滑：信息穿过几千层后指数级衰减，输入和输出变得无关 <button class="pd-ts" data-t="46:58" data-who="Unknown" data-en="That's the first reason. The other reason is that in neural networks, you have this phenomenon called over-smoothing, which means that you start with a piece of information and you have thousands of layers, and this information basically" aria-label="回原文"></button>。推理也有类似问题——你得在很长时间里保持信息不被冲掉。
+Max 快写完一本书，谈生成式 AI 与[[随机热力学|随机热力学]]。核心论断出奇地具体：**现代生成式 AI（概率模型、[[扩散模型|扩散模型]]等）的数学，与非平衡统计力学/热力学的数学是等价的**——不是「万物皆偏微分方程」式的类比 [35:06/35:41 Max Welling]。
 
-材料用声子（晶格振动波）做长程信息传递；我们能看到遥远宇宙也靠光波。但神经网络完全没用波这个工具 <button class="pd-ts" data-t="48:33" data-who="Unknown" data-en="Or how do you communicate with things that are very far away in your brain or take information from a material that has very long range interactions? And also in materials," aria-label="回原文"></button>。
+为什么这么深？因为两边底层都是信息论：一个观察者面对太多自由度、不得不丢失信息，只能用概率去刻画——这套数学同时是热力学和机器学习的核心 [36:02-36:43 Max Welling]。
 
-他们设计的做法是利用[[自发对称性破缺|自发对称性破缺]]（spontaneous symmetry breaking）。给每个神经元加额外维度，内置一个大的连续对称性，然后把随机权重的分布设得足够大，对称性就会自发破缺 <button class="pd-ts" data-t="55:21" data-who="Unknown" data-en="And so we thought that's a really good candidate for these traveling waves. And so what we did is we created the neural network with the large symmetry. We just bake it in." aria-label="回原文"></button>——就像水结冰，连续平移对称变成离散的晶格对称。
+几条漂亮的对应：
 
-物理学有个深层定理说，连续对称性破缺会产生新的波动模式（戈德斯通模），这些波可以无能耗地传播 <button class="pd-ts" data-t="54:53" data-who="Unknown" data-en="And there is a very deep theory from physics that says when that happens, when a continuous symmetry breaks into a discrete symmetry or breaks into a smaller symmetry, then you'll have new wave-like modes, which" aria-label="回原文"></button>。他们在神经网络里复现了这件事：破缺之后自然出现振荡，从网络头到尾稳定传播，不花额外计算量 <button class="pd-ts" data-t="56:00" data-who="Unknown" data-en="And that's complex to explain, but the symmetry gets broken. And now you're in this broken symmetry phase where you have these Goldstone modes or these waves which can travel without using any energy." aria-label="回原文"></button>。
+- **[[熵|熵]]**：物理学里从能量减去熵才得到可做功的自由能，像是系统的可测属性；但按 Max 引述的物理学家 E.T. Jaynes 的观点，熵恰恰刻画了你对世界缺失的全部信息——贝叶斯统计里的主观概率与物理熵在此汇合 [37:03-38:17 Max Welling]。
+- **Landauer 定理**：从设备里擦除一个比特，必须以热的形式向环境耗散 kT 量级的能量——香农信息与物理能量的直接换算 [38:21-38:50 Max Welling]。
+- **热力学第二定律**即信息只会持平或丢失：信息不消失，只是从系统转移到你完全无法恢复的热浴里 [39:07-39:39 Max Welling]。
+- 两边各自发展的工具互为精确对应：机器学习的「随机正则化流」与物理的「伴随自由能估计」结果是完全相同的方法 [39:56-40:18 Max Welling]。
 
-这解决了一个关键问题。把神经网络看作动力系统：太稳定，信息塌缩到一个点（内爆梯度）；太不稳定，进入混沌，信息还在但你数值上追不上（爆炸梯度/熵增） <button class="pd-ts" data-t="51:11" data-who="Unknown" data-en="There's different types of dynamical system. The first one is a stable system where basically if you take two different inputs, They map to this." aria-label="回原文"></button>。
+交叉滋养是双向的：正向，扩散模型可以加速化学家关心的计算，比如蛋白质与药物结合/未结合态的自由能差；反向，随机热力学里的「反绝热驱动」概念可用于改进扩散模型、降低生成中的统计误差 [41:40-43:14 Max Welling]。而且这不是扩散模型独有的巧合——第一篇扩散模型论文的标题里就写着「非平衡热力学」，作者当年就知道这层联系；书还覆盖变分自编码器、MCMC、自由能估计 [40:50-43:52 Max Welling]。对理解模型本身也有用：热、功、熵产生这些机器学习里不用的概念，为理解并改进扩散模型提供了全新视角；随机热力学本身也是研究非平衡系统的新领域，两边的学者对彼此的工作都极感兴趣 [45:03-45:41 Max Welling]。
 
-最好的状态是中间——[[混沌边缘|混沌边缘]]。人们发现表现最好的神经网络和大脑都运行在这个区域 <button class="pd-ts" data-t="52:44" data-who="Unknown" data-en="So what you really want is sitting somewhere in the middle, somewhere that's not too stable and not too unstable, and that's called edge of chaos. And people have found that, in fact, neural networks that perform best operate at this edge of chaos." aria-label="回原文"></button>。
+## 波与对称性破缺：物理深层结果当神经网络设计原理
 
-而引入波之后，网络天然就落在混沌边缘，不需要刻意调参 <button class="pd-ts" data-t="53:07" data-who="Unknown" data-en="And we found that if you include these waves in your neural network, you very naturally operate in this regime edge of chaos, and you don't have to fine-tune the system to be there." aria-label="回原文"></button>。在需要长期记忆的任务上（收到两个随机时间点的数字、在更后面的时间点求和），这类模型远超传统 RNN <button class="pd-ts" data-t="49:53" data-who="Unknown" data-en="And we've been very successful in, for instance, tasks that require memory. So a task where a neural network or an RNN, basically the task is you take a number, you hold it in memory, and then at some random other point another number arrives, you hold it in memory, and then you add them, and then another random point you're asked to produce the sum." aria-label="回原文"></button>。
+Max 最近在 ICML 主题演讲里讲了另一个方向：把**波**引入神经网络。动机有二 [46:16-47:46 Max Welling]：
 
-> 【背景】Max 提到的顾问 Jeff Hinton 即 Geoffrey Hinton，转写稿中写作 Jeff；Jan LeCun 即 Yann LeCun，转写稿中写作 Jan。ASR 识别为 Cospy/Cosplay 处均指 cusp.ai。
+- 大脑里现在真的观测到了行波——从单电极进步到成百上千电极后，到处都能看到，问题只剩「这是功能还是副作用」[46:28-46:57 Max Welling]。
+- 神经网络的「过度平滑」：信息穿过数千层会被指数级压制，输入与输出变得彼此独立；深度学习里的很多技巧（残差、归一化之类）本质上都是在对抗这件事。推理任务也需要记忆——在很远的将来才被要求输出的计算，怎么在时间上「通信得很深」[46:58-48:33 Max Welling]。
+
+大自然用波做长程通信：材料里的声子（晶格振动）、宇宙里让我们看见深空的光波——而神经网络完全不用这个工具 [48:35-49:13 Max Welling]。
+
+做法来自物理学的[[自发对称性破缺|自发对称性破缺]]：给每个神经元额外加一些维度、内置一个对称性；用足够大的随机权重初始化后，对称性自发破缺，产生戈德斯通模（Goldstone modes）——**可以不耗任何能量传播的波**，从网络开头稳定振荡到结尾，再把网络训练起来利用这些「免费」的振荡 [53:23-56:46 Max Welling]。
+
+动力学系统视角下这正好落在甜点位：太稳定（一切收敛到一点）丢信息，太不稳定（混沌）信息还在但数值精度追不上——那正是「熵增加」的真正含义；最好的神经网络和大脑都运行在**[[混沌边缘|混沌边缘]]**，而引入波之后网络自然而然就待在混沌边缘，不需要精细调参去凑 [51:07-53:14 Max Welling]。实测在需要记忆的任务上（随机时刻存数、随机远期时刻求和），这些波模型远好于 RNN [49:53-50:24 Max Welling]。Max 的总结：这是把物理的深层结果直接当作神经网络的设计原理，而可挖的数学与物理富矿还有的是 [56:53-57:12 Max Welling]。
 
 ## 本集带走
 
-- **材料设计的智能体流水线**：先搜文献和数据库 → 生成模型一次产出数十万候选 → 快速物理检查过滤 → 蒸馏专用力场做分子动力学模拟 → 实验室验证（正在接入自动驾驶实验室加速闭环）。
-- **等变性是材料 AI 的基础设施**：三维对称性是真实的，旋转分子后预测的力必须跟着转——等变性把这个约束直接写进模型，是基础模型和下游蒸馏的共同起点。
-- **生成式 AI 和热力学的数学是同一套**：都建立在"信息丢失必须用概率捕捉"这个核心上。扩散模型的前向销毁结构、反向创造结构，就是热力学熵增和逆转的直接对应。
-- **用自发对称性破缺在神经网络里造波**：给神经元加额外维度、内置大对称性、用大随机权重触发破缺，就会无能耗地产生稳定行进波，让信息从头传到尾不衰减，网络天然运行在混沌边缘。
-- **波是神经网络缺的一个工具**：大脑用波、材料用声子、宇宙用光波做长程通信，但神经网络只做逐层映射。引入波可以解决过度平滑和长期记忆问题。
+- **加速来自替代模型**：用神经网络替代 DFT 等量子力学近似来算原子间力，可拿到三到四个数量级的加速——这是 AI for science 材料管线的地基。
+- **设计新材料的管线是漏斗**：查库 → 生成数十万候选 → 便宜到昂贵的多尺度过滤（基态弛豫、快检、蒸馏力场跑 MD、偏微分方程建模器件）→ 最后才实验，自动驾驶实验室一天百个实验正在把最后一环也提速。
+- **等变性是化学/材料里的「免费先验」**：世界三维对称，模型输出随输入旋转平移同步变换，用在预测原子力的模型上正合适。
+- **生成式 AI 与非平衡热力学共享同一套数学**（信息论），两边的工具互为精确对应——扩散模型即「把结构毁掉再反向从噪声造结构」，第一篇扩散模型论文标题里就写着非平衡热力学。
+- **把自发对称性破缺内置进神经网络**，会得到不耗能、天然稳定的行波（戈德斯通模），让网络自动运行在混沌边缘，长程信息传递和记忆任务远胜 RNN。
+- **商业模式可参考**：平台 + 合作生态（设计归我、合成归伙伴），同时自筹资金做内部项目拿 IP，用「从发现到客户付钱」走通全链路来建立行业信心。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec">全部金句 <span>10 条</span></div>
 
-> <span class="qz">所以我们的一些科学家说过这样的话，我们现在几天就能做完以前博士才能做完的事，但这更多是在数字领域。</span>  
+> <span class="qz">相对这些量子力学近似，有三到四个数量级的加速，效率更高。</span>  
+> *Three-order to four-order magnitude acceleration, more efficiency relative to these quantum mechanical approximations.*  
+> <span class="qm">—— Max Welling · [04:57]</span> ^q1
+
+> <span class="qz">所以我们现在能做的，基本上就是为一个非常具体的任务提出一个全新的分子，然后在实验室里制造它，再把它用于那个特定任务。</span>  
+> *And so what we can do is we can now basically come up with an entirely new molecule for a very specific task and then make it in the lab and then use that for that particular task.*  
+> <span class="qm">—— Max Welling · [13:16]</span> ^q2
+
+> <span class="qz">我们的一些科学家说过：我们现在几天就能做完以前一个博士周期才能做完的事，但这更多是在数字领域。</span>  
 > *So some of our scientists, they have said things like, we can do now in a few days what took a PhD before, but that's more in the digital domain.*  
-> <span class="qm">—— Max Welling · [22:04]</span> ^q1
+> <span class="qm">—— Max Welling · [22:04]</span> ^q3
 
-> <span class="qz">一方面在机器学习中有一种叫做随机正则化流的东西，另一方面有伴随自由能估计。而且它们结果是完全相同的方法。</span>  
-> *There's something called stochastic normalizing flows in one, in the machine learning, and then there is escorted free energy estimation in the other. And they turn out to be exactly the same methods.*  
-> <span class="qm">—— Max Welling · [40:05]</span> ^q2
+> <span class="qz">现代生成式 AI，包括概率模型、扩散模型和许多其他东西，它们的数学结果等同于描述现代非平衡统计力学或热力学的数学。</span>  
+> *Modern generative AI, including probabilistic models, including diffusion models, and many other things, their mathematics turns out to be equivalent to the mathematics that describes modern non-equilibrium statistical mechanics or thermodynamics.*  
+> <span class="qm">—— Max Welling · [35:06]</span> ^q4
 
-> <span class="qz">我们发现如果你在你的神经网络中包含这些波，你会很自然地在这个混沌边缘机制下运行，而且你不必微调系统来让它处于那里。</span>  
+> <span class="qz">物理学的核心是信息论。</span>  
+> *At the core of physics is information theory.*  
+> <span class="qm">—— Max Welling · [36:06]</span> ^q5
+
+> <span class="qz">扩散模型其实就是一个把结构取来并毁掉的过程，这通常是世界上发生的事，熵随之上升；然后我们尝试在时间上逆转它——从噪声出发创造结构，这就是我们的生成模型。</span>  
+> *So diffusion models really are a process by which you take structure and you destroy it, which is typically what happens in the world. The entropy goes up. And then we try to reverse that backward in time, which is to start with noise and create structure, which is our generative models.*  
+> <span class="qm">—— Max Welling · [41:02]</span> ^q6
+
+> <span class="qz">热和功、熵产生这些概念，我们谈论机器学习模型时并不使用，但我认为它们为思考正在发生什么、以及如何改进模型，提供了一个非常新颖且有趣的视角。</span>  
+> *Concepts like heat and work and entropy, production, these things we don't use when we talk about machine learning models, but I think they give you a very new and interesting perspective on how to think about what's going on and how to also improve them.*  
+> <span class="qm">—— Max Welling · [45:03]</span> ^q7
+
+> <span class="qz">所以你真正想要的是处在中间某处——不太稳定也不太不稳定——这叫混沌边缘。人们已经发现，事实上表现最好的神经网络就在这个混沌边缘上运行。</span>  
+> *So what you really want is sitting somewhere in the middle, somewhere that's not too stable and not too unstable, and that's called edge of chaos. And people have found that, in fact, neural networks that perform best operate at this edge of chaos.*  
+> <span class="qm">—— Max Welling · [52:34]</span> ^q8
+
+> <span class="qz">我们还发现，如果在神经网络中加入这些波，你会非常自然地运行在混沌边缘，而不必微调系统去凑到那里。</span>  
 > *And we found that if you include these waves in your neural network, you very naturally operate in this regime edge of chaos, and you don't have to fine-tune the system to be there.*  
-> <span class="qm">—— Max Welling · [52:58]</span> ^q3
+> <span class="qm">—— Max Welling · [52:58]</span> ^q9
 
-> <span class="qz">所以在这里我们使用某种东西，物理学的一个深层结果，作为神经网络的设计原理。</span>  
+> <span class="qz">所以在这里，我们把物理的一个深层结果用作神经网络的设计原理。</span>  
 > *And so here we use something, a deep result from physics as a design principle for neural networks.*  
-> <span class="qm">—— Max Welling · [56:53]</span> ^q4
+> <span class="qm">—— Max Welling · [56:53]</span> ^q10
 
 <div class="pd-sec">接着看</div>
 

@@ -165,7 +165,7 @@ Nikhyl 说，从恐惧跨越到快乐之后，这种快乐就是职业倦怠最�
 **换个口味**
 
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:构建者 (builder)、智能体 (agent)</span>
-- [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|AI 时代 Staff 工程师的核心挑战：判断力怎么教]]<span class="pd-rz">同概念:判断力 (judgment)、智能体 (agent)</span>
+- [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|AI 时代，工程师的判断力与品味如何修炼]]<span class="pd-rz">同概念:判断力 (judgment)、智能体 (agent)</span>
 - [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石]]<span class="pd-rz">同概念:产品经理 (product manager)</span>
 
 </div>

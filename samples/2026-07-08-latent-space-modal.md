@@ -113,9 +113,9 @@ swyx 评价说，Modal 不小心造出了让智能体自由表达的基础组件
 
 **顺着「智能体」挖下去**
 
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Kubernetes、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层才是下一个金矿：模型不是商品]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

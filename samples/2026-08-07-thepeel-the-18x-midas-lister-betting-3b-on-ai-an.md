@@ -1,5 +1,5 @@
 ---
-title: AI 泡沫的数学与早期投资的真实打法
+title: "Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法"
 podcast: The Peel
 date: 2026-08-23
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "103:04"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an.jpg"
-description: Mayfield 管理合伙人 Navin 聊 AI 资本泡沫的底层数学、智能体公司的竞争策略，以及他做了 30 年早期投资总结出的选人方法。
+description: Mayfield 管理合伙人 Navin Chaddha 解释十亿美元轮的钱去哪了、AI 过度资本化的倍数，以及智能体创业公司如何避开模型巨头与 SaaS 在位者。
 host: "[[Navin Chaddha]]"
 companies: ["[[Lumilens]]", "[[Mayfield]]"]
 concepts: ["[[智能体]]", "[[推理]]", "[[GPU]]", "[[SaaS]]"]
@@ -17,18 +17,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an#post","headline":"AI 泡沫的数学与早期投资的真实打法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an","mainEntityOfPage":"https://talk.solomind.cc/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an","description":"Mayfield 管理合伙人 Navin 聊 AI 资本泡沫的底层数学、智能体公司的竞争策略，以及他做了 30 年早期投资总结出的选人方法。","datePublished":"2026-08-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an.jpg","about":[{"@type":"Person","name":"Navin Chaddha"},{"@type":"Organization","name":"Lumilens"},{"@type":"Organization","name":"Mayfield"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"SaaS"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"AI 泡沫的数学与早期投资的真实打法","item":"https://talk.solomind.cc/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an#post","headline":"Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an","mainEntityOfPage":"https://talk.solomind.cc/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an","description":"Mayfield 管理合伙人 Navin Chaddha 解释十亿美元轮的钱去哪了、AI 过度资本化的倍数，以及智能体创业公司如何避开模型巨头与 SaaS 在位者。","datePublished":"2026-08-23","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an.jpg","about":[{"@type":"Person","name":"Navin Chaddha"},{"@type":"Organization","name":"Lumilens"},{"@type":"Organization","name":"Mayfield"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"SaaS"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法","item":"https://talk.solomind.cc/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 泡沫的数学与早期投资的真实打法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# AI 泡沫的数学与早期投资的真实打法
+# Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法
 
 <div class="pd-byl"><b>Navin Chaddha</b> · Mayfield 管理合伙人 · 2026-08-23</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">但我认为错失恐惧是给绵羊准备的。</div><div class="a">— Navin Chaddha <button class="pd-ts" data-t="19:12" data-who="Navin Chaddha" data-en="But I think FOMO is for sheep." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">仅今年就有五六家公司在基础设施上花费超过 5000 亿美元。</div><div class="a">— Navin Chaddha <button class="pd-ts" data-t="00:33" data-who="Navin Chaddha" data-en="Just five or six companies this year are spending over half a trillion dollars in infrastructure spend." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Navin Chaddha]]
@@ -37,83 +37,106 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[推理]] · [[GPU]] · [[SaaS]]
 
-今年有五六家公司在基础设施上花了超过 5000 亿美元，但这些钱大量砸进了训练设施——而[[推理|推理]]工作负载还不到 10%。如果把训练基础设施比作高速公路，现在路还没修完，跑在上面的"车"（AI 应用）只有编码这一个品类真正跑通了，其他领域连 infancy 都算不上。如果 AI 采用的速度跟不上基础设施建设速度，就会出现巨大的市场修正 <button class="pd-ts" data-t="29:35" data-who="Unknown" data-en="Now, whether it grows for five years or seven years is anybody's guess, but there is one caution. If AI adoption doesn't happen at the pace at which the training infrastructure was built, there'll be a slowdown and there'll be a huge market correction and in semiconductors and hardware and even in models, right?" aria-label="回原文"></button>。
+这一集的主角是 Navin,风投机构 [[Mayfield|Mayfield]](一家做了 56 年的早期投资公司)的管理合伙人——他自己做过三次连续创业者，第一次创业的公司 18 个月就被微软收购。开场他就丢出一个惊人事实：他投的一家公司 14 个月从零做到 30 亿美元预订收入；而今年仅五六家公司在 AI 基础设施上的花费就超过 5000 亿美元。
 
-现在每年投进 AI 的钱是 2500 到 3000 亿美元，以 10 年期算就是 2.5 到 3 万亿。这些私人公司的股权价值要撑住，可能需要达到 25 到 30 万亿——上一波 [[SaaS|SaaS]] 独角兽时代积压的价值也就 5.8 万亿。
+## 30 亿美元从哪来：GPU 连接线成了物理瓶颈
 
-需要创造多少个 Anthropic 和 OpenAI 才能填上这个数？数学上说不通 <button class="pd-ts" data-t="16:53" data-who="Unknown" data-en="So same thing will happen in AI. Some companies will do it, but the amount of money being invested is 250, 300 billion per year. You take it over a 10 year period, two and a half to three trillion will get invested." aria-label="回原文"></button>。
+那家快公司叫 [[Lumilens|Lumilens]],由连续创业者 Ankur Singla(第四次创业)创办，Navin 和一家超大规模云厂商共同孵化。它做的东西听起来不起眼：光模块。
 
-但这不意味着所有领域都在泡沫里。模型公司和芯片设计确实需要巨额资本——流片一颗芯片要 3 到 4 亿美元，一半花在 IP 授权、EDA 工具和制造上，不是花在人身上 <button class="pd-ts" data-t="14:07" data-who="Unknown" data-en="Essentially to build a hardware company, a lot of the money goes in licensing IP, licensing tools from EDA vendors, and paying the manufacturing companies like the SMC." aria-label="回原文"></button>。真正过度融资的是那些不该拿大钱的层级：一年新成立的几千家公司里，也许只有 10 到 20 家配得上十亿美元级轮次，但实际拿到的是这个数字的 10 到 20 倍 <button class="pd-ts" data-t="14:49" data-who="Unknown" data-en="So I would say out of 2, 3, 5,000 new companies getting formed a year, maybe 10, 20 deserve those billion-dollar rounds, not 100, not a 200. So that's my comment." aria-label="回原文"></button>。
+逻辑是——AI 数据中心里 [[GPU|GPU]] 算力不缺，缺的是「连接」：铜线传输超过一米就不行了，撞上了物理定律，所以机架之间、GPU 与内存之间必须换成光缆，而光缆两端需要光模块(基于磷化铟材料的数字+模拟模块)。这是一个超 500 亿美元、目前由亚洲厂商主导的市场。Navin 的类比很形象：互联网时代运营商铺海底光缆催生了当时市值最大的光学公司，如今「过去跨越数千英里的连接进入了数据中心」，历史重演。
 
-## 为什么"错失恐惧"是给绵羊准备的
+## 十亿美元种子轮的钱到底去哪了
 
-在种子轮和 A 轮阶段，你根本不可能判断谁是赢家。现在很多人追着明显已经跑出来的项目塞钱，那不是判断力，那是 FOMO。Navin 的原话：「FOMO 是给绵羊准备的」 <button class="pd-ts" data-t="19:12" data-who="Unknown" data-en="You can have fear of missing out. But I think FOMO is for sheep. How do you know?" aria-label="回原文"></button>。
+对「pre-seed 融 10 亿是泡沫」的说法，Navin 的答案是：取决于你在 AI 栈的哪一层。他把 AI 栈拆成六层：半导体硬件 → 模型(大脑/操作系统)→ 数据 → 中间件与工具 → 智能应用 → [[智能体|智能体]]。
 
-[[Mayfield|Mayfield]] 70% 的投资在 inception 阶段——创始人连产品都没有，只有纸笔上的想法。这个阶段看什么？
+Anthropic、OpenAI 这类模型公司要训练、要买 GPU,融数百亿大部分进了资本开支——这些公司只有 2500-3000 人，却支撑千亿级收入 run rate,而且 GPU 本身还是抵押品，有一定的下行保护。芯片公司流片要 3-4 亿美元，但一半花在 IP 授权、EDA 工具和代工上，并不需要 10 亿。他的判断：每年新成立的两三千甚至五千家公司里，也许只有 10-20 家配得上十亿美元轮，不是 100 家也不是 200 家——现在大约超配了 10 倍。
 
-不看想法，看人。因为在他参与的 120 次 IPO 和 225 次收购里，至少一半公司最终做的不是最初那个想法 <button class="pd-ts" data-t="21:24" data-who="Unknown" data-en="So at that stage, we lean towards more the people rather than the idea. Having been involved in 120 IPOs and 225 acquisition, at least half of them weren't there on their first idea." aria-label="回原文"></button>。他们看的东西很具体：真实性（要花 5 到 10 小时跟创始人相处来评估，不谈生意）、穿透任何墙的饥饿感、公司第一团队第二自己第三的排序、成长型思维、以及"在自己的皮肤里有安全感"——不是每件事都要证明自己对 <button class="pd-ts" data-t="76:46" data-who="Unknown" data-en="So it starts with how we do it is black magic. How we do it is we are looking for authenticity. To evaluate authenticity, we have to spend five, 10 hours with you or we know you from before." aria-label="回原文"></button>。
+他给出一笔算术账：AI 前的时代，私有独角兽里锁着约 5.8 万亿美元价值，[[SaaS|SaaS]] 的结局大家都看到了——远期倍数从 25-30 倍跌到 3-4 倍。现在 AI 每年投入 2500-3000 亿美元，十年就是 2.5-3 万亿，要证明这些估值合理需要几十万亿美元的股权价值——「需要多少个 Anthropic、多少个 OpenAI 才能凑够那个数？
 
-不同层级的筛选标准不一样。半导体和模型层，候选人必须有 10,000 小时的领域积累，没造过 [[GPU|GPU]] 的人不会投 <button class="pd-ts" data-t="44:48" data-who="Unknown" data-en="These people have given their 10,000 hours. So you just get them to talk about what they've done? What they've done, they've shipped hardware before, they know the exact problems in the industry." aria-label="回原文"></button>。但越往应用层走，领域经验反而没那么重要——因为市场本身还不存在，初学者心态反而是优势 <button class="pd-ts" data-t="46:26" data-who="Unknown" data-en="But if I'm building a sales agent and the market doesn't exist, it's the net new thing. So there it's a fair playing ground and there having a beginner's mind and a fresh entrepreneur is actually better because most people will say when coding was happening, maybe including us, there's no market because" aria-label="回原文"></button>。
+数学才是问题。」
 
-## 智能体公司怎么跟模型巨头和 SaaS 巨头抢地盘
+## AI 到第几局了：推理才刚开始，最大风险是采用率
 
-[[智能体|智能体]]公司的竞争对手有两层：上面的模型公司（Anthropic、OpenAI）和旁边的传统 SaaS 公司。Navin 给智能体创业者的建议是三条，不能全做，选一两个发力点：
+Navin 认为现在只有两件事真正跑通了：搜索问答(让人变强)和编码(那个爆发点，cursor 从 20 亿冲向 40 亿收入，编码的规模是其他领域 30-50 倍)。训练基础设施还没建完，但[[推理|推理]]工作负载目前不到 10%——而推理市场是训练的 10 倍，所以 CapEx 还会涨。
 
-**第一，去模型公司看不上的碎片化市场。** 模型公司年收入千亿美元级别，你的单子一年几万美金，他们连电话都不接 <button class="pd-ts" data-t="63:48" data-who="Unknown" data-en="The challenge is the model people are going to go after the biggest companies. They're 50, 100 billion in revenue, a 10K deal per year. They don't even respond to calls of our companies which are giving them a million dollar order." aria-label="回原文"></button>。SaaS 当年就是这么赢的——企业软件只服务财富 1000 强，SaaS 把市场扩展到中小企业，把整个蛋糕做大了几十倍 <button class="pd-ts" data-t="55:51" data-who="Unknown" data-en="You're in the financing business, but they didn't go after the largest Fortune 5000 companies. They expanded the market to mid-market and small companies. Because you could sell software to a small business that pays you 10 bucks a month." aria-label="回原文"></button>。
+他最担心的不是供给而是需求：如果 AI 智能体的采用跟不上基建速度，就会出现大的市场修正，「修铁路的时代造就了 Vanderbilt,但汽车必须有人买——否则你得到的是空荡荡的高速公路。」另一个推高估值的现象：纯 AI 上市公司太少(不到 10 家，SaaS 有几百家)，大资金经理想要 AI 敞口只能挤 Palantir、NVIDIA 这几个标的，倍数是 IT 服务公司的 20 倍——纯供需问题。
 
-**第二，商业模式从订阅转向按结果付费。** SaaS 卖的是"让人更高效的工具"，AI 智能体卖的是"完成工作本身"。
+## 早期 VC 的活法：FOMO 是给绵羊的
 
-企业会说：你不干活我不付钱，不付订阅费 <button class="pd-ts" data-t="56:51" data-who="Unknown" data-en="Now humans said, AI does the work, but I will only pay you if you do something. I won't pay you a salary." aria-label="回原文"></button>。传统 SaaS 公司很难做这种转换——从可预测的年度经常性收入切成按结果付费，股价先崩一半 <button class="pd-ts" data-t="64:30" data-who="Unknown" data-en="So if SaaS companies have 5 billion in revenues, 10 billion in revenues, really? I'm going to like change and dwindle my revenue from 10 billion, which is predictable to a hundred million." aria-label="回原文"></button>。
+在种子轮和 A 轮，Navin 认为根本无法判断谁是赢家——「FOMO 是给绵羊的」。Mayfield 70% 的投资投在「纸笔想法」阶段，看人不看想法：参与过 120 次 IPO 和 225 次收购后，他发现至少一半的公司最后做的不是最初那个主意。
 
-**第三，做跨软件的开放智能体。** SaaS 公司做的智能体只能用自己的软件，但企业要的是能操作所有工具的智能体 <button class="pd-ts" data-t="65:25" data-who="Unknown" data-en="The problem and the final thing is, If I'm a SaaS company, I create an agent, man that only works with my software. The world needs choice." aria-label="回原文"></button>。
+十年前他说「硅要回到硅谷」时被同行嘲笑，如今 NVIDIA 涨了 1000 倍、半导体指数涨了 40 倍。他的框架是两种玩法：对现有市场的重构要带「准备好的心智」(prepared mind)、有论点；对 Lyft、Poshmark、Airbnb 这类净新增市场要带「开放的心智」——当年「正常人不会载陌生人」「没人会买别人衣柜里的旧衣服」，结果 Poshmark 里 70% 的买家后来成了卖家，形成循环经济。
 
-核心逻辑就一句：「初创公司死于消化不良，不死于饥饿」 <button class="pd-ts" data-t="68:09" data-who="Unknown" data-en="That's the core competency is something else in life. Startups die of indigestion. They don't die of starvation." aria-label="回原文"></button>。
+他喜欢的信号恰恰是大家都说没市场：「大公司不会做，多数 VC 不会投，你反而有时间把产品磨对。」当年咨询公司告诉 AT&T 蜂窝电话卖不出 5000 部；2008 年人人说没人敢把数据放上云。
 
-## 早期投资的两种赌法
+## 智能体创业怎么打：碎片市场 + 按结果付费
 
-一种是"在现有市场里做得更快、更好、更便宜"，把现有的东西 10 倍化。另一种是"创造全新的市场"——Navin 投过 Lyft、Poshmark、Airbnb，每个在 inception 阶段都被说"没有市场" <button class="pd-ts" data-t="48:23" data-who="Unknown" data-en="So that's what I call blue ocean. Net new markets actually experiences a problem there because you will come up with hundreds of reasons why it won't work. Versus, I need to sell to a hyperscaler, man, I've never done it." aria-label="回原文"></button>。当年有咨询公司告诉 AT&T，蜂窝手机的市场只有 5000 部 <button class="pd-ts" data-t="51:18" data-who="Unknown" data-en="Consulting company told AT&amp;T, there's no market for wireless and cellular. Didn't they say they'd sell like 5 million mobile phones? No, not even that, 5,000." aria-label="回原文"></button>。
+对智能体层的创业公司(他投了约 20 家)，Navin 的打法建议很具体：做垂直、领域特定的问题，要有行业上下文和记忆，肯做无聊的多步工作流；GTM 上反直觉地选「碎片化的中小市场、小客单价」——因为模型公司会去抢年收入 500-1000 亿的大企业(百万美元订单对它们只是舍入误差)，小票市场它们根本看不上；商业模式上从订阅改为按结果付费：「客户不会为坐着不动付薪水，你做了事我才付钱。」这正是 SaaS 在位者的死穴：让一家百亿收入、可预测订阅的公司把商业模式改成按结果计费，等于自己砍自己的股价；而且 SaaS 做的智能体只能配自家软件，「世界需要选择」。
 
-两种赌法需要的心态完全不同。现有市场需要"准备好的心智"——你有论点、有判断框架。全新市场需要"开放的心智"——你会面临几百个"为什么行不通"的理由，但如果对了，回报是创造一个原本不存在的市场 <button class="pd-ts" data-t="49:11" data-who="Unknown" data-en="So there is no one answer that fits. So I always believe to be a good VC, depending upon the area, you need to have a prepared mind and at the same time an open mind for blue ocean opportunities." aria-label="回原文"></button>。
+市场有多大？全球白领工资支出约 30 万亿美元，企业软件只有 6000 亿(约 2%);如果到 2030 年 10% 的工作由 AI 完成，就是 3 万亿机会，20% 就是 6 万亿——企业软件市场的 10 倍。他还提醒：「初创公司死于消化不良，不是死于饥饿」——选一两件事打，别什么都做。
 
-风投的幂律决定了 10% 的公司创造所有回报。你不能害怕失败，30% 到 50% 的公司会死掉，这很正常。「如果你失败得不够多，你瞄准的是屋顶，不是月球」 <button class="pd-ts" data-t="52:16" data-who="Unknown" data-en="I believe if you don't take enough risk, there's no reward to create home runs. And as Einstein said, if you're not failing enough, And you're shooting for the roof, not the moon." aria-label="回原文"></button>。
+## 怎么看人：X 光，不是推荐信
+
+在纸笔阶段「没有指标」，Mayfield 做「人员 X 光」：花 5-10 小时不谈生意地相处，看真实性、穿透任何墙的饥饿感、「公司第一、团队第二、自己第三」(满口「我」的人直接出局)、成长型思维、内心的安全感。他 20 年投的 70 多家初创公司里，除两家主动换角色外，创始人都待到了退出——「我不换骑师，除非他自己想换 CEO」。这套理念来自他当板球队队长的经历：比赛进行中教练无法进场指导，队长必须冷静、以身作则、开放听取任何人想法——赢了归功团队，失败全归自己。
 
 ## 本集带走
 
-- **AI 投资的数学账要算清**：每年 2500-3000 亿美元涌入，10 年累计 2.5-3 万亿，需要对应的退出价值来消化。不是所有层级都配得上大额融资，半导体和模型层需要，但很多中间层是过度资本化
-- **inception 阶段只看人不看想法**：因为一半以上的成功公司最终做的不是最初的想法。看真实性、饥饿感、团队优先排序、成长心态
-- **智能体创业避开模型公司的射程**：去碎片化市场、用按结果付费的商业模式、做跨软件的开放平台。三条选一两个，别全做
-- **区分两种赌法用不同心态**：改造现有市场用"准备好的心智"（有论点），创造全新市场用"开放的心智"（容忍模糊）。当所有人说"没有市场"时反而要兴奋
-- **初创公司死于消化不良，不死于饥饿**：专注打一两个点，不要试图同时做所有事
+- **看栈层再谈融资规模**：模型公司烧钱买 GPU 讲得通；芯片公司流片 3-4 亿但不需要 10 亿；一年几千家新公司里只有 10-20 家配得上十亿轮，现在超配约 10 倍。
+- **判断 AI 进度看推理**：训练基建约第三四局，推理负载不到 10% 而市场是训练的 10 倍；最大风险是智能体采用率跟不上基建。
+- **早期选人优于选想法**：至少一半成功公司中途换过主意；看真实性、饥饿感、公司>团队>自己的排序、成长心态，靠长时间相处，不靠推荐信。
+- **蓝海信号=「大家都说没市场」**：Lyft、Poshmark、Airbnb 出现前都被断言不可能；没大公司抢、没 VC 投，反而有时间磨产品。
+- **智能体创业三板斧**：垂直深耕 + 碎片小票市场(大公司看不上)+ 按结果付费(订阅制 SaaS 无法自我革命)。
+- **别贪多**：初创公司死于消化不良而非饥饿；对每个在位者只攻一两件事——市场扩张和商业模式独特性。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec">全部金句 <span>12 条</span></div>
 
-> <span class="qz">但我认为错失恐惧是给绵羊准备的。</span>  
-> *But I think FOMO is for sheep.*  
-> <span class="qm">—— Navin Chaddha · [19:12]</span> ^q1
+> <span class="qz">仅今年就有五六家公司在基础设施上花费超过 5000 亿美元。</span>  
+> *Just five or six companies this year are spending over half a trillion dollars in infrastructure spend.*  
+> <span class="qm">—— Navin Chaddha · [00:33]</span> ^q1
 
-> <span class="qz">初创公司死于消化不良。它们不会死于饥饿。</span>  
-> *Startups die of indigestion. They don't die of starvation.*  
-> <span class="qm">—— Navin Chaddha · [68:09]</span> ^q2
+> <span class="qz">你必须看到世界没有看到的东西，下早期的赌注，然后在市场时机上运气好一点。</span>  
+> *You have to see something the world is not seeing, make early bets and then get lucky with market timing.*  
+> <span class="qm">—— Navin Chaddha · [06:09]</span> ^q2
 
 > <span class="qz">所以我想说在一年成立的 2000、3000 或 5000 家新公司中，也许 10、20 家配得上那些十亿美元的轮次，不是 100 家，也不是 200 家。</span>  
 > *So I would say out of 2, 3, 5,000 new companies getting formed a year, maybe 10, 20 deserve those billion-dollar rounds, not 100, not a 200.*  
 > <span class="qm">—— Navin Chaddha · [14:36]</span> ^q3
 
-> <span class="qz">AI 做这项工作，但只有你做了一些事我才会付钱给你。我不会付给你薪水。我不会付给你仅仅坐在那里的开销。如果你做了一些事，我会付钱给你。</span>  
-> *AI does the work, but I will only pay you if you do something. I won't pay you a salary. I won't pay you overheads for just sitting around. If you do something, I'll pay you.*  
-> <span class="qm">—— Navin Chaddha · [56:51]</span> ^q4
+> <span class="qz">但我认为错失恐惧是给绵羊准备的。</span>  
+> *But I think FOMO is for sheep.*  
+> <span class="qm">—— Navin Chaddha · [19:12]</span> ^q4
 
-> <span class="qz">如果 AI 的采用没有以建设训练基础设施的步伐发生，就会出现放缓，并且会出现巨大的市场修正，包括半导体和硬件，甚至模型，对吧？</span>  
-> *If AI adoption doesn't happen at the pace at which the training infrastructure was built, there'll be a slowdown and there'll be a huge market correction and in semiconductors and hardware and even in models, right?*  
-> <span class="qm">—— Navin Chaddha · [29:35]</span> ^q5
+> <span class="qz">这就是为什么如此多的 CapEx 正在投入，但推理工作负载还不到 10%。</span>  
+> *That's why so much CapEx is going, but inference workloads are less than 10%.*  
+> <span class="qm">—— Navin Chaddha · [28:58]</span> ^q5
 
-> <span class="qz">所以我认为风投主要是关于挑选和拥有第六感去想象某事可能变成什么，而不是今天。在一个 5 到 10 年的时期内。</span>  
-> *So I think venture is mostly about picking and having the sixth sense of imagining what could something become, not today. Over a five, 10 year period.*  
-> <span class="qm">—— Navin Chaddha · [50:32]</span> ^q6
+> <span class="qz">哦，当人们说半导体是一个糟糕的领域时，我很兴奋，开始投资。</span>  
+> *Oh, I get excited when people say semiconductors is a bad area, start investing.*  
+> <span class="qm">—— Navin Chaddha · [49:31]</span> ^q6
 
-> <span class="qz">如果我是一家 SaaS 公司，我创建一个智能体，伙计，那只能与我的软件一起工作。世界需要选择。</span>  
-> *If I'm a SaaS company, I create an agent, man that only works with my software. The world needs choice.*  
-> <span class="qm">—— Navin Chaddha · [65:25]</span> ^q7
+> <span class="qz">10% 的公司创造了所有的回报。</span>  
+> *10% of companies make all the returns.*  
+> <span class="qm">—— Navin Chaddha · [51:45]</span> ^q7
+
+> <span class="qz">我相信如果你不承担足够的风险，就没有回报去创造全垒打。</span>  
+> *I believe if you don't take enough risk, there's no reward to create home runs.*  
+> <span class="qm">—— Navin Chaddha · [52:09]</span> ^q8
+
+> <span class="qz">如果到 2030 年市场的 10% 由 AI 完成，那是一个 3 万亿美元的机会。</span>  
+> *So if 10% by 2030 of the market is being done by AI, it's a $3 trillion opportunity.*  
+> <span class="qm">—— Navin Chaddha · [59:11]</span> ^q9
+
+> <span class="qz">我认为将有 10 亿开发者。</span>  
+> *I think they're going to be a billion developers.*  
+> <span class="qm">—— Navin Chaddha · [60:06]</span> ^q10
+
+> <span class="qz">初创公司死于消化不良，它们不会死于饥饿。</span>  
+> *Startups die of indigestion. They don't die of starvation.*  
+> <span class="qm">—— Navin Chaddha · [68:09]</span> ^q11
+
+> <span class="qz">你的「反面组合」总是比你的投资组合更好。</span>  
+> *Your anti-portfolio is always better than your portfolio.*  
+> <span class="qm">—— Navin Chaddha · [69:54]</span> ^q12
 
 <div class="pd-sec">接着看</div>
 
@@ -124,7 +147,7 @@ jsonLd: |
 
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:GPU、推理 (inference)、智能体 (agent)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:GPU、推理 (inference)</span>
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层才是下一个金矿：模型不是商品]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

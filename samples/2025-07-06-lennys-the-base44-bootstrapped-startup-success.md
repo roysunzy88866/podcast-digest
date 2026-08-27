@@ -160,7 +160,7 @@ Wix 主动找来的，因为社区里很多人在喊「Wix 应该在它变大之
 **顺着「AI 编程」挖下去**
 
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:LLM、vibe coding</span>
-- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|Wes Bos 谈 AI 编程时代如何脱颖而出]]<span class="pd-rz">同概念:LLM、vibe coding</span>
+- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下]]<span class="pd-rz">同概念:LLM、vibe coding</span>
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同公司:Lovable · 同概念:vibe coding</span>
 
 </div>

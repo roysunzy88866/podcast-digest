@@ -1,5 +1,5 @@
 ---
-title: NETIC：让基础服务企业用AI自主运营
+title: "Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司"
 podcast: No Priors
 date: 2026-08-24
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "34:28"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re.jpg"
-description: NETIC 创始人 Melissa Tokmak 讲她如何用 AI 智能体替代传统客服调度，帮暖通空调、宠物护理等基础服务企业自主处理客户交互。
+description: Netic 创始人 Melissa Tokmak 讲她的公司如何用 AI 智能体承接暖通空调、宠物护理等基础服务企业与客户之间的全部运营，并解释为什么大实验室和机器人都不是威胁。
 host: "[[Melisa Tokmak]]"
 companies: ["[[NETIC]]"]
 concepts: ["[[智能体]]", "[[基础服务]]", "[[私募股权]]", "[[自主企业]]", "[[AI 整合公司]]", "[[主观能动性]]"]
@@ -17,18 +17,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#post","headline":"NETIC：让基础服务企业用AI自主运营","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re","description":"NETIC 创始人 Melissa Tokmak 讲她如何用 AI 智能体替代传统客服调度，帮暖通空调、宠物护理等基础服务企业自主处理客户交互。","datePublished":"2026-08-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re.jpg","about":[{"@type":"Person","name":"Melisa Tokmak"},{"@type":"Organization","name":"NETIC"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"基础服务 (essential services)"},{"@type":"Thing","name":"私募股权 (private equity)"},{"@type":"Thing","name":"自主企业 (autonomous enterprise)"},{"@type":"Thing","name":"AI 整合公司 (roll-ups)"},{"@type":"Thing","name":"主观能动性 (agency)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"NETIC：让基础服务企业用AI自主运营","item":"https://talk.solomind.cc/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#post","headline":"Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re","description":"Netic 创始人 Melissa Tokmak 讲她的公司如何用 AI 智能体承接暖通空调、宠物护理等基础服务企业与客户之间的全部运营，并解释为什么大实验室和机器人都不是威胁。","datePublished":"2026-08-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re.jpg","about":[{"@type":"Person","name":"Melisa Tokmak"},{"@type":"Organization","name":"NETIC"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"基础服务 (essential services)"},{"@type":"Thing","name":"私募股权 (private equity)"},{"@type":"Thing","name":"自主企业 (autonomous enterprise)"},{"@type":"Thing","name":"AI 整合公司 (roll-ups)"},{"@type":"Thing","name":"主观能动性 (agency)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司","item":"https://talk.solomind.cc/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NETIC：让基础服务企业用AI自主运营</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# NETIC：让基础服务企业用AI自主运营
+# Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司
 
 <div class="pd-byl"><b>Melisa Tokmak</b> · NETIC 创始人 · 2026-08-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-31-nopriors-building-an-autonomous-enterprise-for-re.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我确实对这个问题有点想笑，因为我认为 10 年前，那个一模一样的问题是，Google 能做这个吗？而现在变成了，实验室能做这个吗？</div><div class="a">— Melisa Tokmak <button class="pd-ts" data-t="13:28" data-who="Melisa Tokmak" data-en="I do chuckle at the question a little bit, though, because I think 10 years ago, that same exact question was, can Google do this? And then now it became, can labs do this?" aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">但今天，实际上，超过 70% 的客户是 AI first。</div><div class="a">— Melisa Tokmak <button class="pd-ts" data-t="06:13" data-who="Melisa Tokmak" data-en="But today, actually, over 70% of our customers are AI first." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Melisa Tokmak]]
@@ -37,123 +37,104 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[基础服务]] · [[私募股权]] · [[自主企业]] · [[AI 整合公司]] · [[主观能动性]]
 
-零下 20 度暖气坏了，你打电话给维修公司——接电话的不是人，是 AI [[智能体|智能体]]。它问你家什么户型、有没有历史记录、该派哪个技师、今天还是明天去。这不是演示，是 [[NETIC|NETIC]] 现在为收入十亿美元级别的[[基础服务|基础服务]]企业跑着的真实流程 <button class="pd-ts" data-t="02:09" data-who="Melissa Tokmak" data-en="So basically, say a customer calls an HVAC provider, what happens or what is NEDIC doing for them? Yeah, so imagine that you are in the middle of nowhere, it's minus 20 degrees and your heat stops working." aria-label="回原文"></button>。
+这一集是 Netic 的创始人兼 CEO Melissa Tokmak 与投资人对谈。Netic 是一家成立两年的公司，做的是“[[基础服务|基础服务]]”行业的 AI——暖通空调(HVAC,即暖气、通风与空调)、管道、电气、健身会所、宠物服务这些“维持世界运转”的生意。
 
-NETIC 做的事，是插在企业跟客户之间，把"理解需求→匹配运营规则→派工部署"这一整条链路全部用 AI 接管。客户可以打电话、发短信、上网站预约，前端全是 NETIC 的智能体在对话 <button class="pd-ts" data-t="02:39" data-who="Melissa Tokmak" data-en="From there, once you find a business, and usually you can find these from aggregators or by search engines or in now LLMs, and you can reach out to the company from any medium you want." aria-label="回原文"></button>。
+Melissa 此前在 Scale.ai 做了四年工程总监，建过政府、物流、制造、医疗等业务线。Netic 的定位是站在企业和它的客户之间：接电话、发短信、网站预约，全都是 AI [[智能体|智能体]]在应对。最值得注意的一个数字是：如今超过 70% 的客户是“AI first”——客户与公司的第一次接触，就是和 Netic 的智能体对话 <button class="pd-ts" data-t="06:13" data-who="" data-en="Yeah, that is many customers how they started. But today, actually, over 70% of our customers are AI first. We call it netic first." aria-label="回原文"></button>。
 
-听起来简单，但这些行业的运营需求极其复杂——不是"某人暖气坏了派个人去"就完了。要判断客户终身价值来决定派什么级别的技师、锅炉还是新风系统该派谁、今天能不能排上、怎么在满足客户的同时把公司收入最大化 <button class="pd-ts" data-t="03:00" data-who="Melissa Tokmak" data-en="And then the reasoning around, hey, this person needs some help and we should deploy somebody out to fix their HPE system. Exactly. And it's actually a lot of the businesses we work with, this is why we started with essential services, the operational needs are very complex." aria-label="回原文"></button>。
+## 这门生意的实质：调度比看起来难得多
 
-## 这些企业之前的痛点
+Melissa 用一个场景说明为什么这事不简单：零下 20 度，暖气坏了，客户打电话进来。AI 要理解的不只是“暖气坏了”——你住什么房子、装的是什么机组？
 
-基础服务（暖通空调、管道、电气、宠物护理、酒店、汽车）有一个共同特征：高度周期性。夏天热浪一来，客户从早上 6 点开始涌入；冬天同理。
+要不要今天上门？你这个客户的终身价值是多少，值不值得把只会修锅炉的最好技师现在就派出去？
 
-而这些公司的调度团队本身就不稳定——一个经理早上到公司，可能当天就有三个人辞职、五个人没来上班 <button class="pd-ts" data-t="05:11" data-who="Melissa Tokmak" data-en="The teams that support these workflows in the companies are unreliable as well. Let's look at a day in a life with this company that makes a billion dollar revenue." aria-label="回原文"></button>。之前全靠成百上千的人堆出来撑住这些时段，但这类企业很多是 EBITDA 业务、被[[私募股权|私募股权]]持有，利润率盯得很紧，最贵的劳动力应该花在上门干活的技师身上，而不是坐在办公室接电话的人 <button class="pd-ts" data-t="04:22" data-who="Melissa Tokmak" data-en="These companies are extremely large and if anything, actually, they can't grow because they have to keep investing in people to think of any kind of growth. And for them, they're EBITDA businesses." aria-label="回原文"></button>。
+这些决策原来靠公司里成百上千的坐席人员，而这些人是不可靠的：业务凌晨 4、5 点就开始，热浪一来电话从早上 6 点 piled in,那天还可能有三个员工辞职、五个没来。这些企业很多是收入十亿美元级别的，但被[[私募股权|私募股权]]持有、按 EBITDA(息税折旧前利润，衡量实际赚钱能力的指标)考核，必须把每一分钱投到交付服务的蓝领劳动力上，而不是内勤。
 
-NETIC 最初很多客户是用智能体做"溢出承接"——电话打爆了 AI 来接。但现在超过 70% 的客户是"NETIC first"模式：所有客户跟公司的第一次接触，直接就是 AI <button class="pd-ts" data-t="06:13" data-who="Melissa Tokmak" data-en="Yeah, that is many customers how they started. But today, actually, over 70% of our customers are AI first. We call it netic first." aria-label="回原文"></button>。
+## 为什么不自己买公司做 roll-up:三个理由
 
-## 为什么不做整合，选择做平台
+主持人问她：为什么不学 LongLake 那样买一堆公司再用 AI 优化？她的回答有三层。
 
-主持人提到一个自然的路径问题：这些企业很多被私募股权持有，为什么不直接做个 [[AI 整合公司|AI 整合公司]]（roll-up），买下一堆企业然后用 AI 优化？Melissa 给了三个理由 <button class="pd-ts" data-t="06:55" data-who="Melissa Tokmak" data-en="How did you make the decision to build this service versus just doing a roll-up or buying and running the assets or the trade-offs in terms of those approaches?" aria-label="回原文"></button>。
+第一是想要什么：她要建一个“可以扩展和复利”的产品，而 Scale 那种为 AI 建基础设施的生意运营极重、缺少产品锋利感。第二是技能：roll-up 的核心是并购(M&A),“我不是并购的人，我是工程师、是产品人”，不想做一个自己最擅长的东西反而不重要的生意。第三是规模：roll-up 里做的产品只服务你刚买下的那几家公司，没法泛化；她想问的是“每个现实世界企业怎么都能跑在 Netic 上”，让企业只专注自己擅长的劳动力和服务质量。
 
-第一，她想做的规模不同——不是为买下的几家公司服务，而是让每个现实世界业务都能跑在 NETIC 上，企业只需要专注劳动力和服务质量本身 <button class="pd-ts" data-t="10:22" data-who="Melissa Tokmak" data-en="So you are committing to buying these a few companies in whatever industries that you are interested in and serving those with your products. Versus what I'm interested in is how every real world business can run on NETIC, right?" aria-label="回原文"></button>。第二，她自认是工程师和产品人，不是做 M&A 的人，不想建一个自己核心能力不是最重要因素的公司 <button class="pd-ts" data-t="09:39" data-who="Melissa Tokmak" data-en="So I knew I wanted to build a product that can scale and compound. And two, personal skillset. I think in a lot of those roll-ups, the main important thing is the M&amp;A itself." aria-label="回原文"></button>。第三，整合公司做出来的产品通常只能用在买下的那几家公司身上，无法横向复用 <button class="pd-ts" data-t="10:01" data-who="Melissa Tokmak" data-en="And I think third is the scale of the product, too. What I have seen, there's a lot of successful roll-ups and tech-enabled roll-ups, but at the end, all the products you're building are for the company you just bought." aria-label="回原文"></button>。
+她自己的背景也解释了这份执念：在土耳其小镇一无所有地长大，拿斯坦福全额奖学金来美国之前连电脑都没摸过，家乡的人全在这些行业里干活。“我们都在谈科技、谈影响力，但大多数公司只服务其他初创公司”——为现实世界造东西，是她离开 Scale 的原因之一。另一个技术上的驱动：AI 已经很擅长当消费者的副驾驶，但“下一个最大的未解问题是，如何在关键任务工作流里用 AI”——做真正自主执行的系统。
 
-## 跟机器人是同一本书的不同章节
+## 机器人很远，大实验室也不是竞争对手
 
-有人会把"现实世界 AI"跟机器人、自动驾驶放在一起问会不会融合。Melissa 的判断是：长期看是的，但不是同一章——机器人离这些行业的实际应用还相当远 <button class="pd-ts" data-t="11:02" data-who="Melissa Tokmak" data-en="Do you think the timeline on that is very far in the future and doesn't kind of matter in terms of these other types of things? Yeah, it's almost you're looking at the same book, maybe, but different chapters." aria-label="回原文"></button>。
+有人把“现实世界的 AI”归成几件事：她做的服务自动化、机器人、自动驾驶。她的比喻是“同一本书的不同章节”：机器人的章节存在，但在她这些行业里还相当遥远。
 
-原因很直白：去每栋楼里修东西，房屋不是 3D 打印的、不是标准化的，机器人连不同类型的螺丝都还处理不好，更别说钻进狭小空间、打开墙面找问题 <button class="pd-ts" data-t="11:45" data-who="Melissa Tokmak" data-en="And if you look around, if we look outside of a window, look at every single building. If robotics is going to do what we're doing with these companies today, every single of those buildings need to be either 3D printed or completely standardized." aria-label="回原文"></button>。而且这些场景里有很多"人"的因素——客户可能正经历生活中最糟糕的一天（房子被淹了），人为因素短期内无法被替代 <button class="pd-ts" data-t="12:28" data-who="Melissa Tokmak" data-en="And on top of that, there is... In these industries, there's a lot of the human element too, because when a lot of people are dealing with these industries, it is worst day of their lives, right?" aria-label="回原文"></button>。
+理由很具体：让工程师去客户现场是公司硬性要求，看看窗外——每一栋楼都不一样，如果机器人要干这些活，“每一栋楼都得是 3D 打印的或完全标准化的”；今天的机器人在灵巧度上连处理不同类型的螺丝都差得远，更别说打开整面墙才知道要修什么。而且这些场景里有强烈的人的元素——客户找上门时往往是“人生中最糟的一天”，房子被淹了，或者只想减压去打场球。
 
-## 大实验室做不了这个
+至于“OpenAI、Anthropic 能不能做这个”，她笑着指出这个问题 10 年前的版本是“Google 能不能做这个”。有些核心能力大实验室当然有，但两点决定了它们不是竞争风险：一是专注——OpenAI 出好产品很快，“杀掉产品也很快”，而这些行业的企业要的不是那种快；二是最后一公里：面对全国数百万口音、诉求、联系渠道各异的客户，还要把他们变成回头客，靠的不只是模型，“必须来自你的工具链和编排、你在上层构建的软件和产品”——所以 Netic 这类公司必须在模型、编排、产品三个层面都擅长。把“等 AGI 到了再解决基础服务”当答案，在她看来“在操作上和智力上都是一种懒惰的思维”。
 
-"OpenAI 或 Anthropic 能做这个吗？"——Melissa 觉得这个问题跟十年前"Google 能做这个吗"一样 <button class="pd-ts" data-t="13:13" data-who="Melissa Tokmak" data-en="Different way of asking that, maybe, can labs do this? I think that's a fair question because there's a lot of startups in today's world that build things functionally and visually very similar to the labs." aria-label="回原文"></button>。她不认为大实验室是竞争风险，给了两个理由。
+## 这些行业不“老派”，私募股权的剧本正在改写
 
-一是专注度。OpenAI 构建产品极快，但也极快地杀掉产品，企业客户不想要这种节奏。
+一个流行误解是这些行业采用技术慢。她的观察相反：她见过最技术前瞻、最生意导向的主人恰恰在这些行业里——他们只是极其看重价值验证。
 
-Anthropic 在编码智能体上因专注而领先，但在企业场景里你看到的是大约 20 个产品，方向并不清晰 <button class="pd-ts" data-t="14:09" data-who="Melissa Tokmak" data-en="And I will say, you know, It would be a funny question to these enterprises, right? OpenAI builds amazing products really fast, but also it kills them really fast." aria-label="回原文"></button>。二是研究方法论。实验室追求最通用的解法——对这类问题的回答会是"等我们拿到 AGI 再说"，她认为这在操作和智力上都是懒惰的 <button class="pd-ts" data-t="14:50" data-who="Melissa Tokmak" data-en="And a meta-focused question maybe about the labs and specifically researchers, they really care about solving the most generalizable way of the problem, right? So in this case, maybe looking at the problem we're solving, the answer would be, well, when we get the AGI, we'll ask how to solve it for essential services." aria-label="回原文"></button>。
+一个例子：一份 50 万美元的合同，从接触到签下从头到尾只用了 14 天。这些行业“既非常原始又技术前瞻”：大型屋顶公司还靠“敲门人”挨家挨户跑，但 Netic 会把卫星数据接进来——飓风如何影响不同社区的不同屋顶、不同材料该怎么处理——自动喂给智能体的上下文，既接好入站电话，也能判断该去追哪个 neighborhoods(社区)。私募股权那头，一个持有 20-30 家企业的基金，如果这些企业都在 Netic 上，跨行业上下文就能玩出新花样：知道你养狗，推健身会员时就该挑带宠物护理的那家。
 
-更重要的是"最后一公里"不来自模型本身：数百万客户有不同口音、不同担忧、不同的联系方式，要让他们成为回头客，靠的是在模型之上搭建的工具、编排和产品 <button class="pd-ts" data-t="15:03" data-who="Melissa Tokmak" data-en="And I think that is both operationally and intellectually a bit lazy thinking. And finally, to solve these type of extremely difficult problems with millions in the country that have completely different worries, different accents, how do they want to engage, different contacts, and also even engage them again to make them multi-time customers, there's quite a bit of last mile that you really have to do." aria-label="回原文"></button>。
+不过她坦承，私募股权的第一轮对话永远聚焦降本，因为她这类平台还太少，而她要扭转的是这个框架：“我不是来削减你的成本的……
 
-## 创始人心态：不是 18 个月退出游戏
+我真正感兴趣的是你将如何获得全新的收入” <button class="pd-ts" data-t="30:45" data-who="" data-en="I will say, though, it's still they are always the first conversations very focused on cost cutting because I think they don't see a lot of products or platforms like ours." aria-label="回原文"></button>。“如果只把 AI 用于削减成本，那将非常令人难过。
 
-Melissa 认为现在很多创始人太担心大实验室的路线图，不敢进新垂直领域。她把这归因于一种"短期退出心态"——很多人建公司想的是 18 个月内能不能卖掉 <button class="pd-ts" data-t="16:06" data-who="Melissa Tokmak" data-en="And so I think that's a little bit surprising. Yeah, I do think that's because there's a lot of building going on currently that's focused on how can I exit immediately." aria-label="回原文"></button>。她认为当创始人本来是更长期、更光荣的承诺，不是可以轻率对待的事 <button class="pd-ts" data-t="16:20" data-who="Melissa Tokmak" data-en="Instead of, I think being a founder, I actually think it was a more honorable thing before. Like you knew you're dedicating your life to it." aria-label="回原文"></button>。
+”她的北极星数字：Netic 至今已为客户创造了超过 6 亿美元、真正由 AI 处理的互动产生的收入——销售时也不做演示，直接拉出一个真实客户的实时部署给他看。私募股权的旧剧本是“找到未被发现的宝石、换团队、创造价值、再卖掉”，但这样的宝石已经不存在了，新剧本是如何与手里这些企业创造有形价值。
 
-她特别批评了 Z 世代里一种"永久底层阶级心态"：如果 18 个月没赚到钱、6 个月没学到所有东西，就觉得自己永远穷了。这是一种"AGI 化"的世界观——觉得 AI 马上会吞噬人的价值。她认为这很危险，因为真正好的东西需要很长时间来建 <button class="pd-ts" data-t="17:19" data-who="Melissa Tokmak" data-en="Have the agency to start things, urgency to solve problems, but at the same time to really rigor and patience to carry it forward, right? I see, especially Gen Z in these days when I'm, you know, looking at hiring, obsessed with this permanent underclass mentality." aria-label="回原文"></button>。
+## 招人：不看一时的 agency,看一辈子的 agency
 
-她引用了一句归在马丁·路德名下的话：基督徒鞋匠不是通过在鞋上放小十字架来荣耀上帝，而是通过造最好的鞋——因为上帝关心的是工艺 <button class="pd-ts" data-t="18:30" data-who="Melissa Tokmak" data-en="And there's a, recently I was reading this, you know, quote attributed to Martin Luther, actually. It says, you know, the Christian shoemaker, you know, doesn't honor God by putting little crosses on the shoes." aria-label="回原文"></button>。对她来说，做创始人就是造最好的产品来解决你关心的人的问题，用更少资源、更聚焦、一小群人征服世界 <button class="pd-ts" data-t="18:45" data-who="Melissa Tokmak" data-en="The best shoes, because God cares about craftsmanship. And I think I really resonate with that when you think about, as a founder, what are you building? Why are you doing this?" aria-label="回原文"></button>。
+她的招聘哲学与当下风气对着干。她看到很多创始人“太担心实验室在做什么”，不敢进新垂直；她把这归因于“现在大量的建设着眼于我如何能立即退出”——而做创始人本该是“奉献几十年人生”的事。
 
-## 怎么筛"有主观能动性"的人
+她尤其警惕一种她称为“永久底层心态”的求职者(她点名 Z 世代):“如果 18 个月内赚不到钱、6 个月内学不完世界上所有的东西，我就永远贫穷了”——这是一种“AGI 化”的世界观，认为 AI 很快会吞噬所有人、你的价值在贬值。她的反驳：构建真正好的东西需要很长时间，她自己最重要的教训就来自在 Scale 四年里“投入并带着所有问题坚持到底”。
 
-她招人最看重的特质是 agency（[[主观能动性|主观能动性]]，指主动发起行动、掌控局面的能力），但筛的不是"现在有没有"，而是"有生以来是否持续展现" <button class="pd-ts" data-t="19:18" data-who="Melissa Tokmak" data-en="Is it something else? I think agency, what I look for is not agency now. If you have agency, you care about agency, you have shown agency continuously in your life." aria-label="回原文"></button>。应届生不一定有工作经历，但大学里做过什么、为了进大学做过什么、有没有坚持下来的项目，都是考察点 <button class="pd-ts" data-t="19:33" data-who="Melissa Tokmak" data-en="How was it? If you're a new grad, you don't have to have a job. Did you do something in college?" aria-label="回原文"></button>。
+筛“[[主观能动性|主观能动性]]”不看一时一事，而是深挖整个人生：应届生有没有在大学里做过真正在乎、并且坚持下来的项目(“不是做了一个周末”)?她常问的一个问题是“你这辈子做过的最难的事是什么”，然后往任何方向深挖。
 
-她最爱问的问题是："你人生中做过的最难的事是什么？"不是找工作相关的答案，可以是任何事。
-
-关键不是事情本身多宏大，而是：当事情变难的时候，你坚持了吗？你把你可控的部分握在手里、改变了未来吗？ <button class="pd-ts" data-t="19:58" data-who="Melissa Tokmak" data-en="And I think I do ask, many times it's just one question I'd like to know about what people do, what has been the hardest thing they have ever done in life. And they can take it anywhere, but it's not just one question, but we'll really dig in to understand the why." aria-label="回原文"></button>
-
-她举了个刚招的人的例子：那人说他生活很简单，但对健康有极其严格的作息规律，坚持了超过 15 年，每天固定时间起床、每隔一小时做固定的事、晚上为同事出现，从没厌倦过。她觉得这是非常有创意的好答案 <button class="pd-ts" data-t="21:17" data-who="Melissa Tokmak" data-en="And sometimes it's about, you know, it also doesn't have to be this grandiose thing. I'll give you an example of someone we just hired. Actually, he's starting next week." aria-label="回原文"></button>。
-
-## 卖给"老派行业"其实不慢
-
-外界觉得暖通空调、屋顶维修这些行业技术落后，Melissa 认为这是巨大误解。她见过一些最技术前瞻、最以业务为导向的创始人就在这些行业里 <button class="pd-ts" data-t="24:15" data-who="Melissa Tokmak" data-en="Like, how do you think about your customer base in terms of just like the rate at which they'll adopt new things or try new things? I think it's a big misconception to think about these industries as old school." aria-label="回原文"></button>。他们非常注重价值：一笔合同可能五十万美元，决策周期 14 天，不是因为犹豫，是因为在认真验证价值 <button class="pd-ts" data-t="24:38" data-who="Melissa Tokmak" data-en="Right. For example, to give you a sense, you know, like just one of the businesses we close, it can be like a half a million contract. And it took from end to end 14 days." aria-label="回原文"></button>。
-
-她举了屋顶公司的例子：这类公司本来就有"敲门人"挨家挨户跑业务，NETIC 把卫星数据接入平台，让智能体知道飓风怎么影响不同社区、该用什么材料，既能在客户对话中更懂行，也能主动发现该去追哪些客户 <button class="pd-ts" data-t="25:17" data-who="Melissa Tokmak" data-en="So if you think about a large roofing company, right, is actually they have to have door knockers. So door knockers mean, you know, going neighborhood to neighborhood, thinking about the friend." aria-label="回原文"></button>。
-
-如果同一个私募股权旗下有 20 到 30 家这类企业在 NETIC 上，还能跨行业联动——比如知道某个客户有狗，推健康会员时就推带宠物护理的那家 <button class="pd-ts" data-t="26:52" data-who="Melissa Tokmak" data-en="And then we talked a little bit about roll-ups and being private equity owned. Now imagine being a private equity and you own maybe 20, 30 of these businesses in different industries." aria-label="回原文"></button>。
-
-## 私募股权的 AI 剧本在变
-
-她观察到私募股权的玩法已经变了。以前是找"未被发现的宝石"——低倍数买进来、换团队、创造价值、再卖掉。但那种宝石已经不存在了，新剧本变成了"怎么跟我们手里的企业创造有形价值" <button class="pd-ts" data-t="27:49" data-who="Melissa Tokmak" data-en="What's your perception of like how private equity is interacting with AI? I think already the private equity playbook has changed. Before it used to be, right, we're going to find a gem and that has an amazing multiple and we are going to go change the team and create the value and then sell it again." aria-label="回原文"></button>。
-
-不过她指出一个问题：PE 的第一反应还是削减成本。她得主动把对话拉到"全新收入"上——不是演示，而是直接拉出现有客户的真实数据看 AI 交互产生了多少收入。
-
-NETIC 到目前为止帮客户产生的、真正由 AI 处理的互动收入已超过 6 亿美元 <button class="pd-ts" data-t="29:15" data-who="Melissa Tokmak" data-en="And in our job, you know, I always see in the company too, something is not hard. Is that like, what can we do better? So in a lot of these conversations, the conversation is all about the value they're going to get and what they can see tangibly now." aria-label="回原文"></button>。她说如果 AI 只被用来削减成本，那挺让人难过的 <button class="pd-ts" data-t="31:09" data-who="Melissa Tokmak" data-en="But they have to almost expand their horizon on thinking about what else is possible with AI, right? It would be pretty sad if we used AI only for cost-cutting. Yeah, yeah, sure." aria-label="回原文"></button>。
-
-> 【背景】NoPriors 是 a16z 合伙人 Sarah Guo 和 Elad Gil 联合主持的 AI 播客；转写稿中未出现主持人姓名，仅在结尾提到 Twitter 账号 @NoPriorsPod。
+一个刚入职、下周报到的工程师给出了她听过最有创意的答案：我生活很简单，最在乎工作和健康；最难的事是 15 年来每天雷打不动地执行同一套健康作息、为同事出现，从不厌倦、从不想别的。她引了一句归于马丁·路德的话作结：基督徒鞋匠荣耀上帝的方式不是在鞋上画十字架，而是做最好的鞋——“因为上帝关心手艺”。创始人也一样——建最好的产品，解决你在乎的人的问题；“用更少的资源、更多的专注、一小群聚在一起要拿下整个世界的人，你反而能成就更多”。
 
 ## 本集带走
-- **基础服务的 AI 不是聊天机器人，是运营链路**：理解需求、匹配规则、派工排期、优化收入，整条链都能用智能体接，但复杂度远超"接个电话"。
-- **周期性+人力不稳定是这些企业的核心痛点**：热浪或寒潮一来客户暴增，调度团队本身还在流失人，AI 溢出承接只是起点，全量接管第一次接触才是现在的主模式。
-- **大实验室的劣势在专注度和最后一公里**：实验室追求通用解法、产品节奏快且不稳定；现实行业需要的是长期陪伴、针对具体场景的工具编排和产品打磨。
-- **筛人看"有生以来是否持续展现主观能动性"**：不是问一个项目经历，而是深挖人生中做过的最难的事——关键在"变难的时候你坚持了吗"，不在于事情多宏大。
-- **跟"老派行业"做生意不慢，他们只是认真验值**：五十万美元级别的合同 14 天能关，前提是你能展示真实运行数据而不是 demo。
-- **对 PE 要主动把话题从"降本"拉到"增收"**：PE 的本能反应还是砍成本，得用真实客户收入数据证明 AI 能带来全新收入。
+
+- **“AI first”已经是主流形态**：Netic 超 70% 的客户，其终端客户的第一次互动就交给 AI 智能体，不只是做人工坐席的溢出兜底。
+- **垂直 AI 的护城河在模型之外**：面对百万级异质客户的“最后一公里”，靠 harnesses(工具链)、编排和上层产品，不是等更强的模型或 AGI。
+- **别把行业当“老派”**：基础服务企业极其看重价值验证而非抵触技术——50 万美元合同 14 天签下，靠的是展示真实部署而非 demo。
+- **和私募股权谈增量，不只谈降本**：她的开场是把 6 亿美元 AI 产生收入的真实数据摆上桌，把对话从“砍成本”扭到“净新增收入”。
+- **筛主观能动性问一生，不问一事**：“你这辈子做过的最难的事是什么”+ 追问为什么；要的是持续多年的投入，不是周末项目。
+- **警惕“18 个月赚不到钱就完了”的心态**：好东西需要很长时间，专注和小团队比追逐风口走得更远。
+
+> 【背景】本集为 No Priors 播客节目，转写稿中公司名出现 Netic/Netick/NetEgg 等多种写法，统一指同一家公司 Netic;与 Melissa 对谈的主持人未在稿中具名，是一名早期投资人。
 
 <div class="pd-sec">全部金句 <span>9 条</span></div>
 
-> <span class="qz">我确实对这个问题有点想笑，因为我认为 10 年前，那个一模一样的问题是，Google 能做这个吗？而现在变成了，实验室能做这个吗？</span>  
-> *I do chuckle at the question a little bit, though, because I think 10 years ago, that same exact question was, can Google do this? And then now it became, can labs do this?*  
-> <span class="qm">—— Melisa Tokmak · [13:28]</span> ^q1
+> <span class="qz">但今天，实际上，超过 70% 的客户是 AI first。</span>  
+> *But today, actually, over 70% of our customers are AI first.*  
+> <span class="qm">—— Melisa Tokmak · [06:13]</span> ^q1
 
-> <span class="qz">OpenAI 真的很快构建出令人惊叹的产品，但它也真的很快杀死它们。</span>  
+> <span class="qz">如果机器人要做我们今天与这些公司正在做的事情，那么每一栋建筑都需要是 3D 打印的或者是完全标准化的。</span>  
+> *If robotics is going to do what we're doing with these companies today, every single of those buildings need to be either 3D printed or completely standardized.*  
+> <span class="qm">—— Melisa Tokmak · [11:45]</span> ^q2
+
+> <span class="qz">我确实对这个问题有点想笑，因为我认为 10 年前，那个一模一样的问题就是，Google 能做这个吗？</span>  
+> *I do chuckle at the question a little bit, though, because I think 10 years ago, that same exact question was, can Google do this?*  
+> <span class="qm">—— Melisa Tokmak · [13:28]</span> ^q3
+
+> <span class="qz">OpenAI 很快就能构建出令人惊叹的产品，但它也很快就把它们杀掉。</span>  
 > *OpenAI builds amazing products really fast, but also it kills them really fast.*  
-> <span class="qm">—— Melisa Tokmak · [14:11]</span> ^q2
+> <span class="qm">—— Melisa Tokmak · [14:11]</span> ^q4
 
-> <span class="qz">我认为这在操作上和智力上都是一种有点懒惰的思维。</span>  
-> *And I think that is both operationally and intellectually a bit lazy thinking.*  
-> <span class="qm">—— Melisa Tokmak · [14:58]</span> ^q3
+> <span class="qz">如果有什么的话，你实际上用更少的资源、更多的专注，以及聚集在一起要拿下整个世界的一小群人，反而能成就更多。</span>  
+> *If anything, you actually achieve more with less, with more focus, and with a small group of people that came together to take down the whole world.*  
+> <span class="qm">—— Melisa Tokmak · [18:58]</span> ^q5
 
-> <span class="qz">这不仅仅来自模型。这必须来自于你的工具和编排,以及你必须在顶层构建的软件和产品。</span>  
-> *That doesn't only come from models. That has to come from your harnesses and orchestration, the software and the product that you have to build on top.*  
-> <span class="qm">—— Melisa Tokmak · [15:22]</span> ^q4
+> <span class="qz">我认为把这些行业当成老派是一个巨大的误解。</span>  
+> *I think it's a big misconception to think about these industries as old school.*  
+> <span class="qm">—— Melisa Tokmak · [24:15]</span> ^q6
 
-> <span class="qz">我看到,特别是现在的 Z 世代,当我在,你知道,看招聘时,沉迷于这种永久底层阶级的心态。</span>  
-> *I see, especially Gen Z in these days when I'm, you know, looking at hiring, obsessed with this permanent underclass mentality.*  
-> <span class="qm">—— Melisa Tokmak · [17:19]</span> ^q5
-
-> <span class="qz">我认为私募股权的剧本已经改变了。在这之前，对吧，我们要找到一颗宝石，它有惊人的倍数，然后我们要去更换团队并创造价值，然后再把它卖掉。但那些宝石实际上不再存在了，比如未被发现的。</span>  
-> *I think already the private equity playbook has changed. Before it used to be, right, we're going to find a gem and that has an amazing multiple and we are going to go change the team and create the value and then sell it again. But those gems don't really exist anymore, like undiscovered.*  
-> <span class="qm">—— Melisa Tokmak · [27:49]</span> ^q6
-
-> <span class="qz">我们到目前为止已经为我们的客户创造了超过 6 亿美元，我认为这是真正由 AI 处理的互动产生的。</span>  
+> <span class="qz">我们到目前为止已经为我们的客户创造了超过 6 亿美元，这真正是由 AI 处理的互动产生的。</span>  
 > *We have made so far, I think, over $600 million for our customers that have been really generated from AI-handled interactions.*  
 > <span class="qm">—— Melisa Tokmak · [29:39]</span> ^q7
 
-> <span class="qz">如果我们仅将 AI 用于削减成本，那将非常令人难过。</span>  
-> *It would be pretty sad if we used AI only for cost-cutting.*  
-> <span class="qm">—— Melisa Tokmak · [31:09]</span> ^q8
+> <span class="qz">我并不是真的来削减你的成本的。当然，这正在以这种方式发生，但我真正感兴趣的是你将如何获得全新的收入。</span>  
+> *I'm not really there to cut your costs. Sure, that is happening in this way, but I'm really interested in this is how you're going to make net new revenue.*  
+> <span class="qm">—— Melisa Tokmak · [30:45]</span> ^q8
 
-> <span class="qz">我们让做出那个选择变得越来越容易,越来越容易,但我向你保证,世界上的大多数人仍然不会做出那个选择。</span>  
-> *We keep making it easy and easier, easier and easier to make that choice, but still, I guarantee you, majority of the world will not be making that choice.*  
-> <span class="qm">—— Melisa Tokmak · [32:48]</span> ^q9
+> <span class="qz">如果我们只把 AI 用于削减成本，那将非常令人难过。</span>  
+> *It would be pretty sad if we used AI only for cost-cutting.*  
+> <span class="qm">—— Melisa Tokmak · [31:09]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 

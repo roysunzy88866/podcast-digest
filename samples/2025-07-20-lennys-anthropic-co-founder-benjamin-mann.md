@@ -185,7 +185,7 @@ Ben 的思路是向人类组织学习：公司就是最大规模的人类智能�
 
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、超级智能 (superintelligence)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|智能体需要HR部门：TrustWise的运行时控制塔]]<span class="pd-rz">同公司:Anthropic · 同概念:对齐 (alignment)、智能体 (agent)、Claude</span>
+- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理]]<span class="pd-rz">同公司:Anthropic · 同概念:对齐 (alignment)、智能体 (agent)、Claude</span>
 
 </div>
 <div class="pd-ex">

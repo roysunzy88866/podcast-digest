@@ -217,7 +217,7 @@ Flo 的回应：这就像知识产权和专利——如果你允许无成本复�
 
 **换个口味**
 
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、vibe coding、可观测性 (observability)</span>
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、vibe coding、可观测性 (observability)</span>
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、护栏 (guardrails)</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)</span>
 

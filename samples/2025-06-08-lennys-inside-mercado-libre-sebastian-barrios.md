@@ -136,7 +136,7 @@ Sebastian 不跟风，但也不是直接忽略。他 2010 年左右就买过甚�
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:智能体 (agents)、主观能动性 (agency)</span>
 - [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同概念:智能体 (agents)</span>
-- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|一家百亿对冲基金如何全员强推 AI]]<span class="pd-rz">同概念:智能体 (agents)</span>
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”]]<span class="pd-rz">同概念:智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">
@@ -144,7 +144,7 @@ Sebastian 不跟风，但也不是直接忽略。他 2010 年左右就买过甚�
 **换个口味**
 
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agents)</span>
-- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|NETIC：让基础服务企业用AI自主运营]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agents)</span>
+- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agents)</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:主观能动性 (agency)</span>
 
 </div>

@@ -104,7 +104,7 @@ Kat 分享了一个自己用 Co-Work 的真实案例:她要为即将到来的 Co
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Slack · 同概念:Claude Code、智能体 (agent)、系统提示词 (system prompt)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、Co-work、智能体 (agent)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同公司:Anthropic、Slack · 同概念:Claude Code、智能体 (agent)、Managed Agents</span>
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic、Slack · 同概念:Claude Code、智能体 (agent)、Managed Agents</span>
 
 </div>
 </div>

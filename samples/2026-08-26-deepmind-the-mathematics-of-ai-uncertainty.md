@@ -1,5 +1,5 @@
 ---
-title: AI 最缺的不是智商，是「知道自己不知道」
+title: 给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路
 podcast: "Google DeepMind: The Podcast"
 date: 2026-08-27
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "44:35"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty.jpg"
-description: Zubin Gharemani（剑桥大学教授、Google DeepMind Frontier AI 联合负责人）认为，真正智能的系统必须能表示和更新自身的不确定性，而不是假装无所不知。
+description: 剑桥教授、Google DeepMind Frontier AI 联合负责人主张：真正智能的系统必须能表示并更新自己的不确定性——这也是当前大语言模型最缺的东西。
 host: "[[Zubin Gharemani]]"
 companies: ["[[Google DeepMind]]"]
 concepts: ["[[不确定性]]", "[[贝叶斯规则]]", "[[大语言模型]]", "[[语义熵]]", "[[GenCast]]", "[[AlphaFold]]"]
@@ -16,18 +16,18 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/covers/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#post","headline":"AI 最缺的不是智商，是「知道自己不知道」","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty","description":"Zubin Gharemani（剑桥大学教授、Google DeepMind Frontier AI 联合负责人）认为，真正智能的系统必须能表示和更新自身的不确定性，而不是假装无所不知。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty.jpg","about":[{"@type":"Person","name":"Zubin Gharemani"},{"@type":"Organization","name":"Google DeepMind"},{"@type":"Thing","name":"不确定性 (uncertainty)"},{"@type":"Thing","name":"贝叶斯规则 (Bayes' rule)"},{"@type":"Thing","name":"大语言模型 (large language model)"},{"@type":"Thing","name":"语义熵 (semantic entropy)"},{"@type":"Thing","name":"GenCast"},{"@type":"Thing","name":"AlphaFold"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"AI 最缺的不是智商，是「知道自己不知道」","item":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#post","headline":"给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty","description":"剑桥教授、Google DeepMind Frontier AI 联合负责人主张：真正智能的系统必须能表示并更新自己的不确定性——这也是当前大语言模型最缺的东西。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty.jpg","about":[{"@type":"Person","name":"Zubin Gharemani"},{"@type":"Organization","name":"Google DeepMind"},{"@type":"Thing","name":"不确定性 (uncertainty)"},{"@type":"Thing","name":"贝叶斯规则 (Bayes' rule)"},{"@type":"Thing","name":"大语言模型 (large language model)"},{"@type":"Thing","name":"语义熵 (semantic entropy)"},{"@type":"Thing","name":"GenCast"},{"@type":"Thing","name":"AlphaFold"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路","item":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 最缺的不是智商，是「知道自己不知道」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# AI 最缺的不是智商，是「知道自己不知道」
+# 给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路
 
 <div class="pd-byl"><b>Zubin Gharemani</b> · 2026-08-27</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">但缺失的是，我们并没有真正做到我所说的，即对概率的仔细表示。我们实际上有点希望模型能很好地表示概率，因为我们在足够多的数据上训练了它们。</div><div class="a">— Zubin Gharemani <button class="pd-ts" data-t="15:20" data-who="Zubin Gharemani" data-en="But what's missing is we're not really doing what I said, which is the careful representation of probabilities. We're actually sort of hoping that the models represent probabilities okay because we've trained them on enough data." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我想要我的 AI，就像我想要我的计算器非常擅长大数乘法一样，我实际上希望我们的 AI 系统比人类更理性、更善于表示和处理概率。</div><div class="a">— Zubin Gharemani <button class="pd-ts" data-t="19:26" data-who="Zubin Gharemani" data-en="I want my AI, just like I want my calculator to be really good at multiplying large numbers, I would actually like our AI systems to be, you know, more rational, better at representing and manipulating probabilities than humans are." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Zubin Gharemani]]
@@ -36,73 +36,99 @@ jsonLd: |
 >
 > **概念** [[不确定性]] · [[贝叶斯规则]] · [[大语言模型]] · [[语义熵]] · [[GenCast]] · [[AlphaFold]]
 
-现在的 AI 最大的问题不是答错，而是答错时跟答对一样自信——你反驳它一句，它马上改口说「对不起，我错了」，这说明它根本不是在推理，只是在模仿推理的语气 <button class="pd-ts" data-t="20:30" data-who="Unknown" data-en="It's sort of faking it, right? And you can tell it's faking it because then if you push back and you say something silly like, no, I think you're wrong. Then it might respond, oh, sorry, yes, I was wrong, right?" aria-label="回原文"></button>。[[Zubin Gharemani|Zubin Gharemani]] 过去 30 年一直在研究怎么让机器拥有「知道自己不知道」的能力，他认为这不仅是人类特质，而是任何智能系统在现实世界做决策的基本前提 <button class="pd-ts" data-t="01:18" data-who="Unknown" data-en="Why? Well, you know, if you think about intelligence, One of the most important parts of intelligence is decision making." aria-label="回原文"></button>。
+这一集聊的是一个看似抽象、却直接关系到自动驾驶和医疗 AI 能不能落地的问题：机器能不能知道自己「不知道」。主角是 [[Zubin Gharemani|Zubin Gharemani]]，剑桥大学教授、[[Google DeepMind|Google DeepMind]] 的 Frontier AI 联合负责人，过去 30 年一直致力于把「[[不确定性|不确定性]]」做成数学、装进智能系统里。他最核心的主张很反直觉：往 AI 里加入不确定性，不是让它变弱，而是让它更准、更可信——他参与开发的天气预报模型正是靠「承认不确定」才成为业内最先进的。
 
-## 为什么不确定性是智能的刚需
+## 为什么智能离不开不确定性
 
-从细菌到人类到机器人，所有智能体都在[[不确定性|不确定性]]下做决策——感官有限、无法预测未来，所以任何智能系统必须能做三件事：表示不确定性、根据新证据更新不确定性、然后在不确定性下做出好的决策 <button class="pd-ts" data-t="01:55" data-who="Unknown" data-en="We can't predict the future. And so fundamentally, to build an intelligent system, you need a system that can represent uncertainty, that can update its uncertainty, and then can use that to make good decisions under uncertainty." aria-label="回原文"></button>。不确定性分两种：一种是世界本身的随机性（比如行人往哪边转），另一种是你遇到了从没见过的场景（比如冰雹天马突然跳到自动驾驶车前面）<button class="pd-ts" data-t="02:14" data-who="Unknown" data-en="Because actually, I mean, there's two different types of uncertainty, I guess, right? There's the uncertainty of just the inherent randomness of the world. There's a pedestrian in a normal, typical street, and you just don't know which way they're going to turn." aria-label="回原文"></button>。后一种情况下，系统需要意识到「这个情况我没见过」，然后做出保守决策比如减速——但现在的 AI 做不到这一点 <button class="pd-ts" data-t="03:17" data-who="Unknown" data-en="A certain self-awareness, if we can use those terms, a self-awareness about its uncertainty. So it needs to be able to know the situation that it's in is something that is unusual or it hasn't seen before." aria-label="回原文"></button>。
+他的推理链从决策出发：智能系统必须做决策，而在现实世界里做决策，感知永远是有限的——我们无法从感官知道一切，也无法预测未来。所以从根本上说，一个智能系统必须能做三件事：表示不确定性、更新不确定性、并据此在不确定中做出好决策。
 
-## 贝叶斯思维：用概率把「不知道」讲清楚
+他把不确定性分成两类。一类是世界的内在随机性（术语上叫「偶然不确定性」，aleatoric uncertainty）：街上那个行人下一秒往哪边转，本质像掷硬币，你可能干脆放弃预测；另一类是「没见过的场景」带来的不确定：比如自动驾驶汽车没在冰雹天气、更没在「马在冰雹中突然跳到车前」的场景下训练过。
 
-Zubin 的核心框架来自[[贝叶斯规则|贝叶斯规则]]（一种用概率来更新信念的数学方法）：你先有先验信念（比如侦探案里觉得管家最可疑），然后观察到新证据（凶器在食品储藏室被发现），把先验乘以似然再归一化，就得到后验信念——你的知识状态更新了 <button class="pd-ts" data-t="16:10" data-who="Unknown" data-en="Just explain for anybody who hasn't come across this before, just explain to us what that actually means. Yeah, so Bayes' rules is fascinating and very simple concept from probability theory." aria-label="回原文"></button>。每获得一条新证据，当前的后验就变成新的先验，循环往复。
+这时一个合格的不确定性感会让它意识到情况反常，主动减速。好消息是，所有这些不同形式的不确定性，数学上都可以归结为概率，再用概率论的规则去处理和更新。
 
-这个过程既描述了人类感知（听到树叶响，结合「我在哥斯达黎加」的先验，判断可能是美洲豹），也描述了学习本身（模型参数从不确定到逐渐确定）<button class="pd-ts" data-t="18:05" data-who="Unknown" data-en="And through that application of Bayes' rule, we can model both perception, like I open my eyes, I see something, then I see more things, and I know it's not a jaguar that's following me in Costa Rica, but you can also model what learning is." aria-label="回原文"></button>。人类在意识层面其实很不擅长估计概率（卡尼曼和特沃斯基早就证明了），但在感知层面——那些关乎生存的无意识判断——我们天然在做贝叶斯推断 <button class="pd-ts" data-t="06:28" data-who="Unknown" data-en="And that process of combining information has been modeled by cognitive scientists and psychologists and neuroscientists through the language of probabilistic inference, basically." aria-label="回原文"></button>。
+> 【背景】Zubin Gharemani 一般译作 Zoubin Ghahramani，是贝叶斯机器学习领域的代表学者；本集为语音识别转写稿，人名拼写可能有出入。
 
-## 大语言模型为什么「装」自信
+## 人类自己也不擅长概率——但感知系统很擅长
 
-[[大语言模型|大语言模型]]本质上在做下一个 token 的概率预测，概率确实在它内部，但它是「隐式」散布在数十亿参数的激活值里的，没有一个显式的「我对这句话有多大把握」的表示 <button class="pd-ts" data-t="15:35" data-who="Unknown" data-en="But not thinking about it in an explicit way. Yeah, if you look in a giant neural network, you can't really find the explicit representation of, say, the probability that, you know, it thinks something or other, right?" aria-label="回原文"></button>。训练范式也没把「校准置信度」当优先事项——训练数据里混着无数不同人的不同信念，模型学到的是一锅大杂烩 <button class="pd-ts" data-t="21:10" data-who="Unknown" data-en="Why do they struggle with that so much? They struggle because the paradigm for training them hasn't prioritized that." aria-label="回原文"></button>。所以你问它「你多确定」，它回答你时其实还是在做 next token prediction，并不是在计算自己的置信度 <button class="pd-ts" data-t="20:09" data-who="Unknown" data-en="And it might say something back, but it's really doing next token prediction. It doesn't have an explicit representation of how confident it is in that statement." aria-label="回原文"></button>。
+他本科同时学了计算机科学和认知科学，所以很自然地把这套框架拿去看人。认知科学界确实已用概率推理的语言给人类的感知和决策建模：你在哥斯达黎加徒步，树叶沙沙作响，你的感官会把眼前的感知信息与先验信念（哥斯达黎加有美洲豹，伦敦市中心没有）结合起来做推断。有趣的是，Kahneman 和 Tversky 的研究表明，人类在意识层面上非常不擅长估计概率，问一个明确概率可能错好几个数量级；但在无意识的感知系统里，我们其实处理得相当好，因为生存就依赖它。
 
-有一个方向是从模型内部提取「[[语义熵|语义熵]]」——生成 token 之前的概率分布，熵低说明确定（比如「埃菲尔铁塔在巴黎」），熵高说明不确定 <button class="pd-ts" data-t="23:23" data-who="Unknown" data-en="How might that work? I think you can take the internals of a particular model and try to infer from that its degree of belief. So before it answers, before it produces a token in a large language model, you actually have a probability distribution over all possible next tokens." aria-label="回原文"></button>。但 Zubin 认为这本质上还是在靠数据频率「装」，就像通过给计算器看大量加法例子来造计算器，而不是让它真正做运算——你希望 AI 真正推理世界，而不是在训练数据里查频率 <button class="pd-ts" data-t="25:05" data-who="Unknown" data-en="I'll give you the analogy of a calculator. It's like trying to build the calculator just by showing it examples of addition and multiplication. But imagine you never show it a particular number, then it might not generalize that particular number." aria-label="回原文"></button>。
+## 光有正确性不够：校车变猎豹
 
-## 真正做到的案例：天气预报和 AlphaFold
+他强调「正确性」和「置信度」是两回事，只考核前者会出大问题。十多年前人们就发现：把一张校车图片在人类完全察觉不到的程度上改动几个像素，神经网络会以 99% 的置信度说那是猎豹——而且任何类别都能这样伪造。
 
-[[Google DeepMind|Google DeepMind]] 的 [[GenCast|GenCast]] 天气预报模型是一个正面例子。它用扩散模型（一种在时间维度上操纵概率分布的方法）生成预报集合，不是跑一次说「明天晴天」，而是跑很多次得到一条概率分布曲线——比如预测飓风路径，给你的是所有可能路径的分布，几小时后拿到新观测数据就更新这个分布 <button class="pd-ts" data-t="26:45" data-who="Unknown" data-en="Tell me a bit about that. Yeah, so we've developed a whole series of state-of-the-art weather forecasting models at Google DeepMind. And if you look at the GenCast model, sort of very recent model, one of the key features it has, it can predict sort of weather over 15 days." aria-label="回原文"></button>。
+这种「对抗样本」说明：我们不想要过度自信地出错的系统。放到今天的[[大语言模型|大语言模型]]上问题依旧：无论你用哪个模型，它都会自信地给你答案；你一质疑，它立刻改口换一个。很难信任这样的系统，就像很难信任过度自信的人。
 
-[[AlphaFold|AlphaFold]] 也类似：蛋白质预测结果按模型的确信程度做颜色编码，物理学上本身就摇摆不定的区域和模型预测不确定的区域都显式标出来 <button class="pd-ts" data-t="30:15" data-who="Unknown" data-en="So that we can get better calibrated forecasts. I think the other example that really manages to get this uncertainty idea right is AlphaFold, where the protein prediction is color-coded by how sure the model is that that's the correct folding, right?" aria-label="回原文"></button>。这两个例子的反直觉之处在于：你给系统加入了不确定性表示，预测反而更准确了 <button class="pd-ts" data-t="29:20" data-who="Unknown" data-en="Thank you for joining us. I think there's something quite delightfully counterintuitive about that, that you add in uncertainty to the system and it makes the predictions more accurate." aria-label="回原文"></button>。
+## 贝叶斯规则：一行公式讲清「学习是什么」
 
-## 为什么不用贝叶斯？因为算不动
+他随后用侦探故事把[[贝叶斯规则|贝叶斯规则]]讲得非常直白：案发前你对每个嫌疑人有先验信念（用概率分布表示）；凶器在食品储藏室被发现这条新证据到来，你把先验乘以每个嫌疑人的似然，归一化，得到后验——新的知识状态。这个过程中你获得的信息，字面上就以「比特」计量（一比特就是把不确定性减半）；再来新证据，就把当前后验当新先验，重复更新。
 
-贝叶斯方法的「魔法」在于：一行公式同时解决持续学习（不会灾难性遗忘，因为新知识是跟旧知识合并更新而不是覆盖）和数据效率问题 <button class="pd-ts" data-t="37:57" data-who="Unknown" data-en="Which absolutely links back to the idea of Bayesian thinking that we were talking about earlier, because the reason why humans, animals are able to do that is because we have this updating system in our minds of incorporating evidence with existing knowledge." aria-label="回原文"></button>。但诅咒也在此——精确贝叶斯更新是计算上的难题，理论上可能要等数百万年才能出结果 <button class="pd-ts" data-t="25:34" data-who="Unknown" data-en="I mean, what is it that makes it so hard to do? It is genuinely hard because it's computationally hard. So essentially, I would argue we had all the ingredients of AI" aria-label="回原文"></button>。
+感知是这么回事，学习也是：模型有参数，起初不知道参数该是什么，靠数据一点点用贝叶斯规则更新。他对 AI 的期望很明确：就像计算器应该比人更会大数乘法，AI 也应该比人类更理性、更善于处理概率，而不是像现在这样在无证据时摇摆不定。
 
-80 年代人们因此放弃了这条路，转向纯数据驱动。Zubin 认为现在算力今非昔比（他本科时那台 65,000 个处理器的并行超级计算机，比不上现在口袋里的手机 <button class="pd-ts" data-t="41:43" data-who="Unknown" data-en="I think we can revisit some of these ideas with the compute power that we have now. You know, the giant state-of-the-art supercomputer, parallel connection machine computer that I used in my undergraduate years is actually slower than the Pixel phone that I have in my pocket." aria-label="回原文"></button>），可以重新审视这些想法，但怎么近似得又快又好，仍然是开放问题 <button class="pd-ts" data-t="41:37" data-who="Unknown" data-en="Yeah, yeah. I think we can revisit some of these ideas with the compute power that we have now. You know, the giant state-of-the-art supercomputer, parallel connection machine computer that I used in my undergraduate years is actually slower than the Pixel phone that I have in my pocket." aria-label="回原文"></button>。
+## 大语言模型为什么做不到
 
-## 规模派 vs 架构派
+他的判断是：现在的模型「在装样子」。大语言模型本质上是在预测下一个 token 的概率，训练数据里全是不同人的不同推理和信念，得到的是一锅大杂烩汤，模仿了各种推理轨迹，但并没有显式地表示自己对某个陈述的置信度——你问它「你有多确定」，它吐出的只是下一个 token，不是在计算贝叶斯规则。你在巨型神经网络里找不到「它认为某事为真的概率」的显式表示，它是弥散在数十亿个单元的激活里的。
 
-当前 AI 领域有两大阵营：一派认为只要更多数据、更多算力就能解决一切；另一派（包括 Zubin）认为真正智能需要架构创新，而不确定性是缺失的关键拼图 <button class="pd-ts" data-t="00:42" data-who="Unknown" data-en="Today, as a professor at Cambridge and co-lead of Frontier AI at Google DeepMind, Zubin finds himself at the heart of another interesting debate. On the one side are those who are hoping that pure scale will be the answer to ever-improving AI," aria-label="回原文"></button>。Zubin 不否认规模派有道理——模型在很多有用的事情上确实做得不错 <button class="pd-ts" data-t="35:39" data-who="Unknown" data-en="Yeah, I think that is a view that a lot of people have in the field. They're not completely wrong, just like I'm not completely right, in that the models are actually pretty good at a lot of useful things." aria-label="回原文"></button>。但问题出在长尾场景：当你把模型推到它没见过的角落，过度自信就会变成危险，尤其是自动驾驶、医疗诊断这类高后果决策场景 <button class="pd-ts" data-t="36:00" data-who="Unknown" data-en="The problem is that when you stretch them in the long tail of sort of unusual things, then you can uncover some gaps. And also, I think when the decisions, if you're just interacting with a chatbot, the decisions may not be so consequential, but if we're trying to build" aria-label="回原文"></button>。
+有一个补丁式思路：模型在生成每个 token 前内部本就有一个对全部候选 token 的概率分布，这个分布的熵（entropy，衡量分布有多「散」）就能透露不确定程度——低熵尖峰状就是很确定（问「埃菲尔铁塔在哪」，巴黎是尖峰，拉斯维加斯只占一点边角），高熵摊平就是不确定。但他指出这仍是「靠数据装出来的置信」：就像只靠展示例题造计算器，没见过的数字就不会算了——你要的是真的会算的计算器。
 
-> 【背景】Zubin Gharemani 的姓氏在转写稿中未完整出现，开头旁白念的是「Zubin Gharemani」，但正文全程被主持人称为「Stephen」——应为同一人，本集按转写稿称 Zubin / Stephen。他在 2015 年发表于 Nature 的论文与 Hinton 的深度学习 foundational papers 出现在同一期。
+模型训练范式没有把「表示不确定性」当作优先目标，这才是根因。为什么没做？
+
+因为在计算上太难：对一切可能事物显式维护概率分布是不可行的，可能要等数百万年才能得到答案，所以整个领域转向了「直接从数据训练」。他的态度是：也许 15 到 20 年前我们就已集齐了理性 AI 的所有要素，只是算力不够；如今算力今非昔比——他本科时用的那台 65,000 处理器的 Connection Machine 并行超算，比他口袋里的 Pixel 手机还慢——所以他正在重新探索这条路。
+
+## 已经做对的两个例子：天气预报与 AlphaFold
+
+[[GenCast|GenCast]] 是 Google DeepMind 的天气预报模型，可预报 15 天内的天气，八分钟就能出结果（传统超算要跑数小时）。它的关键在于：用扩散模型（类似图像生成模型，本身就在操纵概率分布）生成一整组预报集合，对热带风暴的可能轨迹给出完整概率分布——模型反复重跑，几小时后新观测到来就更新集合。
+
+这本质就是把贝叶斯更新用在预报上。主持人点出其中反直觉之处：往系统里加入不确定性，预测反而更准。[[AlphaFold|AlphaFold]] 是另一个正面案例：蛋白质预测按置信度做颜色编码——从序列到折叠结构本身物理上就有摆动不定的地方，模型预测又不同于实验数据，所以必须用一个「预测云」来表示不确定。
+
+## 多诚实才算够：校准是关键
+
+主持人问：会不会矫枉过正，得到一个永远只会说「我不知道」的模型？他的答案是「校准」（calibrated）：对可重复事件，你说降雨概率 70%，那么在所有说过这话的日子里，应当真的有 70% 下雨——这就是校准好的概率。
+
+而对只发生一次的事件（比如某个首次出现的日期），贝叶斯统计告诉我们，用概率表示对它的不确定程度不仅合法，而且是正确做法。传达层面，他提到剑桥同事 David Spiegelhalter 在如何优雅地向公众呈现不确定性上做了很多工作——关键是把不确定性以可见的形式交到用户手上，让人不会对过度自信的 AI 系统形成过度依赖。
+
+## 他押注的几个未来方向
+
+面对「只要堆更多数据和算力就不必管不确定性」的反对派，他承认对方不全错——模型在常见任务上确实相当好——但一拉到长尾的不寻常场景就会暴露缺口；而一旦决策事关重大（自动驾驶、医疗诊断），概率就必须弄对。他认为还需要突破的领域包括：
+
+- **持续学习**：现在的模式是训练一个巨型模型、发布、几个月后再训一个；而人类和动物是在连续的数据流中不断调整的。现有系统受困于「灾难性遗忘」——学新忘旧。理论上，严格的贝叶斯更新天然支持持续学习、不会灾难性遗忘，现有许多持续学习尝试其实都是对它的近似。
+- **能效**：人脑功耗约 20 瓦，一个灯泡；在大型数据中心训练大语言模型，功耗差了好几个数量级。
+- **新架构**：现代 AI 的两个主力是 Transformer 和扩散模型，但可能存在软硬件协同演化的新路，比如基于非常稀疏的神经网络的新型硬件。
+- **数据效率**：与人类和动物的学习相比，我们的学习系统在数据利用上极其低效，贝叶斯思想同样可以帮忙。
+
+主持人打趣说这像「一行贝叶斯公式写就的魔法技巧」——嵌入谦逊、支持持续学习、数据又高效。他笑答：早知道这个魔法，但它带着巨大的诅咒，就是计算上非常慢，教科书里写着这些是计算难题，只能近似。主持人反将一军：80 年代人们也是这么议论神经网络的——他不会再犯第二次低估算力的错误。
+
+最后他回到那个更根本的立场上：谦逊、诚实、怀疑不只是「人类品质」，更是智能系统的基本品质。我们不该以人类为上限——人类自己在现实世界的不确定下做理性决策其实相当差。
+
+他主张构建以人为中心的 AI：从人类和社会的最大问题倒推需要什么系统。收在他全集最有力的一句判断上：对所有真正重要的问题，他宁愿要一个知道自己不知道的 AI，也不要一个傲慢而过度自信的 AI。
 
 ## 本集带走
 
-- **不确定性不是弱点，是智能的前提**：任何在现实世界做决策的系统都必须能表示「我不知道」，否则就是带着绝对自信犯错。
-- **贝叶斯更新的核心循环**：先验信念 → 观察证据 → 乘以似然 → 归一化得到后验 → 后验变新先验，循环往复。这个框架同时描述了感知和学习。
-- **大语言模型的自信是「装的」**：它没有显式的置信度表示，问你「你确定吗」时还是在做 next token prediction，所以你一反驳它就改口。
-- **语义熵是从内部读不确定性的一个方向，但有天花板**：它依赖训练数据中的频率信号，不是真正的推理。
-- **天气预报和 AlphaFold 是已经落地的好例子**：用概率分布（集合预报、颜色编码）显式表达不确定性，结果反而更准。
-- **贝叶斯方法的瓶颈是计算**：理论上完美，但精确计算不可行，80 年代因此被放弃；现在算力暴涨，怎么高效近似是关键开放问题。
-- **长尾场景是试金石**：日常对话里过度自信只是烦人，在自动驾驶和医疗诊断里就是危险——这才是「知道自己不知道」真正不可替代的地方。
+- **不确定性是智能的地基，不是缺陷**：智能系统必须表示、更新不确定性，并在不确定下做决策；对没见过的场景（长尾）尤其如此。
+- **正确性和置信度要分开考核**：对抗样本（校车改几个像素被认成猎豹）证明，只考正确性的系统会过度自信地犯错。
+- **贝叶斯规则一句话版**：先验信念 × 新证据的似然 → 归一化 → 后验；后验变新先验，循环更新。感知、学习、持续学习理论上都能用它建模。
+- **现在的大语言模型在「装」置信度**：问它多确定，它只是预测下一个 token，没有对信念的显式概率表示——因为训练范式从未优先这一点。
+- **熵可以当不确定性的探针**：模型内部对下一 token 的分布，低熵尖峰=确定，高熵摊平=不确定（[[语义熵|语义熵]]思路）。
+- **成功范式**：GenCast 用预报集合+贝叶斯更新做 15 天天气预报（八分钟出结果）；AlphaFold 用颜色编码每处折叠的置信度。
+- **「校准」的定义**：说 70% 下雨的日子中，真的有 70% 下雨，才算校准好；对只发生一次的事件，用概率表示不确定同样合法。
+- **算力曾否决过这条路，但值得重访**：显式贝叶斯计算曾被判为不可行，而他当年的超算已不如今天的 Pixel 手机——不能再用「太慢」一票否决新想法。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec">全部金句 <span>4 条</span></div>
 
-> <span class="qz">但缺失的是，我们并没有真正做到我所说的，即对概率的仔细表示。我们实际上有点希望模型能很好地表示概率，因为我们在足够多的数据上训练了它们。</span>  
-> *But what's missing is we're not really doing what I said, which is the careful representation of probabilities. We're actually sort of hoping that the models represent probabilities okay because we've trained them on enough data.*  
-> <span class="qm">—— Zubin Gharemani · [15:20]</span> ^q1
+> <span class="qz">我想要我的 AI，就像我想要我的计算器非常擅长大数乘法一样，我实际上希望我们的 AI 系统比人类更理性、更善于表示和处理概率。</span>  
+> *I want my AI, just like I want my calculator to be really good at multiplying large numbers, I would actually like our AI systems to be, you know, more rational, better at representing and manipulating probabilities than humans are.*  
+> <span class="qm">—— Zubin Gharemani · [19:26]</span> ^q1
 
-> <span class="qz">这就像试图仅仅通过向它展示加法和乘法的例子来构建计算器。但想象一下你从未向它展示过一个特定的数字，那么它可能无法泛化那个特定的数字。而且你不想伪造一个计算器。你想要一个真正进行计算的计算器。</span>  
-> *It's like trying to build the calculator just by showing it examples of addition and multiplication. But imagine you never show it a particular number, then it might not generalize that particular number. And you don't want to fake a calculator. You want a calculator that actually calculates.*  
-> <span class="qm">—— Zubin Gharemani · [25:05]</span> ^q2
+> <span class="qz">它们挣扎是因为训练它们的范式没有优先考虑这一点。</span>  
+> *They struggle because the paradigm for training them hasn't prioritized that.*  
+> <span class="qm">—— Zubin Gharemani · [21:10]</span> ^q2
 
-> <span class="qz">我认为这点非常令人愉悦地反直觉，你向系统加入了不确定性，而它让预测更准确。</span>  
-> *I think there's something quite delightfully counterintuitive about that, that you add in uncertainty to the system and it makes the predictions more accurate.*  
-> <span class="qm">—— SPEAKER_01 · [29:20]</span> ^q3
-
-> <span class="qz">你知道，我在本科时使用的那个巨大的最先进的超级计算机，并行连接机器计算机，实际上比我口袋里的 Pixel 手机还要慢。</span>  
+> <span class="qz">你知道，我本科时使用的那台巨大的最先进的超级计算机、并行连接机器计算机，实际上比我口袋里的 Pixel 手机还要慢。</span>  
 > *You know, the giant state-of-the-art supercomputer, parallel connection machine computer that I used in my undergraduate years is actually slower than the Pixel phone that I have in my pocket.*  
-> <span class="qm">—— Zubin Gharemani · [41:43]</span> ^q4
+> <span class="qm">—— Zubin Gharemani · [41:43]</span> ^q3
 
-> <span class="qz">对于我认为所有重要的问题，我宁愿拥有一个知道自己不知道的 AI 系统，也不愿拥有一个傲慢和过度自信的 AI 系统。</span>  
+> <span class="qz">而且对于我认为所有重要的问题，我宁愿拥有一个知道自己不知道的 AI 系统，也不愿拥有一个傲慢和过度自信的 AI 系统。</span>  
 > *And for, I think, all problems that matter, I would rather have an AI system that knows when it doesn't know than an AI system that is arrogant and overconfident.*  
-> <span class="qm">—— Zubin Gharemani · [43:41]</span> ^q5
+> <span class="qm">—— Zubin Gharemani · [43:41]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 

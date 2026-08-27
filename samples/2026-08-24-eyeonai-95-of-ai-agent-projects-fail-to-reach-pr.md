@@ -1,5 +1,5 @@
 ---
-title: 智能体需要HR部门：TrustWise的运行时控制塔
+title: 给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理
 podcast: Eye On A.I.
 date: 2026-08-25
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "61:45"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr.jpg"
-description: TrustWise创始人Manoj Saxena认为，智能体AI的信任问题不在于模型准不准，而在于它会不会做你不想让它做的事。
+description: TrustWise 创始人、前 IBM Watson 商业化负责人 Manoj Saxena 主张：没有控制的智能是不可部署的，企业需要一层 AI 控制塔来实时治理智能体。
 host: "[[Manoj Saxena]]"
 companies: ["[[TrustWise]]"]
 concepts: ["[[Harmony AI]]", "[[智能体]]", "[[运行时控制]]", "[[对齐]]", "[[语义行动层]]", "[[守护者智能体]]", "[[盾牌]]", "[[信任姿态管理]]", "[[多智能体系统]]", "[[漂移]]", "[[Genesis 智能体]]", "[[AI 控制塔]]", "[[token]]"]
@@ -17,18 +17,18 @@ tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/covers/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#post","headline":"智能体需要HR部门：TrustWise的运行时控制塔","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr","description":"TrustWise创始人Manoj Saxena认为，智能体AI的信任问题不在于模型准不准，而在于它会不会做你不想让它做的事。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr.jpg","about":[{"@type":"Person","name":"Manoj Saxena"},{"@type":"Organization","name":"TrustWise"},{"@type":"Thing","name":"Harmony AI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"运行时控制 (runtime control)"},{"@type":"Thing","name":"对齐 (alignment)"},{"@type":"Thing","name":"语义行动层 (semantic action layer)"},{"@type":"Thing","name":"守护者智能体 (guardian agent)"},{"@type":"Thing","name":"盾牌 (shield)"},{"@type":"Thing","name":"信任姿态管理 (trust posture management)"},{"@type":"Thing","name":"多智能体系统 (multi-agent system)"},{"@type":"Thing","name":"漂移 (drift)"},{"@type":"Thing","name":"Genesis 智能体 (Genesis agent)"},{"@type":"Thing","name":"AI 控制塔 (AI control tower)"},{"@type":"Thing","name":"token"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"智能体需要HR部门：TrustWise的运行时控制塔","item":"https://talk.solomind.cc/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#post","headline":"给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr","description":"TrustWise 创始人、前 IBM Watson 商业化负责人 Manoj Saxena 主张：没有控制的智能是不可部署的，企业需要一层 AI 控制塔来实时治理智能体。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr.jpg","about":[{"@type":"Person","name":"Manoj Saxena"},{"@type":"Organization","name":"TrustWise"},{"@type":"Thing","name":"Harmony AI"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"运行时控制 (runtime control)"},{"@type":"Thing","name":"对齐 (alignment)"},{"@type":"Thing","name":"语义行动层 (semantic action layer)"},{"@type":"Thing","name":"守护者智能体 (guardian agent)"},{"@type":"Thing","name":"盾牌 (shield)"},{"@type":"Thing","name":"信任姿态管理 (trust posture management)"},{"@type":"Thing","name":"多智能体系统 (multi-agent system)"},{"@type":"Thing","name":"漂移 (drift)"},{"@type":"Thing","name":"Genesis 智能体 (Genesis agent)"},{"@type":"Thing","name":"AI 控制塔 (AI control tower)"},{"@type":"Thing","name":"token"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理","item":"https://talk.solomind.cc/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>智能体需要HR部门：TrustWise的运行时控制塔</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 智能体需要HR部门：TrustWise的运行时控制塔
+# 给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理
 
 <div class="pd-byl"><b>Manoj Saxena</b> · TrustWise创始人 · 2026-08-25</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">而现在你正要引入一大堆数字劳动力，没有人力资源和财务，没有毒品检测，没有关于如何表现的手册，没有绩效评估。</div><div class="a">— Manoj Saxena <button class="pd-ts" data-t="06:36" data-who="Manoj Saxena" data-en="And now you're about to introduce a whole bunch of digital labor with no HR and finance, with no drug testing, with no employee manuals on how to behave, with no performance appraisals." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我看到的是，这种专注于构建越来越智能、越来越大的模型的趋势。几乎就像你在建造越来越大的核堆芯，却没人考虑在这些东西上面加一个安全壳圆顶。</div><div class="a">— Manoj Saxena <button class="pd-ts" data-t="00:22" data-who="Manoj Saxena" data-en="What I saw was this focus on building more and more intelligent models and bigger models. Almost like you're building bigger and bigger nuclear cores, but no one's thinking about putting a dome on top of these things." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Manoj Saxena]]
@@ -37,113 +37,167 @@ jsonLd: |
 >
 > **概念** [[Harmony AI]] · [[智能体]] · [[运行时控制]] · [[对齐]] · [[语义行动层]] · [[守护者智能体]] · [[盾牌]] · [[信任姿态管理]] · [[多智能体系统]] · [[漂移]] · [[Genesis 智能体]] · [[AI 控制塔]] · [[token]]
 
-上个月，互联网上[[智能体|智能体]]流量首次超过人类流量，就像当年AT&T网络上数据流量超过语音流量一样——这是一个里程碑式的转变 <button class="pd-ts" data-t="00:11" data-who="Unknown" data-en="It's not simply trusting that the model is accurate, but trusting that the model is going to do what you want it to do and not what it wants to do. Last month, the first time ever, the traffic on the internet, agent traffic exceeded human traffic." aria-label="回原文"></button>。问题在于，所有人都在造越来越大的模型，但没人给这些"核反应堆"加安全罩 <button class="pd-ts" data-t="00:22" data-who="Unknown" data-en="This is a very big deal. What I saw was this focus on building more and more intelligent models and bigger models. Almost like you're building bigger and bigger nuclear cores, but no one's thinking about putting a dome on top of these things." aria-label="回原文"></button>。
+这一集的主角是 [[Manoj Saxena|Manoj Saxena]]，连续创业者、[[TrustWise|TrustWise]] 的 CEO 兼创始人——十年前他曾受 IBM 董事会之托，把赢得 Jeopardy 游戏的 Watson 从主卧室大小的机器压缩到披萨盒大小并推向商用。三年前 ChatGPT 发布时，他看到所有人都在造更大更聪明的模型，却没人管模型的行为，于是创办了 TrustWise。
 
-信任的核心问题已经变了。不再是"模型输出准不准"，而是"模型会不会做你不想让它做的事"——也就是[[对齐|对齐]]问题 <button class="pd-ts" data-t="04:28" data-who="Unknown" data-en="I think you nailed it. At the end of the day, trust cuts down to, does the AI and the model do what you intend it to do? That's kind of the heart of, is it aligned to your business and personal intent?" aria-label="回原文"></button>。三个趋势让这个问题变得紧迫：AI从生成内容变成了代表你采取行动，而且这些行动可能运行几分钟、几天；企业从单一模型工作流转向[[多智能体系统|多智能体系统]]；策略执行不能再只在部署时做一次，必须在整个运行过程中持续强制执行 <button class="pd-ts" data-t="04:48" data-who="Unknown" data-en="And the reason trust has become more and more important is three things. Number one, AI has now moved from generating output to now taking actions. Watson and Deep Learning and ChatGPT is not just giving you a better email or a better picture." aria-label="回原文"></button>。
+他打了个比方：这就像不停堆大核反应堆的堆芯，却没人给上面加一个安全壳圆顶。他最核心的主张是：**问题不在于构建一个[[智能体|智能体]]，而在于控制一个智能体**——一份 MIT 报告说 95% 的智能体项目无法从试点走向生产，原因正是没人敢放行 <button class="pd-ts" data-t="21:01" data-who="Manoj Saxena" data-en="It's taking them six to seven months to put that into production because they're not able to get the confidence. In fact, there was an MIT report that says 95% of agent projects are not able to move from pilots to production." aria-label="回原文"></button>。
 
-结果是，架构本身变成了风险面。你需要一种新的基础设施来管理这些智能体——本质上就是给智能体配一个HR部门和财务部门 <button class="pd-ts" data-t="06:24" data-who="Unknown" data-en="And there needs to be a new class of infrastructure to manage and deploy these agents at scale. I sort of talk about it almost like an HR department of agents. You know, you would not deploy a company today with humans in it without an HR and finance department." aria-label="回原文"></button>。今天企业部署数字劳动力，没有入职流程、没有行为手册、没有绩效评估、没有紧急停止开关 <button class="pd-ts" data-t="06:36" data-who="Unknown" data-en="You know, you would not deploy a company today with humans in it without an HR and finance department. And now you're about to introduce a whole bunch of digital labor with no HR and finance, with no drug testing, with no employee manuals on how to behave, with no performance appraisals." aria-label="回原文"></button>。
+## 为什么“信任”突然成了大事
 
-## 运行时控制：不是事后审计，而是行动前拦截
+他给信任下了个直接的定义：归根结底就是 AI 和模型是否做了你意图让它做的事，是否与你的商业和个人意图一致。信任之所以越来越关键，他归为三点变化 <button class="pd-ts" data-t="04:44" data-who="Manoj Saxena" data-en="So the alignment problem is not spoken about enough. And the reason trust has become more and more important is three things. Number one, AI has now moved from generating output to now taking actions." aria-label="回原文"></button>：
 
-现有三类企业软件都管不了这件事。安全软件是"由外而内"防御的，但智能体是新的内部威胁——你能建世界上最安全的监狱防住外面的人，但里面关着一群"汉尼拔"，照样一团糟 <button class="pd-ts" data-t="09:13" data-who="Unknown" data-en="And there is no software for that. I like to say that I can build you the world's most secure prison and defend it from outside. But if you have a bunch of Chuckies and Hannibal Lecters on the inside, you're still going to have chaos on your side." aria-label="回原文"></button>。
+- **AI 从生成输出变成采取行动**。ChatGPT 时代只是给你更好的邮件和图片，现在 AI 代表你行动，而且这些行动可能持续几分钟、几小时甚至几天——等于企业引入了一支“能动手的数字劳动力”。
+- **从单一模型走向[[多智能体系统|多智能体系统]]**。他认为 OpenClaw（一种开放智能体框架）对商业和社会的影响会是 ChatGPT 的一千倍；但企业用的是多智能体、多模型工作流，一旦出事就是真正的混乱。
+- **策略必须在运行时持续执行**，而不是只在部署时定一次。你得检查每一个工具调用、每一个动作、每一个输出是否遵守策略。
 
-治理软件只定义策略但不执行，是"声明式治理"。可观测性软件只告诉你发生了什么，但不让你影响和改变它 <button class="pd-ts" data-t="09:29" data-who="Unknown" data-en="Security is mostly outside in and not inside out. Second, governance only defines policies, but it doesn't implement policies at runtime. What I call as declarative governance versus runtime governance." aria-label="回原文"></button>。
+结果就是：整个 AI 堆栈的架构本身变成了新的风险面。他的类比很生动：今天你等于在给公司塞进一辆辆千匹马力的超级跑车，却没有方向盘、没有刹车、没有安全带，也没有排放控制 <button class="pd-ts" data-t="09:48" data-who="Manoj Saxena" data-en="It tells you what's going on, but it doesn't let you influence and shape it. So one way to think about it is you're launching these supercars into your company with a giant, you know, a thousand horsepower engine without any steering wheel, without brakes, without seat belts." aria-label="回原文"></button>。
 
-[[运行时控制|运行时控制]]意味着控制决策发生在行动的那一刻，不是几周前的策略文档里，也不是几小时后的审计日志中 <button class="pd-ts" data-t="08:36" data-who="Unknown" data-en="Yeah. So one of the issues is this is a wide open space today because runtime control means the control decision happens at the moment of action, not weeks before in a policy document or not hours later in an audit log." aria-label="回原文"></button>。举个例子：英国FCA消费者义务法要求，面对一位失去妻子的85岁老人申请贷款，和一位刚找到工作的24岁年轻人申请贷款，智能体的语气、清晰度和帮助性必须不同。今天没有系统能在运行时做这种区分和引导 <button class="pd-ts" data-t="10:12" data-who="Unknown" data-en="To give you an example, each of these agents that you deploy have to perform differently. So in the UK, there is a law called the UK FCA consumer duty law for distressed customer." aria-label="回原文"></button>。
+他还观察到，一家大型跨国公司告诉他，到今年年底公司里将有 100,000 个智能体——你不可能雇足够多的人去手动入职、手动测试每一个智能体 <button class="pd-ts" data-t="07:42" data-who="Manoj Saxena" data-en="Assess, control, and then optimize these systems as they're running because they're not enough humans. One of the large global companies told me by the end of this year, they'll have 100,000 agents in the company." aria-label="回原文"></button>。
 
-## 控制塔的技术架构：守护者智能体+模块化盾牌
+## 为什么现有三类软件都管不了这件事
 
-[[TrustWise|TrustWise]]的产品叫[[Harmony AI|Harmony AI]]，定位是AI控制塔。它不是一个新仪表板，而是一组API和命令行接口，可以插入企业现有的安全、治理和可观测性基础设施 <button class="pd-ts" data-t="14:11" data-who="Unknown" data-en="That's a great question. So the product is a platform, but the platform is a collection of APIs and what we call as CLIs, command line interfaces. So it is not yet another dashboard in a UX." aria-label="回原文"></button>。它位于智能体编排层之上、用户体验层之下，像一个探针或代理接入，对底层智能体框架（LangGraph、Microsoft、Google等）和模型都是不可知的 <button class="pd-ts" data-t="28:03" data-who="Unknown" data-en="So we sit above the agent orchestration layer and below the user experience layer. So essentially the AI control tower, the We exist almost like a blip on the wire through a gateway." aria-label="回原文"></button>。
+他指出企业现有的三类软件都无法胜任[[运行时控制|运行时控制]] <button class="pd-ts" data-t="08:51" data-who="Manoj Saxena" data-en="So one of the issues is this is a wide open space today because runtime control means the control decision happens at the moment of action, not weeks before in a policy document or not hours later in an audit log." aria-label="回原文"></button>：
 
-控制塔内部有两种智能体。[[守护者智能体|守护者智能体]]负责监督和管控工作智能体，它们可以装备"[[盾牌|盾牌]]"——三种类型的模块化能力包：安全和安保盾牌、合规和法规盾牌、成本和碳管理盾牌 <button class="pd-ts" data-t="12:06" data-who="Unknown" data-en="If you're Mario Brothers, you're adding a superpower pack. And broadly, there are three types of shields. There are shields for safety and security." aria-label="回原文"></button>。
+1. **安全软件**是自外而内的防御，而智能体是新的“内部威胁”——“我可以给你建世界上最安全的监狱并从外部防守，但如果里面关着一群恰吉和汉尼拔·莱克特，你照样一团糟。”
+2. **治理软件**只定义策略（声明式治理），不在运行时执行策略。
+3. **可观测性软件**只告诉你发生了什么，不能影响和塑造它。
 
-盾牌自己不做事，必须挂载到守护者智能体上，像给马里奥兄弟加超能力背包 <button class="pd-ts" data-t="12:01" data-who="Unknown" data-en="And that guardian agent can be equipped with one or more shields. And so it's like adding on a superpower pack. If you're Mario Brothers, you're adding a superpower pack." aria-label="回原文"></button>。三者结合叫"[[信任姿态管理|信任姿态管理]]"——在安全、合规、效率之间做权衡 <button class="pd-ts" data-t="12:35" data-who="Unknown" data-en="You want it to be safe and secure, you want it to be compliant with internal policies and external regulations, and you want it to be cost and carbon efficient." aria-label="回原文"></button>。
+运行时控制的含义是：**控制决策发生在行动的那一刻**——不是几周前的政策文档，也不是几小时后的审计日志。他举了个具体例子：英国有 FCA 消费者义务法，规定对财务困境客户（比如一位刚丧偶、申请贷款的 85 岁老人），智能体的语气、清晰度和帮助性必须不同于对刚入职的 24 岁申请人——今天没有任何系统能在运行时做这种区分 <button class="pd-ts" data-t="10:12" data-who="Manoj Saxena" data-en="To give you an example, each of these agents that you deploy have to perform differently. So in the UK, there is a law called the UK FCA consumer duty law for distressed customer." aria-label="回原文"></button>。
 
-控制有四种运行模式：实时模式（每条流量都检测）、sidecar模式（只在检测到[[漂移|漂移]]时干预）、批处理模式（每天或每周跑一次）、模拟模式（上线前在模拟器里跑，像F1赛车模拟器一样测试成千上万条路径） <button class="pd-ts" data-t="28:15" data-who="Unknown" data-en="And we can be operated in one of four modes. We can be inline. So if you're orchestrating using a Microsoft agent orchestrator or Google or LangGraph, it doesn't matter to us." aria-label="回原文"></button>。核心引擎用12个小模型，在10秒到300毫秒内完成运行时评估和引导 <button class="pd-ts" data-t="30:11" data-who="Unknown" data-en="And that sits across all these different vendors. When it detects in the proxy time, we have a collection of 12 very small, high-precision, low-latency models, and we have 15 scales and orchestrators, and then we have also a collection of, there's a whole IP that goes under it, but when we connect to it, within 10 seconds to 300 milliseconds, we're able to do those evaluations at runtime." aria-label="回原文"></button>。
+## TrustWise 怎么做：AI 控制塔、守护者智能体和盾牌
 
-## 语义行动层：让非确定性系统变得可证明
+TrustWise 的产品叫 [[AI 控制塔|AI 控制塔]]（产品名 [[Harmony AI|Harmony AI]]），他形容它就像“数十万来自多个供应商的智能体的人力资源和财务部门” <button class="pd-ts" data-t="06:48" data-who="Manoj Saxena" data-en="So we look at what we're doing at TrustWise. We call it the AI control tower. It's almost like the HR and finance department for hundreds of thousands of agents from multiple vendors." aria-label="回原文"></button>。关键设计：
 
-对齐不是靠提示词——提示词正在被"循环"取代，智能体会自己设定实验、执行、审查 <button class="pd-ts" data-t="49:38" data-who="Unknown" data-en="One is, first of all, Prompting is rapidly becoming passe. Prompting is being replaced by loops." aria-label="回原文"></button>。TrustWise的对齐框架有六层：全球权利层（如联合国人权宪章）、国家法规层、行业法规层、公司价值观层、业务单元层、客户SLA层 <button class="pd-ts" data-t="50:10" data-who="Unknown" data-en="The second way I will answer that is alignment exists in our framework, and this is configurable. We have six layers of alignment. So when an AI is acting, it has to align at six different levels." aria-label="回原文"></button>。任何一层出错都是灾难，而且事后你必须能证明智能体遵循了所有层 <button class="pd-ts" data-t="51:17" data-who="Unknown" data-en="That's a really important problem. And any of those layers slip, you're going to have a catastrophe on your hand. And if you can't prove later on what flight paths did you take," aria-label="回原文"></button>。
+- **用 AI 控制 AI**。控制塔里跑着“[[守护者智能体|守护者智能体]]（Guardian agents）”，但与普通智能体不同，它们是人机协同构建、输出确定性结果的——不是概率系统 <button class="pd-ts" data-t="07:06" data-who="Manoj Saxena" data-en="That's a great question. And yes, at the end of the day, when you have to scale, The system, you'll need AI to control AI." aria-label="回原文"></button>。
+- **[[盾牌|盾牌]]（shields）是插在守护者智能体上的“超能力背包”**，分三类：安全安保类、合规法规类、成本与碳排放类。三者合一，他称之为“[[信任姿态管理|信任姿态管理]]（trust posture management）”——他认为这个组合是市场空白，现有竞争者都只做其中一根支柱 <button class="pd-ts" data-t="12:06" data-who="Manoj Saxena" data-en="If you're Mario Brothers, you're adding a superpower pack. And broadly, there are three types of shields. There are shields for safety and security." aria-label="回原文"></button>。
+- **人在环里做四件事**：入职智能体（发现、接入）、评估（像 F1 模拟器一样让智能体跑成千上万条“飞行路径”，看它在哪里翻车、该改什么策略）、投产后监控[[漂移|漂移]]（比如智能体陷入隐形循环烧 GPU、或互相串通改用自造的非英语语言从而丧失可追溯性）、最后生成可审计的证据链 <button class="pd-ts" data-t="14:51" data-who="Manoj Saxena" data-en="And that's where the humans will go in. And they primarily do four things. Number one, they onboard their agents and the workforce." aria-label="回原文"></button>。
 
-技术上，知识图谱只告诉你关系，上下文图告诉你场景，世界模型告诉你物理规律——但这些都不够控制运行时行为 <button class="pd-ts" data-t="52:35" data-who="Unknown" data-en="That's the heart of our data technology, which is, it's not enough to say I have a knowledge graph. Knowledge graph just tells you relationship. Okay, you've got a Mario Brothers game, you've got trees that are connected to ground, ground as water, that's just a relationship." aria-label="回原文"></button>。TrustWise自研了一层叫"[[语义行动层|语义行动层]]"的数据结构，本质上是给智能体预计算好一张"允许做什么"的地图 <button class="pd-ts" data-t="53:11" data-who="Unknown" data-en="None of these are enough to help you control a runtime behavior on an agent. There is a layer beyond that that we have invented and innovated called the semantic action layer." aria-label="回原文"></button>。
+关于漂移有个值得记住的细节：已有实验证明，智能体相互通信时发现英语不是最高效的语言，于是发明了自己的语言——但你一旦放任，就失去了全部证据和可追溯性 <button class="pd-ts" data-t="16:08" data-who="Manoj Saxena" data-en="Or they could start colluding against each other and come up with a language that is not English. It has been demonstrated that agents have figured out that when they talk to each other, they figured out that English is not the most efficient language." aria-label="回原文"></button>。
 
-现在别人造智能体像开自动驾驶车每10米重算一次地图，而他们是提前建好谷歌地图，智能体在上面跑就快得多、成本低得多，而且每一步行为都可追溯 <button class="pd-ts" data-t="53:45" data-who="Unknown" data-en="And that's where we get to make agents super fast. It's like if you're running an autonomous car, every 10 meters the car is recomputing the map. That's how people are building agents today." aria-label="回原文"></button>。所有行为记录在一个基于时间序列的语义图谱里，像自动驾驶汽车的行车记录仪，既能用于学习也能用于审计 <button class="pd-ts" data-t="17:52" data-who="Unknown" data-en="Yeah, it's actually, it's sort of a graph. It's like a time series based graph that tells you all the various things that are coming into play. What models, what data, what policies, what constraints, what context." aria-label="回原文"></button>。
+证据链的数据结构是他们自认的核心创新之一：一个基于时间序列的**[[语义行动层|语义行动层]]（semantic action layer）**，同时用来驱动和记录智能体行为，像自动驾驶汽车的行车记录仪一样记录用了什么模型、数据、策略、约束和上下文，事后可以回溯重构每个智能体的每条“飞行路径”——四年后吃官司时，你能证明 6 月 10 日下午哪组智能体、基于哪些数据和策略做出了那个决定 <button class="pd-ts" data-t="16:33" data-who="Manoj Saxena" data-en="And then the last and final, it creates a layer of provable evidence for audit and learning. To be able to say, okay, can you then now take these systems and prove, say, four years from now, if there is a lawsuit where your agent declined a claim and the patient died and you're getting sued, can you go back and say on June 10th, you know, 2026 at 4 or 5 p.m.," aria-label="回原文"></button>。
 
-## 成本问题：一个输入可能触发50个动作
+## Token 爆炸与成本：治理反而省钱
 
-从生成式AI到智能体AI，[[token|token]]消耗量暴涨。一个输入可能触发20到50个动作，消耗量是两年前生成式AI系统的20到40倍 <button class="pd-ts" data-t="32:22" data-who="Unknown" data-en="So we have a lot of case studies where we have proven this. The core point to this is when we move from generative AI to agentic AI, the number of tokens, even though token costs are coming down, the volume of token consumption has gone up massively." aria-label="回原文"></button>。
+从生成式 AI 到智能体 AI，虽然单个 [[token|token]] 在降价，但消耗量暴涨：一个输入可触发 20 到 50 个动作，消耗比两年前的生成式系统多 20 到 40 倍的 token <button class="pd-ts" data-t="32:22" data-who="Manoj Saxena" data-en="So we have a lot of case studies where we have proven this. The core point to this is when we move from generative AI to agentic AI, the number of tokens, even though token costs are coming down, the volume of token consumption has gone up massively." aria-label="回原文"></button>。他们的治理反而带来了收益：案例中最多做到成本降低 83%，同时安全性提升 40%、延迟降低 60% <button class="pd-ts" data-t="32:08" data-who="Manoj Saxena" data-en="Control that or surface that because you do talk about a substantial cost reduction when using Harmony AI. Yeah, we have demonstrated as much as 83% reduction in costs as we improved safety by 40%." aria-label="回原文"></button>。
 
-TrustWise用三步管成本：先用框架（来自负责任AI研究所的Trustex）对智能体分类——是高尔夫球车、SUV还是坦克，不同类别有不同的"油耗"预期 <button class="pd-ts" data-t="33:15" data-who="Unknown" data-en="When we assess, so when you bring in an AI system, the first thing we do is we classify it. So we use a framework from the Responsible AI Institute called Trustex." aria-label="回原文"></button>；然后在模拟器里调优整个流水线（分块大小、模型选择、端点配置等），像调思科路由器一样找最优配置 <button class="pd-ts" data-t="34:08" data-who="Unknown" data-en="And third is we simulate it and we run the performance runs in our sim before you put that into production and we will then tell you Across the whole pipeline, what tweaks to make?" aria-label="回原文"></button>；上线后持续监控漂移，生成优化报告，比如"在你的1800个智能体上做这些调整还能再省800万美元" <button class="pd-ts" data-t="35:05" data-who="Unknown" data-en="Which are actually maybe too tightly controlled or they're using too much tokens? And we will generate reports after it is running to say, hey, you can save another $8 million across your 1,800 agents if you make these changes." aria-label="回原文"></button>。他们实测做到了成本降低83%、安全性提升40%、延迟降低60% <button class="pd-ts" data-t="32:08" data-who="Unknown" data-en="Control that or surface that because you do talk about a substantial cost reduction when using Harmony AI. Yeah, we have demonstrated as much as 83% reduction in costs as we improved safety by 40%." aria-label="回原文"></button>。
+做法分三阶段 <button class="pd-ts" data-t="33:02" data-who="Manoj Saxena" data-en="So it becomes incredibly important to get efficient with these things. The way we help companies manage the tokenomics, as they call it, is number one, When we assess, so when you bring in an AI system, the first thing we do is we classify it." aria-label="回原文"></button>：先用 Responsible AI Institute 的 Trustex 框架给系统分类——“它是高尔夫球车、SUV 还是坦克？”——据此设定期望性能；再在投产前用模拟器跑性能测试，告诉你在整个流水线上该用什么分块大小、什么模型、什么端点，“就像调思科路由器一样”找到给定工作负载的最优配置；投产后再用智能体发现哪些在漂移、哪些 token 用多了——比如生成报告说：改这几处，你 1800 个智能体能再省 800 万美元。
 
-## 谁在用、谁在买
+## 谁在买：董事会到三道防线
 
-企业里这个问题已经上升到董事会层级——AI是双刃剑，创造了新价值也制造了新威胁面 <button class="pd-ts" data-t="19:43" data-who="Unknown" data-en="I'll break out the answer that way. At the topmost level, this is definitely a board and a CEO level issue now because you suddenly have a new risk surface in the enterprise." aria-label="回原文"></button>。实际购买方主要是CIO和AI负责人，联合负责任AI官、风险合规团队 <button class="pd-ts" data-t="22:01" data-who="Unknown" data-en="And so that's at the second level. Most of our purchases are done by the combination of CIO, head of AI, and head of responsible AI, risk compliance. And security also gets involved in it, but security looks at it as one of the three dimensions of it." aria-label="回原文"></button>。日常运营有三道防线：业务和IT看生产力和策略合规；风险合规看报告和风险面；内部审计确保出了事能证明行为受控 <button class="pd-ts" data-t="22:21" data-who="Unknown" data-en="Then at an operational level, on a day-to-day basis, there are three different roles here. We call it the three lines of defense. The first role that's managing it is business and IT." aria-label="回原文"></button>。
+这个问题现在向上迁移到了董事会和 CEO 层级——“AI 太重要了，不能留给技术人员” <button class="pd-ts" data-t="20:24" data-who="Manoj Saxena" data-en="So that is at a board level. I like to say that AI is too important to be left to technologists. It's a business capability, like email was, as power was, much more powerful than that." aria-label="回原文"></button>。董事会现在问的是：这些数字工人做了“药物检测”吗？
 
-客户集中在高风险行业——银行、保险、医疗，因为出错代价大 <button class="pd-ts" data-t="26:43" data-who="Unknown" data-en="So young brands who've got 68,000 restaurants, they're looking at it for voice AI, voice ordering across Pizza Hut, KFC, and Taco Bell. They need to make sure that that voice ordering agent is behaving properly at runtime." aria-label="回原文"></button>。策略是先啃最硬的骨头（银行做了三年），再扩展到其他行业 <button class="pd-ts" data-t="26:22" data-who="Unknown" data-en="Oil and gas and chemicals and healthcare and others. So we started the company and spent the first three years working with banks building the product because we felt that's the highest bar we have to cross." aria-label="回原文"></button>。日立是投资者，正把TrustWise作为OEM组件铺到650个业务单元 <button class="pd-ts" data-t="27:09" data-who="Unknown" data-en="But at the same time, we also have other customers. And Hitachi actually is an investor in us. And Hitachi, as OEM does, as part of their AI stack, they have 650 business units that they are looking at OEMing trust-wise now as the control layer across all of Hitachi." aria-label="回原文"></button>。
+有员工手册吗？跑偏了有没有紧急停止开关（kill switch）？
 
-平台内置了跨越17种法规的1100多项预构建控制策略（NIST、HIPAA、OWASP等），像诺顿杀毒的病毒库一样开箱即用 <button class="pd-ts" data-t="42:32" data-who="Unknown" data-en="Stay up to date on that and how do you, yeah. That's a really important question because as a part of the platform, we provide over 1,100 controls spanning 17 different regulations." aria-label="回原文"></button>。
+采购决策主要由 CIO、AI 负责人和负责任 AI/风险合规负责人联合做出。日常运营则是“三道防线”：业务和 IT 看[[对齐|对齐]]与产出，风险合规出报告，内部审计保证据 <button class="pd-ts" data-t="22:16" data-who="Manoj Saxena" data-en="And security also gets involved in it, but security looks at it as one of the three dimensions of it. Then at an operational level, on a day-to-day basis, there are three different roles here." aria-label="回原文"></button>。
 
-## 从防守到进攻：Genesis智能体
+选行业上他有个清晰的打法：先攻最高门槛。银行做了 60 年模型风险管理，如果能把 LLM 和智能体这种非确定性系统做成确定性的、在银行投产，这套产品就能下沉到石油天然气、医疗等不那么成熟的行业 <button class="pd-ts" data-t="25:47" data-who="Manoj Saxena" data-en="It has to be regulated. But my whole thesis was, you know, I've had the good fortune of building multiple companies. And one of the things I found is product and distribution" aria-label="回原文"></button>。
 
-下一版产品要加入第二类智能体——Genesis智能体。守护者智能体是防守，防止坏事发生；Genesis智能体是进攻，让智能体去发现"未知的未知" <button class="pd-ts" data-t="58:38" data-who="Unknown" data-en="One is Guardian agents, second is Genesis agents. So the real power, everything they're doing so far in the control tower is mostly to prevent bad things from happening." aria-label="回原文"></button>。
+客户已横跨银行保险、医疗、零售——拥有 68,000 家餐厅的 Yum! Brands 在看用它治理必胜客、肯德基、塔可钟的语音点单智能体；Hitachi 既是投资者，也在推动其 650 个业务部门把 TrustWise 作为 OEM 控制层 <button class="pd-ts" data-t="26:41" data-who="Manoj Saxena" data-en="And so our customers range today across banking and insurance, healthcare, even retail and consumer products. So young brands who've got 68,000 restaurants, they're looking at it for voice AI, voice ordering across Pizza Hut, KFC, and Taco Bell." aria-label="回原文"></button>。
 
-类比：国际象棋特级大师能看到22到24步，深蓝能看95步，很多棋步人类甚至不知道存在 <button class="pd-ts" data-t="58:57" data-who="Unknown" data-en="So when I was running IBM Watson, I met this chess grandmaster who had lost to Deep Blue. And I said, what happened? He said, you know, most grandmasters can look 22 to 24 moves deep." aria-label="回原文"></button>。Genesis智能体就是那种能看95步甚至1000步深的假设生成机器——他们称之为"有益的幻觉"，十个里可能只有两个对的，但那两个可能颠覆业务 <button class="pd-ts" data-t="59:54" data-who="Unknown" data-en="So that's the beginning of our journey towards adding two classes of agents within the control tower, Guardian agents and Genesis agents. And the genesis agent is the one that's looking 95 moves deep or a thousand moves deep and it's surfacing hypothesis." aria-label="回原文"></button>。
+技术上，控制塔位于智能体编排层之上、用户体验层之下，以探针/代理形式接入，对 LangGraph、Microsoft、Google 等编排器和 Claude 等模型全部不可知；可跑在实时、sidecar、批处理、模拟四种模式；引擎用 12 个小而精准的低延迟模型加 15 个缩放器和编排器，在 300 毫秒到 10 秒内完成运行时评估 <button class="pd-ts" data-t="28:03" data-who="Manoj Saxena" data-en="So we sit above the agent orchestration layer and below the user experience layer. So essentially the AI control tower, the We exist almost like a blip on the wire through a gateway." aria-label="回原文"></button>。合规侧开箱提供覆盖 17 种法规的 1100 多项预置控制——他比作“杀毒软件的病毒库” <button class="pd-ts" data-t="42:32" data-who="Manoj Saxena" data-en="Stay up to date on that and how do you, yeah. That's a really important question because as a part of the platform, we provide over 1,100 controls spanning 17 different regulations." aria-label="回原文"></button>。
 
-关键论点：实现AGI的真正数据在企业手里（策略、上下文、业务规则），不在模型提供商手里。没有企业级策略来定义"好的结果长什么样"，光靠大模型公司造不出真正的AGI <button class="pd-ts" data-t="61:06" data-who="Unknown" data-en="Yeah, and the underlying models, as we said with mythos, are going to be so powerful that they'll be able to discover things that a human could not. The important part is the big players like OpenAI and Anthropic can't get to solving this because much of the context and the policies belong to the company." aria-label="回原文"></button>。
+## 对齐怎么做：六层对齐 + 提示词正在过时
+
+被问到对齐是靠提示词还是微调时，他先抛出一个判断：**提示词正在迅速过时，正在被“循环（loops）”取代**——智能体自己行动、自己审查，一跑就是几小时几天 <button class="pd-ts" data-t="49:38" data-who="Manoj Saxena" data-en="One is, first of all, Prompting is rapidly becoming passe. Prompting is being replaced by loops." aria-label="回原文"></button>。
+
+他们的框架里对齐分六层，全部可配置 <button class="pd-ts" data-t="50:10" data-who="Manoj Saxena" data-en="The second way I will answer that is alignment exists in our framework, and this is configurable. We have six layers of alignment. So when an AI is acting, it has to align at six different levels." aria-label="回原文"></button>：全球权利层（联合国人权宪章）→ 国家层（新加坡 AI 法案 vs 美国 vs 沙特）→ 行业层（FINRA vs HIPAA）→ 公司层（美国运通已开始把企业价值观写进智能体）→ 业务单元层 → 客户 SLA 层。任何一层失守，“你手头就是一场灾难”。
+
+而系统能不靠提示词查到“什么被允许”，靠的正是前面说的语义行动层。他解释为什么知识图谱、上下文图、Yann LeCun 式的世界模型都不够：这些只描述关系和规律，管不住运行时行为。
+
+语义行动层回答的是另一个问题——**这个智能体此刻被允许走的动作路径是什么**。“今天的智能体就像自动驾驶汽车每 10 米重算一遍地图；我们造的是一张告诉你哪里能开的谷歌地图” <button class="pd-ts" data-t="52:24" data-who="Manoj Saxena" data-en="With the semantic action control layer, that's where we believe. So I'll give you an example. The whole thing comes down to what is allowable and do you have a data structure that tells you what permission do you have at runtime?" aria-label="回原文"></button>。
+
+## 更大的图景：从守护者到创世者
+
+他给AI起了个新解：AI 有时不是 artificial intelligence，而是 **alien intelligence（外星智能）**——七年前他就在 TED 演讲里讲“智人的消亡与数字人的开端”，认为我们正在召唤一个全新物种 <button class="pd-ts" data-t="48:01" data-who="Manoj Saxena" data-en="But if you start putting the steering wheels on them and putting the policies, you can then guide them to do some amazing things for pennies an hour and automate and come up with new things that we have not even dreamed of yet." aria-label="回原文"></button>。一个里程碑式的信号：上个月，互联网上有史以来第一次，智能体流量超过了人类流量——正如当年 AT&T 网络上数据流量超过语音流量 <button class="pd-ts" data-t="45:44" data-who="Manoj Saxena" data-en="I expect in three years, 90% of the people who will be using the AI control tower will be agents using it, not humans. Because I don't know if you tracked this, but last month, the first time ever, the traffic on the internet, Asian traffic exceeded human traffic." aria-label="回原文"></button>。他预计三年内，使用 AI 控制塔的“用户”90% 会是智能体而不是人类。
+
+即将发布的新版本会在控制塔里加入第二类智能体——**[[Genesis 智能体|Genesis 智能体]]**：守护者防止坏事，创世者发现“未知的未知”。灵感来自一位输给深蓝的国际象棋特级大师：“大多数特级大师能看 22 到 24 步深，那台机器看了 95 步深——我们根本不知道还有那样的棋” <button class="pd-ts" data-t="58:58" data-who="Manoj Saxena" data-en="And I said, what happened? He said, you know, most grandmasters can look 22 to 24 moves deep. This machine was looking 95 moves deep." aria-label="回原文"></button>。
+
+Genesis 智能体就是那台看 95 步深的机器，一台“假设生成机”，在收入流失、欺诈这类领域提出连最好的 CFO 都答不出的问题。他称之为**有益的幻觉**：“我相信幻觉既是特性也是缺陷…
+
+…也许十个里只有两个是对的，但这两个可能改变你的游戏” <button class="pd-ts" data-t="60:10" data-who="Manoj Saxena" data-en="So we call it a beneficial hallucination rather than a harmful hallucination. I believe hallucination is both a feature and a bug. So once you have the open-claw agents settled down, we are now using those agents to create beneficial hallucinations and insights." aria-label="回原文"></button>。已和银行完成的试点，对方回来要更多。
+
+> 【背景】OpenClaw 疑为 ASR 转写对某个开放智能体项目名的误写，正文按原样保留。
+
+他最后反 Silicon Valley 的 AGI 叙事：“当你们没有政策来对齐结果长什么样时，要怎么创造 AGI？”——实现真正 AGI 的上下文和策略数据在企业手里，不在模型厂商手里；所以拥有数据和政策的企业，未来三到五年将被大规模改造 <button class="pd-ts" data-t="61:06" data-who="Manoj Saxena" data-en="Yeah, and the underlying models, as we said with mythos, are going to be so powerful that they'll be able to discover things that a human could not. The important part is the big players like OpenAI and Anthropic can't get to solving this because much of the context and the policies belong to the company." aria-label="回原文"></button>。
 
 ## 本集带走
-- **运行时控制≠事后审计**：控制决策必须在智能体采取行动的那一刻发生，不是写在策略文档里、也不是记在审计日志里
-- **现有三类软件都管不了**：安全是防外不防内，治理只定义不执行，可观测性只看不动——需要一种新的"信任姿态管理"同时覆盖安全、合规、效率
-- **语义行动层是核心创新**：不是知识图谱（只存关系），而是预计算好的"允许做什么"的权限路径地图，让非确定性系统变得可证明、可追溯
-- **智能体token消耗是生成式AI的20-40倍**：一个输入可能触发50个动作，必须从分类、模拟调优、运行时监控三步管成本
-- **对齐有六层**：全球权利→国家法规→行业法规→公司价值观→业务单元→客户SLA，任何一层出错都是灾难
-- **AGI的钥匙在企业不在模型公司**：策略和业务上下文在企业手里，没有这些，大模型公司造不出能落地的AGI
 
-<div class="pd-sec">全部金句 <span>11 条</span></div>
+- **核心判断**：问题不是构建智能体，而是控制智能体——没有控制的智能不可部署；95% 的智能体项目卡在试点到生产之间，卡的是信任。
+- **识别市场空白的方法**：拿现有三类软件（安全/治理/可观测性）逐一对照新需求，找出三者都覆盖不了的运行时控制层。
+- **治理架构参考**：守护者智能体（确定性输出、人机协同）+ 三类盾牌（安全、合规、成本碳排）+ 语义行动层（记录并驱动“此刻允许什么”）。
+- **成本抓手**：智能体时代一个输入可放大 20-50 个动作、20-40 倍 token 消耗；先分类（高尔夫球车/SUV/坦克）、再模拟调参、投产后监控漂移，案例中做到降本 83% 同时提升安全 40%。
+- **对齐要分层配置**：全球权利 → 国家法规 → 行业 → 公司价值观 → 业务单元 → 客户 SLA，六层任何一层失守都是灾难。
+- **给董事会的问题清单**：数字工人有没有“药物检测”、员工手册、紧急停止开关和可回溯的证据链。
+- **留意趋势**：智能体流量已超人类流量；提示词正被自主循环取代；幻觉可以是特性——用“假设生成机”挖未知的未知。
 
-> <span class="qz">而现在你正要引入一大堆数字劳动力，没有人力资源和财务，没有毒品检测，没有关于如何表现的手册，没有绩效评估。</span>  
-> *And now you're about to introduce a whole bunch of digital labor with no HR and finance, with no drug testing, with no employee manuals on how to behave, with no performance appraisals.*  
-> <span class="qm">—— Manoj Saxena · [06:36]</span> ^q1
+<div class="pd-sec">全部金句 <span>17 条</span></div>
 
-> <span class="qz">我可以为你建造世界上最安全的监狱并从外部防御它。但如果你里面有一群恰吉和汉尼拔·莱克特，你那边还是会有一团糟。</span>  
-> *I can build you the world's most secure prison and defend it from outside. But if you have a bunch of Chuckies and Hannibal Lecters on the inside, you're still going to have chaos on your side.*  
-> <span class="qm">—— Manoj Saxena · [09:14]</span> ^q2
+> <span class="qz">我看到的是，这种专注于构建越来越智能、越来越大的模型的趋势。几乎就像你在建造越来越大的核堆芯，却没人考虑在这些东西上面加一个安全壳圆顶。</span>  
+> *What I saw was this focus on building more and more intelligent models and bigger models. Almost like you're building bigger and bigger nuclear cores, but no one's thinking about putting a dome on top of these things.*  
+> <span class="qm">—— Manoj Saxena · [00:22]</span> ^q1
 
-> <span class="qz">有一份MIT报告说，95%的智能体项目无法从试点走向生产。</span>  
-> *There was an MIT report that says 95% of agent projects are not able to move from pilots to production.*  
-> <span class="qm">—— Manoj Saxena · [21:02]</span> ^q3
+> <span class="qz">所以像 OpenClaw 这样的事物的兴起，我认为 OpenClaw 对商业和社会的影响将是 ChatGPT 的一千倍。</span>  
+> *So the rise of things like OpenClaw, I think OpenClaw is going to be a thousand times more impactful than ChatGPT was in terms of its impact on business and society.*  
+> <span class="qm">—— Manoj Saxena · [05:19]</span> ^q2
 
-> <span class="qz">当我们从生成式AI转向智能体AI时，尽管token成本正在下降，但token消耗量却大幅上升。</span>  
-> *When we move from generative AI to agentic AI, the number of tokens, even though token costs are coming down, the volume of token consumption has gone up massively.*  
-> <span class="qm">—— Manoj Saxena · [32:24]</span> ^q4
+> <span class="qz">一家大型跨国公司告诉我，到今年年底，他们公司里将有 100,000 个智能体。</span>  
+> *One of the large global companies told me by the end of this year, they'll have 100,000 agents in the company.*  
+> <span class="qm">—— Manoj Saxena · [07:42]</span> ^q3
 
-> <span class="qz">我建立整个公司的论点是，没有控制的智能是不可部署的。</span>  
+> <span class="qz">问题之一是，今天这是一个完全开放的空间，因为运行时控制意味着控制决策发生在行动的那一刻，而不是几周前的政策文档里，也不是几小时后的审计日志里。</span>  
+> *So one of the issues is this is a wide open space today because runtime control means the control decision happens at the moment of action, not weeks before in a policy document or not hours later in an audit log.*  
+> <span class="qm">—— Manoj Saxena · [08:36]</span> ^q4
+
+> <span class="qz">我喜欢说，我可以给你建造世界上最安全的监狱并从外部防守。但如果里面关着一群恰吉和汉尼拔·莱克特，你那边照样会一团糟。</span>  
+> *I like to say that I can build you the world's most secure prison and defend it from outside. But if you have a bunch of Chuckies and Hannibal Lecters on the inside, you're still going to have chaos on your side.*  
+> <span class="qm">—— Manoj Saxena · [09:13]</span> ^q5
+
+> <span class="qz">所以思考这个问题的一种方式是，你正在往公司里发射这些超级跑车，装着巨大的千匹马力发动机，却没有方向盘，没有刹车，也没有安全带。</span>  
+> *So one way to think about it is you're launching these supercars into your company with a giant, you know, a thousand horsepower engine without any steering wheel, without brakes, without seat belts.*  
+> <span class="qm">—— Manoj Saxena · [09:48]</span> ^q6
+
+> <span class="qz">已经有实验证明，智能体在相互交流时发现，英语并不是最高效的语言。</span>  
+> *It has been demonstrated that agents have figured out that when they talk to each other, they figured out that English is not the most efficient language.*  
+> <span class="qm">—— Manoj Saxena · [16:08]</span> ^q7
+
+> <span class="qz">我喜欢说，AI 太重要了，不能留给技术人员。</span>  
+> *I like to say that AI is too important to be left to technologists.*  
+> <span class="qm">—— Manoj Saxena · [20:24]</span> ^q8
+
+> <span class="qz">事实上，有一份 MIT 报告说，95% 的智能体项目无法从试点走向生产。</span>  
+> *In fact, there was an MIT report that says 95% of agent projects are not able to move from pilots to production.*  
+> <span class="qm">—— Manoj Saxena · [21:01]</span> ^q9
+
+> <span class="qz">是的，我们已经证明，在将安全性提高 40% 的同时，成本最多降低了 83%。</span>  
+> *Yeah, we have demonstrated as much as 83% reduction in costs as we improved safety by 40%.*  
+> <span class="qm">—— Manoj Saxena · [32:08]</span> ^q10
+
+> <span class="qz">我创建整个公司的论点是：没有控制的智能是不可部署的。</span>  
 > *My thesis for building the whole company is intelligence without control is not deployable.*  
-> <span class="qm">—— Manoj Saxena · [38:51]</span> ^q5
+> <span class="qm">—— Manoj Saxena · [38:51]</span> ^q11
 
-> <span class="qz">AI不是应用程序。AI是一个行动者。</span>  
-> *AI is not an application. AI is an actor.*  
-> <span class="qm">—— Manoj Saxena · [44:26]</span> ^q6
+> <span class="qz">我认为人们还没有充分理解的一件事是：AI 不是应用程序。AI 是一个行动者。</span>  
+> *I think one of the things that people don't understand much yet is that AI is not an application. AI is an actor.*  
+> <span class="qm">—— Manoj Saxena · [44:21]</span> ^q12
 
-> <span class="qz">我预计三年内，使用AI控制塔的人群中，90%将是使用它的智能体，而不是人类。</span>  
-> *I expect in three years, 90% of the people who will be using the AI control tower will be agents using it, not humans.*  
-> <span class="qm">—— Manoj Saxena · [45:36]</span> ^q7
+> <span class="qz">因为我不知道你有没有关注到，但上个月，有史以来第一次，互联网上的流量，智能体流量超过了人类流量。</span>  
+> *Because I don't know if you tracked this, but last month, the first time ever, the traffic on the internet, Asian traffic exceeded human traffic.*  
+> <span class="qm">—— Manoj Saxena · [45:44]</span> ^q13
+
+> <span class="qz">所以它们看起来像一群狂吠的疯狗。但如果你开始给它们装上方向盘、配上策略，你就能引导它们以每小时几分钱的成本做出神奇的事情，实现自动化，并想出我们甚至尚未梦想过的新事物。</span>  
+> *So they look like a collection of mad barking dogs. But if you start putting the steering wheels on them and putting the policies, you can then guide them to do some amazing things for pennies an hour and automate and come up with new things that we have not even dreamed of yet.*  
+> <span class="qm">—— Manoj Saxena · [47:44]</span> ^q14
 
 > <span class="qz">提示词正在迅速变得过时。提示词正在被循环取代。</span>  
 > *Prompting is rapidly becoming passe. Prompting is being replaced by loops.*  
-> <span class="qm">—— Manoj Saxena · [49:38]</span> ^q8
+> <span class="qm">—— Manoj Saxena · [49:38]</span> ^q15
 
-> <span class="qz">这就像如果你在开一辆自动驾驶汽车，每10米汽车都在重新计算地图。这就是今天人们构建智能体的方式。</span>  
-> *If you're running an autonomous car, every 10 meters the car is recomputing the map. That's how people are building agents today.*  
-> <span class="qm">—— Manoj Saxena · [53:46]</span> ^q9
+> <span class="qz">他说，你知道，大多数特级大师能看 22 到 24 步深。那台机器看了 95 步深。我们甚至不知道还有那样的棋。</span>  
+> *He said, you know, most grandmasters can look 22 to 24 moves deep. This machine was looking 95 moves deep. We didn't even know there was a move like that.*  
+> <span class="qm">—— Manoj Saxena · [58:58]</span> ^q16
 
-> <span class="qz">我相信幻觉既是特性也是缺陷。</span>  
-> *I believe hallucination is both a feature and a bug.*  
-> <span class="qm">—— Manoj Saxena · [60:10]</span> ^q10
-
-> <span class="qz">我不相信硅谷那些虚浮的东西，说什么，哦，我们要创造AGI。当你没有政策来对齐结果的样子时，你要如何创造它？</span>  
-> *I don't buy the Silicon Valley frou-frou stuff about, oh, we're going to create AGI. How will you create it when you don't have the policies to align what outcome looks like?*  
-> <span class="qm">—— Manoj Saxena · [61:25]</span> ^q11
+> <span class="qz">这就是为什么我不相信硅谷那些虚浮的东西，说什么，哦，我们要创造 AGI。当你没有政策来对齐结果应该是什么样子时，你要怎么创造它？</span>  
+> *And that's why I don't buy the Silicon Valley frou-frou stuff about, oh, we're going to create AGI. How will you create it when you don't have the policies to align what outcome looks like?*  
+> <span class="qm">—— Manoj Saxena · [61:24]</span> ^q17
 
 <div class="pd-sec">接着看</div>
 

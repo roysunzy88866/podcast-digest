@@ -155,7 +155,7 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 
 **顺着「组织与领导力」挖下去**
 
-- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|Square 为什么废掉业务单元制]]<span class="pd-rz">同公司:Block、Square · 同概念:智能体 (agent)</span>
+- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活]]<span class="pd-rz">同公司:Block、Square · 同概念:智能体 (agent)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)</span>
 - [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
@@ -165,7 +165,7 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 **换个口味**
 
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)、MCP</span>
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM暴跌背后的企业软件洗牌]]<span class="pd-rz">同概念:MCP、智能体 (agent)、开源模型 (open source models)</span>
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%:企业软件的好日子到头了吗？]]<span class="pd-rz">同概念:MCP、智能体 (agent)、开源模型 (open source models)</span>
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、智能体 (agent)</span>
 
 </div>

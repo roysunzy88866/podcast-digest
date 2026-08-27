@@ -158,7 +158,7 @@ jsonLd: |
 **换个口味**
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA</span>
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|Parag：给智能体用的搜索，为什么不能是给人类用的]]<span class="pd-rz">同概念:并行计算 (parallel)</span>
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网]]<span class="pd-rz">同概念:并行计算 (parallel)</span>
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|Parag：为什么智能体搜索不该照搬人类那一套]]<span class="pd-rz">同概念:并行计算 (parallel)</span>
 
 </div>

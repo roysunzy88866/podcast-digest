@@ -1,12 +1,12 @@
 ---
-title: AI 应用层才是下一个金矿：模型不是商品
+title: AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意
 podcast: The a16z Show
 date: 2026-08-26
 source_url: undefined
 duration: "37:03"
 type: episode
 cover: "#64748b"
-description: a16z 合伙人 Anish Acharya 认为 AI 模型各有比较优势而非商品，应用层把智能原语变成经济成果的空间才刚刚打开。
+description: a16z 投资人 Anish Acharya 解释为什么 AI 模型不会商品化、应用层能捕获最大价值，以及为什么现在是消费级创业者的复兴时刻。
 host: "[[Anish Acharya]]"
 cohosts: ["[[Jen Ka]]"]
 companies: ["[[OpenAI]]", "[[Anthropic]]", "[[GrokBot]]"]
@@ -17,18 +17,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer#post","headline":"AI 应用层才是下一个金矿：模型不是商品","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer","description":"a16z 合伙人 Anish Acharya 认为 AI 模型各有比较优势而非商品，应用层把智能原语变成经济成果的空间才刚刚打开。","datePublished":"2026-08-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Anish Acharya"},{"@type":"Person","name":"Jen Ka"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"GrokBot"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"应用层 (application layer)"},{"@type":"Thing","name":"模型聚合 (model aggregation)"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"开放权重模型 (open weight models)"},{"@type":"Thing","name":"智能原语 (intelligence primitive)"},{"@type":"Thing","name":"编码智能体 (coding agents)"},{"@type":"Thing","name":"个人智能体 (personal agents)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 应用层才是下一个金矿：模型不是商品","item":"https://talk.solomind.cc/2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer#post","headline":"AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer","description":"a16z 投资人 Anish Acharya 解释为什么 AI 模型不会商品化、应用层能捕获最大价值，以及为什么现在是消费级创业者的复兴时刻。","datePublished":"2026-08-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Anish Acharya"},{"@type":"Person","name":"Jen Ka"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"GrokBot"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"应用层 (application layer)"},{"@type":"Thing","name":"模型聚合 (model aggregation)"},{"@type":"Thing","name":"护城河 (moat)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"开放权重模型 (open weight models)"},{"@type":"Thing","name":"智能原语 (intelligence primitive)"},{"@type":"Thing","name":"编码智能体 (coding agents)"},{"@type":"Thing","name":"个人智能体 (personal agents)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意","item":"https://talk.solomind.cc/2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 应用层才是下一个金矿：模型不是商品</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# AI 应用层才是下一个金矿：模型不是商品
+# AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意
 
 <div class="pd-byl"><b>Anish Acharya</b> · a16z 合伙人 · 2026-08-26</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">如果你看看一些底层指标，它们指向的是基本无限的需求和高度受限的供应。</div><div class="a">— Anish Acharya <button class="pd-ts" data-t="04:27" data-who="Anish Acharya" data-en="And if you look at some of the underlying indicators, what they point to is essentially infinite demand and highly constrained supply." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我实际上认为那个较少讨论的分布外话题是，如果我们不够乐观会怎样？</div><div class="a">— Anish Acharya <button class="pd-ts" data-t="04:21" data-who="Anish Acharya" data-en="I think actually the out of distribution topic that's less discussed is what if we're insufficiently optimistic?" aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Anish Acharya]] · [[Jen Ka]]
@@ -37,103 +37,108 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[应用层]] · [[模型聚合]] · [[护城河]] · [[推理]] · [[开放权重模型]] · [[智能原语]] · [[编码智能体]] · [[个人智能体]]
 
-GPU 这种非前沿芯片的小时价格在涨，这非常反常——通常硬件价格是通缩的。这说明一件事：需求几乎无限，供应高度受限。所以比起讨论"这是不是泡沫"，更值得问的是：我们是不是还不够乐观？<button class="pd-ts" data-t="04:15" data-who="Anish Acharya" data-en="Please, next. All right, look, I think that the kind of case for this being a bubble is over sort of discussed or at least fully discussed. I think actually the out of distribution topic that's less discussed is what if we're insufficiently optimistic?" aria-label="回原文"></button>
+过去几年，AI 领域最大的问题是「哪个模型会赢」；a16z 的投资人 [[Anish Acharya|Anish Acharya]] 在这一集里给出的答案是：下一阶段的重心不在模型，而在模型之上长出来的应用。他先讲了一件自己刚经历的事——睡前对 GrokBots 说「照着我这条牛仔裤的样子买一条相似的，别超过 500 美元」，醒来时它已经研究、选好、用他的信用卡下了单。他的判断是：能力已经够了，接下来的解锁来自「足智多谋」和让普通消费者真正用得懂的产品形态。
 
-## 护城河没有消失，但有一种被攻破了
+## 宏观：真正没人讨论的是「我们可能不够乐观」
 
-研究[[护城河|护城河]]（最系统的框架是《七种力量》这本书）会发现，绝大多数护城河根本不受"廉价智能泛滥"的影响。网络效应、规模效应、品牌效应——这些东西一如既往地强。再多的[[编码智能体|编码智能体]]也不会让 Nike 不再是 Nike，Instagram 的力量从来不是 app 本身的代码复杂度，而是背后的网络。<button class="pd-ts" data-t="06:09" data-who="Anish Acharya" data-en="There's no more moats. And it's very funny because if you actually study moats, which I think are most famously codified in the book Seven Powers, it's one of my favorites, the vast majority of moats actually are not affected by abundant, low-cost intelligence." aria-label="回原文"></button>
+泡沫论已经被谈烂了，Anish 认为真正「分布外」的话题反而是：如果我们不够乐观怎么办。底层指标指向的是**基本无限的需求 + 高度受限的供给**——连 B200 这种非最前沿 GPU 的每小时价格都在上涨，而算力通常是高度通缩的。这是非常反常的信号。
 
-但有一种护城河确实暴露了：集成护城河。SAP 以集成复杂著称，从一个版本迁移到下一个甚至有生存风险。编码[[智能体|智能体]]让这件事变得容易多了，这对历史上靠做集成点赚钱的系统集成商（SI）来说是存在级威胁。<button class="pd-ts" data-t="06:47" data-who="Anish Acharya" data-en="There are a couple of moats that are exposed. For me, the integration moat is the most obvious one. SAP is so famously complex to integrate into and out of that it's a sort of existential risk to even migrate from one version of SAP to the next." aria-label="回原文"></button>
+再看前一阵 SaaS 的恐慌(2 月一堆 SaaS 股票回撤 30-40%,后来又涨回来)，他的结论是：企业软件支出只占 8-12%,自己 vibe code(用自然语言让 AI 写代码)一套薪资或 CRM 系统，上行空间很小，下行风险却是无限的——薪资算错是合规问题。所以企业软件要求的精确度，目前的[[编码智能体|编码智能体]]给不了。真正受伤的是靠各种扭曲指标撑业绩的 SaaS 公司，潮水退去后它们要么加速要么死。
 
-## 模型不是商品，它们有"性格"
+关于[[护城河|护城河]]的讨论他也认为被夸大了：按《七种力量》的框架，网络效应、规模效应、品牌效应这些传统护城河几乎不受「廉价智能」的影响——再多的编码[[智能体|智能体]]也不会让 Nike 变得不是 Nike。唯一明显暴露的是**集成护城河**：SAP 出了名的难集成难迁移，而这恰恰是编码智能体最擅长解决的，靠「集成点」吃饭的 SI/GSI 咨询公司因此面临存在性问题。
 
-如果你每天用这些模型，会发现它们在特定领域有比较优势，根本不是同质化商品。[[OpenAI|OpenAI]] 的新 GPT 模型非常擅长知识工作，ChatGPT 桌面应用是做电子表格、幻灯片、文档的完美容器；Claude Code 极度面向软件工程，从终端 UI 到代码规划测试都为工程师量身定制。两个产品为了各自的专业化做了大量不同的权衡。<button class="pd-ts" data-t="11:42" data-who="Anish Acharya" data-en="And this is the point I alluded to earlier, which is sort of this discussion of model commoditization. You know, if you use the models every day, which I do, I sort of hold myself to a standard of making something either small or big with every model that comes out." aria-label="回原文"></button>
+企业里还有一条分界线：产品、销售、工程、研究是创造超额收益(alpha)的职能，值得用最强的前沿模型；而财务这类支持性职能——结账最好的方式是「准确」，你不可能比准确好 10 倍——收益有上限，所以适合用[[开放权重模型|开放权重模型]](模型权重公开、可自行部署微调)加强化学习来压成本曲线。这也是为什么对很多创业公司，开源模型不只是省钱，更是唯一选项：可以本地化、训练、微调 <button class="pd-ts" data-t="08:11" data-who="Anish Acharya" data-en="You can't close it 10x better than accurately. So as a result, you kind of have this bounded upside problem where it makes sense to use open weight models with reinforcement learning for the kind of Pareto-efficient cost curve." aria-label="回原文"></button>。
 
-更有意思的是模型"性格"差异——类似心理学的大五人格特质。GLM 5.2 和 GLM 5.3 非常字面化、只做你说的，属于"高神经质"；而另一些模型更开放、更有创造力。
+## 模型不是商品：它们像不同性格的员工
 
-做会计问题时你需要神经质（精确），做设计问题时你需要开放性。一个组织里两种"心智"都需要，所以你会同时选不同模型，而不是只绑一个。<button class="pd-ts" data-t="09:10" data-who="Anish Acharya" data-en="So, and the models often have sort of areas of focus that are almost at tension with each other. So you see a certain set of models that have a high degree of neuroticism, like they're sort of autistic models." aria-label="回原文"></button>
+Anish 对「模型商品化」的判断是明确的否定。他给自己定的标准是每个新模型发布都拿来做点东西，用多了你就会发现：**这些模型在领域层面各有比较优势**。[[OpenAI|OpenAI]] 的新 GPT 模型极其擅长知识工作，ChatGPT 桌面应用是做表格、幻灯、文档的完美「产品容器」(他称之为 harness);而 Claude Code 一切设计——终端 UI、代码规划、代码测试——都面向软件工程师。
 
-## 模型聚合：应用层的关键价值
+更有意思的一个类比：模型像有「大五人格」的员工。GLM 5.2 和 GLM 5.3 非常字面化、只做你让它做的，像高度神经质的模型；而 Kimi K3 这类更开放、更有创造力。你不可能既高度开放又高度神经质——做会计题你要神经质，做设计题你要开放，所以组织里天然需要两种心智并存 <button class="pd-ts" data-t="13:01" data-who="Anish Acharya" data-en="You can't be both highly open and highly neurotic. And sometimes when you have an intelligence you're applying to an accounting problem, you want neuroticism. When you're applying it to a design problem, you want openness." aria-label="回原文"></button>。
 
-很多产品品类里，把多个[[模型聚合|模型聚合]]在一起，效果大于各部分之和。比喻就像 Expedia——你不想分别去联合航空、达美航空、西南航空的网站，你想要一个地方看到所有库存。<button class="pd-ts" data-t="13:20" data-who="Anish Acharya" data-en="This is an important point. There are many product categories in which model aggregation delivers a greater than sum of parts outcome. And a good metaphor for this is Expedia." aria-label="回原文"></button>
+实验室的动向也印证了[[应用层|应用层]]的空间：1 月 Claude 发布法律插件(本质只是打包的提示词)引发恐慌后，大家担心实验室向上整合进应用层，实际看到的恰恰相反——它们向下整合进[[推理|推理]]和算力。逻辑很清楚：推理工作负载高度同质化，可以在价值链一处堆出巨大规模；而应用层充满定价、打包、产品化的异质性，运营又重又难。
 
-编码领域 Cursor 已经在这么做：用前沿模型做规划，用小模型做执行，但需要一个统一的产品架构来调度。创意工具也一样——11 Labs 擅长语音和音乐，Black Forest 擅长视频和创意方向，正确的产品是把它们整合到一个外壳里。
+由此得出一个重要结论：**在很多产品类别里，[[模型聚合|模型聚合]](model aggregation,即一个产品里组合多家模型)能产出大于各部分之和的结果**。类比是 Expedia 比挨个逛各家航司官网有用得多；编程上 Cursor 用前沿模型做规划、用小模型做执行；创意工具把 11 Labs(语音)和 Black Forest(视频)装进一个壳；研究上把同一个查询对抗性地跑多个模型、再让一个模型帮你收敛。而实验室在结构和激励上都只会推自家模型——这正是应用层的机会。
 
-研究和决策领域更明显：模型用不重叠的数据集训练，把同一个查询对抗性地跑过多模型、再用一个单独的模型帮你收敛，能获得更多信息。但实验室只会提供自己的模型——这是[[应用层|应用层]]真正大放异彩的地方。<button class="pd-ts" data-t="13:39" data-who="Anish Acharya" data-en="Seeing every airline's inventory. Similarly, in coding, we're actually seeing this with Cursor a ton where you want to do a very frontier model for planning, for example, but then you can use a lesser model for execution." aria-label="回原文"></button>
+## 应用层：智能是原语，应用是产品化
 
-## 智能是原语，应用层把它变成钱
+核心心智模型：智能像云一样是一种**原语(primitive,基础设施层的基本能力单元)**。Salesforce 把 AWS 的云原语做成 CRM 交付经济结果；同样，原始的[[智能原语|智能原语]]需要 Harvey 这样的公司把它变成法律行业的经济结果，或者按信用合作社这类客户想要的方式卖出去——大多数信用合作社不想减员一半，而是想在业务健康的同时把人数翻倍。
 
-智能是一种原语，就像买云是一种原语。Salesforce 拿 AWS 云原语变成 CRM 软件交付经济成果，AI 应用层也一样——你需要 Harvey 把[[智能原语|智能原语]]变成法律行业的经济成果。<button class="pd-ts" data-t="14:44" data-who="Anish Acharya" data-en="Okay, let's jump into the apps layer. The key point about the application layer is that intelligence is a primitive, just like buying cloud is a primitive. And what does Salesforce do?" aria-label="回原文"></button>
+用法也在进化：从「提示模型」到「把模型放进循环」。智能体(被滥用的词)本质就是带工具和记忆的循环里的模型。
 
-AI 使用方式的演进：从提示模型，到把模型放进循环。智能体（agent）说白了就是带工具、带记忆的循环中的模型。
+典型是编码：Bug 被报告→复现→生成修复→验证→低风险直接上线、高风险人来审。把同样的循环思路推广到价格优化、采购这些天然的业务循环，就是 AI 实现企业自动化的路径；最雄心勃勃的是「业务循环」——模型虽然不能自主决定在蒂华纳开分公司，但能在整个业务的表面层提出这种跨领域的变更。
 
-编码是最成熟的例子：Bug 被报告→复现→生成修复→验证→低风险就自动合入，高风险就人审。每个报告的 Bug 都被这个循环自主修复了。<button class="pd-ts" data-t="15:46" data-who="Anish Acharya" data-en="This is a bit of an advanced concept, but I think an important one. If you look at the kind of way that the evolution of AI use has gone, it's gone from prompting models to putting models in loops." aria-label="回原文"></button>
+他还借一个观点提醒：要把编码智能当行业看，而不是单一市场——从 Claude Code 这种向开发者暴露原始硬件的产品，到 Replit 这种服务不懂代码的小企业主的抽象层，都是同一个原语的不同定价与打包方式，全都在成立。
 
-把同样的思路推到业务其他部分——价格优化、采购——都是可以全自动化natural业务循环。更激进的"业务循环"是模型做出横跨整个业务的建议，比如"我觉得我们应该在蒂华纳开个分公司"——模型不能自主执行，但能在整个业务表面层提出改变。这就是企业自动化通过 AI 发生的路径。<button class="pd-ts" data-t="16:24" data-who="Anish Acharya" data-en="But that way, every bug that actually gets reported to the enterprise now gets autonomously fixed through this coding loop. As you start to take that idea and apply it to other parts of the business, things like price optimization, things like procurement, these are very natural sort of business loops that occur that can be fully automated by these models." aria-label="回原文"></button>
+## 消费者：三十年河东，这次真是消费者的季度
 
-## 消费者 AI：为什么现在可能是"消费者的季度"
+拖住消费级 AI 的三块石头正在松动。一是消费者不爱为软件付费，而 AI 软件有真实边际成本——Anish 自己做过一个浏览 X 时间线的应用，**接入一个新用户的成本高达 250 美元**，免费大众产品根本算不过账；但开放权重模型正让成本急剧下降。
 
-阻碍消费者 AI 的三件事正在改变。第一，消费者不爱为软件付费，而 AI 软件有边际成本——有人做了一个帮浏览 X 时间线的应用，接入一个新用户成本 250 美元，做大众市场免费产品根本算不过来。但[[开放权重模型|开放权重模型]]正在让成本大幅下降。<button class="pd-ts" data-t="17:53" data-who="Anish Acharya" data-en="Let's go into it. The things that have actually held back consumer so far have been a couple of things. The first is consumers don't love paying for software." aria-label="回原文"></button>
+二是 AI 没有原生分发渠道——没有「AI 的应用商店」，这个周期更像 Web 2.0,得跟产品一起把渠道建出来，而不像移动时代有中心化分发。三是「我们处在 AI 的 DOS 时代」，还需要产品和设计上的「Windows」让普通人消费这些能力。
 
-第二，没有 AI 原生分发渠道，没有"AI 的 App Store"，产品周期更像 Web 2.0（得自己建渠道），不像移动端有中心分发点。<button class="pd-ts" data-t="18:31" data-who="Anish Acharya" data-en="That is changing now because of open weight models, dramatically cheaper and more performant. You know, the second is we've never had an AI-native distribution channel." aria-label="回原文"></button>
+两个方向已经在起作用。一是面向消费者的编码智能体：数字原生一代以前只能当 YouTube 创作者，现在能用编码智能体做出年收入 10 万甚至 100 万美元的软件产品——不是风投级生意，但「夫妻店 SaaS」的机会正在兴起。
 
-第三，我们处于 AI 的"DOS 时代"——命令行。要让消费者完全接受，需要"Windows"级别的产品和设计工艺。<button class="pd-ts" data-t="18:50" data-who="Anish Acharya" data-en="Then the final point, I think, is an important one. You know, command line is we're sort of in the DOS era of AI. And for this technology and its capabilities to sort of fully be embraced by consumers, we're going to need the windows, so to say." aria-label="回原文"></button>
+二是[[个人智能体|个人智能体]]：1 月的 OpenClaw 只是开发者社区的家酿电脑俱乐部式狂欢，没真正破圈；GrokBots 和 ChatGPT 正把个人智能体变成消费者能用的软件。主持人还现场安利了自家投资的产品 Town:接入个人邮箱后自动清洗订阅、浮出重要邮件、甚至发邮件告诉你哪个例程在烧积分——从生产力切入，锁定后扩展职责，最后用户会愿意为「自动驾驶自己的生活」付钱。Anish 给的心智模型：这像一个资深员工对比新员工——新员工可能更聪明更便宜，但资深员工能替组织和「你」做出正确的假设。
 
-正在起作用的两类东西：编码智能体让非程序员能构建年入 10 万甚至 100 万美元的软件产品——这不是风投能投的规模，但是一种"夫妻店 SaaS"机会；[[个人智能体|个人智能体]]开始真正面向消费者，比如 [[GrokBot|GrokBot]]——睡觉前拍张牛仔裤照片说"别超 500 美元"，早上醒来它已经研究、比价、用信用卡买好了。<button class="pd-ts" data-t="19:09" data-who="Anish Acharya" data-en="So I think there's just a ton of work to be done around product and design craft to ensure that consumers know how to consume all these magical new capabilities." aria-label="回原文"></button>
+往远处看，消费者的生活也可以拆成一组循环：家庭、友谊、金钱、健康。围绕自我提升、健康、金融(OpenAI 正聚焦后两者)、购物的循环正在出现，最终形态是消费者生活质量的大幅改善——而且按历史规律，80% 的剩余价值会交付给最好的市场。
 
-## 消费者的定义在变
+会是「一个助手统治一切」还是多个智能体协作？他倾向后者：你要 CFA(理财师)的特质和要派对策划师的特质不一样，GrokBots 已经在产品里演示了多个朝不同方向的机器人协调出全局最优。
 
-一个水管工用 GrokBot 端到端改造业务，这算消费者还是企业？规则很简单：如果获取这个客户的成本无法通过销售团队 justified（通常意味着年合同额 15K），只能通过营销获取，那就当消费者看——大多数小企业主都归这一类。<button class="pd-ts" data-t="21:00" data-who="Anish Acharya" data-en="And so maybe unpack some of that and particularly where you've been spending time as a part of that. I mean, our simple rule is if you cannot justify acquiring the customer through sales, which usually means a 15K ACV, you have to acquire them through marketing." aria-label="回原文"></button>
+## 给创始人的几条实操信号
 
-个人智能体的终极形态不是"一个助手包揽一切"，而是多个专精的智能体协调工作——你想从 CFA（理财顾问）那里得到的特质，和从聚会策划那里得到的不同。GrokBot 的产品形态很好地说明了这一点：多个指向不同方向的机器人协调，交付全局最优结果。<button class="pd-ts" data-t="25:09" data-who="Anish Acharya" data-en="You know, when you think about these personal agent examples, whether it be town or ethos, et cetera, all point to, you know, kind of one assistant having context, but it seems like there's many different options." aria-label="回原文"></button>
+对消费级创业者，这是个不折不扣的复兴时刻：40 年的技术都在提升智力和生产力，现在第一次有了能在情感和人际领域运作的原语——你可以和 Claude 对话并真的产生情绪；实验室和大厂文化上做不了的产品(想象在 Google 内部推一个会反驳你、可能带性暗示的伴侣产品，那边有一千个委员会专门防止这种事)是初创公司的独特领地；而且消费者现在兴奋地下载、兴奋地付费——像 2009 年圣诞节配着 iPhone,但不同于 99 美分的年代，他们愿意每月付 200 美元。他常和创始人做的练习：如果 20 美元是历史上限，你的产品 200 美元/月的档位是什么？
 
-## 实验室不会吃掉应用层
+2000 美元的呢？「软件界的奢侈品」正在出现。
 
-Claude 发布法律插件时（其实就是一打包提示词），汤森路透等法律公司股价暴跌，大家恐慌实验室要纵向整合进应用层。但实际发生的是相反的方向——实验室向下整合到[[推理|推理]]和算力，因为推理工作负载高度同质化，可以在价值链一段建巨大规模；而应用层在定价、包装、产品化上极其碎片化，进入成本高得多。<button class="pd-ts" data-t="10:30" data-who="Anish Acharya" data-en="There's just so much changing. So in January, February, there was a lot of discussion, and it's very idiosyncratic and interesting. You know, Anthropic, Claude released what is called a legal plugin." aria-label="回原文"></button>
+创始人群像也在变：MBA 更少、研究员更多；今天创始人的商业成熟度更低，但技术成熟度显著更高——而技术成熟度是一切好事的上游，商业可以学，技术很难补。资深创始人被卡住，往往是因为离技术不够近、对上限的想象根植于过去；年轻创始人最好的地方是假设一切皆可能。
 
-而且现在不是"一个模型统治一切"的 2023 年了——帕累托前沿上每个点都有多个选项，实验室想拿走你 100% 毛利难多了。<button class="pd-ts" data-t="26:40" data-who="Anish Acharya" data-en="So, you know, and that kind of permission point is an interesting one. I think if we lived in a world of 2023 when it was one model to rule them all, it wouldn't even matter if you had permission because the labs would just take 100% of your gross margin over time." aria-label="回原文"></button>
-
-## 消费级构建者的复兴
-
-这对做消费级产品的人是一种复兴。我们有了能在情感、人际领域运作的原语——40 年的技术提升了智力和生产力，但没什么触动过人性。
-
-而且有些产品大公司在文化上做不了——想想在 Google 推一个可能反驳你、可能含性暗示的伴侣产品，一千个委员会会拦着。初创公司有独特能力。<button class="pd-ts" data-t="28:29" data-who="Anish Acharya" data-en="100%. I mean, it's sort of a renaissance for being a consumer builder because you've got this extraordinary primitive that you can work with. By the way, we now have a primitive that can kind of operate in the, you know, emotional, interpersonal domain." aria-label="回原文"></button>
-
-消费者现在愿意下载新软件、愿意付费——像 2009 年圣诞节的 iPhone 时刻，但不同于当年 99 美分，现在人们愿意一个月付 200 美元。所以要做的是思考"软件界的奢侈品"是什么——如果 20 美元是历史上限，你产品的 200 美元档位是什么？2000 美元档位是什么？<button class="pd-ts" data-t="29:16" data-who="Anish Acharya" data-en="So startups have areas where they're kind of uniquely capable. And then look, finally, the consumer is sort of excited to download new software, excited to pay for it." aria-label="回原文"></button>
-
-创始人画像也变了：MBA 更少，研究员更多。商业成熟度下降，但技术成熟度大幅上升——而技术成熟度是所有好事的上游，商业可以学，技术通常学不来。年轻创始人最好的地方是：他们假设一切都可能。<button class="pd-ts" data-t="31:46" data-who="Anish Acharya" data-en="What kind of archetype are you seeing at least the early innings of apps come out from the woodwork on? Yeah, yeah, less MBAs, more researchers. And they both have their kind of strengths and weaknesses." aria-label="回原文"></button>
+连融资逻辑都在变：以前不给种子公司几千万美元是因为人才撑不起那么大的产品面，现在资本多少直接对应不同的产品和模型权衡，最优种子轮规模成了更微妙的问题。获客上，现有网络(Instagram、TikTok、X)都学会了防止有人在自家网络上建新分发渠道，所以必须做出口碑这个最原始的网络效应；而市场上最有趣的板块是新企业成立——正处历史新高，主力不是 55 岁的水管工，而是 25 岁、以前会去当 YouTube 创作者、现在为社区或高中做 SaaS 的年轻人。
 
 ## 本集带走
-- **模型有性格和专长，不是商品**: 做会计用"高神经质"的精确模型，做设计用"高开放性"的创造模型，组织里两种都需要
-- **应用层的核心价值是模型聚合**: 像 Expedia 聚合航空公司库存一样，用统一产品架构调度多个模型，效果大于单一模型
-- **智能是原语，应用层把它变成经济成果**: 关键演进是从"提示模型"到"把模型放进循环"——Bug 修复循环、价格优化循环、甚至跨业务的战略建议循环
-- **消费者 AI 的三个障碍正在松动**: 边际成本（开放权重模型降价）、分发渠道（仍在建）、产品形态（需要从 DOS 时代进化到 Windows 级别）
-- **消费级定义在扩展**: 无法通过销售团队获取的客户（年合同额不够 15K）都算消费者，包括用 AI 改造业务的小企业主
-- **实验室向下整合到推理，不是向上吃应用层**: 推理同质化适合建规模，应用层定价包装太碎片化，实验室进不来
-- **支付意愿空前高涨**: 想产品的 200 美元甚至 2000 美元月费档位是什么——"软件界的奢侈品"正在出现
-- **创始人画像变了**: 技术成熟度比商业成熟度重要得多，因为商业可以教、技术通常教不会
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+- **别问是不是泡沫，问是否不够乐观**：非前沿 GPU 按小时涨价指向「无限需求 + 受限供给」的反常格局。
+- **模型非商品，按性格选**：像 GLM 5.3 这种字面化的「神经质」模型适合会计类任务，Kimi K3 这种开放型适合创意；组织需要多种心智并存。
+- **模型聚合是被低估的产品形态**：前沿模型做规划、小模型做执行，或对抗式跑多模型再收敛——实验室做不了这件事，是应用层的地盘。
+- **智能是原语，应用负责产品化**：定价、打包、交付方式按细分客户定制(如信用合作社想扩员而非减员)，这才是应用层捕获价值的方式。
+- **找循环，而不是找功能**：把「模型+工具+记忆」的循环套到价格优化、采购乃至跨部门的业务变更上，就是企业自动化的路径。
+- **消费级产品的定价练习**：如果 20 美元是旧上限，设计出 200 美元/月、甚至 2000 美元/月的档位——奢侈软件的机会已经到了。
+
+<div class="pd-sec">全部金句 <span>9 条</span></div>
+
+> <span class="qz">我实际上认为那个较少讨论的分布外话题是，如果我们不够乐观会怎样？</span>  
+> *I think actually the out of distribution topic that's less discussed is what if we're insufficiently optimistic?*  
+> <span class="qm">—— Anish Acharya · [04:21]</span> ^q1
 
 > <span class="qz">如果你看看一些底层指标，它们指向的是基本无限的需求和高度受限的供应。</span>  
-> *And if you look at some of the underlying indicators, what they point to is essentially infinite demand and highly constrained supply.*  
-> <span class="qm">—— Anish Acharya · [04:27]</span> ^q1
+> *if you look at some of the underlying indicators, what they point to is essentially infinite demand and highly constrained supply.*  
+> <span class="qm">—— Anish Acharya · [04:27]</span> ^q2
+
+> <span class="qz">再多的编码智能体也不会让 Nike 变成不是 Nike。</span>  
+> *No amount of coding agents is going to make Nike not Nike.*  
+> <span class="qm">—— Anish Acharya · [06:31]</span> ^q3
+
+> <span class="qz">你开始体会到这些东西不是商品，它们在领域层面上具有比较优势。</span>  
+> *You start to appreciate the fact that these things are not commodities, that they have comparative advantage at a domain level.*  
+> <span class="qm">—— Anish Acharya · [11:49]</span> ^q4
+
+> <span class="qz">在许多产品类别中，模型聚合能产生大于部分之和的成果。</span>  
+> *There are many product categories in which model aggregation delivers a greater than sum of parts outcome.*  
+> <span class="qm">—— Anish Acharya · [13:20]</span> ^q5
+
+> <span class="qz">大多数人想要消磨时间，而不是节省时间。</span>  
+> *Most people want to spend time, not save time.*  
+> <span class="qm">—— Anish Acharya · [21:34]</span> ^q6
 
 > <span class="qz">我们经历了 40 年的技术，它真正提升了我们的智力和生产力，但没有什么能触动我们的人性。</span>  
 > *And we've had 40 years of technology that really boosted our intellect and productivity, but nothing that kind of spoke to our humanity.*  
-> <span class="qm">—— Anish Acharya · [28:46]</span> ^q2
+> <span class="qm">—— Anish Acharya · [28:46]</span> ^q7
 
-> <span class="qz">这就像 2009 年的圣诞节伴随着 iPhone。人们想尝试新应用，但不同于 99 美分的日子，他们愿意一个月支付 200 美元。</span>  
-> *It's like Christmas 2009 with the iPhone. People want to try new apps, but unlike the 99 cents days, they're willing to pay 200 a month.*  
-> <span class="qm">—— Anish Acharya · [29:20]</span> ^q3
+> <span class="qz">人们想尝试新应用，但不同于 99 美分的日子，他们愿意一个月支付 200 美元。</span>  
+> *People want to try new apps, but unlike the 99 cents days, they're willing to pay 200 a month.*  
+> <span class="qm">—— Anish Acharya · [29:23]</span> ^q8
 
-> <span class="qz">我认为我们今天看到的创始人的商业成熟度较低，但技术成熟度显著更高。</span>  
-> *I think the business sophistication of the founders we're seeing today is lower, but the kind of technical sophistication is dramatically higher.*  
-> <span class="qm">—— Anish Acharya · [31:51]</span> ^q4
-
-> <span class="qz">商业成熟度可以被教导和观察，但技术成熟度通常不能。</span>  
-> *Business sophistication can be kind of taught and observed, but technical sophistication typically not.*  
-> <span class="qm">—— Anish Acharya · [32:02]</span> ^q5
+> <span class="qz">我认为这些年轻创始人最好的地方是他们假设一切都是可能的。</span>  
+> *And I think the best thing about these young founders is they assume everything is possible.*  
+> <span class="qm">—— Anish Acharya · [32:28]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 

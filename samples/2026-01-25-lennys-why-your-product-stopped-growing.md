@@ -156,7 +156,7 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:SaaS</span>
 - [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同概念:SaaS</span>
-- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|AI 泡沫的数学与早期投资的真实打法]]<span class="pd-rz">同概念:SaaS</span>
+- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法]]<span class="pd-rz">同概念:SaaS</span>
 
 </div>
 </div>

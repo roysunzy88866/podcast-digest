@@ -164,8 +164,8 @@ Parag 把智能体使用网络的演进分三层。第一层是现在的主流�
 
 **顺着「智能体」挖下去**
 
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|Parag：给智能体用的搜索，为什么不能是给人类用的]]<span class="pd-rz">同嘉宾:Parag、Sonia · 同公司:Parallel · 同概念:后台智能体 (background agent)、推理 (inference)、搜索智能体 (search agent)、智能体 (agent)、爬取 (crawl)、索引 (index)、差别定价 (differential pricing)</span>
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层才是下一个金矿：模型不是商品]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网]]<span class="pd-rz">同嘉宾:Parag、Sonia · 同公司:Parallel · 同概念:后台智能体 (background agent)、推理 (inference)、搜索智能体 (search agent)、智能体 (agent)、爬取 (crawl)、索引 (index)、差别定价 (differential pricing)</span>
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>

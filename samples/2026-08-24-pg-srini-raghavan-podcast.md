@@ -1,5 +1,5 @@
 ---
-title: Freshworks CPO：产品经理、设计师、工程师三个角色正在合并
+title: Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周
 podcast: Product Growth Podcast
 date: 2026-08-26
 source_url: https://www.news.aakashg.com/p/srini-raghavan-podcast
@@ -7,7 +7,7 @@ duration: "65:10"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-24-pg-srini-raghavan-podcast.jpg"
-description: "Freshworks CPO Srini Raghavan 现场演示了一套 AI 产品开发生命周期系统，把 PM 与工程师的比例从 1:20 压到 1:1，发布周期从六个月缩到两周。"
+description: Freshworks CPO Srini Raghavan 展示 200 人产品团队如何用 AI 智能体写 PRD、生成原型、发布周期从六个月缩到两周，并预测 PM、设计师、工程师三角色将合并为「产品构建者」。
 host: "[[Aakash]]"
 cohosts: ["[[Srini Raghavan]]"]
 companies: ["[[Freshworks]]", "[[Cursor]]", "[[Figma]]"]
@@ -18,12 +18,12 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-24-pg-srini-raghavan-podcast.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-pg-srini-raghavan-podcast#post","headline":"Freshworks CPO：产品经理、设计师、工程师三个角色正在合并","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-pg-srini-raghavan-podcast","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-pg-srini-raghavan-podcast","description":"Freshworks CPO Srini Raghavan 现场演示了一套 AI 产品开发生命周期系统，把 PM 与工程师的比例从 1:20 压到 1:1，发布周期从六个月缩到两周。","datePublished":"2026-08-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-pg-srini-raghavan-podcast.jpg","isBasedOn":"https://www.news.aakashg.com/p/srini-raghavan-podcast","about":[{"@type":"Person","name":"Aakash"},{"@type":"Person","name":"Srini Raghavan"},{"@type":"Organization","name":"Freshworks"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"PRD Genie"},{"@type":"Thing","name":"AI PDLC"},{"@type":"Thing","name":"Figma Make"},{"@type":"Thing","name":"Agent Studio"},{"@type":"Thing","name":"产品构建者 (product builder)"},{"@type":"Thing","name":"设计系统 (design system)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Freshworks CPO：产品经理、设计师、工程师三个角色正在合并","item":"https://talk.solomind.cc/2026-08-24-pg-srini-raghavan-podcast"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-pg-srini-raghavan-podcast#post","headline":"Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-pg-srini-raghavan-podcast","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-pg-srini-raghavan-podcast","description":"Freshworks CPO Srini Raghavan 展示 200 人产品团队如何用 AI 智能体写 PRD、生成原型、发布周期从六个月缩到两周，并预测 PM、设计师、工程师三角色将合并为「产品构建者」。","datePublished":"2026-08-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-pg-srini-raghavan-podcast.jpg","isBasedOn":"https://www.news.aakashg.com/p/srini-raghavan-podcast","about":[{"@type":"Person","name":"Aakash"},{"@type":"Person","name":"Srini Raghavan"},{"@type":"Organization","name":"Freshworks"},{"@type":"Organization","name":"Cursor"},{"@type":"Organization","name":"Figma"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"PRD Genie"},{"@type":"Thing","name":"AI PDLC"},{"@type":"Thing","name":"Figma Make"},{"@type":"Thing","name":"Agent Studio"},{"@type":"Thing","name":"产品构建者 (product builder)"},{"@type":"Thing","name":"设计系统 (design system)"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周","item":"https://talk.solomind.cc/2026-08-24-pg-srini-raghavan-podcast"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Freshworks CPO：产品经理、设计师、工程师三个角色正在合并</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Freshworks CPO：产品经理、设计师、工程师三个角色正在合并
+# Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周
 
 <div class="pd-byl"><b>Srini Raghavan</b> · Freshworks CPO · 2026-08-26</div>
 
@@ -40,87 +40,95 @@ jsonLd: |
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/srini-raghavan-podcast)
 
-产品经理写需求文档，交给用户体验设计师画原型，再交给工程师开发——这条线性交接流水线已经彻底死了。[[Freshworks|Freshworks]] 的 CPO [[Srini Raghavan|Srini Raghavan]] 管着超过 200 人的产品团队，他的判断是：产品经理、设计师、工程师这三个角色，未来几年会被一个叫"[[产品构建者|产品构建者]]"的单一角色取代，因为有了 AI，一个人就能同时做调研、设计和开发 <button class="pd-ts" data-t="00:21" data-who="Srini Raghavan" data-en="adopted AI. The traditional linear handoff where product manager writes product requirements document and then it hands it over" aria-label="回原文"></button>。
+这一集是 [[Freshworks|Freshworks]] 的 CPO [[Srini Raghavan|Srini Raghavan]] 聊他 200 多人的产品团队如何全面用 AI 构建软件。最反直觉的一点是：他认为产品经理、用户体验设计师、工程师这三个职称几年内都会消失——被一个「[[产品构建者|产品构建者]]」角色取代，单个人研究客户、理解痛点、构建并交付产品 <button class="pd-ts" data-t="00:09" data-who="Srini Raghavan" data-en="I think these three different roles are going to be replaced by what I call a product builder. Meet Srini Raghavan, CPO of the $2.8 billion employee experience giant Freshworks." aria-label="回原文"></button>。而且他不是空谈，整集大部分时间是现场演示：他们怎么让 AI [[智能体|智能体]]写产品需求文档、生成设计原型、甚至通过 [[MCP|MCP]] 直接处理工单。
 
-这不是空谈，他现场打开工具演示了整套做法。
+## 数据优先，不是 AI 优先
 
-## AI 优先不是上来就用 AI，而是先打地基
+Srini 开场先纠正一个常见误解：不是「人人都在用 AI 写软件」就够了。他们真正做的是先构建让 AI 跑得快的基础——合适的[[设计系统|设计系统]]、编码系统、可复用的仓库，他称之为「数据优先」而非「AI 优先」：不是从 AI 开始，而是先建地基，再在之上用 AI 加速 <button class="pd-ts" data-t="04:03" data-who="Srini Raghavan" data-en="I'm going to show you how we are building software today. So I'm going to spend maybe about two minutes to sort of talk about the AI first versus the data first approach to building software." aria-label="回原文"></button>。
 
-外面很多人说自己在用 AI 构建软件，但 Srini 区分了两种路径：数据优先和 AI 优先。AI 优先不是直接拿 AI 开干，而是先构建让 AI 跑得更快的基础设施——包括合适的[[设计系统|设计系统]]、编码规范、以及一个可以被各环节复用的代码仓库 <button class="pd-ts" data-t="04:09" data-who="Srini Raghavan" data-en="So I'm going to spend maybe about two minutes to sort of talk about the AI first versus the data first approach to building software. So there's a lot of noise out there that everybody is building software by leveraging AI." aria-label="回原文"></button>。有了这些地基，AI 才不会在 75,000 个客户正在使用的产品上瞎编乱造。
+这套地基加上 AI 智能体，就是他们的「[[AI PDLC|AI PDLC]]」（AI 产品开发生命周期，即用 AI 智能体辅助探索、设计、规划、开发的每一阶段）。核心组件包括：知识中心（产品知识和依赖关系）、上下文中心（功能上下文在阶段间传递）、AI 构建器产物仓库（技能、规则、命令）<button class="pd-ts" data-t="05:03" data-who="Srini Raghavan" data-en="So here's the product development lifecycle ecosystem that we have at Freshworks today. This is pretty common across a lot of the software companies. There's discovery," aria-label="回原文"></button>。因为 Freshworks 有 75,000 名客户、触达近 3 亿最终用户，一切都必须受治理和评估框架约束 <button class="pd-ts" data-t="05:51" data-who="Srini Raghavan" data-en="We call it the AI builder artifacts, which is skills, rules, commands. Agents, all these are very specific to Freshworks because we are a billion dollar revenue company and 75,000 customers use our products" aria-label="回原文"></button>。
 
-## PRD Genie：12 步自动出需求文档，但不是自动驾驶
+## PRD Genie：80% 的 PRD 瞬间起草
 
-他们造了一个叫 [[PRD Genie|PRD Genie]] 的东西，跑在 [[Cursor|Cursor]]（一种集成开发环境）里。PM 输入一个问题陈述，它会走 12 个阶段：创意简报、需求梳理、知识收集、竞品分析、客户声音、定量指标提取、内部依赖分析，最后自动出视觉原型 <button class="pd-ts" data-t="09:00" data-who="Srini Raghavan" data-en="It seamlessly plugs the rest of the AI PDLC process across all the teams. So these are the 12 steps. I call it the 12-phase specialized intelligence," aria-label="回原文"></button>。
+传统流程里 PM 的重负是收集证据：功能对比分析、客户反馈、使用指标、社区功能请求、依赖分析——写 PRD 本身只占小头，留给战略思考的时间极少 <button class="pd-ts" data-t="07:20" data-who="Srini Raghavan" data-en="that you have wrote the requirements for and done the design for. When you do this, then the research burden is there on the PMs. They spend a lot of times gathering evidence for functionality," aria-label="回原文"></button>。他们团队一个成员做出来的 [[PRD Genie|PRD Genie]] 解决了这个问题：
 
-关键细节——它不是在真空中写文档。它会连接到他们建在 Databricks 上的数据湖（内部叫 Baikal），直接写 SQL 查询去拉真实的使用数据：有多少客户在用某个功能、按地区分布怎样、功能请求有多少 <button class="pd-ts" data-t="20:55" data-who="Srini Raghavan" data-en="As you can see, here's the hypothesis. What it did, it literally wrote SQL queries to query the Baikal data lake. And you can see, Here," aria-label="回原文"></button>。
+- **几乎瞬间起草 80% 的 PRD**，且基于真实数据 <button class="pd-ts" data-t="08:06" data-who="Srini Raghavan" data-en="And that's exactly the problem that the PRD Genie has solved. It drafts 80% of the PRD almost instantly, and I'm going to show you this in action, and it's grounded in real data." aria-label="回原文"></button>
+- 自动去数据湖（他们的 Databricks 数据湖 Baikal，存着 75,000 客户的使用指标）写 SQL 查询、提取指标、识别数据缺口 <button class="pd-ts" data-t="20:55" data-who="Srini Raghavan" data-en="As you can see, here's the hypothesis. What it did, it literally wrote SQL queries to query the Baikal data lake. And you can see, Here," aria-label="回原文"></button>
+- 做竞争基准分析、客户之声分析、内部依赖映射 <button class="pd-ts" data-t="09:13" data-who="Srini Raghavan" data-en="And I'm going to show you how we built an entire system To get this into action. These are some of the things, competitor analysis, customer feedback analysis, quantitative metrics." aria-label="回原文"></button>
+- 跑一个 12 阶段流程：从创意简报、需求、知识收集、竞争分析，一直到自动化视觉原型和质量保证 <button class="pd-ts" data-t="09:02" data-who="Srini Raghavan" data-en="So these are the 12 steps. I call it the 12-phase specialized intelligence, from idea briefing to requirements to knowledge," aria-label="回原文"></button>
+- 最后过一个「CPO 检查」——一个 AI 智能体替 Srini 审查文档的战略一致性、清晰度和边缘案例，这些原本是他人工审 PRD 时找的东西 <button class="pd-ts" data-t="08:39" data-who="Srini Raghavan" data-en="how are the competitors doing it and how we can do it better than others. And then I call this the CPO check, It's an AI agent that reviews the document for strategic alignment," aria-label="回原文"></button>
 
-它还会做竞品对标，比如拿 Atlassian 的做法做参照 <button class="pd-ts" data-t="20:20" data-who="Srini Raghavan" data-en="How are competitors doing? Like GSM is Atlassian. So it's now, what are they doing?" aria-label="回原文"></button>。最后出一个"CPO 检查"，自动审查文档的战略一致性、清晰度和边缘情况——这本是 Srini 自己审 PRD 时看的东西 <button class="pd-ts" data-t="39:42" data-who="Srini Raghavan" data-en="which means they need to have guardrails and they need to be governed. And one of the ways in which we make sure that the agents don't hallucinate and they're governed inside the enterprise data is by giving it Data to train." aria-label="回原文"></button>。
+现场演示里，PM 正常要写很多天的工作，智能体几秒完成 <button class="pd-ts" data-t="22:18" data-who="Srini Raghavan" data-en="They would have to write all this. Imagine it would take days and days to do this. The agent just did this in a matter of seconds, not even minutes." aria-label="回原文"></button>。产出的 PRD 包含问题陈述、目标、范围、用户画像、定量证据、约八个用户故事、功能与非功能需求，甚至定价和推出建议 <button class="pd-ts" data-t="23:36" data-who="Srini Raghavan" data-en="And it sort of... It's sort of the important part, quantitative evidence. It sort of shows, this is what I said by code, which is our data lake built on Databricks." aria-label="回原文"></button>。
 
-但 Srini 强调，AI 不是在自动驾驶。它是一个副驾驶，产品经理的价值从"做操作性工作"转移到了"做判断"：选哪个版本的数据作为参考、怎么写提示词让 AI 跑得更快 <button class="pd-ts" data-t="26:05" data-who="Srini Raghavan" data-en="So it's not completely automated. The way I would describe it is, AI is not running completely on autopilot. It's actually a copilot." aria-label="回原文"></button>。你不能让 AI 在构建软件时产生幻觉——75,000 个客户会受到影响，这不可接受 <button class="pd-ts" data-t="26:40" data-who="Srini Raghavan" data-en="that it needs to reference so that it doesn't help. You can't afford AI to hallucinate in building software. It's just not acceptable." aria-label="回原文"></button>。
+## 为什么选 Cursor，以及为什么不是自动驾驶
 
-## 从文档到原型：预加载脚手架，不从空白画布开始
+Srini 选 [[Cursor|Cursor]]（一个 AI 加持的集成开发环境）做这一切，三个理由：完全非技术的人也能用好；可以按任务挑模型，不必全用最新 LLM；能连 [[Figma|Figma]] 等第三方——他用 Figma MCP 插件让 AI 读设计稿直接生成代码 <button class="pd-ts" data-t="10:00" data-who="Srini Raghavan" data-en="Ah, very good question. The Cursor is an integrated development environment, which to me, I like Cursor for three reasons." aria-label="回原文"></button>。他本人 14 年没碰代码，现在又天天在 Cursor 里写软件 <button class="pd-ts" data-t="06:47" data-who="Srini Raghavan" data-en="I was in corporate strategy, and then I became a product leader. And during that course, I used to use an IDE to build software," aria-label="回原文"></button>。模型上他从 Claude Opus 换到了 Grok，因为快得多，没有一步超过十几秒 <button class="pd-ts" data-t="19:19" data-who="Srini Raghavan" data-en="Is that why you chose it? That's right. I'm increasingly, I used to use Cloud Opus 4.6." aria-label="回原文"></button>。
 
-PRD 出来后，原型不是从零开始画。他们把 Fresh Service（主打产品之一）的整个界面框架作为"脚手架"预加载进去——这 literally 是五十万用户登录后看到的同一个屏幕 <button class="pd-ts" data-t="28:06" data-who="Srini Raghavan" data-en="And this is the scaffolding. When I say scaffolding, what I mean is this is literally the screen that," aria-label="回原文"></button>。然后把 PRD 喂给 [[Figma Make|Figma Make]]（[[Figma|Figma]] 内的 AI 生成工具），让它在这个现有框架里构建新模块。
+但他反复强调：**AI 不是自动驾驶，是副驾驶** <button class="pd-ts" data-t="26:05" data-who="Srini Raghavan" data-en="So it's not completely automated. The way I would describe it is, AI is not running completely on autopilot. It's actually a copilot." aria-label="回原文"></button>。PRD 里每个引用的版本、为什么引用它，都会在 Markdown 文件里明确写出来，供人核对 <button class="pd-ts" data-t="25:50" data-who="Srini Raghavan" data-en="That's what the initialization process does. When it created these markdown files, you will see that in the markdown files," aria-label="回原文"></button>。
 
-但这里人的判断依然关键：第一次生成时，AI 没有用对他们的设计系统（叫 Due），Srini 必须手动纠正、给它正确的组件引用 <button class="pd-ts" data-t="35:41" data-who="Srini Raghavan" data-en="Then it responded to that. The Sankey chart, Sankey chart is this cool thing that you see here. For those of you that don't know, This thing that you see here is called a Sankey Chart." aria-label="回原文"></button>。后来他又发现生成的设计在窄屏显示器上不能用——一个有经验的设计师本能会考虑的事情，AI 不会主动想到 <button class="pd-ts" data-t="35:01" data-who="Srini Raghavan" data-en="Finally, it came back. And then I realized that this design does not work in narrow monitors. So I said, you know, people use real users." aria-label="回原文"></button>。
+他指出用 Lovable、Replit 这类工具从零建新东西很容易，难的是有 75,000 客户在用的存量产品——你承担不起 AI 幻觉，必须把它锚定在它该引用的东西上 <button class="pd-ts" data-t="25:25" data-who="Srini Raghavan" data-en="AI for building completely new things. Like think of Lovable or Replit or any of your favorite tools. It's very easy to use AI or even Figma Make for that matter." aria-label="回原文"></button>。价值因此从操作工作转向判断：该给哪个版本、怎么提示 AI <button class="pd-ts" data-t="26:15" data-who="Srini Raghavan" data-en="There is still value for the product manager. If the product manager is doing it for the product manager to do it, if the engineer is doing it, the engineer should be doing it." aria-label="回原文"></button>。
 
-## 为什么选 Cursor 和 Figma Make
+## 从 PRD 到原型：预加载脚手架
 
-选 Cursor 三个原因：第一，它足够无代码，完全非技术的人也能用 <button class="pd-ts" data-t="10:08" data-who="Srini Raghavan" data-en="which to me, I like Cursor for three reasons. Number one is I can get started and it's a no-code IDE, completely non-technical person can use it." aria-label="回原文"></button>；第二，可以按任务挑选不同模型，不是所有事都需要最强的 LLM <button class="pd-ts" data-t="10:25" data-who="Srini Raghavan" data-en="That's number one. Number two is, unless you pick and choose the models, like not everything needs a latest LLM model." aria-label="回原文"></button>；第三，它能通过 [[MCP|MCP]]（一种让 AI 工具连接外部数据源的协议）插件读取 Figma 原型并生成代码 <button class="pd-ts" data-t="10:37" data-who="Srini Raghavan" data-en="of what needs to be done. Number three, it has connections to Figma and other third-party sources. Like I use," aria-label="回原文"></button>。
+设计环节用 [[Figma Make|Figma Make]]。关键做法是**不从空白画布开始**：先预加载 Freshservice 的「脚手架」——用户实际看到的产品界面模板、设计系统 Due，然后说「用这个 Starter Kit 从 PRD 构建分析部分」<button class="pd-ts" data-t="27:47" data-who="Srini Raghavan" data-en="the performance dashboard, is inside the Fresh Service scaffolding. So I'm preloading the fresh service scaffolding so that when I create the prototype using the PRD that I created earlier," aria-label="回原文"></button>。
 
-选 Figma Make 则主要是因为团队熟悉度——改变软件构建方式的时候，不要同时逼人换工具，否则阻力太大 <button class="pd-ts" data-t="33:47" data-who="Srini Raghavan" data-en="And so it makes it easier. From an adoption standpoint, when you are changing The ethos of how software is built," aria-label="回原文"></button>。
+这个过程也不是一次到位：AI 第一次没全用设计系统的组件，他得指定组件再让它改；后来他又发现设计在窄显示器上不能用，要求适配不同屏幕——「很有经验的设计师才会想到这一点，这就是为什么理解最终用户、人的判断仍然重要」 <button class="pd-ts" data-t="34:33" data-who="Srini Raghavan" data-en="So it's not straightforward that you just give it the design. So here it said, do design components. Then it asked me some questions." aria-label="回原文"></button>。
 
-## Agent Studio + MCP：从构建产品到产品本身
+## Agent Studio 与 MCP：5 分钟干完 12 小时的活
 
-后面 Srini 展示了他们用这套 [[AI PDLC|AI PDLC]] 构建出来的实际产品——[[Agent Studio|Agent Studio]]。企业 IT 管理员可以用它搭建面向内部员工的 AI [[智能体|智能体]]，处理 IT 和 HR 请求：密码重置、软件申请、保险政策咨询、W-4 税表获取，甚至自动生成就业证明信 <button class="pd-ts" data-t="37:15" data-who="Srini Raghavan" data-en="People summarize things, people brainstorm on things. But what the agent studio is meant for is meant for two specific things. The specific things are to get when an employee joins a company and they need help" aria-label="回原文"></button>。
+后半段他演示了自家的 EX AI [[Agent Studio|Agent Studio]]（让企业构建 IT/HR 领域智能体，部署在 Slack 或 Teams 里）——预置了密码重置、PagerDuty 建事件等开箱即用工作流（覆盖 80% 客户最常用的场景），知识可以来自 URL、政策文档、解决方案文章，或 Google、SharePoint、Confluence 等第三方连接器 <button class="pd-ts" data-t="38:31" data-who="Srini Raghavan" data-en="Now I'll show you the workflows. Think of workflows as things that are building blocks. So for example, there is a workflow for creating an incident inside PagerDuty." aria-label="回原文"></button>。员工在 Slack 里就能问心理健康福利、要 W4 税表、甚至生成给银行的雇佣验证信，全程引用来源 <button class="pd-ts" data-t="44:40" data-who="Srini Raghavan" data-en="And I can use this to ask questions privately. So I can say here, what are the mental health benefits offered as part of my insurance policy? If I'm the kind of person that wants a private answer, then I can ask this here." aria-label="回原文"></button>。
 
-智能体的"知识"来自三个地方：手动录入的解决方案文章和政策文档、通过连接器拉取的第三方知识库（Google、SharePoint、Confluence）、以及服务目录（员工只能申请目录里有的东西，不能随便提要求）<button class="pd-ts" data-t="39:25" data-who="Srini Raghavan" data-en="Then the next one that I want to show you is the knowledge. Here's the knowledge. If I go to one of the existing AI agents, let me look at this IT and HR agent." aria-label="回原文"></button>。
+更硬核的是 Freshservice MCP 连接 Claude：他一句提示词让 Claude 拉「过去 60 天所有 Windows 11 问题工单」并生成根因分析——Claude 发现 12 张工单对应两次 Windows 补丁发布、给出根因（驱动回退导致蓝屏），还主动建议了超出提问的行动方案 <button class="pd-ts" data-t="50:00" data-who="Srini Raghavan" data-en="So I'm going to ask it some questions. I'm going to say, hey, fetch all the tickets with Windows 11 rate ratios reported in the last 60 days." aria-label="回原文"></button>。接着 Claude 检索知识库、为 12 张工单各写了回复并直接发出。
 
-最精彩的环节是 MCP 的实际应用。他把 Claude 连上了 Fresh Service 的 MCP，一条提示词说"拉取过去 60 天所有 Windows 11 相关工单，生成根因分析报告"——以前这要三个人分三步做，现在 Claude 直接查数据、生成报告、还附上了推荐行动方案 <button class="pd-ts" data-t="50:00" data-who="Srini Raghavan" data-en="So I'm going to ask it some questions. I'm going to say, hey, fetch all the tickets with Windows 11 rate ratios reported in the last 60 days." aria-label="回原文"></button>。接着他让 Claude 根据知识库文章自动回复这 12 个工单，一键批量发送——过去每个工单要一两个小时，12 个工单就是 12 到 24 小时，现在五分钟搞定 <button class="pd-ts" data-t="53:10" data-who="Srini Raghavan" data-en="It actually suggested, do you want me to send the And I said, okay, great. Go ahead and send these replies to the tickets. And it actually sent the replies to all these tickets." aria-label="回原文"></button>。
+这些活原来是三个人、三步流程，每张工单一两小时，合计 12 到 24 小时——现在五分钟 <button class="pd-ts" data-t="53:10" data-who="Srini Raghavan" data-en="It actually suggested, do you want me to send the And I said, okay, great. Go ahead and send these replies to the tickets. And it actually sent the replies to all these tickets." aria-label="回原文"></button>。IT 人员也不再需要只当 Windows 或服务器专家，「你可以成为整个 IT 环境的专家」 <button class="pd-ts" data-t="53:51" data-who="Srini Raghavan" data-en="Then in one shot, I say, okay, help me answer these tickets because I may be a new agent. I just joined. So I don't know much about any of these things." aria-label="回原文"></button>。
 
-## 组织变革：1:20 变成 1:1
+## 组织剧变：1:20 到 1:1
 
-这套做法带来的组织变化很剧烈。18 个月前，PM 与工程师的比例是 1:10 到 1:20，每两个 PM 配一个设计师 <button class="pd-ts" data-t="56:55" data-who="Srini Raghavan" data-en="So when I started, which was like 18 months back and not too long, we had almost 1 is to 20 in terms of PM to engineer ratio." aria-label="回原文"></button>。
+他 18 个月前加入时，PM 与工程师比例约 1:10 到 1:20，每两个 PM 配一个 UX。现在采用新方式的团队里，比例变成了一个 PM 对一个工程师，有时根本没有设计师 <button class="pd-ts" data-t="56:52" data-who="Srini Raghavan" data-en="Can you walk through that evolution and what's driving it? Yeah. So when I started," aria-label="回原文"></button>。层级和规划也砍掉了：不再要六个月规划会，两周规划、两周发布——发布周期从六个月压到两周，他预计未来六个月可能到每两天一版 <button class="pd-ts" data-t="57:44" data-who="Srini Raghavan" data-en="a lot of layers as well. You don't need to have the sprint planning session, six months planning session. You plan in two weeks." aria-label="回原文"></button>。
 
-过去 3 到 6 个月，采用 AI PDLC 的团队已经演变成 1 个 PM 对 1 个工程师，有时甚至不需要设计师 <button class="pd-ts" data-t="57:27" data-who="Srini Raghavan" data-en="one UX person for every two PMs and then 20 engineers for every PM. To that, what's happened is we have evolved into one PM to maybe one engineer. And sometimes there's not even a user experience designer." aria-label="回原文"></button>。发布周期从六个月压缩到两周，他预测半年内可能变成每周甚至每两天发布一次 <button class="pd-ts" data-t="58:06" data-who="Srini Raghavan" data-en="to our end customers has significantly improved. So imagine coming down from six months to two weeks. And that's the pace at which it has changed." aria-label="回原文"></button>。
+对还没转型的 CPO，他的路线图只有一条：**别发文件说教，自己下场做给团队看**。「一堆 PPT 和文档，大家读了只会觉得这家伙坐在象牙塔里说教」 <button class="pd-ts" data-t="59:01" data-who="Srini Raghavan" data-en="what is the roadmap to transform your team into this new way of working? The number one thing to do is not just have an edict across the organization, but actually do it." aria-label="回原文"></button>。
 
-## 给其他 CPO 的转型建议
+他自己过去六个月重新捡起软件开发，写的代码可能比当工程师十年时还多 <button class="pd-ts" data-t="59:29" data-who="Srini Raghavan" data-en="You have to actually show. So I picked up, again, software development in the last six months and I'm really enjoying it. And I've probably written more code than..." aria-label="回原文"></button>。另外，每月产品例会改成纯演示会，找出那些前沿的「冠军」——PRD Genie 和整套 Cursor 流程都是团队成员自发做出来、演示后标准化的 <button class="pd-ts" data-t="60:19" data-who="Srini Raghavan" data-en="Identify those people, identify those champions. So we do a monthly product team meeting where literally it's like showcasing, it's demos. It's people showing demos of things that they're doing." aria-label="回原文"></button>。
 
-第一，别发 PPT 说教，自己上手做。Srini 做了 10 年工程师，中间 14 年没碰代码，现在又每天泡在 Cursor 里写代码，写的可能比当年还多 <button class="pd-ts" data-t="59:29" data-who="Srini Raghavan" data-en="You have to actually show. So I picked up, again, software development in the last six months and I'm really enjoying it. And I've probably written more code than..." aria-label="回原文"></button>。
+招人方面，他面试 PM 必看 Git 仓库：「技能可以教，激情教不了」；面试不再是「讲讲这个讲讲那个」，而是「打开 Cursor 给我看看你做了什么」 <button class="pd-ts" data-t="62:37" data-who="Srini Raghavan" data-en="but you should be open, you should be curious. And I really want to see, when I interview a PM, I want to see their Git repository. How much of the things that they have done on their own." aria-label="回原文"></button>。
 
-第二，找出组织里那些已经在前沿尝试的人，给他们舞台。PRD Genie 就是一个团队成员自己捣鼓出来、在月度产品会上演示后，才被标准化推广的 <button class="pd-ts" data-t="60:26" data-who="Srini Raghavan" data-en="So we do a monthly product team meeting where literally it's like showcasing, it's demos. It's people showing demos of things that they're doing. The PRD genie that I showed you earlier was something that one" aria-label="回原文"></button>。
-
-招聘方面，他不要求候选人以前做过 AI PM——这太新了，没人有太多经验。他看两样东西：好奇心，和对变化的开放度。
-
-面试时他想看候选人的 Git 仓库——你业余自己动手做了什么？技能可以教，激情教不了 <button class="pd-ts" data-t="62:08" data-who="Srini Raghavan" data-en="How are you assessing whether they have this level of capability? Look, this is fairly new for everybody. I think we look for curiosity." aria-label="回原文"></button>。
-
-> 【背景】MCP 全称 Model Context Protocol，是 Anthropic 推出的开放协议，让 AI 模型能够安全地连接外部数据源和工具。转写稿中多次出现 MCP 但未展开解释。
+他对 PM 同行的最后一个提醒是认知层面的：整个软件过去都是为人构建的，但你刚才看到 MCP 系统是为 AI 智能体构建的——**你必须同时为人类和 AI 智能体构建产品**，把过去的做法忘掉重学 <button class="pd-ts" data-t="56:00" data-who="Srini Raghavan" data-en="You'll have to unlearn a lot of things that you've done and relearn things. Like everything, entire software was built for humans. What we just saw with MCP, that was not a system that was built for humans." aria-label="回原文"></button>。
 
 ## 本集带走
-- **AI 优先 = 先打地基再用 AI**：把设计系统、编码规范、数据仓库这些基础设施先建好，AI 才能基于真实数据快速产出，而不是从空白画布开始瞎编。
-- **让 AI 连真实数据源，别让它自由发挥**：PRD Genie 之所以能用，是因为它连着数据湖写 SQL 拉指标、连着竞品数据库做对标。在已有大量客户的产品上用 AI，"接地"比"聪明"重要得多。
-- **人的角色从"执行"变成"判断"**：AI 出初稿，人判断对不对——选哪个版本、设计系统能不能用对、窄屏能不能适配。这些判断决定了最终质量。
-- **原型生成要预加载现有框架**：不要从空白画布开始，把用户已经在用的界面作为脚手架喂给 AI，生成的东西才不会跟现有产品割裂。
-- **转型从"找到那个人"开始**：别发令，找组织里已经在自己尝试 AI 工具的人，让他演示，然后标准化推广。
-- **面试 PM 看 Git 仓库，不看案例面试**：在 AI 时代，一个人业余动手做了什么，比他在面试里怎么分析一个假案例更能说明问题。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+- **先建地基再用 AI**：设计系统、编码规范、可复用仓库这些「数据优先」的基础，决定了 AI 能跑多快；直接上 AI 是次优解。
+- **让 AI 写 PRD 但锚定数据**：PRD Genie 起草 80%，但每个引用的版本和理由都写进文档供人核对——防幻觉靠 grounding，不靠信任。
+- **原型不从空白画布开始**：预加载真实产品的脚手架和设计系统，让 AI 在已被 75,000 客户使用的界面上改，而不是凭空生成。
+- **人的价值从执行转向判断**：指定组件、发现窄屏适配问题、决定给 AI 哪个版本参考——这些是 AI 替代不了的部分。
+- **转型靠示范不靠法令**：CPO 自己写代码、月会改成演示会、把自发做工具的成员捧成冠军再标准化。
+- **招 PM 看Git 仓库**：技能可教、激情教不了，面试就一句「打开 Cursor 给我看看你做了什么」。
+- **为 AI 智能体而设计**：MCP 这类接口的使用者是智能体不是人，下一代产品要同时服务人类和智能体两端。
+
+<div class="pd-sec">全部金句 <span>6 条</span></div>
 
 > <span class="qz">所以价值从做操作性工作转移到了判断。</span>  
 > *So the value sort of shifts from doing operational work to judgment.*  
 > <span class="qm">—— Srini Raghavan · [26:20]</span> ^q1
 
-> <span class="qz">你无法承担 AI 在构建软件时出现幻觉的后果。这是不可接受的。</span>  
-> *You can't afford AI to hallucinate in building software. It's just not acceptable.*  
-> <span class="qm">—— Srini Raghavan · [26:40]</span> ^q2
+> <span class="qz">我们不会从空白画布开始，我们从已经被 75,000 名客户使用的画布开始。</span>  
+> *We don't start with a blank canvas. We start with the canvas that's already used by 75,000 customers.*  
+> <span class="qm">—— Srini Raghavan · [27:59]</span> ^q2
 
-> <span class="qz">我们刚才看到的 MCP，那不是一个为人类构建的系统。它是为一个 AI 智能体构建的，该智能体是为了让 Cloud 更有效而构建的。</span>  
-> *What we just saw with MCP, that was not a system that was built for humans. It was built for an AI agent that was built for Cloud to be more effective.*  
-> <span class="qm">—— Srini Raghavan · [56:04]</span> ^q3
+> <span class="qz">编码和商业知识以及编写产品需求的经验在过去很重要，但现在判断非常重要。</span>  
+> *coding and business knowledge and experience of writing product requirements was important in the past, but now judgment is very important.*  
+> <span class="qm">—— Srini Raghavan · [35:18]</span> ^q3
 
-> <span class="qz">所以要展示它，而不仅仅是嘴上说说，因为哪怕是一堆 PowerPoint 幻灯片和大量文件，人们读了这些东西后会想，好吧，随便吧，这家伙只是坐在象牙塔里说教。</span>  
-> *So show it, not just saying it because a bunch of PowerPoint slides and a ton of documents. People read these things and they're like, okay, whatever, this guy's sitting in ivory tower and preaching.*  
-> <span class="qm">—— Srini Raghavan · [59:14]</span> ^q4
+> <span class="qz">现在 12 个工单，想一想就像 12 小时，12 到 24 小时，我们刚在大约五分钟内做完这个。</span>  
+> *Now 12 tickets, think of it like 12 hours, 12 to 24 hours. We just did this in like five minutes.*  
+> <span class="qm">—— Srini Raghavan · [54:19]</span> ^q4
+
+> <span class="qz">因为你无法教给人们激情，但你可以教授技能。</span>  
+> *Because you can't teach passion to people. You can teach skills.*  
+> <span class="qm">—— Srini Raghavan · [62:44]</span> ^q5
+
+> <span class="qz">我真的很想看到，当我面试一个 PM 时，我想看到他们的 Git 仓库。</span>  
+> *I really want to see, when I interview a PM, I want to see their Git repository.*  
+> <span class="qm">—— Srini Raghavan · [62:37]</span> ^q6
 
 <div class="pd-sec">接着看</div>
 

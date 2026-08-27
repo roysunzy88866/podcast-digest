@@ -104,7 +104,7 @@ Justin 最后强调：运营工作的成本不在任务执行本身，而在环�
 
 **顺着「智能体」挖下去**
 
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同公司:Slack · 同概念:智能体 (agent)、沙箱 (sandbox)、可观测性 (observability)</span>
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Slack · 同概念:智能体 (agent)、沙箱 (sandbox)、可观测性 (observability)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Slack、GitHub · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Slack · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
@@ -114,7 +114,7 @@ Justin 最后强调：运营工作的成本不在任务执行本身，而在环�
 **换个口味**
 
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同公司:Slack、GitHub · 同概念:智能体 (agent)</span>
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)</span>
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>

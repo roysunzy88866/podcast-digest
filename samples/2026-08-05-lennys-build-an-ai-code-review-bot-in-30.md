@@ -111,7 +111,7 @@ jsonLd: |
 
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同公司:Slack · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Slack · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

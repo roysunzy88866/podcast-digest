@@ -171,7 +171,7 @@ AI 时代管理者的最大挑战不是学新工具，而是**变化的速度前
 
 **换个口味**
 
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评测标准 (evals)</span>
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评测标准 (evals)</span>
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同概念:智能体 (agent)、评测标准 (evals)</span>
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:OpenAI、Replit · 同概念:智能体 (agent)</span>
 

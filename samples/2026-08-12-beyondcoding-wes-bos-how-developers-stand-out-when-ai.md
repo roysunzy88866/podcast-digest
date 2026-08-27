@@ -1,5 +1,5 @@
 ---
-title: Wes Bos 谈 AI 编程时代如何脱颖而出
+title: 当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下
 podcast: Beyond Coding
 date: 2026-08-25
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "28:55"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai.jpg"
-description: 前端开发者 Wes Bos 认为 AI 编程不会回退，但成本不可持续；开发者应靠个人品牌而非代码本身证明能力。
+description: 前端教育者 Wes Bos 聊智能体时代的工作方式：为什么代码不再证明能力、便宜模型的吸引力，以及个人品牌为何成了必需品。
 host: "[[Wes Bos]]"
 concepts: ["[[生成式 UI]]", "[[vibe coding]]", "[[智能体]]", "[[迭代循环]]", "[[LLM]]", "[[本地模型]]", "[[个人品牌]]"]
 category: AI 编程
@@ -15,109 +15,123 @@ tags:
   - AI 编程
 socialImage: "https://talk.solomind.cc/covers/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai#post","headline":"Wes Bos 谈 AI 编程时代如何脱颖而出","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai","mainEntityOfPage":"https://talk.solomind.cc/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai","description":"前端开发者 Wes Bos 认为 AI 编程不会回退，但成本不可持续；开发者应靠个人品牌而非代码本身证明能力。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai.jpg","about":[{"@type":"Person","name":"Wes Bos"},{"@type":"Thing","name":"生成式 UI (generative UI)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"迭代循环 (iterative loop)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"本地模型 (local models)"},{"@type":"Thing","name":"个人品牌 (personal branding)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Wes Bos 谈 AI 编程时代如何脱颖而出","item":"https://talk.solomind.cc/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai#post","headline":"当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai","mainEntityOfPage":"https://talk.solomind.cc/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai","description":"前端教育者 Wes Bos 聊智能体时代的工作方式：为什么代码不再证明能力、便宜模型的吸引力，以及个人品牌为何成了必需品。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai.jpg","about":[{"@type":"Person","name":"Wes Bos"},{"@type":"Thing","name":"生成式 UI (generative UI)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"迭代循环 (iterative loop)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"本地模型 (local models)"},{"@type":"Thing","name":"个人品牌 (personal branding)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下","item":"https://talk.solomind.cc/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Wes Bos 谈 AI 编程时代如何脱颖而出</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Wes Bos 谈 AI 编程时代如何脱颖而出
+# 当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下
 
 <div class="pd-byl"><b>Wes Bos</b> · 前端开发者 · 2026-08-25</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我认为这很棒，人们可以只制作他们自己的版本，让他们开心，并且完全做他们想做的事，而不是他们的 20,000 个客户需要的事。</div><div class="a">— Wes Bos <button class="pd-ts" data-t="04:17" data-who="Wes Bos" data-en="I think that's great that people can just make their own version of something that makes them happy and does exactly what they want and not what their 20,000 customers need." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">代码不再能代表你的能力了。</div><div class="a">— Wes Bos <button class="pd-ts" data-t="01:17" data-who="Wes Bos" data-en="The code doesn't speak for your ability anymore." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Wes Bos]]
 >
 > **概念** [[生成式 UI]] · [[vibe coding]] · [[智能体]] · [[迭代循环]] · [[LLM]] · [[本地模型]] · [[个人品牌]]
 
-当所有人都用[[智能体|智能体]]写代码，代码就不再能证明你的能力了——你需要另一种方式展示你到底会什么。这是前端社区长期做教学的 [[Wes Bos|Wes Bos]] 的判断 <button class="pd-ts" data-t="21:09" data-who="Unknown" data-en="And that's... that's how you get noticed especially like now the like the code doesn't speak for your your ability anymore you know and so you need another way to show that you actually know what you're doing you know and and if you don't have any way to show that you may be solving hard problems in your job right now but if you're not like you don't have any other way to like show that to the world um then it's it's gonna be hard for you to like progress through your career yeah so like i don't putting yourself out there on social media" aria-label="回原文"></button>。
+这一集的主角是 Wes——前端社区里以教程和课程闻名的教育者，聊的是当所有人都在用[[智能体|智能体]]写代码之后，开发者的工作方式、学习和职业发展都发生了什么变化。他抛出的最扎心的一句是：代码不再能为你的能力代言了，你需要另一种方式证明自己知道在做什么。
 
-## 生成式 UI：有上下文，但还没到那一步
+> 【背景】转写稿中写作 Wes Boss，通常指 Wes Bos，以 JavaScript 和前端教学课程著称的加拿大开发者。
 
-[[生成式 UI|生成式 UI]] 的核心前提是对的：AI 非常擅长根据已有上下文决定该做什么，所以下一步就是让它帮你生成界面。比如智能家居——它已经知道你的灯什么时候开、摄像头什么时候关，理论上它应该能直接为你生成一个控制面板，而不是让你花时间自己设计 <button class="pd-ts" data-t="02:09" data-who="Unknown" data-en="You know, I often talk about like smart home. My smart home knows everything about me, like when my cameras have gone off, when my lights are turned on and off. And like, what should be the interface for my smart home?" aria-label="回原文"></button>。
+## 生成式 UI：还没被攻下的高地
 
-但现实中还没产品真正用好这件事。Wes 他们试过让 AI 根据播客文稿自动生成字幕条之类的视觉覆盖层，结果做出来的东西「有点俗气」，不够好 <button class="pd-ts" data-t="05:15" data-who="Unknown" data-en="You know, like lower thirds or like dots and whatnot. And we're getting there, being able to like say like, here's a transcript, make a whole bunch of like overlays, but they still feel a bit cheesy and they don't feel like very good." aria-label="回原文"></button>。
+话题从[[生成式 UI|生成式 UI]] 开始。Wes 承认这一年模型变化很大：理解意图的能力显著提升，能吃进的上下文也多得多。
 
-更根本的问题是：用户真的能比专门做产品的人设计出更好的界面吗？有些粗制滥造的网站被 AI 炮制出来，体验很差。你仍然需要 UI 设计师去理解人怎么用产品 <button class="pd-ts" data-t="03:35" data-who="Unknown" data-en="In other cases, no. You see some of these shitty websites that get cranked out, and it's just not a good experience. You still need user interface designers to understand how people use a product." aria-label="回原文"></button>。
+他举了个切身例子——智能家居。他的智能家居系统知道他的一切：摄像头什么时候触发、灯什么时候开关。
 
-不过有一个中间地带确实在发生：很多人用 [[vibe coding|vibe coding]]（凭感觉描述需求让 AI 写代码）做出自己专属的工具版本——不是给两万用户做的，是给自己做的，解决自己的痛点。这很棒，但这跟「生成式 UI 组件」不是一回事 <button class="pd-ts" data-t="04:06" data-who="Unknown" data-en="And I think that's why this like the like middle ground of like generative UI, meaning that like you can give it a whole bunch of components, but you should still be able to like tweak it a little bit to what you want." aria-label="回原文"></button>。
+那它的界面应该是什么样？他的答案是：根本不该由他花几个月去设计一个「完美的控制面板」，而应该让系统根据它掌握的上下文，直接为他生成一个控制面板。因为 AI 非常擅长在给定上下文的情况下决定做什么，下一步自然就是替你生成 UI。
 
-## 真正有效的智能体用法：迭代循环
+但这里有条边界。问题在于：用户足够聪明到做出比专业产品设计师更好的界面吗？
 
-Wes 日常开发大概是 Cursor 和 Claude Code 各占一半 <button class="pd-ts" data-t="09:59" data-who="Unknown" data-en="Because it's fun to architect these huge systems, but in a month it's just a prompt. What is your favorite harness right now? Oh man, I go in between all of them just for the sake of being able to do it." aria-label="回原文"></button>。他观察到一种叫 loop engineering 的做法——人不直接写提示词，而是写一个循环，让循环去驱动模型 <button class="pd-ts" data-t="05:38" data-who="Unknown" data-en="People work in kind of an augmented way, agent augmented. Some people go fully autonomous and they have loop engineering is a newer term I heard where they don't even prompt, they engineer the loop and that then prompts the model." aria-label="回原文"></button>。
+Wes 的判断是——有时候行，有时候不行。你确实能看到大量粗制滥造的网站被批量炮制出来，体验很差；你仍然需要真正的界面设计师去理解人们怎么用产品。
 
-他自己就干过这事：在 Cursor 里让模型照着一份 API 文档构建界面，模型总是做一半就停下来，因为跑太久太贵了。于是他写了个循环：每次模型说做完了，就让它回头去对照原始 API 文档，逐条检查有没有遗漏。
+所以他看好的是一个中间地带：给模型一大堆预置组件，生成之后你还能按自己的需求微调。他坦白说，生成式设计这件事「还没被攻破」——代码生成已经被攻破了，但好的 UI 设计没有。
 
-这样循环了七八次，每次都发现新的用例没覆盖到。一次性做完太多，[[迭代循环|迭代循环]]反而更好 <button class="pd-ts" data-t="06:48" data-who="Unknown" data-en="And even like I was building something the other day and. It was in Cursor and I told it to do X, Y, and Z and it like keeps like ducking out and doing kind of a half-assed job at it even though I'm using like the latest models and I think it's to do that they don't want to like build too much or they don't want to run for too long because it gets really expensive right but I wanted it to go longer so like I just in that case I coded up a loop where it says like every time you're done go back to the source I was trying to like copy um an API I had like an API set of docs" aria-label="回原文"></button>。
+他自己尝试给播客做程序化的字幕覆盖层，给模型一份 transcript 让它批量生成，结果「还是感觉有点廉价」。有意思的另一个侧面是：很多人因为受够了每天用的工具，干脆 [[vibe coding|vibe coding]] 出一个只给自己用的版本——Wes 觉得这是好事，你做的东西只需要让自己开心、满足自己的用例，不用服务两万个客户。每个人现在都能成为构建者。
 
-更广泛的自愈场景也成立——网站报错、用户投诉、日志异常，这些上下文喂给模型让它自动修。但现在的问题是太贵了。认真这么干的人要么在烧几千美元，要么在用月费 200 美元的套餐然后 token 很快用光 <button class="pd-ts" data-t="06:20" data-who="Unknown" data-en="And if your website is just constantly self-healing itself or self-improving it, I think that's great. It's just that right now, it's just way too expensive to actually do that." aria-label="回原文"></button>。
+## 循环、成本，和「钱烧完了怎么办」
 
-## 成本是最大的隐患
+聊到工作方式，主持人提到「loop engineering（循环工程）」这个新词：有人甚至不再写提示词，而是设计一个循环，让循环去驱动模型。Wes 理解这件事的价值——网站在不断变化，sentry 里会冒出错误，用户投诉会进来，有更新有日志，这些都是上下文。
 
-Wes 反而在关注更便宜的模型。不是因为抠门——很多公司给了他无限 token——而是他好奇一个问题：当钱花完了，软件工程还长什么样？<button class="pd-ts" data-t="10:31" data-who="Unknown" data-en="That one's looking really good. I'm really interested in the cheaper ones right now because... Not because I'm a cheap guy." aria-label="回原文"></button>
+如果网站能不断自我修复、自我改进，那当然很好。问题只有一个：现在做这件事太贵了。
 
-他算过账：一个月一千美元的订阅可能都不够，他知道自己能轻松一天花 200 美元在 token 上，还有人比他猛十倍 <button class="pd-ts" data-t="13:29" data-who="Unknown" data-en="But on the same hand, it's like, what if this costs $3,000 a month? You know that's why I'm saying like yeah if you spend 20 grand on a computer that's gonna be cheaper than a lot of like a lot of people like I would pay a thousand dollars a month for unlimited Claude or whatever and like it's gonna cost more than that like I know how much these tokens cost and I can easy spend 200 bucks a day on these things and like I know people that are like going like 10 times harder than that it's like" aria-label="回原文"></button>。如果一个大型组织有数千名工程师，这笔账会非常惊人 <button class="pd-ts" data-t="14:25" data-who="Unknown" data-en="So I also am there that I don't want this to go away. I just, I'm also in environments where people are spending thousands per month. And then especially if you have a big organization with thousands of engineers." aria-label="回原文"></button>。
+真在做的人，要么一掷几千美元在探索，要么用每月 200 美元的套餐把 token 烧光。他自己写循环的实例是：在 Cursor 里让模型照着一份 API 文档做界面，模型总想草草收工，于是他写了个循环——每做完一轮就回源头，逐条核对文档里的每个用例有没有覆盖。
 
-他的希望是四年后能花一万五千美元买一台设备放在家里跑[[本地模型|本地模型]]——就像现在录音棚里摆着三万美元的视频设备一样，不算疯狂 <button class="pd-ts" data-t="12:14" data-who="Unknown" data-en="But I don't see that actually happening anytime soon. My hope is in that four years from now or whatever, you can spec out a rig for 15 grand or whatever and just have that in your house." aria-label="回原文"></button>。但短期内他不觉得本地模型能真正跑起来 <button class="pd-ts" data-t="12:10" data-who="Unknown" data-en="The open source developer in me wants to see the local models work. But I don't see that actually happening anytime soon. My hope is in that four years from now or whatever, you can spec out a rig for 15 grand or whatever and just have that in your house." aria-label="回原文"></button>。
+模型跑了七八轮，每轮都发现新的遗漏。这种情况下，[[迭代循环|迭代循环]]远比一口气干完好。
 
-有一点他很确定：没人会回到不用 AI 写代码的日子。「这太好了，我们不可能放弃它。」 <button class="pd-ts" data-t="13:14" data-who="Unknown" data-en="I don't know what to do right now because like, I'm not going back to writing it the regular way. I don't think a lot of people are like, this is way too good." aria-label="回原文"></button> 甚至那些进了管理层、没时间写代码的人，现在也能通过编排智能体重新动手构建了 <button class="pd-ts" data-t="14:08" data-who="Unknown" data-en="No, it's been really fun also building this way. And I'm talking to people that have gone into leadership positions that barely have time to build. And they can build now again, basically." aria-label="回原文"></button>。
+他还说了一个既有趣又令人沮丧的观察：你现在苦心架构的这些工作流，一个月后就会变成 Claude Code 之类工具里内置的一个提示词。架构大系统很好玩，但一个月后它就只是个 prompt 了。
 
-## 教育变了：学「怎么解决问题」而不是语法
+工具选择上，他日常大概是 Cursor 和 Claude Code 对半，也用 OpenCode 之类开源工具，还在试 xAI 的 GrokBuild。他现在反而对更便宜、更弱的模型更兴奋——不是抠门（很多公司送他无限 token），而是他真的好奇：当钱烧完的时候，软件工程长什么样？
 
-教育确实被撼动了。直接问智能体「怎么做」比看 20 小时课程快得多——这话出自一个自己做课程的人之口 <button class="pd-ts" data-t="14:55" data-who="Unknown" data-en="But then do they educate the people or what is the new education path? Um it education has certainly changed because it is much easier and better to simply just ask an agent to how to do something or like to help you explain things and get into it it's significantly better than having to watch like a 20-hour course or whatever and i'm saying that as guys a guy who makes makes that type of stuff as well so it certainly has has shaken it up" aria-label="回原文"></button>。
+便宜模型能不能干出好活？他的初步答案是能。至于[[本地模型|本地模型]]跑在边缘设备上，他内心的开源开发者希望这能成，但短期内看不到；他的期望是几年后花一万五千美元配一台机器放在家里——就像现在他们录节目周围摆着约三万美元的摄像设备一样，开发者为算力花这个钱并不疯狂。
 
-但需要学的东西没消失，只是换了个层级。你不再需要记住数组 reduce 的语法，你需要学的是系统设计、是怎么拆解和解决问题 <button class="pd-ts" data-t="15:29" data-who="Unknown" data-en="But like in the same regard, maybe it's just like different types of skills that you now need to learn, you know, like systems designs or just like... Like you don't necessarily have to care about like what is the syntax of like an array reduce, but it's more like how do I solve this problem?" aria-label="回原文"></button>。
+面对「成本不可持续、泡沫会破」的说法，他的回答很直接：我不知道，但我回不去了。没人会回到不用这些工具的状态。
 
-Wes 举了自己的例子：他是个 Web 开发者，不懂 C 语言，但他的摄影灯蓝牙 app 太难用，于是他拿一个五美元的微控制器，反编译桌面应用，逆向工程了蓝牙 mesh 协议，用 C 写了个节点接上灯。他懂蓝牙原理、懂密钥交换、懂 mesh 网络怎么通信——这些高层知识让他在不会 C 的情况下也能搞定 <button class="pd-ts" data-t="16:31" data-who="Unknown" data-en="Like, I made a... Like I have like these light these photography lights and I they're on like a bluetooth protocol the app sucks it disconnects I hate it so much it's amaran lights so I just took a little five dollar ESP32 I decompiled the the desktop application totally reverse engineered the mesh bluetooth protocol wrote like a little mesh node in C and then plugged it into the light and now I just can control the lights myself and my home assistant like I don't know C" aria-label="回原文"></button>。
+可反过来的问题是——如果这东西每月要花 3000 美元呢？他认识的人一天就能在 token 上花 200 美元，还有人比这狠十倍。
 
-[[LLM|LLM]] 里的解决方案都是已有的方案。遇到全新问题，模型能帮你加速想，但不能完全替你解决 <button class="pd-ts" data-t="15:54" data-who="Unknown" data-en="And like that to me is the like important knowledge right now is like how do you tackle... and and figure out new solutions right because there's all of the solutions in these LLMs right now are just solutions that have already been made yeah um and when there's new problems they're they're not necessarily able to figure that out no they can help you figure it out right certainly much faster but i don't think they'll be able to solve that entirely" aria-label="回原文"></button>。
+他愿意为无限量使用每月付 1000 美元，而实际成本很可能比这更高。只能指望新芯片和改进，「技术会找到出路」，只是不知道多快。另一个他乐见的变化：那些升到领导岗、几乎没时间写代码的人，现在又能重新「构建」了——他们只需要编排智能体；项目经理和前程序员们都在回来搭自己的技术栈。
 
-## 个人品牌：代码不说话了，你得自己说
+## 教育变了：从背语法到吸收高层的解题思路
 
-开发者一向对营销过敏，但 Wes 认为[[个人品牌|个人品牌]]现在是必要的 <button class="pd-ts" data-t="20:42" data-who="Unknown" data-en="But what would you recommend people nowadays in terms Definitely, as cheesy as that is to have a personal brand as a developer, it kind of feels icky and developers are kind of allergic to marketing." aria-label="回原文"></button>。逻辑很简单：代码不能再替你说话了。你可能正在工作中解决很难的问题，但如果你没有任何方式向外界展示这一点，职业发展就会受阻 <button class="pd-ts" data-t="21:09" data-who="Unknown" data-en="And that's... that's how you get noticed especially like now the like the code doesn't speak for your your ability anymore you know and so you need another way to show that you actually know what you're doing you know and and if you don't have any way to show that you may be solving hard problems in your job right now but if you're not like you don't have any other way to like show that to the world um then it's it's gonna be hard for you to like progress through your career yeah so like i don't putting yourself out there on social media" aria-label="回原文"></button>。
+作为靠教人写代码吃饭的人，Wes 承认教育被狠狠撼动了：直接问智能体怎么做事、让它帮你解释概念，比看一门 20 小时的课程好得多——这话出自一个制作这类课程的人之口。需要学的技能类型变了：你不必在乎 array reduce 的语法，而是要会问「我怎么解决这个问题」。
 
-具体怎么做？他的建议是别试图全平台铺开——选一个当下最有效的渠道深耕。现在可能是 TikTok，六个月后可能换别的，Twitter 在技术圈一直很大 <button class="pd-ts" data-t="22:03" data-who="Unknown" data-en="Thank you for watching! Not a lot of people and like like right now I would say like if you're just getting started like it's probably become like a yapper on TikTok okay it's probably the move right now and like in in six months it may be something different you know it's like Twitter is obviously huge in our our specific industry as well so there's I think you just got to figure out whatever what that medium is at the one time and try not to to do it all as well because there's" aria-label="回原文"></button>。
+他自己现在的大量学习是高层级的：像吸尘器一样吸收信息，听会议演讲看别人怎么解题。因为 [[LLM|LLM]] 里装的全是已有的解决方案，遇到全新问题时它们不一定能自己想出来——能帮你更快地摸索，但不能完全替你解决。
 
-Newsletter（邮件通讯）仍然是直接触达受众最好的方式之一，因为其他平台全是算法驱动，你得祈祷算法眷顾你 <button class="pd-ts" data-t="23:04" data-who="Unknown" data-en="So. Uh newsletter is a fantastic way to do that because you it's like the last way you can like actually directly connect with your your consumers everything else is algorithm based and you just have to pray that the algorithm like like favors your content and shows it to the people that want to see it so that's good but in the same breath like my email is a disaster since all this AI popped up you know i get like probably 15 20 like" aria-label="回原文"></button>。但讽刺的是，AI 生成的个性化邮件正在把收件箱变成垃圾场——每封都不一样，垃圾邮件过滤器抓不住，Wes 几乎要放弃邮件了。真正的对话反而转移到了私信里 <button class="pd-ts" data-t="23:15" data-who="Unknown" data-en="Uh newsletter is a fantastic way to do that because you it's like the last way you can like actually directly connect with your your consumers everything else is algorithm based and you just have to pray that the algorithm like like favors your content and shows it to the people that want to see it so that's good but in the same breath like my email is a disaster since all this AI popped up you know i get like probably 15 20 like" aria-label="回原文"></button>。
+他举了个漂亮的例子：他的摄影灯用的是蓝牙 mesh 协议，官方 App 很烂老断连，于是他拿了个 5 美元的 ESP32，反编译桌面应用、完全逆向了 mesh 蓝牙协议、用 C 写了个节点插进灯里，从此自己控制灯光——而他根本不会 C。他会的是蓝牙怎么工作、mesh 网络怎么通信、设备之间怎么交换密钥。
 
-## AI 生成内容：用在流程上，别用在想法上
+有这些底层知识，智能体就能帮他在微控制器上写出 C 代码。他自嘲「我只是个蠢 web 开发者」。他们播客的视频编辑 Randy 更极端：完全没有编程经验，自己搭出了一个接入 DaVinci Resolve 的完整桌面应用，带 MCP、能做转录，一整套播客制作流程——用 Python 写的。
 
-Wes 对用 AI 生成内容的态度很鲜明：「别这么做。」 <button class="pd-ts" data-t="25:20" data-who="Unknown" data-en="What's your take then, lastly, on using AI to generate content and to use that in the... Awful. Awful?" aria-label="回原文"></button> 他收到过一个他很尊重的播客嘉宾发的 AI 写的邮件，两句话，让他去看看新项目。他本来会去看的，但发现是 AI 写的，感觉被糊弄了 <button class="pd-ts" data-t="25:22" data-who="Unknown" data-en="That's a no-go? I find it so insulting when people send me an AI email or... Like, I got an email yesterday from somebody who I've had on the podcast, who I respect their work." aria-label="回原文"></button>。
+## 会议、个人品牌，和一封让你扣分的 AI 邮件
 
-但他确实用 AI 做内容流程的自动化：比如把会议信息发到网站、把散落在各个社交平台的短视频链接汇总成一个页面——这些以前很烦的体力活，现在一个智能体就能搞定 <button class="pd-ts" data-t="26:04" data-who="Unknown" data-en="I do use AI to like edit my blog posts where I'll just be like not to write them for me because I think like nobody wants to read your... Like extrapolated blog posts but I'll just like I have like a skill to like post something to my website like this conference for example I used to be really bad at posting conferences on my website but now I just have an agent and a skill I say hey I'm doing this conference here's a screenshot of the details put it on my site and it just goes and and does it you know or if I if I have like a short form video" aria-label="回原文"></button>。他还会用 AI 帮忙剪视频里的废话。
+线下会议为什么还在变大？Wes 的答案是人：社区、对话、接触机会——行业里最聪明的一群人就坐在那边房间里吃饼干。
 
-但演讲内容和幻灯片？绝对不用 AI 写。
+演讲固然有趣，但核心是「hallway track（走廊分会场）」：你在走廊里跟人聊他们正在做什么。他疫情时参加过线上会议，体验很差——没有反馈、见不到人、没法上船跟朋友喝啤酒。他甚至偶遇过写电梯软件的工程师，聊了半小时电梯怎么工作，觉得迷人极了。
 
-「你以为我是来这里总结一些 Claude 梦想出来的要点吗？那是对买了票的人的侮辱。」 <button class="pd-ts" data-t="27:05" data-who="Unknown" data-en="It's great for cutting out sentences and stuff, but as soon as it gets to anything creative or thoughts that you're supposed to have... Somebody asked me if I use AI to write my slides." aria-label="回原文"></button> 他现在的做法是语音转文字生成网页，然后用那个网页当幻灯片——内容是自己想的，排版交给工具 <button class="pd-ts" data-t="27:20" data-who="Unknown" data-en="Hopefully, I'm imparting some knowledge that is not in that thing. What I do love, and specifically with slides, because maybe it's just the way of working of some of the tools to create slides, I love going speech to text and then creating a website and using that website as my slides." aria-label="回原文"></button>。
+最后是[[个人品牌|个人品牌]]。开发者对营销过敏，觉得经营个人品牌很俗、有点恶心——但 Wes 的判断是：想在这个行业立足，这是必需品。
+
+老建议依然成立：填满 GitHub、有个网站、写博客、做视频。而现在的分量更重了，因为代码不再为你的能力代言：你可能在工作中解着难题，但如果没有任何方式向世界展示，职业进阶会很难。
+
+至于怎么做——现在刚起步的人，可能该去 TikTok 上当个「话痨」；六个月后风向可能又变。关键是找到当下对的那个媒介，并且别贪心全做。
+
+注意力是稀缺品：每个人都在做东西、都在喊「看我做了什么」，没人能引起谁的注意。newsletter 仍是好选择，因为那是最后一种能直接触达受众的方式——其他平台全是算法说了算，你只能祈祷算法垂青。但 AI 泛滥之后他的邮箱已是灾难，每天 15 到 20 封高度个性化的 AI 邮件绕过垃圾邮件过滤器涌进来，他几乎要放弃电子邮件了，真正的对话都发生在私信里。
+
+那用 AI 生成内容呢？他的回答干脆：很糟糕，别这么做。
+
+他收到过一个上过他播客、他非常尊敬的人发来的 AI 邮件，两句话的「嘿 Wes，我们在做这个，去看看」本来完全会去看，结果对方用了 AI 糊弄——他觉得受冒犯。他自己的用法是分层的：AI 可以做杂务（把会议信息、短视频链接整理发布到网站），可以剪视频删句子，但一旦涉及创造性、涉及你本该自己有的想法，不行。
+
+有人问他是否用 AI 写演讲幻灯片，他爆粗口回绝：你以为我是来复述一些让 Claude 梦出来的要点的吗？那是对买了票的人的侮辱。他的折中做法是自己写全部要点和内容，用语音转文字加 AI 把它们搭成网站当幻灯片——形式可以外包，思想不行。
 
 ## 本集带走
 
-- **代码不再是能力的证明**：人人都能用智能体写代码，你必须通过其他方式（分享、教学、展示解决过程）让别人看到你会什么。
-- **迭代循环比一次性生成更可靠**：复杂任务不要指望模型一次做完，写一个循环让它反复对照原始需求检查遗漏，效果更好。
-- **关注成本**：一天 200 美元的 token 消耗在重度使用中很常见，大组织规模化后这笔账不可忽视——便宜的模型反而值得认真评估。
-- **学高层知识，别学语法**：懂蓝牙协议和 mesh 网络原理，就能在不会 C 的情况下用 C 写微控制器程序。LLM 能帮你补语法，不能帮你做架构决策。
-- **AI 用在流程自动化，别用在创意输出**：汇总链接、发布内容、剪辑静音这些重复劳动交给 AI；邮件、演讲内容、Slides 的观点必须自己写，否则就是在侮辱受众。
+- **代码不再是能力证明**：作品集、GitHub、博客、视频这些「能被看到的东西」权重上升，个人品牌从可选项变成必需项。
+- **便宜模型值得关注**：不是因为省钱，而是要回答「当钱烧完时软件工程长什么样」——便宜模型已经能干不少好活。
+- **循环驱动模型**：让模型每做完一轮就回源头逐条核对（比如对照 API 文档检查覆盖），迭代循环胜过一口气干完。
+- **学高层的解题思路而非语法细节**：LLM 里全是已有方案，理解系统如何工作（如蓝牙 mesh、密钥交换）才能在全新问题上驾驭它。
+- **AI 用在杂务和形式上，不碰思想**：整理链接、剪视频、搭幻灯片框架可以外包；邮件正文、演讲内容、博客观点自己写——AI 邮件会得罪你想触达的人。
+- **newsletter 仍值得做**：算法平台之外最后一种直接触达；但 AI 邮件泛滥正在毁掉邮件本身。
+- **线下会议的核心是走廊对话**：跟参会者聊他们在做什么，价值不亚于演讲本身。
 
 <div class="pd-sec">全部金句 <span>4 条</span></div>
 
-> <span class="qz">我认为这很棒，人们可以只制作他们自己的版本，让他们开心，并且完全做他们想做的事，而不是他们的 20,000 个客户需要的事。</span>  
-> *I think that's great that people can just make their own version of something that makes them happy and does exactly what they want and not what their 20,000 customers need.*  
-> <span class="qm">—— Wes Bos · [04:17]</span> ^q1
+> <span class="qz">代码不再能代表你的能力了。</span>  
+> *The code doesn't speak for your ability anymore.*  
+> <span class="qm">—— Wes Bos · [01:17]</span> ^q1
 
 > <span class="qz">因为架构这些庞大的系统很有趣，但一个月后它就只是一个提示词了。</span>  
 > *Because it's fun to architect these huge systems, but in a month it's just a prompt.*  
 > <span class="qm">—— Wes Bos · [09:52]</span> ^q2
 
-> <span class="qz">但我很好奇，当钱用光时，软件工程会是什么样子的？</span>  
-> *But I'm curious about what does software engineering look like when the money runs out?*  
-> <span class="qm">—— Wes Bos · [10:41]</span> ^q3
+> <span class="qz">但你以为你能用这种垃圾糊弄我吗？</span>  
+> *But you thought that you could like fool me with this like slop?*  
+> <span class="qm">—— Wes Bos · [25:47]</span> ^q3
 
-> <span class="qz">代码不再代表你的能力了。</span>  
-> *The code doesn't speak for your ability anymore.*  
-> <span class="qm">—— Wes Bos · [01:17]</span> ^q4
+> <span class="qz">那是对买了票的人的侮辱。</span>  
+> *That's insulting to the people that bought tickets.*  
+> <span class="qm">—— Wes Bos · [27:13]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 
@@ -127,7 +141,7 @@ Wes 对用 AI 生成内容的态度很鲜明：「别这么做。」 <button cla
 **顺着「AI 编程」挖下去**
 
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同公司:Claude Code · 同概念:vibe coding、智能体 (agent)</span>
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、上下文 (context)</span>
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、上下文 (context)</span>
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Claude Code · 同概念:LLM、智能体 (agent)</span>
 
 </div>

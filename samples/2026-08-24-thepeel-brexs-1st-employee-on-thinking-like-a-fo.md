@@ -1,5 +1,5 @@
 ---
-title: 非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款
+title: "不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法"
 podcast: The Peel
 date: 2026-08-25
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "87:22"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo.jpg"
-description: Figure CEO Michael Tannenbaum 分享非创始人如何用运营者心态经营公司，以及 Figure 如何用区块链将抵押贷款成本从 12000 美元降至 1000 美元。
+description: "Figure CEO Michael Tannenbaum 讲他如何以非创始人身份经营公司、押中 SoFi 与 Brex,并把区块链抵押贷款平台推向上市。"
 host: "[[Michael Tannenbaum]]"
 companies: ["[[Figure]]", "[[SoFi]]", "[[Brex]]", "[[Kiavi]]"]
 concepts: ["[[高管心态]]", "[[市场]]", "[[区块链]]"]
@@ -17,18 +17,18 @@ tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo#post","headline":"非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo","description":"Figure CEO Michael Tannenbaum 分享非创始人如何用运营者心态经营公司，以及 Figure 如何用区块链将抵押贷款成本从 12000 美元降至 1000 美元。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo.jpg","about":[{"@type":"Person","name":"Michael Tannenbaum"},{"@type":"Organization","name":"Figure"},{"@type":"Organization","name":"SoFi"},{"@type":"Organization","name":"Brex"},{"@type":"Organization","name":"Kiavi"},{"@type":"Thing","name":"高管心态 (executive mindset)"},{"@type":"Thing","name":"市场 (marketplace)"},{"@type":"Thing","name":"区块链 (blockchain)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款","item":"https://talk.solomind.cc/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo#post","headline":"不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo","description":"Figure CEO Michael Tannenbaum 讲他如何以非创始人身份经营公司、押中 SoFi 与 Brex,并把区块链抵押贷款平台推向上市。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo.jpg","about":[{"@type":"Person","name":"Michael Tannenbaum"},{"@type":"Organization","name":"Figure"},{"@type":"Organization","name":"SoFi"},{"@type":"Organization","name":"Brex"},{"@type":"Organization","name":"Kiavi"},{"@type":"Thing","name":"高管心态 (executive mindset)"},{"@type":"Thing","name":"市场 (marketplace)"},{"@type":"Thing","name":"区块链 (blockchain)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法","item":"https://talk.solomind.cc/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款
+# 不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法
 
 <div class="pd-byl"><b>Michael Tannenbaum</b> · Figure CEO · 2026-08-25</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">就像不管什么开始起作用了，他们就会像小孩踢足球那样跑到那里，你知道，追逐球，而他们逃离问题。</div><div class="a">— Michael Tannenbaum <button class="pd-ts" data-t="07:06" data-who="Michael Tannenbaum" data-en="Like whatever starts to be working, they kind of run there like little kids playing soccer, you know, chase the ball and they're running away from problems." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">但很多时候，董事会成员如果名声显赫，他们会保护自己。</div><div class="a">— Michael Tannenbaum <button class="pd-ts" data-t="05:51" data-who="Michael Tannenbaum" data-en="But a lot of times, board members, if they have these big reputations, they're going to protect themselves." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Michael Tannenbaum]]
@@ -37,84 +37,122 @@ jsonLd: |
 >
 > **概念** [[高管心态]] · [[市场]] · [[区块链]]
 
-非创始人 CEO 和创始人 CEO 有什么本质区别？Michael 的回答很直接：不是身份问题，是心态问题。
+这一集的嘉宾是 [[Figure|Figure]] 的 CEO [[Michael Tannenbaum|Michael Tannenbaum]]——有意思的是，他不是 Figure 的创始人，而是受命带公司上市的职业 CEO。他此前是 [[SoFi|SoFi]] 从 75 人长到上千人过程中的财务副总裁和业务负责人，又是 [[Brex|Brex]] 的第一名员工。这集他聊了「像创始人一样思考」到底是什么、怎么挑中 SoFi 和 Brex 这两次机会，以及 Figure 怎么用[[区块链|区块链]]把抵押贷款的成本从 12000 美元压到 1000 美元。
 
-他在 [[SoFi|SoFi]] 从财务副总裁做到业务负责人，在 [[Brex|Brex]] 从厨房里的第一名员工做到 COO，现在是 [[Figure|Figure]] 的 CEO——三家公司他都不是创始人，但他强调，关键在于你是"在经营一家公司"还是"在管理一段职业生涯"。这两种心态优化的是完全不同的东西 <button class="pd-ts" data-t="00:51" data-who="Unknown" data-en="So I really kind of was built from the ground up. And I've always had sort of this owner's mentality, act like an owner. And I think probably that is the number one thing you hear a lot about." aria-label="回原文"></button>。
+## 创始人心态 vs 高管心态：不是头衔，是优化目标
 
-[[高管心态|高管心态]]的一个典型表现：带着自己的供应商进来。比如管营销的就带自己的公关公司，管法务的就带自己的律所——这些选择是基于"我的关系"而不是"对公司最好"。
+Michael 的核心区分是：[[高管心态|高管心态]]是「管理一份职业生涯」，创始人心态是「经营一家公司」。他见过太多后期加入的高管带着自己熟悉的供应商——公关公司、律所——走到哪带到哪，本质上是在经营「自己的关系资产」；而运营者的做法是从第一性原理出发，先问「公关今天对这个公司是不是个问题」，再决定用什么 <button class="pd-ts" data-t="02:42" data-who="嘉宾" data-en="versus the company and you can sort of feel that i know it's kind of a specific example but i think that's very palpable if you could you could argue that that's a really good pr agency that they're bringing with them totally yeah totally i think i think they they could be bringing a good pr agency but if they" aria-label="回原文"></button>。
 
-运营者心态是基于第一性原理做选择：这家公司现在需要什么，就用什么 <button class="pd-ts" data-t="01:36" data-who="Unknown" data-en="What have you seen as the biggest differences? My executive mindset is a lot about people are thinking about what they might do next or how this might look on paper." aria-label="回原文"></button>。Michael 在 SoFi 亲历过这种分岔路：当时他是财务副总裁，圈子里的人都劝他别去接手那个一团糟的抵押贷款业务——"财务副总裁每个公司都需要，你在旧金山有无数选择"；但他接了，因为他判断这是公司需要的。这不是在优化自己的简历可迁移性，而是在为公司解决问题 <button class="pd-ts" data-t="04:42" data-who="Unknown" data-en="So it was a big, big kind of, I guess, bet on me. And point being there, though, that a lot of people in my network gave me this advice not to do it. they said stay be a VP of finance you know because VP of finance is like this it's this role that every company needs oh everybody remarkable yeah you're so marketable you're in san francisco there's a million startups all of them need the VP of finance you go and run mortgage like who needs that yeah and i thought at the time like okay but like you know so i'm just saying again it's a different mindset of how you make decisions you're optimizing for your own career" aria-label="回原文"></button>。
+他自己在 SoFi 的转折点最能说明这种差别。当时他已经是财务副总裁，向创始人 Mike Cagney 抱怨同事不行，Mike 的回应是：你想变得了不起，就得去管一条业务线——而且是那条全搞砸了的抵押贷款业务，因为「他不会给我一个正在运转的东西」<button class="pd-ts" data-t="04:09" data-who="嘉宾" data-en="If you want to be great, you're going to have to run one of the businesses here. And so I said, okay, well, give me mortgage because it was all screwed up at the time." aria-label="回原文"></button>。
 
-从大公司招高管也容易引入这种偏差。他从 Meta 等大公司招来的人，框架往往是自我保护：附着在已经成功的事情上，远离问题。而他的做法相反——事情在运转的，不花时间；专门盯着问题 <button class="pd-ts" data-t="06:40" data-who="Unknown" data-en="The environment that they're coming from. And I recall in some of the past roles I've been in where we've hired people from large companies, even large tech companies like Meta, their framework is very much about self-preservation." aria-label="回原文"></button>。
+他圈子里所有人都劝他别去：财务副总裁是每家公司都需要的角色，市场上很值钱；去管抵押贷款谁要？但他当时的判断就是一句话：「这是公司需要的，我全力以赴」<button class="pd-ts" data-t="05:12" data-who="嘉宾" data-en="they said stay be a VP of finance you know because VP of finance is like this it's this role that every company needs oh everybody remarkable yeah you're so marketable you're in san francisco there's a million startups all of them need the VP of finance you go and run mortgage like who needs that yeah and i thought at the time like okay but like you know so i'm just saying again it's a different mindset of how you make decisions you're optimizing for your own career" aria-label="回原文"></button>。他的结论：高管们经营职业生涯反而对自己不利，因为永远无法完全沉浸进公司 <button class="pd-ts" data-t="05:24" data-who="嘉宾" data-en="So there came a time that I clearly wasn't all in, but that was then, right? And I think that a lot of times executives, they actually manage the career to their detriment." aria-label="回原文"></button>。
 
-## 抓客户反馈不是口号，是机制
+同样的逻辑他也用在董事会：名声显赫的董事往往会自我保护，你得想清楚这个人到底是在保名声，还是在为公司赢做一切必要的事 <button class="pd-ts" data-t="05:51" data-who="嘉宾" data-en="I think people are always looking to add people to the board and it makes them credible. But a lot of times, board members, if they have these big reputations, they're going to protect themselves." aria-label="回原文"></button>。
 
-Michael 用"大石头"框架管理公司：Figure 有三个不随季度变化的顶层目标，每个目标有自己的周会和 Slack 频道，所有人跨职能围绕这些目标对齐 <button class="pd-ts" data-t="09:33" data-who="Unknown" data-en="And now let's jump in. So I run the company with this big rock framework, which I don't think that's the only way to do it, but it's a way that works for me. And essentially it's big rocks can be as many as five, but we really have three at figure." aria-label="回原文"></button>。但更值得注意的是他获取客户反馈的方式——不是偶尔做做用户访谈，而是把反馈管道直接嵌进日常运营：产品里有客户满意度按钮，结果直接流入 Slack 频道，尤其是负面反馈，全员可见 <button class="pd-ts" data-t="12:16" data-who="Unknown" data-en="Like how do you get all this? So we have an ability for customers in the product, even for end customers of our private label customers, to share feedback. Basically a CSAT survey, customer satisfaction." aria-label="回原文"></button>。此外每季度和最大客户做 QBR（季度业务回顾），他自己参加 <button class="pd-ts" data-t="12:33" data-who="Unknown" data-en="And then those results are piped into Slack. And then we also do QBRs, quarterly business reviews, with our largest customers. And I sit in on those and review the materials and just make myself generally involved such that people know me and feel free to give feedback accordingly." aria-label="回原文"></button>。
+## 怎么经营一家不是你创办的公司：大石头框架 + 泡在客户里
 
-他还有一个刻意设计的做法：高管团队每年两次的外出活动，永远包含一次客户拜访。不是去迈阿密海滩，而是去客户密集的城市——匹兹堡、达拉斯、夏洛特。目的是让法务、财务这些不一定直接接触客户的同事，亲眼看到客户长什么样、怎么运作，产生同理心 <button class="pd-ts" data-t="12:55" data-who="Unknown" data-en="What do you get out of that? Well, what I actually do is, and this is something that I kind of made up that I think is working, is our off-sites, which we do as an executive team two times a year, they always include a customer visit." aria-label="回原文"></button>。
+他用「大石头」框架跑公司：全公司最多五条、实际三条的大目标，不逐季度变化（子目标和数字可以变），每条大石头配一个每周例会和一个 Slack 频道，跨职能把所有人组织在这件事周围 <button class="pd-ts" data-t="09:41" data-who="嘉宾" data-en="So I run the company with this big rock framework, which I don't think that's the only way to do it, but it's a way that works for me. And essentially it's big rocks can be as many as five, but we really have three at figure." aria-label="回原文"></button>。这类似亚马逊说的每周业务回顾（WBR，weekly business review）：看什么在起作用、目标达成如何、阻碍在哪。
 
-## Figure 做了什么：把抵押贷款搬上区块链
+第二个习惯朴素得多：花大量时间直接见客户。他自己做销售、直接读客户反馈，产品里埋了客户满意度（CSAT）调查按钮，结果——尤其是负面反馈——直接管道进 Slack 频道，所有人可见 <button class="pd-ts" data-t="11:55" data-who="嘉宾" data-en="But I think, so that's a big thing for me, participating, doing a lot of the sales myself, reading customer feedback directly. We have it kind of piped into Slack where people can, especially negative feedback, is available in the channel." aria-label="回原文"></button>。对最大客户做季度业务回顾（QBR），他亲自坐进去。
 
-Figure 是一家用[[区块链|区块链]]技术做资本市场基础设施的公司，切入点是房屋净值信贷额度（HELOC）。核心数据：行业平均发放一笔贷款成本 12000 美元、耗时 45 天；Figure 做到 1000 美元、最快 5 天（平均 9 天，其中 3 天是监管强制等待期）<button class="pd-ts" data-t="22:19" data-who="Unknown" data-en="And they can do that using our technology and sell it into a capital market that we provide. which is um and we take a ton of time and cost out of the system when we do that so we do it in about a thousand dollars versus twelve thousand industry average and we do it for uh in about five days versus industry average of 45. so it's a very uh fast and efficient process average time is nine days but can be as fast as five" aria-label="回原文"></button>。
+他的独门做法是：高管团队每年两次的务虚会（offsite）必须包含一次客户拜访。不是去迈阿密海滩，而是去匹兹堡、达拉斯、夏洛特这种「最不吸引人的地方」——因为客户在那儿 <button class="pd-ts" data-t="14:01" data-who="嘉宾" data-en="You can't go to the beach because you got to go to see customers. Yeah, like ours most in our upcoming one in July is in Pittsburgh. The one prior to the most unglamorous place." aria-label="回原文"></button>。逻辑是：他本人跑过抵押贷款业务、泡过客户，但法务负责人没见过客户现场，就很难对客户的处境产生同理心 <button class="pd-ts" data-t="13:25" data-who="嘉宾" data-en="So I think it's really valuable. Because you'd be surprised, you know, your head of legal, for example, may not actually appreciate what your customer looks like or feels like or what they're, you know, because someone like me has a lot of context." aria-label="回原文"></button>。
 
-为什么能快这么多？Michael 举了一个他在 SoFi 做证券化时发现的低效：同一笔贷款的信用评分，SoFi 查一遍，买家查一遍，证券化时查一遍，评级机构再查一遍——每次都要付费。Figure 的做法是在贷款发起第一天就把 FICO 分数等属性上链，后续所有买家和评估者直接引用初始哈希值，不再重复验证，省掉 80% 的成本 <button class="pd-ts" data-t="24:23" data-who="Unknown" data-en="Thank you for watching. When I was doing that at SoFi, we would validate the same attributes of the loans multiple times. So for example, the credit score of the borrower, we would check it at SoFi, then a buyer, a loan buyer would check it, then the securitization would check it, the rating agencies would check it." aria-label="回原文"></button>。
+## 挑机会的框架：服务有钱的客户，找火烧眉毛的问题
 
-区块链的第二个实际价值：防双重出售。在传统贷款买卖中，同一个人可以把同一笔贷款卖给多个买家——他提到今年一个叫 Tricolor 的破产案，某金融机构因此损失了几亿美元。区块链上每笔贷款的权属清晰可追踪，到留置权级别，从根本上杜绝了这类欺诈 <button class="pd-ts" data-t="25:17" data-who="Unknown" data-en="That's a very clear example. Another clear example of how we are fast and efficient is that we prevent loans from being double sold or double pledged, which is a huge way that fraud happens by tracking a loan and its life on a blockchain." aria-label="回原文"></button>。
+他的三次押注——SoFi、Brex、Figure——背后有一套连贯框架。大学毕业后做地区银行并购，再进私募股权学「什么算好生意」<button class="pd-ts" data-t="16:13" data-who="嘉宾" data-en="That's always been the place I've worked. I started out of college as a regional bank M&amp;A banker. So I kind of learned financial services there." aria-label="回原文"></button>。
 
-有人问"非得用区块链吗，传统数据库不行吗？"Michael 的回答很实在：传统数据库也可以，但问题是"谁来拥有和维护这个数据库"。区块链的好处是有激励机制让这件事不需要任何单一方来拥有和维护 <button class="pd-ts" data-t="27:04" data-who="Unknown" data-en="There's only going to be one lien holder against that property unless you have another mortgage on top but but for the dollar amount in that loan there could only be one holder and the blockchain is going to connect that to the owner of the loan and if that's transferred that will be tracked on chain do you need blockchain to do this" aria-label="回原文"></button>。
+SoFi 的洞察：2010 年代那批金融科技（Lending Club、Prosper 这些在线借贷）几乎都服务下沉市场客户——纸面上可能还不起钱的人；SoFi 反过来做毕业生助学贷款再融资，服务受薪专业人士。他点破一个常被忽略的算术：给没多少钱的消费者做金融服务，你赚的钱天生被 capped——客户一年只有 2 万美元可花，你得全挣到才行；客户挣 12 万，难度直接降了六倍 <button class="pd-ts" data-t="18:02" data-who="嘉宾" data-en="So it's a really smart idea. and it was targeting this relative like an employed professional group of people and i think people miss this but it's like when if you're trying to do financial services for consumers that don't have a lot of money you are sort of capping the amount of money that you can make because they could only make so much if someone only has let's say" aria-label="回原文"></button>。
 
-## 从 DTC 到市场平台：为什么别的公司不这么做
+Brex 的洞察来自亲身痛苦：他做财务副总裁时，亲历过大公司来的高管要企业卡、不交收据、应付账款的人满世界追着跑、最后 CFO 出面收拾的那出戏——每家公司都在上演 <button class="pd-ts" data-t="19:19" data-who="嘉宾" data-en="What's the drama around it? Speaking of executives, some executive comes from Google, whatever, they need a corporate card, they need this, they need that, and they want to run all these expenses." aria-label="回原文"></button>。企业卡加费用管理的对账乱象之大，让他判断这家公司「会成」。
 
-Figure 最初直接面向消费者放贷——因为 B2B 合作伙伴不想当小白鼠，没人想做第一个。但给钱比拿钱容易建立品牌，而且 Figure 和 SoFi 一样瞄准大众富裕阶层（年收入 75000 到 250000 美元的房主），每个客户都有房有净值 <button class="pd-ts" data-t="53:05" data-who="Unknown" data-en="So like, how did that go launching that very first Helox product? Well, it's direct to consumer because it's really hard. And I learned this at Brex." aria-label="回原文"></button>。
+而他差点离开：创始人 Enrique 和 Pedro 让他自掏腰包投资、并配套匹配股权，让他有真正的 skin in the game <button class="pd-ts" data-t="41:25" data-who="嘉宾" data-en="Thank you for watching! doing something else but Enrique and Pedro were smart they made me invest in the company with my own money up front and they matched like in order to get extra ownership they matched me so i actually had a lot of ownership up front because i you know was a coming from chief revenue officer so fi to this nothing company so and then also i bought a lot of stock um which ended up being good yeah but they wanted it was smart they said like we want you to invest because we don't want you to just like leave at the drop of a hat right we want you to have real skin in the game which was smart" aria-label="回原文"></button>。转机是他反向把 Brex 的卡卖给了 First Republic Bank——「你们没有信用卡，科技客户会被有卡的硅谷银行抢走」——这一单带来了真实交易量，2018 年 6 月正式发布，到 8 月就成了十亿美元估值的独角兽 <button class="pd-ts" data-t="42:12" data-who="嘉宾" data-en="That's not my style. But I kind of then reverse sold them and said, why don't you, I'm working at this new place. You guys don't have a credit card." aria-label="回原文"></button>。
 
-关键转折是从 DTC 转型为[[市场|市场平台]]：不再自己放贷再卖掉，而是把技术和资本市场开放给银行、信用合作社、金融科技公司，让他们用 Figure 的系统自己放贷，然后卖到 Figure 的市场里。这个转型在两年内从零做到占业务量的 60% 以上 <button class="pd-ts" data-t="55:10" data-who="Unknown" data-en="And then what we did from there is we went full marketplace. So that is was part of the that launched in June 2024. I joined maybe two to three months earlier than that." aria-label="回原文"></button>。这也是 Figure 上市故事的核心——市场平台模式很难被颠覆，也很难用 AI 或写代码抄出来 <button class="pd-ts" data-t="56:11" data-who="Unknown" data-en="And that just changed our positioning very much from a IPO perspective. There's a lot more. I mean, marketplaces are really hard to build." aria-label="回原文"></button>。
+## Figure：把抵押贷款搬上区块链
 
-为什么更多金融科技公司不把自己变成市场？Michael 说两个原因。
+Figure 做的是「在区块链轨道上建资本市场的未来」，起点是房屋净值信贷额度（HELOC，拿房子净值做抵押的循环贷款）。两个洞察都来自 SoFi：一是在贷款变成债券之前，同一条贷款的属性——比如信用分——会被放贷方、买方、证券化机构、评级机构反复核验、反复付费；二是 SoFi 个人贷款客户里 80% 是房主，宁可借高息信用贷也不碰抵押贷款，因为办抵押贷款太痛苦了 <button class="pd-ts" data-t="52:12" data-who="嘉宾" data-en="Thank you for watching. And until it gets into bond form, there's going to be someone paying to diligence the attributes of the loan, like the credit score or the income." aria-label="回原文"></button>。
 
-第一，你必须放弃收入和 EBITDA——Figure 推出市场平台时，把经济回报让给了合作伙伴，自己赚更高利润率但绝对收入少了，类似特许经营模式。人们讨厌主动放弃收入数字，尤其在上市公司眼里这会让业务难以建模 <button class="pd-ts" data-t="72:25" data-who="Unknown" data-en="Two reasons. One, you have to give up revenue and EBITDA to do it. Really?" aria-label="回原文"></button>。第二，大多数人根本没有这个愿景，他们的北极星是客户数或交易量，而不是"用市场作为区块链改变资本市场的参考案例" <button class="pd-ts" data-t="74:09" data-who="Unknown" data-en="And I think the second reason is that people just don't have that vision. It's just not on people's radar, right? They're thinking very much like my north star is number of customers or my north star is volume." aria-label="回原文"></button>。
+Figure 的解法：把 FICO 分数这些属性第一天就放上链，后续所有买方、评估方只引用初始数据的哈希值，不用重复核验——省掉约 80% 的成本 <button class="pd-ts" data-t="24:49" data-who="嘉宾" data-en="But with figure, We take those attributes like the FICO score, put it on a blockchain day one, and then all the people that buy the loan or evaluate the loan or lend against the loan just reference that initial hash of that data rather than checking it each time and paying a huge amount." aria-label="回原文"></button>。结果是一组惊人的对比数字：做一笔贷款成本约 1000 美元对行业平均 12000 美元，时间最快 5 天（平均 9 天，其中 3 天还是监管强制的等待期）对行业平均 45 天 <button class="pd-ts" data-t="22:19" data-who="嘉宾" data-en="And they can do that using our technology and sell it into a capital market that we provide. which is um and we take a ton of time and cost out of the system when we do that so we do it in about a thousand dollars versus twelve thousand industry average and we do it for uh in about five days versus industry average of 45. so it's a very uh fast and efficient process average time is nine days but can be as fast as five" aria-label="回原文"></button>。
 
-最近 Figure 收购了 [[Kiavi|Kiavi]]（投资人贷款领域的市场领导者），收购当天就联合 Sixth Street 把它转型成了市场平台——Kiavi 原本是 DTC 模式，现在用 Figure 的市场来销售贷款 <button class="pd-ts" data-t="68:19" data-who="Unknown" data-en="And I'm really excited about bringing them on. And I think that's going to... One of the interesting things that we did is we bought it with Sixth Street, which is sort of a private equity firm, private capital, and we turned it into a marketplace day one." aria-label="回原文"></button>。
+区块链的另一层价值是防欺诈：同一笔贷款被卖给多个人、重复质押，是贷款欺诈的重大来源。今年的 Tricolor 破产案里，有人把同一批车贷卖给多方，JP Morgan 损失了两三亿美元 <button class="pd-ts" data-t="25:40" data-who="嘉宾" data-en="That's pretty common that that happens? Yeah, if you look at this bankruptcy that happened this year called Tricolor, like JP Morgan lost like $200, $300 million because someone was selling the same auto loans to multiple people and they didn't figure it out." aria-label="回原文"></button>。
 
-## AI 冲击的是获客渠道，不是承销
+而链上记录到留置权（lien，对房产的抵押权）级别——一笔贷款只能有一个持有人，转移全程上链可查。为什么不直接用传统数据库？因为传统数据库绕不开「谁拥有、谁维护」的问题，区块链的激励机制让这件事不需要任何单一 owner <button class="pd-ts" data-t="27:20" data-who="嘉宾" data-en="you i guess you don't you could use a kind of open source permissionless database i mean that's essentially blockchain though so i mean yes i guess in that way meaning that it" aria-label="回原文"></button>。
 
-Figure 并没有把承销外包——合作伙伴用的是 Figure 的系统，承销和贷款处理仍在 Figure 的平台上完成 <button class="pd-ts" data-t="74:49" data-who="Unknown" data-en="is there a risk related to this like outsourcing the lending and underwriting and like it's like the quality of the cash flow that's paying the loan like you're giving it to like someone like there's multiple layers so we we maintain the underwrite like our system kind of going back to the Fannie Mae example we are still doing the underwriting and the processing of the loans" aria-label="回原文"></button>。真正外包的是获客（go-to-market）。
+他对「区块链 vs 加密货币」的切分很清楚：加密现在偏冷，但代币化（把贷款、股票这类真实资产上链）和稳定币是区块链的非加密用例，势头完全不同 <button class="pd-ts" data-t="28:30" data-who="嘉宾" data-en="Right now, you could describe it as a winter, at least if you look at Bitcoin pricing and what's happening there. But what's not cold, and I think this is where you're seeing a divorce between those two, is tokenization." aria-label="回原文"></button>。他也不客气地点破当年加密乱象的机理：区块链是「以金钱为导向的技术」，发币即自我变现，所以欺诈和骗局的比例天然比 AI 高——AI 里你要赚钱还得先变现，而 crypto 直接就是在造钱 <button class="pd-ts" data-t="30:10" data-who="嘉宾" data-en="much like the scale of it was larger than and and a greater percentage of the projects were related to this and i think that's because this is a Crypto and blockchain were fundamentally money-oriented technologies." aria-label="回原文"></button>。但他强调：把东西放上链不等于有人要——关键从来是 Figure 的贷款本身有人抢着买，才顺势把资本市场带上了链 <button class="pd-ts" data-t="60:26" data-who="嘉宾" data-en="Okay. So do, and this is a common misconception with blockchain. Just because you put something on a blockchain or quote tokenize it, doesn't mean people want it." aria-label="回原文"></button>。
 
-这里有一个 AI 带来的真实风险：传统上很多贷款靠 Credit Karma、Lending Tree 这类线索聚合网站获客，这些网站靠写博客、做 SEO 聚集流量再卖线索。但当用户直接问 Claude 或 GPT"我应该去哪借钱"时，AI 可能只给一个答案——赢家通吃，长尾网站会被严重挤压 <button class="pd-ts" data-t="75:40" data-who="Unknown" data-en="i think a really good example is a lot of the lending world not just not just mortgage focuses on these lead generation platforms like your credit karmas your lending trees basically they're called affiliates or you could call them you know like uh personal finance websites that then that send out leads lead generation firms however you want to call it right and if ai disrupts that" aria-label="回原文"></button>。
+## 变成市场平台：为什么把经济利益让给伙伴
 
-Figure 的应对：一方面保留 DTC 业务作为测试和风险缓冲（虽然体量小），另一方面自己上 AI 贷款专员助手——因为 Figure 的流程已经足够简单便宜，AI 助手更容易介入和自动化 <button class="pd-ts" data-t="76:05" data-who="Unknown" data-en="Which is really efficient from a cost perspective, but if there was a paradigm shift like AI, and that's why... we maintain this direct it's one of the reasons why we maintain direct to consumer another is so we don't test stuff on our customers but that is really important to us and we're making sure that we're leveraging a lot of cutting edge AI technology because we cannot be confident that our partners will do that" aria-label="回原文"></button>。
+Figure 的路径是：先直接面向消费者跑通 HELOC（合作伙伴不愿做小白鼠，「人们想做第一个去用已经跑通的东西的人」<button class="pd-ts" data-t="53:27" data-who="嘉宾" data-en="And it's really hard to get someone to start something and be the first. Yeah, they want to be the first second person. They want to be the first to try something that's really working already." aria-label="回原文"></button>），再把技术开放成 B2B——如今约 380 家银行、信用社、金融科技伙伴用 Figure 的技术放贷，自己出资、自己持牌，卖进 Figure 提供的资本市场，Figure 只做匹配。这个 2024 年 6 月推出的市场模式（Figure Connect）如今占业务的 60% 以上 <button class="pd-ts" data-t="55:30" data-who="嘉宾" data-en="And that was a big part of the marketplace approach and has been a big part of our IPO, which is we moved from us buying the loans from other people and then selling them." aria-label="回原文"></button>。
 
-## 上市的体验
+> 【背景】HELOC 即 Home Equity Line of Credit,房屋净值信贷额度。
 
-Michael 带着上市使命加入 Figure，18 个月完成。他描述上市过程中最折磨人的是时机：金融公司有利率风险，窗口期开了又关，政府停摆、战争都会影响。所有材料必须随时准备就绪，等市场窗口打开就立刻启动 <button class="pd-ts" data-t="78:25" data-who="Unknown" data-en="So what is that like for somebody who's never done it before? Yeah, I didn't join as it was happening. I joined with the mandate to do it." aria-label="回原文"></button>。
+他最反直觉的经营决策在这里：转向市场模式时，Figure 把经济利益让给了伙伴——伙伴赚走了更多收入和 EBITDA（息税折旧摊销前利润），Figure 换来更高利润率，本质像特许经营：万豪自己不承担开店的资本和风险，挣的是高毛利 <button class="pd-ts" data-t="72:37" data-who="嘉宾" data-en="So when we launched Figure Connect, which is our marketplace, we actually gave away we we turned the economics over to the partners so they're making more money more EBITDA but we're making higher margin it's almost like franchising so when you franchise something you're basically like even marriott hotels right like they're they're just making a high margin" aria-label="回原文"></button>。结果是「150 法则」——增速约 100% 加利润率约 50%——远超常见的「40 法则」。
 
-上市后最大的变化：季报节奏。发财报时你其实在讲 45 天甚至 135 天前的事，但你不能透露当前季度的任何情况。更微妙的是心态变化——私企时投资者把你给的信息当礼物，上市后从 X 上的人到晚餐桌上的人都觉得有权对你的薪酬、决策、业绩发表意见 <button class="pd-ts" data-t="80:15" data-who="Unknown" data-en="What's the biggest difference? Biggest difference is the quarterly earnings cadence because you're really talking to the market in very specific windows, sharing your financials." aria-label="回原文"></button>。
+为什么别人不这么干？两个原因：一是你必须放弃眼前的收入和 EBITDA，谁都不爱干这个，而且在上市之后、分析师眼皮底下这么改损益表几乎没法解释——所以 Figure 特意在上市前完成转型 <button class="pd-ts" data-t="73:16" data-who="嘉宾" data-en="It's the same reason, which is it's hard to do that because you have to give up revenue and you have to give up EBITDA and people hate doing that. And it's really hard to do that in the public eye, which is why we did it prior to going." aria-label="回原文"></button>；二是大多数人根本没有这个视野，北极星指标还停在客户数或交易量上 <button class="pd-ts" data-t="74:05" data-who="嘉宾" data-en="So you have to like give up something in service of a greater good, if you will. And I think the second reason is that people just don't have that vision. It's just not on people's radar, right?" aria-label="回原文"></button>。
+
+## 近期动作：收购 Kiavi、AI 的威胁与用法
+
+Figure 最近收购了 [[Kiavi|Kiavi]]——投资人贷款（「修了卖」类）的市场领导者：约为 Figure 40% 的交易量，但只花了约 10% 的市值，增速约 20%（Figure 约 100%）<button class="pd-ts" data-t="67:00" data-who="嘉宾" data-en="and they are the market leader in that business and that's a business that has grown nicely has ...reached profitability wasn't at the scale of figure. It's actually about 40% of our volume." aria-label="回原文"></button>。买入逻辑不是并表增速，而是把 Kiavi 的能力开放给 Figure 现有的 380 家伙伴——像 Flagstar Bank 这样的银行有现成的「修了卖」存款客户，今天却只能把他们送去别处；而大多数金融科技（如 Affirm）的技术只留给自己用，Figure 是开放的 <button class="pd-ts" data-t="71:05" data-who="嘉宾" data-en="So they are based in the Detroit area, but they've got branches everywhere, including New York. And they're using Figure to originate their home equity lines of credit and then selling into our marketplace." aria-label="回原文"></button>。这笔收购还联合了私募资本 Sixth Street，第一天就把 Kiavi 变成了[[市场|市场平台]] <button class="pd-ts" data-t="68:19" data-who="嘉宾" data-en="And I'm really excited about bringing them on. And I think that's going to... One of the interesting things that we did is we bought it with Sixth Street, which is sort of a private equity firm, private capital, and we turned it into a marketplace day one." aria-label="回原文"></button>。
+
+关于 AI,他坦承真实的风险不在承销（这部分 Figure 自己握着），而在获客：放贷行业大量依赖靠博客和个人理财内容聚合流量、再把这些线索卖掉的网站，而当人们改问 Claude 或 GPT,模型可能只给一个选项——赢家通吃，这些长尾站点正在受伤 <button class="pd-ts" data-t="76:30" data-who="嘉宾" data-en="Have you seen it show up at all yet? I have seen it show up. I've seen it show up in multiple ways." aria-label="回原文"></button>。这也是他保留 DTC（直接面向消费者）业务的原因之一。另一面 AI 也是武器：他们在用 AI 贷款专员助手做外联和安排——正因为 Figure 流程足够简单便宜，AI 助手才跑得动 <button class="pd-ts" data-t="77:11" data-who="嘉宾" data-en="So the long tail of those are getting hurt. Another thing that we're doing is using an AI loan officer assistant. So someone that's actually reaching out and" aria-label="回原文"></button>。
+
+## 上市是什么样的体验
+
+他带着「在短时间内上市」的使命加入，约 18 个月完成。上市最大的实际约束是时机：利率环境、财务数据是否过期、政府停摆、战争——窗口开了又关，你必须所有材料备好，窗口一开就冲 <button class="pd-ts" data-t="79:24" data-who="嘉宾" data-en="We continue to meet with them and then you flip the switch to you file to go public and then you launch your offering and timing is just so important and you have to have that like the right market for that." aria-label="回原文"></button>。
+
+上市后最大的变化是季度财报节奏——财报发布时你往往已经在聊 135 天前的事 <button class="pd-ts" data-t="80:52" data-who="嘉宾" data-en="So you're talking about stuff that happened as far as like 45 days ago, way, way longer than that, right? You could be talking about 135 days ago. And so that's a lot." aria-label="回原文"></button>；以及「人人都觉得有权对你发表意见」：从 X 上的陌生人到共进晚餐的熟人，你的薪酬、一切决策都成了公共话题 <button class="pd-ts" data-t="81:36" data-who="嘉宾" data-en="Treat information as like a gift that you're giving them. But once you become public, everyone feels that they can have an opinion on what you're doing. So I've noticed a huge shift where all of a sudden it's like there's" aria-label="回原文"></button>。四月有过一份做空报告，他不太当回事：「我经历过差点没钱、在厨房创业，做空报告排不进最糟的事」<button class="pd-ts" data-t="83:06" data-who="嘉宾" data-en="So that's not the worst thing that's happened to me, a short sale. At SoFi, there were times where I thought we were going to run out of money. So I've been through more and figure, excuse me, Brex, we start in the kitchen." aria-label="回原文"></button>。对「永不上市」论（如 Stripe），他的回应很简单：不是每家公司都是 Stripe <button class="pd-ts" data-t="83:43" data-who="嘉宾" data-en="And I just would counter that not every company is Stripe. Like they don't have to go public because they have tons of investor demand for what they do. And that's great for them, like genuinely, but that's not every company." aria-label="回原文"></button>。
+
+## 加油站测试
+
+他父亲——一位带公司上过市的运营者——在他年轻时指着一片豪宅说：住在这里的人，没一个能经营好一家加油站 <button class="pd-ts" data-t="84:14" data-who="嘉宾" data-en="What's the gas station test? It comes back to when I was younger, I was walking with my dad, who's an operator, and he was telling me, he was like, look, Mikey, look at all these fancy houses here." aria-label="回原文"></button>。这就是他的「加油站测试」：运营世界需要的是那种被扔进一家加油站、也知道怎么定价、怎么把事情搞定的人。
+
+而运营世界是倒金字塔——压力和实际工作在最上面，越往上越不能只做关系管理 <button class="pd-ts" data-t="85:41" data-who="嘉宾" data-en="Well, and this also gets to the gas station test, right? In the investor kind of consulting law firm world, you get this pyramid where all the junior people do all the work and the top people kind of like relationship manage and go out to dinner, et cetera." aria-label="回原文"></button>。他的自洽方式一句话：「是我选择了这种生活，没有人强迫我」<button class="pd-ts" data-t="86:16" data-who="嘉宾" data-en="And it's, you know, if you want this job, and I always say that to myself, I chose this life. I chose this role. So it's not an easy job." aria-label="回原文"></button>。
 
 ## 本集带走
 
-- **区分两种心态**：运营者心态问"公司需要什么"，高管心态问"这对我的履历/关系有什么好处"。选人时观察他们带来的是"自己的供应商"还是"第一性原理的选择"。
-- **客户反馈管道化**：不是靠偶尔的用户访谈，而是把 CSAT 结果直接灌进全员 Slack 频道，负面反馈实时可见；高管务虚会捆绑客户拜访，让不直接接触客户的人也产生同理心。
-- **区块链的实际价值不是"上链"本身**：Figure 的案例是，上链解决了两个具体问题——重复验证同一贷款属性浪费的钱（省 80% 成本），以及贷款双重出售的欺诈。如果没人想买你的资产，上链毫无意义 <button class="pd-ts" data-t="60:23" data-who="Unknown" data-en="And maybe if I'm like ignorant and don't understand like how blockchain works, like couldn't anyone put it on the blockchain or like figures blockchain or how does that work exactly?" aria-label="回原文"></button>。
-- **市场平台转型的代价**：要把 DTC 业务变成平台，必须主动放弃收入和 EBITDA 数字，让合作伙伴赚更多——这是大多数人不愿意做的，也是在上市前做比上市后做更合理的原因。
-- **AI 对金融科技获客的真实冲击**：不是 AI 取代承销，而是 AI 搜索（Claude/GPT）可能把线索聚合网站的长尾流量吃掉，变成赢家通吃。有 DTC 业务的公司至少有一层缓冲。
-- **加油站测试**：如果你被扔进一家加油站，你知不知道怎么给汽油定价、怎么运营？能看懂客户反馈在说什么、能判断业务问题在哪，是运营者的基本功，跟头衔无关 <button class="pd-ts" data-t="84:14" data-who="Unknown" data-en="What's the gas station test? It comes back to when I was younger, I was walking with my dad, who's an operator, and he was telling me, he was like, look, Mikey, look at all these fancy houses here." aria-label="回原文"></button>。
+- **区分两种心态的试金石**：你在优化「公司的每股自由现金流」还是「自己的」——带着旧供应商上任、只往正在起作用的地方贴、远离问题，都是后者。
+- **大石头框架**：全公司 3-5 条不逐季变化的目标，各配每周例会 + Slack 频道，跨职能组织。
+- **让高管团队每年两次的务虚会必含客户拜访**，去客户密集的无聊城市，别去海滩——给法务、财务这些离客户最远的人建立同理心。
+- **负面反馈直接管道进 Slack 全员可见**；产品内嵌 CSAT 按钮 + 大客户 QBR 亲自坐镇。
+- **服务大众富裕客群**：客户年入 12 万而不是 2 万，同样的产品难度直接降六倍——Figure 的每个客户都是有房有净值的人。
+- **要变成市场平台，就得先放弃收入和 EBITDA 把利益让给伙伴**，像特许经营一样换高毛利；这种转型在上市前做，别在分析师眼皮底下做。
+- **上链本身不创造需求**——先有人们抢着要的资产，再顺势把资本市场搬到链上；链上记录到留置权级别能防双重出售这类大额欺诈。
+- **70/20/10 精力分配**：70% 给六个月内落地的事，20% 给 6-18 个月，10% 给更远的。
+- **让早期高管自掏腰包投资**（创始人可匹配股权），用真金白银防止人「说走就走」。
+- **上市时机是硬约束**：材料常备，窗口一开就冲；上市后人人都有权评论你，包括做空报告——想清楚再选。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec">全部金句 <span>8 条</span></div>
 
-> <span class="qz">就像不管什么开始起作用了，他们就会像小孩踢足球那样跑到那里，你知道，追逐球，而他们逃离问题。</span>  
-> *Like whatever starts to be working, they kind of run there like little kids playing soccer, you know, chase the ball and they're running away from problems.*  
-> <span class="qm">—— Michael Tannenbaum · [07:06]</span> ^q1
+> <span class="qz">但很多时候，董事会成员如果名声显赫，他们会保护自己。</span>  
+> *But a lot of times, board members, if they have these big reputations, they're going to protect themselves.*  
+> <span class="qm">—— Michael Tannenbaum · [05:51]</span> ^q1
 
-> <span class="qz">我们的成本大约是 1000 美元，而行业平均水平是 12000 美元，我们的耗时大约是 5 天，而行业平均水平是 45 天。</span>  
-> *we do it in about a thousand dollars versus twelve thousand industry average and we do it for uh in about five days versus industry average of 45.*  
-> <span class="qm">—— Michael Tannenbaum · [22:24]</span> ^q2
+> <span class="qz">所以这就像把自己附着在成功上，而不是创造成功。</span>  
+> *So it's like about attaching yourself to success, not creating the success.*  
+> <span class="qm">—— SPEAKER_00 · [07:02]</span> ^q2
 
-> <span class="qz">Figure 的一个优势，而且我非常喜欢这一点，是即使我们是 B2B，我们也可以直接面向消费者推出产品，因为合作伙伴不想做小白鼠。</span>  
-> *So one of the advantages Figure has, and I like this a lot, is that even though we are B2B, we can launch products direct to consumer because partners don't want to be the guinea pig.*  
-> <span class="qm">—— Michael Tannenbaum · [53:12]</span> ^q3
+> <span class="qz">是的，如果你看今年那个叫 Tricolor 的破产案，JP Morgan 损失了大约两三亿美元，因为有人把同一批车贷卖给了多个人而他们没发现。</span>  
+> *Yeah, if you look at this bankruptcy that happened this year called Tricolor, like JP Morgan lost like $200, $300 million because someone was selling the same auto loans to multiple people and they didn't figure it out.*  
+> <span class="qm">—— Michael Tannenbaum · [25:40]</span> ^q3
 
-> <span class="qz">仅仅因为你把某样东西放在区块链上或者引用说是代币化它，并不意味着人们想要它。</span>  
+> <span class="qz">加密货币和区块链从根本上说是以金钱为导向的技术。</span>  
+> *Crypto and blockchain were fundamentally money-oriented technologies.*  
+> <span class="qm">—— Michael Tannenbaum · [30:10]</span> ^q4
+
+> <span class="qz">而加密货币是自我变现的，因为你在创造一种币。</span>  
+> *Whereas crypto was like self-monetizing because you're creating a coin.*  
+> <span class="qm">—— Michael Tannenbaum · [30:24]</span> ^q5
+
+> <span class="qz">仅仅因为你把某样东西放上区块链或者所谓的代币化它，并不意味着人们想要它。</span>  
 > *Just because you put something on a blockchain or quote tokenize it, doesn't mean people want it.*  
-> <span class="qm">—— Michael Tannenbaum · [60:29]</span> ^q4
+> <span class="qm">—— Michael Tannenbaum · [60:29]</span> ^q6
+
+> <span class="qz">每个人都应该把自己变成一个市场平台。</span>  
+> *Everyone should turn themselves into a marketplace.*  
+> <span class="qm">—— SPEAKER_00 · [72:19]</span> ^q7
+
+> <span class="qz">这很难做到，因为你必须放弃收入和 EBITDA，而人们讨厌那样做。</span>  
+> *it's hard to do that because you have to give up revenue and you have to give up EBITDA and people hate doing that.*  
+> <span class="qm">—— Michael Tannenbaum · [73:10]</span> ^q8
 
 <div class="pd-sec">接着看</div>
 

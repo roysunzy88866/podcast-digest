@@ -1,5 +1,5 @@
 ---
-title: Patrick Debois：AI 编码的组织转型与规模化
+title: DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟
 podcast: The AI-Native Dev
 date: 2026-08-26
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "47:37"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n.jpg"
-description: DevOps 之父 Patrick Debois 认为 AI 编码的核心瓶颈已从代码生成转向输出验证，组织能力才是真正的护城河。
+description: DevOps 运动发起人 Patrick Debois 讲解 agentic patterns 研究项目：AI 编码的五个层级、角色变化、招聘标准与扩展组织的新指标。
 host: "[[Guy Pajani]]"
 cohosts: ["[[Patrick Debois]]", "[[Simon Maple]]"]
 concepts: ["[[暗工厂]]", "[[智能体]]", "[[vibe coding]]", "[[harness]]", "[[循环工程]]", "[[上下文]]", "[[评估]]", "[[可观测性]]", "[[智能体平台]]", "[[DevOps]]", "[[持续学习]]"]
@@ -17,128 +17,128 @@ tags:
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/covers/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#post","headline":"Patrick Debois：AI 编码的组织转型与规模化","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n","mainEntityOfPage":"https://talk.solomind.cc/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n","description":"DevOps 之父 Patrick Debois 认为 AI 编码的核心瓶颈已从代码生成转向输出验证，组织能力才是真正的护城河。","datePublished":"2026-08-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n.jpg","about":[{"@type":"Person","name":"Guy Pajani"},{"@type":"Person","name":"Patrick Debois"},{"@type":"Person","name":"Simon Maple"},{"@type":"Thing","name":"暗工厂 (dark factory)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"循环工程 (loop engineering)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"智能体平台 (agentic platform)"},{"@type":"Thing","name":"DevOps"},{"@type":"Thing","name":"持续学习 (continuous learning)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Patrick Debois：AI 编码的组织转型与规模化","item":"https://talk.solomind.cc/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#post","headline":"DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n","mainEntityOfPage":"https://talk.solomind.cc/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n","description":"DevOps 运动发起人 Patrick Debois 讲解 agentic patterns 研究项目：AI 编码的五个层级、角色变化、招聘标准与扩展组织的新指标。","datePublished":"2026-08-26","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n.jpg","about":[{"@type":"Person","name":"Guy Pajani"},{"@type":"Person","name":"Patrick Debois"},{"@type":"Person","name":"Simon Maple"},{"@type":"Thing","name":"暗工厂 (dark factory)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"循环工程 (loop engineering)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"可观测性 (observability)"},{"@type":"Thing","name":"智能体平台 (agentic platform)"},{"@type":"Thing","name":"DevOps"},{"@type":"Thing","name":"持续学习 (continuous learning)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟","item":"https://talk.solomind.cc/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Patrick Debois：AI 编码的组织转型与规模化</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Patrick Debois：AI 编码的组织转型与规模化
+# DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟
 
 <div class="pd-byl"><b>Patrick Debois</b> · DevOps 之父 · 2026-08-26</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我认为在技术上它是可行的，但你们并没有围绕它进行组织。</div><div class="a">— Patrick Debois <button class="pd-ts" data-t="00:04" data-who="Patrick Debois" data-en="I think technically it will work, but you're not organized around it." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">就像如果我只是让它生成，那将是垃圾。如果我把我自己的上下文给它，像我的策展、我的品味、我的 harness，它就会说，嗯，不要供应商之类的东西，或者它必须有四个声音。</div><div class="a">— Patrick Debois <button class="pd-ts" data-t="12:35" data-who="Patrick Debois" data-en="Like if I would just have it generate, it will be rubbish. If I had like my own context to it, like my curation, my taste, my harness, it would be say, well, not vendors or kind of like things or like it has to have four voices." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Guy Pajani]] · [[Patrick Debois]] · [[Simon Maple]]
 >
 > **概念** [[暗工厂]] · [[智能体]] · [[vibe coding]] · [[harness]] · [[循环工程]] · [[上下文]] · [[评估]] · [[可观测性]] · [[智能体平台]] · [[DevOps]] · [[持续学习]]
 
-提到"[[暗工厂|暗工厂]]"（让 AI 全自动写代码的模式），很多人第一反应是亵渎、行不通。[[Patrick Debois|Patrick Debois]] 的判断是：技术上完全行得通，是组织没跟上 <button class="pd-ts" data-t="00:04" data-who="Patrick Debois" data-en="It won't work. I think technically it will work, but you're not organized around it. The continuous learning is where the knowledge compounds." aria-label="回原文"></button>。这跟他当年推 [[DevOps|DevOps]] 时听到的声音一模一样——"持续交付在我们这行不通"，翻译过来就是"我们还没准备好"，技术本身不是瓶颈 <button class="pd-ts" data-t="10:57" data-who="Patrick Debois" data-en="Um when maybe you know, with the comparison of DevOps, when they said, well, continuous delivery, that doesn't work for us. It was basically they were saying we're not ready yet." aria-label="回原文"></button>。
+这一集是 [[DevOps|DevOps]] 运动的发起人 [[Patrick Debois|Patrick Debois]](被称为 DevOps 的“继兄弟”)在 AI Engineer 大会现场与主持人的对谈。他做了一个叫 agentic patterns 的研究项目(tesle.io/patterns)，把 AI 编码浪潮里的实践分类整理成五大板块。
 
-## 技术堆栈在稳定，组织堆栈没跟上
+他最扎眼的判断是：[[暗工厂|暗工厂]](dark factory，完全无人化的软件生产)在技术上完全可行，今天挡住它的不是技术，而是组织——「当你提到暗工厂这个词时，就像在说亵渎神灵，它行不通。我认为技术上它行得通，但你们没有围绕它进行组织」<button class="pd-ts" data-t="11:06" data-who="Patrick Debois" data-en="It wasn't that the tech was impossible for them to use, but the org wasn't ready. And I think when you mentioned the word dark factory, it's like blasphemy, right?" aria-label="回原文"></button>。
 
-AI 编码的技术层面正在从混乱走向分层：从最初的提示词，到写规范（spec），再到 [[harness|harness]]（一种约束和引导[[智能体|智能体]]的框架），再到 loop（智能体自我循环执行），再到 loop of loops（多层嵌套的智能体协作）。每一层都建立在上一层之上，不是推翻重来 <button class="pd-ts" data-t="04:40" data-who="Patrick Debois" data-en="Yeah, um, so every new technology will have the impact in the org. And I feel right now um a little bit of the technology, I'm not saying it's maturing because that's a broad overstatement, but we're we kind of get a sense of direction now within AI coding, how it's going, you know, from context to harness to loop to kind of what is mentioned, loop craft, loops of loops, and and so on." aria-label="回原文"></button>。Patrick 认为这些分层会保留下来，不是每天都在变 <button class="pd-ts" data-t="07:35" data-who="Patrick Debois" data-en="What what what would you say the goals are for teams in that respect? So I think there is a settling in, like yes, prompts and specifications will be a keeper. Um, yes, harnesses and context will make sense, the loops will be so I I don't think this is changing all the time." aria-label="回原文"></button>。
+## AI 编码的五个板块：一条渐进线
 
-但组织成熟度远落后于技术成熟度。大企业的摩擦力天然比个人或五人小队大得多——利益相关者多、流程固化 <button class="pd-ts" data-t="10:09" data-who="Patrick Debois" data-en="Are we early stages of puberty, maybe? Where would you say we are we're we're I think on average, but not that high in in a big org because the the friction of scaling things in an org are different than doing it on a solo or maybe in a team of five." aria-label="回原文"></button>。结果就是：行业已经聊 loop engineering 了，你去做调查，大多数人还不知道那是什么 <button class="pd-ts" data-t="13:27" data-who="Patrick Debois" data-en="Yeah. Uh, because first of all, imagine you would do a survey now in an organization about loop engineering, everybody's like, uh what? Yeah, while there is already the evolve uh like evolution within the industry, that this is where the thinking is going." aria-label="回原文"></button>。
+Patrick 把行业实践分成五个类别，索引是手工建的(因为社交媒体上命名混乱，每个人都有不同的说法)。第一类是 agentic development，主要是独立开发者的事：从 [[vibe coding|vibe coding]](凭感觉让 AI 写代码)到 spec coding(先写规范再让 AI 实现)，再到暗工厂——这是一条渐进线：你从提示词开始，发现需要更好的 spec，需要更多 context(给[[智能体|智能体]]的背景材料)、更多 [[harness|harness]](驾驭智能体的脚手架)。第二类是平台：可复用组件——context、harness、集中管道——他相信这会由平台团队或开发者体验团队作为中心件提供，今天已见雏形：MCP proxy(一种智能体接入外部工具的代理层)、集中的 eval([[评估|评估]])、registry(注册表)<button class="pd-ts" data-t="15:11" data-who="Patrick Debois" data-en="And I think this is also how the industry has built up the narrative over time on how to do things more technically. But then the second category is the platform, which I feel the more we're heading into reusable components, whether that's context or harness or the centralized pipeline of the Dark Factory, I have a belief that that will be something provided by a platform team or the developer uh experience team as a central piece." aria-label="回原文"></button>。
 
-## 从单人模式到共享模式：平台团队的新活
+主持人指出平台这块在大组织里采纳度最不成熟，但恰恰是解锁规模化的一环；Patrick 补充说这并非全新事物——产品内的 AI 比编码用 AI 在组件上领先约两年，平台团队早就有评估系统和[[可观测性|可观测性]]，只是「评估的对象不是模型，而是编码智能体」这一点是新课题<button class="pd-ts" data-t="17:12" data-who="Patrick Debois" data-en="No, I think you're right in a way that it maybe is a little bit less mature, but on the other hand, it's not. Um like AI product, AI inside the product is probably two years ahead from AI coding on components." aria-label="回原文"></button>。
 
-Patrick 把 agentic coding 的组织形态分成了几个层级，对应他整理的 patterns 网站上的分类：
+第三类是质量与安全。他纠结要不要单列，最终单列是因为：agentic development 关注的是把代码搞对，而 QA 测试、代码安全这些非功能性需求自成一体。
 
-**第一层是个体开发者**：从 [[vibe coding|vibe coding]]（凭感觉写提示词让 AI 生成）到 spec coding（先写规范再生成），一直到暗工厂模式。这是一个人能推进的极限 <button class="pd-ts" data-t="14:43" data-who="Patrick Debois" data-en="One thing to note is that um this index is hand created, and I I found that if you learn it uh through a bunch of socials, the naming varies and it kind of like you know, everybody has a different slant on it." aria-label="回原文"></button>。
+他预测瓶颈会从生成转移到输出验证：「在你做完事情之后，智能体的工作是说服你它做了正确的事」，不只是给你 PR 看代码，还要给你截图、智能体点击的记录<button class="pd-ts" data-t="19:14" data-who="Patrick Debois" data-en="Now we need to solve the output verification thing. So I believe this will go on its own path, where maybe some of the latest trends are that after your harness has done things, it's the job of the agent to uh uh convince you that it did the right thing." aria-label="回原文"></button>。一个有意思的判断：写代码的 IDE 已经搬进了 CLI(命令行)，但 IDE 正以审查界面的身份回归——审查者要看截图、录制、API 行为，这些视觉交互终端里的清单给不了<button class="pd-ts" data-t="20:20" data-who="Patrick Debois" data-en="Yes, no. I believe the IDE for writing the code has moved into the CLI, but it's now popping up again as the review interface, which is the IDE is yeah, interesting." aria-label="回原文"></button>。
 
-**第二层是平台**：当多个团队都在用 AI 编码，可复用的东西——[[上下文|上下文]]、harness、集中式的[[评估|评估]]流程——就应该由平台团队统一提供 <button class="pd-ts" data-t="15:11" data-who="Patrick Debois" data-en="And I think this is also how the industry has built up the narrative over time on how to do things more technically. But then the second category is the platform, which I feel the more we're heading into reusable components, whether that's context or harness or the centralized pipeline of the Dark Factory, I have a belief that that will be something provided by a platform team or the developer uh experience team as a central piece." aria-label="回原文"></button>。这不是空想，产品里嵌入 AI 的团队（比 AI 编码早走两年）已经建好了评估系统和[[可观测性|可观测性]]系统，平台团队并不陌生，只是用例不同 <button class="pd-ts" data-t="17:12" data-who="Patrick Debois" data-en="No, I think you're right in a way that it maybe is a little bit less mature, but on the other hand, it's not. Um like AI product, AI inside the product is probably two years ahead from AI coding on components." aria-label="回原文"></button>。
+后两类是角色变化和扩展组织，下面展开。
 
-从单人切到共享有一个复利效应：一个团队优化了上下文或 harness，所有团队都受益 <button class="pd-ts" data-t="16:55" data-who="Patrick Debois" data-en="So you you unlock a different level if you go from solo to shared, and then you unlock the thing. So there's a compounding effect in if everybody starts using the same components, there's a refinement." aria-label="回原文"></button>。
+## 技术在堆叠，组织在掉队
 
-## 质量与安全：瓶颈从生成转移到了验证
+主持人问：我们到底在成熟曲线上哪个位置？Patrick 的回答分两层。
 
-智能体开发的焦点一直是"怎么更快地生成正确的代码"，但"怎么验证生成的是好代码"是另一件事 <button class="pd-ts" data-t="18:34" data-who="Patrick Debois" data-en="But I I found that it kind of leads a little bit of its own life. And I would say that while agentic development has about cranking out the code as a focus and making that code correct, um it wasn't about verifying that it was kind of good code." aria-label="回原文"></button>。Patrick 把质量单列一类，因为他看到一条独立演进的路径正在形成。
+技术栈层面，不是一直在变，而是在堆叠:prompts、specs、harnesses、loops 都是保留项，一层层加在栈上，loop craft、loops of loops(循环套循环，即智能体编排智能体)也是可预测的演进。但组织层面完全是另一回事：很多组织还在用旧的补全版本，觉得「对我不起作用」，并据此做出错误决策——就像当年 DevOps 时代说「持续交付对我们不管用」的人，「基本上是在说我们还没准备好。不是技术用不了，是组织没准备好」<button class="pd-ts" data-t="11:00" data-who="Patrick Debois" data-en="It was basically they were saying we're not ready yet. It wasn't that the tech was impossible for them to use, but the org wasn't ready. And I think when you mentioned the word dark factory, it's like blasphemy, right?" aria-label="回原文"></button>。
 
-当前比较成熟的做法不只是让 LLM 当裁判打分，而是建定制化的验证工具——快速地批量过，帮你确认"是的，它确实做到了" <button class="pd-ts" data-t="19:55" data-who="Patrick Debois" data-en="Or you have to look at the app. What you see the more mature people do is they build a verification and an almost like a custom tool to deal with all the e-files, like a fast way of saying yes, no, where I agree that it proves to you." aria-label="回原文"></button>。更进一步的趋势是：智能体做完事之后，它的工作没结束，它还得"说服"你它做对了——不是扔一个 PR 过来就完事，而是提供截图、点击录屏、API 验证结果等视觉化的证据 <button class="pd-ts" data-t="19:14" data-who="Patrick Debois" data-en="Now we need to solve the output verification thing. So I believe this will go on its own path, where maybe some of the latest trends are that after your harness has done things, it's the job of the agent to uh uh convince you that it did the right thing." aria-label="回原文"></button>。
+大组织平均成熟度不高，因为扩展的摩擦和五人小队完全不同。典型模式是：先有一个团队带头冲锋，再变成多个团队，再逐步解决摩擦。
 
-有意思的是，编写代码的 IDE 功能正在向 CLI（命令行）迁移，但 IDE 又作为"审查界面"重新出现了 <button class="pd-ts" data-t="20:20" data-who="Patrick Debois" data-en="Yes, no. I believe the IDE for writing the code has moved into the CLI, but it's now popping up again as the review interface, which is the IDE is yeah, interesting." aria-label="回原文"></button>。
+## 角色往哪走：不想写 spec 的人，去做 harness
 
-## 角色怎么变：不是所有人都变成写规范的
+行业里一个真实的抵抗是：「我们是冲着写代码来的，不是冲着做一个光鲜的提示词规范编写者」<button class="pd-ts" data-t="23:48" data-who="Patrick Debois" data-en="Now the other problem in the industry is that they would say, Well, we like to do the coding. We signed up for the coding, we didn't sign up for a glorified prompter as specification." aria-label="回原文"></button>。Patrick 的回应：harness 工程和 loop 工程是有技术含量的构建工作，给仍想做技术的人留了出口——他们可以去建 harness、搭 loop、做审查工具。
 
-业界有一个让人不安的说法：以后我们都是"光鲜亮丽的提示词规范编写者" <button class="pd-ts" data-t="23:53" data-who="Patrick Debois" data-en="Now the other problem in the industry is that they would say, Well, we like to do the coding. We signed up for the coding, we didn't sign up for a glorified prompter as specification." aria-label="回原文"></button>。Patrick 认为 harness engineering 和 loop engineering 打破了这个困局——这些是需要动手构建的技术组件，想写代码的人有地方去 <button class="pd-ts" data-t="24:08" data-who="Patrick Debois" data-en="And um, for a while this stagnated into yes, we'll all become the perfect spec writer and the code is being generated and so on. For me, harness engineering and loop engineering maybe click that that requires a technical component to be built." aria-label="回原文"></button>。
+而且 harness 是共享组件，组织里只需要一部分人做这件事。这和 DevOps 时的争论一模一样：DevOps 会不会自动化到让自己失业？结果是他们做到了以前无法想象的规模，人又被拉回来<button class="pd-ts" data-t="24:49" data-who="Patrick Debois" data-en="Yeah. So there's kind of some things, and it was uh similar to DevOps. Well, you know, DevOps will automate themselves out of a job, but on the other hand, they could do like things at a scale we didn't imagine before, and then we pull the people back." aria-label="回原文"></button>。
 
-对于"AI 不够好所以不用"的怀疑派，他的建议是：别让他们只用基础提示词然后下结论，让他们去写上下文、建 harness——投入努力之后效果会不一样 <button class="pd-ts" data-t="23:20" data-who="Patrick Debois" data-en="I would typically say it is a maturity in a way that you can add more and more rules and context and harnesses to get it in a certain way. So one thing I would say is that a skeptical person get them actually to write the context and have them build a harness, right?" aria-label="回原文"></button>。
+对付怀疑者的办法很具体：别辩论，让他们去写 context、建 harness——「以前感觉它不管用，我们能做的只有不用它。但现在可以说，你投入努力就能让它变好」<button class="pd-ts" data-t="23:20" data-who="Patrick Debois" data-en="I would typically say it is a maturity in a way that you can add more and more rules and context and harnesses to get it in a certain way. So one thing I would say is that a skeptical person get them actually to write the context and have them build a harness, right?" aria-label="回原文"></button>。
 
-团队负责人的角色也在变：不是鼓励每个人优化自己的独立配置，而是推动团队把好的上下文和 harness 共享出来——跟当年"别每个人都造自己的库，建共享库"是一样的逻辑 <button class="pd-ts" data-t="25:29" data-who="Patrick Debois" data-en="So but that's kind of where the roles could go. Um as a team lead, I think the trend is that you would instead of uh encouraging the solo people to uh improve their own setup, is to push them to a shared thing." aria-label="回原文"></button>。
+团队主管的新职责：推动大家从 solo 模式走向 shared 再到 multiplayer(多人协作)模式——就像当年建共享库而不是每人发明自己的库。一个团队优化了共享组件，所有团队都受益，这是复利效应<button class="pd-ts" data-t="16:39" data-who="Patrick Debois" data-en="Correct. Yeah, so it's also the difference between uh some explain it by saying there's a solo work, uh solo mode, there's a shared mode and there's a multiplayer mode." aria-label="回原文"></button>。
 
-## 招什么样的人：系统思考者，不是语言粉丝
+## 招工程师：要系统思考者，不要语言原教旨主义者
 
-如果现在招工程师，Patrick 会找"系统思考者"——不只关心代码，关心整个系统怎么运转 <button class="pd-ts" data-t="27:51" data-who="Patrick Debois" data-en="Um what what are the key things that you're looking for in an engineer today that you wouldn't have said these would be key things five years ago, let's say? The way that I would uh phrase it is somebody more as a system thinker." aria-label="回原文"></button>。不是那个写出最优雅代码的人，而是能改进系统、有协作能力的人 <button class="pd-ts" data-t="28:13" data-who="Patrick Debois" data-en="You can be as a junior that you're interested in as well. Um probably not the person that will write the elegant code that that is kind of you need to have an eye for taste, but it it's not the main thing." aria-label="回原文"></button>。
+今天招人，Patrick 找的是系统思考者：关心代码之外的一切，不一定要资深，初级但对系统感兴趣也行。协作和改进能力比独门手艺重要。
 
-具体怎么判？他会问：你怎么跟上行业变化？
+一个具体的探针问题：「你怎么跟上行业？关注哪些社区？
 
-你关注哪些社区？如果对方只提自己用的那门语言、那个技术栈，那就很局限 <button class="pd-ts" data-t="29:30" data-who="Patrick Debois" data-en="Uh but yeah, being open-minded, discoverable, learning, I think the the the willingness to learn. So I would typically probe it's okay, how do we keep how do you keep up what communities are you're interested in?" aria-label="回原文"></button>。像全栈工程师一样能在不同领域之间切换的人，更适应这个阶段 <button class="pd-ts" data-t="28:39" data-who="Patrick Debois" data-en="Are you only coming if we do this language? Yeah, okay, no, you you need to switch languages uh in that way, similar to a full stack that we defined before, front end, backend, it doesn't matter." aria-label="回原文"></button>。
+」如果对方只提自己的语言、自己的技术栈，那就是危险信号<button class="pd-ts" data-t="29:30" data-who="Patrick Debois" data-en="Uh but yeah, being open-minded, discoverable, learning, I think the the the willingness to learn. So I would typically probe it's okay, how do we keep how do you keep up what communities are you're interested in?" aria-label="回原文"></button>。他观察到与 DevOps 类似的规律：适应得最好的是三四十岁、伤疤攒够了的人；工作方式僵化的人不会被雇。
 
-## 规模化推广：先找成功故事，别管抵制者
+## 扩展组织：别在消极面上花时间
 
-不管推 AI 还是推敏捷，Patrick 的策略一样：开头不要在抵制者身上花时间，找到成功故事 <button class="pd-ts" data-t="34:10" data-who="Patrick Debois" data-en="I think regardless whether this is now AI or like agile or any change, um, as hard as it sounds, do not spend time on the negatives in the beginning. Find the success story." aria-label="回原文"></button>。让先进团队带头冲，他们展示出效果，其他人自然会问"你们怎么做到的" <button class="pd-ts" data-t="34:14" data-who="Patrick Debois" data-en="So it's the super high Yeah, because they will show what it could be, they will also show the benefits uh and attract like other people trying this to get like the same benefits, and maybe they'll look up to these people, like, hey, what did you do?" aria-label="回原文"></button>。但别让一个团队跑太远其他人原地不动，要有节奏地拉其他人上路 <button class="pd-ts" data-t="34:50" data-who="Patrick Debois" data-en="And that could be a variety of reasons in there. Now, it probably makes sense is not to over-rotate on one team going all the way and nobody else. So I would say there's like a leveling up, they spearhead the thing, and then you bring others maybe on kind of like parts of the journey already, and then they kind of like drive kind of towards what the one team is doing." aria-label="回原文"></button>。
+被问最多的就是「怎么让组织更快」。Patrick 说有两部分：有些没法加速——你必须亲身经历过提示词工程，才知道自己缺 spec、缺 context、缺 harness,这个学习阶段绕不过。
 
-## 衡量指标：别数 token，数共享贡献
+能做的是团队主管控制节奏的「强制功能」：比如宣布「大家都懂提示词了，现在把所有 context 和 skills 放进仓库」，于是突然发现需要测试、需要互信，团队就被推着跳到下一级。「如果主管不发出跳的信号，每个人都会继续用老办法——还在用补全，不用规则」<button class="pd-ts" data-t="32:14" data-who="Patrick Debois" data-en="That's that's like a forcing function they can do that. All of a sudden, oh, if we do that, we need to have tests, and I don't trust your context. And and so they can pull a little bit of that pace, how the team jumps to the next thing." aria-label="回原文"></button>。
 
-最初大家用"有没有买许可证"来衡量采用率，后来变成"谁用的 token 多"——但 token 多只代表热情，不代表高效 <button class="pd-ts" data-t="36:19" data-who="Patrick Debois" data-en="And some will pick it up and they go all the way and kind of they build their own future and and they become very proactive. Um initially, everybody was measuring adoption by saying, well, is everybody using a tool?" aria-label="回原文"></button>。
+推广策略是经典转型打法：一开始别在抵抗者身上花时间，先找到成功案例——「如果成功案例做不出来，其他的都不会成。他们会展示可能性、展示收益，吸引其他人来问：你们怎么做到的？
 
-Patrick 提了一个新指标：这些人有多少在为共享组件做贡献、在修复系统，而不是只顾自己用 <button class="pd-ts" data-t="37:08" data-who="Patrick Debois" data-en="If I were to put one measurement right now is how much these people are contributing to the shared components and they're fixing the system instead of kind of using more or having a tool." aria-label="回原文"></button>。因为一次上下文改进能影响所有团队，这是"帮整个组织变好"的技能，跟"个人很高效"是两种能力 <button class="pd-ts" data-t="37:08" data-who="Patrick Debois" data-en="If I were to put one measurement right now is how much these people are contributing to the shared components and they're fixing the system instead of kind of using more or having a tool." aria-label="回原文"></button>。
+」等采纳度上来了再去问抵抗者：是什么在阻碍你？配套动作是黑客马拉松、午餐学习会、表扬做得最好的团队——「这是 DevOps,是云，是开发者安全，全是同一套打法」<button class="pd-ts" data-t="33:58" data-who="Patrick Debois" data-en="So, where would you say like an organization, an organization can only spend you know its effort effectively in certain areas, where would you say it's most effective for an organization to focus to get the best benefit longer term to improving their overall adoption?" aria-label="回原文"></button>。
 
-更细一层：为了让智能体做对，人类还需要手动介入多少次？这个数字越低越好 <button class="pd-ts" data-t="37:30" data-who="Patrick Debois" data-en="And the measurement there is how many touches does the human still need to do for an agent to do the right thing, and so kind of measuring that becomes more effective than measuring uh you know, kind of adoption just by having license counts." aria-label="回原文"></button>。
+## 新指标：贡献共享组件，而不是 token 亿万富翁
 
-他管那些 token 用得最多但不贡献共享组件的人叫"token 亿万富翁"——他们不是帮你赶路的人 <button class="pd-ts" data-t="00:32" data-who="Patrick Debois" data-en="And the people who uh contribute to that metric are the ones that are really helping you on the journey. Not the token billionaires. The AI Native Dev is a podcast for developers and engineering leads at the cutting edge of AI and agentic coding." aria-label="回原文"></button>。
+度量采纳的指标也在演进：先是「大家用没用工具」，然后是「token 用量」——但那只是代理指标，用得多只说明热情高，不说明高效。Patrick 认为现在最好的单一指标是：**这个人为共享组件贡献了多少、修了多少系统问题，以及「为了让智能体做对事，人类还需要碰多少次」**。
 
-## 成本管理：别砍预算，找盲点
+因为一次共享 context 的改进会让所有团队的数字一起变好<button class="pd-ts" data-t="36:51" data-who="Patrick Debois" data-en="It's a substitute proxy kind of measurement where you say, Well, you know, the people are using more tokens, they're like at least enthusiastic about it, but they might not be using this quite efficiently." aria-label="回原文"></button>。真正在旅程中帮你的，是推动这个指标的人，「不是那些 token 亿万富翁」<button class="pd-ts" data-t="38:17" data-who="Patrick Debois" data-en="Uh, who the people who uh contribute to that metric are the ones that are really helping you on the journey. Uh not uh the the token billionaires. Yeah, yeah, no." aria-label="回原文"></button>。
 
-砍预算是最危险的反应。人们被限制后会退化回手动操作，学习旅程就断了 <button class="pd-ts" data-t="43:14" data-who="Patrick Debois" data-en="Now you can have the instant reaction, say, Oh, well, everybody stop doing, let's remove, kind of like the like reduce the budget and uh kind of make sure that like we we we keep within limits." aria-label="回原文"></button>。
+## 成本：砍预算是最糟的反应
 
-正确做法是建可观测性——看谁在盲目用最大模型、谁在重复做同样的事而不知道可以加个 harness 省掉大量 token <button class="pd-ts" data-t="44:50" data-who="Patrick Debois" data-en="I think the the right reaction is where are we open spending? But you need to have like observability for your FinOps, for your coding agents, and so on. So you need to work on the telemetry and then say, well, there's no habits, don't use this for that." aria-label="回原文"></button>。这跟当年上云时每个系统都跑一个 VM、然后学会共享实例是一个阶段 <button class="pd-ts" data-t="44:16" data-who="Patrick Debois" data-en="So if your organization is not your mature, you feel like you're over, you know, using things. And um, the parallel in the cloud was like when everybody went to the cloud, every system was a VM." aria-label="回原文"></button>。
+第一年 AI 出现时没有 AI 预算，Patrick 当过 VP，知道这种挣扎，何况供应商还在涨价、改定价模式。直接砍预算的问题是断了学习之旅：人们额度不够就退回手动干。
 
-## 护城河是学习速度
+正确的姿势是把预算约束当成优化循环的驱动力——很多人在盲目烧 token,用最大的模型，反复做同样的事，其实一次 context 或 harness 的改动就能省下大量 token。类比云计算早期：每个系统都开一台 VM,后来学会共用实例才降下成本。
 
-Patrick 把 AI 编码的演进跟 DevOps 做类比：DevOps 从"能不能部署更快"走到"可观测性成为自动化的反馈通道" <button class="pd-ts" data-t="40:12" data-who="Patrick Debois" data-en="Um maybe I'll first say kind of the parallel with DevOps, right? A lot of it initially was like, oh, can we deploy faster? Can we kind of make sure it's happening?" aria-label="回原文"></button>。AI 编码也一样——智能体的反馈循环能告诉你上下文哪里该改、哪些重复操作该变成确定性脚本 <button class="pd-ts" data-t="40:26" data-who="Patrick Debois" data-en="Right. So, and and I think part of what you see with the agents, whether that's your your skills optimizer that you can put in the loop that it makes you better, uh, whether that's your harness tool that detects uh things you're doing over and over again that could benefit maybe from better context or becoming a script or a deterministic thing." aria-label="回原文"></button>。但循环有风险，规则一旦被接受可能出错，所以 harness 和规则也需要回归测试 <button class="pd-ts" data-t="41:12" data-who="Patrick Debois" data-en="Now, the danger of a loop is that it could be a positive enemy. So, you know, once a rule is accepted, it could go wrong, but that's why you need testing, the regression testing, uh, also for harnesses, for anything you put in there, that it's not just I edit and I pray whether it works." aria-label="回原文"></button>。
+具体做法：给 FinOps(云成本管理)和编码智能体上可观测性，研究遥测数据，安排一个团队专门做优化，而不是一刀切关预算<button class="pd-ts" data-t="43:01" data-who="Patrick Debois" data-en="Um, so I know it's a struggle, and especially with like a lot of the vendors raising their pricing models or changing their pricing models that we didn't cater for." aria-label="回原文"></button>。和 CFO 的博弈上，他的打法不是「最好的团队拿预算」，而是「把最好的智能体团队放到最重要的商业项目上，把回报做出来」<button class="pd-ts" data-t="45:56" data-who="Patrick Debois" data-en="Like they're willing to spend if there's a return. And I think it's not per se that I would say the you know the best agentic team will get the budget, but I'll put the best agentic team on the most important business project to get like a return uh back." aria-label="回原文"></button>。
 
-他最终的判断是：[[持续学习|持续学习]]是知识复利发生的地方，正在成为公司的护城河。你能多快适应新的方式？哪怕这意味着重写整个代码库——多快能做到，才是核心竞争力 <button class="pd-ts" data-t="00:08" data-who="Patrick Debois" data-en="I think technically it will work, but you're not organized around it. The continuous learning is where the knowledge compounds. And that seems to be becoming the moat of a company." aria-label="回原文"></button>。
+## 护城河：持续学习的速度
 
-> 【背景】Patrick Debois 因发起 DevOps Days 大会而被广泛称为"DevOps 之父"。转写稿中未出现此称谓，仅提及他"是 DevOps 的继兄弟"（主持人原话）。
+收在他的核心主张上：如果持续交付把部署自动化了，AI 又把编码自动化了，那么知识复利的地方就只剩[[持续学习|持续学习]]——「这正在成为一家公司的护城河：你能学多快？换一个新东西、哪怕重写整个代码库，你能多快？
+
+」而没有反馈循环帮你改进，就做不到这一点<button class="pd-ts" data-t="41:25" data-who="Patrick Debois" data-en="So, you know, once a rule is accepted, it could go wrong, but that's why you need testing, the regression testing, uh, also for harnesses, for anything you put in there, that it's not just I edit and I pray whether it works." aria-label="回原文"></button>。危险也要防：正反馈循环里一条被接受的错误规则会不断放大，所以 harness 和你放进去的任何东西都要有回归测试，不能「改完祈祷它跑得通」<button class="pd-ts" data-t="41:12" data-who="Patrick Debois" data-en="Now, the danger of a loop is that it could be a positive enemy. So, you know, once a rule is accepted, it could go wrong, but that's why you need testing, the regression testing, uh, also for harnesses, for anything you put in there, that it's not just I edit and I pray whether it works." aria-label="回原文"></button>。
 
 ## 本集带走
 
-- **别把"技术不行"当借口**：说暗工厂或持续交付行不通，通常是组织没准备好，不是技术做不到
-- **推共享组件，别推个人英雄**：衡量 AI 采用的指标不该是 token 用量，而是有多少人在贡献共享的上下文和 harness
-- **验证是下一个独立战场**：智能体生成代码的瓶颈正在从"怎么生成"转向"怎么证明生成对了"，审查界面会重新成为 IDE 的核心角色
-- **让怀疑派去建 harness**：觉得 AI 不够好的人，别让他们只用基础提示词下结论，让他们投入精力写上下文和约束框架
-- **成本管理靠可观测性，不靠砍预算**：找到谁在盲目用大模型、谁在重复浪费 token，用数据驱动优化，而不是一刀切限制使用
-- **护城河 = 学习速度**：持续学习的反馈循环让知识复利，能多快适应新方式（哪怕重写整个代码库）才是真正的竞争力
+- **别用成熟度当借口**：说“持续交付/暗工厂对我们不管用”，多半是组织没准备好，不是技术不行。
+- **收编怀疑者**：让最怀疑 AI 的人去写 context、建 harness——投入努力确实能把它变好。
+- **留住技术人的出口**：不想写 spec 的人，去做 harness 工程、loop 工程、审查工具——这些是有技术含量的共享组件。
+- **招聘探针**：问“你怎么跟上行业、关注哪些社区”，只答自己技术栈的是危险信号；要系统思考者。
+- **团队主管的强制功能**：控制节奏节点，比如“现在把所有 context 和 skills 收进仓库”，推动全组从 solo 跳到 shared。
+- **推广顺序**：先打造成功案例再说，别在抵抗者身上花时间；黑客马拉松、午餐学习会、表扬最优团队。
+- **换掉 token 指标**：改看“人类还要为智能体碰多少次”和“共享组件贡献量”，token 用量只是热情的代理指标。
+- **成本管理**：砍预算断学习；上可观测性、看遥测、组优化团队，把预算约束当优化驱动。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec">全部金句 <span>5 条</span></div>
 
-> <span class="qz">我认为在技术上它是可行的，但你们并没有围绕它进行组织。</span>  
-> *I think technically it will work, but you're not organized around it.*  
-> <span class="qm">—— Patrick Debois · [00:04]</span> ^q1
+> <span class="qz">就像如果我只是让它生成，那将是垃圾。如果我把我自己的上下文给它，像我的策展、我的品味、我的 harness，它就会说，嗯，不要供应商之类的东西，或者它必须有四个声音。</span>  
+> *Like if I would just have it generate, it will be rubbish. If I had like my own context to it, like my curation, my taste, my harness, it would be say, well, not vendors or kind of like things or like it has to have four voices.*  
+> <span class="qm">—— Patrick Debois · [12:35]</span> ^q1
 
-> <span class="qz">并不是说技术对他们来说是不可能使用的，而是组织还没准备好。</span>  
-> *It wasn't that the tech was impossible for them to use, but the org wasn't ready.*  
-> <span class="qm">—— Patrick Debois · [11:00]</span> ^q2
+> <span class="qz">就像产品内的 AI，大概比在组件上进行 AI 编码领先两年。他们已经有了评估系统，已经有了可观测性系统。</span>  
+> *Like AI product, AI inside the product is probably two years ahead from AI coding on components. They already have the eval system, they already have an observability system.*  
+> <span class="qm">—— Patrick Debois · [17:13]</span> ^q2
 
-> <span class="qz">我相信用于编写代码的 IDE 已经转移到了 CLI，但现在它作为审查界面再次出现。</span>  
-> *I believe the IDE for writing the code has moved into the CLI, but it's now popping up again as the review interface*  
-> <span class="qm">—— Patrick Debois · [20:20]</span> ^q3
-
-> <span class="qz">我们是冲着写代码来的，不是冲着做一个光鲜亮丽的提示词规范编写者来的。</span>  
+> <span class="qz">我们是冲着写代码来的，不是冲着做一个光鲜的提示词规范编写者来的。</span>  
 > *We signed up for the coding, we didn't sign up for a glorified prompter as specification.*  
-> <span class="qm">—— Patrick Debois · [23:53]</span> ^q4
+> <span class="qm">—— Patrick Debois · [23:53]</span> ^q3
 
-> <span class="qz">如果我现在要提出一个衡量指标，那就是这些人有多少在为共享组件做贡献，以及他们在修复系统，而不是仅仅使用更多或者拥有一个工具。</span>  
+> <span class="qz">我认为不管是现在的 AI 还是敏捷或任何变化，听起来很难，但在开始时不要在消极的事情上花时间。找到成功的故事。如果你不能让它成功，其余的都不会起作用。</span>  
+> *I think regardless whether this is now AI or like agile or any change, um, as hard as it sounds, do not spend time on the negatives in the beginning. Find the success story. If you can't make that work, the rest will not work.*  
+> <span class="qm">—— Patrick Debois · [33:58]</span> ^q4
+
+> <span class="qz">如果我现在要提出一个衡量指标，那就是这些人有多少在为共享组件做贡献、在修复系统，而不是使用更多或拥有一个工具。</span>  
 > *If I were to put one measurement right now is how much these people are contributing to the shared components and they're fixing the system instead of kind of using more or having a tool.*  
 > <span class="qm">—— Patrick Debois · [36:51]</span> ^q5
-
-> <span class="qz">那里的衡量指标是，为了让智能体做正确的事情，人类仍然需要进行多少次触碰</span>  
-> *And the measurement there is how many touches does the human still need to do for an agent to do the right thing*  
-> <span class="qm">—— Patrick Debois · [37:30]</span> ^q6
 
 <div class="pd-sec">接着看</div>
 
@@ -149,7 +149,7 @@ Patrick 把 AI 编码的演进跟 DevOps 做类比：DevOps 从"能不能部署�
 
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:循环工程 (loop engineering)、智能体 (agent)、评估 (evals)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:上下文 (context)、智能体 (agent)、harness、vibe coding</span>
-- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|Tesla Dark Factory：95%代码无人看过就合并]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:智能体 (agent)、暗工厂 (dark factory)</span>
+- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:智能体 (agent)、暗工厂 (dark factory)</span>
 
 </div>
 <div class="pd-ex">
@@ -157,7 +157,7 @@ Patrick 把 AI 编码的演进跟 DevOps 做类比：DevOps 从"能不能部署�
 **换个口味**
 
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:harness、上下文 (context)、可观测性 (observability)、智能体 (agent)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:harness、智能体 (agent)、可观测性 (observability)</span>
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:harness、智能体 (agent)、可观测性 (observability)</span>
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评估 (evals)</span>
 
 </div>

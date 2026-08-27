@@ -117,7 +117,7 @@ Simon 和 Andrew 最后聊了一个产品层面的观察：智能体时代，"�
 
 **顺着「智能体」挖下去**
 
-- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|Tesla Dark Factory：95%代码无人看过就合并]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:智能体 (agent)、软件工厂 (software factory)、沙箱 (sandbox)</span>
+- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:智能体 (agent)、软件工厂 (software factory)、沙箱 (sandbox)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:代码审查 (code review)、智能体 (agent)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Claude Code、Gemini · 同概念:代码审查 (code review)、智能体 (agent)、沙箱 (sandbox)</span>
 
@@ -126,7 +126,7 @@ Simon 和 Andrew 最后聊了一个产品层面的观察：智能体时代，"�
 
 **换个口味**
 
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|Patrick Debois：AI 编码的组织转型与规模化]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:循环工程 (loop engineering)、智能体 (agent)、评估 (evals)</span>
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:循环工程 (loop engineering)、智能体 (agent)、评估 (evals)</span>
 - [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|Addy Osmani：从造浏览器到对抗认知投降]]<span class="pd-rz">同概念:循环工程 (loop engineering)、智能体 (agent)、软件工厂 (software factory)</span>
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同概念:技能 (skill)、智能体 (agent)</span>
 

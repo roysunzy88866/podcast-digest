@@ -116,9 +116,9 @@ Charles 指出，除了能把公司变得更扁平、让知识流动更顺畅，
 
 **顺着「智能体」挖下去**
 
-- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 的选择：用 AI 构建更多，而不是更少]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|Clio 的 AI 赌注：从扑克到财务健康]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

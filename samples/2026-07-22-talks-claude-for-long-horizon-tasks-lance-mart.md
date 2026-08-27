@@ -99,9 +99,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同公司:Anthropic · 同概念:Managed Agents、做梦 (dreaming)、工作框架 (harness)、沙箱 (sandbox)</span>
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:Managed Agents、做梦 (dreaming)、工作框架 (harness)、沙箱 (sandbox)</span>
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同公司:Anthropic · 同概念:做梦 (dreaming)、工作框架 (harness)、沙箱 (sandbox)</span>
-- [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|Electric James：智能体不是计算，是数据]]<span class="pd-rz">同概念:Managed Agents、沙箱 (sandbox)、Claude</span>
+- [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|别给智能体一台电脑：Electric 的“智能体即数据”新架构]]<span class="pd-rz">同概念:Managed Agents、沙箱 (sandbox)、Claude</span>
 
 </div>
 <div class="pd-ex">

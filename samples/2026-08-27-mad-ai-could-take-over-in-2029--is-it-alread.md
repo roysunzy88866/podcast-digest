@@ -179,7 +179,7 @@ Ryan 对接下来几年的直觉推演 <button class="pd-ts" data-t="72:51" data
 
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Meta、OpenAI · 同概念:算力 (compute)、智能体 (agents)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:推理 (inference)</span>
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层才是下一个金矿：模型不是商品]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)</span>
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)</span>
 
 </div>
 </div>

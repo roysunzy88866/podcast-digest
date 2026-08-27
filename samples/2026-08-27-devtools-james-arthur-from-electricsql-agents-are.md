@@ -1,12 +1,12 @@
 ---
-title: Electric James：智能体不是计算，是数据
+title: 别给智能体一台电脑：Electric 的“智能体即数据”新架构
 podcast: Scaling DevTools
 date: 2026-08-27
 source_url: undefined
 duration: "11:42"
 type: episode
 cover: "#64748b"
-description: Electric 的 James 主张把智能体从沙箱容器里搬出来，建模为数据层中的持久化日志，实现无服务器的协作式多智能体运行时。
+description: Electric 创始团队成员 James 讲他们为什么把智能体建模为数据而非计算，以及无沙箱的在线智能体架构该长什么样。
 host: "[[James]]"
 companies: ["[[Electric]]"]
 concepts: ["[[Electric Agents]]", "[[智能体]]", "[[沙箱]]", "[[会话日志追踪]]", "[[多智能体系统]]", "[[Managed Agents]]"]
@@ -15,18 +15,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-27-devtools-james-arthur-from-electricsql-agents-are#post","headline":"Electric James：智能体不是计算，是数据","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-27-devtools-james-arthur-from-electricsql-agents-are","mainEntityOfPage":"https://talk.solomind.cc/2026-08-27-devtools-james-arthur-from-electricsql-agents-are","description":"Electric 的 James 主张把智能体从沙箱容器里搬出来，建模为数据层中的持久化日志，实现无服务器的协作式多智能体运行时。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"James"},{"@type":"Organization","name":"Electric"},{"@type":"Thing","name":"Electric Agents"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"会话日志追踪 (session log)"},{"@type":"Thing","name":"多智能体系统 (multi-agent systems)"},{"@type":"Thing","name":"Managed Agents"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Electric James：智能体不是计算，是数据","item":"https://talk.solomind.cc/2026-08-27-devtools-james-arthur-from-electricsql-agents-are"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-27-devtools-james-arthur-from-electricsql-agents-are#post","headline":"别给智能体一台电脑：Electric 的“智能体即数据”新架构","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-27-devtools-james-arthur-from-electricsql-agents-are","mainEntityOfPage":"https://talk.solomind.cc/2026-08-27-devtools-james-arthur-from-electricsql-agents-are","description":"Electric 创始团队成员 James 讲他们为什么把智能体建模为数据而非计算，以及无沙箱的在线智能体架构该长什么样。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"James"},{"@type":"Organization","name":"Electric"},{"@type":"Thing","name":"Electric Agents"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"会话日志追踪 (session log)"},{"@type":"Thing","name":"多智能体系统 (multi-agent systems)"},{"@type":"Thing","name":"Managed Agents"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"别给智能体一台电脑：Electric 的“智能体即数据”新架构","item":"https://talk.solomind.cc/2026-08-27-devtools-james-arthur-from-electricsql-agents-are"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Electric James：智能体不是计算，是数据</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别给智能体一台电脑：Electric 的“智能体即数据”新架构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Electric James：智能体不是计算，是数据
+# 别给智能体一台电脑：Electric 的“智能体即数据”新架构
 
 <div class="pd-byl"><b>James</b> · 2026-08-27</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-27-devtools-james-arthur-from-electricsql-agents-are.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">所以我们的论点是智能体不是计算。</div><div class="a">— James <button class="pd-ts" data-t="01:01" data-who="James" data-en="So our thesis is that agents are not compute." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我们认为多智能体系统是一个分布式数据问题。</div><div class="a">— James <button class="pd-ts" data-t="01:15" data-who="James" data-en="We think of multi-agent systems as a distributed data problem." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[James]]
@@ -35,65 +35,66 @@ jsonLd: |
 >
 > **概念** [[Electric Agents]] · [[智能体]] · [[沙箱]] · [[会话日志追踪]] · [[多智能体系统]] · [[Managed Agents]]
 
-现在主流跑[[智能体|智能体]]的方式是给它一台电脑——丢进 Docker 容器或[[沙箱|沙箱]]，让它跑 bash、grep、操作文件系统。[[James|James]] 认为这完全是反模式，原因有两个。
+这一集是 Scanning Dev Souls 在 Heavybit Dev Guild 现场对 [[James|James]] 的短访。[[Electric|Electric]] 最早做 Postgres 同步引擎(让数据在服务器和客户端之间实时同步的技术)，后来把同步技术泛化成面向[[智能体|智能体]]的数据原语，最近发布了 [[Electric Agents|Electric Agents]]——一个跑协作式[[多智能体系统|多智能体系统]]的运行时。
 
-第一是[[会话日志追踪|会话日志]]和决策痕迹全埋在黑盒里。你在本地用 Claude 做研究、派生子智能体，子智能体的会话日志就藏在你电脑某个隐藏文件夹的 JSON Lines 文件里。
+他们最核心、也最反直觉的主张是：**智能体不是计算，而是数据。**
 
-搬到线上沙箱也一样——你总不能 SSH 进沙箱去翻日志。过去二十年企业把 Web 服务搬上云，自然就接上了 Prometheus、Datadog 这些可观测性工具；但智能体却以黑盒容器的方式部署，跟标准 Web 基础设施完全脱节 <button class="pd-ts" data-t="04:21" data-who="James" data-en="And so they need a file system and they do bash and grep and these types of tool calls. And so that's why when you think of how do I bring an agent online, you kind of take that harness and you put it into like a Docker container or a sandbox or a VM of some sort." aria-label="回原文"></button>。
+## 反模式：把智能体塞进沙箱
 
-第二，更根本的问题是：把智能体建模为计算，逻辑上就不对 <button class="pd-ts" data-t="05:45" data-who="James" data-en="But kind of agents are sort of weirdly being deployed as these like sort of black box containers. So one thing is the kind of fragmentation, but then the other thing is more just that it models agents as compute." aria-label="回原文"></button>。
+今天大多数人想把智能体部署到线上时的思路是：拿一个智能体“线束”(harness,即驱动 LLM 循环干活的外壳，比如 Claude Code 这类工具)，把它整个塞进 Docker 容器、[[沙箱|沙箱]]或虚拟机里——因为你默认智能体需要一台电脑：要文件系统、要跑 bash 和 grep 这些工具调用。
 
-James 的核心论点是：智能体不是计算，是数据 <button class="pd-ts" data-t="05:52" data-who="James" data-en="So one thing is the kind of fragmentation, but then the other thing is more just that it models agents as compute. And so the key thing about agents that we see is that agents are not compute, they are data." aria-label="回原文"></button>。一个智能体到底是什么？
+James 认为这是反模式，问题有两个。
 
-不是那个跑着两 GB 内存的虚拟机——智能体就是它的会话日志。你未来会有海量的智能体：每个工作流里的每一步、每次客户互动、每个你需要协作的对象都可能对应一个智能体。
+第一是**可观测性的倒退**：如果你在本地用 Claude 让它做研究、派生子智能体，那些子智能体的[[会话日志追踪|会话日志]]在哪？答案是藏在你电脑一个隐藏文件夹里的 JSON Lines 文件里。
 
-如果每个都当虚拟机跑，效率低得离谱 <button class="pd-ts" data-t="06:01" data-who="James" data-en="Well... what we see it more as is like the agent is the session log so say you have an agent and that could be like an agent that is doing a process in a kind of pr work in a ci workflow or it could be you have an agent like for a pr or it could be an agent for like an object in this room and like you're just going to have a huge number of agents for everything it's like every step in every work process every customer interaction every like touch point that you could work with" aria-label="回原文"></button>。更关键的是，如果你把智能体等同于它所在的计算资源，那计算一停，智能体就不存在了。
+企业视角看这不可接受——“为什么生成了这个产物？决策痕迹在哪？
 
-但你实际需要的是：跟一个智能体聊完了，把它休眠或缩放到零；过一阵子回来，继续同一个会话，甚至分叉出一条新分支。这意味着智能体在不运行的时候也必须存在——它活在数据层的持久化存储里，不在计算层里 <button class="pd-ts" data-t="06:44" data-who="James" data-en="And also if you model the agent as compute and if you then kill the compute, well, the agent isn't there. But you obviously need this model where you'd be like, okay, I'm interacting with this agent, I'm kind of finished, so let's like hibernate it or kind of scale it down." aria-label="回原文"></button>。
+”全被埋了。移植到线上沙箱里同样被埋：难道要 SSH 进沙箱去翻日志？过去 20 年大家拼命把组织搬上云、接上 Prometheus、Datadog 这类监控体系，结果智能体却被当成黑盒容器部署，完全没接进这套标准基础设施。
 
-那不给智能体电脑，工具调用怎么执行？答案是拆分：把智能体逻辑和工具调用执行分开 <button class="pd-ts" data-t="07:39" data-who="James" data-en="You want isolation and you do need like tool call execution. But if you think if you look at this more sort of managed agent pattern what you can do is separate the agent logic from the tool call execution." aria-label="回原文"></button>。
+第二更根本：**这个做法把智能体建模成了计算**。而关键洞见是——智能体的本质是会话日志，是数据层的记录。
 
-打个比方，你要让智能体生成一份数据报告，你不会让它"幻觉"出一个 CSV 文件，而是向数据库发一条 SQL 查询，让数据平台执行查询计划、导出真实数据。同理，文件操作、grep 之类的事情，可以用仿真层来代替真正的文件系统——对智能体来说看起来像在用电脑，实际背后是正规的在线系统在执行 <button class="pd-ts" data-t="08:13" data-who="James" data-en="Do you get your agent to hallucinate out the CSV file or do you send a SQL query to a database, which is actually just like a normal data system or data platform that's running under your control that actually exports out the data by executing the query plan?" aria-label="回原文"></button>。智能体逻辑本身可以跑在一个轻量的函数里（比如边缘函数），不绑定笨重的容器 <button class="pd-ts" data-t="08:43" data-who="James" data-en="And so that's the switch where you go, you don't have a sandbox which bundles it all together. You can just have, you can have like a function, like a VA isolate or however you do like a Cloudflare worker or an edge function that is capable of running expressive agent logic, including things like code mode and code execution." aria-label="回原文"></button>。
+一旦把智能体当计算，你杀掉计算进程，智能体就“没了”；但正确的心智模型是：智能体作为逻辑实体，**即使不在运行也存在**，它活在数据层的持久化记录里。你需要的是“我聊完了就把它休眠/缩容到零，之后还能回来找同一个智能体会话、或者分叉它”——这只有在会话日志和状态放在数据层、计算随时可重跑的前提下才成立。
 
-James 指出，Anthropic 的 Managed Agents 论文和 Cloudflare 的 Project Think 论文，其实都收敛到了同一个架构：托管在线智能体、智能体逻辑与工具执行分离、会话日志做持久化 <button class="pd-ts" data-t="09:26" data-who="James" data-en="create an artifact or query a data system that should go back into like traditional data platform stuff because then also you can kind of monitor it and ensure quality and that's sort of deterministic software that you can control so that's this architecture where in a way more scalable managed online agents move to agents and functions separated from the tool call execution with the durability in the session log" aria-label="回原文"></button>。[[Electric|Electric]] 做的是从数据层提供这套原语，让开发者不用被锁定在某个特定平台上 <button class="pd-ts" data-t="09:36" data-who="James" data-en="And if you read the kind of Anthropic Managed Agents paper, if you read the Cloudflare Project Think paper, this is the architecture which they and others have all converged on." aria-label="回原文"></button>。
+还有一个规模问题：未来会有海量智能体——每个工作流程的每一步、每次客户互动、每个接触点都可能有一个智能体。如果每个都当虚拟机跑、各占 2GB 内存，效率低到不可理喻。所以这套模型天然指向“无服务器智能体”：像函数一样，可以缩放到零、也可以缩放到万亿。
 
-他们已经发布了 [[Electric Agents|Electric Agents]]，一个开源的协作式多智能体运行时。用法很简单——跑一下快速入门就拿到运行时，把智能体定义成类似请求处理函数的形式，可以用 Vercel AI SDK、TanStack AI、Mastra 等任何框架写智能体代码，加一层运行时垫片就能接入，自动获得协调和数据连线的能力 <button class="pd-ts" data-t="10:35" data-who="James" data-en="There's a whole bunch of quick starts, examples, patterns. and it may sound like quite big sort of conceptual stuff but it's actually just very very simple you just like run the quick start and it just gives you this like run time and then you just define entities as if you would like a bit like you define like functions they're like almost like request handlers and you can use whatever AI engineering frameworks and tools that you want to" aria-label="回原文"></button>。
+## 正确架构：智能体逻辑与工具执行分离
+
+那不隔离也不行——总不能让智能体在通用服务器上横冲直撞。答案不是沙箱，而是**把智能体逻辑和工具调用执行拆开**。
+
+James 给了一个很妙的类比：让智能体给数据分析师生成报告，你是让它“幻觉”出一个 CSV 文件，还是让它发一条 SQL 查询给一个真正受你控制的数据库、由数据库执行查询计划导出数据？后者显然对——而智能体的工具调用也该这么干。现在出现了很多仿真层项目，它们在智能体看来像是在用电脑，但底层实际由正规的在线系统来兑现文件操作和工具调用。
+
+于是架构变成两半：一边是一个轻量函数(比如 Cloudflare Worker 或边缘函数那种 isolate)来跑富有表现力的智能体逻辑，包括代码模式、代码执行；另一边，凡是要创建产物、查数据系统的动作，走传统数据平台——因为那是确定性的、可监控、可保证质量的软件。Anthropic 的 Managed Agents 和 Cloudflare 的 Project Think 这两篇论文，最终都趋同到了这个架构上。
+
+## Electric 的位置：原语，不带锁定
+
+Electric 从数据层出身，做的就是给平台和产品构建者提供同样的基础设施原语——持久化流协议，适合存智能体会话数据、在其上搭协作式多智能体系统——但不带平台锁定。Anthropic 的东西很好，但它想让你用 Claude;Cloudflare 的 Durable Objects 和 Agents SDK 也很棒，但它是云厂商，你得在它的云上跑。如果你想拥有自己的基础设施，这就是 Electric 的空间。
+
+落地门槛很低：全是开源的，网站首页就有 MPX 快速入门，跑起来就是一个运行时；你像定义请求处理函数一样定义智能体实体，可以继续用 Vercel AI SDK、TanStack AI、Mastra 这些熟悉的框架，只包一层运行时垫片就接入平台。还有内置智能体直接可用，自带派生模式、类似 OpenClaw 的管理器模式。域名刚从 Electric SQL 换成了 electric.ax——ax 指 agent experience。
+
+> 【背景】MPX 大概率指软件包直接执行工具 npx 的转写误写；OpenClaw 可能是开源智能体框架 OpenClaw(转写稿原样如此)。
 
 ## 本集带走
-- **智能体 = 会话日志，不是虚拟机**：把它当数据持久化到数据层，不运行时也能存在、能恢复、能分叉。
-- **拆开智能体逻辑和工具执行**：智能体代码跑轻量函数，工具调用走后端正规系统（数据库查询、仿真层等），别绑死在沙箱容器里。
-- **会话日志不能埋在黑盒里**：智能体上线部署必须接入可观测性，决策痕迹要可查询——这跟过去二十年 Web 服务上云是同一个道理。
-- **这个架构不是 Electric 一家在推**：Anthropic Managed Agents、Cloudflare Project Think 都收敛到了同一方向，Electric 的差异在于从数据层提供开源原语、不锁定平台。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+- **心智模型换掉**：智能体不是计算，是数据层的会话日志；作为逻辑实体，它不在运行时也存在。把它建模成计算进程，一杀就没了、无法休眠后找回或分叉。
+- **别把线束塞进沙箱当默认架构**：那会把决策痕迹埋进黑盒，SSH 翻日志不是可观测性。
+- **架构拆法**：智能体逻辑放轻量函数(isolate/边缘函数)里跑；工具调用执行走正规在线系统——像“发 SQL 查数据库”而不是“让模型幻觉出 CSV”。
+- **规模推演**：每个流程步骤、每次客户互动一个智能体的未来下，按虚拟机跑(各占内存)不成立，要的是能缩放到零的函数式智能体。
+- **看两篇参考**：Anthropic Managed Agents 与 Cloudflare Project Think 的论文，行业已趋同于“逻辑与执行分离 + 会话持久化”架构。
+- **不想被锁定**：可以用开源原语(如 Electric 的持久化流协议)自建同款基础设施，并沿用现有 AI 框架。
 
-> <span class="qz">所以我们的论点是智能体不是计算。</span>  
-> *So our thesis is that agents are not compute.*  
-> <span class="qm">—— James · [01:01]</span> ^q1
-
-> <span class="qz">我们认为智能体是数据层中的日志。</span>  
-> *We think of agents as logs in the data layer.*  
-> <span class="qm">—— James · [01:12]</span> ^q2
+<div class="pd-sec">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我们认为多智能体系统是一个分布式数据问题。</span>  
 > *We think of multi-agent systems as a distributed data problem.*  
-> <span class="qm">—— James · [01:15]</span> ^q3
+> <span class="qm">—— James · [01:15]</span> ^q1
 
-> <span class="qz">因为你认为你需要给智能体一台电脑，是啊，呃，我们认为这更像是一种反模式</span>  
-> *because you think you need to give the agent a computer yeah uh and we see that as more of an anti-pattern*  
-> <span class="qm">—— James · [04:30]</span> ^q4
-
-> <span class="qz">所以关于智能体，我们要看到的关键点是智能体不是计算，它们是数据。</span>  
+> <span class="qz">所以我们要看到的关键点是：智能体不是计算，它们是数据。</span>  
 > *And so the key thing about agents that we see is that agents are not compute, they are data.*  
-> <span class="qm">—— James · [05:52]</span> ^q5
+> <span class="qm">—— James · [05:52]</span> ^q2
 
-> <span class="qz">而且，如果你把智能体建模为计算，然后你终止了计算，那么智能体就不在了。</span>  
-> *And also if you model the agent as compute and if you then kill the compute, well, the agent isn't there.*  
-> <span class="qm">—— James · [06:37]</span> ^q6
-
-> <span class="qz">所以当你把智能体看作逻辑实体时，你意识到即使它们不运行时它们也是存在的，这就是为什么如果你把它们建模为计算，那就完全错了，因为它们并不存在于计算中。</span>  
+> <span class="qz">当你把智能体看作逻辑实体时，你会意识到即使它们不在运行也存在，这就是为什么把它们建模为计算是完全错的，因为它们并不活在计算里。</span>  
 > *And so when you think of agents as like logical entities, you realize that they exist even when they're not running, which is why if you model them as compute, it's just wrong because they don't live in the compute.*  
-> <span class="qm">—— James · [07:03]</span> ^q7
+> <span class="qm">—— James · [07:03]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 
@@ -102,7 +103,7 @@ James 指出，Anthropic 的 Managed Agents 论文和 Cloudflare 的 Project Thi
 
 **顺着「智能体」挖下去**
 
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同公司:Anthropic · 同概念:托管智能体 (managed agents)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:托管智能体 (managed agents)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同公司:Anthropic · 同概念:会话日志 (session log)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 

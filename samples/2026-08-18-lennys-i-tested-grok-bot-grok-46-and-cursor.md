@@ -102,7 +102,7 @@ Claude 没做到，Codex 也没做到 <button class="pd-ts" data-t="05:04" data-
 **顺着「智能体」挖下去**
 
 - [[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|Merge的"二次创业"：从SaaS集成到AI连接基础设施]]<span class="pd-rz">同概念:MCP、智能体 (agent)、连接器 (connector)</span>
-- [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：产品经理、设计师、工程师三个角色正在合并]]<span class="pd-rz">同公司:Cursor · 同概念:MCP、智能体 (agent)</span>
+- [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周]]<span class="pd-rz">同公司:Cursor · 同概念:MCP、智能体 (agent)</span>
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Codex、OpenClaw · 同概念:MCP、智能体 (agent)</span>
 
 </div>

@@ -174,7 +174,7 @@ Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,
 
 **顺着「智能体」挖下去**
 
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|Parag：给智能体用的搜索，为什么不能是给人类用的]]<span class="pd-rz">同公司:Google · 同概念:推理 (inference)、多智能体系统 (multi-agent systems)</span>
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网]]<span class="pd-rz">同公司:Google · 同概念:推理 (inference)、多智能体系统 (multi-agent systems)</span>
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|Parag：为什么智能体搜索不该照搬人类那一套]]<span class="pd-rz">同公司:Google · 同概念:推理 (inference)、多智能体系统 (multi-agent systems)</span>
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:Google · 同概念:Gemini</span>
 

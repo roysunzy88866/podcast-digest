@@ -1,5 +1,5 @@
 ---
-title: IBM暴跌背后的企业软件洗牌
+title: "IBM 单日暴跌 25%:企业软件的好日子到头了吗？"
 podcast: Practical AI
 date: 2026-08-24
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "35:30"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag.jpg"
-description: "PredictionGuard CEO Daniel Whitenack 与 Chris Benson 从 IBM 单日暴跌 25% 出发，讨论智能体时代企业软件的生存危机与转向路径。"
+description: Practical AI 两位主持人在 IBM 股价暴跌当日对谈：企业软件为何集体失宠，智能体经济正在如何改写商业 fundamentals。
 host: "[[Chris Benson]]"
 cohosts: ["[[Daniel Whitenack]]"]
 companies: ["[[IBM]]"]
@@ -18,18 +18,18 @@ tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag#post","headline":"IBM暴跌背后的企业软件洗牌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag","description":"PredictionGuard CEO Daniel Whitenack 与 Chris Benson 从 IBM 单日暴跌 25% 出发，讨论智能体时代企业软件的生存危机与转向路径。","datePublished":"2026-08-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag.jpg","about":[{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Organization","name":"IBM"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"企业软件 (enterprise software)"},{"@type":"Thing","name":"微调 (fine tuning)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"智能体对智能体 (agent to agent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"IBM暴跌背后的企业软件洗牌","item":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag#post","headline":"IBM 单日暴跌 25%:企业软件的好日子到头了吗？","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag","description":"Practical AI 两位主持人在 IBM 股价暴跌当日对谈：企业软件为何集体失宠，智能体经济正在如何改写商业 fundamentals。","datePublished":"2026-08-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag.jpg","about":[{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Organization","name":"IBM"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"企业软件 (enterprise software)"},{"@type":"Thing","name":"微调 (fine tuning)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"智能体对智能体 (agent to agent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"IBM 单日暴跌 25%:企业软件的好日子到头了吗？","item":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>IBM暴跌背后的企业软件洗牌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>IBM 单日暴跌 25%:企业软件的好日子到头了吗？</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# IBM暴跌背后的企业软件洗牌
+# IBM 单日暴跌 25%:企业软件的好日子到头了吗？
 
 <div class="pd-byl">2026-08-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">一家公司交谈，他们已经有 70,000 个智能体在运行，另一家有，我想大概是 6,000 个左右。所以这不是，是的，它是未来，但这并不是五年后的未来。</div><div class="a">— Daniel Whitenack <button class="pd-ts" data-t="20:06" data-who="Daniel Whitenack" data-en="One company that already has 70,000 agents running, one that has, I think it was like 6,000 or something. So this is not, yes, it is future, but it's not like five years future." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我知道这听起来非常不祥，但我认为那里的关键点，与其只是害怕它，真的是变化的速度现在正在指数级加速。</div><div class="a">— Chris Benson <button class="pd-ts" data-t="06:48" data-who="Chris Benson" data-en="I know it sounds very ominous, but I think the key point there, rather than just being frightened of it, is really that the rate of change is accelerating exponentially right now." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Chris Benson]] · [[Daniel Whitenack]]
@@ -38,72 +38,87 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[企业软件]] · [[微调]] · [[MCP]] · [[开源模型]] · [[智能体对智能体]]
 
-Daniel 早上看到新闻：[[IBM|IBM]] 股票单交易日暴跌 25%，抹去约 700 亿市值，是 50 多年来最糟糕的单日跌幅，甚至超过了 1987 年黑色星期一的表现 <button class="pd-ts" data-t="08:33" data-who="Daniel Whitenack" data-en="There's the, you know, I saw the, I think it was another article that you had posted to me about, or maybe it was something that I saw elsewhere, but Anthropic really doubling down on kind of implementation and services side, which we've also seen with OpenAI." aria-label="回原文"></button>。他一点不惊讶——因为他最近一直在推演"后[[智能体|智能体]]世界"的场景：把情绪和偏见拿掉，只看正在发生的事，把时间线拉到几个月、几年后，各种结果的概率是什么。结论是：大量颠覆正在发生，而且不是五年后，就是现在 <button class="pd-ts" data-t="05:01" data-who="Chris Benson" data-en="And the notion of the book, if it ever comes to pass, is kind of a post-agentic world. It's kind of like if you look at what's happening right now in the marketplace." aria-label="回原文"></button>。
+这一集是 Practical AI 播客的“完全连接”环节——没有嘉宾，只有两位主持人自由对聊：PredictionGuard 的 CEO [[Daniel Whitenack|Daniel Whitenack]],和首席 AI 与自主研究工程师 [[Chris Benson|Chris Benson]]。聊的由头是当天早上的一条新闻：[[IBM|IBM]] 股票单日暴跌 25%,约合 700 亿美元市值蒸发，是该公司 50 多年来最惨的单日跌幅，甚至超过了 1987 年“黑色星期一”崩盘时的损失。两人由此展开了一场关于[[企业软件|企业软件]]、[[智能体|智能体]]经济和人类角色的高密度讨论。
 
-同一天，Workday 跌 10%，Salesforce 跌 9%，ServiceNow 跌 8%，Adobe 跌 6%——全是[[企业软件|企业软件]]公司 <button class="pd-ts" data-t="26:11" data-who="Daniel Whitenack" data-en="I was just looking while you were talking and on the same day. Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%." aria-label="回原文"></button>。而涨的是芯片供应商。这背后不是单一事件，而是一个结构性转移：公司的技术预算正在从企业软件和服务，转向硬件和基础设施 <button class="pd-ts" data-t="09:18" data-who="Daniel Whitenack" data-en="The at least the cited dynamics that they're talking about in relation to this on from IBM and other analysts. And part of what they're talking about is that companies are diverting their IT budget or their technology budget." aria-label="回原文"></button>。
+## IBM 暴跌不是孤立事件，而是“煤矿里的金丝雀”
 
-## 钱往哪转：恐慌性囤硬件、模型成本焦虑
+Chris 一开场的判断就很重：这不是一次性的小插曲，《纽约时报》称 IBM 可能是“煤矿里的金丝雀”——同类企业软件公司正集体面临同一股冲击。Daniel 边聊边查的行情印证了这一点：就在 IBM 崩盘的同一天，Workday 跌了 10%、Salesforce 跌 9%、ServiceNow 跌 8%、Adobe 跌 6%,而芯片类股票则在上涨。
 
-几个力量在同时作用。一是 AI 公司试图让客户更"粘"在自己身上，好回收前期巨额投入 <button class="pd-ts" data-t="07:41" data-who="Daniel Whitenack" data-en="Yeah, I think there's a lot of things tied up into this discussion, some of which were cited in the IBM case, some of which maybe were not. And maybe we can get into a few of these things." aria-label="回原文"></button>。
+他还不忘自嘲一句：“除非我的智能体在产生幻觉。”
 
-二是企业在恐慌性购买硬件——怕未来 AI 模型（尤其是智能体场景）使用价格大涨，自己被挤出市场 <button class="pd-ts" data-t="08:01" data-who="Daniel Whitenack" data-en="Become more sticky and make sure that you stay with them so that they can recover some of these costs that they put in and just sort of hemorrhaged over time. There's also the kind of panic buying situation of people trying to make sure they aren't priced out of AI and they get actual hardware that will make them a little bit more resilient to that." aria-label="回原文"></button>。智能体不是聊一句回一句，它是长期运行的进程，需要大量上下文，按量付费的 API 和自托管小模型的经济学完全不同 <button class="pd-ts" data-t="16:42" data-who="Daniel Whitenack" data-en="Folks, but as we transition from agents being like my personal assistant on my laptop, which I interact with back and forth, which obviously limits the speed at which and the amount of context that agent can consume." aria-label="回原文"></button>。
+两人拆解的驱动因素主要有三层：
 
-三是地缘政治挤压。中国意识到自己的[[开源模型|开源模型]]比美国专有模型便宜得多，开始对这些模型设置保护——而美国本来也在限制自己的能力出口 <button class="pd-ts" data-t="10:29" data-who="Chris Benson" data-en="It kind of skimmed by. Pretty quietly, I thought, and that was China is now recognizing the value it has in its open models, which are much cheaper to use than these expensive proprietary models in the US." aria-label="回原文"></button>。
+- **预算被抽走**：企业正在把 IT/技术预算从企业软件和服务，转向硬件和基础设施的“恐慌性采购”——生怕在 AI 模型使用价格上涨、智能体未来的长期运行成本中被挤出市场。预算是有限的，这是一场拉锯战。
+- **地缘政治收紧了退路**：Chris 指出，中国现在意识到自己在开放模型上的价值——比美国昂贵的专有模型便宜得多——并开始对其设置保护。此前企业还有一条备用策略：在行业允许的情况下退回中国[[开源模型|开源模型]]；如今这条路也可能被关闭。压力从多个方向同时袭来，公司只能做“资本的紧急再分配”，牺牲的正是历史上那些关键业务运营。
+- **黑市随之出现**：Daniel 提到已出现所谓“中国代币黑市”——地下灰色市场里，经纪人向无法直接访问和付费的中国大陆用户转售 OpenAI、Anthropic 等西方 AI 平台的折扣 API 访问。他说，只要用监管去人为塑造市场，黑市几乎必然出现。
 
-结果就是：想靠美国专有模型？贵；想靠中国开源模型做备选？
+## “后智能体世界”：变化速度本身才是关键
 
-路也在关。企业从两边同时被挤 <button class="pd-ts" data-t="11:36" data-who="Chris Benson" data-en="So I think all of these things that we have talked about are kind of feeding in to how people are shaping their use of technology. And I think it's creating, to your point, a certain level of panic." aria-label="回原文"></button>。
+Chris 透露，他正在与一家出版公司的 CEO 商谈写一本书，主题就是“后智能体世界”——把偏见和情绪从方程式里拿掉，把当前市场正在发生的事在几个月、几年尺度上推演，看各种结果的概率。他的核心主张不是渲染恐慌，而是一句判断：**变化的速度正在指数级加速**——技术同时在替代旧技术和人类岗位，虽然不会移除所有人，但人的角色和参与的活动正在极快地改变。
 
-还有一个灰色现象：中国出现了代币黑市，经纪人转售对 OpenAI、Anthropic 等平台的折扣 API 访问，绕过屏蔽和支付限制 <button class="pd-ts" data-t="13:13" data-who="Daniel Whitenack" data-en="Thank you for joining us. To some of what you're talking about, there's this Chinese token black market, which is kind of a reference to this underground gray market area where brokers are reselling discounted API access to Western artificial intelligence platforms, AI platforms, like OpenAI or Anthropic, because those services are blocked to mainland Chinese" aria-label="回原文"></button>。只要有人为设限，黑市几乎必然出现。
+Daniel 从从业者角度给了一个校准：这个未来不远。他在谈自家公司 PredictionGuard 的方向时说，就在过去几周，他们接触的一家公司已有 70,000 个智能体在运行，另一家也有约 6,000 个 <button class="pd-ts" data-t="19:31" data-who="Daniel Whitenack" data-en="And, and so, and that's impacting, that's impacting employees and such. Yeah. And as a, as a founder of a software company, obviously I believe there's a place for software in the future, but I do want to validate your point of like, like with, with." aria-label="回原文"></button>。“成千上万智能体在企业基础设施里跑”听起来牵强，但很多还停留在和 Claude Code 一对一交互的人，会很快体验到差别。
 
-## 被忽视的回归：微调又回来了
+经济账也随之改变：当智能体从笔记本上的个人助理，变成云端存活数小时、数天甚至数周的长期智能体，按需付费 API 端点的成本结构，和一个小型自托管模型截然不同 <button class="pd-ts" data-t="16:18" data-who="Daniel Whitenack" data-en="I think that that also becomes, I mean, there's platforms like Unsloth and others that allow you to fine tune, you know, even on your MacBook and, you know, run things a lot more efficiently." aria-label="回原文"></button>。同时，[[微调|微调]]正在回归——模型足够好之后大家曾放弃微调，如今被两个方向的挤压逼着重新捡起来，而 Unsloth 这类平台甚至让你在 MacBook 上就能微调。
 
-在被两头挤压之下，Daniel 注意到一个趋势：很多组织开始重新讨论[[微调|微调]]（fine tuning，用特定数据让模型更适配自己的场景）。前一阵模型能力上来后，大家觉得"够用了，何必费那个钱"，现在又被逼回来考虑自建模型能力 <button class="pd-ts" data-t="15:23" data-who="Daniel Whitenack" data-en="But also I'm starting to hear about the recognition that there may be a need, especially as models are now getting, you know, we're getting smaller models that are used for a lot of specific purposes and edge cases to actually go and do training of models or getting back to fine tuning." aria-label="回原文"></button>。同时欧洲等地的非中美开源权重模型也在被更多人关注 <button class="pd-ts" data-t="15:02" data-who="Daniel Whitenack" data-en="I'm hearing a lot more conversations about, you know, not only looking for other sources of open weight models that are out there, you know, that are not specifically Chinese or specifically from the US." aria-label="回原文"></button>。
+## 企业软件公司的两条路
 
-## 智能体冲击企业软件的核心逻辑
+对于 IBM、NetSuite 或垂直 SaaS 厂商怎么活下来，两人看到两种策略：一种是把自己的价值押在数据平台和功能上，通过 [[MCP|MCP]](一种让智能体访问外部工具和数据的协议)提供通往 AI 世界的连接器；另一种则拒绝接入通用智能体生态，自建一套专有智能体。
 
-Chris 的判断更直接：企业软件的交互方式要彻底变了。过去是人在 GUI（图形界面）里操作，未来跨系统的绝大多数交互将是[[智能体对智能体|智能体对智能体]]（agent to agent），人类不直接参与大多数流程 <button class="pd-ts" data-t="23:14" data-who="Chris Benson" data-en="And then as we got into the cloud era, and then even the beginning of the AI era, as we've gone to, you know, app interfaces where we've interacted, but going as we look at agents doing all these different things." aria-label="回原文"></button>。
+Chris 的判断更进一步：未来绝大多数跨系统交互将以“[[智能体对智能体|智能体对智能体]]”的方式发生，没有人进你的 GUI、没有人点你的网页界面——你要设置的是权限、访问范围和 MCP 服务器的配置。这本身就是一个“完整的新行业”：如何在海量规模上管理智能体、资源和 MCP,对创业者来说是一片完全开放的领域。
 
-这对企业软件厂商意味着什么？两条路开始出现：一条是暴露 [[MCP|MCP]]（一种让智能体访问你数据和功能的协议）接口，把自己的价值定位在"数据组织和功能"上，让外部智能体来调 <button class="pd-ts" data-t="21:40" data-who="Daniel Whitenack" data-en="like how do you lead your company ahead into this world and what what becomes important what strategy is is important as you move into this world i've seen some take the approach of hey well you know like a net suite or something like that they're saying to some degree saying well we're gonna" aria-label="回原文"></button>；另一条是建自己专有的智能体，不接入通用生态 <button class="pd-ts" data-t="22:11" data-who="Daniel Whitenack" data-en="provide a connector into the AI world right which is often MCP right so their value is maybe they're assuming their value is in their data platform how they organize data the the functionality that you're that they provide but surfacing that in an agentic way so that's you know through the MCP side so that's one take that you have you have others then" aria-label="回原文"></button>。Chris 认为无论哪条路，怎么在巨大规模上管理智能体的权限、资源、MCP 配置，本身就是一个全新行业 <button class="pd-ts" data-t="24:16" data-who="Chris Benson" data-en="And that's quite complex. And I think there's a whole industry right there of how do you manage agentics at massive scale with resources and MCPs. And so like if you're an entrepreneur out there and you haven't" aria-label="回原文"></button>。
+他还提醒节奏感：几个月前的流行词是“智能体工程”，现在已经变成“循环工程”(loops)——智能体被组织在循环里、成百上千地协作；而到今年年底前，“循环工程”这个概念本身大概就会被下一个演进淘汰。所以如果你觉得“还有好几年”，你会被很快超越——就像 IBM 当天在股价上发现的那样。
 
-## 这不是未来，这是现在
+## 人类的位置：别抱住马车不放
 
-Daniel 拿自己公司接触到的案例说：一家公司已经在跑 70,000 个智能体，另一家 6,000 个 <button class="pd-ts" data-t="20:06" data-who="Daniel Whitenack" data-en="And just to validate your point, like even in the last couple of weeks, we've talked to one One company that already has 70,000 agents running, one that has, I think it was like 6,000 or something." aria-label="回原文"></button>。很多人还停留在跟 Claude Code 一对一使用的阶段，觉得"成千上万智能体"很遥远，但现实已经在发生 <button class="pd-ts" data-t="20:24" data-who="Daniel Whitenack" data-en="What companies are... So I think there are many people out there that are maybe still on a one-to-one basis with their Claude Code or with their Hermes agent or whatever it might be." aria-label="回原文"></button>。
+Chris 引用了一句他当天看到的 George Lucas 的话：在汽车时代到来的日子里，你还死抱着马车不放。他观察到，很多人(尤其和他年纪相仿的人)还在守住旧角色，因为那是他们熟悉和舒适的东西。
 
-Chris 的警告是：如果你觉得这还是几年后的事，你会像 IBM 那天早上一样被迅速超越 <button class="pd-ts" data-t="24:44" data-who="Chris Benson" data-en="And I think going back to your point, this is happening really, really fast now. And so if you're thinking we're a few years out, then you're gonna get overtaken quite quickly as IBM discovered this morning with their stock." aria-label="回原文"></button>。而且概念迭代极快——几个月前还叫"智能体工程"，最近变成了"循环工程"（智能体之间形成循环协作），他预计年底前"循环"这个概念本身就会被淘汰 <button class="pd-ts" data-t="25:09" data-who="Chris Benson" data-en="In these organizations that are stepping into kind of AI and now agentics, they need to be thinking not where things like tomorrow, fairly big leaps are happening." aria-label="回原文"></button>。
+他的建议是：认清智能体真正擅长什么，承认这不会逆转，去找到自己能接入的位置。Daniel 补充了一个客户启发的思路：与其纠结每家公司的智能体架构，不如**在“结果”层面思考**——要达成什么结果、必要的人工输入是什么、可部署的智能体系统有哪些可能。
 
-## 人类怎么适应
+## 一个彩蛋：模型的“全局工作空间”
 
-Chris 认为死守旧角色是最差的策略，正确的做法是认清智能体真正擅长什么，然后找到你能插入的位置 <button class="pd-ts" data-t="28:45" data-who="Chris Benson" data-en="And I think that still happens a lot because I get into all these conversations, especially with older people closer to my age that are seeing the world change out from under them very quickly." aria-label="回原文"></button>。他在跟客户讨论时发现，从"结果层面"思考最有用——先定义要达成什么结果，再问哪些需要人、哪些智能体能做 <button class="pd-ts" data-t="33:45" data-who="Daniel Whitenack" data-en="Actually, it was a suggestion from one of our customers when we were discussing things. They were thinking about the rather, you know, obviously there's an architecture associated with agents that each company is trying to enable, but thinking about things at the level of outcome." aria-label="回原文"></button>。
+结尾两人聊到 Anthropic 刚发布的一篇论文《Verbalizable representations form a global workspace in language models》(可语言化的表征在语言模型中形成全局工作空间)。要点是：无论你怎么看“意识”，模型确实展现出一种路由和报告信息的功能能力，而模型内部形成的“工作空间”在功能上扮演着类似人脑工作记忆的角色。
 
-节目最后 Daniel 提到 Anthropic 新发的一篇论文，讨论模型内部出现的"工作空间"——功能上类似人脑的工作记忆，让模型能更好地路由和报告信息 <button class="pd-ts" data-t="31:20" data-who="Daniel Whitenack" data-en="So there may be more on that in the future. Yeah, I think, you know, one of the things in the paper that you're referencing that was pointed out was that Anthropic had noticed that models are creating what they're calling workspaces where they're essentially, the notion of the workspace is fulfilling the same function as working memory in a human brain." aria-label="回原文"></button>。Chris 的观点是：意识本身没有统一定义，但如果模型用一种跟人脑完全不同的路径达到了相同的功能结果，不该因为路径不同就否定 <button class="pd-ts" data-t="32:46" data-who="Chris Benson" data-en="Or are you willing to say there are alternative paths that if you get to the same kind of an outcome for a given task associated with that, is that legitimate? And I think that's kind of, when I look at the argument, that's how I perceive that is there are people who have a very strict and narrow definition that are probably traditional neuroscientists." aria-label="回原文"></button>。
+Chris 指出争论的核心：意识从来没有一个被广泛接受的统一定义；一派坚持按哺乳动物大脑的路径来判定，另一派则问——如果通过截然不同的路径达到了同样的功能结果，这算不算数？他自己的态度是开放的：涌现出我们完全没预料到的性质，并不奇怪。
 
 ## 本集带走
 
-- **企业软件预算正在被虹吸**：从 SaaS/企业服务转向硬件基础设施和 AI 模型相关支出，IBM、Workday、Salesforce 同日暴跌是信号而非孤例
-- **两头挤压迫使微调回归**：美国专有模型贵、中国开源模型路在关，企业重新考虑自训练和微调，欧洲等第三方开源模型也在被纳入视野
-- **交互范式从 GUI 转向 agent-to-agent**：未来跨系统交互绝大多数由智能体之间完成，企业软件厂商要么暴露 MCP 接口、要么建专有智能体，但必须做出选择
-- **大规模智能体管理是全新行业空白**：权限、身份、资源、MCP 配置的规模化治理，目前几乎没人做好
-- **不要用"还早"来安慰自己**：已有企业在跑数万个智能体，概念迭代速度（智能体工程→循环工程→?）意味着等"稳定了再说"等于放弃
-- **从结果层面倒推人和智能体的分工**：不纠结"我原来干什么"，先定义要达成什么，再看哪里需要人、哪里智能体更强
+- **IBM 暴跌是个信号而非噪音**：单日 -25%、约 700 亿美元市值、50 多年最差单日；同日 Workday -10%、Salesforce -9%、ServiceNow -8%、Adobe -6%,企业软件板块集体承压，而芯片股上涨。
+- **三股压力挤压企业预算**：AI 模型与智能体的长期使用成本、对被“挤出市场”的恐慌性硬件采购、以及中国开放模型这条路可能被地缘政治关闭。
+- **智能体规模比想象中近**：已有公司跑着 70,000 个智能体；长期存活的云端智能体会让 API 讇价与自托管小模型的经济账彻底分化，微调正在回归(Unsloth 甚至支持 MacBook 微调)。
+- **企业软件两条战略路线**：用 MCP 连接器开放数据与功能，或自建专有智能体生态；跨系统交互的未来是“智能体对智能体”，GUI 和网页界面不再是主入口。
+- **给创业者的空位**：在海量规模上管理智能体、权限、资源与 MCP 配置，是一个“完全开放”的新行业。
+- **给个人的建议**：别守住旧角色，在“结果层面”思考——要什么结果、必要的人工输入是什么、智能体能承担什么。
+- **保持节奏感**：从“智能体工程”到“循环工程”只隔了几个月，今年年底前这个词本身可能就过时了。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec">全部金句 <span>7 条</span></div>
 
-> <span class="qz">一家公司交谈，他们已经有 70,000 个智能体在运行，另一家有，我想大概是 6,000 个左右。所以这不是，是的，它是未来，但这并不是五年后的未来。</span>  
-> *One company that already has 70,000 agents running, one that has, I think it was like 6,000 or something. So this is not, yes, it is future, but it's not like five years future.*  
-> <span class="qm">—— Daniel Whitenack · [20:06]</span> ^q1
+> <span class="qz">我知道这听起来非常不祥，但我认为那里的关键点，与其只是害怕它，真的是变化的速度现在正在指数级加速。</span>  
+> *I know it sounds very ominous, but I think the key point there, rather than just being frightened of it, is really that the rate of change is accelerating exponentially right now.*  
+> <span class="qm">—— Chris Benson · [06:48]</span> ^q1
 
-> <span class="qz">而且跨越不同系统的绝大多数交互将以智能体方式发生。在大多数这些过程中没有人类直接参与。</span>  
-> *And the vast majority of interactions across different systems are going to occur agentically. Without a human directly involved in most of those processes.*  
-> <span class="qm">—— Chris Benson · [23:23]</span> ^q2
+> <span class="qz">中国现在意识到了其在开放模型中的价值，这些模型比美国昂贵的专有模型便宜得多。</span>  
+> *China is now recognizing the value it has in its open models, which are much cheaper to use than these expensive proprietary models in the US.*  
+> <span class="qm">—— Chris Benson · [10:32]</span> ^q2
 
-> <span class="qz">所以如果你认为我们要过好几年，那你就会相当快地被超越，就像 IBM 今天早上在他们的股票上发现的那样。</span>  
+> <span class="qz">交互发生的方式将是直接的智能体方式，如果你可以这样想，某种意义上的 B2B,但把它想成是智能体对智能体。</span>  
+> *the way interactions will occur is agentically in a direct, you know, if you might think of it as B2B in a sense, but think of it as agent to agent.*  
+> <span class="qm">—— Chris Benson · [23:15]</span> ^q3
+
+> <span class="qz">所以如果你认为我们还有好几年，那你就会相当快地被超越，就像 IBM 今天早上在他们的股票上发现的那样。</span>  
 > *And so if you're thinking we're a few years out, then you're gonna get overtaken quite quickly as IBM discovered this morning with their stock.*  
-> <span class="qm">—— Chris Benson · [24:44]</span> ^q3
+> <span class="qm">—— Chris Benson · [24:44]</span> ^q4
 
-> <span class="qz">循环器是一个非常短暂的事物，因为这演进得太快了。但是在今年结束之前，我很确定循环工程的概念将会被随后发生的事情和事物发展方向的演进所淘汰。</span>  
-> *Looper is a very transitory thing because this is evolving so quickly. But before the year is out, I'm pretty sure the notion of loop engineering is going to be kind of antiquated by what follows and the evolution of where things are going.*  
-> <span class="qm">—— Chris Benson · [25:23]</span> ^q4
+> <span class="qz">但是在今年结束之前，我很确定循环工程的概念将会被随后发生的事情和事物发展方向的演进所淘汰。</span>  
+> *But before the year is out, I'm pretty sure the notion of loop engineering is going to be kind of antiquated by what follows and the evolution of where things are going.*  
+> <span class="qm">—— Chris Benson · [25:28]</span> ^q5
+
+> <span class="qz">今天，随着 IBM 崩盘，除非我的智能体在产生幻觉，Workday 下跌了 10%，Salesforce 9%，ServiceNow 8%，Adobe 6%。</span>  
+> *Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%.*  
+> <span class="qm">—— Daniel Whitenack · [26:11]</span> ^q6
+
+> <span class="qz">一家公司已经有 70,000 个智能体在运行，另一家有，我想大概是 6,000 个左右。</span>  
+> *One company that already has 70,000 agents running, one that has, I think it was like 6,000 or something.*  
+> <span class="qm">—— Daniel Whitenack · [20:06]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 

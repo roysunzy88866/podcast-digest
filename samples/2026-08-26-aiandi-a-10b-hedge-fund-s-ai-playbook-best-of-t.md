@@ -1,12 +1,12 @@
 ---
-title: 一家百亿对冲基金如何全员强推 AI
+title: "对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”"
 podcast: "AI & I"
 date: 2026-08-27
 source_url: undefined
 duration: "67:04"
 type: episode
 cover: "#64748b"
-description: Will 是一家近 100 亿 AUM 对冲基金的所有者兼经营者，他讲述了自己如何从顶层驱动全公司 400 人强制掌握 AI 工具，以及这套做法背后的具体方法。
+description: "Walleye 创始人 Will 讲述一家近百亿规模对冲基金如何自上而下全员转向 AI,从强制培训、录制一切到用量化思维理解直觉与决策。"
 host: "[[Ben]]"
 cohosts: ["[[Will]]"]
 companies: ["[[Walleye]]"]
@@ -17,18 +17,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t#post","headline":"一家百亿对冲基金如何全员强推 AI","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t","description":"Will 是一家近 100 亿 AUM 对冲基金的所有者兼经营者，他讲述了自己如何从顶层驱动全公司 400 人强制掌握 AI 工具，以及这套做法背后的具体方法。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ben"},{"@type":"Person","name":"Will"},{"@type":"Organization","name":"Walleye"},{"@type":"Thing","name":"Current"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"ChatGPT"},{"@type":"Thing","name":"情感分析 (sentiment analysis)"},{"@type":"Thing","name":"营运杠杆 (operating leverage)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"量化投资 (quant investing)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"一家百亿对冲基金如何全员强推 AI","item":"https://talk.solomind.cc/2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t#post","headline":"对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t","description":"Walleye 创始人 Will 讲述一家近百亿规模对冲基金如何自上而下全员转向 AI,从强制培训、录制一切到用量化思维理解直觉与决策。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ben"},{"@type":"Person","name":"Will"},{"@type":"Organization","name":"Walleye"},{"@type":"Thing","name":"Current"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"ChatGPT"},{"@type":"Thing","name":"情感分析 (sentiment analysis)"},{"@type":"Thing","name":"营运杠杆 (operating leverage)"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"量化投资 (quant investing)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”","item":"https://talk.solomind.cc/2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一家百亿对冲基金如何全员强推 AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# 一家百亿对冲基金如何全员强推 AI
+# 对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”
 
 <div class="pd-byl"><b>Will</b> · 对冲基金所有者兼经营者 · 2026-08-27</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">不使用这些工具就像在 1995 年拒绝使用互联网，因为它不完美。那只是愚蠢的，是我无法理解的事情。</div><div class="a">— Will <button class="pd-ts" data-t="14:42" data-who="Will" data-en="Not using these tools is like refusing to use the internet in 1995 because it wasn't perfect. That's just dumb and something I can't understand." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">不使用这些工具就像在 1995 年因为互联网不完美而拒绝使用它。</div><div class="a">— Will <button class="pd-ts" data-t="14:42" data-who="Will" data-en="Not using these tools is like refusing to use the internet in 1995 because it wasn't perfect." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Ben]] · [[Will]]
@@ -37,123 +37,110 @@ jsonLd: |
 >
 > **概念** [[Current]] · [[智能体]] · [[ChatGPT]] · [[情感分析]] · [[营运杠杆]] · [[LLM]] · [[量化投资]]
 
-一家管理近 100 亿资金的对冲基金，CEO 给全公司发了封邮件，开头第一句是：「我用 [[ChatGPT|ChatGPT]] 写了这封邮件。你也应该用，并且为此感到自豪。
+这一集的主角是 [[Will|Will]],一家管理规模接近 100 亿美元的对冲基金 [[Walleye|Walleye]] 的创始人兼 CEO。他几乎不接受采访，这次罕见开麦，讲的是他如何把一家 400 人的金融公司整体调转到 AI 轨道上——而且不是规划，是已经做了两年的事。最抓人的一个细节是：他给全公司写的那封「AI 备忘录」，开头第一句就是「我用 [[ChatGPT|ChatGPT]] 写了这封邮件」。
 
-」不使用这些工具，用他的话说，「就像 1995 年拒绝用互联网一样蠢」 <button class="pd-ts" data-t="14:09" data-who="Will" data-en="Here we go. So yeah, so this is an email that I wrote to the firm, the entire firm, and the subject is AI at Walleye, a challenge to all of us. It says, I use ChatGPT to write this email." aria-label="回原文"></button>。这不是一个在讲「未来会怎样」的故事——两年前他们就已经启动了内部 AI 项目，今天 75% 的员工几乎每天都在用 ChatGPT 类工具，三分之一的人在用 AI 编码工具 <button class="pd-ts" data-t="23:11" data-who="Will" data-en="Creative. So some of us were doing like, you know, 75% of the firm, you know, was an active called ChatGPT, ChatGPT-like user. You know, every single week, like actually almost every single day." aria-label="回原文"></button>。
+## 起点：一个分析师的演示，加上「石中剑」式的直觉
 
-## 触发点：一个分析师的演示
+Will 自称「正宗书呆子」：普林斯顿工程背景、牛津数学博士、职业生涯从给算法策略写代码开始。所以对他来说，机器替代或增强人类工作不是新命题——他的量化业务用「先进统计学」已经用了十年。
 
-[[Will|Will]] 的技术背景很硬——普林斯顿学工程、牛津读数学博士、职业生涯从给算法策略写代码开始 <button class="pd-ts" data-t="03:25" data-who="Will" data-en="I actually don't even know this. I'm a bonafide nerd by background. I was an engineer at Princeton." aria-label="回原文"></button>。所以「机器替代人类部分工作」这件事对他不是新概念，他们量化业务用非线性统计和 AI 底层模型已经很多年了 <button class="pd-ts" data-t="03:42" data-who="Will" data-en="I started my career writing code all day for algorithmic strategies. So, you know, we as a firm and me personally have been using, let's just call it advanced statistics, not even AI for years." aria-label="回原文"></button>。
+真正的转折点有两个。一个是 2023 年 3 月，TMT 选股团队的一位前分析师来找他，说自己用当时的工具(主持人追问：是 GPT-3 吗？
 
-真正的转折发生在两年前。一个在 TMT 选股团队的前分析师，在 2023 年 3 月拿着 GPT-3 跑出来的东西来找他，说「我用这些工具让自己变得高效得多，基本上在替换我作为分析师的工作」 <button class="pd-ts" data-t="07:03" data-who="Will" data-en="That's led by someone who was a former analyst in one of our TMT for technology, longshore stock picking teams, comes to me in March of 2023 and says, look, I built" aria-label="回原文"></button>。
+他答是)把分析师的工作流程基本重建了一遍。Will 起初怀疑，看完演示后直接拍板立项——这就是后来公司最先进的内部 AI 产品 [[Current|Current]] 的起点。
 
-Will 起初很怀疑——这不是典型情况，有人会自己跑去干这事。但看完演示后他的判断是：「如果你理解你试图解决的问题和可用的工具，这绝对是我们正在走向的方向」 <button class="pd-ts" data-t="07:31" data-who="Will" data-en="You need to be able to dream. If you understand the problem you're trying to solve and the tools that are available, it's like, this is absolutely where we're going." aria-label="回原文"></button>。于是他们启动了一个叫 [[Current|Current]] 的内部项目，目标是给基本面投资做[[智能体|智能体]]（agent），帮助分析、为信息赋予意义 <button class="pd-ts" data-t="07:37" data-who="Will" data-en="If you understand the problem you're trying to solve and the tools that are available, it's like, this is absolutely where we're going. And so that's when we started an effort to say, okay, for fundamental investing, absolutely, there should be agents that are ultimately helping with analysis and ultimately to provide meaning to what's going on." aria-label="回原文"></button>。
+另一个转折是今年听了一期 Chris Saka(一位以夸张著称的投资人)的播客，他形容那种感觉像《石中剑》里倒着活着的梅林：能瞥见未来的终点，却看不清中间的步骤。他说「五年后，做我们这行的公司不可能不重度整合同类最好的 AI 技术」——理由很金融：这是信息与金钱之间关联最直接的行业，信息优势就是钱。听完那期播客，他当场给全公司发邮件：强制培训，每个部门、每个人，无论技术背景，都要达到 AI 工具的基础熟练度。
 
-第二个触发点更近：他听了一个播客后，意识到「你能看到终点，比看到到达那里的步骤更容易」 <button class="pd-ts" data-t="08:26" data-who="Will" data-en="And it does take a little bit of imagination, but in some ways, it's kind of like you can see the endpoint. More easily than you can see the steps to get there. I was using this analogy recently." aria-label="回原文"></button>。他的类比是《石中剑》里的 Merlin——能看见未来的瞥见，但看不见中间的步骤 <button class="pd-ts" data-t="08:45" data-who="Will" data-en="So I was watching them recently. And so Merlin in the cartoon version of The Sword in the Stone, he lives backwards in time. And so he can see, you know, glimpses of the future." aria-label="回原文"></button>。五年后，做他们这行的公司必定在全公司范围内重度整合 AI，不只是投资，也包括非投资用途 <button class="pd-ts" data-t="08:59" data-who="Will" data-en="And that's kind of how I felt like here. It's impossible for me not to believe that in five years, firms that do what we do won't be heavily, heavily integrated with best of breed AI technology across the firm, not just for investment, for non-investment purposes." aria-label="回原文"></button>。
+## 那封备忘录：先把「羞耻感」打掉
 
-## 全员强制培训的具体做法
+主持人说 CEO 写「AI 优先备忘录」已经快成梗了，但他认为 Will 这封是他见过最好的。Will 现场读了几段：「使用 ChatGPT 不是作弊，那是来自学术界的不适用观念」「不使用这些工具，就像 1995 年因为互联网不完美而拒绝使用它」「作为对冲基金，我们应该为忽视让自己更快、更聪明、更有效的工具而把钱留在桌上感到羞耻」「在现实世界，用 AI 就像喝下一瓶让你立刻聪明 20% 的灵药」。
 
-看完那个播客后，他直接给团队写了邮件：全公司每个人，不管什么部门、不管技术不技术，必须达到 AI 工具的基础熟练度 <button class="pd-ts" data-t="09:48" data-who="Will" data-en="This is how we ultimately met you. We're going to train, mandatory, every single person at the firm. It doesn't matter what department you're in, how technical or not technical you are." aria-label="回原文"></button>。然后请了外部团队来做培训和落地实施 <button class="pd-ts" data-t="01:07" data-who="Unknown" data-en="And you're an every consulting client. We're working with you to help you do AI training and implementation inside of Walleye. And honestly, like regardless of the stuff we've done, you're, I think, one of the most impressive examples of someone, a CEO who is like pivoting their entire organization around AI and you're sort of like leading by example." aria-label="回原文"></button>。
+他写这封信的直接动机，是他观察到员工偷偷用 ChatGPT 写邮件，然后还要费劲「修饰」掉痕迹，怕被看出来。他觉得这太蠢了。
 
-具体机制：
+他对应聘者刻意招「职业中期拐点」的人：能力已成型、但学习新东西的渴望和弹性还在。他的类比是：不会用 Excel 建公司模型的多空选股人早已过时，未来不会用 AI 工具的人也一样。
 
-- **每周排行榜**：发内部邮件，公布谁用这些工具最多 <button class="pd-ts" data-t="11:15" data-who="Will" data-en="Let's make it accessible. So simple things like having weekly emails where there's leaderboards of who's using these tools the most. Actually, I sent the entire firm an email and said, hey, if you suggest a tool that ultimately we end up pushing out across the firm, just like there's incentive systems for employee referrals, we'll do something similar here too." aria-label="回原文"></button>
-- **工具推荐激励**：跟员工推荐奖金一样的逻辑——你建议的工具如果最终全公司推广，有奖励 <button class="pd-ts" data-t="11:22" data-who="Will" data-en="So simple things like having weekly emails where there's leaderboards of who's using these tools the most. Actually, I sent the entire firm an email and said, hey, if you suggest a tool that ultimately we end up pushing out across the firm, just like there's incentive systems for employee referrals, we'll do something similar here too." aria-label="回原文"></button>
-- **每周非正式聚会**：聊提示词、聊用例 <button class="pd-ts" data-t="11:36" data-who="Will" data-en="Actually, I sent the entire firm an email and said, hey, if you suggest a tool that ultimately we end up pushing out across the firm, just like there's incentive systems for employee referrals, we'll do something similar here too." aria-label="回原文"></button>
-- **「AI 参议院」**：各部门前瞻性 AI 用户组成的群体，定期开会 <button class="pd-ts" data-t="14:31" data-who="Will" data-en="I'm writing this as a follow-up to the comments I made at the town hall at the start of the month and after our AI Senate meeting earlier today, which is a group of forward-thinking AI users from departments across the firm." aria-label="回原文"></button>
-- **CEO 自封「首席 AI 布道者」**：他本人参与所有这些活动 <button class="pd-ts" data-t="12:02" data-who="Will" data-en="And I'm involved in all of this. In fact, I'm the chief AI evangelist. And a huge part of that is just my own personal curiosity." aria-label="回原文"></button>
+而工具本身都不完美、都会干蠢事——他刻意营造的文化是不许拿不完美当忽略它的借口，宁可开一个三分之一员工参加的演示会然后当场翻车(他自己上周就翻了一次)。他敢这么做的一个结构性原因是治理：他是所有者兼经营者，「我不担心被解雇，我担心的是没做我认为对的事」——这是大组织做不到的。
 
-效果是：人们开始做没被要求做的事，生产力提升是真实的，不是纸面文章 <button class="pd-ts" data-t="12:11" data-who="Will" data-en="But you can already see it working. People are doing things that they weren't asked to do. It's so cool." aria-label="回原文"></button>。
+## 具体做了什么：排行榜、周聚会、激励和记录一切
 
-## 解决「这是不是作弊」的心理障碍
+落到操作层面，Walleye 的做法相当具体：全公司强制 AI 培训；每周邮件发「谁用工具最多」的排行榜；谁推荐的工具最终被全公司推广，就按员工内推的激励方式给奖励；每周内部非正式聚会聊提示词和用例(他同意此前一位嘉宾的观点：AI 的最佳用例发现本身就极具社交性，很难靠一个人摸索)；他自己就是「首席 AI 布道者」。效果上，全公司约 75% 的人是 ChatGPT 类工具的活跃用户(几乎每天)，约三分之一在用 Windsurf 这类 AI 编码工具。
 
-他发现一个很实际的问题：人们用 ChatGPT 写了邮件后，会去「修饰」一下，不想被人看到自己在用 AI <button class="pd-ts" data-t="18:31" data-who="Will" data-en="Making people feel comfortable and not kind of embarrassed. Because what I was seeing before is people were using ChatGPT or another similar product to create an email and they were trying to dust it up." aria-label="回原文"></button>。他的态度非常强硬：「这太蠢了。
+上周聚会上有人提议做一个「播客摘要」产品，当天就有五个 Beta 版产品冒出来，第二天就推全公司。数据层面，除了少数例外，公司录制每一个 Zoom、每一通电话，每天早上的风险例会也不例外，再用 [[LLM|LLM]] 持续处理这些逐字稿——帮团队回忆当时说了什么、提炼洞察，甚至做一点预测。
 
-你应该在做这件事。如果你没做，那你为什么要浪费三个小时写这东西？」 <button class="pd-ts" data-t="18:44" data-who="Will" data-en="It's like, oh, I don't want to be seen as doing that. It's just stupid. You should be doing that." aria-label="回原文"></button>
+他把这个「把公司所有信息汇入一个可随时吸取消的池子」的愿景叫作「博格人」(《星际迷航》里把一切个体连成集合体的种族)，认为所有公司终将如此，还预言未来人们体内会植入记录一切的设备。最成熟的产品 Current 就是微缩版：吃进分析师笔记、券商 PDF、财报电话会议记录等一切与股票相关的信息，供所有选股团队使用，使用量在财报季暴涨，跳槽来的竞争对手员工说它「好得多，而且是工作的必需品」——超过 50 家外部公司来问能不能当 Beta 用户。
 
-他的论点是：学术界用 AI 做作业是作弊，但商业世界不是——「使用 AI 就像服用一种神奇的灵药，让你立即变聪明 20% 或者更多」 <button class="pd-ts" data-t="15:08" data-who="Will" data-en="That's a non-applicable idea from academia where using AI to do homework or take tests is actually cheating. In the real world, using AI is like taking a magical elixir that makes you 20% smarter instantly or a lot more." aria-label="回原文"></button>。写邮件或备忘录，过去要四五个小时，现在 15 分钟：先以要点形式写出想法和原因，给足上下文，让模型用自己的声音生成 <button class="pd-ts" data-t="26:25" data-who="Will" data-en="And it's actually one of the things in general, before LLMs came about, that it was pretty pressing that younger people just were terrible, terrible writers. So for me, when I want to write an email, as an example, write a memo, I do it in bullet point form." aria-label="回原文"></button>。
+他强调他们走得更远的地方在于：这些工具做的是「真实的分析」，而不只是摘要。财务上的量化侧同样受益：LLM 让非结构化数据(即传统上所谓[[情感分析|情感分析]]那类文本信号)的大规模处理能力急剧上升，这是「纯粹从赚钱角度」的改进。
 
-对「思考会不会变浅」的担忧，他的回应是：这些工具没有取消思考的必要性，反而应该给你更多时间思考。过去一个小时的任务，50% 到 60% 的时间是机械打字，现在只有 5% <button class="pd-ts" data-t="33:24" data-who="Will" data-en="If anything, they should just give you more time to think. Like if you say, okay, you have an hour to complete this task. And it used to be historically, I don't know, 50, 60% of that time, it was just going to be mechanically typing out." aria-label="回原文"></button>。
+## 写作、直觉与不可解释的模型
 
-「你应该真的去思考，去校对，去问自己：这是我想要传达的吗？」 <button class="pd-ts" data-t="33:42" data-who="Will" data-en="So you should really think. You should read, you should proofread and say, does this make sense to me? Is this what I'm trying to convey?" aria-label="回原文"></button>。他的类比：喷气式引擎自己不会飞，你得把它接到飞机上，空气动力学还有很多东西决定飞机能不能飞好 <button class="pd-ts" data-t="34:49" data-who="Will" data-en="And you use that analogy to me as well. A jet engine won't fly by itself. You still got to hook it up to the plane." aria-label="回原文"></button>。
+主持人抛出一个很多人有的焦虑：模型替你写了一堆东西，你并没有逐句确认过，这算想清楚了吗？Will 的回答是把「概念」和「语言句法」分开：过去写作时间的一半以上花在机械打字和把句子缝在一起(他连别人用介词结尾句子都受不了)，现在这部分只占 5%,省下的时间应该用来想概念本身。
 
-## 当前实际的 AI 应用
+他甚至说，很多作家做的事不过是「用聪明的方式说出相对直白的概念」，而这不值得再花时间了。但工具「并没有抵消思考的必要性」——理想状态是「你显然用了工具，但概念仍然来自你，我能把它联系回你这个人」。
 
-**量化交易端**：用大语言模型处理非结构化数据、做[[情感分析|情感分析]]（sentiment analysis），大规模提取信号——这在顶级量化公司里已经是标配 <button class="pd-ts" data-t="22:23" data-who="Will" data-en="Those models have used non-linear statistics, AI, or some of the underlying models in AI for years. More recently, with the advent of large language models coming about, the ability to process unstructured data, of course, and incorporate that into signals, which historically was called sentiment analysis, the ability to do that at scale has gone up dramatically." aria-label="回原文"></button>。
+他的比喻：AI 像一台强大的喷气引擎，但引擎自己不会飞，你还得把它装到飞机上，空气动力学还得人来操心。主持人还问到一个让很多人意外的点：量化交易里有些东西在原则上是人类无法理解的。
 
-**基本面投资端**：Current 这个内部产品，摄入分析师笔记、经纪人信息、到处飞的 PDF、财报电话会议记录——任何跟股票相关的信息。所有 PM 视其为不可或缺的工具，尤其在信息流极快的财报季 <button class="pd-ts" data-t="36:09" data-who="Will" data-en="It's just like there isn't even a great way to process all of a firm's emails right now using AI, which I'm sure will be solved. So the most salient example of where we've done a miniature example of this goes back to set our internal product current, which takes analyst notes, all information's coming in from brokers and these PDFs that get emailed around all the time, earnings transcripts, really any bit of information that's germane to a stock." aria-label="回原文"></button>。
+Will 确认：世界级量化模型里成千上万个特征，人类大致理解单个特征的道理，但这些特征如何被非线性地组合起来、为什么做出某个决策，「维度远远超过人类心智所能理解」——就像没人能真正解释 LLM 为什么这么做。但他不觉得机器与直觉对立：机器反而可能帮你产生你自己想不到的直觉，像教练看着你举重，提醒你「这几件事其实是连着的」。
 
-Will 强调他们走得更远：不只是总结，而是提供真正的分析 <button class="pd-ts" data-t="24:05" data-who="Will" data-en="And I think our competitors probably do have good products as well. I think we've just been doing a little bit longer and are further down the path of using these tools actually to provide meeting and real analysis as opposed to just summarization." aria-label="回原文"></button>。超过 50 家外部公司主动问能不能当测试用户 <button class="pd-ts" data-t="36:53" data-who="Will" data-en="Again, quantifying that exactly, there's no perfect metric. A lot of it is definitely subjective, but I can see the internal use case numbers, and I can also see, like, external firms know that we built this and are doing it, and over 50 of them have asked, like, hey, can we" aria-label="回原文"></button>。
+在决策层面，他也不认为数学意义上的第一性原理等于决策意义上的——现实世界有主观性，你的公理和别人的公理可能完全相反。他自己最可靠的两条「第一性原理」是：与人打交道时激励的力量(理解并尽可能对齐每个人做事的激励向量)，以及智识上的诚实(他讨厌废话，一闻到「触角就竖起来」)。
 
-**全公司沟通**：他本人的书面沟通效率大幅提升，过去几小时的备忘录现在半小时以内 <button class="pd-ts" data-t="17:05" data-who="Will" data-en="So your context level shifts up. And so I'm not embarrassed at all that I can write emails that used to or long memos that used to take me hours that maybe I could do that in a half hour or less." aria-label="回原文"></button>。
+顺带一提，他现在每天用 AI 记日记，三个板块：家庭、工作、健康，有时只需 30 秒——因为机器已经学会他的声音。他觉得大多数人以前不记日记就是因为费时间，而这是这些工具「微小但强大」的绝佳例子。
 
-**记录一切——「博格人」计划**：除了极少数例外，内部所有 Zoom、所有电话都录音 <button class="pd-ts" data-t="27:22" data-who="Will" data-en="It's kind of going back to the governance element where I can say, this is what I believe is the right thing to do. So internally, with a few exceptions, we really record every single Zoom, every single call." aria-label="回原文"></button>。风险管理的早会全部录下来，然后用 [[LLM|LLM]] 处理逐字稿——帮你回忆当时讨论了什么、提供洞察、甚至做一定程度的预测 <button class="pd-ts" data-t="28:33" data-who="Will" data-en="We can go back and say, hey, what were we talking about at this time? And continually have LLMs that are processing those transcripts and helping us to both remember and provide insights and ultimately be a bit predictive, which has been hugely helpful just in that exercise." aria-label="回原文"></button>。
+## 历史感：牛仔、铁丝网与人性常数
 
-更宏大的愿景是把所有部门生成的文本（邮件、Slack、通话）最终跟数值数据（市场数据、财务数据）打通 <button class="pd-ts" data-t="38:10" data-who="Will" data-en="At the firm, that's generating text as a simple example through emails, through Slack messages, through live calls, live conversations. And then ultimately, the ultimate goal is to tie that back to numerical data, whether that be market data, internal data, accounting data, you name it." aria-label="回原文"></button>。他认为这才是刚刮到表面 <button class="pd-ts" data-t="29:06" data-who="Will" data-en="I don't want to say we're the leader because I definitely don't know what other firms are doing, but I certainly think that we're a bit more advanced in our thinking of how to use these tools." aria-label="回原文"></button>。
+Will 是历史爱好者，最爱南北战争到一战那段——他办公室就俯瞰一座强盗大亨时代建的火车站。那段历史里，铁路和带刺铁丝网终结了牛仔(他和主持人还聊了一段牛仔其实是当时亚利桑那偷牛帮派、OK Corral 枪战的掌故)，人们在有生之年从「技能相关」变成「技能过时」。
 
-## 对「被取代」焦虑的回应
+他的判断是：这一次会更快。但他对未来公司的形态有个反直觉的第一性原理推断：想以世界一流水准大规模运作的公司，未来仍然需要成千上万的「员工」——只是其中少数是人类，更多是机器。
 
-Will 有意招处于职业拐点的人——能力有了、但饥饿感和学习新技能的动态能力还在 <button class="pd-ts" data-t="19:11" data-who="Will" data-en="And I see this all the time. Very deliberately, we hire people who, say, are at an inflection point of their career, typically mid-career, where they You know, know enough to be dangerous." aria-label="回原文"></button>。他的逻辑很直接：不会用 Excel 建公司模型的多空选股人已经过时了；不会用 AI 工具的人，或者所在公司不给工具提供[[营运杠杆|营运杠杆]]（operating leverage）的人，也会过时 <button class="pd-ts" data-t="19:30" data-who="Will" data-en="That matters a lot and I don't think there's anything different. You know, if you're, just to use an example, if you're a long-short stock picker and you can't use Excel to create a company model, you're totally obsolete." aria-label="回原文"></button>。
+他庆幸自己不是风投(「他们大多数根本不知道自己在干什么」)，因为空谈趋势的人意识不到还得有人真去把东西建出来。对投资，他的结论是「历史不会重复，但会押韵」：人性一万年没变(他举亚历山大大帝回绝大流士休战提议的故事)，[[量化投资|量化投资]]整个大类就建立在历史模式会重演之上，而人类投资者的直觉在「机器没见过所有先例的模糊局面」里仍有优势——他们造的所有工具，最终都是为了让这个人预测得更准。
 
-他更想让大家「害怕被抛在后面」，而不是害怕犯错或害怕用不完美的工具 <button class="pd-ts" data-t="21:35" data-who="Will" data-en="Setting that tone and flipping it outside be sort of, you know, you need to be afraid, or a lot of people are afraid not to, or to make a mistake. Kind of need to be more afraid to getting left behind." aria-label="回原文"></button>。他上周做演示时演示之神完全跟他作对，但没关系——「让人们接受这一点，拥抱这一点：是的，有些东西不完美，但你能看到它的发展方向」 <button class="pd-ts" data-t="20:52" data-who="Will" data-en="But they're totally fine. And having people accept that, embrace that, and be like, yeah, some of this stuff isn't perfect, but you can see where it's going, as opposed to just..." aria-label="回原文"></button>。
+谈到「责任」，他说被世界赋予能力的人有责任把它用满：「如果你能 10 秒内跑完 100 米而你没跑，那是悲剧。」他今年 40 岁，对投资者(穿透式结构给了他们空白支票般的花钱权限，全球这样真格的不到一打，Citadel 是最著名的一家)、对员工、对三个孩子，都背着重大的责任感——而在 AI 世界里，领导者对员工最大的责任，就是为接下来要来的东西做好准备。
 
-## 决策框架：历史类比与第一性原理
-
-他常参考的历史时期是美国南北战争到一战之间——铁路连通的速度、跨大西洋电缆的出现，人们在有生之年从拥有相关技能变成拥有过时技能 <button class="pd-ts" data-t="39:04" data-who="Will" data-en="I'm a student of history. I do love basically the period between the Civil War and World War I is a time when I think The whole world changed dramatically." aria-label="回原文"></button>。这一次会更快 <button class="pd-ts" data-t="40:14" data-who="Will" data-en="And people within their own lifetimes sort of went from having relevant skills to obsolete skills. That is going to happen faster this go around. And then when I said I thank God I'm not a VC because you hear a lot of people, investor types, projecating about this, but they aren't actually involved in any operating companies and don't realize that someone still needs to go out and build all this stuff." aria-label="回原文"></button>。他认为未来世界级规模运作的公司仍然需要成千上万的「员工」，但其中只有少数是人类，更多是机器 <button class="pd-ts" data-t="40:30" data-who="Will" data-en="And then when I said I thank God I'm not a VC because you hear a lot of people, investor types, projecating about this, but they aren't actually involved in any operating companies and don't realize that someone still needs to go out and build all this stuff." aria-label="回原文"></button>。
-
-在投资哲学上，他认为人性一万年没变 <button class="pd-ts" data-t="46:31" data-who="Will" data-en="Do you agree with that characterization and how do you think about when to rely on past patterns to help you understand the future? I don't think human nature has changed in 10,000 years." aria-label="回原文"></button>。[[量化投资|量化投资]]建立在「历史模式会重复」上，但世界级量化模型里的非线性关系复杂到人类心智根本无法理解其全部维度 <button class="pd-ts" data-t="51:43" data-who="Will" data-en="Yeah, for a human to actually sit down and walk me through all the different layers of the neural network and why did a machine do what it's going to do? No, the dimensionality of that problem, it's way past what a human mind can understand." aria-label="回原文"></button>。
-
-而人类投资者在「模糊混乱」的场景——机器没见过足够多先例的低频大数情况下——仍然有优势 <button class="pd-ts" data-t="49:09" data-who="Will" data-en="It's just timeless on a different scale. And that is where, on a go-forward basis, I still very much believe that human investors will have an edge, particularly on low, large numbers situations where a machine hasn't exactly seen all the priors." aria-label="回原文"></button>。所以这些工具的正确用法是赋能人类做更准确的判断，而不是取代判断 <button class="pd-ts" data-t="49:28" data-who="Will" data-en="The precursors that would lead it to make an informed decision, but a human can be better at dealing in the fuzzy mess. And so all these tools that we're building can be built to enable that human to make a prediction more accurately." aria-label="回原文"></button>。
-
-他列出的决策第一性原理：激励的力量（理解个人或群体做事的真正激励，尽量对齐）和智识上的诚实 <button class="pd-ts" data-t="58:27" data-who="Will" data-en="And a lot of it's going to be around, are you collecting the right data to help people with that? So, yeah, you know, the biggest first principles I said, power of incentives and intellectual honesty." aria-label="回原文"></button>。
+> 【背景】Chris Saka 疑为投资人 Chris Sacca 的转写误差；「博格人(Borg)」是《星际迷航》中以集体意识著称的半机械种族，故被用来比喻「全员互联共享信息」的组织愿景。
 
 ## 本集带走
 
-- **CEO 必须身先士卒**：除了领导者，没有人能设定「用 AI 不可耻」的基调。一旦设定，人们会自发去探索 <button class="pd-ts" data-t="21:11" data-who="Will" data-en="And I think this is true of all leaders of the organization. You have to lead from the front. No one can set that tone besides the leader." aria-label="回原文"></button>。
-- **强制全员基础培训，配合社交化机制**：不是发个备忘录就完事——排行榜、推荐激励、每周聚会，让用例自然发现和传播 <button class="pd-ts" data-t="11:15" data-who="Will" data-en="Let's make it accessible. So simple things like having weekly emails where there's leaderboards of who's using these tools the most. Actually, I sent the entire firm an email and said, hey, if you suggest a tool that ultimately we end up pushing out across the firm, just like there's incentive systems for employee referrals, we'll do something similar here too." aria-label="回原文"></button>。
-- **直接解决「作弊感」**：明确说「使用 AI 不是作弊」，给出商业世界与学术界的区分，用 CEO 自己的行为做示范 <button class="pd-ts" data-t="15:00" data-who="Will" data-en="That make us faster, smarter, and more effective. Using ChatGPT is not cheating. That's a non-applicable idea from academia where using AI to do homework or take tests is actually cheating." aria-label="回原文"></button>。
-- **写作的分工变了**：人负责想清楚概念（要点形式），机器负责语言输出。省下来的时间应该用来思考更高层级的事，而不是提前下班 <button class="pd-ts" data-t="26:25" data-who="Will" data-en="And it's actually one of the things in general, before LLMs came about, that it was pretty pressing that younger people just were terrible, terrible writers. So for me, when I want to write an email, as an example, write a memo, I do it in bullet point form." aria-label="回原文"></button>。
-- **记录一切，建立「数据湖」**：先从最有价值的场景切入（他们从基本面投资的研报处理开始），再逐步扩展到全公司信息打通 <button class="pd-ts" data-t="36:09" data-who="Will" data-en="It's just like there isn't even a great way to process all of a firm's emails right now using AI, which I'm sure will be solved. So the most salient example of where we've done a miniature example of this goes back to set our internal product current, which takes analyst notes, all information's coming in from brokers and these PDFs that get emailed around all the time, earnings transcripts, really any bit of information that's germane to a stock." aria-label="回原文"></button>。
-- **对不完美的工具也要用**：不要等完美才上手，用「害怕被抛在后面」替代「害怕犯错」的心态 <button class="pd-ts" data-t="20:52" data-who="Will" data-en="But they're totally fine. And having people accept that, embrace that, and be like, yeah, some of this stuff isn't perfect, but you can see where it's going, as opposed to just..." aria-label="回原文"></button>。
-- **AI 是营运杠杆，不是替代**：不会用工具的人会过时，跟当年不会用 Excel 的人一样 <button class="pd-ts" data-t="19:30" data-who="Will" data-en="That matters a lot and I don't think there's anything different. You know, if you're, just to use an example, if you're a long-short stock picker and you can't use Excel to create a company model, you're totally obsolete." aria-label="回原文"></button>。
+- **打掉工具羞耻感是第一件事**：CEO 亲自示范「我用 ChatGPT 写了这封邮件」，并明确「用 AI 不是作弊」——员工偷偷用还要修饰痕迹，是效率最大的隐性损耗。
+- **推广靠机制不靠口号**：使用排行榜、每周非正式聚会聊提示词、推荐工具给内推式激励，让发现用例变成社交化过程。
+- **录一切，再统一处理**：内部会议全录制、逐字稿交给 LLM,配合把所有数据汇入统一「数据湖」，是让信息产生复利的前提。
+- **写作上把概念和句法分开**：自己想清楚要点和逻辑，让模型负责语言组织和风格还原；但读的人要求「概念仍然来自你」，思考不可外包。
+- **不完美不许当借口**：与其等工具完美，不如在三分之一的员工面前演示然后当场翻车——把「怕出错」翻转成「更怕被抛在后面」。
+- **用量化思维看待 AI 时代的人才**：招职业中期、学习弹性还在的人；未来公司仍有成千上万「员工」，只是多数是机器，管理它们本身就是新技能。
 
 <div class="pd-sec">全部金句 <span>9 条</span></div>
 
-> <span class="qz">不使用这些工具就像在 1995 年拒绝使用互联网，因为它不完美。那只是愚蠢的，是我无法理解的事情。</span>  
-> *Not using these tools is like refusing to use the internet in 1995 because it wasn't perfect. That's just dumb and something I can't understand.*  
+> <span class="qz">不使用这些工具就像在 1995 年因为互联网不完美而拒绝使用它。</span>  
+> *Not using these tools is like refusing to use the internet in 1995 because it wasn't perfect.*  
 > <span class="qm">—— Will · [14:42]</span> ^q1
 
-> <span class="qz">它确实需要一点想象力，但在某些方面，有点像你可以看到终点，比看到到达那里的步骤更容易。</span>  
-> *It does take a little bit of imagination, but in some ways, it's kind of like you can see the endpoint more easily than you can see the steps to get there.*  
-> <span class="qm">—— Will · [08:22]</span> ^q2
+> <span class="qz">要么你拿起那个该死的重量，要么你没有。</span>  
+> *Either you pick up the f***ing weight or you don't.*  
+> <span class="qm">—— Will · [17:40]</span> ^q2
 
-> <span class="qz">话语是廉价的，特别是在 AI 的世界里。你可以很容易地创造伟大的话。</span>  
-> *Words are cheap, particularly in a world of AI. You can create great words very easily.*  
-> <span class="qm">—— Will · [13:23]</span> ^q3
+> <span class="qz">不是为了让你下午 2 点就下班，而是为了让你真正花时间思考下一级别的任务、更高层级的上下文，变得有点创造力。</span>  
+> *Not so that you can just leave work at 2 p.m., so you can actually spend time thinking about next level tasks, higher level contexts, be a bit creative.*  
+> <span class="qm">—— Will · [18:03]</span> ^q3
 
-> <span class="qz">要么你拿起那个该死的重量，要么你没有。我认为这就是人们在商业语境中需要拥有的态度。</span>  
-> *Either you pick up the f***ing weight or you don't. And I think that's just the attitude that people need to have in the business context.*  
-> <span class="qm">—— Will · [17:40]</span> ^q4
+> <span class="qz">其中很多员工将只是 AI 机器人，而这本身就是一种技能。</span>  
+> *A lot of those employees are just going to be AI robots, and that's a skill in and of itself.*  
+> <span class="qm">—— Will · [18:19]</span> ^q4
 
-> <span class="qz">想想你自己，即使你是一个个人并且你不管理任何人，你仍然要管理员工。其中很多员工将只是 AI 机器人，这本身就是一种技能。</span>  
-> *Think of yourself, even if you're an individual and you don't manage any human, you're still going to be managing employees. A lot of those employees are just going to be AI robots, and that's a skill in and of itself.*  
-> <span class="qm">—— Will · [18:13]</span> ^q5
+> <span class="qz">那可能是，你知道，毫不夸张，一个 15 分钟的过程，而在历史上这会花我四五个小时。</span>  
+> *And that can be, you know, no exaggeration, like a 15-minute process that would have taken me four or five hours historically.*  
+> <span class="qm">—— Will · [26:49]</span> ^q5
 
-> <span class="qz">如果你是一个多空选股人，而且你不会用 Excel 来创建公司模型，你就完全过时了。在未来的几年里，你将会有类似的情况，如果你不知道如何使用这些工具，或者你不在一家能给你访问这些工具的权限以给你营运杠杆的公司里，那么你也将会过时。</span>  
-> *If you're a long-short stock picker and you can't use Excel to create a company model, you're totally obsolete. And in future years, you're going to have sort of the same thing, where if you don't know how to use these tools or you're not at a firm that could give you access to the tools to give you operating leverage, then you're also going to be obsolete.*  
-> <span class="qm">—— Will · [19:31]</span> ^q6
+> <span class="qz">但这些员工中只有少数会是人类。</span>  
+> *But a few of those employees are going to be humans.*  
+> <span class="qm">—— Will · [40:50]</span> ^q6
 
-> <span class="qz">那可能是，毫不夸张，就像一个 15 分钟的过程，而在历史上这会花我四五个小时。</span>  
-> *That can be, you know, no exaggeration, like a 15-minute process that would have taken me four or five hours historically.*  
-> <span class="qm">—— Will · [26:50]</span> ^q7
+> <span class="qz">是的，你必须学习这些工具，否则在任何时间段内，你就是不会有竞争力。</span>  
+> *If, yeah, you have to learn these tools or in whatever time period, you're just not going to be competitive.*  
+> <span class="qm">—— Will · [41:26]</span> ^q7
 
-> <span class="qz">未来的公司，想要以世界一流的方式大规模运作，仍然需要成千上万甚至更多的员工。但这些员工中只有少数会是人类。其中更多的会是机器。</span>  
-> *Companies in the future that want to operate in a world-class manner at scale are still going to need many, many thousands or more of employees. But a few of those employees are going to be humans. A lot more of them are going to be machines.*  
-> <span class="qm">—— Will · [40:39]</span> ^q8
+> <span class="qz">我不相信平衡。</span>  
+> *I don't believe in balance.*  
+> <span class="qm">—— Will · [59:18]</span> ^q8
 
-> <span class="qz">让一个人真正坐下来带着我过一遍神经网络的所有不同层以及为什么机器做它将要做的事？不，那个问题的维度，它远远超过了人类心智所能理解的。</span>  
-> *For a human to actually sit down and walk me through all the different layers of the neural network and why did a machine do what it's going to do? No, the dimensionality of that problem, it's way past what a human mind can understand.*  
-> <span class="qm">—— Will · [51:36]</span> ^q9
+> <span class="qz">就像如果你能在 10 秒以内跑完 100 米而你没有，那是个悲剧，因为不是每个人都能做到。</span>  
+> *It's like if you can run 100 meters in under 10 seconds and you don't, it's a travesty because not everyone can do that.*  
+> <span class="qm">—— Will · [62:57]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -172,7 +159,7 @@ Will 有意招处于职业拐点的人——能力有了、但饥饿感和学习
 **换个口味**
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同概念:ChatGPT、LLM</span>
-- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|Campbell Brown：AI 回答争议问题时，谁在替你把关质量？]]<span class="pd-rz">同概念:LLM、ChatGPT、智能体 (agents)</span>
+- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场]]<span class="pd-rz">同概念:LLM、ChatGPT、智能体 (agents)</span>
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同概念:ChatGPT、Windsurf</span>
 
 </div>

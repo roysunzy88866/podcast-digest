@@ -146,7 +146,7 @@ Justine 直言,从零开始训练一个能和 OpenAI 等巨头竞争的基础模
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层才是下一个金矿：模型不是商品]]<span class="pd-rz">同公司:Anthropic、OpenAI、Town · 同概念:智能体 (agent)</span>
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:Anthropic、OpenAI、Town · 同概念:智能体 (agent)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 

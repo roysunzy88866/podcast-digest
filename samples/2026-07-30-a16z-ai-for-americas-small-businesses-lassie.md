@@ -145,7 +145,7 @@ Frederick 的发现很出人意料:现在的模型在海量数据上训练,体�
 **顺着「智能体」挖下去**
 
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
-- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 的选择：用 AI 构建更多，而不是更少]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|模型路由为什么还没解决：Amazon Nova 负责人的实话]]<span class="pd-rz">同概念:智能体 (agent)、回路中的人类 (human in the loop)</span>
 
 </div>
