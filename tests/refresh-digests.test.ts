@@ -127,6 +127,18 @@ describe("refreshOne · 只烧该烧的钱(步骤链 = 拍板语义,一步不多
     expect(readdirSync(dir).filter((f) => f.endsWith(".bak"))).toEqual([]);
     rmSync(base, { recursive: true, force: true });
   });
+  it("★★★ --no-audio:只改文字(浓缩→判官→gate→gate-facts),不起 tts、旧音频原样留(配音后补)", () => {
+    const { base, id, dir } = makeEpisode(legacyDigest);
+    const { calls, exec } = recorder();
+    const r = refreshOne(id, { episodesDir: base, exec, noAudio: true });
+    expect(r.status).toBe("refreshed"); // 文字链全过 = 成功
+    const scripts = calls.map((c) => c.args[0]);
+    expect(scripts).toContain("scripts/condense.mjs"); // 文字真重跑
+    expect(scripts).not.toContain("scripts/tts.mjs"); // 但绝不重录音频
+    expect(existsSync(join(dir, "audio.mp3"))).toBe(true); // 旧音频原样留(不删不换)
+    expect(readFileSync(join(dir, "audio.mp3"), "utf8")).toBe("OLDAUDIO");
+    rmSync(base, { recursive: true, force: true });
+  });
 });
 
 describe("refreshOne · 闸门一分不降:败 → 回滚老版,老音频不动", () => {

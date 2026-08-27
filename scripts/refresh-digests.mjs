@@ -2,8 +2,9 @@
 // 存量回刷(2026-07-24 用户拍板建通道;2026-07-30 用户拍板升级为「按 C15 新浓缩规范重刷」)
 // —— **云端真实流程专用入口**(用户明文:翻新必须云端真实环境/真实流程做,本地 Claude 只造入口不碰内容)。
 //
-// 用法:node scripts/refresh-digests.mjs [--ids id1,id2] [--force]   # 缺省=全部已发布集(有 digest 且有集页)
+// 用法:node scripts/refresh-digests.mjs [--ids id1,id2] [--force] [--no-audio]   # 缺省=全部已发布集(有 digest 且有集页)
 //   --force:绕过「已合规跳过」,强制重跑每一集(用于提示词语义/口味改动,styleErrs 检不出的那类)
+//   --no-audio:只改文字、不重录音频(保留旧音频;配音后补或另行重设计时用)。配 deploy-site 上站(不跑 gate-all)
 //
 // 每集流程(fail-safe:新版过不了闸门 → 回滚老版本;老版本本就过闸门,回刷失败零损失不堵发布):
 //   备份 digest/meta/报告 → FORCE 重浓缩(绕 .digest-raw.txt 缓存,按 C15 新规范)→ 判官 → 金句规整
@@ -58,7 +59,7 @@ function pickIds() {
  * @param opts.episodesDir 集目录根(默认 data/episodes)
  * @param opts.exec (env, ...args)=>bool:跑一步脚本,0 退出为 true(默认真 spawnSync)
  */
-export function refreshOne(id, { episodesDir = EPISODES, exec = ok, force = false } = {}) {
+export function refreshOne(id, { episodesDir = EPISODES, exec = ok, force = false, noAudio = false } = {}) {
   const dir = join(episodesDir, id);
   if (!existsSync(join(dir, "digest.json"))) return { id, status: "skip", why: "无 digest(半成品,回刷只对已完成集)" };
 
@@ -103,10 +104,15 @@ export function refreshOne(id, { episodesDir = EPISODES, exec = ok, force = fals
       exec({}, "scripts/repair-facts.mjs", rel);
       if (!exec({}, "scripts/gate-facts.mjs", rel)) throw new Error("事实层未过(定点重写后仍未过)");
     }
-    // 全过 → 新稿配新音频(源文本变了,gate-audio 源一致性要求重合成)
-    audioTouched = true;
-    for (const f of ["audio.mp3", "audio.meta.json"]) { const p = join(dir, f); if (existsSync(p)) unlinkSync(p); }
-    if (!exec({}, "scripts/tts.mjs", rel)) throw new Error("音频重合成失败");
+    // 全过 → 新稿配新音频(源文本变了,gate-audio 源一致性要求重合成)。
+    // --no-audio(2026-08-28 用户「先改文字、配音后补」+ 配音要重新设计不做无聊朗读):只改文字、
+    //   不碰音频,保留旧音频(source_sha256 会陈旧,由日后配音重做/云端 ensure-audio 自愈)。
+    //   走 deploy-site 上站(只补缺音频、不跑 gate-all,陈旧音频不拦发布);别本地重录(慢的大头)。
+    if (!noAudio) {
+      audioTouched = true;
+      for (const f of ["audio.mp3", "audio.meta.json"]) { const p = join(dir, f); if (existsSync(p)) unlinkSync(p); }
+      if (!exec({}, "scripts/tts.mjs", rel)) throw new Error("音频重合成失败");
+    }
     cleanup();
     return { id, status: "refreshed" };
   } catch (e) {
@@ -123,11 +129,12 @@ const isMain = (() => {
 })();
 if (isMain) {
   const force = process.argv.includes("--force"); // 提示词语义/口味改动:styleErrs 检不出,强制重跑绕合规跳过
+  const noAudio = process.argv.includes("--no-audio"); // 只改文字、不重录音频(配音后补/另设计)
   const ids = pickIds();
-  console.log(`🔄 存量回刷(C15 新浓缩规范):${ids.length} 集${force ? "(--force 强制重跑,不看合规)" : "(已合规跳过)"};新版过不了闸门自动回滚老版,不堵发布`);
+  console.log(`🔄 存量回刷(C15 新浓缩规范):${ids.length} 集${force ? "(--force 强制重跑,不看合规)" : "(已合规跳过)"}${noAudio ? "(--no-audio 只改文字、留旧音频)" : ""};新版过不了闸门自动回滚老版,不堵发布`);
   const results = ids.map((id) => {
     console.log(`\n══════ 回刷 ${id}`);
-    const r = refreshOne(id, { force });
+    const r = refreshOne(id, { force, noAudio });
     console.log(
       r.status === "refreshed" ? `✅ ${id} 回刷成功`
       : r.status === "conformant" ? `⏩ ${id} 已按新规范,跳过(断点续跑)`
