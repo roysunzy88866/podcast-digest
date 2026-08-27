@@ -95,7 +95,11 @@ echo "public/podcast-cover.png ✔"
 #      build-feed ROOT 脚本锚定仓库根,从 site/ 跑仍正确读 samples/ + data/episodes。
 node ../scripts/build-feed.mjs --out public/feed.xml
 # feed 短缓存(drift #29:原遗留 s-maxage=7d 让新集最多 7 天才对播客 App 可见)。C26:JSON Feed 同缓存口径。
-printf '/feed.xml\n  Cache-Control: public, max-age=3600, must-revalidate\n/feed.json\n  Cache-Control: public, max-age=3600, must-revalidate\n' > public/_headers
+# 字体缓存(2026-08-27 用户:「每次刷新都从系统字体变我的字体、能不能缓存」):CF Pages 默认只给 4h+must-revalidate,
+#   过期后每次刷新回源核对 → 配合 font-display 更闪。给字体 7 天缓存少重下(配 optional 刷新不再闪)。
+#   ⚠️ 不用 immutable/超长缓存:字体是每次部署按当前用字 subset-font 重切的(内容会变),固定名+immutable 会让
+#     返回用户长期拿旧 subset、新标题生字掉进苹方兜底;7 天到期靠 ETag 重取新 subset,缺字期间优雅回落不裂字。
+printf '/feed.xml\n  Cache-Control: public, max-age=3600, must-revalidate\n/feed.json\n  Cache-Control: public, max-age=3600, must-revalidate\n/static/fonts/*\n  Cache-Control: public, max-age=604800\n' > public/_headers
 # 部署前硬断言:feed 真在产物里且有 enclosure(Scenario 5 回归防护,防再次漏 feed 静默上线)。
 feed_n=$(grep -c '<enclosure' public/feed.xml || true)
 echo "public/feed.xml enclosure=$feed_n(public/audio mp3=$(ls public/audio/*.mp3 2>/dev/null | wc -l | tr -d ' '))"

@@ -197,6 +197,18 @@ patchFile(
   "SEO:canonical + JSON-LD + og:type=article(Head)",
 );
 
+// ── 自持普惠体 preload(2026-08-27 用户「每次刷新都从系统字体变我的字体」)──
+// 配 custom.scss 的 font-display:optional:字体在缓存里就直接用、零闪;首访冷缓存时 preload 提前开下,
+// 尽量在 optional 的 block 期内就位。crossOrigin 必带——字体一律 CORS 取,不带则 preload 与实取不匹配、白下。
+// 锚 = 上游 coreStylesheet preload 行(标准 Quartz,非本项目注入),replaceOnce 锚变即硬报错、不静默漂移。
+patchFile(
+  resolve(SITE, "quartz/components/Head.tsx"),
+  `        {coreStylesheet && <link rel="preload" href={coreStylesheet} as="style" />}`,
+  `        <link rel="preload" href="/static/fonts/AlibabaPuHuiTi-min.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        {coreStylesheet && <link rel="preload" href={coreStylesheet} as="style" />}`,
+  "自持普惠体 preload(Head)",
+);
+
 // ── C11 ⑥ 注入自定义样式 + 自托管普惠体子集 ──
 copyFileSync(resolve(ROOT, "assets/styles/custom.scss"), resolve(SITE, "quartz/styles/custom.scss"));
 console.log("  ✔ custom.scss → site/quartz/styles/");

@@ -42,7 +42,10 @@
   font-family: "AlibabaPuHuiTi";
   font-weight: 100 900;
   font-style: normal;
-  font-display: swap;
+  /* optional(2026-08-27 用户拍板):字体在缓存里就直接用、零闪;不在(首访冷缓存)就这次先用兜底、
+     不中途 swap,下次自然用普惠体。治「每次刷新系统字体→普惠体」的 FOUT——swap 每次加载都会闪,
+     换 optional 后配 1 年 immutable 缓存(_headers)刷新永不再闪。见 assets/deploy/_headers。 */
+  font-display: optional;
   src: url("/static/fonts/AlibabaPuHuiTi-min.woff2") format("woff2");
 }
 
