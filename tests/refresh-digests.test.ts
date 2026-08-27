@@ -164,4 +164,13 @@ describe("refreshOne · 闸门一分不降:败 → 回滚老版,老音频不动"
     expect(calls.length).toBe(1); // 第一步就停
     rmSync(base, { recursive: true, force: true });
   });
+  it("★★★ [GLM028-2] --no-audio 下失败回滚也不误删旧音频(audioTouched 恒 false,回滚不碰音频)", () => {
+    const { base, id, dir } = makeEpisode(legacyDigest);
+    const { exec } = recorder("gate-facts.mjs"); // 事实层失败(在音频块之前)
+    const r = refreshOne(id, { episodesDir: base, exec, noAudio: true });
+    expect(r.status).toBe("rolledback");
+    expect(JSON.parse(readFileSync(join(dir, "digest.json"), "utf8"))).toEqual(legacyDigest); // digest 还原
+    expect(readFileSync(join(dir, "audio.mp3"), "utf8")).toBe("OLDAUDIO"); // 旧音频原样,没被回滚误删
+    rmSync(base, { recursive: true, force: true });
+  });
 });
