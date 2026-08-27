@@ -1,0 +1,4466 @@
+[
+ {
+  "seg": 0,
+  "start": 0.08,
+  "end": 4.24,
+  "speaker": "Andrew",
+  "en": "But ultimately, your goal should be that agents are doing a lot of this work in the background.",
+  "zh": "但最终，你的目标应该是让智能体在后台做很多工作。"
+ },
+ {
+  "seg": 1,
+  "start": 4.32,
+  "end": 8,
+  "speaker": "Andrew",
+  "en": "And so the Tesla agent is built to sort of almost get you to stop using it, right?",
+  "zh": "所以 Tesla 智能体被构建为几乎让你停止使用它，对吧？"
+ },
+ {
+  "seg": 2,
+  "start": 8.08,
+  "end": 15.04,
+  "speaker": "Andrew",
+  "en": "So you work with it, and at the end it'll sort of say, hey, I could set some of these up as recurring actions, I could create a CI CD check for this.",
+  "zh": "所以你与它一起工作，最后它大概会说，嘿，我可以把这些设置成重复性操作，我可以为此创建一个 CI CD 检查。"
+ },
+ {
+  "seg": 3,
+  "start": 15.2,
+  "end": 23.52,
+  "speaker": "Andrew",
+  "en": "So in that regard, you might see that the Tesla agent is actually pushing you a little bit more towards this idea of loop engineering and automating its own work in addition to your coding agent work.",
+  "zh": "所以在那方面，你可能会看到 Tesla 智能体实际上是在把你稍微推向循环工程这个想法，除了你的编码智能体工作外，它还能自动化它自己的工作。"
+ },
+ {
+  "seg": 4,
+  "start": 23.68,
+  "end": 28.08,
+  "speaker": "Andrew",
+  "en": "And at some point you might say, like, wow, 40-50% of our PRs don't even have a human looking at it.",
+  "zh": "在某个时候你可能会说，比如，哇，我们要 40-50% 的 PR 甚至没有人类查看它。"
+ },
+ {
+  "seg": 5,
+  "start": 28.16,
+  "end": 30.72,
+  "speaker": "Andrew",
+  "en": "We never had to do a big initiative to make that happen.",
+  "zh": "我们从未不得不做一项大型倡议来让那发生。"
+ },
+ {
+  "seg": 6,
+  "start": 30.88,
+  "end": 36.4,
+  "speaker": "Andrew",
+  "en": "We got started, we focused on doing what we were doing, and over time it could just delegate more to the agent.",
+  "zh": "我们开始了，我们专注于做我们正在做的事，随着时间的推移，它可以只是将更多工作委派给智能体。"
+ },
+ {
+  "seg": 7,
+  "start": 37.28,
+  "end": 43.92,
+  "speaker": "SPEAKER_02",
+  "en": "The AI Native Dev is a podcast with developers and engineering leads at the cutting edge of AI and agentic coding.",
+  "zh": "AI Native Dev 是一个播客，嘉宾包括处于 AI 和智能体编码前沿的开发者和工程负责人。"
+ },
+ {
+  "seg": 8,
+  "start": 44.08,
+  "end": 53.92,
+  "speaker": "SPEAKER_02",
+  "en": "Join your hosts, Guy Fajani, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions we're facing developers today.",
+  "zh": "加入你的主持人 Guy Fajani，并每周见见 Simon Maple，在我们与 AI 领域最令人兴奋的声音聊天时，解决我们今天开发者面临的最大问题。"
+ },
+ {
+  "seg": 9,
+  "start": 54.88,
+  "end": 57.04,
+  "speaker": "SPEAKER_02",
+  "en": "This is the AI Native Dev.",
+  "zh": "这就是 AI Native Dev。"
+ },
+ {
+  "seg": 10,
+  "start": 60.32,
+  "end": 63.76,
+  "speaker": "SPEAKER_02",
+  "en": "We just wrapped up two amazing days at AI DevCon in London.",
+  "zh": "我们刚刚在伦敦的 AI DevCon 结束了两天精彩的日子。"
+ },
+ {
+  "seg": 11,
+  "start": 64,
+  "end": 68.48,
+  "speaker": "Guy Fajani",
+  "en": "But the great thing is that we get to do it all over again in New York City this November.",
+  "zh": "但最棒的是，我们要在今年的十一月于纽约市把这一切再做一遍。"
+ },
+ {
+  "seg": 12,
+  "start": 68.88,
+  "end": 69.92,
+  "speaker": "SPEAKER_02",
+  "en": "You're absolutely right.",
+  "zh": "你是绝对正确的。"
+ },
+ {
+  "seg": 13,
+  "start": 70.08,
+  "end": 78.96,
+  "speaker": "SPEAKER_02",
+  "en": "We're gonna be back in the city that never sleeps on November 3rd and 4th for more amazing sessions, really engaging, hands-on workshops, and much more.",
+  "zh": "我们将在 11 月 3 日和 4 日回到这个不夜城，参加更多精彩的会议，真正引人入胜的实践研讨会，以及更多内容。"
+ },
+ {
+  "seg": 14,
+  "start": 79.2,
+  "end": 84.96,
+  "speaker": "Guy Fajani",
+  "en": "Yep, all that great networking, partying, eating and drinking that you've come to expect from AIDEVCON.",
+  "zh": "是的，所有那些你们从 AIDEVCON 期待的精彩社交、派对、吃喝。"
+ },
+ {
+  "seg": 15,
+  "start": 85.52,
+  "end": 92.24,
+  "speaker": "Guy Fajani",
+  "en": "We think we have one of the best hallway tracks in the business, and it's the perfect compliment to our incredible speakers and presenters.",
+  "zh": "我们认为我们有业内最好的走廊交流之一，这是我们令人难以置信的演讲者和演讲者的完美补充。"
+ },
+ {
+  "seg": 16,
+  "start": 92.88,
+  "end": 98.32,
+  "speaker": "SPEAKER_02",
+  "en": "We'll both be in person and virtual with live-streamed access to all mainstage keynotes and talks.",
+  "zh": "我们将同时提供现场和虚拟参与，可以直播访问所有主旨演讲和讲座。"
+ },
+ {
+  "seg": 17,
+  "start": 98.64,
+  "end": 104.4,
+  "speaker": "Guy Fajani",
+  "en": "Sign up right now for our Super Blind Bird ticket for just $100, only available for a limited time.",
+  "zh": "现在就注册我们的 Super Blind Bird 票，只需 100 美元，仅限时有货。"
+ },
+ {
+  "seg": 18,
+  "start": 104.72,
+  "end": 107.76,
+  "speaker": "SPEAKER_02",
+  "en": "We're really excited to be headed back to the Big Apple.",
+  "zh": "我们真的很兴奋能回到大苹果城。"
+ },
+ {
+  "seg": 19,
+  "start": 108,
+  "end": 109.28,
+  "speaker": "SPEAKER_02",
+  "en": "We hope to see you all there.",
+  "zh": "我们希望在那里见到你们所有人。"
+ },
+ {
+  "seg": 20,
+  "start": 114.56,
+  "end": 117.52,
+  "speaker": "Simon Maple",
+  "en": "Hello everyone, welcome back to the AI Native Dev.",
+  "zh": "大家好，欢迎回到 AI Native Dev。"
+ },
+ {
+  "seg": 21,
+  "start": 117.92,
+  "end": 123.76,
+  "speaker": "Simon Maple",
+  "en": "Today I am excited to announce that we're launching a new product from TESL, the TESL agent.",
+  "zh": "今天我很兴奋地宣布我们正在从 TESL 发布一个新产品，TESL 智能体。"
+ },
+ {
+  "seg": 22,
+  "start": 124.08,
+  "end": 132.88,
+  "speaker": "Simon Maple",
+  "en": "We're gonna spend a good portion of this podcast talking about what this agent is and what it is, but don't worry, we're not just gonna sort of talk about our products over here.",
+  "zh": "我们将花这次播客的很大一部分来谈论这个智能体是什么以及它是什么，但别担心，我们不会只在这里谈论我们的产品。"
+ },
+ {
+  "seg": 23,
+  "start": 132.96,
+  "end": 138.8,
+  "speaker": "Simon Maple",
+  "en": "We'll also talk about loop engineering and what that is and why we think you know it's a thing that you should know about as well.",
+  "zh": "我们还会谈到循环工程，那是什么，以及为什么我们认为你知道这也是你应该知道的一件事。"
+ },
+ {
+  "seg": 24,
+  "start": 138.88,
+  "end": 149.12,
+  "speaker": "Simon Maple",
+  "en": "Uh we'll talk about the the importance of ease of use and UX in DevTools, even in the AI era, uh, and maybe some learnings from a company perspective about building a product in this era.",
+  "zh": "嗯，我们会谈到易用性和开发工具中 UX 的重要性，即使在 AI 时代，嗯，也许还有一些从公司角度来看关于在这个时代构建产品的经验教训。"
+ },
+ {
+  "seg": 25,
+  "start": 149.36,
+  "end": 153.12,
+  "speaker": "Simon Maple",
+  "en": "Um so to do all of that, we have Drew, our head of product here from TESL.",
+  "zh": "嗯，为了做到这一切，我们有 Drew，我们来自 TESL 的产品负责人。"
+ },
+ {
+  "seg": 26,
+  "start": 153.6,
+  "end": 154.8,
+  "speaker": "Simon Maple",
+  "en": "Thanks for joining us here, Andrew.",
+  "zh": "谢谢你加入我们，Andrew。"
+ },
+ {
+  "seg": 27,
+  "start": 155.28,
+  "end": 155.68,
+  "speaker": "Andrew",
+  "en": "Glad to be here.",
+  "zh": "很高兴来这里。"
+ },
+ {
+  "seg": 28,
+  "start": 155.76,
+  "end": 157.44,
+  "speaker": "Andrew",
+  "en": "Finally, my MOI onto the podcast.",
+  "zh": "终于，我的 MOI 登上了播客。"
+ },
+ {
+  "seg": 29,
+  "start": 157.68,
+  "end": 159.28,
+  "speaker": "Andrew",
+  "en": "It's been only a year and a half.",
+  "zh": "这已经只有一年半了。"
+ },
+ {
+  "seg": 30,
+  "start": 160.08,
+  "end": 161.68,
+  "speaker": "Simon Maple",
+  "en": "Well, you know, don't take it personally.",
+  "zh": "好吧，你知道，别往心里去。"
+ },
+ {
+  "seg": 31,
+  "start": 162.56,
+  "end": 163.68,
+  "speaker": "Andrew",
+  "en": "See how long it is till the next one.",
+  "zh": "看离下一次要多久。"
+ },
+ {
+  "seg": 32,
+  "start": 164.16,
+  "end": 164.48,
+  "speaker": "Simon Maple",
+  "en": "We'll see.",
+  "zh": "我们会看到的。"
+ },
+ {
+  "seg": 33,
+  "start": 165.76,
+  "end": 167.04,
+  "speaker": "Simon Maple",
+  "en": "We're uh we're inspecting.",
+  "zh": "我们正在，嗯，我们在检查。"
+ },
+ {
+  "seg": 34,
+  "start": 167.36,
+  "end": 168,
+  "speaker": "Andrew",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 35,
+  "start": 168.32,
+  "end": 169.04,
+  "speaker": "Simon Maple",
+  "en": "Performance review.",
+  "zh": "绩效考核。"
+ },
+ {
+  "seg": 36,
+  "start": 169.36,
+  "end": 174.16,
+  "speaker": "Simon Maple",
+  "en": "So Drew, uh tell us a little bit about what this Tesla agent is and you know, what is it that we've just launched?",
+  "zh": "所以 Drew，嗯，告诉我们一点关于这个 Tesla 智能体是什么，你知道，我们刚刚发布的是什么？"
+ },
+ {
+  "seg": 37,
+  "start": 174.56,
+  "end": 174.8,
+  "speaker": "Andrew",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 38,
+  "start": 175.04,
+  "end": 177.28,
+  "speaker": "Andrew",
+  "en": "So there's sort of two pieces to it.",
+  "zh": "所以它有两个部分。"
+ },
+ {
+  "seg": 39,
+  "start": 177.52,
+  "end": 183.2,
+  "speaker": "Andrew",
+  "en": "First is that the Tesla agent is a new agentic interface to all of Tesla's tools.",
+  "zh": "首先是 Tesla 智能体是所有 Tesla 工具的一个新的智能体界面。"
+ },
+ {
+  "seg": 40,
+  "start": 183.44,
+  "end": 189.76,
+  "speaker": "Andrew",
+  "en": "So everything Tesla does today, helping you scale skills, make them sort of work organization-wide.",
+  "zh": "所以 Tesla 今天做的所有事情，帮助你扩展技能，使它们在整个组织范围内工作。"
+ },
+ {
+  "seg": 41,
+  "start": 189.92,
+  "end": 196.8,
+  "speaker": "Andrew",
+  "en": "Tesla agent is just going to help you set that up, put it together in more flexible, intelligent workflows, sort of connecting the tools.",
+  "zh": "Tesla 智能体只会帮助你设置它，将它们放在更灵活、智能的工作流中，大概是连接这些工具。"
+ },
+ {
+  "seg": 42,
+  "start": 197.36,
+  "end": 203.76,
+  "speaker": "Andrew",
+  "en": "The second, the Tesla agent is sort of a first step towards a broader vision of loop engineering or factory building.",
+  "zh": "第二，Tesla 智能体是循环工程或工厂构建更广泛愿景的第一步。"
+ },
+ {
+  "seg": 43,
+  "start": 203.92,
+  "end": 208.24,
+  "speaker": "Andrew",
+  "en": "So the idea is that the Tesla agent is a factory-building agent.",
+  "zh": "所以这个想法是 Tesla 智能体是一个工厂构建智能体。"
+ },
+ {
+  "seg": 44,
+  "start": 208.4,
+  "end": 220.96,
+  "speaker": "Andrew",
+  "en": "So it helps you go from scaling skills across your org to building your software factory piece by piece, setting up these loops that will talk about how you engineer them to make agents more effective over time.",
+  "zh": "所以它帮助你从在整个组织内扩展技能转变为一点一点地构建你的软件工厂，设置这些循环，我们将谈论你如何设计它们以使智能体随时间推移更有效。"
+ },
+ {
+  "seg": 45,
+  "start": 221.04,
+  "end": 221.76,
+  "speaker": "Simon Maple",
+  "en": "Aaron Powell Very cool.",
+  "zh": "Aaron Powell 非常酷。"
+ },
+ {
+  "seg": 46,
+  "start": 222,
+  "end": 226.48,
+  "speaker": "Simon Maple",
+  "en": "And this is um I guess you know you'd still run it with sort of the Tesla agent command in the terminal.",
+  "zh": "这是，嗯，我想你知道，你仍然可以在终端中使用 Tesla agent 命令来运行它。"
+ },
+ {
+  "seg": 47,
+  "start": 226.56,
+  "end": 232.8,
+  "speaker": "Simon Maple",
+  "en": "It sort of has a little bit of a kind of you know clawed codex, you know, sort of similar to uh feel for it.",
+  "zh": "它有一点那种你知道的带爪的 Codex，你知道，有点类似于那种……感觉。"
+ },
+ {
+  "seg": 48,
+  "start": 232.88,
+  "end": 237.04,
+  "speaker": "Simon Maple",
+  "en": "But you know, while you can ask it to write code, we don't recommend you do, right?",
+  "zh": "但你知道，虽然你可以让它写代码，但我们不建议你这么做，对吧？"
+ },
+ {
+  "seg": 49,
+  "start": 237.2,
+  "end": 239.76,
+  "speaker": "Simon Maple",
+  "en": "Like it is focused on sort of, I guess.",
+  "zh": "比如它专注于某种，我想。"
+ },
+ {
+  "seg": 50,
+  "start": 240.32,
+  "end": 248.16,
+  "speaker": "Andrew",
+  "en": "Pinning agents down these days is always so hard because at the end of the day, you know, you can ask the Tesla agent to write a poem for you, and it will, but I wouldn't recommend it.",
+  "zh": "如今界定智能体总是很难，因为归根结底，你知道，你可以要求 Tesla 智能体为你写一首诗，它也会写，但我不建议这样做。"
+ },
+ {
+  "seg": 51,
+  "start": 248.24,
+  "end": 249.36,
+  "speaker": "Andrew",
+  "en": "It's certainly not built for that.",
+  "zh": "它当然不是为此而构建的。"
+ },
+ {
+  "seg": 52,
+  "start": 249.68,
+  "end": 250.48,
+  "speaker": "Simon Maple",
+  "en": "It's not part of our evaluation.",
+  "zh": "它不是我们评估的一部分。"
+ },
+ {
+  "seg": 53,
+  "start": 250.64,
+  "end": 251.84,
+  "speaker": "Andrew",
+  "en": "No, it's not part of our evals.",
+  "zh": "不，它不在我们的评估范围内。"
+ },
+ {
+  "seg": 54,
+  "start": 252.96,
+  "end": 256.16,
+  "speaker": "Andrew",
+  "en": "So ultimately, though, yeah, using the Tesla agent will feel quite familiar.",
+  "zh": "所以最终，是的，使用 Tesla 智能体会感觉很熟悉。"
+ },
+ {
+  "seg": 55,
+  "start": 256.32,
+  "end": 259.2,
+  "speaker": "Andrew",
+  "en": "It's uh terminal-based CLI agent.",
+  "zh": "它是一个基于终端的 CLI 智能体。"
+ },
+ {
+  "seg": 56,
+  "start": 259.44,
+  "end": 263.52,
+  "speaker": "Andrew",
+  "en": "Uh you work with it just feels like clawed code in that sense, right?",
+  "zh": "你使用它的感觉就像 clawed code 一样，是吧？"
+ },
+ {
+  "seg": 57,
+  "start": 263.6,
+  "end": 269.44,
+  "speaker": "Andrew",
+  "en": "Like you just type some commands, it'll pick the right skills and actions to take uh on top of that.",
+  "zh": "就像你只要输入一些命令，它就会选择合适的技能和行动在那之上执行。"
+ },
+ {
+  "seg": 58,
+  "start": 269.76,
+  "end": 274.4,
+  "speaker": "Andrew",
+  "en": "But in addition to that, we've also designed the Tesla agent to be very automation friendly.",
+  "zh": "但除此之外，我们还将 Tesla 智能体设计得非常易于自动化。"
+ },
+ {
+  "seg": 59,
+  "start": 274.56,
+  "end": 286.64,
+  "speaker": "Andrew",
+  "en": "So, you know, as we'll get into with the idea of loop engineering, with much of the work that you put into making agents successful and building up a software factory, you kind of want to get out of these interactive sessions, right?",
+  "zh": "所以，你知道，正如我们将深入探讨的循环工程理念，随着你为了让智能体成功并建立软件工厂而投入的大量工作，你有点想要摆脱这些交互式会话，对吧？"
+ },
+ {
+  "seg": 60,
+  "start": 286.72,
+  "end": 295.84,
+  "speaker": "Andrew",
+  "en": "Those are sort of a transitionary period where you are figuring out what works, figuring out where you can delegate tasks and sort of what are the workflows you want.",
+  "zh": "那些只是一个过渡时期，你在那里弄清楚什么有效，弄清楚你可以将任务委派到哪里，以及大致你想要的工作流是什么。"
+ },
+ {
+  "seg": 61,
+  "start": 296,
+  "end": 300.16,
+  "speaker": "Andrew",
+  "en": "But ultimately your goal should be that agents are doing a lot of this work in the background.",
+  "zh": "但最终你的目标应该是智能体在后台做大量的这些工作。"
+ },
+ {
+  "seg": 62,
+  "start": 300.24,
+  "end": 304.4,
+  "speaker": "Andrew",
+  "en": "And so the Tesla agent is built to sort of almost get you to stop using it, right?",
+  "zh": "因此 Tesla 智能体的构建在某种程度上几乎是为了让你停止使用它，对吧？"
+ },
+ {
+  "seg": 63,
+  "start": 304.48,
+  "end": 312.16,
+  "speaker": "Andrew",
+  "en": "So you you work with it, and at the end it'll sort of say, hey, I could set some of these up as recurring actions, I could create a CI CD check for this.",
+  "zh": "所以你使用它，最后它会大概说，嘿，我可以把其中一些设置重复性动作，我可以为此创建一个 CI CD 检查。"
+ },
+ {
+  "seg": 64,
+  "start": 312.32,
+  "end": 322,
+  "speaker": "Andrew",
+  "en": "Um in that regard, you might see that the Tesla agent is actually pushing you a little bit more towards this idea of loop engineering and automating its own work in addition to your coding agent work.",
+  "zh": "在这方面，你可能会看到 Tesla 智能体实际上在把你推向循环工程这个理念一点，除了你的编码智能体工作外，还自动化它自己的工作。"
+ },
+ {
+  "seg": 65,
+  "start": 322.24,
+  "end": 322.32,
+  "speaker": "Simon Maple",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 66,
+  "start": 322.48,
+  "end": 326.96,
+  "speaker": "Simon Maple",
+  "en": "Okay, so we're gonna dig a lot uh into that and we talk about sort of factory building, factory manager.",
+  "zh": "好的，所以我们将会深入挖掘这一点，我们要谈谈工厂构建、工厂经理。"
+ },
+ {
+  "seg": 67,
+  "start": 327.12,
+  "end": 328.96,
+  "speaker": "Simon Maple",
+  "en": "Let's start though, just from a concrete use case.",
+  "zh": "不过让我们从一个具体的用例开始。"
+ },
+ {
+  "seg": 68,
+  "start": 329.2,
+  "end": 330.8,
+  "speaker": "Simon Maple",
+  "en": "So, you know, I picked up the agent.",
+  "zh": "所以，你知道，我拿起了这个智能体。"
+ },
+ {
+  "seg": 69,
+  "start": 330.88,
+  "end": 332.72,
+  "speaker": "Simon Maple",
+  "en": "You know, what are some examples of things you can do?",
+  "zh": "你知道，你能做些什么的例子有哪些？"
+ },
+ {
+  "seg": 70,
+  "start": 332.88,
+  "end": 334.8,
+  "speaker": "Simon Maple",
+  "en": "Maybe walk us through a bit of a storyline here.",
+  "zh": "也许在这里给我们讲一个故事线。"
+ },
+ {
+  "seg": 71,
+  "start": 335.12,
+  "end": 335.36,
+  "speaker": "Andrew",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 72,
+  "start": 335.36,
+  "end": 337.2,
+  "speaker": "Andrew",
+  "en": "I'll give a couple just of how it works.",
+  "zh": "我会举几个关于它如何工作的例子。"
+ },
+ {
+  "seg": 73,
+  "start": 337.36,
+  "end": 348.56,
+  "speaker": "Andrew",
+  "en": "So probably the one I'm most excited about that we uh are using a lot here at TESL is using a TESIL agent to set up your agentic code review harness.",
+  "zh": "所以可能最让我兴奋的一个，我们在 TESL 这里经常用的，是使用 TESIL 智能体来建立你的智能体代码审查框架。"
+ },
+ {
+  "seg": 74,
+  "start": 348.88,
+  "end": 372.16,
+  "speaker": "Andrew",
+  "en": "So maybe what I'll do is quickly walk through how you can use the TESIL agent to create an agentic code review, uh, agree with your team on a risk policy for when humans need to review it, uh, and then ultimately set up a recurring loop that will optimize that code review over time so that you can just spend time reviewing code, shipping features, and know that everything's gonna get better as you go.",
+  "zh": "所以也许我会做的是快速过一遍如何使用 TESIL 智能体创建一个智能体代码审查，与你的团队就在何时需要人工审查的风险政策达成一致，然后最终建立一个重复循环，该循环会随时间优化该代码审查，这样你就可以只花时间审查代码、发布功能，并知道一切都会随着进行变得更好。"
+ },
+ {
+  "seg": 75,
+  "start": 372.64,
+  "end": 378.96,
+  "speaker": "Andrew",
+  "en": "And so there's a few components of this that I think are pretty illustrative of uh how the Tesla agent works.",
+  "zh": "这里有几个组件，我认为它们很好地说明了 Tesla 智能体是如何工作的。"
+ },
+ {
+  "seg": 76,
+  "start": 379.12,
+  "end": 385.76,
+  "speaker": "Andrew",
+  "en": "So the first, you'd come in and just type something like setup agent at code review, or I want to spend less time reviewing code.",
+  "zh": "首先，你会进来并输入类似 setup agent at code review，或者我想花更少的时间审查代码。"
+ },
+ {
+  "seg": 77,
+  "start": 385.92,
+  "end": 392.08,
+  "speaker": "Andrew",
+  "en": "Uh and the Tesla agent is gonna start by reviewing and creating evidence-backed findings.",
+  "zh": "然后 Tesla 智能体将开始审查并创建有证据支持的发现。"
+ },
+ {
+  "seg": 78,
+  "start": 392.24,
+  "end": 406.48,
+  "speaker": "Andrew",
+  "en": "So the Tesla agent is trained or instructed to look through all of your PRs, look through all of your issues in your issue tracker, uh, and then also to look through coding agent session logs that it has access to.",
+  "zh": "所以 Tesla 智能体经过训练或被指示去查看你所有的 PR，查看你问题跟踪器中的所有问题，然后还要查看它可以访问的编码智能体会话日志。"
+ },
+ {
+  "seg": 79,
+  "start": 406.64,
+  "end": 413.92,
+  "speaker": "Andrew",
+  "en": "Those can be either local, or if you've been using Tesla for a while and you've been sort of uploading those logs, we can look through those.",
+  "zh": "那些可以是本地的，或者如果你使用 Tesla 已经有一段时间并且一直在上传那些日志，我们可以查看那些。"
+ },
+ {
+  "seg": 80,
+  "start": 414.16,
+  "end": 414.32,
+  "speaker": "Andrew",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 81,
+  "start": 414.72,
+  "end": 417.2,
+  "speaker": "Simon Maple",
+  "en": "We'll try to find latent knowledge that already exists in your code.",
+  "zh": "我们会尝试寻找你的代码中已经存在的潜在知识。"
+ },
+ {
+  "seg": 82,
+  "start": 417.52,
+  "end": 418.4,
+  "speaker": "Andrew",
+  "en": "Exactly, exactly.",
+  "zh": "没错，没错。"
+ },
+ {
+  "seg": 83,
+  "start": 418.72,
+  "end": 421.52,
+  "speaker": "Andrew",
+  "en": "So it's the kinds of information that you might want to review against.",
+  "zh": "所以这是你可能想要用来审查的那类信息。"
+ },
+ {
+  "seg": 84,
+  "start": 421.6,
+  "end": 432.56,
+  "speaker": "Andrew",
+  "en": "So it's looking for things like what is your style guide, what are common failure cases that agents might have, what are comments that your team seems to provide frequently in code review.",
+  "zh": "所以它在寻找诸如你的风格指南是什么，智能体可能有什么样的常见失败案例，以及你的团队似乎在代码审查中经常提供的评论之类的东西。"
+ },
+ {
+  "seg": 85,
+  "start": 432.8,
+  "end": 436.8,
+  "speaker": "Andrew",
+  "en": "And then once it's gathered all this information, uh first it will tell you what it's found.",
+  "zh": "然后一旦它收集了所有这些信息，首先它会告诉你它发现了什么。"
+ },
+ {
+  "seg": 86,
+  "start": 437.2,
+  "end": 442,
+  "speaker": "Andrew",
+  "en": "That information is uh, as is often the case, what's useful for agents is also useful for humans.",
+  "zh": "那些信息是，通常情况下，对智能体有用的东西对人类也有用。"
+ },
+ {
+  "seg": 87,
+  "start": 442.24,
+  "end": 442.4,
+  "speaker": "Andrew",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 88,
+  "start": 442.48,
+  "end": 447.36,
+  "speaker": "Andrew",
+  "en": "So writing that down, it gives you a chance to correct anything that may be uh off base there.",
+  "zh": "所以把它写下来，它给你一个机会去纠正任何可能在那里离谱的东西。"
+ },
+ {
+  "seg": 89,
+  "start": 447.68,
+  "end": 451.76,
+  "speaker": "Andrew",
+  "en": "And then what it will do is it will walk you through a few concrete components.",
+  "zh": "然后它会做的是它会引导你了解几个具体的组件。"
+ },
+ {
+  "seg": 90,
+  "start": 451.92,
+  "end": 457.92,
+  "speaker": "Andrew",
+  "en": "So the first is that it will set up a general skill-based agentic PR code review.",
+  "zh": "首先它会建立一个通用的基于技能的智能体 PR 代码审查。"
+ },
+ {
+  "seg": 91,
+  "start": 458.16,
+  "end": 466.32,
+  "speaker": "Andrew",
+  "en": "And skill-based here is kind of interesting because it's uh unlike a lot of tools that are just sort of one click, you put it in production, you forget about it.",
+  "zh": "这里的基于技能有点意思，因为它不像很多工具那样只是一键，你把它投入生产，就忘了它。"
+ },
+ {
+  "seg": 92,
+  "start": 466.56,
+  "end": 473.36,
+  "speaker": "Andrew",
+  "en": "One of the core principles of TESL agent and of TESL generally is that we think people are going to want to own and build their own factories, right?",
+  "zh": "TESL 智能体和 TESL 的核心原则之一是我们认为人们将想要拥有和建立他们自己的工厂，对吧？"
+ },
+ {
+  "seg": 93,
+  "start": 473.44,
+  "end": 480.08,
+  "speaker": "Andrew",
+  "en": "That this is the kind of thing that will be part of your software engineering discipline, not something you buy off the rack and just take as given.",
+  "zh": "这将成为你软件工程学科的一部分，而不是你从架子上买来并视为理所当然的东西。"
+ },
+ {
+  "seg": 94,
+  "start": 480.24,
+  "end": 487.68,
+  "speaker": "Andrew",
+  "en": "And so for code review, we give you, uh we'll help create a skill that we think maps to your code review best practices.",
+  "zh": "所以对于代码审查，我们给你，我们会帮助创建我们认为映射到你代码审查最佳实践的技能。"
+ },
+ {
+  "seg": 95,
+  "start": 488,
+  "end": 489.2,
+  "speaker": "Andrew",
+  "en": "But it's a skill that you own.",
+  "zh": "但这是一个你拥有的技能。"
+ },
+ {
+  "seg": 96,
+  "start": 489.28,
+  "end": 494.8,
+  "speaker": "Andrew",
+  "en": "So you can update it, you can augment it, you can share it with other people, put it in other parts of your workflow.",
+  "zh": "所以你可以更新它，你可以增强它，你可以与其他人分享，把它放在你工作流的其他部分。"
+ },
+ {
+  "seg": 97,
+  "start": 495.04,
+  "end": 497.68,
+  "speaker": "Andrew",
+  "en": "So we'll set that up, and that kind of immediately gets you going.",
+  "zh": "所以我们会设置那个，这让你立即开始。"
+ },
+ {
+  "seg": 98,
+  "start": 497.84,
+  "end": 501.52,
+  "speaker": "Andrew",
+  "en": "Now every PR that goes up, uh, you'll get a gentic review.",
+  "zh": "现在每次有 PR 发布，你会得到一个 gentic 审查。"
+ },
+ {
+  "seg": 99,
+  "start": 501.68,
+  "end": 510.56,
+  "speaker": "Andrew",
+  "en": "So once it's created that skill, the next thing that it will do is set up an actual automated flow so that when a PR goes up, uh an agent with that skill will be run.",
+  "zh": "所以一旦它创建了那个技能，它接下来要做的是建立一个实际的自动化流程，这样当 PR 发布时，一个拥有该技能的智能体将被运行。"
+ },
+ {
+  "seg": 100,
+  "start": 510.72,
+  "end": 527.92,
+  "speaker": "Andrew",
+  "en": "Uh so there's a few things that we, the Tesla agent and Tesla, can help you with there, which is we provide basic primitives for running an agent through CI, for having it leave inline comments on a GitHub flow, just the sort of niceties that every team ends up building to get a flow that actually works for them.",
+  "zh": "嗯，所以我们，Tesla 智能体和 Tesla，可以在那里帮您处理几件事，也就是我们提供基本原语，用于通过 CI 运行智能体，用于让它在 GitHub 工作流中留下内联评论，就是那种每个团队最终都要构建的、让工作流真正适合他们的小便利。"
+ },
+ {
+  "seg": 101,
+  "start": 528.16,
+  "end": 531.04,
+  "speaker": "Andrew",
+  "en": "But TESL is built to be modular by design.",
+  "zh": "但 TESL 的设计构建就是模块化的。"
+ },
+ {
+  "seg": 102,
+  "start": 531.2,
+  "end": 536.32,
+  "speaker": "Andrew",
+  "en": "So if there's things you already have or things you already like, the Tesla agent is fine working with those as well.",
+  "zh": "所以如果您已经有东西或者您已经有喜欢的东西，Tesla 智能体也可以很好地与它们协作。"
+ },
+ {
+  "seg": 103,
+  "start": 536.4,
+  "end": 538.96,
+  "speaker": "Andrew",
+  "en": "As part of setup, it will try to learn your preferences.",
+  "zh": "作为设置的一部分，它会尝试学习您的偏好。"
+ },
+ {
+  "seg": 104,
+  "start": 539.2,
+  "end": 539.36,
+  "speaker": "Andrew",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 105,
+  "start": 539.6,
+  "end": 543.92,
+  "speaker": "Andrew",
+  "en": "And we have defaults that we think are great, but it works with whatever you you want to bring in.",
+  "zh": "我们有我们认为很棒的默认设置，但它也适用于您想引入的任何东西。"
+ },
+ {
+  "seg": 106,
+  "start": 544.16,
+  "end": 544.24,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 107,
+  "start": 544.4,
+  "end": 556.96,
+  "speaker": "Simon Maple",
+  "en": "So this already, like at this point, you've already used the Tesla agent to figure out what it should have in a review process to create a unit, a skill, a plugin to be able to uh to execute that code review.",
+  "zh": "所以在这个阶段，您已经使用了 Tesla 智能体来弄清楚在审查过程中应该具备什么，从而创建一个单元、一个技能、一个插件，以便能够……执行该代码审查。"
+ },
+ {
+  "seg": 108,
+  "start": 557.12,
+  "end": 561.84,
+  "speaker": "Simon Maple",
+  "en": "And it it is it kind of specializes a little bit in all these like repo automations or whatever other tools.",
+  "zh": "它在某种程度上有点专精于所有这些像仓库自动化或其他工具之类的东西。"
+ },
+ {
+  "seg": 109,
+  "start": 562.08,
+  "end": 562.16,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 110,
+  "start": 562.4,
+  "end": 570.24,
+  "speaker": "Simon Maple",
+  "en": "So let's say, for example, here it created a kind of a GitHub action to run that for you, or it uses our app, and we have a little app to sort of help you as I pointed out.",
+  "zh": "比方说，例如在这里它为您创建了一种 GitHub action 来为您运行它，或者它使用我们的应用程序，正如我指出的，我们有一个小应用程序来为您提供帮助。"
+ },
+ {
+  "seg": 111,
+  "start": 570.56,
+  "end": 577.84,
+  "speaker": "Simon Maple",
+  "en": "So you're already just like with a relatively simple command set up automated code review right now that is based on your historical learnings.",
+  "zh": "所以您现在已经只是用一个相对简单的命令就设置了自动化的代码审查，它是基于您的历史学习成果的。"
+ },
+ {
+  "seg": 112,
+  "start": 578.24,
+  "end": 578.72,
+  "speaker": "Andrew",
+  "en": "Yes, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 113,
+  "start": 578.8,
+  "end": 584.4,
+  "speaker": "Andrew",
+  "en": "And if you're using the Tesla default primitives, you will get a lot of nice things out of the box.",
+  "zh": "如果您使用 Tesla 的默认原语，您将获得许多开箱即用的好东西。"
+ },
+ {
+  "seg": 114,
+  "start": 584.56,
+  "end": 588.24,
+  "speaker": "Andrew",
+  "en": "So uh one will have helped you create that code review skill.",
+  "zh": "所以……一个会帮助您创建那个代码审查技能。"
+ },
+ {
+  "seg": 115,
+  "start": 588.56,
+  "end": 597.92,
+  "speaker": "Andrew",
+  "en": "We have a cloud sandbox that you can run the review from, uh, which will have log observability, so you can go in and look at the coding agent logs as it ran.",
+  "zh": "我们有一个云沙箱，您可以从那里运行审查，它将具有日志可观测性，所以您可以进入并在代码智能体运行时查看其日志。"
+ },
+ {
+  "seg": 116,
+  "start": 598.08,
+  "end": 609.12,
+  "speaker": "Andrew",
+  "en": "Uh it's also agent and model agnostic, so you can switch easily between any number of coding agents like Codex, Cloud Code, Gemini, et cetera, uh, without having to configure all of them.",
+  "zh": "它也是智能体和模型无关的，所以您可以在任何数量的代码智能体之间轻松切换，比如 Codex、Cloud Code、Gemini 等等，而无需配置所有这些。"
+ },
+ {
+  "seg": 117,
+  "start": 609.28,
+  "end": 613.28,
+  "speaker": "Andrew",
+  "en": "You just log into TESIL and then set which agent you'd like it to use.",
+  "zh": "您只需登录 TESIL，然后设置您希望它使用的智能体。"
+ },
+ {
+  "seg": 118,
+  "start": 613.6,
+  "end": 620.56,
+  "speaker": "Andrew",
+  "en": "Includes open models and open agents as well, which is great for sort of minimizing costs, which is a big one for code review because it's running all the time.",
+  "zh": "也包括开源模型和开源智能体，这对于降低成本非常好，这在代码审查中很重要，因为它一直在运行。"
+ },
+ {
+  "seg": 119,
+  "start": 620.72,
+  "end": 623.52,
+  "speaker": "Andrew",
+  "en": "It's an area that's really valuable to optimize.",
+  "zh": "这是一个非常有价值去优化的领域。"
+ },
+ {
+  "seg": 120,
+  "start": 623.6,
+  "end": 632.08,
+  "speaker": "Simon Maple",
+  "en": "Aaron Powell That's probably a point uh worth emphasizing, which is the actual review in this setup isn't happening with uh TESEL uh itself or with a Tesla agent.",
+  "zh": "那可能是值得强调的一点，也就是在这个设置中，实际的审查并不是由 TESEL 本身或由 Tesla 智能体进行的。"
+ },
+ {
+  "seg": 121,
+  "start": 632.16,
+  "end": 633.6,
+  "speaker": "Simon Maple",
+  "en": "As we said, that is not a coding agent.",
+  "zh": "正如我们所说，那不是一个代码智能体。"
+ },
+ {
+  "seg": 122,
+  "start": 633.76,
+  "end": 633.92,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 123,
+  "start": 634.08,
+  "end": 638.56,
+  "speaker": "Simon Maple",
+  "en": "It is running your agent of choice and sets you up so you can actually swap that agent of choice over time.",
+  "zh": "它运行您选择的智能体并为您设置好，以便您实际上可以随时间更换那个选择的智能体。"
+ },
+ {
+  "seg": 124,
+  "start": 638.8,
+  "end": 638.88,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 125,
+  "start": 639.2,
+  "end": 642.32,
+  "speaker": "Simon Maple",
+  "en": "And we'll talk a little bit more about how e-vales can help you guide to pick the right ones.",
+  "zh": "我们将多谈谈一点 e-vales 如何帮助指导您选择正确的智能体。"
+ },
+ {
+  "seg": 126,
+  "start": 642.64,
+  "end": 643.36,
+  "speaker": "Andrew",
+  "en": "Exactly, exactly.",
+  "zh": "没错，没错。"
+ },
+ {
+  "seg": 127,
+  "start": 643.6,
+  "end": 645.2,
+  "speaker": "Andrew",
+  "en": "So we help you get it set up.",
+  "zh": "所以我们帮助您进行设置。"
+ },
+ {
+  "seg": 128,
+  "start": 645.28,
+  "end": 649.44,
+  "speaker": "Andrew",
+  "en": "So a lot of what Tesla agent does is actually just helping you orchestrate other coding agents.",
+  "zh": "所以 Tesla 智能体所做的很多事情实际上只是帮助您编排其他代码智能体。"
+ },
+ {
+  "seg": 129,
+  "start": 649.6,
+  "end": 653.76,
+  "speaker": "Andrew",
+  "en": "So sometimes the Tesla agent orchestrates itself, which is always getting a little bit meta.",
+  "zh": "所以有时 Tesla 智能体会编排自己，这总是有点元的感觉。"
+ },
+ {
+  "seg": 130,
+  "start": 654.16,
+  "end": 664.16,
+  "speaker": "Andrew",
+  "en": "Um, but once you have that uh generic code review set up, the next thing that the Tesla agent will help you do is set up a PR review sort of human gate.",
+  "zh": "嗯，但是一旦您设置了那个通用代码审查，Tesla 智能体帮您做的下一件事就是设置一种 PR 审查的人工闸门。"
+ },
+ {
+  "seg": 131,
+  "start": 664.48,
+  "end": 675.04,
+  "speaker": "Andrew",
+  "en": "And what this means is that we found a lot of companies when they adopt uh agentic code review, the next question they have is when do I have to review it now versus when can the agent review it?",
+  "zh": "这意味着我们发现很多公司在采用智能体代码审查时，他们的下一个问题是，我现在什么时候必须审查它，以及什么时候智能体可以审查它？"
+ },
+ {
+  "seg": 132,
+  "start": 675.12,
+  "end": 690,
+  "speaker": "Andrew",
+  "en": "Uh and they would like to, for simple PRs, for ones that they have deemed to be not risky, be able to just let a good agentic review handle it, and then they can sort of focus on the more complicated or riskier PRs with their human review time.",
+  "zh": "他们希望对于简单的 PR，对于他们认为没有风险的 PR，能够只让一个好的智能体审查来处理它，然后他们可以将他们的人工审查时间集中在更复杂或更有风险的 PR 上。"
+ },
+ {
+  "seg": 133,
+  "start": 690.24,
+  "end": 691.6,
+  "speaker": "Andrew",
+  "en": "This is a common practice.",
+  "zh": "这是一种常见的做法。"
+ },
+ {
+  "seg": 134,
+  "start": 691.68,
+  "end": 703.68,
+  "speaker": "Andrew",
+  "en": "Uh basically what we found most teams get to is you want to agree on some sort of policy across your organization with your security team, with privacy team, anyone who might uh who might be involved.",
+  "zh": "嗯，基本上我们发现大多数团队达到的状态是，您想与您的安全团队、隐私团队、任何可能参与的人员在整个组织内就某种政策达成一致。"
+ },
+ {
+  "seg": 135,
+  "start": 703.84,
+  "end": 711.28,
+  "speaker": "Andrew",
+  "en": "And then you want to set up an analysis of every PR to decide based on this policy, does it need a human or does it not?",
+  "zh": "然后您想设置对每个 PR 的分析，以根据该政策决定它是否需要人工？"
+ },
+ {
+  "seg": 136,
+  "start": 711.6,
+  "end": 711.68,
+  "speaker": "Andrew",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 137,
+  "start": 711.92,
+  "end": 716.24,
+  "speaker": "Andrew",
+  "en": "And so the TESL gives you uh, we call it the change risk verifier.",
+  "zh": "所以 TESL 给您提供……我们称之为变更风险验证器的东西。"
+ },
+ {
+  "seg": 138,
+  "start": 716.48,
+  "end": 728.16,
+  "speaker": "Andrew",
+  "en": "You can configure it with your own policy, but it also comes with a relatively uh straightforward one out of the box that you can tune between either more permissive if you'd like to do as much as possible through a genetic code review or more strict.",
+  "zh": "您可以使用自己的政策配置它，但它也开箱即用地附带了一个相对简单的政策，如果您希望尽可能通过 genetic 代码审查来做更多的事情，您可以将其调整为更宽松，或者更严格。"
+ },
+ {
+  "seg": 139,
+  "start": 728.24,
+  "end": 731.52,
+  "speaker": "Andrew",
+  "en": "So you can say, I still want humans to review most of the PRs.",
+  "zh": "所以您可以说，我仍然希望人工审查大多数 PR。"
+ },
+ {
+  "seg": 140,
+  "start": 731.84,
+  "end": 738.32,
+  "speaker": "Andrew",
+  "en": "So it'll again help you set that up as an action that will just run within your CI CD pipeline.",
+  "zh": "所以它会再次帮助您将其设置为将在您的 CI CD 管道中运行的操作。"
+ },
+ {
+  "seg": 141,
+  "start": 738.4,
+  "end": 747.44,
+  "speaker": "Andrew",
+  "en": "Uh and then the last thing that we'll do is we'll go through all of your existing skills and context in your repository, and we will create what we call verifiers out of those.",
+  "zh": "嗯，然后我们要做的最后一件事是，我们要遍历您仓库中所有现有的技能和上下文，我们将根据这些创建我们称之为验证器的东西。"
+ },
+ {
+  "seg": 142,
+  "start": 747.6,
+  "end": 762.16,
+  "speaker": "Andrew",
+  "en": "So you can think of these as very small, targeted, and fast LLM linting rules that look at a change, look at the sort of code that's coming into your code base, specifically against different aspects that you've codified in your skills.",
+  "zh": "您可以将这些视为非常小、有针对性且快速的 LLM linting 规则，它们查看变更，查看进入您代码库的代码，特别是根据您在技能中编纂的不同方面进行检查。"
+ },
+ {
+  "seg": 143,
+  "start": 762.32,
+  "end": 770.72,
+  "speaker": "Andrew",
+  "en": "So let's say that you have a uh design guidelines that says how uh accessibility traits should be handled on new elements.",
+  "zh": "比方说您有一个设计指南，说明新元素应如何处理可访问性特征。"
+ },
+ {
+  "seg": 144,
+  "start": 770.96,
+  "end": 781.28,
+  "speaker": "Andrew",
+  "en": "There will be a verifier that we can create for that that looks at specifically files that touch front end and looks just for do they apply those ARIA properties correctly.",
+  "zh": "我们可以为此创建一个验证器，专门查看涉及前端的文件，并只查看它们是否正确应用了那些 ARIA 属性。"
+ },
+ {
+  "seg": 145,
+  "start": 781.52,
+  "end": 791.76,
+  "speaker": "Andrew",
+  "en": "And if you stack a bunch of those up and keep them very focused, you can keep them small, fast, cheap, and you basically run them like linting against every change that comes in.",
+  "zh": "如果您将其中一堆堆叠起来并保持非常专注，您可以保持它们小、快、便宜，并且您基本上像 linting 一样对每一个进来的变更运行它们。"
+ },
+ {
+  "seg": 146,
+  "start": 792.08,
+  "end": 796.4,
+  "speaker": "Andrew",
+  "en": "Catches a lot of the mistakes where agents just don't adhere to what you've codified in your skills.",
+  "zh": "捕获很多智能体只是不遵守您在技能中编纂的内容的错误。"
+ },
+ {
+  "seg": 147,
+  "start": 796.8,
+  "end": 797.52,
+  "speaker": "Simon Maple",
+  "en": "Yeah, I love that.",
+  "zh": "是的，我喜欢这个。"
+ },
+ {
+  "seg": 148,
+  "start": 797.68,
+  "end": 801.52,
+  "speaker": "Simon Maple",
+  "en": "So we've now kind of without command set up three different types of reviews.",
+  "zh": "所以我们现在已经在没有命令的情况下建立了三种不同类型的审查。"
+ },
+ {
+  "seg": 149,
+  "start": 801.84,
+  "end": 806,
+  "speaker": "Simon Maple",
+  "en": "You review uh the code itself, I guess, that you're sort of invoking a coding agent for.",
+  "zh": "您审查……代码本身，我猜，也就是您为其调用代码智能体的东西。"
+ },
+ {
+  "seg": 150,
+  "start": 806.16,
+  "end": 813.84,
+  "speaker": "Simon Maple",
+  "en": "You're reviewing the risk of the change so you can make some smarter decisions about whether you merge them or auto-merge or like a little bit of a flag uh for people.",
+  "zh": "你正在审查变更的风险，所以你可以做出更明智的决定，关于是否合并它们或自动合并，或者像是给人们的一个小标记。"
+ },
+ {
+  "seg": 151,
+  "start": 813.92,
+  "end": 815.68,
+  "speaker": "Simon Maple",
+  "en": "So you kind of codify your policy.",
+  "zh": "所以你有点把你的策略编纂成文。"
+ },
+ {
+  "seg": 152,
+  "start": 815.92,
+  "end": 820.72,
+  "speaker": "Simon Maple",
+  "en": "Uh and then you know we introduce this verifiers theory, which probably kind of you know is worthy of a podcast episode on its own.",
+  "zh": "然后你知道我们引入了这个验证器理论，它可能本身值得做一集播客。"
+ },
+ {
+  "seg": 153,
+  "start": 821.6,
+  "end": 828.24,
+  "speaker": "Simon Maple",
+  "en": "But really what that does is it reviews whether the agent has adhered to the uh context that you've given it.",
+  "zh": "但实际上它所做的是它审查智能体是否遵守了你给它的上下文。"
+ },
+ {
+  "seg": 154,
+  "start": 828.4,
+  "end": 834.16,
+  "speaker": "Simon Maple",
+  "en": "Like the sort of the skills, the attempts you've already made within the repo to sort of define how it should behave.",
+  "zh": "像是那种技能，你已经在仓库内做的尝试，以某种方式定义它应该如何表现。"
+ },
+ {
+  "seg": 155,
+  "start": 834.48,
+  "end": 836,
+  "speaker": "Simon Maple",
+  "en": "It checks whether it adheres to those.",
+  "zh": "它检查它是否遵守那些。"
+ },
+ {
+  "seg": 156,
+  "start": 836.96,
+  "end": 849.28,
+  "speaker": "Andrew",
+  "en": "The verifiers, in my opinion, are the thing that really closes the loop between skills and plugins and like the sort of instructions, the control plane you have over agents to the actual code that is generated.",
+  "zh": "验证器，在我看来，是真正闭环的东西，在技能和插件以及像是那种指令之间，即你对智能体的控制平面，到生成的实际代码。"
+ },
+ {
+  "seg": 157,
+  "start": 849.52,
+  "end": 861.92,
+  "speaker": "Andrew",
+  "en": "So it's a way of saying, I told an agent to do these things, but did it actually do them in a way that is fast and scalable and doesn't require uh a million tokens every time you wanna you wanna ask that question.",
+  "zh": "所以这是一种说法，我告诉一个智能体做这些事，但它实际上以一种快速和可扩展的方式做了吗，并且不需要每次你想问那个问题时一百万个标记。"
+ },
+ {
+  "seg": 158,
+  "start": 862.48,
+  "end": 866.88,
+  "speaker": "Andrew",
+  "en": "Uh and then the last piece, uh you know, I mentioned the Tesla agent will always push you towards the loop.",
+  "zh": "然后最后一部分，你知道，我提到过 Tesla 智能体总是会推动你走向循环。"
+ },
+ {
+  "seg": 159,
+  "start": 867.04,
+  "end": 869.04,
+  "speaker": "Andrew",
+  "en": "We sort of believe in loop engineering.",
+  "zh": "我们有点相信循环工程。"
+ },
+ {
+  "seg": 160,
+  "start": 869.28,
+  "end": 869.6,
+  "speaker": "Andrew",
+  "en": "Yeah, exactly.",
+  "zh": "是的，正是。"
+ },
+ {
+  "seg": 161,
+  "start": 869.76,
+  "end": 870.56,
+  "speaker": "Andrew",
+  "en": "Getting loopy.",
+  "zh": "变得循环。"
+ },
+ {
+  "seg": 162,
+  "start": 870.8,
+  "end": 889.92,
+  "speaker": "Andrew",
+  "en": "So the uh what the final thing that will be set up is a recurring daily or weekly, depending on what you'd like, automation where the Tesla agent will scan, again, all of your PRs, uh CI checks, PR comments, coding agent sessions, and try to find new mistakes that are slipping through.",
+  "zh": "所以最终将被设置的东西是一个循环的每天或每周的，取决于你喜欢，自动化，其中 Tesla 智能体将再次扫描你所有的 PR、CI 检查、PR 评论、编码智能体会话，并试图找到正在漏掉的新错误。"
+ },
+ {
+  "seg": 163,
+  "start": 890.08,
+  "end": 895.44,
+  "speaker": "Andrew",
+  "en": "So for example, you might start with a more strict humans still must review most PRs.",
+  "zh": "所以例如，你可能以更严格的人类仍然必须审查大多数 PR 开始。"
+ },
+ {
+  "seg": 164,
+  "start": 895.68,
+  "end": 907.04,
+  "speaker": "Andrew",
+  "en": "And as humans are leaving review feedback, the Tesla agent is basically observing those and creating new verifiers or updating your review skill to try and capture those issues.",
+  "zh": "当人类留下审查反馈时，Tesla 智能体基本上正在观察那些并创建新的验证器或更新你的审查技能以试图捕捉那些问题。"
+ },
+ {
+  "seg": 165,
+  "start": 907.2,
+  "end": 918.96,
+  "speaker": "Andrew",
+  "en": "And then it'll use the TESL platform to create evaluation scenarios to sort of run back and say, okay, I've seen this problem, I've created what I think is affixed to it, I've now sort of simulated this PR a few more times.",
+  "zh": "然后它会使用 TESL 平台创建评估场景来某种回溯运行并说，好的，我看到了这个问题，我创建了我认为是附在它上面的东西，我现在已经模拟了这个 PR 几次。"
+ },
+ {
+  "seg": 166,
+  "start": 919.12,
+  "end": 921.84,
+  "speaker": "Andrew",
+  "en": "Yes, now you wouldn't have had to provide that feedback.",
+  "zh": "是的，现在你就不必提供那个反馈了。"
+ },
+ {
+  "seg": 167,
+  "start": 922.08,
+  "end": 931.28,
+  "speaker": "Andrew",
+  "en": "And so that's where you get into the automated loop of every day, every week, you're just getting a couple PRs from the Tesla agent that make you just a little more AI native, right?",
+  "zh": "所以这就是你进入每天、每周的自动化循环的地方，你只是从 Tesla 智能体那里得到几个 PR，让你变得更有 AI 原生感，对吗？"
+ },
+ {
+  "seg": 168,
+  "start": 931.36,
+  "end": 936.72,
+  "speaker": "Andrew",
+  "en": "Like your skills are a little more robust, your uh PR review is catching a few more errors.",
+  "zh": "像你的技能更健壮一点，你的 PR 审查捕捉到更多错误。"
+ },
+ {
+  "seg": 169,
+  "start": 936.88,
+  "end": 944.72,
+  "speaker": "Andrew",
+  "en": "Uh over time, you don't even realize you're necessarily investing in it this way, but you'll see just sooner code review completion, less time on code review.",
+  "zh": "随着时间的推移，你甚至不意识到你必然正在这样投资它，但你会看到更快的代码审查完成，在代码审查上花费更少时间。"
+ },
+ {
+  "seg": 170,
+  "start": 944.96,
+  "end": 950.16,
+  "speaker": "Andrew",
+  "en": "Uh and at some point you might say, like, wow, 40, 50% of our PRs don't even have a human looking at it.",
+  "zh": "在某个点你可能会说，哇，我们 40、50% 的 PR 甚至没有人类在看它。"
+ },
+ {
+  "seg": 171,
+  "start": 950.32,
+  "end": 954,
+  "speaker": "Andrew",
+  "en": "We never had to do a big uh big push or initiative to make that happen.",
+  "zh": "我们从来不需要做一个大的推动或倡议来实现这一点。"
+ },
+ {
+  "seg": 172,
+  "start": 954.16,
+  "end": 959.6,
+  "speaker": "Andrew",
+  "en": "Just sort of we got started, we focused on doing what we were doing, and over time it could just delegate more to the agent.",
+  "zh": "只是某种我们开始了，我们专注于做我们在做的事，随着时间的推移它可以把更多委托给智能体。"
+ },
+ {
+  "seg": 173,
+  "start": 959.92,
+  "end": 966.48,
+  "speaker": "Simon Maple",
+  "en": "Yeah, and and I I think a core principle that you're describing here is that you set it up to be a loop uh time.",
+  "zh": "是的，我认为你在这里描述的一个核心原则是你把它设置为一个循环时间。"
+ },
+ {
+  "seg": 174,
+  "start": 967.04,
+  "end": 979.04,
+  "speaker": "Simon Maple",
+  "en": "And so we've defined a thing that would run recurringly, the the skill over here, uh we're running it in some sort of recurring location in an automation that runs again and again, and now we're surveying it uh over and over again.",
+  "zh": "所以我们定义了一个会循环运行的东西，这边的技能，我们在某种循环位置运行它在一个一次又一次运行的自动化中，现在我们正在一次又一次地观察它。"
+ },
+ {
+  "seg": 175,
+  "start": 979.28,
+  "end": 985.2,
+  "speaker": "Simon Maple",
+  "en": "And so because it's a loop, you can observe and you can kind of voice an opinion of saying, okay, has it gotten better, has it gotten worse?",
+  "zh": "因为它是一个循环，你可以观察，你可以表达一种意见说，好的，它变好了吗，它变糟了吗？"
+ },
+ {
+  "seg": 176,
+  "start": 985.52,
+  "end": 989.12,
+  "speaker": "Simon Maple",
+  "en": "And you just figure out what is that sort of uh feedback loop that it uh that it gets.",
+  "zh": "你只是弄清楚那种它获得的反馈循环是什么。"
+ },
+ {
+  "seg": 177,
+  "start": 989.52,
+  "end": 990,
+  "speaker": "Andrew",
+  "en": "Yeah, exactly.",
+  "zh": "是的，正是。"
+ },
+ {
+  "seg": 178,
+  "start": 990.32,
+  "end": 998.4,
+  "speaker": "Andrew",
+  "en": "It's I'd say the loop is probably one thing if somebody was you know just waking up to agents today in 2026 and looking to get started.",
+  "zh": "我会说循环可能是如果有人在 2026 年今天刚觉醒到智能体并寻求开始的这一件事。"
+ },
+ {
+  "seg": 179,
+  "start": 998.56,
+  "end": 1006.24,
+  "speaker": "Andrew",
+  "en": "I think uh interestingly, the building these loops, doing the sort of loop engineering, it feels maybe like an advanced topic to start.",
+  "zh": "我觉得有趣的是，构建这些循环，做那种循环工程，感觉可能像是一个要开始的高级话题。"
+ },
+ {
+  "seg": 180,
+  "start": 1006.4,
+  "end": 1016.48,
+  "speaker": "Andrew",
+  "en": "But I think in our own experience, in our own um you know, working with customers or building our own sort of software factory, it actually is feels like the right place to start.",
+  "zh": "但我认为在我们自己的经验中，在我们自己的你知道，与客户合作或构建我们自己的软件工厂中，它实际上感觉像是正确的起点。"
+ },
+ {
+  "seg": 181,
+  "start": 1016.64,
+  "end": 1020.8,
+  "speaker": "Andrew",
+  "en": "Uh when you get going with these loops, they solve a major problem with agentic development.",
+  "zh": "当你开始使用这些循环时，它们解决了智能体开发的一个主要问题。"
+ },
+ {
+  "seg": 182,
+  "start": 1021.04,
+  "end": 1035.76,
+  "speaker": "Andrew",
+  "en": "In fact, this was like one of the main reasons we chose to build the Tesla agent, is that building your software factory, making agents more effective, uh, getting them to run more autonomously, delegating work to them, all of that is unplanned work.",
+  "zh": "事实上，这是我们选择构建 Tesla 智能体的主要原因之一，即构建你的软件工厂，使智能体更有效，让它们更自主地运行，委托工作给它们，所有这些都是计划外的工作。"
+ },
+ {
+  "seg": 183,
+  "start": 1036.08,
+  "end": 1043.36,
+  "speaker": "Andrew",
+  "en": "You have no way of anticipating where agents will fail, when they'll fail, how much work it's going to take to get them to stop failing.",
+  "zh": "你无法预测智能体将在哪里失败，它们何时失败，需要多少工作才能让它们停止失败。"
+ },
+ {
+  "seg": 184,
+  "start": 1043.68,
+  "end": 1062.8,
+  "speaker": "Andrew",
+  "en": "And so when most teams get started with like the traditional, you know, boot up an agent, you start interacting with it, uh, they basically find this place where the agent will have made a mistake and they have to choose between do I push through and ship the feature, or do I pause, roll back, and do some science to try and make the agent able to do this in the future.",
+  "zh": "所以当大多数团队开始像传统的，你知道，启动一个智能体，你开始与它互动，它们基本上发现这个智能体犯了一个错误的地方，它们必须在推进并发布功能和暂停、回滚并做一些科学来尝试使智能体在未来能够做到这一点之间做出选择。"
+ },
+ {
+  "seg": 185,
+  "start": 1063.04,
+  "end": 1065.36,
+  "speaker": "Andrew",
+  "en": "Uh and so people fall into one or two categories.",
+  "zh": "所以人们陷入一两个类别。"
+ },
+ {
+  "seg": 186,
+  "start": 1065.52,
+  "end": 1075.44,
+  "speaker": "Andrew",
+  "en": "They either focus on shipping, in which case they just get stuck in this local maximum where they they never take the time to fix the agents and get them to a higher level of autonomy.",
+  "zh": "它们要么专注于发布，在这种情况下它们只是陷入这个局部最大值，它们从未花时间修复智能体并让它们达到更高水平的自主性。"
+ },
+ {
+  "seg": 187,
+  "start": 1075.6,
+  "end": 1084.4,
+  "speaker": "Andrew",
+  "en": "Uh, or they fall into the second category, they are disciplined, they do focus on that autonomy, but you're left with this gulf of like several months or or longer, depending.",
+  "zh": "或者它们陷入第二类，它们是自律的，它们确实专注于那种自主性，但你留下了这个像几个月或更长的鸿沟，视情况而定。"
+ },
+ {
+  "seg": 188,
+  "start": 1084.8,
+  "end": 1085.52,
+  "speaker": "Andrew",
+  "en": "It's forever to build that.",
+  "zh": "建造那个要花永远。"
+ },
+ {
+  "seg": 189,
+  "start": 1085.84,
+  "end": 1086.08,
+  "speaker": "Andrew",
+  "en": "Exactly.",
+  "zh": "正是。"
+ },
+ {
+  "seg": 190,
+  "start": 1086.16,
+  "end": 1093.28,
+  "speaker": "Andrew",
+  "en": "And it's like, all right, can you eat that sort of a velocity drop as you basically shift all your work into internal tooling?",
+  "zh": "就像是，好吧，你能承受那种速度下降吗，基本上你把所有工作转移到内部工具？"
+ },
+ {
+  "seg": 191,
+  "start": 1093.52,
+  "end": 1097.44,
+  "speaker": "Andrew",
+  "en": "And so moving to a loop early does two big things.",
+  "zh": "所以早点转向循环做两件大事。"
+ },
+ {
+  "seg": 192,
+  "start": 1097.6,
+  "end": 1100.8,
+  "speaker": "Andrew",
+  "en": "The first is that these loops run in very legible ways.",
+  "zh": "首先是这些循环以非常清晰的方式运行。"
+ },
+ {
+  "seg": 193,
+  "start": 1100.96,
+  "end": 1110.88,
+  "speaker": "Andrew",
+  "en": "So instead of having a bunch of your insights into how agents are failing, locked away in pr local coding agent session logs, if it's running through a PR review.",
+  "zh": "所以与其把你对智能体如何失败的洞察锁在 PR 本地编码智能体会话日志中，如果它通过 PR 审查运行。"
+ },
+ {
+  "seg": 194,
+  "start": 1111.28,
+  "end": 1111.92,
+  "speaker": "Andrew",
+  "en": "It extracts it out.",
+  "zh": "它把它提取出来。"
+ },
+ {
+  "seg": 195,
+  "start": 1112.32,
+  "end": 1112.88,
+  "speaker": "Andrew",
+  "en": "Exactly, exactly.",
+  "zh": "正是，正是。"
+ },
+ {
+  "seg": 196,
+  "start": 1112.96,
+  "end": 1114.08,
+  "speaker": "Andrew",
+  "en": "It's all of it's all available to you.",
+  "zh": "它的全部都对你可用。"
+ },
+ {
+  "seg": 197,
+  "start": 1114.16,
+  "end": 1115.92,
+  "speaker": "Andrew",
+  "en": "So you can start making these improvements.",
+  "zh": "所以你可以开始做这些改进。"
+ },
+ {
+  "seg": 198,
+  "start": 1116.08,
+  "end": 1120.48,
+  "speaker": "Andrew",
+  "en": "And then the loop handles the that grunt work, right?",
+  "zh": "然后循环处理那种苦差事，对吗？"
+ },
+ {
+  "seg": 199,
+  "start": 1120.64,
+  "end": 1124.16,
+  "speaker": "Andrew",
+  "en": "Actually putting up the PR that says, I saw this mistake, I think this fixes it.",
+  "zh": "实际上提交 PR 说，我看到了这个错误，我认为这修复了它。"
+ },
+ {
+  "seg": 200,
+  "start": 1124.24,
+  "end": 1124.32,
+  "speaker": "Andrew",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 201,
+  "start": 1124.56,
+  "end": 1128.48,
+  "speaker": "Andrew",
+  "en": "And it allows you to focus just on, oh yeah, that makes sense, except, right?",
+  "zh": "并且它让你只专注于，噢对，这有道理，除了，对吧？"
+ },
+ {
+  "seg": 202,
+  "start": 1128.56,
+  "end": 1134.8,
+  "speaker": "Andrew",
+  "en": "And so it gets the it matches the sort of investment and the time scale so that you just stay focused on shipping.",
+  "zh": "这样一来它就匹配了那种投入和时间规模，所以你就能专注于交付。"
+ },
+ {
+  "seg": 203,
+  "start": 1135.04,
+  "end": 1137.44,
+  "speaker": "Andrew",
+  "en": "Agents will get better naturally as you engage with them.",
+  "zh": "智能体会随着你与它们的互动自然地变好。"
+ },
+ {
+  "seg": 204,
+  "start": 1137.84,
+  "end": 1138.08,
+  "speaker": "Simon Maple",
+  "en": "As you go.",
+  "zh": "当你继续时。"
+ },
+ {
+  "seg": 205,
+  "start": 1138.32,
+  "end": 1140.16,
+  "speaker": "Simon Maple",
+  "en": "So I love this sort of uh loop interaction.",
+  "zh": "所以我喜欢这种……循环互动。"
+ },
+ {
+  "seg": 206,
+  "start": 1140.24,
+  "end": 1148.4,
+  "speaker": "Simon Maple",
+  "en": "And I guess the uh we we talked about the sort of the loop improvement when it comes to the the code review and the inspect of those things, but there's also a loop around the agentic process, right?",
+  "zh": "我猜……我们谈到了那种循环改进，当涉及到代码审查和检查这些东西时，但是在智能体流程周围也有一个循环，对吧？"
+ },
+ {
+  "seg": 207,
+  "start": 1148.48,
+  "end": 1155.84,
+  "speaker": "Simon Maple",
+  "en": "And I I really like how in the process of that, you know, we you know we oftentimes sort of preach here the importance of evals and you know how you do that.",
+  "zh": "我真的很喜欢在那过程中，你知道，我们经常在这里宣扬评估的重要性，以及你知道你是怎么做的。"
+ },
+ {
+  "seg": 208,
+  "start": 1156,
+  "end": 1162.64,
+  "speaker": "Simon Maple",
+  "en": "Uh and so uh one of the challenges I guess is we've been encountering is that uh you know, like what do developers not like doing?",
+  "zh": "……所以我想我们遇到的一个挑战之一是……你知道，比如开发者不喜欢做什么？"
+ },
+ {
+  "seg": 209,
+  "start": 1162.72,
+  "end": 1167.28,
+  "speaker": "Simon Maple",
+  "en": "They don't like you know, writing docs and writing tests, and lo and behold, you know you kind of need to do that.",
+  "zh": "他们不喜欢……写文档和写测试，而且瞧啊，你知道你确实需要做那些。"
+ },
+ {
+  "seg": 210,
+  "start": 1168.88,
+  "end": 1179.12,
+  "speaker": "Simon Maple",
+  "en": "So uh I I think uh what I also like about the the concept of of the loop is that it moves the at least the test authoring into something that is uh done through observation.",
+  "zh": "所以……我觉得……关于循环的概念我也喜欢的一点是，它把至少测试编写移到了某种通过观察来完成的事情上。"
+ },
+ {
+  "seg": 211,
+  "start": 1179.52,
+  "end": 1186.64,
+  "speaker": "Simon Maple",
+  "en": "So instead of uh you know having the the human write down you know, sort of the developer and review things, which you know again, sometimes you still need to do.",
+  "zh": "所以与其……你知道让人类写下来……你知道，比如开发者和审查东西，这你知道，有时你仍然需要做。"
+ },
+ {
+  "seg": 212,
+  "start": 1186.72,
+  "end": 1188.48,
+  "speaker": "Simon Maple",
+  "en": "You still need to define those tests up front.",
+  "zh": "你仍然需要预先定义那些测试。"
+ },
+ {
+  "seg": 213,
+  "start": 1188.8,
+  "end": 1196.48,
+  "speaker": "Simon Maple",
+  "en": "Uh but hidden behind the scenes, if you sort of use the Tesla flow, you know, we will have created some evals for that plugin that you have, because we've looked at issues.",
+  "zh": "……但在幕后，如果你某种程度使用 Tesla flow，你知道，我们会为你拥有的那个插件创建一些评估，因为我们看过问题。"
+ },
+ {
+  "seg": 214,
+  "start": 1196.8,
+  "end": 1204.56,
+  "speaker": "Simon Maple",
+  "en": "But as you do the loop, you know, you can now say, okay, let's extract an eval out of that uh out of that uh process of it.",
+  "zh": "但当你做这个循环时，你知道，你现在可以说，好吧，让我们从中……从中……的过程中提取一个评估。"
+ },
+ {
+  "seg": 215,
+  "start": 1204.72,
+  "end": 1215.84,
+  "speaker": "Simon Maple",
+  "en": "Uh and you know, again, you can kind of debate about how much do you do you let you know, how much do you accept those, you know, uh autonomously or not, but you extract test cases based on real-world scenarios.",
+  "zh": "……你知道，再者，你可以争论你做多少，你让……你接受多少那些……你知道……是否自主地，但是你基于真实场景提取测试用例。"
+ },
+ {
+  "seg": 216,
+  "start": 1216.16,
+  "end": 1226.16,
+  "speaker": "Simon Maple",
+  "en": "So you still get yourself into a place in which you're not only modifying continuously, but you're also building more confidence in your changes because you're creating evals as you go.",
+  "zh": "所以你仍然让自己处于这样一个境地，你不仅在持续修改，而且你在对你的修改建立更多信心，因为你在此过程中正在创建评估。"
+ },
+ {
+  "seg": 217,
+  "start": 1226.32,
+  "end": 1226.48,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 218,
+  "start": 1227.36,
+  "end": 1233.76,
+  "speaker": "Simon Maple",
+  "en": "But at the same time, you are uh you're not making an effort, like you're not really asking developers to do this thing.",
+  "zh": "但同时，你……你没有在费力，就像你不是真的在要求开发者做这件事。"
+ },
+ {
+  "seg": 219,
+  "start": 1234.24,
+  "end": 1243.6,
+  "speaker": "Simon Maple",
+  "en": "Uh and we can probably we should towards the end talk a little bit about ease of use and sort of its importance, but it's one of those things where eventually eventually it might be right, but if it's not easy, people won't do it.",
+  "zh": "……我们可能我们应该快结束的时候谈谈易用性以及它的重要性，但这属于那种事情，最终……最终它可能是对的，但如果它不容易，人们就不会做。"
+ },
+ {
+  "seg": 220,
+  "start": 1243.76,
+  "end": 1243.92,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 221,
+  "start": 1244.08,
+  "end": 1245.2,
+  "speaker": "Simon Maple",
+  "en": "Uh so I like that.",
+  "zh": "……所以我喜欢那个。"
+ },
+ {
+  "seg": 222,
+  "start": 1245.36,
+  "end": 1245.52,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 223,
+  "start": 1246,
+  "end": 1250.48,
+  "speaker": "Simon Maple",
+  "en": "Which I guess kind of maybe I'll ask one more question about the review thing and then we'll expand to some other use cases.",
+  "zh": "我想这也许我会再问一个关于审查的问题，然后我们会扩展到其他用例。"
+ },
+ {
+  "seg": 224,
+  "start": 1250.64,
+  "end": 1257.12,
+  "speaker": "Simon Maple",
+  "en": "But uh you mentioned cost uh in passing, and I guess I guess that comes down to that sort of eval process over here, right?",
+  "zh": "但……你顺便提到了成本，我想我想这归结到这边的这种评估过程，对吧？"
+ },
+ {
+  "seg": 225,
+  "start": 1257.2,
+  "end": 1260.56,
+  "speaker": "Simon Maple",
+  "en": "So like what happens over time as I run these things?",
+  "zh": "所以比如当我运行这些东西时会发生什么？"
+ },
+ {
+  "seg": 226,
+  "start": 1260.64,
+  "end": 1263.36,
+  "speaker": "Simon Maple",
+  "en": "What do I need to do to be able to make it cheaper?",
+  "zh": "我需要做什么才能让它更便宜？"
+ },
+ {
+  "seg": 227,
+  "start": 1263.68,
+  "end": 1264.48,
+  "speaker": "Andrew",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "对，对，对。"
+ },
+ {
+  "seg": 228,
+  "start": 1264.72,
+  "end": 1268.08,
+  "speaker": "Andrew",
+  "en": "Cost certainly uh a much hotter topic these days than it was.",
+  "zh": "成本当然……如今比过去热门得多。"
+ },
+ {
+  "seg": 229,
+  "start": 1268.48,
+  "end": 1269.28,
+  "speaker": "Andrew",
+  "en": "It used to be it's amazing.",
+  "zh": "它过去是……这很神奇。"
+ },
+ {
+  "seg": 230,
+  "start": 1269.36,
+  "end": 1269.44,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 231,
+  "start": 1269.6,
+  "end": 1276.24,
+  "speaker": "Simon Maple",
+  "en": "Like a month ago, if you were talking about cost, you were a Luddite, you know, you're like, yeah, you're not believing not an AI believer, you're not sufficiently ADI build on it.",
+  "zh": "就像一个月前，如果你在谈论成本，你就是个勒德分子，你知道，就像，对，你不是信徒，不是 AI 信徒，你没有足够地 ADI 建立在它上面。"
+ },
+ {
+  "seg": 232,
+  "start": 1276.72,
+  "end": 1278.72,
+  "speaker": "Simon Maple",
+  "en": "And now you're like a forerunner, you know, you're thinking about it.",
+  "zh": "而现在你像是个先驱，你知道，你在思考它。"
+ },
+ {
+  "seg": 233,
+  "start": 1278.8,
+  "end": 1280,
+  "speaker": "Simon Maple",
+  "en": "You like open models on it.",
+  "zh": "你喜欢上面用开放模型。"
+ },
+ {
+  "seg": 234,
+  "start": 1280.08,
+  "end": 1281.6,
+  "speaker": "Simon Maple",
+  "en": "So it's amazing how these things twist.",
+  "zh": "所以这些事情如何扭转真是太神奇了。"
+ },
+ {
+  "seg": 235,
+  "start": 1281.68,
+  "end": 1282.16,
+  "speaker": "Andrew",
+  "en": "Aaron Powell It is.",
+  "zh": "Aaron Powell 是的。"
+ },
+ {
+  "seg": 236,
+  "start": 1282.32,
+  "end": 1286.96,
+  "speaker": "Andrew",
+  "en": "It's uh you know certainly makes it hard to build products that are forward-looking and meet people where they are today.",
+  "zh": "这……你知道当然使得构建既具有前瞻性又满足人们当下需求的产品变得很难。"
+ },
+ {
+  "seg": 237,
+  "start": 1287.2,
+  "end": 1290.16,
+  "speaker": "Andrew",
+  "en": "But uh I'd say that there's maybe two big pieces to this.",
+  "zh": "但……我想这也许有两个主要部分。"
+ },
+ {
+  "seg": 238,
+  "start": 1290.32,
+  "end": 1304.48,
+  "speaker": "Andrew",
+  "en": "So again, to your point, we get a lot of questions from folks internally or externally working with customers on how do I think about cost, how do I make these things cheaper, but without sort of unnecessarily slowing my devs down.",
+  "zh": "所以再次，针对你的观点，我们从内部或外部与客户合作的人那里收到很多问题，关于我如何看待成本，如何让这些东西更便宜，但不要不必要地拖慢我的开发者。"
+ },
+ {
+  "seg": 239,
+  "start": 1305.04,
+  "end": 1309.12,
+  "speaker": "Andrew",
+  "en": "People are willing to pay if it has good ROI, but they also don't want to just pay because.",
+  "zh": "如果有良好的投资回报率，人们愿意付费，但他们也不想仅仅因为……就付费。"
+ },
+ {
+  "seg": 240,
+  "start": 1309.44,
+  "end": 1315.76,
+  "speaker": "Andrew",
+  "en": "So I think the first thing this is I'm sure going to become a broken record of like pulling it back to loop engineering.",
+  "zh": "所以我认为第一件事，这我确定会变成一张坏掉的唱片，就像把它拉回到循环工程。"
+ },
+ {
+  "seg": 241,
+  "start": 1315.92,
+  "end": 1319.76,
+  "speaker": "Andrew",
+  "en": "But the first piece of advice I always give, and the Tesla agent really tries to especially.",
+  "zh": "但我总是给出的第一条建议，而且 Tesla agent 真的试图特别……"
+ },
+ {
+  "seg": 242,
+  "start": 1320.64,
+  "end": 1325.44,
+  "speaker": "Andrew",
+  "en": "This philosophy is don't try to optimize your general cost, right?",
+  "zh": "这个哲学是不要试图优化你的总体成本，对吧？"
+ },
+ {
+  "seg": 243,
+  "start": 1325.6,
+  "end": 1336.8,
+  "speaker": "Andrew",
+  "en": "If you're thinking about how do I make it so that every time someone opens Claude Code, they're picking the right model, they're planning with Opus, and then delegating to haiku or things like that.",
+  "zh": "如果你在思考如何做才能让每次有人打开 Claude Code，他们都在选择正确的模型，他们用 Opus 规划，然后委派给 haiku 或类似的事情。"
+ },
+ {
+  "seg": 244,
+  "start": 1336.96,
+  "end": 1339.92,
+  "speaker": "Andrew",
+  "en": "That's going to be a bit of a losing game, I think, for two reasons.",
+  "zh": "我觉得这将会一场必输的游戏，原因有二。"
+ },
+ {
+  "seg": 245,
+  "start": 1340.16,
+  "end": 1341.84,
+  "speaker": "Andrew",
+  "en": "The first is humans.",
+  "zh": "首先是人类。"
+ },
+ {
+  "seg": 246,
+  "start": 1342,
+  "end": 1345.04,
+  "speaker": "Andrew",
+  "en": "Nobody really wants to think about that kind of stuff as they're getting going.",
+  "zh": "没有人真的想在开始时思考那种东西。"
+ },
+ {
+  "seg": 247,
+  "start": 1345.2,
+  "end": 1348.72,
+  "speaker": "Andrew",
+  "en": "And they'll kind of always default to whatever their preference is.",
+  "zh": "他们总是会默认选择他们的偏好。"
+ },
+ {
+  "seg": 248,
+  "start": 1348.96,
+  "end": 1355.12,
+  "speaker": "Andrew",
+  "en": "But the second is that it's also very hard to anticipate up front when a job is going to become complicated.",
+  "zh": "但第二点是，很难预先预测一项工作什么时候会变得复杂。"
+ },
+ {
+  "seg": 249,
+  "start": 1355.52,
+  "end": 1369.12,
+  "speaker": "Andrew",
+  "en": "You might hit an unexpected issue, snag, part of the code base that you thought this was a haiku task or you thought this was a GPT-4.1 or something like that, but it actually is a 5.5 task.",
+  "zh": "你可能会遇到意想不到的问题、障碍、代码库的一部分，你原以为这是 haiku 任务，或者你原以为这是 GPT-4.1 或类似的东西，但实际上它是一个 5.5 任务。"
+ },
+ {
+  "seg": 250,
+  "start": 1370.32,
+  "end": 1371.28,
+  "speaker": "Andrew",
+  "en": "That is just hard.",
+  "zh": "那真的很难。"
+ },
+ {
+  "seg": 251,
+  "start": 1371.36,
+  "end": 1381.12,
+  "speaker": "Andrew",
+  "en": "And I'd say for most people, you're going to get the best results in your daily interactive driver of just use the best model that you're comfortable using and let it be flexible.",
+  "zh": "而且我想对大多数人来说，你在日常交互驱动中能获得最好结果的方式就是，使用你习惯使用的最好模型并让它保持灵活。"
+ },
+ {
+  "seg": 252,
+  "start": 1381.36,
+  "end": 1403.76,
+  "speaker": "Andrew",
+  "en": "But then alongside that, if you are good about identifying recurring tasks and structuring them into workflows and really relentlessly carving them off of that general purpose path into a dedicated skill or plugin that codifies this is how we add a new command to our CLI, or this is how we do version bumping, or anything like that.",
+  "zh": "但与此同时，如果你擅长识别重复性任务并将它们构建成工作流，并且真正无情地将它们从通用路径中剥离出来，放入一个专门的技能或插件中，将这些规范化：这就是我们向 CLI 添加新命令的方式，或者这就是我们进行版本更新的方式，或诸如此类的事情。"
+ },
+ {
+  "seg": 253,
+  "start": 1404.56,
+  "end": 1407.12,
+  "speaker": "Andrew",
+  "en": "Those become great targets for optimization.",
+  "zh": "这些就成了很好的优化目标。"
+ },
+ {
+  "seg": 254,
+  "start": 1407.28,
+  "end": 1418.56,
+  "speaker": "Andrew",
+  "en": "And so what I generally say is the work of delegating and sort of caught putting a box around a certain task and setting it up to run automated is also the work of cost optimization.",
+  "zh": "所以我一般说的是，委托工作以及实际上把一个任务捕获并框定起来并设置它自动运行的工作，也是成本优化的工作。"
+ },
+ {
+  "seg": 255,
+  "start": 1418.72,
+  "end": 1424.64,
+  "speaker": "Andrew",
+  "en": "Because then you can find where your bottlenecks are, say, like this is a workflow that runs, for example, code review.",
+  "zh": "因为那样你就能找到你的瓶颈在哪里，比如说，这是一个运行的工作流，比如代码审查。"
+ },
+ {
+  "seg": 256,
+  "start": 1424.8,
+  "end": 1426,
+  "speaker": "Andrew",
+  "en": "Every single PR.",
+  "zh": "每一个 PR。"
+ },
+ {
+  "seg": 257,
+  "start": 1426.08,
+  "end": 1431.2,
+  "speaker": "Andrew",
+  "en": "So it's 50, 60, 70 times a day, and it's really important to us.",
+  "zh": "所以它每天运行 50、60、70 次，这对我们真的很重要。"
+ },
+ {
+  "seg": 258,
+  "start": 1431.36,
+  "end": 1435.12,
+  "speaker": "Andrew",
+  "en": "We really need to strike the right balance of cost versus quality.",
+  "zh": "我们真的需要在成本与质量之间找到正确的平衡。"
+ },
+ {
+  "seg": 259,
+  "start": 1435.36,
+  "end": 1440.4,
+  "speaker": "Andrew",
+  "en": "That's where you can bring in the rest of Tesla's tools to say, I have this skill.",
+  "zh": "那就是你可以引入 Tesla 的其他工具的地方，可以说，我有这个技能。"
+ },
+ {
+  "seg": 260,
+  "start": 1440.64,
+  "end": 1458.72,
+  "speaker": "Andrew",
+  "en": "It codifies my workflow for code review, create a bunch of hypothetical PRs for it to review, run it through its paces, try it on a small model, try it on an open model, help me make that trade-off of, you know, maybe it's 5% worse, but 80% cheaper, I'm willing to pay that cost.",
+  "zh": "它将我的代码审查工作流规范化，创建一堆假设的 PR 供它审查，让它完成全过程，在小模型上试试，在开源模型上试试，帮我做出这种权衡，你知道，也许它差了 5%，但便宜了 80%，我愿意支付那个代价。"
+ },
+ {
+  "seg": 261,
+  "start": 1459.36,
+  "end": 1463.52,
+  "speaker": "Andrew",
+  "en": "And so the Tesla agent basically is built to help you do that process.",
+  "zh": "所以 Tesla 智能体基本上就是为了帮你做那个过程而构建的。"
+ },
+ {
+  "seg": 262,
+  "start": 1463.76,
+  "end": 1474.08,
+  "speaker": "Andrew",
+  "en": "It watches you as you work with agents, it watches the PRs you put up, and it's going to try and sort of bit by bit move repetitive tasks into structured workflows.",
+  "zh": "它会在你使用智能体时观察你，观察你提交的 PR，并且它会尝试一点一点地把重复性任务转移到结构化的工作流中。"
+ },
+ {
+  "seg": 263,
+  "start": 1474.24,
+  "end": 1476.64,
+  "speaker": "Andrew",
+  "en": "And then once that's in place, it can help you optimize them.",
+  "zh": "一旦这些到位了，它就可以帮你优化它们。"
+ },
+ {
+  "seg": 264,
+  "start": 1476.96,
+  "end": 1477.04,
+  "speaker": "Andrew",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 265,
+  "start": 1477.2,
+  "end": 1477.36,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 266,
+  "start": 1477.44,
+  "end": 1488.8,
+  "speaker": "Simon Maple",
+  "en": "And I think we've always observed how our evals could help you know, for instance, that you can use whatever it is, Deep Seek, you know, instead of Sonnet or instead of GPT-5.5.",
+  "zh": "我认为我们一直观察到我们的评估如何能让你知道，例如，你可以使用任何东西，Deep Seek，你知道，代替 Sonnet 或代替 GPT-5.5。"
+ },
+ {
+  "seg": 267,
+  "start": 1489.76,
+  "end": 1490.96,
+  "speaker": "Simon Maple",
+  "en": "And that's fine.",
+  "zh": "这很好。"
+ },
+ {
+  "seg": 268,
+  "start": 1491.04,
+  "end": 1502,
+  "speaker": "Simon Maple",
+  "en": "But one of the struggles was like, how do I, again, from a kind of reasonable ease of use, you know, do you really expect people to every time you know spawn a subagent with that or change it and remember what they're doing it?",
+  "zh": "但其中一个困难是，比如，我怎么，再次，从某种合理的易用性角度出发，你知道，你真的指望人们每次都知道为此生成一个子智能体或更改它并记住他们在做什么吗？"
+ },
+ {
+  "seg": 269,
+  "start": 1502.32,
+  "end": 1524,
+  "speaker": "Simon Maple",
+  "en": "Um and so uh I I think one of the sort of the hidden wiring that we do when you set up the agent is when you run that environment, we don't just set up the skill in the plugin, but we also run it uh under this command call tester launch, which again we'll probably sort of write more about, uh which is more of like an environment management uh uh setup, uh which allows you to then modify that sort of uh uh project or that plugin that it runs.",
+  "zh": "嗯，所以，呃，我我想当你在设置智能体时我们所做的一些隐藏布线之一是，当你运行那个环境时，我们不仅仅在插件中设置技能，我们还在这个称为 tester launch 的命令下运行它，对此我们可能还会写更多内容，这更像是一个环境管理……设置，它允许你随后修改那种……项目或它运行的插件。"
+ },
+ {
+  "seg": 270,
+  "start": 1524.32,
+  "end": 1527.52,
+  "speaker": "Simon Maple",
+  "en": "So once you've concluded that, you can also switch easily.",
+  "zh": "所以一旦你完成了那个，你也可以轻松切换。"
+ },
+ {
+  "seg": 271,
+  "start": 1527.84,
+  "end": 1530.88,
+  "speaker": "Simon Maple",
+  "en": "And it's all about just sort of the the gradual path, right?",
+  "zh": "这一切都只是关于渐进路径，对吧？"
+ },
+ {
+  "seg": 272,
+  "start": 1530.96,
+  "end": 1531.6,
+  "speaker": "Simon Maple",
+  "en": "And the evolution.",
+  "zh": "和演进。"
+ },
+ {
+  "seg": 273,
+  "start": 1532.08,
+  "end": 1545.84,
+  "speaker": "Andrew",
+  "en": "This is I'd say a big uh so in many ways the Tesla agent is an interface to uh and a driver of a lot of these workflows that without the agent, uh we found that just building up towards a factory was too hard, right?",
+  "zh": "这是一个很大的……呃，所以在很多方面，Tesla 智能体是……许多这些工作流的接口和驱动器，如果没有智能体……我们发现仅仅建立工厂太难了，对吧？"
+ },
+ {
+  "seg": 274,
+  "start": 1545.92,
+  "end": 1549.2,
+  "speaker": "Andrew",
+  "en": "There's knowledge that you don't have that's changing every few weeks.",
+  "zh": "有一些你不知道的知识每几周都在变化。"
+ },
+ {
+  "seg": 275,
+  "start": 1549.52,
+  "end": 1556.48,
+  "speaker": "Andrew",
+  "en": "People would try to build their own harnesses and then update their harnesses and then update them again, and then you know, cobbling everything together.",
+  "zh": "人们会尝试建立自己的挽具，然后更新他们的挽具，然后再更新它们，然后你知道，把所有东西拼凑在一起。"
+ },
+ {
+  "seg": 276,
+  "start": 1556.72,
+  "end": 1570.4,
+  "speaker": "Andrew",
+  "en": "So a lot of what we're doing to your point is just trying to bring into one place a vertical agent focused specifically on this task with good tools, the right sort of latest cutting-edge knowledge kept up to date on your behalf.",
+  "zh": "所以针对你的观点，我们要做的很多工作只是试图把一个专注于这一特定任务的垂直智能体集中到一个地方，配备好的工具，那种合适的最新前沿知识，代表你保持更新。"
+ },
+ {
+  "seg": 277,
+  "start": 1570.64,
+  "end": 1573.68,
+  "speaker": "Andrew",
+  "en": "But you could probably take a bunch of this and use it elsewhere if you want it, right?",
+  "zh": "但你可能拿走其中一些并在别处使用，如果你想要的话，对吧？"
+ },
+ {
+  "seg": 278,
+  "start": 1573.76,
+  "end": 1579.04,
+  "speaker": "Andrew",
+  "en": "We we like to work with any agent that you bring, but we also want to make it easy for users.",
+  "zh": "我们我们喜欢与你带来的任何智能体一起工作，但我们也想让它对用户来说很简单。"
+ },
+ {
+  "seg": 279,
+  "start": 1579.28,
+  "end": 1589.92,
+  "speaker": "Andrew",
+  "en": "But there's a second component that you alluded to with uh one of the new commands we're launching, Tesla launch, which is basically allowing you to create an environment for agents to run in.",
+  "zh": "但还有第二个组件，你提到……我们要推出的一个新命令，Tesla launch，它基本上允许你为智能体运行创建一个环境。"
+ },
+ {
+  "seg": 280,
+  "start": 1590.24,
+  "end": 1603.12,
+  "speaker": "Andrew",
+  "en": "When you get into this task of, okay, I have my sort of skills platform in place, I have the governance, the security, the standardization that I want, I'm ready to start scaling and building these loops.",
+  "zh": "当你进入这个任务时，好吧，我已经有了我的技能平台，有了我想要的治理、安全、标准化，我已经准备好开始扩展和构建这些循环了。"
+ },
+ {
+  "seg": 281,
+  "start": 1603.44,
+  "end": 1606.8,
+  "speaker": "Andrew",
+  "en": "Teams immediately start building the same few primitives over and over again.",
+  "zh": "团队立即开始一遍又一遍地构建相同的几个原语。"
+ },
+ {
+  "seg": 282,
+  "start": 1607.2,
+  "end": 1613.2,
+  "speaker": "Andrew",
+  "en": "Like you need a way to wire your issue tracker up to some kind of agent environment to kick off tasks.",
+  "zh": "比如你需要一种方法将你的问题跟踪器连接到某种智能体环境以启动任务。"
+ },
+ {
+  "seg": 283,
+  "start": 1613.44,
+  "end": 1616.56,
+  "speaker": "Andrew",
+  "en": "You need a whole suite of agentic code review.",
+  "zh": "你需要一整套智能体代码审查。"
+ },
+ {
+  "seg": 284,
+  "start": 1616.72,
+  "end": 1622.88,
+  "speaker": "Andrew",
+  "en": "Uh, you have things like when a task finishes, I want to post back to the issue tracker.",
+  "zh": "呃，你有这样的事情，当任务完成时，我想回发到问题跟踪器。"
+ },
+ {
+  "seg": 285,
+  "start": 1623.12,
+  "end": 1628.88,
+  "speaker": "Andrew",
+  "en": "And so alongside the Tesla agent, we're releasing a whole bunch of building blocks that make those parts easy.",
+  "zh": "因此，除了 Tesla 智能体，我们"
+ },
+ {
+  "seg": 286,
+  "start": 1629.04,
+  "end": 1642.24,
+  "speaker": "Andrew",
+  "en": "So the big one that you mentioned, Tesla launch, is just a sort of dead simple drop-it in coding agent environment, runs in the cloud, gathers all the logs for you to review, and do that sort of optimization loop against.",
+  "zh": "所以你提到的那件大事，Tesla 发布，只是一种非常简单的放入式编码智能体环境，在云端运行，为你收集所有日志供你审查，并针对其进行那种优化循环。"
+ },
+ {
+  "seg": 287,
+  "start": 1642.32,
+  "end": 1644.08,
+  "speaker": "Andrew",
+  "en": "Uh but it also just has good defaults.",
+  "zh": "但它也确实有很好的默认设置。"
+ },
+ {
+  "seg": 288,
+  "start": 1644.16,
+  "end": 1645.68,
+  "speaker": "Andrew",
+  "en": "It can run for longer than 60 minutes.",
+  "zh": "它可以运行超过 60 分钟。"
+ },
+ {
+  "seg": 289,
+  "start": 1645.76,
+  "end": 1648.48,
+  "speaker": "Andrew",
+  "en": "It doesn't have to refresh its GitHub action token all the time.",
+  "zh": "它不必一直刷新它的 GitHub Action token。"
+ },
+ {
+  "seg": 290,
+  "start": 1649.2,
+  "end": 1650.48,
+  "speaker": "Andrew",
+  "en": "Easy to switch between agents.",
+  "zh": "在智能体之间切换很容易。"
+ },
+ {
+  "seg": 291,
+  "start": 1650.72,
+  "end": 1654.48,
+  "speaker": "Andrew",
+  "en": "There's a few others that I'm sure will detail in the in the launch blog post.",
+  "zh": "我想还有其他几点，肯定会在发布的博客文章中详细说明。"
+ },
+ {
+  "seg": 292,
+  "start": 1654.64,
+  "end": 1662.08,
+  "speaker": "Andrew",
+  "en": "But all these things come together to your point to make it really easy to just start building your factory one piece at a time.",
+  "zh": "但正如你所说，所有这些东西结合在一起，使得很容易就开始一次一件地构建你的工厂。"
+ },
+ {
+  "seg": 293,
+  "start": 1662.56,
+  "end": 1671.36,
+  "speaker": "Andrew",
+  "en": "You don't have to pause and do a foundational investment to build a linear app and a GitHub app that can talk to each other and then think about the polling semantics.",
+  "zh": "你不必停下来做基础性投资去构建一个 Linear 应用和一个 GitHub 应用让它们互相通信，然后再去考虑轮询语义。"
+ },
+ {
+  "seg": 294,
+  "start": 1671.52,
+  "end": 1676.88,
+  "speaker": "Andrew",
+  "en": "You can just find a task, put it in automation, and then find the next task, find the next task.",
+  "zh": "你只需找到一个任务，把它放入自动化，然后找到下一个任务，找到下一个任务。"
+ },
+ {
+  "seg": 295,
+  "start": 1677.04,
+  "end": 1680.48,
+  "speaker": "Andrew",
+  "en": "And it's never going to feel like you're stopping to do this big initiative.",
+  "zh": "这绝不会让人觉得你停下来是为了做这项大工程。"
+ },
+ {
+  "seg": 296,
+  "start": 1680.64,
+  "end": 1683.28,
+  "speaker": "Andrew",
+  "en": "You're just slowly working towards automation.",
+  "zh": "你只是在慢慢朝着自动化迈进。"
+ },
+ {
+  "seg": 297,
+  "start": 1683.84,
+  "end": 1685.6,
+  "speaker": "Simon Maple",
+  "en": "Yeah, so I I love I love that definition.",
+  "zh": "是的，所以……我，我喜欢那个定义。"
+ },
+ {
+  "seg": 298,
+  "start": 1685.68,
+  "end": 1692.64,
+  "speaker": "Simon Maple",
+  "en": "And I guess also probably as people think about sort of Tesla as a whole, you know, we increasingly think about Tesla as this sort of composable factory, right?",
+  "zh": "我想大概当人们从整体上考虑 Tesla 时，你知道，我们越来越多地把 Tesla 视为这种可组合的工厂，对吧？"
+ },
+ {
+  "seg": 299,
+  "start": 1693.2,
+  "end": 1697.12,
+  "speaker": "Simon Maple",
+  "en": "And you run the agent and you can use the TESL tools, and clearly, you know, we're sort of quite familiar.",
+  "zh": "然后你运行智能体，你可以使用 TESL 工具，显然，你知道，我们对此相当熟悉。"
+ },
+ {
+  "seg": 300,
+  "start": 1697.2,
+  "end": 1699.52,
+  "speaker": "Simon Maple",
+  "en": "We built the tools for a reason, you know, we have those.",
+  "zh": "我们构建这些工具是有原因的，你知道，我们有这些。"
+ },
+ {
+  "seg": 301,
+  "start": 1699.68,
+  "end": 1710.8,
+  "speaker": "Simon Maple",
+  "en": "Uh whether those are the existing tools like our ability to eval and gather logs and uh and analyze them, uh, but also, you know, or these sort of newer capabilities that we're that we're introducing.",
+  "zh": "无论是现有的工具，比如我们评估和收集日志以及分析它们的能力，还是，你知道，或者我们要引入的这些较新的能力。"
+ },
+ {
+  "seg": 302,
+  "start": 1710.88,
+  "end": 1716.64,
+  "speaker": "Simon Maple",
+  "en": "Uh but the idea of the agent is you know it can help pull that together and provide you these different services to help you.",
+  "zh": "但是智能体的理念是，你知道，它可以帮助把这些整合起来，并为你提供这些不同的服务来帮助你。"
+ },
+ {
+  "seg": 303,
+  "start": 1716.96,
+  "end": 1720.24,
+  "speaker": "Simon Maple",
+  "en": "So we said a lot about code review uh in the process of it.",
+  "zh": "所以我们在代码审查的过程中谈了很多关于它的事情。"
+ },
+ {
+  "seg": 304,
+  "start": 1720.4,
+  "end": 1725.12,
+  "speaker": "Simon Maple",
+  "en": "Can you just sort of quickly name a few other examples of loops or use cases that the agent can help you with?",
+  "zh": "你能不能只是快速举几个其他的循环或用例的例子，说明智能体可以帮助你？"
+ },
+ {
+  "seg": 305,
+  "start": 1725.76,
+  "end": 1731.6,
+  "speaker": "Andrew",
+  "en": "So there's sort of infinite, which is what always makes it hard to talk about these products, but I will I will control myself.",
+  "zh": "所以说是无限的，这总是让谈论这些产品变得很难，但我会我会克制一下。"
+ },
+ {
+  "seg": 306,
+  "start": 1732,
+  "end": 1732.72,
+  "speaker": "Andrew",
+  "en": "Yeah, just a few.",
+  "zh": "是的，就几个。"
+ },
+ {
+  "seg": 307,
+  "start": 1732.96,
+  "end": 1741.28,
+  "speaker": "Andrew",
+  "en": "Uh so after setting up code review, I think my next few favorite uh first is you can just ask the agent, what could I delegate to agents?",
+  "zh": "所以在设置代码审查之后，我认为我接下来的几个最喜欢的，首先是你可以直接问智能体，我可以把什么委托给智能体？"
+ },
+ {
+  "seg": 308,
+  "start": 1741.44,
+  "end": 1751.52,
+  "speaker": "Andrew",
+  "en": "And it will go and look through recurring tasks that seem to succeed with a high rate for you, uh, and suggest creating automated uh CI CD actions around that.",
+  "zh": "它会去查看那些对你来说似乎成功率很高的重复性任务，并建议围绕它们创建自动化的 CI CD 操作。"
+ },
+ {
+  "seg": 309,
+  "start": 1751.76,
+  "end": 1764.72,
+  "speaker": "Andrew",
+  "en": "Another thing that you can do is if there is a certain component or type of feature that agents have been struggling with, you can just ask the Tesla agent, you know, help agents work in my front end, or make agents more effective at designing layouts.",
+  "zh": "你可以做的另一件事是，如果智能体在某个组件或功能类型上一直在挣扎，你可以直接问 Tesla 智能体，你知道，帮助智能体在我的前端工作，或者让智能体在设计布局方面更有效。"
+ },
+ {
+  "seg": 310,
+  "start": 1764.8,
+  "end": 1768.24,
+  "speaker": "Andrew",
+  "en": "And it will go and it will analyze fine failures, pull them in.",
+  "zh": "它会去并分析细微的失败，把它们收集起来。"
+ },
+ {
+  "seg": 311,
+  "start": 1768.4,
+  "end": 1772.56,
+  "speaker": "Andrew",
+  "en": "Uh another great one to get started is just make my repo agent ready.",
+  "zh": "另一个很好的入门方法是只需让我的仓库准备好智能体。"
+ },
+ {
+  "seg": 312,
+  "start": 1772.72,
+  "end": 1785.6,
+  "speaker": "Andrew",
+  "en": "Uh this will do a bunch of things, but one of the main things is we have a bunch of default repo maintenance tasks like uh daily architecture review, uh test quality checks, things like that that we'll just set up for you.",
+  "zh": "这会做很多事情，但主要的事情之一是我们有一堆默认的仓库维护任务，比如每日架构审查、测试质量检查，像这样的事情，我们会直接为你设置。"
+ },
+ {
+  "seg": 313,
+  "start": 1785.76,
+  "end": 1792.4,
+  "speaker": "Andrew",
+  "en": "It's a great way to get going of just immediately hand off a bunch of work to agents in a sort of general purpose way.",
+  "zh": "这是一个开始行动的好方法，只需立即以一种通用的方式将大量工作移交给智能体。"
+ },
+ {
+  "seg": 314,
+  "start": 1792.64,
+  "end": 1807.76,
+  "speaker": "Andrew",
+  "en": "So I'd say those are probably the ones that get started, just set up code review, fix a thorny issue where agents have just been messing up in your code base, set up repo maintenance tasks, or just ask the Tesla agent to help you delegate more work to AI, and then it'll go from there.",
+  "zh": "所以我想说那些可能是入门的操作，只需设置代码审查，修复智能体一直在你的代码库中搞砸的棘手问题，设置仓库维护任务，或者只是让 Tesla 智能体帮助你将更多工作委托给 AI，然后它就会从那里开始。"
+ },
+ {
+  "seg": 315,
+  "start": 1808.08,
+  "end": 1808.72,
+  "speaker": "Simon Maple",
+  "en": "Yeah, I love those.",
+  "zh": "是的，我喜欢这些。"
+ },
+ {
+  "seg": 316,
+  "start": 1808.8,
+  "end": 1812.96,
+  "speaker": "Simon Maple",
+  "en": "I also uh I like uh recurring things around all of those activities.",
+  "zh": "我也，我也喜欢所有这些活动周围的循环事物。"
+ },
+ {
+  "seg": 317,
+  "start": 1813.04,
+  "end": 1820.8,
+  "speaker": "Simon Maple",
+  "en": "And so like each of those things, once you get them loopy, uh you you start saying, okay, run a kind of recurring architecture review.",
+  "zh": "所以就像每一件事，一旦你让它们循环起来，你你就开始说，好的，运行一种循环的架构审查。"
+ },
+ {
+  "seg": 318,
+  "start": 1821.2,
+  "end": 1824.4,
+  "speaker": "Simon Maple",
+  "en": "You know, fix my flaky tests uh on a recurring fashion.",
+  "zh": "你知道，以循环的方式修复我的不稳定测试。"
+ },
+ {
+  "seg": 319,
+  "start": 1824.64,
+  "end": 1824.8,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 320,
+  "start": 1824.96,
+  "end": 1828.96,
+  "speaker": "Andrew",
+  "en": "Uh and once you have one set of loops, then you can make loops around those loops.",
+  "zh": "一旦你有了一组循环，你就可以在那些循环周围制造循环。"
+ },
+ {
+  "seg": 321,
+  "start": 1829.2,
+  "end": 1838.96,
+  "speaker": "Andrew",
+  "en": "So you set up your daily architecture review, but then eventually you can set up a loop that monitors your daily architecture review and makes it more effective every single day or week.",
+  "zh": "所以你设置了你的每日架构审查，但最终你可以设置一个循环来监控你的每日架构审查，并使它每一天或每一周都更有效。"
+ },
+ {
+  "seg": 322,
+  "start": 1839.2,
+  "end": 1843.44,
+  "speaker": "Andrew",
+  "en": "And all of this, I know it can seem a bit overwhelming, just you know, loops on loops on loops.",
+  "zh": "所有这些，我知道这可能看起来有点让人不知所措，你知道，循环套循环套循环。"
+ },
+ {
+  "seg": 323,
+  "start": 1843.68,
+  "end": 1845.44,
+  "speaker": "Andrew",
+  "en": "Tesla agent is designed to handle all of this.",
+  "zh": "Tesla 智能体被设计用来处理所有这些。"
+ },
+ {
+  "seg": 324,
+  "start": 1845.52,
+  "end": 1848.48,
+  "speaker": "Andrew",
+  "en": "So you just give it the task, give it the problem you're seeing.",
+  "zh": "所以你只需给它任务，给它你看到的问题。"
+ },
+ {
+  "seg": 325,
+  "start": 1848.72,
+  "end": 1857.04,
+  "speaker": "Andrew",
+  "en": "And uh one of the main things that the Tesla Agent does is think about how to break it down into a loop and suggest an automation so that you never have to do the same task more than once or twice.",
+  "zh": "Tesla Agent 所做的主要事情之一是思考如何将其分解为一个循环并建议一个自动化，这样你就不必执行相同的任务超过一两次。"
+ },
+ {
+  "seg": 326,
+  "start": 1857.36,
+  "end": 1857.44,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 327,
+  "start": 1857.68,
+  "end": 1864.08,
+  "speaker": "Simon Maple",
+  "en": "And maybe I'll also highlight that many of these automations and these loops, they will uh oftentimes be focused on the repo itself.",
+  "zh": "也许我还要强调，许多这些自动化和循环，它们通常会集中在仓库本身。"
+ },
+ {
+  "seg": 328,
+  "start": 1864.24,
+  "end": 1878.72,
+  "speaker": "Simon Maple",
+  "en": "So like the other flexible aspect of it is do you uh like oftentimes you will set up those uh optimizations and they will land uh as let's say a GitHub action, right, that runs on a schedule or things like that if you're sort of doing something that's in the repo.",
+  "zh": "所以它另一个灵活的方面是你会不会，你会经常设置那些优化，它们会作为比如说一个 GitHub action 落地，对吧，如果你正在做一些仓库里的事情，它会按计划运行或类似的事情。"
+ },
+ {
+  "seg": 329,
+  "start": 1878.96,
+  "end": 1883.12,
+  "speaker": "Simon Maple",
+  "en": "And then of course you can kind of set up uh automations that are that are a bit more broadly.",
+  "zh": "当然，你也可以设置更广泛的自动化。"
+ },
+ {
+  "seg": 330,
+  "start": 1883.36,
+  "end": 1884.24,
+  "speaker": "Simon Maple",
+  "en": "So lots and lots to do.",
+  "zh": "所以有很多事情要做。"
+ },
+ {
+  "seg": 331,
+  "start": 1884.96,
+  "end": 1885.36,
+  "speaker": "Andrew",
+  "en": "So much to do.",
+  "zh": "有太多事情要做。"
+ },
+ {
+  "seg": 332,
+  "start": 1885.84,
+  "end": 1893.52,
+  "speaker": "Simon Maple",
+  "en": "So a common question that that we kind of get and sort of discuss with customers around this notion of like building a factory versus buying one, right?",
+  "zh": "所以我们经常收到并经常与客户讨论的一个常见问题是关于像自建工厂还是购买工厂这样的概念，对吧？"
+ },
+ {
+  "seg": 333,
+  "start": 1893.68,
+  "end": 1899.6,
+  "speaker": "Simon Maple",
+  "en": "I think uh today it's sort of a non-controversial statement to say that everybody needs to kind of work towards a factory.",
+  "zh": "我认为今天这可以说是一个非争议性的声明，每个人都应该努力朝着工厂的方向发展。"
+ },
+ {
+  "seg": 334,
+  "start": 1899.76,
+  "end": 1900.56,
+  "speaker": "Simon Maple",
+  "en": "I've read it when you're gonna do it.",
+  "zh": "我已经读过它，当你打算做的时候。"
+ },
+ {
+  "seg": 335,
+  "start": 1900.64,
+  "end": 1900.72,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 336,
+  "start": 1901.36,
+  "end": 1907.28,
+  "speaker": "Simon Maple",
+  "en": "Maybe you can say a few words about sort of our philosophy when it comes to kind of factory building and kind of you know, own it versus buy it.",
+  "zh": "也许你可以说几句关于我们在工厂建设方面的理念，以及关于你知道，拥有它还是购买它。"
+ },
+ {
+  "seg": 337,
+  "start": 1907.68,
+  "end": 1908.32,
+  "speaker": "Andrew",
+  "en": "Yeah, of course.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 338,
+  "start": 1908.56,
+  "end": 1912.16,
+  "speaker": "Andrew",
+  "en": "So uh I'll I'll bligh some of my roots here.",
+  "zh": "所以我会在在这里 bligh 我的一些根基。"
+ },
+ {
+  "seg": 339,
+  "start": 1912.32,
+  "end": 1919.6,
+  "speaker": "Andrew",
+  "en": "I started my career working on open web platform, uh web standards, so certainly have a bit of a bleeding heart for this as well.",
+  "zh": "我开始了我的职业生涯，从事开放网络平台工作，网络标准，所以当然对此也有一点赤诚之心。"
+ },
+ {
+  "seg": 340,
+  "start": 1919.76,
+  "end": 1922.88,
+  "speaker": "Andrew",
+  "en": "But I also think it's it makes good sound business sense.",
+  "zh": "但我也认为它这听起来很有商业意义。"
+ },
+ {
+  "seg": 341,
+  "start": 1923.04,
+  "end": 1928.48,
+  "speaker": "Andrew",
+  "en": "Uh at TESL, we think that the factory that you build is gonna be a piece of technology.",
+  "zh": "在 TESL，我们认为你构建的工厂将是一项技术。"
+ },
+ {
+  "seg": 342,
+  "start": 1928.56,
+  "end": 1930.96,
+  "speaker": "Andrew",
+  "en": "It's gonna be a differentiator that your team owns.",
+  "zh": "它将是一个你的团队拥有的差异化因素。"
+ },
+ {
+  "seg": 343,
+  "start": 1931.12,
+  "end": 1945.28,
+  "speaker": "Andrew",
+  "en": "It's part of your software discipline is building and maintaining this factory, and that there will be repeating components to a factory, but that everyone's factory will look slightly different based on your preferences and the services that you use.",
+  "zh": "它是你软件纪律的一部分，即构建和维护这个工厂，工厂将有重复的组件，但每个人的工厂看起来"
+ },
+ {
+  "seg": 344,
+  "start": 1946,
+  "end": 1956.08,
+  "speaker": "Andrew",
+  "en": "So factory uh platforms will be much more like platforms, less like frameworks or like end-to-end solutions that you just buy off-the-shelf black box.",
+  "zh": "所以 factory uh 平台会更像平台，不太像框架或者像你只需购买的开箱即用黑盒那样的端到端解决方案。"
+ },
+ {
+  "seg": 345,
+  "start": 1956.24,
+  "end": 1958,
+  "speaker": "Andrew",
+  "en": "Uh, and we think that for a few reasons.",
+  "zh": "呃，我们认为这是出于几个原因。"
+ },
+ {
+  "seg": 346,
+  "start": 1958.16,
+  "end": 1965.52,
+  "speaker": "Andrew",
+  "en": "I think the most important one is that when you think about the grand total of building software products, right?",
+  "zh": "我认为最重要的一点是，当你思考构建软件产品的总体情况时，对吧？"
+ },
+ {
+  "seg": 347,
+  "start": 1965.6,
+  "end": 1967.36,
+  "speaker": "Andrew",
+  "en": "There's a lot that goes into it.",
+  "zh": "里面涉及很多东西。"
+ },
+ {
+  "seg": 348,
+  "start": 1967.52,
+  "end": 1976.72,
+  "speaker": "Andrew",
+  "en": "It just seems hard to imagine how a single provider, a single company could be best in breed at every single component that goes into that, right?",
+  "zh": "看起来很难想象，一个单一提供商，一家单一公司如何在涉及其中的每一个单一组件上都做到同类最佳，对吧？"
+ },
+ {
+  "seg": 349,
+  "start": 1977.04,
+  "end": 1986.96,
+  "speaker": "Andrew",
+  "en": "Design, mock-ups, code review, actually generating code, uh working with your legal team, sales, like all those things need to be brought into the factory over time.",
+  "zh": "设计、模型、代码审查，实际生成代码，呃与你的法务团队合作、销售，像所有这些东西随时间推移都需要被引入到工厂中。"
+ },
+ {
+  "seg": 350,
+  "start": 1987.12,
+  "end": 1995.2,
+  "speaker": "Andrew",
+  "en": "And buying into a single solution, somewhere in that stack, you're gonna be buying into not the best version of that component.",
+  "zh": "并且投入单一的解决方案，在那个堆栈的某个地方，你将要投入的不是该组件的最佳版本。"
+ },
+ {
+  "seg": 351,
+  "start": 1995.36,
+  "end": 2002.32,
+  "speaker": "Andrew",
+  "en": "And so we think that being open, modular, like Tesla wants to provide good defaults, so you don't have to think about it if you don't care about it.",
+  "zh": "所以我们认为要开放、模块化，就像 Tesla 想要提供良好的默认值，这样如果你不在乎它，你就不必去思考它。"
+ },
+ {
+  "seg": 352,
+  "start": 2002.48,
+  "end": 2013.2,
+  "speaker": "Andrew",
+  "en": "But for the parts that you care about, you need to be able to plug in either your own built solution or the best of breed so that you can uh be getting the results that you need.",
+  "zh": "但对于你关心的部分，你需要能够插入你自己构建的解决方案或同类最佳的方案，这样你才能……嗯，获得你需要的结果。"
+ },
+ {
+  "seg": 353,
+  "start": 2013.44,
+  "end": 2013.52,
+  "speaker": "Andrew",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 354,
+  "start": 2013.84,
+  "end": 2014.96,
+  "speaker": "Andrew",
+  "en": "That's a that's an important one.",
+  "zh": "那是一个……重要的点。"
+ },
+ {
+  "seg": 355,
+  "start": 2015.12,
+  "end": 2024.88,
+  "speaker": "Andrew",
+  "en": "I think the other is that when you think of how critical this factory is going to be to your company, I mean, in effect, it is the thing that produces your product.",
+  "zh": "我想另一点是，当你思考这个工厂对你的公司将多么关键时，我的意思是，实际上，它是生产你的产品的东西。"
+ },
+ {
+  "seg": 356,
+  "start": 2025.28,
+  "end": 2026,
+  "speaker": "Simon Maple",
+  "en": "But you're developing that.",
+  "zh": "但你正在开发它。"
+ },
+ {
+  "seg": 357,
+  "start": 2026.64,
+  "end": 2026.8,
+  "speaker": "Andrew",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 358,
+  "start": 2027.04,
+  "end": 2034.64,
+  "speaker": "Andrew",
+  "en": "And so it's a very sensitive place to be bought into a fully integrated solution that now has complete pricing leverage over you, right?",
+  "zh": "所以，投入一个现在对你拥有完全定价杠杆的完全集成的解决方案，是一个非常敏感的处境，对吧？"
+ },
+ {
+  "seg": 359,
+  "start": 2034.72,
+  "end": 2045.6,
+  "speaker": "Andrew",
+  "en": "If you think about just the sorts of processes and workflows that you bake in, right, they're very specific, and that's part of what becomes your IP, your moat against competitors.",
+  "zh": "如果你只考虑你融入的流程和工作流种类，对吧，它们是非常具体的，而且那是成为你的知识产权（IP）、你抵御竞争对手的护城河的一部分。"
+ },
+ {
+  "seg": 360,
+  "start": 2045.76,
+  "end": 2052.56,
+  "speaker": "Andrew",
+  "en": "But imagine if then all of that work you've built to differentiate yourself is now owned by someone else.",
+  "zh": "但试想一下，如果你为了差异化而构建的所有工作现在归别人所有了。"
+ },
+ {
+  "seg": 361,
+  "start": 2052.8,
+  "end": 2060.64,
+  "speaker": "Andrew",
+  "en": "And so they say, hey, everything that makes your company you is in our ecosystem, and so we're going to crank up the token cost, the token spend, et cetera.",
+  "zh": "然后他们会说，嘿，让你们的公司之所以为你们的一切都在我们的生态系统中，所以我们要提高 token 成本，token 支出，等等。"
+ },
+ {
+  "seg": 362,
+  "start": 2060.72,
+  "end": 2069.6,
+  "speaker": "Andrew",
+  "en": "And so we think that your factory needs to be built on an open modular framework that you can sort of trust to assess its own work, right?",
+  "zh": "所以我们认为你的工厂需要建立在一个开放的模块化框架上，你可以……有点信任它去评估它自己的工作，对吧？"
+ },
+ {
+  "seg": 363,
+  "start": 2069.76,
+  "end": 2080.72,
+  "speaker": "Andrew",
+  "en": "Fact optimizing the factory is like an important component of the factory, and so you need to trust it when it says, hey, this time you really do need to use the biggest model and you do need to spend 50% more on tokens.",
+  "zh": "事实上，优化工厂就像是工厂的一个重要组件，所以当它说，嘿，这次你真的需要使用最大的模型并且你真的需要在 tokens 上多花 50% 时，你需要信任它。"
+ },
+ {
+  "seg": 364,
+  "start": 2080.96,
+  "end": 2083.84,
+  "speaker": "Andrew",
+  "en": "You don't want to be questioning those kinds of suggestions.",
+  "zh": "你不想去质疑那些类型的建议。"
+ },
+ {
+  "seg": 365,
+  "start": 2084,
+  "end": 2098.72,
+  "speaker": "Andrew",
+  "en": "Uh and then finally, it's like a big part of TESIL is we like to think of there's the rails that your factory runs on, and then there are the artifacts and knowledge, the context basically that powers those rails in the factory.",
+  "zh": "呃最后，TESIL 的很大一部分是我们喜欢这样想：有你的工厂运行所依赖的轨道，然后有人工制品和知识，基本上是为工厂中的那些轨道提供动力的上下文。"
+ },
+ {
+  "seg": 366,
+  "start": 2098.88,
+  "end": 2105.68,
+  "speaker": "Andrew",
+  "en": "And for that, we believe that you should own those artifacts so that you can always pick up and move to another provider.",
+  "zh": "因此，我们认为你应该拥有那些人工制品，这样你就可以随时收拾行囊并迁移到另一个提供商。"
+ },
+ {
+  "seg": 367,
+  "start": 2105.84,
+  "end": 2108.96,
+  "speaker": "Andrew",
+  "en": "Uh you basically own the secret sauce, right?",
+  "zh": "呃你基本上拥有秘方，对吧？"
+ },
+ {
+  "seg": 368,
+  "start": 2109.12,
+  "end": 2111.36,
+  "speaker": "Andrew",
+  "en": "So a great example of this with code review.",
+  "zh": "所以用代码审查来做的一个很好的例子。"
+ },
+ {
+  "seg": 369,
+  "start": 2111.6,
+  "end": 2119.36,
+  "speaker": "Andrew",
+  "en": "We think that there is a general harness that should provide code review, but you don't want the brain of your code review to be locked inside that harness.",
+  "zh": "我们认为应该有一个通用的线束来提供代码审查，但你不希望你的代码审查的大脑被锁在那个线束里。"
+ },
+ {
+  "seg": 370,
+  "start": 2119.6,
+  "end": 2123.52,
+  "speaker": "Andrew",
+  "en": "You want to be able to say, look, we found a better tool, we're going to move to it.",
+  "zh": "你希望能够说，看，我们找到了一个更好的工具，我们要迁移到它那里。"
+ },
+ {
+  "seg": 371,
+  "start": 2123.76,
+  "end": 2130.16,
+  "speaker": "Andrew",
+  "en": "All of the work we've put into finely crafting our workflow, our style guide, the things that we've worked for.",
+  "zh": "我们投入的所有工作，用于精心打造我们的工作流、我们的风格指南，我们要为之努力的东西。"
+ },
+ {
+  "seg": 372,
+  "start": 2130.4,
+  "end": 2132.72,
+  "speaker": "Andrew",
+  "en": "That's just a skill checked into our repo.",
+  "zh": "那只是一个检入我们仓库的技能。"
+ },
+ {
+  "seg": 373,
+  "start": 2132.8,
+  "end": 2134.48,
+  "speaker": "Andrew",
+  "en": "So we can go plug that into any brain.",
+  "zh": "所以我们可以去把它插入任何大脑。"
+ },
+ {
+  "seg": 374,
+  "start": 2134.56,
+  "end": 2136.48,
+  "speaker": "Simon Maple",
+  "en": "Aaron Powell And I think so.",
+  "zh": "Aaron Powell，我是这么认为的。"
+ },
+ {
+  "seg": 375,
+  "start": 2136.72,
+  "end": 2147.2,
+  "speaker": "Simon Maple",
+  "en": "This is very consistent with how we've generally been thinking about sort of context and skills and building those out, which is, you know, we we believe in the future you will have many agents because agents will specialize in different things.",
+  "zh": "这与我们要如何一般性地思考上下文和技能以及构建它们是非常一致的，也就是，你知道，我们相信在未来你将拥有许多智能体，因为智能体将专攻不同的事情。"
+ },
+ {
+  "seg": 376,
+  "start": 2147.36,
+  "end": 2150.24,
+  "speaker": "Simon Maple",
+  "en": "Uh we think you will need to sort of share context with them.",
+  "zh": "呃我们认为你需要与它们共享上下文。"
+ },
+ {
+  "seg": 377,
+  "start": 2150.32,
+  "end": 2153.36,
+  "speaker": "Simon Maple",
+  "en": "Uh and similarly, we think you'll actually have multiple factories.",
+  "zh": "呃同样地，我们认为实际上你将有多个工厂。"
+ },
+ {
+  "seg": 378,
+  "start": 2153.44,
+  "end": 2162.4,
+  "speaker": "Simon Maple",
+  "en": "You know, you'll have different factory lines or different sort of uh aspects that optimize for uh different different parts and different sort of you know stages of uh of development.",
+  "zh": "你知道，你将拥有不同的工厂产线或不同种类的……呃方面，针对……呃不同的部分和不同种类的……你知道的开发阶段进行优化。"
+ },
+ {
+  "seg": 379,
+  "start": 2162.64,
+  "end": 2170.4,
+  "speaker": "Simon Maple",
+  "en": "And and really we're talking a lot about software factories over here, uh, but we expect very much that this sort of expands into uh agentic factories.",
+  "zh": "而且，实际上我们在这里谈论了很多关于软件工厂，呃，但我们非常期望这会扩展到……呃智能体工厂。"
+ },
+ {
+  "seg": 380,
+  "start": 2170.56,
+  "end": 2170.72,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 381,
+  "start": 2170.96,
+  "end": 2182.32,
+  "speaker": "Simon Maple",
+  "en": "Um and also like maybe it's worth pointing out that uh you know what while like all of this stuff it it could sound a little bit like a like a change from what we have been discussing uh all this time, right?",
+  "zh": "呃而且也许值得指出的是……呃你知道，虽然……所有这些东西听起来可能有点像……像是我们一直以来都在讨论的内容的一个改变，对吧？"
+ },
+ {
+  "seg": 382,
+  "start": 2182.48,
+  "end": 2194.48,
+  "speaker": "Simon Maple",
+  "en": "Like we uh we've been talking about sort of scaling skills and governing them and uh and securing them, uh, and a lot about you know context and context is the new code, you know, and how do we think about that?",
+  "zh": "就像我们……呃我们一直在谈论扩展技能并管理它们，以及……呃 securing（保护）它们，呃，以及很多关于你知道上下文以及上下文就是新的代码，你知道，以及我们如何思考这一点？"
+ },
+ {
+  "seg": 383,
+  "start": 2194.64,
+  "end": 2203.2,
+  "speaker": "Simon Maple",
+  "en": "Um so I guess it's uh it's worth maybe taking a moment a little bit to say, like this is we don't perceive this as a pivot, we see it as an expansion.",
+  "zh": "呿所以我猜这……呃也许值得花一点时间来说，就像这是我们不把它视为一个转向，我们将其视为一个扩张。"
+ },
+ {
+  "seg": 384,
+  "start": 2203.44,
+  "end": 2211.84,
+  "speaker": "Simon Maple",
+  "en": "I guess how how does all of this conversation around scaling context, scaling skills, uh that you know, again, customers have a real pain around it?",
+  "zh": "我猜……关于扩展上下文、扩展技能的所有这些对话如何，呃……你知道，再次，客户对此有真正的痛点？"
+ },
+ {
+  "seg": 385,
+  "start": 2211.92,
+  "end": 2212,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 386,
+  "start": 2212.16,
+  "end": 2213.76,
+  "speaker": "Simon Maple",
+  "en": "How does that relate to the agent?",
+  "zh": "这与智能体有什么关系？"
+ },
+ {
+  "seg": 387,
+  "start": 2213.84,
+  "end": 2221.92,
+  "speaker": "Simon Maple",
+  "en": "You know, like over here we're starting saying loop engineering, you kind of alluded to harness engineering on it, which again probably needs like its own kind of conversation on the podcast.",
+  "zh": "你知道，就像在这里我们开始说循环工程，你稍微暗示了它的线束工程，这再次可能需要在播客上拥有它自己那种对话。"
+ },
+ {
+  "seg": 388,
+  "start": 2222.24,
+  "end": 2225.12,
+  "speaker": "Simon Maple",
+  "en": "Um how uh how do you see the two interacting?",
+  "zh": "呿你……呃如何看待两者的互动？"
+ },
+ {
+  "seg": 389,
+  "start": 2225.44,
+  "end": 2225.6,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 390,
+  "start": 2226.08,
+  "end": 2231.84,
+  "speaker": "Andrew",
+  "en": "Uh on the product team, there's always have this question of sort of what is our field to play on or not.",
+  "zh": "呿在产品团队，总是有这样一个问题，即我们的活动领域是什么或不是什么。"
+ },
+ {
+  "seg": 391,
+  "start": 2232,
+  "end": 2234,
+  "speaker": "Andrew",
+  "en": "And so you're always asking the question for a new feature.",
+  "zh": "所以你总是在为一个新功能问这个问题。"
+ },
+ {
+  "seg": 392,
+  "start": 2234.08,
+  "end": 2236.56,
+  "speaker": "Andrew",
+  "en": "Like, does it make sense for us to solve this problem?",
+  "zh": "比如，我们要解决这个问题有意义吗？"
+ },
+ {
+  "seg": 393,
+  "start": 2236.88,
+  "end": 2239.92,
+  "speaker": "Andrew",
+  "en": "And this is actually one of the easier choices or easier decisions.",
+  "zh": "这实际上是更容易的选择或更容易的决定之一。"
+ },
+ {
+  "seg": 394,
+  "start": 2240.08,
+  "end": 2251.76,
+  "speaker": "Andrew",
+  "en": "Uh, when we think of TESL's mission of agent enablement, we want to help you actually bring coding agents and you know all agents in the future to do real productive work for you.",
+  "zh": "呿，当我们想到 TESL 的智能体赋能使命时，我们要帮助你真正带来编码智能体并且你知道未来的所有智能体为你做真正的生产力工作。"
+ },
+ {
+  "seg": 395,
+  "start": 2251.92,
+  "end": 2254.56,
+  "speaker": "Andrew",
+  "en": "This just feels like a very natural extension of that.",
+  "zh": "这感觉像是那一点的一个非常自然的延伸。"
+ },
+ {
+  "seg": 396,
+  "start": 2254.8,
+  "end": 2263.2,
+  "speaker": "Andrew",
+  "en": "So in that regard, I think it's all part of the same goal, which is help you actually deploy and delegate work to agents effectively and get real productive work done.",
+  "zh": "所以在这方面，我认为这都是同一个目标的一部分，即帮助你真正有效地部署工作给智能体并委托工作，并完成真正的生产力工作。"
+ },
+ {
+  "seg": 397,
+  "start": 2263.52,
+  "end": 2269.84,
+  "speaker": "Andrew",
+  "en": "Maybe from a more mechanical perspective, I think all of these are aspects of the same solution.",
+  "zh": "也许从一个更机械的角度来看，我认为所有这些都是同一个解决方案的方面。"
+ },
+ {
+  "seg": 398,
+  "start": 2270.4,
+  "end": 2273.44,
+  "speaker": "Andrew",
+  "en": "So it really just sort of depends on where you're starting.",
+  "zh": "所以这实际上只是取决于你从哪里开始。"
+ },
+ {
+  "seg": 399,
+  "start": 2273.68,
+  "end": 2285.36,
+  "speaker": "Andrew",
+  "en": "So most companies uh that have gotten started with agents, they're starting to feel skill sprawl, they have hundreds, thousands of skills, they don't know which ones are good, they don't know where the duplicates are.",
+  "zh": "所以大多数……呃已经开始使用智能体的公司，他们开始感觉到技能蔓延，他们有成百上千个技能，他们不知道哪些是好的，他们不知道重复项在哪里。"
+ },
+ {
+  "seg": 400,
+  "start": 2285.6,
+  "end": 2285.68,
+  "speaker": "Andrew",
+  "en": "Right.",
+  "zh": "对的。"
+ },
+ {
+  "seg": 401,
+  "start": 2286.08,
+  "end": 2289.28,
+  "speaker": "Andrew",
+  "en": "Those folks want to get started on the governance end of the spectrum.",
+  "zh": "那些人想要从治理端的光谱开始。"
+ },
+ {
+  "seg": 402,
+  "start": 2289.6,
+  "end": 2301.04,
+  "speaker": "Andrew",
+  "en": "They're gonna say, help me inventory all of my skills, uh, use TESL to do a security review, find any vulnerabilities, then create policies to make sure that we never have this issue again.",
+  "zh": "他们会说，帮我清点我所有的技能，呃，使用 TESL 进行安全审查，发现任何漏洞，然后创建策略以确保我们再也不会遇到这个问题。"
+ },
+ {
+  "seg": 403,
+  "start": 2301.68,
+  "end": 2306.48,
+  "speaker": "Andrew",
+  "en": "They're gonna start doing review, quality review on skills, codifying their best practices.",
+  "zh": "他们将开始对技能进行审查、质量审查，将他们的最佳实践编成法典。"
+ },
+ {
+  "seg": 404,
+  "start": 2306.8,
+  "end": 2314.16,
+  "speaker": "Andrew",
+  "en": "You can think of this as taking charge of a sort of grounds up upswell that you want to now make sure scales effectively across your company.",
+  "zh": "你可以把它看作是掌控一种自下而上的激增，你现在想要确保它在你的整个公司中有效地扩展。"
+ },
+ {
+  "seg": 405,
+  "start": 2314.48,
+  "end": 2314.56,
+  "speaker": "Andrew",
+  "en": "Right.",
+  "zh": "对的。"
+ },
+ {
+  "seg": 406,
+  "start": 2314.72,
+  "end": 2326.4,
+  "speaker": "Simon Maple",
+  "en": "And it's worth noting that that's also the the whole world of non-dev skills is where we've seen a lot of pickup and adoption, which is uh we help a lot of customers deal with kind of that world of they have their sales skills, their marketing skills, their product skills on it.",
+  "zh": "值得注意的是，这也是整个非开发技能的世界，我们在那里看到了很多采用和采纳，也就是呃我们帮助许多客户处理那种他们拥有销售技能、营销技能、产品技能的世界。"
+ },
+ {
+  "seg": 407,
+  "start": 2326.88,
+  "end": 2330.88,
+  "speaker": "Simon Maple",
+  "en": "Uh those worlds are generally not ready for words like factory.",
+  "zh": "呃那些世界通常还没准备好接受像工厂这样的词。"
+ },
+ {
+  "seg": 408,
+  "start": 2330.96,
+  "end": 2337.52,
+  "speaker": "Simon Maple",
+  "en": "There are sort of a lot more around just I just want to sort of share best practices, basically usage packaged up in the form of skills and rules.",
+  "zh": "有更多的东西只是关于我只是想分享最佳实践，基本上是以技能和规则的形式打包的使用。"
+ },
+ {
+  "seg": 409,
+  "start": 2338,
+  "end": 2341.52,
+  "speaker": "Andrew",
+  "en": "I think of this as the very sort of bottoms-up form of factory building.",
+  "zh": "我认为这是非常自下而上的工厂构建形式。"
+ },
+ {
+  "seg": 410,
+  "start": 2341.68,
+  "end": 2344.48,
+  "speaker": "Andrew",
+  "en": "I increasingly I think of all of this as factory building.",
+  "zh": "我越来越认为这一切都是工厂构建。"
+ },
+ {
+  "seg": 411,
+  "start": 2344.56,
+  "end": 2349.84,
+  "speaker": "Andrew",
+  "en": "Uh the question is do you build a factory by focusing on the components first, right?",
+  "zh": "呃问题是你是否先通过关注组件来建立工厂，对吧？"
+ },
+ {
+  "seg": 412,
+  "start": 2350,
+  "end": 2357.84,
+  "speaker": "Andrew",
+  "en": "Like finding your workflows, putting them into skills, getting uh your team trained up on how to work with agents, how to review their work?",
+  "zh": "比如找到你的工作流，把它们放入技能中，让呃你的团队接受关于如何与智能体一起工作、如何审查它们工作的培训？"
+ },
+ {
+  "seg": 413,
+  "start": 2358.24,
+  "end": 2361.68,
+  "speaker": "Andrew",
+  "en": "Or are you a bit more on the leading edge of things?",
+  "zh": "或者你处于事情的前沿一点？"
+ },
+ {
+  "seg": 414,
+  "start": 2361.84,
+  "end": 2373.92,
+  "speaker": "Andrew",
+  "en": "You want to start factory first, and then as you get automated workflows running, you're gonna go in and decompose the components that matter that you then want to add in, things like governance or standardization.",
+  "zh": "你想先从工厂开始，然后当你让自动化工作流运行起来时，你将进入并分解那些重要的组件，然后你想要加入像治理或标准化这样的事情。"
+ },
+ {
+  "seg": 415,
+  "start": 2374.24,
+  "end": 2385.68,
+  "speaker": "Andrew",
+  "en": "So coming from this other direction, you might come in immediately with setup agentic code review, or agents can't work with our front-end layout, make it better, and then make sure they never get worse at it again, right?",
+  "zh": "所以从这个方向过来，你可能立即着手设置智能体代码审查，或者智能体无法处理我们的前端布局，让它变得更好，然后确保它永远不会再变差，对吧？"
+ },
+ {
+  "seg": 416,
+  "start": 2385.76,
+  "end": 2388,
+  "speaker": "Andrew",
+  "en": "And so you're starting with these loops.",
+  "zh": "所以你从这些循环开始。"
+ },
+ {
+  "seg": 417,
+  "start": 2388.08,
+  "end": 2397.84,
+  "speaker": "Andrew",
+  "en": "And I think it's a great way to get started if you are introducing your team for the first time to agents, because this is very focused on making agents effective and delegating work to them.",
+  "zh": "我认为这是一个很好的开始方式，如果你是第一次向你的团队介绍智能体，因为这非常专注于使智能体有效并向它们委派工作。"
+ },
+ {
+  "seg": 418,
+  "start": 2398.16,
+  "end": 2399.12,
+  "speaker": "Andrew",
+  "en": "It's a quick path to value.",
+  "zh": "这是一条通往价值的快速路径。"
+ },
+ {
+  "seg": 419,
+  "start": 2399.52,
+  "end": 2399.76,
+  "speaker": "Andrew",
+  "en": "Exactly.",
+  "zh": "确实如此。"
+ },
+ {
+  "seg": 420,
+  "start": 2400.08,
+  "end": 2402,
+  "speaker": "Simon Maple",
+  "en": "And you're actually setting yourself up in a good spot.",
+  "zh": "而且你实际上把自己置于一个很好的位置。"
+ },
+ {
+  "seg": 421,
+  "start": 2402.32,
+  "end": 2402.48,
+  "speaker": "Andrew",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 422,
+  "start": 2402.56,
+  "end": 2406.48,
+  "speaker": "Andrew",
+  "en": "And it helps you also uh isolate the change as you work, right?",
+  "zh": "它还可以帮助你在工作时呃隔离这种变化，对吧？"
+ },
+ {
+  "seg": 423,
+  "start": 2406.56,
+  "end": 2410.8,
+  "speaker": "Andrew",
+  "en": "You can have one team just get started with agents, make themselves a bit more effective.",
+  "zh": "你可以有一个团队只是开始使用智能体，让自己变得更有效率一点。"
+ },
+ {
+  "seg": 424,
+  "start": 2410.96,
+  "end": 2417.04,
+  "speaker": "Andrew",
+  "en": "Uh you don't have to worry about the governance and the security parts at this point, because it's just a one team working on it.",
+  "zh": "呃此时你不必担心治理和安全部分，因为它只是一个团队在处理它。"
+ },
+ {
+  "seg": 425,
+  "start": 2417.2,
+  "end": 2419.92,
+  "speaker": "Andrew",
+  "en": "But at some point you're gonna want to start scaling that out, right?",
+  "zh": "但在某个时刻你会想要开始扩展它，对吧？"
+ },
+ {
+  "seg": 426,
+  "start": 2420,
+  "end": 2423.92,
+  "speaker": "Andrew",
+  "en": "Like you'll have proven it with one team, they're effective, they've automated a lot of their work.",
+  "zh": "比如你已经在一个团队中证明了它，他们是有效的，他们已经自动化了很多工作。"
+ },
+ {
+  "seg": 427,
+  "start": 2424.08,
+  "end": 2431.92,
+  "speaker": "Andrew",
+  "en": "They want to start interfacing with other teams in this automated fashion, and that's where these governance and standardization primitives come in.",
+  "zh": "他们想开始以这种自动化的方式与其他团队交互，这就是这些治理和标准化原语介入的地方。"
+ },
+ {
+  "seg": 428,
+  "start": 2432.08,
+  "end": 2437.68,
+  "speaker": "Andrew",
+  "en": "We say, okay, now I'm gonna start hat letting everyone in the company throw skills into this registry.",
+  "zh": "我们说，好吧，现在我要开始让公司里的每个人都把技能扔进这个注册表。"
+ },
+ {
+  "seg": 429,
+  "start": 2437.84,
+  "end": 2441.2,
+  "speaker": "Andrew",
+  "en": "We see again and again is all of these things run at the pace of agents.",
+  "zh": "我们一次又一次地看到，所有这些东西都以智能体的速度运行。"
+ },
+ {
+  "seg": 430,
+  "start": 2441.36,
+  "end": 2444.88,
+  "speaker": "Andrew",
+  "en": "And so the first week you'll say, Oh, I'm just getting started with skills.",
+  "zh": "所以第一周你会说，哦，我才刚刚开始使用技能。"
+ },
+ {
+  "seg": 431,
+  "start": 2445.04,
+  "end": 2447.36,
+  "speaker": "Andrew",
+  "en": "And then the second week, you're like, I have 15,000 skills.",
+  "zh": "然后第二周，你会说，我有 15,000 个技能。"
+ },
+ {
+  "seg": 432,
+  "start": 2447.44,
+  "end": 2447.92,
+  "speaker": "Andrew",
+  "en": "What happened?",
+  "zh": "发生了什么？"
+ },
+ {
+  "seg": 433,
+  "start": 2448.16,
+  "end": 2448.32,
+  "speaker": "Andrew",
+  "en": "Right.",
+  "zh": "对的。"
+ },
+ {
+  "seg": 434,
+  "start": 2448.48,
+  "end": 2456.08,
+  "speaker": "Andrew",
+  "en": "So you kind of have to get these primitives in earlier than you probably would normally, but it really just depends on what are you trying to do first.",
+  "zh": "所以你不得不比你通常可能更早地把这些原语放进来，但这实际上取决于你首先想要做什么。"
+ },
+ {
+  "seg": 435,
+  "start": 2456.16,
+  "end": 2462.56,
+  "speaker": "Andrew",
+  "en": "Are you trying to bring agents across your organization, or are you trying to sort of go deep on some agentic flows and get them automated?",
+  "zh": "你是试图在整个组织中推广智能体，还是你试图深入某些智能体流程并实现它们的自动化？"
+ },
+ {
+  "seg": 436,
+  "start": 2462.8,
+  "end": 2463.04,
+  "speaker": "Andrew",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 437,
+  "start": 2463.2,
+  "end": 2463.6,
+  "speaker": "Simon Maple",
+  "en": "Cool, cool.",
+  "zh": "酷，酷。"
+ },
+ {
+  "seg": 438,
+  "start": 2463.76,
+  "end": 2463.92,
+  "speaker": "Simon Maple",
+  "en": "Yep.",
+  "zh": "对。"
+ },
+ {
+  "seg": 439,
+  "start": 2464.24,
+  "end": 2474.72,
+  "speaker": "Simon Maple",
+  "en": "So I I think um, you know, for for us, we try to build all of that in that type of kind of composable approach uh to uh to you know, kind of helping you build kind of that factory, that estate.",
+  "zh": "所以我，我想呃，你知道，对于我们来说，我们尝试以那种类型的可组合方法构建所有这些，呃来呃来，你知道，帮助你构建那种工厂，那种资产。"
+ },
+ {
+  "seg": 440,
+  "start": 2474.88,
+  "end": 2475.84,
+  "speaker": "Simon Maple",
+  "en": "So it's always in your control.",
+  "zh": "所以它总是在你的控制之下。"
+ },
+ {
+  "seg": 441,
+  "start": 2475.92,
+  "end": 2483.52,
+  "speaker": "Simon Maple",
+  "en": "It's your context, it's your plugins, it's your kind of workflows, and now it is sort of your loops and your uh your set of harnesses that we help you optimize.",
+  "zh": "它是你的上下文，它是你的插件，它是你的那种工作流，现在它是你的那种循环和你的呃你的一套线束，我们帮助你优化。"
+ },
+ {
+  "seg": 442,
+  "start": 2483.84,
+  "end": 2495.76,
+  "speaker": "Simon Maple",
+  "en": "Um and I guess just as a side comment, you know, we focus very much here on sort of the agent's um uh uh advantages and the sort of new competency from terms of like Tesla helping you with engineering and uh uh harness engineering.",
+  "zh": "呃我想只是作为一个附带评论，你知道，我们在这里非常专注于智能体的呃呃呃优势，以及那种新的能力，从像特斯拉帮助你进行工程和呃呃线束工程的方面来说。"
+ },
+ {
+  "seg": 443,
+  "start": 2496.16,
+  "end": 2507.44,
+  "speaker": "Simon Maple",
+  "en": "But you know the agent is also an interface for many other things, and we you know we love sort of seeing you know customers use it for customizing and defining their policy, for handling that inventory processes, for sort of building those out.",
+  "zh": "但你知道智能体也是许多其他事物的接口，我们你知道我们很喜欢看到你 know 客户使用它来定制和定义他们的策略，处理那些库存流程，构建那些东西。"
+ },
+ {
+  "seg": 444,
+  "start": 2507.52,
+  "end": 2508.64,
+  "speaker": "Simon Maple",
+  "en": "So excited about the agent.",
+  "zh": "所以对智能体感到兴奋。"
+ },
+ {
+  "seg": 445,
+  "start": 2508.72,
+  "end": 2516.96,
+  "speaker": "Simon Maple",
+  "en": "And it's interesting how you know we we kind of grew to to accept and get used to uh in the web interface having a little agent chat uh on the side.",
+  "zh": "有趣的是，你知道我们有点成长到去接受并习惯了呃在 Web 界面的一侧有一个小的智能体聊天。"
+ },
+ {
+  "seg": 446,
+  "start": 2517.2,
+  "end": 2526.32,
+  "speaker": "Simon Maple",
+  "en": "And to say, fine, yeah, you have you know all of these things that you can invoke, but then you can have the agent to just perform a bunch of actions for me, whether it's on my sort of slide deck or in my analytics portal or whatever it is.",
+  "zh": "然后说，好吧，是的，你有你知道你可以调用的所有这些东西，但你可以让智能体为我执行一系列操作，无论它是关于我的幻灯片还是在我的分析门户中或任何什么东西。"
+ },
+ {
+  "seg": 447,
+  "start": 2526.48,
+  "end": 2526.72,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 448,
+  "start": 2526.96,
+  "end": 2533.12,
+  "speaker": "Simon Maple",
+  "en": "Um but we we still think it's a slightly kind of bigger deal or change when it's on the command line interface.",
+  "zh": "呃但我们我们仍然认为当它在命令行界面上时，它是一个稍微更大的事情或变化。"
+ },
+ {
+  "seg": 449,
+  "start": 2533.2,
+  "end": 2539.76,
+  "speaker": "Simon Maple",
+  "en": "So in that sense, like it is also just a command line interface, and it will eventually make its way to the uh to the uh to the web interface as well.",
+  "zh": "所以在这个意义上，就像它也只是一个命令行界面，它最终会找到它通往呃通往呃通往 Web 界面的方式。"
+ },
+ {
+  "seg": 450,
+  "start": 2540.16,
+  "end": 2543.44,
+  "speaker": "Andrew",
+  "en": "Starting with the local CLI, it just kind of gives you the most flexibility.",
+  "zh": "从本地 CLI 开始，它只是给你提供了最大的灵活性。"
+ },
+ {
+  "seg": 451,
+  "start": 2543.52,
+  "end": 2548.72,
+  "speaker": "Andrew",
+  "en": "And so given TESL's overall approach to factory building, it just it seemed like a no-brainer.",
+  "zh": "鉴于 TESL 整体的建厂方法，这简直是不言而喻。"
+ },
+ {
+  "seg": 452,
+  "start": 2548.96,
+  "end": 2562.8,
+  "speaker": "Andrew",
+  "en": "Let's start with the thing that gives people the most power, and then exactly to your point, coming very soon we'll have much more streamlined interfaces for folks who aren't comfortable with a command line or who just want something in a simpler, GUI interface, things like that.",
+  "zh": "让我们从给人们最大权力的东西开始，然后正如你所说，很快我们将为那些不适应命令行或者只是想要更简单的、GUI 界面之类的东西的人提供更精简的界面。"
+ },
+ {
+  "seg": 453,
+  "start": 2563.12,
+  "end": 2565.92,
+  "speaker": "SPEAKER_02",
+  "en": "Hey everyone, hope you're enjoying the episode so far.",
+  "zh": "大家好，希望大家到目前为止喜欢这一集。"
+ },
+ {
+  "seg": 454,
+  "start": 2566.16,
+  "end": 2574.24,
+  "speaker": "SPEAKER_02",
+  "en": "Our team is working really hard behind the scenes to bring you the best guests so we can have the most informative conversations about agentic development.",
+  "zh": "我们的团队正在幕后非常努力地工作，为你带来最好的嘉宾，这样我们就可以进行关于智能体开发的、信息量最大的对话。"
+ },
+ {
+  "seg": 455,
+  "start": 2574.48,
+  "end": 2579.84,
+  "speaker": "SPEAKER_02",
+  "en": "Whether that's talking about the latest tools, the most efficient workflows, or defining best practices.",
+  "zh": "无论是谈论最新的工具、最高效的工作流程，还是定义最佳实践。"
+ },
+ {
+  "seg": 456,
+  "start": 2580,
+  "end": 2583.6,
+  "speaker": "SPEAKER_02",
+  "en": "But for whatever reason, many of you have yet to subscribe to the channel.",
+  "zh": "但无论出于什么原因，你们许多人还没有订阅这个频道。"
+ },
+ {
+  "seg": 457,
+  "start": 2583.84,
+  "end": 2590.64,
+  "speaker": "SPEAKER_02",
+  "en": "If you're enjoying the podcast and want us to continue to bring you the very best content, please do us a favor and hit that subscribe button.",
+  "zh": "如果你喜欢这个播客，并希望我们继续为你带来最好的内容，请帮我们一个忙，点击那个订阅按钮。"
+ },
+ {
+  "seg": 458,
+  "start": 2590.8,
+  "end": 2598.08,
+  "speaker": "SPEAKER_02",
+  "en": "It really does make a difference and lets us continue to improve the quality of our guests and build an even better product for you.",
+  "zh": "这真的很重要，也让我们能够继续提高嘉宾的质量，为你构建更好的产品。"
+ },
+ {
+  "seg": 459,
+  "start": 2598.4,
+  "end": 2600.4,
+  "speaker": "Simon Maple",
+  "en": "Alright, back to the episode.",
+  "zh": "好了，回到节目。"
+ },
+ {
+  "seg": 460,
+  "start": 2600.88,
+  "end": 2604.08,
+  "speaker": "Simon Maple",
+  "en": "So uh we're kind of running uh running up on time here.",
+  "zh": "所以呃我们有点呃时间快到了。"
+ },
+ {
+  "seg": 461,
+  "start": 2604.16,
+  "end": 2612,
+  "speaker": "Simon Maple",
+  "en": "Uh I want to maybe share kind of one learning uh from uh from the product building side of this, which I think is sort of useful and it's interesting.",
+  "zh": "呃我想也许可以分享一个来自呃从产品构建方面的学习，我认为这有点有用也很有趣。"
+ },
+ {
+  "seg": 462,
+  "start": 2612.08,
+  "end": 2617.28,
+  "speaker": "Simon Maple",
+  "en": "Uh or maybe even two, you know, one is it's just sort of reiterating the importance of ease of use, right?",
+  "zh": "呃或者甚至两个，你知道，一个是呃只是重申易用性的重要性，对吧？"
+ },
+ {
+  "seg": 463,
+  "start": 2617.36,
+  "end": 2629.28,
+  "speaker": "Simon Maple",
+  "en": "We're we're seeing this like in uh I I I I like talking about how you know even like in SNCC days, I would talk about uh ease of use for security and you know how uh for everything in life, there's how much you care about something and and how hard it is.",
+  "zh": "我们我们正看到这个就像在呃我我喜欢谈论你是知道的甚至就像在 SNCC 时代，我会谈论呃安全的易用性你知道怎么呃对于生活中的每一件事，都有你有多在乎某事和和它有多难。"
+ },
+ {
+  "seg": 464,
+  "start": 2629.36,
+  "end": 2631.2,
+  "speaker": "Simon Maple",
+  "en": "And you need to care more than it is hard.",
+  "zh": "而且你需要比它更难地去在乎。"
+ },
+ {
+  "seg": 465,
+  "start": 2631.28,
+  "end": 2633.12,
+  "speaker": "Simon Maple",
+  "en": "Uh and then and then you act.",
+  "zh": "呃然后然后你行动。"
+ },
+ {
+  "seg": 466,
+  "start": 2633.36,
+  "end": 2635.84,
+  "speaker": "Simon Maple",
+  "en": "Um and so it's interesting to see the action over here.",
+  "zh": "呃所以看到这里的行动很有趣。"
+ },
+ {
+  "seg": 467,
+  "start": 2636,
+  "end": 2639.76,
+  "speaker": "Simon Maple",
+  "en": "And I I I think one of the things we're trying to address in terms of ease of use.",
+  "zh": "我我认为我们在易用性方面试图解决的事情之一。"
+ },
+ {
+  "seg": 468,
+  "start": 2640.32,
+  "end": 2644.16,
+  "speaker": "Simon Maple",
+  "en": "Is uh is is just by the ease of use of getting into this business.",
+  "zh": "是呃是是只是通过进入这个行业的易用性。"
+ },
+ {
+  "seg": 469,
+  "start": 2644.48,
+  "end": 2652.64,
+  "speaker": "Simon Maple",
+  "en": "It it has kind of a newer problem, and it it's not a new problem that you can't keep up, but it's a much bigger problem right now on it.",
+  "zh": "它它有一种较新的问题，而它它不是一个你无法跟上的新问题，但目前这是一个更大的问题。"
+ },
+ {
+  "seg": 470,
+  "start": 2652.88,
+  "end": 2655.28,
+  "speaker": "Simon Maple",
+  "en": "So the agent kind of embodies a bunch of that knowledge.",
+  "zh": "所以智能体体现了其中的一堆知识。"
+ },
+ {
+  "seg": 471,
+  "start": 2655.36,
+  "end": 2670.8,
+  "speaker": "Simon Maple",
+  "en": "So, you know, yes, technically you can run it with whatever, you know, with your codex, with your cloud, with your sort of Gemini, but it's uh it's uh it's you need to know what you're doing and it's a lot of work, and then whatever it is you thought you knew, you know, like loop engineering is like a few weeks old and my best you know, in terms of a uh a term.",
+  "zh": "所以，你知道，是的，技术上你可以用任何东西运行它，你知道，用你的 codex，用你的云，用你那种 Gemini，但这呃这呃这你需要知道你在做什么，而且这是很多工作，然后无论你以为你知道什么，你知道，就像 loop engineering 就像几周前的事，而我最好的你知道，就呃一个术语而言。"
+ },
+ {
+  "seg": 472,
+  "start": 2671.12,
+  "end": 2677.68,
+  "speaker": "Simon Maple",
+  "en": "And so capture that knowledge, it's about ease of use of uh of the of the UX, being able to run a bunch of these things.",
+  "zh": "所以捕获这些知识，这关于呃的 UX 的易用性，能够运行一堆这些东西。"
+ },
+ {
+  "seg": 473,
+  "start": 2677.84,
+  "end": 2691.6,
+  "speaker": "Simon Maple",
+  "en": "It's about ease of use with sort of a Tesla providing a bunch of these tools around it, so you don't need to say, okay, you can do this, but now you need to equip yourself with seven different sort of foundations on it, which again over time you might modify, you might switch, you know, you sort of push us to sort of build better tools.",
+  "zh": "这关于易用性，通过某种 Tesla 提供围绕它的一堆工具，所以你不需要说，好的，你可以做这个，但现在你需要用七个不同的基础来装备自己，这再次随着时间的推移你可能会修改，你可能会切换，你知道，你有点推动我们要构建更好的工具。"
+ },
+ {
+  "seg": 474,
+  "start": 2691.84,
+  "end": 2695.2,
+  "speaker": "Simon Maple",
+  "en": "Uh and and I guess it's about the ease of use feedback loop, right?",
+  "zh": "呃还有我想这是关于易用性的反馈循环，对吧？"
+ },
+ {
+  "seg": 475,
+  "start": 2695.36,
+  "end": 2709.6,
+  "speaker": "Simon Maple",
+  "en": "Because what we've seen is we we created tools, we gave them to users, we wanted to make it easy, so we gave them skills as well, and they ran, but as they would run them in their sort of coding agent of choice, uh it was it was hard for us to fix problems like we've seen.",
+  "zh": "因为我们看到的是我们我们创建了工具，我们把它们给了用户，我们想让它变得容易，所以我们给了他们技能，然后他们运行了，但是当他们会在他们选择的编码智能体中运行它们时，呃这这对我们来说很难修复像我们看到的问题。"
+ },
+ {
+  "seg": 476,
+  "start": 2709.68,
+  "end": 2714.16,
+  "speaker": "Simon Maple",
+  "en": "It's hard to see visibility, like as a product developer, you want to be able to see what's going on so that you can improve.",
+  "zh": "很难看到可见性，就像作为一个产品开发者，你希望能够看到发生了什么，这样你就可以改进。"
+ },
+ {
+  "seg": 477,
+  "start": 2714.32,
+  "end": 2728.32,
+  "speaker": "Simon Maple",
+  "en": "Uh, it was hard to fix issues, you know, if the agents went sideways or a new whatever uh anthropic model sort of uh you know suddenly became less obedient, which we've had many uh uh many uh many cases of that, uh, or tuning it.",
+  "zh": "呃，很难修复问题，你知道，如果智能体偏离轨道或者一个新的不管什么呃 anthropic 模型那种呃你知道突然变得不那么听话，我们有很多呃呃很多呃很多这种情况，呃，或者调整它。"
+ },
+ {
+  "seg": 478,
+  "start": 2728.4,
+  "end": 2729.6,
+  "speaker": "Simon Maple",
+  "en": "And so the harness gives us that.",
+  "zh": "所以 harness 给了我们这个。"
+ },
+ {
+  "seg": 479,
+  "start": 2729.92,
+  "end": 2746.16,
+  "speaker": "Simon Maple",
+  "en": "So I guess as I as I think about uh uh and that this kind of spills a bit into my sort of second view, is that increasingly I think that the the shape of a product in the AI era is sort of these like four components, which is a set of tools that you build, which we used to call in like the pre-AI era products.",
+  "zh": "所以我想当我呃呃思考这个问题，这有点溢出到我的第二个观点，是越来越多的我认为 AI 时代产品的形状是这四个组件，也就是你构建的一组工具，我们在前 AI 时代称之为产品。"
+ },
+ {
+  "seg": 480,
+  "start": 2746.64,
+  "end": 2756.24,
+  "speaker": "Simon Maple",
+  "en": "Those are kind of the capabilities, but now we think about them as tools, a set of skills, a kind of embodied expertise, uh, a harness to be able to provide a UX and a bundle, all of those things.",
+  "zh": "这些是那种能力，但现在我们将它们视为工具，一组技能，一种具身化的专业知识，呃，一个能够提供 UX 并打包所有这些东西的 harness。"
+ },
+ {
+  "seg": 481,
+  "start": 2756.48,
+  "end": 2760.24,
+  "speaker": "Simon Maple",
+  "en": "You know, this is our harness, we also help you build your harness and the likes.",
+  "zh": "你知道，这是我们的 harness，我们也帮助你构建你的 harness 等等。"
+ },
+ {
+  "seg": 482,
+  "start": 2760.48,
+  "end": 2772.24,
+  "speaker": "Simon Maple",
+  "en": "Uh, and then some form of control center or like central repository for collaboration, especially as you go across time and across people to do that, uh, which we offer with a platform.",
+  "zh": "呃，然后某种形式的控制中心或用于协作的中心存储库，特别是当你跨越时间和跨越人员去做这件事时，呃，我们通过一个平台提供这个。"
+ },
+ {
+  "seg": 483,
+  "start": 2772.48,
+  "end": 2775.52,
+  "speaker": "Simon Maple",
+  "en": "So it was an interesting kind of learning process here.",
+  "zh": "所以这里是一个有趣的学习过程。"
+ },
+ {
+  "seg": 484,
+  "start": 2775.92,
+  "end": 2796.88,
+  "speaker": "Andrew",
+  "en": "The way that I've sort of brought it together when thinking about designing new products and maybe like a very concrete way is that like you said, ease of use has always mattered, but agents have added a few new layers, especially if you're thinking about DevTool products, which is that historically I think DevTools have focused a lot more on providing expressive power.",
+  "zh": "我在思考设计新产品时把这一切结合起来的方式"
+ },
+ {
+  "seg": 485,
+  "start": 2797.04,
+  "end": 2803.68,
+  "speaker": "Andrew",
+  "en": "Like make sure that you have really modular, composable primitives to do high-value tasks.",
+  "zh": "比如，确保你拥有真正模块化、可组合的原语来做高价值的任务。"
+ },
+ {
+  "seg": 486,
+  "start": 2803.92,
+  "end": 2814.72,
+  "speaker": "Andrew",
+  "en": "And there was just sort of an expectation that the value is going to be enough that as a developer, you will learn my new vocabulary, you will stitch them together, you will do a lot of building on your own.",
+  "zh": "并且以前也有一种期望，即价值将足够大，以至于作为开发者，你会学习我的新词汇，你会把它们缝合在一起，你会自己进行大量的构建。"
+ },
+ {
+  "seg": 487,
+  "start": 2814.96,
+  "end": 2823.84,
+  "speaker": "Andrew",
+  "en": "And I think the first thing to really internalize about agents is that they've really made all of us insatiable, like outcome-oriented machines, right?",
+  "zh": "我认为关于智能体首先要真正内化的第一件事是，它们确实让我们所有人都变得贪得无厌，就像结果导向的机器，对吧？"
+ },
+ {
+  "seg": 488,
+  "start": 2824,
+  "end": 2832.48,
+  "speaker": "Andrew",
+  "en": "Gone are the days where you say, oh yeah, to do this, just call this m-call this command, then this command, then this command, and you know, they're all like you got to learn a bit, but no, it's worth it.",
+  "zh": "那种你说“噢，是的，为了做这个，只要调用这个 m-调用这个命令，然后这个命令，然后这个命令”的日子已经一去不复返了，你知道，它们都像你必须学一点，但不，它是值得的。"
+ },
+ {
+  "seg": 489,
+  "start": 2832.56,
+  "end": 2835.12,
+  "speaker": "Andrew",
+  "en": "And then now it's like, I'm gonna tell you what I want and I expect everything to happen.",
+  "zh": "然后现在就像，我要告诉你我想要什么，并且我期望一切都会发生。"
+ },
+ {
+  "seg": 490,
+  "start": 2835.76,
+  "end": 2848,
+  "speaker": "Andrew",
+  "en": "And so that sort of end-to-end, I want to speak in outcomes, I don't want to speak in the language of your product is has never been more extreme in this moment.",
+  "zh": "所以那种端到端的，我想用结果来说话，我不想用你产品的语言说话，在此时此刻从未如此极端。"
+ },
+ {
+  "seg": 491,
+  "start": 2848.24,
+  "end": 2854.8,
+  "speaker": "Andrew",
+  "en": "I think the the second is the usability of knowledge become is like supercharged, right?",
+  "zh": "我认为第二点是，知识的可用性变得就像超级增强了一样，对吧？"
+ },
+ {
+  "seg": 492,
+  "start": 2854.88,
+  "end": 2867.04,
+  "speaker": "Andrew",
+  "en": "Agents are changing so fast, they're changing the industry so fast that not only is there just a lot to learn because there's all these new concepts coming out, but learning is no longer a one-time event.",
+  "zh": "智能体变化太快，它们改变行业太快，以至于不仅因为所有这些新概念的出现而有很多东西要学，而且学习不再是一次性事件。"
+ },
+ {
+  "seg": 493,
+  "start": 2867.2,
+  "end": 2871.68,
+  "speaker": "Andrew",
+  "en": "I mean, we've always had continual learning, but now it's continual learning means like daily or weekly.",
+  "zh": "我的意思是，我们一直都有持续学习，但现在持续学习意味着像每天或每周。"
+ },
+ {
+  "seg": 494,
+  "start": 2871.84,
+  "end": 2880.8,
+  "speaker": "Andrew",
+  "en": "And so I think a significant portion of usability that you can provide is handling that on behalf of your users, keeping things up to date for them.",
+  "zh": "所以我认为你能提供的可用性的很大一部分是代表你的用户处理这个问题，为他们保持最新状态。"
+ },
+ {
+  "seg": 495,
+  "start": 2881.04,
+  "end": 2899.92,
+  "speaker": "Andrew",
+  "en": "Uh and then maybe an outshoot of that, as you yourself become more agent-enabled as a product company, one thing that we have found is quickly your rate of shipping features will start to outstrip your GTM motions, eventually just your user's ability to ingest the changes.",
+  "zh": "呃，然后也许是那件事的一个衍生物，当你作为一家产品公司自身变得更加智能体化时，我们发现的一件事是，你的功能发布速度将很快开始超过你的 GTM 动作，最终只是你的用户消化这些变化的能力。"
+ },
+ {
+  "seg": 496,
+  "start": 2900.08,
+  "end": 2914.16,
+  "speaker": "Andrew",
+  "en": "And so you sort of end up getting back into this place where you have to provide an agentic interface that is keeping up with the change of your product so that users can stay focused on the thing that is stable, which is their business and what they want to be doing.",
+  "zh": "所以你最终会回到这样一个境地，你必须提供一个智能体接口，它跟上你产品的变化，以便用户可以专注于稳定的事情，即他们的业务和他们想要做的事情。"
+ },
+ {
+  "seg": 497,
+  "start": 2914.32,
+  "end": 2919.52,
+  "speaker": "Andrew",
+  "en": "And then the agent is constantly updating and translating that into the latest and greatest in your product.",
+  "zh": "然后智能体不断更新并将其转化为你产品中最新最好的东西。"
+ },
+ {
+  "seg": 498,
+  "start": 2919.84,
+  "end": 2920,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 499,
+  "start": 2920.08,
+  "end": 2921.28,
+  "speaker": "Simon Maple",
+  "en": "Yeah, it's agents all the way down.",
+  "zh": "是的，下面全是智能体。"
+ },
+ {
+  "seg": 500,
+  "start": 2921.52,
+  "end": 2922,
+  "speaker": "Simon Maple",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 501,
+  "start": 2922.48,
+  "end": 2923.6,
+  "speaker": "Andrew",
+  "en": "The answer is always more agents.",
+  "zh": "答案总是更多的智能体。"
+ },
+ {
+  "seg": 502,
+  "start": 2923.92,
+  "end": 2924.72,
+  "speaker": "Simon Maple",
+  "en": "Yeah, yeah, indeed.",
+  "zh": "是的，是的，确实。"
+ },
+ {
+  "seg": 503,
+  "start": 2925.04,
+  "end": 2926.56,
+  "speaker": "Simon Maple",
+  "en": "So, you know, lots of exciting things.",
+  "zh": "所以，你知道，有很多令人兴奋的事情。"
+ },
+ {
+  "seg": 504,
+  "start": 2926.64,
+  "end": 2940.24,
+  "speaker": "Simon Maple",
+  "en": "And it's worth in the talking about learning and talking about sort of knowledge on it, uh, worth noting that we're actually also launching uh just now uh TESL.io slash learn, which has some interesting agentic patterns and has sort of education capabilities.",
+  "zh": "并且在谈论学习以及谈论关于它的知识方面，呃，值得注意的是我们实际上也刚刚发布了 uh TESL.io/learn，它有一些有趣的智能体模式，并且具有某种教育能力。"
+ },
+ {
+  "seg": 505,
+  "start": 2940.32,
+  "end": 2942.08,
+  "speaker": "Simon Maple",
+  "en": "Uh so hopefully people check that out.",
+  "zh": "呃所以希望人们去查看一下。"
+ },
+ {
+  "seg": 506,
+  "start": 2942.24,
+  "end": 2949.68,
+  "speaker": "Simon Maple",
+  "en": "This episode was dedicated to the TESL agent, but you know, there's sort of uh more uh more that you know we've been uh we've been chipping as the as the pace picks up.",
+  "zh": "这一集是专门讲 TESL 智能体的，但是你知道，还有呃更多，你知道我们一直在，呃我们一直在随着节奏加快而一直在雕琢。"
+ },
+ {
+  "seg": 507,
+  "start": 2949.84,
+  "end": 2954.8,
+  "speaker": "Simon Maple",
+  "en": "Um so before we close off, uh Drew, just uh a couple of words about what what happens next.",
+  "zh": "呃所以在我们结束之前，呃 Drew，简单说几句关于接下来会发生什么。"
+ },
+ {
+  "seg": 508,
+  "start": 2954.88,
+  "end": 2957.84,
+  "speaker": "Simon Maple",
+  "en": "Now we're so we launched the agent, you know what uh what happens next.",
+  "zh": "现在我们已经发布了智能体，你知道接下来会发生什么。"
+ },
+ {
+  "seg": 509,
+  "start": 2957.92,
+  "end": 2959.36,
+  "speaker": "Simon Maple",
+  "en": "And then how can people get started?",
+  "zh": "然后人们如何开始？"
+ },
+ {
+  "seg": 510,
+  "start": 2959.84,
+  "end": 2964.96,
+  "speaker": "Andrew",
+  "en": "Yeah, uh so number one, we've just launched, we're really excited to get feedback from folks.",
+  "zh": "是的，呃所以第一，我们刚刚发布，我们真的很高兴能得到大家的反馈。"
+ },
+ {
+  "seg": 511,
+  "start": 2965.12,
+  "end": 2973.2,
+  "speaker": "Andrew",
+  "en": "Uh sort of always the name of the game is you can expect the Tesla agent to get faster, cheaper, smarter at everything we've talked about here.",
+  "zh": "呃游戏的名字总是你可以期待 Tesla 智能体在我们这里谈论的所有事情上变得更快、更便宜、更聪明。"
+ },
+ {
+  "seg": 512,
+  "start": 2973.6,
+  "end": 2993.76,
+  "speaker": "Andrew",
+  "en": "Uh and then from there, I think we're really just focused on how do we make it easier, more seamless to go from any starting point you may be at with scaling skills or exploring a few automations to how can we get you towards that factory vision faster with less effort, less uncertainty, lack of confidence as you go.",
+  "zh": "呃然后从那里开始，我认为我们真的只专注于如何让它更容易、更无缝地从你可能所处的任何起点，无论是扩展技能还是探索一些自动化，过渡到我们如何能让你更快地朝着那个工厂愿景前进，而在过程中付出的努力、不确定性和信心缺失更少。"
+ },
+ {
+  "seg": 513,
+  "start": 2993.84,
+  "end": 2996.24,
+  "speaker": "Andrew",
+  "en": "Uh but really focused on that incremental path.",
+  "zh": "呃但确实专注于那条增量路径。"
+ },
+ {
+  "seg": 514,
+  "start": 2996.4,
+  "end": 3003.28,
+  "speaker": "Andrew",
+  "en": "I think that's the main thing to expect from Tesla is we're the we want to be the tool that helps you go from where you are today to factory.",
+  "zh": "我认为这是对 Tesla 的主要期待，我们是，我们想要成为帮助你从今天的位置走到工厂的工具。"
+ },
+ {
+  "seg": 515,
+  "start": 3003.36,
+  "end": 3008.96,
+  "speaker": "Andrew",
+  "en": "We're not just the, hey, if you can throw everything out and build a greenfield code base, you can do the cutting edge.",
+  "zh": "我们不仅仅是那种，嘿，如果你可以抛弃一切并建立一个全新的代码库，你就可以做前沿的事情。"
+ },
+ {
+  "seg": 516,
+  "start": 3009.12,
+  "end": 3010.56,
+  "speaker": "Andrew",
+  "en": "So expect to see more there.",
+  "zh": "所以期待在那里看到更多。"
+ },
+ {
+  "seg": 517,
+  "start": 3010.88,
+  "end": 3011.28,
+  "speaker": "Simon Maple",
+  "en": "Yeah, indeed.",
+  "zh": "是的，确实。"
+ },
+ {
+  "seg": 518,
+  "start": 3011.44,
+  "end": 3017.52,
+  "speaker": "Simon Maple",
+  "en": "And this this notion of uh you know, we talked about sort of the the catchphrase, right, from scaling skills to uh to a full-on factory.",
+  "zh": "还有这个概念，呃你知道，我们谈到了那个口号，对吧，从扩展技能到全面的工厂。"
+ },
+ {
+  "seg": 519,
+  "start": 3017.68,
+  "end": 3017.76,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 520,
+  "start": 3017.92,
+  "end": 3022.24,
+  "speaker": "Simon Maple",
+  "en": "You know, maybe there's loops somewhere sort of in the in the process of it, but it's uh it's okay.",
+  "zh": "你知道，也许在过程中某处有一些循环，但这呃没关系。"
+ },
+ {
+  "seg": 521,
+  "start": 3022.4,
+  "end": 3023.04,
+  "speaker": "Simon Maple",
+  "en": "Everybody's behind.",
+  "zh": "每个人都落后了。"
+ },
+ {
+  "seg": 522,
+  "start": 3023.36,
+  "end": 3023.68,
+  "speaker": "Simon Maple",
+  "en": "Yes, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 523,
+  "start": 3024,
+  "end": 3031.36,
+  "speaker": "Andrew",
+  "en": "So let's sort of uh gradually let's no one feels comfortable, everyone wants to go faster, but we're here to help you move sort of through that process.",
+  "zh": "所以让我们某种程度上呃逐渐地让我们没人感到舒服，每个人都想走得更快，但我们要在这里帮助你通过那个过程。"
+ },
+ {
+  "seg": 524,
+  "start": 3031.6,
+  "end": 3034.48,
+  "speaker": "Andrew",
+  "en": "Uh in terms of how to get started, it's pretty easy.",
+  "zh": "呃关于如何开始，非常简单。"
+ },
+ {
+  "seg": 525,
+  "start": 3034.64,
+  "end": 3039.28,
+  "speaker": "Andrew",
+  "en": "Just go to the website, download the Tesla CLI, uh, and then ask it to do something for you.",
+  "zh": "只需访问网站，下载 Tesla CLI，呃，然后要求它为你做一些事情。"
+ },
+ {
+  "seg": 526,
+  "start": 3039.44,
+  "end": 3042.16,
+  "speaker": "Andrew",
+  "en": "So TESL agent, hit enter, just like every other agent.",
+  "zh": "所以 TESL 智能体，按回车键，就像其他每一个智能体一样。"
+ },
+ {
+  "seg": 527,
+  "start": 3042.24,
+  "end": 3047.68,
+  "speaker": "Andrew",
+  "en": "It'll open a session, ask it to set up code review, ask it to delegate some work to AI for you.",
+  "zh": "它会打开一个会话，要求它设置代码审查，要求它为你把一些工作委派给 AI。"
+ },
+ {
+  "seg": 528,
+  "start": 3047.84,
+  "end": 3050,
+  "speaker": "Andrew",
+  "en": "All of those things will work just fine.",
+  "zh": "所有这些事情都会工作得很好。"
+ },
+ {
+  "seg": 529,
+  "start": 3050.32,
+  "end": 3052.96,
+  "speaker": "Andrew",
+  "en": "It's an agent, so you can ask it to do other things as well.",
+  "zh": "它是一个智能体，所以你也可以要求它做其他事情。"
+ },
+ {
+  "seg": 530,
+  "start": 3053.2,
+  "end": 3058.16,
+  "speaker": "Andrew",
+  "en": "Uh and then over time, more and more of it will be put into automation just as you as you work with the agent.",
+  "zh": "呃然后随着时间的推移，其中越来越多的部分将被放入自动化，正如你与智能体一起工作时一样。"
+ },
+ {
+  "seg": 531,
+  "start": 3058.4,
+  "end": 3058.56,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 532,
+  "start": 3058.8,
+  "end": 3066.24,
+  "speaker": "Simon Maple",
+  "en": "And I think if you want to do the experiment, you can also try out uh having different team members run the Tesla agent because it does look a little bit at their logs.",
+  "zh": "我认为如果你想做这个实验，你也可以尝试呃让不同的团队成员运行 Tesla 智能体，因为它确实会查看他们的一些日志。"
+ },
+ {
+  "seg": 533,
+  "start": 3066.4,
+  "end": 3074,
+  "speaker": "Simon Maple",
+  "en": "And so there's a little bit of an element of if you heard that someone is having a problem, uh having them try the Tesla agent, that might be an interesting experiment.",
+  "zh": "所以有一点要素，如果你听说某人遇到了问题，呃让他们尝试 Tesla 智能体，那可能是一个有趣的实验。"
+ },
+ {
+  "seg": 534,
+  "start": 3074.32,
+  "end": 3074.96,
+  "speaker": "Andrew",
+  "en": "Yes, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 535,
+  "start": 3075.04,
+  "end": 3081.92,
+  "speaker": "Andrew",
+  "en": "It's a great way uh the Tesla agent both can look at your local logs, it can also help you get your logs into a communal space.",
+  "zh": "这是一个很好的方式，呃 Tesla 智能体既可以查看你的本地日志，它也可以帮助你把你的日志导入到一个公共空间。"
+ },
+ {
+  "seg": 536,
+  "start": 3082.16,
+  "end": 3094.08,
+  "speaker": "Andrew",
+  "en": "And as a point of getting started, sometimes just sitting down with the last month's worth of coding agent sessions and just asking what's broken, what's taking a lot of our time, will yield some really interesting results.",
+  "zh": "作为开始的一点，有时只需坐下来处理过去一个月的编码智能体会话，并询问哪里坏了，什么占用了我们很多时间，会产生一些非常有趣的结果。"
+ },
+ {
+  "seg": 537,
+  "start": 3094.32,
+  "end": 3094.56,
+  "speaker": "Andrew",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 538,
+  "start": 3095.36,
+  "end": 3096.96,
+  "speaker": "Simon Maple",
+  "en": "So I think that's it for us.",
+  "zh": "所以我认为我们要说的就这些了。"
+ },
+ {
+  "seg": 539,
+  "start": 3097.12,
+  "end": 3099.36,
+  "speaker": "Simon Maple",
+  "en": "Hopefully you find the TESL agent interesting.",
+  "zh": "希望你觉得 TESL 智能体很有趣。"
+ },
+ {
+  "seg": 540,
+  "start": 3099.52,
+  "end": 3103.12,
+  "speaker": "Simon Maple",
+  "en": "We'd love to have you try it out and share feedback.",
+  "zh": "我们很乐意让你尝试并分享反馈。"
+ },
+ {
+  "seg": 541,
+  "start": 3103.2,
+  "end": 3105.04,
+  "speaker": "Simon Maple",
+  "en": "You know, this is very much about iterating.",
+  "zh": "你知道，这非常关于迭代。"
+ },
+ {
+  "seg": 542,
+  "start": 3105.2,
+  "end": 3109.52,
+  "speaker": "Simon Maple",
+  "en": "Hopefully, you're well familiar that we're all about the community uh at uh TESL.",
+  "zh": "希望你很熟悉，我们在 TESL 非常重视社区。"
+ },
+ {
+  "seg": 543,
+  "start": 3109.68,
+  "end": 3118.24,
+  "speaker": "Simon Maple",
+  "en": "So join the AI Native Dev Discord, share comments uh and feedback that you have around the product, you know, things you love, things you uh want to see us change.",
+  "zh": "所以加入 AI Native Dev Discord，分享你对产品的评论和反馈，你知道，你喜欢的，你想让我们改变的事情。"
+ },
+ {
+  "seg": 544,
+  "start": 3118.4,
+  "end": 3121.28,
+  "speaker": "Simon Maple",
+  "en": "Uh, we're super, super excited about the TESL agent over here.",
+  "zh": "呃，我们在这一边非常非常兴奋关于 TESL 智能体。"
+ },
+ {
+  "seg": 545,
+  "start": 3121.44,
+  "end": 3121.92,
+  "speaker": "Simon Maple",
+  "en": "Probably the most important thing.",
+  "zh": "大概是最重要的事情。"
+ },
+ {
+  "seg": 546,
+  "start": 3122.08,
+  "end": 3128,
+  "speaker": "Simon Maple",
+  "en": "We're getting a little bit told off uh a little bit about uh uh the the you know just sort of how much we talk about it.",
+  "zh": "我们稍微被责备了一下，呃一点点关于呃你知道就是关于我们谈论它的程度。"
+ },
+ {
+  "seg": 547,
+  "start": 3128.08,
+  "end": 3130.96,
+  "speaker": "Simon Maple",
+  "en": "Uh but very, very keen to see it come to life.",
+  "zh": "呃但是非常非常渴望看到它成为现实。"
+ },
+ {
+  "seg": 548,
+  "start": 3131.04,
+  "end": 3135.76,
+  "speaker": "Simon Maple",
+  "en": "You know, early users, thanks a lot for all the great feedback and evolutions uh for it.",
+  "zh": "你知道，早期用户，非常感谢所有关于它的优秀反馈和演变。"
+ },
+ {
+  "seg": 549,
+  "start": 3135.84,
+  "end": 3138.8,
+  "speaker": "Simon Maple",
+  "en": "Uh and yeah, try it out and tell us uh what you think.",
+  "zh": "呃是的，尝试一下并告诉我们你的想法。"
+ },
+ {
+  "seg": 550,
+  "start": 3139.04,
+  "end": 3139.92,
+  "speaker": "Simon Maple",
+  "en": "Yeah, can't wait.",
+  "zh": "是啊，等不及了。"
+ },
+ {
+  "seg": 551,
+  "start": 3140.24,
+  "end": 3144.32,
+  "speaker": "Simon Maple",
+  "en": "And with that, thanks for tuning in to uh this episode and hope you join us for the next one.",
+  "zh": "那么，感谢收听这一期，希望你加入我们下一期。"
+ },
+ {
+  "seg": 552,
+  "start": 3144.64,
+  "end": 3149.36,
+  "speaker": "SPEAKER_02",
+  "en": "The AI Native Dev is brought to you by Tesla, the package manager for skills and context.",
+  "zh": "The AI Native Dev 由 Tesla 为您呈现，它是用于技能和上下文的包管理器。"
+ },
+ {
+  "seg": 553,
+  "start": 3149.44,
+  "end": 3152.48,
+  "speaker": "SPEAKER_02",
+  "en": "Your hosts are Guy Pajani and me, Simon Maple.",
+  "zh": "你的主持人是 Guy Pajani 和我，Simon Maple。"
+ },
+ {
+  "seg": 554,
+  "start": 3152.56,
+  "end": 3154.24,
+  "speaker": "SPEAKER_02",
+  "en": "Our producer is Tom Dowler.",
+  "zh": "我们的制作人是 Tom Dowler。"
+ },
+ {
+  "seg": 555,
+  "start": 3154.32,
+  "end": 3157.68,
+  "speaker": "SPEAKER_02",
+  "en": "The AI Native Dev is not just a podcast, it's a community.",
+  "zh": "The AI Native Dev 不仅仅是一个播客，它是一个社区。"
+ },
+ {
+  "seg": 556,
+  "start": 3157.76,
+  "end": 3161.2,
+  "speaker": "SPEAKER_02",
+  "en": "And we host monthly meetups at the TESL offices in central London.",
+  "zh": "我们在伦敦市中心的 TESL 办公室举办每月的聚会。"
+ },
+ {
+  "seg": 557,
+  "start": 3161.36,
+  "end": 3166.32,
+  "speaker": "SPEAKER_02",
+  "en": "Visit Tesla.io forward slash community to learn more, and I hope to see you there.",
+  "zh": "访问 Tesla.io 斜杠 community 了解更多信息，希望在那里见到你。"
+ }
+]

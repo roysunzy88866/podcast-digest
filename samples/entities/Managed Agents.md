@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Managed Agents</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Managed Agents">MA</div><div class="pi"><h1 class="pt">Managed Agents</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Managed Agents">MA</div><div class="pi"><h1 class="pt">Managed Agents</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]]**(14:55起):本集顺带提及。Claude Developer Platform 团队发布的东西，嘉宾说这是一种让用户构建智能体并由 Anthropic 代为托管的方式。
 - **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(36:56起):本集把它说成:Anthropic 的产品，帮你在生产环境中更快构建和部署智能体，承担从管理工具层到基础设施和可观测性的工作，记忆方案采用简单文件系统
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(02:47起):本集把它说成:Anthropic 从四月起推出的新平台(全称 Cloud Managed Agents),把工作框架连同部署基础设施全打包,支撑了长时程异步智能体的架构。
+- **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]]**(02:20起):本集引用 Anthropic 的 Managed Agents 论文，说托管智能体模式的核心是把智能体逻辑与工具调用执行分离、会话日志做持久化
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]] — 作为概念(提及)
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为概念
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为概念
+- [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[智能体]] · [[dreaming]] · [[Slack]] · [[harness]] · [[Lenny]] · [[Guy Pajani]] · [[Lance Martin]]
+[[Anthropic]] · [[智能体]] · [[沙箱]] · [[Claude Code]] · [[dreaming]] · [[Claude]] · [[Slack]] · [[harness]] · [[Lenny]] · [[Guy Pajani]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":67,"Claude Code":35,"沙箱":25,"智能体":136,"dreaming":3,"Slack":20,"harness":16,"Lenny":65,"Guy Pajani":3,"Lance Martin":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":68,"智能体":138,"沙箱":26,"Claude Code":35,"dreaming":3,"Claude":33,"Slack":20,"harness":16,"Lenny":65,"Guy Pajani":3}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 [[Google]] · [[OpenAI]] · [[Anthropic]] · [[Apple]] · [[Harry Stabbings]] · [[Zubin Gharemani]] · [[Microsoft]] · [[Jason Lamkin]] · [[不确定性]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"Google":27,"OpenAI":61,"Anthropic":67,"Apple":12,"Harry Stabbings":1,"Zubin Gharemani":1,"Microsoft":12,"Jason Lamkin":1,"不确定性":1,"Amazon":8}</script>
+<script type="application/json" class="pd-epn">{"Google":27,"OpenAI":61,"Anthropic":68,"Apple":12,"Harry Stabbings":1,"Zubin Gharemani":1,"Microsoft":12,"Jason Lamkin":1,"不确定性":1,"Amazon":8}</script>
 
 <script>
 (function(){

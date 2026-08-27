@@ -47,7 +47,9 @@
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
   },
-  "audioWanted": {},
+  "audioWanted": {
+    "2026-08-26-pragmatic-why-performant-code-matters-but-gets": "https://api.substack.com/feed/podcast/212722114/09d691a0ab1c3abac2fb91ebdd192de3.mp3"
+  },
   "cutoffs": {
     "lennys": "2026-08-24T12:04:02.000Z",
     "pg": "2026-08-24T23:16:09.000Z",
@@ -76,7 +78,7 @@
     "rework": "2026-08-19T08:00:00.000Z",
     "howiai": "2026-08-24T11:00:00.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
-    "twiml": "2026-08-25T19:33:00.000Z",
+    "twiml": "2026-08-26T21:29:00.000Z",
     "eyeonai": "2026-08-24T15:07:00.000Z",
     "indepth": "2026-07-30T11:00:00.000Z",
     "uncapped": "2026-07-28T09:00:00.000Z",
@@ -427,6 +429,12 @@
       "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
       "title": "He spent $0 on marketing for 2 years—then raised $400M at a $3.25B valuation. | AJ Loiacono, Co-Founder & CEO of Judi Health",
       "pubDate": "2026-08-24T09:00:00.000Z"
+    },
+    {
+      "id": "2026-08-17-pmf-he-spent-150k-on-brand-before-he-had-a-p",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "He spent $150K on brand before he had a product—then closed $1.5M ARR in 1 month. | Niklas Lindgren, Co-Founder & CEO of Endra",
+      "pubDate": "2026-08-17T09:00:00.000Z"
     }
   ]
 }

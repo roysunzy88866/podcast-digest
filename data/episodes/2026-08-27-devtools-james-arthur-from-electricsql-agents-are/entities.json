@@ -1,0 +1,949 @@
+{
+  "episode_id": "2026-08-27-devtools-james-arthur-from-electricsql-agents-are",
+  "podcast": "Scaling DevTools",
+  "date": "2026-08-27",
+  "tags": [
+    "智能体架构",
+    "数据层持久化",
+    "多智能体系统",
+    "可观测性",
+    "开源运行时"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "james",
+      "type": "person",
+      "role": "host",
+      "name": "James",
+      "file": "James",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            2.093,
+            4.434
+          ],
+          "quote": "I'm joined today by James from Electric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            5.255,
+            5.855
+          ],
+          "quote": "Welcome, James.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            694.681,
+            695.883
+          ],
+          "quote": "Well, thanks so much, James.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "electric",
+      "type": "company",
+      "role": "company",
+      "name": "Electric",
+      "file": "Electric",
+      "primary": true,
+      "how_described": "本集说 Electric 从做 Postgres 同步引擎起家，现已将同步技术泛化为智能体的数据原语，发布了开源的协作式多智能体运行时 Electric Agents，定位是从数据层提供原语、避免平台锁定",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            2.093,
+            4.434
+          ],
+          "quote": "I'm joined today by James from Electric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            16.784,
+            22.826
+          ],
+          "quote": "Could you tell us a bit about Electric and also what you've been kind of excited about at the moment?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            24.147,
+            28.609
+          ],
+          "quote": "So many people may know Electric as kind of sync tech.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            47.717,
+            50.439
+          ],
+          "quote": "But most recently we've now shipped electric agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            91.699,
+            95.961
+          ],
+          "quote": "And so that's what we've recently shipped with Electric Agents, which is out there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            158.046,
+            164.491
+          ],
+          "quote": "And so our focus at Electric, we've always been like kind of data infrastructure for building collaborative multi-user software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            576.019,
+            580.786
+          ],
+          "quote": "And so what we're trying to do at Electric is we obviously come at things from the data layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            613.792,
+            617.175
+          ],
+          "quote": "And where can people learn more about Electric and about you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            620.537,
+            625.66
+          ],
+          "quote": "So we're Electric SQL, but we have actually just changed our main domain to better reflect what we're doing now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            625.68,
+            629.063
+          ],
+          "quote": "So it's electric.ax for its agent experience.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "electric-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "Electric Agents",
+      "file": "Electric Agents",
+      "primary": true,
+      "how_described": "本集说它是 Electric 发布的一个开源的协作式多智能体运行时，跑一下快速入门就拿到运行时，把智能体定义成类似请求处理函数的形式，可以用 Vercel AI SDK、TanStack AI、Mastra 等任何框架写智能体代码，加一层运行时垫片就能接入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            47.717,
+            50.439
+          ],
+          "quote": "But most recently we've now shipped electric agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            91.699,
+            95.961
+          ],
+          "quote": "And so that's what we've recently shipped with Electric Agents, which is out there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心论点：智能体不是计算，是数据——智能体就是它的会话日志，即使不运行时也必须存在于数据层的持久化存储里，可以缩放至零、可以休眠、可以分叉会话",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            40.194,
+            47.117
+          ],
+          "quote": "That's very good, primitive for storing agent session data and making like collaborative multi-agent systems on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            50.899,
+            54.24
+          ],
+          "quote": "So this is a runtime for collaborative multi-agent systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            75.232,
+            78.254
+          ],
+          "quote": "We think of multi-agent systems as a distributed data problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            147.061,
+            157.566
+          ],
+          "quote": "You're going from this sort of agent as like a foreground harness that you talk to on a local computer to agents that are deployed online and then also sort of wired in online.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            165.011,
+            168.754
+          ],
+          "quote": "And now what that means is sort of multi-user, multi-agent systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            186.187,
+            201.474
+          ],
+          "quote": "The big shift which is the whole main shift in the agent economy is like agents have the potential to automate work that can be more efficient how do you actually switch your company from running on people to running on a hybrid of people and agents like what's the infrastructure for that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            211.349,
+            231.026
+          ],
+          "quote": "Yeah, I mean, I think, I wouldn't say we're like the only ones to see a lot of the stuff that we see, but I think there is a big difference between a lot of the people who are actually working at the front of market with managed agents, online agents, multi-agent systems, and sort of most people's perception of agent infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            231.727,
+            240.774
+          ],
+          "quote": "So most people, if you think, right, okay, I need to run an agent online, you take a harness, which kind of is the agent, like a kind of Claude code or an open code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            247.419,
+            252.423
+          ],
+          "quote": "And the whole thing of these kind of agent harnesses was going, oh my God, LLMs are really good at using the computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            261.267,
+            269.731
+          ],
+          "quote": "And so that's why when you think of how do I bring an agent online, you kind of take that harness and you put it into like a Docker container or a sandbox or a VM of some sort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            270.231,
+            299.558
+          ],
+          "quote": "because you think you need to give the agent a computer yeah uh and we see that as more of an anti-pattern there's kind of there's sort of two main reasons one is that if you then have that model where the agent like like if i use claude on my local computer where are my agent sessions if i tell claude to do some research spawning sub-agents where are the session logs from the sub-agents and the answer is actually there's like json lines files in a hidden folder on my computer",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            318.502,
+            325.364
+          ],
+          "quote": "You've got to find a way of kind of actually like wiring up the stuff that the agent is doing into systems that you can actually query and see.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            358.211,
+            360.272
+          ],
+          "quote": "So like, what is an agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            361.653,
+            388.287
+          ],
+          "quote": "what we see it more as is like the agent is the session log so say you have an agent and that could be like an agent that is doing a process in a kind of pr work in a ci workflow or it could be you have an agent like for a pr or it could be an agent for like an object in this room and like you're just going to have a huge number of agents for everything it's like every step in every work process every customer interaction every like touch point that you could work with",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            397.391,
+            403.755
+          ],
+          "quote": "And also if you model the agent as compute and if you then kill the compute, well, the agent isn't there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            404.295,
+            412.639
+          ],
+          "quote": "But you obviously need this model where you'd be like, okay, I'm interacting with this agent, I'm kind of finished, so let's like hibernate it or kind of scale it down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            412.999,
+            417.542
+          ],
+          "quote": "And then say, I want to come back and talk to that same agent session or fork the agent session.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            459.298,
+            468.046
+          ],
+          "quote": "But if you think if you look at this more sort of managed agent pattern what you can do is separate the agent logic from the tool call execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            468.726,
+            475.953
+          ],
+          "quote": "And then it's a bit like the idea of, say, say you're trying to generate a data report using an agent for a data analyst.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            476.433,
+            492.568
+          ],
+          "quote": "Do you get your agent to hallucinate out the CSV file or do you send a SQL query to a database, which is actually just like a normal data system or data platform that's running under your control that actually exports out the data by executing the query plan?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            495.07,
+            516.692
+          ],
+          "quote": "So where you have a tool call execution, which might be like, you know, grep files, where increasingly, like, there was this cool project today, like Miracle came out, there's like Just Bash, there's all these like emulation layers, which look to the agent like they're using the computer, but means you can actually fulfill things like file operations and tool call executions using sort of proper online systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            523.347,
+            537.252
+          ],
+          "quote": "You can just have, you can have like a function, like a VA isolate or however you do like a Cloudflare worker or an edge function that is capable of running expressive agent logic, including things like code mode and code execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            625.68,
+            629.063
+          ],
+          "quote": "So it's electric.ax for its agent experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            669.2,
+            681.267
+          ],
+          "quote": "And then you can just write your agent code in your web app the same way you would if you were using, like if you're using something like Vercel AI SDK or TanStack AI or Mastra to do like agent definitions that you would sort of run in your app.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把给智能体一台电脑丢进 Docker 容器或沙箱的做法称为反模式，认为沙箱把会话日志和决策痕迹埋在黑盒里，无法接入可观测性工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            64.505,
+            68.888
+          ],
+          "quote": "So a lot of what people are deploying today around agents, you sort of think like harness in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            69.288,
+            70.849
+          ],
+          "quote": "You think sandbox for isolation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            261.267,
+            269.731
+          ],
+          "quote": "And so that's why when you think of how do I bring an agent online, you kind of take that harness and you put it into like a Docker container or a sandbox or a VM of some sort.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            309.64,
+            316.782
+          ],
+          "quote": "And if you then port that just into like a harness running in a sandbox online, it's equally buried because what are you going to do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            316.862,
+            318.102
+          ],
+          "quote": "SSH into the sandbox?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            517.405,
+            523.007
+          ],
+          "quote": "And so that's the switch where you go, you don't have a sandbox which bundles it all together.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "session-log",
+      "type": "concept",
+      "role": "concept",
+      "name": "会话日志 (session log)",
+      "file": "会话日志",
+      "primary": true,
+      "how_described": "本集说智能体就是它的会话日志，需要持久化到数据层，这样才能在不运行时也存在、能恢复、能分叉出新的分支",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            361.653,
+            388.287
+          ],
+          "quote": "what we see it more as is like the agent is the session log so say you have an agent and that could be like an agent that is doing a process in a kind of pr work in a ci workflow or it could be you have an agent like for a pr or it could be an agent for like an object in this room and like you're just going to have a huge number of agents for everything it's like every step in every work process every customer interaction every like touch point that you could work with",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            418.102,
+            423.043
+          ],
+          "quote": "You basically need the session log and the state in the data layer so you can rerun the compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            540.693,
+            565.505
+          ],
+          "quote": "create an artifact or query a data system that should go back into like traditional data platform stuff because then also you can kind of monitor it and ensure quality and that's sort of deterministic software that you can control so that's this architecture where in a way more scalable managed online agents move to agents and functions separated from the tool call execution with the durability in the session log",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent systems)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "本集说多智能体系统本质上是一个分布式数据问题，应该基于同步来建模，涉及大量智能体之间的通信、协调和数据连线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            40.194,
+            47.117
+          ],
+          "quote": "That's very good, primitive for storing agent session data and making like collaborative multi-agent systems on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            50.899,
+            54.24
+          ],
+          "quote": "So this is a runtime for collaborative multi-agent systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            75.232,
+            78.254
+          ],
+          "quote": "We think of multi-agent systems as a distributed data problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            165.011,
+            168.754
+          ],
+          "quote": "And now what that means is sort of multi-user, multi-agent systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            211.349,
+            231.026
+          ],
+          "quote": "Yeah, I mean, I think, I wouldn't say we're like the only ones to see a lot of the stuff that we see, but I think there is a big difference between a lot of the people who are actually working at the front of market with managed agents, online agents, multi-agent systems, and sort of most people's perception of agent infrastructure.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "managed-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "托管智能体 (managed agents)",
+      "file": "托管智能体",
+      "primary": true,
+      "how_described": "本集引用 Anthropic 的 Managed Agents 论文，说托管智能体模式的核心是把智能体逻辑与工具调用执行分离、会话日志做持久化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            140.799,
+            146.581
+          ],
+          "quote": "And so it's sort of, you see it in things like, for instance, Anthropic's Managed Agents or Cloudflare's Project Think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            211.349,
+            231.026
+          ],
+          "quote": "Yeah, I mean, I think, I wouldn't say we're like the only ones to see a lot of the stuff that we see, but I think there is a big difference between a lot of the people who are actually working at the front of market with managed agents, online agents, multi-agent systems, and sort of most people's perception of agent infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            566.085,
+            575.478
+          ],
+          "quote": "And if you read the kind of Anthropic Managed Agents paper, if you read the Cloudflare Project Think paper, this is the architecture which they and others have all converged on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-primitives",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据原语 (data primitives)",
+      "file": "数据原语",
+      "primary": false,
+      "how_described": "本集说 Electric 将同步技术泛化为智能体的数据原语，用于存储智能体会话数据并在其上构建协作式多智能体系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            32.291,
+            36.773
+          ],
+          "quote": "And then more recently, we've generalized our sync tech into data primitives for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            681.847,
+            692.959
+          ],
+          "quote": "Like, you can just use exactly the same framework tools, but then wrap them with a little bit of runtime shim, and it goes into this sort of platform so they all have these types of data primitives available for the coordination and data wiring.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "durable-streams-protocol",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久化流协议 (durable streams protocol)",
+      "file": "持久化流协议",
+      "primary": false,
+      "how_described": "本集提到 Electric 有这个持久化流协议，作为存储智能体会话数据的好原语",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            37.193,
+            39.174
+          ],
+          "quote": "We have this durable streams protocol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tool-call-execution",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具调用执行 (tool call execution)",
+      "file": "工具调用执行",
+      "primary": false,
+      "how_described": "本集说应该把智能体逻辑和工具调用执行分开，工具调用走后端正规系统如数据库查询或仿真层，不绑死在沙箱容器里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            454.053,
+            458.036
+          ],
+          "quote": "You want isolation and you do need like tool call execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            459.298,
+            468.046
+          ],
+          "quote": "But if you think if you look at this more sort of managed agent pattern what you can do is separate the agent logic from the tool call execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            495.07,
+            516.692
+          ],
+          "quote": "So where you have a tool call execution, which might be like, you know, grep files, where increasingly, like, there was this cool project today, like Miracle came out, there's like Just Bash, there's all these like emulation layers, which look to the agent like they're using the computer, but means you can actually fulfill things like file operations and tool call executions using sort of proper online systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            540.693,
+            565.505
+          ],
+          "quote": "create an artifact or query a data system that should go back into like traditional data platform stuff because then also you can kind of monitor it and ensure quality and that's sort of deterministic software that you can control so that's this architecture where in a way more scalable managed online agents move to agents and functions separated from the tool call execution with the durability in the session log",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集引用其 Managed Agents 论文，说 Anthropic 和 Cloudflare 都收敛到了智能体逻辑与工具执行分离、会话日志持久化的同一架构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            140.799,
+            146.581
+          ],
+          "quote": "And so it's sort of, you see it in things like, for instance, Anthropic's Managed Agents or Cloudflare's Project Think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            566.085,
+            575.478
+          ],
+          "quote": "And if you read the kind of Anthropic Managed Agents paper, if you read the Cloudflare Project Think paper, this is the architecture which they and others have all converged on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            582.228,
+            594.097
+          ],
+          "quote": "And we're just trying to provide the primitives for any platform builder or product builder to build the same kind of infrastructure, but without the platform lock-in that would come from, like, if you have to use, like, Anthropic's amazing, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            594.258,
+            596.339
+          ],
+          "quote": "But obviously, Anthropic want you to use Claude.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集引用其 Project Think 论文和 Durable Objects、agents SDK，说 Cloudflare 栈对智能体很棒但会带来平台锁定，因为 Cloudflare 的生意是让你在它的云上运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            140.799,
+            146.581
+          ],
+          "quote": "And so it's sort of, you see it in things like, for instance, Anthropic's Managed Agents or Cloudflare's Project Think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            523.347,
+            537.252
+          ],
+          "quote": "You can just have, you can have like a function, like a VA isolate or however you do like a Cloudflare worker or an edge function that is capable of running expressive agent logic, including things like code mode and code execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            566.085,
+            575.478
+          ],
+          "quote": "And if you read the kind of Anthropic Managed Agents paper, if you read the Cloudflare Project Think paper, this is the architecture which they and others have all converged on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            596.719,
+            601.884
+          ],
+          "quote": "And the Cloudflare stack is totally amazing for agents, like durable objects, agents SDK is awesome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            602.264,
+            606.227
+          ],
+          "quote": "But obviously, Cloudflare's business is like, they're a cloud, so you have to run the computer on the cloud.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vercel-ai-sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "Vercel AI SDK",
+      "file": "Vercel AI SDK",
+      "primary": false,
+      "how_described": "本集提到可以用 Vercel AI SDK 写智能体代码，加一层运行时垫片就能接入 Electric Agents 平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            669.2,
+            681.267
+          ],
+          "quote": "And then you can just write your agent code in your web app the same way you would if you were using, like if you're using something like Vercel AI SDK or TanStack AI or Mastra to do like agent definitions that you would sort of run in your app.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tanstack-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "TanStack AI",
+      "file": "TanStack AI",
+      "primary": false,
+      "how_described": "本集提到可以用 TanStack AI 写智能体代码，加一层运行时垫片就能接入 Electric Agents 平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            669.2,
+            681.267
+          ],
+          "quote": "And then you can just write your agent code in your web app the same way you would if you were using, like if you're using something like Vercel AI SDK or TanStack AI or Mastra to do like agent definitions that you would sort of run in your app.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mastra",
+      "type": "concept",
+      "role": "concept",
+      "name": "Mastra",
+      "file": "Mastra",
+      "primary": false,
+      "how_described": "本集提到可以用 Mastra 写智能体代码，加一层运行时垫片就能接入 Electric Agents 平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            669.2,
+            681.267
+          ],
+          "quote": "And then you can just write your agent code in your web app the same way you would if you were using, like if you're using something like Vercel AI SDK or TanStack AI or Mastra to do like agent definitions that you would sort of run in your app.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "emulation-layers",
+      "type": "concept",
+      "role": "concept",
+      "name": "仿真层 (emulation layers)",
+      "file": "仿真层",
+      "primary": false,
+      "how_described": "本集提到 Miracle、Just Bash 等仿真层项目，它们对智能体看起来像在用电脑，实际背后是正规在线系统在执行文件操作等工具调用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            495.07,
+            516.692
+          ],
+          "quote": "So where you have a tool call execution, which might be like, you know, grep files, where increasingly, like, there was this cool project today, like Miracle came out, there's like Just Bash, there's all these like emulation layers, which look to the agent like they're using the computer, but means you can actually fulfill things like file operations and tool call executions using sort of proper online systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集举 Claude 为例，说在本地用 Claude 做研究生成子智能体时，子智能体会话日志藏在本机隐藏文件夹的 JSON Lines 文件里，属于黑盒问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            231.727,
+            240.774
+          ],
+          "quote": "So most people, if you think, right, okay, I need to run an agent online, you take a harness, which kind of is the agent, like a kind of Claude code or an open code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            270.231,
+            299.558
+          ],
+          "quote": "because you think you need to give the agent a computer yeah uh and we see that as more of an anti-pattern there's kind of there's sort of two main reasons one is that if you then have that model where the agent like like if i use claude on my local computer where are my agent sessions if i tell claude to do some research spawning sub-agents where are the session logs from the sub-agents and the answer is actually there's like json lines files in a hidden folder on my computer",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            594.258,
+            596.339
+          ],
+          "quote": "But obviously, Anthropic want you to use Claude.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "observability",
+      "reason": "专名「observability」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]]
+[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Simile":1,"智能体":136,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":5,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Simile":1,"智能体":138,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":5,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,23 @@
+{
+  "id": "2026-08-27-devtools-james-arthur-from-electricsql-agents-are",
+  "audio_mp3": "https://media.transistor.fm/48b8980e/4328757a.mp3",
+  "duration_sec": 702.35,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 120,
+  "asr": true,
+  "title_en": "James Arthur from ElectricSQL - agents are data, not compute (Heavybit DevGuild)",
+  "podcast": "Scaling DevTools",
+  "date": "2026-08-27",
+  "added": "2026-08-27",
+  "speaker_map": {
+    "SPEAKER_00": "James"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "James",
+  "cohosts": [],
+  "title_zh": "Electric James：智能体不是计算，是数据",
+  "guest_name": "James",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

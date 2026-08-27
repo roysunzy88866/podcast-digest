@@ -309,7 +309,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Matt Turk]] · [[Ranjan]] · [[Sanjit Biswas]] · [[Ranjan Roy]] · [[Samsara]] · [[Anthropic]] · [[物理 AI]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":136,"Meta":19,"Matt Turk":1,"Ranjan":1,"Sanjit Biswas":1,"Ranjan Roy":2,"Samsara":2,"Anthropic":67,"物理 AI":4,"OpenAI":61}</script>
+<script type="application/json" class="pd-epn">{"智能体":138,"Meta":20,"Matt Turk":1,"Ranjan":1,"Sanjit Biswas":1,"Ranjan Roy":2,"Samsara":2,"Anthropic":68,"物理 AI":4,"OpenAI":61}</script>
 
 <script>
 (function(){

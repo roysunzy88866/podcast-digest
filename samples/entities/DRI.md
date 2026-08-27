@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Brian Halligan]] · [[Willem Avé]] · [[Lenny]] · [[Square]] · [[HubSpot]] · [[Block]] · [[Sequoia]] · [[业务单元模式]] · [[MongoDB]]
 
-<script type="application/json" class="pd-epn">{"智能体":136,"Brian Halligan":1,"Willem Avé":1,"Lenny":65,"Square":3,"HubSpot":4,"Block":2,"Sequoia":2,"业务单元模式":1,"MongoDB":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":138,"Brian Halligan":1,"Willem Avé":1,"Lenny":65,"Square":3,"HubSpot":4,"Block":2,"Sequoia":2,"业务单元模式":1,"MongoDB":3}</script>
 
 <script>
 (function(){

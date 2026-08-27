@@ -25,7 +25,7 @@ unlisted: true
 
 [[Boris Cherny]] · [[Cloud Code]] · [[Opus 5]] · [[智能体]] · [[提示词注入]] · [[系统提示词]] · [[产品冗余]] · [[动态工作流]] · [[测试时计算]] · [[消融]]
 
-<script type="application/json" class="pd-epn">{"Boris Cherny":2,"Cloud Code":3,"Opus 5":1,"智能体":136,"提示词注入":6,"系统提示词":3,"产品冗余":1,"动态工作流":1,"测试时计算":2,"消融":1}</script>
+<script type="application/json" class="pd-epn">{"Boris Cherny":2,"Cloud Code":3,"Opus 5":1,"智能体":138,"提示词注入":6,"系统提示词":3,"产品冗余":1,"动态工作流":1,"测试时计算":2,"消融":1}</script>
 
 <script>
 (function(){

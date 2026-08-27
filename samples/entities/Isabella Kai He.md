@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]]
+[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":67,"智能体":136,"harness":16,"沙箱":25,"智能体循环":1,"上下文工程":6,"会话日志追踪":1,"泄露的凭证":3,"可观测性":12}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":68,"智能体":138,"harness":16,"沙箱":26,"智能体循环":1,"上下文工程":6,"会话日志追踪":2,"泄露的凭证":3,"可观测性":12}</script>
 
 <script>
 (function(){

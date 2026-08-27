@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":19,"Replit":11,"Magic School":1,"OpenAI":61,"智能体":136,"垂直 SaaS":1,"护城河":7,"开源模型":9,"LLM":17}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":19,"Replit":11,"Magic School":1,"OpenAI":61,"智能体":138,"垂直 SaaS":1,"护城河":7,"开源模型":9,"LLM":17}</script>
 
 <script>
 (function(){

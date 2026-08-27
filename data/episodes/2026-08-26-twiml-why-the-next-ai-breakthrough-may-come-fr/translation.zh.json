@@ -1,0 +1,4698 @@
+[
+ {
+  "seg": 0,
+  "start": 1.148,
+  "end": 5.51,
+  "speaker": "Unknown",
+  "en": "I want to send a big thanks to Blitzy for supporting the podcast and sponsoring this episode.",
+  "zh": "我想向 Blitzy 致以大大的感谢，感谢它支持该播客并赞助这一集。"
+ },
+ {
+  "seg": 1,
+  "start": 6.131,
+  "end": 8.892,
+  "speaker": "Unknown",
+  "en": "Want to accelerate software development velocity by 5x?",
+  "zh": "想要将软件开发速度提升 5 倍吗？"
+ },
+ {
+  "seg": 2,
+  "start": 9.353,
+  "end": 13.255,
+  "speaker": "Unknown",
+  "en": "You need Blitzy, which brings autonomous software engineering to your enterprise.",
+  "zh": "你需要 Blitzy，它将自主软件工程带给你的企业。"
+ },
+ {
+  "seg": 3,
+  "start": 13.895,
+  "end": 20.179,
+  "speaker": "Unknown",
+  "en": "Blitzy starts by reverse engineering your codebase, building a dynamic understanding of your entire application ecosystem.",
+  "zh": "Blitzy 首先逆向工程你的代码库，对你的整个应用生态系统建立动态的理解。"
+ },
+ {
+  "seg": 4,
+  "start": 20.819,
+  "end": 29.964,
+  "speaker": "Unknown",
+  "en": "Your engineers simply declare intent, and once approved, Blitzy autonomously executes entire software epics, delivering validated end-to-end tested code.",
+  "zh": "你的工程师只需声明意图，一旦获得批准，Blitzy 就自主执行整个软件史诗，交付经过验证的端到端测试代码。"
+ },
+ {
+  "seg": 5,
+  "start": 30.493,
+  "end": 33.697,
+  "speaker": "Unknown",
+  "en": "More than 80% of the work completed in a single run.",
+  "zh": "超过 80% 的工作在一次运行中完成。"
+ },
+ {
+  "seg": 6,
+  "start": 34.478,
+  "end": 36.16,
+  "speaker": "Unknown",
+  "en": "Blitzy is not just generating code.",
+  "zh": "Blitzy 不仅仅是在生成代码。"
+ },
+ {
+  "seg": 7,
+  "start": 36.34,
+  "end": 38.583,
+  "speaker": "Unknown",
+  "en": "It's developing software at the speed of compute.",
+  "zh": "它正在以计算的速度开发软件。"
+ },
+ {
+  "seg": 8,
+  "start": 39.244,
+  "end": 42.909,
+  "speaker": "Unknown",
+  "en": "Experience Blitzy firsthand at blitzy.com slash twiml.",
+  "zh": "在 blitzy.com/twiml 亲身体验 Blitzy。"
+ },
+ {
+  "seg": 9,
+  "start": 43.249,
+  "end": 47.675,
+  "speaker": "Unknown",
+  "en": "That's B-L-I-T-Z-Y dot com slash T-W-I-M-L.",
+  "zh": "那是 B-L-I-T-Z-Y dot com slash T-W-I-M-L。"
+ },
+ {
+  "seg": 10,
+  "start": 50.179,
+  "end": 55.663,
+  "speaker": "Unknown",
+  "en": "So far, most of the biggest breakthroughs in AI have come from training larger models on even more data.",
+  "zh": "迄今为止，AI 中最大的突破大部分来自于在更多数据上训练更大的模型。"
+ },
+ {
+  "seg": 11,
+  "start": 56.263,
+  "end": 57.764,
+  "speaker": "Unknown",
+  "en": "But that's not the only way forward.",
+  "zh": "但这并非唯一的出路。"
+ },
+ {
+  "seg": 12,
+  "start": 58.245,
+  "end": 63.849,
+  "speaker": "Unknown",
+  "en": "Today's guest, Max Welling, believes that better AI may come from someplace very different, physics.",
+  "zh": "今天的嘉宾 Max Welling 认为，更好的 AI 可能来自一个非常不同的地方，物理学。"
+ },
+ {
+  "seg": 13,
+  "start": 64.624,
+  "end": 70.027,
+  "speaker": "Unknown",
+  "en": "Max is the co-founder and CTO of cusp.ai and a professor at the University of Amsterdam.",
+  "zh": "Max 是 cusp.ai 的联合创始人和 CTO，也是阿姆斯特丹大学的教授。"
+ },
+ {
+  "seg": 14,
+  "start": 70.767,
+  "end": 80.292,
+  "speaker": "Unknown",
+  "en": "At cusp.ai, his team is using generative AI to design entirely new materials for semiconductors, batteries, carbon capture, and other scientific applications.",
+  "zh": "在 cusp.ai，他的团队正在使用生成式 AI 为半导体、电池、碳捕获和其他科学应用设计全新的材料。"
+ },
+ {
+  "seg": 15,
+  "start": 80.872,
+  "end": 83.493,
+  "speaker": "Unknown",
+  "en": "But our conversation goes beyond AI for science.",
+  "zh": "但我们的对话超越了科学领域的 AI。"
+ },
+ {
+  "seg": 16,
+  "start": 84.134,
+  "end": 88.396,
+  "speaker": "Unknown",
+  "en": "Max argues that physics isn't just another domain where AI can be applied.",
+  "zh": "Max 认为，物理学不仅仅是 AI 可以应用的另一个领域。"
+ },
+ {
+  "seg": 17,
+  "start": 88.736,
+  "end": 100.262,
+  "speaker": "Unknown",
+  "en": "The mathematical ideas physicists have developed to understand the natural world, concepts like thermodynamics, wave propagation, and symmetry breaking, may also help shape the next generation of AI architectures.",
+  "zh": "物理学家为了理解自然界而发展出的数学思想，如热力学、波的传播和对称性破缺等概念，可能也有助于塑造下一代 AI 架构。"
+ },
+ {
+  "seg": 18,
+  "start": 100.967,
+  "end": 104.51,
+  "speaker": "Unknown",
+  "en": "Here's Max on why physics may shape the next generation of AI.",
+  "zh": "这里是 Max 关于为什么物理学可能会塑造下一代 AI 的观点。"
+ },
+ {
+  "seg": 19,
+  "start": 104.75,
+  "end": 112.737,
+  "speaker": "Unknown",
+  "en": "Waves are actually seen in the brain now because we've gone from single electrode measurements to maybe hundreds or thousands of electrode measurements.",
+  "zh": "现在实际上在大脑中看到了波，因为我们已经从单电极测量变成了可能数百或数千个电极测量。"
+ },
+ {
+  "seg": 20,
+  "start": 113.418,
+  "end": 117.081,
+  "speaker": "Unknown",
+  "en": "And of course, in a single electrode, you cannot see a moving wave, a traveling wave.",
+  "zh": "当然，在单个电极中，你无法看到移动的波，行进的波。"
+ },
+ {
+  "seg": 21,
+  "start": 117.161,
+  "end": 122.345,
+  "speaker": "Unknown",
+  "en": "But if you put hundreds or thousands in them, you can actually see these traveling waves and people have now observed them everywhere.",
+  "zh": "但是如果你把数百或数千个（电极）放进去，你实际上可以看到这些行进波，人们现在已经到处观察到它们了。"
+ },
+ {
+  "seg": 22,
+  "start": 122.365,
+  "end": 125.688,
+  "speaker": "Unknown",
+  "en": "In neural networks, it's always been a little hard.",
+  "zh": "在神经网络中，一直有点困难。"
+ },
+ {
+  "seg": 23,
+  "start": 126.353,
+  "end": 133.16,
+  "speaker": "Unknown",
+  "en": "To make sure that the information travels all the way from the input to the output layers through thousands of layers.",
+  "zh": "确保信息通过数千层从输入层一直传输到输出层。"
+ },
+ {
+  "seg": 24,
+  "start": 133.28,
+  "end": 139.567,
+  "speaker": "Unknown",
+  "en": "So the question becomes, how do you communicate very deep into time or reason very deep into time?",
+  "zh": "所以问题变成了，你如何在时间上通信得很深或在时间上推理得很深？"
+ },
+ {
+  "seg": 25,
+  "start": 139.767,
+  "end": 142.971,
+  "speaker": "Unknown",
+  "en": "Or how do you communicate with things that are very far away in your brain?",
+  "zh": "或者你如何与你大脑中非常遥远的事物进行通信？"
+ },
+ {
+  "seg": 26,
+  "start": 143.591,
+  "end": 146.855,
+  "speaker": "Unknown",
+  "en": "And so the question becomes, can we actually start using this phenomenon?",
+  "zh": "所以问题变成了，我们实际上能开始使用这种现象吗？"
+ },
+ {
+  "seg": 27,
+  "start": 147.525,
+  "end": 151.448,
+  "speaker": "Unknown",
+  "en": "This wave phenomenon that we see in the brain, can we also start to use it in neural networks?",
+  "zh": "我们在大脑中看到的这种波现象，我们是否也可以开始在神经网络中使用它？"
+ },
+ {
+  "seg": 28,
+  "start": 151.508,
+  "end": 153.71,
+  "speaker": "Unknown",
+  "en": "And so this has been the work that we've been developing.",
+  "zh": "因此这就是我们一直在开发的工作。"
+ },
+ {
+  "seg": 29,
+  "start": 154.45,
+  "end": 157.552,
+  "speaker": "Unknown",
+  "en": "I'm Sam Charrington, and this is the TwiML AI Podcast.",
+  "zh": "我是 Sam Charrington，这是 TwiML AI 播客。"
+ },
+ {
+  "seg": 30,
+  "start": 158.073,
+  "end": 167.64,
+  "speaker": "Unknown",
+  "en": "For over a decade, I've been exploring the ideas and innovation shaping the future of AI through conversations like this one that help you understand what's real, what's next, and what matters.",
+  "zh": "十多年来，我通过像这样的对话一直在探索塑造 AI 未来的想法和创新，这些对话帮助你理解什么是真实的，什么是下一个，什么是重要的。"
+ },
+ {
+  "seg": 31,
+  "start": 168.14,
+  "end": 168.801,
+  "speaker": "Unknown",
+  "en": "Let's jump in.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 32,
+  "start": 177.802,
+  "end": 180.146,
+  "speaker": "Unknown",
+  "en": "Max, it's so great to be on the line with you again.",
+  "zh": "Max，能再次和你通电话真是太好了。"
+ },
+ {
+  "seg": 33,
+  "start": 180.166,
+  "end": 180.786,
+  "speaker": "Unknown",
+  "en": "It's been a while.",
+  "zh": "有一段时间了。"
+ },
+ {
+  "seg": 34,
+  "start": 181.347,
+  "end": 182.649,
+  "speaker": "Unknown",
+  "en": "It's great to be back, Sam.",
+  "zh": "很高兴回来，Sam。"
+ },
+ {
+  "seg": 35,
+  "start": 182.729,
+  "end": 184.191,
+  "speaker": "Unknown",
+  "en": "I'm looking forward to our discussion.",
+  "zh": "我期待我们的讨论。"
+ },
+ {
+  "seg": 36,
+  "start": 185.253,
+  "end": 186.675,
+  "speaker": "Unknown",
+  "en": "I am as well.",
+  "zh": "我也是。"
+ },
+ {
+  "seg": 37,
+  "start": 187.456,
+  "end": 191.783,
+  "speaker": "Unknown",
+  "en": "Our audience can look up our conversations from, I think, 2019 and 2020.",
+  "zh": "我们的听众可以查找我们在，我想，2019 年和 2020 年的对话。"
+ },
+ {
+  "seg": 38,
+  "start": 193.605,
+  "end": 200.206,
+  "speaker": "Unknown",
+  "en": "where we covered what you were working on at the time and I think still echoes into your work today.",
+  "zh": "在那些对话中我们涵盖了当时你在做什么，我认为这至今仍回响在你的工作中。"
+ },
+ {
+  "seg": 39,
+  "start": 200.346,
+  "end": 207.148,
+  "speaker": "Unknown",
+  "en": "Geometric neural networks and gauge equivariance neural networks and the like.",
+  "zh": "几何神经网络和规范等变神经网络之类的东西。"
+ },
+ {
+  "seg": 40,
+  "start": 208.268,
+  "end": 212.549,
+  "speaker": "Unknown",
+  "en": "But I'd love to have you kind of catch us up on what you've been up to since.",
+  "zh": "但我想让你给我们大致补补课，讲讲你从那以后一直在做什么。"
+ },
+ {
+  "seg": 41,
+  "start": 212.589,
+  "end": 213.549,
+  "speaker": "Unknown",
+  "en": "It's been quite a while.",
+  "zh": "确实有一段时间了。"
+ },
+ {
+  "seg": 42,
+  "start": 213.989,
+  "end": 218.09,
+  "speaker": "Unknown",
+  "en": "Yeah, actually, the equivariance theme has definitely continued.",
+  "zh": "是的，实际上，等变主题肯定在继续。"
+ },
+ {
+  "seg": 43,
+  "start": 219.509,
+  "end": 225.871,
+  "speaker": "Unknown",
+  "en": "In fact, I found out that equivariance was used very fruitfully in chemistry and material science.",
+  "zh": "事实上，我发现等变在化学和材料科学中被非常富有成效地使用。"
+ },
+ {
+  "seg": 44,
+  "start": 227.071,
+  "end": 242.595,
+  "speaker": "Unknown",
+  "en": "So in chemistry and material science, people train neural network models to predict the forces on atoms because people want to evolve atoms forward in time in order to compute their properties, which is called molecular dynamics.",
+  "zh": "所以在化学和材料科学中，人们训练神经网络模型来预测原子上的力，因为人们想让原子随时间向前演化以计算它们的属性，这被称为分子动力学。"
+ },
+ {
+  "seg": 45,
+  "start": 243.713,
+  "end": 254.239,
+  "speaker": "Unknown",
+  "en": "And typically you need to use quantum mechanics to compute these forces because a large contribution comes from the electrons and electrons are very light.",
+  "zh": "而且通常你需要使用量子力学来计算这些力，因为很大一部分贡献来自电子，而且电子非常轻。"
+ },
+ {
+  "seg": 46,
+  "start": 255.48,
+  "end": 257.741,
+  "speaker": "Unknown",
+  "en": "And so you need to treat them with quantum mechanics.",
+  "zh": "所以你需要用量子力学来处理它们。"
+ },
+ {
+  "seg": 47,
+  "start": 257.822,
+  "end": 265.146,
+  "speaker": "Unknown",
+  "en": "But, you know, if you get 10 electrons or more, it basically becomes completely unfeasible to solve the so-called Schrodinger equation.",
+  "zh": "但是，你知道，如果你有 10 个或更多电子，基本上完全不可行去求解所谓的薛定谔方程。"
+ },
+ {
+  "seg": 48,
+  "start": 265.806,
+  "end": 271.95,
+  "speaker": "Unknown",
+  "en": "So people have come up with approximations like density functional theory, known as DFT.",
+  "zh": "所以人们提出了像密度泛函理论这样的近似方法，即 DFT。"
+ },
+ {
+  "seg": 49,
+  "start": 272.8,
+  "end": 276.623,
+  "speaker": "Unknown",
+  "en": "And the inventors of that got the Nobel Prize for that.",
+  "zh": "而且那的发明者因此获得了诺贝尔奖。"
+ },
+ {
+  "seg": 50,
+  "start": 277.243,
+  "end": 279.545,
+  "speaker": "Unknown",
+  "en": "But what now people do is they train surrogates.",
+  "zh": "但是现在人们做的是他们训练替代模型。"
+ },
+ {
+  "seg": 51,
+  "start": 279.565,
+  "end": 286.17,
+  "speaker": "Unknown",
+  "en": "So they provide data using this expensive approximation to quantum mechanics.",
+  "zh": "所以他们提供数据，使用这种昂贵的量子力学近似。"
+ },
+ {
+  "seg": 52,
+  "start": 287.611,
+  "end": 296.377,
+  "speaker": "Unknown",
+  "en": "And then they use neural networks to shortcut the computation, so to predict the outcome of that computation, but at a much more accelerated pace.",
+  "zh": "然后他们使用神经网络来抄近道计算，以便预测该计算的结果，但是以一个更快的速度。"
+ },
+ {
+  "seg": 53,
+  "start": 296.397,
+  "end": 296.938,
+  "speaker": "Unknown",
+  "en": "So in other words,",
+  "zh": "换句话说，"
+ },
+ {
+  "seg": 54,
+  "start": 297.763,
+  "end": 304.528,
+  "speaker": "Unknown",
+  "en": "Three-order to four-order magnitude acceleration, more efficiency relative to these quantum mechanical approximations.",
+  "zh": "三到四个数量级的加速，相对于这些量子力学近似更有效率。"
+ },
+ {
+  "seg": 55,
+  "start": 305.729,
+  "end": 322.863,
+  "speaker": "Unknown",
+  "en": "And in those models, because the world is three-dimensional symmetric, so if I rotate a molecule, all the forces will rotate with it, and so we could now put the same ideas that we use for images, we could put them in these molecules, these models that predict the forces.",
+  "zh": "而在那些模型中，因为世界是三维对称的，所以如果我旋转一个分子，所有的力都会随之旋转，所以我们可以现在把同样的想法，就是我们用于图像的，我们可以把它们放入这些分子中，这些预测力的模型。"
+ },
+ {
+  "seg": 56,
+  "start": 323.52,
+  "end": 325.7,
+  "speaker": "Unknown",
+  "en": "And we could use equivariance.",
+  "zh": "我们可以使用等变性。"
+ },
+ {
+  "seg": 57,
+  "start": 325.72,
+  "end": 329.081,
+  "speaker": "Unknown",
+  "en": "And so that's why I kind of, also because my background is in science.",
+  "zh": "这就是为什么我有点，也因为我的背景是在科学。"
+ },
+ {
+  "seg": 58,
+  "start": 330.341,
+  "end": 332.182,
+  "speaker": "Unknown",
+  "en": "I did my PhD in theoretical physics.",
+  "zh": "我在理论物理方面读的博士。"
+ },
+ {
+  "seg": 59,
+  "start": 332.382,
+  "end": 340.883,
+  "speaker": "Unknown",
+  "en": "I thought, okay, this is a perfect unification of my old sort of passion and my new passion.",
+  "zh": "我想，好吧，这是我旧的那种热情和我新热情的完美结合。"
+ },
+ {
+  "seg": 60,
+  "start": 340.904,
+  "end": 341.724,
+  "speaker": "Unknown",
+  "en": "I can put it together.",
+  "zh": "我可以把它们结合起来。"
+ },
+ {
+  "seg": 61,
+  "start": 341.764,
+  "end": 344.224,
+  "speaker": "Unknown",
+  "en": "And that's when I started to be interested in AI for science.",
+  "zh": "那就是我开始对用于科学的 AI 感兴趣的时候。"
+ },
+ {
+  "seg": 62,
+  "start": 344.624,
+  "end": 347.505,
+  "speaker": "Unknown",
+  "en": "So that led pretty directly to the founding of CUSP.",
+  "zh": "所以这相当直接地导致了 CUSP 的成立。"
+ },
+ {
+  "seg": 63,
+  "start": 348.566,
+  "end": 359.11,
+  "speaker": "Unknown",
+  "en": "Actually, first, I spent two years at Microsoft Research as a VP because they were building their AFR science lab in Amsterdam, and so I helped that along.",
+  "zh": "实际上，首先，我在微软研究院花了两年时间做副总裁，因为他们在阿姆斯特丹建立他们的 AFR 科学实验室，所以我帮助推进了那个。"
+ },
+ {
+  "seg": 64,
+  "start": 360.15,
+  "end": 363.931,
+  "speaker": "Unknown",
+  "en": "But after two years, I wanted to start a startup.",
+  "zh": "但两年后，我想开始一家初创公司。"
+ },
+ {
+  "seg": 65,
+  "start": 364.071,
+  "end": 371.354,
+  "speaker": "Unknown",
+  "en": "I already did a startup a while ago, but this was actually the startup that got acquired by Qualcomm, and then I spent some time at Qualcomm.",
+  "zh": "我之前做过一家初创公司，但这实际上是那家被高通收购的初创公司，然后我在高通花了一些时间。"
+ },
+ {
+  "seg": 66,
+  "start": 372.78,
+  "end": 377.281,
+  "speaker": "Unknown",
+  "en": "And I really like startups, the dynamical environment and the impact you can make.",
+  "zh": "我真的很喜欢初创公司，那种动态的环境和你能产生的影响。"
+ },
+ {
+  "seg": 67,
+  "start": 377.861,
+  "end": 382.483,
+  "speaker": "Unknown",
+  "en": "And I wanted to do it the Silicon Valley way together with my co-founder, Chad Edwards.",
+  "zh": "我想用硅谷的方式来做，和我的联合创始人 Chad Edwards 一起。"
+ },
+ {
+  "seg": 68,
+  "start": 383.843,
+  "end": 386.364,
+  "speaker": "Unknown",
+  "en": "And so we started Cospy AI in 2024.",
+  "zh": "所以我们在 2024 年创立了 Cospy AI。"
+ },
+ {
+  "seg": 69,
+  "start": 387.264,
+  "end": 390.224,
+  "speaker": "Unknown",
+  "en": "Talk a little bit about the progress that you've made since then.",
+  "zh": "稍微谈谈从那时起你们取得的进展。"
+ },
+ {
+  "seg": 70,
+  "start": 390.965,
+  "end": 393.445,
+  "speaker": "Unknown",
+  "en": "What is the kind of shape of the company today?",
+  "zh": "今天公司的大致情况是什么样？"
+ },
+ {
+  "seg": 71,
+  "start": 393.465,
+  "end": 395.306,
+  "speaker": "Unknown",
+  "en": "It's been a huge ride, actually.",
+  "zh": "这实际上是一段巨大的旅程。"
+ },
+ {
+  "seg": 72,
+  "start": 395.406,
+  "end": 396.326,
+  "speaker": "Unknown",
+  "en": "It's a roller coaster.",
+  "zh": "这就像过山车。"
+ },
+ {
+  "seg": 73,
+  "start": 397.197,
+  "end": 399.76,
+  "speaker": "Unknown",
+  "en": "So we started, I think, about two years ago.",
+  "zh": "所以我们在，我想，大约两年前开始了。"
+ },
+ {
+  "seg": 74,
+  "start": 400.121,
+  "end": 403.264,
+  "speaker": "Unknown",
+  "en": "So, you know, May, spring 24.",
+  "zh": "所以，你知道，五月，2024 年春天。"
+ },
+ {
+  "seg": 75,
+  "start": 405.607,
+  "end": 412.855,
+  "speaker": "Unknown",
+  "en": "Yeah, we started with a good initial investment of about 30 million, from which we could hire an excellent team.",
+  "zh": "是的，我们以大约 3000 万的良好初始投资开始，从中我们可以聘请一个优秀的团队。"
+ },
+ {
+  "seg": 76,
+  "start": 413.756,
+  "end": 417.4,
+  "speaker": "Unknown",
+  "en": "So the team has grown to about 50 people right now.",
+  "zh": "所以团队现在已经增长到大约 50 人。"
+ },
+ {
+  "seg": 77,
+  "start": 418.24,
+  "end": 419.981,
+  "speaker": "Unknown",
+  "en": "We now also have labs in London and Berlin.",
+  "zh": "我们现在在伦敦和柏林也有实验室。"
+ },
+ {
+  "seg": 78,
+  "start": 439.36,
+  "end": 443.223,
+  "speaker": "Unknown",
+  "en": "And we're also expanding into Asia and North America.",
+  "zh": "我们也在向亚洲和北美扩张。"
+ },
+ {
+  "seg": 79,
+  "start": 444.144,
+  "end": 452.791,
+  "speaker": "Unknown",
+  "en": "And no surprise, your list of advisors is a bit of a who's who with Jeff Hinton and Jan LeCun at the top of the list.",
+  "zh": "毫不奇怪，你的顾问名单有点像名人录，Jeff Hinton 和 Jan LeCun 名列榜首。"
+ },
+ {
+  "seg": 80,
+  "start": 453.332,
+  "end": 453.792,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 81,
+  "start": 453.812,
+  "end": 456.154,
+  "speaker": "Unknown",
+  "en": "Yeah, the advisors are actually fantastic.",
+  "zh": "是的，顾问们实际上非常棒。"
+ },
+ {
+  "seg": 82,
+  "start": 456.714,
+  "end": 458.956,
+  "speaker": "Unknown",
+  "en": "So we have Jeff Hinton and Jan LeCun.",
+  "zh": "所以我们有 Jeff Hinton 和 Jan LeCun。"
+ },
+ {
+  "seg": 83,
+  "start": 460.938,
+  "end": 465.782,
+  "speaker": "Unknown",
+  "en": "We added to that also Martin van den Brink.",
+  "zh": "我们还增加了 Martin van den Brink。"
+ },
+ {
+  "seg": 84,
+  "start": 466.542,
+  "end": 467.262,
+  "speaker": "Unknown",
+  "en": "And Laura Brown.",
+  "zh": "以及 Laura Brown。"
+ },
+ {
+  "seg": 85,
+  "start": 467.322,
+  "end": 471.705,
+  "speaker": "Unknown",
+  "en": "So Laura Brown is the former CEO of BP.",
+  "zh": "所以 Laura Brown 是 BP 的前 CEO。"
+ },
+ {
+  "seg": 86,
+  "start": 472.105,
+  "end": 476.647,
+  "speaker": "Unknown",
+  "en": "And Martin van den Brink is the former president and CTO of ASML.",
+  "zh": "而 Martin van den Brink 是 ASML 的前总裁兼 CTO。"
+ },
+ {
+  "seg": 87,
+  "start": 477.367,
+  "end": 483.25,
+  "speaker": "Unknown",
+  "en": "They're both retired, and they like to spend their time with new startups and help them along.",
+  "zh": "他们都退休了，他们喜欢把时间花在新的初创公司上并帮助它们。"
+ },
+ {
+  "seg": 88,
+  "start": 483.73,
+  "end": 485.391,
+  "speaker": "Unknown",
+  "en": "And then there's Verity Harding.",
+  "zh": "然后还有 Verity Harding。"
+ },
+ {
+  "seg": 89,
+  "start": 485.411,
+  "end": 491.314,
+  "speaker": "Unknown",
+  "en": "She's working for the UK government and also DeepMind, I think, or maybe formerly at DeepMind.",
+  "zh": "她在为英国政府工作，也在 DeepMind，我想，或者可能以前在 DeepMind。"
+ },
+ {
+  "seg": 90,
+  "start": 492.051,
+  "end": 500.213,
+  "speaker": "Unknown",
+  "en": "And then Kristin Persson, who has sort of initiated the materials project, and she's also advising on that side.",
+  "zh": "然后还有 Kristin Persson，她发起了 materials project，她也在那方面提供建议。"
+ },
+ {
+  "seg": 91,
+  "start": 501.413,
+  "end": 501.693,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 92,
+  "start": 501.713,
+  "end": 515.696,
+  "speaker": "Unknown",
+  "en": "So let's dig into the technology and the approach that you're taking to kind of apply this original set of work that you developed to materials.",
+  "zh": "所以让我们深入研究一下你正在采取的技术和方法，以某种方式将你开发的这套原始工作应用到材料上。"
+ },
+ {
+  "seg": 93,
+  "start": 516.236,
+  "end": 517.977,
+  "speaker": "Unknown",
+  "en": "How did you get started with that effort?",
+  "zh": "你是如何开始这项工作的？"
+ },
+ {
+  "seg": 94,
+  "start": 520.482,
+  "end": 530.124,
+  "speaker": "Unknown",
+  "en": "The opportunity is, to me, there's a deep fascination with the fact that there is a sheer infinite amount of possibilities in which you can put together atoms.",
+  "zh": "这个机会在于，对我来说，深深着迷于这样一个事实，即你可以将原子组合在一起的方式有着纯粹无限的可能性。"
+ },
+ {
+  "seg": 95,
+  "start": 531.224,
+  "end": 537.265,
+  "speaker": "Unknown",
+  "en": "And the universe has only figured out so many of them because they form naturally, I guess, in the universe.",
+  "zh": "而宇宙只弄清楚了其中这么多，因为它们在宇宙中自然形成，我猜。"
+ },
+ {
+  "seg": 96,
+  "start": 538.425,
+  "end": 542.406,
+  "speaker": "Unknown",
+  "en": "But there's many more that you can design yourself with all sorts of exotic properties.",
+  "zh": "但还有更多你可以自己设计的，具有各种奇异的特性。"
+ },
+ {
+  "seg": 97,
+  "start": 543.486,
+  "end": 546.487,
+  "speaker": "Unknown",
+  "en": "When we started this company, both Chad and I were",
+  "zh": "当我们创办这家公司时，Chad 和我都"
+ },
+ {
+  "seg": 98,
+  "start": 547.496,
+  "end": 549.117,
+  "speaker": "Unknown",
+  "en": "I'm kind of concerned about the climate.",
+  "zh": "我有点担心气候。"
+ },
+ {
+  "seg": 99,
+  "start": 549.798,
+  "end": 550.438,
+  "speaker": "Unknown",
+  "en": "We still are.",
+  "zh": "我们仍然如此。"
+ },
+ {
+  "seg": 100,
+  "start": 551.819,
+  "end": 565.108,
+  "speaker": "Unknown",
+  "en": "And so we felt there's a strong need to accelerate the energy transition to more sustainable energy sources, as well as trying to take the carbon dioxide that's in the atmosphere out.",
+  "zh": "所以我们感到强烈需要加速能源转型，转向更可持续的能源，以及尝试把大气中的二氧化碳抽取出来。"
+ },
+ {
+  "seg": 101,
+  "start": 565.688,
+  "end": 572.973,
+  "speaker": "Unknown",
+  "en": "So not many people know that by the time it's 2015, of course, we really like to be completely carbon neutral.",
+  "zh": "所以没多少人知道，到了 2015 年，当然，我们真的很想完全实现碳中和。"
+ },
+ {
+  "seg": 102,
+  "start": 573.979,
+  "end": 581.564,
+  "speaker": "Unknown",
+  "en": "But after that, there is still 50 to 100 years where we have to take out every year about half of what we currently put in.",
+  "zh": "但在那之后，仍有 50 到 100 年的时间，我们需要每年提取出当前排放量的大约一半。"
+ },
+ {
+  "seg": 103,
+  "start": 581.604,
+  "end": 583.305,
+  "speaker": "Unknown",
+  "en": "So that's 20 gigaton a year.",
+  "zh": "所以那就是每年 200 亿吨。"
+ },
+ {
+  "seg": 104,
+  "start": 583.345,
+  "end": 585.026,
+  "speaker": "Unknown",
+  "en": "That's an enormous amount.",
+  "zh": "那是一个巨大的数量。"
+ },
+ {
+  "seg": 105,
+  "start": 585.066,
+  "end": 591.53,
+  "speaker": "Unknown",
+  "en": "I think the size of the Lake of Geneva filled with sort of liquid carbon dioxide, a gigantic amount.",
+  "zh": "我想就像是日内瓦湖那么大，装满了液态二氧化碳，一个巨大的数量。"
+ },
+ {
+  "seg": 106,
+  "start": 592.53,
+  "end": 596.473,
+  "speaker": "Unknown",
+  "en": "And we don't have the technology for that because it's actually very hard to take it out.",
+  "zh": "而且我们没有这项技术，因为实际上把它提取出来非常困难。"
+ },
+ {
+  "seg": 107,
+  "start": 597.573,
+  "end": 601.076,
+  "speaker": "Unknown",
+  "en": "Because it's so dilute in the atmosphere, it's very expensive too.",
+  "zh": "因为它在大气中太稀薄了，所以也非常昂贵。"
+ },
+ {
+  "seg": 108,
+  "start": 601.216,
+  "end": 613.105,
+  "speaker": "Unknown",
+  "en": "And the two factors which are more expensive are energy and the material, the sorbit material that you use in order to take the carbon dioxide out of the atmosphere.",
+  "zh": "而其中更昂贵的两个因素是能源和材料，即你用来从大气中提取二氧化碳的 sorbit 材料。"
+ },
+ {
+  "seg": 109,
+  "start": 613.785,
+  "end": 621.972,
+  "speaker": "Unknown",
+  "en": "And so we've been working, the first project we've been doing was improving the materials that take out this carbon dioxide from the atmosphere.",
+  "zh": "所以我们一直在工作，我们做的第一个项目是改进这些从大气中提取二氧化碳的材料。"
+ },
+ {
+  "seg": 110,
+  "start": 621.992,
+  "end": 623.733,
+  "speaker": "Unknown",
+  "en": "And these are called metal organic frameworks.",
+  "zh": "这些被称为金属有机框架。"
+ },
+ {
+  "seg": 111,
+  "start": 625.256,
+  "end": 628.619,
+  "speaker": "Unknown",
+  "en": "Actually, this is the material that this year won the Nobel Prize in Chemistry.",
+  "zh": "实际上，这是今年获得诺贝尔化学奖的材料。"
+ },
+ {
+  "seg": 112,
+  "start": 631.06,
+  "end": 638.385,
+  "speaker": "Unknown",
+  "en": "And yeah, so we built a platform, and I can go into much more detail, but we built a platform that designs these material with the use of AI.",
+  "zh": "是的，所以我们构建了一个平台，我可以更详细地介绍，但我们构建了一个利用 AI 设计这些材料的平台。"
+ },
+ {
+  "seg": 113,
+  "start": 638.406,
+  "end": 643.949,
+  "speaker": "Unknown",
+  "en": "So you can sort of think of it as a search engine, but it's not searching over existing documents.",
+  "zh": "所以你可以把它看作是一个搜索引擎，但它不是在搜索现有的文档。"
+ },
+ {
+  "seg": 114,
+  "start": 644.069,
+  "end": 647.372,
+  "speaker": "Unknown",
+  "en": "It searches over known and unknown materials.",
+  "zh": "它搜索已知和未知的材料。"
+ },
+ {
+  "seg": 115,
+  "start": 647.432,
+  "end": 651.975,
+  "speaker": "Unknown",
+  "en": "So it actually completely designs them from scratch if there's no suitable ones already available.",
+  "zh": "所以如果没有现成的合适材料，它实际上会完全从头开始设计它们。"
+ },
+ {
+  "seg": 116,
+  "start": 652.951,
+  "end": 654.152,
+  "speaker": "Unknown",
+  "en": "And there's many components.",
+  "zh": "并且有许多组件。"
+ },
+ {
+  "seg": 117,
+  "start": 654.212,
+  "end": 659.094,
+  "speaker": "Unknown",
+  "en": "It's agentic, so there is an agent sitting at the core of it who orchestrates a long computation.",
+  "zh": "它是智能体化的，所以有一个智能体坐在它的核心，它编排着一个长计算。"
+ },
+ {
+  "seg": 118,
+  "start": 660.735,
+  "end": 663.317,
+  "speaker": "Unknown",
+  "en": "And it searches through existing databases.",
+  "zh": "它搜索现有的数据库。"
+ },
+ {
+  "seg": 119,
+  "start": 663.377,
+  "end": 665.698,
+  "speaker": "Unknown",
+  "en": "It generates entirely new molecules.",
+  "zh": "它生成全新的分子。"
+ },
+ {
+  "seg": 120,
+  "start": 667.199,
+  "end": 670.061,
+  "speaker": "Unknown",
+  "en": "And it also evaluates all these molecules with all sorts of tools.",
+  "zh": "它还用各种工具评估所有这些分子。"
+ },
+ {
+  "seg": 121,
+  "start": 670.201,
+  "end": 681.647,
+  "speaker": "Unknown",
+  "en": "And in this generation and evaluation, you know, equivariance and all sorts of methods that, you know, we have developed over the years in my academic lab play a very important role.",
+  "zh": "在这个生成和评估过程中，你知道，equivariance 和我们在我的学术实验室多年来开发的各种方法起着非常重要的作用。"
+ },
+ {
+  "seg": 122,
+  "start": 682.752,
+  "end": 688.734,
+  "speaker": "Unknown",
+  "en": "To be clear, you mentioned a molecule that won the Nobel Prize.",
+  "zh": "说清楚点，你提到了一种获得诺贝尔奖的分子。"
+ },
+ {
+  "seg": 123,
+  "start": 689.314,
+  "end": 691.895,
+  "speaker": "Unknown",
+  "en": "Were you involved in the discovery of that particular molecule?",
+  "zh": "你参与了那个特定分子的发现吗？"
+ },
+ {
+  "seg": 124,
+  "start": 691.955,
+  "end": 692.115,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "没有。"
+ },
+ {
+  "seg": 125,
+  "start": 692.815,
+  "end": 693.455,
+  "speaker": "Unknown",
+  "en": "No, I wish.",
+  "zh": "不，我希望是。"
+ },
+ {
+  "seg": 126,
+  "start": 696.216,
+  "end": 700.398,
+  "speaker": "Unknown",
+  "en": "Those were chemists who did that, who discovered it.",
+  "zh": "那是完成这件事的化学家，是他们发现的。"
+ },
+ {
+  "seg": 127,
+  "start": 700.878,
+  "end": 706.159,
+  "speaker": "Unknown",
+  "en": "I think Professor Kitagawa, Professor Yagi, and Professor Robson, I think those are the three.",
+  "zh": "我想是 Kitagawa 教授、Yagi 教授和 Robson 教授，我想那是这三位。"
+ },
+ {
+  "seg": 128,
+  "start": 706.199,
+  "end": 707.8,
+  "speaker": "Unknown",
+  "en": "I'm not quite sure of the last one.",
+  "zh": "我不太确定最后一位。"
+ },
+ {
+  "seg": 129,
+  "start": 709.054,
+  "end": 721.023,
+  "speaker": "Unknown",
+  "en": "But this is a class of molecules where there is a metal complex, a metal node with all sorts of atoms along it at the vertices of a graph.",
+  "zh": "但这是一类分子，其中有一个金属络合物，一个金属节点，沿着它有各种原子位于图的顶点。"
+ },
+ {
+  "seg": 130,
+  "start": 721.043,
+  "end": 729.249,
+  "speaker": "Unknown",
+  "en": "And then there is so-called linkers, which are also organic complexes, which are connecting these vertices on the graph.",
+  "zh": "然后有所谓的连接体，它们也是有机络合物，连接着图上的这些顶点。"
+ },
+ {
+  "seg": 131,
+  "start": 730.47,
+  "end": 732.191,
+  "speaker": "Unknown",
+  "en": "And they're extremely porous.",
+  "zh": "而且它们极其多孔。"
+ },
+ {
+  "seg": 132,
+  "start": 732.211,
+  "end": 737.916,
+  "speaker": "Unknown",
+  "en": "So they have a very large holes in the middle with an enormous surface area.",
+  "zh": "所以它们中间有很大的孔，具有巨大的表面积。"
+ },
+ {
+  "seg": 133,
+  "start": 738.834,
+  "end": 753.426,
+  "speaker": "Unknown",
+  "en": "And so if you blow sort of air atmosphere through it, the molecules in the air, which is water, nitrogen, and carbon dioxide, but carbon dioxide is only a small fraction of that, they tend to stick to the sides.",
+  "zh": "所以如果你把空气/大气吹过它，空气中的分子，也就是水、氮和二氧化碳，但二氧化碳只占很小一部分，它们往往会粘在侧面。"
+ },
+ {
+  "seg": 134,
+  "start": 754.567,
+  "end": 765.476,
+  "speaker": "Unknown",
+  "en": "And so then what you need to make is a molecule, you need to design a molecule where actually only the carbon dioxide sticks inside these pores and the rest goes through.",
+  "zh": "那么你需要制造的就是一种分子，你需要设计一种分子，使得实际上只有二氧化碳粘在这些孔隙内，而其余的通过。"
+ },
+ {
+  "seg": 135,
+  "start": 765.556,
+  "end": 766.677,
+  "speaker": "Unknown",
+  "en": "So that's a design question.",
+  "zh": "所以这是一个设计问题。"
+ },
+ {
+  "seg": 136,
+  "start": 769.229,
+  "end": 776.251,
+  "speaker": "Unknown",
+  "en": "When it's full, you want to shake it or heat it to get it out so that you can actually reuse that particular material.",
+  "zh": "当它满了的时候，你想摇晃它或加热它把它弄出来，这样你实际上可以重用那种特定的材料。"
+ },
+ {
+  "seg": 137,
+  "start": 776.832,
+  "end": 786.235,
+  "speaker": "Unknown",
+  "en": "What we added to this is a way to fine-tune or design a molecule for a particular purpose.",
+  "zh": "我们对此添加的是一种为特定目的微调或设计分子的方法。"
+ },
+ {
+  "seg": 138,
+  "start": 788.15,
+  "end": 796.012,
+  "speaker": "Unknown",
+  "en": "You know, actually made maybe around 100,000 of these molecules in labs and verified their structure.",
+  "zh": "你知道，实际上在实验室里制造了大约 10 万个这样的分子并验证了它们的结构。"
+ },
+ {
+  "seg": 139,
+  "start": 796.612,
+  "end": 808.555,
+  "speaker": "Unknown",
+  "en": "And so what we can do is we can now basically come up with an entirely new molecule for a very specific task and then make it in the lab and then use that for that particular task.",
+  "zh": "所以我们能做的是，我们现在基本上可以为一个非常特定的任务提出一个全新的分子，然后在实验室制造它，然后将其用于那个特定任务。"
+ },
+ {
+  "seg": 140,
+  "start": 808.695,
+  "end": 810.975,
+  "speaker": "Unknown",
+  "en": "I should say, CASP is not only working on MOFs.",
+  "zh": "我应该说，CASP 不仅仅是在研究 MOFs。"
+ },
+ {
+  "seg": 141,
+  "start": 811.015,
+  "end": 812.916,
+  "speaker": "Unknown",
+  "en": "In fact, this was just the first set of...",
+  "zh": "事实上，这只是第一批..."
+ },
+ {
+  "seg": 142,
+  "start": 813.512,
+  "end": 834.277,
+  "speaker": "Unknown",
+  "en": "molecules that we worked with we have hence expanded to semiconductors we're doing a lot of work on pro and perovskites which is materials for solar panels improved improved solar panels and we look at semiconductors for new chip chip materials",
+  "zh": "我们与之合作的分子，我们因此扩展到了半导体，我们在 pro 和钙钛矿上做了很多工作，这是太阳能电池板的材料，改进改进的太阳能电池板，我们研究用于新芯片芯片材料的半导体"
+ },
+ {
+  "seg": 143,
+  "start": 835.582,
+  "end": 840.206,
+  "speaker": "Unknown",
+  "en": "We look at battery materials, fuel cells.",
+  "zh": "我们研究电池材料、燃料电池。"
+ },
+ {
+  "seg": 144,
+  "start": 841.307,
+  "end": 849.433,
+  "speaker": "Unknown",
+  "en": "We also look at removing PFAS from water, and the current set of molecules we use for that is, again, metal organic frameworks.",
+  "zh": "我们还研究从水中去除 PFAS，而我们目前用于此的一组分子又是金属有机框架。"
+ },
+ {
+  "seg": 145,
+  "start": 850.257,
+  "end": 862.786,
+  "speaker": "Unknown",
+  "en": "Do you partner with other companies that have an interest in these particular molecules or are you out exploring and then if you find something you will find partners and maybe license to them?",
+  "zh": "你们是否与对这些特定分子感兴趣的其他公司合作，还是你们在外探索，然后如果发现了什么，你们会寻找合作伙伴并可能向他们授权？"
+ },
+ {
+  "seg": 146,
+  "start": 862.806,
+  "end": 865.148,
+  "speaker": "Unknown",
+  "en": "What's the thinking around the business model?",
+  "zh": "关于商业模式的想法是什么？"
+ },
+ {
+  "seg": 147,
+  "start": 866.209,
+  "end": 878.478,
+  "speaker": "Unknown",
+  "en": "So we like to work with partners because there's a very broad class of materials and every class has its own super experts that focus on those particular areas and they're either in academia or they're in companies.",
+  "zh": "所以我们喜欢与合作伙伴一起工作，因为有一个非常广泛的材料类别，每个类别都有自己的超级专家，专注于那些特定领域，他们要么在学术界，要么在公司里。"
+ },
+ {
+  "seg": 148,
+  "start": 879.918,
+  "end": 883.32,
+  "speaker": "Unknown",
+  "en": "And of course, we also like to partner on the actual synthesis of these materials.",
+  "zh": "当然，我们也喜欢在这些材料的实际合成方面进行合作。"
+ },
+ {
+  "seg": 149,
+  "start": 883.34,
+  "end": 888.282,
+  "speaker": "Unknown",
+  "en": "So we partner with academic labs, but also with the labs inside of these companies.",
+  "zh": "所以我们与学术实验室合作，但也与这些公司内部的实验室合作。"
+ },
+ {
+  "seg": 150,
+  "start": 888.422,
+  "end": 902.788,
+  "speaker": "Unknown",
+  "en": "And so we build an ecosystem or a network where our engine can actually help in all of these different material classes, design the materials, and then we work with those companies to actually make it.",
+  "zh": "所以我们建立了一个生态系统或网络，我们的引擎实际上可以在所有这些不同的材料类别中提供帮助，设计材料，然后我们与那些公司合作实际制造它。"
+ },
+ {
+  "seg": 151,
+  "start": 902.848,
+  "end": 904.789,
+  "speaker": "Unknown",
+  "en": "So that's a partnership model.",
+  "zh": "所以这是一种合作伙伴模式。"
+ },
+ {
+  "seg": 152,
+  "start": 907.13,
+  "end": 907.99,
+  "speaker": "Unknown",
+  "en": "But there's also...",
+  "zh": "但也有……"
+ },
+ {
+  "seg": 153,
+  "start": 908.89,
+  "end": 910.611,
+  "speaker": "Unknown",
+  "en": "Internal projects that we run.",
+  "zh": "我们运行的内部项目。"
+ },
+ {
+  "seg": 154,
+  "start": 910.831,
+  "end": 917.252,
+  "speaker": "Unknown",
+  "en": "So for instance, the project on metal organic frameworks for carbon capture, we ran self-funded internally.",
+  "zh": "例如，关于用于碳捕集的金属有机框架的项目，我们在内部进行了自筹资金。"
+ },
+ {
+  "seg": 155,
+  "start": 919.233,
+  "end": 924.294,
+  "speaker": "Unknown",
+  "en": "And then we also have another project now in the semiconductor side where we run it.",
+  "zh": "然后我们现在还有另一个项目在半导体方面，我们在那里运行它。"
+ },
+ {
+  "seg": 156,
+  "start": 924.334,
+  "end": 932.377,
+  "speaker": "Unknown",
+  "en": "And so if we discover something fantastic with self-funding, so we got the IP and then we can find customers for that IP.",
+  "zh": "所以如果我们通过自筹资金发现了一些极好的东西，所以我们拥有了 IP，然后我们可以为该 IP 寻找客户。"
+ },
+ {
+  "seg": 157,
+  "start": 932.397,
+  "end": 936.418,
+  "speaker": "Unknown",
+  "en": "I think the most important thing is that we discover something that gives people",
+  "zh": "我认为最重要的事情是，我们发现了某种能给人们带来"
+ },
+ {
+  "seg": 158,
+  "start": 937.245,
+  "end": 939.468,
+  "speaker": "Unknown",
+  "en": "certain confidence that we can do this.",
+  "zh": "一定信心的事情，表明我们可以做到这一点。"
+ },
+ {
+  "seg": 159,
+  "start": 939.588,
+  "end": 942.631,
+  "speaker": "Unknown",
+  "en": "We actually really own this process and we know how to do it.",
+  "zh": "我们实际上真正掌握了这个过程，并且我们知道如何做。"
+ },
+ {
+  "seg": 160,
+  "start": 942.791,
+  "end": 946.155,
+  "speaker": "Unknown",
+  "en": "And so then we work with customers to design materials for their",
+  "zh": "所以然后我们与客户合作，为他们的"
+ },
+ {
+  "seg": 161,
+  "start": 948.591,
+  "end": 959.101,
+  "speaker": "Unknown",
+  "en": "You talked a little bit about kind of the generative or agentic nature of this scanning scientific literature and using that to identify potential molecules.",
+  "zh": "你谈到了一点关于这种扫描科学文献的生成式或智能体性质，并利用它来识别潜在的分子。"
+ },
+ {
+  "seg": 162,
+  "start": 959.141,
+  "end": 965.146,
+  "speaker": "Unknown",
+  "en": "But we've also talked about some of the geometric implications of your work.",
+  "zh": "但我们也谈到了你工作的一些几何含义。"
+ },
+ {
+  "seg": 163,
+  "start": 966.227,
+  "end": 970.01,
+  "speaker": "Unknown",
+  "en": "You alluded to potentially the use of simulation.",
+  "zh": "你暗示了模拟的潜在使用。"
+ },
+ {
+  "seg": 164,
+  "start": 970.03,
+  "end": 971.892,
+  "speaker": "Unknown",
+  "en": "Can you talk a little bit more?",
+  "zh": "你能多谈谈吗？"
+ },
+ {
+  "seg": 165,
+  "start": 972.512,
+  "end": 974.293,
+  "speaker": "Unknown",
+  "en": "Thank you very much for joining us today.",
+  "zh": "非常感谢你今天加入我们。"
+ },
+ {
+  "seg": 166,
+  "start": 997.108,
+  "end": 1000.009,
+  "speaker": "Unknown",
+  "en": "And so you give this as a query.",
+  "zh": "所以你把它作为一个查询提交。"
+ },
+ {
+  "seg": 167,
+  "start": 1000.129,
+  "end": 1011.515,
+  "speaker": "Unknown",
+  "en": "And then you could also tell if you have prior knowledge about how you want this particular search to happen, you could sort of tell the system, maybe use these tools and maybe sequence it in this way.",
+  "zh": "然后你也可以告诉，如果你有关于你希望这个特定搜索如何进行的先验知识，你可以有点告诉系统，也许使用这些工具，也许以这种方式排序。"
+ },
+ {
+  "seg": 168,
+  "start": 1011.575,
+  "end": 1013.156,
+  "speaker": "Unknown",
+  "en": "So you can also give it some instructions.",
+  "zh": "所以你也可以给它一些指令。"
+ },
+ {
+  "seg": 169,
+  "start": 1013.936,
+  "end": 1016.118,
+  "speaker": "Unknown",
+  "en": "And then it goes through a process of steps.",
+  "zh": "然后它会经历一系列步骤。"
+ },
+ {
+  "seg": 170,
+  "start": 1016.138,
+  "end": 1019.599,
+  "speaker": "Unknown",
+  "en": "So the first step is it will look through its database.",
+  "zh": "所以第一步是它会查看它的数据库。"
+ },
+ {
+  "seg": 171,
+  "start": 1019.619,
+  "end": 1024.282,
+  "speaker": "Unknown",
+  "en": "So we have a very large database of materials, which we have all ingested into this database.",
+  "zh": "所以我们有一个非常大的材料数据库，我们所有的东西都已经摄取到了这个数据库中。"
+ },
+ {
+  "seg": 172,
+  "start": 1025.709,
+  "end": 1030.492,
+  "speaker": "Unknown",
+  "en": "Lots of it is sort of exclusive licenses from the big publishing houses.",
+  "zh": "其中很多是来自大出版社的独家许可。"
+ },
+ {
+  "seg": 173,
+  "start": 1031.953,
+  "end": 1039.837,
+  "speaker": "Unknown",
+  "en": "And then they will start to look through all of this literature, whether something exists out there that has these properties or which is close to having these properties.",
+  "zh": "然后它们将开始查看所有这些文献，看看是否存在具有这些性质的东西，或者接近具有这些性质的东西。"
+ },
+ {
+  "seg": 174,
+  "start": 1042.239,
+  "end": 1045.341,
+  "speaker": "Unknown",
+  "en": "And so if it doesn't, then it will have to go into a new phase.",
+  "zh": "所以如果没有，那么它将不得不进入一个新阶段。"
+ },
+ {
+  "seg": 175,
+  "start": 1045.761,
+  "end": 1049.103,
+  "speaker": "Unknown",
+  "en": "So you can hold a conversation with this agent and talk about it.",
+  "zh": "所以你可以与这个智能体进行对话并谈论它。"
+ },
+ {
+  "seg": 176,
+  "start": 1049.123,
+  "end": 1050.143,
+  "speaker": "Unknown",
+  "en": "So that's already quite useful.",
+  "zh": "所以这已经非常有用了。"
+ },
+ {
+  "seg": 177,
+  "start": 1051.444,
+  "end": 1054.626,
+  "speaker": "Unknown",
+  "en": "But typically then the next step is that you go to a generative model.",
+  "zh": "但通常，下一步是你使用生成式模型。"
+ },
+ {
+  "seg": 178,
+  "start": 1055.527,
+  "end": 1061.533,
+  "speaker": "Unknown",
+  "en": "So in this case, it's the same generative model that generates images or video.",
+  "zh": "所以在这种情况下，它是与生成图像或视频相同的生成式模型。"
+ },
+ {
+  "seg": 179,
+  "start": 1061.593,
+  "end": 1063.795,
+  "speaker": "Unknown",
+  "en": "But in this case, it will generate molecules for you.",
+  "zh": "但在这种情况下，它会为你生成分子。"
+ },
+ {
+  "seg": 180,
+  "start": 1065.657,
+  "end": 1071.283,
+  "speaker": "Unknown",
+  "en": "And so you tell it, I want molecules with these very specific properties, the conditioning statement it's called.",
+  "zh": "所以你告诉它，我想要具有这些非常特定性质的分子，这被称为条件陈述。"
+ },
+ {
+  "seg": 181,
+  "start": 1071.983,
+  "end": 1078.51,
+  "speaker": "Unknown",
+  "en": "And then it will start to generate these molecules, often hundreds of thousands of them, because it's quite cheap in the computer.",
+  "zh": "然后它将开始生成这些分子，通常有数十万个，因为它在计算机上非常便宜。"
+ },
+ {
+  "seg": 182,
+  "start": 1079.73,
+  "end": 1089.034,
+  "speaker": "Unknown",
+  "en": "And then comes the next phase, which is out of these generated molecules, we now have to sieve out the ones which look very promising.",
+  "zh": "然后是下一个阶段，即在这些生成的分子中，我们现在必须筛出那些看起来非常有希望的分子。"
+ },
+ {
+  "seg": 183,
+  "start": 1089.094,
+  "end": 1090.915,
+  "speaker": "Unknown",
+  "en": "And this can be a very expensive step.",
+  "zh": "这可能是一个非常昂贵的步骤。"
+ },
+ {
+  "seg": 184,
+  "start": 1092.776,
+  "end": 1102.5,
+  "speaker": "Unknown",
+  "en": "In some sense, you build a multi-scale digital twin of the process that you really want these molecules to operate in.",
+  "zh": "在某种意义上，你为你真正希望这些分子在其中运行的过程构建了一个多尺度数字孪生。"
+ },
+ {
+  "seg": 185,
+  "start": 1103.34,
+  "end": 1107.242,
+  "speaker": "Unknown",
+  "en": "And so the first step is basically you relax the molecule to its ground state.",
+  "zh": "所以基本上第一步是将分子弛豫到其基态。"
+ },
+ {
+  "seg": 186,
+  "start": 1108.343,
+  "end": 1111.325,
+  "speaker": "Unknown",
+  "en": "To make sure that it's at the best energy state.",
+  "zh": "以确保它处于最佳能量状态。"
+ },
+ {
+  "seg": 187,
+  "start": 1112.146,
+  "end": 1116.509,
+  "speaker": "Unknown",
+  "en": "Then you do a bunch of checks, like is it charged?",
+  "zh": "然后你做一系列检查，比如它带电吗？"
+ },
+ {
+  "seg": 188,
+  "start": 1116.729,
+  "end": 1118.551,
+  "speaker": "Unknown",
+  "en": "If I shake it, will it fall apart?",
+  "zh": "如果我摇晃它，它会散架吗？"
+ },
+ {
+  "seg": 189,
+  "start": 1119.251,
+  "end": 1122.374,
+  "speaker": "Unknown",
+  "en": "How big are the pores inside, if that's important?",
+  "zh": "内部的孔隙有多大，如果这很重要的话？"
+ },
+ {
+  "seg": 190,
+  "start": 1122.814,
+  "end": 1130.4,
+  "speaker": "Unknown",
+  "en": "All sorts of things that are easy to compute fast to throw away a whole bunch of things that do not look promising.",
+  "zh": "所有这些很容易快速计算的事情，都是为了扔掉一大堆看起来没有希望的东西。"
+ },
+ {
+  "seg": 191,
+  "start": 1131.28,
+  "end": 1132.701,
+  "speaker": "Unknown",
+  "en": "And so then- So filtering it down.",
+  "zh": "所以然后——所以把它过滤下来。"
+ },
+ {
+  "seg": 192,
+  "start": 1132.721,
+  "end": 1134.603,
+  "speaker": "Unknown",
+  "en": "Yeah, it's definitely a filtering step, yes.",
+  "zh": "是的，这绝对是一个过滤步骤，是的。"
+ },
+ {
+  "seg": 193,
+  "start": 1135.203,
+  "end": 1136.324,
+  "speaker": "Unknown",
+  "en": "And then go to the next step.",
+  "zh": "然后进入下一步。"
+ },
+ {
+  "seg": 194,
+  "start": 1136.444,
+  "end": 1137.025,
+  "speaker": "Unknown",
+  "en": "So we have...",
+  "zh": "所以我们有……"
+ },
+ {
+  "seg": 195,
+  "start": 1138.353,
+  "end": 1145.657,
+  "speaker": "Unknown",
+  "en": "A pipeline that fine-tunes or distills machine learning force fields for that particular material.",
+  "zh": "一个针对该特定材料微调或蒸馏机器学习力场的流水线。"
+ },
+ {
+  "seg": 196,
+  "start": 1145.918,
+  "end": 1150.6,
+  "speaker": "Unknown",
+  "en": "So this is a process by which we take all the data there is about that material.",
+  "zh": "所以这是我们获取关于该材料所有数据的过程。"
+ },
+ {
+  "seg": 197,
+  "start": 1151.221,
+  "end": 1155.503,
+  "speaker": "Unknown",
+  "en": "We have a foundation model that's trained on a much wider range of data.",
+  "zh": "我们有一个在更广泛的数据范围上训练的基础模型。"
+ },
+ {
+  "seg": 198,
+  "start": 1156.164,
+  "end": 1159.946,
+  "speaker": "Unknown",
+  "en": "And then we distill this force field into this.",
+  "zh": "然后我们将这个力场蒸馏到这里面。"
+ },
+ {
+  "seg": 199,
+  "start": 1160.466,
+  "end": 1163.508,
+  "speaker": "Unknown",
+  "en": "It's a very efficient force field for this particular class of problem.",
+  "zh": "这是针对这一特定类别问题的高效力场。"
+ },
+ {
+  "seg": 200,
+  "start": 1163.969,
+  "end": 1167.991,
+  "speaker": "Unknown",
+  "en": "And we use that in an MD loop, typically, the molecular dynamics loop.",
+  "zh": "我们通常在一个 MD 循环中使用它，也就是分子动力学循环。"
+ },
+ {
+  "seg": 201,
+  "start": 1168.705,
+  "end": 1176.727,
+  "speaker": "Unknown",
+  "en": "To simulate the molecule as it wiggles around and moves around, from which you can often compute very key properties of that particular molecule.",
+  "zh": "为了模拟分子四处扭动和移动，从中你通常可以计算出该特定分子的非常关键的属性。"
+ },
+ {
+  "seg": 202,
+  "start": 1178.067,
+  "end": 1190.049,
+  "speaker": "Unknown",
+  "en": "Those properties then often go into a partial differential equation at a higher scale or in a process that actually models the device in which you want this material to operate.",
+  "zh": "这些属性随后经常进入一个更高尺度的偏微分方程，或者进入一个实际模拟你希望该材料在其中运行的设备的过程中。"
+ },
+ {
+  "seg": 203,
+  "start": 1191.59,
+  "end": 1193.25,
+  "speaker": "Unknown",
+  "en": "And so that's again more expensive.",
+  "zh": "所以这再次是更昂贵的。"
+ },
+ {
+  "seg": 204,
+  "start": 1193.63,
+  "end": 1197.631,
+  "speaker": "Unknown",
+  "en": "And so again, you want to do this with fewer and fewer candidate materials.",
+  "zh": "所以同样，你希望用越来越少的候选材料来做这件事。"
+ },
+ {
+  "seg": 205,
+  "start": 1198.537,
+  "end": 1202.518,
+  "speaker": "Unknown",
+  "en": "And then at the very end, you go to, you know, to an experiment, right?",
+  "zh": "然后在最后，你去做，你知道，去实验，对吧？"
+ },
+ {
+  "seg": 206,
+  "start": 1202.538,
+  "end": 1204.258,
+  "speaker": "Unknown",
+  "en": "You go, so now I'll actually do the experiment.",
+  "zh": "你会想，所以现在我要实际做实验了。"
+ },
+ {
+  "seg": 207,
+  "start": 1204.278,
+  "end": 1206.119,
+  "speaker": "Unknown",
+  "en": "Now that's more expensive and even slower.",
+  "zh": "现在那更昂贵甚至更慢。"
+ },
+ {
+  "seg": 208,
+  "start": 1207.219,
+  "end": 1212.84,
+  "speaker": "Unknown",
+  "en": "And that's, you should do this only with order 10 materials at most in the old way.",
+  "zh": "那是，你应该用旧方式最多只对 10 的数量级的材料做这个。"
+ },
+ {
+  "seg": 209,
+  "start": 1212.98,
+  "end": 1215.441,
+  "speaker": "Unknown",
+  "en": "And so then, and then you get a candidate.",
+  "zh": "所以然后，然后你得到一个候选材料。"
+ },
+ {
+  "seg": 210,
+  "start": 1215.861,
+  "end": 1225.183,
+  "speaker": "Unknown",
+  "en": "What we are currently, the current, I would say, revolution that's happening in this space is self-driving labs, where the amount of experiments you can do is much, much faster.",
+  "zh": "我们目前的，当前的，我想说，这个领域正在发生的革命是 self-driving labs，在那里你可以做的实验量是快得多得多。"
+ },
+ {
+  "seg": 211,
+  "start": 1225.223,
+  "end": 1227.163,
+  "speaker": "Unknown",
+  "en": "So you could do maybe a hundred experiments a day.",
+  "zh": "所以你也许可以一天做一百个实验。"
+ },
+ {
+  "seg": 212,
+  "start": 1228.78,
+  "end": 1234.824,
+  "speaker": "Unknown",
+  "en": "And then the game is more like the agent figures out what the settings of the experiment should be.",
+  "zh": "然后游戏更像是智能体弄清楚实验的设置应该是什么。"
+ },
+ {
+  "seg": 213,
+  "start": 1235.365,
+  "end": 1236.225,
+  "speaker": "Unknown",
+  "en": "The experiments are done.",
+  "zh": "实验完成了。"
+ },
+ {
+  "seg": 214,
+  "start": 1236.245,
+  "end": 1237.266,
+  "speaker": "Unknown",
+  "en": "The data comes back in.",
+  "zh": "数据回来了。"
+ },
+ {
+  "seg": 215,
+  "start": 1238.286,
+  "end": 1242.929,
+  "speaker": "Unknown",
+  "en": "And then you have the data from the experiment and the data from your computations.",
+  "zh": "然后你拥有来自实验的数据和来自你计算的数据。"
+ },
+ {
+  "seg": 216,
+  "start": 1243.25,
+  "end": 1247.112,
+  "speaker": "Unknown",
+  "en": "You combine them to set the next stage for the experiments.",
+  "zh": "你结合它们来设定实验的下一阶段。"
+ },
+ {
+  "seg": 217,
+  "start": 1247.152,
+  "end": 1251.295,
+  "speaker": "Unknown",
+  "en": "And so the experimental loop is much, much faster for those.",
+  "zh": "所以实验循环对那些来说快得多得多。"
+ },
+ {
+  "seg": 218,
+  "start": 1252.355,
+  "end": 1256.518,
+  "speaker": "Unknown",
+  "en": "And that's a very interesting development that we are now integrating our platform with.",
+  "zh": "那是一个我们正在将平台与之整合的非常有趣的发展。"
+ },
+ {
+  "seg": 219,
+  "start": 1257.559,
+  "end": 1257.879,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 220,
+  "start": 1258.339,
+  "end": 1269.046,
+  "speaker": "Unknown",
+  "en": "And so how many molecule classes and individual molecules have you kind of gone all the way through this cycle with?",
+  "zh": "And so how many molecule classes and individual molecules have you kind of gone all the"
+ },
+ {
+  "seg": 221,
+  "start": 1270.667,
+  "end": 1276.27,
+  "speaker": "Unknown",
+  "en": "Yeah, we are engaged in a few of those, but the question is a little bit, what do you mean by all the way?",
+  "zh": "是的，我们参与了其中几个，但问题稍微有点在于，你说的“一直”是什么意思？"
+ },
+ {
+  "seg": 222,
+  "start": 1276.29,
+  "end": 1280.153,
+  "speaker": "Unknown",
+  "en": "The different materials are at different stages of maturity.",
+  "zh": "不同的材料处于不同的成熟阶段。"
+ },
+ {
+  "seg": 223,
+  "start": 1280.193,
+  "end": 1285.456,
+  "speaker": "Unknown",
+  "en": "So one of them we went all the way to actually doing the lab experiments.",
+  "zh": "所以其中一个我们一直到了实际做实验室实验的程度。"
+ },
+ {
+  "seg": 224,
+  "start": 1286.508,
+  "end": 1292.552,
+  "speaker": "Unknown",
+  "en": "Another way on semiconductors is on its way and probably in a few months we'll start doing the experiments.",
+  "zh": "关于半导体的另一种方式正在路上，大概几个月后我们会开始做实验。"
+ },
+ {
+  "seg": 225,
+  "start": 1293.872,
+  "end": 1315.805,
+  "speaker": "Unknown",
+  "en": "I've been all the way to lab experiments and I was curious if you have enough data to say that your hit rate with this process is higher versus lower or if there's anything you can say qualitatively or quantitatively about the candidates that you produce relative to the traditional approach.",
+  "zh": "我做到了实验室实验这一步，我很好奇你是否有足够的数据来说明这个过程的命中率是更高还是更低，或者你能否定性地或定量地说明相对于传统方法，你们产生的候选者的情况。"
+ },
+ {
+  "seg": 226,
+  "start": 1317.047,
+  "end": 1324.493,
+  "speaker": "Unknown",
+  "en": "Yeah, so I definitely think that there's definite evidence that these things are much more efficient.",
+  "zh": "是的，所以我绝对认为有明确的证据表明这些东西效率更高。"
+ },
+ {
+  "seg": 227,
+  "start": 1324.513,
+  "end": 1333.16,
+  "speaker": "Unknown",
+  "en": "So some of our scientists, they have said things like, we can do now in a few days what took a PhD before, but that's more in the digital domain.",
+  "zh": "所以我们的一些科学家说过这样的话，我们现在几天就能做完以前博士才能做完的事，但这更多是在数字领域。"
+ },
+ {
+  "seg": 228,
+  "start": 1334.661,
+  "end": 1339.665,
+  "speaker": "Unknown",
+  "en": "These are actually scientists that are more simulation-based work.",
+  "zh": "这些实际上是更多从事基于仿真工作的科学家。"
+ },
+ {
+  "seg": 229,
+  "start": 1340.585,
+  "end": 1346.51,
+  "speaker": "Unknown",
+  "en": "We have two projects going which have experimental pieces to it.",
+  "zh": "我们正在进行两个项目，它们都有实验部分。"
+ },
+ {
+  "seg": 230,
+  "start": 1347.205,
+  "end": 1358.914,
+  "speaker": "Unknown",
+  "en": "But we have a contract with a big national lab in Asia, which I cannot quite say the details of yet, where we have many more of these experiments planned out.",
+  "zh": "但我们与亚洲的一个大型国家实验室有合同，我现在还不能透露细节，我们在那里计划了更多这样的实验。"
+ },
+ {
+  "seg": 231,
+  "start": 1358.974,
+  "end": 1374.445,
+  "speaker": "Unknown",
+  "en": "So basically, the setup is that we bring some customers and we can do experiments in that lab, but they're lab scientists and they can also bring their partners and they can use our platform and we can collect data that way.",
+  "zh": "所以基本上，设置是我们带一些客户，我们可以在那个实验室做实验，但他们也是实验室科学家，他们也可以带合作伙伴，他们可以使用我们的平台，我们可以通过这种方式收集数据。"
+ },
+ {
+  "seg": 232,
+  "start": 1376.546,
+  "end": 1383.729,
+  "speaker": "Unknown",
+  "en": "Oh, and then there is one other one that we're currently doing in Amsterdam on perovskites, which is running right now.",
+  "zh": "哦，还有一个我们目前正在阿姆斯特丹做的关于钙钛矿的项目，它正在运行中。"
+ },
+ {
+  "seg": 233,
+  "start": 1383.749,
+  "end": 1386.07,
+  "speaker": "Unknown",
+  "en": "So that's also a lab engagement.",
+  "zh": "所以这也是一个实验室合作。"
+ },
+ {
+  "seg": 234,
+  "start": 1386.11,
+  "end": 1388.51,
+  "speaker": "Unknown",
+  "en": "There is one in— Perovskites is what?",
+  "zh": "有一个—— 钙钛矿是什么？"
+ },
+ {
+  "seg": 235,
+  "start": 1388.53,
+  "end": 1388.911,
+  "speaker": "Unknown",
+  "en": "Sorry, yeah.",
+  "zh": "抱歉，是的。"
+ },
+ {
+  "seg": 236,
+  "start": 1388.931,
+  "end": 1401.375,
+  "speaker": "Unknown",
+  "en": "Perovskites is a material class that's a semiconductor crystal structure that you would put on silicon typically on top of the normal solar cells.",
+  "zh": "钙钛矿是一类材料，它是一种半导体晶体结构，通常你会把它放在硅上，放在普通太阳能电池的顶部。"
+ },
+ {
+  "seg": 237,
+  "start": 1402.163,
+  "end": 1410.808,
+  "speaker": "Unknown",
+  "en": "And that can help you filter out or basically convert a much larger amount of the energy in visible light to energy.",
+  "zh": "这可以帮助你过滤掉或者基本上将可见光中更大比例的能量转化为能量。"
+ },
+ {
+  "seg": 238,
+  "start": 1412.349,
+  "end": 1416.971,
+  "speaker": "Unknown",
+  "en": "So we also have something with catalysis with DTU, which is the Danish Technical University.",
+  "zh": "所以我们还有关于催化的项目与 DTU 合作，也就是丹麦技术大学。"
+ },
+ {
+  "seg": 239,
+  "start": 1417.592,
+  "end": 1421.374,
+  "speaker": "Unknown",
+  "en": "So that's currently running on catalysis.",
+  "zh": "所以那个目前正在进行催化方面的运行。"
+ },
+ {
+  "seg": 240,
+  "start": 1422.375,
+  "end": 1424.436,
+  "speaker": "Unknown",
+  "en": "And we have a project that's about to start them off.",
+  "zh": "我们还有一个项目即将开始启动它们。"
+ },
+ {
+  "seg": 241,
+  "start": 1424.456,
+  "end": 1426.477,
+  "speaker": "Unknown",
+  "en": "So there's quite a few engagement with",
+  "zh": "所以有相当多的合作"
+ },
+ {
+  "seg": 242,
+  "start": 1428.551,
+  "end": 1433.292,
+  "speaker": "Unknown",
+  "en": "With labs that are either running or are starting to run, but they haven't finished completely.",
+  "zh": "与正在运行或开始运行的实验室合作，但它们还没有完全结束。"
+ },
+ {
+  "seg": 243,
+  "start": 1434.092,
+  "end": 1439.434,
+  "speaker": "Unknown",
+  "en": "And does your lab or does CUSP publish?",
+  "zh": "你的实验室或者 CUSP 会发表文章吗？"
+ },
+ {
+  "seg": 244,
+  "start": 1440.574,
+  "end": 1446.075,
+  "speaker": "Unknown",
+  "en": "Are you active, are you still active in kind of academic publishing around, you know, materials science now?",
+  "zh": "你们活跃吗，你们现在在材料科学方面的学术发表中是否仍然活跃？"
+ },
+ {
+  "seg": 245,
+  "start": 1447.015,
+  "end": 1453.036,
+  "speaker": "Unknown",
+  "en": "So myself, I have one day at the university and of course I still work in that day with students and there we publish everything.",
+  "zh": "至于我自己，我在大学待一天，当然在那一天我仍然和学生一起工作，在那里我们发表所有东西。"
+ },
+ {
+  "seg": 246,
+  "start": 1453.837,
+  "end": 1455.617,
+  "speaker": "Unknown",
+  "en": "I'm very interested in all sorts of",
+  "zh": "我对各种"
+ },
+ {
+  "seg": 247,
+  "start": 1456.494,
+  "end": 1458.995,
+  "speaker": "Unknown",
+  "en": "Things which have to do with AI for science, so definitely yes.",
+  "zh": "与科学 AI 有关的事情非常感兴趣，所以绝对是肯定的。"
+ },
+ {
+  "seg": 248,
+  "start": 1459.876,
+  "end": 1461.977,
+  "speaker": "Unknown",
+  "en": "But also COSP actually publishes.",
+  "zh": "但是 COSP 实际上也会发表。"
+ },
+ {
+  "seg": 249,
+  "start": 1462.998,
+  "end": 1468.201,
+  "speaker": "Unknown",
+  "en": "So we have interns that work with our scientists where we publish the results.",
+  "zh": "所以我们有实习生与我们的科学家一起工作，我们会发表这些结果。"
+ },
+ {
+  "seg": 250,
+  "start": 1469.842,
+  "end": 1477.866,
+  "speaker": "Unknown",
+  "en": "So we, for instance, recently had results on machine learning force fields with uncertainty prediction, property predictors.",
+  "zh": "所以我们，例如，最近在具有不确定性预测、属性预测器的机器学习力场方面取得了成果，"
+ },
+ {
+  "seg": 251,
+  "start": 1478.527,
+  "end": 1484.03,
+  "speaker": "Unknown",
+  "en": "And the most important thing, I think, that we've recently released open source and published a blog post about,",
+  "zh": "我认为最重要的事情，是我们最近开源并发布了一篇关于它的博客文章，"
+ },
+ {
+  "seg": 252,
+  "start": 1484.85,
+  "end": 1489.951,
+  "speaker": "Unknown",
+  "en": "is our new molecular dynamics framework called COPS, confusingly.",
+  "zh": "是我们的新分子动力学框架，叫做 COPS，这有点令人困惑。"
+ },
+ {
+  "seg": 253,
+  "start": 1490.911,
+  "end": 1495.732,
+  "speaker": "Unknown",
+  "en": "So that's Universal Particle Simulation Simulator.",
+  "zh": "那就是通用粒子模拟模拟器。"
+ },
+ {
+  "seg": 254,
+  "start": 1496.712,
+  "end": 1511.675,
+  "speaker": "Unknown",
+  "en": "And so the reason why we did this is actually together with NVIDIA is that, you know, now with this new development of these machine learning force fields that I talked about, these neural networks that replace quantum mechanical calculations for the forces,",
+  "zh": "所以我们做这个的原因实际上是和 NVIDIA 一起，是因为，你知道，现在随着我谈到的这些机器学习力场的新发展，这些替代力的量子力学计算的神经网络，"
+ },
+ {
+  "seg": 255,
+  "start": 1513.509,
+  "end": 1530.576,
+  "speaker": "Unknown",
+  "en": "You cannot run them very efficiently in the current sort of MD simulators, the simulators that evolve a material or a molecule forward in time, because you need to run these neural networks on GPUs.",
+  "zh": "你无法在当前的一类 MD 模拟器中非常高效地运行它们，这些让材料或分子随时间演进的模拟器，因为你需要在 GPU 上运行这些神经网络。"
+ },
+ {
+  "seg": 256,
+  "start": 1530.636,
+  "end": 1537.478,
+  "speaker": "Unknown",
+  "en": "And typically, these simulators, they don't run on GPUs, more on CPUs.",
+  "zh": "通常，这些模拟器，它们不在 GPU 上运行，更多是在 CPU 上。"
+ },
+ {
+  "seg": 257,
+  "start": 1537.618,
+  "end": 1539.719,
+  "speaker": "Unknown",
+  "en": "And you want to run things in parallel.",
+  "zh": "并且你想并行运行这些东西。"
+ },
+ {
+  "seg": 258,
+  "start": 1540.179,
+  "end": 1541.96,
+  "speaker": "Unknown",
+  "en": "And so what was built by our team",
+  "zh": "所以我们团队构建的"
+ },
+ {
+  "seg": 259,
+  "start": 1542.963,
+  "end": 1550.505,
+  "speaker": "Unknown",
+  "en": "is a framework where you can compile these force fields into JAX, which is Python-based.",
+  "zh": "是一个你可以将这些力场编译成 JAX 的框架，它是基于 Python 的。"
+ },
+ {
+  "seg": 260,
+  "start": 1551.825,
+  "end": 1557.186,
+  "speaker": "Unknown",
+  "en": "And then it will actually very efficiently run these MD simulators.",
+  "zh": "然后它会非常高效地运行这些 MD 模拟器。"
+ },
+ {
+  "seg": 261,
+  "start": 1558.307,
+  "end": 1561.187,
+  "speaker": "Unknown",
+  "en": "And you can run them in parallel as well so that you use your GPUs.",
+  "zh": "你也可以并行运行它们，这样你就能使用你的 GPU。"
+ },
+ {
+  "seg": 262,
+  "start": 1561.207,
+  "end": 1562.948,
+  "speaker": "Unknown",
+  "en": "The utilization of your GPUs is high.",
+  "zh": "你的 GPU 利用率很高。"
+ },
+ {
+  "seg": 263,
+  "start": 1562.968,
+  "end": 1567.929,
+  "speaker": "Unknown",
+  "en": "And so we released this open source a few days ago, actually, or a week ago at iClear.",
+  "zh": "所以我们在几天前，实际上，或者是一周前在 iClear 开源了这个。"
+ },
+ {
+  "seg": 264,
+  "start": 1569.229,
+  "end": 1572.15,
+  "speaker": "Unknown",
+  "en": "And yeah, we got a lot of excited responses to that.",
+  "zh": "是的，我们对此收到了很多兴奋的回应。"
+ },
+ {
+  "seg": 265,
+  "start": 1572.797,
+  "end": 1587.107,
+  "speaker": "Unknown",
+  "en": "Are the representations of the molecules, like are there standard formats for representing these things that someone working in the space would already have and then your machinery just works on those existing ones?",
+  "zh": "分子的表示方式，比如是否有表示这些事物的标准格式，是在该领域工作的人已经拥有的，然后你的机器就能直接处理那些现有的东西？"
+ },
+ {
+  "seg": 266,
+  "start": 1588.247,
+  "end": 1592.711,
+  "speaker": "Unknown",
+  "en": "Representations, you can think of that as maybe a foundation model for chemistry.",
+  "zh": "表示，你可以把它想象成也许是化学的基础模型。"
+ },
+ {
+  "seg": 267,
+  "start": 1593.591,
+  "end": 1597.734,
+  "speaker": "Unknown",
+  "en": "So what you do is, and this is also work that we did together with Meta.",
+  "zh": "所以你所做的是，这也是我们与 Meta 一起做的工作。"
+ },
+ {
+  "seg": 268,
+  "start": 1598.892,
+  "end": 1603.995,
+  "speaker": "Unknown",
+  "en": "So what you do in that case is you train yourself one of these force fields.",
+  "zh": "所以你在那种情况下所做的是你自己训练这些力场中的一个。"
+ },
+ {
+  "seg": 269,
+  "start": 1604.956,
+  "end": 1606.877,
+  "speaker": "Unknown",
+  "en": "So you take a molecular structure.",
+  "zh": "所以你取一个分子结构。"
+ },
+ {
+  "seg": 270,
+  "start": 1607.697,
+  "end": 1615.822,
+  "speaker": "Unknown",
+  "en": "So that is basically the position of the atoms and their class, like if it's oxygen or hydrogen.",
+  "zh": "那基本上就是原子的位置和它们的类别，比如它是氧还是氢。"
+ },
+ {
+  "seg": 271,
+  "start": 1616.943,
+  "end": 1621.265,
+  "speaker": "Unknown",
+  "en": "And of course, you want this to be equivariant because rotations and translations don't matter.",
+  "zh": "当然，你希望它是等变的，因为旋转和平移无关紧要。"
+ },
+ {
+  "seg": 272,
+  "start": 1622.226,
+  "end": 1628.109,
+  "speaker": "Unknown",
+  "en": "And then you map this into a latent space where they get represented by some code that is meaningful.",
+  "zh": "然后你把它映射到一个潜在空间，在那里它们由一些有意义的代码表示。"
+ },
+ {
+  "seg": 273,
+  "start": 1628.788,
+  "end": 1633.672,
+  "speaker": "Unknown",
+  "en": "And if you do a machine learning force field, you will then actually predict the forces and the energies from that.",
+  "zh": "如果你做一个机器学习力场，你实际上会从中预测力和能量。"
+ },
+ {
+  "seg": 274,
+  "start": 1634.252,
+  "end": 1641.718,
+  "speaker": "Unknown",
+  "en": "But you can stop at the intermediate level, and then you have a representation for that particular material.",
+  "zh": "但你可以停在中间层，然后你就有了那个特定材料的表示。"
+ },
+ {
+  "seg": 275,
+  "start": 1641.858,
+  "end": 1645.961,
+  "speaker": "Unknown",
+  "en": "And you can train this on a very wide range of materials and chemistry.",
+  "zh": "你可以在非常广泛的材料和化学范围内训练它。"
+ },
+ {
+  "seg": 276,
+  "start": 1647.302,
+  "end": 1650.325,
+  "speaker": "Unknown",
+  "en": "And from that representation, you can build property predictors.",
+  "zh": "从那个表示，你可以构建属性预测器。"
+ },
+ {
+  "seg": 277,
+  "start": 1651.185,
+  "end": 1653.427,
+  "speaker": "Unknown",
+  "en": "You can use it to condition your generative models.",
+  "zh": "你可以用它来调节你的生成模型。"
+ },
+ {
+  "seg": 278,
+  "start": 1653.447,
+  "end": 1657.03,
+  "speaker": "Unknown",
+  "en": "There's all sorts of uses for that foundation model.",
+  "zh": "那个基础模型有各种各样的用途。"
+ },
+ {
+  "seg": 279,
+  "start": 1658.667,
+  "end": 1665.473,
+  "speaker": "Unknown",
+  "en": "But there's also the starting point for distilling, let's say, models for specific material classes.",
+  "zh": "但这也是蒸馏的起点，比如说，针对特定材料类别的模型。"
+ },
+ {
+  "seg": 280,
+  "start": 1666.094,
+  "end": 1674.301,
+  "speaker": "Unknown",
+  "en": "And to be clear, are these foundation models trained per molecule or per class, or are they very broad?",
+  "zh": "澄清一下，这些基础模型是按分子还是按类别训练的，还是它们非常广泛？"
+ },
+ {
+  "seg": 281,
+  "start": 1674.962,
+  "end": 1676.564,
+  "speaker": "Unknown",
+  "en": "Yeah, so that's a great question.",
+  "zh": "是的，这是个很好的问题。"
+ },
+ {
+  "seg": 282,
+  "start": 1676.584,
+  "end": 1682.029,
+  "speaker": "Unknown",
+  "en": "So a foundation model, almost by definition, is trained on a very broad class of",
+  "zh": "所以基础模型，几乎根据定义，是在一个非常广泛的类别上训练的"
+ },
+ {
+  "seg": 283,
+  "start": 1683.349,
+  "end": 1691.535,
+  "speaker": "Unknown",
+  "en": "The best dataset for that is the Materials Project Dataset and OMOL from Meta.",
+  "zh": "最好的数据集是来自 Meta 的 Materials Project 数据集和 OMOL。"
+ },
+ {
+  "seg": 284,
+  "start": 1691.555,
+  "end": 1699.199,
+  "speaker": "Unknown",
+  "en": "They have generated a very large number of DFT calculations, these quantum mechanical calculations, to create that dataset.",
+  "zh": "他们生成了大量的 DFT 计算，这些量子力学计算，来创建那个数据集。"
+ },
+ {
+  "seg": 285,
+  "start": 1700.18,
+  "end": 1707.144,
+  "speaker": "Unknown",
+  "en": "Those calculations are being used to train these force fields that I talked about, or those representations, those foundation models.",
+  "zh": "那些计算正被用来训练我谈到的这些力场，或者那些表示，那些基础模型。"
+ },
+ {
+  "seg": 286,
+  "start": 1707.204,
+  "end": 1711.007,
+  "speaker": "Unknown",
+  "en": "Then if you say, but I'm actually interested in this particular material,",
+  "zh": "然后如果你说，但我实际上对这个特定材料感兴趣，"
+ },
+ {
+  "seg": 287,
+  "start": 1712.074,
+  "end": 1721.641,
+  "speaker": "Unknown",
+  "en": "What you can then do is start from that very broad representation, this foundation model, and then fine-tune that model for that particular material class.",
+  "zh": "你能做的是从那个非常广泛的表示，这个基础模型开始，然后为那个特定的材料类别微调那个模型。"
+ },
+ {
+  "seg": 288,
+  "start": 1722.362,
+  "end": 1734.131,
+  "speaker": "Unknown",
+  "en": "That way, it is specialized for that material class, but that way, it's also very fast, because you need these things to do very fast, because in a molecular dynamic simulation, you have to call them many, many times.",
+  "zh": "这样，它就专用于那个材料类别，但这样，它也非常快，因为你需要这些东西做得非常快，因为在分子动力学模拟中，你必须非常多次地调用它们。"
+ },
+ {
+  "seg": 289,
+  "start": 1734.751,
+  "end": 1737.533,
+  "speaker": "Unknown",
+  "en": "One little step in an MD simulator is a femtosecond.",
+  "zh": "MD 模拟器中的一个小步骤是一飞秒。"
+ },
+ {
+  "seg": 290,
+  "start": 1737.593,
+  "end": 1741.056,
+  "speaker": "Unknown",
+  "en": "It's a tiny step, and so you have to call them many times to make any progress.",
+  "zh": "这是一个微小的步骤，所以你必须调用它们很多次才能取得任何进展。"
+ },
+ {
+  "seg": 291,
+  "start": 1741.657,
+  "end": 1743.838,
+  "speaker": "Unknown",
+  "en": "And you mentioned distillation earlier.",
+  "zh": "你之前提到了蒸馏。"
+ },
+ {
+  "seg": 292,
+  "start": 1743.898,
+  "end": 1745.378,
+  "speaker": "Unknown",
+  "en": "Is that where distillation comes in?",
+  "zh": "这就是蒸馏介入的地方吗？"
+ },
+ {
+  "seg": 293,
+  "start": 1745.398,
+  "end": 1751.199,
+  "speaker": "Unknown",
+  "en": "You're trying to get to a smaller model that's more focused on the molecules that you care about?",
+  "zh": "你试图得到一个更小的模型，它更专注于你关心的分子？"
+ },
+ {
+  "seg": 294,
+  "start": 1751.799,
+  "end": 1752.22,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 295,
+  "start": 1752.26,
+  "end": 1754.32,
+  "speaker": "Unknown",
+  "en": "That's what distillation is called.",
+  "zh": "这就是所谓的蒸馏。"
+ },
+ {
+  "seg": 296,
+  "start": 1754.34,
+  "end": 1756.721,
+  "speaker": "Unknown",
+  "en": "You distill the big model into a small model.",
+  "zh": "你把大模型蒸馏成小模型。"
+ },
+ {
+  "seg": 297,
+  "start": 1757.081,
+  "end": 1761.882,
+  "speaker": "Unknown",
+  "en": "In this case, the use of fine tuning, is it...",
+  "zh": "在这种情况下，微调的使用，它是……"
+ },
+ {
+  "seg": 298,
+  "start": 1763.004,
+  "end": 1772.73,
+  "speaker": "Unknown",
+  "en": "How analogous is it to the process of fine-tuning in LLM, reinforcement fine-tuning with traces, language-based traces?",
+  "zh": "它与 LLM 中的微调过程有多相似，带有轨迹的强化微调，基于语言的轨迹？"
+ },
+ {
+  "seg": 299,
+  "start": 1772.79,
+  "end": 1777.533,
+  "speaker": "Unknown",
+  "en": "What is your dataset that you're fine-tuning and your process that you're fine-tuning with here?",
+  "zh": "你正在微调的数据集是什么，以及你在这里用来微调的流程是什么？"
+ },
+ {
+  "seg": 300,
+  "start": 1779.234,
+  "end": 1782.056,
+  "speaker": "Unknown",
+  "en": "So actually, it's quite related to an LLM.",
+  "zh": "所以实际上，它与 LLM 很相关。"
+ },
+ {
+  "seg": 301,
+  "start": 1782.096,
+  "end": 1784.718,
+  "speaker": "Unknown",
+  "en": "In fact, the models we use are very related to an LLM.",
+  "zh": "事实上，我们使用的模型与 LLM 非常相关。"
+ },
+ {
+  "seg": 302,
+  "start": 1784.738,
+  "end": 1791.722,
+  "speaker": "Unknown",
+  "en": "So you can basically think of the sequence, the information that you have, you can sequentialize it.",
+  "zh": "所以你基本上可以思考这个序列，你拥有的信息，你可以将其序列化。"
+ },
+ {
+  "seg": 303,
+  "start": 1792.93,
+  "end": 1798.773,
+  "speaker": "Unknown",
+  "en": "And then from there, you can actually map it into this latent space.",
+  "zh": "然后从那里，你实际上可以将其映射到这个潜在空间。"
+ },
+ {
+  "seg": 304,
+  "start": 1800.154,
+  "end": 1810.819,
+  "speaker": "Unknown",
+  "en": "Typically, you can do a graph neural network, which actually looks at the three-dimensional structure, or you can use it as an LLM, like a sequential version.",
+  "zh": "通常，你可以做一个图神经网络，它实际上查看三维结构，或者你可以把它当作 LLM，像序列版本那样使用。"
+ },
+ {
+  "seg": 305,
+  "start": 1810.999,
+  "end": 1813.12,
+  "speaker": "Unknown",
+  "en": "Often, molecules are represented",
+  "zh": "通常，分子被表示为"
+ },
+ {
+  "seg": 306,
+  "start": 1814.091,
+  "end": 1822.641,
+  "speaker": "Unknown",
+  "en": "As a, you know, as a string called a SMILE string, so then it becomes a one-dimensional string and you can use that to represent the molecule as well.",
+  "zh": "作为一个，你知道，作为一个被称为 SMILE 字符串的字符串，所以它变成了一维字符串，你也可以用它来表示分子。"
+ },
+ {
+  "seg": 307,
+  "start": 1823.221,
+  "end": 1828.067,
+  "speaker": "Unknown",
+  "en": "So you can use both LLM-style models as well as graph neural network-style models for this.",
+  "zh": "所以你可以为此使用 LLM 风格的模型以及图神经网络风格的模型。"
+ },
+ {
+  "seg": 308,
+  "start": 1828.913,
+  "end": 1836.459,
+  "speaker": "Unknown",
+  "en": "So your base model might be similar to an LLM, but you've got a very unique tokenizer in the case of representing molecules.",
+  "zh": "所以你的基础模型可能类似于 LLM，但在表示分子的情况下，你有一个非常独特的分词器。"
+ },
+ {
+  "seg": 309,
+  "start": 1836.8,
+  "end": 1844.326,
+  "speaker": "Unknown",
+  "en": "It goes even further because you can basically also look at combinations of language and graphs and molecules.",
+  "zh": "它更进一步，因为你基本上也可以看语言、图和分子的组合。"
+ },
+ {
+  "seg": 310,
+  "start": 1844.346,
+  "end": 1852.773,
+  "speaker": "Unknown",
+  "en": "So you can sort of have, you can learn from, you know, let's say the literature where there's a lot of text.",
+  "zh": "所以你可以某种程度上有，你可以从，你知道，比如有大量文本的文献中学习。"
+ },
+ {
+  "seg": 311,
+  "start": 1852.893,
+  "end": 1857.077,
+  "speaker": "Unknown",
+  "en": "And then you can, every time a molecule is mentioned, you can then actually use the",
+  "zh": "然后你可以，每次提到一个分子时，你实际上可以使用"
+ },
+ {
+  "seg": 312,
+  "start": 1857.778,
+  "end": 1861.261,
+  "speaker": "Unknown",
+  "en": "molecular representation, which is then a little graph neural network that represents.",
+  "zh": "分子表示，那是一个代表它的小型图神经网络。"
+ },
+ {
+  "seg": 313,
+  "start": 1861.301,
+  "end": 1862.523,
+  "speaker": "Unknown",
+  "en": "So that becomes a token.",
+  "zh": "所以这变成了一个词元。"
+ },
+ {
+  "seg": 314,
+  "start": 1862.543,
+  "end": 1865.445,
+  "speaker": "Unknown",
+  "en": "You turn this into a bunch of tokens using your graph neural network.",
+  "zh": "你使用你的图神经网络把它变成一堆词元。"
+ },
+ {
+  "seg": 315,
+  "start": 1866.326,
+  "end": 1869.149,
+  "speaker": "Unknown",
+  "en": "And so you can really start to combine these things, actually.",
+  "zh": "所以你实际上可以真正开始结合这些东西。"
+ },
+ {
+  "seg": 316,
+  "start": 1869.569,
+  "end": 1874.234,
+  "speaker": "Unknown",
+  "en": "Where do you see the work that you're doing at CUSP going in the future?",
+  "zh": "你如何看待你在 CUSP 的工作在未来发展？"
+ },
+ {
+  "seg": 317,
+  "start": 1874.274,
+  "end": 1881.261,
+  "speaker": "Unknown",
+  "en": "Like what are the kind of near and midterm and longer term things that you're most excited about with that work?",
+  "zh": "比如你对这项工作的近期、中期和长期最兴奋的事情是什么？"
+ },
+ {
+  "seg": 318,
+  "start": 1881.861,
+  "end": 1882.202,
+  "speaker": "Unknown",
+  "en": "Okay, so",
+  "zh": "好的，所以"
+ },
+ {
+  "seg": 319,
+  "start": 1883.102,
+  "end": 1889.743,
+  "speaker": "Unknown",
+  "en": "We're constantly expanding the tools that we need for the different material classes.",
+  "zh": "我们正在不断扩展我们针对不同材料类别所需的工具。"
+ },
+ {
+  "seg": 320,
+  "start": 1889.763,
+  "end": 1894.344,
+  "speaker": "Unknown",
+  "en": "So we know how to train these tools, but every new material class has to be retrained.",
+  "zh": "所以我们知道如何训练这些工具，但每个新材料类别都必须重新训练。"
+ },
+ {
+  "seg": 321,
+  "start": 1895.344,
+  "end": 1896.724,
+  "speaker": "Unknown",
+  "en": "We're also going up the stack.",
+  "zh": "我们也在向上堆叠。"
+ },
+ {
+  "seg": 322,
+  "start": 1896.804,
+  "end": 1910.707,
+  "speaker": "Unknown",
+  "en": "So we're going into more coarse-grained representations, like larger-scale digital twins, all the way up to modeling the actual reactor or device in which this material is sitting.",
+  "zh": "所以我们正在进入更粗粒度的表示，比如大规模数字孪生，一直到对这种材料所在的反应器或设备进行建模。"
+ },
+ {
+  "seg": 323,
+  "start": 1913.377,
+  "end": 1928.492,
+  "speaker": "Unknown",
+  "en": "The effort that's most important for us right now is connecting the platform to self-driving labs, so to really generate large amounts of data from the self-driving lab.",
+  "zh": "对我们目前来说最重要的努力是将平台连接到自动驾驶实验室，以便真正从自动驾驶实验室生成大量数据。"
+ },
+ {
+  "seg": 324,
+  "start": 1928.972,
+  "end": 1930.513,
+  "speaker": "Unknown",
+  "en": "That's important.",
+  "zh": "这很重要。"
+ },
+ {
+  "seg": 325,
+  "start": 1930.553,
+  "end": 1935.238,
+  "speaker": "Unknown",
+  "en": "And I think ultimately, it's very important to go through the entire process of",
+  "zh": "我认为最终，经历整个过程非常重要"
+ },
+ {
+  "seg": 326,
+  "start": 1935.795,
+  "end": 1949.32,
+  "speaker": "Unknown",
+  "en": "Predicting the molecule, making it in the lab, scaling the material, and then actually putting it in an actual device and getting a customer excited about that particular material and willing to pay money for it.",
+  "zh": "预测分子，在实验室制造它，扩大材料规模，然后把它放入实际设备中，并让客户对那种特定材料感到兴奋并愿意为此付钱。"
+ },
+ {
+  "seg": 327,
+  "start": 1949.36,
+  "end": 1956.743,
+  "speaker": "Unknown",
+  "en": "So this basically means that this last part of scaling is something that still needs to be done.",
+  "zh": "所以这基本上意味着最后一部分扩大规模仍需完成。"
+ },
+ {
+  "seg": 328,
+  "start": 1957.877,
+  "end": 1964.002,
+  "speaker": "Unknown",
+  "en": "But getting there as quickly as possible is, I think, absolutely key.",
+  "zh": "但尽可能快地到达那里，我认为绝对是关键。"
+ },
+ {
+  "seg": 329,
+  "start": 1964.482,
+  "end": 1971.087,
+  "speaker": "Unknown",
+  "en": "And so I'm really looking forward to discovering a material that is unique.",
+  "zh": "所以我真的很期待发现一种独特的材料。"
+ },
+ {
+  "seg": 330,
+  "start": 1971.127,
+  "end": 1972.908,
+  "speaker": "Unknown",
+  "en": "It could not have been done by AI.",
+  "zh": "它本无法由 AI 完成。"
+ },
+ {
+  "seg": 331,
+  "start": 1974.33,
+  "end": 1978.813,
+  "speaker": "Unknown",
+  "en": "And that makes it into an actual semiconductor device or something like this or a new solar cell.",
+  "zh": "并且它进入了实际的半导体设备或类似的东西或新的太阳能电池。"
+ },
+ {
+  "seg": 332,
+  "start": 1979.417,
+  "end": 1986.983,
+  "speaker": "Unknown",
+  "en": "And we can say, you know, AI actually helped, you know, was a very important piece of the design of this particular material.",
+  "zh": "我们可以说，你知道，AI 实际上提供了帮助，你知道，是这种特定材料设计的重要组成部分。"
+ },
+ {
+  "seg": 333,
+  "start": 1987.003,
+  "end": 1991.367,
+  "speaker": "Unknown",
+  "en": "I think that's a very exciting proof point that will help the entire industry forward.",
+  "zh": "我认为这是一个非常兴奋的证明点，将有助于整个行业向前发展。"
+ },
+ {
+  "seg": 334,
+  "start": 1991.927,
+  "end": 1998.132,
+  "speaker": "Unknown",
+  "en": "You also have a book that you're working on that has a really interesting title.",
+  "zh": "你也在写一本书，书名非常有意思。"
+ },
+ {
+  "seg": 335,
+  "start": 1998.212,
+  "end": 2002.716,
+  "speaker": "Unknown",
+  "en": "It's talking about generative AI and stochastic thermodynamics.",
+  "zh": "它讨论的是生成式 AI 和随机热力学。"
+ },
+ {
+  "seg": 336,
+  "start": 2004.286,
+  "end": 2005.267,
+  "speaker": "Unknown",
+  "en": "What is that?",
+  "zh": "那是什么？"
+ },
+ {
+  "seg": 337,
+  "start": 2005.747,
+  "end": 2009.329,
+  "speaker": "Unknown",
+  "en": "What's the connection between generative AI and thermodynamics?",
+  "zh": "生成式 AI 和热力学之间的联系是什么？"
+ },
+ {
+  "seg": 338,
+  "start": 2009.349,
+  "end": 2013.371,
+  "speaker": "Unknown",
+  "en": "And tell us a little bit about the direction you're taking with the book.",
+  "zh": "并告诉我们一点你在这本书上采取的方向。"
+ },
+ {
+  "seg": 339,
+  "start": 2013.871,
+  "end": 2013.991,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 340,
+  "start": 2014.011,
+  "end": 2015.732,
+  "speaker": "Unknown",
+  "en": "So maybe first a bit of a history on this.",
+  "zh": "所以也许首先是关于这一点的一些历史。"
+ },
+ {
+  "seg": 341,
+  "start": 2015.752,
+  "end": 2021.074,
+  "speaker": "Unknown",
+  "en": "So I started this almost two years ago now, even before COSP.",
+  "zh": "所以我几乎两年前就开始了这个，甚至在 COSP 之前。"
+ },
+ {
+  "seg": 342,
+  "start": 2021.714,
+  "end": 2022.775,
+  "speaker": "Unknown",
+  "en": "So I had a bit of a...",
+  "zh": "所以我有一点..."
+ },
+ {
+  "seg": 343,
+  "start": 2023.37,
+  "end": 2030.052,
+  "speaker": "Unknown",
+  "en": "sort of a lull between, you know, when I stopped working for Microsoft and the startup Cosplay I started.",
+  "zh": "当你知道我停止为微软工作和我开始的 Cosplay 初创公司之间，有一段某种程度的低谷期。"
+ },
+ {
+  "seg": 344,
+  "start": 2030.092,
+  "end": 2031.593,
+  "speaker": "Unknown",
+  "en": "So there was about six months between that.",
+  "zh": "所以这之间大约有六个月。"
+ },
+ {
+  "seg": 345,
+  "start": 2033.394,
+  "end": 2040.296,
+  "speaker": "Unknown",
+  "en": "And I started to, we were on, me and my wife were on vacation in Italy and sort of, you know, I cannot do absolutely nothing.",
+  "zh": "我开始，我们在，我和我妻子在意大利度假，某种程度上，你知道，我不能什么都不做。"
+ },
+ {
+  "seg": 346,
+  "start": 2040.776,
+  "end": 2043.437,
+  "speaker": "Unknown",
+  "en": "And so in the mornings, I would have- Andy, I'm just gonna write a book.",
+  "zh": "所以在早上，我会——Andy，我只是想写一本书。"
+ },
+ {
+  "seg": 347,
+  "start": 2045.178,
+  "end": 2048.879,
+  "speaker": "Unknown",
+  "en": "I had my cappuccino, you know, in the sun and I would start a book.",
+  "zh": "我在阳光下喝着卡布奇诺，你知道，我会开始写一本书。"
+ },
+ {
+  "seg": 348,
+  "start": 2048.899,
+  "end": 2051.3,
+  "speaker": "Unknown",
+  "en": "So wonderful, the best vacation you can have.",
+  "zh": "太美妙了，你能拥有的最好的假期。"
+ },
+ {
+  "seg": 349,
+  "start": 2051.84,
+  "end": 2055.523,
+  "speaker": "Unknown",
+  "en": "And in the afternoon, we would hike through the mountains and enjoy life.",
+  "zh": "下午，我们会徒步穿过山脉并享受生活。"
+ },
+ {
+  "seg": 350,
+  "start": 2056.344,
+  "end": 2071.195,
+  "speaker": "Unknown",
+  "en": "And then I was teaching a course in a town called Muizenberg, which is a Dutch word, but probably people said Musenberg, but it's close to Cape Town in South Africa.",
+  "zh": "然后我在一个叫 Muizenberg 的小镇教书，这是一个荷兰语单词，但人们可能说 Musenberg，但它靠近南非的开普敦。"
+ },
+ {
+  "seg": 351,
+  "start": 2072.196,
+  "end": 2074.738,
+  "speaker": "Unknown",
+  "en": "There is the African Institute for Mathematical Sciences.",
+  "zh": "那里有非洲数学科学研究所。"
+ },
+ {
+  "seg": 352,
+  "start": 2074.978,
+  "end": 2077.68,
+  "speaker": "Unknown",
+  "en": "And so I had the pleasure of spending a couple of weeks there.",
+  "zh": "所以我有幸在那里度过了几周。"
+ },
+ {
+  "seg": 353,
+  "start": 2078.522,
+  "end": 2093.506,
+  "speaker": "Unknown",
+  "en": "And then I recruited two students to help me out, actually finish it, because starting is easy, finishing is hard, and you need some help.",
+  "zh": "然后我招募了两名学生来帮我，实际上是为了完成它，因为开始很容易，结束很难，你需要一些帮助。"
+ },
+ {
+  "seg": 354,
+  "start": 2093.866,
+  "end": 2096.327,
+  "speaker": "Unknown",
+  "en": "And so it took two more years to actually finish it.",
+  "zh": "所以又花了两年时间才真正完成它。"
+ },
+ {
+  "seg": 355,
+  "start": 2096.447,
+  "end": 2097.947,
+  "speaker": "Unknown",
+  "en": "It's a huge amount of work.",
+  "zh": "这是一个巨大的工作量。"
+ },
+ {
+  "seg": 356,
+  "start": 2098.427,
+  "end": 2099.287,
+  "speaker": "Unknown",
+  "en": "But what is the book about?",
+  "zh": "但这本书是关于什么的？"
+ },
+ {
+  "seg": 357,
+  "start": 2099.307,
+  "end": 2105.829,
+  "speaker": "Unknown",
+  "en": "The book is about actually the mathematics that describes",
+  "zh": "这本书实际上是关于描述"
+ },
+ {
+  "seg": 358,
+  "start": 2106.91,
+  "end": 2125.507,
+  "speaker": "Unknown",
+  "en": "Modern generative AI, including probabilistic models, including diffusion models, and many other things, their mathematics turns out to be equivalent to the mathematics that describes modern non-equilibrium statistical mechanics or thermodynamics.",
+  "zh": "现代生成式 AI 的数学，包括概率模型，包括扩散模型，以及许多其他事物，它们的数学结果等同于描述现代非平衡统计力学或热力学的数学。"
+ },
+ {
+  "seg": 359,
+  "start": 2126.308,
+  "end": 2130.132,
+  "speaker": "Unknown",
+  "en": "And how specific is that statement?",
+  "zh": "这个说法有多具体？"
+ },
+ {
+  "seg": 360,
+  "start": 2130.192,
+  "end": 2131.333,
+  "speaker": "Unknown",
+  "en": "Is that statement...",
+  "zh": "这个说法是……"
+ },
+ {
+  "seg": 361,
+  "start": 2132.055,
+  "end": 2140.317,
+  "speaker": "Unknown",
+  "en": "You know, everything is a PDE at the end of the day, or is that statement, you know, more kind of specific and concrete?",
+  "zh": "你知道，归根结底一切都是偏微分方程，还是这个说法，你知道，更具体和更具体？"
+ },
+ {
+  "seg": 362,
+  "start": 2141.277,
+  "end": 2143.157,
+  "speaker": "Unknown",
+  "en": "It's surprisingly specific.",
+  "zh": "它出奇地具体。"
+ },
+ {
+  "seg": 363,
+  "start": 2143.957,
+  "end": 2149.098,
+  "speaker": "Unknown",
+  "en": "And I say surprisingly, because I don't think, maybe many people think of it as an analogy.",
+  "zh": "我说出奇地，是因为我不认为，也许许多人认为它是一个类比。"
+ },
+ {
+  "seg": 364,
+  "start": 2150.219,
+  "end": 2153.419,
+  "speaker": "Unknown",
+  "en": "So that's what I think is a really good question, because I think this runs much deeper.",
+  "zh": "所以我认为这是一个非常好的问题，因为我认为这要深刻得多。"
+ },
+ {
+  "seg": 365,
+  "start": 2153.619,
+  "end": 2156.7,
+  "speaker": "Unknown",
+  "en": "So I think it's more than an analogy in my mind.",
+  "zh": "所以在我看来它不仅仅是一个类比。"
+ },
+ {
+  "seg": 366,
+  "start": 2157.76,
+  "end": 2161.181,
+  "speaker": "Unknown",
+  "en": "I think there is a very, very deep connection, and this has to do with the fact that",
+  "zh": "我认为存在一个非常非常深的联系，这与事实有关"
+ },
+ {
+  "seg": 367,
+  "start": 2162.015,
+  "end": 2165.976,
+  "speaker": "Unknown",
+  "en": "We are talking about information theory in the end.",
+  "zh": "我们最终谈论的是信息论。"
+ },
+ {
+  "seg": 368,
+  "start": 2166.156,
+  "end": 2169.517,
+  "speaker": "Unknown",
+  "en": "At the core of physics is information theory.",
+  "zh": "物理学的核心是信息论。"
+ },
+ {
+  "seg": 369,
+  "start": 2170.357,
+  "end": 2173.317,
+  "speaker": "Unknown",
+  "en": "And in the core of machine learning is information theory.",
+  "zh": "机器学习的核心也是信息论。"
+ },
+ {
+  "seg": 370,
+  "start": 2173.837,
+  "end": 2176.478,
+  "speaker": "Unknown",
+  "en": "And both of these are described.",
+  "zh": "而这两者都被描述了。"
+ },
+ {
+  "seg": 371,
+  "start": 2176.978,
+  "end": 2186.96,
+  "speaker": "Unknown",
+  "en": "So if you talk about information theory with loss of information, in other words, processes where you lose information as you are evolving over time.",
+  "zh": "所以如果你谈论关于信息丢失的信息论，换句话说，就是你随着时间推移而丢失信息的过程。"
+ },
+ {
+  "seg": 372,
+  "start": 2186.98,
+  "end": 2191.381,
+  "speaker": "Unknown",
+  "en": "So there's an observer that tries to describe a process.",
+  "zh": "所以有一个观察者试图描述一个过程。"
+ },
+ {
+  "seg": 373,
+  "start": 2192.086,
+  "end": 2195.689,
+  "speaker": "Unknown",
+  "en": "But there's so many degrees of freedom to keep track of, you can't.",
+  "zh": "但有太多的自由度需要跟踪，你做不到。"
+ },
+ {
+  "seg": 374,
+  "start": 2196.549,
+  "end": 2203.474,
+  "speaker": "Unknown",
+  "en": "And so what happens is that you're losing information and you need to capture that by probabilities.",
+  "zh": "所以发生的事情是你正在丢失信息，你需要通过概率来捕捉它。"
+ },
+ {
+  "seg": 375,
+  "start": 2203.794,
+  "end": 2211.1,
+  "speaker": "Unknown",
+  "en": "And that mathematics is the core of both thermodynamics as well as machine learning.",
+  "zh": "而那个数学是热力学和机器学习的核心。"
+ },
+ {
+  "seg": 376,
+  "start": 2211.26,
+  "end": 2214.262,
+  "speaker": "Unknown",
+  "en": "And I think that's the core statement.",
+  "zh": "我认为这是核心陈述。"
+ },
+ {
+  "seg": 377,
+  "start": 2214.862,
+  "end": 2215.383,
+  "speaker": "Unknown",
+  "en": "And this thing...",
+  "zh": "还有这个东西……"
+ },
+ {
+  "seg": 378,
+  "start": 2216.038,
+  "end": 2221.943,
+  "speaker": "Unknown",
+  "en": "I think there's this concept of entropy, which is maybe interesting in both of these theories.",
+  "zh": "我认为有这个熵的概念，在这两个理论中可能很有趣。"
+ },
+ {
+  "seg": 379,
+  "start": 2221.963,
+  "end": 2223.844,
+  "speaker": "Unknown",
+  "en": "And so maybe it's good to talk a little bit about that.",
+  "zh": "所以也许稍微谈谈那个是好事。"
+ },
+ {
+  "seg": 380,
+  "start": 2223.924,
+  "end": 2231.05,
+  "speaker": "Unknown",
+  "en": "So entropy is basically the surprise that you find for a particular state.",
+  "zh": "所以熵基本上是你在特定状态下发现的惊讶。"
+ },
+ {
+  "seg": 381,
+  "start": 2231.07,
+  "end": 2232.851,
+  "speaker": "Unknown",
+  "en": "Do you know the precise state?",
+  "zh": "你知道精确的状态吗？"
+ },
+ {
+  "seg": 382,
+  "start": 2232.991,
+  "end": 2239.036,
+  "speaker": "Unknown",
+  "en": "Or do you only have a very vague probability distribution for that particular state?",
+  "zh": "还是你只有针对该特定状态的非常模糊的概率分布？"
+ },
+ {
+  "seg": 383,
+  "start": 2239.456,
+  "end": 2240.297,
+  "speaker": "Unknown",
+  "en": "And that's true.",
+  "zh": "那是真的。"
+ },
+ {
+  "seg": 384,
+  "start": 2241.918,
+  "end": 2244.2,
+  "speaker": "Unknown",
+  "en": "But in physics, you think of entropy",
+  "zh": "但在物理学中，你认为熵"
+ },
+ {
+  "seg": 385,
+  "start": 2245.407,
+  "end": 2249.789,
+  "speaker": "Unknown",
+  "en": "As maybe a thing you can measure of the system.",
+  "zh": "也许是你可以测量系统的一个东西。"
+ },
+ {
+  "seg": 386,
+  "start": 2250.849,
+  "end": 2258.913,
+  "speaker": "Unknown",
+  "en": "Because you have to subtract entropy from energy, actually, to get free energy, which is the energy you're free to use to do useful work in the world.",
+  "zh": "因为你实际上必须从能量中减去熵才能得到自由能，这是你可以在世界上自由地用来做有用功的能量。"
+ },
+ {
+  "seg": 387,
+  "start": 2259.853,
+  "end": 2265.256,
+  "speaker": "Unknown",
+  "en": "And so it feels like a real thing, not like something that I don't know about the world.",
+  "zh": "所以它感觉像是一个真实的东西，而不是我不了解世界的东西。"
+ },
+ {
+  "seg": 388,
+  "start": 2266.856,
+  "end": 2270.178,
+  "speaker": "Unknown",
+  "en": "In a Bayesian statistics, this is exactly right.",
+  "zh": "在贝叶斯统计中，这是完全正确的。"
+ },
+ {
+  "seg": 389,
+  "start": 2270.198,
+  "end": 2272.999,
+  "speaker": "Unknown",
+  "en": "It's like you talk about a subjective",
+  "zh": "就像你谈论一个主观的"
+ },
+ {
+  "seg": 390,
+  "start": 2274.531,
+  "end": 2283.357,
+  "speaker": "Unknown",
+  "en": "It's subjective statistics because it describes what I do not know about the world and I need to ascribe probabilities to the things that I do not know about the world.",
+  "zh": "它是主观统计，因为它描述了我不知道的世界，我需要将概率归因于我不知道的世界事物。"
+ },
+ {
+  "seg": 391,
+  "start": 2284.458,
+  "end": 2288.52,
+  "speaker": "Unknown",
+  "en": "But in my view and a number of physicists as well, in particular E.T.",
+  "zh": "但在我的观点以及一些物理学家的观点中，特别是 E.T."
+ },
+ {
+  "seg": 392,
+  "start": 2288.56,
+  "end": 2296.305,
+  "speaker": "Unknown",
+  "en": "Jaynes is a famous one, entropy in physics also precisely describes all the information you're missing about the world.",
+  "zh": "Jaynes 是一个著名的人物，物理学中的熵也精确地描述了你关于世界所缺失的所有信息。"
+ },
+ {
+  "seg": 393,
+  "start": 2297.206,
+  "end": 2299.988,
+  "speaker": "Unknown",
+  "en": "And so there's this very deep connection between these two fields.",
+  "zh": "所以这两个领域之间存在这种非常深的联系。"
+ },
+ {
+  "seg": 394,
+  "start": 2301.167,
+  "end": 2323.535,
+  "speaker": "Unknown",
+  "en": "Maybe the last thing I want to say about this, there is this famous theorem by Landauer who basically said that if you erase a bit from a device, you must radiate, you know, KLNT, which is just a number, amount of energy as heat to the environment.",
+  "zh": "也许我想说的最后一件事是，Landauer 有一个著名的定理，他基本上是说，如果你从设备中擦除一个比特，你必须辐射，你知道，KLNT，这只是一个数字，即一定量的能量作为热量散发到环境中。"
+ },
+ {
+  "seg": 395,
+  "start": 2323.715,
+  "end": 2326.056,
+  "speaker": "Unknown",
+  "en": "So here you can see the direct relationship.",
+  "zh": "所以在这里你可以看到直接的关系。"
+ },
+ {
+  "seg": 396,
+  "start": 2326.816,
+  "end": 2329.897,
+  "speaker": "Unknown",
+  "en": "I'm deleting a bit, which is a piece of Shannon information.",
+  "zh": "我正在删除一个比特，这是香农信息的一小部分。"
+ },
+ {
+  "seg": 397,
+  "start": 2330.959,
+  "end": 2339.066,
+  "speaker": "Unknown",
+  "en": "And so, you can see the direct relationship.",
+  "zh": "所以，你可以看到直接的关系。"
+ },
+ {
+  "seg": 398,
+  "start": 2339.106,
+  "end": 2346.373,
+  "speaker": "Unknown",
+  "en": "That suggests kind of a conservation of information along the lines of conservation of mass, which, you know, is very foundational in physics.",
+  "zh": "这暗示了一种类似于质量守恒的信息守恒，你知道，这在物理学中是非常基础的。"
+ },
+ {
+  "seg": 399,
+  "start": 2346.973,
+  "end": 2347.193,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 400,
+  "start": 2347.233,
+  "end": 2357.262,
+  "speaker": "Unknown",
+  "en": "So, in fact, the statement is the second law of thermodynamics says that the entropy must always increase, which means, you know, you either",
+  "zh": "所以，事实上，这个陈述是热力学第二定律表明熵必须总是增加，这意味着，你知道，你要么"
+ },
+ {
+  "seg": 401,
+  "start": 2357.889,
+  "end": 2366.032,
+  "speaker": "Unknown",
+  "en": "Keep the level of information the same, which is when the entropy stays the same, or you lose information in the process, and that's when the entropy goes up.",
+  "zh": "保持信息水平不变，这就是当熵保持不变时，或者你在过程中丢失信息，这就是熵上升的时候。"
+ },
+ {
+  "seg": 402,
+  "start": 2366.753,
+  "end": 2378.797,
+  "speaker": "Unknown",
+  "en": "So, of course, what happens is the information in the universe doesn't go away, but it's transferred from something you know, the system, to the heat bath where you've completely lost this information, unrecoverable.",
+  "zh": "所以，当然，发生的事情是宇宙中的信息不会消失，而是从某样东西，你知道，系统，转移到了热浴，你已经在那里完全丢失了这些信息，无法恢复。"
+ },
+ {
+  "seg": 403,
+  "start": 2379.738,
+  "end": 2385.2,
+  "speaker": "Unknown",
+  "en": "And so, yeah, anyway, it's a bit technical, but the idea is that information theory is behind",
+  "zh": "所以，是的，无论如何，这有点技术性，但其思想是信息论处于"
+ },
+ {
+  "seg": 404,
+  "start": 2385.926,
+  "end": 2389.808,
+  "speaker": "Unknown",
+  "en": "Both of these theories, which basically makes the math very, very similar.",
+  "zh": "这两种理论背后，这使得数学非常非常相似。"
+ },
+ {
+  "seg": 405,
+  "start": 2389.928,
+  "end": 2396.111,
+  "speaker": "Unknown",
+  "en": "And many of the tools which have been developed in one field have their exact analog in the other one.",
+  "zh": "许多在一个领域开发的工具在另一个领域中有它们的精确类似物。"
+ },
+ {
+  "seg": 406,
+  "start": 2396.151,
+  "end": 2405.236,
+  "speaker": "Unknown",
+  "en": "And this book is a lot about finding these different, this kind of dictionary between the two fields.",
+  "zh": "这本书很大程度上是关于寻找这些不同的，这两个领域之间的这种词典。"
+ },
+ {
+  "seg": 407,
+  "start": 2405.276,
+  "end": 2413.62,
+  "speaker": "Unknown",
+  "en": "There's something called stochastic normalizing flows in one, in the machine learning, and then there is escorted free energy estimation in the other.",
+  "zh": "一方面在机器学习中有一种叫做随机正则化流的东西，另一方面有伴随自由能估计。"
+ },
+ {
+  "seg": 408,
+  "start": 2415.57,
+  "end": 2417.831,
+  "speaker": "Unknown",
+  "en": "And they turn out to be exactly the same methods.",
+  "zh": "而且它们结果是完全相同的方法。"
+ },
+ {
+  "seg": 409,
+  "start": 2418.871,
+  "end": 2428.714,
+  "speaker": "Unknown",
+  "en": "And so ultimately, who is the book for and how do you see the book changing the way they view the world or the way they're able to do the things they do?",
+  "zh": "所以最终，这本书是为谁写的，以及你如何看待这本书改变了他们看待世界的方式或者他们能够做他们做的事情的方式？"
+ },
+ {
+  "seg": 410,
+  "start": 2429.654,
+  "end": 2432.194,
+  "speaker": "Unknown",
+  "en": "For both sides.",
+  "zh": "对双方来说。"
+ },
+ {
+  "seg": 411,
+  "start": 2432.274,
+  "end": 2440.396,
+  "speaker": "Unknown",
+  "en": "It's written for the machine learner who is interested to learn a little bit about thermodynamics and non-equilibrium thermodynamics.",
+  "zh": "它是为想要学习一点热力学和非平衡热力学的机器学习者写的。"
+ },
+ {
+  "seg": 412,
+  "start": 2443.499,
+  "end": 2450.423,
+  "speaker": "Unknown",
+  "en": "And in reverse, it's also for the physicist who wants to get into machine learning and build on the things they already know.",
+  "zh": "反过来，它也是为了那些想要进入机器学习并建立在他们已知事物之上的物理学家。"
+ },
+ {
+  "seg": 413,
+  "start": 2450.443,
+  "end": 2457.387,
+  "speaker": "Unknown",
+  "en": "And I just want to point out that the first paper that was written about diffusion models actually had the word non-equilibrium thermodynamics in the title.",
+  "zh": "我只想指出，关于扩散模型写的第一篇论文实际上标题中有非平衡热力学这个词。"
+ },
+ {
+  "seg": 414,
+  "start": 2457.447,
+  "end": 2462.17,
+  "speaker": "Unknown",
+  "en": "So the authors of that paper actually already knew about this connection.",
+  "zh": "所以那篇论文的作者实际上已经知道了这种联系。"
+ },
+ {
+  "seg": 415,
+  "start": 2462.25,
+  "end": 2470.354,
+  "speaker": "Unknown",
+  "en": "So diffusion models really are a process by which you take structure and you destroy it, which is typically what happens in the world.",
+  "zh": "所以扩散模型实际上是一个过程，你通过它获取结构并销毁它，这通常是世界上发生的事情。"
+ },
+ {
+  "seg": 416,
+  "start": 2470.954,
+  "end": 2471.775,
+  "speaker": "Unknown",
+  "en": "The entropy goes up.",
+  "zh": "熵上升。"
+ },
+ {
+  "seg": 417,
+  "start": 2472.642,
+  "end": 2479.708,
+  "speaker": "Unknown",
+  "en": "And then we try to reverse that backward in time, which is to start with noise and create structure, which is our generative models.",
+  "zh": "然后我们尝试在时间上逆转它，也就是从噪声开始并创建结构，这就是我们的生成模型。"
+ },
+ {
+  "seg": 418,
+  "start": 2481.73,
+  "end": 2497.564,
+  "speaker": "Unknown",
+  "en": "And the way I think it will evolve into the future is, of course, or the way it can be used fruitfully is, first of all, it can help people in physics to use these tools for machine learning.",
+  "zh": "我认为它未来会演进的方式，当然，或者它能被有效利用的方式是，首先，它可以帮助物理学家使用这些工具进行机器学习。"
+ },
+ {
+  "seg": 419,
+  "start": 2497.584,
+  "end": 2498.785,
+  "speaker": "Unknown",
+  "en": "And let me give you one example.",
+  "zh": "让我给你举个例子。"
+ },
+ {
+  "seg": 420,
+  "start": 2500.805,
+  "end": 2513.748,
+  "speaker": "Unknown",
+  "en": "So it's a very important problem to compute the free energy difference between, let's say, a unbound system, which is like a protein and a drug that you want to neutralize the protein.",
+  "zh": "所以计算...之间的自由能差是一个非常重要的问题，比如说，一个未结合的系统，这就像是一个蛋白质和一个你想要中和该蛋白质的药物。"
+ },
+ {
+  "seg": 421,
+  "start": 2513.788,
+  "end": 2517.789,
+  "speaker": "Unknown",
+  "en": "And so you want this drug to attach or bind to the particular protein.",
+  "zh": "所以你希望这种药物附着或结合到特定的蛋白质上。"
+ },
+ {
+  "seg": 422,
+  "start": 2518.529,
+  "end": 2524.831,
+  "speaker": "Unknown",
+  "en": "And so you want to figure out how much does it want to bind to this particular pocket on the protein.",
+  "zh": "所以你想弄清楚它有多想结合到蛋白质上的这个特定的口袋。"
+ },
+ {
+  "seg": 423,
+  "start": 2524.911,
+  "end": 2530.132,
+  "speaker": "Unknown",
+  "en": "So you need to compute the free energy difference between the unbound state where these two things are far apart.",
+  "zh": "所以你需要计算未结合状态下的自由能差，这两个东西在未结合状态下相距甚远。"
+ },
+ {
+  "seg": 424,
+  "start": 2530.717,
+  "end": 2532.277,
+  "speaker": "Unknown",
+  "en": "And the bound state where they're together.",
+  "zh": "以及它们在一起时的结合状态。"
+ },
+ {
+  "seg": 425,
+  "start": 2532.297,
+  "end": 2533.938,
+  "speaker": "Unknown",
+  "en": "That's a very important problem.",
+  "zh": "这是一个非常重要的问题。"
+ },
+ {
+  "seg": 426,
+  "start": 2534.718,
+  "end": 2537.059,
+  "speaker": "Unknown",
+  "en": "And so it's something that a chemist would typically want to do.",
+  "zh": "所以这通常是化学家想要做的事情。"
+ },
+ {
+  "seg": 427,
+  "start": 2537.679,
+  "end": 2545.14,
+  "speaker": "Unknown",
+  "en": "But now you can use modern machine learning methods like diffusion models in order to accelerate those particular calculations.",
+  "zh": "但现在你可以使用现代机器学习方法，如扩散模型，来加速那些特定的计算。"
+ },
+ {
+  "seg": 428,
+  "start": 2545.38,
+  "end": 2551.962,
+  "speaker": "Unknown",
+  "en": "So that's a clear way in which you can start from a machine learning method and help the chemists do their calculations better.",
+  "zh": "所以这是一种清晰的方式，你可以从机器学习方法开始并帮助化学家更好地进行计算。"
+ },
+ {
+  "seg": 429,
+  "start": 2552.862,
+  "end": 2555.143,
+  "speaker": "Unknown",
+  "en": "But then the other direction is also true, right?",
+  "zh": "但反过来说也是真的，对吧？"
+ },
+ {
+  "seg": 430,
+  "start": 2555.163,
+  "end": 2555.843,
+  "speaker": "Unknown",
+  "en": "Because there is...",
+  "zh": "因为有..."
+ },
+ {
+  "seg": 431,
+  "start": 2556.64,
+  "end": 2570.103,
+  "speaker": "Unknown",
+  "en": "Things which have been developed in stochastic thermodynamics, like a concept called counter-diabetic driving is something that they have figured out on how to do very efficient control of particular physical systems.",
+  "zh": "在随机热力学中开发出来的东西，比如一个叫做抗糖尿病驱动的概念，是他们弄清楚如何对特定物理系统进行非常高效控制的方法。"
+ },
+ {
+  "seg": 432,
+  "start": 2571.683,
+  "end": 2583.806,
+  "speaker": "Unknown",
+  "en": "And those concepts can now be used in diffusion models in order to do a better job at generating images, because it turns out that that's very helpful in",
+  "zh": "这些概念现在可以在扩散模型中使用，以便在生成图像方面做得更好，因为事实证明，这在"
+ },
+ {
+  "seg": 433,
+  "start": 2584.666,
+  "end": 2594.55,
+  "speaker": "Unknown",
+  "en": "Bringing down sort of statistical error or noise in the diffusion process, and so it can actually help you build better diffusion models.",
+  "zh": "降低扩散过程中的统计误差或噪声方面非常有帮助，所以它实际上可以帮助你构建更好的扩散模型。"
+ },
+ {
+  "seg": 434,
+  "start": 2594.59,
+  "end": 2597.451,
+  "speaker": "Unknown",
+  "en": "So this is a cross-fertilization between these two fields.",
+  "zh": "所以这是这两个领域之间的交叉滋养。"
+ },
+ {
+  "seg": 435,
+  "start": 2598.591,
+  "end": 2612.617,
+  "speaker": "Unknown",
+  "en": "And do you see on the machine learning side the primary target of the analogy or relationship as being diffusion models, or is it more fundamental than that?",
+  "zh": "在机器学习方面，你是否看到这个类比或关系的主要目标是扩散模型，还是说比那更根本？"
+ },
+ {
+  "seg": 436,
+  "start": 2613.326,
+  "end": 2614.587,
+  "speaker": "Unknown",
+  "en": "It's more fundamental than that.",
+  "zh": "它比那更根本。"
+ },
+ {
+  "seg": 437,
+  "start": 2614.727,
+  "end": 2619.229,
+  "speaker": "Unknown",
+  "en": "In fact, the book goes into variational autoencoders.",
+  "zh": "事实上，这本书涉及变分自编码器。"
+ },
+ {
+  "seg": 438,
+  "start": 2620.449,
+  "end": 2629.553,
+  "speaker": "Unknown",
+  "en": "It goes into MCMC methods, Markov Chain Monte Carlo methods, which are used to sample from particular distributions.",
+  "zh": "它涉及 MCMC 方法，马尔可夫链蒙特卡洛方法，用于从特定分布中采样。"
+ },
+ {
+  "seg": 439,
+  "start": 2630.194,
+  "end": 2632.155,
+  "speaker": "Unknown",
+  "en": "It goes into free energy estimation.",
+  "zh": "它涉及自由能估计。"
+ },
+ {
+  "seg": 440,
+  "start": 2632.975,
+  "end": 2637.817,
+  "speaker": "Unknown",
+  "en": "There's many different applications and cross-fertilizations that can happen.",
+  "zh": "有许多可能发生的不同应用和交叉滋养。"
+ },
+ {
+  "seg": 441,
+  "start": 2639.915,
+  "end": 2647.881,
+  "speaker": "Unknown",
+  "en": "I think as a field, we struggle a little bit with, you know, we're creating these ever more complex, you know, foundation models.",
+  "zh": "我认为作为一个领域，我们要有一点...挣扎，你知道，我们在创造这些越来越复杂的，你知道，基础模型。"
+ },
+ {
+  "seg": 442,
+  "start": 2648.981,
+  "end": 2655.386,
+  "speaker": "Unknown",
+  "en": "Our understanding with them, our understanding of them, you know, is still somewhat surface level, like in terms of their mechanics.",
+  "zh": "我们对它们的理解，你知道，在某种程度上还是表面水平，比如在它们的机制方面。"
+ },
+ {
+  "seg": 443,
+  "start": 2655.906,
+  "end": 2656.547,
+  "speaker": "Unknown",
+  "en": "You know, we've",
+  "zh": "你知道，我们已经"
+ },
+ {
+  "seg": 444,
+  "start": 2658.648,
+  "end": 2662.531,
+  "speaker": "Unknown",
+  "en": "You know, thermodynamics as a field is much more mature.",
+  "zh": "你知道，热力学作为一个领域要成熟得多。"
+ },
+ {
+  "seg": 445,
+  "start": 2662.552,
+  "end": 2672.28,
+  "speaker": "Unknown",
+  "en": "Do you see us being able to use this relationship to better understand the models kind of at their core?",
+  "zh": "你看到我们能够利用这种关系来更好地理解模型，本质上是在它们的核心处吗？"
+ },
+ {
+  "seg": 446,
+  "start": 2673.627,
+  "end": 2674.127,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 447,
+  "start": 2674.467,
+  "end": 2677.788,
+  "speaker": "Unknown",
+  "en": "At least it gives a different perspective in trying to understand things.",
+  "zh": "至少它提供了一个不同的视角来尝试理解事物。"
+ },
+ {
+  "seg": 448,
+  "start": 2677.828,
+  "end": 2684.13,
+  "speaker": "Unknown",
+  "en": "So I would say the field of stochastic thermodynamics is actually itself quite new, interestingly.",
+  "zh": "所以我想说随机热力学领域实际上本身相当新，有趣的是。"
+ },
+ {
+  "seg": 449,
+  "start": 2684.19,
+  "end": 2686.19,
+  "speaker": "Unknown",
+  "en": "So it is still very actively researched.",
+  "zh": "所以它仍然是非常活跃的研究对象。"
+ },
+ {
+  "seg": 450,
+  "start": 2686.25,
+  "end": 2688.771,
+  "speaker": "Unknown",
+  "en": "So thermodynamics is systems in equilibrium.",
+  "zh": "所以热力学是处于平衡态的系统。"
+ },
+ {
+  "seg": 451,
+  "start": 2689.311,
+  "end": 2691.671,
+  "speaker": "Unknown",
+  "en": "Stochastic thermodynamics is systems out of equilibrium.",
+  "zh": "随机热力学是处于非平衡态的系统。"
+ },
+ {
+  "seg": 452,
+  "start": 2691.691,
+  "end": 2695.012,
+  "speaker": "Unknown",
+  "en": "So that's actually quite new field.",
+  "zh": "所以这实际上是一个相当新的领域。"
+ },
+ {
+  "seg": 453,
+  "start": 2695.372,
+  "end": 2702.474,
+  "speaker": "Unknown",
+  "en": "But it gives you a different way to try and understand how diffusion models work because",
+  "zh": "但它为你提供了一种不同的方式来尝试理解扩散模型是如何工作的，因为"
+ },
+ {
+  "seg": 454,
+  "start": 2703.81,
+  "end": 2725.265,
+  "speaker": "Unknown",
+  "en": "Concepts like heat and work and entropy, production, these things we don't use when we talk about machine learning models, but I think they give you a very new and interesting perspective on how to think about what's going on and how to also improve them.",
+  "zh": "像热、功和熵、产生这样的概念，我们在谈论机器学习模型时并不使用这些东西，但我认为它们为你思考正在发生的事情以及如何改进它们提供了一个非常新颖且有趣的视角。"
+ },
+ {
+  "seg": 455,
+  "start": 2726.185,
+  "end": 2728.847,
+  "speaker": "Unknown",
+  "en": "In reverse, it's also true.",
+  "zh": "反过来，这也是真的。"
+ },
+ {
+  "seg": 456,
+  "start": 2728.887,
+  "end": 2731.229,
+  "speaker": "Unknown",
+  "en": "Machine learners have their own way of thinking about",
+  "zh": "机器学习者有他们自己的思考方式来思考"
+ },
+ {
+  "seg": 457,
+  "start": 2732.238,
+  "end": 2733.238,
+  "speaker": "Unknown",
+  "en": "How to improve models.",
+  "zh": "如何改进模型。"
+ },
+ {
+  "seg": 458,
+  "start": 2733.518,
+  "end": 2736.319,
+  "speaker": "Unknown",
+  "en": "And that could also help the physicists to think about problems.",
+  "zh": "而这也可能有助于物理学家思考问题。"
+ },
+ {
+  "seg": 459,
+  "start": 2736.339,
+  "end": 2741.82,
+  "speaker": "Unknown",
+  "en": "And I found both parties actually to be very interested in the other party's work.",
+  "zh": "我发现双方实际上都对另一方的工作非常感兴趣。"
+ },
+ {
+  "seg": 460,
+  "start": 2741.84,
+  "end": 2742.38,
+  "speaker": "Unknown",
+  "en": "So that's good.",
+  "zh": "所以这很好。"
+ },
+ {
+  "seg": 461,
+  "start": 2742.68,
+  "end": 2750.982,
+  "speaker": "Unknown",
+  "en": "Maybe to take the next step in getting even more abstract, you recently did a keynote at iClear.",
+  "zh": "也许要迈出下一步变得更加抽象，你最近在 iClear 做了一个主题演讲。"
+ },
+ {
+  "seg": 462,
+  "start": 2752.062,
+  "end": 2757.103,
+  "speaker": "Unknown",
+  "en": "And in addition to talking about your work at CUSP and the book, you",
+  "zh": "除了谈论你在 CUSP 的工作和那本书之外，你"
+ },
+ {
+  "seg": 463,
+  "start": 2758.023,
+  "end": 2773.776,
+  "speaker": "Unknown",
+  "en": "Put forth another, you know, analogy, let's call it, or opportunity to kind of learn from the physical world, and that is in looking at waves and applying that to machine learning and stochastic systems.",
+  "zh": "提出了另一个，你知道，类比，我们可以这样称呼它，或者从物理世界中学习的机会，那就是观察波并将其应用于机器学习和随机系统。"
+ },
+ {
+  "seg": 464,
+  "start": 2774.196,
+  "end": 2775.617,
+  "speaker": "Unknown",
+  "en": "Talk a little bit about that work.",
+  "zh": "稍微谈谈那项工作。"
+ },
+ {
+  "seg": 465,
+  "start": 2776.118,
+  "end": 2786.987,
+  "speaker": "Unknown",
+  "en": "Yeah, so this is, I think, very exciting in the sense that, so the thing that, so there's two reasons why we thought we needed to think more about waves in science.",
+  "zh": "是的，所以我认为，这非常令人兴奋，从某种意义上说，所以那个东西，所以我们有两个理由认为我们需要在科学中更多地思考波。"
+ },
+ {
+  "seg": 466,
+  "start": 2788.751,
+  "end": 2800.119,
+  "speaker": "Unknown",
+  "en": "And that is because, first of all, waves are actually seen in the brain now because we've gone from single electrode measurements to maybe hundreds or thousands of electrode measurements.",
+  "zh": "这是因为，首先，波现在实际上在大脑中被观察到了，因为我们的测量已经从单电极变成了也许几百或几千个电极的测量。"
+ },
+ {
+  "seg": 467,
+  "start": 2800.8,
+  "end": 2804.463,
+  "speaker": "Unknown",
+  "en": "And of course, on a single electrode, you cannot see a moving wave, a traveling wave.",
+  "zh": "当然，在单个电极上，你无法看到移动的波，行进的波。"
+ },
+ {
+  "seg": 468,
+  "start": 2804.523,
+  "end": 2807.505,
+  "speaker": "Unknown",
+  "en": "But if you put hundreds or thousands in them, you can actually see these traveling waves.",
+  "zh": "但如果你放入几百或几千个电极，你实际上可以看到这些行进波。"
+ },
+ {
+  "seg": 469,
+  "start": 2807.525,
+  "end": 2809.767,
+  "speaker": "Unknown",
+  "en": "And people have now observed them everywhere.",
+  "zh": "人们现在到处都观察到了它们。"
+ },
+ {
+  "seg": 470,
+  "start": 2811.988,
+  "end": 2816.652,
+  "speaker": "Unknown",
+  "en": "And then the question becomes, is this functional or is it just a side effect of something?",
+  "zh": "然后问题变成了，这是具有功能的还是仅仅是什么东西的副作用？"
+ },
+ {
+  "seg": 471,
+  "start": 2817.439,
+  "end": 2818.06,
+  "speaker": "Unknown",
+  "en": "That's the first reason.",
+  "zh": "这是第一个理由。"
+ },
+ {
+  "seg": 472,
+  "start": 2818.08,
+  "end": 2829.469,
+  "speaker": "Unknown",
+  "en": "The other reason is that in neural networks, you have this phenomenon called over-smoothing, which means that you start with a piece of information and you have thousands of layers, and this information basically",
+  "zh": "另一个理由是，在神经网络中，你有这种被称为过度平滑的现象，这意味着你从一条信息开始，你有数千层，而这条信息基本上"
+ },
+ {
+  "seg": 473,
+  "start": 2830.705,
+  "end": 2833.906,
+  "speaker": "Unknown",
+  "en": "It's exponentially suppressed as you go through it.",
+  "zh": "当你穿过这些层时，它会被指数级抑制。"
+ },
+ {
+  "seg": 474,
+  "start": 2834.586,
+  "end": 2840.288,
+  "speaker": "Unknown",
+  "en": "So the input and the output of the neural network become independent of each other.",
+  "zh": "所以神经网络的输入和输出变得彼此独立。"
+ },
+ {
+  "seg": 475,
+  "start": 2840.308,
+  "end": 2847.429,
+  "speaker": "Unknown",
+  "en": "Of course, it's something that you really do not want because you want the output to say something about the input, like maybe what's the class of this particular input.",
+  "zh": "当然，这是你非常不想要的事情，因为你希望输出能说明输入的一些情况，比如也许这个特定输入的类别是什么。"
+ },
+ {
+  "seg": 476,
+  "start": 2848.15,
+  "end": 2856.932,
+  "speaker": "Unknown",
+  "en": "But it's always been a little hard to make sure that the information travels all the way from the input to the output layers through thousands of layers.",
+  "zh": "但是，要确保信息穿过数千层从输入层一直传播到输出层，一直有点困难。"
+ },
+ {
+  "seg": 477,
+  "start": 2858.057,
+  "end": 2866.561,
+  "speaker": "Unknown",
+  "en": "Use many tricks to do that, but I feel many of the tricks we have developed in deep learning is exactly to try to do that.",
+  "zh": "我们使用很多技巧来做到这一点，但我觉得我们在深度学习中开发的许多技巧正是为了试图做到这一点。"
+ },
+ {
+  "seg": 478,
+  "start": 2866.581,
+  "end": 2869.842,
+  "speaker": "Unknown",
+  "en": "And then the other application is in reasoning.",
+  "zh": "然后另一个应用是在推理中。"
+ },
+ {
+  "seg": 479,
+  "start": 2870.122,
+  "end": 2874.544,
+  "speaker": "Unknown",
+  "en": "So if you have to reason about the problem, you have to sometimes keep things in memory.",
+  "zh": "所以如果你必须推理一个问题，你有时必须把事情保存在记忆中。"
+ },
+ {
+  "seg": 480,
+  "start": 2875.384,
+  "end": 2881.107,
+  "speaker": "Unknown",
+  "en": "Of course, we kind of write it maybe to shorter memory, and then we read and write from this kind of memory.",
+  "zh": "当然，我们也许把它写到某种较短记忆中，然后我们从这种记忆中读取和写入。"
+ },
+ {
+  "seg": 481,
+  "start": 2881.227,
+  "end": 2885.068,
+  "speaker": "Unknown",
+  "en": "It's a kind of more stable piece where things don't get mixed up so fast.",
+  "zh": "这是一个更稳定的部分，东西在那里不会那么快地混在一起。"
+ },
+ {
+  "seg": 482,
+  "start": 2885.648,
+  "end": 2886.809,
+  "speaker": "Unknown",
+  "en": "So you need some kind of memory.",
+  "zh": "所以你需要某种记忆。"
+ },
+ {
+  "seg": 483,
+  "start": 2888.08,
+  "end": 2900.526,
+  "speaker": "Unknown",
+  "en": "And basically, so the question becomes, how do you communicate very deep into time or reason very deep into time?",
+  "zh": "基本上，所以问题变成了，我们要如何在时间上深入地交流或在时间上深入地推理？"
+ },
+ {
+  "seg": 484,
+  "start": 2900.726,
+  "end": 2911.692,
+  "speaker": "Unknown",
+  "en": "Or how do you communicate with things that are very far away in your brain or take information from a material that has very long range interactions?",
+  "zh": "或者我们要如何与你大脑中非常遥远的事物交流，或者从具有非常长程相互作用的材料中获取信息？"
+ },
+ {
+  "seg": 485,
+  "start": 2913.052,
+  "end": 2914.293,
+  "speaker": "Unknown",
+  "en": "And also in materials,",
+  "zh": "而且在材料中，"
+ },
+ {
+  "seg": 486,
+  "start": 2915.149,
+  "end": 2919.19,
+  "speaker": "Unknown",
+  "en": "Materials use waves for long range interaction, which are called phonons.",
+  "zh": "材料利用波进行长程相互作用，这被称为声子。"
+ },
+ {
+  "seg": 487,
+  "start": 2919.55,
+  "end": 2926.872,
+  "speaker": "Unknown",
+  "en": "Phonons are lattice vibrations, and they carry information over long distances in a material.",
+  "zh": "声子是晶格振动，它们在材料中长距离地携带信息。"
+ },
+ {
+  "seg": 488,
+  "start": 2928.012,
+  "end": 2939.615,
+  "speaker": "Unknown",
+  "en": "In fact, if you think about the universe, the only reason we can see very far and deep into the universe is because light waves hit our instruments in our eyes.",
+  "zh": "事实上，如果你思考宇宙，我们能看得非常远和深入到宇宙中的唯一原因是因为光波击中了我们要么眼睛里的仪器。"
+ },
+ {
+  "seg": 489,
+  "start": 2940.829,
+  "end": 2946.075,
+  "speaker": "Unknown",
+  "en": "And that is, again, waves that are doing the communication over these long distances.",
+  "zh": "这又是波在这些长距离上进行通信。"
+ },
+ {
+  "seg": 490,
+  "start": 2947.356,
+  "end": 2953.623,
+  "speaker": "Unknown",
+  "en": "But what's interesting is that in neural networks, we don't use this tool at all.",
+  "zh": "但有趣的是，在神经网络中，我们根本不使用这个工具。"
+ },
+ {
+  "seg": 491,
+  "start": 2953.643,
+  "end": 2956.606,
+  "speaker": "Unknown",
+  "en": "So we create maps and the maps map numbers to new numbers.",
+  "zh": "所以我们创建映射，而这些映射将数字映射到新的数字。"
+ },
+ {
+  "seg": 492,
+  "start": 2959.168,
+  "end": 2962.472,
+  "speaker": "Unknown",
+  "en": "And so the question becomes, can we actually start using this phenomenon?",
+  "zh": "所以问题变成了，我们实际上可以开始使用这种现象吗？"
+ },
+ {
+  "seg": 493,
+  "start": 2963.102,
+  "end": 2967.044,
+  "speaker": "Unknown",
+  "en": "This wave phenomenon that we see in the brain, can we also start to use it in neural networks?",
+  "zh": "我们在大脑中看到的这种波现象，我们也能开始在神经网络中使用它吗？"
+ },
+ {
+  "seg": 494,
+  "start": 2967.084,
+  "end": 2975.807,
+  "speaker": "Unknown",
+  "en": "And so this has been the work that we've been developing and especially for, so we've basically designed neural networks that naturally create these waves.",
+  "zh": "所以我们一直在开发这项工作，特别是对于，所以我们基本上设计了自然产生这些波的神经网络。"
+ },
+ {
+  "seg": 495,
+  "start": 2976.547,
+  "end": 2987.711,
+  "speaker": "Unknown",
+  "en": "It's moved this information around in what we call channels or memory channels, or you can call them capsules where this information gets sort of moved around and stays stable.",
+  "zh": "它在所谓的信道或记忆信道中移动这些信息，或者你可以称它们为胶囊，这些信息在其中被四处移动并保持稳定。"
+ },
+ {
+  "seg": 496,
+  "start": 2989.516,
+  "end": 2993.757,
+  "speaker": "Unknown",
+  "en": "And we've been very successful in, for instance, tasks that require memory.",
+  "zh": "我们在，例如，需要记忆的任务中非常成功。"
+ },
+ {
+  "seg": 497,
+  "start": 2993.797,
+  "end": 3010.323,
+  "speaker": "Unknown",
+  "en": "So a task where a neural network or an RNN, basically the task is you take a number, you hold it in memory, and then at some random other point another number arrives, you hold it in memory, and then you add them, and then another random point you're asked to produce the sum.",
+  "zh": "所以一个神经网络或 RNN 的任务，基本上这个任务是你取一个数字，你把它保存在记忆中，然后在某个随机的其他点另一个数字到达，你把它保存在记忆中，然后你把它们相加，然后在另一个随机点你被要求输出和。"
+ },
+ {
+  "seg": 498,
+  "start": 3011.043,
+  "end": 3013.004,
+  "speaker": "Unknown",
+  "en": "And that point could be very far into the future.",
+  "zh": "而那个点可能在很远的未来。"
+ },
+ {
+  "seg": 499,
+  "start": 3013.204,
+  "end": 3016.105,
+  "speaker": "Unknown",
+  "en": "So you have to do the computation and you have to hold things in memory.",
+  "zh": "所以你必须进行计算，你必须把事情保存在记忆中。"
+ },
+ {
+  "seg": 500,
+  "start": 3016.942,
+  "end": 3023.072,
+  "speaker": "Unknown",
+  "en": "And these models that naturally work with these waves, they can do these tests much, much better than RNNs.",
+  "zh": "以及这些自然地使用这些波的模型，它们在这些测试上能做得比 RNN 好得多，"
+ },
+ {
+  "seg": 501,
+  "start": 3024.378,
+  "end": 3048.405,
+  "speaker": "Unknown",
+  "en": "When I hear RNNs and long-running memory, I think about challenges like exploding gradients, and then I think about kind of the oscillatory nature of waves and that that has some inherent dampening properties that allow you to kind of access memory further into the future without these exploding gradient challenges.",
+  "zh": "当我听到 RNN 和长期记忆时，我会想到像梯度爆炸这样的挑战，然后我会想到波的某种振荡性质，以及那种性质具有某种固有的阻尼特性，使你能够在没有这些梯度爆炸挑战的情况下访问更远的未来记忆。"
+ },
+ {
+  "seg": 502,
+  "start": 3048.845,
+  "end": 3051.026,
+  "speaker": "Unknown",
+  "en": "Is that part of the mechanism at work here?",
+  "zh": "这是这里起作用机制的一部分吗？"
+ },
+ {
+  "seg": 503,
+  "start": 3051.6,
+  "end": 3052.801,
+  "speaker": "Unknown",
+  "en": "That's a very good point.",
+  "zh": "这是一个很好的观点。"
+ },
+ {
+  "seg": 504,
+  "start": 3053.441,
+  "end": 3064.406,
+  "speaker": "Unknown",
+  "en": "So if you think of this, a neural network as a dynamical system, so that's basically you think of the layers as time and you're trying to get a signal from the beginning and you're trying to propagate it through the layers over time.",
+  "zh": "所以如果你考虑这个，把神经网络作为一个动力系统，所以基本上你把层看作时间，你试图从开始获取一个信号，并且你试图随着时间的推移通过层传播它。"
+ },
+ {
+  "seg": 505,
+  "start": 3065.686,
+  "end": 3067.347,
+  "speaker": "Unknown",
+  "en": "So a couple of things can happen.",
+  "zh": "所以可能会发生几件事。"
+ },
+ {
+  "seg": 506,
+  "start": 3067.747,
+  "end": 3070.569,
+  "speaker": "Unknown",
+  "en": "There's different types of dynamical system.",
+  "zh": "有不同类型的动力系统。"
+ },
+ {
+  "seg": 507,
+  "start": 3071.209,
+  "end": 3077.572,
+  "speaker": "Unknown",
+  "en": "The first one is a stable system where basically if you take two different inputs,",
+  "zh": "第一个是一个稳定系统，基本上如果你取两个不同的输入，"
+ },
+ {
+  "seg": 508,
+  "start": 3078.344,
+  "end": 3079.565,
+  "speaker": "Unknown",
+  "en": "They map to this.",
+  "zh": "它们映射到这里。"
+ },
+ {
+  "seg": 509,
+  "start": 3079.645,
+  "end": 3081.887,
+  "speaker": "Unknown",
+  "en": "After a while, they collapse onto a same point.",
+  "zh": "一段时间后，它们塌缩到同一个点。"
+ },
+ {
+  "seg": 510,
+  "start": 3081.927,
+  "end": 3084.088,
+  "speaker": "Unknown",
+  "en": "And then from there on, that one point moves forward.",
+  "zh": "然后从那以后，那一个点向前移动。"
+ },
+ {
+  "seg": 511,
+  "start": 3084.108,
+  "end": 3089.772,
+  "speaker": "Unknown",
+  "en": "So basically, every converges onto what's called a point, table point.",
+  "zh": "所以基本上，每一个都收敛到所谓的点，table point。"
+ },
+ {
+  "seg": 512,
+  "start": 3091.133,
+  "end": 3093.495,
+  "speaker": "Unknown",
+  "en": "And then from there on, basically, that's what propagates.",
+  "zh": "然后从那以后，基本上，就是那个在传播。"
+ },
+ {
+  "seg": 513,
+  "start": 3094.036,
+  "end": 3099.78,
+  "speaker": "Unknown",
+  "en": "That's not what you want because information gets lost because everything gets mapped to a point.",
+  "zh": "这不是你想要的，因为信息丢失了，因为所有东西都被映射到一个点。"
+ },
+ {
+  "seg": 514,
+  "start": 3099.88,
+  "end": 3102.742,
+  "speaker": "Unknown",
+  "en": "Now, that's an imploding gradient, if you wish.",
+  "zh": "现在，如果你愿意的话，那是内爆梯度。"
+ },
+ {
+  "seg": 515,
+  "start": 3102.922,
+  "end": 3104.723,
+  "speaker": "Unknown",
+  "en": "That's something where the information gets lost.",
+  "zh": "那是信息丢失的地方。"
+ },
+ {
+  "seg": 516,
+  "start": 3105.804,
+  "end": 3106.785,
+  "speaker": "Unknown",
+  "en": "There's another extreme.",
+  "zh": "还有另一个极端。"
+ },
+ {
+  "seg": 517,
+  "start": 3107.572,
+  "end": 3114.995,
+  "speaker": "Unknown",
+  "en": "Where you take two input points, I say two images that are similar, and then they start to sort of wildly move around.",
+  "zh": "在那里你取两个输入点，我说两张相似的图像，然后它们开始有点疯狂地四处移动。"
+ },
+ {
+  "seg": 518,
+  "start": 3115.015,
+  "end": 3116.916,
+  "speaker": "Unknown",
+  "en": "And that's called chaos.",
+  "zh": "这被称为混沌。"
+ },
+ {
+  "seg": 519,
+  "start": 3117.216,
+  "end": 3119.257,
+  "speaker": "Unknown",
+  "en": "So it's a nonlinear system.",
+  "zh": "所以它是一个非线性系统。"
+ },
+ {
+  "seg": 520,
+  "start": 3119.737,
+  "end": 3121.337,
+  "speaker": "Unknown",
+  "en": "So this starts to wildly move around.",
+  "zh": "所以这开始疯狂地四处移动。"
+ },
+ {
+  "seg": 521,
+  "start": 3121.878,
+  "end": 3125.459,
+  "speaker": "Unknown",
+  "en": "And you also lose the information, but for a different reason.",
+  "zh": "你也会丢失信息，但出于不同的原因。"
+ },
+ {
+  "seg": 522,
+  "start": 3126.98,
+  "end": 3130.901,
+  "speaker": "Unknown",
+  "en": "The information is still there, but you cannot track it numerically.",
+  "zh": "信息仍然在那里，但你无法在数值上追踪它。"
+ },
+ {
+  "seg": 523,
+  "start": 3130.941,
+  "end": 3132.742,
+  "speaker": "Unknown",
+  "en": "Your numerical precision is too small.",
+  "zh": "你的数值精度太低。"
+ },
+ {
+  "seg": 524,
+  "start": 3133.43,
+  "end": 3137.473,
+  "speaker": "Unknown",
+  "en": "And that's actually what we mean when we say entropy is increasing.",
+  "zh": "这实际上是当我们说熵增加时的意思。"
+ },
+ {
+  "seg": 525,
+  "start": 3137.613,
+  "end": 3139.435,
+  "speaker": "Unknown",
+  "en": "It basically becomes random.",
+  "zh": "它基本上变得随机。"
+ },
+ {
+  "seg": 526,
+  "start": 3139.455,
+  "end": 3140.775,
+  "speaker": "Unknown",
+  "en": "It's a random process.",
+  "zh": "这是一个随机过程。"
+ },
+ {
+  "seg": 527,
+  "start": 3142.096,
+  "end": 3148.221,
+  "speaker": "Unknown",
+  "en": "And we all know that a Markov chain is a random process that depends on the previous step.",
+  "zh": "我们都知道马尔可夫链是一个依赖于上一步的随机过程。"
+ },
+ {
+  "seg": 528,
+  "start": 3148.401,
+  "end": 3151.764,
+  "speaker": "Unknown",
+  "en": "It will lose information about the input because we can't track it.",
+  "zh": "它会丢失关于输入的信息，因为我们无法追踪它。"
+ },
+ {
+  "seg": 529,
+  "start": 3152.104,
+  "end": 3153.325,
+  "speaker": "Unknown",
+  "en": "That's also not what you want.",
+  "zh": "这也不是你想要的。"
+ },
+ {
+  "seg": 530,
+  "start": 3154.265,
+  "end": 3162.972,
+  "speaker": "Unknown",
+  "en": "So what you really want is sitting somewhere in the middle, somewhere that's not too stable and not too unstable, and that's called edge of chaos.",
+  "zh": "所以你真正想要的是处于中间某处，某个不太稳定也不太不稳定的地方，这被称为混沌边缘。"
+ },
+ {
+  "seg": 531,
+  "start": 3164.262,
+  "end": 3172.046,
+  "speaker": "Unknown",
+  "en": "And people have found that, in fact, neural networks that perform best operate at this edge of chaos.",
+  "zh": "人们已经发现，事实上表现最好的神经网络在这个混沌边缘运行。"
+ },
+ {
+  "seg": 532,
+  "start": 3172.186,
+  "end": 3176.728,
+  "speaker": "Unknown",
+  "en": "And people have also found that, unsurprisingly, the brain operates at the edge of chaos.",
+  "zh": "人们还发现，毫不奇怪，大脑也在混沌边缘运行。"
+ },
+ {
+  "seg": 533,
+  "start": 3178.088,
+  "end": 3193.235,
+  "speaker": "Unknown",
+  "en": "And we found that if you include these waves in your neural network, you very naturally operate in this regime edge of chaos, and you don't have to fine-tune the system to be there.",
+  "zh": "我们发现如果你在你的神经网络中包含这些波，你会很自然地在这个混沌边缘机制下运行，而且你不必微调系统来让它处于那里。"
+ },
+ {
+  "seg": 534,
+  "start": 3194.437,
+  "end": 3198.198,
+  "speaker": "Unknown",
+  "en": "It's very easy to get to this edge of chaos regime.",
+  "zh": "很容易达到这个混沌边缘机制。"
+ },
+ {
+  "seg": 535,
+  "start": 3199.719,
+  "end": 3203.22,
+  "speaker": "Unknown",
+  "en": "And then maybe if we have time, we can talk about how we do this.",
+  "zh": "然后也许如果我们有时间，我们可以谈谈我们是如何做到这一点的。"
+ },
+ {
+  "seg": 536,
+  "start": 3203.24,
+  "end": 3205.681,
+  "speaker": "Unknown",
+  "en": "And this is done by spontaneous symmetry breaking.",
+  "zh": "这是通过自发对称破缺来完成的。"
+ },
+ {
+  "seg": 537,
+  "start": 3205.701,
+  "end": 3208.882,
+  "speaker": "Unknown",
+  "en": "But that's a rather technical discussion, I think.",
+  "zh": "但我认为那是相当技术性的讨论。"
+ },
+ {
+  "seg": 538,
+  "start": 3209.794,
+  "end": 3211.896,
+  "speaker": "Unknown",
+  "en": "And so what is spontaneous symmetry breaking?",
+  "zh": "那么什么是自发对称破缺？"
+ },
+ {
+  "seg": 539,
+  "start": 3212.396,
+  "end": 3215.959,
+  "speaker": "Unknown",
+  "en": "Okay, this is a very interesting phenomenon in physics.",
+  "zh": "好的，这是物理学中一个非常有趣的现象。"
+ },
+ {
+  "seg": 540,
+  "start": 3215.999,
+  "end": 3225.467,
+  "speaker": "Unknown",
+  "en": "So here's another example of something quite deep from physics that we can start to use to understand neural networks, which is one of your previous questions.",
+  "zh": "所以这是我们可以开始用来理解神经网络的物理学中相当深奥的东西的另一个例子，这也是你之前的问题之一。"
+ },
+ {
+  "seg": 541,
+  "start": 3226.368,
+  "end": 3237.717,
+  "speaker": "Unknown",
+  "en": "And so spontaneous symmetry breaking is where a system that has a particular symmetry, let's say perfect translation symmetry, so think of a gas as perfect translation symmetry.",
+  "zh": "所以自发对称破缺是指一个具有特定对称性的系统，比如说完美平移对称性，所以把气体想象为完美平移对称性。"
+ },
+ {
+  "seg": 542,
+  "start": 3238.74,
+  "end": 3239.921,
+  "speaker": "Unknown",
+  "en": "Or a liquid, better.",
+  "zh": "或者是液体，更好。"
+ },
+ {
+  "seg": 543,
+  "start": 3240.601,
+  "end": 3249.486,
+  "speaker": "Unknown",
+  "en": "And then the liquid at lower temperature, the liquid will then actually condensate into, let's say, a solid.",
+  "zh": "然后液体在较低温度下，液体实际上会凝结成，比如说，固体。"
+ },
+ {
+  "seg": 544,
+  "start": 3250.127,
+  "end": 3254.189,
+  "speaker": "Unknown",
+  "en": "You can go from water to ice, right?",
+  "zh": "你可以从水变成冰，对吧？"
+ },
+ {
+  "seg": 545,
+  "start": 3255.07,
+  "end": 3263.855,
+  "speaker": "Unknown",
+  "en": "And if you look at ice, you know, it has a crystal structure, so it has less symmetry now because it's now the continuous translation group.",
+  "zh": "如果你观察冰，你知道它具有晶体结构，所以它现在的对称性更少，因为它现在是连续平移群。"
+ },
+ {
+  "seg": 546,
+  "start": 3264.652,
+  "end": 3269.916,
+  "speaker": "Unknown",
+  "en": "It has now been turned into a discrete translation group where you can only translate over the lattice spacing.",
+  "zh": "它现在已被转变为一个离散平移群，在那里你只能平移晶格间距。"
+ },
+ {
+  "seg": 547,
+  "start": 3271.277,
+  "end": 3274.22,
+  "speaker": "Unknown",
+  "en": "And so you've actually broken the symmetry into something smaller.",
+  "zh": "所以你实际上把对称性破缺成了更小的东西。"
+ },
+ {
+  "seg": 548,
+  "start": 3275.501,
+  "end": 3292.235,
+  "speaker": "Unknown",
+  "en": "And there is a very deep theory from physics that says when that happens, when a continuous symmetry breaks into a discrete symmetry or breaks into a smaller symmetry, then you'll have new wave-like modes, which",
+  "zh": "物理学中有一个非常深奥的理论说当这种情况发生时，当连续对称性破缺成离散对称性或破缺成更小的对称性时，那么你将拥有新的类似波的模式，这"
+ },
+ {
+  "seg": 549,
+  "start": 3293.25,
+  "end": 3294.051,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 550,
+  "start": 3316.675,
+  "end": 3321.079,
+  "speaker": "Unknown",
+  "en": "And so we thought that's a really good candidate for these traveling waves.",
+  "zh": "所以我们认为这是这些行波的一个非常好的候选。"
+ },
+ {
+  "seg": 551,
+  "start": 3321.099,
+  "end": 3324.281,
+  "speaker": "Unknown",
+  "en": "And so what we did is we created the neural network with the large symmetry.",
+  "zh": "所以我们做的是我们创建了一个具有大对称性的神经网络。"
+ },
+ {
+  "seg": 552,
+  "start": 3324.301,
+  "end": 3325.362,
+  "speaker": "Unknown",
+  "en": "We just bake it in.",
+  "zh": "我们只是把它内置进去。"
+ },
+ {
+  "seg": 553,
+  "start": 3325.662,
+  "end": 3330.566,
+  "speaker": "Unknown",
+  "en": "It's not like rotation or translation that we typically use.",
+  "zh": "它不像我们通常使用的旋转或平移。"
+ },
+ {
+  "seg": 554,
+  "start": 3331.587,
+  "end": 3336.211,
+  "speaker": "Unknown",
+  "en": "We just give every neuron some extra dimensions, and we say there is some symmetry.",
+  "zh": "我们只是给每个神经元一些额外的维度，并且我们说存在某种对称性。"
+ },
+ {
+  "seg": 555,
+  "start": 3338.252,
+  "end": 3339.213,
+  "speaker": "Unknown",
+  "en": "And then we do something.",
+  "zh": "然后我们做了一些事情。"
+ },
+ {
+  "seg": 556,
+  "start": 3340.994,
+  "end": 3345.338,
+  "speaker": "Unknown",
+  "en": "We generate random weights, which generates random activations.",
+  "zh": "我们生成随机权重，这会产生随机激活。"
+ },
+ {
+  "seg": 557,
+  "start": 3346.224,
+  "end": 3355.927,
+  "speaker": "Unknown",
+  "en": "And if you make the weights large enough, the distribution from which you sample the weights large enough, the original symmetry gets broken.",
+  "zh": "如果你把权重弄得足够大，你从中采样权重的分布也足够大，原始的对称性就会被破坏。"
+ },
+ {
+  "seg": 558,
+  "start": 3356.487,
+  "end": 3359.128,
+  "speaker": "Unknown",
+  "en": "And that's complex to explain, but the symmetry gets broken.",
+  "zh": "这解释起来很复杂，但对称性被破坏了。"
+ },
+ {
+  "seg": 559,
+  "start": 3360.028,
+  "end": 3368.231,
+  "speaker": "Unknown",
+  "en": "And now you're in this broken symmetry phase where you have these Goldstone modes or these waves which can travel without using any energy.",
+  "zh": "现在你处于这个对称性破缺阶段，在这里你有这些戈德斯通模或这些可以在不使用任何能量的情况下传播的波。"
+ },
+ {
+  "seg": 560,
+  "start": 3368.711,
+  "end": 3369.191,
+  "speaker": "Unknown",
+  "en": "And they do.",
+  "zh": "它们确实如此。"
+ },
+ {
+  "seg": 561,
+  "start": 3369.611,
+  "end": 3371.252,
+  "speaker": "Unknown",
+  "en": "So you find them when you create that.",
+  "zh": "所以当你创造那个时，你会找到它们。"
+ },
+ {
+  "seg": 562,
+  "start": 3371.412,
+  "end": 3375.893,
+  "speaker": "Unknown",
+  "en": "You get these waves where you can just see things oscillate around very naturally.",
+  "zh": "你会得到这些波，你可以看到事物非常自然地在其周围振荡。"
+ },
+ {
+  "seg": 563,
+  "start": 3376.88,
+  "end": 3384.662,
+  "speaker": "Unknown",
+  "en": "And then the idea is you can now train the neural network to make use of these oscillations, which are basically for free.",
+  "zh": "然后思路是，你现在可以训练神经网络来利用这些振荡，这些基本上是免费的。"
+ },
+ {
+  "seg": 564,
+  "start": 3384.702,
+  "end": 3386.922,
+  "speaker": "Unknown",
+  "en": "They're running there without costing any energy.",
+  "zh": "它们在那里运行，不消耗任何能量。"
+ },
+ {
+  "seg": 565,
+  "start": 3387.242,
+  "end": 3388.123,
+  "speaker": "Unknown",
+  "en": "And they're very stable.",
+  "zh": "而且它们非常稳定。"
+ },
+ {
+  "seg": 566,
+  "start": 3388.143,
+  "end": 3391.984,
+  "speaker": "Unknown",
+  "en": "So they oscillate all the way from the beginning of the neural network to the end of the neural network.",
+  "zh": "所以它们从神经网络的开头一直振荡到神经网络的末尾。"
+ },
+ {
+  "seg": 567,
+  "start": 3393.024,
+  "end": 3398.645,
+  "speaker": "Unknown",
+  "en": "And you can now design the system so that it has these waves and it has this edge of chaos behavior.",
+  "zh": "你现在可以设计系统，使其具有这些波，并且具有这种混沌边缘行为。"
+ },
+ {
+  "seg": 568,
+  "start": 3398.665,
+  "end": 3405.847,
+  "speaker": "Unknown",
+  "en": "So information from the beginning, the input of the neural network propagates all the way to the output of the neural network.",
+  "zh": "所以来自开头的信息，神经网络的输入，一直传播到神经网络的输出。"
+ },
+ {
+  "seg": 569,
+  "start": 3406.454,
+  "end": 3413.138,
+  "speaker": "Unknown",
+  "en": "Through these wave-like patterns that are created by this phenomenon called spontaneous symmetry breaking.",
+  "zh": "通过由这种称为自发对称性破缺的现象所产生的这些类波模式。"
+ },
+ {
+  "seg": 570,
+  "start": 3413.778,
+  "end": 3419.021,
+  "speaker": "Unknown",
+  "en": "And so here we use something, a deep result from physics as a design principle for neural networks.",
+  "zh": "所以在这里我们使用某种东西，物理学的一个深层结果，作为神经网络的设计原理。"
+ },
+ {
+  "seg": 571,
+  "start": 3419.741,
+  "end": 3430.367,
+  "speaker": "Unknown",
+  "en": "Well, I love that you're getting to play with all of these tools from physics and bringing them into machine learning and trying to find the correlations and ways that we can take advantage of them.",
+  "zh": "嗯，我很喜欢你能把玩所有这些来自物理学的工具，并把它们带入机器学习，试图找到我们可以利用它们的相关性和方法。"
+ },
+ {
+  "seg": 572,
+  "start": 3430.958,
+  "end": 3432.539,
+  "speaker": "Unknown",
+  "en": "There's many more to come, I think.",
+  "zh": "我认为还有更多即将到来。"
+ },
+ {
+  "seg": 573,
+  "start": 3432.599,
+  "end": 3437.944,
+  "speaker": "Unknown",
+  "en": "There's a very rich field of mathematics and physics that can all be leveraged by machine learning.",
+  "zh": "有一个非常丰富的数学和物理领域，都可以被机器学习利用。"
+ },
+ {
+  "seg": 574,
+  "start": 3438.424,
+  "end": 3442.287,
+  "speaker": "Unknown",
+  "en": "But it's beautiful because the cross-fertilization goes in two directions, right?",
+  "zh": "但这很美妙，因为这种交叉授粉是双向的，对吧？"
+ },
+ {
+  "seg": 575,
+  "start": 3442.307,
+  "end": 3457.08,
+  "speaker": "Unknown",
+  "en": "Because with our COSP platform, we are using AI tools to help the scientists discover new materials and accelerate their simulation tools by using AI.",
+  "zh": "因为通过我们的 COSP 平台，我们正在使用 AI 工具来帮助科学家发现新材料，并通过使用 AI 加速他们的仿真工具。"
+ },
+ {
+  "seg": 576,
+  "start": 3458.157,
+  "end": 3464.442,
+  "speaker": "Unknown",
+  "en": "And so it's really a healthy cross-fertilization between these two communities, which I find very exciting.",
+  "zh": "所以这两个社区之间确实是一种健康的交叉授粉，我觉得这非常令人兴奋。"
+ },
+ {
+  "seg": 577,
+  "start": 3464.963,
+  "end": 3467.285,
+  "speaker": "Unknown",
+  "en": "Well, Max, it's been great catching up with you.",
+  "zh": "嗯，Max，和你叙旧很棒。"
+ },
+ {
+  "seg": 578,
+  "start": 3468.025,
+  "end": 3469.286,
+  "speaker": "Unknown",
+  "en": "You have a lot going on.",
+  "zh": "你有很多事情在进行。"
+ },
+ {
+  "seg": 579,
+  "start": 3469.306,
+  "end": 3471.288,
+  "speaker": "Unknown",
+  "en": "You're working on a lot of different angles.",
+  "zh": "你正在致力于很多不同的角度。"
+ },
+ {
+  "seg": 580,
+  "start": 3471.728,
+  "end": 3474.971,
+  "speaker": "Unknown",
+  "en": "It's been enjoyable to learn about them.",
+  "zh": "了解它们是一件很愉快的事。"
+ },
+ {
+  "seg": 581,
+  "start": 3475.191,
+  "end": 3477.093,
+  "speaker": "Unknown",
+  "en": "Looking forward to keeping in touch.",
+  "zh": "期待保持联系。"
+ },
+ {
+  "seg": 582,
+  "start": 3477.693,
+  "end": 3478.354,
+  "speaker": "Unknown",
+  "en": "Well, thank you, Sam.",
+  "zh": "嗯，谢谢你，Sam。"
+ },
+ {
+  "seg": 583,
+  "start": 3478.374,
+  "end": 3480.976,
+  "speaker": "Unknown",
+  "en": "It was a pleasure again to talk to you.",
+  "zh": "再次和你谈话是我的荣幸。"
+ },
+ {
+  "seg": 584,
+  "start": 3480.996,
+  "end": 3481.316,
+  "speaker": "Unknown",
+  "en": "Thanks so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 585,
+  "start": 3481.336,
+  "end": 3481.957,
+  "speaker": "Unknown",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ },
+ {
+  "seg": 586,
+  "start": 3482.577,
+  "end": 3483.578,
+  "speaker": "Unknown",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

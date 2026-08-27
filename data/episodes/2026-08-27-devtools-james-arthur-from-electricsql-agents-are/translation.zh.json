@@ -1,0 +1,962 @@
+[
+ {
+  "seg": 0,
+  "start": 0.071,
+  "end": 0.551,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 0.732,
+  "end": 1.972,
+  "speaker": "Unknown",
+  "en": "You're listening to Scanning Dev Souls.",
+  "zh": "你正在收听 Scanning Dev Souls。"
+ },
+ {
+  "seg": 2,
+  "start": 2.093,
+  "end": 4.434,
+  "speaker": "Unknown",
+  "en": "I'm joined today by James from Electric.",
+  "zh": "今天我的嘉宾是来自 Electric 的 James。"
+ },
+ {
+  "seg": 3,
+  "start": 5.255,
+  "end": 5.855,
+  "speaker": "Unknown",
+  "en": "Welcome, James.",
+  "zh": "欢迎，James。"
+ },
+ {
+  "seg": 4,
+  "start": 6.156,
+  "end": 6.836,
+  "speaker": "Unknown",
+  "en": "Thank you for having me.",
+  "zh": "谢谢你邀请我。"
+ },
+ {
+  "seg": 5,
+  "start": 7.136,
+  "end": 14.983,
+  "speaker": "Unknown",
+  "en": "And we're at HeavyBits Dev Guild, which we have branded with socks, if you're looking at that.",
+  "zh": "我们现在在 HeavyBits Dev Guild，如果你在看的话，我们用袜子给它做了品牌推广。"
+ },
+ {
+  "seg": 6,
+  "start": 16.784,
+  "end": 22.826,
+  "speaker": "Unknown",
+  "en": "Could you tell us a bit about Electric and also what you've been kind of excited about at the moment?",
+  "zh": "你能告诉我们一些关于 Electric 的情况，以及你最近有点兴奋的事情是什么吗？"
+ },
+ {
+  "seg": 7,
+  "start": 23.327,
+  "end": 24.127,
+  "speaker": "Unknown",
+  "en": "Yeah, sure.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 8,
+  "start": 24.147,
+  "end": 28.609,
+  "speaker": "Unknown",
+  "en": "So many people may know Electric as kind of sync tech.",
+  "zh": "很多人可能把 Electric 视为一种同步技术。"
+ },
+ {
+  "seg": 9,
+  "start": 29.329,
+  "end": 31.41,
+  "speaker": "Unknown",
+  "en": "We were building like a Postgres sync engine.",
+  "zh": "我们正在构建像 Postgres 同步引擎这样的东西。"
+ },
+ {
+  "seg": 10,
+  "start": 32.291,
+  "end": 36.773,
+  "speaker": "Unknown",
+  "en": "And then more recently, we've generalized our sync tech into data primitives for agents.",
+  "zh": "然后在最近，我们将我们的同步技术概括为智能体的数据原语。"
+ },
+ {
+  "seg": 11,
+  "start": 37.193,
+  "end": 39.174,
+  "speaker": "Unknown",
+  "en": "We have this durable streams protocol.",
+  "zh": "我们有这个持久化流协议。"
+ },
+ {
+  "seg": 12,
+  "start": 40.194,
+  "end": 47.117,
+  "speaker": "Unknown",
+  "en": "That's very good, primitive for storing agent session data and making like collaborative multi-agent systems on.",
+  "zh": "这是一个非常好的原语，用于存储智能体会话数据并在其上构建协作式多智能体系统。"
+ },
+ {
+  "seg": 13,
+  "start": 47.717,
+  "end": 50.439,
+  "speaker": "Unknown",
+  "en": "But most recently we've now shipped electric agents.",
+  "zh": "但最近我们已经发布了 Electric Agents。"
+ },
+ {
+  "seg": 14,
+  "start": 50.899,
+  "end": 54.24,
+  "speaker": "Unknown",
+  "en": "So this is a runtime for collaborative multi-agent systems.",
+  "zh": "所以这是用于协作式多智能体系统的运行时。"
+ },
+ {
+  "seg": 15,
+  "start": 55.04,
+  "end": 58.302,
+  "speaker": "Unknown",
+  "en": "And it's quite a interesting approach to running agents because...",
+  "zh": "这是一种非常有趣的运行智能体的方法，因为……"
+ },
+ {
+  "seg": 16,
+  "start": 59.082,
+  "end": 61.263,
+  "speaker": "Unknown",
+  "en": "It models agents as data.",
+  "zh": "它将智能体建模为数据。"
+ },
+ {
+  "seg": 17,
+  "start": 61.524,
+  "end": 64.265,
+  "speaker": "Unknown",
+  "en": "So our thesis is that agents are not compute.",
+  "zh": "所以我们的论点是智能体不是计算。"
+ },
+ {
+  "seg": 18,
+  "start": 64.505,
+  "end": 68.888,
+  "speaker": "Unknown",
+  "en": "So a lot of what people are deploying today around agents, you sort of think like harness in a sandbox.",
+  "zh": "所以今天人们围绕智能体部署的很多东西，你有点像是在沙箱里的线束。"
+ },
+ {
+  "seg": 19,
+  "start": 69.288,
+  "end": 70.849,
+  "speaker": "Unknown",
+  "en": "You think sandbox for isolation.",
+  "zh": "你认为沙箱是为了隔离。"
+ },
+ {
+  "seg": 20,
+  "start": 71.21,
+  "end": 72.09,
+  "speaker": "Unknown",
+  "en": "We don't think about that.",
+  "zh": "我们不那样想。"
+ },
+ {
+  "seg": 21,
+  "start": 72.13,
+  "end": 74.872,
+  "speaker": "Unknown",
+  "en": "We think of agents as logs in the data layer.",
+  "zh": "我们认为智能体是数据层中的日志。"
+ },
+ {
+  "seg": 22,
+  "start": 75.232,
+  "end": 78.254,
+  "speaker": "Unknown",
+  "en": "We think of multi-agent systems as a distributed data problem.",
+  "zh": "我们认为多智能体系统是一个分布式数据问题。"
+ },
+ {
+  "seg": 23,
+  "start": 78.414,
+  "end": 79.875,
+  "speaker": "Unknown",
+  "en": "We think they should be modeled on sync.",
+  "zh": "我们认为它们应该基于同步来建模。"
+ },
+ {
+  "seg": 24,
+  "start": 80.335,
+  "end": 85.157,
+  "speaker": "Unknown",
+  "en": "And also we look at agents as more like long-lived logical entities.",
+  "zh": "此外，我们将智能体视为更像长期存在的逻辑实体。"
+ },
+ {
+  "seg": 25,
+  "start": 85.537,
+  "end": 91.059,
+  "speaker": "Unknown",
+  "en": "So it's serverless agents, agents as functions, agents that scale to zero, scale to trillions.",
+  "zh": "所以这是无服务器智能体，作为函数的智能体，可以缩放至零、缩放至万亿的智能体。"
+ },
+ {
+  "seg": 26,
+  "start": 91.699,
+  "end": 95.961,
+  "speaker": "Unknown",
+  "en": "And so that's what we've recently shipped with Electric Agents, which is out there.",
+  "zh": "这就是我们最近发布的 Electric Agents，它已经发布了。"
+ },
+ {
+  "seg": 27,
+  "start": 95.981,
+  "end": 97.141,
+  "speaker": "Unknown",
+  "en": "You can check it out today.",
+  "zh": "你今天就可以去看看。"
+ },
+ {
+  "seg": 28,
+  "start": 97.661,
+  "end": 99.322,
+  "speaker": "Unknown",
+  "en": "MPX Quickstart on the front of the website.",
+  "zh": "网站前面有 MPX Quickstart。"
+ },
+ {
+  "seg": 29,
+  "start": 99.382,
+  "end": 100.542,
+  "speaker": "Unknown",
+  "en": "It's all just open source tech.",
+  "zh": "这都只是开源技术。"
+ },
+ {
+  "seg": 30,
+  "start": 101.183,
+  "end": 107.445,
+  "speaker": "Unknown",
+  "en": "And it's this new kind of runtime layer for this new model of like serverless kind of logical agents in the data layer.",
+  "zh": "这是针对这种新的无服务器逻辑智能体在数据层中的新模型的新运行时层。"
+ },
+ {
+  "seg": 31,
+  "start": 108.005,
+  "end": 121.53,
+  "speaker": "Unknown",
+  "en": "Okay and then what is that stuff that's changing or like changes because of agents that you're kind of seeing a future that why this is important?",
+  "zh": "好的，那么因为智能体而改变或变化的东西是什么，也就是你看到的那种为什么这很重要的未来？"
+ },
+ {
+  "seg": 32,
+  "start": 122.091,
+  "end": 127.413,
+  "speaker": "Unknown",
+  "en": "Yeah I mean I think there's just the obvious kind of there's only really one gaming town in the world right which is",
+  "zh": "是的，我的意思是我认为这很明显，世界上实际上只有一个游戏城，那就是"
+ },
+ {
+  "seg": 33,
+  "start": 128.333,
+  "end": 135.916,
+  "speaker": "Unknown",
+  "en": "You have these magic new LLMs, and then you sort of put them in a loop as agents, and we've seen the impact on, say, software development.",
+  "zh": "你有了这些神奇的新 LLM，然后你把它们作为智能体放入一个循环中，我们已经看到了它的影响，比如说，在软件开发上。"
+ },
+ {
+  "seg": 34,
+  "start": 137.737,
+  "end": 140.498,
+  "speaker": "Unknown",
+  "en": "But how does that then cascade through the rest of the economy?",
+  "zh": "但这随后会如何影响经济的其余部分？"
+ },
+ {
+  "seg": 35,
+  "start": 140.799,
+  "end": 146.581,
+  "speaker": "Unknown",
+  "en": "And so it's sort of, you see it in things like, for instance, Anthropic's Managed Agents or Cloudflare's Project Think.",
+  "zh": "所以有点像，你在类似的东西中看到它，例如 Anthropic 的 Managed Agents 或 Cloudflare 的 Project Think。"
+ },
+ {
+  "seg": 36,
+  "start": 147.061,
+  "end": 157.566,
+  "speaker": "Unknown",
+  "en": "You're going from this sort of agent as like a foreground harness that you talk to on a local computer to agents that are deployed online and then also sort of wired in online.",
+  "zh": "你正在从这种作为一种前景线束的智能体——你在本地计算机上与之对话——转变为部署在线上的智能体，然后也在线上连接。"
+ },
+ {
+  "seg": 37,
+  "start": 158.046,
+  "end": 164.491,
+  "speaker": "Unknown",
+  "en": "And so our focus at Electric, we've always been like kind of data infrastructure for building collaborative multi-user software.",
+  "zh": "所以我们在 Electric 的重点，我们一直有点像是为构建协作式多用户软件而设的数据基础设施。"
+ },
+ {
+  "seg": 38,
+  "start": 165.011,
+  "end": 168.754,
+  "speaker": "Unknown",
+  "en": "And now what that means is sort of multi-user, multi-agent systems.",
+  "zh": "现在这意味着某种多用户、多智能体系统。"
+ },
+ {
+  "seg": 39,
+  "start": 169.255,
+  "end": 178.321,
+  "speaker": "Unknown",
+  "en": "So we're particularly focused on this thing like where you sort of bring agents online and suddenly you've got like lots of agents and agents and people are all part of kind of how you get work done.",
+  "zh": "所以我们特别关注像这样的东西，你把智能体带到线上，突然你有了很多智能体，智能体和人都成为了你如何完成工作的一部分。"
+ },
+ {
+  "seg": 40,
+  "start": 178.922,
+  "end": 184.186,
+  "speaker": "Unknown",
+  "en": "How do you do the communication, coordination, data wiring for those types of systems?",
+  "zh": "你如何为这些类型的系统进行通信、协调和数据布线？"
+ },
+ {
+  "seg": 41,
+  "start": 184.266,
+  "end": 185.647,
+  "speaker": "Unknown",
+  "en": "But is this just, you know,",
+  "zh": "但这只是，你知道，"
+ },
+ {
+  "seg": 42,
+  "start": 186.187,
+  "end": 201.474,
+  "speaker": "Unknown",
+  "en": "The big shift which is the whole main shift in the agent economy is like agents have the potential to automate work that can be more efficient how do you actually switch your company from running on people to running on a hybrid of people and agents like what's the infrastructure for that?",
+  "zh": "最大的转变，也就是智能体经济中整个主要的转变，就像智能体有潜力自动化工作，这可以更有效率，你实际上如何将你的公司从运行在人身上转变为运行在人+智能体的混合体上，那其中的基础设施是什么？"
+ },
+ {
+  "seg": 43,
+  "start": 203.255,
+  "end": 210.618,
+  "speaker": "Unknown",
+  "en": "And do you think there's any things that you're seeing that not many others have like you've noticed that like maybe other people aren't seeing as clearly?",
+  "zh": "你认为你看到的东西里有没有什么不是很多其他人也有的，就像你注意到了一些可能其他人看得不那么清楚的东西？"
+ },
+ {
+  "seg": 44,
+  "start": 211.349,
+  "end": 231.026,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think, I wouldn't say we're like the only ones to see a lot of the stuff that we see, but I think there is a big difference between a lot of the people who are actually working at the front of market with managed agents, online agents, multi-agent systems, and sort of most people's perception of agent infrastructure.",
+  "zh": "是的，我的意思是，我想，我不会说我们是唯一看到我们看到很多东西的人，但我认为很多实际上在市场前沿工作的人，那些使用托管智能体、在线智能体、多智能体系统的人，与大多数人对智能体基础设施的认知之间存在很大差异。"
+ },
+ {
+  "seg": 45,
+  "start": 231.727,
+  "end": 240.774,
+  "speaker": "Unknown",
+  "en": "So most people, if you think, right, okay, I need to run an agent online, you take a harness, which kind of is the agent, like a kind of Claude code or an open code.",
+  "zh": "所以大多数人，如果你想，好吧，我需要在线上运行一个智能体，你会拿一个线束，它有点像是智能体，就像 Claude code 或 open code 那种。"
+ },
+ {
+  "seg": 46,
+  "start": 241.454,
+  "end": 246.578,
+  "speaker": "Unknown",
+  "en": "And the thing about those is like, if you run it locally, you have like dangerously allowable permissions.",
+  "zh": "关键是那些东西就像，如果你在本地运行它，你有危险的允许权限。"
+ },
+ {
+  "seg": 47,
+  "start": 247.419,
+  "end": 252.423,
+  "speaker": "Unknown",
+  "en": "And the whole thing of these kind of agent harnesses was going, oh my God, LLMs are really good at using the computer.",
+  "zh": "这些智能体线束的整个事情是，天哪，LLM 真的很擅长使用计算机。"
+ },
+ {
+  "seg": 48,
+  "start": 253.023,
+  "end": 255.884,
+  "speaker": "Unknown",
+  "en": "So let's kind of just let them sort of run on a computer.",
+  "zh": "所以让我们就让它们在计算机上运行。"
+ },
+ {
+  "seg": 49,
+  "start": 256.225,
+  "end": 260.807,
+  "speaker": "Unknown",
+  "en": "And so they need a file system and they do bash and grep and these types of tool calls.",
+  "zh": "所以它们需要文件系统，它们做 bash 和 grep 以及这些类型的工具调用。"
+ },
+ {
+  "seg": 50,
+  "start": 261.267,
+  "end": 269.731,
+  "speaker": "Unknown",
+  "en": "And so that's why when you think of how do I bring an agent online, you kind of take that harness and you put it into like a Docker container or a sandbox or a VM of some sort.",
+  "zh": "所以这就是为什么当你考虑如何把一个智能体上线时，你会把那个套件放到一个 Docker 容器或者沙箱或某种虚拟机里。"
+ },
+ {
+  "seg": 51,
+  "start": 270.231,
+  "end": 299.558,
+  "speaker": "Unknown",
+  "en": "because you think you need to give the agent a computer yeah uh and we see that as more of an anti-pattern there's kind of there's sort of two main reasons one is that if you then have that model where the agent like like if i use claude on my local computer where are my agent sessions if i tell claude to do some research spawning sub-agents where are the session logs from the sub-agents and the answer is actually there's like json lines files in a hidden folder on my computer",
+  "zh": "因为你认为你需要给智能体一台电脑，是啊，呃，我们认为这更像是一种反模式，这主要有两个原因，一个是如果你有那个模型，智能体就像……就像如果我在我的本地电脑上使用 Claude，我的智能体会话在哪里？如果我告诉 Claude 做一些研究，生成子智能体，那些子智能体的会话日志在哪里？答案实际上是我电脑上一个隐藏文件夹里的 JSON Lines 文件。"
+ },
+ {
+  "seg": 52,
+  "start": 300.378,
+  "end": 306.9,
+  "speaker": "Unknown",
+  "en": "And if you think of that from the perspective of like a business that might need to go, well, hang on, why did you create that artifact?",
+  "zh": "如果你从一个企业的角度考虑这个问题，企业可能需要说，好吧，等等，你为什么要创建那个产物？"
+ },
+ {
+  "seg": 53,
+  "start": 306.92,
+  "end": 308.1,
+  "speaker": "Unknown",
+  "en": "Where are the decision traces?",
+  "zh": "决策跟踪在哪里？"
+ },
+ {
+  "seg": 54,
+  "start": 308.14,
+  "end": 309.08,
+  "speaker": "Unknown",
+  "en": "Well, they're just buried.",
+  "zh": "嗯，它们只是被埋没了。"
+ },
+ {
+  "seg": 55,
+  "start": 309.64,
+  "end": 316.782,
+  "speaker": "Unknown",
+  "en": "And if you then port that just into like a harness running in a sandbox online, it's equally buried because what are you going to do?",
+  "zh": "如果你只是把它移植到一个在线沙箱中运行的套件里，它同样被埋没了，因为你要做什么？"
+ },
+ {
+  "seg": 56,
+  "start": 316.862,
+  "end": 318.102,
+  "speaker": "Unknown",
+  "en": "SSH into the sandbox?",
+  "zh": "SSH 进那个沙箱吗？"
+ },
+ {
+  "seg": 57,
+  "start": 318.502,
+  "end": 325.364,
+  "speaker": "Unknown",
+  "en": "You've got to find a way of kind of actually like wiring up the stuff that the agent is doing into systems that you can actually query and see.",
+  "zh": "你必须找到一种方法，把智能体正在做的事情真正连接到你可以实际查询和看到的系统中。"
+ },
+ {
+  "seg": 58,
+  "start": 326.004,
+  "end": 327.706,
+  "speaker": "Unknown",
+  "en": "So sort of standard web infrastructure.",
+  "zh": "所以是标准的 Web 基础设施。"
+ },
+ {
+  "seg": 59,
+  "start": 327.746,
+  "end": 332.771,
+  "speaker": "Unknown",
+  "en": "We've all been on this thing of like 20 years of moving organizations to the cloud.",
+  "zh": "我们都经历了这 20 年将组织迁移到云端的过程。"
+ },
+ {
+  "seg": 60,
+  "start": 333.131,
+  "end": 340.038,
+  "speaker": "Unknown",
+  "en": "And so web stuff is all very naturally like wired in with like instrumentation and Prometheus and Datadog and Clearhouse and whatnot.",
+  "zh": "所以 Web 东西都很自然地与检测以及 Prometheus、Datadog 和 Clearhouse 之类的东西连接在一起。"
+ },
+ {
+  "seg": 61,
+  "start": 340.618,
+  "end": 345.002,
+  "speaker": "Unknown",
+  "en": "But kind of agents are sort of weirdly being deployed as these like sort of black box containers.",
+  "zh": "但是智能体有点奇怪地被部署为这些黑盒容器。"
+ },
+ {
+  "seg": 62,
+  "start": 345.623,
+  "end": 351.787,
+  "speaker": "Unknown",
+  "en": "So one thing is the kind of fragmentation, but then the other thing is more just that it models agents as compute.",
+  "zh": "一个是碎片化问题，但另一点更多的是它把智能体建模为计算。"
+ },
+ {
+  "seg": 63,
+  "start": 352.788,
+  "end": 357.47,
+  "speaker": "Unknown",
+  "en": "And so the key thing about agents that we see is that agents are not compute, they are data.",
+  "zh": "所以关于智能体，我们要看到的关键点是智能体不是计算，它们是数据。"
+ },
+ {
+  "seg": 64,
+  "start": 358.211,
+  "end": 360.272,
+  "speaker": "Unknown",
+  "en": "So like, what is an agent?",
+  "zh": "那么，什么是智能体？"
+ },
+ {
+  "seg": 65,
+  "start": 360.652,
+  "end": 360.913,
+  "speaker": "Unknown",
+  "en": "Well...",
+  "zh": "嗯……"
+ },
+ {
+  "seg": 66,
+  "start": 361.653,
+  "end": 388.287,
+  "speaker": "Unknown",
+  "en": "what we see it more as is like the agent is the session log so say you have an agent and that could be like an agent that is doing a process in a kind of pr work in a ci workflow or it could be you have an agent like for a pr or it could be an agent for like an object in this room and like you're just going to have a huge number of agents for everything it's like every step in every work process every customer interaction every like touch point that you could work with",
+  "zh": "我们更多把它看作是智能体就是会话日志，所以假设你有一个智能体，那可能是一个在 CI 工作流中做 PR 工作流程的智能体，或者你可能有一个用于 PR 的智能体，或者可能是一个这个房间里某个物体的智能体，就像你将拥有一切事物的海量智能体，这就像每个工作流程中的每一步，每一次客户互动，每一个你可以合作的接触点。"
+ },
+ {
+  "seg": 67,
+  "start": 389.027,
+  "end": 396.891,
+  "speaker": "Unknown",
+  "en": "If you have all those agents and you run them all as like a VM and they've all got like two gigabytes of memory, then it's just insanely inefficient.",
+  "zh": "如果你有所有那些智能体，并且把它们都像虚拟机一样运行，它们都有两个千兆字节的内存，那就太低效了。"
+ },
+ {
+  "seg": 68,
+  "start": 397.391,
+  "end": 403.755,
+  "speaker": "Unknown",
+  "en": "And also if you model the agent as compute and if you then kill the compute, well, the agent isn't there.",
+  "zh": "而且，如果你把智能体建模为计算，然后你终止了计算，那么智能体就不在了。"
+ },
+ {
+  "seg": 69,
+  "start": 404.295,
+  "end": 412.639,
+  "speaker": "Unknown",
+  "en": "But you obviously need this model where you'd be like, okay, I'm interacting with this agent, I'm kind of finished, so let's like hibernate it or kind of scale it down.",
+  "zh": "但你显然需要这种模型，你会说，好吧，我正在和这个智能体交互，我差不多完成了，所以让我们休眠它或者缩减它。"
+ },
+ {
+  "seg": 70,
+  "start": 412.999,
+  "end": 417.542,
+  "speaker": "Unknown",
+  "en": "And then say, I want to come back and talk to that same agent session or fork the agent session.",
+  "zh": "然后说，我想回来和那个同一个智能体会话对话，或者分叉那个智能体会话。"
+ },
+ {
+  "seg": 71,
+  "start": 418.102,
+  "end": 423.043,
+  "speaker": "Unknown",
+  "en": "You basically need the session log and the state in the data layer so you can rerun the compute.",
+  "zh": "你基本上需要数据层中的会话日志和状态，这样你就可以重新运行计算。"
+ },
+ {
+  "seg": 72,
+  "start": 423.444,
+  "end": 434.087,
+  "speaker": "Unknown",
+  "en": "And so when you think of agents as like logical entities, you realize that they exist even when they're not running, which is why if you model them as compute, it's just wrong because they don't live in the compute.",
+  "zh": "所以当你把智能体看作逻辑实体时，你意识到即使它们不运行时它们也是存在的，这就是为什么如果你把它们建模为计算，那就完全错了，因为它们并不存在于计算中。"
+ },
+ {
+  "seg": 73,
+  "start": 434.267,
+  "end": 437.528,
+  "speaker": "Unknown",
+  "en": "They actually live in the durability layer in the data layer.",
+  "zh": "它们实际上存在于持久层中，在数据层中。"
+ },
+ {
+  "seg": 74,
+  "start": 438.128,
+  "end": 439.308,
+  "speaker": "Unknown",
+  "en": "Okay, that's very interesting.",
+  "zh": "好的，这非常有意思。"
+ },
+ {
+  "seg": 75,
+  "start": 439.488,
+  "end": 441.609,
+  "speaker": "Unknown",
+  "en": "So don't give agents computers.",
+  "zh": "所以不要给智能体电脑。"
+ },
+ {
+  "seg": 76,
+  "start": 442.402,
+  "end": 454.033,
+  "speaker": "Unknown",
+  "en": "Well then if you think about okay so how do you actually then do that because you're like well I don't want to just like I've got to actually run my tool calls and I also don't want like my agents rampaging over some sort of general server.",
+  "zh": "那么如果你想一想，好吧，那你实际上该怎么做呢，因为你就像，嗯，我不想只是……我必须实际运行我的工具调用，而且我也不想让我的智能体在某种通用服务器上横冲直撞。"
+ },
+ {
+  "seg": 77,
+  "start": 454.053,
+  "end": 458.036,
+  "speaker": "Unknown",
+  "en": "You want isolation and you do need like tool call execution.",
+  "zh": "你需要隔离，你也确实需要工具调用执行。"
+ },
+ {
+  "seg": 78,
+  "start": 459.298,
+  "end": 468.046,
+  "speaker": "Unknown",
+  "en": "But if you think if you look at this more sort of managed agent pattern what you can do is separate the agent logic from the tool call execution.",
+  "zh": "但是如果你想一下，如果你看看这种更像是托管智能体的模式，你能做的是将智能体逻辑与工具调用执行分离开来。"
+ },
+ {
+  "seg": 79,
+  "start": 468.726,
+  "end": 475.953,
+  "speaker": "Unknown",
+  "en": "And then it's a bit like the idea of, say, say you're trying to generate a data report using an agent for a data analyst.",
+  "zh": "然后这有点像这个想法，比如说，假设你正试图使用一个为数据分析师准备的智能体来生成数据报告。"
+ },
+ {
+  "seg": 80,
+  "start": 476.433,
+  "end": 492.568,
+  "speaker": "Unknown",
+  "en": "Do you get your agent to hallucinate out the CSV file or do you send a SQL query to a database, which is actually just like a normal data system or data platform that's running under your control that actually exports out the data by executing the query plan?",
+  "zh": "你是让你的智能体幻觉生成出那个 CSV 文件，还是你向数据库发送一个 SQL 查询，这实际上就像是一个正常运行在你控制之下的普通数据系统或数据平台，它通过执行查询计划实际导出数据？"
+ },
+ {
+  "seg": 81,
+  "start": 493.168,
+  "end": 494.85,
+  "speaker": "Unknown",
+  "en": "And it's that same switch.",
+  "zh": "这就是同样的切换。"
+ },
+ {
+  "seg": 82,
+  "start": 495.07,
+  "end": 516.692,
+  "speaker": "Unknown",
+  "en": "So where you have a tool call execution, which might be like, you know, grep files, where increasingly, like, there was this cool project today, like Miracle came out, there's like Just Bash, there's all these like emulation layers, which look to the agent like they're using the computer, but means you can actually fulfill things like file operations and tool call executions using sort of proper online systems.",
+  "zh": "所以在你有工具调用的地方，这可能是，你知道的，grep 文件，现在越来越多的是，就像今天有个很酷的项目，Miracle 出来了，还有 Just Bash，有所有这些仿真层，它们对智能体来说看起来像是在使用电脑，但这意味着你可以实际使用某种正规的在线系统来完成文件操作和工具调用执行之类的事情。"
+ },
+ {
+  "seg": 83,
+  "start": 517.405,
+  "end": 523.007,
+  "speaker": "Unknown",
+  "en": "And so that's the switch where you go, you don't have a sandbox which bundles it all together.",
+  "zh": "所以这就是那个切换，你不再有一个把所有东西打包在一起的沙箱。"
+ },
+ {
+  "seg": 84,
+  "start": 523.347,
+  "end": 537.252,
+  "speaker": "Unknown",
+  "en": "You can just have, you can have like a function, like a VA isolate or however you do like a Cloudflare worker or an edge function that is capable of running expressive agent logic, including things like code mode and code execution.",
+  "zh": "你可以只有一个函数，像一个 VA isolate 或者无论你如何实现一个 Cloudflare worker 或边缘函数，它能够运行富于表现力的智能体逻辑，包括代码模式和代码执行之类的东西。"
+ },
+ {
+  "seg": 85,
+  "start": 537.812,
+  "end": 539.733,
+  "speaker": "Unknown",
+  "en": "But then when you come to doing something like...",
+  "zh": "但是当你来做类似……"
+ },
+ {
+  "seg": 86,
+  "start": 540.693,
+  "end": 565.505,
+  "speaker": "Unknown",
+  "en": "create an artifact or query a data system that should go back into like traditional data platform stuff because then also you can kind of monitor it and ensure quality and that's sort of deterministic software that you can control so that's this architecture where in a way more scalable managed online agents move to agents and functions separated from the tool call execution with the durability in the session log",
+  "zh": "创建一个产物或查询一个数据系统的事情时，这应该回到传统的数据平台的东西，因为那样你也可以监控它并确保质量，那是你可以控制的某种确定性软件，这就是这种架构，在某种程度上更可扩展的托管在线智能体转向了智能体和函数与工具调用执行分离，并且持久化在会话日志中。"
+ },
+ {
+  "seg": 87,
+  "start": 566.085,
+  "end": 575.478,
+  "speaker": "Unknown",
+  "en": "And if you read the kind of Anthropic Managed Agents paper, if you read the Cloudflare Project Think paper, this is the architecture which they and others have all converged on.",
+  "zh": "如果你读一下那篇 Anthropic Managed Agents 论文，如果你读一下 Cloudflare Project Think 论文，这就是他们和其他人都趋同的架构。"
+ },
+ {
+  "seg": 88,
+  "start": 576.019,
+  "end": 580.786,
+  "speaker": "Unknown",
+  "en": "And so what we're trying to do at Electric is we obviously come at things from the data layer.",
+  "zh": "所以我们在 Electric 努力做的事情是，我们显然是从数据层来处理事情的。"
+ },
+ {
+  "seg": 89,
+  "start": 582.228,
+  "end": 594.097,
+  "speaker": "Unknown",
+  "en": "And we're just trying to provide the primitives for any platform builder or product builder to build the same kind of infrastructure, but without the platform lock-in that would come from, like, if you have to use, like, Anthropic's amazing, right?",
+  "zh": "我们只是试图为任何平台构建者或产品构建者提供原语来构建同一种基础设施，但没有那种平台锁定，那种锁定来自于，比如说，你必须使用，比如说，Anthropic 的东西，很棒，对吧？"
+ },
+ {
+  "seg": 90,
+  "start": 594.258,
+  "end": 596.339,
+  "speaker": "Unknown",
+  "en": "But obviously, Anthropic want you to use Claude.",
+  "zh": "但显然，Anthropic 想让你使用 Claude。"
+ },
+ {
+  "seg": 91,
+  "start": 596.719,
+  "end": 601.884,
+  "speaker": "Unknown",
+  "en": "And the Cloudflare stack is totally amazing for agents, like durable objects, agents SDK is awesome.",
+  "zh": "而且 Cloudflare 栈对智能体来说完全棒极了，比如 Durable Objects，agents SDK 也很棒。"
+ },
+ {
+  "seg": 92,
+  "start": 602.264,
+  "end": 606.227,
+  "speaker": "Unknown",
+  "en": "But obviously, Cloudflare's business is like, they're a cloud, so you have to run the computer on the cloud.",
+  "zh": "但显然，Cloudflare 的生意是，他们是一家云服务，所以你必须在云上运行电脑。"
+ },
+ {
+  "seg": 93,
+  "start": 606.567,
+  "end": 607.768,
+  "speaker": "Unknown",
+  "en": "So what if you don't want to?",
+  "zh": "所以如果你不想怎么办？"
+ },
+ {
+  "seg": 94,
+  "start": 607.808,
+  "end": 609.55,
+  "speaker": "Unknown",
+  "en": "What if you want to own your own infrastructure?",
+  "zh": "如果你想拥有你自己的基础设施怎么办？"
+ },
+ {
+  "seg": 95,
+  "start": 610.27,
+  "end": 612.091,
+  "speaker": "Unknown",
+  "en": "So that's also what we're doing, basically.",
+  "zh": "所以这也就是我们正在做的，基本上。"
+ },
+ {
+  "seg": 96,
+  "start": 612.472,
+  "end": 612.952,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 97,
+  "start": 612.972,
+  "end": 613.332,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 98,
+  "start": 613.792,
+  "end": 617.175,
+  "speaker": "Unknown",
+  "en": "And where can people learn more about Electric and about you?",
+  "zh": "人们在哪里可以了解更多关于 Electric 和关于你的信息？"
+ },
+ {
+  "seg": 99,
+  "start": 617.195,
+  "end": 619.496,
+  "speaker": "Unknown",
+  "en": "Only you should ask.",
+  "zh": "只有你应该问。"
+ },
+ {
+  "seg": 100,
+  "start": 620.537,
+  "end": 625.66,
+  "speaker": "Unknown",
+  "en": "So we're Electric SQL, but we have actually just changed our main domain to better reflect what we're doing now.",
+  "zh": "所以我们是 Electric SQL，但我们实际上刚刚更改了我们的主域名以更好地反映我们现在正在做的事情。"
+ },
+ {
+  "seg": 101,
+  "start": 625.68,
+  "end": 629.063,
+  "speaker": "Unknown",
+  "en": "So it's electric.ax for its agent experience.",
+  "zh": "所以它是 electric.ax 用于其智能体体验。"
+ },
+ {
+  "seg": 102,
+  "start": 629.243,
+  "end": 630.023,
+  "speaker": "Unknown",
+  "en": "Very cool.",
+  "zh": "非常酷。"
+ },
+ {
+  "seg": 103,
+  "start": 630.123,
+  "end": 630.824,
+  "speaker": "Unknown",
+  "en": "And it's all there, right?",
+  "zh": "而且全都在那里，对吧？"
+ },
+ {
+  "seg": 104,
+  "start": 630.844,
+  "end": 631.684,
+  "speaker": "Unknown",
+  "en": "It's all open source.",
+  "zh": "它全都是开源的。"
+ },
+ {
+  "seg": 105,
+  "start": 631.945,
+  "end": 634.887,
+  "speaker": "Unknown",
+  "en": "There's a whole bunch of quick starts, examples, patterns.",
+  "zh": "有一大堆快速入门、示例、模式。"
+ },
+ {
+  "seg": 106,
+  "start": 635.727,
+  "end": 655.133,
+  "speaker": "Unknown",
+  "en": "and it may sound like quite big sort of conceptual stuff but it's actually just very very simple you just like run the quick start and it just gives you this like run time and then you just define entities as if you would like a bit like you define like functions they're like almost like request handlers and you can use whatever AI engineering frameworks and tools that you want to",
+  "zh": "而且它可能听起来像是相当大的概念性的东西，但实际上它非常非常简单，你只需要运行快速入门，它只是给你这个像运行时的东西，然后你只是定义实体，就像你有点像定义函数那样，它们几乎就像请求处理程序，你可以使用任何你想要的 AI 工程框架和工具。"
+ },
+ {
+  "seg": 107,
+  "start": 655.893,
+  "end": 659.255,
+  "speaker": "Unknown",
+  "en": "But there's a bunch of like built-in agents that you can just work with straight away.",
+  "zh": "但是有一堆像内置的智能体，你可以直接使用。"
+ },
+ {
+  "seg": 108,
+  "start": 660.436,
+  "end": 664.878,
+  "speaker": "Unknown",
+  "en": "They understand how to do like spawning patterns, manager patterns like OpenClaw.",
+  "zh": "它们懂得如何做像生成模式、管理器模式像 OpenClaw。"
+ },
+ {
+  "seg": 109,
+  "start": 665.418,
+  "end": 668.34,
+  "speaker": "Unknown",
+  "en": "So it's an MPX install and it just kind of runs.",
+  "zh": "所以这是一个 MPX 安装，它只是某种程度地运行。"
+ },
+ {
+  "seg": 110,
+  "start": 668.36,
+  "end": 669.06,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 111,
+  "start": 669.2,
+  "end": 681.267,
+  "speaker": "Unknown",
+  "en": "And then you can just write your agent code in your web app the same way you would if you were using, like if you're using something like Vercel AI SDK or TanStack AI or Mastra to do like agent definitions that you would sort of run in your app.",
+  "zh": "然后你可以直接在你的 Web 应用中编写你的智能体代码，方式就像如果你正在使用，就像如果你正在使用像 Vercel AI SDK 或 TanStack AI 或 Mastra 来做像智能体定义，你会某种程度地在你的应用中运行的那样。"
+ },
+ {
+  "seg": 112,
+  "start": 681.847,
+  "end": 692.959,
+  "speaker": "Unknown",
+  "en": "Like, you can just use exactly the same framework tools, but then wrap them with a little bit of runtime shim, and it goes into this sort of platform so they all have these types of data primitives available for the coordination and data wiring.",
+  "zh": "比如，你可以只使用完全相同的框架工具，然后用一点运行时垫片包装它们，它就进入了这种平台，所以它们都有这些类型的数据原语可用于协调和数据连线。"
+ },
+ {
+  "seg": 113,
+  "start": 693.58,
+  "end": 694.001,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 114,
+  "start": 694.681,
+  "end": 695.883,
+  "speaker": "Unknown",
+  "en": "Well, thanks so much, James.",
+  "zh": "好的，非常感谢，James。"
+ },
+ {
+  "seg": 115,
+  "start": 696.203,
+  "end": 697.244,
+  "speaker": "Unknown",
+  "en": "And thanks, everyone, for listening.",
+  "zh": "也感谢大家的收听。"
+ },
+ {
+  "seg": 116,
+  "start": 697.945,
+  "end": 698.506,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 117,
+  "start": 698.786,
+  "end": 701.209,
+  "speaker": "Unknown",
+  "en": "Yeah, thank you for letting me shill my... No, that's great.",
+  "zh": "是的，谢谢你让我推销我的…… 不，那很棒。"
+ },
+ {
+  "seg": 118,
+  "start": 701.349,
+  "end": 701.769,
+  "speaker": "Unknown",
+  "en": "That's great.",
+  "zh": "那很棒。"
+ },
+ {
+  "seg": 119,
+  "start": 702.09,
+  "end": 702.35,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "很棒。"
+ }
+]

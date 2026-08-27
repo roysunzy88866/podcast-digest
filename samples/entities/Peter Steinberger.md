@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]] [[Claire]] [[Srini Raghavan]]
+[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":136,"OpenAI":61,"OpenClaw":13,"Codex":27,"Romain Huet":1,"Anthropic":67,"Raphael Schaad":1,"循环":3,"NVIDIA":20,"Claude Code":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":138,"OpenAI":61,"OpenClaw":13,"Codex":27,"Romain Huet":1,"Anthropic":68,"Raphael Schaad":1,"循环":3,"NVIDIA":21,"Claude Code":35}</script>
 
 <script>
 (function(){

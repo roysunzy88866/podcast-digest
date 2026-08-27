@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alexandr Wang]] · [[Scale]] · [[Meta]] · [[MuseSpark]] · [[开源模型]] · [[智能体]] · [[多智能体设置]] · [[训练数据]] · [[前沿AI实验室]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"Alexandr Wang":1,"Scale":2,"Meta":19,"MuseSpark":1,"开源模型":9,"智能体":136,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":15}</script>
+<script type="application/json" class="pd-epn">{"Alexandr Wang":1,"Scale":2,"Meta":20,"MuseSpark":1,"开源模型":9,"智能体":138,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":15}</script>
 
 <script>
 (function(){

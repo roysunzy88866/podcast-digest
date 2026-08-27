@@ -58,7 +58,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Sophia Du]] · [[Steven Sinofsky]] · [[Theo Jaffe]] · [[Google]] · [[OpenRouter]] · [[Microsoft]] · [[Cursor]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":61,"Anthropic":67,"Sophia Du":2,"Steven Sinofsky":1,"Theo Jaffe":3,"Google":27,"OpenRouter":4,"Microsoft":12,"Cursor":35,"Amazon":8}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":61,"Anthropic":68,"Sophia Du":2,"Steven Sinofsky":1,"Theo Jaffe":3,"Google":27,"OpenRouter":4,"Microsoft":12,"Cursor":35,"Amazon":8}</script>
 
 <script>
 (function(){

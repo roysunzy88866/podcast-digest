@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Zynga":2,"已验证、更好、全新":1,"产品市场契合":9,"留存":2,"分发":4,"智能体":136,"社交网络":1,"微管理":2,"Facebook":9}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Zynga":2,"已验证、更好、全新":1,"产品市场契合":9,"留存":2,"分发":4,"智能体":138,"社交网络":1,"微管理":2,"Facebook":9}</script>
 
 <script>
 (function(){

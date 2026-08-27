@@ -1,0 +1,1282 @@
+{
+  "episode_id": "2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr",
+  "podcast": "The TWIML AI Podcast",
+  "date": "2026-08-26",
+  "tags": [
+    "AI for Science",
+    "材料设计",
+    "扩散模型与热力学",
+    "神经网络中的波",
+    "等变性"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sam-charrington",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Charrington",
+      "file": "Sam Charrington",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            154.45,
+            157.552
+          ],
+          "quote": "I'm Sam Charrington, and this is the TwiML AI Podcast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "max-welling",
+      "type": "person",
+      "role": "cohost",
+      "name": "Max Welling",
+      "file": "Max Welling",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            58.245,
+            63.849
+          ],
+          "quote": "Today's guest, Max Welling, believes that better AI may come from someplace very different, physics.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cusp-ai",
+      "type": "company",
+      "role": "company",
+      "name": "cusp.ai",
+      "file": "cusp.ai",
+      "primary": true,
+      "how_described": "本集说 cusp.ai 是 Max Welling 联合创办的材料设计平台，用生成式 AI 搜索已知和未知材料，核心是一个智能体编排从文献检索、分子生成、筛选模拟到实验验证的完整计算流水线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            64.624,
+            70.027
+          ],
+          "quote": "Max is the co-founder and CTO of cusp.ai and a professor at the University of Amsterdam.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            70.767,
+            80.292
+          ],
+          "quote": "At cusp.ai, his team is using generative AI to design entirely new materials for semiconductors, batteries, carbon capture, and other scientific applications.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 cusp.ai 平台的核心是一个智能体，它编排一整套长计算流程：先搜现有数据库和文献，找不到就调生成模型生成数十万候选分子，再用各种工具评估筛选，最后决定实验参数",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            654.212,
+            659.094
+          ],
+          "quote": "It's agentic, so there is an agent sitting at the core of it who orchestrates a long computation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1045.761,
+            1049.103
+          ],
+          "quote": "So you can hold a conversation with this agent and talk about it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1228.78,
+            1234.824
+          ],
+          "quote": "And then the game is more like the agent figures out what the settings of the experiment should be.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "equivariance",
+      "type": "concept",
+      "role": "concept",
+      "name": "等变性 (equivariance)",
+      "file": "等变性",
+      "primary": true,
+      "how_described": "本集说在预测原子受力的模型中，因为世界是三维对称的，旋转分子后预测的力也必须跟着转，等变性把这个约束直接写进模型，在分子生成和评估过程中起非常重要的作用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            200.346,
+            207.148
+          ],
+          "quote": "Geometric neural networks and gauge equivariance neural networks and the like.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            213.989,
+            218.09
+          ],
+          "quote": "Yeah, actually, the equivariance theme has definitely continued.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 43,
+          "t": [
+            219.509,
+            225.871
+          ],
+          "quote": "In fact, I found out that equivariance was used very fruitfully in chemistry and material science.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            323.52,
+            325.7
+          ],
+          "quote": "And we could use equivariance.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 121,
+          "t": [
+            670.201,
+            681.647
+          ],
+          "quote": "And in this generation and evaluation, you know, equivariance and all sorts of methods that, you know, we have developed over the years in my academic lab play a very important role.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "diffusion-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩散模型 (diffusion models)",
+      "file": "扩散模型",
+      "primary": true,
+      "how_described": "本集说第一篇扩散模型论文标题里就写了非平衡热力学——前向过程是结构被摧毁（熵增），反向过程是从噪声里创造结构（生成），是热力学熵增和逆转的直接对应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 358,
+          "t": [
+            2106.91,
+            2125.507
+          ],
+          "quote": "Modern generative AI, including probabilistic models, including diffusion models, and many other things, their mathematics turns out to be equivalent to the mathematics that describes modern non-equilibrium statistical mechanics or thermodynamics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2450.443,
+            2457.387
+          ],
+          "quote": "And I just want to point out that the first paper that was written about diffusion models actually had the word non-equilibrium thermodynamics in the title.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2462.25,
+            2470.354
+          ],
+          "quote": "So diffusion models really are a process by which you take structure and you destroy it, which is typically what happens in the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2537.679,
+            2545.14
+          ],
+          "quote": "But now you can use modern machine learning methods like diffusion models in order to accelerate those particular calculations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2571.683,
+            2583.806
+          ],
+          "quote": "And those concepts can now be used in diffusion models in order to do a better job at generating images, because it turns out that that's very helpful in",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2584.666,
+            2594.55
+          ],
+          "quote": "Bringing down sort of statistical error or noise in the diffusion process, and so it can actually help you build better diffusion models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2598.591,
+            2612.617
+          ],
+          "quote": "And do you see on the machine learning side the primary target of the analogy or relationship as being diffusion models, or is it more fundamental than that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2695.372,
+            2702.474
+          ],
+          "quote": "But it gives you a different way to try and understand how diffusion models work because",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "spontaneous-symmetry-breaking",
+      "type": "concept",
+      "role": "concept",
+      "name": "自发对称性破缺 (spontaneous symmetry breaking)",
+      "file": "自发对称性破缺",
+      "primary": true,
+      "how_described": "本集说给每个神经元加额外维度、内置大对称性，然后把随机权重的分布设得足够大，对称性就会自发破缺——就像水结冰，连续平移对称变成离散晶格对称，从而产生可在网络中无能耗传播的波",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 536,
+          "t": [
+            3203.24,
+            3205.681
+          ],
+          "quote": "And this is done by spontaneous symmetry breaking.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3209.794,
+            3211.896
+          ],
+          "quote": "And so what is spontaneous symmetry breaking?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3226.368,
+            3237.717
+          ],
+          "quote": "And so spontaneous symmetry breaking is where a system that has a particular symmetry, let's say perfect translation symmetry, so think of a gas as perfect translation symmetry.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3406.454,
+            3413.138
+          ],
+          "quote": "Through these wave-like patterns that are created by this phenomenon called spontaneous symmetry breaking.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "waves",
+      "type": "concept",
+      "role": "concept",
+      "name": "波 (waves)",
+      "file": "波",
+      "primary": true,
+      "how_described": "本集说大脑用行进波、材料用声子、宇宙用光波做长程通信，但神经网络只做逐层映射完全没用波这个工具；引入波后信息可从头传到尾不衰减，解决过度平滑和长期记忆问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            104.75,
+            112.737
+          ],
+          "quote": "Waves are actually seen in the brain now because we've gone from single electrode measurements to maybe hundreds or thousands of electrode measurements.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            117.161,
+            122.345
+          ],
+          "quote": "But if you put hundreds or thousands in them, you can actually see these traveling waves and people have now observed them everywhere.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2758.023,
+            2773.776
+          ],
+          "quote": "Put forth another, you know, analogy, let's call it, or opportunity to kind of learn from the physical world, and that is in looking at waves and applying that to machine learning and stochastic systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2776.118,
+            2786.987
+          ],
+          "quote": "Yeah, so this is, I think, very exciting in the sense that, so the thing that, so there's two reasons why we thought we needed to think more about waves in science.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2788.751,
+            2800.119
+          ],
+          "quote": "And that is because, first of all, waves are actually seen in the brain now because we've gone from single electrode measurements to maybe hundreds or thousands of electrode measurements.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2804.523,
+            2807.505
+          ],
+          "quote": "But if you put hundreds or thousands in them, you can actually see these traveling waves.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2915.149,
+            2919.19
+          ],
+          "quote": "Materials use waves for long range interaction, which are called phonons.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2928.012,
+            2939.615
+          ],
+          "quote": "In fact, if you think about the universe, the only reason we can see very far and deep into the universe is because light waves hit our instruments in our eyes.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2940.829,
+            2946.075
+          ],
+          "quote": "And that is, again, waves that are doing the communication over these long distances.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2967.084,
+            2975.807
+          ],
+          "quote": "And so this has been the work that we've been developing and especially for, so we've basically designed neural networks that naturally create these waves.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3016.942,
+            3023.072
+          ],
+          "quote": "And these models that naturally work with these waves, they can do these tests much, much better than RNNs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 501,
+          "t": [
+            3024.378,
+            3048.405
+          ],
+          "quote": "When I hear RNNs and long-running memory, I think about challenges like exploding gradients, and then I think about kind of the oscillatory nature of waves and that that has some inherent dampening properties that allow you to kind of access memory further into the future without these exploding gradient challenges.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3178.088,
+            3193.235
+          ],
+          "quote": "And we found that if you include these waves in your neural network, you very naturally operate in this regime edge of chaos, and you don't have to fine-tune the system to be there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3316.675,
+            3321.079
+          ],
+          "quote": "And so we thought that's a really good candidate for these traveling waves.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3360.028,
+            3368.231
+          ],
+          "quote": "And now you're in this broken symmetry phase where you have these Goldstone modes or these waves which can travel without using any energy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3371.412,
+            3375.893
+          ],
+          "quote": "You get these waves where you can just see things oscillate around very naturally.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 567,
+          "t": [
+            3393.024,
+            3398.645
+          ],
+          "quote": "And you can now design the system so that it has these waves and it has this edge of chaos behavior.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "machine-learning-force-fields",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器学习力场 (machine learning force fields)",
+      "file": "机器学习力场",
+      "primary": true,
+      "how_described": "本集说用神经网络替代昂贵的量子力学计算来预测原子受力，可实现三到四个数量级的加速；他们会针对特定材料类别从基础模型蒸馏出专用力场，放进分子动力学模拟里跑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            1138.353,
+            1145.657
+          ],
+          "quote": "A pipeline that fine-tunes or distills machine learning force fields for that particular material.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1469.842,
+            1477.866
+          ],
+          "quote": "So we, for instance, recently had results on machine learning force fields with uncertainty prediction, property predictors.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1496.712,
+            1511.675
+          ],
+          "quote": "And so the reason why we did this is actually together with NVIDIA is that, you know, now with this new development of these machine learning force fields that I talked about, these neural networks that replace quantum mechanical calculations for the forces,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "molecular-dynamics",
+      "type": "concept",
+      "role": "concept",
+      "name": "分子动力学 (molecular dynamics)",
+      "file": "分子动力学",
+      "primary": true,
+      "how_described": "本集说分子动力学是让原子随时间向前演化以计算材料属性的方法，每个时间步仅一飞秒，需要非常多次调用力场，因此力场必须又准又快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            227.071,
+            242.595
+          ],
+          "quote": "So in chemistry and material science, people train neural network models to predict the forces on atoms because people want to evolve atoms forward in time in order to compute their properties, which is called molecular dynamics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1163.969,
+            1167.991
+          ],
+          "quote": "And we use that in an MD loop, typically, the molecular dynamics loop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1484.85,
+            1489.951
+          ],
+          "quote": "is our new molecular dynamics framework called COPS, confusingly.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "metal-organic-frameworks",
+      "type": "concept",
+      "role": "concept",
+      "name": "金属有机框架 (metal organic frameworks)",
+      "file": "金属有机框架",
+      "primary": true,
+      "how_described": "本集说 MOF 是一种极其多孔的晶体结构，今年刚拿了诺贝尔化学奖，目标是设计出一种让空气吹过去时只有二氧化碳粘在孔里、氮气和水都穿过去的 MOF，用于碳捕获",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            621.992,
+            623.733
+          ],
+          "quote": "And these are called metal organic frameworks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 144,
+          "t": [
+            841.307,
+            849.433
+          ],
+          "quote": "We also look at removing PFAS from water, and the current set of molecules we use for that is, again, metal organic frameworks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 154,
+          "t": [
+            910.831,
+            917.252
+          ],
+          "quote": "So for instance, the project on metal organic frameworks for carbon capture, we ran self-funded internally.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "self-driving-labs",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶实验室 (self-driving labs)",
+      "file": "自动驾驶实验室",
+      "primary": true,
+      "how_described": "本集说自动驾驶实验室是一天能跑上百个实验的革命性设施，智能体自动设定实验参数，实验数据回来后和计算数据合并，再决定下一轮怎么做，cusp.ai 正在将平台与之整合",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            1215.861,
+            1225.183
+          ],
+          "quote": "What we are currently, the current, I would say, revolution that's happening in this space is self-driving labs, where the amount of experiments you can do is much, much faster.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1913.377,
+            1928.492
+          ],
+          "quote": "The effort that's most important for us right now is connecting the platform to self-driving labs, so to really generate large amounts of data from the self-driving lab.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "entropy",
+      "type": "concept",
+      "role": "concept",
+      "name": "熵 (entropy)",
+      "file": "熵",
+      "primary": true,
+      "how_described": "本集说在物理学里熵感觉像是系统的真实属性（从能量里减去熵才得到自由能），但在贝叶斯统计里它描述的就是你不知道的东西；E.T. Jaynes 的观点是物理学里的熵也精确描述了你关于世界缺失的所有信息",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 378,
+          "t": [
+            2216.038,
+            2221.943
+          ],
+          "quote": "I think there's this concept of entropy, which is maybe interesting in both of these theories.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2223.924,
+            2231.05
+          ],
+          "quote": "So entropy is basically the surprise that you find for a particular state.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2241.918,
+            2244.2
+          ],
+          "quote": "But in physics, you think of entropy",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2250.849,
+            2258.913
+          ],
+          "quote": "Because you have to subtract entropy from energy, actually, to get free energy, which is the energy you're free to use to do useful work in the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2288.56,
+            2296.305
+          ],
+          "quote": "Jaynes is a famous one, entropy in physics also precisely describes all the information you're missing about the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2347.233,
+            2357.262
+          ],
+          "quote": "So, in fact, the statement is the second law of thermodynamics says that the entropy must always increase, which means, you know, you either",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2357.889,
+            2366.032
+          ],
+          "quote": "Keep the level of information the same, which is when the entropy stays the same, or you lose information in the process, and that's when the entropy goes up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2470.954,
+            2471.775
+          ],
+          "quote": "The entropy goes up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2703.81,
+            2725.265
+          ],
+          "quote": "Concepts like heat and work and entropy, production, these things we don't use when we talk about machine learning models, but I think they give you a very new and interesting perspective on how to think about what's going on and how to also improve them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3133.43,
+            3137.473
+          ],
+          "quote": "And that's actually what we mean when we say entropy is increasing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "stochastic-thermodynamics",
+      "type": "concept",
+      "role": "concept",
+      "name": "随机热力学 (stochastic thermodynamics)",
+      "file": "随机热力学",
+      "primary": true,
+      "how_described": "本集说随机热力学研究的是处于非平衡态的系统，Max 认为生成式 AI 的数学和随机热力学的数学是等价的，不是类比而是非常具体的同构，都建立在信息丢失必须用概率捕捉这个核心上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 335,
+          "t": [
+            1998.212,
+            2002.716
+          ],
+          "quote": "It's talking about generative AI and stochastic thermodynamics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2556.64,
+            2570.103
+          ],
+          "quote": "Things which have been developed in stochastic thermodynamics, like a concept called counter-diabetic driving is something that they have figured out on how to do very efficient control of particular physical systems.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2677.828,
+            2684.13
+          ],
+          "quote": "So I would say the field of stochastic thermodynamics is actually itself quite new, interestingly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2689.311,
+            2691.671
+          ],
+          "quote": "Stochastic thermodynamics is systems out of equilibrium.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "edge-of-chaos",
+      "type": "concept",
+      "role": "concept",
+      "name": "混沌边缘 (edge of chaos)",
+      "file": "混沌边缘",
+      "primary": true,
+      "how_described": "本集说把神经网络看作动力系统，太稳定信息塌缩到一个点（内爆梯度），太不稳定进入混沌（爆炸梯度），最好的状态是中间的混沌边缘；引入波之后网络天然就落在这个区域，不需要刻意调参",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 530,
+          "t": [
+            3154.265,
+            3162.972
+          ],
+          "quote": "So what you really want is sitting somewhere in the middle, somewhere that's not too stable and not too unstable, and that's called edge of chaos.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3164.262,
+            3172.046
+          ],
+          "quote": "And people have found that, in fact, neural networks that perform best operate at this edge of chaos.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3172.186,
+            3176.728
+          ],
+          "quote": "And people have also found that, unsurprisingly, the brain operates at the edge of chaos.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3178.088,
+            3193.235
+          ],
+          "quote": "And we found that if you include these waves in your neural network, you very naturally operate in this regime edge of chaos, and you don't have to fine-tune the system to be there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3194.437,
+            3198.198
+          ],
+          "quote": "It's very easy to get to this edge of chaos regime.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 567,
+          "t": [
+            3393.024,
+            3398.645
+          ],
+          "quote": "And you can now design the system so that it has these waves and it has this edge of chaos behavior.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "foundation-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础模型 (foundation model)",
+      "file": "基础模型",
+      "primary": true,
+      "how_described": "本集说他们和 Meta 一起训练了材料基础模型，把分子结构映射到潜在空间得到一种表示，可以拿去做属性预测器、给生成模型做条件输入，也可以作为蒸馏特定材料类别模型的起点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1151.221,
+            1155.503
+          ],
+          "quote": "We have a foundation model that's trained on a much wider range of data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1588.247,
+            1592.711
+          ],
+          "quote": "Representations, you can think of that as maybe a foundation model for chemistry.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1653.447,
+            1657.03
+          ],
+          "quote": "There's all sorts of uses for that foundation model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1676.584,
+            1682.029
+          ],
+          "quote": "So a foundation model, almost by definition, is trained on a very broad class of",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1712.074,
+            1721.641
+          ],
+          "quote": "What you can then do is start from that very broad representation, this foundation model, and then fine-tune that model for that particular material class.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集说蒸馏是把大模型蒸馏成小模型的过程，在材料 AI 中就是从广泛的基础模型出发，针对特定材料类别微调出一个更小、更快、更专用的力场模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            1741.657,
+            1743.838
+          ],
+          "quote": "And you mentioned distillation earlier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1743.898,
+            1745.378
+          ],
+          "quote": "Is that where distillation comes in?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1752.26,
+            1754.32
+          ],
+          "quote": "That's what distillation is called.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cops",
+      "type": "concept",
+      "role": "concept",
+      "name": "COPS",
+      "file": "COPS",
+      "primary": false,
+      "how_described": "本集说 COPS 是他们和 NVIDIA 一起开源的分子动力学框架（通用粒子模拟模拟器），把力场编译成 JAX 在 GPU 上高效并行跑，因为传统 MD 模拟器主要跑在 CPU 上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 252,
+          "t": [
+            1484.85,
+            1489.951
+          ],
+          "quote": "is our new molecular dynamics framework called COPS, confusingly.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "phonons",
+      "type": "concept",
+      "role": "concept",
+      "name": "声子 (phonons)",
+      "file": "声子",
+      "primary": false,
+      "how_described": "本集说声子是晶格振动波，材料利用声子进行长程相互作用，在材料中长距离地携带信息",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 486,
+          "t": [
+            2915.149,
+            2919.19
+          ],
+          "quote": "Materials use waves for long range interaction, which are called phonons.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2919.55,
+            2926.872
+          ],
+          "quote": "Phonons are lattice vibrations, and they carry information over long distances in a material.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "over-smoothing",
+      "type": "concept",
+      "role": "concept",
+      "name": "过度平滑 (over-smoothing)",
+      "file": "过度平滑",
+      "primary": false,
+      "how_described": "本集说过度平滑是神经网络中的现象，信息穿过数千层后指数级衰减，输入和输出变得彼此独立",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 472,
+          "t": [
+            2818.08,
+            2829.469
+          ],
+          "quote": "The other reason is that in neural networks, you have this phenomenon called over-smoothing, which means that you start with a piece of information and you have thousands of layers, and this information basically",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "stochastic-normalizing-flows",
+      "type": "concept",
+      "role": "concept",
+      "name": "随机正则化流 (stochastic normalizing flows)",
+      "file": "随机正则化流",
+      "primary": false,
+      "how_described": "本集说机器学习里的随机正则化流和热力学里的伴随自由能估计完全是同一个东西，是两个领域数学等价的具体例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 407,
+          "t": [
+            2405.276,
+            2413.62
+          ],
+          "quote": "There's something called stochastic normalizing flows in one, in the machine learning, and then there is escorted free energy estimation in the other.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "counter-diabetic-driving",
+      "type": "concept",
+      "role": "concept",
+      "name": "对抗耗散驱动 (counter-diabetic driving)",
+      "file": "对抗耗散驱动",
+      "primary": false,
+      "how_described": "本集说这是随机热力学中发展出的概念，可以用来降低扩散过程的统计误差，帮你造出更好的扩散模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            2556.64,
+            2570.103
+          ],
+          "quote": "Things which have been developed in stochastic thermodynamics, like a concept called counter-diabetic driving is something that they have figured out on how to do very efficient control of particular physical systems.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "perovskites",
+      "type": "concept",
+      "role": "concept",
+      "name": "钙钛矿 (perovskites)",
+      "file": "钙钛矿",
+      "primary": false,
+      "how_described": "本集说钙钛矿是一类半导体晶体结构材料，通常放在硅上、普通太阳能电池顶部，可以将可见光中更大比例的能量转化为电能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            813.512,
+            834.277
+          ],
+          "quote": "molecules that we worked with we have hence expanded to semiconductors we're doing a lot of work on pro and perovskites which is materials for solar panels improved improved solar panels and we look at semiconductors for new chip chip materials",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1376.546,
+            1383.729
+          ],
+          "quote": "Oh, and then there is one other one that we're currently doing in Amsterdam on perovskites, which is running right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1386.11,
+            1388.51
+          ],
+          "quote": "There is one in— Perovskites is what?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1388.931,
+            1401.375
+          ],
+          "quote": "Perovskites is a material class that's a semiconductor crystal structure that you would put on silicon typically on top of the normal solar cells.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "density-functional-theory",
+      "type": "concept",
+      "role": "concept",
+      "name": "密度泛函理论 (density functional theory)",
+      "file": "密度泛函理论",
+      "primary": false,
+      "how_described": "本集说 DFT 是求解薛定谔方程的近似方法，其发明者获得了诺贝尔奖，但仍然太慢，所以人们训练神经网络替代模型来加速",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            265.806,
+            271.95
+          ],
+          "quote": "So people have come up with approximations like density functional theory, known as DFT.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "landauer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Landauer 定理 (Landauer)",
+      "file": "Landauer 定理",
+      "primary": false,
+      "how_described": "本集说 Landauer 定理指出擦除一个比特的香农信息就必须向环境辐射一定量的热量，直接展示了信息损失和物理耗散的挂钩",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            2301.167,
+            2323.535
+          ],
+          "quote": "Maybe the last thing I want to say about this, there is this famous theorem by Landauer who basically said that if you erase a bit from a device, you must radiate, you know, KLNT, which is just a number, amount of energy as heat to the environment.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集说 cusp.ai 和 NVIDIA 一起开源了 COPS 分子动力学框架",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1496.712,
+            1511.675
+          ],
+          "quote": "And so the reason why we did this is actually together with NVIDIA is that, you know, now with this new development of these machine learning force fields that I talked about, these neural networks that replace quantum mechanical calculations for the forces,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集说 cusp.ai 和 Meta 一起训练了材料基础模型，Meta 还提供了 OMOL 数据集",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            1593.591,
+            1597.734
+          ],
+          "quote": "So what you do is, and this is also work that we did together with Meta.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1683.349,
+            1691.535
+          ],
+          "quote": "The best dataset for that is the Materials Project Dataset and OMOL from Meta.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "blitzy",
+      "type": "company",
+      "role": "company",
+      "name": "Blitzy",
+      "file": "Blitzy",
+      "primary": false,
+      "how_described": "本集开头赞助商，将自主软件工程带给企业，逆向工程代码库后自主执行软件史诗",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            1.148,
+            5.51
+          ],
+          "quote": "I want to send a big thanks to Blitzy for supporting the podcast and sponsoring this episode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            9.353,
+            13.255
+          ],
+          "quote": "You need Blitzy, which brings autonomous software engineering to your enterprise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            13.895,
+            20.179
+          ],
+          "quote": "Blitzy starts by reverse engineering your codebase, building a dynamic understanding of your entire application ecosystem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            20.819,
+            29.964
+          ],
+          "quote": "Your engineers simply declare intent, and once approved, Blitzy autonomously executes entire software epics, delivering validated end-to-end tested code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            34.478,
+            36.16
+          ],
+          "quote": "Blitzy is not just generating code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            39.244,
+            42.909
+          ],
+          "quote": "Experience Blitzy firsthand at blitzy.com slash twiml.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "goldstone-modes",
+      "type": "concept",
+      "role": "concept",
+      "name": "戈德斯通模 (Goldstone modes)",
+      "file": "戈德斯通模",
+      "primary": false,
+      "how_described": "本集说物理学深层定理指出连续对称性破缺会产生新的波动模式即戈德斯通模，这些波可以无能耗地传播",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 559,
+          "t": [
+            3360.028,
+            3368.231
+          ],
+          "quote": "And now you're in this broken symmetry phase where you have these Goldstone modes or these waves which can travel without using any energy.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

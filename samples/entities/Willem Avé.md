@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Square":3,"Block":2,"业务单元模式":1,"职能制":1,"DRI":2,"智能体":136,"聊天机器人":1,"工件":1,"Manager Bot":1,"TAM":1}</script>
+<script type="application/json" class="pd-epn">{"Square":3,"Block":2,"业务单元模式":1,"职能制":1,"DRI":2,"智能体":138,"聊天机器人":1,"工件":1,"Manager Bot":1,"TAM":1}</script>
 
 <script>
 (function(){

@@ -48,7 +48,7 @@ unlisted: true
 
 [[ChatGPT]] · [[智能体]] · [[Lenny]] · [[物理 AI]] · [[Tesla]] · [[强化学习]] · [[World Labs]] · [[Anthropic]] · [[OpenAI]] · [[Marble]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":36,"智能体":136,"Lenny":65,"物理 AI":4,"Tesla":6,"强化学习":13,"World Labs":2,"Anthropic":67,"OpenAI":61,"Marble":2}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":36,"智能体":138,"Lenny":65,"物理 AI":4,"Tesla":6,"强化学习":13,"World Labs":2,"Anthropic":68,"OpenAI":61,"Marble":2}</script>
 
 <script>
 (function(){

@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[McKinsey]] · [[OpenAI]] · [[NVIDIA]] · [[护栏]] · [[Apple]] · [[Microsoft]] · [[Benedict Evans]] · [[Theo Browne]]
 
-<script type="application/json" class="pd-epn">{"智能体":136,"Anthropic":67,"McKinsey":4,"OpenAI":61,"NVIDIA":20,"护栏":28,"Apple":12,"Microsoft":12,"Benedict Evans":1,"Theo Browne":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":138,"Anthropic":68,"McKinsey":4,"OpenAI":61,"NVIDIA":21,"护栏":28,"Apple":12,"Microsoft":12,"Benedict Evans":1,"Theo Browne":1}</script>
 
 <script>
 (function(){
