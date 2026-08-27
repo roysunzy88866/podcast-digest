@@ -35,6 +35,10 @@ on:
         description: "存量回刷:按 C15 新浓缩规范重刷已发布集(all=全部,或逗号分隔集 id)。翻译/转写缓存复用、实体嘉宾不重抽;已合规集自动跳过(断点续跑,中途挂了直接重跑同参数);过不了闸门自动回滚老版。只在显式传入时走,cron 不受影响"
         required: false
         default: ""
+      refresh_force:
+        description: "true=回刷时强制重跑每一集,绕过「已合规跳过」(用于提示词语义/口味改动,styleErrs 检不出、老稿会被误判已合规——如 ADR 0025 开场落地背景)"
+        required: false
+        default: "false"
       source:
         description: "只跑指定源(如 a16z;多源下 backfill 必填,防笼统批量烧钱——C9)"
         required: false
@@ -138,6 +142,7 @@ jobs:
           # 手动触发可传 backfill=N 回填最近 N 集(评估批);cron/默认走正常「只向前看」
           BACKFILL="${{ github.event.inputs.backfill || '0' }}"
           REFRESH="${{ github.event.inputs.refresh || '' }}"
+          REFRESH_FORCE="${{ github.event.inputs.refresh_force || 'false' }}"
           SOURCE="${{ github.event.inputs.source || '' }}"
           # 非法输入(非数字)响亮报错,不静默降级为只向前看(GLM 20260720-004[1])
           if ! echo "$BACKFILL" | grep -qE '^[0-9]+$'; then
@@ -183,8 +188,9 @@ jobs:
               echo "::error::refresh 输入非法(需 all 或逗号分隔集 id):'$REFRESH'"; exit 1
             fi
             # 存量翻新(2026-07-24 用户拍板:云端真实流程做):重浓缩→闸门→败者回滚老版 → 统一重建+全库门
-            echo "🔄 存量翻新模式:$REFRESH"
-            if [ "$REFRESH" = "all" ]; then node scripts/refresh-digests.mjs; else node scripts/refresh-digests.mjs --ids "$REFRESH"; fi
+            FORCE_ARG=""; [ "$REFRESH_FORCE" = "true" ] && FORCE_ARG="--force"
+            echo "🔄 存量翻新模式:$REFRESH ${FORCE_ARG}"
+            if [ "$REFRESH" = "all" ]; then node scripts/refresh-digests.mjs $FORCE_ARG; else node scripts/refresh-digests.mjs --ids "$REFRESH" $FORCE_ARG; fi
             node scripts/run-pipeline.mjs --ensure-audio   # 回滚集在 runner 无音频,gate-audio 会挂(refresh 首跑 18 条实测)
             node scripts/build-entities.mjs
             node scripts/build-pages.mjs

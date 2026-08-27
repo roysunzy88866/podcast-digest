@@ -2,7 +2,8 @@
 // 存量回刷(2026-07-24 用户拍板建通道;2026-07-30 用户拍板升级为「按 C15 新浓缩规范重刷」)
 // —— **云端真实流程专用入口**(用户明文:翻新必须云端真实环境/真实流程做,本地 Claude 只造入口不碰内容)。
 //
-// 用法:node scripts/refresh-digests.mjs [--ids id1,id2]   # 缺省=全部已发布集(有 digest 且有集页)
+// 用法:node scripts/refresh-digests.mjs [--ids id1,id2] [--force]   # 缺省=全部已发布集(有 digest 且有集页)
+//   --force:绕过「已合规跳过」,强制重跑每一集(用于提示词语义/口味改动,styleErrs 检不出的那类)
 //
 // 每集流程(fail-safe:新版过不了闸门 → 回滚老版本;老版本本就过闸门,回刷失败零损失不堵发布):
 //   备份 digest/meta/报告 → FORCE 重浓缩(绕 .digest-raw.txt 缓存,按 C15 新规范)→ 判官 → 金句规整
@@ -57,15 +58,17 @@ function pickIds() {
  * @param opts.episodesDir 集目录根(默认 data/episodes)
  * @param opts.exec (env, ...args)=>bool:跑一步脚本,0 退出为 true(默认真 spawnSync)
  */
-export function refreshOne(id, { episodesDir = EPISODES, exec = ok } = {}) {
+export function refreshOne(id, { episodesDir = EPISODES, exec = ok, force = false } = {}) {
   const dir = join(episodesDir, id);
   if (!existsSync(join(dir, "digest.json"))) return { id, status: "skip", why: "无 digest(半成品,回刷只对已完成集)" };
 
-  // C15 断点续跑:已按新规范刷过 → 零动作跳过(坏 JSON 读不出 → 当没刷过,照常走重刷,响一声不静默)
+  // C15 断点续跑:已按新规范刷过 → 零动作跳过(坏 JSON 读不出 → 当没刷过,照常走重刷,响一声不静默)。
+  // ⚠️ 合规判据只看机器可检的 styleErrs/validate;**提示词语义/口味改动(如开场落地背景)styleErrs 检不出**,
+  //    老稿会被误判「已合规」跳过 → 改动落不了地。这类改动用 --force 绕过合规检查、强制重跑(ADR 0025 实证)。
   let cur = null;
   try { cur = JSON.parse(readFileSync(join(dir, "digest.json"), "utf8")); }
   catch (e) { console.warn(`⚠️ ${id} digest.json 读取/解析失败(${e.message})→ 按未刷过处理,走重刷`); cur = null; }
-  if (cur && alreadyConformant(cur)) return { id, status: "conformant", why: "已过 C15 口语体机器卡点(styleErrs 全零),跳过不重烧" };
+  if (!force && cur && alreadyConformant(cur)) return { id, status: "conformant", why: "已过 C15 口语体机器卡点(styleErrs 全零),跳过不重烧" };
 
   // 备份。meta.json 也备:C5.1 起 condense 会把 title_zh 写回 meta——回滚必须彻底。
   // entities.json 仍在清单里:回刷本身不动它(C15 拍板),备份是无害保险,防未来有人往链里加会动它的步骤。
@@ -119,11 +122,12 @@ const isMain = (() => {
   try { return process.argv[1] && realpathSync(process.argv[1]) === fileURLToPath(import.meta.url); } catch { return false; }
 })();
 if (isMain) {
+  const force = process.argv.includes("--force"); // 提示词语义/口味改动:styleErrs 检不出,强制重跑绕合规跳过
   const ids = pickIds();
-  console.log(`🔄 存量回刷(C15 新浓缩规范):${ids.length} 集(已合规跳过;新版过不了闸门自动回滚老版,不堵发布)`);
+  console.log(`🔄 存量回刷(C15 新浓缩规范):${ids.length} 集${force ? "(--force 强制重跑,不看合规)" : "(已合规跳过)"};新版过不了闸门自动回滚老版,不堵发布`);
   const results = ids.map((id) => {
     console.log(`\n══════ 回刷 ${id}`);
-    const r = refreshOne(id);
+    const r = refreshOne(id, { force });
     console.log(
       r.status === "refreshed" ? `✅ ${id} 回刷成功`
       : r.status === "conformant" ? `⏩ ${id} 已按新规范,跳过(断点续跑)`

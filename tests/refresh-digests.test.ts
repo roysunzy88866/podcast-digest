@@ -89,6 +89,14 @@ describe("refreshOne · 断点续跑:已合规集零动作跳过", () => {
     expect(readFileSync(join(dir, "audio.mp3"), "utf8")).toBe("OLDAUDIO"); // 音频也不动
     rmSync(base, { recursive: true, force: true });
   });
+  it("★★★ --force:合规 digest 也强制重跑(提示词语义/口味改动 styleErrs 检不出,不能被「已合规」拦掉,ADR 0025)", () => {
+    const { base, id } = makeEpisode(conformantDigest);
+    const { calls, exec } = recorder();
+    const r = refreshOne(id, { episodesDir: base, exec, force: true });
+    expect(r.status).toBe("refreshed"); // 不再 conformant 跳过
+    expect(calls.some((c) => c.args[0].includes("condense.mjs"))).toBe(true); // 真起了重浓缩
+    rmSync(base, { recursive: true, force: true });
+  });
 });
 
 describe("refreshOne · 只烧该烧的钱(步骤链 = 拍板语义,一步不多一步不少)", () => {
