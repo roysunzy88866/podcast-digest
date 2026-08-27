@@ -23,7 +23,7 @@ unlisted: true
 
 *2 集*
 
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]] — 作为联合主持
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为联合主持
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为联合主持
 
 ## ③ 他谈到的

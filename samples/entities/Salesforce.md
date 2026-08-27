@@ -16,7 +16,7 @@ unlisted: true
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(09:03起):本集多次提及，推出了 Agentforce 智能体，并投入 2000 名前置部署工程师来确保客户成功。它正经历复兴，成为了众多 AI GTM 智能体底层插接的数据中心。
 - **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(71:41起):本集提到 Jason Lemkit 用一个智能体跟踪每个人对 Salesforce 的更新并根据通话自动更新
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(13:02起):被列为 HubSpot 从大公司挖人的来源之一，本集称从 Salesforce 挖来的人流失率为 100%。
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]]**(26:11起):本集提到同日 Salesforce 股价下跌 9%，作为企业软件公司受预算转移冲击的例子
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(26:11起):本集提到同日 Salesforce 股价下跌 9%，作为企业软件公司受预算转移冲击的例子
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(21:03起):本集说 Supersonic 通过校友网络联系上曾任 Salesforce CRO、现任 COO 的人，使 Salesforce 成为第一个设计合作伙伴
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(14:52起):本集说 Salesforce 拿 AWS 云原语变成 CRM 软件交付经济成果，是应用层角色的比喻
 
@@ -37,7 +37,7 @@ unlisted: true
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]] — 作为被讨论公司(提及)
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司(提及)
 

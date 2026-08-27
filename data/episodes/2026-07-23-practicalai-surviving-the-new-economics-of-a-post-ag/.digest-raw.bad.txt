@@ -1,0 +1,115 @@
+===标题===
+企业软件的"智能体替代"正在发生
+===导语===
+PredictionGuard CEO Daniel 与 AI 研究工程师 Chris 探讨 IBM 股价暴跌背后的趋势：企业预算正从传统企业软件转向智能体基础设施，这种转移比大多数人以为的快得多。
+===正文===
+这一集是 Practical AI 播客的两位主持人 Daniel 和 Chris 的自由讨论，聊的是 IBM 单日股价暴跌 25% 这件事——Daniel 是 PredictionGuard 的 CEO，Chris 是首席 AI 和自主研究工程师。最反直觉的一点是：这不是 IBM 一家的问题，同一天 Workday 跌 10%，Salesforce 跌 9%，ServiceNow 跌 8%，Adobe 跌 6% [26:11 Unknown]。企业软件板块在集体承压，而芯片提供商在涨 [26:34 Unknown]。
+
+## 钱从企业软件流走了，去了哪
+
+IBM 这次 50 多年来最糟糕的单日跌幅 [08:51 Unknown]，背后有一个被反复提到的动态：公司在把 IT 预算从企业软件和服务，转向硬件和基础设施 [09:18 Unknown]。原因有两层——一是对 AI 模型未来涨价的"恐慌性购买"，先囤硬件让自己不被挤出局 [08:01 Unknown]；二是智能体（agent，能自主执行任务的 AI 程序）时代需要大量长期运行的上下文，按量付费的 API 和自托管小模型的成本结构完全不同 [16:53 Unknown]。
+
+Daniel 拿自己公司举例：过去几周他们跟两家企业聊过，一家已经跑了 70,000 个智能体，另一家 6,000 个 [20:06 Unknown]。这不是五年后的未来，是现在正在发生的事。
+
+## 为什么智能体是传统企业软件的威胁
+
+Chris 的核心判断是：未来的交互方式不再是人点 GUI（图形界面），而是智能体对智能体直接对接 [23:14 Unknown]。企业软件如果还在等用户"登录你的界面来操作"，就会被绕过——智能体会通过 MCP（一种让 AI 直接调用外部工具的协议）这类接口，在没有人参与的情况下自动完成业务流程 [24:05 Unknown]。
+
+这催生了一个新的问题：如何在大规模上管理智能体的权限、资源和 MCP 配置 [24:16 Unknown]。Chris 认为这本身就是一个巨大的创业机会 [24:28 Unknown]。
+
+## 企业软件公司的两条路
+
+Daniel 观察到两种应对策略：一种像 NetSuite，通过 MCP 把自己的数据和功能暴露给外部智能体生态，假设自己的价值在数据层 [21:48 Unknown]；另一种是垂直软件公司选择建自己的专有智能体，不接入通用生态 [22:11 Unknown]。两条路哪个对，现在没有定论。
+
+还有一条更底层的路在被重新捡起来：微调。之前因为模型够用，很多组织放弃了微调；现在被美国专有模型和中国开源模型两头挤压，加上小模型在特定场景的性价比优势，"自己训练/微调"的对话又回来了 [15:23 Unknown]。像 Unsloth 这类工具甚至能在 MacBook 上做微调 [16:06 Unknown]。
+
+## 地缘政治加剧了预算恐慌
+
+除了技术趋势，还有政治因素在推波助澜。中国意识到自己的开源模型比美国专有模型便宜得多，开始对这些模型设置保护 [10:29 Unknown]；同时美国对 AI 能力有出口管制 [11:02 Unknown]。结果是：企业原本"用不起美国模型就切中国模型"的备选方案也在收窄，从两个方向同时被挤压 [11:40 Unknown]。这加速了资本从传统 IT 支出向 AI 基础设施的紧急转移 [12:25 Unknown]。
+
+中国还出现了一个"代币黑市"——经纪人在灰色市场转售对 OpenAI、Anthropic 等 Western AI 平台的折扣 API 访问，因为这些服务对大陆是屏蔽的 [13:13 Unknown]。这类黑市几乎是管制措施的可预期副产品 [14:07 Unknown]。
+
+## 人的角色：别抓着旧岗位不放
+
+Chris 强调变化的速度在指数级加速 [06:42 Unknown]，"循环工程"（loop engineering，智能体之间形成协作循环）几个月前还是热词，可能年底就被淘汰 [25:23 Unknown]。对个人来说，抓着旧角色不放是最差的策略 [28:00 Unknown]——应该识别智能体真正擅长什么，然后找到自己能插入的位置 [28:45 Unknown]。
+
+节目的最后聊到 Anthropic 最近发的一篇论文，讨论语言模型内部出现的"工作空间"现象——模型在处理信息时创建的中间空间，功能上类似人脑的工作记忆 [31:20 Unknown]。这跟意识是不是一回事有争议，但不管哲学结论如何，这种"路由和报告信息"的功能能力，正是智能体转型能够发生的技术基础 [31:01 Unknown]。
+
+> 【背景】IBM 股价暴跌的具体原因在转写稿中未详细展开，两位主持人是以此为切入点讨论更广泛的行业趋势。Anthropic 的论文全名为"Verbalizable representations form a global workspace in language models"，转写稿中只提到了标题和部分内容。MCP 全称 Model Context Protocol，是 Anthropic 推出的开放标准，让 AI 模型能安全地连接外部数据源和工具。NetSuite 是 Oracle 旗下的企业云 ERP 软件。
+
+## 本集带走
+- **企业软件板块的下跌是结构性的，不是个别公司问题**：同一天多家企业软件公司跌幅显著，资金在流向硬件和基础设施。
+- **智能体规模已经是万级，不是概念**：已经有企业在生产环境跑 70,000 个智能体，按量付费 API 和自托管模型的成本差异巨大，这是预算转移的真实驱动力。
+- **交互方式在从"人点界面"变成"智能体对接智能体"**：企业软件如果只提供 GUI 而不开放智能体接口（如 MCP），会被绕过。
+- **微调在回归**：两头被挤压（美国模型贵、中国模型可能受限）加上小模型在特定场景够用，"自己微调"重新进入企业考虑范围。
+- **地缘政治在加速预算转移**：美国出口管制和中国对自身开源模型的保护同时收窄了企业的选项，迫使资本紧急转向 AI 基础设施。
+- **对个人：别守旧岗位，找智能体做不到的插入点**：变化速度在指数级加速，几个月前的热词可能年底就过时。
+===金句===
+04:56 Unknown
+EN | And the notion of the book, if it ever comes to pass, is kind of a post-agentic world.
+ZH | 这本书的概念，如果它真的发生的话，是关于一个后智能体世界的。
+
+06:17 Unknown
+EN | We've seen all the mass layoffs in the tech industry, and we're going through a moment where companies are really experimenting with hyperproductive alternatives to human labor.
+ZH | 我们已经看到了科技行业的大规模裁员，而且我们正在经历一个时刻，公司正在真正实验人类劳动力的超高生产力替代方案。
+
+06:42 Unknown
+EN | I know it sounds very ominous, but I think the key point there, rather than just being frightened of it, is really that the rate of change is accelerating exponentially right now.
+ZH | 我知道这听起来非常不祥，但我认为那里的关键点，而不是仅仅害怕它，真的是变化的速度现在正在指数级加速。
+
+08:01 Unknown
+EN | There's also the kind of panic buying situation of people trying to make sure they aren't priced out of AI and they get actual hardware that will make them a little bit more resilient to that.
+ZH | 还有一种恐慌性购买的情况，人们试图确保自己不会因为 AI 被挤出市场，并获得真正的硬件，这将使他们对那一点更有韧性。
+
+09:18 Unknown
+EN | And part of what they're talking about is that companies are diverting their IT budget or their technology budget away from enterprise software and and services to some of these other things like the panic buying of maybe hardware or infrastructure.
+ZH | 他们谈论的一部分是公司正在转移他们的 IT 预算或技术预算，远离企业软件和服务，转而投向其他一些东西，比如恐慌性购买硬件或基础设施。
+
+10:29 Unknown
+EN | Pretty quietly, I thought, and that was China is now recognizing the value it has in its open models, which are much cheaper to use than these expensive proprietary models in the US.
+ZH | 很安静，我认为，那就是中国现在意识到了其在开放模型中的价值，这些模型比美国昂贵的专有模型便宜得多。
+
+12:40 Unknown
+EN | I don't think this is a blip.
+ZH | 我认为这不是一个小插曲。
+
+16:53 Unknown
+EN | Then all of a sudden the economics do change around like, hey, if I'm using a pay-as-I-go API endpoint, that's going to be a vastly different economics than a small self-hosted model, right?
+ZH | 然后突然之间，经济学确实发生了变化，比如，嘿，如果我使用的是一个按需付费的 API 端点，那将与一个小型的自托管模型有着截然不同的经济学模式，对吧？
+
+18:46 Unknown
+EN | IBM is just one significant company in multiple industries with lots and lots of companies that are essentially taking that enterprise software approach, and they are all at risk.
+ZH | IBM 只是多个行业中的一家重要公司，还有非常多的公司基本上都在采用这种企业软件方法，而且它们都处于风险之中。
+
+19:06 Unknown
+EN | The paradigm of operation is shifting significantly right now.
+ZH | 运作的范式正在发生重大转变。
+
+23:14 Unknown
+EN | And collaborating, the way interactions will occur is agentically in a direct, you know, if you might think of it as B2B in a sense, but think of it as agent to agent.
+ZH | 并且协作，交互发生的方式将是智能体方式，以一种直接的，如果你可以这样想，某种程度上的 B2B，但把它想成是智能体对智能体。
+
+23:29 Unknown
+EN | And the vast majority of interactions across different systems are going to occur agentically.
+ZH | 而且跨越不同系统的绝大多数交互将以智能体方式发生。
+
+24:16 Unknown
+EN | And I think there's a whole industry right there of how do you manage agentics at massive scale with resources and MCPs.
+ZH | 我认为这就在那里形成了一个完整的行业，关于你如何在庞大的规模上管理智能体与资源和 MCP。
+
+24:44 Unknown
+EN | So if you're thinking we're a few years out, then you're gonna get overtaken quite quickly as IBM discovered this morning with their stock.
+ZH | 所以如果你认为我们要过好几年，那你就会相当快地被超越，就像 IBM 今天早上在他们的股票上发现的那样。
+
+25:23 Unknown
+EN | Looper is a very transitory thing because this is evolving so quickly.
+ZH | 循环器是一个非常短暂的事物，因为这演进得太快了。
+
+28:00 Unknown
+EN | Trying to hold on to old roles is not the best strategy.
+ZH | 试图坚持旧角色并不是最好的策略。
+
+31:01 Unknown
+EN | So this is not like they're feeling or they're like they have emotions necessarily or other types of consciousness, but certainly there is this capability of routing and reporting information, which is obviously key to the key to the agentic transformation that we're seeing.
+ZH | 所以这不像它们有感觉或者它们一定有情绪或其他类型的意识，但肯定有这种路由和报告信息的能力，这显然是我们正在看到的智能体转型的关键。
+===END===

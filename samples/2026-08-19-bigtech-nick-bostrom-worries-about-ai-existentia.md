@@ -121,7 +121,7 @@ Bostrom 认为现在有理由认真对待"AI 可能有[[主观体验|主观体�
 **换个口味**
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA · 同概念:开源模型 (open source models)、智能体 (agent)</span>
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%：智能体正在吞噬企业软件]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM暴跌背后的企业软件洗牌]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 
 </div>

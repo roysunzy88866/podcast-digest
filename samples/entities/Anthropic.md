@@ -41,7 +41,7 @@ unlisted: true
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(02:56起):本集提到它是 Fable 模型的开发商,在订阅中限制了 Fable 的使用,主持人猜测 OpenAI 的定价可能会对其产生压力。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:15起):本集把它说成:Thariq 和 Kat 所在的公司,内部团队重度使用 Claude Code 处理了高达 65% 的 PR
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(00:29起):本集提到它是演讲者所代表的 AI 公司,探讨其对异步智能体和 Cloud Managed Agents 平台的看法。
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]]**(08:16起):本集提到 Anthropic 在实施和服务方面加倍下注，以及发布论文讨论模型内部形成功能上类似人脑工作记忆的'工作空间'
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(08:16起):本集提到 Anthropic 在实施和服务方面加倍下注，以及发布论文讨论模型内部形成功能上类似人脑工作记忆的'工作空间'
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(02:33起):本集把它说成:与 OpenAI 并列的优秀闭源模型提供商,在盈利和业务上都在高速增长,不应被监管阻碍其向大众提供服务。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(05:46起):本集作为前沿实验室的代表，被提及已延长其顶级模型的可用期限以应对开源模型的逼近；同时其围绕 Claude 的产品工具套件被视为构建护城河的关键。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(10:54起):本集把它说成:与 OpenAI 并列的「双重故障点」,两者必须保持指数级收入增长才能撑起万亿规模的 AI 数据中心表外债务链条。
@@ -132,7 +132,7 @@ unlisted: true
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为被讨论公司
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为被讨论公司
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为被讨论公司(提及)
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]] — 作为被讨论公司(提及)
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为被讨论公司(提及)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司

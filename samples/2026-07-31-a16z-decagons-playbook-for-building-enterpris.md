@@ -172,7 +172,7 @@ Decagon 能迅速拿下全球最大的几家银行、航空公司和电信公司
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%：智能体正在吞噬企业软件]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM暴跌背后的企业软件洗牌]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层才是下一个金矿：模型不是商品]]<span class="pd-rz">同公司:Anthropic、Decagon、OpenAI · 同概念:智能体 (agent)、微调 (fine-tune)</span>
 

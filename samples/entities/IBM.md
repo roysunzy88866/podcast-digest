@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]]**(03:38起):本集说 IBM 单交易日股价暴跌 25%、抹掉约 700 亿市值，是 50 多年来最惨单日跌幅，导火索是企业把 IT 预算从企业软件和服务抽走向硬件和基础设施
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(03:38起):本集说 IBM 单交易日股价暴跌 25%、抹掉约 700 亿市值，是 50 多年来最惨单日跌幅，导火索是企业把 IT 预算从企业软件和服务抽走向硬件和基础设施
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(20:01起):本集展示了 IBM 1953 年的《IBM Light on the Future》宣传册，用以说明当时人们对计算机的认知；还提到 IBM 在国际象棋上的早期 AI 努力。
 
 ## ① 提到它的金句
@@ -24,7 +24,7 @@ unlisted: true
 
 *2 集*
 
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]] — 作为被讨论公司
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为被讨论公司
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司(提及)
 
 ## ③ 关联

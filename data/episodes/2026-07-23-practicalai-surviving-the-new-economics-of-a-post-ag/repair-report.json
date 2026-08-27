@@ -1,12 +1,12 @@
 {
   "kept": [
     {
-      "i": 1,
-      "timestamp": "08:43",
+      "i": 2,
+      "timestamp": "20:06",
       "speaker": "Daniel Whitenack",
       "trimmed": false,
-      "tsWas": "08:33",
-      "spkWas": "Unknown"
+      "tsWas": "20:06",
+      "spkWas": "Daniel Whitenack"
     },
     {
       "i": 3,
@@ -14,7 +14,7 @@
       "speaker": "Chris Benson",
       "trimmed": false,
       "tsWas": "23:14",
-      "spkWas": "Unknown"
+      "spkWas": "Chris Benson"
     },
     {
       "i": 4,
@@ -22,14 +22,22 @@
       "speaker": "Chris Benson",
       "trimmed": false,
       "tsWas": "24:44",
-      "spkWas": "Unknown"
+      "spkWas": "Chris Benson"
+    },
+    {
+      "i": 5,
+      "timestamp": "25:23",
+      "speaker": "Chris Benson",
+      "trimmed": false,
+      "tsWas": "25:09",
+      "spkWas": "Chris Benson"
     }
   ],
   "dropped": [
     {
-      "i": 2,
+      "i": 1,
       "reason": "逐字命中不了转写稿(裁剪后仍无)",
-      "en": "we've talked to one company that already has 70,000 agents running, one that has, I think it was like 6,000 or something."
+      "en": "25 single trading session collapse which is about 70 billion in market value ... This is the worst single-day drop in over 50 years, outpacing even its losses during the 1987 Black Monday market crash."
     }
   ]
 }

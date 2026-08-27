@@ -18,7 +18,7 @@ unlisted: true
 - **[[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]]**(61:33起):本集提到在定稿后，你可以通过 Figma MCP 协议把动效设计发给大语言模型（LLM）去进行代码开发。
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(14:50起):本集把它说成:一种让大模型更好地与外部工具（如 Figma）或 API 进行通信的标准，能大幅拓展 AI 的执行边界。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(00:45起):被描述为让大模型与 Slack、Gmail 等外部系统安全通信的集成编织层标准。嘉宾将私有知识库部署为本地 MCP 服务器，从而随时通过桌面端安全调用。
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]]**(21:48起):本集说 MCP 是一种让 AI 智能体连接外部工具的标准协议，企业软件公司通过它把数据平台和功能以智能体方式开放出去
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(21:48起):本集说 MCP 是一种让 AI 智能体连接外部工具的标准协议，企业软件公司通过它把数据平台和功能以智能体方式开放出去
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(01:54起):本集提到它是出自 Labs 团队的代表性创新产品之一。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(01:59起):讲者将 MCP(模型上下文协议)归类为编排层的一部分,与工具、技能和子智能体一样,属于 harness 的范畴。
 - **[[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]]**(05:27起):本集把它说成：一个简单的开放协议，正在智能体网络中发挥和 HTTP 对互联网一样的基础性历史作用
@@ -49,7 +49,7 @@ unlisted: true
 - [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为概念(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念(提及)
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]] — 作为概念
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为概念
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念(提及)
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念(提及)
 - [[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]] — 作为概念

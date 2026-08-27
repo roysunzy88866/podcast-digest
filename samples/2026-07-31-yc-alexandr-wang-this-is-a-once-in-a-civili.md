@@ -142,7 +142,7 @@ jsonLd: |
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%：智能体正在吞噬企业软件]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM暴跌背后的企业软件洗牌]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 的选择：用 AI 构建更多，而不是更少]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
 

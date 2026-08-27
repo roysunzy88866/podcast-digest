@@ -28,7 +28,7 @@ unlisted: true
 - **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(00:03起):本集把它说成:单人、同步的智能体编码工具，你开一个会话盯着它每一步输出；最初是 Boris 的副业项目，内部发帖只得到六个反应，后来公司一半人每周在用
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集将其定位为集成在 VS Code 等 IDE 中的编程扩展。嘉宾用它从零编写知识库架构，并构建了赢得黑客马拉松的「对抗性智能体评估器」。(注:英文稿中误听为 plot code / cloud code)
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:去年二月发布的编码工具,从最初需死盯权限提示,演变为可托付复杂任务、甚至能自主做代码审查的智能体
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]]**(20:24起):本集说很多人还停留在跟 Claude Code 一对一交互的阶段，觉得成千上万智能体跑在企业基础设施里很遥远
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(20:24起):本集说很多人还停留在跟 Claude Code 一对一交互的阶段，觉得成千上万智能体跑在企业基础设施里很遥远
 - **[[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]]**(10:04起):本集把它说成：一个大家使用相同的系统提示和工具的马具（harness）；在基准测试中，PAT 的确定性架构在代码生成速度和二次执行延迟上均优于它。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:31起):本集将其描述为 Anthropic Labs 团队孵化的前沿产品，它与 Opus 4.5 模型相互成就，作为载体让用户真正感受到了前沿模型的魔力，迎来了爆发式的采用。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(05:42起):本集把它说成:在讨论智能体编码时代新范式时顺带提及的工具之一,代表了两年前到现在的任务复杂度巨变。
@@ -79,7 +79,7 @@ unlisted: true
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为概念
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]] — 作为概念(提及)
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为概念(提及)
 - [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]] — 作为被讨论公司
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)

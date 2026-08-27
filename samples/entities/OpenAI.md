@@ -35,7 +35,7 @@ unlisted: true
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(01:40起):本集把它说成:前沿 AI 研究实验室,曾提供 GPT-2 等早期开源模型;但也指出这类大实验室常背着「模型必须完美、产品必须达到高标准才能见人」的包袱。
 - **[[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]]**(09:42起):本集的开发者日主办方,主张现在是做工程师最好的时代,目标是打造彻底开放、人人可建生态的 AI 智能体底层平台
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(08:24起):本集提到它发起了 Parameter Golf 机器学习挑战赛,且指出它的前沿模型也处于 12 小时以上的任务视界范围。
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]]**(08:16起):本集提到 OpenAI 在实施和服务方面加倍下注，以及中国存在转售其 API 访问的代币黑市
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(08:16起):本集提到 OpenAI 在实施和服务方面加倍下注，以及中国存在转售其 API 访问的代币黑市
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(02:33起):本集把它说成:提供好用、便利的封闭模型与服务的头部实验室;黄仁勋认为更多开源和免费 AI 的普及反而会让它更加蓬勃发展。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(05:46起):本集作为前沿实验室的代表之一，被提及曾谈论构建自动化的 AI 研究实习生，且面临开源模型带来的定价与竞争压力。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(10:54起):本集把它说成:尚未实现长期盈利、但已被大型科技公司依赖其持续付钱来支撑 AI 数据中心债务的 AI 实验室,其 API 开放策略被质疑与「AGI 或破产」叙事自相矛盾。
@@ -123,7 +123,7 @@ unlisted: true
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为被讨论公司
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为被讨论公司(提及)
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]] — 作为被讨论公司(提及)
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为被讨论公司(提及)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司

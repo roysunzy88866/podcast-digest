@@ -165,7 +165,7 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 **换个口味**
 
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)、MCP</span>
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%：智能体正在吞噬企业软件]]<span class="pd-rz">同概念:MCP、智能体 (agent)、开源模型 (open source models)</span>
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM暴跌背后的企业软件洗牌]]<span class="pd-rz">同概念:MCP、智能体 (agent)、开源模型 (open source models)</span>
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、智能体 (agent)</span>
 
 </div>

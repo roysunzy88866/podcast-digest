@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(03:26起):本集核心探讨的商业模式，嘉宾指出任何 SaaS 公司都有一个由流失率决定的绝对规模天花板（每月新增客户数 ÷ 流失率），除非解决流失或保证净留存达标，否则绝对长不大
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:13起):Dan 反对「SaaS 末日论」，预测智能体会成倍增加 SaaS 的调用量和用户数，并且用户在自己电脑的本地 AI 环境中使用这些网页工具会消耗自己的大模型算力（tokens），从而大幅节省 SaaS 厂商的成本。
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(11:09起):本集指出传统 SaaS 的打包方式（数据模型+业务逻辑+界面）必须被拆解重组。底层数据模型（如总账）应当保留，但应用孤岛将被打破，通过智能体重组创造新价值。
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]]**(21:11起):本集说当智能体能接管原来靠企业软件走的工作流时，钱就不再花在 SaaS 订阅上了
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(21:11起):本集说当智能体能接管原来靠企业软件走的工作流时，钱就不再花在 SaaS 订阅上了
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(07:26起):本集把它说成:通过云端交付的应用软件,是一个大约 5000 亿美元的市场
 - **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]]**(16:34起):本集说 SaaS 时代积压了 5.8 万亿美元价值且'卡住了'，SaaS 公司卖的是让人更高效的工具，很难转为按结果付费模式，否则股价会先崩一半
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(01:29起):本集说 SaaS 没死，只是使用者变了——智能体擅长按按钮，所以软件回来了但变成智能体在用
@@ -49,7 +49,7 @@ unlisted: true
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%：智能体正在吞噬企业软件》]] — 作为概念(提及)
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为概念(提及)
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念(提及)
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]] — 作为概念
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为概念(提及)
