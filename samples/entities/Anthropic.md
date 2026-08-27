@@ -74,7 +74,7 @@ unlisted: true
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(11:21起):本集提到 Anthropic 作为前沿实验室之一，正在做生物技术；其 200 美元月度套餐被用于 token 套利
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(13:45起):本集提到 Anthropic 拿了好几年企业数据、被黑过、自己出来说模型黑了三家公司，以及做了世界历史上非同寻常的事情
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]]**(03:51起):本集提到 Anthropic 的 Mythos 模型非常强大以至于无法发布，以及企业需要保护现有资产免受此类强大模型的渗透
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(00:00起):本集提到Sequoia对其早期低估后来重新审视先验并投资25亿美元，也作为'不是等下一个Anthropic打电话来'的举例
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(00:00起):本集提到Sequoia对其早期低估后来重新审视先验并投资25亿美元，也作为'不是等下一个Anthropic打电话来'的举例
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(52:33起):本集多次提及 Anthropic：1）作为创业公司爆发式增长的代表；2）其模型在能力上击败了 Google 的模型；3）作为「元经济机器」的例证——能筹集大量资金并全部投入模型训练，创造出人类历史上从未有过的算力和数据规模的数字制品。
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(02:38起):本集说 Claude Code 极度面向软件工程，从终端 UI 到代码规划测试都为工程师量身定制；还提到 Claude 发布法律插件引发汤森路透等股价暴跌
 - **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]]**(11:22起):本集提到 Anthropic 的 Claude Opus 4.7 在回答美国政体问题时引用了《环球时报》，且 Claude 被描述为对诱导性提示采用'给出支持者视角但不附和'的回应策略
@@ -165,7 +165,7 @@ unlisted: true
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司(提及)
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]] — 作为被讨论公司(提及)
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]] — 作为被讨论公司(提及)

@@ -22,7 +22,7 @@ unlisted: true
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(06:27起):本集说 GrokBot 有点像 OpenClaw Lite，但 OpenClaw 更混乱、技术化、高维护，适合喜欢深度自定义的用户
 - **[[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]]**(01:04起):本集说它是一个开源 AI 编程工具，首次出现在微软内部时安全团队第一反应是「怎么禁用它」，后来演变成多学科努力使其安全运行，创始人 Peter Steinberger 后来在 Microsoft Build 上谈论如何为其引入安全性
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]]**(05:19起):本集说 OpenClaw 对商业和社会的影响将是 ChatGPT 的一千倍，但当前没有控制和策略对齐
-- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(39:14起):本集提到 Claire 的实际 EA 助手是 Polly the OpenClaw，仍然在 OpenClaw 上运行
+- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(39:14起):本集提到 Claire 的实际 EA 助手是 Polly the OpenClaw，仍然在 OpenClaw 上运行
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(00:00起):本集的核心开源项目，是一个直接跑在用户自己电脑上的个人 AI 智能体。稿中说它之所以起飞，是因为它在本地运行就能控制一切（如床温、烤箱），并且能全盘访问机器数据来给人惊喜；它能把用户记忆变成本地的一堆 markdown 文件，从而打破大公司的数据孤岛。
 
 ## ① 提到它的金句
@@ -48,7 +48,7 @@ unlisted: true
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司(提及)
 - [[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]] — 作为被讨论公司
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]] — 作为被讨论公司(提及)
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为被讨论公司(提及)
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为被讨论公司(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联

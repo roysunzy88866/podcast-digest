@@ -18,7 +18,7 @@ aliases: ["cognition"]
 - **[[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]]**(06:13起):本集提到它有 Deep Wiki 产品(由 AI 生成的代码库说明书),用于类比探讨生产世界模型的概念。
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(01:04起):Walden 联合创立的公司,构建 AI 软件工程师 Devon;他们近期发布了能把 Fable 级别模型智能成本降低 40% 的模型路由系统 Fusion。
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(25:18起):本集说 Cognition 这家硅谷热门公司早期的 go-to-market 主力其实是巴西，因为巴西企业渴望尽快采用 AI 且提供商不多，Cognition 在巴西建立了很强的网络并从中获得了早期收入的很大份额
-- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]]**(10:08起):本集提到 Ryan 因在 Devon 上月花两万美元，去找 Cognition 的人谈并拿到了每月等额的免费额度
+- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(10:08起):本集提到 Ryan 因在 Devon 上月花两万美元，去找 Cognition 的人谈并拿到了每月等额的免费额度
 
 ## ② 出现在这些集
 
@@ -30,7 +30,7 @@ aliases: ["cognition"]
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]] — 作为被讨论公司(提及)
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为被讨论公司
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司
-- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为被讨论公司(提及)
+- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

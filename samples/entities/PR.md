@@ -14,7 +14,7 @@ unlisted: true
 - **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(02:48起):本集说 Codex 把代码审查从 10 到 15 分钟压到 2 到 3 分钟，人只需关注 30% 而不是 100%，小的 PR 甚至不需要人审
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(19:45起):本集把它说成：高级领导者亲自下场提交代码补丁（如 Mike Krieger）的机制，这种卷起袖子干脏活的低杠杆举动实则非常高杠杆，能带动团队士气。
 - **[[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]]**(02:59起):本集反复讨论 PR 的创建方式——标题、提交信息、PR 描述都要对标维护者风格以降低审阅者认知负荷；Bruno 有时在一个 PR 的描述上花两三小时
-- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(17:55起):本集说 Ryan 现在每天大概提交 40 个 PR，手动追踪根本不现实，因此需要 Watchdog 交叉比对 PR 状态，以及 Merge Mommy 和 Land PR 来自动化 PR 审查流程
+- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(17:55起):本集说 Ryan 现在每天大概提交 40 个 PR，手动追踪根本不现实，因此需要 Watchdog 交叉比对 PR 状态，以及 Merge Mommy 和 Land PR 来自动化 PR 审查流程
 
 ## ① 提到它的金句
 
@@ -33,7 +33,7 @@ unlisted: true
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为概念(提及)
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念(提及)
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为概念
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为概念
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为概念
 
 ## ③ 关联
 

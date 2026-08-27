@@ -15,7 +15,7 @@ unlisted: true
 
 ![[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n#^q9]]
 
-![[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#^q4]]
+![[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#^q1]]
 
 ## ② 出现在这些集
 
@@ -25,7 +25,7 @@ unlisted: true
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为联合主持
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为主持
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为主持
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为联合主持
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为联合主持
 
 ## ③ 他谈到的
 

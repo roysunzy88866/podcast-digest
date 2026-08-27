@@ -1,5 +1,5 @@
 ---
-title: Sequoia 合伙人拆解：如何识人、押注与智能体新经济
+title: Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济
 podcast: The Twenty Minute VC
 date: 2026-08-25
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "78:39"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ.jpg"
-description: Sequoia 合伙人 Jean-Charles 揭开红杉选人、IC 投票内幕，并提出「智能体是新客户」「服务伪装成软件的下一个万亿美元公司」两大判断。
+description: Sequoia 合伙人 Jean-Charles 聊 Sequoia 内部怎么找项目、怎么判创始人，以及为什么他认为智能体是新客户、服务型经济是下一个万亿美元赛道。
 host: "[[Julien Bek]]"
 cohosts: ["[[Harry Stebbings]]"]
 companies: ["[[Sequoia]]"]
@@ -18,18 +18,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#post","headline":"Sequoia 合伙人拆解：如何识人、押注与智能体新经济","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ","description":"Sequoia 合伙人 Jean-Charles 揭开红杉选人、IC 投票内幕，并提出「智能体是新客户」「服务伪装成软件的下一个万亿美元公司」两大判断。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ.jpg","about":[{"@type":"Person","name":"Julien Bek"},{"@type":"Person","name":"Harry Stebbings"},{"@type":"Organization","name":"Sequoia"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Copilot"},{"@type":"Thing","name":"自动驾驶 (autopilot)"},{"@type":"Thing","name":"服务伪装成软件 (software company that masquerades as a service business)"},{"@type":"Thing","name":"IC"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Sequoia 合伙人拆解：如何识人、押注与智能体新经济","item":"https://talk.solomind.cc/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#post","headline":"Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ","description":"Sequoia 合伙人 Jean-Charles 聊 Sequoia 内部怎么找项目、怎么判创始人，以及为什么他认为智能体是新客户、服务型经济是下一个万亿美元赛道。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ.jpg","about":[{"@type":"Person","name":"Julien Bek"},{"@type":"Person","name":"Harry Stebbings"},{"@type":"Organization","name":"Sequoia"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"Copilot"},{"@type":"Thing","name":"自动驾驶 (autopilot)"},{"@type":"Thing","name":"服务伪装成软件 (software company that masquerades as a service business)"},{"@type":"Thing","name":"IC"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济","item":"https://talk.solomind.cc/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sequoia 合伙人拆解：如何识人、押注与智能体新经济</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Sequoia 合伙人拆解：如何识人、押注与智能体新经济
+# Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济
 
 <div class="pd-byl"><b>Julien Bek</b> · Sequoia 合伙人 · 2026-08-25</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">Sequoia 的每个人都是猎人。</div><div class="a">— Julien Bek <button class="pd-ts" data-t="00:07" data-who="Julien Bek" data-en="Everyone at Sequoia is a hunter." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我同意，这就是为什么我说一句让大多数人浑身发凉的话，那就是十亿美元可能只是新的 Series A。</div><div class="a">— Harry Stebbings <button class="pd-ts" data-t="11:07" data-who="Harry Stebbings" data-en="I agree, which is why I say something which gives most people white shivers, which is a billion dollars could just be the new Series A." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Julien Bek]] · [[Harry Stebbings]]
@@ -38,126 +38,124 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[Copilot]] · [[自动驾驶]] · [[服务伪装成软件]] · [[IC]]
 
-SpaceX 投资拿到 [[IC|IC]]（投资委员会）上投票时，有人投了 1 分——满分 10 分的最低档。发起人没有放弃，逼着所有合伙人飞过去亲眼看了之后，先做了一笔小投资，后来加码变成大投资。几年后，这成了 [[Sequoia|Sequoia]] 历史上最好的投资之一 <button class="pd-ts" data-t="17:09" data-who="Unknown" data-en="We push each other like you have no idea. Credits to Sean when he brought in the SpaceX investment. We vote on companies." aria-label="回原文"></button>。
+Jean-Charles 是 [[Sequoia|Sequoia]] 的合伙人，这集是他跟认识近十年的朋友、20VC 主持人 [[Harry Stebbings|Harry Stebbings]] 聊 Sequoia 幕后的运作方式。他入司第一天凌晨五点到办公室，发现 Doug Leone 已经接完第一个电话了——Sequoia 不是等电话响，每个人都是猎人 <button class="pd-ts" data-t="08:27" data-who="Jean-Charles" data-en="What does everyone think they know about Sequoia that they actually get wrong? Everyone thinks that we're just waiting for the phone to ring for the next Anthropic to call us to invest." aria-label="回原文"></button>。
 
-## 猎人，不是等电话的
+## 不是等电话响，是主动猎杀
 
-Sequoia 早期团队就 11 个人，差不多一支足球队的规模。每个人都在场上得分，没有谁是坐等下一个 Anthropic 打电话来的。早期团队里，越资深的人越被期望产出，因为年轻合伙人更需要他们 <button class="pd-ts" data-t="08:35" data-who="Unknown" data-en="That's completely false. Everyone at Sequoia is a hunter. We were 11 people a couple of months back in the early team." aria-label="回原文"></button>。
+Sequoia 早期团队只有 11 个人，差不多一支足球队。每个人都得在场上得分，不因资历深浅而例外。
 
-最好的投资有一个共同特征：发起人的信念最高。每次 Offsite 回顾几十年前的基金回报，数字非常吓人，但反复被验证的规律就是——最好的投资永远属于那个信念最强的人 <button class="pd-ts" data-t="18:08" data-who="Unknown" data-en="Every time we try to be cute to look at the numbers, oh, maybe if we increase the ownership there and the dollars there. But as we're always reminded, the best investments in all the funds are always the companies where the sponsor had the highest conviction." aria-label="回原文"></button>。
+他举了合伙人 Constantine 的例子：从 Ken Griffin 还是学生时就建立关系，做了多年导师，反复问"能不能投"，直到对方答应，这才拿下了 Citadel Securities 的投资 <button class="pd-ts" data-t="09:07" data-who="Jean-Charles" data-en="I'll give you a story to illustrate it. Constantine Buehler, my partner, helped us lead the investment in Citadel Securities, Ken Griffin's company. They had never taken outside capital." aria-label="回原文"></button>。Sean 引入 SpaceX 投资时，[[IC|IC]]（投资委员会）里有人投了 1 分（最低分），Sean 没放弃，把所有合伙人拉去现场看，先做了一笔小投资，后来才加码——现在那是公司历史上最好的投资之一 <button class="pd-ts" data-t="17:09" data-who="Jean-Charles" data-en="We push each other like you have no idea. Credits to Sean when he brought in the SpaceX investment. We vote on companies." aria-label="回原文"></button>。每次 offsite 回顾几十年前的基金回报，结论永远是一个：最好的投资，一定是发起人信念最强的那几个 <button class="pd-ts" data-t="18:08" data-who="Jean-Charles" data-en="Every time we try to be cute to look at the numbers, oh, maybe if we increase the ownership there and the dollars there. But as we're always reminded, the best investments in all the funds are always the companies where the sponsor had the highest conviction." aria-label="回原文"></button>。
 
-信念强到什么程度？Airbnb 当年被大多数基金拒绝，睡别人地板上的充气床垫听起来是个糟糕主意，但 Sequoia 领了种子轮，后来持续加注，成了资金回报率最高的投资之一 <button class="pd-ts" data-t="18:36" data-who="Unknown" data-en="I think where you turn small dollars into big dollars, they have to be controversial. I wasn't there, but I heard the Airbnb story multiple times over where I think that Brian Chesky had been turned down by most other firms." aria-label="回原文"></button>。
+## 怎么读创始人：先展露脆弱，再连问五个为什么
 
-## 识人：先敞开自己，再连问五个为什么
+Jean-Charles 的方法是在前 30 分钟先敞开自己：讲父母离异、母亲患癌、跟父亲住一居室睡床垫。不是拿来当武器，而是让对方也愿意打开。他要看的是这个人的"尖刺"（spike）——那个让他与众不同的东西 <button class="pd-ts" data-t="31:09" data-who="Jean-Charles" data-en="Help me. Well, first, you have to be vulnerable with founders. Otherwise, they won't open up." aria-label="回原文"></button>。
 
-Jean-Charles 的做法是：见面先讲自己的故事。父母离异、母亲患癌时他六岁得自己哄自己睡觉、跟父亲住一居室睡床垫——先展露脆弱，创始人才会打开。30 分钟里要搞清楚这个人有什么「尖刺」（spike），什么是让他卓越的东西 <button class="pd-ts" data-t="31:09" data-who="Unknown" data-en="Help me. Well, first, you have to be vulnerable with founders. Otherwise, they won't open up." aria-label="回原文"></button>。
+今年他第一次抓到一个欺诈创始人：对方说六个月从零做到 7 个 ARR，讲自己从偏远小国拿到斯坦福录取又拒绝了。Jean-Charles 就一直问"为什么"，观察肢体语言加速、紧张——没有当场拆穿，但几天后对方以"家庭紧急情况"取消见面，当天其他投资人就通报此人造假 <button class="pd-ts" data-t="33:15" data-who="Jean-Charles" data-en="You just have to ask why multiple times. I remember this year is the first year I uncovered a fraudulent founder. It was very interesting because I remember in the first meeting, that person said, you know, our numbers are going from zero to seven of AR in basically six months in pretty hot category." aria-label="回原文"></button>。他的结论：创始人都知道投资人想听什么，你得多问几个为什么才能到底 <button class="pd-ts" data-t="35:02" data-who="Jean-Charles" data-en="And they're just going to say it to you in a very programmatic way. So that's why I ask why five times and you'll get to the bottom of it. It is hard, especially when we are as open as we are about what we look for." aria-label="回原文"></button>。
 
-最大的错误不是投错公司，而是错过对的公司——是遗漏错误，不是 commission 错误 <button class="pd-ts" data-t="31:33" data-who="Unknown" data-en="And I cannot make a mistake because this job is so unforgiving, not when you invest in the wrong company, but when you don't invest in the right companies. So it's, you know, omission mistakes, not commission mistakes." aria-label="回原文"></button>。
+关于傲慢是不是减分项，他引用了 Don Valentine（Sequoia 创始人）的经典框架：把你喜欢的创始人和能赚钱的创始人画一个 2×2 矩阵，你的工作是搞清楚你在哪个象限赚钱。傲慢可能只是"尖刺"的代价，关键看有没有真尖刺——没有尖刺却用傲慢掩盖弱点，那才是危险信号 <button class="pd-ts" data-t="35:21" data-who="Jean-Charles" data-en="Is it bad? I'll go back to the Don Valentine quote. If you look at founders you like versus founders who make money as a two by two matrix, your job is to figure out in which part of the quadrant we make money." aria-label="回原文"></button>。
 
-怎么分辨真诚还是表演？连问五个为什么。
+他也讲了一个误判：Lovable 创始人 Anton 在创立公司前跟他吃过午饭，当时三个人随意聊天，他没有带着计划去问对的问题，低估了对方 <button class="pd-ts" data-t="36:34" data-who="Jean-Charles" data-en="Yeah. On your question around a founder misread, I had lunch with Anton Ossica from Lovable before he founded the company. I just didn't see it." aria-label="回原文"></button>。另一面，Granola 的 Chris 第一次见投资人时表达不清、没有魅力，但推荐信极其惊人——他学到的教训是，种子阶段推荐信的权重应该比什么都高 <button class="pd-ts" data-t="36:06" data-who="Jean-Charles" data-en="So like, I got introduced to Chris at Granola, first ever investor that he met. And honestly, he wasn't that articulate and he wasn't a great salesperson. And it was a loose idea." aria-label="回原文"></button>。
 
-他今年第一次抓到一个欺诈创始人：对方声称六个月从零做到 7 个 ARR，自我介绍里说放弃了斯坦福的录取去了另一所大学。问为什么，肢体语言就变了，语速加快，开始紧张。几天后那个创始人以家庭紧急情况取消了见面，当天晚些时候就有投资人发消息说此人暴露为欺诈者 <button class="pd-ts" data-t="33:12" data-who="Unknown" data-en="How do you actually determine if it's kind of genuine or not? You just have to ask why multiple times. I remember this year is the first year I uncovered a fraudulent founder." aria-label="回原文"></button>。
+做客户尽调时还要看文化差异：德国客户打 NPS（净推荐值）一致给 7 分，不是不满意，是"我们总还能更好"——法国和德国客户要加一两分，美国客户要扣一两分 <button class="pd-ts" data-t="38:05" data-who="Jean-Charles" data-en="We always ask the NPS question at the end, on a scale of 0 to 10, what do you think of the product? And they were just so consistently saying 7. I remember asking, oh, why not more?" aria-label="回原文"></button>。
 
-推荐信也有文化偏差。他做第一单尽职调查时，德国客户 NPS 打分一致给 7，合伙人问为什么不够正面。他的经验是：法国和德国客户要加一两分，美国客户要扣一两分 <button class="pd-ts" data-t="37:43" data-who="Unknown" data-en="I think that that part is very important. I remember the first ever diligence I did at Sequoia was for a company called Tacto in our portfolio. And I called up a bunch of their customers who were what we call middle stand." aria-label="回原文"></button>。
+## Sequoia 内部怎么拍板
 
-## 傲慢能不能接受
+IC 会议几十年都是周一开，现在在尝试异步模式：先发备忘录，每个人在文档里写意见，再决定要不要开实时会议。原因是 IC 适合快思考，异步适合慢思考，两者结合决策更好 <button class="pd-ts" data-t="25:23" data-who="Jean-Charles" data-en="We've been adapting the same recipe. What's interesting is that we're actually experimenting with new approaches. We're trying to do things a bit more asynchronously." aria-label="回原文"></button>。创始人还是要向全员 pitch，他不给脚本——要看到本质，不能只看到排练过的版本 <button class="pd-ts" data-t="26:22" data-who="Jean-Charles" data-en="Yeah, yeah. The founders still pitch. It's very important." aria-label="回原文"></button>。
 
-Don Valentine（Sequoia 创始人）有个框架：把你喜欢的创始人和能赚钱的创始人画一个 2×2 矩阵，你的工作是弄清楚在哪个象限能赚钱。不是你不喜欢就不会让你赚钱——傲慢可能恰恰是「尖刺」的代价，前提是他真的有尖刺。没有尖刺却用傲慢掩盖弱点，那才是危险信号 <button class="pd-ts" data-t="35:21" data-who="Unknown" data-en="Is it bad? I'll go back to the Don Valentine quote. If you look at founders you like versus founders who make money as a two by two matrix, your job is to figure out in which part of the quadrant we make money." aria-label="回原文"></button>。
+投票流程是：先独立打分（了解底线），再讨论，讨论后再投一次。发起人可以根据结果决定是否推进。
 
-误判的例子：Lovable 的创始人 Anton，见面时没带着计划来，只是随便吃了顿饭，Jean-Charles 低估了他。另一个教训来自 Granola 的 Chris——不善言辞、没有魅力、想法松散，但推荐信好得离谱。从那以后他在种子期更看重推荐信 <button class="pd-ts" data-t="36:02" data-who="Unknown" data-en="Can you tell me about a founder misread that you have, which maybe changed how you think about founder reads? So like, I got introduced to Chris at Granola, first ever investor that he met." aria-label="回原文"></button>。
+但如果 Alfred 投了 1 分你还强行按绿灯，那最好这笔投资确实好——否则你在公司待不长 <button class="pd-ts" data-t="27:33" data-who="Jean-Charles" data-en="And so that I see then happens, and you said that about Signal, then we, and Cool, entrepreneur goes away, continues to build his business or her business, and then we vote a yes or a no, we give it a one to 10, what happens now?" aria-label="回原文"></button>。如果所有人都是 7、8 分，反而危险，因为最好的创始人知道投资人想听什么，能" retrofit"（改造）叙事。这时候他们会故意安排人唱反调，写"事前验尸"——如果这笔投资失败了，最可能是什么原因 <button class="pd-ts" data-t="30:10" data-who="Jean-Charles" data-en="What we do in those cases, we find it weird. First, if everyone's a seven or eight, quite dangerous. Because look, founders know what we want to hear." aria-label="回原文"></button>。
 
-## IC 怎么真正运作
+## 从四位合伙人身上学到的东西
 
-Sequoia 做了大概五十年周一 IC 会议，现在在试新方法：备忘录共享后每个人异步写意见，谁想听大家讨论可以再召集一次 IC。原因是 IC 适合快思考，异步写适合慢思考，两者结合决策更好 <button class="pd-ts" data-t="25:09" data-who="Unknown" data-en="How does it actually work to get a deal done? It's funny because you know we're well into it's our like fifth decade running and probably for five decades we've been doing Monday ICs in person or on now on Zoom." aria-label="回原文"></button>。
+Doug Leone：面试时先问"你最好的推荐人是谁、为什么"，等对方说完再问"最差的推荐人是谁、为什么"。他不找完美，找清晰 <button class="pd-ts" data-t="40:53" data-who="Jean-Charles" data-en="What's the one lesson you learned from Doug? The one lesson from Doug is a question he asks in interviews. He starts by asking, who is your best reference and why?" aria-label="回原文"></button>。
 
-创始人还是要向整个 IC 推介。但他刻意不帮创始人过度准备——给了脚本就看不到本质了。有时候人在 IC 上表现会变差，这本身也是信号 <button class="pd-ts" data-t="26:17" data-who="Unknown" data-en="Does every entrepreneur pitch the IC? How do you make sure that the partners have enough data to have an informed opinion? Yeah, yeah." aria-label="回原文"></button>。
+Pat Grady：人像向量，= 方向 × 大小。方向是"为什么做这件事"，大小是"有多大野心、愿不愿意吃苦"。另外 Pat 说过一句话让他印象深刻：每一家上市的公司我们在某个阶段都见过——这说明我们错过的比投中的多得多，所以每次会议都必须带着精力和准备来 <button class="pd-ts" data-t="43:39" data-who="Jean-Charles" data-en="What about Pat? Oh, Pat has got this great framework. People are like vectors and vectors are the product of their direction and magnitude." aria-label="回原文"></button>。
 
-投票流程：先在讨论前独立打分（摸底），然后讨论，讨论完再正式投票。发起人有权做最终决定，但如果 Alfred 投了 1 分你还硬按绿灯，你在 Sequoia 待不长 <button class="pd-ts" data-t="27:33" data-who="Unknown" data-en="And so that I see then happens, and you said that about Signal, then we, and Cool, entrepreneur goes away, continues to build his business or her business, and then we vote a yes or a no, we give it a one to 10, what happens now?" aria-label="回原文"></button>。
+Alfred Lin：不要把异类运营者误认为异类创始人。在大公司做过很多产品、人缘好，不等于能从零创出一家公司。现在大家都在犯"简历陷阱"的错，尤其 AI 领域 <button class="pd-ts" data-t="45:06" data-who="Jean-Charles" data-en="Alfred Lin. Alfred Lin, the latest piece of wisdom that I loved from Alfred was do not mistake an outlier operator for an outlier founder. And that's very easy to make." aria-label="回原文"></button>。
 
-全员打 7、8 分反而危险——说明创始人太会投其所好。这时候会指定一个人扮魔鬼代言人，写这个投资的「事后剖析」（pre-mortem），假设它失败了，会是因为什么 <button class="pd-ts" data-t="30:07" data-who="Unknown" data-en="So that happens. What we do in those cases, we find it weird. First, if everyone's a seven or eight, quite dangerous." aria-label="回原文"></button>。
-
-## 四位合伙人的识人框架
-
-**Doug Leone**：先问你最好的推荐人是谁、为什么，等你说完，再问最差的推荐人是谁、为什么。看的是坦荡程度，不是找完美 <button class="pd-ts" data-t="40:53" data-who="Unknown" data-en="What's the one lesson you learned from Doug? The one lesson from Doug is a question he asks in interviews. He starts by asking, who is your best reference and why?" aria-label="回原文"></button>。
-
-**Pat Grady**：人是向量 = 方向 × 大小。方向是你为什么做这件事，大小是你有多大的野心、愿不愿扛痛。
-
-预测一个人下一步轨迹，搞清这两个维度就够了 <button class="pd-ts" data-t="43:39" data-who="Unknown" data-en="What about Pat? Oh, Pat has got this great framework. People are like vectors and vectors are the product of their direction and magnitude." aria-label="回原文"></button>。Pat 还有一句话印在墙上：「我们只和我们的下一笔投资一样好」<button class="pd-ts" data-t="44:41" data-who="Unknown" data-en="Again, my first day at Sequoia, we were all asked to write this one sentence. We are only as good as our next investment. And we have that printed on the wall now." aria-label="回原文"></button>。
-
-**Alfred Lin**：不要把异类运营者误认为异类创始人。在 OpenAI、DeepMind 这种镀金简历上尤其容易犯这个错——做得好不代表能从零创始 <button class="pd-ts" data-t="45:06" data-who="Unknown" data-en="Alfred Lin. Alfred Lin, the latest piece of wisdom that I loved from Alfred was do not mistake an outlier operator for an outlier founder. And that's very easy to make." aria-label="回原文"></button>。
-
-**Sean McGuire**：除了 IQ 和 EQ，还有两个维度——判断力（在复杂系统里找解决方案的能力）和政治系数（在政治复杂的系统里导航的能力）。他的论点是判断力比 IQ 重要，政治系数比 EQ 重要 <button class="pd-ts" data-t="45:47" data-who="Unknown" data-en="Yeah, I'll give you another one from Sean that I liked. Everyone thinks of people as either IQ or EQ. IQ is the intellectual horsepower." aria-label="回原文"></button>。他还借用国际象棋 ELO 分的比喻：你要问 2400 分的选手谁是异类，别问 2000 分的——杰出的人才能识别杰出 <button class="pd-ts" data-t="42:17" data-who="Unknown" data-en="Just on the reference point, you know, you asked me about Sean. He has this ELO methodology framework where if you've played chess, ELO is the score you get attributed, depending on how good you are." aria-label="回原文"></button>。
+Sean McGuire：除了 ELO 评分法（只问 2400 分的棋手谁是另一个异类，不问 2000 分的），还有 IQ/EQ 之外的维度——判断力（在复杂系统中找方案的能力）和政治系数（在政治复杂的系统中导航的能力）。他的论点是判断力比 IQ 重要，政治系数比 EQ 重要 <button class="pd-ts" data-t="42:17" data-who="Jean-Charles" data-en="Just on the reference point, you know, you asked me about Sean. He has this ELO methodology framework where if you've played chess, ELO is the score you get attributed, depending on how good you are." aria-label="回原文"></button>。
 
 ## 智能体是新客户
 
-进入 AI 第三年，[[智能体|智能体]]流量已经和人类流量持平。有预测说五年后智能体流量会是人类的 1000 倍 <button class="pd-ts" data-t="47:18" data-who="Unknown" data-en="What should we take away from agents being the new customer? Yeah, we're three years into AI and we're already at parity in terms of agent traffic to human traffic." aria-label="回原文"></button>。
+进入 AI 第三年，[[智能体|智能体]]流量已经跟人类流量持平。CloudFlare 说五年后智能体流量会是人类的 1000 倍。他的论点是：需求侧出现了一个新客户，但我们还没有像对待人类客户那样对待它 <button class="pd-ts" data-t="47:13" data-who="Jean-Charles" data-en="You said agents are the new customer. What does that fundamentally mean? What should we take away from agents being the new customer?" aria-label="回原文"></button>。
 
-今天的界面——无论桌面还是移动端——本质上是业务和客户意图之间的一个转化层，20 年来我们一直在优化这个层。但现在需要的是「比特级完美」的平台，能转化智能体，而不只是转化人类 <button class="pd-ts" data-t="48:07" data-who="Unknown" data-en="If you have a 500 IQ AI, of course they're going to make the decision on your behalf because that's just a rational thing to do. And today we've basically built these interfaces, whether it's on desktop or mobile, that are basically a layer that sits between your business and the customer intent." aria-label="回原文"></button>。
+快思考的答案是"UI 归零、品牌忠诚消失、逐底竞争"。慢思考的答案不同：智能体像人一样有偏见——预训练数据带来的偏见、人类标注带来的偏见。
 
-快思考的答案是 UI 归零、品牌忠诚消失、逐底竞争。慢思考的答案不一样：智能体有偏见——预训练数据的偏见、后训练标注者的偏见。它们找托管方案会去 Cloudflare 和 Vercel，已经有对冲基金在买数据研究智能体怎么做决策，因为这可能影响股价 <button class="pd-ts" data-t="48:55" data-who="Unknown" data-en="How do we think about that? Yeah, UI is obviously the first thing that people think about, but there's the thinking fast answer and then there's the thinking slow answer." aria-label="回原文"></button>。
+它们找托管方案会去 CloudFlare 和 Vercel，已经有对冲基金在买数据研究智能体的决策偏好，因为这可能影响股价 <button class="pd-ts" data-t="48:55" data-who="Jean-Charles" data-en="How do we think about that? Yeah, UI is obviously the first thing that people think about, but there's the thinking fast answer and then there's the thinking slow answer." aria-label="回原文"></button>。所以不是 UI 消失，而是要从"像素级完美的网站"转向"比特级完美的平台"——让智能体能读懂你、选你。
 
-这不仅仅是新类别，是新经济——会有一个和人类经济平行的智能体经济 <button class="pd-ts" data-t="50:37" data-who="Unknown" data-en="Will AEO be a significantly larger market than the SEO market? What I would say is just, we have to consider that it's not just a new category, it's a new economy." aria-label="回原文"></button>。
+企业不会那么快变：它们购买速度没我们想的快，而且有数据重力、企业管控这些转换成本。但智能体在编码工具选择上已经达到人类水平，那是第一个突破点 <button class="pd-ts" data-t="52:49" data-who="Jean-Charles" data-en="And is it going to fundamentally change as quickly as we think? You know, I'm always conscious of being, I'm not that young anymore, neither are you, sorry mate." aria-label="回原文"></button>。
 
-## 服务伪装成软件：下一个万亿美元公司
+## 服务型经济：下一个万亿美元公司
 
-AI 第一波是[[Copilot|副驾驶]]（帮人做得更好），现在到达人类水平后，智能体可以端到端完成任务——你不再卖工具，直接卖结果 <button class="pd-ts" data-t="58:29" data-who="Unknown" data-en="So what would that look like? Sure. We're in the third year of AI." aria-label="回原文"></button>。
+他发过一篇引发讨论的帖：下一个万亿美元公司将是一家"伪装"成服务业务的软件公司。关键在"伪装"——它不能真的是服务公司 <button class="pd-ts" data-t="58:15" data-who="Jean-Charles" data-en="Sure. Yeah, so the prediction was that the next trillion-dollar company will be a software company that masquerades as a service business. It's very important, the masquerading, because they cannot be a service company." aria-label="回原文"></button>。
 
-关键数字：企业花在工具上的钱和服务上的钱比例是 1:6。问题是谁能捕获那 6 美元，而不是只在 1 美元上竞争 <button class="pd-ts" data-t="59:15" data-who="Unknown" data-en="So what if you can just sell the outcome of the closed books instead of selling the software alone? And I think that's really important because you have typically across the board a $1 to $6 ratio." aria-label="回原文"></button>。
+逻辑是：工具支出和服务支出的比例通常是 1:6。你花 2000 美元买 QuickBooks，花 15000 美元请会计师结账。如果 AI 能端到端完成结账，你直接卖"结完的账"这个结果，而不是卖软件——你捕获的是那 6 美元，不是 1 美元 <button class="pd-ts" data-t="59:09" data-who="Jean-Charles" data-en="To go back to the accounting example, today you might buy QuickBooks for $2K, but you spend $15K to close the books with your accountant. So what if you can just sell the outcome of the closed books instead of selling the software alone?" aria-label="回原文"></button>。
 
-客户支持已经进入这个阶段——他叫它「[[自动驾驶|自动驾驶]]类别」。比如 Sierra，去航空公司说：你们现在每张工单花 50 美元让人工解决，我们用五分之一的价格搞定。开始是副驾驶模式，很快切到自动驾驶，AI 端到端跑工作流，按结果收费，不按工具收费 <button class="pd-ts" data-t="59:49" data-who="Unknown" data-en="You have already a billion dollars in AR in this category where outcomes are solved. And the way it works is, you know, we have a company called Sierra. They're an AI for customer support and customer experience." aria-label="回原文"></button>。
+客户支持已经在这个阶段了。他们投的 Sierra 去找航空公司：你们现在每个工单花 50 美元让人工解决，我们用五分之一的价格搞定。开始是[[Copilot|副驾驶]]模式，很快切到[[自动驾驶|自动驾驶]]——AI 跑完整个工作流，按结果收钱，不按工具收钱 <button class="pd-ts" data-t="59:52" data-who="Jean-Charles" data-en="And the way it works is, you know, we have a company called Sierra. They're an AI for customer support and customer experience. A typical way is they go see a customer who has X number of tickets to resolve an airline." aria-label="回原文"></button>。
 
-但很多领域还不行，因为涉及人类判断——面试时的肢体语言、 leaning back 还是 leaning in，这种东西不在训练数据里。他的框架：今天处于判断循环里的工具，如果产品做对了，今天的判断就会变成明天的智能 <button class="pd-ts" data-t="61:10" data-who="Unknown" data-en="But two, as you said, there's still a lot of human judgment involved in those decisions. And so my framework is you have intelligence, which is what the models are really good at." aria-label="回原文"></button>。
+但这对模糊领域（销售、营销）很难，因为还涉及大量人类判断——他称之为"品味"，比如面试时对方身体前倾还是后仰，这不在 AI 训练数据里。他的框架是：今天的判断力就是明天的智能——做对产品的公司，能把人类判断捕获下来，变成明天的自动化能力 <button class="pd-ts" data-t="61:10" data-who="Jean-Charles" data-en="But two, as you said, there's still a lot of human judgment involved in those decisions. And so my framework is you have intelligence, which is what the models are really good at." aria-label="回原文"></button>。
 
-所以这不是消灭人类，是从「大量人类+少量 AI」变成「大量 AI+少量人类」——但公司仍然可以有软件级的利润率 <button class="pd-ts" data-t="63:04" data-who="Unknown" data-en="I think what people didn't understand from the article is that it's not because you go from Copilot to Autopilot that you remove the human completely. What I'm just proposing is that we can build companies that will have software-like margins, even though there are still humans that are making the judgment calls." aria-label="回原文"></button>。
-
-他不会投「先做服务收集数据再转软件」的公司，原因是：最好的公司能集中人才，而前沿人才不想去一个旧服务业务转型 AI 的地方。应该从第一性原理直接建 <button class="pd-ts" data-t="64:47" data-who="Unknown" data-en="No? So I always tell you when I have low, medium, and high conviction in what I'm saying, here I stood between a medium and a high. I will not invest in one of those companies for the following reason." aria-label="回原文"></button>。
+所以他不是说要消灭人类，而是说"开头是大量人类 + 少量 AI，结尾是大量 AI + 少量人类"——但公司利润率可以像软件 <button class="pd-ts" data-t="63:04" data-who="Jean-Charles" data-en="I think what people didn't understand from the article is that it's not because you go from Copilot to Autopilot that you remove the human completely. What I'm just proposing is that we can build companies that will have software-like margins, even though there are still humans that are making the judgment calls." aria-label="回原文"></button>。不过他不会投"先做服务再转软件"的公司，原因是招不到前沿人才——最好的人不愿意去一个老服务公司转型 AI，你应该从第一性原理开始建 <button class="pd-ts" data-t="64:37" data-who="Jean-Charles" data-en="Will you invest in a services business that plans to turn into a software business? I know it sounds crazy, but I was like, hey, we're collecting the data, we're understanding workflows, we're clearly getting as close to our customer as possible to build the software product." aria-label="回原文"></button>。
 
 ## 本集带走
 
-- **连问五个为什么**：创始人讲了一个引人注目的故事（放弃斯坦福、快速增长），不要停，追问为什么。看肢体语言和语速变化，这比故事本身更能说明问题。
-- **区分异类运营者和异类创始人**：在大厂做得好、产品推得多、人缘好——这是运营者。能从零开始、在不确定性中建东西——这才是创始人。简历越镀金越容易混淆。
-- **IC 打分全高反而危险**：如果所有人给 7、8 分，说明创始人太会适配投资人预期。要主动找魔鬼代言人写 pre-mortem。
-- **推荐信要加文化校准**：德国客户打 7 等于美国客户打 9。问推荐信时找 2400 分的人问，别找 2000 分的。
-- **智能体有偏见，不是中性买家**：它们因为预训练和后训练数据会偏向某些品牌（如 Cloudflare、Vercel），优化智能体可见性和优化人类 UI 是两套完全不同的逻辑。
-- **卖结果，不卖工具**：企业花 1 美元买工具、6 美元买服务。能端到端交付结果（如自动解决客服工单）的公司，按结果收费，吃的是那 6 美元的市场。
+- **连问五个为什么**：创始人都知道你想听什么，遇到说辞太顺的，反复追问细节和动机，观察肢体语言变化，这是识别造假最实际的方法。
+- **推荐信权重放最高**：种子阶段创始人可能表达不清、没有魅力，但如果跟他共事过的人给出的推荐信极其惊人，这比 pitch 质量重要得多。
+- **区分异类运营者和异类创始人**：在大公司做过很多产品、人缘好，不等于能从零创业。尤其 AI 领域，别被金光闪闪的简历蒙蔽。
+- **用 2×2 矩阵审视偏好**：把你喜欢的创始人和能赚钱的创始人画矩阵，搞清楚你到底在哪个象限做决策。傲慢可能是尖刺的代价，没尖刺才是真问题。
+- **卖结果不卖工具**：工具和服务支出比通常是 1:6，AI 端到端能完成任务后，直接卖结果（比如"结完的账"）而不是卖软件，捕获的是更大的那一块。
+- **今天的判断力是明天的智能**：在人类判断还不可替代的领域，做对产品的公司会捕获这些判断，随着模型变强自动转化为智能——这是从副驾驶到自动驾驶的路径。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec">全部金句 <span>12 条</span></div>
 
-> <span class="qz">Sequoia 的每个人都是猎人。</span>  
-> *Everyone at Sequoia is a hunter.*  
-> <span class="qm">—— Julien Bek · [00:07]</span> ^q1
+> <span class="qz">我同意，这就是为什么我说一句让大多数人浑身发凉的话，那就是十亿美元可能只是新的 Series A。</span>  
+> *I agree, which is why I say something which gives most people white shivers, which is a billion dollars could just be the new Series A.*  
+> <span class="qm">—— Harry Stebbings · [11:07]</span> ^q1
 
-> <span class="qz">所有基金中最好的投资总是那些发起人有最高信念的公司。</span>  
-> *The best investments in all the funds are always the companies where the sponsor had the highest conviction.*  
-> <span class="qm">—— Julien Bek · [00:17]</span> ^q2
+> <span class="qz">我不能犯错，因为这份工作是如此无情，不是当你投资了错误的公司时，而是当你没有投资于正确的公司时。</span>  
+> *I cannot make a mistake because this job is so unforgiving, not when you invest in the wrong company, but when you don't invest in the right companies.*  
+> <span class="qm">—— Julien Bek · [31:24]</span> ^q2
 
-> <span class="qz">Sequoia 的每个人都是猎人。</span>  
-> *Everyone at Sequoia is a hunter.*  
-> <span class="qm">—— Julien Bek · [08:35]</span> ^q3
+> <span class="qz">傲慢可能不是你喜欢的东西，但它可能会让他们在所做的事情上非常出色。这可能是他们尖刺的代价。</span>  
+> *And arrogance might not be something you like, but it might make them very good at what they do. It's maybe the cost of their spike.*  
+> <span class="qm">—— Julien Bek · [35:40]</span> ^q3
 
-> <span class="qz">我认为最难做到的是拒绝一家公司，然后愿意有心理上的灵活性在后来支付它的几倍价格，并克服你自己拒绝它的自我。</span>  
-> *I think the hardest thing to do is to turn down a company and then be willing to have the mental flexibility to pay multiples of it later and get over your own ego about turning it down.*  
-> <span class="qm">—— Harry Stebbings · [10:02]</span> ^q4
+> <span class="qz">基本上，我记得告诉我的合伙人，如果是法国人或德国人，你要加一两分。如果是美国人，通常另一方面你要扣掉一两分。</span>  
+> *And basically, I remember telling my partners, if they're French or German, you add one or two points. If they're Americans, usually you want to retract one or two points on the other hand.*  
+> <span class="qm">—— Julien Bek · [38:23]</span> ^q4
 
-> <span class="qz">如果你看看你喜欢的创始人和能赚钱的创始人作为一个 2x2 矩阵，你的工作是找出我们在矩阵的哪个部分赚钱。</span>  
-> *If you look at founders you like versus founders who make money as a two by two matrix, your job is to figure out in which part of the quadrant we make money.*  
-> <span class="qm">—— Julien Bek · [35:24]</span> ^q5
+> <span class="qz">问题是如果你试图对人进行模式匹配，你就不会投资给对的人。</span>  
+> *The problem is if you try to pattern match people, you will just not invest in the right people.*  
+> <span class="qm">—— Julien Bek · [39:01]</span> ^q5
 
-> <span class="qz">Alfred Lin，我最喜欢的最新一条智慧是，不要把一个异类运营者误认为是一个异类创始人。</span>  
-> *Alfred Lin, the latest piece of wisdom that I loved from Alfred was do not mistake an outlier operator for an outlier founder.*  
-> <span class="qm">—— Julien Bek · [45:06]</span> ^q6
+> <span class="qz">我想今天早上 CloudFlare 说过，从现在起五年后，我们的智能体流量将是人类流量的 1000 倍。</span>  
+> *I think it was CloudFlare this morning said that in five years from now, we'll have 1,000 times the amount of agent traffic to human traffic.*  
+> <span class="qm">—— Julien Bek · [47:25]</span> ^q6
 
-> <span class="qz">「快思考」的答案是 UI 将归零。</span>  
-> *The thinking fast answer is UI is going to zero.*  
+> <span class="qz">「快思考」的答案是 UI 将归零。智能体能够在一分钟内更换你的产品，而且不会有品牌忠诚度，这将是一场逐底竞争。</span>  
+> *The thinking fast answer is UI is going to zero. Agents are able to swap your product in a minute and there will be no brand loyalty and it'll be a race to the bottom.*  
 > <span class="qm">—— Julien Bek · [49:02]</span> ^q7
 
-> <span class="qz">这样做的美妙之处在于，AI 有效地端到端地运行整个工作流，并且能够从它产生的结果中收取费用，而不是从它销售的工具中收费。</span>  
-> *The beauty with that is effectively the AI is running the entire workflow end-to-end and is able to collect a fee from the outcome it's generating, not from the tool that it's selling.*  
-> <span class="qm">—— Julien Bek · [60:22]</span> ^q8
+> <span class="qz">预测是，下一个万亿美元公司将是一家伪装成服务业务的软件公司。</span>  
+> *The prediction was that the next trillion-dollar company will be a software company that masquerades as a service business.*  
+> <span class="qm">—— Julien Bek · [58:15]</span> ^q8
+
+> <span class="qz">我问的问题是，我们如何找出那些能够捕获那 6 美元的类别，而其他类别仍然专注于在那 1 美元上竞争？</span>  
+> *And the question I was asking is, how do we figure out the categories that will be able to capture the $6 where others are still focused in competing on the $1?*  
+> <span class="qm">—— Julien Bek · [59:24]</span> ^q9
+
+> <span class="qz">如果他们正在构建正确的产品，他们将能够利用这种判断力，以便今天的判断力成为明天的智能。</span>  
+> *And if they're building the right product, they will be able to harness that judgment so that the judgment of today is the intelligence of tomorrow.*  
+> <span class="qm">—— Julien Bek · [61:45]</span> ^q10
 
 > <span class="qz">我只是提议的是，我们可以构建拥有像软件一样利润率的公司，即使仍然有人类在做出判断性决策。</span>  
 > *What I'm just proposing is that we can build companies that will have software-like margins, even though there are still humans that are making the judgment calls.*  
-> <span class="qm">—— Julien Bek · [63:04]</span> ^q9
+> <span class="qm">—— Julien Bek · [63:04]</span> ^q11
+
+> <span class="qz">我们仍处于 AI 在最新的测试中智商大概是 120 的阶段，但当我们达到 500 IQ 的 AI 时，我们也许能找到治愈你母亲或我父亲疾病的办法。</span>  
+> *We're still in this phase where AI is maybe 120 IQ with the latest tests, but when we get to 500 IQ AIs, we'll maybe find cures for your mom or my dad's disease.*  
+> <span class="qm">—— Julien Bek · [75:18]</span> ^q12
 
 <div class="pd-sec">接着看</div>
 

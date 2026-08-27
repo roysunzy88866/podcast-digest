@@ -26,7 +26,7 @@ unlisted: true
 
 ![[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo#^q3]]
 
-![[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#^q5]]
+![[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#^q9]]
 
 ## ② 出现在这些集
 

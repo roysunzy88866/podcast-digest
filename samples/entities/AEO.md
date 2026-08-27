@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:00起):本集说 AEO（Answer Engine Optimization）和 GEO 本质上是一件事，即如何让自己的产品作为答案出现在 LLM 的回复里；它是 SEO 之后的第二大变化，SEO 里有效的东西在 AEO 里依然有效，只是多了引用优化等新杠杆
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(16:05起):本集说 AEO（答案引擎优化）是让智能体搜索时能找到你，核心不光是页面数量（很多是 AI 生成的废料），更重要的是 YouTube 评测、Reddit 讨论和社交舆论
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(50:16起):本集提到这是现代营销人员的SEO答案，帮助企业在使用聊天界面的人面前变得可见
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(50:16起):本集提到这是现代营销人员的SEO答案，帮助企业在使用聊天界面的人面前变得可见
 
 ## ① 提到它的金句
 
@@ -27,7 +27,7 @@ unlisted: true
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为概念
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为概念(提及)
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为概念(提及)
 
 ## ③ 关联
 

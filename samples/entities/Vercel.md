@@ -20,7 +20,7 @@ unlisted: true
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]]**(31:08起):本集用 Vercel 作为智能体 B2B 采用的例子：智能体可以直接去采用 Vercel 进行托管，不需要人去 Vercel.com 做任何操作。
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(27:01起):本集顺带提到在考虑是否要从 Vercel 迁移到 ChatGPT 站点
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(08:45起):本集提到 Vercel 的创始人 Guillermo Rauch 作为拉丁美洲裔在硅谷成功的人物，积极参与 a16z 的无国界晚宴、帮助后来的拉美创始人
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(49:33起):本集说智能体有偏见，找托管方案时会去Cloudflare和Vercel
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(49:33起):本集说智能体有偏见，找托管方案时会去Cloudflare和Vercel
 
 ## ① 提到它的金句
 
@@ -41,7 +41,7 @@ unlisted: true
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]] — 作为被讨论公司(提及)
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

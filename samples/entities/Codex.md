@@ -34,8 +34,8 @@ unlisted: true
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(04:48起):本集说 Codex 没有弄明白多账号连接这件事，主播仍花费大量时间在 Codex 上
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(02:11起):本集说 Codex 也变得好多了，嘉宾主要用它来完成更多与写作相关的任务
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(49:56起):本集说 OpenAI 在编码领域被 Anthropic 打了措手落后 'turn their ship and focus it on Codex, which is still in the process of being released'
-- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(22:02起):本集说 Codex 在低延迟配对编程场景下无与伦比，适合需要频繁人工干预的大型前后端功能开发和 UI 调试，配合 Goal 模式和浏览器预览使用
-- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]]**(22:02起):本集说 Codex 适合低延迟、需要人在旁边随时干预的场景，如大量前端 UI 打磨和验证，搭配 Goal 机制和浏览器使用
+- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(22:02起):本集说 Codex 在低延迟配对编程场景下无与伦比，适合需要频繁人工干预的大型前后端功能开发和 UI 调试，配合 Goal 模式和浏览器预览使用
+- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(22:02起):本集说 Codex 适合低延迟、需要人在旁边随时干预的场景，如大量前端 UI 打磨和验证，搭配 Goal 机制和浏览器使用
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
 ## ① 提到它的金句
@@ -84,8 +84,8 @@ unlisted: true
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司(提及)
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为概念(提及)
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为被讨论公司
-- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为被讨论公司
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为被讨论公司
+- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联

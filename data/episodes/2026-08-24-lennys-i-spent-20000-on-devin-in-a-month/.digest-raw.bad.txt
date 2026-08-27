@@ -1,0 +1,141 @@
+===标题===
+从手把手到云端智能体：Ryan Carson 的 solo 创始人实战
+===导语===
+Ryan Carson 回访 How I AI，展示他从一年前在 IDE 里手把手指导智能体，到如今把几乎全部工程搬到云端智能体上的转变，以及他管理"成群智能体"的具体方法。
+===正文===
+Ryan Carson 做了一个叫 Untangle 的产品，帮家事律师事务所处理离婚案件中的证据开示等繁杂工作。一年前他上这个节目时，还在 IDE 里手把手地给智能体下指令、每一步都盯着。现在他几乎不打开 IDE 了，所有工程工作都交给云端智能体来做 [09:54 Unknown]。
+
+他的核心判断：未来几乎 100% 是云端智能体。本地开发只会剩下一小部分 [09:46 Unknown]。他一个月在 Devon 上花了 20,000 美元，后来谈到了每月 20,000 的免费额度 [10:03 Unknown]。
+
+## 用文件夹管智能体：P0、P1、P2
+
+Ryan 在 Devon 里有大概 10 到 15 个线程（thread），他用文件夹按优先级分组：P0 是必须推进的新功能和关键事项，P1、P2 依次往下排，Bug 单独一个文件夹 [12:17 Unknown]。他发现人脑同时能跟得上的并发任务大概就四五个，超过就乱了，所以必须用优先级桶来管理 [10:33 Unknown]。
+
+除了 Devon 里的文件夹，他还有一张纸，写着每周优先事项——不是每天，是每周。这张纸让他不被十几条智能体线程带跑 [12:49 Unknown]。
+
+## Watchdog：让智能体帮你盯业务
+
+Ryan 一个人兼客户成功、工程和销售，客户多了之后根本盯不过来。他写了一个叫 Watchdog 的剧本（playbook）：针对每个客户账户，自动检查自上次运行以来的活动、Sentry 错误、当前问题，然后列出排名前三的问题，再交叉比对是否已经被修复、是否有未合并的 PR [17:13 Unknown]。
+
+他现在每天大概合并 40 个 PR [17:52 Unknown]。Watchdog 不是给他看原始数据，而是经过过滤、排序、转置后的结论——"这三件事在出问题，这条已修复，这条还在处理" [17:36 Unknown]。
+
+## 编码智能体不只是写代码
+
+Ryan 强调，人们把云端编码智能体想窄了——以为它们只能写代码。实际上 Devon 在帮他做报价、运营文档、客户分流 [23:10 Unknown]。他的问题是：如果你有一个既懂你整个代码库、又能写代码解决任何业务问题的人，你会让他做什么？这就是他用后台智能体的方式 [23:25 Unknown]。
+
+## 本地 vs 云端：不同场景用不同工具
+
+Ryan 的工具分三层：
+
+**Devon（云端）**：日常主力。后台跑 Bug 修复、一次性需求（客户问"你们有这个 MCP 吗"，他说"现在有了"，转头让 Devon 搞定）、运营类工作 [26:33 Unknown]。
+
+**Codex（本地）**：需要低延迟、频繁干预的场景。比如大型前端 UI 功能，需要大量写代码并且时不时纠正方向；还有长期重构 [25:04 Unknown]。他也用 Codex 做验证——写用户故事，用浏览器打开预览分支，像用户一样走流程，列出通过和失败的，自动修 Bug [26:19 Unknown]。
+
+**Claude Code（本地）**：专门用于设计系统。他认为 Claude 在"延续一个设计系统"这件事上有某种魔法，Codex 做不到，Devon 更不行 [36:03 Unknown]。但他的流程是把 Claude 生成的 design.md 导出，交给 Codex 去实际构建技术设计系统和共享组件 [37:13 Unknown]。
+
+## PR 审查自动化：Merge Mommy 和 Land PR
+
+Ryan 构建了一个叫 Merge Mommy 的智能体，部署在 Vercel 上：PR 打开并通过所有 CI 检查（包括 BugBot）后，Merge Mommy 从爆炸半径、安全性等五个维度打分。低风险的自动批准合并，中高风险的在 Slack 里 ping 人类审查 [27:29 Unknown]。
+
+Ryan 那边用的是 Devon 里的 Land PR 剧本：智能体说 PR 做完了，他触发剧本——先让 Devon 做一次代码审查，最多跑两轮修复循环，然后在浏览器里录一段带字幕的视频演练，展示每个测试的红绿状态 [28:28 Unknown]。他看完视频说"视频通过，合并"，就完事了 [29:46 Unknown]。
+
+## 不让智能体决定"做什么产品"
+
+两人都强调一个反直觉的点：代码产出量和可商业化产品之间有巨大的错配 [21:02 Unknown]。Ryan 不让智能体过夜跑"自动改进循环"去找新功能——他认为前沿模型离"知道该发布什么"还差得远 [20:13 Unknown]。他找到产品市场契合点的方式非常老派：发邮件冷启动，跟潜在客户开 Google Meet，然后直接去对方办公室坐着聊 [21:11 Unknown]。
+
+他把"决策疲劳"当成优先级信号：如果一个功能他懒得管、让它烂在藤上，说明他根本不关心它，那就不该做 [19:02 Unknown]。
+
+## 招人看什么：录一段你管智能体的视频
+
+Ryan 招第一位工程师的方式：不发面试、不聊天，让候选人录一段全屏桌面视频，展示自己用智能体为一个已有应用构建新功能的完整过程 [40:36 Unknown]。他只看一件事：你是一个多好的智能体管理者 [40:52 Unknown]。第二阶段再给 Devon 权限，录构建真实东西的视频 [41:15 Unknown]。
+
+> 【背景】Devon 系 Cognition 公司开发的云端编码智能体产品，转写稿中写作 Devon/Devin 混用。Claude 系 Anthropic 的模型；Codex 系 OpenAI 的本地编码智能体。BugBot 系代码审查工具。SOC 2 系信息安全合规认证标准。Polly/OpenClaw/OpenClaude 系 OpenAI 推出的 Claude Code 托管平台（转写稿中名称不统一）。
+
+## 本集带走
+
+- **用优先级桶管智能体线程**：P0/P1/P2 文件夹加一张每周优先事项的纸，人脑只能同时跟四五条线，超过必须分桶
+- **写 Watchdog 类剧本**：不要让智能体只吐原始数据，让它过滤、排序、交叉比对后给你结论——"哪三件事在出问题、修没修"
+- **编码智能体当全能助手用**：报价、运营文档、客户分流都可以丢给懂你代码库的云端智能体
+- **按场景选工具**：低延迟频繁干预用本地（Codex），后台自治用云端（Devon），设计系统用 Claude 生成再交给 Codex 构建
+- **PR 审查自动化**：低风险 PR 自动合并，高风险才 ping 人类；用视频演练替代人工走查
+- **别让智能体决定做什么产品**：代码量不等于产品价值，找 PMF 的方式是出门跟真人聊
+- **把决策疲劳当信号**：你懒得管的功能，说明你内心不认同，别做
+- **招人看智能体管理能力**：不看简历不聊天，看录屏——你能不能高效地指挥智能体干活
+
+===金句===
+00:37 Unknown
+EN | What is in your stack right now and how have you structured stuff to make you successful and build things effectively?
+ZH | 你现在的技术栈里有什么，你是如何构建东西来让你获得成功并有效构建事物的？
+
+00:43 Unknown
+EN | So what I'm doing is figuring out how to manage throngs of agents.
+ZH | 所以我正在做的是弄清楚如何管理成群的智能体。
+
+09:46 Unknown
+EN | I think the future is pretty much 100% cloud agents.
+ZH | 我认为未来几乎 100% 是云端智能体。
+
+11:40 Unknown
+EN | I think one of my big messages for today is that all of us have to up-level our ability to manage agents.
+ZH | 我觉得今天我要传达的一个主要信息是，我们所有人都得提升我们管理智能体的能力。
+
+11:51 Unknown
+EN | How do you effectively manage 10, 20, 100, 500 employees?
+ZH | 你怎么有效地管理 10、20、100、500 个员工？
+
+11:58 Unknown
+EN | This is the whole reason that organizations were built as pyramids.
+ZH | 这就是组织建立成金字塔形状的全部原因。
+
+12:33 Unknown
+EN | I have two methods for this. Don't laugh, it works.
+ZH | 对此我有两种方法。别笑，这很管用。
+
+17:52 Unknown
+EN | Like I'm shipping probably 40 PRs a day now.
+ZH | 就像我现在大概每天合并 40 个 PR。
+
+20:13 Unknown
+EN | I actually think we're nowhere near any frontier model having the intelligence to know what to ship.
+ZH | 我实际上认为我们离任何具有知道发布什么的智能的前沿模型还差得很远。
+
+20:34 Unknown
+EN | It's also because all of this intelligence has not magically created markets where there were none before.
+ZH | 这也是因为所有这些智能并没有神奇地在以前不存在市场的地方创造出市场。
+
+21:02 Unknown
+EN | There's this mismatch between the quantity of output of code and like commercializable product.
+ZH | 在代码输出量和可商业化的产品之间存在这种不匹配。
+
+23:25 Unknown
+EN | What would you do with somebody who both knew your code base and could write code to solve anything in your business?
+ZH | 你会怎么对待一个既了解你的代码库又能编写代码来解决你业务中任何问题的人？
+
+25:10 Unknown
+EN | I find Codex unmatched for that.
+ZH | 我发现 Codex 在这方面是无与伦比的。
+
+36:03 Unknown
+EN | I just can't get around how good Claude design is.
+ZH | 但我就是无法理解 Claude 的设计有多好。
+
+36:07 Unknown
+EN | For carrying forward a design system, it does something magical that Codex is hilariously bad at.
+ZH | 对于延续一个设计系统，它做了一些神奇的事情，那是 Codex 令人滑稽地不擅长的事情。
+
+36:44 Unknown
+EN | Create a design system is like unmatched right now.
+ZH | 创建设计系统目前是无与伦比的。
+
+40:52 Unknown
+EN | I just want to see how good of an agent manager you are.
+ZH | 我只想看你是一个多么好的智能体管理者。
+
+42:09 Unknown
+EN | The two most AI-pilled people on your timeline spent most of our time talking about how too much AI code doesn't really get you great product.
+ZH | 你们时间线上最沉迷 AI 的两个人花了我们大部分时间谈论太多的 AI 代码其实并不能给你带来好产品。
+
+42:22 Unknown
+EN | You should just go outside with your human body and talk to customers.
+ZH | 你应该带着你的肉体凡胎出去和客户交谈。
+===END===

@@ -65,8 +65,8 @@ unlisted: true
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(00:05起):本集说 OpenAI 第二季度营收环比仅增长 18%、亏损加深，首席营收官 Denise Dresser 上任不到一年离职，在编码领域被 Anthropic 打了措手不及后被迫转向 Codex，寻求 2 万亿美元估值
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(08:45起):本集说 OpenAI 是前沿实验室之一，拥有 95% 的市场份额（按收入加权），筹集资本能力令人难以置信，能直接将资本转化为增长；其模型定价有补贴，存在被套利空间
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(13:45起):本集提到 OpenAI 拿了好几年企业数据、被黑过，以及做了世界历史上非同寻常的事情
-- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]]**(02:42起):本集提到使用 Codex 时搭配来自 OpenAI 的基本上无限的 token
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(10:50起):本集在区分异类运营者和异类创始人时，将OpenAI列为镀金简历的例子——在那里做得好不代表能从零创始
+- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(02:42起):本集提到使用 Codex 时搭配来自 OpenAI 的基本上无限的 token
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(10:50起):本集在区分异类运营者和异类创始人时，将OpenAI列为镀金简历的例子——在那里做得好不代表能从零创始
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(41:31起):本集多次提及 OpenAI：1）作为创业公司爆发式增长的代表；2）其模型在能力上击败了 Google 的模型；3）Patrick Collison 采访 Sam Altman 时指出 OpenAI 一开始就筹集了巨额资金，打破了精益创业的范式。
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]]**(39:05起):本集仅一笔带过，Parag 提到自己曾把 Twitter 数据卖给 OpenAI，作为在数据交易方面的经验
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(39:05起):本集顺带提到 Parag 曾把 Twitter 数据卖给 OpenAI
@@ -153,8 +153,8 @@ unlisted: true
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
-- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为被讨论公司(提及)
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
+- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司(提及)
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)

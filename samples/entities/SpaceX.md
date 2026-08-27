@@ -18,7 +18,7 @@ unlisted: true
 - **[[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]]**(00:15起):嘉宾指出 SpaceX 生产的 Starship 正在将发射成本大幅降低，并提到 SpaceX 自身也宣布了在太空中建立数据中心的计划，此外双方签了激光终端的合同。
 - **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(25:40起):本集说它内部有一个叫 Warp Speed 的庞大软件跑制造和研发流程,且 20% 是火星殖民狂热者、80% 是严肃工程师
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(01:50起):本集说 SpaceX 以 600 亿美元收购了 Cursor，拥有算力和工程力量，与 Cursor 在代码路径通向 AGI 的理念上高度一致
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(00:29起):本集作为Sequoia投资信念的例子：Sean带入IC时有人投了1分，但发起人不放弃逼所有人飞过去看，先做小投资后加码，几年后成为公司历史上最好的投资之一
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(00:29起):本集作为Sequoia投资信念的例子：Sean带入IC时有人投了1分，但发起人不放弃逼所有人飞过去看，先做小投资后加码，几年后成为公司历史上最好的投资之一
 
 ## ② 出现在这些集
 
@@ -31,7 +31,7 @@ unlisted: true
 - [[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]] — 作为被讨论公司
 - [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为被讨论公司(提及)
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司(提及)
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

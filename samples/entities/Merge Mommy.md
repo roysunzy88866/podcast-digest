@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(27:03起):本集说 Merge Mommy 是 Claire 部署的一个智能体，PR 通过 CI 后触发，从爆炸半径、安全性等五个维度打风险分，低风险自动批准合并，中高风险 ping 人工审查
+- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(27:03起):本集说 Merge Mommy 是 Claire 部署的一个智能体，PR 通过 CI 后触发，从爆炸半径、安全性等五个维度打风险分，低风险自动批准合并，中高风险 ping 人工审查
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为概念
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为概念
 
 ## ③ 关联
 

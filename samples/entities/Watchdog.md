@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(16:35起):本集说 Watchdog 是 Ryan 建的一个 playbook，对每个客户账户重复执行：查自上次以来的活动、找错误日志、筛出最严重的三个问题、交叉比对 PR 判断是否已修复
+- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(16:35起):本集说 Watchdog 是 Ryan 建的一个 playbook，对每个客户账户重复执行：查自上次以来的活动、找错误日志、筛出最严重的三个问题、交叉比对 PR 判断是否已修复
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为概念
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为概念
 
 ## ③ 关联
 

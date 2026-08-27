@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(49:48起):Fiona 对新加入管理者的要求；即要求他们先以个人贡献者的身份深入代码和产品，建立内部体感后再承担带人的责任。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(30:43起):本集指出现在每个人其实都兼具独立贡献者与管理者的属性,因为即便是一线 IC 现在实际上也是在管理智能体,而不是逐个字符地敲代码。
 - **[[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]]**(01:18起):本集把它说成:不分资历深浅都应该亲自下场干的具体工作。Tom 认为将最资深的 A 级人员提拔去当纯粹管人的管理者,等于剥夺了他们的实战肌肉。在 Whatnot,连 CPO 自己都有 50% 时间在做 IC 工作(拉数据、查工单、写规格说明),这才是产生真实杠杆的方式。
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(09:35起):本集详细描述了Sequoia的IC运作：五十年周一IC会议传统，现在试新方法结合异步慢思考和会议快思考；创始人向整个IC推介，先独立打分再讨论再正式投票
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(09:35起):本集详细描述了Sequoia的IC运作：五十年周一IC会议传统，现在试新方法结合异步慢思考和会议快思考；创始人向整个IC推介，先独立打分再讨论再正式投票
 
 ## ② 出现在这些集
 
@@ -25,7 +25,7 @@ unlisted: true
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为概念
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为概念(提及)
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]] — 作为概念
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为概念
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为概念
 
 ## ③ 关联
 

@@ -19,7 +19,7 @@ unlisted: true
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(38:23起):本集在广告中提到它号称是历史上增长最快的公司,能让用户仅通过与 AI 聊天就能构建具有真实功能的应用程序和网站。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(31:38起):本集作为产品核心价值由 AI 支撑的公司范例被提及，说明这类 AI-first 的企业应该将更多精力投入到大的赌注上。
 - **[[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]]**(12:19起):本集举例说一个针灸师打开 Lovable 就开始构建应用，有用户有分析数据；但也提到 Lovable 被黑过，托管的网站的秘密被公开了
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(22:12起):本集作为增长速度极快的例子提到，一年内就到了1亿ARR
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(22:12起):本集作为增长速度极快的例子提到，一年内就到了1亿ARR
 
 ## ① 提到它的金句
 
@@ -43,7 +43,7 @@ unlisted: true
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
 - [[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]] — 作为概念(提及)
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

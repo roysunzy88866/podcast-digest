@@ -13,8 +13,8 @@ unlisted: true
 
 - **[[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]]**(23:29起):本集把它描述为一款「智能体工程师」工具，目前已达到合格软件工程师的水平。Laurel 团队（包括非技术背景的 PM 和客户成功人员）都使用它来端到端地交付前端和后端代码功能。
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(01:06起):Cognition 公司构建的 AI 软件工程师产品,其价值在于发现跨行业的各种厄运循环以及从中恢复的最佳方法。
-- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(00:11起):本集说 Devon 是一个云端编码智能体平台，Ryan 全押其上，用它跑十几个并发线程、执行 Watchdog 巡检、录制视频演示等，认为其成熟度远超预期且非常适合做后台业务智能体
-- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]]**(00:11起):本集说 Devon 是一个云端编码智能体平台，Ryan 在其中用文件夹管理 10-15 个并发线程，不仅用来写代码，还用于报价、运营文档、客户分流等业务工作
+- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(00:11起):本集说 Devon 是一个云端编码智能体平台，Ryan 全押其上，用它跑十几个并发线程、执行 Watchdog 巡检、录制视频演示等，认为其成熟度远超预期且非常适合做后台业务智能体
+- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(00:11起):本集说 Devon 是一个云端编码智能体平台，Ryan 在其中用文件夹管理 10-15 个并发线程，不仅用来写代码，还用于报价、运营文档、客户分流等业务工作
 
 ## ② 出现在这些集
 
@@ -22,8 +22,8 @@ unlisted: true
 
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为被讨论公司
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为被讨论公司
-- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为被讨论公司
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为被讨论公司
+- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司
 
 ## ③ 关联
 

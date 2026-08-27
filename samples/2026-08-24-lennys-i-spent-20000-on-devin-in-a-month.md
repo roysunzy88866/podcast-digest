@@ -1,12 +1,12 @@
 ---
-title: Ryan Carson：怎么管一群AI智能体干活
+title: Ryan Carson：从手把手到管理成群智能体
 podcast: "Lenny's Podcast"
 date: 2026-08-25
 source_url: undefined
 duration: "44:11"
 type: episode
 cover: "#6366f1"
-description: Ryan Carson 分享他用 Devon 等云端智能体管理成群编码 agent 的具体方法——文件夹分优先级、Watchdog 自动巡检、视频验证合并 PR。
+description: Ryan Carson 分享他如何从在 IDE 里手把手教智能体写代码，转变为用云端智能体同时并行十几项任务，核心技能变成了管理优先级和分配工作。
 host: "[[Ryan Carson]]"
 cohosts: ["[[Claire]]"]
 companies: ["[[Devon]]", "[[Codex]]", "[[Claude Code]]"]
@@ -17,18 +17,18 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#post","headline":"Ryan Carson：怎么管一群AI智能体干活","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-lennys-i-spent-20000-on-devin-in-a-month","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-lennys-i-spent-20000-on-devin-in-a-month","description":"Ryan Carson 分享他用 Devon 等云端智能体管理成群编码 agent 的具体方法——文件夹分优先级、Watchdog 自动巡检、视频验证合并 PR。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ryan Carson"},{"@type":"Person","name":"Claire"},{"@type":"Organization","name":"Devon"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude Code"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"云端智能体 (cloud agent)"},{"@type":"Thing","name":"后台智能体 (background agent)"},{"@type":"Thing","name":"剧本 (playbook)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Ryan Carson：怎么管一群AI智能体干活","item":"https://talk.solomind.cc/2026-08-24-lennys-i-spent-20000-on-devin-in-a-month"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#post","headline":"Ryan Carson：从手把手到管理成群智能体","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-24-lennys-i-spent-20000-on-devin-in-a-month","mainEntityOfPage":"https://talk.solomind.cc/2026-08-24-lennys-i-spent-20000-on-devin-in-a-month","description":"Ryan Carson 分享他如何从在 IDE 里手把手教智能体写代码，转变为用云端智能体同时并行十几项任务，核心技能变成了管理优先级和分配工作。","datePublished":"2026-08-25","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ryan Carson"},{"@type":"Person","name":"Claire"},{"@type":"Organization","name":"Devon"},{"@type":"Organization","name":"Codex"},{"@type":"Organization","name":"Claude Code"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"云端智能体 (cloud agent)"},{"@type":"Thing","name":"后台智能体 (background agent)"},{"@type":"Thing","name":"剧本 (playbook)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"Ryan Carson：从手把手到管理成群智能体","item":"https://talk.solomind.cc/2026-08-24-lennys-i-spent-20000-on-devin-in-a-month"}]}]}
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ryan Carson：怎么管一群AI智能体干活</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ryan Carson：从手把手到管理成群智能体</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-# Ryan Carson：怎么管一群AI智能体干活
+# Ryan Carson：从手把手到管理成群智能体
 
 <div class="pd-byl"><b>Ryan Carson</b> · 2026-08-25</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-24-lennys-i-spent-20000-on-devin-in-a-month.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我认为未来几乎 100% 是云端智能体。</div><div class="a">— Ryan Carson <button class="pd-ts" data-t="09:46" data-who="Ryan Carson" data-en="I think the future is pretty much 100% cloud agents." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我认为未来几乎 100% 都是云端智能体。</div><div class="a">— Ryan Carson <button class="pd-ts" data-t="09:46" data-who="Ryan Carson" data-en="I think the future is pretty much 100% cloud agents." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Ryan Carson]] · [[Claire]]
@@ -37,70 +37,91 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[云端智能体]] · [[后台智能体]] · [[剧本]]
 
-[[Ryan Carson|Ryan Carson]] 现在几乎所有工程工作都在 [[Devon|Devon]]（一个云端编码[[智能体|智能体]]）里完成，屏幕上同时开着 10 到 15 个线程。他一个月在 Devon 上花了 20,000 美元，后来找 Cognition 要到了每月等额的免费额度 <button class="pd-ts" data-t="09:56" data-who="Ryan Carson" data-en="So I started looking at that and was really impressed. So now I went all in, so much so I spent, at one point I was spending $5,000 on Devon, and then it went up to $20,000 one month." aria-label="回原文"></button>。他的核心判断是：未来几乎 100% 是[[云端智能体|云端智能体]]，还在本地做工程的人需要睁眼看看了 <button class="pd-ts" data-t="09:46" data-who="Ryan Carson" data-en="You really need to open your eyes. I think the future is pretty much 100% cloud agents. There's going to be some local dev." aria-label="回原文"></button>。
+[[Ryan Carson|Ryan Carson]] 做了一个叫 Untangle 的产品，一开始面向消费者做 AI 离婚工具，结果没人买单——人们要的是真人律师。他转头去找律师聊，发现律师助理短缺、证据开示(离婚案中交换证据的法律流程)是噩梦，于是转型 B2B 卖给家事律师事务所，业务立刻爆发 <button class="pd-ts" data-t="06:02" data-who="Unknown" data-en="Turns out nobody wants to use AI for divorce. They want lawyers, people. I'm just going to say it." aria-label="回原文"></button>。
 
-## 用文件夹管智能体的优先级
+一年前他上这档节目时，还在 IDE 里手把手地、一步步指令式地教[[智能体|智能体]]干活。现在他几乎不打开 IDE 了，全部工程工作搬到了[[云端智能体|云端智能体]] [[Devon|Devon]] 上，同时跑 10 到 15 个线程 <button class="pd-ts" data-t="04:12" data-who="Unknown" data-en="It was like three-step markdown file. We were in an IDE, which I haven't opened an IDE in months. We were in an IDE and we were really, you were very prescriptive and directive of your agents." aria-label="回原文"></button><button class="pd-ts" data-t="09:12" data-who="Unknown" data-en="And I was like, why isn't Cloud? Like, I feel like I should be working on the Cloud. And I thought, what about Devon?" aria-label="回原文"></button>。他一个月在 Devon 上花了 5000 美元，后来涨到 20000 美元，最后去找 Devon 的团队谈了免费额度 <button class="pd-ts" data-t="09:56" data-who="Unknown" data-en="So I started looking at that and was really impressed. So now I went all in, so much so I spent, at one point I was spending $5,000 on Devon, and then it went up to $20,000 one month." aria-label="回原文"></button>。
 
-管十几个并发线程，他的方法极其朴素——文件夹加一张纸。在 Devon 里建 P0、P1、P2 文件夹，P0 放无论如何今天都要推进的事（通常是新功能），P1 往下排，还有一个单独的 Bug 文件夹放需要快速修复的问题 <button class="pd-ts" data-t="12:17" data-who="Ryan Carson" data-en="And you'll notice... I've got bugs, right? I've got P0, P1, P2." aria-label="回原文"></button>。同时手边放一张物理纸，写上本周优先事项，用来锚定自己别被线程里的噪音带跑 <button class="pd-ts" data-t="12:49" data-who="Ryan Carson" data-en="I've got eight screens concurrently open, right? And so the way I stay focused is by also having this piece of paper which has weekly priorities on it. Okay, so it's all about weekly." aria-label="回原文"></button>。
+## 用文件夹管优先级，用纸管注意力
 
-他强调，现在工程师的核心技能不是写代码，而是管理智能体——怎么排优先级、怎么分派、哪里该精细管控、哪里该放手。这些跟管人的管理技能直接对应 <button class="pd-ts" data-t="16:04" data-who="Ryan Carson" data-en="The reason why I think folks of a certain level of experience are like ready to cook right now with AI is all those management skills that you have developed over your career can be applied right here." aria-label="回原文"></button>。
+同时跑十几个线程，怎么不乱？他的方法是用文件夹按优先级分：P0 是必须推进的核心新功能，P1、P2 往下排，Bug 单独一个文件夹 <button class="pd-ts" data-t="12:17" data-who="Unknown" data-en="And you'll notice... I've got bugs, right? I've got P0, P1, P2." aria-label="回原文"></button><button class="pd-ts" data-t="13:30" data-who="Unknown" data-en="P0 is the big stuff. I'm not gonna show you that, but that's just like, these are the main things I need to move forward as the business, new features, usually. P1 is like, ah, stuff that's important." aria-label="回原文"></button>。他发现人能同时跟踪的并发任务大概就是四五个，多了就乱了，所以必须分桶 <button class="pd-ts" data-t="10:33" data-who="Unknown" data-en="I've got probably, you know, 10, probably 10, 15 threads. And I bucket them in folders because I remember one of your shows, you know, it was either you or your guest was saying it's sort of like four or five concurrent tasks you can actually keep track of." aria-label="回原文"></button>。
 
-## Watchdog：让智能体替你巡检业务
+除了数字分桶，他还用一张纸写每周优先事项，贴在显示器旁边。他认为核心技能已经不是写代码，而是管理——就像管理 10 个、100 个员工一样，怎么排优先级、怎么委派，这些管理能力在智能体时代直接可以复用，而且回报是倍数的 <button class="pd-ts" data-t="11:40" data-who="Unknown" data-en="This is my real setup that I'm literally working on today. And, you know, I think one of my big messages for today is that all of us have to up-level our ability to manage agents." aria-label="回原文"></button><button class="pd-ts" data-t="16:04" data-who="Unknown" data-en="The reason why I think folks of a certain level of experience are like ready to cook right now with AI is all those management skills that you have developed over your career can be applied right here." aria-label="回原文"></button>。
 
-客户多了之后，他造了一个叫 Watchdog 的[[剧本|剧本]]（ playbook），专门解决"我不知道业务里现在到底发生了什么"的焦虑 <button class="pd-ts" data-t="17:02" data-who="Ryan Carson" data-en="So Watchdog, what it does, and this is multiple iterations, everybody. So what you want is, like, when that moment where you feel like, I need to know what's going in the business right now." aria-label="回原文"></button>。运作方式：针对每个客户账号，智能体会进去查自上次巡检以来的所有活动——Sentry 错误在哪、用户在哪里碰到 UX 问题、哪些问题已经被修了、哪些有开放 PR 但没合并——然后列出排名前三的问题，附带修复状态 <button class="pd-ts" data-t="16:58" data-who="Ryan Carson" data-en="Oh, my God, how do you keep track of it? So Watchdog, what it does, and this is multiple iterations, everybody. So what you want is, like, when that moment where you feel like, I need to know what's going in the business right now." aria-label="回原文"></button>。他觉得烦躁的时候跑一次 Watchdog，就能快速掌握全局。
+## Watchdog：让智能体帮你盯业务
 
-## 编码智能体不只写代码
+他一个人兼客户成功、工程、销售，客户多了之后根本盯不过来。于是他搭了一个叫 Watchdog 的[[剧本|剧本]](一种预定义的指令模板)：针对每个客户账号，自动进去查自从上次检查以来的活动、Sentry 错误日志，然后过滤排序，列出排名前三的问题，再检查是不是已经被修了、有没有未合并的 PR <button class="pd-ts" data-t="16:37" data-who="Unknown" data-en="It's called Watchdog. And, you know, we're starting to pick up a lot of family law firms now and they have a lot of cases, right? And I'm literally doing customer success and engineering and sales, right?" aria-label="回原文"></button><button class="pd-ts" data-t="17:16" data-who="Unknown" data-en="And what it does is it basically... It has a skill that's repeated for each firm. So think of these as customers, right?" aria-label="回原文"></button>。他感觉焦虑、不知道业务在发生什么的时候就跑一次 Watchdog，几分钟后拿到一份清晰的状况报告 <button class="pd-ts" data-t="17:02" data-who="Unknown" data-en="So Watchdog, what it does, and this is multiple iterations, everybody. So what you want is, like, when that moment where you feel like, I need to know what's going in the business right now." aria-label="回原文"></button>。
 
-Ryan 认为人们严重低估了云端编码智能体的能力边界。Devon 在他手里不只是写代码——还帮他做报价、运营文档、客户分流 <button class="pd-ts" data-t="23:10" data-who="Ryan Carson" data-en="And in fact, Devin runs DealDesk for me. So Devin's doing quoting, custom quoting for me, like setting out operations, documentation, customer triage." aria-label="回原文"></button>。
+## 编码智能体不只是写代码
 
-他的思路是：想象一个既了解你整个代码库、又能写代码解决任何业务问题的人，你会让他干什么？就该这么用这些智能体 <button class="pd-ts" data-t="23:25" data-who="Ryan Carson" data-en="So Devin's doing quoting, custom quoting for me, like setting out operations, documentation, customer triage. Like, I always think, you know, what would you do with somebody who both knew your code base and could write code to solve anything in your business?" aria-label="回原文"></button>。
+他认为人们严重低估了编码智能体的能力范围——Devon 不只写代码，还在帮他做报价、运营文档、客户分流 <button class="pd-ts" data-t="23:10" data-who="Unknown" data-en="And in fact, Devin runs DealDesk for me. So Devin's doing quoting, custom quoting for me, like setting out operations, documentation, customer triage." aria-label="回原文"></button>。他的思路是：如果一个人既懂你的代码库又能写代码解决任何业务问题，你会让他干什么？就这么用你的智能体 <button class="pd-ts" data-t="23:25" data-who="Unknown" data-en="So Devin's doing quoting, custom quoting for me, like setting out operations, documentation, customer triage. Like, I always think, you know, what would you do with somebody who both knew your code base and could write code to solve anything in your business?" aria-label="回原文"></button>。
 
-## 两个工具的分工：Codex 管前端打磨，Devon 管后台和验证
+## 本地 vs 云端：各有分工
 
-他同时用 [[Codex|Codex]] 和 Devon，分工明确。需要大量前端 UI 磨、需要低延迟、需要人在旁边随时干预的场景，用 Codex 配合 Goal（一种让智能体自主执行多步任务的机制）和浏览器，边写边看边改 <button class="pd-ts" data-t="24:58" data-who="Ryan Carson" data-en="I'll take the subsidy. That, you know, plus goal really, really is good for when you have this kind of, I've got a feature, it's a lot of front-end UI, I just need you to grind for a lot and I need to be here and kind of hold your hand." aria-label="回原文"></button>。后台自动修 Bug、一次性小需求、运营类工作，丢给 Devon <button class="pd-ts" data-t="26:33" data-who="Ryan Carson" data-en="Those are kind of what I'm using Codex for. When I'm using background agents, it's a lot of like auto fixes on bugs. Why not like when I'm on calls with customers and they say, oh, do you have this MCP?" aria-label="回原文"></button>。
+他也还在用本地智能体 [[Codex|Codex]]，场景是：需要低延迟、需要人在旁边牵着走的大型前后端功能开发，以及用浏览器做前端验证——写用户故事、拉起预览分支、像用户一样走一遍、列出通过和失败的、自动修 Bug <button class="pd-ts" data-t="24:56" data-who="Unknown" data-en="Yeah, cool. I'll take the subsidy. That, you know, plus goal really, really is good for when you have this kind of, I've got a feature, it's a lot of front-end UI, I just need you to grind for a lot and I need to be here and kind of hold your hand." aria-label="回原文"></button><button class="pd-ts" data-t="26:19" data-who="Unknown" data-en="A lot. So I say, write user stories, use Chrome, pull up the preview branch in Chrome, go through it as a user, list which user stories pass, identify bugs, fix them until you're good." aria-label="回原文"></button>。这类需要频繁干预的活，本地体验更好。
 
-PR 合并流程上，他写了一个叫"Land PR"的剧本：智能体做完 PR 后自动触发 Devon 内置的代码审查，最多跑两轮找 Bug 和未解决的评论；然后智能体在浏览器里录一段带字幕的视频演示，附带测试清单（红/绿），他看一眼视频说"通过"，就合并 <button class="pd-ts" data-t="28:35" data-who="Ryan Carson" data-en="And then I trigger it. And then what it does is it basically makes sure that, number one, it runs a fresh Devon review on the PR. And Devon review is like an actual product inside of Devon, which is another reason why I think people should just pick..." aria-label="回原文"></button>。
+云端智能体则用来跑 Bug 自动修复、一次性小需求、运营类任务 <button class="pd-ts" data-t="26:33" data-who="Unknown" data-en="Those are kind of what I'm using Codex for. When I'm using background agents, it's a lot of like auto fixes on bugs. Why not like when I'm on calls with customers and they say, oh, do you have this MCP?" aria-label="回原文"></button>。
 
-[[Claude Code|Claude Code]] 他也用，但只限一个场景：创建和延续设计系统（把 Figma 或示例站点拆成可复用的设计令牌），这方面 Claude 目前无可替代 <button class="pd-ts" data-t="36:36" data-who="Ryan Carson" data-en="So I can tell you what I did. I think Claude Designs Create a design system is like unmatched right now." aria-label="回原文"></button>。但他受不了 Claude 的输出格式，血压会升高，所以设计令牌建好后就导出给 Codex 去实际构建组件 <button class="pd-ts" data-t="37:53" data-who="Ryan Carson" data-en="Yeah, that's exactly what I did. I mean, my problem with Claude, infinite tokens, very intelligent. My blood boils reading Claude output." aria-label="回原文"></button>。
+## 自动审查和合并：Land PR 与 Merge Mommy
 
-## 别让智能体决定做什么产品
+他在 Devon 里搭了一个叫 Land PR 的流程：智能体说 PR 做完了，就触发一次 Devon 内置的代码审查，最多跑两轮找 Bug 和未解决的评论，然后在浏览器里录一段带字幕的视频走查，展示测试红绿结果。他看完视频说"通过"，就合并 <button class="pd-ts" data-t="28:28" data-who="Unknown" data-en="So I have something called LAN PR, where basically it's a playbook in Devon, but you can think of it as a skill. And usually it's when the agent comes back and says, okay, the PR is done." aria-label="回原文"></button><button class="pd-ts" data-t="29:16" data-who="Unknown" data-en="All right, find all the bugs, check that all the comments are resolved, and then there'll be some more that come up, do it again, does it twice. And then the thing is, is it records a video walkthrough." aria-label="回原文"></button>。
 
-两人都反复强调一点：代码产出量和可商业化产品之间存在严重错配 <button class="pd-ts" data-t="20:51" data-who="Ryan Carson" data-en="Yeah, for stuff. And so I do think there's this like mismatch between the quantity of output of code and like commercializable product. Amen." aria-label="回原文"></button>。前沿模型离"知道该发布什么"还差得远，自动改进循环在产品层面基本是个笑话 <button class="pd-ts" data-t="20:13" data-who="Ryan Carson" data-en="And two, I don't think it actually adds value. I agree. I actually think we're nowhere near any frontier model having the intelligence to know what to ship." aria-label="回原文"></button>。
+主持人这边则搭了一个叫 Merge Mommy 的智能体，部署在 Vercel 上：PR 打开并通过所有 CI 检查(包括 BugBot 审查)后触发，从爆炸半径、安全性等五个维度打分，低风险的自动批准合并，中高风险的在 Slack 里 ping 人类来审 <button class="pd-ts" data-t="27:25" data-who="Unknown" data-en="Yeah, so I did an episode on this a week or two ago. It's an EVE agent, so it's deployed on Vercel. And whenever a PR is opened and then passes all its CI checks, including BugBot, Merge Mommy gets triggered." aria-label="回原文"></button><button class="pd-ts" data-t="27:38" data-who="Unknown" data-en="And whenever a PR is opened and then passes all its CI checks, including BugBot, Merge Mommy gets triggered. And then what she looks at is she scores the PR on like five aspects of risk." aria-label="回原文"></button>。
 
-Ryan 找到产品市场契合点的方式极其传统——发邮件冷启动、跟潜在客户开 Google Meet、然后直接去人家办公室坐着聊 <button class="pd-ts" data-t="21:11" data-who="Ryan Carson" data-en="I think what is happening is people are not getting out of their chair enough and actually talking to real people. So the way I figured out PMF for Untangle was I went outbound with an email." aria-label="回原文"></button>。他说因为 AI 让我们能 shipped so much，反而让人不愿意从椅子上站起来去跟真人说话了 <button class="pd-ts" data-t="21:31" data-who="Ryan Carson" data-en="But then step two is as soon as we landed them as a customer, I was like, can I come to your office? And I just want to sit and I want to talk and I want to, and this is all like obvious product stuff, but I think because we can ship so much and build so much digital product, we're not getting out of our chairs enough." aria-label="回原文"></button>。
+## 不要迷信自动改进循环，去见真人
 
-## 招人：不看简历，看你怎么管智能体
+两人都反对"让智能体 24 小时跑、自动出产品"的做法。主持人认为现在的前沿模型根本不知道该发布什么，自动改进循环对产品来说是个笑话 <button class="pd-ts" data-t="20:13" data-who="Unknown" data-en="And two, I don't think it actually adds value. I agree. I actually think we're nowhere near any frontier model having the intelligence to know what to ship." aria-label="回原文"></button><button class="pd-ts" data-t="20:25" data-who="Unknown" data-en="I agree. So yeah, I think we all wanted these sort of like automatic improvement loops, and they just don't work with product. They're kind of a joke." aria-label="回原文"></button>。
 
-Ryan 招第一个工程师的方式：在 Twitter 发帖子，要求候选人录一段全屏桌面视频，展示自己用智能体为一个已有应用构建新功能的完整过程。不聊天、不开会，只看视频里你作为一个智能体管理者有多好 <button class="pd-ts" data-t="40:25" data-who="Ryan Carson" data-en="But I think this is interesting. So what I decided to do is I basically on Twitter, I was like, okay, we're hiring our first engineer. You got to be like super duper duper AI forward, you know, of course." aria-label="回原文"></button>。
+Ryan 更直接：代码产出量和可商业化产品之间存在严重不匹配，AI 没有凭空创造市场 <button class="pd-ts" data-t="20:34" data-who="Unknown" data-en="They're kind of a joke. And I tell people it's also because all of this intelligence has not magically created markets where there were none before. Other than AI markets, right?" aria-label="回原文"></button><button class="pd-ts" data-t="20:51" data-who="Unknown" data-en="Yeah, for stuff. And so I do think there's this like mismatch between the quantity of output of code and like commercializable product. Amen." aria-label="回原文"></button>。他找到产品市场契合点的方法非常传统——发邮件约客户打 Google Meet，然后跑去人家办公室坐着聊 <button class="pd-ts" data-t="21:11" data-who="Unknown" data-en="I think what is happening is people are not getting out of their chair enough and actually talking to real people. So the way I figured out PMF for Untangle was I went outbound with an email." aria-label="回原文"></button><button class="pd-ts" data-t="21:25" data-who="Unknown" data-en="Boom, that was step one. But then step two is as soon as we landed them as a customer, I was like, can I come to your office? And I just want to sit and I want to talk and I want to, and this is all like obvious product stuff, but I think because we can ship so much and build so much digital product, we're not getting out of our chairs enough." aria-label="回原文"></button>。
 
-第二阶段再给 Devon 权限让他们做真实项目，同样录视频。他打算入职后也主要通过观察智能体输出来管理这个人 <button class="pd-ts" data-t="41:24" data-who="Ryan Carson" data-en="And then I'm going to hire them. And then I'm just going to watch their agent output. And that's how I'm going to manage them." aria-label="回原文"></button>。
+## 用视频面试：不看人，看智能体管理能力
+
+他在招第一位工程师时，不聊、不见面，只让候选人录一段全屏桌面视频：在一个已有应用上用智能体构建一个新功能，他要看的不是技术能力，而是"你是一个多好的智能体管理者" <button class="pd-ts" data-t="40:36" data-who="Unknown" data-en="And I don't really care where you live. And all I want you to do is record a video, full screen, everything, your whole desktop of you building a new feature for an app that already exists." aria-label="回原文"></button><button class="pd-ts" data-t="40:52" data-who="Unknown" data-en="I don't want to get to know if I like you. I just want to see how good of an agent manager you are. And the videos I'm getting are fascinating and very revealing about whether I would want to work with this person." aria-label="回原文"></button>。通过后给 Devon 权限做一个真实项目，同样录视频，最后才聊几句就招 <button class="pd-ts" data-t="41:05" data-who="Unknown" data-en="And I'm liking it. So I've got, you know, a number of people that are probably going to move to phase two, where then what I'm going to do is say, okay, give them access to Devon and actually build a real thing." aria-label="回原文"></button>。
 
 ## 本集带走
-- **用文件夹给智能体线程分级**：P0/P1/P2 + 独立 Bug 文件夹，配合一张写本周优先级的纸，防止被并发线程淹没
-- **造一个 Watchdog 式的巡检剧本**：让智能体定期扫每个客户账号的错误、活动和 PR 状态，汇总成"前三问题 + 修复情况"报告
-- **把编码智能体当全能业务助手用**：报价、文档、客户分流都可以丢给它，别只让它写代码
-- **Land PR 流程自动化**：审查跑两轮 → 浏览器录带字幕的视频演示 → 人看视频说"通过"→ 合并
-- **设计系统用 Claude 起、Codex 建**：Claude 拆设计令牌，导出后交给 Codex 实际构建组件
-- **产品方向不能靠智能体拍**：代码量不等于产品价值，PMF 还是得靠站起来去跟真人聊
-- **招聘看"智能体管理能力"**：让候选人录全屏操作视频，直接看ta怎么跟智能体协作，比聊简历高效
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+- **用文件夹按 P0/P1/P2 分桶管理智能体线程**：人能同时跟踪的并发任务有限，必须分优先级，配合一张纸写每周重点保持注意力锚定。
+- **搭 Watchdog 类剧本让智能体帮你盯业务**：针对每个客户自动查错误日志、活动记录，过滤排序后只给你看排名前三的问题及修复状态。
+- **编码智能体当全能业务助手用**：不只是写代码，报价、运营文档、客户分流都能丢给它。
+- **本地和云端按场景分工**：需要低延迟、频繁干预的前后端功能用本地；Bug 修复、一次性需求、运营任务用云端。
+- **PR 审查和合并可以自动化**：用智能体做代码审查、浏览器视频走查、风险评估分级，低风险自动合并。
+- **代码量不等于产品价值**：前沿模型不知道该发布什么，去找真人客户聊，别坐在椅子上让智能体自动转。
+- **面试工程师看智能体管理能力**：让候选人录全屏视频展示他们如何用智能体构建功能，比聊技术栈更能看出实际工作方式。
 
-> <span class="qz">我认为未来几乎 100% 是云端智能体。</span>  
+> 【背景】Devon 是 Cognition 公司开发的云端编码智能体产品，转写稿中多处拼写为 Devon，实际应为 Devin。Claude Code 是 Anthropic 的命令行编码工具。Codex 是 OpenAI 的本地编码智能体。BugBot 是一个 PR 审查工具。Opus 5 指 Claude 的 Opus 5 模型。OpenClaw/OpenClaude 是一个第三方 Claude 包装客户端。Polly 是该客户端中的某个配置或实例名。
+
+<div class="pd-sec">全部金句 <span>8 条</span></div>
+
+> <span class="qz">我认为未来几乎 100% 都是云端智能体。</span>  
 > *I think the future is pretty much 100% cloud agents.*  
 > <span class="qm">—— Ryan Carson · [09:46]</span> ^q1
 
+> <span class="qz">我认为为什么有一定经验水平的人现在准备好用 AI 大干一场的原因是，你在职业生涯中培养的所有那些管理技能都可以在这里直接应用。</span>  
+> *The reason why I think folks of a certain level of experience are like ready to cook right now with AI is all those management skills that you have developed over your career can be applied right here.*  
+> <span class="qm">—— Claire · [15:48]</span> ^q2
+
 > <span class="qz">我实际上认为我们离任何具有知道发布什么的智能的前沿模型还差得很远。</span>  
 > *I actually think we're nowhere near any frontier model having the intelligence to know what to ship.*  
-> <span class="qm">—— Ryan Carson · [20:13]</span> ^q2
+> <span class="qm">—— Ryan Carson · [20:13]</span> ^q3
 
-> <span class="qz">就像，我总是在想，你知道，你会怎么对待一个既了解你的代码库又能编写代码来解决你业务中任何问题的人？这就是我使用这些后台智能体的方式。</span>  
-> *Like, I always think, you know, what would you do with somebody who both knew your code base and could write code to solve anything in your business? That's how I use these background agents.*  
-> <span class="qm">—— Claire · [23:25]</span> ^q3
+> <span class="qz">所以是的，我想我们都想要这种自动改进循环，但它们不适用于产品。</span>  
+> *So yeah, I think we all wanted these sort of like automatic improvement loops, and they just don't work with product.*  
+> <span class="qm">—— Ryan Carson · [20:25]</span> ^q4
 
-> <span class="qz">读 Claude 的输出让我血液沸腾。它实际上升高了我的血压。它让我非常焦虑。</span>  
-> *My blood boils reading Claude output. It actually raises my blood pressure. It makes me so anxious.*  
-> <span class="qm">—— Claire · [37:59]</span> ^q4
+> <span class="qz">你会怎么对待一个既了解你的代码库又能编写代码来解决你业务中任何问题的人？</span>  
+> *What would you do with somebody who both knew your code base and could write code to solve anything in your business?*  
+> <span class="qm">—— Claire · [23:28]</span> ^q5
+
+> <span class="qz">我确实认为人们对他们的后台智能体要求还不够多，尤其是那些非常擅长编码的智能体。</span>  
+> *I do think that people really don't ask enough of their background agents and especially ones that are very good at coding.*  
+> <span class="qm">—— Claire · [23:39]</span> ^q6
+
+> <span class="qz">这就是为什么我仅仅认为 Slack 不是为 AI 时代而构建的。</span>  
+> *That's why I just think Slack is not built for the AI age.*  
+> <span class="qm">—— Ryan Carson · [32:47]</span> ^q7
+
+> <span class="qz">你们时间线上最沉迷 AI 的两个人花了我们大部分时间谈论太多的 AI 代码其实并不能给你带来好产品。</span>  
+> *The two most AI-pilled people on your timeline spent most of our time talking about how too much AI code doesn't really get you great product.*  
+> <span class="qm">—— Claire · [42:13]</span> ^q8
 
 <div class="pd-sec">接着看</div>
 
@@ -118,7 +139,7 @@ Ryan 招第一个工程师的方式：在 Twitter 发帖子，要求候选人录
 
 **换个口味**
 
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|Ryan Carson：从本地编码到管理成群云端智能体]]<span class="pd-rz">同嘉宾:Claire · 同公司:Claude Code、Codex、Devon · 同概念:云端智能体 (cloud agent)、剧本 (playbook)、后台智能体 (background agent)、智能体 (agent)、产品市场契合点 (product market fit)</span>
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|Ryan Carson：从手把手到放养，云端智能体管理术]]<span class="pd-rz">同嘉宾:Claire · 同公司:Claude Code、Codex、Devon · 同概念:云端智能体 (cloud agent)、剧本 (playbook)、后台智能体 (background agent)、智能体 (agent)、产品市场契合点 (product market fit)</span>
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude Code、OpenAI · 同概念:智能体 (agent)</span>
 

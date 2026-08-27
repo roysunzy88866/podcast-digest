@@ -159,7 +159,7 @@ Joon Sung Park 把现在的大语言模型比作"智能的 CPU"——一个很�
 
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、记忆 (memory)</span>
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:智能体 (agent)</span>
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|Sequoia 合伙人拆解：如何识人、押注与智能体新经济]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:智能体 (agent)</span>
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -42,8 +42,8 @@ unlisted: true
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(57:00起):本集说 Matt 用 Claude Code 在电脑上搭建营销操作系统，接入邮箱定时检查简报请求、自动询价谈判、写文案发邮件
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]]**(32:52起):本集提到 Will 用 Claude Code 试着为侄女生日创作一首歌，作为不需要开月费账户、只需微消费的场景例子。
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(01:40起):本集说 Claude Code 是嘉宾的'主力工具'（workhorse），亚马逊员工使用时可以选择加入追踪，团队能识别出模型做错的轨迹来构建评估
-- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(35:47起):本集说 Claude Code 在延续已有设计系统方面做了神奇的事情，能把示例站点或 Figma 拆解成可复用的设计 token，但读其输出会让人血压升高
-- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]]**(35:47起):本集说 Claude Code 在创建和延续设计系统方面无可替代，能将 Figma 或示例站点拆成可复用的设计令牌，但输出格式让人血压升高
+- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(35:47起):本集说 Claude Code 在延续已有设计系统方面做了神奇的事情，能把示例站点或 Figma 拆解成可复用的设计 token，但读其输出会让人血压升高
+- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(35:47起):本集说 Claude Code 在创建和延续设计系统方面无可替代，能将 Figma 或示例站点拆成可复用的设计令牌，但输出格式让人血压升高
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:55起):本集讨论的 Anthropic 推出的同类命令行编码智能体。嘉宾持反向观点，认为全世界都在用但他“不觉得可以用 Claude Code 构建任何东西”，并提及初版 OpenClaw 曾在连接 WhatsApp 和 Claude Code 的依赖间加了点“胶水”。
 
 ## ① 提到它的金句
@@ -94,8 +94,8 @@ unlisted: true
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司(提及)
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]] — 作为概念(提及)
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为被讨论公司
-- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为被讨论公司
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为被讨论公司
+- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联

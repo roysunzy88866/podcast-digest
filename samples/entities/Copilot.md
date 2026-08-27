@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(46:08起):本集提到 Marc 的儿子在使用 Copilot，以及 GitHub Copilot 曾被后来者超越的历史
 - **[[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]]**(21:33起):本集将其与 Cursor 并列，说它们推出的编排器新迭代能想出的最好 UI 就是侧边栏加聊天
 - **[[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]]**(00:36起):本集把它说成:GitHub Next 团队创建的 AI 助手,能根据几句自然语言提示自动梳理生成完整的智能体工作流手册。
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(60:18起):本集说AI第一波是副驾驶，即帮助人类工作者把工作做得更好的公司，因为当时模型还不足以完成整个工作
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(60:18起):本集说AI第一波是副驾驶，即帮助人类工作者把工作做得更好的公司，因为当时模型还不足以完成整个工作
 
 ## ② 出现在这些集
 
@@ -25,7 +25,7 @@ unlisted: true
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为被讨论公司(提及)
 - [[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]] — 作为被讨论公司
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为概念
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为概念
 
 ## ③ 关联
 

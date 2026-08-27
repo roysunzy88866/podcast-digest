@@ -14,7 +14,7 @@ unlisted: true
 - **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(15:04起):本集将 Revolut 作为预判需求和持续惊喜的案例：银行 App 内置 eSIM 购买功能，因为其大批用户是经常旅行的国际人士
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(57:03起):本集讨论 Revolut CEO 的分级激励方案，从 2000 亿到 5000 亿估值可获得额外 10% 股权，引发关于创始人控制权与薪酬的讨论
 - **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(14:13起):本集引用 Revolut 创始人的节奏作为新业务孵化标杆——同时跑 26 个实验，每个给 200 万美元跑一年，每周碰 20 分钟
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(69:13起):本集作为嘉宾个人最大的遗憾：早期在Seedcamp见到Nikolai但失去投资机会，后来他母亲在A轮个人投资，从约2亿美元估值涨到超1000亿美元
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(69:13起):本集作为嘉宾个人最大的遗憾：早期在Seedcamp见到Nikolai但失去投资机会，后来他母亲在A轮个人投资，从约2亿美元估值涨到超1000亿美元
 
 ## ② 出现在这些集
 
@@ -23,7 +23,7 @@ unlisted: true
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司(提及)
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(00:13起):本集说 Fireworks 赚的钱比 Base10 多得多，资本效率更高、有在业务上盈利的意愿，三年半达到 10 亿美元 ARR，是理解 PyTorch 的天才团队向上移动技术栈做微调和定制
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(53:52起):本集作为基础设施层投资的例子，说无论谁在应用层获胜都会用Fireworks
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(53:52起):本集作为基础设施层投资的例子，说无论谁在应用层获胜都会用Fireworks
 
 ## ① 提到它的金句
 
@@ -25,7 +25,7 @@ unlisted: true
 *2 集*
 
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

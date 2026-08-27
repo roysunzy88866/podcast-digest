@@ -41,10 +41,10 @@ unlisted: true
 - **[[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|《Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习》]]**(39:38起):本集说 Cursor 的权重确实在更新，做法是收集大量用户数据做批量更新，但如果你想教模型某件具体的事还得跟其他用户抢，不是真正的个性化持续学习
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(01:50起):本集说 Cursor 是领先的软件开发工具，其独立估值就达 600 亿美元量级；关键区分点是始终认为这是一个产品问题而非模型架构问题，创始团队自己就是开发者，给自己造工具并在自己身上测试
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(12:27起):本集提到 Cursor 与 Base10 的合同、四年扩展到 600 亿销售额、从 IDE 领域转型说服 Elon 后拿到 600 亿
-- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]]**(02:42起):本集说 Ryan 一开始在 Cursor 这类本地 IDE 里跟智能体手把手协作，后来转向云端
-- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]]**(02:42起):本集提到 Ryan 一年前在 Cursor 里做工程，当时非常手把手地指导智能体，后来转向了云端
+- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(02:42起):本集说 Ryan 一开始在 Cursor 这类本地 IDE 里跟智能体手把手协作，后来转向云端
+- **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(02:42起):本集提到 Ryan 一年前在 Cursor 里做工程，当时非常手把手地指导智能体，后来转向了云端
 - **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]]**(06:31起):本集说它是一个集成开发环境（IDE），被选作 AI PDLC 的核心运行环境，因为它是无代码 IDE、可以按任务挑选不同模型、且能通过 MCP 插件读取 Figma 原型并生成代码。
-- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]]**(68:28起):本集称其为Sequoia之外最好的智能体公司，处于最重要市场之一，并且是第一家真正理解可以后训练模型深入堆栈底层的公司
+- **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(68:28起):本集称其为Sequoia之外最好的智能体公司，处于最重要市场之一，并且是第一家真正理解可以后训练模型深入堆栈底层的公司
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(13:39起):本集说 Cursor 在编码领域做模型聚合，用前沿模型做规划、用小模型做执行
 
 ## ① 提到它的金句
@@ -95,10 +95,10 @@ unlisted: true
 - [[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|《Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习》]] — 作为被讨论公司(提及)
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从本地编码到管理成群云端智能体》]] — 作为被讨论公司(提及)
-- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：怎么管一群AI智能体干活》]] — 作为被讨论公司(提及)
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为被讨论公司(提及)
+- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司(提及)
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为被讨论公司
-- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何识人、押注与智能体新经济》]] — 作为被讨论公司(提及)
+- [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司(提及)
 
 ## ③ 关联

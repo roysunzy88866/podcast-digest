@@ -129,14 +129,14 @@ Zevi 的这套观察建立在他一个非常有趣的认知上：他把不同的
 
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
-- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|Ryan Carson：怎么管一群AI智能体干活]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
+- [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|Ryan Carson：从手把手到管理成群智能体]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|Ryan Carson：从本地编码到管理成群云端智能体]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
+- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|Ryan Carson：从手把手到放养，云端智能体管理术]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:Claude Code、Codex、智能体 (agent)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic、Cursor · 同概念:Claude Code、智能体 (agent)、Codex</span>
 
