@@ -43,8 +43,10 @@
   font-weight: 100 900;
   font-style: normal;
   /* optional(2026-08-27 用户拍板):字体在缓存里就直接用、零闪;不在(首访冷缓存)就这次先用兜底、
-     不中途 swap,下次自然用普惠体。治「每次刷新系统字体→普惠体」的 FOUT——swap 每次加载都会闪,
-     换 optional 后配 1 年 immutable 缓存(_headers)刷新永不再闪。见 assets/deploy/_headers。 */
+     不中途 swap,下次自然用普惠体。治「每次刷新系统字体→普惠体」的 FOUT——swap 每次加载都会闪。
+     配套:①字体 7 天缓存(deploy-site.sh 生成 public/_headers 的 /static/fonts/*;故意不 immutable——
+     字体每部署按用字重 subset、内容会变,固定名+immutable 会让返回用户长期拿旧 subset)②patch-site.mjs
+     注入字体 preload(提前暖缓存,主要惠及下次导航;首访跨网络多半赶不上 optional ~100ms block,退回兜底)。 */
   font-display: optional;
   src: url("/static/fonts/AlibabaPuHuiTi-min.woff2") format("woff2");
 }
