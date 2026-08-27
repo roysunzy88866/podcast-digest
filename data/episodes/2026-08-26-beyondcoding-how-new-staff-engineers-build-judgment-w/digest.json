@@ -1,141 +1,141 @@
 {
-  "title_zh": "AI 时代 Staff 工程师的核心挑战：判断力怎么教",
-  "tldr": "Malika Rao 从大型科技公司工程管理经验出发，指出 AI 让\"实现\"变得廉价，Staff 工程师的核心价值已转向认知协调与判断力传递。",
-  "digest_md": "实现正变得丰富，但判断力并非如此——这是 AI 给软件工程师层级带来的最大错位。初级工程师现在能用智能体大量产出代码，但他们缺乏的是判断力；而 Staff 工程师过去靠几年学徒制慢慢把判断力传下去的路径，被压缩甚至打断了 [04:13 Malika Rao]。\n\n## 判断力到底是什么\n\n判断力不是尽快找到解决方案。它是保持步调、同时容纳多种替代思路的能力——真正辩论各自的优缺点，享受评估权衡的过程，对数据保持开放心态 [05:14 Malika Rao]。有判断力的工程师会思考二阶效应：这个决定的一阶影响是什么，二阶影响又是什么？我们今天在做哪些假设，在未来会站不住脚？他们不只是在构建解决方案，而是在\"预演未来\" [06:05 Malika Rao]。\n\n品味和判断力有关联但不同。品味是能在多个层次上思考——从 1 层到 3 层到 10 层再到 50 层——从不同角度看待问题并形成观点，同时保持开放心态，如果有新数据进来就愿意改变自己的想法 [49:31 Malika Rao]。判断力则是反复正确地做出可信决策的能力，信誉由此而来 [50:25 Malika Rao]。\n\n## 怎么在没有学徒制的情况下压缩判断力培养\n\n传统路径是：初级工程师加入团队，花几年从 SEV3（较低级别事故）一路处理到 SEV0（最高级别事故），逐步理解如何构建生产系统。Staff 工程师在这个过程中承担指导和辅导的角色。但现在这条路径被绕过了 [03:23 Malika Rao]。\n\n一个可行的方向是把\"案例教学法\"引入工程教育。不是只学数据结构和算法，而是拿真实的事故报告做深度分析——比如 2017 年 AWS S3 那次大规模故障，从技术决策、组织决策、产品决策到当天的运行手册和操作手册，全方位拆解 [09:57 Malika Rao]。挑七八个这样的案例，用一个学期的时间让学生经历严谨的思维训练，建立对模糊性的熟悉和从容 [10:15 Malika Rao]。\n\n这背后还有一个常被忽略的技能：精确沟通。案例教学应该把语言能力也纳入课程——能不能精确表达、能不能与人协作、能不能在解决复杂问题的同时保持共情 [11:20 Malika Rao]。\n\n## Staff 级别的新核心挑战：认知协调\n\n在 Staff 和 Staff Plus 层面，核心挑战已经转向认知协调。更多的代码审查、更多的指导辅导——但辅导的本质也在变：不再是教人写代码，而是教人理解为什么五年前、三年前某个决定是那样做的，让新人不会无脑派智能体重写代码而抹掉那段历史 [14:36 Malika Rao]。\n\n这种协调负荷不应压在单个 Staff 工程师身上。一个具体例子：现在会议上人们不再自己做笔记了，但 AI 生成的笔记无法捕捉潜台词和字里行间的含义。从中提炼出真正的核心可执行项，这成了高级工程师的新负荷 [21:23 Malika Rao]。代码审查也是同理——代码产出量暴增，谁来审？还要不要审？这些都不是个人该扛的问题，而是组织责任 [22:27 Malika Rao]。\n\n## 一个反直觉的发现：工程师开始要更多\"人的时间\"\n\n一个意料之外的现象：当工程师整天与智能体协作、认知负荷拉满之后，他们反而开始渴望更多人与人之间的交流——不是减少会议，而是想要更多面对面的对话、头脑风暴、设计讨论 [23:15 Malika Rao]。这对管理者来说是第一性原理层面的重新思考：过去\"减少会议、保护专注时间\"是标准答案，现在这个答案不成立了。创造心理安全的讨论空间，让大家能真正辩论方案的优劣，这是领导者的核心组织责任 [24:32 Malika Rao]。\n\n## 团队形态没有标准答案，但要看清自己处于哪个阶段\n\n小团队（特遣队模式）适合早期探索：高度熟练的小规模专家团队，极大自主权，不需要冗余，快速冲刺出 MVP 或达成目标。但这个模式不总是能扩展 [31:29 Malika Rao]。\n\n当产品过了发布期、被广泛采用后，第一性原则变了——你要的是可靠性、可解释性、可观测性、金丝雀发布（先小范围验证再全量推送）、安全回滚。到了这个阶段，你需要更多协作：人与人之间、智能体与人之间、各职能之间 [32:51 Malika Rao]。职能边界也在模糊——产品经理在审代码，独立贡献者（IC）在提设计想法，数据科学在影响产品方向 [33:45 Malika Rao]。但什么能进生产、怎么干预，必须高度可控，这依赖于基础设施和 AI 平台是否已经按平台化思路建好 [34:04 Malika Rao]。\n\n关键判断是：你处于旅程的哪个阶段？5% 人力的小团队什么时候该扩展到 27%？这不是一个放之四海而皆准的答案 [34:47 Malika Rao]。\n\n## 跟不上智能体节奏的人，缺的不是工具使用\n\n有些工程师用智能体极其流畅，有些跟不上。差距往往不在于\"会不会用工具\"，而在于判断力——能不能意识到与其开 10 个并行工作流，不如按\"规划\"和\"执行\"两个主题拆分思考方式 [37:48 Malika Rao]。把一大块规划工作、项目分解、项目管理一股脑塞进一个自主工作流，容易让人不堪重负；拆成迭代步骤、用第一性原理逐步推进，效果通常更好 [38:26 Malika Rao]。\n\n一个有效的做法是设立\"本地带头人\"——那些更懂 AI 工作流的人，去辅导其他工程师找到正确的平衡点：哪里移交控制、哪里自己干预、怎么把判断力嵌入提示词 [38:45 Malika Rao]。单是把\"你想并行化到什么程度\"这件事想清楚，就能带来二八法则级别的收益 [39:46 Malika Rao]。\n\n## 深入还是广泛？回到第一性原理来回答\n\n面对智能体工作方式，该深入钻研还是广泛涉猎？答案不在工具层面，而在一个更根本的问题上：未来五到十年，软件工程里最有价值的东西是什么？复杂性正在往哪里转移？盯着那个方向走 [42:14 Malika Rao]。\n\n不会变的东西包括：构建好产品、做复杂权衡、从做功能到建平台、建基础能力。如果深入某个领域（比如推荐系统、搜索、API 设计、AI 平台）能帮你建立判断力和品味，能让你对生产系统有更深的同理心，那就值得深入——但不是为了深入而深入 [43:50 Malika Rao]。\n\n品味也可以在软件工程之外建立。研究绘画——先喜欢颜色，再注意到技术细节，再想自己创造，才发现那些层次的复杂——听音乐、读文学、学数学，这些都在培养模式识别和多层次思考的能力 [52:20 Malika Rao]。\n\n> 【背景】Staff / Staff Plus 是大型科技公司里独立贡献者（IC）路线的高级职级，大致对应\"资深专家/首席工程师\"，不走管理路线但影响力等同或超过管理者。SEV0 到 SEV3 是互联网公司对线上事故的分级，SEV0 最严重。\n\n## 本集带走\n\n- **判断力 ≠ 快速给答案**：判断力是能同时容纳多条路径、享受权衡评估的过程、思考二阶效应，并且\"预演未来\"\n- **品味 = 多层次思考 + 可被新数据改变的开放观点**：可以通过参与设计评审、也可以通过艺术和文学来培养\n- **案例教学法是压缩判断力培养的可行路径**：拿真实事故报告（如 AWS S3 故障）做多角度深度拆解，建立对模糊性的从容\n- **认知协调是组织责任，不是个人负担**：AI 笔记替代不了潜台词捕捉，代码审查负荷不该压在单个 Staff 身上\n- **工程师在与智能体高频协作后，反而需要更多\"人的时间\"**：头脑风暴、设计辩论、面对面讨论——\"少开会\"不再是标准答案\n- **跟不上节奏的人，缺的往往不是工具熟练度，而是判断力**：先想清楚\"规划\"和\"执行\"怎么拆分，比开 10 个并行工作流有效得多\n- **深入还是广泛？看那个方向能不能帮你建判断力和品味**：不会变的是构建好产品、做复杂权衡、从功能走向平台",
+  "title_zh": "AI 时代，工程师的判断力与品味如何修炼",
+  "tldr": "资深工程管理者 Malika Rao 讲解 AI 与智能体如何改变初级与 Staff 级工程师的成长路径，以及判断力、品味到底怎么教、怎么练。",
+  "digest_md": "这一集聊的是 AI 时代工程师的成长问题：当写代码这件事被 AI 大幅“白菜化”之后，初级工程师还怎么攒经验、资深(Staff / Staff Plus,指独立贡献者路线上的高级别工程师)工程师还怎么带人。主角 Malika Rao 是一位有大型科技公司工程管理经验的管理者，整集的核心判断是：**实现正变得丰富，但判断力并没有**——复杂性没有消失，只是在转移。\n\n## 先问对问题：AI 怎么影响工程师？\n\nMalika 开场就指出，行业一直在问“AI 如何影响软件工程师”，这是个错的问题，因为它默认所有级别受到的影响一样。正确的问题是：**对不同级别来说，复杂性正在向哪里转移？**在她看来，Staff / Staff Plus 这一级正面临两难：他们要重新设计工作流程、辅导下一批工程师——但如今的初级工程师人人手里都有 AI,过去那种“跟着团队干几年、从处理 SEV3(严重度较低的事故)一路升到 SEV0、慢慢学会怎么建生产系统”的学徒制被打断了。实现变得廉价，判断力依然稀缺，于是 Staff 工程师背上大量认知负荷：**怎么在没有多年经验的积累过程的情况下，把判断力“压缩”着教出来？**\n\n初级工程师的处境则完全不同：他们要**在缺乏经验的前提下从零建立判断力**。如果不想让工程师只在写代码上和 AI 竞争，而是成为好的协作者——能共情、能理解人、能回到第一性原理——那他们的挑战其实更根本。\n\n## 判断力到底是什么\n\nMalika 给的定义很朴素：做出更好决策的能力；在智能和信息都过剩的世界里，从模糊中逼出清晰的能力。几个具体特征：\n\n- **判断力不是尽快得出答案**，而是能同时容纳两种对立方案、认真辩各自的利弊，甚至享受这个权衡过程。\n- **想二阶效应**：这个决定的一阶影响之外，会驱动哪些指标？我们今天做的哪些假设，未来会失效？\n- **预演未来**：她见过最出色的 Staff 工程师，会在动手实现之前，把多种可能的未来一个接一个排练一遍。\n\n## 没有学徒制，怎么补判断力\n\n她的答案之一是改革教育：现在的课程堆满了数据结构、算法、操作系统这些第一性原理(这部分她认为不会也不该消失)，但缺**案例教学**。比如 AWS S3 在 2017 年的那次大故障，就是经典案例——把技术决策、组织决策、产品决策、当天的运行手册摊开来讲，一所大学挑七八个这样的案例，足够一个学期的功力。再配合思想实验，让人习惯在脑子里同时挂多个“如果-那么”、构建多重宇宙，练出对模糊性的从容——这正是她在很多初级工程师身上看到缺失的东西。\n\n主持人也补充了一条实践路径：去读那些经历过全面宕机的公司的事故报告，那就是现成的案例库。\n\n## 认知负荷不能压在一个人身上\n\n一个反复出现的主题：应对认知超载不该是某位 Staff 工程师个人的责任，而应是组织集体定下持久的原则。她举了几个负荷转移的例子——会议纪要现在没人手写了，综合提炼、读出字里行间的潜台词成了新工作；代码生产量暴涨后，代码审查的负荷谁来扛、还需不需要做，都成了真问题。\n\n她还讲了个意外发现：她本来在为团队争取专注时间、减少会议，结果一位独立贡献者(IC)反过来表示**期待更多人与人协作的时间**——当深度专注时间意味着和智能体高强度协作时，人的连接反而成了稀缺品。这直接推翻了她“会越多越糟”的旧框架：领导者要刻意创造对话空间，因为对话带来更好的决策、头脑风暴和心理安全，让人敢辩论利弊。团队建设也在变：过去像踢足球不像打网球，现在“团队”的定义里多了智能体、更复杂的工具链，**信任本身正在变成生产架构的一部分**。她举了自己团队的例子：做评估系统时，几位技术负责人花一周和产品、设计、ML 研究各职能一起，先手工打磨出一份各方都认可的产品评估标准电子表格，作为“LLM 当裁判”之前的初稿——先靠人建立共同判断，再谈规模化。\n\n## 团队形态：小而精 vs 大而专\n\n对小团队(特遣队式、人人都是产品工程师)和大团队(每人当某个主题的技术负责人、端到端推进)两种思路，她的态度是：看阶段。新问题、新界面适合小团队——专家扎堆、高度信任、极端自主，适合实验和拿买单；但产品一旦被充分采纳，第一性原理就换成了可靠性、可解释性、可观测性、金丝雀发布、能否安全回滚、有没有多个 B 计划——这时必然需要更多协作，而协作可以发生在人与人、智能体与人、各职能之间。她看到的职能边界正在模糊：产品经理在审代码，IC 在出设计想法。但**什么进生产、如何干预，必须被高度监控**——这只有把系统、基础设施、AI 平台建成平台化的基础能力才做得到。这要求 AI 时代的领导者能切换高度：既要有五万英尺的视野，又能立刻下到技术决策的一线，再把两头的综合拿回自己手里。\n\n## 有人快有人慢，怎么办\n\n主持人抛出一个观察：团队里有人用智能体用得飞快，有人跟不上——而跟不上的人往往就是智能体用得不够熟；某种意义上，你必须用智能体来对抗别人用智能体，否则就落后。Malika 的应对建议很实操：\n\n- **把规划和执行拆开**。与其一个大规划包办项目分解、项目管理、Jira、执行一条龙，不如按“规划 / 项目执行”分主题来组织——与其开十条并行工作流，不如想清楚主题。这本身就是二八收益的来源。\n- **设立“本地带头人”**：找那些更懂 AI、更懂工作流的工程师，去辅导其他还在用旧方式思考的人——在哪里移交、在哪里保住控制、在哪里用判断力干预、怎么把逻辑写进提示词。再把带头人上升为公司级，把各团队的经验标准化。\n- 她也见到有的公司把整个软件开发生命周期做成蓝图：产品阶段有预定义技能，构建阶段有内部变体的规范框架——像一条“智能体工程的铺好的路”，但一切都是可选项，只要不冲出护栏。\n\n## 深还是广？先问什么不会变\n\n对“我该在智能体工作方式上钻多深、会不会荒废判断力和品味”这类问题，她的回答是回到第一性原理：未来五到十年软件工程里最值钱的是什么？有些事不会变——仍要做出好产品、仍要做复杂的取舍(范围、估算、先发哪几个功能)。如果你追求的正是判断力、品味、微妙决策这些能力，那不必焦虑深广之争；该深就深，但要**刻意地问：这个深度在为什么服务？**比如深挖推荐系统、搜索的演变与“智能体搜索”、API 设计、AI 平台——深入是为了换来对生产系统、对问题的同理心，不是为了深而深。\n\n## 品味与判断力的区别\n\n主持人讲了件事：一位即将离职的资深工程师逐个评估谁能接自己的班，说到某个很强的人时给出一句——“这个人很棒，但就是缺品味。”那品味到底是什么？Malika 的定义：**在多个层次上思考的能力**——从一层、三层、十层，一路扩到五十层；从不同角度看问题、形成观点，但表达时仍保持开放。她引吉卜林的《如果》：缓慢而刻意地形成观点，同时新数据来了也乐于改。而判断力是反复正确地做决策的能力——信誉就是这么来的；她记忆里最好的 Staff 工程师，会在实现之前把多种未来连续排练。品味怎么练？坐在设计评审里看人做决策——听人漂亮地说“我们可以这么做，但代价是这个，团队接受吗”，那就是品味和沟通的合体。她还特别强调：**品味可以在职业之外建立**——音乐、数学、古典文艺复兴绘画、古典文学里藏着大量人类判断与品味的模式；先为颜色喜欢一幅画，再看出技术细节，再动手创作才发现层层复杂——这个过程本身，就是她希望下一代工程师经历的品味养成。\n\n## 本集带走\n\n- **换问题**：别问“AI 会不会取代工程师”，问“对我这个级别，复杂性正转向哪里”。\n- **判断力的可教部分**：二阶效应思维、预演多种未来、同时容纳对立方案辩利弊。\n- **压缩学徒制的土办法**：精读重大事故报告(如 AWS S3 故障)，把技术、组织、产品决策连着运行手册一起拆；课程里加案例法与思想实验。\n- **组织动作**：认知协调负荷要靠集体原则分摊；刻意创造对话空间；设“本地带头人”把智能体工作流经验标准化。\n- **把规划和执行拆开**，按主题而不是十条并行流推进，先拿二八收益。\n- **深挖要有目的**：选一个不会消失的领域(推荐、搜索、平台)深进去，问它是否在帮你建判断力和品味。\n- **练品味**：多坐设计评审，看人如何报出代价；也在职业之外看画、读经典。",
   "quotes": [
     {
       "en": "Implementation is becoming abundant, but judgment isn't.",
       "zh": "实现正变得丰富，但判断力并非如此。",
-      "timestamp": "04:13",
+      "timestamp": "01:00",
       "speaker": "Malika Rao"
     },
     {
-      "en": "Judgment isn't about getting to the solution as soon as possible.",
-      "zh": "判断力不是要尽快找到解决方案。",
-      "timestamp": "05:14",
+      "en": "I feel like the right question to ask is, where is the complexity shifting for different levels?",
+      "zh": "我觉得应该问的正确问题是，对于不同的级别，复杂性正在向哪里转移？",
+      "timestamp": "02:30",
       "speaker": "Malika Rao"
     },
     {
-      "en": "They would just rehearse multiple futures.",
-      "zh": "他们只会排练多个未来。",
-      "timestamp": "50:51",
-      "speaker": "Malika Rao"
-    },
-    {
-      "en": "So at staff level, I feel like the core challenge is shifting towards cognitive coordination.",
-      "zh": "所以在 Staff 级别，我觉得核心挑战正在转向认知协调。",
-      "timestamp": "14:36",
-      "speaker": "Malika Rao"
-    },
-    {
-      "en": "This person is fantastic, but they just lack taste.",
-      "zh": "这个人很棒，但他们就是缺乏品味。",
-      "timestamp": "47:55",
+      "en": "Because I feel like if people are using agents, you kind of have to use agents to combat other people from using agents because otherwise you stay behind.",
+      "zh": "因为我觉得如果人们在使用智能体，你某种程度上必须使用智能体来对抗其他使用智能体的人，否则你就会落后。",
+      "timestamp": "36:15",
       "speaker": "SPEAKER_01"
     }
   ],
   "quotes_candidates": [
     {
-      "timestamp": "04:13",
-      "speaker": "Unknown",
+      "timestamp": "01:00",
+      "speaker": "Malika Rao",
       "en": "Implementation is becoming abundant, but judgment isn't.",
       "zh": "实现正变得丰富，但判断力并非如此。"
     },
     {
+      "timestamp": "02:30",
+      "speaker": "Malika Rao",
+      "en": "I feel like the right question to ask is, where is the complexity shifting for different levels?",
+      "zh": "我觉得应该问的正确问题是，对于不同的级别，复杂性正在向哪里转移？"
+    },
+    {
+      "timestamp": "04:47",
+      "speaker": "Malika Rao",
+      "en": "And in a world where intelligence is abundant, information is abundant, how do you drive clarity from that ambiguity?",
+      "zh": "在一个智能丰富、信息丰富的世界里，你如何从那种模糊性中推动清晰度？"
+    },
+    {
       "timestamp": "05:14",
-      "speaker": "Unknown",
+      "speaker": "Malika Rao",
       "en": "Judgment isn't about getting to the solution as soon as possible.",
       "zh": "判断力不是要尽快找到解决方案。"
     },
     {
-      "timestamp": "06:16",
-      "speaker": "Unknown",
-      "en": "They would just rehearse multiple futures.",
-      "zh": "他们只会排练多个未来。"
-    },
-    {
-      "timestamp": "06:22",
-      "speaker": "Unknown",
-      "en": "That to me is judgment.",
-      "zh": "对我来说那就是判断力。"
+      "timestamp": "06:07",
+      "speaker": "Malika Rao",
+      "en": "What assumptions are we making today that will not hold in the coming future?",
+      "zh": "我们今天在做什么样的假设，这些假设在未来将站不住脚？"
     },
     {
       "timestamp": "09:37",
-      "speaker": "Unknown",
-      "en": "Even with AI in the system, the complexity is not going away.",
-      "zh": "即使系统中有了 AI，复杂性也不会消失。"
-    },
-    {
-      "timestamp": "09:44",
-      "speaker": "Unknown",
-      "en": "It's only shifting.",
-      "zh": "它只是在转变。"
-    },
-    {
-      "timestamp": "11:20",
-      "speaker": "Unknown",
-      "en": "I feel language is so important.",
-      "zh": "我觉得语言太重要了。"
+      "speaker": "Malika Rao",
+      "en": "And that makes me think that even with AI in the system, the complexity is not going away.",
+      "zh": "这让我思考，即使系统中有了 AI，复杂性也不会消失。"
     },
     {
       "timestamp": "14:36",
-      "speaker": "Unknown",
+      "speaker": "Malika Rao",
       "en": "So at staff level, I feel like the core challenge is shifting towards cognitive coordination.",
       "zh": "所以在 Staff 级别，我觉得核心挑战正在转向认知协调。"
     },
     {
+      "timestamp": "15:45",
+      "speaker": "Malika Rao",
+      "en": "And then on the junior level, they are basically figuring out how to build a judgment from scratch without the experience.",
+      "zh": "然后在初级层面，他们基本上是在弄清楚如何在缺乏经验的情况下从头建立判断力。"
+    },
+    {
       "timestamp": "23:15",
-      "speaker": "Unknown",
-      "en": "I actually heard one of my ICs call out that they're actually looking forward for more human collaboration.",
-      "zh": "我实际上听到我的一位独立贡献者指出，他们实际上期待更多的人类协作。"
+      "speaker": "Malika Rao",
+      "en": "And I actually heard one of my ICs call out that they're actually looking forward for more human collaboration.",
+      "zh": "而我实际上听到我的一位独立贡献者指出，他们实际上期待更多的人类协作。"
     },
     {
-      "timestamp": "24:32",
-      "speaker": "Unknown",
-      "en": "I see that as a core organizational responsibility and not just something that our ICs need to figure out.",
-      "zh": "我把这视为一个核心的组织责任，而不仅仅是我们独立贡献者需要弄清楚的事情。"
-    },
-    {
-      "timestamp": "25:09",
-      "speaker": "Unknown",
+      "timestamp": "26:09",
+      "speaker": "Malika Rao",
       "en": "It's less like playing tennis and so much more like playing soccer.",
-      "zh": "这不像打网球，而更像是在踢足球。"
+      "zh": "这不太像打网球，而更像是在踢足球。"
+    },
+    {
+      "timestamp": "26:52",
+      "speaker": "Malika Rao",
+      "en": "How does trust become your architecture in production?",
+      "zh": "信任如何成为你在生产环境中的架构？"
+    },
+    {
+      "timestamp": "27:28",
+      "speaker": "Malika Rao",
+      "en": "If you don't invest in it, how do you know you're building the right thing?",
+      "zh": "如果你不投资它，你怎么知道你在构建正确的东西？"
     },
     {
       "timestamp": "33:45",
-      "speaker": "Unknown",
+      "speaker": "Malika Rao",
       "en": "My product managers are reviewing code.",
       "zh": "我的产品经理正在审查代码。"
     },
     {
-      "timestamp": "35:39",
-      "speaker": "Unknown",
-      "en": "So I am not convinced that it's one answer fits all.",
-      "zh": "所以我不相信有一个放之四海而皆准的答案。"
+      "timestamp": "34:04",
+      "speaker": "Malika Rao",
+      "en": "But when it comes to guardrailing, holding our constraints, what goes into production, how do we intervene, that should be highly monitored.",
+      "zh": "但是当谈到设置护栏、坚持我们的约束、什么进入生产、我们要如何干预时，这些应该受到高度监控。"
+    },
+    {
+      "timestamp": "36:15",
+      "speaker": "Patrick",
+      "en": "Because I feel like if people are using agents, you kind of have to use agents to combat other people from using agents because otherwise you stay behind.",
+      "zh": "因为我觉得如果人们在使用智能体，你某种程度上必须使用智能体来对抗其他使用智能体的人，否则你就会落后。"
     },
     {
       "timestamp": "39:49",
-      "speaker": "Unknown",
+      "speaker": "Malika Rao",
       "en": "That itself gives that 80-20 benefit in my opinion.",
       "zh": "在我看来，这本身就带来了那种二八法则的收益。"
     },
     {
       "timestamp": "43:50",
-      "speaker": "Unknown",
+      "speaker": "Malika Rao",
       "en": "It's always better to go back to first principles.",
       "zh": "回归第一性原理总是更好的。"
     },
     {
-      "timestamp": "47:55",
-      "speaker": "Unknown",
-      "en": "This person is fantastic, but they just lack taste.",
-      "zh": "这个人很棒，但他们就是缺乏品味。"
+      "timestamp": "50:23",
+      "speaker": "Malika Rao",
+      "en": "That to me is taste.",
+      "zh": "对我来说这就是品味。"
     },
     {
-      "timestamp": "50:25",
-      "speaker": "Unknown",
-      "en": "And judgment is a combination of the ability of making credible decisions, making decisions correctly over and over again.",
-      "zh": "而判断力是做出可信决策的能力，反复正确地做出决策的能力的结合。"
+      "timestamp": "51:21",
+      "speaker": "Malika Rao",
+      "en": "And taste is, I think, especially in software engineering, it can be built by being part of these design reviews, right?",
+      "zh": "品味，我认为，特别是在软件工程中，它可以通过参与这些设计评审来建立，对吧？"
     }
   ]
 }

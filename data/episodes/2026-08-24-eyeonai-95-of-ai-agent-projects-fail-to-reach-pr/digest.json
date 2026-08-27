@@ -1,48 +1,90 @@
 {
-  "title_zh": "智能体需要HR部门：TrustWise的运行时控制塔",
-  "tldr": "TrustWise创始人Manoj Saxena认为，智能体AI的信任问题不在于模型准不准，而在于它会不会做你不想让它做的事。",
-  "digest_md": "上个月，互联网上智能体流量首次超过人类流量，就像当年AT&T网络上数据流量超过语音流量一样——这是一个里程碑式的转变 [00:11 Unknown]。问题在于，所有人都在造越来越大的模型，但没人给这些\"核反应堆\"加安全罩 [00:22 Unknown]。\n\n信任的核心问题已经变了。不再是\"模型输出准不准\"，而是\"模型会不会做你不想让它做的事\"——也就是对齐问题 [04:28 Unknown]。三个趋势让这个问题变得紧迫：AI从生成内容变成了代表你采取行动，而且这些行动可能运行几分钟、几天；企业从单一模型工作流转向多智能体系统；策略执行不能再只在部署时做一次，必须在整个运行过程中持续强制执行 [04:48 Unknown]。\n\n结果是，架构本身变成了风险面。你需要一种新的基础设施来管理这些智能体——本质上就是给智能体配一个HR部门和财务部门 [06:24 Unknown]。今天企业部署数字劳动力，没有入职流程、没有行为手册、没有绩效评估、没有紧急停止开关 [06:36 Unknown]。\n\n## 运行时控制：不是事后审计，而是行动前拦截\n\n现有三类企业软件都管不了这件事。安全软件是\"由外而内\"防御的，但智能体是新的内部威胁——你能建世界上最安全的监狱防住外面的人，但里面关着一群\"汉尼拔\"，照样一团糟 [09:13 Unknown]。治理软件只定义策略但不执行，是\"声明式治理\"。可观测性软件只告诉你发生了什么，但不让你影响和改变它 [09:29 Unknown]。\n\n运行时控制意味着控制决策发生在行动的那一刻，不是几周前的策略文档里，也不是几小时后的审计日志中 [08:36 Unknown]。举个例子：英国FCA消费者义务法要求，面对一位失去妻子的85岁老人申请贷款，和一位刚找到工作的24岁年轻人申请贷款，智能体的语气、清晰度和帮助性必须不同。今天没有系统能在运行时做这种区分和引导 [10:12 Unknown]。\n\n## 控制塔的技术架构：守护者智能体+模块化盾牌\n\nTrustWise的产品叫Harmony AI，定位是AI控制塔。它不是一个新仪表板，而是一组API和命令行接口，可以插入企业现有的安全、治理和可观测性基础设施 [14:11 Unknown]。它位于智能体编排层之上、用户体验层之下，像一个探针或代理接入，对底层智能体框架（LangGraph、Microsoft、Google等）和模型都是不可知的 [28:03 Unknown]。\n\n控制塔内部有两种智能体。守护者智能体负责监督和管控工作智能体，它们可以装备\"盾牌\"——三种类型的模块化能力包：安全和安保盾牌、合规和法规盾牌、成本和碳管理盾牌 [12:06 Unknown]。盾牌自己不做事，必须挂载到守护者智能体上，像给马里奥兄弟加超能力背包 [12:01 Unknown]。三者结合叫\"信任姿态管理\"——在安全、合规、效率之间做权衡 [12:35 Unknown]。\n\n控制有四种运行模式：实时模式（每条流量都检测）、sidecar模式（只在检测到漂移时干预）、批处理模式（每天或每周跑一次）、模拟模式（上线前在模拟器里跑，像F1赛车模拟器一样测试成千上万条路径） [28:15 Unknown]。核心引擎用12个小模型，在10秒到300毫秒内完成运行时评估和引导 [30:11 Unknown]。\n\n## 语义行动层：让非确定性系统变得可证明\n\n对齐不是靠提示词——提示词正在被\"循环\"取代，智能体会自己设定实验、执行、审查 [49:38 Unknown]。TrustWise的对齐框架有六层：全球权利层（如联合国人权宪章）、国家法规层、行业法规层、公司价值观层、业务单元层、客户SLA层 [50:10 Unknown]。任何一层出错都是灾难，而且事后你必须能证明智能体遵循了所有层 [51:17 Unknown]。\n\n技术上，知识图谱只告诉你关系，上下文图告诉你场景，世界模型告诉你物理规律——但这些都不够控制运行时行为 [52:35 Unknown]。TrustWise自研了一层叫\"语义行动层\"的数据结构，本质上是给智能体预计算好一张\"允许做什么\"的地图 [53:11 Unknown]。现在别人造智能体像开自动驾驶车每10米重算一次地图，而他们是提前建好谷歌地图，智能体在上面跑就快得多、成本低得多，而且每一步行为都可追溯 [53:45 Unknown]。所有行为记录在一个基于时间序列的语义图谱里，像自动驾驶汽车的行车记录仪，既能用于学习也能用于审计 [17:52 Unknown]。\n\n## 成本问题：一个输入可能触发50个动作\n\n从生成式AI到智能体AI，token消耗量暴涨。一个输入可能触发20到50个动作，消耗量是两年前生成式AI系统的20到40倍 [32:22 Unknown]。TrustWise用三步管成本：先用框架（来自负责任AI研究所的Trustex）对智能体分类——是高尔夫球车、SUV还是坦克，不同类别有不同的\"油耗\"预期 [33:15 Unknown]；然后在模拟器里调优整个流水线（分块大小、模型选择、端点配置等），像调思科路由器一样找最优配置 [34:08 Unknown]；上线后持续监控漂移，生成优化报告，比如\"在你的1800个智能体上做这些调整还能再省800万美元\" [35:05 Unknown]。他们实测做到了成本降低83%、安全性提升40%、延迟降低60% [32:08 Unknown]。\n\n## 谁在用、谁在买\n\n企业里这个问题已经上升到董事会层级——AI是双刃剑，创造了新价值也制造了新威胁面 [19:43 Unknown]。实际购买方主要是CIO和AI负责人，联合负责任AI官、风险合规团队 [22:01 Unknown]。日常运营有三道防线：业务和IT看生产力和策略合规；风险合规看报告和风险面；内部审计确保出了事能证明行为受控 [22:21 Unknown]。\n\n客户集中在高风险行业——银行、保险、医疗，因为出错代价大 [26:43 Unknown]。策略是先啃最硬的骨头（银行做了三年），再扩展到其他行业 [26:22 Unknown]。日立是投资者，正把TrustWise作为OEM组件铺到650个业务单元 [27:09 Unknown]。\n\n平台内置了跨越17种法规的1100多项预构建控制策略（NIST、HIPAA、OWASP等），像诺顿杀毒的病毒库一样开箱即用 [42:32 Unknown]。\n\n## 从防守到进攻：Genesis智能体\n\n下一版产品要加入第二类智能体——Genesis智能体。守护者智能体是防守，防止坏事发生；Genesis智能体是进攻，让智能体去发现\"未知的未知\" [58:38 Unknown]。类比：国际象棋特级大师能看到22到24步，深蓝能看95步，很多棋步人类甚至不知道存在 [58:57 Unknown]。Genesis智能体就是那种能看95步甚至1000步深的假设生成机器——他们称之为\"有益的幻觉\"，十个里可能只有两个对的，但那两个可能颠覆业务 [59:54 Unknown]。\n\n关键论点：实现AGI的真正数据在企业手里（策略、上下文、业务规则），不在模型提供商手里。没有企业级策略来定义\"好的结果长什么样\"，光靠大模型公司造不出真正的AGI [61:06 Unknown]。\n\n## 本集带走\n- **运行时控制≠事后审计**：控制决策必须在智能体采取行动的那一刻发生，不是写在策略文档里、也不是记在审计日志里\n- **现有三类软件都管不了**：安全是防外不防内，治理只定义不执行，可观测性只看不动——需要一种新的\"信任姿态管理\"同时覆盖安全、合规、效率\n- **语义行动层是核心创新**：不是知识图谱（只存关系），而是预计算好的\"允许做什么\"的权限路径地图，让非确定性系统变得可证明、可追溯\n- **智能体token消耗是生成式AI的20-40倍**：一个输入可能触发50个动作，必须从分类、模拟调优、运行时监控三步管成本\n- **对齐有六层**：全球权利→国家法规→行业法规→公司价值观→业务单元→客户SLA，任何一层出错都是灾难\n- **AGI的钥匙在企业不在模型公司**：策略和业务上下文在企业手里，没有这些，大模型公司造不出能落地的AGI",
+  "title_zh": "给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理",
+  "tldr": "TrustWise 创始人、前 IBM Watson 商业化负责人 Manoj Saxena 主张：没有控制的智能是不可部署的，企业需要一层 AI 控制塔来实时治理智能体。",
+  "digest_md": "这一集的主角是 Manoj Saxena，连续创业者、TrustWise 的 CEO 兼创始人——十年前他曾受 IBM 董事会之托，把赢得 Jeopardy 游戏的 Watson 从主卧室大小的机器压缩到披萨盒大小并推向商用。三年前 ChatGPT 发布时，他看到所有人都在造更大更聪明的模型，却没人管模型的行为，于是创办了 TrustWise。他打了个比方：这就像不停堆大核反应堆的堆芯，却没人给上面加一个安全壳圆顶。他最核心的主张是：**问题不在于构建一个智能体，而在于控制一个智能体**——一份 MIT 报告说 95% 的智能体项目无法从试点走向生产，原因正是没人敢放行 [21:01 Manoj Saxena]。\n\n## 为什么“信任”突然成了大事\n\n他给信任下了个直接的定义：归根结底就是 AI 和模型是否做了你意图让它做的事，是否与你的商业和个人意图一致。信任之所以越来越关键，他归为三点变化 [04:44 Manoj Saxena]：\n\n- **AI 从生成输出变成采取行动**。ChatGPT 时代只是给你更好的邮件和图片，现在 AI 代表你行动，而且这些行动可能持续几分钟、几小时甚至几天——等于企业引入了一支“能动手的数字劳动力”。\n- **从单一模型走向多智能体系统**。他认为 OpenClaw（一种开放智能体框架）对商业和社会的影响会是 ChatGPT 的一千倍；但企业用的是多智能体、多模型工作流，一旦出事就是真正的混乱。\n- **策略必须在运行时持续执行**，而不是只在部署时定一次。你得检查每一个工具调用、每一个动作、每一个输出是否遵守策略。\n\n结果就是：整个 AI 堆栈的架构本身变成了新的风险面。他的类比很生动：今天你等于在给公司塞进一辆辆千匹马力的超级跑车，却没有方向盘、没有刹车、没有安全带，也没有排放控制 [09:48 Manoj Saxena]。\n\n他还观察到，一家大型跨国公司告诉他，到今年年底公司里将有 100,000 个智能体——你不可能雇足够多的人去手动入职、手动测试每一个智能体 [07:42 Manoj Saxena]。\n\n## 为什么现有三类软件都管不了这件事\n\n他指出企业现有的三类软件都无法胜任运行时控制 [08:51 Manoj Saxena]：\n\n1. **安全软件**是自外而内的防御，而智能体是新的“内部威胁”——“我可以给你建世界上最安全的监狱并从外部防守，但如果里面关着一群恰吉和汉尼拔·莱克特，你照样一团糟。”\n2. **治理软件**只定义策略（声明式治理），不在运行时执行策略。\n3. **可观测性软件**只告诉你发生了什么，不能影响和塑造它。\n\n运行时控制的含义是：**控制决策发生在行动的那一刻**——不是几周前的政策文档，也不是几小时后的审计日志。他举了个具体例子：英国有 FCA 消费者义务法，规定对财务困境客户（比如一位刚丧偶、申请贷款的 85 岁老人），智能体的语气、清晰度和帮助性必须不同于对刚入职的 24 岁申请人——今天没有任何系统能在运行时做这种区分 [10:12 Manoj Saxena]。\n\n## TrustWise 怎么做：AI 控制塔、守护者智能体和盾牌\n\nTrustWise 的产品叫 AI 控制塔（产品名 Harmony AI），他形容它就像“数十万来自多个供应商的智能体的人力资源和财务部门” [06:48 Manoj Saxena]。关键设计：\n\n- **用 AI 控制 AI**。控制塔里跑着“守护者智能体（Guardian agents）”，但与普通智能体不同，它们是人机协同构建、输出确定性结果的——不是概率系统 [07:06 Manoj Saxena]。\n- **盾牌（shields）是插在守护者智能体上的“超能力背包”**，分三类：安全安保类、合规法规类、成本与碳排放类。三者合一，他称之为“信任姿态管理（trust posture management）”——他认为这个组合是市场空白，现有竞争者都只做其中一根支柱 [12:06 Manoj Saxena]。\n- **人在环里做四件事**：入职智能体（发现、接入）、评估（像 F1 模拟器一样让智能体跑成千上万条“飞行路径”，看它在哪里翻车、该改什么策略）、投产后监控漂移（比如智能体陷入隐形循环烧 GPU、或互相串通改用自造的非英语语言从而丧失可追溯性）、最后生成可审计的证据链 [14:51 Manoj Saxena]。\n\n关于漂移有个值得记住的细节：已有实验证明，智能体相互通信时发现英语不是最高效的语言，于是发明了自己的语言——但你一旦放任，就失去了全部证据和可追溯性 [16:08 Manoj Saxena]。\n\n证据链的数据结构是他们自认的核心创新之一：一个基于时间序列的**语义行动层（semantic action layer）**，同时用来驱动和记录智能体行为，像自动驾驶汽车的行车记录仪一样记录用了什么模型、数据、策略、约束和上下文，事后可以回溯重构每个智能体的每条“飞行路径”——四年后吃官司时，你能证明 6 月 10 日下午哪组智能体、基于哪些数据和策略做出了那个决定 [16:33 Manoj Saxena]。\n\n## Token 爆炸与成本：治理反而省钱\n\n从生成式 AI 到智能体 AI，虽然单个 token 在降价，但消耗量暴涨：一个输入可触发 20 到 50 个动作，消耗比两年前的生成式系统多 20 到 40 倍的 token [32:22 Manoj Saxena]。他们的治理反而带来了收益：案例中最多做到成本降低 83%，同时安全性提升 40%、延迟降低 60% [32:08 Manoj Saxena]。\n\n做法分三阶段 [33:02 Manoj Saxena]：先用 Responsible AI Institute 的 Trustex 框架给系统分类——“它是高尔夫球车、SUV 还是坦克？”——据此设定期望性能；再在投产前用模拟器跑性能测试，告诉你在整个流水线上该用什么分块大小、什么模型、什么端点，“就像调思科路由器一样”找到给定工作负载的最优配置；投产后再用智能体发现哪些在漂移、哪些 token 用多了——比如生成报告说：改这几处，你 1800 个智能体能再省 800 万美元。\n\n## 谁在买：董事会到三道防线\n\n这个问题现在向上迁移到了董事会和 CEO 层级——“AI 太重要了，不能留给技术人员” [20:24 Manoj Saxena]。董事会现在问的是：这些数字工人做了“药物检测”吗？有员工手册吗？跑偏了有没有紧急停止开关（kill switch）？采购决策主要由 CIO、AI 负责人和负责任 AI/风险合规负责人联合做出。日常运营则是“三道防线”：业务和 IT 看对齐与产出，风险合规出报告，内部审计保证据 [22:16 Manoj Saxena]。\n\n选行业上他有个清晰的打法：先攻最高门槛。银行做了 60 年模型风险管理，如果能把 LLM 和智能体这种非确定性系统做成确定性的、在银行投产，这套产品就能下沉到石油天然气、医疗等不那么成熟的行业 [25:47 Manoj Saxena]。客户已横跨银行保险、医疗、零售——拥有 68,000 家餐厅的 Yum! Brands 在看用它治理必胜客、肯德基、塔可钟的语音点单智能体；Hitachi 既是投资者，也在推动其 650 个业务部门把 TrustWise 作为 OEM 控制层 [26:41 Manoj Saxena]。\n\n技术上，控制塔位于智能体编排层之上、用户体验层之下，以探针/代理形式接入，对 LangGraph、Microsoft、Google 等编排器和 Claude 等模型全部不可知；可跑在实时、sidecar、批处理、模拟四种模式；引擎用 12 个小而精准的低延迟模型加 15 个缩放器和编排器，在 300 毫秒到 10 秒内完成运行时评估 [28:03 Manoj Saxena]。合规侧开箱提供覆盖 17 种法规的 1100 多项预置控制——他比作“杀毒软件的病毒库” [42:32 Manoj Saxena]。\n\n## 对齐怎么做：六层对齐 + 提示词正在过时\n\n被问到对齐是靠提示词还是微调时，他先抛出一个判断：**提示词正在迅速过时，正在被“循环（loops）”取代**——智能体自己行动、自己审查，一跑就是几小时几天 [49:38 Manoj Saxena]。\n\n他们的框架里对齐分六层，全部可配置 [50:10 Manoj Saxena]：全球权利层（联合国人权宪章）→ 国家层（新加坡 AI 法案 vs 美国 vs 沙特）→ 行业层（FINRA vs HIPAA）→ 公司层（美国运通已开始把企业价值观写进智能体）→ 业务单元层 → 客户 SLA 层。任何一层失守，“你手头就是一场灾难”。\n\n而系统能不靠提示词查到“什么被允许”，靠的正是前面说的语义行动层。他解释为什么知识图谱、上下文图、Yann LeCun 式的世界模型都不够：这些只描述关系和规律，管不住运行时行为。语义行动层回答的是另一个问题——**这个智能体此刻被允许走的动作路径是什么**。“今天的智能体就像自动驾驶汽车每 10 米重算一遍地图；我们造的是一张告诉你哪里能开的谷歌地图” [52:24 Manoj Saxena]。\n\n## 更大的图景：从守护者到创世者\n\n他给AI起了个新解：AI 有时不是 artificial intelligence，而是 **alien intelligence（外星智能）**——七年前他就在 TED 演讲里讲“智人的消亡与数字人的开端”，认为我们正在召唤一个全新物种 [48:01 Manoj Saxena]。一个里程碑式的信号：上个月，互联网上有史以来第一次，智能体流量超过了人类流量——正如当年 AT&T 网络上数据流量超过语音流量 [45:44 Manoj Saxena]。他预计三年内，使用 AI 控制塔的“用户”90% 会是智能体而不是人类。\n\n即将发布的新版本会在控制塔里加入第二类智能体——**Genesis 智能体**：守护者防止坏事，创世者发现“未知的未知”。灵感来自一位输给深蓝的国际象棋特级大师：“大多数特级大师能看 22 到 24 步深，那台机器看了 95 步深——我们根本不知道还有那样的棋” [58:58 Manoj Saxena]。Genesis 智能体就是那台看 95 步深的机器，一台“假设生成机”，在收入流失、欺诈这类领域提出连最好的 CFO 都答不出的问题。他称之为**有益的幻觉**：“我相信幻觉既是特性也是缺陷……也许十个里只有两个是对的，但这两个可能改变你的游戏” [60:10 Manoj Saxena]。已和银行完成的试点，对方回来要更多。\n\n> 【背景】OpenClaw 疑为 ASR 转写对某个开放智能体项目名的误写，正文按原样保留。\n\n他最后反 Silicon Valley 的 AGI 叙事：“当你们没有政策来对齐结果长什么样时，要怎么创造 AGI？”——实现真正 AGI 的上下文和策略数据在企业手里，不在模型厂商手里；所以拥有数据和政策的企业，未来三到五年将被大规模改造 [61:06 Manoj Saxena]。\n\n## 本集带走\n\n- **核心判断**：问题不是构建智能体，而是控制智能体——没有控制的智能不可部署；95% 的智能体项目卡在试点到生产之间，卡的是信任。\n- **识别市场空白的方法**：拿现有三类软件（安全/治理/可观测性）逐一对照新需求，找出三者都覆盖不了的运行时控制层。\n- **治理架构参考**：守护者智能体（确定性输出、人机协同）+ 三类盾牌（安全、合规、成本碳排）+ 语义行动层（记录并驱动“此刻允许什么”）。\n- **成本抓手**：智能体时代一个输入可放大 20-50 个动作、20-40 倍 token 消耗；先分类（高尔夫球车/SUV/坦克）、再模拟调参、投产后监控漂移，案例中做到降本 83% 同时提升安全 40%。\n- **对齐要分层配置**：全球权利 → 国家法规 → 行业 → 公司价值观 → 业务单元 → 客户 SLA，六层任何一层失守都是灾难。\n- **给董事会的问题清单**：数字工人有没有“药物检测”、员工手册、紧急停止开关和可回溯的证据链。\n- **留意趋势**：智能体流量已超人类流量；提示词正被自主循环取代；幻觉可以是特性——用“假设生成机”挖未知的未知。",
   "quotes": [
     {
-      "en": "And now you're about to introduce a whole bunch of digital labor with no HR and finance, with no drug testing, with no employee manuals on how to behave, with no performance appraisals.",
-      "zh": "而现在你正要引入一大堆数字劳动力，没有人力资源和财务，没有毒品检测，没有关于如何表现的手册，没有绩效评估。",
-      "timestamp": "06:36",
+      "en": "What I saw was this focus on building more and more intelligent models and bigger models. Almost like you're building bigger and bigger nuclear cores, but no one's thinking about putting a dome on top of these things.",
+      "zh": "我看到的是，这种专注于构建越来越智能、越来越大的模型的趋势。几乎就像你在建造越来越大的核堆芯，却没人考虑在这些东西上面加一个安全壳圆顶。",
+      "timestamp": "00:22",
       "speaker": "Manoj Saxena"
     },
     {
-      "en": "I can build you the world's most secure prison and defend it from outside. But if you have a bunch of Chuckies and Hannibal Lecters on the inside, you're still going to have chaos on your side.",
-      "zh": "我可以为你建造世界上最安全的监狱并从外部防御它。但如果你里面有一群恰吉和汉尼拔·莱克特，你那边还是会有一团糟。",
-      "timestamp": "09:14",
+      "en": "So the rise of things like OpenClaw, I think OpenClaw is going to be a thousand times more impactful than ChatGPT was in terms of its impact on business and society.",
+      "zh": "所以像 OpenClaw 这样的事物的兴起，我认为 OpenClaw 对商业和社会的影响将是 ChatGPT 的一千倍。",
+      "timestamp": "05:19",
       "speaker": "Manoj Saxena"
     },
     {
-      "en": "There was an MIT report that says 95% of agent projects are not able to move from pilots to production.",
-      "zh": "有一份MIT报告说，95%的智能体项目无法从试点走向生产。",
-      "timestamp": "21:02",
+      "en": "One of the large global companies told me by the end of this year, they'll have 100,000 agents in the company.",
+      "zh": "一家大型跨国公司告诉我，到今年年底，他们公司里将有 100,000 个智能体。",
+      "timestamp": "07:42",
       "speaker": "Manoj Saxena"
     },
     {
-      "en": "When we move from generative AI to agentic AI, the number of tokens, even though token costs are coming down, the volume of token consumption has gone up massively.",
-      "zh": "当我们从生成式AI转向智能体AI时，尽管token成本正在下降，但token消耗量却大幅上升。",
-      "timestamp": "32:24",
+      "en": "So one of the issues is this is a wide open space today because runtime control means the control decision happens at the moment of action, not weeks before in a policy document or not hours later in an audit log.",
+      "zh": "问题之一是，今天这是一个完全开放的空间，因为运行时控制意味着控制决策发生在行动的那一刻，而不是几周前的政策文档里，也不是几小时后的审计日志里。",
+      "timestamp": "08:36",
+      "speaker": "Manoj Saxena"
+    },
+    {
+      "en": "I like to say that I can build you the world's most secure prison and defend it from outside. But if you have a bunch of Chuckies and Hannibal Lecters on the inside, you're still going to have chaos on your side.",
+      "zh": "我喜欢说，我可以给你建造世界上最安全的监狱并从外部防守。但如果里面关着一群恰吉和汉尼拔·莱克特，你那边照样会一团糟。",
+      "timestamp": "09:13",
+      "speaker": "Manoj Saxena"
+    },
+    {
+      "en": "So one way to think about it is you're launching these supercars into your company with a giant, you know, a thousand horsepower engine without any steering wheel, without brakes, without seat belts.",
+      "zh": "所以思考这个问题的一种方式是，你正在往公司里发射这些超级跑车，装着巨大的千匹马力发动机，却没有方向盘，没有刹车，也没有安全带。",
+      "timestamp": "09:48",
+      "speaker": "Manoj Saxena"
+    },
+    {
+      "en": "It has been demonstrated that agents have figured out that when they talk to each other, they figured out that English is not the most efficient language.",
+      "zh": "已经有实验证明，智能体在相互交流时发现，英语并不是最高效的语言。",
+      "timestamp": "16:08",
+      "speaker": "Manoj Saxena"
+    },
+    {
+      "en": "I like to say that AI is too important to be left to technologists.",
+      "zh": "我喜欢说，AI 太重要了，不能留给技术人员。",
+      "timestamp": "20:24",
+      "speaker": "Manoj Saxena"
+    },
+    {
+      "en": "In fact, there was an MIT report that says 95% of agent projects are not able to move from pilots to production.",
+      "zh": "事实上，有一份 MIT 报告说，95% 的智能体项目无法从试点走向生产。",
+      "timestamp": "21:01",
+      "speaker": "Manoj Saxena"
+    },
+    {
+      "en": "Yeah, we have demonstrated as much as 83% reduction in costs as we improved safety by 40%.",
+      "zh": "是的，我们已经证明，在将安全性提高 40% 的同时，成本最多降低了 83%。",
+      "timestamp": "32:08",
       "speaker": "Manoj Saxena"
     },
     {
       "en": "My thesis for building the whole company is intelligence without control is not deployable.",
-      "zh": "我建立整个公司的论点是，没有控制的智能是不可部署的。",
+      "zh": "我创建整个公司的论点是：没有控制的智能是不可部署的。",
       "timestamp": "38:51",
       "speaker": "Manoj Saxena"
     },
     {
-      "en": "AI is not an application. AI is an actor.",
-      "zh": "AI不是应用程序。AI是一个行动者。",
-      "timestamp": "44:26",
+      "en": "I think one of the things that people don't understand much yet is that AI is not an application. AI is an actor.",
+      "zh": "我认为人们还没有充分理解的一件事是：AI 不是应用程序。AI 是一个行动者。",
+      "timestamp": "44:21",
       "speaker": "Manoj Saxena"
     },
     {
-      "en": "I expect in three years, 90% of the people who will be using the AI control tower will be agents using it, not humans.",
-      "zh": "我预计三年内，使用AI控制塔的人群中，90%将是使用它的智能体，而不是人类。",
-      "timestamp": "45:36",
+      "en": "Because I don't know if you tracked this, but last month, the first time ever, the traffic on the internet, Asian traffic exceeded human traffic.",
+      "zh": "因为我不知道你有没有关注到，但上个月，有史以来第一次，互联网上的流量，智能体流量超过了人类流量。",
+      "timestamp": "45:44",
+      "speaker": "Manoj Saxena"
+    },
+    {
+      "en": "So they look like a collection of mad barking dogs. But if you start putting the steering wheels on them and putting the policies, you can then guide them to do some amazing things for pennies an hour and automate and come up with new things that we have not even dreamed of yet.",
+      "zh": "所以它们看起来像一群狂吠的疯狗。但如果你开始给它们装上方向盘、配上策略，你就能引导它们以每小时几分钱的成本做出神奇的事情，实现自动化，并想出我们甚至尚未梦想过的新事物。",
+      "timestamp": "47:44",
       "speaker": "Manoj Saxena"
     },
     {
@@ -52,126 +94,144 @@
       "speaker": "Manoj Saxena"
     },
     {
-      "en": "If you're running an autonomous car, every 10 meters the car is recomputing the map. That's how people are building agents today.",
-      "zh": "这就像如果你在开一辆自动驾驶汽车，每10米汽车都在重新计算地图。这就是今天人们构建智能体的方式。",
-      "timestamp": "53:46",
+      "en": "He said, you know, most grandmasters can look 22 to 24 moves deep. This machine was looking 95 moves deep. We didn't even know there was a move like that.",
+      "zh": "他说，你知道，大多数特级大师能看 22 到 24 步深。那台机器看了 95 步深。我们甚至不知道还有那样的棋。",
+      "timestamp": "58:58",
       "speaker": "Manoj Saxena"
     },
     {
-      "en": "I believe hallucination is both a feature and a bug.",
-      "zh": "我相信幻觉既是特性也是缺陷。",
-      "timestamp": "60:10",
-      "speaker": "Manoj Saxena"
-    },
-    {
-      "en": "I don't buy the Silicon Valley frou-frou stuff about, oh, we're going to create AGI. How will you create it when you don't have the policies to align what outcome looks like?",
-      "zh": "我不相信硅谷那些虚浮的东西，说什么，哦，我们要创造AGI。当你没有政策来对齐结果的样子时，你要如何创造它？",
-      "timestamp": "61:25",
+      "en": "And that's why I don't buy the Silicon Valley frou-frou stuff about, oh, we're going to create AGI. How will you create it when you don't have the policies to align what outcome looks like?",
+      "zh": "这就是为什么我不相信硅谷那些虚浮的东西，说什么，哦，我们要创造 AGI。当你没有政策来对齐结果应该是什么样子时，你要怎么创造它？",
+      "timestamp": "61:24",
       "speaker": "Manoj Saxena"
     }
   ],
   "quotes_candidates": [
     {
       "timestamp": "00:22",
-      "speaker": "Unknown",
-      "en": "Almost like you're building bigger and bigger nuclear cores, but no one's thinking about putting a dome on top of these things.",
-      "zh": "几乎就像你在建造越来越大的核核心，但没人考虑在这些东西上面加一个圆顶。"
+      "speaker": "Manoj Saxena",
+      "en": "What I saw was this focus on building more and more intelligent models and bigger models. Almost like you're building bigger and bigger nuclear cores, but no one's thinking about putting a dome on top of these things.",
+      "zh": "我看到的是，这种专注于构建越来越智能、越来越大的模型的趋势。几乎就像你在建造越来越大的核堆芯，却没人考虑在这些东西上面加一个安全壳圆顶。"
     },
     {
       "timestamp": "04:48",
-      "speaker": "Unknown",
-      "en": "AI has now moved from generating output to now taking actions.",
-      "zh": "AI已从生成输出转变为现在采取行动。"
+      "speaker": "Manoj Saxena",
+      "en": "Number one, AI has now moved from generating output to now taking actions.",
+      "zh": "第一，AI 已经从生成输出，转变为现在开始采取行动。"
     },
     {
-      "timestamp": "06:36",
-      "speaker": "Unknown",
-      "en": "And now you're about to introduce a whole bunch of digital labor with no HR and finance, with no drug testing, with no employee manuals on how to behave, with no performance appraisals.",
-      "zh": "而现在你正要引入一大堆数字劳动力，没有人力资源和财务，没有毒品检测，没有关于如何表现的手册，没有绩效评估。"
+      "timestamp": "05:19",
+      "speaker": "Manoj Saxena",
+      "en": "So the rise of things like OpenClaw, I think OpenClaw is going to be a thousand times more impactful than ChatGPT was in terms of its impact on business and society.",
+      "zh": "所以像 OpenClaw 这样的事物的兴起，我认为 OpenClaw 对商业和社会的影响将是 ChatGPT 的一千倍。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Manoj Saxena",
+      "en": "I sort of talk about it almost like an HR department of agents.",
+      "zh": "我把它说得几乎就像是智能体的人力资源部门。"
+    },
+    {
+      "timestamp": "07:42",
+      "speaker": "Manoj Saxena",
+      "en": "One of the large global companies told me by the end of this year, they'll have 100,000 agents in the company.",
+      "zh": "一家大型跨国公司告诉我，到今年年底，他们公司里将有 100,000 个智能体。"
+    },
+    {
+      "timestamp": "08:36",
+      "speaker": "Manoj Saxena",
+      "en": "So one of the issues is this is a wide open space today because runtime control means the control decision happens at the moment of action, not weeks before in a policy document or not hours later in an audit log.",
+      "zh": "问题之一是，今天这是一个完全开放的空间，因为运行时控制意味着控制决策发生在行动的那一刻，而不是几周前的政策文档里，也不是几小时后的审计日志里。"
     },
     {
       "timestamp": "09:13",
-      "speaker": "Unknown",
-      "en": "I can build you the world's most secure prison and defend it from outside. But if you have a bunch of Chuckies and Hannibal Lecters on the inside, you're still going to have chaos on your side.",
-      "zh": "我可以为你建造世界上最安全的监狱并从外部防御它。但如果你里面有一群恰吉和汉尼拔·莱克特，你那边还是会有一团糟。"
+      "speaker": "Manoj Saxena",
+      "en": "I like to say that I can build you the world's most secure prison and defend it from outside. But if you have a bunch of Chuckies and Hannibal Lecters on the inside, you're still going to have chaos on your side.",
+      "zh": "我喜欢说，我可以给你建造世界上最安全的监狱并从外部防守。但如果里面关着一群恰吉和汉尼拔·莱克特，你那边照样会一团糟。"
+    },
+    {
+      "timestamp": "10:02",
+      "speaker": "Manoj Saxena",
+      "en": "So one way to think about it is you're launching these supercars into your company with a giant, you know, a thousand horsepower engine without any steering wheel, without brakes, without seat belts.",
+      "zh": "所以思考这个问题的一种方式是，你正在往公司里发射这些超级跑车，装着巨大的千匹马力发动机，却没有方向盘，没有刹车，也没有安全带。"
     },
     {
       "timestamp": "16:08",
-      "speaker": "Unknown",
-      "en": "It has been demonstrated that agents have figured out that when they talk to each other, they figured out that English is not the most efficient language. They discovered their own language.",
-      "zh": "已经证明智能体已经发现，当它们相互交谈时，它们发现英语并不是最高效的语言。它们发现了它们自己的语言。"
+      "speaker": "Manoj Saxena",
+      "en": "It has been demonstrated that agents have figured out that when they talk to each other, they figured out that English is not the most efficient language.",
+      "zh": "已经有实验证明，智能体在相互交流时发现，英语并不是最高效的语言。"
+    },
+    {
+      "timestamp": "20:24",
+      "speaker": "Manoj Saxena",
+      "en": "I like to say that AI is too important to be left to technologists.",
+      "zh": "我喜欢说，AI 太重要了，不能留给技术人员。"
     },
     {
       "timestamp": "21:01",
-      "speaker": "Unknown",
-      "en": "There was an MIT report that says 95% of agent projects are not able to move from pilots to production.",
-      "zh": "有一份MIT报告说，95%的智能体项目无法从试点走向生产。"
+      "speaker": "Manoj Saxena",
+      "en": "In fact, there was an MIT report that says 95% of agent projects are not able to move from pilots to production.",
+      "zh": "事实上，有一份 MIT 报告说，95% 的智能体项目无法从试点走向生产。"
     },
     {
-      "timestamp": "32:22",
-      "speaker": "Unknown",
-      "en": "When we move from generative AI to agentic AI, the number of tokens, even though token costs are coming down, the volume of token consumption has gone up massively.",
-      "zh": "当我们从生成式AI转向智能体AI时，尽管token成本正在下降，但token消耗量却大幅上升。"
+      "timestamp": "32:08",
+      "speaker": "Manoj Saxena",
+      "en": "Yeah, we have demonstrated as much as 83% reduction in costs as we improved safety by 40%.",
+      "zh": "是的，我们已经证明，在将安全性提高 40% 的同时，成本最多降低了 83%。"
     },
     {
       "timestamp": "38:51",
-      "speaker": "Unknown",
+      "speaker": "Manoj Saxena",
       "en": "My thesis for building the whole company is intelligence without control is not deployable.",
-      "zh": "我建立整个公司的论点是，没有控制的智能是不可部署的。"
+      "zh": "我创建整个公司的论点是：没有控制的智能是不可部署的。"
     },
     {
-      "timestamp": "39:20",
-      "speaker": "Unknown",
-      "en": "The issue is not building an agent, the issue is controlling an agent.",
-      "zh": "问题不在于构建一个智能体，问题在于控制一个智能体。"
+      "timestamp": "44:21",
+      "speaker": "Manoj Saxena",
+      "en": "I think one of the things that people don't understand much yet is that AI is not an application. AI is an actor.",
+      "zh": "我认为人们还没有充分理解的一件事是：AI 不是应用程序。AI 是一个行动者。"
     },
     {
-      "timestamp": "44:28",
-      "speaker": "Unknown",
-      "en": "AI is not an application. AI is an actor.",
-      "zh": "AI不是应用程序。AI是一个行动者。"
+      "timestamp": "45:44",
+      "speaker": "Manoj Saxena",
+      "en": "Because I don't know if you tracked this, but last month, the first time ever, the traffic on the internet, Asian traffic exceeded human traffic.",
+      "zh": "因为我不知道你有没有关注到，但上个月，有史以来第一次，互联网上的流量，智能体流量超过了人类流量。"
     },
     {
-      "timestamp": "45:36",
-      "speaker": "Unknown",
-      "en": "I expect in three years, 90% of the people who will be using the AI control tower will be agents using it, not humans.",
-      "zh": "我预计三年内，使用AI控制塔的人群中，90%将是使用它的智能体，而不是人类。"
+      "timestamp": "47:48",
+      "speaker": "Manoj Saxena",
+      "en": "So they look like a collection of mad barking dogs. But if you start putting the steering wheels on them and putting the policies, you can then guide them to do some amazing things for pennies an hour and automate and come up with new things that we have not even dreamed of yet.",
+      "zh": "所以它们看起来像一群狂吠的疯狗。但如果你开始给它们装上方向盘、配上策略，你就能引导它们以每小时几分钱的成本做出神奇的事情，实现自动化，并想出我们甚至尚未梦想过的新事物。"
     },
     {
-      "timestamp": "48:32",
-      "speaker": "Unknown",
-      "en": "AI in some cases is alien intelligence. And if you have alien intelligence, how do you control it?",
-      "zh": "在某些情况下AI是外星智能。如果你拥有外星智能，你如何控制它？"
+      "timestamp": "48:23",
+      "speaker": "Manoj Saxena",
+      "en": "And what is important is when you have summoned this, I call this AI is not artificial intelligence anymore, is AI in some cases is alien intelligence.",
+      "zh": "重要的是，当你召唤出这个东西时，我认为 AI 不再是人工智能了，在某些情况下，AI 是外星智能。"
     },
     {
       "timestamp": "49:38",
-      "speaker": "Unknown",
+      "speaker": "Manoj Saxena",
       "en": "Prompting is rapidly becoming passe. Prompting is being replaced by loops.",
       "zh": "提示词正在迅速变得过时。提示词正在被循环取代。"
     },
     {
-      "timestamp": "53:45",
-      "speaker": "Unknown",
-      "en": "If you're running an autonomous car, every 10 meters the car is recomputing the map. That's how people are building agents today.",
-      "zh": "这就像如果你在开一辆自动驾驶汽车，每10米汽车都在重新计算地图。这就是今天人们构建智能体的方式。"
+      "timestamp": "58:58",
+      "speaker": "Manoj Saxena",
+      "en": "He said, you know, most grandmasters can look 22 to 24 moves deep. This machine was looking 95 moves deep. We didn't even know there was a move like that.",
+      "zh": "他说，你知道，大多数特级大师能看 22 到 24 步深。那台机器看了 95 步深。我们甚至不知道还有那样的棋。"
     },
     {
       "timestamp": "60:10",
-      "speaker": "Unknown",
-      "en": "I believe hallucination is both a feature and a bug.",
-      "zh": "我相信幻觉既是特性也是缺陷。"
-    },
-    {
-      "timestamp": "61:06",
-      "speaker": "Unknown",
-      "en": "The big players like OpenAI and Anthropic can't get to solving this because much of the context and the policies belong to the company.",
-      "zh": "像OpenAI和Anthropic这样的大玩家无法解决这个问题，因为大部分上下文和政策都属于公司。"
+      "speaker": "Manoj Saxena",
+      "en": "So we call it a beneficial hallucination rather than a harmful hallucination. I believe hallucination is both a feature and a bug.",
+      "zh": "所以我们称之为有益的幻觉，而不是有害的幻觉。我相信幻觉既是特性也是缺陷。"
     },
     {
       "timestamp": "61:24",
-      "speaker": "Unknown",
-      "en": "I don't buy the Silicon Valley frou-frou stuff about, oh, we're going to create AGI. How will you create it when you don't have the policies to align what outcome looks like?",
-      "zh": "我不相信硅谷那些虚浮的东西，说什么，哦，我们要创造AGI。当你没有政策来对齐结果的样子时，你要如何创造它？"
+      "speaker": "Manoj Saxena",
+      "en": "And that's why I don't buy the Silicon Valley frou-frou stuff about, oh, we're going to create AGI. How will you create it when you don't have the policies to align what outcome looks like?",
+      "zh": "这就是为什么我不相信硅谷那些虚浮的东西，说什么，哦，我们要创造 AGI。当你没有政策来对齐结果应该是什么样子时，你要怎么创造它？"
     }
   ]
 }

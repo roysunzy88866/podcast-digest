@@ -1,47 +1,47 @@
 {
-  "title_zh": "Square 为什么废掉业务单元制",
-  "tldr": "Square 全球产品负责人 Willem Avé 讲了他们拆掉业务单元、全面职能化的逻辑,以及他认为聊天机器人时代已经结束,下一步是能替小商家干真活的智能体。",
-  "digest_md": "Square 两年前做了一件很多公司反着来的事:把运行多年的业务单元(通管模式)整个拆掉,改成按职能——产品、设计、工程——来组织 [01:44 Willem Avé]。原因是业务单元制让每个职能的「手艺」退化了,工程师和产品经理变成了通才,但专业深度不够。改成职能制之后,再在下面按客户群体切:服务业、零售、餐饮这些垂直领域各一个团队,加上核心平台、增长、资金(账单、工资、银行)几个横向团队,硬件则作为独立的姐妹组织并行 [03:34 Willem Avé]。\n\n硬件和软件整合是 Square 的老难题。硬件出现在商家的真实物理空间里——柜台上的、轮班时随身带的——它必须「平易近人、易用、令人愉悦」,但这不容易做到 [04:58 Willem Avé]。关键在于不能把硬件形态和软件形态分开想,这也是为什么拿现成通用硬件去拼,很难做出真正好的体验。\n\n配合职能化重组,Square 推出了 DRI(直接责任人)模型。背景是:好产品需要一条从构想到规模化的完整弧线,跨工程、产品、设计、市场,但产品经常在决策环节慢下来——要么各团队之间「沉默否决」,嘴上不说但就是不配合;要么对方向没对齐 [07:37 Willem Avé]。DRI 就是让一个人贯穿这条弧线,既参与早期由设计和工程主导的构思探索,也负责推向市场和规模化,能综合产品、技术、商业三个维度来做决策,帮团队砍掉路障 [07:37 Willem Avé]。\n\n关于组织未来的形态,有一种说法是「把公司重塑成迷你 AGI,每个人向同一个人汇报,超级扁平」。Willem 的看法是:组织存在的历史原因是为了信息流通和上下对齐,但现代技术和 AI 放大了组织末端节点之间的沟通能力 [09:33 Willem Avé]。关键目标不是形式上的扁平,而是让小团队自主拥有一个结果、尽快交付。AI 能把原来编码在组织流程里的知识,编码到智能体可以访问的数据层,让小团队不用「传话游戏」就能拿到答案、做决策、往前走 [09:33 Willem Avé]。但这不意味着不需要管理者——职业成长和人员管理仍然重要,需要的是好经理和好 DRI 同时存在 [11:12 Willem Avé]。\n\nSquare 的用户不是整天泡在社交媒体上的科技从业者,而是开面包店、花店、汉堡店的人。Willem 说经营小生意有一种「艰难的孤独感」——不缺手艺活,缺的是「这个菜单该定什么价」「加价 10% 还是 20%」这类没完没了的决策,很多店主从早忙到晚就是被这些事缠着 [14:59 Willem Avé]。AI 对这些商家的价值不是聊天机器人,而是一个「智能思维伙伴」,先帮着做更好的决策,最终能接管完整的任务,比如库存录入、发现销售趋势后建议营销活动 [14:59 Willem Avé]。\n\n他明确说:标准问答聊天机器人的时代结束了。原因很简单,这个问题已经被解决了,现在用户期待的是用 AI 做「真正的工作」——跨所有数据源综合数据、为你的业务生成具体的工件(比如面包店的库存工作流、员工销售排行榜),而不是在一个对话线程里问答 [14:59 Willem Avé]。今天建个聊天机器人很容易,但建一个可靠、可依赖的智能体非常难 [14:59 Willem Avé]。\n\n他现场演示了 Manager Bot:主屏幕上 AI 会主动推送建议(比如「补全缺失的商品描述,这样网上才能被搜到」);更核心的是「做真活」——比如菜单工程,它不是给一句话答案,而是生成一个完整工件,列出所有菜品、哪些卖得好哪些不好、具体建议(比如「把半磅汉堡做成招牌款,别只当普通项」),还可以继续追问、让它调研后给意见 [17:24 Willem Avé]。劳动力预测也一样,生成详细的成本工件。关键是让商家投入更少精力、拿到更有意义的结果,从而建立对系统的信任,之后才愿意把库存盘点、改价这类操作真正委托出去 [20:55 Willem Avé]。\n\n谈到 TAM(总可触达市场),Willem 有个激进观点:有了对的团队、对的想法、对的学习循环,TAM 几乎是无限的——好产品能创造市场 [22:25 Willem Avé]。Square 的北极星是「社区网络」:一个社区里发生的所有经济活动——小企业主、员工、进店的顾客。这个聚焦点把 TAM 从「纯互联网 DTC 网站」上移开,转向主街上的实体商业,然后再围绕这些商家的需求分三块做:商业工具(线上+线下)、金融工具(银行、支票、信贷)、智能工具 [22:25 Willem Avé]。\n\n现在小商家的工具极度分散——建站工具、点评页、预约系统、收银台各管各的。Square 的策略是三管齐下:自建一流的第一方工具;开放平台让合作伙伴一起建;用智能体 AI 帮商家同时操作多个软件,减少在工具之间来回切、复制粘贴的痛苦 [24:54 Willem Avé]。\n\n沟通工具是另一个没被解决的大痛点。商家淹没在 WhatsApp、Instagram、短信、邮件里,短信收件箱几百条未读是常态 [26:34 Willem Avé]。Block 新发布的 Buzz 就是想解决这个问题——不是做某个单一渠道,而是帮卖家统一管理员工协作和所有渠道进来的客户消息 [26:34 Willem Avé]。\n\n## 本集带走\n- **废业务单元、走职能制**:不是所有公司都该这么做,但如果你发现各职能的专业深度在退化,职能制是一个值得考虑的方向——按客户群体在职能下面再切,而不是按业务单元包揽一切。\n- **DRI 贯穿全弧线**:产品慢往往不是能力问题,是决策问题。让一个人从构思到规模化全程负责、能综合产品技术商业做决策,比加流程加审批管用。\n- **AI 编码组织知识,而不是编码在组织里**:原来靠层级传递的信息,可以编码到智能体能访问的数据层,让小团队自主决策、不用传话。\n- **聊天机器人时代结束了,下一步是「工件」**:用户要的不是问答线程,是 AI 跨数据源综合后生成的具体产出物(菜单分析、库存工作流、销售排行榜)。建聊天机器人容易,建可靠的智能体难。\n- **先给价值、再要信任、最后才委托操作**:别一上来就让 AI 改价格、动库存。先帮商家看到洞察、生成有价值的工件,信任建立了,他们才会把执行动作交出去。\n- **TAM 可以被创造**:不要只盯着现有市场算天花板,用对的方法(Square 的方法是锁定「社区网络」这个北极星)可以拓展边界。",
+  "title_zh": "Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活",
+  "tldr": "Square 全球产品负责人 Willem Avé 讲 Square 为何砍掉业务单元制、用 DRI 模型杀死“沉默否决权”，以及如何把 AI 做成小商家的“经理机器人”。",
+  "digest_md": "这一集是 The Product Podcast 主持人 Carlos 采访 Square 全球产品负责人 Willem Avé。Willem 是 2014 年随着自己联合创办的预约公司 BookFresh 被 Square 收购进来的，从工程师一路做到产品负责人，见证了 Square 从一个小小的白色读卡器长成 Block 旗下多个产品生态系统。这一集最有信息量的两个点：Square 两年前把整个公司从业务单元制改成完全职能制，理由是“旧的 org 模式在削弱每个职能的手艺”；以及他的判断——标准问答式聊天机器人的时代已经结束了，接下来拼的是能不能造出“可靠的智能体”替小商家干真活。\n\n## 为什么 Square 废除了业务单元模式\n\nWillem 说，Square 多年来用的是通用管理(GM)模式，即按业务单元划分。大约两年前，整个公司被重组成完全职能化的结构：顶层是产品、设计、工程三大职能，内部再按品牌(Square、Cash App 等)划分关注领域。改的原因很明确：他们相信职能卓越(在自己领域里做到最好)非常重要，而之前的组织模式实际上削弱了每个职能的工艺水准 [01:44 Willem Avé]。\n\nSquare 内部现在的组织是：一个受众组织(按服务业、零售、餐饮等垂直行业划分)、一个核心平台组织(但这个平台组织也必须负责具体的产品服务，防止平台团队做出“一刀切谁都不适用”的通用方案)、增长团队、资金团队(账单支付、工资单、银行等)，硬件则是姐妹组织 [03:34 Willem Avé]。他给的组织设计原则很干脆：**尽可能围绕客户结果来设计组织，离这个原则越远，结果越差** [01:44 Willem Avé]。\n\n## 硬件和软件不能分开想\n\nSquare 少见地同时做硬件和软件。Willem 说硬件的特别之处在于它活在商家的真实世界里——摆在柜台上、揣在兜里、轮班时一直用，所以硬件必须平易近人、好用、令人愉悦，而这不容易做到。真正的魔法是软硬件整合(他拿 iPhone 做标杆)，做新硬件时必须让软件形态和硬件形态匹配——**把它们当两件事分开做，正是那些用现成通用硬件的公司做不出好体验的原因** [04:58 Willem Avé]。\n\n软硬件团队最大的差异是时间线：做硬件比做软件慢，要过的关卡也不一样。要出好结果，一是要有顶尖的人，二是流程里不能有让决策陷进官僚泥潭的繁文缛节——因为无论硬件还是软件，本质都是迭代：先有愿景，然后在摸清目标缺陷率、可靠性、电池寿命这些维度的过程中不断转向 [06:20 Willem Avé]。\n\n## DRI 模型：杀死“沉默否决权”\n\nBlock 在组织设计上以激进著称，DRI 是他们力推的概念。Willem 解释说，好产品从构想到规模化是一条跨职能的弧线——不只把产品做出来，还包括怎么推向市场、怎么持续迭代。而产品变慢往往卡在决策上：一种是“沉默否决”(一个团队就是不配合另一个团队想做的事)，一种是对方向缺乏共识。**DRI(直接负责人)就是让一个人被充分授权，把决策贯穿产品构建的整个生命周期**——这个人要能综合产品、技术和业务，从以设计工程为主导的构思阶段，一直管到推向市场和规模化，既塑造技术战略，又让团队对执行负责，替他们砍掉路上的障碍 [07:37 Willem Avé]。\n\n主持人提到外界说法：这像是把公司重塑成一个迷你 AGI,每个人都向同一个人汇报的超级扁平组织。Willem 的回答很有分量：得先退一步理解组织为什么存在——历史上，组织存在的理由是**信息流**：需要机制让不同团队对齐到同一个结果。而现代技术和 AI 放大了组织树末端节点之间的直接沟通能力。组织又极其擅长发明流程和繁文缛节(往往事出有因：出了问题就立个规矩防止重演)，但他认为 **AI 让知识可以编码在另一层——不用全编码在组织架构里，而是编码在智能体能访问的数据里，这真正让决策民主化**，让小而快、完全自主的团队成为可能。你不用再玩“传话游戏”去要一个答案，而是直接问智能体、做决定、往前走 [09:33 Willem Avé]。\n\n但他也划了边界：这不意味着不需要管理。人有职业成长和抱负，所以仍需要好的人员经理——好经理和好 DRI 必须两者都要 [11:12 Willem Avé]。\n\n## 为实体经济造 AI:聊天机器人时代结束了\n\nSquare 的用户不是整天挂在 X 上的科技公司，而是开面包店、花店、汉堡店的小商家。Willem 对小企业的态度带着敬意：他们是企业家最纯粹的形态——把生计押在自己的激情上；小企业是经济的动脉，Square 的口号是“让主街(Main Street)和华尔街一样高”。他坚信把先进技术民主化、交给尽可能多的小企业，对经济和社会都是净收益。难点在于每家小企业都无穷地独特：面包店不同于花店，花店不同于汉堡店，工作流完全不同 [12:41 Willem Avé]。\n\n他观察到经营小生意的真实痛点：难不只难在手艺和雇人，更是**一种孤独**——你总不知道该往哪走、该做什么决定。汉堡该定价多少？成本能算，但加价 10% 还是 20%？决策无穷无尽，小企业主常常从枕边人还没醒一直干到晚上。所以 AI 对他们的价值不是聊天机器人，而是一个**智能思维伙伴**：先帮做更好的决定，最终把完整任务委派出去 [14:59 Willem Avé]。\n\n他的判断很鲜明：标准问答式聊天机器人的日子基本结束了。一是因为那个问题已经解决了；二是人们现在期待用 AI 干**真正的工作**——真正的工作远不止在一个对话框里问答回来，而是综合你所有数据源的信息、为你的生意生成具体的“工件”(artifact):比如给面包店生成库存工作流、给餐厅生成销售排行榜用来激励员工。**核心挑战在于：今天造一个聊天机器人很容易，造一个可靠、可依赖的智能体非常难**——这正是 Square 在解的问题 [14:59 Willem Avé]。\n\n## 现场演示：Manager Bot 干的“真活”\n\nWillem 演示了 Manager Bot。主屏幕每天或按需为卖家生成一批 AI 建议，比如“补上缺失的商品描述”——因为线上目录描述写得好才能被搜到，Manager Bot 能发现这些问题并直接建议文案。更有说服力的是“菜单工程”的例子：它不是给你一个快速答案，而是生成一个完整的工件——读取你的数据、调用工具、列出所有菜品、分析哪些卖得好哪些不好；你还能追问“基于这份菜单做点研究、给我个意见”，它会回答“我会把半磅汉堡做成招牌英雄产品，而不只是普通单品”。还有劳动力预测、员工洞察、库存洞察、“你最好的两个客户已经 30 天没来了”这类提醒。卖家看到的是：**我往系统里投入更少的功夫，就能拿到非常有意义的产出** [17:24 Willem Avé]。\n\n主持人点出一个关键观察：用户不用操心记忆、MD 文件、技能、连接器这些“AI 极客才懂的东西”。Willem 深以为然：他自己的体验是，用 AI 常常得到一堆“文字呕吐”，还得自己解析——这本身就是工作。**越是能把体验引导到高价值、又不让用户费劲，越能建立对系统的信任；有了信任，才谈得上委派和执行批量操作、创建营销活动**。小商家往往不是一觉醒来就想“该改 X 的价格了”，而是要先有调查、有详细分析，信了之后才委派它去执行库存盘点或调价 [20:55 Willem Avé]。\n\n## 激进观点：TAM 几乎是无限的\n\nSquare 从支付公司长成了整个生态系统，TAM 怎么算？Willem 的 hot take:**只要有对的团队、对的想法、对的学习循环，你的 TAM 几乎是无限的——你可以用了不起的产品创造市场**。对 Square 而言 TAM 实际上没有尽头，因为中小企业乃至大企业经济是数万亿美元的盘子。在大 TAM 市场做产品，关键是需要一个“强制函数”帮团队做决策：Square 的北极星是“社区网络”(neighborhood network)——一个社区里发生的全部经济活动：小企业主、员工、进店的顾客。聚焦本地社区会把 TAM 从纯互联网、DTC 网站上挪开，然后按商业工具(线上线下)、金融工具(银行、信贷)、智能工具三条线去解决需求 [22:25 Willem Avé]。\n\n## 整合小商家分散的工具 + 通信之痛\n\n今天的小商家手里一堆零散的单点工具：建站的、看评论的、预订收银的。Willem 认为整合有三条路：一是 AI 软件工程降低了给每个场景造软件的门槛；二是商家已有自己喜欢的工具，所以 Square 既要做一流的第一方工具，也要做开放平台让伙伴一起建，减少“开一堆标签页、在工具间复制数据”的痛苦；三是**智能体式 AI 让商家可以同时和一堆不同软件交互**——很多软件能被智能体工具用得非常好，他拿 Claude 和 Codex 举了例子 [24:54 Willem Avé]。\n\n最后聊到通信：主持人分享在土耳其度假，约理发得发 WhatsApp,订餐厅得发 Instagram。Willem 说生意的本质就是沟通，但今天的沟通散落在 WhatsApp、Instagram、邮件、短信各个孤岛里，企业主“淹没”在里面——“我的短信收件箱有几百条未读”。他坦承**说实话还没有人真正解决这个问题**，而 Square 正在做的协作平台 Buzz 让他很兴奋——不是那个产品本身，而是那种模式能帮卖家同时管理员工和全渠道涌入的通信 [26:34 Willem Avé]。\n\n## 本集带走\n\n- **组织围绕客户结果设计，离得越远结果越差**：Square 为此从业务单元制改成完全职能制(产品/设计/工程顶层分立、内部按品牌划分)，理由是保住每个职能的工艺和卓越。\n- **用 DRI 对付“沉默否决权”**：产品变慢常是因为一个团队暗地里不配合。指定一个能综合产品、技术、业务的 DRI,把决策权贯穿从构思到规模化的全周期。\n- **AI 改变了知识编码的位置**：过去知识编码在组织架构和流程里，现在可以编码进智能体可访问的数据——决策因此民主化，小而自主的团队成为可能；但人员管理仍然不可省。\n- **别做聊天机器人，做“能产出工件的智能体”**：问答已经解决完了；用户要的是菜单工程、劳动力预测、库存工作流这种可直接使用的产出，难点从“会答”变成“可靠”。\n- **信任先于委派**：让用户少干活(而不是解析一堆“文字呕吐”)才能建立信任，有信任才有批量操作和任务委派。\n- **TAM 观**：对的团队 + 对的想法 + 对的学习循环，TAM 几乎无限——你可以创造市场；用“社区网络”这类强制函数帮大 TAM 市场里的团队做取舍。",
   "quotes": [
     {
-      "en": "Some of the other org models we'd had previously reduced the craft and excellence we wanted to see within each of our functions.",
-      "zh": "我们之前采用的一些其他组织模式实际上削弱了我们要在每个职能中看到的工艺和卓越性。",
-      "timestamp": "02:36",
-      "speaker": "Willem Avé"
-    },
-    {
-      "en": "It's very easy for platform teams to fall into a kind of \"one size fits none\" when they're building software, thinking about a very generic solution that doesn't solve any needs.",
-      "zh": "对于平台团队来说,在构建软件时很容易陷入一种\"一刀切都不行\"的状态,他们考虑的是一个通用的解决方案,但并不解决任何需求。",
-      "timestamp": "04:13",
+      "en": "You can't think of them as completely separate, which is why it's difficult for companies to use off-the-shelf, commodity hardware and build truly excellent experiences.",
+      "zh": "你不能把它们看作完全分离的，这就是为什么公司很难用现成的通用硬件构建真正卓越的体验。",
+      "timestamp": "05:45",
       "speaker": "Willem Avé"
     },
     {
       "en": "A lot of the time, products slow down because of decision-making. Either it's silent vetoes throughout the org, where one team doesn't want to do something that another team wants to do, or it's a lack of alignment on what we're doing or where we're going.",
-      "zh": "很多时候,产品因为决策而减速。要么是整个组织中存在沉默否决权,一个团队不想做另一个团队想做的事情,要么是对我们在做什么或我们要去哪里缺乏一致意见。",
+      "zh": "很多时候，产品变慢是因为决策。要么是整个组织里的沉默否决——一个团队不想做另一个团队想做的事——要么是对我们在做什么、要去哪里缺乏共识。",
       "timestamp": "08:01",
       "speaker": "Willem Avé"
     },
     {
+      "en": "But I think AI gives us the ability to encode that knowledge at another layer. It doesn't have to be encoded in the org entirely; it can be encoded in data that agents have access to, and that really democratizes decision-making.",
+      "zh": "但我认为 AI 让我们能把知识编码到另一层。它不必完全编码在组织里；它可以编码在智能体能访问的数据中，这真正让决策民主化了。",
+      "timestamp": "10:39",
+      "speaker": "Willem Avé"
+    },
+    {
       "en": "I truly believe the best teams are small, fast-moving, fully autonomous, and enabled.",
-      "zh": "我真的相信最好的团队是小型的、快速移动的、完全自主的和被赋能的。",
+      "zh": "我真心相信最好的团队是小型的、快速移动的、完全自主且被赋能的。",
       "timestamp": "10:58",
       "speaker": "Willem Avé"
     },
     {
-      "en": "AI gives us the ability to encode that knowledge at another layer. It doesn't have to be encoded in the org entirely; it can be encoded in data that agents have access to, and that really democratizes decision-making.",
-      "zh": "人工智能给了我们在另一个层面编码知识的能力。它不必完全编码在组织中;它可以编码在智能体可以访问的数据中,这真正使决策民主化。",
-      "timestamp": "10:40",
+      "en": "It's very easy to build a chatbot today, but it's very hard to build a dependable, reliable agent.",
+      "zh": "今天造一个聊天机器人很容易，但造一个可靠、可依赖的智能体非常难。",
+      "timestamp": "17:07",
       "speaker": "Willem Avé"
     },
     {
-      "en": "Running a business is a difficult kind of loneliness, where you don't always know where to go or what decisions to make.",
-      "zh": "经营生意是一种艰难的孤独感,你并不总是知道该去哪里或该做什么决定。",
-      "timestamp": "00:37",
+      "en": "The more you can steer these experiences to very high value, without causing customers to do a lot of work to use it, the more that builds trust with the system, and then it allows you to delegate and take actions.",
+      "zh": "你越能把这些体验引导到高价值、又不让用户费很大劲去使用，就越能建立对系统的信任，然后才谈得上委派和采取行动。",
+      "timestamp": "21:26",
       "speaker": "Willem Avé"
     },
     {
       "en": "My hot take is that with the right team, the right idea, and the right learning loop, your TAM is almost infinite.",
-      "zh": "我的激进观点是,拥有合适的团队、合适的想法和合适的学习循环,你的 TAM 几乎是无限的。",
+      "zh": "我的激进观点是：只要有对的团队、对的想法、对的学习循环，你的 TAM 几乎是无限的。",
       "timestamp": "22:28",
       "speaker": "Willem Avé"
     }
@@ -51,91 +51,109 @@
       "timestamp": "00:23",
       "speaker": "Willem Avé",
       "en": "Hardware must be approachable. It must be easy to use. It must be completely delightful, and doing so is not easy.",
-      "zh": "硬件必须平易近人。它必须易于使用。它必须完全令人愉悦,做到这一点并不容易。"
-    },
-    {
-      "timestamp": "01:44",
-      "speaker": "Willem Avé",
-      "en": "We had a general-management model for many years, so this was business-unit focused. And then about two years ago, we reordered the entire company to be more focused on our customers, functionalizing everything.",
-      "zh": "我们多年来采用了一种通用的管理模式,所以这是专注于业务单元的。然后大约两年前,我们重新调整了整个公司的结构,使其更加专注于我们的客户,将所有内容职能化。"
-    },
-    {
-      "timestamp": "01:44",
-      "speaker": "Willem Avé",
-      "en": "Some of the other org models we'd had previously reduced the craft and excellence we wanted to see within each of our functions.",
-      "zh": "我们之前采用的一些其他组织模式实际上削弱了我们要在每个职能中看到的工艺和卓越性。"
+      "zh": "硬件必须平易近人。它必须易于使用。它必须完全令人愉悦，而做到这一点并不容易。"
     },
     {
       "timestamp": "01:44",
       "speaker": "Willem Avé",
       "en": "The farther you go from that principle, the worse outcomes you get.",
-      "zh": "你离这个原则越远,你得到的结果就越差。"
+      "zh": "你离这个原则越远，你得到的结果就越差。"
     },
     {
       "timestamp": "03:34",
       "speaker": "Willem Avé",
-      "en": "It's very easy for platform teams to fall into a kind of \"one size fits none\" when they're building software, thinking about a very generic solution that doesn't solve any needs.",
-      "zh": "对于平台团队来说,在构建软件时很容易陷入一种\"一刀切都不行\"的状态,他们考虑的是一个通用的解决方案,但并不解决任何需求。"
+      "en": "I think it's very easy for platform teams to fall into a kind of \"one size fits none\" when they're building software, thinking about a very generic solution that doesn't solve any needs.",
+      "zh": "我认为平台团队在构建软件时很容易陷入一种“一刀切谁都不适用”的境地，想出一个不解决任何需求的通用方案。"
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Willem Avé",
+      "en": "You can't think of them as completely separate, which is why it's difficult for companies to use off-the-shelf, commodity hardware and build truly excellent experiences.",
+      "zh": "你不能把它们看作完全分离的，这就是为什么公司很难用现成的通用硬件构建真正卓越的体验。"
     },
     {
       "timestamp": "07:37",
       "speaker": "Willem Avé",
       "en": "A lot of the time, products slow down because of decision-making. Either it's silent vetoes throughout the org, where one team doesn't want to do something that another team wants to do, or it's a lack of alignment on what we're doing or where we're going.",
-      "zh": "很多时候,产品因为决策而减速。要么是整个组织中存在沉默否决权,一个团队不想做另一个团队想做的事情,要么是对我们在做什么或我们要去哪里缺乏一致意见。"
+      "zh": "很多时候，产品变慢是因为决策。要么是整个组织里的沉默否决——一个团队不想做另一个团队想做的事——要么是对我们在做什么、要去哪里缺乏共识。"
     },
     {
       "timestamp": "09:33",
       "speaker": "Willem Avé",
-      "en": "At least historically, orgs existed because of information flow: there needed to be a way to communicate between different orgs and teams and align them on a singular outcome.",
-      "zh": "至少在历史上,组织的存在是因为信息流:需要有一种方式在不同的组织和团队之间进行沟通,并在单一结果上保持一致。"
+      "en": "You have to step back and understand why orgs exist in the first place.",
+      "zh": "你必须退一步，先理解组织最初为什么存在。"
     },
     {
       "timestamp": "09:33",
+      "speaker": "Willem Avé",
+      "en": "But I think AI gives us the ability to encode that knowledge at another layer. It doesn't have to be encoded in the org entirely; it can be encoded in data that agents have access to, and that really democratizes decision-making.",
+      "zh": "但我认为 AI 让我们能把知识编码到另一层。它不必完全编码在组织里；它可以编码在智能体能访问的数据中，这真正让决策民主化了。"
+    },
+    {
+      "timestamp": "11:12",
+      "speaker": "Willem Avé",
+      "en": "So you don't have to play telephone to get an answer; you can get an answer from an agent, make a decision, and move forward.",
+      "zh": "所以你不必玩传话游戏去要一个答案；你可以从智能体那里得到答案，做出决定，然后往前走。"
+    },
+    {
+      "timestamp": "11:12",
       "speaker": "Willem Avé",
       "en": "I truly believe the best teams are small, fast-moving, fully autonomous, and enabled.",
-      "zh": "我真的相信最好的团队是小型的、快速移动的、完全自主的和被赋能的。"
+      "zh": "我真心相信最好的团队是小型的、快速移动的、完全自主且被赋能的。"
     },
     {
-      "timestamp": "09:33",
+      "timestamp": "12:41",
       "speaker": "Willem Avé",
-      "en": "AI gives us the ability to encode that knowledge at another layer. It doesn't have to be encoded in the org entirely; it can be encoded in data that agents have access to, and that really democratizes decision-making.",
-      "zh": "人工智能给了我们在另一个层面编码知识的能力。它不必完全编码在组织中;它可以编码在智能体可以访问的数据中,这真正使决策民主化。"
+      "en": "We say we want Main Street to stand as tall as Wall Street.",
+      "zh": "我们说，我们要让主街和华尔街一样高大。"
     },
     {
       "timestamp": "14:59",
       "speaker": "Willem Avé",
       "en": "Running a business is a difficult kind of loneliness, where you don't always know where to go or what decisions to make.",
-      "zh": "经营生意是一种艰难的孤独感,你并不总是知道该去哪里或该做什么决定。"
+      "zh": "经营生意是一种艰难的孤独，你并不总是知道该往哪里走或该做什么决定。"
     },
     {
       "timestamp": "14:59",
       "speaker": "Willem Avé",
-      "en": "The days of just a standard question-answer chatbot are kind of over.",
-      "zh": "只是标准问答聊天机器人的日子已经结束了。"
+      "en": "The interesting part is that the days of just a standard question-answer chatbot are kind of over, for a few reasons.",
+      "zh": "有意思的是，标准问答式聊天机器人的日子基本结束了，有几个原因。"
+    },
+    {
+      "timestamp": "14:59",
+      "speaker": "Willem Avé",
+      "en": "Real work is far more than answering questions and getting some answers back in a thread.",
+      "zh": "真正的工作远不止在一个对话串里问问题、拿回一些答案。"
     },
     {
       "timestamp": "14:59",
       "speaker": "Willem Avé",
       "en": "It's very easy to build a chatbot today, but it's very hard to build a dependable, reliable agent.",
-      "zh": "今天构建一个聊天机器人很容易,但构建一个可靠的、可靠的智能体非常困难。"
+      "zh": "今天造一个聊天机器人很容易，但造一个可靠、可依赖的智能体非常难。"
+    },
+    {
+      "timestamp": "20:55",
+      "speaker": "Willem Avé",
+      "en": "The more you can steer these experiences to very high value, without causing customers to do a lot of work to use it, the more that builds trust with the system, and then it allows you to delegate and take actions.",
+      "zh": "你越能把这些体验引导到高价值、又不让用户费很大劲去使用，就越能建立对系统的信任，然后才谈得上委派和采取行动。"
     },
     {
       "timestamp": "22:25",
       "speaker": "Willem Avé",
       "en": "My hot take is that with the right team, the right idea, and the right learning loop, your TAM is almost infinite.",
-      "zh": "我的激进观点是,拥有合适的团队、合适的想法和合适的学习循环,你的 TAM 几乎是无限的。"
-    },
-    {
-      "timestamp": "22:25",
-      "speaker": "Willem Avé",
-      "en": "You can create markets with incredible products.",
-      "zh": "你可以用令人难以置信的产品创造市场。"
+      "zh": "我的激进观点是：只要有对的团队、对的想法、对的学习循环，你的 TAM 几乎是无限的。"
     },
     {
       "timestamp": "26:34",
       "speaker": "Willem Avé",
-      "en": "When you talk to business owners, they are drowning in these many different communication tools.",
-      "zh": "当你与企业主交谈时,他们淹没在这些许多不同的通信工具中。"
+      "en": "When you talk to business owners, they are drowning in these many different communication tools. They'll say, \"My SMS inbox has hundreds of unread.\" It's crazy.",
+      "zh": "当你和企业主交谈时，他们淹没在这么多不同的通信工具里。他们会说：“我的短信收件箱有几百条未读。”太疯狂了。"
+    },
+    {
+      "timestamp": "26:34",
+      "speaker": "Willem Avé",
+      "en": "So, one, no one's really solved this yet, to be honest.",
+      "zh": "所以，第一，说实话，还没有人真正解决这个问题。"
     }
   ]
 }

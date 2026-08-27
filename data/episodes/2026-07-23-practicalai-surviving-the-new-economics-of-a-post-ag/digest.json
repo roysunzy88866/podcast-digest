@@ -1,87 +1,159 @@
 {
-  "title_zh": "IBM暴跌背后的企业软件洗牌",
-  "tldr": "PredictionGuard CEO Daniel Whitenack 与 Chris Benson 从 IBM 单日暴跌 25% 出发，讨论智能体时代企业软件的生存危机与转向路径。",
-  "digest_md": "Daniel 早上看到新闻：IBM 股票单交易日暴跌 25%，抹去约 700 亿市值，是 50 多年来最糟糕的单日跌幅，甚至超过了 1987 年黑色星期一的表现 [08:33 Daniel Whitenack]。他一点不惊讶——因为他最近一直在推演\"后智能体世界\"的场景：把情绪和偏见拿掉，只看正在发生的事，把时间线拉到几个月、几年后，各种结果的概率是什么。结论是：大量颠覆正在发生，而且不是五年后，就是现在 [05:01 Chris Benson]。\n\n同一天，Workday 跌 10%，Salesforce 跌 9%，ServiceNow 跌 8%，Adobe 跌 6%——全是企业软件公司 [26:11 Daniel Whitenack]。而涨的是芯片供应商。这背后不是单一事件，而是一个结构性转移：公司的技术预算正在从企业软件和服务，转向硬件和基础设施 [09:18 Daniel Whitenack]。\n\n## 钱往哪转：恐慌性囤硬件、模型成本焦虑\n\n几个力量在同时作用。一是 AI 公司试图让客户更\"粘\"在自己身上，好回收前期巨额投入 [07:41 Daniel Whitenack]。二是企业在恐慌性购买硬件——怕未来 AI 模型（尤其是智能体场景）使用价格大涨，自己被挤出市场 [08:01 Daniel Whitenack]。智能体不是聊一句回一句，它是长期运行的进程，需要大量上下文，按量付费的 API 和自托管小模型的经济学完全不同 [16:42 Daniel Whitenack]。\n\n三是地缘政治挤压。中国意识到自己的开源模型比美国专有模型便宜得多，开始对这些模型设置保护——而美国本来也在限制自己的能力出口 [10:29 Chris Benson]。结果就是：想靠美国专有模型？贵；想靠中国开源模型做备选？路也在关。企业从两边同时被挤 [11:36 Chris Benson]。\n\n还有一个灰色现象：中国出现了代币黑市，经纪人转售对 OpenAI、Anthropic 等平台的折扣 API 访问，绕过屏蔽和支付限制 [13:13 Daniel Whitenack]。只要有人为设限，黑市几乎必然出现。\n\n## 被忽视的回归：微调又回来了\n\n在被两头挤压之下，Daniel 注意到一个趋势：很多组织开始重新讨论微调（fine tuning，用特定数据让模型更适配自己的场景）。前一阵模型能力上来后，大家觉得\"够用了，何必费那个钱\"，现在又被逼回来考虑自建模型能力 [15:23 Daniel Whitenack]。同时欧洲等地的非中美开源权重模型也在被更多人关注 [15:02 Daniel Whitenack]。\n\n## 智能体冲击企业软件的核心逻辑\n\nChris 的判断更直接：企业软件的交互方式要彻底变了。过去是人在 GUI（图形界面）里操作，未来跨系统的绝大多数交互将是智能体对智能体（agent to agent），人类不直接参与大多数流程 [23:14 Chris Benson]。\n\n这对企业软件厂商意味着什么？两条路开始出现：一条是暴露 MCP（一种让智能体访问你数据和功能的协议）接口，把自己的价值定位在\"数据组织和功能\"上，让外部智能体来调 [21:40 Daniel Whitenack]；另一条是建自己专有的智能体，不接入通用生态 [22:11 Daniel Whitenack]。Chris 认为无论哪条路，怎么在巨大规模上管理智能体的权限、资源、MCP 配置，本身就是一个全新行业 [24:16 Chris Benson]。\n\n## 这不是未来，这是现在\n\nDaniel 拿自己公司接触到的案例说：一家公司已经在跑 70,000 个智能体，另一家 6,000 个 [20:06 Daniel Whitenack]。很多人还停留在跟 Claude Code 一对一使用的阶段，觉得\"成千上万智能体\"很遥远，但现实已经在发生 [20:24 Daniel Whitenack]。\n\nChris 的警告是：如果你觉得这还是几年后的事，你会像 IBM 那天早上一样被迅速超越 [24:44 Chris Benson]。而且概念迭代极快——几个月前还叫\"智能体工程\"，最近变成了\"循环工程\"（智能体之间形成循环协作），他预计年底前\"循环\"这个概念本身就会被淘汰 [25:09 Chris Benson]。\n\n## 人类怎么适应\n\nChris 认为死守旧角色是最差的策略，正确的做法是认清智能体真正擅长什么，然后找到你能插入的位置 [28:45 Chris Benson]。他在跟客户讨论时发现，从\"结果层面\"思考最有用——先定义要达成什么结果，再问哪些需要人、哪些智能体能做 [33:45 Daniel Whitenack]。\n\n节目最后 Daniel 提到 Anthropic 新发的一篇论文，讨论模型内部出现的\"工作空间\"——功能上类似人脑的工作记忆，让模型能更好地路由和报告信息 [31:20 Daniel Whitenack]。Chris 的观点是：意识本身没有统一定义，但如果模型用一种跟人脑完全不同的路径达到了相同的功能结果，不该因为路径不同就否定 [32:46 Chris Benson]。\n\n## 本集带走\n\n- **企业软件预算正在被虹吸**：从 SaaS/企业服务转向硬件基础设施和 AI 模型相关支出，IBM、Workday、Salesforce 同日暴跌是信号而非孤例\n- **两头挤压迫使微调回归**：美国专有模型贵、中国开源模型路在关，企业重新考虑自训练和微调，欧洲等第三方开源模型也在被纳入视野\n- **交互范式从 GUI 转向 agent-to-agent**：未来跨系统交互绝大多数由智能体之间完成，企业软件厂商要么暴露 MCP 接口、要么建专有智能体，但必须做出选择\n- **大规模智能体管理是全新行业空白**：权限、身份、资源、MCP 配置的规模化治理，目前几乎没人做好\n- **不要用\"还早\"来安慰自己**：已有企业在跑数万个智能体，概念迭代速度（智能体工程→循环工程→?）意味着等\"稳定了再说\"等于放弃\n- **从结果层面倒推人和智能体的分工**：不纠结\"我原来干什么\"，先定义要达成什么，再看哪里需要人、哪里智能体更强",
+  "title_zh": "IBM 单日暴跌 25%:企业软件的好日子到头了吗？",
+  "tldr": "Practical AI 两位主持人在 IBM 股价暴跌当日对谈：企业软件为何集体失宠，智能体经济正在如何改写商业 fundamentals。",
+  "digest_md": "这一集是 Practical AI 播客的“完全连接”环节——没有嘉宾，只有两位主持人自由对聊：PredictionGuard 的 CEO Daniel Whitenack,和首席 AI 与自主研究工程师 Chris Benson。聊的由头是当天早上的一条新闻：IBM 股票单日暴跌 25%,约合 700 亿美元市值蒸发，是该公司 50 多年来最惨的单日跌幅，甚至超过了 1987 年“黑色星期一”崩盘时的损失。两人由此展开了一场关于企业软件、智能体经济和人类角色的高密度讨论。\n\n## IBM 暴跌不是孤立事件，而是“煤矿里的金丝雀”\n\nChris 一开场的判断就很重：这不是一次性的小插曲，《纽约时报》称 IBM 可能是“煤矿里的金丝雀”——同类企业软件公司正集体面临同一股冲击。Daniel 边聊边查的行情印证了这一点：就在 IBM 崩盘的同一天，Workday 跌了 10%、Salesforce 跌 9%、ServiceNow 跌 8%、Adobe 跌 6%,而芯片类股票则在上涨。他还不忘自嘲一句：“除非我的智能体在产生幻觉。”\n\n两人拆解的驱动因素主要有三层：\n\n- **预算被抽走**：企业正在把 IT/技术预算从企业软件和服务，转向硬件和基础设施的“恐慌性采购”——生怕在 AI 模型使用价格上涨、智能体未来的长期运行成本中被挤出市场。预算是有限的，这是一场拉锯战。\n- **地缘政治收紧了退路**：Chris 指出，中国现在意识到自己在开放模型上的价值——比美国昂贵的专有模型便宜得多——并开始对其设置保护。此前企业还有一条备用策略：在行业允许的情况下退回中国开源模型；如今这条路也可能被关闭。压力从多个方向同时袭来，公司只能做“资本的紧急再分配”，牺牲的正是历史上那些关键业务运营。\n- **黑市随之出现**：Daniel 提到已出现所谓“中国代币黑市”——地下灰色市场里，经纪人向无法直接访问和付费的中国大陆用户转售 OpenAI、Anthropic 等西方 AI 平台的折扣 API 访问。他说，只要用监管去人为塑造市场，黑市几乎必然出现。\n\n## “后智能体世界”：变化速度本身才是关键\n\nChris 透露，他正在与一家出版公司的 CEO 商谈写一本书，主题就是“后智能体世界”——把偏见和情绪从方程式里拿掉，把当前市场正在发生的事在几个月、几年尺度上推演，看各种结果的概率。他的核心主张不是渲染恐慌，而是一句判断：**变化的速度正在指数级加速**——技术同时在替代旧技术和人类岗位，虽然不会移除所有人，但人的角色和参与的活动正在极快地改变。\n\nDaniel 从从业者角度给了一个校准：这个未来不远。他在谈自家公司 PredictionGuard 的方向时说，就在过去几周，他们接触的一家公司已有 70,000 个智能体在运行，另一家也有约 6,000 个 [19:31 Daniel Whitenack]。“成千上万智能体在企业基础设施里跑”听起来牵强，但很多还停留在和 Claude Code 一对一交互的人，会很快体验到差别。\n\n经济账也随之改变：当智能体从笔记本上的个人助理，变成云端存活数小时、数天甚至数周的长期智能体，按需付费 API 端点的成本结构，和一个小型自托管模型截然不同 [16:18 Daniel Whitenack]。同时，微调正在回归——模型足够好之后大家曾放弃微调，如今被两个方向的挤压逼着重新捡起来，而 Unsloth 这类平台甚至让你在 MacBook 上就能微调。\n\n## 企业软件公司的两条路\n\n对于 IBM、NetSuite 或垂直 SaaS 厂商怎么活下来，两人看到两种策略：一种是把自己的价值押在数据平台和功能上，通过 MCP(一种让智能体访问外部工具和数据的协议)提供通往 AI 世界的连接器；另一种则拒绝接入通用智能体生态，自建一套专有智能体。\n\nChris 的判断更进一步：未来绝大多数跨系统交互将以“智能体对智能体”的方式发生，没有人进你的 GUI、没有人点你的网页界面——你要设置的是权限、访问范围和 MCP 服务器的配置。这本身就是一个“完整的新行业”：如何在海量规模上管理智能体、资源和 MCP,对创业者来说是一片完全开放的领域。\n\n他还提醒节奏感：几个月前的流行词是“智能体工程”，现在已经变成“循环工程”(loops)——智能体被组织在循环里、成百上千地协作；而到今年年底前，“循环工程”这个概念本身大概就会被下一个演进淘汰。所以如果你觉得“还有好几年”，你会被很快超越——就像 IBM 当天在股价上发现的那样。\n\n## 人类的位置：别抱住马车不放\n\nChris 引用了一句他当天看到的 George Lucas 的话：在汽车时代到来的日子里，你还死抱着马车不放。他观察到，很多人(尤其和他年纪相仿的人)还在守住旧角色，因为那是他们熟悉和舒适的东西。他的建议是：认清智能体真正擅长什么，承认这不会逆转，去找到自己能接入的位置。Daniel 补充了一个客户启发的思路：与其纠结每家公司的智能体架构，不如**在“结果”层面思考**——要达成什么结果、必要的人工输入是什么、可部署的智能体系统有哪些可能。\n\n## 一个彩蛋：模型的“全局工作空间”\n\n结尾两人聊到 Anthropic 刚发布的一篇论文《Verbalizable representations form a global workspace in language models》(可语言化的表征在语言模型中形成全局工作空间)。要点是：无论你怎么看“意识”，模型确实展现出一种路由和报告信息的功能能力，而模型内部形成的“工作空间”在功能上扮演着类似人脑工作记忆的角色。Chris 指出争论的核心：意识从来没有一个被广泛接受的统一定义；一派坚持按哺乳动物大脑的路径来判定，另一派则问——如果通过截然不同的路径达到了同样的功能结果，这算不算数？他自己的态度是开放的：涌现出我们完全没预料到的性质，并不奇怪。\n\n## 本集带走\n\n- **IBM 暴跌是个信号而非噪音**：单日 -25%、约 700 亿美元市值、50 多年最差单日；同日 Workday -10%、Salesforce -9%、ServiceNow -8%、Adobe -6%,企业软件板块集体承压，而芯片股上涨。\n- **三股压力挤压企业预算**：AI 模型与智能体的长期使用成本、对被“挤出市场”的恐慌性硬件采购、以及中国开放模型这条路可能被地缘政治关闭。\n- **智能体规模比想象中近**：已有公司跑着 70,000 个智能体；长期存活的云端智能体会让 API 讇价与自托管小模型的经济账彻底分化，微调正在回归(Unsloth 甚至支持 MacBook 微调)。\n- **企业软件两条战略路线**：用 MCP 连接器开放数据与功能，或自建专有智能体生态；跨系统交互的未来是“智能体对智能体”，GUI 和网页界面不再是主入口。\n- **给创业者的空位**：在海量规模上管理智能体、权限、资源与 MCP 配置，是一个“完全开放”的新行业。\n- **给个人的建议**：别守住旧角色，在“结果层面”思考——要什么结果、必要的人工输入是什么、智能体能承担什么。\n- **保持节奏感**：从“智能体工程”到“循环工程”只隔了几个月，今年年底前这个词本身可能就过时了。",
   "quotes": [
     {
-      "en": "One company that already has 70,000 agents running, one that has, I think it was like 6,000 or something. So this is not, yes, it is future, but it's not like five years future.",
-      "zh": "一家公司交谈，他们已经有 70,000 个智能体在运行，另一家有，我想大概是 6,000 个左右。所以这不是，是的，它是未来，但这并不是五年后的未来。",
-      "timestamp": "20:06",
-      "speaker": "Daniel Whitenack"
+      "en": "I know it sounds very ominous, but I think the key point there, rather than just being frightened of it, is really that the rate of change is accelerating exponentially right now.",
+      "zh": "我知道这听起来非常不祥，但我认为那里的关键点，与其只是害怕它，真的是变化的速度现在正在指数级加速。",
+      "timestamp": "06:48",
+      "speaker": "Chris Benson"
     },
     {
-      "en": "And the vast majority of interactions across different systems are going to occur agentically. Without a human directly involved in most of those processes.",
-      "zh": "而且跨越不同系统的绝大多数交互将以智能体方式发生。在大多数这些过程中没有人类直接参与。",
-      "timestamp": "23:23",
+      "en": "China is now recognizing the value it has in its open models, which are much cheaper to use than these expensive proprietary models in the US.",
+      "zh": "中国现在意识到了其在开放模型中的价值，这些模型比美国昂贵的专有模型便宜得多。",
+      "timestamp": "10:32",
+      "speaker": "Chris Benson"
+    },
+    {
+      "en": "the way interactions will occur is agentically in a direct, you know, if you might think of it as B2B in a sense, but think of it as agent to agent.",
+      "zh": "交互发生的方式将是直接的智能体方式，如果你可以这样想，某种意义上的 B2B,但把它想成是智能体对智能体。",
+      "timestamp": "23:15",
       "speaker": "Chris Benson"
     },
     {
       "en": "And so if you're thinking we're a few years out, then you're gonna get overtaken quite quickly as IBM discovered this morning with their stock.",
-      "zh": "所以如果你认为我们要过好几年，那你就会相当快地被超越，就像 IBM 今天早上在他们的股票上发现的那样。",
+      "zh": "所以如果你认为我们还有好几年，那你就会相当快地被超越，就像 IBM 今天早上在他们的股票上发现的那样。",
       "timestamp": "24:44",
       "speaker": "Chris Benson"
     },
     {
-      "en": "Looper is a very transitory thing because this is evolving so quickly. But before the year is out, I'm pretty sure the notion of loop engineering is going to be kind of antiquated by what follows and the evolution of where things are going.",
-      "zh": "循环器是一个非常短暂的事物，因为这演进得太快了。但是在今年结束之前，我很确定循环工程的概念将会被随后发生的事情和事物发展方向的演进所淘汰。",
-      "timestamp": "25:23",
+      "en": "But before the year is out, I'm pretty sure the notion of loop engineering is going to be kind of antiquated by what follows and the evolution of where things are going.",
+      "zh": "但是在今年结束之前，我很确定循环工程的概念将会被随后发生的事情和事物发展方向的演进所淘汰。",
+      "timestamp": "25:28",
       "speaker": "Chris Benson"
+    },
+    {
+      "en": "Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%.",
+      "zh": "今天，随着 IBM 崩盘，除非我的智能体在产生幻觉，Workday 下跌了 10%，Salesforce 9%，ServiceNow 8%，Adobe 6%。",
+      "timestamp": "26:11",
+      "speaker": "Daniel Whitenack"
+    },
+    {
+      "en": "One company that already has 70,000 agents running, one that has, I think it was like 6,000 or something.",
+      "zh": "一家公司已经有 70,000 个智能体在运行，另一家有，我想大概是 6,000 个左右。",
+      "timestamp": "20:06",
+      "speaker": "Daniel Whitenack"
     }
   ],
   "quotes_candidates": [
     {
-      "timestamp": "05:01",
+      "timestamp": "08:51",
+      "speaker": "Daniel Whitenack",
+      "en": "This is the worst single-day drop in over 50 years, outpacing even its losses during the 1987 Black Monday market crash.",
+      "zh": "这是 50 多年来最糟糕的单日下跌，甚至超过了其在 1987 年黑色星期一市场崩盘期间的跌幅。"
+    },
+    {
+      "timestamp": "05:36",
       "speaker": "Chris Benson",
-      "en": "It's kind of like if you look at what's happening right now in the marketplace. And you take all your biases and all the things that you want or are scared of out of the equation to where all your emotions are removed a little bit. And you say, well, these are what's happening. And you play the events out over months and years. What are the probabilities of various outcomes that are looking like based on today?",
-      "zh": "这就像如果你看现在市场上正在发生什么。并且你把所有的偏见和你想要或害怕的所有东西从方程式中拿掉，以至于你的所有情绪都被稍微移除了。然后你说，好吧，这些就是正在发生的事情。并且你把事情在几个月和几年内推演下去。基于今天，各种可能结果的概率是什么？"
+      "en": "I think that we're going to see a lot of that, a lot of that disruption happening in the months and years",
+      "zh": "我认为我们会看到很多这种情况，很多这种颠覆在未来几个月和几年里发生"
     },
     {
-      "timestamp": "08:33",
-      "speaker": "Daniel Whitenack",
-      "en": "25 single trading session collapse which is about 70 billion in market value ... This is the worst single-day drop in over 50 years, outpacing even its losses during the 1987 Black Monday market crash.",
-      "zh": "25 个单交易日崩溃这大约是 700 亿的市值……这是 50 多年来最糟糕的单日下跌，甚至超过了其在 1987 年黑色星期一市场崩盘期间的跌幅。"
+      "timestamp": "06:42",
+      "speaker": "Chris Benson",
+      "en": "I know it sounds very ominous, but I think the key point there, rather than just being frightened of it, is really that the rate of change is accelerating exponentially right now.",
+      "zh": "我知道这听起来非常不祥，但我认为那里的关键点，与其只是害怕它，真的是变化的速度现在正在指数级加速。"
     },
     {
-      "timestamp": "16:42",
-      "speaker": "Daniel Whitenack",
-      "en": "Then all of a sudden the economics do change around like, hey, if I'm using a pay-as-I-go API endpoint, that's going to be a vastly different economics than a small self-hosted model, right?",
-      "zh": "然后突然之间，经济学确实发生了变化，比如，嘿，如果我使用的是一个按需付费的 API 端点，那将与一个小型的自托管模型有着截然不同的经济学模式，对吧？"
+      "timestamp": "10:29",
+      "speaker": "Chris Benson",
+      "en": "China is now recognizing the value it has in its open models, which are much cheaper to use than these expensive proprietary models in the US.",
+      "zh": "中国现在意识到了其在开放模型中的价值，这些模型比美国昂贵的专有模型便宜得多。"
     },
     {
-      "timestamp": "20:06",
-      "speaker": "Daniel Whitenack",
-      "en": "One company that already has 70,000 agents running, one that has, I think it was like 6,000 or something. So this is not, yes, it is future, but it's not like five years future.",
-      "zh": "一家公司交谈，他们已经有 70,000 个智能体在运行，另一家有，我想大概是 6,000 个左右。所以这不是，是的，它是未来，但这并不是五年后的未来。"
+      "timestamp": "12:40",
+      "speaker": "Chris Benson",
+      "en": "I don't think this is a blip.",
+      "zh": "我认为这不是一个小插曲。"
     },
     {
       "timestamp": "23:14",
       "speaker": "Chris Benson",
-      "en": "And the vast majority of interactions across different systems are going to occur agentically. Without a human directly involved in most of those processes.",
-      "zh": "而且跨越不同系统的绝大多数交互将以智能体方式发生。在大多数这些过程中没有人类直接参与。"
+      "en": "And the way interactions will occur is agentically in a direct, you know, if you might think of it as B2B in a sense, but think of it as agent to agent.",
+      "zh": "交互发生的方式将是直接的智能体方式，如果你可以这样想，某种意义上的 B2B,但把它想成是智能体对智能体。"
+    },
+    {
+      "timestamp": "23:29",
+      "speaker": "Chris Benson",
+      "en": "And the vast majority of interactions across different systems are going to occur agentically.",
+      "zh": "而且跨越不同系统的绝大多数交互将以智能体方式发生。"
     },
     {
       "timestamp": "24:44",
       "speaker": "Chris Benson",
       "en": "And so if you're thinking we're a few years out, then you're gonna get overtaken quite quickly as IBM discovered this morning with their stock.",
-      "zh": "所以如果你认为我们要过好几年，那你就会相当快地被超越，就像 IBM 今天早上在他们的股票上发现的那样。"
+      "zh": "所以如果你认为我们还有好几年，那你就会相当快地被超越，就像 IBM 今天早上在他们的股票上发现的那样。"
     },
     {
-      "timestamp": "25:09",
+      "timestamp": "25:28",
       "speaker": "Chris Benson",
-      "en": "Looper is a very transitory thing because this is evolving so quickly. But before the year is out, I'm pretty sure the notion of loop engineering is going to be kind of antiquated by what follows and the evolution of where things are going.",
-      "zh": "循环器是一个非常短暂的事物，因为这演进得太快了。但是在今年结束之前，我很确定循环工程的概念将会被随后发生的事情和事物发展方向的演进所淘汰。"
+      "en": "But before the year is out, I'm pretty sure the notion of loop engineering is going to be kind of antiquated by what follows and the evolution of where things are going.",
+      "zh": "但是在今年结束之前，我很确定循环工程的概念将会被随后发生的事情和事物发展方向的演进所淘汰。"
     },
     {
-      "timestamp": "28:45",
-      "speaker": "Chris Benson",
-      "en": "I think the right strategy is to recognize what agentics is really good at doing.",
-      "zh": "我认为正确的策略是认识到智能体真正擅长做什么。"
+      "timestamp": "26:11",
+      "speaker": "Daniel Whitenack",
+      "en": "Today, as IBM crashed, unless my agent is hallucinating, Workday slid down 10%, Salesforce 9%, ServiceNow 8%, Adobe 6%.",
+      "zh": "今天，随着 IBM 崩盘，除非我的智能体在产生幻觉，Workday 下跌了 10%，Salesforce 9%，ServiceNow 8%，Adobe 6%。"
     },
     {
-      "timestamp": "32:46",
+      "timestamp": "20:06",
+      "speaker": "Daniel Whitenack",
+      "en": "One company that already has 70,000 agents running, one that has, I think it was like 6,000 or something.",
+      "zh": "一家公司已经有 70,000 个智能体在运行，另一家有，我想大概是 6,000 个左右。"
+    },
+    {
+      "timestamp": "20:13",
+      "speaker": "Daniel Whitenack",
+      "en": "So this is not, yes, it is future, but it's not like five years future.",
+      "zh": "所以这不是，是的，它是未来，但这并不是五年后的未来。"
+    },
+    {
+      "timestamp": "28:00",
       "speaker": "Chris Benson",
-      "en": "Or are you willing to say there are alternative paths that if you get to the same kind of an outcome for a given task associated with that, is that legitimate?",
-      "zh": "或者你是否愿意说有替代路径，如果你在与相关任务相关的同一类结果中达到目的，那是合法的吗？"
+      "en": "Trying to hold on to old roles is not the best strategy.",
+      "zh": "试图坚持旧角色并不是最好的策略。"
+    },
+    {
+      "timestamp": "31:01",
+      "speaker": "Daniel Whitenack",
+      "en": "So this is not like they're feeling or they're",
+      "zh": "所以这不像它们有感觉或者它们是"
+    },
+    {
+      "timestamp": "31:04",
+      "speaker": "Daniel Whitenack",
+      "en": "but certainly there is this capability of routing and reporting information, which is obviously key to the key to the agentic transformation that we're seeing.",
+      "zh": "但肯定有这种路由和报告信息的能力，这显然是我们正在看到的智能体转型的关键的关键。"
+    },
+    {
+      "timestamp": "32:05",
+      "speaker": "Chris Benson",
+      "en": "What I would say is, sadly, there's never been a unified definition of what consciousness is that is widely accepted.",
+      "zh": "我会说，遗憾的是，对于意识是什么，从未有过一个被广泛接受的统一定义。"
+    },
+    {
+      "timestamp": "33:17",
+      "speaker": "Chris Benson",
+      "en": "And it wouldn't surprise me if some of these things arise, eventually emergent qualities arise from vastly different ways from what we had anticipated.",
+      "zh": "如果其中一些事情出现了，最终的涌现品质以我们从未预料到的截然不同的方式出现，我也不会感到惊讶。"
+    },
+    {
+      "timestamp": "13:13",
+      "speaker": "Daniel Whitenack",
+      "en": "To some of what you're talking about, there's this Chinese token black market, which is kind of a reference to this underground gray market area where brokers are reselling discounted API access to Western artificial intelligence platforms, AI platforms, like OpenAI or Anthropic, because those services are blocked to mainland Chinese",
+      "zh": "关于你谈到的一些内容，存在这种中国代币黑市，指的是地下灰色市场领域，经纪人在那里转售对西方人工智能平台、AI 平台的折扣 API 访问，比如 OpenAI 或 Anthropic，因为这些服务对中国大陆是屏蔽的"
     }
   ]
 }

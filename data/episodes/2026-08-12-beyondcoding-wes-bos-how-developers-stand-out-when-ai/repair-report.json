@@ -2,11 +2,11 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "04:17",
+      "timestamp": "01:17",
       "speaker": "Wes Bos",
       "trimmed": false,
-      "tsWas": "04:17",
-      "spkWas": "Unknown"
+      "tsWas": "01:17",
+      "spkWas": "Wes Bos"
     },
     {
       "i": 2,
@@ -14,35 +14,24 @@
       "speaker": "Wes Bos",
       "trimmed": false,
       "tsWas": "09:52",
-      "spkWas": "Unknown"
+      "spkWas": "Wes Bos"
     },
     {
       "i": 3,
-      "timestamp": "10:41",
+      "timestamp": "25:47",
       "speaker": "Wes Bos",
       "trimmed": false,
-      "tsWas": "10:41",
-      "spkWas": "Unknown"
+      "tsWas": "25:47",
+      "spkWas": "Wes Bos"
     },
-    {
-      "i": 5,
-      "timestamp": "01:17",
-      "speaker": "Wes Bos",
-      "trimmed": false,
-      "tsWas": "21:09",
-      "spkWas": "Unknown"
-    }
-  ],
-  "dropped": [
     {
       "i": 4,
-      "reason": "逐字命中不了转写稿(裁剪后仍无)",
-      "en": "And like that to me is the like important knowledge right now is like how do you tackle and figure out new solutions right because there's all of the solutions in these LLMs right now are just solutions that have already been made"
-    },
-    {
-      "i": 6,
-      "reason": "逐字命中不了转写稿(裁剪后仍无)",
-      "en": "Newsletter is a fantastic way to do that because you it's like the last way you can like actually directly connect with your consumers everything else is algorithm based"
+      "timestamp": "27:13",
+      "speaker": "Wes Bos",
+      "trimmed": false,
+      "tsWas": "27:13",
+      "spkWas": "Wes Bos"
     }
-  ]
+  ],
+  "dropped": []
 }

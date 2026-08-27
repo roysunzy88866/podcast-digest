@@ -1,36 +1,24 @@
 {
-  "title_zh": "Parag：给智能体用的搜索，为什么不能是给人类用的",
-  "tldr": "前 Twitter CEO Parag 创立的 Parallel 正在为智能体重新发明搜索，并尝试用 Shapley 值解决内容变现的激励错配问题。",
-  "digest_md": "人类在 Google 搜东西，打两个错别字就等着结果出来——智能体不会这么干。它不偷懒、不打错字、查询描述更精确，而且一次深度研究任务可能发出几百上千次搜索请求。Parag 创立 Parallel 的前提就是：智能体搜索的量级会是人类的一千倍，而为人类设计的搜索技术栈，根本扛不住这个规模 [01:50 Parag]。\n\n## 先造搜索智能体，再养索引\n\n传统搜索引擎的架构是三步：爬取整个网络，把所有页面存进索引（一种预先整理好的信息库），用户查询进来后做检索和排名，从数千亿页面里筛出最相关的几个 [04:10 Parag]。这套东西极贵，历史上只有 Google 和 Bing 搞得起全量爬取 [05:21 Parag]。\n\nParallel 没有第一天就砸钱建索引。他们先做的是搜索智能体——查询来了之后，智能体实时去网上爬取页面。深度研究场景下用户能等一分钟甚至十分钟，这段时间够爬大量页面了，前提是你有足够好的地图来决定优先爬哪些 [08:01 Parag]。本质上是用推理时的算力去换预先建索引的成本 [10:12 Andrew]。\n\n早期客户是保险承保、销售数据丰富、金融建模这些人——之前他们把数据收集外包给人工，现在用 Parallel 的搜索智能体替代。这同时解决了两个问题：有真实用例跑起来，而不是靠理论评估来猜智能体需要什么搜索；而且每次搜索都在帮 Parallel 积累数据，逐步把索引建起来 [09:07 Parag]。\n\n## 智能体搜索和人类搜索到底差在哪\n\n接口层面就不同。人类搜索依赖关键词，智能体可以发给搜索引擎更丰富、更明确的查询指令，搜索引擎要猜的东西少了很多 [15:21 Parag]。\n\n内容质量层面也有根本差异。Google 搜索结果里大量充斥着\"前 AI 时代的人类垃圾\"——比如搜一家公司最新营收，最权威的来源是 SEC 备案文件里 PDF 的第 73 页，但那个 PDF 加载要三秒多，人类没耐心翻。于是出现了大量\"帮你把关键数字提取到首屏\"的中间页面，99.99% 准确，SEO 极好 [17:07 Parag]。这类内容对人类有用，对智能体完全是噪音。\n\nParallel 的做法是直接从最权威的来源提取段落，塞进智能体的上下文窗口。智能体不需要\"看到页面\"，它需要的是精准的一千个 token [19:00 Parag]。\n\n一次查询的实际处理流程是：先用模型理解并丰富查询，然后并行发给多个不同类型的索引（大索引、新鲜索引、类似知识图谱的结构化索引等），每层做检索→排名→更细的排名，从数千亿 URL 缩到数万篇文档，再缩到具体段落，最后选出信号最强的约一千个 token 返回 [19:45 Parag]。上周他们把延迟从三秒压到了 200 毫秒 [12:13 Parag]。\n\n## 为什么模型公司不会直接吃掉这个赛道\n\n有人认为模型公司做预训练时已经爬了整个网，搜索基础设施对他们来说是顺理成章的事。Parag 的反驳很直接：预训练爬取和搜索索引爬取是两套不同的需求 [23:52 Parag]。\n\n模型公司为预训练爬数据时，遇到加载慢的 JavaScript 渲染页面，算力回报率可能差两个数量级，直接跳过。但搜索索引必须是\"完成主义者\"——如果一个页面里有权威信息，哪怕加载慢也要拿到。而且如果模型已经训练过某个页面的内容，那个页面对新索引就没用了；Parallel 反而要去找那些模型没见过的、新鲜的、难爬的内容 [24:18 Parag]。\n\n他的判断是：买 LLM 做工作的客户，十个用例里有九个需要让模型访问网络。这是 LLM 推理的毗邻业务，模型公司可以自建、可以购买、可以合作——而 Parallel 已经和 Google Cloud 达成合作，作为其企业智能体 API 的搜索和 Grounding 提供商，在 GCP 上使用 Gemini 模型时，网络搜索选项可以是 Parallel Search [25:56 Parag]。\n\n## 搜索量的一千倍乘数效应\n\n一个典型的搜索智能体，即使不做深度研究，回答一个问题也会发 5 到 20 次搜索。在 ChatGPT 里调高模式，一次提示词可能触发几百到几千次 [28:14 Parag]。\n\n但更大的乘数来自后台智能体。比如一个信贷组合有 10,000 家小企业，之前每个月人工跑一次风险评估流程，现在用智能体每周跑，每次要发大量搜索来生成仪表盘和行动项——这里的搜索乘数是几十万甚至一百万 [29:22 Parag]。Parag 自己用 Notion 搭了一个会议准备智能体，每次开会前自动做几十到几百次网络搜索 [30:36 Parag]。\n\n他认为现在智能体查询总量还没超过人类，但像他自己这样的\"异常值\"已经在一百到一千倍的量级运作了 [33:08 Parag]。\n\n## 互联网经济学的崩塌与 Shapley 值\n\n广告之所以能支撑免费互联网，核心是它极其擅长差异化定价——大多数查询 Google 是亏钱的，靠少数高价值查询赚回来 [35:51 Parag]。但这个模型的根基是\"有限的人类注意力\"。如果上网的不再是人的眼睛而是智能体，广告模式就断了——内容方无法从智能体访问中变现，自然想把智能体挡在门外 [36:29 Parag]。\n\n现有的替代方案也很脆弱：高质量内容方只能和模型实验室签固定费用的训练数据协议，而且当推理量每年增长 7 倍时，合同金额不会跟着涨 7 倍，续约时份额必然下降 [38:25 Parag]。\n\nParallel 的方案是借鉴广告系统的差异化定价思路，用 Shapley 值（一种博弈论概念，用于在合作中公平分配共同创造的价值）来计算每个内容来源的增量贡献 [42:21 Parag]。具体做法是：从语料库中移除某个来源，看智能体输出质量下降多少，再算要用多少额外算力才能弥补这个质量损失——那个算力成本就是该来源的\"价值\" [41:16 Parag]。\n\n精确计算 Shapley 值的成本比要付给出版商的钱还高，所以实际是用模拟数据训练模型来估算。但核心逻辑成立：如果银行家的智能体读取你的数据（高价值工作），就比退休老人的人工浏览付得多；内容越独特差异化，报酬越高 [46:00 Parag]。按他的测算，如果从知识工作的 LLM 推理支出中拿出 2% 到 10% 分配给网络数据，总量已经远超目前除围墙花园之外的所有网络数据商业模式 [46:31 Parag]。\n\n公司最初注册名就是 Shapley Inc.，后来因为 B2B 产品名字太学术才改成了 Parallel——寓意为智能体构建一个并行的网络 [47:50 Parag]。\n\n## 从\"拉\"到\"推\"：网络的下一层\n\nParag 把智能体使用网络的演进分三层。第一层：智能体把网络当工具，像人一样调用搜索，这已经是现在大多数用例的样子 [51:05 Parag]。第二层：多智能体系统，子智能体之间互相唤醒、编排，比如 AI 科学家类系统，长时间运行、投入大量算力去啃难题 [51:35 Parag]。第三层：网络从\"拉\"变成\"推\"——不是智能体去问\"现在帮我找这个\"，而是\"网络上发生了这个变化，通知我，我来跑智能体处理\" [52:16 Parag]。\n\n> 【背景】Shapley 值由诺贝尔经济学奖得主 Lloyd Shapley 提出，在机器学习领域常以 SHAP 值的形式用于解释模型特征重要性。\n\n## 本集带走\n\n- **先做搜索智能体再建索引**：用推理时算力换预建索引的成本，从有真实付费需求的用例起步，边服务边积累索引数据。\n- **智能体搜索的核心优化维度是质量、成本、延迟**：Parallel 前两年先忽略延迟，把质量和成本做到每个价格点的最优，第三年再攻延迟（从三秒压到 200 毫秒）。\n- **预训练爬取 ≠ 搜索索引爬取**：前者跳过难加载的页面，后者必须拿到；前者要模型没见过的数据，后者要权威且新鲜的段落。两类需求天然不同。\n- **用 Shapley 值估算内容增量价值**：移除某个来源→看质量下降多少→算弥补质量需要的算力成本→这就是该来源该得的报酬。精确算太贵，用模拟数据训练模型来逼近。\n- **后台智能体是搜索量的真正倍增器**：不是人在用 AI 时多搜几次，而是程序化任务（每周跑 10,000 家企业的风险监控）把搜索量推到百万级。\n- **网络将从\"拉\"走向\"推\"**：未来智能体不是主动去搜，而是订阅\"网络上发生了什么变化\"，变化触发工作。",
+  "title_zh": "前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网",
+  "tldr": "前 Twitter CEO Parag Agrawal 创办 Parallel Web Systems，为智能体重造网络搜索——技术、商业模式与一条「并行网络」的愿景。",
+  "digest_md": "这一集是 Training Data 播客对 Parag 的访谈。Parag 曾任 Twitter 的 CEO，把公司卖给 Elon 之后重新回到创始人轨道，现在做的公司叫 Parallel Web Systems，做的事一句话概括：让智能体(agent)能搜索和使用网络——既重造搜索技术，也重造配套的商业模式。他最核心的一个判断是：智能体使用搜索的量会比人类多一千倍 [01:50]。\n\n## 搜索的本质：十亿对十亿的匹配问题\n\n先把网络搜索拆开看：搜索引擎先爬取网络、找出所有 URL，把信息组织成索引（提前把页面读好、放在内存里，查询来时就不用临时加载），然后经过多级检索和排序，把数千亿个页面收窄到 5 个、10 个，理想情况下 1 个最相关的结果 [04:10]。Parag 的框架是：这本质上是「十亿到十亿的匹配问题」——数百亿页面对阵随时间累积的数千亿查询 [05:10]。长期以来只有 Google 和 Bing 做过全网规模的爬取和索引，为什么一家小公司敢碰？他的答案是三点：一是过去新玩家拿不到好的反馈数据（人类评分、点击数据都握在巨头手里），而现在大模型让评分数据可以便宜得多地由专家生产 [06:22]；二是他在 Parallel 的立场很鲜明——**人类点击数据是一个 bug，智能体搜索应该依赖智能体反馈，而不是人类反馈** [06:27]；三是找到了一条渐进式建索引的商业路径，不必先烧光钱再服务客户。\n\n具体打法是：先不推搜索产品，先推**搜索智能体**。查询到达后再去实时爬取——做深度研究的用户能容忍一分钟甚至十分钟的等待，这段时间足够爬大量页面 [08:01]。索引本质上是一种延迟优化，放弃这一维，竞争对手就从「搜索引擎」换成了「外包给人类做数据策展」，后者好打得多 [08:43]。早期客户包括保险承保与理赔工作流、销售数据增强、金融建模的数据采集——都是原来「把数据连夜发给一队人类来整理」的场景 [09:07]。\n\n## 不是模型实验室，是模型的「补充」\n\n有人问 Parallel 算不算新实验室(neolab)。Parag 的定义是：新实验室的产出是模型，而 Parallel 的产出是**对模型的补充**——在模型之上做乘法。模型每进步一次，别人要爬更高的山，Parallel 则多解锁一批可发挥价值的用例 [11:05]。他们不做超大规模预训练，而是把东西压缩成微小的排序模型：每个查询本质上是「从万亿网页里给我一千个 token，而且要是对的那一千个」，要在极有限的算力/延迟预算内做到 [11:57]。此前读取时给三秒算力，新发布的产品压到了 200 毫秒 [12:13]。\n\n为什么不直接让深度研究智能体去调 Google？他的回答是：用 Parallel 搜索，智能体大体上能省掉一半以上的 token，结果更准也更快；省下的 token 意味着能做更多问题、或更便宜更快地做同样的问题 [13:49]。在他看来，搜索的核心是**质量、成本、延迟**三者的优化问题，公司的头两年刻意忽略延迟、死磕另外两个 [32:01]，达标后才发布了主打延迟的产品 TurboNow [32:35]。接口也在变：人类靠关键词搜索（本质是懒，打两个带错字的词求最好结果），而智能体的查询错字更少、定义更好、更长，搜索引擎要猜的东西更少，等于在解决一类不同的问题 [16:05]。\n\n## 为什么 Google 结果里全是「垃圾页」\n\n他给了一个很精彩的结构性解释。比如查一家上市公司的营收，权威答案在 SEC 备案文件第 73 页的 PDF 里，但那个 PDF 加载要三秒半，你还得自己翻到第 77 页——人类太懒，不会做。于是网络上出现了整整一类内容：把大家需要的信息放在加载快的页面上、放在首屏上方，99.99% 正确，还从 300 页财报里挑出了 20 条真正该看的信息。这可以叫「前 AI 时代的人类垃圾」，也可以叫「迎合懒惰人类的成功 SEO」[17:04]。而 Parallel 服务智能体时不受这个权衡绑架：直接从网上最权威的地方取节选，送进智能体的上下文窗口，让它自己决定下一步 [19:00]。\n\n一条查询进来后内部发生什么：先跑模型理解和丰富查询，然后面向一组不同的索引（大索引、新鲜索引、知识图谱/结构化索引）分别改写查询，各自经过检索层和多层排序层，逐级收窄到数万个文档、再到具体段落，最后带回信号最高的一千个 token [19:45]。不同版本的搜索 API，本质是在这条链路的不同节点投入不同算力，去打不同的延迟和成本档位 [21:10]。\n\n## 智能体会把搜索量放大多少倍\n\n一个典型搜索智能体即使不做深度研究，也会做 5 到 20 次搜索；ChatGPT 每次普通提问背后是 5 到 10 次搜索，调高档位就是成百上千次 [28:14]。但 Parallel 追求的是更大的倍数：比如手握一万个放贷小企业的组合，原来每月跑一次人工风控流程，现在写成智能体每周跑、生成仪表盘和行动项——搜索量倍数是几十万到一百万级 [29:22]。Parag 自己用 Notion 的智能体做会议准备文档，一次写好提示词，之后每个会议自动触发几十到几百次网络搜索 [30:36]。他估算自己所有智能体的搜索量是三年前他个人 Google 搜索量的 100 到 1000 倍，但他自认是异常值而非常态——智能体采用仍非常早期 [33:18]。他还引用看到的数据：Cloudflare 监测中 AI 流量的页面阅读量已与人类流量大致相当 [34:01]。\n\n## 互联网经济学正在崩坏，解法是 Shapley 值\n\n这是他创业的另一半动机。他先为广告正名：广告是高效的变现方案，擅长**差异化定价**——Google 在大多数查询上亏钱，靠部分查询赚回来，成就了非凡利润率的企业 [35:51]。但广告的前提是「有限的人类注意力」。如果出现在网上的是人类的智能体，就没人能从这次访问中变现：站长只好请人做 SEO 招揽人类，同时切断智能体 [36:45]。订阅模式也一样——一千个人类里转化 20 个订阅，你懂这个漏斗；而智能体的访问没有统计、没有归因，你分不清它会带来订阅还是只会持续偷内容 [37:32]。\n\n现有的内容变现出路只有跟模型实验室签固定费用合同（含训练授权、责任保护和推理时访问），但这是「头部现象」，而且推理量今年 7 倍、明年再 7 倍地涨，交易规模并不跟着 50 倍地涨——固定价格结构撑不起可持续性 [38:25]。他给出的解法还是差异化定价，但两个维度：内容质量差异 × 用途价值差异（银行家做高价值工作时读你的数据，就该比退休的父亲读付更多钱）[39:26]。\n\n关键的技术问题是归因：一段回复背后十次搜索、多个来源，怎么分钱？他先给直觉版本——把某个来源从语料库拿掉，重跑智能体，看输出质量掉多少；再看能不能靠多扔一分钱的算力把质量补回来——能补回来，这个来源就大约值一分钱 [41:16]。这个直觉的形式化就是 **Shapley 值**：博弈论里分配「合作创造的大于部分之和的蛋糕」的数学方法，ML 里做特征重要性的 SHAP 值就是它 [42:21]。Shapley 值理论上漂亮、实践中难用（要模拟所有子集合作的平行世界），但在网络搜索里恰好可以模拟「没有这个 URL/域名时智能体表现如何」来造数据。真正的坑是：精确计算一个内容方该得的一美元，可能要花几美元算力——所以只能训模型来**估算** Shapley 值 [44:14]。他有信心这条路激励对齐：宏观数学上，把 LLM 推理花费的 2% 到 10% 分给网络数据，就已经比今天所有围墙花园之外的网络数据商业模式加起来还大；按他的计算，距离这套数学能给一大片内容方带来有意义的收入还有 12 到 24 个月 [46:37]。\n\n一个彩蛋：公司注册时的原名就是 Shapley Inc.，只是这名字做 B2B 实在太差，花了六到八个月才改叫 Parallel——一是因为当时在做大量并行的事，二因为他们预见到一张**为智能体而生的并行网络**：发布内容时开始面向两个受众，人类怎么读、智能体怎么读 [47:50]。这个趋势其实已经在发生：财报电话会议记录，如今通过智能体消费的人几乎肯定多于听音频或读原文的人 [49:36]；Parag 说如果自己是上市公司 CEO，做财报时会说清楚「这些话会被智能体正确转录和解读」，而 Parallel 发布 API 文档时，主要受众已经是智能体，文档也是拿智能体来测的 [50:03]。\n\n## 终局：网络从「拉」变「推」\n\n他给智能体与网络的关系画了三层：第一层，智能体把网络搜索当工具用（今天的大多数）；第二层，更复杂的多智能体系统——子智能体互相唤醒、编排，比如 AI 科学家这类长跑、重算力的系统 [51:35]；第三层最关键：**网络从拉取(push/pull 反转)转为推送**——不再是「现在去找这个」，而是「如果网上发生了这件事，就叫醒我，我的智能体会去做事」。触发源可以是卫星图像变化、客户评论、另一个智能体完成计算、人类的新洞察。他常跟团队说的一句话是：如果今天能做、值得做、还有 GPU 可用，就今天做——那明天做什么？做那些响应世界变化的事 [53:07]。到那时，算力将被持续分配到整个网络上，代表所有客户，一直运转 [54:26]。\n\n## 本集带走\n\n- **智能体反馈替代人类点击**：训练搜索排序不再依赖巨头垄断的点击数据，专家 + 大模型能便宜地生产评分数据——这是小公司敢做全网索引的结构性变化。\n- **先做智能体、后建索引**：用「查询后实时爬取」换取时间，绕开先烧钱建全网索引的门槛；索引本质是延迟优化，可以最后补。\n- **搜索 = 质量/成本/延迟三角**：先牺牲延迟死磕质量和成本，达标后再攻延迟（TurboNow 把读取时算力从 3 秒压到 200 毫秒）。\n- **给智能体的搜索要省 token**：好搜索让智能体少用一半以上 token，等于变相扩了上下文、降了成本。\n- **用 Shapley 值解决内容分账**：拿掉某来源、重跑智能体、看质量掉多少、补回要多少算力——把这个直觉形式化，再用模型估算（精确算比付的钱还贵）。\n- **发布要面向两个受众**：写财报发言、API 文档时，把「智能体会正确解读」当第一类读者来设计，并用智能体测试文档。\n- **下一个范式信号：网络从拉到推**——「发生了 X 就叫醒我」的订阅式智能体工作流，是把算力持续铺到全网的前提。",
   "quotes": [
     {
       "en": "Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.",
       "zh": "我们在 Parallel 的观点是，人类点击数据是一个 bug，使用搜索进行工作的智能体应该依赖智能体反馈，而不是人类反馈。",
-      "timestamp": "06:27",
+      "timestamp": "00:00",
+      "speaker": "Parag"
+    },
+    {
+      "en": "We started Parallels with the bet that agents would do it a thousand times more than humans ever have.",
+      "zh": "我们创立 Parallels 是基于这样一个赌注：智能体做这件事的次数将比人类历史上多一千倍。",
+      "timestamp": "01:50",
       "speaker": "Parag"
     },
     {
       "en": "If you use parallel search, you will, for the most part, use under half the tokens in your agent.",
-      "zh": "如果你使用并行搜索，你将在很大程度上，少用一半的 tokens 在你的智能体中。",
+      "zh": "如果你使用 parallel 搜索，你在很大程度上会在你的智能体中使用不到一半的 token。",
       "timestamp": "13:49",
-      "speaker": "Parag"
-    },
-    {
-      "en": "And so you can call it pre-AI human slop.",
-      "zh": "所以你可以称之为前 AI 时代的人类垃圾。",
-      "timestamp": "18:42",
-      "speaker": "Parag"
-    },
-    {
-      "en": "We like to crawl things that people don't like to crawl for pre-training.",
-      "zh": "我们喜欢抓取人们不喜欢为预训练而抓取的东西。",
-      "timestamp": "24:11",
-      "speaker": "Parag"
-    },
-    {
-      "en": "I don't know if I love ads, but I intellectually love ads because ads is the reason that so much amazing content and technology is available for free to all of us, right?",
-      "zh": "我不知道我是否热爱广告，但我在理智上热爱广告，因为广告是如此多惊人的内容和技术可以免费提供给所有人的原因，对吧？",
-      "timestamp": "35:08",
       "speaker": "Parag"
     },
     {
@@ -43,117 +31,99 @@
   "quotes_candidates": [
     {
       "timestamp": "00:00",
-      "speaker": "Unknown",
-      "en": "Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.",
-      "zh": "我们在 Parallel 的观点是，人类点击数据是一个缺陷，使用搜索进行工作的智能体应该依赖智能体反馈，而不是人类反馈。"
-    },
-    {
-      "timestamp": "01:50",
-      "speaker": "Unknown",
-      "en": "We started Parallels with the bet that agents would do it a thousand times more than humans ever have.",
-      "zh": "我们创立 Parallels 是基于这样一个假设：智能体执行搜索的次数将比人类多一千倍。"
-    },
-    {
-      "timestamp": "02:21",
-      "speaker": "Unknown",
-      "en": "Twitter was a post-product market fit, extraordinarily scaled business where your feedback loops were from the hundreds of millions of customers using the product for 30 plus minutes every day, right?",
-      "zh": "Twitter 是一个产品市场契合后的、规模极其巨大的企业，你的反馈来自每天使用产品超过 30 分钟的数亿客户，对吧？"
-    },
-    {
-      "timestamp": "05:05",
-      "speaker": "Unknown",
-      "en": "One way to think about it is it's a billion to billion matching problem, right?",
-      "zh": "思考它的一种方式是，这是一个十亿到十亿的匹配问题，对吧？"
-    },
-    {
-      "timestamp": "06:27",
-      "speaker": "Unknown",
+      "speaker": "Parag",
       "en": "Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.",
       "zh": "我们在 Parallel 的观点是，人类点击数据是一个 bug，使用搜索进行工作的智能体应该依赖智能体反馈，而不是人类反馈。"
     },
     {
-      "timestamp": "11:09",
-      "speaker": "Unknown",
-      "en": "What we build is something that multiplies on top of a model.",
-      "zh": "我们构建的东西是在模型之上倍增的东西。"
+      "timestamp": "01:50",
+      "speaker": "Parag",
+      "en": "We started Parallels with the bet that agents would do it a thousand times more than humans ever have.",
+      "zh": "我们创立 Parallels 是基于这样一个赌注：智能体做这件事的次数将比人类历史上多一千倍。"
     },
     {
-      "timestamp": "11:21",
-      "speaker": "Unknown",
-      "en": "So we've always wanna be in a place where whenever someone ships a better model, a new lab, for example, if somebody else ships a better model, they have a higher hill to climb.",
-      "zh": "所以我们一直想处于这样一个位置，每当有人发布一个更好的模型，一个新的实验室，例如，如果其他人发布了一个更好的模型，他们有一座更高的山要爬。"
+      "timestamp": "05:10",
+      "speaker": "Parag",
+      "en": "One way to think about it is it's a billion to billion matching problem, right?",
+      "zh": "思考它的一种方式是，这是一个十亿对十亿的匹配问题，对吧？"
+    },
+    {
+      "timestamp": "08:43",
+      "speaker": "Parag",
+      "en": "So we said, it seems like humans sitting on search engines are far way easier to compete with than a search engine on day zero.",
+      "zh": "所以我们说，坐在搜索引擎上的人类，似乎比第一天的搜索引擎要容易竞争得多。"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Parag",
+      "en": "I think our output is a complement to a model.",
+      "zh": "我认为我们的产出是对模型的补充。"
+    },
+    {
+      "timestamp": "11:31",
+      "speaker": "Parag",
+      "en": "For us, somebody ships a better model, they have now unlocked four more use cases where we can be valuable.",
+      "zh": "对我们来说，有人发布了更好的模型，他们现在解锁了四个我们可以发挥价值的更多用例。"
     },
     {
       "timestamp": "13:49",
-      "speaker": "Unknown",
+      "speaker": "Parag",
       "en": "If you use parallel search, you will, for the most part, use under half the tokens in your agent.",
-      "zh": "如果你使用并行搜索，你将在很大程度上，少用一半的 tokens 在你的智能体中。"
+      "zh": "如果你使用 parallel 搜索，你在很大程度上会在你的智能体中使用不到一半的 token。"
     },
     {
-      "timestamp": "14:22",
-      "speaker": "Unknown",
-      "en": "So everything, to me, when you have an infinite appetite for information and relevant information for all kinds of work, it's at its core an optimization problem around quality, cost, and latency.",
-      "zh": "所以一切，对我来说，当你对信息有无限的需求和各种工作的相关信息时，它的核心是一个关于质量、成本和延迟的优化问题。"
+      "timestamp": "16:05",
+      "speaker": "Parag",
+      "en": "Turns out like models less so.",
+      "zh": "事实证明，模型就不那么（懒）了。"
     },
     {
-      "timestamp": "18:42",
-      "speaker": "Unknown",
-      "en": "And so you can call it pre-AI human slop.",
-      "zh": "所以你可以称之为前 AI 时代的人类垃圾。"
+      "timestamp": "22:03",
+      "speaker": "Parag",
+      "en": "So I think of, I don't know if I'm right on this, but like my take is that a billion to billion matching problem is a forever problem.",
+      "zh": "所以我认为，我不知道我在这一点上是否正确，但我的看法是，十亿对十亿的匹配问题是一个永恒的问题。"
     },
     {
-      "timestamp": "24:18",
-      "speaker": "Unknown",
-      "en": "We like to crawl things that people don't like to crawl for pre-training.",
-      "zh": "我们喜欢抓取人们不喜欢为预训练而抓取的东西。"
+      "timestamp": "23:52",
+      "speaker": "Parag",
+      "en": "I don't see empiric data on the ground to support that view.",
+      "zh": "我没有看到实地经验数据来支持那个观点。"
     },
     {
-      "timestamp": "24:23",
-      "speaker": "Unknown",
-      "en": "Because like if the model already was trained on it, like it's not useful.",
-      "zh": "因为如果模型已经受过它的训练，它就没用了。"
+      "timestamp": "26:26",
+      "speaker": "Parag",
+      "en": "When you attach web search to it, your options are Google search or parallel search.",
+      "zh": "当你为其附加网络搜索时，你的选项是 Google 搜索或 parallel 搜索。"
     },
     {
-      "timestamp": "35:08",
-      "speaker": "Unknown",
-      "en": "I don't know if I love ads, but I intellectually love ads because ads is the reason that so much amazing content and technology is available for free to all of us, right?",
-      "zh": "我不知道我是否热爱广告，但我在理智上热爱广告，因为广告是如此多惊人的内容和技术可以免费提供给所有人的原因，对吧？"
+      "timestamp": "31:00",
+      "speaker": "Parag",
+      "en": "Now it does tens and hundreds of web searches for every meeting I have.",
+      "zh": "现在，对于我参加的每一个会议，它都会做几十到几百次网络搜索。"
+    },
+    {
+      "timestamp": "32:35",
+      "speaker": "Parag",
+      "en": "It is the fastest, highest quality agentic web search on the market by a lot.",
+      "zh": "它是市场上最快、质量最高的智能体网页搜索，而且快很多、好很多。"
     },
     {
       "timestamp": "35:51",
-      "speaker": "Unknown",
+      "speaker": "Parag",
       "en": "So, most queries, Google loses money on.",
       "zh": "所以，大多数查询，Google 在上面是亏钱的。"
     },
     {
-      "timestamp": "38:25",
-      "speaker": "Unknown",
-      "en": "And even for the head, it is a broken business model because when AIs or inference grows, let's say 7x this year and another 7x the next year.",
-      "zh": "即使对于头部内容，这也是一个破碎的商业模式，因为当 AI 或推理增长，比如今年增长 7 倍，明年再增长 7 倍。"
-    },
-    {
       "timestamp": "42:21",
-      "speaker": "Unknown",
+      "speaker": "Parag",
       "en": "It's called Shapley values.",
       "zh": "它叫做 Shapley 值。"
     },
     {
-      "timestamp": "44:14",
-      "speaker": "Unknown",
-      "en": "is way more expensive than the amount of dollars we spend on the agent.",
-      "zh": "比我们在智能体上花费的美元金额要昂贵得多。"
-    },
-    {
-      "timestamp": "46:31",
-      "speaker": "Unknown",
-      "en": "if we allocated like what two to ten percent of it to data on the web that's way bigger than all web data business models today outside of like walled gardens like facebook and linkedin like so the macro math supports it",
-      "zh": "如果我们分配比如其百分之二到十给网络上的数据，这比今天除了像 Facebook 和 LinkedIn 这样的围墙花园之外的所有网络数据商业模式都要大得多，所以宏观数学支持它"
-    },
-    {
-      "timestamp": "53:07",
-      "speaker": "Unknown",
-      "en": "If there is something you can do today and it's worth doing and we still have GPUs available, we'll just go do it.",
-      "zh": "如果今天有什么你可以做的事情，并且值得做，而且我们还有可用的 GPU，我们就去做。"
+      "timestamp": "48:02",
+      "speaker": "Parag",
+      "en": "The company's original name was Shapley Inc.",
+      "zh": "这家公司最初的名字叫 Shapley Inc.。"
     }
   ]
 }

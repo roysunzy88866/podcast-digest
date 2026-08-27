@@ -1,20 +1,8 @@
 {
-  "title_zh": "Electric James：智能体不是计算，是数据",
-  "tldr": "Electric 的 James 主张把智能体从沙箱容器里搬出来，建模为数据层中的持久化日志，实现无服务器的协作式多智能体运行时。",
-  "digest_md": "现在主流跑智能体的方式是给它一台电脑——丢进 Docker 容器或沙箱，让它跑 bash、grep、操作文件系统。James 认为这完全是反模式，原因有两个。\n\n第一是会话日志和决策痕迹全埋在黑盒里。你在本地用 Claude 做研究、派生子智能体，子智能体的会话日志就藏在你电脑某个隐藏文件夹的 JSON Lines 文件里。搬到线上沙箱也一样——你总不能 SSH 进沙箱去翻日志。过去二十年企业把 Web 服务搬上云，自然就接上了 Prometheus、Datadog 这些可观测性工具；但智能体却以黑盒容器的方式部署，跟标准 Web 基础设施完全脱节 [04:21 James]。\n\n第二，更根本的问题是：把智能体建模为计算，逻辑上就不对 [05:45 James]。\n\nJames 的核心论点是：智能体不是计算，是数据 [05:52 James]。一个智能体到底是什么？不是那个跑着两 GB 内存的虚拟机——智能体就是它的会话日志。你未来会有海量的智能体：每个工作流里的每一步、每次客户互动、每个你需要协作的对象都可能对应一个智能体。如果每个都当虚拟机跑，效率低得离谱 [06:01 James]。更关键的是，如果你把智能体等同于它所在的计算资源，那计算一停，智能体就不存在了。但你实际需要的是：跟一个智能体聊完了，把它休眠或缩放到零；过一阵子回来，继续同一个会话，甚至分叉出一条新分支。这意味着智能体在不运行的时候也必须存在——它活在数据层的持久化存储里，不在计算层里 [06:44 James]。\n\n那不给智能体电脑，工具调用怎么执行？答案是拆分：把智能体逻辑和工具调用执行分开 [07:39 James]。打个比方，你要让智能体生成一份数据报告，你不会让它\"幻觉\"出一个 CSV 文件，而是向数据库发一条 SQL 查询，让数据平台执行查询计划、导出真实数据。同理，文件操作、grep 之类的事情，可以用仿真层来代替真正的文件系统——对智能体来说看起来像在用电脑，实际背后是正规的在线系统在执行 [08:13 James]。智能体逻辑本身可以跑在一个轻量的函数里（比如边缘函数），不绑定笨重的容器 [08:43 James]。\n\nJames 指出，Anthropic 的 Managed Agents 论文和 Cloudflare 的 Project Think 论文，其实都收敛到了同一个架构：托管在线智能体、智能体逻辑与工具执行分离、会话日志做持久化 [09:26 James]。Electric 做的是从数据层提供这套原语，让开发者不用被锁定在某个特定平台上 [09:36 James]。\n\n他们已经发布了 Electric Agents，一个开源的协作式多智能体运行时。用法很简单——跑一下快速入门就拿到运行时，把智能体定义成类似请求处理函数的形式，可以用 Vercel AI SDK、TanStack AI、Mastra 等任何框架写智能体代码，加一层运行时垫片就能接入，自动获得协调和数据连线的能力 [10:35 James]。\n\n## 本集带走\n- **智能体 = 会话日志，不是虚拟机**：把它当数据持久化到数据层，不运行时也能存在、能恢复、能分叉。\n- **拆开智能体逻辑和工具执行**：智能体代码跑轻量函数，工具调用走后端正规系统（数据库查询、仿真层等），别绑死在沙箱容器里。\n- **会话日志不能埋在黑盒里**：智能体上线部署必须接入可观测性，决策痕迹要可查询——这跟过去二十年 Web 服务上云是同一个道理。\n- **这个架构不是 Electric 一家在推**：Anthropic Managed Agents、Cloudflare Project Think 都收敛到了同一方向，Electric 的差异在于从数据层提供开源原语、不锁定平台。",
+  "title_zh": "别给智能体一台电脑：Electric 的“智能体即数据”新架构",
+  "tldr": "Electric 创始团队成员 James 讲他们为什么把智能体建模为数据而非计算，以及无沙箱的在线智能体架构该长什么样。",
+  "digest_md": "这一集是 Scanning Dev Souls 在 Heavybit Dev Guild 现场对 James 的短访。Electric 最早做 Postgres 同步引擎(让数据在服务器和客户端之间实时同步的技术)，后来把同步技术泛化成面向智能体的数据原语，最近发布了 Electric Agents——一个跑协作式多智能体系统的运行时。他们最核心、也最反直觉的主张是：**智能体不是计算，而是数据。**\n\n## 反模式：把智能体塞进沙箱\n\n今天大多数人想把智能体部署到线上时的思路是：拿一个智能体“线束”(harness,即驱动 LLM 循环干活的外壳，比如 Claude Code 这类工具)，把它整个塞进 Docker 容器、沙箱或虚拟机里——因为你默认智能体需要一台电脑：要文件系统、要跑 bash 和 grep 这些工具调用。\n\nJames 认为这是反模式，问题有两个。\n\n第一是**可观测性的倒退**：如果你在本地用 Claude 让它做研究、派生子智能体，那些子智能体的会话日志在哪？答案是藏在你电脑一个隐藏文件夹里的 JSON Lines 文件里。企业视角看这不可接受——“为什么生成了这个产物？决策痕迹在哪？”全被埋了。移植到线上沙箱里同样被埋：难道要 SSH 进沙箱去翻日志？过去 20 年大家拼命把组织搬上云、接上 Prometheus、Datadog 这类监控体系，结果智能体却被当成黑盒容器部署，完全没接进这套标准基础设施。\n\n第二更根本：**这个做法把智能体建模成了计算**。而关键洞见是——智能体的本质是会话日志，是数据层的记录。一旦把智能体当计算，你杀掉计算进程，智能体就“没了”；但正确的心智模型是：智能体作为逻辑实体，**即使不在运行也存在**，它活在数据层的持久化记录里。你需要的是“我聊完了就把它休眠/缩容到零，之后还能回来找同一个智能体会话、或者分叉它”——这只有在会话日志和状态放在数据层、计算随时可重跑的前提下才成立。\n\n还有一个规模问题：未来会有海量智能体——每个工作流程的每一步、每次客户互动、每个接触点都可能有一个智能体。如果每个都当虚拟机跑、各占 2GB 内存，效率低到不可理喻。所以这套模型天然指向“无服务器智能体”：像函数一样，可以缩放到零、也可以缩放到万亿。\n\n## 正确架构：智能体逻辑与工具执行分离\n\n那不隔离也不行——总不能让智能体在通用服务器上横冲直撞。答案不是沙箱，而是**把智能体逻辑和工具调用执行拆开**。\n\nJames 给了一个很妙的类比：让智能体给数据分析师生成报告，你是让它“幻觉”出一个 CSV 文件，还是让它发一条 SQL 查询给一个真正受你控制的数据库、由数据库执行查询计划导出数据？后者显然对——而智能体的工具调用也该这么干。现在出现了很多仿真层项目，它们在智能体看来像是在用电脑，但底层实际由正规的在线系统来兑现文件操作和工具调用。\n\n于是架构变成两半：一边是一个轻量函数(比如 Cloudflare Worker 或边缘函数那种 isolate)来跑富有表现力的智能体逻辑，包括代码模式、代码执行；另一边，凡是要创建产物、查数据系统的动作，走传统数据平台——因为那是确定性的、可监控、可保证质量的软件。Anthropic 的 Managed Agents 和 Cloudflare 的 Project Think 这两篇论文，最终都趋同到了这个架构上。\n\n## Electric 的位置：原语，不带锁定\n\nElectric 从数据层出身，做的就是给平台和产品构建者提供同样的基础设施原语——持久化流协议，适合存智能体会话数据、在其上搭协作式多智能体系统——但不带平台锁定。Anthropic 的东西很好，但它想让你用 Claude;Cloudflare 的 Durable Objects 和 Agents SDK 也很棒，但它是云厂商，你得在它的云上跑。如果你想拥有自己的基础设施，这就是 Electric 的空间。\n\n落地门槛很低：全是开源的，网站首页就有 MPX 快速入门，跑起来就是一个运行时；你像定义请求处理函数一样定义智能体实体，可以继续用 Vercel AI SDK、TanStack AI、Mastra 这些熟悉的框架，只包一层运行时垫片就接入平台。还有内置智能体直接可用，自带派生模式、类似 OpenClaw 的管理器模式。域名刚从 Electric SQL 换成了 electric.ax——ax 指 agent experience。\n\n> 【背景】MPX 大概率指软件包直接执行工具 npx 的转写误写；OpenClaw 可能是开源智能体框架 OpenClaw(转写稿原样如此)。\n\n## 本集带走\n\n- **心智模型换掉**：智能体不是计算，是数据层的会话日志；作为逻辑实体，它不在运行时也存在。把它建模成计算进程，一杀就没了、无法休眠后找回或分叉。\n- **别把线束塞进沙箱当默认架构**：那会把决策痕迹埋进黑盒，SSH 翻日志不是可观测性。\n- **架构拆法**：智能体逻辑放轻量函数(isolate/边缘函数)里跑；工具调用执行走正规在线系统——像“发 SQL 查数据库”而不是“让模型幻觉出 CSV”。\n- **规模推演**：每个流程步骤、每次客户互动一个智能体的未来下，按虚拟机跑(各占内存)不成立，要的是能缩放到零的函数式智能体。\n- **看两篇参考**：Anthropic Managed Agents 与 Cloudflare Project Think 的论文，行业已趋同于“逻辑与执行分离 + 会话持久化”架构。\n- **不想被锁定**：可以用开源原语(如 Electric 的持久化流协议)自建同款基础设施，并沿用现有 AI 框架。",
   "quotes": [
-    {
-      "en": "So our thesis is that agents are not compute.",
-      "zh": "所以我们的论点是智能体不是计算。",
-      "timestamp": "01:01",
-      "speaker": "James"
-    },
-    {
-      "en": "We think of agents as logs in the data layer.",
-      "zh": "我们认为智能体是数据层中的日志。",
-      "timestamp": "01:12",
-      "speaker": "James"
-    },
     {
       "en": "We think of multi-agent systems as a distributed data problem.",
       "zh": "我们认为多智能体系统是一个分布式数据问题。",
@@ -22,48 +10,24 @@
       "speaker": "James"
     },
     {
-      "en": "because you think you need to give the agent a computer yeah uh and we see that as more of an anti-pattern",
-      "zh": "因为你认为你需要给智能体一台电脑，是啊，呃，我们认为这更像是一种反模式",
-      "timestamp": "04:30",
-      "speaker": "James"
-    },
-    {
       "en": "And so the key thing about agents that we see is that agents are not compute, they are data.",
-      "zh": "所以关于智能体，我们要看到的关键点是智能体不是计算，它们是数据。",
+      "zh": "所以我们要看到的关键点是：智能体不是计算，它们是数据。",
       "timestamp": "05:52",
       "speaker": "James"
     },
     {
-      "en": "And also if you model the agent as compute and if you then kill the compute, well, the agent isn't there.",
-      "zh": "而且，如果你把智能体建模为计算，然后你终止了计算，那么智能体就不在了。",
-      "timestamp": "06:37",
-      "speaker": "James"
-    },
-    {
       "en": "And so when you think of agents as like logical entities, you realize that they exist even when they're not running, which is why if you model them as compute, it's just wrong because they don't live in the compute.",
-      "zh": "所以当你把智能体看作逻辑实体时，你意识到即使它们不运行时它们也是存在的，这就是为什么如果你把它们建模为计算，那就完全错了，因为它们并不存在于计算中。",
+      "zh": "当你把智能体看作逻辑实体时，你会意识到即使它们不在运行也存在，这就是为什么把它们建模为计算是完全错的，因为它们并不活在计算里。",
       "timestamp": "07:03",
       "speaker": "James"
     }
   ],
   "quotes_candidates": [
     {
-      "timestamp": "00:59",
-      "speaker": "James",
-      "en": "It models agents as data.",
-      "zh": "它将智能体建模为数据。"
-    },
-    {
       "timestamp": "01:01",
       "speaker": "James",
       "en": "So our thesis is that agents are not compute.",
       "zh": "所以我们的论点是智能体不是计算。"
-    },
-    {
-      "timestamp": "01:12",
-      "speaker": "James",
-      "en": "We think of agents as logs in the data layer.",
-      "zh": "我们认为智能体是数据层中的日志。"
     },
     {
       "timestamp": "01:15",
@@ -72,70 +36,58 @@
       "zh": "我们认为多智能体系统是一个分布式数据问题。"
     },
     {
-      "timestamp": "01:25",
+      "timestamp": "03:06",
       "speaker": "James",
-      "en": "So it's serverless agents, agents as functions, agents that scale to zero, scale to trillions.",
-      "zh": "所以这是无服务器智能体，作为函数的智能体，可以缩放至零、缩放至万亿的智能体。"
+      "en": "The big shift which is the whole main shift in the agent economy is like agents have the potential to automate work that can be more efficient how do you actually switch your company from running on people to running on a hybrid of people and agents like what's the infrastructure for that?",
+      "zh": "智能体经济中整个主要的转变是：智能体有潜力把工作自动化得更高效，而你实际上如何把公司从运行在人身上转变为运行在人加智能体的混合体上，那背后的基础设施是什么？"
     },
     {
-      "timestamp": "04:30",
+      "timestamp": "04:52",
       "speaker": "James",
-      "en": "because you think you need to give the agent a computer yeah uh and we see that as more of an anti-pattern",
-      "zh": "因为你认为你需要给智能体一台电脑，是啊，呃，我们认为这更像是一种反模式"
-    },
-    {
-      "timestamp": "05:45",
-      "speaker": "James",
-      "en": "But kind of agents are sort of weirdly being deployed as these like sort of black box containers.",
-      "zh": "但是智能体有点奇怪地被部署为这些黑盒容器。"
+      "en": "And if you think of that from the perspective of like a business that might need to go, well, hang on, why did you create that artifact?",
+      "zh": "如果你从一个企业的角度考虑，企业可能会问：等等，你为什么要创建那个产物？"
     },
     {
       "timestamp": "05:52",
       "speaker": "James",
       "en": "And so the key thing about agents that we see is that agents are not compute, they are data.",
-      "zh": "所以关于智能体，我们要看到的关键点是智能体不是计算，它们是数据。"
+      "zh": "所以我们要看到的关键点是：智能体不是计算，它们是数据。"
     },
     {
       "timestamp": "06:29",
       "speaker": "James",
       "en": "If you have all those agents and you run them all as like a VM and they've all got like two gigabytes of memory, then it's just insanely inefficient.",
-      "zh": "如果你有所有那些智能体，并且把它们都像虚拟机一样运行，它们都有两个千兆字节的内存，那就太低效了。"
-    },
-    {
-      "timestamp": "06:37",
-      "speaker": "James",
-      "en": "And also if you model the agent as compute and if you then kill the compute, well, the agent isn't there.",
-      "zh": "而且，如果你把智能体建模为计算，然后你终止了计算，那么智能体就不在了。"
+      "zh": "如果你有所有那些智能体，并把它们都当虚拟机运行、各占两个千兆字节的内存，那效率就低得离谱。"
     },
     {
       "timestamp": "07:03",
       "speaker": "James",
       "en": "And so when you think of agents as like logical entities, you realize that they exist even when they're not running, which is why if you model them as compute, it's just wrong because they don't live in the compute.",
-      "zh": "所以当你把智能体看作逻辑实体时，你意识到即使它们不运行时它们也是存在的，这就是为什么如果你把它们建模为计算，那就完全错了，因为它们并不存在于计算中。"
+      "zh": "当你把智能体看作逻辑实体时，你会意识到即使它们不在运行也存在，这就是为什么把它们建模为计算是完全错的，因为它们并不活在计算里。"
     },
     {
-      "timestamp": "07:14",
+      "timestamp": "07:56",
       "speaker": "James",
-      "en": "They actually live in the durability layer in the data layer.",
-      "zh": "它们实际上存在于持久层中，在数据层中。"
-    },
-    {
-      "timestamp": "07:39",
-      "speaker": "James",
-      "en": "But if you think if you look at this more sort of managed agent pattern what you can do is separate the agent logic from the tool call execution.",
-      "zh": "但是如果你想一下，如果你看看这种更像是托管智能体的模式，你能做的是将智能体逻辑与工具调用执行分离开来。"
-    },
-    {
-      "timestamp": "08:37",
-      "speaker": "James",
-      "en": "And so that's the switch where you go, you don't have a sandbox which bundles it all together.",
-      "zh": "所以这就是那个切换，你不再有一个把所有东西打包在一起的沙箱。"
+      "en": "Do you get your agent to hallucinate out the CSV file or do you send a SQL query to a database, which is actually just like a normal data system or data platform that's running under your control that actually exports out the data by executing the query plan?",
+      "zh": "你是让你的智能体幻觉出一个 CSV 文件，还是向数据库发送 SQL 查询——那其实是一个运行在你控制之下的普通数据系统或数据平台，通过执行查询计划真正导出数据？"
     },
     {
       "timestamp": "09:26",
       "speaker": "James",
       "en": "And if you read the kind of Anthropic Managed Agents paper, if you read the Cloudflare Project Think paper, this is the architecture which they and others have all converged on.",
-      "zh": "如果你读一下那篇 Anthropic Managed Agents 论文，如果你读一下 Cloudflare Project Think 论文，这就是他们和其他人都趋同的架构。"
+      "zh": "如果你读 Anthropic Managed Agents 论文、读 Cloudflare Project Think 论文，这就是他们和其他人都已趋同的架构。"
+    },
+    {
+      "timestamp": "10:07",
+      "speaker": "James",
+      "en": "What if you want to own your own infrastructure?",
+      "zh": "如果你想拥有自己的基础设施怎么办？"
+    },
+    {
+      "timestamp": "10:35",
+      "speaker": "James",
+      "en": "And it may sound like quite big sort of conceptual stuff but it's actually just very very simple you just like run the quick start and it just gives you this like run time",
+      "zh": "它听起来像是相当大的概念性的东西，但实际上非常非常简单，你只要跑一下快速入门，它就给你这个运行时"
     }
   ]
 }

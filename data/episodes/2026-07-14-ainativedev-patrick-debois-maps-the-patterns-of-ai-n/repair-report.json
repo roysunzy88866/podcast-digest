@@ -1,27 +1,19 @@
 {
   "kept": [
     {
-      "i": 1,
-      "timestamp": "00:04",
-      "speaker": "Patrick Debois",
-      "trimmed": false,
-      "tsWas": "00:04",
-      "spkWas": "Patrick Debois"
-    },
-    {
       "i": 2,
-      "timestamp": "11:00",
+      "timestamp": "12:35",
       "speaker": "Patrick Debois",
       "trimmed": false,
-      "tsWas": "10:57",
+      "tsWas": "12:35",
       "spkWas": "Patrick Debois"
     },
     {
-      "i": 4,
-      "timestamp": "20:20",
+      "i": 3,
+      "timestamp": "17:13",
       "speaker": "Patrick Debois",
       "trimmed": false,
-      "tsWas": "20:20",
+      "tsWas": "17:12",
       "spkWas": "Patrick Debois"
     },
     {
@@ -29,31 +21,46 @@
       "timestamp": "23:53",
       "speaker": "Patrick Debois",
       "trimmed": false,
-      "tsWas": "23:53",
+      "tsWas": "23:48",
       "spkWas": "Patrick Debois"
     },
     {
       "i": 6,
-      "timestamp": "36:51",
+      "timestamp": "33:58",
       "speaker": "Patrick Debois",
       "trimmed": false,
-      "tsWas": "37:08",
+      "tsWas": "33:58",
       "spkWas": "Patrick Debois"
     },
     {
       "i": 7,
-      "timestamp": "37:30",
+      "timestamp": "36:51",
       "speaker": "Patrick Debois",
       "trimmed": false,
-      "tsWas": "37:30",
+      "tsWas": "36:51",
       "spkWas": "Patrick Debois"
     }
   ],
   "dropped": [
     {
-      "i": 3,
+      "i": 1,
       "reason": "逐字命中不了转写稿(裁剪后仍无)",
-      "en": "the latest trends are that after your harness has done things, it's the job of the agent to convince you that it did the right thing."
+      "en": "And the people who contribute to that metric are the ones that are really helping you on the journey. Not the token billionaires."
+    },
+    {
+      "i": 4,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "So I believe this will go on its own path, where maybe some of the latest trends are that after your harness has done things, it's the job of the agent to convince you that it did the right thing."
+    },
+    {
+      "i": 8,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "And the measurement there is how many touches does the human still need to do for an agent to do the right thing, and so kind of measuring that becomes more effective than measuring kind of adoption just by having license counts."
+    },
+    {
+      "i": 9,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "And I think it's not per se that I would say the best agentic team will get the budget, but I'll put the best agentic team on the most important business project to get like a return back."
     }
   ]
 }

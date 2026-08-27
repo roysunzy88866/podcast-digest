@@ -1,18 +1,26 @@
 {
   "kept": [
     {
-      "i": 2,
-      "timestamp": "20:06",
-      "speaker": "Daniel Whitenack",
+      "i": 1,
+      "timestamp": "06:48",
+      "speaker": "Chris Benson",
       "trimmed": false,
-      "tsWas": "20:06",
-      "spkWas": "Daniel Whitenack"
+      "tsWas": "06:42",
+      "spkWas": "Chris Benson"
+    },
+    {
+      "i": 2,
+      "timestamp": "10:32",
+      "speaker": "Chris Benson",
+      "trimmed": false,
+      "tsWas": "10:29",
+      "spkWas": "Chris Benson"
     },
     {
       "i": 3,
-      "timestamp": "23:23",
+      "timestamp": "23:15",
       "speaker": "Chris Benson",
-      "trimmed": false,
+      "trimmed": true,
       "tsWas": "23:14",
       "spkWas": "Chris Benson"
     },
@@ -26,18 +34,28 @@
     },
     {
       "i": 5,
-      "timestamp": "25:23",
+      "timestamp": "25:28",
       "speaker": "Chris Benson",
       "trimmed": false,
-      "tsWas": "25:09",
+      "tsWas": "25:28",
       "spkWas": "Chris Benson"
+    },
+    {
+      "i": 6,
+      "timestamp": "26:11",
+      "speaker": "Daniel Whitenack",
+      "trimmed": false,
+      "tsWas": "26:11",
+      "spkWas": "Daniel Whitenack"
+    },
+    {
+      "i": 7,
+      "timestamp": "20:06",
+      "speaker": "Daniel Whitenack",
+      "trimmed": false,
+      "tsWas": "20:06",
+      "spkWas": "Daniel Whitenack"
     }
   ],
-  "dropped": [
-    {
-      "i": 1,
-      "reason": "逐字命中不了转写稿(裁剪后仍无)",
-      "en": "25 single trading session collapse which is about 70 billion in market value ... This is the worst single-day drop in over 50 years, outpacing even its losses during the 1987 Black Monday market crash."
-    }
-  ]
+  "dropped": []
 }
