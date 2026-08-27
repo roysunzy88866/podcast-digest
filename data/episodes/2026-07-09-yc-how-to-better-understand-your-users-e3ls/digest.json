@@ -1,0 +1,123 @@
+{
+  "title_zh": "点图：看透单个用户行为的可视化工具",
+  "tldr": "Dave（曾在 Google Photos 和 Bump 工作的创业者）讲了一个叫\"点图\"的方法，用二维网格逐天追踪每个用户的行为，从汇总指标里看不出的问题一眼就能发现。",
+  "digest_md": "Dave 做过一款叫 Bump 的产品，后来在 Google Photos 负责用户增长。他说创始人最容易犯的一个错误，就是只看 DAU（日活跃用户数）、MAU 这类汇总指标——这些数字把所有用户搅在一起，只要有增长，曲线就往右上走，但你根本不知道单个用户到底在怎么用你的产品、用了什么功能、使用频率和节奏如何 [00:09 Unknown]。\n\n他推荐的工具叫点图。做法很简单：画一个二维网格，像电子表格一样，每一行是一个用户，每一列是一个时间单位（通常用天）。然后选一个你认为代表产品核心价值的事件——比如音乐应用就是\"听一首歌\"，照片应用就是\"分享一张照片\"——用户在哪天做了这件事，就在对应格子里放一个点。用户第一天使用的那天，可以在点外面加个圆圈做标记 [01:35 Unknown]。\n\n这样做出来的图，GitHub 贡献图本质上就是同一种东西，只是 GitHub 把天数按周环绕排列 [05:17 Unknown]。\n\n点图的价值在于让人脑自动识别模式。Dave 举了个 Spotify 的例子：画完点图后，能清楚看到一批用户只在工作日用，另一批只在周末用——这是 DAU 图表完全看不出来的差异。知道这个之后就可以追问：哪类用户更有价值？产品是不是该针对不同场景做不同设计 [04:03 Unknown]？\n\n更进一步，可以用不同符号代表不同功能。比如搜索标 S、加入播放列表标 P。如果发现某个用户加入播放列表之后，连续很多天都在活跃，就能推断播放列表功能可能是驱动高频使用的因果因素，而不只是相关 [09:11 Unknown]。\n\n除了追踪行为，还可以编码用户状态：iPhone 还是 Android、哪个国家、什么收入水平，用不同颜色或符号标注，然后按属性排序——比如只看 iOS 用户，或者只看某天刚注册的用户。当这种图铺满一整页的时候，人脑会注意到你事先根本想不到去查的模式 [05:28 Unknown]。\n\nDave 说这个思路他最早是从 Max Levchin（PayPal 创始人之一）那里听到的。PayPal 当年有欺诈问题，不知道该找什么模式，就建了一个可视化工具把所有交易画出来，让人盯着屏幕看。人类虽然说不清具体规则，但能一眼看出\"那个东西不一样，可能是欺诈\"，然后再去深挖 [06:41 Unknown]。点图的逻辑一样：先看到异常模式，再去追问原因 [07:17 Unknown]。\n\n他画了个对比：同样那批用户，DAU 图表就是一条几乎不动的小折线，告诉你\"没增长、有几个用户\"，仅此而已。但点图给了你丰富得多的理解——你能推断出用户的生活习惯、使用场景 [07:29 Unknown]。\n\n点图在早期特别好用，因为用户少，所有人所有天的行为能一屏看完。但 Dave 说它在 Google Photos 也用过，当时用户远超十亿，做法是对用户群抽样，打印出几十张点图——\"这是法国的 iOS 用户\"\"这是美国年收入超过 8 万美元的网页用户\"——团队花一整天坐在办公室看图、找结论 [09:52 Unknown]。\n\nB2B 产品同样适用。他举了最近一期 YC 里一家公司的例子：签了一个大客户，年合同 8 万美元，买了 10 个席位，后来流失了。如果当时有点图，他们会看到：10 个席位只有 3 个被激活过，而且没人每周用超过两天，使用非常零星。真实原因是当初推动采购的那个内部支持者离职了，新人一来就问\"为什么要用这个\"，然后取消了续约。点图上这些信号早就有了，但公司没看到 [10:50 Unknown]。\n\n两个常见误用：第一是选错事件，比如选\"打开应用\"或\"登录\"，这些不代表用户获得了真正价值，看着满屏点但没信息量；要选真正创造价值的行为，比如听歌、分享照片 [11:57 Unknown]。第二是时间粒度太粗，比如用\"周\"做单位，细节就被抹掉了，建议至少用天，甚至更细 [12:25 Unknown]。\n\nDave 说在用户数到几百之前，点图可以是你唯一的仪表板。技术上没什么复杂的，就是解析日志填进二维网格，现在的 AI 编码工具十来分钟能写出来 [12:41 Unknown]。他建议点图和队列留存曲线配合使用：留存曲线告诉你用户群整体是否在留住，点图告诉你他们具体怎么用、为什么留或为什么走 [13:03 Unknown]。\n\n> 【背景】Dave 指的是 Dave Morin，Bump 联合创始人，后加入 Google 负责 Google+ 等产品，这些身份信息未在转写稿中出现。YC 指 Y Combinator，全球知名的创业加速器。\n\n## 本集带走\n\n- **选一个代表价值的事件做点**：不是\"登录\"\"打开应用\"，而是\"听歌\"\"分享照片\"\"处理发票\"这类真正说明用户在用你产品核心能力的行为\n- **时间粒度至少到天**：用周做单位会抹掉使用节奏的细节，看不出问题\n- **用不同符号编码功能和状态**：搜索标 S、播放列表标 P，设备/地区/收入用颜色区分，然后按属性排序，让模式自己浮现\n- **B2B 也用点图盯席位激活**：买了 10 个席位的客户如果只有 3 个激活、使用零星，合同就有危险——别等续约时才吃惊\n- **早期用户少时，点图当唯一仪表板**：所有用户所有天的行为一屏看完，比任何汇总指标都有信息量",
+  "quotes": [
+    {
+      "en": "One of the biggest mistakes I see founders make is relying on aggregate user metrics instead of understanding how any individual users use their product.",
+      "zh": "我看到的创始人犯的最大错误之一是依赖汇总用户指标，而不是理解单个用户如何使用他们的产品。",
+      "timestamp": "00:09",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And if you have any amount of growth, those graphs tend to be going up and to the right, even if users aren't actually enjoying using your product.",
+      "zh": "如果你有一定程度的增长，那些图表往往会呈上升趋势，即使用户实际上并没有享受使用你的产品。",
+      "timestamp": "01:14",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "So I would go so far as to say until you have hundreds of users, the dot plot could be your only dashboard.",
+      "zh": "所以我想冒昧地说，在你拥有数百名用户之前，点图可能是你唯一的仪表板。",
+      "timestamp": "12:41",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:09",
+      "speaker": "Unknown",
+      "en": "One of the biggest mistakes I see founders make is relying on aggregate user metrics instead of understanding how any individual users use their product.",
+      "zh": "我看到的创始人犯的最大错误之一是依赖汇总用户指标，而不是理解单个用户如何使用他们的产品。"
+    },
+    {
+      "timestamp": "00:41",
+      "speaker": "Unknown",
+      "en": "And most founders just ignore this, but I think it's the most important signal to figure out if you've built something that people want.",
+      "zh": "大多数创始人忽略了这一点，但我认为这是弄清楚你是否构建了人们想要的东西的最重要信号。"
+    },
+    {
+      "timestamp": "01:14",
+      "speaker": "Unknown",
+      "en": "And if you have any amount of growth, those graphs tend to be going up and to the right, even if users aren't actually enjoying using your product.",
+      "zh": "如果你有一定程度的增长，那些图表往往会呈上升趋势，即使用户实际上并没有享受使用你的产品。"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Unknown",
+      "en": "That you probably would not have seen with your human brain just looking at aggregate charts or looking at individual user logs.",
+      "zh": "那些你可能仅凭人脑查看汇总图表或查看单个用户日志时看不到的模式。"
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Unknown",
+      "en": "In a way that you would never have figured out on your own a priori.",
+      "zh": "以一种你永远不会自己先验地弄明白的方式。"
+    },
+    {
+      "timestamp": "08:22",
+      "speaker": "Unknown",
+      "en": "And it really doesn't tell you all that much.",
+      "zh": "而它真的没有告诉你太多信息。"
+    },
+    {
+      "timestamp": "08:27",
+      "speaker": "Unknown",
+      "en": "Instead, looking at the dot plot, we have a much richer understanding of our users.",
+      "zh": "相反，看点图，我们对用户有了更丰富的理解。"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Unknown",
+      "en": "This is the sort of stuff that you can learn with dot plots.",
+      "zh": "这些是你通过点图可以学到的东西。"
+    },
+    {
+      "timestamp": "11:57",
+      "speaker": "Unknown",
+      "en": "The number one thing is to just chart the wrong event.",
+      "zh": "头号事情就是只是绘制错误的事件。"
+    },
+    {
+      "timestamp": "12:07",
+      "speaker": "Unknown",
+      "en": "A lot of founders might want to populate their dot plot with the easiest way to populate it so it feels good and you see a lot of dots.",
+      "zh": "许多创始人可能想用最简单的方式来填充他们的点图，这样感觉不错，你会看到很多点。"
+    },
+    {
+      "timestamp": "12:11",
+      "speaker": "Unknown",
+      "en": "Those are pretty bad events to choose because they don't really measure whether the user is getting real value.",
+      "zh": "那些是相当糟糕的事件选择，因为它们并没有真正衡量用户是否获得了真正的价值。"
+    },
+    {
+      "timestamp": "12:41",
+      "speaker": "Unknown",
+      "en": "So I would go so far as to say until you have hundreds of users, the dot plot could be your only dashboard.",
+      "zh": "所以我想冒昧地说，在你拥有数百名用户之前，点图可能是你唯一的仪表板。"
+    },
+    {
+      "timestamp": "12:52",
+      "speaker": "Unknown",
+      "en": "There's no fancy computations happening here.",
+      "zh": "这里没有发生什么花哨的计算。"
+    },
+    {
+      "timestamp": "12:59",
+      "speaker": "Unknown",
+      "en": "This is a thing that modern AI coding tools can whip up in like 10 minutes.",
+      "zh": "这是现代 AI 编码工具可以在大约 10 分钟内快速生成的东西。"
+    },
+    {
+      "timestamp": "13:16",
+      "speaker": "Unknown",
+      "en": "But the dot plot shows you how those users are actually using your product, and they give you the color to go ask the right questions of your users, to go build the right features, to fix things that are broken in your product that you would never learn by looking at aggregate metrics.",
+      "zh": "但是点图向你展示那些用户实际上是如何使用你的产品的，并且它们给你提供依据去向你的用户提问正确的问题，去构建正确的功能，去修复产品中损坏的地方，而这些是你通过看聚合指标永远学不到的。"
+    },
+    {
+      "timestamp": "13:30",
+      "speaker": "Unknown",
+      "en": "So cohort retention curves and dot plots are, in my experience, two of the most important tools that you've got to understand your users.",
+      "zh": "所以队列留存曲线和点图，根据我的经验，是你必须用来理解用户的两个最重要的工具。"
+    }
+  ]
+}

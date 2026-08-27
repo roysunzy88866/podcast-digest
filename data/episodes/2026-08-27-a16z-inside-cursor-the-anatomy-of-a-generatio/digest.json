@@ -1,0 +1,115 @@
+{
+  "title_zh": "a16z 投资人复盘 Cursor：不造模型、不做插件的突围逻辑",
+  "tldr": "a16z 三位投资人 Martin Casado、Sarah Wang 和 Matt Bornstein 回顾投资 Cursor 的全过程，拆解它如何在微软垄断下靠独立 IDE 突围。",
+  "digest_md": "这一集是 a16z 的三位投资人——Martin Casado、Sarah Wang 和 Matt Bornstein——复盘他们从 A 轮到 D 轮持续投资 Cursor 的决策过程，以及他们观察到的 Cursor 团队的做事方式。\n\n2024 年初，AI 编程领域看起来几乎没独立公司的机会。微软拥有 GitHub、VS Code、Copilot，还能拿到 OpenAI 的权重，开发者超过 1 亿。与此同时，大量创业公司走两条路：要么训练专门写代码的基础模型，要么做 VS Code 的插件。Cursor 两条路都没选——他们 fork 了 VS Code 做独立产品，不训练自己的模型，不做插件，也不碰企业销售。当时这在大多数人看来几乎是找死 [12:19 Unknown]。\n\n## 为什么不做插件、不造模型\n\nCursor 的理由非常清晰，而且自洽。不做插件：如果你真相信你的产品好，你就不会把自己塞进别人的产品里当一部分 [07:37 Unknown]。不做专属编码模型：因为你跟模型交互用的不是代码，是自然语言——这意味着一个好的编码模型本质上就是一个前沿语言模型，而那是 Anthropic 和 OpenAI 该干的事，没必要去跟他们竞争 [04:17 Unknown]。\n\n他们从最早就有一个核心判断：未来的代码看起来会像伪代码。程序员把意图用尽可能简短的自然语言描述出来，模型去实现。关键不在模型本身，而在人和模型之间的界面 [00:03 Unknown]。\n\n## 面对竞争的态度：偏执但不受干扰\n\nClaude Code 在 2025 年 5 月出来的时候，很多人觉得 Cursor 完蛋了。Sarah 问 Michael 怎么看，Michael 的回答是：我们追的是世界上最大的市场，从第一天起竞争对手就在轮换，Copilot 是第一个，Claude Code 只是其中一个。大市场里永远有强对手，这不可怕 [17:41 Unknown]。Sarah 说那种感觉是\"谦卑和自信的混合体\" [18:13 Unknown]。\n\n真正让他们紧张的不是竞争对手的产品，而是模型本身的跃升——比如 Opus 4.5 和 Mythos 预发布版出来的时候，模型好得太快，那个冲击是真实的 [18:36 Unknown]。\n\n## 两年内三次自我颠覆\n\nCursor 最早靠 Tab 补全起家，Karpathy 那篇著名的\"tab tab tab\"帖子帮他们出圈 [19:30 Unknown]。但 Tab 补全后来变得不那么重要了。他们从 IDE 转向智能体平台，再转向模型平台，两年内以类似 Reed Hastings（Netflix 创始人， famously 主动颠覆自己业务）的方式戏剧性地自我蚕食 [19:04 Unknown]。\n\n先拿用户，再补模型——这是一个有意为之的\"后门策略\"。以创纪录的速度获取所有用户之后，他们拥有了资产、数据和诀窍来构建自己的模型 [21:36 Unknown]。这条路在过程中承受了大量非议，但被证明是行得通的 [22:01 Unknown]。\n\n## 招聘和销售：用做产品的劲头做\n\nCursor 的技术创始人花 40% 的时间在招聘上 [23:56 Unknown]，这在 Sarah 看来前所未见。他们招销售的方式跟招工程师一样讲究：先研究\"在哪种销售模式下，哪些公司做得最好\"，再往下挖到具体团队，再定位到排名第一第二的个人销售（AE），然后通过层层私下背调确认这人是不是真正的超级明星 [26:11 Unknown]。他们不要只会照着剧本跑的人，早期要能应对不确定性的人 [26:38 Unknown]。结果是，他们比任何见过的公司都快地拿下了超过 50% 的财富 500 强 [25:33 Unknown]。\n\n## 做决定的纪律：说了不就不\n\n这三位投资人反复提到的一个词是\"一致性\"。Cursor 团队对\"自己是什么类型的公司\"有极大的清晰度，所有决定都从这根线上掉下来 [07:50 Unknown]。Michael 来做 A 轮推介时，90% 的时间在说\"不\"——对各种 VC 提出来的扩展方向说不 [05:35 Unknown]。营销建议、活动方案，不符合他们风格的全拒 [32:28 Unknown]。人不合适，很快做艰难决定 [32:42 Unknown]。这种\"一旦决定就贯彻到底\"的纪律，被 Martin 认为是公司未被充分讨论的最大优势 [32:50 Unknown]。\n\n## 本集带走\n\n- **不做插件，做独立产品**：如果你真相信产品本身，就不要把自己变成别人产品的一部分。插件看起来安全，但上限被锁死。\n- **不和前沿模型公司抢活干**：编码模型本质上是前沿语言模型，这不是应用层公司该碰的事。把精力放在人机界面上。\n- **先拿用户再补模型**：以最快速度获取用户，用数据和诀窍反向构建模型能力——这条路会挨骂，但行得通。\n- **招销售跟招工程师一样下功夫**：不要等简历上门。研究哪些公司在你要的销售模式上最强，挖到那个具体推动变化的人，层层背调确认。\n- **对不该做的事说\"不\"的纪律**：所有决策从一个清晰的自我定位出发，不符合的就拒，包括营销、活动、人员——一旦决定就贯彻到底。",
+  "quotes": [
+    {
+      "timestamp": "00:03",
+      "speaker": "Unknown",
+      "en": "The interface between the human and the model is the key thing.",
+      "zh": "人类与模型之间的界面是关键所在。"
+    },
+    {
+      "timestamp": "00:07",
+      "speaker": "Unknown",
+      "en": "If you looked at the competitive landscape, it was almost silly.",
+      "zh": "如果你看看竞争格局，那简直有点傻。"
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Unknown",
+      "en": "We don't need to compete with Anthropic and OpenAI on models right now.",
+      "zh": "我们现在不需要在模型上与 Anthropic 和 OpenAI 竞争。"
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Unknown",
+      "en": "Code in the future will look like pseudocode.",
+      "zh": "未来的代码看起来会像伪代码。"
+    },
+    {
+      "timestamp": "05:01",
+      "speaker": "Unknown",
+      "en": "Pairing the programmer's intent down to the minimum possible spec, that's what really sort of matters now.",
+      "zh": "将程序员的意图精简到尽可能小的规格，这才是现在真正重要的。"
+    },
+    {
+      "timestamp": "07:37",
+      "speaker": "Unknown",
+      "en": "If you really believe in the product, you would never do a plugin because then you're part of somebody else's product.",
+      "zh": "如果你真的相信这个产品，你永远不会做插件，因为那样你就成了别人产品的一部分。"
+    },
+    {
+      "timestamp": "07:50",
+      "speaker": "Unknown",
+      "en": "There's tremendous clarity on exactly what type of company they were and the decisions that they said all fell from that consistently.",
+      "zh": "对于他们到底是哪种类型的公司，有着极大的清晰度，他们做出的所有决定都始终源于此。"
+    },
+    {
+      "timestamp": "11:35",
+      "speaker": "Unknown",
+      "en": "Michael looks me dead in the eye and is like, self-serve is not petering out.",
+      "zh": "Michael 直视我的眼睛说，自助服务并没有衰退。"
+    },
+    {
+      "timestamp": "17:41",
+      "speaker": "Unknown",
+      "en": "Look, we are going after the biggest market in the world. There's going to be competitors. In fact, there's been a rotating cast of characters from the very beginning.",
+      "zh": "听着，我们要追求世界上最大的市场。会有竞争对手。事实上，从一开始就有一群角色在不断轮换。"
+    },
+    {
+      "timestamp": "18:02",
+      "speaker": "Unknown",
+      "en": "That does not scare us.",
+      "zh": "那并不吓到我们。"
+    },
+    {
+      "timestamp": "18:13",
+      "speaker": "Unknown",
+      "en": "There's humility as well, like it's humility mixed with bravado.",
+      "zh": "也有谦卑，就像是谦卑与虚张声势混合在一起。"
+    },
+    {
+      "timestamp": "18:36",
+      "speaker": "Unknown",
+      "en": "I will say they were definitely a couple of oh fuck moments, but they were always around models.",
+      "zh": "我想说确实有几个\"见鬼\"时刻，但它们总是围绕着模型。"
+    },
+    {
+      "timestamp": "19:04",
+      "speaker": "Unknown",
+      "en": "I think another thing that the Cursor team probably doesn't get the level of credit for is to the extent they cannibalized themselves so dramatically in like a Reed Hastings type way in a matter of two years.",
+      "zh": "我想还有一件事，Cursor 团队可能没有得到他们应得的赞誉程度，在于他们在两年内以 Reed Hastings 的方式戏剧性地自我蚕食。"
+    },
+    {
+      "timestamp": "21:36",
+      "speaker": "Unknown",
+      "en": "The strategy where they went and got all the users in record time, now they have the assets, the data, the know-how, et cetera, to build their own models.",
+      "zh": "他们以创纪录的时间获取所有用户的策略，现在他们拥有了资产、数据、诀窍等等，来构建自己的模型。"
+    },
+    {
+      "timestamp": "22:01",
+      "speaker": "Unknown",
+      "en": "I think seeing that kind of backdoor strategy was really inspiring and they took a lot of heat for it.",
+      "zh": "但我认为看到那种后门策略真的很有启发性，而且他们为此承受了很多非议。"
+    },
+    {
+      "timestamp": "23:56",
+      "speaker": "Unknown",
+      "en": "They also spend 40% of their time recruiting.",
+      "zh": "他们还花了 40% 的时间在招聘上。"
+    },
+    {
+      "timestamp": "25:33",
+      "speaker": "Unknown",
+      "en": "They got to over 50% of the Fortune 500 and I think faster than anyone we've ever seen.",
+      "zh": "他们做到了超过 50% 的财富 500 强，而且我认为比我们见过的任何人都要快。"
+    },
+    {
+      "timestamp": "32:50",
+      "speaker": "Unknown",
+      "en": "It's almost this kind of untalked about probably greatest strength of the company is that once they made a decision, it doesn't matter how hard that was, whether it's deciding not to enter a market, deciding to like be very limited in what they're doing, like they kind of follow through.",
+      "zh": "这几乎是公司某种未被谈论的、可能是最大的优势，就是一旦他们做出决定，无论有多难，无论是决定不进入市场，还是决定非常限制他们正在做的事情，他们都会坚持到底。"
+    }
+  ]
+}

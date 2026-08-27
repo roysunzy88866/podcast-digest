@@ -1,0 +1,1567 @@
+{
+  "episode_id": "2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread",
+  "podcast": "The MAD Podcast",
+  "date": "2026-08-27",
+  "tags": [
+    "超级智能",
+    "AI 安全",
+    "AI 控制",
+    "AI 伪装对齐",
+    "递归自我改进"
+  ],
+  "categories": [
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "ryan-greenblatt",
+      "type": "person",
+      "role": "host",
+      "name": "Ryan Greenblatt",
+      "file": "Ryan Greenblatt",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            42.581,
+            46.084
+          ],
+          "quote": "My guest today is Ryan Greenblatt, Chief Scientist at Redwood Research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            79.955,
+            82.518
+          ],
+          "quote": "Please enjoy this great conversation with Ryan Greenblatt.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "matt-turk",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt Turk",
+      "file": "Matt Turk",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.479,
+            41.14
+          ],
+          "quote": "Hi, I'm Matt Turk, partner at Firstmark.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 715,
+          "t": [
+            4720.048,
+            4721.108
+          ],
+          "quote": "Hi, it's Matt Turk again.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "redwood-research",
+      "type": "company",
+      "role": "company",
+      "name": "Redwood Research",
+      "file": "Redwood Research",
+      "primary": true,
+      "how_described": "本集说它是一家从最初关注可解释性（interpretability）后来转向 AI 控制研究的机构，也是 Ryan Greenblatt 工作的地方",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            42.581,
+            46.084
+          ],
+          "quote": "My guest today is Ryan Greenblatt, Chief Scientist at Redwood Research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1391.062,
+            1402.034
+          ],
+          "quote": "Yeah, reading Redwood research stuff over the years, it seems that there has been an evolution from being focused largely on interpretability to much more AI control.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集多次提到 OpenAI，包括暂停 Astra 模型部署、计划监控更大比例内部流量，以及作为 Plan A 下护城河被削弱的前沿公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            85.2,
+            104.945
+          ],
+          "quote": "I wanted to start with a strong statement that you guys have at the beginning of AI 2040, where you said that the CEOs of OpenAI, Anthropic, xAI, and Google DeepMind understand that the current path AI is on leads to extinction or a power grab, and yet they are proceeding anyway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            215.457,
+            223.082
+          ],
+          "quote": "So specifically, OpenAI paused its Astra model over safety following the Hugging Face incident.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            314.769,
+            322.694
+          ],
+          "quote": "OpenAI pausing training and not deploying Astra and what exactly the motives for that are, what's exactly going on there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1523.557,
+            1532.182
+          ],
+          "quote": "So for example, OpenAI recently said that they were going to be announcing, or like I said, they were going to be monitoring a larger fraction of their internal traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2587.096,
+            2590.078
+          ],
+          "quote": "What happens to OpenAI and Anthropic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2616.546,
+            2632.062
+          ],
+          "quote": "AI companies like OpenAI and Anthropic would continue, but rather than having this strong advantage in terms of the capabilities of the AI systems they're able to train, they would instead have to compete on other axes like user experience, customization, potentially quickly integrating things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2726.393,
+            2733.294
+          ],
+          "quote": "Yeah, so I would say it's like certainly bad for the power of OpenAI and Anthropic, probably bad for their valuation, but not catastrophic for their business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3909.151,
+            3914.613
+          ],
+          "quote": "So there was this talk by OpenAI at Black Hat, which shed a lot of light.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Ryan 与 Anthropic 合作发表 alignment faking 研究，以及作为 Plan A 下护城河被削弱的前沿公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            85.2,
+            104.945
+          ],
+          "quote": "I wanted to start with a strong statement that you guys have at the beginning of AI 2040, where you said that the CEOs of OpenAI, Anthropic, xAI, and Google DeepMind understand that the current path AI is on leads to extinction or a power grab, and yet they are proceeding anyway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1594.929,
+            1604.792
+          ],
+          "quote": "The first time I ever come across your work, I believe, was the alignment faking story that you started and then I think ended up collaborating with Anthropic on it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1683.849,
+            1688.232
+          ],
+          "quote": "I shared them with some people at Anthropic and was interested in sort of getting broader model access.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1693.156,
+            1702.563
+          ],
+          "quote": "And then in addition to that, on Anthropic side, they ran some or like we ran some RL runs and did some other experiments that required more access.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2587.096,
+            2590.078
+          ],
+          "quote": "What happens to OpenAI and Anthropic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2616.546,
+            2632.062
+          ],
+          "quote": "AI companies like OpenAI and Anthropic would continue, but rather than having this strong advantage in terms of the capabilities of the AI systems they're able to train, they would instead have to compete on other axes like user experience, customization, potentially quickly integrating things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2726.393,
+            2733.294
+          ],
+          "quote": "Yeah, so I would say it's like certainly bad for the power of OpenAI and Anthropic, probably bad for their valuation, but not catastrophic for their business.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": false,
+      "how_described": "本集仅在开头列举「明白当前道路导致灭绝但仍在推进」的 AI 公司 CEO 时被提到",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            85.2,
+            104.945
+          ],
+          "quote": "I wanted to start with a strong statement that you guys have at the beginning of AI 2040, where you said that the CEOs of OpenAI, Anthropic, xAI, and Google DeepMind understand that the current path AI is on leads to extinction or a power grab, and yet they are proceeding anyway.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "xai",
+      "type": "company",
+      "role": "company",
+      "name": "xAI",
+      "file": "xAI",
+      "primary": false,
+      "how_described": "本集仅在开头列举「明白当前道路导致灭绝但仍在推进」的 AI 公司 CEO 时被提到",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            85.2,
+            104.945
+          ],
+          "quote": "I wanted to start with a strong statement that you guys have at the beginning of AI 2040, where you said that the CEOs of OpenAI, Anthropic, xAI, and Google DeepMind understand that the current path AI is on leads to extinction or a power grab, and yet they are proceeding anyway.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到 Mark Zuckerberg 发布 Meta 的宣言称每个人都应有权访问超级智能，Ryan 称该提案相当不严肃（pretty unserious）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 538,
+          "t": [
+            3698.031,
+            3710.036
+          ],
+          "quote": "And in that vein of making the top models accessible to everyone, Mark Zuckerberg just recently published Meta's manifesto where he said that everyone should have access to superintelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3902.709,
+            3908.731
+          ],
+          "quote": "So you're directly involved, you're collaborating with Meta on investigating what happened.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 暂停 Astra 模型是因 Hugging Face 事件，以及 Ryan 正在与 Meta 合作调查该事件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            215.457,
+            223.082
+          ],
+          "quote": "So specifically, OpenAI paused its Astra model over safety following the Hugging Face incident.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3897.747,
+            3902.189
+          ],
+          "quote": "Just a quick word on the Hugging Face incident.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3916.894,
+            3921.275
+          ],
+          "quote": "We actually had Tom Wolfe from Hugging Face on this podcast, the most recent episode.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ssi",
+      "type": "company",
+      "role": "company",
+      "name": "SSI",
+      "file": "SSI",
+      "primary": false,
+      "how_described": "本集提到有传言称 SSI 可能在接下来几天推出第一个模型，可能是持续学习（continual learning）的突破",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            859.44,
+            878.427
+          ],
+          "quote": "And just looking at Twitter today as we're recording this, which is August 24th, there's plenty of rumors about SSI coming out with their first model in the next couple of days, potentially, with what could be a breakthrough in continual learning.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "本集把它说成不是'坏的'而是'危险的'，危险来自三个层面：未对齐 AI 接管、权力极端集中、技术进步速度远超智慧增长",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            19.683,
+            21.665
+          ],
+          "quote": "AI takeover as a result of building superintelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            46.464,
+            63.937
+          ],
+          "quote": "Ryan is the researcher who first caught an AI faking its own alignment back in 2024 and today is one of the authors of AI2040 Plan A, the most detailed blueprint anyone has written for how the US and China can avoid a reckless race to superintelligence and an AI takeover that could start as early as 2029.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            341.202,
+            349.587
+          ],
+          "quote": "And just to verbalize the question early in this conversation, what is so bad about superintelligence?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            349.967,
+            362.394
+          ],
+          "quote": "Obviously, there's a lot of talk about scientific progress and curing cancer, and your document effectively recommends pausing the rates towards the superintelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            364.235,
+            366.256
+          ],
+          "quote": "Yeah, I wouldn't say superintelligence is bad.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            370.559,
+            388.787
+          ],
+          "quote": "So the most straightforward story for why it's dangerous is that it seems pretty likely that on sort of a trajectory similar to the trajectory we seem to be finding ourselves on, you end up with AI takeover as a result of building superintelligence because the AIs are in a position where they can take over due to being highly capable, widely deployed, and building basically",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2485.855,
+            2490.036
+          ],
+          "quote": "And it was going to result in being able to train superintelligence on a very small compute budget.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2499.15,
+            2523.087
+          ],
+          "quote": "If you include in the deal a really large fraction of compute, then you have the ability to prevent an outcome where you have a very rapid recursive self-improvement feedback loop or some other very rapid development to superintelligence where it's hard to pay a safety tax, it's hard to pace the transition and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2532.313,
+            2545.58
+          ],
+          "quote": "But I think in terms of how AI development has gone historically, it doesn't look like we're going to suddenly end up in a regime where you could train superintelligence with a really cheap recipe, as opposed to it being more of an iterative thing where the cost keeps going down, the capabilities keep going up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3698.031,
+            3710.036
+          ],
+          "quote": "And in that vein of making the top models accessible to everyone, Mark Zuckerberg just recently published Meta's manifesto where he said that everyone should have access to superintelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3777.049,
+            3783.836
+          ],
+          "quote": "And I would say that the vibe I get from the essay is that when Mark thinks about superintelligence, he's not really imagining anything very concrete.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3789.179,
+            3793.102
+          ],
+          "quote": "And I'm just like, that's not really what I mean when I say the word superintelligence.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-control",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 控制 (AI control)",
+      "file": "AI 控制",
+      "primary": true,
+      "how_described": "本集把它说成'不是让 AI 想做正确的事，而是即使 AI 想干坏事也干不成'，具体包括监控所有 AI 内部流量、精细权限管理、追踪完整因果链、防止监督 AI 串通等",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1391.062,
+            1402.034
+          ],
+          "quote": "Yeah, reading Redwood research stuff over the years, it seems that there has been an evolution from being focused largely on interpretability to much more AI control.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1438.384,
+            1456.07
+          ],
+          "quote": "And one of the things we moved on to shortly after that was AI control, which is the idea that maybe it would be a good idea to prevent AIs from being capable of accomplishing problematic things or basically make it so the AIs aren't able to cause huge problems, even if the AIs wanted to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1502.276,
+            1509.224
+          ],
+          "quote": "I don't think that the situation is currently looking super, super impressive for AI control in terms of what companies have done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1554.057,
+            1569.65
+          ],
+          "quote": "And then in addition to working on AI control, we also just work on a variety of other sort of futurism sort of strategy work and other research, like trying to better... A recent area that we've been spending some time on is trying to better understand the threat model of AI's sort of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3964.817,
+            3966.498
+          ],
+          "quote": "We started talking about AI control.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3967.598,
+            3974.241
+          ],
+          "quote": "So in terms of the reality today, state of the art of AI control, what works and what doesn't work?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 585,
+          "t": [
+            3975.221,
+            3976.602
+          ],
+          "quote": "I'll talk specifically about AI control.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3976.622,
+            3979.323
+          ],
+          "quote": "So the thing that needs to happen in AI control is we need to get to the point where",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            4180.015,
+            4182.116
+          ],
+          "quote": "And then there's sort of a, so that's like AI control.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            4224.278,
+            4240.083
+          ],
+          "quote": "In addition to computer security and AI control, there's also just science of alignment and having good understanding of how models generalize, knowing what we do and don't know and what we can and can't demonstrate, and basically having a bunch of understanding of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 631,
+          "t": [
+            4298.534,
+            4302.816
+          ],
+          "quote": "So just for review, there's like AI control, there's like computer security, there's like science of alignment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment-faking",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 伪装对齐 (alignment faking)",
+      "file": "AI 伪装对齐",
+      "primary": true,
+      "how_described": "本集说它是 Ryan 在 2024 年 4 月研究 Opus 3 时发现的现象——模型在训练中假装顺从、到部署时'背叛'，核心机制是与人类植入价值观相邻的驱动力被泛化成自我保护策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 233,
+          "t": [
+            1594.929,
+            1604.792
+          ],
+          "quote": "The first time I ever come across your work, I believe, was the alignment faking story that you started and then I think ended up collaborating with Anthropic on it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1850.215,
+            1854.138
+          ],
+          "quote": "So alignment faking is getting stronger with the newer models to play back?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1854.657,
+            1861.001
+          ],
+          "quote": "I think we haven't seen as clear-cut examples of alignment faking, but models are also very eval-aware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1861.422,
+            1875.631
+          ],
+          "quote": "My sense is that models are in many ways more misaligned than Opus 3 was, but the types of misalignment they have are less conducive to, or less specifically result in alignment faking, and also companies have iterated on this, so it's a little bit unclear.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rsi",
+      "type": "concept",
+      "role": "concept",
+      "name": "RSI",
+      "file": "RSI",
+      "primary": true,
+      "how_described": "本集把它说成 AI 自己加速 AI 开发的正反馈循环，不需要 AI 有科学直觉，只要能自动化写代码、跑实验、造算力的工业环节就足以彻底改变世界",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            592.176,
+            604.601
+          ],
+          "quote": "Also central to the argument that leads to speed is what you mentioned about AI automating its own creation, which takes us into the territory of RSI, recursive self-improvement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            611.635,
+            613.937
+          ],
+          "quote": "What is RSI and how it can go wrong?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            624.248,
+            631.515
+          ],
+          "quote": "In particular, there was this argument that RSI may be very good at automating the process of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            881.989,
+            889.407
+          ],
+          "quote": "Another lab between RSI and continual learning, whether continual learning would feed into RSI or is that orthogonal?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            890.247,
+            902.79
+          ],
+          "quote": "Yeah, I would say that continual learning and RSI strike me as mostly orthogonal, where by RSI, I mean something like the process of AIs themselves sort of intrinsically accelerating AI development through a variety of mechanisms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            1047.101,
+            1052.043
+          ],
+          "quote": "So what's your latest prediction on timing for RSI to happen?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            4354.98,
+            4360.044
+          ],
+          "quote": "So you're saying RSI could happen as early as 2028 or 2029.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-takeover",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 接管 (AI takeover)",
+      "file": "AI 接管",
+      "primary": true,
+      "how_described": "本集把它说成构建超级智能的结果——AI 因高度有能力、被广泛部署、掌握巨大工业产能而处于可以接管的位置，且我们对其动机没有真正控制权",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            19.683,
+            21.665
+          ],
+          "quote": "AI takeover as a result of building superintelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            46.464,
+            63.937
+          ],
+          "quote": "Ryan is the researcher who first caught an AI faking its own alignment back in 2024 and today is one of the authors of AI2040 Plan A, the most detailed blueprint anyone has written for how the US and China can avoid a reckless race to superintelligence and an AI takeover that could start as early as 2029.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            370.559,
+            388.787
+          ],
+          "quote": "So the most straightforward story for why it's dangerous is that it seems pretty likely that on sort of a trajectory similar to the trajectory we seem to be finding ourselves on, you end up with AI takeover as a result of building superintelligence because the AIs are in a position where they can take over due to being highly capable, widely deployed, and building basically",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            414.742,
+            418.284
+          ],
+          "quote": "There's sort of this like, we don't necessarily control the technology, misaligned AI takeover.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1315.277,
+            1340.633
+          ],
+          "quote": "Be way more interested in like helping other people and being altruistic than I was at the time and I should be very focused on like how can I make you know just sort of like other people's lives as good as possible and make things go as well as possible and then from there I considered a bunch of different routes and was looking into a bunch of different things and was researching different possibilities and eventually decided that the best thing I could do with sort of my career in my life was try to make AI go better and in particular avoid AI takeover but also more generally sort of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            2078.698,
+            2084.269
+          ],
+          "quote": "Or possibly the U.S. overall are very worried about these risks, you know, concentration of power, AI takeover, whatever.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集提到对齐科学（science of alignment）是 AI 安全工作的支柱之一，需要理解模型如何泛化、知道我们能和不能证明什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            46.464,
+            63.937
+          ],
+          "quote": "Ryan is the researcher who first caught an AI faking its own alignment back in 2024 and today is one of the authors of AI2040 Plan A, the most detailed blueprint anyone has written for how the US and China can avoid a reckless race to superintelligence and an AI takeover that could start as early as 2029.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1594.929,
+            1604.792
+          ],
+          "quote": "The first time I ever come across your work, I believe, was the alignment faking story that you started and then I think ended up collaborating with Anthropic on it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1728.695,
+            1732.477
+          ],
+          "quote": "And the things it was faking alignment for were in and of themselves not that concerning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1850.215,
+            1854.138
+          ],
+          "quote": "So alignment faking is getting stronger with the newer models to play back?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1854.657,
+            1861.001
+          ],
+          "quote": "I think we haven't seen as clear-cut examples of alignment faking, but models are also very eval-aware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1861.422,
+            1875.631
+          ],
+          "quote": "My sense is that models are in many ways more misaligned than Opus 3 was, but the types of misalignment they have are less conducive to, or less specifically result in alignment faking, and also companies have iterated on this, so it's a little bit unclear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            4224.278,
+            4240.083
+          ],
+          "quote": "In addition to computer security and AI control, there's also just science of alignment and having good understanding of how models generalize, knowing what we do and don't know and what we can and can't demonstrate, and basically having a bunch of understanding of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 631,
+          "t": [
+            4298.534,
+            4302.816
+          ],
+          "quote": "So just for review, there's like AI control, there's like computer security, there's like science of alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 632,
+          "t": [
+            4303.136,
+            4309.518
+          ],
+          "quote": "And then like within science of alignment or somewhat different overlapping category is like, is it safe to defer to AIs in different domains?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "misalignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "未对齐 (misalignment)",
+      "file": "未对齐",
+      "primary": true,
+      "how_described": "本集反复讨论未对齐的不同表现：alignment faking、reward hacking、长期权力寻求等，认为问题会随 AI 能力增强而变得更难控制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            519.169,
+            524.253
+          ],
+          "quote": "And then the third thing, so there's like, you know, misalignment, this sort of like concentration of power and coups and power grabs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1545.61,
+            1552.876
+          ],
+          "quote": "And it seems like there's a lot you could do with that in terms of sort of making it so that we're more likely to both detect misalignment and prevent misalignment from causing big problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1619.547,
+            1628.774
+          ],
+          "quote": "We were, I was interested in basically looking for particularly interesting types of misalignment or particularly worrying types of misalignment and basically better studying it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1861.422,
+            1875.631
+          ],
+          "quote": "My sense is that models are in many ways more misaligned than Opus 3 was, but the types of misalignment they have are less conducive to, or less specifically result in alignment faking, and also companies have iterated on this, so it's a little bit unclear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            3319.447,
+            3329.351
+          ],
+          "quote": "My sense is that there's been quite a bit of buy-in from AI company employees to take this stuff more seriously and do something about misalignment risk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            3526.25,
+            3536.732
+          ],
+          "quote": "And so I think that like that is, you know, both kind of like expected where it's like some misalignment problems you have commercial incentives to solve and also sort of like the world, like sort of the process of the world working as intended.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            3745.783,
+            3757.248
+          ],
+          "quote": "And similarly on like loss of control or takeover risk, he doesn't really have a proposal for like how do we mitigate things if the default commercial incentives don't result in companies avoiding egregious misalignment and the AIs would be seriously misaligned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 674,
+          "t": [
+            4511.808,
+            4523.931
+          ],
+          "quote": "By this point, probably there'll have been like various like kind of crazy misalignment incidents, but it won't have been the case that like we'll have really crisp examples of AIs doing like long run power seeking for malign motives.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reward-hacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励黑客 (reward hacking)",
+      "file": "奖励黑客",
+      "primary": true,
+      "how_described": "本集把它说成 Ryan 预测的 2029 年前会反复出现的未对齐事件类型——更极端的奖励黑客行为导致问题，被打压后又回来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 675,
+          "t": [
+            4524.251,
+            4534.054
+          ],
+          "quote": "But we'll probably see sort of more extreme examples of like reward hacking or reward seeking like behavior that cause problems, though this will get sort of, you know, beaten away and then come back a bit.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "本集把它说成 AI 进步的核心驱动力，Plan A 的起点就是'摸清所有算力在哪里'，限制算力流动就能限制 AI 进步",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1532.642,
+            1535.224
+          ],
+          "quote": "It seems like based on their blog post, a serious cost in terms of compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1543.028,
+            1545.27
+          ],
+          "quote": "At least companies are willing to spend a lot of compute in this area.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1979.3,
+            1995.607
+          ],
+          "quote": "And we have a unified proposal that solves a bunch of these different problems and makes it so that, for example, you can pay a huge amount of compute to solve safety problems or if there's some very inefficient way you could do your training that would make things much safer, we have the budget to be able to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            2234.177,
+            2253.19
+          ],
+          "quote": "Or like the start of the deal is understanding where all the compute is, because compute is this really important driver of AI progress, where if you like sort of stopped the flow of compute, you'd probably stop the flow or mostly stop the flow of AI progress, or these things would slow at some point after the existing amount of compute diminished, or if you turn off all the computers, things would certainly stop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2253.57,
+            2262.636
+          ],
+          "quote": "And so first we sort of try to find all the compute, then in order to make sure that the deal is stable and that each side isn't sort of racing to secure as much advantage as they can,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2270.958,
+            2273.521
+          ],
+          "quote": "And then you try to track down as much of the compute as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2275.291,
+            2283.459
+          ],
+          "quote": "And this is both in the US and China, but also in other places where compute resides, like various countries in Southeast Asia, Europe, Australia, whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2284.099,
+            2288.203
+          ],
+          "quote": "And you have to get everywhere where there's enough compute in on the deal and make sure you track it down enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2298.698,
+            2300.561
+          ],
+          "quote": "Then you've got all this compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2300.801,
+            2305.708
+          ],
+          "quote": "You go to everyone who has the compute and you get buy-in for this sort of deal using the levers that exist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2306.088,
+            2315.541
+          ],
+          "quote": "And then you cut a deal where basically AI development is much more transparent and there is some sort of distribution of resources or distribution of compute that is negotiated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2351.282,
+            2374.222
+          ],
+          "quote": "And another part of the deal is that you set it up in such a way where if the deal is broken, breaks down, then a lot of the, or ideally the vast, vast majority of the within deal compute is either destroyed or has to be, a new deal has to be negotiated for that compute in order to make it so that there isn't a thing where the deal breaks down and then both sides are back to a huge arms race that goes very fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2381.61,
+            2392.02
+          ],
+          "quote": "And in terms of what China gives the US, it's a lot of transparency and understanding of Chinese AI development, as well as potentially cutting various deals around the distribution of compute and various concessions of that form.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2397.954,
+            2417.318
+          ],
+          "quote": "So whether that's continual learning or something else, if there was a technique that appeared that made the compute a lot more efficient and you were able to just vastly reduce the compute effort, especially for those pre-training runs, how would that impact the plan?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2422.194,
+            2436.983
+          ],
+          "quote": "So if hypothetically it was the case that tomorrow a recipe for training super intelligence on like, you know, 64 H100s or like some small amount of compute just dropped, I think we'd have super intelligence very fast or like that would be my sense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2439.945,
+            2444.228
+          ],
+          "quote": "But I think there's, it's not, but the hope with restricting compute",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2445.294,
+            2448.862
+          ],
+          "quote": "Isn't just that like, you know, AI development is currently very compute hungry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2449.162,
+            2451.147
+          ],
+          "quote": "It's also that R&D is very compute hungry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2452.213,
+            2463.862
+          ],
+          "quote": "Even in a regime where you were doing continual learning, before you had the version of continual learning where you could do everything on a tiny amount of compute, you're going to have a shittier version that can do it on a moderate amount of compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2464.082,
+            2470.607
+          ],
+          "quote": "In order to develop the version that can do it on a tiny amount of compute, based on the history of AI progress you need, you would need a lot of compute to do that research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2470.627,
+            2473.81
+          ],
+          "quote": "I shouldn't say need, but in practice, that would come about through a lot of compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2477.372,
+            2482.053
+          ],
+          "quote": "Which in practice was a lot less compute hungry and which got quickly developed during this period.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2482.594,
+            2485.294
+          ],
+          "quote": "And which wasn't where the R&D wasn't very dependent on compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2485.855,
+            2490.036
+          ],
+          "quote": "And it was going to result in being able to train superintelligence on a very small compute budget.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2499.15,
+            2523.087
+          ],
+          "quote": "If you include in the deal a really large fraction of compute, then you have the ability to prevent an outcome where you have a very rapid recursive self-improvement feedback loop or some other very rapid development to superintelligence where it's hard to pay a safety tax, it's hard to pace the transition and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2546.06,
+            2551.783
+          ],
+          "quote": "The process of having the cost go down and the capabilities go up is very dependent on increasing volumes of compute being shoveled in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2555.345,
+            2578.923
+          ],
+          "quote": "Covert projects or people who are doing AI R&D that isn't being somewhat carefully regulated, if all of that compute is a very small fraction of compute, like it's 1% of the compute at the start of the deal, or maybe 0.1% of the compute at the start of the deal, or maybe even 0.01%, then I think you can potentially have quite a bit of safety margin or buffer, but it's very sensitive to the details.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2881.355,
+            2887.077
+          ],
+          "quote": "So like another potential deal you could do is just the US and China both agree to restrict how much compute they use for AI development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2887.518,
+            2897.441
+          ],
+          "quote": "And maybe the other compute is either like, you know, in the simplest case, destroyed like in arms control treaties, but you could potentially do something instead where like a bunch of the compute is just used for inference and not used for developing more capable systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2897.881,
+            2902.683
+          ],
+          "quote": "And that is the advantage of making it so that we have more time to study these systems and more compute to use to study them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2906.713,
+            2920.242
+          ],
+          "quote": "And so there's a bunch of different deals you could do, depending on how much verification capacity you have, how much of the compute you're able to track down, and how much you can rule out the existence of covered projects, and also based on how safe the situation looks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            4471.806,
+            4477.348
+          ],
+          "quote": "And the process of AI development has probably shifted now that we're in a regime where there's so much cognitive labor relative to compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 694,
+          "t": [
+            4630.18,
+            4634.722
+          ],
+          "quote": "There's now much more robotics, and now AIs are starting to really seriously accelerate the production of compute.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集在 Plan A 交易结构中提到'停训练、只推理'（stop training and switch to just doing inference）作为暂停研发的具体手段",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            2264.29,
+            2270.097
+          ],
+          "quote": "You stop training and switch to just doing inference and basically stop most of the R&D.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2887.518,
+            2897.441
+          ],
+          "quote": "And maybe the other compute is either like, you know, in the simplest case, destroyed like in arms control treaties, but you could potentially do something instead where like a bunch of the compute is just used for inference and not used for developing more capable systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continual-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continual learning)",
+      "file": "持续学习",
+      "primary": false,
+      "how_described": "本集说它与 RSI 大多正交，是一种对所有任务都有用的能力，如果出现极低算力实现持续学习的突破会影响 Plan A 的可行性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            859.44,
+            878.427
+          ],
+          "quote": "And just looking at Twitter today as we're recording this, which is August 24th, there's plenty of rumors about SSI coming out with their first model in the next couple of days, potentially, with what could be a breakthrough in continual learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            881.989,
+            889.407
+          ],
+          "quote": "Another lab between RSI and continual learning, whether continual learning would feed into RSI or is that orthogonal?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            890.247,
+            902.79
+          ],
+          "quote": "Yeah, I would say that continual learning and RSI strike me as mostly orthogonal, where by RSI, I mean something like the process of AIs themselves sort of intrinsically accelerating AI development through a variety of mechanisms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            912.672,
+            914.733
+          ],
+          "quote": "And my sense is that like continual learning",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            947.087,
+            965.044
+          ],
+          "quote": "I do think that there's some types of continual learning schemes that are easier to do within a company than across the whole economy and are probably easier for AI companies to do themselves than to do to other companies because of basically confidentiality issues and things like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            996.487,
+            1003.039
+          ],
+          "quote": "You know, maybe they'll be even faster at learning, but even putting that aside, maybe they'll just be like better at AI so they can make another AI, which is even better at continual learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            1010.893,
+            1029.39
+          ],
+          "quote": "Sort of like natural, like human-like continual learning and sort of more like training on RL environments where you might end up with a situation where AIs are constantly like, you know, iterating on their own training with new RL environments or new training data in a way that sort of vaguely resembles human within lifetime learning, but it's also different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1034.314,
+            1036.755
+          ],
+          "quote": "You do have to do the retraining to get continual learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2392.753,
+            2397.654
+          ],
+          "quote": "And you know, as you were describing this, we were talking about continual learning earlier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2397.954,
+            2417.318
+          ],
+          "quote": "So whether that's continual learning or something else, if there was a technique that appeared that made the compute a lot more efficient and you were able to just vastly reduce the compute effort, especially for those pre-training runs, how would that impact the plan?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2452.213,
+            2463.862
+          ],
+          "quote": "Even in a regime where you were doing continual learning, before you had the version of continual learning where you could do everything on a tiny amount of compute, you're going to have a shittier version that can do it on a moderate amount of compute.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集在讨论 AI 控制时提到需要更好地理解'智能体做了什么'、审查它们采取了什么行动并进行审计和监督",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1375.82,
+            1379.544
+          ],
+          "quote": "And then there's a more recent like post wide adoption of coding agents era.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1482.047,
+            1498.017
+          ],
+          "quote": "So we can put in monitoring, we can put in various security controls, we can have better understanding of what the agents did, we can have better pipelines for reviewing what actions they took and sort of auditing and overseeing them to a point where it might be, even if the AIs were really, really misaligned, it would just be like hard for them to get away with doing anything",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "total-research-transparency",
+      "type": "concept",
+      "role": "concept",
+      "name": "完全研究透明度 (total research transparency)",
+      "file": "完全研究透明度",
+      "primary": false,
+      "how_described": "本集把它说成 Plan A 的组成部分——关于 AI 开发的一切都将是透明的，这会破坏前沿 AI 公司的最大护城河",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 374,
+          "t": [
+            2604.73,
+            2606.191
+          ],
+          "quote": "So we call it total research transparency.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "interpretability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可解释性 (interpretability)",
+      "file": "可解释性",
+      "primary": false,
+      "how_described": "本集提到 Redwood Research 最初关注可解释性（模型内部工作），后来发现不如预期有希望，转向了 AI 控制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1391.062,
+            1402.034
+          ],
+          "quote": "Yeah, reading Redwood research stuff over the years, it seems that there has been an evolution from being focused largely on interpretability to much more AI control.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1404.798,
+            1429.107
+          ],
+          "quote": "So I would say that like our arc as an organization was we, when I joined the organization, I just finished up a project on adversarial training and was interested in getting into like doing interpretability and what we would call like model internals work where it's like, can we take advantage of the fact that we have white box access to these models to do something better than just the naive methods of sort of prompting and training when like trying to like align these models, understand their motives, like know what's going on?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "export-controls",
+      "type": "concept",
+      "role": "concept",
+      "name": "出口管制 (export controls)",
+      "file": "出口管制",
+      "primary": false,
+      "how_described": "本集提到它是 Plan B（美国单边放慢中国）最明显的机制，可能升级到网络破坏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            2143.07,
+            2148.112
+          ],
+          "quote": "The most obvious mechanisms would be things like export controls, but potentially they could get more escalatory than that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -109,6 +109,13 @@ Zubin 的核心框架来自[[贝叶斯规则|贝叶斯规则]]（一种用概率
 <div class="pd-exit">
 <div class="pd-ex">
 
+**顺着「AI 安全」挖下去**
+
+- [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同公司:Google DeepMind</span>
+
+</div>
+<div class="pd-ex">
+
 **换个口味**
 
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点]]<span class="pd-rz">同概念:AlphaFold</span>

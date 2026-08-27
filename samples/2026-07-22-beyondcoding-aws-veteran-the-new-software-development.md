@@ -138,9 +138,9 @@ jsonLd: |
 
 **顺着「智能体」挖下去**
 
+- [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同概念:循环工程 (loop engineering)、智能体 (agent)、技能 (skill)</span>
 - [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|Tesla Dark Factory：95%代码无人看过就合并]]<span class="pd-rz">同概念:智能体 (agent)、形式化验证 (formal verification)</span>
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|智能体需要HR部门：TrustWise的运行时控制塔]]<span class="pd-rz">同概念:智能体 (agent)、token</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

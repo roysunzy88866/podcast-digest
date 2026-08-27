@@ -10,14 +10,14 @@ description: 黄仁勋驳斥 AI 毁灭论与中国威胁论，称半导体的短
 host: "[[Jensen Wong]]"
 cohosts: ["[[Mike Allen]]"]
 companies: ["[[NVIDIA]]", "[[OpenAI]]", "[[Anthropic]]"]
-concepts: ["[[开放模型]]", "[[封闭模型]]", "[[沙箱]]", "[[智能体]]", "[[护栏]]", "[[AI 基础设施]]", "[[半导体]]", "[[数据中心]]", "[[Nemotron]]"]
+concepts: ["[[开源模型]]", "[[封闭模型]]", "[[沙箱]]", "[[智能体]]", "[[护栏]]", "[[AI 基础设施]]", "[[半导体]]", "[[数据中心]]", "[[Nemotron]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - AI 安全
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it#post","headline":"黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it","description":"黄仁勋驳斥 AI 毁灭论与中国威胁论，称半导体的短缺恰恰证明了 AI 基础设施建设才刚开始。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jensen Wong"},{"@type":"Person","name":"Mike Allen"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"开放模型 (open models)"},{"@type":"Thing","name":"封闭模型 (closed models)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"AI 基础设施 (infrastructure)"},{"@type":"Thing","name":"半导体 (semiconductor)"},{"@type":"Thing","name":"数据中心 (data centers)"},{"@type":"Thing","name":"Nemotron"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢","item":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it#post","headline":"黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it","description":"黄仁勋驳斥 AI 毁灭论与中国威胁论，称半导体的短缺恰恰证明了 AI 基础设施建设才刚开始。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Jensen Wong"},{"@type":"Person","name":"Mike Allen"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"Anthropic"},{"@type":"Thing","name":"开源模型 (open models)"},{"@type":"Thing","name":"封闭模型 (closed models)"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"护栏 (guardrails)"},{"@type":"Thing","name":"AI 基础设施 (infrastructure)"},{"@type":"Thing","name":"半导体 (semiconductor)"},{"@type":"Thing","name":"数据中心 (data centers)"},{"@type":"Thing","name":"Nemotron"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢","item":"https://talk.solomind.cc/2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[NVIDIA]] · [[OpenAI]] · [[Anthropic]]
 >
-> **概念** [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]] · [[护栏]] · [[AI 基础设施]] · [[半导体]] · [[数据中心]] · [[Nemotron]]
+> **概念** [[开源模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]] · [[护栏]] · [[AI 基础设施]] · [[半导体]] · [[数据中心]] · [[Nemotron]]
 
 一家市值数万亿美元的公司，目前在一个大国市场的销售额约等于零——但它的 CEO 却说：「我希望双方都保持开放，绝对不应该禁用对手的 AI 模型。」说这话的人是黄仁勋，世界上最有价值的公司 [[NVIDIA|NVIDIA]] 的掌舵人。
 
@@ -43,7 +43,7 @@ jsonLd: |
 
 说完了这集访谈的几个核心方向，我们先来看引发最多争议的话题：中国 AI 的崛起，以及该不该把它挡在门外。
 
-对于美国是否应该禁止或限制中国的开源模型，黄仁勋的态度非常明确：绝对不应该 <button class="pd-ts" data-t="03:41" data-who="" data-en="Should American companies be allowed to use Chinese AI models? Absolutely. Absolutely." aria-label="回原文"></button>。在他看来，世界既需要像 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 这样好用、便利的封闭模型，也绝对离不开[[开放模型|开放模型]]。科学进步、网络安全、国家安全乃至经济安全，都需要建立在对开放模型的审查和测试之上。
+对于美国是否应该禁止或限制中国的开源模型，黄仁勋的态度非常明确：绝对不应该 <button class="pd-ts" data-t="03:41" data-who="" data-en="Should American companies be allowed to use Chinese AI models? Absolutely. Absolutely." aria-label="回原文"></button>。在他看来，世界既需要像 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 这样好用、便利的封闭模型，也绝对离不开[[开源模型|开放模型]]。科学进步、网络安全、国家安全乃至经济安全，都需要建立在对开放模型的审查和测试之上。
 
 主持人问到了一个常见的担忧：开放模型会不会有「后门」？黄仁勋用技术常识化解了这个误解——模型是下载到本地的，你可以微调它，加装[[护栏|护栏]]，把它关进安全的[[沙箱|沙箱]]里运行 <button class="pd-ts" data-t="03:42" data-who="" data-en="Absolutely. Absolutely. There's a misconception that somehow there are backdoors that is somehow connected to China in some way." aria-label="回原文"></button>。
 
@@ -114,7 +114,7 @@ jsonLd: |
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA、Anthropic、OpenAI · 同概念:Nemotron、护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Microsoft</span>
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

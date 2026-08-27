@@ -1,0 +1,3027 @@
+{
+  "episode_id": "2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor",
+  "podcast": "The Diary of a CEO",
+  "date": "2026-08-27",
+  "tags": [
+    "AI 泡沫",
+    "生成式 AI",
+    "科技行业批判",
+    "资本支出",
+    "AI 经济学"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集将其描述为年亏损 209 亿美元、靠 Amazon、Microsoft、Google 等持续输血才能存活的不盈利公司，其 AI 收入占行业 70% 但来自补贴需求，计划上市但被推迟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            49.146,
+            51.628
+          ],
+          "quote": "OpenAI lost $20.9 billion last year.",
+          "speaker": ""
+        },
+        {
+          "seg": 69,
+          "t": [
+            250.105,
+            253.088
+          ],
+          "quote": "Anthropic, Amazon, NVIDIA, Microsoft, OpenAI, Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 73,
+          "t": [
+            264.674,
+            277.238
+          ],
+          "quote": "Right now, 70% of all AI revenues across those three companies are from OpenAI and Anthropic, two unprofitable, unsustainable companies that literally cannot afford to exist without these very same companies giving them money.",
+          "speaker": ""
+        },
+        {
+          "seg": 74,
+          "t": [
+            277.618,
+            281.14
+          ],
+          "quote": "Amazon sent $50 billion to OpenAI this year.",
+          "speaker": ""
+        },
+        {
+          "seg": 77,
+          "t": [
+            286.221,
+            300.322
+          ],
+          "quote": "And in the next three and a half years, OpenAI and Anthropic, based on actual sell-side analyst evaluations, their estimates, that inform whether stock is going to go up or down after earnings, they are expecting $400 or more billion of revenue.",
+          "speaker": ""
+        },
+        {
+          "seg": 110,
+          "t": [
+            402.64,
+            408.064
+          ],
+          "quote": "So an example, OpenAI and Oracle are building a data center in Texas, in Abilene, Texas.",
+          "speaker": ""
+        },
+        {
+          "seg": 123,
+          "t": [
+            455.58,
+            461.546
+          ],
+          "quote": "To make tens of billions of dollars, most of which comes from two unprofitable companies, Anthropic and OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 124,
+          "t": [
+            462.327,
+            470.073
+          ],
+          "quote": "One of the rebuttals to that would be that the adoption, the customer adoption of people using OpenAI and Anthropic has been absolutely insane.",
+          "speaker": ""
+        },
+        {
+          "seg": 216,
+          "t": [
+            850.06,
+            857.362
+          ],
+          "quote": "I could be costing Anthropic or OpenAI $1,000, but they're only charging me $100, let's say.",
+          "speaker": ""
+        },
+        {
+          "seg": 262,
+          "t": [
+            1019.568,
+            1023.971
+          ],
+          "quote": "They should have stopped in 2024 when OpenAI lost over $5 billion.",
+          "speaker": ""
+        },
+        {
+          "seg": 282,
+          "t": [
+            1085.651,
+            1088.132
+          ],
+          "quote": "$24.1 billion of that was from OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 789,
+          "t": [
+            2775.591,
+            2779.593
+          ],
+          "quote": "And Christ almighty, outside of OpenAI and Anthropic, we barely get $22 billion.",
+          "speaker": ""
+        },
+        {
+          "seg": 791,
+          "t": [
+            2783.296,
+            2791.281
+          ],
+          "quote": "It's not a large amount of money when you spent a trillion plus dollars, when you have Anthropic and OpenAI with $1.1 trillion worth of cloud commitments.",
+          "speaker": ""
+        },
+        {
+          "seg": 804,
+          "t": [
+            2831.991,
+            2836.494
+          ],
+          "quote": "They don't just say, yeah, we worked with OpenAI and Anthropic and we found it reduced their cost by 50%.",
+          "speaker": ""
+        },
+        {
+          "seg": 1096,
+          "t": [
+            3951.457,
+            3959.74
+          ],
+          "quote": "OpenAI had a study that came out, I think, like a week ago, that said there was no connection between spending on AI tokens and revenue per employee.",
+          "speaker": ""
+        },
+        {
+          "seg": 1156,
+          "t": [
+            4170.001,
+            4175.726
+          ],
+          "quote": "And OpenAI in particular, in particular Mr. Altman, they have been fomenting this.",
+          "speaker": ""
+        },
+        {
+          "seg": 1157,
+          "t": [
+            4175.766,
+            4180.21
+          ],
+          "quote": "They're Tibo as well, the TIBO, one of the guys at OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1208,
+          "t": [
+            4340.295,
+            4343.117
+          ],
+          "quote": "I don't think OpenAI's PR people are super fond of me.",
+          "speaker": ""
+        },
+        {
+          "seg": 1609,
+          "t": [
+            5640.884,
+            5649.134
+          ],
+          "quote": "You'll notice that outside of OpenAI and Anthropic, when you remove the coding startups, there's basically no successful AI startup company.",
+          "speaker": ""
+        },
+        {
+          "seg": 1664,
+          "t": [
+            5790.807,
+            5792.389
+          ],
+          "quote": "OpenAI has shut down Sora.",
+          "speaker": ""
+        },
+        {
+          "seg": 1716,
+          "t": [
+            5953.183,
+            5956.005
+          ],
+          "quote": "Broadcoms building stuff with OpenAI, their jalapeno chip.",
+          "speaker": ""
+        },
+        {
+          "seg": 1874,
+          "t": [
+            6480.068,
+            6487.878
+          ],
+          "quote": "And indeed, in the next three and a half years, analysts think that these two bastards, these two, OpenAI and Anthropic, are going to spend over $400 billion on these people alone.",
+          "speaker": ""
+        },
+        {
+          "seg": 1900,
+          "t": [
+            6571.651,
+            6578.055
+          ],
+          "quote": "The majority of the funding that OpenAI got in the last six months came from SoftBank, NVIDIA, and Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 1948,
+          "t": [
+            6769.171,
+            6774.974
+          ],
+          "quote": "And when I say the money needs to keep flowing, I am talking these two companies, OpenAI, just OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 2094,
+          "t": [
+            7220.527,
+            7222.308
+          ],
+          "quote": "OpenAI's GPT 3.5.",
+          "speaker": ""
+        },
+        {
+          "seg": 2097,
+          "t": [
+            7226.149,
+            7233.832
+          ],
+          "quote": "In their system card, and a bunch of media outlets cover this, saying that OpenAI's model blackmailed a TaskRabbit into solving a capture.",
+          "speaker": ""
+        },
+        {
+          "seg": 2162,
+          "t": [
+            7432.356,
+            7436.977
+          ],
+          "quote": "The reason I don't like Dario is Dario was doing the scare tactics thing when he worked at OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 2182,
+          "t": [
+            7481.18,
+            7483.702
+          ],
+          "quote": "Well, I guess OpenAI cycles through this really quickly.",
+          "speaker": ""
+        },
+        {
+          "seg": 2191,
+          "t": [
+            7512.448,
+            7515.569
+          ],
+          "quote": "I think OpenAI and Anthropic are basically the same level of bad company.",
+          "speaker": ""
+        },
+        {
+          "seg": 2194,
+          "t": [
+            7530.454,
+            7535.056
+          ],
+          "quote": "But then again, maybe the people at Anthropic buy their shit, maybe some of the people at OpenAI buy their shit, I don't know.",
+          "speaker": ""
+        },
+        {
+          "seg": 2259,
+          "t": [
+            7750.005,
+            7752.547
+          ],
+          "quote": "OpenAI up until this point has been a private company.",
+          "speaker": ""
+        },
+        {
+          "seg": 2265,
+          "t": [
+            7773.649,
+            7775.572
+          ],
+          "quote": "One, OpenAI needs perpetual amounts of money.",
+          "speaker": ""
+        },
+        {
+          "seg": 2280,
+          "t": [
+            7806.056,
+            7812.199
+          ],
+          "quote": "Now, OpenAI is the kind of catastrophe center here because Anthropic is likely going to beat it to go public.",
+          "speaker": ""
+        },
+        {
+          "seg": 2281,
+          "t": [
+            7812.279,
+            7822.043
+          ],
+          "quote": "And once Anthropic goes public, it'll be borderline impossible for OpenAI to do so because Anthropic, an unprofitable, unsustainable AI lab, but a better business that's growing faster than OpenAI's.",
+          "speaker": ""
+        },
+        {
+          "seg": 2286,
+          "t": [
+            7834.915,
+            7837.278
+          ],
+          "quote": "So you think OpenAI runs out of steam in 2027?",
+          "speaker": ""
+        },
+        {
+          "seg": 2302,
+          "t": [
+            7872.957,
+            7874.678
+          ],
+          "quote": "Now, I think OpenAI collapses.",
+          "speaker": ""
+        },
+        {
+          "seg": 2305,
+          "t": [
+            7878.84,
+            7884.144
+          ],
+          "quote": "But the crucial thing is that there are multiple companies that are existentially tied to OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 2307,
+          "t": [
+            7891.948,
+            7894.209
+          ],
+          "quote": "about $100 billion worth of OpenAI stock.",
+          "speaker": ""
+        },
+        {
+          "seg": 2310,
+          "t": [
+            7913.141,
+            7915.942
+          ],
+          "quote": "If OpenAI can't go public, SoftBank can't do that.",
+          "speaker": ""
+        },
+        {
+          "seg": 2368,
+          "t": [
+            8143.024,
+            8145.145
+          ],
+          "quote": "You can theoretically bail out OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 2371,
+          "t": [
+            8151.268,
+            8153.81
+          ],
+          "quote": "They have, between these two companies, Anthropic and OpenAI, a lot of companies.",
+          "speaker": ""
+        },
+        {
+          "seg": 2373,
+          "t": [
+            8157.664,
+            8158.525
+          ],
+          "quote": "Just OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 2374,
+          "t": [
+            8159.246,
+            8165.19
+          ],
+          "quote": "Oracle is building 7.1 gigawatts of data centers, so over $400 billion worth just for OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 2376,
+          "t": [
+            8170.655,
+            8172.656
+          ],
+          "quote": "Without OpenAI, Oracle dies.",
+          "speaker": ""
+        },
+        {
+          "seg": 2377,
+          "t": [
+            8172.776,
+            8181.483
+          ],
+          "quote": "So you think OpenAI is going to crash and run out of money, and that's going to cause this domino effect across these other big tech companies, which is going to impact the stock market and impact the broader economy?",
+          "speaker": ""
+        },
+        {
+          "seg": 2419,
+          "t": [
+            8325.426,
+            8326.846
+          ],
+          "quote": "Should they invest in OpenAI?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集将其与 OpenAI 并列为两家不盈利、不可持续的 AI 公司，70% 的 AI 收入来自它们，靠三家大公司投钱买算力维持，被视为'败家子'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            250.105,
+            253.088
+          ],
+          "quote": "Anthropic, Amazon, NVIDIA, Microsoft, OpenAI, Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 73,
+          "t": [
+            264.674,
+            277.238
+          ],
+          "quote": "Right now, 70% of all AI revenues across those three companies are from OpenAI and Anthropic, two unprofitable, unsustainable companies that literally cannot afford to exist without these very same companies giving them money.",
+          "speaker": ""
+        },
+        {
+          "seg": 75,
+          "t": [
+            281.44,
+            283.3
+          ],
+          "quote": "They sent $5 billion to Anthropic.",
+          "speaker": ""
+        },
+        {
+          "seg": 76,
+          "t": [
+            283.6,
+            285.681
+          ],
+          "quote": "Google sent $10 billion to Anthropic.",
+          "speaker": ""
+        },
+        {
+          "seg": 77,
+          "t": [
+            286.221,
+            300.322
+          ],
+          "quote": "And in the next three and a half years, OpenAI and Anthropic, based on actual sell-side analyst evaluations, their estimates, that inform whether stock is going to go up or down after earnings, they are expecting $400 or more billion of revenue.",
+          "speaker": ""
+        },
+        {
+          "seg": 92,
+          "t": [
+            346.108,
+            349.309
+          ],
+          "quote": "These are public companies, or at least the ones that aren't anthropic and open AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 97,
+          "t": [
+            357.436,
+            360.459
+          ],
+          "quote": "AI tools, Gemini, Anthropic, ChatGPT, etc.",
+          "speaker": ""
+        },
+        {
+          "seg": 123,
+          "t": [
+            455.58,
+            461.546
+          ],
+          "quote": "To make tens of billions of dollars, most of which comes from two unprofitable companies, Anthropic and OpenAI.",
+          "speaker": ""
+        },
+        {
+          "seg": 124,
+          "t": [
+            462.327,
+            470.073
+          ],
+          "quote": "One of the rebuttals to that would be that the adoption, the customer adoption of people using OpenAI and Anthropic has been absolutely insane.",
+          "speaker": ""
+        },
+        {
+          "seg": 161,
+          "t": [
+            614.779,
+            622.804
+          ],
+          "quote": "And I'd say in our company, 95% of people use one of these AI tools like Anthropic or ChatGPT or Gemini every day.",
+          "speaker": ""
+        },
+        {
+          "seg": 216,
+          "t": [
+            850.06,
+            857.362
+          ],
+          "quote": "I could be costing Anthropic or OpenAI $1,000, but they're only charging me $100, let's say.",
+          "speaker": ""
+        },
+        {
+          "seg": 789,
+          "t": [
+            2775.591,
+            2779.593
+          ],
+          "quote": "And Christ almighty, outside of OpenAI and Anthropic, we barely get $22 billion.",
+          "speaker": ""
+        },
+        {
+          "seg": 791,
+          "t": [
+            2783.296,
+            2791.281
+          ],
+          "quote": "It's not a large amount of money when you spent a trillion plus dollars, when you have Anthropic and OpenAI with $1.1 trillion worth of cloud commitments.",
+          "speaker": ""
+        },
+        {
+          "seg": 804,
+          "t": [
+            2831.991,
+            2836.494
+          ],
+          "quote": "They don't just say, yeah, we worked with OpenAI and Anthropic and we found it reduced their cost by 50%.",
+          "speaker": ""
+        },
+        {
+          "seg": 836,
+          "t": [
+            2952.6,
+            2962.065
+          ],
+          "quote": "When most of the demand is coming from Amazon feeding money to open AI or Anthropic, Microsoft feeding money to open AI and Anthropic, Google feeding money to open AI and Anthropic.",
+          "speaker": ""
+        },
+        {
+          "seg": 1154,
+          "t": [
+            4138.536,
+            4167.219
+          ],
+          "quote": "dare to criticize anthropic it's almost this religious attachment good example was this week bloomberg reported that open ai was on track to hit 40 billion dollars in annualized revenue month times 12 four weeks times 13 we don't know they don't define it i saw multiple people and i going actually it's 60 billion it's actually 60 billion i heard from someone it is like a cult and it's a cult of software driven around growth and this idea that by backing the right horse you",
+          "speaker": ""
+        },
+        {
+          "seg": 1515,
+          "t": [
+            5330.883,
+            5337.367
+          ],
+          "quote": "If you use ChatGPT or Anthropic, you know, Claude, to make your LinkedIn posts, let's say, they will be shit LinkedIn posts.",
+          "speaker": ""
+        },
+        {
+          "seg": 1609,
+          "t": [
+            5640.884,
+            5649.134
+          ],
+          "quote": "You'll notice that outside of OpenAI and Anthropic, when you remove the coding startups, there's basically no successful AI startup company.",
+          "speaker": ""
+        },
+        {
+          "seg": 1874,
+          "t": [
+            6480.068,
+            6487.878
+          ],
+          "quote": "And indeed, in the next three and a half years, analysts think that these two bastards, these two, OpenAI and Anthropic, are going to spend over $400 billion on these people alone.",
+          "speaker": ""
+        },
+        {
+          "seg": 2092,
+          "t": [
+            7218.046,
+            7218.646
+          ],
+          "quote": "Anthropic.",
+          "speaker": ""
+        },
+        {
+          "seg": 2106,
+          "t": [
+            7265.991,
+            7268.413
+          ],
+          "quote": "Then there was this other one where Anthropic said, oh, yeah...",
+          "speaker": ""
+        },
+        {
+          "seg": 2108,
+          "t": [
+            7276.582,
+            7282.128
+          ],
+          "quote": "What actually happened was Anthropic explicitly trained a model to do this and then prompted it to blackmail.",
+          "speaker": ""
+        },
+        {
+          "seg": 2191,
+          "t": [
+            7512.448,
+            7515.569
+          ],
+          "quote": "I think OpenAI and Anthropic are basically the same level of bad company.",
+          "speaker": ""
+        },
+        {
+          "seg": 2192,
+          "t": [
+            7515.829,
+            7518.09
+          ],
+          "quote": "I think Anthropic is more cult-like.",
+          "speaker": ""
+        },
+        {
+          "seg": 2194,
+          "t": [
+            7530.454,
+            7535.056
+          ],
+          "quote": "But then again, maybe the people at Anthropic buy their shit, maybe some of the people at OpenAI buy their shit, I don't know.",
+          "speaker": ""
+        },
+        {
+          "seg": 2280,
+          "t": [
+            7806.056,
+            7812.199
+          ],
+          "quote": "Now, OpenAI is the kind of catastrophe center here because Anthropic is likely going to beat it to go public.",
+          "speaker": ""
+        },
+        {
+          "seg": 2281,
+          "t": [
+            7812.279,
+            7822.043
+          ],
+          "quote": "And once Anthropic goes public, it'll be borderline impossible for OpenAI to do so because Anthropic, an unprofitable, unsustainable AI lab, but a better business that's growing faster than OpenAI's.",
+          "speaker": ""
+        },
+        {
+          "seg": 2298,
+          "t": [
+            7863.899,
+            7867.742
+          ],
+          "quote": "And maybe they try, if they bum rush to go public, they're going to have worse economics than an anthropic.",
+          "speaker": ""
+        },
+        {
+          "seg": 2371,
+          "t": [
+            8151.268,
+            8153.81
+          ],
+          "quote": "They have, between these two companies, Anthropic and OpenAI, a lot of companies.",
+          "speaker": ""
+        },
+        {
+          "seg": 2390,
+          "t": [
+            8227.693,
+            8231.977
+          ],
+          "quote": "And paper gains, I mean, just being able to say, oh, look, the valuation of Anthropic went up.",
+          "speaker": ""
+        },
+        {
+          "seg": 2392,
+          "t": [
+            8234.018,
+            8244.066
+          ],
+          "quote": "Google's last quarter, they boosted their net profits, profits on paper, by $99 billion because of the increased value of their SpaceX holding and their Anthropic holding.",
+          "speaker": ""
+        },
+        {
+          "seg": 2397,
+          "t": [
+            8261.854,
+            8271.68
+          ],
+          "quote": "Because right now they're all like, yeah, all the speculative gains are awesome, the paper gains are awesome, the theoreticals of Anthropic being worth $2 trillion, wow, the articles we can write, the promises we can make.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说它上一财年卖了约 2159 亿美元的 GPU，是循环融资的核心——卖 GPU 给云厂商，云厂商把钱投给 OpenAI/Anthropic，后者再拿钱向云厂商买算力；预测其收入可能跌 50% 到 70%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            250.105,
+            253.088
+          ],
+          "quote": "Anthropic, Amazon, NVIDIA, Microsoft, OpenAI, Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 112,
+          "t": [
+            411.186,
+            417.014
+          ],
+          "quote": "Within that, with each one of the eight buildings, there'll be 50,000 NVIDIA GB200 GPUs.",
+          "speaker": ""
+        },
+        {
+          "seg": 267,
+          "t": [
+            1032.997,
+            1035.018
+          ],
+          "quote": "It helped NVIDIA pump, Microsoft, everyone.",
+          "speaker": ""
+        },
+        {
+          "seg": 291,
+          "t": [
+            1122.039,
+            1122.719
+          ],
+          "quote": "NVIDIA has...",
+          "speaker": ""
+        },
+        {
+          "seg": 293,
+          "t": [
+            1129.906,
+            1142.897
+          ],
+          "quote": "And you try and go, yeah, that's the support, like $22 billion of revenue total in the entire world outside of these two companies that literally require money being fed into them, sometimes by NVIDIA to keep alive.",
+          "speaker": ""
+        },
+        {
+          "seg": 333,
+          "t": [
+            1293.581,
+            1294.482
+          ],
+          "quote": "So, NVIDIA.",
+          "speaker": ""
+        },
+        {
+          "seg": 334,
+          "t": [
+            1295.162,
+            1303.406
+          ],
+          "quote": "NVIDIA invented, I think it was in the 2000s, they put out something called CUDA, which is the underlying software library and the way to run software on GPUs.",
+          "speaker": ""
+        },
+        {
+          "seg": 339,
+          "t": [
+            1324.879,
+            1327.201
+          ],
+          "quote": "And NVIDIA, for anyone that doesn't know, makes the chips.",
+          "speaker": ""
+        },
+        {
+          "seg": 387,
+          "t": [
+            1480.607,
+            1489.452
+          ],
+          "quote": "So when you do a Bloomberg inquiry to look up what we think NVIDIA's revenue is going to be next quarter, it runs something called BQL, which is its own programming language.",
+          "speaker": ""
+        },
+        {
+          "seg": 797,
+          "t": [
+            2809.174,
+            2812.096
+          ],
+          "quote": "But we already have Broadcom, NVIDIA, Etched.",
+          "speaker": ""
+        },
+        {
+          "seg": 801,
+          "t": [
+            2822.163,
+            2828.928
+          ],
+          "quote": "Even NVIDIA with Vera Rubin, their more expensive new GPU system, even then they're like, yeah, 10x more efficient.",
+          "speaker": ""
+        },
+        {
+          "seg": 865,
+          "t": [
+            3082.967,
+            3097.115
+          ],
+          "quote": "Because everyone saw Google, Microsoft, Amazon, and Meta give NVIDIA over, call it 800-something billion dollars, because everyone saw that, they went, well, they wouldn't do that for no reason.",
+          "speaker": ""
+        },
+        {
+          "seg": 1321,
+          "t": [
+            4669.276,
+            4676.958
+          ],
+          "quote": "Pretty much all of the economics is either NVIDIA feeding money to companies like CoreWeave or these three companies feeding money to these ones to spend it with them.",
+          "speaker": ""
+        },
+        {
+          "seg": 1345,
+          "t": [
+            4750.815,
+            4753.856
+          ],
+          "quote": "Without the NVIDIA GPUs, by the way, they've got Blackwell GPUs.",
+          "speaker": ""
+        },
+        {
+          "seg": 1348,
+          "t": [
+            4757.818,
+            4761.899
+          ],
+          "quote": "It's like, China's already had NVIDIA GPUs that they're not meant to have for years.",
+          "speaker": ""
+        },
+        {
+          "seg": 1549,
+          "t": [
+            5407.01,
+            5413.158
+          ],
+          "quote": "With Bloomberg Terminal, I use Ask B, which is just when it's like requesting the consensus analyst estimates for NVIDIA.",
+          "speaker": ""
+        },
+        {
+          "seg": 1884,
+          "t": [
+            6504.756,
+            6508
+          ],
+          "quote": "They got, when they bought these goddamn GPUs from NVIDIA,",
+          "speaker": ""
+        },
+        {
+          "seg": 1895,
+          "t": [
+            6552.961,
+            6560.264
+          ],
+          "quote": "The only way that that can happen is if these companies and venture capitalists and private credit firms and NVIDIA keep circulating money to them.",
+          "speaker": ""
+        },
+        {
+          "seg": 1900,
+          "t": [
+            6571.651,
+            6578.055
+          ],
+          "quote": "The majority of the funding that OpenAI got in the last six months came from SoftBank, NVIDIA, and Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 2069,
+          "t": [
+            7148.4,
+            7152.343
+          ],
+          "quote": "NVIDIA, one of their first investors, in 2023 signed a $1.3 billion contract.",
+          "speaker": ""
+        },
+        {
+          "seg": 2293,
+          "t": [
+            7847.928,
+            7850.13
+          ],
+          "quote": "I think maybe NVIDIA props them up a little.",
+          "speaker": ""
+        },
+        {
+          "seg": 2338,
+          "t": [
+            8000.738,
+            8004.219
+          ],
+          "quote": "NVIDIA is the largest company on the Fortune 500 and NASDAQ as well.",
+          "speaker": ""
+        },
+        {
+          "seg": 2340,
+          "t": [
+            8008.402,
+            8017.387
+          ],
+          "quote": "That company, when the bottom falls out from NVIDIA, and we haven't really got into it, but NVIDIA is doing the most circular of financing, feeding companies money so that they can raise debt to buy more GPUs.",
+          "speaker": ""
+        },
+        {
+          "seg": 2341,
+          "t": [
+            8018.248,
+            8021.289
+          ],
+          "quote": "I think NVIDIA's revenue could go 50% to 70% now.",
+          "speaker": ""
+        },
+        {
+          "seg": 2342,
+          "t": [
+            8021.509,
+            8025.492
+          ],
+          "quote": "I think that NVIDIA could, NVIDIA back in 2022 was making single digit billion dollars.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "coreweave",
+      "type": "company",
+      "role": "company",
+      "name": "CoreWeave",
+      "file": "CoreWeave",
+      "primary": false,
+      "how_described": "本集将其作为 NeoCloud（建数据中心出租 GPU 的公司）的例子，说 NVIDIA 先签 13 亿美元回租合同当'客户证明'，帮它从银行拿到钱，而普通小企业贷款却被扒一层皮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1321,
+          "t": [
+            4669.276,
+            4676.958
+          ],
+          "quote": "Pretty much all of the economics is either NVIDIA feeding money to companies like CoreWeave or these three companies feeding money to these ones to spend it with them.",
+          "speaker": ""
+        },
+        {
+          "seg": 2067,
+          "t": [
+            7141.834,
+            7142.875
+          ],
+          "quote": "CoreWeave is a great example.",
+          "speaker": ""
+        },
+        {
+          "seg": 2070,
+          "t": [
+            7155.246,
+            7160.148
+          ],
+          "quote": "to rent back their GPUs from CoreWeave so that CoreWeave go to a bank and go, I've got a customer.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集提到 Amazon Web Services 因 AI 编码工具宕机两三次，且 Amazon 给 OpenAI 投了 350 亿美元、给 Anthropic 投了 50 亿，是循环融资中的一环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            250.105,
+            253.088
+          ],
+          "quote": "Anthropic, Amazon, NVIDIA, Microsoft, OpenAI, Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 74,
+          "t": [
+            277.618,
+            281.14
+          ],
+          "quote": "Amazon sent $50 billion to OpenAI this year.",
+          "speaker": ""
+        },
+        {
+          "seg": 133,
+          "t": [
+            509.772,
+            514.673
+          ],
+          "quote": "When you use Amazon, whatever Rufus AI is, has opinions on what socks you're buying.",
+          "speaker": ""
+        },
+        {
+          "seg": 269,
+          "t": [
+            1037.3,
+            1040.442
+          ],
+          "quote": "Because here's the funny thing about Google, Microsoft, and Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 275,
+          "t": [
+            1058.273,
+            1060.595
+          ],
+          "quote": "Amazon bumped up prices and changed how they did.",
+          "speaker": ""
+        },
+        {
+          "seg": 276,
+          "t": [
+            1060.635,
+            1064.097
+          ],
+          "quote": "Actually, Amazon started a remarkable ad business during this whole time as well.",
+          "speaker": ""
+        },
+        {
+          "seg": 277,
+          "t": [
+            1064.397,
+            1065.678
+          ],
+          "quote": "And they're selling through Amazon platform.",
+          "speaker": ""
+        },
+        {
+          "seg": 372,
+          "t": [
+            1412.914,
+            1420.356
+          ],
+          "quote": "I would say the standard of software across Google, Microsoft, Amazon, Meta, especially God, Meta's a monstrosity, is worse.",
+          "speaker": ""
+        },
+        {
+          "seg": 393,
+          "t": [
+            1501.814,
+            1509.416
+          ],
+          "quote": "I'm going to look up the growth rate of stocks of Microsoft, Google, Meta, and Amazon over the course of five years, I think it was.",
+          "speaker": ""
+        },
+        {
+          "seg": 609,
+          "t": [
+            2177.807,
+            2179.247
+          ],
+          "quote": "Amazon Web Services, same deal.",
+          "speaker": ""
+        },
+        {
+          "seg": 836,
+          "t": [
+            2952.6,
+            2962.065
+          ],
+          "quote": "When most of the demand is coming from Amazon feeding money to open AI or Anthropic, Microsoft feeding money to open AI and Anthropic, Google feeding money to open AI and Anthropic.",
+          "speaker": ""
+        },
+        {
+          "seg": 865,
+          "t": [
+            3082.967,
+            3097.115
+          ],
+          "quote": "Because everyone saw Google, Microsoft, Amazon, and Meta give NVIDIA over, call it 800-something billion dollars, because everyone saw that, they went, well, they wouldn't do that for no reason.",
+          "speaker": ""
+        },
+        {
+          "seg": 885,
+          "t": [
+            3164.141,
+            3168.603
+          ],
+          "quote": "Amazon Web Services went down multiple times because of their AI coding tool.",
+          "speaker": ""
+        },
+        {
+          "seg": 936,
+          "t": [
+            3343.866,
+            3344.806
+          ],
+          "quote": "It's the same with Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 941,
+          "t": [
+            3352.031,
+            3357.094
+          ],
+          "quote": "Amazon Web Services went down, I think, two or three times this year because of AI tools.",
+          "speaker": ""
+        },
+        {
+          "seg": 1876,
+          "t": [
+            6489.079,
+            6490.08
+          ],
+          "quote": "Google and Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 1900,
+          "t": [
+            6571.651,
+            6578.055
+          ],
+          "quote": "The majority of the funding that OpenAI got in the last six months came from SoftBank, NVIDIA, and Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 1911,
+          "t": [
+            6605.992,
+            6611.155
+          ],
+          "quote": "Amazon Web Services between 2003 and 2015, when it became profitable, $29.7 billion.",
+          "speaker": ""
+        },
+        {
+          "seg": 1914,
+          "t": [
+            6614.136,
+            6615.937
+          ],
+          "quote": "And that's not just Amazon Web Services.",
+          "speaker": ""
+        },
+        {
+          "seg": 1919,
+          "t": [
+            6626.215,
+            6639.384
+          ],
+          "quote": "completely just magnitudes different on a level where these three come... Can I argue then that that's because the potential of intelligence permeates everything, whereas Amazon at the time was like selling books.",
+          "speaker": ""
+        },
+        {
+          "seg": 1922,
+          "t": [
+            6642.145,
+            6644.867
+          ],
+          "quote": "When Amazon Web Services grew, it was... Oh, Amazon Web Services.",
+          "speaker": ""
+        },
+        {
+          "seg": 1923,
+          "t": [
+            6644.887,
+            6645.788
+          ],
+          "quote": "Amazon Web Services.",
+          "speaker": ""
+        },
+        {
+          "seg": 1924,
+          "t": [
+            6645.928,
+            6646.468
+          ],
+          "quote": "Amazon Cloud.",
+          "speaker": ""
+        },
+        {
+          "seg": 1925,
+          "t": [
+            6646.668,
+            6650.891
+          ],
+          "quote": "With Amazon Web Services, the reason I bring that up, I'm going to repeat something, but it's really important.",
+          "speaker": ""
+        },
+        {
+          "seg": 1928,
+          "t": [
+            6652.132,
+            6657.756
+          ],
+          "quote": "And it was founded mostly because Amazon, as a growing online store, needed hardcore infrastructure.",
+          "speaker": ""
+        },
+        {
+          "seg": 1935,
+          "t": [
+            6676.49,
+            6678.693
+          ],
+          "quote": "Amazon didn't have to go into the...",
+          "speaker": ""
+        },
+        {
+          "seg": 1939,
+          "t": [
+            6689.166,
+            6690.227
+          ],
+          "quote": "Amazon, cash flow negative.",
+          "speaker": ""
+        },
+        {
+          "seg": 1973,
+          "t": [
+            6869.489,
+            6873.109
+          ],
+          "quote": "There's never any guarantee, but there's a reason that Google and Amazon are cash flow negative now.",
+          "speaker": ""
+        },
+        {
+          "seg": 1980,
+          "t": [
+            6905.217,
+            6912.72
+          ],
+          "quote": "And you go down, you go through this, you know, Andy Jassy, CEO of Amazon, we're not investing approximately 200 billion in CapEx in 2026 on a hunch.",
+          "speaker": ""
+        },
+        {
+          "seg": 2211,
+          "t": [
+            7600.105,
+            7601.066
+          ],
+          "quote": "Amazon would sound insane.",
+          "speaker": ""
+        },
+        {
+          "seg": 2278,
+          "t": [
+            7798.207,
+            7803.25
+          ],
+          "quote": "Amazon sent them $35 billion that was meant to be contingent on them going public early.",
+          "speaker": ""
+        },
+        {
+          "seg": 2313,
+          "t": [
+            7922.288,
+            7927.133
+          ],
+          "quote": "We will also see Amazon, Google and Microsoft have to restate guidance.",
+          "speaker": ""
+        },
+        {
+          "seg": 2327,
+          "t": [
+            7962.592,
+            7965.053
+          ],
+          "quote": "Only so many ways that Amazon can screw merchants.",
+          "speaker": ""
+        },
+        {
+          "seg": 2391,
+          "t": [
+            8232.017,
+            8233.978
+          ],
+          "quote": "But that's what Google and Amazon were doing.",
+          "speaker": ""
+        },
+        {
+          "seg": 2399,
+          "t": [
+            8274.488,
+            8283.055
+          ],
+          "quote": "It's going to be pretty rough on them because the valuation of Amazon, Google, Microsoft and Meta is based on this idea that they will grow eternally, that they will grow forever.",
+          "speaker": ""
+        },
+        {
+          "seg": 2462,
+          "t": [
+            8449.062,
+            8452.804
+          ],
+          "quote": "Because Amazon, Oracle, they didn't die after the dot-com bubble.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提到 Google 给 Anthropic 投了 100 亿美元，上一季度靠 Anthropic 持股增值把账面利润抬高了 990 亿美元，且 Google 搜索因 AI 变得更糟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            250.105,
+            253.088
+          ],
+          "quote": "Anthropic, Amazon, NVIDIA, Microsoft, OpenAI, Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 76,
+          "t": [
+            283.6,
+            285.681
+          ],
+          "quote": "Google sent $10 billion to Anthropic.",
+          "speaker": ""
+        },
+        {
+          "seg": 130,
+          "t": [
+            499.17,
+            503.591
+          ],
+          "quote": "Is it honest adoption when you are forced to use generative AI when you load Google?",
+          "speaker": ""
+        },
+        {
+          "seg": 131,
+          "t": [
+            503.671,
+            506.871
+          ],
+          "quote": "When you load Google Docs, Gemini screams in your ear.",
+          "speaker": ""
+        },
+        {
+          "seg": 141,
+          "t": [
+            536.123,
+            539.025
+          ],
+          "quote": "And that's partly because Google fell behind search, and also because...",
+          "speaker": ""
+        },
+        {
+          "seg": 170,
+          "t": [
+            662.326,
+            669.77
+          ],
+          "quote": "Before we had AI slop, we had SEO slop because Google incentivized doing the lowest common denominator that would rank well in search.",
+          "speaker": ""
+        },
+        {
+          "seg": 172,
+          "t": [
+            679.095,
+            687.279
+          ],
+          "quote": "It's why we had, when you used to Google our best washing machine, there's 11 different horrible blogs that read like somebody got a concussion.",
+          "speaker": ""
+        },
+        {
+          "seg": 269,
+          "t": [
+            1037.3,
+            1040.442
+          ],
+          "quote": "Because here's the funny thing about Google, Microsoft, and Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 273,
+          "t": [
+            1048.907,
+            1056.052
+          ],
+          "quote": "But because their existing businesses continue to grow, and did so, by the way, through price increases, changes to how Google and Meta...",
+          "speaker": ""
+        },
+        {
+          "seg": 372,
+          "t": [
+            1412.914,
+            1420.356
+          ],
+          "quote": "I would say the standard of software across Google, Microsoft, Amazon, Meta, especially God, Meta's a monstrosity, is worse.",
+          "speaker": ""
+        },
+        {
+          "seg": 393,
+          "t": [
+            1501.814,
+            1509.416
+          ],
+          "quote": "I'm going to look up the growth rate of stocks of Microsoft, Google, Meta, and Amazon over the course of five years, I think it was.",
+          "speaker": ""
+        },
+        {
+          "seg": 469,
+          "t": [
+            1772.121,
+            1773.142
+          ],
+          "quote": "No, you're doing that on Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 824,
+          "t": [
+            2894.142,
+            2899.584
+          ],
+          "quote": "Google, a lot of the good stuff that comes out of Google from the search side is AI, but pre-generative.",
+          "speaker": ""
+        },
+        {
+          "seg": 836,
+          "t": [
+            2952.6,
+            2962.065
+          ],
+          "quote": "When most of the demand is coming from Amazon feeding money to open AI or Anthropic, Microsoft feeding money to open AI and Anthropic, Google feeding money to open AI and Anthropic.",
+          "speaker": ""
+        },
+        {
+          "seg": 837,
+          "t": [
+            2962.245,
+            2966.427
+          ],
+          "quote": "Well, Google hasn't fed it to open AI yet, but they're a pretty big customer, billions of dollars.",
+          "speaker": ""
+        },
+        {
+          "seg": 865,
+          "t": [
+            3082.967,
+            3097.115
+          ],
+          "quote": "Because everyone saw Google, Microsoft, Amazon, and Meta give NVIDIA over, call it 800-something billion dollars, because everyone saw that, they went, well, they wouldn't do that for no reason.",
+          "speaker": ""
+        },
+        {
+          "seg": 882,
+          "t": [
+            3156.818,
+            3161.78
+          ],
+          "quote": "I mean, have you used Google or Facebook or Instagram or GitHub recently?",
+          "speaker": ""
+        },
+        {
+          "seg": 886,
+          "t": [
+            3168.823,
+            3169.643
+          ],
+          "quote": "How is Google worse?",
+          "speaker": ""
+        },
+        {
+          "seg": 888,
+          "t": [
+            3173.304,
+            3175.284
+          ],
+          "quote": "Previously, one of the heads of ads at Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 889,
+          "t": [
+            3175.404,
+            3180.706
+          ],
+          "quote": "In 2019, Google called something called a code yellow, which is when they said, we've got a problem.",
+          "speaker": ""
+        },
+        {
+          "seg": 890,
+          "t": [
+            3180.726,
+            3187.268
+          ],
+          "quote": "And it was material weakness in query numbers, which means the amount of times that people were searching on Google search.",
+          "speaker": ""
+        },
+        {
+          "seg": 891,
+          "t": [
+            3187.768,
+            3191.509
+          ],
+          "quote": "Guy called Ben Gomes, internal at Google, then the head of Google search, says, okay,",
+          "speaker": ""
+        },
+        {
+          "seg": 892,
+          "t": [
+            3191.709,
+            3202.637
+          ],
+          "quote": "wait a minute, to increase this number of using Google more, we're going to have to, I mean, what you're suggesting would mean we give worse answers, because if someone got the answer quickly, that would reduce the amount of queries, right?",
+          "speaker": ""
+        },
+        {
+          "seg": 893,
+          "t": [
+            3203.198,
+            3208.421
+          ],
+          "quote": "And people at Google, Shashi Thakur was another engineer who was saying, yeah, can we please tell Sundar this?",
+          "speaker": ""
+        },
+        {
+          "seg": 900,
+          "t": [
+            3220.27,
+            3222.771
+          ],
+          "quote": "So if you were spending more time on Google because Google's work...",
+          "speaker": ""
+        },
+        {
+          "seg": 906,
+          "t": [
+            3236.019,
+            3239.982
+          ],
+          "quote": "Nick Fox, who was there as well, I believe he's actually taking over Google search, said, got to make them go up.",
+          "speaker": ""
+        },
+        {
+          "seg": 909,
+          "t": [
+            3242.063,
+            3245.585
+          ],
+          "quote": "Sometime in early 2020, Prabhagar Raghavan takes over Google search.",
+          "speaker": ""
+        },
+        {
+          "seg": 910,
+          "t": [
+            3245.946,
+            3259.735
+          ],
+          "quote": "From then, and this is what I believe, can't prove it, if you go and look around the various SEO sites such as a journal and the various forums, Google stripped back a lot of the suppression of spammy sites so that people would be on Google more.",
+          "speaker": ""
+        },
+        {
+          "seg": 911,
+          "t": [
+            3260.415,
+            3266.757
+          ],
+          "quote": "And then over the course of time, Google wanted to create more queries, and Google search became much worse.",
+          "speaker": ""
+        },
+        {
+          "seg": 913,
+          "t": [
+            3270.178,
+            3272.939
+          ],
+          "quote": "It's because the actual underlying search results of Google had got worse.",
+          "speaker": ""
+        },
+        {
+          "seg": 917,
+          "t": [
+            3278.701,
+            3282.403
+          ],
+          "quote": "And Google also was having trouble getting people back on Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 921,
+          "t": [
+            3287.846,
+            3289.266
+          ],
+          "quote": "So people have to stay at Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 922,
+          "t": [
+            3289.707,
+            3301.413
+          ],
+          "quote": "And actually they'll use it more because instead of searching websites and doing that annoying thing where they click away from Google, they'll just only use Google instead of generating answers, by which I mean, giving you search results you click through.",
+          "speaker": ""
+        },
+        {
+          "seg": 923,
+          "t": [
+            3301.733,
+            3302.874
+          ],
+          "quote": "Now Google is the answer.",
+          "speaker": ""
+        },
+        {
+          "seg": 927,
+          "t": [
+            3305.655,
+            3328.852
+          ],
+          "quote": "might eat poisonous mushrooms maybe i'll give you a little few links you could click through but the ideal situation was that ai was the ultimate form of google's evil which was but i'm saying here i'm saying here but that's not the fact that coders could code on google that's made google worse that's human decisions have made it worse yes and then there's the instability of google's platform which is actually i should have probably led with that a problem across the whole tech industry",
+          "speaker": ""
+        },
+        {
+          "seg": 928,
+          "t": [
+            3329.397,
+            3332.419
+          ],
+          "quote": "Okay, so you're saying Google is going down more.",
+          "speaker": ""
+        },
+        {
+          "seg": 929,
+          "t": [
+            3332.519,
+            3333.92
+          ],
+          "quote": "Yes, Google is less stable.",
+          "speaker": ""
+        },
+        {
+          "seg": 930,
+          "t": [
+            3334.22,
+            3337.622
+          ],
+          "quote": "Google Docs is a bug fest right now and has been for a while.",
+          "speaker": ""
+        },
+        {
+          "seg": 931,
+          "t": [
+            3337.662,
+            3338.703
+          ],
+          "quote": "Google Sheets, same deal.",
+          "speaker": ""
+        },
+        {
+          "seg": 1285,
+          "t": [
+            4569.913,
+            4572.695
+          ],
+          "quote": "Jeffrey Hinton as well, talking his book, still got his Google stock, I think.",
+          "speaker": ""
+        },
+        {
+          "seg": 1286,
+          "t": [
+            4573.035,
+            4580.219
+          ],
+          "quote": "Weirdly enough, he left Google because he was worried about the AI there, but then immediately made a comment being like, yeah, actually, though, Google's very responsible.",
+          "speaker": ""
+        },
+        {
+          "seg": 1561,
+          "t": [
+            5439.822,
+            5457.317
+          ],
+          "quote": "troubleshooting log into this thing going what's wrong and it going this is wrong yeah super useful is that trillion dollars no is that a two trillion dollar company no better than google though right better than google no i mean uh yeah remember do you use google search still i try i have to fucking push the crap out of the way and oh my god my",
+          "speaker": ""
+        },
+        {
+          "seg": 1562,
+          "t": [
+            5457.457,
+            5460.56
+          ],
+          "quote": "I can't remember the last time I did a Google search.",
+          "speaker": ""
+        },
+        {
+          "seg": 1572,
+          "t": [
+            5483.361,
+            5485.743
+          ],
+          "quote": "You think that it's better to type that into Google?",
+          "speaker": ""
+        },
+        {
+          "seg": 1715,
+          "t": [
+            5950.22,
+            5952.802
+          ],
+          "quote": "Nine, ten generations of TPUs from Google now.",
+          "speaker": ""
+        },
+        {
+          "seg": 1876,
+          "t": [
+            6489.079,
+            6490.08
+          ],
+          "quote": "Google and Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 1938,
+          "t": [
+            6686.443,
+            6688.926
+          ],
+          "quote": "These two, Google, cash flow negative.",
+          "speaker": ""
+        },
+        {
+          "seg": 1973,
+          "t": [
+            6869.489,
+            6873.109
+          ],
+          "quote": "There's never any guarantee, but there's a reason that Google and Amazon are cash flow negative now.",
+          "speaker": ""
+        },
+        {
+          "seg": 1978,
+          "t": [
+            6892.219,
+            6896.921
+          ],
+          "quote": "They're all saying, this is an actual and exact quote from Sundar, who is the CEO of Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 2313,
+          "t": [
+            7922.288,
+            7927.133
+          ],
+          "quote": "We will also see Amazon, Google and Microsoft have to restate guidance.",
+          "speaker": ""
+        },
+        {
+          "seg": 2326,
+          "t": [
+            7960.031,
+            7962.112
+          ],
+          "quote": "Only so many tweaks to Google search.",
+          "speaker": ""
+        },
+        {
+          "seg": 2391,
+          "t": [
+            8232.017,
+            8233.978
+          ],
+          "quote": "But that's what Google and Amazon were doing.",
+          "speaker": ""
+        },
+        {
+          "seg": 2392,
+          "t": [
+            8234.018,
+            8244.066
+          ],
+          "quote": "Google's last quarter, they boosted their net profits, profits on paper, by $99 billion because of the increased value of their SpaceX holding and their Anthropic holding.",
+          "speaker": ""
+        },
+        {
+          "seg": 2399,
+          "t": [
+            8274.488,
+            8283.055
+          ],
+          "quote": "It's going to be pretty rough on them because the valuation of Amazon, Google, Microsoft and Meta is based on this idea that they will grow eternally, that they will grow forever.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集说 Microsoft 2026 财年 AI 收入 241 亿美元来自 OpenAI，但资本支出 1150 亿美元；GitHub 停机频繁到被人调侃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            250.105,
+            253.088
+          ],
+          "quote": "Anthropic, Amazon, NVIDIA, Microsoft, OpenAI, Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 120,
+          "t": [
+            446.571,
+            449.374
+          ],
+          "quote": "All of these companies other than Microsoft are now to take out debt.",
+          "speaker": ""
+        },
+        {
+          "seg": 267,
+          "t": [
+            1032.997,
+            1035.018
+          ],
+          "quote": "It helped NVIDIA pump, Microsoft, everyone.",
+          "speaker": ""
+        },
+        {
+          "seg": 269,
+          "t": [
+            1037.3,
+            1040.442
+          ],
+          "quote": "Because here's the funny thing about Google, Microsoft, and Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 279,
+          "t": [
+            1075.625,
+            1079.047
+          ],
+          "quote": "Except in fiscal year 2026, which just ended for Microsoft.",
+          "speaker": ""
+        },
+        {
+          "seg": 372,
+          "t": [
+            1412.914,
+            1420.356
+          ],
+          "quote": "I would say the standard of software across Google, Microsoft, Amazon, Meta, especially God, Meta's a monstrosity, is worse.",
+          "speaker": ""
+        },
+        {
+          "seg": 374,
+          "t": [
+            1428.802,
+            1432.464
+          ],
+          "quote": "Microsoft is one of the largest companies in the world and they can barely wipe their own ass when it comes to GitHub.",
+          "speaker": ""
+        },
+        {
+          "seg": 393,
+          "t": [
+            1501.814,
+            1509.416
+          ],
+          "quote": "I'm going to look up the growth rate of stocks of Microsoft, Google, Meta, and Amazon over the course of five years, I think it was.",
+          "speaker": ""
+        },
+        {
+          "seg": 396,
+          "t": [
+            1515.537,
+            1517.938
+          ],
+          "quote": "I went, Microsoft stock's never been $575 a stock.",
+          "speaker": ""
+        },
+        {
+          "seg": 616,
+          "t": [
+            2188.251,
+            2195.114
+          ],
+          "quote": "But I remember the famous Steve Barmer, who was the CEO of Microsoft, interview, where he was told about the iPhone.",
+          "speaker": ""
+        },
+        {
+          "seg": 701,
+          "t": [
+            2493.747,
+            2500.55
+          ],
+          "quote": "And what's funny is when the writer, Kevin Roos, I think it was, he was speaking to Kevin Scott, the CTO of Microsoft, about it.",
+          "speaker": ""
+        },
+        {
+          "seg": 787,
+          "t": [
+            2766.765,
+            2770.727
+          ],
+          "quote": "We have the apex predator of cloud software, Microsoft.",
+          "speaker": ""
+        },
+        {
+          "seg": 836,
+          "t": [
+            2952.6,
+            2962.065
+          ],
+          "quote": "When most of the demand is coming from Amazon feeding money to open AI or Anthropic, Microsoft feeding money to open AI and Anthropic, Google feeding money to open AI and Anthropic.",
+          "speaker": ""
+        },
+        {
+          "seg": 865,
+          "t": [
+            3082.967,
+            3097.115
+          ],
+          "quote": "Because everyone saw Google, Microsoft, Amazon, and Meta give NVIDIA over, call it 800-something billion dollars, because everyone saw that, they went, well, they wouldn't do that for no reason.",
+          "speaker": ""
+        },
+        {
+          "seg": 935,
+          "t": [
+            3342.765,
+            3343.826
+          ],
+          "quote": "It's the same with Microsoft.",
+          "speaker": ""
+        },
+        {
+          "seg": 1014,
+          "t": [
+            3665.117,
+            3667.278
+          ],
+          "quote": "Think about it from the perspective of Microsoft.",
+          "speaker": ""
+        },
+        {
+          "seg": 1830,
+          "t": [
+            6363.325,
+            6365.266
+          ],
+          "quote": "Microsoft's revenue is growing because of AI, right?",
+          "speaker": ""
+        },
+        {
+          "seg": 1875,
+          "t": [
+            6488.378,
+            6488.979
+          ],
+          "quote": "Microsoft...",
+          "speaker": ""
+        },
+        {
+          "seg": 1887,
+          "t": [
+            6511.501,
+            6517.063
+          ],
+          "quote": "There were stories about how they were sending armored cars with the GPUs to Microsoft to make sure Microsoft got the GPUs.",
+          "speaker": ""
+        },
+        {
+          "seg": 2313,
+          "t": [
+            7922.288,
+            7927.133
+          ],
+          "quote": "We will also see Amazon, Google and Microsoft have to restate guidance.",
+          "speaker": ""
+        },
+        {
+          "seg": 2399,
+          "t": [
+            8274.488,
+            8283.055
+          ],
+          "quote": "It's going to be pretty rough on them because the valuation of Amazon, Google, Microsoft and Meta is based on this idea that they will grow eternally, that they will grow forever.",
+          "speaker": ""
+        },
+        {
+          "seg": 2439,
+          "t": [
+            8374.186,
+            8378.667
+          ],
+          "quote": "Microsoft said that they had $38, $37 billion of annualized run rate in AI.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "softbank",
+      "type": "company",
+      "role": "company",
+      "name": "SoftBank",
+      "file": "SoftBank",
+      "primary": false,
+      "how_described": "本集说 SoftBank 账面持有约 1000 亿美元 OpenAI 股票，如果 OpenAI 上不了市，SoftBank 将被迫缩水，成为连锁反应的一环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1900,
+          "t": [
+            6571.651,
+            6578.055
+          ],
+          "quote": "The majority of the funding that OpenAI got in the last six months came from SoftBank, NVIDIA, and Amazon.",
+          "speaker": ""
+        },
+        {
+          "seg": 2301,
+          "t": [
+            7870.984,
+            7872.145
+          ],
+          "quote": "Another SoftBank classic.",
+          "speaker": ""
+        },
+        {
+          "seg": 2306,
+          "t": [
+            7884.624,
+            7891.388
+          ],
+          "quote": "SoftBank, one of the largest companies in the Japanese stock market, a holding company with lots of investments, they have on paper...",
+          "speaker": ""
+        },
+        {
+          "seg": 2309,
+          "t": [
+            7897.772,
+            7912.761
+          ],
+          "quote": "And so SoftBank's future, their ability to continue paying the people around them and existing as a business, relies on their ability to continually liquidate funds, to take the things they've invested in and have value from them, either by selling the stock or taking loans out on the stock.",
+          "speaker": ""
+        },
+        {
+          "seg": 2310,
+          "t": [
+            7913.141,
+            7915.942
+          ],
+          "quote": "If OpenAI can't go public, SoftBank can't do that.",
+          "speaker": ""
+        },
+        {
+          "seg": 2311,
+          "t": [
+            7916.022,
+            7916.463
+          ],
+          "quote": "SoftBank.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (generative AI)",
+      "file": "生成式 AI",
+      "primary": true,
+      "how_described": "本集核心批判对象，被描述为'本质上是一个骗局'、'极其昂贵、不可靠、不赚钱的云软件'，所有新建数据中心只为它服务，与蛋白质折叠、机器人等无关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.151,
+            8.44
+          ],
+          "quote": "I think generative AI is at its heart con, and seeing these ultra-rich, ultra-powerful people lie through their f***ing teeth, turns my stomach.",
+          "speaker": ""
+        },
+        {
+          "seg": 44,
+          "t": [
+            153.471,
+            156.533
+          ],
+          "quote": "I think generative AI is at its heart con.",
+          "speaker": ""
+        },
+        {
+          "seg": 130,
+          "t": [
+            499.17,
+            503.591
+          ],
+          "quote": "Is it honest adoption when you are forced to use generative AI when you load Google?",
+          "speaker": ""
+        },
+        {
+          "seg": 165,
+          "t": [
+            641.495,
+            649.259
+          ],
+          "quote": "how the world is changing from a content perspective, if we're looking at generative AI, it is obvious that these tools are being widely adopted.",
+          "speaker": ""
+        },
+        {
+          "seg": 340,
+          "t": [
+            1327.321,
+            1332.446
+          ],
+          "quote": "So, and that CUDA thing I mentioned, they were the ones with CUDA, and CUDA allowed generative AI to grow.",
+          "speaker": ""
+        },
+        {
+          "seg": 689,
+          "t": [
+            2465.862,
+            2473.088
+          ],
+          "quote": "We're not going to expose consumers to it and actually be like, I don't know, language models and no generative AI stuff.",
+          "speaker": ""
+        },
+        {
+          "seg": 779,
+          "t": [
+            2741.61,
+            2744.391
+          ],
+          "quote": "That's very different to demand for generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 780,
+          "t": [
+            2744.851,
+            2748.592
+          ],
+          "quote": "Right now, the demand we have for generative AI is predominantly subsidized.",
+          "speaker": ""
+        },
+        {
+          "seg": 809,
+          "t": [
+            2845.681,
+            2849.146
+          ],
+          "quote": "Let's say there's different types of AI, generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 820,
+          "t": [
+            2882.677,
+            2887.059
+          ],
+          "quote": "All those data centers that we're building, all of them are for just generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 829,
+          "t": [
+            2912.767,
+            2922.67
+          ],
+          "quote": "What it has, and may indeed have used some GPUs, but now a year as many as they need for generative AI to run the data, feed-training data into it so it's able to clean a house.",
+          "speaker": ""
+        },
+        {
+          "seg": 857,
+          "t": [
+            3048.537,
+            3054.2
+          ],
+          "quote": "We had GPUs used for this HPC, the high-performance computing, before generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 863,
+          "t": [
+            3067.394,
+            3074.241
+          ],
+          "quote": "These data centers are being built to sell to generative AI companies to either train systems or run inference.",
+          "speaker": ""
+        },
+        {
+          "seg": 880,
+          "t": [
+            3146.893,
+            3152.956
+          ],
+          "quote": "So we know that some of the biggest companies in the world are using AI, generative AI, to write a lot of their code.",
+          "speaker": ""
+        },
+        {
+          "seg": 914,
+          "t": [
+            3273.399,
+            3274.699
+          ],
+          "quote": "And then generative AI came along.",
+          "speaker": ""
+        },
+        {
+          "seg": 1085,
+          "t": [
+            3884.971,
+            3888.355
+          ],
+          "quote": "And also, man, does that not have anything to do with generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1368,
+          "t": [
+            4805.325,
+            4807.186
+          ],
+          "quote": "We're talking explicitly about generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1371,
+          "t": [
+            4809.568,
+            4811.109
+          ],
+          "quote": "That was definitely about generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1430,
+          "t": [
+            4958.924,
+            4983.975
+          ],
+          "quote": "if you think back through history there was someone's job just to sit in an elevator and press the buttons right that's an example of a job that humans probably shouldn't have been doing and as technology gets more advanced it takes on a lot of that sort of automated monotonous stuff right the thing is with this particular thing that i know that this is from it's a specific blog i wrote i was explicitly talking about generative ai though i was explicitly talking about people when they say this they are referring to that so you're not talking about",
+          "speaker": ""
+        },
+        {
+          "seg": 1483,
+          "t": [
+            5193.58,
+            5195.161
+          ],
+          "quote": "Especially if we just think about generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1486,
+          "t": [
+            5200.482,
+            5203.323
+          ],
+          "quote": "The adoption of generative AI involves having a web browser.",
+          "speaker": ""
+        },
+        {
+          "seg": 1492,
+          "t": [
+            5221.376,
+            5222.337
+          ],
+          "quote": "There's generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1493,
+          "t": [
+            5222.457,
+            5223.258
+          ],
+          "quote": "There's generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1495,
+          "t": [
+            5224.42,
+            5226.823
+          ],
+          "quote": "The generative AI is explicitly what I'm talking about here.",
+          "speaker": ""
+        },
+        {
+          "seg": 1546,
+          "t": [
+            5404.827,
+            5405.308
+          ],
+          "quote": "Generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1746,
+          "t": [
+            6061.734,
+            6067.601
+          ],
+          "quote": "They're not being built for anything other than speculating on the ability to capture demand for generative AI services.",
+          "speaker": ""
+        },
+        {
+          "seg": 1747,
+          "t": [
+            6067.782,
+            6068.783
+          ],
+          "quote": "But it's not just generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1750,
+          "t": [
+            6069.644,
+            6072.448
+          ],
+          "quote": "No, but those data centers, they are being built for generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1752,
+          "t": [
+            6074.686,
+            6094.658
+          ],
+          "quote": "Would you consider generative AI to be the fact that on Meta's earnings call, like a couple of weeks ago, Mark Zuckerberg said the big breakthrough we've had, which has resulted in 15 basis points of increased retention, I believe he was referring to Instagram, is that we now take anything you post on social media and we run it through an AI to get full context of what it is.",
+          "speaker": ""
+        },
+        {
+          "seg": 2046,
+          "t": [
+            7095.954,
+            7102.039
+          ],
+          "quote": "The noise that these things make, and also, generative AI is this egregious, pornographic...",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集反复讨论，说它是 AI 专用芯片，比普通 CPU 大得多、耗能多得多，Stargate Abilene 每栋楼 5 万个；买 GPU 成了大公司'踢罐子'让市场觉得还在增长的方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            898.931,
+            901.472
+          ],
+          "quote": "You have to pay for the hourly GPU use regardless.",
+          "speaker": ""
+        },
+        {
+          "seg": 796,
+          "t": [
+            2805.551,
+            2809.074
+          ],
+          "quote": "AI is not doing that unless there's some breakthrough in GPU technology.",
+          "speaker": ""
+        },
+        {
+          "seg": 801,
+          "t": [
+            2822.163,
+            2828.928
+          ],
+          "quote": "Even NVIDIA with Vera Rubin, their more expensive new GPU system, even then they're like, yeah, 10x more efficient.",
+          "speaker": ""
+        },
+        {
+          "seg": 826,
+          "t": [
+            2902.125,
+            2906.751
+          ],
+          "quote": "AI that sits in a robot, let's say one of the Optimus robots, if you didn't have a GPU.",
+          "speaker": ""
+        },
+        {
+          "seg": 828,
+          "t": [
+            2910.116,
+            2911.998
+          ],
+          "quote": "That thing has not got a little GPU in it.",
+          "speaker": ""
+        },
+        {
+          "seg": 839,
+          "t": [
+            2968.848,
+            2972.851
+          ],
+          "quote": "We are building these effigies to capitalism, these giant GPU data centers.",
+          "speaker": ""
+        },
+        {
+          "seg": 843,
+          "t": [
+            2983.758,
+            2994.625
+          ],
+          "quote": "There's a big difference between a data center for regular non-GPU compute for standing up a server, a content delivery system like Akamai or something that brings the website to you, or how Meta runs Facebook.",
+          "speaker": ""
+        },
+        {
+          "seg": 845,
+          "t": [
+            2996.346,
+            3002.03
+          ],
+          "quote": "It takes way less power, mostly CPU-driven, compared to these giant GPU data centers that are for one thing.",
+          "speaker": ""
+        },
+        {
+          "seg": 1739,
+          "t": [
+            6035.912,
+            6047.261
+          ],
+          "quote": "GPU full data center translate to a Nikon camera that can, I don't know even what you'd think, because what is the thing we're talking about here?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集解释为约四分之三个单词，是 AI 公司的计费货币，像出租车的计价器；月费订阅隐藏了实际 token 消耗，200 美元月费可烧掉 14000 美元的 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            707.366,
+            708.026
+          ],
+          "quote": "What's a token?",
+          "speaker": ""
+        },
+        {
+          "seg": 209,
+          "t": [
+            809.777,
+            833.446
+          ],
+          "quote": "heir apparent to tech's history is meant to be saying but the point is enterprises immediately started freaking out uber burned through their entire annual token budget in three months so suddenly after everyone's saying ai is the most productive thing ever it's amazing it's changing everything the moment people actually had to pay for it they go oh i don't know actually um maybe it's it's obviously we all love it it's all great right",
+          "speaker": ""
+        },
+        {
+          "seg": 659,
+          "t": [
+            2352.65,
+            2378.343
+          ],
+          "quote": "transformative for her business what i'm hearing from you is that it's not transformative and there's no value in it for people but she if she was sat here now she could transformative it would she pay the per million token rate would she pay the actual rate because that's the thing if this was sold at its honest cost yeah i would actually if and people were reacting like that and they were paying two three four dollars every time they did something and they were genuinely happy that might be an argument what is the what would be the honest cost if they weren't",
+          "speaker": ""
+        },
+        {
+          "seg": 660,
+          "t": [
+            2378.503,
+            2381.545
+          ],
+          "quote": "The actual per million token cost, the actual API cost.",
+          "speaker": ""
+        },
+        {
+          "seg": 1333,
+          "t": [
+            4726.832,
+            4730.213
+          ],
+          "quote": "If this was all on a per million token basis, we'd be having a different conversation.",
+          "speaker": ""
+        },
+        {
+          "seg": 2226,
+          "t": [
+            7639.77,
+            7645.931
+          ],
+          "quote": "But with enterprises, so companies over 150 people, you have to pay by the token now, or per million token.",
+          "speaker": ""
+        },
+        {
+          "seg": 2227,
+          "t": [
+            7646.352,
+            7647.372
+          ],
+          "quote": "Oh, so they are moving to a token.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说它是数据中心内产生输出的过程，需要建好 GPU 来承接需求，买多浪费钱、买少客户用不了，且推理提供商似乎都不盈利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            880.878,
+            886.783
+          ],
+          "quote": "And on top of that, the way that you stand up inference, which is the thing that creates the output within these data centers, is...",
+          "speaker": ""
+        },
+        {
+          "seg": 228,
+          "t": [
+            887.624,
+            890.686
+          ],
+          "quote": "You're not just saying, okay, turn the inference machine on, let's go.",
+          "speaker": ""
+        },
+        {
+          "seg": 252,
+          "t": [
+            990.565,
+            993.528
+          ],
+          "quote": "In fact, everyone, inference providers, don't seem to be profitable.",
+          "speaker": ""
+        },
+        {
+          "seg": 346,
+          "t": [
+            1340.292,
+            1342.034
+          ],
+          "quote": "So the training runs and also the inference.",
+          "speaker": ""
+        },
+        {
+          "seg": 863,
+          "t": [
+            3067.394,
+            3074.241
+          ],
+          "quote": "These data centers are being built to sell to generative AI companies to either train systems or run inference.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "capex",
+      "type": "concept",
+      "role": "concept",
+      "name": "资本支出 (capex)",
+      "file": "资本支出",
+      "primary": true,
+      "how_described": "本集定义为建数据中心、买 GPU 等长期投资，说这些公司已花超过一万亿美元，明年还想再花一万亿，除 Microsoft 外都在举债。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            364.944,
+            367.066
+          ],
+          "quote": "They have spent over a trillion dollars in capex.",
+          "speaker": ""
+        },
+        {
+          "seg": 101,
+          "t": [
+            367.486,
+            368.487
+          ],
+          "quote": "What does capex mean?",
+          "speaker": ""
+        },
+        {
+          "seg": 1980,
+          "t": [
+            6905.217,
+            6912.72
+          ],
+          "quote": "And you go down, you go through this, you know, Andy Jassy, CEO of Amazon, we're not investing approximately 200 billion in CapEx in 2026 on a hunch.",
+          "speaker": ""
+        },
+        {
+          "seg": 2499,
+          "t": [
+            8616.779,
+            8627.685
+          ],
+          "quote": "So when I've heard you talking about how this is an economic bubble, and I've heard you talk about the CapEx spend with these big sort of frontier AI labs, it really did make me pause for a second.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集说'智能体 AI'是更大的谎言之一，听起来像自主的，实际上就是 LLM 和 LLM 对话，上面加个框架（harness）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 328,
+          "t": [
+            1266.07,
+            1272.673
+          ],
+          "quote": "let's say coding, how much could I train a human coder to improve and to increase their output versus an AI agent?",
+          "speaker": ""
+        },
+        {
+          "seg": 1431,
+          "t": [
+            4984.035,
+            5007.99
+          ],
+          "quote": "agentic ai which agentic ai is llms agentic ai is just a fancy way of saying an llm talking to another llm with a harness on top that is still a lamp's agentic ai is one of the the bigger lies they tell it's like when you hear agent you're meant to think autonomous ai can do what you want it's still llms it's still llms talking to other llms taking screenshots and putting them in llms oh god yeah okay but but you know i could i could make the case that",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集反复出现，被描述为使用时不管结果对不对都要付费的'文本机器'，提供中位数答案，幻觉在数学上保证会发生，是所有数据中心建设的唯一服务对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 241,
+          "t": [
+            932.134,
+            935.978
+          ],
+          "quote": "You pay when you use an LLM, regardless of whether you get what you want.",
+          "speaker": ""
+        },
+        {
+          "seg": 545,
+          "t": [
+            1990.807,
+            2001.25
+          ],
+          "quote": "If I needed a generic slop output, sure, but I've used some of the higher-end LLM harness machines that the hedge funds use, and they all give the same shite.",
+          "speaker": ""
+        },
+        {
+          "seg": 597,
+          "t": [
+            2153.708,
+            2158.331
+          ],
+          "quote": "When you as the LLM industry want to prove your worth, you can't just be like, just use the product.",
+          "speaker": ""
+        },
+        {
+          "seg": 957,
+          "t": [
+            3415.354,
+            3417.274
+          ],
+          "quote": "They're like, oh, I learned a bit of code with an LLM.",
+          "speaker": ""
+        },
+        {
+          "seg": 1431,
+          "t": [
+            4984.035,
+            5007.99
+          ],
+          "quote": "agentic ai which agentic ai is llms agentic ai is just a fancy way of saying an llm talking to another llm with a harness on top that is still a lamp's agentic ai is one of the the bigger lies they tell it's like when you hear agent you're meant to think autonomous ai can do what you want it's still llms it's still llms talking to other llms taking screenshots and putting them in llms oh god yeah okay but but you know i could i could make the case that",
+          "speaker": ""
+        },
+        {
+          "seg": 1451,
+          "t": [
+            5054.429,
+            5058.63
+          ],
+          "quote": "A lot of the things that people are impressed with, like script stuff as well, it's just LLM's doing Python.",
+          "speaker": ""
+        },
+        {
+          "seg": 1574,
+          "t": [
+            5487.364,
+            5489.966
+          ],
+          "quote": "That may be the only LLM use case I defend.",
+          "speaker": ""
+        },
+        {
+          "seg": 1713,
+          "t": [
+            5943.135,
+            5947.038
+          ],
+          "quote": "The hardware breakthrough companies don't seem to be fixing the LLM problems.",
+          "speaker": ""
+        },
+        {
+          "seg": 1761,
+          "t": [
+            6150.665,
+            6152.205
+          ],
+          "quote": "Oh, Muse Spark is their LLM.",
+          "speaker": ""
+        },
+        {
+          "seg": 1959,
+          "t": [
+            6819.764,
+            6822.726
+          ],
+          "quote": "When you train with an LLM, you're experimenting.",
+          "speaker": ""
+        },
+        {
+          "seg": 2349,
+          "t": [
+            8060.91,
+            8065.116
+          ],
+          "quote": "Because when it comes to building a company on top of an LLM, all of those are unprofitable too.",
+          "speaker": ""
+        },
+        {
+          "seg": 2351,
+          "t": [
+            8067.218,
+            8072.361
+          ],
+          "quote": "LLM companies have not really been acquired, the exception being Cursable by Elon Musk for the coding side.",
+          "speaker": ""
+        },
+        {
+          "seg": 2352,
+          "t": [
+            8072.781,
+            8078.604
+          ],
+          "quote": "But you have Cognition, which is just another LLM company raising a $26 billion valuation.",
+          "speaker": ""
+        },
+        {
+          "seg": 2355,
+          "t": [
+            8086.448,
+            8088.329
+          ],
+          "quote": "Is Elon Musk just going to pick off every LLM?",
+          "speaker": ""
+        },
+        {
+          "seg": 2356,
+          "t": [
+            8089.049,
+            8091.971
+          ],
+          "quote": "Like LLM company, like on a fucking TJ Maxx for AI, like Jesus Christ.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "rot-com",
+      "type": "concept",
+      "role": "concept",
+      "name": "Rot-com 泡沫 (rot-com)",
+      "file": "Rot-com 泡沫",
+      "primary": true,
+      "how_described": "本集是 Ed 自创的核心理论（rot + dot-com），说大公司主要业务线增长见顶、没有新超增长点，买 GPU 成了'踢罐子'方式让市场觉得数字还会涨。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 727,
+          "t": [
+            2562.117,
+            2563.919
+          ],
+          "quote": "And you talked about the rot-com bubble.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集在讨论 AI 安全事件时提到，说 Hugging Face 攻击是'从沙箱中逃逸'，但实际是因为他们把服务器设置错了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1251,
+          "t": [
+            4453.857,
+            4455.96
+          ],
+          "quote": "They were like, break out of the sandbox.",
+          "speaker": ""
+        },
+        {
+          "seg": 1252,
+          "t": [
+            4455.98,
+            4457.422
+          ],
+          "quote": "And then they set the sandbox up.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "hallucination",
+      "file": "hallucination",
+      "primary": false,
+      "how_described": "本集多次讨论，说 Victoria 幻觉排行榜显示简单摘要任务幻觉率从 21.8% 降到 0.7%，但复杂任务仍严重；OpenAI 自己报告说幻觉在数学上保证会发生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 383,
+          "t": [
+            1474.184,
+            1476.165
+          ],
+          "quote": "Give me an example of what you define as a hallucination.",
+          "speaker": ""
+        },
+        {
+          "seg": 403,
+          "t": [
+            1539.082,
+            1547.13
+          ],
+          "quote": "And the thing is, a hallucination with a software package, for example, refactoring a code base, and it leaves the door open security-wise.",
+          "speaker": ""
+        },
+        {
+          "seg": 416,
+          "t": [
+            1579.324,
+            1594.682
+          ],
+          "quote": "tasks they've got better at that they found some tasks they can have them do on but even them like meter metr they have this thing where it's like check out this chart look how much better it's getting at running tasks wow it can go for an hour and then you look it's like yeah and successfully completing them 50 of the time they have a hallucination",
+          "speaker": ""
+        },
+        {
+          "seg": 419,
+          "t": [
+            1597.903,
+            1618.671
+          ],
+          "quote": "And it shows that the four-year trend, according to historical data from the Victoria Hallucination Leaderboard, shows that hallucination rates on simple summarization tasks have plummeted from around 21%, 21.8% four years ago, down to 0.7% roughly on today's top frontier models like Gemini and ChatGPT.",
+          "speaker": ""
+        },
+        {
+          "seg": 445,
+          "t": [
+            1697.507,
+            1703.512
+          ],
+          "quote": "Or if I'm hiring someone, an intern who might also be prone to hallucination or have gaps in their knowledge.",
+          "speaker": ""
+        },
+        {
+          "seg": 579,
+          "t": [
+            2114.616,
+            2122.258
+          ],
+          "quote": "And so with Claude, for example, on simple tasks, as we've seen from this hallucination leaderboard, it continually delivers for people.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "run-rate",
+      "type": "concept",
+      "role": "concept",
+      "name": "年化 run rate (run rate)",
+      "file": "年化 run rate",
+      "primary": false,
+      "how_described": "本集说这些公司不披露 AI 收入，偶尔用'年化 run rate'这个从不定义的指标，可能是月乘以 12、过去四周乘以 13，每次都不一样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            320.119,
+            324.2
+          ],
+          "quote": "They use something called a run rate, an annualized run rate, which means, well, nothing.",
+          "speaker": ""
+        },
+        {
+          "seg": 2437,
+          "t": [
+            8372.045,
+            8372.865
+          ],
+          "quote": "Annualized run rate.",
+          "speaker": ""
+        },
+        {
+          "seg": 2439,
+          "t": [
+            8374.186,
+            8378.667
+          ],
+          "quote": "Microsoft said that they had $38, $37 billion of annualized run rate in AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 2442,
+          "t": [
+            8384.309,
+            8386.451
+          ],
+          "quote": "Run rate may be month times 12.",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

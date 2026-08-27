@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]]
+[[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":4,"Hugging Face":9,"NEO":1,"Cotool":1,"智能体":138,"护栏":28,"签名":1,"行为检测":1,"推理":1}</script>
+<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":4,"Hugging Face":10,"NEO":1,"Cotool":1,"智能体":141,"护栏":28,"签名":1,"行为检测":1,"推理":1}</script>
 
 <script>
 (function(){

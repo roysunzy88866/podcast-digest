@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>61</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>63</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -72,10 +72,12 @@ unlisted: true
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(39:05起):本集顺带提到 Parag 曾把 Twitter 数据卖给 OpenAI
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(02:38起):本集说 OpenAI 的新 GPT 模型非常擅长知识工作，ChatGPT 桌面应用是做电子表格、幻灯片、文档的完美容器
 - **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]]**(11:22起):本集提到 OpenAI 作为主要模型公司之一，其自我评估方式被类比为'银行自审'，且 ChatGPT 被观察到倾向于反射用户使用的语言
+- **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(00:49起):本集将其描述为年亏损 209 亿美元、靠 Amazon、Microsoft、Google 等持续输血才能存活的不盈利公司，其 AI 收入占行业 70% 但来自补贴需求，计划上市但被推迟。
+- **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(01:25起):本集多次提到 OpenAI，包括暂停 Astra 模型部署、计划监控更大比例内部流量，以及作为 Plan A 下护城河被削弱的前沿公司之一
 
 ## ① 提到它的金句
 
-*9 条*
+*12 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -95,9 +97,15 @@ unlisted: true
 
 ![[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st#^q7]]
 
+![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q3]]
+
+![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q10]]
+
+![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q6]]
+
 ## ② 出现在这些集
 
-*61 集*
+*63 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -160,14 +168,16 @@ unlisted: true
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]] — 作为被讨论公司(提及)
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司
+- [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[NVIDIA]] · [[Cursor]] · [[推理]] · [[AGI]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[NVIDIA]] · [[推理]] · [[Cursor]] · [[AGI]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":138,"Anthropic":68,"Google":27,"Lenny":65,"ChatGPT":36,"NVIDIA":21,"Cursor":35,"推理":1,"AGI":16,"Claude":33}</script>
+<script type="application/json" class="pd-epn">{"智能体":141,"Anthropic":70,"Google":28,"Lenny":65,"ChatGPT":36,"NVIDIA":22,"推理":1,"Cursor":35,"AGI":16,"Claude":33}</script>
 
 <script>
 (function(){

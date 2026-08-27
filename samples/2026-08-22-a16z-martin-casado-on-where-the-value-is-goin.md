@@ -124,7 +124,7 @@ Martin 反复强调一个观点：如果你只看资产负债表——利润率�
 
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同嘉宾:Theo Jaffe · 同公司:Anthropic、Mistral、NVIDIA、OpenAI · 同概念:开源模型 (open source)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:OpenAI、Anthropic、OpenRouter · 同概念:GPU、后训练 (post-training)、推理 (inference)</span>
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:OpenAI、Anthropic、NVIDIA、SpaceX</span>
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:OpenAI、Anthropic、NVIDIA · 同概念:GPU、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,104 @@
+===标题===
+点图：看透每个用户在怎么用你的产品
+===导语===
+前 Google Photos 负责人 Dave 分享一个叫"点图"的日志可视化方法，用二维网格逐行逐天标记用户行为，从汇总指标里揪出你永远看不到的使用模式。
+===正文===
+大多数创始人看产品数据，盯着的是 DAU（日活跃用户）、MAU 这类汇总指标。这些图表把所有用户混在一起，只要有一点点增长，曲线就往右上走，你根本看不出单个用户到底在怎么用你的产品——用了什么功能、频率多高、节奏怎样。这些才是判断"你是不是做出来了人们想要的东西"最重要的信号 [00:41 Unknown]。
+
+## 点图是什么：每人一行，每天一列
+
+做法很简单：画一个二维网格，像电子表格一样。每一行是一个用户，每一列是一个时间段（通常用"天"）。然后选一个你认为代表产品核心价值的事件——比如音乐应用里"听了一首歌"、照片应用里"分享了一张照片"、B2B 产品里"处理了一张发票"——用户在哪天做了这件事，就在对应格子里点一个点。为了标记用户首次使用的那天（入职日），可以在那个点外面加个小圆圈 [02:28 Unknown]。
+
+拉远一看，你会得到一张高密度的使用模式图。这个思路不陌生——GitHub 页面顶部的贡献图本质上就是一个点图，只是它把天数按周环绕排列了 [05:17 Unknown]。
+
+## 你能从中看到什么
+
+当你把单个用户的行为摊开在眼前，人脑会自动捕捉到看汇总图表绝对发现不了的模式。
+
+举个假设的 Spotify 例子：点图一画出来，你可能立刻看到一群人只在周一到周五使用，另一群人只在周末用。这意味着什么？工作日用的人可能是在办公室听的，周末用的可能是另一个场景。这两个群体谁更有价值、产品该怎么针对性设计，汇总 DAU 图表完全不会告诉你 [04:05 Unknown]。
+
+你还能一眼看到留存问题——如果很多行只有第一个点、之后再无痕迹，说明引导流程或产品本身有严重问题，用户试了一次就跑了 [04:48 Unknown]。
+
+更深入的做法是用不同符号代表不同功能。比如听歌用点、用搜索功能就加个 S、加入播放列表就加个 P。假设你注意到某个用户在加入公共播放列表之后，出现了一长串连续使用的点——你就可以推断：播放列表功能可能是驱动高频使用的因果因素。这种推断从汇总数据里几乎不可能得出 [08:46 Unknown]。
+
+除了行为，你还可以编码用户状态：iOS 还是 Android、来自哪个国家、收入水平等，用不同颜色或符号区分，然后按任意属性排序。排完之后看满屏的点图，大脑会自动浮现出你事先根本想不到的模式 [05:28 Unknown]。
+
+## 这个方法的来历和规模
+
+这个思路他十年前从 PayPal 联合创始人 Max Levchin 那里听到过。PayPal 早期有严重的欺诈问题，但不知道该找什么模式，于是他们把所有交易画成可视化图表，让人盯着屏幕看——人虽然说不清规则，但能本能地指出"那个地方不一样，可能是欺诈" [06:41 Unknown]。点图是同样的逻辑：先靠人眼发现异常模式，再深入挖掘。
+
+早期用户少的时候，你真的可以把每个用户每天的情况全部放在一个屏幕上看完。但这个方法同样能扩展——他在 Google Photos 时用户远超十亿，做法是对用户抽样，打印出几十张不同样本的点图，分给团队："这是法国的 iOS 用户，你去搞清楚他们在做什么""这是美国年收入超过 8 万美元的网页用户，看看他们的情况"。团队花整天坐在办公室看点图、画结论 [09:58 Unknown]。
+
+## B2B 也适用：一个真实的流失案例
+
+B2B 产品觉得"我们卖席位、企业付钱就行了"——点图同样能救命。
+
+最近一批 YC 里有一家公司，签了一个知名客户，每年 8 万美元的合同，要了 10 个席位。后来这家客户流失了。如果当时有点图，他们会看到：10 个席位只有 3 个被激活过，激活的人每周最多用两天，使用非常零星。真相是：当初推动采购的那个内部支持者（champion）兴奋地买了，然后离职了，新人进来问"我们为什么用这个软件"，最后一刻退出了续约。点图上这些信号一目了然，公司本可以提前干预 [10:52 Unknown]。
+
+## 两个常见错误
+
+第一，选错了事件。很多创始人选最容易填满格子的东西，比如"打开应用""登录产品"——这些不能衡量用户是否获得了真正的价值。必须选代表核心价值的事件：听歌、分享照片、处理发票 [11:57 Unknown]。
+
+第二，时间段选太粗。有人选"周"做单位， granularity（粒度）太粗，模式就模糊了。至少用到"天"，甚至更细 [12:25 Unknown]。
+
+## 本集带走
+
+- **点图做法**：二维网格，每行一个用户、每列一天，选一个代表核心价值的行为事件，做了就点一个点；首次使用日加圆圈标记。
+- **事件必须选"价值事件"**：别选登录、打开应用这类虚荣指标，选真正说明用户在获得价值的行为。
+- **粒度至少到天**：选周做单位太粗，模式会被抹平。
+- **用不同符号编码功能和状态**：不同功能用不同符号、不同用户属性用不同颜色，然后按属性排序，让模式自己浮现。
+- **B2B 看席位激活和关键人行为**：买了 10 个席位只有 3 个激活、使用零星，说明内部推动者可能已离开，合同有流失风险。
+- **配合队列留存曲线一起用**：留存曲线看群体是否留住，点图看个体怎么用的、为什么留或走，两者互补。
+===金句===
+00:41 Unknown
+EN | Most founders just ignore this, but I think it's the most important signal to figure out if you've built something that people want.
+ZH | 大多数创始人忽略了这一点，但我认为这是弄清楚你是否构建了人们想要的东西的最重要信号。
+
+01:14 Unknown
+EN | And if you have any amount of growth, those graphs tend to be going up and to the right, even if users aren't actually enjoying using your product.
+ZH | 如果你有一定程度的增长，那些图表往往会呈上升趋势，即使用户实际上并没有享受使用你的产品。
+
+03:50 Unknown
+EN | That you probably would not have seen with your human brain just looking at aggregate charts or looking at individual user logs.
+ZH | 那些你可能仅凭人脑查看汇总图表或查看单个用户日志时看不到的模式。
+
+06:36 Unknown
+EN | In a way that you would never have figured out on your own a priori.
+ZH | 以一种你永远不会自己先验地弄明白的方式。
+
+07:05 Unknown
+EN | And while the humans didn't know what exactly was going on, they were able to look at the screen and say, that thing happening there, that's different and probably fraud.
+ZH | 虽然人类不知道确切发生了什么，他们能够看着屏幕说，那里发生的事情，那是不同的并且可能是欺诈。
+
+08:20 Unknown
+EN | And it really doesn't tell you all that much.
+ZH | 而它真的没有告诉你太多信息。
+
+08:27 Unknown
+EN | Instead, looking at the dot plot, we have a much richer understanding of our users.
+ZH | 相反，看点图，我们对用户有了更丰富的理解。
+
+09:27 Unknown
+EN | We could then infer like, oh, maybe the playlist feature is really causal to having people be really active in our product.
+ZH | 我们可以推断，哦，也许播放列表功能是导致人们在我们产品中非常活跃的真正原因。
+
+11:49 Unknown
+EN | The company could have known that this contract was in jeopardy by looking at the dot plot.
+ZH | 公司本可以通过看点图知道这份合同处于危险之中。
+
+12:00 Unknown
+EN | The number one thing is to just chart the wrong event.
+ZH | 头号事情就是只是绘制错误的事件。
+
+12:11 Unknown
+EN | Those are pretty bad events to choose because they don't really measure whether the user is getting real value.
+ZH | 那些是相当糟糕的事件选择，因为它们并没有真正衡量用户是否获得了真正的价值。
+
+12:41 Unknown
+EN | So I would go so far as to say until you have hundreds of users, the dot plot could be your only dashboard.
+ZH | 所以我想冒昧地说，在你拥有数百名用户之前，点图可能是你唯一的仪表板。
+
+13:16 Unknown
+EN | But the dot plot shows you how those users are actually using your product, and they give you the color to go ask the right questions of your users, to go build the right features, to fix things that are broken in your product that you would never learn by looking at aggregate metrics.
+ZH | 但是点图向你展示那些用户实际上是如何使用你的产品的，并且它们给你提供依据去向你的用户提问正确的问题，去构建正确的功能，去修复产品中损坏的地方，而这些是你通过看聚合指标永远学不到的。
+===END===

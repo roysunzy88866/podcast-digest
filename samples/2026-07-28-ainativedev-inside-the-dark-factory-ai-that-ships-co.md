@@ -140,9 +140,9 @@ Rob 认为，编排器"死简单，没那么难"，真正的高杠杆在于你�
 
 **顺着「智能体」挖下去**
 
+- [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:智能体 (agent)、软件工厂 (software factory)、沙箱 (sandbox)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag：把智能体从终端搬进 Slack 的多人协作实验]]<span class="pd-rz">同嘉宾:Guy Pajani、Simon Maple · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]]<span class="pd-rz">同公司:Daytona · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Fable · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

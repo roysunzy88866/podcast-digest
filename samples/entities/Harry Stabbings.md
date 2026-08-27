@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lamkin":1,"Canva":3,"智能体":138,"无代码":1,"Figma":10,"Notion":8,"Airtable":2,"Palantir":7,"Replit":11,"ChatGPT":36}</script>
+<script type="application/json" class="pd-epn">{"Jason Lamkin":1,"Canva":3,"智能体":141,"无代码":1,"Figma":10,"Notion":8,"Airtable":2,"Palantir":7,"Replit":11,"ChatGPT":36}</script>
 
 <script>
 (function(){

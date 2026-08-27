@@ -29,7 +29,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[Palantir]] · [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
+[[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[Palantir]] · [[开源模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":21,"OpenAI":61,"Anthropic":68,"Microsoft":12,"Palantir":7,"开放模型":1,"封闭模型":2,"沙箱":26,"智能体":138}</script>
+<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":22,"OpenAI":63,"Anthropic":70,"Microsoft":13,"Palantir":7,"开源模型":2,"封闭模型":2,"沙箱":28,"智能体":141}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]]
+[[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":3,"Sofia Puccini":2,"开源权重":3,"Frontier Labs":3,"蒸馏":7,"智能体":138,"Kimi K3":1,"Hugging Face":9,"Anthropic":68,"OpenAI":61}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":3,"Sofia Puccini":2,"开源权重":3,"Frontier Labs":3,"蒸馏":7,"智能体":141,"Kimi K3":1,"Hugging Face":10,"Anthropic":70,"OpenAI":63}</script>
 
 <script>
 (function(){

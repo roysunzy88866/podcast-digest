@@ -103,8 +103,8 @@ jsonLd: |
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Amazon、Anthropic、Apple、Google、Microsoft、OpenAI、NVIDIA · 同概念:CapEx、AGI</span>
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、OpenAI、Amazon、Google、Microsoft、NVIDIA · 同概念:CapEx、LLM</span>
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI · 同概念:CapEx、AGI</span>
-- [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|AI 如何把工程问题变回资本问题]]<span class="pd-rz">同公司:Anthropic、Google、Microsoft、OpenAI、Amazon</span>
 
 </div>
 <div class="pd-ex">

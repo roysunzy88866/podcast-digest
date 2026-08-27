@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(14:39起):本集把它说成：寿命极大取决于历史用途，用于训练的芯片（相当于 72 小时拉力赛跑出的车）故障率远高于只做推理的芯片（周日去教堂跑出的车），用平均寿命算账会严重失真。
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(14:40起):本集说现在工程很多归结为能否筹集资本来购买 GPU 以做想做的事；也提到用 AI 创建更快的 GPU 内核作为自催化效应的例子
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(28:23起):本集说做大量模型专业化不需要 GPU，太贵了，可以用 ASIC 芯片替代
+- **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(14:58起):本集反复讨论，说它是 AI 专用芯片，比普通 CPU 大得多、耗能多得多，Stargate Abilene 每栋楼 5 万个；买 GPU 成了大公司'踢罐子'让市场觉得还在增长的方式。
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
@@ -28,14 +29,15 @@ unlisted: true
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为概念(提及)
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为概念(提及)
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[推理]] · [[OpenRouter]] · [[人工智能]] · [[智能体]] · [[后训练]] · [[Cursor]] · [[深度学习]]
+[[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[推理]] · [[智能体]] · [[OpenRouter]] · [[人工智能]] · [[SaaS]] · [[token]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":21,"Anthropic":68,"OpenAI":61,"推理":1,"OpenRouter":4,"人工智能":2,"智能体":138,"后训练":12,"Cursor":35,"深度学习":3}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":22,"Anthropic":70,"OpenAI":63,"推理":1,"智能体":141,"OpenRouter":4,"人工智能":2,"SaaS":9,"token":7,"Cursor":35}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Nicole Forsgren]] · [[代码行数]] · [[SPACE]] · [[DevEx]] · [[心流状态]] · [[反馈循环]] · [[认知负荷]] · [[技术债]] · [[幻觉]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Nicole Forsgren":1,"代码行数":1,"SPACE":1,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":1,"技术债":2,"幻觉":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Nicole Forsgren":1,"代码行数":1,"SPACE":1,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":1,"技术债":2,"幻觉":3}</script>
 
 <script>
 (function(){

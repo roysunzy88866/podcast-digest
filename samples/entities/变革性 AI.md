@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>变革性 AI (transformative AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="变革性 AI">变革</div><div class="pi"><h1 class="pt">变革性 AI (transformative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>143</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="变革性 AI">变革</div><div class="pi"><h1 class="pt">变革性 AI (transformative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>152</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*143 条*
+*152 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -303,6 +303,24 @@ unlisted: true
 
 ![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q5]]
 
+![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q1]]
+
+![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q3]]
+
+![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q10]]
+
+![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q15]]
+
+![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q1]]
+
+![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q4]]
+
+![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q5]]
+
+![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q6]]
+
+![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q8]]
+
 ## ② 出现在这些集
 
 *1 集*
@@ -315,7 +333,7 @@ unlisted: true
 
 [[Lenny]] · [[Benjamin Mann]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[宪法 AI]] · [[智能体]] · [[缩放定律]] · [[对齐]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Benjamin Mann":1,"Anthropic":68,"OpenAI":61,"Claude":33,"Claude Code":35,"宪法 AI":1,"智能体":138,"缩放定律":4,"对齐":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Benjamin Mann":1,"Anthropic":70,"OpenAI":63,"Claude":33,"Claude Code":36,"宪法 AI":1,"智能体":141,"缩放定律":4,"对齐":5}</script>
 
 <script>
 (function(){

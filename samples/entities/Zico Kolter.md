@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]]
+[[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":4,"Anthropic":68,"Twitter":5,"智能体":138,"红队测试":2,"提示词注入":6,"越狱":1,"护栏":28}</script>
+<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":4,"Anthropic":70,"Twitter":5,"智能体":141,"红队测试":2,"提示词注入":6,"越狱":1,"护栏":28}</script>
 
 <script>
 (function(){

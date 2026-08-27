@@ -131,8 +131,8 @@ Alex 猜测,Meta 可能是在赌一种比 TikTok 更让人上瘾的「AI 伴侣�
 **换个口味**
 
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Apple、OpenAI、Anthropic</span>
+- [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同公司:Meta、OpenAI · 同概念:算力 (compute)、智能体 (agents)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI、Anthropic、Meta</span>
-- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:OpenAI · 同概念:数据飞轮 (data flywheel)</span>
 
 </div>
 </div>

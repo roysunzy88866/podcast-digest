@@ -1,0 +1,1402 @@
+[
+ {
+  "seg": 0,
+  "start": 9.335,
+  "end": 17.497,
+  "speaker": "Unknown",
+  "en": "One of the biggest mistakes I see founders make is relying on aggregate user metrics instead of understanding how any individual users use their product.",
+  "zh": "我看到的创始人犯的最大错误之一是依赖汇总用户指标，而不是理解单个用户如何使用他们的产品。"
+ },
+ {
+  "seg": 1,
+  "start": 17.837,
+  "end": 27.919,
+  "speaker": "Unknown",
+  "en": "In my last video, I talked about cohort retention curves and how you can use those to separate groups of users and track what they do over time throughout using your product.",
+  "zh": "在上一期视频中，我谈到了队列留存曲线，以及你可以如何使用它们来区分用户组，并跟踪他们在使用产品的整个过程中随时间所做的事情。"
+ },
+ {
+  "seg": 2,
+  "start": 28.259,
+  "end": 32.139,
+  "speaker": "Unknown",
+  "en": "And I think that's the best tool that you've got to figure out if people keep using your product.",
+  "zh": "我认为这是你弄清楚人们是否会继续使用你的产品的最佳工具。"
+ },
+ {
+  "seg": 3,
+  "start": 32.339,
+  "end": 34.96,
+  "speaker": "Unknown",
+  "en": "But what you don't know is how are they using your product?",
+  "zh": "但你不知道的是他们是如何使用你的产品？"
+ },
+ {
+  "seg": 4,
+  "start": 35.4,
+  "end": 36.422,
+  "speaker": "Unknown",
+  "en": "How are they interacting?",
+  "zh": "他们是如何互动的？"
+ },
+ {
+  "seg": 5,
+  "start": 36.542,
+  "end": 37.723,
+  "speaker": "Unknown",
+  "en": "What features are they using?",
+  "zh": "他们在使用什么功能？"
+ },
+ {
+  "seg": 6,
+  "start": 37.763,
+  "end": 38.865,
+  "speaker": "Unknown",
+  "en": "What's the frequency of use?",
+  "zh": "使用的频率是多少？"
+ },
+ {
+  "seg": 7,
+  "start": 38.885,
+  "end": 41.108,
+  "speaker": "Unknown",
+  "en": "What's the pacing of how they use the product?",
+  "zh": "他们使用产品的节奏是怎样的？"
+ },
+ {
+  "seg": 8,
+  "start": 41.348,
+  "end": 47.857,
+  "speaker": "Unknown",
+  "en": "And most founders just ignore this, but I think it's the most important signal to figure out if you've built something that people want.",
+  "zh": "大多数创始人忽略了这一点，但我认为这是弄清楚你是否构建了人们想要的东西的最重要信号。"
+ },
+ {
+  "seg": 9,
+  "start": 48.257,
+  "end": 52.203,
+  "speaker": "Unknown",
+  "en": "So you want to be able to look at what individual users are doing, but that's a lot.",
+  "zh": "所以你希望能够看到单个用户在做什么，但这工作量很大。"
+ },
+ {
+  "seg": 10,
+  "start": 52.423,
+  "end": 52.623,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 11,
+  "start": 52.703,
+  "end": 59.609,
+  "speaker": "Unknown",
+  "en": "If you even have like 10 or 20 users, it's pretty challenging to just tail the logs and watch every event that every user is doing.",
+  "zh": "如果你甚至只有 10 或 20 个用户，仅仅盯着日志并观察每个用户做的每一个事件也是相当具有挑战性的。"
+ },
+ {
+  "seg": 12,
+  "start": 59.869,
+  "end": 73.96,
+  "speaker": "Unknown",
+  "en": "So with aggregate data, the graphs that we're all used to talking about, things like DAUs or MAUs, these lump all of your users together and you can't really get a sense of what any individual user is doing.",
+  "zh": "所以对于汇总数据，也就是我们习惯谈论的那些图表，比如 DAU 或 MAU，这些把你所有的用户混在一起，你无法真正了解任何单个用户在做什么。"
+ },
+ {
+  "seg": 13,
+  "start": 74.34,
+  "end": 82.728,
+  "speaker": "Unknown",
+  "en": "And if you have any amount of growth, those graphs tend to be going up and to the right, even if users aren't actually enjoying using your product.",
+  "zh": "如果你有一定程度的增长，那些图表往往会呈上升趋势，即使用户实际上并没有享受使用你的产品。"
+ },
+ {
+  "seg": 14,
+  "start": 83.108,
+  "end": 94.838,
+  "speaker": "Unknown",
+  "en": "So today I want to tell you about a tool that we came to in my startup that allows you to understand what's going on with individual users while also giving you a big picture view of how your entire product is performing.",
+  "zh": "所以今天我想告诉你一个我们在我的创业公司中用到的工具，它允许你了解单个用户的情况，同时也提供关于你的整个产品表现的大局视图。"
+ },
+ {
+  "seg": 15,
+  "start": 95.419,
+  "end": 96.44,
+  "speaker": "Unknown",
+  "en": "And we call it the dot plot.",
+  "zh": "我们称之为点图。"
+ },
+ {
+  "seg": 16,
+  "start": 96.84,
+  "end": 98.78,
+  "speaker": "Unknown",
+  "en": "So let me show you what a dot plot looks like.",
+  "zh": "那么让我给你展示一下点图的样子。"
+ },
+ {
+  "seg": 17,
+  "start": 99.221,
+  "end": 101.901,
+  "speaker": "Unknown",
+  "en": "Based on the name, you can figure out it probably involves dots.",
+  "zh": "顾名思义，你就能猜出它大概包含点。"
+ },
+ {
+  "seg": 18,
+  "start": 102.321,
+  "end": 109.283,
+  "speaker": "Unknown",
+  "en": "What you basically do is just make a two-dimensional grid, like a spreadsheet, where there are a bunch of columns and a bunch of rows.",
+  "zh": "你基本上要做的就是制作一个二维网格，就像电子表格那样，里面有一堆列和一堆行。"
+ },
+ {
+  "seg": 19,
+  "start": 109.783,
+  "end": 113.183,
+  "speaker": "Unknown",
+  "en": "Each row represents one individual user.",
+  "zh": "每一行代表一个单独的用户。"
+ },
+ {
+  "seg": 20,
+  "start": 113.463,
+  "end": 115.484,
+  "speaker": "Unknown",
+  "en": "If I'm one of the users, I'll write my name here.",
+  "zh": "如果我是用户之一，我会把我的名字写在这里。"
+ },
+ {
+  "seg": 21,
+  "start": 115.544,
+  "end": 116.864,
+  "speaker": "Unknown",
+  "en": "Dave, I'm one of the users.",
+  "zh": "Dave，我是用户之一。"
+ },
+ {
+  "seg": 22,
+  "start": 117.544,
+  "end": 120.705,
+  "speaker": "Unknown",
+  "en": "And every other user of your product gets their own row.",
+  "zh": "你的产品的每一个其他用户都有自己的行。"
+ },
+ {
+  "seg": 23,
+  "start": 123.059,
+  "end": 125.521,
+  "speaker": "Unknown",
+  "en": "And then every column represents a time period.",
+  "zh": "然后每一列代表一个时间段。"
+ },
+ {
+  "seg": 24,
+  "start": 125.801,
+  "end": 131.006,
+  "speaker": "Unknown",
+  "en": "I think days are usually the right thing to use for your product, but it probably depends a bit on the nature of your product.",
+  "zh": "我认为对于你的产品来说，“天”通常是合适的单位，但这可能有点取决于你产品的性质。"
+ },
+ {
+  "seg": 25,
+  "start": 131.486,
+  "end": 132.907,
+  "speaker": "Unknown",
+  "en": "So let's just draw in the days.",
+  "zh": "那么我们就把天数画进去吧。"
+ },
+ {
+  "seg": 26,
+  "start": 133.147,
+  "end": 137.171,
+  "speaker": "Unknown",
+  "en": "I'll just do Monday, Tuesday, Wednesday, Thursday, Friday.",
+  "zh": "我就只做周一、周二、周三、周四、周五。"
+ },
+ {
+  "seg": 27,
+  "start": 137.591,
+  "end": 141.714,
+  "speaker": "Unknown",
+  "en": "And you can make this as big or as small as you want.",
+  "zh": "你可以根据需要把它做得尽可能大或尽可能小。"
+ },
+ {
+  "seg": 28,
+  "start": 142.175,
+  "end": 147.819,
+  "speaker": "Unknown",
+  "en": "For the sake of this example, I'll just do like a week or two of days just to show you what's going on here.",
+  "zh": "为了这个例子的缘故，我只做一周或两周的天数，只是为了向你展示这里是怎么回事。"
+ },
+ {
+  "seg": 29,
+  "start": 148.2,
+  "end": 152.083,
+  "speaker": "Unknown",
+  "en": "And then the idea, it's called a dot plot, is you put some dots in each of the cells.",
+  "zh": "然后这个点图的理念是，你在每个单元格里放一些点。"
+ },
+ {
+  "seg": 30,
+  "start": 152.343,
+  "end": 158.746,
+  "speaker": "Unknown",
+  "en": "You want to pick an event that your user does in the process of using your product that you think represents value in the product.",
+  "zh": "你想选择一个用户在使用产品过程中所做的事件，你认为该事件代表了产品中的价值。"
+ },
+ {
+  "seg": 31,
+  "start": 159.026,
+  "end": 169.432,
+  "speaker": "Unknown",
+  "en": "Maybe it's sharing a photo if you're building a photo app, or listening to a song if you're building a music app, or processing an invoice if you're building a B2B invoice processing product.",
+  "zh": "如果你正在构建照片应用，也许是分享一张照片；如果你正在构建音乐应用，也许是听一首歌；如果你正在构建 B2B 发票处理产品，也许是处理一张发票。"
+ },
+ {
+  "seg": 32,
+  "start": 170.032,
+  "end": 173.897,
+  "speaker": "Unknown",
+  "en": "And you can just put a dot for each day that each user uses the product.",
+  "zh": "你可以为每个用户使用产品的每一天放一个点。"
+ },
+ {
+  "seg": 33,
+  "start": 174.237,
+  "end": 178.862,
+  "speaker": "Unknown",
+  "en": "Let's say we're Spotify and we're building a music streaming app and we want to see how our users are using it.",
+  "zh": "假设我们是 Spotify，我们正在构建一个音乐流媒体应用，我们想看看我们的用户是如何使用它的。"
+ },
+ {
+  "seg": 34,
+  "start": 179.263,
+  "end": 182.727,
+  "speaker": "Unknown",
+  "en": "Let's pick the event that we're going to chart here being listen to a song.",
+  "zh": "让我们选择我们要在这里绘制的事件是“听一首歌”。"
+ },
+ {
+  "seg": 35,
+  "start": 183.007,
+  "end": 185.91,
+  "speaker": "Unknown",
+  "en": "So anytime a user listens to a song during a day, we're going to put a dot.",
+  "zh": "所以每当用户在一天中听了一首歌，我们要放一个点。"
+ },
+ {
+  "seg": 36,
+  "start": 186.591,
+  "end": 187.953,
+  "speaker": "Unknown",
+  "en": "So for me, let's say I...",
+  "zh": "所以对于我，假设我……"
+ },
+ {
+  "seg": 37,
+  "start": 189.847,
+  "end": 200.174,
+  "speaker": "Unknown",
+  "en": "Listen to Spotify song on Monday and Tuesday and not on Wednesday, but Thursday and Friday again, and then maybe again on Monday and Wednesday.",
+  "zh": "周一和周二听 Spotify 歌曲，周三不听，但周四和周五又听，然后可能再次在周一和周三听。"
+ },
+ {
+  "seg": 38,
+  "start": 200.635,
+  "end": 208.46,
+  "speaker": "Unknown",
+  "en": "Another thing you can do to make a record of the first day that a user used the product, the day that they onboarded, you can put another symbol.",
+  "zh": "你可以做的另一件事是记录用户使用产品的第一天，也就是他们入职的那一天，你可以放另一个符号。"
+ },
+ {
+  "seg": 39,
+  "start": 208.5,
+  "end": 214.525,
+  "speaker": "Unknown",
+  "en": "Like let's say on a user's first day, we'll just draw a little ring around the dot like that just to give us a little bit more signal.",
+  "zh": "比如假设在用户的第一天，我们要在点周围画一个小圈，像那样，只是为了给我们多一点信号。"
+ },
+ {
+  "seg": 40,
+  "start": 214.885,
+  "end": 217.006,
+  "speaker": "Unknown",
+  "en": "And what you'll eventually start seeing",
+  "zh": "而你最终会开始看到的"
+ },
+ {
+  "seg": 41,
+  "start": 218.367,
+  "end": 224.953,
+  "speaker": "Unknown",
+  "en": "is a pretty high density visualization of individual users and their usage over time.",
+  "zh": "是单个用户及其随时间使用情况的相当高密度的可视化。"
+ },
+ {
+  "seg": 42,
+  "start": 225.213,
+  "end": 229.237,
+  "speaker": "Unknown",
+  "en": "What's really cool about this is it lets you figure out patterns",
+  "zh": "这真正酷的地方是它让你弄清楚模式"
+ },
+ {
+  "seg": 43,
+  "start": 230.694,
+  "end": 239.642,
+  "speaker": "Unknown",
+  "en": "That you probably would not have seen with your human brain just looking at aggregate charts or looking at individual user logs.",
+  "zh": "那些你可能仅凭人脑查看汇总图表或查看单个用户日志时看不到的模式。"
+ },
+ {
+  "seg": 44,
+  "start": 239.983,
+  "end": 242.485,
+  "speaker": "Unknown",
+  "en": "Okay, so let's look at this example I've just drawn.",
+  "zh": "好的，让我们看看我刚画的这个例子。"
+ },
+ {
+  "seg": 45,
+  "start": 243.186,
+  "end": 245.388,
+  "speaker": "Unknown",
+  "en": "For our Spotify app, what do we see?",
+  "zh": "对于我们的 Spotify 应用，我们看到了什么？"
+ },
+ {
+  "seg": 46,
+  "start": 245.408,
+  "end": 249.672,
+  "speaker": "Unknown",
+  "en": "What patterns have emerged now that we can see individual users and their own behavior?",
+  "zh": "既然我们可以看到单个用户和他们自己的行为，那么出现了什么模式？"
+ },
+ {
+  "seg": 47,
+  "start": 249.972,
+  "end": 256.418,
+  "speaker": "Unknown",
+  "en": "Well, one thing I see is it seems like there's a set of people who use the product on weekdays, right?",
+  "zh": "嗯，我看到的一件事是，似乎有一群人在工作日使用产品，对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 256.438,
+  "end": 265.827,
+  "speaker": "Unknown",
+  "en": "We've got myself, we've got user number three here, user four used it on a Monday, user six used it during the week, and there's a couple users who seem to kind of only use it on the weekends.",
+  "zh": "我们有我自己，这里有 3 号用户，4 号用户在周一用过，6 号用户在这一周中用过，还有几个用户似乎只会在周末使用它。"
+ },
+ {
+  "seg": 49,
+  "start": 266.287,
+  "end": 275.832,
+  "speaker": "Unknown",
+  "en": "That's an interesting observation that might help me redesign my product in a different way or target different users, maybe understand which users are the most valuable ones to me.",
+  "zh": "这是一个有趣的观察，可能会帮助我以不同的方式重新设计我的产品或针对不同的用户，或者也许了解哪些用户对我来说是最有价值的。"
+ },
+ {
+  "seg": 50,
+  "start": 275.852,
+  "end": 280.114,
+  "speaker": "Unknown",
+  "en": "Do I want the weekday work time listeners or do I want the weekend users?",
+  "zh": "我想要工作日工作时间的听众还是我想要周末的用户？"
+ },
+ {
+  "seg": 51,
+  "start": 280.474,
+  "end": 284.396,
+  "speaker": "Unknown",
+  "en": "We would have no idea about this if we didn't have a dot plot visualization like this.",
+  "zh": "如果我们没有像这样的点图可视化，我们对这个就会一无所知。"
+ },
+ {
+  "seg": 52,
+  "start": 284.796,
+  "end": 285.997,
+  "speaker": "Unknown",
+  "en": "Another thing I can see is...",
+  "zh": "我能看到的另一件事是……"
+ },
+ {
+  "seg": 53,
+  "start": 287.377,
+  "end": 288.337,
+  "speaker": "Unknown",
+  "en": "A measure of retention.",
+  "zh": "留存的一个衡量标准。"
+ },
+ {
+  "seg": 54,
+  "start": 288.657,
+  "end": 293.699,
+  "speaker": "Unknown",
+  "en": "Like, do we see a lot of users like User4 that try the app on one day and then never come back?",
+  "zh": "比如，我们会看到很多像 User4 那样在一天尝试了这个应用然后就再也没回来的用户吗？"
+ },
+ {
+  "seg": 55,
+  "start": 294.139,
+  "end": 300.72,
+  "speaker": "Unknown",
+  "en": "If we see that on a bunch of our rows, we have an idea of a potential problem that we've got in our onboarding or other things.",
+  "zh": "如果我们在我们的一堆行里看到那个情况，我们就有了一个想法，即我们在引导流程或其他事情中有一个潜在的问题。"
+ },
+ {
+  "seg": 56,
+  "start": 301.12,
+  "end": 305.601,
+  "speaker": "Unknown",
+  "en": "As you get more sophisticated with dot plots, you can make them as intricate as you want.",
+  "zh": "随着你在点图方面变得更老练，你可以把它们做得像你想要的那么复杂。"
+ },
+ {
+  "seg": 57,
+  "start": 305.841,
+  "end": 308.522,
+  "speaker": "Unknown",
+  "en": "At Bump, we had different symbols that we would put into these cells.",
+  "zh": "在 Bump，我们会有不同的符号放进这些格子里。"
+ },
+ {
+  "seg": 58,
+  "start": 308.922,
+  "end": 313.486,
+  "speaker": "Unknown",
+  "en": "So we knew whether you shared your contact information using Bomb or if you shared a photo.",
+  "zh": "所以我们就知道你是否使用了 Bomb 分享了你的联系人信息或者如果你分享了一张照片。"
+ },
+ {
+  "seg": 59,
+  "start": 313.786,
+  "end": 315.427,
+  "speaker": "Unknown",
+  "en": "And it gives you a lot more granularity.",
+  "zh": "并且它给了你更多的粒度。"
+ },
+ {
+  "seg": 60,
+  "start": 315.447,
+  "end": 317.489,
+  "speaker": "Unknown",
+  "en": "And you can kind of go as deep as you want on this.",
+  "zh": "并且你可以在这个上面像你想要的那样深入。"
+ },
+ {
+  "seg": 61,
+  "start": 317.929,
+  "end": 320.971,
+  "speaker": "Unknown",
+  "en": "This idea of dot plots might be familiar to some of you.",
+  "zh": "点图的这个想法可能对你们中的一些人来说很熟悉。"
+ },
+ {
+  "seg": 62,
+  "start": 321.071,
+  "end": 323.553,
+  "speaker": "Unknown",
+  "en": "You've probably seen it at the top of GitHub pages.",
+  "zh": "你可能以前在 GitHub 页面的顶部见过它。"
+ },
+ {
+  "seg": 63,
+  "start": 324.154,
+  "end": 326.375,
+  "speaker": "Unknown",
+  "en": "This is basically what a GitHub graph looks like.",
+  "zh": "这基本上就是一个 GitHub 图表的样子。"
+ },
+ {
+  "seg": 64,
+  "start": 326.495,
+  "end": 328.397,
+  "speaker": "Unknown",
+  "en": "They've just wrapped the days around per week.",
+  "zh": "他们只是按周把天数环绕起来了。"
+ },
+ {
+  "seg": 65,
+  "start": 328.817,
+  "end": 334.962,
+  "speaker": "Unknown",
+  "en": "Another thing you can do is instead of just tracking user actions, you can track user state.",
+  "zh": "你可以做的另一件事是，代替仅仅追踪用户行为，你可以追踪用户状态。"
+ },
+ {
+  "seg": 66,
+  "start": 335.362,
+  "end": 339.384,
+  "speaker": "Unknown",
+  "en": "So was this user using an iPhone or an Android phone?",
+  "zh": "所以这个用户是在用 iPhone 还是用 Android 手机？"
+ },
+ {
+  "seg": 67,
+  "start": 339.424,
+  "end": 340.265,
+  "speaker": "Unknown",
+  "en": "Were they on the web?",
+  "zh": "他们是在网页上吗？"
+ },
+ {
+  "seg": 68,
+  "start": 340.705,
+  "end": 343.867,
+  "speaker": "Unknown",
+  "en": "Was this user coming from the United States or a different country?",
+  "zh": "这个用户是来自美国还是不同的国家？"
+ },
+ {
+  "seg": 69,
+  "start": 344.267,
+  "end": 346.588,
+  "speaker": "Unknown",
+  "en": "Sometimes you have demographic information about your users.",
+  "zh": "有时候你有关于你用户的人口统计信息。"
+ },
+ {
+  "seg": 70,
+  "start": 346.888,
+  "end": 348.749,
+  "speaker": "Unknown",
+  "en": "Is this a user that makes a lot of money?",
+  "zh": "这是一个赚很多钱的用户吗？"
+ },
+ {
+  "seg": 71,
+  "start": 349.069,
+  "end": 354.152,
+  "speaker": "Unknown",
+  "en": "Or is this a college kid that you just got on Reddit or something?",
+  "zh": "或者这是一个你刚在 Reddit 或什么网站上招来的大学生？"
+ },
+ {
+  "seg": 72,
+  "start": 354.472,
+  "end": 359.76,
+  "speaker": "Unknown",
+  "en": "You can encode those states with other symbols or shading the cells different colors.",
+  "zh": "你可以用其他符号来编码那些状态或者把单元格涂成不同的颜色。"
+ },
+ {
+  "seg": 73,
+  "start": 360.08,
+  "end": 361.703,
+  "speaker": "Unknown",
+  "en": "You can write things over here.",
+  "zh": "你可以在这里写东西。"
+ },
+ {
+  "seg": 74,
+  "start": 361.743,
+  "end": 368.993,
+  "speaker": "Unknown",
+  "en": "So like I might say, this is an iOS user, and this is an iOS user, but these ones are Androids.",
+  "zh": "所以比如我可能会说，这是一个 iOS 用户，这是一个 iOS 用户，但这些是 Android 用户。"
+ },
+ {
+  "seg": 75,
+  "start": 369.494,
+  "end": 374.737,
+  "speaker": "Unknown",
+  "en": "And another thing you can do then is sort your rows based on whatever attributes you want to sort them by.",
+  "zh": "然后你可以做的另一件事是基于你想用来排序的任何属性来对你的行进行排序。"
+ },
+ {
+  "seg": 76,
+  "start": 374.998,
+  "end": 382.802,
+  "speaker": "Unknown",
+  "en": "So you might say, I only want to look at iOS users first, or I only want to look at users whose first time using the app was this Monday.",
+  "zh": "所以你可能会说，我只想先看 iOS 用户，或者我只想看那些第一次使用应用是本周一的用户。"
+ },
+ {
+  "seg": 77,
+  "start": 383.083,
+  "end": 387.145,
+  "speaker": "Unknown",
+  "en": "So let's resort so we only see people that have rings around their first day.",
+  "zh": "所以让我们重新排序，这样我们就只看到那些第一天周围有圆圈的人。"
+ },
+ {
+  "seg": 78,
+  "start": 387.445,
+  "end": 396.051,
+  "speaker": "Unknown",
+  "en": "What you find when you look at this in aggregate, you can then kind of zoom out and see an entire page of these, is your brain will start to notice these patterns.",
+  "zh": "当你汇总地看这个时你会发现什么，你可以稍微拉远视角并看到满满一整页的这些，那就是你的大脑会开始注意到这些模式。"
+ },
+ {
+  "seg": 79,
+  "start": 396.751,
+  "end": 400.673,
+  "speaker": "Unknown",
+  "en": "In a way that you would never have figured out on your own a priori.",
+  "zh": "以一种你永远不会自己先验地弄明白的方式。"
+ },
+ {
+  "seg": 80,
+  "start": 401.014,
+  "end": 407.337,
+  "speaker": "Unknown",
+  "en": "This is actually an idea that I remember hearing about 10 years ago from Max Levchin, one of the founders of PayPal.",
+  "zh": "这实际上是一个我记得10年前从 Max Levchin 那里听到的想法，他是 PayPal 的创始人之一。"
+ },
+ {
+  "seg": 81,
+  "start": 407.938,
+  "end": 413.481,
+  "speaker": "Unknown",
+  "en": "They had a big fraud problem at PayPal when they first launched, but they didn't know the patterns to look for.",
+  "zh": "他们在 PayPal 刚发布时有一个大的欺诈问题，但他们不知道要寻找什么模式。"
+ },
+ {
+  "seg": 82,
+  "start": 413.741,
+  "end": 419.745,
+  "speaker": "Unknown",
+  "en": "So what they did instead is build a visualization, a graph of all the transactions that were happening on PayPal.",
+  "zh": "所以他们做的是构建一个可视化，一个发生在 PayPal 上的所有交易的图表。"
+ },
+ {
+  "seg": 83,
+  "start": 420.105,
+  "end": 425.368,
+  "speaker": "Unknown",
+  "en": "And they just had humans sit and stare at screens of these drawings and graphs.",
+  "zh": "他们只是让人类坐在那里盯着这些绘图和图表的屏幕。"
+ },
+ {
+  "seg": 84,
+  "start": 425.888,
+  "end": 435.632,
+  "speaker": "Unknown",
+  "en": "And while the humans didn't know what exactly was going on, they were able to look at the screen and say, that thing happening there, that's different and probably fraud.",
+  "zh": "虽然人类不知道确切发生了什么，他们能够看着屏幕说，那里发生的事情，那是不同的并且可能是欺诈。"
+ },
+ {
+  "seg": 85,
+  "start": 435.852,
+  "end": 437.293,
+  "speaker": "Unknown",
+  "en": "And then they would go and dig into that.",
+  "zh": "然后他们会去深入研究那个。"
+ },
+ {
+  "seg": 86,
+  "start": 437.933,
+  "end": 439.473,
+  "speaker": "Unknown",
+  "en": "It's kind of the same idea with dot plots.",
+  "zh": "这和点图的想法是一样的。"
+ },
+ {
+  "seg": 87,
+  "start": 439.773,
+  "end": 443.275,
+  "speaker": "Unknown",
+  "en": "You can look at these charts and figure out, huh.",
+  "zh": "你可以看着这些图表并弄明白，嗯。"
+ },
+ {
+  "seg": 88,
+  "start": 443.775,
+  "end": 445.517,
+  "speaker": "Unknown",
+  "en": "There's something going on with users.",
+  "zh": "用户那里有一些事情正在发生。"
+ },
+ {
+  "seg": 89,
+  "start": 445.537,
+  "end": 447.338,
+  "speaker": "Unknown",
+  "en": "I see this pattern emerging.",
+  "zh": "我看到这个模式正在浮现。"
+ },
+ {
+  "seg": 90,
+  "start": 447.739,
+  "end": 449.26,
+  "speaker": "Unknown",
+  "en": "And then you can go dig into it a lot deeper.",
+  "zh": "然后你可以去更深入地研究它。"
+ },
+ {
+  "seg": 91,
+  "start": 449.48,
+  "end": 459.63,
+  "speaker": "Unknown",
+  "en": "So to illustrate the point I was talking about where dot plots give you a lot more granularity about what's going on with the users, let's draw the DAU graph for these users.",
+  "zh": "所以为了阐明我刚才谈到的点，即点图给你提供了更多关于用户正在发生什么的粒度，让我们为这些用户画出 DAU 图表。"
+ },
+ {
+  "seg": 92,
+  "start": 459.85,
+  "end": 462.973,
+  "speaker": "Unknown",
+  "en": "So what you would have seen had you only been looking at your DAU graph.",
+  "zh": "所以如果你只看你的 DAU 图表你会看到什么。"
+ },
+ {
+  "seg": 93,
+  "start": 463.233,
+  "end": 465.215,
+  "speaker": "Unknown",
+  "en": "I'll just draw it on top of here to illustrate.",
+  "zh": "我就画在这里上面来演示。"
+ },
+ {
+  "seg": 94,
+  "start": 466.752,
+  "end": 470.073,
+  "speaker": "Unknown",
+  "en": "So again, imagine each of these days is the same day above.",
+  "zh": "所以再次想象，这里的每一天都是上面的同一天。"
+ },
+ {
+  "seg": 95,
+  "start": 471.113,
+  "end": 474.714,
+  "speaker": "Unknown",
+  "en": "The DAU graph here looks like this.",
+  "zh": "这里的 DAU 图表看起来像这样。"
+ },
+ {
+  "seg": 96,
+  "start": 476.114,
+  "end": 477.374,
+  "speaker": "Unknown",
+  "en": "On day one, it's two.",
+  "zh": "在第一天，是两个。"
+ },
+ {
+  "seg": 97,
+  "start": 479.774,
+  "end": 482.015,
+  "speaker": "Unknown",
+  "en": "On day two, it's three.",
+  "zh": "在第二天，是三个。"
+ },
+ {
+  "seg": 98,
+  "start": 483.575,
+  "end": 485.075,
+  "speaker": "Unknown",
+  "en": "On day three, it's two.",
+  "zh": "在第三天，是两个。"
+ },
+ {
+  "seg": 99,
+  "start": 486.376,
+  "end": 493.137,
+  "speaker": "Unknown",
+  "en": "Two, two, two, two, one, zero, one.",
+  "zh": "二，二，二，二，一，零，一。"
+ },
+ {
+  "seg": 100,
+  "start": 495.328,
+  "end": 500.018,
+  "speaker": "Unknown",
+  "en": "So if you were just looking at DAUs, this is the graph you would see.",
+  "zh": "所以如果你只看 DAUs（日活跃用户），你会看到的就是这张图。"
+ },
+ {
+  "seg": 101,
+  "start": 500.479,
+  "end": 502.002,
+  "speaker": "Unknown",
+  "en": "And it really doesn't tell you all that much.",
+  "zh": "而它真的没有告诉你太多信息。"
+ },
+ {
+  "seg": 102,
+  "start": 502.303,
+  "end": 504.507,
+  "speaker": "Unknown",
+  "en": "It basically tells you, yeah, we're not growing.",
+  "zh": "它基本上告诉你，是的，我们没有增长。"
+ },
+ {
+  "seg": 103,
+  "start": 505.088,
+  "end": 506.09,
+  "speaker": "Unknown",
+  "en": "We have some users.",
+  "zh": "我们有一些用户。"
+ },
+ {
+  "seg": 104,
+  "start": 507.036,
+  "end": 510.458,
+  "speaker": "Unknown",
+  "en": "Instead, looking at the dot plot, we have a much richer understanding of our users.",
+  "zh": "相反，看点图，我们对用户有了更丰富的理解。"
+ },
+ {
+  "seg": 105,
+  "start": 510.758,
+  "end": 514.36,
+  "speaker": "Unknown",
+  "en": "We know something about their behavior, maybe something about their lives.",
+  "zh": "我们知道一些关于他们的行为，也许一些关于他们生活的事情。"
+ },
+ {
+  "seg": 106,
+  "start": 514.66,
+  "end": 524.466,
+  "speaker": "Unknown",
+  "en": "We probably have inferred from this that these people that use it during the week, probably they're doing it at the office or in some other place where they can listen to music every single day of the work week.",
+  "zh": "我们可能从中推断出，这些在工作日使用它的人，可能是在办公室或其他可以在工作周的每一天都能听音乐的地方使用它。"
+ },
+ {
+  "seg": 107,
+  "start": 524.666,
+  "end": 526.627,
+  "speaker": "Unknown",
+  "en": "And again, you can go a lot deeper on this.",
+  "zh": "而且，你可以在这个基础上深入挖掘。"
+ },
+ {
+  "seg": 108,
+  "start": 526.727,
+  "end": 531.31,
+  "speaker": "Unknown",
+  "en": "And if you change the dots to be different symbols, for example, in our Spotify example,",
+  "zh": "如果你把点改成不同的符号，例如，在我们的 Spotify 例子中，"
+ },
+ {
+  "seg": 109,
+  "start": 531.85,
+  "end": 535.792,
+  "speaker": "Unknown",
+  "en": "We could choose to represent different features of the product.",
+  "zh": "我们可以选择代表产品的不同功能。"
+ },
+ {
+  "seg": 110,
+  "start": 536.132,
+  "end": 541.394,
+  "speaker": "Unknown",
+  "en": "Let's say if a user uses search in Spotify, we'll put a little S next to it.",
+  "zh": "比如说，如果用户在 Spotify 中使用搜索，我们就在旁边放一个小 S。"
+ },
+ {
+  "seg": 111,
+  "start": 542.014,
+  "end": 548.716,
+  "speaker": "Unknown",
+  "en": "Or if they use maybe a playlist, they join a public playlist, let's say, we could put a P there.",
+  "zh": "或者如果他们可能使用了播放列表，他们加入了一个公共播放列表，比如说，我们可以在那里放一个 P。"
+ },
+ {
+  "seg": 112,
+  "start": 549.196,
+  "end": 550.657,
+  "speaker": "Unknown",
+  "en": "And you might start to see patterns.",
+  "zh": "你可能会开始看到模式。"
+ },
+ {
+  "seg": 113,
+  "start": 551.197,
+  "end": 556.422,
+  "speaker": "Unknown",
+  "en": "Where specific features maybe drive behaviors in the product that you actually want.",
+  "zh": "在这里，特定的功能可能会驱动你真正想要的产品行为。"
+ },
+ {
+  "seg": 114,
+  "start": 557.243,
+  "end": 562.688,
+  "speaker": "Unknown",
+  "en": "Let's just say for the sake of argument that we see this one user here that joined a public playlist.",
+  "zh": "让我们假设为了讨论的缘故，我们在这里看到有一个用户加入了公共播放列表。"
+ },
+ {
+  "seg": 115,
+  "start": 562.948,
+  "end": 567.192,
+  "speaker": "Unknown",
+  "en": "They then have a string of many, many consecutive days of using the product.",
+  "zh": "然后他们有一连串很多很多连续使用产品的天数。"
+ },
+ {
+  "seg": 116,
+  "start": 567.612,
+  "end": 573.117,
+  "speaker": "Unknown",
+  "en": "We could then infer like, oh, maybe the playlist feature is really causal to having people be really active in our product.",
+  "zh": "我们可以推断，哦，也许播放列表功能是导致人们在我们产品中非常活跃的真正原因。"
+ },
+ {
+  "seg": 117,
+  "start": 573.518,
+  "end": 575.76,
+  "speaker": "Unknown",
+  "en": "This is the sort of stuff that you can learn with dot plots.",
+  "zh": "这些是你通过点图可以学到的东西。"
+ },
+ {
+  "seg": 118,
+  "start": 576.3,
+  "end": 581.227,
+  "speaker": "Unknown",
+  "en": "So what's really great for most founders, you have a very small number of users at the beginning.",
+  "zh": "所以对于大多数创始人来说，真正棒的是，你一开始拥有的用户数量很少。"
+ },
+ {
+  "seg": 119,
+  "start": 581.607,
+  "end": 587.295,
+  "speaker": "Unknown",
+  "en": "And so you can literally look at every single user of your product on every single day they've ever used it.",
+  "zh": "所以你实际上可以看到你产品的每一个用户，在他们使用过的每一天的情况。"
+ },
+ {
+  "seg": 120,
+  "start": 587.696,
+  "end": 590.86,
+  "speaker": "Unknown",
+  "en": "And it all fits on one screen on your monitor.",
+  "zh": "它都能显示在你显示器的一个屏幕上。"
+ },
+ {
+  "seg": 121,
+  "start": 591.761,
+  "end": 592.322,
+  "speaker": "Unknown",
+  "en": "That's really great.",
+  "zh": "这真的很棒。"
+ },
+ {
+  "seg": 122,
+  "start": 592.963,
+  "end": 597.83,
+  "speaker": "Unknown",
+  "en": "But it actually does scale to when you have thousands or millions or billions of users.",
+  "zh": "但它实际上确实可以扩展到当你拥有成千上万、数百万或数十亿用户的时候。"
+ },
+ {
+  "seg": 123,
+  "start": 598.11,
+  "end": 602.496,
+  "speaker": "Unknown",
+  "en": "This is a tool that we used at Google Photos when we had well more than a billion users.",
+  "zh": "这是我们在 Google Photos 使用过的一个工具，当时我们有远远超过十亿的用户。"
+ },
+ {
+  "seg": 124,
+  "start": 602.957,
+  "end": 608.685,
+  "speaker": "Unknown",
+  "en": "And the idea is you can just choose to sample your users and represent them on a dot plot however you want.",
+  "zh": "其思路是你可以选择对你的用户进行抽样，并以你想要的任何方式在点图上展示他们。"
+ },
+ {
+  "seg": 125,
+  "start": 609.125,
+  "end": 616.372,
+  "speaker": "Unknown",
+  "en": "So we would have days where we print out dozens of these pieces of paper with dot plots on them for different samples of our user base.",
+  "zh": "所以我们会有些日子，我们会打印出几十张这样的纸，上面有我们用户群不同样本的点图。"
+ },
+ {
+  "seg": 126,
+  "start": 616.452,
+  "end": 621.496,
+  "speaker": "Unknown",
+  "en": "I would print out a piece of paper and hand one of our team members like, here's the iOS users in France.",
+  "zh": "我会打印出一张纸并把它交给我们的团队成员之一，比如，这是法国的 iOS 用户。"
+ },
+ {
+  "seg": 127,
+  "start": 621.616,
+  "end": 622.817,
+  "speaker": "Unknown",
+  "en": "I want you to understand what they're doing.",
+  "zh": "我希望你了解他们在做什么。"
+ },
+ {
+  "seg": 128,
+  "start": 623.178,
+  "end": 629.363,
+  "speaker": "Unknown",
+  "en": "And I would hand another piece of paper to somebody else and say, these are the users on web in the United States who make more than $80,000 a year.",
+  "zh": "我会把另一张纸交给其他人并说，这些是美国年收入超过 8 万美元的网页用户。"
+ },
+ {
+  "seg": 129,
+  "start": 629.383,
+  "end": 630.224,
+  "speaker": "Unknown",
+  "en": "Let's see what they're up to.",
+  "zh": "让我们看看他们在做什么。"
+ },
+ {
+  "seg": 130,
+  "start": 630.704,
+  "end": 636.528,
+  "speaker": "Unknown",
+  "en": "And we would have days where we just sit in the office and look at these dot plots and try to draw conclusions about what's going on with our users.",
+  "zh": "我们会有些日子就坐在办公室里看这些点图，并试图得出关于用户正在发生什么的结论。"
+ },
+ {
+  "seg": 131,
+  "start": 636.989,
+  "end": 645.555,
+  "speaker": "Unknown",
+  "en": "So you might be thinking to yourself, this is cool, Dave, but we're a B2B product and we just sell seats to businesses and they pay for it.",
+  "zh": "所以你可能会想，这很酷，Dave，但我们是一个 B2B 产品，我们只是向企业出售席位，他们为此付费。"
+ },
+ {
+  "seg": 132,
+  "start": 645.635,
+  "end": 647.456,
+  "speaker": "Unknown",
+  "en": "And so that's all that matters, right?",
+  "zh": "所以这就是最重要的，对吧？"
+ },
+ {
+  "seg": 133,
+  "start": 647.877,
+  "end": 650.539,
+  "speaker": "Unknown",
+  "en": "Turns out that dot plots could be really useful to you too.",
+  "zh": "事实证明，点图对你们也真的很有用。"
+ },
+ {
+  "seg": 134,
+  "start": 650.719,
+  "end": 652.2,
+  "speaker": "Unknown",
+  "en": "Let me give you a specific example.",
+  "zh": "我给你举一个具体的例子。"
+ },
+ {
+  "seg": 135,
+  "start": 652.38,
+  "end": 659.828,
+  "speaker": "Unknown",
+  "en": "I worked with a company in the most recent YC batch that had a very name brand customer that signed up and bought their product.",
+  "zh": "我与最近一批 YC 中的的一家公司合作过，他们有一个非常有名的客户签约并购买了他们的产品。"
+ },
+ {
+  "seg": 136,
+  "start": 659.848,
+  "end": 663.371,
+  "speaker": "Unknown",
+  "en": "I think it was like a $80,000 a year contract.",
+  "zh": "我想那是一份每年 8 万美元的合同。"
+ },
+ {
+  "seg": 137,
+  "start": 664.272,
+  "end": 665.293,
+  "speaker": "Unknown",
+  "en": "They onboarded the company.",
+  "zh": "他们把这家公司接入了。"
+ },
+ {
+  "seg": 138,
+  "start": 665.513,
+  "end": 669.057,
+  "speaker": "Unknown",
+  "en": "The company said they wanted 10 seats and later the company churned.",
+  "zh": "公司说他们想要 10 个席位，后来这家公司流失了。"
+ },
+ {
+  "seg": 139,
+  "start": 669.417,
+  "end": 672.959,
+  "speaker": "Unknown",
+  "en": "Let me show you what they could have figured out had they been using dot plots.",
+  "zh": "让我展示一下，如果他们使用点图，他们本可以弄清楚什么。"
+ },
+ {
+  "seg": 140,
+  "start": 673.159,
+  "end": 674.72,
+  "speaker": "Unknown",
+  "en": "So this is what it actually looked like.",
+  "zh": "所以这就是实际的样子。"
+ },
+ {
+  "seg": 141,
+  "start": 675.28,
+  "end": 678.702,
+  "speaker": "Unknown",
+  "en": "The company bought 10 seats, but only three seats ever activated.",
+  "zh": "公司买了 10 个席位，但只有 3 个席位被激活过。"
+ },
+ {
+  "seg": 142,
+  "start": 678.882,
+  "end": 680.683,
+  "speaker": "Unknown",
+  "en": "Only three of those people ever tried the product.",
+  "zh": "只有那三个人尝试过产品。"
+ },
+ {
+  "seg": 143,
+  "start": 681.103,
+  "end": 684.905,
+  "speaker": "Unknown",
+  "en": "And if you look at their usage, they weren't getting a lot of value from it.",
+  "zh": "如果你看看他们的使用情况，他们并没有从中获得太多价值。"
+ },
+ {
+  "seg": 144,
+  "start": 685.565,
+  "end": 688.506,
+  "speaker": "Unknown",
+  "en": "Nobody used it more than two days per week.",
+  "zh": "没有人每周使用超过两天。"
+ },
+ {
+  "seg": 145,
+  "start": 689.306,
+  "end": 691.486,
+  "speaker": "Unknown",
+  "en": "And it looks like pretty sporadic usage.",
+  "zh": "看起来使用非常零星。"
+ },
+ {
+  "seg": 146,
+  "start": 691.866,
+  "end": 694.827,
+  "speaker": "Unknown",
+  "en": "And it turns out what happened is the company was in the States.",
+  "zh": "事实证明，发生的事情是，这家公司在美国。"
+ },
+ {
+  "seg": 147,
+  "start": 695.307,
+  "end": 698.708,
+  "speaker": "Unknown",
+  "en": "The champion had gotten excited about this product and bought it.",
+  "zh": "支持者（champion）对这款产品很兴奋并买了它。"
+ },
+ {
+  "seg": 148,
+  "start": 699.108,
+  "end": 700.328,
+  "speaker": "Unknown",
+  "en": "And then the champion left the company.",
+  "zh": "然后支持者离开了公司。"
+ },
+ {
+  "seg": 149,
+  "start": 700.688,
+  "end": 705.449,
+  "speaker": "Unknown",
+  "en": "And as soon as the champion left, a new person came in and they said, why are we using this software?",
+  "zh": "支持者一离开，一个新人就进来了，他们说，我们为什么要用这个软件？"
+ },
+ {
+  "seg": 150,
+  "start": 705.549,
+  "end": 706.169,
+  "speaker": "Unknown",
+  "en": "We're going to churn.",
+  "zh": "我们要流失了。"
+ },
+ {
+  "seg": 151,
+  "start": 706.249,
+  "end": 709.11,
+  "speaker": "Unknown",
+  "en": "And so they opted out of a renewal clause at the last moment.",
+  "zh": "所以他们在最后一刻选择了退出续约条款。"
+ },
+ {
+  "seg": 152,
+  "start": 709.37,
+  "end": 714.013,
+  "speaker": "Unknown",
+  "en": "The company could have known that this contract was in jeopardy by looking at the dot plot.",
+  "zh": "公司本可以通过看点图知道这份合同处于危险之中。"
+ },
+ {
+  "seg": 153,
+  "start": 714.373,
+  "end": 717.235,
+  "speaker": "Unknown",
+  "en": "So there's a few ways you can misuse dot plots.",
+  "zh": "所以有几种方式你可能误用点图。"
+ },
+ {
+  "seg": 154,
+  "start": 717.695,
+  "end": 720.337,
+  "speaker": "Unknown",
+  "en": "The number one thing is to just chart the wrong event.",
+  "zh": "头号事情就是只是绘制错误的事件。"
+ },
+ {
+  "seg": 155,
+  "start": 720.657,
+  "end": 727.282,
+  "speaker": "Unknown",
+  "en": "A lot of founders might want to populate their dot plot with the easiest way to populate it so it feels good and you see a lot of dots.",
+  "zh": "许多创始人可能想用最简单的方式来填充他们的点图，这样感觉不错，你会看到很多点。"
+ },
+ {
+  "seg": 156,
+  "start": 727.542,
+  "end": 731.104,
+  "speaker": "Unknown",
+  "en": "Maybe you'll pick, like, opened the app or signed into the product.",
+  "zh": "也许你会选择，比如，打开应用或登录产品。"
+ },
+ {
+  "seg": 157,
+  "start": 731.304,
+  "end": 736.748,
+  "speaker": "Unknown",
+  "en": "Those are pretty bad events to choose because they don't really measure whether the user is getting real value.",
+  "zh": "那些是相当糟糕的事件选择，因为它们并没有真正衡量用户是否获得了真正的价值。"
+ },
+ {
+  "seg": 158,
+  "start": 737.068,
+  "end": 741.312,
+  "speaker": "Unknown",
+  "en": "So I suggest you pick something that actually represents value being created for the user.",
+  "zh": "所以我建议你选择一些真正代表为用户创造了价值的东西。"
+ },
+ {
+  "seg": 159,
+  "start": 741.693,
+  "end": 745.657,
+  "speaker": "Unknown",
+  "en": "Listen to a song, share a photo, something like that that's a real event.",
+  "zh": "听一首歌，分享一张照片，像这样的真正事件。"
+ },
+ {
+  "seg": 160,
+  "start": 745.977,
+  "end": 749.3,
+  "speaker": "Unknown",
+  "en": "The other mistake you can make is picking a time period that's too wide.",
+  "zh": "你可能犯的另一个错误是选择的时间段太宽。"
+ },
+ {
+  "seg": 161,
+  "start": 749.7,
+  "end": 755.026,
+  "speaker": "Unknown",
+  "en": "Sometimes founders want to make it look better and they pick weeks, like week one, week two, week three.",
+  "zh": "有时候创始人想让它看起来更好，他们选择周，比如第一周，第二周，第三周。"
+ },
+ {
+  "seg": 162,
+  "start": 755.346,
+  "end": 761.272,
+  "speaker": "Unknown",
+  "en": "It's way harder to figure out what's actually going on unless you look at it at the day or maybe even like sub-day granularity.",
+  "zh": "除非你按天或者甚至像小于天的粒度来看，否则很难弄清楚实际发生了什么。"
+ },
+ {
+  "seg": 163,
+  "start": 761.652,
+  "end": 768.536,
+  "speaker": "Unknown",
+  "en": "So I would go so far as to say until you have hundreds of users, the dot plot could be your only dashboard.",
+  "zh": "所以我想冒昧地说，在你拥有数百名用户之前，点图可能是你唯一的仪表板。"
+ },
+ {
+  "seg": 164,
+  "start": 768.856,
+  "end": 772.377,
+  "speaker": "Unknown",
+  "en": "What's great about dot plots is they're just a logs visualization tool.",
+  "zh": "点图最棒的地方在于它们只是一个日志可视化工具。"
+ },
+ {
+  "seg": 165,
+  "start": 772.658,
+  "end": 774.859,
+  "speaker": "Unknown",
+  "en": "There's no fancy computations happening here.",
+  "zh": "这里没有发生什么花哨的计算。"
+ },
+ {
+  "seg": 166,
+  "start": 775.119,
+  "end": 778.981,
+  "speaker": "Unknown",
+  "en": "You basically just need to parse your logs and put them into a 2D grid.",
+  "zh": "你基本上只需要解析你的日志并把它们放入一个二维网格中。"
+ },
+ {
+  "seg": 167,
+  "start": 779.281,
+  "end": 783.343,
+  "speaker": "Unknown",
+  "en": "This is a thing that modern AI coding tools can whip up in like 10 minutes.",
+  "zh": "这是现代 AI 编码工具可以在大约 10 分钟内快速生成的东西。"
+ },
+ {
+  "seg": 168,
+  "start": 783.683,
+  "end": 787.484,
+  "speaker": "Unknown",
+  "en": "These are best used in conjunction with cohort retention curves.",
+  "zh": "这些最好与队列留存曲线结合使用。"
+ },
+ {
+  "seg": 169,
+  "start": 787.804,
+  "end": 793.526,
+  "speaker": "Unknown",
+  "en": "Cohort retention curves teach you in aggregate whether groups of users that you acquire stick with you over time.",
+  "zh": "队列留存曲线会从总体上教你，你获取的用户群是否会随时间保留下来。"
+ },
+ {
+  "seg": 170,
+  "start": 793.766,
+  "end": 794.907,
+  "speaker": "Unknown",
+  "en": "That's very important.",
+  "zh": "那非常重要。"
+ },
+ {
+  "seg": 171,
+  "start": 794.927,
+  "end": 796.167,
+  "speaker": "Unknown",
+  "en": "You should definitely be measuring that.",
+  "zh": "你绝对应该衡量那个。"
+ },
+ {
+  "seg": 172,
+  "start": 796.387,
+  "end": 810.272,
+  "speaker": "Unknown",
+  "en": "But the dot plot shows you how those users are actually using your product, and they give you the color to go ask the right questions of your users, to go build the right features, to fix things that are broken in your product that you would never learn by looking at aggregate metrics.",
+  "zh": "但是点图向你展示那些用户实际上是如何使用你的产品的，并且它们给你提供依据去向你的用户提问正确的问题，去构建正确的功能，去修复产品中损坏的地方，而这些是你通过看聚合指标永远学不到的。"
+ },
+ {
+  "seg": 173,
+  "start": 810.892,
+  "end": 818.749,
+  "speaker": "Unknown",
+  "en": "So cohort retention curves and dot plots are, in my experience, two of the most important tools that you've got to understand your users.",
+  "zh": "所以队列留存曲线和点图，根据我的经验，是你必须用来理解用户的两个最重要的工具。"
+ },
+ {
+  "seg": 174,
+  "start": 819.41,
+  "end": 819.691,
+  "speaker": "Unknown",
+  "en": "Good luck.",
+  "zh": "祝好运。"
+ }
+]

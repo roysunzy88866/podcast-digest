@@ -1,0 +1,1903 @@
+{
+  "episode_id": "2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-06-30",
+  "tags": [
+    "智能体代码审查",
+    "循环工程",
+    "软件工厂",
+    "技能管理",
+    "DevTools 易用性"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "guy-fajani",
+      "type": "person",
+      "role": "host",
+      "name": "Guy Fajani",
+      "file": "Guy Fajani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            44.08,
+            53.92
+          ],
+          "quote": "Join your hosts, Guy Fajani, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions we're facing developers today.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "cohost",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            44.08,
+            53.92
+          ],
+          "quote": "Join your hosts, Guy Fajani, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions we're facing developers today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3149.44,
+            3152.48
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "andrew",
+      "type": "person",
+      "role": "cohost",
+      "name": "Andrew",
+      "file": "Andrew",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            153.6,
+            154.8
+          ],
+          "quote": "Thanks for joining us here, Andrew.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesl",
+      "type": "company",
+      "role": "company",
+      "name": "TESL",
+      "file": "TESL",
+      "primary": true,
+      "how_described": "本集说 TESL 是提供技能和上下文包管理工具的公司，帮助团队管理和扩展给编码智能体用的指令（技能/skills），其产品 TESL agent 是一个工厂构建智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            117.92,
+            123.76
+          ],
+          "quote": "Today I am excited to announce that we're launching a new product from TESL, the TESL agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            149.36,
+            153.12
+          ],
+          "quote": "Um so to do all of that, we have Drew, our head of product here from TESL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            337.36,
+            348.56
+          ],
+          "quote": "So probably the one I'm most excited about that we uh are using a lot here at TESL is using a TESIL agent to set up your agentic code review harness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 92,
+          "t": [
+            466.56,
+            473.36
+          ],
+          "quote": "One of the core principles of TESL agent and of TESL generally is that we think people are going to want to own and build their own factories, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 101,
+          "t": [
+            528.16,
+            531.04
+          ],
+          "quote": "But TESL is built to be modular by design.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 137,
+          "t": [
+            711.92,
+            716.24
+          ],
+          "quote": "And so the TESL gives you uh, we call it the change risk verifier.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 165,
+          "t": [
+            907.2,
+            918.96
+          ],
+          "quote": "And then it'll use the TESL platform to create evaluation scenarios to sort of run back and say, okay, I've seen this problem, I've created what I think is affixed to it, I've now sort of simulated this PR a few more times.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1693.2,
+            1697.12
+          ],
+          "quote": "And you run the agent and you can use the TESL tools, and clearly, you know, we're sort of quite familiar.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1923.04,
+            1928.48
+          ],
+          "quote": "Uh at TESL, we think that the factory that you build is gonna be a piece of technology.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2240.08,
+            2251.76
+          ],
+          "quote": "Uh, when we think of TESL's mission of agent enablement, we want to help you actually bring coding agents and you know all agents in the future to do real productive work for you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2289.6,
+            2301.04
+          ],
+          "quote": "They're gonna say, help me inventory all of my skills, uh, use TESL to do a security review, find any vulnerabilities, then create policies to make sure that we never have this issue again.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2543.52,
+            2548.72
+          ],
+          "quote": "And so given TESL's overall approach to factory building, it just it seemed like a no-brainer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2926.64,
+            2940.24
+          ],
+          "quote": "And it's worth in the talking about learning and talking about sort of knowledge on it, uh, worth noting that we're actually also launching uh just now uh TESL.io slash learn, which has some interesting agentic patterns and has sort of education capabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2942.24,
+            2949.68
+          ],
+          "quote": "This episode was dedicated to the TESL agent, but you know, there's sort of uh more uh more that you know we've been uh we've been chipping as the as the pace picks up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3039.44,
+            3042.16
+          ],
+          "quote": "So TESL agent, hit enter, just like every other agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3097.12,
+            3099.36
+          ],
+          "quote": "Hopefully you find the TESL agent interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3105.2,
+            3109.52
+          ],
+          "quote": "Hopefully, you're well familiar that we're all about the community uh at uh TESL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3118.4,
+            3121.28
+          ],
+          "quote": "Uh, we're super, super excited about the TESL agent over here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3157.76,
+            3161.2
+          ],
+          "quote": "And we host monthly meetups at the TESL offices in central London.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论编码智能体在代码审查、委派任务等场景中的应用，以及如何通过循环工程让智能体随时间变得更自主、更有效",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.32,
+            8
+          ],
+          "quote": "And so the Tesla agent is built to sort of almost get you to stop using it, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 3,
+          "t": [
+            15.2,
+            23.52
+          ],
+          "quote": "So in that regard, you might see that the Tesla agent is actually pushing you a little bit more towards this idea of loop engineering and automating its own work in addition to your coding agent work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 6,
+          "t": [
+            30.88,
+            36.4
+          ],
+          "quote": "We got started, we focused on doing what we were doing, and over time it could just delegate more to the agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            117.92,
+            123.76
+          ],
+          "quote": "Today I am excited to announce that we're launching a new product from TESL, the TESL agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            124.08,
+            132.88
+          ],
+          "quote": "We're gonna spend a good portion of this podcast talking about what this agent is and what it is, but don't worry, we're not just gonna sort of talk about our products over here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            169.36,
+            174.16
+          ],
+          "quote": "So Drew, uh tell us a little bit about what this Tesla agent is and you know, what is it that we've just launched?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            177.52,
+            183.2
+          ],
+          "quote": "First is that the Tesla agent is a new agentic interface to all of Tesla's tools.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 41,
+          "t": [
+            189.92,
+            196.8
+          ],
+          "quote": "Tesla agent is just going to help you set that up, put it together in more flexible, intelligent workflows, sort of connecting the tools.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 42,
+          "t": [
+            197.36,
+            203.76
+          ],
+          "quote": "The second, the Tesla agent is sort of a first step towards a broader vision of loop engineering or factory building.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 43,
+          "t": [
+            203.92,
+            208.24
+          ],
+          "quote": "So the idea is that the Tesla agent is a factory-building agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 46,
+          "t": [
+            222,
+            226.48
+          ],
+          "quote": "And this is um I guess you know you'd still run it with sort of the Tesla agent command in the terminal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            240.32,
+            248.16
+          ],
+          "quote": "Pinning agents down these days is always so hard because at the end of the day, you know, you can ask the Tesla agent to write a poem for you, and it will, but I wouldn't recommend it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            252.96,
+            256.16
+          ],
+          "quote": "So ultimately, though, yeah, using the Tesla agent will feel quite familiar.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 55,
+          "t": [
+            256.32,
+            259.2
+          ],
+          "quote": "It's uh terminal-based CLI agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            269.76,
+            274.4
+          ],
+          "quote": "But in addition to that, we've also designed the Tesla agent to be very automation friendly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            300.24,
+            304.4
+          ],
+          "quote": "And so the Tesla agent is built to sort of almost get you to stop using it, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            312.32,
+            322
+          ],
+          "quote": "Um in that regard, you might see that the Tesla agent is actually pushing you a little bit more towards this idea of loop engineering and automating its own work in addition to your coding agent work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 68,
+          "t": [
+            329.2,
+            330.8
+          ],
+          "quote": "So, you know, I picked up the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            337.36,
+            348.56
+          ],
+          "quote": "So probably the one I'm most excited about that we uh are using a lot here at TESL is using a TESIL agent to set up your agentic code review harness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 74,
+          "t": [
+            348.88,
+            372.16
+          ],
+          "quote": "So maybe what I'll do is quickly walk through how you can use the TESIL agent to create an agentic code review, uh, agree with your team on a risk policy for when humans need to review it, uh, and then ultimately set up a recurring loop that will optimize that code review over time so that you can just spend time reviewing code, shipping features, and know that everything's gonna get better as you go.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 75,
+          "t": [
+            372.64,
+            378.96
+          ],
+          "quote": "And so there's a few components of this that I think are pretty illustrative of uh how the Tesla agent works.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            379.12,
+            385.76
+          ],
+          "quote": "So the first, you'd come in and just type something like setup agent at code review, or I want to spend less time reviewing code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 77,
+          "t": [
+            385.92,
+            392.08
+          ],
+          "quote": "Uh and the Tesla agent is gonna start by reviewing and creating evidence-backed findings.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 78,
+          "t": [
+            392.24,
+            406.48
+          ],
+          "quote": "So the Tesla agent is trained or instructed to look through all of your PRs, look through all of your issues in your issue tracker, uh, and then also to look through coding agent session logs that it has access to.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 92,
+          "t": [
+            466.56,
+            473.36
+          ],
+          "quote": "One of the core principles of TESL agent and of TESL generally is that we think people are going to want to own and build their own factories, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            501.68,
+            510.56
+          ],
+          "quote": "So once it's created that skill, the next thing that it will do is set up an actual automated flow so that when a PR goes up, uh an agent with that skill will be run.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            510.72,
+            527.92
+          ],
+          "quote": "Uh so there's a few things that we, the Tesla agent and Tesla, can help you with there, which is we provide basic primitives for running an agent through CI, for having it leave inline comments on a GitHub flow, just the sort of niceties that every team ends up building to get a flow that actually works for them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 102,
+          "t": [
+            531.2,
+            536.32
+          ],
+          "quote": "So if there's things you already have or things you already like, the Tesla agent is fine working with those as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 107,
+          "t": [
+            544.4,
+            556.96
+          ],
+          "quote": "So this already, like at this point, you've already used the Tesla agent to figure out what it should have in a review process to create a unit, a skill, a plugin to be able to uh to execute that code review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            588.56,
+            597.92
+          ],
+          "quote": "We have a cloud sandbox that you can run the review from, uh, which will have log observability, so you can go in and look at the coding agent logs as it ran.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            598.08,
+            609.12
+          ],
+          "quote": "Uh it's also agent and model agnostic, so you can switch easily between any number of coding agents like Codex, Cloud Code, Gemini, et cetera, uh, without having to configure all of them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 117,
+          "t": [
+            609.28,
+            613.28
+          ],
+          "quote": "You just log into TESIL and then set which agent you'd like it to use.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 120,
+          "t": [
+            623.6,
+            632.08
+          ],
+          "quote": "Aaron Powell That's probably a point uh worth emphasizing, which is the actual review in this setup isn't happening with uh TESEL uh itself or with a Tesla agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            632.16,
+            633.6
+          ],
+          "quote": "As we said, that is not a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            634.08,
+            638.56
+          ],
+          "quote": "It is running your agent of choice and sets you up so you can actually swap that agent of choice over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            645.28,
+            649.44
+          ],
+          "quote": "So a lot of what Tesla agent does is actually just helping you orchestrate other coding agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 129,
+          "t": [
+            649.6,
+            653.76
+          ],
+          "quote": "So sometimes the Tesla agent orchestrates itself, which is always getting a little bit meta.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            654.16,
+            664.16
+          ],
+          "quote": "Um, but once you have that uh generic code review set up, the next thing that the Tesla agent will help you do is set up a PR review sort of human gate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            664.48,
+            675.04
+          ],
+          "quote": "And what this means is that we found a lot of companies when they adopt uh agentic code review, the next question they have is when do I have to review it now versus when can the agent review it?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 149,
+          "t": [
+            801.84,
+            806
+          ],
+          "quote": "You review uh the code itself, I guess, that you're sort of invoking a coding agent for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            821.6,
+            828.24
+          ],
+          "quote": "But really what that does is it reviews whether the agent has adhered to the uh context that you've given it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            849.52,
+            861.92
+          ],
+          "quote": "So it's a way of saying, I told an agent to do these things, but did it actually do them in a way that is fast and scalable and doesn't require uh a million tokens every time you wanna you wanna ask that question.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 158,
+          "t": [
+            862.48,
+            866.88
+          ],
+          "quote": "Uh and then the last piece, uh you know, I mentioned the Tesla agent will always push you towards the loop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 162,
+          "t": [
+            870.8,
+            889.92
+          ],
+          "quote": "So the uh what the final thing that will be set up is a recurring daily or weekly, depending on what you'd like, automation where the Tesla agent will scan, again, all of your PRs, uh CI checks, PR comments, coding agent sessions, and try to find new mistakes that are slipping through.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            895.68,
+            907.04
+          ],
+          "quote": "And as humans are leaving review feedback, the Tesla agent is basically observing those and creating new verifiers or updating your review skill to try and capture those issues.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 167,
+          "t": [
+            922.08,
+            931.28
+          ],
+          "quote": "And so that's where you get into the automated loop of every day, every week, you're just getting a couple PRs from the Tesla agent that make you just a little more AI native, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 172,
+          "t": [
+            954.16,
+            959.6
+          ],
+          "quote": "Just sort of we got started, we focused on doing what we were doing, and over time it could just delegate more to the agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1021.04,
+            1035.76
+          ],
+          "quote": "In fact, this was like one of the main reasons we chose to build the Tesla agent, is that building your software factory, making agents more effective, uh, getting them to run more autonomously, delegating work to them, all of that is unplanned work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1043.68,
+            1062.8
+          ],
+          "quote": "And so when most teams get started with like the traditional, you know, boot up an agent, you start interacting with it, uh, they basically find this place where the agent will have made a mistake and they have to choose between do I push through and ship the feature, or do I pause, roll back, and do some science to try and make the agent able to do this in the future.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1100.96,
+            1110.88
+          ],
+          "quote": "So instead of having a bunch of your insights into how agents are failing, locked away in pr local coding agent session logs, if it's running through a PR review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1315.92,
+            1319.76
+          ],
+          "quote": "But the first piece of advice I always give, and the Tesla agent really tries to especially.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1459.36,
+            1463.52
+          ],
+          "quote": "And so the Tesla agent basically is built to help you do that process.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1502.32,
+            1524
+          ],
+          "quote": "Um and so uh I I think one of the sort of the hidden wiring that we do when you set up the agent is when you run that environment, we don't just set up the skill in the plugin, but we also run it uh under this command call tester launch, which again we'll probably sort of write more about, uh which is more of like an environment management uh uh setup, uh which allows you to then modify that sort of uh uh project or that plugin that it runs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1532.08,
+            1545.84
+          ],
+          "quote": "This is I'd say a big uh so in many ways the Tesla agent is an interface to uh and a driver of a lot of these workflows that without the agent, uh we found that just building up towards a factory was too hard, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1556.72,
+            1570.4
+          ],
+          "quote": "So a lot of what we're doing to your point is just trying to bring into one place a vertical agent focused specifically on this task with good tools, the right sort of latest cutting-edge knowledge kept up to date on your behalf.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1573.76,
+            1579.04
+          ],
+          "quote": "We we like to work with any agent that you bring, but we also want to make it easy for users.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1607.2,
+            1613.2
+          ],
+          "quote": "Like you need a way to wire your issue tracker up to some kind of agent environment to kick off tasks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1623.12,
+            1628.88
+          ],
+          "quote": "And so alongside the Tesla agent, we're releasing a whole bunch of building blocks that make those parts easy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1629.04,
+            1642.24
+          ],
+          "quote": "So the big one that you mentioned, Tesla launch, is just a sort of dead simple drop-it in coding agent environment, runs in the cloud, gathers all the logs for you to review, and do that sort of optimization loop against.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1693.2,
+            1697.12
+          ],
+          "quote": "And you run the agent and you can use the TESL tools, and clearly, you know, we're sort of quite familiar.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1710.88,
+            1716.64
+          ],
+          "quote": "Uh but the idea of the agent is you know it can help pull that together and provide you these different services to help you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1720.4,
+            1725.12
+          ],
+          "quote": "Can you just sort of quickly name a few other examples of loops or use cases that the agent can help you with?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1732.96,
+            1741.28
+          ],
+          "quote": "Uh so after setting up code review, I think my next few favorite uh first is you can just ask the agent, what could I delegate to agents?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1751.76,
+            1764.72
+          ],
+          "quote": "Another thing that you can do is if there is a certain component or type of feature that agents have been struggling with, you can just ask the Tesla agent, you know, help agents work in my front end, or make agents more effective at designing layouts.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1768.4,
+            1772.56
+          ],
+          "quote": "Uh another great one to get started is just make my repo agent ready.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1792.64,
+            1807.76
+          ],
+          "quote": "So I'd say those are probably the ones that get started, just set up code review, fix a thorny issue where agents have just been messing up in your code base, set up repo maintenance tasks, or just ask the Tesla agent to help you delegate more work to AI, and then it'll go from there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1843.68,
+            1845.44
+          ],
+          "quote": "Tesla agent is designed to handle all of this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1848.72,
+            1857.04
+          ],
+          "quote": "And uh one of the main things that the Tesla Agent does is think about how to break it down into a loop and suggest an automation so that you never have to do the same task more than once or twice.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2212.16,
+            2213.76
+          ],
+          "quote": "How does that relate to the agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2240.08,
+            2251.76
+          ],
+          "quote": "Uh, when we think of TESL's mission of agent enablement, we want to help you actually bring coding agents and you know all agents in the future to do real productive work for you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2483.84,
+            2495.76
+          ],
+          "quote": "Um and I guess just as a side comment, you know, we focus very much here on sort of the agent's um uh uh advantages and the sort of new competency from terms of like Tesla helping you with engineering and uh uh harness engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2496.16,
+            2507.44
+          ],
+          "quote": "But you know the agent is also an interface for many other things, and we you know we love sort of seeing you know customers use it for customizing and defining their policy, for handling that inventory processes, for sort of building those out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2507.52,
+            2508.64
+          ],
+          "quote": "So excited about the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2508.72,
+            2516.96
+          ],
+          "quote": "And it's interesting how you know we we kind of grew to to accept and get used to uh in the web interface having a little agent chat uh on the side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2517.2,
+            2526.32
+          ],
+          "quote": "And to say, fine, yeah, you have you know all of these things that you can invoke, but then you can have the agent to just perform a bunch of actions for me, whether it's on my sort of slide deck or in my analytics portal or whatever it is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2652.88,
+            2655.28
+          ],
+          "quote": "So the agent kind of embodies a bunch of that knowledge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2695.36,
+            2709.6
+          ],
+          "quote": "Because what we've seen is we we created tools, we gave them to users, we wanted to make it easy, so we gave them skills as well, and they ran, but as they would run them in their sort of coding agent of choice, uh it was it was hard for us to fix problems like we've seen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2881.04,
+            2899.92
+          ],
+          "quote": "Uh and then maybe an outshoot of that, as you yourself become more agent-enabled as a product company, one thing that we have found is quickly your rate of shipping features will start to outstrip your GTM motions, eventually just your user's ability to ingest the changes.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2914.32,
+            2919.52
+          ],
+          "quote": "And then the agent is constantly updating and translating that into the latest and greatest in your product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2942.24,
+            2949.68
+          ],
+          "quote": "This episode was dedicated to the TESL agent, but you know, there's sort of uh more uh more that you know we've been uh we've been chipping as the as the pace picks up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2954.88,
+            2957.84
+          ],
+          "quote": "Now we're so we launched the agent, you know what uh what happens next.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2965.12,
+            2973.2
+          ],
+          "quote": "Uh sort of always the name of the game is you can expect the Tesla agent to get faster, cheaper, smarter at everything we've talked about here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3039.44,
+            3042.16
+          ],
+          "quote": "So TESL agent, hit enter, just like every other agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3050.32,
+            3052.96
+          ],
+          "quote": "It's an agent, so you can ask it to do other things as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 530,
+          "t": [
+            3053.2,
+            3058.16
+          ],
+          "quote": "Uh and then over time, more and more of it will be put into automation just as you as you work with the agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3058.8,
+            3066.24
+          ],
+          "quote": "And I think if you want to do the experiment, you can also try out uh having different team members run the Tesla agent because it does look a little bit at their logs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3066.4,
+            3074
+          ],
+          "quote": "And so there's a little bit of an element of if you heard that someone is having a problem, uh having them try the Tesla agent, that might be an interesting experiment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 535,
+          "t": [
+            3075.04,
+            3081.92
+          ],
+          "quote": "It's a great way uh the Tesla agent both can look at your local logs, it can also help you get your logs into a communal space.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3082.16,
+            3094.08
+          ],
+          "quote": "And as a point of getting started, sometimes just sitting down with the last month's worth of coding agent sessions and just asking what's broken, what's taking a lot of our time, will yield some really interesting results.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3097.12,
+            3099.36
+          ],
+          "quote": "Hopefully you find the TESL agent interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3118.4,
+            3121.28
+          ],
+          "quote": "Uh, we're super, super excited about the TESL agent over here.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "loop-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环工程 (loop engineering)",
+      "file": "循环工程",
+      "primary": true,
+      "how_described": "本集将其描述为构建自动化循环来持续优化智能体表现的方法——循环扫描 PR、CI 结果和会话日志，自动生成修复并回测验证，避免团队在'停工修工具'和'将就用'之间两难",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.2,
+            23.52
+          ],
+          "quote": "So in that regard, you might see that the Tesla agent is actually pushing you a little bit more towards this idea of loop engineering and automating its own work in addition to your coding agent work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            132.96,
+            138.8
+          ],
+          "quote": "We'll also talk about loop engineering and what that is and why we think you know it's a thing that you should know about as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            197.36,
+            203.76
+          ],
+          "quote": "The second, the Tesla agent is sort of a first step towards a broader vision of loop engineering or factory building.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 59,
+          "t": [
+            274.56,
+            286.64
+          ],
+          "quote": "So, you know, as we'll get into with the idea of loop engineering, with much of the work that you put into making agents successful and building up a software factory, you kind of want to get out of these interactive sessions, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            312.32,
+            322
+          ],
+          "quote": "Um in that regard, you might see that the Tesla agent is actually pushing you a little bit more towards this idea of loop engineering and automating its own work in addition to your coding agent work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 159,
+          "t": [
+            867.04,
+            869.04
+          ],
+          "quote": "We sort of believe in loop engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 179,
+          "t": [
+            998.56,
+            1006.24
+          ],
+          "quote": "I think uh interestingly, the building these loops, doing the sort of loop engineering, it feels maybe like an advanced topic to start.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1309.44,
+            1315.76
+          ],
+          "quote": "So I think the first thing this is I'm sure going to become a broken record of like pulling it back to loop engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2213.84,
+            2221.92
+          ],
+          "quote": "You know, like over here we're starting saying loop engineering, you kind of alluded to harness engineering on it, which again probably needs like its own kind of conversation on the podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2655.36,
+            2670.8
+          ],
+          "quote": "So, you know, yes, technically you can run it with whatever, you know, with your codex, with your cloud, with your sort of Gemini, but it's uh it's uh it's you need to know what you're doing and it's a lot of work, and then whatever it is you thought you knew, you know, like loop engineering is like a few weeks old and my best you know, in terms of a uh a term.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说技能是你拥有的、可修改可分享可搬运的指令包，比如代码审查技能从团队历史 PR 和评论中提炼出来，不锁死在任何厂商工具里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            451.92,
+            457.92
+          ],
+          "quote": "So the first is that it will set up a general skill-based agentic PR code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 91,
+          "t": [
+            458.16,
+            466.32
+          ],
+          "quote": "And skill-based here is kind of interesting because it's uh unlike a lot of tools that are just sort of one click, you put it in production, you forget about it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 94,
+          "t": [
+            480.24,
+            487.68
+          ],
+          "quote": "And so for code review, we give you, uh we'll help create a skill that we think maps to your code review best practices.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            488,
+            489.2
+          ],
+          "quote": "But it's a skill that you own.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            501.68,
+            510.56
+          ],
+          "quote": "So once it's created that skill, the next thing that it will do is set up an actual automated flow so that when a PR goes up, uh an agent with that skill will be run.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 107,
+          "t": [
+            544.4,
+            556.96
+          ],
+          "quote": "So this already, like at this point, you've already used the Tesla agent to figure out what it should have in a review process to create a unit, a skill, a plugin to be able to uh to execute that code review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            584.56,
+            588.24
+          ],
+          "quote": "So uh one will have helped you create that code review skill.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            895.68,
+            907.04
+          ],
+          "quote": "And as humans are leaving review feedback, the Tesla agent is basically observing those and creating new verifiers or updating your review skill to try and capture those issues.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 174,
+          "t": [
+            967.04,
+            979.04
+          ],
+          "quote": "And so we've defined a thing that would run recurringly, the the skill over here, uh we're running it in some sort of recurring location in an automation that runs again and again, and now we're surveying it uh over and over again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1381.36,
+            1403.76
+          ],
+          "quote": "But then alongside that, if you are good about identifying recurring tasks and structuring them into workflows and really relentlessly carving them off of that general purpose path into a dedicated skill or plugin that codifies this is how we add a new command to our CLI, or this is how we do version bumping, or anything like that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1435.36,
+            1440.4
+          ],
+          "quote": "That's where you can bring in the rest of Tesla's tools to say, I have this skill.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1502.32,
+            1524
+          ],
+          "quote": "Um and so uh I I think one of the sort of the hidden wiring that we do when you set up the agent is when you run that environment, we don't just set up the skill in the plugin, but we also run it uh under this command call tester launch, which again we'll probably sort of write more about, uh which is more of like an environment management uh uh setup, uh which allows you to then modify that sort of uh uh project or that plugin that it runs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2130.4,
+            2132.72
+          ],
+          "quote": "That's just a skill checked into our repo.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2273.68,
+            2285.36
+          ],
+          "quote": "So most companies uh that have gotten started with agents, they're starting to feel skill sprawl, they have hundreds, thousands of skills, they don't know which ones are good, they don't know where the duplicates are.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "verifiers",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证器 (verifiers)",
+      "file": "验证器",
+      "primary": true,
+      "how_described": "本集说验证器是从仓库已有技能和规则中拆出来的非常小、非常快、非常便宜的 LLM 检查规则，像 lint 一样对每个变更跑，专门抓智能体'说了但没做到'的违规",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            738.4,
+            747.44
+          ],
+          "quote": "Uh and then the last thing that we'll do is we'll go through all of your existing skills and context in your repository, and we will create what we call verifiers out of those.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 152,
+          "t": [
+            815.92,
+            820.72
+          ],
+          "quote": "Uh and then you know we introduce this verifiers theory, which probably kind of you know is worthy of a podcast episode on its own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            836.96,
+            849.28
+          ],
+          "quote": "The verifiers, in my opinion, are the thing that really closes the loop between skills and plugins and like the sort of instructions, the control plane you have over agents to the actual code that is generated.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            895.68,
+            907.04
+          ],
+          "quote": "And as humans are leaving review feedback, the Tesla agent is basically observing those and creating new verifiers or updating your review skill to try and capture those issues.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "change-risk-verifier",
+      "type": "concept",
+      "role": "concept",
+      "name": "变更风险验证器 (change risk verifier)",
+      "file": "变更风险验证器",
+      "primary": true,
+      "how_described": "本集说它是 TESL 提供的组件，可按团队策略配置宽松或严格，作为 CI 流水线里的一步自动判断每个 PR 需要人工审查还是可以交给智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            711.92,
+            716.24
+          ],
+          "quote": "And so the TESL gives you uh, we call it the change risk verifier.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集说软件工厂是产出你产品的机器，由技能、工作流、循环等组件构成，应该是开放模块化的、团队自己拥有的，而不是买来的黑盒",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            208.4,
+            220.96
+          ],
+          "quote": "So it helps you go from scaling skills across your org to building your software factory piece by piece, setting up these loops that will talk about how you engineer them to make agents more effective over time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 59,
+          "t": [
+            274.56,
+            286.64
+          ],
+          "quote": "So, you know, as we'll get into with the idea of loop engineering, with much of the work that you put into making agents successful and building up a software factory, you kind of want to get out of these interactive sessions, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1006.4,
+            1016.48
+          ],
+          "quote": "But I think in our own experience, in our own um you know, working with customers or building our own sort of software factory, it actually is feels like the right place to start.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1021.04,
+            1035.76
+          ],
+          "quote": "In fact, this was like one of the main reasons we chose to build the Tesla agent, is that building your software factory, making agents more effective, uh, getting them to run more autonomously, delegating work to them, all of that is unplanned work.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集以智能体代码审查为核心用例，展示了三层架构：基于技能的通用审查、变更风险门控、验证器规则检查，以及循环持续优化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            337.36,
+            348.56
+          ],
+          "quote": "So probably the one I'm most excited about that we uh are using a lot here at TESL is using a TESIL agent to set up your agentic code review harness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 74,
+          "t": [
+            348.88,
+            372.16
+          ],
+          "quote": "So maybe what I'll do is quickly walk through how you can use the TESIL agent to create an agentic code review, uh, agree with your team on a risk policy for when humans need to review it, uh, and then ultimately set up a recurring loop that will optimize that code review over time so that you can just spend time reviewing code, shipping features, and know that everything's gonna get better as you go.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            379.12,
+            385.76
+          ],
+          "quote": "So the first, you'd come in and just type something like setup agent at code review, or I want to spend less time reviewing code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 84,
+          "t": [
+            421.6,
+            432.56
+          ],
+          "quote": "So it's looking for things like what is your style guide, what are common failure cases that agents might have, what are comments that your team seems to provide frequently in code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 90,
+          "t": [
+            451.92,
+            457.92
+          ],
+          "quote": "So the first is that it will set up a general skill-based agentic PR code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 94,
+          "t": [
+            480.24,
+            487.68
+          ],
+          "quote": "And so for code review, we give you, uh we'll help create a skill that we think maps to your code review best practices.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 107,
+          "t": [
+            544.4,
+            556.96
+          ],
+          "quote": "So this already, like at this point, you've already used the Tesla agent to figure out what it should have in a review process to create a unit, a skill, a plugin to be able to uh to execute that code review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            570.56,
+            577.84
+          ],
+          "quote": "So you're already just like with a relatively simple command set up automated code review right now that is based on your historical learnings.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            584.56,
+            588.24
+          ],
+          "quote": "So uh one will have helped you create that code review skill.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 118,
+          "t": [
+            613.6,
+            620.56
+          ],
+          "quote": "Includes open models and open agents as well, which is great for sort of minimizing costs, which is a big one for code review because it's running all the time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            654.16,
+            664.16
+          ],
+          "quote": "Um, but once you have that uh generic code review set up, the next thing that the Tesla agent will help you do is set up a PR review sort of human gate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            664.48,
+            675.04
+          ],
+          "quote": "And what this means is that we found a lot of companies when they adopt uh agentic code review, the next question they have is when do I have to review it now versus when can the agent review it?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            716.48,
+            728.16
+          ],
+          "quote": "You can configure it with your own policy, but it also comes with a relatively uh straightforward one out of the box that you can tune between either more permissive if you'd like to do as much as possible through a genetic code review or more strict.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 169,
+          "t": [
+            936.88,
+            944.72
+          ],
+          "quote": "Uh over time, you don't even realize you're necessarily investing in it this way, but you'll see just sooner code review completion, less time on code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1140.24,
+            1148.4
+          ],
+          "quote": "And I guess the uh we we talked about the sort of the loop improvement when it comes to the the code review and the inspect of those things, but there's also a loop around the agentic process, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1418.72,
+            1424.64
+          ],
+          "quote": "Because then you can find where your bottlenecks are, say, like this is a workflow that runs, for example, code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1440.64,
+            1458.72
+          ],
+          "quote": "It codifies my workflow for code review, create a bunch of hypothetical PRs for it to review, run it through its paces, try it on a small model, try it on an open model, help me make that trade-off of, you know, maybe it's 5% worse, but 80% cheaper, I'm willing to pay that cost.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1613.44,
+            1616.56
+          ],
+          "quote": "You need a whole suite of agentic code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1716.96,
+            1720.24
+          ],
+          "quote": "So we said a lot about code review uh in the process of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1732.96,
+            1741.28
+          ],
+          "quote": "Uh so after setting up code review, I think my next few favorite uh first is you can just ask the agent, what could I delegate to agents?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1792.64,
+            1807.76
+          ],
+          "quote": "So I'd say those are probably the ones that get started, just set up code review, fix a thorny issue where agents have just been messing up in your code base, set up repo maintenance tasks, or just ask the Tesla agent to help you delegate more work to AI, and then it'll go from there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1977.04,
+            1986.96
+          ],
+          "quote": "Design, mock-ups, code review, actually generating code, uh working with your legal team, sales, like all those things need to be brought into the factory over time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2109.12,
+            2111.36
+          ],
+          "quote": "So a great example of this with code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2111.6,
+            2119.36
+          ],
+          "quote": "We think that there is a general harness that should provide code review, but you don't want the brain of your code review to be locked inside that harness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2374.24,
+            2385.68
+          ],
+          "quote": "So coming from this other direction, you might come in immediately with setup agentic code review, or agents can't work with our front-end layout, make it better, and then make sure they never get worse at it again, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 527,
+          "t": [
+            3042.24,
+            3047.68
+          ],
+          "quote": "It'll open a session, ask it to set up code review, ask it to delegate some work to AI for you.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": false,
+      "how_described": "本集提到用评估工具生成假设 PR，在不同模型上跑来量化成本与质量的权衡，以及从真实场景中自动提取评估用例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            250.64,
+            251.84
+          ],
+          "quote": "No, it's not part of our evals.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1148.48,
+            1155.84
+          ],
+          "quote": "And I I really like how in the process of that, you know, we you know we oftentimes sort of preach here the importance of evals and you know how you do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1188.8,
+            1196.48
+          ],
+          "quote": "Uh but hidden behind the scenes, if you sort of use the Tesla flow, you know, we will have created some evals for that plugin that you have, because we've looked at issues.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1216.16,
+            1226.16
+          ],
+          "quote": "So you still get yourself into a place in which you're not only modifying continuously, but you're also building more confidence in your changes because you're creating evals as you go.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1477.44,
+            1488.8
+          ],
+          "quote": "And I think we've always observed how our evals could help you know, for instance, that you can use whatever it is, Deep Seek, you know, instead of Sonnet or instead of GPT-5.5.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open models)",
+      "file": "开源模型",
+      "primary": false,
+      "how_described": "本集说 TESL 的审查环境支持开源模型和开源智能体，适合在代码审查等高频重复任务上做成本优化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            613.6,
+            620.56
+          ],
+          "quote": "Includes open models and open agents as well, which is great for sort of minimizing costs, which is a big one for code review because it's running all the time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1278.8,
+            1280
+          ],
+          "quote": "You like open models on it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集将其作为编码智能体的可选'大脑'之一提及，TESL 的审查框架不绑定任何单一编码智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1325.6,
+            1336.8
+          ],
+          "quote": "If you're thinking about how do I make it so that every time someone opens Claude Code, they're picking the right model, they're planning with Opus, and then delegating to haiku or things like that.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": false,
+      "how_described": "本集将其作为编码智能体的可选'大脑'之一提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            598.08,
+            609.12
+          ],
+          "quote": "Uh it's also agent and model agnostic, so you can switch easily between any number of coding agents like Codex, Cloud Code, Gemini, et cetera, uh, without having to configure all of them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2655.36,
+            2670.8
+          ],
+          "quote": "So, you know, yes, technically you can run it with whatever, you know, with your codex, with your cloud, with your sort of Gemini, but it's uh it's uh it's you need to know what you're doing and it's a lot of work, and then whatever it is you thought you knew, you know, like loop engineering is like a few weeks old and my best you know, in terms of a uh a term.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "github-action",
+      "type": "concept",
+      "role": "concept",
+      "name": "GitHub action",
+      "file": "GitHub action",
+      "primary": false,
+      "how_described": "本集提到 TESL 可以帮你创建 GitHub action 来运行自动化代码审查等循环任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            562.4,
+            570.24
+          ],
+          "quote": "So let's say, for example, here it created a kind of a GitHub action to run that for you, or it uses our app, and we have a little app to sort of help you as I pointed out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1645.76,
+            1648.48
+          ],
+          "quote": "It doesn't have to refresh its GitHub action token all the time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1864.24,
+            1878.72
+          ],
+          "quote": "So like the other flexible aspect of it is do you uh like oftentimes you will set up those uh optimizations and they will land uh as let's say a GitHub action, right, that runs on a schedule or things like that if you're sort of doing something that's in the repo.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集提到 TESL 提供云沙箱来运行代码审查，带有日志可观测性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            588.56,
+            597.92
+          ],
+          "quote": "We have a cloud sandbox that you can run the review from, uh, which will have log observability, so you can go in and look at the coding agent logs as it ran.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

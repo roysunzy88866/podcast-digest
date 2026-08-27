@@ -1,121 +1,135 @@
 {
-  "title_zh": "TESL 智能体与循环工程：让代码审查自我进化的实操路径",
-  "tldr": "TESL 产品负责人 Andrew 讲解 TESL 智能体的核心设计——用「循环工程」把智能体代码审查从一次性设置变成持续自我优化的自动化流程。",
-  "digest_md": "TESL 智能体被设计成一个有点反直觉的目标：让你最终停止使用它。你跟它交互一段时间后，它会主动建议把某些操作变成自动化循环，比如把刚才做过的代码审查设成 CI CD 检查，然后你就不再需要手动触发了 [05:00 Andrew]。\n\n## 用智能体搭代码审查：三层递进\n\n启动 TESL 智能体后，输入类似「帮我设置智能体代码审查」的指令，它会做三件事。\n\n**第一层：创建审查技能。** 智能体先扫一遍你所有的 PR、issue tracker 里的历史问题、以及它能访问的编码智能体会话日志，从中提取潜藏的知识——比如团队的代码风格指南、智能体常犯的错误类型、代码评审里反复出现的评论 [06:25 Andrew]。基于这些，它帮你生成一个「技能」，本质上是把你团队的代码审查最佳实践编码成一份可复用、可修改、可分享的配置，而不是一个黑盒一键方案 [08:00 Andrew]。这个技能不绑死某个编码智能体——你可以用 Codex、Cloud Code、Gemini，也可以用开源模型，在 TESL 里切换就行 [10:09 Andrew]。这一点对成本很关键，后面会讲。\n\n**第二层：设置人工闸门。** 智能体代码审查跑起来后，下一个现实问题是：哪些 PR 还需要人看，哪些可以自动过？TESL 提供一个叫「变更风险验证器」的东西，你可以在里面配置策略——比如跟安全团队、隐私团队协商后定一套规则，然后每个 PR 进来时先过这个验证器，判断风险等级，决定是直接合并、标记出来、还是必须人工审 [11:04 Andrew]。策略有开箱即用的默认版本，你也可以在「更宽松」和「更严格」之间调节 [12:08 Andrew]。\n\n**第三层：验证器——轻量快速的规则检查。** 这是 Andrew 认为最关键的一层。验证器是从你已有的技能和仓库上下文里自动生成的小型、针对性、快速的 LLM linting 规则 [12:27 Andrew]。比如你有一个设计指南规定新元素怎么处理可访问性特征，验证器就会专门盯前端文件，检查 ARIA 属性是否用对了 [12:50 Andrew]。把一堆这样的验证器叠起来，每个都保持极小的关注面，就能做到又快又便宜，像跑 lint 一样对每个变更进行检查 [13:12 Andrew]。它解决的核心问题是：你告诉智能体「按这个规则来」，但它到底有没有真遵守？验证器就是用低成本的方式持续校验这一点 [14:09 Andrew]。\n\n## 循环工程：从「交互」走向「后台自运转」\n\n三层审查搭完，TESL 智能体还会做最后一件事：设置一个每天或每周自动运行的循环。它会再次扫描所有 PR、CI 检查结果、PR 评论、编码智能体会话日志，找还在漏掉的新错误 [14:50 Andrew]。比如你一开始设了「大多数 PR 还是要人审」，但随着人类审阅者不断留反馈，智能体会观察这些反馈，自动创建新验证器或更新审查技能来捕捉同类问题 [15:07 Andrew]。它还会用 TESL 平台生成评估场景，模拟这个 PR 再跑几次，验证修复是否有效 [15:19 Andrew]。\n\n结果是：你不需要搞一个大型专项来提升自动化率。你只管正常写代码、审代码，某天回头看，可能 40-50% 的 PR 已经没有人类看过了——这不是某个倡议的成果，是循环日积月累把越来越多工作委派给了智能体 [15:44 Andrew]。\n\n## 为什么应该「一开始就上循环」\n\nAndrew 认为循环工程听起来像高级话题，但实际上应该是起点 [16:38 Andrew]。原因是：让智能体更有效、更自主地运行，本质上全是计划外工作——你无法预测智能体在哪里失败、何时失败、要花多少力气才能修好 [17:16 Andrew]。大多数团队的现状是二选一：要么只顾交付，陷入局部最优，从来不花时间修智能体；要么很自律地停下来修，但面临几个月的速度下降 [17:43 Andrew]。\n\n循环解决了这个两难。它让智能体的失败以清晰可见的方式暴露出来（比如通过 PR 评论而不是锁在本地会话日志里），然后循环本身承担苦差事——提 PR 说「我发现了这个问题，我觉得这样修」——你只需要判断「对不对」，不用自己动手 [18:20 Andrew]。投入和时间规模跟正常交付匹配上了，智能体自然跟着变好 [18:55 Andrew]。\n\n循环还可以嵌套：你设了每日架构审查循环，再设一个循环来监控这个审查循环，让它每周变得更有效 [30:29 Andrew]。TESL 智能体就是被设计来处理这种「循环套循环」的复杂度的 [30:43 Andrew]。\n\n## 成本优化的正确姿势：别在交互路径上抠，在重复任务上抠\n\n成本现在是个热门话题。Andrew 的核心建议是：不要试图优化你日常使用编码智能体的总体成本 [22:05 Andrew]。原因有两个。第一，没人想在写代码时还思考「这个任务该用哪个模型」。第二，你很难预先判断一个任务会不会变复杂——你以为是个小任务用了轻量模型，结果碰到意料之外的难点，不得不用更强的模型 [22:28 Andrew]。对大多数人来说，日常交互就用你习惯的最好模型，保持灵活。\n\n真正的成本优化发生在你把重复性任务识别出来、结构化成工作流、从通用路径里剥离出来之后 [23:01 Andrew]。一旦一个任务变成了一个明确的技能或插件（比如「这是我们做版本更新的标准流程」），它就成了优化目标——因为你可以用评估工具生成一堆假设 PR，分别在小模型、开源模型、大模型上跑，量化出「差 5% 但便宜 80%」这种权衡，然后做决策 [24:00 Andrew]。TESL 智能体会观察你的工作模式，主动建议把哪些重复任务剥离成结构化工作流，然后帮你做这个优化 [24:23 Andrew]。\n\n## 自建工厂还是买现成：为什么 TESL 选开放模块化\n\nAndrew 的立场很明确：你的软件工厂应该自己建，不应该买一个端到端黑盒 [32:03 Andrew]。理由有三。第一，软件工厂涉及的环节太多——设计、代码审查、代码生成、法务、销售——单一公司不可能在每个环节都是最好的，买整合方案意味着某个环节你拿到了次优解 [32:47 Andrew]。第二，工厂本质上是在生产你的产品，里面的流程和工作流非常具体，是你的 IP 和护城河；如果这些全锁在别人的生态里，对方就有了完全的定价杠杆 [33:35 Andrew]。第三，你工厂里的「秘方」——精心打磨的工作流、风格指南、上下文——应该以技能的形式存在你自己的仓库里，随时可以拔出来插到任何「大脑」上，不被锁定 [35:11 Andrew]。\n\n## AI 时代做产品的四个组件\n\nSimon 总结了他们在构建 TESL 智能体过程中的一个认知：AI 时代产品的形态变成了四个组件 [45:46 Andrew]。一是工具集（前 AI 时代叫「产品」的能力），二是技能集（具身化的专业知识），三是 harness（提供 UX 和打包的东西），四是控制中心/协作平台 [46:00 Andrew]。\n\nAndrew 补充了两个智能体给易用性带来的新维度。第一，智能体让所有人都变成了「只说结果、不学工具语言」的用户——你说「我要什么」，期望一切自动发生，没人愿意再学一套新命令再串起来 [47:04 Andrew]。第二，知识更新速度太快，学习不再是「学一次」，而是「每天每周都在学」，产品的一大块可用性变成了替用户保持知识最新 [47:47 Andrew]。甚至产品自身功能发布速度会超过用户消化能力，所以你需要一个智能体界面来「翻译」产品变化，让用户专注在稳定的业务上 [48:20 Andrew]。\n\n## 本集带走\n\n- **三层代码审查架构**：技能（编码审查规则）→ 风险验证器（决定是否需要人工）→ 验证器（轻量 linting 规则持续检查智能体是否遵守规则）。三层各司其职，且技能不绑死某个编码智能体。\n- **循环是起点不是终点**：别等「先把手动流程跑顺了再自动化」。一开始就设循环，让智能体的失败以 PR 评论等形式暴露出来，循环本身负责提修复 PR，你只做判断。这避免了「只顾交付不修智能体」和「停下来修导致速度骤降」的两难。\n- **成本优化的着力点**：日常交互别抠模型选择，用你习惯的最好模型。把重复任务剥离成结构化技能后，才是用评估工具做「质量 vs 成本」量化权衡的时机。\n- **工厂的秘方放在自己仓库里**：工作流、风格指南这些以技能形式检入你自己的代码仓库，不锁在任何单一平台的黑盒里，随时可以换「大脑」。\n- **上手方式**：下载 Tesla CLI，输入 `tesl agent`，让它设置代码审查，或者直接拿过去一个月的编码智能体会话日志问它「哪里坏了、什么最耗时间」[50:34 Andrew]。",
+  "title_zh": "TESL 智能体：让你的编码智能体自己越用越好",
+  "tldr": "TESL 产品负责人 Andrew 介绍新发布的 TESL 智能体，讲解\"循环工程\"理念——如何让智能体在后台自动优化自身，最终让大量代码审查无需人工介入。",
+  "digest_md": "这集是 TESL 的产品负责人 Andrew 跟主持人 Simon 聊刚发布的 TESL 智能体——一个帮你搭建\"软件工厂\"的命令行智能体。最反直觉的一点是：这个智能体的终极目标是让你**不再使用它**，而是让它在后台自动干活，到某个时刻你团队 40-50% 的 PR 甚至没有一个人在看 [00:56 Andrew]。\n\n## 三层代码审查：从一次性设置到自动进化\n\n用 TESL 智能体搭智能体代码审查，它会一次性帮你设好三层东西：\n\n**第一层：基于技能的 PR 审查。** 你输入一句\"帮我设置代码审查\"，智能体会先扫描你所有的 PR、issue tracker 里的工单、以及编码智能体的会话日志，从中提取你团队已有的隐性知识——比如风格指南是什么、智能体常犯什么错、人工审查时最常给什么意见 [06:25 Andrew]。基于这些，它帮你生成一个\"技能\"（skill），然后用这个技能驱动你选的编码智能体（Claude Code、Gemini 等都行，它不绑定任何一个）去跑审查 [10:13 Andrew]。关键设计：这个技能是你拥有的，你可以改、可以分享、可以搬到工作流的其他地方，不是买来就锁死的黑盒 [07:46 Andrew]。\n\n**第二层：变更风险验证器。** 很多团队用上智能体审查后的下一个问题是：哪些 PR 还需要人看、哪些可以放心交给智能体？TESL 提供一个叫\"变更风险验证器\"的东西，你按团队策略配置——可以调宽松（尽量让智能体审）也可以调严格（大多数仍需人工）——然后作为 CI 流水线里的一步自动跑 [11:04 Andrew]。\n\n**第三层：验证器（verifiers）。** 这是最有技术含量的部分。智能体把你仓库里已有的技能和规则，拆成一个个非常小、非常快、非常便宜的 LLM 检查规则——比如\"前端文件是否正确使用了 ARIA 无障碍属性\"就单独一个验证器 [12:42 Andrew]。堆叠一批这种高度聚焦的小规则，像跑 lint 一样对每个变更跑一遍，专门抓智能体\"说了但没做到\"的违规 [13:12 Andrew]。Andrew 的原话是：验证器真正闭环了\"你给智能体的指令\"和\"它实际生成的代码\"之间的缝隙 [13:56 Andrew]。\n\n## 循环工程：不是先建好再优化，而是从第一天就转起来\n\n三层审查设好之后，TESL 智能体还会帮你设一个每日或每周自动运行的循环：它再次扫描所有 PR、CI 结果、审查评论、智能体会话日志，找新漏掉的错误，然后自动生成新验证器或更新审查技能，再用评估场景回测验证\"修了之后是不是真不犯了\" [14:30 Andrew]。\n\n这个思路叫\"循环工程\"（loop engineering），Andrew 认为它听起来像高级话题，但实际上应该是**起点**而不是终点 [16:30 Andrew]。原因很实际：大多数团队引入智能体后，会卡在一个两难——智能体犯了错，你是继续推功能不管它（陷入局部最优，智能体永远不能做得更多），还是停下来花几个月修内部工具（速度断崖式下跌）[17:23 Andrew]。循环工程绕开了这个选择：循环本身以非常清晰的方式运行，错误信息从本地会话日志里被提取出来变成可操作的 PR，你只需要看一眼说\"有道理\"或者\"不对\"，不用自己动手改，智能体自然就越来越强 [18:17 Andrew]。\n\n而且循环可以嵌套：你设了每日架构审查，再设一个循环去监控这个审查本身、让它每周更有效一点 [30:24 Andrew]。\n\n## 成本优化：别在交互式会话上抠，在重复性工作流上抠\n\n关于成本，Andrew 的核心建议是：**不要试图优化你日常交互式编码时的模型选择** [22:00 Andrew]。原因有两个：一是开发者不想在写代码时还操心该用哪个模型，会默认用自己顺手的；二是你很难提前判断一个任务会不会突然变复杂——你以为是个小模型能干的活，结果碰到了意想不到的难题 [22:28 Andrew]。\n\n正确的做法是：先用你最喜欢的模型做交互式开发，同时把重复性任务逐步剥离成结构化的技能和工作流——**委派和自动化这件事本身，就是成本优化的工作** [23:27 Andrew]。一旦一个任务被结构化了（比如代码审查，每天跑几十次），你就可以用 TESL 的评估工具，生成一批假设 PR，在小模型、开源模型上跑，量化出\"差 5% 但便宜 80%\"这种权衡，然后做有依据的降本决策 [24:00 Andrew]。\n\n## 自建工厂还是买现成：为什么 TESL 选开放模块化\n\nAndrew 承认这跟他的 Web 标准背景有关，但他给出了三个商业层面的论据 [31:48 Andrew]：\n\n第一，没有任何单一公司能在软件工厂的每个组件（设计、代码审查、代码生成、法务对接……）上都做到最好，买单一方案必然在某些环节用了次优解 [32:38 Andrew]。第二，工厂本质上是产出你产品的机器，它里面的工作流和知识是你的 IP 和护城河——如果全锁在一个厂商的生态里，对方随时可以抬价 [33:35 Andrew]。第三，你构建的技能、规则这些\"秘方\"应该跟着你走，而不是锁在某个工具里——比如代码审查的\"大脑\"不应该和审查的\"框架\"绑死，换工具时技能文件直接带走插上就行 [35:11 Andrew]。\n\n## AI 时代做 DevTools：易用性的含义变了\n\nSimon 和 Andrew 最后聊了一个产品层面的观察：智能体时代，\"易用性\"多了两层新含义 [46:15 Andrew]。\n\n一是用户变得\"结果导向到极致\"——不再愿意学你的命令词汇表再自己拼起来，而是\"我告诉你我要什么，你帮我搞定\" [46:54 Andrew]。二是知识的保质期极短——智能体和相关概念几周一变，学习不再是\"学一次管用几年\"，而是每周都在更新，所以产品本身得替用户扛住\"保持最新\"这件事 [47:28 Andrew]。甚至产品发功能的速度会超过用户消化变化的速度，这时候就得靠智能体界面来做\"翻译层\"——用户只管说想要什么，智能体在背后对应到产品最新能力上 [48:01 Andrew]。\n\n> 【背景】TESL 是一家提供\"技能和上下文包管理\"工具的公司，帮助团队管理和扩展给编码智能体用的指令（技能/skills）。本集转写稿中\"Tesla\"\"TESL\"\"TESIL\"混用，均指同一家公司。主持人 Simon 在开场口误称 Andrew 为\"Drew\"，后文也交替使用，实为同一人。\"clawed codex\"应为\"Claude Code\"的转写错误。\"Aaron Powell\"出现在主持人台词中，疑为语音识别误插入的第三方人名，非本集嘉宾。\n\n## 本集带走\n\n- **让智能体审查也分层**：通用审查用技能驱动、风险判断用策略门控、规则合规用小型验证器分别抓——三层各管各的，比一个大而全的审查更精准也更便宜。\n- **从第一天就建循环，别等\"建好再优化\"**：交互式用智能体时遇到的反复出错，直接让循环去观察、生成修复、回测验证，避免\"停工修工具\"还是\"将就用\"的两难。\n- **成本优化瞄准结构化后的重复任务**：日常编码别抠模型，把重复工作剥离成工作流后，用评估量化不同模型的性价比差异再做降本。\n- **技能资产要可携带**：你精心调出来的审查规则、风格指南应该存为仓库里的文件，不锁在某个工具里，换\"大脑\"时直接带走。\n- **入门动作**：下载 TESL CLI，输入 `tesl agent`，让它\"设置代码审查\"或\"看看有什么可以委派给 AI\"——它会扫描你的日志和 PR 自动开始。",
   "quotes": [
+    {
+      "en": "And at some point you might say, like, wow, 40-50% of our PRs don't even have a human looking at it.",
+      "zh": "在某个时刻你可能会说，哇，我们 40-50% 的 PR 甚至没有一个人在看它。",
+      "timestamp": "00:23",
+      "speaker": "Andrew"
+    },
+    {
+      "en": "It just seems hard to imagine how a single provider, a single company could be best in breed at every single component that goes into that, right?",
+      "zh": "很难想象单一提供商、单一公司如何能在其中的每一个组件中都做到业内最佳，对吧？",
+      "timestamp": "32:47",
+      "speaker": "Andrew"
+    },
+    {
+      "en": "And so it's a very sensitive place to be bought into a fully integrated solution that now has complete pricing leverage over you, right?",
+      "zh": "所以这是一个非常敏感的地方，去采纳一个完全集成的解决方案，而现在它拥有对你的完全定价杠杆，对吧？",
+      "timestamp": "33:47",
+      "speaker": "Andrew"
+    },
+    {
+      "en": "And I think the first thing to really internalize about agents is that they've really made all of us insatiable, like outcome-oriented machines, right?",
+      "zh": "我认为关于智能体真正内化的第一件事是，它们真的让我们所有人都变得贪得无厌，就像结果导向的机器，对吧？",
+      "timestamp": "46:54",
+      "speaker": "Andrew"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:56",
+      "speaker": "Andrew",
+      "en": "And at some point you might say, like, wow, 40-50% of our PRs don't even have a human looking at it.",
+      "zh": "在某个时刻你可能会说，哇，我们 40-50% 的 PR 甚至没有一个人在看它。"
+    },
     {
       "timestamp": "05:00",
       "speaker": "Andrew",
       "en": "And so the Tesla agent is built to sort of almost get you to stop using it, right?",
-      "zh": "因此 Tesla 智能体的构建在某种程度上几乎是为了让你停止使用它，对吧？"
+      "zh": "所以 Tesla 智能体的构建是为了让你几乎停止使用它，对吧？"
     },
     {
-      "timestamp": "08:00",
+      "timestamp": "07:46",
       "speaker": "Andrew",
       "en": "One of the core principles of TESL agent and of TESL generally is that we think people are going to want to own and build their own factories, right?",
-      "zh": "TESL 智能体和 TESL 的核心原则之一是我们认为人们将想要拥有和建立他们自己的工厂，对吧？"
+      "zh": "TESL 智能体以及一般来说 TESL 的核心原则之一是，我们认为人们会想要拥有并建立他们自己的工厂，对吧？"
     },
     {
-      "timestamp": "08:00",
-      "speaker": "Andrew",
-      "en": "That this is the kind of thing that will be part of your software engineering discipline, not something you buy off the rack and just take as given.",
-      "zh": "这将成为你软件工程学科的一部分，而不是你从架子上买来并视为理所当然的东西。"
-    },
-    {
-      "timestamp": "14:09",
+      "timestamp": "13:56",
       "speaker": "Andrew",
       "en": "The verifiers, in my opinion, are the thing that really closes the loop between skills and plugins and like the sort of instructions, the control plane you have over agents to the actual code that is generated.",
-      "zh": "验证器，在我看来，是真正闭环的东西，在技能和插件以及像是那种指令之间，即你对智能体的控制平面，到生成的实际代码。"
-    },
-    {
-      "timestamp": "14:22",
-      "speaker": "Andrew",
-      "en": "So it's a way of saying, I told an agent to do these things, but did it actually do them in a way that is fast and scalable and doesn't require uh a million tokens every time you wanna you wanna ask that question.",
-      "zh": "所以这是一种说法，我告诉一个智能体做这些事，但它实际上以一种快速和可扩展的方式做了吗，并且不需要每次你想问那个问题时一百万个标记。"
-    },
-    {
-      "timestamp": "15:44",
-      "speaker": "Andrew",
-      "en": "Uh and at some point you might say, like, wow, 40, 50% of our PRs don't even have a human looking at it.",
-      "zh": "在某个点你可能会说，哇，我们 40、50% 的 PR 甚至没有人类在看它。"
+      "zh": "验证器，在我看来，是真正闭环了技能和插件以及那些指令之间的东西，即你对智能体的控制平面到实际生成的代码之间的东西。"
     },
     {
       "timestamp": "15:50",
       "speaker": "Andrew",
       "en": "We never had to do a big uh big push or initiative to make that happen.",
-      "zh": "我们从来不需要做一个大的推动或倡议来实现这一点。"
+      "zh": "我们从未做过大规模的推动或倡议来实现这一目标。"
     },
     {
-      "timestamp": "17:16",
+      "timestamp": "17:01",
       "speaker": "Andrew",
       "en": "In fact, this was like one of the main reasons we chose to build the Tesla agent, is that building your software factory, making agents more effective, uh, getting them to run more autonomously, delegating work to them, all of that is unplanned work.",
-      "zh": "事实上，这是我们选择构建 Tesla 智能体的主要原因之一，即构建你的软件工厂，使智能体更有效，让它们更自主地运行，委托工作给它们，所有这些都是计划外的工作。"
+      "zh": "事实上，这也是我们选择构建 Tesla 智能体的主要原因之一，就是构建你的软件工厂，让智能体更有效，让它们更自主地运行，将工作委托给它们，所有这些都是计划外的工作。"
     },
     {
       "timestamp": "17:23",
       "speaker": "Andrew",
-      "en": "You have no way of anticipating where agents will fail, when they'll fail, how much work it's going to take to get them to stop failing.",
-      "zh": "你无法预测智能体将在哪里失败，它们何时失败，需要多少工作才能让它们停止失败。"
+      "en": "And so when most teams get started with like the traditional, you know, boot up an agent, you start interacting with it, uh, they basically find this place where the agent will have made a mistake and they have to choose between do I push through and ship the feature, or do I pause, roll back, and do some science to try and make the agent able to do this in the future.",
+      "zh": "所以当大多数团队像传统方式一样开始，启动一个智能体，你开始与它交互，它们基本上会发现这个地方，智能体会犯一个错误，他们必须选择是继续推进并发布功能，还是暂停，回滚，做一些科学尝试以试图让智能体在未来能够做到这一点。"
     },
     {
-      "timestamp": "18:55",
-      "speaker": "Andrew",
-      "en": "Agents will get better naturally as you engage with them.",
-      "zh": "智能体会随着你与它们的互动自然地变好。"
-    },
-    {
-      "timestamp": "22:05",
+      "timestamp": "22:00",
       "speaker": "Andrew",
       "en": "This philosophy is don't try to optimize your general cost, right?",
-      "zh": "这个哲学是不要试图优化你的总体成本，对吧？"
+      "zh": "这种哲学是，不要试图优化你的总体成本，对吧？"
     },
     {
-      "timestamp": "23:01",
+      "timestamp": "22:28",
       "speaker": "Andrew",
-      "en": "But then alongside that, if you are good about identifying recurring tasks and structuring them into workflows and really relentlessly carving them off of that general purpose path into a dedicated skill or plugin that codifies this is how we add a new command to our CLI, or this is how we do version bumping, or anything like that.",
-      "zh": "但与此同时，如果你擅长识别重复性任务并将它们构建成工作流，并且真正无情地将它们从通用路径中剥离出来，放入一个专门的技能或插件中，将这些规范化：这就是我们向 CLI 添加新命令的方式，或者这就是我们进行版本更新的方式，或诸如此类的事情。"
+      "en": "But the second is that it's also very hard to anticipate up front when a job is going to become complicated.",
+      "zh": "但第二点是，很难在一开始预判一项工作何时会变得复杂。"
+    },
+    {
+      "timestamp": "23:27",
+      "speaker": "Andrew",
+      "en": "And so what I generally say is the work of delegating and sort of caught putting a box around a certain task and setting it up to run automated is also the work of cost optimization.",
+      "zh": "所以我一般会说，委派的工作以及某种程度上抓住并把一个框框住某项任务并设置其自动运行的工作，也是成本优化的工作。"
     },
     {
       "timestamp": "24:00",
       "speaker": "Andrew",
       "en": "It codifies my workflow for code review, create a bunch of hypothetical PRs for it to review, run it through its paces, try it on a small model, try it on an open model, help me make that trade-off of, you know, maybe it's 5% worse, but 80% cheaper, I'm willing to pay that cost.",
-      "zh": "它将我的代码审查工作流规范化，创建一堆假设的 PR 供它审查，让它完成全过程，在小模型上试试，在开源模型上试试，帮我做出这种权衡，你知道，也许它差了 5%，但便宜了 80%，我愿意支付那个代价。"
+      "zh": "它编纂了我进行代码审查的工作流，为它创建一堆假设的 PR，让它运行全程，在小模型上试用，在开源模型上试用，帮我做出权衡，你知道，也许它差 5%，但便宜 80%，我愿意付出那个代价。"
     },
     {
-      "timestamp": "30:29",
+      "timestamp": "32:38",
       "speaker": "Andrew",
-      "en": "Uh and once you have one set of loops, then you can make loops around those loops.",
-      "zh": "一旦你有了一组循环，你就可以在那些循环周围制造循环。"
+      "en": "It just seems hard to imagine how a single provider, a single company could be best in breed at every single component that goes into that, right?",
+      "zh": "很难想象单一提供商、单一公司如何能在其中的每一个组件中都做到业内最佳，对吧？"
     },
     {
-      "timestamp": "33:35",
+      "timestamp": "33:47",
       "speaker": "Andrew",
-      "en": "If you think about just the sorts of processes and workflows that you bake in, right, they're very specific, and that's part of what becomes your IP, your moat against competitors.",
-      "zh": "如果你只考虑你融入的流程和工作流种类，对吧，它们是非常具体的，而且那是成为你的知识产权（IP）、你抵御竞争对手的护城河的一部分。"
+      "en": "And so it's a very sensitive place to be bought into a fully integrated solution that now has complete pricing leverage over you, right?",
+      "zh": "所以这是一个非常敏感的地方，去采纳一个完全集成的解决方案，而现在它拥有对你的完全定价杠杆，对吧？"
     },
     {
-      "timestamp": "34:20",
+      "timestamp": "35:19",
       "speaker": "Andrew",
-      "en": "And so we think that your factory needs to be built on an open modular framework that you can sort of trust to assess its own work, right?",
-      "zh": "所以我们认为你的工厂需要建立在一个开放的模块化框架上，你可以有点信任它去评估它自己的工作，对吧？"
+      "en": "You want to be able to say, look, we found a better tool, we're going to move to it.",
+      "zh": "你希望能够说，看，我们找到了一个更好的工具，我们要转移到它。"
     },
     {
-      "timestamp": "47:04",
+      "timestamp": "46:54",
       "speaker": "Andrew",
       "en": "And I think the first thing to really internalize about agents is that they've really made all of us insatiable, like outcome-oriented machines, right?",
-      "zh": "我认为关于智能体首先要真正内化的第一件事是，它们确实让我们所有人都变得贪得无厌，就像结果导向的机器，对吧？"
-    },
-    {
-      "timestamp": "47:15",
-      "speaker": "Andrew",
-      "en": "And so that sort of end-to-end, I want to speak in outcomes, I don't want to speak in the language of your product is has never been more extreme in this moment.",
-      "zh": "所以那种端到端的，我想用结果来说话，我不想用你产品的语言说话，在此时此刻从未如此极端。"
+      "zh": "我认为关于智能体真正内化的第一件事是，它们真的让我们所有人都变得贪得无厌，就像结果导向的机器，对吧？"
     },
     {
       "timestamp": "47:47",
       "speaker": "Andrew",
-      "en": "Agents are changing so fast, they're changing the industry so fast that not only is there just a lot to learn because there's all these new concepts coming out, but learning is no longer a one-time event.",
-      "zh": "智能体变化太快，它们改变行业太快，以至于不仅因为所有这些新概念的出现而有很多东西要学，而且学习不再是一次性事件。"
+      "en": "I mean, we've always had continual learning, but now it's continual learning means like daily or weekly.",
+      "zh": "我的意思是，我们一直有持续学习，但现在持续学习意味着像每天或每周。"
+    },
+    {
+      "timestamp": "48:20",
+      "speaker": "Andrew",
+      "en": "And so you sort of end up getting back into this place where you have to provide an agentic interface that is keeping up with the change of your product so that users can stay focused on the thing that is stable, which is their business and what they want to be doing.",
+      "zh": "所以你最终会回到这个境地，你必须提供一个跟上产品变化的智能体界面，以便用户可以专注于稳定的东西，也就是他们的业务和他们想做的事情。"
     }
   ]
 }

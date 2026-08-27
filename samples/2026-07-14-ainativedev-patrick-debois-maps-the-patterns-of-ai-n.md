@@ -147,9 +147,9 @@ Patrick 把 AI 编码的演进跟 DevOps 做类比：DevOps 从"能不能部署�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:循环工程 (loop engineering)、智能体 (agent)、评估 (evals)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:上下文 (context)、智能体 (agent)、harness、vibe coding</span>
 - [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|Tesla Dark Factory：95%代码无人看过就合并]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:智能体 (agent)、暗工厂 (dark factory)</span>
-- [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|Addy Osmani：从造浏览器到对抗认知投降]]<span class="pd-rz">同概念:循环工程 (loop engineering)、智能体 (agent)、vibe coding、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

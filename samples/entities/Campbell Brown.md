@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]]
+[[Ryan Greenblatt]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":4,"Forum AI":1,"OpenAI":61,"Anthropic":68,"Meta":20,"ChatGPT":36,"LLM":17,"幻觉":2,"诱导性提示":1,"互动率":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":4,"Forum AI":1,"OpenAI":63,"Anthropic":70,"Meta":21,"ChatGPT":36,"LLM":18,"幻觉":3,"诱导性提示":1,"互动率":1}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Amazon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,10 +19,11 @@ unlisted: true
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(32:27起):本集提到 Amazon 刚在 2026 年大举投入 500 亿美元，全额结清了投资 OpenAI 的额度；同时云业务（AWS）迎来了惊人的同比增长，被认为掺杂了 AI 公司左右倒手的循环资金。
 - **[[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]]**(22:38起):本集说它高度实用主义、高度游戏化，有第一方、第三方、国际卖家之间的竞争，与 Whatnot 为小企业赋能的体验完全不同
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(00:33起):本集仅一笔带过，说 Microsoft 更担心 Amazon 和 Google 在做什么。
+- **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集提到 Amazon Web Services 因 AI 编码工具宕机两三次，且 Amazon 给 OpenAI 投了 350 亿美元、给 Anthropic 投了 50 亿，是循环融资中的一环。
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
@@ -32,14 +33,15 @@ unlisted: true
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
 - [[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]] — 作为被讨论公司(提及)
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司(提及)
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[NVIDIA]] · [[Apple]] · [[编码智能体]] · [[Meta]] · [[AGI]]
+[[OpenAI]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[NVIDIA]] · [[Apple]] · [[资本支出]] · [[编码智能体]] · [[CoreWeave]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":61,"Google":27,"Anthropic":68,"Microsoft":12,"智能体":138,"NVIDIA":21,"Apple":12,"编码智能体":1,"Meta":20,"AGI":16}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":63,"Google":28,"Anthropic":70,"Microsoft":13,"智能体":141,"NVIDIA":22,"Apple":12,"资本支出":4,"编码智能体":1,"CoreWeave":2}</script>
 
 <script>
 (function(){

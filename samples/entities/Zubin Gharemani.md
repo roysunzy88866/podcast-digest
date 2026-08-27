@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Campbell Brown]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]] [[Emilio Escobar]]
+[[Ryan Greenblatt]] [[Campbell Brown]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":3,"不确定性":1,"贝叶斯规则":1,"大语言模型":1,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":3,"灾难性遗忘":2,"transformer":3}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":4,"不确定性":1,"贝叶斯规则":1,"大语言模型":1,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":4,"灾难性遗忘":2,"transformer":3}</script>
 
 <script>
 (function(){

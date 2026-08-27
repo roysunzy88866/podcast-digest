@@ -141,7 +141,7 @@ Peter 他们扫了全部 67,000 个技能,写了论文证明实际恶意率只�
 
 - [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|Chamath 谈 AI：别信末日论，打破寡头垄断]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:开源模型 (open-weight models)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:智能体 (agent)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

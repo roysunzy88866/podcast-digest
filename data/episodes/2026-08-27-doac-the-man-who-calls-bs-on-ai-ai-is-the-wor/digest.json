@@ -1,0 +1,219 @@
+{
+  "title_zh": "Ed Zitron：生成式 AI 是一场万亿级骗局",
+  "tldr": "科技公关人 Ed Zitron 认为，生成式 AI 从头到尾是一场骗局——公司夸大能力、隐瞒亏损、靠补贴伪装需求，一旦资金断裂将引发连锁崩塌。",
+  "digest_md": "Ed Zitron 在科技行业做了 15 年公关，他不是那种\"反技术\"的人，但他认为生成式 AI 从诞生的第一天起就不是作为诚实的软件出售的——公司用魔法的术语兜售它，说它会取代所有工作、治愈癌症，实际上它是极其昂贵、不可靠、且根本不赚钱的云软件 [02:33 Unknown]。\n\n## 一万亿美元砸进去，收入在哪？\n\n六家领先的 AI 公司——Anthropic、Amazon、NVIDIA、Microsoft、OpenAI、Google——它们的收入并不是真的来自 AI。直到最近，这些公司 AI 收入的 70% 来自 OpenAI 和 Anthropic，而这两家是亏损公司，如果没有上面那几家持续输血根本活不下去 [04:17 Unknown]。Amazon 给 OpenAI 投了 350 亿美元，给 Anthropic 投了 50 亿，Google 给 Anthropic 投了 100 亿 [04:37 Unknown]。\n\n而未来三年半，分析师预计 OpenAI 和 Anthropic 会有 4000 亿或更多的收入预期——但这全部是投机的，完全没有现实基础 [04:46 Unknown]。\n\n这些公司在资本支出上已经花了超过一万亿美元，明年还想再花一万亿 [06:04 Unknown]。资本支出就是建数据中心、买 GPU（一种专门做 AI 计算的芯片）这种长期投资。以 Stargate Abilene 数据中心为例，1.2 吉瓦的电力，每栋楼 5 万个 GPU，把相当于整个布里斯托尔市的用电量压缩到一个只有城市面积 1/1172 的空间里 [06:42 Unknown]。除 Microsoft 外，所有公司都在举债建这些东西。\n\n最关键的问题是：这些上市公司拒绝披露 AI 收入 [05:08 Unknown]。偶尔提到时，用的是\"年化 run rate\"这种从不定义的指标——可能是月乘以 12，可能是过去四周乘以 13，每次都不一样 [05:20 Unknown]。Ed 的逻辑很简单：如果这东西真赚钱、真值那个价，他们会迫不及待地告诉你数字 [15:14 Unknown]。\n\n## 补贴下的\"采用\"不是真需求\n\nChatGPT 发布 60 天就有 1 亿用户，超过 60% 的美国成年人在三年内将 AI 工具融入日常——但这些数字有欺骗性 [38:17 Unknown]。\n\n当你打开 Google，Gemini 在你耳边尖叫；打开 Word，co-pilot 在烦你；打开 Amazon，Rufus AI 对你买的袜子发表意见。这是历史上最大规模的非自愿技术推送 [08:19 Unknown]。人们用 AI，很大程度上是因为媒体三年来的恐吓式宣传——\"这会抢走你的工作，不用就落后了\" [08:41 Unknown]。\n\n更核心的问题是成本。AI 服务按 token（约四分之三个单词）计费，但你用月度订阅时完全看不到实际消耗 [11:43 Unknown]。Semi Analysis 发现，在每月 200 美元的 ChatGPT 订阅上，你可以烧掉价值 14000 美元的 token；在 Anthropic 上可以烧掉 8000 美元 [12:36 Unknown]。OpenAI 去年亏损了 209 亿美元，因为人们可以无限制地消耗 token 而只付固定月费 [12:52 Unknown]。\n\n当 2026 年 3 月左右，OpenAI 试图让 150 人以上的企业按实际 token 用量付费时，企业的反应是立刻恐慌 [13:13 Unknown]。Uber 在三个月内烧掉了整个年度 token 预算，然后说\"成本太高了，得控制\" [13:29 Unknown]。Ed 的总结：你用 LLM，不管得到的结果对不对，你都得付费 [15:32 Unknown]。\n\n## 和互联网泡沫不一样\n\n主持人用《创新者的窘境》的框架反驳：汽车刚出来时也比马车差，但最终因为更高的增长上限而取代了马 [20:04 Unknown]。Ed 的回应是：汽车时代没有全世界政府喋喋不休、没有每家数学家和科学家涌入同一个行业、没有人类历史上最大规模的不真诚营销活动 [22:24 Unknown]。\n\n高盛的 Jim Covello 在 2024 年的报告中指出：在 iPhone 推出前，有数千场演示说明当各种无线电变小时，某种东西不可避免地会出现。但 AI 没有这样的路径 [40:15 Unknown]。\n\n互联网泡沫后确实诞生了伟大的公司，但有两个本质区别。第一，互联网泡沫后的需求是真实的、未补贴的；生成式 AI 的需求主要是补贴的 [45:44 Unknown]。第二，互联网的基础设施（光纤、传输站）建好后，运营成本会下降；但 AI 数据中心建好后，2050 年的运行成本和今天一样贵，除非电力有突破 [46:35 Unknown]。NVIDIA 的新芯片 Vera Rubin 号称效率高 10 倍，但每兆瓦成本反而更高——如果真有成本突破，他们会第一个嚷嚷 [47:02 Unknown]。\n\n所有这些数据中心只为一件事建：生成式 AI。不是蛋白质折叠，不是自动驾驶，不是机器人 [48:02 Unknown]。Sightline Climate 今年 2 月的数据显示，规划中的数据中心有 190 吉瓦，对应每年 1.6 万亿到 3 万亿美元的需求——而实际年度需求连 1300 亿美元都不到 [48:57 Unknown]。\n\n## 软件质量在下降，不是在提升\n\nAmazon Web Services 今年因为 AI 编码工具宕机了两三次 [52:44 Unknown]。GitHub 的停机频繁到有人开玩笑说\"应该在他们正常运行时发通知\" [23:48 Unknown]。行业数据直接指向 AI 辅助编码的爆发是主要罪魁祸首：代码本身变得更多 bug，AI 活动的体量直接让底层基础设施崩溃 [56:20 Unknown]。\n\n开源社区也有同样的问题——用 LLM 学了点代码的人把不理解的东西推上去，达克效应加上 AI，GitHub 被AI代码淹没了 [56:49 Unknown]。人性就是：如果 AI 写的上一百行\"大体对了\"，下一百行你就不会查那么仔细 [57:17 Unknown]。\n\n## \"AI 取代工作\"没有经济数据支撑\n\nOpenAI 自己发布的研究显示：AI token 支出和每位员工收入之间没有相关性 [65:51 Unknown]。受影响的不是白领主力——是艺术总监、转录员、翻译员，而他们的老板本来就不在乎产出质量，本来就会找最便宜的方案 [66:20 Unknown]。\n\n真正被颠覆的是那些本来就会被廉价劳动力取代的合同工——这更像是\"数字化全球化\" [79:44 Unknown]。至于律师、会计师这些，你听到的永远是合伙人（高薪管理层）在说 AI 多棒，从没听到助理（真正做苦力的人）这么说 [65:14 Unknown]。\n\nEd 还指出一个术语陷阱：行业用\"人工智能\"这个大词，把蛋白质折叠、机器人、自主武器全混在一起，这样当你说\"LLM 不能做某事\"，他们就说\"你忘了给我们布置作业\" [47:31 Unknown]。智能体 AI（agent）也是一样——听起来像自主的，实际上就是 LLM 和 LLM 对话，上面加个框架 [82:58 Unknown]。\n\n## 为什么他们能一直撑着？\n\nEd 的核心理论叫\"Rot-com 泡沫\"：这些大公司的主要业务线增长见顶了，他们没有新的超增长点 [107:53 Unknown]。买 GPU 成了\"踢罐子\"的方式——让市场觉得他们还在做新东西，数字还会涨 [132:20 Unknown]。\n\n这形成了一个循环系统：NVIDIA 卖 GPU 给云厂商，云厂商把钱投给 OpenAI 和 Anthropic，OpenAI 和 Anthropic 拿着钱向云厂商买算力——然后媒体看到支出就说\"AI 押注成功了\" [51:14 Unknown]。Google 上一季度靠 Anthropic 持股增值把账面利润抬高了 990 亿美元 [137:14 Unknown]。\n\n普通人申请贷款要被银行扒一层皮，但 CoreWeave 这种不盈利的 NeoCloud（专门建数据中心出租 GPU 的公司），NVIDIA 会先签 13 亿美元的回租合同当\"客户证明\"，帮它从银行拿到钱 [119:03 Unknown]。\n\n## 泡沫怎么破？\n\nEd 预计 2027 年左右事情会失速 [130:25 Unknown]。OpenAI 原本计划今年上市，现在推迟到明年——就在 Ed 发布了他们的财务数据之后 [128:27 Unknown]。他们上一轮估值 8650 亿美元，想以 1 万亿美元上市，但被顾问劝阻 [129:12 Unknown]。OpenAI 每年至少需要 1000 亿美元才能存活，如果上不了市，下一轮融资会非常困难 [129:40 Unknown]。\n\n连锁反应会是这样：OpenAI 出问题 → 软银（账面持有约 1000 亿美元 OpenAI 股票）被迫缩水 → Amazon、Google、Microsoft 不得不下调增长指引 → 股市回调，散户退休金缩水 → 风投归零（去年超过一半的风投进了 AI，而自 2018 年风投平均回报只有 0.8 到 1.21 倍） [133:12 Unknown]。NVIDIA 的收入可能跌 50% 到 70% [133:38 Unknown]。\n\n## 他什么时候会承认自己错了？\n\n需要两个条件同时满足：硬件突破让成本降低大约一千倍，并且产品变得\"无法与魔法区分\"——真正自主、可靠，不需要那些滑轮杠杆般的复杂框架 [117:37 Unknown]。高标准是他们自己设定的——他们承诺了取代工程师、治愈癌症、改变一切 [126:03 Unknown]。\n\n> 【背景】Ed Zitron 是科技行业评论人，运营独立博客（已从 Substack 迁至 Ghost 平台）和播客 Better Off Lime。主持人是 Diary of a CEO 播客的主持人。转写稿中\"Sam Allman\"为 Sam Altman 的语音识别错误，\"Dario Amadei\"为 Dario Amodei 的错误，\"Eric Schmidt\"应为 Eric Schmidt，\"Clammy Sammy/Clammy Sammorton\"是 Ed 给 Sam Altman 起的绰号，\"rot-com\"是 Ed 自创的词（rot + dot-com），\"fugazi/figazi/figase\"意为虚假、不真实。Sightline Climate 是一家能源与数据中心追踪机构。CoreWeave 是一家 GPU 云服务提供商（NeoCloud）。Victoria 幻觉排行榜是一个追踪 LLM 幻觉率的基准测试。Semi Analysis 是一家半导体分析机构。\n\n## 本集带走\n- **看他们有没有披露 AI 收入**：不披露，或者只用不定义的\"年化 run rate\"，本身就说明问题。真赚钱的公司会嚷嚷。\n- **区分\"采用\"和\"需求\"**：被迫嵌入产品（Google Docs、Word）和补贴下的月费订阅不等于真实需求。看企业按实际 token 付费时的反应——Uber 三个月烧完年度预算后立刻要控成本。\n- **和互联网泡沫的关键区别**：互联网基础设施建好后运营成本下降，AI 数据中心的运营成本不会降；互联网泡沫后有真实需求承接，AI 的需求 70% 来自两家亏损公司，而这两家靠前三家输血。\n- **软件质量是反向指标**：如果 AI 真在提升生产力，Google、Microsoft、Amazon、GitHub 的产品不应该变得更不稳定、更多 bug。\n- **警惕循环融资叙事**：NVIDIA → 云厂商 → OpenAI/Anthropic → 云厂商，这个循环里每一环都在拿\"对方在花钱\"当证据说\"需求存在\"，但钱在圈内转，没有外部真金白银进来。\n- **什么时候会破**：看 OpenAI 能不能上市——上不了市就融不到足够的新钱，连锁反应从那里开始。",
+  "quotes": [
+    {
+      "en": "I think generative AI is at its heart con.",
+      "zh": "我认为生成式 AI 在本质上是一个骗局。",
+      "timestamp": "00:00",
+      "speaker": ""
+    },
+    {
+      "en": "What do you call something where from the very beginning they've sold it in the terms of magic as this thing that will replace all jobs, that will cure cancer, as all of these things.",
+      "zh": "你会怎么称呼这种东西，从一开始他们就以魔法的术语来兜售它，把它当作会取代所有工作、会治愈癌症等等这一切的东西。",
+      "timestamp": "03:00",
+      "speaker": ""
+    },
+    {
+      "en": "Right now, 70% of all AI revenues across those three companies are from OpenAI and Anthropic, two unprofitable, unsustainable companies that literally cannot afford to exist without these very same companies giving them money.",
+      "zh": "现在，这三家公司所有 AI 收入的 70% 来自 OpenAI 和 Anthropic，这两家不盈利、不可持续的公司，如果没有这些完全相同的公司给它们钱，它们根本无法生存。",
+      "timestamp": "04:24",
+      "speaker": ""
+    },
+    {
+      "en": "This is the largest non-consensual push of technology in history.",
+      "zh": "这是历史上最大的非自愿技术推送。",
+      "timestamp": "08:35",
+      "speaker": ""
+    },
+    {
+      "en": "They found that on a $200 a month chat GPT subscription, you can burn $14,000 worth of tokens.",
+      "zh": "他们发现，在每月 200 美元的 ChatGPT 订阅上，你可以烧掉价值 14,000 美元的 token。",
+      "timestamp": "12:40",
+      "speaker": ""
+    },
+    {
+      "en": "You pay when you use an LLM, regardless of whether you get what you want.",
+      "zh": "当你使用 LLM 时你要付费，无论你是否得到了你想要的东西。",
+      "timestamp": "15:32",
+      "speaker": ""
+    },
+    {
+      "en": "You're paying for it whether it works or not.",
+      "zh": "无论它是否有效，你都在为此付费。",
+      "timestamp": "15:44",
+      "speaker": ""
+    },
+    {
+      "en": "When you learn something, you're not creating the average, which really is what these things do, of the documents it could find.",
+      "zh": "当你学习东西时，你并不是在创造平均值——这确实是这些东西所做的——即它找到的文档的平均值。",
+      "timestamp": "33:00",
+      "speaker": ""
+    },
+    {
+      "en": "The reason they use the term artificial intelligence is so everyone would lump everything into it.",
+      "zh": "他们使用人工智能这个术语的原因是，这样每个人都会把所有东西都混为一谈。",
+      "timestamp": "47:31",
+      "speaker": ""
+    },
+    {
+      "en": "OpenAI had a study that came out, I think, like a week ago, that said there was no connection between spending on AI tokens and revenue per employee.",
+      "zh": "OpenAI 有一项研究出来了，我想，大约一周前，说在 AI 令牌支出和每位员工收入之间没有联系。",
+      "timestamp": "65:51",
+      "speaker": ""
+    },
+    {
+      "en": "Every single scam and con starts with rushing you.",
+      "zh": "顺便说一句，每一个骗局和骗局都始于催促你。",
+      "timestamp": "71:45",
+      "speaker": ""
+    },
+    {
+      "en": "They're already in the wrong hands. Mark Zuckerberg, Sam Altman, Dario Amadei.",
+      "zh": "它们已经在坏人之手了。Mark Zuckerberg，Sam Altman，Dario Amadei。",
+      "timestamp": "75:10",
+      "speaker": ""
+    },
+    {
+      "en": "Trillion plus dollars in with the future great financial crisis and the world's greatest marketing psyop.",
+      "zh": "数万亿美元投入在未来的巨大金融危机和世界上最大的营销心理战。",
+      "timestamp": "100:12",
+      "speaker": ""
+    },
+    {
+      "en": "The risk of underinvesting is dramatically greater than the risk of overinvesting.",
+      "zh": "投资不足的风险远大于投资过度的风险。",
+      "timestamp": "114:58",
+      "speaker": ""
+    },
+    {
+      "en": "The reason they're so maniacally spending is because buying AI GPUs allows them to kick the can further.",
+      "zh": "它们如此狂热支出的原因是因为购买 AI GPU 让它们能将问题延后得更远。",
+      "timestamp": "132:20",
+      "speaker": ""
+    },
+    {
+      "en": "The fact that this is happening is insane, and the fact it's not a scandal is insane.",
+      "zh": "这种事情正在发生这一事实是疯狂的，它没成为丑闻这一事实也是疯狂的。",
+      "timestamp": "137:26",
+      "speaker": ""
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:33",
+      "speaker": "Unknown",
+      "en": "I think generative AI is at its heart con.",
+      "zh": "我认为生成式 AI 在本质上是一个骗局。"
+    },
+    {
+      "timestamp": "02:59",
+      "speaker": "Unknown",
+      "en": "What do you call something where from the very beginning they've sold it in the terms of magic as this thing that will replace all jobs, that will cure cancer, as all of these things.",
+      "zh": "你会怎么称呼这种东西，从一开始他们就以魔法的术语来兜售它，把它当作会取代所有工作、会治愈癌症等等这一切的东西。"
+    },
+    {
+      "timestamp": "03:09",
+      "speaker": "Unknown",
+      "en": "And when you look at it, it's boring cloud software that's extremely expensive and unprofitable and also unreliable at its core.",
+      "zh": "而当你审视它时，它是无聊的云软件，极其昂贵、无利可图，并且在核心上也是不可靠的。"
+    },
+    {
+      "timestamp": "04:24",
+      "speaker": "Unknown",
+      "en": "Right now, 70% of all AI revenues across those three companies are from OpenAI and Anthropic, two unprofitable, unsustainable companies that literally cannot afford to exist without these very same companies giving them money.",
+      "zh": "现在，这三家公司所有 AI 收入的 70% 来自 OpenAI 和 Anthropic，这两家不盈利、不可持续的公司，如果没有这些完全相同的公司给它们钱，它们根本无法生存。"
+    },
+    {
+      "timestamp": "08:35",
+      "speaker": "Unknown",
+      "en": "This is the largest non-consensual push of technology in history.",
+      "zh": "这是历史上最大的非自愿技术推送。"
+    },
+    {
+      "timestamp": "12:36",
+      "speaker": "Unknown",
+      "en": "They found that on a $200 a month chat GPT subscription, you can burn $14,000 worth of tokens.",
+      "zh": "他们发现，在每月 200 美元的 ChatGPT 订阅上，你可以烧掉价值 14,000 美元的 token。"
+    },
+    {
+      "timestamp": "15:32",
+      "speaker": "Unknown",
+      "en": "You pay when you use an LLM, regardless of whether you get what you want.",
+      "zh": "当你使用 LLM 时你要付费，无论你是否得到了你想要的东西。"
+    },
+    {
+      "timestamp": "15:44",
+      "speaker": "Unknown",
+      "en": "You're paying for it whether it works or not.",
+      "zh": "无论它是否有效，你都在为此付费。"
+    },
+    {
+      "timestamp": "24:36",
+      "speaker": "Unknown",
+      "en": "It was right in the newsletter. I went, Microsoft stock's never been $575 a stock.",
+      "zh": "它在通讯中是正确的。我说，Microsoft 股票从来没有过 575 美元一股。"
+    },
+    {
+      "timestamp": "33:00",
+      "speaker": "Unknown",
+      "en": "When you learn something, you're not creating the average, which really is what these things do, of the documents it could find.",
+      "zh": "当你学习东西时，你并不是在创造平均值——这确实是这些东西所做的——即它找到的文档的平均值。"
+    },
+    {
+      "timestamp": "47:31",
+      "speaker": "Unknown",
+      "en": "The reason they use the term artificial intelligence is so everyone would lump everything into it.",
+      "zh": "他们使用人工智能这个术语的原因是，这样每个人都会把所有东西都混为一谈。"
+    },
+    {
+      "timestamp": "51:14",
+      "speaker": "Unknown",
+      "en": "Because everyone saw Google, Microsoft, Amazon, and Meta give NVIDIA over, call it 800-something billion dollars, because everyone saw that, they went, well, they wouldn't do that for no reason.",
+      "zh": "因为每个人都看到 Google、Microsoft、Amazon 和 Meta 给了 NVIDIA 超过，姑且称之为 800 多亿，因为每个人都看到了，他们就说，好吧，他们不可能无缘无故这样做。"
+    },
+    {
+      "timestamp": "65:51",
+      "speaker": "Unknown",
+      "en": "OpenAI had a study that came out, I think, like a week ago, that said there was no connection between spending on AI tokens and revenue per employee.",
+      "zh": "OpenAI 有一项研究出来了，我想，大约一周前，说在 AI 令牌支出和每位员工收入之间没有联系。"
+    },
+    {
+      "timestamp": "71:44",
+      "speaker": "Unknown",
+      "en": "Every single scam and con starts with rushing you.",
+      "zh": "顺便说一句，每一个骗局和骗局都始于催促你。"
+    },
+    {
+      "timestamp": "75:10",
+      "speaker": "Unknown",
+      "en": "They're already in the wrong hands. Mark Zuckerberg, Sam Altman, Dario Amadei.",
+      "zh": "它们已经在坏人之手了。Mark Zuckerberg，Sam Altman，Dario Amadei。"
+    },
+    {
+      "timestamp": "99:56",
+      "speaker": "Unknown",
+      "en": "Trillion plus dollars in with the future great financial crisis and the world's greatest marketing psyop.",
+      "zh": "数万亿美元投入在未来的巨大金融危机和世界上最大的营销心理战。"
+    },
+    {
+      "timestamp": "115:05",
+      "speaker": "Unknown",
+      "en": "The risk of underinvesting is dramatically greater than the risk of overinvesting.",
+      "zh": "投资不足的风险远大于投资过度的风险。"
+    },
+    {
+      "timestamp": "132:20",
+      "speaker": "Unknown",
+      "en": "The reason they're so maniacally spending is because buying AI GPUs allows them to kick the can further.",
+      "zh": "它们如此狂热支出的原因是因为购买 AI GPU 让它们能将问题延后得更远。"
+    },
+    {
+      "timestamp": "137:24",
+      "speaker": "Unknown",
+      "en": "The fact that this is happening is insane, and the fact it's not a scandal is insane.",
+      "zh": "这种事情正在发生这一事实是疯狂的，它没成为丑闻这一事实也是疯狂的。"
+    }
+  ]
+}

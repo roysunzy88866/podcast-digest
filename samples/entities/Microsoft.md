@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Microsoft</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,6 +23,7 @@ unlisted: true
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(07:18起):本集揭露 Microsoft 被华尔街称赞在 AI 资本开支上克制，实则是将部分数据中心资产的折旧年限从 15 年拉长到 25 年，把支出从资本支出挪进运营支出，玩弄会计障眼法做低了 CapEx 数字。
 - **[[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]]**(01:15起):本集说它是一家平台公司，CTO 正在内部大力推动所有系统讲同一种标准协议，避免各部门交付出割裂的组织架构图
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(00:33起):本集说 Microsoft 更担心 Amazon 和 Google 在做什么，而不是创业领域的任何人——巨头只盯着其他巨头，不看创业公司。还提到 Steven 在微软期间曾力推 ARM 芯片但遭到内部文化阻力。
+- **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集说 Microsoft 2026 财年 AI 收入 241 亿美元来自 OpenAI，但资本支出 1150 亿美元；GitHub 停机频繁到被人调侃。
 
 ## ① 提到它的金句
 
@@ -32,7 +33,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司(提及)
@@ -46,14 +47,15 @@ unlisted: true
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
 - [[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]] — 作为被讨论公司
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[Apple]] · [[Amazon]] · [[Lenny]] · [[Meta]] · [[AGI]]
+[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[Apple]] · [[Amazon]] · [[Lenny]] · [[Meta]] · [[资本支出]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":68,"智能体":138,"OpenAI":61,"Google":27,"NVIDIA":21,"Apple":12,"Amazon":8,"Lenny":65,"Meta":20,"AGI":16}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":70,"智能体":141,"OpenAI":63,"Google":28,"NVIDIA":22,"Apple":12,"Amazon":9,"Lenny":65,"Meta":21,"资本支出":4}</script>
 
 <script>
 (function(){

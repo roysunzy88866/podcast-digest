@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Edwin Chen]] · [[Surge AI]] · [[Anthropic]] · [[ChatGPT]] · [[Waymo]] · [[GPT-3]] · [[Claude]] · [[基准测试]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Edwin Chen":1,"Surge AI":1,"Anthropic":68,"ChatGPT":36,"Waymo":9,"GPT-3":2,"Claude":33,"基准测试":5,"后训练":12}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Edwin Chen":1,"Surge AI":1,"Anthropic":70,"ChatGPT":36,"Waymo":9,"GPT-3":2,"Claude":33,"基准测试":5,"后训练":12}</script>
 
 <script>
 (function(){

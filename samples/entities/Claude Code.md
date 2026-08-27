@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>35</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>36</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(08:38起):本集把软件开发者使用它的颠覆感比作 1970 年代会计师第一次看到电子表格，并说它的全部卖点就像给你 150 名专家工程师。
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(01:07起):本集核心产品，Fiona 领导的团队构建的编程辅助智能体；本集指出它让编码不再是瓶颈，并将其用于团队复盘和自动化质量验证。
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(49:07起):本集提到的一款强大的命令行 AI 编程助手，嘉宾用它在机场写出了产品原型，并用它来跑从写评估测试到生成代码和提交拉取请求的完整开发流程。
+- **[[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]]**(22:05起):本集将其作为编码智能体的可选'大脑'之一提及，TESL 的审查框架不绑定任何单一编码智能体
 - **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(00:03起):本集把它说成:单人、同步的智能体编码工具，你开一个会话盯着它每一步输出；最初是 Boris 的副业项目，内部发帖只得到六个反应，后来公司一半人每周在用
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集将其定位为集成在 VS Code 等 IDE 中的编程扩展。嘉宾用它从零编写知识库架构，并构建了赢得黑客马拉松的「对抗性智能体评估器」。(注:英文稿中误听为 plot code / cloud code)
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:去年二月发布的编码工具,从最初需死盯权限提示,演变为可托付复杂任务、甚至能自主做代码审查的智能体
@@ -60,7 +61,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*35 集*
+*36 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
@@ -76,6 +77,7 @@ unlisted: true
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为概念
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念
+- [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]] — 作为被讨论公司(提及)
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为概念
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
@@ -102,9 +104,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Cursor]] · [[Claude]] · [[OpenAI]] · [[评估]] · [[Slack]] · [[Meta]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Cursor]] · [[Claude]] · [[评估]] · [[OpenAI]] · [[沙箱]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":138,"Anthropic":68,"Lenny":65,"Codex":27,"Cursor":35,"Claude":33,"OpenAI":61,"评估":15,"Slack":20,"Meta":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":141,"Anthropic":70,"Lenny":65,"Codex":27,"Cursor":35,"Claude":33,"评估":16,"OpenAI":63,"沙箱":28,"Slack":20}</script>
 
 <script>
 (function(){

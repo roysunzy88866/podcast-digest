@@ -1,0 +1,396 @@
+{
+  "episode_id": "2026-07-09-yc-how-to-better-understand-your-users-e3ls",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-07-09",
+  "tags": [
+    "用户增长",
+    "数据分析",
+    "产品指标",
+    "B2B 留存",
+    "早期创业"
+  ],
+  "categories": [
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "dot-plot",
+      "type": "concept",
+      "role": "concept",
+      "name": "点图 (dot plot)",
+      "file": "点图",
+      "primary": true,
+      "how_described": "本集把它说成：一个二维网格可视化工具，每行是一个用户、每列是一个时间单位（天），用点标记用户执行代表价值的事件，让人脑自动发现使用模式和异常",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            95.419,
+            96.44
+          ],
+          "quote": "And we call it the dot plot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            96.84,
+            98.78
+          ],
+          "quote": "So let me show you what a dot plot looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            148.2,
+            152.083
+          ],
+          "quote": "And then the idea, it's called a dot plot, is you put some dots in each of the cells.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            280.474,
+            284.396
+          ],
+          "quote": "We would have no idea about this if we didn't have a dot plot visualization like this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            507.036,
+            510.458
+          ],
+          "quote": "Instead, looking at the dot plot, we have a much richer understanding of our users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            602.957,
+            608.685
+          ],
+          "quote": "And the idea is you can just choose to sample your users and represent them on a dot plot however you want.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            709.37,
+            714.013
+          ],
+          "quote": "The company could have known that this contract was in jeopardy by looking at the dot plot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            720.657,
+            727.282
+          ],
+          "quote": "A lot of founders might want to populate their dot plot with the easiest way to populate it so it feels good and you see a lot of dots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            761.652,
+            768.536
+          ],
+          "quote": "So I would go so far as to say until you have hundreds of users, the dot plot could be your only dashboard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            796.387,
+            810.272
+          ],
+          "quote": "But the dot plot shows you how those users are actually using your product, and they give you the color to go ask the right questions of your users, to go build the right features, to fix things that are broken in your product that you would never learn by looking at aggregate metrics.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dau",
+      "type": "concept",
+      "role": "concept",
+      "name": "DAU",
+      "file": "DAU",
+      "primary": true,
+      "how_described": "本集把它说成：把所有用户混在一起的汇总指标，只要有增长曲线就往右上走，但无法告诉你单个用户如何使用产品、用了什么功能、使用频率和节奏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            449.48,
+            459.63
+          ],
+          "quote": "So to illustrate the point I was talking about where dot plots give you a lot more granularity about what's going on with the users, let's draw the DAU graph for these users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            459.85,
+            462.973
+          ],
+          "quote": "So what you would have seen had you only been looking at your DAU graph.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            471.113,
+            474.714
+          ],
+          "quote": "The DAU graph here looks like this.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cohort-retention-curves",
+      "type": "concept",
+      "role": "concept",
+      "name": "队列留存曲线 (cohort retention curves)",
+      "file": "队列留存曲线",
+      "primary": true,
+      "how_described": "本集把它说成：把用户分群并跟踪他们随时间行为的工具，从总体上告诉你获取的用户群是否会随时间保留下来，最好与点图配合使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            17.837,
+            27.919
+          ],
+          "quote": "In my last video, I talked about cohort retention curves and how you can use those to separate groups of users and track what they do over time throughout using your product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            783.683,
+            787.484
+          ],
+          "quote": "These are best used in conjunction with cohort retention curves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            787.804,
+            793.526
+          ],
+          "quote": "Cohort retention curves teach you in aggregate whether groups of users that you acquire stick with you over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            810.892,
+            818.749
+          ],
+          "quote": "So cohort retention curves and dot plots are, in my experience, two of the most important tools that you've got to understand your users.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bump",
+      "type": "company",
+      "role": "company",
+      "name": "Bump",
+      "file": "Bump",
+      "primary": false,
+      "how_described": "本集提到它是 Dave 创业时做产品的公司，在那里首次使用了点图，会用不同符号标记分享联系人和分享照片",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            305.841,
+            308.522
+          ],
+          "quote": "At Bump, we had different symbols that we would put into these cells.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google-photos",
+      "type": "company",
+      "role": "company",
+      "name": "Google Photos",
+      "file": "Google Photos",
+      "primary": false,
+      "how_described": "本集提到在用户远超十亿时，团队通过抽样用户并打印出按地区、设备、收入分组的点图，花一整天坐在一起看图找结论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            598.11,
+            602.496
+          ],
+          "quote": "This is a tool that we used at Google Photos when we had well more than a billion users.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "paypal",
+      "type": "company",
+      "role": "company",
+      "name": "PayPal",
+      "file": "PayPal",
+      "primary": false,
+      "how_described": "本集提到它刚发布时有欺诈问题，Max Levchin 团队建了一个可视化工具把所有交易画出来，让人盯着屏幕看，靠人脑一眼识别出异常模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            401.014,
+            407.337
+          ],
+          "quote": "This is actually an idea that I remember hearing about 10 years ago from Max Levchin, one of the founders of PayPal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            407.938,
+            413.481
+          ],
+          "quote": "They had a big fraud problem at PayPal when they first launched, but they didn't know the patterns to look for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            413.741,
+            419.745
+          ],
+          "quote": "So what they did instead is build a visualization, a graph of all the transactions that were happening on PayPal.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "type": "company",
+      "role": "company",
+      "name": "Spotify",
+      "file": "Spotify",
+      "primary": false,
+      "how_described": "本集把它作为点图的举例对象，以「听一首歌」为事件画点图，发现工作日用户和周末用户是两批不同的人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            174.237,
+            178.862
+          ],
+          "quote": "Let's say we're Spotify and we're building a music streaming app and we want to see how our users are using it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            189.847,
+            200.174
+          ],
+          "quote": "Listen to Spotify song on Monday and Tuesday and not on Wednesday, but Thursday and Friday again, and then maybe again on Monday and Wednesday.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            243.186,
+            245.388
+          ],
+          "quote": "For our Spotify app, what do we see?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            526.727,
+            531.31
+          ],
+          "quote": "And if you change the dots to be different symbols, for example, in our Spotify example,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            536.132,
+            541.394
+          ],
+          "quote": "Let's say if a user uses search in Spotify, we'll put a little S next to it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集说 GitHub 页面顶部的贡献图本质上就是点图，只是把天数按周环绕排列",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            321.071,
+            323.553
+          ],
+          "quote": "You've probably seen it at the top of GitHub pages.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            324.154,
+            326.375
+          ],
+          "quote": "This is basically what a GitHub graph looks like.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "本集提到最近一批 YC 里的一家 B2B 公司，签了 8 万美元年合同买 10 个席位，后来流失了，点图上早就能看到只有 3 个席位被激活",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            652.38,
+            659.828
+          ],
+          "quote": "I worked with a company in the most recent YC batch that had a very name brand customer that signed up and bought their product.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

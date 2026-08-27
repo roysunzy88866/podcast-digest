@@ -122,9 +122,9 @@ jsonLd: |
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:GPU、推理 (inference)、智能体 (agent)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:GPU、推理 (inference)</span>
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层才是下一个金矿：模型不是商品]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同概念:SaaS、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

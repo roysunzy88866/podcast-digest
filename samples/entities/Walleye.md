@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ben]] · [[Will]] · [[Current]] · [[智能体]] · [[ChatGPT]] · [[情感分析]] · [[营运杠杆]] · [[Windsurf]] · [[LLM]] · [[量化投资]]
 
-<script type="application/json" class="pd-epn">{"Ben":1,"Will":1,"Current":1,"智能体":138,"ChatGPT":36,"情感分析":1,"营运杠杆":1,"Windsurf":2,"LLM":17,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Ben":1,"Will":1,"Current":1,"智能体":141,"ChatGPT":36,"情感分析":1,"营运杠杆":1,"Windsurf":2,"LLM":18,"量化投资":1}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>68</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>70</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -79,10 +79,12 @@ unlisted: true
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(02:38起):本集说 Claude Code 极度面向软件工程，从终端 UI 到代码规划测试都为工程师量身定制；还提到 Claude 发布法律插件引发汤森路透等股价暴跌
 - **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]]**(11:22起):本集提到 Anthropic 的 Claude Opus 4.7 在回答美国政体问题时引用了《环球时报》，且 Claude 被描述为对诱导性提示采用'给出支持者视角但不附和'的回应策略
 - **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]]**(02:20起):本集引用其 Managed Agents 论文，说 Anthropic 和 Cloudflare 都收敛到了智能体逻辑与工具执行分离、会话日志持久化的同一架构
+- **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集将其与 OpenAI 并列为两家不盈利、不可持续的 AI 公司，70% 的 AI 收入来自它们，靠三家大公司投钱买算力维持，被视为'败家子'。
+- **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(01:25起):本集提到 Ryan 与 Anthropic 合作发表 alignment faking 研究，以及作为 Plan A 下护城河被削弱的前沿公司之一
 
 ## ① 提到它的金句
 
-*7 条*
+*9 条*
 
 ![[2026-03-01-lennys-the-design-process-is-dead#^q4]]
 
@@ -98,9 +100,13 @@ unlisted: true
 
 ![[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st#^q7]]
 
+![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q3]]
+
+![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q6]]
+
 ## ② 出现在这些集
 
-*68 集*
+*70 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -170,14 +176,16 @@ unlisted: true
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]] — 作为被讨论公司(提及)
 - [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]] — 作为被讨论公司(提及)
+- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司
+- [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[NVIDIA]] · [[Google]] · [[Meta]] · [[沙箱]] · [[AGI]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[NVIDIA]] · [[Google]] · [[Meta]] · [[沙箱]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":138,"OpenAI":61,"Lenny":65,"Claude Code":35,"Claude":33,"NVIDIA":21,"Google":27,"Meta":20,"沙箱":26,"AGI":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":141,"OpenAI":63,"Lenny":65,"Claude Code":36,"Claude":33,"NVIDIA":22,"Google":28,"Meta":21,"沙箱":28,"推理":1}</script>
 
 <script>
 (function(){
