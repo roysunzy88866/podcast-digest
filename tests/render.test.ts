@@ -210,6 +210,16 @@ describe("renderEpisode · 整页(host=null 不崩、金句带 ^块ID)", () => {
     expect(page).toContain("[[Modal]]"); // 关联区
     expect(page).toMatch(/concepts:/); // frontmatter 类型化
   });
+  it("★★★ 分享链接直开判定用「URL 变过没」而非 history.length(手机/微信 history.length 不可靠,用户 2026-08-29)", () => {
+    const page = renderEpisode(META, DIGEST, ENTITIES);
+    // 落地状态挂 window + if-undefined 守卫(GLM 011[1]:防 SPA 重执行脚本把 var 重置)
+    expect(page).toContain("if (window.__pdLanding == null) window.__pdLanding = location.pathname");
+    expect(page).toContain("window.__pdSpa = true"); // sticky 站内换页标记
+    expect(page).toContain("|| window.__pdSpa === true"); // fromSite 兜底靠它,不再靠 history.length
+    // referrer 整 origin 比对,防前缀欺骗(GLM 011[2]);旧的不可靠判据已撤
+    expect(page).toContain("new URL(u).origin === location.origin");
+    expect(page).not.toContain("ref.indexOf(location.origin) === 0");
+  });
   it("★ 无 entities 时退化为 C2 版式(向后兼容,不崩)", () => {
     const page = renderEpisode(META, DIGEST, null);
     expect(page).toContain("Modal");
