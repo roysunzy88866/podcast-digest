@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[McKinsey]] · [[OpenAI]] · [[token]] · [[NVIDIA]] · [[护栏]] · [[Google]] · [[Apple]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":73,"McKinsey":4,"OpenAI":65,"token":10,"NVIDIA":23,"护栏":30,"Google":29,"Apple":12,"Microsoft":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":73,"McKinsey":4,"OpenAI":65,"token":10,"NVIDIA":23,"护栏":30,"Google":29,"Apple":13,"Microsoft":15}</script>
 
 <script>
 (function(){

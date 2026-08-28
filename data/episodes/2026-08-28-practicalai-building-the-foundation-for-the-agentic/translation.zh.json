@@ -1,0 +1,962 @@
+[
+ {
+  "seg": 0,
+  "start": 1.8399999,
+  "end": 35.84,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎来到 Practical AI 播客，在这里我们将拆解人工智能的实际应用以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助让 AI 技术变得实用、高效且人人可用。无论你是开发者、商业领袖，还是仅仅对炒作背后的技术感到好奇，你来对地方了。请务必在 LinkedIn、X 或 Blue Sky 上与我们联系，以随时了解剧集更新、幕后内容和 AI 见解。你可以在 practicalai.fm 了解更多信息。"
+ },
+ {
+  "seg": 1,
+  "start": 35.84,
+  "end": 37.519997,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在进入节目正题。"
+ },
+ {
+  "seg": 2,
+  "start": 41.519997,
+  "end": 54.935,
+  "speaker": "Chris Benson",
+  "en": "Hey. Welcome to another edition of the Practical AI podcast. I am your cohost going solo today. I'm Chris Benson. Daniel's not with me this time, but we have an excellent conversation coming up for you.",
+  "zh": "嘿。欢迎来到 Practical AI 播客的另一期。我是今天的联合主持人，今天独挑大梁。我是 Chris Benson。Daniel 这次没和我在一起，但我们有一场精彩的对话即将呈现给你们。"
+ },
+ {
+  "seg": 3,
+  "start": 54.935,
+  "end": 71.39,
+  "speaker": "Chris Benson",
+  "en": "With me today, I have Angie Jones, is the vice president of the Agentic AI Foundation, which I think is a super cool title to have at at a super cool name place. And I'm really looking forward to finding out more about it. Angie, welcome to the show.",
+  "zh": "今天和我一起的是 Angie Jones，她是智能体 AI 基金会的副总裁，我认为这是一个非常酷的头衔，位于一个非常酷的地方。我非常期待了解更多关于它的信息。Angie，欢迎来到节目。"
+ },
+ {
+  "seg": 4,
+  "start": 71.39,
+  "end": 72.509995,
+  "speaker": "Angie Jones",
+  "en": "Thanks so much, Chris.",
+  "zh": "非常感谢，Chris。"
+ },
+ {
+  "seg": 5,
+  "start": 72.685005,
+  "end": 118.09,
+  "speaker": "Chris Benson",
+  "en": "So like I said there in the intro, and I said it before the show started and stuff, somebody in AI was looking for a play like the Agentic, I mean, that is the coolest sounding thing you can have. But before we dive too far into the foundation, I'd really like to kinda hear how does someone Like how do you develop in your career so that you end up doing that? Could you tell us a little bit about your background? Because that's one of those things if you went and just said something to I work with tons of people working on Agentic AI, but like, leading the Foundation for People. So I'm just curious, like, how do you get to that point?",
+  "zh": "所以就像我在开场白里说的，还有在节目开始前我也说过，AI 界的某人在寻找像 Agentic 这样的玩法，我是说，那是你能拥有的最酷的东西。但在我们深入探讨基金会之前，我真的很想听听看一个人是如何在他的职业生涯中发展以至于最终做这个的？你能告诉我们一点关于你的背景吗？因为这是那种事，如果你走出去对某人说我与许多从事智能体 AI 的人一起工作，但是，领导这个为人民的基金会。所以我只是好奇，你是如何达到那个地步的？"
+ },
+ {
+  "seg": 6,
+  "start": 118.17,
+  "end": 148.02,
+  "speaker": "Angie Jones",
+  "en": "Yeah. So I'm your traditional techie. So I've worked as an engineer for a couple of decades. So, you know, at places like IBM and Twitter, and the last role was at Block in an engineering leadership capacity. And so in that role, one of my tasks was to basically teach the entire company, 12,000 people, how to use AI agents.",
+  "zh": "是的。所以我是个传统的技术极客。所以我作为工程师工作了几十年。所以，你知道，在像 IBM 和 Twitter 这样的地方，最后一个职位是在 Block，担任工程领导职务。所以在那个职位上，我的任务之一基本上是教全公司 12000 人如何使用 AI 智能体。"
+ },
+ {
+  "seg": 7,
+  "start": 148.02,
+  "end": 164.025,
+  "speaker": "Angie Jones",
+  "en": "And this is as I'm learning myself, because I mean, there's no book for this, you know, right out the gate. And that was early, like 2024. So a lot of this stuff was brand new. It was not even common in tech, let alone in others verticals. Right?",
+  "zh": "而这也是我自己在学习的时候，因为我是说，这没有什么书可循，你知道，一开始就这样。而且那是在早期，比如 2024 年。所以很多东西都是全新的。它甚至在科技界都不常见，更不用说在其他垂直领域了。对吧？"
+ },
+ {
+  "seg": 8,
+  "start": 164.025,
+  "end": 196.69,
+  "speaker": "Angie Jones",
+  "en": "And so I also, like, lead developer relations. And so a big part of my role is helping developers worldwide understand new technologies and how to use them. And so our company, Block, created this internal AI agent named Goose. Goose, the developers were using Goose to automate engineering tests, help with coding and things like that. And so we were teaching developers across the globe, what is an AI agent?",
+  "zh": "所以我也，比如，领导开发者关系。所以我工作的很大一部分是帮助全球开发者理解新技术以及如何使用它们。所以我们的公司，Block，创建了这个名为 Goose 的内部 AI 智能体。Goose，开发者们正在使用 Goose 来自动化工程测试，帮助编码和类似的事情。所以我们正在向全球的开发者传授，什么是 AI 智能体？"
+ },
+ {
+  "seg": 9,
+  "start": 196.69,
+  "end": 229.36,
+  "speaker": "Angie Jones",
+  "en": "Like, were very early in this. And so, Jack Dorsey, who leads Block, was like, hey, Angie, you're teaching like everybody else about agents. I really would love for everyone in this company to learn how to use agents. And so I'm talking finance, marketing, like, you know, design, HR, everyone needed to learn about AI and more specifically how to utilize agents. And so me and the team went, like, really deep on this.",
+  "zh": "比如，我们在那个阶段非常早。所以，领导 Block 的 Jack Dorsey 说，嘿，Angie，你在教其他所有人关于智能体的事。我真的很希望这家公司的每个人都学会如何使用智能体。所以我指的是金融、营销，比如，你知道，设计、HR，每个人都需要了解 AI，更具体地说是如何利用智能体。所以我和团队深入研究了这个。"
+ },
+ {
+  "seg": 10,
+  "start": 229.36,
+  "end": 257.79,
+  "speaker": "Angie Jones",
+  "en": "And then it got to a point, like, pretty AI fluent company where everyone is comfortable using this, I needed to go really deep on the engineering org. And so that was my home. Our engineers were using this, but we weren't seeing a big difference in developer velocity, for example. Right? And so we explored that and learned that we're only at the tip of the iceberg.",
+  "zh": "然后到了某个地步，像一个对 AI 非常精通的公司，每个人都习惯使用这个了，我需要在工程组织上非常深入。所以那是我的大本营。我们的工程师正在使用这个，但我们没有看到开发者速度的巨大差异，例如。对吧？所以我们探索了那个并了解到我们只处于冰山一角。"
+ },
+ {
+  "seg": 11,
+  "start": 257.79,
+  "end": 283.1,
+  "speaker": "Angie Jones",
+  "en": "We really could do a whole lot more to get to this autonomous engineering org. Right? And so I pretty much drank from the fire hose of like all of the news, all of the releases, everything that's going out. And I consume that, kinda filter out a lot of the noise, and then bring the things that are valuable to the engineers. And so I would say, like, I know a lot about this space.",
+  "zh": "我们真的可以做更多事情来实现这个自主工程组织。对吧？所以我基本上就像从消防水带里喝所有新闻，所有发布，所有发布的东西。我消费这些，过滤掉很多噪音，然后把有价值的东西带给工程师。所以我会说，我对这个领域了解很多。"
+ },
+ {
+  "seg": 12,
+  "start": 283.82,
+  "end": 300.035,
+  "speaker": "Angie Jones",
+  "en": "And also at my time at Block, I worked on a protocol. So this was like a cross border money movement protocol. So those who don't know Block, that's the company the finance tech company that houses Square and Cash App. Right? So money is our jam.",
+  "zh": "还有我在 Block 期间，我研究过一个协议。所以这是一个跨境资金流动协议。所以那些不知道 Block 的人，那是容纳 Square 和 Cash App 的金融科技公司。对吧？所以资金是我们的拿手好戏。"
+ },
+ {
+  "seg": 13,
+  "start": 300.035,
+  "end": 320.385,
+  "speaker": "Angie Jones",
+  "en": "So I worked on this protocol. Never thought I would be a protocol girl, but learned a lot about, like, just kinda open standards and how all of that works as well. Also really big and open source throughout my career. I've always, like, believed in open source, contribute to open source, advocate for it. Right?",
+  "zh": "所以我研究这个协议。从没想过我会成为一个协议女孩，但了解了很多关于，比如，只是开放标准以及所有这一切是如何工作的。在整个职业生涯中也非常热衷于开源。我一直，比如，相信开源，为开源做贡献，倡导它。对吧？"
+ },
+ {
+  "seg": 14,
+  "start": 320.545,
+  "end": 348.555,
+  "speaker": "Angie Jones",
+  "en": "So all of that kinda came together in this perfect storm as OpenAI, Anthropic, and Block wanted to form a foundation for Agentic AI. They understood that, hey. Some of these standards, some of these open source projects that we're coming up with, we probably shouldn't be the sole authors or owners of these things. Right? MCP is a great example.",
+  "zh": "所以所有这些在 OpenAI、Anthropic 和 Block 想要为智能体 AI 成立一个基金会时汇聚成了这场完美风暴。他们理解，嘿。其中一些标准，我们提出的一些开源项目，我们大概不应该是这些东西的唯一作者或拥有者。对吧？MCP 就是一个很好的例子。"
+ },
+ {
+  "seg": 15,
+  "start": 348.555,
+  "end": 364.1,
+  "speaker": "Angie Jones",
+  "en": "So MCP is the model context protocol. This is what agents use to connect to applications and tools. Right? Which we saw across block. Everyone in block needed MCP service to connect to whatever applications they were using.",
+  "zh": "所以 MCP 是模型上下文协议。这是智能体用来连接应用程序和工具的东西。对吧？我们在 Block 看到了这一点。Block 的每个人都需要 MCP 服务来连接他们正在使用的任何应用程序。"
+ },
+ {
+  "seg": 16,
+  "start": 364.1,
+  "end": 382.895,
+  "speaker": "Angie Jones",
+  "en": "And so Anthropic realized, yeah, this probably should live in a neutral home. And so those three companies came together to form the Agentic Foundation under the Linux Foundation. So Linux Foundation has been around for decades. Everyone knows them. And so, yeah, so this is a new foundation.",
+  "zh": "所以 Anthropic 意识到，是的，这大概应该存在于一个中立的家园。所以这三家公司走到一起，在 Linux 基金会下成立了智能体基金会。所以 Linux 基金会已经存在了几十年。每个人都知道他们。所以，是的，所以这是一个新的基金会。"
+ },
+ {
+  "seg": 17,
+  "start": 382.895,
+  "end": 394.98,
+  "speaker": "Angie Jones",
+  "en": "So once we stood this up, me and our head of open source came over to the foundation, and we thought it was so cool, we started working here full time.",
+  "zh": "所以一旦我们建立了这个，我和我们的开源负责人来到基金会，我们认为这太酷了，我们开始在这里全职工作。"
+ },
+ {
+  "seg": 18,
+  "start": 395.38,
+  "end": 405.515,
+  "speaker": "Chris Benson",
+  "en": "Very cool. And I like the Jack Dorsey name drop there. That's pretty good. So you were actually working directly with him as well along the way.",
+  "zh": "非常酷。我喜欢那里提到 Jack Dorsey 的名字。那相当不错。所以你实际上一路上也是直接与他共事。"
+ },
+ {
+  "seg": 19,
+  "start": 405.995,
+  "end": 418.12997,
+  "speaker": "Angie Jones",
+  "en": "And I'm Bing. That's right. So I worked with Jack at Twitter, and then he brought me over to Block when they started developing these open source projects and protocol.",
+  "zh": "我是 Bing。没错。所以我和 Jack 在 Twitter 共事，然后当他们开始开发这些开源项目和协议时，他把我带到了 Block。"
+ },
+ {
+  "seg": 20,
+  "start": 418.12997,
+  "end": 482.54,
+  "speaker": "Chris Benson",
+  "en": "Very cool. I wanna back up for a moment because I got a couple of questions from things that you brought up there, and one is the education. Because I think educating the organizations that folks are in, like you were pathfinding along the same kind of task that a lot of organizations are trying to do right now, and that is every year recently, but especially 2026, has been just insanely fast in terms of the level of progress and the onset of Agentic. They were there last year, but this year it just has taken over the world, and so every org is dealing with that now, and you have taken point on this notion of education, not just for developers, but for the whole org and parts of the org that maybe people aren't thinking about as much because they tend to be very focused on developers. Can you talk a little bit about what creating that kind of change looks like in terms of And I'm gonna separate it.",
+  "zh": "非常酷。我想倒回去一下，因为对于你提到的几点我有几个问题，其中一个是教育。因为我认为教育人们所在的组织，就像你正在为许多组织现在正试图做的同类任务开辟道路，特别是 2026 年，在进步水平和智能体化的出现方面，速度简直疯狂。它们去年就在那里，但今年它已经接管了世界，所以每个组织现在都在应对这个，而你在这个教育概念上带头，不仅是针对开发者，也是针对整个组织和组织的某些部分，也许人们没有考虑那么多，因为他们倾向于非常专注于开发者。你能不能谈谈一点关于创造这种变化看起来是什么样的……我要把它分开。"
+ },
+ {
+  "seg": 21,
+  "start": 482.54,
+  "end": 524.94495,
+  "speaker": "Chris Benson",
+  "en": "I wanna ask about the non developers first. You're going into finance you're going into these other organizational departments that are not thinking about the bits and bytes of AI all the time, and you're trying to say, Here's a new tool, and how do you approach that, not only from the upskilling that's required, but also from of getting people to accept it? Because I mean, see people out there, there's a lot of resistance to AI in the general population out there. And so how do you navigate that when you're trying to move the org forward like that?",
+  "zh": "我想先问问非开发者。你进入金融，你进入这些其他组织部门，他们并不是整天在思考 AI 的比特和字节，你试图说，这是一个新工具，你如何处理这个问题，不仅从所需的技能提升，而且从让人们接受它的角度？因为我是说，看看外面的人，普通大众中有很多人抵制 AI。所以当你试图那样推动组织前进时，你是如何应对那个的？"
+ },
+ {
+  "seg": 22,
+  "start": 524.94495,
+  "end": 551.905,
+  "speaker": "Angie Jones",
+  "en": "Yeah, these were two very big and different challenges, right? So one is the whole change management of it all. Like you're essentially asking people to think differently and do their jobs differently. These are experts in their domains, right? Who maybe been doing this a couple of decades and you're like, oh, kind of throw away like your processes and everything, and we want you to do this.",
+  "zh": "是的，这是两个非常大且不同的挑战，对吧？所以一个是整体的变化管理。就像你本质上是在要求人们以不同的方式思考和做他们的工作。这些是他们领域的专家，对吧？谁可能已经做了几十年，然后你说，哦，扔掉像你的流程和所有东西，我们希望你做这个。"
+ },
+ {
+  "seg": 23,
+  "start": 552.625,
+  "end": 573.055,
+  "speaker": "Angie Jones",
+  "en": "Not only that, to your point, resistance, right? Fear, lots of different emotions involved in that. And then the whole technical part of it where, like, these tools, like I said, this was very early on, 2024, 2025. You didn't have these nice desktop application. You had a CLI.",
+  "zh": "不仅如此，正如你所说，阻力，对吧？恐惧，涉及很多不同的情绪。然后是整个技术部分，就像，这些工具，正如我所说，这非常早，2024 年，2025 年。你没有这些漂亮的桌面应用程序。你有一个 CLI。"
+ },
+ {
+  "seg": 24,
+  "start": 573.055,
+  "end": 590.79004,
+  "speaker": "Angie Jones",
+  "en": "Right? You were copying JSON to, like, get an MCP server work. Like, this was foreign to folks who, like, don't use these tools every day. So it was a really big job. And so, like, you have to consider all of that.",
+  "zh": "对吧？你正在复制 JSON，比如，让 MCP 服务器工作。就像，这对于那些不像每天使用这些工具的人来说是陌生的。所以这是一项非常大的工作。所以，就像，你必须考虑到所有这些。"
+ },
+ {
+  "seg": 25,
+  "start": 590.79004,
+  "end": 599.83,
+  "speaker": "Angie Jones",
+  "en": "It's not just, hey. Let me show you how to use a terminal. Right? It's helping them understand where they still fit into the process. Right?",
+  "zh": "不仅仅是，嘿。让我演示如何使用终端。对吧？它是帮助他们理解他们仍然在流程中适合哪里。对吧？"
+ },
+ {
+  "seg": 26,
+  "start": 599.91003,
+  "end": 618.58,
+  "speaker": "Angie Jones",
+  "en": "With things, it's okay to let that go. Like, you probably should not be doing this anymore because it's not a good use of your time anymore. Right? And then also, I I like to say there's people on both spectrums. There's people that, you know, they think AI is the best thing ever and can do all the things.",
+  "zh": "随着事情，放手是可以的。就像，你可能不应该再做这个了，因为那不再是你时间的良好利用。对吧？然后还有，我我喜欢说两端都有人。有些人，你知道，他们认为 AI 是有史以来最好的东西，可以做所有事情。"
+ },
+ {
+  "seg": 27,
+  "start": 618.58,
+  "end": 640.245,
+  "speaker": "Angie Jones",
+  "en": "And there's other people who are like, Oh, AI is stupid. It can't do anything. I like to kind of be in the middle there where, you know, I can be realistic about its strengths, its weaknesses, what I should use it for and what I shouldn't use it for. And just leading with that helped a lot because I'm not trying to get you to drink Kool Aid. Right?",
+  "zh": "还有其他人就像，哦，AI 是愚蠢的。它什么都做不了。我喜欢处于中间地带，你知道，我可以现实地对待它的优势、劣势，我应该用它做什么和我不应该用它做什么。只是以此为先导帮助很大，因为我不是试图让你喝 Kool Aid。对吧？"
+ },
+ {
+  "seg": 28,
+  "start": 640.245,
+  "end": 656.33997,
+  "speaker": "Angie Jones",
+  "en": "I'm saying, hey, here's a different approach that could speed you up. Right? That can also give you access to a lot of stuff that maybe you didn't have before. And that part was the key. So when there's, let's say data, right?",
+  "zh": "我是说，嘿，这是一种可以加快你速度的不同方法。对吧？这也可以让你访问很多你可能以前没有的东西。那部分是关键。所以如果有，比如说数据，对吧？"
+ },
+ {
+  "seg": 29,
+  "start": 657.06,
+  "end": 699.84503,
+  "speaker": "Angie Jones",
+  "en": "Everybody needs data, no matter what role you're in. If I say, hey, listen, I can get you access with this agent and be like some MCP server to, let's say, records that are in this database, then you would have had to go to another team, put in a request, and ask for a report, right, and then try to figure that report out yourself. I can get you that data in seconds so that you can go and, like, do your best work. So people are, like, sold on that kind of thing, right? So you take them step by step and give them things that are meaningful to them that might not be their core job, just so they could get used to it and they could start building some trust, right?",
+  "zh": "每个人都需要数据，无论你扮演什么角色。如果我说，嘿，听着，我可以让你通过这个智能体访问，并像一个 MCP 服务器那样，比如说，这个数据库中的记录，那么你就必须去另一个团队，提交请求，并索要报告，对吧，然后试着自己弄清楚那个报告。我可以在几秒钟内为你获取那个数据，这样你就可以去，像，做你最好的工作。所以人们，就像，被这类东西说服了，对吧？所以你一步一步地带他们走，并给他们对他们有意义的东西，这可能不是他们的核心工作，只是让他们可以习惯它，他们可以开始建立一些信任，对吧？"
+ },
+ {
+  "seg": 30,
+  "start": 700.32996,
+  "end": 713.61,
+  "speaker": "Angie Jones",
+  "en": "And then eventually, they start delegating a little bit more and a little bit more until they find that right spot of, okay, I shouldn't delegate this. The AI does not do well. I bet. That part, I'll take. Right?",
+  "zh": "然后最终，他们开始委托多一点，再多一点，直到他们找到那个正确的点，好吧，我不应该委托这个。AI 做得不好。我打赌。那部分，我来拿。对吧？"
+ },
+ {
+  "seg": 31,
+  "start": 713.61,
+  "end": 717.285,
+  "speaker": "Angie Jones",
+  "en": "So that was my my overall approach to it.",
+  "zh": "所以那是我的整体方法。"
+ },
+ {
+  "seg": 32,
+  "start": 717.285,
+  "end": 761.355,
+  "speaker": "Chris Benson",
+  "en": "I really like that. I know when I get in conversations with folks about this topic, one of the things that I often say, which I think is kind of resonating with your story there, is that find the place where the human has a distinct advantage from the AI and differentiate the AI, go down through the job requirements, and find where the human is still better at this point. And that may be fluid. That may change over time depending on that. So having an open mind is good, but I think that's incredible advice that you're giving people in terms of how to navigate, because I think that's one of the biggest questions that people have out there based on the conversations I'm having.",
+  "zh": "我真的很喜欢那个。我知道当我和人们谈论这个话题时，我经常说的一件事，我认为这与你的故事产生共鸣，就是找到人类比 AI 有独特优势的地方，并区分 AI，通过工作要求深入下去，找到人类目前仍然更好的地方。那可能是流动的。那可能会随着时间的推移而改变，取决于那个。所以保持开放的心态是好的，但我认为你给出的关于如何导航的建议令人难以置信，因为我认为这是人们根据我所进行的对话提出的最大问题之一。"
+ },
+ {
+  "seg": 33,
+  "start": 762.52997,
+  "end": 796.81,
+  "speaker": "Chris Benson",
+  "en": "To flip to the other side of the coin when you're dealing with developers, and I'm a lifelong developer, I've been doing it for decades, and see every day on social media and stuff I see people, you see the developers that are embracing Agentic fully, and they're orchestrating, and then you see the ones that are like, Oh, it still sucks. You know, all that stuff. And was your experience as you dived into the pool of developers trying to get the embrace going here?",
+  "zh": "翻转到硬币的另一面，当你与开发者打交道时，我是一个终身开发者，我已经做了几十年，每天在社交媒体上看到东西，我看到那些完全拥抱智能体化的开发者，他们正在编排，然后你看到那些就像，哦，它仍然很烂的人。你知道，所有那些东西。当你跳进开发者池试图在这里拥抱它时，你的经历是怎样的？"
+ },
+ {
+  "seg": 34,
+  "start": 796.81,
+  "end": 819.63,
+  "speaker": "Angie Jones",
+  "en": "So for a while, if we look back, so back then you're like, oh, this is great, But it wasn't that great. Right? I mean and and they're they're in the early days. It was good for that time, but compared to now, it what it's not. And so developers who would, like, maybe try the tools and they didn't do a great job.",
+  "zh": "所以有一段时间，如果我们回顾，所以那时你会说，哦，这很棒，但它并没有那么好。对吧？我是说，而且他们在早期。那个时间点它是好的，但与现在相比，它不是。所以那些会，比如，尝试工具的开发者，但他们做得不好。"
+ },
+ {
+  "seg": 35,
+  "start": 819.63,
+  "end": 831.71,
+  "speaker": "Angie Jones",
+  "en": "You ask it to write a feature or something. It's like, what? This is stupid. You know? Those developers I found, once they tried it once, if it didn't work out well, they kinda threw their hands up.",
+  "zh": "你让它编写一个功能或类似的东西。就像，什么？这太愚蠢了。你知道吗？那些我发现一旦尝试过一次的开发者，如果没有效果很好，他们有点举手投降。"
+ },
+ {
+  "seg": 36,
+  "start": 832.65497,
+  "end": 849.35,
+  "speaker": "Angie Jones",
+  "en": "And it wasn't until, like, end of maybe twenty twenty five when the like, was it four, like, Sonic four five or four six? I don't even remember the versions anymore, but it was like this point in about November 2025",
+  "zh": "直到，就像，也许 2025 年底，当时，是 4 吗，就像，Sonic 四五或四六？我甚至不记得版本号了，但就像 2025 年 11 月左右的这个时候"
+ },
+ {
+  "seg": 37,
+  "start": 849.35,
+  "end": 849.91,
+  "speaker": "Chris Benson",
+  "en": "that Yeah, the model",
+  "zh": "是的，该模型"
+ },
+ {
+  "seg": 38,
+  "start": 850.23,
+  "end": 880.88,
+  "speaker": "Angie Jones",
+  "en": "The model just powered really good. Yeah. But we couldn't wait until then. Like, I had a mandate to like, get everybody using AI and to increase developer velocity. And so what I did, thinking back to that change management, and it was too much of a lift to get it's 3,500 developers to lift everyone at the same time, especially when you have all of these emotions involved and you have this resistance.",
+  "zh": "模型真的表现得很好。是的。但我们不能等到那时。就像，我有一个命令要让每个人都使用 AI 并提高开发者速度。所以我做了，回想那个变化管理，让 3500 名开发者同时提升是一项太繁重的工作，特别是当你涉及所有这些情绪并且你有这种阻力时。"
+ },
+ {
+  "seg": 39,
+  "start": 880.88,
+  "end": 903.94995,
+  "speaker": "Angie Jones",
+  "en": "Right? And I would say like, we had quite a few people who were resistant to this. So what I did instead, there's this rule, it's called the nineteen ninety rule. And this rule essentially says that in any community, there's gonna be 1% of that community that are creators. Think about social media, anything like that.",
+  "zh": "对吧？我会说，就像，我们有相当多的人抵制这个。所以我所做的，有一条规则，它被称为 1990 规则。这条规则本质上说，在任何社区，都会有 1% 的社区成员是创造者。想想社交媒体，或类似的东西。"
+ },
+ {
+  "seg": 40,
+  "start": 904.02997,
+  "end": 945.11505,
+  "speaker": "Angie Jones",
+  "en": "You'll have 9% that they'll dabble here and there, the tinkerers, if you will. And then the 90, the bulk of people are consumers. And so I said, if I look at our engineering organization through that lens, let me go and put together the one person. And so I went across the org and I pulled people, and they didn't necessarily have to be the the drunk off the Kool Aid, like AI peeled people. But I just needed representation from every major repo that we had, you know, our largest ones, our critical ones.",
+  "zh": "你会有 9% 的人偶尔涉猎，如果你愿意的话，可以说是修补者。然后 90%，大多数人是消费者。所以我说，如果我用那个镜头看我们的工程组织，让我去集合那 1% 的人。所以我跨越组织并拉拢了人，他们不一定非得是那些喝醉 Kool Aid 的人，就像 AI 狂热分子。但我只是需要我们拥有的每个主要仓库的代表，你知道，我们最大的"
+ },
+ {
+  "seg": 41,
+  "start": 945.435,
+  "end": 964.36005,
+  "speaker": "Angie Jones",
+  "en": "I wanted people from various teams, different types of repos as well. So I needed front end and back end and mobile, iOS and Android. You know, I needed these people. And so I did this little week long campaign just going across the org. These people don't necessarily I'm not their first line manager, right?",
+  "zh": "我想要来自不同团队的人，以及不同类型的代码仓库。所以我需要前端和后端，还有移动端、iOS 和 Android。你知道，我需要这些人。所以我做这个小型的为期一周的活动，只是横跨整个组织。这些人，我不是他们的直属经理，对吧？"
+ },
+ {
+  "seg": 42,
+  "start": 964.36005,
+  "end": 983.105,
+  "speaker": "Angie Jones",
+  "en": "So I need to get buy in from their first line manager. That's a totally different conversation because a lot of them weren't even bought into this, right? But I say, Hey, listen, you know you have this mandate. You gotta get people to use AI on your team. Give me one person that I can have 30% of their time.",
+  "zh": "所以我需要从他们的直属经理那里获得认可。这是一个完全不同的对话，因为他们很多人甚至还没买账这个，对吧？但我说，嘿，听着，你知道你有这个指令。你必须让你团队里的人使用 AI。给我一个人，我可以拥有他们 30% 的时间。"
+ },
+ {
+  "seg": 43,
+  "start": 983.505,
+  "end": 1004.20496,
+  "speaker": "Angie Jones",
+  "en": "And what I wanna do is, one, they all come together, we learn all of this stuff, but it's not just for them. What I need them to do is build that knowledge back into the systems themselves so that your entire team benefits from this. Right? And so they were there with me. We're drinking.",
+  "zh": "我想做的是，第一，他们都聚在一起，我们学习所有的这些东西，但这不仅仅是为了他们。我需要他们做的是把这些知识构建回系统本身，这样你的整个团队都能从中受益。对吧？所以他们和我在一起。我们在喝。"
+ },
+ {
+  "seg": 44,
+  "start": 1004.20496,
+  "end": 1017.18,
+  "speaker": "Angie Jones",
+  "en": "It was 50 of them. Drinking from the fire hose, trying things out because things are changing so quickly. There's so much noise. You don't know what'll work, what won't work. Right?",
+  "zh": "他们有 50 个人。像从消防水带喝水一样，尝试事情，因为事情变化得太快了。有太多的噪音。你不知道什么会起作用，什么不会起作用。对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 1017.18,
+  "end": 1040.21,
+  "speaker": "Angie Jones",
+  "en": "Everything looks great on Twitter and a little demo. But we're working with huge, you know, mono repos with, you know, hundreds of services in them. Like, you know, we're working with people's money. You know, these are enterprise systems that you have to approach this a bit differently and much more carefully. And so they would try things out.",
+  "zh": "一切在 Twitter 和一个小演示上看起来都很棒。但我们正在处理巨大的，你知道，单体仓库，里面有，你知道，数百个服务。就像，你知道，我们正在处理人们的钱。你知道，这些是企业系统，你必须以稍微不同的方式并且更加谨慎地处理这个问题。所以他们会尝试事情。"
+ },
+ {
+  "seg": 46,
+  "start": 1040.29,
+  "end": 1051.635,
+  "speaker": "Angie Jones",
+  "en": "We'll see things. We'll try them. Some things will work for maybe a specific type of repo. Like, this works great on web, sucks for mobile. Right?",
+  "zh": "我们会看到事情。我们会尝试它们。有些事情可能对特定类型的仓库有效。比如，这在网络上很有效，在移动端很烂。对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 1051.635,
+  "end": 1065.7151,
+  "speaker": "Angie Jones",
+  "en": "We can't use that technique. But together, the 50 of us were able to try a lot of things, figure out what works. Maybe I do have something that works on my iOS repo. Hey, other iOS repos, here's what I figured out. Right?",
+  "zh": "我们不能使用那个技术。但是在一起，我们这 50 个人能够尝试很多事情，弄清楚什么有效。也许我确实有一些东西可以在我的 iOS 仓库上工作。嘿，其他的 iOS 仓库，这是我弄清楚的。对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 1066.01,
+  "end": 1105.4601,
+  "speaker": "Angie Jones",
+  "en": "And then, like I said, embed this stuff into the system. So things like context engineering techniques, things like, you know, Agent's MD files and agent skills and all of that baked into the repo so that no matter who was pointing their agent at this repo, the agent could work the way that your team wanted it to work because it was baked into the system. So we didn't have to teach everybody how to do this. These champions essentially did that for them and filtered out the noise for their team. So they would bring back the things that actually work that are tried and true, and then they would do a brown bag session or something with their team.",
+  "zh": "然后，就像我说的，把这些东西嵌入到系统中。所以像上下文工程技术这样的东西，像，你知道，Agent's MD 文件和智能体技能以及所有这些都烘焙到代码仓库中，这样无论谁将他们的智能体指向这个代码仓库，智能体都能按照你的团队想要的方式工作，因为它被烘焙到了系统中。所以我们不需要教每个人如何做这个。这些冠军本质上为他们做了这件事，并为他们的团队过滤掉了噪音。所以他们带回了那些真正有效、经过验证的东西，然后他们会和他们的团队做一个 brown bag 会议或类似的事情。"
+ },
+ {
+  "seg": 49,
+  "start": 1105.4601,
+  "end": 1116.345,
+  "speaker": "Angie Jones",
+  "en": "Like, let me show you guys what I put in the repo and why it's working for you all of a sudden. You know? So that that was the technique, that we used there, and it worked really, really well.",
+  "zh": "比如，让我给你们看看我放在代码仓库里的东西，以及为什么它突然对你们起作用了。你知道吗？所以那就是我们在那里使用的技术，它真的、真的非常有效。"
+ },
+ {
+  "seg": 50,
+  "start": 1117.145,
+  "end": 1163.62,
+  "speaker": "Sponsor",
+  "en": "Sometimes as a business owner, it's so hard to put out quality material and content that looks handcrafted and human, but yet still use appropriate tools and automation and AI to make that fast to ship. That's why I appreciate so much what our partner, Framer, is doing. Framer is the pro website builder for creators, teams, and businesses that want a professional site and care enough to get every detail right. But that that can't come at the price of endless to do lists and long, long development processes. You need to make that happen fast, which is why Framer has integrated agents directly into their platform that work right alongside the teams creating the site.",
+  "zh": "有时作为企业主，很难发布出看起来是手工制作且人性化的优质材料和内容，但同时又使用合适的工具、自动化和 AI 来快速交付。这就是我非常欣赏我们的合作伙伴 Framer 所做事情的原因。Framer 是面向创作者、团队和企业的专业网站构建器，他们想要专业的网站，并且足够在意以把每个细节都做对。但这不能以无尽的待办事项清单和漫长的开发过程为代价。你需要快速实现这一点，这就是为什么 Framer 将智能体直接集成到了他们的平台中，与创建网站的团队并肩工作。"
+ },
+ {
+  "seg": 51,
+  "start": 1163.955,
+  "end": 1189.73,
+  "speaker": "Sponsor",
+  "en": "You can learn more about Framer and learn how to get more out of your site from a Framer specialist or get started building for free today at framer.com/practicalai for 30% off a Framer Pro annual plan. That's framer.com/practicalai for 30% off. Framer.com/practicalai. Rules and restrictions may apply.",
+  "zh": "你可以在 framer.com/practicalai 了解更多关于 Framer 的信息，了解如何从 Framer 专家那里获得更多网站收益，或者今天就开始免费构建，Framer Pro 年度计划享 30% 折扣。这就是 framer.com/practicalai，享受 30% 的折扣。Framer.com/practicalai。可能适用规则和限制。"
+ },
+ {
+  "seg": 52,
+  "start": 1189.73,
+  "end": 1204.1849,
+  "speaker": "Chris Benson",
+  "en": "So that is super cool. I'm going to, to borrow your techniques myself. Okay. Bet a few other folks listening or watching will do the same. Really insightful there in terms of how to approach that.",
+  "zh": "所以这非常酷。我要借用你的技巧自己试一试。好的。我敢打赌其他一些听众或观众也会这样做。在如何对待这一点方面，真的非常有见地。"
+ },
+ {
+  "seg": 53,
+  "start": 1204.985,
+  "end": 1232.5449,
+  "speaker": "Chris Benson",
+  "en": "As you arrived having gone through a lot of this, and you arrive at the Agentic AI Foundation now, and it's brand new as an organization, you're standing it up, you're taking on the responsibilities, could you talk a bit about what was it like to get the foundation going and get it focused and get the right people and know that you were doing the things that needed and what those are?",
+  "zh": "当你经历了这一切来到智能体 AI 基金会，作为一个组织它是全新的，你正在启动它，你正在承担起责任，你能谈谈让基金会启动、聚焦、找到合适的人并知道你正在做需要做的事情以及那些是什么，这感觉如何吗？"
+ },
+ {
+  "seg": 54,
+  "start": 1232.625,
+  "end": 1254.3849,
+  "speaker": "Angie Jones",
+  "en": "Yeah. So this Agentic AI Foundation was formed end of twenty twenty five. So it's been, what, about eight or nine months at this point. Lots of excitement, right? We had dozens of companies that were interested in being a part because everyone sees the need for this.",
+  "zh": "是的。所以这个智能体 AI 基金会成立于 2025 年底。所以大概已经有八九个月了吧。非常令人兴奋，对吧？我们有几十家公司有兴趣成为其中的一员，因为大家都看到了这方面的需求。"
+ },
+ {
+  "seg": 55,
+  "start": 1254.465,
+  "end": 1275,
+  "speaker": "Angie Jones",
+  "en": "Everyone is also innovating at lightning speed. There's so much innovation that's happening right now. And if you have anything that you're creating that's like, you know, oh, we don't have this figured out. We need a new standard for this. No one wants that standard being cooked in one kitchen, right?",
+  "zh": "每个人都在以闪电般的速度创新。现在正在发生太多的创新。如果你正在创建任何东西，比如说，你知道，哦，我们还没弄清楚这个。我们需要为此制定一个新的标准。没有人希望这个标准是在一个厨房里单方面制定的，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 1275.925,
+  "end": 1302.6699,
+  "speaker": "Angie Jones",
+  "en": "If we're talking about Agentic Commerce, for example, it PayPal doesn't want Stripe figuring that out by themselves. Right? They wanna work together or they need to work together, and they know they need to work together. And so what the Agentic AI Foundation has done is provided this neutral home where all of these various companies can come and have these conversations together. So we have, working groups essentially, where the members, they've okay.",
+  "zh": "例如，如果我们谈论智能体商务，PayPal 不希望 Stripe 自己解决这个问题。对吧？他们想要一起工作，或者他们需要一起工作，而且他们知道他们需要一起工作。因此，智能体 AI 基金会所做的就是提供一个中立的家园，所有这些不同的公司都可以来这里并一起进行这些对话。所以我们有，本质上，工作组，成员们，他们已经，好的。"
+ },
+ {
+  "seg": 57,
+  "start": 1302.6699,
+  "end": 1312.2849,
+  "speaker": "Angie Jones",
+  "en": "Which working group do you wanna be a part of? There's so many of them. There's like like I said, the Agentic Commerce. Right? So if you're figuring out how agents are gonna buy stuff on the web, alright.",
+  "zh": "你想成为哪个工作组的一部分？有太多了。就像我说的，智能体商务。对吧？所以如果你正在弄清楚智能体将如何在网络上购买东西，好吧。"
+ },
+ {
+  "seg": 58,
+  "start": 1312.2849,
+  "end": 1328.95,
+  "speaker": "Angie Jones",
+  "en": "I need all I need Visa. I need PayPal. I need Stripe. I need, you know, all of these various companies together, and they work on these standards together. I like to think of it as they are defining the rules of the game and creating the game board together.",
+  "zh": "我需要 Visa。我需要 PayPal。我需要 Stripe。我需要，你知道，所有这些各种各样的公司在一起，他们一起制定这些标准。我喜欢把它想象成他们正在定义游戏规则并共同创建游戏板。"
+ },
+ {
+  "seg": 59,
+  "start": 1328.95,
+  "end": 1341.765,
+  "speaker": "Angie Jones",
+  "en": "And once they have that figured out, it's like, all right, now we can compete. Deal, you know, deal me in. Right? And so that's what the Agentic Foundation does. It also houses those standards or those projects.",
+  "zh": "一旦他们弄清楚了，就像，好了，现在我们可以竞争了。算我一个，你知道，让我加入。对吧？这就是智能体基金会所做的。它还托管这些标准或这些项目。"
+ },
+ {
+  "seg": 60,
+  "start": 1341.765,
+  "end": 1388.86,
+  "speaker": "Angie Jones",
+  "en": "So right now the projects are MCP, AgentsMD, GOOS, Agent Gateway, and then also just this week, A2A, which is Google's agent to agent protocol, has come into the foundation. And so these projects, now you have companies from all over contributing to these projects, right, or these standards. You then give it more of a voice. If you wanted to use one of these projects, but it lived in one of these companies, you might be a bit hesitant, right? As a company, to build your products on top of this, if it lives with this one company, I don't know what they're gonna do.",
+  "zh": "所以目前的项目有 MCP、AgentsMD、GOOS、Agent Gateway，然后也就是就在本周，A2A，也就是 Google 的智能体对智能体协议，已经进入了基金会。所以这些项目，现在你有来自各地的公司为这些项目做贡献，对吧，或者这些标准。然后你给它更多的声音。如果你想使用这些项目中的一个，但它属于这些公司中的一家，你可能会有些犹豫，对吧？作为一个公司，在这个基础上构建你的产品，如果它属于这一家公司，我不知道他们会做什么。"
+ },
+ {
+  "seg": 61,
+  "start": 1388.86,
+  "end": 1407.75,
+  "speaker": "Angie Jones",
+  "en": "I don't know if they'll kill it. I don't know if they'll just The roadmap will only reflect their goals. You know what I mean? And so being a part of the Agentic AI Foundation gives it that confidence that, Hey, this is in a neutral place. I now can build on top of this.",
+  "zh": "我不知道他们会不会终止它。我不知道他们是否会只是路线图只会反映他们的目标。你明白我的意思吗？因此，成为智能体 AI 基金会的一员给了它这种信心，嘿，这是在一个中立的地方。我现在可以在此基础上构建。"
+ },
+ {
+  "seg": 62,
+  "start": 1407.75,
+  "end": 1428.3649,
+  "speaker": "Angie Jones",
+  "en": "And so that's what it looks like. We do a lot of education around the projects, the protocols, we throw conferences in all parts of the globe. And I'll say, like, one one really cool aspect of this role. So in my last role, went deep on agents, but I'm also inside of my company. Right?",
+  "zh": "这就是它的样子。我们围绕这些项目、这些协议做了很多教育工作，我们在全球各地举办会议。我想说，这个角色有一个很酷的方面。所以在我的上一个角色中，我深入研究智能体，但我也在我的公司内部。对吧？"
+ },
+ {
+  "seg": 63,
+  "start": 1429.085,
+  "end": 1451.345,
+  "speaker": "Angie Jones",
+  "en": "A little bit in open source. I'm consuming, but I'm still my bubble is probably North America. Now this is a global foundation where my job is to pay attention to what is happening across the world. How are they adopting Augetic AI in Japan, in China, in Africa? You know what I mean?",
+  "zh": "有点在开源领域。我在消费，但我仍然，我的泡沫可能只是北美。现在这是一个全球性的基金会，我的工作是关注世界各地正在发生的事情。他们如何在日本、中国、非洲采用 Augetic AI？你明白我的意思吗？"
+ },
+ {
+  "seg": 64,
+  "start": 1451.345,
+  "end": 1470.3899,
+  "speaker": "Angie Jones",
+  "en": "And so now I have this global perspective, which is absolutely fascinating. And part of the role is also to help these various countries come together on these standards and protocols and projects so that they're interoperable across the board.",
+  "zh": "所以现在我有了这种全球视角，这绝对迷人。该角色的一部分也是帮助这些不同的国家在这些标准、协议和项目上走到一起，以便它们在各方面都能互操作。"
+ },
+ {
+  "seg": 65,
+  "start": 1470.3899,
+  "end": 1512.435,
+  "speaker": "Chris Benson",
+  "en": "I'm curious. So that does sound super cool. I'm curious with that global perspective that you have developed in this role, how do you assess? I think it's very easy pretty for much I think it's easy for anyone kind of coming from their own perspective and their own little bubble that they're in to kind of assume, I'm doing Agentics, and everybody else is doing it just like me, or has the same needs, and stuff like that. And so I think it's very easy to forget that diversity of location, diversity of life, all those things can change the user's need for that.",
+  "zh": "我很好奇。所以听起来确实非常酷。我很好奇，随着你在这个角色中培养出的全球视角，你如何评价？我认为这很容易，我认为任何来自自己的视角和自己所处的小泡沫的人都很容易假设，我在做智能体，其他人也像我一样做，或者有同样的需求，诸如此类。所以我认为很容易忘记地点的多样性、生活的多样性，所有这些都会改变用户对此的需求。"
+ },
+ {
+  "seg": 66,
+  "start": 1512.435,
+  "end": 1522.71,
+  "speaker": "Chris Benson",
+  "en": "And so do you have any particular highlights from that global perspective on things maybe that surprised you or that caught your interest? I'd love to hear some of that.",
+  "zh": "那么你有什么特别的亮点可以从那个全球视角来谈谈，也许有些让你感到惊讶或者引起你兴趣的事情吗？我很想听听其中的一些。"
+ },
+ {
+  "seg": 67,
+  "start": 1522.71,
+  "end": 1561.355,
+  "speaker": "Angie Jones",
+  "en": "So I would say in places like China that are mobile first, right, The way they use technology is a bit different than us. So we're in North America, I would say a very like sass heavy culture, whereas everything is like mobile over there. And so now, like they, for example, they have a big need for a protocol like agent to agent, where you need like this app to be able to talk to that app, and they're both Agentic apps. Right? And so they could, like, use that.",
+  "zh": "所以我会说在中国这样的地方，它们是移动优先的，对吧，他们使用技术的方式与我们有点不同。所以我们是在北美，我会说一种非常像 SaaS 为主的文化，而那里的一切都是移动的。所以现在，就像他们，例如，他们对像智能体对智能体这样的协议有很大需求，在那里你需要这个应用能够与那个应用对话，而且它们都是智能体应用。对吧？所以它们可以，比如，使用那个。"
+ },
+ {
+  "seg": 68,
+  "start": 1561.355,
+  "end": 1585.635,
+  "speaker": "Angie Jones",
+  "en": "Like, for example, like, WeChat uses that, you know, with various agents and stuff like that. So that was really fascinating to me to just see, like, oh, even the types of applications you're using essentially influence like the the types of tech that are standards or or like anything like that that you might need. And so that's just one example, yeah.",
+  "zh": "比如，像 WeChat 使用那个，你知道，与各种智能体和类似的东西。所以对我来说这真的很有趣，就像，哦，即使是你使用的应用程序类型本质上也会影响你可能需要的标准类型或类似技术的类型。所以这只是其中一个例子，是的。"
+ },
+ {
+  "seg": 69,
+  "start": 1585.635,
+  "end": 1634.35,
+  "speaker": "Chris Benson",
+  "en": "That's cool. I'm curious, and this is where I'm gonna be selfish on my part. As an engineer and a research scientist, I'm very focused on autonomy, and as you're getting into mobile, and that's getting awfully close to thinking about edge concerns and stuff like that, and embodied intelligence is such a hot area, and certainly the area that I'm focused on, and the rapid rise of robotics in all domains, whether they're ground robots or flying things or whatever, is truly taking off like it never has before. No pun intended there. I'm curious how, this kind of I think in some parts of the world you see that more than others.",
+  "zh": "这很酷。我很好奇，这也就是我要自私的地方了。作为一名工程师和研究科学家，我非常关注自主性，随着你进入移动领域，这已经非常接近考虑边缘问题之类的事情了，而具身智能是一个非常热门的领域，当然也是我关注的领域，以及机器人在所有领域的快速兴起，无论是地面机器人还是飞行物体或其他什么，确实正在以前所未有的方式腾飞。没打算双关语。我很好奇，当你试图从基金会拥有的这些项目中审视那些不同的需求时，你会如何处理？我认为在世界的某些地方你比其他地方看到更多这种情况。"
+ },
+ {
+  "seg": 70,
+  "start": 1634.35,
+  "end": 1644.6449,
+  "speaker": "Chris Benson",
+  "en": "I think in China, Japan, there are certain places where you're gonna see a lot more robotics than you will in The US. For US listeners or watchers, we don't have nearly as much",
+  "zh": "我认为在中国、日本，有些地方你会看到比在美国多得多的机器人。对于美国的听众或观众来说，我们没有那么多的"
+ },
+ {
+  "seg": 71,
+  "start": 1644.6449,
+  "end": 1646.0848,
+  "speaker": "Angie Jones",
+  "en": "of That's that right.",
+  "zh": "那种东西。那是对的。"
+ },
+ {
+  "seg": 72,
+  "start": 1646.4049,
+  "end": 1684.695,
+  "speaker": "Chris Benson",
+  "en": "So like how does when you're looking from trying to take these projects that the foundation has and you're looking at those different needs and you're saying, well, the Americans and the Canadians and such kinda have one way of doing it, and the Chinese and the Japanese and other, like, that may have a different way. How do you because that's quite different in terms of how you're using agents in those ways and the way you're configuring it and the way you're constructing them and what their utility is. How do you approach that when you're trying to make everybody happy with standards that are truly meant to be global?",
+  "zh": "所以就像当你看着试图采用基金会拥有的这些项目，你在看那些不同的需求，你在说，好吧，美国人和加拿大人等有一种做事方式，而中国人和日本人及其他人，可能有不同的方式。你是如何因为这在使用智能体的方式、配置它们的方式、构建它们的方式以及它们的效用方面是非常不同的。当你试图让每个人都对这些真正 global 的标准感到满意时，你是如何处理这个问题的？"
+ },
+ {
+  "seg": 73,
+  "start": 1684.775,
+  "end": 1704.795,
+  "speaker": "Angie Jones",
+  "en": "Yeah. That is why you need everyone at the table. Right? And so if you only had, like, the your your top, like, fame companies in The US kinda determining all of this, and there's no one from these other countries that, hey. Robotics is, like, a big deal here.",
+  "zh": "是的。这就是为什么你需要每个人都坐到桌边来。对吧？所以如果你只有，比如，你在美国的顶级知名公司决定所有这一切，而没有来自这些其他国家的人说，嘿。机器人技术在这里是一件大事。"
+ },
+ {
+  "seg": 74,
+  "start": 1704.795,
+  "end": 1721.18,
+  "speaker": "Angie Jones",
+  "en": "Like, we have to think about the physical applications as well. Right? Then you miss that perspective. Right? And not to say, like, they don't have places there, but you need leadership from those companies to also have a part in crafting the story.",
+  "zh": "像，我们也必须考虑物理应用。对吧？那么你就错过了那个视角。对吧？并不是说，他们在那里没有位置，但你也需要来自这些公司的领导力来参与构思这个故事。"
+ },
+ {
+  "seg": 75,
+  "start": 1721.18,
+  "end": 1742.225,
+  "speaker": "Angie Jones",
+  "en": "Right? And so that's exactly like what the working groups do, like find your lane, get into it, you know. Europe is another good example. So they just rolled out the EU AI Act, right? And so that, like, is gonna change the transparency that these systems have had, and that's global.",
+  "zh": "对吧？这正是像工作组所做的事情，找到你的跑道，进入它，你知道。欧洲是另一个好例子。所以他们刚刚推出了欧盟 AI 法案，对吧？所以这将会改变这些系统所拥有的透明度，那是全球性的。"
+ },
+ {
+  "seg": 76,
+  "start": 1742.225,
+  "end": 1784.7999,
+  "speaker": "Angie Jones",
+  "en": "If you're gonna be serving anything to someone in Europe, then you have to be able to adhere to these new legislations. And so that's another example where, okay, I don't care what country you come from, you have to, one, be aware of this, and two, also help define how this should be done, right? There was a lot of backlash on how Anthropic rolled this out, for example, right? And so we have a working group that is looking at, are there some systems that we could build or some standards or something so that everyone doesn't have to reinvent this figure out they're gonna do it. Right?",
+  "zh": "如果你要为欧洲的任何人服务任何东西，那么你必须能够遵守这些新的立法。所以这是另一个例子，比如，好吧，我不在乎你来自哪个国家，你必须，第一，意识到这一点，第二，也帮助定义应该如何做，对吧？对于 Anthropic 如何推出这一点，例如，有很多反弹，对吧？所以我们有一个工作组正在研究，是否有一些我们可以构建的系统或一些标准或其他东西，这样大家就不必重新发明这一点来弄清楚他们打算怎么做。对吧？"
+ },
+ {
+  "seg": 77,
+  "start": 1784.8,
+  "end": 1813.52,
+  "speaker": "Angie Jones",
+  "en": "So then you have the voices from various countries together to figure this out and say, okay, what if we did it this way? They haven't solved that yet, by the way. But that's a, you know, an active group that's meeting regularly. And by the way, all of these working groups are open, so anyone can join them. Just, you know, they have meetings, they're public, you could just like kinda go into it, see what they're talking about, even, you know, chime in with thoughts of your own.",
+  "zh": "所以你有来自不同国家的声音一起来解决这个问题并说，好吧，如果我们这样做会怎样？顺便说一句，他们还没有解决这个问题。但是，你知道，这是一个活跃的小组，定期开会。顺便说一句，所有这些工作组都是开放的，所以任何人都可以加入。只是，你知道，他们有会议，是公开的，你可以就像进入它，看看他们在谈论什么，甚至，你知道，加入你自己的想法。"
+ },
+ {
+  "seg": 78,
+  "start": 1813.52,
+  "end": 1827.5099,
+  "speaker": "Angie Jones",
+  "en": "But these folks meet, and and this is you have one for security. You have one for identity. Like, you know, any lane that you care about, there's there's someone there, like, kinda working on this from across the globe.",
+  "zh": "但是这些人见面，这就是，你有一个关于安全的。你有一个关于身份的。像，你知道，你关心的任何领域，都有人在那里，就像，从全球各地在这个问题上工作。"
+ },
+ {
+  "seg": 79,
+  "start": 1827.5099,
+  "end": 1875.115,
+  "speaker": "Chris Benson",
+  "en": "Yeah, I know very specific to that, it was just a few days ago that Anthropic released their paper along with a blog post on watermarking so that you can detect AI generated content and all that, which was a fad. This is probably not the only episode that's gonna come up on. Think we're gonna probably do a deep dive on that very soon, and hint hint. But that is one of those things that, to your point, affects everybody, and there probably needs to be somewhat universal approaches to what is watermarking, how should it be applied, what should it be applied to, how do you utilize that both as the provider and as the consumer of that?",
+  "zh": "是的，我知道非常具体针对那一点，就在几天前 Anthropic 发布了他们的论文以及一篇关于水印的博客文章，这样你就可以检测 AI 生成的内容和所有这些，这曾是一种时尚。"
+ },
+ {
+  "seg": 80,
+  "start": 1875.115,
+  "end": 1879.595,
+  "speaker": "Angie Jones",
+  "en": "Yeah. Or do you even do watermarking? Is there a better way to do that?",
+  "zh": "是的。或者你们甚至做水印吗？有更好的方法来做那件事吗？"
+ },
+ {
+  "seg": 81,
+  "start": 1879.915,
+  "end": 1892.7799,
+  "speaker": "Chris Benson",
+  "en": "That's right. That's right. So I think I'm starting to see lots and lots of different utilities. Imagine the foundation's gonna grow quite a lot in the years to come.",
+  "zh": "没错。没错。所以我想我开始看到很多很多不同的实用性。想象一下基金会未来几年会增长相当多。"
+ },
+ {
+  "seg": 82,
+  "start": 1892.7799,
+  "end": 1895.74,
+  "speaker": "Angie Jones",
+  "en": "Yeah. There's definitely a lot of work to do.",
+  "zh": "是的。肯定有很多工作要做。"
+ },
+ {
+  "seg": 83,
+  "start": 1898.955,
+  "end": 1953.1699,
+  "speaker": "Sponsor",
+  "en": "Super interesting and exciting to think about this agentic future driven by things like MCP and agent to agent interactions. But actually putting that architecture in place within your company, within your enterprise can be overwhelming because it sometimes seems like you just lose complete control. That's why I'm so privileged to be leading a company Prediction Guard that is helping you gain that control back. By deploying Prediction Guard, which is a self hosted AI control plane within your organization, you can manage the supply chain on which your agents operate, institute runtime governance, manage observability, and none of that slows down agent building because it ships with a robust agent builder called Agent Forge out of the box. I would encourage you to check out what we're doing at predictionguard.com/practicalai.",
+  "zh": "想到这个由 MCP 和智能体到智能体交互驱动的智能体未来，超级有趣且令人兴奋。但实际上在你的公司内部、在你的企业内部落实这种架构可能会让人不知所措，因为有时候看起来你只是完全失去了控制。这就是为什么我很荣幸能领导一家名为 Prediction Guard 的公司，它正帮助你重新获得那种控制。通过部署 Prediction Guard，这是你组织内部的一个自托管 AI 控制平面，你可以管理你的智能体在其上运行的供应链，建立运行时治理，管理可观测性，而且所有这些都不会拖慢智能体构建，因为它开箱即用地附带了一个名为 Agent Forge 的强大的智能体构建器。我鼓励你去查看我们在 predictionguard.com/practicalai 正在做的工作。"
+ },
+ {
+  "seg": 84,
+  "start": 1953.4099,
+  "end": 1960.4851,
+  "speaker": "Sponsor",
+  "en": "Book a time to get a demo and talk with our team, predictionguard.com/practicalai.",
+  "zh": "预订一个时间来获取演示并与我们的团队交谈，predictionguard.com/practicalai。"
+ },
+ {
+  "seg": 85,
+  "start": 1960.4851,
+  "end": 1991.875,
+  "speaker": "Chris Benson",
+  "en": "So as we start getting to the point where we can, I'd love to dive into kind of maybe get a high level overview of each of those projects that you described a little while ago, just kind of what it is for people that aren't familiar with them, and then maybe dive into where some of the stuff is going based on where you're at. I know that you and I have talked about MCP and other things, so I'd love to go wherever you wanna go in terms of some technical deep dives because we Yeah. Love that",
+  "zh": "所以当我们开始到达那个我们能做到的节点时，我很想深入探讨一下，也许能对你刚才描述的每一个项目做一个高层次的概述，只是为那些不熟悉它们的人介绍一下它们是什么，然后也许可以根据你目前的状况深入探讨一些事情的发展方向。我知道你和我讨论过 MCP 和其他事情，所以我愿意在技术深潜方面去任何你想去的地方，因为我们 是的。喜欢那个"
+ },
+ {
+  "seg": 86,
+  "start": 1992.755,
+  "end": 2022.9349,
+  "speaker": "Angie Jones",
+  "en": "Sure. So we have AgentMD. So this was a standard created by OpenAI, and this one standardizes how projects, meaning code bases, communicate their operating instructions to agents. And then there's Goose, which is one of the first open source AI agents. And this one essentially provides like this agentic runtime.",
+  "zh": "当然。所以我们有 AgentMD。这是一个由 OpenAI 创建的标准，这一个标准化了项目，也就是代码库，如何向智能体传达它们的操作指令。然后有 Goose，这是第一批开源 AI 智能体之一。这一个本质上提供了像这种智能体运行时。"
+ },
+ {
+  "seg": 87,
+  "start": 2023.095,
+  "end": 2060.1,
+  "speaker": "Angie Jones",
+  "en": "And then there's MCP, of course, which connects agents to tools and systems. Agent Gateway, this one was Oh, and I didn't tell you, Bloc and MCP came from Anthropic. Agent Gateway came from a company called Solo. And Solo created Agent Gateway to mediate traffic. So essentially, like MCP traffic, eight two eight, as you're using this stuff in enterprise, you kinda want some controls around what the agent is doing and what it has access to.",
+  "zh": "然后当然有 MCP，它将智能体连接到工具和系统。Agent Gateway，这个是 哦，而且我没告诉你，Bloc 和 MCP 来自于 Anthropic。Agent Gateway 来自一家名为 Solo 的公司。Solo 创建 Agent Gateway 是为了调解流量。所以本质上，像 MCP 流量，八二八，当你在企业中使用这些东西时，你有点想要一些围绕智能体在做什么以及它能访问什么的控制。"
+ },
+ {
+  "seg": 88,
+  "start": 2060.1,
+  "end": 2077.075,
+  "speaker": "Angie Jones",
+  "en": "You wanna, you know, make that observable and stuff like that. So agent gateway is a open source project that does that. And then, A2A is, the the newest addition. This one is from Google. A2A is the agent to agent protocol.",
+  "zh": "你想要，你知道，使其可被观测以及诸如此类的事情。所以 agent gateway 是一个做那个的开源项目。然后，A2A 是，那个最新的新增项目。这个来自 Google。A2A 是智能体到智能体协议。"
+ },
+ {
+  "seg": 89,
+  "start": 2077.075,
+  "end": 2091.75,
+  "speaker": "Angie Jones",
+  "en": "And this one is really cool in that this is how agents can coordinate with other agents. So you can delegate work to another agent, or just be able to collaborate on a given task, right?",
+  "zh": "而且这个真的很酷，在于这就是智能体如何与其他智能体协调的方式。所以你可以将工作委托给另一个智能体，或者只是能够在给定的任务上协作，对吧？"
+ },
+ {
+  "seg": 90,
+  "start": 2091.75,
+  "end": 2176.08,
+  "speaker": "Chris Benson",
+  "en": "That's pretty cool. I'm curious, one of the things I know in my world that I've been exploring is if you look at late last year and people would just have an agent to do something, and then we kind of moved into this year and people are doing multiple agents that are starting to collaborate a bit, and you're starting to have that kind of cross talk and collaboration, and then now as we record this, we're in August, and we're talking like it's gone up orders of magnitude in It's terms of some, and that's not everybody. This is some use cases where you're talking tens of thousands of agents sometimes, or hundreds of thousands, or even millions are now coming into play. I'm curious, you're looking That has to be a challenge to some degree from a scalability standpoint, because going back to what you were saying before, we are racing along so fast, much faster, and I'm old enough to remember I'm old, and therefore I remember before internet was even a thing, and I was even an adult at that point, sadly. And so I know the velocity that things happened across each of the various technological revolutions that we've had over the past lifetime, if you will.",
+  "zh": "那很酷。我很好奇，我知道在我的世界里我一直在探索的事情之一是，如果你看去年年底，人们只是有一个智能体去做某事，然后我们有点进入了今年，人们正在做多个智能体，它们开始有点协作，你开始有那种交叉对话和协作，然后现在当我们录制这个时，我们在八月，我们谈论的情况是它上升了数量级，就在某些方面而言，而且那不是所有人。这是在一些用例中，你谈论的是有时数万个智能体，或者数十万个，甚至数百万现在正在发挥作用。我很好奇，你正在看 那在某种程度上肯定是一个挑战，从可扩展性的角度来看，因为回到你之前说的话，我们前进得如此之快，快得多，而且我足够老去记得 我老了，因此我记得在互联网甚至还没出现的时候，而且那时我甚至已经是个成年人了，可悲地。所以我知道在我们过去的一生中，如果我们愿意说的话，跨越我们所经历的每一次各种技术革命事情发生的速度。"
+ },
+ {
+  "seg": 91,
+  "start": 2176.08,
+  "end": 2229.97,
+  "speaker": "Chris Benson",
+  "en": "And so this is going so much faster than any of those others. And all of those have had processes. That's why the Linux Foundation itself came into being and lots of others where these technologies came, there was the need to get collaboration across competitors and across global concerns and needs, but you've stepped in to the fastest moving area ever, and it's gone in just a space of months from singles to millions. How does a working group, and especially considering that these are, at the end of the day, all competitors, these different members in their own businesses, How do you manage that? Because by the time working groups Historically, by the time a working group would arrive at something, sometimes you were so far past that.",
+  "zh": "所以这比其他任何那些都要快得多。而且所有那些都有流程。这就是为什么 Linux 基金会本身诞生了以及很多其他的，当这些技术到来时，有必要跨竞争对手和跨全球关注点和需求进行协作，但你介入了有史以来移动最快的领域，而且它仅在几个月的时间里就从一个变成了数百万。一个工作组如何，特别是考虑到这些归根结底都是竞争对手，这些不同成员在他们自己的业务中，你怎么管理那个？因为随着工作组 从历史上看，当一个工作组达成某事时，有时你已经远远超过那个了。"
+ },
+ {
+  "seg": 92,
+  "start": 2230.13,
+  "end": 2257.83,
+  "speaker": "Chris Benson",
+  "en": "So there anything Are there any expected time scales or anything on how to get these things together so that it stays relevant? Because the speed of relevance is just unimaginable now. In terms of how fast that is, how does this new foundation address these kinds of problems that we've had to a lesser extent, but never like today? How do",
+  "zh": "所以有什么东西 有没有任何预期的时间表或任何关于如何把这些东西整合在一起以便它保持相关性的东西吗？因为相关性的速度现在是不可想象的。就其有多快而言，这个新基金会如何解决我们以前在一定程度上有过，但从未像今天这样的这类问题？你怎么"
+ },
+ {
+  "seg": 93,
+  "start": 2257.83,
+  "end": 2265.965,
+  "speaker": "Angie Jones",
+  "en": "you do that? Yeah. We knew going in when we were standing the foundation up. In fact, that was a question. Do we do a foundation?",
+  "zh": "做那个？是的。我们在进入时就知道，当我们正在建立这个基金会时。事实上，那是一个问题。我们要做一个基金会吗？"
+ },
+ {
+  "seg": 94,
+  "start": 2265.965,
+  "end": 2268.8452,
+  "speaker": "Angie Jones",
+  "en": "Foundations are slow, you know?",
+  "zh": "基金会很慢，你知道吗？"
+ },
+ {
+  "seg": 95,
+  "start": 2269.165,
+  "end": 2270.125,
+  "speaker": "Chris Benson",
+  "en": "I guess that's This how people",
+  "zh": "我想这就是人们"
+ },
+ {
+  "seg": 96,
+  "start": 2271.0852,
+  "end": 2293.335,
+  "speaker": "Angie Jones",
+  "en": "is not slow. This is not a slow moving space. Do we do this? We realize we have to do this because you just have to have these neutral homes for things that are this critical, but we cannot move at the pace that your traditional foundation will move at. So we move a lot faster.",
+  "zh": "并不慢。这不是一个移动缓慢的空间。我们做这个吗？我们意识到我们必须做这个，因为你只是必须为这些如此关键的事情拥有这些中立的家，但我们不能以你的传统基金会移动的步调来移动。所以我们移动得快得多。"
+ },
+ {
+  "seg": 97,
+  "start": 2294.375,
+  "end": 2316.77,
+  "speaker": "Angie Jones",
+  "en": "And I think it really helps that the folks on a working group, these are not volunteers doing this in their spare time. Like it is part of their job, you know, to innovate the future. And if you know, hey, we we are trying to build a product on this standard, then you're gonna speed everybody else up. We have to come to some conclusions here. Right?",
+  "zh": "而且我认为这真的很有帮助，工作组里的人，这些不是在业余时间做这个的志愿者。就像这是他们工作的一部分，你知道，去创新未来。如果你知道，嘿，我们 我们正试图在这个标准上构建一个产品，那你就要把其他所有人都加速。我们必须在这里得出一些结论。对吧？"
+ },
+ {
+  "seg": 98,
+  "start": 2317.17,
+  "end": 2335.0151,
+  "speaker": "Angie Jones",
+  "en": "And I think that really helps is that the innovators themselves are the members of these working groups. And so they have Basically, have to move much faster. They have an incentive to not drag this along, you know?",
+  "zh": "而且我认为真的有帮助的是创新者本身就是这些工作组的成员。所以他们基本上，不得不移动得快得多。他们有一种激励不拖延这个，你知道吗？"
+ },
+ {
+  "seg": 99,
+  "start": 2335.0151,
+  "end": 2363.97,
+  "speaker": "Chris Benson",
+  "en": "Yeah, it does. I'm curious, when they come into the working group, and you're talking what are, to the rest of us on the outside, very fierce competitors, OpenAI and Quad. They're hammering it out, and Google's in there. There's a whole slew of them. Is the tenor of the conversation a little bit I guess because, A, they gotta get stuff done, as you said.",
+  "zh": "是的，确实。我很好奇，当他们进入工作组，而你正在谈论的是，对我们外面的其他人来说，非常激烈的竞争对手，OpenAI 和 Quad。他们正在把事情敲定，Google 也在那里。有一大堆他们。对话的基调是不是有点 我想因为，A，他们必须把事情完成，正如你所说。"
+ },
+ {
+  "seg": 100,
+  "start": 2363.97,
+  "end": 2378.265,
+  "speaker": "Chris Benson",
+  "en": "Gotta get stuff done because everyone's waiting to move on. Does that collaboration, do they kinda just drop Just as a sheer curiosity, they just drop kinda that external competitive behavior and just get in and say, yeah, let's just get it done. Yes.",
+  "zh": "得把事情做完，因为每个人都在等着继续前进。这种合作，他们是不是有点就这样放下，纯粹出于好奇，他们就这样放下那种外部的竞争行为，然后进入说，是的，让我们把它完成吧。是的。"
+ },
+ {
+  "seg": 101,
+  "start": 2378.265,
+  "end": 2385.065,
+  "speaker": "Angie Jones",
+  "en": "They do. It's fascinating. They actually are very friendly with each other. Right? And so, like, they they sure.",
+  "zh": "他们确实如此。这很迷人。实际上他们彼此非常友好。对吧？所以，像，他们确实。"
+ },
+ {
+  "seg": 102,
+  "start": 2385.065,
+  "end": 2393.68,
+  "speaker": "Angie Jones",
+  "en": "Like, yeah. Our company's just got into this heated Twitter war or something, but you and I gotta figure this standard out. You know what I mean? And You can",
+  "zh": "比如，是的。我们公司刚卷入这场激烈的 Twitter 战争或什么的，但你和我得把这个标准弄清楚。你懂我的意思吗？而且你可以"
+ },
+ {
+  "seg": 103,
+  "start": 2393.68,
+  "end": 2396.96,
+  "speaker": "Chris Benson",
+  "en": "let those crazy people talk, but we gotta get this thing done right now.",
+  "zh": "让那些疯子去说吧，但我们现在得把这事做完。"
+ },
+ {
+  "seg": 104,
+  "start": 2397.2,
+  "end": 2420.8699,
+  "speaker": "Angie Jones",
+  "en": "We're super collaborative, which is amazing. It's amazing to watch. I tell people, like, if you wanna see the beauty of, like, open source and people working together from competing companies, all you gotta do is go in the MCP Discord server. It's a thing of beauty. There's just, like, dozens of these working groups within that protocol itself.",
+  "zh": "我们超级协作，这很神奇。看着很棒。我告诉人们，像，如果你想看到，像开源和来自竞争公司的人们一起工作的美妙之处，你所要做的就是进入 MCP Discord 服务器。那是一件美好的事物。那里有，像，几十个在这个协议本身内的工作组。"
+ },
+ {
+  "seg": 105,
+  "start": 2420.8699,
+  "end": 2444.695,
+  "speaker": "Angie Jones",
+  "en": "And you have members from everywhere, every company that's like doing real work, not just throwing ideas out, but like doing real work to add new features or figure out like how to do this other new thing or solve this problem, because their companies depend on those things, right? And so it's beautiful. It's actually really beautiful to see.",
+  "zh": "你有来自各地的成员，每个真正在做工作的公司，不仅仅是抛出想法，而是像做真正的实际工作来添加新功能或弄清楚像如何做这个其他的新事物或解决这个问题，因为他们的公司依赖这些事物，对吧？所以它很美。实际上看起来真的很美。"
+ },
+ {
+  "seg": 106,
+  "start": 2444.84,
+  "end": 2487.31,
+  "speaker": "Chris Benson",
+  "en": "So as we start winding up here, I'm curious, it's just kinda, just the speed of operation is a little bit mind boggling. As you're looking ahead and you guys have put together this foundation and you're having those really productive and rapid conversations to get stuff done so that this world continues at the velocity it's at, what are some of the things that you might expect to see having come along the path? Because I think you're in a bit of a unique position to say, You've built into this. You're one of the people that set the foundation up. You've seen it start to work, and you've seen it working well.",
+  "zh": "所以随着我们在这里开始收尾，我很好奇，只是有点，只是操作的速度有点令人难以置信。当你向前看，你们已经建立这个基础，并且你们正在通过那些真正有效和快速的对话来把事情做完，以便这个世界以它现有的速度继续发展，你可能会预期看到沿着这条路走来的一些事情是什么？因为我认为你处于一个独特的位置来说，你已经构建进这里面。你是建立基础的人之一。你看到它开始工作，而且你看到它运转良好。"
+ },
+ {
+  "seg": 107,
+  "start": 2488.3499,
+  "end": 2508.02,
+  "speaker": "Chris Benson",
+  "en": "And with those kinds of relationships forming and everything, how do you see things moving forward? And you could be a little speculative. It's fine to be wrong. I say things on the show all the time that are wrong. Daniel and I are like, Oh, got that one wrong, but we try.",
+  "zh": "随着这些种类的正在形成的关系和一切，你如何看待事情向前发展？你可以有点推测性。错了也没关系。我在节目上一直说错话。Daniel 和我就像，哦，搞错了那个，但我们尽力了。"
+ },
+ {
+  "seg": 108,
+  "start": 2508.3398,
+  "end": 2526.075,
+  "speaker": "Chris Benson",
+  "en": "But it's fun to try to think, Where might things go? What are your thoughts? Where do you think we're heading into this brave new world where everyone's trying to figure out, not just like no one knows ten years, but people are trying to figure out, what is it gonna be in six months?",
+  "zh": "但试着去思考很有趣，事情可能会去向哪里？你的想法是什么？你认为我们要进入这个勇敢的新世界，每个人都在试图弄清楚，不仅仅是像没人知道十年后，而是人们试图弄清楚，六个月后会发生什么？"
+ },
+ {
+  "seg": 109,
+  "start": 2526.2349,
+  "end": 2527.195,
+  "speaker": "Angie Jones",
+  "en": "Yeah. Yeah.",
+  "zh": "是的。是的。"
+ },
+ {
+  "seg": 110,
+  "start": 2527.4348,
+  "end": 2528.875,
+  "speaker": "Chris Benson",
+  "en": "What are your thoughts around that?",
+  "zh": "关于那个你的想法是什么？"
+ },
+ {
+  "seg": 111,
+  "start": 2528.875,
+  "end": 2559.6401,
+  "speaker": "Angie Jones",
+  "en": "If we look at you and I, you know, and probably everyone listening to this podcast, we kinda live in this bubble where, you know, we're likely very exposed to AI. We're working with it daily. That is not the case across the the world. Like, you know, the general population, like you said, one, they hate AI, and two, they probably are not using it, in their day to day. Right?",
+  "zh": "如果看看你和我，你知道，并且可能每个听这个播客的人，我们有点生活在这个泡沫里，你知道，我们可能非常暴露于 AI。我们每天都在使用它。这在全世界并不是这样。像，你知道，普通大众，像你说的，第一，他们讨厌 AI，第二，他们可能并没有在日常生活中使用它。对吧？"
+ },
+ {
+  "seg": 112,
+  "start": 2559.6401,
+  "end": 2595.02,
+  "speaker": "Angie Jones",
+  "en": "Maybe they've asked chat GPT a question. You know, they searched from something for Google and a little summary came up, and that's pretty much the extent of what they've done. So outside of our bubble, like we have so many challenges right now just amongst like the tech community. Outside of that, when you start looking at how like the everyday person is going to utilize agents for all sorts of things, right? Within their lives, you just start seeing all of these other things that we need to figure out.",
+  "zh": "也许他们问了 ChatGPT 一个问题。你知道，他们从某事物为谷歌进行了搜索，一个小摘要出现了，这基本上就是他们所做的程度。所以在我们的泡沫之外，像我们目前在技术社区中有很多挑战。除此之外，当你开始看普通人如何利用智能体做各种事情时，对吧？在他们生活中，你只是开始看到所有这些我们需要弄清楚的其他事情。"
+ },
+ {
+  "seg": 113,
+  "start": 2595.02,
+  "end": 2627.86,
+  "speaker": "Angie Jones",
+  "en": "And so I think that there's a lot we have to figure out. I think that'll consume us for the next couple of years. I do think that AI will become a part of, you know, the everyday person's day to day, just like mobile phones and internet have, I think the same will exist. I hope, I don't know, but I hope we're not just giving it all to the agents and we become workers for the agents. You know what I mean?",
+  "zh": "所以我认为有很多我们需要弄清楚的事情。我认为这将在未来几年消耗我们。我确实认为 AI 将成为普通人日常生活的一部分，就像手机和互联网一样，我认为同样的事情会存在。我希望，我不知道，但我希望我们不是把一切都交给智能体，然后我们变成智能体的工人。你懂我的意思吗？"
+ },
+ {
+  "seg": 114,
+  "start": 2628.665,
+  "end": 2640.97,
+  "speaker": "Angie Jones",
+  "en": "I hope that we kinda get to that middle ground where we find, even though it's capable, this is not a good use of it. And these are the ways that we should be deploying it.",
+  "zh": "我希望我们能达到那种中间地带，我们在那里发现，尽管它有这个能力，但这不是一个好的用途。这些是我们应该部署它的方式。"
+ },
+ {
+  "seg": 115,
+  "start": 2640.97,
+  "end": 2657.475,
+  "speaker": "Chris Benson",
+  "en": "Fantastic. That's some I I I share that with you. I think I think we need to find the you know, where where does the human fit into the equation and where where is AI a tremendous utility? Angie, thank you very much for coming on the show. This was a great conversation.",
+  "zh": "太棒了。这一点我我我与你有共鸣。我认为我认为我们需要找到，你知道，人类在哪里融入这个方程，以及 AI 在哪里是一个巨大的效用？Angie，非常感谢你来参加节目。这是一次很棒的对话。"
+ },
+ {
+  "seg": 116,
+  "start": 2657.555,
+  "end": 2668.68,
+  "speaker": "Chris Benson",
+  "en": "Really appreciate it. Gave me a lot to think about. I plan to dive into some of those projects myself and learn a bit more about them. And thanks for coming on the show. Hope to have you back sometime.",
+  "zh": "非常感激。它给了我很多思考。我计划亲自深入研究一些那些项目并多了解一点它们。谢谢你参加节目。希望以后能再请你来。"
+ },
+ {
+  "seg": 117,
+  "start": 2668.68,
+  "end": 2670.84,
+  "speaker": "Angie Jones",
+  "en": "Thanks so much, Chris. I enjoyed it.",
+  "zh": "非常感谢，Chris。我很享受。"
+ },
+ {
+  "seg": 118,
+  "start": 2675.88,
+  "end": 2695.885,
+  "speaker": "Narrator",
+  "en": "Alright. That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner, Prediction Guard, for providing operational support for the show.",
+  "zh": "好的。那是我们本周的节目。如果你还没有看过我们的网站，请前往 practicalai.fm 并务必在 LinkedIn、X 或 Blue Sky 上联系我们。你会看到我们发布与最新 AI 发展相关的见解，我们很希望你能加入对话。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 119,
+  "start": 2696.41,
+  "end": 2705.77,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Break Master Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "在 predictionguard.com 查看他们。另外，感谢 Break Master Cylinder 提供节拍，也感谢你的收听。目前就这些，但你下周会再次收到我们的消息。"
+ }
+]

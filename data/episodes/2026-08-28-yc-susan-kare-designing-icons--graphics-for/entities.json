@@ -1,0 +1,1030 @@
+{
+  "episode_id": "2026-08-28-yc-susan-kare-designing-icons--graphics-for",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-28",
+  "tags": [
+    "图标设计",
+    "Macintosh",
+    "设计原则",
+    "像素艺术",
+    "设计建议"
+  ],
+  "categories": [
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "susan-kare",
+      "type": "person",
+      "role": "guest",
+      "name": "Susan Kare",
+      "file": "Susan Kare",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集说 Apple 是 Susan Kare 加入 Macintosh 团队工作的地方，她在那里设计了系统字体、图标和 Command 键符号，团队当时目标是做一台任何人都能用、不需要读手册的电脑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            26.638,
+            42.055
+          ],
+          "quote": "A tech startup I worked for when even though the Macintosh group was part of Apple, but I think a lot of the experiences resonate with some of the topics that I've heard here today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            112.025,
+            125.036
+          ],
+          "quote": "I was a total art major, didn't know anything about computers, and was lucky enough to work at Apple on the Macintosh as the Macintosh artist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            125.056,
+            134.205
+          ],
+          "quote": "And before I went to Apple, I was welding a life-size Razorback hog for a museum in Arkansas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            159.63,
+            180.001
+          ],
+          "quote": "was a system software programmer at Apple and he knew I had worked on the yearbook and liked art and he said he needed some images to display on a new computer that was being worked on and he showed me the display which didn't have a case and said could I come in for an interview",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            339.858,
+            352.42
+          ],
+          "quote": "So when I got to Apple the first day, this screen was shown to me to say, this is what it's your job to improve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            774.9,
+            779.341
+          ],
+          "quote": "Andy wrote, I did not have to design on graph paper once I got to Apple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            1156.687,
+            1169.265
+          ],
+          "quote": "One time I was working in the software group that was a glass room, the fishbowl, and the receptionist from the front said a call had come through to Apple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1341.936,
+            1345.259
+          ],
+          "quote": "And we had the apple, we called it the apple menu.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1345.7,
+            1350.164
+          ],
+          "quote": "And there was an apple, going to be an apple key for these keyboard shortcuts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1356.991,
+            1360.254
+          ],
+          "quote": "I think he called it an apple farm and said,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1742.55,
+            1749.476
+          ],
+          "quote": "But after I worked at Apple, I did a job for Microsoft on Windows 3.0.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1818.101,
+            1832.85
+          ],
+          "quote": "And I'm just going to show a few images that I made in the decades after Apple and before, some examples of good advice that I wanted to share with you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            2296.703,
+            2304.445
+          ],
+          "quote": "I got to work with him at a company called Next where Steve Jobs went after he had to leave Apple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2643.317,
+            2644.798
+          ],
+          "quote": "He was kind of an Apple fan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2754.41,
+            2758.312
+          ],
+          "quote": "And this guy, pretty well known, he's sitting in my cubicle at Apple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2778.458,
+            2806.299
+          ],
+          "quote": "Goals and because of the second goal a programmer named Steve Capps and I, Steve Capps sewed a black flag and I painted a skull and crossbones on it and put a striped apple as the eye patch and we went to work in the middle of the night and climbed up on the roof because obviously security was a lot more lax back then and we flew that flag and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2851.873,
+            2860.329
+          ],
+          "quote": "he said if apple and i thought well i'm not going to buy my stock if he's not buying his he would know and he also said",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2905.537,
+            2910.081
+          ],
+          "quote": "Jay Chayat started the ad agency that Apple used, Chayat Day.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "macintosh",
+      "type": "concept",
+      "role": "concept",
+      "name": "Macintosh",
+      "file": "Macintosh",
+      "primary": true,
+      "how_described": "本集说 Macintosh 是 Susan 作为艺术家参与的新电脑项目，图标只有 16×16 黑白像素、启动画面 32×32，但能做比例间距字体，是一个让任何人都能使用的产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            26.638,
+            42.055
+          ],
+          "quote": "A tech startup I worked for when even though the Macintosh group was part of Apple, but I think a lot of the experiences resonate with some of the topics that I've heard here today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            54.751,
+            62.961
+          ],
+          "quote": "And it's funny because this was really a north star for the Macintosh group.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            112.025,
+            125.036
+          ],
+          "quote": "I was a total art major, didn't know anything about computers, and was lucky enough to work at Apple on the Macintosh as the Macintosh artist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            506.818,
+            527.839
+          ],
+          "quote": "And it's funny to me because I went to Paris for the first time fairly recently and there's a street artist known as Space Invader and he does a lot of mosaic work and he has borrowed liberally from early Macintosh stuff which made me really happy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            566.594,
+            573.336
+          ],
+          "quote": "And we were so lucky on the Macintosh to be able to do proportionally spaced fonts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            929.548,
+            945.037
+          ],
+          "quote": "One of the first icons I was assigned was it took a while for the computer to boot when it got turned on so everybody wanted an image on the screen and it had to be 32 by 32 because it was only 128k Macintosh.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            1105.509,
+            1117.672
+          ],
+          "quote": "I was told that as an alternative to the happy Mac, if in the extremely unlikely event something went wrong with the Mac, there should be an unhappy Macintosh.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            1117.732,
+            1122.394
+          ],
+          "quote": "So I thought maybe a sick Macintosh or looks a little hungover.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            1169.995,
+            1187.663
+          ],
+          "quote": "from a person who really needed to talk to someone in the software group about her Macintosh because the caller was worried that she was looking at a bomb and was her computer going to explode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1624.853,
+            1636.303
+          ],
+          "quote": "I like to think that there were emojis in the 1984 Macintosh that you could combine pictures with text before there was texting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2675.397,
+            2683.302
+          ],
+          "quote": "Because it just, it does seem like a long time ago and a lot of fun that we worked on the Macintosh.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "icon",
+      "type": "concept",
+      "role": "concept",
+      "name": "icon",
+      "file": "icon",
+      "primary": true,
+      "how_described": "本集把图标说成是 16×16 黑白像素的小符号，设计原则是一两个显著细节不要堆砌、用隐喻而非具体产品写实图（如软盘保存图标会过时），越简单越能让每个人投射自己",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            779.581,
+            781.242
+          ],
+          "quote": "Andy wrote an icon editor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            781.822,
+            790.205
+          ],
+          "quote": "And this is an image writer, a picture of an image writer print of what the screen looked like with the icon editor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            793.026,
+            804.238
+          ],
+          "quote": "You could just toggle the bits and you could see a greatly enlarged image as well as what the icon looked like at 72 DPI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            822.396,
+            833.646
+          ],
+          "quote": "And it automatically generated the hex code for an icon, which I could then type in and see the image on the screen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            839.352,
+            841.475
+          ],
+          "quote": "This icon isn't crying.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            1133.798,
+            1135.798
+          ],
+          "quote": "Same thing with this icon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1283.318,
+            1285.28
+          ],
+          "quote": "This was the icon for print.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1666.581,
+            1675.244
+          ],
+          "quote": "So this is just a super quick run through of some icon options that I did for Swatch and they wanted an alarm.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "font",
+      "type": "concept",
+      "role": "concept",
+      "name": "font",
+      "file": "font",
+      "primary": true,
+      "how_described": "本集说字体设计的第一步是 Chicago，大写字母高度只有 9 个像素，诀窍是用水平线、垂直线和 45 度角消除锯齿感；Macintosh 能做比例间距字体是很大的进步",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            228.28,
+            237.483
+          ],
+          "quote": "And I went to the library in Palo Alto and took out some books about typography and some font sample books.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            305.562,
+            313.491
+          ],
+          "quote": "And I don't think anybody even asked me any questions about font design, despite my prep.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            386.676,
+            393.34
+          ],
+          "quote": "So I wanted to make a new system font and make some icons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            530.343,
+            533.605
+          ],
+          "quote": "So the first font I designed was Chicago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            618.225,
+            624.69
+          ],
+          "quote": "And we shipped some other fonts with the Mac, including a monospace font.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            639.741,
+            641.963
+          ],
+          "quote": "And then I made a font that...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1577.597,
+            1589.442
+          ],
+          "quote": "And again, like another extremely nice bitmap font, 200 plus years before we sat down to make our proportionally spaced fonts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chicago",
+      "type": "concept",
+      "role": "concept",
+      "name": "Chicago",
+      "file": "Chicago",
+      "primary": true,
+      "how_described": "本集说 Chicago 是 Susan 设计的第一个系统字体，9 像素大写高度，被用在标题栏和计算器里，后来第一台 iPod 也用了这个字体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            530.343,
+            533.605
+          ],
+          "quote": "So the first font I designed was Chicago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            591.834,
+            601.337
+          ],
+          "quote": "And so we used Chicago, we put it in the title bar, experimented a lot till we came up with those lines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            602.635,
+            615.483
+          ],
+          "quote": "And what we didn't realize was that when we designed the calculator that we were designing the first iPod, which also used Chicago, which made me happy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bitmap",
+      "type": "concept",
+      "role": "concept",
+      "name": "bitmap",
+      "file": "bitmap",
+      "primary": true,
+      "how_described": "本集说位图是在极端限制下工作的形式——16×16 黑白像素，Andy 写了图标编辑器可以切换像素并自动生成十六进制代码，一千个点迭代足够多次就能得到一张有几分像的肖像",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            250.13,
+            268.163
+          ],
+          "quote": "Andy also suggested to me that it would be good if I could make some examples of essentially bitmap graphics but using graph paper and he didn't really specify what to make so some things I made",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1546.028,
+            1553.754
+          ],
+          "quote": "And there's some really pretty nice bitmap fonts, developed pretty long ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1577.597,
+            1589.442
+          ],
+          "quote": "And again, like another extremely nice bitmap font, 200 plus years before we sat down to make our proportionally spaced fonts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "happy-mac",
+      "type": "concept",
+      "role": "concept",
+      "name": "Happy Mac",
+      "file": "Happy Mac",
+      "primary": true,
+      "how_described": "本集说 Happy Mac 是电脑启动时显示的笑脸图标，32×32 像素，灵感来自 Susan 14 岁时得到的微笑按钮，设计理念来自 Scott McCloud 的书：越简单越能让每个人投射自己",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            979.673,
+            995.2
+          ],
+          "quote": "Understanding Happy Mac is a play on the title of this excellent book by Scott McCloud, which is about comics, but really has so many good insights about user interface too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            1105.509,
+            1117.672
+          ],
+          "quote": "I was told that as an alternative to the happy Mac, if in the extremely unlikely event something went wrong with the Mac, there should be an unhappy Macintosh.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "proportionally-spaced-fonts",
+      "type": "concept",
+      "role": "concept",
+      "name": "proportionally spaced fonts",
+      "file": "proportionally spaced fonts",
+      "primary": false,
+      "how_described": "本集说 Macintosh 能做比例间距字体（每个字母宽度不同，像印刷体），当时很多电脑的等宽字体把 M 挤扁、I 拉宽，这是一个很大的进步",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            566.594,
+            573.336
+          ],
+          "quote": "And we were so lucky on the Macintosh to be able to do proportionally spaced fonts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1577.597,
+            1589.442
+          ],
+          "quote": "And again, like another extremely nice bitmap font, 200 plus years before we sat down to make our proportionally spaced fonts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2749.789,
+            2752.59
+          ],
+          "quote": "Proportionally spaced fonts can actually look pretty good.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "command-key",
+      "type": "concept",
+      "role": "concept",
+      "name": "Command 键符号 (Command key)",
+      "file": "Command 键符号",
+      "primary": false,
+      "how_described": "本集说 Command 键的⌘符号来自 Susan 在图书馆翻到的叫 feature 的图片，像四叶草也像苜蓿叶式公路立交桥，在 16×16 里很好画；后来发现它其实来自瑞典一座 1200 年城堡废墟的四塔楼俯瞰图",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            1361.035,
+            1382.217
+          ],
+          "quote": "our logo is precious and we have to respect it so you know we just can't have a bunch of apples so then the idea was i was told that that key was a command key or a feature key and so i began thinking about commanding",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集说 Susan 离开 Apple 后为 Microsoft 的 Windows 3.0 做了界面设计，用 16 色抖动让界面看起来不那么俗气",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1742.55,
+            1749.476
+          ],
+          "quote": "But after I worked at Apple, I did a job for Microsoft on Windows 3.0.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "windows-3-0",
+      "type": "concept",
+      "role": "concept",
+      "name": "Windows 3.0",
+      "file": "Windows 3.0",
+      "primary": false,
+      "how_described": "本集说 Windows 3.0 是 Susan 为 Microsoft 做的项目，有 16 种颜色但有些颜色不好看，她用抖动处理让颜色看起来更微妙",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1742.55,
+            1749.476
+          ],
+          "quote": "But after I worked at Apple, I did a job for Microsoft on Windows 3.0.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": false,
+      "how_described": "本集说 Susan 在 Facebook 做了差不多四年的'礼品店'项目，每天午夜上架一个新礼物卖一美元，发现可爱胜过一切，吻痕标记是最畅销的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            1926.949,
+            1939.333
+          ],
+          "quote": "I worked for Facebook on a project that you couldn't just upload images, but you could buy images for a dollar, like a real dollar, and send them to people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            2036.461,
+            2048.447
+          ],
+          "quote": "We did some collabs with Britney Spears and other entertainers and ultimately Facebook ended this program because they didn't want to compete with third parties.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pinterest",
+      "type": "company",
+      "role": "company",
+      "name": "Pinterest",
+      "file": "Pinterest",
+      "primary": false,
+      "how_described": "本集说 Susan 为 Pinterest 做了一些带一点点动作的图标，有动画师帮忙，让图标不会随着时间变得很烦人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 257,
+          "t": [
+            2053.802,
+            2062.27
+          ],
+          "quote": "Then I did some icons for Pinterest where a terrific animator helped me with these.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            2074.14,
+            2077.303
+          ],
+          "quote": "This isn't all for Pinterest, but some of them were.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2986.615,
+            2996.86
+          ],
+          "quote": "This is Evan Sharp and Ben Silberman who started Pinterest, and they had a lot of good ideas, but Evan used to say this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "next",
+      "type": "company",
+      "role": "company",
+      "name": "Next",
+      "file": "Next",
+      "primary": false,
+      "how_described": "本集说 Next 是 Steve Jobs 离开 Apple 后去的公司，Susan 在那里请 Paul Rand 做了 logo，Rand 开价 10 万美元做一个",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            2296.703,
+            2304.445
+          ],
+          "quote": "I got to work with him at a company called Next where Steve Jobs went after he had to leave Apple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            2381.461,
+            2390.446
+          ],
+          "quote": "And I still tend to look in his books and use some of the colors that he recommended for Next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            2407.729,
+            2415.456
+          ],
+          "quote": "Trying hard to think of a way to do something to the name of the product, kind of the way he put next in the cube.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2874.181,
+            2880.324
+          ],
+          "quote": "He was talking about Next, and I was a creative director, and I got to work with Paul Rand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            3072.974,
+            3075.167
+          ],
+          "quote": "Oh, maybe it's time to go on to the next idea.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "general-magic",
+      "type": "company",
+      "role": "company",
+      "name": "General Magic",
+      "file": "General Magic",
+      "primary": false,
+      "how_described": "本集说 Susan 在 General Magic 做了 logo 和一种更字面化的桌面隐喻，有带门的走廊和可以点击弹出抽屉的文件柜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1859.09,
+            1863.254
+          ],
+          "quote": "But I worked on a project for General Magic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "logo",
+      "type": "concept",
+      "role": "concept",
+      "name": "logo",
+      "file": "logo",
+      "primary": false,
+      "how_described": "本集说 Paul Rand 主张做 logo 时应该对产品名称本身做文章（如把 Next 放进立方体），而不是花大钱搞一个跟产品名无关的抽象符号，他还把 UPS logo 给六岁女儿看，女儿说'这是一个礼物'来验证其可理解性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            75.007,
+            88.413
+          ],
+          "quote": "And Paul Rand is a celebrated graphic designer, no longer with us, who did the UPS logo and IBM logo and so many images that have persisted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1361.035,
+            1382.217
+          ],
+          "quote": "our logo is precious and we have to respect it so you know we just can't have a bunch of apples so then the idea was i was told that that key was a command key or a feature key and so i began thinking about commanding",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1863.354,
+            1864.274
+          ],
+          "quote": "I did the logo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            2079.583,
+            2098.13
+          ],
+          "quote": "I made a logo for a StealthMill.com, which is a terrific company, but before they had their real logo, we did a Trash Panda because it dealt with trash in a similar way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            2142.333,
+            2157.42
+          ],
+          "quote": "I was an artist doing studies for the logo, which is pretty close to this, for Pikmin Bloom game and Peridot, which is a game, and love doing avatars.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            2197.31,
+            2212.095
+          ],
+          "quote": "And this is a logo for a VC firm where the idea is get out of the office and work in the mountains, work somewhere outdoors was the idea of this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            2305.285,
+            2311.087
+          ],
+          "quote": "And I of course wanted to hire Paul Rand for the logo because he was my hero.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            2344.32,
+            2347.221
+          ],
+          "quote": "I will do one logo and you will like it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            2424.225,
+            2441.768
+          ],
+          "quote": "Because he said, if you can spend a ton of money to make some random symbol associated that doesn't really mean anything much, I mean, I guess it's the world, with your logo, you know, you can do whatever you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            2461.292,
+            2463.913
+          ],
+          "quote": "And I love that UPS logo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2548.425,
+            2557.831
+          ],
+          "quote": "And I introduced my dad to Paul Rand, and he made that logo for Monell, which I felt pretty happy about, and they got along really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            3018.898,
+            3041.795
+          ],
+          "quote": "was the prevailing wisdom at Google and I would probably preach the same thing like don't mess around with the logo and put it in a different color and put it on a crazy background until people know it so well that you can play with it but obviously they did Dennis made these they did pretty well with this",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "macpaint",
+      "type": "concept",
+      "role": "concept",
+      "name": "MacPaint",
+      "file": "MacPaint",
+      "primary": false,
+      "how_described": "本集说 MacPaint 是 Bill Atkinson 编写的程序，是 Susan 最喜欢的程序，她为它设计了图标，系统采用动词加名词的方式配对",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            707.635,
+            722.768
+          ],
+          "quote": "And Bill Atkinson was the programmer who wrote MacPaint, and that was my favorite program, of course, and was happy to collaborate on the icons and the patterns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            1206.106,
+            1208.168
+          ],
+          "quote": "And so I did MacPaint first.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "user-interface",
+      "type": "concept",
+      "role": "concept",
+      "name": "user interface",
+      "file": "user interface",
+      "primary": false,
+      "how_described": "本集引用 Alan Kay 关于用户界面的原则：不要把所有东西放在同一层级，要嵌套，让东西可以自然地出现，这样易用性才可能实现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            979.673,
+            995.2
+          ],
+          "quote": "Understanding Happy Mac is a play on the title of this excellent book by Scott McCloud, which is about comics, but really has so many good insights about user interface too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2714.889,
+            2732.422
+          ],
+          "quote": "As a kind of tenet about user interface and maybe not having everything at the same level and nesting things so that things can just appear that ease of use seems possible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "moma",
+      "type": "company",
+      "role": "company",
+      "name": "MoMA",
+      "file": "MoMA",
+      "primary": false,
+      "how_described": "本集说 Susan 带去面试的画着早期图标的笔记本被 MoMA 永久收藏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            317.142,
+            330.498
+          ],
+          "quote": "In a funny twist of fate, as much as I had wanted to be an artist, now that notebook with those early icons that I took to my interview is in the permanent collection of MoMA.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

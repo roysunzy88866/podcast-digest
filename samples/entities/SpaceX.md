@@ -41,7 +41,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Microsoft]] · [[Cursor]] · [[Alex]] · [[Theo Jaffe]] · [[a16z]] · [[Martin Casado]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":73,"OpenAI":65,"NVIDIA":23,"Microsoft":14,"Cursor":37,"Alex":4,"Theo Jaffe":3,"a16z":6,"Martin Casado":3,"智能体":146}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":73,"OpenAI":65,"NVIDIA":23,"Microsoft":15,"Cursor":37,"Alex":4,"Theo Jaffe":3,"a16z":6,"Martin Casado":3,"智能体":146}</script>
 
 <script>
 (function(){

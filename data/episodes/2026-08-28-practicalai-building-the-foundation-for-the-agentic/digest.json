@@ -1,0 +1,103 @@
+{
+  "title_zh": "智能体AI基金会：让竞争对手坐下来定标准",
+  "tldr": "智能体AI基金会副总裁Angie Jones讲她如何在Block推动12000人用上AI智能体，以及OpenAI、Anthropic、Google为什么要把核心协议交给一个中立基金会。",
+  "digest_md": "Angie Jones 是智能体 AI 基金会的副总裁，这个基金会由 OpenAI、Anthropic 和 Block 三家公司在 Linux 基金会下联合成立，目标是把智能体生态里的关键标准和开源项目放到一个中立的家里。她之前在 Block 负责一件事：教全公司 12000 人——不只是工程师，还包括财务、营销、设计、HR——怎么用 AI 智能体。最颠覆的一点是，面对 3500 名工程师的推广任务，她没有试图一次性教会所有人，而是只挑了 50 个人 [14:40 Angie Jones]。\n\n## 先让非技术人员用起来\n\n教非技术人员用 AI 智能体，最大的障碍不是技术，是情绪——这些人在自己的领域干了几十年，你现在让他扔掉旧流程、换一种方式工作，抵触是本能的。而且 2024 年那会儿工具还很原始，没有漂亮的桌面应用，只有命令行界面，得手动复制 JSON 才能让 MCP 服务器跑起来，对不碰代码的人来说完全是外语 [09:12 Angie Jones]。\n\nAngie 的做法是两头都不站：既不说\"AI 无所不能\"，也不说\"AI 毫无用处\"，而是帮每个人找到 AI 真正能加速他的那个点。比如数据访问——以前要跨团队提需求、等报告、自己解读，现在通过智能体接上 MCP 服务（一种让 AI 连接外部工具和数据的协议），几秒就能拿到数据。她先从这些非核心但立竿见影的场景切入，让人慢慢建立信任，然后逐步扩大委托范围，直到每个人自己摸清那条线——\"这个不该交给 AI，AI 做不好，这部分我来\" [10:57 Angie Jones]。\n\n## 1990 规则：只抓 1% 的人\n\n到了工程团队，问题变了。3500 名开发者，情绪更复杂——有人试一次发现 AI 写的功能不对，直接甩手不干了。而且早期模型能力确实有限，跟 2025 年底之后的水平没法比 [13:16 Angie Jones]。\n\nAngie 用了一条叫\"1990 规则\"的经验：任何社区里，1% 是创造者，9% 是偶尔动手的修补者，90% 是消费者。她没有试图拉平所有人，而是从各个主要代码仓库里各抽一个人——前端、后端、移动端、iOS、Android 都要有代表——凑了 50 个人。说服他们的直属经理让出每人 30% 的时间，条件是：这 50 个人不只是自己学，要把学到的东西嵌回系统里，让整个团队受益 [15:04 Angie Jones]。\n\n这 50 个人像从消防水带里喝水一样快速试错。Twitter 上的演示看着漂亮，但他们面对的是包含数百个服务的巨型单体仓库，而且处理的是真金白银，必须格外谨慎。某个技术可能在 Web 端好用但移动端完全不行，就得换路子。关键一步是：他们把上下文工程技术、Agent's MD 文件、智能体技能配置这些东西直接写进代码仓库里。这样不管团队里谁用智能体指向这个仓库，智能体都能按团队预设的方式工作——知识嵌在了系统里，不需要挨个教 [16:44 Angie Jones]。\n\n然后这 50 个\"冠军\"各自回去做分享，把真正试过、验证过的方法带给自己的团队。这比自上而下地教所有人效率高得多 [18:25 Angie Jones]。\n\n## 基金会里有什么\n\n智能体 AI 基金会 2025 年底成立，目前托管了五个项目 [20:32 Angie Jones]：\n\n- **MCP**（来自 Anthropic）：模型上下文协议，智能体用来连接应用程序和工具的标准。Block 内部每个需要接工具的人都得用 MCP 服务 [05:48 Angie Jones]。\n- **Agent's MD**（来自 OpenAI）：标准化代码仓库怎么向智能体传达操作指令 [33:12 Angie Jones]。\n- **Goose**（来自 Block）：最早的一批开源 AI 智能体之一，提供智能体运行时（智能体执行任务的基础环境） [33:35 Angie Jones]。\n- **Agent Gateway**（来自 Solo）：在企业环境里管控 MCP 流量的开源项目，让智能体的行为可观测、可控制 [34:08 Angie Jones]。\n- **A2A**（来自 Google，本周刚加入）：智能体对智能体协议，让不同智能体之间可以协调和协作，比如把任务委托给另一个智能体 [23:02 Angie Jones]。\n\n为什么要放进基金会？因为如果标准活在某一家公司手里，别的公司不敢在上面建产品——你不知道它会不会被砍、路线图是不是只反映那家公司的利益。放到中立的地方，大家才敢放心地基于这些标准构建 [22:21 Angie Jones]。\n\n## 竞争对手怎么一起定标准\n\n基金会面临一个核心矛盾：这个领域是有史以来变化最快的，几个月就从单个智能体飙升到数万甚至数百万智能体协同，而传统基金会以慢著称 [36:16 Angie Jones]。\n\nAngie 说他们刻意提速，而且关键在于：工作组里的人不是业余志愿者，是各家公司的创新者，他们的工作就是在这些标准上建产品——标准不定下来，产品出不来，所以有强烈的动力不拖延 [38:14 Angie Jones]。\n\n更出人意料的是氛围。这些公司在外面可能打得不可开交，但在工作组里\"超级协作\"。Angie 说想看开源最美好的一面，就去 MCP 的 Discord 服务器——几十个工作组，来自各家公司的成员在认真干活、加功能、解问题，不是空谈，因为他们的公司依赖这些东西 [39:38 Angie Jones]。\n\n## 全球视角下的差异\n\n基金会的另一个独特之处是视角覆盖全球，这让 Angie 看到了智能体需求的地域差异。比如中国是移动优先的生态，跟北美 SaaS 为主的模式很不一样，因此对 A2A 这种让应用之间直接对话的协议需求特别强——微信上已经有各种智能体在用这类能力 [25:22 Angie Jones]。\n\n欧洲则带来了监管维度：欧盟 AI 法案刚落地，任何服务欧洲用户的系统都得合规，这是全球性的影响。Anthropic 最近发布的水印方案就引发了大量讨论——基金会里有工作组在研究：能不能建一套通用系统或标准，让大家不用各自重新发明轮子 [29:02 Angie Jones]。\n\n所有工作组都是公开的，任何人可以加入、旁听、发言 [29:44 Angie Jones]。\n\n## 本集带走\n\n- **推广 AI 先找 1% 的人**：用 1990 规则，从每个核心团队抽代表，集中试错、把经验嵌回系统，而不是试图一次性教会所有人。\n- **知识要写进系统里**：把上下文工程配置、Agent's MD 文件等直接放进代码仓库，让智能体\"开箱即用\"地按团队规范工作，降低每个人的使用门槛。\n- **非技术人员从数据访问切入**：别一上来就改核心流程，先用智能体解决\"跨团队等数据\"这种痛点小场景，建立信任后再逐步扩大委托。\n- **标准放中立的家的根本原因**：不是做公益，是因为标准如果在某一家公司手里，其他公司不敢在上面建产品——中立性是生态繁荣的前提。\n- **全球需求差异直接影响技术方向**：移动优先地区催生 A2A 协议需求，监管严格地区催生合规标准需求——做标准必须把各地区拉到同一张桌前。",
+  "quotes": [
+    {
+      "timestamp": "02:28",
+      "speaker": "Angie Jones",
+      "en": "And this is as I'm learning myself, because I mean, there's no book for this, you know, right out the gate.",
+      "zh": "而这也是我自己在学习的时候，因为我是说，这没有什么书可循，你知道，一开始就这样。"
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Angie Jones",
+      "en": "We really could do a whole lot more to get to this autonomous engineering org. Right?",
+      "zh": "我们真的可以做更多事情来实现这个自主工程组织。对吧？"
+    },
+    {
+      "timestamp": "10:18",
+      "speaker": "Angie Jones",
+      "en": "And there's other people who are like, Oh, AI is stupid. It can't do anything. I like to kind of be in the middle there where, you know, I can be realistic about its strengths, its weaknesses, what I should use it for and what I shouldn't use it for.",
+      "zh": "还有其他人就像，哦，AI 是愚蠢的。它什么都做不了。我喜欢处于中间地带，你知道，我可以现实地对待它的优势、劣势，我应该用它做什么和我不应该用它做什么。"
+    },
+    {
+      "timestamp": "15:04",
+      "speaker": "Angie Jones",
+      "en": "You'll have 9% that they'll dabble here and there, the tinkerers, if you will. And then the 90, the bulk of people are consumers.",
+      "zh": "你会有 9% 的人偶尔涉猎，如果你愿意的话，可以说是修补者。然后 90%，大多数人是消费者。"
+    },
+    {
+      "timestamp": "16:23",
+      "speaker": "Angie Jones",
+      "en": "What I wanna do is, one, they all come together, we learn all of this stuff, but it's not just for them. What I need them to do is build that knowledge back into the systems themselves so that your entire team benefits from this.",
+      "zh": "我想做的是，第一，他们都聚在一起，我们学习所有的这些东西，但这不仅仅是为了他们。我需要他们做的是把这些知识构建回系统本身，这样你的整个团队都能从中受益。"
+    },
+    {
+      "timestamp": "17:20",
+      "speaker": "Angie Jones",
+      "en": "Everything looks great on Twitter and a little demo. But we're working with huge, you know, mono repos with, you know, hundreds of services in them. Like, you know, we're working with people's money.",
+      "zh": "一切在 Twitter 和一个小演示上看起来都很棒。但我们正在处理巨大的，你知道，单体仓库，里面有，你知道，数百个服务。就像，你知道，我们正在处理人们的钱。"
+    },
+    {
+      "timestamp": "18:25",
+      "speaker": "Angie Jones",
+      "en": "So things like context engineering techniques, things like, you know, Agent's MD files and agent skills and all of that baked into the repo so that no matter who was pointing their agent at this repo, the agent could work the way that your team wanted it to work because it was baked into the system.",
+      "zh": "所以像上下文工程技术这样的东西，像，你知道，Agent's MD 文件和智能体技能以及所有这些都烘焙到代码仓库中，这样无论谁将他们的智能体指向这个代码仓库，智能体都能按照你的团队想要的方式工作，因为它被烘焙到了系统中。"
+    },
+    {
+      "timestamp": "21:15",
+      "speaker": "Angie Jones",
+      "en": "If we're talking about Agentic Commerce, for example, it PayPal doesn't want Stripe figuring that out by themselves. Right? They wanna work together or they need to work together, and they know they need to work together.",
+      "zh": "例如，如果我们谈论智能体商务，PayPal 不希望 Stripe 自己解决这个问题。对吧？他们想要一起工作，或者他们需要一起工作，而且他们知道他们需要一起工作。"
+    },
+    {
+      "timestamp": "22:08",
+      "speaker": "Angie Jones",
+      "en": "I like to think of it as they are defining the rules of the game and creating the game board together. And once they have that figured out, it's like, all right, now we can compete.",
+      "zh": "我喜欢把它想象成他们正在定义游戏规则并共同创建游戏板。一旦他们弄清楚了，就像，好了，现在我们可以竞争了。"
+    },
+    {
+      "timestamp": "23:08",
+      "speaker": "Angie Jones",
+      "en": "I don't know if they'll kill it. I don't know if they'll just The roadmap will only reflect their goals. You know what I mean? And so being a part of the Agentic AI Foundation gives it that confidence that, Hey, this is in a neutral place. I now can build on top of this.",
+      "zh": "我不知道他们会不会终止它。我不知道他们是否会只是路线图只会反映他们的目标。你明白我的意思吗？因此，成为智能体 AI 基金会的一员给了它这种信心，嘿，这是在一个中立的地方。我现在可以在此基础上构建。"
+    },
+    {
+      "timestamp": "26:01",
+      "speaker": "Angie Jones",
+      "en": "Like, for example, like, WeChat uses that, you know, with various agents and stuff like that. So that was really fascinating to me to just see, like, oh, even the types of applications you're using essentially influence like the the types of tech that are standards or or like anything like that that you might need.",
+      "zh": "比如，像 WeChat 使用那个，你知道，与各种智能体和类似的东西。所以对我来说这真的很有趣，就像，哦，即使是你使用的应用程序类型本质上也会影响你可能需要的标准类型或类似技术的类型。"
+    },
+    {
+      "timestamp": "34:37",
+      "speaker": "Angie Jones",
+      "en": "And this one is really cool in that this is how agents can coordinate with other agents. So you can delegate work to another agent, or just be able to collaborate on a given task, right?",
+      "zh": "而且这个真的很酷，在于这就是智能体如何与其他智能体协调的方式。所以你可以将工作委托给另一个智能体，或者只是能够在给定的任务上协作，对吧？"
+    },
+    {
+      "timestamp": "38:14",
+      "speaker": "Angie Jones",
+      "en": "And I think it really helps that the folks on a working group, these are not volunteers doing this in their spare time. Like it is part of their job, you know, to innovate the future.",
+      "zh": "而且我认为这真的很有帮助，工作组里的人，这些不是在业余时间做这个的志愿者。就像这是他们工作的一部分，你知道，去创新未来。"
+    },
+    {
+      "timestamp": "39:38",
+      "speaker": "Angie Jones",
+      "en": "We're super collaborative, which is amazing. It's amazing to watch. I tell people, like, if you wanna see the beauty of, like, open source and people working together from competing companies, all you gotta do is go in the MCP Discord server.",
+      "zh": "我们超级协作，这很神奇。看着很棒。我告诉人们，像，如果你想看到，像开源和来自竞争公司的人们一起工作的美妙之处，你所要做的就是进入 MCP Discord 服务器。"
+    },
+    {
+      "timestamp": "42:39",
+      "speaker": "Angie Jones",
+      "en": "Maybe they've asked chat GPT a question. You know, they searched from something for Google and a little summary came up, and that's pretty much the extent of what they've done.",
+      "zh": "也许他们问了 ChatGPT 一个问题。你知道，他们从某事物为谷歌进行了搜索，一个小摘要出现了，这基本上就是他们所做的程度。"
+    },
+    {
+      "timestamp": "43:48",
+      "speaker": "Angie Jones",
+      "en": "I hope that we kinda get to that middle ground where we find, even though it's capable, this is not a good use of it. And these are the ways that we should be deploying it.",
+      "zh": "我希望我们能达到那种中间地带，我们在那里发现，尽管它有这个能力，但这不是一个好的用途。这些是我们应该部署它的方式。"
+    }
+  ]
+}

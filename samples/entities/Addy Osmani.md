@@ -45,7 +45,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Carson]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]] [[Oji Udezue]]
+[[Casey Moratori]] [[Ryan Carson]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]]
 
 </div>
 

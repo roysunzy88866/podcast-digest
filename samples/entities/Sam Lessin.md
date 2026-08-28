@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Airbnb":9,"Facebook":9,"YC":8,"礼仪":1,"富足心态":1,"低心率":1,"EA":1,"vibe coding":23}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Airbnb":9,"Facebook":10,"YC":8,"礼仪":1,"富足心态":1,"低心率":1,"EA":1,"vibe coding":23}</script>
 
 <script>
 (function(){

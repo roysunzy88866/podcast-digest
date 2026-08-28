@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Substack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Substack">SU</div><div class="pi"><h1 class="pt">Substack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Substack">SU</div><div class="pi"><h1 class="pt">Substack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]]**(08:38起):本集把它说成:Lenny 决定搬过去并每周更新简报的平台,他提到作为 Substack 作家的长期生活模式能持续多久没有答案,且在遭遇诈骗团伙 API 攻击时他与 Substack 合作紧急填补漏洞
+- **[[2026-08-26-pragmatic-why-performant-code-matters-but-gets|《Casey Moratori：为什么你的软件慢了100倍》]]**(13:09起):本集提到 Casey 在 Substack 上做 Computer Enhance，发布性能相关的教育课程和视频
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]] — 作为被讨论公司
+- [[2026-08-26-pragmatic-why-performant-code-matters-but-gets|《Casey Moratori：为什么你的软件慢了100倍》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny Rachitsky]] · [[Michelle Rial]] · [[Airbnb]] · [[Medium]] · [[Stripe]] · [[简报]] · [[播客]] · [[付费墙]] · [[林迪效应]] · [[幸福基线]]
+[[Lenny Rachitsky]] · [[Casey Moratori]] · [[Michelle Rial]] · [[性能优化]] · [[Airbnb]] · [[汇编语言]] · [[Medium]] · [[串行依赖链]] · [[Stripe]] · [[过早优化]]
 
-<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Michelle Rial":1,"Airbnb":9,"Medium":1,"Stripe":20,"简报":2,"播客":1,"付费墙":1,"林迪效应":1,"幸福基线":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Casey Moratori":1,"Michelle Rial":1,"性能优化":1,"Airbnb":9,"汇编语言":1,"Medium":1,"串行依赖链":1,"Stripe":20,"过早优化":1}</script>
 
 <script>
 (function(){

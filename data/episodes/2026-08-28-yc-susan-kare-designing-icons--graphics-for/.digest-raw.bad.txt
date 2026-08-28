@@ -1,0 +1,138 @@
+===标题===
+Macintosh 图标之母：16×16 像素里的设计哲学
+===导语===
+Macintosh 原始团队成员 Susan Kerr 讲述她如何在 16×16 黑白像素的限制下设计出影响至今的图标与字体，以及从中提炼出的设计方法论。
+===正文===
+Susan Kerr 是 Macintosh 早期团队的"Macintosh 艺术家"，负责设计第一代系统字体和全部图标。她当时完全是个艺术专业出身的人，对电脑一无所知——去 Apple 之前，她在车库里焊接真人大小的野猪雕塑。是高中朋友 Andy Hertzfeld 把她拉进了这个团队，让她做小符号和字体 [02:34 Unknown]。
+
+她进 Apple 第一天看到的屏幕，就是她要改进的东西：字体锯齿严重，五点二五英寸软盘图纸上的圆角矩形可以用光标拖来拖去，在当时已经算神奇了 [05:39 Unknown]。
+
+## 16×16 黑白，够不够用？
+
+她面对的硬约束是 16 乘 16 的黑白像素格。她的态度是：限制不是敌人，你可以在任何限制下发挥创造力——在海滩上捡垃圾也能做出有趣的艺术。关键是理解限制是什么，然后对此感到兴奋，而不是因为没有一千种颜色而沮丧 [07:28 Unknown]。
+
+她设计的第一个字体叫 Chicago，大写字母高度只有 9 个像素。方法很直接：屏幕上的字全是锯齿状的，她发现用水平线、垂直线和 45 度角来画，就能让它看起来整洁得多 [08:50 Unknown]。虽然她现在看那个小写 x 还是会皱眉，但其他字母基本都塞进了系统里 [09:14 Unknown]。
+
+当时他们能做比例间距字体（每个字母宽度不同，M 不会挤扁、I 不会过宽），她当时没意识到这有多大进步，但它确实让显示效果好了很多 [09:26 Unknown]。Chicago 放在标题栏里，后来第一台 iPod 也用了它——设计计算器的时候他们并不知道自己在设计 iPod [10:02 Unknown]。
+
+除了 Chicago，他们还做了等宽字体，以及她觉得"应该有个 Times Roman 类型的、有个 Helvetica 类型的"，于是有了 New York 和 Geneva [10:24 Unknown]。她还做了一个叫 Ransom 的字体——模拟绑架者从报纸上剪字母拼勒索信的效果 [10:43 Unknown]。
+
+字体命名有个小插曲：她和 Andy 一开始用费城郊区的火车站名来命名（Paoli、Wynwood、Rosemont）。Steve Jobs 有一天傍晚溜达过来，说城市名不坏，但"至少要叫世界级城市"。于是才有了 New York 和 Geneva [11:16 Unknown]。
+
+## 图标设计的方法论：少即是多
+
+她和 MacPaint 的作者 Bill Atkinson 合作做图标和图案。Bill 开发了一种早期扫描仪，从 Steve Jobs 的一幅木版画里扫出了一张艺伎图像 [12:04 Unknown]。他们做控制面板时加了动画——改设置时能看到会发生什么。而且他们尽量不用文字，这样不用做不同语言版本就能国际化 [12:15 Unknown]。
+
+Andy 给她写了一个图标编辑器，没有画形状的工具，只能一个像素一个像素地切换。但可以同时看到放大图和 72 DPI 下的实际效果，而且自动生成十六进制代码，她输入代码就能在屏幕上看到图 [13:01 Unknown]。她觉得这简直神奇——可以在没有橡皮擦的情况下迭代，"这有多好简直难以言表" [13:34 Unknown]。
+
+她后来养成了一个习惯：给人画 32×32 的像素肖像，直接写生，因为当时没有别的方法把照片放进去 [14:18 Unknown]。她觉得一千个点里如果迭代足够多次，就能得到一张有几分像的图 [14:49 Unknown]。
+
+她设计的第一批图标里有一个最著名的：Happy Mac。电脑开机要等一阵子，屏幕上需要一个 32×32 的图像告诉用户"一切正常"。她画了一个微笑的 Mac [15:29 Unknown]。灵感来自她 14 岁时得到的一个微笑按钮 [16:06 Unknown]。
+
+为什么一个极简的笑脸能奏效？她引用了漫画家 Scott McCloud 的理论：当一张脸细节很多时，它看起来像某个特定的人；但当你把它做得非常简单，每个人都可以把自己投射上去 [16:35 Unknown]。这个原则也解释了为什么她偏向于只保留一两个显著细节——就像学校过马路的标志上，两个孩子的剪影不需要画格子花呢午餐盒和鞋带，那些细节只会干扰瞬间识别 [17:47 Unknown]。
+
+她也犯了错。打印图标画了一台带链轮孔的打印机，细节太多，如果当初做简单一点，寿命会长得多 [21:23 Unknown]。她的教训是：不要在图标里画特定产品的外观，比如用于"保存"的三点五英寸软盘——它经不起时间考验，用隐喻更好 [21:51 Unknown]。
+
+## "没人会看到"的东西，人人都会看到
+
+她被告知要做一个"不快乐 Mac"和一个炸弹图标，分别用于启动出错和系统崩溃。她被告知"极其不可能有人看到"，所以她做得有点不正经——生病的 Mac、兔八哥式的炸弹 [18:22 Unknown]。
+
+然后她接到了一个电话：一位用户看到屏幕上的炸弹，担心电脑要爆炸 [19:16 Unknown]。
+
+命令键（⌘）的由来也很有意思。原本他们想用苹果 logo 做快捷键标志，Steve Jobs 进来说"我们的标志是珍贵的，不能搞一堆苹果"，他管这叫"苹果农场" [22:30 Unknown]。她去图书馆翻书，找到一个叫"特色"的符号，长得像四叶草，也像苜蓿叶式公路互通立交，而且在 16×16 里很好画 [23:12 Unknown]。她唯一不满意的是它太抽象了，不如有隐喻的东西好记 [23:54 Unknown]。后来她去瑞典哥德堡，发现这个符号在当地用来标记景点——实际上源自一座 1200 年的城堡废墟的俯视图，四个塔楼 [24:12 Unknown]。
+
+## 后来的项目与收到的好建议
+
+离开 Apple 后她做过很多项目。在 General Magic 做了一个更字面化的桌面隐喻——走廊和门，但最糟糕的是"文本罐" [31:03 Unknown]。在 Facebook 做了一个"礼品店"项目，每天午夜上新一幅画，卖一美元，持续了近四年 [32:06 Unknown]。她发现了一个规律：可爱胜过一切。泰迪熊、心形的东西最畅销，吻痕标记是有史以来最畅销的。"如果我的性命取决于卖出一幅一美元的画，我会画企鹅"——企鹅限量版每次都秒空 [33:22 Unknown]。
+
+她在 Next 公司和传奇设计师 Paul Rand 合作。Steve Jobs 想办 Logo 比赛、花 1.5 万请五家各出一个方案。Paul Rand 的回应是："你会付我 10 万美元。我会做一个标志，你会喜欢的。"事实就是这样发生的 [39:00 Unknown]。Paul Rand 的核心主张是：不要花大钱造一个跟产品名无关的抽象符号，要在产品名称本身上做文章——他把 Next 放进了一个立方体里 [40:07 Unknown]。他向六岁女儿展示 UPS logo，女儿说"这是一个礼物"，他就认为这证明 logo 是可理解的 [41:03 Unknown]。
+
+她分享了几条她觉得真正有用的建议：
+
+- Alan Kay 关于用户界面的原则：不要把所有东西放在同一层级，要嵌套，让东西可以"就这样出现"，易用性才有可能 [45:14 Unknown]。
+- Andy Hertzfeld 关于给 Steve Jobs 看方案的技巧：不要只拿一个方案去，他会说不喜欢、逼你重做；拿几个去，他会骂某个很烂，但会从中挑一个 [49:13 Unknown]。
+- 她父亲的现实主义："你听到的大多数'不'，跟你的想法好不好没关系。"以及"如果 10 个人里没有一个人喜欢你的想法，那就不是他们的问题" [42:47 Unknown]。
+- 一位建筑师朋友的："让它视觉化。展示，而不是讲述。" [43:40 Unknown]
+
+## 本集带走
+- **理解限制、拥抱限制**：16×16 黑白像素够不够？够。关键是搞清楚限制是什么，然后兴奋地在这个框里做，而不是抱怨框太小。
+- **图标要用隐喻，别画具体产品**：软盘图标已经过时了。一两个显著细节就能实现瞬间识别，多余的细节只会缩短图标的寿命。
+- **极简面孔让所有人投射自己**：细节越多越像"别人"，越简单越像"人人"——这不仅是漫画理论，也是界面图标的设计原则。
+- **"没人会看到"的东西，一定会被看到**：炸弹图标和Sad Mac 的教训——永远按"所有人都会看到"的标准来做。
+- **给决策者看多个方案，别只看一个**：只给一个，他只会说不好；给几个，他可以参与"挑"的过程，反而能推进。
+
+> 【背景】Susan Kerr 在转写稿中未提及自己的姓氏，仅以 "Susan Kerr" 出现；Andy Hertzfeld、Bill Atkinson、Steve Jobs、Paul Rand、Alan Kay 均以全名出现在转写稿中。Scott McCloud 的书《理解漫画》(Understanding Comics) 在转写稿中被提及书名概念但未给出英文原书名。General Magic 是 Steve Jobs 离开 Apple 后参与创建的公司之一（此为世界知识，转写稿未提及）。
+===金句===
+01:03 Unknown
+EN | But when I reread it in the last couple of days, it just kind of reminded me of AI and so many things that are being developed now.
+ZH | 但我在过去几天重读它时，它只是有点让我想起了 AI 和现在正在开发的很多东西。
+
+01:41 Unknown
+EN | And I think the heart of that is have a good idea and then the form will follow.
+ZH | 我认为其核心是要有一个好的想法，然后形式就会随之而来。
+
+07:44 Unknown
+EN | You can be creative, but it's good to understand what the constraints are and then be excited about that as opposed to being upset that you don't have a thousand colors.
+ZH | 你可以发挥创造力，但最好明白限制是什么，然后对此感到兴奋，而不是因为你没有一千种颜色而感到沮丧。
+
+08:59 Unknown
+EN | I looked at the stuff that was on the screen and it just seemed as if it was all jaggedy and it didn't seem as if it would be that big a deal to make it look tidier by using horizontals and verticals and 45 degree angles.
+ZH | 我看着屏幕上的东西，它看起来似乎全是锯齿状的，似乎通过使用水平线、垂直线和 45 度角让它看起来更整洁并不是什么大不了的事。
+
+13:34 Unknown
+EN | You could iterate without an eraser. It's hard to overstate how great this was.
+ZH | 你可以在没有橡皮擦的情况下进行迭代。这有多好简直难以言表。
+
+17:01 Unknown
+EN | But if you make it really simple, everyone can project themselves onto it.
+ZH | 但如果你把它做得非常简单，每个人都可以把自己投射到它上面。
+
+17:47 Unknown
+EN | A salient detail or two, but don't lard it with a lot of extra stuff.
+ZH | 一两个显著细节，但不要给它填塞很多额外的东西。
+
+18:51 Unknown
+EN | I could be irreverent because no one was going to see this. At least that's what I was told.
+ZH | 我可以不敬，因为没人会看到这个。至少那是他们告诉我的。
+
+21:55 Unknown
+EN | So in general, I think it's not good in icons to show pictures of a particular product design because like the three and a half inch floppy for save even though some there's still a few of those kicking around but obviously it it didn't age well better to use a metaphor just enough detail
+ZH | 所以总的来说，我认为在图标中展示特定产品设计的图片，比如那个用于保存的三点五英寸软盘，虽然还有一些在那里到处可见，但显然它经不起时间的考验，最好使用一个隐喻，只要足够的细节
+
+22:36 Unknown
+EN | I think he called it an apple farm and said, our logo is precious and we have to respect it so you know we just can't have a bunch of apples
+ZH | 我想他称之为苹果农场并说，我们的标志是珍贵的，我们必须尊重它，所以你知道我们不能有一堆苹果
+
+27:42 Unknown
+EN | It isn't really just about a grid of pixels. It's the metaphor and the idea and the meaning behind everything.
+ZH | 它实际上不仅仅是关于像素网格。它是隐喻、观念和万物背后的意义。
+
+33:22 Unknown
+EN | What I learned was that cute trumped everything.
+ZH | 我学到的是可爱胜过一切。
+
+33:36 Unknown
+EN | I would say if my life depended on selling a drawing for a dollar, I now know I would draw a penguin because we had multiple limited editions of penguins and they all sold out.
+ZH | 我想说的是，如果我的性命取决于卖出一幅一美元的画，我现在知道我会画一只企鹅，因为我们有过多个企鹅限量版，而且它们都卖光了。
+
+39:04 Unknown
+EN | I will do one logo and you will like it. And that is actually what happened.
+ZH | 我会做一个标志，你会喜欢的。而这实际上就是发生的事情。
+
+40:24 Unknown
+EN | Because he said, if you can spend a ton of money to make some random symbol associated that doesn't really mean anything much, I mean, I guess it's the world, with your logo, you know, you can do whatever you want. But most people don't have unlimited money.
+ZH | 因为他说，如果你能花大价钱让某个随机的符号产生关联，而这个符号并没有太大的意义，我是说，我想那是世界，和你的 Logo 在一起，你知道，你可以做任何你想做的事。但大多数人没有无限的钱。
+
+43:40 Unknown
+EN | Make it visual. I mean, I guess this is a metaphor too, but do the drawing.
+ZH | 让它视觉化。我的意思是，我想这也是一个隐喻，但画出来。
+
+45:14 Unknown
+EN | As a kind of tenet about user interface and maybe not having everything at the same level and nesting things so that things can just appear that ease of use seems possible.
+ZH | 作为关于用户界面的一种原则，也许不是把所有东西都放在同一层级，而是嵌套事物，以便事物可以就这样出现，易用性似乎是可能的。
+
+49:16 Unknown
+EN | He's like, don't show him one thing because he'll say he doesn't like it because it maybe forces you to go try and do it again and be better. But if you show a few things, then he can be involved and say that something is terrible but still pick something.
+ZH | 他说，不要给他看一样东西，因为他会说他不喜欢它，因为这可能会迫使你去尝试再做一次并做得更好。但如果你给他看几样东西，那么他就可以参与进来，说某个东西很糟糕，但仍然挑选一样。
+
+===END===

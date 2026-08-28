@@ -1,0 +1,1253 @@
+{
+  "episode_id": "2026-08-26-pragmatic-why-performant-code-matters-but-gets",
+  "podcast": "The Pragmatic Engineer",
+  "date": "2026-08-26",
+  "tags": [
+    "高性能代码",
+    "软件架构",
+    "汇编语言",
+    "游戏引擎",
+    "AI 与手工编程"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "casey-moratori",
+      "type": "person",
+      "role": "host",
+      "name": "Casey Moratori",
+      "file": "Casey Moratori",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            4.293,
+            7.535
+          ],
+          "quote": "Today's guest, Casey Moratori, spent the last decade arguing that we should.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "optimization",
+      "type": "concept",
+      "role": "concept",
+      "name": "性能优化 (optimization)",
+      "file": "性能优化",
+      "primary": true,
+      "how_described": "本集说真正的优化不是跑性能剖析找热点，而是先算硬件理论峰值，再量实际差距并缩小它；只找热点改改叫改进，找到局部最小值不是优化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            24.802,
+            33.125
+          ],
+          "quote": "The saying, premature optimization is the root of all evil, why Casey says that the majority of people use it to avoid thinking about performance when they really should, and many more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1334.61,
+            1349.595
+          ],
+          "quote": "And it is the thing that I hammer home on the Substack through all the parts of the courses on there, which is that in general, there's a misconception about the way that you approach optimization in computer science or in software engineering, let's say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1375.409,
+            1382.432
+          ],
+          "quote": "That is not how anyone has ever, you know, I've worked with many extremely good optimization people, and that is not how it is done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1383.073,
+            1386.455
+          ],
+          "quote": "The correct way to do optimization is very much like what you just said.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1402.344,
+            1412.251
+          ],
+          "quote": "And then your goal during optimization is to shrink that gap to something that you think could be plausibly explained and hopefully come up with explanations of why you aren't at theoretical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1415.713,
+            1426.402
+          ],
+          "quote": "And it's crucial that you do this because otherwise all you're doing with that other method is finding a, you know, with the, I'm just going to, you know, make something I think might be an optimization and look if my statistics improved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1436.591,
+            1437.751
+          ],
+          "quote": "That's not optimization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1439.633,
+            1441.735
+          ],
+          "quote": "But optimization means to make optimal, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1459.352,
+            1475.111
+          ],
+          "quote": "It also is what lets you become better at optimization because no matter who you are and no matter how much you already know, when you go to tackle an optimization problem, there may well be some things in the new way that the system is laid out that you don't know about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1632.433,
+            1638.658
+          ],
+          "quote": "But if you're just talking about the vast majority of tasks you might do in optimization, writing it, no.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1774.7,
+            1778.962
+          ],
+          "quote": "Okay, you're super passionate about performance optimization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1786.544,
+            1790.306
+          ],
+          "quote": "There's a saying that premature optimization is the root of all evil.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1857.908,
+            1859.428
+          ],
+          "quote": "I'm just going to delay optimization work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1959.774,
+            1973.565
+          ],
+          "quote": "A very simple example would be we write our entire software thing, like we just, whatever this massive thing that we're imagining doing where we're gonna ignore optimization, we sit down and we write it and we use a paradigm where we ask the server for something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2134.294,
+            2140.277
+          ],
+          "quote": "Another way to think of it is, because hotspots is the way that people talk about that, like, oh, it's going to be hotspot optimization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2489.18,
+            2497.984
+          ],
+          "quote": "If the ideas about optimization were true, you'd never have to rewrite something in a language, in a different language, unless you just preferred that language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2550.526,
+            2565.598
+          ],
+          "quote": "The good news is that optimization of the kind that we sort of talked about, the like hotspot kind, where it's like somebody's gonna go in here, maybe they're gonna even rewrite this routine in hand-coded assembly or something crazy like this, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2570.528,
+            2582.857
+          ],
+          "quote": "One of the reasons that you don't see hotspot optimization as a thing that really matters that much anymore and one of the reasons I advise that architecture and not making bad decisions is much more important is because...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "assembly-language",
+      "type": "concept",
+      "role": "concept",
+      "name": "汇编语言 (assembly language)",
+      "file": "汇编语言",
+      "primary": true,
+      "how_described": "本集说学汇编是为了读而不是写，因为高级语言只是编译器的输入，只有看汇编输出才知道 CPU 真正收到什么指令；x64 编译器实际输出的常用指令只有二三十条",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 343,
+          "t": [
+            1566.057,
+            1570.419
+          ],
+          "quote": "And I would also say that one of the other things that we do in the class is teach how to read assembly language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1570.899,
+            1574.94
+          ],
+          "quote": "And people often ask, assembly language, what would I ever need that for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1598.63,
+            1603.972
+          ],
+          "quote": "If I look at the assembly language output from that compiler, I know exactly what the CPU is being asked to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1604.632,
+            1610.375
+          ],
+          "quote": "And it's not that hard to be able to learn to read assembly language so that you can see very quickly...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1619.582,
+            1626.328
+          ],
+          "quote": "It's very rare that you have to write assembly language to do anything other than sometimes for test purposes, it's easier to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1628.43,
+            1632.413
+          ],
+          "quote": "So if you're just testing something, sometimes it helps to be able to write some assembly language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1640.339,
+            1649.967
+          ],
+          "quote": "And it also unlocks this sort of huge world of possibilities to you because once you know assembly language, you can now do things like read those CPU diagrams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1656.933,
+            1659.896
+          ],
+          "quote": "It tells you that if you know assembly language, you can read it right off the chart, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1660.536,
+            1664.119
+          ],
+          "quote": "If you don't know assembly language, you look at that chart and like, I have no idea what I'm looking at, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1677.966,
+            1682.568
+          ],
+          "quote": "Plus, I guess we should add that assembly language is not all that complicated, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1724.661,
+            1736.446
+          ],
+          "quote": "Assembly language, you know, maybe there's 20, 30 instructions you might have to learn total because most things in legacy assembly like x64, most of them are hardly ever output by the compiler.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1769.477,
+            1773.978
+          ],
+          "quote": "If you can vertically center a div in HTML, then you can probably learn assembly language, I would say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2633.696,
+            2648.746
+          ],
+          "quote": "What I argue and what we focus on the Substack is I think you just have to go through the experience once of learning, reading the assembly language, seeing how the CPU works, seeing the difference, seeing why Python is slow, which we show on the subs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2648.766,
+            2655.571
+          ],
+          "quote": "So one of the first things I show is I walk you through the assembly language necessary to execute A plus B in Python.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2667.44,
+            2689.919
+          ],
+          "quote": "So, you know, understanding basic things like that, if you go through, learn to read assembly language, learn to look at some code, learn to do some CPU timings, and you just have that experience, just spend, you know, a month or two of nights or whatever you want, just understanding some performance stuff and going through a few examples where you play with it and you see the difference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2934.671,
+            2938.333
+          ],
+          "quote": "The reason to learn the assembly language is so that you know what the CPU is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3078.633,
+            3081.576
+          ],
+          "quote": "Once you learn a little bit of assembly language, you understand what it's reading.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3082.096,
+            3089.643
+          ],
+          "quote": "You understand how it turns those assembly language instructions into micro operations, which it actually does, and how they get distributed through that machine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "serial-dependency-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "串行依赖链 (serial dependency chain)",
+      "file": "串行依赖链",
+      "primary": true,
+      "how_described": "本集说如果代码全是问服务器→等响应→算→再问的串行模式，就制造了无法并行化的串行依赖链，这不是热点问题，只能重写整个东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 443,
+          "t": [
+            2002.784,
+            2007.086
+          ],
+          "quote": "Well, the reason is because you created a serial dependency chain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2015.43,
+            2020.912
+          ],
+          "quote": "And that serial dependency chain can't really be shortened without just rewriting it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2057.557,
+            2061.961
+          ],
+          "quote": "Well, again, we talk about this a lot on the Substack, but there's this idea of a serial dependency chain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2064.864,
+            2071.766
+          ],
+          "quote": "And the performance of your software is generally determined by the longest serial dependency chain because it's something that cannot be parallelized.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "premature-optimization",
+      "type": "concept",
+      "role": "concept",
+      "name": "过早优化 (premature optimization)",
+      "file": "过早优化",
+      "primary": true,
+      "how_described": "本集说「过早优化是万恶之源」这句话被大多数人当借口，在应该考虑性能时不思考；真正的问题是你能否确定以后可以局部优化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            24.802,
+            33.125
+          ],
+          "quote": "The saying, premature optimization is the root of all evil, why Casey says that the majority of people use it to avoid thinking about performance when they really should, and many more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1786.544,
+            1790.306
+          ],
+          "quote": "There's a saying that premature optimization is the root of all evil.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "polymorphism",
+      "type": "concept",
+      "role": "concept",
+      "name": "多态 (polymorphism)",
+      "file": "多态",
+      "primary": true,
+      "how_described": "本集说 Uncle Bob 推崇的多态重构模式比简单表切换慢 1.5 到 15 倍，关键不是虚函数调用贵，而是多态让编译器无法做内联、代码折叠和向量化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 924,
+          "t": [
+            4559.986,
+            4574.552
+          ],
+          "quote": "You made this video titled Clean Code Horrible Performance, an essay slash video, showing how Uncle Bob Martin's polymorphism-based refactoring pattern runs about 1.5 to 15 times slower than a plain table switch version.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 944,
+          "t": [
+            4653.715,
+            4657.096
+          ],
+          "quote": "There's all these like kind of rules about it, preferring polymorphism always, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "game-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "游戏引擎 (game engine)",
+      "file": "游戏引擎",
+      "primary": true,
+      "how_described": "本集把可授权游戏引擎的普及比作游戏行业的 AI 时刻，消除了引擎风险后 Steam 每年上架数万款游戏，导致营销和分发成为真正的差异化因素",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 810,
+          "t": [
+            3929.06,
+            3938.302
+          ],
+          "quote": "So much more people who can now have a shot at creating a game because you no longer have to either have this massive amount to license this super expensive game engine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1320,
+          "t": [
+            6743.071,
+            6749.637
+          ],
+          "quote": "Before, large teams were needed to build both a game engine and a game, and now teams of one or two can create full-blown games.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "clean-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Clean Code",
+      "file": "Clean Code",
+      "primary": false,
+      "how_described": "本集提到 Casey 做了视频展示 Clean Code 的多态重构模式比表切换慢 1.5 到 15 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 924,
+          "t": [
+            4559.986,
+            4574.552
+          ],
+          "quote": "You made this video titled Clean Code Horrible Performance, an essay slash video, showing how Uncle Bob Martin's polymorphism-based refactoring pattern runs about 1.5 to 15 times slower than a plain table switch version.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 936,
+          "t": [
+            4610.898,
+            4618.121
+          ],
+          "quote": "There's one thing where people want to just use the term clean code to mean code that they like or think is written properly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4621.323,
+            4625.425
+          ],
+          "quote": "Because that's just, you know, I probably have a version of what I think is clean code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 941,
+          "t": [
+            4631.307,
+            4639.151
+          ],
+          "quote": "So if your idea of clean code is just whatever you want it, you know, whatever you happen to think are good programming practices, I might agree with those programming practices, I don't know.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hotspot",
+      "type": "concept",
+      "role": "concept",
+      "name": "热点 (hotspot)",
+      "file": "热点",
+      "primary": false,
+      "how_described": "本集说只找热点改改不叫优化，如果问题总是热点，Facebook 和 Uber 永远不需要重写整个东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 432,
+          "t": [
+            1945.483,
+            1954.071
+          ],
+          "quote": "The problem comes when you don't know if the choice that you're making produces that kind of optimizable hotspot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2088.37,
+            2094.094
+          ],
+          "quote": "That kind of thing can be pervasive in the programming and we can't cheaply remove it because it's not a hotspot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2114.868,
+            2119.25
+          ],
+          "quote": "Then the world would look more like just wait and optimize the hotspot, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2134.294,
+            2140.277
+          ],
+          "quote": "Another way to think of it is, because hotspots is the way that people talk about that, like, oh, it's going to be hotspot optimization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2149.001,
+            2156.284
+          ],
+          "quote": "You have to engineer upfront for a hotspot code base that people can then optimize, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2550.526,
+            2565.598
+          ],
+          "quote": "The good news is that optimization of the kind that we sort of talked about, the like hotspot kind, where it's like somebody's gonna go in here, maybe they're gonna even rewrite this routine in hand-coded assembly or something crazy like this, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2570.528,
+            2582.857
+          ],
+          "quote": "One of the reasons that you don't see hotspot optimization as a thing that really matters that much anymore and one of the reasons I advise that architecture and not making bad decisions is much more important is because...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inline",
+      "type": "concept",
+      "role": "concept",
+      "name": "内联 (inline)",
+      "file": "内联",
+      "primary": false,
+      "how_described": "本集说如果函数是静态已知的，编译器可以安全地内联它们并根据需要折叠冗余代码",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 950,
+          "t": [
+            4673.845,
+            4681.046
+          ],
+          "quote": "That's actually fine if the compiler can see all those functions and know that it can safely inline them and collapse them as necessary.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vectorize",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量化 (vectorize)",
+      "file": "向量化",
+      "primary": false,
+      "how_described": "本集说使用多态后编译器无法做向量化（如在 SIMD 中运行），而简单可读的代码编译器反而能加宽代码路径做向量化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 957,
+          "t": [
+            4726.225,
+            4732.131
+          ],
+          "quote": "Out of that, it can also do things like widen the code path if it needs to vectorize to like run in SIMD and stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "branch-prediction",
+      "type": "concept",
+      "role": "concept",
+      "name": "分支预测 (branch prediction)",
+      "file": "分支预测",
+      "primary": false,
+      "how_described": "本集说懂汇编后能读懂 CPU 架构图上的分支预测等参数，了解代码如何流过 CPU",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 967,
+          "t": [
+            4783.997,
+            4788.139
+          ],
+          "quote": "It has to do with a lot of things like branch prediction and how much stuff was getting pushed in the stack and whatever else, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "test-driven-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试驱动开发 (test-driven development)",
+      "file": "测试驱动开发",
+      "primary": false,
+      "how_described": "本集说 Casey 不喜欢「测试驱动」这部分，认为开发不应默认由测试驱动，应务实评估测试的总时间成本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 980,
+          "t": [
+            4845.174,
+            4847.216
+          ],
+          "quote": "What is your take on test-driven development?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 993,
+          "t": [
+            4917.879,
+            4923.56
+          ],
+          "quote": "I would say the part that I don't like about test-driven development is the test-driven part.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "substack",
+      "type": "company",
+      "role": "company",
+      "name": "Substack",
+      "file": "Substack",
+      "primary": false,
+      "how_described": "本集提到 Casey 在 Substack 上做 Computer Enhance，发布性能相关的教育课程和视频",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            789.098,
+            792.781
+          ],
+          "quote": "We now do the substack through that where we do educational materials.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            848.976,
+            866.385
+          ],
+          "quote": "But given the fact that it is kind of like a split time sort of thing for us, because we're pretty focused on making sure the substack is good and all that sort of stuff, we're trying to keep it fairly tight lipped until we actually know we're mostly done, because we don't know how much time we can always devote to it, if that makes sense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            901.467,
+            908.253
+          ],
+          "quote": "And on Substack, it's called Computer Enhance, and you started it with performance-related topics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            908.273,
+            912.316
+          ],
+          "quote": "And that's how we started to talk, I think, about three years ago, when you already had a Substack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1328.267,
+            1331.208
+          ],
+          "quote": "That is the entire point of my Substack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1334.61,
+            1349.595
+          ],
+          "quote": "And it is the thing that I hammer home on the Substack through all the parts of the courses on there, which is that in general, there's a misconception about the way that you approach optimization in computer science or in software engineering, let's say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1499.221,
+            1505.043
+          ],
+          "quote": "Things in CPUs that no one knew about, and I've literally had them in the course of making the substack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2057.557,
+            2061.961
+          ],
+          "quote": "Well, again, we talk about this a lot on the Substack, but there's this idea of a serial dependency chain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2520.363,
+            2536.397
+          ],
+          "quote": "I'm interested, you know, maybe after this podcast or looking to some of the things that you did, what is a learning path you would follow outside of your Substack where you cover a lot of these things, but what are areas that you think are kind of like, you need to understand these things to like get better at writing performance code?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2633.696,
+            2648.746
+          ],
+          "quote": "What I argue and what we focus on the Substack is I think you just have to go through the experience once of learning, reading the assembly language, seeing how the CPU works, seeing the difference, seeing why Python is slow, which we show on the subs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 927,
+          "t": [
+            4579.684,
+            4582.486
+          ],
+          "quote": "So that is sort of from that course on the Substack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 928,
+          "t": [
+            4582.786,
+            4586.849
+          ],
+          "quote": "So it kind of goes with a bunch of other videos that are part of like the Substack thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1125,
+          "t": [
+            5611.457,
+            5624.082
+          ],
+          "quote": "One is that we, like I said, we are kind of, we have like sort of two projects here and the Substack is our primary focus and this other one is a thing that we're doing because we want to do it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "unreal-engine",
+      "type": "company",
+      "role": "company",
+      "name": "Unreal Engine",
+      "file": "Unreal Engine",
+      "primary": false,
+      "how_described": "本集说 Unreal Engine 是可授权引擎的代表，消除了游戏开发中的引擎风险",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 719,
+          "t": [
+            3523.93,
+            3525.191
+          ],
+          "quote": "They'll grab the Unreal Engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 806,
+          "t": [
+            3903.914,
+            3914.437
+          ],
+          "quote": "They became not only licenseable, like we're talking about like Unreal Engine for larger studios, but ones like Unity or Godot, which now amateurs could also afford.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1130,
+          "t": [
+            5642.36,
+            5644.363
+          ],
+          "quote": "I'd just go get the Unreal Engine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "unity",
+      "type": "company",
+      "role": "company",
+      "name": "Unity",
+      "file": "Unity",
+      "primary": false,
+      "how_described": "本集提到 Unity 是让业余爱好者也能负担得起的可授权游戏引擎之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 806,
+          "t": [
+            3903.914,
+            3914.437
+          ],
+          "quote": "They became not only licenseable, like we're talking about like Unreal Engine for larger studios, but ones like Unity or Godot, which now amateurs could also afford.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "steam",
+      "type": "company",
+      "role": "company",
+      "name": "Steam",
+      "file": "Steam",
+      "primary": false,
+      "how_described": "本集说 Steam 上每年上架的游戏数以万计，你的游戏不可能被自然发现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 834,
+          "t": [
+            4053.056,
+            4063.96
+          ],
+          "quote": "And I think at this point, we're at the point where I want to say Steam games are in the like tens of thousands or a hundred thousand per year or something like that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "type": "concept",
+      "role": "concept",
+      "name": "Python",
+      "file": "Python",
+      "primary": false,
+      "how_described": "本集说 Python 里做 A+B 底层可能要上百条 CPU 指令，而 C 只需一条 add，所以 Python 必须调用 C 写的库做重计算",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 531,
+          "t": [
+            2371.75,
+            2401.537
+          ],
+          "quote": "I was at Uber where I was not making a decision but the teams next to me were and I saw or I kind of understood why they were making but typically and right now it's happening with AI companies oftentimes it's like we chose this technology which is Python and it's single threaded and it made sense at the time on the web server but now we're big and this happened at Uber it was it was Python and Node.js and then they went to Go and Java on the back end and now with AI companies it was Python, OpenAI and Tropic are both going through this right now they're both",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2407.46,
+            2412.042
+          ],
+          "quote": "They use Python because data scientists or AI or machine learning engineers knew Python.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2633.696,
+            2648.746
+          ],
+          "quote": "What I argue and what we focus on the Substack is I think you just have to go through the experience once of learning, reading the assembly language, seeing how the CPU works, seeing the difference, seeing why Python is slow, which we show on the subs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2648.766,
+            2655.571
+          ],
+          "quote": "So one of the first things I show is I walk you through the assembly language necessary to execute A plus B in Python.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2734.864,
+            2738.147
+          ],
+          "quote": "And the simplest example is the Python example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2738.867,
+            2754.549
+          ],
+          "quote": "Most people have never internalized the fact that it takes, you know, maybe on the order of 100 more CPU instructions to do an add in Python than it does to do it in an equivalent language like C for the same piece of text, just A plus B compiled in two different, you know, in two different languages, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2754.909,
+            2784.176
+          ],
+          "quote": "And so just understanding even just that is enough for you to kind of go like, oh, okay, A, now I kind of understand why if I'm using Python, I kind of have to use libraries to do things and those libraries were written in C because it's like if I'm ever going to do any operations on a large number of things, I can't do it in this language because the amplification factor is so high on each operation that it just kills the performance immediately, whereas these other languages don't have that, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2815.128,
+            2825.971
+          ],
+          "quote": "And if it's not, then now, you know, like, oh, okay, if I'm in Python, then what I gotta do is either I gotta go find a library call that will do these sorts of things and structure around how that library works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2826.671,
+            2837.6
+          ],
+          "quote": "Or I should maybe get something like Cython or something where I can do compiled stuff inside my Python and make my code work around calls out to that kind of code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1317,
+          "t": [
+            6711.04,
+            6719.143
+          ],
+          "quote": "And it's a lot easier to understand, for example, why a programming language like Python is much slower than something like Rust or C when you see the assembly code for simple operations.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "CPU",
+      "file": "CPU",
+      "primary": false,
+      "how_described": "本集说了解 CPU 的缓存层级、执行单元调度等是理解性能的基础，懂汇编后能直接读懂 CPU 架构图",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            371.824,
+            379.467
+          ],
+          "quote": "Which is in the three series didn't really have a way to quickly use the CPU to fill pixels, which is what games need to do, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1577.081,
+            1584.404
+          ],
+          "quote": "And that is that everything else that you might use doesn't tell you anything about what the CPU is actually receiving.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1594.848,
+            1598.31
+          ],
+          "quote": "I have no idea what the CPU is actually going to be asked to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1598.63,
+            1603.972
+          ],
+          "quote": "If I look at the assembly language output from that compiler, I know exactly what the CPU is being asked to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1611.095,
+            1616.66
+          ],
+          "quote": "Is the CPU being asked to do the things that I think it should be asked to do them and in that way, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1640.339,
+            1649.967
+          ],
+          "quote": "And it also unlocks this sort of huge world of possibilities to you because once you know assembly language, you can now do things like read those CPU diagrams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2633.696,
+            2648.746
+          ],
+          "quote": "What I argue and what we focus on the Substack is I think you just have to go through the experience once of learning, reading the assembly language, seeing how the CPU works, seeing the difference, seeing why Python is slow, which we show on the subs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2667.44,
+            2689.919
+          ],
+          "quote": "So, you know, understanding basic things like that, if you go through, learn to read assembly language, learn to look at some code, learn to do some CPU timings, and you just have that experience, just spend, you know, a month or two of nights or whatever you want, just understanding some performance stuff and going through a few examples where you play with it and you see the difference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2738.867,
+            2754.549
+          ],
+          "quote": "Most people have never internalized the fact that it takes, you know, maybe on the order of 100 more CPU instructions to do an add in Python than it does to do it in an equivalent language like C for the same piece of text, just A plus B compiled in two different, you know, in two different languages, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2883.76,
+            2887.523
+          ],
+          "quote": "Now, as a software, you mentioned it's good to understand how the CPU works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2896.384,
+            2903.51
+          ],
+          "quote": "Even in academia or in computer science, you know, there is some level of some basic CPU theory taught.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2920.164,
+            2922.945
+          ],
+          "quote": "So you're talking about specifically the knowing the CPU part.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2923.166,
+            2928.048
+          ],
+          "quote": "Knowing about the CPU, knowing about the details about the CPU, because you mentioned that that's also part of it, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2934.671,
+            2938.333
+          ],
+          "quote": "The reason to learn the assembly language is so that you know what the CPU is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2938.733,
+            2940.874
+          ],
+          "quote": "So it's the CPU part that's actually important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2941.174,
+            2947.858
+          ],
+          "quote": "And the part that's important about it is that the CPU is basically, you can think of it as a little machine",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2948.578,
+            2964.791
+          ],
+          "quote": "Whose internal gearings we are not privy to because for the CPUs that we care about, so, you know, an M-series CPU in a Mac, a Zen core CPU in a server or in a laptop or an Intel, you know, core series, those sorts of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3015.288,
+            3018.009
+          ],
+          "quote": "How does the CPU go about actually working with those things?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3115.732,
+            3122.075
+          ],
+          "quote": "Just look at this and be like, OK, I see what the CPU should be getting in terms of like what I could do with this size data load, that size data load.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3264.732,
+            3278.846
+          ],
+          "quote": "It does, and thankfully, like, it's also not that hard to update your knowledge, because, again, you get these presentations that the CPU companies give, and they're like, here's the changes we made, so you kind of are aware every time a new thing gets a...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            5375.339,
+            5381.362
+          ],
+          "quote": "Once you've done there, understand how the CPU is doing operations and branch predictions and some of those things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

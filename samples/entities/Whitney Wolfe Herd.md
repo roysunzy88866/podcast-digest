@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":9,"AI 助手":1,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Apple":12,"真实性":1,"交互模型":1}</script>
+<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":9,"AI 助手":1,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Apple":13,"真实性":1,"交互模型":1}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Apple</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,6 +22,7 @@ unlisted: true
 - **[[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]]**(04:13起):本集批评它与 Google 在过去 15 年里对移动端系统严防死守,封禁了绝大多数人,导致用户很难在手机上安装未经签名的软件。
 - **[[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]]**(11:01起):本集提到苹果在 1987 年制作了著名的人机交互概念视频《Knowledge Navigator》,预示了可折叠平板、实时视频生成、有性格的对话式语音助手等
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(06:40起):本集讨论 Apple 因 AI 基建热潮引发内存短缺而受到严重反噬，被迫酝酿全线硬件涨价（特别是 iPhone 18 预计上涨 100-200 美元），并推出与 Klarna 合作的按月付费订阅模式（Apple Upgrade）来掩盖涨价、锁定用户生态。
+- **[[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]]**(00:26起):本集说 Apple 是 Susan Kare 加入 Macintosh 团队工作的地方，她在那里设计了系统字体、图标和 Command 键符号，团队当时目标是做一台任何人都能用、不需要读手册的电脑
 
 ## ① 提到它的金句
 
@@ -33,7 +34,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]] — 作为被讨论公司
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
@@ -47,14 +48,15 @@ unlisted: true
 - [[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]] — 作为被讨论公司(提及)
 - [[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
+- [[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Google]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Microsoft]] · [[NVIDIA]] · [[Meta]] · [[Amazon]] · [[AGI]]
+[[Lenny]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[OpenAI]] · [[NVIDIA]] · [[Meta]] · [[Amazon]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Google":29,"Anthropic":73,"智能体":146,"OpenAI":65,"Microsoft":14,"NVIDIA":23,"Meta":21,"Amazon":9,"AGI":16}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Google":29,"Anthropic":73,"Microsoft":15,"智能体":146,"OpenAI":65,"NVIDIA":23,"Meta":21,"Amazon":9,"AGI":16}</script>
 
 <script>
 (function(){

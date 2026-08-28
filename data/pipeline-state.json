@@ -5,7 +5,8 @@
     "2026-08-10-talks-codex-behind-the-harness-dominik-kundel": 3,
     "2026-08-03-lennys-chatgpt-codex-voice-browser-sites": 3,
     "2026-07-27-lennys-from-zero-coding-background-to-hardware": 3,
-    "2026-08-18-ainativedev-every-repo-is-a-software-factory-now-don": 3
+    "2026-08-18-ainativedev-every-repo-is-a-software-factory-now-don": 3,
+    "2026-08-28-practicalai-building-the-foundation-for-the-agentic": 1
   },
   "talkVideoIds": {
     "xUnRQ9vLXxo": "2026-07-08-talks-everything-we-knew-about-software-has-ch",
@@ -51,8 +52,8 @@
   "cutoffs": {
     "lennys": "2026-08-24T12:04:02.000Z",
     "pg": "2026-08-24T23:16:09.000Z",
-    "a16z": "2026-08-26T10:00:00.000Z",
-    "yc": "2026-08-11T19:53:56.000Z",
+    "a16z": "2026-08-28T10:00:00.000Z",
+    "yc": "2026-08-28T17:58:53.000Z",
     "mad": "2026-08-27T14:22:21.000Z",
     "trainingdata": "2026-08-25T09:00:00.000Z",
     "bigtech": "2026-08-26T10:00:00.000Z",
@@ -68,7 +69,7 @@
     "twentyvc": "2026-08-27T07:07:00.000Z",
     "cogrev": "2026-08-16T05:43:02.000Z",
     "knowledge": "2026-08-18T10:00:00.000Z",
-    "pragmatic": "2026-08-19T16:53:57.000Z",
+    "pragmatic": "2026-08-26T15:59:59.000Z",
     "workos": "2025-02-04T15:53:55.000Z",
     "practicalai": "2026-08-25T09:00:00.000Z",
     "changelog": "2026-08-25T19:00:00.000Z",
@@ -445,6 +446,12 @@
       "reason": "补活重验被拦:导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Inside Ukraine's Azov Drone R&D: The Engineer Building AI Weapons 18 km From the Front Line | Alexander Palamarchuk",
       "pubDate": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "id": "2026-08-28-a16z-the-infrastructure-behind-the-machine-ag",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "The Infrastructure Behind the Machine Age",
+      "pubDate": "2026-08-28T10:00:00.000Z"
     }
   ]
 }
