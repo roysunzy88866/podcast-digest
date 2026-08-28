@@ -436,3 +436,9 @@
 {"ts":"2026-08-28T01:40:12.841Z","action":"discover-error","channel":"axios","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-28T01:40:17.846Z","action":"discover-error","channel":"langchain","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-28T01:40:22.851Z","action":"discover-error","channel":"stripe","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-28T07:40:52.483Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-28T07:40:52.731Z","action":"prefilter-skip","channel":"axios","videoId":"4g13CsqvfDQ","title":"Is planning ahead a thing of the past?","reason":"标题不含必需关键词(full interview)"}
+{"ts":"2026-08-28T07:41:13.733Z","action":"prefilter-skip","channel":"langchain","videoId":"KwArz5k7fYs","title":"How Morningstar Stopped Flying Blind on Production Agents with LangSmith","reason":"时长 108s < 下限 600s"}
+{"ts":"2026-08-28T07:41:33.921Z","action":"prefilter-skip","channel":"langchain","videoId":"RGW83Z6ThH8","title":"The most common Deep Agents use cases","reason":"时长 41s < 下限 600s"}
+{"ts":"2026-08-28T07:42:05.071Z","action":"rejected","channel":"langchain","videoId":"u8Im0l_vwqM","title":"Inside DeepWiki: How Cognition Builds Wikis for Devin at Scale","durationSec":1031,"verdict":"不对味","reason":"拿不准:Cognition 是对味频道,但本集是算法内部拆解(wiki 算法 v1→v2、量化评测、codebase graph),偏技术深挖而非企业客户案例或创始人对谈,按宁可漏勿错判不对味"}
+{"ts":"2026-08-28T07:43:10.860Z","action":"seed-failed","channel":"stripe","videoId":"4GmHpHyoKmo","title":"Canva cofounder and COO Cliff Obrecht in conversation with John Collison","verdict":"对味","reason":"高规格炉边访谈、创始人故事，正中创始人访谈类，先例符合 Collison 家访谈品味。","error":"seed-talk exit 1/种子未就绪(可重试)"}
