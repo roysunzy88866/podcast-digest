@@ -41,7 +41,7 @@ unlisted: true
 
 ![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q6]]
 
-![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q11]]
+![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q17]]
 
 ## ② 出现在这些集
 
@@ -55,7 +55,7 @@ unlisted: true
 
 [[Garry Tan]] · [[智能体]] · [[技能文件]] · [[上下文]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]] · [[OpenClaw]] · [[Claude Code]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"Garry Tan":2,"智能体":141,"技能文件":2,"上下文":11,"Latent Space":2,"确定性空间":2,"工作记忆":2,"OpenClaw":13,"Claude Code":36,"Codex":27}</script>
+<script type="application/json" class="pd-epn">{"Garry Tan":2,"智能体":146,"技能文件":2,"上下文":11,"Latent Space":2,"确定性空间":2,"工作记忆":2,"OpenClaw":13,"Claude Code":37,"Codex":27}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Slack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,7 +23,7 @@ unlisted: true
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(10:23起):Fiona 团队收集内部与外部反馈及沟通的核心即时通讯渠道；她通过让 Claude 会话访问所有 Slack 频道来获取全局视角。
 - **[[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]]**(03:49起):本集展示员工如何生活在 Slack 中。团队直接在 Slack 里构建简单的自动化来收集功能请求、分配工单，并向员工及时交付智能体简报。
 - **[[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]]**(66:22起):本集提到 Figma Agent 通过新增的连接器，可以把 Slack 里的外部数据和上下文直接拉进画布。
-- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(03:00起):本集把它说成:Claude Tag 目前驻留的工作表面，让智能体更贴近你日常工作的所有场景，不需要在跟团队沟通和跟智能体协作之间切换上下文
+- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(03:00起):本集把它说成:Claude Tag 目前驻留的工作表面，让智能体更贴近你日常工作的所有场景，不需要在跟团队沟通和跟智能体协作之间切换上下文
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(15:01起):本集把它说成:因架构合适,无意中成为大家跑智能体的平台,它证明了把地基打好让用户自行拓展的价值。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(06:56起):本集把它说成:团队协作工具,ClaudeTag 扎根其中,让整个团队在同一频道里共同指挥智能体干活
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(06:39起):本集中作为通知渠道，智能体审查完 PR 后会在这里 ping 相关人员采取最终行动。
@@ -31,6 +31,7 @@ unlisted: true
 - **[[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]]**(11:59起):本集强调的工程师日常交互的主要阵地。智能体可以在 Slack 里被消息触发、被动监听频道回答问题，甚至给工程师发私信确认答案，是智能体集成的第一方体验。
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(03:12起):本集把它说成:团队工作与接入智能体的重要接口之一;但强调仅靠 Slack bot 还不够,只是把智能体「从笔记本搬到了聊天软件里」,仍受限。
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(00:03起):Lindy TeamMate 生活的平台，也是公司真正知识所在的地方；Slack API 限速是初始水合的瓶颈
+- **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(06:38起):本集提到 Slack 非常适合时刻的沟通，是堆栈中宣称'工作发生在这里'的工具之一
 
 ## ① 提到它的金句
 
@@ -42,7 +43,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
@@ -56,7 +57,7 @@ unlisted: true
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为被讨论公司(提及)
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为被讨论公司
 - [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为被讨论公司(提及)
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为概念
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为概念
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司(提及)
@@ -64,6 +65,7 @@ unlisted: true
 - [[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]] — 作为被讨论公司
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为被讨论公司(提及)
+- [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -71,7 +73,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Claude]] · [[护栏]] · [[Cursor]] · [[提示词注入]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Lenny":65,"GitHub":17,"Anthropic":70,"Claude Code":36,"沙箱":28,"Claude":33,"护栏":28,"Cursor":35,"提示词注入":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"GitHub":18,"Anthropic":72,"Claude Code":37,"沙箱":29,"Claude":35,"护栏":30,"Cursor":37,"提示词注入":6}</script>
 
 <script>
 (function(){

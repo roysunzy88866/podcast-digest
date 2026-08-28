@@ -27,10 +27,10 @@ unlisted: true
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(09:14起):本集提到嘉宾带 10 岁儿子通过自然语言指挥 AI 写代码，做出了有着 19 个关卡和商店系统的 8 位风格超级马里奥游戏。
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(42:53起):本集把它说成:不仅是凭直觉写代码,还能真正用来经营公司的方式;Replit 招了全职氛围编程团队游走各部门,直接造出取代外部采购的内部系统。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(81:10起):被描述为纯凭直觉用自然语言让 AI 写代码。嘉宾建议别只做一锤子买卖，要把 vibe coding 做出来的小玩意儿当成真正的产品，找真实用户来用并不断迭代。
-- **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《Patrick Debois：AI 编码的组织转型与规模化》]]**(14:43起):本集把它说成个体开发者在 agentic development 中最初级的阶段，即凭感觉写提示词让 AI 生成代码
+- **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]]**(14:43起):本集把它说成个体开发者在 agentic development 中最初级的阶段，即凭感觉写提示词让 AI 生成代码
 - **[[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]]**(04:37起):作为 2025 年初被创造的术语被提及，标志着 AI 写代码开始被广泛认为可行，是 Datadog 内部采用浪潮的背景。
 - **[[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]]**(05:55起):本集批评市面上绝大多数 vibe coding 平台瞄准的是「开发者管服务器、所有人跑同一版本」的旧云架构,方向全错了;正确的方式是像用办公套件一样 vibe coding 出一个个独立应用。
-- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]]**(04:06起):本集说 vibe coding 是指凭感觉描述需求让 AI 写代码，很多人用它做出自己专属的工具版本——不是给两万用户做的，是给自己解决痛点的
+- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(04:06起):本集说 vibe coding 是指凭感觉描述需求让 AI 写代码，很多人用它做出自己专属的工具版本——不是给两万用户做的，是给自己解决痛点的
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(50:52起):Flo 说当前主流叙事是'SaaS 正在消亡，你可以 vibe coding 一切'，但他反驳说基础设施不能 vibe coding
 - **[[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]]**(77:24起):本集仅在提及 Addy 写过的书名时带过，未展开讨论
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(33:14起):本集说 Martin 以一种 VC 方式做 vibe coding 来构建复古电子游戏，把它比作以前车库里搞火车模型的爱好的现代版
@@ -65,10 +65,10 @@ unlisted: true
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为概念
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为概念
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念(提及)
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《Patrick Debois：AI 编码的组织转型与规模化》]] — 作为概念
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]] — 作为概念
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为概念(提及)
 - [[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|《AI 想给每个人定制 App,但云架构 25 年前就走错了路》]] — 作为概念
-- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]] — 作为概念
+- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为概念
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为概念(提及)
 - [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]] — 作为概念(提及)
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为概念(提及)
@@ -79,7 +79,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Cursor]] · [[ChatGPT]] · [[Claude]] · [[护栏]] · [[Anthropic]] · [[OpenAI]] · [[Replit]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Lenny":65,"Cursor":35,"ChatGPT":36,"Claude":33,"护栏":28,"Anthropic":70,"OpenAI":63,"Replit":11,"评估":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"Cursor":37,"ChatGPT":37,"Claude":35,"护栏":30,"Anthropic":72,"OpenAI":65,"Replit":11,"评估":16}</script>
 
 <script>
 (function(){

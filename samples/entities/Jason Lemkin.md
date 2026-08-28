@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jeanne DeWitt Grosser]]
+[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"SaaStr":1,"Replit":11,"Vercel":10,"Salesforce":8,"Artisan":1,"Qualified":1,"Delphi":3,"智能体":141,"编排":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"SaaStr":1,"Replit":11,"Vercel":11,"Salesforce":8,"Artisan":1,"Qualified":1,"Delphi":3,"智能体":146,"编排":2}</script>
 
 <script>
 (function(){

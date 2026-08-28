@@ -108,7 +108,7 @@ Simon 给了一个直白的定义：它的工作就是把可用的 GPU 变成智
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:后训练 (post-training)、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Hugging Face · 同概念:护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|智能体经济来了：从聊天框到数字劳动力]]<span class="pd-rz">同公司:Hugging Face · 同概念:开放权重 (open weight)、智能体 (agent)、护栏 (guardrails)</span>
+- [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Hugging Face · 同概念:开放权重 (open weight)、护栏 (guardrails)、推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -12,16 +12,16 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]]**(01:57起):本集说 TESL 是提供技能和上下文包管理工具的公司，帮助团队管理和扩展给编码智能体用的指令（技能/skills），其产品 TESL agent 是一个工厂构建智能体
-- **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《Patrick Debois：AI 编码的组织转型与规模化》]]**(47:15起):本集把它说成播客的赞助商，是技能和上下文的包管理器，Simon 提到其产品 Tesla Agent 可以基于项目历史日志和 PR 事实来优化上下文
-- **[[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla Dark Factory：95%代码无人看过就合并》]]**(02:39起):本集说 TESL 是 Skills 和 Context 的包管理器，Dark Factory 的开发团队所在公司，目前约 65-70% 的 PR 由 Dark Factory 创建
+- **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]]**(47:15起):本集把它说成播客的赞助商，是技能和上下文的包管理器，Simon 提到其产品 Tesla Agent 可以基于项目历史日志和 PR 事实来优化上下文
+- **[[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]]**(02:39起):本集说 TESL 是 Skills 和 Context 的包管理器，Dark Factory 的开发团队所在公司，目前约 65-70% 的 PR 由 Dark Factory 创建
 
 ## ② 出现在这些集
 
 *3 集*
 
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]] — 作为被讨论公司
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《Patrick Debois：AI 编码的组织转型与规模化》]] — 作为被讨论公司(提及)
-- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla Dark Factory：95%代码无人看过就合并》]] — 作为被讨论公司
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]] — 作为被讨论公司(提及)
+- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -29,7 +29,7 @@ unlisted: true
 
 [[Simon Maple]] · [[智能体]] · [[循环工程]] · [[Guy Pajani]] · [[软件工厂]] · [[暗工厂]] · [[评估]] · [[沙箱]] · [[Guy Fajani]] · [[Patrick Debois]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":5,"智能体":141,"循环工程":4,"Guy Pajani":3,"软件工厂":3,"暗工厂":2,"评估":16,"沙箱":28,"Guy Fajani":1,"Patrick Debois":1}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":6,"智能体":146,"循环工程":4,"Guy Pajani":3,"软件工厂":3,"暗工厂":2,"评估":16,"沙箱":29,"Guy Fajani":1,"Patrick Debois":1}</script>
 
 <script>
 (function(){

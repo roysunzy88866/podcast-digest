@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]]**(26:51起):本集说 GenCast 是 Google DeepMind 开发的天气预报模型，使用扩散模型生成预报集合（ensemble），用概率分布表示飓风路径等预测的不确定性
+- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]]**(26:51起):本集说 GenCast 是 Google DeepMind 开发的天气预报模型，使用扩散模型生成预报集合（ensemble），用概率分布表示飓风路径等预测的不确定性
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]] — 作为概念
+- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]] — 作为概念
 
 ## ③ 关联
 

@@ -12,20 +12,20 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]]**(02:49起):本集描述人们因为看到别人试验个人智能体设置就产生错失恐惧，盲目实验导致泄露 API 密钥或收到巨额账单；也指对工具不断更新的焦虑感
-- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]]**(15:51起):本集说 FOMO 是给绵羊准备的，很多人追着明显已经跑出来的项目塞钱不是判断力而是 FOMO，导致某些层级过度资本化 10 倍
+- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(15:51起):本集说 FOMO 是给绵羊准备的，很多人追着明显已经跑出来的项目塞钱不是判断力而是 FOMO，导致某些层级过度资本化 10 倍
 
 ## ① 提到它的金句
 
 *1 条*
 
-![[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an#^q1]]
+![[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an#^q4]]
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
-- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]] — 作为概念(提及)
+- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[harness]] · [[Navin Chaddha]] · [[认知债务]] · [[Lumilens]] · [[认知投降]] · [[Mayfield]] · [[验证]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Anthropic":70,"harness":16,"Navin Chaddha":1,"认知债务":2,"Lumilens":1,"认知投降":2,"Mayfield":1,"验证":3,"OpenAI":63}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":72,"harness":16,"Navin Chaddha":1,"认知债务":2,"Lumilens":1,"认知投降":2,"Mayfield":1,"验证":3,"OpenAI":65}</script>
 
 <script>
 (function(){

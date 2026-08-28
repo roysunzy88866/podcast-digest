@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]]**(00:44起):本集把它说成：Figma 推出的 AI 应用生成工具。用户输入提示词即可快速生成原型，目标是把它转化为令人自豪的成熟产品，且强调要缩短用户感受到价值的时间。
-- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]]**(25:29起):本集说它是 Figma 内的 AI 生成工具，把 PRD 喂给它后能在预加载的 Fresh Service 界面框架里构建新模块的原型，本质上是运行在 Figma Make 中的智能体在构建设计。
+- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(25:29起):本集说它是 Figma 内的 AI 生成工具，把 PRD 喂给它后能在预加载的 Fresh Service 界面框架里构建新模块的原型，本质上是运行在 Figma Make 中的智能体在构建设计。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
-- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为概念
+- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为概念
 
 ## ③ 关联
 
@@ -27,7 +27,7 @@ unlisted: true
 
 [[Figma]] · [[产品构建者]] · [[MCP]] · [[Dylan Field]] · [[Aakash]] · [[Lenny]] · [[Srini Raghavan]] · [[FigJam]] · [[Freshworks]] · [[Dev Mode]]
 
-<script type="application/json" class="pd-epn">{"Figma":10,"产品构建者":2,"MCP":16,"Dylan Field":2,"Aakash":2,"Lenny":65,"Srini Raghavan":1,"FigJam":1,"Freshworks":1,"Dev Mode":1}</script>
+<script type="application/json" class="pd-epn">{"Figma":10,"产品构建者":2,"MCP":17,"Dylan Field":2,"Aakash":2,"Lenny":65,"Srini Raghavan":1,"FigJam":1,"Freshworks":1,"Dev Mode":1}</script>
 
 <script>
 (function(){

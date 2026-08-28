@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":2,"Cognition":7,"Neon":2,"Parallel":4,"智能体":141,"沙箱":28,"突发负载":1,"裸金属":1,"计算机使用":4,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":2,"Cognition":9,"Neon":2,"Parallel":4,"智能体":146,"沙箱":29,"突发负载":1,"裸金属":1,"计算机使用":4,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){

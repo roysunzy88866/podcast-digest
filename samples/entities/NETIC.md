@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《NETIC：让基础服务企业用AI自主运营》]]**(00:07起):本集说 NETIC 构建AI来运营维持世界运转的现实世界业务，存在于公司及其客户之间，负责理解客户需求、匹配企业运营规则并部署服务或劳动力
+- **[[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司》]]**(00:07起):本集说 NETIC 构建AI来运营维持世界运转的现实世界业务，存在于公司及其客户之间，负责理解客户需求、匹配企业运营规则并部署服务或劳动力
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《NETIC：让基础服务企业用AI自主运营》]] — 作为被讨论公司
+- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Melisa Tokmak]] · [[智能体]] · [[基础服务]] · [[私募股权]] · [[自主企业]] · [[AI 整合公司]] · [[主观能动性]] · [[OpenAI]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Melisa Tokmak":1,"智能体":141,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":63,"Anthropic":70}</script>
+<script type="application/json" class="pd-epn">{"Melisa Tokmak":1,"智能体":146,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":65,"Anthropic":72}</script>
 
 <script>
 (function(){

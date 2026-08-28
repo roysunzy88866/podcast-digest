@@ -39,7 +39,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]] — 作为主持
+- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]] — 作为主持
 
 ## ③ 他谈到的
 
@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Simile":1,"智能体":141,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":5,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Simile":1,"智能体":146,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":5,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

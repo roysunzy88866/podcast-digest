@@ -17,7 +17,7 @@ unlisted: true
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(00:19起):本集提到作为 Anthropic 竞争对手时用作对比，指出 Anthropic 历史上在资金和分发渠道上不及 Meta 或 Google。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(01:22起):本集提到嘉宾曾任高管的公司，也作为过去庞大但可能面临工作方式陈旧的典型大厂品牌被提及。
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(42:14起):本集说它的模型在业内被看扁，但靠着在所有产品上铺满入口，其 AI 使用率竟然能紧跟 ChatGPT 和 Gemini。
-- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(16:33起):本集提到 Meta 做了一项研究，显示智能体能自主成功完成任务的时间跨度大约每四个月翻一倍，这条指数曲线已持续近十年
+- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(16:33起):本集提到 Meta 做了一项研究，显示智能体能自主成功完成任务的时间跨度大约每四个月翻一倍，这条指数曲线已持续近十年
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(65:41起):本集把它说成:近期裁掉了许多 PM 的大公司之一，释放出非技术型 PM 正被淘汰的市场信号。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(00:30起):本集把它说成:一种更具攻击性、由创始人绝对控制的产品主导文化,与工程主导、共识驱动的 Google 形成鲜明对比。
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(59:10起):本集提到:由于数据中心大爆发引发电网新建和全美电工严重短缺,Meta 正在推出计划,培训更多人成为电工。
@@ -27,9 +27,9 @@ unlisted: true
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(07:24起):本集把它说成：一家投了 1000 亿美元在数据中心的大型科技公司，每季度利润约三四百亿；同时也在推出成本极低的专有新模型。
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(00:17起):本集说 Meta 经过 Andromeda 更新后「创意就是定向」，算法根据创意素材找人，有匹配率（match rate）概念，需要大量创意素材才能避免平台期
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(03:35起):本集以 Meta 在路易斯安那州的 Hyperion 数据中心为例，说明它既是客户又是担保人，将 3470 亿美元未启动租赁义务推到资产负债表外，手头现金加流动投资仅 910 亿
-- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]]**(06:40起):本集提到从 Meta 等大公司招来的人，框架非常关乎自我保护——附着在运作良好的事物上，并尽可能远离运作不好的事物。
-- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]]**(00:41起):本集说 Campbell Brown 曾在 Meta 负责新闻合作，试图在平台和出版商之间建立商业模式但未成功，原因是社交媒体为互动率优化的本质与高质量新闻互斥
-- **[[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《物理学如何塑造下一代AI架构》]]**(26:33起):本集说 cusp.ai 和 Meta 一起训练了材料基础模型，Meta 还提供了 OMOL 数据集
+- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(06:40起):本集提到从 Meta 等大公司招来的人，框架非常关乎自我保护——附着在运作良好的事物上，并尽可能远离运作不好的事物。
+- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(00:41起):本集说 Campbell Brown 曾在 Meta 负责新闻合作，试图在平台和出版商之间建立商业模式但未成功，原因是社交媒体为互动率优化的本质与高质量新闻互斥
+- **[[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《用物理设计新材料：Max Welling 的 AI for Science 双向之路》]]**(26:33起):本集说 cusp.ai 和 Meta 一起训练了材料基础模型，Meta 还提供了 OMOL 数据集
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(61:38起):本集提到 Mark Zuckerberg 发布 Meta 的宣言称每个人都应有权访问超级智能，Ryan 称该提案相当不严肃（pretty unserious）
 
 ## ① 提到它的金句
@@ -52,7 +52,7 @@ unlisted: true
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为被讨论公司(提及)
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为被讨论公司(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
@@ -63,9 +63,9 @@ unlisted: true
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司
-- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]] — 作为被讨论公司(提及)
-- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]] — 作为被讨论公司(提及)
-- [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《物理学如何塑造下一代AI架构》]] — 作为被讨论公司(提及)
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
+- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为被讨论公司(提及)
+- [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《用物理设计新材料：Max Welling 的 AI for Science 双向之路》]] — 作为被讨论公司(提及)
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
@@ -74,7 +74,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Lenny]] · [[Claude Code]] · [[Codex]] · [[AGI]] · [[Claude]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Anthropic":70,"OpenAI":63,"Google":28,"Lenny":65,"Claude Code":36,"Codex":27,"AGI":16,"Claude":33,"Cursor":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":72,"OpenAI":65,"Google":29,"Lenny":65,"Claude Code":37,"Codex":27,"AGI":16,"Claude":35,"Cursor":37}</script>
 
 <script>
 (function(){

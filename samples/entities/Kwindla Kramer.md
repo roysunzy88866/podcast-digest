@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Pipecat":1,"Daily":1,"智能体":141,"AI 原生软件":1,"推理":1,"多模态":2,"云计算":2,"上下文":11,"AWS":7}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Pipecat":1,"Daily":1,"智能体":146,"AI 原生软件":1,"推理":2,"多模态":2,"云计算":2,"上下文":11,"AWS":8}</script>
 
 <script>
 (function(){

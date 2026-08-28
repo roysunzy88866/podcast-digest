@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]] [[Isabella Kai He]]
+[[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":36,"Claude":33,"GPT":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":37,"Claude":35,"GPT":2}</script>
 
 <script>
 (function(){

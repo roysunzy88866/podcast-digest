@@ -16,7 +16,7 @@ unlisted: true
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(21:57起):本集提到 Cloudflare 作为基础设施供应商之一，和 Datadog、JFrog 一样，赶上历史上最大的基础设施繁荣
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(47:25起):本集说智能体有偏见，找托管方案时会去Cloudflare和Vercel；也提到Cloudflare预测五年后智能体流量是人类流量的1000倍
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(34:01起):本集顺带提到 Cloudflare 说在其网络流量监控中，AI 流量在页面阅读方面大约与人类流量相同
-- **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]]**(02:20起):本集引用其 Project Think 论文和 Durable Objects、agents SDK，说 Cloudflare 栈对智能体很棒但会带来平台锁定，因为 Cloudflare 的生意是让你在它的云上运行
+- **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(02:20起):本集引用其 Project Think 论文和 Durable Objects、agents SDK，说 Cloudflare 栈对智能体很棒但会带来平台锁定，因为 Cloudflare 的生意是让你在它的云上运行
 
 ## ① 提到它的金句
 
@@ -37,7 +37,7 @@ unlisted: true
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
-- [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]] — 作为被讨论公司(提及)
+- [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -45,7 +45,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Copilot]] · [[Notion]] · [[多智能体系统]] · [[ChatGPT]] · [[Claude]] · [[Google]] · [[Revolut]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":70,"智能体":141,"OpenAI":63,"Copilot":5,"Notion":8,"多智能体系统":1,"ChatGPT":36,"Claude":33,"Google":28,"Revolut":4}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":72,"智能体":146,"OpenAI":65,"Copilot":6,"Notion":9,"多智能体系统":1,"ChatGPT":37,"Claude":35,"Google":29,"Revolut":4}</script>
 
 <script>
 (function(){

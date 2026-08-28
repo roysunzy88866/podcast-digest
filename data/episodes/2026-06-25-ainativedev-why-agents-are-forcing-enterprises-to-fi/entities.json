@@ -1,0 +1,1590 @@
+{
+  "episode_id": "2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-06-25",
+  "tags": [
+    "智能体编码",
+    "企业AI落地",
+    "PR工作流重构",
+    "CI/CD改造",
+    "平台团队"
+  ],
+  "categories": [
+    "智能体",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "patrick-dubois",
+      "type": "person",
+      "role": "host",
+      "name": "Patrick Dubois",
+      "file": "Patrick Dubois",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            179.12,
+            192
+          ],
+          "quote": "We have uh uh Tamuz Dubnov, who is the co-founder and CTO of Autonomy AI, and we have Patrick Dubois, who is the DevRel at TESL, the DevOps overlord and godfather of all things pipeline and workflows in DevOps.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "tamuz-dubnov",
+      "type": "person",
+      "role": "cohost",
+      "name": "Tamuz Dubnov",
+      "file": "Tamuz Dubnov",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            179.12,
+            192
+          ],
+          "quote": "We have uh uh Tamuz Dubnov, who is the co-founder and CTO of Autonomy AI, and we have Patrick Dubois, who is the DevRel at TESL, the DevOps overlord and godfather of all things pipeline and workflows in DevOps.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "daniel-jones",
+      "type": "person",
+      "role": "cohost",
+      "name": "Daniel Jones",
+      "file": "Daniel Jones",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            133.84,
+            141.28
+          ],
+          "quote": "I sat down with the godfather of DevOps, Patrick Devoir, Autonomy AIs, Thomas Dubinoff, and Daniel Jones from Resync.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            175.6,
+            179.04
+          ],
+          "quote": "We have Daniel Jones, DJ, uh head of product at Resync.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "cohost",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            62.48,
+            72.08
+          ],
+          "quote": "Join your host, Typer Johnny, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions that we're facing developers today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            116.48,
+            117.84
+          ],
+          "quote": "Hey there, Simon Maple here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 31,
+          "t": [
+            157.2,
+            163.52
+          ],
+          "quote": "Hello, Simon Maple here, and I am at the AI Native DevCon 2026 in London.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3592.48,
+            3595.52
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将智能体视为代替人类执行编码、PR审查、日志回溯等开发任务的主角；Patrick提出用'智能体完成一个任务需要多少轮(turns)'作为新的代理指标来衡量其效率",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            696.8,
+            707.68
+          ],
+          "quote": "Well, now the builders that care about them, they also have the authority to make those decisions, they're the ones doing it, and hey, you can focus on the stuff that you care about and making them uh more agent tech friendly and faster developer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            930.24,
+            953.36
+          ],
+          "quote": "And I think I what I like as an uh as an almost like new um proxy metric that like when you look at like not just the users coding with AI, but if the agents are doing the coding, you look at uh the things that like how many how many uh almost like turns does an agent need to do to do their job effectively?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1073.36,
+            1077.92
+          ],
+          "quote": "And we see the ones that are are better quality, the agent does a better job faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1119.28,
+            1124.96
+          ],
+          "quote": "And as you do work, you you slowly refactor bit by bit, so it's easier for the next agent that comes along in that part of the code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1282.24,
+            1287.28
+          ],
+          "quote": "And when you work with the agent, it already knows the constraints from the code base built in when you interact with it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1320.32,
+            1325.68
+          ],
+          "quote": "The agent delivers something visual, then it's a part of their app that is rendering and running and they can interact with it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1448,
+            1458
+          ],
+          "quote": "Like given that you're working with an agent, um, if you actually give your agent good documentation, lo and behold, it performs better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1485.68,
+            1492.4
+          ],
+          "quote": "But what if you would have an agent review kind of at the end of the sprint?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1538.96,
+            1542.56
+          ],
+          "quote": "Uh you know, it's essentially making an agent take care of all of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1569.6,
+            1574.48
+          ],
+          "quote": "Like don't keep telling the agent what to do, but write something down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1778,
+            1783.44
+          ],
+          "quote": "Uh so for example, here, all of our PRs get labeled by risk automatically by an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1787.68,
+            1793.12
+          ],
+          "quote": "Before we release, we have another agent that goes PRPR, is sorted by the risk level, and goes through our logs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1822.72,
+            1829.12
+          ],
+          "quote": "Like the agent knocks it out, it's like, oh, this edge case pops up once and never because we're a non-deterministic product because of Gen AI and LLMs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1926.48,
+            1940.16
+          ],
+          "quote": "So one key transformation is whatever your observability platform is, you need to make sure it's easily queryable for an agent so it can verify both while it's doing a task and also retroactively an entire like I don't know, dev environment, staging environment, prod environment, you need to make it really easy for the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1966.16,
+            1973.04
+          ],
+          "quote": "Uh that's just a way not to have uh like you want into end, you want unit test, but you want those all those mechanisms for feedback to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1973.28,
+            1975.04
+          ],
+          "quote": "So the agent works in higher confidence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1975.28,
+            1979.68
+          ],
+          "quote": "Uh but you gotta think of as the agent stepping in, and how are they doing more than just writing code?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2049.36,
+            2055.52
+          ],
+          "quote": "All right, instead of hoping that an agent is going to figure out all of this in one pass by sticking all the things in agent's MD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2058.48,
+            2073.92
+          ],
+          "quote": "I've built a little tool called Assembly Line that does this where you you make a change with your agent or the agent makes a change by itself, and then another agent gets spun up with one deterministically defined prompt of check for dead code, check for missing test coverage, check for this, check for that, check for the other.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2076.56,
+            2090.24
+          ],
+          "quote": "So why wouldn't you look at a change through all of those lenses and then try and provide feedback as fast as possible to the agent that was doing the main kind of set of changes so it doesn't deviate too far and uh can fold that back in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2104.64,
+            2111.68
+          ],
+          "quote": "I know of some people that are like using agent skills to figure out how to deploy stuff into prod, and I'm like, just build a platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2145.68,
+            2152
+          ],
+          "quote": "Uh so it's beautiful because what you said is stuff we have in both harnesses, meaning we do not want the agent to go through this route to exactly what we want.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2152.16,
+            2157.2
+          ],
+          "quote": "We want the agent to do a big step this way, and then the one that step makes sense for it statistically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2169.76,
+            2179.92
+          ],
+          "quote": "And it's funny you call it assembly line, we call it nudging, uh, but in that sense, you get a very clear workflow uh and you no longer fight the the agent and how it wants to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2258.4,
+            2273.28
+          ],
+          "quote": "Having feedback, being able to tell, like you know, the point about observability, that the agent can tell whether it's broken something in production, having all those feedback signals is was important before for humans and continues to be important for agents, if not being even more important because of the rate of change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2282.4,
+            2284.64
+          ],
+          "quote": "So the next agent that starts will do a different job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2516.56,
+            2520.16
+          ],
+          "quote": "And you mentioned a lot of things like, yeah, I have an agent for this, for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2711.76,
+            2723.44
+          ],
+          "quote": "Um, but of non-deterministic idempotence of this idea of you have the same spec, same product requirements, you run it through an agent twice, and you get two slightly different things, but you enable the same user behavior.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2762.56,
+            2766.96
+          ],
+          "quote": "Like, for example, like that agent should never get a friend, like whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2928.16,
+            2930.16
+          ],
+          "quote": "An agent will be absolutely fine with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2938.48,
+            2944.48
+          ],
+          "quote": "I need to ask certain things, or I just need my agent to go ahead and interact in in a specific way.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2959.04,
+            2978.8
+          ],
+          "quote": "You we can't just say we're just typing in the words, like you know that uh there was a talk here as well from TL Draw, kind of interesting that like you know, having a your agent giving it a whiteboard, because sometimes you can express things easily in the whiteboard and like typing and and that kind of fluidity is also, I think, in the in the UX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3001.28,
+            3007.92
+          ],
+          "quote": "But the agent might crack along in their own communication and find the best way of kind of dealing internally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3113.52,
+            3127.36
+          ],
+          "quote": "Uh and if you I think the right way is give the developers the task that interests them, you will see they're way more engaged with the agent in the session where they're building it, versus give them the task that the developer's not interested, and then they will offsource all that mentor load to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3132.72,
+            3141.6
+          ],
+          "quote": "Like imagine that something's out, the the disinterested developer will just say agent test it instead of testing themselves and seeing exactly what's wrong and saying, oh, this is the issue, let's fix it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3141.76,
+            3149.28
+          ],
+          "quote": "They will let the agent do seven sessions of QA and the token count for the session goes crazy because the developer is not interested.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3323.68,
+            3339.28
+          ],
+          "quote": "Whether that's functional tests, whether it's a uh a sweep of an agent with a particular lens looking at a concern, whether it is connecting up via MCP or agent to observability so it can figure out the thing that it just uh built and got deployed is uh now breaking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3344.32,
+            3353.68
+          ],
+          "quote": "If you just have an agent on its own and you expect it to get everything right first time without being able to even perceive the mistakes it might make, then you're gonna get bad results.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3399.36,
+            3410.48
+          ],
+          "quote": "Meaning when the test something fails, the test has enough context in whatever the assertion is, uh the comment, the error response, whatever it may be, so that the agent that gets it will know how to act.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3413.52,
+            3420.4
+          ],
+          "quote": "No, like you need to cover it with tests, and you need the test to have the context hints that the future agent that will see them will know what to do with it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体编码 (agentic coding)",
+      "file": "智能体编码",
+      "primary": true,
+      "how_described": "本集核心议题，指由智能体而非人类执行编码工作的方式；DORA报告显示开发成熟度低的团队引入智能体编码反而变慢，成熟度高的才会加速",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            55.6,
+            61.92
+          ],
+          "quote": "The AI Native Dev is a podcast with developers and engineering leads at the cutting edge of AI and agentic coding.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            247.44,
+            254
+          ],
+          "quote": "So we offer various services uh around that, and I do a lot of the training for uh agentic coding training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            381.52,
+            401.12
+          ],
+          "quote": "Platform teams are kind of interesting in that they're there to help developers by presenting a you know a raised level of abstraction, reduced cognitive load, and you can imagine that like making sure that agentic coding goes well and that you know context is managed and available to agents would fit into uh that group of people's uh responsibility.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            811.36,
+            821.2
+          ],
+          "quote": "And the the uh Dora report showed that if you are not very mature in your software development practices, then agentic coding is likely to make you go slower.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            827.04,
+            843.04
+          ],
+          "quote": "So there are all these things inside the development process, but um, even with successful agentic coding uh adoption, I've seen in a couple of customers and people that uh I've spoken to um on the on the podcast, um uh probably shouldn't plug our own podcast there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2659.36,
+            2670.72
+          ],
+          "quote": "I imagine that where we might end up with uh agentic coding is something like outcome-driven development where you've got observability of the business impact you wanted a feature to have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3514,
+            3523.2
+          ],
+          "quote": "Uh I was uh co-presenting with Tomas Mai uh from Adevo, and we were talking about the story of how we upskilled 120 of their developers in agentic coding.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pr",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR",
+      "file": "PR",
+      "primary": true,
+      "how_described": "本集围绕PR工作流展开深度讨论：Daniel认为企业内基于PR的工作流是极其愚蠢的主意应回到基于主干的开发；Tamuz提出PUMP流程让PR开了就尽快合并，一个功能通常要三到四个PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            258.8,
+            278.56
+          ],
+          "quote": "Uh, we built an operating system on top of your codebase uh to enable an easy platform for non-technical or semi-technical individuals to actually meaningfully contribute to the code base and the organizations, something we can do their visual iterations and actually get stuff uh ready, do backlog items, do new items, and put everything inside a brown field code base that ends up in a meaningful PR that can actually be merged.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1130.56,
+            1137.44
+          ],
+          "quote": "You have the agents doing the work in bite-size going back to the PR fatigue in a way that doesn't inflate the PRs because then people won't go over them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1222,
+            1225.36
+          ],
+          "quote": "But you have to come over that ego of the developer viewing the PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1240,
+            1243.28
+          ],
+          "quote": "It's like, hey, I'm I'm okay opening a PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1287.68,
+            1293.36
+          ],
+          "quote": "And yes, when you click send to dev and it goes to the developers as a PR, be proud and don't be scared.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1755.84,
+            1758.96
+          ],
+          "quote": "Somebody opens a PR, I would want to map out is it high risk, is it low risk?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1759.2,
+            1759.92
+          ],
+          "quote": "PR is merged.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1793.2,
+            1797.28
+          ],
+          "quote": "Our logs are queryable for agents, and they actually go and check every single PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1891.36,
+            1893.44
+          ],
+          "quote": "We even couple it to our uh PR fatigue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1953.52,
+            1957.84
+          ],
+          "quote": "Uh even the way you push and open a PR is extremely agentic heavy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2203.28,
+            2206.08
+          ],
+          "quote": "The code is moving so fast you can't have an open PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2206.4,
+            2212.64
+          ],
+          "quote": "Meaning, if it's an open PR and I want to do QA on it, and I want to do like a product review, and I want to do a design review, that is all lovely.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2276.56,
+            2282.24
+          ],
+          "quote": "Uh the the issue there is also that as soon as a PR is merged, the the landscape changed, the code changed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2291.92,
+            2294.24
+          ],
+          "quote": "As soon as the PR is open, we want to get it merged as fast as possible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2339.84,
+            2340.64
+          ],
+          "quote": "There's no one PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2340.8,
+            2355.04
+          ],
+          "quote": "A feature should take three or four PRs, one PR from the developer, one PR from the product manager that changes functionality, one PR from the designer that tunes the UIUEX, and then maybe one last PR from the QA that saw some sort of itch case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2402.16,
+            2414.24
+          ],
+          "quote": "Uh but beyond it, I'm trying to automate the PR commenting and comment resolution process, uh, which means I have uh agents that have modeled every single developer on my team and their comments for the last few hundred PRs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2416.8,
+            2422.48
+          ],
+          "quote": "So as soon as a PR is open, we have a whole prepare PR, which is a bunch of agents to check it in all the ways that we've modeled it, we need to check it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2422.72,
+            2431.68
+          ],
+          "quote": "Once a PR is open, we launch different agents that model different people from our team and comment as if they were those people, and does a surprisingly good job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2440.16,
+            2447.44
+          ],
+          "quote": "And again, if the risk is not high from the PR's nature, I'm moving towards being able to like skip the human reviewer at all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2592.16,
+            2605.76
+          ],
+          "quote": "Before they self-merge their PR, uh they run about seven or eight uh code reviews, different tools looking at different things, and their confidence is uh they've been doing that, that they're now confident enough that they don't need uh humans to look at it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2843.44,
+            2852.16
+          ],
+          "quote": "And they said that their product is just downward spiral because everybody's like a gen tech development is moving so fast, there's so much PR fatigue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3194,
+            3204.64
+          ],
+          "quote": "Uh PRs that the VP we're on calls with like CTO and VP product, and the VP product shows off to us saying, Hey, I opened a PR yesterday, and then the CTO sitting next to him says, Yes, it was crap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 589,
+          "t": [
+            3228.72,
+            3242.8
+          ],
+          "quote": "The PR fatigue is there on the developer side, and PMs that open really poor PRs are increasing the PR fatigue, they're getting more frustrated themselves, and you get Uber scenarios where everybody's just disappointed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3509.04,
+            3513.04
+          ],
+          "quote": "That's how you will know are they opening quality stuff or are they just increasing PR for T.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "Tamuz强调CI流程必须做关键改造：可观测性平台要对智能体可查询，每个PR自动被智能体打风险标签，发布前另一个智能体按风险排序逐个检查日志",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            47.28,
+            54
+          ],
+          "quote": "DevAcient, there is no excuse not to do everything you ever thought you'd want somebody to do, and then automate it so it happens by CI automatical.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            410.16,
+            420.32
+          ],
+          "quote": "Um but I've seen those folks, like the people that get lumbered with like you're doing the CI CD pipelines for people, like those people also uh being kind of made responsible for these things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            793.84,
+            803.68
+          ],
+          "quote": "And I I think that we may probably discover in the next couple of years that we spend uh a lot of our time repeating ourselves of the things we've been saying for the last 10-15 years of is your CI CD any good?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1771.68,
+            1777.84
+          ],
+          "quote": "There's no excuse not to do everything you ever thought you'd want somebody to do, and then automate it so it happens by CI automatically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1907.44,
+            1923.52
+          ],
+          "quote": "When you talk about adding this into like you know, instrumenting this through your CI, is CI still fit for purpose in this in this flow, or are there alternatives or or or changes we need to make to our CI style process to make it better for a genetic workflows?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2055.76,
+            2058.4
+          ],
+          "quote": "Instead, we can have some kind of CI-like process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2297.12,
+            2298.24
+          ],
+          "quote": "We need it to pass our CI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2474.56,
+            2490.64
+          ],
+          "quote": "But it was the harness of test the CR CD that kind of was like the fail system of, and then the narrative was you can have a junior come in, push to your uh you know, kind of your main, and like your harness, your test harness will catch it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "Patrick指出好的可观测性对AI和对人都好；Tamuz具体要求可观测性平台必须对智能体可查询，让智能体能验证自己做的任务并追溯检查日志",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 266,
+          "t": [
+            1463.36,
+            1466.8
+          ],
+          "quote": "Uh so if you have observability, it can expect itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1926.48,
+            1940.16
+          ],
+          "quote": "So one key transformation is whatever your observability platform is, you need to make sure it's easily queryable for an agent so it can verify both while it's doing a task and also retroactively an entire like I don't know, dev environment, staging environment, prod environment, you need to make it really easy for the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2258.4,
+            2273.28
+          ],
+          "quote": "Having feedback, being able to tell, like you know, the point about observability, that the agent can tell whether it's broken something in production, having all those feedback signals is was important before for humans and continues to be important for agents, if not being even more important because of the rate of change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2651.28,
+            2655.28
+          ],
+          "quote": "So you need great observability and you need to be able to fix forward very quickly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2659.36,
+            2670.72
+          ],
+          "quote": "I imagine that where we might end up with uh agentic coding is something like outcome-driven development where you've got observability of the business impact you wanted a feature to have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2787.84,
+            2795.2
+          ],
+          "quote": "If there's bad behavior, no, it's not like it's a different way of looking at observability instead of your logs, but kind of that was uh an interesting way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 599,
+          "t": [
+            3323.68,
+            3339.28
+          ],
+          "quote": "Whether that's functional tests, whether it's a uh a sweep of an agent with a particular lens looking at a concern, whether it is connecting up via MCP or agent to observability so it can figure out the thing that it just uh built and got deployed is uh now breaking.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "Patrick在讨论按风险分级管理时提到，如果有护栏或不太重要的东西，可以在产品中用某种方式缓解，稍后再获取反馈；Tamuz也提到大组织快速采用智能体编码却没有惊人的护栏导致产品螺旋下降",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 350,
+          "t": [
+            1873.52,
+            1883.04
+          ],
+          "quote": "If you have guardrails or something that is not that like important, or you have like some way of mitigating this in the product, by all means, then we'll get the feedback later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2896.16,
+            2904.48
+          ],
+          "quote": "Uh but they have adopted agentic uh coding really quickly without amazing guardrails.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "Daniel指出既然是智能体在做工作、消耗token及成本，公司突然开始关心软件开发生命周期的效率；Tamuz发现不感兴趣的开发者会把验证甩给智能体导致token消耗飙升",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 353,
+          "t": [
+            1893.52,
+            1898
+          ],
+          "quote": "So high risk, get more human resources to go over it, and we even couple it to our token budget.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3108.4,
+            3113.36
+          ],
+          "quote": "People are are releasing crazy budgets and everybody's trying to token max every single developer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3127.6,
+            3132.48
+          ],
+          "quote": "Uh one, you get poor quality PRs, but two, you get way bigger token spent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3141.76,
+            3149.28
+          ],
+          "quote": "They will let the agent do seven sessions of QA and the token count for the session goes crazy because the developer is not interested.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3277.36,
+            3286.16
+          ],
+          "quote": "Um the the counterpoint to the um token maxing is also don't go to the other extreme and set a really low limit.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "Tamuz提到让开发者专注于架构扩展、沙箱环境以及它们如何运行，而把不需要工程师的活卸载给产品团队",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            685.44,
+            696.4
+          ],
+          "quote": "Hey, developers, UK of our like architecture scaling, like uh the sandbox environments and how they live, you can focus on that because all this uh let's say annoying work you used to have to do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "Daniel在讨论反馈循环时提到，可以通过MCP或智能体连接到可观测性，让它弄清楚自己构建并部署的东西是否正在崩溃",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 599,
+          "t": [
+            3323.68,
+            3339.28
+          ],
+          "quote": "Whether that's functional tests, whether it's a uh a sweep of an agent with a particular lens looking at a concern, whether it is connecting up via MCP or agent to observability so it can figure out the thing that it just uh built and got deployed is uh now breaking.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试 (test)",
+      "file": "测试",
+      "primary": true,
+      "how_described": "Tamuz提出测试不只是验证，还要给未来智能体提供上下文提示——失败时的断言信息和错误响应要写得足够丰富；Daniel吐槽懒开发者只写'assert true failed'让人和智能体都不知道怎么办",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            1009.92,
+            1012.72
+          ],
+          "quote": "And unlike with human teams, we're gonna be able to A-B test.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1966.16,
+            1973.04
+          ],
+          "quote": "Uh that's just a way not to have uh like you want into end, you want unit test, but you want those all those mechanisms for feedback to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2058.48,
+            2073.92
+          ],
+          "quote": "I've built a little tool called Assembly Line that does this where you you make a change with your agent or the agent makes a change by itself, and then another agent gets spun up with one deterministically defined prompt of check for dead code, check for missing test coverage, check for this, check for that, check for the other.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2474.56,
+            2490.64
+          ],
+          "quote": "But it was the harness of test the CR CD that kind of was like the fail system of, and then the narrative was you can have a junior come in, push to your uh you know, kind of your main, and like your harness, your test harness will catch it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2641.12,
+            2648.56
+          ],
+          "quote": "With the cloud native transformation, we found out that you know you can't have a thousand microservices and then integration test them all.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2751.44,
+            2753.68
+          ],
+          "quote": "Writing that kind of in a consistent test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2780.4,
+            2787.76
+          ],
+          "quote": "And that was a novel way of thinking of instead of the rigid test flow, almost like you track whatever behavior is going.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3132.72,
+            3141.6
+          ],
+          "quote": "Like imagine that something's out, the the disinterested developer will just say agent test it instead of testing themselves and seeing exactly what's wrong and saying, oh, this is the issue, let's fix it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3308.08,
+            3316.8
+          ],
+          "quote": "And then maybe rethinking what a test is, but you know, to invoke Beyonce, if you liked it, then you should have put a test on it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3353.92,
+            3367.44
+          ],
+          "quote": "So um making sure that you think about what you value in your code, um, that it's architecturally uh you know uh sound and um the code quality is high and the test coverage is good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3386.56,
+            3399.04
+          ],
+          "quote": "Uh I think something that's really important is also the temporal mindset and the context hinting mindset, which means every test needs to stand the test of time, needs to be evergreen, but you also need to think of it as an opportunity for a context hint.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3399.36,
+            3410.48
+          ],
+          "quote": "Meaning when the test something fails, the test has enough context in whatever the assertion is, uh the comment, the error response, whatever it may be, so that the agent that gets it will know how to act.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3413.52,
+            3420.4
+          ],
+          "quote": "No, like you need to cover it with tests, and you need the test to have the context hints that the future agent that will see them will know what to do with it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "autonomy-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Autonomy AI",
+      "file": "Autonomy AI",
+      "primary": true,
+      "how_described": "Tamuz联合创立的公司，在代码库之上构建操作系统，让非技术或半技术人员能做可视化迭代并生成可合并的PR，智能体能跟踪2700个组件并做智能排序",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            179.12,
+            192
+          ],
+          "quote": "We have uh uh Tamuz Dubnov, who is the co-founder and CTO of Autonomy AI, and we have Patrick Dubois, who is the DevRel at TESL, the DevOps overlord and godfather of all things pipeline and workflows in DevOps.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            255.6,
+            258.56
+          ],
+          "quote": "Uh so Thomas, co-founder and uh CTO at Autonomy AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "resync",
+      "type": "company",
+      "role": "company",
+      "name": "Resync",
+      "file": "Resync",
+      "primary": true,
+      "how_described": "Daniel所在的公司，一家AI原生转型咨询公司，联合创始人写了O'Reilly的《云原生转型》一书，提供智能体编码培训等服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            133.84,
+            141.28
+          ],
+          "quote": "I sat down with the godfather of DevOps, Patrick Devoir, Autonomy AIs, Thomas Dubinoff, and Daniel Jones from Resync.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            175.6,
+            179.04
+          ],
+          "quote": "We have Daniel Jones, DJ, uh head of product at Resync.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 50,
+          "t": [
+            214.32,
+            221.2
+          ],
+          "quote": "And we'll let's go left to right and we'll um tell us a little bit about more about yourself, uh your role, and and maybe a little bit about Resync.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            221.84,
+            225.68
+          ],
+          "quote": "So um I am head of products at Resync, which means productizing our services.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "dora-report",
+      "type": "concept",
+      "role": "concept",
+      "name": "DORA报告 (DORA report)",
+      "file": "DORA报告",
+      "primary": true,
+      "how_described": "Daniel引用其结论：软件开发实践不成熟的团队引入智能体编码会变慢，成熟度高的才会加速，但没人知道那个转折点在哪",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            811.36,
+            821.2
+          ],
+          "quote": "And the the uh Dora report showed that if you are not very mature in your software development practices, then agentic coding is likely to make you go slower.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "assembly-line",
+      "type": "concept",
+      "role": "concept",
+      "name": "Assembly Line",
+      "file": "Assembly Line",
+      "primary": false,
+      "how_described": "Daniel构建的一个小工具，主智能体做完变更后启动多个专用智能体分别检查死代码、测试覆盖率、安全性等，每个智能体只有一个确定性定义的提示词",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 293,
+          "t": [
+            1610.8,
+            1617.52
+          ],
+          "quote": "So and the engineering becomes creating the the software factory or the assembly line or whatever you want to call it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2058.48,
+            2073.92
+          ],
+          "quote": "I've built a little tool called Assembly Line that does this where you you make a change with your agent or the agent makes a change by itself, and then another agent gets spun up with one deterministically defined prompt of check for dead code, check for missing test coverage, check for this, check for that, check for the other.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2169.76,
+            2179.92
+          ],
+          "quote": "And it's funny you call it assembly line, we call it nudging, uh, but in that sense, you get a very clear workflow uh and you no longer fight the the agent and how it wants to work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pump",
+      "type": "concept",
+      "role": "concept",
+      "name": "PUMP",
+      "file": "PUMP",
+      "primary": true,
+      "how_described": "Tamuz提出的内部框架，即Plan计划、Merge合并、Polish打磨——PR一开就尽快合并，不需要通过QA和产品审查，合并后再由产品和设计师在代码库里直接打磨",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 406,
+          "t": [
+            2198.16,
+            2203.04
+          ],
+          "quote": "Uh so we developed kind of pump, is what I call it, um, which is plan merge polish.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2288.4,
+            2291.52
+          ],
+          "quote": "Uh so for us we we called it like the the M in the pump, the merge.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bmad",
+      "type": "concept",
+      "role": "concept",
+      "name": "BMAD",
+      "file": "BMAD",
+      "primary": false,
+      "how_described": "Daniel提到Adevo的一个客户团队中，部分开发者在自合并PR前使用BMAD进行需求规格化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 476,
+          "t": [
+            2581.92,
+            2591.6
+          ],
+          "quote": "They've uh given up on human code review, um, but each individual developer, they take an epic and then they some of them use BMAD, some of them use SpecKit, some of them vibe.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "speckit",
+      "type": "concept",
+      "role": "concept",
+      "name": "SpecKit",
+      "file": "SpecKit",
+      "primary": false,
+      "how_described": "Daniel提到Adevo的一个客户团队中，部分开发者在自合并PR前使用SpecKit进行需求规格化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 476,
+          "t": [
+            2581.92,
+            2591.6
+          ],
+          "quote": "They've uh given up on human code review, um, but each individual developer, they take an epic and then they some of them use BMAD, some of them use SpecKit, some of them vibe.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "adevo",
+      "type": "company",
+      "role": "company",
+      "name": "Adevo",
+      "file": "Adevo",
+      "primary": false,
+      "how_described": "Daniel提到的一个客户，其团队已完全智能体化，放弃人工代码审查，现在开发速度快了72倍，用三分之一的人在11个月内完成八年工作量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 473,
+          "t": [
+            2552.8,
+            2572.72
+          ],
+          "quote": "So uh one of our customers at Adevo, uh they're doing some really great work where they've got a team that has gone full agentic, they've changed their development process as uh uh uh to um embrace AI in many different ways, requirements, gathering, transcription, story writing, implementation, all of those kind of things, and they are now going 72 times faster.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3514,
+            3523.2
+          ],
+          "quote": "Uh I was uh co-presenting with Tomas Mai uh from Adevo, and we were talking about the story of how we upskilled 120 of their developers in agentic coding.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "platform-team",
+      "type": "concept",
+      "role": "concept",
+      "name": "平台团队 (platform team)",
+      "file": "平台团队",
+      "primary": true,
+      "how_described": "Daniel认为管理智能体上下文自然契合平台团队的职责；但Patrick指出平台团队的人往往只盯着基础设施、不是AI编码老手，却握着模型和预算，形成能力真空",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            362.96,
+            371.04
+          ],
+          "quote": "Um, I'm working with one customer who happens to have a developer experience team, which is kind of overlaps with the platform team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 95,
+          "t": [
+            464.08,
+            471.12
+          ],
+          "quote": "So I think the challenge, what you were saying, like, yeah, it might end up in the developer experience platform team as a role.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            499.84,
+            509.68
+          ],
+          "quote": "What you might see is that you're gonna have the cloud platform team, the AI platform team, the data platform team, and they're all kind of platform supporting this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1689.52,
+            1707.36
+          ],
+          "quote": "And so my advice then to the platform team would be saying, like, okay, your number one focus is telling people that like they're not so special in what they're building for code, uh, but it's their mindset that is the difference in kind of how they approach the problems and what they bring into that mix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3471.04,
+            3478.16
+          ],
+          "quote": "Um I'm talking about the different layers from up to a dev to a team to uh a V a platform team and a VP.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pr-fatigue",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR疲劳 (PR fatigue)",
+      "file": "PR疲劳",
+      "primary": false,
+      "how_described": "Tamuz提到智能体开发太快导致PR疲劳，他们把高风险PR分配更多人力审查，并关联到token预算来控制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            1130.56,
+            1137.44
+          ],
+          "quote": "You have the agents doing the work in bite-size going back to the PR fatigue in a way that doesn't inflate the PRs because then people won't go over them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1891.36,
+            1893.44
+          ],
+          "quote": "We even couple it to our uh PR fatigue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2843.44,
+            2852.16
+          ],
+          "quote": "And they said that their product is just downward spiral because everybody's like a gen tech development is moving so fast, there's so much PR fatigue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 589,
+          "t": [
+            3228.72,
+            3242.8
+          ],
+          "quote": "The PR fatigue is there on the developer side, and PMs that open really poor PRs are increasing the PR fatigue, they're getting more frustrated themselves, and you get Uber scenarios where everybody's just disappointed.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "feature flag",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

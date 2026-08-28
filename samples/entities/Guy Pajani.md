@@ -13,9 +13,9 @@ unlisted: true
 
 *3 集*
 
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为主持
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《Patrick Debois：AI 编码的组织转型与规模化》]] — 作为主持
-- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla Dark Factory：95%代码无人看过就合并》]] — 作为联合主持
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为主持
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]] — 作为主持
+- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]] — 作为联合主持
 
 ## ③ 他谈到的
 
@@ -23,7 +23,7 @@ unlisted: true
 
 [[Simon Maple]] · [[智能体]] · [[沙箱]] · [[暗工厂]] · [[护栏]] · [[TESL]] · [[harness]] · [[可观测性]] · [[Lamus Mukta]] · [[Patrick Debois]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":5,"智能体":141,"沙箱":28,"暗工厂":2,"护栏":28,"TESL":3,"harness":16,"可观测性":12,"Lamus Mukta":1,"Patrick Debois":1}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":6,"智能体":146,"沙箱":29,"暗工厂":2,"护栏":30,"TESL":3,"harness":16,"可观测性":13,"Lamus Mukta":1,"Patrick Debois":1}</script>
 
 <script>
 (function(){

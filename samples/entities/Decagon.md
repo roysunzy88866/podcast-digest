@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(00:57起):本集核心受访公司，做帮大企业（如全球最大银行、航司）搭建客服 AI 智能体的应用层公司，主张把 90% 工作流转向微调的开源模型。
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(25:12起):本集把它说成是 AI 客服公司中，处理 POC 试用纪律的正面典范：明确签下要达到的基准，并在规定时间内兑现。
-- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(08:31起):本集提到 Decagon 的创始人 Jesse Tsang 发文说对很多公司来说开源实际上是唯一选项，因为可以本地化、训练、微调
+- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(08:31起):本集提到 Decagon 的创始人 Jesse Tsang 发文说对很多公司来说开源实际上是唯一选项，因为可以本地化、训练、微调
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为被讨论公司(提及)
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司(提及)
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[微调]] · [[OpenAI]] · [[Anthropic]] · [[Sarah Wang]] · [[Elena Berger]] · [[Anish Acharya]] · [[Kimberley Tan]] · [[Joe Schmidt]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Cursor":35,"微调":5,"OpenAI":63,"Anthropic":70,"Sarah Wang":1,"Elena Berger":3,"Anish Acharya":1,"Kimberley Tan":1,"Joe Schmidt":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Cursor":37,"微调":5,"OpenAI":65,"Anthropic":72,"Sarah Wang":2,"Elena Berger":3,"Anish Acharya":1,"Kimberley Tan":1,"Joe Schmidt":1}</script>
 
 <script>
 (function(){

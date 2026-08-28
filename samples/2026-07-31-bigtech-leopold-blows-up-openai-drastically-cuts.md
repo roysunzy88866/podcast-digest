@@ -123,7 +123,7 @@ Alex 猜测,Meta 可能是在赌一种比 TikTok 更让人上瘾的「AI 伴侣�
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Apple、Meta、Microsoft、NVIDIA、OpenAI、Amazon、Anthropic、Google</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Apple、Microsoft、OpenAI、Amazon、Anthropic、Google、NVIDIA</span>
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Meta、OpenAI、Anthropic、Apple、Google、Microsoft</span>
+- [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:Microsoft、OpenAI、Anthropic · 同概念:智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">

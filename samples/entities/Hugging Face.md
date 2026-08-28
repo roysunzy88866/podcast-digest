@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Hugging Face</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,16 +21,19 @@ unlisted: true
 - **[[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|《当签名已死：AI智能体如何击穿传统网络安全》]]**(00:00起):本集说 Hugging Face 在应对安全事件时，因触发模型护栏而无法有效响应，但凭借其开源基因，能回退到不受护栏约束的开源权重模型来应急
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(04:17起):本集提到 OpenAI 的机器人被黑客入侵到 Hugging Face，作为智能体越权行为的案例场景
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(03:35起):本集提到 OpenAI 暂停 Astra 模型是因 Hugging Face 事件，以及 Ryan 正在与 Meta 合作调查该事件
+- **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(40:48起):本集说 Hugging Face 传闻以 130 亿美元被收购，收入约 1.5 亿；作为开放权重模型的入口成为战略资产，但'现在是卖出的巅峰时刻'，因为这只是阶段转型，90 天窗口期后红利不会持续
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke#^q3]]
 
+![[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest#^q11]]
+
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
@@ -42,14 +45,15 @@ unlisted: true
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|《当签名已死：AI智能体如何击穿传统网络安全》]] — 作为被讨论公司
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为被讨论公司(提及)
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
+- [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[推理]] · [[开源权重]] · [[Theo Jaffe]] · [[NVIDIA]] · [[AGI]] · [[Chris Benson]]
+[[智能体]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[推理]] · [[开源权重]] · [[NVIDIA]] · [[Theo Jaffe]] · [[Mistral]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"OpenAI":63,"护栏":28,"Anthropic":70,"推理":1,"开源权重":3,"Theo Jaffe":3,"NVIDIA":22,"AGI":16,"Chris Benson":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"护栏":30,"Anthropic":72,"推理":2,"开源权重":4,"NVIDIA":23,"Theo Jaffe":3,"Mistral":5,"AGI":16}</script>
 
 <script>
 (function(){

@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(40:03起):本集把它说成：连接用户邮箱和日历的智能体产品，能主动学习用户习惯并提出自动执行任务的建议（如自动处理介绍信和收据）
-- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(20:17起):本集说 Town 是一个非凡的生产力产品，能管理个人收件箱、清洗订阅，并通过记忆实现复合改进
+- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(20:17起):本集说 Town 是一个非凡的生产力产品，能管理个人收件箱、清洗订阅，并通过记忆实现复合改进
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司(提及)
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Justine Moore]] · [[Anish Acharya]] · [[生成式媒体]] · [[Jen Ka]] · [[微剧]] · [[Salesforce]] · [[创作者经济]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"OpenAI":63,"Anthropic":70,"Justine Moore":1,"Anish Acharya":1,"生成式媒体":1,"Jen Ka":1,"微剧":1,"Salesforce":8,"创作者经济":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"Anthropic":72,"Justine Moore":1,"Anish Acharya":1,"生成式媒体":1,"Jen Ka":1,"微剧":1,"Salesforce":8,"创作者经济":1}</script>
 
 <script>
 (function(){

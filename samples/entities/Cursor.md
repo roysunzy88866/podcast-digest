@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>35</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>37</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -34,18 +34,20 @@ unlisted: true
 - **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(01:41起):本集嘉宾 Adam Ward 现任该公司的负责人才高管,节目中详细分享了 Cursor 如何用「把每次招聘当高管招」的方式组建极高人才密度的团队。
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(14:31起):本集把它说成:一款 AI 代码编辑器,在他们的代码库实测对比中表现出又快又好且更便宜的特点。
 - **[[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]]**(02:35起):本集提到的一种 AI 编程工具，嘉宾所在公司最初小心翼翼地试水，发了 50 个许可证看大家用不用，结果一下子在全公司铺开了。
-- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]]**(06:48起):本集提到 Cursor 是日常软件开发工具之一，在 Cursor 里让模型对照 API 文档构建界面时模型会做一半就停下来
+- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(06:48起):本集提到 Cursor 是日常软件开发工具之一，在 Cursor 里让模型对照 API 文档构建界面时模型会做一半就停下来
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(32:01起):本集顺带提及，作为 A16Z 投资的组合公司中，PLG（产品驱动增长）模式的代表案例。
-- **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]]**(03:42起):本集说 Cursor 是 Stripe 遇到的第一个经历免费试用滥用的用户，约六分之一的免费试用用户是恶意的，因为 AI 让软件有了成本结构。
+- **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(03:42起):本集说 Cursor 是 Stripe 遇到的第一个经历免费试用滥用的用户，约六分之一的免费试用用户是恶意的，因为 AI 让软件有了成本结构。
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(00:10起):本集说它被 SpaceX 以 600 亿美元收购，是 GrokBot 和 Origin 的母公司，一直被认为是最好的 MCP 客户端，正在构建智能体原生的代码工具生态
 - **[[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|《Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习》]]**(39:38起):本集说 Cursor 的权重确实在更新，做法是收集大量用户数据做批量更新，但如果你想教模型某件具体的事还得跟其他用户抢，不是真正的个性化持续学习
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(01:50起):本集说 Cursor 是领先的软件开发工具，其独立估值就达 600 亿美元量级；关键区分点是始终认为这是一个产品问题而非模型架构问题，创始团队自己就是开发者，给自己造工具并在自己身上测试
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(12:27起):本集提到 Cursor 与 Base10 的合同、四年扩展到 600 亿销售额、从 IDE 领域转型说服 Elon 后拿到 600 亿
 - **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(02:42起):本集说 Ryan 一开始在 Cursor 这类本地 IDE 里跟智能体手把手协作，后来转向云端
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(02:42起):本集提到 Ryan 一年前在 Cursor 里做工程，当时非常手把手地指导智能体，后来转向了云端
-- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]]**(06:31起):本集说它是一个集成开发环境（IDE），被选作 AI PDLC 的核心运行环境，因为它是无代码 IDE、可以按任务挑选不同模型、且能通过 MCP 插件读取 Figma 原型并生成代码。
+- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(06:31起):本集说它是一个集成开发环境（IDE），被选作 AI PDLC 的核心运行环境，因为它是无代码 IDE、可以按任务挑选不同模型、且能通过 MCP 插件读取 Figma 原型并生成代码。
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(68:28起):本集称其为Sequoia之外最好的智能体公司，处于最重要市场之一，并且是第一家真正理解可以后训练模型深入堆栈底层的公司
-- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(13:39起):本集说 Cursor 在编码领域做模型聚合，用前沿模型做规划、用小模型做执行
+- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(13:39起):本集说 Cursor 在编码领域做模型聚合，用前沿模型做规划、用小模型做执行
+- **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(01:03起):本集说 Cursor 是一个 AI 编程编辑器，最初 fork 了 VS Code 做独立产品而非插件；在两年内从 IDE 演进到智能体平台再到模型平台，自我颠覆速度极快
+- **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(02:13起):本集提到 Cursor 作为从负毛利率走出来、达到 600 亿估值的经典案例，'孩子们会搞定的，那些负毛利率'，是毛利率改善的成功样本
 
 ## ① 提到它的金句
 
@@ -63,7 +65,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*35 集*
+*37 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -88,26 +90,28 @@ unlisted: true
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为被讨论公司
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]] — 作为被讨论公司(提及)
-- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]] — 作为被讨论公司(提及)
+- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为被讨论公司(提及)
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为被讨论公司(提及)
-- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]] — 作为被讨论公司(提及)
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为被讨论公司(提及)
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司
 - [[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|《Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习》]] — 作为被讨论公司(提及)
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
 - [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为被讨论公司(提及)
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司(提及)
-- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为被讨论公司
+- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为被讨论公司
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司(提及)
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
+- [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
+- [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[OpenAI]] · [[Codex]] · [[vibe coding]] · [[Anthropic]] · [[Claude Code]] · [[Lovable]] · [[ChatGPT]] · [[护栏]]
+[[智能体]] · [[Lenny]] · [[OpenAI]] · [[Anthropic]] · [[Codex]] · [[Claude Code]] · [[vibe coding]] · [[Lovable]] · [[护栏]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Lenny":65,"OpenAI":63,"Codex":27,"vibe coding":23,"Anthropic":70,"Claude Code":36,"Lovable":9,"ChatGPT":36,"护栏":28}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"OpenAI":65,"Anthropic":72,"Codex":27,"Claude Code":37,"vibe coding":23,"Lovable":10,"护栏":30,"ChatGPT":37}</script>
 
 <script>
 (function(){

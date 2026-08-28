@@ -13,7 +13,7 @@ unlisted: true
 
 *2 集*
 
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]] — 作为联合主持
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为联合主持
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为联合主持
 
 ## ③ 他谈到的
@@ -22,7 +22,7 @@ unlisted: true
 
 [[Andrew]] · [[Parag]] · [[Parallel]] · [[智能体]] · [[搜索智能体]] · [[索引]] · [[爬取]] · [[推理]] · [[后台智能体]] · [[多智能体系统]]
 
-<script type="application/json" class="pd-epn">{"Andrew":3,"Parag":2,"Parallel":4,"智能体":141,"搜索智能体":2,"索引":2,"爬取":2,"推理":1,"后台智能体":5,"多智能体系统":1}</script>
+<script type="application/json" class="pd-epn">{"Andrew":3,"Parag":2,"Parallel":4,"智能体":146,"搜索智能体":2,"索引":2,"爬取":2,"推理":2,"后台智能体":5,"多智能体系统":1}</script>
 
 <script>
 (function(){

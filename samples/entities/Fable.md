@@ -15,8 +15,8 @@ unlisted: true
 - **[[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]]**(03:16起):本集说昨天和 Fable 5 花了 15 分钟就开始对它大吼大叫，能感觉到它和其他模型不一样；还问 Fable 怎么逆转过程让智能体当 CEO
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(00:28起):本集说它是 Anthropic 的模型,作为 Soul 的主要对比对象。它被描述为「理论上极其聪明」但沟通极其技术化、晦涩、迂腐,像「没见过人类的工程师」,且常陷入僵化的架构死胡同。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:Anthropic 的新前沿模型,一次性输出高质量代码,聪明到让 Anthropic 因此删掉了 Claude Code 80% 的系统提示词
-- **[[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla Dark Factory：95%代码无人看过就合并》]]**(34:58起):本集说用 Fable 花约一天时间构建了队列行为的形式化验证模型
-- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]]**(01:00起):本集仅作为昂贵模型的例子一笔带过——'Fable 刚发布，你打个招呼就要九美元'
+- **[[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]]**(34:58起):本集说用 Fable 花约一天时间构建了队列行为的形式化验证模型
+- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(01:00起):本集仅作为昂贵模型的例子一笔带过——'Fable 刚发布，你打个招呼就要九美元'
 
 ## ① 提到它的金句
 
@@ -36,8 +36,8 @@ unlisted: true
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为被讨论公司(提及)
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
-- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla Dark Factory：95%代码无人看过就合并》]] — 作为被讨论公司(提及)
-- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]] — 作为被讨论公司(提及)
+- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]] — 作为被讨论公司(提及)
+- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Claude]] · [[LLM]] · [[编排器]] · [[提示词]] · [[Claude Code]] · [[Slack]] · [[vibe coding]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Anthropic":70,"Claude":33,"LLM":18,"编排器":2,"提示词":2,"Claude Code":36,"Slack":20,"vibe coding":23,"沙箱":28}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":72,"Claude":35,"LLM":19,"编排器":2,"提示词":2,"Claude Code":37,"Slack":21,"vibe coding":23,"沙箱":29}</script>
 
 <script>
 (function(){

@@ -7,37 +7,45 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(19:20起):本集说它最初是游戏玩家用的显卡,后来被发现极其擅长做相关的数学运算,在 2012 年配合大数据与神经网络算法取得了突破,是现代 AI 黄金配方的三要素之一。
 - **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(28:16起):本集把它说成：为并行模拟（如图形、大脑思考）而设计的处理器；它具有指令集且可编程，最终成为了今天 AI 计算的基石。
-- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]]**(43:52起):本集说 GPU 和 AI 加速器已经存在但连接它们是巨大瓶颈，铜线无法超过一米，需要光通信连接；模型公司大部分资金花在 GPU 上
+- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(43:52起):本集说 GPU 和 AI 加速器已经存在但连接它们是巨大瓶颈，铜线无法超过一米，需要光通信连接；模型公司大部分资金花在 GPU 上
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(14:39起):本集把它说成：寿命极大取决于历史用途，用于训练的芯片（相当于 72 小时拉力赛跑出的车）故障率远高于只做推理的芯片（周日去教堂跑出的车），用平均寿命算账会严重失真。
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(14:40起):本集说现在工程很多归结为能否筹集资本来购买 GPU 以做想做的事；也提到用 AI 创建更快的 GPU 内核作为自催化效应的例子
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(28:23起):本集说做大量模型专业化不需要 GPU，太贵了，可以用 ASIC 芯片替代
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(14:58起):本集反复讨论，说它是 AI 专用芯片，比普通 CPU 大得多、耗能多得多，Stargate Abilene 每栋楼 5 万个；买 GPU 成了大公司'踢罐子'让市场觉得还在增长的方式。
+- **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(07:03起):本集说 Poolside'无法筹集 20 亿美元来购买 4 万块 GPU'，NVIDIA 因为'我们制造 GPU'所以能搞到 GPU，GPU 是前沿模型竞争的核心资源
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d#^q9]]
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
-- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]] — 作为概念
+- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为概念
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为概念(提及)
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为概念(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
+- [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[推理]] · [[智能体]] · [[OpenRouter]] · [[人工智能]] · [[SaaS]] · [[token]] · [[Cursor]]
+[[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[推理]] · [[智能体]] · [[OpenRouter]] · [[token]] · [[Cursor]] · [[人工智能]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":22,"Anthropic":70,"OpenAI":63,"推理":1,"智能体":141,"OpenRouter":4,"人工智能":2,"SaaS":9,"token":7,"Cursor":35}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":23,"Anthropic":72,"OpenAI":65,"推理":2,"智能体":146,"OpenRouter":5,"token":10,"Cursor":37,"人工智能":2,"SaaS":10}</script>
 
 <script>
 (function(){

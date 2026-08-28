@@ -1,0 +1,947 @@
+{
+  "episode_id": "2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi",
+  "podcast": "No Priors",
+  "date": "2026-08-27",
+  "tags": [
+    "企业数据基础设施",
+    "智能体安全",
+    "AI 数据护城河",
+    "数据栈变革",
+    "云迁移类比"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "ofir-ehrlich",
+      "type": "person",
+      "role": "host",
+      "name": "Ofir Ehrlich",
+      "file": "Ofir Ehrlich",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "gonen-stein",
+      "type": "person",
+      "role": "guest",
+      "name": "Gonen Stein",
+      "file": "Gonen Stein",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            59.299,
+            64.162
+          ],
+          "quote": "Today on No Priors, we're joined by Ophira Erlich and Gonen Stein, the co-founders of Eon.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "eon",
+      "type": "company",
+      "role": "company",
+      "name": "Eon",
+      "file": "Eon",
+      "primary": true,
+      "how_described": "本集说 Eon 创建了一个运行在云端的新数据基础层，能跨多个云服务商映射和分类客户数据，并在不碰生产环境、不影响安全合规的前提下，把数据摄取出来接上 AI 工作流",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            59.299,
+            64.162
+          ],
+          "quote": "Today on No Priors, we're joined by Ophira Erlich and Gonen Stein, the co-founders of Eon.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 8,
+          "t": [
+            64.402,
+            69.806
+          ],
+          "quote": "Eon is a cloud backup disaster recovery centric service that's designed for the AI era.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 15,
+          "t": [
+            87.47,
+            92.472
+          ],
+          "quote": "So one thing that you guys are doing at Eon is, or actually, why don't you give a quick overview of Eon?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            578.589,
+            583.132
+          ],
+          "quote": "What sort of tooling are you all building at Eon to allow people to make use of their data for AI applications?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1678.605,
+            1685.468
+          ],
+          "quote": "So prior to Eon, you started a company called CloudEndure that was acquired by AWS.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体拥有对环境的合法访问权限和合法权限，可以极快地删掉一张表；非技术人员搭建的智能体可能在调用别的智能体，形成不受组织规则约束的行动者，处理着组织的敏感数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            407.754,
+            415.24
+          ],
+          "quote": "Documents, like I'm just really curious, like what is the reinforcement learning or is it like a customer support agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 94,
+          "t": [
+            494.865,
+            498.266
+          ],
+          "quote": "Anytime you see someone building an agent or building a new application,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            909.519,
+            914.281
+          ],
+          "quote": "And, you know, there may be broader things afoot in terms of why that's happening beyond just the agent capabilities.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1146.612,
+            1152.315
+          ],
+          "quote": "Because first coding agent has started to write most of the code that's running in the world, so that's indirectly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1281.395,
+            1286.918
+          ],
+          "quote": "So maybe their agent that they are building are using other agents and they're not technical to even understand what it means.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1904.88,
+            1923.054
+          ],
+          "quote": "You also see companies buying really fast, especially the new companies, using product-led growth in really, really fast AI infrastructure, which actually helped to build agents, because everyone now wants to be an agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-foundation",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据基础层 (data foundation)",
+      "file": "数据基础层",
+      "primary": true,
+      "how_described": "本集说 Eon 在云端创建了新的数据基础层，提供映射、分类、摄取、保护恢复数据的能力，并允许客户在上面应用 AI 模型和 LLM",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            111.041,
+            131.764
+          ],
+          "quote": "So what we do at a high level is we've created a new data foundation that runs in the cloud, and we provide multiple capabilities that allow customers to first map and classify their data across their environment, across multiple hyperscalers, and identify what they have, where they have it, what's sensitive, not sensitive, and so on and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            132.224,
+            140.087
+          ],
+          "quote": "Then we provide an ability to easily ingest that data from all these different sources, structured, unstructured data into this data foundation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            140.127,
+            149.311
+          ],
+          "quote": "And the data foundation then provides a very cost-effective way of both maintaining the data for protection and recovery, but also makes sense of the data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 180,
+          "t": [
+            885.127,
+            899.995
+          ],
+          "quote": "So we're able to take what customers already have, convert it into this new data foundation format that's stored much more efficiently, and provide the mapping, classification, access control, and connect it into the AI workflows.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "etl",
+      "type": "concept",
+      "role": "concept",
+      "name": "ETL",
+      "file": "ETL",
+      "primary": true,
+      "how_described": "本集说当前企业数据栈围绕人提预定义分析问题而设计，包含仓库、仪表板、ETL 管道和 BI，但这套东西在智能体更动态的行为模式下不够用了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1106.859,
+            1111.242
+          ],
+          "quote": "So we have warehouses, we have dashboards, we have the ETL pipelines, we have BI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1335.457,
+            1345.483
+          ],
+          "quote": "So, you know, there's all the ETL data engineering infrastructure that people have been building and deploying over the last decade.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集说我们不再处于 token 最大化（token maxing）的时代了，要为每一个 token 获取价值，因为它变得越来越贵",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1638.632,
+            1642.655
+          ],
+          "quote": "And we're not in the time of token maxing anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1643.115,
+            1651.52
+          ],
+          "quote": "We're trying to go to actually getting value for every token that we have, because it becomes more and more and more expensive.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集提到后训练和强化学习让针对特定数据集微调模型或开源模型成为可能，业务负责人担心 CEO 薪水等敏感数据被用于后训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            382.199,
+            391.588
+          ],
+          "quote": "Post-training and reinforcement learning and, you know, there's companies like Applied Compute and others are starting to provide these sorts of services where you can fine-tune models or open source models against specific data sets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 163,
+          "t": [
+            785.965,
+            795.193
+          ],
+          "quote": "I don't accidentally have the salary of the CEO inside my data, and it's actually going to be used for training or post-training by you.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "type": "concept",
+      "role": "concept",
+      "name": "PLG",
+      "file": "PLG",
+      "primary": false,
+      "how_described": "本集说以前认为 PLG 在开发工具领域行不通，但现在因为每个人都想搭智能体，PLG 在 AI 基础设施领域变得火热",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            1923.976,
+            1936.439
+          ],
+          "quote": "Now, in the past, I was arguing that for the majority of things, PLG doesn't work, especially for dev tools, because the world is very fragmented, people don't want to move so fast, so forth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1942.42,
+            1962.253
+          ],
+          "quote": "Incredible company that were able to first go through a PLG, we use that way in E.ON, and then through the FDM Ocean, then going to banks and then will replace engineering that you don't want to do with our engineers, making you focus with the things that you do want to do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployment-engineers",
+      "type": "concept",
+      "role": "concept",
+      "name": "前线部署工程师 (Forward Deployment Engineers)",
+      "file": "前线部署工程师",
+      "primary": false,
+      "how_described": "本集说前线部署工程师以前只有 Palantir 在做，现在成了标配——企业知道自己必须用 AI 但不知道怎么做，只能让带着工具的强工程师进来改造组织",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 353,
+          "t": [
+            1838.96,
+            1844.145
+          ],
+          "quote": "One example is what's happening with Forward Deployment Engineers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集说 Google 花 1000 万美元从破产的 Spirit Airlines 买下了数据，没买飞机，买的是数据，用来训练和变现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            70.662,
+            81.547
+          ],
+          "quote": "In this discussion, we talk about data, AI, why Google bought out the data of Spirit Airlines out of bankruptcy, and what it means to really manage and use data infrastructure in the AI era.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            227.405,
+            237.467
+          ],
+          "quote": "You know, just two days ago, you saw Google buy something from the bankrupt Spirit Airlines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            551.271,
+            557.615
+          ],
+          "quote": "Yeah, and Google, obviously, they're in this travel space for a while, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spirit-airlines",
+      "type": "company",
+      "role": "company",
+      "name": "Spirit Airlines",
+      "file": "Spirit Airlines",
+      "primary": false,
+      "how_described": "本集说 Spirit Airlines 破产后，其企业数据集被多家 AI 公司竞标，因为它不仅是航空业务数据，还是一个大型企业完整运作的记录",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            70.662,
+            81.547
+          ],
+          "quote": "In this discussion, we talk about data, AI, why Google bought out the data of Spirit Airlines out of bankruptcy, and what it means to really manage and use data infrastructure in the AI era.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            227.405,
+            237.467
+          ],
+          "quote": "You know, just two days ago, you saw Google buy something from the bankrupt Spirit Airlines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            445.576,
+            453.119
+          ],
+          "quote": "And I think that Spirit Airlines can be used both as an airline company, but also as a large enterprise, as a place where lots of people work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cloudendure",
+      "type": "company",
+      "role": "company",
+      "name": "CloudEndure",
+      "file": "CloudEndure",
+      "primary": false,
+      "how_described": "本集说 CloudEndure 是嘉宾创办的上一家公司，做云迁移，被 AWS 收购，帮助过大规模企业迁移数千到数十万台服务器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            1678.605,
+            1685.468
+          ],
+          "quote": "So prior to Eon, you started a company called CloudEndure that was acquired by AWS.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1711.229,
+            1724.844
+          ],
+          "quote": "And even before we sold our last company, CloudEndure to AWS, we supported similar large-scale enterprise migrations with the other hyperscalers, with Azure and with GCP, where our product was integrated OEMed into the console,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集提到 AWS 收购了 CloudEndure，嘉宾在 AWS 期间经历过从本地到云的大规模迁移",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            947.151,
+            951.795
+          ],
+          "quote": "So during our time at AWS, it was a very large customer that was impacted by ransomware.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1678.605,
+            1685.468
+          ],
+          "quote": "So prior to Eon, you started a company called CloudEndure that was acquired by AWS.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1686.753,
+            1696.843
+          ],
+          "quote": "And at AWS, you really saw that migration from on-prem to the cloud at a huge scale in terms of that big generational shift that had happened before this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1711.229,
+            1724.844
+          ],
+          "quote": "And even before we sold our last company, CloudEndure to AWS, we supported similar large-scale enterprise migrations with the other hyperscalers, with Azure and with GCP, where our product was integrated OEMed into the console,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1734.687,
+            1738.688
+          ],
+          "quote": "And after we sold to AWS, we did that as part of the application migration service.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集说 Databricks 是地球上最令人难以置信的公司之一，帮助企业编目数据并利用它，并且因为越来越多数据由智能体生成而在不断重塑自己",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1545.616,
+            1553.799
+          ],
+          "quote": "You've seen companies like Databricks, one of the most incredible companies on the planet, in my opinion.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "本集说 Harvey 就在几天前刚发布了一个法律数据集，因为市面上能用的、像真实世界的高质量数据集太少了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            430.812,
+            434.833
+          ],
+          "quote": "You see that Harvey just released a legal data set just a few days ago.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fivetran",
+      "type": "company",
+      "role": "company",
+      "name": "Fivetran",
+      "file": "Fivetran",
+      "primary": false,
+      "how_described": "本集提到 Fivetran 是过去数据团队用来完成任务的伟大数据工具公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            617.409,
+            626.555
+          ],
+          "quote": "They were using, I don't know, some great companies, like Fivetran, DBT, Monte Carlo, all the data tools that exist, you know, in order to fulfill their tasks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dbt",
+      "type": "company",
+      "role": "company",
+      "name": "DBT",
+      "file": "DBT",
+      "primary": false,
+      "how_described": "本集提到 DBT 是过去数据团队用来完成任务的伟大数据工具公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            617.409,
+            626.555
+          ],
+          "quote": "They were using, I don't know, some great companies, like Fivetran, DBT, Monte Carlo, all the data tools that exist, you know, in order to fulfill their tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1532.151,
+            1538.293
+          ],
+          "quote": "PyTorch was an incredible company, DBT and so on and so forth, but very niche, very specific tools for that purpose.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "monte-carlo",
+      "type": "company",
+      "role": "company",
+      "name": "Monte Carlo",
+      "file": "Monte Carlo",
+      "primary": false,
+      "how_described": "本集提到 Monte Carlo 是过去数据团队用来完成任务的伟大数据工具公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            617.409,
+            626.555
+          ],
+          "quote": "They were using, I don't know, some great companies, like Fivetran, DBT, Monte Carlo, all the data tools that exist, you know, in order to fulfill their tasks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集说非技术人员正在用 Lovable 这类工具搭建东西，把公司数据放进去，完全不考虑安全和合规",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1261.221,
+            1270.367
+          ],
+          "quote": "Building something with, you know, well, let's say kind of a lovable or any other software that you have for themselves, putting company data there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集说 Cognition 是一家超级热门的公司，能够首先通过 PLG，然后通过前线部署工程师模式进入银行等企业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 366,
+          "t": [
+            1937.04,
+            1941.681
+          ],
+          "quote": "Now, it became super hot-looking companies like Cognition, for example, which is, you know...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说甚至老板都在玩 ChatGPT，所有人都经历了 ChatGPT 时刻从而理解了 AI 能做什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            656.047,
+            659.829
+          ],
+          "quote": "There's this thing called AI and even the boss is playing with ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1795.329,
+            1802.652
+          ],
+          "quote": "Everyone lived from the ChatGPT moment when we all asked what AI could do, and then, oh my God.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说 Claude 有点抽象，基本上只是别人的电脑，很难向普通人解释它是什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 342,
+          "t": [
+            1777.601,
+            1784.324
+          ],
+          "quote": "And one of the reasons is that Claude, in my opinion, Claude is somewhat abstract, because it's very hard to explain what it means.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1784.804,
+            1788.305
+          ],
+          "quote": "Claude is basically just someone else's computer, but who knows what it is?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1788.706,
+            1792.507
+          ],
+          "quote": "It's hard to explain to my grandmother about a Claude.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "azure",
+      "type": "company",
+      "role": "company",
+      "name": "Azure",
+      "file": "Azure",
+      "primary": false,
+      "how_described": "本集提到 CloudEndure 在被 AWS 收购前，也与 Azure 支持过大规模企业迁移",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 334,
+          "t": [
+            1711.229,
+            1724.844
+          ],
+          "quote": "And even before we sold our last company, CloudEndure to AWS, we supported similar large-scale enterprise migrations with the other hyperscalers, with Azure and with GCP, where our product was integrated OEMed into the console,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gcp",
+      "type": "company",
+      "role": "company",
+      "name": "GCP",
+      "file": "GCP",
+      "primary": false,
+      "how_described": "本集提到 CloudEndure 在被 AWS 收购前，也与 GCP 支持过大规模企业迁移",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 334,
+          "t": [
+            1711.229,
+            1724.844
+          ],
+          "quote": "And even before we sold our last company, CloudEndure to AWS, we supported similar large-scale enterprise migrations with the other hyperscalers, with Azure and with GCP, where our product was integrated OEMed into the console,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": false,
+      "how_described": "本集说大部分公开数据集看起来太像合成数据，不能反映真实公司的运作方式，很难用来构建真正工作的应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            436.234,
+            445.316
+          ],
+          "quote": "But you don't find too many good data sets that doesn't look like really synthetic data that can actually be used to really look like the real world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            525.967,
+            546.181
+          ],
+          "quote": "So I think that you're going to see more and more of that, both by creating new synthetic data in new innovative ways, in addition to getting existing data, whether it's the real data, whether it's somehow massively, think about it, it contains sensitive information like PII, financial information, so on and so forth.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ransomware",
+      "type": "concept",
+      "role": "concept",
+      "name": "勒索软件 (ransomware)",
+      "file": "勒索软件",
+      "primary": false,
+      "how_described": "本集说以前企业防的是人为威胁如勒索软件攻击，现在同类威胁来自拥有合法权限的智能体，但发生速度极端得多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            939.023,
+            947.131
+          ],
+          "quote": "So this is not you, where customers would come to us and say, hey, we were exposed by this ransomware attack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            947.151,
+            951.795
+          ],
+          "quote": "So during our time at AWS, it was a very large customer that was impacted by ransomware.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tune)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集提到有公司开始提供针对特定数据集微调模型或开源模型的服务，人们试图为各自用例优化模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            382.199,
+            391.588
+          ],
+          "quote": "Post-training and reinforcement learning and, you know, there's companies like Applied Compute and others are starting to provide these sorts of services where you can fine-tune models or open source models against specific data sets.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "non-human-identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "非人类身份 (non-human identity)",
+      "file": "非人类身份",
+      "primary": false,
+      "how_described": "本集说追踪非人类身份几乎成了不可能的任务，现在有无数家网络安全公司在做非人类身份领域",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            1157.037,
+            1163.801
+          ],
+          "quote": "And trying to keep track of the non-human identity or that it becomes almost an impossible task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1179.01,
+            1184.513
+          ],
+          "quote": "How many cybersecurity companies you see in NHI, in non-human identity right now?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-set",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据集 (data set)",
+      "file": "数据集",
+      "primary": false,
+      "how_described": "本集说很难找到非常好的数据集，AI 实验室去华尔街从对冲基金买数据集，Google 花 1000 万美元竞标 Spirit Airlines 的企业数据集",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            246.729,
+            250.31
+          ],
+          "quote": "I think the rumor too is that the other bidder on the data set was Mercore.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 47,
+          "t": [
+            259.03,
+            263.611
+          ],
+          "quote": "Bidding on a bankrupt airlines enterprise data set, which is fascinating.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 83,
+          "t": [
+            430.812,
+            434.833
+          ],
+          "quote": "You see that Harvey just released a legal data set just a few days ago.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

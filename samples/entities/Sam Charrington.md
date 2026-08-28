@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《物理学如何塑造下一代AI架构》]] — 作为主持
+- [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《用物理设计新材料：Max Welling 的 AI for Science 双向之路》]] — 作为主持
 
 ## ③ 他谈到的
 
@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Max Welling]] [[Steven Sinofsky]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Max Welling":1,"cusp.ai":1,"智能体":141,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
+<script type="application/json" class="pd-epn">{"Max Welling":1,"cusp.ai":1,"智能体":146,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
 
 <script>
 (function(){

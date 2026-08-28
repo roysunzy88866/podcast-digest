@@ -14,7 +14,7 @@ unlisted: true
 *2 集*
 
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为主持
-- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为主持
+- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为主持
 
 ## ③ 他谈到的
 
@@ -22,7 +22,7 @@ unlisted: true
 
 [[Figma]] · [[Oji Udezue]] · [[Srini Raghavan]] · [[Claude Code]] · [[Freshworks]] · [[项目脚手架技能]] · [[Cursor]] · [[可行性闸门]] · [[Databricks]] · [[vibe coder]]
 
-<script type="application/json" class="pd-epn">{"Figma":10,"Oji Udezue":1,"Srini Raghavan":1,"Claude Code":36,"Freshworks":1,"项目脚手架技能":1,"Cursor":35,"可行性闸门":1,"Databricks":6,"vibe coder":1}</script>
+<script type="application/json" class="pd-epn">{"Figma":10,"Oji Udezue":1,"Srini Raghavan":1,"Claude Code":37,"Freshworks":1,"项目脚手架技能":1,"Cursor":37,"可行性闸门":1,"Databricks":7,"vibe coder":1}</script>
 
 <script>
 (function(){

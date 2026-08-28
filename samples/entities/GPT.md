@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]]**(63:21起):本集将 GPT 描述为压缩学习循环的工具，Hilary 构建了模拟她思考方式的 GPT、用 LSAT 形式测试 PM 逻辑推理的 Aristotle、以及评估工程工时的 GPT，让练习次数和速度根本性地不同。
-- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]]**(76:54起):本集提到当用户直接问 Claude 或 GPT '我应该去哪借钱'时，AI 可能只给一个答案，形成赢家通吃局面，冲击传统线索聚合网站的流量模式。
+- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(76:54起):本集提到当用户直接问 Claude 或 GPT '我应该去哪借钱'时，AI 可能只给一个答案，形成赢家通吃局面，冲击传统线索聚合网站的流量模式。
 
 ## ① 提到它的金句
 
@@ -41,7 +41,7 @@ unlisted: true
 *2 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念
-- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]] — 作为被讨论公司(提及)
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -49,7 +49,7 @@ unlisted: true
 
 [[Claude]] · [[Hilary Gridley]] · [[Michael Tannenbaum]] · [[Lenny]] · [[Figure]] · [[Whoop]] · [[SoFi]] · [[行为激活]] · [[Brex]] · [[心智模型]]
 
-<script type="application/json" class="pd-epn">{"Claude":33,"Hilary Gridley":1,"Michael Tannenbaum":1,"Lenny":65,"Figure":2,"Whoop":1,"SoFi":1,"行为激活":1,"Brex":3,"心智模型":1}</script>
+<script type="application/json" class="pd-epn">{"Claude":35,"Hilary Gridley":1,"Michael Tannenbaum":1,"Lenny":65,"Figure":2,"Whoop":1,"SoFi":1,"行为激活":1,"Brex":3,"心智模型":1}</script>
 
 <script>
 (function(){

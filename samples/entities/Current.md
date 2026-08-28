@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《一家百亿对冲基金如何全员强推 AI》]]**(06:45起):本集说 Current 是 Walleye 最先进的内部 AI 产品，用于基本面投资，摄入分析师笔记、经纪人信息、PDF、财报电话会议记录等所有与股票相关的信息，所有 PM 视其为不可或缺的工具，不只是总结而是提供真正的分析
+- **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]]**(06:45起):本集说 Current 是 Walleye 最先进的内部 AI 产品，用于基本面投资，摄入分析师笔记、经纪人信息、PDF、财报电话会议记录等所有与股票相关的信息，所有 PM 视其为不可或缺的工具，不只是总结而是提供真正的分析
 
 ## ① 提到它的金句
 
@@ -25,7 +25,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《一家百亿对冲基金如何全员强推 AI》]] — 作为概念
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为概念
 
 ## ③ 关联
 
@@ -33,7 +33,7 @@ unlisted: true
 
 [[Ben]] · [[Will]] · [[Walleye]] · [[智能体]] · [[ChatGPT]] · [[情感分析]] · [[营运杠杆]] · [[Windsurf]] · [[LLM]] · [[量化投资]]
 
-<script type="application/json" class="pd-epn">{"Ben":1,"Will":1,"Walleye":1,"智能体":141,"ChatGPT":36,"情感分析":1,"营运杠杆":1,"Windsurf":2,"LLM":18,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Ben":1,"Will":1,"Walleye":1,"智能体":146,"ChatGPT":37,"情感分析":1,"营运杠杆":1,"Windsurf":3,"LLM":19,"量化投资":1}</script>
 
 <script>
 (function(){

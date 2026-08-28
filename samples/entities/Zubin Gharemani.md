@@ -17,15 +17,15 @@ unlisted: true
 
 ![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q2]]
 
-![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q4]]
+![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q3]]
 
-![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q5]]
+![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q4]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]] — 作为主持
+- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]] — 作为主持
 
 ## ③ 他谈到的
 

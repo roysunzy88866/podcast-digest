@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《一家百亿对冲基金如何全员强推 AI》]]**(00:56起):本集说 Walleye 是一家管理近 100 亿 AUM 的多策略对冲基金，CEO 自称 owner-operator，拥有穿透式结构（pass-through structure），全公司约 400 人
+- **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]]**(00:56起):本集说 Walleye 是一家管理近 100 亿 AUM 的多策略对冲基金，CEO 自称 owner-operator，拥有穿透式结构（pass-through structure），全公司约 400 人
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《一家百亿对冲基金如何全员强推 AI》]] — 作为被讨论公司
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ben]] · [[Will]] · [[Current]] · [[智能体]] · [[ChatGPT]] · [[情感分析]] · [[营运杠杆]] · [[Windsurf]] · [[LLM]] · [[量化投资]]
 
-<script type="application/json" class="pd-epn">{"Ben":1,"Will":1,"Current":1,"智能体":141,"ChatGPT":36,"情感分析":1,"营运杠杆":1,"Windsurf":2,"LLM":18,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Ben":1,"Will":1,"Current":1,"智能体":146,"ChatGPT":37,"情感分析":1,"营运杠杆":1,"Windsurf":3,"LLM":19,"量化投资":1}</script>
 
 <script>
 (function(){

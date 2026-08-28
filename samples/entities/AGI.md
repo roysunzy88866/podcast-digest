@@ -26,7 +26,7 @@ unlisted: true
 - **[[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]]**(36:51起):本集把它说成:超人类智能,它能用于善也能用于恶,走向取决于掌权者的选择,因此更需要设立护栏和互动规则。
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(37:06起):本集说如果 AGI 指能完成人类所有认知任务的系统，那我们还没到，在物理操作灵巧度、研究品味、持续学习等方面 AI 仍然不如人类
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(28:35起):本集将所有 AI 支出框架化为「一张 AGI 的看涨期权」——如果 AGI 到了钱花得值，如果没到就会有清算，但问题在于所有人都在下同样的杠杆赌注
-- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]]**(08:05起):本集说实现 AGI 的真正数据在企业手里（策略、上下文、业务规则），不在模型提供商手里
+- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(08:05起):本集说实现 AGI 的真正数据在企业手里（策略、上下文、业务规则），不在模型提供商手里
 
 ## ① 提到它的金句
 
@@ -56,7 +56,7 @@ unlisted: true
 
 ![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q6]]
 
-![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q11]]
+![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q17]]
 
 ## ② 出现在这些集
 
@@ -77,7 +77,7 @@ unlisted: true
 - [[2026-08-13-nopriors-building-a-200m-bootstrapped-chess-empir|《棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来》]] — 作为概念
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为概念
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为概念
-- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]] — 作为概念(提及)
+- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -85,7 +85,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[智能体]] · [[Meta]] · [[NVIDIA]] · [[Claude]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":63,"Anthropic":70,"Google":28,"Lenny":65,"ChatGPT":36,"智能体":141,"Meta":21,"NVIDIA":22,"Claude":33,"后训练":12}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":65,"Anthropic":72,"Google":29,"Lenny":65,"ChatGPT":37,"智能体":146,"Meta":21,"NVIDIA":23,"Claude":35,"后训练":13}</script>
 
 <script>
 (function(){

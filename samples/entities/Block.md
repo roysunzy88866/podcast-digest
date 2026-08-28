@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(01:39起):本集讨论的核心公司,在 CTO 带领下从 GM 结构重组为职能型架构,成功转型为 AI 原生的大型科技公司,内部全员使用自研智能体提升生产力。
-- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]]**(00:52起):本集说 Block 是 Square 的控股公司，Jack Dorsey 在组织设计方面是真正的先驱，发布了 Buzz 等新产品
+- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]]**(00:52起):本集说 Block 是 Square 的控股公司，Jack Dorsey 在组织设计方面是真正的先驱，发布了 Buzz 等新产品
 
 ## ① 提到它的金句
 
@@ -25,7 +25,7 @@ unlisted: true
 *2 集*
 
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司
-- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]] — 作为被讨论公司
+- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Square]] · [[Lenny]] · [[Willem Avé]] · [[Dhanji Prasanna]] · [[业务单元模式]] · [[Goose]] · [[职能制]] · [[MCP]] · [[DRI]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Square":3,"Lenny":65,"Willem Avé":1,"Dhanji Prasanna":1,"业务单元模式":1,"Goose":1,"职能制":1,"MCP":16,"DRI":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Square":3,"Lenny":65,"Willem Avé":1,"Dhanji Prasanna":1,"业务单元模式":1,"Goose":1,"职能制":1,"MCP":17,"DRI":2}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>23</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,15 +24,16 @@ unlisted: true
 - **[[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]]**(04:59起):本集提及他们使用并重度改装了 NVIDIA 的 H100 芯片以在太空中运行，并与 NVIDIA 紧密合作设计新的太空芯片。
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(00:37起):本场讨论的主办方,Carter 和 Tanay 是其员工;他们发布了包含数据集和权重的 Nemotron 模型,并研发了能动态切换解码权重的 FlexTron 模型蒸馏技术。
 - **[[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]]**(00:39起):本集顺带提及,说它是 Pipecat 开源框架的使用公司之一
-- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]]**(40:16起):本集说 NVIDIA 股价涨了 1000 倍，是公开市场上 AI 的纯代理标的之一
+- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(40:16起):本集说 NVIDIA 股价涨了 1000 倍，是公开市场上 AI 的纯代理标的之一
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(11:00起):本集提到充满 NVIDIA 芯片的数据中心根本经不起 25 年折旧的推敲，因为 GPU 可能三年就得淘汰，且芯片占数据中心建设成本的 50%。
 - **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(21:41起):本集把它说成:在早期介入并伸出援手的捐赠公司,他们主动询问需求并派人接手了项目大部分的安全研究工作。
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(59:25起):本集在假设与错位 AI 谈判的场景中提到，一个 NVIDIA 机架成本几十万美元，可以给 AI 作为完成其目标的算力资源
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(21:16起):本集提到在 AI 狂热中错过 NVIDIA 的分析师会被投资者视为失败者，用它来说明为什么华尔街不敢唱空数据中心融资
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(34:43起):本集在列举 AI 堆栈各层价值积累时，顺带提到 NVIDIA 表现很好
-- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]]**(29:19起):本集提到 TrustWise 在与 NVIDIA 合作的本地方案 Dell 上进行了部署
-- **[[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《物理学如何塑造下一代AI架构》]]**(24:56起):本集说 cusp.ai 和 NVIDIA 一起开源了 COPS 分子动力学框架
+- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(29:19起):本集提到 TrustWise 在与 NVIDIA 合作的本地方案 Dell 上进行了部署
+- **[[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《用物理设计新材料：Max Welling 的 AI for Science 双向之路》]]**(24:56起):本集说 cusp.ai 和 NVIDIA 一起开源了 COPS 分子动力学框架
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集说它上一财年卖了约 2159 亿美元的 GPU，是循环融资的核心——卖 GPU 给云厂商，云厂商把钱投给 OpenAI/Anthropic，后者再拿钱向云厂商买算力；预测其收入可能跌 50% 到 70%。
+- **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(00:58起):本集说 NVIDIA 拥有巨大自由现金流，战略团队和高管每人报最好点子，预算 750 亿全花出去投资生态系统；其投资分三种逻辑：时间扩展（Poolside）、纯财务投资（McCaw）、供应商融资（OpenAI）
 
 ## ① 提到它的金句
 
@@ -46,7 +47,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*22 集*
+*23 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
@@ -61,23 +62,24 @@ unlisted: true
 - [[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]] — 作为被讨论公司
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为被讨论公司
 - [[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]] — 作为被讨论公司(提及)
-- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]] — 作为被讨论公司(提及)
+- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司(提及)
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为被讨论公司(提及)
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司(提及)
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司(提及)
-- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]] — 作为被讨论公司(提及)
-- [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《物理学如何塑造下一代AI架构》]] — 作为被讨论公司(提及)
+- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为被讨论公司(提及)
+- [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《用物理设计新材料：Max Welling 的 AI for Science 双向之路》]] — 作为被讨论公司(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司
+- [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Google]] · [[Microsoft]] · [[GPU]] · [[护栏]] · [[AGI]] · [[ChatGPT]] · [[沙箱]]
+[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Google]] · [[Microsoft]] · [[GPU]] · [[护栏]] · [[AGI]] · [[推理]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":70,"OpenAI":63,"智能体":141,"Google":28,"Microsoft":13,"GPU":7,"护栏":28,"AGI":16,"ChatGPT":36,"沙箱":28}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":72,"OpenAI":65,"智能体":146,"Google":29,"Microsoft":14,"GPU":8,"护栏":30,"AGI":16,"推理":2,"ChatGPT":37}</script>
 
 <script>
 (function(){

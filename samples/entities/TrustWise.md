@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]]**(00:33起):本集说 TrustWise 是一家构建 AI 控制塔（AI control tower）的公司，产品名为 Harmony AI，定位为智能体的 HR 和财务部门，提供运行时治理和控制层
+- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(00:33起):本集说 TrustWise 是一家构建 AI 控制塔（AI control tower）的公司，产品名为 Harmony AI，定位为智能体的 HR 和财务部门，提供运行时治理和控制层
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]] — 作为被讨论公司
+- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Manoj Saxena]] · [[Harmony AI]] · [[智能体]] · [[运行时控制]] · [[对齐]] · [[语义行动层]] · [[守护者智能体]] · [[盾牌]] · [[信任姿态管理]] · [[多智能体系统]]
 
-<script type="application/json" class="pd-epn">{"Manoj Saxena":1,"Harmony AI":1,"智能体":141,"运行时控制":1,"对齐":5,"语义行动层":1,"守护者智能体":1,"盾牌":1,"信任姿态管理":1,"多智能体系统":1}</script>
+<script type="application/json" class="pd-epn">{"Manoj Saxena":1,"Harmony AI":1,"智能体":146,"运行时控制":1,"对齐":5,"语义行动层":1,"守护者智能体":1,"盾牌":1,"信任姿态管理":1,"多智能体系统":1}</script>
 
 <script>
 (function(){

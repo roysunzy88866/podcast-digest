@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(26:03起):本集把它说成:托管智能体上的研究预览功能，把记忆存储和会话记录喂给另一个智能体审查，找出陈旧、缺失、误导信息并给出修改假设，打开持续学习路径
+- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(26:03起):本集把它说成:托管智能体上的研究预览功能，把记忆存储和会话记录喂给另一个智能体审查，找出陈旧、缺失、误导信息并给出修改假设，打开持续学习路径
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(10:39起):本集把它说成:一种离线或带外过程,回头审视模型之前所有的记忆和运行轨迹,找出并修正带内记忆写下的局部最优或完全错误的记忆偏差。
 - **[[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]]**(25:12起):本集把它说成:一种离线批处理机制,定期把逐字稿与当前记忆状态喂给模型,提炼新洞察并自动更新记忆,让智能体在下次运行时变得更智能(自改进)。
 
@@ -25,7 +25,7 @@ unlisted: true
 
 *3 集*
 
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为概念
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为概念
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为概念
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]] — 作为概念
 
@@ -35,7 +35,7 @@ unlisted: true
 
 [[Anthropic]] · [[沙箱]] · [[harness]] · [[Claude Code]] · [[智能体]] · [[Managed Agents]] · [[可观测性]] · [[Guy Pajani]] · [[Lance Martin]] · [[Gagan Bhat]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":70,"沙箱":28,"harness":16,"Claude Code":36,"智能体":141,"Managed Agents":4,"可观测性":12,"Guy Pajani":3,"Lance Martin":1,"Gagan Bhat":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":72,"沙箱":29,"harness":16,"Claude Code":37,"智能体":146,"Managed Agents":4,"可观测性":13,"Guy Pajani":3,"Lance Martin":1,"Gagan Bhat":1}</script>
 
 <script>
 (function(){

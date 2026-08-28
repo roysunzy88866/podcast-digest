@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]]**(05:04起):本集说 Mayfield 是一家有 56 年历史的早期风投公司，70% 的投资在 inception 阶段（纸笔想法），过去五年管理 30 亿美元，专注于 AI 栈上下层投资
+- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(05:04起):本集说 Mayfield 是一家有 56 年历史的早期风投公司，70% 的投资在 inception 阶段（纸笔想法），过去五年管理 30 亿美元，专注于 AI 栈上下层投资
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]] — 作为被讨论公司
+- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Navin Chaddha]] · [[Lumilens]] · [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Claude]] · [[智能体]] · [[推理]] · [[GPU]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"Navin Chaddha":1,"Lumilens":1,"Anthropic":70,"OpenAI":63,"NVIDIA":22,"Claude":33,"智能体":141,"推理":1,"GPU":7,"SaaS":9}</script>
+<script type="application/json" class="pd-epn">{"Navin Chaddha":1,"Lumilens":1,"Anthropic":72,"OpenAI":65,"NVIDIA":23,"Claude":35,"智能体":146,"推理":2,"GPU":8,"SaaS":10}</script>
 
 <script>
 (function(){

@@ -157,8 +157,8 @@ Patrick 把行业实践分成五个类别，索引是手工建的(因为社交�
 **换个口味**
 
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:harness、上下文 (context)、可观测性 (observability)、智能体 (agent)</span>
+- [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:可观测性 (observability)、智能体 (agent)、护栏 (guardrails)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:harness、智能体 (agent)、可观测性 (observability)</span>
-- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评估 (evals)</span>
 
 </div>
 </div>

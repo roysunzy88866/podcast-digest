@@ -7,13 +7,15 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Daniel Whitenack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Daniel Whitenack">DA</div><div class="pi"><h1 class="pt">Daniel Whitenack</h1><div class="byl">Practical AI 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Daniel Whitenack">DA</div><div class="pi"><h1 class="pt">Daniel Whitenack</h1><div class="byl">Practical AI 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*3 条*
+*4 条*
 
-![[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag#^q1]]
+![[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag#^q6]]
+
+![[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag#^q7]]
 
 ![[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke#^q2]]
 
@@ -23,7 +25,7 @@ unlisted: true
 
 *2 集*
 
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为联合主持
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为联合主持
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为联合主持
 
 ## ③ 他谈到的
@@ -32,7 +34,7 @@ unlisted: true
 
 [[Chris Benson]] · [[智能体]] · [[OpenAI]] · [[IBM]] · [[Hugging Face]] · [[企业软件]] · [[沙箱]] · [[微调]] · [[护栏]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":3,"智能体":141,"OpenAI":63,"IBM":2,"Hugging Face":10,"企业软件":1,"沙箱":28,"微调":5,"护栏":28,"MCP":16}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":3,"智能体":146,"OpenAI":65,"IBM":2,"Hugging Face":11,"企业软件":1,"沙箱":29,"微调":5,"护栏":30,"MCP":17}</script>
 
 <script>
 (function(){

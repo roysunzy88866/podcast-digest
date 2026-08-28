@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(00:09起):本集提到的一套帮助快速搭建 AI 应用的工具包，团队的技术栈除了 Cloudflare Worker 外仅使用了它，不再需要任何第三方的记忆或规划框架。
-- **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]]**(11:09起):本集提到可以用 Vercel AI SDK 写智能体代码，加一层运行时垫片就能接入 Electric Agents 平台
+- **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(11:09起):本集提到可以用 Vercel AI SDK 写智能体代码，加一层运行时垫片就能接入 Electric Agents 平台
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念
-- [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]] — 作为概念(提及)
+- [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Claire Vo]] · [[James]] · [[Eddie Kim]] · [[Electric]] · [[Gusto]] · [[Electric Agents]] · [[联合创始人]] · [[沙箱]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Claire Vo":2,"James":1,"Eddie Kim":1,"Electric":1,"Gusto":1,"Electric Agents":1,"联合创始人":2,"沙箱":28,"vibe coding":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Claire Vo":2,"James":1,"Eddie Kim":1,"Electric":1,"Gusto":1,"Electric Agents":1,"联合创始人":2,"沙箱":29,"vibe coding":23}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《NETIC：让基础服务企业用AI自主运营》]] — 作为主持
+- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司》]] — 作为主持
 
 ## ③ 他谈到的
 
@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":141,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":63,"Anthropic":70}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":146,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":65,"Anthropic":72}</script>
 
 <script>
 (function(){

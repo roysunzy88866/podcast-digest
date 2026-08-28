@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(30:30起):本集把它说成：Google 同事为蛋白质折叠打造的极度精准的小众模型，是非通用模型的典范；Jeff 鼓励小团队在材料科学、芯片设计等硬核领域去训练类似的专用模型。
-- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]]**(30:15起):本集说 AlphaFold 的蛋白质预测结果按模型确信程度做颜色编码，将物理学上摇摆不定的区域和模型预测不确定的区域都显式标出来
+- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]]**(30:15起):本集说 AlphaFold 的蛋白质预测结果按模型确信程度做颜色编码，将物理学上摇摆不定的区域和模型预测不确定的区域都显式标出来
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]] — 作为概念
-- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]] — 作为概念
+- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]] — 作为概念
 
 ## ③ 关联
 
@@ -27,7 +27,7 @@ unlisted: true
 
 [[Jeff Dean]] · [[Zubin Gharemani]] · [[智能体]] · [[Google DeepMind]] · [[多智能体系统]] · [[不确定性]] · [[专用推理硬件]] · [[贝叶斯规则]] · [[推理]] · [[大语言模型]]
 
-<script type="application/json" class="pd-epn">{"Jeff Dean":1,"Zubin Gharemani":1,"智能体":141,"Google DeepMind":4,"多智能体系统":1,"不确定性":1,"专用推理硬件":1,"贝叶斯规则":1,"推理":1,"大语言模型":1}</script>
+<script type="application/json" class="pd-epn">{"Jeff Dean":1,"Zubin Gharemani":1,"智能体":146,"Google DeepMind":4,"多智能体系统":1,"不确定性":1,"专用推理硬件":1,"贝叶斯规则":1,"推理":2,"大语言模型":1}</script>
 
 <script>
 (function(){

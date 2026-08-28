@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]]**(00:26起):本集说 SoFi 是 Michael 早期加入的金融科技公司，从 75 人成长到超千人，专注于大众富裕客户的学生贷款再融资，也是 Figure 许多业务洞察的来源地。
+- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(00:26起):本集说 SoFi 是 Michael 早期加入的金融科技公司，从 75 人成长到超千人，专注于大众富裕客户的学生贷款再融资，也是 Figure 许多业务洞察的来源地。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]] — 作为被讨论公司
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司
 
 ## ③ 关联
 

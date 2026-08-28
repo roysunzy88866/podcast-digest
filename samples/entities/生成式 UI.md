@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]]**(01:32起):本集说生成式 UI 是指根据已有上下文自动生成界面或控制面板，比如智能家居应该根据它知道的信息为你生成一个控制面板，但目前还没产品真正用好它，做出来的设计仍显粗糙
+- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(01:32起):本集说生成式 UI 是指根据已有上下文自动生成界面或控制面板，比如智能家居应该根据它知道的信息为你生成一个控制面板，但目前还没产品真正用好它，做出来的设计仍显粗糙
 
 ## ① 提到它的金句
 
@@ -31,7 +31,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]] — 作为概念
+- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为概念
 
 ## ③ 关联
 
@@ -39,7 +39,7 @@ unlisted: true
 
 [[Wes Bos]] · [[vibe coding]] · [[智能体]] · [[迭代循环]] · [[LLM]] · [[本地模型]] · [[个人品牌]] · [[简报]] · [[上下文]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Wes Bos":1,"vibe coding":23,"智能体":141,"迭代循环":1,"LLM":18,"本地模型":1,"个人品牌":1,"简报":2,"上下文":11,"Cursor":35}</script>
+<script type="application/json" class="pd-epn">{"Wes Bos":1,"vibe coding":23,"智能体":146,"迭代循环":1,"LLM":19,"本地模型":1,"个人品牌":1,"简报":2,"上下文":11,"Cursor":37}</script>
 
 <script>
 (function(){

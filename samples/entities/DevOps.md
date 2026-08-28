@@ -11,14 +11,14 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《Patrick Debois：AI 编码的组织转型与规模化》]]**(02:35起):本集把它说成 AI 编码演进的类比参照：当年说持续交付行不通其实是因为组织没准备好，与现在说暗工厂行不通如出一辙
+- **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]]**(02:35起):本集把它说成 AI 编码演进的类比参照：当年说持续交付行不通其实是因为组织没准备好，与现在说暗工厂行不通如出一辙
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(15:47起):本集说 DevOps 是 RLGym 优先级的一个例子，因为亚马逊有独特数据，能让模型在这些任务上变得更好，对客户有实质性影响
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《Patrick Debois：AI 编码的组织转型与规模化》]] — 作为概念
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]] — 作为概念
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为概念(提及)
 
 ## ③ 关联
@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Guy Pajani]] · [[Michael Giannangelli]] · [[Patrick Debois]] · [[Nova]] · [[Simon Maple]] · [[模型路由]] · [[暗工厂]] · [[基准测试]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"评估":16,"Guy Pajani":3,"Michael Giannangelli":1,"Patrick Debois":1,"Nova":1,"Simon Maple":5,"模型路由":2,"暗工厂":2,"基准测试":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"评估":16,"Guy Pajani":3,"Michael Giannangelli":1,"Patrick Debois":1,"Nova":1,"Simon Maple":6,"模型路由":2,"暗工厂":2,"基准测试":5}</script>
 
 <script>
 (function(){

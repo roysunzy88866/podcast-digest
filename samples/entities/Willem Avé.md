@@ -31,7 +31,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]] — 作为主持
+- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]] — 作为主持
 
 ## ③ 他谈到的
 
@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Square":3,"Block":2,"业务单元模式":1,"职能制":1,"DRI":2,"智能体":141,"聊天机器人":1,"工件":1,"Manager Bot":1,"TAM":1}</script>
+<script type="application/json" class="pd-epn">{"Square":3,"Block":2,"业务单元模式":1,"职能制":1,"DRI":2,"智能体":146,"聊天机器人":1,"工件":1,"Manager Bot":1,"TAM":2}</script>
 
 <script>
 (function(){

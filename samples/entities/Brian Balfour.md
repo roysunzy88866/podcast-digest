@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]]
+[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"ChatGPT":36,"Claude":33,"Facebook":9,"Google":28,"Apple":12,"HubSpot":4,"Zynga":2,"Cursor":35,"分发平台":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"ChatGPT":37,"Claude":35,"Facebook":9,"Google":29,"Apple":12,"HubSpot":4,"Zynga":2,"Cursor":37,"分发平台":1}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Keith Rabois]] · [[点图]] · [[Lenny]] · [[DAU]] · [[Square]] · [[队列留存曲线]] · [[Faire]] · [[Spotify]] · [[Ramp]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"Keith Rabois":1,"点图":1,"Lenny":65,"DAU":1,"Square":3,"队列留存曲线":1,"Faire":1,"Spotify":2,"Ramp":4,"GitHub":17}</script>
+<script type="application/json" class="pd-epn">{"Keith Rabois":1,"点图":1,"Lenny":65,"DAU":1,"Square":3,"队列留存曲线":1,"Faire":1,"Spotify":2,"Ramp":4,"GitHub":18}</script>
 
 <script>
 (function(){

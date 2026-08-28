@@ -1,0 +1,768 @@
+{
+  "episode_id": "2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play",
+  "podcast": "The Product Podcast",
+  "date": "2026-08-26",
+  "tags": [
+    "视觉协作",
+    "共享上下文",
+    "AI 定价",
+    "企业 AI 落地",
+    "产品团队管理"
+  ],
+  "categories": [
+    "产品方法",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "elaina-o-mahoney",
+      "type": "person",
+      "role": "host",
+      "name": "Elaina O'Mahoney",
+      "file": "Elaina O'Mahoney",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16,
+            22
+          ],
+          "quote": "Elaina O'Mahoney, CPO at Mural. I'm curious to know, what is the real competitive landscape for you?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 6,
+          "t": [
+            59,
+            91
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Elaina O'Mahoney, Chief Product Officer at Mural. Her argument: visual collaboration has gone missing in the AI era. We are all working alone in a chat box, and ideas got so cheap that the real bottleneck moved to where decisions actually get made. Here's what we cover: why shared context is the new bottleneck, not creativity. Kill the five-page strategy doc, ship the prototype. The black market for tokens inside big enterprises. Why your best forward deployed engineer might sit in legal. And ask what did you learn, not what did you ship. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 25,
+          "t": [
+            844,
+            960
+          ],
+          "quote": "Your product has both angles. You have the consumer, or the employees, or the smaller businesses, as well as large enterprises. In a small-scale business, you have no choice; you have to do a lot of different things. But when you start talking about very large companies, over a thousand employees, maybe they use your product in a known way, for brainstorming and things like that. How do you go about highlighting the new horizon, and making sure that people who are not super technical yet feel comfortable and get that feeling of magic? Creating a Safe Space to Try and Fail Elaina O'Mahoney | Mural 00:14:42 Yeah, I think it's actually lowering the bar for somebody to learn in a lower-risk environment. What AI has created is almost the haves, where you have to virtue signal that you're always ahead of the game, on the frontier, versus those who are like, \"I think I can write my emails and do the summaries, and I can even write a Slack bot that summarizes the things I need to do in the morning.\" But how do you give them the space to showcase what they're doing and ask, \"Am I on the right track?\" Or somebody who's doing something very frontier and proficient: are you creating the space for them to just try? Because AI is so solo-player mode, it's really hard to see people work out in public and get ideas for how to move forward. So when you're working for Fortune 500 companies, how do you create a safe space that gets more people to try things, but fail at first when trying? I mean, Carlos, I'm sure you tried to write many different things over and over again, and you had to learn by failing with a lot of these tools. How do you create that same environment for employees?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "mural",
+      "type": "company",
+      "role": "company",
+      "name": "Mural",
+      "file": "Mural",
+      "primary": true,
+      "how_described": "本集说 Mural 是从游戏开发协作体验中诞生的在线白板协作工具，疫情期间因替代线下头脑风暴而快速崛起，现在致力于填补决策上下文这一空白画布区域",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16,
+            22
+          ],
+          "quote": "Elaina O'Mahoney, CPO at Mural. I'm curious to know, what is the real competitive landscape for you?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 6,
+          "t": [
+            59,
+            91
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Elaina O'Mahoney, Chief Product Officer at Mural. Her argument: visual collaboration has gone missing in the AI era. We are all working alone in a chat box, and ideas got so cheap that the real bottleneck moved to where decisions actually get made. Here's what we cover: why shared context is the new bottleneck, not creativity. Kill the five-page strategy doc, ship the prototype. The black market for tokens inside big enterprises. Why your best forward deployed engineer might sit in legal. And ask what did you learn, not what did you ship. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 9,
+          "t": [
+            96,
+            114
+          ],
+          "quote": "So you're the Chief Product Officer at Mural, a product I've used for a very long time. When it started, the whole pitch was basically, \"Hey, this is a better version of PowerPoint.\" But now this whole industry of visual collaboration has evolved quite a bit. I'd love to get your take on it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 10,
+          "t": [
+            114,
+            181
+          ],
+          "quote": "Absolutely. It was meant really to collaborate about ideas, to brainstorm. Our co-creators are from Argentina. They were looking at how they build a game and how they come up with ideas really fast, when people are across the globe or want to collaborate async. That's where the idea of Mural was born. What's really interesting is when you work for an organization, or when you're a team trying to come up with a multitude of ideas, you're trying to brainstorm, converge, diverge, and then ultimately decide on a path forward. That was Mural's bread and butter. It's why we took off so fast during the pandemic, when everybody was like, \"We have to find a totally different way of working.\" Mural Was PowerPoint's Successor. Then the AI Era Changed the Question Carlos González de Villaumbrosia | Product School 00:02:42 You reminded me of Zoom's initial value prop. It just works. That seemed to be enough because the alternatives were so bad. Now expectations are way higher, and that's not enough. So I'm curious to know what real visual collaboration looks like today in the AI era.",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 19,
+          "t": [
+            562,
+            668
+          ],
+          "quote": "Yeah, we have this arm of our business we call LUMA. It's one of our services offerings now that we're part of this organization, really going through LUMA practitioner training. Something we try to break away from is people thinking they're not a designer. If you've put together a slide deck, if you've done a drawing, and everybody drew when they were a kid, you're a designer at heart. So everybody actually needs to embrace the fact that they are a designer. You may not do it by trade, and you may not do it to the proficiency of those in the design community, but everybody can design, and there are tools out there that can help you. The point is that visual pictures, whether it's a customer journey map, a diagram, or even a data analytics diagram, let you absorb information faster than if you were to read a document. It's that visual element of being able to contextualize information much quicker that really speeds up your ideation process, speeds up how you make decisions, what you decide to take to market. Now that I work at Mural and I do that more frequently than I did previously, I can see how we can get to the disagreements faster. How do we get to where the challenges and bottlenecks are so much faster when it's visual? Leading by Example: Everybody Should Be Shipping",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 24,
+          "t": [
+            785,
+            844
+          ],
+          "quote": "Yeah, it's also something we went through here at Mural, which hopefully is relevant to other product leaders and to engineering, design, and product teams. Usually a product leader would write this very, very big product strategy doc. Sometimes it's five pages, sometimes it's four pages. It makes the rounds, people comment, and maybe it starts to slowly die. What we can actually do faster as leaders is create a prototype of something we're envisioning. I'm not saying it will ship like this prototype, but it conveys some of the principles that you want the teams to explore, and a North Star direction. You as the product leader can do that so much faster. Or you as the PM, or even the engineer, could say, \"Hey, what about this concept and idea?\" And it actually moves the entire team faster in their ideation cycle, or their decision-making cycle, just with a visual.",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 25,
+          "t": [
+            844,
+            960
+          ],
+          "quote": "Your product has both angles. You have the consumer, or the employees, or the smaller businesses, as well as large enterprises. In a small-scale business, you have no choice; you have to do a lot of different things. But when you start talking about very large companies, over a thousand employees, maybe they use your product in a known way, for brainstorming and things like that. How do you go about highlighting the new horizon, and making sure that people who are not super technical yet feel comfortable and get that feeling of magic? Creating a Safe Space to Try and Fail Elaina O'Mahoney | Mural 00:14:42 Yeah, I think it's actually lowering the bar for somebody to learn in a lower-risk environment. What AI has created is almost the haves, where you have to virtue signal that you're always ahead of the game, on the frontier, versus those who are like, \"I think I can write my emails and do the summaries, and I can even write a Slack bot that summarizes the things I need to do in the morning.\" But how do you give them the space to showcase what they're doing and ask, \"Am I on the right track?\" Or somebody who's doing something very frontier and proficient: are you creating the space for them to just try? Because AI is so solo-player mode, it's really hard to see people work out in public and get ideas for how to move forward. So when you're working for Fortune 500 companies, how do you create a safe space that gets more people to try things, but fail at first when trying? I mean, Carlos, I'm sure you tried to write many different things over and over again, and you had to learn by failing with a lot of these tools. How do you create that same environment for employees?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 31,
+          "t": [
+            1106,
+            1154
+          ],
+          "quote": "Yeah, I think it's about being able to create a forum for people to showcase their work. And I hate to keep saying Mural, but it's a collaborative tool; you can see what people are doing. I use the legal example because we have a person who sits in our legal department that we've been trying to steal to the product and engineering side for a while, and our head of legal is like, \"Don't touch him. He is so good here. He's automated 50% of our processes already.\" And when I think back, it's actually probably better that he's there automating a different part of our business than me stealing him for us. But he's able to showcase his work in Mural. He shares it with the entire organization, and it gives people these lightbulb moments in every department. Tapping the Community Without Chasing ROI",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 32,
+          "t": [
+            1154,
+            1181
+          ],
+          "quote": "One of the things I think is unique about your product is the community aspect. Some companies have decided to open source their product or tap into communities, which is easy to say and hard to crack, because this is not just a discussion forum where people propose ideas. You've been doing this for a long time. So I'm curious to know how you're tapping into that open community of people using Mural, to then bring some of those best practices to the way you build the product, or the way other companies should be using it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 33,
+          "t": [
+            1181,
+            1232
+          ],
+          "quote": "Yeah, we've actually introduced a newer community within Mural, and we've got a subset of our customers who are first invited to it. That ties back to the previous point I was making: it's about sharing how you're working, how you're deciding, how you're thinking. It's the same reason you exist, Carlos. You've created this community where people can share ideas about how they work, and it sparks another idea in another company, from another person. The thing I was most surprised about when I joined Mural a little more than a year and a half ago is how many people are so passionate about human-centered design, visual collaboration, ensuring people can all feel like designers, and that ideas can come from everywhere.",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 39,
+          "t": [
+            1480,
+            1574
+          ],
+          "quote": "I think the first thing comes with measurement, which was actually the first inclination of most organizations: \"Here's a tool, just use it.\" And usage showed adoption, and then everybody's like, \"Holy crap, this is very expensive. Pull back, pull back, pull back.\" So it's really about starting with a measurement layer, and then measuring how they're using it. Just because you can with AI, and I'm probably going to say the controversial thing, doesn't mean you need to do it with AI. Maybe spell check with AI is quite expensive. There are other things that can do spell check that don't have AI. So can we apply it to the right things? Can we at least measure our costs? Everything is going to come back to learning loops at the moment, that give us the flexibility of decision-making and don't go too far down the future casting of decision-making, because it's really hard to pull back pricing models. Once pricing models are in the air, people are really going to fight tooth and nail to not change them. And the last thing we're trying to make sure of is predictability. Any business has to understand its cost when things are so uncertain. So the cost of our tool can't wildly swing from month to month at all. There has to be predictability to it, so they can continue investing, so it can incentivize the right usage behavior, and people can get value out of it freely. How Mural Structures Its Product Teams",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 48,
+          "t": [
+            1865,
+            1874
+          ],
+          "quote": "Over ten years now, wow. I remember when I met your founder in the early days. He was telling a story about the video game that turned into Mural, and now look at where you are today.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "visual-collaboration",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉协作 (visual collaboration)",
+      "file": "视觉协作",
+      "primary": true,
+      "how_described": "本集说视觉协作在 AI 时代实际上是缺席的，大家都独自在聊天框里用文字或语音工作，而不是通过视觉化方式让信息更容易消化以更快做出决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            0,
+            16
+          ],
+          "quote": "What's interesting is visual collaboration is actually absent in the AI era. Ideas are really cheap, and you can go from an idea to an actual working prototype in hours, or you can write a doc, or you can create a slide deck in minutes. That's actually really compelling.",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 6,
+          "t": [
+            59,
+            91
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Elaina O'Mahoney, Chief Product Officer at Mural. Her argument: visual collaboration has gone missing in the AI era. We are all working alone in a chat box, and ideas got so cheap that the real bottleneck moved to where decisions actually get made. Here's what we cover: why shared context is the new bottleneck, not creativity. Kill the five-page strategy doc, ship the prototype. The black market for tokens inside big enterprises. Why your best forward deployed engineer might sit in legal. And ask what did you learn, not what did you ship. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 9,
+          "t": [
+            96,
+            114
+          ],
+          "quote": "So you're the Chief Product Officer at Mural, a product I've used for a very long time. When it started, the whole pitch was basically, \"Hey, this is a better version of PowerPoint.\" But now this whole industry of visual collaboration has evolved quite a bit. I'd love to get your take on it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 10,
+          "t": [
+            114,
+            181
+          ],
+          "quote": "Absolutely. It was meant really to collaborate about ideas, to brainstorm. Our co-creators are from Argentina. They were looking at how they build a game and how they come up with ideas really fast, when people are across the globe or want to collaborate async. That's where the idea of Mural was born. What's really interesting is when you work for an organization, or when you're a team trying to come up with a multitude of ideas, you're trying to brainstorm, converge, diverge, and then ultimately decide on a path forward. That was Mural's bread and butter. It's why we took off so fast during the pandemic, when everybody was like, \"We have to find a totally different way of working.\" Mural Was PowerPoint's Successor. Then the AI Era Changed the Question Carlos González de Villaumbrosia | Product School 00:02:42 You reminded me of Zoom's initial value prop. It just works. That seemed to be enough because the alternatives were so bad. Now expectations are way higher, and that's not enough. So I'm curious to know what real visual collaboration looks like today in the AI era.",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 11,
+          "t": [
+            181,
+            218
+          ],
+          "quote": "Yeah, what's interesting is visual collaboration is actually absent in the AI era. We are all in our tools, all by ourselves, with words or voice. I don't know if you dictate to yourself too often or speak to your LLM of choice often. I probably do that more than type these days, but it's very lonely and it's not visual. And when I go to collaborate with my coworkers, I'm now sharing words in a doc, rather than understanding through visual collaboration and designing something more easily digestible to get to decision-making faster.",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 12,
+          "t": [
+            218,
+            263
+          ],
+          "quote": "Now you're bringing up the point on multiplayer, and we've been talking about this for a long time. At the beginning it was more of an idea. Everybody who's used AI in one shape or form realizes that at some point you get stuck, and you're not able to fully collaborate on the same context. With a visual collaboration tool, on paper, you should be able to truly collaborate better and get stuff done in a way that you can't when you're just using an LLM of choice on the side. But for some reason I don't see enough of those use cases yet. I see a lot of people still using visual collaboration tools, PowerPoints, or Google Docs in the same way as putting comments on the side. So I'd love to know what real visual collaboration looks like for a product team that's trying to build together.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 33,
+          "t": [
+            1181,
+            1232
+          ],
+          "quote": "Yeah, we've actually introduced a newer community within Mural, and we've got a subset of our customers who are first invited to it. That ties back to the previous point I was making: it's about sharing how you're working, how you're deciding, how you're thinking. It's the same reason you exist, Carlos. You've created this community where people can share ideas about how they work, and it sparks another idea in another company, from another person. The thing I was most surprised about when I joined Mural a little more than a year and a half ago is how many people are so passionate about human-centered design, visual collaboration, ensuring people can all feel like designers, and that ideas can come from everywhere.",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "shared-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "共享上下文 (shared context)",
+      "file": "共享上下文",
+      "primary": true,
+      "how_described": "本集说共享上下文是新的瓶颈——AI 让想法变得廉价，但当你分享产出物时大家又回到孤岛，关键在于所有人是否在同一块画布上拥有相同上下文来快速决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            59,
+            91
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Elaina O'Mahoney, Chief Product Officer at Mural. Her argument: visual collaboration has gone missing in the AI era. We are all working alone in a chat box, and ideas got so cheap that the real bottleneck moved to where decisions actually get made. Here's what we cover: why shared context is the new bottleneck, not creativity. Kill the five-page strategy doc, ship the prototype. The black market for tokens inside big enterprises. Why your best forward deployed engineer might sit in legal. And ask what did you learn, not what did you ship. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 13,
+          "t": [
+            263,
+            327
+          ],
+          "quote": "It's really interesting, because now ideas are really cheap. You can go from an idea to an actual working prototype in hours, or write a doc, or create a slide deck in minutes. That's actually really compelling. But when you go to share any sort of artifact, it goes back into these silo moments. So for us, and when we're thinking about our product process, we almost have to forget the process part. We have to create a system that really enables faster decision-making now that ideas are cheap. How do you take all of these different artifacts spatially and connect them together so people have the same context? Because that's what the game is about now: am I playing the same game as you are, and do I actually know where you started? Can I catch up to you as fast as you are, so we can just make decisions faster, because you have so many more decisions to make? Shared Context Is the New Bottleneck",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说工作在哪里完成、智能体被部署在哪里仍然不清楚，CPO 可以通过发布智能体来民主化解决一些稀缺工作（如数据分析综合）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            398,
+            431
+          ],
+          "quote": "I see companies like Slack or Teams trying to be that space for people to collaborate. You also have issue-tracking tools like Jira or Linear trying to communicate, \"This is the place where work gets done.\" But the reality is it's still unclear where work gets done, where agents are being deployed, as companies try to truly deploy this in a way that drives adoption. It's not just a few people creating their own context. Where does work happen, and how does the right flow of information have to go?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 21,
+          "t": [
+            693,
+            745
+          ],
+          "quote": "Yeah, absolutely. I do think everybody should be playing and shipping now. Should everybody be shipping in production all the time? Maybe. The lens is where you can ship in safe environments. You can actually solve some of your core bottlenecks as the CPO, where you inherently would make decisions and choices. You can democratize some of that by just shipping workflows, shipping agents, shipping research agents. There are still some things that are quite scarce that you can work on internally. Data science is still scarce. Really good taste is still scarce. Synthesizing analytics is still scarce. So you can actually decide as a CPO where you play in that space to make your team's techniques faster.",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "tokens",
+      "type": "concept",
+      "role": "concept",
+      "name": "tokens",
+      "file": "tokens",
+      "primary": true,
+      "how_described": "本集说大企业内部出现了 token 黑市——员工自己 token 用完了去找同事借，还有公司下达必须消耗 X 数量 token 的指令导致员工为凑数而用 AI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            32,
+            51
+          ],
+          "quote": "Kind of like in the past when some salespeople would report fake calls on the CRM to show product activity. Now it's trading whatever it is on AI to say, \"Hey, I burnt X amount of tokens.\" So how do you ensure that some of this usage is actually driving the right business outcomes?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 6,
+          "t": [
+            59,
+            91
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Elaina O'Mahoney, Chief Product Officer at Mural. Her argument: visual collaboration has gone missing in the AI era. We are all working alone in a chat box, and ideas got so cheap that the real bottleneck moved to where decisions actually get made. Here's what we cover: why shared context is the new bottleneck, not creativity. Kill the five-page strategy doc, ship the prototype. The black market for tokens inside big enterprises. Why your best forward deployed engineer might sit in legal. And ask what did you learn, not what did you ship. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 35,
+          "t": [
+            1275,
+            1331
+          ],
+          "quote": "Yeah, it can serve multiple purposes. A community that inspired me earlier on was Lenny's community. If you're just trying out the tool, they'll invite you to the Slack community, and it's there that everything is about adapting to change, doing something brand new. When you're doing something brand new and there isn't a playbook to follow, that's when community is most important. It's creating this trusting, open environment where people can say, \"I've tested this out, I've done it this way,\" or you can ask a more vulnerable question, and people are there to almost say, \"I know an answer, I've tried it this way,\" or \"I can connect you with somebody else. Do you want me to show you?\" It's the value of that loop that's actually quicker, because you're getting it from people not inside your echo chamber. The Black Market for Tokens",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 37,
+          "t": [
+            1354,
+            1447
+          ],
+          "quote": "This is the thing that actually keeps me up at night. I wonder how many organizations that are, to use the very vibe name, \"AI-native.\" We weren't born when tokens and LLMs were there. So our pricing model reflects a lot of the seat-based pricing that everybody now attaches to legacy SaaS. But there's almost a double-edged sword with usage. When we speak to some of our larger customers, there's almost a black market for tokens. If they use their own tokens, they'll have to go to three other employees to say, \"I've got 80% of the way there with my prototype, and my tokens got cut off. Susie, can I siphon some of your tokens?\" And now it disincentivizes the wrong behavior. So it's a decision we're taking with the utmost care. It goes back to the fact that we serve totally different types of businesses, from a person who just bought us for themselves, for their three-person company or even their solo consulting gig, all the way up to a Fortune 500 company with 10,000 people. We have to think of pricing models throughout that same range, and maybe the pricing models are completely different. We know the value of our product in this very near future has to be filled with AI at its core, but we also don't want to disincentivize folks from using it and have to keep an accounting ledger of tokens. Making Sure Usage Drives the Right Outcomes",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1447,
+            1480
+          ],
+          "quote": "We're at the early innings of this. You see the examples of companies that are burning tokens and are very proud of it. But I also know companies that send the right mandate, like \"You have to burn X amount of tokens.\" I'm not going to mention those companies, but they game their own system, kind of like in the past when some salespeople would report fake calls on their CRM to show product activity. Now they're trading whatever it is on AI to say, \"Hey, I burnt X amount of tokens.\" So how do you ensure that some of this usage is actually driving the right business outcomes?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "prototype",
+      "type": "concept",
+      "role": "concept",
+      "name": "原型 (prototype)",
+      "file": "原型",
+      "primary": true,
+      "how_described": "本集说产品领导者应该干掉四五页的战略文档，直接把设想做成视觉原型来传达原则和北极星方向，让团队更快进入构思和决策节奏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            0,
+            16
+          ],
+          "quote": "What's interesting is visual collaboration is actually absent in the AI era. Ideas are really cheap, and you can go from an idea to an actual working prototype in hours, or you can write a doc, or you can create a slide deck in minutes. That's actually really compelling.",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 6,
+          "t": [
+            59,
+            91
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Elaina O'Mahoney, Chief Product Officer at Mural. Her argument: visual collaboration has gone missing in the AI era. We are all working alone in a chat box, and ideas got so cheap that the real bottleneck moved to where decisions actually get made. Here's what we cover: why shared context is the new bottleneck, not creativity. Kill the five-page strategy doc, ship the prototype. The black market for tokens inside big enterprises. Why your best forward deployed engineer might sit in legal. And ask what did you learn, not what did you ship. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 13,
+          "t": [
+            263,
+            327
+          ],
+          "quote": "It's really interesting, because now ideas are really cheap. You can go from an idea to an actual working prototype in hours, or write a doc, or create a slide deck in minutes. That's actually really compelling. But when you go to share any sort of artifact, it goes back into these silo moments. So for us, and when we're thinking about our product process, we almost have to forget the process part. We have to create a system that really enables faster decision-making now that ideas are cheap. How do you take all of these different artifacts spatially and connect them together so people have the same context? Because that's what the game is about now: am I playing the same game as you are, and do I actually know where you started? Can I catch up to you as fast as you are, so we can just make decisions faster, because you have so many more decisions to make? Shared Context Is the New Bottleneck",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 15,
+          "t": [
+            344,
+            398
+          ],
+          "quote": "The competitive landscape is really interesting, because when you're a product leader, a lot of your skill set is about future casting. You have to create these strategies that are two to five years forward, but it's almost an in-the-moment feedback loop that you now need to create with system-level thinking. So for us, it's really just about having the right information in the right moment in time. For example, if I start with a document and then I want to spatially present that idea to multiple people, can I quickly turn that document into a prototype, into slides? And can I connect them spatially together so everybody has the same context to make the right decision moving forward?",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 23,
+          "t": [
+            773,
+            785
+          ],
+          "quote": "It's not a major, major release. But I like your point that shipping doesn't need to be something major into production. Shipping a workflow is still a great way to demo that you can do it. Kill the Five-Page Strategy Doc, Ship the Prototype",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 24,
+          "t": [
+            785,
+            844
+          ],
+          "quote": "Yeah, it's also something we went through here at Mural, which hopefully is relevant to other product leaders and to engineering, design, and product teams. Usually a product leader would write this very, very big product strategy doc. Sometimes it's five pages, sometimes it's four pages. It makes the rounds, people comment, and maybe it starts to slowly die. What we can actually do faster as leaders is create a prototype of something we're envisioning. I'm not saying it will ship like this prototype, but it conveys some of the principles that you want the teams to explore, and a North Star direction. You as the product leader can do that so much faster. Or you as the PM, or even the engineer, could say, \"Hey, what about this concept and idea?\" And it actually moves the entire team faster in their ideation cycle, or their decision-making cycle, just with a visual.",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 37,
+          "t": [
+            1354,
+            1447
+          ],
+          "quote": "This is the thing that actually keeps me up at night. I wonder how many organizations that are, to use the very vibe name, \"AI-native.\" We weren't born when tokens and LLMs were there. So our pricing model reflects a lot of the seat-based pricing that everybody now attaches to legacy SaaS. But there's almost a double-edged sword with usage. When we speak to some of our larger customers, there's almost a black market for tokens. If they use their own tokens, they'll have to go to three other employees to say, \"I've got 80% of the way there with my prototype, and my tokens got cut off. Susie, can I siphon some of your tokens?\" And now it disincentivizes the wrong behavior. So it's a decision we're taking with the utmost care. It goes back to the fact that we serve totally different types of businesses, from a person who just bought us for themselves, for their three-person company or even their solo consulting gig, all the way up to a Fortune 500 company with 10,000 people. We have to think of pricing models throughout that same range, and maybe the pricing models are completely different. We know the value of our product in this very near future has to be filled with AI at its core, but we also don't want to disincentivize folks from using it and have to keep an accounting ledger of tokens. Making Sure Usage Drives the Right Outcomes",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-employee",
+      "type": "concept",
+      "role": "concept",
+      "name": "前置部署员工 (forward deployed employee)",
+      "file": "前置部署员工",
+      "primary": true,
+      "how_described": "本集说不仅是前置部署工程师，任何部门中已经自发用 AI 工具自动化了自己工作流的人，都可以嵌入到还没起步的团队中成为推广者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            1096,
+            1106
+          ],
+          "quote": "Imagine that: not only playing forward deployed engineer, but a forward deployed employee. That's really cool. How do you go about identifying those early champions, to give them the stage so they can highlight what they're doing?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集提到 Slack 非常适合时刻的沟通，是堆栈中宣称'工作发生在这里'的工具之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            398,
+            431
+          ],
+          "quote": "I see companies like Slack or Teams trying to be that space for people to collaborate. You also have issue-tracking tools like Jira or Linear trying to communicate, \"This is the place where work gets done.\" But the reality is it's still unclear where work gets done, where agents are being deployed, as companies try to truly deploy this in a way that drives adoption. It's not just a few people creating their own context. Where does work happen, and how does the right flow of information have to go?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 17,
+          "t": [
+            431,
+            511
+          ],
+          "quote": "Yeah, it's an interesting concept, where every tool right now in the stack is almost converging in a circular area, and everybody is also converging on a chat-widget UI where work happens. How many different companies have the same tagline of \"where work happens\"? OKRs can be in a certain area, and it'll say what work is planned, and then you can measure against what's been planned. Slack is very good for communication in the moment. Then you'll have Notion, Confluence, Docs, Jira, or Linear, where you're still planning work or capturing decisions that have been made. The space that really is still ambiguous is how decisions are getting made and the context of why. That's a blank canvas area we think we're converging on. Yes, in meetings we talk about stuff, but the meeting notes come after; they capture a summary. You still don't have the context of why the decision was made. So how do you bring some of this disparate information together and really get to the why behind decision-making in the moment? When AI Is a Layer, Not a Button",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 25,
+          "t": [
+            844,
+            960
+          ],
+          "quote": "Your product has both angles. You have the consumer, or the employees, or the smaller businesses, as well as large enterprises. In a small-scale business, you have no choice; you have to do a lot of different things. But when you start talking about very large companies, over a thousand employees, maybe they use your product in a known way, for brainstorming and things like that. How do you go about highlighting the new horizon, and making sure that people who are not super technical yet feel comfortable and get that feeling of magic? Creating a Safe Space to Try and Fail Elaina O'Mahoney | Mural 00:14:42 Yeah, I think it's actually lowering the bar for somebody to learn in a lower-risk environment. What AI has created is almost the haves, where you have to virtue signal that you're always ahead of the game, on the frontier, versus those who are like, \"I think I can write my emails and do the summaries, and I can even write a Slack bot that summarizes the things I need to do in the morning.\" But how do you give them the space to showcase what they're doing and ask, \"Am I on the right track?\" Or somebody who's doing something very frontier and proficient: are you creating the space for them to just try? Because AI is so solo-player mode, it's really hard to see people work out in public and get ideas for how to move forward. So when you're working for Fortune 500 companies, how do you create a safe space that gets more people to try things, but fail at first when trying? I mean, Carlos, I'm sure you tried to write many different things over and over again, and you had to learn by failing with a lot of these tools. How do you create that same environment for employees?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 35,
+          "t": [
+            1275,
+            1331
+          ],
+          "quote": "Yeah, it can serve multiple purposes. A community that inspired me earlier on was Lenny's community. If you're just trying out the tool, they'll invite you to the Slack community, and it's there that everything is about adapting to change, doing something brand new. When you're doing something brand new and there isn't a playbook to follow, that's when community is most important. It's creating this trusting, open environment where people can say, \"I've tested this out, I've done it this way,\" or you can ask a more vulnerable question, and people are there to almost say, \"I know an answer, I've tried it this way,\" or \"I can connect you with somebody else. Do you want me to show you?\" It's the value of that loop that's actually quicker, because you're getting it from people not inside your echo chamber. The Black Market for Tokens",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "jira",
+      "type": "company",
+      "role": "company",
+      "name": "Jira",
+      "file": "Jira",
+      "primary": false,
+      "how_described": "本集提到 Jira 是问题跟踪工具，用于计划工作或捕获已做出的决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            398,
+            431
+          ],
+          "quote": "I see companies like Slack or Teams trying to be that space for people to collaborate. You also have issue-tracking tools like Jira or Linear trying to communicate, \"This is the place where work gets done.\" But the reality is it's still unclear where work gets done, where agents are being deployed, as companies try to truly deploy this in a way that drives adoption. It's not just a few people creating their own context. Where does work happen, and how does the right flow of information have to go?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 17,
+          "t": [
+            431,
+            511
+          ],
+          "quote": "Yeah, it's an interesting concept, where every tool right now in the stack is almost converging in a circular area, and everybody is also converging on a chat-widget UI where work happens. How many different companies have the same tagline of \"where work happens\"? OKRs can be in a certain area, and it'll say what work is planned, and then you can measure against what's been planned. Slack is very good for communication in the moment. Then you'll have Notion, Confluence, Docs, Jira, or Linear, where you're still planning work or capturing decisions that have been made. The space that really is still ambiguous is how decisions are getting made and the context of why. That's a blank canvas area we think we're converging on. Yes, in meetings we talk about stuff, but the meeting notes come after; they capture a summary. You still don't have the context of why the decision was made. So how do you bring some of this disparate information together and really get to the why behind decision-making in the moment? When AI Is a Layer, Not a Button",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "type": "company",
+      "role": "company",
+      "name": "Linear",
+      "file": "Linear",
+      "primary": false,
+      "how_described": "本集提到 Linear 与 Jira 类似，是试图传达'工作完成的地方'的问题跟踪工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            398,
+            431
+          ],
+          "quote": "I see companies like Slack or Teams trying to be that space for people to collaborate. You also have issue-tracking tools like Jira or Linear trying to communicate, \"This is the place where work gets done.\" But the reality is it's still unclear where work gets done, where agents are being deployed, as companies try to truly deploy this in a way that drives adoption. It's not just a few people creating their own context. Where does work happen, and how does the right flow of information have to go?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 17,
+          "t": [
+            431,
+            511
+          ],
+          "quote": "Yeah, it's an interesting concept, where every tool right now in the stack is almost converging in a circular area, and everybody is also converging on a chat-widget UI where work happens. How many different companies have the same tagline of \"where work happens\"? OKRs can be in a certain area, and it'll say what work is planned, and then you can measure against what's been planned. Slack is very good for communication in the moment. Then you'll have Notion, Confluence, Docs, Jira, or Linear, where you're still planning work or capturing decisions that have been made. The space that really is still ambiguous is how decisions are getting made and the context of why. That's a blank canvas area we think we're converging on. Yes, in meetings we talk about stuff, but the meeting notes come after; they capture a summary. You still don't have the context of why the decision was made. So how do you bring some of this disparate information together and really get to the why behind decision-making in the moment? When AI Is a Layer, Not a Button",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": false,
+      "how_described": "本集提到 Notion 是堆栈中用于计划工作或捕获决策的工具之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            431,
+            511
+          ],
+          "quote": "Yeah, it's an interesting concept, where every tool right now in the stack is almost converging in a circular area, and everybody is also converging on a chat-widget UI where work happens. How many different companies have the same tagline of \"where work happens\"? OKRs can be in a certain area, and it'll say what work is planned, and then you can measure against what's been planned. Slack is very good for communication in the moment. Then you'll have Notion, Confluence, Docs, Jira, or Linear, where you're still planning work or capturing decisions that have been made. The space that really is still ambiguous is how decisions are getting made and the context of why. That's a blank canvas area we think we're converging on. Yes, in meetings we talk about stuff, but the meeting notes come after; they capture a summary. You still don't have the context of why the decision was made. So how do you bring some of this disparate information together and really get to the why behind decision-making in the moment? When AI Is a Layer, Not a Button",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集举例提到前置部署员工使用 Claude 或 Codex 等工具来完成工作流自动化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            1039,
+            1096
+          ],
+          "quote": "I think forward deployed engineers are really, really helpful, because they're usually the ones who can use the tools that are best for the job today. It also gives people insight, as long as they're sharing, to say, \"Oh, this is how that person did it, this is how they automated that workflow, this is how they did the discovery, this is how they used Claude or Codex or your tool of choice. I now can do a bit of what they did.\" So whether it's a forward deployed engineer, or somebody in legal that's automated their process, it doesn't necessarily have to be an engineer. It can be somebody in any department who has already adapted to the tools, already automated some of the way they work, and you embed them into a different team or environment that hasn't yet.",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": false,
+      "how_described": "本集说现在每个人都在跟自己选择的 LLM 对话，这非常孤独且不是视觉化的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            181,
+            218
+          ],
+          "quote": "Yeah, what's interesting is visual collaboration is actually absent in the AI era. We are all in our tools, all by ourselves, with words or voice. I don't know if you dictate to yourself too often or speak to your LLM of choice often. I probably do that more than type these days, but it's very lonely and it's not visual. And when I go to collaborate with my coworkers, I'm now sharing words in a doc, rather than understanding through visual collaboration and designing something more easily digestible to get to decision-making faster.",
+          "speaker": "Elaina O'Mahoney"
+        },
+        {
+          "seg": 12,
+          "t": [
+            218,
+            263
+          ],
+          "quote": "Now you're bringing up the point on multiplayer, and we've been talking about this for a long time. At the beginning it was more of an idea. Everybody who's used AI in one shape or form realizes that at some point you get stuck, and you're not able to fully collaborate on the same context. With a visual collaboration tool, on paper, you should be able to truly collaborate better and get stuff done in a way that you can't when you're just using an LLM of choice on the side. But for some reason I don't see enough of those use cases yet. I see a lot of people still using visual collaboration tools, PowerPoints, or Google Docs in the same way as putting comments on the side. So I'd love to know what real visual collaboration looks like for a product team that's trying to build together.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": false,
+      "how_described": "本集说 Mural 的定价模式反映了传统 SaaS 按座位收费的方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            327,
+            344
+          ],
+          "quote": "Yes. And I see that the same way as in the past, a lot of these SaaS companies were trying to replace the spreadsheet. They'd position themselves in the middle and say, \"And you can integrate with everybody else.\" So I'm curious to know what the real competitive landscape is for you, and how you're thinking about integrations with other players.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 37,
+          "t": [
+            1354,
+            1447
+          ],
+          "quote": "This is the thing that actually keeps me up at night. I wonder how many organizations that are, to use the very vibe name, \"AI-native.\" We weren't born when tokens and LLMs were there. So our pricing model reflects a lot of the seat-based pricing that everybody now attaches to legacy SaaS. But there's almost a double-edged sword with usage. When we speak to some of our larger customers, there's almost a black market for tokens. If they use their own tokens, they'll have to go to three other employees to say, \"I've got 80% of the way there with my prototype, and my tokens got cut off. Susie, can I siphon some of your tokens?\" And now it disincentivizes the wrong behavior. So it's a decision we're taking with the utmost care. It goes back to the fact that we serve totally different types of businesses, from a person who just bought us for themselves, for their three-person company or even their solo consulting gig, all the way up to a Fortune 500 company with 10,000 people. We have to think of pricing models throughout that same range, and maybe the pricing models are completely different. We know the value of our product in this very near future has to be filled with AI at its core, but we also don't want to disincentivize folks from using it and have to keep an accounting ledger of tokens. Making Sure Usage Drives the Right Outcomes",
+          "speaker": "Elaina O'Mahoney"
+        }
+      ]
+    },
+    {
+      "id": "crm",
+      "type": "concept",
+      "role": "concept",
+      "name": "CRM",
+      "file": "CRM",
+      "primary": false,
+      "how_described": "本集把 token 凑数行为比作过去销售人员在 CRM 上报告虚假通话以显示产品活动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            32,
+            51
+          ],
+          "quote": "Kind of like in the past when some salespeople would report fake calls on the CRM to show product activity. Now it's trading whatever it is on AI to say, \"Hey, I burnt X amount of tokens.\" So how do you ensure that some of this usage is actually driving the right business outcomes?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1447,
+            1480
+          ],
+          "quote": "We're at the early innings of this. You see the examples of companies that are burning tokens and are very proud of it. But I also know companies that send the right mandate, like \"You have to burn X amount of tokens.\" I'm not going to mention those companies, but they game their own system, kind of like in the past when some salespeople would report fake calls on their CRM to show product activity. Now they're trading whatever it is on AI to say, \"Hey, I burnt X amount of tokens.\" So how do you ensure that some of this usage is actually driving the right business outcomes?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "servicenow",
+      "type": "company",
+      "role": "company",
+      "name": "ServiceNow",
+      "file": "ServiceNow",
+      "primary": false,
+      "how_described": "本集提到与 ServiceNow CEO 的对话，讨论上市公司在市场压力下如何在未来赌注与维持核心业务之间分配资源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            1700,
+            1729
+          ],
+          "quote": "I was having a similar conversation with the CEO at ServiceNow, a public company over $100 billion in market cap, but down at least 25% year to date. When you have that type of market pressure, I was trying to understand how much effort you put on the future, knowing it might not pay off next quarter. In your case, as a private company, I'm curious how you allocate those resources: new bets, or things that are less mature, versus things that keep the lights on.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "tropic",
+      "type": "company",
+      "role": "company",
+      "name": "Tropic",
+      "file": "Tropic",
+      "primary": false,
+      "how_described": "本集提到 Tropic 是 AI 原生公司的例子，其产品领导者从上到下都在发布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            668,
+            693
+          ],
+          "quote": "What you just said about leading by example sets the tone. I've hosted product leaders from Tropic, Vercel, and other AI-native companies, and they're all shipping from top to bottom, right to left. Everybody is a builder in a way. So I'm curious to know, for you personally as the Chief Product Officer, how do you actually set that tone?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "本集提到 Vercel 是 AI 原生公司的例子，其产品领导者从上到下都在发布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            668,
+            693
+          ],
+          "quote": "What you just said about leading by example sets the tone. I've hosted product leaders from Tropic, Vercel, and other AI-native companies, and they're all shipping from top to bottom, right to left. Everybody is a builder in a way. So I'm curious to know, for you personally as the Chief Product Officer, how do you actually set that tone?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

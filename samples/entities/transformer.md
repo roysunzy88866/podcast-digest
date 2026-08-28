@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:55起):本集说它的天花板（见顶）在于无法持续学习：在实验室用静态数据训练，一旦部署到动态现实世界很快就会贬值；同时其计算深度极差，采用一次生成一个 token 的方式极其低效。
-- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]]**(11:16起):本集顺带提到 Transformer 是现代 AI 的两个主力架构之一（另一个是扩散模型），但未展开讨论
+- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]]**(11:16起):本集顺带提到 Transformer 是现代 AI 的两个主力架构之一（另一个是扩散模型），但未展开讨论
 
 ## ① 提到它的金句
 
@@ -28,7 +28,7 @@ unlisted: true
 
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为概念
-- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]] — 作为概念(提及)
+- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -36,7 +36,7 @@ unlisted: true
 
 [[强化学习]] · [[持续学习]] · [[Anthropic]] · [[Barney Hussey-Yeo]] · [[Sonja]] · [[Zubin Gharemani]] · [[John Collison]] · [[Rohan Anil]] · [[Google DeepMind]] · [[Clio]]
 
-<script type="application/json" class="pd-epn">{"强化学习":13,"持续学习":4,"Anthropic":70,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1,"John Collison":1,"Rohan Anil":1,"Google DeepMind":4,"Clio":1}</script>
+<script type="application/json" class="pd-epn">{"强化学习":13,"持续学习":4,"Anthropic":72,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1,"John Collison":1,"Rohan Anil":1,"Google DeepMind":4,"Clio":1}</script>
 
 <script>
 (function(){

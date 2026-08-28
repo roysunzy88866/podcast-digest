@@ -23,7 +23,7 @@ unlisted: true
 
 [[Cursor]] · [[Simon Mo]] · [[Joe Schmidt]] · [[Gabriel Vasquez]] · [[Matt Bornstein]] · [[Andy McCall]] · [[Angela Strange]] · [[vLLM]] · [[Lighthouse]] · [[a16z]]
 
-<script type="application/json" class="pd-epn">{"Cursor":35,"Simon Mo":1,"Joe Schmidt":1,"Gabriel Vasquez":1,"Matt Bornstein":1,"Andy McCall":1,"Angela Strange":1,"vLLM":2,"Lighthouse":1,"a16z":5}</script>
+<script type="application/json" class="pd-epn">{"Cursor":37,"Simon Mo":1,"Joe Schmidt":1,"Gabriel Vasquez":1,"Matt Bornstein":2,"Andy McCall":1,"Angela Strange":1,"vLLM":2,"Lighthouse":1,"a16z":6}</script>
 
 <script>
 (function(){

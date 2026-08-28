@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(22:24起):本集提到其 CEO 是前 Twitter 的 CTO。这是一家做 GPU 推理的公司,同样需要应对为智能体构建基础设施时产生的高振幅突发负载问题。
 - **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(24:00起):本集把它说成：同时处理成千上万个任务的计算方式（区别于像写菜谱那样一步步执行），是对世界和大脑进行模拟所必需的架构。
-- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]]**(00:00起):本集说 Parallel 是为智能体网络构建搜索基础设施的公司，通过搜索智能体产品先获取真实用例并逐步积累索引，后与 Google Cloud 合作成为其企业智能体 API 的搜索和 Grounding 提供商
+- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(00:00起):本集说 Parallel 是为智能体网络构建搜索基础设施的公司，通过搜索智能体产品先获取真实用例并逐步积累索引，后与 Google Cloud 合作成为其企业智能体 API 的搜索和 Grounding 提供商
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(00:00起):本集说 Parallel 是为智能体构建搜索技术的公司，产出不是模型而是'模型的补充'——在模型之上乘数放大的东西，能帮智能体省一半 token 同时结果更准
 
 ## ① 提到它的金句
@@ -24,11 +24,11 @@ unlisted: true
 
 ![[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new#^q1]]
 
-![[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new#^q2]]
+![[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new#^q3]]
 
 ![[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p#^q1]]
 
-![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q4]]
+![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q3]]
 
 ## ② 出现在这些集
 
@@ -36,7 +36,7 @@ unlisted: true
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]] — 作为被讨论公司
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为被讨论公司
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司
 
 ## ③ 关联
@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Andrew]] · [[Sonia]] · [[Parag]] · [[搜索智能体]] · [[索引]] · [[爬取]] · [[推理]] · [[后台智能体]] · [[多智能体系统]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Andrew":3,"Sonia":2,"Parag":2,"搜索智能体":2,"索引":2,"爬取":2,"推理":1,"后台智能体":5,"多智能体系统":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Andrew":3,"Sonia":2,"Parag":2,"搜索智能体":2,"索引":2,"爬取":2,"推理":2,"后台智能体":5,"多智能体系统":1}</script>
 
 <script>
 (function(){

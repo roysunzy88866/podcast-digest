@@ -7,16 +7,16 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]]**(00:17起):本集将 harness 描述为套在模型外面、让智能体得以运作的执行框架；智能体是模型和 harness 在一起；各家的 harness 能力正在趋同收敛
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(08:24起):本集将其描述为用于运行、调度和管理多个模型与工具的中间件层。拥有开放的测试框架可接入任意模型，是实现让模型与工具协同爬山的必要基础设施。
-- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(17:36起):本集把它说成:每次出新模型要重新审视并做减法的部分——模型能力变强后，很多之前需要工具层兜底的逻辑可以删掉交给模型自己处理，少即是多
+- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(17:36起):本集把它说成:每次出新模型要重新审视并做减法的部分——模型能力变强后，很多之前需要工具层兜底的逻辑可以删掉交给模型自己处理，少即是多
 - **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(01:31起):本集把它说成:套在模型外面的一整套系统(包括框架、上下文、工具、记忆、护栏等),让大语言模型变得真正有用。黄仁勋判断未来公司将建立在 harnesses 而非业务流程之上
 - **[[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]]**(10:35起):本集说它是控制智能体行为的核心调度框架,也是开源的,允许所有人 fork、检查、适配和接入开放模型
-- **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《Patrick Debois：AI 编码的组织转型与规模化》]]**(04:40起):本集把它说成一种约束和引导智能体的框架，是 AI 编码技术堆栈中从规范（spec）到循环（loop）之间的关键层，需要回归测试
+- **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]]**(04:40起):本集把它说成一种约束和引导智能体的框架，是 AI 编码技术堆栈中从规范（spec）到循环（loop）之间的关键层，需要回归测试
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(02:29起):本集把它说成:指挥模型干活的控制程序(即「大脑」),在 Managed Agents 架构中变成了只与只追加日志对话的无状态进程,以确保挂了也不会丢失进度。
 - **[[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]]**(10:55起):为智能体提供运行环境和工具的外壳;本集指出需要一个聪明的 harness 来决定何时启动核心智能体,并与数据处理引擎共同设计。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(03:10起):本集把它说成:包裹在核心前沿模型外围的代码框架,赋予模型调用工具和推理的能力,使其能够执行多步任务。如果没有极强的 harness,目前模型解决不了困难问题。
@@ -30,7 +30,9 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*7 条*
+*8 条*
+
+![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q1]]
 
 ![[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge#^q4]]
 
@@ -52,10 +54,10 @@ unlisted: true
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为概念
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为概念
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为概念
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为概念
-- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《Patrick Debois：AI 编码的组织转型与规模化》]] — 作为概念
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]] — 作为概念
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为概念
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]] — 作为概念
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为概念
@@ -73,7 +75,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[上下文]] · [[护栏]] · [[可观测性]] · [[OpenAI]] · [[Codex]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Anthropic":70,"Claude Code":36,"沙箱":28,"上下文":11,"护栏":28,"可观测性":12,"OpenAI":63,"Codex":27,"评估":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":72,"Claude Code":37,"沙箱":29,"上下文":11,"护栏":30,"可观测性":13,"OpenAI":65,"Codex":27,"评估":16}</script>
 
 <script>
 (function(){

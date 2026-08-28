@@ -20,7 +20,7 @@ unlisted: true
 - **[[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]]**(54:55起):本集作为对比项提及：过去设计师的活儿散落在各种工具里，比如待在 Figma 中。
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(02:45起):本集把它说成:行业绝对主流的传统视觉设计软件，采用了自定义渲染引擎，对智能体来说理解和处理起来成本更高，是 Paper 试图颠覆的标杆。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(06:47起):本集说 Figma 更多是企业产品，是大群人构建软件、协调工作的工具，即使自动化了创意，仍然有官僚流程和工作流管理可以赚钱，毛利率因智能体产品受损但承受了打击
-- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]]**(00:31起):本集说团队选择使用 Figma 及其内的 AI 生成工具 Figma Make 来做原型设计，主要是因为团队对其熟悉度最高，在改变软件构建方式时不想同时逼人换工具以减少阻力。
+- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(00:31起):本集说团队选择使用 Figma 及其内的 AI 生成工具 Figma Make 来做原型设计，主要是因为团队对其熟悉度最高，在改变软件构建方式时不想同时逼人换工具以减少阻力。
 
 ## ① 提到它的金句
 
@@ -41,7 +41,7 @@ unlisted: true
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为被讨论公司(提及)
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
-- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为被讨论公司
+- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[MCP]] · [[Notion]] · [[GitHub]] · [[设计系统]] · [[Anthropic]] · [[Cursor]] · [[Claude Code]] · [[设计]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Lenny":65,"MCP":16,"Notion":8,"GitHub":17,"设计系统":4,"Anthropic":70,"Cursor":35,"Claude Code":36,"设计":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"MCP":17,"Notion":9,"GitHub":18,"设计系统":4,"Anthropic":72,"Cursor":37,"Claude Code":37,"设计":2}</script>
 
 <script>
 (function(){

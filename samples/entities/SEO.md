@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(01:07起):本集说 SEO 正经历重大转型，AEO 与 SEO 有很大重叠，核心技术相似；传统 SEO 对早期公司不友好，因为缺乏域名权重，通常要 A 轮以后才值得做
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(15:09起):本集将其作为带来新客户的典型获客渠道之一，指出它和投放广告一样，通常每月只能带来恒定数量的新客户，且同样会面临受众饱和、效能见顶的渠道衰退
-- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]]**(18:48起):本集说网络上存在一类迎合懒惰人类并在 SEO 上取得成功的内容，把权威信息提取到加载快的首屏，对人类有用但对智能体是噪音
+- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(18:48起):本集说网络上存在一类迎合懒惰人类并在 SEO 上取得成功的内容，把权威信息提取到加载快的首屏，对人类有用但对智能体是噪音
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(18:48起):本集说前 AI 时代存在大量迎合懒人同时做 SEO 成功的聚合页面，而内容方会继续花钱做 SEO 吸引人类流量但同时切断智能体访问
 
 ## ① 提到它的金句
@@ -30,7 +30,7 @@ unlisted: true
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念(提及)
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]] — 作为概念(提及)
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为概念(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为概念(提及)
 
 ## ③ 关联
@@ -39,7 +39,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Google]] · [[Lenny]] · [[Andrew]] · [[LLM]] · [[Sonia]] · [[Parag]] · [[Parallel]] · [[智能体]] · [[搜索智能体]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":36,"Google":28,"Lenny":65,"Andrew":3,"LLM":18,"Sonia":2,"Parag":2,"Parallel":4,"智能体":141,"搜索智能体":2}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":37,"Google":29,"Lenny":65,"Andrew":3,"LLM":19,"Sonia":2,"Parag":2,"Parallel":4,"智能体":146,"搜索智能体":2}</script>
 
 <script>
 (function(){

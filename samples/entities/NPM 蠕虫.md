@@ -31,7 +31,7 @@ unlisted: true
 
 [[Dylan]] · [[Firas]] · [[Joel de la Garza]] · [[Truffle Security]] · [[Socket]] · [[Hugging Face]] · [[NPM]] · [[前沿模型]] · [[软件供应链]] · [[零日漏洞]]
 
-<script type="application/json" class="pd-epn">{"Dylan":1,"Firas":1,"Joel de la Garza":4,"Truffle Security":1,"Socket":1,"Hugging Face":10,"NPM":2,"前沿模型":4,"软件供应链":2,"零日漏洞":1}</script>
+<script type="application/json" class="pd-epn">{"Dylan":1,"Firas":1,"Joel de la Garza":4,"Truffle Security":1,"Socket":1,"Hugging Face":11,"NPM":2,"前沿模型":4,"软件供应链":2,"零日漏洞":1}</script>
 
 <script>
 (function(){

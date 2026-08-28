@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]]
+[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Jason Cohen]] [[Jason Lemkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Substack":1,"Airbnb":9,"Medium":1,"Stripe":19,"简报":2,"播客":1,"付费墙":1,"林迪效应":1,"幸福基线":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Substack":1,"Airbnb":9,"Medium":1,"Stripe":20,"简报":2,"播客":1,"付费墙":1,"林迪效应":1,"幸福基线":1}</script>
 
 <script>
 (function(){

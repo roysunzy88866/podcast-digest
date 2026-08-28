@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[ChatGPT]] · [[Garrett Lord]] · [[Theo Jaffe]] · [[Harry Stebbings]] · [[Lenny]] · [[Sriram Krishnan]] · [[Andrew MacDonald]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Anthropic":70,"OpenAI":63,"ChatGPT":36,"Garrett Lord":1,"Theo Jaffe":3,"Harry Stebbings":5,"Lenny":65,"Sriram Krishnan":1,"Andrew MacDonald":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":72,"OpenAI":65,"ChatGPT":37,"Garrett Lord":1,"Theo Jaffe":3,"Harry Stebbings":5,"Lenny":65,"Sriram Krishnan":1,"Andrew MacDonald":1}</script>
 
 <script>
 (function(){

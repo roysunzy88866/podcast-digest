@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]]**(14:59起):本集演示了 Manager Bot 作为主屏幕上的 AI 助手，会主动推送建议（如补全缺失商品描述），能生成菜单工程、劳动力预测等完整工件，帮卖家做真活
+- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]]**(14:59起):本集演示了 Manager Bot 作为主屏幕上的 AI 助手，会主动推送建议（如补全缺失商品描述），能生成菜单工程、劳动力预测等完整工件，帮卖家做真活
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]] — 作为概念
+- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]] — 作为概念
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Willem Avé]] · [[Square]] · [[Block]] · [[业务单元模式]] · [[职能制]] · [[DRI]] · [[智能体]] · [[聊天机器人]] · [[工件]] · [[TAM]]
 
-<script type="application/json" class="pd-epn">{"Willem Avé":1,"Square":3,"Block":2,"业务单元模式":1,"职能制":1,"DRI":2,"智能体":141,"聊天机器人":1,"工件":1,"TAM":1}</script>
+<script type="application/json" class="pd-epn">{"Willem Avé":1,"Square":3,"Block":2,"业务单元模式":1,"职能制":1,"DRI":2,"智能体":146,"聊天机器人":1,"工件":1,"TAM":2}</script>
 
 <script>
 (function(){

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]]**(00:47起):本集说 Stripe Minions 是一种一次性编码智能体系统，给它一个提示词，它去构建、跑完 CI/CD 和所有测试，然后由人来审查，不迭代、不进入规划模式。内部核心指标是有多少 PR 由 Minions 创建。
+- **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(00:47起):本集说 Stripe Minions 是一种一次性编码智能体系统，给它一个提示词，它去构建、跑完 CI/CD 和所有测试，然后由人来审查，不迭代、不进入规划模式。内部核心指标是有多少 PR 由 Minions 创建。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]] — 作为概念
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为概念
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[David George]] · [[Will Gabrick]] · [[Stripe]] · [[智能体]] · [[智能体商务]] · [[稳定币]] · [[微交易]] · [[Tempo]] · [[link agent wallet]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"David George":2,"Will Gabrick":1,"Stripe":19,"智能体":141,"智能体商务":1,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":15}</script>
+<script type="application/json" class="pd-epn">{"David George":2,"Will Gabrick":1,"Stripe":20,"智能体":146,"智能体商务":1,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":15}</script>
 
 <script>
 (function(){

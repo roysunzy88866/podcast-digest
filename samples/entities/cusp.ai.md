@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《物理学如何塑造下一代AI架构》]]**(01:04起):本集说 cusp.ai 是 Max Welling 联合创办的材料设计平台，用生成式 AI 搜索已知和未知材料，核心是一个智能体编排从文献检索、分子生成、筛选模拟到实验验证的完整计算流水线
+- **[[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《用物理设计新材料：Max Welling 的 AI for Science 双向之路》]]**(01:04起):本集说 cusp.ai 是 Max Welling 联合创办的材料设计平台，用生成式 AI 搜索已知和未知材料，核心是一个智能体编排从文献检索、分子生成、筛选模拟到实验验证的完整计算流水线
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《物理学如何塑造下一代AI架构》]] — 作为被讨论公司
+- [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|《用物理设计新材料：Max Welling 的 AI for Science 双向之路》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Charrington]] · [[Max Welling]] · [[智能体]] · [[等变性]] · [[扩散模型]] · [[自发对称性破缺]] · [[波]] · [[机器学习力场]] · [[分子动力学]] · [[金属有机框架]]
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":1,"Max Welling":1,"智能体":141,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":1,"Max Welling":1,"智能体":146,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
 
 <script>
 (function(){

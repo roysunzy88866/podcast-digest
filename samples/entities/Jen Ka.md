@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为联合主持
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为联合主持
 
 ## ③ 他谈到的
 
@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]] [[Ryan Carson]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":1,"OpenAI":63,"Anthropic":70,"Salesforce":8,"Cursor":35,"GrokBot":2,"Town":2,"Decagon":3,"Replit":11,"智能体":141}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":1,"OpenAI":65,"Anthropic":72,"Salesforce":8,"Cursor":37,"GrokBot":2,"Town":2,"Decagon":3,"Replit":11,"智能体":146}</script>
 
 <script>
 (function(){

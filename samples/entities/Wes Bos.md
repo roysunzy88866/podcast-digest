@@ -25,7 +25,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]] — 作为主持
+- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为主持
 
 ## ③ 他谈到的
 
@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式 UI":1,"vibe coding":23,"智能体":141,"迭代循环":1,"LLM":18,"本地模型":1,"个人品牌":1,"简报":2,"上下文":11,"Cursor":35}</script>
+<script type="application/json" class="pd-epn">{"生成式 UI":1,"vibe coding":23,"智能体":146,"迭代循环":1,"LLM":19,"本地模型":1,"个人品牌":1,"简报":2,"上下文":11,"Cursor":37}</script>
 
 <script>
 (function(){

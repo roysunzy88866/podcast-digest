@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(45:06起):本集广告中提到 Brex 是面向创始人的智能金融平台，有一队 AI 智能体处理手动金融任务
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(08:58起):本集提到 Brex 的创始人 Pedro Francesi 也参与了 a16z 的无国界晚宴，作为在硅谷成功的拉美裔创始人帮助后来者
-- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]]**(00:38起):本集说 Brex 是 Michael 作为第一名员工在厨房里加入的公司，最初叫 Vyond，定位是第一张面向初创企业的公司卡加费用管理，后经历 SVB 崩溃事件并吸引超十亿美元存款。
+- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(00:38起):本集说 Brex 是 Michael 作为第一名员工在厨房里加入的公司，最初叫 Vyond，定位是第一张面向初创企业的公司卡加费用管理，后经历 SVB 崩溃事件并吸引超十亿美元存款。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
-- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]] — 作为被讨论公司
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[Stripe]] · [[Databricks]] · [[AI]] · [[Claude]] · [[Salesforce]] · [[Lenny]] · [[Gabriel Vasquez]] · [[Michael Tannenbaum]] · [[Kiriti Badam]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":63,"Stripe":19,"Databricks":6,"AI":9,"Claude":33,"Salesforce":8,"Lenny":65,"Gabriel Vasquez":1,"Michael Tannenbaum":1,"Kiriti Badam":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":65,"Stripe":20,"Databricks":7,"AI":9,"Claude":35,"Salesforce":8,"Lenny":65,"Gabriel Vasquez":1,"Michael Tannenbaum":1,"Kiriti Badam":1}</script>
 
 <script>
 (function(){

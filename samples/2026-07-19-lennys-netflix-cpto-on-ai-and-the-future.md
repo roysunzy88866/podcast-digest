@@ -149,7 +149,7 @@ AI 一定会参与制作,但人类是骨干 <button class="pd-ts" data-t="64:09"
 
 - [[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|MercadoLibre 的 18000 人工程团队怎么管]]<span class="pd-rz">同概念:智能体 (agents)、主观能动性 (agency)</span>
 - [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同概念:智能体 (agents)</span>
-- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同概念:系统思维 (systems thinking)</span>
+- [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

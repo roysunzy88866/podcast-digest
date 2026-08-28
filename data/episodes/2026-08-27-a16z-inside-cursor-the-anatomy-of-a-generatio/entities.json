@@ -1,0 +1,1330 @@
+{
+  "episode_id": "2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio",
+  "podcast": "The a16z Show",
+  "date": "2026-08-27",
+  "tags": [
+    "AI 编程",
+    "创业投资",
+    "产品聚焦",
+    "竞争策略",
+    "并购与招聘"
+  ],
+  "categories": [
+    "AI 编程",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "sarah-wang",
+      "type": "person",
+      "role": "host",
+      "name": "Sarah Wang",
+      "file": "Sarah Wang",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            66.014,
+            84.424
+          ],
+          "quote": "In this episode, Martin Casado, Sarah Wang, and Matt Bornstein look back at the decisions that shaped Cursor from its earliest days, building a standalone product instead of a plugin, resisting the push into enterprise sales too early, and staying relentlessly focused even as the competitive landscape changed around them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "matt-bornstein",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt Bornstein",
+      "file": "Matt Bornstein",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            66.014,
+            84.424
+          ],
+          "quote": "In this episode, Martin Casado, Sarah Wang, and Matt Bornstein look back at the decisions that shaped Cursor from its earliest days, building a standalone product instead of a plugin, resisting the push into enterprise sales too early, and staying relentlessly focused even as the competitive landscape changed around them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "martin-casado",
+      "type": "person",
+      "role": "cohost",
+      "name": "Martin Casado",
+      "file": "Martin Casado",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            66.014,
+            84.424
+          ],
+          "quote": "In this episode, Martin Casado, Sarah Wang, and Matt Bornstein look back at the decisions that shaped Cursor from its earliest days, building a standalone product instead of a plugin, resisting the push into enterprise sales too early, and staying relentlessly focused even as the competitive landscape changed around them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说 Cursor 是一个 AI 编程编辑器，最初 fork 了 VS Code 做独立产品而非插件；在两年内从 IDE 演进到智能体平台再到模型平台，自我颠覆速度极快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            63.412,
+            65.273
+          ],
+          "quote": "And yet, Cursor broke through.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            66.014,
+            84.424
+          ],
+          "quote": "In this episode, Martin Casado, Sarah Wang, and Matt Bornstein look back at the decisions that shaped Cursor from its earliest days, building a standalone product instead of a plugin, resisting the push into enterprise sales too early, and staying relentlessly focused even as the competitive landscape changed around them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 21,
+          "t": [
+            99.091,
+            110.597
+          ],
+          "quote": "It's a conversation about Cursor, but also a broader look at what it takes to build a defining company in a market where the technology, competition, and conventional wisdom change almost overnight.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 24,
+          "t": [
+            125.129,
+            135.32
+          ],
+          "quote": "But can you walk us through what was going on in the Q1, Q2 of that year and maybe how you guys started working with Cursor well before we ever partnered officially with them?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            203.057,
+            204.799
+          ],
+          "quote": "And like Cursor was somewhere in between.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            241.611,
+            247.056
+          ],
+          "quote": "You know, it just kind of turned out that the thing that Cursor was doing was the right thing to do, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            265.589,
+            272.634
+          ],
+          "quote": "And this is something that I remember Michael and Aman saying a lot and saying, just saying very clearly from the earliest days of Cursor saying,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 70,
+          "t": [
+            292.268,
+            294.77
+          ],
+          "quote": "This is, like, really what the Cursor guys thought from the very beginning.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 75,
+          "t": [
+            314.865,
+            323.411
+          ],
+          "quote": "The Cursor team kind of stood out because not only did they sort of align with the things that we thought about the world, more importantly, smarter people than us and engineers working.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 122,
+          "t": [
+            511.739,
+            519.907
+          ],
+          "quote": "I remember when we were trying to convince the Cursor team to let us invest in their company, I asked Michael once what he did for fun outside of work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            566.53,
+            568.151
+          ],
+          "quote": "Half the team actually used Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            813.391,
+            815.873
+          ],
+          "quote": "We literally had a cursor team on our team.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 214,
+          "t": [
+            892.929,
+            896.21
+          ],
+          "quote": "And they talked, like, a lot about Cursor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            897.03,
+            906.439
+          ],
+          "quote": "And I think John's thing was like, oh, yeah, I tried Cursor, but, like, our code base, I think it was at Anthropic at the time, like, our, like, monorepo just, like, immediately killed it, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1007.821,
+            1009.222
+          ],
+          "quote": "Did we invest in every cursor round?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1144.894,
+            1159.741
+          ],
+          "quote": "And I think another thing that the Cursor team probably doesn't get, you know, the level of credit for is to the extent they cannibalized themselves so dramatically in like a Reed Hastings type way in a matter of two years, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1327.914,
+            1332.357
+          ],
+          "quote": "So, Martine, how do you think Cursor really became a sales-driven company or a company that's good at sales?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1338.702,
+            1341.124
+          ],
+          "quote": "They literally set up enterprise at Cursor.com.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1380.344,
+            1381.706
+          ],
+          "quote": "And, you know, Cursor is really a scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2063.923,
+            2070.367
+          ],
+          "quote": "And if you think about the Cursor team telling us, and they actually beat every forecast they ever gave us, but",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2088.199,
+            2096.184
+          ],
+          "quote": "There's another thing I would say also, which I think between kind of Elon and Cursor, like SpaceX and Cursor, is like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2115.834,
+            2119.52
+          ],
+          "quote": "Cursor is also really good at doing M&A, like doing small talk.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2156.48,
+            2160.003
+          ],
+          "quote": "And what was really nice about Cursor, they were just never worried about like operational complexity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2226.502,
+            2228.423
+          ],
+          "quote": "I don't know how many, what that stat is for Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2238.31,
+            2250.918
+          ],
+          "quote": "Actually, and just seeing firsthand the leverage that they got from bringing in someone who was a founder, CEO effectively, but slotted really well into the cursor culture and just take that to great heights and add to the acceleration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2273.006,
+            2277.488
+          ],
+          "quote": "But, like, Cursor kind of did this first, and they weren't just, like, slotting people into IC roles.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集提到早期 AI 编码领域有一派公司专注于智能体（agents），而 Cursor 后来从 IDE 转向了智能体平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            172.756,
+            184.9
+          ],
+          "quote": "Like you had this sort of early signs that you could do meaningful work with AI, but agents didn't really exist, loops didn't really exist, reasoning didn't really exist at the time, so it's sort of a crazy time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 46,
+          "t": [
+            198.112,
+            203.017
+          ],
+          "quote": "And on the other hand, you had very presciently, by the way, companies just focus on agents, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            962.299,
+            967.805
+          ],
+          "quote": "And, you know, Cognition was a phenomenal company, actually was making real waves with agents, and they've done a great job of that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": true,
+      "how_described": "本集说 Copilot 是 Microsoft 旗下的领先编码套件，在早期遥遥领先，拥有 VS Code、Office、GitHub 等全部生态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            56.649,
+            62.712
+          ],
+          "quote": "Microsoft owned GitHub, VS Code, Copilot, and had access to some of the world's best AI models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            153.675,
+            157.56
+          ],
+          "quote": "Now, the leading coding harness was Copilot by like a mile, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 38,
+          "t": [
+            161.485,
+            163.868
+          ],
+          "quote": "They had Copilot, they had Office, they had VS Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 171,
+          "t": [
+            728.794,
+            730.016
+          ],
+          "quote": "Because you mentioned Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            950.626,
+            952.488
+          ],
+          "quote": "You know, of course, Copilot was the big one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1071.625,
+            1073.306
+          ],
+          "quote": "Microsoft Copilot was the first one.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说 Microsoft 拥有 GitHub、VS Code、Copilot，并且能拿到 OpenAI 的模型权重，是 AI 编码领域最大的在位者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            56.649,
+            62.712
+          ],
+          "quote": "Microsoft owned GitHub, VS Code, Copilot, and had access to some of the world's best AI models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            158.982,
+            161.465
+          ],
+          "quote": "Microsoft was doing their Microsoft thing, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 173,
+          "t": [
+            739.405,
+            756.15
+          ],
+          "quote": "You know, Matt led the early deal, and he saw something a lot of people didn't, which was this, which is, if you looked at the competitive landscape, it was almost silly, which is you had a large incumbent, which is Microsoft, that had a company at scale, that had the OpenAI weights, and they owned VS Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            851.525,
+            864.855
+          ],
+          "quote": "It was just kind of crazy to think you're going to fork something from Microsoft, who owns the thing, and then you're going to, you know, compete with them with smaller models, even they own the OpenAI weights, and they have enterprise Salesforce, and they have...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1071.625,
+            1073.306
+          ],
+          "quote": "Microsoft Copilot was the first one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1760.279,
+            1770.806
+          ],
+          "quote": "I mean, imagine, like, starting competing with Microsoft, ending up competing with, say, Anthropic, you know, both of these kind of, you know, mega companies with tremendous amount of capital and power and distribution.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Claude Code 于 2025 年 5 月强势推出，是 Cursor 面对的竞争轮换角色之一，但 Michael 对此表示'不吓倒我们'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.979,
+            12.841
+          ],
+          "quote": "I asked Michael, I was like, what do you think about Claude Code?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1030.731,
+            1034.613
+          ],
+          "quote": "But the, or actually, no, it was the D. So Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1035.713,
+            1040.955
+          ],
+          "quote": "Not to take us on a time travel trip again, but Claude Code came out May 2025 with a splash.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1046.137,
+            1054.92
+          ],
+          "quote": "And I remember there was around, I think, a couple months after, three months after that, and I asked Michael, I was like, what do you think about Claude Code?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1073.586,
+            1077.327
+          ],
+          "quote": "Claude Code is one of a rotating set of characters.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "type": "company",
+      "role": "company",
+      "name": "Windsurf",
+      "file": "Windsurf",
+      "primary": false,
+      "how_described": "本集提到 Windsurf 在 YC 圈子里获得大量用户使用，形成了一波运动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            952.508,
+            954.17
+          ],
+          "quote": "And then remember the whole Windsurf thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            954.21,
+            961.698
+          ],
+          "quote": "So, like, Windsurf actually did this very smart thing where they went to YC, and there was a lot of YC users using it, so you kind of had this kind of whole movement on Windsurf.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集说 Cognition 是一家很棒的公司，用智能体（agents）掀起了真正的波澜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            962.299,
+            967.805
+          ],
+          "quote": "And, you know, Cognition was a phenomenal company, actually was making real waves with agents, and they've done a great job of that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Cursor 不需要在模型上与 Anthropic 和 OpenAI 竞争，因为人类与模型之间的界面才是关键；还提到 Anthropic 的 John Schulman 曾试用 Cursor",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.571,
+            3.593
+          ],
+          "quote": "We don't need to compete with Anthropic and OpenAI on models right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            257.244,
+            261.206
+          ],
+          "quote": "But it's like, we don't need to compete with Anthropic and OpenAI on models right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            897.03,
+            906.439
+          ],
+          "quote": "And I think John's thing was like, oh, yeah, I tried Cursor, but, like, our code base, I think it was at Anthropic at the time, like, our, like, monorepo just, like, immediately killed it, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1760.279,
+            1770.806
+          ],
+          "quote": "I mean, imagine, like, starting competing with Microsoft, ending up competing with, say, Anthropic, you know, both of these kind of, you know, mega companies with tremendous amount of capital and power and distribution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2264.723,
+            2268.445
+          ],
+          "quote": "It's funny, right, because Anthropic kind of gets that tag a lot now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2268.465,
+            2272.986
+          ],
+          "quote": "It's like, oh, like, exec at company A just went to take an IC role at Anthropic.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 Cursor 不需要在模型上与 Anthropic 和 OpenAI 竞争，人机界面才是差异化所在；还提到 Microsoft 拥有 OpenAI 权重",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.571,
+            3.593
+          ],
+          "quote": "We don't need to compete with Anthropic and OpenAI on models right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            257.244,
+            261.206
+          ],
+          "quote": "But it's like, we don't need to compete with Anthropic and OpenAI on models right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            323.551,
+            330.777
+          ],
+          "quote": "At the time, the leading AI companies like OpenAI, MidJourney, Replicate, a bunch of others, all kind of use this and subscribe to this model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 173,
+          "t": [
+            739.405,
+            756.15
+          ],
+          "quote": "You know, Matt led the early deal, and he saw something a lot of people didn't, which was this, which is, if you looked at the competitive landscape, it was almost silly, which is you had a large incumbent, which is Microsoft, that had a company at scale, that had the OpenAI weights, and they owned VS Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            851.525,
+            864.855
+          ],
+          "quote": "It was just kind of crazy to think you're going to fork something from Microsoft, who owns the thing, and then you're going to, you know, compete with them with smaller models, even they own the OpenAI weights, and they have enterprise Salesforce, and they have...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "plugins",
+      "type": "concept",
+      "role": "concept",
+      "name": "插件 (plugins)",
+      "file": "插件",
+      "primary": true,
+      "how_described": "本集说当时有一百万家公司在做插件，但 Cursor 认为如果你真的相信产品就永远不会做插件，因为那样你就成了别人产品的一部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            205.78,
+            210.124
+          ],
+          "quote": "And not only models, there were a million companies doing plugins too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            231.38,
+            234.984
+          ],
+          "quote": "People doing plugins on the other side were sort of saying, hey, let's not toss out the whole IDE.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 88,
+          "t": [
+            368.327,
+            371.53
+          ],
+          "quote": "Was actually, and to your point on there are a lot of plugins, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            484.883,
+            488.384
+          ],
+          "quote": "So their plugins and their services and their whatever, whatever, whatever.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ide",
+      "type": "concept",
+      "role": "concept",
+      "name": "IDE",
+      "file": "IDE",
+      "primary": true,
+      "how_described": "本集说 Cursor 最初是做 IDE 的，后来才转向智能体平台和模型平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            231.38,
+            234.984
+          ],
+          "quote": "People doing plugins on the other side were sort of saying, hey, let's not toss out the whole IDE.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1159.761,
+            1160.622
+          ],
+          "quote": "So they were first in IDE.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vs-code",
+      "type": "company",
+      "role": "company",
+      "name": "VS Code",
+      "file": "VS Code",
+      "primary": false,
+      "how_described": "本集提到 VS Code 是 Microsoft 拥有的编辑器，Cursor 选择直接 fork 它来做独立产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            56.649,
+            62.712
+          ],
+          "quote": "Microsoft owned GitHub, VS Code, Copilot, and had access to some of the world's best AI models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            161.485,
+            163.868
+          ],
+          "quote": "They had Copilot, they had Office, they had VS Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 89,
+          "t": [
+            371.55,
+            383.399
+          ],
+          "quote": "And so there was this maybe more consensus thought that a VS Code fork versus the plugin into VS Code would, one would be better for enterprise and it wasn't the former, it would be the latter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            739.405,
+            756.15
+          ],
+          "quote": "You know, Matt led the early deal, and he saw something a lot of people didn't, which was this, which is, if you looked at the competitive landscape, it was almost silly, which is you had a large incumbent, which is Microsoft, that had a company at scale, that had the OpenAI weights, and they owned VS Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            915.347,
+            926.841
+          ],
+          "quote": "You know, we just look for these little data points where it's like, like actually like doing a plugin or just like writing on top of VS Code is not, it's clearly not going to work because like the smartest people in the world have tried it and it doesn't work, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集提到 Microsoft 拥有 GitHub，有上亿开发者，是 AI 编码领域的巨大分发优势",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            56.649,
+            62.712
+          ],
+          "quote": "Microsoft owned GitHub, VS Code, Copilot, and had access to some of the world's best AI models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            869.218,
+            871.72
+          ],
+          "quote": "It's like... GitHub.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            871.74,
+            872.46
+          ],
+          "quote": "They have GitHub.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "a16z",
+      "file": "a16z",
+      "primary": true,
+      "how_described": "本集说 a16z 团队从 A 轮开始参与了 Cursor 的每一轮投资，金额逐轮增加，Sarah 联合领投了 B 轮和 C 轮",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 520,
+          "t": [
+            2301.163,
+            2304.004
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z podcast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2315.947,
+            2321.528
+          ],
+          "quote": "Follow us on X at A16Z, and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2329.673,
+            2339.558
+          ],
+          "quote": "It should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2340.258,
+            2344.94
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2345.46,
+            2352.063
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "base-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础模型 (base model)",
+      "file": "基础模型",
+      "primary": false,
+      "how_described": "本集提到当时有一派公司认为赢得编码的唯一方法是构建一个编码专用的基础模型（base model），但 Cursor 没有走这条路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            191.804,
+            197.611
+          ],
+          "quote": "So on one hand, you had those that are like, the only way to win coding is to build a base model, and it has to be a coding-specific one.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (reasoning)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集回顾 2024 年初时提到，推理（reasoning）在当时并不真正存在",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            172.756,
+            184.9
+          ],
+          "quote": "Like you had this sort of early signs that you could do meaningful work with AI, but agents didn't really exist, loops didn't really exist, reasoning didn't really exist at the time, so it's sort of a crazy time.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "graphite",
+      "type": "company",
+      "role": "company",
+      "name": "Graphite",
+      "file": "Graphite",
+      "primary": false,
+      "how_described": "本集提到 Graphite 收购案是 Cursor 开始从战略方向角度考虑的收购，而且是一个大得多的收购",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 495,
+          "t": [
+            2174.155,
+            2178.742
+          ],
+          "quote": "Like the Graphite acquisition where they started thinking about acquisitions in terms of strategic direction.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "koala",
+      "type": "company",
+      "role": "company",
+      "name": "Koala",
+      "file": "Koala",
+      "primary": false,
+      "how_described": "本集提到 Cursor 把 Koala 的 Tito 招进来，作为一个通过并购引入创始级别人才的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 507,
+          "t": [
+            2229.684,
+            2237.67
+          ],
+          "quote": "But I remember, and they have so many great founders there, but I remember when they brought on Tito from Koala and then Adam Ward on the talent side.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集将 Cursor 与 SpaceX 做类比，说两者都有快速行动、追求大市场、在不可能的竞争对手脚下获胜的特征",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 469,
+          "t": [
+            2042.673,
+            2048.035
+          ],
+          "quote": "I mean, there's a funny analogy with our experience on the SpaceX side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2050.577,
+            2055.879
+          ],
+          "quote": "Back then, it was fully a launch business, but the SpaceX team was like, no, we're going to launch global communications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2088.199,
+            2096.184
+          ],
+          "quote": "There's another thing I would say also, which I think between kind of Elon and Cursor, like SpaceX and Cursor, is like...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "starlink",
+      "type": "company",
+      "role": "company",
+      "name": "Starlink",
+      "file": "Starlink",
+      "primary": false,
+      "how_described": "本集提到 2019 年 SpaceX 说要发射全球通信（Starlink），当时一无所有但后来做到了，类比 Cursor 的前瞻性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 473,
+          "t": [
+            2057.76,
+            2061.902
+          ],
+          "quote": "They had nothing at the time, no Starlink satellites in the sky.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2071.848,
+            2085.037
+          ],
+          "quote": "There's just so many Elon-ish characteristics of moving fast, going after large markets, winning them in the feet of impossible competitors, you know, Comcast, right, in the Starlink case, that there's so many parallels.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llama-3",
+      "type": "company",
+      "role": "company",
+      "name": "Llama 3",
+      "file": "Llama 3",
+      "primary": false,
+      "how_described": "本集提到 2024 年初的领先模型包括 Llama 3",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            142.884,
+            146.928
+          ],
+          "quote": "The leading models at the time were GPT-4.0, Claude 3, and Llama 3.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 29,
+          "t": [
+            148.149,
+            148.89
+          ],
+          "quote": "Llama 3?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "type": "company",
+      "role": "company",
+      "name": "MidJourney",
+      "file": "MidJourney",
+      "primary": false,
+      "how_described": "本集提到 MidJourney 是当时领先的 AI 公司之一，使用了某种订阅模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            323.551,
+            330.777
+          ],
+          "quote": "At the time, the leading AI companies like OpenAI, MidJourney, Replicate, a bunch of others, all kind of use this and subscribe to this model.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "replicate",
+      "type": "company",
+      "role": "company",
+      "name": "Replicate",
+      "file": "Replicate",
+      "primary": false,
+      "how_described": "本集提到 Replicate 是当时领先的 AI 公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            323.551,
+            330.777
+          ],
+          "quote": "At the time, the leading AI companies like OpenAI, MidJourney, Replicate, a bunch of others, all kind of use this and subscribe to this model.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型 (models)",
+      "file": "模型",
+      "primary": true,
+      "how_described": "本集说 Cursor 真正紧张的时刻总是围绕模型——比如 Opus 4.5 出来的时候；还讨论了 Cursor 后来从用户端获取数据后构建自己的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.571,
+            3.593
+          ],
+          "quote": "We don't need to compete with Anthropic and OpenAI on models right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 13,
+          "t": [
+            38.439,
+            41.821
+          ],
+          "quote": "Now they have the asset, the data, the know-how to build their own models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            56.649,
+            62.712
+          ],
+          "quote": "Microsoft owned GitHub, VS Code, Copilot, and had access to some of the world's best AI models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            142.884,
+            146.928
+          ],
+          "quote": "The leading models at the time were GPT-4.0, Claude 3, and Llama 3.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 48,
+          "t": [
+            205.78,
+            210.124
+          ],
+          "quote": "And not only models, there were a million companies doing plugins too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            220.612,
+            226.176
+          ],
+          "quote": "And in this case, model training was a very reasonable thing to do because the models weren't that good at coding yet.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            257.244,
+            261.206
+          ],
+          "quote": "But it's like, we don't need to compete with Anthropic and OpenAI on models right now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 69,
+          "t": [
+            287.025,
+            291.548
+          ],
+          "quote": "Probably you could just take a pseudocode block from an old paper and, like, the models now would implement that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 96,
+          "t": [
+            414.935,
+            419.779
+          ],
+          "quote": "So what they said at the time was, it turns out that you don't speak to these models in code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            851.525,
+            864.855
+          ],
+          "quote": "It was just kind of crazy to think you're going to fork something from Microsoft, who owns the thing, and then you're going to, you know, compete with them with smaller models, even they own the OpenAI weights, and they have enterprise Salesforce, and they have...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1116.175,
+            1120.818
+          ],
+          "quote": "I will say they were definitely a couple of oh fuck moments, but they were always around models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1142.613,
+            1144.334
+          ],
+          "quote": "These models were getting so good so fast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1296.488,
+            1309.432
+          ],
+          "quote": "And in this case, like, I think the strategy where they went and got all the users in record time, now they have the assets, the data, the know-how, et cetera, to build their own models, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1707.631,
+            1712.657
+          ],
+          "quote": "It was like recruiting, go to market, understanding business models, biz dev.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1811.404,
+            1817.089
+          ],
+          "quote": "Yeah, it's the only time left to any of us, by the way, you know, now that the models have like, you know, brought the post-scarcity future to us.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

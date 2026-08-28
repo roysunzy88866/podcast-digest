@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>18</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>19</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,11 +23,12 @@ unlisted: true
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(04:20起):本集说它彻底改变了公司的架构和产品；CEO 现在每天用它递归扫描全公司的 Slack、Notion 和 PR，生成直观的『船长日志』，让组织层级变扁平。
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(01:48起):本集把 LLM 说成是 OpenAI 和 Anthropic 等初创公司为了尽快盈利而必须重金押注的路线，并指出 Demis 认为仅靠 LLM 不足以达成真正的通用人工智能。
 - **[[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]]**(08:48起):本集强调它只是个概率上的下一个词预测器,自己没法执行工具,它真正做的是把工具需要的参数提取出来交给你去执行。
-- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]]**(03:27起):本集说 LLM 里的解决方案都是已有的方案，当遇到全新问题时模型能帮你加速想但不能完全替你解决
+- **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(03:27起):本集说 LLM 里的解决方案都是已有的方案，当遇到全新问题时模型能帮你加速想但不能完全替你解决
 - **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]]**(22:38起):本集说 LLM 不仅仅是生成媒体的工具，它本身就是一种全新的叙事媒介（new medium for storytelling），就像收音机、电影刚出现时一样，还没人知道什么形式会行得通。
-- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]]**(10:26起):本集提到在 Cursor 中不是所有任务都需要最新的 LLM 模型，可以按需挑选不同模型来执行。
-- **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《一家百亿对冲基金如何全员强推 AI》]]**(10:40起):本集说持续拥有处理风险会议逐字稿的 LLM，帮助记忆、提供洞察并起到一定预测作用；最终目标是把所有部门生成的文本跟数值数据打通
-- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]]**(01:50起):本集将 LLM 描述为人们未来获取新闻和信息的主要渠道，正在不可避免地吞并发布者的内容，但其输出质量（尤其在政治、医疗等敏感话题上）存在系统性问题
+- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(10:26起):本集提到在 Cursor 中不是所有任务都需要最新的 LLM 模型，可以按需挑选不同模型来执行。
+- **[[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]]**(10:40起):本集说持续拥有处理风险会议逐字稿的 LLM，帮助记忆、提供洞察并起到一定预测作用；最终目标是把所有部门生成的文本跟数值数据打通
+- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(01:50起):本集将 LLM 描述为人们未来获取新闻和信息的主要渠道，正在不可避免地吞并发布者的内容，但其输出质量（尤其在政治、医疗等敏感话题上）存在系统性问题
+- **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(03:01起):本集说现在每个人都在跟自己选择的 LLM 对话，这非常孤独且不是视觉化的
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(15:32起):本集反复出现，被描述为使用时不管结果对不对都要付费的'文本机器'，提供中位数答案，幻觉在数学上保证会发生，是所有数据中心建设的唯一服务对象。
 
 ## ① 提到它的金句
@@ -62,7 +63,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*18 集*
+*19 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念
@@ -76,20 +77,21 @@ unlisted: true
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为概念
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]] — 作为概念
-- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《Wes Bos 谈 AI 编程时代如何脱颖而出》]] — 作为概念
+- [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为概念
 - [[2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi|《Portola：当AI变成即兴演员，不是助手》]] — 作为概念
-- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为概念(提及)
-- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《一家百亿对冲基金如何全员强推 AI》]] — 作为概念
-- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]] — 作为概念
+- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为概念(提及)
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为概念
+- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为概念
+- [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为概念(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Replit]] · [[Claude]] · [[Google]] · [[OpenAI]] · [[Cursor]] · [[主观能动性]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Replit]] · [[Google]] · [[OpenAI]] · [[Cursor]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Lenny":65,"Anthropic":70,"ChatGPT":36,"Replit":11,"Claude":33,"Google":28,"OpenAI":63,"Cursor":35,"主观能动性":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"Anthropic":72,"ChatGPT":37,"Claude":35,"Replit":11,"Google":29,"OpenAI":65,"Cursor":37,"主观能动性":15}</script>
 
 <script>
 (function(){

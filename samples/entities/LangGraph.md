@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(04:46起):LangChain 底层的开源框架,提供核心的节点、边和状态原语(像乐高积木),支持在执行的每一步设置检查点以实现断点恢复与短期/长期记忆,并可与确定性工作流深度组合。
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(36:38起):本集将 LangGraph 作为开放框架/智能体控制框架的代表之一，你可以在里面互换模型
 - **[[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]]**(02:29起):本集提到旧版的 Scout 1.0 解析图就是在这个框架下构建的，图里的每个节点都有各自的模型和评估。
-- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]]**(28:17起):本集提到 LangGraph 作为智能体编排框架的例子之一，TrustWise 对其是不可知的
+- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(28:17起):本集提到 LangGraph 作为智能体编排框架的例子之一，TrustWise 对其是不可知的
 
 ## ② 出现在这些集
 
@@ -25,7 +25,7 @@ unlisted: true
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为概念(提及)
-- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]] — 作为被讨论公司(提及)
+- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[harness]] · [[Anthropic]] · [[Deep Agents]] · [[LangChain]] · [[护栏]] · [[中间件]] · [[文件系统]] · [[Brendan McManus]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Claude Code":36,"harness":16,"Anthropic":70,"Deep Agents":3,"LangChain":3,"护栏":28,"中间件":2,"文件系统":3,"Brendan McManus":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Claude Code":37,"harness":16,"Anthropic":72,"Deep Agents":3,"LangChain":3,"护栏":30,"中间件":2,"文件系统":3,"Brendan McManus":1}</script>
 
 <script>
 (function(){

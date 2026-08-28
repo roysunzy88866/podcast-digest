@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-26-rework-one-way-doors|《37signals 的决策哲学：别停，继续开》]] — 作为主持
+- [[2026-08-26-rework-one-way-doors|《37signals 的快决策哲学：五分钟做决定，别回头看》]] — 作为主持
 
 ## ③ 他谈到的
 

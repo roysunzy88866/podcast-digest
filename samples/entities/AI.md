@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>152</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>153</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,11 +19,11 @@ unlisted: true
 - **[[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]]**(10:34起):本集把 AI 定位为「催化剂」而非替代品:用于帮用户优化档案、给挑照片的建议,但绝不允许伪造照片或替用户发消息,目标是让爱与连接更人性化
 - **[[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]]**(30:07起):本集提到两方面的 AI 应用：一是内部用 AI 检查平台上每个人的年龄、开源语音安全过滤器；二是让「你制作游戏」的口号通过 AI 变得比以往任何时候都更真实——通过说话就能做出游戏。
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(01:15起):本集说 AI 有一种有趣的二分法——它非常民主化，将能力分配到世界任何地方，但同时又把发展最快的震中集中到了湾区，这加速了无国界创始人战略的演变
-- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]]**(07:51起):本集说 AI 对金融科技的真实冲击不在承销而在获客——当用户直接问 Claude 或 GPT 去哪借钱时，AI 可能只给一个答案，赢家通吃，Credit Karma、Lending Tree 等线索聚合网站的长尾流量会被挤压。
+- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(07:51起):本集说 AI 对金融科技的真实冲击不在承销而在获客——当用户直接问 Claude 或 GPT 去哪借钱时，AI 可能只给一个答案，赢家通吃，Credit Karma、Lending Tree 等线索聚合网站的长尾流量会被挤压。
 
 ## ① 提到它的金句
 
-*152 条*
+*153 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -153,6 +153,10 @@ unlisted: true
 
 ![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q7]]
 
+![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q2]]
+
+![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q4]]
+
 ![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q3]]
 
 ![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q13]]
@@ -201,15 +205,17 @@ unlisted: true
 
 ![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q6]]
 
+![[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#^q1]]
+
 ![[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#^q7]]
 
-![[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#^q8]]
+![[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#^q9]]
 
 ![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q4]]
 
 ![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q6]]
 
-![[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d#^q4]]
+![[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d#^q11]]
 
 ![[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m#^q2]]
 
@@ -227,9 +233,7 @@ unlisted: true
 
 ![[2026-08-07-talks-the-new-primitives-building-ai-native-so#^q3]]
 
-![[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an#^q4]]
-
-![[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an#^q5]]
+![[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an#^q9]]
 
 ![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q2]]
 
@@ -265,7 +269,7 @@ unlisted: true
 
 ![[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering#^q3]]
 
-![[2026-08-19-productpodcast-square-global-head-of-product-on-how-to#^q5]]
+![[2026-08-19-productpodcast-square-global-head-of-product-on-how-to#^q3]]
 
 ![[2026-08-20-devtools-dave-fletcher-from-leaddev-what-engineer#^q2]]
 
@@ -273,11 +277,9 @@ unlisted: true
 
 ![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q3]]
 
-![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q4]]
+![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q8]]
 
-![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q6]]
-
-![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q7]]
+![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q12]]
 
 ![[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here#^q5]]
 
@@ -287,29 +289,25 @@ unlisted: true
 
 ![[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#^q8]]
 
-![[2026-08-24-pg-srini-raghavan-podcast#^q2]]
-
-![[2026-08-24-pg-srini-raghavan-podcast#^q3]]
-
 ![[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#^q12]]
-
-![[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new#^q3]]
 
 ![[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p#^q5]]
 
-![[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t#^q3]]
+![[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t#^q4]]
 
-![[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t#^q5]]
+![[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic#^q4]]
 
-![[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic#^q2]]
+![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q1]]
 
-![[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic#^q7]]
+![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q4]]
 
-![[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic#^q8]]
+![[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play#^q1]]
 
-![[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic#^q10]]
+![[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play#^q2]]
 
-![[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#^q5]]
+![[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr#^q4]]
+
+![[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio#^q1]]
 
 ![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q1]]
 
@@ -329,6 +327,10 @@ unlisted: true
 
 ![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q8]]
 
+![[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi#^q8]]
+
+![[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest#^q10]]
+
 ## ② 出现在这些集
 
 *9 集*
@@ -341,7 +343,7 @@ unlisted: true
 - [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]] — 作为概念
 - [[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]] — 作为概念
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为概念(提及)
-- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]] — 作为概念(提及)
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -349,7 +351,7 @@ unlisted: true
 
 [[Lenny]] · [[Stripe]] · [[Claude]] · [[MCP]] · [[LLM]] · [[智能体]] · [[Brex]] · [[a16z]] · [[Meta]] · [[Dylan Field]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Stripe":19,"Claude":33,"MCP":16,"LLM":18,"智能体":141,"Brex":3,"a16z":5,"Meta":21,"Dylan Field":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Stripe":20,"Claude":35,"MCP":17,"LLM":19,"智能体":146,"Brex":3,"a16z":6,"Meta":21,"Dylan Field":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,59 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "00:51",
+      "speaker": "SPEAKER_02",
+      "trimmed": false,
+      "tsWas": "00:51",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 2,
+      "timestamp": "04:33",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "04:33",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 3,
+      "timestamp": "05:01",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "05:01",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 4,
+      "timestamp": "07:37",
+      "speaker": "Sarah Wang",
+      "trimmed": false,
+      "tsWas": "07:37",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 5,
+      "timestamp": "07:41",
+      "speaker": "Sarah Wang",
+      "trimmed": false,
+      "tsWas": "07:41",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 7,
+      "timestamp": "24:15",
+      "speaker": "Sarah Wang",
+      "trimmed": false,
+      "tsWas": "24:15",
+      "spkWas": "Unknown"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 6,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Another thing that the Cursor team probably doesn't get the level of credit for is to the extent they cannibalized themselves so dramatically in like a Reed Hastings type way in a matter of two years."
+    }
+  ]
+}

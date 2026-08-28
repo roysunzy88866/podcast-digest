@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]]**(00:02起):本集说 Electric 从做 Postgres 同步引擎起家，现已将同步技术泛化为智能体的数据原语，发布了开源的协作式多智能体运行时 Electric Agents，定位是从数据层提供原语、避免平台锁定
+- **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(00:02起):本集说 Electric 从做 Postgres 同步引擎起家，现已将同步技术泛化为智能体的数据原语，发布了开源的协作式多智能体运行时 Electric Agents，定位是从数据层提供原语、避免平台锁定
 
 ## ① 提到它的金句
 
@@ -23,7 +23,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《Electric James：智能体不是计算，是数据》]] — 作为被讨论公司
+- [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -31,7 +31,7 @@ unlisted: true
 
 [[James]] · [[Electric Agents]] · [[智能体]] · [[沙箱]] · [[会话日志追踪]] · [[多智能体系统]] · [[Managed Agents]] · [[Anthropic]] · [[Cloudflare]] · [[Vercel AI SDK]]
 
-<script type="application/json" class="pd-epn">{"James":1,"Electric Agents":1,"智能体":141,"沙箱":28,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":4,"Anthropic":70,"Cloudflare":6,"Vercel AI SDK":2}</script>
+<script type="application/json" class="pd-epn">{"James":1,"Electric Agents":1,"智能体":146,"沙箱":29,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":4,"Anthropic":72,"Cloudflare":6,"Vercel AI SDK":2}</script>
 
 <script>
 (function(){

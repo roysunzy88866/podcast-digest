@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]]**(01:08起):本集说 Simile 是一家创建人类行为基础模型的公司，该模型可用于模拟个人、亚群体，最终模拟整个生态系统甚至市场，核心价值在于反事实推理而非单纯预测
+- **[[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]]**(01:08起):本集说 Simile 是一家创建人类行为基础模型的公司，该模型可用于模拟个人、亚群体，最终模拟整个生态系统甚至市场，核心价值在于反事实推理而非单纯预测
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]] — 作为被讨论公司
+- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Joon Sung Park]] · [[Harry Stebbings]] · [[智能体]] · [[模拟]] · [[人类行为基础模型]] · [[反思]] · [[记忆]] · [[因果机制]] · [[反事实]] · [[随机对照试验]]
 
-<script type="application/json" class="pd-epn">{"Joon Sung Park":1,"Harry Stebbings":5,"智能体":141,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":5,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Joon Sung Park":1,"Harry Stebbings":5,"智能体":146,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":5,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《一家百亿对冲基金如何全员强推 AI》]] — 作为主持
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为主持
 
 ## ③ 他谈到的
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":141,"ChatGPT":36,"情感分析":1,"营运杠杆":1,"Windsurf":2,"LLM":18,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":146,"ChatGPT":37,"情感分析":1,"营运杠杆":1,"Windsurf":3,"LLM":19,"量化投资":1}</script>
 
 <script>
 (function(){

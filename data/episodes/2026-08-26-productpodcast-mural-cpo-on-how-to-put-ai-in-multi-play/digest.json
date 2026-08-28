@@ -1,0 +1,201 @@
+{
+  "title_zh": "视觉协作在 AI 时代为什么消失了",
+  "tldr": "Mural CPO Elaina O'Mahoney 认为，AI 让想法变得廉价，真正的瓶颈已经不是创意，而是团队共享上下文和做出决策。",
+  "digest_md": "这一集是 Product School 的 CEO Carlos 和 Mural 的首席产品官 Elaina 聊视觉协作在 AI 时代的处境。Mural 是一个在线白板协作工具，疫情期间靠替代线下头脑风暴快速崛起。Elaina 的核心判断很反直觉：AI 时代里，视觉协作反而缺席了。[03:01 Elaina O'Mahoney]\n\n## 想法廉价了，瓶颈变成了共享上下文\n\n现在用 AI，你可以在几小时内从想法变成可用的原型，几分钟做出一套幻灯片——想法极度廉价。但问题出在下一步：当你把做出来的东西分享给团队，大家又回到各自的孤岛里看文档。每个人在跟自己的 LLM 对话，本质上是在玩单机游戏，彼此不知道对方从哪里开始、到了哪一步。[04:23 Elaina O'Mahoney]\n\nElaina 认为现在的核心问题不是\"怎么产生想法\"，而是\"怎么让所有人看到同一块画布上的信息，拥有相同的上下文，然后快速做决策\"。工具栈里每个产品都在宣称自己是\"工作发生的地方\"——OKR 工具管计划，Slack 管即时沟通，Jira 或 Linear 管执行记录——但\"决策是怎么做出的、为什么这样做\"，这个空间仍然是空白的。会议纪要只能记录结论，记录不了决策的上下文。[07:11 Elaina O'Mahoney]\n\n## 不写五页战略文档，直接做原型\n\nElaina 在 Mural 内部推了一个做法：产品领导者别再写那种四五页的战略文档了，写成文档传一圈、大家评论几句，然后就慢慢死掉了。更快的方式是你自己把设想做成一个视觉原型——不指望它直接上线，但它能传达你希望团队探索的原则和北极星方向。一个视觉原型比五页文字让团队更快进入构思和决策节奏。[13:05 Elaina O'Mahoney]\n\n她还主张\"每个人都应该发布\"。不一定是上线生产环境，可以在安全环境里发布工作流、发布智能体、发布研究工具。CPO 可以自己动手解决一些本来只有少数人能做的稀缺工作——比如数据分析综合——用这种方式让团队整体变快。[11:33 Elaina O'Mahoney]\n\n## 大企业怎么落地：找\"前置部署员工\"\n\n大企业不可能让所有人同时转型。Elaina 的经验是必须打破旧流程，但不能一开始就建新流程——流程会随着学习变化，所以要先建系统。具体操作上，要找到那些已经自发用起 AI 工具、自动化了自己工作的人，把他们嵌入还没起步的团队。这个人不一定是工程师。[17:19 Elaina O'Mahoney]\n\n她举了个例子：Mural 法务部有一个人，已经自动化了该部门 50% 的流程，产品和工程这边一直想把他挖过来，法务负责人说\"别碰他\"。这个人把他在 Mural 上做的工作分享给全公司，每个部门看了都有灵光乍现的时刻。这就是\"前置部署员工\"的价值——不限于技术岗位。[18:26 Elaina O'Mahoney]\n\n## Token 黑市与定价困境\n\n谈到定价，Elaina 说这是让她睡不好觉的事。Mural 不是 AI 原生公司，定价还带着传统 SaaS 按座位收费的模式。但按使用量收费也有问题：她发现大企业内部已经出现了\"token 黑市\"——员工自己的 token 额度用完了，去找同事\"借\"token 继续做原型，这激励了错误的行为。[22:34 Elaina O'Mahoney]\n\n更荒唐的是，有些公司下达\"必须消耗 X 数量 token\"的指令，结果员工像当年在 CRM 里虚报通话一样，为了凑 token 用量而用 AI。Elaina 的态度很直接：能用 AI 做不等于应该用 AI 做，用 AI 做拼写检查就是浪费钱。定价的核心要求是可预测性——成本不能月月大幅波动，否则企业没法投资、也没法激励正确的行为。[24:40 Elaina O'Mahoney]\n\n## 未来赌注的管理：每月问\"学到了什么\"\n\nMural 把团队分成两类。核心产品团队用传统的\"铁三角\"（设计师、工程师、产品经理），因为服务银行金融这类客户不能随便试错。新领域团队则用混合角色，可以非常快地发布到生产环境。Elaina 用城市来打比方：核心团队像城市规划师，改动一条高速公路都要深思熟虑；前沿团队像当年去西部的拓荒者，自己背包、自己找食物。[27:42 Elaina O'Mahoney]\n\n对于未来赌注的资源配置，她每月和 CTO 一起跟这些团队开会，但问的问题不是\"你发布了什么\"，而是\"你学到了什么\"。如果一个月后决策方式没变，说明没收集到新信息。她把这种模式形容为在一家十年以上的公司里同时跑三家迷你创业公司。[30:11 Elaina O'Mahoney]\n\n> 【背景】Mural 创始人名叫 Mariano，阿根廷人，最初是从游戏开发的协作体验中获得了创建 Mural 的灵感。\n\n## 本集带走\n\n- **瓶颈从创意变成了共享上下文**：AI 让产出想法的成本趋近于零，但团队决策仍然需要所有人看到同一块画布、理解同样的来龙去脉。\n- **用视觉原型替代战略文档**：别写四五页文档传阅，直接把你的设想做成可看的原型，传达原则和方向，团队进入决策节奏更快。\n- **找\"前置部署员工\"而非只找工程师**：任何部门里已经自发用 AI 自动化了工作流的人，都是最好的内部推广者，把他们嵌入未起步的团队。\n- **别让 token 指标变成新的虚荣指标**：下达\"必须消耗 X token\"的指令，结果就是员工为凑数而用 AI，跟当年 CRM 虚报通话一样。\n- **未来赌注每月复盘，问\"学到了什么\"**：不问\"发布了什么\"，问决策方式有没有因为新信息而改变，没有就说明没学到东西。",
+  "quotes": [
+    {
+      "en": "Just because you can with AI, and I'm probably going to say the controversial thing, doesn't mean you need to do it with AI.",
+      "zh": "仅仅因为你可以用 AI 做到，而且我可能会说出有争议的话，并不意味着你需要用 AI 来做它。",
+      "timestamp": "00:51",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "What's interesting is visual collaboration is actually absent in the AI era. We are all in our tools, all by ourselves, with words or voice.",
+      "zh": "有趣的是视觉协作在 AI 时代实际上是缺席的。我们都独自在我们的工具里，通过文字或语音。",
+      "timestamp": "03:01",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "Ideas are really cheap. You can go from an idea to an actual working prototype in hours, or write a doc, or create a slide deck in minutes.",
+      "zh": "想法真的很廉价。你可以在几个小时内从一个想法变成一个实际可用的原型，或者写一份文档，或者在几分钟内创建一套幻灯片。",
+      "timestamp": "04:25",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "That's what the game is about now: am I playing the same game as you are, and do I actually know where you started?",
+      "zh": "因为这就是现在的游戏关键：我在玩和你一样的游戏吗，我真的知道你是从哪里开始的吗？",
+      "timestamp": "05:05",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "In meetings we talk about stuff, but the meeting notes come after; they capture a summary. You still don't have the context of why the decision was made.",
+      "zh": "在会议上我们谈论事情，但会议记录在之后才到；它们捕获了摘要。你仍然没有关于为什么做出决策的上下文。",
+      "timestamp": "08:06",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "Everybody should be playing and shipping now.",
+      "zh": "每个人都应该在玩耍和发布。",
+      "timestamp": "11:35",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "There are still some things that are quite scarce that you can work on internally. Data science is still scarce. Really good taste is still scarce. Synthesizing analytics is still scarce.",
+      "zh": "仍然有一些相当稀缺的事情你可以在内部解决。数据科学仍然稀缺。真正好的品味仍然稀缺。综合分析仍然稀缺。",
+      "timestamp": "12:02",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "When we speak to some of our larger customers, there's almost a black market for tokens.",
+      "zh": "当我们与我们的一些较大的客户交谈时，几乎有一个 token 的黑市。",
+      "timestamp": "22:57",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "If they use their own tokens, they'll have to go to three other employees to say, \"I've got 80% of the way there with my prototype, and my tokens got cut off. Susie, can I siphon some of your tokens?\"",
+      "zh": "如果他们使用自己的 token，他们将不得不去找其他三个员工说，\"我的原型完成了 80%，我的 token 被切断了。Susie，我可以虹吸你的一些 token 吗？\"",
+      "timestamp": "23:03",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "Here's a tool, just use it. And usage showed adoption, and then everybody's like, \"Holy crap, this is very expensive. Pull back, pull back, pull back.\"",
+      "zh": "\"这是一个工具，用吧。\"使用显示了采用，然后每个人都像，\"天哪，这非常昂贵。退后，退后，退后。\"",
+      "timestamp": "24:46",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "We're not just saying \"What did you ship?\" It's \"What did you learn?\"",
+      "zh": "我们不只是说\"你发布了什么？\"而是\"你学到了什么？\"",
+      "timestamp": "30:23",
+      "speaker": "Elaina O'Mahoney"
+    },
+    {
+      "en": "If we're not changing our decision-making, or we're still thinking the same way we did a month ago, we didn't gather the right information.",
+      "zh": "如果我们没有改变我们的决策，或者我们仍然是一个月前的思维方式，我们没有收集正确的信息。",
+      "timestamp": "30:32",
+      "speaker": "Elaina O'Mahoney"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:51",
+      "speaker": "Elaina O'Mahoney",
+      "en": "Just because you can with AI, and I'm probably going to say the controversial thing, doesn't mean you need to do it with AI.",
+      "zh": "仅仅因为你可以用 AI 做到，而且我可能会说出有争议的话，并不意味着你需要用 AI 来做它。"
+    },
+    {
+      "timestamp": "03:01",
+      "speaker": "Elaina O'Mahoney",
+      "en": "What's interesting is visual collaboration is actually absent in the AI era. We are all in our tools, all by ourselves, with words or voice.",
+      "zh": "有趣的是视觉协作在 AI 时代实际上是缺席的。我们都独自在我们的工具里，通过文字或语音。"
+    },
+    {
+      "timestamp": "04:23",
+      "speaker": "Elaina O'Mahoney",
+      "en": "Ideas are really cheap. You can go from an idea to an actual working prototype in hours, or write a doc, or create a slide deck in minutes.",
+      "zh": "想法真的很廉价。你可以在几个小时内从一个想法变成一个实际可用的原型，或者写一份文档，或者在几分钟内创建一套幻灯片。"
+    },
+    {
+      "timestamp": "04:23",
+      "speaker": "Elaina O'Mahoney",
+      "en": "When you go to share any sort of artifact, it goes back into these silo moments.",
+      "zh": "但是当你去分享任何类型的工件时，它又回到了这些孤岛时刻。"
+    },
+    {
+      "timestamp": "04:23",
+      "speaker": "Elaina O'Mahoney",
+      "en": "That's what the game is about now: am I playing the same game as you are, and do I actually know where you started?",
+      "zh": "因为这就是现在的游戏关键：我在玩和你一样的游戏吗，我真的知道你是从哪里开始的吗？"
+    },
+    {
+      "timestamp": "07:11",
+      "speaker": "Elaina O'Mahoney",
+      "en": "The space that really is still ambiguous is how decisions are getting made and the context of why.",
+      "zh": "那个仍然模糊的空间是决策如何做出以及为什么的上下文。"
+    },
+    {
+      "timestamp": "07:11",
+      "speaker": "Elaina O'Mahoney",
+      "en": "In meetings we talk about stuff, but the meeting notes come after; they capture a summary. You still don't have the context of why the decision was made.",
+      "zh": "在会议上我们谈论事情，但会议记录在之后才到；它们捕获了摘要。你仍然没有关于为什么做出决策的上下文。"
+    },
+    {
+      "timestamp": "09:22",
+      "speaker": "Elaina O'Mahoney",
+      "en": "Visual pictures, whether it's a customer journey map, a diagram, or even a data analytics diagram, let you absorb information faster than if you were to read a document.",
+      "zh": "视觉图片，无论是客户旅程地图、图表，甚至是数据分析图表，让你能比阅读文档更快地吸收信息。"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Elaina O'Mahoney",
+      "en": "Everybody should be playing and shipping now.",
+      "zh": "每个人都应该在玩耍和发布。"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Elaina O'Mahoney",
+      "en": "There are still some things that are quite scarce that you can work on internally. Data science is still scarce. Really good taste is still scarce. Synthesizing analytics is still scarce.",
+      "zh": "仍然有一些相当稀缺的事情你可以在内部解决。数据科学仍然稀缺。真正好的品味仍然稀缺。综合分析仍然稀缺。"
+    },
+    {
+      "timestamp": "13:05",
+      "speaker": "Elaina O'Mahoney",
+      "en": "Usually a product leader would write this very, very big product strategy doc. Sometimes it's five pages, sometimes it's four pages. It makes the rounds, people comment, and maybe it starts to slowly die.",
+      "zh": "通常产品领导者会写一份非常、非常大的产品战略文档。有时是五页，有时是四页。它四处流传，人们发表评论，也许它开始慢慢消亡。"
+    },
+    {
+      "timestamp": "13:05",
+      "speaker": "Elaina O'Mahoney",
+      "en": "What we can actually do faster as leaders is create a prototype of something we're envisioning.",
+      "zh": "作为领导者，我们实际上可以更快做的是创建我们设想的东西的原型。"
+    },
+    {
+      "timestamp": "17:19",
+      "speaker": "Elaina O'Mahoney",
+      "en": "Whether it's a forward deployed engineer, or somebody in legal that's automated their process, it doesn't necessarily have to be an engineer.",
+      "zh": "所以无论是前置部署工程师，还是那个已经自动化了其流程的法务部门的人，不一定非得是工程师。"
+    },
+    {
+      "timestamp": "22:34",
+      "speaker": "Elaina O'Mahoney",
+      "en": "When we speak to some of our larger customers, there's almost a black market for tokens.",
+      "zh": "当我们与我们的一些较大的客户交谈时，几乎有一个 token 的黑市。"
+    },
+    {
+      "timestamp": "22:34",
+      "speaker": "Elaina O'Mahoney",
+      "en": "If they use their own tokens, they'll have to go to three other employees to say, \"I've got 80% of the way there with my prototype, and my tokens got cut off. Susie, can I siphon some of your tokens?\"",
+      "zh": "如果他们使用自己的 token，他们将不得不去找其他三个员工说，\"我的原型完成了 80%，我的 token 被切断了。Susie，我可以虹吸你的一些 token 吗？\""
+    },
+    {
+      "timestamp": "24:40",
+      "speaker": "Elaina O'Mahoney",
+      "en": "Here's a tool, just use it. And usage showed adoption, and then everybody's like, \"Holy crap, this is very expensive. Pull back, pull back, pull back.\"",
+      "zh": "\"这是一个工具，用吧。\"使用显示了采用，然后每个人都像，\"天哪，这非常昂贵。退后，退后，退后。\""
+    },
+    {
+      "timestamp": "27:42",
+      "speaker": "Elaina O'Mahoney",
+      "en": "You have a working city, so the way you change it has to be more thought through. The frontier team is back in the day before America was America, heading out West. You have to backpack, you have to kill your own food, you have to forage.",
+      "zh": "你有一个工作的城市，所以你改变它的方式必须经过更多的思考。前沿团队是在美国成为美国之前的过去，向西进发。你必须背包，你必须杀掉你自己的食物，你必须觅食。"
+    },
+    {
+      "timestamp": "30:11",
+      "speaker": "Elaina O'Mahoney",
+      "en": "We're not just saying \"What did you ship?\" It's \"What did you learn?\"",
+      "zh": "我们不只是说\"你发布了什么？\"而是\"你学到了什么？\""
+    },
+    {
+      "timestamp": "30:11",
+      "speaker": "Elaina O'Mahoney",
+      "en": "If we're not changing our decision-making, or we're still thinking the same way we did a month ago, we didn't gather the right information.",
+      "zh": "如果我们没有改变我们的决策，或者我们仍然是一个月前的思维方式，我们没有收集正确的信息。"
+    },
+    {
+      "timestamp": "30:11",
+      "speaker": "Elaina O'Mahoney",
+      "en": "It's almost like running three mini-startups inside a business that's been around for over ten years.",
+      "zh": "这就像在一个已经存在了十多年的业务中运行三家迷你初创公司。"
+    }
+  ]
+}

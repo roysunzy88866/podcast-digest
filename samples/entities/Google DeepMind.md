@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(01:08起):本集提到 Demis Hassabis 辞去了该部门首席执行官的位置，转任董事长兼首席科学家，引发 Google AI 部门高层动荡。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(01:11起):本集提到 Demis Hassabis 从 Google DeepMind 退后一步进入董事长角色
-- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]]**(00:00起):本集说 Google DeepMind 开发了最先进的天气预报模型（如 GenCast）和 AlphaFold，这些模型在处理不确定性方面做出了正面示范
+- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]]**(00:00起):本集说 Google DeepMind 开发了最先进的天气预报模型（如 GenCast）和 AlphaFold，这些模型在处理不确定性方面做出了正面示范
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(01:25起):本集仅在开头列举「明白当前道路导致灭绝但仍在推进」的 AI 公司 CEO 时被提到
 
 ## ② 出现在这些集
@@ -22,7 +22,7 @@ unlisted: true
 
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
-- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《AI 最缺的不是智商，是「知道自己不知道」》]] — 作为被讨论公司
+- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]] — 作为被讨论公司
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
@@ -31,7 +31,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[持续学习]] · [[Apple]] · [[Harry Stabbings]] · [[Zubin Gharemani]] · [[Ryan Greenblatt]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":63,"Anthropic":70,"Google":28,"智能体":141,"持续学习":4,"Apple":12,"Harry Stabbings":1,"Zubin Gharemani":1,"Ryan Greenblatt":1,"Microsoft":13}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":65,"Anthropic":72,"Google":29,"智能体":146,"持续学习":4,"Apple":12,"Harry Stabbings":1,"Zubin Gharemani":1,"Ryan Greenblatt":1,"Microsoft":14}</script>
 
 <script>
 (function(){

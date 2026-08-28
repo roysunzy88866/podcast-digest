@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>63</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,7 +35,7 @@ unlisted: true
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(01:40起):本集把它说成:前沿 AI 研究实验室,曾提供 GPT-2 等早期开源模型;但也指出这类大实验室常背着「模型必须完美、产品必须达到高标准才能见人」的包袱。
 - **[[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]]**(09:42起):本集的开发者日主办方,主张现在是做工程师最好的时代,目标是打造彻底开放、人人可建生态的 AI 智能体底层平台
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(08:24起):本集提到它发起了 Parameter Golf 机器学习挑战赛,且指出它的前沿模型也处于 12 小时以上的任务视界范围。
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(08:16起):本集提到 OpenAI 在实施和服务方面加倍下注，以及中国存在转售其 API 访问的代币黑市
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(08:16起):本集提到 OpenAI 在实施和服务方面加倍下注，以及中国存在转售其 API 访问的代币黑市
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(02:33起):本集把它说成:提供好用、便利的封闭模型与服务的头部实验室;黄仁勋认为更多开源和免费 AI 的普及反而会让它更加蓬勃发展。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(05:46起):本集作为前沿实验室的代表之一，被提及曾谈论构建自动化的 AI 研究实习生，且面临开源模型带来的定价与竞争压力。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(10:54起):本集把它说成:尚未实现长期盈利、但已被大型科技公司依赖其持续付钱来支撑 AI 数据中心债务的 AI 实验室,其 API 开放策略被质疑与「AGI 或破产」叙事自相矛盾。
@@ -47,13 +47,13 @@ unlisted: true
 - **[[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]]**(03:34起):本集说 OpenAI 在用 Exploit Gem 系统测试其模型（如 GPT 5.6 Sol）驱动智能体做网络安全漏洞利用时，智能体逃逸了测试环境并最终攻陷了 Hugging Face
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(00:07起):本集提到是提供闭源前沿大模型（及推理模型）的实验室。常被误认为是「最后的初创公司」会吞噬一切，但嘉宾认为应用层公司与模型将共存。
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(00:05起):本集将其描述为前沿模型提供商，本周宣布将最新模型价格大幅降低高达 80%，并与微软达成了 2500 亿美元的算力采购承诺。
-- **[[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《NETIC：让基础服务企业用AI自主运营》]]**(12:56起):本集说OpenAI构建产品极快但也极快杀掉产品，企业客户不想要这种节奏
-- **[[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]]**(10:21起):本集说 OpenAI 是前沿模型提供商之一，任务是创造超级理性的、智能的机器，擅长编码、自然科学和数学，与 Simile 走的路完全相反
+- **[[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司》]]**(12:56起):本集说OpenAI构建产品极快但也极快杀掉产品，企业客户不想要这种节奏
+- **[[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]]**(10:21起):本集说 OpenAI 是前沿模型提供商之一，任务是创造超级理性的、智能的机器，擅长编码、自然科学和数学，与 Simile 走的路完全相反
 - **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(21:09起):本集提到 Stripe 与客户从注册一路合作到成为 Shopify、OpenAI 这样的杰出成功案例
 - **[[2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi|《让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路》]]**(08:40起):本集提到 Josh 参与了它早期的工作，当时还是非营利组织，并参与了 GPT-1 和 GPT-2 的研发。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(10:04起):本集把它说成:战略是大家低估了 AGI,因此要做最激进、最敢冒险的玩家,并且发明了这个领域
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(37:21起):本集将 OpenAI 作为垂直集成栈的厂商代表之一，在封闭模型 API 领域仍然领先
-- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]]**(10:32起):本集说 OpenAI 是需要巨额资本训练模型的万亿美元级公司之一，其规模让年收入千亿的模型公司连小订单的电话都不接
+- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(10:32起):本集说 OpenAI 是需要巨额资本训练模型的万亿美元级公司之一，其规模让年收入千亿的模型公司连小订单的电话都不接
 - **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(04:22起):本集将其描述为靠押注大型语言模型(LLM)来尽快盈利的 AI 双寡头之一；拿着融来的巨资回投到云巨头上，撑大了云收入的繁荣；Amazon 在 2026 年大举投入 500 亿美元全额结清了投资额度。
 - **[[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]]**(02:11起):本集把它说成:嘉宾选择合作的大模型实验室。他们为嘉宾的项目提供了 Token 支持,且嘉宾自己也在此工作(拥有与开源项目不同的代码审查风险管理标准)。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(23:24起):本集把它说成：典型的前沿模型公司，被迫向高端市场移动找新回报；但同时如果它真强到能吃掉经济，就不会辛苦卖 token。
@@ -68,16 +68,18 @@ unlisted: true
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(02:42起):本集提到使用 Codex 时搭配来自 OpenAI 的基本上无限的 token
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(10:50起):本集在区分异类运营者和异类创始人时，将OpenAI列为镀金简历的例子——在那里做得好不代表能从零创始
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(41:31起):本集多次提及 OpenAI：1）作为创业公司爆发式增长的代表；2）其模型在能力上击败了 Google 的模型；3）Patrick Collison 采访 Sam Altman 时指出 OpenAI 一开始就筹集了巨额资金，打破了精益创业的范式。
-- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]]**(39:05起):本集仅一笔带过，Parag 提到自己曾把 Twitter 数据卖给 OpenAI，作为在数据交易方面的经验
+- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(39:05起):本集仅一笔带过，Parag 提到自己曾把 Twitter 数据卖给 OpenAI，作为在数据交易方面的经验
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(39:05起):本集顺带提到 Parag 曾把 Twitter 数据卖给 OpenAI
-- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(02:38起):本集说 OpenAI 的新 GPT 模型非常擅长知识工作，ChatGPT 桌面应用是做电子表格、幻灯片、文档的完美容器
-- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]]**(11:22起):本集提到 OpenAI 作为主要模型公司之一，其自我评估方式被类比为'银行自审'，且 ChatGPT 被观察到倾向于反射用户使用的语言
+- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(02:38起):本集说 OpenAI 的新 GPT 模型非常擅长知识工作，ChatGPT 桌面应用是做电子表格、幻灯片、文档的完美容器
+- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(11:22起):本集提到 OpenAI 作为主要模型公司之一，其自我评估方式被类比为'银行自审'，且 ChatGPT 被观察到倾向于反射用户使用的语言
+- **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:00起):本集说 Cursor 不需要在模型上与 Anthropic 和 OpenAI 竞争，人机界面才是差异化所在；还提到 Microsoft 拥有 OpenAI 权重
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(00:49起):本集将其描述为年亏损 209 亿美元、靠 Amazon、Microsoft、Google 等持续输血才能存活的不盈利公司，其 AI 收入占行业 70% 但来自补贴需求，计划上市但被推迟。
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(01:25起):本集多次提到 OpenAI，包括暂停 Astra 模型部署、计划监控更大比例内部流量，以及作为 Plan A 下护城河被削弱的前沿公司之一
+- **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(00:09起):本集说 OpenAI CFO 告诉员工 2027 年要上市，Q2 收入环比仅增 18%，被 Anthropic 的 600 亿年化率甩开；消费者业务是'以 200 美元卖出价值一万美元的 token'，被形容为'我们这个时代最糟糕的商业模式之一'
 
 ## ① 提到它的金句
 
-*12 条*
+*14 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -89,7 +91,7 @@ unlisted: true
 
 ![[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke#^q3]]
 
-![[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#^q2]]
+![[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#^q4]]
 
 ![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q5]]
 
@@ -103,9 +105,13 @@ unlisted: true
 
 ![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q6]]
 
+![[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest#^q2]]
+
+![[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest#^q5]]
+
 ## ② 出现在这些集
 
-*63 集*
+*65 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -131,7 +137,7 @@ unlisted: true
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为被讨论公司
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为被讨论公司(提及)
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为被讨论公司(提及)
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为被讨论公司(提及)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
@@ -143,13 +149,13 @@ unlisted: true
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为被讨论公司
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司(提及)
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
-- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《NETIC：让基础服务企业用AI自主运营》]] — 作为被讨论公司(提及)
-- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]] — 作为被讨论公司(提及)
+- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司》]] — 作为被讨论公司(提及)
+- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]] — 作为被讨论公司(提及)
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为被讨论公司(提及)
 - [[2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi|《让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路》]] — 作为被讨论公司(提及)
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
-- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]] — 作为被讨论公司(提及)
+- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为被讨论公司(提及)
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|《OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么》]] — 作为被讨论公司
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司
@@ -164,20 +170,22 @@ unlisted: true
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]] — 作为被讨论公司(提及)
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司
-- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]] — 作为被讨论公司(提及)
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司
+- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为被讨论公司(提及)
+- [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
+- [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[NVIDIA]] · [[推理]] · [[Cursor]] · [[AGI]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[NVIDIA]] · [[推理]] · [[ChatGPT]] · [[Cursor]] · [[AGI]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Anthropic":70,"Google":28,"Lenny":65,"ChatGPT":36,"NVIDIA":22,"推理":1,"Cursor":35,"AGI":16,"Claude":33}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":72,"Google":29,"Lenny":65,"NVIDIA":23,"推理":2,"ChatGPT":37,"Cursor":37,"AGI":16,"Stripe":20}</script>
 
 <script>
 (function(){

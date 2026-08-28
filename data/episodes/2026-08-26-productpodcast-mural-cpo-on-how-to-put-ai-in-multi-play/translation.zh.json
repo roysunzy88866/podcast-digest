@@ -1,0 +1,434 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 0,
+  "speaker": "Unknown",
+  "en": "Trailer",
+  "zh": "预告片"
+ },
+ {
+  "seg": 1,
+  "start": 0,
+  "end": 16,
+  "speaker": "Elaina O'Mahoney",
+  "en": "What's interesting is visual collaboration is actually absent in the AI era. Ideas are really cheap, and you can go from an idea to an actual working prototype in hours, or you can write a doc, or you can create a slide deck in minutes. That's actually really compelling.",
+  "zh": "有趣的是，视觉协作在 AI 时代实际上是缺席的。想法真的很廉价，你可以在几个小时内从一个想法变成一个实际可用的原型，或者你可以写一份文档，或者你可以在几分钟内创建一套幻灯片。这真的非常吸引人。"
+ },
+ {
+  "seg": 2,
+  "start": 16,
+  "end": 22,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Elaina O'Mahoney, CPO at Mural. I'm curious to know, what is the real competitive landscape for you?",
+  "zh": "Mural 的 CPO Elaina O'Mahoney。我很好奇，对你来说真正的竞争格局是什么？"
+ },
+ {
+  "seg": 3,
+  "start": 22,
+  "end": 32,
+  "speaker": "Elaina O'Mahoney",
+  "en": "The competitive landscape is really interesting, because when you're a product leader, a lot of your skill set of being very good is about future casting.",
+  "zh": "竞争格局真的很有趣，因为当你是一个产品领导者时，你很多优秀的技能是关于未来预测的。"
+ },
+ {
+  "seg": 4,
+  "start": 32,
+  "end": 51,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Kind of like in the past when some salespeople would report fake calls on the CRM to show product activity. Now it's trading whatever it is on AI to say, \"Hey, I burnt X amount of tokens.\" So how do you ensure that some of this usage is actually driving the right business outcomes?",
+  "zh": "就像过去有些销售人员会在 CRM 上报告虚假通话以显示产品活动一样。现在是在 AI 上交易任何东西来以此说，“嘿，我烧掉了 X 数量的 tokens。”那么你如何确保这些使用中的一些实际上推动了正确的业务成果？"
+ },
+ {
+  "seg": 5,
+  "start": 51,
+  "end": 59,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Just because you can with AI, and I'm probably going to say the controversial thing, doesn't mean you need to do it with AI. Introduction",
+  "zh": "仅仅因为你可以用 AI 做到，而且我可能会说出有争议的话，并不意味着你需要用 AI 来做它。介绍"
+ },
+ {
+  "seg": 6,
+  "start": 59,
+  "end": 91,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Elaina O'Mahoney, Chief Product Officer at Mural. Her argument: visual collaboration has gone missing in the AI era. We are all working alone in a chat box, and ideas got so cheap that the real bottleneck moved to where decisions actually get made. Here's what we cover: why shared context is the new bottleneck, not creativity. Kill the five-page strategy doc, ship the prototype. The black market for tokens inside big enterprises. Why your best forward deployed engineer might sit in legal. And ask what did you learn, not what did you ship. Let's get into it.",
+  "zh": "嘿，我是 Carlos，Product School 的 CEO，也是《产品播客》的主持人。我今天的嘉宾是 Mural 的首席产品官 Elaina O'Mahoney。她的论点是：视觉协作在 AI 时代缺失了。我们都独自在聊天框中工作，而且想法变得如此廉价，以至于真正的瓶颈转移到了实际做出决策的地方。以下是我们涵盖的内容：为什么共享上下文是新的瓶颈，而不是创造力。干掉那五页的战略文档，发布原型。大企业内部的 token 黑市。为什么你最好的前置部署工程师可能坐在法务部门。以及询问你学到了什么，而不是你发布了什么。让我们进入正题。"
+ },
+ {
+  "seg": 7,
+  "start": 91,
+  "end": 94,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Welcome to The Product Podcast, Elaina.",
+  "zh": "欢迎来到《产品播客》，Elaina。"
+ },
+ {
+  "seg": 8,
+  "start": 94,
+  "end": 96,
+  "speaker": "Elaina O'Mahoney",
+  "en": "I'm so excited to be here. Thanks, Carlos.",
+  "zh": "我很兴奋能来到这里。谢谢，Carlos。"
+ },
+ {
+  "seg": 9,
+  "start": 96,
+  "end": 114,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "So you're the Chief Product Officer at Mural, a product I've used for a very long time. When it started, the whole pitch was basically, \"Hey, this is a better version of PowerPoint.\" But now this whole industry of visual collaboration has evolved quite a bit. I'd love to get your take on it.",
+  "zh": "所以你是 Mural 的首席产品官，这个产品我已经使用了很长时间。当它刚开始时，整个推销基本上是，“嘿，这是 PowerPoint 的一个更好的版本。”但现在视觉协作这个整个行业已经演变了不少。我很想听听你的看法。"
+ },
+ {
+  "seg": 10,
+  "start": 114,
+  "end": 181,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Absolutely. It was meant really to collaborate about ideas, to brainstorm. Our co-creators are from Argentina. They were looking at how they build a game and how they come up with ideas really fast, when people are across the globe or want to collaborate async. That's where the idea of Mural was born. What's really interesting is when you work for an organization, or when you're a team trying to come up with a multitude of ideas, you're trying to brainstorm, converge, diverge, and then ultimately decide on a path forward. That was Mural's bread and butter. It's why we took off so fast during the pandemic, when everybody was like, \"We have to find a totally different way of working.\" Mural Was PowerPoint's Successor. Then the AI Era Changed the Question Carlos González de Villaumbrosia | Product School 00:02:42 You reminded me of Zoom's initial value prop. It just works. That seemed to be enough because the alternatives were so bad. Now expectations are way higher, and that's not enough. So I'm curious to know what real visual collaboration looks like today in the AI era.",
+  "zh": "绝对的。它原本是为了协作想法，为了头脑风暴而存在的。我们的共同创作者来自阿根廷。他们在观察人们如何在地球两端或想要异步协作时，如何构建游戏以及如何非常快地提出想法。这就是 Mural 想法的诞生地。真正有趣的是，当你为一家组织工作，或者当你是一个团队试图提出许多想法时，你试图进行头脑风暴，收敛，发散，然后最终决定前进的路径。那是 Mural 的生计所在。这就是为什么我们在疫情期间起飞得如此之快，当时每个人都在说，“我们必须找到一种完全不同的工作方式。”Mural 是 PowerPoint 的继任者。然后 AI 时代改变了问题 Carlos González de Villaumbrosia | Product School 00:02:42 你让我想起了 Zoom 最初的价值主张。它就是能用。这似乎就足够了，因为替代方案太糟糕了。现在的期望要高得多，这就不够了。所以我很好奇，在 AI 时代真正的视觉协作今天是什么样子的。"
+ },
+ {
+  "seg": 11,
+  "start": 181,
+  "end": 218,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, what's interesting is visual collaboration is actually absent in the AI era. We are all in our tools, all by ourselves, with words or voice. I don't know if you dictate to yourself too often or speak to your LLM of choice often. I probably do that more than type these days, but it's very lonely and it's not visual. And when I go to collaborate with my coworkers, I'm now sharing words in a doc, rather than understanding through visual collaboration and designing something more easily digestible to get to decision-making faster.",
+  "zh": "是的，有趣的是视觉协作在 AI 时代实际上是缺席的。我们都独自在我们的工具里，通过文字或语音。我不知道你是否经常对自己听写，或者经常与你选择的 LLM 交谈。我现在可能更多的是说话而不是打字，但这非常孤独，而且不是视觉化的。当我去与我的同事协作时，我现在是在文档中分享文字，而不是通过视觉协作来理解，并设计一些更容易消化的东西以便更快地做出决策。"
+ },
+ {
+  "seg": 12,
+  "start": 218,
+  "end": 263,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Now you're bringing up the point on multiplayer, and we've been talking about this for a long time. At the beginning it was more of an idea. Everybody who's used AI in one shape or form realizes that at some point you get stuck, and you're not able to fully collaborate on the same context. With a visual collaboration tool, on paper, you should be able to truly collaborate better and get stuff done in a way that you can't when you're just using an LLM of choice on the side. But for some reason I don't see enough of those use cases yet. I see a lot of people still using visual collaboration tools, PowerPoints, or Google Docs in the same way as putting comments on the side. So I'd love to know what real visual collaboration looks like for a product team that's trying to build together.",
+  "zh": "现在你提出了多人协作的观点，我们谈论这个问题很久了。起初它更多的是一个想法。每个以某种形式使用过 AI 的人都意识到，在某个点你会卡住，而且你无法在相同的上下文上完全协作。对于视觉协作工具，理论上，你应该能够真正更好地协作并以某种方式完成事情，这是你仅仅在侧边使用你选择的 LLM 时做不到的。但由于某种原因，我还没有看到足够多的那些用例。我看到很多人仍然在使用视觉协作工具、PowerPoints 或 Google Docs，方式就像在旁边放评论一样。所以我很好奇，对于一个试图一起构建的产品团队来说，真正的视觉协作是什么样子的。"
+ },
+ {
+  "seg": 13,
+  "start": 263,
+  "end": 327,
+  "speaker": "Elaina O'Mahoney",
+  "en": "It's really interesting, because now ideas are really cheap. You can go from an idea to an actual working prototype in hours, or write a doc, or create a slide deck in minutes. That's actually really compelling. But when you go to share any sort of artifact, it goes back into these silo moments. So for us, and when we're thinking about our product process, we almost have to forget the process part. We have to create a system that really enables faster decision-making now that ideas are cheap. How do you take all of these different artifacts spatially and connect them together so people have the same context? Because that's what the game is about now: am I playing the same game as you are, and do I actually know where you started? Can I catch up to you as fast as you are, so we can just make decisions faster, because you have so many more decisions to make? Shared Context Is the New Bottleneck",
+  "zh": "真的很有趣，因为现在想法真的很廉价。你可以在几个小时内从一个想法变成一个实际可用的原型，或者写一份文档，或者在几分钟内创建一套幻灯片。这真的非常吸引人。但是当你去分享任何类型的工件时，它又回到了这些孤岛时刻。所以对我们来说，当我们在思考我们的产品流程时，我们几乎必须忘记流程部分。既然想法现在很便宜，我们必须创建一个真正能实现更快决策的系统。你如何在空间上获取所有这些不同的工件并将它们连接起来，以便人们拥有相同的上下文？因为这就是现在的游戏关键：我在玩和你一样的游戏吗，我真的知道你是从哪里开始的吗？我能和你一样快地赶上你，这样我们就可以更快地做出决策，因为你需要做的决策太多了？共享上下文是新的瓶颈"
+ },
+ {
+  "seg": 14,
+  "start": 327,
+  "end": 344,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Yes. And I see that the same way as in the past, a lot of these SaaS companies were trying to replace the spreadsheet. They'd position themselves in the middle and say, \"And you can integrate with everybody else.\" So I'm curious to know what the real competitive landscape is for you, and how you're thinking about integrations with other players.",
+  "zh": "是的。我看到这和过去一样，许多 SaaS 公司试图取代电子表格。它们将自己定位在中间并说，“你可以与其他所有人集成。”所以我很好奇，对你来说真正的竞争格局是什么，以及你如何考虑与其他玩家的集成。"
+ },
+ {
+  "seg": 15,
+  "start": 344,
+  "end": 398,
+  "speaker": "Elaina O'Mahoney",
+  "en": "The competitive landscape is really interesting, because when you're a product leader, a lot of your skill set is about future casting. You have to create these strategies that are two to five years forward, but it's almost an in-the-moment feedback loop that you now need to create with system-level thinking. So for us, it's really just about having the right information in the right moment in time. For example, if I start with a document and then I want to spatially present that idea to multiple people, can I quickly turn that document into a prototype, into slides? And can I connect them spatially together so everybody has the same context to make the right decision moving forward?",
+  "zh": "竞争格局真的很有趣，因为当你是一个产品领导者时，你很多技能是关于未来预测的。你必须创建这些前瞻两到五年的战略，但现在你几乎需要创建一个具有系统思维的时刻反馈循环。所以对我们来说，这实际上只是在正确的时间点拥有正确的信息。例如，如果我从一个文档开始，然后我想在空间上向多个人展示那个想法，我可以快速将那个文档变成原型，变成幻灯片吗？我可以将它们在空间上连接起来，以便每个人都有相同的上下文来做出正确的决策向前推进吗？"
+ },
+ {
+  "seg": 16,
+  "start": 398,
+  "end": 431,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I see companies like Slack or Teams trying to be that space for people to collaborate. You also have issue-tracking tools like Jira or Linear trying to communicate, \"This is the place where work gets done.\" But the reality is it's still unclear where work gets done, where agents are being deployed, as companies try to truly deploy this in a way that drives adoption. It's not just a few people creating their own context. Where does work happen, and how does the right flow of information have to go?",
+  "zh": "我看到像 Slack 或 Teams 这样的公司试图成为人们协作的空间。你也有像 Jira 或 Linear 这样的问题跟踪工具试图传达，“这是工作完成的地方。”但现实是工作在哪里完成、智能体被部署在哪里仍然不清楚，因为公司试图真正部署它以推动采用。这不仅仅是几个人创建他们自己的上下文。工作发生在哪里，以及正确的信息流必须如何流动？"
+ },
+ {
+  "seg": 17,
+  "start": 431,
+  "end": 511,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, it's an interesting concept, where every tool right now in the stack is almost converging in a circular area, and everybody is also converging on a chat-widget UI where work happens. How many different companies have the same tagline of \"where work happens\"? OKRs can be in a certain area, and it'll say what work is planned, and then you can measure against what's been planned. Slack is very good for communication in the moment. Then you'll have Notion, Confluence, Docs, Jira, or Linear, where you're still planning work or capturing decisions that have been made. The space that really is still ambiguous is how decisions are getting made and the context of why. That's a blank canvas area we think we're converging on. Yes, in meetings we talk about stuff, but the meeting notes come after; they capture a summary. You still don't have the context of why the decision was made. So how do you bring some of this disparate information together and really get to the why behind decision-making in the moment? When AI Is a Layer, Not a Button",
+  "zh": "是的，这是一个有趣的概念，现在堆栈中的每个工具几乎都在一个圆形区域中汇聚，每个人也都汇聚到一个聊天小部件 UI，工作发生在那里。有多少不同的公司拥有相同的“工作发生在这里”的标语？OKR 可以在某个区域，它会说明计划了什么工作，然后你可以根据计划好的内容进行衡量。Slack 非常适合时刻的沟通。然后你会有 Notion、Confluence、Docs、Jira 或 Linear，你仍然在计划工作或捕获已做出的决策。那个仍然模糊的空间是决策如何做出以及为什么的上下文。我认为这是我们正在汇聚的一块空白画布。是的，在会议上我们谈论事情，但会议记录在之后才到；它们捕获了摘要。你仍然没有关于为什么做出决策的上下文。那么你如何将一些不同的信息汇集在一起，真正在时刻找到决策背后为什么的真相？当 AI 是一层而不是一个按钮时"
+ },
+ {
+  "seg": 18,
+  "start": 511,
+  "end": 562,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "You're making me think about how some of these products that try to become the center of where work happens started implementing AI. It was usually a button that said \"AI,\" with a star; you click it and it summarizes information or does something magical. But now it feels like AI is not just a button. It happens across the board, and maybe some of the things don't need to be called AI at all. So as you think about the user who hasn't set up the context, the one who shows up and is suddenly in a canvas where they can start playing around with different pieces of information: for product teams specifically, how do you see that happening today when they're maybe not super technical, maybe not a designer, but they still need to ship stuff and not depend on the next person in line to slow them down?",
+  "zh": "你让我思考了这些试图成为工作发生中心的产品是如何开始实施 AI 的。通常是一个标有“AI”的按钮，带有一颗星；你点击它，它会总结信息或做一些神奇的事情。但现在感觉 AI 不仅仅是一个按钮。它无处不在，也许有些事情根本不需要被称为 AI。所以当你考虑到那个还没有建立上下文的用户，那个出现并突然处在一个画布中、可以开始摆弄不同信息片段的用户时：对于产品团队来说，特别是那些今天可能不太懂技术、可能不是设计师、但仍然需要发布东西并且不依赖下一个人来拖慢他们速度的产品团队，你如何看待这种情况的发生？"
+ },
+ {
+  "seg": 19,
+  "start": 562,
+  "end": 668,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, we have this arm of our business we call LUMA. It's one of our services offerings now that we're part of this organization, really going through LUMA practitioner training. Something we try to break away from is people thinking they're not a designer. If you've put together a slide deck, if you've done a drawing, and everybody drew when they were a kid, you're a designer at heart. So everybody actually needs to embrace the fact that they are a designer. You may not do it by trade, and you may not do it to the proficiency of those in the design community, but everybody can design, and there are tools out there that can help you. The point is that visual pictures, whether it's a customer journey map, a diagram, or even a data analytics diagram, let you absorb information faster than if you were to read a document. It's that visual element of being able to contextualize information much quicker that really speeds up your ideation process, speeds up how you make decisions, what you decide to take to market. Now that I work at Mural and I do that more frequently than I did previously, I can see how we can get to the disagreements faster. How do we get to where the challenges and bottlenecks are so much faster when it's visual? Leading by Example: Everybody Should Be Shipping",
+  "zh": "是的，我们要这个业务分支叫 LUMA。这是我们服务产品的一部分，因为我们现在是这个组织的一部分，真正接受 LUMA 从业者培训。我们试图打破的一点是人们认为他们不是设计师。如果你拼凑了一套幻灯片，如果你画了一幅画，而且每个人小时候都画过画，那你骨子里就是个设计师。所以每个人实际上都需要拥抱他们是设计师这一事实。你可能不是以此为业，你可能做不到设计社区中那些人的熟练程度，但每个人都可以设计，而且有一些工具可以帮助你。关键在于视觉图片，无论是客户旅程地图、图表，甚至是数据分析图表，让你能比阅读文档更快地吸收信息。正是那种能够更快速地上下文化信息的视觉元素，真正加速了你的构思过程，加速了你做出决策的方式，以及你决定推向市场的东西。现在我在 Mural 工作，我比我以前更频繁地这样做，我可以看到我们可以如何更快地到达分歧。当它是视觉化时，我们如何如此快地到达挑战和瓶颈所在的地方？以身作则：每个人都应该发布"
+ },
+ {
+  "seg": 20,
+  "start": 668,
+  "end": 693,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "What you just said about leading by example sets the tone. I've hosted product leaders from Tropic, Vercel, and other AI-native companies, and they're all shipping from top to bottom, right to left. Everybody is a builder in a way. So I'm curious to know, for you personally as the Chief Product Officer, how do you actually set that tone?",
+  "zh": "你刚才关于以身作则的说法定下了基调。我主持过来自 Tropic、Vercel 和其他 AI 原生公司的产品领导者，他们都在从上到下、从右到左地发布。每个人都以某种方式是构建者。所以我很好奇，对于你个人作为首席产品官，你实际上是如何设定这种基调的？"
+ },
+ {
+  "seg": 21,
+  "start": 693,
+  "end": 745,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, absolutely. I do think everybody should be playing and shipping now. Should everybody be shipping in production all the time? Maybe. The lens is where you can ship in safe environments. You can actually solve some of your core bottlenecks as the CPO, where you inherently would make decisions and choices. You can democratize some of that by just shipping workflows, shipping agents, shipping research agents. There are still some things that are quite scarce that you can work on internally. Data science is still scarce. Really good taste is still scarce. Synthesizing analytics is still scarce. So you can actually decide as a CPO where you play in that space to make your team's techniques faster.",
+  "zh": "是的，绝对的。我确实认为每个人都应该在玩耍和发布。每个人都应该一直在生产环境中发布吗？也许吧。视角在于你可以在安全的环境中发布。你实际上可以解决你作为 CPO 的一些核心瓶颈，你天生会在那里做出决策和选择。你可以通过发布工作流、发布智能体、发布研究智能体来实现一些民主化。仍然有一些相当稀缺的事情你可以在内部解决。数据科学仍然稀缺。真正好的品味仍然稀缺。综合分析仍然稀缺。所以你可以作为 CPO 决定你在那个空间中在哪里发挥作用，以使你团队的技术更快。"
+ },
+ {
+  "seg": 22,
+  "start": 745,
+  "end": 773,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I just had this recent example today. I shipped the new email signature for the company. I didn't really ship it into production; it was like 80%. But I felt unstoppable, because I could express myself in a much more visual way. So now we're going to skip a couple of steps. Ultimately there's an expert who's still going to validate it, and another expert who's going to put it into production. But first of all, it feels great.",
+  "zh": "我今天就有这个最近的例子。我为公司发布了新的电子邮件签名。我并没有真正将其发布到生产环境；它完成了 80%。但我觉得势不可挡，因为我能够以一种更视觉化的方式表达自己。所以现在我们要跳过几个步骤。最终，仍然会有一位专家来验证它，还有另一位专家将其投入生产。但首先，这感觉很棒。"
+ },
+ {
+  "seg": 23,
+  "start": 773,
+  "end": 785,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "It's not a major, major release. But I like your point that shipping doesn't need to be something major into production. Shipping a workflow is still a great way to demo that you can do it. Kill the Five-Page Strategy Doc, Ship the Prototype",
+  "zh": "这不是一个非常重大的发布。但我喜欢你的观点，即发布不一定非得是投入生产的重大事情。发布一个工作流仍然是演示你可以做到的一种好方式。干掉那五页的战略文档，发布原型"
+ },
+ {
+  "seg": 24,
+  "start": 785,
+  "end": 844,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, it's also something we went through here at Mural, which hopefully is relevant to other product leaders and to engineering, design, and product teams. Usually a product leader would write this very, very big product strategy doc. Sometimes it's five pages, sometimes it's four pages. It makes the rounds, people comment, and maybe it starts to slowly die. What we can actually do faster as leaders is create a prototype of something we're envisioning. I'm not saying it will ship like this prototype, but it conveys some of the principles that you want the teams to explore, and a North Star direction. You as the product leader can do that so much faster. Or you as the PM, or even the engineer, could say, \"Hey, what about this concept and idea?\" And it actually moves the entire team faster in their ideation cycle, or their decision-making cycle, just with a visual.",
+  "zh": "是的，这也是我们在 Mural 经历过的，希望这对其他产品领导者以及工程、设计和产品团队也有参考价值。通常产品领导者会写一份非常、非常大的产品战略文档。有时是五页，有时是四页。它四处流传，人们发表评论，也许它开始慢慢消亡。作为领导者，我们实际上可以更快做的是创建我们设想的东西的原型。我并不是说它会像这个原型一样发布，但它传达了你希望团队探索的一些原则，以及一个北极星方向。你作为产品领导者可以快得多地做到这一点。或者你作为 PM，甚至工程师，可以说，“嘿，这个概念和想法怎么样？”它实际上利用视觉让整个团队在他们的构思周期或决策周期中移动得更快。"
+ },
+ {
+  "seg": 25,
+  "start": 844,
+  "end": 960,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Your product has both angles. You have the consumer, or the employees, or the smaller businesses, as well as large enterprises. In a small-scale business, you have no choice; you have to do a lot of different things. But when you start talking about very large companies, over a thousand employees, maybe they use your product in a known way, for brainstorming and things like that. How do you go about highlighting the new horizon, and making sure that people who are not super technical yet feel comfortable and get that feeling of magic? Creating a Safe Space to Try and Fail Elaina O'Mahoney | Mural 00:14:42 Yeah, I think it's actually lowering the bar for somebody to learn in a lower-risk environment. What AI has created is almost the haves, where you have to virtue signal that you're always ahead of the game, on the frontier, versus those who are like, \"I think I can write my emails and do the summaries, and I can even write a Slack bot that summarizes the things I need to do in the morning.\" But how do you give them the space to showcase what they're doing and ask, \"Am I on the right track?\" Or somebody who's doing something very frontier and proficient: are you creating the space for them to just try? Because AI is so solo-player mode, it's really hard to see people work out in public and get ideas for how to move forward. So when you're working for Fortune 500 companies, how do you create a safe space that gets more people to try things, but fail at first when trying? I mean, Carlos, I'm sure you tried to write many different things over and over again, and you had to learn by failing with a lot of these tools. How do you create that same environment for employees?",
+  "zh": "你的产品有两个角度。你有消费者，或者员工，或者小企业，以及大型企业。在小规模企业中，你别无选择；你必须做许多不同的事情。但是当你开始谈论非常大的公司，超过一千名员工时，也许他们以一种已知的方式使用你的产品，用于头脑风暴之类的事情。你如何去突显新的地平线，并确保那些还不怎么懂技术的人感到舒适并获得那种神奇的感觉？创造一个尝试和失败的避风港 Elaina O'Mahoney | Mural 00:14:42 是的，我认为这实际上是降低了某人学习的门槛，在低风险的环境中。AI 造就的几乎是有产者，你必须发出信号表明你总是领先于游戏，处于前沿，而那些人则是，“我想我可以写我的电子邮件并做总结，我甚至可以写一个 Slack 机器人来总结我早上需要做的事情。”但你如何给他们空间来展示他们在做什么，并问，“我在正确的轨道上吗？”或者对于正在做一些非常前沿和熟练的事情的人：你是在为他们创造空间去尝试吗？因为 AI 是如此的单人模式，很难看到人们公开工作并获得如何前进的想法。所以当你为财富 500 强公司工作时，你如何创造一个安全的空间，让更多的人尝试事情，但在尝试时首先失败？我的意思是，Carlos，我肯定你试图一次又一次地写许多不同的东西，你必须通过在这些工具上失败来学习。你如何为员工创造同样的环境？"
+ },
+ {
+  "seg": 26,
+  "start": 960,
+  "end": 979,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "A lot of the companies we guide are large enterprises, and we try to bring the right tools for them. The one approach I've seen work is picking smaller teams, even though the company is big; you have to get those first champions, because I haven't been successful at doing these major rollouts.",
+  "zh": "我们指导的许多公司都是大企业，我们试图为他们带来合适的工具。我见过奏效的一种方法是挑选较小的团队，即使公司很大；你必须得到那些第一批冠军，因为我还没有成功地做过这些大规模的推广。"
+ },
+ {
+  "seg": 27,
+  "start": 979,
+  "end": 1030,
+  "speaker": "Elaina O'Mahoney",
+  "en": "There are some things in this moment in time where you almost have to rely on things that were true in previous transformations. Large organizations have innovation centers for a reason, because if everybody had to do something very dramatic all at once, it's really hard to roll that out at scale. So how do you get teams to try something differently? You almost have to break a process. You can't have a process in the very beginning. You have to set up a system for them, because the process is going to change as they learn. That's the hardest struggle for very large enterprise organizations: they're keeping their process, but then trying to adapt to a new way of learning while keeping that process. You have to set up a system, and system thinking. Why Your Best Forward Deployed Engineer Might Sit in Legal",
+  "zh": "在这个时刻有一些事情几乎必须依赖以前转型中真实的那些事情。大公司有创新中心是有原因的，因为如果每个人都必须同时做一些非常戏剧性的事情，很难大规模推广。那么你如何让团队尝试不同的方式？你几乎必须打破一个流程。你不能在最开始就有一个流程。你必须为他们建立一个系统，因为随着他们的学习，流程会改变。这对于非常大的企业组织来说是最难的挣扎：他们在保留他们的流程，但试图适应新的学习方式，同时保留那个流程。你必须建立一个系统，和系统思维。为什么你最好的前置部署工程师可能坐在法务部门"
+ },
+ {
+  "seg": 28,
+  "start": 1030,
+  "end": 1039,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "And for that type of system, do you require some type of forward deployed engineers at some point, or is it something you think can be done a little more organically?",
+  "zh": "对于那种类型的系统，你在某个点需要某种前置部署工程师吗，还是这是你认为可以更有机地完成的事情？"
+ },
+ {
+  "seg": 29,
+  "start": 1039,
+  "end": 1096,
+  "speaker": "Elaina O'Mahoney",
+  "en": "I think forward deployed engineers are really, really helpful, because they're usually the ones who can use the tools that are best for the job today. It also gives people insight, as long as they're sharing, to say, \"Oh, this is how that person did it, this is how they automated that workflow, this is how they did the discovery, this is how they used Claude or Codex or your tool of choice. I now can do a bit of what they did.\" So whether it's a forward deployed engineer, or somebody in legal that's automated their process, it doesn't necessarily have to be an engineer. It can be somebody in any department who has already adapted to the tools, already automated some of the way they work, and you embed them into a different team or environment that hasn't yet.",
+  "zh": "我认为前置部署工程师真的、真的很有帮助，因为他们通常是那些今天可以使用最适合这项工作的工具的人。它也给了人们洞察力，只要他们在分享，就可以说，“哦，那个人就是那样做的，他们就是这样自动化那个工作流的，他们就是这样做发现的，他们就是这样使用 Claude 或 Codex 或你选择的工具的。我现在可以做一点他们所做的事。”所以无论是前置部署工程师，还是那个已经自动化了其流程的法务部门的人，不一定非得是工程师。它可以是任何部门中已经适应了这些工具、已经自动化了他们部分工作方式的人，然后你把他们嵌入到一个尚未这样做的不同团队或环境中。"
+ },
+ {
+  "seg": 30,
+  "start": 1096,
+  "end": 1106,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Imagine that: not only playing forward deployed engineer, but a forward deployed employee. That's really cool. How do you go about identifying those early champions, to give them the stage so they can highlight what they're doing?",
+  "zh": "想象一下：不仅是扮演前置部署工程师，还是一个前置部署员工。这真的很酷。你如何去识别那些早期的冠军，给他们舞台让他们可以突出他们在做什么？"
+ },
+ {
+  "seg": 31,
+  "start": 1106,
+  "end": 1154,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, I think it's about being able to create a forum for people to showcase their work. And I hate to keep saying Mural, but it's a collaborative tool; you can see what people are doing. I use the legal example because we have a person who sits in our legal department that we've been trying to steal to the product and engineering side for a while, and our head of legal is like, \"Don't touch him. He is so good here. He's automated 50% of our processes already.\" And when I think back, it's actually probably better that he's there automating a different part of our business than me stealing him for us. But he's able to showcase his work in Mural. He shares it with the entire organization, and it gives people these lightbulb moments in every department. Tapping the Community Without Chasing ROI",
+  "zh": "是的，我认为这关乎能够为人们创建一个论坛来展示他们的工作。我不想一直说 Mural，但它是一个协作工具；你可以在上面看到人们在做什么。我用法务的例子是因为我们有一个坐在我们法务部门的人，我们试图把他偷到产品和工程这边已经有一段时间了，而我们的法务负责人说，“别碰他。他在这里太好了。他已经自动化了我们 50% 的流程。”回想起来，实际上他可能在那里自动化我们业务的不同部分比被我偷走对我们更好。但他能够在 Mural 上展示他的工作。他与整个组织分享它，并在每个部门给人们这些灵光乍现的时刻。在不追逐 ROI 的情况下挖掘社区"
+ },
+ {
+  "seg": 32,
+  "start": 1154,
+  "end": 1181,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "One of the things I think is unique about your product is the community aspect. Some companies have decided to open source their product or tap into communities, which is easy to say and hard to crack, because this is not just a discussion forum where people propose ideas. You've been doing this for a long time. So I'm curious to know how you're tapping into that open community of people using Mural, to then bring some of those best practices to the way you build the product, or the way other companies should be using it.",
+  "zh": "我认为你的产品独特之处之一是社区方面。一些公司决定开源他们的产品或挖掘社区，这说起来容易做起来难，因为这不仅仅是一个人们提出想法的讨论论坛。你做这个很久了。所以我很好奇，你是如何挖掘使用 Mural 的开放社区的，然后将一些最佳实践带入你构建产品的方式，或其他公司应该使用它的方式。"
+ },
+ {
+  "seg": 33,
+  "start": 1181,
+  "end": 1232,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, we've actually introduced a newer community within Mural, and we've got a subset of our customers who are first invited to it. That ties back to the previous point I was making: it's about sharing how you're working, how you're deciding, how you're thinking. It's the same reason you exist, Carlos. You've created this community where people can share ideas about how they work, and it sparks another idea in another company, from another person. The thing I was most surprised about when I joined Mural a little more than a year and a half ago is how many people are so passionate about human-centered design, visual collaboration, ensuring people can all feel like designers, and that ideas can come from everywhere.",
+  "zh": "是的，我们实际上在 Mural 内引入了一个更新的社区，我们有一部分客户首先被邀请到那里。这与我刚才说的上一点有关：它是关于分享你如何工作，如何做决定，如何思考。这也是你存在的原因，Carlos。你创建了这个社区，人们可以分享关于他们如何工作的想法，它激发了另一家公司中另一个人的另一个想法。当我加入 Mural 一年半多一点时，我最惊讶的一件事是有多少人热衷于以人为中心的设计、视觉协作、确保人们都能觉得自己像设计师，以及想法可以来自任何地方。"
+ },
+ {
+  "seg": 34,
+  "start": 1232,
+  "end": 1275,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I ask you that question because it's an important piece of how I think about my business. When I started thinking about building community for our company, I didn't have any expectation in return. I knew I had to find a way to measure ROI, and at some point I couldn't. I was like, \"You know what? I don't know how to measure it, but we're still going to do it.\" And I think that sparked something. Sure, it'd be great to say it reduces customer support or increases revenue, and I'm sure there are some derivatives to that. But actually giving value is critical, because there are so many other options out there. Why would someone dedicate time to build and share what they're doing with your product?",
+  "zh": "我问你这个问题是因为它是我思考我的业务的重要部分。当我开始为我们的公司建立社区时，我对回报没有任何期望。我知道我必须找到一种方法来衡量 ROI，但在某个点上我做不到。我当时想，“你知道吗？我不知道怎么衡量它，但我们仍然要做。”我认为这激发了一些东西。当然，如果说它减少了客户支持或增加了收入那就好了，我确信有一些衍生的东西。但实际上给予价值是至关重要的，因为还有许多其他选择。为什么要有人花时间来建立和分享他们用你的产品做的事情？"
+ },
+ {
+  "seg": 35,
+  "start": 1275,
+  "end": 1331,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, it can serve multiple purposes. A community that inspired me earlier on was Lenny's community. If you're just trying out the tool, they'll invite you to the Slack community, and it's there that everything is about adapting to change, doing something brand new. When you're doing something brand new and there isn't a playbook to follow, that's when community is most important. It's creating this trusting, open environment where people can say, \"I've tested this out, I've done it this way,\" or you can ask a more vulnerable question, and people are there to almost say, \"I know an answer, I've tried it this way,\" or \"I can connect you with somebody else. Do you want me to show you?\" It's the value of that loop that's actually quicker, because you're getting it from people not inside your echo chamber. The Black Market for Tokens",
+  "zh": "是的，它可以服务于多个目的。早些时候启发我的一个社区是 Lenny 的社区。如果你只是在试用该工具，他们会邀请你加入 Slack 社区，在那里一切都是关于适应变化，做一些全新的东西。当你做一些全新的东西并且没有剧本可以遵循时，社区是最重要的。它创造这种信任的、开放的环境，人们可以说，“我已经测试过了，我是这样做的，”或者你可以问一个更脆弱的问题，人们在那里几乎会说，“我知道答案，我试过这种方法，”或者“我可以把你和别人联系起来。你想让我给你看看吗？”正是那个循环的价值实际上更快，因为你是从不在你回声室里的人那里得到它的。Token 黑市"
+ },
+ {
+  "seg": 36,
+  "start": 1331,
+  "end": 1354,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I want to connect this to how you're thinking about pricing. At some point, if you can really drive adoption within your business and you build the right integrations, you're unstoppable; people need that product to survive. It's the heart of how they build. So how are you thinking about pricing now, with token usage and everything?",
+  "zh": "我想把它与你们对定价的思考联系起来。在某个点上，如果你真的可以在你的业务中推动采用并且你建立了正确的集成，你是势不可挡的；人们需要那个产品来生存。这是他们构建方式的核心。那么你现在是如何思考定价的，关于 token 使用和所有事情？"
+ },
+ {
+  "seg": 37,
+  "start": 1354,
+  "end": 1447,
+  "speaker": "Elaina O'Mahoney",
+  "en": "This is the thing that actually keeps me up at night. I wonder how many organizations that are, to use the very vibe name, \"AI-native.\" We weren't born when tokens and LLMs were there. So our pricing model reflects a lot of the seat-based pricing that everybody now attaches to legacy SaaS. But there's almost a double-edged sword with usage. When we speak to some of our larger customers, there's almost a black market for tokens. If they use their own tokens, they'll have to go to three other employees to say, \"I've got 80% of the way there with my prototype, and my tokens got cut off. Susie, can I siphon some of your tokens?\" And now it disincentivizes the wrong behavior. So it's a decision we're taking with the utmost care. It goes back to the fact that we serve totally different types of businesses, from a person who just bought us for themselves, for their three-person company or even their solo consulting gig, all the way up to a Fortune 500 company with 10,000 people. We have to think of pricing models throughout that same range, and maybe the pricing models are completely different. We know the value of our product in this very near future has to be filled with AI at its core, but we also don't want to disincentivize folks from using it and have to keep an accounting ledger of tokens. Making Sure Usage Drives the Right Outcomes",
+  "zh": "这实际上就是让我晚上睡不着觉的事情。我想知道有多少组织是，用一个非常有氛围的名字来说，“AI 原生”的。我们没有出生在 token 和 LLM 存在的时候。所以我们的定价模式反映了每个人现在附加到传统 SaaS 的很多基于座位的定价。但是使用几乎是一把双刃剑。当我们与我们的一些较大的客户交谈时，几乎有一个 token 的黑市。如果他们使用自己的 token，他们将不得不去找其他三个员工说，“我的原型完成了 80%，我的 token 被切断了。Susie，我可以虹吸你的一些 token 吗？”现在它抑制了错误的行为。这是我们非常谨慎地做出的决定。这回到了我们为完全不同类型的企业服务的事实，从一个只是为自己购买我们的人，为他们的三家公司甚至他们的单人咨询工作，一直到拥有 10,000 人的财富 500 强公司。我们必须在整个相同范围内考虑定价模式，也许定价模式完全不同。我们知道我们的产品在不久的将来的价值必须在核心填充 AI，但我们也不想抑制人们使用它并不得不保留 token 的会计账本。确保使用推动正确的成果"
+ },
+ {
+  "seg": 38,
+  "start": 1447,
+  "end": 1480,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "We're at the early innings of this. You see the examples of companies that are burning tokens and are very proud of it. But I also know companies that send the right mandate, like \"You have to burn X amount of tokens.\" I'm not going to mention those companies, but they game their own system, kind of like in the past when some salespeople would report fake calls on their CRM to show product activity. Now they're trading whatever it is on AI to say, \"Hey, I burnt X amount of tokens.\" So how do you ensure that some of this usage is actually driving the right business outcomes?",
+  "zh": "我们还处于这个的早期阶段。你看到了那些正在烧掉 token 并为此感到自豪的公司的例子。但我也知道那些发送正确指令的公司，比如“你必须烧掉 X 数量的 token。”我不会提及那些公司，但他们在玩自己的系统，就像过去有些销售人员会在他们的 CRM 上报告虚假通话以显示产品活动一样。现在他们在 AI 上交易任何东西来说，“嘿，我烧掉了 X 数量的 token。”那么你如何确保一些这种使用实际上推动了正确的业务成果？"
+ },
+ {
+  "seg": 39,
+  "start": 1480,
+  "end": 1574,
+  "speaker": "Elaina O'Mahoney",
+  "en": "I think the first thing comes with measurement, which was actually the first inclination of most organizations: \"Here's a tool, just use it.\" And usage showed adoption, and then everybody's like, \"Holy crap, this is very expensive. Pull back, pull back, pull back.\" So it's really about starting with a measurement layer, and then measuring how they're using it. Just because you can with AI, and I'm probably going to say the controversial thing, doesn't mean you need to do it with AI. Maybe spell check with AI is quite expensive. There are other things that can do spell check that don't have AI. So can we apply it to the right things? Can we at least measure our costs? Everything is going to come back to learning loops at the moment, that give us the flexibility of decision-making and don't go too far down the future casting of decision-making, because it's really hard to pull back pricing models. Once pricing models are in the air, people are really going to fight tooth and nail to not change them. And the last thing we're trying to make sure of is predictability. Any business has to understand its cost when things are so uncertain. So the cost of our tool can't wildly swing from month to month at all. There has to be predictability to it, so they can continue investing, so it can incentivize the right usage behavior, and people can get value out of it freely. How Mural Structures Its Product Teams",
+  "zh": "我认为第一件事是伴随测量，这实际上是大多数组织的第一个倾向：“这是一个工具，用吧。”使用显示了采用，然后每个人都像，“天哪，这非常昂贵。退后，退后，退后。”所以实际上是关于从一个测量层开始，然后测量他们如何使用它。仅仅因为你可以用 AI，而我可能会说出有争议的话，并不意味着你需要用 AI 来做它。也许用 AI 进行拼写检查相当昂贵。还有其他东西可以做拼写检查而没有 AI。所以我们可以把它应用到正确的事情上吗？我们至少可以衡量我们的成本吗？一切都将回到学习循环，给我们决策的灵活性，不要在决策的未来预测上走得太远，因为很难收回定价模式。一旦定价模式出台，人们真的会拼命不改变它们。我们要确保的最后一件事是可预测性。任何企业都必须在事情如此不确定时了解其成本。所以我们工具的成本不能在每月之间大幅波动。必须具有可预测性，这样他们才能继续投资，这样它就能激励正确的使用行为，人们可以自由地从中获得价值。Mural 如何构建其产品团队"
+ },
+ {
+  "seg": 40,
+  "start": 1574,
+  "end": 1579,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Can you give me a sense for the current team that you run?",
+  "zh": "你能让我了解一下你管理的当前团队吗？"
+ },
+ {
+  "seg": 41,
+  "start": 1579,
+  "end": 1656,
+  "speaker": "Elaina O'Mahoney",
+  "en": "The current team that I run really focuses on both broad capabilities and very specific personas, because we're a very broad-based tool. We have some traditional triad teams, with designers, engineers, and product folks. Then we have some product engineers playing dual roles, and some designer-product folks playing hybrid roles. It completely depends on the area of the business you work in. If you're within our core product that serves all of our users, we're going to have more of a traditional triad, because you can't just frontier-test and try with, say, banking and finance organizations that have to go through a lot of administrative and security processes. But if we're in a newer area of the business where we're trying things out, we can go to hugely untraditional models, where you have different hybrid teams that can ship to production very, very fast, and change management isn't really part of that issue. It's high experimentation. So we run that gamut of teams working completely differently depending on the outcome they're trying to drive.",
+  "zh": "我管理的当前团队确实专注于广泛的能力和非常具体的人物角色，因为我们是一个非常广泛的工具。我们有一些传统的三人组团队，有设计师、工程师和产品人员。然后我们有一些产品工程师扮演双重角色，一些设计师-产品人员扮演混合角色。这完全取决于你工作的业务领域。如果你在我们服务于所有用户的核心产品内，我们将会有更多的传统三人组，因为你不能只是前沿测试并尝试，比如必须经历大量管理和安全流程的银行和金融组织。但如果我们正在业务的较新领域尝试事物，我们可以采用非常非传统的模式，在那里你有不同的混合团队，可以非常非常快地发布到生产环境，变更管理实际上不是那个问题的一部分。这是高实验性。所以我们运行了整个范围的团队，根据他们试图推动的结果完全不同地工作。"
+ },
+ {
+  "seg": 42,
+  "start": 1656,
+  "end": 1662,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Ultimately, you oversee the different teams, right? Zero-to-one, and the more core product.",
+  "zh": "最终，你监管不同的团队，对吧？从零到一，以及更核心的产品。"
+ },
+ {
+  "seg": 43,
+  "start": 1662,
+  "end": 1700,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Absolutely. I take it from the model of a city planner. You have a working city, so the way you change it has to be more thought through. If you're going to break down a freeway and put in a new one, or make a toll bridge, that's different from being a frontier team. The frontier team is back in the day before America was America, heading out West. You have to backpack, you have to kill your own food, you have to forage. The way those two teams work is completely, oppositely different, but they're serving the same business. Balancing Core Business Against Future Bets",
+  "zh": "绝对的。我从城市规划师的模式来看待它。你有一个工作的城市，所以你改变它的方式必须经过更多的思考。如果你要拆毁一条高速公路并修一条新的，或者造一座收费桥，这不同于作为一个前沿团队。前沿团队是在美国成为美国之前的过去，向西进发。你必须背包，你必须杀掉你自己的食物，你必须觅食。这两个团队的工作方式完全、截然不同，但他们服务于同一个企业。平衡核心业务与未来赌注"
+ },
+ {
+  "seg": 44,
+  "start": 1700,
+  "end": 1729,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I was having a similar conversation with the CEO at ServiceNow, a public company over $100 billion in market cap, but down at least 25% year to date. When you have that type of market pressure, I was trying to understand how much effort you put on the future, knowing it might not pay off next quarter. In your case, as a private company, I'm curious how you allocate those resources: new bets, or things that are less mature, versus things that keep the lights on.",
+  "zh": "我刚才与 ServiceNow 的 CEO 进行了类似的对话，这是一家市值超过 1000 亿美元的上市公司，但今年迄今为止至少下跌了 25%。当你有那种市场压力时，我试图了解你在未来投入多少精力，知道它可能不会在下一个季度回报。在你的情况下，作为一家私营公司，我很好奇你如何分配那些资源：新的赌注，或者不太成熟的东西， versus 维持灯光的东西。"
+ },
+ {
+  "seg": 45,
+  "start": 1729,
+  "end": 1803,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, it's the innovator's dilemma. You have a business you need to serve today that's reinforcing your revenue stream, but you know you want to evolve your product and service for a possibly totally different audience. So you have to really think of the allocation in bets. Maybe we do a certain percentage for bets that we know could be self-fulfilling, without forgetting our core business and why people buy us today. So it's really about spreading that allocation of bets, and letting the team within that bet area help us understand what's working and what's not, and whether we need to reallocate those dollars. That decision-making is much, much faster. I'm paying attention to a lot of that future bet of what's working. How do we make something that's maybe completely different than what we do today, but stays core to collaboration, bringing people together, and visual? It's really that bet allocation. But you have to look at revenue. Ask \"What Did You Learn?\" Not \"What Did You Ship?\"",
+  "zh": "是的，这是创新者的窘境。你有一项今天需要服务的业务，它正在加强你的收入流，但你知道你想为可能完全不同的受众进化你的产品和服务。所以你必须真正考虑赌注的分配。也许我们为那些可能是自我实现的赌注做一定百分比，而不要忘记我们的核心业务和人们今天购买我们的原因。所以实际上是关于分散赌注的分配，并让那个赌注区域内的团队帮助我们了解什么是有效的，什么是无效的，以及我们是否需要重新分配那些美元。那个决策要快得多。我关注很多那个正在有效的未来赌注。我们如何制作一些可能与我们今天所做的完全不同，但仍保持协作、将人们聚集在一起和视觉的核心的东西？实际上就是那个赌注分配。但你必须看收入。询问“你学到了什么？”而不是“你发布了什么？”"
+ },
+ {
+  "seg": 46,
+  "start": 1803,
+  "end": 1811,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Exactly. So traditionally there would be these big QBRs, maybe annual planning. I'd love to know how often you reprioritize now.",
+  "zh": "没错。所以传统上会有这些大型 QBR，也许还有年度规划。我很想知道你现在重新安排优先级的频率。"
+ },
+ {
+  "seg": 47,
+  "start": 1811,
+  "end": 1865,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Oh, that's probably once a month. On the future-bet casting, that feedback loop is once a month. Our CTO and myself are meeting with the teams to say, \"What did we learn?\" We're not just saying \"What did you ship?\" It's \"What did you learn?\" Because you need to change your decision-making faster. If we're not changing our decision-making, or we're still thinking the same way we did a month ago, we didn't gather the right information. It has to be something net new. So meeting with our future-bet teams once a month helps reinforce that feedback loop, and helps us decide, \"Oh, maybe we need more resources in this future bet, because they're onto something.\" It's almost like running three mini-startups inside a business that's been around for over ten years.",
+  "zh": "哦，那大概是一个月一次。关于未来赌注预测，那个反馈循环是一个月一次。我们的 CTO 和我自己与团队会面说，“我们学到了什么？”我们不只是说“你发布了什么？”而是“你学到了什么？”因为你需要更快地改变你的决策。如果我们没有改变我们的决策，或者我们仍然是一个月前的思维方式，我们没有收集正确的信息。它必须是一些全新的东西。所以与我们未来赌注团队一个月会面一次有助于加强那个反馈循环，并帮助我们决定，“哦，也许我们需要在这个未来赌注中投入更多资源，他们有苗头。”这就像在一个已经存在了十多年的业务中运行三家迷你初创公司。"
+ },
+ {
+  "seg": 48,
+  "start": 1865,
+  "end": 1874,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Over ten years now, wow. I remember when I met your founder in the early days. He was telling a story about the video game that turned into Mural, and now look at where you are today.",
+  "zh": "超过十年了，哇。我记得我在早期遇到你的创始人时。他在讲一个关于电子游戏变成 Mural 的故事，现在看看你今天在哪里。"
+ },
+ {
+  "seg": 49,
+  "start": 1874,
+  "end": 1880,
+  "speaker": "Elaina O'Mahoney",
+  "en": "Yeah, he's still there. Mariano is still around, and he's still definitely an idea person.",
+  "zh": "是的，他还在那里。Mariano 还在，他绝对还是一个点子多的人。"
+ },
+ {
+  "seg": 50,
+  "start": 1880,
+  "end": 1887,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I haven't talked to him recently. Since I'm from Spain and we just won the tournament, I hope he still likes me.",
+  "zh": "我最近没和他谈过。既然我来自西班牙，而且我们刚赢了锦标赛，我希望他仍然喜欢我。"
+ },
+ {
+  "seg": 51,
+  "start": 1887,
+  "end": 1895,
+  "speaker": "Elaina O'Mahoney",
+  "en": "I was also there during that time. There are a lot of Argentinians in Spain, so there was a lot of shouting for them.",
+  "zh": "那段时间我也在那里。西班牙有很多阿根廷人，所以有很多为他们发出的喊叫。"
+ },
+ {
+  "seg": 52,
+  "start": 1895,
+  "end": 1898,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Really? Yeah. It's been awesome to have you on the pod. Thank you so much for your time.",
+  "zh": "真的吗？是的。你能来参加这期播客真是太棒了。非常感谢你的时间。"
+ },
+ {
+  "seg": 53,
+  "start": 1898,
+  "end": 1899.2,
+  "speaker": "Elaina O'Mahoney",
+  "en": "It's been wonderful.",
+  "zh": "这很美妙。"
+ }
+]

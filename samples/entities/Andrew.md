@@ -28,7 +28,7 @@ unlisted: true
 *3 集*
 
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]] — 作为联合主持
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《Parag：给智能体用的搜索，为什么不能是给人类用的》]] — 作为主持
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为主持
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为主持
 
 ## ③ 他谈到的
@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Sonia":2,"Parag":2,"Parallel":4,"搜索智能体":2,"索引":2,"爬取":2,"推理":1,"后台智能体":5,"多智能体系统":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Sonia":2,"Parag":2,"Parallel":4,"搜索智能体":2,"索引":2,"爬取":2,"推理":2,"后台智能体":5,"多智能体系统":1}</script>
 
 <script>
 (function(){

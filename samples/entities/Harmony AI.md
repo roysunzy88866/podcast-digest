@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]]**(30:58起):本集说 Harmony AI 是 TrustWise 的当前产品名称，是一个由 API 和 CLI 组成的平台，作为横跨多供应商智能体的控制塔
+- **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(30:58起):本集说 Harmony AI 是 TrustWise 的当前产品名称，是一个由 API 和 CLI 组成的平台，作为横跨多供应商智能体的控制塔
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《智能体需要HR部门：TrustWise的运行时控制塔》]] — 作为概念
+- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为概念
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Manoj Saxena]] · [[TrustWise]] · [[智能体]] · [[运行时控制]] · [[对齐]] · [[语义行动层]] · [[守护者智能体]] · [[盾牌]] · [[信任姿态管理]] · [[多智能体系统]]
 
-<script type="application/json" class="pd-epn">{"Manoj Saxena":1,"TrustWise":1,"智能体":141,"运行时控制":1,"对齐":5,"语义行动层":1,"守护者智能体":1,"盾牌":1,"信任姿态管理":1,"多智能体系统":1}</script>
+<script type="application/json" class="pd-epn">{"Manoj Saxena":1,"TrustWise":1,"智能体":146,"运行时控制":1,"对齐":5,"语义行动层":1,"守护者智能体":1,"盾牌":1,"信任姿态管理":1,"多智能体系统":1}</script>
 
 <script>
 (function(){

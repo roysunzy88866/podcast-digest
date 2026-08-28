@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(43:35起):本集由主持人提到其 CEO Olivier Pamel 在之前一集中讨论过凌晨三点被叫醒处理事故的问题
+- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(43:35起):本集由主持人提到其 CEO Olivier Pamel 在之前一集中讨论过凌晨三点被叫醒处理事故的问题
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(37:12起):本集把它说成:通过凭证注入,智能体能用 Datadog 的凭证发请求,但本身看不到凭证,实现可用不可见
 - **[[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]]**(01:48起):本集作为可观测性平台的代表被顺带提及,指出在其上做实时查询获得的数据非常细粒度但搜索量受限。
 - **[[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]]**(01:06起):本集讨论的云监控公司，嘉宾 Emilio 担任其 CISO；内部高达 98% 的员工都在用各类 AI 工具，团队为管控编程智能体自研了「法官」、沙箱及基于角色的 MCP 服务器。
@@ -21,7 +21,7 @@ unlisted: true
 
 *6 集*
 
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为被讨论公司(提及)
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为被讨论公司(提及)
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为被讨论公司
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]] — 作为被讨论公司(提及)
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为被讨论公司
@@ -34,7 +34,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[评估]] · [[沙箱]] · [[harness]] · [[可观测性]] · [[Simon Maple]] · [[代码审查]] · [[上下文]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Anthropic":70,"评估":16,"沙箱":28,"harness":16,"可观测性":12,"Simon Maple":5,"代码审查":2,"上下文":11,"Cursor":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":72,"评估":16,"沙箱":29,"harness":16,"可观测性":13,"Simon Maple":6,"代码审查":2,"上下文":11,"Cursor":37}</script>
 
 <script>
 (function(){

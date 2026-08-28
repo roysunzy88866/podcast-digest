@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ken]] [[Dave Fletcher]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]]
+[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Superhuman":4,"Whisper":1,"Victor":1,"Meta":21,"Google":28,"PLG":4,"智能体":141,"ugc":2,"AEO":3}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Superhuman":4,"Whisper":1,"Victor":1,"Meta":21,"Google":29,"PLG":5,"智能体":146,"ugc":2,"AEO":3}</script>
 
 <script>
 (function(){

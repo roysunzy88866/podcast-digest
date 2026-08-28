@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]]**(66:34起):本集说 Kiavi 是投资人贷款（fix and flip）领域的市场领导者，被 Figure 收购后当天联合 Sixth Street 从 DTC 模式转型为市场平台模式，占 Figure 约 40% 的交易量。
+- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(66:34起):本集说 Kiavi 是投资人贷款（fix and flip）领域的市场领导者，被 Figure 收购后当天联合 Sixth Street 从 DTC 模式转型为市场平台模式，占 Figure 约 40% 的交易量。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]] — 作为被讨论公司
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司
 
 ## ③ 关联
 

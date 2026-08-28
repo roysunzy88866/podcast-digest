@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,23 +16,22 @@ unlisted: true
 - **[[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]]**(31:48起):本集把它说成：Figma Dev Mode 等产品用于连接其他生态系统的一项技术协议。它能帮助开发者在自己的智能体开发环境中直接拉取并使用 Figma 的上下文。
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(22:30起):本集解释它是 Anthropic 提出的模型上下文协议,本质上是一套包装器,能将 Salesforce、Snowflake 等企业工具暴露给大语言模型,让模型直接操作,实现跨系统的自动化编排。
 - **[[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]]**(61:33起):本集提到在定稿后，你可以通过 Figma MCP 协议把动效设计发给大语言模型（LLM）去进行代码开发。
+- **[[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]]**(55:23起):Daniel在讨论反馈循环时提到，可以通过MCP或智能体连接到可观测性，让它弄清楚自己构建并部署的东西是否正在崩溃
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(14:50起):本集把它说成:一种让大模型更好地与外部工具（如 Figma）或 API 进行通信的标准，能大幅拓展 AI 的执行边界。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(00:45起):被描述为让大模型与 Slack、Gmail 等外部系统安全通信的集成编织层标准。嘉宾将私有知识库部署为本地 MCP 服务器，从而随时通过桌面端安全调用。
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(21:48起):本集说 MCP 是一种让 AI 智能体连接外部工具的标准协议，企业软件公司通过它把数据平台和功能以智能体方式开放出去
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(21:48起):本集说 MCP 是一种让 AI 智能体连接外部工具的标准协议，企业软件公司通过它把数据平台和功能以智能体方式开放出去
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(01:54起):本集提到它是出自 Labs 团队的代表性创新产品之一。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(01:59起):讲者将 MCP(模型上下文协议)归类为编排层的一部分,与工具、技能和子智能体一样,属于 harness 的范畴。
 - **[[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]]**(05:27起):本集把它说成：一个简单的开放协议，正在智能体网络中发挥和 HTTP 对互联网一样的基础性历史作用
 - **[[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]]**(09:02起):本集说 MCP 是一种让 AI 智能体调用外部工具的协议，但大多数公共 MCP 服务成功率只有 60%，且协议本身不覆盖治理层、可观测性、DLP 等企业需求
 - **[[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]]**(35:41起):本集说这是一种让 AI 调用外部工具的协议，Roblox 内部系统（如 Roblox 操作系统）都启用了 MCP，任何人都可以拿自己的 AI 系统在上面跑。
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(01:23起):本集说 GrokBot 把 Cursor 上很棒的插件 MCP 体验带入了聊天智能体，连接器可以对接 Gmail、Slack 等服务
-- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]]**(10:42起):本集说 MCP 是让 AI 工具连接外部数据源的协议（如 Figma MCP 插件、Fresh Service MCP），演示了通过它让 Claude 一条提示词拉取 60 天工单、生成根因分析报告并批量回复。
+- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(10:42起):本集说 MCP 是让 AI 工具连接外部数据源的协议（如 Figma MCP 插件、Fresh Service MCP），演示了通过它让 Claude 一条提示词拉取 60 天工单、生成根因分析报告并批量回复。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
 ## ① 提到它的金句
 
-*3 条*
-
-![[2026-08-24-pg-srini-raghavan-podcast#^q3]]
+*2 条*
 
 ![[2026-singju-openclaw-80apps#^q4]]
 
@@ -40,32 +39,33 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念(提及)
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为概念
 - [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为概念(提及)
+- [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]] — 作为概念(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念(提及)
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为概念
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为概念
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念(提及)
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念(提及)
 - [[2026-08-12-aiandi-microsoft-s-vision-for-an-internet-made|《微软 CTO 谈智能体网络：MCP 就像 AI 时代的 HTTP》]] — 作为概念
 - [[2026-08-14-thepeel-re-founding-a-company-for-the-ai-era--sh|《Merge的"二次创业"：从SaaS集成到AI连接基础设施》]] — 作为概念
 - [[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|《Roblox创始人的做减法哲学与经济系统设计》]] — 作为概念
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为概念
-- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为概念
+- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Claude Code]] · [[Cursor]] · [[护栏]] · [[Figma]] · [[Codex]] · [[Claude]] · [[OpenAI]] · [[LLM]]
+[[智能体]] · [[Lenny]] · [[护栏]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[Figma]] · [[Codex]] · [[OpenAI]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Lenny":65,"Claude Code":36,"Cursor":35,"护栏":28,"Figma":10,"Codex":27,"Claude":33,"OpenAI":63,"LLM":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"护栏":30,"Claude Code":37,"Cursor":37,"Claude":35,"Figma":10,"Codex":27,"OpenAI":65,"LLM":19}</script>
 
 <script>
 (function(){

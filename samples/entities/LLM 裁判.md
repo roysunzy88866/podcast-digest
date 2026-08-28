@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(49:30起):本集把它说成:用另一个模型来给当前模型的输出打分的自动化评估方法,例如用于图像生成领域,是构建复杂评估打分系统的基础。
-- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]]**(24:48起):本集说 Forum AI 的方法是先由领域专家制定评估框架（rubric），然后用这个框架训练一个 LLM 评判者，实现大规模评估模型在敏感话题上的表现
+- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(24:48起):本集说 Forum AI 的方法是先由领域专家制定评估框架（rubric），然后用这个框架训练一个 LLM 评判者，实现大规模评估模型在敏感话题上的表现
 
 ## ① 提到它的金句
 
@@ -49,7 +49,7 @@ unlisted: true
 *2 集*
 
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为概念(提及)
-- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]] — 作为概念
+- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为概念
 
 ## ③ 关联
 
@@ -57,7 +57,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Daniel McKinnon]] · [[Alex]] · [[Akash]] · [[Campbell Brown]] · [[评估]] · [[Forum AI]] · [[PRD]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Meta":21,"Daniel McKinnon":1,"Alex":4,"Akash":3,"Campbell Brown":1,"评估":16,"Forum AI":1,"PRD":6,"OpenAI":63}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Meta":21,"Daniel McKinnon":1,"Alex":4,"Akash":3,"Campbell Brown":1,"评估":16,"Forum AI":1,"PRD":6,"OpenAI":65}</script>
 
 <script>
 (function(){

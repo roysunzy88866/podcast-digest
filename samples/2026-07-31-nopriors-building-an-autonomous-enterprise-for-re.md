@@ -154,7 +154,7 @@ Melissa 用一个场景说明为什么这事不简单：零下 20 度，暖气�
 
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:OpenAI · 同概念:主观能动性 (agency)、智能体 (agents)</span>
 - [[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|MercadoLibre 的 18000 人工程团队怎么管]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agents)</span>
-- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agents)</span>
+- [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agents)</span>
 
 </div>
 </div>

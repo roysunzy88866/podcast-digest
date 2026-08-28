@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,15 +15,16 @@ unlisted: true
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(03:26起):本集核心探讨的商业模式，嘉宾指出任何 SaaS 公司都有一个由流失率决定的绝对规模天花板（每月新增客户数 ÷ 流失率），除非解决流失或保证净留存达标，否则绝对长不大
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:13起):Dan 反对「SaaS 末日论」，预测智能体会成倍增加 SaaS 的调用量和用户数，并且用户在自己电脑的本地 AI 环境中使用这些网页工具会消耗自己的大模型算力（tokens），从而大幅节省 SaaS 厂商的成本。
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(11:09起):本集指出传统 SaaS 的打包方式（数据模型+业务逻辑+界面）必须被拆解重组。底层数据模型（如总账）应当保留，但应用孤岛将被打破，通过智能体重组创造新价值。
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(21:11起):本集说当智能体能接管原来靠企业软件走的工作流时，钱就不再花在 SaaS 订阅上了
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(21:11起):本集说当智能体能接管原来靠企业软件走的工作流时，钱就不再花在 SaaS 订阅上了
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(07:26起):本集把它说成:通过云端交付的应用软件,是一个大约 5000 亿美元的市场
-- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]]**(16:34起):本集说 SaaS 时代积压了 5.8 万亿美元价值且'卡住了'，SaaS 公司卖的是让人更高效的工具，很难转为按结果付费模式，否则股价会先崩一半
+- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(16:34起):本集说 SaaS 时代积压了 5.8 万亿美元价值且'卡住了'，SaaS 公司卖的是让人更高效的工具，很难转为按结果付费模式，否则股价会先崩一半
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(01:29起):本集说 SaaS 没死，只是使用者变了——智能体擅长按按钮，所以软件回来了但变成智能体在用
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(42:40起):本集说很多 SaaS 公司只是在给猪涂口红撒点 AI 粉尘加个副驾驶，协同工作时代的自主智能体对没有记录系统和 AI 战略的 SaaS 公司是真正的威胁
+- **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(05:27起):本集说 Mural 的定价模式反映了传统 SaaS 按座位收费的方式
 
 ## ① 提到它的金句
 
-*8 条*
+*7 条*
 
 ![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q8]]
 
@@ -35,33 +36,32 @@ unlisted: true
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q8]]
 
-![[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an#^q7]]
-
 ![[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau#^q5]]
 
 ![[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n#^q9]]
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为概念(提及)
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为概念(提及)
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念(提及)
-- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]] — 作为概念
+- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为概念
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为概念(提及)
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为概念(提及)
+- [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Cursor]] · [[MCP]] · [[Codex]] · [[Microsoft]] · [[开源模型]] · [[NVIDIA]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Cursor]] · [[MCP]] · [[LLM]] · [[Codex]] · [[Microsoft]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"OpenAI":63,"Anthropic":70,"Lenny":65,"Cursor":35,"MCP":16,"Codex":27,"Microsoft":13,"开源模型":2,"NVIDIA":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"Anthropic":72,"Lenny":65,"Cursor":37,"MCP":17,"LLM":19,"Codex":27,"Microsoft":14,"开源模型":2}</script>
 
 <script>
 (function(){

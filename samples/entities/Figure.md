@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|《人形机器人上战场：公关跑得比机器人快》]]**(54:48起):本集在讨论竞争格局时，Mike说Figure和Optimus看起来真的很好
-- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]]**(01:54起):本集说 Figure 是一家在区块链轨道上建立资本市场未来基础设施的公司，切入点是房屋净值信贷额度（HELOC），将发放成本从行业平均 12000 美元降至 1000 美元，耗时从 45 天缩至最快 5 天，后转型为市场平台模式。
+- **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(01:54起):本集说 Figure 是一家在区块链轨道上建立资本市场未来基础设施的公司，切入点是房屋净值信贷额度（HELOC），将发放成本从行业平均 12000 美元降至 1000 美元，耗时从 45 天缩至最快 5 天，后转型为市场平台模式。
 
 ## ① 提到它的金句
 
@@ -33,7 +33,7 @@ unlisted: true
 *2 集*
 
 - [[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|《人形机器人上战场：公关跑得比机器人快》]] — 作为被讨论公司(提及)
-- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《非创始人CEO的运营者心态：Figure如何用区块链重构抵押贷款》]] — 作为被讨论公司
+- [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司
 
 ## ③ 关联
 

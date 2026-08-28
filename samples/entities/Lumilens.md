@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]]**(01:12起):本集说 Lumilens 提供横向扩展和纵向扩展的光子技术模块，用于连接 GPU 和数据中心机架，解决铜线无法超过一米的高速互联物理瓶颈
+- **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(01:12起):本集说 Lumilens 提供横向扩展和纵向扩展的光子技术模块，用于连接 GPU 和数据中心机架，解决铜线无法超过一米的高速互联物理瓶颈
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《AI 泡沫的数学与早期投资的真实打法》]] — 作为被讨论公司
+- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Navin Chaddha]] · [[Mayfield]] · [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Claude]] · [[智能体]] · [[推理]] · [[GPU]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"Navin Chaddha":1,"Mayfield":1,"Anthropic":70,"OpenAI":63,"NVIDIA":22,"Claude":33,"智能体":141,"推理":1,"GPU":7,"SaaS":9}</script>
+<script type="application/json" class="pd-epn">{"Navin Chaddha":1,"Mayfield":1,"Anthropic":72,"OpenAI":65,"NVIDIA":23,"Claude":35,"智能体":146,"推理":2,"GPU":8,"SaaS":10}</script>
 
 <script>
 (function(){

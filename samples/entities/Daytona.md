@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(00:04起):本集将其描述为提供「面向智能体的可组合计算机(composable computers for agents)」的公司。它直接运行在裸金属(bare metal)上以提供极快的速度,支持动态调整大小和有状态快照。目前正秘密押注 computer use(计算机使用),以争夺 Windows/macOS 等老旧系统自动化的庞大市场。
-- **[[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla Dark Factory：95%代码无人看过就合并》]]**(17:46起):本集说编码智能体运行在 Daytona 沙箱中，使用它是为了隔离和安全保证，运行在 TESL 自己的内部 Daytona 环境里
+- **[[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]]**(17:46起):本集说编码智能体运行在 Daytona 沙箱中，使用它是为了隔离和安全保证，运行在 TESL 自己的内部 Daytona 环境里
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司
-- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla Dark Factory：95%代码无人看过就合并》]] — 作为被讨论公司(提及)
+- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[Ivan Burazin]] · [[Rob Willoughby]] · [[Cognition]] · [[Guy Pajani]] · [[Neon]] · [[Simon Maple]] · [[Parallel]] · [[暗工厂]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"沙箱":28,"Ivan Burazin":1,"Rob Willoughby":1,"Cognition":7,"Guy Pajani":3,"Neon":2,"Simon Maple":5,"Parallel":4,"暗工厂":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"沙箱":29,"Ivan Burazin":1,"Rob Willoughby":1,"Cognition":9,"Guy Pajani":3,"Neon":2,"Simon Maple":6,"Parallel":4,"暗工厂":2}</script>
 
 <script>
 (function(){

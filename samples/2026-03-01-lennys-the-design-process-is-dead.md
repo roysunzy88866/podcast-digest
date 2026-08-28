@@ -139,7 +139,7 @@ Jenny 说她现在最想要三类人。第一类是「强通才」(技能像方�
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:Claude</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:IC</span>
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、Claude Code</span>
+- [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agents)、IDE</span>
 
 </div>
 </div>

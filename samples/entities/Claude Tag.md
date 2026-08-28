@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]]**(00:00起):本集把它说成:住在 Slack 里的主动型队友，拥有跨会话记忆、端到端执行能力和独立权限，能从接反馈到提 PR 一条龙跑完
+- **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(00:00起):本集把它说成:住在 Slack 里的主动型队友，拥有跨会话记忆、端到端执行能力和独立权限，能从接反馈到提 PR 一条龙跑完
 
 ## ① 提到它的金句
 
@@ -23,7 +23,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag：把智能体从终端搬进 Slack 的多人协作实验》]] — 作为概念
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为概念
 
 ## ③ 关联
 
@@ -31,7 +31,7 @@ unlisted: true
 
 [[Guy Pajani]] · [[Simon Maple]] · [[Lamus Mukta]] · [[Anthropic]] · [[Claude Code]] · [[智能体]] · [[沙箱]] · [[记忆]] · [[dreaming]] · [[智能体身份]]
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":5,"Lamus Mukta":1,"Anthropic":70,"Claude Code":36,"智能体":141,"沙箱":28,"记忆":5,"dreaming":3,"智能体身份":1}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":6,"Lamus Mukta":1,"Anthropic":72,"Claude Code":37,"智能体":146,"沙箱":29,"记忆":5,"dreaming":3,"智能体身份":1}</script>
 
 <script>
 (function(){

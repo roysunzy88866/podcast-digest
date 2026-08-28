@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(44:17起):DRI（直接责任人）是本集核心概念之一。Brian 说'想弄死一株植物，就让两个人浇它'，强调公司过了 100 人后，所有重要的事都是跨职能的，必须有一个有权势的人对结果负责，大人桌的每个 CEO 都是 DRI 的狂热信徒。
-- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]]**(00:52起):本集说 DRI（直接责任人）是让一个人贯穿产品从构思到规模化的完整弧线，能综合产品、技术、商业三个维度做决策，帮团队砍掉路障、扼杀沉默否决权
+- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]]**(00:52起):本集说 DRI（直接责任人）是让一个人贯穿产品从构思到规模化的完整弧线，能综合产品、技术、商业三个维度做决策，帮团队砍掉路障、扼杀沉默否决权
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为概念
-- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]] — 作为概念
+- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]] — 作为概念
 
 ## ③ 关联
 
@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Brian Halligan]] · [[Willem Avé]] · [[Lenny]] · [[Square]] · [[HubSpot]] · [[Block]] · [[Sequoia]] · [[业务单元模式]] · [[MongoDB]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Brian Halligan":1,"Willem Avé":1,"Lenny":65,"Square":3,"HubSpot":4,"Block":2,"Sequoia":2,"业务单元模式":1,"MongoDB":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Brian Halligan":1,"Willem Avé":1,"Lenny":65,"Square":3,"HubSpot":4,"Block":2,"Sequoia":2,"业务单元模式":1,"MongoDB":3}</script>
 
 <script>
 (function(){

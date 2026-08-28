@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ken]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]]
+[[Elaina O'Mahoney]] [[Ken]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]] [[Jason Lemkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ken":1,"Lead Dev":1,"AI 编码工具":1,"可观测性":12,"CI-CD":5,"技术债务":1,"AI 优先":2,"DevTools":1}</script>
+<script type="application/json" class="pd-epn">{"Ken":1,"Lead Dev":1,"AI 编码工具":1,"可观测性":13,"CI-CD":6,"技术债务":1,"AI 优先":2,"DevTools":1}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":5,"Andrew":3,"TESL":3,"智能体":141,"循环工程":4,"技能":7,"验证器":1,"变更风险验证器":1,"软件工厂":3,"代码审查":2}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":6,"Andrew":3,"TESL":3,"智能体":146,"循环工程":4,"技能":7,"验证器":1,"变更风险验证器":1,"软件工厂":3,"代码审查":2}</script>
 
 <script>
 (function(){

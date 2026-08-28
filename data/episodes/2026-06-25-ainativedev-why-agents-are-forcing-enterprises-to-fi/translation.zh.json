@@ -1,0 +1,5330 @@
+[
+ {
+  "seg": 0,
+  "start": 0.32,
+  "end": 11.36,
+  "speaker": "Daniel Jones",
+  "en": "Now that it's agents doing the work and tokens and the cost of those, everyone's gonna be really like keen on making sure the software development lifecycles was as effective and as efficient as it possibly could be.",
+  "zh": "既然现在是智能体在做这些工作，还有 token 以及这些成本，每个人都将非常热衷于确保软件开发生命周期尽可能有效和高效。"
+ },
+ {
+  "seg": 1,
+  "start": 11.52,
+  "end": 15.92,
+  "speaker": "Daniel Jones",
+  "en": "But when it was humans, it was like, oh well, Timmy's just lazy and that's what that's why stuff isn't getting delivered.",
+  "zh": "但当是人在做的时候，就像，噢，好吧，Timmy 就是懒，那就是东西没交付的原因。"
+ },
+ {
+  "seg": 2,
+  "start": 16,
+  "end": 20.8,
+  "speaker": "Daniel Jones",
+  "en": "And they didn't focus enough on process and you know value stream mapping and all those important things.",
+  "zh": "而且他们没有足够关注流程，你知道，价值流图，以及所有那些重要的东西。"
+ },
+ {
+  "seg": 3,
+  "start": 21.04,
+  "end": 25.6,
+  "speaker": "Daniel Jones",
+  "en": "Now it's when it's agents, it's like, well, that's gonna cost us money, and we can easily see that it's costing us money.",
+  "zh": "现在当是智能体在做时，就像，好吧，那要花我们的钱，而且我们可以很容易地看到那正在花我们的钱。"
+ },
+ {
+  "seg": 4,
+  "start": 26,
+  "end": 30.08,
+  "speaker": "Patrick Dubois",
+  "en": "Most people know me from the DevOps transformation and the cloud native transformation.",
+  "zh": "大多数人是从 DevOps 转型和云原生转型中认识我的。"
+ },
+ {
+  "seg": 5,
+  "start": 30.32,
+  "end": 36.4,
+  "speaker": "Patrick Dubois",
+  "en": "And I love every new chaotic period in the industry because that's where the learning is happening.",
+  "zh": "我喜欢行业中每一个新的混乱时期，因为那是学习正在发生的地方。"
+ },
+ {
+  "seg": 6,
+  "start": 36.48,
+  "end": 38.64,
+  "speaker": "Patrick Dubois",
+  "en": "And right now that is AI encoding.",
+  "zh": "而现在那就是 AI 编码。"
+ },
+ {
+  "seg": 7,
+  "start": 38.88,
+  "end": 44.08,
+  "speaker": "Tamuz Dubnov",
+  "en": "The way I think about it is I go back to pre-gen AI, and I imagine I have all the manpower and all the time in the world.",
+  "zh": "我思考它的方式是回到前 Gen AI 时代，我想象我拥有世界上所有的人力和所有的时间。"
+ },
+ {
+  "seg": 8,
+  "start": 44.16,
+  "end": 46.96,
+  "speaker": "Tamuz Dubnov",
+  "en": "And basically with that mindset, we say, okay, now you have Gen AI.",
+  "zh": "基本上带着这种心态，我们说，好吧，现在你有了 Gen AI。"
+ },
+ {
+  "seg": 9,
+  "start": 47.28,
+  "end": 54,
+  "speaker": "Tamuz Dubnov",
+  "en": "DevAcient, there is no excuse not to do everything you ever thought you'd want somebody to do, and then automate it so it happens by CI automatical.",
+  "zh": "DevAcient，没有借口不做你曾经想让你想做的一切，然后自动化它，以便它通过 CI 自动发生。"
+ },
+ {
+  "seg": 10,
+  "start": 55.6,
+  "end": 61.92,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is a podcast with developers and engineering leads at the cutting edge of AI and agentic coding.",
+  "zh": "AI Native Dev 是一个播客，嘉宾包括处于 AI 和智能体编码前沿的开发者和工程负责人。"
+ },
+ {
+  "seg": 11,
+  "start": 62.48,
+  "end": 72.08,
+  "speaker": "Simon Maple",
+  "en": "Join your host, Typer Johnny, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions that we're facing developers today.",
+  "zh": "加入你的主持人 Typer Johnny，每周与 Simon Maple 会面，我们要与 AI 领域最令人兴奋的声音聊天，并解决我们今天开发者面临的最大问题。"
+ },
+ {
+  "seg": 12,
+  "start": 73.04,
+  "end": 75.28,
+  "speaker": "Simon Maple",
+  "en": "This episode is the AI Native Dev.",
+  "zh": "这一集是 AI Native Dev。"
+ },
+ {
+  "seg": 13,
+  "start": 78.96,
+  "end": 81.44,
+  "speaker": "Simon Maple",
+  "en": "Hey everyone, hope you're enjoying the episode so far.",
+  "zh": "大家好，希望你们到目前为止喜欢这一集。"
+ },
+ {
+  "seg": 14,
+  "start": 81.92,
+  "end": 89.68,
+  "speaker": "Simon Maple",
+  "en": "Our team is working really hard behind the scenes to bring you the best guests so we can have the most informative conversations about agentic development.",
+  "zh": "我们的团队正在幕后非常努力地工作，为你带来最好的嘉宾，这样我们就能进行关于智能体开发的最具信息量的对话。"
+ },
+ {
+  "seg": 15,
+  "start": 90.24,
+  "end": 95.28,
+  "speaker": "Simon Maple",
+  "en": "Whether that's talking about the latest tools, the most efficient workflows, or defining best practices.",
+  "zh": "无论是谈论最新的工具，最高效的工作流，还是定义最佳实践。"
+ },
+ {
+  "seg": 16,
+  "start": 95.76,
+  "end": 99.2,
+  "speaker": "Simon Maple",
+  "en": "But for whatever reason, many of you have yet to subscribe to the channel.",
+  "zh": "但无论出于什么原因，你们中的许多人还没有订阅这个频道。"
+ },
+ {
+  "seg": 17,
+  "start": 99.6,
+  "end": 106.24,
+  "speaker": "Simon Maple",
+  "en": "If you're enjoying the podcast and want us to continue to bring you the very best content, then please do us a favor and hit that subscribe button.",
+  "zh": "如果你喜欢这个播客，并希望我们继续为你带来最好的内容，那么请帮我们一个忙，点击那个订阅按钮。"
+ },
+ {
+  "seg": 18,
+  "start": 106.48,
+  "end": 113.52,
+  "speaker": "Simon Maple",
+  "en": "It really does make a difference and lets us continue to improve the quality of our guests and build an even better product for you.",
+  "zh": "这真的很有用，让我们能继续提高嘉宾的质量，为你构建更好的产品。"
+ },
+ {
+  "seg": 19,
+  "start": 114.08,
+  "end": 115.52,
+  "speaker": "Simon Maple",
+  "en": "Alright, back to the episode.",
+  "zh": "好了，回到这一集。"
+ },
+ {
+  "seg": 20,
+  "start": 116.48,
+  "end": 117.84,
+  "speaker": "Simon Maple",
+  "en": "Hey there, Simon Maple here.",
+  "zh": "嘿，我是 Simon Maple。"
+ },
+ {
+  "seg": 21,
+  "start": 117.92,
+  "end": 120.88,
+  "speaker": "Simon Maple",
+  "en": "Welcome to another episode of the AI Native Dev.",
+  "zh": "欢迎收听 AI Native Dev 的另一集。"
+ },
+ {
+  "seg": 22,
+  "start": 121.52,
+  "end": 126.48,
+  "speaker": "Simon Maple",
+  "en": "This week we're sharing another fascinating conversation that we had with some of our AI native Devon speakers.",
+  "zh": "这周我们要分享我们与一些 AI native Devon 演讲者进行的另一场迷人的对话。"
+ },
+ {
+  "seg": 23,
+  "start": 126.8,
+  "end": 133.28,
+  "speaker": "Simon Maple",
+  "en": "This time on the topic of AI enablement and what enterprises need to get up to speed with a genetic development.",
+  "zh": "这次关于 AI 赋能的主题，以及企业需要跟上速度进行基因开发所需要的。"
+ },
+ {
+  "seg": 24,
+  "start": 133.84,
+  "end": 141.28,
+  "speaker": "Simon Maple",
+  "en": "I sat down with the godfather of DevOps, Patrick Devoir, Autonomy AIs, Thomas Dubinoff, and Daniel Jones from Resync.",
+  "zh": "我与 DevOps 之父 Patrick Devoir，Autonomy AIs 的 Thomas Dubinoff，以及来自 Resync 的 Daniel Jones 坐下来交谈。"
+ },
+ {
+  "seg": 25,
+  "start": 141.52,
+  "end": 144.24,
+  "speaker": "Simon Maple",
+  "en": "What I think you'll agree was a really intriguing discussion.",
+  "zh": "我想你会同意这是一场非常有趣的讨论。"
+ },
+ {
+  "seg": 26,
+  "start": 144.32,
+  "end": 149.2,
+  "speaker": "Simon Maple",
+  "en": "And what I love is the way that some discussions you very often get question-answer, question-answer.",
+  "zh": "我喜欢的一点是，在有些讨论中，你经常会得到问答、问答。"
+ },
+ {
+  "seg": 27,
+  "start": 149.6,
+  "end": 151.28,
+  "speaker": "Simon Maple",
+  "en": "But these folks were very, very passionate.",
+  "zh": "但这些人非常、非常充满激情。"
+ },
+ {
+  "seg": 28,
+  "start": 151.92,
+  "end": 153.68,
+  "speaker": "Simon Maple",
+  "en": "They really added to each other's points.",
+  "zh": "他们真的补充了彼此的观点。"
+ },
+ {
+  "seg": 29,
+  "start": 154,
+  "end": 155.28,
+  "speaker": "Simon Maple",
+  "en": "And it was a true conversation.",
+  "zh": "而这是一场真正的对话。"
+ },
+ {
+  "seg": 30,
+  "start": 155.52,
+  "end": 156.32,
+  "speaker": "Simon Maple",
+  "en": "I hope you enjoy it.",
+  "zh": "我希望你喜欢它。"
+ },
+ {
+  "seg": 31,
+  "start": 157.2,
+  "end": 163.52,
+  "speaker": "Simon Maple",
+  "en": "Hello, Simon Maple here, and I am at the AI Native DevCon 2026 in London.",
+  "zh": "你好，我是 Simon Maple，我在伦敦参加 AI Native DevCon 2026。"
+ },
+ {
+  "seg": 32,
+  "start": 163.68,
+  "end": 173.92,
+  "speaker": "Simon Maple",
+  "en": "And we've got a wonderful panel here to talk about AI enablement within organizations, how we can be most successful at scaling uh agentic development across our organizations.",
+  "zh": "我们这里有一个很棒的小组，谈论组织内部的 AI 赋能，以及如何最成功地扩大我们组织内部的智能体开发。"
+ },
+ {
+  "seg": 33,
+  "start": 174,
+  "end": 175.52,
+  "speaker": "Simon Maple",
+  "en": "I've got a wonderful panel, as I mentioned.",
+  "zh": "正如我提到的，我有一个很棒的嘉宾小组。"
+ },
+ {
+  "seg": 34,
+  "start": 175.6,
+  "end": 179.04,
+  "speaker": "Simon Maple",
+  "en": "We have Daniel Jones, DJ, uh head of product at Resync.",
+  "zh": "我们有 Daniel Jones，DJ，Resync 的产品负责人。"
+ },
+ {
+  "seg": 35,
+  "start": 179.12,
+  "end": 192,
+  "speaker": "Simon Maple",
+  "en": "We have uh uh Tamuz Dubnov, who is the co-founder and CTO of Autonomy AI, and we have Patrick Dubois, who is the DevRel at TESL, the DevOps overlord and godfather of all things pipeline and workflows in DevOps.",
+  "zh": "我们有 Tamuz Dubnov，他是 Autonomy AI 的联合创始人和 CTO，还有 Patrick Dubois，他是 TESL 的 DevRel，DevOps 领主和 DevOps 中所有 pipeline 和工作流之父。"
+ },
+ {
+  "seg": 36,
+  "start": 192.24,
+  "end": 193.52,
+  "speaker": "Simon Maple",
+  "en": "Welcome everyone to the panel.",
+  "zh": "欢迎大家来到小组讨论。"
+ },
+ {
+  "seg": 37,
+  "start": 193.6,
+  "end": 194.32,
+  "speaker": "Daniel Jones",
+  "en": "How are you all doing?",
+  "zh": "你们都怎么样？"
+ },
+ {
+  "seg": 38,
+  "start": 194.64,
+  "end": 195.36,
+  "speaker": "Daniel Jones",
+  "en": "Not too bad.",
+  "zh": "还不错。"
+ },
+ {
+  "seg": 39,
+  "start": 195.52,
+  "end": 197.52,
+  "speaker": "Daniel Jones",
+  "en": "Given that there was a party on a boat yesterday.",
+  "zh": "考虑到昨天船上有个派对。"
+ },
+ {
+  "seg": 40,
+  "start": 198,
+  "end": 198.32,
+  "speaker": "Daniel Jones",
+  "en": "It was.",
+  "zh": "确实是。"
+ },
+ {
+  "seg": 41,
+  "start": 198.56,
+  "end": 200.24,
+  "speaker": "Daniel Jones",
+  "en": "Yes, and I'm just about functioning.",
+  "zh": "是的，我还能勉强运转。"
+ },
+ {
+  "seg": 42,
+  "start": 200.4,
+  "end": 201.12,
+  "speaker": "Simon Maple",
+  "en": "So that's good.",
+  "zh": "所以这很好。"
+ },
+ {
+  "seg": 43,
+  "start": 201.36,
+  "end": 202.96,
+  "speaker": "Simon Maple",
+  "en": "Well, that's that's that's always a benefit.",
+  "zh": "嗯，那那那总是一个好处。"
+ },
+ {
+  "seg": 44,
+  "start": 203.04,
+  "end": 203.6,
+  "speaker": "Simon Maple",
+  "en": "Always a benefit.",
+  "zh": "总是一个好处。"
+ },
+ {
+  "seg": 45,
+  "start": 203.84,
+  "end": 205.12,
+  "speaker": "Simon Maple",
+  "en": "Even with good weather in England, right?",
+  "zh": "即使在英国有好天气，对吧？"
+ },
+ {
+  "seg": 46,
+  "start": 205.44,
+  "end": 206.72,
+  "speaker": "Simon Maple",
+  "en": "Yeah, yeah, even with good weather.",
+  "zh": "是的，是的，即使有好天气。"
+ },
+ {
+  "seg": 47,
+  "start": 206.96,
+  "end": 209.68,
+  "speaker": "Simon Maple",
+  "en": "On a boat on the Thames and it was sunny, who knew?",
+  "zh": "在泰晤士河的一艘船上，而且是晴天，谁知道呢？"
+ },
+ {
+  "seg": 48,
+  "start": 209.92,
+  "end": 211.28,
+  "speaker": "Simon Maple",
+  "en": "Who knew that was a possibility?",
+  "zh": "谁知道那是一种可能？"
+ },
+ {
+  "seg": 49,
+  "start": 211.52,
+  "end": 214.24,
+  "speaker": "Simon Maple",
+  "en": "So why don't we start off with uh why don't we start off with you, DJ?",
+  "zh": "那么我们为什么不从……我们为什么不从你开始，DJ？"
+ },
+ {
+  "seg": 50,
+  "start": 214.32,
+  "end": 221.2,
+  "speaker": "Simon Maple",
+  "en": "And we'll let's go left to right and we'll um tell us a little bit about more about yourself, uh your role, and and maybe a little bit about Resync.",
+  "zh": "我们就让我们从左到右来，然后嗯告诉我们一点关于你自己的更多信息，嗯你的角色，还有也许一点关于 Resync 的信息。"
+ },
+ {
+  "seg": 51,
+  "start": 221.52,
+  "end": 221.76,
+  "speaker": "Daniel Jones",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 52,
+  "start": 221.84,
+  "end": 225.68,
+  "speaker": "Daniel Jones",
+  "en": "So um I am head of products at Resync, which means productizing our services.",
+  "zh": "所以嗯我是 Resync 的产品负责人，这意味着把我们服务产品化。"
+ },
+ {
+  "seg": 53,
+  "start": 225.76,
+  "end": 228.64,
+  "speaker": "Daniel Jones",
+  "en": "Uh we are a AI native transformation consultancy.",
+  "zh": "嗯我们是一家 AI 原生转型咨询公司。"
+ },
+ {
+  "seg": 54,
+  "start": 228.8,
+  "end": 235.36,
+  "speaker": "Daniel Jones",
+  "en": "We were big in uh the co-founders were big into cloud native transformation, wrote the O'Reilly cloud native transformation book.",
+  "zh": "我们在嗯联合创始人在云原生转型方面涉足很深，写了那本 O'Reilly 云原生转型的书。"
+ },
+ {
+  "seg": 55,
+  "start": 235.44,
+  "end": 247.28,
+  "speaker": "Daniel Jones",
+  "en": "And what we see is that organizations are repeating the same kind of mistakes when trying to adopt a disruptive technology of just plopping the technology in, not changing anything about how they work and being surprised that they're not going faster.",
+  "zh": "而我们看到的是，组织在尝试采用一种颠覆性技术时正在重复同样的错误，就是直接把技术扔进去，不改变任何关于他们工作方式的事情，然后对他们没有变得更快感到惊讶。"
+ },
+ {
+  "seg": 56,
+  "start": 247.44,
+  "end": 254,
+  "speaker": "Daniel Jones",
+  "en": "So we offer various services uh around that, and I do a lot of the training for uh agentic coding training.",
+  "zh": "所以我们在那方面提供各种服务，嗯而且我做很多关于嗯智能体编码培训的培训。"
+ },
+ {
+  "seg": 57,
+  "start": 254.32,
+  "end": 254.64,
+  "speaker": "Simon Maple",
+  "en": "Awesome.",
+  "zh": "很棒。"
+ },
+ {
+  "seg": 58,
+  "start": 255.6,
+  "end": 258.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so Thomas, co-founder and uh CTO at Autonomy AI.",
+  "zh": "嗯所以 Thomas，Autonomy AI 的联合创始人和嗯 CTO。"
+ },
+ {
+  "seg": 59,
+  "start": 258.8,
+  "end": 278.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh, we built an operating system on top of your codebase uh to enable an easy platform for non-technical or semi-technical individuals to actually meaningfully contribute to the code base and the organizations, something we can do their visual iterations and actually get stuff uh ready, do backlog items, do new items, and put everything inside a brown field code base that ends up in a meaningful PR that can actually be merged.",
+  "zh": "嗯，我们在你的代码库之上构建了一个操作系统，嗯以便为非技术或半技术个人启用一个简单的平台，让他们实际上能够有意义地贡献给代码库和组织，某种我们可以做他们的可视化迭代的东西，并且实际上把东西嗯准备好，做待办事项，做新项目，并把所有东西放入一个棕地代码库中，最终形成一个可以真正被合并的有意义的 PR。"
+ },
+ {
+  "seg": 60,
+  "start": 278.8,
+  "end": 279.76,
+  "speaker": "Patrick Dubois",
+  "en": "Sounds good, Patrick?",
+  "zh": "听起来不错，Patrick？"
+ },
+ {
+  "seg": 61,
+  "start": 280.16,
+  "end": 281.12,
+  "speaker": "Patrick Dubois",
+  "en": "Patrick Duel.",
+  "zh": "Patrick Duel。"
+ },
+ {
+  "seg": 62,
+  "start": 281.28,
+  "end": 287.28,
+  "speaker": "Patrick Dubois",
+  "en": "I'm from Belgium and I have gray hair, so I've lived through a bunch of transformations in my life.",
+  "zh": "我来自比利时，而且我有白头发，所以我这辈子经历过一系列的转型。"
+ },
+ {
+  "seg": 63,
+  "start": 287.44,
+  "end": 292.08,
+  "speaker": "Patrick Dubois",
+  "en": "Um most people know me from the DevOps transformation and the cloud native transformation.",
+  "zh": "嗯大多数人是因为 DevOps 转型和云原生转型而认识我的。"
+ },
+ {
+  "seg": 64,
+  "start": 292.32,
+  "end": 300.88,
+  "speaker": "Patrick Dubois",
+  "en": "And I love every new chaotic period in the industry because that's where the learning is happening, and right now that is AI and coding.",
+  "zh": "我喜欢行业里每一个新的混乱时期，因为那是学习发生的地方，而现在就是 AI 和编码。"
+ },
+ {
+  "seg": 65,
+  "start": 300.96,
+  "end": 310.8,
+  "speaker": "Patrick Dubois",
+  "en": "And so I'm looking not just at the tools, but also where kind of the new organizational patterns are happening as this field is forming in the industry.",
+  "zh": "所以我不仅关注工具，也关注当这个领域在行业中形成时，新的组织模式在哪里发生。"
+ },
+ {
+  "seg": 66,
+  "start": 310.96,
+  "end": 312.32,
+  "speaker": "Patrick Dubois",
+  "en": "So that's kind of my gem right now.",
+  "zh": "所以这现在就是我的一点心得。"
+ },
+ {
+  "seg": 67,
+  "start": 312.56,
+  "end": 315.52,
+  "speaker": "Simon Maple",
+  "en": "And every time there's a chaotic transformation, the hair gets greyer, right?",
+  "zh": "每次有混乱的转型，头发就会变得更灰，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 315.76,
+  "end": 318.4,
+  "speaker": "Patrick Dubois",
+  "en": "Yeah, it's hard to know whether it's the cause or the effect.",
+  "zh": "是的，很难知道那是起因还是结果。"
+ },
+ {
+  "seg": 69,
+  "start": 319.12,
+  "end": 320,
+  "speaker": "Simon Maple",
+  "en": "Like, yeah, I know.",
+  "zh": "就像是，是啊，我知道。"
+ },
+ {
+  "seg": 70,
+  "start": 320.08,
+  "end": 320.88,
+  "speaker": "Simon Maple",
+  "en": "Brilliant, brilliant.",
+  "zh": "精彩，精彩。"
+ },
+ {
+  "seg": 71,
+  "start": 321.2,
+  "end": 325.76,
+  "speaker": "Simon Maple",
+  "en": "So round this table, we're gonna be chatting about all things AI enablement.",
+  "zh": "所以在这个圆桌旁，我们将要聊关于 AI 赋能的所有事情。"
+ },
+ {
+  "seg": 72,
+  "start": 326.16,
+  "end": 343.2,
+  "speaker": "Simon Maple",
+  "en": "Let's kick off with an interesting question about when we want to scale AI agentic development across our organization in a way where we can control it, it is something we can govern, it is something we can uh do in a meaningful and controlled way.",
+  "zh": "让我们以一个有趣的问题开始，关于当我们想要在我们整个组织范围内扩展 AI 智能体开发，以一种我们能够控制它的方式，它是我们可以治理的东西，它是我们可以嗯以一种有意义和受控方式做的事情。"
+ },
+ {
+  "seg": 73,
+  "start": 343.84,
+  "end": 345.36,
+  "speaker": "Simon Maple",
+  "en": "Who owns that?",
+  "zh": "谁拥有那个？"
+ },
+ {
+  "seg": 74,
+  "start": 345.6,
+  "end": 350.96,
+  "speaker": "Simon Maple",
+  "en": "Which team, which individual, who's responsible for making sure that happens well?",
+  "zh": "哪个团队，哪个人，谁负责确保这做得好？"
+ },
+ {
+  "seg": 75,
+  "start": 351.44,
+  "end": 354.48,
+  "speaker": "Daniel Jones",
+  "en": "It's it's a good question and one that I think a lot of people are grappling with.",
+  "zh": "这这这是一个好问题，也是我认为很多人正在努力解决的问题。"
+ },
+ {
+  "seg": 76,
+  "start": 354.56,
+  "end": 362.88,
+  "speaker": "Daniel Jones",
+  "en": "And I should imagine that we'll probably end up with uh new departments, new teams, new named units and movements forming.",
+  "zh": "我应该想象，我们最终可能会建立嗯新的部门，新的团队，新的命名单位和运动的形成。"
+ },
+ {
+  "seg": 77,
+  "start": 362.96,
+  "end": 371.04,
+  "speaker": "Daniel Jones",
+  "en": "Um, I'm working with one customer who happens to have a developer experience team, which is kind of overlaps with the platform team.",
+  "zh": "嗯，我正在和一个恰好拥有开发者体验团队（developer experience team）的客户合作，这有点与平台团队重叠。"
+ },
+ {
+  "seg": 78,
+  "start": 371.2,
+  "end": 381.2,
+  "speaker": "Daniel Jones",
+  "en": "And so there's a an amount of kind of uh it makes sense for those folks to be doing things like building and distributing and assuring the quality of skills, for example.",
+  "zh": "所以有有一种程度的嗯对于那些人来说，做诸如构建、分发和确保技能质量之类的事情是有意义的，例如。"
+ },
+ {
+  "seg": 79,
+  "start": 381.52,
+  "end": 401.12,
+  "speaker": "Daniel Jones",
+  "en": "Platform teams are kind of interesting in that they're there to help developers by presenting a you know a raised level of abstraction, reduced cognitive load, and you can imagine that like making sure that agentic coding goes well and that you know context is managed and available to agents would fit into uh that group of people's uh responsibility.",
+  "zh": "平台团队有点有趣，因为它们在那儿通过展示一个你知道一个更高层的抽象来帮助开发者，减少认知负荷，你可以想象，就像确保智能体编码进行顺利，并且你知道上下文被管理并且对智能体可用，这会归入嗯那群人的嗯责任中。"
+ },
+ {
+  "seg": 80,
+  "start": 401.36,
+  "end": 410.08,
+  "speaker": "Daniel Jones",
+  "en": "But I've seen other uh customers as well who have a DevOps team, which probably shouldn't get too uh deep into that, whether it's an anti-pattern or not.",
+  "zh": "但我也见过其他嗯有 DevOps 团队的客户，他们可能不应该嗯太深入那个，不管这是不是一种反模式。"
+ },
+ {
+  "seg": 81,
+  "start": 410.16,
+  "end": 420.32,
+  "speaker": "Daniel Jones",
+  "en": "Um but I've seen those folks, like the people that get lumbered with like you're doing the CI CD pipelines for people, like those people also uh being kind of made responsible for these things.",
+  "zh": "嗯但我见过那些人，就像那些被摊派去做像你为人们做 CI CD 管道工作的人，就像那些人也被嗯有点被让对这些事情负责。"
+ },
+ {
+  "seg": 82,
+  "start": 420.64,
+  "end": 422.16,
+  "speaker": "Simon Maple",
+  "en": "Patrick, I'd love to go to you there.",
+  "zh": "Patrick，我想在那儿听听你的看法。"
+ },
+ {
+  "seg": 83,
+  "start": 423.2,
+  "end": 428.4,
+  "speaker": "Simon Maple",
+  "en": "How many hours of sleep did you did you miss when when the DevOps role came about?",
+  "zh": "当 DevOps 角色出现时，你你错过了多少小时的睡眠？"
+ },
+ {
+  "seg": 84,
+  "start": 428.96,
+  "end": 429.36,
+  "speaker": "Patrick Dubois",
+  "en": "None.",
+  "zh": "没错过。"
+ },
+ {
+  "seg": 85,
+  "start": 430.16,
+  "end": 430.48,
+  "speaker": "Patrick Dubois",
+  "en": "None.",
+  "zh": "没错过。"
+ },
+ {
+  "seg": 86,
+  "start": 431.04,
+  "end": 432,
+  "speaker": "Patrick Dubois",
+  "en": "No, it's quite easy.",
+  "zh": "不，这很容易。"
+ },
+ {
+  "seg": 87,
+  "start": 432.32,
+  "end": 438.48,
+  "speaker": "Patrick Dubois",
+  "en": "The big thing is that every new change in an organization usually has a like a small incubation kickstarting team.",
+  "zh": "最大的事情是，组织里的每一次新变化通常都有一个像一个小型的孵化启动团队。"
+ },
+ {
+  "seg": 88,
+  "start": 438.8,
+  "end": 440.08,
+  "speaker": "Patrick Dubois",
+  "en": "We had the agile team.",
+  "zh": "我们有过敏捷团队。"
+ },
+ {
+  "seg": 89,
+  "start": 440.24,
+  "end": 442.4,
+  "speaker": "Patrick Dubois",
+  "en": "You know, we don't talk about an agile team anymore.",
+  "zh": "你知道，我们不再谈论敏捷团队了。"
+ },
+ {
+  "seg": 90,
+  "start": 442.48,
+  "end": 443.68,
+  "speaker": "Patrick Dubois",
+  "en": "Like everybody's doing agile.",
+  "zh": "就像每个人都在做敏捷。"
+ },
+ {
+  "seg": 91,
+  "start": 443.84,
+  "end": 449.04,
+  "speaker": "Patrick Dubois",
+  "en": "We had the DevOps team, and and and that kind of is just a way of scaling things out.",
+  "zh": "我们有过 DevOps 团队，那那那只是一种扩展事物的方式。"
+ },
+ {
+  "seg": 92,
+  "start": 449.12,
+  "end": 453.44,
+  "speaker": "Patrick Dubois",
+  "en": "Like you need that one team that gets duplicated in multiple teams, like, hey, can I repeat this?",
+  "zh": "就像你需要那个被复制到多个团队中的一个团队，就像，嘿，我可以重复这个吗？"
+ },
+ {
+  "seg": 93,
+  "start": 453.6,
+  "end": 454.64,
+  "speaker": "Patrick Dubois",
+  "en": "Can I repeat this?",
+  "zh": "我可以重复这个吗？"
+ },
+ {
+  "seg": 94,
+  "start": 454.88,
+  "end": 463.84,
+  "speaker": "Patrick Dubois",
+  "en": "And then I think the pattern is indeed right now is it falls back to a central team kind of nurturing all the other teams in a way.",
+  "zh": "然后我认为现在的模式确实是它回退到一个中心团队，以一种方式培养所有其他团队。"
+ },
+ {
+  "seg": 95,
+  "start": 464.08,
+  "end": 471.12,
+  "speaker": "Patrick Dubois",
+  "en": "So I think the challenge, what you were saying, like, yeah, it might end up in the developer experience platform team as a role.",
+  "zh": "所以我认为那个挑战，你刚才说的，就像，是啊，它最终可能作为一项职责落在开发者体验平台团队里。"
+ },
+ {
+  "seg": 96,
+  "start": 471.28,
+  "end": 476.24,
+  "speaker": "Patrick Dubois",
+  "en": "Their challenge right now is they're still often focused on, oh, we'll provide the infrastructure.",
+  "zh": "他们现在的挑战是，他们仍然经常专注于，噢，我们将提供基础设施。"
+ },
+ {
+  "seg": 97,
+  "start": 476.8,
+  "end": 480,
+  "speaker": "Patrick Dubois",
+  "en": "They're not TAI savvy tech coders.",
+  "zh": "他们不是懂 TAI 的技术编码员。"
+ },
+ {
+  "seg": 98,
+  "start": 480.24,
+  "end": 490.64,
+  "speaker": "Patrick Dubois",
+  "en": "So that's where there's now a little bit of a vacuum in kind of the companies where, like, okay, you know, they're not the best fit, but they you they do control the spends, they have the models, they have the gateways.",
+  "zh": "所以这就是现在的公司里有点真空的地方，就像，好吧，你知道，他们不是最合适的，但他们他们确实控制开支，他们有模型，他们有网关。"
+ },
+ {
+  "seg": 99,
+  "start": 490.72,
+  "end": 493.2,
+  "speaker": "Patrick Dubois",
+  "en": "So you can see their stack kind of expanding.",
+  "zh": "所以你可以看到他们的栈有点在扩展。"
+ },
+ {
+  "seg": 100,
+  "start": 493.44,
+  "end": 499.6,
+  "speaker": "Patrick Dubois",
+  "en": "Now, whether they will stay in one group as a platform, that's uncertain.",
+  "zh": "现在，他们是否会作为一个平台留在一个小组中，那是不确定的。"
+ },
+ {
+  "seg": 101,
+  "start": 499.84,
+  "end": 509.68,
+  "speaker": "Patrick Dubois",
+  "en": "What you might see is that you're gonna have the cloud platform team, the AI platform team, the data platform team, and they're all kind of platform supporting this.",
+  "zh": "你可能会看到的是，你将拥有云平台团队、AI 平台团队、数据平台团队，而且它们某种程度上都是支持此类的平台。"
+ },
+ {
+  "seg": 102,
+  "start": 509.76,
+  "end": 514.72,
+  "speaker": "Patrick Dubois",
+  "en": "So it's not because there's like one platform group that they have to do it all.",
+  "zh": "所以这并不是因为有一个平台小组，他们就必须包办一切。"
+ },
+ {
+  "seg": 103,
+  "start": 514.88,
+  "end": 516.96,
+  "speaker": "Patrick Dubois",
+  "en": "And that's the same thing with like feature teams.",
+  "zh": "这和功能团队的情况是一样的。"
+ },
+ {
+  "seg": 104,
+  "start": 517.12,
+  "end": 519.92,
+  "speaker": "Patrick Dubois",
+  "en": "They can't do it all because they have a specific focus.",
+  "zh": "他们无法包办一切，因为他们有特定的关注点。"
+ },
+ {
+  "seg": 105,
+  "start": 520.16,
+  "end": 522.64,
+  "speaker": "Patrick Dubois",
+  "en": "Small companies, yes, same team, that alliance.",
+  "zh": "小公司，是的，同一个团队，那种结盟。"
+ },
+ {
+  "seg": 106,
+  "start": 522.8,
+  "end": 525.84,
+  "speaker": "Patrick Dubois",
+  "en": "Bigger companies, they might have like different skills that they're going for.",
+  "zh": "大公司，他们可能会追求不同的技能。"
+ },
+ {
+  "seg": 107,
+  "start": 526,
+  "end": 527.68,
+  "speaker": "Patrick Dubois",
+  "en": "So anyway, that's kind of how I look at it.",
+  "zh": "总之，这就是我看待它的方式。"
+ },
+ {
+  "seg": 108,
+  "start": 527.84,
+  "end": 528.32,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 109,
+  "start": 528.56,
+  "end": 538.4,
+  "speaker": "Simon Maple",
+  "en": "Um as a CTO, you know, you've got your engineering team there, they want to you know use AI as much as possible.",
+  "zh": "嗯，作为 CTO，你知道，你有你的工程团队，他们想要尽可能多地使用 AI。"
+ },
+ {
+  "seg": 110,
+  "start": 538.48,
+  "end": 543.2,
+  "speaker": "Simon Maple",
+  "en": "They don't want to be slowed down through through you know extra governance and things like that.",
+  "zh": "他们不想被额外的治理和类似的事情所拖慢。"
+ },
+ {
+  "seg": 111,
+  "start": 543.44,
+  "end": 566.64,
+  "speaker": "Simon Maple",
+  "en": "Where's the balance between you know having a team wanting to add governance, uh, add ways of working, showing a golden path, versus at this stage of AI's you know, maturity, immaturity, allowing people to kind of find their own paths and understand what's good through developers playing around and trying different things.",
+  "zh": "这里的平衡点在哪里，你知道，一方面有一个团队想要添加治理，呃，添加工作方式，展示黄金路径，另一方面，在这个 AI 的你知道，成熟或不成熟的阶段，允许人们去寻找自己的路径，并通过开发者摆弄和尝试不同的事物来理解什么是好的。"
+ },
+ {
+  "seg": 112,
+  "start": 566.96,
+  "end": 567.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 113,
+  "start": 567.84,
+  "end": 571.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "So for us, speed up has been getting the whole team aligned.",
+  "zh": "所以对我们来说，加速一直是让整个团队步调一致。"
+ },
+ {
+  "seg": 114,
+  "start": 572.08,
+  "end": 580.4,
+  "speaker": "Tamuz Dubnov",
+  "en": "Each person finds a new skill that's important in our workflow in some manner, and then we have a way to share it with all of them and have everybody else say use it, it self-learns.",
+  "zh": "每个人都找到一项在我们的工作流程中以某种方式很重要的新技能，然后我们有一种方法与所有人分享它，并让其他人说“使用它”，它就能自我学习。"
+ },
+ {
+  "seg": 115,
+  "start": 580.72,
+  "end": 585.52,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh, but the mechanism that's really kind of sped up our RD is getting to focus on the stuff that really matters.",
+  "zh": "嗯，但真正加快我们研发的机制是能够专注于真正重要的事情。"
+ },
+ {
+  "seg": 116,
+  "start": 585.68,
+  "end": 592.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "And we get that because we offload the stuff that doesn't need an engineer to our actually our product team and our designer team.",
+  "zh": "我们做到了这一点，是因为我们将不需要工程师处理的工作卸载给了我们的产品团队和设计团队。"
+ },
+ {
+  "seg": 117,
+  "start": 592.32,
+  "end": 597.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so part of the game for us has actually been well, we have builders that are engineers, builders that are not engineer.",
+  "zh": "嗯，所以对我们来说，这部分工作实际上是，我们有作为构建者的工程师，也有不是工程师的构建者。"
+ },
+ {
+  "seg": 118,
+  "start": 598,
+  "end": 600.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "How do we manage the non-technical opening the PRs?",
+  "zh": "我们如何管理非技术人员打开 PR？"
+ },
+ {
+  "seg": 119,
+  "start": 600.8,
+  "end": 604,
+  "speaker": "Tamuz Dubnov",
+  "en": "And how do we manage the technical side getting those PRs?",
+  "zh": "以及我们如何管理技术端接收那些 PR"
+ },
+ {
+  "seg": 120,
+  "start": 604.16,
+  "end": 610.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and that kind of reshuffle is actually that's what has really helped us uh get through that AI native speed up.",
+  "zh": "呃，那种重组实际上确实帮助我们呃度过了那个 AI 原生加速期。"
+ },
+ {
+  "seg": 121,
+  "start": 610.56,
+  "end": 616.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh, because you have to do change management internally, both on the receiving end and the the new builders.",
+  "zh": "呃，因为你必须在内部进行变革管理，既要在接收端，也要在那些新的构建者方面。"
+ },
+ {
+  "seg": 122,
+  "start": 616.72,
+  "end": 622.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and certainly when that does click, that's where you see everything running forward, and you see the whole team kind of playing together in in harmony.",
+  "zh": "呃，当然，当这一切确实对上号了，那就是你看到一切向前推进的时候，你看到整个团队有点像是在和谐中协同工作。"
+ },
+ {
+  "seg": 123,
+  "start": 623.2,
+  "end": 623.36,
+  "speaker": "Patrick Dubois",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 124,
+  "start": 623.6,
+  "end": 635.76,
+  "speaker": "Patrick Dubois",
+  "en": "I think that's interesting because you know, when you called in the past DevOps bridging two worlds, like developers and devs coming together, I think the term that like comes up a lot now is the AI product engineer.",
+  "zh": "我觉得这很有趣，因为你知道，当你过去把 DevOps 称为连接两个世界时，比如开发人员和开发人员走到一起，我觉得现在经常出现的术语是 AI 产品工程师。"
+ },
+ {
+  "seg": 125,
+  "start": 635.92,
+  "end": 639.92,
+  "speaker": "Patrick Dubois",
+  "en": "They're like in both worlds trying to cross the silo of the bridge.",
+  "zh": "他们就像身处两个世界，试图跨越那座孤岛的桥梁。"
+ },
+ {
+  "seg": 126,
+  "start": 640.08,
+  "end": 643.92,
+  "speaker": "Patrick Dubois",
+  "en": "Like you were working on like how to align that better as a field.",
+  "zh": "就像你过去作为一个领域致力于如何更好地对齐它一样。"
+ },
+ {
+  "seg": 127,
+  "start": 644,
+  "end": 654.72,
+  "speaker": "Patrick Dubois",
+  "en": "And uh I think that's fascinating in the way that like when the toil or the daily things are being more and more done by AI, we can start like redirecting them.",
+  "zh": "而且呃，我认为这很迷人，就像当那些琐碎工作或日常事务越来越多地由 AI 完成时，我们可以开始像重新指引它们。"
+ },
+ {
+  "seg": 128,
+  "start": 654.88,
+  "end": 659.2,
+  "speaker": "Patrick Dubois",
+  "en": "Are we it's not about like you know how are we building the thing right, but are we building the right thing?",
+  "zh": "我们这不是关于像你知道我们是否把东西造对了，而是我们在造对的东西吗？"
+ },
+ {
+  "seg": 129,
+  "start": 659.36,
+  "end": 662.32,
+  "speaker": "Patrick Dubois",
+  "en": "And that's kind of where the product focus like comes stronger again.",
+  "zh": "这就是产品关注点像再次变得更强的地方。"
+ },
+ {
+  "seg": 130,
+  "start": 662.4,
+  "end": 666.08,
+  "speaker": "Patrick Dubois",
+  "en": "And I I think I like kind of how these roles are blending.",
+  "zh": "而且我我想我有点喜欢这些角色正在融合的方式。"
+ },
+ {
+  "seg": 131,
+  "start": 666.16,
+  "end": 671.28,
+  "speaker": "Patrick Dubois",
+  "en": "Uh it's not for everybody, I guess, but like it is kind of a good alignment to have in an organization.",
+  "zh": "呃，我猜这并不适合所有人，但这就像是一个组织中应有的良好对齐。"
+ },
+ {
+  "seg": 132,
+  "start": 671.92,
+  "end": 677.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "So we see that there's kind of the span of work that needs to be done, and frankly, there's the span of people that care for different parts of the work.",
+  "zh": "所以我们看到有那种需要完成的工作跨度，坦率地说，也有那种关心工作不同部分的人员跨度。"
+ },
+ {
+  "seg": 133,
+  "start": 677.84,
+  "end": 682.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "So there's the stuff that the designers and the PMs really care for, and honestly, that's not the stuff the developers care for.",
+  "zh": "所以有些东西是设计师和产品经理真正在乎的，老实说，那不是开发人员在乎的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 682.8,
+  "end": 685.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "So the fact we can say, great, well, those builders are now doing it.",
+  "zh": "所以我们可以这样说，太好了，好吧，那些构建者现在正在做这些事。"
+ },
+ {
+  "seg": 135,
+  "start": 685.44,
+  "end": 696.4,
+  "speaker": "Tamuz Dubnov",
+  "en": "Hey, developers, UK of our like architecture scaling, like uh the sandbox environments and how they live, you can focus on that because all this uh let's say annoying work you used to have to do.",
+  "zh": "嘿，开发人员，我们要 UK 的像架构扩展，像呃沙箱环境以及它们如何运行，你可以专注于那个，因为所有这些呃比方说你过去必须做的恼人工作。"
+ },
+ {
+  "seg": 136,
+  "start": 696.8,
+  "end": 707.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "Well, now the builders that care about them, they also have the authority to make those decisions, they're the ones doing it, and hey, you can focus on the stuff that you care about and making them uh more agent tech friendly and faster developer.",
+  "zh": "嗯，现在那些关心它们的构建者，他们也有权做出那些决定，他们是做这些事的人，而且嘿，你可以专注于你关心的东西，并让它们呃对智能体技术更友好，让开发者更快。"
+ },
+ {
+  "seg": 137,
+  "start": 708.4,
+  "end": 713.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "That's just happening in our team organically, they're already there, they're already trying to speed up, and they're already figuring it out on their own.",
+  "zh": "这只是在我们团队中自然发生，他们已经在那里了，他们已经在尝试加速，而且他们已经在自己搞清楚了。"
+ },
+ {
+  "seg": 138,
+  "start": 713.76,
+  "end": 719.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "For me, the focus of CTO is enabling the side that isn't pushing or wasn't pushing as much, which is the non-technicals.",
+  "zh": "对我来说，CTO 的重点是赋能那些没有推动那么多或以前没有推动那么多的一方，也就是非技术人员。"
+ },
+ {
+  "seg": 139,
+  "start": 719.36,
+  "end": 725.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "And when you get them up to speed, suddenly you get the full speed up and you get people working on the stuff that they care about, and then that's the stuff that they're fastest on.",
+  "zh": "当你让他们跟上速度时，突然你会获得全面的加速，你会让人们去处理他们关心的东西，然后那就是他们做得最快的事情。"
+ },
+ {
+  "seg": 140,
+  "start": 725.92,
+  "end": 736,
+  "speaker": "Simon Maple",
+  "en": "Yeah, and and it's and speed is the most interesting thing here because I think you know, when we think about a year ago, two years ago, um, gosh, I'm trying to work out how how old uh AI in the mainstream is now.",
+  "zh": "是的，而且它是，速度在这里是最有趣的事情，因为我想你知道，当我们回想一年前、两年前的时候，嗯，天哪，我正在试图弄清楚呃主流中的 AI 现在有多老了。"
+ },
+ {
+  "seg": 141,
+  "start": 736.08,
+  "end": 749.6,
+  "speaker": "Simon Maple",
+  "en": "But if you think about the last couple of years, we're really thinking about let's just try and get AI usage, let's try and get AI adoption as almost like um you know, get it in the hands of developers, play around with it and see what see what works and what doesn't work.",
+  "zh": "但如果你想想过去几年，我们真的在想让我们试着获得 AI 使用率，让我们试着让 AI 采用几乎就像嗯你知道的那样，把它交到开发人员手中，摆弄它看看什么什么行得通，什么行不通。"
+ },
+ {
+  "seg": 142,
+  "start": 749.84,
+  "end": 758.72,
+  "speaker": "Simon Maple",
+  "en": "It feels like more and more now going forward, we're thinking about how can we make it work effectively for us and how do we actually get the entire organization using best practices?",
+  "zh": "感觉越来越多地在展望未来时，我们在想我们如何让它为我们有效地工作，以及我们要如何真正让整个组织使用最佳实践？"
+ },
+ {
+  "seg": 143,
+  "start": 758.88,
+  "end": 787.44,
+  "speaker": "Simon Maple",
+  "en": "So let's flip it a little bit and say, what are as organizations start rolling out um AI seriously in terms of uh, you know, as a practice across every single uh development team, what would you say the, and I'll ask you this, what would you say are the greatest bottlenecks today, uh, which really maybe it's platform teams, maybe it's other teams, but they're that they're struggling with as part of that scale and that AI enablement across other teams?",
+  "zh": "所以让我们稍微翻转一下说，随着组织开始认真地推出呃 AI，你知道，作为跨越每一个呃开发团队的实践，你会说什么，我要问你这个问题，你会说今天最大的瓶颈是什么，呃，这可能是平台团队，可能是其他团队，但他们在那个规模和跨其他团队的 AI 赋能中正在挣扎？"
+ },
+ {
+  "seg": 144,
+  "start": 787.68,
+  "end": 793.68,
+  "speaker": "Daniel Jones",
+  "en": "The bottlenecks that that become apparent are often deficiencies in just doing software development well.",
+  "zh": "变得明显的那些瓶颈往往只是在把软件开发做好方面的缺陷。"
+ },
+ {
+  "seg": 145,
+  "start": 793.84,
+  "end": 803.68,
+  "speaker": "Daniel Jones",
+  "en": "And I I think that we may probably discover in the next couple of years that we spend uh a lot of our time repeating ourselves of the things we've been saying for the last 10-15 years of is your CI CD any good?",
+  "zh": "而且我我想我们可能在接下来几年发现我们花费呃大量时间重复我们自己过去 10-15 年一直在说的话，就是你的 CI CD 好不好用？"
+ },
+ {
+  "seg": 146,
+  "start": 803.84,
+  "end": 804.8,
+  "speaker": "Daniel Jones",
+  "en": "Do you have tests?",
+  "zh": "你有测试吗？"
+ },
+ {
+  "seg": 147,
+  "start": 804.88,
+  "end": 807.84,
+  "speaker": "Daniel Jones",
+  "en": "Uh, do you have coding standards that people actually agree on?",
+  "zh": "呃，你有人们实际上达成一致的编码标准吗？"
+ },
+ {
+  "seg": 148,
+  "start": 808,
+  "end": 811.12,
+  "speaker": "Daniel Jones",
+  "en": "So all of those things uh kind of get exposed.",
+  "zh": "所以所有这些东西呃有点被暴露了。"
+ },
+ {
+  "seg": 149,
+  "start": 811.36,
+  "end": 821.2,
+  "speaker": "Daniel Jones",
+  "en": "And the the uh Dora report showed that if you are not very mature in your software development practices, then agentic coding is likely to make you go slower.",
+  "zh": "而 DORA 报告显示，如果你的软件开发实践不是很成熟，那么智能体编码很可能会让你变慢。"
+ },
+ {
+  "seg": 150,
+  "start": 821.36,
+  "end": 824.4,
+  "speaker": "Daniel Jones",
+  "en": "If you're doing well in development maturity, then you'll go faster.",
+  "zh": "如果你在开发成熟度方面做得好，那你会更快。"
+ },
+ {
+  "seg": 151,
+  "start": 824.56,
+  "end": 826.72,
+  "speaker": "Daniel Jones",
+  "en": "The problem is we don't know where that tipping point is.",
+  "zh": "问题是我们不知道那个转折点在哪里。"
+ },
+ {
+  "seg": 152,
+  "start": 826.8,
+  "end": 826.88,
+  "speaker": "Daniel Jones",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 153,
+  "start": 827.04,
+  "end": 843.04,
+  "speaker": "Daniel Jones",
+  "en": "So there are all these things inside the development process, but um, even with successful agentic coding uh adoption, I've seen in a couple of customers and people that uh I've spoken to um on the on the podcast, um uh probably shouldn't plug our own podcast there.",
+  "zh": "所以在开发过程中有所有这些事情，但是嗯，即使成功的智能体编码啊采用，我在几个客户和我在播客上交谈过的人身上看到了，嗯啊可能不应该在那里推广我们自己的播客。"
+ },
+ {
+  "seg": 154,
+  "start": 843.84,
+  "end": 844.24,
+  "speaker": "Simon Maple",
+  "en": "In the comments.",
+  "zh": "在评论里。"
+ },
+ {
+  "seg": 155,
+  "start": 844.56,
+  "end": 846.96,
+  "speaker": "Simon Maple",
+  "en": "You're you're on the R Native Dev, I assumed you were talking about that one.",
+  "zh": "你是在 R Native Dev 上，我假设你在谈论那个。"
+ },
+ {
+  "seg": 156,
+  "start": 847.36,
+  "end": 848.72,
+  "speaker": "Daniel Jones",
+  "en": "Of course you do have your own podcast as well.",
+  "zh": "当然你也有你自己的播客。"
+ },
+ {
+  "seg": 157,
+  "start": 849.12,
+  "end": 849.36,
+  "speaker": "Daniel Jones",
+  "en": "Indeed.",
+  "zh": "的确。"
+ },
+ {
+  "seg": 158,
+  "start": 849.68,
+  "end": 862.4,
+  "speaker": "Daniel Jones",
+  "en": "Um but we've seen uh uh people there of you suddenly speed up uh the act of creating software and then uh products are caught flat-footed, and they're like, Crikey, we didn't have enough stuff in the backlog.",
+  "zh": "嗯但是我们看到啊那里的你突然加速了创建软件的行为，然后啊产品措手不及，他们就像，天哪，我们没有足够的东西在待办事项里。"
+ },
+ {
+  "seg": 159,
+  "start": 862.64,
+  "end": 869.6,
+  "speaker": "Daniel Jones",
+  "en": "And that's hard to speed up because it's strategic and you need deep thinking and you need to be talking to customers, understanding their needs.",
+  "zh": "而且这很难加速，因为它是战略性的，你需要深度思考，你需要和客户交谈，理解他们的需求。"
+ },
+ {
+  "seg": 160,
+  "start": 869.84,
+  "end": 874.56,
+  "speaker": "Daniel Jones",
+  "en": "So we've definitely seen cases where software development has started to go much more quickly.",
+  "zh": "所以我们肯定已经看到了软件开发开始快得多的案例。"
+ },
+ {
+  "seg": 161,
+  "start": 874.72,
+  "end": 880.08,
+  "speaker": "Daniel Jones",
+  "en": "Um, and then in people that do QA as an after-the-fact thing, that's being a bottleneck.",
+  "zh": "嗯，然后在那些把 QA 当作事后补救的人那里，这正在成为一个瓶颈。"
+ },
+ {
+  "seg": 162,
+  "start": 880.16,
+  "end": 882.16,
+  "speaker": "Daniel Jones",
+  "en": "I'm not sure I'd recommend that pattern generally.",
+  "zh": "我不确定我通常会推荐那种模式。"
+ },
+ {
+  "seg": 163,
+  "start": 882.48,
+  "end": 898.64,
+  "speaker": "Daniel Jones",
+  "en": "But yeah, uh product tends to become uh a bottleneck, and then we need to empower those people to uh to have more free time and to do the strategic thinking and the discovery work that presumably they they really enjoy and they would prefer to be doing rather than writing Jira tickets that developers aren't going to complain about.",
+  "zh": "但是是的，啊产品经理往往会成为啊一个瓶颈，然后我们需要赋予这些人力量去啊拥有更多的空闲时间，并去做战略思考和探索工作，据推测他们真的很享受这些，并且他们更愿意做这些而不是编写开发者不会抱怨的 Jira tickets。"
+ },
+ {
+  "seg": 164,
+  "start": 898.88,
+  "end": 899.04,
+  "speaker": "Daniel Jones",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 165,
+  "start": 899.44,
+  "end": 900.4,
+  "speaker": "Daniel Jones",
+  "en": "How about you, Petri?",
+  "zh": "你呢，Petri？"
+ },
+ {
+  "seg": 166,
+  "start": 901.68,
+  "end": 911.52,
+  "speaker": "Patrick Dubois",
+  "en": "I think if you look at the door, you know, first thing is the other option and kind of is it like you know, cranking out new code, that was you know almost like the developer productivity lines of code for a long time.",
+  "zh": "我想如果你看看那扇门，你知道，第一件事是另一个选项，有点像你知道吗，大量制造新代码，这在很长一段时间里几乎就像开发者生产力代码行数。"
+ },
+ {
+  "seg": 167,
+  "start": 911.68,
+  "end": 914,
+  "speaker": "Patrick Dubois",
+  "en": "Then we learned, okay, it needs to work in production.",
+  "zh": "然后我们学到了，好吧，它需要在生产环境中工作。"
+ },
+ {
+  "seg": 168,
+  "start": 914.4,
+  "end": 919.84,
+  "speaker": "Patrick Dubois",
+  "en": "So we brought in the metric actually, like how many times do we need to rework it if it isn't good?",
+  "zh": "所以我们实际上引入了这个指标，就像如果它不好，我们需要重做多少次？"
+ },
+ {
+  "seg": 169,
+  "start": 919.92,
+  "end": 922.4,
+  "speaker": "Patrick Dubois",
+  "en": "Like that kind of is your defect rate, almost like that.",
+  "zh": "就像那有点是你的缺陷率，几乎就像那样。"
+ },
+ {
+  "seg": 170,
+  "start": 922.48,
+  "end": 930,
+  "speaker": "Patrick Dubois",
+  "en": "You kind of need to be on control both in generating and kind of making sure the defects are not like are in balance there as well.",
+  "zh": "你有点需要在生成方面保持控制，并有点确保缺陷不是像那样也在那里保持平衡。"
+ },
+ {
+  "seg": 171,
+  "start": 930.24,
+  "end": 953.36,
+  "speaker": "Patrick Dubois",
+  "en": "And I think I what I like as an uh as an almost like new um proxy metric that like when you look at like not just the users coding with AI, but if the agents are doing the coding, you look at uh the things that like how many how many uh almost like turns does an agent need to do to do their job effectively?",
+  "zh": "我想我喜欢作为一个啊几乎像新的嗯代理指标，就像当你看不仅仅是用户用 AI 编码，但如果智能体在做编码，你看啊那些就像多少多少嗯几乎像轮次智能体需要去做才能有效地完成他们的工作？"
+ },
+ {
+  "seg": 172,
+  "start": 953.68,
+  "end": 962.64,
+  "speaker": "Patrick Dubois",
+  "en": "And you kind of can get that number down by you know, you can select another model, you can kind of give it the right tools, and you can provide it better context.",
+  "zh": "而且你可以通过你知道，你可以选择另一个模型来降低那个数字，你可以给它正确的工具，你可以提供更好的上下文。"
+ },
+ {
+  "seg": 173,
+  "start": 962.88,
+  "end": 971.6,
+  "speaker": "Patrick Dubois",
+  "en": "So in that way, it is not anymore like can I do better code in production, but can my agents do better code towards production?",
+  "zh": "所以在那种方式下，它不再像是我能在生产中做更好的代码，而是我的智能体能为生产做更好的代码吗？"
+ },
+ {
+  "seg": 174,
+  "start": 971.76,
+  "end": 973.44,
+  "speaker": "Patrick Dubois",
+  "en": "So it becomes like delegated.",
+  "zh": "所以它变得像是被委托了。"
+ },
+ {
+  "seg": 175,
+  "start": 973.68,
+  "end": 985.44,
+  "speaker": "Patrick Dubois",
+  "en": "So you need to think out how effective they are, and that's kind of a flip that I see is now slowly moving from the def working with AI to the def instructing the agents to use AI to do it.",
+  "zh": "所以你需要想清楚它们有多有效，这是我看到的一种翻转，现在正慢慢从 def 用 AI 工作转变为 def 指示智能体去使用 AI 来做这件事。"
+ },
+ {
+  "seg": 176,
+  "start": 985.52,
+  "end": 989.2,
+  "speaker": "Patrick Dubois",
+  "en": "And that that's kind of like an interesting proxy metric, I think, to track.",
+  "zh": "而那这有点像是一个有趣的代理指标，我认为，值得追踪。"
+ },
+ {
+  "seg": 177,
+  "start": 989.28,
+  "end": 1009.76,
+  "speaker": "Daniel Jones",
+  "en": "Uh and I think there's something both amusing and mildly depressing about this in that when we have uh software factories and that idea matures and becomes more commonplace, we're gonna have this infinitely tunable and measurable way of developing software, and we see exactly how effective it is in that way that you mentioned of looking at how many turns are used, how many tokens are used.",
+  "zh": "嗯我认为这既有点有趣又有点令人沮丧，因为当我们有啊软件工厂，那个想法成熟并变得更普遍时，我们将拥有这种无限可调且可测量的软件开发方式，我们通过你提到的那种方式确切地看到它有多有效，即看使用了多少轮次，使用了多少 tokens。"
+ },
+ {
+  "seg": 178,
+  "start": 1009.92,
+  "end": 1012.72,
+  "speaker": "Daniel Jones",
+  "en": "And unlike with human teams, we're gonna be able to A-B test.",
+  "zh": "而且与人类团队不同，我们将能够进行 A-B 测试。"
+ },
+ {
+  "seg": 179,
+  "start": 1012.96,
+  "end": 1023.12,
+  "speaker": "Daniel Jones",
+  "en": "We could like have uh prompts and software factory setups that you know use one approach versus another, and we can reset their memories and try it a second time and see did that work better, did it not?",
+  "zh": "我们可以像有啊提示词和软件工厂设置，你知道使用一种方法与另一种方法，我们可以重置它们的记忆并第二次尝试，看看那个效果更好，还是没有？"
+ },
+ {
+  "seg": 180,
+  "start": 1023.2,
+  "end": 1028.4,
+  "speaker": "Daniel Jones",
+  "en": "And you can't really do that with software engineers and real teams because you can't like do a men in black and memory wipe them.",
+  "zh": "你真的不能对软件工程师和真正的团队这样做，因为你不能像黑衣人那样清除他们的记忆。"
+ },
+ {
+  "seg": 181,
+  "start": 1028.56,
+  "end": 1046,
+  "speaker": "Daniel Jones",
+  "en": "Um but the thing that's like amusing and depressing is um that now that it's agents doing the work and tokens and the cost of those, everyone's gonna be really like keen on making sure the software development uh lifecycle was as effective and as efficient as it possibly could be.",
+  "zh": "嗯但那件既有趣又令人沮丧的事是嗯既然现在是智能体在做工作和 tokens 以及它们的成本，每个人都将真的热衷于确保软件开发啊生命周期尽可能有效和高效。"
+ },
+ {
+  "seg": 182,
+  "start": 1046.16,
+  "end": 1050.72,
+  "speaker": "Daniel Jones",
+  "en": "But when it was humans, it was like, oh well, Timmy's just lazy and that's what that's why stuff isn't getting delivered.",
+  "zh": "但当它是人类时，就像，哦好吧，Timmy 只是懒，这就是为什么东西没有交付。"
+ },
+ {
+  "seg": 183,
+  "start": 1050.88,
+  "end": 1057.12,
+  "speaker": "Daniel Jones",
+  "en": "And they didn't focus enough on process and you know value stream mapping and all those important things to tune it.",
+  "zh": "他们没有足够关注流程和你知道价值流图以及所有那些重要的东西来调整它。"
+ },
+ {
+  "seg": 184,
+  "start": 1057.2,
+  "end": 1058.88,
+  "speaker": "Daniel Jones",
+  "en": "It was just, oh, the humans can suffer.",
+  "zh": "那只是，哦，人类可以受苦。"
+ },
+ {
+  "seg": 185,
+  "start": 1058.96,
+  "end": 1065.12,
+  "speaker": "Daniel Jones",
+  "en": "But now it's when it's agents, it's like, well, that's gonna cost us money, and we can easily see that it's costing us money, so now all of a sudden we care.",
+  "zh": "但现在当它是智能体时，就像，好吧，那会花我们的钱，而且我们可以很容易地看到它在花钱，所以现在突然间我们就在乎了。"
+ },
+ {
+  "seg": 186,
+  "start": 1065.36,
+  "end": 1065.52,
+  "speaker": "Patrick Dubois",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 187,
+  "start": 1066.16,
+  "end": 1073.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "It's funny we face this challenge today because we we have agents working on 160 plus organizations, which widely different code bases.",
+  "zh": "很有趣我们今天面临这个挑战，因为我们我们有智能体在 160 多个组织上工作，它们的代码库非常不同。"
+ },
+ {
+  "seg": 188,
+  "start": 1073.36,
+  "end": 1077.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "And we see the ones that are are better quality, the agent does a better job faster.",
+  "zh": "我们看到那些质量更好的，智能体做得更好更快。"
+ },
+ {
+  "seg": 189,
+  "start": 1078.24,
+  "end": 1084.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "The ones that are lower quality, we have an onboarding flow that the agents get better after a few tasks, they onboard themselves to your repo.",
+  "zh": "那些质量较低的，我们有一个入职流程，智能体在几个任务后变得更好，它们自己入职到你的仓库。"
+ },
+ {
+  "seg": 190,
+  "start": 1084.8,
+  "end": 1088.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "And we see that in the difficult projects, it takes them longer to onboard to good quality.",
+  "zh": "我们看到在困难的项目中，它们需要更长的时间入职到高质量。"
+ },
+ {
+  "seg": 191,
+  "start": 1089.52,
+  "end": 1093.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "But we cannot go to we we focus on onboarding quickly to an organization.",
+  "zh": "但我们不能去我们我们专注于快速入职到一个组织。"
+ },
+ {
+  "seg": 192,
+  "start": 1093.68,
+  "end": 1104.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "We go top-down, so that means the the business leaders we talk to, we cannot say, hey, like a sprint to refactor so the agents can have a better time, so everything will go smoother because they don't really care about that.",
+  "zh": "我们是自上而下的，所以这意味着我们要交谈的商业领袖，我们不能说，嘿，像是一个冲刺来重构以便智能体可以过得更好，所以一切会更顺利，因为他们真的不在乎那个。"
+ },
+ {
+  "seg": 193,
+  "start": 1104.72,
+  "end": 1106.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "They just care about speed, like you mentioned.",
+  "zh": "他们只关心速度，就像你提到的那样。"
+ },
+ {
+  "seg": 194,
+  "start": 1106.72,
+  "end": 1116.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "So for us, it's been all about how do you mix in doing the user-facing work quickly while writing the natural code churn that the organization has to slowly refactor.",
+  "zh": "所以对我们来说，这全是关于如何混合快速做面向用户的工作，同时编写组织必须慢慢重构的自然代码更替。"
+ },
+ {
+  "seg": 195,
+  "start": 1116.48,
+  "end": 1118.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "But we have like a we call it the PAP framework.",
+  "zh": "但我们有一个我们称之为 PAP 框架。"
+ },
+ {
+  "seg": 196,
+  "start": 1119.28,
+  "end": 1124.96,
+  "speaker": "Tamuz Dubnov",
+  "en": "And as you do work, you you slowly refactor bit by bit, so it's easier for the next agent that comes along in that part of the code.",
+  "zh": "当你做工作时，你你一点一点地慢慢重构，所以对于接下来在那部分代码中出现的智能体来说更容易。"
+ },
+ {
+  "seg": 197,
+  "start": 1125.28,
+  "end": 1130.4,
+  "speaker": "Tamuz Dubnov",
+  "en": "But you do not come and say, hey, dev team, you have this task, make it easy for our agents to work there.",
+  "zh": "但你不会过来说，嘿，开发团队，你有这个任务，让我们的智能体在那里工作变得容易。"
+ },
+ {
+  "seg": 198,
+  "start": 1130.56,
+  "end": 1137.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "You have the agents doing the work in bite-size going back to the PR fatigue in a way that doesn't inflate the PRs because then people won't go over them.",
+  "zh": "你让智能体以小块的方式做工作，回到 PR 疲劳，以不膨胀 PR 的方式，因为那样人们就不会去检查它们了。"
+ },
+ {
+  "seg": 199,
+  "start": 1137.6,
+  "end": 1140.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "So it's it's a really it's a balancing game.",
+  "zh": "所以这这真的是一个平衡游戏。"
+ },
+ {
+  "seg": 200,
+  "start": 1140.4,
+  "end": 1155.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "Getting the leadership happy because features are being delivered, getting the developers happy because PRs are not too big, and getting the non-technical PMs, the designers happy because they can do the work, all while slowly pushing your agenda better and better coding standards.",
+  "zh": "让领导层高兴是因为功能正在交付，让开发人员高兴是因为 PR 不太大，并让非技术的 PM、设计师高兴是因为他们可以做这些工作，所有这些同时都在缓慢推进你的议程，即更好的编码标准。"
+ },
+ {
+  "seg": 201,
+  "start": 1155.68,
+  "end": 1158.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "So everything needs to happen uh kind of weaved together.",
+  "zh": "所以一切都需要发生，呃，某种程度上交织在一起。"
+ },
+ {
+  "seg": 202,
+  "start": 1159.2,
+  "end": 1169.36,
+  "speaker": "Simon Maple",
+  "en": "And I'd love to kind of while while while talking about that, you you previously you mentioned about the kind of like the the technical devs, the traditional devs, and the non-technical, so maybe it's a PM or something like that.",
+  "zh": "我很想在呃，呃，呃谈论这个的时候，你你之前你提到了呃像那种技术的开发人员，传统的开发人员，以及非技术的，所以可能是一个 PM 或者类似的东西。"
+ },
+ {
+  "seg": 203,
+  "start": 1169.6,
+  "end": 1180.64,
+  "speaker": "Simon Maple",
+  "en": "When we talk about rolling out an enablement here, do you see different types tend to see different bottlenecks between a technical dev and a non-technical dev when adopting like a more of an agentic process there?",
+  "zh": "当我们谈论在这里推出一种赋能时，你是否看到不同类型的人在采用更像一种智能体流程时，在技术开发人员和非技术开发人员之间往往会看到不同的瓶颈？"
+ },
+ {
+  "seg": 204,
+  "start": 1182,
+  "end": 1182.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh yes.",
+  "zh": "呃是的。"
+ },
+ {
+  "seg": 205,
+  "start": 1182.88,
+  "end": 1184.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "Okay, so we'll go with the technical side.",
+  "zh": "好的，那我们先从技术方面开始。"
+ },
+ {
+  "seg": 206,
+  "start": 1184.96,
+  "end": 1187.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh the technical side, there's an ego that we all know.",
+  "zh": "呃技术方面，有一种我们都知道的自负。"
+ },
+ {
+  "seg": 207,
+  "start": 1188.4,
+  "end": 1192.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh we are working through that, whether it's with clients or whether it's internally, like the devs.",
+  "zh": "呃我们正在解决那个问题，无论是与客户还是内部，像开发人员。"
+ },
+ {
+  "seg": 208,
+  "start": 1193.12,
+  "end": 1197.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so for us, they they interface with us, they can use our platform.",
+  "zh": "呃所以对我们来说，他们他们与我们对接，他们可以使用我们的平台。"
+ },
+ {
+  "seg": 209,
+  "start": 1197.44,
+  "end": 1202.96,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh not not to show off, but like the PRs that come out of them versus out of the platform versus developers.",
+  "zh": "呃不是不是要炫耀，但就像那些 PR，从他们那里出来的 versus 从平台出来的 versus 开发人员。"
+ },
+ {
+  "seg": 210,
+  "start": 1203.2,
+  "end": 1211.6,
+  "speaker": "Tamuz Dubnov",
+  "en": "Often our platforms they do a better job because they map your your coding practices much more in depth than developers and they keep much better tracks of existing uh components.",
+  "zh": "通常我们的平台它们做得更好，因为它们比开发人员更深入地映射你的你的编码实践，并且它们更好地跟踪现有的呃组件。"
+ },
+ {
+  "seg": 211,
+  "start": 1211.76,
+  "end": 1216,
+  "speaker": "Tamuz Dubnov",
+  "en": "Like we have clients with 2700 components, no developer will know which component to use.",
+  "zh": "像我们有客户拥有 2700 个组件，没有开发人员会知道该使用哪个组件。"
+ },
+ {
+  "seg": 212,
+  "start": 1216.24,
+  "end": 1221.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "We do know we do data science on it, and and we can actually re-rank and pick between them in a much more intelligent way.",
+  "zh": "我们确实知道，我们对此做数据科学，并且我们实际上可以以更智能的方式重新排序并在它们之间进行选择。"
+ },
+ {
+  "seg": 213,
+  "start": 1222,
+  "end": 1225.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "But you have to come over that ego of the developer viewing the PR.",
+  "zh": "但你必须克服那个查看 PR 的开发人员的自负。"
+ },
+ {
+  "seg": 214,
+  "start": 1225.76,
+  "end": 1226.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "So we tuned it.",
+  "zh": "所以我们调整了它。"
+ },
+ {
+  "seg": 215,
+  "start": 1226.64,
+  "end": 1228.4,
+  "speaker": "Tamuz Dubnov",
+  "en": "We're a little gentle when it comes to them.",
+  "zh": "在处理他们时我们要温和一点。"
+ },
+ {
+  "seg": 216,
+  "start": 1228.72,
+  "end": 1231.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and then they're very fragile online developers.",
+  "zh": "呃而且他们非常脆弱，在线开发人员。"
+ },
+ {
+  "seg": 217,
+  "start": 1231.6,
+  "end": 1232.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "I I'm not gonna say that.",
+  "zh": "我我不会那样说。"
+ },
+ {
+  "seg": 218,
+  "start": 1234.4,
+  "end": 1235.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "Did the content say that?",
+  "zh": "内容里有说那个吗？"
+ },
+ {
+  "seg": 219,
+  "start": 1235.36,
+  "end": 1235.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "I can't remember.",
+  "zh": "我不记得了。"
+ },
+ {
+  "seg": 220,
+  "start": 1237.2,
+  "end": 1239.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and then on the PM side, it's a confidence thing.",
+  "zh": "呃然后在 PM 方面，这是一个自信的问题。"
+ },
+ {
+  "seg": 221,
+  "start": 1240,
+  "end": 1243.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "It's like, hey, I'm I'm okay opening a PR.",
+  "zh": "就像是，嘿，我我没事打开一个 PR。"
+ },
+ {
+  "seg": 222,
+  "start": 1243.76,
+  "end": 1247.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh it's getting the dev team to play along.",
+  "zh": "呃这是让开发团队配合。"
+ },
+ {
+  "seg": 223,
+  "start": 1247.36,
+  "end": 1252.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "We we have some experiences where uh PMs open PRs and the dev team pushed back.",
+  "zh": "我们我们有一些经验，其中呃 PM 打开了 PR 而开发团队推了回来。"
+ },
+ {
+  "seg": 224,
+  "start": 1252.72,
+  "end": 1255.52,
+  "speaker": "Tamuz Dubnov",
+  "en": "And then we asked like the team lead, look at the code, is it good?",
+  "zh": "然后我们就像团队负责人那样问，看看代码，它好吗？"
+ },
+ {
+  "seg": 225,
+  "start": 1255.6,
+  "end": 1256.96,
+  "speaker": "Tamuz Dubnov",
+  "en": "It's like, oh, this is solid code.",
+  "zh": "就像是，哦，这是可靠的代码。"
+ },
+ {
+  "seg": 226,
+  "start": 1257.2,
+  "end": 1258.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "Why did the developer push back?",
+  "zh": "为什么开发人员要推回？"
+ },
+ {
+  "seg": 227,
+  "start": 1259.04,
+  "end": 1260.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "Because it didn't come from a developer.",
+  "zh": "因为它不是来自开发人员。"
+ },
+ {
+  "seg": 228,
+  "start": 1261.04,
+  "end": 1267.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so when that's worked out, we basically work on a conference of the PMs saying, hey, you don't need to write a ticket, that's not the deliverable.",
+  "zh": "呃所以当那个解决后，我们基本上致力于一个 PM 的会议，说，嘿，你不需要写工单，那不是交付物。"
+ },
+ {
+  "seg": 229,
+  "start": 1267.68,
+  "end": 1274.08,
+  "speaker": "Tamuz Dubnov",
+  "en": "You don't need to make an HTML prototype that is disconnected, that is not the deliverable, that's effectively a ticket in a Figma.",
+  "zh": "你不需要制作一个断开的 HTML 原型，那不是交付物，那实际上是 Figma 里的一个工单。"
+ },
+ {
+  "seg": 230,
+  "start": 1274.64,
+  "end": 1277.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh you need to actually prototype inside the code base.",
+  "zh": "呃你需要真正在代码库里做原型。"
+ },
+ {
+  "seg": 231,
+  "start": 1277.12,
+  "end": 1278.8,
+  "speaker": "Tamuz Dubnov",
+  "en": "You need to edit existing stuff in the code base.",
+  "zh": "你需要编辑代码库里的现有东西。"
+ },
+ {
+  "seg": 232,
+  "start": 1278.96,
+  "end": 1282.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "Hey, it's possible, hey, it's feasible, hey, effectively it's really easy.",
+  "zh": "嘿，这是可能的，嘿，这是可行的，嘿，实际上这真的很容易。"
+ },
+ {
+  "seg": 233,
+  "start": 1282.24,
+  "end": 1287.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "And when you work with the agent, it already knows the constraints from the code base built in when you interact with it.",
+  "zh": "而当你与智能体一起工作时，当你与它交互时，它已经知道代码库中内置的约束。"
+ },
+ {
+  "seg": 234,
+  "start": 1287.68,
+  "end": 1293.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "And yes, when you click send to dev and it goes to the developers as a PR, be proud and don't be scared.",
+  "zh": "是的，当你点击发送给开发并且它作为一个 PR 发送给开发人员时，要自豪并且不要害怕。"
+ },
+ {
+  "seg": 235,
+  "start": 1293.6,
+  "end": 1295.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and that's like a big enabler.",
+  "zh": "呃那就像是一个巨大的赋能者。"
+ },
+ {
+  "seg": 236,
+  "start": 1295.68,
+  "end": 1306.16,
+  "speaker": "Simon Maple",
+  "en": "It's almost like an imposter syndrome, I guess, for non-technical folks to feel that maybe they're resistant to do things with confidence because they feel like they're not a dev and the devs gonna scrutinize it more almost.",
+  "zh": "这几乎就像冒充者综合征，我猜，对于非技术人员来说，感到他们可能无法自信地做事，因为他们觉得他们不是开发人员，而开发人员会更严厉地审查它，几乎。"
+ },
+ {
+  "seg": 237,
+  "start": 1306.56,
+  "end": 1307.12,
+  "speaker": "Tamuz Dubnov",
+  "en": "They're scared.",
+  "zh": "他们害怕。"
+ },
+ {
+  "seg": 238,
+  "start": 1307.2,
+  "end": 1308.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "They don't know how to answer technical questions.",
+  "zh": "他们不知道如何回答技术问题。"
+ },
+ {
+  "seg": 239,
+  "start": 1308.8,
+  "end": 1309.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 240,
+  "start": 1309.68,
+  "end": 1311.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "And that's a part of the process we're we're going through.",
+  "zh": "而这是我们我们正在经历的过程的一部分。"
+ },
+ {
+  "seg": 241,
+  "start": 1312.16,
+  "end": 1313.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "Like, you don't need to.",
+  "zh": "像，你不需要。"
+ },
+ {
+  "seg": 242,
+  "start": 1313.28,
+  "end": 1314.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "That's the beauty of the agents.",
+  "zh": "这就是智能体的美妙之处。"
+ },
+ {
+  "seg": 243,
+  "start": 1314.4,
+  "end": 1316.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "They know the code base, they manage it for you.",
+  "zh": "它们知道代码库，它们为你管理它。"
+ },
+ {
+  "seg": 244,
+  "start": 1316.64,
+  "end": 1319.52,
+  "speaker": "Tamuz Dubnov",
+  "en": "You need to give us the product intent, and that's what matters.",
+  "zh": "你需要给我们产品意图，这才是最重要的。"
+ },
+ {
+  "seg": 245,
+  "start": 1320.32,
+  "end": 1325.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "The agent delivers something visual, then it's a part of their app that is rendering and running and they can interact with it.",
+  "zh": "智能体交付一些可视化的东西，那么它是他们应用程序的一部分，正在渲染和运行，他们可以与之交互。"
+ },
+ {
+  "seg": 246,
+  "start": 1325.76,
+  "end": 1330.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "If you do the product review or the design review, depending on your persona, you should be confident.",
+  "zh": "如果你做产品评审或设计评审，取决于你的角色，你应该自信。"
+ },
+ {
+  "seg": 247,
+  "start": 1330.8,
+  "end": 1335.12,
+  "speaker": "Tamuz Dubnov",
+  "en": "The code works the way you want it to, the code quality is there, you don't need to worry about it.",
+  "zh": "代码按照你想要的方式工作，代码质量就在那里，你不需要担心它。"
+ },
+ {
+  "seg": 248,
+  "start": 1335.28,
+  "end": 1338.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "And hey, if there's like chess run calls on the back end side, the developers will take it.",
+  "zh": "还有嘿，如果后端这边有像 chess run 调用，开发人员会处理它。"
+ },
+ {
+  "seg": 249,
+  "start": 1340.24,
+  "end": 1358.56,
+  "speaker": "Simon Maple",
+  "en": "So let's move in a different direction now where we're going to talk about ways in which agentic development, or rather, patterns of agentic development, how people are doing this in the real world and what we see from people externally and in what they're saying they're doing and how they're approaching it.",
+  "zh": "所以现在让我们朝一个不同的方向前进，我们要谈谈智能体开发的方式，或者更确切地说，智能体开发的模式，人们在现实生活中是如何做的，以及我们从外部人员那里看到的，在他们所说的他们正在做的事情以及他们如何处理它方面。"
+ },
+ {
+  "seg": 250,
+  "start": 1359.04,
+  "end": 1363.04,
+  "speaker": "Simon Maple",
+  "en": "Patrick, you recently created a really interesting tool.",
+  "zh": "Patrick，你最近创建了一个非常有趣的工具。"
+ },
+ {
+  "seg": 251,
+  "start": 1363.28,
+  "end": 1368.56,
+  "speaker": "Simon Maple",
+  "en": "It's called the TESL Patterns site, Tesla.io forward slash patterns.",
+  "zh": "它叫 TESL Patterns 网站，Tesla.io 斜杠 patterns。"
+ },
+ {
+  "seg": 252,
+  "start": 1368.96,
+  "end": 1371.2,
+  "speaker": "Simon Maple",
+  "en": "And it does a ton of research in the background.",
+  "zh": "它在后台做了大量的研究。"
+ },
+ {
+  "seg": 253,
+  "start": 1371.28,
+  "end": 1375.04,
+  "speaker": "Simon Maple",
+  "en": "I think it uses the Carpathy wiki approach in the background.",
+  "zh": "我想它在后台使用了 Carpathy wiki 方法。"
+ },
+ {
+  "seg": 254,
+  "start": 1375.2,
+  "end": 1397.6,
+  "speaker": "Simon Maple",
+  "en": "And it provides a bunch of patterns that people can look at and say, ah, okay, I can see that people are thinking and doing things in this way, this approach, and you know, cites various uh social uh, you know, I guess uh uh ways in which people are going into more depth to say, yes, I I did it like this on on in this infrastructure in this way.",
+  "zh": "它提供了一系列模式，人们可以查看并说，啊，好的，我可以看到人们在用这种方式思考并做事情，这种方法，你知道，引用了各种 uh 社交 uh，我想 uh uh 方式，人们在这些方式中更深入地说，是的，我我就在这种基础设施上以这种方式做了这个。"
+ },
+ {
+  "seg": 255,
+  "start": 1397.84,
+  "end": 1402.16,
+  "speaker": "Simon Maple",
+  "en": "Talk us through a little bit about that and maybe highlight a couple of the more interesting patterns that you found.",
+  "zh": "和我们稍微聊聊这个，也许可以强调几个你发现的更有趣的模式。"
+ },
+ {
+  "seg": 256,
+  "start": 1402.56,
+  "end": 1402.8,
+  "speaker": "Patrick Dubois",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 257,
+  "start": 1403.12,
+  "end": 1408.48,
+  "speaker": "Patrick Dubois",
+  "en": "So I think one of the reasons is that when you do surveys right now, you get like an enormous spread.",
+  "zh": "所以我认为原因之一是，当你现在做调查时，你会得到一个巨大的差异。"
+ },
+ {
+  "seg": 258,
+  "start": 1408.56,
+  "end": 1415.36,
+  "speaker": "Patrick Dubois",
+  "en": "Like, you know, person A is savvy, the other ones are not savvy, and then the effectiveness and yes and no, that's hot.",
+  "zh": "比如，你知道，A 懂行，其他人不懂行，然后有效性以及是和否，这很热门。"
+ },
+ {
+  "seg": 259,
+  "start": 1415.6,
+  "end": 1423.28,
+  "speaker": "Patrick Dubois",
+  "en": "So I figured that what if we look at the socials on how they do things and kind of capture that signal.",
+  "zh": "所以我想，如果我们看看他们在社交网络上如何做事并捕获那个信号会怎样。"
+ },
+ {
+  "seg": 260,
+  "start": 1423.44,
+  "end": 1424.72,
+  "speaker": "Patrick Dubois",
+  "en": "No, that has a little bit of a problem.",
+  "zh": "不，这有点问题。"
+ },
+ {
+  "seg": 261,
+  "start": 1424.88,
+  "end": 1428.48,
+  "speaker": "Patrick Dubois",
+  "en": "It could be vendors saying how they do great things and practitioners.",
+  "zh": "可能是供应商在说他们如何做伟大的事情，而从业者。"
+ },
+ {
+  "seg": 262,
+  "start": 1428.72,
+  "end": 1438.32,
+  "speaker": "Patrick Dubois",
+  "en": "But kind of the whole idea is that we filter out like how how some of the people are using this, and you know, if there's many people doing similar things, that boils down to kind of a pattern.",
+  "zh": "但整个想法有点像是我们过滤出一些人是如何使用这个的，你知道，如果有许多人在做类似的事情，这就归结为一种模式。"
+ },
+ {
+  "seg": 263,
+  "start": 1438.64,
+  "end": 1447.52,
+  "speaker": "Patrick Dubois",
+  "en": "Now, one of the surprising and unsurprising things is almost like what is good for a eye is actually good for a human and the other way around as well.",
+  "zh": "现在，令人惊讶又不惊讶的事情之一是，几乎就像对 AI 有好处的实际上对人也有好处，反之亦然。"
+ },
+ {
+  "seg": 264,
+  "start": 1448,
+  "end": 1458,
+  "speaker": "Patrick Dubois",
+  "en": "Like given that you're working with an agent, um, if you actually give your agent good documentation, lo and behold, it performs better.",
+  "zh": "比如，假设你正在和一个智能体一起工作，um，如果你实际上给你的智能体好的文档，瞧，它表现得更好。"
+ },
+ {
+  "seg": 265,
+  "start": 1458.24,
+  "end": 1463.2,
+  "speaker": "Patrick Dubois",
+  "en": "If you give them tests, then you actually know whether that's still working, yes or no.",
+  "zh": "如果你给它们测试，那么你实际上知道那是否还在工作，是或否。"
+ },
+ {
+  "seg": 266,
+  "start": 1463.36,
+  "end": 1466.8,
+  "speaker": "Patrick Dubois",
+  "en": "Uh so if you have observability, it can expect itself.",
+  "zh": "Uh 所以如果你有可观测性，它可以期待它自己。"
+ },
+ {
+  "seg": 267,
+  "start": 1466.96,
+  "end": 1478.72,
+  "speaker": "Patrick Dubois",
+  "en": "So that's kind of like you know, when you start thinking about like these analogies on like what is actually good and what is not, you can go up to um rituals, for example, on the team.",
+  "zh": "所以这有点像你知道，当你开始思考关于什么实际上是好的什么是坏的这些类比时，你可以上升到 um 团队中的仪式，例如。"
+ },
+ {
+  "seg": 268,
+  "start": 1478.8,
+  "end": 1484.88,
+  "speaker": "Patrick Dubois",
+  "en": "Uh, we have a team lead and they're used to doing scrum and retros and kind of those things.",
+  "zh": "Uh，我们有一个团队领导，他们习惯做 Scrum 和回顾会议以及类似的事情。"
+ },
+ {
+  "seg": 269,
+  "start": 1485.68,
+  "end": 1492.4,
+  "speaker": "Patrick Dubois",
+  "en": "But what if you would have an agent review kind of at the end of the sprint?",
+  "zh": "但如果你在冲刺结束时进行一个智能体审查会怎样？"
+ },
+ {
+  "seg": 270,
+  "start": 1492.56,
+  "end": 1493.6,
+  "speaker": "Patrick Dubois",
+  "en": "What were they missing?",
+  "zh": "它们遗漏了什么？"
+ },
+ {
+  "seg": 271,
+  "start": 1493.76,
+  "end": 1495.28,
+  "speaker": "Patrick Dubois",
+  "en": "How effective were they are?",
+  "zh": "它们有多有效？"
+ },
+ {
+  "seg": 272,
+  "start": 1495.52,
+  "end": 1497.84,
+  "speaker": "Patrick Dubois",
+  "en": "But it's not also what do you do as a team lead?",
+  "zh": "但这难道不就是作为团队领导你要做的吗？"
+ },
+ {
+  "seg": 273,
+  "start": 1497.92,
+  "end": 1499.68,
+  "speaker": "Patrick Dubois",
+  "en": "You set a goal for a person.",
+  "zh": "你为一个人设定目标。"
+ },
+ {
+  "seg": 274,
+  "start": 1499.84,
+  "end": 1502.24,
+  "speaker": "Patrick Dubois",
+  "en": "So your goal sets the measurement.",
+  "zh": "所以你的目标设定了衡量标准。"
+ },
+ {
+  "seg": 275,
+  "start": 1502.4,
+  "end": 1504,
+  "speaker": "Patrick Dubois",
+  "en": "So that is another account.",
+  "zh": "所以这是另一个考量。"
+ },
+ {
+  "seg": 276,
+  "start": 1504.08,
+  "end": 1516.96,
+  "speaker": "Patrick Dubois",
+  "en": "So you find like people doing like those little ceremonies, or for example, they do uh writing um almost like context together as a pair, so you get nuances.",
+  "zh": "所以你发现人们像做那些小仪式一样，或者例如，他们做 uh 写作 um 几乎像一个结对一样一起编写上下文，这样你就能得到细微差别。"
+ },
+ {
+  "seg": 277,
+  "start": 1517.04,
+  "end": 1519.36,
+  "speaker": "Patrick Dubois",
+  "en": "So that's the pair programming, but now with context.",
+  "zh": "所以这就是结对编程，但现在带有上下文。"
+ },
+ {
+  "seg": 278,
+  "start": 1519.44,
+  "end": 1524.16,
+  "speaker": "Patrick Dubois",
+  "en": "So that's kind of interesting that those signals are bubbling up uh in a certain way.",
+  "zh": "所以有趣的是，那些信号正在以某种方式涌现 uh。"
+ },
+ {
+  "seg": 279,
+  "start": 1524.4,
+  "end": 1529.12,
+  "speaker": "Simon Maple",
+  "en": "Which is good because it actually goes back to what you said earlier about it's good software development practices.",
+  "zh": "这很好，因为它实际上回到了你之前说的关于它是良好的软件开发实践。"
+ },
+ {
+  "seg": 280,
+  "start": 1529.36,
+  "end": 1538.72,
+  "speaker": "Simon Maple",
+  "en": "Everything that you mentioned there should be things that we are doing today manually, but it's about almost like can I say the word agentification?",
+  "zh": "你在那里提到的所有事情都"
+ },
+ {
+  "seg": 281,
+  "start": 1538.96,
+  "end": 1542.56,
+  "speaker": "Simon Maple",
+  "en": "Uh you know, it's essentially making an agent take care of all of that.",
+  "zh": "嗯，你知道，这本质上是让一个智能体处理所有这些事情。"
+ },
+ {
+  "seg": 282,
+  "start": 1542.88,
+  "end": 1543.28,
+  "speaker": "Patrick Dubois",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 283,
+  "start": 1543.44,
+  "end": 1546.56,
+  "speaker": "Patrick Dubois",
+  "en": "But I I think it's uh, and you already mentioned it.",
+  "zh": "但我觉得，嗯，你已经提到过它了。"
+ },
+ {
+  "seg": 284,
+  "start": 1546.64,
+  "end": 1558.16,
+  "speaker": "Patrick Dubois",
+  "en": "So if you want yes, it gets used, uh it gets a little bit getting used to as you know, what's the new world as a PM and an engineer, and kind of I don't I feel okay contributing and working in that.",
+  "zh": "所以如果你想，是的，它会被使用，嗯，这需要一点点习惯，你知道，作为产品经理和工程师，那个新世界是什么样的，而且有点……我不……我觉得在那里做贡献和工作还好。"
+ },
+ {
+  "seg": 285,
+  "start": 1558.32,
+  "end": 1568.96,
+  "speaker": "Patrick Dubois",
+  "en": "But if for example, if there's one advice that I would give a developer right now, moving to a gentic, is just the most important thing would be don't repeat yourself.",
+  "zh": "但如果举个例子，如果我现在要给开发者一个建议，转向 gentic，最重要的就是不要重复自己。"
+ },
+ {
+  "seg": 286,
+  "start": 1569.6,
+  "end": 1574.48,
+  "speaker": "Patrick Dubois",
+  "en": "Like don't keep telling the agent what to do, but write something down.",
+  "zh": "比如不要一直告诉智能体做什么，而是把它写下来。"
+ },
+ {
+  "seg": 287,
+  "start": 1574.64,
+  "end": 1579.04,
+  "speaker": "Patrick Dubois",
+  "en": "Uh if you're using a tool to verify what it's doing, give it the tool.",
+  "zh": "嗯，如果你使用工具来验证它在做什么，把工具给它。"
+ },
+ {
+  "seg": 288,
+  "start": 1579.12,
+  "end": 1584.48,
+  "speaker": "Patrick Dubois",
+  "en": "So you're not having so kind of that is a very strong, like almost like mindset.",
+  "zh": "所以你不是拥有……所以那是一种非常强烈的，几乎像是一种心态。"
+ },
+ {
+  "seg": 289,
+  "start": 1584.72,
+  "end": 1587.36,
+  "speaker": "Patrick Dubois",
+  "en": "Uh and it's different from oh, let's collaborate.",
+  "zh": "嗯，它不同于“哦，我们要合作”。"
+ },
+ {
+  "seg": 290,
+  "start": 1587.52,
+  "end": 1591.68,
+  "speaker": "Patrick Dubois",
+  "en": "Like, not not collaborate, like just have it do all the work.",
+  "zh": "不是不是合作，就是让它做所有工作。"
+ },
+ {
+  "seg": 291,
+  "start": 1591.76,
+  "end": 1595.52,
+  "speaker": "Patrick Dubois",
+  "en": "And and that pressures you in all the correct engineering points.",
+  "zh": "而且这在所有正确的工程要点上给你施加压力。"
+ },
+ {
+  "seg": 292,
+  "start": 1595.6,
+  "end": 1610.72,
+  "speaker": "Patrick Dubois",
+  "en": "And I think when AI encoding came up, oh, you know, the typical is like uh this is the end of coding and there's no more engineering, and lo and behold, you know, if you really get want to get all the value of that, it is good engineering that we bring in there.",
+  "zh": "而且我想当 AI 编码出现时，哦，你知道，通常就像……嗯，这是编码的终结，不再有工程了，然而你瞧，你知道，如果你真的想获得其中的所有价值，我们带入的是好的工程实践。"
+ },
+ {
+  "seg": 293,
+  "start": 1610.8,
+  "end": 1617.52,
+  "speaker": "Daniel Jones",
+  "en": "So and the engineering becomes creating the the software factory or the assembly line or whatever you want to call it.",
+  "zh": "所以工程变成了创建软件工厂或流水线，或者无论你想怎么称呼它。"
+ },
+ {
+  "seg": 294,
+  "start": 1617.76,
+  "end": 1632.4,
+  "speaker": "Daniel Jones",
+  "en": "I can imagine that for a lot of like I can see a bifurcation for developers of the more product-minded ones who like achieving outcomes and getting motivated by I delivered a feature to users they find valuable, they're gonna kind of become more product uh focused.",
+  "zh": "我可以想象对于很多……我能看到开发者的分化，对于那些更有产品思维的人，他们喜欢达成成果，并因为我向用户交付了他们觉得有价值的功能而受到激励，他们将会变得更多地关注产品。"
+ },
+ {
+  "seg": 295,
+  "start": 1632.48,
+  "end": 1643.12,
+  "speaker": "Daniel Jones",
+  "en": "And the ones who are like, I like making nice, teeth uh tidy, neat code, they're going to be more motivated by I'm going to make the best agentic software uh process that I can.",
+  "zh": "而那些像“我喜欢编写漂亮的、牙齿 uh 整洁、简洁的代码”的人，他们将更多地受到“我要做出我能做的最好的智能体软件流程”的激励。"
+ },
+ {
+  "seg": 296,
+  "start": 1643.2,
+  "end": 1648,
+  "speaker": "Daniel Jones",
+  "en": "I'm gonna tweak the the dials and the knobs on how the software gets generated.",
+  "zh": "我要调整软件生成方式上的那些旋钮和刻度盘。"
+ },
+ {
+  "seg": 297,
+  "start": 1648.24,
+  "end": 1651.2,
+  "speaker": "Daniel Jones",
+  "en": "So that kind of engineering mindset doesn't go away.",
+  "zh": "所以那种工程思维并没有消失。"
+ },
+ {
+  "seg": 298,
+  "start": 1651.28,
+  "end": 1655.12,
+  "speaker": "Daniel Jones",
+  "en": "It's just you're not applying it to the code, you're applying it to the machine that makes the code.",
+  "zh": "只是你不是把它应用在代码上，你是把它应用在制造代码的机器上。"
+ },
+ {
+  "seg": 299,
+  "start": 1655.44,
+  "end": 1655.84,
+  "speaker": "Patrick Dubois",
+  "en": "Exactly.",
+  "zh": "正是。"
+ },
+ {
+  "seg": 300,
+  "start": 1656,
+  "end": 1656.56,
+  "speaker": "Patrick Dubois",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 301,
+  "start": 1656.72,
+  "end": 1666.8,
+  "speaker": "Patrick Dubois",
+  "en": "And I I think that is interesting about um we had that when we went to the cloud uh the cloud, everybody wants to like build their or rebuild their own kernel.",
+  "zh": "我我觉得这很有趣，关于呃当我们上云的时候呃云端，每个人都想构建他们自己的或重建他们自己的内核。"
+ },
+ {
+  "seg": 302,
+  "start": 1666.96,
+  "end": 1667.52,
+  "speaker": "Patrick Dubois",
+  "en": "Like, why?",
+  "zh": "比如，为什么？"
+ },
+ {
+  "seg": 303,
+  "start": 1667.68,
+  "end": 1668.8,
+  "speaker": "Patrick Dubois",
+  "en": "Like it's it's good enough.",
+  "zh": "比如，它它已经够好了。"
+ },
+ {
+  "seg": 304,
+  "start": 1668.96,
+  "end": 1671.28,
+  "speaker": "Patrick Dubois",
+  "en": "We we don't need everybody to build their own kernel.",
+  "zh": "我们我们不需要每个人都去构建自己的内核。"
+ },
+ {
+  "seg": 305,
+  "start": 1671.44,
+  "end": 1681.44,
+  "speaker": "Patrick Dubois",
+  "en": "So if there was one advice that uh you know, people come up to me uh you know over all the years of DevOps and I say, but yeah, you know what, we're special, it doesn't work for us, blah, blah, blah.",
+  "zh": "所以如果有一条建议是呃，你知道，人们在这些年的 DevOps 历程中走到我面前呃你知道，然后我说，但是是啊，你知道什么，我们很特别，这对我们不适用，等等等等。"
+ },
+ {
+  "seg": 306,
+  "start": 1681.6,
+  "end": 1681.92,
+  "speaker": "Patrick Dubois",
+  "en": "Guess what?",
+  "zh": "你猜怎么着？"
+ },
+ {
+  "seg": 307,
+  "start": 1682,
+  "end": 1686,
+  "speaker": "Patrick Dubois",
+  "en": "Like, you know, the industry kind of said, like, that loop is actually universal.",
+  "zh": "比如，你知道，业界某种意义上说了，比如，那个循环实际上是通用的。"
+ },
+ {
+  "seg": 308,
+  "start": 1686.32,
+  "end": 1689.36,
+  "speaker": "Patrick Dubois",
+  "en": "It can work everywhere within software development.",
+  "zh": "它可以在软件开发的任何地方运作。"
+ },
+ {
+  "seg": 309,
+  "start": 1689.52,
+  "end": 1707.36,
+  "speaker": "Patrick Dubois",
+  "en": "And so my advice then to the platform team would be saying, like, okay, your number one focus is telling people that like they're not so special in what they're building for code, uh, but it's their mindset that is the difference in kind of how they approach the problems and what they bring into that mix.",
+  "zh": "所以我那时给平台团队的建议就是说，比如，好吧，你们的首要重点是告诉人们，比如他们构建的代码并不是那么特别，呃，但他们的心态是差异所在，关于他们如何处理问题以及他们带入这个组合的东西。"
+ },
+ {
+  "seg": 310,
+  "start": 1707.52,
+  "end": 1710.8,
+  "speaker": "Patrick Dubois",
+  "en": "And it's it's really weird because everybody's repeating this, which is great.",
+  "zh": "这这真的很奇怪，因为每个人都在重复这一点，这很好。"
+ },
+ {
+  "seg": 311,
+  "start": 1710.96,
+  "end": 1716.88,
+  "speaker": "Patrick Dubois",
+  "en": "Like every new technology has a learning phase, and we all have to go through the motion and kind of say, hey, oh yeah, now I understand.",
+  "zh": "比如每一种新技术都有学习阶段，我们都得走个过场，然后说，嘿，哦耶，现在我懂了。"
+ },
+ {
+  "seg": 312,
+  "start": 1716.96,
+  "end": 1724.4,
+  "speaker": "Patrick Dubois",
+  "en": "And and yes, all the stories about like I vibe coded this app, like all great, but how do we bring this into the maturity of an organization?",
+  "zh": "是的是的，所有关于比如我用 vibe coding 做了这个应用的故事，比如都很棒，但我们如何将其带入组织的成熟度中呢？"
+ },
+ {
+  "seg": 313,
+  "start": 1724.56,
+  "end": 1731.04,
+  "speaker": "Patrick Dubois",
+  "en": "And that's only by saying, like, well, we're gonna probably don't need to, every developer needs to build their own pipeline.",
+  "zh": "这只能通过说，比如，好吧，我们可能不需要，每个开发者都需要构建他们自己的流水线。"
+ },
+ {
+  "seg": 314,
+  "start": 1731.12,
+  "end": 1732.64,
+  "speaker": "Patrick Dubois",
+  "en": "That's probably not very effective.",
+  "zh": "那可能不是很有效。"
+ },
+ {
+  "seg": 315,
+  "start": 1732.72,
+  "end": 1737.36,
+  "speaker": "Patrick Dubois",
+  "en": "And oh, it's actually the same thing over and over again with two variables or something.",
+  "zh": "哦，这实际上是一遍又一遍的同样的事情，带着两个变量之类的。"
+ },
+ {
+  "seg": 316,
+  "start": 1737.52,
+  "end": 1742.48,
+  "speaker": "Patrick Dubois",
+  "en": "And that's kind of the mindset of the platform, the reusability across different teams that goes in.",
+  "zh": "这就是平台的那种思维，即跨不同团队的可复用性。"
+ },
+ {
+  "seg": 317,
+  "start": 1742.8,
+  "end": 1749.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "I can share a little bit about our process internally, and I guess like the RD leadership perspective I try and push.",
+  "zh": "我可以稍微分享一下我们内部的流程，我猜想，就像我试图推动的研发领导视角一样。"
+ },
+ {
+  "seg": 318,
+  "start": 1749.52,
+  "end": 1755.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "Um, the way I think about it is I go back to pre-gen AI and I imagine I had all the manpower and all the time in the world.",
+  "zh": "呃，我思考它的方式是回到前 Gen AI 时代，我想象我拥有全世界的人力资源和所有的时间。"
+ },
+ {
+  "seg": 319,
+  "start": 1755.84,
+  "end": 1758.96,
+  "speaker": "Tamuz Dubnov",
+  "en": "Somebody opens a PR, I would want to map out is it high risk, is it low risk?",
+  "zh": "有人打开一个 PR，我会想梳理出它是高风险还是低风险？"
+ },
+ {
+  "seg": 320,
+  "start": 1759.2,
+  "end": 1759.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "PR is merged.",
+  "zh": "PR 被合并。"
+ },
+ {
+  "seg": 321,
+  "start": 1760.08,
+  "end": 1765.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "I'd wait two weeks, I want to go over the logs and see did what they do, was it successful, was it not?",
+  "zh": "我会等两周，我想去检查日志，看看他们做了什么，是成功了，还是没有？"
+ },
+ {
+  "seg": 322,
+  "start": 1765.52,
+  "end": 1767.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "Is there some edge case they didn't cover?",
+  "zh": "有没有他们没覆盖到的边界情况？"
+ },
+ {
+  "seg": 323,
+  "start": 1767.36,
+  "end": 1771.52,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and basically with that mindset, we say, okay, now you have Gen AI, you have agents.",
+  "zh": "呃基本上有了那种心态，我们说，好吧，现在你有了 Gen AI，你有了智能体。"
+ },
+ {
+  "seg": 324,
+  "start": 1771.68,
+  "end": 1777.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "There's no excuse not to do everything you ever thought you'd want somebody to do, and then automate it so it happens by CI automatically.",
+  "zh": "没有借口不做你曾经想让人做的每一件事，然后将其自动化，让它通过 CI 自动发生。"
+ },
+ {
+  "seg": 325,
+  "start": 1778,
+  "end": 1783.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so for example, here, all of our PRs get labeled by risk automatically by an agent.",
+  "zh": "呃所以举个例子，在这里，我们所有的 PR 都会由一个智能体根据风险自动打上标签。"
+ },
+ {
+  "seg": 326,
+  "start": 1783.68,
+  "end": 1784.08,
+  "speaker": "unknown",
+  "en": "Cool.",
+  "zh": "酷。"
+ },
+ {
+  "seg": 327,
+  "start": 1784.32,
+  "end": 1787.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh then they go to staging, they live in staging during the QA process.",
+  "zh": "呃然后它们进入 staging，它们在 QA 过程中存留在 staging 里。"
+ },
+ {
+  "seg": 328,
+  "start": 1787.68,
+  "end": 1793.12,
+  "speaker": "Tamuz Dubnov",
+  "en": "Before we release, we have another agent that goes PRPR, is sorted by the risk level, and goes through our logs.",
+  "zh": "在我们发布之前，我们有另一个智能体去 PR，PR，它按风险级别排序，并检查我们的日志。"
+ },
+ {
+  "seg": 329,
+  "start": 1793.2,
+  "end": 1797.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "Our logs are queryable for agents, and they actually go and check every single PR.",
+  "zh": "我们的日志对智能体是可查询的，它们实际上去检查每一个 PR。"
+ },
+ {
+  "seg": 330,
+  "start": 1797.44,
+  "end": 1798.4,
+  "speaker": "Tamuz Dubnov",
+  "en": "Hey, what was the intent?",
+  "zh": "嘿，意图是什么？"
+ },
+ {
+  "seg": 331,
+  "start": 1798.56,
+  "end": 1799.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "Hey, what did the logs look like?",
+  "zh": "嘿，日志看起来像什么？"
+ },
+ {
+  "seg": 332,
+  "start": 1800.08,
+  "end": 1802.08,
+  "speaker": "Tamuz Dubnov",
+  "en": "Did it cover what it was supposed to change or fix?",
+  "zh": "它是否覆盖了它本应更改或修复的内容？"
+ },
+ {
+  "seg": 333,
+  "start": 1802.24,
+  "end": 1803.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "Was there some edge case we missed?",
+  "zh": "有没有我们遗漏的边界情况？"
+ },
+ {
+  "seg": 334,
+  "start": 1804.32,
+  "end": 1806.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "And it's been amazing that it's caught more and more stuff.",
+  "zh": "它捕捉到了越来越多的东西，这太神奇了。"
+ },
+ {
+  "seg": 335,
+  "start": 1806.96,
+  "end": 1816.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "Like the high-risk PRs often do miss something, even though our engineers are agentic in how they work and everything, and we have QA and we have testing and we put in all this effort.",
+  "zh": "比如高风险的 PR 经常会遗漏一些东西，即使我们的工程师在工作中像智能体一样，我们也有 QA，也有测试，我们也投入了所有这些努力。"
+ },
+ {
+  "seg": 336,
+  "start": 1816.72,
+  "end": 1820.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "But hey, when you retro it a week after it's in staging, you find more stuff.",
+  "zh": "但是嘿，当它在 staging 放了一周后你再去复盘，你会发现更多的东西。"
+ },
+ {
+  "seg": 337,
+  "start": 1820.88,
+  "end": 1822.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and often it's like easy stuff.",
+  "zh": "呃而且通常是一些简单的东西。"
+ },
+ {
+  "seg": 338,
+  "start": 1822.72,
+  "end": 1829.12,
+  "speaker": "Tamuz Dubnov",
+  "en": "Like the agent knocks it out, it's like, oh, this edge case pops up once and never because we're a non-deterministic product because of Gen AI and LLMs.",
+  "zh": "比如那个智能体搞定了它，就像，哦，这个边界情况出现一次就不再出现了，因为我们是 Gen AI 和 LLM 带来的非确定性产品。"
+ },
+ {
+  "seg": 339,
+  "start": 1829.36,
+  "end": 1831.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "But hey, now we see that and let me capture it too.",
+  "zh": "但是嘿，现在我们看到了，让我也把它捕捉下来。"
+ },
+ {
+  "seg": 340,
+  "start": 1831.76,
+  "end": 1836.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so that sort of mindset of if I had all the manpower in the world, what would I tell them to do?",
+  "zh": "呃所以那种心态是，如果我有世界上所有的人力，我会告诉他们做什么？"
+ },
+ {
+  "seg": 341,
+  "start": 1836.72,
+  "end": 1839.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "Okay, well, start having agents do it once, twice, automate it.",
+  "zh": "好吧，嗯，开始让智能体做一次，两次，自动化它。"
+ },
+ {
+  "seg": 342,
+  "start": 1839.84,
+  "end": 1839.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 343,
+  "start": 1840.08,
+  "end": 1844.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "For us, we put it into our release cadence, uh, and suddenly you just get better and better quality.",
+  "zh": "对我们来说，我们把它放入我们的发布节奏中，呃，突然间你就获得了越来越好的质量。"
+ },
+ {
+  "seg": 344,
+  "start": 1844.8,
+  "end": 1849.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "And you move stuff that you would need to think about, or your developers would need to think of, just move it.",
+  "zh": "你移动那些你需要思考的东西，或者你的开发者需要思考的东西，直接移走它。"
+ },
+ {
+  "seg": 345,
+  "start": 1850.08,
+  "end": 1850.72,
+  "speaker": "Patrick Dubois",
+  "en": "It's just automatic.",
+  "zh": "它就是自动的。"
+ },
+ {
+  "seg": 346,
+  "start": 1851.12,
+  "end": 1857.92,
+  "speaker": "Patrick Dubois",
+  "en": "I love that you bring up the risk thing because there's the belief that the digital factories, you know, kind of will churn automatically and all the things.",
+  "zh": "我喜欢你提起风险这件事，因为有一种信念认为数字工厂，你知道，会自动运转和做所有事情。"
+ },
+ {
+  "seg": 347,
+  "start": 1858.08,
+  "end": 1868,
+  "speaker": "Patrick Dubois",
+  "en": "But because when you know what the risk is, uh, you know, again, translating it to a management world, different risk levels require different management techniques.",
+  "zh": "但是因为当你知道风险是什么时，呃，你知道，再次把它转化到管理世界，不同的风险级别需要不同的管理技巧。"
+ },
+ {
+  "seg": 348,
+  "start": 1868.16,
+  "end": 1869.76,
+  "speaker": "Patrick Dubois",
+  "en": "Like, are you micromanagering?",
+  "zh": "比如，你在微管理吗？"
+ },
+ {
+  "seg": 349,
+  "start": 1869.92,
+  "end": 1873.36,
+  "speaker": "Patrick Dubois",
+  "en": "Yes, probably the risk is very high, and then you need to do that.",
+  "zh": "是的，可能风险非常高，然后你需要那样做。"
+ },
+ {
+  "seg": 350,
+  "start": 1873.52,
+  "end": 1883.04,
+  "speaker": "Patrick Dubois",
+  "en": "If you have guardrails or something that is not that like important, or you have like some way of mitigating this in the product, by all means, then we'll get the feedback later.",
+  "zh": "如果你有护栏或者一些不那么重要的东西，或者你在产品中有某种缓解这种情况的方法，请务必，我们稍后会得到反馈。"
+ },
+ {
+  "seg": 351,
+  "start": 1883.2,
+  "end": 1891.04,
+  "speaker": "Patrick Dubois",
+  "en": "So that is the the levels and that you can only do that if you start like thinking about like uh risk levels of like things pushing through.",
+  "zh": "所以这就是这些级别，只有当你开始考虑推过来的事情的风险级别时，你才能做到这一点。"
+ },
+ {
+  "seg": 352,
+  "start": 1891.36,
+  "end": 1893.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "We even couple it to our uh PR fatigue.",
+  "zh": "我们甚至把它与我们的 PR 疲劳联系起来。"
+ },
+ {
+  "seg": 353,
+  "start": 1893.52,
+  "end": 1898,
+  "speaker": "Tamuz Dubnov",
+  "en": "So high risk, get more human resources to go over it, and we even couple it to our token budget.",
+  "zh": "所以高风险，获得更多的人力来审查它，我们甚至把它与我们的 token 预算联系起来。"
+ },
+ {
+  "seg": 354,
+  "start": 1898.08,
+  "end": 1902.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "So low risk, we're not gonna spend a lot of effort to check it from an agentic LM spend.",
+  "zh": "所以低风险，我们不打算花很多精力从 agentic LM 的花费中去检查它。"
+ },
+ {
+  "seg": 355,
+  "start": 1902.32,
+  "end": 1903.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so just a way to prioritize everything.",
+  "zh": "所以这只是一种确定所有事情优先级的方法。"
+ },
+ {
+  "seg": 356,
+  "start": 1904.16,
+  "end": 1905.84,
+  "speaker": "Patrick Dubois",
+  "en": "Sounds a lot like running a business now, right?",
+  "zh": "现在听起来很像经营一家企业，对吧？"
+ },
+ {
+  "seg": 357,
+  "start": 1907.44,
+  "end": 1923.52,
+  "speaker": "Simon Maple",
+  "en": "When you talk about adding this into like you know, instrumenting this through your CI, is CI still fit for purpose in this in this flow, or are there alternatives or or or changes we need to make to our CI style process to make it better for a genetic workflows?",
+  "zh": "当你谈论把这个添加到你知道的，通过你的 CI 来植入这个时，CI 在这种流程中仍然适用吗，或者是否有替代方案或者我们需要对 CI 风格的流程进行更改，以使其更适合遗传工作流？"
+ },
+ {
+  "seg": 358,
+  "start": 1923.84,
+  "end": 1926.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "Oh, there's like key transformations you have to do.",
+  "zh": "哦，你必须做一些关键的转变。"
+ },
+ {
+  "seg": 359,
+  "start": 1926.48,
+  "end": 1940.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "So one key transformation is whatever your observability platform is, you need to make sure it's easily queryable for an agent so it can verify both while it's doing a task and also retroactively an entire like I don't know, dev environment, staging environment, prod environment, you need to make it really easy for the agent.",
+  "zh": "所以一个关键的转变是，无论你的可观测性平台是什么，你需要确保它对智能体来说很容易查询，这样它既可以验证它正在执行的任务，也可以追溯性地验证整个像我不知道的，开发环境，预发布环境，生产环境，你需要让这对智能体来说非常容易。"
+ },
+ {
+  "seg": 360,
+  "start": 1940.4,
+  "end": 1947.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "And we have skills that also tune themselves so we continuously get better, especially as our product evolves and our logs change and the way you query change.",
+  "zh": "我们有技能也会自我调整，所以我们持续变得更好，特别是随着我们的产品演进，我们的日志改变，以及你查询的方式改变。"
+ },
+ {
+  "seg": 361,
+  "start": 1947.28,
+  "end": 1948.8,
+  "speaker": "Tamuz Dubnov",
+  "en": "So that's like a key part.",
+  "zh": "所以这是一个关键部分。"
+ },
+ {
+  "seg": 362,
+  "start": 1949.12,
+  "end": 1952.96,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh RCI is very agentic heavy.",
+  "zh": "RCI 是非常重智能体的。"
+ },
+ {
+  "seg": 363,
+  "start": 1953.52,
+  "end": 1957.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh even the way you push and open a PR is extremely agentic heavy.",
+  "zh": "甚至你推送和打开 PR 的方式都极其重智能体。"
+ },
+ {
+  "seg": 364,
+  "start": 1958.32,
+  "end": 1965.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and all the actions that we put in from a DevOps perspective are also like really agentic heavy.",
+  "zh": "从 DevOps 视角，我们放入的所有操作也都非常重智能体。"
+ },
+ {
+  "seg": 365,
+  "start": 1966.16,
+  "end": 1973.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh that's just a way not to have uh like you want into end, you want unit test, but you want those all those mechanisms for feedback to the agent.",
+  "zh": "这只是一种没有像你想要进入结束那样的方式，你想要单元测试，但你想要所有那些反馈给智能体的机制。"
+ },
+ {
+  "seg": 366,
+  "start": 1973.28,
+  "end": 1975.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "So the agent works in higher confidence.",
+  "zh": "所以智能体在更高的置信度下工作。"
+ },
+ {
+  "seg": 367,
+  "start": 1975.28,
+  "end": 1979.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh but you gotta think of as the agent stepping in, and how are they doing more than just writing code?",
+  "zh": "但你必须把它看作智能体介入，以及他们如何做的不仅仅是写代码？"
+ },
+ {
+  "seg": 368,
+  "start": 1979.84,
+  "end": 1985.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "How are they your confidence layer that there is quality, that the risk is managed, uh, that stuff is moving faster?",
+  "zh": "他们如何成为你的置信层，确保有质量，风险被管理，东西移动得更快？"
+ },
+ {
+  "seg": 369,
+  "start": 1985.36,
+  "end": 1990.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "We even have agents help us prioritize, like I don't know, you have 20 PRs open, which one is high importance?",
+  "zh": "我们甚至有智能体帮助我们确定优先级，比如我不知道，你有 20 个 PR 打开，哪个是高重要性？"
+ },
+ {
+  "seg": 370,
+  "start": 1990.4,
+  "end": 1992.96,
+  "speaker": "Tamuz Dubnov",
+  "en": "The agents will tell us and push the reviewer to act on it.",
+  "zh": "智能体会告诉我们并推动审查者采取行动。"
+ },
+ {
+  "seg": 371,
+  "start": 1993.44,
+  "end": 2011.12,
+  "speaker": "Simon Maple",
+  "en": "And is it do you do you see it almost like as this uh um this you know series of actions that need to happen, or do you feel like it's you know more fluid than that where you have you have different different agents providing you with different data to make you know decisions more integrated, more collaboratively?",
+  "zh": "你是否几乎把它看作是一系列需要发生的行动，或者你觉得它比那更流动，你有不同的智能体为你提供不同的数据，以做出更整合、更协作的决定？"
+ },
+ {
+  "seg": 372,
+  "start": 2011.84,
+  "end": 2016.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "Okay, so I'm gonna go with your answer, which is it's fluid until I figure it out.",
+  "zh": "好的，所以我将采用你的答案，即它是流动的，直到我弄清楚为止。"
+ },
+ {
+  "seg": 373,
+  "start": 2016.48,
+  "end": 2016.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 374,
+  "start": 2016.72,
+  "end": 2018.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "And then it's hard-coded because I don't want to repeat it.",
+  "zh": "然后它是硬编码的，因为我不想重复它。"
+ },
+ {
+  "seg": 375,
+  "start": 2018.56,
+  "end": 2019.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "I want to get that mental load off.",
+  "zh": "我想卸下那个精神负担。"
+ },
+ {
+  "seg": 376,
+  "start": 2020.16,
+  "end": 2038.24,
+  "speaker": "Daniel Jones",
+  "en": "I've I've I've got um a strong hunch that um or strong opinions really on this in that um when when you're a software developer and you're trying to work out, like you're implementing a feature, like one, just make it work, then make it work maintainably, then make it work readably, performantly, securely.",
+  "zh": "我有一个强烈的预感，或者真的是强烈的观点，在于当你是一个软件开发者并且你试图搞清楚，比如你正在实现一个功能，比如第一，先让它工作，然后让它可维护地工作，然后让它可读地、高性能地、安全地工作。"
+ },
+ {
+  "seg": 377,
+  "start": 2038.4,
+  "end": 2042.08,
+  "speaker": "Daniel Jones",
+  "en": "You've got all these different lenses through which you have to look at a code change.",
+  "zh": "你拥有所有这些不同的透镜，通过它们你必须审视代码变更。"
+ },
+ {
+  "seg": 378,
+  "start": 2042.72,
+  "end": 2049.2,
+  "speaker": "Daniel Jones",
+  "en": "I think that what we need um with agentic development is to apply all of those lenses deterministically.",
+  "zh": "我认为我们在智能体开发中需要的是确定性地应用所有这些透镜。"
+ },
+ {
+  "seg": 379,
+  "start": 2049.36,
+  "end": 2055.52,
+  "speaker": "Daniel Jones",
+  "en": "All right, instead of hoping that an agent is going to figure out all of this in one pass by sticking all the things in agent's MD.",
+  "zh": "好的，而不是希望智能体通过把所有东西塞进 agent 的 MD 中来一次性搞定所有这些。"
+ },
+ {
+  "seg": 380,
+  "start": 2055.76,
+  "end": 2058.4,
+  "speaker": "Daniel Jones",
+  "en": "Instead, we can have some kind of CI-like process.",
+  "zh": "相反，我们可以拥有某种类似 CI 的流程。"
+ },
+ {
+  "seg": 381,
+  "start": 2058.48,
+  "end": 2073.92,
+  "speaker": "Daniel Jones",
+  "en": "I've built a little tool called Assembly Line that does this where you you make a change with your agent or the agent makes a change by itself, and then another agent gets spun up with one deterministically defined prompt of check for dead code, check for missing test coverage, check for this, check for that, check for the other.",
+  "zh": "我构建了一个名为 Assembly Line 的小工具来做到这一点，你用你的智能体做出更改，或者智能体自己做出更改，然后另一个智能体被启动，带有一个确定性定义的提示，检查死代码，检查缺失的测试覆盖率，检查这个，检查那个，检查其他的。"
+ },
+ {
+  "seg": 382,
+  "start": 2074,
+  "end": 2076.48,
+  "speaker": "Daniel Jones",
+  "en": "And to your point, you've got infinite engineering resource.",
+  "zh": "说到你的观点，你拥有无限的工程资源。"
+ },
+ {
+  "seg": 383,
+  "start": 2076.56,
+  "end": 2090.24,
+  "speaker": "Daniel Jones",
+  "en": "So why wouldn't you look at a change through all of those lenses and then try and provide feedback as fast as possible to the agent that was doing the main kind of set of changes so it doesn't deviate too far and uh can fold that back in.",
+  "zh": "那么你为什么不通过所有这些透镜来看待一个变更，然后尽可能快地向做主要那组变更的智能体提供反馈，这样它就不会偏离太远，并且可以把它整合回去。"
+ },
+ {
+  "seg": 384,
+  "start": 2090.56,
+  "end": 2104.48,
+  "speaker": "Daniel Jones",
+  "en": "So I think the like we need to, as an industry or you know, as practitioners, figure out that the flexibility and power of LLMs to work in a non-deterministic fashion is really powerful, but we don't want that all the time.",
+  "zh": "所以我认为我们需要，作为一个行业或者你知道，作为从业者，弄清楚 LLM 以非确定性方式工作的灵活性和威力真的很强大，但我们并不总是想要那样。"
+ },
+ {
+  "seg": 385,
+  "start": 2104.64,
+  "end": 2111.68,
+  "speaker": "Daniel Jones",
+  "en": "I know of some people that are like using agent skills to figure out how to deploy stuff into prod, and I'm like, just build a platform.",
+  "zh": "我知道有一些人正在使用智能体技能来弄清楚如何将东西部署到生产环境，我就想，就构建一个平台吧。"
+ },
+ {
+  "seg": 386,
+  "start": 2111.84,
+  "end": 2116.08,
+  "speaker": "Daniel Jones",
+  "en": "Like we've had platforms for 10 years, they're nice and deterministic and straightforward.",
+  "zh": "就像我们已经有了平台 10 年了，它们很好，确定性和直接。"
+ },
+ {
+  "seg": 387,
+  "start": 2116.32,
+  "end": 2122.96,
+  "speaker": "Daniel Jones",
+  "en": "Maybe use agents to build your platform, but don't replace your platform with agents burning tokens reinventing the wheel.",
+  "zh": "也许使用智能体来构建你的"
+ },
+ {
+  "seg": 388,
+  "start": 2123.12,
+  "end": 2136.16,
+  "speaker": "Daniel Jones",
+  "en": "Like there's a place for the um determinism, and I think it is in that kind of figuring out, like you explore and then you figure out okay, right, that was the right place where we should have run that kind of check or uh a pass or sweep over the code base through this lens.",
+  "zh": "就像是有一个位置给那个确定性，我认为是在那种弄清楚的方式里，就像你探索然后你弄清楚，好的，对的，那是我们应该运行那种检查的正确地方，或者通过这个视角对代码库进行的一次通过或扫描。"
+ },
+ {
+  "seg": 389,
+  "start": 2137.52,
+  "end": 2139.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "I I have a ton of ton of say.",
+  "zh": "我我有非常多的，非常多的话要说。"
+ },
+ {
+  "seg": 390,
+  "start": 2139.2,
+  "end": 2139.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "Okay in a second.",
+  "zh": "好的，稍等一下。"
+ },
+ {
+  "seg": 391,
+  "start": 2139.92,
+  "end": 2140.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "So excuse me.",
+  "zh": "请原谅。"
+ },
+ {
+  "seg": 392,
+  "start": 2140.64,
+  "end": 2142.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so we have two harnesses in my organization.",
+  "zh": "呃，所以我的组织里有两个 harness。"
+ },
+ {
+  "seg": 393,
+  "start": 2142.64,
+  "end": 2145.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "We have the harness in the product and the harness for the RD team internally.",
+  "zh": "我们有产品里的 harness 和给 RD 团队内部用的 harness。"
+ },
+ {
+  "seg": 394,
+  "start": 2145.68,
+  "end": 2152,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so it's beautiful because what you said is stuff we have in both harnesses, meaning we do not want the agent to go through this route to exactly what we want.",
+  "zh": "呃，这很美，因为你说的是我们在两个 harness 里都有的东西，意味着我们不希望智能体走这条路来精确达到我们想要的。"
+ },
+ {
+  "seg": 395,
+  "start": 2152.16,
+  "end": 2157.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "We want the agent to do a big step this way, and then the one that step makes sense for it statistically.",
+  "zh": "我们想要智能体向这边迈出一大步，然后那一步在统计上对它来说是合理的。"
+ },
+ {
+  "seg": 396,
+  "start": 2157.52,
+  "end": 2160.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "And then a big step this way, again, it makes much more sense to it statistically.",
+  "zh": "然后向这边迈一大步，同样，这在统计上对它来说合理得多。"
+ },
+ {
+  "seg": 397,
+  "start": 2160.96,
+  "end": 2163.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "You see that you're no longer fighting with the LLM.",
+  "zh": "你会发现你不再和 LLM 打架了。"
+ },
+ {
+  "seg": 398,
+  "start": 2163.12,
+  "end": 2165.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "It does not want to do one, two, three steps in one.",
+  "zh": "它并不想在一个里面做一、二、三步。"
+ },
+ {
+  "seg": 399,
+  "start": 2165.52,
+  "end": 2167.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "It wants to do one, wants to do two, wants to do three.",
+  "zh": "它想做一，想做二，想做三。"
+ },
+ {
+  "seg": 400,
+  "start": 2168,
+  "end": 2169.6,
+  "speaker": "Tamuz Dubnov",
+  "en": "You just get better quality that way.",
+  "zh": "这样你就能获得更好的质量。"
+ },
+ {
+  "seg": 401,
+  "start": 2169.76,
+  "end": 2179.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "And it's funny you call it assembly line, we call it nudging, uh, but in that sense, you get a very clear workflow uh and you no longer fight the the agent and how it wants to work.",
+  "zh": "你那样叫它流水线挺有意思的，我们称之为引导，呃，但在那种意义上，你会得到一个非常清晰的工作流，呃，你不再与那个智能体以及它想要的工作方式对抗。"
+ },
+ {
+  "seg": 402,
+  "start": 2180.16,
+  "end": 2190.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh what we do internally for our like RD team, the RD harness, not the product, uh, is sadly we have to factor in the human element in in just because we do.",
+  "zh": "呃，我们内部在我们的研发团队，那个研发工具架，而不是产品方面，所做的是，遗憾的是，我们必须把人为因素考虑进去，只是因为我们确实这样做。"
+ },
+ {
+  "seg": 403,
+  "start": 2193.36,
+  "end": 2194.96,
+  "speaker": "Tamuz Dubnov",
+  "en": "So we developed the humans.",
+  "zh": "所以我们开发了人类。"
+ },
+ {
+  "seg": 404,
+  "start": 2195.76,
+  "end": 2197.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "It's like the slowest part of the whole machine.",
+  "zh": "它就像整个机器中最慢的部分。"
+ },
+ {
+  "seg": 405,
+  "start": 2197.76,
+  "end": 2197.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "It is.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 406,
+  "start": 2198.16,
+  "end": 2203.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so we developed kind of pump, is what I call it, um, which is plan merge polish.",
+  "zh": "呃，所以我们开发了一种泵，我是这么叫的，嗯，也就是计划、合并、打磨。"
+ },
+ {
+  "seg": 407,
+  "start": 2203.28,
+  "end": 2206.08,
+  "speaker": "Tamuz Dubnov",
+  "en": "The code is moving so fast you can't have an open PR.",
+  "zh": "代码移动得如此之快，你不能有一个开放的 PR。"
+ },
+ {
+  "seg": 408,
+  "start": 2206.4,
+  "end": 2212.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "Meaning, if it's an open PR and I want to do QA on it, and I want to do like a product review, and I want to do a design review, that is all lovely.",
+  "zh": "意思是，如果它是一个开放的 PR，我想对它做 QA，我想做产品审查，我想做设计审查，这都很好。"
+ },
+ {
+  "seg": 409,
+  "start": 2212.8,
+  "end": 2217.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "By the time those are done, the code is gonna have so much conflict, everything looks different, I have to restart.",
+  "zh": "等到那些完成时，代码会有太多冲突，一切看起来都不一样了，我必须重新开始。"
+ },
+ {
+  "seg": 410,
+  "start": 2218.24,
+  "end": 2223.76,
+  "speaker": "Daniel Jones",
+  "en": "I I I am gonna be so, so happy if we manage to go back to trunk-based development as an industry.",
+  "zh": "如果我们作为一个行业能够回到基于主干开发，我将非常、非常高兴。"
+ },
+ {
+  "seg": 411,
+  "start": 2224,
+  "end": 2228.88,
+  "speaker": "Daniel Jones",
+  "en": "Like pull request-based workflows inside enterprises are a damn silly idea.",
+  "zh": "就像企业内部基于拉取请求的工作流是一个极其愚蠢的想法。"
+ },
+ {
+  "seg": 412,
+  "start": 2228.96,
+  "end": 2236.64,
+  "speaker": "Daniel Jones",
+  "en": "Um they make great sense in open source repositories with people who are not strategically aligned and you you don't trust, and you know, it makes sense there.",
+  "zh": "呃，在开源仓库里，对于那些没有战略一致性以及你不信任的人，它们非常有意义，你知道，在那里是有道理的。"
+ },
+ {
+  "seg": 413,
+  "start": 2236.8,
+  "end": 2244.24,
+  "speaker": "Daniel Jones",
+  "en": "But like that, because of that speed change that you mentioned, like you've got to get the feedback to the agents working on the code as quickly as possible.",
+  "zh": "但就像那样，因为你提到的速度变化，你必须尽可能快地把反馈给到正在处理代码的智能体。"
+ },
+ {
+  "seg": 414,
+  "start": 2244.56,
+  "end": 2254.56,
+  "speaker": "Daniel Jones",
+  "en": "And that kind of goes back to a point that I think is running through all of this, that the fundamentals of like what made good software delivery, what made good uh methodology, those haven't changed.",
+  "zh": "而且这有点回到了我认为贯穿这一切的一点，那就是像是什么造就了良好的软件交付，什么造就了良好的方法论，这些基本原理并没有改变。"
+ },
+ {
+  "seg": 415,
+  "start": 2254.72,
+  "end": 2258.32,
+  "speaker": "Daniel Jones",
+  "en": "Things like fast feedback are uh important, they always will be.",
+  "zh": "像快速反馈这样的事情是重要的，它们永远都是。"
+ },
+ {
+  "seg": 416,
+  "start": 2258.4,
+  "end": 2273.28,
+  "speaker": "Daniel Jones",
+  "en": "Having feedback, being able to tell, like you know, the point about observability, that the agent can tell whether it's broken something in production, having all those feedback signals is was important before for humans and continues to be important for agents, if not being even more important because of the rate of change.",
+  "zh": "拥有反馈，能够分辨，就像你知道的，关于可观测性的那一点，智能体能够分辨它是否在生产环境中破坏了什么东西，拥有所有那些反馈信号以前对人类很重要，现在对智能体仍然重要，如果不是因为变化率而变得更加重要的话。"
+ },
+ {
+  "seg": 417,
+  "start": 2274.48,
+  "end": 2276,
+  "speaker": "Tamuz Dubnov",
+  "en": "So I'll expand 100% agree.",
+  "zh": "所以我要展开来说，完全同意。"
+ },
+ {
+  "seg": 418,
+  "start": 2276.56,
+  "end": 2282.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh the the issue there is also that as soon as a PR is merged, the the landscape changed, the code changed.",
+  "zh": "呃，那里的问题也在于，一旦 PR 被合并，格局就变了，代码也变了。"
+ },
+ {
+  "seg": 419,
+  "start": 2282.4,
+  "end": 2284.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "So the next agent that starts will do a different job.",
+  "zh": "所以下一个启动的智能体将做一项不同的工作。"
+ },
+ {
+  "seg": 420,
+  "start": 2284.88,
+  "end": 2288.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "Like everything impacts it, the statistics of the path the LM goes through.",
+  "zh": "就像每件事都会影响它，包括 LM 所经过路径的统计数据。"
+ },
+ {
+  "seg": 421,
+  "start": 2288.4,
+  "end": 2291.52,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so for us we we called it like the the M in the pump, the merge.",
+  "zh": "呃，所以对我们来说"
+ },
+ {
+  "seg": 422,
+  "start": 2291.92,
+  "end": 2294.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "As soon as the PR is open, we want to get it merged as fast as possible.",
+  "zh": "拉取请求一打开，我们就想尽可能快地把它合并。"
+ },
+ {
+  "seg": 423,
+  "start": 2294.32,
+  "end": 2296.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "So hey, human reviewer, look at it right away.",
+  "zh": "所以嘿，人工审查员，马上看它。"
+ },
+ {
+  "seg": 424,
+  "start": 2296.56,
+  "end": 2297.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "Get it in.",
+  "zh": "把它弄进去。"
+ },
+ {
+  "seg": 425,
+  "start": 2297.12,
+  "end": 2298.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "We need it to pass our CI.",
+  "zh": "我们需要它通过我们的 CI。"
+ },
+ {
+  "seg": 426,
+  "start": 2298.32,
+  "end": 2299.6,
+  "speaker": "Tamuz Dubnov",
+  "en": "We do not need it to pass QA.",
+  "zh": "我们不需要它通过 QA。"
+ },
+ {
+  "seg": 427,
+  "start": 2299.76,
+  "end": 2303.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "We do not need to pass the product or the designer, everything is feature flagged.",
+  "zh": "我们不需要通过产品或设计师，所有东西都通过功能开关控制。"
+ },
+ {
+  "seg": 428,
+  "start": 2304,
+  "end": 2305.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "Then we go into the last P, which is polish.",
+  "zh": "然后我们进入最后一个 P，也就是打磨。"
+ },
+ {
+  "seg": 429,
+  "start": 2306.08,
+  "end": 2309.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "Stuff is in the code, every new feature that gets developed is off of the same code.",
+  "zh": "东西都在代码里，每个开发出来的新功能都在同一个代码上。"
+ },
+ {
+  "seg": 430,
+  "start": 2310.08,
+  "end": 2321.12,
+  "speaker": "Tamuz Dubnov",
+  "en": "And our product manager can go and review it and they can polish it using our platform and get the UI and UX exactly right and see all the bad decisions from the user-facing perspective that the developer made.",
+  "zh": "我们的产品经理可以去审查它，他们可以使用我们的平台来打磨它，并让 UI 和 UX 完全正确，看看开发者从用户视角做出的所有糟糕决策。"
+ },
+ {
+  "seg": 431,
+  "start": 2321.36,
+  "end": 2324.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "Well, the developer got the feature working, it did not get the feature polished.",
+  "zh": "嗯，开发者让功能运作起来了，并没有把功能打磨好。"
+ },
+ {
+  "seg": 432,
+  "start": 2324.64,
+  "end": 2325.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "So that's fine.",
+  "zh": "所以这没问题。"
+ },
+ {
+  "seg": 433,
+  "start": 2325.36,
+  "end": 2326.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "We have other personas for it.",
+  "zh": "我们还有其他角色来做这个。"
+ },
+ {
+  "seg": 434,
+  "start": 2326.72,
+  "end": 2333.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "And now they can do their work in a way that is smooth within the evolving code base, like it's evolving really quickly.",
+  "zh": "现在他们可以在一个正在演进的代码库中以顺畅的方式完成他们的工作，就像它演进得非常快。"
+ },
+ {
+  "seg": 435,
+  "start": 2333.84,
+  "end": 2339.6,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so that kind of feature flagging, merging quickly with feature flags enables us to do it kind of two-step.",
+  "zh": "嗯所以那种功能开关，带功能开关快速合并使我们能够做这种两步法。"
+ },
+ {
+  "seg": 436,
+  "start": 2339.84,
+  "end": 2340.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "There's no one PR.",
+  "zh": "没有单一的拉取请求。"
+ },
+ {
+  "seg": 437,
+  "start": 2340.8,
+  "end": 2355.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "A feature should take three or four PRs, one PR from the developer, one PR from the product manager that changes functionality, one PR from the designer that tunes the UIUEX, and then maybe one last PR from the QA that saw some sort of itch case.",
+  "zh": "一个功能应该花三到四个拉取请求，一个来自开发者的拉取请求，一个来自改变功能的产品经理的拉取请求，一个来自调整 UIUEX 的设计师的拉取请求，然后也许还有来自 QA 的最后一个拉取请求，他看到了某种痒痒案例。"
+ },
+ {
+  "seg": 438,
+  "start": 2356.32,
+  "end": 2364.56,
+  "speaker": "Simon Maple",
+  "en": "And in terms of like the the human reviewer being the slowdown there, I had a really interesting chat with uh Ryan Lapopoli, who's a member of technical staff at uh OpenAI.",
+  "zh": "就人工审查员在那儿成为拖累而言，我和 uh Ryan Lapopoli 进行了一次非常有趣的聊天，他是 uh OpenAI 的一名技术人员。"
+ },
+ {
+  "seg": 439,
+  "start": 2364.8,
+  "end": 2371.04,
+  "speaker": "Simon Maple",
+  "en": "And um one of the things that they're doing in some of their projects is to entirely remove uh a human reviewer.",
+  "zh": "嗯他们在一些项目中所做的一件事是完全移除 uh 人工审查员。"
+ },
+ {
+  "seg": 440,
+  "start": 2371.2,
+  "end": 2374,
+  "speaker": "Simon Maple",
+  "en": "Uh, how much does that make you go, oh gosh, that's horrible?",
+  "zh": "嗯，这让你有多觉得，哦天哪，那太糟糕了？"
+ },
+ {
+  "seg": 441,
+  "start": 2374.16,
+  "end": 2389.12,
+  "speaker": "Simon Maple",
+  "en": "Or how much does that make you think, oh wow, there's a real opportunity here in certain cases for us to actually allow either an AI or tooling to perform those uh reviews and give us that feedback, maybe for different levels of criticality of change.",
+  "zh": "或者这让你有多少觉得，哦哇，在某些情况下这里有一个真正的机会让我们实际上允许 AI 或工具来执行那些 uh 审查并给我们那个反馈，也许是针对不同级别的变更关键性。"
+ },
+ {
+  "seg": 442,
+  "start": 2389.2,
+  "end": 2391.2,
+  "speaker": "Simon Maple",
+  "en": "But is that something that you look at, Mike, much?",
+  "zh": "但这是你经常关注的事情吗，Mike？"
+ },
+ {
+  "seg": 443,
+  "start": 2391.6,
+  "end": 2392.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "Oh, all the time.",
+  "zh": "哦，一直都在。"
+ },
+ {
+  "seg": 444,
+  "start": 2392.32,
+  "end": 2392.4,
+  "speaker": "Tamuz Dubnov",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 445,
+  "start": 2392.56,
+  "end": 2394.8,
+  "speaker": "Tamuz Dubnov",
+  "en": "So again, it goes back to the risk uh conversation.",
+  "zh": "所以再次，这回到了风险 uh 对话。"
+ },
+ {
+  "seg": 446,
+  "start": 2395.04,
+  "end": 2396.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "High risk, no way.",
+  "zh": "高风险，没门。"
+ },
+ {
+  "seg": 447,
+  "start": 2396.64,
+  "end": 2397.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh I want a human person.",
+  "zh": "嗯我想要一个人。"
+ },
+ {
+  "seg": 448,
+  "start": 2397.92,
+  "end": 2402,
+  "speaker": "Tamuz Dubnov",
+  "en": "And I also define like risk is also by what part of the code base they're touching, how sensitive it is.",
+  "zh": "而且我也定义像风险也是由他们接触代码库的哪一部分，它有多敏感来决定的。"
+ },
+ {
+  "seg": 449,
+  "start": 2402.16,
+  "end": 2414.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh but beyond it, I'm trying to automate the PR commenting and comment resolution process, uh, which means I have uh agents that have modeled every single developer on my team and their comments for the last few hundred PRs.",
+  "zh": "嗯但除此之外，我正在尝试自动化拉取请求评论和评论解决过程，uh，这意味着我有 uh 智能体，它们为我团队上的每一个开发者建模，以及他们在过去几百个拉取请求中的评论。"
+ },
+ {
+  "seg": 450,
+  "start": 2414.64,
+  "end": 2416.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "And I know each and every persona.",
+  "zh": "而且我知道每一个角色。"
+ },
+ {
+  "seg": 451,
+  "start": 2416.8,
+  "end": 2422.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "So as soon as a PR is open, we have a whole prepare PR, which is a bunch of agents to check it in all the ways that we've modeled it, we need to check it.",
+  "zh": "所以一旦 PR 被打开，我们有一个完整的 prepare PR，这是一群智能体按照我们建模的所有方式来检查它，我们需要检查它。"
+ },
+ {
+  "seg": 452,
+  "start": 2422.72,
+  "end": 2431.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "Once a PR is open, we launch different agents that model different people from our team and comment as if they were those people, and does a surprisingly good job.",
+  "zh": "一旦 PR 被打开，我们启动不同的智能体，这些智能体模拟我们团队中的不同人，并表现得像那些人一样评论，并且做得出奇地好。"
+ },
+ {
+  "seg": 453,
+  "start": 2431.92,
+  "end": 2434.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "Then we trigger agents again to resolve those comments.",
+  "zh": "然后我们再次触发智能体来解决这些评论。"
+ },
+ {
+  "seg": 454,
+  "start": 2434.56,
+  "end": 2439.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "Then we trigger the retro to see are there any error logs, stuff actually behaves like it wanted to.",
+  "zh": "然后我们触发 retro 来看看是否有任何错误日志，东西实际上表现得像它想要的那样。"
+ },
+ {
+  "seg": 455,
+  "start": 2440.16,
+  "end": 2447.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "And again, if the risk is not high from the PR's nature, I'm moving towards being able to like skip the human reviewer at all.",
+  "zh": "再说一次，如果从 PR 的性质来看风险不高，我正朝着能够完全跳过人类审查员的方向迈进。"
+ },
+ {
+  "seg": 456,
+  "start": 2448.24,
+  "end": 2449.84,
+  "speaker": "Tamuz Dubnov",
+  "en": "Again, I have developers on my team.",
+  "zh": "再说一次，我团队里有开发者。"
+ },
+ {
+  "seg": 457,
+  "start": 2450,
+  "end": 2454.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "I have some developers on my team that are absolutely against this because they want the developer to own.",
+  "zh": "我团队里有一些开发者绝对反对这个，因为他们想让开发者拥有所有权。"
+ },
+ {
+  "seg": 458,
+  "start": 2454.88,
+  "end": 2458.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "So I'm going through the motion of massaging them and getting them comfortable with the idea.",
+  "zh": "所以我正在通过安抚他们并让他们对这个想法感到舒适来走过场。"
+ },
+ {
+  "seg": 459,
+  "start": 2458.56,
+  "end": 2460.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh but I'm definitely pushing for that.",
+  "zh": "嗯，但我肯定在推动这件事。"
+ },
+ {
+  "seg": 460,
+  "start": 2460.56,
+  "end": 2464.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "And it depends how reversible it is as well, in terms of uh It's the cardrails, right?",
+  "zh": "而且这也取决于它有多可逆，就那个来说嗯这是 cardrails，对吧？"
+ },
+ {
+  "seg": 461,
+  "start": 2464.64,
+  "end": 2474.32,
+  "speaker": "Patrick Dubois",
+  "en": "And it was the same thing, like when everything was being automated during the DevOps transformation, people said, like, but if I did change one thing, I can delete everything now, automate it, right?",
+  "zh": "这也是同一回事，就像在 DevOps 转型期间一切都在自动化时，人们说，但是如果我确实改变了一件事，我现在可以删除一切，自动化它，对吧？"
+ },
+ {
+  "seg": 462,
+  "start": 2474.56,
+  "end": 2490.64,
+  "speaker": "Patrick Dubois",
+  "en": "But it was the harness of test the CR CD that kind of was like the fail system of, and then the narrative was you can have a junior come in, push to your uh you know, kind of your main, and like your harness, your test harness will catch it.",
+  "zh": "但这是 test the CR CD 的 harness，它是那种失败系统，然后叙事是你可以让一个初级人员进来，推到你的嗯你知道，那种你的主分支，然后像你的 harness，你的测试 harness 会捕捉它。"
+ },
+ {
+  "seg": 463,
+  "start": 2490.72,
+  "end": 2492.32,
+  "speaker": "Patrick Dubois",
+  "en": "Like if that's a good one.",
+  "zh": "就像如果那是一个好的那样。"
+ },
+ {
+  "seg": 464,
+  "start": 2492.96,
+  "end": 2503.52,
+  "speaker": "Patrick Dubois",
+  "en": "Uh and but what you saw is that there was still a difference between I'm gonna do changes in the code of the compute to I'm gonna do changes on the data scheme model.",
+  "zh": "嗯但是你看到的是，在我要做计算代码的更改和我做数据方案模型更改之间仍然存在区别。"
+ },
+ {
+  "seg": 465,
+  "start": 2503.68,
+  "end": 2506.24,
+  "speaker": "Patrick Dubois",
+  "en": "Because people felt the risk is high.",
+  "zh": "因为人们觉得风险很高。"
+ },
+ {
+  "seg": 466,
+  "start": 2506.48,
+  "end": 2510.8,
+  "speaker": "Patrick Dubois",
+  "en": "So you you can see kind of similar patterns on like uh the choices that you make.",
+  "zh": "所以你可以在你做出的选择上看到类似的模式。"
+ },
+ {
+  "seg": 467,
+  "start": 2510.88,
+  "end": 2513.92,
+  "speaker": "Patrick Dubois",
+  "en": "Uh but it's it's a mindset, like how far do you go?",
+  "zh": "嗯但这这是一种心态，就像你走多远？"
+ },
+ {
+  "seg": 468,
+  "start": 2514.08,
+  "end": 2516.48,
+  "speaker": "Patrick Dubois",
+  "en": "There's also a cost to kind of doing the automation.",
+  "zh": "做自动化也有一种成本。"
+ },
+ {
+  "seg": 469,
+  "start": 2516.56,
+  "end": 2520.16,
+  "speaker": "Patrick Dubois",
+  "en": "And you mentioned a lot of things like, yeah, I have an agent for this, for that.",
+  "zh": "你提到了很多事情，比如，是的，我有一个智能体做这个，做那个。"
+ },
+ {
+  "seg": 470,
+  "start": 2520.32,
+  "end": 2526.16,
+  "speaker": "Patrick Dubois",
+  "en": "Uh, you know, putting everything in place is it's it's currently like a lot of work, right?",
+  "zh": "嗯，你知道，把一切都就位目前是很多工作，对吧？"
+ },
+ {
+  "seg": 471,
+  "start": 2526.24,
+  "end": 2538.88,
+  "speaker": "Patrick Dubois",
+  "en": "Like and yes, you can buy your product or your product or like everybody's product, but that that kind of is uh, you know, funnily enough, we hoped everything was be more simple, five-coded, and everything were working.",
+  "zh": "就像是的，你可以买你的产品或你的产品或者像每个人的产品，但是那种你知道，有趣的是，我们希望一切会更简单，five-coded，并且一切都在工作。"
+ },
+ {
+  "seg": 472,
+  "start": 2539.04,
+  "end": 2552.72,
+  "speaker": "Patrick Dubois",
+  "en": "And what we end up, and that's usual for any technology maturing, is that when it's matured, it's even more complex when you want to reach the next level of kind of like full uh kind of uh you know power of the new technology.",
+  "zh": "而我们最终得到的，这对任何技术成熟来说都是通常的，是当它成熟时，当你想要达到下一级的某种完整的嗯你知道新技术的力量时，它甚至更复杂。"
+ },
+ {
+  "seg": 473,
+  "start": 2552.8,
+  "end": 2572.72,
+  "speaker": "Daniel Jones",
+  "en": "So uh one of our customers at Adevo, uh they're doing some really great work where they've got a team that has gone full agentic, they've changed their development process as uh uh uh to um embrace AI in many different ways, requirements, gathering, transcription, story writing, implementation, all of those kind of things, and they are now going 72 times faster.",
+  "zh": "所以嗯 Adevo 的一个客户，嗯他们正在做一些非常伟大的工作，他们有一个团队已经完全智能体化，他们改变了他们的开发流程嗯嗯嗯去嗯在许多不同方面拥抱 AI，需求收集，转录，故事编写，实现，所有这类事情，他们现在快了 72 倍。"
+ },
+ {
+  "seg": 474,
+  "start": 2572.88,
+  "end": 2579.28,
+  "speaker": "Daniel Jones",
+  "en": "So they uh have done eight years worth of work uh and they're on track to complete that in 11 months with a third of the people.",
+  "zh": "所以他们嗯做了八年的工作量嗯而且他们正按计划在 11 个月内用三分之一的人完成它。"
+ },
+ {
+  "seg": 475,
+  "start": 2579.44,
+  "end": 2581.76,
+  "speaker": "Daniel Jones",
+  "en": "So they've uh done great things there.",
+  "zh": "所以他们嗯在那里做了伟大的事情。"
+ },
+ {
+  "seg": 476,
+  "start": 2581.92,
+  "end": 2591.6,
+  "speaker": "Daniel Jones",
+  "en": "They've uh given up on human code review, um, but each individual developer, they take an epic and then they some of them use BMAD, some of them use SpecKit, some of them vibe.",
+  "zh": "他们嗯放弃了人工代码审查，嗯，但是每个个人开发者，他们拿一个史诗然后他们他们中的一些人使用 BMAD，一些人使用 SpecKit，一些人 vibe。"
+ },
+ {
+  "seg": 477,
+  "start": 2592.16,
+  "end": 2605.76,
+  "speaker": "Daniel Jones",
+  "en": "Before they self-merge their PR, uh they run about seven or eight uh code reviews, different tools looking at different things, and their confidence is uh they've been doing that, that they're now confident enough that they don't need uh humans to look at it.",
+  "zh": "在他们自己合并 PR 之前，嗯他们运行大约七个或八个嗯代码审查，不同的工具看不同的东西，他们的信心是嗯他们一直在做那个，他们现在足够自信不需要嗯人类看它。"
+ },
+ {
+  "seg": 478,
+  "start": 2605.92,
+  "end": 2609.12,
+  "speaker": "Daniel Jones",
+  "en": "And I think there's something interesting, I don't know how true this is.",
+  "zh": "我认为有一些有趣的事情，我不知道这有多真实。"
+ },
+ {
+  "seg": 479,
+  "start": 2609.2,
+  "end": 2613.2,
+  "speaker": "Daniel Jones",
+  "en": "Um I mean, data is definitely like when you screw up data, your data is gone.",
+  "zh": "嗯我的意思是，数据肯定是就像当你搞砸数据时，你的数据就没了。"
+ },
+ {
+  "seg": 480,
+  "start": 2613.36,
+  "end": 2619.12,
+  "speaker": "Daniel Jones",
+  "en": "Do we need to move to event sourcing and having a you know a replayable history of all data transformations?",
+  "zh": "我们需要转移到事件溯源并拥有一个你知道所有数据转换的可重放历史吗？"
+ },
+ {
+  "seg": 481,
+  "start": 2619.2,
+  "end": 2620,
+  "speaker": "Daniel Jones",
+  "en": "That's one thing.",
+  "zh": "那是一件事。"
+ },
+ {
+  "seg": 482,
+  "start": 2620.24,
+  "end": 2628.32,
+  "speaker": "Daniel Jones",
+  "en": "But like generally, as a trend, we've always seen that trying to prevent bad things happen by putting a check in place is the wrong answer.",
+  "zh": "但通常来说，作为一种趋势，我们总是看到试图通过设置"
+ },
+ {
+  "seg": 483,
+  "start": 2628.48,
+  "end": 2635.44,
+  "speaker": "Daniel Jones",
+  "en": "Like with data and databases, we went from like having transactions to prevent inconsistencies happening.",
+  "zh": "就像数据和数据库一样，我们从拥有事务来防止不一致性发生开始。"
+ },
+ {
+  "seg": 484,
+  "start": 2635.6,
+  "end": 2637.04,
+  "speaker": "Daniel Jones",
+  "en": "That was slow, it doesn't scale.",
+  "zh": "那很慢，它无法扩展。"
+ },
+ {
+  "seg": 485,
+  "start": 2637.12,
+  "end": 2637.92,
+  "speaker": "Daniel Jones",
+  "en": "So, what was the answer?",
+  "zh": "那么，答案是什么？"
+ },
+ {
+  "seg": 486,
+  "start": 2638.08,
+  "end": 2639.68,
+  "speaker": "Daniel Jones",
+  "en": "Eventual consistency, and we'll reconcile.",
+  "zh": "最终一致性，并且我们会去协调。"
+ },
+ {
+  "seg": 487,
+  "start": 2640.24,
+  "end": 2640.96,
+  "speaker": "Daniel Jones",
+  "en": "After the fact.",
+  "zh": "事后。"
+ },
+ {
+  "seg": 488,
+  "start": 2641.12,
+  "end": 2648.56,
+  "speaker": "Daniel Jones",
+  "en": "With the cloud native transformation, we found out that you know you can't have a thousand microservices and then integration test them all.",
+  "zh": "随着云原生转型，我们发现你知道你不能拥有一千个微服务然后对它们全部进行集成测试。"
+ },
+ {
+  "seg": 489,
+  "start": 2648.72,
+  "end": 2651.12,
+  "speaker": "Daniel Jones",
+  "en": "You just have to deploy them and find out what happens.",
+  "zh": "你只需要部署它们并看看会发生什么。"
+ },
+ {
+  "seg": 490,
+  "start": 2651.28,
+  "end": 2655.28,
+  "speaker": "Daniel Jones",
+  "en": "So you need great observability and you need to be able to fix forward very quickly.",
+  "zh": "所以你需要极佳的可观测性，并且你需要能够非常快速地向前修复。"
+ },
+ {
+  "seg": 491,
+  "start": 2655.44,
+  "end": 2659.04,
+  "speaker": "Daniel Jones",
+  "en": "So again, you let the bad thing happen, but you react to it more quickly.",
+  "zh": "所以同样，你让坏事情发生，但你对此反应得更快。"
+ },
+ {
+  "seg": 492,
+  "start": 2659.36,
+  "end": 2670.72,
+  "speaker": "Daniel Jones",
+  "en": "I imagine that where we might end up with uh agentic coding is something like outcome-driven development where you've got observability of the business impact you wanted a feature to have.",
+  "zh": "我想我们最终在 uh 智能体编码方面可能会达到的境地是类似结果驱动开发，在其中你拥有你希望某个功能具备的业务影响力的可观测性。"
+ },
+ {
+  "seg": 493,
+  "start": 2670.88,
+  "end": 2674.8,
+  "speaker": "Daniel Jones",
+  "en": "Like, is the application doing the things the application is supposed to do?",
+  "zh": "比如，应用程序是否在执行应用程序应该做的事情？"
+ },
+ {
+  "seg": 494,
+  "start": 2674.96,
+  "end": 2677.52,
+  "speaker": "Daniel Jones",
+  "en": "Are users able to do what they should be able to do?",
+  "zh": "用户是否能够做他们应该能够做的事情？"
+ },
+ {
+  "seg": 495,
+  "start": 2677.76,
+  "end": 2691.44,
+  "speaker": "Daniel Jones",
+  "en": "And then we have software factories chucking features out, and then you look for regressions in like, okay, the number of checkouts uh on the shopping cart has has um uh has dropped and reacting and fixing forward at that point.",
+  "zh": "然后我们有软件工厂把功能扔出来，然后你寻找回归，比如，好的，购物车上的结账次数 uh 已经 um uh 下降了，并在那一点做出反应并向前修复。"
+ },
+ {
+  "seg": 496,
+  "start": 2691.84,
+  "end": 2694.64,
+  "speaker": "Daniel Jones",
+  "en": "Is that something you feel users are gonna accept?",
+  "zh": "那是你觉得用户将会接受的事情吗？"
+ },
+ {
+  "seg": 497,
+  "start": 2695.04,
+  "end": 2706.8,
+  "speaker": "Daniel Jones",
+  "en": "It would be interesting to see in that like do we all end up getting used to um like buttons moving locations and software being less kind of uh who was it that um coined the term?",
+  "zh": "看看我们会否最终习惯 um 比如按钮移动位置和软件变得没那么 uh 是谁 um 创造了这个术语，这将会很有趣。"
+ },
+ {
+  "seg": 498,
+  "start": 2706.88,
+  "end": 2711.68,
+  "speaker": "Daniel Jones",
+  "en": "Um I think it might have been Steve Yeeg, uh might be misattributing that.",
+  "zh": "Um 我想可能是 Steve Yeeg，uh 可能是张冠李戴了。"
+ },
+ {
+  "seg": 499,
+  "start": 2711.76,
+  "end": 2723.44,
+  "speaker": "Daniel Jones",
+  "en": "Um, but of non-deterministic idempotence of this idea of you have the same spec, same product requirements, you run it through an agent twice, and you get two slightly different things, but you enable the same user behavior.",
+  "zh": "Um，但是关于非确定性幂等性的这个想法，即你有相同的规格，相同的产品需求，你让它通过一个智能体运行两次，你得到两个略有不同的东西，但你启用了相同的用户行为。"
+ },
+ {
+  "seg": 500,
+  "start": 2723.6,
+  "end": 2732.56,
+  "speaker": "Daniel Jones",
+  "en": "Just as we've got used to waking up and finding out that you know the Apple have decided to change like how the photo album works, and our elderly parents are now very annoyed.",
+  "zh": "就像我们已经习惯了醒来发现你知道 Apple 决定改变像相册如何工作的方式,而且我们的年迈父母现在很恼火。"
+ },
+ {
+  "seg": 501,
+  "start": 2732.72,
+  "end": 2742.8,
+  "speaker": "Daniel Jones",
+  "en": "Um, do we end up with something like that on a more daily basis, like this rapid churn of um features changing and being slightly different, but like I can still achieve the outcome?",
+  "zh": "嗯,我们最终会不会在日常基础上遇到类似的事情,像这种快速的更迭嗯功能改变和略有不同,但像我仍然能实现结果?"
+ },
+ {
+  "seg": 502,
+  "start": 2743.12,
+  "end": 2743.68,
+  "speaker": "Patrick Dubois",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 503,
+  "start": 2744,
+  "end": 2751.04,
+  "speaker": "Patrick Dubois",
+  "en": "Yeah, there was a testing Facebook, for example, like it has so many rules, so many features.",
+  "zh": "是的,有一个 testing Facebook,例如,它有这么多规则,这么多功能。"
+ },
+ {
+  "seg": 504,
+  "start": 2751.44,
+  "end": 2753.68,
+  "speaker": "Patrick Dubois",
+  "en": "Writing that kind of in a consistent test.",
+  "zh": "把那种写成一致的测试。"
+ },
+ {
+  "seg": 505,
+  "start": 2753.84,
+  "end": 2762.4,
+  "speaker": "Patrick Dubois",
+  "en": "And the way that they did it was they they added agents on that were using Facebook and they had their own rules.",
+  "zh": "他们这样做的方式是他们他们添加了使用 Facebook 的智能体,而且它们有自己的规则。"
+ },
+ {
+  "seg": 506,
+  "start": 2762.56,
+  "end": 2766.96,
+  "speaker": "Patrick Dubois",
+  "en": "Like, for example, like that agent should never get a friend, like whatever.",
+  "zh": "比如,例如,像那个智能体永远不应该加朋友,像随便什么。"
+ },
+ {
+  "seg": 507,
+  "start": 2767.2,
+  "end": 2770.16,
+  "speaker": "Patrick Dubois",
+  "en": "Like it should not be listed visible in anything.",
+  "zh": "像它不应该在任何东西中被列为可见。"
+ },
+ {
+  "seg": 508,
+  "start": 2770.32,
+  "end": 2780.16,
+  "speaker": "Patrick Dubois",
+  "en": "So they had these kind of like flags out and by like all these kind of things, but they couldn't only make it work when they hooked them in on the production system.",
+  "zh": "所以他们有这些像标志和像所有这些东西,但他们不能仅在把它们挂接进生产系统时才让它工作。"
+ },
+ {
+  "seg": 509,
+  "start": 2780.4,
+  "end": 2787.76,
+  "speaker": "Patrick Dubois",
+  "en": "And that was a novel way of thinking of instead of the rigid test flow, almost like you track whatever behavior is going.",
+  "zh": "那是一种新颖的思维方式,代替了僵化的测试流程,几乎就像你追踪任何正在发生的行为。"
+ },
+ {
+  "seg": 510,
+  "start": 2787.84,
+  "end": 2795.2,
+  "speaker": "Patrick Dubois",
+  "en": "If there's bad behavior, no, it's not like it's a different way of looking at observability instead of your logs, but kind of that was uh an interesting way.",
+  "zh": "如果有不良行为,不,这不像是一种不同的看待可观测性的方式而不是你的日志,但那某种程度上是一种 uh 有趣的方式。"
+ },
+ {
+  "seg": 511,
+  "start": 2795.36,
+  "end": 2808.56,
+  "speaker": "Patrick Dubois",
+  "en": "Like a digital twin is also something I I think will have a more future is kind of predicting things, what is gonna happen, and then the risk comes back like, okay, I I have a model, I can run it through, I can see what's happening, and kind of those things.",
+  "zh": "像数字孪生也是某种我认为会有更多未来的东西,是预测事物,将要发生什么,然后风险回来了,像,好的,我有一个模型,我可以运行它,我可以看到正在发生什么,还有像那些事情。"
+ },
+ {
+  "seg": 512,
+  "start": 2808.64,
+  "end": 2809.28,
+  "speaker": "Patrick Dubois",
+  "en": "Uh, but yeah.",
+  "zh": "嗯,但是是的。"
+ },
+ {
+  "seg": 513,
+  "start": 2809.68,
+  "end": 2812.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "It's funny, I I thought about Facebook too, but from a different perspective.",
+  "zh": "有趣的是,我也想到了 Facebook,但是从一个不同的角度。"
+ },
+ {
+  "seg": 514,
+  "start": 2812.56,
+  "end": 2815.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "They have a huge infra setup for A-B testing at scale.",
+  "zh": "他们有一个庞大的基础设施设置用于大规模 A-B 测试。"
+ },
+ {
+  "seg": 515,
+  "start": 2815.52,
+  "end": 2822.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "So any developer can do whatever they want, and it'll go and get tested, A B A B testing uh facilitated again on scale.",
+  "zh": "所以任何开发者都可以做他们想做的任何事,它都会去接受测试,A B A B 测试嗯再次在大规模上促进。"
+ },
+ {
+  "seg": 516,
+  "start": 2823.04,
+  "end": 2824.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "And that I think that's kind of what you were going for.",
+  "zh": "那我想那有点像你想要达到的目标。"
+ },
+ {
+  "seg": 517,
+  "start": 2824.96,
+  "end": 2826.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "How can you do it on scale and just see what wins?",
+  "zh": "你如何在大规模上做到这一点并只看什么获胜?"
+ },
+ {
+  "seg": 518,
+  "start": 2827.44,
+  "end": 2830.08,
+  "speaker": "Tamuz Dubnov",
+  "en": "Um which sounds great on paper.",
+  "zh": "嗯这在纸面上听起来很棒。"
+ },
+ {
+  "seg": 519,
+  "start": 2830.16,
+  "end": 2833.6,
+  "speaker": "Tamuz Dubnov",
+  "en": "A lot of the organizations we talked to don't have the setup for it.",
+  "zh": "我们交谈过的很多组织没有为此设置的设置。"
+ },
+ {
+  "seg": 520,
+  "start": 2833.92,
+  "end": 2842.72,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and then where we get some organizations that come to us and figure like a few hundreds of organizations that are I think the one I talked to last week was like just shy of a thousand people.",
+  "zh": "嗯然后我们得到一些来找我们的组织,像数百家组织,我认为我上周交谈过的那一家接近一千人。"
+ },
+ {
+  "seg": 521,
+  "start": 2843.44,
+  "end": 2852.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "And they said that their product is just downward spiral because everybody's like a gen tech development is moving so fast, there's so much PR fatigue.",
+  "zh": "他们说他们的产品只是在螺旋式下降,因为每个人都像 gen tech 开发发展太快了,有太多的 PR 疲劳。"
+ },
+ {
+  "seg": 522,
+  "start": 2852.56,
+  "end": 2857.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "The stakeholders, like the PMs and the designers and stuff doesn't go through them anymore because everything's moving so fast.",
+  "zh": "利益相关者,像 PM 和设计师之类的东西不再通过他们,因为一切发展太快。"
+ },
+ {
+  "seg": 523,
+  "start": 2858.56,
+  "end": 2864.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "And then like uh on the call was like the head of the front end infra, and he says, Yeah, I'm on calls.",
+  "zh": "然后像嗯在电话里像是前端基础架构的负责人,他说,是的,我在电话里。"
+ },
+ {
+  "seg": 524,
+  "start": 2864.64,
+  "end": 2873.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "And I discover new features on the call that don't look anything like our other features, that don't even match our design system, that functionality-wise don't make sense to me.",
+  "zh": "我在电话里发现新功能看起来一点也不像我们的其他功能,甚至不匹配我们的设计系统,在功能方面对我来说没有意义。"
+ },
+ {
+  "seg": 525,
+  "start": 2874.08,
+  "end": 2878.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "And I find them out with the client live, and then I asked the developer after the call, like, what is this?",
+  "zh": "我在客户直播时发现它们,然后我在电话后问开发者,像,这是什么?"
+ },
+ {
+  "seg": 526,
+  "start": 2878.64,
+  "end": 2880.8,
+  "speaker": "Tamuz Dubnov",
+  "en": "He's like, Oh, this got merged two weeks ago.",
+  "zh": "他像,哦,这是两周前合并的。"
+ },
+ {
+  "seg": 527,
+  "start": 2881.12,
+  "end": 2883.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "And then I asked, did anybody look at it?",
+  "zh": "然后我问,有人看过它吗?"
+ },
+ {
+  "seg": 528,
+  "start": 2884,
+  "end": 2885.52,
+  "speaker": "Tamuz Dubnov",
+  "en": "Did it was there a product review?",
+  "zh": "有产品评审吗?"
+ },
+ {
+  "seg": 529,
+  "start": 2885.76,
+  "end": 2895.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "If there was like A B testing that at least it'd be guarded in some sense and not just immediately impacting all of the all of their users, and again, huge organizations, it's been around for over a decade.",
+  "zh": "如果有像 A B 测试,那至少在某种意义上它是受保护的,而不是立即影响所有的所有用户,而且再次,大型组织,它已经存在了十多年。"
+ },
+ {
+  "seg": 530,
+  "start": 2896.16,
+  "end": 2904.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh but they have adopted agentic uh coding really quickly without amazing guardrails.",
+  "zh": "嗯但他们非常快地采用了智能体编码,没有惊人的护栏。"
+ },
+ {
+  "seg": 531,
+  "start": 2904.64,
+  "end": 2905.52,
+  "speaker": "Tamuz Dubnov",
+  "en": "And now they're kind of spiraling back.",
+  "zh": "现在他们有点在螺旋回调。"
+ },
+ {
+  "seg": 532,
+  "start": 2905.6,
+  "end": 2906.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "They're like, wait, wait, we gotta control it.",
+  "zh": "他们像,等等,等等,我们必须控制它。"
+ },
+ {
+  "seg": 533,
+  "start": 2906.96,
+  "end": 2910.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "We have a huge brand, we have users that depend on us for years.",
+  "zh": "我们有一个巨大的品牌,我们有依赖我们多年的用户。"
+ },
+ {
+  "seg": 534,
+  "start": 2910.8,
+  "end": 2917.6,
+  "speaker": "Tamuz Dubnov",
+  "en": "I can't move the button and make it hidden because this is a core workflow they need to work through quickly as a part of their business needs.",
+  "zh": "我不能移动按钮并把它隐藏,因为这是他们需要作为其业务需求的一部分快速完成的核心工作流程。"
+ },
+ {
+  "seg": 535,
+  "start": 2917.92,
+  "end": 2927.84,
+  "speaker": "Simon Maple",
+  "en": "But it's almost like uh it's the you know, it is the UI really going to be the way we you know interact with software these days?",
+  "zh": "但这几乎像嗯这是你知道,UI 真的会是我们你知道这些天与软件交互的方式吗?"
+ },
+ {
+  "seg": 536,
+  "start": 2928.16,
+  "end": 2930.16,
+  "speaker": "Simon Maple",
+  "en": "An agent will be absolutely fine with it.",
+  "zh": "智能体对此会完全没问题。"
+ },
+ {
+  "seg": 537,
+  "start": 2930.32,
+  "end": 2933.76,
+  "speaker": "Simon Maple",
+  "en": "Uh it's us, it's again, pesky humans, which is the problem.",
+  "zh": "嗯是我们,又是,讨厌的人类,这才是问题。"
+ },
+ {
+  "seg": 538,
+  "start": 2933.92,
+  "end": 2938.32,
+  "speaker": "Simon Maple",
+  "en": "And how much of this will actually change, and you actually think, no, I don't I don't need a UI on screen.",
+  "zh": "这将有多少会真正改变,而且你实际上认为,不,我不不需要屏幕上的 UI。"
+ },
+ {
+  "seg": 539,
+  "start": 2938.48,
+  "end": 2944.48,
+  "speaker": "Simon Maple",
+  "en": "I need to ask certain things, or I just need my agent to go ahead and interact in in a specific way.",
+  "zh": "我需要问某些事情,或者我只是需要我的智能体继续以特定方式进行交互。"
+ },
+ {
+  "seg": 540,
+  "start": 2944.64,
+  "end": 2945.6,
+  "speaker": "Simon Maple",
+  "en": "Um so I don't know.",
+  "zh": "嗯所以我不知道。"
+ },
+ {
+  "seg": 541,
+  "start": 2945.68,
+  "end": 2953.92,
+  "speaker": "Simon Maple",
+  "en": "It's it it if I I wonder if in years buttons and things like that will just be replaced with completely different ways of us interacting with apps through.",
+  "zh": "它它它如果我想知道在几年后按钮和像那样的东西会不会只是被我们与应用程序交互的完全不同的方式所取代。"
+ },
+ {
+  "seg": 542,
+  "start": 2954.4,
+  "end": 2958.96,
+  "speaker": "Patrick Dubois",
+  "en": "Yeah, but we'll still be a visual-oriented creature as well, right?",
+  "zh": "是的,但我们仍然会是一种视觉导向的生物,对吧?"
+ },
+ {
+  "seg": 543,
+  "start": 2959.04,
+  "end": 2978.8,
+  "speaker": "Patrick Dubois",
+  "en": "You we can't just say we're just typing in the words, like you know that uh there was a talk here as well from TL Draw, kind of interesting that like you know, having a your agent giving it a whiteboard, because sometimes you can express things easily in the whiteboard and like typing and and that kind of fluidity is also, I think, in the in the UX.",
+  "zh": "你我们不能只是说我们在输入文字,像你知道嗯这里也有一个来自 TL Draw 的演讲,有点意思,像你知道,给你的智能体一个白板,因为有时你可以在白板上轻松表达事物,像打字和那种流畅性我认为也在 UX 中。"
+ },
+ {
+  "seg": 544,
+  "start": 2978.88,
+  "end": 2980.56,
+  "speaker": "Patrick Dubois",
+  "en": "Like sometimes it is gonna be.",
+  "zh": "像有时它将会是。"
+ },
+ {
+  "seg": 545,
+  "start": 2980.72,
+  "end": 2982.88,
+  "speaker": "Patrick Dubois",
+  "en": "I I just want to ask a question, you reply back to me.",
+  "zh": "我只是想问一个问题,你回复我。"
+ },
+ {
+  "seg": 546,
+  "start": 2983.04,
+  "end": 2985.28,
+  "speaker": "Patrick Dubois",
+  "en": "Sometimes just show me, like explain it to me.",
+  "zh": "有时只是展示给我,像解释给我听。"
+ },
+ {
+  "seg": 547,
+  "start": 2985.52,
+  "end": 2988.4,
+  "speaker": "Patrick Dubois",
+  "en": "But it might be interactive and kind of going through that.",
+  "zh": "但它可能是交互式的,并且有点像经历那个过程。"
+ },
+ {
+  "seg": 548,
+  "start": 2988.56,
+  "end": 3001.04,
+  "speaker": "Patrick Dubois",
+  "en": "I think that's also the pendulum, which was funny, like IDE, CLI, and now we're back at orchestrator review tools because we need something, like we need to see what's happening, and we can't just like do that.",
+  "zh": "我认为这也是钟摆,这很有趣,像 IDE, CLI,现在我们又回到了编排器审查工具,因为我们需要某些东西,像我们需要看到正在发生什么,我们不能只是像那样做。"
+ },
+ {
+  "seg": 549,
+  "start": 3001.28,
+  "end": 3007.92,
+  "speaker": "Patrick Dubois",
+  "en": "But the agent might crack along in their own communication and find the best way of kind of dealing internally.",
+  "zh": "但智能体可能会在自己的交流中快速推进,并找到一种内部处理的最佳方式。"
+ },
+ {
+  "seg": 550,
+  "start": 3008.24,
+  "end": 3015.12,
+  "speaker": "Patrick Dubois",
+  "en": "But as long as we need to make a call uh shots on kind of those uh kind of risks, we need to be informed.",
+  "zh": "但只要我们需要对那些风险做出决策并采取行动，我们就需要了解情况。"
+ },
+ {
+  "seg": 551,
+  "start": 3015.2,
+  "end": 3018.16,
+  "speaker": "Patrick Dubois",
+  "en": "And somebody explains it to me like what are we doing here?",
+  "zh": "而且得有人向我解释，我们在这里到底在做什么？"
+ },
+ {
+  "seg": 552,
+  "start": 3018.32,
+  "end": 3020.96,
+  "speaker": "Patrick Dubois",
+  "en": "Uh and that's a challenge if we don't do it ourselves anymore.",
+  "zh": "如果我们不再自己做，那就是一个挑战。"
+ },
+ {
+  "seg": 553,
+  "start": 3021.04,
+  "end": 3035.52,
+  "speaker": "Simon Maple",
+  "en": "So we've talked a lot about good patterns, about ways in which people should should change the way they develop software, um, and to essentially directing people in groups as to how they should change.",
+  "zh": "所以我们谈论了很多关于好的模式，关于人们应该改变他们软件开发方式的方法，基本上是在指导群体中的人们如何改变。"
+ },
+ {
+  "seg": 554,
+  "start": 3036.08,
+  "end": 3047.52,
+  "speaker": "Simon Maple",
+  "en": "But what is it that organizations, uh, enterprises are doing today as a part of their migration, part of their adoption, that is actually just a mistake.",
+  "zh": "但是组织、企业今天作为他们迁移的一部分、采用的一部分，正在做什么实际上是一个错误的事情呢？"
+ },
+ {
+  "seg": 555,
+  "start": 3047.6,
+  "end": 3052.64,
+  "speaker": "Simon Maple",
+  "en": "It's wrong, it's a it's a it's been proven that you know oh dragons live here.",
+  "zh": "那是错的，这是一个已经被证明的事情，你知道，这里有恶龙。"
+ },
+ {
+  "seg": 556,
+  "start": 3053.2,
+  "end": 3055.76,
+  "speaker": "Simon Maple",
+  "en": "What should they what should they not do that they're doing today?",
+  "zh": "他们今天正在做的，什么事是他们不应该做的？"
+ },
+ {
+  "seg": 557,
+  "start": 3057.92,
+  "end": 3070,
+  "speaker": "Patrick Dubois",
+  "en": "I think I'd I'd give them the advice is that there's the still the tendency of like if we're doing a content constant conversation with our agents, we're in control.",
+  "zh": "我认为我会给他们的建议是，仍然有这种倾向，就像如果我们正在与我们的智能体进行内容持续的对话，我们就在掌控之中。"
+ },
+ {
+  "seg": 558,
+  "start": 3070.72,
+  "end": 3076.24,
+  "speaker": "Patrick Dubois",
+  "en": "I think there needs to be um for them to get into the next mile, they have to let go.",
+  "zh": "我认为为了进入下一英里，他们需要放手。"
+ },
+ {
+  "seg": 559,
+  "start": 3076.64,
+  "end": 3081.12,
+  "speaker": "Patrick Dubois",
+  "en": "But they it's it's almost like you have to mentor the other one instead of doing the work.",
+  "zh": "但这几乎就像你必须去指导另一方，而不是自己去做工作。"
+ },
+ {
+  "seg": 560,
+  "start": 3081.2,
+  "end": 3085.2,
+  "speaker": "Patrick Dubois",
+  "en": "And that's kind of the mental challenge that I think a lot right have right now.",
+  "zh": "这也就是我认为很多人现在都有这种心理挑战。"
+ },
+ {
+  "seg": 561,
+  "start": 3085.28,
+  "end": 3087.68,
+  "speaker": "Patrick Dubois",
+  "en": "Like um stop doing the work yourself.",
+  "zh": "比如，嗯，停止你自己做工作。"
+ },
+ {
+  "seg": 562,
+  "start": 3087.92,
+  "end": 3091.52,
+  "speaker": "Patrick Dubois",
+  "en": "And it's it's really weird if that's what you've been doing for so many years.",
+  "zh": "如果你多年来一直这样做，那真的感觉很奇怪。"
+ },
+ {
+  "seg": 563,
+  "start": 3092.08,
+  "end": 3099.76,
+  "speaker": "Simon Maple",
+  "en": "And what a lot of developers actually hold uh important identity cells because it's what make it's what they feel sometimes actually makes them the expert, right?",
+  "zh": "很多开发者实际上持有重要的身份单元，因为这让他们感觉，有时实际上这让他们成为专家，对吧？"
+ },
+ {
+  "seg": 564,
+  "start": 3099.92,
+  "end": 3100.72,
+  "speaker": "Simon Maple",
+  "en": "Yeah, correct.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 565,
+  "start": 3101.2,
+  "end": 3101.76,
+  "speaker": "Tamuz Dubnov",
+  "en": "It's interesting.",
+  "zh": "这很有趣。"
+ },
+ {
+  "seg": 566,
+  "start": 3101.84,
+  "end": 3103.6,
+  "speaker": "Tamuz Dubnov",
+  "en": "So I have a few different answers to this.",
+  "zh": "所以我对此有几个不同的答案。"
+ },
+ {
+  "seg": 567,
+  "start": 3104.56,
+  "end": 3108.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh the first one is you want you want to control your AI spend.",
+  "zh": "第一个是你想要控制你的 AI 支出。"
+ },
+ {
+  "seg": 568,
+  "start": 3108.4,
+  "end": 3113.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "People are are releasing crazy budgets and everybody's trying to token max every single developer.",
+  "zh": "人们正在发布疯狂的预算，每个人都试图让每一个开发者都达到 token 极限。"
+ },
+ {
+  "seg": 569,
+  "start": 3113.52,
+  "end": 3127.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and if you I think the right way is give the developers the task that interests them, you will see they're way more engaged with the agent in the session where they're building it, versus give them the task that the developer's not interested, and then they will offsource all that mentor load to the agent.",
+  "zh": "我认为正确的方式是给开发者他们感兴趣的任务，你会看到他们在构建它的环节中与智能体更加投入，相比之下，给开发者他们不感兴趣的任务，他们就会把所有指导工作外包给智能体。"
+ },
+ {
+  "seg": 570,
+  "start": 3127.6,
+  "end": 3132.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh one, you get poor quality PRs, but two, you get way bigger token spent.",
+  "zh": "第一，你会得到质量差的 PR，但第二，你会花费多得多的 token。"
+ },
+ {
+  "seg": 571,
+  "start": 3132.72,
+  "end": 3141.6,
+  "speaker": "Tamuz Dubnov",
+  "en": "Like imagine that something's out, the the disinterested developer will just say agent test it instead of testing themselves and seeing exactly what's wrong and saying, oh, this is the issue, let's fix it.",
+  "zh": "想象一下，如果出了点问题，那个不感兴趣的开发者只会说智能体测试它，而不是自己测试并确切地看到哪里出了问题然后说，哦，这是问题所在，让我们修复它。"
+ },
+ {
+  "seg": 572,
+  "start": 3141.76,
+  "end": 3149.28,
+  "speaker": "Tamuz Dubnov",
+  "en": "They will let the agent do seven sessions of QA and the token count for the session goes crazy because the developer is not interested.",
+  "zh": "他们会让智能体做七次 QA 会话，该会话的 token 数量会变得疯狂，因为开发者不感兴趣。"
+ },
+ {
+  "seg": 573,
+  "start": 3149.84,
+  "end": 3151.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "And then, so that's one part.",
+  "zh": "然后，这是其中一部分。"
+ },
+ {
+  "seg": 574,
+  "start": 3151.6,
+  "end": 3158.16,
+  "speaker": "Tamuz Dubnov",
+  "en": "Like, yes, people can move faster, giving them tasks they don't care about is a great way to spend your AI budget really quickly.",
+  "zh": "是的，人们可以移动得更快，给他们他们不关心的任务是快速消耗你的 AI 预算的好方法。 [[575] 这是其一。"
+ },
+ {
+  "seg": 575,
+  "start": 3158.48,
+  "end": 3158.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "That's one.",
+  "zh": "那是第一点。"
+ },
+ {
+  "seg": 576,
+  "start": 3159.04,
+  "end": 3164.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "The other one that we've seen a lot of organizations do is they want to jump in headfirst to AI native.",
+  "zh": "我们看到很多组织做的另一件事是他们想一头扎进 AI 原生。"
+ },
+ {
+  "seg": 577,
+  "start": 3164.56,
+  "end": 3167.92,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh and they do that by giving cloud code to everybody.",
+  "zh": "他们通过给每个人 Cloud Code 来做到这一点。"
+ },
+ {
+  "seg": 578,
+  "start": 3168.4,
+  "end": 3171.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "And the cloud code has code in the name.",
+  "zh": "而这个 Cloud Code 的名字里带有 Code。"
+ },
+ {
+  "seg": 579,
+  "start": 3171.28,
+  "end": 3172.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "It is great for developers.",
+  "zh": "这对开发者来说很棒。"
+ },
+ {
+  "seg": 580,
+  "start": 3172.48,
+  "end": 3173.2,
+  "speaker": "Tamuz Dubnov",
+  "en": "I love it.",
+  "zh": "我喜欢它。"
+ },
+ {
+  "seg": 581,
+  "start": 3173.52,
+  "end": 3178.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "It is most definitely not good uh for non-developers, and if you give them that, you will get PRs.",
+  "zh": "这对非开发者肯定是不好的，如果你给他们这个，你会得到 PR。"
+ },
+ {
+  "seg": 582,
+  "start": 3179.6,
+  "end": 3189.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "One, they don't know what they're doing, they don't know how to set up an environment, and they're gonna drive your dev team crazy asking questions, even if they feel comfortable enough asking questions, or they're just not doing any meaningful work.",
+  "zh": "第一，他们不知道自己在做什么，他们不知道如何设置环境，他们会通过提问让你的开发团队发疯，即使他们觉得足够舒服去提问，或者他们只是不做任何有意义的工作。"
+ },
+ {
+  "seg": 583,
+  "start": 3189.68,
+  "end": 3193.68,
+  "speaker": "Tamuz Dubnov",
+  "en": "But if they do open PRs, we see like garbage in, garbage out.",
+  "zh": "但如果他们确实打开了 PR，我们看到的是垃圾进，垃圾出。"
+ },
+ {
+  "seg": 584,
+  "start": 3194,
+  "end": 3204.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh PRs that the VP we're on calls with like CTO and VP product, and the VP product shows off to us saying, Hey, I opened a PR yesterday, and then the CTO sitting next to him says, Yes, it was crap.",
+  "zh": "那些 PR，我们正在与副总裁、CTO 和产品副总裁通话，产品副总裁向我们炫耀说，嘿，我昨天开了一个 PR，然后坐在他旁边的 CTO 说，是的，那是垃圾。"
+ },
+ {
+  "seg": 585,
+  "start": 3205.36,
+  "end": 3208.8,
+  "speaker": "Tamuz Dubnov",
+  "en": "Um that also a great way to not go about it.",
+  "zh": "这也是一种不去做这件事的好方法。"
+ },
+ {
+  "seg": 586,
+  "start": 3209.28,
+  "end": 3214.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so when you do enable them, you want to get the tool that is really optimized for that user.",
+  "zh": "所以当你启用他们时，你想获得真正为该用户优化的工具。"
+ },
+ {
+  "seg": 587,
+  "start": 3215.28,
+  "end": 3223.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "Again, we optimize for PMs and non-developers, but giving the people the tool that's not meant for them is not the answer.",
+  "zh": "同样，我们为 PM 和非开发者优化，但给人们不是为他们的工具不是答案。"
+ },
+ {
+  "seg": 588,
+  "start": 3223.52,
+  "end": 3228.64,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh again, it you use your your AI budget really quickly, and you get frustrated people all around.",
+  "zh": "同样，你会非常快地用完你的 AI 预算，并且周围的人都会感到沮丧。"
+ },
+ {
+  "seg": 589,
+  "start": 3228.72,
+  "end": 3242.8,
+  "speaker": "Tamuz Dubnov",
+  "en": "The PR fatigue is there on the developer side, and PMs that open really poor PRs are increasing the PR fatigue, they're getting more frustrated themselves, and you get Uber scenarios where everybody's just disappointed.",
+  "zh": "开发者方面存在 PR 疲劳，而打开非常差的 PR 的 PM 正在增加 PR 疲劳，他们自己变得更沮丧，你会得到 Uber 场景，每个人都只是失望。"
+ },
+ {
+  "seg": 590,
+  "start": 3244.32,
+  "end": 3263.12,
+  "speaker": "Daniel Jones",
+  "en": "I think uh in terms of what people should not do or stop doing, like the whole uh piecemeal approach to last year, 2025, was very much the year of CTOs going, well, I let people use their own tools and whatever they're comfortable with, like that is going to end up being inconsistent and you're not gonna get the organizational learning uh that you need.",
+  "zh": "我认为关于人们不应该做什么或停止做什么，就像去年、2025年的整个零碎方法一样，非常像是 CTO 们的一年，他们会说，好吧，我让人们使用他们自己的工具和他们用起来舒服的任何东西，但这最终会导致不一致，你也无法获得你所需要的组织学习。"
+ },
+ {
+  "seg": 591,
+  "start": 3263.2,
+  "end": 3267.44,
+  "speaker": "Daniel Jones",
+  "en": "So affirm mandates that like the AI bus is leaving, please get on board.",
+  "zh": "所以肯定强制要求，就像 AI 大巴要开走了，请上车。"
+ },
+ {
+  "seg": 592,
+  "start": 3267.6,
+  "end": 3276.96,
+  "speaker": "Daniel Jones",
+  "en": "Um, that's been shown in research by multitudes, I think, to uh be uh a strong uh indicator of uh success of a genetic coding adoption.",
+  "zh": "我认为多项研究已经表明，这是基因编码采用成功的强有力的指标。"
+ },
+ {
+  "seg": 593,
+  "start": 3277.36,
+  "end": 3286.16,
+  "speaker": "Daniel Jones",
+  "en": "Um the the counterpoint to the um token maxing is also don't go to the other extreme and set a really low limit.",
+  "zh": "针对 token 最大化的反方观点也是不要走向另一个极端并设置一个非常低的限制。"
+ },
+ {
+  "seg": 594,
+  "start": 3286.32,
+  "end": 3294.72,
+  "speaker": "Daniel Jones",
+  "en": "Um, you know, I've I've seen places where there's a hundred euros a month uh tokens uh limit, and like 100 euros you can't really do very much.",
+  "zh": "你知道，我见过一些地方有一个每月 100 欧元的 token 限制，而 100 欧元你真的做不了太多事。"
+ },
+ {
+  "seg": 595,
+  "start": 3294.8,
+  "end": 3302.08,
+  "speaker": "Daniel Jones",
+  "en": "So it ends up adding cognitive load of people like, oh, should I should I use Cursor for this or should I is this the most important thing I'm gonna do this month?",
+  "zh": "这最终增加了人们的认知负荷，比如，哦，我应该为此使用 Cursor 吗，或者这是我这个月要做的最重要的事情吗？"
+ },
+ {
+  "seg": 596,
+  "start": 3302.24,
+  "end": 3307.84,
+  "speaker": "Daniel Jones",
+  "en": "Um so having something in between um would uh would also be sensible.",
+  "zh": "所以在这两者之间设定某种标准也是明智的。"
+ },
+ {
+  "seg": 597,
+  "start": 3308.08,
+  "end": 3316.8,
+  "speaker": "Daniel Jones",
+  "en": "And then maybe rethinking what a test is, but you know, to invoke Beyonce, if you liked it, then you should have put a test on it.",
+  "zh": "然后也许重新思考什么是测试，但你知道，引用 Beyonce 的话，如果你喜欢它，那么你应该给它加个测试。"
+ },
+ {
+  "seg": 598,
+  "start": 3317.04,
+  "end": 3323.52,
+  "speaker": "Daniel Jones",
+  "en": "Um if you care about a thing, then you need to have something in place to assert that.",
+  "zh": "如果你关心一个东西，那么你需要有一些东西来断言它。"
+ },
+ {
+  "seg": 599,
+  "start": 3323.68,
+  "end": 3339.28,
+  "speaker": "Daniel Jones",
+  "en": "Whether that's functional tests, whether it's a uh a sweep of an agent with a particular lens looking at a concern, whether it is connecting up via MCP or agent to observability so it can figure out the thing that it just uh built and got deployed is uh now breaking.",
+  "zh": "无论是功能测试，还是使用特定透镜扫描关注点的智能体的扫描，或者通过 MCP 或智能体连接到可观测性，以便它能弄清楚它刚刚构建并部署的东西现在正在崩溃。"
+ },
+ {
+  "seg": 600,
+  "start": 3339.44,
+  "end": 3343.84,
+  "speaker": "Daniel Jones",
+  "en": "Um, making sure that there are those feedback loops in place.",
+  "zh": "嗯，确保那些反馈循环已经到位。"
+ },
+ {
+  "seg": 601,
+  "start": 3344.32,
+  "end": 3353.68,
+  "speaker": "Daniel Jones",
+  "en": "If you just have an agent on its own and you expect it to get everything right first time without being able to even perceive the mistakes it might make, then you're gonna get bad results.",
+  "zh": "如果你只有一个智能体，并且你期望它第一次就把所有事情做对，而它甚至无法感知它可能犯的错误，那么你会得到糟糕的结果。"
+ },
+ {
+  "seg": 602,
+  "start": 3353.92,
+  "end": 3367.44,
+  "speaker": "Daniel Jones",
+  "en": "So um making sure that you think about what you value in your code, um, that it's architecturally uh you know uh sound and um the code quality is high and the test coverage is good.",
+  "zh": "所以嗯，确保你思考你在代码中看重什么，嗯，它在架构上呃你知道呃健全，并且嗯代码质量很高，并且测试覆盖率很好。"
+ },
+ {
+  "seg": 603,
+  "start": 3367.6,
+  "end": 3373.84,
+  "speaker": "Daniel Jones",
+  "en": "You need to work out what you value and then make sure that there is something in place to prove that that is there.",
+  "zh": "你需要弄清楚你看重什么，然后确保有东西在位来证明那是存在的。"
+ },
+ {
+  "seg": 604,
+  "start": 3374,
+  "end": 3383.52,
+  "speaker": "Daniel Jones",
+  "en": "So it's not quite testing, but it's like thinking about the the non-functional aspects of your code as if they were tests, if that makes sense.",
+  "zh": "所以这并不完全是测试，但这就像是把你的代码的非功能性方面当作测试来思考，如果这说得通的话。"
+ },
+ {
+  "seg": 605,
+  "start": 3384,
+  "end": 3385.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "Okay, expand slightly.",
+  "zh": "好的，稍微展开一下。"
+ },
+ {
+  "seg": 606,
+  "start": 3385.44,
+  "end": 3386.32,
+  "speaker": "Tamuz Dubnov",
+  "en": "I love that point.",
+  "zh": "我喜欢这一点。"
+ },
+ {
+  "seg": 607,
+  "start": 3386.56,
+  "end": 3399.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh I think something that's really important is also the temporal mindset and the context hinting mindset, which means every test needs to stand the test of time, needs to be evergreen, but you also need to think of it as an opportunity for a context hint.",
+  "zh": "呃我认为还有一些非常重要的事情，也是时间心态和上下文提示心态，这意味着每个测试都需要经得起时间的考验，需要是常青的，但你也需要把它看作是一个上下文提示的机会。"
+ },
+ {
+  "seg": 608,
+  "start": 3399.36,
+  "end": 3410.48,
+  "speaker": "Tamuz Dubnov",
+  "en": "Meaning when the test something fails, the test has enough context in whatever the assertion is, uh the comment, the error response, whatever it may be, so that the agent that gets it will know how to act.",
+  "zh": "意味着当测试某事失败时，测试在断言中、呃注释中、错误响应中、无论它是什么里，都有足够的上下文，这样得到它的智能体就会知道如何行动。"
+ },
+ {
+  "seg": 609,
+  "start": 3410.72,
+  "end": 3413.44,
+  "speaker": "Tamuz Dubnov",
+  "en": "So lazy developers just say, cool, I covered it with tests.",
+  "zh": "所以懒惰的开发者只会说，酷，我用测试覆盖了它。"
+ },
+ {
+  "seg": 610,
+  "start": 3413.52,
+  "end": 3420.4,
+  "speaker": "Tamuz Dubnov",
+  "en": "No, like you need to cover it with tests, and you need the test to have the context hints that the future agent that will see them will know what to do with it.",
+  "zh": "不，就像你需要用测试覆盖它，你需要测试拥有上下文提示，以便未来会看到它们的智能体知道用它做什么。"
+ },
+ {
+  "seg": 611,
+  "start": 3420.56,
+  "end": 3424.56,
+  "speaker": "Tamuz Dubnov",
+  "en": "Like that's been really impactful in getting the agents to actually manage in sophisticated code bases.",
+  "zh": "就像这在让智能体实际在复杂的代码库中进行管理方面真的很有影响力。"
+ },
+ {
+  "seg": 612,
+  "start": 3424.8,
+  "end": 3430.8,
+  "speaker": "Daniel Jones",
+  "en": "Yeah, and it's exactly the same as we were uh all saying earlier of like that's always been good development practice.",
+  "zh": "是的，这和我们呃早些时候都在说的一模一样，就像那一直是好的开发实践。"
+ },
+ {
+  "seg": 613,
+  "start": 3430.88,
+  "end": 3436.56,
+  "speaker": "Daniel Jones",
+  "en": "Like it's nothing worse than as a developer, you run the tests and you just get like assert true failed, and you're like, great.",
+  "zh": "就像没有比作为一个开发者更糟糕的了，你运行测试，你只是得到像断言为真失败，然后你就像，太好了。"
+ },
+ {
+  "seg": 614,
+  "start": 3436.88,
+  "end": 3438.16,
+  "speaker": "Daniel Jones",
+  "en": "Or 1317.",
+  "zh": "或者 1317。"
+ },
+ {
+  "seg": 615,
+  "start": 3438.24,
+  "end": 3440.8,
+  "speaker": "Daniel Jones",
+  "en": "Yeah, well, what do I do with this now?",
+  "zh": "是的，好吧，我现在拿这个做什么？"
+ },
+ {
+  "seg": 616,
+  "start": 3440.96,
+  "end": 3442.56,
+  "speaker": "Simon Maple",
+  "en": "So yeah, it's uh important stuff.",
+  "zh": "所以是的，这是呃重要的东西。"
+ },
+ {
+  "seg": 617,
+  "start": 3442.8,
+  "end": 3449.52,
+  "speaker": "Simon Maple",
+  "en": "And thank you for quoting Beyoncé, because uh I've been trying to work out how I increase that in this podcast, but but finally someone has.",
+  "zh": "并且感谢你引用 Beyoncé，因为呃我一直试图弄清楚如何在这个播客中增加那个，但但终于有人做到了。"
+ },
+ {
+  "seg": 618,
+  "start": 3449.6,
+  "end": 3450.64,
+  "speaker": "Simon Maple",
+  "en": "So thank you very much.",
+  "zh": "所以非常感谢。"
+ },
+ {
+  "seg": 619,
+  "start": 3450.8,
+  "end": 3457.12,
+  "speaker": "Simon Maple",
+  "en": "Um, well, we've talked about a lot, and it's been super, super valuable to have you all kind of like discussing on these points.",
+  "zh": "嗯，好吧，我们已经谈了很多，你们各位都在这些点上进行讨论，这已经非常非常有价值了。"
+ },
+ {
+  "seg": 620,
+  "start": 3457.2,
+  "end": 3459.6,
+  "speaker": "Simon Maple",
+  "en": "So I appreciate appreciate all your input on that.",
+  "zh": "所以我非常感激你们在那方面的所有投入。"
+ },
+ {
+  "seg": 621,
+  "start": 3459.76,
+  "end": 3463.52,
+  "speaker": "Simon Maple",
+  "en": "Um, thank you very much for joining us at AI Native DevCon.",
+  "zh": "嗯，非常感谢你们在 AI Native DevCon 加入我们。"
+ },
+ {
+  "seg": 622,
+  "start": 3463.68,
+  "end": 3469.2,
+  "speaker": "Simon Maple",
+  "en": "Why don't you very briefly uh talk a little bit about some of the sessions that you're each giving?",
+  "zh": "你们为什么不非常简短地呃谈一点你们每个人正在进行的会议？"
+ },
+ {
+  "seg": 623,
+  "start": 3469.36,
+  "end": 3470.4,
+  "speaker": "Simon Maple",
+  "en": "Patrick, why don't you start?",
+  "zh": "Patrick，你为什么不先开始？"
+ },
+ {
+  "seg": 624,
+  "start": 3470.64,
+  "end": 3470.88,
+  "speaker": "Patrick Dubois",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 625,
+  "start": 3471.04,
+  "end": 3478.16,
+  "speaker": "Patrick Dubois",
+  "en": "Um I'm talking about the different layers from up to a dev to a team to uh a V a platform team and a VP.",
+  "zh": "嗯我正在谈论不同的层面，从一个开发者到一个团队到呃一个 V 一个平台团队和一个 VP。"
+ },
+ {
+  "seg": 626,
+  "start": 3478.32,
+  "end": 3482.08,
+  "speaker": "Patrick Dubois",
+  "en": "What's the mindset that you need to have to go into this new agentic world?",
+  "zh": "进入这个新的智能体世界你需要拥有什么心态？"
+ },
+ {
+  "seg": 627,
+  "start": 3482.24,
+  "end": 3488.4,
+  "speaker": "Patrick Dubois",
+  "en": "I'm not talking about generic transformation, like do a hackathon and so on, but what is really like how do you embrace the new thing?",
+  "zh": "我不是在谈论通用的转型，比如做一个黑客松等等，而是真正像你如何拥抱新事物的是什么？"
+ },
+ {
+  "seg": 628,
+  "start": 3488.56,
+  "end": 3489.36,
+  "speaker": "Patrick Dubois",
+  "en": "So that's my talk.",
+  "zh": "所以那就是我的演讲。"
+ },
+ {
+  "seg": 629,
+  "start": 3489.68,
+  "end": 3490.32,
+  "speaker": "Patrick Dubois",
+  "en": "Awesome.",
+  "zh": "很棒。"
+ },
+ {
+  "seg": 630,
+  "start": 3490.64,
+  "end": 3504.24,
+  "speaker": "Tamuz Dubnov",
+  "en": "Uh so my talk is uh about what it's like to become more of an AI native organization, where your PMs, your non-developers are actually opening PRs, and how really the metric you should be copying, actually should be tracking is the merge rate.",
+  "zh": "呃所以我的演讲是呃关于成为一个更像 AI 原生组织是什么样子的，你的 PM，你的非开发者实际上正在开启 PR，以及你真正应该复制的指标，实际上应该跟踪的是合并率。"
+ },
+ {
+  "seg": 631,
+  "start": 3504.4,
+  "end": 3507.36,
+  "speaker": "Tamuz Dubnov",
+  "en": "So the the PRs that they open, don't say how many PRs do you open.",
+  "zh": "所以他们开启的 PR，不要说你们开启了多少 PR。"
+ },
+ {
+  "seg": 632,
+  "start": 3507.6,
+  "end": 3508.88,
+  "speaker": "Tamuz Dubnov",
+  "en": "Look at what the merge rate is.",
+  "zh": "看看合并率是多少。"
+ },
+ {
+  "seg": 633,
+  "start": 3509.04,
+  "end": 3513.04,
+  "speaker": "Tamuz Dubnov",
+  "en": "That's how you will know are they opening quality stuff or are they just increasing PR for T.",
+  "zh": "这就是你会知道他们是在开启高质量的东西还是他们只是为了 T 增加 PR。"
+ },
+ {
+  "seg": 634,
+  "start": 3513.28,
+  "end": 3513.68,
+  "speaker": "Daniel Jones",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 635,
+  "start": 3514,
+  "end": 3523.2,
+  "speaker": "Daniel Jones",
+  "en": "Uh I was uh co-presenting with Tomas Mai uh from Adevo, and we were talking about the story of how we upskilled 120 of their developers in agentic coding.",
+  "zh": "呃我正在呃和来自 Adevo 的 Tomas Mai 呃共同演讲，我们正在谈论我们如何在智能体编码方面提升他们 120 名开发者的技能的故事。"
+ },
+ {
+  "seg": 636,
+  "start": 3523.28,
+  "end": 3528.56,
+  "speaker": "Daniel Jones",
+  "en": "And the most important thing about that talk is you get to see me in a day glow fluorescent uh tracksuit.",
+  "zh": "关于那次演讲最重要的事情是你能见到我穿着一套荧光呃运动服。"
+ },
+ {
+  "seg": 637,
+  "start": 3528.8,
+  "end": 3530.8,
+  "speaker": "Daniel Jones",
+  "en": "So you should people should definitely check that.",
+  "zh": "所以你应该人们一定要去看看那个。"
+ },
+ {
+  "seg": 638,
+  "start": 3531.28,
+  "end": 3535.68,
+  "speaker": "Simon Maple",
+  "en": "Beyonce end this, really is there a beyond is there a Beyoncé uh quote in that one?",
+  "zh": "Beyoncé 结束这个，真的有一个超越真的有一个 Beyoncé 呃引用在那个里面吗？"
+ },
+ {
+  "seg": 639,
+  "start": 3535.92,
+  "end": 3537.6,
+  "speaker": "Simon Maple",
+  "en": "I don't think there is Shakira, maybe?",
+  "zh": "我不认为那里有 Shakira，也许？"
+ },
+ {
+  "seg": 640,
+  "start": 3538.48,
+  "end": 3538.96,
+  "speaker": "Simon Maple",
+  "en": "Sadly not.",
+  "zh": "可悲的是没有。"
+ },
+ {
+  "seg": 641,
+  "start": 3539.2,
+  "end": 3539.76,
+  "speaker": "Simon Maple",
+  "en": "Alright, alright.",
+  "zh": "好的，好的。"
+ },
+ {
+  "seg": 642,
+  "start": 3539.92,
+  "end": 3548,
+  "speaker": "Simon Maple",
+  "en": "Um so uh why don't we uh if if well all of these talks are recorded, so you're very, very welcome to go and we'll we'll add some we'll add some links there in the show notes.",
+  "zh": "嗯所以呃我们何不呃如果如果好吧所有这些演讲都被录下来了，所以你们非常非常欢迎去，我们会在那里我们会添加一些链接在节目注释中。"
+ },
+ {
+  "seg": 643,
+  "start": 3548.16,
+  "end": 3555.12,
+  "speaker": "Simon Maple",
+  "en": "If I or my our listeners can only go and watch one talk, which one would you agree that they should No, no, let's not let's not do that.",
+  "zh": "如果我或者我们的听众只能去观看一个演讲，你会同意他们应该不，不，让我们不让我们不那样做。"
+ },
+ {
+  "seg": 644,
+  "start": 3555.2,
+  "end": 3556.96,
+  "speaker": "Simon Maple",
+  "en": "Uh all of them, all of them.",
+  "zh": "呃全部，全部。"
+ },
+ {
+  "seg": 645,
+  "start": 3557.12,
+  "end": 3558.48,
+  "speaker": "Simon Maple",
+  "en": "Um thank you very, very much.",
+  "zh": "嗯非常非常感谢。"
+ },
+ {
+  "seg": 646,
+  "start": 3558.64,
+  "end": 3561.04,
+  "speaker": "Simon Maple",
+  "en": "Really appreciate you being here and uh sharing the time with us.",
+  "zh": "真的感激你们在这里并呃和我们分享时间。"
+ },
+ {
+  "seg": 647,
+  "start": 3561.12,
+  "end": 3561.44,
+  "speaker": "Simon Maple",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 648,
+  "start": 3561.76,
+  "end": 3562.32,
+  "speaker": "Simon Maple",
+  "en": "Thanks for watching.",
+  "zh": "感谢观看。"
+ },
+ {
+  "seg": 649,
+  "start": 3562.4,
+  "end": 3562.56,
+  "speaker": "Simon Maple",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 650,
+  "start": 3562.8,
+  "end": 3563.68,
+  "speaker": "Simon Maple",
+  "en": "I hope you enjoyed that.",
+  "zh": "我希望你喜欢那个。"
+ },
+ {
+  "seg": 651,
+  "start": 3563.76,
+  "end": 3565.76,
+  "speaker": "Simon Maple",
+  "en": "That was really great from my point of view.",
+  "zh": "从我的角度来看，那真的很棒。"
+ },
+ {
+  "seg": 652,
+  "start": 3565.84,
+  "end": 3568.16,
+  "speaker": "Simon Maple",
+  "en": "Uh would love uh to hear any feedback on that.",
+  "zh": "我很想听听关于那个的任何反馈。"
+ },
+ {
+  "seg": 653,
+  "start": 3568.24,
+  "end": 3568.88,
+  "speaker": "Simon Maple",
+  "en": "Please let us know.",
+  "zh": "请告诉我们。"
+ },
+ {
+  "seg": 654,
+  "start": 3569.04,
+  "end": 3572.24,
+  "speaker": "Simon Maple",
+  "en": "Podcast at Tesla.io and uh tune in to the next episode.",
+  "zh": "发邮件到 Podcast at Tesla.io，并且收听下一集。"
+ },
+ {
+  "seg": 655,
+  "start": 3572.4,
+  "end": 3573.2,
+  "speaker": "Simon Maple",
+  "en": "Bye for now.",
+  "zh": "暂时再见。"
+ },
+ {
+  "seg": 656,
+  "start": 3573.52,
+  "end": 3577.36,
+  "speaker": "Simon Maple",
+  "en": "Hope you had as much fun listening to this episode as I had recording it.",
+  "zh": "希望你们听这一集的乐趣和我在录制时一样多。"
+ },
+ {
+  "seg": 657,
+  "start": 3577.44,
+  "end": 3584.48,
+  "speaker": "Simon Maple",
+  "en": "And if you want to hear more from the guests featured in this episode, we have their full talks linked in the description below.",
+  "zh": "如果你想听到更多这一集的特色嘉宾的声音，我们在下面的简介中链接了他们的完整演讲。"
+ },
+ {
+  "seg": 658,
+  "start": 3584.64,
+  "end": 3585.84,
+  "speaker": "Simon Maple",
+  "en": "So that's it for this episode.",
+  "zh": "那这就是本集的全部内容了。"
+ },
+ {
+  "seg": 659,
+  "start": 3586.08,
+  "end": 3587.04,
+  "speaker": "Simon Maple",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ },
+ {
+  "seg": 660,
+  "start": 3587.6,
+  "end": 3592.4,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is brought to you by Tesla, the package manager for Skills and Context.",
+  "zh": "The AI Native Dev 是由 Tesla 呈现的，它是技能和上下文的包管理器。"
+ },
+ {
+  "seg": 661,
+  "start": 3592.48,
+  "end": 3595.52,
+  "speaker": "Simon Maple",
+  "en": "Your hosts are Guy Pajani and me, Simon Maple.",
+  "zh": "你们的主播是 Guy Pajani 和我，Simon Maple。"
+ },
+ {
+  "seg": 662,
+  "start": 3595.68,
+  "end": 3597.12,
+  "speaker": "Simon Maple",
+  "en": "Our producer is Tom Dowler.",
+  "zh": "我们的制作人是 Tom Dowler。"
+ },
+ {
+  "seg": 663,
+  "start": 3597.44,
+  "end": 3600.64,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is not just a podcast, it's a community.",
+  "zh": "The AI Native Dev 不只是一个播客，它是一个社区。"
+ },
+ {
+  "seg": 664,
+  "start": 3600.8,
+  "end": 3604.08,
+  "speaker": "Simon Maple",
+  "en": "And we host a monthly meetup at the Tesla offices in Temple Land.",
+  "zh": "我们在 Temple Land 的 Tesla 办公室举办每月一次的聚会。"
+ },
+ {
+  "seg": 665,
+  "start": 3604.56,
+  "end": 3608.64,
+  "speaker": "Simon Maple",
+  "en": "Visit Tesla.io for community to learn more of iOS.",
+  "zh": "访问 Tesla.io 加入社区以了解更多关于 iOS 的内容。"
+ }
+]

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]]**(08:02起):本集说它是跑在 Cursor 里的工具，PM 输入问题陈述后走 12 个阶段（创意简报、竞品分析、客户声音、定量指标等）自动出 PRD，并连接数据湖写 SQL 拉真实数据。
+- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(08:02起):本集说它是跑在 Cursor 里的工具，PM 输入问题陈述后走 12 个阶段（创意简报、竞品分析、客户声音、定量指标等）自动出 PRD，并连接数据湖写 SQL 拉真实数据。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为概念
+- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为概念
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aakash]] · [[Srini Raghavan]] · [[Freshworks]] · [[Cursor]] · [[Figma]] · [[Databricks]] · [[智能体]] · [[MCP]] · [[AI PDLC]] · [[Figma Make]]
 
-<script type="application/json" class="pd-epn">{"Aakash":2,"Srini Raghavan":1,"Freshworks":1,"Cursor":35,"Figma":10,"Databricks":6,"智能体":141,"MCP":16,"AI PDLC":1,"Figma Make":2}</script>
+<script type="application/json" class="pd-epn">{"Aakash":2,"Srini Raghavan":1,"Freshworks":1,"Cursor":37,"Figma":10,"Databricks":7,"智能体":146,"MCP":17,"AI PDLC":1,"Figma Make":2}</script>
 
 <script>
 (function(){

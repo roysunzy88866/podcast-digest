@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]]**(00:30起):本集说 Forum AI 是 Campbell Brown 创立的新公司，专门用领域专家（如前 CIA 分析师、临床医生）制定评估框架，再训练 LLM 评判者来大规模评估模型在政治、医疗等敏感话题上的表现
+- **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(00:30起):本集说 Forum AI 是 Campbell Brown 创立的新公司，专门用领域专家（如前 CIA 分析师、临床医生）制定评估框架，再训练 LLM 评判者来大规模评估模型在政治、医疗等敏感话题上的表现
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《Campbell Brown：AI 回答争议问题时，谁在替你把关质量？》]] — 作为被讨论公司
+- [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alex]] · [[Campbell Brown]] · [[OpenAI]] · [[Anthropic]] · [[Meta]] · [[ChatGPT]] · [[LLM]] · [[幻觉]] · [[诱导性提示]] · [[互动率]]
 
-<script type="application/json" class="pd-epn">{"Alex":4,"Campbell Brown":1,"OpenAI":63,"Anthropic":70,"Meta":21,"ChatGPT":36,"LLM":18,"幻觉":3,"诱导性提示":1,"互动率":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":4,"Campbell Brown":1,"OpenAI":65,"Anthropic":72,"Meta":21,"ChatGPT":37,"LLM":19,"幻觉":3,"诱导性提示":1,"互动率":1}</script>
 
 <script>
 (function(){

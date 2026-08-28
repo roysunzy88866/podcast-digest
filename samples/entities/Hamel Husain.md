@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Shreya Shankar":1,"评估":16,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":141,"trace":1,"Anthropic":70}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Shreya Shankar":1,"评估":16,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":146,"trace":1,"Anthropic":72}</script>
 
 <script>
 (function(){

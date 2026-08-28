@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(08:16起):本集说它是 Block 旗下的主要品牌(业务单元),在成熟期采用过各自为政的 GM 结构,后来被统一重组进全公司的职能型架构中。
 - **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(01:31起):本集说它是 Keith 曾担任首席运营官的公司，Jack Dorsey 当时用 iPad 运营公司；Keith 在此学到了「团队即公司」的理念，并在此验证了他的招聘与管理心法。
-- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]]**(00:13起):本集说 Square 最初是支付公司，现在是一个完整的生态系统，包含商业工具、金融工具和智能工具，目标是让主街与华尔街一样高大
+- **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]]**(00:13起):本集说 Square 最初是支付公司，现在是一个完整的生态系统，包含商业工具、金融工具和智能工具，目标是让主街与华尔街一样高大
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司(提及)
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
-- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 为什么废掉业务单元制》]] — 作为被讨论公司
+- [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[Block]] · [[智能体]] · [[Dhanji Prasanna]] · [[Keith Rabois]] · [[Willem Avé]] · [[Goose]] · [[PayPal]] · [[业务单元模式]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Block":2,"智能体":141,"Dhanji Prasanna":1,"Keith Rabois":1,"Willem Avé":1,"Goose":1,"PayPal":2,"业务单元模式":1,"MCP":16}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Block":2,"智能体":146,"Dhanji Prasanna":1,"Keith Rabois":1,"Willem Avé":1,"Goose":1,"PayPal":2,"业务单元模式":1,"MCP":17}</script>
 
 <script>
 (function(){

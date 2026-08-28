@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Salesforce</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,17 +16,19 @@ unlisted: true
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(09:03起):本集多次提及，推出了 Agentforce 智能体，并投入 2000 名前置部署工程师来确保客户成功。它正经历复兴，成为了众多 AI GTM 智能体底层插接的数据中心。
 - **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(71:41起):本集提到 Jason Lemkit 用一个智能体跟踪每个人对 Salesforce 的更新并根据通话自动更新
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(13:02起):被列为 HubSpot 从大公司挖人的来源之一，本集称从 Salesforce 挖来的人流失率为 100%。
-- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]]**(26:11起):本集提到同日 Salesforce 股价下跌 9%，作为企业软件公司受预算转移冲击的例子
+- **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(26:11起):本集提到同日 Salesforce 股价下跌 9%，作为企业软件公司受预算转移冲击的例子
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(21:03起):本集说 Supersonic 通过校友网络联系上曾任 Salesforce CRO、现任 COO 的人，使 Salesforce 成为第一个设计合作伙伴
-- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(14:52起):本集说 Salesforce 拿 AWS 云原语变成 CRM 软件交付经济成果，是应用层角色的比喻
+- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(14:52起):本集说 Salesforce 拿 AWS 云原语变成 CRM 软件交付经济成果，是应用层角色的比喻
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q7]]
 
 ![[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been#^q5]]
+
+![[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag#^q6]]
 
 ## ② 出现在这些集
 
@@ -37,9 +39,9 @@ unlisted: true
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM暴跌背后的企业软件洗牌》]] — 作为被讨论公司(提及)
+- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司(提及)
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -47,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[MCP]] · [[Replit]] · [[编码智能体]] · [[Anthropic]] · [[Cursor]] · [[Vercel]] · [[Brex]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Lenny":65,"OpenAI":63,"MCP":16,"Replit":11,"编码智能体":1,"Anthropic":70,"Cursor":35,"Vercel":10,"Brex":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"OpenAI":65,"MCP":17,"Replit":11,"编码智能体":1,"Anthropic":72,"Cursor":37,"Vercel":11,"Brex":3}</script>
 
 <script>
 (function(){

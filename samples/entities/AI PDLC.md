@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]]**(03:45起):本集称其为 AI Product Development Lifecycle，是 Freshworks 的产品开发生命周期生态系统，在发现、设计、规划、开发每一步都有 AI 智能体帮助，配有治理框架和评估框架。
+- **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(03:45起):本集称其为 AI Product Development Lifecycle，是 Freshworks 的产品开发生命周期生态系统，在发现、设计、规划、开发每一步都有 AI 智能体帮助，配有治理框架和评估框架。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：产品经理、设计师、工程师三个角色正在合并》]] — 作为概念
+- [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为概念
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aakash]] · [[Srini Raghavan]] · [[Freshworks]] · [[Cursor]] · [[Figma]] · [[Databricks]] · [[智能体]] · [[MCP]] · [[PRD Genie]] · [[Figma Make]]
 
-<script type="application/json" class="pd-epn">{"Aakash":2,"Srini Raghavan":1,"Freshworks":1,"Cursor":35,"Figma":10,"Databricks":6,"智能体":141,"MCP":16,"PRD Genie":1,"Figma Make":2}</script>
+<script type="application/json" class="pd-epn">{"Aakash":2,"Srini Raghavan":1,"Freshworks":1,"Cursor":37,"Figma":10,"Databricks":7,"智能体":146,"MCP":17,"PRD Genie":1,"Figma Make":2}</script>
 
 <script>
 (function(){

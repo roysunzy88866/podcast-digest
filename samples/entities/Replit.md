@@ -21,7 +21,7 @@ unlisted: true
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(08:02起):本集把它说成：让领域专家和普通创业者能从点子直接走到部署变现的云编程平台，被比作追求垂直深度集成的“任天堂”。
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(00:08起):本集把它说成:从云开发环境起家、一度跌入谷底裁员孤注一掷,最终靠 AI 编程智能体完成绝地翻盘,剑指十亿美元 ARR 的公司。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(12:27起):本集说 Replit 是另一个转型成功案例，在荒野里做了六年 web IDE，加上模型之后彻底转型成功，是'做更难事情'的例子
-- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(17:21起):本集说 Replit 是普通不熟悉代码的小企业主的一个极好的抽象层
+- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(17:21起):本集说 Replit 是普通不熟悉代码的小企业主的一个极好的抽象层
 
 ## ① 提到它的金句
 
@@ -43,7 +43,7 @@ unlisted: true
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为被讨论公司
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司(提及)
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[ChatGPT]] · [[Cursor]] · [[Anthropic]] · [[vibe coding]] · [[LLM]] · [[护城河]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"Lenny":65,"OpenAI":63,"ChatGPT":36,"Cursor":35,"Anthropic":70,"vibe coding":23,"LLM":18,"护城河":7,"Lovable":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"OpenAI":65,"ChatGPT":37,"Cursor":37,"Anthropic":72,"vibe coding":23,"LLM":19,"护城河":7,"Lovable":10}</script>
 
 <script>
 (function(){

@@ -206,9 +206,9 @@ Genesis 智能体就是那台看 95 步深的机器，一台“假设生成机�
 
 **顺着「智能体」挖下去**
 
+- [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:token、智能体 (agent)、可观测性 (observability)</span>
+- [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|数据成了企业唯一的护城河：AI时代的数据基建怎么做]]<span class="pd-rz">同概念:token、智能体 (agent)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、token、对齐 (alignment)</span>
-- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenClaw · 同概念:智能体 (agent)</span>
-- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA、OpenClaw · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

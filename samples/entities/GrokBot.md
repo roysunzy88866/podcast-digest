@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(00:42起):本集说它是 Cursor/XAI 团队发布的聊天风格智能体产品，核心体验是一个花哨的 MCP 客户端，每个智能体自带虚拟机，最大亮点是每个连接器可挂多个账号
-- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]]**(01:08起):本集说 GrokBot 是一个足智多谋的个人智能体产品，睡觉前拍张牛仔裤照片说预算，早上醒来它已经研究、比价、用信用卡买好了
+- **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(01:08起):本集说 GrokBot 是一个足智多谋的个人智能体产品，睡觉前拍张牛仔裤照片说预算，早上醒来它已经研究、比价、用信用卡买好了
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层才是下一个金矿：模型不是商品》]] — 作为被讨论公司
+- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -27,7 +27,7 @@ unlisted: true
 
 [[Cursor]] · [[智能体]] · [[Origin]] · [[Anish Acharya]] · [[Grok 4.6]] · [[Jen Ka]] · [[GitHub]] · [[OpenAI]] · [[MCP]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Cursor":35,"智能体":141,"Origin":1,"Anish Acharya":1,"Grok 4.6":1,"Jen Ka":1,"GitHub":17,"OpenAI":63,"MCP":16,"Anthropic":70}</script>
+<script type="application/json" class="pd-epn">{"Cursor":37,"智能体":146,"Origin":1,"Anish Acharya":1,"Grok 4.6":1,"Jen Ka":1,"GitHub":18,"OpenAI":65,"MCP":17,"Anthropic":72}</script>
 
 <script>
 (function(){

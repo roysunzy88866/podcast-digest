@@ -27,7 +27,7 @@ unlisted: true
 
 [[Meraki]] · [[Matt Turk]] · [[Elena Berger]] · [[Sanjit Biswas]] · [[Joe Schmidt]] · [[物理 AI]] · [[Andy McCall]] · [[护栏]] · [[Lighthouse]] · [[生成式 AI]]
 
-<script type="application/json" class="pd-epn">{"Meraki":2,"Matt Turk":2,"Elena Berger":3,"Sanjit Biswas":1,"Joe Schmidt":1,"物理 AI":4,"Andy McCall":1,"护栏":28,"Lighthouse":1,"生成式 AI":3}</script>
+<script type="application/json" class="pd-epn">{"Meraki":2,"Matt Turk":2,"Elena Berger":3,"Sanjit Biswas":1,"Joe Schmidt":1,"物理 AI":4,"Andy McCall":1,"护栏":30,"Lighthouse":1,"生成式 AI":3}</script>
 
 <script>
 (function(){

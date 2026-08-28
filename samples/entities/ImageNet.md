@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(01:48起):本集说它是李飞飞团队在 2006 年前后从互联网上整理 1500 万张图片建立的包含 22000 个物体概念的开源数据集,是带 AI 走出寒冬的火花。
-- **[[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]]**(27:05起):本集提到联合创始人 Michael Bernstein 是 ImageNet 的合著者之一，ImageNet 真正开启了 AI 革命
+- **[[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]]**(27:05起):本集提到联合创始人 Michael Bernstein 是 ImageNet 的合著者之一，ImageNet 真正开启了 AI 革命
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
-- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]] — 作为概念(提及)
+- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Joon Sung Park]] · [[Dr. Fei-Fei Li]] · [[Harry Stebbings]] · [[World Labs]] · [[Simile]] · [[Marble]] · [[智能体]] · [[空间智能]] · [[模拟]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Joon Sung Park":1,"Dr. Fei-Fei Li":1,"Harry Stebbings":5,"World Labs":2,"Simile":1,"Marble":2,"智能体":141,"空间智能":2,"模拟":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Joon Sung Park":1,"Dr. Fei-Fei Li":1,"Harry Stebbings":5,"World Labs":2,"Simile":1,"Marble":2,"智能体":146,"空间智能":2,"模拟":4}</script>
 
 <script>
 (function(){

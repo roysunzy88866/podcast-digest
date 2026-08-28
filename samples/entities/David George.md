@@ -13,7 +13,7 @@ unlisted: true
 
 *2 集*
 
-- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]] — 作为主持
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为主持
 - [[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]] — 作为主持
 
 ## ③ 他谈到的
@@ -22,7 +22,7 @@ unlisted: true
 
 [[Will Gabrick]] · [[Grant LaFontaine]] · [[Stripe]] · [[Whatnot]] · [[Stripe Minions]] · [[直播购物]] · [[智能体]] · [[市场]] · [[智能体商务]] · [[信任与安全]]
 
-<script type="application/json" class="pd-epn">{"Will Gabrick":1,"Grant LaFontaine":1,"Stripe":19,"Whatnot":3,"Stripe Minions":1,"直播购物":2,"智能体":141,"市场":2,"智能体商务":1,"信任与安全":1}</script>
+<script type="application/json" class="pd-epn">{"Will Gabrick":1,"Grant LaFontaine":1,"Stripe":20,"Whatnot":3,"Stripe Minions":1,"直播购物":2,"智能体":146,"市场":2,"智能体商务":1,"信任与安全":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,2245 @@
+{
+  "episode_id": "2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-08-27",
+  "tags": [
+    "AI 行业投资",
+    "前沿模型竞争",
+    "AI 商业模式",
+    "开源权重",
+    "Token 经济"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "poolside",
+      "type": "company",
+      "role": "company",
+      "name": "Poolside",
+      "file": "Poolside",
+      "primary": true,
+      "how_described": "本集说 Poolside 是一家试图构建美国开源模型的公司，因无法筹集 20 亿美元购买 4 万块 GPU 而'向上失败'，以 60 亿美元许可费加 10 亿美元投资（投前估值 120 亿）卖给 NVIDIA，109 名工程师并入 Nemotron",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            61.383,
+            64.245
+          ],
+          "quote": "One, they're buying Poolside for $12 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            287.943,
+            304.115
+          ],
+          "quote": "And we're going to start with the model layer where NVIDIA is paying $6 billion to license Poolside's model factory and investing $1 billion more at a $12 billion pre-money valuation, moving 109 engineers over to Nemotron to help build it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            432.893,
+            440.059
+          ],
+          "quote": "I mean, I know you're a small poolside shareholder, so all those guys made really good money and the company gets to go standalone and continue on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            537.538,
+            541.022
+          ],
+          "quote": "And I'm not surprised that Poolside found it challenging to raise as much as they did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            621.718,
+            624.339
+          ],
+          "quote": "I don't think 15x is good enough for a seed investor in poolside.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            798.544,
+            801.807
+          ],
+          "quote": "Obviously, if you can get 15x out of your poolside, of course, was not a failure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 199,
+          "t": [
+            817.903,
+            825.951
+          ],
+          "quote": "If Poolside returned 15x with further dilution, what exit price would it have to be to be a good seed investment to return 50x?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            967.145,
+            977.289
+          ],
+          "quote": "They're using their capital to fund the NeoClouds, fund OpenAI, fund, as we just discussed, Poolside, and for whatever reason, also fund Merkur.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            992.896,
+            995.277
+          ],
+          "quote": "If I fund Poolside, I can sell more open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1224.491,
+            1231.553
+          ],
+          "quote": "They're doing such a lot, thinking in real time here, because the poolside acquisition is time expansion by buying an adjacent product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            3976.654,
+            3980.997
+          ],
+          "quote": "I think the two documents I most enjoyed reading in prep for this were the poolside letter and the Stripe letter.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 NVIDIA 拥有巨大自由现金流，战略团队和高管每人报最好点子，预算 750 亿全花出去投资生态系统；其投资分三种逻辑：时间扩展（Poolside）、纯财务投资（McCaw）、供应商融资（OpenAI）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            58.602,
+            61.003
+          ],
+          "quote": "And hell, NVIDIA are going fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            283.279,
+            287.682
+          ],
+          "quote": "And we're going to start with NVIDIA moving across different layers of the stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            287.943,
+            304.115
+          ],
+          "quote": "And we're going to start with the model layer where NVIDIA is paying $6 billion to license Poolside's model factory and investing $1 billion more at a $12 billion pre-money valuation, moving 109 engineers over to Nemotron to help build it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            340.079,
+            348.527
+          ],
+          "quote": "It's also maybe a reminder that despite NVIDIA seemingly funding everyone on planet Earth, the gravy train, the VC gravy train can only last so long.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            418.544,
+            423.425
+          ],
+          "quote": "Because from the perspective of NVIDIA, they looked at exactly the same facts and said, well, we have capital.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            568.83,
+            574.335
+          ],
+          "quote": "Does this really move the needle for NVIDIA in their ability to make Nemotron truly competitive?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            593.655,
+            605.245
+          ],
+          "quote": "And if I'm the maker of compute, it's awesome for NVIDIA if there's a viable US open source model running on NVIDIA chips, taking market share away from the frontier models at the margin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            607.466,
+            620.097
+          ],
+          "quote": "An open source model is a complement in the economic sense of the word for NVIDIA, because the more open source market share there is, the more money goes to chips relative to the money that goes to foundation model builders.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            774.401,
+            777.463
+          ],
+          "quote": "And the only other person who now has enough money is NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            927.586,
+            932.969
+          ],
+          "quote": "Next layer that NVIDIA's in talks to be playing heavily into is McCaw's new funding round.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            945.655,
+            951.138
+          ],
+          "quote": "And then there's rumors, suggestions, reports that NVIDIA is joining that round in a significant way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            952.779,
+            954.22
+          ],
+          "quote": "Next layer of the stack for NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            964.344,
+            966.785
+          ],
+          "quote": "And clearly, that's where NVIDIA is now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            977.589,
+            989.454
+          ],
+          "quote": "I will admit, when I think about all the things that NVIDIA should be doing with its money, it wasn't obvious to me that funding Merkur made as much sense as some of the other bets, because the other bets are all about time expansion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1052.844,
+            1054.606
+          ],
+          "quote": "I don't know why NVIDIA would do it per se.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1115.182,
+            1121.868
+          ],
+          "quote": "By the way, NVIDIA will have reported between the time we make this video and the time we distribute it on Thursday.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1272.583,
+            1276.629
+          ],
+          "quote": "And the bet that NVIDIA is taking here is it's not going to happen this time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1595.455,
+            1598.357
+          ],
+          "quote": "So NVIDIA is actually propping up most of my portfolio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1675.95,
+            1687.859
+          ],
+          "quote": "What happened is all those people like Broadcom, NVIDIA that were expecting to sell $200 billion worth of chips to OpenAI might suddenly go, hmm, maybe if they're not growing quickly, they won't need $200 billion worth of chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1982.137,
+            2004.41
+          ],
+          "quote": "And so I suppose at some level, Jason is correct, because if there's five or six, and I don't see them as being peers, but I think if there's five or six open weight companies dragging down everyone's gross, you're basically trying to steal gross margin away from the closed frontier models, especially if one of those, reminder, if one of those open weight companies is now funded by NVIDIA, so it gets rid of all the, oh, they're all Chinese comments, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 715,
+          "t": [
+            2778.719,
+            2795.805
+          ],
+          "quote": "By the way, it's going to circle back to NVIDIA and all their investment and vendor financing, because in both ways, both of situational awareness and NVIDIA, the aha here is when you're dealing with money and leverage, you don't just have to be right in the long term, you also have to be right every step along the way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 756,
+          "t": [
+            2942.903,
+            2947.924
+          ],
+          "quote": "Did you not see that like 50% of NVIDIA employees are now worth over $25 million?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 812,
+          "t": [
+            3171.703,
+            3175.186
+          ],
+          "quote": "Well, NVIDIA will keep spending $100 billion a year to keep the ecosystem going.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3185.112,
+            3185.992
+          ],
+          "quote": "NVIDIA isn't going to blink.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 821,
+          "t": [
+            3189.374,
+            3193.456
+          ],
+          "quote": "That's why I think even though we're recording this on Tuesday, NVIDIA is reporting on Wednesday.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 823,
+          "t": [
+            3195.197,
+            3200.7
+          ],
+          "quote": "It's possible, but I think highly unlikely, that NVIDIA gets on tomorrow and says, compute the man to slow down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3278.114,
+            3285.239
+          ],
+          "quote": "It's not going to be the CEO of Google waking up tomorrow and saying, maybe we should be more cautious, or the CEO of NVIDIA saying, maybe we should take less risk.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI CFO 告诉员工 2027 年要上市，Q2 收入环比仅增 18%，被 Anthropic 的 600 亿年化率甩开；消费者业务是'以 200 美元卖出价值一万美元的 token'，被形容为'我们这个时代最糟糕的商业模式之一'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.2,
+            16.989
+          ],
+          "quote": "The VC money ran out on Anthropic and OpenAI long ago, which is why no VC owns more than 1% or 2% of either of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            72.109,
+            78.232
+          ],
+          "quote": "Then we move to OpenAI, where CFO Sarah Fryer says, hey, we're definitely going public this year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            446.783,
+            451.064
+          ],
+          "quote": "And by the way, that has positive implications for OpenAI and Anthropic we should talk about in a second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            750.343,
+            757.529
+          ],
+          "quote": "The VC money went out on Anthropic and OpenAI long ago, which is why no VC owns more than 1% or 2% of either of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            765.495,
+            774.081
+          ],
+          "quote": "The only reason Anthropic and OpenAI exist is because Microsoft, Google, and Amazon gave them enough money to play because no one else on the planet has enough money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            852.315,
+            864.478
+          ],
+          "quote": "You could have had a 100 to 1 return on a seed investment if you'd been able to be, possibly, if you'd been able to be equivalent to the Chinese open source players, and definitely, if you'd been a winner like OpenAI or Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            967.145,
+            977.289
+          ],
+          "quote": "They're using their capital to fund the NeoClouds, fund OpenAI, fund, as we just discussed, Poolside, and for whatever reason, also fund Merkur.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1089.644,
+            1099.069
+          ],
+          "quote": "And you know, OpenAI and friends are gonna get a big chunk of it and there's gonna be off-balance sheet guarantees, but I think they've decided to just spend it all, one for one, and I would do the same.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1199.064,
+            1209.015
+          ],
+          "quote": "And clearly, the best use for it is to spend the money with people who will, in turn, enhance the ecosystem, which is why OpenAI gets a big watch for their money all the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1239.276,
+            1249.509
+          ],
+          "quote": "And then something like perplexity investment or OpenAI investment is literally, especially the OpenAI, is vendor financing, where you as the vendor of the chips are choosing to give your customer money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1294.391,
+            1304.579
+          ],
+          "quote": "If you think about OpenAI and Anthropic being $2 to $5 trillion businesses, is it crazy to think that the data provider that provides them their core data assets will be a 10% of their market cap?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1319.196,
+            1321.759
+          ],
+          "quote": "We know that, you know, OpenAI is running at a...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1600.698,
+            1603.799
+          ],
+          "quote": "Our friends at OpenAI, never a dull day at OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1604.239,
+            1609.72
+          ],
+          "quote": "CFO Sarah Fryer told employees at OpenAI, we will be a public company in 2027.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1664.505,
+            1673.149
+          ],
+          "quote": "That A, it would be terribly bad for OpenAI and kind of how, because anyone would run that math and go, oh, two more years of this and you're in irrelevance, you're perplexity too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1675.95,
+            1687.859
+          ],
+          "quote": "What happened is all those people like Broadcom, NVIDIA that were expecting to sell $200 billion worth of chips to OpenAI might suddenly go, hmm, maybe if they're not growing quickly, they won't need $200 billion worth of chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1694.564,
+            1702.811
+          ],
+          "quote": "If in fact OpenAI is massively accelerating in early Q3, they had no choice but to share that information with the world, because otherwise everyone would assume the worst.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1751.512,
+            1763.498
+          ],
+          "quote": "So there's simply no way the Q2 trend could stand unchallenged and still leave OpenAI as a credible close number two, which is where they are now, to Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1789.097,
+            1792.698
+          ],
+          "quote": "If Anthropic goes out at $2 trillion, what price does OpenAI go out at?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1816.863,
+            1828.885
+          ],
+          "quote": "I just think it'll be interesting by the end of the year to see where OpenAI is positioned in the platform, the enterprise versus Anthropic, because at the beginning of the year, there were two choices, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1828.905,
+            1836.487
+          ],
+          "quote": "There was Anthropic and OpenAI for the most part, and you had a default choice, but people wanted to have multi-models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1858.021,
+            1860.783
+          ],
+          "quote": "So OpenAI position, in a sense, and we'll see.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 478,
+          "t": [
+            1885.587,
+            1892.59
+          ],
+          "quote": "And you're saying then the material impact on the EV of OpenAI then is considerably less because of the- I think there's more pressure on them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            1911.516,
+            1916.997
+          ],
+          "quote": "You wanna at least have, that would be the nice thing if you had Claude and OpenAI, and then you just get a nice oligopical bake-off.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2045.37,
+            2054.938
+          ],
+          "quote": "If Anthropic goes out this year, at the scale they're talking about now, I can't imagine a world where OpenAI says, we're going to hunker down and get the cash flow right, and then we'll go out in 2028.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2083.13,
+            2087.072
+          ],
+          "quote": "And I think for OpenAI, what you're seeing here is the absence of choice.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2124.783,
+            2133.765
+          ],
+          "quote": "The other thing, when I'm listening to Rory and the IPO, the other thing, maybe it's minor and we can move on, but I'm getting confused today what OpenAI's differentiated mission is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2134.205,
+            2135.086
+          ],
+          "quote": "Why OpenAI?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2150.03,
+            2152.672
+          ],
+          "quote": "When we started this pod, I don't know what OpenAI's mission is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2175.946,
+            2183.929
+          ],
+          "quote": "Of OpenAI today that I would rally around as an employee, as a shareholder, or is it just a piece of infrastructure plus some software?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2251.102,
+            2257.284
+          ],
+          "quote": "It turns out, I mean, you're right, OpenAI is the name, and ChatGPT is the name everyone associates with AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2298.492,
+            2301.976
+          ],
+          "quote": "You know, it's as simple as OpenAI was focused here and Anthropic focused there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2305.319,
+            2312.186
+          ],
+          "quote": "But the problem with the consumer businesses for OpenAI and Anthropic is for power users, they're massively subsidized, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2312.346,
+            2316.17
+          ],
+          "quote": "You can spend $200 on Anthropic or a hundred and some odd dollars on OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2324.556,
+            2327.218
+          ],
+          "quote": "We talk about OpenAI being a consumer company, but it's not where it started.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2333.903,
+            2340.848
+          ],
+          "quote": "Anthropic can lose a couple thousand dollars on some consumers and it won't impact them, but it's tougher for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2358.483,
+            2364.246
+          ],
+          "quote": "And it may well be, just to put it out, I don't want to veer from OpenAI, I love them, hate them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2484.022,
+            2491.707
+          ],
+          "quote": "Everyone's looking at a world where, I mean, I might think it's delusional, but OpenAI and Anthropic are claiming TAMs that are larger than the entire US GDP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2621.313,
+            2623.095
+          ],
+          "quote": "Well, thanks for funding OpenAI for three years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 689,
+          "t": [
+            2657.85,
+            2660.491
+          ],
+          "quote": "If it becomes an OpenAI commercial, TBN has no value.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 785,
+          "t": [
+            3034.531,
+            3040.092
+          ],
+          "quote": "That's skewed by the fact that Anthropic and OpenAI together got probably 60% of the total dollars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3187.273,
+            3188.674
+          ],
+          "quote": "OpenAI and startups are going to blink, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 830,
+          "t": [
+            3232.849,
+            3239.114
+          ],
+          "quote": "You've clearly, on the capital side, got one more turn of the crank, which is when Anthropic goes out and OpenAI goes out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            3941.751,
+            3943.333
+          ],
+          "quote": "Okay, there's OpenAI, there's Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1071,
+          "t": [
+            3946.937,
+            3956.983
+          ],
+          "quote": "When OpenAI and Databricks go public at 80% growth and, you know, Stripe accelerating 41% and 71% billings, nothing except Palantir approaches these, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            4023.994,
+            4027.635
+          ],
+          "quote": "The imperative for OpenAI and Anthropic to go out is the vast capital needs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 年中已达 600 亿年化率，比 OpenAI 更大且增长更快；被概括为'今天 Anthropic 是什么，全都是关于代码——那是唯一重要的一句话'，押注代码市场这个采用最快、ROI 最高的市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.2,
+            16.989
+          ],
+          "quote": "The VC money ran out on Anthropic and OpenAI long ago, which is why no VC owns more than 1% or 2% of either of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            446.783,
+            451.064
+          ],
+          "quote": "And by the way, that has positive implications for OpenAI and Anthropic we should talk about in a second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            750.343,
+            757.529
+          ],
+          "quote": "The VC money went out on Anthropic and OpenAI long ago, which is why no VC owns more than 1% or 2% of either of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            765.495,
+            774.081
+          ],
+          "quote": "The only reason Anthropic and OpenAI exist is because Microsoft, Google, and Amazon gave them enough money to play because no one else on the planet has enough money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            852.315,
+            864.478
+          ],
+          "quote": "You could have had a 100 to 1 return on a seed investment if you'd been able to be, possibly, if you'd been able to be equivalent to the Chinese open source players, and definitely, if you'd been a winner like OpenAI or Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1294.391,
+            1304.579
+          ],
+          "quote": "If you think about OpenAI and Anthropic being $2 to $5 trillion businesses, is it crazy to think that the data provider that provides them their core data assets will be a 10% of their market cap?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1326.303,
+            1327.904
+          ],
+          "quote": "Anthropic's at 60 billion year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1498.803,
+            1502.868
+          ],
+          "quote": "I mean, Anthropic went from negative 91 to positive 30 in a year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1616.021,
+            1620.802
+          ],
+          "quote": "They've got pressure on them from Anthropic, who obviously are going public in reportedly the next few months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1649.719,
+            1659.283
+          ],
+          "quote": "If that Q2 number was sustained, it would put them obviously, A, it would put them so far behind Anthropic at 60 billion run rate mid-year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1659.303,
+            1664.145
+          ],
+          "quote": "And again, we haven't seen gap numbers for Anthropic, but clearly bigger and clearly growing faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1751.512,
+            1763.498
+          ],
+          "quote": "So there's simply no way the Q2 trend could stand unchallenged and still leave OpenAI as a credible close number two, which is where they are now, to Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1789.097,
+            1792.698
+          ],
+          "quote": "If Anthropic goes out at $2 trillion, what price does OpenAI go out at?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1816.863,
+            1828.885
+          ],
+          "quote": "I just think it'll be interesting by the end of the year to see where OpenAI is positioned in the platform, the enterprise versus Anthropic, because at the beginning of the year, there were two choices, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1828.905,
+            1836.487
+          ],
+          "quote": "There was Anthropic and OpenAI for the most part, and you had a default choice, but people wanted to have multi-models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1848.633,
+            1857.68
+          ],
+          "quote": "But if Anthropic is number one in platform, which it clearly is, you can't argue with the numbers, per Rory's point, now the number two could be, it could be, there could be, there's five choices.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            1925.499,
+            1926.9
+          ],
+          "quote": "It's Anthropic versus us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2045.37,
+            2054.938
+          ],
+          "quote": "If Anthropic goes out this year, at the scale they're talking about now, I can't imagine a world where OpenAI says, we're going to hunker down and get the cash flow right, and then we'll go out in 2028.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2059.742,
+            2062.683
+          ],
+          "quote": "If Anthropic trades at two, then they might get one and a half.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2062.763,
+            2065.264
+          ],
+          "quote": "If Anthropic trades at one, they might get 700.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2155.974,
+            2160.136
+          ],
+          "quote": "Apparently interviewing folks today, asking them if they'd be happy joining Anthropic if it all went to zero.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2183.989,
+            2190.872
+          ],
+          "quote": "I just don't know what is special about the mission vis-a-vis Anthropic or now all these strong competitors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2285.6,
+            2288.483
+          ],
+          "quote": "Today, what Anthropic is, it's all about code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2298.492,
+            2301.976
+          ],
+          "quote": "You know, it's as simple as OpenAI was focused here and Anthropic focused there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2305.319,
+            2312.186
+          ],
+          "quote": "But the problem with the consumer businesses for OpenAI and Anthropic is for power users, they're massively subsidized, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2312.346,
+            2316.17
+          ],
+          "quote": "You can spend $200 on Anthropic or a hundred and some odd dollars on OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2329.96,
+            2333.883
+          ],
+          "quote": "And Claude was just the same, but it worked much better for Anthropic, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2333.903,
+            2340.848
+          ],
+          "quote": "Anthropic can lose a couple thousand dollars on some consumers and it won't impact them, but it's tougher for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2408.856,
+            2410.477
+          ],
+          "quote": "I just see Anthropic in the Wall Street Journal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2484.022,
+            2491.707
+          ],
+          "quote": "Everyone's looking at a world where, I mean, I might think it's delusional, but OpenAI and Anthropic are claiming TAMs that are larger than the entire US GDP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 785,
+          "t": [
+            3034.531,
+            3040.092
+          ],
+          "quote": "That's skewed by the fact that Anthropic and OpenAI together got probably 60% of the total dollars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 830,
+          "t": [
+            3232.849,
+            3239.114
+          ],
+          "quote": "You've clearly, on the capital side, got one more turn of the crank, which is when Anthropic goes out and OpenAI goes out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 834,
+          "t": [
+            3252.23,
+            3254.694
+          ],
+          "quote": "Anthropic is talking about $200 billion of GAAP revenue in 2028.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            3941.751,
+            3943.333
+          ],
+          "quote": "Okay, there's OpenAI, there's Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            4023.994,
+            4027.635
+          ],
+          "quote": "The imperative for OpenAI and Anthropic to go out is the vast capital needs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mccaw",
+      "type": "company",
+      "role": "company",
+      "name": "McCaw",
+      "file": "McCaw",
+      "primary": false,
+      "how_described": "本集提到 McCaw 正在进行 200 亿估值的新融资轮，NVIDIA 也参与其中，被归类为 NVIDIA 的纯财务投资，与卖芯片没有直接逻辑关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            927.586,
+            932.969
+          ],
+          "quote": "Next layer that NVIDIA's in talks to be playing heavily into is McCaw's new funding round.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            933.249,
+            934.21
+          ],
+          "quote": "I'm an investor in McCaw.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "company",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": false,
+      "how_described": "本集提到 NVIDIA 正在投资 Perplexity 的 300 亿估值融资轮，作为 NVIDIA 投资布局的一环被提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            68.207,
+            71.989
+          ],
+          "quote": "Three, they're investing in Perplexity's $30 billion price round.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            239.843,
+            251.275
+          ],
+          "quote": "It's an enterprise-level solution, premium hosting, enterprise-grade security, and 99.99% uptime SLAs, which is why the world's leading brands like Perplexity and Miro build in Framer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1239.276,
+            1249.509
+          ],
+          "quote": "And then something like perplexity investment or OpenAI investment is literally, especially the OpenAI, is vendor financing, where you as the vendor of the chips are choosing to give your customer money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1582.889,
+            1588.752
+          ],
+          "quote": "There's been a lot of cynicism, skepticism around Aravind Srinivas and Perplexity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1664.505,
+            1673.149
+          ],
+          "quote": "That A, it would be terribly bad for OpenAI and kind of how, because anyone would run that math and go, oh, two more years of this and you're in irrelevance, you're perplexity too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1342,
+          "t": [
+            4927.079,
+            4938.548
+          ],
+          "quote": "It's an enterprise-level solution, premium hosting, enterprise-grade security, and 99.99% uptime SLAs, which is why the world's leading brands like Perplexity and Miro build in Framer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集说 Hugging Face 传闻以 130 亿美元被收购，收入约 1.5 亿；作为开放权重模型的入口成为战略资产，但'现在是卖出的巅峰时刻'，因为这只是阶段转型，90 天窗口期后红利不会持续",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 629,
+          "t": [
+            2448.488,
+            2457.078
+          ],
+          "quote": "Or we can go back down to Hugging Face potentially being bought and what that does in terms of a neutral platform suddenly becoming potentially biased.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2457.438,
+            2462.263
+          ],
+          "quote": "Let's not do Hugging Face because I'm not smart enough to understand why anyone would pay $13 billion for it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2511.958,
+            2515.599
+          ],
+          "quote": "And Hugging Face is the place where you can access loads of those models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2601.878,
+            2608.163
+          ],
+          "quote": "It may well be that, remember, you have to have the founders of Hugging Face also have mission objectives beyond financial enrichment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 684,
+          "t": [
+            2642.225,
+            2643.766
+          ],
+          "quote": "On the Hugging Face thing, I don't think it's so early.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2647.367,
+            2649.908
+          ],
+          "quote": "If someone does buy Hugging Face for whatever reason,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 690,
+          "t": [
+            2660.511,
+            2671.594
+          ],
+          "quote": "I know we're probably the only people that are going to compare TBPN to Hugging Face, but if you mess with this marketplace for 10,000 models, even if you put a little ad at the top, you destroy it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2682.364,
+            2686.768
+          ],
+          "quote": "Why Hugging Face could suffer like TBPN, doof, doof, doof, and then lay it out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1276,
+          "t": [
+            4647.945,
+            4658.133
+          ],
+          "quote": "I just don't believe you can throw a bunch of venture money into accounting firms or law firms and magically turn them into the next Merkur or Hugging Face or any of these things.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集引用 Stripe 的信件，其中提出'智能应该像资本一样被管理和分配，而不是像软件许可证'，收入加速至 41%，账单增长 71%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 660,
+          "t": [
+            2576.912,
+            2578.512
+          ],
+          "quote": "The information said when Stripe bought it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 867,
+          "t": [
+            3349.281,
+            3353.644
+          ],
+          "quote": "And I'm going to cite some, I thought this, I read the Stripe letter and it was really, really good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 930,
+          "t": [
+            3534.754,
+            3536.354
+          ],
+          "quote": "But this is why the Stripe letter is so smart.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 941,
+          "t": [
+            3574.204,
+            3575.806
+          ],
+          "quote": "And that's what I think Stripe was saying.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 986,
+          "t": [
+            3706.742,
+            3708.043
+          ],
+          "quote": "I think the Stripe thing is great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 990,
+          "t": [
+            3714.427,
+            3721.652
+          ],
+          "quote": "And Stripe wants to think about intelligence as this asset that flows through routers and flows through things like finance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1043,
+          "t": [
+            3848.512,
+            3849.993
+          ],
+          "quote": "Stripe accelerates to 41%.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1044,
+          "t": [
+            3850.113,
+            3854.756
+          ],
+          "quote": "Accelerating to 41% at Stripe scale is a phenomenal achievement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1048,
+          "t": [
+            3863.122,
+            3866.846
+          ],
+          "quote": "Stripe's scale is so massive, it is a little bit like a chip manufacturer, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1050,
+          "t": [
+            3870.61,
+            3874.114
+          ],
+          "quote": "You literally have to argue with an agent to get it not to use Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1055,
+          "t": [
+            3880.28,
+            3886.924
+          ],
+          "quote": "As a random comment on that, you know, the interesting thing about Stripe is I kind of half agree with you in the sense of all the differential growth is coming from AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            3939.748,
+            3941.671
+          ],
+          "quote": "And what I mean is when Stripe and Data...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1071,
+          "t": [
+            3946.937,
+            3956.983
+          ],
+          "quote": "When OpenAI and Databricks go public at 80% growth and, you know, Stripe accelerating 41% and 71% billings, nothing except Palantir approaches these, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            3976.654,
+            3980.997
+          ],
+          "quote": "I think the two documents I most enjoyed reading in prep for this were the poolside letter and the Stripe letter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1087,
+          "t": [
+            4028.135,
+            4036.279
+          ],
+          "quote": "But Stripe is, I mean, another stunning fact on the Stripe letter, their share count is down on three years ago, four years ago, which means they've been buying back stock.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "本集用 Harvey 做例子：'如果我公司里 30% 的人离职去为 Harvey 工作，那我就完蛋了'，代表 AI 公司对传统企业的人才虹吸效应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            40.052,
+            44.454
+          ],
+          "quote": "Jesus Christ, if 30% of my company leaves to go work for Harvey, I'm dead in the water.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            139.509,
+            145.594
+          ],
+          "quote": "And that's why Vanta is trusted by more than 16,000 companies like Ramp, Harvey, and Writer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 968,
+          "t": [
+            3655.938,
+            3663.162
+          ],
+          "quote": "And so, yeah, the CFOs have to manage your token, but Jesus Christ, if 30% of my company leaves to go work for Harvey, I'm dead in the water.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1318,
+          "t": [
+            4826.743,
+            4832.807
+          ],
+          "quote": "And that's why Vanta is trusted by more than 16,000 companies like Ramp, Harvey, and Writer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到 Cursor 作为从负毛利率走出来、达到 600 亿估值的经典案例，'孩子们会搞定的，那些负毛利率'，是毛利率改善的成功样本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            133.804,
+            139.409
+          ],
+          "quote": "Now access the Vanta agent everywhere you work, even if your team lives in Claude or Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            493.185,
+            495.987
+          ],
+          "quote": "It's what we're talking about last week in Cursor, and I'm sorry if I'm rambling a little.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1385.467,
+            1389.768
+          ],
+          "quote": "The related thing I was thinking on that crawl data, you know, if you go back to Cursor, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1402.172,
+            1403.552
+          ],
+          "quote": "I forget what Cursor costs initially.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1455.238,
+            1456.698
+          ],
+          "quote": "And you had Cursor as an example of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1503.248,
+            1505.13
+          ],
+          "quote": "It has been, as you say, Jason, for Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1512.579,
+            1523.703
+          ],
+          "quote": "In terms of the ability to approve those margins that, say, Cursor did, because the training companies only have three to five big customers, whereas the Cursor has literally hundreds of thousands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1524.043,
+            1528.244
+          ],
+          "quote": "So I'm not as convinced those margins go as well as the Cursor ones, but you're right.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1528.324,
+            1530.545
+          ],
+          "quote": "The Cursor beat the margin trap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1317,
+          "t": [
+            4821.038,
+            4826.643
+          ],
+          "quote": "Now, access the Vanta agent everywhere you work, even if your team lives in Claude or Cursor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nemotron",
+      "type": "company",
+      "role": "company",
+      "name": "Nemotron",
+      "file": "Nemotron",
+      "primary": false,
+      "how_described": "本集说 NVIDIA 将 Poolside 的 109 名工程师转移到 Nemotron 来帮助构建它，是 NVIDIA 在美国开源模型方向的布局",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            287.943,
+            304.115
+          ],
+          "quote": "And we're going to start with the model layer where NVIDIA is paying $6 billion to license Poolside's model factory and investing $1 billion more at a $12 billion pre-money valuation, moving 109 engineers over to Nemotron to help build it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            568.83,
+            574.335
+          ],
+          "quote": "Does this really move the needle for NVIDIA in their ability to make Nemotron truly competitive?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            576.577,
+            578.299
+          ],
+          "quote": "One is, is this additive to Nemotron?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            578.319,
+            583.164
+          ],
+          "quote": "And then the second question is, does Nemotron, even if it is competitive, does it move the needle?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": false,
+      "how_described": "本集说 OpenRouter 在 1.5 亿基础上增长 15%，被 Stripe 收购，作为受益于开放权重转型的平台，'现在是卖出的巅峰时刻'的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 473,
+          "t": [
+            1873.614,
+            1876.517
+          ],
+          "quote": "And obviously we've talked about OpenRouter, we've talked about other routers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2548.458,
+            2556.562
+          ],
+          "quote": "I don't get it other than it seems intuitively to me if right now, and this is OpenRouter too, right now is the moment in time to benefit from the lift of open weights, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2570.389,
+            2575.792
+          ],
+          "quote": "It's just a phase transition and your numbers are going to look amazing for 90, like they said OpenRouter was growing 15% at 150 million, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 879,
+          "t": [
+            3402.457,
+            3413.106
+          ],
+          "quote": "I think that what they were saying and why they bought OpenRouter is people are going to have to control intelligence in a way that's more like how you control money and less like how you think about software licensing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集反复讨论前沿模型，核心论点是'全世界只有四五家公司能资助最先进的前沿模型'——Microsoft、Google、Amazon 和 NVIDIA，VC 早已被挤出，'VC 的钱很久以前就在 Anthropic 和 OpenAI 上用光了'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            758.17,
+            765.455
+          ],
+          "quote": "The only people capable of financing a state-of-the-art frontier model in the United States of America has been the hyperscalers themselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            835.72,
+            837.382
+          ],
+          "quote": "You're playing in the frontier model game.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            889.008,
+            890.529
+          ],
+          "quote": "And this was a play at a frontier model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-weight",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重 (open weight)",
+      "file": "开源权重",
+      "primary": true,
+      "how_described": "本集说'绝大多数 token 处理将是开放权重'，企业都在说'我最好在闭源前沿模型之外保持相关性'；但受益于向开放权重转型的产品'现在就是卖出的巅峰时刻'，90 天窗口期不会持续",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            841.245,
+            846.33
+          ],
+          "quote": "The two or three ostensible open weight winners in China are each worth 50 to 100 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            1869.75,
+            1873.194
+          ],
+          "quote": "There's so many open weight models where the performance is close.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 497,
+          "t": [
+            1967.852,
+            1972.093
+          ],
+          "quote": "Yes, I think that the vast predominance of tokens process will be open weight.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1982.137,
+            2004.41
+          ],
+          "quote": "And so I suppose at some level, Jason is correct, because if there's five or six, and I don't see them as being peers, but I think if there's five or six open weight companies dragging down everyone's gross, you're basically trying to steal gross margin away from the closed frontier models, especially if one of those, reminder, if one of those open weight companies is now funded by NVIDIA, so it gets rid of all the, oh, they're all Chinese comments, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2505.735,
+            2511.938
+          ],
+          "quote": "So you get in this whole trend for enterprise having their own models, starting with open weight models and then adopting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2636.263,
+            2641.965
+          ],
+          "quote": "If you are an enabling technology for open weight models, now is peak moment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            4237.124,
+            4243.349
+          ],
+          "quote": "To solve the goal-seeking nature of the LLMs they're running on, the open weight models have fewer guardrails.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vendor-financing",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应商融资 (vendor financing)",
+      "file": "供应商融资",
+      "primary": true,
+      "how_described": "本集将 NVIDIA 对 OpenAI 的投资定义为供应商融资——'作为芯片供应商的你选择给你的客户钱'，警告如果 OpenAI 明年不需要那么多算力，这些钱就打水漂，类比 2000 年电信崩盘",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1239.276,
+            1249.509
+          ],
+          "quote": "And then something like perplexity investment or OpenAI investment is literally, especially the OpenAI, is vendor financing, where you as the vendor of the chips are choosing to give your customer money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1277.009,
+            1284.82
+          ],
+          "quote": "You're not going to find that the OpenAIs and the Anthropics, if they don't suddenly need $100 billion worth of compute, you might regret some of this vendor financing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 715,
+          "t": [
+            2778.719,
+            2795.805
+          ],
+          "quote": "By the way, it's going to circle back to NVIDIA and all their investment and vendor financing, because in both ways, both of situational awareness and NVIDIA, the aha here is when you're dealing with money and leverage, you don't just have to be right in the long term, you also have to be right every step along the way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 719,
+          "t": [
+            2805.367,
+            2806.908
+          ],
+          "quote": "And the same is true about vendor financing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "time-expansion",
+      "type": "concept",
+      "role": "concept",
+      "name": "时间扩展 (time expansion)",
+      "file": "时间扩展",
+      "primary": false,
+      "how_described": "本集说 NVIDIA 对 Poolside 和 NeoCloud 的投资属于时间扩展——通过购买相邻产品或资助云厂商来'推美国开源模型在自家芯片上跑'，直接带动芯片销售",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            977.589,
+            989.454
+          ],
+          "quote": "I will admit, when I think about all the things that NVIDIA should be doing with its money, it wasn't obvious to me that funding Merkur made as much sense as some of the other bets, because the other bets are all about time expansion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1224.491,
+            1231.553
+          ],
+          "quote": "They're doing such a lot, thinking in real time here, because the poolside acquisition is time expansion by buying an adjacent product.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集说企业和个人已经'对 token 上瘾了'——'我需要我的 10 个子智能体全天候 24 小时运行来做我的工作，否则我就辞职'；但 CFO 面临硬约束，token 账单会直接冲击 EPS",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            583.384,
+            593.455
+          ],
+          "quote": "But if you zoom out a level, right now, there's a whole bunch of Chinese open source models that are getting a lot of the token volume, which means they're doing a lot of the compute, even if they're not getting a lot of the margin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3296.563,
+            3298.783
+          ],
+          "quote": "And so we went, we started this year on token maxing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 855,
+          "t": [
+            3317.675,
+            3320.157
+          ],
+          "quote": "We're going through this token balancing thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3335.951,
+            3340.154
+          ],
+          "quote": "So I do believe as businesses and in society, we are token addicted.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 896,
+          "t": [
+            3469.023,
+            3471.565
+          ],
+          "quote": "I'm okay with running up $100 million token bill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 945,
+          "t": [
+            3582.214,
+            3584.716
+          ],
+          "quote": "Do I invest in Jason's token budget because he's a winner?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 946,
+          "t": [
+            3584.736,
+            3588.861
+          ],
+          "quote": "But do I cut off Harry's token budget because all he's doing is asking dumb questions to Claude?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 968,
+          "t": [
+            3655.938,
+            3663.162
+          ],
+          "quote": "And so, yeah, the CFOs have to manage your token, but Jesus Christ, if 30% of my company leaves to go work for Harvey, I'm dead in the water.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集多次提到智能体，包括'子智能体'（sub-agents）、'智能体信任平台'（Vanta）、以及'我们今天仍然无法信任智能体'的安全问题讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            133.804,
+            139.409
+          ],
+          "quote": "Now access the Vanta agent everywhere you work, even if your team lives in Claude or Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1008,
+          "t": [
+            3760.868,
+            3766.072
+          ],
+          "quote": "What if you can just talk to your agent and say, I want a fully edited version of 20 VC ready in one hour?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1049,
+          "t": [
+            3866.866,
+            3870.33
+          ],
+          "quote": "It is benefiting so much from every agent, every agentic product using them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1050,
+          "t": [
+            3870.61,
+            3874.114
+          ],
+          "quote": "You literally have to argue with an agent to get it not to use Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1099,
+          "t": [
+            4061.598,
+            4065.201
+          ],
+          "quote": "We have the GitHub buckling under AI agent commit tsunamis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1121,
+          "t": [
+            4136.331,
+            4144.876
+          ],
+          "quote": "So as listeners, think of this as a next generation agent that was kind of stealth launching, raising a VC round, rather than focusing on just the negative.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            4144.896,
+            4149.679
+          ],
+          "quote": "The idea here is obviously that this is an agent that can look at your email, do your work on your behalf.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1273,
+          "t": [
+            4630.474,
+            4635.056
+          ],
+          "quote": "It's already dying and merging into marketing, sales, everything's becoming one agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1317,
+          "t": [
+            4821.038,
+            4826.643
+          ],
+          "quote": "Now, access the Vanta agent everywhere you work, even if your team lives in Claude or Cursor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集在讨论智能体安全时说'现在我们有更好的护栏'，但'有趣的是在实践中，截至今天还没有通过护栏得到很好的解决'，开放权重模型拥有更少的护栏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1130,
+          "t": [
+            4168.089,
+            4169.53
+          ],
+          "quote": "Now we have better guardrails.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            4219.104,
+            4220.285
+          ],
+          "quote": "Sure, there's guardrails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1149,
+          "t": [
+            4221.787,
+            4227.573
+          ],
+          "quote": "Smarter people than me will explain when it's solvable, but it is interesting that it isn't well solved with guardrails today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            4237.124,
+            4243.349
+          ],
+          "quote": "To solve the goal-seeking nature of the LLMs they're running on, the open weight models have fewer guardrails.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1156,
+          "t": [
+            4247.932,
+            4251.735
+          ],
+          "quote": "So we're also have a vector that's having fewer guardrails and limitations.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集在算收入构成时提到'一半的支出花在计算和推理上'（half of that spend goes on compute and inference），作为前沿模型成本结构的组成部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 335,
+          "t": [
+            1330.986,
+            1335.87
+          ],
+          "quote": "Most of that spend goes on, half of that spend goes on compute and inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 487,
+          "t": [
+            1931.421,
+            1940.443
+          ],
+          "quote": "But with 11 competitors or 12 competitors running on open source, running inference on new platforms, man, it's a hyper-competitive world for number two.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 498,
+          "t": [
+            1972.473,
+            1980.836
+          ],
+          "quote": "And obviously, yes, keep reiterating, the significant majority of revenue will still be frontier state-of-the-art because it can command more value than just the price of inference.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集说 Poolside'无法筹集 20 亿美元来购买 4 万块 GPU'，NVIDIA 因为'我们制造 GPU'所以能搞到 GPU，GPU 是前沿模型竞争的核心资源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            423.425,
+            429.69
+          ],
+          "quote": "Well, it turns out we have access to GPU because we make GPU and you've kind of carried the ball down the field this far.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tam",
+      "type": "concept",
+      "role": "concept",
+      "name": "TAM",
+      "file": "TAM",
+      "primary": false,
+      "how_described": "本集说 Anthropic 声称 TAM 是 30 万亿，'你的 TAM 是整个美国的 GDP'，被评论为'每个人当他们做得非常好时都会变得有点妄想'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 616,
+          "t": [
+            2410.497,
+            2412.497
+          ],
+          "quote": "They believe their TAM is 30 trillion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2417.459,
+            2419.779
+          ],
+          "quote": "Your TAM is, you know, the entire US GDP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2431.069,
+            2435.953
+          ],
+          "quote": "If you're claiming a TAM that's the size of the US economy, yeah, that's a high bar.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

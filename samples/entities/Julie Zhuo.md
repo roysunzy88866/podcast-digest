@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]] [[Manoj Saxena]]
+[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":141,"构建者":2,"可观测性":12,"对话分析":1,"评估":16,"维度思维":1,"ChatGPT":36,"Cursor":35,"OpenAI":63}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":146,"构建者":2,"可观测性":13,"对话分析":1,"评估":16,"维度思维":1,"ChatGPT":37,"Cursor":37,"OpenAI":65}</script>
 
 <script>
 (function(){

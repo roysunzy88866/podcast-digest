@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]]**(30:34起):本集说 Stripe 最近推出了 Link agent wallet，现在有一个 Link CLI，智能体可以直接收集 Link 凭证去使用，在人工参与的情况下完成支付。
+- **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(30:34起):本集说 Stripe 最近推出了 Link agent wallet，现在有一个 Link CLI，智能体可以直接收集 Link 凭证去使用，在人工参与的情况下完成支付。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 的选择：用 AI 构建更多，而不是更少》]] — 作为概念
+- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为概念
 
 ## ③ 关联
 
@@ -25,7 +25,7 @@ unlisted: true
 
 [[David George]] · [[Will Gabrick]] · [[Stripe]] · [[Stripe Minions]] · [[智能体]] · [[智能体商务]] · [[稳定币]] · [[微交易]] · [[Tempo]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"David George":2,"Will Gabrick":1,"Stripe":19,"Stripe Minions":1,"智能体":141,"智能体商务":1,"稳定币":1,"微交易":1,"Tempo":1,"主观能动性":15}</script>
+<script type="application/json" class="pd-epn">{"David George":2,"Will Gabrick":1,"Stripe":20,"Stripe Minions":1,"智能体":146,"智能体商务":1,"稳定币":1,"微交易":1,"Tempo":1,"主观能动性":15}</script>
 
 <script>
 (function(){

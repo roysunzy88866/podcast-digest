@@ -21,7 +21,7 @@ unlisted: true
 
 *5 集*
 
-- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《Simile：用模拟人帮大公司避开五亿美元级失误》]] — 作为联合主持
+- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]] — 作为联合主持
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为联合主持
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为主持
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为主持
@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[推理]] · [[Anthropic]] · [[AEO]] · [[Revolut]] · [[Fireworks]] · [[ChatGPT]] · [[Airbnb]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":141,"OpenAI":63,"推理":1,"Anthropic":70,"AEO":3,"Revolut":4,"Fireworks":2,"ChatGPT":36,"Airbnb":9,"Cursor":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"推理":2,"Anthropic":72,"AEO":3,"Revolut":4,"Fireworks":2,"ChatGPT":37,"Airbnb":9,"Cursor":37}</script>
 
 <script>
 (function(){
