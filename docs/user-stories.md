@@ -2790,3 +2790,47 @@ Scenario: JSON 优先但解不出不该埋没 SRT —— 词级识别让 AI-Nati
 4. 云端真跑实证:Product Podcast 或 AI-Native Dev 一集走「feed 官方稿」秒级过品味判官上站。
 5. 两源进 SOURCES + BACKFILL_FEED_KEYS,--seed 设基线(只补缺不顶存量)。
 6. GLM 冷审 + 裁决落账。
+
+## C38 · 口播稿:音频改念"讲述口吻"的单独稿,不再逐字念精华 · US-4 · 2026-08-29 用户拍板 [standard-change: 用户授权]
+
+> 用户「配音直接读文本太无趣」。精华正文是给**眼睛**读的(信息密、每个小标题都念出来像念课文);
+> 音频要给**耳朵**——重新写一版"讲给你听"的口播稿。**网页文字不变**(用户刚定稿的落地开头保留),
+> **音频单独一版**(听读可不一致,但都忠于原集)。风格四拍板(用户逐条调过样音):
+> ①讲述口吻活泼、直接对"你"说 ②钩子开头 + 紧接一句快速点题(这期讲啥)③挑一条主线讲透(取舍非漏讲)
+> ④极少用"他"(中文口播连着"他…他…"极刺耳)。结构靠标点/空行自然停顿,**不加音效/音乐**(片头音乐另议)。
+
+Scenario: 有口播稿的集,音频念口播稿;没有的存量集念 digest_md(不受影响)
+  Given 一集 digest.json 里有 voice_script 字段
+  Then tts 的 sourceText 返回 voice_script(音频念口播稿),网页集页仍渲染 digest_md(读的是精华)
+  When 集子没有 voice_script(存量集/生成失败)
+  Then sourceText 回落 digest_md,音频照旧念精华 —— 存量集零改动,新步骤失败也不阻塞发布
+
+Scenario: 口播稿生成过三道机器闸门,不过就不写(tts 回落念精华)
+  Given voice-script.mjs 拿 digest(正文+金句素材)让付费档 GLM 改写成口播稿
+  Then 过三道闸门才算数:①数「他」(总数≤6 且无连续两句他开头)②防漏念(无 markdown/标题/[时间戳]/结构标签,不让杂物被念进音频)③防失真(实体形状专名、阿拉伯数字都必须在原精华里出现过,与 gate-facts 同口径)
+  And 不过 → 附原因 nudge 重试(≤3 次);仍不过 → 不写 voice_script,退出非零但不阻塞(tts 回落念 digest_md)
+  So 防失真绝不降级:口播稿只是把已过闸门的精华讲好听,专名/数字 ⊆ 精华 ⇒ 不可能编造
+
+Scenario: 口播稿是纯口语正文,任何结构杂物都不许漏进音频
+  Given GLM 偶尔吐出 `## 小标题` / `[12:34 说话人]` / `开场：` / `**加粗**` / `[[双链]]` 这类杂物
+  Then speechErrs 逐类拦下打回 —— 绝不出现"念出结构词/时间戳"的翻车(带机器闸门,不靠模型自觉)
+
+Scenario: 「他」既强化提示词又机器兜底(实测 GLM 自己管不住)
+  Given 首版提示词只写"少用他",实测 GLM 仍一段十几个"他"
+  Then 提示词写狠(给删他/提宾语/偶尔点名三招 + 硬指标≤5)+ taErrs 机器数「他」超标/扎堆就打回
+  So 用户点名的头号刺耳问题,靠"提示词压 + 闸门卡"两道保住,不赌模型自觉
+
+Scenario: refresh 重配音时重生成口播稿;--no-audio 只改文字那支不动口播稿
+  Given refresh 一集且要重配音(!noAudio):digest 变了
+  Then 链 = 浓缩→判官→金句规整→gate→gate-facts→voice-script→tts(新精华配新口播稿新音频)
+  When refresh 带 --no-audio(先改文字、配音后补)
+  Then 跳过 voice-script 和 tts —— 旧口播稿+旧音频保持一致,不让 source_sha256 白陈旧
+
+### DoD(C38)
+1. voice-script.mjs:三道闸门纯函数(taErrs/speechErrs/distortErrs)+ 生成重试(DI ask 可测,不烧钱)+ main 写 voice_script 回 digest.json;缓存 .voice-raw.txt 只在过闸门时才认(照 condense)。
+2. tts.mjs sourceText 优先 voice_script、回落 digest_md;source hash 连带敏感(生成/改口播稿→重合成)。
+3. run-pipeline 与 refresh(!noAudio 支)在 tts 前插 voice-script,best-effort 不阻塞。
+4. 单测覆盖三闸(好稿过/各类坏输入拦)+ 重试(首过/重试/试满返 null)+ sourceText 回落 + refresh 链;变异当场红。
+5. 提示词 prompts/voice-script.md;实测真跑一集验证风格(活泼+钩子+快速点题+少他)+ MiMo 配出样音过用户听感。
+6. GLM 冷审 + 裁决落账。
+7. 片头音乐(免费可商用)另作一步,不进本切片。

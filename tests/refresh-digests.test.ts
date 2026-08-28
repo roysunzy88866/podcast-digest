@@ -112,6 +112,7 @@ describe("refreshOne · 只烧该烧的钱(步骤链 = 拍板语义,一步不多
       "scripts/repair-quotes.mjs",
       "scripts/gate.mjs",
       "scripts/gate-facts.mjs",
+      "scripts/voice-script.mjs", // C38:digest 变了 → 重生成口播稿,再配新音频(best-effort)
       "scripts/tts.mjs",
     ]);
     // 绝不重烧:翻译/取源/实体/嘉宾都不在链上(缓存与存量产物原样复用)

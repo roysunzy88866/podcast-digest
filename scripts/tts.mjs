@@ -301,12 +301,15 @@ export function ffmpegConcatArgs(partPaths, outPath) {
 // 5) 源文本 hash(缓存幂等 + gate 陈旧检测)
 // ────────────────────────────────────────────────────────────────────────────
 
-/** 音频源文本 = 只读 digest_md(与合成输入同源,便于 hash 一致)。
- *  [standard-change: 用户授权 2026-07-30] C15 起 digest_md 第一段就是开场钩子,
- *  音频开场不再被干瘪的 tldr 抢跑(tldr 照旧进集页「一句话」框与 feed 简介,与音频无关)。
- *  连带(预期):全库存量音频 source hash 作废 → 云端按指纹重合成(edge-tts 免费),不是故障。 */
+/** 音频源文本:有 voice_script(C38 口播稿)就念它,没有回落 digest_md。
+ *  [standard-change: 用户授权 2026-08-29] 音频 ≠ 网页文字:网页仍显示 digest_md(好读),
+ *  音频改念单独的口播稿(好听,讲述口吻+结构化,voice-script.mjs 生成、过三道闸门)。
+ *  存量集无 voice_script → 照旧念 digest_md,行为不变。
+ *  hash 连带:集子生成/更新 voice_script 后 source hash 变 → gate-audio 判陈旧、重合成(应有行为)。
+ *  [standard-change: 用户授权 2026-07-30] digest_md 第一段就是开场钩子,音频开场不被干瘪 tldr 抢跑。 */
 export function sourceText(digest) {
-  return String(digest?.digest_md ?? "");
+  const vs = String(digest?.voice_script ?? "").trim();
+  return vs || String(digest?.digest_md ?? "");
 }
 
 /** 对音频源文本求 sha256(缓存幂等 + gate-audio 陈旧检测用) */

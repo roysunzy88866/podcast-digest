@@ -906,7 +906,10 @@ function processEpisode(item, id, source, state) {
   // 抽不到只留空、不阻塞发布(脚本自己 exit 0)。
   run("node", ["scripts/extract-guest.mjs", dir]);
   run("node", ["scripts/render.mjs", dir]); // 验证过了才出集页
-  run("node", ["scripts/tts.mjs", dir]);    // 才配音
+  // C38 口播稿:digest → 单独的"讲述口吻"口播稿(过三道闸门),给音频用;网页仍显示 digest_md。
+  // best-effort:runOk 不抛、失败也往下走 —— 没生成 voice_script,tts 自动回落念 digest_md(不阻塞发布)。
+  runOk("node", ["scripts/voice-script.mjs", dir]);
+  run("node", ["scripts/tts.mjs", dir]);    // 才配音(有口播稿念口播稿,没有念 digest_md)
   return { ok: true };
 }
 

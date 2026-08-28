@@ -173,6 +173,19 @@ describe("sourceText / sourceHash · 幂等 & 变化敏感(C15 刀①:音频跳�
   it("★ 只改 tldr 不改 digest_md → hash 不变(tldr 已不在音频口径内,不许触发全库白重念)", () => {
     expect(sourceHash({ tldr: "T2", digest_md: "M" })).toBe(sourceHash({ tldr: "T", digest_md: "M" }));
   });
+  // C38 [standard-change: 用户授权 2026-08-29] 音频改念单独口播稿:有 voice_script 念它、没有回落 digest_md。
+  it("★★★ 有 voice_script → 音频念口播稿(不念 digest_md);无则回落 digest_md(存量集不变)", () => {
+    expect(sourceText({ digest_md: "网页阅读文字", voice_script: "口播稿正文" })).toBe("口播稿正文");
+    expect(sourceText({ digest_md: "网页阅读文字" })).toBe("网页阅读文字"); // 存量集无口播稿,回落
+    expect(sourceText({ digest_md: "网页阅读文字", voice_script: "   " })).toBe("网页阅读文字"); // 空白口播稿=无效,回落
+  });
+  it("★★★ 生成/改口播稿后 source hash 变(gate-audio 判陈旧、重合成口播音频)", () => {
+    const base = sourceHash({ digest_md: "M" });
+    expect(sourceHash({ digest_md: "M", voice_script: "口播稿" })).not.toBe(base); // 加了口播稿→hash 变
+    expect(sourceHash({ digest_md: "M", voice_script: "口播稿改版" })).not.toBe(
+      sourceHash({ digest_md: "M", voice_script: "口播稿" }),
+    ); // 口播稿改了→hash 变
+  });
 });
 
 describe("buildSsml / xmlEscape · SSML 结构 + XML 转义", () => {
