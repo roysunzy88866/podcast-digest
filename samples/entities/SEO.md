@@ -39,7 +39,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Google]] · [[Lenny]] · [[Andrew]] · [[LLM]] · [[Sonia]] · [[Parag]] · [[Parallel]] · [[智能体]] · [[搜索智能体]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":37,"Google":29,"Lenny":65,"Andrew":3,"LLM":19,"Sonia":2,"Parag":2,"Parallel":4,"智能体":146,"搜索智能体":2}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":37,"Google":29,"Lenny":65,"Andrew":3,"LLM":20,"Sonia":2,"Parag":2,"Parallel":4,"智能体":146,"搜索智能体":2}</script>
 
 <script>
 (function(){

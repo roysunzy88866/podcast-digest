@@ -351,7 +351,7 @@ unlisted: true
 
 [[Lenny]] · [[Stripe]] · [[Claude]] · [[MCP]] · [[LLM]] · [[智能体]] · [[Brex]] · [[a16z]] · [[Meta]] · [[Dylan Field]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Stripe":20,"Claude":35,"MCP":17,"LLM":19,"智能体":146,"Brex":3,"a16z":6,"Meta":21,"Dylan Field":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Stripe":20,"Claude":35,"MCP":17,"LLM":20,"智能体":146,"Brex":3,"a16z":6,"Meta":21,"Dylan Field":2}</script>
 
 <script>
 (function(){

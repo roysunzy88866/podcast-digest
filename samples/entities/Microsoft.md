@@ -57,7 +57,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[Apple]] · [[Amazon]] · [[Lenny]] · [[Meta]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":72,"智能体":146,"OpenAI":65,"Google":29,"NVIDIA":23,"Apple":12,"Amazon":9,"Lenny":65,"Meta":21,"SpaceX":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":73,"智能体":146,"OpenAI":65,"Google":29,"NVIDIA":23,"Apple":12,"Amazon":9,"Lenny":65,"Meta":21,"SpaceX":9}</script>
 
 <script>
 (function(){

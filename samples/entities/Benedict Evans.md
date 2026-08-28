@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]]
+[[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"OpenAI":65,"Anthropic":72,"Google":29,"Meta":21,"Apple":12,"Microsoft":14,"AWS":8,"McKinsey":4,"Claude Code":37}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"OpenAI":65,"Anthropic":73,"Google":29,"Meta":21,"Apple":12,"Microsoft":14,"AWS":8,"McKinsey":4,"Claude Code":37}</script>
 
 <script>
 (function(){

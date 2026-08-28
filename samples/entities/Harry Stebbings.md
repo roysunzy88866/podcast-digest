@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[推理]] · [[Anthropic]] · [[AEO]] · [[Revolut]] · [[Fireworks]] · [[ChatGPT]] · [[Airbnb]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"推理":2,"Anthropic":72,"AEO":3,"Revolut":4,"Fireworks":2,"ChatGPT":37,"Airbnb":9,"Cursor":37}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"推理":2,"Anthropic":73,"AEO":3,"Revolut":4,"Fireworks":2,"ChatGPT":37,"Airbnb":9,"Cursor":37}</script>
 
 <script>
 (function(){

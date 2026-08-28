@@ -1,0 +1,897 @@
+{
+  "episode_id": "2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri",
+  "podcast": "The Peel",
+  "date": "2026-08-27",
+  "tags": [
+    "风投策略",
+    "美国新兴市场",
+    "投资组合构建",
+    "募资漏斗",
+    "产品市场匹配"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "turner",
+      "type": "person",
+      "role": "host",
+      "name": "Turner",
+      "file": "Turner",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.647,
+            5.428
+          ],
+          "quote": "Thanks for having me, Turner.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            473.296,
+            483.724
+          ],
+          "quote": "To skip the waitlist, head to flex.one and use my code Turner to get an additional 100,000 points worth $1,000 after spending your first $10,000 with Flexly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            484.264,
+            487.647
+          ],
+          "quote": "That's flex.one and code Turner for $1,000 on your first $10,000 to spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1575.316,
+            1578.92
+          ],
+          "quote": "Visit merge.dev slash turner to start building for free.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1579.441,
+            1582.625
+          ],
+          "quote": "That's merge.dev slash turner to try Merge for free.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chris-olsen",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Olsen",
+      "file": "Chris Olsen",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sequoia",
+      "type": "company",
+      "role": "company",
+      "name": "Sequoia",
+      "file": "Sequoia",
+      "primary": true,
+      "how_described": "本集说 Sequoia 是一家拥有 50 年无与伦比成功记录的机构，Chris 2006 年加入并在那里学到了三件事：极端的职业道德、主题化投资以及第一性原理决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            506.513,
+            518.12
+          ],
+          "quote": "So when I worked at Sequoia, we had almost this Ancestry.com map of the humans, the people that were building these companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            651.783,
+            655.545
+          ],
+          "quote": "You had joined Sequoia in- 2006.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            662.43,
+            673.397
+          ],
+          "quote": "And then I know there's the first day you were at Sequoia, like the first investment committee, it was like the very first seeds of like, kind of where drive might be possible or where the opportunity was.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            673.417,
+            676.679
+          ],
+          "quote": "So I'm interested in like, what have you, what'd you learn while you're at Sequoia?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            679.02,
+            685.342
+          ],
+          "quote": "I mean, look, the reality is that I think Sequoia is a truly special firm.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1496.471,
+            1498.532
+          ],
+          "quote": "It was like your first investment committee at Sequoia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1588.168,
+            1590.63
+          ],
+          "quote": "At the time, I had just been hired at Sequoia.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1642.027,
+            1660.481
+          ],
+          "quote": "Then discovering that even a partnership like Sequoia is susceptible to the same thinking that I'm describing, where the thinking at the time was that you could only invest in companies in Silicon Valley.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1693.83,
+            1713.695
+          ],
+          "quote": "Well, I just think it epitomizes the ruthlessness of what Sequoia's success had been was being laser focused on winning that stretch between 280 and 101 and making sure that they won in that corner of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1828.564,
+            1830.745
+          ],
+          "quote": "This was at Sequoia was considering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2476.589,
+            2486.12
+          ],
+          "quote": "And I think that it was, trust me, it was a very rude awakening to come outside of a place like Sequoia where, look, fundraising for them is a very different thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2536.696,
+            2547.839
+          ],
+          "quote": "And you know, the reality is like, trust me, like the early days of Sequoia, like Don's stories of early fundraising in the seventies and eighties at Sequoia were not the Sequoia of today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2588.825,
+            2594.65
+          ],
+          "quote": "Sequoia, Kleiner-Perkins, Benchmark, Excel, and very recently, Andreessen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3774.978,
+            3789.55
+          ],
+          "quote": "But instead of 10% going to Sequoia, 10% going to Andreessen, 10% going to Lightspeed, we get to consolidate all that and say, we'll just buy 30%, which means we have a larger concentration in our funds, but we have way larger ownership sizes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 955,
+          "t": [
+            4850.951,
+            4859.116
+          ],
+          "quote": "If something is a market defining company in their sector, do you ever run into Sequoia A16Z poking around and there's this company we really like",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "path-robotics",
+      "type": "company",
+      "role": "company",
+      "name": "Path Robotics",
+      "file": "Path Robotics",
+      "primary": true,
+      "how_described": "本集说 Path Robotics 是 Drive 的投资组合公司，总部位于哥伦布，做重型制造领域的智能焊接机器人，能处理从狭窄空间到 100 吨电线杆焊接的各种场景，客户购入后员工人数反而增加",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1088,
+          "t": [
+            5574.999,
+            5577.241
+          ],
+          "quote": "Like, you know, look at like what Path Robotics is doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1102,
+          "t": [
+            5640.947,
+            5653.432
+          ],
+          "quote": "And I think it's interesting, in our companies that are doing this stuff, like we look at the headcount, every one of our, if you look at like Path Robotics, every one of their customers, after they buy a Path Robot, they hire more people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1105,
+          "t": [
+            5671.124,
+            5680.752
+          ],
+          "quote": "I'm just saying at the Path Robotics website, it looks like it's kind of an arm, magnetic arm, or sorry, robotic arm that essentially welds things together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            5728.31,
+            5744.585
+          ],
+          "quote": "Path Robotics has been able to build the intelligence such that whether it's a very tight space that you need to put on top of a quadrupedal robotic dog to go in and get that,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1127,
+          "t": [
+            5807.485,
+            5821.632
+          ],
+          "quote": "Again, it's an example of like, it's a niche, but if it can be solved with a technology and a product like Path Robotics, I mean, this is the kind of potential that unlocks massive, massive companies like 50, $100 billion type opportunities.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 的获取成本正在大幅下降，使得住在美国经济腹地、拥有领域知识（制造业、医疗、物流等）的创始人可以用 AI 把痛点变成可规模化的公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            193.941,
+            203.864
+          ],
+          "quote": "Two years ago, to build an LLM, it would have cost a billion dollars and you would have needed the greatest computer science minds in the world to solve this problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            204.584,
+            214.828
+          ],
+          "quote": "Today, I can stand up an LLM and run it on a laptop because it's been so heavily subsidized by the venture community in Silicon Valley.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1562.505,
+            1569.829
+          ],
+          "quote": "It connects agents to thousands of tools, handles permissions and LLM routing, and lets teams move faster without building it all themselves.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloud-computing",
+      "type": "concept",
+      "role": "concept",
+      "name": "云计算 (cloud computing)",
+      "file": "云计算",
+      "primary": true,
+      "how_described": "本集说 2006 年云计算是一个分水岭时刻，它把以前极其稀缺的底层基础设施知识民主化了，只需一根网线和一张信用卡就能从地球任何角落访问世界级计算资源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            588.828,
+            600.612
+          ],
+          "quote": "And it was truly a watershed moment for, I mean, really for the world, where suddenly cloud computing took what was previously this very scarce knowledge set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1748.349,
+            1760.696
+          ],
+          "quote": "And that really happened around cloud computing, where we started to see more and more companies that were getting started and going public even in these other American cities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2092.776,
+            2099.018
+          ],
+          "quote": "You start pushing down and we were looking at it and saying, okay, so where's the most valuable cloud computing company in the world?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vacuum",
+      "type": "concept",
+      "role": "concept",
+      "name": "真空 (vacuum)",
+      "file": "真空",
+      "primary": true,
+      "how_described": "本集把'数据说一件事、但主流叙事说相反的事'定义为真空，比如红杉因为一家公司总部在旧金山以北 10 英里的佩塔卢马就直接 pass，这就是市场转变了但认知没跟上造成的真空",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1435.82,
+            1438.603
+          ],
+          "quote": "We get excited and we define that as a vacuum.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1438.884,
+            1447.675
+          ],
+          "quote": "You've found a space in the world that is not occupied and it's a matter of time until somebody fills that vacuum.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1450.953,
+            1456.878
+          ],
+          "quote": "And the idea is like, how do you identify, how do you become a vacuum identification machine?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1479.043,
+            1483.345
+          ],
+          "quote": "Hoover or Bissell or, but no, the actual is the vacuum.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1744.687,
+            1747.949
+          ],
+          "quote": "And as the market shifts, it created a vacuum.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1771.054,
+            1776.778
+          ],
+          "quote": "Cause you talked about like this vacuum, like, okay, like what did the numbers kind of show versus what everyone was kind of thinking at the time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3592.23,
+            3593.691
+          ],
+          "quote": "This is an example of a vacuum.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "thematic",
+      "type": "concept",
+      "role": "concept",
+      "name": "主题化投资 (thematic)",
+      "file": "主题化投资",
+      "primary": true,
+      "how_described": "本集说主题化投资是与'会议工厂'相反的方法：锁定一个方向深扎 90 天，拉到全球视角看，如果发现最好的答案不是风投就果断放弃等下一个，这样投后能给创始人一张完整的行业地图",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            862.528,
+            879.573
+          ],
+          "quote": "And I think that we used to describe it in broad terms, and we do this at Drive, is basically to say that like, look, what we believe is that the only way to be successful at this is to be thematic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            948.974,
+            961.238
+          ],
+          "quote": "So by contrast, I think what we believe is that to be successful at this, you have to develop some kind of insight and subject matter expertise by being thematic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1306.248,
+            1307.268
+          ],
+          "quote": "I'd say be thematic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 937,
+          "t": [
+            4781.946,
+            4787.37
+          ],
+          "quote": "Our attitude is let's be thematic and let's identify when a catalyst has occurred.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-construction",
+      "type": "concept",
+      "role": "concept",
+      "name": "投资组合构建 (portfolio construction)",
+      "file": "投资组合构建",
+      "primary": true,
+      "how_described": "本集说 Drive 的投资组合构建不走万亿公司路线，而是把退出门槛降到 20 亿美元（过去 20 年超 300 家），通过控制基金规模和在竞争少的市场集中持股 25%-40% 来实现基金回本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 694,
+          "t": [
+            3481.475,
+            3487.737
+          ],
+          "quote": "And I think that comes down to portfolio construction and analyzing the exit market and understanding all that stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3569.104,
+            3571.125
+          ],
+          "quote": "How do you guys do your portfolio construction then?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场匹配 (product market fit)",
+      "file": "产品市场匹配",
+      "primary": true,
+      "how_described": "本集说如果你还在问'这是不是产品市场匹配'，那就不是——真正到了的时候，每个指标都在响，不是在干草堆里找针，而是全是针、没有干草",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1207,
+          "t": [
+            6185.852,
+            6188.395
+          ],
+          "quote": "And suddenly they find it and they've got product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1239,
+          "t": [
+            6317.696,
+            6321.998
+          ],
+          "quote": "Unless you've got that, if somebody's asking a question, is this product market fit?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "first-principles",
+      "type": "concept",
+      "role": "concept",
+      "name": "第一性原理 (first principles)",
+      "file": "第一性原理",
+      "primary": true,
+      "how_described": "本集说做决策时不要用'Google 是这么做的、Facebook 是那样做的'来推理，因为那些场景的要素跟你面前的完全不同，只看这个房间里的信息，找你独有的杠杆点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            1308.089,
+            1314.554
+          ],
+          "quote": "And then I think the third thing is like, that, you know, we believe a lot is like this idea of first principles.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1398.559,
+            1406.165
+          ],
+          "quote": "So we define that as first principles, like using only the information that is within this room to make this decision as the thing that's there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "conversion-rate",
+      "type": "concept",
+      "role": "concept",
+      "name": "转化率 (conversion rate)",
+      "file": "转化率",
+      "primary": true,
+      "how_described": "本集说募资就是销售——建漏斗、跑漏斗、接受你的转化率，Drive 第一支基金联系几千个 LP 拿到 223 次会议转化了 19 个，然后通过'物理出现'把分母从 2000 缩到 25",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 477,
+          "t": [
+            2449.922,
+            2459.064
+          ],
+          "quote": "And I think our conversion rate in our first set of LP outreach was something like 223 meetings.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2466.826,
+            2470.827
+          ],
+          "quote": "So like a pretty small conversion rate, 10%, 7%, something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2746.645,
+            2755.75
+          ],
+          "quote": "And now those products have to perform and they have to do all the things, but it's a huge advantage because you increase your success rate, your conversion rate goes up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2821.576,
+            2826.397
+          ],
+          "quote": "Y Combinator has like a 40 or 50% conversion rate from seed to series A.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2835.059,
+            2841.14
+          ],
+          "quote": "And I think, you know, our initial conversion rate on our seed program was in like the 10% bucket, which was really bad.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2896.468,
+            2900.61
+          ],
+          "quote": "And we've been able to increase our conversion rate from 10% to 25%.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3138.408,
+            3140.01
+          ],
+          "quote": "And you have your conversion rate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3140.21,
+            3142.472
+          ],
+          "quote": "And your conversion rate is going to be what it's going to be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3143.374,
+            3156.227
+          ],
+          "quote": "You can move that stuff on the margin, but the reality is if you've got an acceptable conversion rate, then you can use that conversion rate to now define how much work you need to do and the time you need to do it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 是少数几家在拿巨额 late-stage 资金的公司之一，LP 直投进去，掩盖了风投行业实际的大洗牌",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1335.838,
+            1337.259
+          ],
+          "quote": "Anthropic does it this way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 783,
+          "t": [
+            3915.107,
+            3921.029
+          ],
+          "quote": "And on the other side of a new firm and I'm like, I'm going to help you put Anthropic and OpenAI logos on your website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1042,
+          "t": [
+            5319.347,
+            5326.313
+          ],
+          "quote": "But the actual, a lot of that is LPs going direct into these late state grounds of Anthropic or SpaceX or whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            5498.64,
+            5505.705
+          ],
+          "quote": "There's the one sense of Anthropic and OpenAI are the last companies that matter, and you can't build more software because they're going to eat it all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            5514.989,
+            5518.471
+          ],
+          "quote": "I should like try to get, get a check in the Anthropic and do whatever I can.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1080,
+          "t": [
+            5524.193,
+            5531.716
+          ],
+          "quote": "I think that Anthropic and OpenAI and what Google is doing and what X is doing, I think these are world-changing technologies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "zoom",
+      "type": "company",
+      "role": "company",
+      "name": "Zoom",
+      "file": "Zoom",
+      "primary": false,
+      "how_described": "本集提到 Zoom 在疫情期间上市后的一周，负责的投资人 Pat Grady 做了 75 个会议，用来说明红杉的职业道德",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            817.479,
+            828.029
+          ],
+          "quote": "The week after Pat Grady had Zoom go public amidst COVID, this meteoric successful investment, he did something like 75 meetings the next week.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1039.352,
+            1048.235
+          ],
+          "quote": "The first thing it does is it forces you to zoom out and consider this theme amidst a globally relevant set of companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 673,
+          "t": [
+            3409.93,
+            3413.511
+          ],
+          "quote": "And being able to do that, where other people are like, oh, let's just do a Zoom.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3414.612,
+            3416.073
+          ],
+          "quote": "Like, it's a lot easier to do the Zoom.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4895.261,
+            4903.607
+          ],
+          "quote": "It's usually like the junior person, or it's usually, let's meet on Zoom, or, you know, it's a remote approach to it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "greenlight",
+      "type": "company",
+      "role": "company",
+      "name": "Greenlight",
+      "file": "Greenlight",
+      "primary": false,
+      "how_described": "本集提到 Greenlight 是 Drive 投资的、位于亚特兰大的领先家庭金融公司，是杜宾修正案催化剂主题下的投资案例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 951,
+          "t": [
+            4831.877,
+            4836.361
+          ],
+          "quote": "We invested in the leading family finance company out of Atlanta called Greenlight.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "type": "company",
+      "role": "company",
+      "name": "Branch",
+      "file": "Branch",
+      "primary": false,
+      "how_described": "本集提到 Branch 是 Drive 投资的、位于明尼阿波利斯的薪资公司，是杜宾修正案催化剂主题下的投资案例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 950,
+          "t": [
+            4827.314,
+            4831.857
+          ],
+          "quote": "We invested in a payroll company out of Minneapolis called Branch.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "duolingo",
+      "type": "company",
+      "role": "company",
+      "name": "Duolingo",
+      "file": "Duolingo",
+      "primary": false,
+      "how_described": "本集提到 Duolingo 是匹兹堡的公司，用来反驳'只有湾区才能出科技公司'的主流叙事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1776.798,
+            1781.121
+          ],
+          "quote": "Like did people not put together like, oh, there's this Duolingo company in Pittsburgh.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2270.486,
+            2280.011
+          ],
+          "quote": "And that's where you start running into companies like, you know, Duolingo in Pittsburgh or Root Insurance in Columbus or Tempest in Chicago or like, and you kind of start to go down the list.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "root-insurance",
+      "type": "company",
+      "role": "company",
+      "name": "Root Insurance",
+      "file": "Root Insurance",
+      "primary": false,
+      "how_described": "本集提到 Root Insurance 是哥伦布的公司，作为美国其他城市也能产生大型科技公司的例证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 441,
+          "t": [
+            2270.486,
+            2280.011
+          ],
+          "quote": "And that's where you start running into companies like, you know, Duolingo in Pittsburgh or Root Insurance in Columbus or Tempest in Chicago or like, and you kind of start to go down the list.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Drive Capital",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

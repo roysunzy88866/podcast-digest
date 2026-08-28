@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Daniel Whitenack]] · [[Hugging Face]] · [[Anthropic]] · [[护栏]] · [[IBM]] · [[沙箱]] · [[Daniel Widenach]] · [[企业软件]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"Daniel Whitenack":2,"Hugging Face":11,"Anthropic":72,"护栏":30,"IBM":2,"沙箱":29,"Daniel Widenach":1,"企业软件":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"Daniel Whitenack":2,"Hugging Face":11,"Anthropic":73,"护栏":30,"IBM":2,"沙箱":29,"Daniel Widenach":1,"企业软件":1}</script>
 
 <script>
 (function(){

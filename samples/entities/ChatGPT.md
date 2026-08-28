@@ -123,7 +123,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Google]] · [[vibe coding]] · [[Anthropic]] · [[Cursor]] · [[Codex]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"Claude":35,"OpenAI":65,"Google":29,"vibe coding":23,"Anthropic":72,"Cursor":37,"Codex":27,"LLM":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"Claude":35,"OpenAI":65,"Google":29,"vibe coding":23,"Anthropic":73,"Cursor":37,"Codex":27,"LLM":20}</script>
 
 <script>
 (function(){

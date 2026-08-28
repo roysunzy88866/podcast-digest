@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]]
+[[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lumilens":1,"Mayfield":1,"Anthropic":72,"OpenAI":65,"NVIDIA":23,"Claude":35,"智能体":146,"推理":2,"GPU":8,"SaaS":10}</script>
+<script type="application/json" class="pd-epn">{"Lumilens":1,"Mayfield":1,"Anthropic":73,"OpenAI":65,"NVIDIA":23,"Claude":35,"智能体":146,"推理":2,"GPU":8,"SaaS":10}</script>
 
 <script>
 (function(){

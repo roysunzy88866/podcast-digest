@@ -335,7 +335,7 @@ unlisted: true
 
 [[Marc Andreessen]] · [[Lenny]] · [[AI]] · [[生产力增长]] · [[一对一辅导]] · [[超级赋能个体]] · [[vibe coding]] · [[任务]] · [[LLM]] · [[护城河]]
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"Lenny":65,"AI":9,"生产力增长":1,"一对一辅导":1,"超级赋能个体":1,"vibe coding":23,"任务":2,"LLM":19,"护城河":7}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"Lenny":65,"AI":9,"生产力增长":1,"一对一辅导":1,"超级赋能个体":1,"vibe coding":23,"任务":2,"LLM":20,"护城河":7}</script>
 
 <script>
 (function(){

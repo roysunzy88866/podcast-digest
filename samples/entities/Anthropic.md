@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>72</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>73</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -82,6 +82,7 @@ unlisted: true
 - **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(02:20起):本集引用其 Managed Agents 论文，说 Anthropic 和 Cloudflare 都收敛到了智能体逻辑与工具执行分离、会话日志持久化的同一架构
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集将其与 OpenAI 并列为两家不盈利、不可持续的 AI 公司，70% 的 AI 收入来自它们，靠三家大公司投钱买算力维持，被视为'败家子'。
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(01:25起):本集提到 Ryan 与 Anthropic 合作发表 alignment faking 研究，以及作为 Plan A 下护城河被削弱的前沿公司之一
+- **[[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]]**(22:15起):本集提到 Anthropic 是少数几家在拿巨额 late-stage 资金的公司之一，LP 直投进去，掩盖了风投行业实际的大洗牌
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(00:09起):本集说 Anthropic 年中已达 600 亿年化率，比 OpenAI 更大且增长更快；被概括为'今天 Anthropic 是什么，全都是关于代码——那是唯一重要的一句话'，押注代码市场这个采用最快、ROI 最高的市场
 
 ## ① 提到它的金句
@@ -112,7 +113,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*72 集*
+*73 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -185,6 +186,7 @@ unlisted: true
 - [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为被讨论公司(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
+- [[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]] — 作为被讨论公司(提及)
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司
 
 ## ③ 关联

@@ -33,7 +33,7 @@ unlisted: true
 
 [[GPU]] · [[推理]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Cursor]] · [[NVIDIA]] · [[Nemotron]] · [[token]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"GPU":8,"推理":2,"OpenAI":65,"Anthropic":72,"智能体":146,"Cursor":37,"NVIDIA":23,"Nemotron":4,"token":10,"Stripe":20}</script>
+<script type="application/json" class="pd-epn">{"GPU":8,"推理":2,"OpenAI":65,"Anthropic":73,"智能体":146,"Cursor":37,"NVIDIA":23,"Nemotron":4,"token":10,"Stripe":20}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[Stripe]] · [[Cursor]] · [[Nemotron]] · [[OpenRouter]] · [[前沿模型]] · [[开源权重]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":23,"OpenAI":65,"Anthropic":72,"Hugging Face":11,"Stripe":20,"Cursor":37,"Nemotron":4,"OpenRouter":5,"前沿模型":4,"开源权重":4}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":23,"OpenAI":65,"Anthropic":73,"Hugging Face":11,"Stripe":20,"Cursor":37,"Nemotron":4,"OpenRouter":5,"前沿模型":4,"开源权重":4}</script>
 
 <script>
 (function(){

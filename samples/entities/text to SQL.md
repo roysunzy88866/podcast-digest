@@ -25,7 +25,7 @@ unlisted: true
 
 [[Albert Cheng]] · [[Lenny]] · [[Duolingo]] · [[Grammarly]] · [[Chess.com]] · [[探索与利用]] · [[用户留存]] · [[免费增值]] · [[实验]] · [[复活用户]]
 
-<script type="application/json" class="pd-epn">{"Albert Cheng":1,"Lenny":65,"Duolingo":3,"Grammarly":2,"Chess.com":2,"探索与利用":1,"用户留存":1,"免费增值":1,"实验":1,"复活用户":1}</script>
+<script type="application/json" class="pd-epn">{"Albert Cheng":1,"Lenny":65,"Duolingo":4,"Grammarly":2,"Chess.com":2,"探索与利用":1,"用户留存":1,"免费增值":1,"实验":1,"复活用户":1}</script>
 
 <script>
 (function(){

@@ -42,7 +42,7 @@ aliases: ["cognition"]
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[沙箱]] · [[Devon]] · [[a16z]] · [[Claude Code]] · [[Cursor]] · [[Ivan Burazin]] · [[swyx]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"Anthropic":72,"沙箱":29,"Devon":4,"a16z":6,"Claude Code":37,"Cursor":37,"Ivan Burazin":1,"swyx":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"Anthropic":73,"沙箱":29,"Devon":4,"a16z":6,"Claude Code":37,"Cursor":37,"Ivan Burazin":1,"swyx":1}</script>
 
 <script>
 (function(){

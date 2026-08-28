@@ -53,7 +53,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[推理]] · [[开源权重]] · [[NVIDIA]] · [[Theo Jaffe]] · [[Mistral]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"护栏":30,"Anthropic":72,"推理":2,"开源权重":4,"NVIDIA":23,"Theo Jaffe":3,"Mistral":5,"AGI":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"护栏":30,"Anthropic":73,"推理":2,"开源权重":4,"NVIDIA":23,"Theo Jaffe":3,"Mistral":5,"AGI":16}</script>
 
 <script>
 (function(){

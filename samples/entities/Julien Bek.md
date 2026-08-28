@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Ranjan]]
+[[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Sequoia":2,"智能体":146,"Copilot":6,"自动驾驶":1,"服务伪装成软件":1,"IC":5,"AEO":3,"Sierra":4,"SpaceX":9}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":5,"Sequoia":3,"智能体":146,"Copilot":6,"自动驾驶":1,"服务伪装成软件":1,"IC":5,"AEO":3,"Sierra":4,"SpaceX":9}</script>
 
 <script>
 (function(){

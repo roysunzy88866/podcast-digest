@@ -35,7 +35,7 @@ unlisted: true
 
 [[Albert Cheng]] · [[Matt Swulinski]] · [[Lenny]] · [[Harry Stebbings]] · [[Duolingo]] · [[Superhuman]] · [[Chess.com]] · [[Whisper]] · [[探索与利用]] · [[Victor]]
 
-<script type="application/json" class="pd-epn">{"Albert Cheng":1,"Matt Swulinski":1,"Lenny":65,"Harry Stebbings":5,"Duolingo":3,"Superhuman":4,"Chess.com":2,"Whisper":1,"探索与利用":1,"Victor":1}</script>
+<script type="application/json" class="pd-epn">{"Albert Cheng":1,"Matt Swulinski":1,"Lenny":65,"Harry Stebbings":5,"Duolingo":4,"Superhuman":4,"Chess.com":2,"Whisper":1,"探索与利用":1,"Victor":1}</script>
 
 <script>
 (function(){

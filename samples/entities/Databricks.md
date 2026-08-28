@@ -36,7 +36,7 @@ unlisted: true
 
 [[智能体]] · [[护栏]] · [[Claude]] · [[Lenny]] · [[Brex]] · [[后训练]] · [[MCP]] · [[ChatGPT]] · [[Cursor]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"护栏":30,"Claude":35,"Lenny":65,"Brex":3,"后训练":13,"MCP":17,"ChatGPT":37,"Cursor":37,"LLM":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"护栏":30,"Claude":35,"Lenny":65,"Brex":3,"后训练":13,"MCP":17,"ChatGPT":37,"Cursor":37,"LLM":20}</script>
 
 <script>
 (function(){

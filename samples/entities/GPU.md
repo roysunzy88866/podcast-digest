@@ -45,7 +45,7 @@ unlisted: true
 
 [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[推理]] · [[智能体]] · [[OpenRouter]] · [[token]] · [[Cursor]] · [[人工智能]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":23,"Anthropic":72,"OpenAI":65,"推理":2,"智能体":146,"OpenRouter":5,"token":10,"Cursor":37,"人工智能":2,"SaaS":10}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":23,"Anthropic":73,"OpenAI":65,"推理":2,"智能体":146,"OpenRouter":5,"token":10,"Cursor":37,"人工智能":2,"SaaS":10}</script>
 
 <script>
 (function(){

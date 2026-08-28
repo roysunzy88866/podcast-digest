@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>19</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>20</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,6 +30,7 @@ unlisted: true
 - **[[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]]**(01:50起):本集将 LLM 描述为人们未来获取新闻和信息的主要渠道，正在不可避免地吞并发布者的内容，但其输出质量（尤其在政治、医疗等敏感话题上）存在系统性问题
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(03:01起):本集说现在每个人都在跟自己选择的 LLM 对话，这非常孤独且不是视觉化的
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(15:32起):本集反复出现，被描述为使用时不管结果对不对都要付费的'文本机器'，提供中位数答案，幻觉在数学上保证会发生，是所有数据中心建设的唯一服务对象。
+- **[[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]]**(03:13起):本集说 LLM 的获取成本正在大幅下降，使得住在美国经济腹地、拥有领域知识（制造业、医疗、物流等）的创始人可以用 AI 把痛点变成可规模化的公司
 
 ## ① 提到它的金句
 
@@ -63,7 +64,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念
@@ -84,14 +85,15 @@ unlisted: true
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|《谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场》]] — 作为概念
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为概念(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
+- [[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Replit]] · [[Google]] · [[OpenAI]] · [[Cursor]] · [[主观能动性]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Claude]] · [[Replit]] · [[Google]] · [[OpenAI]] · [[Cursor]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"Lenny":65,"Anthropic":72,"ChatGPT":37,"Claude":35,"Replit":11,"Google":29,"OpenAI":65,"Cursor":37,"主观能动性":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":73,"Lenny":65,"ChatGPT":37,"Claude":35,"Replit":11,"Google":29,"OpenAI":65,"Cursor":37,"主观能动性":15}</script>
 
 <script>
 (function(){
