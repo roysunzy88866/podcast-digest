@@ -8,6 +8,7 @@ import {
   baseErrs,
   scriptErrs,
   buildInput,
+  buildRef,
   generateWithRetry,
 } from "../scripts/voice-script.mjs";
 
@@ -81,6 +82,26 @@ describe("C38 · baseErrs 长度", () => {
   it("★ 太短 → 拦;太长 → 拦", () => {
     expect(baseErrs("太短了").some((e) => e.includes("太短"))).toBe(true);
     expect(baseErrs("字".repeat(3001)).some((e) => e.includes("太长"))).toBe(true);
+  });
+});
+
+describe("C38 · GLM 20260829-001 采纳修复(防回归)", () => {
+  it("★★★ [001-1] 「他们」开头的连续句不算刺耳的连续「他」(不误报)", () => {
+    expect(taErrs("他说了A。他们又说B。").some((e) => e.includes("连续两句"))).toBe(false);
+    // 真·单数他连续仍要报
+    expect(taErrs("这句好。他来了。他走了。").some((e) => e.includes("连续两句"))).toBe(true);
+  });
+  it("★★★ [001-2] 专名整词比对:凭空造的短专名恰是原精华里长专名的子串,不许被放行", () => {
+    expect(distortErrs("Trust 很厉害。", "TrustWise 很厉害。").some((e) => e.includes("Trust"))).toBe(true);
+    expect(distortErrs("TrustWise 很厉害。", "TrustWise 很厉害。")).toEqual([]); // 整词命中才算过
+  });
+  it("★★★ [001-3] 参照含金句素材:金句里有而正文没有的专名不算编造(避免无谓打回)", () => {
+    const ref = buildRef({ digest_md: "正文里没有那个词", quotes: [{ zh: "FooBar 很牛", en: "FooBar is great" }] });
+    expect(distortErrs("今天聊 FooBar。", ref)).toEqual([]);
+  });
+  it("★★ [001-4] markdown 水平分隔线(--- / *** / ___)→ 拦", () => {
+    expect(speechErrs("上一段。\n---\n下一段。").some((e) => e.includes("水平"))).toBe(true);
+    expect(speechErrs("上一段。\n***\n下一段。").some((e) => e.includes("水平"))).toBe(true);
   });
 });
 

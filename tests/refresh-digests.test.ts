@@ -117,9 +117,13 @@ describe("refreshOne · 只烧该烧的钱(步骤链 = 拍板语义,一步不多
     ]);
     // 绝不重烧:翻译/取源/实体/嘉宾都不在链上(缓存与存量产物原样复用)
     expect(scripts.join(",")).not.toMatch(/translate|fetch-source|extract-entities|extract-guest|infer-speakers/);
-    // 强制重浓缩:FORCE=1 绕过 .digest-raw.txt 缓存(condense 的 FORCE 语义),其余步骤不带 FORCE
-    expect(calls[0].env.FORCE).toBe("1");
-    for (const c of calls.slice(1)) expect(c.env.FORCE).toBeUndefined();
+    // 强制重生成:condense 与 voice-script 两步带 FORCE=1(重浓缩后旧口播稿已过时,必须按新精华重写),
+    // 其余步骤不带 FORCE。
+    const forced = calls.filter((c) => c.env.FORCE === "1").map((c) => c.args[0]);
+    expect(forced).toEqual(["scripts/condense.mjs", "scripts/voice-script.mjs"]);
+    for (const c of calls) {
+      if (!["scripts/condense.mjs", "scripts/voice-script.mjs"].includes(c.args[0])) expect(c.env.FORCE).toBeUndefined();
+    }
     // entities.json 一字不动(实体不重跑,2026-07-30 拍板)
     expect(JSON.parse(readFileSync(join(dir, "entities.json"), "utf8")).entities).toEqual([{ id: "x", name: "X" }]);
     // 全过后旧音频必被清(新稿配新音频,真 tts 会重写;陈旧音频不许存活)

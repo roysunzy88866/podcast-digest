@@ -110,9 +110,10 @@ export function refreshOne(id, { episodesDir = EPISODES, exec = ok, force = fals
     //   走 deploy-site 上站(只补缺音频、不跑 gate-all,陈旧音频不拦发布);别本地重录(慢的大头)。
     if (!noAudio) {
       audioTouched = true;
-      // C38 口播稿:digest 变了 → 重生成口播稿再配音(best-effort,失败 tts 回落念 digest_md,不阻塞)。
+      // C38 口播稿:digest 变了 → FORCE 重生成口播稿再配音(best-effort,失败 tts 回落念 digest_md,不阻塞)。
+      //   FORCE=1 绕过「已有合格 voice_script 跳过」幂等守卫——重浓缩后旧口播稿已过时,必须按新精华重写。
       //   --no-audio 那支不动:旧口播稿+旧音频保持一致,别让 source_sha256 白陈旧。
-      exec({}, "scripts/voice-script.mjs", rel);
+      exec({ FORCE: "1" }, "scripts/voice-script.mjs", rel);
       for (const f of ["audio.mp3", "audio.meta.json"]) { const p = join(dir, f); if (existsSync(p)) unlinkSync(p); }
       if (!exec({}, "scripts/tts.mjs", rel)) throw new Error("音频重合成失败");
     }
