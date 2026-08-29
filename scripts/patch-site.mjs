@@ -16,6 +16,7 @@
 import { readFileSync, writeFileSync, copyFileSync, mkdirSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { EAGER_LINE, LAZY_LINE } from "./lazy-content-index.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const cfgPath = process.argv[2] || resolve(ROOT, "site/quartz.config.yaml");
@@ -212,6 +213,14 @@ patchFile(
         {coreStylesheet && <link rel="preload" href={coreStylesheet} as="style" />}`,
   "自持普惠体 preload(Head)",
 );
+
+// ── 搜索索引按需加载(2026-08-29 用户「点进详情页要等 1-5 秒」)──
+// 上游 renderPage.tsx 给**每个页面**内联一行立即执行的 fetch("/static/contentIndex.json"):
+// 线上实测 gzip 2.24MB / 解压 7.8MB(详情页 HTML 自己才 33KB),下完还在主线程 JSON.parse 7.8MB;
+// 而详情页里 fetchData **无人消费**(搜索代码按需才加载)→ 纯白下、白解析,抢带宽+卡主线程 = 那 1-5 秒。
+// 换成惰性 thenable:谁真 await 它(打开搜索)才发请求并缓存,没人用则零字节。搜索功能不变。
+// 锚点是上游核心文件里的一整行,漂移即硬错(同本文件其它补丁的铁律)。
+patchFile(resolve(SITE, "quartz/components/renderPage.tsx"), EAGER_LINE, LAZY_LINE, "搜索索引改按需加载(治点进详情页卡 1-5 秒)");
 
 // ── C11 ⑥ 注入自定义样式 + 自托管普惠体子集 ──
 copyFileSync(resolve(ROOT, "assets/styles/custom.scss"), resolve(SITE, "quartz/styles/custom.scss"));
