@@ -41,6 +41,10 @@ node ../scripts/patch-site.mjs
 ( pip install --quiet fonttools brotli 2>/dev/null || pip3 install --quiet fonttools brotli 2>/dev/null || .venv/bin/pip install --quiet fonttools brotli 2>/dev/null || true
   node ../scripts/subset-font.mjs quartz/static/fonts/AlibabaPuHuiTi-min.woff2 ) \
   || echo "::warning::普惠体子集现切失败 → 用 committed min 兜底(可能略旧,新集生僻字或退回系统字)"
+# 给子集打内容指纹文件名(cache-busting;2026-08-29 用户「字体在 Safari 一样、独立 App 不一样」= standalone
+#   独立缓存容器长期拿旧固定名 subset)。必须在 subset(成功或 fail-open 兜底)之后、build 之前:指纹打在最终
+#   落地的字体上,并把 custom.scss/Head.tsx 的引用改到指纹名。之后 _headers 才敢给字体 immutable 长缓存。
+node ../scripts/hash-font.mjs
 # 2) 灌内容(集页 + 实体页)+ 列表首页
 cp ../samples/*.md content/ 2>/dev/null || true
 if ls ../samples/entities/*.md >/dev/null 2>&1; then
@@ -99,11 +103,13 @@ echo "public/podcast-cover.png ✔"
 #      build-feed ROOT 脚本锚定仓库根,从 site/ 跑仍正确读 samples/ + data/episodes。
 node ../scripts/build-feed.mjs --out public/feed.xml
 # feed 短缓存(drift #29:原遗留 s-maxage=7d 让新集最多 7 天才对播客 App 可见)。C26:JSON Feed 同缓存口径。
-# 字体缓存(2026-08-27 用户:「每次刷新都从系统字体变我的字体、能不能缓存」):CF Pages 默认只给 4h+must-revalidate,
-#   过期后每次刷新回源核对 → 配合 font-display 更闪。给字体 7 天缓存少重下(配 optional 刷新不再闪)。
-#   ⚠️ 不用 immutable/超长缓存:字体是每次部署按当前用字 subset-font 重切的(内容会变),固定名+immutable 会让
-#     返回用户长期拿旧 subset、新标题生字掉进苹方兜底;7 天到期靠 ETag 重取新 subset,缺字期间优雅回落不裂字。
-printf '/feed.xml\n  Cache-Control: public, max-age=3600, must-revalidate\n/feed.json\n  Cache-Control: public, max-age=3600, must-revalidate\n/static/fonts/*\n  Cache-Control: public, max-age=604800\n' > public/_headers
+# 字体缓存(2026-08-27 用户:「每次刷新都从系统字体变我的字体、能不能缓存」→ 要长缓存少重下)。
+#   2026-08-29 改用**内容指纹文件名**(hash-font.mjs:AlibabaPuHuiTi-min.<hash>.woff2)后,字体已是内容寻址资源:
+#   内容一变文件名就变、URL 就变,老 URL 永不复用 → 可安全 immutable 长缓存(fingerprinted asset 的标准做法)。
+#   这同时根治了旧方案的病:固定名 + 7 天缓存下,iOS 主屏 standalone app 的独立缓存容器长期拿旧 subset、
+#   新标题字掉进系统字(用户实测「Safari 对、独立 App 不对」);指纹名让内容变即换 URL,standalone 立刻取新。
+#   HTML 仍是 max-age=0 → 换过内容后下次打开就取到引用新指纹的 HTML/CSS,不必等缓存过期。
+printf '/feed.xml\n  Cache-Control: public, max-age=3600, must-revalidate\n/feed.json\n  Cache-Control: public, max-age=3600, must-revalidate\n/static/fonts/*\n  Cache-Control: public, max-age=31536000, immutable\n' > public/_headers
 # 部署前硬断言:feed 真在产物里且有 enclosure(Scenario 5 回归防护,防再次漏 feed 静默上线)。
 feed_n=$(grep -c '<enclosure' public/feed.xml || true)
 echo "public/feed.xml enclosure=$feed_n(public/audio mp3=$(ls public/audio/*.mp3 2>/dev/null | wc -l | tr -d ' '))"
