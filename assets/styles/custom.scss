@@ -1124,9 +1124,15 @@ body:has(.pd-play) article p:not(blockquote p) {
   line-height: 1.95;
   color: var(--pd-read);
 }
-/* 本集带走 = <article> 直接子级的 ul>li(接着看的列表在 .pd-ex 里,> 直接子选择器天然不误伤)。
-   与正文 p 统一:字号/行高/字重/颜色一致(用户 2026-08-13:本集带走行高字重要跟其他地方统一)。 */
-body:has(.pd-play) article > ul > li {
+/* 本集带走等正文列表项。与正文 p 统一:字号/行高/字重/颜色一致(用户 2026-08-13)。
+   ⚠️ 2026-08-29 二修:原写 `article > ul > li` 用**直接子**选择器,但 Quartz 把正文包在
+   <article><div class="markdown-preview-view"><div class="pd"> 里,ul 不是 article 直接子级 →
+   `>` **从未匹配**,这一整条(行高 1.7 / 项间距 10px / 字重 / 颜色)从 2026-08-13 起就没生效过,
+   带走的行距一直吃浏览器默认值(用户 2026-08-29 复报「本集带走行间距不对、字号好像也不对」——
+   字号是对的、被 1159 那条后代选择器补上了,错的是行距,连带看着像字号不对)。
+   与下面手机端那条同一口径:后代 li + `:not(.pd-ex li)` 排除「接着看」链接列表。
+   实测 article 内只有 7 个列表 = 5 个正文列表 + 2 个 .pd-ex,右栏目录在 article 外,不误伤。 */
+body:has(.pd-play) article li:not(.pd-ex li) {
   font-size: 16.5px;
   line-height: 1.7; /* 列表用略紧行高(1.95 是段落行高、用在列表上会散,实测糊成一团);字号/字重/色仍与正文统一 */
   font-weight: 400;
@@ -1149,17 +1155,26 @@ body:has(.pd-play) article h2 {
   body:has(.pd-play) .pd-topin { padding-left: 24px; padding-right: 24px; }
   /* 两端对齐(用户 2026-08-08 明文:手机端详情页正文左右对齐)。只手机端 —— 桌面此前定「不做」保持左对齐。
      中文精华方块字为主,justify 排版整齐;偶有英文专名短词,间距影响可忽略。 */
-  body:has(.pd-play) article p:not(blockquote p) { font-size: 16px; line-height: 1.8; margin: 0 0 24px; text-align: justify; overflow-wrap: break-word; }
+  /* 字号 16→17px(用户 2026-08-29「正文字号调大 1 个字号」;明确**不含正文里的标题** —— h1/h2
+     各有自己的规则、不受这条影响,层级关系保持原样)。行高仍 1.8:随字号等比放大,不必单调。 */
+  body:has(.pd-play) article p:not(blockquote p) { font-size: 17px; line-height: 1.8; margin: 0 0 24px; text-align: justify; overflow-wrap: break-word; }
   /* 正文所有列表项(本集带走等)与正文统一两端对齐(用户 2026-08-29 明文,反转 2026-08-16 #10 的「左对齐」)。
      ⚠️ 原用 `article > ul > li`(直接子)——但 Quartz 把正文包在 div 里,ul 不是 article 直接子级,
      `>` 永不匹配、justify 从没作用到带走上(用户 2026-08-29 报「对齐没生效」实证)。改**后代 li**,
      且**不限 ul**:编号列表 <ol>(如「三个理由 1/2/3」)、嵌套列表一并覆盖(用户 2026-08-29 图示 ol 没对齐)。
      用 :not(.pd-ex li) 排除「相关单集」链接列表(它有自己的 14px 字号,别被这里改);
      text-align 会继承到松散列表的 li>p,无需再单列 li>p。 */
-  body:has(.pd-play) article li:not(.pd-ex li) { font-size: 16px; text-align: justify; overflow-wrap: break-word; } /* 手机端只改字号;行高/项间距沿用基规则 */
+  body:has(.pd-play) article li:not(.pd-ex li) { font-size: 17px; text-align: justify; overflow-wrap: break-word; } /* 字号随正文 16→17px 一起走(用户 2026-08-29);行高/项间距沿用基规则——那条选择器同日已修好、终于真生效 */
   /* 【背景】引用块正文也两端对齐(用户 2026-08-29:与正文一致)。上面的 justify 规则用 :not(blockquote p) 把它排除了,这里补回。 */
   body:has(.pd-play) article blockquote:not([data-callout]) p { text-align: justify; overflow-wrap: break-word; }
   body:has(.pd-play) article h2 { font-size: 24px; line-height: 1.4; margin: 34px 0 16px; }
+  /* 手机端隐藏「全部金句」整块(用户 2026-08-29:与「本集带走」重复、价值不大)。
+     ⚠️ 只隐藏、不删数据:金句仍原样留在 markdown 里带 ^块ID,人物/公司页的块嵌入([[集#^q1]])
+     照常工作;电脑端也保留(用户明选「只隐藏手机端」)。组标靠 .pd-sec-q 标记,金句块靠既有的
+     `blockquote:has(> p[id^="q"])`(与 1323 行同一精确口径,不误伤【背景】引用块)。
+     手机目录 .mtoc 早已整体 display:none(C21),不会留下跳空锚点。 */
+  body:has(.pd-play) .pd-sec-q,
+  body:has(.pd-play) article blockquote:has(> p[id^="q"]) { display: none; }
 }
 
 /* ══ C13h · 设计稿全量对齐(2026-07-29 用户「一次性改完」;逐项出处 = 设计稿 style.css/ep-*.html)══ */

@@ -124,8 +124,10 @@ export function renderRelatedEpisodes(related, cats = []) {
 }
 
 /** 分区小标签(设计稿 .sec:12px 灰色字距标签 + 一句灰色说明)。用 div 不用 h2 —— h2 会挤进右栏目录、还带锚点链图标。 */
-export function secLabel(title, note = null) {
-  return `<div class="pd-sec">${title}${note ? ` <span>${note}</span>` : ""}</div>`;
+export function secLabel(title, note = null, cls = null) {
+  // cls:给组标加一个稳定的样式钩子(CSS 选不了文字内容)。目前只有金句区用 pd-sec-q ——
+  // 手机端靠它整块隐藏(用户 2026-08-29),数据与 ^块ID 一个字不动、电脑端照常显示。
+  return `<div class="pd-sec${cls ? ` ${cls}` : ""}">${title}${note ? ` <span>${note}</span>` : ""}</div>`;
 }
 
 // 「一句话」灰框已从集页删除(2026-08-22 用户拍板:tldr 上首页卡片,集页不再重复展示;
@@ -942,7 +944,7 @@ ${top}
 
 ${bodySeg.trim()}
 
-${secLabel("全部金句", `${(digest.quotes || []).length} 条`)}
+${secLabel("全部金句", `${(digest.quotes || []).length} 条`, "pd-sec-q")}
 
 ${quoteBlocks}${relatedSection ? `\n\n${relatedSection}` : ""}
 ${renderSidebarScript()}

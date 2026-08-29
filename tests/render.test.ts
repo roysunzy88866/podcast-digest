@@ -620,8 +620,13 @@ describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱�
         shared: { guests: [], companies: [], concepts: [{ id: "a", name: "智能体", file: "智能体", strong: true }] } },
     ] as any);
     // [standard-change: 用户授权 2026-08-16「只修测试」] 2026-08-15 用户条⑤删废话:「N 条(中英对照,已过机器闸门)」→「N 条」
-    expect(md).toContain('<div class="pd-sec">全部金句 <span>1 条</span></div>');
-    expect(md).toContain('<div class="pd-sec">接着看</div>');
+    // 2026-08-29:金句组标多挂一个 pd-sec-q —— 手机端整块隐藏(用户拍板)靠它当 CSS 钩子,
+    // 因为 CSS 选不了文字内容。断言连钩子一起钉住:钩子掉了 = 手机端隐藏静默失效。
+    expect(md).toContain('<div class="pd-sec pd-sec-q">全部金句 <span>1 条</span></div>');
+    expect(md).toContain('<div class="pd-sec">接着看</div>'); // 「接着看」不加钩子,保持原样
+    // 手机端隐藏金句的两条选择器都在(组标钩子 + 金句块精确口径),缺一则隐藏不完整
+    expect(scss).toContain("body:has(.pd-play) .pd-sec-q,");
+    expect(scss).toContain('body:has(.pd-play) article blockquote:has(> p[id^="q"]) { display: none; }');
     expect(md).not.toContain("## 金句");
     expect(md).not.toContain("## 相关单集");
     expect(scss).toMatch(/\.pd-sec \{/);

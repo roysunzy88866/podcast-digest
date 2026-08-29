@@ -79,6 +79,21 @@ patch(
   "关掉默认页脚 footer(C18 用户拍板去 Quartz 归属 + GitHub/Discord 外链)",
 );
 
+// ── 关掉左栏 Explorer 文件树(2026-08-29 用户「点进详情页/主页会白一下」的治本第一刀)──
+// 它在**所有页面**都是 display:none(见 custom.scss:「Quartz 默认左栏(站名 + Explorer 整站文件树)
+// 不在设计里」),但**藏起来不等于不跑**:它的脚本每次进页面都 `await fetchData` 去下
+// /static/contentIndex.json —— 线上 gzip **2.24MB**(详情页 HTML 自己才 33KB),下完还要解析。
+// 实测它是页面加载期**唯一**真的消费 fetchData 的组件(搜索要打开才用;加密页插件本站无加密页,
+// 有 keys.length 闸门根本走不到 await)→ 关掉它,那 2.24MB 在翻页时彻底消失。
+// 站内导航靠自家顶栏/卡片流/相关集,不依赖这个文件树,功能零损失。
+patch(
+  `  - source: github:quartz-community/explorer
+    enabled: true`,
+  `  - source: github:quartz-community/explorer
+    enabled: false`,
+  "关掉 Explorer 文件树(全站隐藏却每页拉 2.24MB 索引,治翻页卡顿)",
+);
+
 // ── C11 ④ 主题色:暖红亮暗双套(少数派暖调中性 + 红 accent)──
 patch(
   `      lightMode:
@@ -236,14 +251,17 @@ console.log("  ✔ custom.scss → site/quartz/styles/");
   const pvJs = readFileSync(resolve(ROOT, "assets/js/pv.js"), "utf8");
   // C29 下拉刷新:只在「从主屏启动的应用模式」自启用(脚本自己判定,浏览器里一行不跑)
   const ptrJs = readFileSync(resolve(ROOT, "assets/js/pull-refresh.js"), "utf8");
+  // 按下即预取(2026-08-29):手指按下链接就先把下一页 HTML 暖进缓存,少等一截。全被动监听。
+  const pfJs = readFileSync(resolve(ROOT, "assets/js/prefetch.js"), "utf8");
   patchFile(
     resolve(SITE, "quartz/components/Head.tsx"),
     `<title>{title}</title>`,
     `<title>{title}</title>
         <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(searchHistJs)} }} />
         <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(pvJs)} }} />
-        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(ptrJs)} }} />`,
-    "PC 搜索历史 + PV 计数 + 下拉刷新脚本(Head 全站注入)",
+        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(ptrJs)} }} />
+        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(pfJs)} }} />`,
+    "PC 搜索历史 + PV 计数 + 下拉刷新 + 按下即预取(Head 全站注入)",
   );
 }
 mkdirSync(resolve(SITE, "quartz/static/fonts"), { recursive: true });
