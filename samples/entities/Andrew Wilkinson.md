@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
+[[Eno Reyes]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Tiny":1,"Lindy":2,"Replit":12,"Limitless":1,"ChatGPT":38,"Letterboxd":1,"智能体":149,"vibe coding":23,"网络效应":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Tiny":1,"Lindy":2,"Replit":12,"Limitless":1,"ChatGPT":38,"Letterboxd":1,"智能体":151,"vibe coding":23,"网络效应":3}</script>
 
 <script>
 (function(){

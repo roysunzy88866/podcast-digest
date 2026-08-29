@@ -45,7 +45,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Copilot]] · [[Notion]] · [[多智能体系统]] · [[ChatGPT]] · [[Claude]] · [[Google]] · [[Revolut]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":75,"智能体":149,"OpenAI":66,"Copilot":6,"Notion":9,"多智能体系统":1,"ChatGPT":38,"Claude":36,"Google":29,"Revolut":4}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":77,"智能体":151,"OpenAI":68,"Copilot":6,"Notion":9,"多智能体系统":1,"ChatGPT":38,"Claude":36,"Google":29,"Revolut":4}</script>
 
 <script>
 (function(){

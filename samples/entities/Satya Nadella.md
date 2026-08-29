@@ -48,11 +48,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":17,"智能体":149,"Saragawa":1,"Kwindla Kramer":1,"Azure":2,"Pipecat":1,"GitHub":18,"Daily":1,"Microsoft 365":1,"AI 原生软件":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":18,"智能体":151,"Saragawa":1,"Kwindla Kramer":1,"Azure":2,"Pipecat":1,"GitHub":18,"Daily":1,"Microsoft 365":1,"AI 原生软件":1}</script>
 
 <script>
 (function(){

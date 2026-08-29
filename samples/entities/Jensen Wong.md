@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
+[[Eno Reyes]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":23,"OpenAI":66,"Anthropic":75,"Microsoft":17,"Palantir":7,"开源模型":2,"封闭模型":2,"沙箱":29,"智能体":149}</script>
+<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":24,"OpenAI":68,"Anthropic":77,"Microsoft":18,"Palantir":8,"开源模型":3,"封闭模型":2,"沙箱":30,"智能体":151}</script>
 
 <script>
 (function(){

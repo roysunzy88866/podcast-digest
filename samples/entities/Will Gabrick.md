@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":2,"Stripe":21,"Stripe Minions":1,"智能体":149,"智能体商务":1,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":15}</script>
+<script type="application/json" class="pd-epn">{"David George":2,"Stripe":22,"Stripe Minions":1,"智能体":151,"智能体商务":1,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":15}</script>
 
 <script>
 (function(){

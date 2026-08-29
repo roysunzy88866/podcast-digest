@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]]
+[[Eno Reyes]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
 
 </div>
 

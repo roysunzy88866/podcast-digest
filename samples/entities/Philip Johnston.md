@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
+[[Eno Reyes]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":2,"SpaceX":10,"NVIDIA":23,"发射成本":1,"H100":1,"基准测试":5,"相变材料":1,"辐射":1,"McKinsey":4}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":2,"SpaceX":11,"NVIDIA":24,"发射成本":1,"H100":1,"基准测试":5,"相变材料":1,"辐射":1,"McKinsey":4}</script>
 
 <script>
 (function(){

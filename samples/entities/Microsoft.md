@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Microsoft</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,6 +28,7 @@ unlisted: true
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集说 Microsoft 2026 财年 AI 收入 241 亿美元来自 OpenAI，但资本支出 1150 亿美元；GitHub 停机频繁到被人调侃。
 - **[[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]]**(08:12起):本集说嘉宾在此推行 FTE 文化心态——每个人无论做什么层级的工作都必须把自己做的事和客户怎么使用它联系起来，参加客户简报、旁听客户会议、读反馈
 - **[[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]]**(29:02起):本集说 Susan 离开 Apple 后为 Microsoft 的 Windows 3.0 做了界面设计，用 16 色抖动让界面看起来不那么俗气
+- **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(36:19起):本集称其可能是 AI 时代定位最好的超大规模云厂商，拥有大量数据中心、通过 OpenAI 投资拿到上行空间后转向支持所有 AI 开发者和模型独立性
 
 ## ① 提到它的金句
 
@@ -39,7 +40,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司(提及)
@@ -58,14 +59,15 @@ unlisted: true
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司(提及)
 - [[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]] — 作为被讨论公司
 - [[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]] — 作为被讨论公司(提及)
+- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[Apple]] · [[Amazon]] · [[Meta]] · [[SpaceX]] · [[Claude Code]]
+[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[NVIDIA]] · [[Google]] · [[Apple]] · [[Meta]] · [[SpaceX]] · [[Amazon]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":75,"智能体":149,"OpenAI":66,"Google":29,"NVIDIA":23,"Apple":13,"Amazon":9,"Meta":22,"SpaceX":10,"Claude Code":38}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":77,"智能体":151,"OpenAI":68,"NVIDIA":24,"Google":29,"Apple":13,"Meta":23,"SpaceX":11,"Amazon":9,"Claude Code":38}</script>
 
 <script>
 (function(){

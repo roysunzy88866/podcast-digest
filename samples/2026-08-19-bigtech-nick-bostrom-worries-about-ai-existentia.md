@@ -112,8 +112,8 @@ Bostrom 认为现在有理由认真对待"AI 可能有[[主观体验|主观体�
 **顺着「AI 安全」挖下去**
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、超级智能 (superintelligence)</span>
+- [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)</span>
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理]]<span class="pd-rz">同概念:对齐 (alignment)、智能体 (agent)、AGI</span>
-- [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

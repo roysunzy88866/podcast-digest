@@ -1,0 +1,2038 @@
+{
+  "episode_id": "2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-08-29",
+  "tags": [
+    "AI 定价逻辑",
+    "智能体架构",
+    "主权智能",
+    "开放模型",
+    "企业销售"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            51.71,
+            53.111
+          ],
+          "quote": "20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eno-reyes",
+      "type": "person",
+      "role": "cohost",
+      "name": "Eno Reyes",
+      "file": "Eno Reyes",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "factory",
+      "type": "company",
+      "role": "company",
+      "name": "Factory",
+      "file": "Factory",
+      "primary": true,
+      "how_described": "本集称其为专门从事自主软件开发（autonomous software development）的公司，不补贴消费者、不追求 PLG，而是按项目和结果分配 token、追求最好产品体验的企业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            63.076,
+            66.838
+          ],
+          "quote": "Today, we have CTO and co-founder of Factory, Hino Reyes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            73.422,
+            77.644
+          ],
+          "quote": "Factory is one of the leading companies that specialize in autonomous software development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            842.842,
+            843.782
+          ],
+          "quote": "I want a factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1857.94,
+            1861.105
+          ],
+          "quote": "You obviously have a routine product within Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1998.654,
+            2010.922
+          ],
+          "quote": "And that's something that I think at Factory we're trying to spend as much time as possible educating people about sort of what does well in the harness versus what can be done outside and how to think about like building versus buying a harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2017.967,
+            2021.149
+          ],
+          "quote": "Does a continuous learning model help or hurt Factory's business?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2227.371,
+            2230.192
+          ],
+          "quote": "It's, in fact, one of our most popular offerings, factory private.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3493.932,
+            3502.44
+          ],
+          "quote": "When we were chatting before, you said we expect 100% of our future hires to come through acquiring companies and bringing their founders and teams into factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3510.305,
+            3519.572
+          ],
+          "quote": "How do you determine, oh, a team will thrive internally within factory or, oh, that's an opinionated, pretty arrogant, egotistical founder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3637.063,
+            3639.907
+          ],
+          "quote": "So I'm not suggesting if you worked on payments, you can't join Factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3651.049,
+            3654.33
+          ],
+          "quote": "And maybe they even say that's better than the stuff we're getting from factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3705.264,
+            3716.453
+          ],
+          "quote": "When we created the concept of the software factory, something that he loves to use that term as well, we said to ourselves, we're looking at this very hard, fuzzy, ambiguous problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4903.886,
+            4906.847
+          ],
+          "quote": "And I think it contextualizes the many tools in the space compared to factory.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它走应用路线、被模型锁定，在编码领域只能交付自家模型的成果；并举例说用其模型写涉及递归自我改进的 10K 报告会被屏蔽",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            998.346,
+            1002.949
+          ],
+          "quote": "And what I mean by that is Anthropic just produced their first quarter, I believe, of profitability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1045.804,
+            1054.786
+          ],
+          "quote": "Anthropic seems to be following the application path, while OpenAI seems to be dipping its toes in both, but the platform commitment from them seems much stronger.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1101.451,
+            1104.852
+          ],
+          "quote": "Anthropic can basically only deliver their model's outcomes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1121.685,
+            1131.45
+          ],
+          "quote": "I think it's fantastic seeing Anthropic potentially go out at $2 trillion, but you're essentially placing a $2 trillion price on Claude Code, which is not that difficult to switch off of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1150.12,
+            1158.822
+          ],
+          "quote": "And so, I do think that part of what needs to happen in order to make these companies like Anthropic and OpenAI realize the value is they either A,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2700.78,
+            2705.121
+          ],
+          "quote": "What's interesting is it's actually the same challenges with models from OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2805.936,
+            2806.837
+          ],
+          "quote": "The answer is Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2907.753,
+            2916.94
+          ],
+          "quote": "This is where I think labs like OpenAI and Anthropic actually can be incredibly differentiated because they already have the muscle to work on those very frontier problems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2929.931,
+            2932.973
+          ],
+          "quote": "OpenAI and Anthropic could release an open model that they then inference on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2984.572,
+            2997.496
+          ],
+          "quote": "And so now they've moved towards more concretely expressing, one, that we support all AI developers and Azure should be a place for inference on Anthropic and OpenAI and open models, most importantly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3121.473,
+            3124.115
+          ],
+          "quote": "But to be completely honest, if you're OpenAI or you're Anthropic,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3161.429,
+            3167.091
+          ],
+          "quote": "I mean, we've got the wonderfully named Jalapeno, and then we have Anthropic now reportedly working on their own chips.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3298.012,
+            3305.4
+          ],
+          "quote": "And so today, when I look at OpenAI and Anthropic, there are, I think, more analogies to Netscape and these technology companies that were first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 916,
+          "t": [
+            4796.28,
+            4803.221
+          ],
+          "quote": "And so we always have to sort of share with people why we see ourselves as largely complementary to the Anthropic platform and suite.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 921,
+          "t": [
+            4823.246,
+            4826.486
+          ],
+          "quote": "And I think it's because their work platform is better than Anthropic's.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它在平台和应用两边都沾但平台承诺更强，已让更多模型进入其 harness、在更直接地支持开放模型生态系统；其自由现金流门槛对生存至关重要",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1045.804,
+            1054.786
+          ],
+          "quote": "Anthropic seems to be following the application path, while OpenAI seems to be dipping its toes in both, but the platform commitment from them seems much stronger.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1150.12,
+            1158.822
+          ],
+          "quote": "And so, I do think that part of what needs to happen in order to make these companies like Anthropic and OpenAI realize the value is they either A,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1192.738,
+            1200.644
+          ],
+          "quote": "This is a very hard decision and one that I think you can start to see OpenAI actually grappling with as they've let more models into their harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2700.78,
+            2705.121
+          ],
+          "quote": "What's interesting is it's actually the same challenges with models from OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2907.753,
+            2916.94
+          ],
+          "quote": "This is where I think labs like OpenAI and Anthropic actually can be incredibly differentiated because they already have the muscle to work on those very frontier problems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2929.931,
+            2932.973
+          ],
+          "quote": "OpenAI and Anthropic could release an open model that they then inference on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2941.462,
+            2952.855
+          ],
+          "quote": "Given that commoditization, do you think Microsoft have actually played a great hand in having a little bit of a bet through OpenAI but not being tied down with an extensive model investment layer?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2960.44,
+            2967.464
+          ],
+          "quote": "Right now, Satya has played a masterful game of getting huge upside from the OpenAI investment and work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2984.572,
+            2997.496
+          ],
+          "quote": "And so now they've moved towards more concretely expressing, one, that we support all AI developers and Azure should be a place for inference on Anthropic and OpenAI and open models, most importantly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3121.473,
+            3124.115
+          ],
+          "quote": "But to be completely honest, if you're OpenAI or you're Anthropic,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3298.012,
+            3305.4
+          ],
+          "quote": "And so today, when I look at OpenAI and Anthropic, there are, I think, more analogies to Netscape and these technology companies that were first.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集称其可能是 AI 时代定位最好的超大规模云厂商，拥有大量数据中心、通过 OpenAI 投资拿到上行空间后转向支持所有 AI 开发者和模型独立性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 418,
+          "t": [
+            2179.929,
+            2180.77
+          ],
+          "quote": "Microsoft as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2935.335,
+            2941.262
+          ],
+          "quote": "Given the commoditization of the model layer like we've spoken about, people seemingly chastise Microsoft.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2941.462,
+            2952.855
+          ],
+          "quote": "Given that commoditization, do you think Microsoft have actually played a great hand in having a little bit of a bet through OpenAI but not being tied down with an extensive model investment layer?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2953.155,
+            2960.039
+          ],
+          "quote": "I think Microsoft might be one of the best positioned hyperscalers, honestly, with respect to AI because of this independence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3053.744,
+            3061.23
+          ],
+          "quote": "So would you buy Meta or Microsoft today if you could only buy one?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3061.59,
+            3063.472
+          ],
+          "quote": "If I could only buy one, Microsoft for sure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3064.452,
+            3067.715
+          ],
+          "quote": "The biggest thing that Microsoft has going for it is that infra.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3071.676,
+            3074.618
+          ],
+          "quote": "No matter what model runs on top of that, Microsoft is going to win.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4541.413,
+            4543.814
+          ],
+          "quote": "Meta, Microsoft, and NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4546.515,
+            4552.822
+          ],
+          "quote": "I think that I would have to say marry Microsoft, shag NVIDIA, and kill Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 863,
+          "t": [
+            4554.905,
+            4565.356
+          ],
+          "quote": "Microsoft, to me, represents a software company that has become an everything company that really does sit in the lifeblood of almost every Fortune 500.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 864,
+          "t": [
+            4566.237,
+            4569.68
+          ],
+          "quote": "There is not a single business that doesn't have Microsoft something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 866,
+          "t": [
+            4573.863,
+            4577.186
+          ],
+          "quote": "I say this also as a former Microsoft employee for a year and a half.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 887,
+          "t": [
+            4662.182,
+            4667.985
+          ],
+          "quote": "To use what you said about the entrenchment of Microsoft in businesses, would you be a buy or a sell on Salesforce given that?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集说它投入巨资做开放模型对美国和人类是对的，但其业务依赖广告这一头现金牛，三者中相对最弱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 569,
+          "t": [
+            3042.38,
+            3052.543
+          ],
+          "quote": "But two, I think that as a business, they're going to have to build on top of that and take what they did with Meta, the monstrous consumer business that it is, they need to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3053.744,
+            3061.23
+          ],
+          "quote": "So would you buy Meta or Microsoft today if you could only buy one?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 579,
+          "t": [
+            3085.802,
+            3088.663
+          ],
+          "quote": "And you're seeing that in bond pricing for Meta and other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4541.413,
+            4543.814
+          ],
+          "quote": "Meta, Microsoft, and NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4546.515,
+            4552.822
+          ],
+          "quote": "I think that I would have to say marry Microsoft, shag NVIDIA, and kill Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 874,
+          "t": [
+            4609.949,
+            4613.892
+          ],
+          "quote": "And Meta, I say this with love to the company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集称其为当前技术的造王者（kingmaker），决定谁能坐到桌边",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 761,
+          "t": [
+            3983.896,
+            3987.96
+          ],
+          "quote": "You know, we're seeing Poolside being bought and a lot of the employees moving over to NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4541.413,
+            4543.814
+          ],
+          "quote": "Meta, Microsoft, and NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 861,
+          "t": [
+            4546.515,
+            4552.822
+          ],
+          "quote": "I think that I would have to say marry Microsoft, shag NVIDIA, and kill Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 867,
+          "t": [
+            4577.566,
+            4581.349
+          ],
+          "quote": "NVIDIA is the current kingmaker of technology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 882,
+          "t": [
+            4642.632,
+            4645.253
+          ],
+          "quote": "Will NVIDIA be a $10 trillion business in three years?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 884,
+          "t": [
+            4646.494,
+            4655.459
+          ],
+          "quote": "I think that there's a real serious chance that if we let SpaceX be worth $2 or $3 trillion, then NVIDIA probably is worth $10.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集说它以 80 亿美元收购 OpenRouter，买的不是路由技术而是信息和智能分配方向的数据，以押注企业如何分配资源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1721.147,
+            1726.57
+          ],
+          "quote": "And so if somebody comes up and says, look, Stripe bought OpenRouter for $8 billion because of the technology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1774.619,
+            1778.141
+          ],
+          "quote": "If you're Stripe, you already control the flow of one out of the three of these.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1825.675,
+            1842.066
+          ],
+          "quote": "At $8 billion, it would have to be really foundational to the team that becomes whatever this next bet on allocating capital is for Stripe, or rather helping the businesses that Stripe has as customers allocate capital.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1842.546,
+            1850.912
+          ],
+          "quote": "I would say that if they think that data gives them insight into how to run Stripe better as well, that could also potentially make it worth it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1884.199,
+            1887.76
+          ],
+          "quote": "They'll look at Ramp and Stripe and OpenRouter, and they'll put a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2377.335,
+            2383.357
+          ],
+          "quote": "You know, now Stripe can tweet new model on our router and you see Stripe's name with this news cycle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3471.193,
+            3477.497
+          ],
+          "quote": "They just aren't going to be Stripe or these massive things that capture fundamental pieces of the economy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": false,
+      "how_described": "本集称其被 Stripe 以 80 亿美元收购，路由技术本身并无太大差异化，价值在于提供模型使用信息",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1721.147,
+            1726.57
+          ],
+          "quote": "And so if somebody comes up and says, look, Stripe bought OpenRouter for $8 billion because of the technology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1778.321,
+            1781.743
+          ],
+          "quote": "With OpenRouter, rather than the routing technology,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1884.199,
+            1887.76
+          ],
+          "quote": "They'll look at Ramp and Stripe and OpenRouter, and they'll put a",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集提到它在'拥有你的智能'这一理念上表现得相当大声",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 417,
+          "t": [
+            2176.547,
+            2179.869
+          ],
+          "quote": "Palantir has been quite loud about this idea of owning your intelligence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说它被 SpaceX 收购后在算力上有规模优势但会带来模型偏见，企业中更多被视为 IDE 而非主要企业软件开发策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            86.61,
+            91.153
+          ],
+          "quote": "But before we dive into the show today, what do Uber, Cursor, and Harvey have in common?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2258.74,
+            2264.106
+          ],
+          "quote": "How much does it help you or hurt you that Cursor was bought by SpaceX?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2270.777,
+            2274.161
+          ],
+          "quote": "Yeah, that outcome for the folks at Cursor is obviously amazing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3224.723,
+            3231.233
+          ],
+          "quote": "And then I'm also like, peak froth, but also Cursor just sold for $60 billion after four years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 907,
+          "t": [
+            4756.954,
+            4763.678
+          ],
+          "quote": "Codex, Cursor, Cognition, Claude Code, rank one through four in terms of threat level you feel from them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 927,
+          "t": [
+            4857.749,
+            4861.513
+          ],
+          "quote": "And then Cursor is sort of present actually in a lot of these businesses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 928,
+          "t": [
+            4861.934,
+            4869.702
+          ],
+          "quote": "I don't think that anyone really perceives Cursor to be their primary enterprise software development strategy as much as an IDE.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 976,
+          "t": [
+            5166.805,
+            5170.968
+          ],
+          "quote": "But before we leave you today, what do Uber, Cursor, and Harvey have in common?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集提到其收购了 Cursor",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 433,
+          "t": [
+            2258.74,
+            2264.106
+          ],
+          "quote": "How much does it help you or hurt you that Cursor was bought by SpaceX?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 884,
+          "t": [
+            4646.494,
+            4655.459
+          ],
+          "quote": "I think that there's a real serious chance that if we let SpaceX be worth $2 or $3 trillion, then NVIDIA probably is worth $10.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": false,
+      "how_described": "本集开头广告中称其为许多世界领先 AI 产品背后的专业智能平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            91.433,
+            94.615
+          ],
+          "quote": "Well, they made the really wise decision to build on fireworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            94.975,
+            99.7
+          ],
+          "quote": "Fireworks is the specialized intelligence platform behind many of the world's leading AI products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            99.961,
+            111.073
+          ],
+          "quote": "Companies use fireworks to deploy the latest open models, specialize them with their own data, and run them in production with the speed and reliability modern AI applications demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            120.98,
+            123.301
+          ],
+          "quote": "Well, that's where Fireworks Nexus comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            140.39,
+            154.157
+          ],
+          "quote": "To see intelligent model routing in practice, visit fireworks.ai forward slash 20VC to create a free account and use the promo code 20VC50 to claim $50 in credits for 20VC50.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            154.417,
+            159
+          ],
+          "quote": "While Fireworks AI powers product intelligence, Asana keeps the work moving.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            487.247,
+            499.26
+          ],
+          "quote": "This is sort of the world where the fireworks and the people who help make models possible, I think, win because the alternative is you only have a very few specialized providers that have models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 977,
+          "t": [
+            5171.249,
+            5174.431
+          ],
+          "quote": "Well, they made the really wise decision to build on Fireworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 978,
+          "t": [
+            5174.791,
+            5179.515
+          ],
+          "quote": "Fireworks is the specialized intelligence platform behind many of the world's leading AI products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 979,
+          "t": [
+            5179.795,
+            5190.884
+          ],
+          "quote": "Companies use Fireworks to deploy the latest open models, specialize them with their own data, and run them in production with the speed and reliability modern AI applications demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 982,
+          "t": [
+            5200.812,
+            5203.114
+          ],
+          "quote": "Well, that's where Fireworks Nexus comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 984,
+          "t": [
+            5220.207,
+            5233.974
+          ],
+          "quote": "To see intelligent model routing in practice, visit fireworks.ai forward slash 20VC to create a free account and use the promo code 20VC50 to claim $50 in credits for 20VC50.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 985,
+          "t": [
+            5234.234,
+            5238.837
+          ],
+          "quote": "While Fireworks AI powers product intelligence, Asana keeps the work moving.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sequoia",
+      "type": "company",
+      "role": "company",
+      "name": "Sequoia",
+      "file": "Sequoia",
+      "primary": false,
+      "how_described": "本集开头提到 Harry 和 Sequoia 共同投资了 Factory 的某一轮",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            77.765,
+            79.846
+          ],
+          "quote": "I co-invested in their round with Sequoia.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集说它是企业中除 Factory 外唯一其他的模型无关供应商，其云产品在模仿人类软件工程师的理念上非常未来主义",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 743,
+          "t": [
+            3859.667,
+            3864.61
+          ],
+          "quote": "Cognition placed a lot of emphasis on the chess champion and the math prodigy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 907,
+          "t": [
+            4756.954,
+            4763.678
+          ],
+          "quote": "Codex, Cursor, Cognition, Claude Code, rank one through four in terms of threat level you feel from them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 923,
+          "t": [
+            4834.328,
+            4839.673
+          ],
+          "quote": "Then I would say Cognition because they're basically the only other model-independent vendor in the enterprise.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集说它拥有大家共识的工作流和记录系统，即使人们说讨厌但都会买，这使其业务比技术本身更持久",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 887,
+          "t": [
+            4662.182,
+            4667.985
+          ],
+          "quote": "To use what you said about the entrenchment of Microsoft in businesses, would you be a buy or a sell on Salesforce given that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 888,
+          "t": [
+            4668.245,
+            4669.486
+          ],
+          "quote": "Oh, I'm a buy on Salesforce.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 891,
+          "t": [
+            4681.093,
+            4687.938
+          ],
+          "quote": "So you look at like the Salesforce of the world, you look at today at least Atlassian, and I think that...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "atlassian",
+      "type": "company",
+      "role": "company",
+      "name": "Atlassian",
+      "file": "Atlassian",
+      "primary": false,
+      "how_described": "本集称其和 Linear 一样表现很好，卖的是同样的 Agile 工作流和记录系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 891,
+          "t": [
+            4681.093,
+            4687.938
+          ],
+          "quote": "So you look at like the Salesforce of the world, you look at today at least Atlassian, and I think that...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 895,
+          "t": [
+            4704.281,
+            4708.585
+          ],
+          "quote": "And what's interesting is actually, and it's a really interesting one, is Atlassian are crushing and so are Linear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4720.644,
+            4724.308
+          ],
+          "quote": "And one thing that's important is Linear and Atlassian are selling the same thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4749.389,
+            4756.554
+          ],
+          "quote": "And I do think it's going to have to be much more radical and it will be very challenging for both Linear and Atlassian to transform into that new way of building.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "type": "company",
+      "role": "company",
+      "name": "Linear",
+      "file": "Linear",
+      "primary": false,
+      "how_described": "本集称其和 Atlassian 一样卖 Agile 工作流和记录系统，表现很好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 895,
+          "t": [
+            4704.281,
+            4708.585
+          ],
+          "quote": "And what's interesting is actually, and it's a really interesting one, is Atlassian are crushing and so are Linear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4720.644,
+            4724.308
+          ],
+          "quote": "And one thing that's important is Linear and Atlassian are selling the same thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4749.389,
+            4756.554
+          ],
+          "quote": "And I do think it's going to have to be much more radical and it will be very challenging for both Linear and Atlassian to transform into that new way of building.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体工作流需要的是在任务内部、带着上下文状态去动态分配智能的有状态机制，而不是简单的网关路由",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            169.864,
+            176.787
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1914.194,
+            1924.022
+          ],
+          "quote": "You need your agent or your system to dynamically understand the task it's working on and understand how to allocate intelligence in a much more stateful way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1943.618,
+            1954.626
+          ],
+          "quote": "I'd say that in a way that taking the context window and expanding it was solved not at the model layer, like outside at the endpoint, but instead inside of the agent with something called compaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 827,
+          "t": [
+            4379.266,
+            4386.815
+          ],
+          "quote": "Saying like an agent has a name is sort of a weird way to think about it when really you have an agent system and you allocate capital towards projects.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 990,
+          "t": [
+            5249.684,
+            5256.589
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "套索 (harness)",
+      "file": "套索",
+      "primary": true,
+      "how_described": "本集称其为新一代应用，所有逻辑在这里发生、状态在这里维护，上下文窗口扩展通过智能体内部的压缩机制而非模型层解决，持续学习也发生在套索层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            1192.738,
+            1200.644
+          ],
+          "quote": "This is a very hard decision and one that I think you can start to see OpenAI actually grappling with as they've let more models into their harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1962.351,
+            1965.953
+          ],
+          "quote": "But more and more, we see it's the harness that solves these problems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1966.394,
+            1971.457
+          ],
+          "quote": "The thing that is sort of underestimated about why the harness continues to solve this is that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1971.637,
+            1974.439
+          ],
+          "quote": "The harness is effectively the new sort of application.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1984.105,
+            1994.792
+          ],
+          "quote": "And so as that starts to accumulate, I'd say like more advantage or technology benefits, I think we're starting to see people ask questions like, should I be building my own harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1995.052,
+            1996.993
+          ],
+          "quote": "Should I get a really great harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1997.333,
+            1998.254
+          ],
+          "quote": "What is a harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1998.654,
+            2010.922
+          ],
+          "quote": "And that's something that I think at Factory we're trying to spend as much time as possible educating people about sort of what does well in the harness versus what can be done outside and how to think about like building versus buying a harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2065.292,
+            2070.957
+          ],
+          "quote": "Model providers have even acknowledged that all of the continual learning happens at the harness layer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sovereign-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "主权智能 (sovereign intelligence)",
+      "file": "主权智能",
+      "primary": true,
+      "how_described": "本集提出这是未来五年 AI 的核心问题——谁拥有从你的任务中产生的数据成果、学习内容和工作流，如果你把智能外包出去，五年后对方可能反过来抢你的生意",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 422,
+          "t": [
+            2201.022,
+            2206.644
+          ],
+          "quote": "And when we talk about sovereign intelligence and owning that outcome, is that why on-premise is so important?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2398.346,
+            2406.031
+          ],
+          "quote": "And two, this idea of sovereign intelligence, also like humans, we're going to have models with tons of different opinions, tons of different perspectives.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放模型 (open models)",
+      "file": "开放模型",
+      "primary": true,
+      "how_described": "本集判断三年后 99% 的工作流会在开放模型上完成，但剩下 1% 的前沿用例会占智能未来经济价值的 30%-40%，且前沿与开放之间的差距会拉大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            46.262,
+            50.869
+          ],
+          "quote": "In three years, 99% of workflows are going to be done on open models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            99.961,
+            111.073
+          ],
+          "quote": "Companies use fireworks to deploy the latest open models, specialize them with their own data, and run them in production with the speed and reliability modern AI applications demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            505.984,
+            510.386
+          ],
+          "quote": "So this is just like your everything model, and that we think will be dominated by open models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1499.739,
+            1500.7
+          ],
+          "quote": "I think it's open models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1512.185,
+            1518.427
+          ],
+          "quote": "So that's why we're so optimized on local and on open models today for on-prem, but in the future it's for all consumers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2681.275,
+            2690.017
+          ],
+          "quote": "In reality, in my mind, the open models that come from a bunch of different places are not any different from a existing Frontier Model from a lab.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2833.877,
+            2845.525
+          ],
+          "quote": "Guilherme from Vercel tweeted last night or yesterday about the weighting or usage of open models significantly increasing at a much faster rate to tokens used on closed models or frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2846.025,
+            2851.769
+          ],
+          "quote": "What percent of workflows will be completed with open models in three years time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2851.989,
+            2856.634
+          ],
+          "quote": "In three years, 99% of workflows are going to be done on open models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2984.572,
+            2997.496
+          ],
+          "quote": "And so now they've moved towards more concretely expressing, one, that we support all AI developers and Azure should be a place for inference on Anthropic and OpenAI and open models, most importantly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3025.796,
+            3031.938
+          ],
+          "quote": "I think he's right for humanity in that we need more open models like that, especially American-made open models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3037.399,
+            3042.14
+          ],
+          "quote": "And so open models are great because it just increases adoption in America and abroad.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 878,
+          "t": [
+            4626.301,
+            4629.683
+          ],
+          "quote": "I think the push now into open models technologically is correct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 979,
+          "t": [
+            5179.795,
+            5190.884
+          ],
+          "quote": "Companies use Fireworks to deploy the latest open models, specialize them with their own data, and run them in production with the speed and reliability modern AI applications demand.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说其总可触达市场（TAM）目前权重过高，用例非常小众（前沿生物研究、超先进 AI 开发、安全和国防），全球 2000 强企业 99% 的时候不需要真正的智能前沿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.542,
+            19.905
+          ],
+          "quote": "The TAM of frontier models is, frankly, overweighted right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            945.094,
+            948.697
+          ],
+          "quote": "How does this not reduce the TAM for frontier models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            950.038,
+            955.103
+          ],
+          "quote": "I think that the TAM of frontier models is frankly over-weighted right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2486.227,
+            2490.649
+          ],
+          "quote": "Two, is that workflow going to change if new frontier models get better?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2757.678,
+            2765.901
+          ],
+          "quote": "As of today, the current Chinese frontier models should be analyzed by American companies for the tasks that they care about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2833.877,
+            2845.525
+          ],
+          "quote": "Guilherme from Vercel tweeted last night or yesterday about the weighting or usage of open models significantly increasing at a much faster rate to tokens used on closed models or frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2886.483,
+            2891.345
+          ],
+          "quote": "The use cases that they're talking about their frontier models being used for are incredibly niche.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "verifiability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可验证性 (verifiability)",
+      "file": "可验证性",
+      "primary": true,
+      "how_described": "本集称其为当前 AI 系统成功的唯一最重要属性，在没有现成验证标准的领域，让专家创造新验证方式再让 AI 学习去构建类似框架，是推进 AI 进入'还搞不定'领域的路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            647.269,
+            654.335
+          ],
+          "quote": "Some people like it one way, some people like... How do you think about the importance of verifiability in determining outcome quality?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            654.723,
+            661.049
+          ],
+          "quote": "Yeah, I mean, verifiability is ultimately the single most important property of success with current AI systems.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说企业会拿通用模型做后训练来满足高量专有任务，目前配方在少数人脑子里但未来会被工具民主化，点几个按钮、描述任务就能出专用模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            525.755,
+            531.757
+          ],
+          "quote": "And so they'll want something in between where they can take a commodity model and make it good enough via post-training.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            546.247,
+            556.431
+          ],
+          "quote": "When you look at the post-training required, when you look at the implementation required, I look at that and I think the company structures and teams today are simply not equipped to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            566.115,
+            575.304
+          ],
+          "quote": "Yeah, and I think that this is one of those things where right now the recipe for post-training and building models does live primarily in the heads of a specialized few group of people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "model-locked",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型锁定 (model locked)",
+      "file": "模型锁定",
+      "primary": true,
+      "how_described": "本集称被模型锁定是应用层的巨大劣势——被锁定的提供商只能用自家模型交付成果，而竞争对手可以用任何模型里真正最好的那个",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1058.815,
+            1068.218
+          ],
+          "quote": "I think that the application layer is going to be a much harder battle because being model locked is actually a huge disadvantage if you're trying to sell outcomes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1070.759,
+            1079.582
+          ],
+          "quote": "If you are a model locked provider, then you are inherently selling those tokens in order to make sure that your business gets the margin it needs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1089.706,
+            1093.908
+          ],
+          "quote": "Meanwhile, someone who's not model locked can give you the best model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2310.185,
+            2321.888
+          ],
+          "quote": "However, I do think that most of the enterprises are going to have a second look at the idea of sort of seeding their software development lifecycle to a provider who is one likely to be model locked.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集说模型提供商想成为擅长卖推理的平台公司，Azure 应该是 Anthropic、OpenAI 和开放模型的推理场所",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1029.801,
+            1045.504
+          ],
+          "quote": "In my mind, if you are a model provider, you're basically looking A, to dominate the platform era, in which case you want to be one of N companies that sort of get really good at selling inference, or B, you just want to move up to become an application layer company that has really good models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2929.931,
+            2932.973
+          ],
+          "quote": "OpenAI and Anthropic could release an open model that they then inference on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2984.572,
+            2997.496
+          ],
+          "quote": "And so now they've moved towards more concretely expressing, one, that we support all AI developers and Azure should be a place for inference on Anthropic and OpenAI and open models, most importantly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "on-prem",
+      "type": "concept",
+      "role": "concept",
+      "name": "本地部署 (on-prem)",
+      "file": "本地部署",
+      "primary": false,
+      "how_described": "本集说对大多数企业来说本地部署甚至不是技术问题而是心理安全感问题——知道如果需要可以拿回控制权",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 290,
+          "t": [
+            1512.185,
+            1518.427
+          ],
+          "quote": "So that's why we're so optimized on local and on open models today for on-prem, but in the future it's for all consumers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2223.21,
+            2227.331
+          ],
+          "quote": "And that element is interesting because for us, we offer an on-prem offering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2254.099,
+            2258.12
+          ],
+          "quote": "And so on-prem and owning your intelligence are very similar stories.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "continuous-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continuous learning)",
+      "file": "持续学习",
+      "primary": false,
+      "how_described": "本集说模型提供商自己都承认持续学习发生在套索层而非模型内部，那种所有学习发生在闭环 LLM 内部的技术尚未被开发出来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 390,
+          "t": [
+            2011.342,
+            2017.687
+          ],
+          "quote": "The context window expansion is one and then continuous learning and the kind of the rise of the first truly continuous learning model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2017.967,
+            2021.149
+          ],
+          "quote": "Does a continuous learning model help or hurt Factory's business?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2025.031,
+            2038.387
+          ],
+          "quote": "I would say that there was an idea of continuous learning from over the last couple of years that said that you would have like a literal LLM-like model where all of the learning happens internal to this closed loop system.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": false,
+      "how_described": "本集说 token 本质上是智能，获得 token 要花钱，整个链条是把能量转化为智能、中间用美元交易；Factory 按项目和结果分配 token 而非按人头",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            465.675,
+            468.596
+          ],
+          "quote": "And it kind of goes against the a token is a token theory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gateway-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "网关路由 (gateway routing)",
+      "file": "网关路由",
+      "primary": false,
+      "how_described": "本集说它发生在任务完成地之外，不适合智能体工作流，因为智能体需要在任务内部带着上下文状态动态分配智能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 366,
+          "t": [
+            1868.995,
+            1874.577
+          ],
+          "quote": "And I've been talking about model routing for these products that you've mentioned, which is gateway routing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "neolabs",
+      "type": "concept",
+      "role": "concept",
+      "name": "Neolabs",
+      "file": "Neolabs",
+      "primary": false,
+      "how_described": "本集预测未来 18 个月 80%-90% 的 NeoLab 会消亡（作为独立业务不再成立），存活三问是：是否依附持久工作流、前沿模型变强工作流会变吗、换个团队能做得更好吗",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            31.881,
+            35.707
+          ],
+          "quote": "I think it could be 80% to 90% of Neolabs die in the next 18 months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2436.578,
+            2446.746
+          ],
+          "quote": "A lot of guests on the show before have made kind of bold statements that like 70, 80% of the Neolabs that we have today will die in a given time period, three to five years, whatever you want to choose.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2448.747,
+            2455.532
+          ],
+          "quote": "And how would you advise me and other investors on the Neolabs that will thrive versus die in this next wave?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2457.893,
+            2462.315
+          ],
+          "quote": "I think it could be 80% to 90% of Neolabs die in the next 18 months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2518.94,
+            2522.682
+          ],
+          "quote": "So probably all the NeoLabs focused on legal are going to have great outcomes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "regulatory-capture",
+      "type": "concept",
+      "role": "concept",
+      "name": "监管俘获 (regulatory capture)",
+      "file": "监管俘获",
+      "primary": false,
+      "how_described": "本集说前沿模型公司要实现巨大估值，要么走监管俘获让政客相信必须由你来提供智能，要么开放给更多模型——但两条路互相矛盾",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1159.542,
+            1173.607
+          ],
+          "quote": "Which they're pursuing, have to go through regulatory capture, in which case they go and they sort of scare politicians into thinking that they must own the means of intelligence, and thus they become the only providers of the most frontier capabilities.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-software-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主软件开发 (autonomous software development)",
+      "file": "自主软件开发",
+      "primary": false,
+      "how_described": "本集开头称 Factory 是专门从事自主软件开发的最领先公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            73.422,
+            77.644
+          ],
+          "quote": "Factory is one of the leading companies that specialize in autonomous software development.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

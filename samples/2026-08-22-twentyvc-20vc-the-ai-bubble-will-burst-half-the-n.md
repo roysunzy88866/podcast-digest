@@ -169,7 +169,7 @@ ASIC 芯片在模型定制化场景下非常理想。如果你要做大量模型
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:OpenRouter · 同概念:前沿模型 (frontier models)、开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:前沿模型 (frontier models)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、Fireworks、OpenAI · 同概念:前沿模型 (frontier models)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

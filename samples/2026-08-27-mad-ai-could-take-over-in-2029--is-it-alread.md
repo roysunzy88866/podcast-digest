@@ -168,9 +168,9 @@ Ryan 对接下来几年的直觉推演 <button class="pd-ts" data-t="72:51" data
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:Redwood Research、Hugging Face、OpenAI · 同概念:奖励黑客 (reward hacking)、对齐 (alignment)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:对齐 (alignment)、超级智能 (superintelligence)</span>
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同概念:对齐 (alignment)、超级智能 (superintelligence)</span>
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:推理 (inference)、智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">

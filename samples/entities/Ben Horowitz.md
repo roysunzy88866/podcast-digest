@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
+[[Eno Reyes]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":4,"Sofia Puccini":3,"NVIDIA":23,"Andreessen Horowitz":1,"Anthropic":75,"Hugging Face":11,"DeepSeq":1,"Thinking Machines":1,"Mistral":5,"开源":6}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":5,"Sofia Puccini":3,"NVIDIA":24,"Andreessen Horowitz":1,"Anthropic":77,"Hugging Face":12,"DeepSeq":1,"Thinking Machines":1,"Mistral":5,"开源":6}</script>
 
 <script>
 (function(){

@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":2,"Gusto":1,"联合创始人":2,"vibe coding":23,"永久 Zoom":1,"智能体":149,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":2,"Claude Code":38}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":2,"Gusto":1,"联合创始人":2,"vibe coding":23,"永久 Zoom":1,"智能体":151,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":2,"Claude Code":38}</script>
 
 <script>
 (function(){

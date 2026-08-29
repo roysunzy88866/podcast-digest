@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TrustWise":1,"Harmony AI":1,"智能体":149,"运行时控制":1,"对齐":5,"语义行动层":1,"守护者智能体":1,"盾牌":1,"信任姿态管理":1,"多智能体系统":1}</script>
+<script type="application/json" class="pd-epn">{"TrustWise":1,"Harmony AI":1,"智能体":151,"运行时控制":1,"对齐":6,"语义行动层":1,"守护者智能体":1,"盾牌":1,"信任姿态管理":1,"多智能体系统":1}</script>
 
 <script>
 (function(){

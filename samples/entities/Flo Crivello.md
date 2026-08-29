@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":2,"Lindy":2,"智能体":149,"上下文":11,"记忆智能体":1,"RAG":6,"上下文桶":1,"缓存":1,"验证器":1,"DeepSeek":3}</script>
+<script type="application/json" class="pd-epn">{"Nathan":2,"Lindy":2,"智能体":151,"上下文":11,"记忆智能体":1,"RAG":6,"上下文桶":1,"缓存":1,"验证器":1,"DeepSeek":3}</script>
 
 <script>
 (function(){

@@ -22,7 +22,7 @@ unlisted: true
 
 [[Will Gabrick]] · [[Grant LaFontaine]] · [[Stripe]] · [[Whatnot]] · [[Stripe Minions]] · [[直播购物]] · [[智能体]] · [[市场]] · [[智能体商务]] · [[信任与安全]]
 
-<script type="application/json" class="pd-epn">{"Will Gabrick":1,"Grant LaFontaine":1,"Stripe":21,"Whatnot":3,"Stripe Minions":1,"直播购物":2,"智能体":149,"市场":2,"智能体商务":1,"信任与安全":1}</script>
+<script type="application/json" class="pd-epn">{"Will Gabrick":1,"Grant LaFontaine":1,"Stripe":22,"Whatnot":3,"Stripe Minions":1,"直播购物":2,"智能体":151,"市场":2,"智能体商务":1,"信任与安全":1}</script>
 
 <script>
 (function(){

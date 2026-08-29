@@ -113,8 +113,8 @@ jsonLd: |
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA、Anthropic、OpenAI · 同概念:Nemotron、护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、OpenAI、Microsoft、NVIDIA · 同概念:开放模型 (open models)、智能体 (agent)</span>
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:Nemotron、护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

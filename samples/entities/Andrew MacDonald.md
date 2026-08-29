@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
+[[Eno Reyes]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":6,"Uber":5,"Uber One":1,"自主性":3,"智能体":149,"IGB":1,"可变成本模式":1,"分发":4,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Uber":5,"Uber One":1,"自主性":3,"智能体":151,"IGB":1,"可变成本模式":1,"分发":4,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

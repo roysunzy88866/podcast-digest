@@ -25,7 +25,7 @@ unlisted: true
 
 [[Michael Tannenbaum]] · [[Figure]] · [[Brex]] · [[Kiavi]] · [[高管心态]] · [[市场]] · [[区块链]] · [[代币化]] · [[Meta]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Michael Tannenbaum":1,"Figure":2,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"代币化":2,"Meta":22,"AI":9}</script>
+<script type="application/json" class="pd-epn">{"Michael Tannenbaum":1,"Figure":2,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"代币化":2,"Meta":23,"AI":9}</script>
 
 <script>
 (function(){

@@ -135,7 +135,7 @@ Eon 的做法是：先帮数据团队在不碰生产环境、不影响安全和�
 
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:token、智能体 (agent)</span>
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理]]<span class="pd-rz">同概念:token、智能体 (agent)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:ChatGPT · 同概念:智能体 (agent)</span>
+- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同概念:智能体 (agent)、token、后训练 (post-training)</span>
 
 </div>
 <div class="pd-ex">

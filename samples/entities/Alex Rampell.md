@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Stein Pella":1,"Lassie":1,"智能体":149,"回路中的人类":3,"现有巨头":1,"Superhuman":4,"Stripe":21,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Stein Pella":1,"Lassie":1,"智能体":151,"回路中的人类":3,"现有巨头":1,"Superhuman":4,"Stripe":22,"Workday":4}</script>
 
 <script>
 (function(){

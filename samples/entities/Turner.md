@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]]
+[[Eno Reyes]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":3,"Path Robotics":1,"LLM":20,"云计算":1,"真空":1,"主题化投资":1,"投资组合构建":1,"产品市场契合":10,"第一性原理":4}</script>
+<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":4,"Path Robotics":1,"LLM":20,"云计算":1,"真空":1,"主题化投资":1,"投资组合构建":1,"产品市场契合":10,"第一性原理":4}</script>
 
 <script>
 (function(){

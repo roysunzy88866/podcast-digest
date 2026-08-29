@@ -148,8 +148,8 @@ Anish 对「模型商品化」的判断是明确的否定。他给自己定的�
 **顺着「智能体」挖下去**
 
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:开放权重模型 (open weight models)、智能体 (agent)</span>
+- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、推理 (inference)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:开放权重模型 (open weight models)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

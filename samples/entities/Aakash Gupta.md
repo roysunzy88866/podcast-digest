@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":36,"Claude Code":38,"智能体":149,"对抗性智能体":1,"MCP":17,"知识库":1,"技能":7,"vibe coding":23,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":36,"Claude Code":38,"智能体":151,"对抗性智能体":1,"MCP":17,"知识库":1,"技能":7,"vibe coding":23,"红队测试":2}</script>
 
 <script>
 (function(){

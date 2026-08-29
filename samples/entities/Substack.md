@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny Rachitsky]] · [[Casey Moratori]] · [[Michelle Rial]] · [[性能优化]] · [[Airbnb]] · [[汇编语言]] · [[Medium]] · [[串行依赖链]] · [[Stripe]] · [[过早优化]]
 
-<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Casey Moratori":1,"Michelle Rial":1,"性能优化":1,"Airbnb":9,"汇编语言":1,"Medium":1,"串行依赖链":1,"Stripe":21,"过早优化":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Casey Moratori":1,"Michelle Rial":1,"性能优化":1,"Airbnb":9,"汇编语言":1,"Medium":1,"串行依赖链":1,"Stripe":22,"过早优化":1}</script>
 
 <script>
 (function(){

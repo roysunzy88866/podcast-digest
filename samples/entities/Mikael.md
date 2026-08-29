@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":14,"Hermes":1,"智能体":149,"知识图谱":2,"向量数据库":1,"混合搜索":1,"自动技能生成":1,"指令库":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":14,"Hermes":1,"智能体":151,"知识图谱":2,"向量数据库":1,"混合搜索":1,"自动技能生成":1,"指令库":1}</script>
 
 <script>
 (function(){

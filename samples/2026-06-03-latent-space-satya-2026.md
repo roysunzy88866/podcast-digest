@@ -127,9 +127,9 @@ Satya 认为这套打包方式现在行不通了。企业不会丢弃底层数�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Microsoft · 同概念:智能体 (agent)、测试框架 (harness)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:智能体 (agent)、测试框架 (harness)、开放权重模型 (open-weight models)</span>
 - [[2026-08-07-talks-the-new-primitives-building-ai-native-so|从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游]]<span class="pd-rz">同嘉宾:Satya Nadella · 同公司:Microsoft · 同概念:智能体 (agent)</span>
-- [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法]]<span class="pd-rz">同概念:SaaS、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

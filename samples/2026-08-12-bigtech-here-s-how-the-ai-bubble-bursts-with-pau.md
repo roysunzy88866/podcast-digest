@@ -164,8 +164,8 @@ Paul 概括:美国历史上最大的泡沫都跟「技术、地产、宽松信�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:GPU、token、推理 (inference)</span>
+- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、OpenAI、Meta、Palantir · 同概念:后训练 (post-training)、挽具 (harness)、token、推理 (inference)</span>
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:token、前沿模型 (frontier model)、GPU、推理 (inference)</span>
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:杰文斯悖论 (Jevons paradox)、AGI</span>
 
 </div>
 <div class="pd-ex">

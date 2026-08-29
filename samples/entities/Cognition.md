@@ -8,7 +8,7 @@ aliases: ["cognition"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cognition</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>10</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>11</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,10 +22,11 @@ aliases: ["cognition"]
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(10:08起):本集提到 Ryan 因在 Devon 上月花两万美元，去找 Cognition 的人谈并拿到了每月等额的免费额度
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(16:02起):本集说 Cognition 是一家很棒的公司，用智能体（agents）掀起了真正的波澜
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(32:17起):本集说 Cognition 是一家超级热门的公司，能够首先通过 PLG，然后通过前线部署工程师模式进入银行等企业
+- **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(64:19起):本集说它是企业中除 Factory 外唯一其他的模型无关供应商，其云产品在模仿人类软件工程师的理念上非常未来主义
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司(提及)
@@ -37,14 +38,15 @@ aliases: ["cognition"]
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司(提及)
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
+- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Claude Code]] · [[沙箱]] · [[推理]] · [[OpenRouter]] · [[a16z]] · [[SpaceX]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[OpenRouter]] · [[Salesforce]] · [[SpaceX]] · [[Stripe]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":149,"OpenAI":66,"Anthropic":75,"Cursor":38,"Claude Code":38,"沙箱":29,"推理":2,"OpenRouter":6,"a16z":6,"SpaceX":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":151,"OpenAI":68,"Anthropic":77,"Cursor":39,"推理":3,"OpenRouter":7,"Salesforce":10,"SpaceX":11,"Stripe":22,"Microsoft":18}</script>
 
 <script>
 (function(){

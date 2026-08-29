@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ryan Greenblatt</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ryan Greenblatt">RY</div><div class="pi"><h1 class="pt">Ryan Greenblatt</h1><div class="byl">The MAD Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ryan Greenblatt">RY</div><div class="pi"><h1 class="pt">Ryan Greenblatt</h1><div class="byl">The MAD Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*9 条*
+*16 条*
 
 ![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q1]]
 
@@ -31,17 +31,32 @@ unlisted: true
 
 ![[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread#^q9]]
 
+![[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge#^q1]]
+
+![[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge#^q2]]
+
+![[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge#^q3]]
+
+![[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge#^q4]]
+
+![[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge#^q5]]
+
+![[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge#^q6]]
+
+![[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge#^q7]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为主持
+- [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Matt Turk]] · [[Redwood Research]] · [[OpenAI]] · [[Anthropic]] · [[Google DeepMind]] · [[Meta]] · [[Hugging Face]] · [[超级智能]] · [[AI 控制]] · [[AI 伪装对齐]]
+[[Redwood Research]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[对齐]] · [[奖励黑客]] · [[智能体]] · [[Matt Turk]] · [[Theo Jaffe]] · [[Google DeepMind]]
 
 ## ④ 也在聊「AI 安全」的人
 
@@ -51,7 +66,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":2,"Redwood Research":1,"OpenAI":66,"Anthropic":75,"Google DeepMind":4,"Meta":22,"Hugging Face":11,"超级智能":3,"AI 控制":1,"AI 伪装对齐":1}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":2,"OpenAI":68,"Anthropic":77,"Hugging Face":12,"对齐":6,"奖励黑客":2,"智能体":151,"Matt Turk":2,"Theo Jaffe":5,"Google DeepMind":4}</script>
 
 <script>
 (function(){
