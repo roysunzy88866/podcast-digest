@@ -1,0 +1,2986 @@
+[
+ {
+  "seg": 0,
+  "start": 0.675,
+  "end": 10.411,
+  "speaker": "Unknown",
+  "en": "The whole topic of regulation for me just seems completely backwards because it's starting before we even know what we're regulating.",
+  "zh": "对我来说，监管的整个话题似乎完全是本末倒置，因为它在我们甚至都不知道我们在监管什么之前就开始了。"
+ },
+ {
+  "seg": 1,
+  "start": 11.09,
+  "end": 21.035,
+  "speaker": "Unknown",
+  "en": "There's no reason why the AI companies should be against open source other than we just don't want our competition to exist and we don't want to bother to compete.",
+  "zh": "AI 公司应该反对开源没有任何理由，除了我们只是不想让我们的竞争对手存在，而且我们不想费心去竞争。"
+ },
+ {
+  "seg": 2,
+  "start": 21.475,
+  "end": 25.937,
+  "speaker": "Unknown",
+  "en": "We'd rather just compete with each other and not worry about that crazy open source competitor.",
+  "zh": "我们宁愿只是互相竞争，而不去担心那个疯狂的开源竞争对手。"
+ },
+ {
+  "seg": 3,
+  "start": 26.578,
+  "end": 28.018,
+  "speaker": "Unknown",
+  "en": "Truth is, no one knows the future.",
+  "zh": "真相是，没人知道未来。"
+ },
+ {
+  "seg": 4,
+  "start": 28.458,
+  "end": 35.142,
+  "speaker": "Unknown",
+  "en": "What those assumptions mean are we should regulate this based on our own personal predictions of the future.",
+  "zh": "那些假设意味着我们应该基于我们自己对未来的个人预测来监管这个。"
+ },
+ {
+  "seg": 5,
+  "start": 35.922,
+  "end": 39.327,
+  "speaker": "Unknown",
+  "en": "But the history of being right about those predictions is pretty limited.",
+  "zh": "但在这些预测上保持正确的历史是相当有限的。"
+ },
+ {
+  "seg": 6,
+  "start": 39.888,
+  "end": 44.014,
+  "speaker": "Unknown",
+  "en": "And so we should be really careful about that because those are all self-serving.",
+  "zh": "所以我们应该对此非常小心，因为那些都是自利的。"
+ },
+ {
+  "seg": 7,
+  "start": 44.755,
+  "end": 48.681,
+  "speaker": "Unknown",
+  "en": "How should governments regulate AI when the technology is still evolving?",
+  "zh": "当技术仍在发展时，政府应该如何监管 AI？"
+ },
+ {
+  "seg": 8,
+  "start": 49.599,
+  "end": 66.631,
+  "speaker": "Unknown",
+  "en": "Theo Jaffe and Sofia Puccini are joined by Steven Sanofsky to discuss why he believes AI regulation is moving too fast, the case for open source models, and what previous waves of technological innovation can teach us about building policy without stifling progress.",
+  "zh": "Theo Jaffe 和 Sofia Puccini 与 Steven Sanofsky 一起加入讨论，讨论他为什么认为 AI 监管太快了，支持开源模型的理由，以及之前的技术创新浪潮能教给我们什么关于在不扼杀进步的情况下制定政策。"
+ },
+ {
+  "seg": 9,
+  "start": 69.478,
+  "end": 79.67,
+  "speaker": "Unknown",
+  "en": "We are live with Steven Sinofsky, amazing tech analyst, author of Hardcore Software, longtime Microsoft leader, and we're so glad to have you back on.",
+  "zh": "我们直播连线 Steven Sinofsky，了不起的科技分析师，Hardcore Software 的作者，长期微软领导者，我们非常高兴你能回来。"
+ },
+ {
+  "seg": 10,
+  "start": 79.79,
+  "end": 80.451,
+  "speaker": "Unknown",
+  "en": "Steven, welcome back.",
+  "zh": "Steven，欢迎回来。"
+ },
+ {
+  "seg": 11,
+  "start": 80.471,
+  "end": 80.951,
+  "speaker": "Unknown",
+  "en": "Hey there.",
+  "zh": "嘿。"
+ },
+ {
+  "seg": 12,
+  "start": 81.292,
+  "end": 81.992,
+  "speaker": "Unknown",
+  "en": "Super fun to be here.",
+  "zh": "在这里非常开心。"
+ },
+ {
+  "seg": 13,
+  "start": 82.91,
+  "end": 85.052,
+  "speaker": "Unknown",
+  "en": "Yeah, so much in AI.",
+  "zh": "是的，AI 里有很多东西。"
+ },
+ {
+  "seg": 14,
+  "start": 85.092,
+  "end": 86.493,
+  "speaker": "Unknown",
+  "en": "Like, where do we even start?",
+  "zh": "比如，我们该从哪里开始呢？"
+ },
+ {
+  "seg": 15,
+  "start": 87.354,
+  "end": 91.357,
+  "speaker": "Unknown",
+  "en": "Well, our goal is to say stuff that we haven't said yet, so let's see if we can do that.",
+  "zh": "嗯，我们的目标是说一些我们还没说过的话，所以让我们看看我们能不能做到。"
+ },
+ {
+  "seg": 16,
+  "start": 92.158,
+  "end": 92.679,
+  "speaker": "Unknown",
+  "en": "We will try.",
+  "zh": "我们会试一试。"
+ },
+ {
+  "seg": 17,
+  "start": 92.819,
+  "end": 94.04,
+  "speaker": "Unknown",
+  "en": "Novel insights time, yeah.",
+  "zh": "新颖见解的时间，是的。"
+ },
+ {
+  "seg": 18,
+  "start": 94.62,
+  "end": 95.461,
+  "speaker": "Unknown",
+  "en": "Novel insights.",
+  "zh": "新颖见解。"
+ },
+ {
+  "seg": 19,
+  "start": 96.102,
+  "end": 100.686,
+  "speaker": "Unknown",
+  "en": "So, open source, there's been much discussion of regulation of...",
+  "zh": "那么，开源，有很多关于……的监管讨论"
+ },
+ {
+  "seg": 20,
+  "start": 101.226,
+  "end": 105.049,
+  "speaker": "Unknown",
+  "en": "Open source, Chinese open source models in particular on both sides of the pond.",
+  "zh": "开源，特别是中国开源模型，在大西洋的两岸。"
+ },
+ {
+  "seg": 21,
+  "start": 105.069,
+  "end": 111.494,
+  "speaker": "Unknown",
+  "en": "You know, China has considered export controls, but also Xi Jinping has said we're encouraging open source.",
+  "zh": "你知道，中国已经考虑了出口管制，但习近平也说过我们正在鼓励开源。"
+ },
+ {
+  "seg": 22,
+  "start": 111.774,
+  "end": 116.558,
+  "speaker": "Unknown",
+  "en": "And then in America, we've had Scott Besson says we're going to be looking into IP theft.",
+  "zh": "然后在美国，我们有 Scott Besson 说我们将要调查知识产权盗窃。"
+ },
+ {
+  "seg": 23,
+  "start": 116.618,
+  "end": 120.461,
+  "speaker": "Unknown",
+  "en": "And some people have considered import controls are requiring a license.",
+  "zh": "有些人已经考虑进口管制是要求许可证的。"
+ },
+ {
+  "seg": 24,
+  "start": 120.862,
+  "end": 122.263,
+  "speaker": "Unknown",
+  "en": "So there's a lot going on right now.",
+  "zh": "所以现在发生了很多事情。"
+ },
+ {
+  "seg": 25,
+  "start": 122.303,
+  "end": 123.083,
+  "speaker": "Unknown",
+  "en": "It's very fluid.",
+  "zh": "它是非常流动的。"
+ },
+ {
+  "seg": 26,
+  "start": 123.764,
+  "end": 126.986,
+  "speaker": "Unknown",
+  "en": "What are your takes on regulation of open source models?",
+  "zh": "你对监管开源模型有什么看法？"
+ },
+ {
+  "seg": 27,
+  "start": 127.647,
+  "end": 128.387,
+  "speaker": "Unknown",
+  "en": "Well, it just seems",
+  "zh": "嗯，它似乎只是"
+ },
+ {
+  "seg": 28,
+  "start": 129.704,
+  "end": 140.577,
+  "speaker": "Unknown",
+  "en": "The whole topic of regulation for me just seems like completely backwards because it's starting before we even know what we're regulating.",
+  "zh": "对我来说，监管的整个话题似乎完全是本末倒置，因为它在我们甚至都不知道我们在监管什么之前就开始了。"
+ },
+ {
+  "seg": 29,
+  "start": 141.398,
+  "end": 147.765,
+  "speaker": "Unknown",
+  "en": "And if you go back in history, one of the best things about the 20th century in America was",
+  "zh": "如果你回顾历史，20 世纪在美国最好的事情之一是"
+ },
+ {
+  "seg": 30,
+  "start": 149.427,
+  "end": 153.409,
+  "speaker": "Unknown",
+  "en": "was that so much experimentation was happening, so much innovation.",
+  "zh": "是有如此多的实验正在进行，如此多的创新。"
+ },
+ {
+  "seg": 31,
+  "start": 154.089,
+  "end": 160.173,
+  "speaker": "Unknown",
+  "en": "And that does have this potential downstream of like, oh gosh, this thing happened that we have to roll back.",
+  "zh": "这确实有那种像这样的潜在下游，天哪，这件事发生了，我们不得不回滚。"
+ },
+ {
+  "seg": 32,
+  "start": 160.253,
+  "end": 168.597,
+  "speaker": "Unknown",
+  "en": "Like a super famous example was safety in cars and that car companies spent the first 50 years making cars, making cars.",
+  "zh": "就像一个超级著名的例子是汽车安全，汽车公司花了前 50 年造车，造车。"
+ },
+ {
+  "seg": 33,
+  "start": 169.077,
+  "end": 176.021,
+  "speaker": "Unknown",
+  "en": "And then in the 1960s, it sort of became clear that, wow, we could actually make cars much, much safer.",
+  "zh": "然后在 20 世纪 60 年代，这变得有点清楚了，哇，我们实际上可以把车造得安全得多，多得多。"
+ },
+ {
+  "seg": 34,
+  "start": 176.861,
+  "end": 186.684,
+  "speaker": "Unknown",
+  "en": "Now, it took 60 years to understand that cars were super dangerous, and it was all that evolution, and in all fairness, like, it wasn't a design criteria.",
+  "zh": "现在，花了 60 年时间才明白汽车是超级危险的，这都是那进化的结果，凭良心说，这并不是一个设计标准。"
+ },
+ {
+  "seg": 35,
+  "start": 187.385,
+  "end": 196.307,
+  "speaker": "Unknown",
+  "en": "You know, seatbelts and airbags and these things became a very long process to get them put into the upstream of making cars.",
+  "zh": "你知道，安全带和安全气囊以及这些东西变成一个非常漫长的过程，要把它们放进造车的上游。"
+ },
+ {
+  "seg": 36,
+  "start": 196.768,
+  "end": 197.968,
+  "speaker": "Unknown",
+  "en": "And you could go through every...",
+  "zh": "你可以通过每一个……"
+ },
+ {
+  "seg": 37,
+  "start": 198.348,
+  "end": 210.418,
+  "speaker": "Unknown",
+  "en": "Sort of to mention, there's the antitrust law and the whole reason why, you know, oh my god, you can't be an oil company where you sell gasoline, produce gasoline, and also pull it out of the ground.",
+  "zh": "算是提一下，有反垄断法，以及整个原因，你知道，天哪，你不能做一个石油公司，你卖汽油，生产汽油，还从地下把它抽出来。"
+ },
+ {
+  "seg": 38,
+  "start": 210.919,
+  "end": 211.66,
+  "speaker": "Unknown",
+  "en": "Or you can't...",
+  "zh": "或者你不能……"
+ },
+ {
+  "seg": 39,
+  "start": 212.442,
+  "end": 219.163,
+  "speaker": "Unknown",
+  "en": "Make movies, have actors and actresses under contract, and own the movie theaters and distribution.",
+  "zh": "拍电影，让男女演员签约，并且拥有电影院和发行。"
+ },
+ {
+  "seg": 40,
+  "start": 219.444,
+  "end": 220.564,
+  "speaker": "Unknown",
+  "en": "And maybe that shouldn't be right.",
+  "zh": "也许那不应该是对的。"
+ },
+ {
+  "seg": 41,
+  "start": 220.584,
+  "end": 222.284,
+  "speaker": "Unknown",
+  "en": "And there are millions of examples.",
+  "zh": "还有数以百万计的例子。"
+ },
+ {
+  "seg": 42,
+  "start": 222.564,
+  "end": 232.686,
+  "speaker": "Unknown",
+  "en": "The challenge is the story of regulation is always told as though if they would have gotten in early, they would have prevented this stuff from happening.",
+  "zh": "挑战在于，监管的故事总是被叙述成好像如果他们早点介入，他们就会阻止这些事情发生。"
+ },
+ {
+  "seg": 43,
+  "start": 233.747,
+  "end": 239.308,
+  "speaker": "Unknown",
+  "en": "And, you know, you look back and you're like, oh my, you know, what if they would have shown up at Henry Ford and said, we need airbags?",
+  "zh": "而且，你知道，你回顾往事，你会说，天哪，你知道，如果他们出现在亨利·福特面前并说，我们需要安全气囊，那会怎么样？"
+ },
+ {
+  "seg": 44,
+  "start": 240.321,
+  "end": 244.644,
+  "speaker": "Unknown",
+  "en": "And Henry Ford is like, okay, we can't figure out how to make engines work.",
+  "zh": "而亨利·福特会说，好吧，我们还搞不清楚如何让引擎工作。"
+ },
+ {
+  "seg": 45,
+  "start": 245.645,
+  "end": 247.446,
+  "speaker": "Unknown",
+  "en": "Like, let's get that done.",
+  "zh": "比如，让我们先把那个做完。"
+ },
+ {
+  "seg": 46,
+  "start": 247.466,
+  "end": 253.03,
+  "speaker": "Unknown",
+  "en": "And also, these cars go 15 miles an hour, and we're just trying to make them go.",
+  "zh": "而且，这些车每小时跑 15 英里，我们只是想让它们跑起来。"
+ },
+ {
+  "seg": 47,
+  "start": 253.27,
+  "end": 255.231,
+  "speaker": "Unknown",
+  "en": "And of course, air travel is like that.",
+  "zh": "当然，航空旅行也是那样。"
+ },
+ {
+  "seg": 48,
+  "start": 255.612,
+  "end": 260.995,
+  "speaker": "Unknown",
+  "en": "Every technology innovation, it took a long time for two things to happen.",
+  "zh": "每一次技术创新，都需要很长时间两件事才会发生。"
+ },
+ {
+  "seg": 49,
+  "start": 261.236,
+  "end": 262.557,
+  "speaker": "Unknown",
+  "en": "One, for it to just work at all.",
+  "zh": "第一，为了让它完全能工作。"
+ },
+ {
+  "seg": 50,
+  "start": 263.417,
+  "end": 278.328,
+  "speaker": "Unknown",
+  "en": "And, you know, today we're talking about AI, and it can't be that AI is both the most intelligent thing in the world and it generates gibberish, hallucinations, and the answers are wrong, and you can't rely on it.",
+  "zh": "而且，你知道，今天我们谈论的是 AI，它不可能是既是最聪明的事物，却又产生胡言乱语、幻觉，答案是错的，而且你无法依赖它。"
+ },
+ {
+  "seg": 51,
+  "start": 278.408,
+  "end": 280.63,
+  "speaker": "Unknown",
+  "en": "Like, those both can't be true at the same time.",
+  "zh": "就像，这两者不可能同时为真。"
+ },
+ {
+  "seg": 52,
+  "start": 280.91,
+  "end": 290.798,
+  "speaker": "Unknown",
+  "en": "You can look at social networking had the same effect, where like, oh, it's a toy, it's a giant waste of time, you know, it's either that or it can topple governments.",
+  "zh": "你可以看看社交网络也有同样的效果，比如，哦，它是个玩具，它是巨大的时间浪费，你知道，要么是这样，要么它能推翻政府。"
+ },
+ {
+  "seg": 53,
+  "start": 291.698,
+  "end": 296.647,
+  "speaker": "Unknown",
+  "en": "You know, it couldn't be, and they were at the same time, people were saying both of those things about social networks.",
+  "zh": "你知道，它不可能是，而且它们同时，人们关于社交网络同时说着这两件事。"
+ },
+ {
+  "seg": 54,
+  "start": 297.929,
+  "end": 303.94,
+  "speaker": "Unknown",
+  "en": "And so it can't be, and now they've added this dimension that they are mind control devices on our nation's youth.",
+  "zh": "所以它不可能是，现在他们增加了一个维度，说它们是我们国家青年的精神控制设备。"
+ },
+ {
+  "seg": 55,
+  "start": 305.259,
+  "end": 309.682,
+  "speaker": "Unknown",
+  "en": "And at the same time, they're a huge waste of time and the content is all slop.",
+  "zh": "同时，它们是巨大的时间浪费，而且内容全是垃圾。"
+ },
+ {
+  "seg": 56,
+  "start": 310.142,
+  "end": 312.084,
+  "speaker": "Unknown",
+  "en": "Like all of these things can't be true.",
+  "zh": "就像所有这些事情不可能都是真的。"
+ },
+ {
+  "seg": 57,
+  "start": 312.104,
+  "end": 321.65,
+  "speaker": "Unknown",
+  "en": "And so a lot of times it just, this whole notion of regulating is this hindsight and you assume that only good would have happened if regulation happens.",
+  "zh": "所以很多时候，这整个监管的概念就是后见之明，而且你假设如果发生监管，只会发生好事。"
+ },
+ {
+  "seg": 58,
+  "start": 322.45,
+  "end": 324.631,
+  "speaker": "Unknown",
+  "en": "But that's just, you can't prove that.",
+  "zh": "但这只是，你无法证明那一点。"
+ },
+ {
+  "seg": 59,
+  "start": 324.711,
+  "end": 326.792,
+  "speaker": "Unknown",
+  "en": "And so you're in this very tricky situation.",
+  "zh": "所以你处于这种非常棘手的境地。"
+ },
+ {
+  "seg": 60,
+  "start": 326.892,
+  "end": 332.715,
+  "speaker": "Unknown",
+  "en": "And so today you have this world, oops, I just got lost on video.",
+  "zh": "所以今天你有这个世界，哎呀，我刚在视频上迷路了。"
+ },
+ {
+  "seg": 61,
+  "start": 333.655,
+  "end": 336.197,
+  "speaker": "Unknown",
+  "en": "Hey, give me just a second to figure out what just happened.",
+  "zh": "嘿，给我一秒钟弄清楚刚才发生了什么。"
+ },
+ {
+  "seg": 62,
+  "start": 336.357,
+  "end": 337.217,
+  "speaker": "Unknown",
+  "en": "Oh, I just crashed.",
+  "zh": "哦，我刚才崩溃了。"
+ },
+ {
+  "seg": 63,
+  "start": 338.058,
+  "end": 338.478,
+  "speaker": "Unknown",
+  "en": "No worries.",
+  "zh": "没关系。"
+ },
+ {
+  "seg": 64,
+  "start": 339.098,
+  "end": 340.799,
+  "speaker": "Unknown",
+  "en": "You're still here in voice form, so.",
+  "zh": "你还在语音形式中，所以。"
+ },
+ {
+  "seg": 65,
+  "start": 341.039,
+  "end": 342.04,
+  "speaker": "Unknown",
+  "en": "Yeah, I got you in voice.",
+  "zh": "是的，我听到你的声音了。"
+ },
+ {
+  "seg": 66,
+  "start": 344.121,
+  "end": 346.142,
+  "speaker": "Unknown",
+  "en": "And I just, I like literally crashed.",
+  "zh": "而我刚刚，我简直就是崩溃了。"
+ },
+ {
+  "seg": 67,
+  "start": 346.162,
+  "end": 346.502,
+  "speaker": "Unknown",
+  "en": "Hang on.",
+  "zh": "稍等。"
+ },
+ {
+  "seg": 68,
+  "start": 347.082,
+  "end": 349.263,
+  "speaker": "Unknown",
+  "en": "The spirit of Steven Sanofsky still with us.",
+  "zh": "Steven Sanofsky 的精神仍与我们同在。"
+ },
+ {
+  "seg": 69,
+  "start": 349.323,
+  "end": 350.063,
+  "speaker": "Unknown",
+  "en": "It's a beautiful gear.",
+  "zh": "这是一个漂亮的装备。"
+ },
+ {
+  "seg": 70,
+  "start": 351.62,
+  "end": 352.04,
+  "speaker": "Unknown",
+  "en": "Icon.",
+  "zh": "标志性人物。"
+ },
+ {
+  "seg": 71,
+  "start": 352.6,
+  "end": 353.201,
+  "speaker": "Unknown",
+  "en": "Oh, is that it?",
+  "zh": "哦，是那个吗？"
+ },
+ {
+  "seg": 72,
+  "start": 353.301,
+  "end": 353.641,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 73,
+  "start": 353.701,
+  "end": 354.121,
+  "speaker": "Unknown",
+  "en": "Oh, is it?",
+  "zh": "哦，是吗？"
+ },
+ {
+  "seg": 74,
+  "start": 354.641,
+  "end": 356.122,
+  "speaker": "Unknown",
+  "en": "Wow, that was super interesting.",
+  "zh": "哇，那超级有趣。"
+ },
+ {
+  "seg": 75,
+  "start": 356.722,
+  "end": 359.543,
+  "speaker": "Unknown",
+  "en": "Yeah, we can pause the stream for a second while we figure it out.",
+  "zh": "是的，我们可以暂停直播一秒钟，趁我们弄明白它。"
+ },
+ {
+  "seg": 76,
+  "start": 360.623,
+  "end": 366.305,
+  "speaker": "Unknown",
+  "en": "No, I like, I officially, and I am, I'm working.",
+  "zh": "不，我就像，我正式地，而且我在，我正在工作。"
+ },
+ {
+  "seg": 77,
+  "start": 366.605,
+  "end": 367.886,
+  "speaker": "Unknown",
+  "en": "I am closer.",
+  "zh": "我更近了。"
+ },
+ {
+  "seg": 78,
+  "start": 368.066,
+  "end": 369.026,
+  "speaker": "Unknown",
+  "en": "Well, let's, can we do it this?",
+  "zh": "嗯，让我们，我们能这样做吗？"
+ },
+ {
+  "seg": 79,
+  "start": 369.206,
+  "end": 369.706,
+  "speaker": "Unknown",
+  "en": "Is that working?",
+  "zh": "那个在工作吗？"
+ },
+ {
+  "seg": 80,
+  "start": 370.346,
+  "end": 370.727,
+  "speaker": "Unknown",
+  "en": "It works.",
+  "zh": "它行得通。"
+ },
+ {
+  "seg": 81,
+  "start": 370.807,
+  "end": 371.507,
+  "speaker": "Unknown",
+  "en": "It works with audio.",
+  "zh": "它对音频行得通。"
+ },
+ {
+  "seg": 82,
+  "start": 372.539,
+  "end": 374.18,
+  "speaker": "Unknown",
+  "en": "You just became an anonymous guest.",
+  "zh": "你刚变成了一个匿名嘉宾。"
+ },
+ {
+  "seg": 83,
+  "start": 374.84,
+  "end": 375.3,
+  "speaker": "Unknown",
+  "en": "Oh, hang on.",
+  "zh": "哦，稍等。"
+ },
+ {
+  "seg": 84,
+  "start": 375.84,
+  "end": 379.941,
+  "speaker": "Unknown",
+  "en": "Your newest Anon guest is like suspiciously knowledgeable about the Microsoft Surface Pro.",
+  "zh": "你最新的匿名嘉宾似乎对 Microsoft Surface Pro 知之甚详，令人起疑。"
+ },
+ {
+  "seg": 85,
+  "start": 380.462,
+  "end": 380.882,
+  "speaker": "Unknown",
+  "en": "How about that?",
+  "zh": "怎么样？"
+ },
+ {
+  "seg": 86,
+  "start": 380.982,
+  "end": 382.242,
+  "speaker": "Unknown",
+  "en": "Okay, you're back.",
+  "zh": "好的，你回来了。"
+ },
+ {
+  "seg": 87,
+  "start": 382.682,
+  "end": 383.323,
+  "speaker": "Unknown",
+  "en": "You're so back.",
+  "zh": "你真的回来了。"
+ },
+ {
+  "seg": 88,
+  "start": 383.363,
+  "end": 383.983,
+  "speaker": "Unknown",
+  "en": "I'm back.",
+  "zh": "我回来了。"
+ },
+ {
+  "seg": 89,
+  "start": 384.423,
+  "end": 386.384,
+  "speaker": "Unknown",
+  "en": "It's not the right video, but it is video.",
+  "zh": "不是正确的视频，但是是视频。"
+ },
+ {
+  "seg": 90,
+  "start": 387.264,
+  "end": 395.667,
+  "speaker": "Unknown",
+  "en": "And so we have this thing where everybody... That was just a total crash, by the way, of my AV stack.",
+  "zh": "所以我们有这么个情况，每个人……顺便说一句，那刚才是我音视频堆栈的彻底崩溃。"
+ },
+ {
+  "seg": 91,
+  "start": 396.007,
+  "end": 396.587,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 92,
+  "start": 397.538,
+  "end": 400.06,
+  "speaker": "Unknown",
+  "en": "We have this thing where people are just trying to rush to regulate.",
+  "zh": "我们有这么个情况，人们正试图急于监管。"
+ },
+ {
+  "seg": 93,
+  "start": 400.161,
+  "end": 406.587,
+  "speaker": "Unknown",
+  "en": "And that, it actually came up, it happens so often that this guy came up with a term and it's called the precautionary principle.",
+  "zh": "而且，这实际上出现了，它发生得太频繁了，以至于这家伙想出了一个术语，叫做预防原则。"
+ },
+ {
+  "seg": 94,
+  "start": 407.247,
+  "end": 414.534,
+  "speaker": "Unknown",
+  "en": "And the idea is regulators who, you know, look, you don't get a job in government to regulate and then say, and then don't regulate.",
+  "zh": "这个想法是那些监管者，你知道，看，你不会在政府找了一份监管的工作然后说，然后却不监管。"
+ },
+ {
+  "seg": 95,
+  "start": 415.135,
+  "end": 420.436,
+  "speaker": "Unknown",
+  "en": "Like, you come to work to craft regulations and to come up with what you want to do.",
+  "zh": "就像，你来工作就是为了制定法规，并提出你想做的事。"
+ },
+ {
+  "seg": 96,
+  "start": 420.596,
+  "end": 427.518,
+  "speaker": "Unknown",
+  "en": "And so the precautionary principle was like, well, let's just get ahead and let's regulate before anything bad happens.",
+  "zh": "所以预防原则就像是，嗯，让我们抢先一步，在任何坏事发生之前就进行监管。"
+ },
+ {
+  "seg": 97,
+  "start": 428.138,
+  "end": 433.239,
+  "speaker": "Unknown",
+  "en": "But when you do that, what you really do is you constrain the solution set.",
+  "zh": "但当你那样做时，你真正做的是限制了解决方案集合。"
+ },
+ {
+  "seg": 98,
+  "start": 433.619,
+  "end": 439.121,
+  "speaker": "Unknown",
+  "en": "And I think back to the internet and what would have happened if we would have precautionarily regulated the internet.",
+  "zh": "我回想互联网，以及如果我们预防性地监管了互联网会发生什么。"
+ },
+ {
+  "seg": 99,
+  "start": 439.801,
+  "end": 440.961,
+  "speaker": "Unknown",
+  "en": "Where would it have started?",
+  "zh": "它会从哪里开始？"
+ },
+ {
+  "seg": 100,
+  "start": 441.281,
+  "end": 444.642,
+  "speaker": "Unknown",
+  "en": "Like, would we all just be using AOL Instant Messenger right now?",
+  "zh": "比如，我们现在是不是都要用 AOL Instant Messenger 了？"
+ },
+ {
+  "seg": 101,
+  "start": 445.583,
+  "end": 451.408,
+  "speaker": "Unknown",
+  "en": "Because that was like the internet that everybody knew and it had all these attributes that regulators like.",
+  "zh": "因为那是每个人都知道的互联网，它拥有监管者喜欢的所有这些属性。"
+ },
+ {
+  "seg": 102,
+  "start": 451.468,
+  "end": 454.871,
+  "speaker": "Unknown",
+  "en": "Like, it was one company and it was in Virginia.",
+  "zh": "像，它是一家公司，而且它在弗吉尼亚州。"
+ },
+ {
+  "seg": 103,
+  "start": 454.972,
+  "end": 459.076,
+  "speaker": "Unknown",
+  "en": "Like, literally, that's even the best case because it was practically in the government already.",
+  "zh": "像，实际上，这甚至是最好的情况，因为它实际上已经在政府里面了。"
+ },
+ {
+  "seg": 104,
+  "start": 459.896,
+  "end": 466.903,
+  "speaker": "Unknown",
+  "en": "And, you know, you could go to them and you could tell them to do stuff and it was a walled garden.",
+  "zh": "而且，你知道，你可以去找他们，你可以告诉他们做些什么，而且它是一个围墙花园。"
+ },
+ {
+  "seg": 105,
+  "start": 466.943,
+  "end": 469.365,
+  "speaker": "Unknown",
+  "en": "If you didn't like something, you could turn it off.",
+  "zh": "如果你不喜欢什么东西，你可以把它关掉。"
+ },
+ {
+  "seg": 106,
+  "start": 470.472,
+  "end": 471.994,
+  "speaker": "Unknown",
+  "en": "And it was perfect.",
+  "zh": "那就很完美。"
+ },
+ {
+  "seg": 107,
+  "start": 472.534,
+  "end": 483.824,
+  "speaker": "Unknown",
+  "en": "Or would it have been in like web 1.0, where everybody is using six tags in HTML, there was not yet really commerce, and we all would have just looked things up on Yahoo and Excite.",
+  "zh": "还是它会像在 Web 1.0 那样，每个人都在 HTML 里使用六个标签，还没有真正的商业，而且我们要么都只是在 Yahoo 和 Excite 上查东西。"
+ },
+ {
+  "seg": 108,
+  "start": 484.344,
+  "end": 495.194,
+  "speaker": "Unknown",
+  "en": "And they would have said, okay, these are the two companies we're blessing, Yahoo and Excite, and there's no video, there's no audio, you know, we're just, you know, and you just, you kind of go and you pick your time.",
+  "zh": "而且他们本来会说，好的，这两家是我们认可的公司，Yahoo 和 Excite，而且没有视频，没有音频，你知道，我们只是，你知道，而且你只是，你有点去选择你的时间。"
+ },
+ {
+  "seg": 109,
+  "start": 495.974,
+  "end": 517.582,
+  "speaker": "Unknown",
+  "en": "of when it was we're all comfortable with like whatever it is that that's going on and so that's of course what happens is at that moment the companies that are really hot are the ones that the government seeks input from and some people think that that's bad i actually think it's good because they know presumably more than anybody else but what they also know is what they want to do",
+  "zh": "关于我们什么时候对无论正在发生什么事情都感到舒服的时候，所以这当然就是发生的事情是，在那一刻，那些真正热门的公司是政府寻求意见的对象，有些人认为那是坏事，我其实认为那是好事，因为他们据推测比其他任何人都懂，但他们同时也知道的是他们想做什么"
+ },
+ {
+  "seg": 110,
+  "start": 518.402,
+  "end": 523.723,
+  "speaker": "Unknown",
+  "en": "And so those companies then, they sort of push government to go in a certain direction.",
+  "zh": "所以那些公司然后，他们有点把政府推向某个方向。"
+ },
+ {
+  "seg": 111,
+  "start": 524.183,
+  "end": 528.744,
+  "speaker": "Unknown",
+  "en": "Historically, technology companies have said, whoa, how about this government?",
+  "zh": "历史上，科技公司会说，哇，这个政府怎么样？"
+ },
+ {
+  "seg": 112,
+  "start": 528.844,
+  "end": 529.525,
+  "speaker": "Unknown",
+  "en": "Hands off.",
+  "zh": "别碰。"
+ },
+ {
+  "seg": 113,
+  "start": 529.885,
+  "end": 532.225,
+  "speaker": "Unknown",
+  "en": "We don't like regulation like at all.",
+  "zh": "我们根本不喜欢监管。"
+ },
+ {
+  "seg": 114,
+  "start": 533.306,
+  "end": 544.528,
+  "speaker": "Unknown",
+  "en": "And, you know, that's a lot different than say what happens, you know, if the government's already regulating like safety of chemicals, it's very hard for the pharmaceutical companies to say, leave us alone and don't regulate us at all.",
+  "zh": "而且，你知道，这很不同，比如说，你知道，如果政府已经在监管化学品的安全，制药公司很难说，别管我们，根本别监管我们。"
+ },
+ {
+  "seg": 115,
+  "start": 545.248,
+  "end": 547.849,
+  "speaker": "Unknown",
+  "en": "And so that was one of the first early regulatory bodies.",
+  "zh": "所以那是早期的监管机构之一。"
+ },
+ {
+  "seg": 116,
+  "start": 548.509,
+  "end": 554.874,
+  "speaker": "Unknown",
+  "en": "But the tech companies this time around in AI have completely just blown my mind.",
+  "zh": "但是这次在 AI 方面的科技公司简直让我大吃一惊。"
+ },
+ {
+  "seg": 117,
+  "start": 554.914,
+  "end": 564.402,
+  "speaker": "Unknown",
+  "en": "Now, you have to understand, I spent, like, I was a Microsoft employee for, like, two years, and then the government started investigating Microsoft in, like, 1992.",
+  "zh": "现在，你必须明白，我花了，像，我是微软的员工大概两年，然后政府在 1992 年开始调查微软。"
+ },
+ {
+  "seg": 118,
+  "start": 564.902,
+  "end": 565.763,
+  "speaker": "Unknown",
+  "en": "Told you for what?",
+  "zh": "告诉你为了什么？"
+ },
+ {
+  "seg": 119,
+  "start": 566.083,
+  "end": 569.046,
+  "speaker": "Unknown",
+  "en": "You wouldn't even understand what I was talking about.",
+  "zh": "你甚至不会明白我在说什么。"
+ },
+ {
+  "seg": 120,
+  "start": 569.526,
+  "end": 569.786,
+  "speaker": "Unknown",
+  "en": "But...",
+  "zh": "但是……"
+ },
+ {
+  "seg": 121,
+  "start": 570.707,
+  "end": 575.593,
+  "speaker": "Unknown",
+  "en": "Now we had, you know, two years ago, like two years ago, what were people doing with AI?",
+  "zh": "我们现在有，你知道，两年前，像两年前，人们在用 AI 做什么？"
+ },
+ {
+  "seg": 122,
+  "start": 575.653,
+  "end": 576.914,
+  "speaker": "Unknown",
+  "en": "Like chatbots were new.",
+  "zh": "像聊天机器人当时是新鲜事物。"
+ },
+ {
+  "seg": 123,
+  "start": 577.354,
+  "end": 584.582,
+  "speaker": "Unknown",
+  "en": "And you had the leaders of the AI companies showing up to Congress, literally, please regulate us.",
+  "zh": "而且 AI 公司的领导者出现在国会，真的，求求监管我们。"
+ },
+ {
+  "seg": 124,
+  "start": 585.103,
+  "end": 586.665,
+  "speaker": "Unknown",
+  "en": "Oh, we're begging you to regulate us.",
+  "zh": "哦，我们求求你们监管我们。"
+ },
+ {
+  "seg": 125,
+  "start": 586.905,
+  "end": 589.127,
+  "speaker": "Unknown",
+  "en": "And that is just this crazy notion.",
+  "zh": "这简直就是个疯狂的概念。"
+ },
+ {
+  "seg": 126,
+  "start": 590.328,
+  "end": 597.412,
+  "speaker": "Unknown",
+  "en": "And so what you had was they just played right into the government's view that they missed regulating technology.",
+  "zh": "所以你拥有的情况是，他们正好迎合了政府认为他们错过了监管技术的观点。"
+ },
+ {
+  "seg": 127,
+  "start": 597.673,
+  "end": 599.294,
+  "speaker": "Unknown",
+  "en": "They missed regulating the internet.",
+  "zh": "他们错过了监管互联网。"
+ },
+ {
+  "seg": 128,
+  "start": 599.534,
+  "end": 601.315,
+  "speaker": "Unknown",
+  "en": "They missed regulating the PC.",
+  "zh": "他们错过了监管 PC。"
+ },
+ {
+  "seg": 129,
+  "start": 601.335,
+  "end": 603.056,
+  "speaker": "Unknown",
+  "en": "They missed regulating the mainframe.",
+  "zh": "他们错过了监管大型机。"
+ },
+ {
+  "seg": 130,
+  "start": 604,
+  "end": 606.862,
+  "speaker": "Unknown",
+  "en": "And so this was their chance, and they were being asked.",
+  "zh": "所以这是他们的机会，而且他们被询问了。"
+ },
+ {
+  "seg": 131,
+  "start": 606.922,
+  "end": 608.844,
+  "speaker": "Unknown",
+  "en": "And so they rolled out the red carpet.",
+  "zh": "所以他们铺开了红地毯。"
+ },
+ {
+  "seg": 132,
+  "start": 609.585,
+  "end": 621.354,
+  "speaker": "Unknown",
+  "en": "And the government knew what was going on, but because it solved a problem for them, which was how to really get into regulating big technology companies, they sort of went with it.",
+  "zh": "而且政府知道发生了什么，但这为他们解决了一个问题，也就是如何真正开始监管大型科技公司，所以他们就这样顺势而为。"
+ },
+ {
+  "seg": 133,
+  "start": 621.614,
+  "end": 626.919,
+  "speaker": "Unknown",
+  "en": "And so the government normally, they kind of go, oh, they're gonna try to control us.",
+  "zh": "所以政府通常，他们会想，哦，他们会试图控制我们。"
+ },
+ {
+  "seg": 134,
+  "start": 626.959,
+  "end": 628.94,
+  "speaker": "Unknown",
+  "en": "They're gonna lobby us and tell us what to do.",
+  "zh": "他们会游说我们并告诉我们该做什么。"
+ },
+ {
+  "seg": 135,
+  "start": 629.461,
+  "end": 631.402,
+  "speaker": "Unknown",
+  "en": "And in fact, everybody knew that was what's happening.",
+  "zh": "事实上，每个人都知道这就是正在发生的事情。"
+ },
+ {
+  "seg": 136,
+  "start": 631.442,
+  "end": 633.184,
+  "speaker": "Unknown",
+  "en": "And that's what's called regulatory capture.",
+  "zh": "这就是所谓的监管俘获。"
+ },
+ {
+  "seg": 137,
+  "start": 634.111,
+  "end": 635.792,
+  "speaker": "Unknown",
+  "en": "And this is a long history.",
+  "zh": "这是一个漫长的历史。"
+ },
+ {
+  "seg": 138,
+  "start": 635.933,
+  "end": 645.541,
+  "speaker": "Unknown",
+  "en": "And most of the people in government that are savvy with government know that that's what's happening, that they know the companies are saying, do this thing because it's good for everybody.",
+  "zh": "而且大多数政府中那些对政府精明的人都知道这就是正在发生的事情，他们知道公司会说，做这件事是因为这对大家都有好处。"
+ },
+ {
+  "seg": 139,
+  "start": 645.561,
+  "end": 646.742,
+  "speaker": "Unknown",
+  "en": "And they always have good reasons.",
+  "zh": "而且他们总是有很好的理由。"
+ },
+ {
+  "seg": 140,
+  "start": 646.762,
+  "end": 655.529,
+  "speaker": "Unknown",
+  "en": "They always say, oh, the products will be better, or the price will be lower, or there'll be much clearer lines of service, and the marketplace will be more fair.",
+  "zh": "他们总是说，哦，产品会更好，或者价格会更低，或者服务界限会更清晰，市场会更公平。"
+ },
+ {
+  "seg": 141,
+  "start": 655.569,
+  "end": 656.31,
+  "speaker": "Unknown",
+  "en": "Like, for example,",
+  "zh": "像，举个例子，"
+ },
+ {
+  "seg": 142,
+  "start": 657.01,
+  "end": 661.996,
+  "speaker": "Unknown",
+  "en": "AT&T, which is a fascinating example because they were actually a government-created monopoly.",
+  "zh": "AT&T，这是一个迷人的例子，因为他们实际上是一个政府制造的垄断。"
+ },
+ {
+  "seg": 143,
+  "start": 662.356,
+  "end": 667.422,
+  "speaker": "Unknown",
+  "en": "Like literally the government created the phone company and they owned it essentially.",
+  "zh": "像实际上政府创建了电话公司，而且他们基本上拥有它。"
+ },
+ {
+  "seg": 144,
+  "start": 667.962,
+  "end": 675.55,
+  "speaker": "Unknown",
+  "en": "But then when the government was saying, you know, we think we need to control your prices and do stuff, AT&T went to them and they said, okay, here's the deal.",
+  "zh": "但是当政府说，你知道，我们认为我们需要控制你的价格并做些事情时，AT&T 去找他们并说，好的，这就是交易。"
+ },
+ {
+  "seg": 145,
+  "start": 676.346,
+  "end": 685.296,
+  "speaker": "Unknown",
+  "en": "We can guarantee that every single address in America will have a telephone and it's called universal access.",
+  "zh": "我们可以保证美国的每一个地址都会有电话，这被称为普遍接入。"
+ },
+ {
+  "seg": 146,
+  "start": 686.177,
+  "end": 688.619,
+  "speaker": "Unknown",
+  "en": "And that's why you can only let us do this.",
+  "zh": "这就是为什么你只能让我们做这件事。"
+ },
+ {
+  "seg": 147,
+  "start": 689.4,
+  "end": 696.348,
+  "speaker": "Unknown",
+  "en": "And so basically they made this deal that the AT&T was going to be the national phone company, even though it was a private company.",
+  "zh": "所以基本上他们达成了这个协议，AT&T 将成为国家电话公司，尽管它是一家私营公司。"
+ },
+ {
+  "seg": 148,
+  "start": 697.412,
+  "end": 700.655,
+  "speaker": "Unknown",
+  "en": "If they promised to deliver phones everywhere.",
+  "zh": "如果他们承诺到处提供电话。"
+ },
+ {
+  "seg": 149,
+  "start": 701.416,
+  "end": 711.564,
+  "speaker": "Unknown",
+  "en": "And it got really tricky because with that came like a bunch of rules about using the telephone lines that today led to surveillance, you know, and all of this stuff.",
+  "zh": "而且这变得非常棘手，因为随之而来的是一堆关于使用电话线路的规则，这在今天导致了监控，你知道，以及所有这些东西。"
+ },
+ {
+  "seg": 150,
+  "start": 711.584,
+  "end": 719.952,
+  "speaker": "Unknown",
+  "en": "And because, so what happened was basically the AT&T, a private company, became really the United States phone company.",
+  "zh": "而因为，所以发生的事情基本上是 AT&T，一家私人公司，变成了真正的美国电话公司。"
+ },
+ {
+  "seg": 151,
+  "start": 720.942,
+  "end": 722.843,
+  "speaker": "Unknown",
+  "en": "And it was just a branch of the government.",
+  "zh": "它只是政府的一个分支机构。"
+ },
+ {
+  "seg": 152,
+  "start": 723.523,
+  "end": 725.364,
+  "speaker": "Unknown",
+  "en": "And this has happened time and again.",
+  "zh": "这种事情一次又一次地发生过。"
+ },
+ {
+  "seg": 153,
+  "start": 725.604,
+  "end": 728.585,
+  "speaker": "Unknown",
+  "en": "JP Morgan became the National Bank of America.",
+  "zh": "摩根大通成为了美国国家银行。"
+ },
+ {
+  "seg": 154,
+  "start": 729.105,
+  "end": 733.306,
+  "speaker": "Unknown",
+  "en": "You know, Standard Oil became the National Oil Company of America.",
+  "zh": "你知道，标准石油成为了美国国家石油公司。"
+ },
+ {
+  "seg": 155,
+  "start": 733.686,
+  "end": 737.788,
+  "speaker": "Unknown",
+  "en": "Even at some crazy extreme, Warner Brothers became the movie theater of America.",
+  "zh": "甚至在某些疯狂的极端情况下，华纳兄弟成为了美国的电影院。"
+ },
+ {
+  "seg": 156,
+  "start": 738.858,
+  "end": 752.662,
+  "speaker": "Unknown",
+  "en": "You know, and every industry, and it turns out, radio, television, and telephone all sort of followed the same path, where there were private companies that were basically beholden to the federal government.",
+  "zh": "你知道，每个行业，结果发现，无线电、电视和电话都遵循了同样的路径，那里有私人公司基本上受制于联邦政府。"
+ },
+ {
+  "seg": 157,
+  "start": 753.122,
+  "end": 756.363,
+  "speaker": "Unknown",
+  "en": "You saw a lot of this when the New Deal was created.",
+  "zh": "当新政创建时，你看到了很多这种情况。"
+ },
+ {
+  "seg": 158,
+  "start": 757.223,
+  "end": 770.692,
+  "speaker": "Unknown",
+  "en": "And FDR basically used the Federal Communications Commission to control the messaging of the New Deal by basically threatening the licenses of the radio broadcasters.",
+  "zh": "FDR 基本上利用联邦通信委员会通过威胁无线电广播公司的许可证来控制新政的信息传递。"
+ },
+ {
+  "seg": 159,
+  "start": 771.553,
+  "end": 776.836,
+  "speaker": "Unknown",
+  "en": "And there's a lot of controversy of just how much they did and did it really cross some line?",
+  "zh": "关于他们做了多少以及它是否真的越界了，存在很多争议？"
+ },
+ {
+  "seg": 160,
+  "start": 776.896,
+  "end": 779.798,
+  "speaker": "Unknown",
+  "en": "But the truth is they were just in line.",
+  "zh": "但真相是他们只是顺应了路线。"
+ },
+ {
+  "seg": 161,
+  "start": 779.918,
+  "end": 782.66,
+  "speaker": "Unknown",
+  "en": "Whether they wanted to be or not, they were gonna be in line.",
+  "zh": "不管他们想不想，他们都得顺应路线。"
+ },
+ {
+  "seg": 162,
+  "start": 783,
+  "end": 785.162,
+  "speaker": "Unknown",
+  "en": "And the same thing happened with television.",
+  "zh": "同样的事情也发生在电视上。"
+ },
+ {
+  "seg": 163,
+  "start": 785.902,
+  "end": 799.211,
+  "speaker": "Unknown",
+  "en": "And so this whole idea of being against open source, it's really rooted in, like, no one, the government can't be against open source because if you get a government grant, you're required to release all your software as open source.",
+  "zh": "所以这整个反对开源的想法，实际上植根于，就像，没有人，政府不能反对开源，因为如果你获得政府资助，你就被要求将你所有的软件作为开源发布。"
+ },
+ {
+  "seg": 164,
+  "start": 799.251,
+  "end": 802.233,
+  "speaker": "Unknown",
+  "en": "Like, that's the government way of doing computer science research.",
+  "zh": "就像，那是政府进行计算机科学研究的方式。"
+ },
+ {
+  "seg": 165,
+  "start": 803.073,
+  "end": 808.197,
+  "speaker": "Unknown",
+  "en": "So how can all of a sudden the government say, we don't want open source?",
+  "zh": "所以政府怎么能突然说，我们不想要开源？"
+ },
+ {
+  "seg": 166,
+  "start": 808.378,
+  "end": 814.583,
+  "speaker": "Unknown",
+  "en": "It doesn't even make sense because nobody, none of the leading academic researchers that will be government funded.",
+  "zh": "这甚至没有意义，因为没有人，没有顶尖的学术研究者会获得政府资助。"
+ },
+ {
+  "seg": 167,
+  "start": 815.423,
+  "end": 819.066,
+  "speaker": "Unknown",
+  "en": "And so it just makes no sense at all to me.",
+  "zh": "所以这对我来说完全讲不通。"
+ },
+ {
+  "seg": 168,
+  "start": 819.146,
+  "end": 826.433,
+  "speaker": "Unknown",
+  "en": "And, you know, Microsoft, where we were a closed source, you know, Bill Gates invented the closed source business model.",
+  "zh": "而且，你知道，微软，我们曾是闭源的，你知道，比尔·盖茨发明了闭源商业模式。"
+ },
+ {
+  "seg": 169,
+  "start": 827.755,
+  "end": 835.001,
+  "speaker": "Unknown",
+  "en": "And so we live through the rise of HTTP and Apache and web and Linux and all of this other stuff.",
+  "zh": "所以我们经历了 HTTP、Apache、网络和 Linux 以及所有其他东西的兴起。"
+ },
+ {
+  "seg": 170,
+  "start": 835.862,
+  "end": 837.823,
+  "speaker": "Unknown",
+  "en": "But there is a role for open source.",
+  "zh": "但开源有一席之地。"
+ },
+ {
+  "seg": 171,
+  "start": 838.284,
+  "end": 845.89,
+  "speaker": "Unknown",
+  "en": "And most importantly, the open source existed even when Microsoft existed, even when IBM existed.",
+  "zh": "最重要的是，即使当微软存在时，即使当 IBM 存在时，开源也存在着。"
+ },
+ {
+  "seg": 172,
+  "start": 846.55,
+  "end": 856.9,
+  "speaker": "Unknown",
+  "en": "And so there's no reason why the AI companies should be against open source other than we just don't want our competition to exist and we don't want to bother to compete.",
+  "zh": "所以 AI 公司没有理由反对开源，除了我们只是不想要我们的竞争对手存在，而且我们不想费心去竞争。"
+ },
+ {
+  "seg": 173,
+  "start": 857.36,
+  "end": 865.828,
+  "speaker": "Unknown",
+  "en": "We'd rather just compete with each other and not worry about that crazy open source competitor, which I, I just, I can't even put words into how obnoxious that is.",
+  "zh": "我们宁愿只互相竞争，而不去担心那个疯狂的开源竞争对手，这，我，我只是，我甚至无法用语言表达那是多么令人讨厌。"
+ },
+ {
+  "seg": 174,
+  "start": 866.269,
+  "end": 866.99,
+  "speaker": "Unknown",
+  "en": "It's just not.",
+  "zh": "事实并非如此。"
+ },
+ {
+  "seg": 175,
+  "start": 867.868,
+  "end": 868.548,
+  "speaker": "Unknown",
+  "en": "It's just not true.",
+  "zh": "这根本不是真的。"
+ },
+ {
+  "seg": 176,
+  "start": 868.568,
+  "end": 868.768,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 177,
+  "start": 869.649,
+  "end": 875.971,
+  "speaker": "Unknown",
+  "en": "And they benefited enormously from the academic research community, all of which was open published in open source.",
+  "zh": "而且他们从学术研究界获益良多，所有这些都是以开源形式公开发布的。"
+ },
+ {
+  "seg": 178,
+  "start": 876.631,
+  "end": 878.132,
+  "speaker": "Unknown",
+  "en": "You know, it's just crazy.",
+  "zh": "你知道，这简直太疯狂了。"
+ },
+ {
+  "seg": 179,
+  "start": 878.792,
+  "end": 879.732,
+  "speaker": "Unknown",
+  "en": "And that's how we got here.",
+  "zh": "这就是我们要到达这里的原因。"
+ },
+ {
+  "seg": 180,
+  "start": 879.792,
+  "end": 881.813,
+  "speaker": "Unknown",
+  "en": "And that's why we're even having this debate.",
+  "zh": "这也是我们甚至在争论这个的原因。"
+ },
+ {
+  "seg": 181,
+  "start": 881.833,
+  "end": 881.973,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 182,
+  "start": 882.013,
+  "end": 892.657,
+  "speaker": "Unknown",
+  "en": "Well, I think that, you know, most AI labs, AI companies would be like totally on board with this idea of like, yeah, of course we don't want, you know, government centralization and regulation.",
+  "zh": "嗯，我认为，你知道，大多数 AI 实验室，AI 公司会完全赞同这个想法，就像，是的，当然我们不想要，你知道，政府的集权化和监管。"
+ },
+ {
+  "seg": 183,
+  "start": 893.057,
+  "end": 896.039,
+  "speaker": "Unknown",
+  "en": "But they think, you know, AI is not like the other technologies.",
+  "zh": "但他们认为，你知道，AI 不像其他技术。"
+ },
+ {
+  "seg": 184,
+  "start": 896.099,
+  "end": 897.039,
+  "speaker": "Unknown",
+  "en": "It's not like the Internet.",
+  "zh": "它不像互联网。"
+ },
+ {
+  "seg": 185,
+  "start": 897.319,
+  "end": 898.9,
+  "speaker": "Unknown",
+  "en": "It's not like the PC.",
+  "zh": "它不像 PC。"
+ },
+ {
+  "seg": 186,
+  "start": 899.2,
+  "end": 902.042,
+  "speaker": "Unknown",
+  "en": "They're building towards, you know, artificial superintelligence.",
+  "zh": "他们正在朝着，你知道，人工超级智能构建。"
+ },
+ {
+  "seg": 187,
+  "start": 902.402,
+  "end": 907.184,
+  "speaker": "Unknown",
+  "en": "And this will be like a totally different thing and will require like a novel approach.",
+  "zh": "这将是一件完全不同的事情，并将需要一种新颖的方法。"
+ },
+ {
+  "seg": 188,
+  "start": 907.844,
+  "end": 913.727,
+  "speaker": "Unknown",
+  "en": "So I think maybe different people in this debate are working on like different assumptions of like where the technology is headed.",
+  "zh": "所以我认为也许这场辩论中的不同人士正在基于不同的假设工作，关于这项技术将走向何方。"
+ },
+ {
+  "seg": 189,
+  "start": 914.388,
+  "end": 920.691,
+  "speaker": "Unknown",
+  "en": "Well, those are let's let's that's the most generous way to express it is different assumptions.",
+  "zh": "嗯，那些是让我们让我们，那是表达它的最宽容的方式是不同的假设。"
+ },
+ {
+  "seg": 190,
+  "start": 921.879,
+  "end": 923.42,
+  "speaker": "Unknown",
+  "en": "The truth is no one knows the future.",
+  "zh": "真相是没有人知道未来。"
+ },
+ {
+  "seg": 191,
+  "start": 924.08,
+  "end": 932.003,
+  "speaker": "Unknown",
+  "en": "So what those assumptions mean are we should regulate this based on our own personal predictions of the future.",
+  "zh": "所以那些假设意味着我们应该基于我们自己对未来的个人预测来监管这个。"
+ },
+ {
+  "seg": 192,
+  "start": 932.763,
+  "end": 941.607,
+  "speaker": "Unknown",
+  "en": "But the history of being right about those predictions is pretty limited.",
+  "zh": "但关于那些预测是正确的历史是非常有限的。"
+ },
+ {
+  "seg": 193,
+  "start": 942.007,
+  "end": 946.088,
+  "speaker": "Unknown",
+  "en": "And so we should be really careful about that because those are all self-serving.",
+  "zh": "所以我们应该非常小心，因为那些都是为了自身利益。"
+ },
+ {
+  "seg": 194,
+  "start": 946.188,
+  "end": 947.009,
+  "speaker": "Unknown",
+  "en": "There's no...",
+  "zh": "没有……"
+ },
+ {
+  "seg": 195,
+  "start": 947.953,
+  "end": 958.96,
+  "speaker": "Unknown",
+  "en": "There's no reason, and to say it's different, I genuinely believe there are people who work on AI who really believe in this ASI, AGI arc of superintelligence.",
+  "zh": "没有理由，并且说它是不同的，我真心相信有从事 AI 工作的人真的相信这个超级智能的 ASI、AGI 轨迹。"
+ },
+ {
+  "seg": 196,
+  "start": 958.98,
+  "end": 968.247,
+  "speaker": "Unknown",
+  "en": "I mean, they went to Congress two years ago and they said literally there was fear in their eyes for the economy and for people dying everywhere.",
+  "zh": "我是说，他们两年前去了国会，他们真的说，眼中充满了对经济和各地人们死亡的恐惧。"
+ },
+ {
+  "seg": 197,
+  "start": 968.867,
+  "end": 975.471,
+  "speaker": "Unknown",
+  "en": "At the same time, of course, it didn't work and it was hallucinating and it was silly and it was making things up.",
+  "zh": "与此同时，当然，它不起作用，而且它在产生幻觉，它很愚蠢，而且它在编造事情。"
+ },
+ {
+  "seg": 198,
+  "start": 975.871,
+  "end": 984.537,
+  "speaker": "Unknown",
+  "en": "So again, they're drawing some predictive arc and even today people are fighting over is AI good enough to do stuff?",
+  "zh": "所以再一次，他们正在绘制某种预测轨迹，甚至今天人们还在争论 AI 是否足够好来做事情？"
+ },
+ {
+  "seg": 199,
+  "start": 984.557,
+  "end": 985.457,
+  "speaker": "Unknown",
+  "en": "What is it good at?",
+  "zh": "它擅长什么？"
+ },
+ {
+  "seg": 200,
+  "start": 986.398,
+  "end": 989.76,
+  "speaker": "Unknown",
+  "en": "So you can't have all of these things being true at the same time.",
+  "zh": "所以你不能让所有这些事情同时为真。"
+ },
+ {
+  "seg": 201,
+  "start": 990.12,
+  "end": 991.861,
+  "speaker": "Unknown",
+  "en": "So what it really says is not...",
+  "zh": "所以它真正说的不是……"
+ },
+ {
+  "seg": 202,
+  "start": 994.332,
+  "end": 998.337,
+  "speaker": "Unknown",
+  "en": "Now is not the time to regulate because we don't know where it's heading.",
+  "zh": "现在不是监管的时候，因为我们不知道它的发展方向。"
+ },
+ {
+  "seg": 203,
+  "start": 998.978,
+  "end": 1001.221,
+  "speaker": "Unknown",
+  "en": "So all you're going to do is kneecap innovation.",
+  "zh": "所以你要做的就是扼杀创新。"
+ },
+ {
+  "seg": 204,
+  "start": 1002.813,
+  "end": 1006.695,
+  "speaker": "Unknown",
+  "en": "And there are laws in place for almost any scenario.",
+  "zh": "而且几乎对于任何场景都有现行的法律。"
+ },
+ {
+  "seg": 205,
+  "start": 1006.936,
+  "end": 1014.039,
+  "speaker": "Unknown",
+  "en": "In fact, I would say 100% of the scenarios that people say are problematic, there are already laws against them.",
+  "zh": "事实上，我想说人们说有问题的场景中，100% 都有针对它们的法律。"
+ },
+ {
+  "seg": 206,
+  "start": 1014.9,
+  "end": 1018.982,
+  "speaker": "Unknown",
+  "en": "Like, there are already laws against, you know, putting bad drugs on the market.",
+  "zh": "比如，已经有法律反对，你知道，把坏药推向市场。"
+ },
+ {
+  "seg": 207,
+  "start": 1019.002,
+  "end": 1025.786,
+  "speaker": "Unknown",
+  "en": "There are already laws against not giving people bank loans for their gender or their race or their other attributes.",
+  "zh": "已经有法律反对因为性别、种族或其他属性而不给人们银行贷款。"
+ },
+ {
+  "seg": 208,
+  "start": 1026.606,
+  "end": 1031.129,
+  "speaker": "Unknown",
+  "en": "And there's already, like, Senator Warner today came out with a big four-point plan about AI.",
+  "zh": "而且已经有了，比如，参议员沃纳今天提出了一个关于 AI 的四点大计划。"
+ },
+ {
+  "seg": 209,
+  "start": 1031.469,
+  "end": 1036.653,
+  "speaker": "Unknown",
+  "en": "And he's like, well, we have to address the issue of nonconsensual nudity.",
+  "zh": "他说，好吧，我们必须解决未经同意的裸露问题。"
+ },
+ {
+  "seg": 210,
+  "start": 1037.053,
+  "end": 1039.194,
+  "speaker": "Unknown",
+  "en": "And it's like, okay, but there are laws against this.",
+  "zh": "就像是，好吧，但有法律反对这个。"
+ },
+ {
+  "seg": 211,
+  "start": 1039.634,
+  "end": 1042.776,
+  "speaker": "Unknown",
+  "en": "Like, you can't be showing nude pictures to children.",
+  "zh": "比如，你不能给孩子看裸体照片。"
+ },
+ {
+  "seg": 212,
+  "start": 1043.437,
+  "end": 1044.577,
+  "speaker": "Unknown",
+  "en": "Like, that's already a law.",
+  "zh": "那已经是一项法律了。"
+ },
+ {
+  "seg": 213,
+  "start": 1044.918,
+  "end": 1047.039,
+  "speaker": "Unknown",
+  "en": "And you can't be showing nude pictures of children.",
+  "zh": "你不能展示儿童的裸体照片。"
+ },
+ {
+  "seg": 214,
+  "start": 1047.339,
+  "end": 1048.32,
+  "speaker": "Unknown",
+  "en": "It's already a law.",
+  "zh": "这已经是一项法律了。"
+ },
+ {
+  "seg": 215,
+  "start": 1049.378,
+  "end": 1055.424,
+  "speaker": "Unknown",
+  "en": "And so like every one of these evil scenarios that they worry about, it's already illegal.",
+  "zh": "所以就像他们担心的每一个邪恶场景，它已经是非法的。"
+ },
+ {
+  "seg": 216,
+  "start": 1055.785,
+  "end": 1063.612,
+  "speaker": "Unknown",
+  "en": "Like I saw one state like, you can't be registered as an attorney if you're an AI.",
+  "zh": "比如我看到一个州，如果你是 AI，你就不能注册为律师。"
+ },
+ {
+  "seg": 217,
+  "start": 1063.953,
+  "end": 1065.614,
+  "speaker": "Unknown",
+  "en": "Well, of course you can't be registered as an attorney.",
+  "zh": "嗯，当然你不能注册为律师。"
+ },
+ {
+  "seg": 218,
+  "start": 1065.634,
+  "end": 1067.516,
+  "speaker": "Unknown",
+  "en": "You can't even sign your name on the license.",
+  "zh": "你甚至不能在执照上签你的名字。"
+ },
+ {
+  "seg": 219,
+  "start": 1068.217,
+  "end": 1071.96,
+  "speaker": "Unknown",
+  "en": "Like, you know, like, you have to have a license to be a lawyer.",
+  "zh": "比如，你知道，比如，你必须有执照才能成为律师。"
+ },
+ {
+  "seg": 220,
+  "start": 1072,
+  "end": 1072.84,
+  "speaker": "Unknown",
+  "en": "You have to take a test.",
+  "zh": "你必须参加考试。"
+ },
+ {
+  "seg": 221,
+  "start": 1072.86,
+  "end": 1074.681,
+  "speaker": "Unknown",
+  "en": "You have to do all of this stuff.",
+  "zh": "你必须做所有这些事情。"
+ },
+ {
+  "seg": 222,
+  "start": 1075.682,
+  "end": 1078.584,
+  "speaker": "Unknown",
+  "en": "And the AI doesn't do any of these things, nor can it.",
+  "zh": "而且 AI 不做这些事情中的任何一件，它也不能。"
+ },
+ {
+  "seg": 223,
+  "start": 1078.624,
+  "end": 1080.305,
+  "speaker": "Unknown",
+  "en": "Like, it can't register for college.",
+  "zh": "比如，它不能注册上大学。"
+ },
+ {
+  "seg": 224,
+  "start": 1080.765,
+  "end": 1087.09,
+  "speaker": "Unknown",
+  "en": "Like, people aren't making, they aren't being coherent because they're just so enamored with...",
+  "zh": "比如，人们不是在制造，他们没有连贯性，因为他们只是太迷恋……"
+ },
+ {
+  "seg": 225,
+  "start": 1087.59,
+  "end": 1094.535,
+  "speaker": "Unknown",
+  "en": "Like getting their point of view and leaving off competition in some way or kneecapping big tech in some way.",
+  "zh": "比如表达他们的观点，并以某种方式排除竞争，或者以某种方式扼杀大型科技公司。"
+ },
+ {
+  "seg": 226,
+  "start": 1094.615,
+  "end": 1094.815,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 227,
+  "start": 1095.156,
+  "end": 1099.859,
+  "speaker": "Unknown",
+  "en": "So if we have like the precautionary principle in mind, what would be the opposite of it?",
+  "zh": "所以如果我们心中有预防原则，它的对立面是什么？"
+ },
+ {
+  "seg": 228,
+  "start": 1099.879,
+  "end": 1111.588,
+  "speaker": "Unknown",
+  "en": "Like what would be a very like responsible, like iterative way to start regulating AI knowing that like your viewpoint is like we don't even know exactly what it's capable of.",
+  "zh": "比如一个非常负责任的、迭代的方法来开始监管 AI 是什么，知道就像你的观点是我们甚至不知道它确切能做什么。"
+ },
+ {
+  "seg": 229,
+  "start": 1111.788,
+  "end": 1112.489,
+  "speaker": "Unknown",
+  "en": "It's not even like...",
+  "zh": "它甚至不像是……"
+ },
+ {
+  "seg": 230,
+  "start": 1113.169,
+  "end": 1117.534,
+  "speaker": "Unknown",
+  "en": "You know, like hashed out enough as a technology or as a sector to even know what to regulate.",
+  "zh": "你知道，作为一项技术或一个部门，它还没有被充分讨论，甚至不知道要监管什么。"
+ },
+ {
+  "seg": 231,
+  "start": 1118.034,
+  "end": 1129.145,
+  "speaker": "Unknown",
+  "en": "Well, the first thing that's super easy is you can go through all the laws and say, like, hey, in this state with this law for this thing, you know.",
+  "zh": "嗯，第一件超级容易的事情是你可以遍历所有的法律并说，嘿，在这个州，针对这个事情的这项法律，你知道。"
+ },
+ {
+  "seg": 232,
+  "start": 1129.966,
+  "end": 1135.212,
+  "speaker": "Unknown",
+  "en": "Did we make it clear that you can't be an optician if you're not an AI?",
+  "zh": "我们是否说清楚了，如果你不是 AI，你就不能做验光师？"
+ },
+ {
+  "seg": 233,
+  "start": 1135.512,
+  "end": 1138.395,
+  "speaker": "Unknown",
+  "en": "Like should we just make sure that AI can't just go give eye tests?",
+  "zh": "比如我们要确保 AI 不能直接去做视力测试吗？"
+ },
+ {
+  "seg": 234,
+  "start": 1138.415,
+  "end": 1145.702,
+  "speaker": "Unknown",
+  "en": "Like you can't set up an iPhone in the mall with like a camera and write lens prescriptions for people.",
+  "zh": "比如你不能在商场里放一个 iPhone，配上相机，然后给人写眼镜处方。"
+ },
+ {
+  "seg": 235,
+  "start": 1146.523,
+  "end": 1155.498,
+  "speaker": "Unknown",
+  "en": "Like, OK, maybe you can do that because Ohio didn't word their law correctly and states are responsible for licensing opticians.",
+  "zh": "比如，好吧，也许你可以那样做，因为俄亥俄州的法律措辞不正确，而且各州负责验光师的执照。"
+ },
+ {
+  "seg": 236,
+  "start": 1155.939,
+  "end": 1157.462,
+  "speaker": "Unknown",
+  "en": "So there is this step one.",
+  "zh": "所以这里有第一步。"
+ },
+ {
+  "seg": 237,
+  "start": 1157.862,
+  "end": 1159.485,
+  "speaker": "Unknown",
+  "en": "OK, we have a whole new technology.",
+  "zh": "好的，我们有一个全新的技术。"
+ },
+ {
+  "seg": 238,
+  "start": 1160.422,
+  "end": 1162.923,
+  "speaker": "Unknown",
+  "en": "Should we, like, this happened with EVs.",
+  "zh": "我们应该，比如，这发生在电动汽车身上。"
+ },
+ {
+  "seg": 239,
+  "start": 1163.663,
+  "end": 1174.568,
+  "speaker": "Unknown",
+  "en": "Like, EVs weren't gas combustion engines, and they had to adhere to all the safety rules of cars, except they had a whole bunch of different components in them.",
+  "zh": "比如，电动汽车不是内燃机，它们必须遵守汽车的所有安全规则，除了它们里面有一堆不同的组件。"
+ },
+ {
+  "seg": 240,
+  "start": 1174.728,
+  "end": 1178.37,
+  "speaker": "Unknown",
+  "en": "And all the rules for cars sort of got based on the gas combustion engine.",
+  "zh": "而且汽车的所有规则某种程度上都是基于内燃机的。"
+ },
+ {
+  "seg": 241,
+  "start": 1178.67,
+  "end": 1184.412,
+  "speaker": "Unknown",
+  "en": "So they needed to go back and make sure that all the laws applied if you had a battery-operated car.",
+  "zh": "所以他们需要回去确保所有法律都适用于如果你有一辆电池驱动的汽车。"
+ },
+ {
+  "seg": 242,
+  "start": 1184.612,
+  "end": 1188.334,
+  "speaker": "Unknown",
+  "en": "And so, like, how many cars had front trunks?",
+  "zh": "所以，有多少车有前备箱？"
+ },
+ {
+  "seg": 243,
+  "start": 1188.714,
+  "end": 1189.474,
+  "speaker": "Unknown",
+  "en": "Not very many.",
+  "zh": "没有很多。"
+ },
+ {
+  "seg": 244,
+  "start": 1189.674,
+  "end": 1194.555,
+  "speaker": "Unknown",
+  "en": "So were there laws about safety and crash zones and all of this that accounted for front trunks?",
+  "zh": "那么有关于安全、碰撞区和所有这些考虑到前备箱的法律吗？"
+ },
+ {
+  "seg": 245,
+  "start": 1194.755,
+  "end": 1196.816,
+  "speaker": "Unknown",
+  "en": "Let's go check it out and make sure we're okay.",
+  "zh": "让我们去检查一下，确保我们没问题。"
+ },
+ {
+  "seg": 246,
+  "start": 1197.536,
+  "end": 1200.816,
+  "speaker": "Unknown",
+  "en": "And so there's a first step, which is there are a lot of laws.",
+  "zh": "所以有第一步，也就是有很多法律。"
+ },
+ {
+  "seg": 247,
+  "start": 1200.856,
+  "end": 1203.297,
+  "speaker": "Unknown",
+  "en": "There's 2 million laws on the books about everything.",
+  "zh": "现行法律中有 200 万条关于一切的法律。"
+ },
+ {
+  "seg": 248,
+  "start": 1203.717,
+  "end": 1206.198,
+  "speaker": "Unknown",
+  "en": "So do the right ones apply to AI?",
+  "zh": "那么正确的那些适用于 AI 吗？"
+ },
+ {
+  "seg": 249,
+  "start": 1206.298,
+  "end": 1209.998,
+  "speaker": "Unknown",
+  "en": "Like, do a bunch of places need to go add and AI to their laws?",
+  "zh": "比如，是否有一堆地方需要去给他们的法律添加和 AI？"
+ },
+ {
+  "seg": 250,
+  "start": 1210.778,
+  "end": 1212.039,
+  "speaker": "Unknown",
+  "en": "And maybe that's CSAM.",
+  "zh": "而且那可能是 CSAM。"
+ },
+ {
+  "seg": 251,
+  "start": 1212.299,
+  "end": 1213.619,
+  "speaker": "Unknown",
+  "en": "Maybe that's spam.",
+  "zh": "也许那是垃圾邮件。"
+ },
+ {
+  "seg": 252,
+  "start": 1213.839,
+  "end": 1215.839,
+  "speaker": "Unknown",
+  "en": "Maybe that's surveillance.",
+  "zh": "也许那是监控。"
+ },
+ {
+  "seg": 253,
+  "start": 1216.14,
+  "end": 1217.9,
+  "speaker": "Unknown",
+  "en": "Like, there's a bunch of stuff to just go do.",
+  "zh": "就像，有一堆事情直接去做。"
+ },
+ {
+  "seg": 254,
+  "start": 1218.83,
+  "end": 1220.532,
+  "speaker": "Unknown",
+  "en": "And maybe today those are raw.",
+  "zh": "而且也许今天这些是原始的。"
+ },
+ {
+  "seg": 255,
+  "start": 1220.693,
+  "end": 1225.419,
+  "speaker": "Unknown",
+  "en": "That's like, that should keep everybody busy while we go figure out AI.",
+  "zh": "这就像，那应该让所有人都忙起来，同时我们去搞清楚 AI。"
+ },
+ {
+  "seg": 256,
+  "start": 1225.479,
+  "end": 1227.501,
+  "speaker": "Unknown",
+  "en": "And of course, we have to do this with computers.",
+  "zh": "当然，我们必须用电脑做这个。"
+ },
+ {
+  "seg": 257,
+  "start": 1228.388,
+  "end": 1237.871,
+  "speaker": "Unknown",
+  "en": "Like, you had to make sure that if you used a computer to do something, that, like, you couldn't, like, you know, that all the anti-forgery laws applied if you happened to output in a computer.",
+  "zh": "就像，你必须确保，如果你用电脑做某事，那个，就像，你知道，所有的反伪造法律都适用，如果你碰巧在电脑上输出的话。"
+ },
+ {
+  "seg": 258,
+  "start": 1238.291,
+  "end": 1250.235,
+  "speaker": "Unknown",
+  "en": "That, you know, I went through getting the legal system to use Microsoft Word, and it turned out there were a whole bunch of features we had to go change in Word just to work correctly in the legal system as it stood.",
+  "zh": "那个，你知道，我经历过让法律系统使用 Microsoft Word，结果发现我们必须去更改 Word 中的一大堆功能，才能让它按照当时的法律系统正确工作。"
+ },
+ {
+  "seg": 259,
+  "start": 1251.211,
+  "end": 1252.772,
+  "speaker": "Unknown",
+  "en": "The legal system didn't have to do anything.",
+  "zh": "法律系统不需要做任何事。"
+ },
+ {
+  "seg": 260,
+  "start": 1253.092,
+  "end": 1258.235,
+  "speaker": "Unknown",
+  "en": "We had to go and just make sure we worked within the constraints of like here, like phrase the example.",
+  "zh": "我们必须去并确保我们在像这里的约束内工作，就像这个例子措辞。"
+ },
+ {
+  "seg": 261,
+  "start": 1258.495,
+  "end": 1262.458,
+  "speaker": "Unknown",
+  "en": "Like in the legal system, having footnotes that are longer than a page.",
+  "zh": "就像在法律系统中，脚注比一页还长。"
+ },
+ {
+  "seg": 262,
+  "start": 1263.098,
+  "end": 1264.559,
+  "speaker": "Unknown",
+  "en": "So footnotes have like a limit.",
+  "zh": "所以脚注有一个限制。"
+ },
+ {
+  "seg": 263,
+  "start": 1264.579,
+  "end": 1267.3,
+  "speaker": "Unknown",
+  "en": "They can only take up like a third of the page in a legal brief.",
+  "zh": "在法律简报中，它们只能占据像三分之一页。"
+ },
+ {
+  "seg": 264,
+  "start": 1267.741,
+  "end": 1274.325,
+  "speaker": "Unknown",
+  "en": "But if your footnote is longer than that, you have to have like a feature in a word processor that continues the footnote on the next page.",
+  "zh": "但如果你的脚注比那长，你必须拥有像文字处理器中的一项功能，能在下一页继续显示脚注。"
+ },
+ {
+  "seg": 265,
+  "start": 1275.565,
+  "end": 1278.006,
+  "speaker": "Unknown",
+  "en": "Like, we were like, wow, who thought of doing that?",
+  "zh": "就像，我们当时就像，哇，是谁想到那样做的？"
+ },
+ {
+  "seg": 266,
+  "start": 1278.366,
+  "end": 1282.827,
+  "speaker": "Unknown",
+  "en": "And it's no big deal for using a typewriter because you haven't even gotten to typing that page yet.",
+  "zh": "而且对于使用打字机来说这没什么大不了的，因为你甚至还没打到打那一页。"
+ },
+ {
+  "seg": 267,
+  "start": 1283.467,
+  "end": 1284.167,
+  "speaker": "Unknown",
+  "en": "So it worked fine.",
+  "zh": "所以它工作得很好。"
+ },
+ {
+  "seg": 268,
+  "start": 1284.307,
+  "end": 1285.047,
+  "speaker": "Unknown",
+  "en": "So we had to go do that.",
+  "zh": "所以我们不得不去做那个。"
+ },
+ {
+  "seg": 269,
+  "start": 1285.647,
+  "end": 1287.748,
+  "speaker": "Unknown",
+  "en": "So that's, like, a great step.",
+  "zh": "所以那是，就像，一个很好的步骤。"
+ },
+ {
+  "seg": 270,
+  "start": 1288.108,
+  "end": 1293.469,
+  "speaker": "Unknown",
+  "en": "And that's an idea of, like, then we'll know what's missing and also while the technology evolves.",
+  "zh": "这就像是一个主意，然后我们将知道缺少什么，以及在技术演进的同时。"
+ },
+ {
+  "seg": 271,
+  "start": 1293.509,
+  "end": 1293.709,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 272,
+  "start": 1294.109,
+  "end": 1302.951,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm a big believer in, like, domain experts will sort of know, like, in the case of the, like, opticians, well, it should be, like, opticians, registered opticians and people who are, like...",
+  "zh": "是的，我是...的坚定信徒，领域专家会某种程度知道，就像在...的情况下，就像，验光师，嗯，应该是，就像，验光师，注册验光师和那些...的人。"
+ },
+ {
+  "seg": 273,
+  "start": 1303.291,
+  "end": 1305.032,
+  "speaker": "Unknown",
+  "en": "And then she makes an AI mistake.",
+  "zh": "然后她犯了一个 AI 错误。"
+ },
+ {
+  "seg": 274,
+  "start": 1328.288,
+  "end": 1329.769,
+  "speaker": "Unknown",
+  "en": "Like, AI makes a mistake.",
+  "zh": "就像，AI 犯了一个错误。"
+ },
+ {
+  "seg": 275,
+  "start": 1330.189,
+  "end": 1332.03,
+  "speaker": "Unknown",
+  "en": "And there's no ambiguity.",
+  "zh": "并且没有歧义。"
+ },
+ {
+  "seg": 276,
+  "start": 1332.51,
+  "end": 1333.11,
+  "speaker": "Unknown",
+  "en": "It's her note.",
+  "zh": "那是她的笔记。"
+ },
+ {
+  "seg": 277,
+  "start": 1334.07,
+  "end": 1335.111,
+  "speaker": "Unknown",
+  "en": "Like, she's in trouble.",
+  "zh": "就像，她有麻烦了。"
+ },
+ {
+  "seg": 278,
+  "start": 1335.731,
+  "end": 1338.072,
+  "speaker": "Unknown",
+  "en": "She can, like, go, oh, my God, it's AI.",
+  "zh": "她可以，就像，说，哦，我的天，那是 AI。"
+ },
+ {
+  "seg": 279,
+  "start": 1338.332,
+  "end": 1339.813,
+  "speaker": "Unknown",
+  "en": "And there's just nothing you could do.",
+  "zh": "而且你真的无能为力。"
+ },
+ {
+  "seg": 280,
+  "start": 1340.033,
+  "end": 1341.393,
+  "speaker": "Unknown",
+  "en": "It's her medical license.",
+  "zh": "那是她的行医执照。"
+ },
+ {
+  "seg": 281,
+  "start": 1341.954,
+  "end": 1343.534,
+  "speaker": "Unknown",
+  "en": "It's not the AI's medical license.",
+  "zh": "不是 AI 的行医执照。"
+ },
+ {
+  "seg": 282,
+  "start": 1344.094,
+  "end": 1345.435,
+  "speaker": "Unknown",
+  "en": "Completely unambiguous.",
+  "zh": "完全明确。"
+ },
+ {
+  "seg": 283,
+  "start": 1345.775,
+  "end": 1348.416,
+  "speaker": "Unknown",
+  "en": "Now, if she went and hurt the patient, that's super tragic.",
+  "zh": "现在，如果她去伤害了病人，那是超级悲剧。"
+ },
+ {
+  "seg": 284,
+  "start": 1348.976,
+  "end": 1350.337,
+  "speaker": "Unknown",
+  "en": "But she still hurt the patient.",
+  "zh": "但她还是伤害了病人。"
+ },
+ {
+  "seg": 285,
+  "start": 1350.877,
+  "end": 1352.918,
+  "speaker": "Unknown",
+  "en": "And it's her accountability, no matter who wrote the note.",
+  "zh": "而且那是她的问责，无论谁写了笔记。"
+ },
+ {
+  "seg": 286,
+  "start": 1353.078,
+  "end": 1353.999,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 287,
+  "start": 1354.099,
+  "end": 1365.228,
+  "speaker": "Unknown",
+  "en": "Going back to open source, so something interesting of like the last week or so has been that like on one hand you have like China considering export controls on like chips and like open weight models.",
+  "zh": "回到开源，所以像过去一周左右有趣的一件事是，就像一方面你拥有像中国正在考虑对芯片和开放权重模型实施出口管制。"
+ },
+ {
+  "seg": 288,
+  "start": 1365.628,
+  "end": 1372.854,
+  "speaker": "Unknown",
+  "en": "And then you also have the U.S. government like considering maybe like some action against like Chinese, regulating Chinese open source models.",
+  "zh": "然后你也有美国政府，就像考虑可能采取一些行动针对中国，监管中国开源模型。"
+ },
+ {
+  "seg": 289,
+  "start": 1372.874,
+  "end": 1375.916,
+  "speaker": "Unknown",
+  "en": "So it seems like on both sides like there is an incentive to do that.",
+  "zh": "所以似乎在两边，就像都有那样做的动力。"
+ },
+ {
+  "seg": 290,
+  "start": 1376.036,
+  "end": 1377.998,
+  "speaker": "Unknown",
+  "en": "Like how do you see this playing out?",
+  "zh": "就像你怎么看这会怎么发展？"
+ },
+ {
+  "seg": 291,
+  "start": 1378.578,
+  "end": 1381.28,
+  "speaker": "Unknown",
+  "en": "Well, in this case, this is, this",
+  "zh": "嗯，在这种情况下，这"
+ },
+ {
+  "seg": 292,
+  "start": 1382.353,
+  "end": 1385.975,
+  "speaker": "Unknown",
+  "en": "There is an actual innovation war with China happening right now.",
+  "zh": "目前与中国确实存在一场创新战争。"
+ },
+ {
+  "seg": 293,
+  "start": 1386.095,
+  "end": 1387.256,
+  "speaker": "Unknown",
+  "en": "There's not a cold war.",
+  "zh": "不是冷战。"
+ },
+ {
+  "seg": 294,
+  "start": 1387.456,
+  "end": 1392.88,
+  "speaker": "Unknown",
+  "en": "There's sort of a trade war, but we're very mutually reliant on each other for trade, so it's hard to call it a trade war.",
+  "zh": "有一种贸易战，但我们在贸易上非常相互依赖，所以很难称之为贸易战。"
+ },
+ {
+  "seg": 295,
+  "start": 1393.12,
+  "end": 1395.802,
+  "speaker": "Unknown",
+  "en": "But there's absolutely an innovation leadership war.",
+  "zh": "但绝对存在一场创新领导权战争。"
+ },
+ {
+  "seg": 296,
+  "start": 1397.952,
+  "end": 1403.576,
+  "speaker": "Unknown",
+  "en": "If you're the government and you're participating in innovation leadership war, there are two tools that you have.",
+  "zh": "如果你是政府，并且你正在参与创新领导权战争，你有两个工具。"
+ },
+ {
+  "seg": 297,
+  "start": 1404.257,
+  "end": 1410.682,
+  "speaker": "Unknown",
+  "en": "One of them is you bludgeon your international competitors with the regulations that are already in place.",
+  "zh": "其中之一是你用已经到位的法规来痛打你的国际竞争对手。"
+ },
+ {
+  "seg": 298,
+  "start": 1411.743,
+  "end": 1418.168,
+  "speaker": "Unknown",
+  "en": "And then the other is you fund or nationalize companies to go compete.",
+  "zh": "另一个是你资助或国有化公司去竞争。"
+ },
+ {
+  "seg": 299,
+  "start": 1419.329,
+  "end": 1421.91,
+  "speaker": "Unknown",
+  "en": "And those are the tools that you're seeing put in place now.",
+  "zh": "那些就是你现在看到被部署的工具。"
+ },
+ {
+  "seg": 300,
+  "start": 1421.97,
+  "end": 1427.152,
+  "speaker": "Unknown",
+  "en": "China is very pro pouring money into the companies at a national level.",
+  "zh": "中国非常支持在国家层面向公司投入资金。"
+ },
+ {
+  "seg": 301,
+  "start": 1427.613,
+  "end": 1430.194,
+  "speaker": "Unknown",
+  "en": "This is something that we saw with Japan in the 1980s.",
+  "zh": "这是我们在1980年代在日本看到的情况。"
+ },
+ {
+  "seg": 302,
+  "start": 1430.254,
+  "end": 1434.456,
+  "speaker": "Unknown",
+  "en": "In the 1980s, Japan was going to take over the technology world.",
+  "zh": "在1980年代，日本即将接管科技世界。"
+ },
+ {
+  "seg": 303,
+  "start": 1434.796,
+  "end": 1441.459,
+  "speaker": "Unknown",
+  "en": "And they set up a huge ministry that sort of tried to shepherd the memory industry to dominate it.",
+  "zh": "他们设立了一个庞大的部门，试图引导存储行业以统治它。"
+ },
+ {
+  "seg": 304,
+  "start": 1441.619,
+  "end": 1444.38,
+  "speaker": "Unknown",
+  "en": "And if you look, they don't dominate the memory industry anymore.",
+  "zh": "如果你看看，他们不再统治存储行业了。"
+ },
+ {
+  "seg": 305,
+  "start": 1444.42,
+  "end": 1446.241,
+  "speaker": "Unknown",
+  "en": "So it didn't really work.",
+  "zh": "所以它并没有真正起作用。"
+ },
+ {
+  "seg": 306,
+  "start": 1447.101,
+  "end": 1453.587,
+  "speaker": "Unknown",
+  "en": "But they did for a long time dominate other aspects of tech, and they're very, very good at what they do.",
+  "zh": "但他们确实在很长一段时间内统治了科技的其他方面，而且他们非常擅长他们所做的事情。"
+ },
+ {
+  "seg": 307,
+  "start": 1453.648,
+  "end": 1458.873,
+  "speaker": "Unknown",
+  "en": "But this central planning, there's no track record where it really succeeds.",
+  "zh": "但是这种中央规划，没有任何真正成功的记录。"
+ },
+ {
+  "seg": 308,
+  "start": 1459.934,
+  "end": 1464.878,
+  "speaker": "Unknown",
+  "en": "These trade wars, this is where you get into what I think of as bank shots.",
+  "zh": "这些贸易战，这就是我所谓的反弹球介入的地方。"
+ },
+ {
+  "seg": 309,
+  "start": 1465.879,
+  "end": 1468.902,
+  "speaker": "Unknown",
+  "en": "The government's not going to go after AI directly.",
+  "zh": "政府不会直接针对 AI。"
+ },
+ {
+  "seg": 310,
+  "start": 1469.792,
+  "end": 1472.493,
+  "speaker": "Unknown",
+  "en": "It's going to, like, do these things on the side.",
+  "zh": "它会，比如说，在侧面做这些事情。"
+ },
+ {
+  "seg": 311,
+  "start": 1472.593,
+  "end": 1475.353,
+  "speaker": "Unknown",
+  "en": "Like, you see, we're going to, oh, we're going to ban the chips.",
+  "zh": "比如，你看，我们要，噢，我们要禁止芯片。"
+ },
+ {
+  "seg": 312,
+  "start": 1476.074,
+  "end": 1483.696,
+  "speaker": "Unknown",
+  "en": "Okay, well, that doesn't, that may or may not slow them down, but it doesn't have anything to do with the model in the end.",
+  "zh": "好吧，好吧，那不会，那可能会也可能不会减慢他们的速度，但这最终与模型没有任何关系。"
+ },
+ {
+  "seg": 313,
+  "start": 1484.316,
+  "end": 1492.898,
+  "speaker": "Unknown",
+  "en": "Like, okay, so it'll train longer, or it'll, you know, there's no shortage of power in China, so they're not going to run out of power running the models longer or something like that.",
+  "zh": "比如，好吧，所以它会训练更长时间，或者它会，你知道，在中国并不缺电，所以他们不会因为运行模型时间更长而耗尽电力或类似的事情。"
+ },
+ {
+  "seg": 314,
+  "start": 1493.538,
+  "end": 1499.281,
+  "speaker": "Unknown",
+  "en": "And so these bank shots are very popular with the government because also it doesn't look so rude.",
+  "zh": "所以这些反弹球在政府中非常受欢迎，因为它看起来也不那么粗鲁。"
+ },
+ {
+  "seg": 315,
+  "start": 1499.561,
+  "end": 1505.583,
+  "speaker": "Unknown",
+  "en": "Like there's one going on with China or with Canada now over Canadian lumber and we put a tariff on.",
+  "zh": "比如现在与中国或加拿大之间正在发生的一件事，关于加拿大木材，我们征收了关税。"
+ },
+ {
+  "seg": 316,
+  "start": 1505.824,
+  "end": 1508.545,
+  "speaker": "Unknown",
+  "en": "I have no idea what Canadian lumber has done to us.",
+  "zh": "我不知道加拿大木材对我们做了什么。"
+ },
+ {
+  "seg": 317,
+  "start": 1509.587,
+  "end": 1514.011,
+  "speaker": "Unknown",
+  "en": "But it's probably nothing, and this is over something that they did to us that isn't lumber.",
+  "zh": "但这可能什么也没有，这是因为他们对我们做的一些事情，而那些事情不是木材。"
+ },
+ {
+  "seg": 318,
+  "start": 1514.571,
+  "end": 1516.573,
+  "speaker": "Unknown",
+  "en": "Because often you can't do the same thing back.",
+  "zh": "因为通常你不能做同样的事情回去。"
+ },
+ {
+  "seg": 319,
+  "start": 1517.453,
+  "end": 1525.5,
+  "speaker": "Unknown",
+  "en": "Like it happened, you've seen this in the brutality of war, where like one side bombs a school by accident, you don't bomb a school of theirs on purpose.",
+  "zh": "就像发生的，你在战争的残酷性中见过这种情况，就像一方意外炸毁了一所学校，你不会故意炸毁他们的一所学校。"
+ },
+ {
+  "seg": 320,
+  "start": 1526.32,
+  "end": 1530.142,
+  "speaker": "Unknown",
+  "en": "You go and you bomb a factory that's important to the military or something.",
+  "zh": "你去轰炸一个对军方很重要的工厂或其他东西。"
+ },
+ {
+  "seg": 321,
+  "start": 1530.862,
+  "end": 1534.024,
+  "speaker": "Unknown",
+  "en": "And so you get these indirections and signals.",
+  "zh": "所以你会得到这些迂回和信号。"
+ },
+ {
+  "seg": 322,
+  "start": 1534.424,
+  "end": 1535.924,
+  "speaker": "Unknown",
+  "en": "These are the tools of diplomacy.",
+  "zh": "这些是外交工具。"
+ },
+ {
+  "seg": 323,
+  "start": 1536.125,
+  "end": 1542.367,
+  "speaker": "Unknown",
+  "en": "And you can fight all you want about how crazy they sound, but this is what they do.",
+  "zh": "你可以尽情争论它们听起来有多疯狂，但这正是他们所做的。"
+ },
+ {
+  "seg": 324,
+  "start": 1542.507,
+  "end": 1549.531,
+  "speaker": "Unknown",
+  "en": "And they're going to come to work every day and participate in the innovation war with the tools that they have.",
+  "zh": "他们每天都会来上班，并用手中的工具参与创新战争。"
+ },
+ {
+  "seg": 325,
+  "start": 1550.531,
+  "end": 1551.992,
+  "speaker": "Unknown",
+  "en": "And it's unfortunate for us",
+  "zh": "对我们来说很不幸"
+ },
+ {
+  "seg": 326,
+  "start": 1553.043,
+  "end": 1558.346,
+  "speaker": "Unknown",
+  "en": "That there are people helping them with their own bank shots.",
+  "zh": "居然有人帮助他们进行他们自己的反弹球操作。"
+ },
+ {
+  "seg": 327,
+  "start": 1558.906,
+  "end": 1563.709,
+  "speaker": "Unknown",
+  "en": "So like when Anthropic says, hey, the best way to hurt China is to curtail open source.",
+  "zh": "所以比如当 Anthropic 说，嘿，伤害中国的最好方式是限制开源时。"
+ },
+ {
+  "seg": 328,
+  "start": 1564.729,
+  "end": 1572.694,
+  "speaker": "Unknown",
+  "en": "What that means is the best way to help Anthropic is to curtail our open source competitor, whether it's from China or the United States.",
+  "zh": "这意味着帮助 Anthropic 的最好方式是限制我们的开源竞争对手，无论它来自中国还是美国。"
+ },
+ {
+  "seg": 329,
+  "start": 1573.762,
+  "end": 1577.81,
+  "speaker": "Unknown",
+  "en": "And that's just, that is kind of un-American.",
+  "zh": "这只是，这有点不符合美国精神。"
+ },
+ {
+  "seg": 330,
+  "start": 1578.471,
+  "end": 1580.755,
+  "speaker": "Unknown",
+  "en": "And so, and it's definitely un-tech.",
+  "zh": "所以，而且这绝对是不符合科技行业精神的。"
+ },
+ {
+  "seg": 331,
+  "start": 1581.396,
+  "end": 1584.382,
+  "speaker": "Unknown",
+  "en": "Like, we've just, the tech industry has just never...",
+  "zh": "比如，我们只是，科技行业从未……"
+ },
+ {
+  "seg": 332,
+  "start": 1585.727,
+  "end": 1588.109,
+  "speaker": "Unknown",
+  "en": "It's very different than, say, the auto industry.",
+  "zh": "这与比如说汽车行业非常不同。"
+ },
+ {
+  "seg": 333,
+  "start": 1588.469,
+  "end": 1599.577,
+  "speaker": "Unknown",
+  "en": "In the 1970s, when I was a kid, you know, Detroit was just getting crushed by small Japanese cars because Detroit just couldn't make fuel-efficient cars.",
+  "zh": "在1970年代，当我还是个孩子的时候，你知道，底特律被日本小型车碾压，因为底特律造不出省油的汽车。"
+ },
+ {
+  "seg": 334,
+  "start": 1600.398,
+  "end": 1602.6,
+  "speaker": "Unknown",
+  "en": "And they also couldn't make quality cars.",
+  "zh": "而且他们也造不出高质量的汽车。"
+ },
+ {
+  "seg": 335,
+  "start": 1603.32,
+  "end": 1609.384,
+  "speaker": "Unknown",
+  "en": "Japan had a reputation for low quality and through the 1960s really perfected",
+  "zh": "日本曾有低质量的声誉，并在1960年代真正完善了"
+ },
+ {
+  "seg": 336,
+  "start": 1610.385,
+  "end": 1611.866,
+  "speaker": "Unknown",
+  "en": "Making super high-quality cars.",
+  "zh": "制造超高质量汽车的技术。"
+ },
+ {
+  "seg": 337,
+  "start": 1611.886,
+  "end": 1613.306,
+  "speaker": "Unknown",
+  "en": "They invented quality engineering.",
+  "zh": "他们发明了质量工程。"
+ },
+ {
+  "seg": 338,
+  "start": 1613.706,
+  "end": 1622.289,
+  "speaker": "Unknown",
+  "en": "And then they are a very compressed city with a zillion people, so they made really small commerce that became immensely popular in the United States.",
+  "zh": "然后他们是一个非常拥挤的城市，有无数人，所以他们制造了非常小的商业，这在美国变得极受欢迎。"
+ },
+ {
+  "seg": 339,
+  "start": 1622.809,
+  "end": 1629.712,
+  "speaker": "Unknown",
+  "en": "And Detroit just convinced the administration that they were selling these cars below their cost, that they were dumping them.",
+  "zh": "而底特律只是说服了政府当局，他们以低于成本的价格出售这些汽车，即他们在倾销这些汽车。"
+ },
+ {
+  "seg": 340,
+  "start": 1629.732,
+  "end": 1630.612,
+  "speaker": "Unknown",
+  "en": "Does this sound familiar?",
+  "zh": "这听起来耳熟吗？"
+ },
+ {
+  "seg": 341,
+  "start": 1630.892,
+  "end": 1632.993,
+  "speaker": "Unknown",
+  "en": "This got used this week about ChemEat.",
+  "zh": "这本周被用在了 ChemEat 身上。"
+ },
+ {
+  "seg": 342,
+  "start": 1633.013,
+  "end": 1633.873,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 343,
+  "start": 1635.838,
+  "end": 1638.519,
+  "speaker": "Unknown",
+  "en": "And so the idea is that, oh, they're dumping it.",
+  "zh": "所以这个想法是，噢，他们在倾销它。"
+ },
+ {
+  "seg": 344,
+  "start": 1638.539,
+  "end": 1647.261,
+  "speaker": "Unknown",
+  "en": "Well, dumping, it turns out to be, it has to have a very specific definition about how much does it cost you and are you really offering it at less price?",
+  "zh": "好吧，倾销，结果证明，它必须有一个非常具体的定义，关于你的成本是多少以及你是否真的以更低的价格提供它？"
+ },
+ {
+  "seg": 345,
+  "start": 1647.361,
+  "end": 1652.062,
+  "speaker": "Unknown",
+  "en": "And even then, this is a bigger international trade diplomacy dialogue.",
+  "zh": "即使那样，这也是更大的国际贸易外交对话。"
+ },
+ {
+  "seg": 346,
+  "start": 1652.763,
+  "end": 1653.983,
+  "speaker": "Unknown",
+  "en": "It's not so cut and dry.",
+  "zh": "这并不是那么简单明了。"
+ },
+ {
+  "seg": 347,
+  "start": 1654.023,
+  "end": 1657.604,
+  "speaker": "Unknown",
+  "en": "You can't just say, because this product exists, it's being dumped.",
+  "zh": "你不能仅仅因为这个产品存在，就说它正在被倾销。"
+ },
+ {
+  "seg": 348,
+  "start": 1658.944,
+  "end": 1661.906,
+  "speaker": "Unknown",
+  "en": "And yet Detroit was like, dumping, dumping, dumping.",
+  "zh": "然而底特律就像，倾销，倾销，倾销。"
+ },
+ {
+  "seg": 349,
+  "start": 1661.926,
+  "end": 1662.766,
+  "speaker": "Unknown",
+  "en": "You got to stop it.",
+  "zh": "你必须阻止它。"
+ },
+ {
+  "seg": 350,
+  "start": 1663.067,
+  "end": 1664.327,
+  "speaker": "Unknown",
+  "en": "So what did Japan do?",
+  "zh": "那么日本做了什么？"
+ },
+ {
+  "seg": 351,
+  "start": 1664.367,
+  "end": 1665.888,
+  "speaker": "Unknown",
+  "en": "They actually built all their factories.",
+  "zh": "他们实际上建造了他们所有的工厂。"
+ },
+ {
+  "seg": 352,
+  "start": 1665.928,
+  "end": 1675.373,
+  "speaker": "Unknown",
+  "en": "And so you might remember or might know that there's a bunch of Japanese car vent manufacturing plants in the US, in the Carolinas and Alabama and Mississippi.",
+  "zh": "所以你可能记得或者可能知道，在美国有一批日本汽车通风口制造工厂，在卡罗莱纳州、阿拉巴马州和密西西比州。"
+ },
+ {
+  "seg": 353,
+  "start": 1675.433,
+  "end": 1677.714,
+  "speaker": "Unknown",
+  "en": "And so that's what they got out of this.",
+  "zh": "所以这就是他们从中得到的。"
+ },
+ {
+  "seg": 354,
+  "start": 1678.134,
+  "end": 1679.015,
+  "speaker": "Unknown",
+  "en": "They still lost.",
+  "zh": "他们还是输了。"
+ },
+ {
+  "seg": 355,
+  "start": 1679.215,
+  "end": 1680.816,
+  "speaker": "Unknown",
+  "en": "Detroit doesn't even make cars anymore.",
+  "zh": "底特律甚至不再造车了。"
+ },
+ {
+  "seg": 356,
+  "start": 1681.732,
+  "end": 1682.774,
+  "speaker": "Unknown",
+  "en": "So they still lost.",
+  "zh": "所以他们还是输了。"
+ },
+ {
+  "seg": 357,
+  "start": 1683.014,
+  "end": 1683.335,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 358,
+  "start": 1684.016,
+  "end": 1685.84,
+  "speaker": "Unknown",
+  "en": "And so it didn't really help.",
+  "zh": "所以它并没有真正起到帮助。"
+ },
+ {
+  "seg": 359,
+  "start": 1686.32,
+  "end": 1686.541,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 360,
+  "start": 1686.641,
+  "end": 1686.841,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 361,
+  "start": 1687.022,
+  "end": 1688.564,
+  "speaker": "Unknown",
+  "en": "Well, it's been super interesting.",
+  "zh": "嗯，这非常有趣。"
+ },
+ {
+  "seg": 362,
+  "start": 1689.266,
+  "end": 1691.049,
+  "speaker": "Unknown",
+  "en": "Stephen, thank you so much for coming on MTS.",
+  "zh": "Stephen，非常感谢你来到 MTS。"
+ },
+ {
+  "seg": 363,
+  "start": 1691.67,
+  "end": 1692.532,
+  "speaker": "Unknown",
+  "en": "It's been great having you on.",
+  "zh": "能邀请你来真是太棒了。"
+ },
+ {
+  "seg": 364,
+  "start": 1695.364,
+  "end": 1698.245,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16z podcast.",
+  "zh": "感谢收听这一期的 A16z 播客。"
+ },
+ {
+  "seg": 365,
+  "start": 1698.865,
+  "end": 1705.208,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期，请务必点赞、评论、订阅，给我们留下评分或评论，并与你的朋友和家人分享。"
+ },
+ {
+  "seg": 366,
+  "start": 1706.028,
+  "end": 1709.569,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "欲观看更多剧集，请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 367,
+  "start": 1710.17,
+  "end": 1715.832,
+  "speaker": "Unknown",
+  "en": "Follow us on X and A16z, and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 和 A16z 上关注我们，并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 368,
+  "start": 1716.252,
+  "end": 1718.773,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下一期再见。"
+ },
+ {
+  "seg": 369,
+  "start": 1720.106,
+  "end": 1726.47,
+  "speaker": "Unknown",
+  "en": "This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.",
+  "zh": "本信息仅用于教育目的，并不构成购买、持有或出售任何投资或金融产品的建议。"
+ },
+ {
+  "seg": 370,
+  "start": 1726.75,
+  "end": 1734.335,
+  "speaker": "Unknown",
+  "en": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+  "zh": "本播客由第三方制作，可能包含付费推广广告、其他公司的提及以及与 A16Z 无关的个人。"
+ },
+ {
+  "seg": 371,
+  "start": 1734.675,
+  "end": 1741.739,
+  "speaker": "Unknown",
+  "en": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+  "zh": "此类广告、公司和个人均不代表 AH Capital Management LLC、A16Z 或其任何关联公司的认可。"
+ },
+ {
+  "seg": 372,
+  "start": 1742.199,
+  "end": 1747.823,
+  "speaker": "Unknown",
+  "en": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+  "zh": "信息来自发布日期被认为可靠的来源，但 A16Z 不保证其准确性。"
+ }
+]

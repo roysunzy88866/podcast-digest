@@ -123,8 +123,8 @@ Martin 反复强调一个观点：如果你只看资产负债表——利润率�
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同嘉宾:Theo Jaffe · 同公司:Anthropic、Mistral、NVIDIA、OpenAI · 同概念:开源模型 (open source)</span>
+- [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|Steven Sinofsky：AI监管为什么急不得]]<span class="pd-rz">同嘉宾:Theo Jaffe · 同公司:Anthropic · 同概念:开源模型 (open source)</span>
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:Cursor、OpenAI、Anthropic</span>
-- [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:OpenAI、Anthropic、OpenRouter · 同概念:GPU、后训练 (post-training)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

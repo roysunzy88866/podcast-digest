@@ -1,0 +1,627 @@
+{
+  "episode_id": "2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules",
+  "podcast": "The a16z Show",
+  "date": "2026-07-27",
+  "tags": [
+    "AI 监管",
+    "开源模型",
+    "监管俘获",
+    "预防原则",
+    "中美科技博弈"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "theo-jaffe",
+      "type": "person",
+      "role": "host",
+      "name": "Theo Jaffe",
+      "file": "Theo Jaffe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            49.599,
+            66.631
+          ],
+          "quote": "Theo Jaffe and Sofia Puccini are joined by Steven Sanofsky to discuss why he believes AI regulation is moving too fast, the case for open source models, and what previous waves of technological innovation can teach us about building policy without stifling progress.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sofia-puccini",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sofia Puccini",
+      "file": "Sofia Puccini",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            49.599,
+            66.631
+          ],
+          "quote": "Theo Jaffe and Sofia Puccini are joined by Steven Sanofsky to discuss why he believes AI regulation is moving too fast, the case for open source models, and what previous waves of technological innovation can teach us about building policy without stifling progress.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "steven-sinofsky",
+      "type": "person",
+      "role": "cohost",
+      "name": "Steven Sinofsky",
+      "file": "Steven Sinofsky",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            69.478,
+            79.67
+          ],
+          "quote": "We are live with Steven Sinofsky, amazing tech analyst, author of Hardcore Software, longtime Microsoft leader, and we're so glad to have you back on.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "regulatory-capture",
+      "type": "concept",
+      "role": "concept",
+      "name": "regulatory capture",
+      "file": "regulatory capture",
+      "primary": true,
+      "how_described": "本集说它是公司打着'为了大家好'的旗号，推政府往对自己有利的方向走，历史上 AT&T 用'普遍接入'换来了事实上的国家电话公司地位",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            631.442,
+            633.184
+          ],
+          "quote": "And that's what's called regulatory capture.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "precautionary-principle",
+      "type": "concept",
+      "role": "concept",
+      "name": "precautionary principle",
+      "file": "precautionary principle",
+      "primary": true,
+      "how_described": "本集说它是监管者'在任何坏事发生之前就抢先监管'的思路，但真正做的是限制了解决方案集合，比如如果当年对互联网搞预防性监管，可能永远停在 AOL Instant Messenger",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            400.161,
+            406.587
+          ],
+          "quote": "And that, it actually came up, it happens so often that this guy came up with a term and it's called the precautionary principle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            420.596,
+            427.518
+          ],
+          "quote": "And so the precautionary principle was like, well, let's just get ahead and let's regulate before anything bad happens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1095.156,
+            1099.859
+          ],
+          "quote": "So if we have like the precautionary principle in mind, what would be the opposite of it?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "open source",
+      "file": "open source",
+      "primary": true,
+      "how_described": "本集说 AI 公司反对开源的唯一真实理由是'不想让竞争对手存在，不想费心去竞争'，而政府资助的计算机科学研究本身就要求以开源形式发布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            11.09,
+            21.035
+          ],
+          "quote": "There's no reason why the AI companies should be against open source other than we just don't want our competition to exist and we don't want to bother to compete.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            21.475,
+            25.937
+          ],
+          "quote": "We'd rather just compete with each other and not worry about that crazy open source competitor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            49.599,
+            66.631
+          ],
+          "quote": "Theo Jaffe and Sofia Puccini are joined by Steven Sanofsky to discuss why he believes AI regulation is moving too fast, the case for open source models, and what previous waves of technological innovation can teach us about building policy without stifling progress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            96.102,
+            100.686
+          ],
+          "quote": "So, open source, there's been much discussion of regulation of...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            101.226,
+            105.049
+          ],
+          "quote": "Open source, Chinese open source models in particular on both sides of the pond.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            105.069,
+            111.494
+          ],
+          "quote": "You know, China has considered export controls, but also Xi Jinping has said we're encouraging open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            123.764,
+            126.986
+          ],
+          "quote": "What are your takes on regulation of open source models?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 163,
+          "t": [
+            785.902,
+            799.211
+          ],
+          "quote": "And so this whole idea of being against open source, it's really rooted in, like, no one, the government can't be against open source because if you get a government grant, you're required to release all your software as open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            803.073,
+            808.197
+          ],
+          "quote": "So how can all of a sudden the government say, we don't want open source?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 170,
+          "t": [
+            835.862,
+            837.823
+          ],
+          "quote": "But there is a role for open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            838.284,
+            845.89
+          ],
+          "quote": "And most importantly, the open source existed even when Microsoft existed, even when IBM existed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            846.55,
+            856.9
+          ],
+          "quote": "And so there's no reason why the AI companies should be against open source other than we just don't want our competition to exist and we don't want to bother to compete.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            857.36,
+            865.828
+          ],
+          "quote": "We'd rather just compete with each other and not worry about that crazy open source competitor, which I, I just, I can't even put words into how obnoxious that is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            869.649,
+            875.971
+          ],
+          "quote": "And they benefited enormously from the academic research community, all of which was open published in open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1354.099,
+            1365.228
+          ],
+          "quote": "Going back to open source, so something interesting of like the last week or so has been that like on one hand you have like China considering export controls on like chips and like open weight models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1365.628,
+            1372.854
+          ],
+          "quote": "And then you also have the U.S. government like considering maybe like some action against like Chinese, regulating Chinese open source models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1558.906,
+            1563.709
+          ],
+          "quote": "So like when Anthropic says, hey, the best way to hurt China is to curtail open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1564.729,
+            1572.694
+          ],
+          "quote": "What that means is the best way to help Anthropic is to curtail our open source competitor, whether it's from China or the United States.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bank-shots",
+      "type": "concept",
+      "role": "concept",
+      "name": "bank shots",
+      "file": "bank shots",
+      "primary": true,
+      "how_described": "本集用它指政府不直接针对 AI，而是侧面出手（如禁芯片），类似于战争中对方意外炸了学校，你不会故意炸对方学校，而是炸一个军用工厂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1459.934,
+            1464.878
+          ],
+          "quote": "These trade wars, this is where you get into what I think of as bank shots.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1493.538,
+            1499.281
+          ],
+          "quote": "And so these bank shots are very popular with the government because also it doesn't look so rude.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1553.043,
+            1558.346
+          ],
+          "quote": "That there are people helping them with their own bank shots.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "at-t",
+      "type": "company",
+      "role": "company",
+      "name": "AT&T",
+      "file": "AT&T",
+      "primary": true,
+      "how_described": "本集说它用'普遍接入'(universal access)的承诺换来了事实上的国家电话公司地位，成为监管俘获的经典案例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            657.01,
+            661.996
+          ],
+          "quote": "AT&T, which is a fascinating example because they were actually a government-created monopoly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            667.962,
+            675.55
+          ],
+          "quote": "But then when the government was saying, you know, we think we need to control your prices and do stuff, AT&T went to them and they said, okay, here's the deal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            689.4,
+            696.348
+          ],
+          "quote": "And so basically they made this deal that the AT&T was going to be the national phone company, even though it was a private company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            711.584,
+            719.952
+          ],
+          "quote": "And because, so what happened was basically the AT&T, a private company, became really the United States phone company.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说当 Anthropic 称'限制开源是打击中国的最好方式'时，真正受益的是 Anthropic 自己，因为被限制的不只是中国的开源模型，也包括美国的开源竞争对手",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1558.906,
+            1563.709
+          ],
+          "quote": "So like when Anthropic says, hey, the best way to hurt China is to curtail open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1564.729,
+            1572.694
+          ],
+          "quote": "What that means is the best way to help Anthropic is to curtail our open source competitor, whether it's from China or the United States.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "regulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "regulation",
+      "file": "regulation",
+      "primary": true,
+      "how_described": "本集核心论点是现在对 AI 搞监管完全是本末倒置，因为在甚至都不知道要监管什么之前就开始了，历史上汽车安全花了60年才进入设计标准",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.675,
+            10.411
+          ],
+          "quote": "The whole topic of regulation for me just seems completely backwards because it's starting before we even know what we're regulating.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            49.599,
+            66.631
+          ],
+          "quote": "Theo Jaffe and Sofia Puccini are joined by Steven Sanofsky to discuss why he believes AI regulation is moving too fast, the case for open source models, and what previous waves of technological innovation can teach us about building policy without stifling progress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            96.102,
+            100.686
+          ],
+          "quote": "So, open source, there's been much discussion of regulation of...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            123.764,
+            126.986
+          ],
+          "quote": "What are your takes on regulation of open source models?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            129.704,
+            140.577
+          ],
+          "quote": "The whole topic of regulation for me just seems like completely backwards because it's starting before we even know what we're regulating.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            222.564,
+            232.686
+          ],
+          "quote": "The challenge is the story of regulation is always told as though if they would have gotten in early, they would have prevented this stuff from happening.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            312.104,
+            321.65
+          ],
+          "quote": "And so a lot of times it just, this whole notion of regulating is this hindsight and you assume that only good would have happened if regulation happens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            529.885,
+            532.225
+          ],
+          "quote": "We don't like regulation like at all.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            882.013,
+            892.657
+          ],
+          "quote": "Well, I think that, you know, most AI labs, AI companies would be like totally on board with this idea of like, yeah, of course we don't want, you know, government centralization and regulation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hallucinations",
+      "type": "concept",
+      "role": "concept",
+      "name": "hallucinations",
+      "file": "hallucinations",
+      "primary": false,
+      "how_described": "本集用它说明 AI 的矛盾状态——它不可能既是'世界上最聪明的事物'，同时又产生幻觉、答案是错的且无法依赖",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            263.417,
+            278.328
+          ],
+          "quote": "And, you know, today we're talking about AI, and it can't be that AI is both the most intelligent thing in the world and it generates gibberish, hallucinations, and the answers are wrong, and you can't rely on it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aol-instant-messenger",
+      "type": "company",
+      "role": "company",
+      "name": "AOL Instant Messenger",
+      "file": "AOL Instant Messenger",
+      "primary": false,
+      "how_described": "本集把它作为反面假设：如果当年对互联网搞预防性监管，可能所有人现在都还在用 AOL Instant Messenger",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            441.281,
+            444.642
+          ],
+          "quote": "Like, would we all just be using AOL Instant Messenger right now?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "jp-morgan",
+      "type": "company",
+      "role": "company",
+      "name": "JP Morgan",
+      "file": "JP Morgan",
+      "primary": false,
+      "how_described": "本集一笔带过说 JP Morgan 变成了事实上的美国国家银行，作为监管俘获的历史案例之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            725.604,
+            728.585
+          ],
+          "quote": "JP Morgan became the National Bank of America.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "standard-oil",
+      "type": "company",
+      "role": "company",
+      "name": "Standard Oil",
+      "file": "Standard Oil",
+      "primary": false,
+      "how_described": "本集一笔带过说标准石油变成了事实上的美国国家石油公司，作为监管俘获的历史案例之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            729.105,
+            733.306
+          ],
+          "quote": "You know, Standard Oil became the National Oil Company of America.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chemeat",
+      "type": "company",
+      "role": "company",
+      "name": "ChemEat",
+      "file": "ChemEat",
+      "primary": false,
+      "how_described": "本集说'倾销'这个词本周被用在了 ChemEat 身上，类比1970年代底特律指控日本汽车倾销",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            1630.892,
+            1632.993
+          ],
+          "quote": "This got used this week about ChemEat.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

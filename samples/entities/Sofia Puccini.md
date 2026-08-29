@@ -7,22 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sofia Puccini</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Sofia Puccini">SO</div><div class="pi"><h1 class="pt">Sofia Puccini</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Sofia Puccini">SO</div><div class="pi"><h1 class="pt">Sofia Puccini</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为联合主持
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为联合主持
+- [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Theo Jaffe]] · [[蒸馏]] · [[Hugging Face]] · [[Anthropic]] · [[OpenAI]] · [[Sriram Krishnan]] · [[Ben Horowitz]] · [[开源权重]] · [[NVIDIA]] · [[Frontier Labs]]
+[[Theo Jaffe]] · [[Anthropic]] · [[蒸馏]] · [[开源]] · [[Hugging Face]] · [[OpenAI]] · [[Sriram Krishnan]] · [[Ben Horowitz]] · [[Steven Sinofsky]] · [[开源权重]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":3,"蒸馏":7,"Hugging Face":11,"Anthropic":73,"OpenAI":65,"Sriram Krishnan":1,"Ben Horowitz":1,"开源权重":4,"NVIDIA":23,"Frontier Labs":3}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":4,"Anthropic":74,"蒸馏":7,"开源":6,"Hugging Face":11,"OpenAI":65,"Sriram Krishnan":1,"Ben Horowitz":1,"Steven Sinofsky":2,"开源权重":4}</script>
 
 <script>
 (function(){
@@ -245,10 +246,18 @@ unlisted: true
   }
   // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
   // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
-  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  // 故再兜一条「站内换过页没」。
+  // ⚠️ 原兜底用 history.length>1 —— 手机/微信内置浏览器分享链接直开也常 >1(会话预置历史),误判成站内、
+  //    害得分享页顶上显返回键而非站名(用户 2026-08-29 报)。改用「站内换过页没」判断。
+  //    状态挂 window 而非模块级 var(GLM 011[1]):Quartz SPA 换页可能重执行本段脚本,var 会每次重置成当前
+  //    pathname → spaNavigated 永远置不了 true。window 上用「未设置才记」守卫,只在**第一次**记真·落地路径,
+  //    重执行/换页都存活;__pdSpa 一旦置 true 就 sticky。referrer 用整 origin 比对(new URL),防
+  //    「本站origin.evil.com」前缀欺骗(GLM 011[2])。
+  if (window.__pdLanding == null) window.__pdLanding = location.pathname; // == null 兼捕未设置态,且不把该字面量带进页面(既有「页面无脏词」闸门)
+  function pdSameOrigin(u){ try { return new URL(u).origin === location.origin; } catch (e) { return false; } }
   function direct(){
-    var ref = document.referrer || '';
-    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    if (location.pathname !== window.__pdLanding) window.__pdSpa = true; // 跳到别的页 = 站内导航(sticky)
+    var fromSite = pdSameOrigin(document.referrer || '') || window.__pdSpa === true;
     document.body.classList.toggle('pd-direct', !fromSite);
   }
   function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }

@@ -1,0 +1,1170 @@
+{
+  "episode_id": "2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c",
+  "podcast": "In Depth",
+  "date": "2026-08-27",
+  "tags": [
+    "工程领导力",
+    "组织速度",
+    "团队文化",
+    "AI 时代工程管理",
+    "垂直整合"
+  ],
+  "categories": [
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "jay-parikh",
+      "type": "person",
+      "role": "host",
+      "name": "Jay Parikh",
+      "file": "Jay Parikh",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "brett",
+      "type": "person",
+      "role": "cohost",
+      "name": "Brett",
+      "file": "Brett",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            230.39,
+            235.014
+          ],
+          "quote": "For a long time, Brett, I've like really focused on this like week over week progress, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            3740.247,
+            3740.727
+          ],
+          "quote": "Thank you, Brett.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "core-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Core AI",
+      "file": "Core AI",
+      "primary": true,
+      "how_described": "本集说它是嘉宾在微软创建的团队，通过收集定性和定量数据（如将工程师时间拆分为专注时间和非专注时间并建仪表板）来推动组织提速",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            821.657,
+            823.778
+          ],
+          "quote": "And we created this Core AI team, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1161.024,
+            1172.867
+          ],
+          "quote": "I mean, we have teams now in Core AI and Microsoft that, you know, that I support, that I work with, that are shipping daily, sometimes multiple times a day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            2028.425,
+            2034.494
+          ],
+          "quote": "And then landed on this idea of what now has formed the core of Core AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            2117.061,
+            2128.633
+          ],
+          "quote": "And for me, one of the other, I think, shifts we're trying to make in Core AI at Microsoft is this balance between more ICs leading things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": true,
+      "how_described": "本集说嘉宾在此从每天发布一次核心产品推进到每天三次直至持续部署，并将基础设施团队职责推高到涵盖移动端堆栈，强调基础设施与产品团队共享命运",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            57.037,
+            61.721
+          ],
+          "quote": "Yeah, I was like, I always joke about, you know, from everybody thinks it's like, oh, you built Facebook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            133.652,
+            142.037
+          ],
+          "quote": "We all play different roles you know and Facebook I had different roles and especially running and like being the head of all of engineering I had to think differently about the whole system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            492.427,
+            500.075
+          ],
+          "quote": "Maybe a way to sort of frame it is if I'm working on your team 10 years ago at Facebook, and I'm working on your team today at Microsoft.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            1083.255,
+            1086.039
+          ],
+          "quote": "In fact, that's kind of what played out when I was at Facebook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            1086.059,
+            1093.148
+          ],
+          "quote": "When I joined, we did, which was like really fast at the time, we used to ship the main core of Facebook once a day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1205.813,
+            1216.276
+          ],
+          "quote": "Type of customers that we serve, you know, in other places, like being able to, whether it be at Facebook or other companies, being able to have these small teams.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1322.954,
+            1336.563
+          ],
+          "quote": "You know, you did a lot of prolific work in building the infrastructure that Facebook was built on top of and the engineering teams, you know, all the tooling and a lot of the magic of what allowed the teams to move so quickly was built on top of the stuff that you were working on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1337.043,
+            1345.949
+          ],
+          "quote": "In that case, do you think it's important that those folks that are working on that think that the software engineering team at Facebook is their customer and they need to delight the customer and meet the customer where they are?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1346.629,
+            1351.89
+          ],
+          "quote": "At Facebook, the infrastructure team was not just the hardware, it was all of the software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1664.931,
+            1672.617
+          ],
+          "quote": "So that I think is one thing where, okay, well, let's even internally, you know, there were times at Facebook where, you know, there was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1777.805,
+            1798.611
+          ],
+          "quote": "I think there's a few things, which is, you know, when I look at, say, Akamai or Facebook, when you're in that growth and or you're kind of in the steep part of the S-curve and you're learning really quickly and adapting really quickly and things are changing really quickly on you, spending time, because you get really busy doing all the things, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1824.174,
+            1834.537
+          ],
+          "quote": "So if I look at what happened when I got to Facebook was, you know, we were just like, wow, a few hundred engineers when I joined, and the stack was arguably pretty simple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1842.635,
+            1845.157
+          ],
+          "quote": "Honestly, when I joined, Facebook was all web.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1845.297,
+            1847.219
+          ],
+          "quote": "I mean, everything was Facebook.com.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1865.676,
+            1871.362
+          ],
+          "quote": "But in the beginning there, like the stack, the technology of Facebook was, it was arguably pretty simple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1900.307,
+            1904.11
+          ],
+          "quote": "Like when I got to Facebook, we weren't building our own data centers, we weren't building our own hardware.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1929.213,
+            1953.403
+          ],
+          "quote": "hiring over a like a very long period of time right it's like okay every layer of the stack we need to be able to in some ways insource it at the time that's what required to do it really fast at at facebook right but that's not something you react to you think about proactively right in terms of like we need to become experts in this layer of the stack where we need to build this part of the technology",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1968.055,
+            1979.765
+          ],
+          "quote": "So onboarding of folks into a company like Facebook or even in our team at Microsoft was something that our teams may put a lot of time into, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            2009.179,
+            2014.261
+          ],
+          "quote": "And even my onboarding into both Facebook and Microsoft followed this path, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            2129.514,
+            2146.336
+          ],
+          "quote": "And what I also saw and what we did at Facebook is when these things like mobile or other things came in that were these steep inflections for us is like having the right balance of IC-led or kind of an IC prominent culture in product and eng.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2485.426,
+            2509.73
+          ],
+          "quote": "You know at Facebook we used to have a whole set of projects and that we and I would curate and sort of track and work with the team that was like our big bets list and these in that time were like multi-year bets right and these things there's like really strong characteristics of what I think is a big bet right which is one is they have to bring that discontinuous impact to the business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2547.01,
+            2556.655
+          ],
+          "quote": "So a lot of our big bets at Facebook and our team were three, four, five teams that had to come together to get that discontinuous impact.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2605.769,
+            2610.151
+          ],
+          "quote": "Facebook, the derivative that they that landed somewhere else, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2673.93,
+            2678.787
+          ],
+          "quote": "And so in the Facebook days, what are like the canonical examples of what was a big bet at the time?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2850.835,
+            2861.685
+          ],
+          "quote": "But it feels like in so many cases, at least in the case of Facebook and many other extraordinary companies, over time, you become more and more vertically integrated and it's the correct thing for the company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2873.035,
+            2882.602
+          ],
+          "quote": "And, you know, when I joined Facebook, AWS and the public cloud was fairly nascent at that point, so I don't think it was a real option at that point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2890.808,
+            2898.797
+          ],
+          "quote": "I would say there's a few things here which I believed in terms of my time at Facebook or my time at Akamai.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 530,
+          "t": [
+            3658.903,
+            3672.868
+          ],
+          "quote": "And so, you know, for example, when I went to Facebook, even though Facebook was like doing great top line, you know, I remember talking to Mark and Mark was like, we have money, so we should just build features and we should put all the engineers working on product.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "akamai",
+      "type": "company",
+      "role": "company",
+      "name": "Akamai",
+      "file": "Akamai",
+      "primary": true,
+      "how_described": "本集说嘉宾在此经历了互联网泡沫破裂和 9-11 事件（联合创始人 Danny 在 9-11 中去世），这段经历让他在 Facebook 一开始就重视效率工作，不愿重蹈烧钱的覆辙",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            95.11,
+            102.719
+          ],
+          "quote": "In fact, my first role at Akamai, believe it or not, was to help them out with technical sales because they didn't have anybody.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1777.805,
+            1798.611
+          ],
+          "quote": "I think there's a few things, which is, you know, when I look at, say, Akamai or Facebook, when you're in that growth and or you're kind of in the steep part of the S-curve and you're learning really quickly and adapting really quickly and things are changing really quickly on you, spending time, because you get really busy doing all the things, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2890.808,
+            2898.797
+          ],
+          "quote": "I would say there's a few things here which I believed in terms of my time at Facebook or my time at Akamai.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            3283.057,
+            3295.864
+          ],
+          "quote": "But to give you a specific example where I think I would say I grew up a lot as a leader was the first probably four or five years when I was at Akamai, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3381.01,
+            3406.743
+          ],
+          "quote": "Scratch your head and then you know we went through obviously the phase where the dot-com bust crash happened so that company Akamai at the time had to go through a lot of changes right so many things happened one is we endured multiple rounds of downsizing of the company right and you know that was like I'd never been through that before in terms of how do you manage",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3672.948,
+            3681.091
+          ],
+          "quote": "And I said, cool, but I'm going to work on efficiency because I'm not going to go through that journey that we all went through at Akamai.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 540,
+          "t": [
+            3726.738,
+            3737.205
+          ],
+          "quote": "We like inceptionized that culture early because I was not going to have the nightmare that we lived through at, you know, as we grew up as leaders at Akamai.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说嘉宾在此推行 FTE 文化心态——每个人无论做什么层级的工作都必须把自己做的事和客户怎么使用它联系起来，参加客户简报、旁听客户会议、读反馈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            492.427,
+            500.075
+          ],
+          "quote": "Maybe a way to sort of frame it is if I'm working on your team 10 years ago at Facebook, and I'm working on your team today at Microsoft.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1161.024,
+            1172.867
+          ],
+          "quote": "I mean, we have teams now in Core AI and Microsoft that, you know, that I support, that I work with, that are shipping daily, sometimes multiple times a day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1449.533,
+            1459.281
+          ],
+          "quote": "Even in, you know, the team at Microsoft, my team, Corey, like one of the things we have just as a cultural thing right now is like, you know, there is this like FTE thing out there, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1968.055,
+            1979.765
+          ],
+          "quote": "So onboarding of folks into a company like Facebook or even in our team at Microsoft was something that our teams may put a lot of time into, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            2009.179,
+            2014.261
+          ],
+          "quote": "And even my onboarding into both Facebook and Microsoft followed this path, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            2018.022,
+            2027.865
+          ],
+          "quote": "At Microsoft, I spent the first two months, you know, as an IC meeting people, learning all of like all of the great, cool things that happen at Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            2117.061,
+            2128.633
+          ],
+          "quote": "And for me, one of the other, I think, shifts we're trying to make in Core AI at Microsoft is this balance between more ICs leading things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            2195.801,
+            2202.263
+          ],
+          "quote": "One of the things that I do at Microsoft is I have these brain trusts and they're in different parts of our stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            3092.873,
+            3100.899
+          ],
+          "quote": "I mean, just it's a long list as I was reflecting as I was moving from that company and then after a couple months ended up at Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            3109.345,
+            3137.546
+          ],
+          "quote": "you know go-to-market of sales of sales terminology of like sales metrics all of the machinery around a great operating sales team which you know i get to learn a tremendous amount at microsoft with our go-to-market team now i understand that stuff very at a much more intuitive level right it's not foreign to me so that was like a deeper appreciation being a ceo where you had to put all of that together understanding",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            3166.869,
+            3175.077
+          ],
+          "quote": "That carries over to being way more, I would say, in tune with what needs to happen or what we're doing at Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            3188.406,
+            3193.831
+          ],
+          "quote": "And let's remove sort of this last chapter of Microsoft and you look back at the previous couple decades.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "learning-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "学习循环 (learning loop)",
+      "file": "学习循环",
+      "primary": true,
+      "how_described": "本集把组织想象成一个圆，圆的一圈代表一次学习；组织变大、人变多后圆的直径变大、绕一圈变慢，嘉宾思考的所有事情就是怎么对抗这种扩张和变慢",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            580.594,
+            605.364
+          ],
+          "quote": "you know the connection of people to other people in the organization and how they are really driving that execution and more importantly that learning because you want the organization as i talk about this concept of a learning loop so think about you know a circle and as an organization gets more people as it gets more successful it tends to be that circle the diameter gets bigger",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            783.516,
+            796.653
+          ],
+          "quote": "I think back to that learning loop that I talked about, I think it is all about if I can learn 2x, 5x, 10x faster than my competitors in the fullness of time, I like my chances at that point, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "work-chart",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作图 (work chart)",
+      "file": "工作图",
+      "primary": true,
+      "how_described": "本集说大团队不可能快，关键不是组织结构图而是工作图——把工作拆成极小单元（V 团队或分队），每个单元有合适的人、一个拥有上下文和主观能动性的明确 DRI，然后信任这个团队执行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            1230.2,
+            1232.823
+          ],
+          "quote": "You know, I call, we call the work chart, not the org chart.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1236.267,
+            1239.311
+          ],
+          "quote": "Have this thing and emphasize this thing called the work chart.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dri",
+      "type": "concept",
+      "role": "concept",
+      "name": "DRI",
+      "file": "DRI",
+      "primary": true,
+      "how_described": "本集说在工作图中每个小单元需要一个明确的 DRI（直接责任人），拥有上下文和主观能动性，但也要快速判断 DRI 是否选对了人——选错了就要果断换",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            1250.223,
+            1260.89
+          ],
+          "quote": "And a clear DRI or a clear leader that has the context, that has the agency, and you trust that team to go do what they need to go do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1309.369,
+            1313.93
+          ],
+          "quote": "Sometimes you put people in that DRI or lead role that are actually just not the right people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "toil",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦差事 (toil)",
+      "file": "苦差事",
+      "primary": true,
+      "how_described": "本集说随着组织扩大和 AI 时代构建迭代速度前所未有地快，如果不回头清理随增长堆起来的苦差事，它就会拖慢你并引发螺旋式恶化；苦差事往往是习得性无助文化'产生'的结果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            276.518,
+            290.621
+          ],
+          "quote": "You need to have this moment or this thing in your culture that cares about the toil and about the headwinds that are created and knows how to go and collect that stuff and squish it down or get rid of it, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            299.443,
+            315.636
+          ],
+          "quote": "And if you don't go back and have a culture where you are in some ways like fighting allergic, recognizing that this toil can't just infinitely keep accruing or kind of piling up for you, then that just is going to slow you down and all sorts of things spiral.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            384.181,
+            391.989
+          ],
+          "quote": "If you're an older organization, maybe you have a lot more in four, which is that toil, and that's like harder to fix.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            392.59,
+            400.299
+          ],
+          "quote": "Because in some ways that toil may come with and the toil may be at a place where one of the causes, this is an effect, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            400.339,
+            402.121
+          ],
+          "quote": "I'm talking about the toil being an effect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            410.77,
+            429.465
+          ],
+          "quote": "where hey i can't do that or hey we would fix that if we had more people or i could do this if we could you know like there's a lot of that there could be a lot of that learned helplessness that then outputs this toil which just people feel defeated by right and you have to change the culture you have to change potentially",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            1032.827,
+            1035.309
+          ],
+          "quote": "The other thing is back to the toil part of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            1122.98,
+            1137.444
+          ],
+          "quote": "And so, you know, again, that's like what the, in some ways, the thing you got to hold and balance as an executive leading a product or tech team is that investment in automation and that toil reduction we talked about.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "big-bet",
+      "type": "concept",
+      "role": "concept",
+      "name": "大赌注 (big bet)",
+      "file": "大赌注",
+      "primary": true,
+      "how_described": "本集说 AI 时代过去锁一个团队 12 个月的大赌注现在两个月就能看到同样进展，同一年可下四五个赌注；但标准不变：必须带来不连续的影响、跨职能、可衡量、允许失败（五个里两个起飞就是成功）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 347,
+          "t": [
+            2412.212,
+            2424.3
+          ],
+          "quote": "So that I think is just like, hey, maybe I had n number of people locked up doing this quote-unquote big bet for 12 months to see something, and maybe we would have seen two or three milestones.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2485.426,
+            2509.73
+          ],
+          "quote": "You know at Facebook we used to have a whole set of projects and that we and I would curate and sort of track and work with the team that was like our big bets list and these in that time were like multi-year bets right and these things there's like really strong characteristics of what I think is a big bet right which is one is they have to bring that discontinuous impact to the business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2673.93,
+            2678.787
+          ],
+          "quote": "And so in the Facebook days, what are like the canonical examples of what was a big bet at the time?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2680.996,
+            2687.28
+          ],
+          "quote": "I mean, it was when we were, you know, we didn't build hardware and that was like a big bet to go build hardware.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2687.3,
+            2703.791
+          ],
+          "quote": "We started in some ways simple with one type of server and then we took a big bet to get all of the other pieces of kind of the typical SKUs for storage and database and networking and all of those done in a very, very short period of time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vertical-integration",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertical integration)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集说 Facebook 最终自己建数据中心、造硬件而不依赖 AWS，三个原因是成本（不给供应商利润空间）、掌控命运（Facebook 规模独一无二，供应商是为普通客户做产品）、速度（重新构想直播等新体验时整个栈能两三周定制好）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 421,
+          "t": [
+            2899.258,
+            2901.961
+          ],
+          "quote": "One is the vertical integration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3698.02,
+            3711.587
+          ],
+          "quote": "And that led to this vertical integration, but also big bets in terms of efficiency and a very data-driven approach around saving and being frugal with how we consume the capex that we spent, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "learned-helplessness",
+      "type": "concept",
+      "role": "concept",
+      "name": "习得性无助 (learned helplessness)",
+      "file": "习得性无助",
+      "primary": true,
+      "how_described": "本集说组织变老变慢时堆积的苦差事是结果，原因是组织形成了习得性无助的风气——'我做不了那个''如果有更多人就能修''安全审查就是慢'，这种风气让文化回归平庸",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            402.161,
+            409.989
+          ],
+          "quote": "The cause actually is having built an organization and a leadership that has an ethos of maybe learned helplessness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            410.77,
+            429.465
+          ],
+          "quote": "where hey i can't do that or hey we would fix that if we had more people or i could do this if we could you know like there's a lot of that there could be a lot of that learned helplessness that then outputs this toil which just people feel defeated by right and you have to change the culture you have to change potentially",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "continual-deployments",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续部署 (continual deployments)",
+      "file": "持续部署",
+      "primary": false,
+      "how_described": "本集说在 Facebook 从每天发布一次核心产品到每天三次，最后到持续部署，这不仅是文化，也是对内部中央系统的大量投资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            1110.591,
+            1115.517
+          ],
+          "quote": "And then we went, by the time I left, we were doing basically continual deployments, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "focus-time",
+      "type": "concept",
+      "role": "concept",
+      "name": "专注时间 (focus time)",
+      "file": "专注时间",
+      "primary": false,
+      "how_described": "本集说在 Core AI 把工程师时间拆分为专注时间和非专注时间，建仪表板让所有工程负责人看到团队数据，目标是增加专注时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            847.293,
+            875.841
+          ],
+          "quote": "Product folks, builders, engineers were spending their time and we broke it up into what we call kind of like either you call it productive time or we called it focus time and that was like we wanted more and more focus time and then come you know what we do with that focus time was like another thing we had to go do but we wanted to get more of your time spent into focus time but we could measure this right and then we could actually have dashboards we could have all of the engineering leaders",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            876.341,
+            878.982
+          ],
+          "quote": "See kind of where their teams were on this focus time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "efficiency-work",
+      "type": "concept",
+      "role": "concept",
+      "name": "效率工作 (efficiency work)",
+      "file": "效率工作",
+      "primary": false,
+      "how_described": "本集说执行鼓点中的进展可以是客观可量化的效率工作；嘉宾在 Akamai 经历烧钱噩梦后在 Facebook 一开始就重视效率工作，构建数据驱动的节约文化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            251.548,
+            257.811
+          ],
+          "quote": "Whether it be doing efficiency work, doing stuff that accrues revenue or grows users or retention, whatever it might be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3643.314,
+            3648.878
+          ],
+          "quote": "So we had to go build product and grow the top line, but we also had to, you know, do a ton of efficiency work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 527,
+          "t": [
+            3649.478,
+            3657.063
+          ],
+          "quote": "And so, you know, that efficiency work came at potentially at the expense of innovation, but that was survival to us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 535,
+          "t": [
+            3690.456,
+            3698
+          ],
+          "quote": "We're going to build kind of great data systems and a great culture of engineers doing very significant efficiency work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "s-curve",
+      "type": "concept",
+      "role": "concept",
+      "name": "S 曲线 (S-curve)",
+      "file": "S 曲线",
+      "primary": false,
+      "how_described": "本集说嘉宾总是想最大化职业时间待在 S 曲线最陡峭的部分，当感觉开始变平时就寻找下一个事物；在 S 曲线陡峭处快速扩张会暴露每一层堆栈的人才缺口",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 253,
+          "t": [
+            1761.823,
+            1766.61
+          ],
+          "quote": "What's sort of interesting about building teams and building technology in the steepest part of the S-curve?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1777.805,
+            1798.611
+          ],
+          "quote": "I think there's a few things, which is, you know, when I look at, say, Akamai or Facebook, when you're in that growth and or you're kind of in the steep part of the S-curve and you're learning really quickly and adapting really quickly and things are changing really quickly on you, spending time, because you get really busy doing all the things, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 484,
+          "t": [
+            3233.434,
+            3243.362
+          ],
+          "quote": "So for me, it's like maximizing my professional time and being on that steep part of the S-curve is what I always think about, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            3263.753,
+            3275.695
+          ],
+          "quote": "So maximizing kind of that time spent on the steep part of the S-curve is something that I think about and I like I'm really like intently focused on, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "brain-trusts",
+      "type": "concept",
+      "role": "concept",
+      "name": "智囊团 (brain trusts)",
+      "file": "智囊团",
+      "primary": false,
+      "how_described": "本集说嘉宾在微软建的智囊团由六到八个高级或中级 IC 组成，没有经理，专门讨论和争论在客户和技术中看到的拐点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            2195.801,
+            2202.263
+          ],
+          "quote": "One of the things that I do at Microsoft is I have these brain trusts and they're in different parts of our stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            2202.283,
+            2207.905
+          ],
+          "quote": "And these brain trusts are formulated with like six to eight senior ICs, mid-level ICs only.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "shared-fate",
+      "type": "concept",
+      "role": "concept",
+      "name": "共享命运 (shared fate)",
+      "file": "共享命运",
+      "primary": false,
+      "how_described": "本集说在 Facebook 基础设施团队和产品团队必须融合成共享命运的关系——如果基础设施部分好了但产品没好，那还是失败",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1388.868,
+            1392.371
+          ],
+          "quote": "So those teams had to be fused together in a sort of a shared fate.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fte",
+      "type": "concept",
+      "role": "concept",
+      "name": "FTE",
+      "file": "FTE",
+      "primary": false,
+      "how_described": "本集说在微软 Core AI 团队推行 FTE 心态，不是字面全职员工编制的意思，而是每个人必须把自己做的事和客户怎么使用它联系起来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1449.533,
+            1459.281
+          ],
+          "quote": "Even in, you know, the team at Microsoft, my team, Corey, like one of the things we have just as a cultural thing right now is like, you know, there is this like FTE thing out there, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1459.401,
+            1462.443
+          ],
+          "quote": "And it's like, I'm like, everybody on the team, you have to be an FTE.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ic",
+      "type": "concept",
+      "role": "concept",
+      "name": "IC",
+      "file": "IC",
+      "primary": false,
+      "how_described": "本集说在技术急剧拐点时最懂技术的是 IC 不是管理者，管理和技术是两条平行的职业轨道，成为经理不是晋升；嘉宾自己入职前两个月也以 IC 身份度过",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            523.865,
+            535.554
+          ],
+          "quote": "And then also developing people as people are growing their career, maybe they're moving roles, maybe they're fresh out of school and they're trying to grow as an IC or as a manager, whatever it might be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            2014.301,
+            2017.362
+          ],
+          "quote": "Where for the first month or two, I was mostly in IC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            2018.022,
+            2027.865
+          ],
+          "quote": "At Microsoft, I spent the first two months, you know, as an IC meeting people, learning all of like all of the great, cool things that happen at Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            2129.514,
+            2146.336
+          ],
+          "quote": "And what I also saw and what we did at Facebook is when these things like mobile or other things came in that were these steep inflections for us is like having the right balance of IC-led or kind of an IC prominent culture in product and eng.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 494,
+          "t": [
+            3330.337,
+            3341.664
+          ],
+          "quote": "So I joined as an IC, did a bunch of roles, as I said earlier, which is like I joined in sales because they, did I know anything about being a technical sales engineer?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集说 Facebook 没有利用 AWS 而是自己建数据中心，因为当 Facebook 加入时 AWS 和公有云还相当初级，不是真正的选择",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 415,
+          "t": [
+            2861.705,
+            2866.33
+          ],
+          "quote": "And so instead of leveraging AWS, you build your own and optimize your own data centers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2873.035,
+            2882.602
+          ],
+          "quote": "And, you know, when I joined Facebook, AWS and the public cloud was fairly nascent at that point, so I don't think it was a real option at that point.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

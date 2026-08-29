@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Facebook</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Facebook">FA</div><div class="pi"><h1 class="pt">Facebook</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Facebook">FA</div><div class="pi"><h1 class="pt">Facebook</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(01:29起):本集提及嘉宾曾在此设计了早期的 News Feed（动态消息流）和排名算法，并在此经历了 2009 年改版导致的公共争议反噬。
 - **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(02:10起):本集提到嘉宾 Adam Ward 曾在此领导全球招聘团队,帮助其技术组织从 1000 人扩展到超过 10000 人。
 - **[[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]]**(04:13起):本集提到 Grant 曾在 Facebook 工作，做 Marketplace 相关的东西
+- **[[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]]**(00:57起):本集说嘉宾在此从每天发布一次核心产品推进到每天三次直至持续部署，并将基础设施团队职责推高到涵盖移动端堆栈，强调基础设施与产品团队共享命运
 - **[[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]]**(32:06起):本集说 Susan 在 Facebook 做了差不多四年的'礼品店'项目，每天午夜上架一个新礼物卖一美元，发现可爱胜过一切，吻痕标记是最畅销的
 
 ## ① 提到它的金句
@@ -30,7 +31,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
@@ -41,15 +42,16 @@ unlisted: true
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为被讨论公司(提及)
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为被讨论公司(提及)
 - [[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d|《Whatnot：直播电商如何让购物重新变有趣》]] — 作为被讨论公司(提及)
+- [[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]] — 作为被讨论公司
 - [[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Cursor]] · [[ChatGPT]] · [[Instagram]] · [[Claude]] · [[vibe coding]] · [[Anthropic]] · [[产品市场契合]]
+[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Cursor]] · [[ChatGPT]] · [[Instagram]] · [[Claude]] · [[vibe coding]] · [[Anthropic]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":146,"OpenAI":65,"Cursor":37,"ChatGPT":37,"Instagram":3,"Claude":35,"vibe coding":23,"Anthropic":73,"产品市场契合":10}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":146,"OpenAI":65,"Cursor":37,"ChatGPT":37,"Instagram":3,"Claude":35,"vibe coding":23,"Anthropic":74,"Microsoft":16}</script>
 
 <script>
 (function(){
@@ -272,10 +274,18 @@ unlisted: true
   }
   // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
   // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
-  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  // 故再兜一条「站内换过页没」。
+  // ⚠️ 原兜底用 history.length>1 —— 手机/微信内置浏览器分享链接直开也常 >1(会话预置历史),误判成站内、
+  //    害得分享页顶上显返回键而非站名(用户 2026-08-29 报)。改用「站内换过页没」判断。
+  //    状态挂 window 而非模块级 var(GLM 011[1]):Quartz SPA 换页可能重执行本段脚本,var 会每次重置成当前
+  //    pathname → spaNavigated 永远置不了 true。window 上用「未设置才记」守卫,只在**第一次**记真·落地路径,
+  //    重执行/换页都存活;__pdSpa 一旦置 true 就 sticky。referrer 用整 origin 比对(new URL),防
+  //    「本站origin.evil.com」前缀欺骗(GLM 011[2])。
+  if (window.__pdLanding == null) window.__pdLanding = location.pathname; // == null 兼捕未设置态,且不把该字面量带进页面(既有「页面无脏词」闸门)
+  function pdSameOrigin(u){ try { return new URL(u).origin === location.origin; } catch (e) { return false; } }
   function direct(){
-    var ref = document.referrer || '';
-    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    if (location.pathname !== window.__pdLanding) window.__pdSpa = true; // 跳到别的页 = 站内导航(sticky)
+    var fromSite = pdSameOrigin(document.referrer || '') || window.__pdSpa === true;
     document.body.classList.toggle('pd-direct', !fromSite);
   }
   function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }

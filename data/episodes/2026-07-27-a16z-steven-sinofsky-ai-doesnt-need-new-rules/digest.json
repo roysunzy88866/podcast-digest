@@ -1,0 +1,142 @@
+{
+  "title_zh": "Steven Sinofsky：AI监管为什么急不得",
+  "tldr": "前微软高管、科技分析师 Steven Sinofsky 认为，现在对AI立法就像在福特造车时要求装安全气囊——技术还没定型，监管只会扼杀创新。",
+  "digest_md": "这一集是科技分析师 Steven Sinofsky 聊 AI 监管——他长期在微软做领导，写过 Hardcore Software，对技术周期和政策博弈有第一手经验。他最核心的一个判断是：**现在对 AI 搞监管，完全是本末倒置，因为连要监管的东西长什么样都还没搞清楚** [02:09 Steven Sinofsky]。\n\n## 监管的教训：先让技术跑起来，再修规矩\n\n历史上每一次重大技术创新，监管都是严重滞后的——但这不是bug，是feature。汽车安全是最经典的例子：汽车公司前50年都在解决\"怎么让车跑起来\"这个问题，安全根本不是设计标准。直到1960年代，行业才逐渐搞清楚可以把车造得安全得多，安全带、安全气囊这些设计才被推到造车的上游环节 [02:40 Steven Sinofsky]。\n\n如果你穿越回去跟亨利·福特说\"你需要安全气囊\"，他的回答会是：我们还搞不清楚怎么让引擎正常工作，而且这些车时速才15英里 [04:00 Steven Sinofsky]。\n\n同样的矛盾今天也在 AI 身上：它不可能是\"世界上最强智能\"和\"满嘴胡言乱语、幻觉不断、答案不可靠\"这两件事同时成立 [04:23 Steven Sinofsky]。社交网络当年也一样——它不可能同时是\"浪费时间的小玩具\"和\"能推翻政府的武器\"，但当时人们就是这么同时描述它的 [04:40 Steven Sinofsky]。\n\n**预防原则(Precautionary Principle)** 是监管界很流行的一个思路：在坏事发生之前就抢先监管 [06:40 Steven Sinofsky]。问题在于，这么做真正限制的是解决方案的空间——你把可能的出路提前砍掉了 [07:08 Steven Sinofsky]。回想一下，如果当年对互联网搞预防性监管，我们会不会永远停在 AOL Instant Messenger？或者停在 Web 1.0，所有人只能在 Yahoo 和 Excite 上查东西，没有视频、没有音频 [07:13 Steven Sinofsky]。\n\n## AI 公司主动求监管，背后的真实逻辑\n\n这轮 AI 监管最反常的一点：科技公司自己跑到国会说\"求求你们监管我们\" [09:37 Steven Sinofsky]。这在科技行业史上几乎没见过——以前科技公司对政府的态度一律是\"别碰我们\" [08:44 Steven Sinofsky]。\n\n为什么会这样？因为政府这边一直觉得自己错过了监管互联网、错过了 PC、错过了大型机，这次终于被主动邀请了，当然铺开红地毯 [09:50 Steven Sinofsky]。这其实就是**监管俘获**(regulatory capture)——公司打着\"为了大家好\"的旗号，推政府往对自己有利的方向走 [10:31 Steven Sinofsky]。历史上这种事反复发生：AT&T 用\"普遍接入\"的承诺换来了事实上的国家电话公司地位；JP Morgan 变成事实上的国家银行；标准石油变成事实上的国家石油公司 [11:02 Steven Sinofsky]。\n\n## 为什么反对开源站不住脚\n\nAI 公司反对开源，说白了就一个理由：**不想让竞争对手存在，不想费心去竞争** [14:06 Steven Sinofsky]。但这个立场经不起推敲——政府自己资助的计算机科学研究，要求全都是以开源形式发布的，政府怎么可能突然反对开源？ [13:05 Steven Sinofsky] 更何况，这些 AI 公司自己就是从学术界的开源研究中获益长大的 [14:29 Steven Sinofsky]。\n\n有人会说\"AI 不一样，它在走向超级智能，需要全新方法\"——Sinofsky 的回应很直接：**没人知道未来**。基于个人预测来监管，而预测的正确率历史上相当有限，而且这些预测全是自利的 [15:21 Steven Sinofsky]。两年前去国会的人，眼里带着对经济崩溃和人员死亡的恐惧，但同时他们做的产品还在产生幻觉、还在编东西 [15:58 Steven Sinofsky]。你不能同时持有这些互相矛盾的说法。\n\n## 真正该做的：把现有法律对齐到 AI，而不是新造规矩\n\nSinofsky 提了一个很务实的替代路径：**不需要新造 AI 专属法律，先把现有200万条法律过一遍，看哪些需要明确加上 AI 的场景** [20:00 Steven Sinofsky]。\n\n比如各州负责验光师执照——现有的法律措辞能不能阻止有人在商场里放个 iPhone 加摄像头就给人开眼镜处方？如果不能，补上措辞就行 [18:49 Steven Sinofsky]。电动汽车当年也是这个路径：它不是内燃机车，但必须遵守汽车安全规则，所以得回去检查碰撞区、前备箱这些新组件有没有被现有法律覆盖 [19:23 Steven Sinofsky]。\n\n而且他强调：**人们担心的那些 AI 作恶场景，100% 已经有法律在管了** [16:46 Steven Sinofsky]。向市场投放有害药物是非法的，因性别种族拒绝贷款是非法的，给孩子看裸体照片是非法的——AI 做这些事同样违法，不需要额外立法 [16:54 Steven Sinofsky]。有州在讨论\"AI 不能注册成为律师\"——AI 连名字都签不了，现有执照制度天然就排除了它 [17:35 Steven Sinofsky]。\n\n责任归属也很清楚：如果医生用 AI 写了错误的病历，那是她的行医执照出问题，不是 AI 的执照——AI 根本没有执照 [22:10 Steven Sinofsky]。\n\n## 中美博弈：开源成了\"反弹球\"\n\n中美之间现在确实有一场创新领导权战争——不是冷战，不是纯粹的贸易战，而是争夺谁在创新上说了算 [23:02 Steven Sinofsky]。政府在这种战争里有两个工具：用现有法规打击国际对手，以及资助或国有化本国公司去竞争 [23:17 Steven Sinofsky]。中国走的是国家层面大量注资的路线，类似1980年代日本用产业省引导存储芯片行业——但日本最终并没有统治那个行业，中央规划的成功记录其实很有限 [23:47 Steven Sinofsky]。\n\n更多时候，政府用的是**\"反弹球\"**(bank shots)——不直接针对 AI，而是侧面出手，比如禁芯片。这可能会让中国训练更慢，但中国不缺电，模型多跑一段时间就是了，最终跟模型本身关系不大 [24:25 Steven Sinofsky]。这种迂回手段在外交上很常见——对方意外炸了学校，你不会故意炸对方学校，而是炸一个军用工厂 [25:17 Steven Sinofsky]。\n\n但让 Sinofsky 觉得\"不符合美国精神\"的是：**美国公司居然在帮政府找反弹球的弹药**。当 Anthropic 说\"限制开源是打击中国的最好方式\"时，真正受益的是 Anthropic 自己——因为被限制的不只是中国的开源模型，也包括美国的开源竞争对手 [25:58 Steven Sinofsky]。这跟1970年代底特律控告日本汽车\"倾销\"如出一辙——当时日本车企的应对是直接把工厂建到美国，而底特律现在连车都不造了 [26:28 Steven Sinofsky]。\n\n> 【背景】Scott Besson 应指 Scott Bessent，美国财政部长；FDR 指富兰克林·罗斯福总统；CSAM 指儿童性虐待材料(Child Sexual Abuse Material)，是互联网内容监管的重点领域；ChemEat 应指中国 AI 公司 DeepSeek 的语音识别误写。\n\n## 本集带走\n- **监管滞后是正常的，不是失误**：汽车安全花了60年才进入设计标准，AI 现在连\"能不能可靠工作\"都没解决，现在监管等于在福特造车时要求安全气囊\n- **预防原则的真实代价是砍掉解决方案空间**：不是\"防止坏事发生\"，而是\"你还没看到哪些路可以走，就先堵死了\"\n- **AI 公司求监管是监管俘获**：历史上 AT&T 用\"普遍接入\"换垄断地位，现在 AI 公司用\"安全\"换护城河\n- **反对开源的唯一真实理由是不想竞争**：政府资助的研究本身就要求开源，AI 公司自己就是开源生态的受益者\n- **不需要新造 AI 法律，先对齐现有200万条法律**：人们担心的每个 AI 作恶场景都已有法律覆盖，缺的是把\"AI 场景\"明确写进现有条文的措辞里\n- **警惕\"反弹球\"**：禁芯片这类侧面包抄看着是在打压对手，实际上也在帮国内公司消灭开源竞争者",
+  "quotes": [
+    {
+      "en": "The whole topic of regulation for me just seems completely backwards because it's starting before we even know what we're regulating.",
+      "zh": "对我来说，监管的整个话题似乎完全是本末倒置，因为它在我们甚至都不知道我们在监管什么之前就开始了。",
+      "timestamp": "00:00",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "There's no reason why the AI companies should be against open source other than we just don't want our competition to exist and we don't want to bother to compete.",
+      "zh": "AI 公司应该反对开源没有任何理由，除了我们只是不想让我们的竞争对手存在，而且我们不想费心去竞争。",
+      "timestamp": "00:11",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "The whole topic of regulation for me just seems like completely backwards because it's starting before we even know what we're regulating.",
+      "zh": "对我来说，监管的整个话题似乎完全是本末倒置，因为它在我们甚至都不知道我们在监管什么之前就开始了。",
+      "timestamp": "02:09",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "In fact, I would say 100% of the scenarios that people say are problematic, there are already laws against them.",
+      "zh": "事实上，我想说人们说有问题的场景中，100% 都有针对它们的法律。",
+      "timestamp": "16:46",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "There is an actual innovation war with China happening right now.",
+      "zh": "目前与中国确实存在一场创新战争。",
+      "timestamp": "23:02",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "So like when Anthropic says, hey, the best way to hurt China is to curtail open source.",
+      "zh": "所以比如当 Anthropic 说，嘿，伤害中国的最好方式是限制开源时。",
+      "timestamp": "25:58",
+      "speaker": "Steven Sinofsky"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Unknown",
+      "en": "The whole topic of regulation for me just seems completely backwards because it's starting before we even know what we're regulating.",
+      "zh": "对我来说，监管的整个话题似乎完全是本末倒置，因为它在我们甚至都不知道我们在监管什么之前就开始了。"
+    },
+    {
+      "timestamp": "00:11",
+      "speaker": "Unknown",
+      "en": "There's no reason why the AI companies should be against open source other than we just don't want our competition to exist and we don't want to bother to compete.",
+      "zh": "AI 公司应该反对开源没有任何理由，除了我们只是不想让我们的竞争对手存在，而且我们不想费心去竞争。"
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Unknown",
+      "en": "Truth is, no one knows the future.",
+      "zh": "真相是，没人知道未来。"
+    },
+    {
+      "timestamp": "00:28",
+      "speaker": "Unknown",
+      "en": "What those assumptions mean are we should regulate this based on our own personal predictions of the future.",
+      "zh": "那些假设意味着我们应该基于我们自己对未来的个人预测来监管这个。"
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Unknown",
+      "en": "But the history of being right about those predictions is pretty limited.",
+      "zh": "但在这些预测上保持正确的历史是相当有限的。"
+    },
+    {
+      "timestamp": "00:39",
+      "speaker": "Unknown",
+      "en": "And so we should be really careful about that because those are all self-serving.",
+      "zh": "所以我们应该对此非常小心，因为那些都是自利的。"
+    },
+    {
+      "timestamp": "02:09",
+      "speaker": "Unknown",
+      "en": "The whole topic of regulation for me just seems like completely backwards because it's starting before we even know what we're regulating.",
+      "zh": "对我来说，监管的整个话题似乎完全是本末倒置，因为它在我们甚至都不知道我们在监管什么之前就开始了。"
+    },
+    {
+      "timestamp": "04:23",
+      "speaker": "Unknown",
+      "en": "And, you know, today we're talking about AI, and it can't be that AI is both the most intelligent thing in the world and it generates gibberish, hallucinations, and the answers are wrong, and you can't rely on it.",
+      "zh": "而且，你知道，今天我们谈论的是 AI，它不可能是既是最聪明的事物，却又产生胡言乱语、幻觉，答案是错的，而且你无法依赖它。"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Unknown",
+      "en": "Like, those both can't be true at the same time.",
+      "zh": "就像，这两者不可能同时为真。"
+    },
+    {
+      "timestamp": "07:08",
+      "speaker": "Unknown",
+      "en": "But when you do that, what you really do is you constrain the solution set.",
+      "zh": "但当你那样做时，你真正做的是限制了解决方案集合。"
+    },
+    {
+      "timestamp": "09:37",
+      "speaker": "Unknown",
+      "en": "And you had the leaders of the AI companies showing up to Congress, literally, please regulate us.",
+      "zh": "而且 AI 公司的领导者出现在国会，真的，求求监管我们。"
+    },
+    {
+      "timestamp": "10:31",
+      "speaker": "Unknown",
+      "en": "And that's what's called regulatory capture.",
+      "zh": "这就是所谓的监管俘获。"
+    },
+    {
+      "timestamp": "14:06",
+      "speaker": "Unknown",
+      "en": "And so there's no reason why the AI companies should be against open source other than we just don't want our competition to exist and we don't want to bother to compete.",
+      "zh": "所以 AI 公司没有理由反对开源，除了我们只是不想要我们的竞争对手存在，而且我们不想费心去竞争。"
+    },
+    {
+      "timestamp": "16:46",
+      "speaker": "Unknown",
+      "en": "In fact, I would say 100% of the scenarios that people say are problematic, there are already laws against them.",
+      "zh": "事实上，我想说人们说有问题的场景中，100% 都有针对它们的法律。"
+    },
+    {
+      "timestamp": "23:02",
+      "speaker": "Unknown",
+      "en": "There is an actual innovation war with China happening right now.",
+      "zh": "目前与中国确实存在一场创新战争。"
+    },
+    {
+      "timestamp": "25:58",
+      "speaker": "Unknown",
+      "en": "So like when Anthropic says, hey, the best way to hurt China is to curtail open source.",
+      "zh": "所以比如当 Anthropic 说，嘿，伤害中国的最好方式是限制开源时。"
+    }
+  ],
+  "voice_script": "你现在去跟亨利·福特说，你的车得装个安全气囊，你觉得他会怎么回你？肯定会觉得你疯了——那时候连引擎怎么正常工作都没搞明白，车时速才15英里，装什么安全气囊？\n\n但这恰恰就是现在 AI 监管正在干的事。\n\n今天这期，我们聊聊前微软高管、科技分析师 Steven Sinofsky 对 AI 监管的一个核心判断：现在搞 AI 立法，完全是本末倒置，因为连要监管的东西长什么样都还没搞清楚。\n\n你可能觉得，监管滞后是个大问题。但在 Sinofsky 看来，这根本不是 bug，而是 feature。\n\n回头看汽车安全，前50年整个行业都在解决一个事：怎么让车跑起来。安全根本不在设计标准里。直到1960年代，大家才慢慢摸索出门道，安全带、安全气囊这才被推到造车的前端。\n\n今天的 AI 也卡在这个阶段。你说它是世界上最强智能，转头又说它满嘴胡言乱语、幻觉不断。这两件事怎么可能同时成立？社交网络当年也一样，一边被说成是浪费时间的小玩具，一边又被说成能推翻政府的武器。\n\n那为什么大家还急吼吼地要管？监管界有个特别流行的思路叫\"预防原则\"——说白了就是坏事还没发生，我先下手为强。\n\n听起来很负责任对吧？但代价是什么？是你把可能的解决方案提前砍掉了。回想一下，如果当年对互联网搞预防性监管，我们是不是永远停在了只能查查网页的 Web 1.0，根本等不来现在的视频和音频生态？\n\n但这轮 AI 监管最反常的还不是这个，而是科技公司居然自己跑到国会求监管。这在科技史上几乎没见过，以前的态度一律是\"别碰我\"。\n\n为什么会这样？因为政府这边一直觉得自己错过了互联网、错过了 PC，这次终于被主动邀请了，那肯定铺开红地毯。说白了，这就是\"监管俘获\"——打着\"为了大家好\"的旗号，推着政府往对自己有利的方向走。历史上这种事太多了，AT&T 用\"普遍接入\"换来了事实上的国家电话公司地位，标准石油换来了国家石油公司。现在，AI 公司在用\"安全\"换护城河。\n\n最典型的就是反对开源。反对开源的理由，说白了就一个：不想让竞争对手存在，不想费心去竞争。\n\n这个立场其实经不起推敲。政府自己资助的计算机科学研究，要求全是以开源形式发布的，怎么可能突然反对开源？更何况，这些 AI 公司自己就是从学术界的开源里长大的。\n\n有人会说，AI 不一样，它走向超级智能了。但 Sinofsky 回应得很直接：没人知道未来。两年前去国会的人，眼里带着对经济崩溃的恐惧，但转头做出来的产品还在满嘴跑火车。你不能同时持有这种互相矛盾的说法。\n\n那到底该怎么做？Sinofsky 提了个特别务实的路径：不需要新造 AI 专属法律。先把现有的200万条法律过一遍，看哪些需要明确加上 AI 的场景就行。\n\n比如各州管验光师执照，现有的法律措辞能不能阻止别人在商场放个 iPhone 加摄像头就给人开处方？如果不能，补上就行。电动汽车当年也是这个路子，虽然不是内燃机车，但得遵守汽车安全规则，所以回去检查前备箱这些新组件有没有被现有法律覆盖。\n\n而且有个事实经常被忽略：人们担心的那些 AI 作恶场景，100% 已经有法律在管了。向市场投放有害药物是非法的，因性别种族拒绝贷款是非法的，给孩子看不良照片是非法的。AI 干这些事同样违法，不需要额外立法。甚至有州在讨论\"AI 不能注册成为律师\"，这其实是个伪命题，AI 连名字都签不了，现有的执照制度天然就排除了它。\n\n最后再聊个更宏观的。中美之间现在确实有一场创新领导权的争夺战。政府在这种战争里有个招数叫\"反弹球\"——不直接针对 AI，而是侧面出手，比如禁芯片。\n\n但让 Sinofsky 觉得\"不符合美国精神\"的是，美国公司居然在帮政府找反弹球的弹药。当 Anthropic 说\"限制开源是打击中国的最好方式\"时，真正受益的是谁？是 Anthropic 自己。因为被限制的不只是中国的开源模型，也包括美国的开源竞争对手。这跟1970年代底特律控告日本汽车倾销如出一辙，结果呢，底特律现在连车都不造了。\n\n所以你看，在连产品长什么样都没搞清楚的时候就去谈监管，不是在保护任何人，只是在给先行者筑墙。用 Sinofsky 的话说：整个监管的话题，在我们甚至都不知道在监管什么之前就开始了，这完全是本末倒置。"
+}

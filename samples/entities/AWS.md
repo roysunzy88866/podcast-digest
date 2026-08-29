@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AWS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,11 +18,12 @@ unlisted: true
 - **[[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]]**(37:37起):本集将 AWS 作为超大规模厂商（hyperscaler）的代表之一，提供垂直集成的智能体核心功能
 - **[[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]]**(00:39起):本集顺带提及,说它是 Pipecat 开源框架的使用公司之一
 - **[[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|《AI 时代，工程师的判断力与品味如何修炼》]]**(09:46起):本集以2017年 AWS S3 大规模故障作为案例教学法的经典案例，用于从多角度拆解技术决策与组织决策
+- **[[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]]**(47:41起):本集说 Facebook 没有利用 AWS 而是自己建数据中心，因为当 Facebook 加入时 AWS 和公有云还相当初级，不是真正的选择
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(15:47起):本集提到 AWS 收购了 CloudEndure，嘉宾在 AWS 期间经历过从本地到云的大规模迁移
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司
@@ -31,15 +32,16 @@ unlisted: true
 - [[2026-08-06-practicalai-models-harnesses-and-multi-agent-systems|《智能体经济来了：从聊天框到数字劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-07-talks-the-new-primitives-building-ai-native-so|《从算盘到 AI 原生软件:Pipecat 创始人的八十年计算史漫游》]] — 作为被讨论公司(提及)
 - [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|《AI 时代，工程师的判断力与品味如何修炼》]] — 作为被讨论公司(提及)
+- [[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]] — 作为被讨论公司(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[McKinsey]] · [[OpenAI]] · [[token]] · [[NVIDIA]] · [[护栏]] · [[Google]] · [[Apple]] · [[Microsoft]]
+[[智能体]] · [[Anthropic]] · [[Microsoft]] · [[McKinsey]] · [[OpenAI]] · [[token]] · [[NVIDIA]] · [[护栏]] · [[Google]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":73,"McKinsey":4,"OpenAI":65,"token":10,"NVIDIA":23,"护栏":30,"Google":29,"Apple":13,"Microsoft":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":74,"Microsoft":16,"McKinsey":4,"OpenAI":65,"token":10,"NVIDIA":23,"护栏":30,"Google":29,"Apple":13}</script>
 
 <script>
 (function(){
@@ -262,10 +264,18 @@ unlisted: true
   }
   // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
   // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
-  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  // 故再兜一条「站内换过页没」。
+  // ⚠️ 原兜底用 history.length>1 —— 手机/微信内置浏览器分享链接直开也常 >1(会话预置历史),误判成站内、
+  //    害得分享页顶上显返回键而非站名(用户 2026-08-29 报)。改用「站内换过页没」判断。
+  //    状态挂 window 而非模块级 var(GLM 011[1]):Quartz SPA 换页可能重执行本段脚本,var 会每次重置成当前
+  //    pathname → spaNavigated 永远置不了 true。window 上用「未设置才记」守卫,只在**第一次**记真·落地路径,
+  //    重执行/换页都存活;__pdSpa 一旦置 true 就 sticky。referrer 用整 origin 比对(new URL),防
+  //    「本站origin.evil.com」前缀欺骗(GLM 011[2])。
+  if (window.__pdLanding == null) window.__pdLanding = location.pathname; // == null 兼捕未设置态,且不把该字面量带进页面(既有「页面无脏词」闸门)
+  function pdSameOrigin(u){ try { return new URL(u).origin === location.origin; } catch (e) { return false; } }
   function direct(){
-    var ref = document.referrer || '';
-    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    if (location.pathname !== window.__pdLanding) window.__pdSpa = true; // 跳到别的页 = 站内导航(sticky)
+    var fromSite = pdSameOrigin(document.referrer || '') || window.__pdSpa === true;
     document.body.classList.toggle('pd-direct', !fromSite);
   }
   function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }

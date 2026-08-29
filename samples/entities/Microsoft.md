@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Microsoft</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(00:33起):本集说 Microsoft 更担心 Amazon 和 Google 在做什么，而不是创业领域的任何人——巨头只盯着其他巨头，不看创业公司。还提到 Steven 在微软期间曾力推 ARM 芯片但遭到内部文化阻力。
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:56起):本集说 Microsoft 拥有 GitHub、VS Code、Copilot，并且能拿到 OpenAI 的模型权重，是 AI 编码领域最大的在位者
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集说 Microsoft 2026 财年 AI 收入 241 亿美元来自 OpenAI，但资本支出 1150 亿美元；GitHub 停机频繁到被人调侃。
+- **[[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]]**(08:12起):本集说嘉宾在此推行 FTE 文化心态——每个人无论做什么层级的工作都必须把自己做的事和客户怎么使用它联系起来，参加客户简报、旁听客户会议、读反馈
 - **[[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]]**(29:02起):本集说 Susan 离开 Apple 后为 Microsoft 的 Windows 3.0 做了界面设计，用 16 色抖动让界面看起来不那么俗气
 
 ## ① 提到它的金句
@@ -35,7 +36,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司(提及)
@@ -51,6 +52,7 @@ unlisted: true
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司(提及)
+- [[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]] — 作为被讨论公司
 - [[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
@@ -59,7 +61,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[Apple]] · [[Amazon]] · [[Lenny]] · [[Meta]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":73,"智能体":146,"OpenAI":65,"Google":29,"NVIDIA":23,"Apple":13,"Amazon":9,"Lenny":65,"Meta":21,"SpaceX":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":74,"智能体":146,"OpenAI":65,"Google":29,"NVIDIA":23,"Apple":13,"Amazon":9,"Lenny":65,"Meta":21,"SpaceX":9}</script>
 
 <script>
 (function(){
@@ -282,10 +284,18 @@ unlisted: true
   }
   // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
   // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
-  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  // 故再兜一条「站内换过页没」。
+  // ⚠️ 原兜底用 history.length>1 —— 手机/微信内置浏览器分享链接直开也常 >1(会话预置历史),误判成站内、
+  //    害得分享页顶上显返回键而非站名(用户 2026-08-29 报)。改用「站内换过页没」判断。
+  //    状态挂 window 而非模块级 var(GLM 011[1]):Quartz SPA 换页可能重执行本段脚本,var 会每次重置成当前
+  //    pathname → spaNavigated 永远置不了 true。window 上用「未设置才记」守卫,只在**第一次**记真·落地路径,
+  //    重执行/换页都存活;__pdSpa 一旦置 true 就 sticky。referrer 用整 origin 比对(new URL),防
+  //    「本站origin.evil.com」前缀欺骗(GLM 011[2])。
+  if (window.__pdLanding == null) window.__pdLanding = location.pathname; // == null 兼捕未设置态,且不把该字面量带进页面(既有「页面无脏词」闸门)
+  function pdSameOrigin(u){ try { return new URL(u).origin === location.origin; } catch (e) { return false; } }
   function direct(){
-    var ref = document.referrer || '';
-    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    if (location.pathname !== window.__pdLanding) window.__pdSpa = true; // 跳到别的页 = 站内导航(sticky)
+    var fromSite = pdSameOrigin(document.referrer || '') || window.__pdSpa === true;
     document.body.classList.toggle('pd-direct', !fromSite);
   }
   function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>IC</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="IC">IC</div><div class="pi"><h1 class="pt">IC</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="IC">IC</div><div class="pi"><h1 class="pt">IC</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,24 +16,26 @@ unlisted: true
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(30:43起):本集指出现在每个人其实都兼具独立贡献者与管理者的属性,因为即便是一线 IC 现在实际上也是在管理智能体,而不是逐个字符地敲代码。
 - **[[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]]**(01:18起):本集把它说成:不分资历深浅都应该亲自下场干的具体工作。Tom 认为将最资深的 A 级人员提拔去当纯粹管人的管理者,等于剥夺了他们的实战肌肉。在 Whatnot,连 CPO 自己都有 50% 时间在做 IC 工作(拉数据、查工单、写规格说明),这才是产生真实杠杆的方式。
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(09:35起):本集详细描述了Sequoia的IC运作：五十年周一IC会议传统，现在试新方法结合异步慢思考和会议快思考；创始人向整个IC推介，先独立打分再讨论再正式投票
+- **[[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]]**(08:43起):本集说在技术急剧拐点时最懂技术的是 IC 不是管理者，管理和技术是两条平行的职业轨道，成为经理不是晋升；嘉宾自己入职前两个月也以 IC 身份度过
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为概念
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为概念(提及)
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]] — 作为概念
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为概念
+- [[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Fiona Fung]] · [[Andrew Ambrosino]]
+[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude]] · [[Microsoft]] · [[OpenAI]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Fiona Fung]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Anthropic":73,"智能体":146,"Claude":35,"OpenAI":65,"Claude Code":37,"Slack":21,"Jenny Wen":1,"Fiona Fung":1,"Andrew Ambrosino":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Anthropic":74,"智能体":146,"Claude":35,"Microsoft":16,"OpenAI":65,"Claude Code":37,"Slack":21,"Jenny Wen":1,"Fiona Fung":1}</script>
 
 <script>
 (function(){
@@ -256,10 +258,18 @@ unlisted: true
   }
   // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
   // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
-  // 故再兜一条 history.length>1(站内点进必有返回历史)。命中「直开」给 body 打 .pd-direct,CSS 切显隐。
+  // 故再兜一条「站内换过页没」。
+  // ⚠️ 原兜底用 history.length>1 —— 手机/微信内置浏览器分享链接直开也常 >1(会话预置历史),误判成站内、
+  //    害得分享页顶上显返回键而非站名(用户 2026-08-29 报)。改用「站内换过页没」判断。
+  //    状态挂 window 而非模块级 var(GLM 011[1]):Quartz SPA 换页可能重执行本段脚本,var 会每次重置成当前
+  //    pathname → spaNavigated 永远置不了 true。window 上用「未设置才记」守卫,只在**第一次**记真·落地路径,
+  //    重执行/换页都存活;__pdSpa 一旦置 true 就 sticky。referrer 用整 origin 比对(new URL),防
+  //    「本站origin.evil.com」前缀欺骗(GLM 011[2])。
+  if (window.__pdLanding == null) window.__pdLanding = location.pathname; // == null 兼捕未设置态,且不把该字面量带进页面(既有「页面无脏词」闸门)
+  function pdSameOrigin(u){ try { return new URL(u).origin === location.origin; } catch (e) { return false; } }
   function direct(){
-    var ref = document.referrer || '';
-    var fromSite = (ref.indexOf(location.origin) === 0) || history.length > 1;
+    if (location.pathname !== window.__pdLanding) window.__pdSpa = true; // 跳到别的页 = 站内导航(sticky)
+    var fromSite = pdSameOrigin(document.referrer || '') || window.__pdSpa === true;
     document.body.classList.toggle('pd-direct', !fromSite);
   }
   function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
