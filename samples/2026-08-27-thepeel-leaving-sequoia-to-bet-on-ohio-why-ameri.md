@@ -111,7 +111,7 @@ Chris 认为风投行业正在经历他职业生涯里最严重的大洗牌。�
 
 > 【背景】Drive Capital 由前红杉资本投资人 Chris 与合伙人于 2012 年创立，总部位于俄亥俄州哥伦布市，专注于投资美国硅谷以外的科技公司。转写稿中说话人均标记为 Unknown，根据对话上下文可判断主持人为 Turner，嘉宾为 Chris。文中提到的 Path Robotics 是 Drive 的投资组合公司，总部位于哥伦布，做重型制造领域的智能焊接机器人。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我认为我们投资组合中累积的 90% 的价值来自于我们在投资后与公司所做的工作。</span>  
 > *I think 90% of the value that accrues in our portfolio comes from the work that we do with the companies after we've invested.*  

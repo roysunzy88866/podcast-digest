@@ -137,7 +137,7 @@ Stripe 感到了新的使命：像保护美元一样保护用户的 token。「�
 - **微支付的两个前提已经凑齐一半**：智能体需要临时性、一次性的消费（而不是人人开月费账户），稳定币让微小金额的移转在技术上可行。
 - **规模化品味靠两件事**：自上而下反复讲质量，加上高频地「住在」模拟出来的真实用户体验里（脱敏、随机化但保留业务起伏）。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">如果你想发布更多产品并更快构建，你必须在公司内部创造创始人那样的主观能动性。</span>  
 > *If you want to ship more and build faster, you have to create founder-like agency inside your company.*  

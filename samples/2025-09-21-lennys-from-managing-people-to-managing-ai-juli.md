@@ -129,7 +129,7 @@ AI 时代管理者的最大挑战不是学新工具，而是**变化的速度前
 - **反馈的三步前置工作**：合作初期就"签约"互相给反馈→每次给反馈前检查自己是想帮人还是想证明自己对→把紧张感直接说出来。这三步做完，再难的反馈都好给。
 - **优势即劣势，它们是一体两面**：先搞清楚你天然偏向哪边，然后在需要反向操作的情境里刻意练习——扩大操作范围，而不是消灭弱点。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">我认为如果你真的不清楚成功是什么样子的，提示词，你可能无法获得最棒的工作。我认为这对管理团队来说是真实的，对管理 AI 来说也非常真实。</span>  
 > *I think if you're really unclear about what success looks like, the prompt, you're probably not going to get the most amazing work. I think that's true for managing teams and it's very much true for managing AIs.*  

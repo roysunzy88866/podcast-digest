@@ -114,7 +114,7 @@ CEO 现在只做三件事：只有自己能做的事（招聘、展示方向、�
 - **用 AI 自动化所有重复的营销工作**：晚宴协调、社交帖子生成、需求分析——把营销变成工程职能，而不是靠人力。
 - **尴尬框架**：发那条尴尬的邮件/消息，比公司倒闭不尴尬。创始人有责任做那些让人不舒服的事。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">你觉得可能的事情远低于从零到一。</span>  
 > *What you feel like is possible is just significantly lower than doing zero to one.*  

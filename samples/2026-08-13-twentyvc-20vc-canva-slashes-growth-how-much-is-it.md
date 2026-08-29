@@ -76,7 +76,7 @@ Rory认为这是一个"之前"和"之后"之间出现裂缝的时期，能跳过
 - **存在性风险会直接压估值**：同样是20%增长，没有生存危机的公司和被质疑"会不会被ChatGPT替代"的公司，市场给的倍数完全不同
 - **智能体绕过工具是真实的**：不是理论推演——已经有团队自建了广告生成系统，智能体从头到尾没想过要用Canva，因为"它没出现在智能体的选项里"
 
-<div class="pd-sec">全部金句 <span>13 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
 > <span class="qz">在26年和27年会有很多人为23年和24年的某种犹豫不决买单。</span>  
 > *There's going to be a lot of people paying the bill in 26 and 27 for a certain amount of hesitancy in 23 and 24.*  

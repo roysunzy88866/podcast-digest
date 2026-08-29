@@ -104,7 +104,7 @@ AI 消除的是「任务」,不是「工作」。一份工作是由许多任务�
 
 第四,AI 消灭的是任务不是工作,因为人类积压的雄心太多了,自动化反而会打开增长和就业的空间。第五,在这个底层代码都会被 AI 写掉的时代,系统思维——也就是能编排成百上千万个智能体、抽象地看清输入输出和瓶颈在哪的能力——才是真正值得年轻人去学的超能力。归根结底,最重要的特质是韧性,别被想象出来的焦虑吓倒,只要挺过今天,一路学下去,剩下的交给时间。
 
-<div class="pd-sec">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
 
 > <span class="qz">大多数人不相信的是,我们创办公司时选择的技术绝对是错误的。</span>  
 > *The thing that most people don't believe is that the choice of our technology that we started the company with was absolutely wrong.*  

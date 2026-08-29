@@ -115,7 +115,7 @@ jsonLd: |
 
 第二,不要被具体的「任务」困住,要抓住工作的「目的」:任务会变,无论是被 AI 取代还是重塑,但目的——无论是照护病人还是解决真正值得解决的问题——才是你在这场技术变革里的锚点。第三,理解 AI 不能只盯着模型这一层:它是一块必须赢下每一层的五层蛋糕,从底层的能源到芯片、基础设施,再到最容易被忽视却对国家最重要的应用层;而在技术拐点上,领导地位最容易易主,这也是为什么他呼吁在制定政策时绝对不能阻碍应用层的发展。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">NVIDIA 成为世界上最具影响力的技术公司。</span>  
 > *NVIDIA being the most consequential technology company in the world.*  

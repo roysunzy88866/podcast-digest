@@ -132,7 +132,7 @@ Markdown，不是魔法。胖技能，瘦线束 <button class="pd-ts" data-t="16
 - **五步起步**：今晚选套件跑起来 → 周末建一个 Markdown 文件夹写项目和人的页面 → 选最讨厌的周任务写成技能文件 → 接成循环任务 → 每次任务结束都"技能化"，绝不扔掉上下文。
 - **从第一天起把技能文件放在你控制的仓库里**：同样的技能，你控制就是资产在复利，公司控制就是你的认知被提取。不要接受"一千荷兰盾"让你闭嘴停止构建的安排。
 
-<div class="pd-sec">全部金句 <span>13 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
 > <span class="qz">用创始人的术语来听听这个。他们给他提供了一份薪水让他停止构建。</span>  
 > *Hear that in founder terms. They've offered him a salary to stop building.*  

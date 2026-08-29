@@ -88,7 +88,7 @@ Navin 认为现在只有两件事真正跑通了：搜索问答(让人变强)和
 - **智能体创业三板斧**：垂直深耕 + 碎片小票市场(大公司看不上)+ 按结果付费(订阅制 SaaS 无法自我革命)。
 - **别贪多**：初创公司死于消化不良而非饥饿；对每个在位者只攻一两件事——市场扩张和商业模式独特性。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">仅今年就有五六家公司在基础设施上花费超过 5000 亿美元。</span>  
 > *Just five or six companies this year are spending over half a trillion dollars in infrastructure spend.*  

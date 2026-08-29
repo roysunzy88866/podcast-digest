@@ -99,7 +99,7 @@ jsonLd: |
 - **用「测试时计算」提升效果**：同样的基础模型，如果在推理时生成多个备选答案进行投票，或让它生成更多思考过程，就能显著提升最终表现。
 - **从日常沮丧中找点子**：不知道用 AI 做什么？观察自己工作中最让人烦躁的小痛点，造个小工具解决它。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我就会说，好吧，如果改进不多，那你为什么要花那么多时间去辩论那些对你的性能没有多大影响的事情？</span>  
 > *I was like, Okay, if it's not much improvement, then why do you want to spend so much time debating something that doesn't make that much difference to your performance?*  

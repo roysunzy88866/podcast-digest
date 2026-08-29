@@ -83,7 +83,7 @@ Max 觉得这种「SaaS 末日论」被严重夸大 <button class="pd-ts" data-t
 
 第四，SaaS 末日不会轻易到来，因为大多数人只想要有人替他们把花园维护好，而不是自己去刨土。最后，别让时代的狂热裹挟你，去找你真正热爱的事，然后像训练模型一样，在带反馈的高频迭代中建立起属于你的品味。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">重要的是主观能动性，而我认为主观能动性在世界上分布得并不均匀。</span>  
 > *The thing that matters is agency, and I don't think agency is very evenly distributed in the world.*  

@@ -103,7 +103,7 @@ Blake 说,他们在这个过程中找到了一个巧妙的杠杆。因为决定�
 
 第二,硬件制造的瓶颈不是造不出来,而是迭代太慢;把传统上锁在 Excel 表格里的工程分析变成代码,把跟外部供应商扯皮的时间变成自家车间里的 24 小时出件,一家 50 人的小团队就能干出过去几千人、几十亿美元才能干成的事。第三,「为什么是现在」是个伪命题;这个世界上有大量技术早就成熟、价值万亿的机会,没人去做只是因为没人动手,所以去选一个你想解决的问题,把你所有的精力从「我能不能做」转移到「怎么做」上,你自然会成为那个有资格做这件事的人。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">然而半个世纪后的今天,我们无法去月球,也无法以音速快速飞行。</span>  
 > *And yet half a century later, we can't go to the moon and we can't fly fast in the speed of sound.*  

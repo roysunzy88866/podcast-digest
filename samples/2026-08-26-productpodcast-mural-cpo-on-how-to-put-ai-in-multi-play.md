@@ -83,7 +83,7 @@ Mural 把团队分成两类。核心产品团队用传统的"铁三角"（设计
 - **别让 token 指标变成新的虚荣指标**：下达"必须消耗 X token"的指令，结果就是员工为凑数而用 AI，跟当年 CRM 虚报通话一样。
 - **未来赌注每月复盘，问"学到了什么"**：不问"发布了什么"，问决策方式有没有因为新信息而改变，没有就说明没学到东西。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">仅仅因为你可以用 AI 做到，而且我可能会说出有争议的话，并不意味着你需要用 AI 来做它。</span>  
 > *Just because you can with AI, and I'm probably going to say the controversial thing, doesn't mean you need to do it with AI.*  

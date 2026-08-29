@@ -90,7 +90,7 @@ Ranjan 本来是反对方，但这次从西班牙旅行回来后改口了。他�
 - **OpenAI 的人事风暴根在产品**：Dresser 八个月走人不是个人问题，是 OpenAI 在编码赛道被反超后被迫转向，导致企业战略还没定型就换了帅。
 - **旅行是 AI 的金发姑娘评估区**：信息环境差、任务链复杂、试错成本低、有真实但非致命的后果——比任何基准测试都更能检验 AI 在真实场景中的可靠性。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">九大顶尖科技公司拥有约 3 万亿美元的资产负债表外承诺，主要与 AI 相关。</span>  
 > *Nine top tech companies had some $3 trillion of off-balance sheet commitments, mostly related to AI.*  

@@ -122,7 +122,7 @@ Wix 主动找来的，因为社区里很多人在喊「Wix 应该在它变大之
 - **砍掉「正确但拖慢啊哈时刻」的中间步骤**：在 vibe coding 场景下，用户的惊喜感比产出质量更重要，先让他们看到结果再逐步加功能。
 - **至少 50% 的时间做你天才区域里的事**：不是所有事都要做，但一定要保住那块你既擅长又喜欢的工作，那是你每天能出现的动力来源 <button class="pd-ts" data-t="86:17" data-who="Maor Shlomo" data-en="Yeah, there's plenty. Just make sure that at least 50% of your time you work on the parts of you that you really like and that you're really good at. There's plenty of ways of saying that and different diagrams that they show you as what you're good at, what you want to do, what's fun for you, what's energizing, what's not." aria-label="回原文"></button>。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">有趣的是，Base44 在我生命中第一次不是试图建造有史以来最大的东西。</span>  
 > *The funny thing is that Base44 for the first time in my life was not trying to build the biggest thing ever.*  

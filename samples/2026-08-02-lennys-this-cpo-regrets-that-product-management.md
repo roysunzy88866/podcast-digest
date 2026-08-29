@@ -166,7 +166,7 @@ Tom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到�
 
 第四,管理不是脱离一线的远程遥控,你必须扎进泥里去搞清楚最基本的事实,否则所谓的自上而下的强势决策,就会沦为不靠谱的[[微管理|微管理]]。最后,日常干活时记得「拉手风琴」:别光埋头瞎跑实验,也别光写宏大路线图,要在战略推演和最小可行验证之间反复拉扯,在不断学习中去逼近正确的方向。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">招聘这么多产品经理让工程师和设计师变得幼稚,他们完全有能力做出好的决策,但从来不需要这样做,因为总有一个产品经理来照看他们。</span>  
 > *Hiring so many PMs infantilizes the engineers and the designers who are perfectly capable of making good decisions, but just never had to because there was always a PM to babysit them.*  

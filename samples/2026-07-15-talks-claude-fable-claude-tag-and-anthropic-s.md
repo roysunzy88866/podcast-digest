@@ -128,7 +128,7 @@ Thariq 坦言工具本身不是核心卡点,难点在于构建高质量评估所
 
 再者,对智能体不要光停留在提防,真正的杠杆是像 Anthropic 内部那样,通过积累大量评估和测试,把代码审查和自主运行的安全性一步步交出去,让团队成百上千个 PR 自动跑起来。最后,真碰到了失落感,别硬扛,去找个更大更野心的项目干,不管是剪视频还是做个属于自己的格斗游戏,让智能体做那些脏活累活,把人的精力省下来去体验做事情的纯粹快乐。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">软件工程变得越来越难,因为我们可以承担的项目的野心水平已经提高了。</span>  
 > *Software engineering is getting harder because the level of ambition of the stuff we can take on has gone up.*  

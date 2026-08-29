@@ -115,7 +115,7 @@ Bret 接着说了一个更深的坑：你以为自己在回答"什么最有影�
 - **每天问"今天最有影响力的事是什么"——但别自欺**：这个问题难的不是问，是诚实地答。客户说的离职理由（"太贵了"）往往不是真理由，就像分手时说的"不是你的问题，是我的问题"。
 - **学计算机科学，不是为了"写代码"**：创建软件的行为会变成"操作代码生成机器"，但你需要系统思维来判断它生成的对不对、怎么约束它。计算机科学教的是这个。
 
-<div class="pd-sec">全部金句 <span>15 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>15 条</span></div>
 
 > <span class="qz">尽管如此，它的表现并不好，作为一个来自 Google 首页的链接却表现不好，这很尴尬。</span>  
 > *And despite that, it didn't do that well and to not do that well with a link from the Google homepage is embarrassing.*  

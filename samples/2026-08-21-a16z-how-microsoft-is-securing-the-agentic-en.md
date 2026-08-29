@@ -82,7 +82,7 @@ Aaron 说了三件事概括他的工作：让系统对各方清晰可读（合�
 - **利用"实习生逻辑"争取响应窗口**：模型和实习生一样先走简单路径，窗户开着不撬锁——好的监控和日志能在它走简单路径时抓住它。
 - **修补的瓶颈在转移，但人不能缺位**：模型能发现漏洞也能写补丁，但验证和部署仍然需要人负责，不能假设模型会替你做完。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">它是值得害怕的东西吗？是的。它是需要让你举手无策并担忧的东西吗？不，对吧？我们以前做过所有这些事情。</span>  
 > *Is it something to be scared of? Yes. Is it something to throw up your hands and worry about? No, right? We've done all of these things before.*  

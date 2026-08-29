@@ -95,7 +95,7 @@ Barney 坦言，目前的技术确实只能把文本作为核心载体。但只�
 
 第二，做面向消费者的 AI 产品，有时得逆向思维，老牌金融机构有多无趣，你就可以用幽默和吐槽把产品的参与度拉得多高。第三，别被风投集体恐慌的「前沿大模型杀死一切」的叙事骗了，建立一家好公司需要极度深度的行业 know-how，那些真正懂行、用好 AI 工具去做垂直深耕的公司，未来一定会创造出巨大的价值。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">你的现有竞争对手的最大痛点是什么？那么，我要做什么？我要在他们最大的痛点上极其用力，把它变成最令人愉快的体验。</span>  
 > *What is the biggest pain point of your incumbent? And, like, what am I going to do? I'm just going to go incredibly hard at their biggest pain point and make it the most delightful experience.*  

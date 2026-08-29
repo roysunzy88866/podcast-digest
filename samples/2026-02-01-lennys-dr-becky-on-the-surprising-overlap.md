@@ -152,7 +152,7 @@ jsonLd: |
 
 第三,做一个"坚定"的领导者,懂得设下真正不需要对方做什么的"界限",能在动荡中稳住阵脚而不被情绪吞没。最后,永远记得"韧性优于快乐",遇上难搞的事,用"我相信你"加上"我相信你能行"的组合拳去支持别人,克制住帮他扫清一切障碍的本能,因为搞定困难的经历本身,就是一个人最珍贵的资产。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">我认为修复是我们拥有的头号关系策略。</span>  
 > *I think repair is kind of the number one relationship strategy we have.*  

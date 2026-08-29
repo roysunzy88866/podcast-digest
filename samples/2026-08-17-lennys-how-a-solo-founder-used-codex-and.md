@@ -89,7 +89,7 @@ Jana 的大多数设计从手绘草图开始，老派的那种。然后她把草
 - **把枯燥的执行链拆给 AI，自己只做决策节点**：找供应商、起草邮件、设置发送，AI 全能做，但发之前你自己过一遍。这样不会在无聊环节放弃。
 - **SaaS 没死，使用者从人变成了智能体**：软件的价值还在，只是入口变了。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">就像，智能体真的很擅长按按钮。所以，就像，软件回来了，但智能体将要使用它。</span>  
 > *Like, agents are really good at pressing buttons. So, like, a software is back, but agents are going to use it.*  

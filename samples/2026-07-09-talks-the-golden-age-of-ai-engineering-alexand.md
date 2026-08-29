@@ -84,7 +84,7 @@ Peter 描绘了他理想中的最终形态：未来，智能体不应该被绑�
 
 第二，想要把智能体大军的威力真正发挥出来，必须从微操思维切换到委派思维，给目标、给护栏、给验证标准，然后彻底放手，让人只做那一次最重要的外部审查和决策。第三，无论多强的智能体，最后都会撞上人类「注意力有限」这个无法扩容的终极瓶颈，所以今天最值钱的能力，就是果断决定把你的注意力花在哪里。别忘了，工具再强也只是内部循环，设定方向的那个外部循环，永远属于你。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">软件吞噬了世界，然后 AI 吞噬了软件。但现在我们要说的是，AI 工程师正在吞噬世界。</span>  
 > *Software ate the world, and then AI ate software. But now, what we're here to say is that the AI engineers are eating the world.*  

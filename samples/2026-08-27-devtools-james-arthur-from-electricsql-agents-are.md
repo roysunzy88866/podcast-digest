@@ -82,7 +82,7 @@ Electric 从数据层出身，做的就是给平台和产品构建者提供同�
 - **看两篇参考**：Anthropic Managed Agents 与 Cloudflare Project Think 的论文，行业已趋同于“逻辑与执行分离 + 会话持久化”架构。
 - **不想被锁定**：可以用开源原语(如 Electric 的持久化流协议)自建同款基础设施，并沿用现有 AI 框架。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我们认为多智能体系统是一个分布式数据问题。</span>  
 > *We think of multi-agent systems as a distributed data problem.*  

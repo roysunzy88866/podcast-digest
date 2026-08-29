@@ -103,7 +103,7 @@ Max 最近在 ICML 主题演讲里讲了另一个方向：把**波**引入神经
 - **把自发对称性破缺内置进神经网络**，会得到不耗能、天然稳定的行波（戈德斯通模），让网络自动运行在混沌边缘，长程信息传递和记忆任务远胜 RNN。
 - **商业模式可参考**：平台 + 合作生态（设计归我、合成归伙伴），同时自筹资金做内部项目拿 IP，用「从发现到客户付钱」走通全链路来建立行业信心。
 
-<div class="pd-sec">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
 
 > <span class="qz">相对这些量子力学近似，有三到四个数量级的加速，效率更高。</span>  
 > *Three-order to four-order magnitude acceleration, more efficiency relative to these quantum mechanical approximations.*  

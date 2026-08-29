@@ -77,7 +77,7 @@ Alan Kay 关于用户界面的一句话她也一直记着——不要把所有�
 - **给决策者看多个选项，不是一个**：只给一个，对方只能说"不喜欢"；给几个，对方可以骂烂的但挑出好的，你也省了重做
 - **可爱胜过一切**：在 Facebook 礼品店四年的数据里，泰迪熊、心形、吻痕、企鹅全部碾压钻石和 Rolex
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">你可以发挥创造力，但最好明白限制是什么，然后对此感到兴奋，而不是因为你没有一千种颜色而感到沮丧。</span>  
 > *You can be creative, but it's good to understand what the constraints are and then be excited about that as opposed to being upset that you don't have a thousand colors.*  

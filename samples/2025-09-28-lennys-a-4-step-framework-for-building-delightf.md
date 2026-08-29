@@ -138,7 +138,7 @@ Google Meet 方面，疫情初期她们花三到四个月研究远程办公的�
 - **说服老板的技巧**：别「推销愉悦」这个词，搞清老板最看重什么，展示消除摩擦和预判需求怎么帮他达成那个目标。
 - **警惕习惯化效应**：惊喜会消退，必须有持续升级计划（如 Google Meet 背景从模糊一路进化到 AI 生成）。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">所以这就是为什么愉悦不是在你的实用性之上点缀快乐。它是关于创造一种情感完全处于体验核心的体验。</span>  
 > *So that's why like the light is not about sprinkling joy on top of your utility. It's about creating an experience where emotion is completely on the heart of the experience.*  

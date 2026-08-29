@@ -73,7 +73,7 @@ Philip 说，他们正在造一种低成本、轻量化的可展开式散热器�
 ## 本集带走
 最后收个尾，这一集值得带走的核心脉络其实很清晰。第一，极其疯狂的技术构想，往往建立在极其严密的宏观趋势推演之上——Philip 算准了火箭可回收技术将引发发射成本暴跌，提前卡位。第二，真正的极客精神不是等条件完美，而是在发货前凌晨用冰浴和吹风机搞定热循环测试，用汽车级零件硬扛粒子加速器，靠这些非常规操作把上亿的成本压到几百万。第三，创始人必须有直面周期的定力，StarCloud 从被一百多家 VC 拒绝，到被 Benchmark 追捧，中间的差异只是时间走到了算力变成国家安全命脉、地面基建全面停摆的那一天。太空不再是卫星通讯的专属，它是下一代算力基础设施的终极避风港。
 
-<div class="pd-sec">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
 
 > <span class="qz">因为我们实际上从一个大型机构那里得到了关于做 StarCloud 1 成本的报价，他们说7500万到1亿美元。而我们做了整个 StarCloud 2，包括发射，只花了200万美元。</span>  
 > *Because we actually had a quote from one of the primes on what it would cost to do StarCloud 1, and they said $75 million to $100 million. And we did the whole of StarCloud 2, including the launch, for $2 million.*  

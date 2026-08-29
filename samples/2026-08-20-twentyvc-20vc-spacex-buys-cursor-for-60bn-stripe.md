@@ -128,7 +128,7 @@ Jason 最后总结了一整集的底层逻辑："增长或死亡。这整个节�
 > 【背景】"Claude Note Pro"为广告口播中对某硬件产品的称呼，非 Anthropic 官方产品名。
 > 【背景】"11 Lambs"疑为转写稿对某软件产品名的误识，原文未明确，故未在正文展开。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">你的毛利率问题是我 Colossus 集群的收入机会。</span>  
 > *Your gross margin problem is my revenue opportunity for my Colossus cluster.*  

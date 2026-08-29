@@ -115,7 +115,7 @@ Matt 对人才的标准在过去一两年发生了 180 度转变 <button class="
 - **免费额度算营销成本**：跟广告费加总算「完全获客成本」，才算清真实 CAC。
 - **招人考系统思考，不考资历**：面试问「个人生活里的 AI 工作流」，看他能不能描述带反馈循环的自动化闭环。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">所以归根结底，付费是验证你拥有 PLG、验证你拥有一个能以任何方式、形状或形式扩展的产品最简单的方法。</span>  
 > *So at the end of the day, paid is the easiest way to validate that you have PLG, that you have a product that can scale in any way, shape, or form.*  

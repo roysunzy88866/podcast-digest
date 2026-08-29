@@ -82,7 +82,7 @@ GitHub Next 还为开发者准备了一整套现成的工作流库。比如可�
 
 第二,要用自然语言驱动后台自动化,通过类似 Markdown 文档的智能体工作流,你只需下达意图,配合确定性的安全权限护栏,就能让 AI 在你睡觉时安全地承担起升级依赖、分类 Issue 等繁杂脏活。第三,未来的代码协作模式将围绕对话和共享文档展开,不再是人向 AI 下达指令,而是 AI 从人类的实时讨论中自动提取结论并直接执行,人类最终甚至会成为被 AI 随时召唤的那双手。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">即使你是一个拥有十亿代币的人,即使你有 10 个终端没日没夜地运行 Fable,机会成本仍然存在,它就是一切。</span>  
 > *Even if you're a token billionaire, even if you have 10 terminals running Fable night and day, then opportunity cost is still there, it's everything.*  

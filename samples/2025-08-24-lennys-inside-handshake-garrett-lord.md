@@ -92,7 +92,7 @@ Garrett 的判断是：不会缺数据，但数据类型会不断演变。接下
 
 > 【背景】Garrett 提到的「Frontier Labs」指 OpenAI、Anthropic、Google DeepMind 等处于 AI 能力最前沿的实验室。他提到 Scale 被以约 300 亿美元收购，指 2025 年 Scale AI 与美国政府的合作安排。「Kevin Wheel」应为 Kevin Weil，OpenAI 首席商业官。「ASI」指通用人工超级智能。「SNOO」是一款自动安抚婴儿的智能摇篮床。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">人类数据中唯一的护城河是对受众的访问。</span>  
 > *The only moat in human data is access to an audience.*  

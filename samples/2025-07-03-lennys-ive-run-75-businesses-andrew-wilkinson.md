@@ -129,7 +129,7 @@ Andrew 个人身价一度超过 10 亿美元，但他描述自己坐在桑拿房
 - **焦虑是脑子里的化学问题，不是钱能解决的**：收入从 1500 万到 3 亿美元，焦虑的内容完全一样；SSRI 把他内心恶毒声音的音量调低了，这是钱做不到的
 - **创业者该查查 ADHD**：普通人群 5%，创业者 30%；如果工作记忆差、老忘事、在家承诺的事反复做不到，做个评估——知道总比不知道好，哪怕只是向伴侣解释"我需要你这样跟我沟通"
 
-<div class="pd-sec">全部金句 <span>13 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
 > <span class="qz">找到那些你真的能赚到钱的细分领域，因为竞争等于更低的利润率。</span>  
 > *find those niches where you can actually make real money because competition equals lower margin.*  

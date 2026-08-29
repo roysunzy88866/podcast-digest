@@ -105,7 +105,7 @@ Simon 一直觉得传统的白板编程面试是低信号的。AI 让他们有�
 
 > 【背景】Pi 指的是一个高度可定制的开源智能体工具框架（转写稿中称为 harness），OpenClaw 是基于 Pi 构建的。转写稿中多次出现的 claw code / clock code / flood code 均指 Claude Code。ELAD / ELON 均指 eval。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">但随后我们通过时间看到的是，用户越多，改变他们就越困难。</span>  
 > *Uh but then what we saw through time is the more user we've had, the harder it became to go and like change them.*  

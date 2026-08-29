@@ -91,7 +91,7 @@ Google 的纠结引出了一个关键洞察：为什么手握重金的超大规�
 
 第二，看科技公司不能只看财报上的资本支出，要看掌舵人的世界观——Anthropic 靠信仰聚才，OpenAI 猛打指数牌，微软两头下注，而手握重金的巨头反而因为「资源诅咒」被裹挟进场。第三，这轮技术狂热背后，还藏着人类对精神超越和造神的深层渴望。别再用「是不是泡沫」这种二元思维来框住 AI 了，真正的赢家是看透规则、熬过清算、押对国别与人才的人。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">自 ChatGPT 以来，你基本上大约有 3 万亿美元需要偿还。</span>  
 > *You basically have about $3 trillion that needs to get paid back just since chat GPT.*  

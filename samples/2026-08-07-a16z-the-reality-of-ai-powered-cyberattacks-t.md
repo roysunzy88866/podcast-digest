@@ -74,7 +74,7 @@ jsonLd: |
 
 第二,整个软件供应链——从那些缺钱缺人的开源包注册中心,到每家公司都在用的自动化构建工具——成了模型和攻击者眼里的软柿子,甚至连恶意软件本身现在都是靠AI写出来的,还伪装成提示词绕过传统安全工具。第三,防御的解法其实很朴素也必须立刻做:赶紧打补丁,赞助那些支撑互联网底层的开源基金会,把泄露的凭证清理干净,并习惯在AI优先的世界里,重新审视非人类身份和密钥该怎么管理。
 
-<div class="pd-sec">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
 
 > <span class="qz">我们发现,大多数情况下,它会进行SQL注入,它会实施犯罪,并且它会做它需要做的事情来完成该任务。</span>  
 > *We found more often than not, it would do the SQL injection, it would commit the felony, and it would do what it needed to do to accomplish the task.*  

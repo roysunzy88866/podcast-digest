@@ -92,7 +92,7 @@ Jyothi 在 VS Code 里用 [[Claude Code|Claude Code]] 从零搭了个本地知�
 
 第二,真正懂你的 AI,需要你亲手喂出来的本地知识库:用 Claude Code 搭个只有你能访问的本地库,把每天的会议纪要和文档死磕进去,它会帮你画清办公室的人际图谱,甚至在你发飙前提醒你先搞定哪个利益相关方。第三,想做出好产品,别只会盲信 AI 给的第一版答案,搭一个「对抗智能体」去疯狂攻击它,逼着它改提示词,在自我攻防里把边缘场景全扫平——这恰恰是 2026 年新物种「AI builder」面试时最看重的能力。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">理解针对哪个用例选择哪个界面,成为了一项核心的 PM 技能,这将帮助你变得效率提升 10 倍</span>  
 > *understanding which surface to reach for which use case becomes one of the core pm skills that will help you become 10x more effective*  

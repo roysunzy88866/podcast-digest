@@ -96,7 +96,7 @@ Alex 猜测,Meta 可能是在赌一种比 TikTok 更让人上瘾的「AI 伴侣�
 
 第二,算力市场的生意并非铁板一块,也绝不是零和博弈:芯片制造商稳赚不赔,前沿模型在降价中经历阵痛但也迎来了更庞大的使用基数;巨头们拿出了囤积多年的现金大建算力,这恰恰是行业在创新,不是泡沫的终点。第三,在 AI 应用全面爆发的前夜,不仅要看谁在卖水,更得看谁的平台能提供真正帮企业省钱的效率。至于谁能造出让人离不开的 AI 助手、谁的硬件帝国会因此解体,这正是接下来最值得关注的悬念。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">如果你掷硬币,49% 的概率是你炸毁世界,51% 的概率是你创造乌托邦。</span>  
 > *If you could flip a coin and, you know, 49% is you blow up the world and 51% is, you know, you create a utopia.*  

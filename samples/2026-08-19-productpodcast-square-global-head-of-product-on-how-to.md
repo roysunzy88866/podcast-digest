@@ -106,7 +106,7 @@ Square 从支付公司长成了整个生态系统，[[TAM|TAM]] 怎么算？Will
 - **信任先于委派**：让用户少干活(而不是解析一堆“文字呕吐”)才能建立信任，有信任才有批量操作和任务委派。
 - **TAM 观**：对的团队 + 对的想法 + 对的学习循环，TAM 几乎无限——你可以创造市场；用“社区网络”这类强制函数帮大 TAM 市场里的团队做取舍。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">你不能把它们看作完全分离的，这就是为什么公司很难用现成的通用硬件构建真正卓越的体验。</span>  
 > *You can't think of them as completely separate, which is why it's difficult for companies to use off-the-shelf, commodity hardware and build truly excellent experiences.*  

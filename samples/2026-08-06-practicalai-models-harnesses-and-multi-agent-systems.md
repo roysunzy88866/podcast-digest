@@ -71,7 +71,7 @@ Daniel 的观点很到位：这就像咨询公司——麦肯锡有自己非常�
 - **别把整个数字劳动力绑在一个垂直栈上**：就像不会让咨询公司配满你全公司的人——你自己的业务 IP、控制力和灵活性才是长期价值
 - **从小处开始，但要有备份计划**：实验式推进，遇到模型护栏挡路就换模型换方案，不要一上来就深度绑定
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我相当确信，多智能体架构不仅是事物的走向，我认为它们在未来将绝对且完全地无处不在，以至于我们将根本不想谈论它们，因为它们将如此深入地融入基础设施中。</span>  
 > *I'm quite convinced that multi-agent architectures not only are where things are going, I think they will be absolutely and completely pervasive in the future to the point where we won't want to talk about them at all because they'll just be so built into the fabric.*  

@@ -122,7 +122,7 @@ Ben 的思路是向人类组织学习：公司就是最大规模的人类智能�
 - **对齐最可能是"中间世界"**：既不是不可能，也不是默认就能成，行动极其关键。X 风险概率 0-10%，但赌注是人类的整个未来。
 - **缩放三要素都在进步**：算力（芯片和数据中心）、算法（transformers 对比 LSTMs 的指数差异）、数据，没有单一瓶颈卡住全局。
 
-<div class="pd-sec">全部金句 <span>13 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
 > <span class="qz">因此支付个人像 1 亿美元的四年的方案，相比于为业务创造的价值，这实际上是相当便宜的。</span>  
 > *And so to pay individuals like $100 million over four year package, that's actually pretty cheap compared to the value created for the business.*  

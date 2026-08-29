@@ -105,7 +105,7 @@ Sherwin 观察到很多公司的 AI 部署可能是负 ROI，根源几乎一样�
 - **为模型的方向构建，别为今天的模型构建**：客户要"更好的脚手架"时，想想这个脚手架会不会被下一代模型吃掉。为 80% 已经实现、即将完全解锁的能力设计产品。
 - **别忽略[[业务流程自动化|业务流程自动化]]**：软件工程之外的、可重复的、高确定性的企业流程，是 AI 最大的被低估机会之一。
 
-<div class="pd-sec">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
 
 > <span class="qz">为了实现一人独角兽公司，可能会有另外一百家小型初创公司在构建定制软件。</span>  
 > *To enable a one person billion dollar startup, there might be a hundred other small startups building bespoke software.*  

@@ -115,7 +115,7 @@ Frederick 的发现很出人意料:现在的模型在海量数据上训练,体�
 
 第二,Lassie 的笨办法恰恰是它最强的护城河——创始人自己泡在诊所里当人肉杂工去理解业务,磨出了能做到 98% 自动化、无人在环的智能体,这个在一线趟出来的 know-how,是大公司想抄都抄不来的。第三,把 AI 卖给爱荷华州的小诊所和卖给大企业是两码事,这里的对手不是 Workday 而是那个两周前刚辞职的员工 Betty,但这同时也意味着你要把极度复杂的系统对接,封装成像消费级 App 一样开箱即用的体验。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我有点认为,AI 在硅谷被过度炒作,但在爱荷华州被低估了。</span>  
 > *I kind of think, like, AI is overhyped in Silicon Valley but underhyped in Iowa.*  

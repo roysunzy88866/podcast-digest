@@ -93,7 +93,7 @@ AI 市场带有极强的欺骗性:因为它太大了,以至于给人一种格局
 
 第二,大厂企图封杀蒸馏并不可取,既然他们自己都在未经授权抓取全人类的数据训练模型,就不该把别人付费调用接口做蒸馏打成罪行;而如果听任闭源巨头用平台垄断手段绞杀应用开发者,那才是真正的国家安全灾难。第三,别被眼前的 AI 市场格局骗了,在一个渗透率连 3% 都不到、需求每年翻十倍的增量市场里,开源模型和闭源旗舰都有各自的广阔天地,有些活儿企业愿意花天价请超级智能干,有些活儿大家只想要个最快最便宜的模型,大家都在把蛋糕做大,真正的零和博弈还远没有到来。
 
-<div class="pd-sec">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
 
 > <span class="qz">如果你回顾这个行业的历史,所有东西的开源版本都要安全得多。</span>  
 > *If you look at the history of the industry, the open source version of everything has been much safer.*  

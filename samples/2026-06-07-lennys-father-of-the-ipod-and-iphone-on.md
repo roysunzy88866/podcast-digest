@@ -93,7 +93,7 @@ Tony 的判断极其清醒：绝不是一个别在胸前的小投影仪，只要
 
 第五，对下一代 AI 硬件别抱有不切实际的幻想，语音交互确实会反客为主，但只要人类还需要看地图，屏幕就会永远存在。正如 Tony 在结尾强调的：我们可以使用机器，但绝不要在认知上向机器投降，去造点真正有灵魂的好东西吧。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">如果你大部分的决策都将是基于意见的决策，对于一个 1.0 版本来说，你必须有一两个或非常非常少的一组人，他们负责做出基于意见的决策，并且实际上能让你从白板到一个实际的 1.0 规格。</span>  
 > *And so if most of your decisions are going to be opinion-based decisions for a 1.0, you have to have one or two or a very, very small set of people who are charged with making the opinion-based decisions and can actually get you from point A to... from a white paper or a white... bank sheet of white paper or whiteboard to an actual 1.0 spec.*  

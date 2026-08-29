@@ -79,7 +79,7 @@ jsonLd: |
 
 第二，写一个代码审查智能体没你想的那么难，用 Vercel 的 Eve 框架，配上一页纸不到的打分指令，甚至让 AI 自己去操纵浏览器搞定复杂的配置，一个下午就能搭出来。第三，真正的杠杆不只是让 AI 全自动干活，而是让它做好评风控、递出信号，最后由人类在 Slack 里点一下按钮完成合并，既榨取了速度，又守住了底线。别忘了，哪怕是内部代码机器人，也要像对待外部产品一样，持续跑评估闭环，才能保证它一直不会作妖。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">AI 审批的 PR 以及总体上 AI 编写的代码甚至可以比仅有人类在流程中所做的更安全、质量更高。</span>  
 > *AI approved PRs and AI written code in general can be even safer and even higher quality than what you're doing with just a human in the loop.*  

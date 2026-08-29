@@ -72,7 +72,7 @@ AI 的出现似乎给了条出路:开发者只管把干净的初版扔出来,用
 
 第二,想要真正安全地放手让 AI 现场改软件,唯一的出路是重写隔离规则,把每个独立实例的前后端都死死锁在无法与外界通信的沙箱里,这样代码里就算全是漏洞也漏不出任何东西。第三,未来的个人应用不该像一个个沉重的容器,而该像办公套件里的文档一样轻量,加上彻底的开源本地化,让算力和数据真正回到每个人的手里。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我的核心观点是个人 AI 代码生成打破了传统的云基础设施。</span>  
 > *My key point is personal AI code gen breaks traditional cloud infrastructure.*  

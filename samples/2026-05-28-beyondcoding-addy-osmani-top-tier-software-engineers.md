@@ -55,7 +55,7 @@ jsonLd: |
 - **把"对"编码进系统**：用测试、用户旅程等锚点让智能体输出可对比，解决验证瓶颈
 - **认知带宽不并行**：任务分两类，低风险孤立任务委派出去，需要动脑的自己盯
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">如果你试图从看护毕业到更严肃的事情，你有点需要围绕你的智能体拥有身份。</span>  
 > *If you were trying to graduate from babysitting to something more serious, you kind of need to have identity around your agents.*  

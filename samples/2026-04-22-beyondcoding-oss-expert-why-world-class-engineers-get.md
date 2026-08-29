@@ -79,7 +79,7 @@ Mitchell（在做一个叫 Vouch 的系统）直接转向「默认拒绝」—�
 - **一致性是真正的过滤器**：持续出现比一次性爆发重要，参加社区时间、当面认识维护者是建立信任的关键路径
 - **不要带着求职预期去贡献**：把它当工匠精神的实践，职业回报是可能的副产品，不是目标
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我认为开源目前更大的问题是，它正某种意义上被善意的泛滥和来自那些试图贡献的人的大量劣质内容扼杀</span>  
 > *I think the bigger problem for open source is at the moment, it's sort of being killed with kindness and a lot of slop from people that are trying to contribute*  

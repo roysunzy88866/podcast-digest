@@ -105,7 +105,7 @@ Parag 自己用 Notion 的智能体做会议准备文档，一次写好提示词
 - **发布要面向两个受众**：写财报发言、API 文档时，把「智能体会正确解读」当第一类读者来设计，并用智能体测试文档。
 - **下一个范式信号：网络从拉到推**——「发生了 X 就叫醒我」的订阅式智能体工作流，是把算力持续铺到全网的前提。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我们在 Parallel 的观点是，人类点击数据是一个 bug，使用搜索进行工作的智能体应该依赖智能体反馈，而不是人类反馈。</span>  
 > *Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.*  

@@ -82,7 +82,7 @@ Fiona 自己在 Meta 管过 500 人的大组织，但刚加入 Anthropic 时，�
 
 第二，在角色边界全面模糊的时代，真正的护城河不是招只会写代码的人，而是招那种“创意构建者”和“深度系统专家”，并且逼着所有管理者必须亲手写代码、试用自家产品，别脱离一线的泥土味。第三，旧时代那种长达半年、充满仪式感的重规划已经失效了，拥抱轻量级的准时制月度规划，甚至不妨大胆砍掉那些让团队痛苦但又不再产出价值的流程。最后，不管智能体多强悍，真正决定团队上限的依然是文化，是那种允许你坦诚说出“这事搞砸了”的心理安全感，以及在狂飙突进中依然愿意伸手拉队友一把的本能。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">没关系，我有这样一句话：犯新的错误。犯错没关系，只要犯新的错，这样我们就能不断学习。因为如果你追求零错误，那大概意味着你行动不够快，或者有点太谨慎了。</span>  
 > *it's okay to like I have this saying make new mistakes like it's okay to make mistakes just make new ones so that we're always learning because if you aim to make zero mistakes like that probably means you're not you know moving fast enough or being a little bit too cautious*  

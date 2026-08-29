@@ -86,7 +86,7 @@ jsonLd: |
 
 第二，不要害怕非技术人员写代码，只要给足 AI 工具、赋能指南，配合「双轨制」的代码审查与战略评审，产品经理甚至客服都能端到端地交付完整功能。第三，团队规模不再是实力的象征，人越多协调成本越高，未来的理想团队是小而精的，你要找的是那些拥抱 AI、自带产品判断力、执行细节到位的超级资深个体贡献者。最后，正如 Jay-Z 所说，无论工具跑得多快、组织怎么重构，产品经理贴近客户、先搞清问题再想方案的基础原则不仅没变，反而比以往任何时候都更重要。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">如果每个人都在朝不同的方向奔跑，即使你跑得非常快，你也不会真的到达任何地方。</span>  
 > *if everyone's running in different directions, even if you're running incredibly fast, you're not really going to get anywhere.*  

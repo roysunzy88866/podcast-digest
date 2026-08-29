@@ -85,7 +85,7 @@ Simon 给了一个直白的定义：它的工作就是把可用的 GPU 变成智
 
 第二，别拿传统开源软件的眼光看待开源模型。训练前沿模型的算力成本高达数亿美元，失败率极高，因此那些看似苛刻、附带商业条件的新版许可证，其实是实验室为了让研发资金回流、保证生态活下去的必然选择，这就像创新药研发必须要有经济激励闭环。第三，面对 AI 越来越严苛且武断的安全审核，把一切工作都交由几家风控严格的闭源平台集中处理是不可持续的；未来真正严肃的商业应用，会默认转向那些企业能自己掌控、自己制定护栏的开源模型。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">有趣的思想实验是，如果 GPU 价格下降 99%，那么我们会回到一个真正的开源世界吗？</span>  
 > *The fun thought experiment is if GPUs dropped in price by 99%, then do we get back to a real open source world?*  

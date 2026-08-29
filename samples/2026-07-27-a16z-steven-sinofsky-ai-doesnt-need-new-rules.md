@@ -94,7 +94,7 @@ Sinofsky 提了一个很务实的替代路径：**不需要新造 AI 专属法�
 - **不需要新造 AI 法律，先对齐现有200万条法律**：人们担心的每个 AI 作恶场景都已有法律覆盖，缺的是把"AI 场景"明确写进现有条文的措辞里
 - **警惕"反弹球"**：禁芯片这类侧面包抄看着是在打压对手，实际上也在帮国内公司消灭开源竞争者
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">对我来说，监管的整个话题似乎完全是本末倒置，因为它在我们甚至都不知道我们在监管什么之前就开始了。</span>  
 > *The whole topic of regulation for me just seems completely backwards because it's starting before we even know what we're regulating.*  

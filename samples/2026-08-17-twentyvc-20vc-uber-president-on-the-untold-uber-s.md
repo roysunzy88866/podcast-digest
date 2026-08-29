@@ -122,7 +122,7 @@ Travis 当年的信条是"要比全世界所有竞争对手加起来融更多的
 - **把人头预算和算力预算合成一个池子**:让技术负责人自行决定是多买算力还是多招人,而不是两本账分开管导致无法灵活应对使用量暴涨。
 - **新业务必须全职 dedicated,以周为运作节奏**:大公司内部孵化最怕"顺便花 2% 时间",也怕资源太充足导致比创业公司还慢。每周检查、持续注资决策,比季度复盘有效得多。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">因为归根结底，共享出行就是价格、可靠性和安全性。就是这样。10 年前就是这样。我认为 10 年后即使有了自动驾驶汽车，也会是这样。</span>  
 > *Because ride sharing at the end of the day is price, reliability, and safety. That's all it is. That's what it was 10 years ago. I think that's what it's going to be 10 years from now, even when it's autonomous vehicles.*  

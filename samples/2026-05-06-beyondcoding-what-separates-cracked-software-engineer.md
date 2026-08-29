@@ -92,7 +92,7 @@ jsonLd: |
 - **被裁了别空休，至少做点东西**：纯粹休息的间隔年现在风险太高——工具费暴涨、行业加速，一年脱节再回来，门槛只会更高。
 - **系统设计能力是招聘新核心**：能从简单设计到可扩展、能对没建过的系统做推理、能说清楚你怎么保持简单——这比写代码本身更被看重。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">那些做不到的人，对我来说，他们很快就会变成遗留人员。</span>  
 > *Those that cannot, to me, they will be legacy quite soon.*  

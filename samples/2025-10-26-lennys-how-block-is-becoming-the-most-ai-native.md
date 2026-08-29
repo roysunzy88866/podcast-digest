@@ -118,7 +118,7 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 - **代码质量不等于产品成功**：不要被工程师「我们需要重构」的诉求绑架。只要能解决用户的真实问题，哪怕是像早期 YouTube 那样把视频塞进 MySQL 的「糟糕架构」，也能成为极其成功的产品。
 - **招聘重「学习心态」而非特定技能**：不再把工程师当「商品」盲目扩招，看候选人是否拥抱新工具，但最核心的依然是深挖技术本质的批判性思维。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">每当我听到这样的统计数据时，我认为人们需要考虑的一个重要因素是这是它未来最差的状态。</span>  
 > *Whenever I hear a stat like this, I think an important element that people need to think about is this is the worst it will ever be.*  

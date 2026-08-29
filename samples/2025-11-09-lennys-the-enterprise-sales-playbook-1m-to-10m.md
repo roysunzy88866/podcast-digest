@@ -101,7 +101,7 @@ ARR 从 100 万到 1000 万这个阶段,创始人不能继续单打独斗,需要
 - **第一个销售岗招两人**:该岗位淘汰率约 50%,创始人需陪跑前 5 次客户电话来快速验人。
 - **手工冷启动带来真 alpha**:不用 AI 群发工具,仔细看目标客户的视觉线索并手写差异化的冷邮件,在 AI 泛滥的时代,「像个人」反而成了最大的竞争优势。
 
-<div class="pd-sec">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
 
 > <span class="qz">一旦你变成一种比较对象，一旦你变成他们同时测试的三个之一，你就已经某种程度输了。</span>  
 > *As soon as you become a comparison, as soon as you become one of three that they're testing out, you've already sort of lost.*  

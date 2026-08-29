@@ -96,7 +96,7 @@ Casey 在自己的项目里完全不用 AI 工具，原因很简单：他写游�
 - **别让编码教条挡住编译器优化**：过度使用多态和虚函数会阻止编译器做内联和向量化，简单可读的代码在大多数情况下本身就很快。
 - **选工作时把自主权当硬指标**：自主权高的人能把 AI 当工具用在不想要的杂活上；被强制用 AI 的人更容易倦怠。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">他还说，市面上大多数软件的运行速度比所需速度慢几十到几百倍。</span>  
 > *He also says that most software out there runs tens to hundred times slower than it needs to.*  

@@ -154,7 +154,7 @@ Hilary 认为人们严重低估了 AI 在学习上的潜力。入门级工作看
 - **推习惯用行为心理学，别用教育模式**：一致性（每天做）+ 低摩擦（从跟工作无关的简单场景开始）+ 奖励循环（强大、即时、有情绪冲击力）。刻意把表扬给到你希望变成习惯的行为，而不是"加班赶工"这种反模式。
 - **用 AI 压缩学习循环**：关键不是 AI 能替你干活，是它能让你获得"练习次数"的速度和数量都根本性地提升。把工作中偶尔才碰到一次的判断场景，变成可以无限次练的工具。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">产品领导力是这样一种角色，如果你不控制你脑海中的声音，它们会把你活生生吞掉。</span>  
 > *Product leadership is the type of role where if you are not in control of the voices in your head, they will eat you alive.*  

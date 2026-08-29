@@ -90,7 +90,7 @@ Evan 说他不是认为不需要 PM，而是认为早期「设计师应该去做
 
 第四，别陷入「AI 时代谁取代谁」的争吵，AI 的真正杠杆在于让个人拥有副驾驶的同时，把跨职能的完整工作流（从写规格、风险分析到上市物料）交给一整个智能体去跑通。第五，当所有人都沉浸在技术狂热里时，千万别低估人性带来的阻力，把人放在首位，是科技行业接下来最该补的一课。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">我认为人们没有花足够的时间去思考分发并弄清楚分发。</span>  
 > *And I think people don't spend nearly enough time thinking about distribution and figuring out distribution.*  

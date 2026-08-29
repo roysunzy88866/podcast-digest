@@ -107,7 +107,7 @@ Sean McGuire：除了 ELO 评分法（只问 2400 分的棋手谁是另一个异
 - **卖结果不卖工具**：工具和服务支出比通常是 1:6，AI 端到端能完成任务后，直接卖结果（比如"结完的账"）而不是卖软件，捕获的是更大的那一块。
 - **今天的判断力是明天的智能**：在人类判断还不可替代的领域，做对产品的公司会捕获这些判断，随着模型变强自动转化为智能——这是从副驾驶到自动驾驶的路径。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">我同意，这就是为什么我说一句让大多数人浑身发凉的话，那就是十亿美元可能只是新的 Series A。</span>  
 > *I agree, which is why I say something which gives most people white shivers, which is a billion dollars could just be the new Series A.*  

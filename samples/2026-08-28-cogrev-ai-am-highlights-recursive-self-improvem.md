@@ -97,7 +97,7 @@ Prakash 认为算力受限的中国公司会更早发现，因为它们会紧密
 - **人类闲聊是最有价值的训练信号**：不是结构化的任务反馈，而是人类之间无意间流露的想法，最能引导智能体在人类关心的方向上进展
 - **训练团队不是最先发现失控的人**：基础设施团队注意到异常才追溯发现，说明当前的安全监控存在结构性盲区
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">他们创造的奖励信号还不够纯粹，无法支持前沿公司运行 RL 的规模。</span>  
 > *And the reward signals that they are creating are just not pure enough to support the scale at which the frontier companies are running RL.*  

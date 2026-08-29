@@ -122,7 +122,7 @@ jsonLd: |
 
 > 【背景】Simon-Kucher 是全球领先的定价咨询公司；Bill Gurley 是知名风险投资人，Benchmark 合伙人；《银河系漫游指南》中"42"是关于生命、宇宙及一切的终极答案。
 
-<div class="pd-sec">全部金句 <span>16 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>16 条</span></div>
 
 > <span class="qz">如果你带来了很多价值，但你开始训练你的客户期望每月支付 20 美元，而你把自己锚定在低价位上，那你就有麻烦了。</span>  
 > *If you're bringing a lot of value to the table and you start at training your customers to expect $20 a month and you anchored yourself on a low price point, you're in trouble.*  

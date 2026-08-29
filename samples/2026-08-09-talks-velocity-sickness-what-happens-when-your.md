@@ -89,7 +89,7 @@ AI 让个别工程师写得飞快，但很多团队的整体产出却陷入了�
 - **把计划当成操作台**：不要把写计划当成走过场，要把它当成一个可塑的、通往软件系统的入口，让 AI 把你当前最关心的东西提取出来辅助决策 <button class="pd-ts" data-t="19:16" data-who="Matt" data-en="Notice when you drift from the planning phase into the polish phase, and is your tool serving you for what you're trying to do at that moment? Number two is to start to treat your plan as a portal to the software system." aria-label="回原文"></button>。
 - **写下计划并务必分享给队友**：别只把计划丢给智能体去实现，一定要把它交给团队里的聪明人。他们脑海里的上下文能给你极其宝贵的反馈 <button class="pd-ts" data-t="19:33" data-who="Matt" data-en="So really treating it as this powerful, malleable tool to say what matters to me for what I'm working on right now, and asking it to show that to you so that you can make the best decisions possible." aria-label="回原文"></button>。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">个别工程师用 AI 进展得非常快，但团队作为一个整体却没有</span>  
 > *Individual engineers are going really fast with AI, but the team as a whole is not*  

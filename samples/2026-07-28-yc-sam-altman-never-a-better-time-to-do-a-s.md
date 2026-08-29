@@ -107,7 +107,7 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 
 第六,十年后最该警惕的反乌托邦不是 safety(安全)做少了,而是 safety 做过头——物质丰裕换自由、换主观能动性,变成一个完美的监控国家;正确的判据是每年人们的自由和对自己时间的掌控是否在增加。最后,做初创公司又难又吓人,你多半会犯错、会失败,但科技行业对此极其宽容,所以把雄心留着,路上稍微快乐一点,相信一切最终会好起来。
 
-<div class="pd-sec">全部金句 <span>16 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>16 条</span></div>
 
 > <span class="qz">所以我认为我们将看到初创公司的黄金时代,人们会像,你知道吗,我要做那些一年前在 YC 的时间框架内初创公司甚至做梦都不敢想的事情。</span>  
 > *So I think we will see a golden age of startups where people are like, you know what, I'm going to do things that would have been completely impossible for a startup to even like dream at a year ago in sort of like the YC timeframe.*  

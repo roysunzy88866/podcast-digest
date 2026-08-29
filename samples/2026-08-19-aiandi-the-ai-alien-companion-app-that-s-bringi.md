@@ -94,7 +94,7 @@ Elliot 特别强调：从"氛围提示词"到真正让人持久觉得引人入�
 - **Judge 必须注入具体品味**：不能泛泛地问 LLM "这个好不好"，要把评判标准细化到单句层面，用大量人工标注来 brute force 地编码品味。
 - **先立旗再听反馈**：新媒介的范式没确立时，创作者得先有"傲慢"做出东西，再用"谦逊"根据真实反应调整——不能在空白期问用户要什么。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">它们实际上是讲故事的新媒介，而且还没人知道什么会奏效。</span>  
 > *They are actually a new medium for storytelling and that no one knows what's going to work yet.*  

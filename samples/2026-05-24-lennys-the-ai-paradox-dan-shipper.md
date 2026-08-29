@@ -104,7 +104,7 @@ Dan 悟出一个道理:一个 AI 智能体要想真正有用,必须有一个关�
 
 第三,别被「AI 替代一切」的焦虑吓倒,模型真正的威力是把昨天的能力变廉价,这就给了那些能提出新想法、有独特审美的产品经理和全栈设计师前所未有的杠杆。所以与其每天害怕被裁员,不如赶紧找点乐子,把最新的模型用到你的真实工作里,从这种把玩中找出你自己的不可替代性。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">我认为 SaaS 末日论是愚蠢的。</span>  
 > *I think the SaaSpocalypse is dumb.*  

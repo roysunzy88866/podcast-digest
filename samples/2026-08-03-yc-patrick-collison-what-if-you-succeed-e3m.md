@@ -89,7 +89,7 @@ Stripe从写下第一行代码到公开发布等了近两年，在[[YC|YC]]"尽�
 - **长期没公开发布可以，但不能没有真实用户**：Stripe等了两年才发布，但几乎从第一行代码起就有生产客户在驱动开发
 - **问"如果成功了怎么办"**：不光想失败的风险，也要想自己愿不愿意在这件事上花10年以上
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">很容易产生幻觉或想象某种客户问题，但这并不是一个愿意付钱的人会真正感受到的切肤之痛。</span>  
 > *It's very easy to hallucinate or to imagine some customer problem that's not actually something viscerally felt by a person who would pay money.*  

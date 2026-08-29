@@ -115,7 +115,7 @@ Patrick 总结了一个更底层的模式：对 AI 好的实践，对人也好�
 - **测试要写给智能体看**：失败信息要包含足够上下文，让拿到错误的智能体知道怎么修，不只是写给人看。
 - **别让不感兴趣的开发者用 AI**：他们会把所有验证甩给智能体，token 消耗飙升且 PR 质量差——把任务分给感兴趣的人。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我喜欢行业中每一个新的混乱时期，因为那是学习正在发生的地方。</span>  
 > *And I love every new chaotic period in the industry because that's where the learning is happening.*  

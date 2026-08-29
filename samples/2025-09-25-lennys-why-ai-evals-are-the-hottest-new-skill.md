@@ -96,7 +96,7 @@ A-B 测试 vs eval 也不是对立的：A-B 测试本身就隐含了一个评估
 - **大部分故障不需要建 eval**：改 prompt 就能解决的直接改，只对"描述了期望行为但仍反复出错"的顽固问题建判别器，通常 4-7 个够用
 - **首次投入约一周，之后每周 30 分钟**：初始错误分析和判别器构建是一次性成本，后续维护很轻 <button class="pd-ts" data-t="91:05" data-who="Shreya Shankar" data-en="A lot of labeling, feel like we're in a good place to create the spreadsheet that Hamel had and everyone's on-board and convinced, and even a few LLM judge evaluators." aria-label="回原文"></button>
 
-<div class="pd-sec">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
 
 > <span class="qz">目标不是完美地做评估，而是可操作地改进你的产品。</span>  
 > *The goal is not to do evals perfectly, it's to actionably improve your product.*  

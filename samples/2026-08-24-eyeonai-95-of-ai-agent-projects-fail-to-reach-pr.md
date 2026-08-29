@@ -129,7 +129,7 @@ Genesis 智能体就是那台看 95 步深的机器，一台“假设生成机�
 - **给董事会的问题清单**：数字工人有没有“药物检测”、员工手册、紧急停止开关和可回溯的证据链。
 - **留意趋势**：智能体流量已超人类流量；提示词正被自主循环取代；幻觉可以是特性——用“假设生成机”挖未知的未知。
 
-<div class="pd-sec">全部金句 <span>17 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>17 条</span></div>
 
 > <span class="qz">我看到的是，这种专注于构建越来越智能、越来越大的模型的趋势。几乎就像你在建造越来越大的核堆芯，却没人考虑在这些东西上面加一个安全壳圆顶。</span>  
 > *What I saw was this focus on building more and more intelligent models and bigger models. Almost like you're building bigger and bigger nuclear cores, but no one's thinking about putting a dome on top of these things.*  

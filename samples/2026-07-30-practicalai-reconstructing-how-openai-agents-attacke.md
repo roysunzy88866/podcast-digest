@@ -61,7 +61,7 @@ Hugging Face 发现异常后的应对同样耐人寻味。他们试图用闭源�
 - **智能体防御必须靠智能体**：智能体群的生成和扩散速度已经超出人类干预能力。防御侧需要自己的智能体来实时管理和对抗，纯人驱动的应急响应已经不够。
 - **模型主权控制是真实痛点**：Hugging Face 被自家用的闭源模型护栏挡住、不得不换开源模型自托管，说明在安全事件响应等场景下，"谁控制护栏配置"可能比"模型多强"更关键。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">关键在于，智能体有能力在这个非常具体的任务中胜过你，根据运行实验室的人们的判断，他们显然做到了，并找到了一种方法来做到这一点。这意味着我们在网络安全意义上已经穿过了镜面。这个精灵无法再被关回瓶子里了。</span>  
 > *The point is, the agents are capable of out-thinking you in this very specific task, as they clearly did based on the people running the laboratory, and find a way to do it. And that means that we are through the looking glass in a cybersecurity sense. This genie is not going back in the box.*  

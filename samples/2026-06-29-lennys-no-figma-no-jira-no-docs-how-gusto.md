@@ -96,7 +96,7 @@ Eddie 坦承,自己作为高管,天然就有权打破公司既有的流程;但�
 
 第二,给非技术人员——比如设计师和产品经理——配 AI 工具和愿意带他们的工程师,他们能爆发出你想象不到的生产力。第三,作为高管,如果你想真正理解 AI 能做什么,做出正确的战略决策,就必须亲自下场,用这些工具去写、去改、去发布生产环境的代码。最后,不要让审批流程和季度规划毁了团队的热情,十个五人小队同时去试错,哪怕全军覆没,成本也远低于一次传统的失败立项,而一旦跑通一个,就能改变公司的轨迹。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">我现在称之为软件工程的垃圾桶法,在那里你实际上可以丢弃所有代码,就像开始一个 slash V2 分支并从头开始重建它。</span>  
 > *I call this the trashcan method of software engineering right now, where you can actually trash all the code, start like a slash V2 branch and rebuild it from scratch.*  

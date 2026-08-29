@@ -123,7 +123,7 @@ Bob 在 Pinterest 的一年半并不成功。他星期五离开 Apple，星期�
 - **做新东西时团队要小**：四个人能出披头士，24 个人不行。原创 Mac 专利 20 人，iPhone 专利 24 人。愿景清晰后再扩人。
 - **每个交互都在抽走用户的能量**：你做的界面被亿万人在真实生活中使用，你看不见他们，但他们能感受到。这不是隐喻，是事实。
 
-<div class="pd-sec">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
 
 > <span class="qz">我从 Apple 带走的东西，我认为这对任何从一个主要文化转换到另一个文化的人来说都是真的，很可能是新地方雇佣你是因你离开的组织的价值观，而不是行为。</span>  
 > *The thing I took away from Apple, and I think this is true for anybody changing from one major culture to another is most likely the new place hires you because of the values of the organization you left, but not the behaviors.*  

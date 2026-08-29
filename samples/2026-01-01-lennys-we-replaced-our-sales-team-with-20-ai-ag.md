@@ -101,7 +101,7 @@ jsonLd: |
 
 第二，销售的洗牌已经开始了，那个只会发邮件、只会套近乎的岗位正在消亡，真正值钱的是能统筹调教智能体、或者能搞定复杂大客户的顶尖高手。第三，也是给所有创业者的当头棒喝：不管你的产品多牛，如果客户在试点阶段看不到 ROI，这单就成不了，你得把人派到现场去，保证客户掏钱之前你的智能体已经在替他赚钱了。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">AI 正在取代人们今天不想做的工作，并且它正在挤出中游和平庸的人。</span>  
 > *AI is replacing the jobs people don't want to do today, and it is displacing the midpack and the mediocre.*  

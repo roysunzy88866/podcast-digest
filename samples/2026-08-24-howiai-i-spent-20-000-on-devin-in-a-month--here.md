@@ -96,7 +96,7 @@ Ryan 找到[[产品市场契合|产品市场契合度]]的方式极其传统：�
 - **代码量不是产品力**：别让智能体 24 小时跑代码，用「你愿不愿意花时间跟进」来检验功能是否真值得做。
 - **招聘看智能体管理能力**：让候选人录全屏操作视频，看他把智能体管成什么样，比聊 天高效。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我认为未来几乎 100% 是云端智能体。</span>  
 > *I think the future is pretty much 100% cloud agents.*  

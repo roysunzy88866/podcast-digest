@@ -84,7 +84,7 @@ Whatnot 是一个本质上是人类连接的平台——你认识店主，认识
 - **信任与安全是 40% 的人力投入**：在处理数千万日活的交易平台上，信任不是锦上添花，是基础设施，投入比例远超一般人的想象。
 - **AI 增强人类卖家，不替代**：自动填元数据、给经营建议，但核心体验——认识店主、跟人聊天——保持人类主导。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">用户根本不在乎市场。</span>  
 > *Users don't give a shit about the market.*  

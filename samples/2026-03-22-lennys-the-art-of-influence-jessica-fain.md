@@ -106,7 +106,7 @@ jsonLd: |
 ## 本集带走
 最后收个尾,这一集值得带走的是几个非常实用的思路。第一,领导者没认同你的想法是你的错,别再觉得「他们就是不懂」,请把高管当成你最重要的用户去研究——理解他们像频闪灯一样疯狂切换的日程,在开会前 30 秒直接铺好上下文。第二,带上你的专业和好奇心去开会,不要只当一个寻求盖章的应声虫,用「是什么让你相信这一点」来挖掘他们背后的压力和动机。第三,不要用你手里的资源去限制高管的视野,遇到不合理的要求要反向要资源,而建立信任最好的方式是主动砍掉不靠谱的项目。第四,当 AI 把执行的门槛降到极低时,决定做什么、把策略讲清楚、并在人和人之间建立信任,就成了人类真正不可替代的十倍技能。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">人们完全误解了高管是如何做决策的,在他们的头脑中、日程表中、激励结构中发生了什么。</span>  
 > *People completely misunderstand how executives make decisions, what is going on in the heads, in the calendars, in the incentive structures of executives.*  

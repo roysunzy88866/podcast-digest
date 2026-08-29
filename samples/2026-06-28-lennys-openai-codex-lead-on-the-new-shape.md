@@ -117,7 +117,7 @@ Brent 想用 Codex 剪辑视频,Codex 本身并没有视频编辑界面,但它�
 
 第二,短期规划必须细,长期规划必须虚,不要给九个月后的计划加什么精确细节,那都是虚假精度;很多时候产品成不成,不看形态好不好,只看模型有没有跨越那条能力的及格线,所以做不出来的功能就先放着酝酿,等模型升级了再试。第三,职位头衔不再定义你的工作,你花时间的平均值才是;在这个新世界里,最值钱的是高主观能动性和高品味的人,他能凭直觉把一个混沌的想法一路引导成惊艳的产品,而那些有专业沉淀的最佳实践和技能,非但不会过时,反而是支撑这种流动的底座。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我听到很多公司说，“我们要取消产品角色，”顺便说一句，我认为这是一个糟糕的想法。</span>  
 > *I've heard a lot of companies be like, "We're getting rid of the product role," which I think is by the way, a terrible idea.*  

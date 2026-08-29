@@ -134,7 +134,7 @@ Peter 在斯坦福设计学院学过 IDEO 的设计思维五步框架，他认�
 - **「说你要做、说你在做、说你做完了」**：不只是向上管理，是保持对齐和闭环的运作方式。
 - **同理心不能外包给 AI 摘要**：你必须人在房间里，听到语调，感受到痛苦，才能做出好产品。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">有时你的产品其实并不重要。我所说的产品是指你放在屏幕上的像素或者你在移动应用程序中构建的东西。</span>  
 > *sometimes your product actually doesn't matter. And by product I mean the pixels you put on the screen or things that you build in your mobile app.*  

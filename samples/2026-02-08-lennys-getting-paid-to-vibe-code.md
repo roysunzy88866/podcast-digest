@@ -137,7 +137,7 @@ Lazar 的职业路径完全不线性——做过蓝领、在 Subway 打工、做
 - **优化[[品味|品味]]，不优化编码速度**：每个人都产出"足够好"，"世界级"才是壁垒——花时间接触精美设计、学设计风格、学怎么提示出好设计
 - **先雇佣自己**：公开构建、分享所有秘密、用你用的工具本身来展示能力，不需要等公司给你头衔
 
-<div class="pd-sec">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
 
 > <span class="qz">我确实感觉是这样，因为像我这样的人不知道他们不应该构建 X、Y、Z。而这实际上就是我们能够构建它的原因。</span>  
 > *I honestly feel that it is because people like me don't know that they are not supposed to be building X, Y, Z. And that's how we actually are able to build it.*  

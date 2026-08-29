@@ -72,7 +72,7 @@ Dave 说在用户数到几百之前，点图可以是你唯一的仪表板。技
 - **B2B 也用点图盯席位激活**：买了 10 个席位的客户如果只有 3 个激活、使用零星，合同就有危险——别等续约时才吃惊
 - **早期用户少时，点图当唯一仪表板**：所有用户所有天的行为一屏看完，比任何汇总指标都有信息量
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我看到的创始人犯的最大错误之一是依赖汇总用户指标，而不是理解单个用户如何使用他们的产品。</span>  
 > *One of the biggest mistakes I see founders make is relying on aggregate user metrics instead of understanding how any individual users use their product.*  

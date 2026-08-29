@@ -163,7 +163,7 @@ Flo 的回应：这就像知识产权和专利——如果你允许无成本复�
 - **验证器是最便宜的可靠性提升**：哪怕只是一句"你确定吗？"都有显著效果。做成模块化联邦架构，确定性检查（如日期校验）用正则，不浪费 AI 调用。
 - **"走去洗车"是当前 AI 员工的核心瓶颈**：不是能力不够，是能力太尖锐——能做惊人的事，也会做荒谬的事，而且它不知道自己什么时候在犯傻。找到人机边线是组织设计的核心挑战。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">如果你要 John von Neumann 魔法般地出现在你身边的办公室里，这个人在接下来的一小时或一天里对你的用处会比你的随机会同事更少。</span>  
 > *If you will to have John von Neumann just magically appear next to you at the office, this guy over the next hour or day would be less useful to you than your random coworker.*  

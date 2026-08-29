@@ -70,7 +70,7 @@ Tonic 的 AI 团队刚发了一篇论文：大约一年前，有人拿一个开�
 - **合成数据做强化学习是可行的**：有白皮书和实验支撑，合成数据生成的环境能让模型学到跟真实数据一样好甚至更好的表现。
 - **重新评估「微调 vs 直接用基础模型」的账**：推理成本趋势、开源模型的追赶速度、以及特定领域基础模型的不达标，都在把企业推回「自己训练」这条路。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我们实际上有白皮书，我们的数据在做模型的强化学习方面与真实数据一样好。</span>  
 > *And we actually have white papers where our data does as well at doing reinforcement learning on models as real data.*  

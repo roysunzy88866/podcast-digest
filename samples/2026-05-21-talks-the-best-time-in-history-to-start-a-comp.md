@@ -86,7 +86,7 @@ Amjad 也补充道，LLM 就像计算能力一样，正在变成一种极其底�
 
 第二，别被「大模型实验室将通吃一切」的焦虑吓退，就像食物虽然是必需品但农民拿不走全行业利润一样，AI 会变成底层的通用基础设施，真正稀缺且能捕获价值的，永远是具体的场景应用、网络效应和人类对文化趋势的敏锐嗅觉。第三，写代码的边际成本确实在逼近于零，传统的技术壁垒在被快速抹平，这意味着未来的创业机会不再是死磕高深技术，而是去寻找那些在年轻人中流行但地位低、尚未被软件改造的传统角落，放手去给这些长尾需求做好用的界面和垂直体验，这才是接下来一代人最稳妥的押注。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">它是早期 AI 公司的例子之一，在几个月内从零做到了大约 1000 万美元的 ARR。</span>  
 > *It was one of the early example of AI companies that went from zero to like 10 million ARR in like a few months.*  

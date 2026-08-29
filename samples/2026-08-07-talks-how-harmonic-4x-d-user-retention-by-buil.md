@@ -83,7 +83,7 @@ Deep Agents 的核心优势就是管理上下文：当消息列表变长时它�
 
 > 【背景】Harmonic 是一家提供创业生态实时数据库的公司，宣称追踪了数千万家公司和数亿从业者。LangChain 是一家专注于大语言模型应用开发的公司，其开源框架被广泛用于构建智能体工作流。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">自从我们切换到 deep agents 以来，我们从第一周到第四周的留存率提高了四倍。</span>  
 > *We have four times the retention from week one to week four since we switched over to deep agents.*  

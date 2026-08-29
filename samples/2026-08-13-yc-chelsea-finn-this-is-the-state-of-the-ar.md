@@ -92,7 +92,7 @@ jsonLd: |
 - **通用模型的上下文解锁法**：训练具身大模型吃下高度混杂的数据时，子任务指令、元数据和子目标图像等详尽提示是榨取数据价值的关键。
 - **用小成本冷启动转行机器人**：买台便宜机器人，在卧室微调开源模型（如 π0），把调出来的成果作为简历去敲开公司的大门。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">最近发生的一件真正令人兴奋的事情是，一年前 Waymo 达到了每周二十五万次自主行程，这表明确实有可能开发一种基于机器学习的系统，可以直接以值得信赖和自主的方式在物理世界中运行。</span>  
 > *Now, one really exciting thing to kind of highlight that has happened recently is a year ago Waymo passed the quarter of a million weekly autonomous rides, suggesting that it is really possible to develop a machine learning based system that can operate in a trustworthy and autonomous way directly in the physical world.*  

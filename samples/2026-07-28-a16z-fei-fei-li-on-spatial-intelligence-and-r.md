@@ -88,7 +88,7 @@ Yunzhu 坦言,这需要很长时间,因为机器人最终是个系统工程,从�
 
 第四,也是最让人清醒的一点:当今 AI 最缺的是「适度乐观」,技术的进步比想象中快,但要在耗能和能效上真的追上只有 30 瓦的人脑并在现实中干活,我们还得耐心等上很久。如果你在做接近部署的机器人项目,他们现在就敞开大门等你打电话。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">下一个前沿领域是教会 AI 理解物理世界并在其中行动。</span>  
 > *The next frontier is teaching AI to understand and act within the physical world.*  

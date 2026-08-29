@@ -80,7 +80,7 @@ jsonLd: |
 
 第二,真正的杠杆不是单点自动化,而是硬件、云端和智能体拼成闭环:从能被卡车碾过的资产标签,到边缘实时提醒司机,再到云端自动调全城的跟车距离,最后由智能体把保修索赔这种原本一两个小时的人工活压到一分钟以内。第三,在物理世界部署 AI,最难的不是算法,而是信任:司机接受时刻盯着自己的摄像头,不是因为监控,而是因为这套系统 90% 的时间在帮他们证明「我做对了」,把正向行为放大,用透明换一线的买单。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我们相信我们在去年帮助防止了约 38 万起车祸、道路事故。</span>  
 > *we believe we helped prevent about 380,000 car crashes, road accidents in the last year.*  

@@ -109,7 +109,7 @@ Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工�
 
 第四,谁先把规则定下来,谁就能留住这些大机构和新技术,美国不能在关键技术领域失去一百年来的领导地位。第五,真正值得警惕的不是技术被滥用,而是用无限责任把开发者和开源生态一棍子打死——那才是对整个行业的致命一击。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">对我来说最奇怪的一点是,我和华盛顿的一些立法者有过这样的对话,他们说,我现在要支持加密货币了,因为如果它在我们试图扼杀它的整个时期都没有死,那它一定是好的。</span>  
 > *And the sort of most bizarre sort of aspect of that for me is I've had these conversations with some lawmakers in D.C. where they say, well, you know, I'm going to support crypto now because like if it didn't die during this whole period when we tried to kill it, then it must be good.*  

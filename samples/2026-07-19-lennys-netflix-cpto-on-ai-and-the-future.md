@@ -118,7 +118,7 @@ AI 一定会参与制作,但人类是骨干 <button class="pd-ts" data-t="64:09"
 2. **系统思维是 AI 时代最值得练的元能力,而且有具体练法**。不用高深理论——每接一个任务就往外退一步问一个更大的问题(这个功能背后真正的消费者问题是什么?放到更大的产品体系里还成立吗?),或者想想「如果我是经理会怎么看」,就是在练系统思维。与此同时,狭窄的纯专家在贬值,能在多方向适应的通才在升值。
 3. **「卓越即操作系统」的本质是反本能的管理克制**。Netflix 文化的底层逻辑不是一堆口号,而是几件很难做到的事:忍住不介入你不认可的下属决定、抵制出问题时就加流程的冲动、用无责复盘代替追责、用留任测试做正面反馈而非只是开除工具。在 AI 让一切加速的今天,这种对人才密度的坚持和对流程的克制,反而成了稀缺的竞争力。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">所以,可能是一个智能体编写了代码,或者我帮助进行了分析,而这并不是我的背景,但这并不意味着人们不需要对他们所创造的东西带来的责任负责。</span>  
 > *So, it can be that an agent wrote the code or I helped to do an analysis when that's not really my background, but it doesn't make people not have the responsibility that comes with what they've created.*  

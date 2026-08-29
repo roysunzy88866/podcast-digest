@@ -90,7 +90,7 @@ Zevi 的这套观察建立在他一个非常有趣的认知上：他把不同的
 
 第二，外行管内行的高级玩法不是苦学语法，而是当个会调度的包工头：让 Claude 做规划、让 Composer 闷头敲代码、让 Gemini 搞设计，再让它们互相开评审会挑刺。第三，模型会犯错不可怕，可怕的是你不让它长记性，每次搞砸了都逼它复盘并更新进文档里，它才真的能越用越顺。最后 Zevi 还提醒大家，别光感叹别人多厉害，打开电脑，开个项目，你自己也完全可以动手做事了。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">如果普通的 ChatGPT 是一个 CTO，那它会是一个顺从你最愚蠢主意的 CTO。</span>  
 > *If regular ChatGPT was a CTO, that would be the CTO who goes along with your dumbest ideas.*  

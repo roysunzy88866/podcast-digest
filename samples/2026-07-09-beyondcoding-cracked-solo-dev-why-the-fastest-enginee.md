@@ -93,7 +93,7 @@ Kitsa 的观点很直白：这个行业大多数人是"薪水过高用来瞎搞"
 - **代码工程化的目标不变：简单且易于更改**：智能体时代这个原则没有变，变的是时间线——不做好这点，重写周期从四五年缩短到六个月。
 - **核心竞争力从"写代码"变成"写规则和解除阻塞"**：能设计好循环和规则的中级工程师，产出碾压不适应变化的高级工程师。
 
-<div class="pd-sec">全部金句 <span>14 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>14 条</span></div>
 
 > <span class="qz">这不是我的代码和他们的代码之间的对抗。这是我的代码和他们的环境搭建之间的对抗。</span>  
 > *It's not my coding versus their coding. It's my coding versus their setups.*  

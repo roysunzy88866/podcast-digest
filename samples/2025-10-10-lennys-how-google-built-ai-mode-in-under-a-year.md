@@ -166,7 +166,7 @@ AI 也没有取代搜索，它在扩张搜索 <button class="pd-ts" data-t="38:2
 - **小团队不是万能药**：当内部已经验证了"有魔力的时刻"，就该投入足够资源做出能赢的版本；太长时间保持小而凑合，产品可能死在藤上
 - **复合效应胜过一次性变革**：Google AI 的起飞不是某次重组或某个人的功劳，是每个月无情改进产品和模型、每天变好一点的复合累积，最终到达临界点
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我们看到的是这并没有改变。在很多方面，AI 并没有真正改变那些基础需求，我们发现 AI 是扩张性的，因此实际上有更多的问题被提出，现在可以用 AI 满足的好奇心。</span>  
 > *And what we see is that it's not changing. AI hasn't really changed those foundational needs in many ways, and what we're finding is that AI is expansionary, and so there's actually just more and more questions being asked and curiosity that can be fulfilled now with AI.*  

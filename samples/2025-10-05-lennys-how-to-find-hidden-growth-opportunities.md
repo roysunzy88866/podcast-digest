@@ -121,7 +121,7 @@ Albert 反复看到，表现最好的人不一定是那个领域经验最深的�
 - **实验数量目标的价值不在数字本身**：设一个"1000 个实验/年"的北极星，真正有用的是它引发的对话——哪些职能可以参与、哪些屏幕需要无代码化、可观测性够不够。
 - **招人优先看主观能动性和时钟速度**：在 AI 时代，"深经验"可能是拐杖，初学者思维加上快速行动力才是你想要的。
 
-<div class="pd-sec">全部金句 <span>13 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
 > <span class="qz">我看到一些表现最好的人只是那些具有很高主观能动性、具有那个时钟速度、有那种精力的人，但他们不一定需要在这个主题上有深厚的经验。</span>  
 > *I saw some of the highest performers just being people that had very high agency, had that clock speed, had that energy, but they didn't necessarily need to have deep experience on that matter.*  

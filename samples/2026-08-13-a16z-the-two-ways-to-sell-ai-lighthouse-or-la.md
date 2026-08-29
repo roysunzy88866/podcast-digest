@@ -86,7 +86,7 @@ Andy 强调必须展现纪律：设定明确的结束日期（如 45 天试用�
 - **早期团队招销售运营要趁早**：哪怕只招一个人，让他专门盯区域划分、佣金规则等制度建设，避免规模化时踩刹车。
 - **100% 达标率哲学**：早期销售靠势头，别把配额定得只有 40%-50% 的人能完成。配额合理、能招来赢家并给他们赢的机会，比压榨短期销售成本更重要。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">战略很重要，但你应该花大概 1% 的时间在战略上，选定它，然后花 99% 的时间去执行。</span>  
 > *The strategy is important, but you should spend like 1% of your time on the strategy, pick it, and then spend 99% of your time trying to execute.*  

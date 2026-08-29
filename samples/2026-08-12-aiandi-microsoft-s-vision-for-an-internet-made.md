@@ -86,7 +86,7 @@ Kevin 直言这是一种错误的二分法 <button class="pd-ts" data-t="12:50" 
 - **对新工具保持开放**：不要因为傲慢或偏见拒绝新工具，早拥抱像 3D 打印、AI 辅助编程这类变革性技术，能极大提升产出。
 - **别拿成本当观望借口**：技术的性价比每年都在跃升，现在以「太贵、不够完美」为由拒绝入局，一年后将被彻底甩开。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">你知道，有个叫 Conway 的人说过，编译器中的阶段或处理步骤的数量将由你参与编译器工作的团队数量来决定。</span>  
 > *you know, this guy Conway said that the number of stages or passes in your compiler is going to be dictated by the number of teams you have working on the compiler.*  

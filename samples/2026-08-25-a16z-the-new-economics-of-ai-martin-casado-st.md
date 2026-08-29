@@ -99,7 +99,7 @@ AI 最近在数学上的进展引发了很多兴奋，但最有意思的现象�
 - **巨头的真正弱点是内部资源配给和文化惯性**：大公司内部在配给 token，内部产品"AI 饥饿"而竞争对手不受限；文化上他们只盯着其他巨头，不看创业公司。
 - **缩放定律持续成立这件事本身才是最大的变量**：不是技术架构的突变，而是"能一直往里砸钱且持续见效"这个事实，让以前不可解的问题变成了资本问题。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">我们已经在某种程度上将这个行业从一个工程受限的问题转变为一个资本问题，这在根本上是截然不同的。</span>  
 > *We've kind of moved the industry from like this engineering bound problem to a capital problem that's fundamentally very different.*  

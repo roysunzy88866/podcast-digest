@@ -90,7 +90,7 @@ a16z 跟这类人建立关系的方式很具体：帮他们重新激活人脉（
 - **来硅谷至少三到六个月**：几周只会经历社交挫折；三到六个月才能建立真连接、校准速度认知，即使回国也不亏。
 - **连续创始人是隐藏金矿**：第一波做到中等规模没走完的人，带着全部教训和人脉回来，帮他们接上最新的 AI 人才流，他们能跑得比第一次凶得多。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我从未遇到过来到硅谷后会说这真是浪费时间的人。</span>  
 > *I never met somebody that came to Silicon Valley and was like, this was such a waste of time.*  

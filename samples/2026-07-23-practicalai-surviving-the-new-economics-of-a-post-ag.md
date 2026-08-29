@@ -90,7 +90,7 @@ Chris 指出争论的核心：意识从来没有一个被广泛接受的统一�
 - **给个人的建议**：别守住旧角色，在“结果层面”思考——要什么结果、必要的人工输入是什么、智能体能承担什么。
 - **保持节奏感**：从“智能体工程”到“循环工程”只隔了几个月，今年年底前这个词本身可能就过时了。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">我知道这听起来非常不祥，但我认为那里的关键点，与其只是害怕它，真的是变化的速度现在正在指数级加速。</span>  
 > *I know it sounds very ominous, but I think the key point there, rather than just being frightened of it, is really that the rate of change is accelerating exponentially right now.*  

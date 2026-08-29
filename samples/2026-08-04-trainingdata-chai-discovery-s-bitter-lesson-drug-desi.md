@@ -87,7 +87,7 @@ Chai 不自己研发药物,而是把模型作为基础设施,卖给礼来、诺�
 
 第二,在 AI 面前,复杂往往是捷径的敌人——与其给模型堆上几十个为打补丁而生的子模块,不如相信扩展定律和算力,逼自己回到简单。第三,评判一项生物技术到底行不行,最狠的标准是看它敢不敢直接卖给出钱最苛刻的制药巨头,而不是躲在自己的小实验室里孤芳自赏。十年之后,当药物能像写代码一样被精准设计时,人类能攻克的也许就不再只是常见病,还有那些过去因为太罕见或太昂贵而无人问津的绝症。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">人们把生物学视为一个定制问题或定制领域,但实际上它就像自动驾驶、LLM 的相同原理,它们都适用。</span>  
 > *people kind of treat biology as this like bespoke problem or like bespoke field, but really it's like the same principles as like self-driving, LLMs, they all apply.*  

@@ -100,7 +100,7 @@ Oji 团队已把这套技能包开源。在 ProductMind.com 上,你可以不用�
 
 第二,Oji Udezue 用一套开源的 Claude Code 技能证明了,你不必只会让 AI 写代码——你可以让它在写代码前先用一套框架替你做市场调研、用可行性闸门拦下不该做的烂点子。第三,真正强大的做法是把商业、产品和代码三层的技能全塞进一个共享的 GitHub 仓库里,让产品经理、设计师、开发者全在同一个上下文里干活,省掉跨工具交付的损耗。第四,落地这种工作方式时,最大的坑是让团队随意 fork 技能和配置;你得保持共享上下文,一个人学到的经验要汇总到中央文件里,让全组织一起变聪明。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">单一技能专业人员的时代已经结束了。</span>  
 > *The era of mono skilled professionals is dead.*  

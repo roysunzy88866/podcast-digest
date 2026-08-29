@@ -106,7 +106,7 @@ Paul 概括:美国历史上最大的泡沫都跟「技术、地产、宽松信�
 - **泡沫四要素史无前例地同时叠加**:技术、地产、宽松信贷、政府政策,再加中美博弈,每个参与者都觉得能用自己那套逻辑自洽。
 - **Paul 自己的操作**:VC 端避开 AI 赛道(结构上对投资人极不友好);个人端两年多没往宽基指数被动基金里投新钱,因为被动持有也意味着被迫超配这一资产。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">截至 2026 年第二季度,现在数据中心资金中超过 50% 是外部融资,这显然是资产负债表外和自有现金流之外的术语。</span>  
 > *As of the second quarter of 2026, This is now more than 50% of the funding for data centers is external financing, which is obviously the term of art for off-balance sheet and out of your own cash flows.*  

@@ -115,7 +115,7 @@ Ed 预计 2027 年左右事情会失速 [130:25 Unknown]。OpenAI 原本计划�
 - **警惕循环融资叙事**：NVIDIA → 云厂商 → OpenAI/Anthropic → 云厂商，这个循环里每一环都在拿"对方在花钱"当证据说"需求存在"，但钱在圈内转，没有外部真金白银进来。
 - **什么时候会破**：看 OpenAI 能不能上市——上不了市就融不到足够的新钱，连锁反应从那里开始。
 
-<div class="pd-sec">全部金句 <span>16 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>16 条</span></div>
 
 > <span class="qz">我认为生成式 AI 在本质上是一个骗局。</span>  
 > *I think generative AI is at its heart con.*  

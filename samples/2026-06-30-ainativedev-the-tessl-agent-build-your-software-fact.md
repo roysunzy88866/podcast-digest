@@ -92,7 +92,7 @@ Simon 和 Andrew 最后聊了一个产品层面的观察：智能体时代，"�
 - **技能资产要可携带**：你精心调出来的审查规则、风格指南应该存为仓库里的文件，不锁在某个工具里，换"大脑"时直接带走。
 - **入门动作**：下载 TESL CLI，输入 `tesl agent`，让它"设置代码审查"或"看看有什么可以委派给 AI"——它会扫描你的日志和 PR 自动开始。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">在某个时刻你可能会说，哇，我们 40-50% 的 PR 甚至没有一个人在看它。</span>  
 > *And at some point you might say, like, wow, 40-50% of our PRs don't even have a human looking at it.*  

@@ -101,7 +101,7 @@ Peter 他们扫了全部 67,000 个技能,写了论文证明实际恶意率只�
 - **乐趣是最高效的生产力**:当你为了好玩去构建时,产品进步最快;一旦变成纯责任的苦差事,产出质量直线下降。
 - **做产品先找自己和朋友**:第一号用户必须是你自己,第 2 到 20 号用户找朋友;如果连你自己都对它兴奋不起来,这产品就做不下去。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">你构建的任何东西都可以被复刻或克隆,但你的名字不能。</span>  
 > *Everything you can build can be forked or cloned, but your name cannot.*  

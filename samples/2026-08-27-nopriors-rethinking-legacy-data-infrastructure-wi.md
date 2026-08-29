@@ -92,7 +92,7 @@ Eon 的做法是：先帮数据团队在不碰生产环境、不影响安全和�
 - **旧数据栈不够用了**：ETL 管道和 BI 仪表板是给人提预定义问题设计的，智能体需要动态访问多源数据、带上下文推理，需要新的数据基础层。
 - **token 不再是"越多越好"**：越来越贵，企业需要为每个 token 精打细算，确保花出去有实际价值。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">你知道，就在两天前，你看到 Google 从破产的 Spirit Airlines 那里买了一些东西。他们没有买飞机。他们买了数据。</span>  
 > *You know, just two days ago, you saw Google buy something from the bankrupt Spirit Airlines. They didn't buy airplanes. They bought the data.*  

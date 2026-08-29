@@ -127,7 +127,7 @@ Dan 的比喻是柏拉图反对写作——写作确实损害了记忆力，但�
 - **多智能体搭配**：不同智能体有不同"品味"和风格，针对不同任务选不同智能体，而不是找一个"全能"的。
 - **入门级不是消失了，是加速了**：用 AI 的新人如果懂得把每次反馈录进提示词、不犯两次同样的错，成长速度可以数倍于前 AI 时代。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">我认为 AI 可能是推动美国就业回流的最大力量之一。</span>  
 > *I think that AI may be one of the biggest force for reshoring American jobs.*  

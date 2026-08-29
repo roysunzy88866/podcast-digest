@@ -86,7 +86,7 @@ Meng To 一针见血地澄清：被裁的是非技术型产品经理，而技术
 
 第二，启动任何新项目时，坚决使用规划模式，用提问和截图来精准引导 AI，你可以随时在手机上指挥电脑里成百上千个智能体同时开工，这才是真正的工作流 10 倍速。第三，无论你是产品经理还是创始人，真正的护城河不是写代码或搞办公室政治，而是你懂行懂到能驾驭 AI，运用你那最后百分之八的人类品味去把控质量，把基线推到五星甚至十一星——这就是在 AI 时代创办自己公司的终极公式。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我认为那些困在 ChatGPT 中的人还没有意识到，如果你在 Codex 中使用它，它可以连接到你所有的现有应用程序</span>  
 > *i think that people who are stuck in chat gpt haven't realized that this can connect to all of your existing apps if you're using it in codex*  

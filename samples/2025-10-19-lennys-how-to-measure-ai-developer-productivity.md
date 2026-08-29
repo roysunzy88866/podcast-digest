@@ -120,7 +120,7 @@ Nicole 观察到,AI 改变了写代码的本质,让它变成了一项「充满�
 - **先倾听,别先造工具**:遇到老大难问题(如漫长审批),有时换掉纸质人工流程发封邮件就解决了,不必重构系统。
 - **高级 AI 工作流先规划再并行**:向智能体下达指令前,系统性规划整体架构、技术栈、组件协作和 API 规范,产物会远比凭感觉写(vibe coding)的更接近生产级代码。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我会说大多数生产力指标都是一个谎言。</span>  
 > *I'll say most productivity metrics are a lie.*  

@@ -117,7 +117,7 @@ Mikhail 的判断是产品管理不会消失，反而会蓬勃——因为 AI �
 - **用 Hermes 的自动技能生成**：让系统自己观察高频任务并建技能，实测召回率+31%
 - **招 PM 时加一道 AI 技艺筛**：问"你自动化了哪些日常工作"，区分"聊天式使用"和"编排式使用"
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">智能体实际上正在构建我们的大部分功能。</span>  
 > *Agents are actually building most of our features.*  

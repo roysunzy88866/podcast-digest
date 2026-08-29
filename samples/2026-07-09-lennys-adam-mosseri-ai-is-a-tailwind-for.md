@@ -110,7 +110,7 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 
 第四,在合成内容泛滥的未来,人们会更拼命地寻找真实的人和独特的创意,所以平台要把重点放在赋能个体创作者上,而不是去封杀某个工具。第五,面对所有的争议与变革,别假装事情很简单,几乎所有的选择都带着代价,但与其守着旧规矩挨夸奖,不如推着自己往前走、挨点骂,这才是一个掌舵人该干的事。
 
-<div class="pd-sec">全部金句 <span>14 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>14 条</span></div>
 
 > <span class="qz">不,我认为在一个更容易构建事物的世界里,品味非常重要,确保你的时间花在首先弄清楚你应该构建什么上变得更加重要。</span>  
 > *no i think taste matters a ton in a world where it's easier to build things it's more important to make sure that your time is spent figuring out what you should be building in the first place*  

@@ -82,7 +82,7 @@ Alex 给出了实战结论:对于深度研究这类任务,他们发现让最聪�
 
 第二,别被理论上百万的上下文窗口忽悠了,模型超载会变蠢,多模型协同的生死线就在于精细的上下文管理——压缩、只给关键信息、利用廉价的缓存 token 互换主次角色。第三,路由器本身正在从一个默默无闻的底层管道,变成智能体时代的刚需产品,未来的终极形态,不仅是靠外部规则硬性调度,而是要用强化学习专门训练模型学会怎么把活儿派给最合适的另一个模型。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我认为实际上这是一种非常反直觉的动态,更智能的模型实际上在委派工作方面变得越来越擅长。</span>  
 > *I think actually there's this really unintuitive dynamic where smarter models actually get better and better at delegating work.*  

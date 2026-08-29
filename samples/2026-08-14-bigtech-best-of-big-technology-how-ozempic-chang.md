@@ -114,7 +114,7 @@ Johan Hari 的判断是：这些药物是「一扇危险的、生锈的活板门
 - **经济冲击是全方位的**：食品、航空燃油、零售都会受影响；食品行业已在隐秘资助反对运动；专利过期后如果价格降到每天一美元，超过半数人口可能服用
 - **儿童问题指向真正的解**：日本证明通过政府政策可以消除儿童肥胖，孩子不该被迫在「肥胖」和「吃 80 年未知长期影响的药」之间选择
 
-<div class="pd-sec">全部金句 <span>15 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>15 条</span></div>
 
 > <span class="qz">人类历史上第一次，几乎有一半人想服用一种药物来阻止自己进食，对吗？</span>  
 > *The first time in human history that almost half of us would want to take a drug in order to stop ourselves from eating, right?*  

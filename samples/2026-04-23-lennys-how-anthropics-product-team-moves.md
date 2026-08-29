@@ -64,7 +64,7 @@ Kat 分享了一个自己用 Co-Work 的真实案例:她要为即将到来的 Co
 ## 本集带走
 最后收个尾,这一集值得带走的是三句话。第一,AI 时代的 PM 别再死磕长周期路线图了,最核心的任务是把产品从点子到用户手里的时间缩到最短,你的价值在于能拍板决定到底做什么——也就是产品品味。第二,面对强大的新模型,第一反应应该是做减法,删掉那些为了弥补旧模型短板而硬加的补丁,同时大胆去试那些以前精度不够做不了的梦,新模型随时可能帮你补上最后的短板。第三,真正的杠杆不是玩几个花哨的 demo,而是把你工作里那些最枯燥的重复活儿(做幻灯片、分类邮件)交给智能体,死磕到 100% 可靠,然后把省下来的精力投入到真正有创造力的事情上。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">随着编写代码的成本变低得多,变得更有价值的是决定写什么。</span>  
 > *As code becomes much cheaper to write, the thing that becomes more valuable is deciding what to write.*  

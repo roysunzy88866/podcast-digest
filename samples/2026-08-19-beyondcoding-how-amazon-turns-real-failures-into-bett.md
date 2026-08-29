@@ -106,7 +106,7 @@ Michael 说现在瓶颈已经不在工程工时了 <button class="pd-ts" data-t=
 - **瓶颈已从工程工时转向"做对东西"**：快速发布、拿真实反馈、闭环迭代，比追求完美重要得多。
 - **留 10-20% 时间试新东西**：不要对模型能力形成固化假设，每天出新模型，你的认知可能已经落后了。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">新模型发布了，它可能并没有好两倍，但成本却是两倍。</span>  
 > *A newer model comes out and it is maybe not twice as good, but the costs are twice as much.*  

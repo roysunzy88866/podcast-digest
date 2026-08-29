@@ -150,7 +150,7 @@ Google 赢 Yahoo 是这样，Facebook 赢 MySpace 也是这样 <button class="pd
 - **AI 转型的硬约束 > 宣言**：设具体的、不可绕过的限制（如团队规模上限、不证明 AI 做不了就不批 headcount）比发备忘录有效得多。
 - **找到系统最慢的环节**：只给工程师配 AI 工具而忽略 PM 和设计，等于把瓶颈从工程转移到了产品策划，总产出不会加速。
 
-<div class="pd-sec">全部金句 <span>16 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>16 条</span></div>
 
 > <span class="qz">构建很棒的产品是必要的事情之一，但不是充分的，而真正的区别在于那些真正构建了很棒的渠道的人。</span>  
 > *building a great product is one of those things that's necessary, but not sufficient, and actually the separation is between those that build really great distribution.*  

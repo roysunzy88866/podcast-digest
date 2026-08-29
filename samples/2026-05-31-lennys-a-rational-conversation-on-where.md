@@ -97,7 +97,7 @@ Claude Code 能帮你写代码，但它没法替你决定「该写什么代码�
 
 第四，别把头埋进沙子里、站在道德高地上抗拒 AI，完全沉浸进去搞懂它、内化它，是你在这个变革期唯一能做的、也最务实的选择——正如 Benedict 反复强调的那句座右铭：「视情况而定，但大概会没事的。」
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我最具争议的观点是，我认为 AI 和互联网或移动技术一样重要，但也只和互联网或移动技术一样重要。</span>  
 > *My most controversial opinion is that I think that AI is as big a deal as the internet or mobile, and only as big a deal as the internet or mobile.*  

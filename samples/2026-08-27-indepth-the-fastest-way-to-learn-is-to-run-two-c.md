@@ -146,7 +146,7 @@ AI 带来的根本变化：代码从输入变成了输出，软件开发生命�
 - **入职要"慢才能快"**：别把新人第一天扔进大团队，花一两个月让他们以 IC 身份融入，避免"器官排斥"。
 - **IC 轨道要和管理轨道平行**：技术拐点期最懂技术的是 IC，要建无经理的智囊团让他们发声，不要让管理层压住 IC。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">内部看起来从未像从外部看起来那样干净。</span>  
 > *It's never as clean in the inside as it looks from the outside.*  

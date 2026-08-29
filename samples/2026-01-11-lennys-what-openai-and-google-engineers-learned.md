@@ -101,7 +101,7 @@ jsonLd: |
 - **CEO 必须亲自用**：不是写代码，是重建被 AI 颠覆的直觉——领导者不深入，AI 转型不可能自下而上成功
 - **四到六个月是底线**：任何人承诺"一键智能体几天见效"都是营销，企业数据混乱度决定了这个周期
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">但每次你将决策能力或自主权移交给智能体系统时，你都在某种程度上放弃了一些你的控制权。</span>  
 > *But every time you hand over decision-making capabilities or autonomy to agentic systems, you're kind of relinquishing some amount of control on your end.*  

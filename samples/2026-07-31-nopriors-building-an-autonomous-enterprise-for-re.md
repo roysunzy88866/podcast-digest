@@ -98,7 +98,7 @@ Melissa 用一个场景说明为什么这事不简单：零下 20 度，暖气�
 
 > 【背景】本集为 No Priors 播客节目，转写稿中公司名出现 Netic/Netick/NetEgg 等多种写法，统一指同一家公司 Netic;与 Melissa 对谈的主持人未在稿中具名，是一名早期投资人。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">但今天，实际上，超过 70% 的客户是 AI first。</span>  
 > *But today, actually, over 70% of our customers are AI first.*  

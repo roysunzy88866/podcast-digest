@@ -86,7 +86,7 @@ Managed Agents 解决这个问题的方法是:把每一次交互(用户消息、
 - **锁死凭证与网络**:用「保险库」让安全令牌仅在工具执行的瞬间解密,模型全程不可见;利用自托管沙箱和 MCP 隧道,把工具执行和内部服务死死锁在自己的私有网络内。
 - **用「做梦」和 outcomes 迈向自改进**:定期离线分析历史日志(做梦)以提炼洞察更新记忆;用定义好的成功标准驱动的并行评分智能体(outcomes)迫使主智能体不断重试直至真正达成目标。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">当模型演进而安全带不变时,它会拖累智能体的表现。</span>  
 > *When the model moves and the harness doesn't, it degrades the agent.*  

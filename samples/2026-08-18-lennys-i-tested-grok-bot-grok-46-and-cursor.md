@@ -76,7 +76,7 @@ Claude 没做到，Codex 也没做到 <button class="pd-ts" data-t="05:04" data-
 - **Grok 4.6 的设计输出有辨识度优势**：不是因为技术更强，而是因为它不陷入 GPT 的森林绿和 Claude 的棕橙配色套路——在自由设计场景下，"不像 AI 做的"本身就是竞争力 <button class="pd-ts" data-t="22:32" data-who="SPEAKER_00" data-en="but when given broad decisions to make its own design decisions, I like Grok 4.6. Now, I suspect that this is because I can just spot GPT and Claude Slopp a mile away." aria-label="回原文"></button>。
 - **模型评测里"人味"和"LLM 评判"可以完全相反**：同一个评测，去掉人味后 LLM 评委讨厌 Grok、偏爱 Claude——说明纯靠 LLM-as-judge 会漏掉人类真正在意的维度 <button class="pd-ts" data-t="25:08" data-who="SPEAKER_00" data-en="Now, what's really funny about this, again, this is 70% my taste, 30% the LLM as a judge. If you take my taste out of it, The LLM hates Grock and it loves Claude Opus." aria-label="回原文"></button>。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">但 Cursor 的赌注是，我们将需要一个智能体原生的 GitHub，并且 GitHub 不会足够快地到达那里。</span>  
 > *But Cursor's bet is that we are going to want a agent native GitHub and that GitHub is not going to get there fast enough.*  

@@ -110,7 +110,7 @@ ASIC 芯片在模型定制化场景下非常理想。如果你要做大量模型
 - **所有现有模型都会被[[持续学习模型|持续学习模型]]取代**：需要全新架构，不是在现有模型上打补丁。但时间线不确定，可能两三年，可能十年。
 - **信贷市场的自满是最大风险信号**：利差太窄、没人计提风险，跟 2008 年前的状态一样。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">Fireworks 赚的钱比 base 10 多得多。</span>  
 > *Fireworks is making a lot more money than base 10.*  

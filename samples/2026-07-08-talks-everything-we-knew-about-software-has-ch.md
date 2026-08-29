@@ -81,7 +81,7 @@ jsonLd: |
 ## 本集带走
 最后收个尾,这一集值得带走的是三层意思。第一,大模型已经跨过了单纯调用工具的阶段,现在它能自己理解上下文、主动派生其他模型分头干活,也就是进入了「编排时代」,别再像以前那样一步一步下指令了,放手让它自己干。第二,作为开发者,我们得放下对特定语言、终端界面、Git 旧规矩的执念,甚至要克服害怕删代码的沉没成本包袱,那些过去被我们奉为金科玉律的东西,很多只是历史惯性。第三,也是最关键的一点,在模型加持下,过去的创业公司现在只需一个 markdown 文件加定时任务就能跑起来。所以别再在狭窄的垂直领域里跟别人卷深度了,去拼广度,去敢于直面 AWS 和 Slack,如果你的想法听起来不觉得愚蠢,那只能说明它还不够大。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">模型变得更好的速度比我们要快,所以我们不一定能变好,所以相反我们必须做得更大。</span>  
 > *The models are getting better faster than we are, so we can't necessarily get better, so instead we have to go bigger.*  

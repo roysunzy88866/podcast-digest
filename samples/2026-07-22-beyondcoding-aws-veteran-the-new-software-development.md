@@ -85,7 +85,7 @@ jsonLd: |
 - **用 Slash Retro 做持续改进**：每次长会话后让智能体分析你的日志，找出可以变成确定性规则的地方——不是一次性设计完美，而是每次都在变好
 - **苏格拉底方法内嵌到流程里**：在路线图审查、设计探索、Retro 复盘三个节点都用"只提问不给答案"的方式挖漏洞，这个技巧对人和对智能体都管用
 
-<div class="pd-sec">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
 
 > <span class="qz">这次重构几乎花了我 2 亿个 token。</span>  
 > *This cost me almost 200 million tokens to refactor.*  

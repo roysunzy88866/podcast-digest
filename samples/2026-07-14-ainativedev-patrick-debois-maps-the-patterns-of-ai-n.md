@@ -118,7 +118,7 @@ Patrick 把行业实践分成五个类别，索引是手工建的(因为社交�
 - **换掉 token 指标**：改看“人类还要为智能体碰多少次”和“共享组件贡献量”，token 用量只是热情的代理指标。
 - **成本管理**：砍预算断学习；上可观测性、看遥测、组优化团队，把预算约束当优化驱动。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">就像如果我只是让它生成，那将是垃圾。如果我把我自己的上下文给它，像我的策展、我的品味、我的 harness，它就会说，嗯，不要供应商之类的东西，或者它必须有四个声音。</span>  
 > *Like if I would just have it generate, it will be rubbish. If I had like my own context to it, like my curation, my taste, my harness, it would be say, well, not vendors or kind of like things or like it has to have four voices.*  

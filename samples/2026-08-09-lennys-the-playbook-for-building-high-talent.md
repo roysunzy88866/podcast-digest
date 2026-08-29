@@ -88,7 +88,7 @@ Adam 说现在的竞争激烈程度如果是十分制，那就是十一分。一
 
 哪怕对方暂时不感兴趣，你也要持续用饭局、触点甚至是纯粹的关怀去培育关系，关怀本身就是一种别人抢不走的优势。最后，当 AI 让一切机械技能贬值时，真正在升值的是那些有系统思维和好品味的个体，而你能留住他们的方式，是把面试做成平等的协作预演，在 offer 之后依然持续经营入职体验，用极致的诚意对抗别人开出的天价。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">所以这种雇佣剩余人员的方式就是厄运漏斗的产出。</span>  
 > *So this remainder hiring is the output of the funnel of doom.*  

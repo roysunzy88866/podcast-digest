@@ -122,7 +122,7 @@ Mark 对当前分发(获取用户的渠道)的困境很清醒:AI 还不是一个
 
 在希望扼杀你之前扼杀希望,别拿 AI 去精心打磨一个错误的产品,把它当成一天测 100 个想法的失败机器。第三,别被行业里大谈的「平台更迭」骗了,我们现在依旧深陷在移动端流量的泥潭里。与其去卷空热量的社交网络,不如去挖掘那些藏在 AI 智能体里的新可能,去找到下一个能让我们再次感到肾上腺素飙升的鸡尾酒会。
 
-<div class="pd-sec">全部金句 <span>13 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
 > <span class="qz">你的直觉 95% 的时候是对的,但你的想法 75% 的时候是错的,或者充其量只有 25% 的时候是对的。</span>  
 > *Your instincts are right 95% of the time, your ideas are wrong 75% or at best right 25% of the time.*  

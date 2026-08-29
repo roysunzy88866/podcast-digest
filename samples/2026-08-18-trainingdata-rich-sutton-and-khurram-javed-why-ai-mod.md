@@ -96,7 +96,7 @@ Rich 也不否认 LLM 是重大突破，但他认为那只覆盖了智能的约�
 - **学习模型 → 用模型规划**：这是领域里几乎不存在的能力组合，AlphaGo 能规划是因为规则已知，真实世界需要智能体自己发现抽象
 - **大厂做不了是因为路径依赖**：新范式必然先变差再变好，被产品锁死的团队走不了这条路
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">你需要花哨的算法，但你想要那些将随计算扩展的花哨算法。</span>  
 > *You need fancy algorithms, but you want fancy algorithms that will scale with computation.*  

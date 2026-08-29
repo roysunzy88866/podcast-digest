@@ -111,7 +111,7 @@ Gray Swan 已经在跟这类机构合作,保险公司用 Shade 这样的工具�
 
 第二,模型变大并不会自动变安全,你必须像给网络装防火墙一样,在基础模型和外部世界之间专门加一层像 Signal 这样的定制过滤模型,把检查策略这件事外包出去,别让主模型又干活又当保安。第三,别指望一层防御解决所有问题,除了 AI 护栏,你还得老老实实做系统隔离、权限控制,甚至在未来给智能体配置不同的身份档案来区分工作和生活。最后别忘了 Zico 那个最乐观的判断:智能体不仅能写代码,还能通过自动化实验,帮我们彻底搞懂这些黑盒模型到底在想什么。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">这个问题在于前沿模型在自动化红队测试方面极其糟糕,因为它们内置了大量的保障措施。</span>  
 > *the issue with this is that frontier models are extremely bad at automated red teaming because they have a lot of safeguards built into them.*  

@@ -118,7 +118,7 @@ AI 写代码碰到错误，最常见的套路是套一层 try-catch，再套一�
 
 第三，这也是最狠的一层：我们今天用的很多语言和系统，底层早就 baked-in 了 slop，越打补丁越碎；真正想以智能体的速度发布软件，可能得有人硬着头皮去重造 Git、重造数据库、甚至重造编程语言。Vaibhav 自己就选了最难的那条路——他在做 BAML。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">为了击败劣质代码,我们必须成为劣质代码。</span>  
 > *To defeat the slop, we must become the slop.*  

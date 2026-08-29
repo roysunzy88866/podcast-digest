@@ -93,7 +93,7 @@ Edwin 觉得,大多数人根本不懂什么是[[数据质量|数据质量]]。�
 
 我们优化的是什么,我们就会得到什么,所以必须警惕那些只盯着点击和参与度的代理指标。第四,大模型并不是终点。现有的语言模型可能已经接近瓶颈,想让它们真正变聪明,必须把它们扔进复杂的强化学习虚拟环境里去试错、去完成多步骤的真实任务。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">我曾在一些大型科技公司工作,我总觉得我们可以解雇 90% 的人,我们会走得更快,因为最优秀的人不会有这些干扰。</span>  
 > *I used to work at a bunch of the big tech companies and I always felt that we could fire 90% of the people and we would move faster because the best people wouldn't have all these distractions.*  

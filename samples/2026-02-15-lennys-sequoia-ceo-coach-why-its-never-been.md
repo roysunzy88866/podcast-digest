@@ -130,7 +130,7 @@ Brian 还提到一个做 CEO 的反直觉现象：公司小的时候每个人都
 - **坏消息一次到位**：裁员、纠偏这种事，别"先来一小波、六个月再来一小波"——反复拉锯比一次性痛更伤组织。
 - **CEO 的活儿会变**：从 90% 汗水变成 90% 灵感。最难的不是做事，是学会放手、信任别人当 DRI——这本身就是扩张瓶颈。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">我认为 CEO 和每个人都大大高估了他们面试的能力，并且高估了他们的直觉，而低估了真正高质量的盲测推荐。</span>  
 > *I think CEOs and everyone dramatically overrates their ability to interview, and overrates their gut feeling, and underrates a really high quality blind reference.*  

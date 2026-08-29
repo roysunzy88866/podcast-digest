@@ -76,7 +76,7 @@ Ranjan 的判断是:SpaceX 和特斯拉本质上是「同一个赌注」——�
 
 第二,数据中心的建设本质上是一场金融工程,SPV 把债务切碎、散布到整个经济里,跟 2008 年次贷的逻辑惊人地相似;而这一切要求 OpenAI 和 Anthropic 完美执行、收入永远指数级增长,否则就会引发连锁违约。第三,如果真接近 AGI,OpenAI 和 Anthropic 逻辑上应该关掉 API、独占智能,把它变成自家的 CRM、设计或客服产品——两位主播甚至开始首次认真假设它们被大厂收购的画面。第四,SpaceX 和特斯拉是同一个赌注的两种分身,合并几乎是必然,因为它们都靠同一个机器人经济的承诺在撑着估值。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">AI 相关股票约占今年标普 500 涨幅的一半</span>  
 > *AI related stocks account for roughly half of the rise in the s p 500 this year*  

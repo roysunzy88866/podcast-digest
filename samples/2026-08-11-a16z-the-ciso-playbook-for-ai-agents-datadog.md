@@ -84,7 +84,7 @@ jsonLd: |
 
 第二,与其人海战术查代码,不如让 AI 审 AI,搞懂智能体动作背后的「意图」,卡在技能拉取和代码输出的必经之路上当法官。第三,与其恐慌模型变邪恶,不如正视 AI 带来的真正危机——当找漏洞的效率爆炸、漏洞数量翻千倍时,现有的修复框架根本接不住,这套过时的合规游戏才是最该被重构的地方。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">我从来不赞同这个想法,哦,如果我阻止这些东西,没人会使用它们。</span>  
 > *I never subscribed to the idea of, oh, if I block these things, nobody's going to use them.*  

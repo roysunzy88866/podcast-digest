@@ -85,7 +85,7 @@ Eric 的主张是：接一门脚本语言上去，做通用的 [[API|API]]。他
 - **通用 API 胜过硬编码**：核心系统做通用的、可扩展的，别把具体业务逻辑塞进底层——这个工程决策决定了平台的天花板
 - **聚焦 = 一句话人人能懂**：不是复杂的战略文档，而是公司里每个人都能复述的一句话
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">如果有人不减少官僚主义，就没有中立地带。</span>  
 > *If one is not reducing bureaucracy, there's no neutral ground.*  

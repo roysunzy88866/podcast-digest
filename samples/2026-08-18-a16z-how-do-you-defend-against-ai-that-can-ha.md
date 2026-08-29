@@ -75,7 +75,7 @@ jsonLd: |
 - **企业智能体化速度远超安全团队的审查能力**：六七千个软件片段即将变成智能体，但对它们用了什么模型、有什么护栏几乎零可见——可见性和控制权是下一步的关键。
 - **AI 同时是攻击面的创造者和防御工具的赋能者**：防御者用智能体自动化构建安全能力(如软件分类)，能以前所未有的速度和规模做以前做不到的事。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">我们在捍卫 AI，同时也在防御 AI。</span>  
 > *We're defending AI and we're also defending from AI.*  

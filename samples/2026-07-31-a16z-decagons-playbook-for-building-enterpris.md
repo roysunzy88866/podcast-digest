@@ -139,7 +139,7 @@ Decagon 能迅速拿下全球最大的几家银行、航空公司和电信公司
 
 第二,应用层公司绝非简单的套壳,真正的护城河在于把极其复杂的业务逻辑、测试和合规要求封装进产品里,这是实验室无法替代的。第三,不要被前向部署的光环骗了,贴着客户干苦力的最终目的必须是把这些经验提炼成可规模化的核心产品,否则你只是在做一家被美化的咨询公司。除了这些,还有个暖心的洞察:AI 会干掉那些机械重复的工作,但它其实是在解放人去做更有价值的事,它扼杀的是苦差事,而不是职业生涯。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">不幸的是,前沿实验室确实有小模型,但你无法真正以你想要的方式控制它们。</span>  
 > *Unfortunately, the Frontier labs, they do have small models, but you can't really control them in the way that you want.*  

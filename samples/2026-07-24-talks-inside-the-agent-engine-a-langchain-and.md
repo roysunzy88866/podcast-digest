@@ -102,7 +102,7 @@ L0 是纯手动排查；L1 是有固定操作手册，靠规则执行；L2 是 L
 
 第二，想管好超长上下文，别死磕大窗口，用文件系统存放细节，让智能体自己去精准搜索和钻取，这是目前最务实的办法。第三，如果你要自己搭智能体，千万别一上来就搞多智能体协作，先从一个简单的单智能体加技能跑通，遇到某个工具反复让模型卡死时，再把它拆成子智能体。评估也一样，专挑最难的事故排查做评估，只要在那里跑通了，能力自然会泛化到简单的日常问题上。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">对代码的理解将会变少，因为没有人再编写代码了。</span>  
 > *So much less understanding of code is going to be present because no one wrote the code anymore.*  

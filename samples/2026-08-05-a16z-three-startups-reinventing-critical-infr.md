@@ -106,7 +106,7 @@ Doug 对核能行业现状有一个非常耸人听闻、但他坚称完全真实
 
 第二,旧产业最大的护城河不是技术,而是规避风险的文化——要向僵化的采矿业卖单点软件行不通,唯一能撬动它的做法是自己端到端做一家垂直整合的新型公司,把软件和重资产捏在一起。第三,真正能改变物理世界的不是把同一个老物件做大,而是重新定义它的形态——把核反应堆缩到拖车大小、像流水线造汽车一样量产,一次只专注搞定一个能变现的奇迹。这三件事的共同底色是:在软件吃掉世界之后,最难啃也最有杠杆的硬骨头,全在物理世界里。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">这可能是一个在生物技术、长寿和其他人们想要进行实验的形式方面做一些有趣的事情的好地方,人们想要自愿接受可能的治疗或类似的东西,但这里的政府不会让他们做。</span>  
 > *It could be a great place to do some interesting things in biotech and longevity and other kind of forms of experimentation where people want to, they want to voluntarily like take maybe treatments or something like that, but the government here won't let them.*  

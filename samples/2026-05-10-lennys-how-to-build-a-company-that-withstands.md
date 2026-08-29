@@ -148,7 +148,7 @@ Eric 给了很少的建议,但他们真把方案写进了章程:从一开始就�
 
 第二,有解,而且解法有上百年验证:1920 年丹麦那家胰岛素公司如今变成了 [[Novo Nordisk|Novo Nordisk]](世界最大药企之一),Cloudflare 靠免费送 SSL 成了 700 亿美元公司,Anthropic 靠长期利益信托扛住了 2 亿美元的合同——共同点是他们都用了某种「精神控股公司」结构,让使命本身拥有主权。第三,作为创始人,你下周就能做的三件具体事:注册成公益公司、跟联合创始人做一次「能不能靠背叛使命赚钱」的对抗性提示测试、让所有董事签一份「首先不伤害」的誓言。Eric 反复强调:这一步没有任何权衡、没有任何权衡、没有任何权衡——你唯一会失去的,是那种「随时可能被一份标准章程绑住双手、眼睁睁看着公司被拆分出售」的命运。
 
-<div class="pd-sec">全部金句 <span>14 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>14 条</span></div>
 
 > <span class="qz">它们的成功本身变成了负债,因为金鹅越金贵,杀鹅的诱惑就越大。</span>  
 > *Their very success became a liability because the more golden the goose, the greater the temptation to butcher.*  

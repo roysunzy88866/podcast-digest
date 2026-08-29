@@ -107,7 +107,7 @@ Ryan Dahl 说"人类写代码的时代结束了"，Addy 不否认写语法这件
 - **连接多维信号做优先级**：不要只靠单一反馈源，把遥测数据、用户报告、流量分析接在一起，让系统综合判断该修什么。
 - **职业建议——跨界**：不要只做工程师，去培养产品感、UX 感、布道能力，角色边界正在模糊。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">我想说有时，我不知道这是否有争议，很少有开发者理解内存管理。</span>  
 > *I would say sometimes, I don't know if it's controversial, that very few developers understand memory management.*  

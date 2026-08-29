@@ -89,7 +89,7 @@ Lenny 意外成为头部创作者，靠的是他兜兜转转后抓住了那个�
 
 无论是面对每周一更的跑步机、网络诈骗团伙的围攻，还是手术室里命悬一线的绝望，决定我们会不会崩溃的，往往是那个最底层的思维习惯——乐观地相信一切还可以往好的方向走。第三，创作的终极秘诀没有捷径，就是不停地迭代，并且从真实的切肤体验中长出最简单的表达。无论是做了 60 次修改的通讯文章，还是被反复推敲的童书，真正打动人的，永远是那份经过时间打磨的真实。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">麻醉师说这是五万分之一的概率，那是非常罕见且非常危险的最坏情况。</span>  
 > *The anesthesiologist said it was a one in 50,000 chance, and it's the worst scenario that is very rare and very dangerous.*  

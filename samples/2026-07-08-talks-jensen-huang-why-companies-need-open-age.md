@@ -100,7 +100,7 @@ AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立�
 
 第二,企业不该把核心智能外包,像 LangChain 框架这样的 harness,就是未来公司的操作系统,需要用开放工具把前沿大模型和私有数据拼成自己的超级智能体,再通过[[后训练|后训练]]不断迭代。第三,智能体不是人,它是没有意识的工具,关键在于你要像招新员工一样给它建权限、给上下文、设护栏;拥抱它不但不会让人失业,反而会催生更多构建智能体的系统工程师岗位。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">在未来,大多数公司将建立在驾驭机制之上。</span>  
 > *In the future, most companies will be built on harnesses.*  

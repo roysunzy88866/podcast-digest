@@ -102,7 +102,7 @@ Anish 对「模型商品化」的判断是明确的否定。他给自己定的�
 - **找循环，而不是找功能**：把「模型+工具+记忆」的循环套到价格优化、采购乃至跨部门的业务变更上，就是企业自动化的路径。
 - **消费级产品的定价练习**：如果 20 美元是旧上限，设计出 200 美元/月、甚至 2000 美元/月的档位——奢侈软件的机会已经到了。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">我实际上认为那个较少讨论的分布外话题是，如果我们不够乐观会怎样？</span>  
 > *I think actually the out of distribution topic that's less discussed is what if we're insufficiently optimistic?*  

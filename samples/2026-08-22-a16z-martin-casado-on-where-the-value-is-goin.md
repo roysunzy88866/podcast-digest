@@ -77,7 +77,7 @@ Martin 反复强调一个观点：如果你只看资产负债表——利润率�
 - **早期 AI 公司看战略控制点，不看利润表**：关键是它在新堆栈里是不是不可绕过的节点，而不是现在赚不赚钱。
 - **产品公司稀缺且值钱**：AI 领域大多数人做研究或服务，专注产品本身就是区分点。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">我不知道你是否能在那之后拿回 9 美元，但在本行业的历史上我们从未能做到的是投入 10 美元并能拿回任何东西。</span>  
 > *I don't know if you get $9 back on the other side of that, but what we've never been able to do in the history of this industry is put in $10 and get anything back.*  

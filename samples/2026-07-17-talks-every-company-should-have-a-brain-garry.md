@@ -95,7 +95,7 @@ Garry 自己的「公司大脑」(他称之为 [[Gbrain|Gbrain]],一个开源的
 
 第二,人类的工作记忆只有七位数,而智能体能装下三本书,但你的公司是一座图书馆,决定智能体水平的关键是谁来担任图书管理员,精心维护事实的来源和新旧更替。第三,每次让 AI 完成一项满意的工作后,永远记住把它技能化(Skillify),绝不重复做一次性工作。如果你 25 岁,他给的最大机会就是去建造那个记忆层——每一家公司都将需要的大脑。
 
-<div class="pd-sec">全部金句 <span>14 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>14 条</span></div>
 
 > <span class="qz">我们正在尝试建立这样的公司，一个人做过去需要 1000 人才能做的事情。</span>  
 > *We're trying to build companies where one person does what it took to, one person does what used to take 1,000 people.*  

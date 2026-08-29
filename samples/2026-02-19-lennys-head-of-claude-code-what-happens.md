@@ -131,7 +131,7 @@ Cowork 也一样，所以叫"研究预览版"——必须尽早放到真实世�
 - **观察模型想做什么**：别把模型关进盒子里当组件用，最小化脚手架，让模型本身成为产品。
 - **给团队充足 token 再说**：小规模实验成本很低，等想法验证了再优化成本，别过早削预算。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">最大的原因是模型改进得太快了，我们觉得真的没有其他形态能跟得上它。</span>  
 > *The biggest reason was the model is improving so quickly, we felt that there wasn't really another form factor that could keep up with it.*  

@@ -115,7 +115,7 @@ Chamath 自己是拿 H-1B 签证（特殊专业人员临时工作签证）来的
 
 第二，AI 市场的未来绝不是少数寡头的天下，闭源大厂超额获利必然引来竞争，未来将是美国闭源、中国开源、美国本土开源以及追求去中心化的「叛军同盟」四分天下的格局。第三，美国的创新土壤正在被僵化的系统卡住，无论是被滥用的 H-1B 签证，还是被四家大行垄断的 IPO 市场，都在加剧财富的不平等；我们要重建信任，打破门阀，让普通人也能尽早分享到伟大公司的成长红利。
 
-<div class="pd-sec">全部金句 <span>13 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
 > <span class="qz">我认为我接下来要说的是真的，即它是我们一生中最重要的经济平衡器。</span>  
 > *I think it's true what I'm about to say, which is it's the most important economic leveler of our lifetime.*  

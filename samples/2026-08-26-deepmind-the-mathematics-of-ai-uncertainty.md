@@ -112,7 +112,7 @@ jsonLd: |
 - **「校准」的定义**：说 70% 下雨的日子中，真的有 70% 下雨，才算校准好；对只发生一次的事件，用概率表示不确定同样合法。
 - **算力曾否决过这条路，但值得重访**：显式贝叶斯计算曾被判为不可行，而他当年的超算已不如今天的 Pixel 手机——不能再用「太慢」一票否决新想法。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我想要我的 AI，就像我想要我的计算器非常擅长大数乘法一样，我实际上希望我们的 AI 系统比人类更理性、更善于表示和处理概率。</span>  
 > *I want my AI, just like I want my calculator to be really good at multiplying large numbers, I would actually like our AI systems to be, you know, more rational, better at representing and manipulating probabilities than humans are.*  

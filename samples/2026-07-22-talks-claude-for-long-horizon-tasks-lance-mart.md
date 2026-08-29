@@ -74,7 +74,7 @@ jsonLd: |
 
 第二,别让模型自己给自己打分,把验证器单独拎出来,让构建和验证形成一个循环,这是实现自主长跑的通用原语。第三,模型的记忆系统也分两半:边干边记的带内机制负责捕捉信息,但难免会写错或者只顾眼前;离线的做梦机制则负责审视全局、修正错误。第四,未来的智能体不再是单打独斗,而是带有独立身份的组织级驾驭系统,新人第一天就能用上全套工具,它甚至能主动巡视全局、给你未问先答的提醒。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">但是当模型只能做大约一小时的工作时，异步作为一种体验是很糟糕的。</span>  
 > *But when models can only do like an hour of work, async as an experience is kind of bad.*  

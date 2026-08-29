@@ -110,7 +110,7 @@ Nikhyl 说，从恐惧跨越到快乐之后，这种快乐就是职业倦怠最�
 
 第二，转型最难跨越的不是技术，而是心理门槛——那些在旧体系里最成功的人反而最难转身，因为他们缺乏改变的动力；但你必须逼自己跨过去，去找到那个用 AI 亲手做出一个小工具、感到纯粹快乐的瞬间，那是打破恐惧和倦怠的唯一解药。第三，别怕把自己从日常工作里淘汰掉，用智能体把你现在重复做的琐事全部自动化，你只需要对什么是好结果保持主见，把省下来的精力全部投入到真正需要人的判断力和对齐沟通上。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">总的来说，这个职能已经变得极其专注于没有权力的责任。</span>  
 > *Generally, the function had become extremely focused on responsibility without authority.*  

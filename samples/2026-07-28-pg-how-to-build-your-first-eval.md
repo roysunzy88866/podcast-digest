@@ -134,7 +134,7 @@ Daniel 自己则更偏爱那种由高信念创始人领导的公司。在节目�
 
 当你知道模型在哪些场景下只能拿 50 分时,你要通过设置护栏来规避它的短板,只发布它最擅长的部分,把难题再丢给研发。这就是今天每一个 AI 产品经理必须掌握的新工作法门。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">如果你创建一个非常难的评估,得分 0%,你甚至也不知道这是否在当今技术下是可能的。</span>  
 > *If you create a very hard eval that scores 0%, you also don't even know if this is kind of possible with today's technologies.*  

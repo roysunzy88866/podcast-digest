@@ -122,7 +122,7 @@ Jason 问了一个所有投资人都在想的问题：脚下地板会不会塌�
 - **Token 成瘾遇到 CFO 的硬约束**：智能要像资本一样被分配，花更多在自动化上就必须在别处省，否则 EPS 下降华尔街不答应
 - **周期不到三分之一**：供给侧不会退缩，停止信号只可能来自需求端——企业能不能花出那个量级的钱
 
-<div class="pd-sec">全部金句 <span>15 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>15 条</span></div>
 
 > <span class="qz">让我告诉你一件事，我保证。如果你在风险投资中的失败案例上获得了15倍回报，你会死的时候是个富翁。</span>  
 > *Let me tell you one thing I guarantee. If you get 15x on your failures in venture, you'll die a rich man.*  

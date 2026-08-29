@@ -101,7 +101,7 @@ YC 的设计负责人甚至用它给被录取的创业者做了带名字动画�
 
 因为设计的核心从来不是画那几个像素,而是在组织内部做决策、定义产品价值。与其追求让 AI 全自动写代码,不如把人省下来去做这些真正需要品味和判断的事,让精英小队配上 AI 的速度,去打磨真正卓越的产品。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">结果证明,如果你为人类构建了很棒的交接,你同时也为智能体构建了很棒的交接,因为智能体理解 HTML 和 CSS,而且这些在它们的训练数据中。</span>  
 > *It turns out if you build a great handoff for humans, you've also built a great handoff for agents because agents understand HTML and CSS and it's in their training data.*  

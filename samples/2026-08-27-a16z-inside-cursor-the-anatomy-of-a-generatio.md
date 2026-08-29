@@ -98,7 +98,7 @@ Cursor 的产品经历了剧烈的演变：先做 IDE 编辑器，然后转向�
 - **快速自我颠覆**：从 IDE 到智能体平台到模型平台，两年内主动蚕食自己的核心产品，这需要极强的纪律性。
 - **决断力是隐藏优势**：对不合适的人快速切割，对不符合品味的营销方案坚决说不——一旦决定就贯彻到底。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">两年前，押注一家独立的 AI 编码公司看起来几乎是不理性的。</span>  
 > *Two years ago, betting on an independent AI coding company looked almost irrational.*  

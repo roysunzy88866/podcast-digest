@@ -133,7 +133,7 @@ Sam 出名地讨厌 Calendly，甚至为此发过一通长文，结果反而帮�
 - **邮件收件人顺序有含义**：最重要的人放最前面，抄送列表里排第五的不该第一个回复。
 - **礼仪不应该被记住**：如果别人事后想起的是你的餐巾位置、你的小费金额、你的表情符号，那礼仪就没起到作用。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">礼仪是一项关于如何以低心率出现在一个房间里的技能。</span>  
 > *Etiquette is a skill for how to show up in a room with a low heart rate.*  

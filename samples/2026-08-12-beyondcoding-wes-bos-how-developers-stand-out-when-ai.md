@@ -115,7 +115,7 @@ Wes 的判断是——有时候行，有时候不行。你确实能看到大量�
 - **newsletter 仍值得做**：算法平台之外最后一种直接触达；但 AI 邮件泛滥正在毁掉邮件本身。
 - **线下会议的核心是走廊对话**：跟参会者聊他们在做什么，价值不亚于演讲本身。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">代码不再能代表你的能力了。</span>  
 > *The code doesn't speak for your ability anymore.*  

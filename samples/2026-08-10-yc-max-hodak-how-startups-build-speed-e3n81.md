@@ -151,7 +151,7 @@ Max 坦言生物技术极难,是长达十年的不可逆承诺,而且极其烧�
 
 再往下延伸一层,Max 还给了创始人一个非常扎心的提醒:别指望能把自己的判断外包出去。在几个亿美元押注的关键节点上,根本没人能给你答案,你必须有能力在绝对孤独的情况下押注并承担后果。最后跳出商业运营的视角,Max 对脑机接口的定位也非常反直觉——他根本不关心用脑机接口去对抗 AI 的近未来,他真正看重的是把它作为一种延长寿命、修复残缺的激进医疗力量。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">如果你能每周学到一件事,而有一个竞争对手每月才学到一件事,他们就永远无关紧要了。</span>  
 > *if you can learn one thing every week and there's a competitor that's learning a thing every month, they will never matter.*  

@@ -117,7 +117,7 @@ Dylan 自己是怎么用 AI 的?除了常用来在找律师前做一些基础的
 - **锻炼品味的闭环**:遇到任何体验,强迫自己判断好坏并追问背后的历史脉络。建立跨学科的交叉联想是关键。
 - **高级 AI 提示词**:不要让 AI 凭空生成,而是让它基于你列出的多维特征进行排列组合,快速遍历各种可能性。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">如果你想要在软件游戏中获胜，你需要通过设计来差异化。</span>  
 > *If you want to win in the game of software, you need to differentiate through design.*  

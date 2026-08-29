@@ -120,7 +120,7 @@ Figure 最近收购了 [[Kiavi|Kiavi]]——投资人贷款（「修了卖」类
 - **让早期高管自掏腰包投资**（创始人可匹配股权），用真金白银防止人「说走就走」。
 - **上市时机是硬约束**：材料常备，窗口一开就冲；上市后人人都有权评论你，包括做空报告——想清楚再选。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">但很多时候，董事会成员如果名声显赫，他们会保护自己。</span>  
 > *But a lot of times, board members, if they have these big reputations, they're going to protect themselves.*  

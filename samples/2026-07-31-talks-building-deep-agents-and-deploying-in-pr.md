@@ -88,7 +88,7 @@ jsonLd: |
 
 第二,文件系统是目前管理上下文的最先进手段,因为模型在训练中已经极度熟悉它,以文件形式喂数据能直接涨表现。第三,标准基础设施扛不住复杂智能体,要在生产环境跑长线任务,必须在运行时层面死磕持久化执行(靠检查点实现断点续传)、长期记忆(提取跨会话状态)、动态权限管理(应对模糊的行为边界)以及人工在环的交互通道。无论你自己造轮子还是用打包方案,这都是绕不过去的四道坎。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">思考这个等式最简单的方法是,如果你不是那个模型,你就是那个框架。</span>  
 > *the easiest way to think about this equation is that if you're not the model, you're the harness.*  

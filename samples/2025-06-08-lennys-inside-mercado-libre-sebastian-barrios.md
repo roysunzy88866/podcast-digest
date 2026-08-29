@@ -105,7 +105,7 @@ Sebastian 不跟风，但也不是直接忽略。他 2010 年左右就买过甚�
 - **观察用户 > 问用户**：用户说的和做的经常不一样，坐在旁边看他们实际怎么操作产品，假设会被当场粉碎。
 - **对 hype 的过滤框架**：先懂技术基础原理，算关键指标（吞吐量、延迟等），再结合真实业务规模判断——好技术不需要征服世界才算成功。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">对我来说，对于 MercadoLibre，很难区分工程在哪里停止，产品从哪里开始。</span>  
 > *For me and for MercadoLibre, it's hard to separate where sort of like engineering stops and product begins.*  

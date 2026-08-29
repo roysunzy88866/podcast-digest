@@ -95,7 +95,7 @@ Rohan 曾在 Google 推动过一种名为 n-gram 内存的技术,意图用额外
 
 第二,想大幅提升计算效率,别再给「一次只吐一个词」的推理方式打补丁了,必须把预训练和强化学习结合起来端到端去优化,让算力花得更值。第三,要实现疯狂的实验迭代速度去寻找新架构,就得啃下硬骨头——用智能体攻克底层内核生成的难关,让模型自己学会为新颖的架构写出能在硬件上极速运行的代码。等哪天研究员能放心去放长假,模型还能在实验室里自己搞出新研究成果,那真正的下一代架构就算成了。
 
-<div class="pd-sec">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
 
 > <span class="qz">如果 Transformer 是有利可图的,如果你可以花费更多的努力和资源来扩大 Transformer 以在下一个季度获胜,那么很难把大量的注意力和精力投入到可能在一两年内更好或重新定义该领域的事情上。</span>  
 > *If Transformer is profitable and if you can spend more efforts and more resources scaling Transformer to win in the next quarter, it's very hard to put at least a lot of attention and a lot of energy to work on something that will maybe better or maybe will redefine the field in a year or two.*  

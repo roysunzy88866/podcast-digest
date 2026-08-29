@@ -89,7 +89,7 @@ Ryan 更直接：代码产出量和可商业化产品之间存在严重不匹配
 
 > 【背景】Devon 是 Cognition 公司开发的云端编码智能体产品，转写稿中多处拼写为 Devon，实际应为 Devin。Claude Code 是 Anthropic 的命令行编码工具。Codex 是 OpenAI 的本地编码智能体。BugBot 是一个 PR 审查工具。Opus 5 指 Claude 的 Opus 5 模型。OpenClaw/OpenClaude 是一个第三方 Claude 包装客户端。Polly 是该客户端中的某个配置或实例名。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">我认为未来几乎 100% 都是云端智能体。</span>  
 > *I think the future is pretty much 100% cloud agents.*  

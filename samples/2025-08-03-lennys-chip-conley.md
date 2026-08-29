@@ -147,7 +147,7 @@ Becca Levy 在耶鲁的研究：如果你把对衰老的心态从消极转为积
 - **焦虑资产负债表**：四列（知道/不知道/能控制/不能控制），把模糊的焦虑填进去，5分钟内降低焦虑感
 - **预期的后悔**：问自己"10年后不学不做会后悔什么？"——这是行动催化剂，尤其在中年决策时
 
-<div class="pd-sec">全部金句 <span>13 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>13 条</span></div>
 
 > <span class="qz">我必须既睿智又充满好奇，而且往往是房间里最笨的人。</span>  
 > *I had to be both wise and curious and often the dumbest person in the room.*  

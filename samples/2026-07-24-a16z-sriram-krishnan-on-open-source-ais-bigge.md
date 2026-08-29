@@ -72,7 +72,7 @@ Sriram 显得不太愿意做宏大叙事,他认为学界对此分歧很大,有�
 
 第二,别把安全当限制开源的借口——开源让全世界都能审查、反而更安全;当防御者自己用闭源模型查漏洞却被安全机制拦下,这套逻辑就该修了。第三,面对蒸馏(用大模型的回答训练小模型)的争议,与其封堵,不如立规矩——必须让美国本土的开源团队和外国竞争者在同一条起跑线上,而只要你的产品真有价值,整条供应链自然会想办法让这门生意跑通。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">你可能不需要前沿的 token。你可能能够用前沿减一,或者你选择的开源权重 token 来应付。</span>  
 > *you may not need frontier tokens. You may be able to get by with frontier minus one or your open weight token of choice.*  

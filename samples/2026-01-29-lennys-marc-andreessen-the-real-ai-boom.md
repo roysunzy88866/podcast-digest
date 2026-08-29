@@ -101,7 +101,7 @@ Claude Code 一周半开发出 Cowork——既说明 AI 编程惊人地强，也
 - **对护城河保持谦逊**：互联网前 15 年的自信预测几乎全错，AI 现在也一样——保持灵活比下死注更重要 <button class="pd-ts" data-t="69:51" data-who="Marc Andreessen" data-en="Not like, &quot;You know, I think that's a really good question and let's debate it from eight different angles.&quot; What I found is if you look back on those predictions a few years later, and you can do this by the way, if you pull up coverage of the internet from 1993 through 1997, or for that matter even through 2005 or 2010, and you look at the kinds of confidence statements people were making in the first 10 or 15 years, I would say almost all of them were wrong, generally quite badly wrong." aria-label="回原文"></button>。
 - **"人类水平"不是终点**：人类智商有生物学天花板，机器没有。AGI 的定义应该被超越，而不是被达成 <button class="pd-ts" data-t="84:24" data-who="Marc Andreessen" data-en="And the reason for that is, I don't think there's any reason to assume that human skill level is the cap on anything. Right? And so the way we say that is AGI always is the definition you gave, the definition I gave." aria-label="回原文"></button>。
 
-<div class="pd-sec">全部金句 <span>18 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>18 条</span></div>
 
 > <span class="qz">事实上，在过去 50 年里，我们一直处于一种技术变化非常缓慢的体制中，同时面对着人口增长的下降。</span>  
 > *We've actually been in a regime for 50 years of very slow technological change in the face of declining population growth.*  

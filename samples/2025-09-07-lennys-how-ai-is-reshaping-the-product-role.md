@@ -130,7 +130,7 @@ Oji的预测：未来几年，很多高主观能动性的人会编写自动化�
 - **沟通"为什么"按跨越鸿沟的节奏来**：5%的人立刻懂了，四个月后他们已经在问下一版；同时还有人刚开始理解。永远不嫌讲太多遍。
 - **观察客户做什么，别只听他们说**：AI可以帮你转录访谈，但真正的洞察来自人种学式的观察——人们说的和做的经常不一样。
 
-<div class="pd-sec">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
 
 > <span class="qz">在过去20年里，我们就工作如何完成有着非常固定的比例。PM花费这么多时间，开发人员花费这么多时间，上市花费这么多时间。我认为这种契约基本上正在爆炸，因为构建过程，封闭的求解过程，构建过程正在加速得如此之快。</span>  
 > *For the last 20 years, we've had very fixed ratios in terms of how work gets done. PM takes this amount of time, developers takes this amount of time, go-to-market takes this amount of time. And I think that contract is basically exploding because the build process, the closed solutionary process, the build process is accelerating so fast.*  

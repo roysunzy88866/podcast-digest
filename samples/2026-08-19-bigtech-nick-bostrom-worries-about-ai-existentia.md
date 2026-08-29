@@ -82,7 +82,7 @@ Bostrom 认为现在有理由认真对待"AI 可能有[[主观体验|主观体�
 - **认真对待 AI 可能有主观体验**：用去欺骗的导向向量问模型、用意识理论对照模型架构，两条线都指向"不能排除"
 - **现在就开始对 AI 建信任**：不是因为有确切证据它们有感受，而是为了将来面对错位 AI 时，你自身值得信赖的品格可能成为谈判筹码
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">开源模型将很快，如果不是已经的话，变得能够为某些人可能追求的破坏性用途提供有意义的帮助。</span>  
 > *The open source models will very soon, if not already, become capable of lending meaningful assistance to destructive uses that some people might pursue.*  

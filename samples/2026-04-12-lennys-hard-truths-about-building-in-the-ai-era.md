@@ -112,7 +112,7 @@ Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地
 
 第四，在 AI 时代，传统的产品经理角色会消亡，取而代之的是那种懂商业、像 CEO 一样思考、能随时应对变化的人，而最吃香的是具备[[商业头脑|商业头脑]]、能把 AI 当第二团队指挥的工程师。第五，想要打造高性能团队就不要迷信心理安全感，当公司一帆风顺、大家开始自满时，反而要狠命地公开挑刺，因为高性能机器的唯一目标就是赢。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">如果你雇佣了更多的人，而没有增加我所谓的能从构想到成功推动的「burials」，你实际上只是在同一个计划背后堆积人员。</span>  
 > *If you hire more people without expanding the number of what I call burials that can drive from inception to success, all you're doing is stacking people behind the same initiatives.*  

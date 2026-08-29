@@ -77,7 +77,7 @@ jsonLd: |
 
 第二,别被 Apple 和 Microsoft 的表面功夫骗了:Apple 一边喊内存短缺,一边顺势酝酿全线涨价和按月付费的订阅制来锁定用户;Microsoft 则靠拉长折旧年限做低资本开支,云收入的狂飙里也掺杂了 AI 公司左右倒手的循环资金。第三,科技巨头内部绝不是铁板一块,Google 之所以在模型发布上掉队,不仅是世界模型和语言模型的技术路线之争,更是庞大组织内派系抢夺资源导致的必然内耗。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">这是 Google 内部激励机制的错位,是 Google 内部利益的错位,几天后这似乎通过 Demis 的离开而显现出来了。</span>  
 > *This is a misalignment of incentives within Google, a misalignment of interest within Google that a couple of days later seems to have manifested with Demis' departure.*  

@@ -80,7 +80,7 @@ Chess.com 不愿透露具体的[[反作弊|反作弊]]机制,但核心在于极�
 - **[[评级系统|评级系统]]的降维打击**:把零和博弈的金钱游戏(如扑克)改造成以「客观技能实力」为导向的评级体系,通过剥离纯粹的财力优势,重塑用户在游戏中的核心驱动力。
 - **微习惯的千日复利**:不要去寻找捷径。把你想提升的领域拆解为每日最小单位的动作(如 5 个谜题、1 幅草图),将一个普通日子乘以 1000 天,这就是你不可替代的专业壁垒。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">有趣的是,计算机起初让国际象棋变得有点无聊,但后来让它变得令人兴奋得多,我们看到的国际象棋比以往任何时候都更令人兴奋。</span>  
 > *What was interesting is that computers at first made chess a little bit more boring, but then made it so much more exciting and we're seeing more exciting chess than we ever have.*  

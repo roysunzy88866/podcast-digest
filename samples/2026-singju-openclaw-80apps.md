@@ -96,7 +96,7 @@ Peter 的逻辑很直接：没有任何一个心智正常的人类会去手动�
 
 第四，给智能体人类自己爱用的工具就行，别为它们发明新标准——CLI 和 Unix 哲学比那些花哨的协议好用得多。第五，想做出真正有灵魂的智能体，你得花心思调它的「宪法」——那些决定它如何回应、如何被感知的核心价值文件，那可能才是你项目里真正不该开源的部分。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我想我的最大区别在于它实际上是在你的电脑上运行的。我目前看到的所有东西都在云端运行。它可以做几件事。如果你在电脑上运行它，它可以做每一件该死的事情。</span>  
 > *I think my big difference is that it actually runs on your computer. Everything I saw so far runs in the cloud. It can do a few things. If you run it on your computer, it can do every effing thing.*  

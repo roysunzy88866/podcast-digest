@@ -81,7 +81,7 @@ Alex 曾让它搭一个把外部数据吞进来做分析的产品大脑，Fable 
 
 第二，评价一个模型不能光看跑分，Alex 那套七分靠人类审美、三分靠机器裁判的盲测法告诉我们，真正决定产品成败的，是它能否给出有主见的设计和能跑通的功能。第三，大模型真正的杠杆效应，在于主动放开手——把视频剪辑、筛选 500 条消息这些枯燥活儿，连同一个模糊的目标直接丢给它，让它自己在浏览器里折腾，这远比手把手下指令要高效得多。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">Fable 在理论上是超级智能的，而 Soul 在实践中是行之有效的。</span>  
 > *fable is theoretically hyper intelligent and soul is practically effective*  

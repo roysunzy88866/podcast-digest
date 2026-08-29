@@ -97,7 +97,7 @@ Claire 强调,你不用自己手写这些配置,智能体在入门阶段会像�
 
 第二,别把所有任务塞进一个智能体,把它当成一支团队来管,给它们各自分好工、配好账号、设好边界,让它们在各自的频道里运转,避免上下文过载。第三,把管人的心法搬过来:给它明确的身份,循序渐进地授权,失败了去查它到底缺什么上下文,甚至动用更高级的编码工具去给它「做手术」。第四,把这些想清楚后,去找一台旧电脑,粘一行代码装上框架,给它配个手机聊天入口,从最痛的那个小问题开始让它替你跑腿。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">人们在 OpenClaw 上跌跌撞撞的地方在于,他们读到 OpenClaw 正在经营我的业务,他们以为可以把任何任务扔给单个智能体并获得出色的结果。</span>  
 > *Where people stumble with OpenClaw is they read about OpenClaw is running my business, and they think they can throw any task at a single agent and get great results.*  

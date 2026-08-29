@@ -91,7 +91,7 @@ Qasar 认为，硅谷的许多 CEO 缺乏「品味」<button class="pd-ts" data-
 
 第二，对抗对未知的恐惧，唯一的解药就是去搞懂它，看清它其实是由一堆电机和代码拼成的边界。第三，做公司跟做人一样，最好的状态往往是独自安静地把活干到极致，少把时间花在公开营造人设和情绪化的争论上；一旦做了决定，就把情绪滤镜拿掉，纯粹看事实能不能通过检验。第四，别只盯着自己的一亩三分地，去读几十年前的老书，去干点看似无用的事，你积累的那些丰富甚至杂乱的数据，最终会像训练大模型一样，涌现出做判断的「品味」。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">我们解决一些不可能的问题，比如癌症，将直接与这次 AI 繁荣有关。</span>  
 > *Us solving some of these impossible problems like cancer are directly going to be related to this AI boom.*  

@@ -108,7 +108,7 @@ Alex 接得干脆：你说 AI 现在不会为互动优化——但它最终会�
 - **激励正在转向**：企业客户付费要求准确性（而非互动率），受监管行业已构成部署瓶颈——这是 AI 内容质量可能好于社交媒体时代的结构性原因。
 - **给企业的自查问句**：如果你把 AI 用于重要事务，谁在检查输出？如果答案是卖你 AI 的公司，你就有麻烦了。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">我认为危险的是，如果质量不是很好，但作为消费者向你展示时却显得自信、流利、干脆、清晰，那么如果它是错的或不够好，它就被伪装起来了。</span>  
 > *What I think is dangerous is if the quality is not great, but it is presented to you as a consumer as confident, fluent, crisp, clear, it's disguised if it's wrong or if it's not great.*  

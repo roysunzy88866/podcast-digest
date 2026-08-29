@@ -81,7 +81,7 @@ Figma 把着色器做成了两种类型:一种叫着色器填充,就像是材质
 
 第二,技术的门槛已经被彻底拍平了,曾经需要几年数学功底的着色器,或者繁琐重复的插件开发,现在只需要一句大白话指令或者一张参考图,Figma 智能体就能当场为你造出来。第三,最强大的魔法在于材料的组合,Figma Motion 让原本高深莫测的动效设计变成了时间轴上直观的拖拽,它还能与着色器、插件无缝叠加,让动画的精修变得随心所欲。最终,所有这些新工具都不会消耗 AI 积分,它们的目的只有一个:AI 负责降低下限,而在座的各位设计师,负责去把创意的上限推向平流层。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">多年来设计界无休止地讨论设计与代码这个话题,我现在就直说了,这是一场虚假的辩论。</span>  
 > *For years the design industry has endlessly discussed this topic of design versus code and I will just say it flat out right now this is a false debate.*  

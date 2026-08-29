@@ -71,7 +71,7 @@ Jeanne 认为，最厉害的销售组织绝对不只是完成指标，它们还�
 
 第二，AI 已经能实打实地承担起高度复杂的销售流程，不妨尽早引入懂销售又懂技术的「市场拓展工程师」，用自建的智能体把人从机械重复的劳作中解放出来，去做更高价值的客户沟通。第三，细分客户群千万别只看公司规模，要结合你自身业务（如消费模式、流量大小、使用场景）找到真正能决定购买行为的独特维度，而且这不仅关乎销售，它是全公司都该对齐的战略共识。第四，无论是选销售人才还是做市场战略，销售组织必须能像总经理一样思考，兼具商业敏感度和产品深度，时刻保持对卓越的追求，并在面对拒绝时学会从中汲取真实的数据。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，这对于初创公司创始人来说是件好事。</span>  
 > *80% of customers buy to avoid pain or reduce risk as opposed to increase upside, which is a good thing for startup founders to understand.*  

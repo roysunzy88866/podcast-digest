@@ -77,7 +77,7 @@ jsonLd: |
 
 第二,别迷信 AGI 这个词,现在的模型连数椅子和推导物理定律都做不好,光靠堆数据已经不够,真正的下一个前沿是跳出语言,去攻克空间智能和三维世界模型。第三,无论你是谁,别被 AI 焦虑裹挟,人的尊严和主观能动性才是技术的核心,找到你的热情,把 AI 当成工具去放大你的独特性,这才是最靠谱的应对方式。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">我在两个半世纪前开始研究 AI,在过去二十年里我几乎每个学生毕业时,我都提醒他们,你的领域叫人工智能,但其中没有任何人工的成分。</span>  
 > *I started working AI two and a half decades ago, and I've been having students for the past two decades and almost every student who graduates, I remind them when they graduate from my lab that your field is called artificial intelligence, but there's nothing artificial about it.*  

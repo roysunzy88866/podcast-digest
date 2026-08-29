@@ -112,7 +112,7 @@ Joon 的十年答案：今天 AI 造的是“智能单元的 CPU”(一个又大
 - **招人两问**：他是不是每段经历里“成功的共性因素”？他有没有两种互斥的超能力？
 - **面向学术创始人的投资判据**：看他是嫁给了某个问题，还是嫁给了影响力——后者才会去找能触达用户、能产生收入的问题。
 
-<div class="pd-sec">全部金句 <span>11 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>11 条</span></div>
 
 > <span class="qz">我认为在两三年后，会有这样一种可能，我们运行一次单一的模拟会话，人们会为此支付 1 亿美元。</span>  
 > *I think there is a world in which, in about two, three years, we're running a single simulation session that people will pay $100 million for it.*  

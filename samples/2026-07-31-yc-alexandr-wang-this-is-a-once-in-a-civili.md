@@ -85,7 +85,7 @@ jsonLd: |
 
 第三,面对 AI 的冲击,传统的写代码技能虽然被淡化,但如何编排和管理成百万的智能体大军,依然极度考验系统性的严谨思维。最后也是最深刻的,在智能变得不再稀缺的未来,真正拉开人和人差距的,将是你有没有对世界发展抱有积极的愿景,以及有没有与之匹配的抱负和执行力。
 
-<div class="pd-sec">全部金句 <span>12 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>12 条</span></div>
 
 > <span class="qz">我认为关键是你需要在一套其他人都不同意的信念中建立坚定的信念。</span>  
 > *I think the key thing is you need to develop conviction in a set of beliefs that nobody else agrees with.*  

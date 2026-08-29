@@ -105,7 +105,7 @@ Alpha 指的是相对于指数的超额回报,而 beta 就是波动性 <button c
 
 第四,任何系统都会自发走向混乱,团队总会为了局部舒服去偷懒,高管的唯一职责就是每天每分钟拼死把这种衰退对抗下去,别当缓冲垫。第五,别被单点 SaaS 蒙蔽了双眼,在 AI 时代,手里没有第一方数据,就只能被两头压榨;去尽情厮杀吧,但也别忘了能生在这个时代本身就是最大的奖励。
 
-<div class="pd-sec">全部金句 <span>15 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>15 条</span></div>
 
 > <span class="qz">好的团队会累，而这就是伟大的团队痛扁好团队的时候。</span>  
 > *Good teams get tired and that's when great teams kick the good team's asses.*  

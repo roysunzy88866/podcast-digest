@@ -104,7 +104,7 @@ Will 是历史爱好者，最爱南北战争到一战那段——他办公室就
 - **不完美不许当借口**：与其等工具完美，不如在三分之一的员工面前演示然后当场翻车——把「怕出错」翻转成「更怕被抛在后面」。
 - **用量化思维看待 AI 时代的人才**：招职业中期、学习弹性还在的人；未来公司仍有成千上万「员工」，只是多数是机器，管理它们本身就是新技能。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">不使用这些工具就像在 1995 年因为互联网不完美而拒绝使用它。</span>  
 > *Not using these tools is like refusing to use the internet in 1995 because it wasn't perfect.*  

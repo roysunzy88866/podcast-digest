@@ -118,7 +118,7 @@ Ethan 的团队做了严格研究：Google 搜索结果里约 10%-12% 是纯 AI 
 - **必须做对照实验**：拿 100 个问题不动当对照，100 个做干预，看曲线是否分开。别信网上没被验证过的"最佳实践"。
 - **纯 [[AI 生成内容|AI 生成内容]]不奏效**：AI 辅助加人工编辑是方向，100% 无人工介入的内容在搜索和 LLM 引用中都不占优。
 
-<div class="pd-sec">全部金句 <span>10 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>10 条</span></div>
 
 > <span class="qz">因为 LLM 正在总结许多引用，所以你需要尽可能多地被提及。</span>  
 > *Because the LLM is summarizing many citations and so you need to get mentioned as many times as possible.*  

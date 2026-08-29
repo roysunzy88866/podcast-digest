@@ -89,7 +89,7 @@ AI 时代的收钱逻辑 <button class="pd-ts" data-t="24:29" data-who="Michele"
 ## 本集带走
 最后收个尾,这一集值得带走的是几个挺颠覆认知的点。第一,不要被「完美」绑架,敢于把粗糙的半成品直接扔给真实世界去试,这种像应用研究一样的产品打法,反而能让你抢在那些背着高预期包袱的大厂前面。第二,不要对任何用户群体产生刻板的「画像」依赖,当你找到了软件工作的基础原语时,你会发现一个好产品是能跨越从专家到小白的所有阶层的。第三,在智能体时代,按订阅收费是走不远的,必须按真实的算力和使用量来收钱,而更终极的是帮你的用户造出能赚钱的产品。最后,就算软件能被轻松写出来,人类依然不可或缺,因为在这个点子多如牛毛的时代,判断到底该在哪里下注,依然是只有人类才有的品味。
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">Repet Agent 3 可以连续运行 200 分钟。那很棒,但在你生命中这三个半小时里你要做什么?</span>  
 > *Repet Agent 3 can run for 200 minutes in a row. That's amazing, but what are you going to do in those three hours and a half of your life?*  

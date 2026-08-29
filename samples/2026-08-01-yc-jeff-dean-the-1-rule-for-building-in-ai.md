@@ -137,7 +137,7 @@ Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,
 
 最后,Jeff 留下的终极问题:如果这件事做成了,世界是会真切变好,还是只是「挺酷」?把这个问题问到底,你的职业生涯这条工具腰带,自然会挂满最趁手的家伙。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">可能有一点是人们还没有完全意识到,拥有基于智能体的系统是多么可能,这些系统不仅可以针对你关心的问题运行一两个小时,而且在某些问题领域,并且在拥有高能力模型作为底层支撑的情况下,你可以让它们运行几天或几周,并完成真正非常复杂的任务。</span>  
 > *Probably one thing is people don't quite realize how possible it is to have agent-based systems that can run not just for an hour or two hours on a problem you care about, but for some problem domains and with highly capable models underlying them, you can get them to run for days or weeks and do really, really complicated tasks.*  

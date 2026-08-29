@@ -87,7 +87,7 @@ David 说这是他唯一记得那么卡顿的时刻——而卡成那样本身�
 - **用车流的感觉监控公司**：正常状态是边走边决定的平滑前进；如果长期走走停停、像在溜坡堵车，那是必须改变（哪怕鲁莽一点）的信号。
 - **失败别做仪式化复盘**：编造出来的原因（「沟通不够」）多半是假的；向前学习，下一件事做得更好。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">我们就是做决定然后去干，因为反正几乎所有事情都是可逆的。</span>  
 > *We just make decisions and we go for it because most everything can be reversed anyway.*  

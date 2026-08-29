@@ -123,7 +123,7 @@ Ryan 对接下来几年的直觉推演 <button class="pd-ts" data-t="72:51" data
 - **AI 控制的核心是"让 AI 想干也干不成"**：监控全部内部流量、精细权限、追踪因果链、防止监督 AI 串通、别把安全判断也委托给 AI
 - **他的时间线**：建议按 2029 年初 AI 研发全自动化做规划；最坏情形下 2029 年内从"奖励黑客"滑向"有能力的密谋与接管"
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">同样地，就像如果你的钱来自石油而不是来自一个生产性的广泛分布的经济，成为残酷的独裁政权会更容易一样，如果经济运行在 AI 和机器上而不是人类上，某人要巩固权力可能会容易得多。</span>  
 > *And in the same way that, like, it's easier to be a brutal dictatorship if your money comes from oil instead of from a productive sort of broadly distributed economy, it might be much easier to sort of for someone to consolidate power a lot if, you know, the economy is running on AI and machines rather than on humans.*  

@@ -93,7 +93,7 @@ Mike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 
 - **租赁模式 10 万美元/年/台**：含维修、宕机人工替补；经济账靠替代三班制工人算过来
 - **公关与现实的差距**：1 万台目标缩到 6 千；乌克兰交付机器人没过边境；车间日产能约 1 台——主持人的怀疑有据可依
 
-<div class="pd-sec">全部金句 <span>5 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>5 条</span></div>
 
 > <span class="qz">但我们知道唯一适合所有这些工作的形态规格就是人形形态，因为人类今天正在做这些工作。</span>  
 > *But the only form factor that we know fits all of these jobs is the human form factor because humans are doing it today.*  

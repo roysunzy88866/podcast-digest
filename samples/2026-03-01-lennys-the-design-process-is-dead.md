@@ -103,7 +103,7 @@ Jenny 说她现在最想要三类人。第一类是「强通才」(技能像方�
 
 第四,真正管质量的方法,是敢发半成品、但必须用极快的迭代速度去建立信任。第五,AI 以后在审美上会越来越强,但人还有个不可替代的活儿:拍板决定到底做什么,并为这个决定承担责任。最后,如果带团队,别端着——下场干点脏活,让团队敢于吐槽你,心理安全感加上高标准,才是现在带团队的解药。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">既然现在工程师可以离开并启动他们的七个 Claudes,我认为作为设计师,我们真的必须放弃那个流程。</span>  
 > *given now that engineers can go off and spin off their seven Claudes, I think as designers, we really have to let go of that process.*  

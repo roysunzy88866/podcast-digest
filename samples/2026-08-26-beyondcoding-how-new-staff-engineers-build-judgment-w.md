@@ -106,7 +106,7 @@ Malika 的定义：**在多个层次上思考的能力**——从一层、三层
 - **深挖要有目的**：选一个不会消失的领域(推荐、搜索、平台)深进去，问它是否在帮你建判断力和品味。
 - **练品味**：多坐设计评审，看人如何报出代价；也在职业之外看画、读经典。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">实现正变得丰富，但判断力并非如此。</span>  
 > *Implementation is becoming abundant, but judgment isn't.*  

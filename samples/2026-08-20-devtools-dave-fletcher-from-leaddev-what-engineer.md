@@ -58,7 +58,7 @@ jsonLd: |
 - **用具体细节取代大口号**：别喊"10 倍提速"，直接讲你用什么方法解决了哪个具体的下游瓶颈。真实案例比宏大叙事有效得多。
 - **线下渠道正在被重新重视**：数字渠道过于拥挤，自办晚宴、聚会等面对面互动反而能突围。DevTools 整体支出在增长，从 27% 升到 36%。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">工程师，工程领导者在最好的情况下也是一群持怀疑态度的人。</span>  
 > *Engineers, engineering leaders are a skeptical bunch at the best times.*  

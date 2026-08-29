@@ -102,7 +102,7 @@ Windows 沙箱的生意大有可为,但要做 Mac 沙箱却极其反人类。Iva
 
 第四,真正的十万亿级大市场,藏在让智能体去操控那些没有 API 的 Windows 老软件里,与其等公司重构系统,不如直接给智能体一台带界面的电脑让它自己点。最后,在这个狂飙突进的增量市场里,不要被「转卖 token 凑收入」的 SaaS 幻象给骗了,真正的价值依然在于谁能成为专门为智能体服务、具备全套新原语的那个全新的云。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">Daytona 今天本质上是面向智能体的可组合计算机。</span>  
 > *today is essentially composable computers for agents.*  

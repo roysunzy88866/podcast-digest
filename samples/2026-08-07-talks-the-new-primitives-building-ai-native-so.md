@@ -71,7 +71,7 @@ Quindle 自己也做了一个叫《Gradient Bang》的大型多人游戏项目�
 
 第二,对 AI 导致失业的担忧,历史早就给出了答案,真正具有变革性的技术只会催生出过去无法想象的新工作类别,只会把活儿做大,不会把人淘汰。第三,我们马上要迈过孤立的智能体阶段,走向融合了多模态、多设备、实时调用大模型能力的全新 AI 原生软件——今天科幻电影里的界面,明天就是我们的日常产品。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">我认为 VisiCalc 潜在的是一个反驳，反驳这种论点或恐惧或担忧，即 AI 将导致大规模失业，因为 VisiCalc 并没有让会计师失业。</span>  
 > *I think VisiCalc is potentially a counterargument to the argument or the fear or the concern that AI is going to lead to mass unemployment because VisiCalc didn't put accountants out of business.*  

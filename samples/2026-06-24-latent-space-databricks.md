@@ -88,7 +88,7 @@ Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎�
 
 第二,别再为了搬运数据修管道了,把交易和分析硬揉进一个引擎是死路,但只统一底下的存储层、顺手转个格式,就能拿到那个数据库界三十年的终极梦想。第三,十年老系统难免变烂,重写不一定要等五年大爆炸,拿真实业务跑通的代码去迭代,用机器学习模型来挑算法,照样能平稳换上新引擎。说到底,在数据这件事上,开放格式永远会赢。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">我让一个智能体去调试某个东西,它花了 500 美元,因为它决定读取大量日志文件并消耗大量 token。</span>  
 > *I asked an agent to debug something and it spent $500 because it decided to read a lot of log files and burn a lot of tokens.*  

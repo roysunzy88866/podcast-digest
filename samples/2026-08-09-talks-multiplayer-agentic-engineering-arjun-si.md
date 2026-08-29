@@ -98,7 +98,7 @@ Arjun 提到自己去年大量使用 [[Claude Code|Claude Code]] 时刚有了孩
 - **用自家代码库做基准**:公开基准未必贴合你的技术栈(如 Python vs Ruby);拿真实 PR 跑对比,才知道对你来说什么又快又省又好。
 - **拿数据驱动路由决策**:小团队一个月烧百亿 token 是常态;用实测数据决定默认用哪个模型,新模型上线随时无缝试水和切换。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">卖给你 token 的人的激励措施与你的并不真正一致。</span>  
 > *The incentives of the people selling you tokens aren't really aligned with yours.*  

@@ -119,7 +119,7 @@ Parag 把智能体使用网络的演进分三层。第一层是现在的主流�
 - **固定费用授权是死路**：AI 推理量指数增长，但合同金额不跟着涨，内容方在续约时必然被稀释。需要的是按使用量、按价值差别定价的 scalable 模式。
 - **用 Shapley 值的逻辑做内容定价**：拿掉一个来源看质量掉多少、补多少算力能挽回，差值就是这个来源的价值——实际用模型估算而非精确计算。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">我们在 Parallel 的观点是，人类点击数据是一个缺陷，进行搜索工作的智能体应该依赖智能体反馈，而不是人类反馈。</span>  
 > *Our view at Parallel is that human click data is a bug and agent doing work with search should rely on agent feedback, not human feedback.*  

@@ -104,7 +104,7 @@ Srini 选 [[Cursor|Cursor]]（一个 AI 加持的集成开发环境）做这一�
 - **招 PM 看Git 仓库**：技能可教、激情教不了，面试就一句「打开 Cursor 给我看看你做了什么」。
 - **为 AI 智能体而设计**：MCP 这类接口的使用者是智能体不是人，下一代产品要同时服务人类和智能体两端。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">所以价值从做操作性工作转移到了判断。</span>  
 > *So the value sort of shifts from doing operational work to judgment.*  

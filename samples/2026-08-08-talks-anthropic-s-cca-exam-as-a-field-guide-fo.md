@@ -86,7 +86,7 @@ Anthropic 自带能把巨大上下文揉碎、浓缩的压缩算法 <button clas
 
 不管你是在分配任务、调度子智能体还是处理子任务的输出结果，都要千方百计地做隔离、给切片、防溢出，必要的时候果断触发压缩。把多余的上下文挡在门外，你的系统才会又准又省钱。最后，上了流水线就彻底放手，去掉交互确认，用批处理换半价成本，这才是让 AI 真正替你打工的成熟姿势。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">问题是 LLM 做不了任何事。</span>  
 > *The problem is the LLM can't do anything.*  

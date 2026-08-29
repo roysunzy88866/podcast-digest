@@ -88,7 +88,7 @@ swyx 评价说，Modal 不小心造出了让智能体自由表达的基础组件
 
 第二，在 AI 时代，规模化和弹性的极端需求被放大了，谁能横跨几十家云厂商搭出高可靠容量池，同时用快照技术抹平冷启动延迟，谁就握住了算力调度的命门。第三，不要迷信黑盒，无论前端封装得多好，底层的训练逻辑、推理代码和网络控制力依然需要全透明、可随时介入；专注底层硬核的优化（比如投机解码的乘法级提速），往往比单纯做模型封装更有壁垒。
 
-<div class="pd-sec">全部金句 <span>4 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>4 条</span></div>
 
 > <span class="qz">为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改，然后获得这种能够自我配置的运行时，实时看到它的更改在运行中生效。</span>  
 > *Why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes in a decorator and it gets this sort of self-provisioning runtime of being able to see its changes live in action.*  

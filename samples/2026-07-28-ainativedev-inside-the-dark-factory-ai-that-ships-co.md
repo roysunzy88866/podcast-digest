@@ -118,7 +118,7 @@ jsonLd: |
 - **顺序别乱**：先仓库上下文，再测试，再验证器，最后才谈全自动；上下文对结果的影响大于换模型。
 - **让工程师保住品味**：把资深工程师的经验编码成验证器，全公司的智能体都会执行，个人影响力规模化到所有人。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">我上次看的时候，Dark Factory 代码库中只有大约 5% 曾经由人类查看过 PR 并批准它。</span>  
 > *Last time I looked, I think about only 5% of the Dark Factory code base had ever had a human look at the PR and approve it.*  

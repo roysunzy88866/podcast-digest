@@ -86,7 +86,7 @@ Jeetu 解释了一个常识：哪怕有了 [[NVIDIA|NVIDIA]] 或 AMD 造的 GPU�
 
 第二层是关于战略与趋势判断，做产品得问自己有没有「参与许可」、能不能把规模优势转化为分发渠道，而判断风口的简单方法是：如果一个东西要拿博士学位才能听懂，它大概率只是瞎炒作，别去费劲对抗超级趋势。第三层是关于人生经营，毅力和持久力远比聪明重要；平台的选择往往比单纯的努力更决定上限；最关键的是，去寻找那些让你真正渴望的难题，并且对身边的人绝对不要吝啬你的言语，把你的爱、感激和信任真实地说出来。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">我认为人类的生存取决于成功的 AI。</span>  
 > *I think that survival of humanity depends on a successful AI.*  

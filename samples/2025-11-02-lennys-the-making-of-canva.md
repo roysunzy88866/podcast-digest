@@ -115,7 +115,7 @@ Melanie 还提到 Canva 正在推 3D 功能,加上已有的打印配送服务(�
 - **两步计划可以互相推动**:商业成功为公益提供资源,公益使命为团队赋予意义——两者不必先后排序,可以同时进行。
 - **用 AI 散步整理思路**:Melanie 戴上耳机出门散步,口述脑子里所有想法,回来整理出待办事项——帮自己跳出日常琐事,从宏观角度思考。
 
-<div class="pd-sec">全部金句 <span>8 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>8 条</span></div>
 
 > <span class="qz">我喜欢疯狂大目标的一点是,你在它面前感到完全的不胜任。</span>  
 > *The thing that I love about a crazy big goal is that you feel completely inadequate before it.*  

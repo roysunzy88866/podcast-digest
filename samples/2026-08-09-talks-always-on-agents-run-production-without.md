@@ -83,7 +83,7 @@ Justin 最后强调：运营工作的成本不在任务执行本身，而在环�
 - **通过 MCP 服务器接入现有框架**：如果你有自己的智能体框架，Resolve 的学习系统和生产上下文能力可以作为扩展接入，不用重复造技能。
 - **交互应发生在你本来就在的地方**：智能体的主战场应该是 Slack/MS Teams 这些你日常待着的工具，而不是逼你多开一个面板。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我们需要全栈 AI。这不再仅仅关于模型。</span>  
 > *We need full stack AI. It's not just about the models anymore.*  

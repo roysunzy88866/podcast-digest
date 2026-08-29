@@ -109,7 +109,7 @@ Justine 直言,从零开始训练一个能和 OpenAI 等巨头竞争的基础模
 2. **大众消费者不在乎「是不是 AI」**:只要内容本身抓人、质量达标,生产工具是什么并不重要。强行给 AI 内容贴标签在实操上极其困难,因为未来的内容几乎都是「人+AI」的协作产物。
 3. **创业的蓝海在应用与工作流层**:与其在昂贵的模型层硬刚巨头,不如去服务非技术的普通创作者、深挖垂直行业的工作流,或为个体创作者解决那些耗费大量时间的行政杂务。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">大众市场消费者并不关心它是用 AI 制作的,也不会因为这个原因去看它。</span>  
 > *The mass market consumer does not care that it was made with AI and isn't going to watch it for that reason.*  

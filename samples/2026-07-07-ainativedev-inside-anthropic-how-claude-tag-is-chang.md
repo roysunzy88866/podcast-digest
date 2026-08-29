@@ -103,7 +103,7 @@ Mukta 认为这真正打开了**持续学习**的大门：今天跑智能体，�
 - **信任是渐进建立的**：先并行跑传统流程对照，设清楚人工关卡，再逐步加大委托 <button class="pd-ts" data-t="45:56" data-who="Lamus Mukta" data-en="So it's really up to teams, and we totally understand that rolling these things out at scale needs this like journey of trust that you need to go on. So, like maybe when you start doing this, you just like let Claude have a go and you also like keep your traditional process and you just like check that on whatever like success threshold it did what you wanted it to." aria-label="回原文"></button>。
 - **公开工作 + 给智能体独立身份**：在 Slack 公共频道干活、让智能体用自己的权限代表团队，既放大协作也便于审计 <button class="pd-ts" data-t="33:57" data-who="Lamus Mukta" data-en="Um, another thing that we did to make this uh work more effectively is we came up with this concept of agent identities. So one really big difference between tag and you working with like claude codal co-work is when you work with code or co-ork, they kind of assume your own permissions." aria-label="回原文"></button>。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">自从我们开始在内部使用 Claude Tag 以来，我们的产品团队，比如产品工程团队，有 65% 的 PR 是由 Claude Tag 打开的。</span>  
 > *Since we've started using Claude Tag internally, our product teams, um, like product engineering teams have 65% of their PRs are opened by Claude Tag.*  

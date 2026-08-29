@@ -91,7 +91,7 @@ jsonLd: |
 
 第二，千万别被 AI 毁灭论和失业恐慌带偏了节奏，AI 自动化的是具体任务，而不是工作本身，任务被接管后，人的目的（比如治病救人、创造价值）反而能辐射得更广。第三，现在喊 AI 泡沫还太早，因为我们正在建的不是某个季节性的热门应用，而是人类全新的智能基础设施层，连最基本的芯片和电力都不够用，离泡沫破裂还远得很。
 
-<div class="pd-sec">全部金句 <span>3 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>3 条</span></div>
 
 > <span class="qz">我们应该尽可能多地使用封闭模型，尽可能租用一切。</span>  
 > *We should use closed models as much as we can, rent everything we can.*  

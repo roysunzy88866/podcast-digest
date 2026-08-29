@@ -112,7 +112,7 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 第四步，如果前三个都没问题，承认你的营销渠道可能已经「大象曲线」衰退打满了，去做点真正不同的渠道拓展，别再逼着营销部门死磕老渠道。最后，如果这一切都试过了还是不长，停下来问自己一句：我真的还需要它长吗？也许换个赛道才是对自己最好的决定。
 
-<div class="pd-sec">全部金句 <span>6 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>6 条</span></div>
 
 > <span class="qz">你的价格太低了，因为你只是猜的，而且你从未改变过它们。</span>  
 > *Your prices are way too low because you just guessed and you haven't changed them.*  

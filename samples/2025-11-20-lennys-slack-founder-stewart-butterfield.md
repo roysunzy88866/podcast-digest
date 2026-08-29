@@ -98,7 +98,7 @@ Stewart 说，行业里喊了十年「减少摩擦、减少点击」，但这套
 
 第二条是关于组织陷阱：警惕那些表面像工作、实际不创造价值的「超写实工作状活动」，以及为了证明自己存在而做的过度分析，这是领导者必须主动排雷的责任。第三条是关于商业哲学：真正的慷慨既是伦理选择，也是博弈策略——先把价值创造出来，其他的自然会来。
 
-<div class="pd-sec">全部金句 <span>9 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
 
 > <span class="qz">我觉得我们现在拥有的东西就是一大坨屎。</span>  
 > *I feel like what we have right now is just a giant piece of shit.*  
