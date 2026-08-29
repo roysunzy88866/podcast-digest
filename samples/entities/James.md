@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]]
+[[Mikael]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":146,"沙箱":29,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":4,"Anthropic":74,"Cloudflare":6,"Vercel AI SDK":2}</script>
+<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":148,"沙箱":29,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":4,"Anthropic":75,"Cloudflare":6,"Vercel AI SDK":2}</script>
 
 <script>
 (function(){

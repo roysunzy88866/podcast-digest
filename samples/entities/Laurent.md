@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Alan":1,"Mistral":5,"Stripe":20,"OpenAI":65,"智能体":146,"Mo":1,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":2}</script>
+<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Alan":1,"Mistral":5,"Stripe":21,"OpenAI":66,"智能体":148,"Mo":1,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":2}</script>
 
 <script>
 (function(){

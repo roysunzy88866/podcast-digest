@@ -131,9 +131,9 @@ Cursor 的产品经历了剧烈的演变：先做 IDE 编辑器，然后转向�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Anthropic、Cursor、Microsoft、Claude Code、OpenAI、SpaceX</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Claude Code、Cursor、Anthropic</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic、Claude Code、Microsoft</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Claude Code、GitHub</span>
 
 </div>
 <div class="pd-ex">

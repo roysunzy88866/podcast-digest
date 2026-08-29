@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]] [[Steven Sinofsky]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Eon":1,"智能体":146,"数据基础层":1,"ETL":1,"token":10,"后训练":13,"PLG":5,"Google":29,"AWS":9}</script>
+<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Eon":1,"智能体":148,"数据基础层":1,"ETL":1,"token":10,"后训练":13,"PLG":5,"Google":29,"AWS":9}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":146,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":65,"Anthropic":74}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":148,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":66,"Anthropic":75}</script>
 
 <script>
 (function(){

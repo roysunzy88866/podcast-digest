@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>14</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,6 +23,7 @@ unlisted: true
 - **[[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]]**(01:04起):本集说它是一个开源 AI 编程工具，首次出现在微软内部时安全团队第一反应是「怎么禁用它」，后来演变成多学科努力使其安全运行，创始人 Peter Steinberger 后来在 Microsoft Build 上谈论如何为其引入安全性
 - **[[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]]**(05:19起):本集说 OpenClaw 对商业和社会的影响将是 ChatGPT 的一千倍，但当前没有控制和策略对齐
 - **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(39:14起):本集提到 Claire 的实际 EA 助手是 Polly the OpenClaw，仍然在 OpenClaw 上运行
+- **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(00:30起):本集说 OpenClaw 是一个很棒的智能体脚手架，开箱即用且工程支持好，其配置文件 SolMD 优先级仅次于 ClaudeMD，被用来承载 700 行指令库
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(00:00起):本集的核心开源项目，是一个直接跑在用户自己电脑上的个人 AI 智能体。稿中说它之所以起飞，是因为它在本地运行就能控制一切（如床温、烤箱），并且能全盘访问机器数据来给人惊喜；它能把用户记忆变成本地的一堆 markdown 文件，从而打破大公司的数据孤岛。
 
 ## ① 提到它的金句
@@ -37,7 +38,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
@@ -51,15 +52,16 @@ unlisted: true
 - [[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]] — 作为被讨论公司
 - [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|《给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理》]] — 作为被讨论公司(提及)
 - [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为被讨论公司(提及)
+- [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[Codex]] · [[Cursor]] · [[Claude]] · [[ChatGPT]] · [[Anthropic]] · [[harness]] · [[NVIDIA]] · [[Lenny]]
+[[智能体]] · [[Claude Code]] · [[Codex]] · [[Claude]] · [[ChatGPT]] · [[Cursor]] · [[Anthropic]] · [[harness]] · [[NVIDIA]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"Claude Code":37,"Codex":27,"Cursor":37,"Claude":35,"ChatGPT":37,"Anthropic":74,"harness":16,"NVIDIA":23,"Lenny":65}</script>
+<script type="application/json" class="pd-epn">{"智能体":148,"Claude Code":38,"Codex":27,"Claude":36,"ChatGPT":38,"Cursor":38,"Anthropic":75,"harness":16,"NVIDIA":23,"Lenny":65}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 [[Simon Maple]] · [[智能体]] · [[循环工程]] · [[Guy Pajani]] · [[软件工厂]] · [[暗工厂]] · [[评估]] · [[沙箱]] · [[Guy Fajani]] · [[Patrick Debois]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":6,"智能体":146,"循环工程":4,"Guy Pajani":3,"软件工厂":3,"暗工厂":2,"评估":16,"沙箱":29,"Guy Fajani":1,"Patrick Debois":1}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":6,"智能体":148,"循环工程":4,"Guy Pajani":3,"软件工厂":3,"暗工厂":2,"评估":16,"沙箱":29,"Guy Fajani":1,"Patrick Debois":1}</script>
 
 <script>
 (function(){

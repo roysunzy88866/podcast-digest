@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Casey Moratori]] [[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]]
+[[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":6,"Guy for Germany":1,"Datadog":6,"智能体":146,"评估":16,"上下文":11,"Cursor":37,"开源权重模型":1,"代码审查":2,"OpenClaw":13}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":6,"Guy for Germany":1,"Datadog":6,"智能体":148,"评估":16,"上下文":11,"Cursor":38,"开源权重模型":1,"代码审查":2,"OpenClaw":14}</script>
 
 <script>
 (function(){

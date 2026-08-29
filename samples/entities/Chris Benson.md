@@ -45,9 +45,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Daniel Whitenack]] · [[Hugging Face]] · [[Anthropic]] · [[护栏]] · [[IBM]] · [[沙箱]] · [[Daniel Widenach]] · [[企业软件]]
+[[智能体]] · [[OpenAI]] · [[Daniel Whitenack]] · [[Hugging Face]] · [[Workday]] · [[护栏]] · [[Anthropic]] · [[IBM]] · [[沙箱]] · [[Daniel Widenach]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"Daniel Whitenack":2,"Hugging Face":11,"Anthropic":74,"护栏":30,"IBM":2,"沙箱":29,"Daniel Widenach":1,"企业软件":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":148,"OpenAI":66,"Daniel Whitenack":2,"Hugging Face":11,"Workday":4,"护栏":30,"Anthropic":75,"IBM":2,"沙箱":29,"Daniel Widenach":1}</script>
 
 <script>
 (function(){

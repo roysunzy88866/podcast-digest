@@ -7,22 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Aakash</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Aakash">AA</div><div class="pi"><h1 class="pt">Aakash</h1><div class="byl">Product Growth Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Aakash">AA</div><div class="pi"><h1 class="pt">Aakash</h1><div class="byl">Product Growth Podcast 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为主持
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为主持
+- [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Figma]] · [[Oji Udezue]] · [[Srini Raghavan]] · [[Claude Code]] · [[Freshworks]] · [[项目脚手架技能]] · [[Cursor]] · [[可行性闸门]] · [[Databricks]] · [[vibe coder]]
+[[Figma]] · [[智能体]] · [[设计系统]] · [[Oji Udezue]] · [[Srini Raghavan]] · [[Mikael]] · [[Claude Code]] · [[Freshworks]] · [[OLX Classifieds]] · [[项目脚手架技能]]
 
-<script type="application/json" class="pd-epn">{"Figma":10,"Oji Udezue":1,"Srini Raghavan":1,"Claude Code":37,"Freshworks":1,"项目脚手架技能":1,"Cursor":37,"可行性闸门":1,"Databricks":7,"vibe coder":1}</script>
+<script type="application/json" class="pd-epn">{"Figma":11,"智能体":148,"设计系统":5,"Oji Udezue":1,"Srini Raghavan":1,"Mikael":1,"Claude Code":38,"Freshworks":1,"OLX Classifieds":1,"项目脚手架技能":1}</script>
 
 <script>
 (function(){

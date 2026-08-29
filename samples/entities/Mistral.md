@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[Stripe]] · [[Theo Jaffe]] · [[推理]] · [[NVIDIA]] · [[后训练]] · [[Hugging Face]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":65,"智能体":146,"Anthropic":74,"Stripe":20,"Theo Jaffe":4,"推理":2,"NVIDIA":23,"后训练":13,"Hugging Face":11,"Cursor":37}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":66,"智能体":148,"Anthropic":75,"Stripe":21,"Theo Jaffe":4,"推理":2,"NVIDIA":23,"后训练":13,"Hugging Face":11,"Cursor":38}</script>
 
 <script>
 (function(){

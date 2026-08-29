@@ -153,9 +153,9 @@ Frederick 的发现很出人意料:现在的模型在海量数据上训练,体�
 
 **换个口味**
 
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Stripe、Workday · 同概念:智能体 (agent)</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
-- [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|Patrick Collison：AI时代该怎么创业]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

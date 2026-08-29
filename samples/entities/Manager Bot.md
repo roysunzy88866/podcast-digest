@@ -25,7 +25,7 @@ unlisted: true
 
 [[Willem Avé]] · [[Square]] · [[Block]] · [[业务单元模式]] · [[职能制]] · [[DRI]] · [[智能体]] · [[聊天机器人]] · [[工件]] · [[TAM]]
 
-<script type="application/json" class="pd-epn">{"Willem Avé":1,"Square":3,"Block":2,"业务单元模式":1,"职能制":1,"DRI":3,"智能体":146,"聊天机器人":1,"工件":1,"TAM":2}</script>
+<script type="application/json" class="pd-epn">{"Willem Avé":1,"Square":3,"Block":2,"业务单元模式":1,"职能制":1,"DRI":3,"智能体":148,"聊天机器人":1,"工件":1,"TAM":2}</script>
 
 <script>
 (function(){

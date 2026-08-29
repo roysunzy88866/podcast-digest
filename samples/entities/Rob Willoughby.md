@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":6,"暗工厂":2,"TESL":3,"智能体":146,"验证器":1,"编排器":2,"沙箱":29,"软件工厂":3,"形式化验证":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":6,"暗工厂":2,"TESL":3,"智能体":148,"验证器":1,"编排器":2,"沙箱":29,"软件工厂":3,"形式化验证":2}</script>
 
 <script>
 (function(){

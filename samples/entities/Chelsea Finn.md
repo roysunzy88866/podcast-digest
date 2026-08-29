@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":9,"ChatGPT":37,"物理 AI":4,"强化学习":13,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":5}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":9,"ChatGPT":38,"物理 AI":4,"强化学习":13,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":5}</script>
 
 <script>
 (function(){

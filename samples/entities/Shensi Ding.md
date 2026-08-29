@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":146,"MCP":17,"沙箱":29,"连接器":2,"智能 LLM 路由器":1,"可观测性":13,"后训练":13}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":148,"MCP":17,"沙箱":29,"连接器":2,"智能 LLM 路由器":1,"可观测性":13,"后训练":13}</script>
 
 <script>
 (function(){

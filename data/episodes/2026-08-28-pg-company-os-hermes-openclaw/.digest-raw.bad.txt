@@ -1,0 +1,147 @@
+===标题===
+OLX CPO 的智能体操作系统：一个 PM 干俩 PM 的活
+===导语===
+OLX Classifieds 的 CPO Mikhail Shcheglov 把整个产品团队的知识、流程和决策搬进了一个智能体系统里，让单个 PM 能干两个人的活。
+===正文===
+这一集是 OLX Classifieds 的 CPO Mikhail Shcheglov 聊他们怎么用智能体把产品团队改造成一个「操作系统」——智能体连着 Google Workspace、Confluence、Jira，能回答项目状态、过滤功能请求、管日历和邮件、甚至帮你招人。最颠覆的一点是：他认为这个系统已经能把一个 PM 的产出翻倍，因为过去 PM 花 50% 时间做的流程性工作全被智能体吃掉了 [15:36 Mikael]。
+
+## 知识图谱：智能体的「大脑」
+
+核心是一张五个月建起来的知识图谱，里面装了公司所有的联系人、项目、客户、漏斗指标，相互连接成一个网络。他给这套东西定了一个量化指标叫「产品上下文覆盖率」——问智能体「你对我们的行业、商业模式、客户了解多少」，让它自己打分。当前覆盖率在 54%，意味着智能体已经能当一个初级产品经理来用，能做待办事项级别的决策 [05:08 Mikael]。他判断，覆盖率达到 70%-90% 时，智能体就能做战略层面的工作了 [05:27 Mikael]。
+
+这张图有三个用途：第一，看每个团队的知识密度，预测团队在客户探索上的表现；第二，看团队之间的连接节点——如果平台团队和买家/卖家体验团队几乎没有重叠节点，说明有孤岛效应，团队该多交流 [07:05 Mikael]；第三，看利益相关者是否真正参与到了团队流程里 [07:33 Mikael]。
+
+## 三层记忆：不总结，存原文
+
+智能体的记忆分三层。第一层就是上面说的知识图谱。第二层是向量数据库——每一条进入智能体的知识都转成向量，因为大部分请求是模糊的，不是精确关键词匹配，需要靠向量做概率匹配来检索 [24:02 Mikael]。第三层是原始转写稿——所有会议（通过 Granola 录制）和所有跟智能体的对话，每天都存成 MD 文件 [24:48 Mikael]。
+
+这里有个反直觉的发现：他们试过把转写稿总结压缩后再存，结果召回率掉了 20%-25% [26:42 Mikael]。原因有两个——总结会丢掉细节，而「魔鬼在细节里」；总结会强加一个模板（已解决的、待解决的、重要的、不重要的），把对话硬塞进去，造成保真度损失。所以他的架构决策是：直接存原始转写稿，不总结 [26:56 Mikael]。
+
+检索时走混合搜索：先试精确关键词匹配（大概 25% 的请求能命中），剩下的走向量搜索做模糊检索 [31:02 Mikael]。这样不会用无关内容撑爆上下文窗口 [31:38 Mikael]。
+
+## 功能请求的「守门人」
+
+任何利益相关者想提功能需求，必须先跟智能体聊，不能直接找 PM。比如有人早上起来想说「我要给汽车频道加一个像 Instagram 故事一样的视频提交功能」——这种没有问题框架、没有影响预估、没有逻辑支撑的典型功能请求，智能体会先反问一系列澄清性问题 [20:17 Mikael]。回答完之后，如果智能体判断不值得做，就礼貌拒绝；如果值得做，就加进待办列表并上报给对应领域的 PM [20:48 Mikael]。智能体内置了完整的组织架构，知道每个领域谁是负责人 [21:05 Mikael]。
+
+## 架构：OpenClaw + Hermes 双脚手架
+
+用的是 OpenClaw 和 Hermes 的组合 [22:48 Mikael]。OpenClaw 提供开箱即用的脚手架和工程支持；Hermes 的独特之处是自动技能生成——它会观察你反复请求的任务类型，自动创建「技能」模块。他测了五个核心话题（市场、商业模式、产品、增长杠杆、漏斗），每个话题出 10 道题，对比有技能和没技能的回答准确率，结果提升了 31% [23:24 Mikael]。更妙的是，Hermes 甚至会自己判断「这个任务是不是重复的、该不该建一个技能」，不需要人指定 [38:57 Mikael]。
+
+指令体系分两块：ClaudeMD 保持 100 行以内（最高优先级），SolMD 大概 700-800 行（第二优先级）[34:18 Mikael]。里面全是规则和指令，比如「不许捏造」「三思而后行」「事实重于猜测」「不许虚假的有帮助」——他举了个例子：你让智能体订会议，结果 token 过期了，智能体说「抱歉我做不到，但你可以打开 Google 日历自己操作」，这种废话他定义为「虚假的有帮助」，直接写进指令里禁掉 [33:06 Mikael]。
+
+## 董事会技能与权限控制
+
+智能体把董事会成员的心智模型抽象成了一套原则，叫「董事会技能」[42:32 Mikael]。做融资演示文稿时，先跑一遍这个技能，让智能体模拟董事会的视角挑刺、给残酷反馈，然后再去完善 [42:40 Mikael]。但这个技能只有他自己和执行委员会能用——智能体根据访问者身份提供不同的上下文和工具权限 [44:49 Mikael]。隐私方面，除非员工主动同意把会议转录喂给 Granola，否则不会存储和建模 [44:27 Mikael]。
+
+## 自动更新设计系统
+
+整个 Figma 设计系统是从提示词构建出来的，组件覆盖了所有尺寸、状态和 tokens [48:41 Mikael]。而且智能体会自动维护它——如果工程师和 PM 对话中发现某个组件缺失或有人硬编码，智能体会自动在系统里创建新组件 [49:14 Mikael]。具体流程是：产品侧的工具收集所有来自 Slack 或编码智能体的组件请求，然后启动一个开发任务来构建，最后由设计师做审查（看文档、冲突、状态是否完整）[49:46 Mikael]。审查是人的工作，执行是智能体的工作 [50:29 Mikael]。
+
+## 模型路由：按复杂度分配
+
+有一个智能体编排器负责决定用哪个模型 [42:42 Mikael]。复杂请求或高敏感领域（错误爆炸半径大的）用 Fable；执行类工作或写状态报告用 Opus 4.8；低复杂度、不需要高精度的用 Sonnet [47:06 Mikael]。产品团队主要用 Claude 的订阅，token 花销目前不大；工程师团队有自己独立的脚手架，任务分解用最高成本的模型（比如 ChatGPT 5.6 或 Fable），简单任务用小模型甚至本地部署的开源模型 [48:10 Mikael]。
+
+## 招聘自动化
+
+集成了三个工具：LinkedIn Recruiter 负责按条件搜人并发送预定义模板的联络消息；CRM（他们用的 Greenhouse）负责管理候选人漏斗，他不再直接操作 CRM，全通过智能体下指令；面试环节，所有面试都有转录稿，可以立刻获得第三方视角的候选人评估 [54:25 Mikael]。最终决策权在人不在 AI，但 AI 给的替代视角在很多情况下「让人清醒」[56:25 Mikael]。拒信也是智能体基于转录稿起草的，定制化程度比大多数招聘人员写得都好 [56:51 Mikael]。整个招聘流程大概自动化了 70%-75% [56:41 Mikael]。
+
+## PM 的未来：更小、更精、更快
+
+他的判断是产品管理不会消失，反而会繁荣——因为 AI 吃掉的是那些合规、绩效、状态报告的运营负担，留下的是「价值发现」，也就是跟客户打交道、理解客户旅程，这是 AI 做不了的 [58:13 Mikael]。团队会变得更小、更精干、更快 [59:10 Mikael]。PM 和工程师、设计师之间的界限会模糊——PM 编排的是「产品质量和 token 预算」，工程师编排的是「执行质量和 token 预算」，设计师管的是「设计系统一致性和 token 预算」[59:45 Mikael]。高复杂度、高错误爆炸半径的领域（搜索、ML、变现）还是需要专人负责；但面向客户的领域，一个 PM 可以同时管三四个跨平台的领域 [60:33 Mikael]。
+
+招人时他看三样东西：解决问题能力、系统性思维（这两样是基本功），加上 AI 技艺的深度——他会直接问「你日常工作的哪些用例已经用 AI 自动化了」，从「我用 ChatGPT 网页版聊天」到「我搭建了完整的智能体系统自动化了所有工作」，这个光谱就能看出候选人的 AI 成熟度 [62:23 Mikael]。
+
+## 本集带走
+- **定义「上下文覆盖率」指标**: 让智能体自评对行业、业务、客户的了解程度，量化它的能力边界，作为持续改进的 KPI
+- **记忆不总结，存原文**: 总结会丢细节、强加模板，导致召回率下降 20%-25%；直接存原始转写稿，靠混合搜索（关键词 + 向量）做检索
+- **功能请求走智能体守门**: 利益相关者先跟智能体聊，智能体反问澄清、判断价值、决定是否上报 PM，避免 PM 被无框架的需求骚扰
+- **指令库里写进「反虚假帮助」**: 禁止智能体在做不到时给一堆显而易见的手动操作建议，这种输出浪费 token 且无用
+- **按错误爆炸半径路由模型**: 高敏感高复杂度用强模型，执行和报告用中档，低精度任务用小模型，不搞一刀切
+- **面试题直接测 AI 自动化程度**: 问「你日常哪些工作用 AI 自动化了」，比问「你用过什么 AI 工具」能测出真实深度
+
+===金句===
+00:00 | Mikael
+EN | Agents are actually building most of our features.
+ZH | 智能体实际上正在构建我们的大部分功能。
+
+00:07 | Mikael
+EN | Our agent is an operating system because it's hooked into everything from Google Workspace to Granola, Confluence, Jira.
+ZH | 我们的智能体是一个操作系统，因为它连接到了所有东西，从 Google Workspace 到 Granola、Confluence、Jira。
+
+00:45 | Mikael
+EN | What's gonna happen to my job?
+ZH | 我的工作会发生什么？
+
+00:48 | Mikael
+EN | What actually will happen is that teams will be smaller, leaner, and faster.
+ZH | 实际会发生的是团队将会更小、更精干、更快。
+
+02:50 | Mikael
+EN | Is to be able to automate as much knowledge as we can.
+ZH | 就是能够自动化尽可能多的知识。
+
+03:16 | Mikael
+EN | He's a bottleneck effectively, a knowledge bottleneck.
+ZH | 他实际上是一个瓶颈，一个知识瓶颈。
+
+05:27 | Mikael
+EN | Like at numbers of 70 to maybe like 90%, I would not be surprised if this knowledge graph would enable you to do some strategy level work and help business Navigate decisions.
+ZH | 比如达到 70 到大约 90% 的数字时，如果这个知识图谱能够让你去做一些战略层面的工作并帮助业务做出决策，我不会感到惊讶。
+
+07:05 | Mikael
+EN | If the team isn't really well connected, and you can clearly see that this team has very little nodes, overlapping nodes with the buyer and seller experience, even though a platform is a horizontal layer and they should be, ideally they should be intertwined with each other.
+ZH | 如果团队没有真正建立良好的连接，你可以清楚地看到这个团队只有很少的节点与买家和卖家体验重叠，即使平台是一个横向层，它们应该是，理想情况下它们应该相互交织。
+
+13:12 | Mikael
+EN | What has changed and changed pretty significantly is that the cost of this output is negligible.
+ZH | 发生变化的，且变化相当显著的是，这种产出的成本是可以忽略不计的。
+
+15:36 | Mikael
+EN | Around 50% of the time of a typical product manager was spent on processes and rituals.
+ZH | 典型产品经理大约 50% 的时间花在流程和仪式上。
+
+16:27 | Mikael
+EN | Then essentially what you end up with is you have a product manager that is solely focused on discovery, like where the biggest leverage actually is.
+ZH | 那么本质上你最终得到的是一个产品经理，他完全专注于发现，比如实际上最大的杠杆在哪里。
+
+20:48 | Mikael
+EN | If after answering all the clarifying questions, an agent decides that this feature isn't worth building, then it will politely say so.
+ZH | 如果在回答了所有澄清性问题后，智能体决定这个功能不值得构建，那么它会礼貌地这么说。
+
+26:03 | Mikael
+EN | And it turns out that summarization actually hurts a retrieval.
+ZH | 结果证明总结实际上损害了检索。
+
+26:42 | Mikael
+EN | And we've noticed like a huge fidelity loss and I think it was like 20-25% worse recall.
+ZH | 并且我们注意到了巨大的保真度损失，我认为召回率降低了 20-25%。
+
+33:14 | Mikael
+EN | If you ask your agent to book you a meeting, and suddenly your tokens in the Google workspace has expired, and then the agent says, well, I'm sorry, I cannot do this, but it's super easy for you to do. Just open up a calendar, type in Google Calendar, Name your meeting, choose your time. I mean, it's useless.
+ZH | 如果你让你的智能体为你预订一个会议，突然你在 Google Workspace 中的 token 过期了，然后智能体说，好吧，我很抱歉，我做不到这个，但这对你来说很容易做到。只需打开一个日历，输入 Google Calendar，给你的会议命名，选择你的时间。我是说，它是没用的。
+
+38:03 | Mikael
+EN | It comes with a unique advantage over OpenClaw, which is it automatically generates skills based on the tasks that you most frequently request the system to perform.
+ZH | 它带来了相对于 OpenClaw 的独特优势，即它根据你最频繁请求系统执行的任务自动生成技能。
+
+42:22 | Mikael
+EN | But the beauty is the agent was able to abstract their mental models into a set of principles.
+ZH | 但美妙之处在于智能体能够将他们的心智模型抽象为一套原则。
+
+50:29 | Mikael
+EN | But that's a review type of a job rather than execution job.
+ZH | 但这是一种审查类型的工作，而不是执行工作。
+
+56:25 | Mikael
+EN | It just gives you an alternative point of view, which is sobering in many cases.
+ZH | 它只是给你一个替代的观点，这在许多情况下是令人清醒的。
+
+58:24 | Mikael
+EN | It gives you the juiciest bit. It removes a lot of the operational overhead from the work.
+ZH | 它给了你最精彩的部分。它从工作中移除了大量的运营开销。
+
+59:25 | Mikael
+EN | The lines are going to blur between what a product manager does and an engineering team or an engineering manager does.
+ZH | 产品经理所做的工作与工程团队或工程经理所做的工作之间的界限将会变得模糊。
+
+===END===

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":74,"智能体":146,"harness":16,"沙箱":29,"智能体循环":1,"上下文工程":6,"会话日志追踪":2,"泄露的凭证":3,"可观测性":13}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":75,"智能体":148,"harness":16,"沙箱":29,"智能体循环":1,"上下文工程":6,"会话日志追踪":2,"泄露的凭证":3,"可观测性":13}</script>
 
 <script>
 (function(){

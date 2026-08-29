@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akshat Bubna":1,"Vibhu":1,"Modal":2,"智能体":146,"AX":1,"DX":3,"沙箱":29,"推理":2,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Akshat Bubna":1,"Vibhu":1,"Modal":2,"智能体":148,"AX":1,"DX":3,"沙箱":29,"推理":2,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

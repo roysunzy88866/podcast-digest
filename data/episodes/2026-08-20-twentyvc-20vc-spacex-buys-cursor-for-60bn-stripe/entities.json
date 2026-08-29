@@ -1,0 +1,2602 @@
+{
+  "episode_id": "2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-08-20",
+  "tags": [
+    "AI 编程",
+    "SaaS 私有化",
+    "模型路由",
+    "AI 支出天花板",
+    "收购与并购"
+  ],
+  "categories": [
+    "AI 编程",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "rory-o-driscoll",
+      "type": "person",
+      "role": "host",
+      "name": "Rory O'Driscoll",
+      "file": "Rory O'Driscoll",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            59.091,
+            65.634
+          ],
+          "quote": "Rory O'Driscoll, Jason Lemkin coming together to discuss the biggest, best news that's happened in the last seven days.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "jason-lemkin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jason Lemkin",
+      "file": "Jason Lemkin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            59.091,
+            65.634
+          ],
+          "quote": "Rory O'Driscoll, Jason Lemkin coming together to discuss the biggest, best news that's happened in the last seven days.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            55.35,
+            58.991
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings, and today it's my favorite show of the week.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说 Cursor 起初是电子邮件客户端，后转做 AI 编程工具，曾一度看起来快不行了，但通过很早接入多模型、快速迭代，收入飙升至五亿美元，最终以 600 亿美元被 SpaceX 全股票收购。节目指出其毛利率为负的问题一直存在，只是被乐观情绪淹没。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            263.158,
+            267.921
+          ],
+          "quote": "SpaceX closes the $60 billion all stock takeover of Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            301.191,
+            304.656
+          ],
+          "quote": "In the middle of it, or maybe a third of the way in, it almost seemed like Cursor was dead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            315.069,
+            316.391
+          ],
+          "quote": "So Cursor was super easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            321.579,
+            322.72
+          ],
+          "quote": "Like Cursor's dead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            322.901,
+            325.164
+          ],
+          "quote": "Cursor goes multi-model really early.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            380.691,
+            388.792
+          ],
+          "quote": "When we started the show, it'd be like, well, Cursor's a joke because they're selling a dollar's worth of tokens for $0.80 or $0.50 to the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            573.361,
+            576.682
+          ],
+          "quote": "Maybe you have to slow down and do a very different trajectory as Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            624.448,
+            631.273
+          ],
+          "quote": "That'd have to be very core because don't forget what happened was Cursor was about to close around 2 billion at 50 billion, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            647.224,
+            649.005
+          ],
+          "quote": "They were already working together with Cursor, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            757.613,
+            762.196
+          ],
+          "quote": "The other small factor, just thinking about it, we can move on, but imagine you are Michael at Cursor, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            972.446,
+            975.748
+          ],
+          "quote": "You feel like they've got to... Oh, that folks have to jump in to respond to Cursor that everyone else?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            983.494,
+            984.735
+          ],
+          "quote": "I wanted to buy Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            985.055,
+            988.938
+          ],
+          "quote": "I lost Cursor, or I didn't even know I lost Cursor because Elon swooped in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1010.171,
+            1012.432
+          ],
+          "quote": "Maybe Satya's like, I thought I had more time with Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1107.796,
+            1111.158
+          ],
+          "quote": "And again, it's some version of the same thing as the Cursor comment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1138.148,
+            1156.538
+          ],
+          "quote": "It doesn't make any sense on a DCF2U basis, but makes huge sense to the acquirer, because just like Elon will turn Cursor into money cash flow far quicker than Cursor could have turned Cursor into cash flow, I'm willing to bet Stripe will turn OpenRouter into money probably quicker than OpenRouter could do on a standalone basis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            1946.927,
+            1948.948
+          ],
+          "quote": "And it's the same thing we said about Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 791,
+          "t": [
+            2814.309,
+            2817.369
+          ],
+          "quote": "You see Cursor for details, see OpenRouter for details, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 960,
+          "t": [
+            3460.763,
+            3469.768
+          ],
+          "quote": "I do think today engineers and developers will mock me for saying this, but I do think that they deserve arguably a somewhat similar to be in the Cursor conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 963,
+          "t": [
+            3479.034,
+            3482.237
+          ],
+          "quote": "But is that multiple that far off the cursor multiple that we just saw?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 967,
+          "t": [
+            3487.32,
+            3491.001
+          ],
+          "quote": "But it's not as out of whack as it might've seemed with Cursor as a comp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 973,
+          "t": [
+            3501.403,
+            3503.204
+          ],
+          "quote": "I mean, Cursor launched Origin, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 980,
+          "t": [
+            3521.171,
+            3524.273
+          ],
+          "quote": "As these become these Cursor and Lovables and Replits become true platforms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 982,
+          "t": [
+            3525.733,
+            3528.355
+          ],
+          "quote": "So when the Cursor deal was announced, our jaws dropped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 984,
+          "t": [
+            3529.395,
+            3533.136
+          ],
+          "quote": "It's just a comp, and I don't think this is such a bad comp for lovable to Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1001,
+          "t": [
+            3585.89,
+            3586.79
+          ],
+          "quote": "You've got the cursor style.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1144,
+          "t": [
+            4113.271,
+            4119.781
+          ],
+          "quote": "Yeah, I mean, if Martin Cassato had to step off the board of Fivetran after exiting Cursor at $60 billion, it's probably okay, given their position in Databricks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集说 SpaceX 以 600 亿美元全股票收购了 Cursor，因为其拥有大量算力（Colossus 集群）但缺乏直接面向用户的业务，且其股票估值约 40 倍收入，使得以 10 倍远期收入收购 Cursor 变得'简直是白菜价'，第一天就能实现净增值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            263.158,
+            267.921
+          ],
+          "quote": "SpaceX closes the $60 billion all stock takeover of Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            415.409,
+            424.818
+          ],
+          "quote": "And yes, if the logic is, hey, you've got a whole bunch of compute, but not an obvious business on top, the two people for whom that's true are Meta and SpaceX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            425.139,
+            427.962
+          ],
+          "quote": "And you're right, SpaceX did it and Meta did not, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            429.964,
+            434.188
+          ],
+          "quote": "But one of the things we pointed out in the agenda is SpaceX could move a little more",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            723.191,
+            736.357
+          ],
+          "quote": "And he took SpaceX from literally a year ago being a really amazing rocket and satellite connectivity story to being, as the rest one says, at least in terms of the, quote, future prospects, 89% an AI story.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            851.372,
+            852.333
+          ],
+          "quote": "And I think SpaceX,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2462.419,
+            2472.642
+          ],
+          "quote": "And they've had to do so much to say, listen, we're going to go public second, and then we're going to have a comp out there, and the comp is what it is, and we may not trade with the hype that SpaceX and Anthropic did, and the world will not end.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": true,
+      "how_described": "本集说 OpenRouter 是做模型路由的公司，企业通过一个 API 接入几十上百个不同模型。它被 Stripe 以 70 亿美元收购，约 70 倍过往收入。节目指出它主要在两个场景很强：开发者工具里简单挑选模型、聊天机器人里根据可用性切换模型，但在高精度 B2B 工作流中，企业不敢在多模型间切换，因为会导致模型漂移。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 320,
+          "t": [
+            1138.148,
+            1156.538
+          ],
+          "quote": "It doesn't make any sense on a DCF2U basis, but makes huge sense to the acquirer, because just like Elon will turn Cursor into money cash flow far quicker than Cursor could have turned Cursor into cash flow, I'm willing to bet Stripe will turn OpenRouter into money probably quicker than OpenRouter could do on a standalone basis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1243.519,
+            1249.184
+          ],
+          "quote": "It's so important to price, but it's irrelevant because it's all about what Stripe can make out of OpenRouter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1256.108,
+            1258.569
+          ],
+          "quote": "But then it's like Stripe, what's OpenRouter doing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1292.408,
+            1294.85
+          ],
+          "quote": "The counterpoint is I love OpenRouter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1309.38,
+            1317.247
+          ],
+          "quote": "So OpenRouter, as I understand it, and I think it's right, is really strong in sort of developer-type tools where you want a simple way to pick a model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1368.609,
+            1371.15
+          ],
+          "quote": "And I don't think OpenRouter is the right product for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1378.673,
+            1380.053
+          ],
+          "quote": "But it's not going to be true for OpenRouter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1516.327,
+            1517.328
+          ],
+          "quote": "That's great for OpenRouter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1517.568,
+            1522.009
+          ],
+          "quote": "Or if you want to build into your own product a fallback, OpenRouter is a 10 out of 10 for this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1523.629,
+            1525.349
+          ],
+          "quote": "OpenRouter automatically falls back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1573.468,
+            1576.03
+          ],
+          "quote": "But does OpenRouter as part of Stripe exist in five years?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2320.671,
+            2323.452
+          ],
+          "quote": "Listen, if you're OpenRouter, you didn't even have a 2027 roadmap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 791,
+          "t": [
+            2814.309,
+            2817.369
+          ],
+          "quote": "You see Cursor for details, see OpenRouter for details, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 918,
+          "t": [
+            3303.446,
+            3305.306
+          ],
+          "quote": "My God, it's OpenRouter, 192x revenue.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说 Stripe 以 70 亿美元收购 OpenRouter，逻辑与其现有业务一致：收资金流的一小部分来管理信用卡收款复杂性，现在收 AI 调用流的一小部分来管理模型路由复杂性。同时 Stripe 还在谈收购 PayPal，一步打入新地盘、一步巩固旧地盘，全部在私有状态下完成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1064.08,
+            1068.261
+          ],
+          "quote": "You can see intuitively how Stripe get there from here, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1138.148,
+            1156.538
+          ],
+          "quote": "It doesn't make any sense on a DCF2U basis, but makes huge sense to the acquirer, because just like Elon will turn Cursor into money cash flow far quicker than Cursor could have turned Cursor into cash flow, I'm willing to bet Stripe will turn OpenRouter into money probably quicker than OpenRouter could do on a standalone basis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1180.304,
+            1182.265
+          ],
+          "quote": "Screw it, I want to be in Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1243.519,
+            1249.184
+          ],
+          "quote": "It's so important to price, but it's irrelevant because it's all about what Stripe can make out of OpenRouter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1256.108,
+            1258.569
+          ],
+          "quote": "But then it's like Stripe, what's OpenRouter doing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1260.25,
+            1262.151
+          ],
+          "quote": "Stripe does not care for that money.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1270.596,
+            1273.098
+          ],
+          "quote": "Stripe actually appears to be very good at acquisitions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1373.091,
+            1378.413
+          ],
+          "quote": "But I think Stripe is, hey, listen, any transaction on planet Earth, we can take 2 point something percent of, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1388.356,
+            1396.843
+          ],
+          "quote": "It's a niche product with two really good niches, but this is the risk to Stripe is that they end up owning a niche, a successful niche product, and their DNA is not niche.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1531.531,
+            1534.631
+          ],
+          "quote": "The great thing about the core Stripe product is all payments are equal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1567.244,
+            1573.308
+          ],
+          "quote": "But I think there's a high chance, more than 51% chance it builds into a 20 or 30% revenue stream for Stripe and that's enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1573.468,
+            1576.03
+          ],
+          "quote": "But does OpenRouter as part of Stripe exist in five years?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1580.124,
+            1591.11
+          ],
+          "quote": "This product itself, if it does exist, it'll be deep in a dropdown menu on the top of Stripe, like 11 layers down, because it'll be subsumed into the whole sort of token management platform, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1599.235,
+            1604.678
+          ],
+          "quote": "What's fun about Stripe right now is they're doing that acquisition, which is very much a, hey, we don't play in this space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1628.815,
+            1650.365
+          ],
+          "quote": "Well, at the same time, if they get the PayPal deal done, that's the kind of deal you have a high, to Jason's point, if you're good at M&A and good at consolidation, you probably have a high degree of visibility that you keep those revenues, that you remove the entire G&A, you get more of a two-sided network because you have consumer wallets, which Stripe doesn't have, and you've done core consolidation acquisitions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1663.229,
+            1668.49
+          ],
+          "quote": "I know they got the investors to take Stripe stock in the open router deal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1682.154,
+            1684.935
+          ],
+          "quote": "Stripe's corp dev team need a bonus at Christmas time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic Q2 收入 115 亿美元，首次实现盈利，毛利率约 40%，单季毛利润约 40 亿。节目重点拆解了其内部目标——2028 年 2000 亿美元 ARR、次年 6000 亿——认为 2000 亿在美国市场勉强可达，但 6000 亿是'硬编码，无法达到'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            543.899,
+            548.182
+          ],
+          "quote": "70%, 80% of Anthropic's trillion dollar market cap is predicated on this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            855.714,
+            860.136
+          ],
+          "quote": "Now, subsequently, they've also been able to rent that compute to Anthropic and Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            868.92,
+            870.461
+          ],
+          "quote": "They got lots of contracts with Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1094.35,
+            1106.035
+          ],
+          "quote": "And a lot of their lift recently has come from, even on their payments business, has come from just their customer base being so AI forward that every time you spend money with OpenAI or Anthropic on a credit card, they get some of that money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1121.522,
+            1131.346
+          ],
+          "quote": "But it turns out, in an early land grab, when people are moving, remember, the metamarket here is growing 10x year on year, if you take Anthropic's growth rate as the big picture comment here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1166.621,
+            1178.204
+          ],
+          "quote": "When things are moving as fast as they are now, you're going to see, in my view, until such time as you see the correction and the acquirer currency diminishes, you're going to see a whole bunch of people like Anthropic say, screw it, I want to be in world models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1462.508,
+            1474.312
+          ],
+          "quote": "But you're right, if JP Morgan says, I want more than just Anthropic, but I'm not gonna qualify 10 models, I'm just gonna work with Poolside as my plan B and then offload the rest to something else, then you're right.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1691.579,
+            1697.582
+          ],
+          "quote": "Anthropic turns its first profit on $11.5 billion of Q2 revenue.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 502,
+          "t": [
+            1791.4,
+            1797.683
+          ],
+          "quote": "I think the other question is, as we gear up for an IPO, which could be very imminent, right, is what numbers does Anthropic get away with, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 512,
+          "t": [
+            1831.658,
+            1833.578
+          ],
+          "quote": "I think it's important for Anthropic it get ignored.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 549,
+          "t": [
+            1961.558,
+            1967.508
+          ],
+          "quote": "What would it take in usage for Anthropic to hit the $200 billion in ARR plan for 2028 and then $600 billion in the next year?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            1978.775,
+            1983.797
+          ],
+          "quote": "If Anthropic has 100% market share at $200, that's $200 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 553,
+          "t": [
+            1984.057,
+            1988.339
+          ],
+          "quote": "If Anthropic has 300% market share, that's $600 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2187.565,
+            2190.568
+          ],
+          "quote": "Well, yeah, I mean, sorry, that's Anthropic's estimate for next year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2419.73,
+            2441.554
+          ],
+          "quote": "In terms of going public, especially if you have some kind of near profitability story or bouncing around profitability, I think it's a far more attractive strategic position to be going out as Anthropic in the fall with a, we've been profitable, OK, we're on profit again, but we're the winner in the enterprise, than going out next year where maybe the growth rates have started to slow both for Anthropic and the public markets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2462.419,
+            2472.642
+          ],
+          "quote": "And they've had to do so much to say, listen, we're going to go public second, and then we're going to have a comp out there, and the comp is what it is, and we may not trade with the hype that SpaceX and Anthropic did, and the world will not end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 703,
+          "t": [
+            2522.976,
+            2524.757
+          ],
+          "quote": "Let's say Anthropic is public at 2 trillion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 750,
+          "t": [
+            2662.576,
+            2664.537
+          ],
+          "quote": "I mean, Anthropic's past that now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 917,
+          "t": [
+            3299.904,
+            3303.386
+          ],
+          "quote": "Who cares about that stock-based comp or anything at Anthropic?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workday",
+      "type": "company",
+      "role": "company",
+      "name": "Workday",
+      "file": "Workday",
+      "primary": true,
+      "how_described": "本集说 Silverlake 以 430 亿美元、约 5.3 倍收入将 Workday 私有化，是 SaaS 史上最大收购之一。节目指出 Workday 的优势在于它是一个极其封闭的记录系统，客户难以被第三方智能体吸走价值，但警告'客户是囚犯不代表会多花一分钱'，CIO 反而想砍支出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1231.347,
+            1236.592
+          ],
+          "quote": "If Workday goes private, exactly what its DCF will look like in 2032 is so important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 525,
+          "t": [
+            1874.432,
+            1884.538
+          ],
+          "quote": "Because the reason you worry about stock-based comp is because in a steady state, like Workday, we can talk about that in a second, if you're giving someone 500 grand every year to show up and be a middle manager,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            1936.264,
+            1941.026
+          ],
+          "quote": "That SBC stock-based comp in Workday or Salesforce, that's real money that people are spending.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 759,
+          "t": [
+            2694.079,
+            2701.364
+          ],
+          "quote": "I don't imagine Workday's quite at the cutting edge like two of your companies at 2027 already hitting those goals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 760,
+          "t": [
+            2701.684,
+            2709.089
+          ],
+          "quote": "And Silverlake circles a $43 billion take private bid for Workday, one of the biggest SaaS buyouts ever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 802,
+          "t": [
+            2858.667,
+            2863.733
+          ],
+          "quote": "It's great to have a system of record, which Workday has, even with AI, and LLMs help.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 807,
+          "t": [
+            2881.803,
+            2883.583
+          ],
+          "quote": "We know pretty much where workday is going to be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 819,
+          "t": [
+            2919.037,
+            2923.7
+          ],
+          "quote": "If he creates the agentic version of Workday, they at least have the founder back in the saddle doing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 830,
+          "t": [
+            2974.772,
+            2986.24
+          ],
+          "quote": "And what Workday says is if you've got 30% operating margins, modest growth, but you're a system of record where you really can believe in the next five years, then if you're lucky, you get 5.3 times revenues.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 835,
+          "t": [
+            2998.385,
+            3005.708
+          ],
+          "quote": "Workday has something that makes it a better deal for PE that I think than anybody else on the target list, which is that it is a somewhat closed system of record.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3020.575,
+            3021.736
+          ],
+          "quote": "Try building on Workday.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 852,
+          "t": [
+            3065.472,
+            3068.613
+          ],
+          "quote": "But Workday is so closed, they've got a leg up, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 858,
+          "t": [
+            3089.589,
+            3091.971
+          ],
+          "quote": "You can't name the equivalent with any E's in Workday.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3105.965,
+            3111.451
+          ],
+          "quote": "Whatever dollars are in that ecosystem, if they're careful and shrewd, Workday will get most of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 902,
+          "t": [
+            3245.995,
+            3247.335
+          ],
+          "quote": "Workday doesn't have to run that fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 931,
+          "t": [
+            3349.182,
+            3355.946
+          ],
+          "quote": "Some of these PE deals were done four or five years ago at 10 or 12 times revenues for not as good a quality asset as workday today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 948,
+          "t": [
+            3416.17,
+            3417.99
+          ],
+          "quote": "But it's going to happen a lot faster than Workday.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "silverlake",
+      "type": "company",
+      "role": "company",
+      "name": "Silverlake",
+      "file": "Silverlake",
+      "primary": false,
+      "how_described": "本集说 Silverlake 以 430 亿美元、约 5.3 倍收入（16 倍过往 EBITDA）将 Workday 私有化，做的是精确的金融工程——只要收入保持 13% 增长、利润率稳定，五年还清债务，大概能做 20% IRR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 760,
+          "t": [
+            2701.684,
+            2709.089
+          ],
+          "quote": "And Silverlake circles a $43 billion take private bid for Workday, one of the biggest SaaS buyouts ever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 786,
+          "t": [
+            2799.725,
+            2801.646
+          ],
+          "quote": "Because first of all, I think Silverlake are wildly smart.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 810,
+          "t": [
+            2888.684,
+            2892.945
+          ],
+          "quote": "There is a little bit of upside in this deal, which I don't know if it's part of Silverlake's calculation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 817,
+          "t": [
+            2908.752,
+            2915.675
+          ],
+          "quote": "So I don't think Silverlake is planning on Anil like radically changing it, but I think if he does, there's real upside to this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 820,
+          "t": [
+            2923.78,
+            2926.621
+          ],
+          "quote": "And that would make me feel a lot better if I were Silverlake that I have upside.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 871,
+          "t": [
+            3137.963,
+            3139.724
+          ],
+          "quote": "But Silverlake are smart, and Neil's smart.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说 Microsoft 是 Cursor 被收购后最应该紧张的公司，因为 Steve Ballmer 当年喊'开发者、开发者、开发者'，现在 GitHub 已经变成了落后产品，Microsoft 失去了跟开发者的连接，在 AI 编码成为主流的世界里，这对 Microsoft 来说是中期内 100% 生死攸关的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            910.392,
+            911.132
+          ],
+          "quote": "is Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            932.999,
+            942.782
+          ],
+          "quote": "But if you wanted to name people who should want to own a leading state-of-the-art coding product in this brave new world, clearly, the number one person is Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            952.504,
+            954.965
+          ],
+          "quote": "It's 100% existential over the medium term for Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            955.354,
+            960.157
+          ],
+          "quote": "Is there a fantastic tweet that said Satya should buy it and then make Scott the CEO of Microsoft?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            960.498,
+            966.402
+          ],
+          "quote": "I thought that would be a rather ridiculous thing to replace himself, but I actually thought Scott would be a rather brilliant CEO of Microsoft.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集说 Meta 与 SpaceX 一样符合'有大量算力、但没有直接面向用户业务'的特征，本可以像 SpaceX 那样收购 Cursor 来解决问题，但没有这么做，原因包括需要掏 700-800 亿美元现金、以及有司法部反垄断审查的包袱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            415.409,
+            424.818
+          ],
+          "quote": "And yes, if the logic is, hey, you've got a whole bunch of compute, but not an obvious business on top, the two people for whom that's true are Meta and SpaceX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            425.139,
+            427.962
+          ],
+          "quote": "And you're right, SpaceX did it and Meta did not, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            446.499,
+            453.006
+          ],
+          "quote": "I don't know if the seller would have had the same confidence that Meta would have gotten through, just given their DOJ.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            462.374,
+            469.801
+          ],
+          "quote": "And I mean, yes, Meta is relevant here in terms of fitting the characteristics of lots of compute, no compute business on top.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            492.62,
+            496.222
+          ],
+          "quote": "A net accrete of day one, in a way that probably wouldn't be as true for Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            616.521,
+            618.283
+          ],
+          "quote": "And on the meta thing, it's just a detail.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            825.901,
+            827.481
+          ],
+          "quote": "And I would not want to land at Meta today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            834.736,
+            839.541
+          ],
+          "quote": "Do you think Amazon or Meta go, eh, we'll take Cognition instead?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            883.326,
+            886.486
+          ],
+          "quote": "Meta, that to me is more a, again, unlikely.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            950.024,
+            952.224
+          ],
+          "quote": "I definitely don't think it's existential for Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1011,
+          "t": [
+            3616.272,
+            3624.777
+          ],
+          "quote": "The one meta learning for me is I do think, took me a little while to see this, I do think these products today, not forever, maybe only for six months, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集在讨论 Anthropic 上市时机时提到 OpenAI，说 OpenAI 不得不整顿内部、有更多高管动荡，上半年增速比其之前的初级竞争对手慢，可能被迫第二个上市，届时可能无法像 SpaceX 和 Anthropic 那样伴随炒作交易。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            273.145,
+            290.6
+          ],
+          "quote": "OpenAI's startup fund is a mega winner, who invested $6 to $8 million very early, which, Rory, I thought of you when you said before about Elon Musk giving Sam billions of dollars through gritted teeth, and many others, Thrive and Andreessen, most importantly, netting huge returns.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1094.35,
+            1106.035
+          ],
+          "quote": "And a lot of their lift recently has come from, even on their payments business, has come from just their customer base being so AI forward that every time you spend money with OpenAI or Anthropic on a credit card, they get some of that money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2451.736,
+            2457.938
+          ],
+          "quote": "I think OpenAI has had to get their house together, more executive turmoil, apparently a great last 30 days, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2526.058,
+            2530.901
+          ],
+          "quote": "OpenAI is going to be able to sell stock at a discount to its implicit valuation before it goes public.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2535.884,
+            2538.525
+          ],
+          "quote": "OpenAI is going to be able to sell stock next year at 1.8.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2544.709,
+            2563.269
+          ],
+          "quote": "And look, I'm not catastrophizing here, but I think the interesting thing is if you're the smaller market cap company and you have the bigger capital need, which right now OpenAI does because they have a more ambitious capital need target, now would you prefer to be the guy trading at $1.5 trillion who only needs to raise $100 billion or the guy trading at $1 trillion who needs to raise $300 trillion?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 723,
+          "t": [
+            2591.467,
+            2594.329
+          ],
+          "quote": "I just think Sam and the OpenAI team have said this is our fate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 751,
+          "t": [
+            2664.857,
+            2667.299
+          ],
+          "quote": "OpenAI has passed that, so you don't want to hire kids.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集将 Salesforce 与 Workday 对比，说 Salesforce 是一个很大程度上开放的平台，你可以在上面构建自己的智能体，但这意味着智能体可以连接任何东西包括竞争对手，价值会被智能体吸走。相比之下 Workday 极其封闭，反而有更多缓冲。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 539,
+          "t": [
+            1936.264,
+            1941.026
+          ],
+          "quote": "That SBC stock-based comp in Workday or Salesforce, that's real money that people are spending.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            2644.652,
+            2646.652
+          ],
+          "quote": "Just had enough of this Salesforce crap, right or wrong?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 743,
+          "t": [
+            2646.872,
+            2652.434
+          ],
+          "quote": "Actually, if you look across all of AI, a ton of Salesforce executives have been recruited, right, to come in and help.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            2653.774,
+            2658.075
+          ],
+          "quote": "Like, I used to make fun of how back in the day Salesforce hired Oracle executives because they took shots at Oracle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 747,
+          "t": [
+            2659.576,
+            2660.776
+          ],
+          "quote": "What is Salesforce at?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 753,
+          "t": [
+            2669.981,
+            2672.143
+          ],
+          "quote": "So Salesforce is about it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3005.928,
+            3011.651
+          ],
+          "quote": "Now Salesforce is out there working their frigging tails off because they are a muchly open platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 837,
+          "t": [
+            3011.671,
+            3014.252
+          ],
+          "quote": "You can build your own agents on top of Salesforce tomorrow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 839,
+          "t": [
+            3016.433,
+            3017.574
+          ],
+          "quote": "Are built on top of Salesforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 840,
+          "t": [
+            3017.594,
+            3020.355
+          ],
+          "quote": "They're not necessarily only on Salesforce, but it's open.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 853,
+          "t": [
+            3068.773,
+            3070.454
+          ],
+          "quote": "Jason, how open is Salesforce?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 855,
+          "t": [
+            3073.897,
+            3075.338
+          ],
+          "quote": "Shopify and Salesforce are pretty open.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 856,
+          "t": [
+            3075.398,
+            3078.681
+          ],
+          "quote": "The three of us, we can use OAuth to ship a Salesforce app tomorrow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 857,
+          "t": [
+            3079.081,
+            3089.389
+          ],
+          "quote": "Just to prove that, Harry, really quickly is that, look, there's a bunch of companies, even in pre-LLM world, like Gong, Outreach, Salesforce, that are all effectively built on top of the Salesforce platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 885,
+          "t": [
+            3197.57,
+            3199.651
+          ],
+          "quote": "Just one last thing on this versus Salesforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 887,
+          "t": [
+            3201.412,
+            3203.374
+          ],
+          "quote": "So we run Salesforce entirely headless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 889,
+          "t": [
+            3207.297,
+            3208.998
+          ],
+          "quote": "It runs Salesforce under the hood.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 890,
+          "t": [
+            3209.278,
+            3211.94
+          ],
+          "quote": "Pro is it makes Salesforce much more powerful than it ever was.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 891,
+          "t": [
+            3211.96,
+            3213.641
+          ],
+          "quote": "Like I didn't log into Salesforce for seven years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 898,
+          "t": [
+            3233.286,
+            3234.767
+          ],
+          "quote": "Salesforce has said you can be headless.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "paypal",
+      "type": "company",
+      "role": "company",
+      "name": "PayPal",
+      "file": "PayPal",
+      "primary": false,
+      "how_described": "本集顺带提到 Stripe 同时在谈收购 PayPal，说这是'巩固已有地盘的整合'，与收购 OpenRouter 打入新地盘是两步同时走的棋。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 459,
+          "t": [
+            1607.039,
+            1611.703
+          ],
+          "quote": "And at the same time, they're talking about a PayPal acquisition, which is very much, we own this space already.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1628.815,
+            1650.365
+          ],
+          "quote": "Well, at the same time, if they get the PayPal deal done, that's the kind of deal you have a high, to Jason's point, if you're good at M&A and good at consolidation, you probably have a high degree of visibility that you keep those revenues, that you remove the entire G&A, you get more of a two-sided network because you have consumer wallets, which Stripe doesn't have, and you've done core consolidation acquisitions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            1670.351,
+            1673.712
+          ],
+          "quote": "And the PayPal deal is more complex and probably requires more thought.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说 Claude Code 出来后，似乎所有人都从 Cursor 跑了，'Cursor 死了'，但 Cursor 随后通过接入多模型扭转了局面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            307.539,
+            311.304
+          ],
+          "quote": "I don't even remember if Claude Code existed when we started the show or not, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            318.855,
+            321.519
+          ],
+          "quote": "Claude Code comes out and it seems like everybody's moved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            351.998,
+            354.359
+          ],
+          "quote": "Oh my God, fucking Claude Code came out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            870.481,
+            876.383
+          ],
+          "quote": "They basically have the compute for Claude Code, so they're basically getting the inference side revenue for that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集在讨论 Cursor 被收购后的连锁反应时提到 Cognition，说市场上第二名现在可以说是 Cognition，但经验是第一名被买走后不会引发抢地盘式的军备竞赛，而是收购者发现'我以为我还有时间'，然后转头去买第二名和第三名。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 236,
+          "t": [
+            834.736,
+            839.541
+          ],
+          "quote": "Do you think Amazon or Meta go, eh, we'll take Cognition instead?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            839.781,
+            844.605
+          ],
+          "quote": "Is there a knock-on effect for the second player in market, which I think arguably now would be Cognition?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            978.07,
+            981.232
+          ],
+          "quote": "It doesn't actually get everyone else to say, hey, I've got to go buy Cognition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            3584.488,
+            3585.869
+          ],
+          "quote": "You've got the cognition style.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集说 Lovable 从 Menlo 融了新轮，ARR 在 6-7 亿美元范围，估值 133 亿美元，认为它与 Cursor 的倍数并没有根本性偏离。Lovable 已经杀出一条路成为大局上的编码替代方案，并且开始积累护城河。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 396,
+          "t": [
+            1382.294,
+            1388.116
+          ],
+          "quote": "But in the world of routing, which everybody does, Databricks does, Replit does it, Lovable does it, Vercel does it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 951,
+          "t": [
+            3431.463,
+            3434.605
+          ],
+          "quote": "And then you have Lovable, who raised a new round from Menlo.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 956,
+          "t": [
+            3448.756,
+            3452.778
+          ],
+          "quote": "Well, you know, on the Lovable thing, the thing I was thinking, I mean, it's so crazy since when we started the show, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 957,
+          "t": [
+            3452.798,
+            3457.741
+          ],
+          "quote": "And Lovable and Replit were both raised in like 2 billion and were really terrible products when we started the show.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 976,
+          "t": [
+            3508.485,
+            3514.128
+          ],
+          "quote": "I'm closer to Lovable, but they both just launched automatic deep pen penetration as part of their products, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 984,
+          "t": [
+            3529.395,
+            3533.136
+          ],
+          "quote": "It's just a comp, and I don't think this is such a bad comp for lovable to Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 989,
+          "t": [
+            3550.6,
+            3561.57
+          ],
+          "quote": "And you guys know what both of them have done really well is parlay that kind of massive bottom end demand for AI in Lovable's case for website building and coding in Higgsfield's case for video.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 998,
+          "t": [
+            3577.964,
+            3583.328
+          ],
+          "quote": "Lovable have punched their way into being a big picture coding alternative.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1002,
+          "t": [
+            3586.81,
+            3588.431
+          ],
+          "quote": "You've got the Lovable replica style.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1004,
+          "t": [
+            3589.893,
+            3597.298
+          ],
+          "quote": "But in the big picture comment of the thing AI does best is write code, Lovable is a tool that uses that to write a lot of code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1026,
+          "t": [
+            3672.268,
+            3674.69
+          ],
+          "quote": "Lovable and Replit have become talent magnets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1047,
+          "t": [
+            3730.949,
+            3737.852
+          ],
+          "quote": "If two years ago, it is probable that someone could have built a lovable competitor with the features they then had relatively quickly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集提到 Replit 在做模型路由，说'在路由这个领域，人人都在做，Databricks 在做，Replit 在做，Lovable 在做，Vercel 也在做'。还说 Lovable 和 Replit 已经变成了人才磁铁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 396,
+          "t": [
+            1382.294,
+            1388.116
+          ],
+          "quote": "But in the world of routing, which everybody does, Databricks does, Replit does it, Lovable does it, Vercel does it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 957,
+          "t": [
+            3452.798,
+            3457.741
+          ],
+          "quote": "And Lovable and Replit were both raised in like 2 billion and were really terrible products when we started the show.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1026,
+          "t": [
+            3672.268,
+            3674.69
+          ],
+          "quote": "Lovable and Replit have become talent magnets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1027,
+          "t": [
+            3674.71,
+            3676.452
+          ],
+          "quote": "I mean, I know the team at Replit better.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集在讨论 DOJ 对 Andreessen Horowitz 的调查时提到 Databricks，说 Andreessen 的人在 Databricks 董事会，也在 Fivetran 董事会，现在这两家公司成了竞争对手，触发了《克莱顿法案》第 8 条。另外也提到 Databricks 在做模型路由。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 396,
+          "t": [
+            1382.294,
+            1388.116
+          ],
+          "quote": "But in the world of routing, which everybody does, Databricks does, Replit does it, Lovable does it, Vercel does it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1103,
+          "t": [
+            3959.12,
+            3964.004
+          ],
+          "quote": "Because Andreessen's on the board of Databricks and they're also on the board of, I think it's Fivetran, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1134,
+          "t": [
+            4071.277,
+            4086.361
+          ],
+          "quote": "And what they're hypothesizing absurdly is that the Databricks guy and the Fivetran guy get together and they say, why don't we raise the price of tools, of AI tools, and we'll stick it to all our consumers like JP Morgan and B of A and whatever, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1139,
+          "t": [
+            4098.125,
+            4105.028
+          ],
+          "quote": "And do we really think that Databricks and Fivetran, or DBT, are colluding about the price of data tools?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1144,
+          "t": [
+            4113.271,
+            4119.781
+          ],
+          "quote": "Yeah, I mean, if Martin Cassato had to step off the board of Fivetran after exiting Cursor at $60 billion, it's probably okay, given their position in Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            4123.086,
+            4125.27
+          ],
+          "quote": "We're sitting on $200 billion at Databricks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rippling",
+      "type": "company",
+      "role": "company",
+      "name": "Rippling",
+      "file": "Rippling",
+      "primary": false,
+      "how_described": "本集说 Rippling 公开发布了他们作为 B2B 参与者对使用模型的看法，测了一圈后只选了两个模型（Opus 4.8 和 GPT 5.5 medium），其余的'不值得'，一次只管理两三个模型而不是十二个。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 417,
+          "t": [
+            1476.793,
+            1482.095
+          ],
+          "quote": "Yeah, like for example, like this week, Rippling posted their view as a B2B player of what models they use, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1482.115,
+            1486.937
+          ],
+          "quote": "And they had it all and they said, in the world world across Rippling, we looked at two things that were best for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1497.761,
+            1500.202
+          ],
+          "quote": "And they said the rest isn't worth it for Rippling today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1510.206,
+            1513.887
+          ],
+          "quote": "And even if you're rippling scale, managing 12 models is too much.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "airtable",
+      "type": "company",
+      "role": "company",
+      "name": "Airtable",
+      "file": "Airtable",
+      "primary": false,
+      "how_described": "本集说 Airtable 被 bending spoons 收购，作为没有记录系统护城河的 SaaS 定价基准——约 2.7 倍收入，远低于 Workday 的 5.3 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 828,
+          "t": [
+            2961.342,
+            2968.467
+          ],
+          "quote": "If the Airtable bending spoons give you an idea of what it is if you just, you know, if you don't have that kind of system of record, you get 2.7.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 942,
+          "t": [
+            3391.103,
+            3397.905
+          ],
+          "quote": "If you look at it like a more SMB version, I'm not saying how widespread it is, but if you look on social media, a lot of folks are like, okay, I'm lifting off Airtable now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 946,
+          "t": [
+            3407.467,
+            3413.169
+          ],
+          "quote": "I mean, bending spoons may lose 20% of Airtable's customers who finally spend a week lifting off of Airtable.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集多次讨论智能体：说在智能体世界里，到 2026 年 8 月如果还没深入到 2027 年的路线图中，团队就不够优秀无法生存；提到每个工程师配 10 万美元 tokens 用于全天候并行跑 10 个智能体做推理；讨论 Workday 封闭系统能缓冲智能体对增长的损害，而开放平台如 Salesforce 上的第三方智能体会吸走价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            204.818,
+            211.783
+          ],
+          "quote": "It's a single unified agent that works across your entire customer experience from service to sales to success and beyond.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            211.963,
+            216.806
+          ],
+          "quote": "Finn is the agent making perfect customer experiences possible for thousands of customers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 48,
+          "t": [
+            221.589,
+            226.253
+          ],
+          "quote": "So it understands the nuance and complexity of customer service better than any other agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 851,
+          "t": [
+            3049.028,
+            3065.272
+          ],
+          "quote": "I want the most closed system that can't churn because the reason system of records aren't that great is because you need your system record, but if you're remotely open and you can produce a better agent yourself or a third party, the value will extract to the agent even if the system of record is retained.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 888,
+          "t": [
+            3203.674,
+            3207.177
+          ],
+          "quote": "So we have our own agent, 10K, our own AI VP of revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 892,
+          "t": [
+            3213.761,
+            3216.083
+          ],
+          "quote": "Now I log in every day because I have an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 893,
+          "t": [
+            3216.328,
+            3218.55
+          ],
+          "quote": "Con, it can connect anything, the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 894,
+          "t": [
+            3218.67,
+            3226.078
+          ],
+          "quote": "It literally can connect to any other agent, including competitors, including other data sources, data lakes, data everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 895,
+          "t": [
+            3226.098,
+            3227.099
+          ],
+          "quote": "The agent doesn't care.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1216,
+          "t": [
+            4340.125,
+            4347.073
+          ],
+          "quote": "It's a single unified agent that works across your entire customer experience from service to sales to success and beyond.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1217,
+          "t": [
+            4347.253,
+            4352.097
+          ],
+          "quote": "Finn is the agent making perfect customer experiences possible for thousands of customers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1218,
+          "t": [
+            4352.277,
+            4361.564
+          ],
+          "quote": "It's powered by custom models, trained on years of real customer interactions, so it understands the nuance and complexity of customer service better than any other agent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说'10 万的推理，你就可以雇佣这么多工程师'，将推理支出作为 AI 支出的核心指标；还提到 Amazon 基本上拥有 Claude Code 的计算资源，获得了那方面的推理收入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            870.481,
+            876.383
+          ],
+          "quote": "They basically have the compute for Claude Code, so they're basically getting the inference side revenue for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2158.141,
+            2161.224
+          ],
+          "quote": "For running inference 24-7 with 10 agents in parallel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2290.398,
+            2293.599
+          ],
+          "quote": "100 grand of inference and you get to hire this many engineers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-drift",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型漂移 (model drift)",
+      "file": "模型漂移",
+      "primary": true,
+      "how_described": "本集说在高精度的 B2B 工作流中，你不能在 Kimi、Quen、Opus 之间来回跳，那会导致模型漂移，输出不一致，你得重新做 QA 和验证。'即使只是从一个 Opus 模型切换到另一个，它也会漂移。'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 380,
+          "t": [
+            1340.256,
+            1345.078
+          ],
+          "quote": "You're going to bounce back to one or two models because you can't have model drift.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-of-record",
+      "type": "concept",
+      "role": "concept",
+      "name": "记录系统 (system of record)",
+      "file": "记录系统",
+      "primary": true,
+      "how_described": "本集说记录系统是护城河但不是通往增长的门票——'拥有记录系统……很难流失，但这绝不意味着我想向那个供应商花更多的钱'。Workday 作为封闭的记录系统，客户更难被第三方吸走价值，但 CIO 反而想砍支出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 800,
+          "t": [
+            2850.177,
+            2854.442
+          ],
+          "quote": "I don't think system of record is, I think it's a moat, but I don't think it's a ticket to growth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 802,
+          "t": [
+            2858.667,
+            2863.733
+          ],
+          "quote": "It's great to have a system of record, which Workday has, even with AI, and LLMs help.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 824,
+          "t": [
+            2933.185,
+            2939.428
+          ],
+          "quote": "In other words, what this says is financial minds will pay five times revenues for system of record growing at 13%.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 825,
+          "t": [
+            2940.689,
+            2945.032
+          ],
+          "quote": "Anything that's not a system of record, anything that's not growing as fast, price accordingly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 828,
+          "t": [
+            2961.342,
+            2968.467
+          ],
+          "quote": "If the Airtable bending spoons give you an idea of what it is if you just, you know, if you don't have that kind of system of record, you get 2.7.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 830,
+          "t": [
+            2974.772,
+            2986.24
+          ],
+          "quote": "And what Workday says is if you've got 30% operating margins, modest growth, but you're a system of record where you really can believe in the next five years, then if you're lucky, you get 5.3 times revenues.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 835,
+          "t": [
+            2998.385,
+            3005.708
+          ],
+          "quote": "Workday has something that makes it a better deal for PE that I think than anybody else on the target list, which is that it is a somewhat closed system of record.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 850,
+          "t": [
+            3043.507,
+            3048.108
+          ],
+          "quote": "And so I would want system of record, churn impossible, closed AF.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 851,
+          "t": [
+            3049.028,
+            3065.272
+          ],
+          "quote": "I want the most closed system that can't churn because the reason system of records aren't that great is because you need your system record, but if you're remotely open and you can produce a better agent yourself or a third party, the value will extract to the agent even if the system of record is retained.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 896,
+          "t": [
+            3227.46,
+            3230.683
+          ],
+          "quote": "It's really a weird world as a system of record or a core system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 904,
+          "t": [
+            3255.568,
+            3259.491
+          ],
+          "quote": "It's a shrewd deal because it's the best mode out there with the system of record.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说模型路由是 OpenRouter 的核心业务，企业通过单个 API 运行数十甚至数百个不同模型。但指出其有边界：聊天机器人可以随便切模型，高精度 B2B 工作流不敢切；而且'人人都在做路由，Databricks 在做，Replit 在做，Lovable 在做，Vercel 也在做'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 381,
+          "t": [
+            1345.198,
+            1349.32
+          ],
+          "quote": "You can't be routing from Kimi to Quen to 4.6 to Fable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1382.294,
+            1388.116
+          ],
+          "quote": "But in the world of routing, which everybody does, Databricks does, Replit does it, Lovable does it, Vercel does it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1418.801,
+            1420.323
+          ],
+          "quote": "So you are going to want some kind of routing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1427.809,
+            1434.555
+          ],
+          "quote": "Here, maybe I want to be multi-model, but maybe I only want two or three models, and therefore, I don't need this kind of routing functionality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1621.35,
+            1626.894
+          ],
+          "quote": "There's probably a one in three chance that they have a massive AI routing business in five years.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tokens",
+      "type": "concept",
+      "role": "concept",
+      "name": "tokens",
+      "file": "tokens",
+      "primary": false,
+      "how_described": "本集说'我认为我们会给我们最好的每位工程师 10 万美元的 tokens'，作为 AI 支出的锚点指标，用于全天候并行跑 10 个智能体做推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            37.822,
+            40.664
+          ],
+          "quote": "I think we'll give each of our best engineers $100,000 of tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            380.691,
+            388.792
+          ],
+          "quote": "When we started the show, it'd be like, well, Cursor's a joke because they're selling a dollar's worth of tokens for $0.80 or $0.50 to the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2145.904,
+            2147.506
+          ],
+          "quote": "$100,000 of tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2389.087,
+            2399.658
+          ],
+          "quote": "So the TAM is significantly bigger than just developers, because you have lawyers, but I think lawyers won't... Look, the K&E guy who's pulling 2 million a year as a partner isn't going to be doing 200Ks worth of tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2399.978,
+            2401.819
+          ],
+          "quote": "It's definitely not going to be doing a million dollars worth of tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2402.139,
+            2407.242
+          ],
+          "quote": "A lawyer would die before they gave a million dollars of tokens instead of a million dollars of take-home pay.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "colossus",
+      "type": "concept",
+      "role": "concept",
+      "name": "Colossus",
+      "file": "Colossus",
+      "primary": false,
+      "how_described": "本集说'你的毛利率问题是我 Colossus 集群的收入机会'，指 Elon Musk 建设的大规模 GPU 计算集群，SpaceX 收购 Cursor 后可以用自己的算力解决其负毛利问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            4.875
+          ],
+          "quote": "Your gross margin problem is my revenue opportunity for my Colossus cluster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            589.408,
+            594.971
+          ],
+          "quote": "Because he's like, your gross margin problem is my revenue opportunity for my Colossus cluster.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gross-margin",
+      "type": "concept",
+      "role": "concept",
+      "name": "毛利率 (gross margin)",
+      "file": "毛利率",
+      "primary": false,
+      "how_described": "本集说 Cursor 卖一美元的 tokens 只收 0.50 到 0.80 美元，毛利率是负的，这个问题从头到尾都是真的，只是被乐观情绪淹没了。'一旦收入停止上升，所有赌注都取消。'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            4.875
+          ],
+          "quote": "Your gross margin problem is my revenue opportunity for my Colossus cluster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            376.39,
+            380.53
+          ],
+          "quote": "And it went from something earlier in the show, it looked like it would be gross margin negative, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            500.045,
+            507.37
+          ],
+          "quote": "But one of the things for me is, if you zoom out, I'm just reflecting back on Jason's comment on the gross margin negativity, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            548.662,
+            564.075
+          ],
+          "quote": "If you have the number two player in that space and you're growing hyper fast, then even though, yeah, you got gross margin challenges, especially in a kind of optimistic, forward-looking market, the buyer's going to look past that and say, there's only one or two ways to play in this space at a meaningful level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            577.103,
+            589.208
+          ],
+          "quote": "But in this market, they were able to go balls out, for lack of a better word, have those tough gross margin stories, and then find a buyer who not only was willing to look through it, but actually had every ability to solve it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            589.408,
+            594.971
+          ],
+          "quote": "Because he's like, your gross margin problem is my revenue opportunity for my Colossus cluster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            1738.566,
+            1740.227
+          ],
+          "quote": "4 billion of gross margin, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 492,
+          "t": [
+            1748.289,
+            1756.712
+          ],
+          "quote": "I mean, yeah, they 12x-ed growth, which means they probably 14x-ed gross margin if it continued to increase even slightly, and the trajectory has been increasing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            1786.619,
+            1790.94
+          ],
+          "quote": "I mean, revenue with any kind of decent gross margin cures almost all ills.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "arr",
+      "type": "concept",
+      "role": "concept",
+      "name": "ARR",
+      "file": "ARR",
+      "primary": false,
+      "how_described": "本集重点讨论 Anthropic 的 ARR 天花板：内部目标是 2028 年 2000 亿美元、次年 6000 亿美元，通过拆解美国知识工作者数量、薪酬和 AI 支出比例来推算可行性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 549,
+          "t": [
+            1961.558,
+            1967.508
+          ],
+          "quote": "What would it take in usage for Anthropic to hit the $200 billion in ARR plan for 2028 and then $600 billion in the next year?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 950,
+          "t": [
+            3421.753,
+            3431.162
+          ],
+          "quote": "Two big fundraisers from Higgs Field, who raised at a $5.5 billion price from DST, and they hit $700 million in ARR.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 952,
+          "t": [
+            3434.926,
+            3439.75
+          ],
+          "quote": "They're around the $600-700 million ARR range too, raising at a $13.3 billion price.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

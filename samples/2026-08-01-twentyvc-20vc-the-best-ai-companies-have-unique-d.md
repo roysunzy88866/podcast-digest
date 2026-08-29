@@ -174,9 +174,9 @@ Joon 的十年答案：今天 AI 造的是“智能单元的 CPU”(一个又大
 
 **换个口味**
 
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic · 同概念:智能体 (agent)、推理 (inference)</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同概念:智能体 (agent)、记忆 (memory)</span>
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|SaaS增长该抄电商作业：付费广告立刻开打]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:智能体 (agent)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

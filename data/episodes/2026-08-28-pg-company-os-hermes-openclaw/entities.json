@@ -1,0 +1,1648 @@
+{
+  "episode_id": "2026-08-28-pg-company-os-hermes-openclaw",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-08-28",
+  "tags": [
+    "AI 原生产品管理",
+    "智能体操作系统",
+    "知识图谱",
+    "智能体脚手架",
+    "记忆架构"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "aakash",
+      "type": "person",
+      "role": "host",
+      "name": "Aakash",
+      "file": "Aakash",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            762.295,
+            763.837
+          ],
+          "quote": "That's a great question, Aakash.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mikael",
+      "type": "person",
+      "role": "cohost",
+      "name": "Mikael",
+      "file": "Mikael",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            111.256,
+            112.48700000000001
+          ],
+          "quote": " And Mikael is one of those people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            3834.01,
+            3836.834
+          ],
+          "quote": "And if you're a CPO, steal Mikael's playbook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            3841.199,
+            3843.5919999999996
+          ],
+          "quote": "Mikael, if they want to learn more about you,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1085,
+          "t": [
+            3864.98,
+            3871.383
+          ],
+          "quote": "Mikael and I did a really fun deep dive last year where he looked through all of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1097,
+          "t": [
+            3896.93,
+            3902.799
+          ],
+          "quote": "The biggest thing is that Mikael agreed to open source the information that he used",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "olx-classifieds",
+      "type": "company",
+      "role": "company",
+      "name": "OLX Classifieds",
+      "file": "OLX Classifieds",
+      "primary": true,
+      "how_described": "本集说 OLX Classifieds 是一家做分类广告的平台，拥有房地产、汽车、优质销售、服务和职位五个垂直领域，Mikhail 作为其 CPO 在此构建了整套智能体操作系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            16.816,
+            18.067999999999998
+          ],
+          "quote": "the CPO at OLX Classifieds,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 30,
+          "t": [
+            126.583,
+            130.81
+          ],
+          "quote": " At OLX Classifieds is an entire operating system.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集说 OpenClaw 是一个很棒的智能体脚手架，开箱即用且工程支持好，其配置文件 SolMD 优先级仅次于 ClaudeMD，被用来承载 700 行指令库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            30.536,
+            36.545
+          ],
+          "quote": " We've built everything, our entire stack on top of OpenClaw and Hermes agentic scaffolding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            96.174,
+            103.174
+          ],
+          "quote": " I know you guys are overwhelmed with guides on Hermes and OpenClaw and Clodcode and ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            130.89,
+            133.86399999999998
+          ],
+          "quote": "If you've been hearing about buzzwords like OpenClaw and Hermes",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1368.439,
+            1375.439
+          ],
+          "quote": "So for the architecture here, what we're using is a combination of OpenClaw and Hermes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1379.385,
+            1381.885
+          ],
+          "quote": "Because OpenClaw is just a great scaffolding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1666.138,
+            1666.8890000000001
+          ],
+          "quote": "OpenClaw,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            1841.217,
+            1845.722
+          ],
+          "quote": "And Hermes and OpenClaw on their own can figure out how to get into which meeting",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2038.404,
+            2041.005
+          ],
+          "quote": "SolMD, I believe is a part of OpenClaw?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2041.065,
+            2042.376
+          ],
+          "quote": "Yeah, it's a part of OpenClaw.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2054.15,
+            2057.931
+          ],
+          "quote": "And SolMD is the second in order of priority for OpenClaw.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2183.31,
+            2188.195
+          ],
+          "quote": "people kind of have this mistaken thing that they need to use the OpenClaw gateway,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2191.538,
+            2192.839
+          ],
+          "quote": "of Hermes and OpenClaw.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2280.488,
+            2283.891
+          ],
+          "quote": "It comes with a unique advantage over OpenClaw,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hermes",
+      "type": "company",
+      "role": "company",
+      "name": "Hermes",
+      "file": "Hermes",
+      "primary": true,
+      "how_described": "本集说 Hermes 作为智能体脚手架有一个独特功能——自动技能生成，会观察你最频繁请求的任务类型并自动创建技能，实测在五个核心话题上带来 31% 的准确率提升",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            30.536,
+            36.545
+          ],
+          "quote": " We've built everything, our entire stack on top of OpenClaw and Hermes agentic scaffolding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            96.174,
+            103.174
+          ],
+          "quote": " I know you guys are overwhelmed with guides on Hermes and OpenClaw and Clodcode and ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            130.89,
+            133.86399999999998
+          ],
+          "quote": "If you've been hearing about buzzwords like OpenClaw and Hermes",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1368.439,
+            1375.439
+          ],
+          "quote": "So for the architecture here, what we're using is a combination of OpenClaw and Hermes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1388.588,
+            1393.309
+          ],
+          "quote": "But Hermes has a unique feature to it, which is an automated skill generation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 507,
+          "t": [
+            1841.217,
+            1845.722
+          ],
+          "quote": "And Hermes and OpenClaw on their own can figure out how to get into which meeting",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2191.538,
+            2192.839
+          ],
+          "quote": "of Hermes and OpenClaw.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2272.041,
+            2273.402
+          ],
+          "quote": "Explain the Hermes part of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2276.785,
+            2280.028
+          ],
+          "quote": "So, um, the beauty of Hermes as a scaffolding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2580.653,
+            2587.017
+          ],
+          "quote": "Hermes has automatically created a skill around the profile of those board members.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3033.902,
+            3039.068
+          ],
+          "quote": " And is the review, is the design system skill in Hermes auto-improving?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            3829.745,
+            3832.3579999999997
+          ],
+          "quote": " If you haven't already, go play around with Hermes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是一个操作系统，因为它连接了 Google Workspace、Granola、Confluence、Jira 等一切工具，能读邮件、管日历、拉项目状态、当需求守门人、甚至帮忙招人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.015,
+            7.459444444444445
+          ],
+          "quote": "Any stakeholder can talk to an agent and validate any feature request they want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            7.582,
+            11.359777777777778
+          ],
+          "quote": "Our agent is an operating system because it's hooked into everything",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            581.306,
+            584.5282222222222
+          ],
+          "quote": "and they load it directly into our agent, into its memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            641.698,
+            644.149
+          ],
+          "quote": "The DS agent builds a custom system from your real code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            682.148,
+            683.7591111111111
+          ],
+          "quote": "Their AI agent makes it fast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            692.503,
+            695.658
+          ],
+          "quote": "I just ask the agent directly and it tells me what to do next.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1018.271,
+            1021.073
+          ],
+          "quote": "that this agent can solve and we constantly improve it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1081.973,
+            1084.0285555555556
+          ],
+          "quote": "An agent does it for me and pings me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1159.442,
+            1165.805
+          ],
+          "quote": "But now we have a gatekeeper, which is our agent running under the hood.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1166.225,
+            1170.147
+          ],
+          "quote": "And we train our stakeholders to interact with an agent before reaching out to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1248.977,
+            1252.0881111111112
+          ],
+          "quote": "an agent decides that this feature isn't worth building,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1265.163,
+            1268.9963333333333
+          ],
+          "quote": " An agent has all the organizational structure mapped out internally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1273.275,
+            1277.602
+          ],
+          "quote": "And do you consider yourself the owner of the Saul Goodman agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1453.371,
+            1456.5376666666668
+          ],
+          "quote": "an agent receives gets immediately converted into vector.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1472.475,
+            1477.339
+          ],
+          "quote": "And an agent needs to be able to match your request to a specific point,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1495.728,
+            1502.728
+          ],
+          "quote": "You can clearly see that every single day the agent stores everything into MD files.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1509.357,
+            1513.281
+          ],
+          "quote": "but also all of the conversations that I had with an agent and all of the reflection",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1513.301,
+            1514.301
+          ],
+          "quote": "that an agent has.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            1994.741,
+            1997.1854444444443
+          ],
+          "quote": "if you ask your agent to book you a meeting,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2001.087,
+            2001.908
+          ],
+          "quote": "and then the agent says,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2165.381,
+            2167.401
+          ],
+          "quote": "to change anything within the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2244.391,
+            2248.7798888888888
+          ],
+          "quote": "if I don't really want to load it into agent and I want to do something ad hoc,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2268.918,
+            2271.46
+          ],
+          "quote": "the Saul Goodman agent in Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2333.209,
+            2336.952
+          ],
+          "quote": "Why not just create a skill and offload all of this onto an agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2439.059,
+            2443.225
+          ],
+          "quote": "Claude or whichever system you're working with or your agent directly,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2542.483,
+            2549.483
+          ],
+          "quote": "But the beauty is the agent was able to abstract their mental models into a set of principles.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 731,
+          "t": [
+            2629.595,
+            2636.595
+          ],
+          "quote": " And the agent has different access rights depending on the person reaching out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 825,
+          "t": [
+            2949.522,
+            2953.343
+          ],
+          "quote": " And it is continuously supported by the agent himself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 831,
+          "t": [
+            2968.368,
+            2970.608
+          ],
+          "quote": "then an agent is well,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 839,
+          "t": [
+            2996.582,
+            3003.582
+          ],
+          "quote": "the requests that are coming either directly via Slack or from a coding agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3107.082,
+            3111.925
+          ],
+          "quote": "They're all connected into agent and an agent can fetch all of this information",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 892,
+          "t": [
+            3185.18,
+            3188.812
+          ],
+          "quote": "If I'm too lazy, I can even delegate the decision making onto an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 915,
+          "t": [
+            3248.36,
+            3250.7329999999997
+          ],
+          "quote": "I will ask the agent to come up with a template response.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 936,
+          "t": [
+            3320.546,
+            3322.046
+          ],
+          "quote": "with an agent before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 940,
+          "t": [
+            3339.355,
+            3342.632777777778
+          ],
+          "quote": "the CRM anymore because I do all of the work via the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 941,
+          "t": [
+            3343.036,
+            3350.036
+          ],
+          "quote": "I just type in who is in the pipeline or I provide the feedback directly to an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 942,
+          "t": [
+            3350.438,
+            3354.2713333333336
+          ],
+          "quote": "An agent posts this feedback or moves the candidate along the funnel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 953,
+          "t": [
+            3394.852,
+            3398.895
+          ],
+          "quote": "Then you can ask AI or you can ask an agent to draft a rejection letter",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1061,
+          "t": [
+            3779.369,
+            3783.192
+          ],
+          "quote": "you might have a very advanced AI agent orchestrator,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识图谱 (knowledge graph)",
+      "file": "知识图谱",
+      "primary": true,
+      "how_described": "本集说知识图谱是五个月积累的覆盖行业、商业模式、客户、团队到漏斗指标的高维关联网络，分产品层、联系人层、团队层三个层级，用来诊断组织孤岛和衡量产品上下文覆盖率",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            36.785,
+            40.611
+          ],
+          "quote": "I use this knowledge graph to understand how well teams are doing",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            243.006,
+            248.108
+          ],
+          "quote": "So what you see here is the entire knowledge graph of our company",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            331.524,
+            334.926
+          ],
+          "quote": "I would not be surprised if this knowledge graph would enable you",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            343.777,
+            349.505
+          ],
+          "quote": "Let me maybe zoom in a little bit on the elements of this knowledge graph.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1011.188,
+            1012.9590000000001
+          ],
+          "quote": "So we've seen the knowledge graph.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1432.019,
+            1435.3523333333333
+          ],
+          "quote": "So the first layer is what you've seen is a knowledge graph,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1477.539,
+            1482.143
+          ],
+          "quote": "to a specific number in your knowledge graph.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2420.93,
+            2426.993
+          ],
+          "quote": "I'm doing this as a CPO because I think outside of knowledge graph and percentage",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vector-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量数据库 (vector database)",
+      "file": "向量数据库",
+      "primary": true,
+      "how_described": "本集说向量数据库是记忆的第二层，智能体收到的每条知识都立即转为向量，用来做模糊检索，因为大多数请求不是精确关键词能匹配的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 390,
+          "t": [
+            1442.955,
+            1447.782
+          ],
+          "quote": "But what is plugged in there, it's a second layer, which is a vector database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1448.804,
+            1453.311
+          ],
+          "quote": "And the vector database is essentially every single Piece of knowledge that",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hybrid-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "混合搜索 (hybrid search)",
+      "file": "混合搜索",
+      "primary": true,
+      "how_described": "本集说检索流程是先做精确关键词匹配（约 25% 的请求能命中），剩下的走向量搜索做模糊匹配，只把高度相关的数据片段拉进提示词，不会用 token 撑爆上下文窗口",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 513,
+          "t": [
+            1860.565,
+            1862.845
+          ],
+          "quote": "It's a hybrid search query.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "automated-skill-generation",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动技能生成 (automated skill generation)",
+      "file": "自动技能生成",
+      "primary": true,
+      "how_described": "本集说这是 Hermes 的独特功能，系统会观察你频繁请求的任务类型，自动判断是否该建一个技能并创建，如团队招聘评估、移民案例处理等，实测召回率提升 31%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 377,
+          "t": [
+            1388.588,
+            1393.309
+          ],
+          "quote": "But Hermes has a unique feature to it, which is an automated skill generation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "imperatives",
+      "type": "concept",
+      "role": "concept",
+      "name": "指令库 (imperatives)",
+      "file": "指令库",
+      "primary": true,
+      "how_described": "本集说指令库约 700 行写在 SolMD 文件里，用来对付 LLM 的'虚假有用'——禁止捏造、事实优于猜测、三思而后行、不许说'我做不到但你可以这样操作'这类废话",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 301,
+          "t": [
+            1116.365,
+            1120.687
+          ],
+          "quote": "So it has a massive library of rules and imperatives.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 526,
+          "t": [
+            1913.669,
+            1918.09
+          ],
+          "quote": "it is hugely important to create a list of imperatives.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 531,
+          "t": [
+            1946.356,
+            1949.497
+          ],
+          "quote": "And the best way is to have this list of imperatives.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 534,
+          "t": [
+            1958.566,
+            1964.194
+          ],
+          "quote": "If you look here, it's just a huge list of different imperatives that we've created over time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "product-context-coverage",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品上下文覆盖率 (product context coverage)",
+      "file": "产品上下文覆盖率",
+      "primary": true,
+      "how_described": "本集说这是 Mikhail 的个人 KPI，用精确提示词让 AI 自评对行业（五个垂直领域）、业务模型（P&L 和驱动因素）、客户（买家、卖家、细分群体）的知识掌握百分比，目前为 54%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            276.463,
+            280.29633333333334
+          ],
+          "quote": "like there is a specific metric, which is a product context coverage.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-orchestrator",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体编排器 (agentic orchestrator)",
+      "file": "智能体编排器",
+      "primary": true,
+      "how_described": "本集说底层有一个智能体编排器负责模型路由：复杂请求或高敏感、高错误爆炸半径的领域分配最强模型，执行类工作和状态报告用中等模型，低准确率要求的杂活用小模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            919.017,
+            923.981
+          ],
+          "quote": "Why should a CPO suddenly be spending so much time as an agentic orchestrator?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 786,
+          "t": [
+            2802.86,
+            2809.129
+          ],
+          "quote": "So the thing is there is an agentic orchestrator which makes a decision on",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "design-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计系统 (design system)",
+      "file": "设计系统",
+      "primary": false,
+      "how_described": "本集说整个 Figma 设计系统是从提示词构建的，组件尺寸、状态、tokens 全覆盖，当工程师和产品经理沟通中发现缺少组件时，智能体会自动在 Figma 里创建",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            620.035,
+            623.5500000000001
+          ],
+          "quote": " Different components, different styles, no shared design system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            630.911,
+            634.496
+          ],
+          "quote": "Bolt.new solved this with something called Design System Agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            635.037,
+            641.618
+          ],
+          "quote": " Upload your actual design system, your NPM packages, your CSS files, your component library.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 775,
+          "t": [
+            2764.255,
+            2771.255
+          ],
+          "quote": "But here, I think it created a prototype, which is very close to our actual design system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 781,
+          "t": [
+            2788.986,
+            2792.667
+          ],
+          "quote": "And it's very compliant with the actual Nexus design system,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 782,
+          "t": [
+            2792.687,
+            2794.538
+          ],
+          "quote": "which is an OLX design system at play.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 815,
+          "t": [
+            2915.712,
+            2918.1029999999996
+          ],
+          "quote": "How does this help you with things like your design system?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 817,
+          "t": [
+            2921.077,
+            2928.077
+          ],
+          "quote": "So if you look here, right, the entire design system was built from prompt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 834,
+          "t": [
+            2976.034,
+            2979.595
+          ],
+          "quote": "So it's automatically updating the design system based on",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3033.902,
+            3039.068
+          ],
+          "quote": " And is the review, is the design system skill in Hermes auto-improving?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 853,
+          "t": [
+            3049.83,
+            3051.172
+          ],
+          "quote": "So that's design system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1009,
+          "t": [
+            3596.777,
+            3600.298
+          ],
+          "quote": "Designer is responsible for the consistency of a design system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "recall",
+      "type": "concept",
+      "role": "concept",
+      "name": "召回率 (recall)",
+      "file": "召回率",
+      "primary": false,
+      "how_described": "本集说用 Hermes 的自动技能后在五个核心话题上准确率提升 31%，测法是让智能体自己列出最常互动领域、每个领域生成 10 个典型问题，然后对照组 vs 技能组跑一遍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 380,
+          "t": [
+            1403.62,
+            1404.6100000000001
+          ],
+          "quote": "a recall metric,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1602.373,
+            1609.373
+          ],
+          "quote": " And we've noticed like a huge fidelity loss and I think it was like 20-25% worse recall.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2082.288,
+            2085.411
+          ],
+          "quote": "the most accurate Output with the best recall.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2273.422,
+            2276.725
+          ],
+          "quote": "You had said it's related to the skills and the recall.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2293.738,
+            2300.738
+          ],
+          "quote": "And what we've noticed in testing was that the recall has improved significantly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 655,
+          "t": [
+            2347.841,
+            2349.262
+          ],
+          "quote": "And how did it help with the recall?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2412.54,
+            2417.407
+          ],
+          "quote": "How did someone set up like the metrics to measure something like recall?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2429.494,
+            2436.494
+          ],
+          "quote": "so to say, you should also be able to track more tactical metrics, which is recall.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "type": "company",
+      "role": "company",
+      "name": "Granola",
+      "file": "Granola",
+      "primary": false,
+      "how_described": "本集说 Granola 被用来转录所有会议，包括董事会会议，转录稿以原始 MD 文件形式存储，除非员工自愿提供否则不会拿去训练模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            11.448,
+            14.913
+          ],
+          "quote": "from Google Workspace to Granola, Confluence, Jira.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1503.75,
+            1507.114
+          ],
+          "quote": "And not only this encompasses granola transcripts,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1527.089,
+            1529.55
+          ],
+          "quote": "So obviously you get a Granola Enterprise license,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2574.971,
+            2580.353
+          ],
+          "quote": "So your granola meeting transcript is automatically recording your board meetings.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 740,
+          "t": [
+            2667.22,
+            2671.565
+          ],
+          "quote": "So unless you willingly provide this information to Granola,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 958,
+          "t": [
+            3418.922,
+            3422.724
+          ],
+          "quote": "for improvement that were derived from the Granola transcript.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google-workspace",
+      "type": "company",
+      "role": "company",
+      "name": "Google Workspace",
+      "file": "Google Workspace",
+      "primary": false,
+      "how_described": "本集说智能体深度集成了 Google Workspace（日历、Gmail 等），Mikhail 不再自己读邮件和管理日历，全部由智能体代劳",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            11.448,
+            14.913
+          ],
+          "quote": "from Google Workspace to Granola, Confluence, Jira.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1076.184,
+            1079.109
+          ],
+          "quote": "Google Workspace meaning Calendar, Gmail, and so on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 545,
+          "t": [
+            1997.684,
+            2001.037
+          ],
+          "quote": "and suddenly your tokens in the Google workspace has expired,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-recruiter",
+      "type": "company",
+      "role": "company",
+      "name": "LinkedIn Recruiter",
+      "file": "LinkedIn Recruiter",
+      "primary": false,
+      "how_described": "本集说 LinkedIn Recruiter 是招聘自动化三个工具之一，负责按条件找候选人并用预设模板发联络",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 922,
+          "t": [
+            3269.181,
+            3272.944
+          ],
+          "quote": "So the first tool is LinkedIn recruiter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 927,
+          "t": [
+            3292.999,
+            3295.413
+          ],
+          "quote": " LinkedIn recruiter is responsible for reach outs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到 ClaudeMD 拥有最高优先级的配置文件，Claude app 被用来在移动端管理智能体配置，Claude Design 被用来创建董事会演示文稿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            697.331,
+            700.555
+          ],
+          "quote": "which means AI tools like Claude can see directly what's happening",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            709.268,
+            710.2800000000001
+          ],
+          "quote": "Claude already knows it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2177.845,
+            2180.628
+          ],
+          "quote": " So you do everything via GitHub, via Claude app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2188.315,
+            2191.498
+          ],
+          "quote": "but you can actually do everything through Claude and it can manage it on top",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2439.059,
+            2443.225
+          ],
+          "quote": "Claude or whichever system you're working with or your agent directly,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 715,
+          "t": [
+            2587.697,
+            2590.258
+          ],
+          "quote": "And so when you're creating a board deck in Claude,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2590.298,
+            2593.8535555555554
+          ],
+          "quote": "let's say you use Claude Design and you would put in your input.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集说整个 OLX 设计系统（Nexus）在 Figma 中从提示词构建，智能体能感知缺少的组件并自动在 Figma 里创建，设计师只做审查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 219,
+          "t": [
+            787.801,
+            791.614
+          ],
+          "quote": "Figma mockups like your team has been able to produce depending on the function.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 816,
+          "t": [
+            2918.153,
+            2920.977
+          ],
+          "quote": " Pretty significantly, let me show you Figma.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说如果 PM 回答还停留在'我用 ChatGPT 网页版聊天'，那就是 AI 工具理解的低成熟度；工程师在最高复杂度任务分解时会使用 ChatGPT 5.6",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            96.174,
+            103.174
+          ],
+          "quote": " I know you guys are overwhelmed with guides on Hermes and OpenClaw and Clodcode and ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 812,
+          "t": [
+            2901.865,
+            2907.448
+          ],
+          "quote": "the highest cost models like ChatGPT 5.6 or Fable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1055,
+          "t": [
+            3764.537,
+            3766.718
+          ],
+          "quote": "I'm talking with ChatGPT using like,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bolt-new",
+      "type": "company",
+      "role": "company",
+      "name": "Bolt.new",
+      "file": "Bolt.new",
+      "primary": false,
+      "how_described": "仅在赞助商环节提及，未在正文中讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            80.644,
+            85.207
+          ],
+          "quote": "Check out bundle.akashg.com for an entire year of Bolt.new,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            630.911,
+            634.496
+          ],
+          "quote": "Bolt.new solved this with something called Design System Agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            644.479,
+            648.8900000000001
+          ],
+          "quote": "every person building in Bolt.new across your entire org is using your components,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            657.342,
+            659.3975555555555
+          ],
+          "quote": "Check it out at bolt.new slash akash.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "customer-io",
+      "type": "company",
+      "role": "company",
+      "name": "Customer.io",
+      "file": "Customer.io",
+      "primary": false,
+      "how_described": "仅在赞助商环节提及，未在正文中讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            670.952,
+            672.3408888888889
+          ],
+          "quote": "Customer.io changed that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            710.33,
+            716.278
+          ],
+          "quote": "Notion used customer.io to personalize their onboarding and hit nearly 50% open rate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            725.191,
+            728.817
+          ],
+          "quote": "Customer.io helps you deliver more impact from every message you send.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            731.761,
+            733.544
+          ],
+          "quote": "try Customer.io at Customer.io.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "victor",
+      "type": "company",
+      "role": "company",
+      "name": "Victor",
+      "file": "Victor",
+      "primary": false,
+      "how_described": "仅在赞助商环节提及，未在正文中讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 464,
+          "t": [
+            1707.123,
+            1710.788
+          ],
+          "quote": "Victor is an AI employee that lives on Slack and Microsoft Teams.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1748.082,
+            1750.3042222222223
+          ],
+          "quote": "Victor checks overnight support tickets,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            1760.315,
+            1764.1870000000001
+          ],
+          "quote": "Victor builds it, with authentic database, and post the link to your channel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            1770.739,
+            1772.439
+          ],
+          "quote": "Get started at victor.com.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-faculty",
+      "type": "company",
+      "role": "company",
+      "name": "Product Faculty",
+      "file": "Product Faculty",
+      "primary": false,
+      "how_described": "仅在赞助商环节提及，未在正文中讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 446,
+          "t": [
+            1648.295,
+            1652.321
+          ],
+          "quote": "That's exactly what Product Faculty's AIPM certification helps you do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1682.134,
+            1685.817
+          ],
+          "quote": "join Product Faculty's AIPM certification on Maven.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

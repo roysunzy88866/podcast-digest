@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[Base44]] · [[Wix]] · [[Lovable]] · [[Replit]] · [[Cursor]] · [[Maor Shlomo]] · [[Zevi Arnovitz]] · [[Vercel]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Base44":2,"Wix":2,"Lovable":10,"Replit":11,"Cursor":37,"Maor Shlomo":1,"Zevi Arnovitz":1,"Vercel":11,"Claude Code":37}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Base44":2,"Wix":2,"Lovable":11,"Replit":12,"Cursor":38,"Maor Shlomo":1,"Zevi Arnovitz":1,"Vercel":11,"Claude Code":38}</script>
 
 <script>
 (function(){

@@ -1,0 +1,190 @@
+{
+  "title_zh": "SpaceX 600亿买Cursor：AI并购的疯狂逻辑",
+  "tldr": "风险投资人 Rory 和 Jason 碰头拆解本周大事：SpaceX 收购 Cursor、Stripe 收购 OpenRouter、Anthropic 首次盈利，以及 Workday 被 PE 私有化。",
+  "digest_md": "这是 20VC 节目里 Harry Stebbings 和两位风投老手 Rory、Jason 的周报式对谈，拆解过去七天科技圈最大的几笔交易和财务动态。\n\n## SpaceX 600亿美元全股票收购 Cursor\n\nCursor 做过电子邮件客户端，后来转做 AI 编程工具。Rory 回忆说，这档节目开播大概 70 周了，中间有段时间 Cursor 看起来快不行了——Claude Code 一出来，好像所有人都跑了，\"Cursor 死了\"。但 Cursor 很早就接入了多模型，产品迭代极快，收入一路飙到五亿美元，最终以 600 亿美元被 SpaceX 全股票收购 [05:00 Unknown]。\n\n这笔交易有几个值得拆解的点。\n\n**为什么是 SpaceX 而不是 Meta？** 两家都符合\"有大量算力、但上面没有直接面向用户的业务\"这个特征。但 Elon 有一个别人没有的优势：SpaceX 股票估值极高，大概 40 倍收入。以 10 倍左右的远期收入买 Cursor，对他来说\"简直是白菜价\"，第一天就能实现净增值。Meta 要做同样的事，得掏 700 到 800 亿美元，而且还有司法部反垄断审查的包袱 [07:09 Unknown]。\n\n**毛利率问题怎么消解？** 节目早期 VCs 嘲笑 Cursor 的点：卖一美元的代币只收 0.50 到 0.80 美元，毛利率是负的。但 Rory 的核心观察是：负面问题是真实的，它们没有消失，只是被乐观情绪淹没了 [09:55 Unknown]。在一个 AI 编码这个万亿级市场以爆炸速度增长的环境里，买家会看透毛利率问题——尤其当这个买家自己就是算力提供方。Elon 的逻辑很直接：\"你的毛利问题就是我 Colossus 集群的收入机会\" [00:00 Unknown]。所以那句老话又应验了：悲观者听起来聪明，乐观者死得富有 [10:00 Unknown]。\n\n**创始人为什么选 Elon？** Jason 认为这是一个被低估的因素。Cursor 的创始人 Michael 才 24 岁，已经是纸面百亿富翁，不是特别缺钱。在\"为谁工作\"这个情感选择上，Elon 有一种独特的吸引力——\"我个人会宁愿最初为 Elon 工作而不是为 Zuck\" [13:06 Unknown]。在并购中，创始人想落脚在哪里，情感上极其重要。\n\n**谁应该紧张？** Rory 的判断：不是 AWS，不是 Meta，而是 Microsoft。Steve Ballmer 当年喊\"开发者、开发者、开发者\"，现在 GitHub 已经变成了落后产品，Microsoft 失去了跟开发者的连接。在一个 AI 编码成为主流的世界里，这对 Microsoft 来说是中期内 100% 生死攸关的事 [15:07 Unknown]。不过 Jason 补充了一个反直觉的经验：第一名被买走后，通常不会引发\"抢地盘\"式的军备竞赛，而是收购者发现\"我以为我还有时间\"，然后转头去买第二名和第三名 [16:18 Unknown]。\n\n## Stripe 70亿美元收购 OpenRouter\n\nOpenRouter 做的是模型路由——企业通过一个 API 接入几十上百个不同模型，按使用量付费。Stripe 以 70 亿美元收购，大概 70 倍过往收入 [49:54 Unknown]。\n\nRory 认为这在概念上完全说得通：Stripe 现有业务是收资金流的一小部分来管理信用卡收款的复杂性，OpenRouter 是收 AI 调用流的一小部分来管理模型选择和路由的复杂性 [17:48 Unknown]。而且在市场 10 倍年增长的时候，买家没时间自建——\"去他的，我没时间，最快的方式就是花 70 亿，一周内开始运转\" [19:38 Unknown]。\n\n但 Jason 指出了一个关键局限：OpenRouter 是个小众产品。它在两个场景很强——开发者工具里简单挑选模型、聊天机器人里根据可用性切换模型。但在高精度的 B2B 工作流中，你不能在 Kimi、Quen、Opus 之间来回跳，那会导致\"模型漂移\"，输出不一致，你得重新做 QA 和验证 [22:15 Unknown]。所以企业客户可能只选两三个模型，不需要 OpenRouter 这种十几个模型的路由。Rippling 最近就公开说，他们测了一圈，只选了两个模型，其余的\"不值得\" [24:36 Unknown]。\n\nJason 的预测：五年后 OpenRouter 这个产品可能都不存在了，会被吞并进 Stripe 的代币管理平台里，深埋在下拉菜单 11 层下面 [26:20 Unknown]。但如果它成功为 Stripe 打开了 AI 基础设施这条新业务线，占到 Stripe 收入的 20% 到 30%，那就够了 [26:07 Unknown]。\n\nRory 还顺带提了一句：Stripe 同时还在谈收购 PayPal——一个是打入新地盘的 TAM 扩张，一个是巩固已有地盘的整合，两步棋同时走，而且全在私有状态下完成， corp dev 团队\"圣诞节该拿奖金\" [27:35 Unknown]。\n\n## Anthropic 首次盈利与 2000 亿美元 ARR 之问\n\nAnthropic Q2 收入 115 亿美元，首次实现盈利 [28:11 Unknown]。Rory 说这不意外：去年全年 45 亿，毛利率从负的转正到 30% 左右，现在一个季度就 100 亿，40% 的毛利意味着单季 40 亿毛利润——\"你没办法足够快地增加线下支出来阻止自己赚钱\" [29:03 Unknown]。\n\n但更有意思的是他们对 ARR 天花板的推算。Anthropic 内部目标是 2028 年 2000 亿、次年 6000 亿。Jason 做了硬核拆算 [32:50 Unknown]：\n\n- \"全球十亿知识工作者\"——\"纯属胡扯\" [00:34 Unknown]。美国占全球软件预算的 50%，因为占高端知识工作者的一半。全世界软件支出通常只是美国的 2 倍（不是按 GDP 的 4 倍算，因为其他地区更穷、工资更低、用更少软件）。\n- 美国有 8300 万知识工作者，但最佳甜点是写代码的人——大约 180 万开发者，加上 QA 等软件相关人员约 500 万，总薪酬约 6000 亿美元一年。\n- 2000 亿意味着取代其中三分之一。\n\n关键变量是**稳态下每个工程师的 AI 支出与薪酬之比**。Jason 的判断：每个工程师配 10 万美元的 tokens，用于全天候并行跑 10 个智能体做推理，同时削减 30-40% 的开发团队 [35:42 Unknown]。这个比例（约 50% 薪酬额）算下来，美国市场大约 2000 亿美元，全球勉强到 3500 亿 [36:25 Unknown]。6000 亿\"硬编码，你无法达到那里\" [35:00 Unknown]。\n\nJason 举了实测数据：增长曲线显示，即使是技术最前沿的样本群里，前 1% 的人也只花到约 8.4 万美元一年（7 千美元乘 12 月），也就是每美元工资配 0.50 美元 AI 支出，这是\"最乐观支出的尖端\" [37:07 Unknown]。\n\n他还抛出了一个很狠的判断：\"如果你在智能体世界里，到 2026 年 8 月还没有深入到 2027 年的路线图中，你的团队就不够优秀，无法在今天生存\" [00:47 Unknown]。他上周开了两次董事会，增长最快的两家公司已经完成了今年的路线图，直接在排 2027 年的了 [37:41 Unknown]。\n\n## Workday 430 亿美元私有化：SaaS 的高水位线\n\nSilverlake 以 430 亿美元、约 5.3 倍收入（16 倍过往 EBITDA）将 Workday 私有化，这是 SaaS 史上最大的收购之一 [45:01 Unknown]。\n\nJason 算了一笔账：Workday 年收入约 100 亿，35% 运营利润率意味着每年约 30 亿现金流。加杠杆后，只要收入保持 13% 增长、利润率稳定，五年还清债务，大概能做 20% IRR、接近翻倍 [46:17 Unknown]。但这也几乎是\"最好情况\"了——如果买贵 20%，IRR 就跌到百分之十几的低段，你就不想做这笔交易了。这跟风投完全相反：风投选对了几乎不在乎价格，这是精确的金融工程 [47:00 Unknown]。\n\nRory 从中提炼出 SaaS 定价的基准线：\n- 没有记录系统护城河的（比如 Airtable 被 bending spoons 收购），大概 2.7 倍收入 [49:21 Unknown]\n- 有记录系统、封闭、可预测五年的（Workday），5.3 倍收入 [48:53 Unknown]\n\nWorkday 的特殊优势：它极其封闭，不像 Salesforce 那样开放平台上可以随便建应用。\"我想要最封闭的、无法流失的系统\" [50:43 Unknown]。封闭意味着客户更难被第三方智能体吸走价值。但 Rory 也警告：客户虽然是\"囚犯\"，不代表会多花一分钱——CIO 们的第一反应是\"我能从这些被卡住的供应商账单里砍掉什么？\" [55:12 Unknown]。\n\nJason 最后总结了一整集的底层逻辑：\"增长或死亡。这整个节目，一切，增长或死亡。\" [54:58 Unknown] 记录系统留住客户，但不保证增长；没有增长，你就是在与债务赛跑。\n\n## 本集带走\n- **负面问题会被乐观淹没，但不会消失**：Cursor 的负毛利从头到尾都是真的，只是在一个爆炸增长的市场里，买家选择看透它。但一旦增长放缓，\"所有豁免取消\" [32:36 Unknown]。\n- **AI 支出的锚点是\"每个工程师 10 万美元 tokens\"**：不是无限增长，而是替代约 30-40% 团队后的稳态支出。美国天花板约 2000 亿美元，全球约 3500 亿。\n- **模型路由有边界**：聊天机器人可以随便切模型，但高精度 B2B 工作流不敢切——模型漂移是真实风险，企业只会选两三个模型精耕。\n- **SaaS 私有化的定价锚**：无记录系统护城河的约 2.7 倍收入，有封闭记录系统的约 5.3 倍。这就是当前买卖价差。\n- **记录系统留住客户 ≠ 增长**：客户被锁住不代表多花钱，CIO 反而想砍支出。\"仅仅是你的客户是囚犯，并不意味着他们会多花一分钱\" [55:07 Unknown]。\n- **在智能体世界里，路线图必须提前两年**：如果你的团队到 2026 年 8 月还没深入排 2027 年的产品路线图，\"你的团队就不够优秀，无法在今天生存\" [00:47 Unknown]。\n\n> 【背景】本集转写稿中说话人全部标为 Unknown，根据对话内容和 20VC 节目格式推断：Harry Stebbings 为主持人，Rory O'Driscoll 和 Jason Lemkin 为嘉宾（节目开场 [00:59] 有提及两人名字）。金句中统一标为 Unknown。\n> 【背景】Colossus 是 xAI/Elon Musk 建设的大规模 GPU 计算集群。\n> 【背景】\"OpenRooter\"为转写稿对 OpenRouter 的误识，正文中已使用正确名称 OpenRouter。\n> 【背景】\"Claude Note Pro\"为广告口播中对某硬件产品的称呼，非 Anthropic 官方产品名。\n> 【背景】\"11 Lambs\"疑为转写稿对某软件产品名的误识，原文未明确，故未在正文展开。",
+  "quotes": [
+    {
+      "en": "Your gross margin problem is my revenue opportunity for my Colossus cluster.",
+      "zh": "你的毛利率问题是我 Colossus 集群的收入机会。",
+      "timestamp": "00:00",
+      "speaker": "Jason Lemkin"
+    },
+    {
+      "en": "Pessimists sound smart, optimists die rich.",
+      "zh": "悲观者听起来很聪明，乐观者死得富有。",
+      "timestamp": "10:03",
+      "speaker": "Jason Lemkin"
+    },
+    {
+      "en": "But in this market, they were able to go balls out, for lack of a better word, have those tough gross margin stories, and then find a buyer who not only was willing to look through it, but actually had every ability to solve it.",
+      "zh": "但在这个市场中，他们能够全力以赴，或者因为找不到更好的词，背负那些艰难的毛利率故事，然后找到一个买家，他不仅愿意看透这一点，而且实际上完全有能力解决它。",
+      "timestamp": "09:37",
+      "speaker": "Jason Lemkin"
+    },
+    {
+      "en": "You can't add expenses below the line fast enough to stop yourself making money.",
+      "zh": "你无法足够快地增加线下支出来阻止自己赚钱。",
+      "timestamp": "29:03",
+      "speaker": "Jason Lemkin"
+    },
+    {
+      "en": "A billion knowledge workers in the world, absolute bollocks.",
+      "zh": "全球有十亿知识工作者，纯属胡扯。",
+      "timestamp": "00:34",
+      "speaker": "Jason Lemkin"
+    },
+    {
+      "en": "If you're not into your 2027 roadmap, deep into it by August of 2026 in the agentic world, your team is not good enough to survive today.",
+      "zh": "如果在智能体世界中，到 2026 年 8 月你还没有深入到 2027 年的路线图中，你的团队就不够优秀，无法在今天生存。",
+      "timestamp": "00:47",
+      "speaker": "Rory O'Driscoll"
+    },
+    {
+      "en": "I had two board meetings in the last week where they finished the roadmap for the year. They're into 2027.",
+      "zh": "上周我有两次董事会会议，他们在会上完成了今年的路线图。他们已经进入 2027 年了。",
+      "timestamp": "37:41",
+      "speaker": "Rory O'Driscoll"
+    },
+    {
+      "en": "This product itself, if it does exist, it'll be deep in a dropdown menu on the top of Stripe, like 11 layers down, because it'll be subsumed into the whole sort of token management platform, right?",
+      "zh": "这个产品本身，如果它真的存在，它会深埋在 Stripe 顶部的一个下拉菜单里，比如向下 11 层，因为它会被整个那种代币管理平台所吞并，对吧？",
+      "timestamp": "26:20",
+      "speaker": "Rory O'Driscoll"
+    },
+    {
+      "en": "I don't even think this product will exist in five years. But I think there's a high chance, more than 51% chance it builds into a 20 or 30% revenue stream for Stripe and that's enough.",
+      "zh": "我甚至不认为这个产品会在五年后存在。但我认为有很大机会，超过 51% 的机会，它发展成占 Stripe 收入的 20% 或 30%，这就足够了。",
+      "timestamp": "26:04",
+      "speaker": "Rory O'Driscoll"
+    },
+    {
+      "en": "Just because your customers are prisoners does not mean in today's world they will spend one more dollar with you.",
+      "zh": "仅仅因为你的客户是囚犯，并不意味着在当今世界他们会多花一分钱在你身上。",
+      "timestamp": "55:07",
+      "speaker": "Rory O'Driscoll"
+    },
+    {
+      "en": "It's 100% existential over the medium term for Microsoft.",
+      "zh": "这对 Microsoft 在中期来说是 100% 生死攸关的。",
+      "timestamp": "15:52",
+      "speaker": "Jason Lemkin"
+    },
+    {
+      "en": "Grow or die. This whole show, everything, grow or die.",
+      "zh": "增长或死亡。这整个节目，一切，增长或死亡。",
+      "timestamp": "54:57",
+      "speaker": "Rory O'Driscoll"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Unknown",
+      "en": "Your gross margin problem is my revenue opportunity for my Colossus cluster.",
+      "zh": "你的毛利率问题是我 Colossus 集群的收入机会。"
+    },
+    {
+      "timestamp": "10:00",
+      "speaker": "Unknown",
+      "en": "Pessimists sound smart, optimists die rich.",
+      "zh": "悲观者听起来很聪明，乐观者死得富有。"
+    },
+    {
+      "timestamp": "09:55",
+      "speaker": "Unknown",
+      "en": "So it just shows the negative issues didn't go away. They just got swamped by the optimistic take.",
+      "zh": "所以它只是表明负面问题并没有消失。它们只是被乐观的观点淹没了。"
+    },
+    {
+      "timestamp": "09:37",
+      "speaker": "Unknown",
+      "en": "But in this market, they were able to go balls out, for lack of a better word, have those tough gross margin stories, and then find a buyer who not only was willing to look through it, but actually had every ability to solve it.",
+      "zh": "但在这个市场中，他们能够全力以赴，或者因为找不到更好的词，背负那些艰难的毛利率故事，然后找到一个买家，他不仅愿意看透这一点，而且实际上完全有能力解决它。"
+    },
+    {
+      "timestamp": "29:03",
+      "speaker": "Unknown",
+      "en": "You can't add expenses below the line fast enough to stop yourself making money.",
+      "zh": "你无法足够快地增加线下支出来阻止自己赚钱。"
+    },
+    {
+      "timestamp": "00:34",
+      "speaker": "Unknown",
+      "en": "A billion knowledge workers in the world, absolute bollocks.",
+      "zh": "全球有十亿知识工作者，纯属胡扯。"
+    },
+    {
+      "timestamp": "35:42",
+      "speaker": "Unknown",
+      "en": "I think it'll land at a hundred grand per engineer equivalent. I think we'll give each of our best engineers $100,000 of tokens. And in return, we'll cut the size of our dev teams 30, 40% effectively.",
+      "zh": "我认为它会落在每个工程师等值 10 万这个数字上。我认为我们将给我们最好的每个工程师价值 10 万美元的 tokens。作为回报，我们将有效地削减我们开发团队规模的 30%、40%。"
+    },
+    {
+      "timestamp": "00:47",
+      "speaker": "Unknown",
+      "en": "If you're not into your 2027 roadmap, deep into it by August of 2026 in the agentic world, your team is not good enough to survive today.",
+      "zh": "如果在智能体世界中，到 2026 年 8 月你还没有深入到 2027 年的路线图中，你的团队就不够优秀，无法在今天生存。"
+    },
+    {
+      "timestamp": "37:41",
+      "speaker": "Unknown",
+      "en": "I had two board meetings in the last week where they finished the roadmap for the year. They're into 2027.",
+      "zh": "上周我有两次董事会会议，他们在会上完成了今年的路线图。他们已经进入 2027 年了。"
+    },
+    {
+      "timestamp": "26:20",
+      "speaker": "Unknown",
+      "en": "This product itself, if it does exist, it'll be deep in a dropdown menu on the top of Stripe, like 11 layers down, because it'll be subsumed into the whole sort of token management platform, right?",
+      "zh": "这个产品本身，如果它真的存在，它会深埋在 Stripe 顶部的一个下拉菜单里，比如向下 11 层，因为它会被整个那种代币管理平台所吞并，对吧？"
+    },
+    {
+      "timestamp": "26:07",
+      "speaker": "Unknown",
+      "en": "I don't even think this product will exist in five years. But I think there's a high chance, more than 51% chance it builds into a 20 or 30% revenue stream for Stripe and that's enough.",
+      "zh": "我甚至不认为这个产品会在五年后存在。但我认为有很大机会，超过 51% 的机会，它发展成占 Stripe 收入的 20% 或 30%，这就足够了。"
+    },
+    {
+      "timestamp": "19:38",
+      "speaker": "Unknown",
+      "en": "Screw it, I want to be in Stripe. I'm huge in payments. I want to be in the AI influence flow. Quickest thing I can do is spend $7 billion, some of it stock, get these guys, and be rolling in a week.",
+      "zh": "去他的，我想进入 Stripe。我在支付领域很庞大。我想进入 AI 影响流中。我能做的最快的事情就是花 70 亿美元，其中一些是股票，搞定这些人，并在一周内开始运转。"
+    },
+    {
+      "timestamp": "55:07",
+      "speaker": "Unknown",
+      "en": "Just because your customers are prisoners does not mean in today's world they will spend one more dollar with you.",
+      "zh": "仅仅因为你的客户是囚犯，并不意味着在当今世界他们会多花一分钱在你身上。"
+    },
+    {
+      "timestamp": "13:06",
+      "speaker": "Unknown",
+      "en": "I would much rather initially work for Elon than for Zuck, personally.",
+      "zh": "我个人会宁愿在最初为 Elon 工作而不是为 Zuck 工作。"
+    },
+    {
+      "timestamp": "15:52",
+      "speaker": "Unknown",
+      "en": "It's 100% existential over the medium term for Microsoft.",
+      "zh": "这对 Microsoft 在中期来说是 100% 生死攸关的。"
+    },
+    {
+      "timestamp": "16:18",
+      "speaker": "Unknown",
+      "en": "My experience is that doesn't happen. It doesn't actually get everyone else to say, hey, I've got to go buy Cognition. Usually the other thing happens. I wanted to buy Cursor. I lost Cursor. Now it pushes it up my existing priority list. That's how number two and number three get bought.",
+      "zh": "我的经验是这不会发生。这实际上并不会让其他人说，嘿，我得去买 Cognition。通常另一件事会发生。我想买 Cursor。我失去了 Cursor。现在它把它推上了我现有的优先级列表。这就是第二和第三名被买下的方式。"
+    },
+    {
+      "timestamp": "47:00",
+      "speaker": "Unknown",
+      "en": "Fine, precise financial engineering. If you're wrong by 20%, 30% on price, your IRR dips from 20, which is totally acceptable at scale, to low teens, in which case you wish you hadn't done the deal.",
+      "zh": "精细的、精确的金融工程。如果你在价格上错了 20%、30%，你的 IRR 会从 20（这在规模化下是完全可接受的）下降到百分之十几的低段，在这种情况下你会希望你没有做这笔交易。"
+    },
+    {
+      "timestamp": "54:58",
+      "speaker": "Unknown",
+      "en": "Grow or die. This whole show, everything, grow or die.",
+      "zh": "增长或死亡。这整个节目，一切，增长或死亡。"
+    }
+  ],
+  "voice_script": "600亿美元，全股票，买一个做AI编程的工具。这不是天方夜谭，这是这周科技圈最炸裂的一笔交易——SpaceX收购Cursor。今天这期，我们就顺着这笔收购，把AI圈这周最疯狂的底层逻辑给你捋清楚。\n\n先说个反常识的点。早阵子风投圈都在看Cursor的笑话，因为卖一块钱的AI代币，只收回五毛到八毛，毛利率是负的。但这笔交易照样发生了，为什么？因为买它的是Elon Musk。买家自己手里握着超大规模的算力集群，负毛利在别人眼里是烂账，在Elon眼里是什么？用节目里的原话说：“你的毛利率问题，就是我Colossus集群的收入机会。”说白了，就是左边口袋掏钱买模型，右边口袋赚算力的钱，账直接平了。\n\n而且这笔买卖对SpaceX来说，便宜得离谱。SpaceX的股票估值大概40倍收入，用10倍左右的估值去买Cursor，第一天就能在财报上实现净增值。换成Meta来做同样的事，得掏七八百亿现金，还得背着反垄断审查的包袱。\n\n再往下看，谁最该紧张？不是AWS，也不是Meta，而是Microsoft。当年Ballmer喊“开发者、开发者、开发者”，现在GitHub已经变成了落后产品，跟开发者的连接断了。当AI编程变成主流，这可是中期内生死攸关的事。\n\n那AI编程这个市场到底有多大？Anthropic这季度收入干到了115亿，首次盈利。但更有意思的是内部定下的目标——2028年要做到2000亿美元的年收入。\n\n这个数字靠谱吗？有人算了一笔硬账。先劈个谣：所谓“全球十亿知识工作者”，纯属胡扯。全球软件预算一半在美国，因为高端知识工作者一半在美国。美国大概有180万写代码的开发者，加上相关人员500万，一年总薪酬大概6000亿美元。2000亿的收入，意味着要吃掉其中三分之一。\n\n关键变量是：稳态下，每个工程师一年花多少钱在AI上？答案是大约10万美元，用来全天候跑10个智能体做推理，同时砍掉30%到40%的开发团队。按这个比例算下来，美国市场的天花板差不多就是2000亿，全球勉强到3500亿。6000亿那个数字，硬编码你也达不到。\n\n这周还有一笔收购，Stripe花了70亿买下OpenRouter。OpenRouter干的是模型路由，企业通过一个接口接入几十个模型。听起来跟Stripe收信用卡手续费的逻辑一模一样——都是在一笔笔流水里抽一小部分，来管理底层的复杂性。市场在以10倍速度增长的时候，买家没时间自己建，“去他的，直接花钱买，一周内开始运转”。\n\n但模型路由有一个致命边界。在聊天机器人里，你可以随便在几个模型之间跳来跳去。但到了高精度的企业工作流里，绝对不敢这么干。模型换来换去，输出就不一致了，这叫“模型漂移”，你还得重新做验证。所以企业客户最后大概率只会挑两三个模型精耕细作，根本不需要十几个模型的路由。\n\n最后提一嘴Workday被430亿美元私有化的事。这是SaaS史上最大的收购之一，大概5.3倍收入。没有记录系统护城河的SaaS，比如Airtable，卖出去只有2.7倍收入。为什么Workday能卖这么贵？因为极其封闭，客户想跑都跑不掉。但别忘了，客户虽然是“囚犯”，不代表会多花一分钱。CIO们的第一反应是：我能从这些被卡住的账单里砍掉什么？\n\n记录系统只能留住客户，不能保证增长。没有增长，就是在跟债务赛跑。\n\n最后送你一句特别狠的判断：在智能体世界里，如果到2026年8月，你的团队还没有深入到2027年的产品路线图中，那你的团队就不够优秀，无法在今天生存。\n\n悲观者听起来很聪明，但乐观者死得富有。"
+}

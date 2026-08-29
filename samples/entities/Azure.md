@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Saragawa]] · [[Ofir Ehrlich]] · [[Satya Nadella]] · [[Gonen Stein]] · [[Microsoft]] · [[Eon]] · [[GitHub]] · [[数据基础层]] · [[Microsoft 365]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"Saragawa":1,"Ofir Ehrlich":1,"Satya Nadella":2,"Gonen Stein":1,"Microsoft":16,"Eon":1,"GitHub":18,"数据基础层":1,"Microsoft 365":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":148,"Saragawa":1,"Ofir Ehrlich":1,"Satya Nadella":2,"Gonen Stein":1,"Microsoft":17,"Eon":1,"GitHub":18,"数据基础层":1,"Microsoft 365":1}</script>
 
 <script>
 (function(){

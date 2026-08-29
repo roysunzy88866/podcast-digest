@@ -25,7 +25,7 @@ unlisted: true
 
 [[Keith Rabois]] · [[Lenny]] · [[PayPal]] · [[Square]] · [[Ramp]] · [[Airbnb]] · [[桶和弹药]] · [[人才密度]] · [[PM]] · [[商业头脑]]
 
-<script type="application/json" class="pd-epn">{"Keith Rabois":1,"Lenny":65,"PayPal":2,"Square":3,"Ramp":4,"Airbnb":9,"桶和弹药":1,"人才密度":3,"PM":3,"商业头脑":1}</script>
+<script type="application/json" class="pd-epn">{"Keith Rabois":1,"Lenny":65,"PayPal":3,"Square":3,"Ramp":4,"Airbnb":9,"桶和弹药":1,"人才密度":3,"PM":3,"商业头脑":1}</script>
 
 <script>
 (function(){

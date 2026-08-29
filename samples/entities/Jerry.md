@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":23,"Sega":1,"Waymo":9,"Tesla":6,"Mercedes":1,"加速计算":1,"智能体":146,"物理 AI":4,"系统思维":3}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":23,"Sega":1,"Waymo":9,"Tesla":6,"Mercedes":1,"加速计算":1,"智能体":148,"物理 AI":4,"系统思维":3}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Apple]] · [[Tony Fadell]] · [[Susan Kare]] · [[Lenny]] · [[Macintosh]] · [[Nest]] · [[icon]] · [[OpenAI]] · [[font]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Apple":13,"Tony Fadell":1,"Susan Kare":1,"Lenny":65,"Macintosh":1,"Nest":1,"icon":1,"OpenAI":65,"font":1,"Anthropic":74}</script>
+<script type="application/json" class="pd-epn">{"Apple":13,"Tony Fadell":1,"Susan Kare":1,"Lenny":65,"Macintosh":1,"Nest":1,"icon":1,"OpenAI":66,"font":1,"Anthropic":75}</script>
 
 <script>
 (function(){

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":27,"智能体":146,"Ryan Carson":2,"Devon":4,"云端智能体":2,"Claude Code":37,"剧本":4,"后台智能体":5,"Cursor":37,"产品市场契合":10}</script>
+<script type="application/json" class="pd-epn">{"Codex":27,"智能体":148,"Ryan Carson":2,"Devon":4,"云端智能体":2,"Claude Code":38,"剧本":4,"后台智能体":5,"Cursor":38,"产品市场契合":10}</script>
 
 <script>
 (function(){

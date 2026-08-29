@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lovable</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(38:23起):本集在广告中提到它号称是历史上增长最快的公司,能让用户仅通过与 AI 聊天就能构建具有真实功能的应用程序和网站。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(31:38起):本集作为产品核心价值由 AI 支撑的公司范例被提及，说明这类 AI-first 的企业应该将更多精力投入到大的赌注上。
 - **[[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]]**(12:19起):本集举例说一个针灸师打开 Lovable 就开始构建应用，有用户有分析数据；但也提到 Lovable 被黑过，托管的网站的秘密被公开了
+- **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(23:02起):本集说 Lovable 从 Menlo 融了新轮，ARR 在 6-7 亿美元范围，估值 133 亿美元，认为它与 Cursor 的倍数并没有根本性偏离。Lovable 已经杀出一条路成为大局上的编码替代方案，并且开始积累护城河。
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(22:12起):本集作为增长速度极快的例子提到，一年内就到了1亿ARR
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(21:01起):本集说非技术人员正在用 Lovable 这类工具搭建东西，把公司数据放进去，完全不考虑安全和合规
 
@@ -34,7 +35,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为被讨论公司(提及)
@@ -44,6 +45,7 @@ unlisted: true
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
 - [[2026-05-06-beyondcoding-what-separates-cracked-software-engineer|《2026 工程师生存指南：Reddit 热帖直答》]] — 作为概念(提及)
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 
@@ -51,9 +53,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Cursor]] · [[智能体]] · [[Claude]] · [[OpenAI]] · [[Anthropic]] · [[Replit]] · [[ChatGPT]] · [[Google]] · [[vibe coding]]
+[[Cursor]] · [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Replit]] · [[Claude]] · [[vibe coding]] · [[Meta]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Cursor":37,"智能体":146,"Claude":35,"OpenAI":65,"Anthropic":74,"Replit":11,"ChatGPT":37,"Google":29,"vibe coding":23}</script>
+<script type="application/json" class="pd-epn">{"Cursor":38,"Lenny":65,"智能体":148,"OpenAI":66,"Anthropic":75,"Replit":12,"Claude":36,"vibe coding":23,"Meta":22,"ChatGPT":38}</script>
 
 <script>
 (function(){

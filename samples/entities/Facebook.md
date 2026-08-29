@@ -51,7 +51,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Cursor]] · [[ChatGPT]] · [[Instagram]] · [[Claude]] · [[vibe coding]] · [[Anthropic]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":146,"OpenAI":65,"Cursor":37,"ChatGPT":37,"Instagram":3,"Claude":35,"vibe coding":23,"Anthropic":74,"Microsoft":16}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"智能体":148,"OpenAI":66,"Cursor":38,"ChatGPT":38,"Instagram":3,"Claude":36,"vibe coding":23,"Anthropic":75,"Microsoft":17}</script>
 
 <script>
 (function(){

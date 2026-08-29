@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Casey Moratori]] [[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]]
+[[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Matt Dailey]] [[Frank Coyle]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":146,"沙箱":29,"基准测试":5,"上下文":11,"开放权重模型":6,"Slack":21,"Claude Code":37,"Codex":27,"Cursor":37}</script>
+<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":148,"沙箱":29,"基准测试":5,"上下文":11,"开放权重模型":6,"Slack":21,"Claude Code":38,"Codex":27,"Cursor":38}</script>
 
 <script>
 (function(){

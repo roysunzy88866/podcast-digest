@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Casey Moratori]] [[Ryan Carson]] [[Addy Osmani]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]] [[Stephen Haney]]
+[[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Yana Welinder":1,"Yanabana":1,"Codex":27,"ChatGPT":37,"Stripe":20,"GitHub":18,"Vercel":11,"Superhuman":4,"智能体":146,"计算机使用":4}</script>
+<script type="application/json" class="pd-epn">{"Yana Welinder":1,"Yanabana":1,"Codex":27,"ChatGPT":38,"Stripe":21,"GitHub":18,"Vercel":11,"Superhuman":4,"智能体":148,"计算机使用":4}</script>
 
 <script>
 (function(){

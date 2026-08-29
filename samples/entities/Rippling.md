@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rippling</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Rippling">RI</div><div class="pi"><h1 class="pt">Rippling</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Rippling">RI</div><div class="pi"><h1 class="pt">Rippling</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]]**(00:15起):本集讨论的估值超过 160 亿美元的企业软件公司，嘉宾长期担任其 COO 并近期转任 CPO。本集将其视为拥有单一业务数据图和一致数据湖的平台，认为在 AI 时代，拥有数据'矿山'的它在竞争中极具优势。
+- **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(24:36起):本集说 Rippling 公开发布了他们作为 B2B 参与者对使用模型的看法，测了一圈后只选了两个模型（Opus 4.8 和 GPT 5.5 medium），其余的'不值得'，一次只管理两三个模型而不是十二个。
 
 ## ① 提到它的金句
 
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Matt MacInnis]] · [[Lenny]] · [[Amar]] · [[Notion]] · [[Apple]] · [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合]] · [[熵]] · [[幂律分布]]
+[[Matt MacInnis]] · [[Rory O'Driscoll]] · [[Lenny]] · [[Jason Lemkin]] · [[Amar]] · [[Harry Stebbings]] · [[Notion]] · [[Cursor]] · [[Apple]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":65,"Amar":1,"Notion":9,"Apple":13,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":10,"熵":2,"幂律分布":1}</script>
+<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Rory O'Driscoll":1,"Lenny":65,"Jason Lemkin":2,"Amar":1,"Harry Stebbings":6,"Notion":9,"Cursor":38,"Apple":13,"SpaceX":10}</script>
 
 <script>
 (function(){

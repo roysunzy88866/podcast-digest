@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>66</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -62,6 +62,7 @@ unlisted: true
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(18:01起):本集说 OpenAI 没有像亚马逊那样多的内部使用数据可以挖
 - **[[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]]**(04:12起):本集提到 OpenAI 的机器人被黑客入侵到 Hugging Face，作为智能体破坏收容的近期案例之一
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(29:51起):本集提到瑞典后起之秀 Gabriel Peterson 成为 OpenAI 最年轻的研究员之一
+- **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(04:33起):本集在讨论 Anthropic 上市时机时提到 OpenAI，说 OpenAI 不得不整顿内部、有更多高管动荡，上半年增速比其之前的初级竞争对手慢，可能被迫第二个上市，届时可能无法像 SpaceX 和 Anthropic 那样伴随炒作交易。
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(00:05起):本集说 OpenAI 第二季度营收环比仅增长 18%、亏损加深，首席营收官 Denise Dresser 上任不到一年离职，在编码领域被 Anthropic 打了措手不及后被迫转向 Codex，寻求 2 万亿美元估值
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(08:45起):本集说 OpenAI 是前沿实验室之一，拥有 95% 的市场份额（按收入加权），筹集资本能力令人难以置信，能直接将资本转化为增长；其模型定价有补贴，存在被套利空间
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(13:45起):本集提到 OpenAI 拿了好几年企业数据、被黑过，以及做了世界历史上非同寻常的事情
@@ -111,7 +112,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*65 集*
+*66 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -164,6 +165,7 @@ unlisted: true
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为被讨论公司
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司(提及)
@@ -183,9 +185,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[NVIDIA]] · [[推理]] · [[ChatGPT]] · [[Cursor]] · [[AGI]] · [[Stripe]]
+[[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[ChatGPT]] · [[AGI]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":74,"Google":29,"Lenny":65,"NVIDIA":23,"推理":2,"ChatGPT":37,"Cursor":37,"AGI":16,"Stripe":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":148,"Anthropic":75,"Google":29,"Lenny":65,"推理":2,"Cursor":38,"NVIDIA":23,"ChatGPT":38,"AGI":16,"Stripe":21}</script>
 
 <script>
 (function(){

@@ -164,9 +164,9 @@ Sean McGuire：除了 ELO 评分法（只问 2400 分的棋手谁是另一个异
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、Cursor、SpaceX · 同概念:智能体 (agent)</span>
 - [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|让 AI 像人一样犯错：Simile 创始人的模拟人类生意]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:智能体 (agent)</span>
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:Anthropic、Cursor、OpenAI · 同概念:副驾驶 (copilot)</span>
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

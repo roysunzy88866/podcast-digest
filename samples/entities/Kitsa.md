@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Casey Moratori]] [[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]]
+[[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":146,"编排器":2,"护栏":30,"循环":3,"规则":1,"police 文件":1,"vibe coding":23,"vibe engineering":1,"技能文件":2,"Codex":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":148,"编排器":2,"护栏":30,"循环":3,"规则":1,"police 文件":1,"vibe coding":23,"vibe engineering":1,"技能文件":2,"Codex":27}</script>
 
 <script>
 (function(){

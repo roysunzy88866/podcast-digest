@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Brian Halligan]] · [[Julien Bek]] · [[Turner]] · [[Lenny]] · [[Harry Stebbings]] · [[Chris Olsen]] · [[HubSpot]] · [[Copilot]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"Anthropic":74,"Brian Halligan":1,"Julien Bek":1,"Turner":1,"Lenny":65,"Harry Stebbings":5,"Chris Olsen":1,"HubSpot":4,"Copilot":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":148,"Anthropic":75,"Brian Halligan":1,"Julien Bek":1,"Turner":1,"Lenny":65,"Harry Stebbings":6,"Chris Olsen":1,"HubSpot":4,"Copilot":6}</script>
 
 <script>
 (function(){

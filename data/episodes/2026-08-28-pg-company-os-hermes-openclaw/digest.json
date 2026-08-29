@@ -1,0 +1,142 @@
+{
+  "title_zh": "OLX CPO 用智能体接管了产品团队运营",
+  "tldr": "OLX Classifieds 的 CPO Mikhail Shcheglov 讲了他怎么用 OpenClaw 和 Hermes 搭了一套智能体系统，把状态报告、日历管理、需求过滤、招聘流程全自动化，让产品经理从流程里解放出来只做发现。",
+  "digest_md": "Mikhail 是 OLX Classifieds 的 CPO，OLX 是做分类广告的平台。他在过去五个月里，带着团队在 OpenClaw 和 Hermes 这两个智能体脚手架上，搭了一套覆盖整个产品组织的\"操作系统\"——智能体连进了 Google Workspace、Confluence、Jira、Slack，能读邮件、管日历、拉项目状态、过滤需求、甚至帮忙招人。最反直觉的一点：这套系统不总结会议记录，因为总结反而让智能体变笨了。\n\n## 知识图谱：把公司装进智能体的脑子\n\n这套系统的核心是一个知识图谱，五个月里积累了公司从行业、商业模式、客户、团队到漏斗指标的所有上下文。Mikhail 把它分成三层来看：产品层（产品相关的所有节点）、联系人层（谁跟谁在沟通）、团队层（各集群和部门之间的连接密度）。他甚至用它来诊断组织问题——如果某个平台团队的节点跟买家/卖家体验团队几乎没重叠，就说明存在信息孤岛，团队之间需要多交流 [06:04 Mikael]。\n\n他给这套系统设了一个个人 KPI：产品上下文覆盖率。具体做法是用一段很精确的提示词问智能体——你对我们的行业（五个垂直领域）、业务模型（P&L 和驱动因素）、客户（买家、卖家、细分群体、队列层面）的知识分别掌握了百分之多少？AI 会给出一个具体数字。目前这个覆盖率在 54%，意味着智能体已经能充当一个初级产品经理，甚至能做待办事项级别的决策。他判断，到 70-90% 的时候，这套知识图谱就能支撑战略层面的工作 [04:36 Mikael]。\n\n## 三层记忆：为什么原始转录比总结更好\n\n记忆架构分三层。第一层是前面说的知识图谱，是高维的关联网络。第二层是向量数据库——智能体收到的每一条知识都会立刻被转成向量，用来做模糊检索，因为大多数请求不是精确关键词能匹配的 [24:02 Mikael]。\n\n第三层是最关键的一个决策：所有会议转录稿和对话记录，以原始形式存成 MD 文件，不做任何总结。\n\n这跟直觉相反。Mikhail 团队测试发现，总结会损害检索质量，原因有两个：一是总结会丢掉细粒度细节，而\"魔鬼总在细节里\"；二是总结会强加一个模板（已解决的任务、剩余任务、重要/不重要），把原始对话硬塞进去，导致保真度大幅下降——召回率掉了 20-25% [26:03 Mikael]。所以他的架构决策是：全部存原始文本，靠向量检索和关键词混合搜索来找出相关片段，不让无关内容撑爆上下文窗口 [30:51 Mikael]。\n\n检索流程是先做精确关键词匹配（大约 25% 的请求能命中），剩下的走向量搜索做模糊匹配，只把高度相关的数据片段拉进提示词 [31:00 Mikael]。\n\n## 指令库：对付 LLM 的\"虚假有用\"\n\nMikhail 花了大量精力维护一个指令库（imperatives），大概 700 行，写在 SolMD 文件里（OpenClaw 的配置文件，优先级仅次于 ClaudeMD）[18:36 Mikael]。\n\n为什么需要这东西？因为 LLM 的训练方式让它追求\"看起来像好的输出\"，而不是\"真正有用的结果\"。他举了一个让他非常恼火的例子：你让智能体帮你订会议，结果 Google Workspace 的 token 过期了，智能体回你说\"抱歉我做不到，但你可以自己打开 Google Calendar、输入会议名、选时间\"——这就是\"虚假有用\"，浪费 token 说了一堆废话 [33:06 Mikael]。\n\n所以指令库里塞满了这类规则：不许捏造、事实优于猜测、三思而后行、禁止虚假有用的建议。他承认 700 行可能过载了上下文甚至有矛盾，但实测下来这是召回率和准确率最稳健的方式，而且每条指令都在五个核心话题上做对照测试 [34:28 Mikael]。\n\n## 需求守门人：不让利益相关者骚扰 PM\n\n任何利益相关者想提需求，先跟智能体聊。比如有人一早醒来就说\"我要给汽车类目加一个视频提交功能，竞品都在做\"。这个请求没有问题框架、没有影响预估、没有理由、也不尊重已有优先级。智能体会先回一堆澄清问题，如果回答完之后智能体判断不值得做，就礼貌拒绝；如果值得做，才加进待办列表并上报给对应的产品经理 [19:01 Mikael]。\n\n智能体内部有完整的组织架构映射，知道每个领域的负责人是谁 [21:05 Mikael]。\n\n## 自动技能生成：Hermes 带来的 31% 召回提升\n\n架构上，OpenClaw 提供脚手架和工具集成，Hermes 负责一个独特功能：自动技能生成。它会观察你最频繁请求的任务类型，自动创建\"技能\"（skill）——比如团队招聘评估、移民案例处理这些反复出现的话题，Hermes 会自己判断\"该不该为此建一个技能\"，然后自动建 [38:00 Mikael]。\n\nMikhail 在五个核心话题（市场、商业模式、产品/增长杠杆、漏斗等）上各出了 10 个问题，对比有技能和没技能的响应准确率，结果是+31%——这让他决定把两个脚手架混合使用 [39:42 Mikael]。\n\n测召回的方法也很直接：让智能体自己列出你最常互动的领域，每个领域生成 10 个最典型的问题，然后对照组 vs 技能组跑一遍，人工看第一轮结果，方法论固定后就可以把评估全委托给系统 [40:12 Mikael]。\n\n## 董事会技能与权限控制\n\n所有董事会会议通过 Granola 转录，Hermes 自动围绕董事会成员的心智模型建了一个\"董事会技能\"。Mikhail 做年度战略辩护前，先把 pitch deck 丢给这个技能跑一遍，让它扮演董事挑刺 [42:00 Mikael]。\n\n权限方面，智能体根据联系人身份分配不同的访问权限和可用工具。董事会技能只对他和执行委员会开放。隐私方面，除非员工自愿把会议转录提供给 Granola，否则不会拿去训练模型或建技能 [43:40 Mikael]。\n\n## 模型路由与设计系统自动更新\n\n底层有一个智能体编排器负责模型路由：复杂请求或高敏感领域（错误爆炸半径大的）分配给最强模型；执行类工作和状态报告用中等模型；低准确率要求的杂活用小模型 [42:42 Mikael]。\n\n设计系统方面，整个 Figma 设计系统是从提示词构建的，组件尺寸、状态、tokens 全覆盖。当工程师和产品经理沟通中发现缺少某个组件或有人试图硬编码时，智能体会感知到并自动在 Figma 里创建，设计师只做审查而非执行 [48:38 Mikael]。\n\n## 招聘自动化：从寻找到拒信\n\n三个工具串起来：LinkedIn Recruiter 负责按条件找人并用预设模板发联络；CRM 负责管道管理和漏斗统计；面试环节全部转录，智能体给出第三方评估意见——不是替你决策，而是提供一个\"清醒的替代视角\"。如果决定拒绝，智能体会根据转录内容起草一封详细的、带有具体改进建议的拒信。Mikhail 说他认识的招聘人员没几个能做到这个水平。整条招聘工作流自动化了大约 70-75% [54:20 Mikael]。\n\n## PM 的未来：更小、更精、更聚焦发现\n\nMikhail 的判断是产品管理不会消失，反而会蓬勃——因为 AI 替掉的是合规、绩效、状态报告这些运营开销，留下的是\"价值发现\"，也就是跟客户交谈、理解客户旅程，这是 AI 做不了的，也是工作中最有意思的部分 [57:44 Mikael]。\n\n团队结构上，高复杂度、高错误爆炸半径的领域（搜索、推荐算法、变现）仍然需要专门负责人。但面向客户的领域，一个产品经理可以同时管三四个跨平台领域，不用加人 [59:22 Mikael]。PM、工程师、设计师之间的界限会模糊——本质上大家都是在编排\"质量和 token 预算\" [59:39 Mikael]。\n\n招 PM 的标准，基本面还是解决问题和系统性思维，但加了AI技艺这个筛选条件：你日常工作中用 AI 自动化了哪些用例？如果回答还停留在\"我用 ChatGPT 网页版聊天\"，那就是低成熟度；如果已经是个智能体编排者，把整个职业工作流都自动化了，那才是他想要的 [61:47 Mikael]。\n\n## 本集带走\n- **别总结会议，存原始转录**：总结会丢细节、强加模板，实测召回率掉 20-25%；靠向量+关键词混合检索只拉相关片段\n- **建一个\"产品上下文覆盖率\"指标**：用精确提示词让 AI 自评对行业/业务/客户的知识掌握百分比，作为知识库质量的北极星\n- **维护一份指令库（imperatives）**：专门对付 LLM 的\"虚假有用\"——禁止它说\"我做不到但你可以这样操作\"这类废话\n- **让智能体当需求守门人**：利益相关者提需求先过智能体，没有问题框架和影响预估的直接被澄清问题挡回去\n- **用 Hermes 的自动技能生成**：让系统自己观察高频任务并建技能，实测召回率+31%\n- **招 PM 时加一道 AI 技艺筛**：问\"你自动化了哪些日常工作\"，区分\"聊天式使用\"和\"编排式使用\"",
+  "quotes": [
+    {
+      "en": "Agents are actually building most of our features.",
+      "zh": "智能体实际上正在构建我们的大部分功能。",
+      "timestamp": "00:00",
+      "speaker": "Mikael"
+    },
+    {
+      "en": "And if we abstract all of this and start delegating this part of work to AI, then essentially what you end up with is you have a product manager that is solely focused on discovery, like where the biggest leverage actually is.",
+      "zh": "如果我们把所有这些都抽象出来，并开始把这部分工作委托给 AI，那么本质上你最终得到的是一个产品经理他完全专注于发现，比如实际上最大的杠杆在哪里。",
+      "timestamp": "16:14",
+      "speaker": "Mikael"
+    },
+    {
+      "en": "And it turns out that summarization actually hurts a retrieval.",
+      "zh": "结果证明总结实际上损害了检索。",
+      "timestamp": "26:03",
+      "speaker": "Mikael"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Mikael",
+      "en": "Agents are actually building most of our features.",
+      "zh": "智能体实际上正在构建我们的大部分功能。"
+    },
+    {
+      "timestamp": "02:50",
+      "speaker": "Mikael",
+      "en": "Is to be able to automate as much knowledge as we can.",
+      "zh": "就是能够自动化尽可能多的知识。"
+    },
+    {
+      "timestamp": "03:16",
+      "speaker": "Mikael",
+      "en": "He's a bottleneck effectively, a knowledge bottleneck.",
+      "zh": "他实际上是一个瓶颈，一个知识瓶颈。"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Mikael",
+      "en": "The better your AI knows your context, the more autonomy you can give it, the higher level tasks you can delegate to it.",
+      "zh": "你的 AI 越了解你的上下文，你能给它的自主权就越多，你能委派给它的任务级别就越高。"
+    },
+    {
+      "timestamp": "05:12",
+      "speaker": "Mikael",
+      "en": "which already means that it can operate as a capable, I would say, junior to meet product manager and even make backlog level decisions.",
+      "zh": "这已经意味着它可以作为一个有能力的，我会说，初级去见产品经理……甚至做出待办事项级别的决策。"
+    },
+    {
+      "timestamp": "07:23",
+      "speaker": "Mikael",
+      "en": "You can clearly see that there is some instances of silos happening.",
+      "zh": "你可以清楚地看到发生孤岛效应的一些实例。"
+    },
+    {
+      "timestamp": "13:16",
+      "speaker": "Mikael",
+      "en": "what has changed and changed pretty significantly is that the cost of this output is negligible.",
+      "zh": "发生变化的，且变化相当显著的是，这种产出是可以忽略不计的。"
+    },
+    {
+      "timestamp": "16:14",
+      "speaker": "Mikael",
+      "en": "And if we abstract all of this and start delegating this part of work to AI, then essentially what you end up with is you have a product manager that is solely focused on discovery, like where the biggest leverage actually is.",
+      "zh": "如果我们把所有这些都抽象出来，并开始把这部分工作委托给 AI，那么本质上你最终得到的是一个产品经理他完全专注于发现，比如实际上最大的杠杆在哪里。"
+    },
+    {
+      "timestamp": "16:35",
+      "speaker": "Mikael",
+      "en": "And a single product manager could actually do the work of two product managers because he doesn't have the burden of all the processes that a typical corporate environment imposes on him.",
+      "zh": "单个产品经理实际上可以做两个产品经理的工作，因为他没有所有流程的负担，典型的企业环境强加给他的。"
+    },
+    {
+      "timestamp": "26:03",
+      "speaker": "Mikael",
+      "en": "And it turns out that summarization actually hurts a retrieval.",
+      "zh": "结果证明总结实际上损害了检索。"
+    },
+    {
+      "timestamp": "26:42",
+      "speaker": "Mikael",
+      "en": "And we've noticed like a huge fidelity loss and I think it was like 20-25% worse recall.",
+      "zh": "并且我们注意到了巨大的保真度损失，我认为是召回率降低了 20-25%。"
+    },
+    {
+      "timestamp": "26:56",
+      "speaker": "Mikael",
+      "en": "let's just store every single transcript, every single conversation that we had in a raw form.",
+      "zh": "让我们只存储每一份转录稿，我们进行的每一次对话都以原始形式。"
+    },
+    {
+      "timestamp": "33:06",
+      "speaker": "Mikael",
+      "en": "Another angle which super pissed me off a lot, I call this fake helpful.",
+      "zh": "另一个让我非常恼火的视角，我称之为\"虚假的有助\"。"
+    },
+    {
+      "timestamp": "33:34",
+      "speaker": "Mikael",
+      "en": "I mean, it's an obvious advice. You don't even have to waste tokens explaining this.",
+      "zh": "我是说，这是一个明显的建议。你甚至不必浪费 tokens 来解释这个。"
+    },
+    {
+      "timestamp": "40:04",
+      "speaker": "Mikael",
+      "en": "And what we've seen was that having those skills in place gave us plus 31% more accuracy, which was a deal breaker.",
+      "zh": "我们看到的是，拥有那些技能就位给了我们多 31% 的准确率，这是一个决定性因素。"
+    },
+    {
+      "timestamp": "48:41",
+      "speaker": "Mikael",
+      "en": "So if you look here, right, the entire design system was built from prompt.",
+      "zh": "所以如果你看这里，对，整个设计系统是由提示词构建的。"
+    },
+    {
+      "timestamp": "57:44",
+      "speaker": "Mikael",
+      "en": "I think not only product management is going to exist, I think it's going to thrive.",
+      "zh": "我认为不仅产品管理将会存在，我认为它将会蓬勃发展。"
+    },
+    {
+      "timestamp": "58:24",
+      "speaker": "Mikael",
+      "en": "It removes a lot of the operational overhead from the work.",
+      "zh": "它从工作中移除了大量的运营开销。"
+    },
+    {
+      "timestamp": "59:10",
+      "speaker": "Mikael",
+      "en": "What actually will happen is that the teams will be smaller, leaner, and faster.",
+      "zh": "实际上将会发生的是团队会更小、更精简、更快。"
+    }
+  ],
+  "voice_script": "你可能想不到，一个做分类广告的平台，花了五个月时间，硬是用智能体把整个产品团队的运营给接管了。\n\n这期我们就聊聊，OLX 的 CPO Mikhail 是怎么在 OpenClaw 和 Hermes 这两个智能体脚手架上，搭出一套产品组织操作系统的。\n\n这套系统干的事非常琐碎，但也非常实在：读邮件、管日历、拉项目状态、过滤需求，甚至帮忙招人。但最反直觉的一点，咱们先说在前面：这套系统坚决不总结会议记录。为什么？因为测下来发现，总结反而会让智能体变笨，召回率直接掉百分之二十到二十五。\n\n要理解这件事，得先看这套系统的核心，一个巨大的知识图谱。五个月里，这里面积累了公司从行业、商业模式、客户，一直到漏斗指标的所有上下文。Mikhail 把它分成三层：产品层、联系人层、还有团队层。有意思的是，这东西还能拿来诊断组织问题。如果发现某个平台团队的节点，跟买家卖家体验团队几乎没重叠，就说明存在信息孤岛，得赶紧拉通。\n\n为了衡量这个知识库到底行不行，Mikhail 还设了一个挺绝的个人 KPI，叫产品上下文覆盖率。具体怎么算？直接用一段精确的提示词问智能体：你对我们的行业、业务模型、客户的知识分别掌握了百分之多少？AI 会给一个具体数字。现在这个数字是 54%，已经能当个初级产品经理用了。判断到了 70% 到 90%，就能支撑战略层面的工作。\n\n那么回到刚才那个反直觉的点，记忆架构到底怎么搭？除了知识图谱，还有一层向量数据库，专门做模糊检索。但最关键的决策在第三层：所有会议转录稿和对话记录，以原始形式存成 MD 文件，坚决不做总结。\n\n原因很实在。总结会丢掉细粒度细节，而魔鬼总在细节里。更烦人的是，总结会强加一个模板，把原始对话硬塞进已解决任务、剩余任务这种框框里，保真度大幅下降。所以架构决策就是：全存原始文本，靠精确关键词加向量搜索混合检索，只把高度相关的数据片段拉进提示词，不让无关内容撑爆上下文窗口。\n\n光有记忆还不够，还得管住大模型的一身臭毛病。Mikhail 花了大量精力维护了一个 700 行的指令库。为什么需要这东西？因为大模型的训练方式，让这东西天生追求看起来像好的输出，而不是真正有用的结果。\n\n举个例子，让智能体帮你订会议，结果 Google Workspace 的 token 过期了。智能体不直说，反而回你一句：抱歉我做不到，但你可以自己打开 Google Calendar、输入会议名、选时间。这就是典型的虚假有用，浪费 token 说了一堆废话。所以指令库里塞满了硬规矩：不许捏造、事实优于猜测、禁止虚假有用的建议。虽然 700 行可能过载甚至有矛盾，但实测下来，这是召回率和准确率最稳健的方式。\n\n这套系统落地的第一个硬场景，是当需求守门人。任何利益相关者想提需求，先跟智能体聊。比如有人一早跑来说，竞品都上了视频提交功能，我们也要加。没有问题框架，没有影响预估，也不尊重已有优先级。这时候智能体会先甩出一堆澄清问题。如果回答完判断不值得做，就礼貌拒绝；值得做，才加进待办列表上报给对应的产品经理。因为内部有完整的组织架构映射，智能体清楚知道每个领域的负责人是谁。\n\n架构上还有个妙招，Hermes 带来的自动技能生成。系统会观察最频繁请求的任务类型，自己判断该不该建一个技能，然后自动建。比如团队招聘评估、移民案例处理这种反复出现的话题。Mikhail 在五个核心话题上各出了 10 个问题对比，加了自动技能之后，准确率直接提升了 31%。\n\n甚至连开董事会都用上了。所有董事会会议通过 Granola 转录后，Hermes 会自动围绕董事成员的心智模型建一个董事会技能。做年度战略辩护前，先把 pitch deck 丢给这个技能跑一遍，让它扮演董事挑刺。当然权限卡得很死，这个技能只对执行委员会开放，员工不自愿提供转录，就绝不去碰。\n\n底层还有一个智能体编排器负责模型路由。复杂请求、高敏感领域分配给最强模型；执行类工作用中等模型；杂活用小模型。设计系统也自动化了，整个 Figma 设计系统是从提示词构建的，一旦发现缺少组件或者有人试图硬编码，智能体会自动在 Figma 里创建，设计师只做审查。\n\n招聘流程更是被三个工具串起来自动化了大概 70% 到 75%。LinkedIn Recruiter 按条件找人发联络，CRM 管管道，面试全部转录。智能体给出第三方评估意见，提供的是一个清醒的替代视角。如果决定拒绝，还会根据转录内容起草一封带有具体改进建议的拒信。说实话，能做到这个水平的招聘人员真没几个。\n\n那么产品经理到底会变成什么样？Mikhail 的判断很明确：不会消失，反而会蓬勃。因为 AI 替掉的是合规、绩效、状态报告这些运营开销，留下的是价值发现，也就是跟客户交谈、理解客户旅程。这是 AI 做不了的，也是工作中最有意思的部分。\n\n以后招 PM，除了看解决问题的能力，还得加一道 AI 技艺的筛：你日常自动化了哪些用例？如果回答还停留在用 ChatGPT 网页版聊天，那就是低成熟度；如果已经是个智能体编排者，把整个职业工作流都自动化了，那才是真正对的人。\n\n说白了，如果把所有流程性的工作都抽象出来委托给 AI，你最终得到的产品经理，是一个完全专注于发现的人——去找到真正的杠杆在哪里。"
+}

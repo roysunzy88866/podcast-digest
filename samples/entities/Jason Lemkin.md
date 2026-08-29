@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jason Lemkin</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jason Lemkin">JA</div><div class="pi"><h1 class="pt">Jason Lemkin</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jason Lemkin">JA</div><div class="pi"><h1 class="pt">Jason Lemkin</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*8 条*
+*14 条*
 
 ![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q1]]
 
@@ -29,27 +29,40 @@ unlisted: true
 
 ![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q8]]
 
+![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q1]]
+
+![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q2]]
+
+![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q3]]
+
+![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q4]]
+
+![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q5]]
+
+![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q11]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为联合主持
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[SaaStr]] · [[Replit]] · [[Vercel]] · [[Salesforce]] · [[Artisan]] · [[Qualified]] · [[Delphi]] · [[智能体]] · [[编排]]
+[[Replit]] · [[Salesforce]] · [[智能体]] · [[Lenny]] · [[Rory O'Driscoll]] · [[SaaStr]] · [[Harry Stebbings]] · [[Vercel]] · [[Cursor]] · [[Artisan]]
 
-## ④ 也在聊「增长与销售」的人
+## ④ 也在聊「AI 编程」的人
 
 <div class="pd-peers">
 
-[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]] [[Jason Cohen]]
+[[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"SaaStr":1,"Replit":11,"Vercel":11,"Salesforce":8,"Artisan":1,"Qualified":1,"Delphi":3,"智能体":146,"编排":2}</script>
+<script type="application/json" class="pd-epn">{"Replit":12,"Salesforce":9,"智能体":148,"Lenny":65,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":6,"Vercel":11,"Cursor":38,"Artisan":1}</script>
 
 <script>
 (function(){

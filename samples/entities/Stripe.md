@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,19 +28,24 @@ unlisted: true
 - **[[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]]**(00:47起):本集将 Stripe 描述为从一家支付公司演变为多产品金融基础设施平台，平均一家 AI 公司会使用 11 种不同的 Stripe 产品，且在智能体编码和智能体商务方面走在前沿。
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(25:01起):本集提到通过 Codex 的 browser use 把 Stripe 支付接入网站，被描述为以前是繁琐大工程、现在很快就搞定
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(31:52起):本集提到刚发布了一期与 Stripe 的 Will Gabrick 的播客，并类比 Stripe 从小公司开始与客户一起成长、在每个生命周期阶段都在场的方式，与 a16z 的全球策略有相似之处
+- **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(17:44起):本集说 Stripe 以 70 亿美元收购 OpenRouter，逻辑与其现有业务一致：收资金流的一小部分来管理信用卡收款复杂性，现在收 AI 调用流的一小部分来管理模型路由复杂性。同时 Stripe 还在谈收购 PayPal，一步打入新地盘、一步巩固旧地盘，全部在私有状态下完成。
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(01:50起):本集说 Stripe 同意收购 OpenRouter，因为两家公司都将事物视为市场——一个将 token 视为价值，一个将支付视为价值
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(83:33起):本集提到 Stripe 相当高调地宣扬不上市，但 Michael 认为并非每家公司都能像 Stripe 那样有大量投资者需求而不需要上市，Stripe 的情况是独一无二的。
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(42:56起):本集引用 Stripe 的信件，其中提出'智能应该像资本一样被管理和分配，而不是像软件许可证'，收入加速至 41%，账单增长 71%
 
 ## ① 提到它的金句
 
-*1 条*
+*3 条*
 
 ![[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m#^q3]]
 
+![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q8]]
+
+![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q9]]
+
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
@@ -59,6 +64,7 @@ unlisted: true
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|《Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR》]] — 作为被讨论公司
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为被讨论公司(提及)
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司(提及)
@@ -67,9 +73,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Cursor]] · [[Vercel]] · [[推理]] · [[AI]] · [[ChatGPT]] · [[Claude]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[Lenny]] · [[Vercel]] · [[AI]] · [[Replit]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":146,"OpenAI":65,"Anthropic":74,"Lenny":65,"Cursor":37,"Vercel":11,"推理":2,"AI":9,"ChatGPT":37,"Claude":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":148,"OpenAI":66,"Anthropic":75,"Cursor":38,"推理":2,"Lenny":65,"Vercel":11,"AI":9,"Replit":12,"ChatGPT":38}</script>
 
 <script>
 (function(){

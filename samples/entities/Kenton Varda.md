@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]] [[Max Welling]]
+[[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]] [[Sam Charrington]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":13,"Google":29,"智能体":146,"沙箱":29,"无服务器":1,"云基础设施":1,"vibe coding":23,"蓝图":1,"小玩意":1}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":13,"Google":29,"智能体":148,"沙箱":29,"无服务器":1,"云基础设施":1,"vibe coding":23,"蓝图":1,"小玩意":1}</script>
 
 <script>
 (function(){

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Casey Moratori]] [[Ryan Carson]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]] [[Frank Coyle]] [[Idan Gazit]]
+[[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":1,"Anthropic":74,"Claude Code":37,"ClaudeTag":1,"Fable":6,"Slack":21,"Bun":1,"Rust":2,"Gemini":5}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":1,"Anthropic":75,"Claude Code":38,"ClaudeTag":1,"Fable":6,"Slack":21,"Bun":1,"Rust":2,"Gemini":5}</script>
 
 <script>
 (function(){

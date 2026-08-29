@@ -31,7 +31,7 @@ unlisted: true
 
 [[Matt Swulinski]] · [[Harry Stebbings]] · [[Superhuman]] · [[Victor]] · [[Meta]] · [[Google]] · [[PLG]] · [[智能体]] · [[ugc]] · [[AEO]]
 
-<script type="application/json" class="pd-epn">{"Matt Swulinski":1,"Harry Stebbings":5,"Superhuman":4,"Victor":1,"Meta":21,"Google":29,"PLG":5,"智能体":146,"ugc":2,"AEO":3}</script>
+<script type="application/json" class="pd-epn">{"Matt Swulinski":1,"Harry Stebbings":6,"Superhuman":4,"Victor":2,"Meta":22,"Google":29,"PLG":5,"智能体":148,"ugc":2,"AEO":3}</script>
 
 <script>
 (function(){

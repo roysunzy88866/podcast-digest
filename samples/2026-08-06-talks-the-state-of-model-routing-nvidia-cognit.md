@@ -114,7 +114,7 @@ Alex 给出了实战结论:对于深度研究这类任务,他们发现让最聪�
 
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:NVIDIA · 同概念:Nemotron、智能体 (agent)</span>
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同公司:NVIDIA · 同概念:开源模型 (open source models)、智能体 (agent)</span>
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:OpenClaw、智能体 (agent)</span>
+- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:OpenRouter、Cognition · 同概念:智能体 (agent)</span>
 
 </div>
 </div>
