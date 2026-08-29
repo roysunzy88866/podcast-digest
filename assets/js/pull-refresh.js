@@ -13,6 +13,11 @@
  *    `ioret:<路径>`(批次 + 滚动位)存进 sessionStorage,回来时还原。而下拉刷新的语义是
  *    「回顶部看最新」,不清掉就会刷完还原到半路,看着像没刷新。
  * ④ 只在**滚到最顶** + **没有弹层**时接管,且只拦「向下拉」那一段,别的手势一概不碰。
+ * ⑤ **touchmove 按需挂载**(2026-08-29 用户「独立 App 特别卡顿」):在 document 上常驻一个
+ *    非被动(passive:false)touchmove,会让浏览器每次滚动都得先等 JS 跑完才能滚(怕你 preventDefault),
+ *    整页失去线程滚动快路径 → standalone 下明显卡(这脚本只在 standalone 跑,正好对上「浏览器不卡、
+ *    独立 App 卡」)。改成**只在「顶部起手」那一刻**才 addEventListener 挂上、手势结束/一往上滑就摘掉,
+ *    其余时刻页面滚动一律走浏览器快路径,不再被拖慢。UX 不变(顶部下拉刷新照旧)。
  */
 (function () {
   var W = typeof window !== "undefined" ? window : null;
@@ -33,7 +38,7 @@
   var TRIGGER = 70; // 拉过这么远松手才刷新
   var MAX = 120; // 最多跟到这么远(再拉也不动,给个到头的手感)
   var DAMP = 0.5; // 阻尼:手指走 2px 指示器走 1px,像原生那样越拉越沉
-  var startY = 0, dist = 0, tracking = false, refreshing = false, bar = null;
+  var startY = 0, dist = 0, tracking = false, refreshing = false, bar = null, moveOn = false;
 
   function scrollTop() {
     return W.scrollY || W.pageYOffset || (doc.documentElement && doc.documentElement.scrollTop) || 0;
@@ -85,47 +90,70 @@
     }, 160); // 让转圈露一下脸,不然刷太快像没反应
   }
 
+  // ⑤ 非被动 touchmove 只在下拉手势期间存在:顶部起手时挂上,松手/一往上滑就摘掉。
+  //    平时(读文章滚页)document 上没有非被动 touchmove → 浏览器线程滚动快路径不被剥夺。
+  function onMove(e) {
+    if (!tracking || refreshing || !e.touches || !e.touches.length) return;
+    var dy = e.touches[0].clientY - startY;
+    if (dy <= 0 || !atTop()) {
+      // 往上滑 / 已经不在顶部 → 交还给页面正常滚动,并立刻摘掉非被动监听恢复快路径
+      if (dist > 0) hide();
+      tracking = false;
+      dist = 0;
+      detachMove();
+      return;
+    }
+    // 只在「顶部往下拉」这一段拦下默认行为,免得和 iOS 的橡皮筋抢
+    if (e.cancelable) e.preventDefault();
+    dist = Math.min(MAX, dy * DAMP);
+    show(dist, false);
+  }
+  function attachMove() {
+    if (moveOn) return;
+    doc.addEventListener("touchmove", onMove, { passive: false });
+    moveOn = true;
+  }
+  function detachMove() {
+    if (!moveOn) return;
+    doc.removeEventListener("touchmove", onMove, { passive: false });
+    moveOn = false;
+  }
+
   doc.addEventListener(
     "touchstart",
     function (e) {
       if (refreshing || !atTop() || overlayOpen() || !e.touches || e.touches.length !== 1) {
         tracking = false;
+        detachMove(); // 条件不满足就别留着非被动监听
         return;
       }
       startY = e.touches[0].clientY;
       dist = 0;
       tracking = true;
+      attachMove(); // ← 唯一挂载点:仅「顶部起手」这一刻
     },
     { passive: true },
   );
 
   doc.addEventListener(
-    "touchmove",
-    function (e) {
-      if (!tracking || refreshing) return;
-      var dy = e.touches[0].clientY - startY;
-      if (dy <= 0 || !atTop()) {
-        // 往上滑 / 已经不在顶部 → 交还给页面正常滚动
-        if (dist > 0) hide();
-        tracking = false;
-        dist = 0;
-        return;
-      }
-      // 只在「顶部往下拉」这一段拦下默认行为,免得和 iOS 的橡皮筋抢
-      if (e.cancelable) e.preventDefault();
-      dist = Math.min(MAX, dy * DAMP);
-      show(dist, false);
-    },
-    { passive: false },
-  );
-
-  doc.addEventListener(
     "touchend",
     function () {
+      detachMove();
       if (!tracking || refreshing) return;
       tracking = false;
       if (dist >= TRIGGER) doRefresh();
       else hide();
+      dist = 0;
+    },
+    { passive: true },
+  );
+
+  doc.addEventListener(
+    "touchcancel",
+    function () {
+      detachMove();
+      tracking = false;
+      if (dist > 0) hide();
       dist = 0;
     },
     { passive: true },

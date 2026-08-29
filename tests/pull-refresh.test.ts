@@ -16,7 +16,7 @@ type Opts = { standalone?: boolean; scrollY?: number; overlay?: boolean };
 
 /** 最小 DOM 桩:只实现脚本真正用到的那几样,回放触摸事件 */
 function run(opts: Opts = {}) {
-  const listeners: Record<string, Array<(e: any) => void>> = {};
+  const listeners: Record<string, Array<{ cb: (e: any) => void; opts?: any }>> = {};
   const appended: any[] = [];
   const store: Record<string, string> = { "ioret:/": '{"shown":72,"y":1800}' };
   let reloaded = 0;
@@ -44,7 +44,9 @@ function run(opts: Opts = {}) {
     body,
     createElement: mkEl,
     querySelector: (sel: string) => (opts.overlay && sel.includes("pd-favov") ? {} : null),
-    addEventListener: (t: string, cb: any) => void ((listeners[t] ||= []).push(cb)),
+    addEventListener: (t: string, cb: any, o?: any) => void ((listeners[t] ||= []).push({ cb, opts: o })),
+    removeEventListener: (t: string, cb: any) =>
+      void (listeners[t] = (listeners[t] || []).filter((l) => l.cb !== cb)),
   };
   const win = {
     document: doc,
@@ -63,15 +65,19 @@ function run(opts: Opts = {}) {
 
   new Function("window", "location", "sessionStorage", SRC)(win, location, sessionStorage);
 
+  // 快照后再逐个调用:onMove 可能在触发中途 detach 自己(移除 touchmove 监听),不能边遍历边改
   const fire = (t: string, y: number) =>
-    (listeners[t] || []).forEach((cb) =>
-      cb({ touches: [{ clientY: y }], cancelable: true, preventDefault() { (this as any)._pd = true; } }),
+    [...(listeners[t] || [])].forEach((l) =>
+      l.cb({ touches: [{ clientY: y }], cancelable: true, preventDefault() { (this as any)._pd = true; } }),
     );
   return {
     get attached() { return (listeners["touchstart"] || []).length > 0; },
+    get touchmoveCount() { return (listeners["touchmove"] || []).length; },
+    get touchmovePassive() { return (listeners["touchmove"] || [])[0]?.opts?.passive; },
     get bar() { return appended[0]; },
     get reloaded() { return reloaded; },
     get store() { return store; },
+    fire,
     flush: () => timers.splice(0).forEach((fn) => fn()),
     /** 回放一次下拉:按下 → 移动到 y → 松手 */
     pull(toY: number) {
@@ -153,5 +159,35 @@ describe("C29 · 指示器", () => {
     t.pull(60);
     expect(t.bar.classList.has("pd-ptr-go")).toBe(false);
     expect(t.bar.classList.has("pd-ptr-run")).toBe(false);
+  });
+});
+
+describe("C29 · 独立 App 卡顿修复(2026-08-29):非被动 touchmove 不常驻 document", () => {
+  // 由来:document 上常驻 passive:false 的 touchmove 会让浏览器每次滚动都先等 JS(怕 preventDefault),
+  // 整页失去线程滚动快路径 → standalone 明显卡。改成只在下拉手势期间临时挂载。
+  it("★★★ 加载后 document 上没有 touchmove 监听(不剥夺整页线程滚动快路径)", () => {
+    const t = run(); // standalone
+    expect(t.attached).toBe(true); // touchstart 已挂(接管手势入口)
+    expect(t.touchmoveCount).toBe(0); // 但 touchmove 一个都不常驻 —— 这就是修复点
+  });
+  it("★★★ 只在「顶部起手」时临时挂上非被动 touchmove,松手后摘掉", () => {
+    const t = run();
+    t.fire("touchstart", 0); // 顶部起手
+    expect(t.touchmoveCount).toBe(1); // 这一刻才挂
+    expect(t.touchmovePassive).toBe(false); // 且非被动(要 preventDefault 拦 iOS 橡皮筋)
+    t.fire("touchend", 0);
+    expect(t.touchmoveCount).toBe(0); // 松手立刻摘掉,恢复快路径
+  });
+  it("★★★ 一往上滑(交还页面滚动)当场摘掉 touchmove,不拖慢后续滚动", () => {
+    const t = run();
+    t.fire("touchstart", 0);
+    expect(t.touchmoveCount).toBe(1);
+    t.fire("touchmove", -50); // 往上滑 = 用户要正常滚页
+    expect(t.touchmoveCount).toBe(0); // onMove 自摘
+  });
+  it("★★★ 不在顶部起手 → 从不挂 touchmove(正常滚动全程走快路径)", () => {
+    const t = run({ scrollY: 800 });
+    t.fire("touchstart", 5);
+    expect(t.touchmoveCount).toBe(0);
   });
 });
