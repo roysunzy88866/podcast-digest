@@ -1164,7 +1164,13 @@ body:has(.pd-play) article h2 {
      且**不限 ul**:编号列表 <ol>(如「三个理由 1/2/3」)、嵌套列表一并覆盖(用户 2026-08-29 图示 ol 没对齐)。
      用 :not(.pd-ex li) 排除「相关单集」链接列表(它有自己的 14px 字号,别被这里改);
      text-align 会继承到松散列表的 li>p,无需再单列 li>p。 */
-  body:has(.pd-play) article li:not(.pd-ex li) { font-size: 17px; text-align: justify; overflow-wrap: break-word; } /* 字号随正文 16→17px 一起走(用户 2026-08-29);行高/项间距沿用基规则——那条选择器同日已修好、终于真生效 */
+  /* 字号随正文 16→17px 一起走(用户 2026-08-29)。**行高也跟正文一致 1.8**(用户 2026-08-30
+     「本集带走里用的字号是不是比正文大?应该要一样才对」——实测字号早就一样(都 17px、字高都 20px),
+     真差异是行距:基规则给列表 1.7、正文段落 1.8(28.9px vs 30.6px),更紧就显得更大更密;
+     加上每条以加粗小标题开头,粗体在同字号下也显大。用户选「行距拉齐成正文的」→ 这里覆盖成 1.8。
+     ⚠️ 只覆盖手机端:桌面正文 p 是 1.95,而基规则注释记着「1.95 用在列表上会散、实测糊成一团」,
+     那条旧结论没被推翻,故桌面列表仍留 1.7,不擅自改。 */
+  body:has(.pd-play) article li:not(.pd-ex li) { font-size: 17px; line-height: 1.8; text-align: justify; overflow-wrap: break-word; }
   /* 【背景】引用块正文也两端对齐(用户 2026-08-29:与正文一致)。上面的 justify 规则用 :not(blockquote p) 把它排除了,这里补回。 */
   body:has(.pd-play) article blockquote:not([data-callout]) p { text-align: justify; overflow-wrap: break-word; }
   body:has(.pd-play) article h2 { font-size: 24px; line-height: 1.4; margin: 34px 0 16px; }
@@ -1536,6 +1542,22 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
   body:has(.pd-play) article h1 { display: block; font-size: 30px; line-height: 1.25; margin: 24px 0 14px; }
   /* #6 用户 2026-08-16 手机:详情页顶栏那条横线去掉(桌面吸顶那条 1px 分隔 box-shadow 在手机不要) */
   body:has(.pd-play) .pd-top { box-shadow: none; }
+
+  /* 沉浸式顶栏(用户 2026-08-30:「向上滑动或点一下屏幕,应该出现顶部的返回/收藏 bar」)。
+     向下读时顶栏滑走、把那 62px 让给正文;向上滑或点一下就回来。状态类由 topbar-auto.js 打在 body 上
+     (JS 只加 class、不碰数值)。只手机端 + 只详情页:桌面屏大不碍事,用户明选桌面保持常驻。 */
+  /* 不写 will-change(GLM 20260830-007[2]):它会让顶栏**常驻**一个独立合成层,而这条动画只在
+     偶尔显隐时跑 —— 为一次 0.22s 的位移长期占合成层,与本批次「刚因滚动性能栽过」的谨慎口径相悖;
+     transform 过渡本来就走合成器,不需要它帮忙。 */
+  body:has(.pd-play) .pd-top { transition: transform 0.22s ease; }
+  body.pd-tophide:has(.pd-play) .pd-top { transform: translateY(-100%); }
+  /* 尊重「减少动态效果」:仍然照常隐藏/出现,只是不做滑动动画。
+     ⚠️ 必须写在**这条 transition 之后**(GLM 20260830-006[2] 逮到):文件上方 ~930 行那个
+     prefers-reduced-motion 块里原本也写了同一条,但它在前、本条在后且特异性相同 → 后者胜,
+     那句「尊重减少动态效果」当时其实是空的。媒体查询不加特异性,只能靠源码顺序压住。 */
+  @media (prefers-reduced-motion: reduce) {
+    body:has(.pd-play) .pd-top { transition: none; }
+  }
 
   /* #12 用户 2026-08-16 手机:从分享链接/外部直开的详情页,左上角显 站名+logo(可回首页),
      不显「← 返回」;站内点进来的仍显返回。JS 按 referrer/history 给 body 打 .pd-direct(render.mjs)。 */

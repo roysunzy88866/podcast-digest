@@ -308,9 +308,17 @@ ${scriptBlock()}
   const groups = [...byDate.entries()]
     .sort((a, b) => (a[0] < b[0] ? 1 : a[0] > b[0] ? -1 : 0))
     .map(([date, eps]) => {
+      // 同一天内部:**新入库的排最前**(用户 2026-08-30:「今天更新的内容排序不是最新的在最前面?」——
+      // 此前只按标题拼音排,跟新旧无关,所以当天新出的集会散落在中间)。
+      // added_at = 入库时刻(run-pipeline 首次处理时钉,到秒)。存量集没有这个字段:
+      // 它们之间仍按标题排(原顺序不变),且排在带时刻的新集之后 —— "" 比任何时间戳小,倒序自然靠后。
       const cards = eps
         .slice()
-        .sort((x, y) => String(displayTitle(x.meta)).localeCompare(String(displayTitle(y.meta)), "zh"))
+        .sort((x, y) => {
+          const ax = String(x.meta.added_at ?? ""), ay = String(y.meta.added_at ?? "");
+          if (ax !== ay) return ax < ay ? 1 : -1; // 时刻倒序:新的在前
+          return String(displayTitle(x.meta)).localeCompare(String(displayTitle(y.meta)), "zh");
+        })
         .map((ep) => card(ep, catsOf(ep), hasCover))
         .join("\n");
       return `<div class="dateh">${esc(date)}</div>\n<div class="grid">\n${cards}\n</div>`;

@@ -253,6 +253,8 @@ console.log("  ✔ custom.scss → site/quartz/styles/");
   const ptrJs = readFileSync(resolve(ROOT, "assets/js/pull-refresh.js"), "utf8");
   // 按下即预取(2026-08-29):手指按下链接就先把下一页 HTML 暖进缓存,少等一截。全被动监听。
   const pfJs = readFileSync(resolve(ROOT, "assets/js/prefetch.js"), "utf8");
+  // 沉浸式顶栏(2026-08-30):手机详情页向下读时顶栏让位,向上滑/点一下召回。被动监听 + rAF 节流。
+  const tbJs = readFileSync(resolve(ROOT, "assets/js/topbar-auto.js"), "utf8");
   patchFile(
     resolve(SITE, "quartz/components/Head.tsx"),
     `<title>{title}</title>`,
@@ -260,8 +262,9 @@ console.log("  ✔ custom.scss → site/quartz/styles/");
         <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(searchHistJs)} }} />
         <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(pvJs)} }} />
         <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(ptrJs)} }} />
-        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(pfJs)} }} />`,
-    "PC 搜索历史 + PV 计数 + 下拉刷新 + 按下即预取(Head 全站注入)",
+        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(pfJs)} }} />
+        <script dangerouslySetInnerHTML={{ __html: ${JSON.stringify(tbJs)} }} />`,
+    "PC 搜索历史 + PV 计数 + 下拉刷新 + 按下即预取 + 沉浸式顶栏(Head 全站注入)",
   );
 }
 mkdirSync(resolve(SITE, "quartz/static/fonts"), { recursive: true });

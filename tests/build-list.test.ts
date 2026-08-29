@@ -141,6 +141,50 @@ describe("入库时间排序(用户 2026-08-09:最新按 added 入库日分组,�
   });
 });
 
+describe("同一天内部的排序(用户 2026-08-30:「今天更新的内容排序不是最新的在最前面?」)", () => {
+  // 病根:added 只到「天」,同日内部原先按标题拼音排 → 跟新旧完全无关,当天新出的集散落在中间。
+  // 修法:run-pipeline 首次处理时另钉 added_at(到秒),同日内按它倒序。存量集没有该字段。
+  const o = { categoriesBySlug: {}, hasCover: () => true };
+  const at = (id: string, added_at?: string, title = id) =>
+    ep({ meta: { id, date: "2026-08-30", added: "2026-08-30", added_at, title_zh: title } });
+
+  it("★★★ 同一天里,入库时刻晚的排在前面(这就是用户要的「最新在最前」)", () => {
+    const early = at("early", "2026-08-30T01:00:00.000Z");
+    const late = at("late", "2026-08-30T09:00:00.000Z");
+    const md = renderList([early, late], o);
+    expect(md.indexOf('data-slug="late"')).toBeLessThan(md.indexOf('data-slug="early"'));
+  });
+
+  it("★★★ 顺序由入库时刻决定,不再被标题拼音左右", () => {
+    // 标题拼音上 "阿" < "зz",若还按标题排,aTitle 会排前面;按时刻排则 zTitle 在前。
+    const aTitle = at("a-slug", "2026-08-30T01:00:00.000Z", "阿早入库");
+    const zTitle = at("z-slug", "2026-08-30T09:00:00.000Z", "祖晚入库");
+    const md = renderList([aTitle, zTitle], o);
+    expect(md.indexOf('data-slug="z-slug"')).toBeLessThan(md.indexOf('data-slug="a-slug"'));
+  });
+
+  it("★★ 存量集(没有 added_at)之间仍按标题排,顺序不塌", () => {
+    const b = at("b-old", undefined, "北京");
+    const a = at("a-old", undefined, "阿里");
+    const md = renderList([b, a], o);
+    expect(md.indexOf('data-slug="a-old"')).toBeLessThan(md.indexOf('data-slug="b-old"'));
+  });
+
+  it("★★ 带时刻的新集排在没有时刻的存量集前面", () => {
+    const legacy = at("legacy", undefined, "阿存量");
+    const fresh = at("fresh", "2026-08-30T09:00:00.000Z", "祖新集");
+    const md = renderList([legacy, fresh], o);
+    expect(md.indexOf('data-slug="fresh"')).toBeLessThan(md.indexOf('data-slug="legacy"'));
+  });
+
+  it("★ 跨天仍按入库日分组,同日排序不影响分组口径", () => {
+    const today = at("today", "2026-08-30T01:00:00.000Z");
+    const yday = ep({ meta: { id: "yday", date: "2026-08-29", added: "2026-08-29", added_at: "2026-08-29T23:00:00.000Z" } });
+    const md = renderList([today, yday], o);
+    expect(md.indexOf("2026-08-30")).toBeLessThan(md.indexOf("2026-08-29"));
+  });
+});
+
 describe("C13a 场景2 · 金句与嘉宾的呈现规格", () => {
   const md = renderList([ep()], opts);
   const card = cardOf(md, "2026-07-19-x-netflix");

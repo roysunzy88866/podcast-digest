@@ -840,3 +840,31 @@ describe("ensureAllAudio · 韧性:只认音频文件在,缺则重试(bigtech ex
     expect(fn).toMatch(/两次合成后仍无 audio\.mp3/);
   });
 });
+
+describe("入库时刻 added_at · 只在「真·首次入库」钉(GLM 20260830-004[1] 逮到的高危)", () => {
+  // 由来:首页同一天内部改成按入库时刻倒序(用户 2026-08-30「最新的不在最前面」),
+  // 为此新增 meta.added_at。**危险写法**是单独写 `if (!meta.added_at)` —— 存量集早有 added、
+  // 没有 added_at,任何一次重跑/refresh 都会给它钉上「今天的时刻」,于是这集会跳到自己那个
+  // 历史日期分组的最前面,顺序当场失真。正确写法是与 added 绑在同一个首次入库分支里。
+  // processEpisode 未导出,故照本文件既有惯例(见 ensureAllAudio)钉源码形状。
+  const raw = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+  // ⚠️ 必须剥注释再断言:那段代码的注释里就写着「若单独写 if (!meta.added_at) …」当反面教材,
+  // 直接对全文匹配会被自己的注释绊倒(同批次 topbar 测试也踩过这个)。钉的是**代码**,不是散文。
+  const src = raw.replace(/\/\*[\s\S]*?\*\//g, "").replace(/(^|[^:])\/\/.*$/gm, "$1");
+
+  it("★★★ 不许出现单独的 added_at 守卫(那正是会污染存量集的写法)", () => {
+    expect(src).not.toMatch(/if\s*\(\s*!\s*meta\.added_at\s*\)/);
+  });
+
+  it("★★★ added_at 必须写在 `if (!meta.added)` 分支内(与 added 同一时刻钉)", () => {
+    const i = src.indexOf("if (!meta.added) {");
+    expect(i).toBeGreaterThan(-1);
+    const block = src.slice(i, src.indexOf("\n    }", i));
+    expect(block).toContain("meta.added = bjDay()");
+    expect(block).toContain("meta.added_at =");
+  });
+
+  it("★★ 全文件里 added_at 只被赋值一次(别在别处又补一个赋值绕过上面的守卫)", () => {
+    expect((src.match(/meta\.added_at\s*=/g) || []).length).toBe(1);
+  });
+});
