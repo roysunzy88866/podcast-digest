@@ -1150,10 +1150,12 @@ body:has(.pd-play) article h2 {
   /* 两端对齐(用户 2026-08-08 明文:手机端详情页正文左右对齐)。只手机端 —— 桌面此前定「不做」保持左对齐。
      中文精华方块字为主,justify 排版整齐;偶有英文专名短词,间距影响可忽略。 */
   body:has(.pd-play) article p:not(blockquote p) { font-size: 16px; line-height: 1.8; margin: 0 0 24px; text-align: justify; overflow-wrap: break-word; }
-  /* #10 用户 2026-08-16 手机:「本集带走」要点必须左对齐(手机端被某处继承成非左对齐;
-     松散列表项会包成 <li><p>,顺带把 p 也钉回 left,免得吃到上面的 justify)。 */
+  /* 「本集带走」与正文统一两端对齐(用户 2026-08-29 明文,反转 2026-08-16 #10 的「左对齐」——
+     drift-log 记为口径反转)。列表短行 justify 中文偶有字距拉大,用户看过现状后仍要与正文一致。 */
   body:has(.pd-play) article > ul > li,
-  body:has(.pd-play) article > ul > li > p { font-size: 16px; text-align: left; } /* 手机端只改字号;行高 1.7/项间距沿用基规则(列表口径,不用段落 1.8)*/
+  body:has(.pd-play) article > ul > li > p { font-size: 16px; text-align: justify; overflow-wrap: break-word; } /* 手机端只改字号;行高 1.7/项间距沿用基规则(列表口径,不用段落 1.8)*/
+  /* 【背景】引用块正文也两端对齐(用户 2026-08-29:与正文一致)。上面的 justify 规则用 :not(blockquote p) 把它排除了,这里补回。 */
+  body:has(.pd-play) article blockquote:not([data-callout]) p { text-align: justify; overflow-wrap: break-word; }
   body:has(.pd-play) article h2 { font-size: 24px; line-height: 1.4; margin: 34px 0 16px; }
 }
 
