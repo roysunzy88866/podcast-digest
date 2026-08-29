@@ -1150,12 +1150,13 @@ body:has(.pd-play) article h2 {
   /* 两端对齐(用户 2026-08-08 明文:手机端详情页正文左右对齐)。只手机端 —— 桌面此前定「不做」保持左对齐。
      中文精华方块字为主,justify 排版整齐;偶有英文专名短词,间距影响可忽略。 */
   body:has(.pd-play) article p:not(blockquote p) { font-size: 16px; line-height: 1.8; margin: 0 0 24px; text-align: justify; overflow-wrap: break-word; }
-  /* 「本集带走」与正文统一两端对齐(用户 2026-08-29 明文,反转 2026-08-16 #10 的「左对齐」)。
+  /* 正文所有列表项(本集带走等)与正文统一两端对齐(用户 2026-08-29 明文,反转 2026-08-16 #10 的「左对齐」)。
      ⚠️ 原用 `article > ul > li`(直接子)——但 Quartz 把正文包在 div 里,ul 不是 article 直接子级,
-     `>` 永不匹配、justify 从没作用到带走上(用户 2026-08-29 报「对齐没生效」实证)。改**后代 ul**,
-     并用 :not(.pd-ex ul) 排除「相关单集」链接列表(它有自己的 14px 字号,别被这里改)。 */
-  body:has(.pd-play) article ul:not(.pd-ex ul) > li,
-  body:has(.pd-play) article ul:not(.pd-ex ul) > li > p { font-size: 16px; text-align: justify; overflow-wrap: break-word; } /* 手机端只改字号;行高/项间距沿用基规则 */
+     `>` 永不匹配、justify 从没作用到带走上(用户 2026-08-29 报「对齐没生效」实证)。改**后代 li**,
+     且**不限 ul**:编号列表 <ol>(如「三个理由 1/2/3」)、嵌套列表一并覆盖(用户 2026-08-29 图示 ol 没对齐)。
+     用 :not(.pd-ex li) 排除「相关单集」链接列表(它有自己的 14px 字号,别被这里改);
+     text-align 会继承到松散列表的 li>p,无需再单列 li>p。 */
+  body:has(.pd-play) article li:not(.pd-ex li) { font-size: 16px; text-align: justify; overflow-wrap: break-word; } /* 手机端只改字号;行高/项间距沿用基规则 */
   /* 【背景】引用块正文也两端对齐(用户 2026-08-29:与正文一致)。上面的 justify 规则用 :not(blockquote p) 把它排除了,这里补回。 */
   body:has(.pd-play) article blockquote:not([data-callout]) p { text-align: justify; overflow-wrap: break-word; }
   body:has(.pd-play) article h2 { font-size: 24px; line-height: 1.4; margin: 34px 0 16px; }
