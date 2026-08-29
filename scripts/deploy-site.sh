@@ -86,6 +86,10 @@ echo "public/static/icon.png(SOLO)✔"
 #       与 favicon 分开两个文件:favicon 要透明、主屏图标不能透明。同样裸 cp,缺图即中断。
 cp ../assets/logos/apple-touch-icon.png public/static/apple-touch-icon.png
 echo "public/static/apple-touch-icon.png(180x180 不透明)✔"
+# 3.3d) PWA manifest(2026-08-29:standalone app 启动屏,治「打开闪现之前的页面」)。图标 icon-192/512.png
+#       已随 assets/logos/*.png 拷进 public/logos。manifest 进站点根。裸 cp:缺文件即中断,不让 <link manifest> 挂 404。
+cp ../assets/manifest.webmanifest public/manifest.webmanifest
+echo "public/manifest.webmanifest(PWA 启动屏)✔"
 # 3.4) 播客封面进站点根 /podcast-cover.png(feed.xml 的 itunes:image 指向它;SOLO 站标方图,用户 2026-08-16)
 # 裸 cp(不接 && echo):set -e 下缺图即中断部署,不让 feed 挂着指向 404 封面静默上线(GLM 011)。
 cp ../assets/podcast-cover.png public/podcast-cover.png

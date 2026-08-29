@@ -42,12 +42,12 @@
   font-family: "AlibabaPuHuiTi";
   font-weight: 100 900;
   font-style: normal;
-  /* optional(2026-08-27 用户拍板):字体在缓存里就直接用、零闪;不在(首访冷缓存)就这次先用兜底、
-     不中途 swap,下次自然用普惠体。治「每次刷新系统字体→普惠体」的 FOUT——swap 每次加载都会闪。
-     配套:①字体 7 天缓存(deploy-site.sh 生成 public/_headers 的 /static/fonts/*;故意不 immutable——
-     字体每部署按用字重 subset、内容会变,固定名+immutable 会让返回用户长期拿旧 subset)②patch-site.mjs
-     注入字体 preload(提前暖缓存,主要惠及下次导航;首访跨网络多半赶不上 optional ~100ms block,退回兜底)。 */
-  font-display: optional;
+  /* fallback(2026-08-29 用户改口:optional 在冷加载/缓存被清时整篇退回系统字且不切回,standalone app
+     缓存常被 iOS 清 → 手机列表标题频繁显系统字「不是我要的字体」)。改 fallback 两头兼顾:
+     ①缓存命中(常态,配 7 天缓存+preload)→ ~100ms block 期内就位、直接用普惠体、不闪;
+     ②冷加载 → 短暂兜底后 3s 内加载到就切回普惠体(冷加载才有一次轻微切换,常态不闪、且永远切回正确字)。
+     swap=每次都闪、optional=冷加载错字,fallback 是这两者的折中,承 2026-08-27 的缓存/preload 配套不变。 */
+  font-display: fallback;
   src: url("/static/fonts/AlibabaPuHuiTi-min.woff2") format("woff2");
 }
 
@@ -750,7 +750,7 @@ body[data-slug^="tags/"] {
     /* 用户批注 2026-08-08 · 手机端 #3:日期后那条横线去掉(日期文字本身已够分隔) */
     .dateh:after { display: none; }
     .th { flex: 0 0 108px; width: 108px; height: 81px; }
-    .card .t { font-size: 15.5px; }
+    .card .t { font-size: 17px; } /* 用户 2026-08-29:手机列表标题大 1 号(15.5→17) */
     /* 手机端副标题:字号 12.5 + 放到 5 行(≤60字一句话在窄栏约 4 行,给足行数不截断;用户 2026-08-22「显示不完全」)*/
     .card .q { font-size: 12.5px; line-height: 1.6; -webkit-line-clamp: 5; min-height: 3.2em; }
     /* #4 用户 2026-08-16 手机:点卡片只保留整卡 active 反馈(.card:active 底色),不要标题单独变色。

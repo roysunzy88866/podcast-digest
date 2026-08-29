@@ -182,6 +182,10 @@ patchFile(
             apple-touch-icon.png = 180x180(iPhone @3x 标准)白底不透明,由 tools/make-icons.mjs 生成。
             favicon 仍用带透明的 icon.png(浏览器标签页要透明才好看),两者刻意分开。*/}
         <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+        {/* PWA manifest(2026-08-29 用户「打开闪现之前的页面」):standalone app 原来没启动图,
+            iOS 重开先显上次页面的陈旧快照。manifest 带 background_color 后,iOS 16.4+ 会用它+图标
+            生成干净启动屏替掉快照。⚠️ 已加过主屏的要删掉重加才生效(iOS 加那刻记 PWA 配置)。*/}
+        <link rel="manifest" href="/manifest.webmanifest" />
         {/* C22 · SEO:canonical(复用本页 URL)*/}
         <link rel="canonical" href={socialUrl} />
         {/* C26 · feed 自发现:RSS 阅读器/Agent 粘站点 URL 即自动找到 feed(json 全文 / xml 播客)*/}
@@ -198,8 +202,8 @@ patchFile(
 );
 
 // ── 自持普惠体 preload(2026-08-27 用户「每次刷新都从系统字体变我的字体」)──
-// 配 custom.scss 的 font-display:optional:字体在缓存里就直接用、零闪;首访冷缓存时 preload 提前开下,
-// 尽量在 optional 的 block 期内就位。crossOrigin 必带——字体一律 CORS 取,不带则 preload 与实取不匹配、白下。
+// 配 custom.scss 的 font-display:fallback(2026-08-29 由 optional 改,治冷加载显系统字):缓存命中就位不闪,
+// 冷加载短暂兜底后切回;preload 提前开下、尽量缓存命中。crossOrigin 必带——字体一律 CORS 取,不带则 preload 白下。
 // 锚 = 上游 coreStylesheet preload 行(标准 Quartz,非本项目注入),replaceOnce 锚变即硬报错、不静默漂移。
 patchFile(
   resolve(SITE, "quartz/components/Head.tsx"),
