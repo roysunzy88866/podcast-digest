@@ -1,0 +1,35 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "03:36",
+      "speaker": "",
+      "trimmed": false,
+      "tsWas": "03:36",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 3,
+      "timestamp": "13:01",
+      "speaker": "",
+      "trimmed": false,
+      "tsWas": "13:01",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 4,
+      "timestamp": "14:02",
+      "speaker": "",
+      "trimmed": false,
+      "tsWas": "14:02",
+      "spkWas": "Unknown"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Most products these days, most software these days looks about the same and a lot of it works about the same. And if you look, especially in our industry across things like Monday and ClickUp and Asana and Notion and whatever, they're all fully all in AI and they're all big text boxes in the middle and you just type what you want. And I think it's actually very confusing for a lot of people."
+    }
+  ]
+}

@@ -18,7 +18,7 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-07-08-latent-space-modal.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-08-latent-space-modal#post","headline":"不只做推理：Modal 如何跨界多节点训练与智能体云","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-08-latent-space-modal","mainEntityOfPage":"https://talk.solomind.cc/2026-07-08-latent-space-modal","description":"Modal 从无服务器运行时切入，靠 GPU 快照、投机解码和 17 云容量池，在 AI 推理与智能体时代找到了独特的底层定位。","datePublished":"2026-07-17","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-08-latent-space-modal.jpg","isBasedOn":"https://www.latent.space/p/modal2026","about":[{"@type":"Person","name":"swyx"},{"@type":"Person","name":"Akshat Bubna"},{"@type":"Person","name":"Vibhu"},{"@type":"Organization","name":"Modal"},{"@type":"Organization","name":"Kubernetes"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"AX"},{"@type":"Thing","name":"DX"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"弹性推理 (elastic inference)"},{"@type":"Thing","name":"投机解码 (speculative decoding)"},{"@type":"Thing","name":"DeFlash"},{"@type":"Thing","name":"Auto Endpoints"},{"@type":"Thing","name":"装饰器 (decorator)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"不只做推理：Modal 如何跨界多节点训练与智能体云","item":"https://talk.solomind.cc/2026-07-08-latent-space-modal"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-08-latent-space-modal#post","headline":"不只做推理：Modal 如何跨界多节点训练与智能体云","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-08-latent-space-modal","mainEntityOfPage":"https://talk.solomind.cc/2026-07-08-latent-space-modal","description":"Modal 从无服务器运行时切入，靠 GPU 快照、投机解码和 17 云容量池，在 AI 推理与智能体时代找到了独特的底层定位。","datePublished":"2026-07-17","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-08-latent-space-modal.jpg","isBasedOn":"https://www.latent.space/p/modal2026","about":[{"@type":"Person","name":"Swyx"},{"@type":"Person","name":"Akshat Bubna"},{"@type":"Person","name":"Vibhu"},{"@type":"Organization","name":"Modal"},{"@type":"Organization","name":"Kubernetes"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"AX"},{"@type":"Thing","name":"DX"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"弹性推理 (elastic inference)"},{"@type":"Thing","name":"投机解码 (speculative decoding)"},{"@type":"Thing","name":"DeFlash"},{"@type":"Thing","name":"Auto Endpoints"},{"@type":"Thing","name":"装饰器 (decorator)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"不只做推理：Modal 如何跨界多节点训练与智能体云","item":"https://talk.solomind.cc/2026-07-08-latent-space-modal"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>不只做推理：Modal 如何跨界多节点训练与智能体云</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -32,7 +32,7 @@ jsonLd: |
 <div class="pd-hook"><div class="z">为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改，然后获得这种能够自我配置的运行时，实时看到它的更改在运行中生效。</div><div class="a">— Akshat Bubna <button class="pd-ts" data-t="05:06" data-who="Akshat Bubna" data-en="Why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes in a decorator and it gets this sort of self-provisioning runtime of being able to see its changes live in action." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
-> **人物** [[Akshat Bubna]] · [[swyx]] · [[Vibhu]]
+> **人物** [[Akshat Bubna]] · [[Swyx]] · [[Vibhu]]
 >
 > **公司** [[Modal]] · [[Kubernetes]]
 >
@@ -50,7 +50,7 @@ jsonLd: |
 
 他们看到的大量工作负载却不是这样：计算量大、需要频繁地突发扩缩。所以他们最初想造的是一种更好的运行时，可以跑数据处理和任务队列。他们在 ChatGPT 出来前一年就给产品加了 GPU，但当时只是觉得这是个加法，没料到后来的爆发。<button class="pd-ts" data-t="02:13" data-who="Akshat Bubna" data-en="back then it was more classical inference like computer vision stuff and running xd boost and whatnot but we added gpus to the product a year before chat gpt came out nice we just didn't think it would be that big of" aria-label="回原文"></button>
 
-有意思的是，Modal 早期的一个核心设计——把基础设施配置全塞进代码[[装饰器|装饰器]]里，不写 YAML——在今天的智能体时代迎来了第二春。主持人 [[swyx|swyx]] 指出，现在的负面论点是人都不看代码了。
+有意思的是，Modal 早期的一个核心设计——把基础设施配置全塞进代码[[装饰器|装饰器]]里，不写 YAML——在今天的智能体时代迎来了第二春。主持人 [[Swyx|swyx]] 指出，现在的负面论点是人都不看代码了。
 
 Akshat 对此有个很直接的反驳：为什么你要让一个智能体去读几百个 Kubernetes 文件，去写没有类型检查的 YAML，而它本来只需在装饰器里改几行就能看到一个自我配置的运行时实时生效？<button class="pd-ts" data-t="05:05" data-who="Akshat Bubna" data-en="And we think that the same benefits that apply for DX also actually apply for AX, which is why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes" aria-label="回原文"></button> 他们内部甚至把 SDK 团队的职责从「开发者体验」（[[DX|DX]]）改成了「智能体体验」（[[AX|AX]]）。
 
@@ -113,9 +113,9 @@ swyx 评价说，Modal 不小心造出了让智能体自由表达的基础组件
 
 **顺着「智能体」挖下去**
 
+- [[2026-06-16-devtools-swyx-aie|AI Engineer 大会背后的社区逻辑与创业生存法则]]<span class="pd-rz">同公司:Modal · 同概念:智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Kubernetes、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

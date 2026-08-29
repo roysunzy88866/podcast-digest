@@ -179,7 +179,7 @@ Hino 学到的最大企业销售经验：别把销售当说服（试图让客户
 - **token 按项目分配，不按人头**：算的是「这个研究方向值不值得花七位数额度去验证」，不是「这个工程师该分多少额度」。
 - **企业销售是共同发现问题，不是说服**：在新市场里，跟客户站在同一侧解决问题，比试图证明自己是对的更有效。
 
-<div class="pd-sec">全部金句 <span>20 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>20 条</span></div>
 
 > <span class="qz">我看到一个世界，那里最聪明的模型实际上是最便宜的。</span>  
 > *I see a world where the smartest model is actually the cheapest.*  

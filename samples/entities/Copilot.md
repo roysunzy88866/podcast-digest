@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Copilot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Copilot">CO</div><div class="pi"><h1 class="pt">Copilot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Copilot">CO</div><div class="pi"><h1 class="pt">Copilot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]]**(00:36起):本集把它说成:GitHub Next 团队创建的 AI 助手,能根据几句自然语言提示自动梳理生成完整的智能体工作流手册。
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(60:18起):本集说AI第一波是副驾驶，即帮助人类工作者把工作做得更好的公司，因为当时模型还不足以完成整个工作
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:56起):本集说 Copilot 是 Microsoft 旗下的领先编码套件，在早期遥遥领先，拥有 VS Code、Office、GitHub 等全部生态
+- **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(39:44起):本集提到 Microsoft 构建的 Copilot 在法律领域很长一段时间都不起作用，说明通用工具无法替代垂直深耕的产品。
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
@@ -28,14 +29,15 @@ unlisted: true
 - [[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]] — 作为被讨论公司
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为概念
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
+- [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Cursor]] · [[OpenAI]] · [[智能体]] · [[Lenny]] · [[vibe coding]] · [[护栏]] · [[Cloudflare]] · [[SpaceX]] · [[ChatGPT]] · [[Claude]]
+[[OpenAI]] · [[智能体]] · [[Cursor]] · [[ChatGPT]] · [[Anthropic]] · [[Lenny]] · [[vibe coding]] · [[护栏]] · [[Cloudflare]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Cursor":39,"OpenAI":68,"智能体":151,"Lenny":65,"vibe coding":23,"护栏":30,"Cloudflare":6,"SpaceX":11,"ChatGPT":38,"Claude":36}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":69,"智能体":153,"Cursor":40,"ChatGPT":39,"Anthropic":79,"Lenny":65,"vibe coding":24,"护栏":30,"Cloudflare":7,"SpaceX":11}</script>
 
 <script>
 (function(){

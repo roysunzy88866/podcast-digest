@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Sierra":4,"智能体":151,"基于结果的定价":1,"应用 AI":1,"前沿模型":5,"工具层":1,"上下文工程":6,"编程系统":1,"MCP":17}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Sierra":4,"智能体":153,"基于结果的定价":1,"应用 AI":1,"前沿模型":5,"工具层":1,"上下文工程":6,"编程系统":1,"MCP":17}</script>
 
 <script>
 (function(){

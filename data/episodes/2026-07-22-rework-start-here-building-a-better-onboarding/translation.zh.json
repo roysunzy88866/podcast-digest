@@ -1,0 +1,210 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 30,
+  "speaker": "Kimberly",
+  "en": "Welcome to REWORK, podcast by 37signals about the better way to work and run your business. I’m Kimberly, joined by the co-founders of 37signals, Jason Fried and David Heinemeier Hansson. This week I want to talk a little bit about onboarding — onboarding customers to your product. We’ve done things a little bit differently with Basecamp 5, so I thought we would break it down just a bit. Jason, I’m going to start with you. I know HEY previous to Basecamp 5 was kind of our pinnacle for how to onboard a customer. Tell us a little bit about that and then what we’ve done differently in this new version.",
+  "zh": "欢迎来到 REWORK，这是由 37signals 制作的关于更好工作与经营方式的播客。我是 Kimberly，今天和 37signals 的联合创始人 Jason Fried 和 David Heinemeier Hansson 一起。本周我想稍微聊聊 onboarding（引导）——引导客户使用你的产品。我们在 Basecamp 5 上做了一些稍微不同的处理，所以我想我们稍微拆解一下。Jason，我想从你开始。我知道在 Basecamp 5 之前的 HEY 是我们引导客户的巅峰。告诉我们一点关于那的情况，然后说说我们在这个新版本中做了什么不同的事。"
+ },
+ {
+  "seg": 1,
+  "start": 30,
+  "end": 73,
+  "speaker": "Jason",
+  "en": "Yeah, onboarding is something that’s always been really fun to work on, although Basecamp never really had a great onboarding. It was decent and there’s some things we did to make it better, but it was a little bit like pointing arrows at things and this is where this is and this is where this is and this is how this works. And when we did HEY a number of years ago, we went through a really nice process of sending you basically a bunch of emails and you have to screen them in because that’s the first step in HEY. And so I’m not going to go into all the detail, but it became this interactive thing that you work through the product to get to understand and learn the product. And we never really had that in Basecamp and now we do. So with Basecamp 5, when you sign up, we have a whole new approach and actually it’s very different. We have a picture-in-picture...",
+  "zh": "是的，引导一直是一件很有趣的工作，虽然 Basecamp 从来没有真正很好的引导。它还凑合，我们做了一些事情让它变得更好，但这有点像在东西上指箭头，这是这儿，这是那儿，这是这样工作的。当我们几年前做 HEY 时，我们经历了一个很好的过程，基本上给你发了一堆邮件，你必须把它们筛选进来，因为那是 HEY 的第一步。所以我不会深入所有细节，但它变成了一个互动的东西，你在产品中操作以理解和学习产品。我们在 Basecamp 中从来没有真正有过那个，现在我们有了。所以在 Basecamp 5 中，当你注册时，我们有一个全新的方法，实际上它非常不同。我们有一个画中画..."
+ },
+ {
+  "seg": 2,
+  "start": 73,
+  "end": 85,
+  "speaker": "Kimberly",
+  "en": "Wait, Jason, let me interrupt you for a second. Did we not have that in Basecamp before because the thought was like, “Oh, it’s so easy. We don’t need to take people through it?” Or was it just something that had just been overlooked? Why wasn’t it there from the beginning?",
+  "zh": "等等，Jason，让我打断你一下。我们之前在 Basecamp 里没有那个，是因为想法像，“哦，它太简单了。我们不需要带人们过一遍它？”还是因为它只是被忽略了？为什么一开始没有那个？"
+ },
+ {
+  "seg": 3,
+  "start": 85,
+  "end": 143,
+  "speaker": "Jason",
+  "en": "Yeah, I think that we just kind of hit a new high watermark with HEY actually, where we just had a new product. This is one of the beautiful things about making something brand new is you just like, okay, what can we do here that’s interesting and better? And you build it like, this is really good. I’m really, really... remain very, very proud of the HEY onboarding, the whole procedure and how it works. It’s really good. And so now then you’re shifted into a different orbit and you’re like, this is sort of our new bar and we should bring that kind of thinking to Basecamp. And now we have an opportunity to do that with Basecamp 5. With Basecamp 4, we are already in the middle of the product. It just didn’t feel like the time. We did play with onboarding and improved conversion considerably in fact with Basecamp 4’s onboarding in the middle of that product cycle, but we didn’t redo it really in a sense. This was an opportunity with Basecamp 5 since we’re changing so many things to kind of redo it. And so now what we do is we actually walk you through, it’s about a three-minute tour, like a picture-in-picture tour. And Kimberly, of course, is the star of the onboarding process.",
+  "zh": "是的，我认为我们实际上只是在 HEY 上达到了一个新的高水位线，那里我们有一个新产品。制作全新事物的美妙之处之一就是你就像，好吧，我们能在这里做什么有趣且更好的事情？你构建它，这真的很好。我真的……仍然为 HEY 的引导、整个过程和它的工作方式感到非常自豪。它真的很好。然后你进入了一个不同的轨道，你想，这是我们新的标杆，我们应该把这种思维带到 Basecamp。现在我们在 Basecamp 5 上有机会这样做了。对于 Basecamp 4，我们已经处于产品周期的中间。感觉时机不对。我们确实玩了引导并显著提高了转化率，事实上是在 Basecamp 4 的引导在那个产品周期中间时，但我们并没有真正重做它。这是 Basecamp 5 的一个机会，因为我们改变了很多东西，所以要重做它。所以现在我们要做的是带你过一遍，大约是一个三分钟的导览，像画中画导览。Kimberly，当然是引导流程的明星。"
+ },
+ {
+  "seg": 4,
+  "start": 143,
+  "end": 145,
+  "speaker": "Kimberly",
+  "en": "I don’t know if star is the right word.",
+  "zh": "我不知道明星是不是正确的词。"
+ },
+ {
+  "seg": 5,
+  "start": 145,
+  "end": 181,
+  "speaker": "Jason",
+  "en": "But what we do is we say, here’s a project, a fully fleshed out project. Play around with it. Click this, do this, leave a comment. It’s a real project. And before you get to make your own, you just walk through a real one and you really mess around with it. And there’s a little video of you in the corner saying, “Hey, try this and try that, whatever.” And you’re like, “Okay, I got that.” And you’re like, “Next.” And then the next step is now make your own first project. And you kind of make that and you get to learn that procedure and you’re using the product to learn how to use the product. And there’s no stakes here. That’s the other thing. You’re not making projects that matter and you’re not going to screw anything up if you play around. And then at the end it’s like, okay, now I’m ready to go.",
+  "zh": "我们要做的是，这是一个项目，一个内容完整的项目。玩弄它。点击这个，做这个，留个评论。这是一个真实的项目。在你创建自己的之前，你先过一个真实的，你真的摆弄它。角落里有一个你的小视频说，“嘿，试试这个，试试那个，随便什么。”你就像，“好的，我懂了。”然后你就像，“下一个。”然后下一步是现在创建你自己的第一个项目。你创建了它，你学会了那个程序，你正在使用产品来学习如何使用产品。这里没有利害关系。那是另一回事。你不是在制作重要的项目，如果你玩弄它，你也不会搞砸任何东西。最后就像，好的，现在我准备好了。"
+ },
+ {
+  "seg": 6,
+  "start": 181,
+  "end": 216,
+  "speaker": "Unknown",
+  "en": "And then we bring the whole interface in and drop you basically to a sidebar. We have a few more notifications for a few more things you can learn. And at that point, we’ve sort of explained the whole thing with the product and also with your notifications so you learn how to use those too. It’s a really kind of a cool process and I’m proud of it as well. It feels really good. The product has not been around long enough to look back on it and see how it’s been doing compared to the previous versions of that, but we will at one point. And I don’t know, it’s always fun I think to explore onboarding because the ideal version of onboarding, the thing I’ve always tried to do or try to think about is what would it be like to sit next to somebody and walk them through the product?",
+  "zh": "然后我们引入整个界面，基本上把你扔到侧边栏。对于更多你可以学习的东西，我们有更多的通知。在那时，我们已经用产品也用你的通知解释了整个事情，所以你也学会了如何使用那些。这真的很酷的过程，我也为此感到自豪。感觉真的很好。产品存在的时间还不够长，无法回顾并看看它与以前的版本相比表现如何，但我们会在某个时候做的。我不知道，我认为探索引导总是很有趣，因为理想的引导版本，我一直尝试做或尝试思考的事情是，坐在某人旁边带他们过一遍产品会是什么样？"
+ },
+ {
+  "seg": 7,
+  "start": 216,
+  "end": 241,
+  "speaker": "Unknown",
+  "en": "If you could literally sit next to every single customer and go, here’s what I want to show you, what would you do? And that’s the gold standard for me. And I think the current version of Basecamp is maybe the closest we’ve gotten to that. Like, hey, here’s a project, play around with it. Here’s how you make your own, play around with it. Now here’s this stuff, and then you’re off on your own. Anyway, that’s kind of what I’m always aiming for. And I think Basecamp 5 has a pretty good shot at being as accurate as possible to that vision.",
+  "zh": "如果你真的能坐在每个客户旁边，说，这是我想给你看的，你会做什么？那是我的黄金标准。我认为 Basecamp 的当前版本可能是我们要达到的最接近的版本。就像，嘿，这是一个项目，玩弄它。这是你如何创建自己的，玩弄它。现在这是这些东西，然后你就自己开始了。无论如何，这就是我一直瞄准的。我认为 Basecamp 5 非常有可能在尽可能准确地实现这一愿景。"
+ },
+ {
+  "seg": 8,
+  "start": 241,
+  "end": 287,
+  "speaker": "David",
+  "en": "I think one of the reasons why this is hard to do really well is that you don’t see it that often. We are not signing up for Basecamp every day because we already have Basecamp and we’re very engrossed in it and we have a lot of data in it. So one thing is the signup flow, you’re putting in your credentials and you’re getting onboarded. But it’s also what does the product look like when it’s sparse? What does it look like when it only has one project, when it only has two to-do lists? Those states, blank slates we used to call that when there was literally nothing and tried to do some stuff around that, but I think structurally why it’s hard for software companies to really get good at it is because there’s not a lot of iterations. Even for us, this required some very dedicated focus.",
+  "zh": "我认为很难做得非常好的原因之一是你不经常看到它。我们没有每天注册 Basecamp，因为我们已经有了 Basecamp，我们非常投入其中，我们有很多数据在里面。所以一件事是注册流程，你输入你的凭证，你被引导。但也是产品在稀疏时看起来像什么？当它只有一个项目时，当它只有两个待办事项列表时它看起来像什么？那些状态，我们过去称之为空白石板，那里真的什么都没有并试图围绕它做一些事情，但我认为结构性上为什么软件公司很难真正擅长它是因为没有很多迭代。即使对我们，这也需要一些非常专注的精力。"
+ },
+ {
+  "seg": 9,
+  "start": 287,
+  "end": 331,
+  "speaker": "Unknown",
+  "en": "Jason and the team around it sat down like, okay, we’re going to improve it. And then a lot of effort flows into that. But then by the time that’s over, it’s a little bit of, okay, that’s a closed chapter. We can of course return to that and work on it together. We’re not going to see it every day. Versus if there’s something that isn’t quite right about how the card table works or how you drag things about it, we’re going to be annoyed about it every day and we’re going to see it. So I’ve often found myself signing up for someone else’s product and go like, “This is obviously broken. This obviously outdated. How could they not know?” And then I would think back like, oh, I’m not sure I would know. When was the last time I just signed up for Basecamp? In fact, that was probably around Basecamp 5 when Jason and I went through that whole flow a couple times.",
+  "zh": "Jason 和他周围的团队坐下来，好吧，我们要改进它。然后很多努力流入其中。但等到那结束时，这有点像，好吧，那是一个封闭的章节。我们当然可以回到那个并一起工作。我们不会每天都看到它。相比如果卡片桌如何工作或你如何拖拽东西那里有什么不对劲，我们每天都会被它烦，我们会看到它。所以我经常发现自己注册别人的产品然后想，“这显然坏了。这显然过时了。他们怎么可能不知道？”然后我会回想，哦，我不确定我会知道。我上次注册 Basecamp 是什么时候？事实上，那可能是在 Basecamp 5 左右，当时 Jason 和我过了几次整个流程。"
+ },
+ {
+  "seg": 10,
+  "start": 331,
+  "end": 370,
+  "speaker": "Unknown",
+  "en": "But before that, it had been a long time. It’d probably been months, maybe in some cases it could even have been a year. There’s always opportunities for these things to drift so that your nice onboarding flow, yeah, it was nice when you designed it and then seven things changed in the product and things moved around and maybe you introduced new features or whatever and you just don’t see it or it just didn’t keep up. You kept evolving the product, you kept making it better and improving and so on. But the signup process is as it was on launch day because that was the last time you looked at it. So I think those are some of the structural factors of why it often seems weird because as a new customer, this is the thing you see. The first thing you see is the onboarding flow.",
+  "zh": "但在那之前，已经很长时间了。可能已经好几个月了，在某些情况下甚至可能是一年。这些事情总是有机会漂移，以至于你很好的引导流程，是的，当你设计它时它很好，然后产品中有七个东西改变了，东西移动了，也许你引入了新功能或者不管什么，你就是看不到它或者它只是没有跟上。你继续进化产品，你继续让它变得更好和改进等等。但注册流程就像发布日那样，因为那是你最后一次看它。所以我认为这些是为什么它经常看起来很奇怪的一些结构性因素，因为作为一个新客户，这是你看到的东西。你看到的第一件事是引导流程。"
+ },
+ {
+  "seg": 11,
+  "start": 370,
+  "end": 401,
+  "speaker": "Unknown",
+  "en": "So you of course assume that it’s going to be the best that that team has to offer. And that’s just not the case. In almost all cases, onboarding flow is going to be substantially worse than the rest of the product if someone had kept working on it because all the attention goes somewhere else. So having gone through that and then having seen it on the inside gives me a little more empathy when I go through one of those kind of mediocre or even shitty onboarding flows where I go like, “Wow, why can’t they just? How could they not see this?” And I go like, “Yeah, maybe I wouldn’t have seen it either.”",
+  "zh": "所以你当然假设它将是该团队提供的最好的。但事实并非如此。在几乎所有情况下，如果有人继续开发它，引导流程将比产品的其余部分糟糕得多，因为所有的注意力都去了别的地方。所以经历了那个并在内部看到它，当我去过那些平庸甚至糟糕的引导流程时，我确实有更多的同理心，我会想，“哇，为什么他们不能？他们怎么能看不到这个？”然后我会想，“是的，可能我也看不到。”"
+ },
+ {
+  "seg": 12,
+  "start": 401,
+  "end": 413,
+  "speaker": "Kimberly",
+  "en": "So Jason, you mentioned sitting one-on-one with someone talking through. I did notice on Twitter that you extended an offer to do basically that for a handful of customers. Tell us about that. How’s that going?",
+  "zh": "所以 Jason，你提到一对一地坐在某人与其交谈。我确实在 Twitter 上注意到你提供了一个提议，基本上为少数客户做那件事。告诉我们一下。进展如何？"
+ },
+ {
+  "seg": 13,
+  "start": 413,
+  "end": 459,
+  "speaker": "Jason",
+  "en": "I just enjoy it. I mean, I’m really proud of the product. Basecamp 5 is really, really good and I just want to show people. And so I basically said, hey, I’ll take five customers under my wing, wherever the heck their language was. If you sign up for this plan over the next 90 days, we’ll do a call every couple of weeks. I’ll walk you through our account and we can do Q&A along the way. And immediately got five people who want to do that. And so I’m working with them now. We haven’t started yet, but we have some scheduled calls coming up. And it’s a joy to be proud of what you’ve made and to show it off. What better thing is there to do? And what’s really cool about Basecamp 5 specifically is that it’s gotten so good and it’s so flexible that I feel like there’s nothing it can’t do for somebody who’s like, well, how do I manage this and how do I manage that? And what about this? What about that?",
+  "zh": "我只是享受它。我的意思是，我真的为产品感到自豪。Basecamp 5 真的真的很好，我只是想展示给人们。所以我基本上说，嘿，我将在接下来的 90 天内收纳五名客户，不管他们的语言是什么。如果你在这段时间注册这个计划，我们每隔几周做一次通话。我会带你过我们的账户，我们可以一路做问答。立即有五个人想做那个。所以我现在正在与他们合作。我们还没有开始，但我们有一些预定的通话。为你制作的东西感到自豪并展示它是一种快乐。还有什么比这更好的事情可做？Basecamp 5 真正酷的一点是它变得如此好，如此灵活，我觉得对于那些想知道“我如何管理这个，我如何管理那个”的人来说，没有什么它做不到的。那这个呢？那那个呢？"
+ },
+ {
+  "seg": 14,
+  "start": 459,
+  "end": 513,
+  "speaker": "Unknown",
+  "en": "And people are like, “How do you hook in GitHub issues and all these things?” I’m like, “You don’t actually have to do those.” People come at software these days thinking you need a bunch of tools and a bunch of separate things and a bunch of separate places. People are confused and they think designers work in one place and programmers work in another. And so not only do we get to show them the product, but we get to show them the point of view and the philosophy of working that a team is two people. It’s a programmer and a designer. Those are the functional roles, but they work together in the same place on the same stuff. And that blows people’s minds and it’s always fun to blow people’s minds. That’s a fun thing to do. And to do it in such a simple way and you can show them how we do it, it really makes an impression and it’s just great fun. I actually really enjoy it. Aside from making the thing, I think demoing the thing is my second most favorite thing to do. It’s great to just hop on a Zoom and show people our account and walk them through it. And that’s open for anybody. Anyone who wants to do that, you can get in touch with me. I’m happy to set something up with you.",
+  "zh": "人们就像，“你如何接入 GitHub issues 和所有这些东西？”我就像，“你实际上不必做那些。”人们现在带着这样的想法看待软件，你需要一堆工具和一堆分开的东西和一堆分开的地方。人们很困惑，他们认为设计师在一个地方工作，程序员在另一个地方工作。所以我们不仅给他们展示产品，我们还给他们展示观点和工作的哲学，即团队是两个人。它是一个程序员和一个设计师。那些是职能角色，但他们在同一个地方在同样的东西上一起工作。这让人大开眼界，让人大开眼界总是很有趣。那是件有趣的事。以如此简单的方式做到这一点，你可以给他们展示我们如何做的，这真的留下了印象，只是很有趣。我实际上真的很享受它。除了制作东西，我认为演示东西是我第二喜欢做的事情。只是跳上 Zoom 给人们展示我们的账户并带他们过一遍是很棒的。这对任何人都开放。任何想做那件事的人，你可以联系我。我很乐意和你安排一些事情。"
+ },
+ {
+  "seg": 15,
+  "start": 513,
+  "end": 528,
+  "speaker": "Kimberly",
+  "en": "I think also what probably is blowing people’s minds, I mean myself included, that you were doing it. It’s not just like someone random. The CEO, the founder is doing it. I think that’s kind of unheard of for most companies.",
+  "zh": "我也想可能让人大开眼界的是，我自己也包括，你在做这件事。不仅仅是某个随机的人。CEO，创始人在做这件事。我认为对于大多数公司来说这是闻所未闻的。"
+ },
+ {
+  "seg": 16,
+  "start": 528,
+  "end": 564,
+  "speaker": "Jason",
+  "en": "Yeah, I don’t know. I mean, I just think of myself as a guy who likes the product and knows it inside and out and I’m happy to show it off. So wherever my role is my role. But the key is that someone’s available and I’m not a salesperson. I’m not trying to sell you anything. I don’t care if you buy it or not. I think it’ll leave an impression, make an impression on you and it’s up to you at that point. And I’m not making promises about adding things or it’s not like a sales thing where I’ll take that back to the team and we’ll make these three customizations. I’m proud to show the product off and it should be the job that I do. I should show the product off. We should show the product off. We’re proud of it. And we do a lot of things in it that people don’t know are possible.",
+  "zh": "是的，我不知道。我只是认为自己是喜欢产品并从里到外了解它的人，我很自豪地展示它。所以无论我的角色是什么角色。但关键是有人可用，我不是销售人员。我不是试图向你推销任何东西。我不在乎你是否买它。我认为它会给你留下印象，做出印象，然后由你决定。我不承诺添加东西，也不像销售那样我会把它带回团队，我们将做这三个定制。我很自豪地展示产品，它应该是我做的工作。我应该展示产品。我们应该展示产品。我们为它感到自豪。我们在里面做了很多人们不知道可能的事情。"
+ },
+ {
+  "seg": 17,
+  "start": 564,
+  "end": 599,
+  "speaker": "Unknown",
+  "en": "And how would they ever know? You can make a marketing site about all this stuff, but people aren’t going to even look at that. They want to watch something. They want to walk through something and it’s fun to show these things off. I think the other thing we try to do with Basecamp 5 onboarding is not only introduce people to the product, but introduce people to us. Like what are we like as a company? Who are we? Which is why you’re heavily featured. Look, we have friendly faces here. We talk in normal words. We don’t use ridiculous technical jargon. Also, the first thing you see when you sign up is a letter from me. Obviously it’s a form letter. I wrote it once. I’m not writing each person a letter, but it’s like, hey, here I am and here’s my email address. Write me if you have any questions.",
+  "zh": "他们怎么知道？你可以为所有这些东西制作一个营销网站，但人们甚至不会看那个。他们想看一些东西。他们想过一遍一些东西，展示这些东西很有趣。我认为我们试图在 Basecamp 5 引导中做的另一件事不仅是把人介绍给产品，而是把我们介绍给人。就像我们作为一家公司是什么样的？我们是谁？这就是为什么你大量出镜。看，这里我们有友好的面孔。我们用正常的话说话。我们不使用荒谬的技术术语。此外，当你注册时看到的第一件事是我的一封信。显然这是一封格式信函。我写了一次。我不是给每个人写信，但它就像，嘿，这是我，这是我的电子邮件地址。如果你有任何问题写信给我。"
+ },
+ {
+  "seg": 18,
+  "start": 599,
+  "end": 640,
+  "speaker": "Unknown",
+  "en": "And I get tons of emails from customers every day and I answer them personally unless I can’t because there’s something I don’t know and I forward it to somebody else. But it’s like, here’s who we are. Here’s what we’re like. Here’s how we talk. Here’s how we act. Here’s how we present ourselves. And I think this is another important thing that companies can do to further differentiate themselves from other companies. Most products these days, most software these days looks about the same and a lot of it works about the same. And if you look at, especially in our industry across things like Monday and ClickUp and Asana and Notion and whatever, they’re all fully all in AI and they’re all big text boxes in the middle and you just type what you want. And I think it’s actually very confusing for a lot of people.",
+  "zh": "我每天都会收到客户的很多电子邮件，我会亲自回答，除非我不能，因为有些我不知道我会转发给别人。但这就像，这是我们是谁。我们是什么样的。我们要如何说话。我们要如何行动。我们要如何展示自己。我认为这是公司可以做的另一件重要的事情，以进一步将自己与其他公司区分开来。如今大多数产品，大多数软件看起来大致相同，很多工作方式大致相同。如果你看，特别是在我们的行业，像 Monday 和 ClickUp 和 Asana 和 Notion 和不管什么，它们都是 AI 全投入，它们都是中间的大文本框，你只是输入你想要的东西。我认为这实际上对很多人来说非常困惑。"
+ },
+ {
+  "seg": 19,
+  "start": 640,
+  "end": 667,
+  "speaker": "Unknown",
+  "en": "I don’t think they really know what they want necessarily. And also the products become more and more alike, not more and more different from one another. And then it’s like, why do you exist? Why are there five things that kind of do the same thing? So I think differentiating yourselves not only in terms of the product offering, but also in terms of who you are, how approachable you are, presentable you are, open you are to communication is a fundamentally important thing that we try to do as often as we can. And I think the onboarding process is the first example of that.",
+  "zh": "我不认为他们真的知道他们想要什么。而且产品变得越来越像，而不是越来越不同。然后就像，你为什么存在？为什么有五种东西做同样的事情？所以我认为不仅在产品供应方面，而且在你是谁，你有多平易近人，你有多可展示，你对沟通有多开放方面区分自己，是我们试图尽可能经常做的根本重要的事情。我认为引导过程是那的第一个例子。"
+ },
+ {
+  "seg": 20,
+  "start": 667,
+  "end": 688,
+  "speaker": "Kimberly",
+  "en": "And actually another example that you made me think of is our announcements that we send to customers within the app are now personalized. So it used to be just generically coming from the company, Basecamp. Now it is an avatar, it’s a message from Jason, it’s a message from me, it’s a message from Brian. So that is just that additional, we’re real people. There’s real people behind the scenes. It’s not just this generic company brand.",
+  "zh": "实际上你让我想到的另一个例子是我们在应用内发送给客户的公告现在是个性化的。所以它以前只是通用的来自公司，Basecamp。现在它是一个头像，它是来自 Jason 的消息，它是来自我的消息，它是来自 Brian 的消息。所以这只是额外的，我们是真人。幕后有真人。不只是这个通用的公司品牌。"
+ },
+ {
+  "seg": 21,
+  "start": 688,
+  "end": 733,
+  "speaker": "David",
+  "en": "I also think it’s a very reciprocal process actually. Yes, someone is getting a tour of Basecamp, but Jason or I are getting a tour of how someone receives Bacecamp. What they notice, what they don’t notice, this was one of the things, especially with Basecamp 5, where we changed quite a lot of things and some of the changes we thought before launching it, these were going to be the controversial bits. These were going to be the ones that get... And then you launch it and you’re like, that wasn’t it. Some of the things we thought were going to be a problem were a problem, but a lot of them either didn’t get noticed at all or what did get noticed was something we would never have thought of. It’s only that direct exposure to reality, to customers, that you realize what actually lands. It’s a little bit like standup comedy.",
+  "zh": "我也认为这实际上是一个非常双向的过程。是的，有人在获得 Basecamp 的导览，但 Jason 或我正在获得某人接收 Bacecamp 的导览。他们注意到了什么，他们没注意到什么，这是其中一件事，特别是对于 Basecamp 5，我们改变了很多东西，其中一些变化我们在发布前认为，这些将是争议性的部分。这些将是那些会...然后你发布它，你想，那不是它。我们以为会成为问题的一些问题是问题，但很多要么根本没被注意到，或者被注意到的是我们从未想到的事情。只有这种对现实、对客户的直接接触，你才能意识到什么真正落地。这有点像单口喜剧。"
+ },
+ {
+  "seg": 22,
+  "start": 733,
+  "end": 781,
+  "speaker": "Unknown",
+  "en": "You got to go work on the material. You got to go see if the timing is right and what gets the laughs. And sometimes it’s sort of a throwaway comment that kills that night and you go like, “Oh, okay. I didn’t realize that that would be the trigger point.” And I think you have that a lot in software development as well. We worked on, I don’t know how many features for Basecamp 5. There’s probably hundreds of small changes and trying to guess exactly what’s going to land is surprisingly difficult, but you get to see it when you sit down with someone and you experience them using it. Now, the other thing you get to see is just kind of the stupid things they can stumble over. This is all the way back to Jakob Nielsen back in the ‘90s. Usability, watching customers use your product.",
+  "zh": "你必须去加工素材。你必须去看看时机是否正确，什么能引得发笑。有时这有点像是那晚炸场的随口评论，你就像，“哦，好的。我没意识到那会是触发点。”我认为你在软件开发中也有很多这种情况。我们为 Basecamp 5 做了多少功能我不道。可能有数百个小改动，试图准确猜到什么会落地是出奇地困难，但当你和某人坐下来体验他们使用它时，你会看到它。现在，你看到的另一件事只是他们可能绊倒的愚蠢事情。这完全要追溯到 90 年代的 Jakob Nielsen。可用性，看着客户使用你的产品。"
+ },
+ {
+  "seg": 23,
+  "start": 781,
+  "end": 842,
+  "speaker": "Unknown",
+  "en": "You say, Kimberly, like, oh, you’re surprised that Jason would do that. I can understand it’s surprised because most company CEOs, certainly the professional ones never do. And that’s why their shit sucks because they’re not actually exposed to it. It reminds me of the McDonald’s CEO. I’m going to take a bite of this tasty product here. And he takes this little nibble and he looks like a total fucking moron, right? Because he looks like someone who despises his own product, who would never in a million years eat a McDonald’s burger. He just takes a tiny little bite of a product. Not a burger, a product. Already there, just in that language, you know it’s all wrong. You know, here’s someone who doesn’t give two fucks about the actual burger, whether it’s tasty or not. And I think this is the magic in large part about founder-led companies, that someone who went from there was nothing here, I literally had to make every sale manually, is way more likely to stay connected to that exchange, reciprocal exchange.",
+  "zh": "你说，Kimberly，哦，你对 Jason 会那样做感到惊讶。我理解这是惊讶，因为大多数公司 CEO，当然专业的那些从不做。这就是为什么他们的东西很烂，因为他们实际上没有接触到它。这让我想起麦当劳 CEO。我要咬一口这个美味的产品。他咬了这小小的一口，他看起来像个彻头彻尾的该死白痴，对吧？因为他看起来像是一个鄙视自己产品的人，他在一百万年内也不会吃麦当劳汉堡。他只是咬了产品的非常小的一口。不是汉堡，是产品。就在那里，只是在那个语言中，你知道一切都错了。你知道，这里有人根本不在乎实际的汉堡，它是否美味。我认为这在很大程度上是创始人领导的公司的魔力，那个从那里什么都没有的人，我实际上必须手动完成每一次销售，更有可能保持与那种交流、双向交流的联系。"
+ },
+ {
+  "seg": 24,
+  "start": 842,
+  "end": 872,
+  "speaker": "Unknown",
+  "en": "I actually care about the thing I’m selling. I’m not selling product. I’m selling burgers. I’m selling project management tools. I’m selling something specific. I’m not selling a category. I’m not selling content. And it’s surprisingly hard, I think, to create that connection, especially after the fact, and especially if you are a company who’s being led by professionals who could just as well sell burgers, that they could sell toilet papers, they could sell sugar water to invoke Steve Jobs again.",
+  "zh": "我实际上关心我卖的东西。我不是卖产品。我在卖汉堡。我在卖项目管理工具。我在卖特定的东西。我不是卖一个类别。我不是卖内容。我认为很难建立那种联系，特别是事后，特别是如果你是一家由专业人士领导的公司，他们同样可以卖汉堡，他们可以卖卫生纸，他们可以卖糖水，再次引用史蒂夫·乔布斯的话。"
+ },
+ {
+  "seg": 25,
+  "start": 872,
+  "end": 913.2,
+  "speaker": "Kimberly",
+  "en": "Well, you can check out our new onboarding with a new Basecamp account at basecamp.com. Check it out, sign up for an account for free, and you can see that in-app the video that we were talking about. We’re going to wrap it up there. Rework is production at 37signals. You can find show notes and transcripts on our website at 37signals.com/podcast. Full video episodes on YouTube. And if you have a question for Jason or David about a better way to work and run your business, leave us a video. You can do that, 37signals.com/podcastquestion or send us an email to rework@37signals.com.",
+  "zh": "嗯，你可以用一个新 Basecamp 账户在 basecamp.com 查看我们的新引导。去看看，免费注册一个账户，你可以看到我们谈论的应用内视频。我们就在那里结束。Rework 是 37signals 的制作。你可以在我们的网站 37signals.com/podcast 上找到节目笔记和文字稿。YouTube 上的完整视频剧集。如果你有关于更好工作与经营方式的问题要问 Jason 或 David，请给我们留下视频。你可以在 37signals.com/podcastquestion 或发电子邮件至 rework@37signals.com 做到这一点。"
+ }
+]

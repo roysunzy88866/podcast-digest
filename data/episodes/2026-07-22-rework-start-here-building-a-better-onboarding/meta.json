@@ -20,12 +20,13 @@
     "SPEAKER_04": "Kimberly",
     "SPEAKER_05": "Jason",
     "SPEAKER_06": "Jason",
-    "SPEAKER_07": "David",
+    "SPEAKER_07": "Jason",
     "?": "David",
     "[Kimberly]": "Kimberly",
     "[Jason]": "Jason",
     "[?]": "David",
-    "[David]": "David"
+    "[David]": "David",
+    "SPEAKER_08": "David"
   },
   "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
   "guests": [],
@@ -33,5 +34,9 @@
   "cohosts": [
     "Jason",
     "David"
-  ]
+  ],
+  "title_zh": "Basecamp 5 引导设计：让CEO亲自带客户过产品",
+  "guest_name": "",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=无;title_match=none"
 }

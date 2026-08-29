@@ -120,6 +120,7 @@ David 说这是他唯一记得那么卡顿的时刻——而卡成那样本身�
 
 **换个口味**
 
+- [[2026-07-22-rework-start-here-building-a-better-onboarding|Basecamp 5 引导设计：让CEO亲自带客户过产品]]<span class="pd-rz">同嘉宾:David、Jason · 同公司:37signals</span>
 - [[2026-01-25-lennys-why-your-product-stopped-growing|增长停滞怎么办？Jason Cohen 的四步诊断法]]<span class="pd-rz">同公司:37signals</span>
 
 </div>

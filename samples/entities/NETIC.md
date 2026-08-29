@@ -25,7 +25,7 @@ unlisted: true
 
 [[Melisa Tokmak]] · [[智能体]] · [[基础服务]] · [[私募股权]] · [[自主企业]] · [[AI 整合公司]] · [[主观能动性]] · [[OpenAI]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Melisa Tokmak":1,"智能体":151,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":68,"Anthropic":77}</script>
+<script type="application/json" class="pd-epn">{"Melisa Tokmak":1,"智能体":153,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":69,"Anthropic":79}</script>
 
 <script>
 (function(){

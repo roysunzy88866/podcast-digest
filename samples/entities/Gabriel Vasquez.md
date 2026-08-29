@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eno Reyes]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Kimberly]] [[Jason]] [[David]] [[Steven Sinofsky]] [[Ryan Carson]]
+[[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":6,"Adi":1,"Eleven Labs":1,"Cognition":11,"Vercel":12,"Brex":3,"OpenAI":68,"Salesforce":10}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":6,"Adi":1,"Eleven Labs":1,"Cognition":12,"Vercel":12,"Brex":3,"OpenAI":69,"Salesforce":10}</script>
 
 <script>
 (function(){

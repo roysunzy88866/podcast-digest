@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":151,"判断力":4,"品味":8,"认知协调":1,"案例教学法":1,"可观测性":13,"护栏":30,"代码审查":2,"AWS":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":153,"判断力":4,"品味":8,"认知协调":1,"案例教学法":1,"可观测性":13,"护栏":30,"代码审查":2,"AWS":9}</script>
 
 <script>
 (function(){

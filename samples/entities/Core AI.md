@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jay Parikh]] · [[Brett]] · [[Facebook]] · [[Akamai]] · [[Microsoft]] · [[学习循环]] · [[工作图]] · [[DRI]] · [[苦差事]] · [[大赌注]]
 
-<script type="application/json" class="pd-epn">{"Jay Parikh":1,"Brett":1,"Facebook":11,"Akamai":1,"Microsoft":18,"学习循环":1,"工作图":1,"DRI":3,"苦差事":1,"大赌注":1}</script>
+<script type="application/json" class="pd-epn">{"Jay Parikh":1,"Brett":1,"Facebook":11,"Akamai":1,"Microsoft":19,"学习循环":1,"工作图":1,"DRI":3,"苦差事":1,"大赌注":1}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Ben]] [[Will]] [[Malika Rao]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":1,"OpenAI":68,"Anthropic":77,"Salesforce":10,"Cursor":39,"GrokBot":2,"Town":2,"Decagon":3,"Replit":12,"智能体":151}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":1,"OpenAI":69,"Anthropic":79,"Salesforce":10,"Cursor":40,"GrokBot":2,"Town":2,"Decagon":3,"Replit":12,"智能体":153}</script>
 
 <script>
 (function(){

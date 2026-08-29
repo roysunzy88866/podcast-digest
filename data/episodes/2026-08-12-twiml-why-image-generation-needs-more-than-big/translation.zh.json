@@ -1,0 +1,4090 @@
+[
+ {
+  "seg": 0,
+  "start": 0.391,
+  "end": 5.636,
+  "speaker": "Unknown",
+  "en": "Thanks so much to our friends at Qualcomm for their continued support and sponsorship of today's episode.",
+  "zh": "非常感谢我们在 Qualcomm 的朋友们对今天这一期节目的持续支持和赞助。"
+ },
+ {
+  "seg": 1,
+  "start": 6.157,
+  "end": 15.106,
+  "speaker": "Unknown",
+  "en": "Qualcomm AI Research is dedicated to advancing AI to make its core capabilities, perception, reasoning, and action ubiquitous across devices.",
+  "zh": "Qualcomm AI Research 致力于推进 AI，使其核心能力——感知、推理和行动——在各种设备上无处不在。"
+ },
+ {
+  "seg": 2,
+  "start": 15.846,
+  "end": 24.155,
+  "speaker": "Unknown",
+  "en": "Their work makes it possible for billions of users around the world to have AI-enhanced experiences on devices powered by Qualcomm technologies.",
+  "zh": "他们的工作使得全球数十亿用户能够在由 Qualcomm 技术驱动的设备上获得 AI 增强的体验。"
+ },
+ {
+  "seg": 3,
+  "start": 25.093,
+  "end": 31.076,
+  "speaker": "Unknown",
+  "en": "To learn more about what Qualcomm is up to on the research front, visit twiml.ai.com slash Qualcomm.",
+  "zh": "要了解 Qualcomm 在研究前沿的最新动态，请访问 twiml.ai.com/Qualcomm。"
+ },
+ {
+  "seg": 4,
+  "start": 31.696,
+  "end": 40.68,
+  "speaker": "Unknown",
+  "en": "Once a frontier research problem in computer vision, text-to-image generation has reached a point where almost anyone can ask an AI system for a picture and get something that looks remarkably good.",
+  "zh": "文本生成图像曾经是计算机视觉领域的前沿研究问题，现在已经发展到了几乎任何人都可以向 AI 系统索要一张图片并得到看起来非常不错的东西的程度。"
+ },
+ {
+  "seg": 5,
+  "start": 41.221,
+  "end": 43.622,
+  "speaker": "Unknown",
+  "en": "But looking good and being correct are not the same thing.",
+  "zh": "但是看起来不错和正确并不是同一回事。"
+ },
+ {
+  "seg": 6,
+  "start": 44.322,
+  "end": 47.945,
+  "speaker": "Unknown",
+  "en": "Ask for several different people, and the model may generate variations of the same face.",
+  "zh": "如果你要求生成几个不同的人，模型可能会生成同一张脸的变体。"
+ },
+ {
+  "seg": 7,
+  "start": 48.426,
+  "end": 52.849,
+  "speaker": "Unknown",
+  "en": "Ask for a specific composition, identity, or number of subjects, and it may ignore those details.",
+  "zh": "如果你要求特定的构图、身份或主体数量，它可能会忽略这些细节。"
+ },
+ {
+  "seg": 8,
+  "start": 53.35,
+  "end": 58.794,
+  "speaker": "Unknown",
+  "en": "Push towards higher resolution or local generation, and quality, speed, and memory quickly become constraints.",
+  "zh": "如果朝着更高分辨率或本地生成推进，质量、速度和内存会迅速成为制约因素。"
+ },
+ {
+  "seg": 9,
+  "start": 59.374,
+  "end": 64.118,
+  "speaker": "Unknown",
+  "en": "The next frontier in image generation is closing this gap between plausible images and precise results.",
+  "zh": "图像生成的下一个前沿是缩小看似合理的图像与精确结果之间的差距。"
+ },
+ {
+  "seg": 10,
+  "start": 64.539,
+  "end": 71.705,
+  "speaker": "Unknown",
+  "en": "It's making these systems controllable, efficient, and reliable enough to consistently produce a high-quality rendition of the image you actually ask for.",
+  "zh": "这就是要让这些系统具有可控性、高效性和可靠性，足以持续地生成你实际要求的图像的高质量呈现。"
+ },
+ {
+  "seg": 11,
+  "start": 72.385,
+  "end": 83.471,
+  "speaker": "Unknown",
+  "en": "One researcher at the forefront of this work is Fatih Farikli, Vice President of Technology at Qualcomm, whose team presented more than 20 papers at this year's CVPR, the Computer Vision and Pattern Recognition Conference.",
+  "zh": "处于这项工作前沿的一位研究人员是 Qualcomm 的技术副总裁 Fatih Farikli，他的团队在今年 CVPR（计算机视觉与模式识别会议）上展示了 20 多篇论文。"
+ },
+ {
+  "seg": 12,
+  "start": 84.151,
+  "end": 88.213,
+  "speaker": "Unknown",
+  "en": "Here's Fatih explaining why image generation still has plenty of hard problems to solve.",
+  "zh": "这里是 Fatih 解释为什么图像生成仍有许多难题要解决。"
+ },
+ {
+  "seg": 13,
+  "start": 88.593,
+  "end": 95.195,
+  "speaker": "Unknown",
+  "en": "Maybe we are also asking a single model to solve too many difficult problems at once.",
+  "zh": "也许我们也在要求一个单一模型同时解决太多困难的问题。"
+ },
+ {
+  "seg": 14,
+  "start": 95.435,
+  "end": 99.536,
+  "speaker": "Unknown",
+  "en": "Think about what happens when you generate a scene with several people.",
+  "zh": "想想当你生成一个有几个人的场景时会发生什么。"
+ },
+ {
+  "seg": 15,
+  "start": 99.656,
+  "end": 114.261,
+  "speaker": "Unknown",
+  "en": "Now, the model has to understand the prompt, but I'm asking the model and then decide how many people should appear, determine where they should be placed, like the composition of the scene, reason about their interactions, because",
+  "zh": "现在，模型必须理解提示词，但我是在要求模型然后决定应该出现多少个人，确定他们应该被放在哪里，比如场景的构图，推理他们的互动，因为"
+ },
+ {
+  "seg": 16,
+  "start": 114.781,
+  "end": 121.169,
+  "speaker": "Unknown",
+  "en": "If there's a person, if there's another person, most likely there is some connection, preserve the identity of the person.",
+  "zh": "如果有一个人，如果有另一个人，很可能存在某种联系，还要保持这个人的身份。"
+ },
+ {
+  "seg": 17,
+  "start": 121.21,
+  "end": 129.4,
+  "speaker": "Unknown",
+  "en": "We can give, okay, this is my daughter, this is my son, and I want them to be in the picture, not like any random person, and finally render everything together.",
+  "zh": "我们可以说，好吧，这是我的女儿，这是我的儿子，我希望他们在照片里，而不是任何随便的人，最后把所有东西一起渲染出来。"
+ },
+ {
+  "seg": 18,
+  "start": 130.001,
+  "end": 131.802,
+  "speaker": "Unknown",
+  "en": "In all a single process.",
+  "zh": "这一切都在一个单一的过程中。"
+ },
+ {
+  "seg": 19,
+  "start": 132.022,
+  "end": 134.643,
+  "speaker": "Unknown",
+  "en": "So maybe this is too much.",
+  "zh": "所以这可能太多了。"
+ },
+ {
+  "seg": 20,
+  "start": 135.384,
+  "end": 138.325,
+  "speaker": "Unknown",
+  "en": "I'm Sam Charrington, and this is the TwiML AI podcast.",
+  "zh": "我是 Sam Charrington，这是 TwiML AI 播客。"
+ },
+ {
+  "seg": 21,
+  "start": 138.685,
+  "end": 148.109,
+  "speaker": "Unknown",
+  "en": "For over a decade, I've been exploring the ideas and innovations shaping the future of AI through conversations like this one that help you understand what's real, what's next, and what matters.",
+  "zh": "十多年来，我一直在通过像这样的对话来探索塑造 AI 未来的想法和创新，这些对话帮助你理解什么是真实的，什么是下一步，以及什么是重要的。"
+ },
+ {
+  "seg": 22,
+  "start": 148.53,
+  "end": 149.19,
+  "speaker": "Unknown",
+  "en": "Let's jump in.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 23,
+  "start": 157.593,
+  "end": 165.878,
+  "speaker": "Unknown",
+  "en": "Yeah, that's a big difference that I see between I think even this conversation and the conversation we had last year.",
+  "zh": "是的，这是我看到的很大不同，我认为甚至是在这次对话和我们去年进行的对话之间。"
+ },
+ {
+  "seg": 24,
+  "start": 165.898,
+  "end": 173.623,
+  "speaker": "Unknown",
+  "en": "The performance and capability of text-to-image models has improved significantly.",
+  "zh": "文本到图像模型的性能和能力显著提高。"
+ },
+ {
+  "seg": 25,
+  "start": 174.143,
+  "end": 185.31,
+  "speaker": "Unknown",
+  "en": "And not just performance and capability, but I think accessibility, like now ask whatever your favorite LLM is to generate an image and it will do a really, really good job.",
+  "zh": "不仅仅是性能和能力，我认为还有可访问性，比如现在去问你最喜欢的任何 LLM 生成一张图像，它会做得非常非常好。"
+ },
+ {
+  "seg": 26,
+  "start": 185.71,
+  "end": 186.791,
+  "speaker": "Unknown",
+  "en": "And it does kind of",
+  "zh": "它确实有点"
+ },
+ {
+  "seg": 27,
+  "start": 187.491,
+  "end": 192.974,
+  "speaker": "Unknown",
+  "en": "Beg this question of the computer vision community, like what's left to do?",
+  "zh": "引出了计算机视觉界的一个问题，比如还有什么要做的？"
+ },
+ {
+  "seg": 28,
+  "start": 194.375,
+  "end": 199.418,
+  "speaker": "Unknown",
+  "en": "If this problem is solved to this degree, what's left for us to work on?",
+  "zh": "如果这个问题已经解决到了这种程度，还剩下什么让我们去工作？"
+ },
+ {
+  "seg": 29,
+  "start": 199.997,
+  "end": 201.178,
+  "speaker": "Unknown",
+  "en": "That's a fair question.",
+  "zh": "这是一个公平的问题。"
+ },
+ {
+  "seg": 30,
+  "start": 201.278,
+  "end": 209.845,
+  "speaker": "Unknown",
+  "en": "T2I models, these text-to-image generation models, or image-to-image generation models, have become incredibly good at producing very realistic images.",
+  "zh": "T2I 模型，这些文本到图像生成模型，或者图像到图像生成模型，已经变得非常擅长生成非常逼真的图像。"
+ },
+ {
+  "seg": 31,
+  "start": 209.905,
+  "end": 217.171,
+  "speaker": "Unknown",
+  "en": "The lighting looks natural, right, the details look right, and the overall quality can be amazing.",
+  "zh": "灯光看起来很自然，对吧，细节看起来是对的，整体质量可能令人惊叹。"
+ },
+ {
+  "seg": 32,
+  "start": 217.631,
+  "end": 223.476,
+  "speaker": "Unknown",
+  "en": "As many things we do, there's initial excitement, there's great work coming up.",
+  "zh": "正如我们做的许多事情一样，会有最初的兴奋，会有很棒的作品涌现出来。"
+ },
+ {
+  "seg": 33,
+  "start": 224.036,
+  "end": 231.367,
+  "speaker": "Unknown",
+  "en": "But still, if you look into that one dive deeper, you realize there are many things to be accomplished.",
+  "zh": "但是，如果你深入观察那个，你会意识到还有很多事情需要完成。"
+ },
+ {
+  "seg": 34,
+  "start": 231.807,
+  "end": 233.891,
+  "speaker": "Unknown",
+  "en": "One was controllability.",
+  "zh": "其中一个是可控性。"
+ },
+ {
+  "seg": 35,
+  "start": 234.131,
+  "end": 238.437,
+  "speaker": "Unknown",
+  "en": "Generating multiple people in the same image, people look almost identical.",
+  "zh": "在同一张图像中生成多个人，人们看起来几乎一模一样。"
+ },
+ {
+  "seg": 36,
+  "start": 239.098,
+  "end": 241.179,
+  "speaker": "Unknown",
+  "en": "All of these faces kind of blend together.",
+  "zh": "所有这些脸都有点融合在一起。"
+ },
+ {
+  "seg": 37,
+  "start": 241.579,
+  "end": 246.82,
+  "speaker": "Unknown",
+  "en": "And also, we showed in the past, we can run such models on users' devices.",
+  "zh": "而且，我们在过去展示了，我们可以在用户的设备上运行这样的模型。"
+ },
+ {
+  "seg": 38,
+  "start": 246.88,
+  "end": 251.362,
+  "speaker": "Unknown",
+  "en": "You do not need to rely on a cloud service provider.",
+  "zh": "你不需要依赖云服务提供商。"
+ },
+ {
+  "seg": 39,
+  "start": 251.402,
+  "end": 256.944,
+  "speaker": "Unknown",
+  "en": "I think most of the models still are limited to 1K, 1K resolution, but then you want to go beyond that.",
+  "zh": "我认为大多数模型仍然局限于 1K，1K 分辨率，但是你想超越这一点。"
+ },
+ {
+  "seg": 40,
+  "start": 257.104,
+  "end": 261.305,
+  "speaker": "Unknown",
+  "en": "That is a challenge which has not been actually addressed before.",
+  "zh": "这是一个以前实际上没有解决过的挑战。"
+ },
+ {
+  "seg": 41,
+  "start": 261.465,
+  "end": 266.787,
+  "speaker": "Unknown",
+  "en": "Okay, so what I'm hearing in there is that we've made a lot of progress, but there's still work to be done.",
+  "zh": "好的，所以我在那听到的是我们已经取得了很多进展，但仍然有工作要做。"
+ },
+ {
+  "seg": 42,
+  "start": 267.588,
+  "end": 272.33,
+  "speaker": "Unknown",
+  "en": "And when you think about that work, some of the big buckets include",
+  "zh": "当你想到那项工作时，一些大的方面包括"
+ },
+ {
+  "seg": 43,
+  "start": 273.823,
+  "end": 284.208,
+  "speaker": "Unknown",
+  "en": "Control ability, the ability to really get the models to focus on the way you describe the task or focus on the output that you want.",
+  "zh": "控制能力，真正让模型专注于你描述任务的方式或专注于你想要的输出的能力。"
+ },
+ {
+  "seg": 44,
+  "start": 284.328,
+  "end": 291.731,
+  "speaker": "Unknown",
+  "en": "And then you mentioned in there quality, so fewer artifacts, sharper images.",
+  "zh": "然后你在那里提到了质量，所以更少的伪影，更清晰的图像。"
+ },
+ {
+  "seg": 45,
+  "start": 292.012,
+  "end": 294.072,
+  "speaker": "Unknown",
+  "en": "And then you mentioned efficiency.",
+  "zh": "然后你提到了效率。"
+ },
+ {
+  "seg": 46,
+  "start": 294.293,
+  "end": 298.655,
+  "speaker": "Unknown",
+  "en": "We need to keep up with our ability to run the latest and greatest models on the device.",
+  "zh": "我们需要跟上我们在设备上运行最新、最好模型的能力。"
+ },
+ {
+  "seg": 47,
+  "start": 300.075,
+  "end": 305.398,
+  "speaker": "Unknown",
+  "en": "Those sound like three chunky buckets for researchers to continue to work in.",
+  "zh": "这些听起来像是研究人员可以继续工作的三个大的领域。"
+ },
+ {
+  "seg": 48,
+  "start": 305.878,
+  "end": 307.739,
+  "speaker": "Unknown",
+  "en": "Yeah, that's a very good depiction, Sam.",
+  "zh": "是的，这是一个非常好的描述，Sam。"
+ },
+ {
+  "seg": 49,
+  "start": 307.839,
+  "end": 308.239,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 50,
+  "start": 308.379,
+  "end": 310.621,
+  "speaker": "Unknown",
+  "en": "You know, kind of you said it very well.",
+  "zh": "你知道，你刚才说得非常好。"
+ },
+ {
+  "seg": 51,
+  "start": 311.301,
+  "end": 322.506,
+  "speaker": "Unknown",
+  "en": "It's not only Qualcomm, but the community also trying to make sure the models, such models, genetic AI models, can also match the guidance or the quality or...",
+  "zh": "不仅是高通，社区也在努力确保这些模型，这样的模型，遗传AI模型，也能匹配指导或质量或..."
+ },
+ {
+  "seg": 52,
+  "start": 323.867,
+  "end": 339.054,
+  "speaker": "Unknown",
+  "en": "Controllability expectations or efficiency expectation goes off kind of like a real, like a camera, but you are taking pictures using your words, you know, your prompts.",
+  "zh": "可控性预期或效率预期有点像真的，像相机一样，但你是用你的语言，你知道，你的提示词来拍照。"
+ },
+ {
+  "seg": 53,
+  "start": 339.254,
+  "end": 341.675,
+  "speaker": "Unknown",
+  "en": "So there are still many things to be done.",
+  "zh": "所以还有很多事情要做。"
+ },
+ {
+  "seg": 54,
+  "start": 342.575,
+  "end": 349.338,
+  "speaker": "Unknown",
+  "en": "And that's why, you know, we publish, present many papers addressing such challenges as CVPI this year.",
+  "zh": "这就是为什么，你知道，我们发表并展示了许多解决此类挑战的论文，比如今年的 CVPI。"
+ },
+ {
+  "seg": 55,
+  "start": 349.65,
+  "end": 356.098,
+  "speaker": "Unknown",
+  "en": "The first one we're going to talk to actually talks about this example you gave, the diversity of facial attributes.",
+  "zh": "我们要谈到的第一个论文实际上谈到了你举的这个例子，面部属性的多样性。"
+ },
+ {
+  "seg": 56,
+  "start": 356.238,
+  "end": 357.18,
+  "speaker": "Unknown",
+  "en": "What's this paper called?",
+  "zh": "这篇论文叫什么？"
+ },
+ {
+  "seg": 57,
+  "start": 357.44,
+  "end": 365.01,
+  "speaker": "Unknown",
+  "en": "The name of the paper is DISCO, Resolving the Identity Crisis in Text-to-Image D2I Generation.",
+  "zh": "论文名字是 DISCO，解决文本到图像 D2I 生成中的身份危机。"
+ },
+ {
+  "seg": 58,
+  "start": 365.45,
+  "end": 369.633,
+  "speaker": "Unknown",
+  "en": "I'll mention to folks listening that a couple of things.",
+  "zh": "我要告诉听众几件事。"
+ },
+ {
+  "seg": 59,
+  "start": 369.753,
+  "end": 381.402,
+  "speaker": "Unknown",
+  "en": "One, we'll have links to all these papers in the show notes, but also I'll try to get some of the illustrations from the papers into the video.",
+  "zh": "第一，我们会在节目注释中提供所有这些论文的链接，此外我会尝试把论文中的一些插图放入视频中。"
+ },
+ {
+  "seg": 60,
+  "start": 381.422,
+  "end": 393.552,
+  "speaker": "Unknown",
+  "en": "So if you're not watching on YouTube or watching video, look for that because all of these papers have really good illustrative examples that will help with following the conversation.",
+  "zh": "所以如果你不是在 YouTube 上观看或者看视频，去找一下，因为所有这些论文都有非常好的说明性例子，有助于跟上对话。"
+ },
+ {
+  "seg": 61,
+  "start": 395.013,
+  "end": 404.986,
+  "speaker": "Unknown",
+  "en": "And so Disco and Artican, when you think about them relative to these buckets that we've talked about, which of these buckets are they really going after?",
+  "zh": "所以 Dis co 和 Artican，当你们考虑它们相对于我们谈到的这些类别时，它们真正针对的是哪些类别？"
+ },
+ {
+  "seg": 62,
+  "start": 405.341,
+  "end": 415.724,
+  "speaker": "Unknown",
+  "en": "They are about controllability and how to train a T2I model better aligned with the guidance from the user.",
+  "zh": "它们是关于可控性以及如何训练 T2I 模型以更好地与用户的指导对齐。"
+ },
+ {
+  "seg": 63,
+  "start": 417.604,
+  "end": 421.685,
+  "speaker": "Unknown",
+  "en": "Let me go a little bit deeper about this call, if it's okay, Sen.",
+  "zh": "如果可以的话，让我更深入地谈谈这篇论文，Sen。"
+ },
+ {
+  "seg": 64,
+  "start": 422.185,
+  "end": 431.968,
+  "speaker": "Unknown",
+  "en": "When we look at T2I models and our own models also, what was interesting that this is not an image quality problem.",
+  "zh": "当我们看 T2I 模型和我们自己的模型时，有趣的是这不是图像质量问题。"
+ },
+ {
+  "seg": 65,
+  "start": 432.968,
+  "end": 445.917,
+  "speaker": "Unknown",
+  "en": "Problem that I mentioned before, like we are asking the model to generate faces and certain number of faces and it keeps generating same faces, identical, almost identical faces over and over again.",
+  "zh": "我之前提到的问题，比如我们要模型生成人脸和一定数量的人脸，它却不断生成相同的人脸，一模一样，几乎一模一样的人脸，一次又一次。"
+ },
+ {
+  "seg": 66,
+  "start": 446.097,
+  "end": 451.86,
+  "speaker": "Unknown",
+  "en": "So quality-wise, image quality-wise, if you look at the pixels and noise and everything, it looks realistic.",
+  "zh": "所以在质量方面，图像质量方面，如果你看像素、噪声和一切，它看起来很逼真。"
+ },
+ {
+  "seg": 67,
+  "start": 452.061,
+  "end": 461.066,
+  "speaker": "Unknown",
+  "en": "But the missing piece was that those models, space models, amazing models, had not really learned to create truly distinct",
+  "zh": "但缺失的部分是那些模型，空间模型，惊人的模型，还没有真正学会创造出真正独特的"
+ },
+ {
+  "seg": 68,
+  "start": 462.107,
+  "end": 463.548,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 69,
+  "start": 481.92,
+  "end": 492.208,
+  "speaker": "Unknown",
+  "en": "A simple question, what if the identity or facial appearance or any diversity, you know, kind of itself becomes an optimization objective?",
+  "zh": "一个简单的问题，如果身份或面部外观或任何多样性，你知道，本身变成一个优化目标会怎么样？"
+ },
+ {
+  "seg": 70,
+  "start": 492.948,
+  "end": 496.211,
+  "speaker": "Unknown",
+  "en": "So that led into the idea behind this call.",
+  "zh": "所以这引出了这篇论文背后的想法。"
+ },
+ {
+  "seg": 71,
+  "start": 496.691,
+  "end": 503.937,
+  "speaker": "Unknown",
+  "en": "Instead of creating a completely new T2I model, we kept the underlying model",
+  "zh": "我们没有创建一个全新的 T2I 模型，而是保留了底层模型"
+ },
+ {
+  "seg": 72,
+  "start": 504.737,
+  "end": 507.179,
+  "speaker": "Unknown",
+  "en": "And fine-tune it with reinforcement learning.",
+  "zh": "并用强化学习对其进行微调。"
+ },
+ {
+  "seg": 73,
+  "start": 508.24,
+  "end": 513.163,
+  "speaker": "Unknown",
+  "en": "We designed rewards that encourage several things simultaneously.",
+  "zh": "我们设计了奖励来同时鼓励几件事。"
+ },
+ {
+  "seg": 74,
+  "start": 513.183,
+  "end": 518.307,
+  "speaker": "Unknown",
+  "en": "For instance, different people within an image should have distinct identities.",
+  "zh": "例如，图像中的不同人应该有独特的身份。"
+ },
+ {
+  "seg": 75,
+  "start": 518.607,
+  "end": 521.909,
+  "speaker": "Unknown",
+  "en": "You don't want to create duplicate faces.",
+  "zh": "你不想创建重复的人脸。"
+ },
+ {
+  "seg": 76,
+  "start": 522.369,
+  "end": 525.772,
+  "speaker": "Unknown",
+  "en": "That's something we call in the paper as intra-image diversity.",
+  "zh": "这是我们在论文中称为图像内多样性的东西。"
+ },
+ {
+  "seg": 77,
+  "start": 526.232,
+  "end": 532.777,
+  "speaker": "Unknown",
+  "en": "And across different runs of the same model with similar prompts, same prompt,",
+  "zh": "而且在具有相似提示词、相同提示词的同一模型的不同运行之间，"
+ },
+ {
+  "seg": 78,
+  "start": 533.557,
+  "end": 537.841,
+  "speaker": "Unknown",
+  "en": "We shouldn't generate, we shouldn't keep producing, generating the same faces.",
+  "zh": "我们不应该生成，我们不应该持续生成，生成相同的人脸。"
+ },
+ {
+  "seg": 79,
+  "start": 537.901,
+  "end": 540.903,
+  "speaker": "Unknown",
+  "en": "So this is inter-run, inter-image diversity.",
+  "zh": "所以这是运行间、图像间的多样性。"
+ },
+ {
+  "seg": 80,
+  "start": 541.084,
+  "end": 546.428,
+  "speaker": "Unknown",
+  "en": "So these are explicit new objectives when we train, fine tune the model.",
+  "zh": "所以这些是我们在训练、微调模型时的显式新目标。"
+ },
+ {
+  "seg": 81,
+  "start": 546.628,
+  "end": 552.333,
+  "speaker": "Unknown",
+  "en": "And also, you know, we want model to generate the correct number of people.",
+  "zh": "还有，你知道，我们希望模型生成正确数量的人。"
+ },
+ {
+  "seg": 82,
+  "start": 552.433,
+  "end": 556.557,
+  "speaker": "Unknown",
+  "en": "If I'm asking generate two people, that should be two, not three.",
+  "zh": "如果我要求生成两个人，那应该是两个，不是三个。"
+ },
+ {
+  "seg": 83,
+  "start": 557.578,
+  "end": 560.8,
+  "speaker": "Unknown",
+  "en": "We are also incorporating that in the objective.",
+  "zh": "我们也将此纳入目标中。"
+ },
+ {
+  "seg": 84,
+  "start": 561.08,
+  "end": 569.407,
+  "speaker": "Unknown",
+  "en": "And of course, we still have the previous image quality objective there.",
+  "zh": "当然，我们仍然在那里保留了之前的图像质量目标。"
+ },
+ {
+  "seg": 85,
+  "start": 569.427,
+  "end": 579.776,
+  "speaker": "Unknown",
+  "en": "So to put everything all together, we use reinforcement learning, something called Group Relative Policy Optimization, GRPO.",
+  "zh": "所以要把所有东西放在一起，我们使用强化学习，一种叫做组相对策略优化的方法，GRPO。"
+ },
+ {
+  "seg": 86,
+  "start": 580.176,
+  "end": 583.499,
+  "speaker": "Unknown",
+  "en": "Taking a step back, it strikes me that",
+  "zh": "退一步说，给我印象深的是"
+ },
+ {
+  "seg": 87,
+  "start": 586.316,
+  "end": 607.901,
+  "speaker": "Unknown",
+  "en": "Yes, this as an objective diversity of faces is an important one if you're generating images with multiple faces, but it strikes me as one of many possible ways that you might want to or characteristics of an image that you might want to influence.",
+  "zh": "是的，如果你生成包含多张人脸的图像，人脸的多样性作为目标是一个重要的目标，但这让我觉得这只是你可能想要影响的图像的许多可能方式或特征之一。"
+ },
+ {
+  "seg": 88,
+  "start": 608.281,
+  "end": 610.922,
+  "speaker": "Unknown",
+  "en": "And it seems like",
+  "zh": "看起来好像"
+ },
+ {
+  "seg": 89,
+  "start": 613.089,
+  "end": 627.265,
+  "speaker": "Unknown",
+  "en": "Tuning the objective for all of the possible ways that you might want images to generate correctly seems not just difficult, but anti-bitter lesson.",
+  "zh": "为你可能希望图像正确生成的所有可能方式调整目标似乎不仅困难，而且是反苦涩教训。"
+ },
+ {
+  "seg": 90,
+  "start": 628.026,
+  "end": 633.932,
+  "speaker": "Unknown",
+  "en": "Why not just collect more data with lots of faces and train the model with better data?",
+  "zh": "为什么不只是收集更多包含大量人脸的数据并用更好的数据训练模型？"
+ },
+ {
+  "seg": 91,
+  "start": 634.557,
+  "end": 636.158,
+  "speaker": "Unknown",
+  "en": "In a way, that is what we are doing.",
+  "zh": "在某种程度上，这就是我们在做的。"
+ },
+ {
+  "seg": 92,
+  "start": 636.178,
+  "end": 639.44,
+  "speaker": "Unknown",
+  "en": "But we are sure that you do not need a lot of data.",
+  "zh": "但我们确信你不需要大量数据。"
+ },
+ {
+  "seg": 93,
+  "start": 639.901,
+  "end": 641.422,
+  "speaker": "Unknown",
+  "en": "And you are right.",
+  "zh": "你是对的。"
+ },
+ {
+  "seg": 94,
+  "start": 641.482,
+  "end": 642.923,
+  "speaker": "Unknown",
+  "en": "There might be many attributes.",
+  "zh": "可能有很多属性。"
+ },
+ {
+  "seg": 95,
+  "start": 642.963,
+  "end": 648.386,
+  "speaker": "Unknown",
+  "en": "Diversity, facial, diversity is one objective.",
+  "zh": "多样性，面部，多样性是一个目标。"
+ },
+ {
+  "seg": 96,
+  "start": 648.466,
+  "end": 649.747,
+  "speaker": "Unknown",
+  "en": "Number of people is another one.",
+  "zh": "人的数量是另一个。"
+ },
+ {
+  "seg": 97,
+  "start": 649.867,
+  "end": 659.654,
+  "speaker": "Unknown",
+  "en": "But then let's say we want to generate a certain action of a person or pose of the face or location of the person in the image or look out there.",
+  "zh": "但假设我们要生成一个人的某个动作或面部姿势或人在图像中的位置或往外看。"
+ },
+ {
+  "seg": 98,
+  "start": 661.915,
+  "end": 681.185,
+  "speaker": "Unknown",
+  "en": "So, for those, what we are saying that, well, you can incorporate such objectives in addition to overall, let's say, perception or image quality objective when we are training such models, but you do not need a lot of data.",
+  "zh": "所以，对于这些，我们说的是，好吧，你可以在训练这些模型时纳入这些目标，除了整体的，比如说，感知或图像质量目标，但你不需要大量数据。"
+ },
+ {
+  "seg": 99,
+  "start": 681.665,
+  "end": 693.789,
+  "speaker": "Unknown",
+  "en": "If you, the novelty of the paper in this work, have to incorporate everything into a reinforcement learning framework, that would make it possible.",
+  "zh": "如果你，这篇论文在这项工作中的新颖之处，必须将所有东西纳入强化学习框架，那将使其成为可能。"
+ },
+ {
+  "seg": 100,
+  "start": 694.07,
+  "end": 700.392,
+  "speaker": "Unknown",
+  "en": "And training, fine-tuning such models would be also kind of very affordable.",
+  "zh": "训练、微调此类模型也将是非常负担得起的。"
+ },
+ {
+  "seg": 101,
+  "start": 701.112,
+  "end": 707.195,
+  "speaker": "Unknown",
+  "en": "By the way, there is a difference between the quality of the input images going into such models.",
+  "zh": "顺便说一句，进入此类模型的输入图像的质量是有区别的。"
+ },
+ {
+  "seg": 102,
+  "start": 707.555,
+  "end": 721.281,
+  "speaker": "Unknown",
+  "en": "There is another thing called this curriculum learning starting from clear scenes and gradually increasing complexity makes learning, this reinforcement learning, much more stable.",
+  "zh": "还有另一件事叫做这种课程学习，从清晰的场景开始并逐渐增加复杂性，使得学习，这种强化学习，更加稳定。"
+ },
+ {
+  "seg": 103,
+  "start": 721.742,
+  "end": 727.924,
+  "speaker": "Unknown",
+  "en": "I remember conversations I've had, you know, years, many years ago about curriculum learning and it was always",
+  "zh": "我记得我有过的一些对话，你知道，几年前，很多年前关于课程学习的，而且总是"
+ },
+ {
+  "seg": 104,
+  "start": 729.185,
+  "end": 731.946,
+  "speaker": "Unknown",
+  "en": "You know, theoretical improvement.",
+  "zh": "你知道，理论上的改进。"
+ },
+ {
+  "seg": 105,
+  "start": 731.986,
+  "end": 739.229,
+  "speaker": "Unknown",
+  "en": "It's exciting to see it being incorporated into practical algorithms, training algorithms nowadays.",
+  "zh": "很高兴看到它被整合到如今的实际算法、训练算法中。"
+ },
+ {
+  "seg": 106,
+  "start": 740.13,
+  "end": 741.69,
+  "speaker": "Unknown",
+  "en": "Yes, you are absolutely right.",
+  "zh": "是的，你完全正确。"
+ },
+ {
+  "seg": 107,
+  "start": 741.77,
+  "end": 745.732,
+  "speaker": "Unknown",
+  "en": "Curriculum now is making impact.",
+  "zh": "课程现在正在产生影响。"
+ },
+ {
+  "seg": 108,
+  "start": 745.992,
+  "end": 754.736,
+  "speaker": "Unknown",
+  "en": "Not only, by the way, our papers, but there were several other papers at CVPR talking about how wonderfully curriculum learning makes multimodal models better.",
+  "zh": "顺便说一句，不仅是我们的论文，CVPR 上还有其他几篇论文在谈论课程学习如何出色地使多模态模型变得更好。"
+ },
+ {
+  "seg": 109,
+  "start": 754.916,
+  "end": 765.859,
+  "speaker": "Unknown",
+  "en": "One broader lesson from the DISCO paper is sometimes the model simply needs the right objective in training, like the things that I mentioned.",
+  "zh": "DISCO 论文的一个更广泛的启示是，有时模型仅仅需要训练中正确的目标，就像我提到的事情那样。"
+ },
+ {
+  "seg": 110,
+  "start": 766.139,
+  "end": 779.103,
+  "speaker": "Unknown",
+  "en": "And also, it is not mainly an architecture limitation, but it is how you are providing these objective and training data to the algorithm.",
+  "zh": "而且，这主要不是架构限制，而是你如何向算法提供这些目标和训练数据。"
+ },
+ {
+  "seg": 111,
+  "start": 779.703,
+  "end": 783.184,
+  "speaker": "Unknown",
+  "en": "The way I would summarize your answer is that",
+  "zh": "我会这样总结你的回答"
+ },
+ {
+  "seg": 112,
+  "start": 784.667,
+  "end": 805.541,
+  "speaker": "Unknown",
+  "en": "yes there are lots of different attributes that you might want to exert some control over and um you know there is a kind of a you know a mental or human cost to going after each of these attributes but from a perspective of the training process itself um",
+  "zh": "是的，有很多不同的属性你可能想要施加一些控制，而且，你知道，在追求这些属性中的每一个时有一种精神上或人力成本，但从训练过程本身的角度来看，"
+ },
+ {
+  "seg": 113,
+  "start": 806.351,
+  "end": 810.676,
+  "speaker": "Unknown",
+  "en": "It's fairly efficient and nothing like when you think of like traditional fine tuning.",
+  "zh": "它是相当高效的，完全不像当你想到传统微调时那样。"
+ },
+ {
+  "seg": 114,
+  "start": 810.776,
+  "end": 819.545,
+  "speaker": "Unknown",
+  "en": "It's very data efficient and you can apply techniques like curriculum to make it compute efficient as well.",
+  "zh": "它是非常数据高效的，你可以应用像课程学习这样的技术来使它在计算上也高效。"
+ },
+ {
+  "seg": 115,
+  "start": 820.435,
+  "end": 827.138,
+  "speaker": "Unknown",
+  "en": "You know, Sam, which something I like to also add, because it is related to what we are talking about now.",
+  "zh": "你知道，Sam，我也喜欢补充一点，因为它与我们正在谈论的内容相关。"
+ },
+ {
+  "seg": 116,
+  "start": 828.698,
+  "end": 831.019,
+  "speaker": "Unknown",
+  "en": "Optimization, of course, is right objective.",
+  "zh": "优化，当然是正确的目标。"
+ },
+ {
+  "seg": 117,
+  "start": 831.219,
+  "end": 834.34,
+  "speaker": "Unknown",
+  "en": "Optimization at the right data is definitely very critical.",
+  "zh": "在正确的数据上进行优化绝对是非常关键的。"
+ },
+ {
+  "seg": 118,
+  "start": 834.36,
+  "end": 836.601,
+  "speaker": "Unknown",
+  "en": "That is what this paper is talking about.",
+  "zh": "这就是这篇论文所谈论的内容。"
+ },
+ {
+  "seg": 119,
+  "start": 836.901,
+  "end": 843.084,
+  "speaker": "Unknown",
+  "en": "But we may also kind of think that maybe, I mean, these are models, GenetBI models.",
+  "zh": "但我们可能也会想，也许，我的意思是，这些模型，GenetBI 模型。"
+ },
+ {
+  "seg": 120,
+  "start": 843.144,
+  "end": 846.025,
+  "speaker": "Unknown",
+  "en": "Maybe we are also asking a single model to solve",
+  "zh": "也许我们也在要求单一模型去解决"
+ },
+ {
+  "seg": 121,
+  "start": 846.925,
+  "end": 850.507,
+  "speaker": "Unknown",
+  "en": "Too many difficult problems at once.",
+  "zh": "一次太多难题。"
+ },
+ {
+  "seg": 122,
+  "start": 850.707,
+  "end": 855.849,
+  "speaker": "Unknown",
+  "en": "That's kind of asking the question, could we possibly optimize for all the attributes that we care about?",
+  "zh": "这就提出了一个问题，我们能否针对我们在乎的所有属性进行优化？"
+ },
+ {
+  "seg": 123,
+  "start": 857.57,
+  "end": 861.432,
+  "speaker": "Unknown",
+  "en": "In doing so, would we be asking the models to do too many things at once?",
+  "zh": "这样做的话，我们是不是要求模型一次做太多事情？"
+ },
+ {
+  "seg": 124,
+  "start": 861.832,
+  "end": 863.093,
+  "speaker": "Unknown",
+  "en": "That's a good point.",
+  "zh": "这一点很好。"
+ },
+ {
+  "seg": 125,
+  "start": 863.233,
+  "end": 864.253,
+  "speaker": "Unknown",
+  "en": "Maybe we shouldn't.",
+  "zh": "也许我们不应该。"
+ },
+ {
+  "seg": 126,
+  "start": 864.654,
+  "end": 867.415,
+  "speaker": "Unknown",
+  "en": "And also, I can give you an example.",
+  "zh": "另外，我可以给你一个例子。"
+ },
+ {
+  "seg": 127,
+  "start": 867.455,
+  "end": 873.298,
+  "speaker": "Unknown",
+  "en": "Think about what happens when you generate a scene with several people, going back to that core example.",
+  "zh": "想想当你生成一个有几个人的场景时会发生什么，回到那个核心例子。"
+ },
+ {
+  "seg": 128,
+  "start": 873.918,
+  "end": 895.075,
+  "speaker": "Unknown",
+  "en": "Now, the model has to understand the prompt, but I'm asking the model, and then decide how many people should appear, determine where they should be placed, like the composition of the scene, reason about their interactions, because if there's a person, if there's another person, most likely there is some connection, preserve, and you also",
+  "zh": "现在，模型必须理解提示词，但我要求模型，然后决定应该出现多少人，确定他们应该被放置在哪里，比如场景的构图，推理他们的互动，因为如果有一个一个人，如果有另一个人，很可能有一些联系，保留，而且你也"
+ },
+ {
+  "seg": 129,
+  "start": 895.876,
+  "end": 898.117,
+  "speaker": "Unknown",
+  "en": "I didn't mention about this thing, identity of the person.",
+  "zh": "我没有提到这件事，人的身份。"
+ },
+ {
+  "seg": 130,
+  "start": 898.157,
+  "end": 908.76,
+  "speaker": "Unknown",
+  "en": "We can give, okay, this is my daughter, this is my son, and I want them to be in the picture, not like any random person, and finally render everything together in all a single process.",
+  "zh": "我们可以给出，好的，这是我的女儿，这是我的儿子，我希望他们在照片里，而不是任何随机的人，最后在一个单一的过程中渲染所有东西。"
+ },
+ {
+  "seg": 131,
+  "start": 908.98,
+  "end": 921.845,
+  "speaker": "Unknown",
+  "en": "So maybe this is too much, and this would be explored in the other paper, R2CAM paper, instead of like asking one model to do everything, what if we separate it?",
+  "zh": "所以也许这太多了，这将在另一篇论文，R2CAM 论文中探讨，而不是让一个模型做所有事情，如果我们把它分开会怎样？"
+ },
+ {
+  "seg": 132,
+  "start": 922.425,
+  "end": 928.11,
+  "speaker": "Unknown",
+  "en": "For instance, planning from rendering, similar to what human artists might do.",
+  "zh": "例如，将规划与渲染分开，类似于人类艺术家可能做的事情。"
+ },
+ {
+  "seg": 133,
+  "start": 928.911,
+  "end": 933.675,
+  "speaker": "Unknown",
+  "en": "And, you know, that kind of led us into this paper.",
+  "zh": "而且，你知道，那种想法引导我们进入了这篇论文。"
+ },
+ {
+  "seg": 134,
+  "start": 933.875,
+  "end": 948.508,
+  "speaker": "Unknown",
+  "en": "Before we dive into Artikan, thinking about that comment applied to Disco, and again, this idea about different attributes, possibly a thing to keep in mind is",
+  "zh": "在我们深入讨论 Artikan 之前，考虑到适用于 Disco 的评论，同样，关于不同属性的这个想法，可能需要记住的一点是"
+ },
+ {
+  "seg": 135,
+  "start": 950.66,
+  "end": 955.021,
+  "speaker": "Unknown",
+  "en": "How we've matured, the way we think about using model routers.",
+  "zh": "我们已经成熟了，关于使用模型路由器的思维方式。"
+ },
+ {
+  "seg": 136,
+  "start": 956.282,
+  "end": 964.984,
+  "speaker": "Unknown",
+  "en": "So maybe you have a suite of models for the different attributes that you care about.",
+  "zh": "所以也许你有一套针对你关心的不同属性的模型。"
+ },
+ {
+  "seg": 137,
+  "start": 965.124,
+  "end": 966.745,
+  "speaker": "Unknown",
+  "en": "And then when your prompt comes in,",
+  "zh": "然后当你的提示词进来时，"
+ },
+ {
+  "seg": 138,
+  "start": 967.461,
+  "end": 974.604,
+  "speaker": "Unknown",
+  "en": "You've got some kind of router that says, oh, this, you know, the image that's required here, you know, will probably have a lot of people.",
+  "zh": "你有某种路由器说，哦，这个，你知道，这里所需的图像，你知道，可能会有很多人。"
+ },
+ {
+  "seg": 139,
+  "start": 974.644,
+  "end": 985.489,
+  "speaker": "Unknown",
+  "en": "Let me route it to this model that's been tuned for that, as opposed to trying to, again, you know, have a single model that's optimized for all the attributes you want.",
+  "zh": "让我把它路由到为此微调过的那个模型，而不是试图再次，你知道，拥有一个针对你想要的所有属性都优化过的单一模型。"
+ },
+ {
+  "seg": 140,
+  "start": 985.509,
+  "end": 989.171,
+  "speaker": "Unknown",
+  "en": "It's a different approach to what you've taken with Arcan, and we'll dig into that.",
+  "zh": "这与你采用 Arcan 的方法不同，我们将深入探讨那个。"
+ },
+ {
+  "seg": 141,
+  "start": 989.231,
+  "end": 996.634,
+  "speaker": "Unknown",
+  "en": "But it is a way that, you know, that Disco could be put into production practically.",
+  "zh": "但这是一种方式，你知道，Disco 可以实际上投入生产。"
+ },
+ {
+  "seg": 142,
+  "start": 996.994,
+  "end": 1005.359,
+  "speaker": "Unknown",
+  "en": "Okay, you brought up again another, you know, amazing perspective and we are working on it.",
+  "zh": "好的，你再次提出了另一个，你知道，惊人的观点，我们正在为此努力。"
+ },
+ {
+  "seg": 143,
+  "start": 1005.399,
+  "end": 1012.403,
+  "speaker": "Unknown",
+  "en": "This sounds like more like an agentic orchestrated image generation framework.",
+  "zh": "这听起来更像是一个由智能体编排的图像生成框架。"
+ },
+ {
+  "seg": 144,
+  "start": 1012.503,
+  "end": 1015.605,
+  "speaker": "Unknown",
+  "en": "Depending on the input prompt, maybe we want to generate...",
+  "zh": "根据输入提示词，也许我们想要生成..."
+ },
+ {
+  "seg": 145,
+  "start": 1016.405,
+  "end": 1028.611,
+  "speaker": "Unknown",
+  "en": "For instance, a realistic scene or like cartoony scene or something maybe there's a text or some like human generated graph or something like that in the image.",
+  "zh": "例如，一个逼真的场景或卡通风格的场景，或者也许有文本或一些人类生成的图表或图像中的类似东西。"
+ },
+ {
+  "seg": 146,
+  "start": 1028.751,
+  "end": 1039.456,
+  "speaker": "Unknown",
+  "en": "So for all of it, we different attributes like diversity, like facial identity, we may have specialized models.",
+  "zh": "所以对于所有这些，我们不同的属性如多样性，如面部身份，我们可能有专门的模型。"
+ },
+ {
+  "seg": 147,
+  "start": 1039.936,
+  "end": 1043.138,
+  "speaker": "Unknown",
+  "en": "Specialized processes within those models.",
+  "zh": "这些模型内部的专门流程。"
+ },
+ {
+  "seg": 148,
+  "start": 1043.479,
+  "end": 1050.204,
+  "speaker": "Unknown",
+  "en": "So how to pull the right one is we are working on such agentic also pipelines.",
+  "zh": "所以如何拉动正确的一个是我们正在研究这种智能体管道。"
+ },
+ {
+  "seg": 149,
+  "start": 1050.604,
+  "end": 1055.848,
+  "speaker": "Unknown",
+  "en": "Depending on the input, it goes or determines the right tool.",
+  "zh": "根据输入，它去或决定正确的工具。"
+ },
+ {
+  "seg": 150,
+  "start": 1056.808,
+  "end": 1066.517,
+  "speaker": "Unknown",
+  "en": "This is like if we consider this code, one instance of diversity is one instance, the other one is better text generation.",
+  "zh": "这就像如果我们考虑这段代码，一个多样性的实例是一个实例，另一个是更好的文本生成。"
+ },
+ {
+  "seg": 151,
+  "start": 1066.797,
+  "end": 1075.986,
+  "speaker": "Unknown",
+  "en": "So it can go find the right one depending on where we want to apply them and then orchestrate the final generation.",
+  "zh": "所以它可以根据我们要在哪里应用它们去找到合适的那个，然后编排最终的生成。"
+ },
+ {
+  "seg": 152,
+  "start": 1076.506,
+  "end": 1080.189,
+  "speaker": "Unknown",
+  "en": "I think this is going to be the ultimate solution.",
+  "zh": "我认为这将是最终的解决方案。"
+ },
+ {
+  "seg": 153,
+  "start": 1080.61,
+  "end": 1084.733,
+  "speaker": "Unknown",
+  "en": "You know, one, maybe size doesn't fit everyone.",
+  "zh": "你知道，一个，也许尺码并不适合每个人。"
+ },
+ {
+  "seg": 154,
+  "start": 1085.053,
+  "end": 1091.219,
+  "speaker": "Unknown",
+  "en": "If you really, really want to generate something amazing, top of the line, so we need such specialization.",
+  "zh": "如果你真的，真的想要生成一些令人惊叹的东西，顶尖的，所以我们需要这种专业化。"
+ },
+ {
+  "seg": 155,
+  "start": 1091.479,
+  "end": 1095.702,
+  "speaker": "Unknown",
+  "en": "You are, yeah, that's a very good perspective, Sam.",
+  "zh": "你是，是的，那是一个非常好的视角，Sam。"
+ },
+ {
+  "seg": 156,
+  "start": 1096.223,
+  "end": 1101.227,
+  "speaker": "Unknown",
+  "en": "So I will, again, the images with regard to this go really interesting.",
+  "zh": "所以我会，再次，关于这方面的图像真的很有趣。"
+ },
+ {
+  "seg": 157,
+  "start": 1102.845,
+  "end": 1103.788,
+  "speaker": "Unknown",
+  "en": "Never really thought of it.",
+  "zh": "从来没有真正想过这个问题。"
+ },
+ {
+  "seg": 158,
+  "start": 1103.808,
+  "end": 1107.739,
+  "speaker": "Unknown",
+  "en": "I don't know that maybe I've just never asked for an image with multiple",
+  "zh": "我不知道，也许我只是从来没有要求过一张带有多个..."
+ },
+ {
+  "seg": 159,
+  "start": 1108.607,
+  "end": 1125.933,
+  "speaker": "Unknown",
+  "en": "People, but there are some really good images where you have a prompt that, or several prompts where you're asking a variety of different models, GPT, NanoBanana, Phlox, Hydream, a bunch of them to generate multiple people.",
+  "zh": "人，但是有一些非常好的图像，你有一个提示词，或者几个提示词，你在那里要求各种不同的模型，GPT、NanoBanana、Phlox、Hydream，它们中的一堆来生成多个人。"
+ },
+ {
+  "seg": 160,
+  "start": 1126.574,
+  "end": 1127.574,
+  "speaker": "Unknown",
+  "en": "And you're absolutely right.",
+  "zh": "而且你绝对是对的。"
+ },
+ {
+  "seg": 161,
+  "start": 1127.594,
+  "end": 1132.196,
+  "speaker": "Unknown",
+  "en": "You look at these images and it's like the same person cookie-cuttered across the entire group.",
+  "zh": "你看这些图像，就像同一个人在整个组中用饼干模切出来的一样。"
+ },
+ {
+  "seg": 162,
+  "start": 1133.576,
+  "end": 1137.418,
+  "speaker": "Unknown",
+  "en": "It's kind of surprising that the models do that.",
+  "zh": "模型那样做有点令人惊讶。"
+ },
+ {
+  "seg": 163,
+  "start": 1138.198,
+  "end": 1152.543,
+  "speaker": "Unknown",
+  "en": "When you talk about or when you think about evals beyond this idea like running across the different models, did anything in particular jump out at you in terms of evaluation for this model?",
+  "zh": "当你谈论或者当你考虑在这个想法之外的评估，比如在不同的模型上运行时，对于这个模型的评估有什么特别突出的东西吗？"
+ },
+ {
+  "seg": 164,
+  "start": 1153.042,
+  "end": 1153.862,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦，是的。"
+ },
+ {
+  "seg": 165,
+  "start": 1154.903,
+  "end": 1171.308,
+  "speaker": "Unknown",
+  "en": "For instance, for this group, we look into existing benchmarks and then we pull together a new benchmark to specifically help people facilitate further research here and also, you know, kind of provide some standardization.",
+  "zh": "例如，对于这个组，我们研究了现有的基准，然后我们汇聚了一个新的基准，以专门帮助人们在这里促进进一步的研究，并且，你知道，提供某种标准化。"
+ },
+ {
+  "seg": 166,
+  "start": 1171.528,
+  "end": 1173.348,
+  "speaker": "Unknown",
+  "en": "We call it as diverse humans.",
+  "zh": "我们称之为多样的人类。"
+ },
+ {
+  "seg": 167,
+  "start": 1173.428,
+  "end": 1181.231,
+  "speaker": "Unknown",
+  "en": "It's a part, it's also kind of available in the paper, the link for that dataset, that benchmark.",
+  "zh": "它是一部分，它也可以在论文中找到，那个数据集的链接，那个基准。"
+ },
+ {
+  "seg": 168,
+  "start": 1181.571,
+  "end": 1183.673,
+  "speaker": "Unknown",
+  "en": "You know, we invite everyone to take a look at it.",
+  "zh": "你知道，我们邀请大家去看看它。"
+ },
+ {
+  "seg": 169,
+  "start": 1184.254,
+  "end": 1194.665,
+  "speaker": "Unknown",
+  "en": "So we look at that, we created this benchmark and we evaluated this curve on that benchmark and also on the other benchmarks data sets.",
+  "zh": "所以我们看了那个，我们创建了这个基准，我们在那个基准上评估了这个曲线，也在其他基准数据集上评估了。"
+ },
+ {
+  "seg": 170,
+  "start": 1195.025,
+  "end": 1202.613,
+  "speaker": "Unknown",
+  "en": "We see that when you explicitly impose such objective, diversity objective,",
+  "zh": "我们看到，当你明确施加这样的目标，多样性目标时，"
+ },
+ {
+  "seg": 171,
+  "start": 1203.174,
+  "end": 1210.059,
+  "speaker": "Unknown",
+  "en": "The score, for instance, unique face accuracy detection score significantly improves.",
+  "zh": "分数，例如，独特的人脸准确度检测分数显著提高。"
+ },
+ {
+  "seg": 172,
+  "start": 1210.299,
+  "end": 1223.028,
+  "speaker": "Unknown",
+  "en": "This score is around 98, 99, but, you know, kind of like the models that, these models where we started, that doesn't have such explicit diversity objective.",
+  "zh": "这个分数大约是 98, 99，但是，你知道，有点像我们开始时的那些模型，这些模型没有这种明确的多样性目标。"
+ },
+ {
+  "seg": 173,
+  "start": 1224.409,
+  "end": 1225.01,
+  "speaker": "Unknown",
+  "en": "Very low.",
+  "zh": "非常低。"
+ },
+ {
+  "seg": 174,
+  "start": 1225.07,
+  "end": 1228.392,
+  "speaker": "Unknown",
+  "en": "There is maybe more than 10-20% gap.",
+  "zh": "也许有超过 10-20% 的差距。"
+ },
+ {
+  "seg": 175,
+  "start": 1228.572,
+  "end": 1242.002,
+  "speaker": "Unknown",
+  "en": "So kind of this code, the solution that we also talk about in the paper, sets the new SOTA for diversity in text-to-image generation.",
+  "zh": "所以有点像这段代码，我们在论文中也谈到的解决方案，在文本到图像生成的多样性方面设定了新的 SOTA。"
+ },
+ {
+  "seg": 176,
+  "start": 1242.362,
+  "end": 1252.69,
+  "speaker": "Unknown",
+  "en": "In addition to human preference score, which is very important, evaluating the quality of the output is also superior to the base model.",
+  "zh": "除了人类偏好分数，这很重要，评估输出的质量也优于基础模型。"
+ },
+ {
+  "seg": 177,
+  "start": 1254.231,
+  "end": 1261.021,
+  "speaker": "Unknown",
+  "en": "And it's interesting how you built the reward function.",
+  "zh": "你构建奖励函数的方式很有趣。"
+ },
+ {
+  "seg": 178,
+  "start": 1261.162,
+  "end": 1265.708,
+  "speaker": "Unknown",
+  "en": "And I'm imagining that you would do a similar thing from an eval perspective.",
+  "zh": "我想象你会从评估的角度做类似的事情。"
+ },
+ {
+  "seg": 179,
+  "start": 1268.567,
+  "end": 1272.872,
+  "speaker": "Unknown",
+  "en": "One of the components of the reward is what you call intra-image diversity.",
+  "zh": "奖励的一个组件是你所谓的图像内多样性。"
+ },
+ {
+  "seg": 180,
+  "start": 1273.393,
+  "end": 1277.918,
+  "speaker": "Unknown",
+  "en": "And that is, you know, looking at one image, are the faces the same or are they different?",
+  "zh": "也就是，你知道，看一张图像，面孔是相同的还是不同的？"
+ },
+ {
+  "seg": 181,
+  "start": 1278.519,
+  "end": 1287.629,
+  "speaker": "Unknown",
+  "en": "And essentially you take your image, you apply a face detector that kind of identifies where the faces are with bounding boxes, and then you kind of extract those faces.",
+  "zh": "基本上你拿你的图像，你应用一个人脸检测器，它用边界框识别面孔在哪里，然后你提取那些面孔。"
+ },
+ {
+  "seg": 182,
+  "start": 1288.19,
+  "end": 1304.664,
+  "speaker": "Unknown",
+  "en": "And then you embed them and then you can just do similarity across pairwise similarity across the faces and kind of get the distance from face to one face to the next to determine if they're, you know, all the same faces or essentially to get a measure of the diversity of the faces.",
+  "zh": "然后你嵌入它们，然后你可以只做相似度，跨越面孔的成对相似度，并得到从一个面孔到下一个面孔的距离，以确定它们，你知道，都是相同的面孔或者本质上是获得面孔多样性的度量。"
+ },
+ {
+  "seg": 183,
+  "start": 1305.084,
+  "end": 1330.26,
+  "speaker": "Unknown",
+  "en": "exactly yeah we talk about that in the paper um kind of even there is a nice flow diagram i mean i invite everyone to take a look at it as you said there is a face detector applied and this is off the shop you know kind of uh and then we take these detected um arc architecture archive faces we embed them into some you know kind of a space canonical space",
+  "zh": "没错是的我们在论文中谈到了那个嗯甚至有一个很好的流程图我的意思是我邀请大家去看看它正如你说的应用了一个人脸检测器这是离开商店你知道那种嗯然后我们取这些检测到的um arc 架构 存档 面孔我们将它们嵌入到某个你知道一种空间 规范空间"
+ },
+ {
+  "seg": 184,
+  "start": 1330.8,
+  "end": 1332.181,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "谢谢观看。"
+ },
+ {
+  "seg": 185,
+  "start": 1348.628,
+  "end": 1354.869,
+  "speaker": "Unknown",
+  "en": "Let's say I generated one image and I have another image with the same prompt.",
+  "zh": "假设我生成了一张图像，我有另一张带有相同提示词的图像。"
+ },
+ {
+  "seg": 186,
+  "start": 1354.909,
+  "end": 1360.231,
+  "speaker": "Unknown",
+  "en": "I have another image with the same prompt, but the initializations are different seed points.",
+  "zh": "我有另一张带有相同提示词的图像，但是初始化是不同的种子点。"
+ },
+ {
+  "seg": 187,
+  "start": 1360.251,
+  "end": 1365.552,
+  "speaker": "Unknown",
+  "en": "So kind of the prompt is same, we run it, and then we end up with a different image.",
+  "zh": "所以提示词是一样的，我们运行它，然后我们最终得到一张不同的图像。"
+ },
+ {
+  "seg": 188,
+  "start": 1365.672,
+  "end": 1370.873,
+  "speaker": "Unknown",
+  "en": "So you were starting to talk about the next paper, R2CAN, and...",
+  "zh": "所以你开始谈论下一篇论文，R2CAN，以及..."
+ },
+ {
+  "seg": 189,
+  "start": 1371.613,
+  "end": 1377.838,
+  "speaker": "Unknown",
+  "en": "Essentially, how this model kind of breaks down the problem of text-to-image generation.",
+  "zh": "本质上，这个模型如何分解文本到图像生成的问题。"
+ },
+ {
+  "seg": 190,
+  "start": 1377.878,
+  "end": 1378.679,
+  "speaker": "Unknown",
+  "en": "Talk us through that.",
+  "zh": "给我们讲讲那个。"
+ },
+ {
+  "seg": 191,
+  "start": 1379.239,
+  "end": 1383.662,
+  "speaker": "Unknown",
+  "en": "So what motivated about that one, this goes great.",
+  "zh": "那么是什么激发了那一个，这很棒。"
+ },
+ {
+  "seg": 192,
+  "start": 1383.963,
+  "end": 1390.708,
+  "speaker": "Unknown",
+  "en": "We, as a pivotal example, we, of course, talk about this identity diversity.",
+  "zh": "我们，作为一个关键的例子，我们，当然，谈论这种身份多样性。"
+ },
+ {
+  "seg": 193,
+  "start": 1392.209,
+  "end": 1394.291,
+  "speaker": "Unknown",
+  "en": "But then in the other paper,",
+  "zh": "但在另一篇论文中，"
+ },
+ {
+  "seg": 194,
+  "start": 1394.911,
+  "end": 1403.742,
+  "speaker": "Unknown",
+  "en": "We are making the point that maybe it's too much for a model to try to do everything.",
+  "zh": "我们提出的观点是，对于一个模型来说，试图做所有事情可能太多了。"
+ },
+ {
+  "seg": 195,
+  "start": 1403.843,
+  "end": 1412.814,
+  "speaker": "Unknown",
+  "en": "Going back to, you know, agentic flow again, maybe it's easier to approach some of these JetFi challenges like a human being.",
+  "zh": "回到，你知道，智能体流程，也许像人类一样处理其中一些 JetFi 挑战会更容易。"
+ },
+ {
+  "seg": 196,
+  "start": 1413.655,
+  "end": 1440.654,
+  "speaker": "Unknown",
+  "en": "we do not like try to solve everything ourselves well not just ourselves but even like even in this domain you know art like you an artist approaching this problem wouldn't necessarily think about a pixel by pixel they think about like if you know what's the subject what's the background and there's the planning right yeah there's a planning aspect to it yeah yeah in this paper we",
+  "zh": "我们不喜欢尝试自己解决所有问题嗯不仅仅是我们自己甚至甚至在这个领域你知道艺术像你一个艺术家处理这个问题不一定逐像素思考他们思考像如果你知道什么是主体什么是背景然后有规划对对有规划方面对对在这篇论文中我们"
+ },
+ {
+  "seg": 197,
+  "start": 1442.235,
+  "end": 1442.815,
+  "speaker": "Unknown",
+  "en": "Build on it.",
+  "zh": "在此基础上构建。"
+ },
+ {
+  "seg": 198,
+  "start": 1442.975,
+  "end": 1444.076,
+  "speaker": "Unknown",
+  "en": "Build on that idea.",
+  "zh": "在那个想法的基础上构建。"
+ },
+ {
+  "seg": 199,
+  "start": 1444.176,
+  "end": 1453.339,
+  "speaker": "Unknown",
+  "en": "Instead of asking model to do everything, we separate planning from rendering, similar to how a human artist would work.",
+  "zh": "与其要求模型做所有事情，我们将规划与渲染分开，类似于人类艺术家的工作方式。"
+ },
+ {
+  "seg": 200,
+  "start": 1453.58,
+  "end": 1455.34,
+  "speaker": "Unknown",
+  "en": "So we have two components there.",
+  "zh": "所以我们在那里有两个组件。"
+ },
+ {
+  "seg": 201,
+  "start": 1455.42,
+  "end": 1456.341,
+  "speaker": "Unknown",
+  "en": "Architect, which is",
+  "zh": "架构师，它是"
+ },
+ {
+  "seg": 202,
+  "start": 1457.541,
+  "end": 1463.907,
+  "speaker": "Unknown",
+  "en": "It doesn't generate pixels, but instead it creates the structure or composition for the scene.",
+  "zh": "它不生成像素，而是为场景创建结构或构图。"
+ },
+ {
+  "seg": 203,
+  "start": 1464.368,
+  "end": 1470.574,
+  "speaker": "Unknown",
+  "en": "Then config decides where, for instance, if there is a person is going to be in this image, where it should appear.",
+  "zh": "然后 config 决定哪里，例如，如果图像中会有一个人，它应该出现在哪里。"
+ },
+ {
+  "seg": 204,
+  "start": 1470.754,
+  "end": 1474.057,
+  "speaker": "Unknown",
+  "en": "And if there are multiple people, how they should be arranged.",
+  "zh": "如果有多个人的话，他们应该如何排列。"
+ },
+ {
+  "seg": 205,
+  "start": 1474.277,
+  "end": 1476.519,
+  "speaker": "Unknown",
+  "en": "It should look natural and realistic.",
+  "zh": "它应该看起来自然且逼真。"
+ },
+ {
+  "seg": 206,
+  "start": 1477.62,
+  "end": 1491.335,
+  "speaker": "Unknown",
+  "en": "Artist starts with that composition structure and generates the final photorealistic image while of course one objective also preserve identities if you provide identity.",
+  "zh": "艺术家以那个构图结构为起点，生成最终的逼真图像，当然，一个目标也是如果你提供身份的话，要保留身份。"
+ },
+ {
+  "seg": 207,
+  "start": 1491.695,
+  "end": 1498.543,
+  "speaker": "Unknown",
+  "en": "So yeah, this is like planning an architect than an artist type of framework.",
+  "zh": "所以是的，这就像是一个规划架构师而不是艺术家类型的框架。"
+ },
+ {
+  "seg": 208,
+  "start": 1499.263,
+  "end": 1503.828,
+  "speaker": "Unknown",
+  "en": "The underlying technical approach is also using RL just like Disco.",
+  "zh": "底层的技术方法也是使用 RL，就像 Disco 一样。"
+ },
+ {
+  "seg": 209,
+  "start": 1503.888,
+  "end": 1508.252,
+  "speaker": "Unknown",
+  "en": "It's also GRPO-based approach.",
+  "zh": "这也是一种基于 GRPO 的方法。"
+ },
+ {
+  "seg": 210,
+  "start": 1508.733,
+  "end": 1509.634,
+  "speaker": "Unknown",
+  "en": "You are right.",
+  "zh": "你是对的。"
+ },
+ {
+  "seg": 211,
+  "start": 1510.535,
+  "end": 1518.803,
+  "speaker": "Unknown",
+  "en": "We also have this reward function leveraging on different objectives that we want to optimize.",
+  "zh": "我们也有这个奖励函数，利用我们想要优化的不同目标。"
+ },
+ {
+  "seg": 212,
+  "start": 1519.424,
+  "end": 1527.571,
+  "speaker": "Unknown",
+  "en": "In this school, we had intra-image and intra-group, like inter-image at human perception score and count accuracy.",
+  "zh": "在这个学派里，我们有图像内和组内，比如在人类感知得分和计数准确性方面的图像间。"
+ },
+ {
+  "seg": 213,
+  "start": 1527.952,
+  "end": 1532.556,
+  "speaker": "Unknown",
+  "en": "Here in R2CAN, we also have, well, we have the composition.",
+  "zh": "在这里的 R2CAN 中，我们也有，嗯，我们有构图。"
+ },
+ {
+  "seg": 214,
+  "start": 1532.896,
+  "end": 1537.801,
+  "speaker": "Unknown",
+  "en": "Can we put the right face into right place in the composition type of...",
+  "zh": "我们能否把正确的脸放到构图类型的正确位置……"
+ },
+ {
+  "seg": 215,
+  "start": 1538.341,
+  "end": 1547.284,
+  "speaker": "Unknown",
+  "en": "Objective, which is a part of the reward function for GRPO, and also pause of the phase because now we are composing.",
+  "zh": "目标，这是 GRPO 奖励函数的一部分，也是阶段的暂停，因为现在我们正在构图。"
+ },
+ {
+  "seg": 216,
+  "start": 1547.304,
+  "end": 1549.824,
+  "speaker": "Unknown",
+  "en": "I mean, we don't want people to look this way.",
+  "zh": "我的意思是，我们不希望人们看起来朝这个方向。"
+ },
+ {
+  "seg": 217,
+  "start": 1549.844,
+  "end": 1551.185,
+  "speaker": "Unknown",
+  "en": "The other people look the other way.",
+  "zh": "其他人看起来朝另一个方向。"
+ },
+ {
+  "seg": 218,
+  "start": 1551.505,
+  "end": 1557.046,
+  "speaker": "Unknown",
+  "en": "If, let's say, we are taking a group picture, we could, you know, kind of, we could say that.",
+  "zh": "如果，比如说，我们在拍一张集体照，我们可以，你知道，有点，我们可以那样说。"
+ },
+ {
+  "seg": 219,
+  "start": 1557.347,
+  "end": 1565.269,
+  "speaker": "Unknown",
+  "en": "So kind of those type of things are all combined into the reward function goes into reinforcement learning.",
+  "zh": "所以那种类型的东西都被组合进奖励函数，进入强化学习。"
+ },
+ {
+  "seg": 220,
+  "start": 1566.41,
+  "end": 1569.977,
+  "speaker": "Unknown",
+  "en": "And then we kind of like optimize that one.",
+  "zh": "然后我们有点像优化那一个。"
+ },
+ {
+  "seg": 221,
+  "start": 1570.237,
+  "end": 1575.085,
+  "speaker": "Unknown",
+  "en": "The model now learns how to pull all of it, optimize all of it at the same time.",
+  "zh": "模型现在学习如何把所有这些拉通，同时优化所有这些。"
+ },
+ {
+  "seg": 222,
+  "start": 1577.832,
+  "end": 1581.994,
+  "speaker": "Unknown",
+  "en": "To make sure I understand this, you have a prompt.",
+  "zh": "为了确保我理解这个，你有一个提示词。"
+ },
+ {
+  "seg": 223,
+  "start": 1582.255,
+  "end": 1587.097,
+  "speaker": "Unknown",
+  "en": "The one in the example I'm looking at is three best friends riding unicorns on Mars.",
+  "zh": "我正在看的例子中的这个是三个最好的朋友在火星上骑独角兽。"
+ },
+ {
+  "seg": 224,
+  "start": 1587.778,
+  "end": 1590.759,
+  "speaker": "Unknown",
+  "en": "You pass that to the, what you call the architect.",
+  "zh": "你把它传给那个，你所谓的架构师。"
+ },
+ {
+  "seg": 225,
+  "start": 1591.34,
+  "end": 1600.345,
+  "speaker": "Unknown",
+  "en": "The architect says, okay, I want three faces and they're going to be here, here and here in this image and kind of plans out this canvas.",
+  "zh": "架构师说，好的，我想要三张脸，它们会在这里，这里和这里的图像中，并有点规划出这个画布。"
+ },
+ {
+  "seg": 226,
+  "start": 1601.345,
+  "end": 1611.474,
+  "speaker": "Unknown",
+  "en": "And then that essentially becomes a kind of grounding for your reinforcement learning loop.",
+  "zh": "然后那本质上成为了你的强化学习循环的一种基础。"
+ },
+ {
+  "seg": 227,
+  "start": 1612.355,
+  "end": 1620.501,
+  "speaker": "Unknown",
+  "en": "And so the images are all actually generated, but they're kind of optimized to ground to this canvas representation.",
+  "zh": "所以图像实际上都是生成的，但它们被优化以落地到这个画布表示。"
+ },
+ {
+  "seg": 228,
+  "start": 1620.742,
+  "end": 1621.923,
+  "speaker": "Unknown",
+  "en": "Is that the right way to think about it?",
+  "zh": "这是思考它的正确方式吗？"
+ },
+ {
+  "seg": 229,
+  "start": 1622.503,
+  "end": 1622.763,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 230,
+  "start": 1623.103,
+  "end": 1646.253,
+  "speaker": "Unknown",
+  "en": "So that model, that architect knows where to position such faces and artists rendering the base model that we started now fine-tuned to actually follow the guidance based on the locations coming from the centroid of those face areas.",
+  "zh": "所以那个模型，那个架构师知道在哪里定位那些脸，艺术家渲染那个我们现在开始微调的基础模型，以实际遵循来自那些面部区域重心的位置的指导。"
+ },
+ {
+  "seg": 231,
+  "start": 1646.453,
+  "end": 1648.894,
+  "speaker": "Unknown",
+  "en": "But there are two things to keep in mind.",
+  "zh": "但有两件事要记住。"
+ },
+ {
+  "seg": 232,
+  "start": 1649.574,
+  "end": 1651.296,
+  "speaker": "Unknown",
+  "en": "There is a training phase offline.",
+  "zh": "有一个离线的训练阶段。"
+ },
+ {
+  "seg": 233,
+  "start": 1651.836,
+  "end": 1657.481,
+  "speaker": "Unknown",
+  "en": "So this model, the architect and the artists are optimized to do better.",
+  "zh": "所以这个模型，架构师和艺术家被优化以做得更好。"
+ },
+ {
+  "seg": 234,
+  "start": 1657.981,
+  "end": 1670.552,
+  "speaker": "Unknown",
+  "en": "But in inference time, you know, first we take the prompt and if you want, for instance, a special person identity to be in that image composition, we provide those images.",
+  "zh": "但在推理时间，你知道，首先我们获取提示词，如果你想要，例如，一个特殊人的身份在那个图像构图中，我们提供那些图像。"
+ },
+ {
+  "seg": 235,
+  "start": 1671.252,
+  "end": 1676.215,
+  "speaker": "Unknown",
+  "en": "And architect generates the locations of the faces.",
+  "zh": "架构师生成脸的位置。"
+ },
+ {
+  "seg": 236,
+  "start": 1676.656,
+  "end": 1678.657,
+  "speaker": "Unknown",
+  "en": "And there is no learning there.",
+  "zh": "那里没有学习。"
+ },
+ {
+  "seg": 237,
+  "start": 1678.937,
+  "end": 1681.859,
+  "speaker": "Unknown",
+  "en": "It just builds on what it learned before.",
+  "zh": "它只是建立在它之前学到的东西之上。"
+ },
+ {
+  "seg": 238,
+  "start": 1682.58,
+  "end": 1686.883,
+  "speaker": "Unknown",
+  "en": "And then the artist, the fine-tuned model,",
+  "zh": "然后艺术家，那个微调后的模型，"
+ },
+ {
+  "seg": 239,
+  "start": 1688.344,
+  "end": 1697.529,
+  "speaker": "Unknown",
+  "en": "And so that's an important distinction for sure.",
+  "zh": "所以这肯定是一个重要的区别。"
+ },
+ {
+  "seg": 240,
+  "start": 1698.089,
+  "end": 1711.057,
+  "speaker": "Unknown",
+  "en": "So the output of the architect is essentially three tuples, three XY points in the case of three best friends on Mars.",
+  "zh": "所以架构师的输出本质上是三个元组，三个 XY 点，在火星上三个最好的朋友的情况下。"
+ },
+ {
+  "seg": 241,
+  "start": 1711.097,
+  "end": 1712.378,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，正是。"
+ },
+ {
+  "seg": 242,
+  "start": 1712.518,
+  "end": 1723.607,
+  "speaker": "Unknown",
+  "en": "right and then that becomes input to the artist and then the artist just does a like a single pass inference",
+  "zh": "对，然后那成为艺术家的输入，然后艺术家只是做一个像单次推理的推理"
+ },
+ {
+  "seg": 243,
+  "start": 1725.167,
+  "end": 1728.13,
+  "speaker": "Unknown",
+  "en": "Or, well, I guess it's a diffusion model, so it's iterative.",
+  "zh": "或者，好吧，我猜它是一个扩散模型，所以它是迭代的。"
+ },
+ {
+  "seg": 244,
+  "start": 1728.21,
+  "end": 1730.551,
+  "speaker": "Unknown",
+  "en": "It's going to iterate internally, but you are right.",
+  "zh": "它会在内部迭代，但你是对的。"
+ },
+ {
+  "seg": 245,
+  "start": 1730.632,
+  "end": 1736.957,
+  "speaker": "Unknown",
+  "en": "It is, you know, like single page in the sense that, yes, it's not going to go call something else, you know, it's going to do this.",
+  "zh": "它是，你知道，就像单页的那种意思，是的，它不会去调别的东西，你知道，它要做这个。"
+ },
+ {
+  "seg": 246,
+  "start": 1736.977,
+  "end": 1738.478,
+  "speaker": "Unknown",
+  "en": "Yeah, it's interesting.",
+  "zh": "是的，这很有趣。"
+ },
+ {
+  "seg": 247,
+  "start": 1739.078,
+  "end": 1739.919,
+  "speaker": "Unknown",
+  "en": "Why is that interesting?",
+  "zh": "为什么那很有趣？"
+ },
+ {
+  "seg": 248,
+  "start": 1739.939,
+  "end": 1746.244,
+  "speaker": "Unknown",
+  "en": "I guess it's interesting that it works because the artist only gets, like, locations.",
+  "zh": "我猜有趣的是它居然能工作，因为艺术家只得到，像，位置。"
+ },
+ {
+  "seg": 249,
+  "start": 1746.324,
+  "end": 1747.085,
+  "speaker": "Unknown",
+  "en": "It doesn't get...",
+  "zh": "它没有得到……"
+ },
+ {
+  "seg": 250,
+  "start": 1750.096,
+  "end": 1753.358,
+  "speaker": "Unknown",
+  "en": "In the training phase, the artist gets actual faces, right?",
+  "zh": "在训练阶段，artist 得到真实的人脸，对吧？"
+ },
+ {
+  "seg": 251,
+  "start": 1753.438,
+  "end": 1758.362,
+  "speaker": "Unknown",
+  "en": "Not just centroids, or does it only get centroids in training also?",
+  "zh": "不只是质心，还是它在训练中也只得到质心？"
+ },
+ {
+  "seg": 252,
+  "start": 1758.702,
+  "end": 1766.387,
+  "speaker": "Unknown",
+  "en": "If we want to say that there's a special person, there are special tokens representing a kind of like special person.",
+  "zh": "如果我们要说有一个特殊的人，有一些特殊的 token 代表一种特殊的人。"
+ },
+ {
+  "seg": 253,
+  "start": 1766.467,
+  "end": 1771.491,
+  "speaker": "Unknown",
+  "en": "If it is given, then we need to provide in training phase those target faces.",
+  "zh": "如果它被给出了，那么我们需要在训练阶段提供那些目标人脸。"
+ },
+ {
+  "seg": 254,
+  "start": 1771.831,
+  "end": 1774.353,
+  "speaker": "Unknown",
+  "en": "But, you know, such faces can be generated",
+  "zh": "但是，你知道，这样的人脸可以被生成"
+ },
+ {
+  "seg": 255,
+  "start": 1774.793,
+  "end": 1777.536,
+  "speaker": "Unknown",
+  "en": "And that's what we did also by another model.",
+  "zh": "这也是我们通过另一个模型所做的。"
+ },
+ {
+  "seg": 256,
+  "start": 1777.576,
+  "end": 1780.059,
+  "speaker": "Unknown",
+  "en": "You know, these are not necessarily real faces.",
+  "zh": "你知道，这些不一定是真实的人脸。"
+ },
+ {
+  "seg": 257,
+  "start": 1780.079,
+  "end": 1784.144,
+  "speaker": "Unknown",
+  "en": "I mean, to automate the training process, the training is very efficient.",
+  "zh": "我的意思是，为了自动化训练过程，训练是非常高效的。"
+ },
+ {
+  "seg": 258,
+  "start": 1784.325,
+  "end": 1792.735,
+  "speaker": "Unknown",
+  "en": "So in training time, those faces are given, the prompt is given, and then target is generated, and then...",
+  "zh": "所以在训练时，那些人脸被给出，prompt 被给出，然后生成目标，然后……"
+ },
+ {
+  "seg": 259,
+  "start": 1793.495,
+  "end": 1813.49,
+  "speaker": "Unknown",
+  "en": "We evaluate whether the identity of the generated faces matches with the initial identity in addition to other objectives like count, accuracy, and pause because pause could be a part of the prompt and also quality.",
+  "zh": "我们评估生成人脸的身份是否与初始身份匹配，除了其他目标如数量、准确性，以及 pause，因为 pause 可能是 prompt 的一部分，还有质量。"
+ },
+ {
+  "seg": 260,
+  "start": 1813.59,
+  "end": 1815.192,
+  "speaker": "Unknown",
+  "en": "So in training, we are...",
+  "zh": "所以在训练中，我们正在……"
+ },
+ {
+  "seg": 261,
+  "start": 1815.672,
+  "end": 1823.714,
+  "speaker": "Unknown",
+  "en": "Evaluating all of them, pulling them into this reward function, and then reward function through GRPO is optimized.",
+  "zh": "评估所有这些，将它们拉入这个奖励函数，然后奖励函数通过 GRPO 被优化。"
+ },
+ {
+  "seg": 262,
+  "start": 1824.294,
+  "end": 1836.538,
+  "speaker": "Unknown",
+  "en": "And once this is optimized, now the artist knows how to generate better, render better images given these input centroids.",
+  "zh": "一旦这个被优化，现在 artist 知道如何生成更好的、在这些输入质心的条件下渲染更好的图像。"
+ },
+ {
+  "seg": 263,
+  "start": 1837.618,
+  "end": 1842.62,
+  "speaker": "Unknown",
+  "en": "Architect already ran and provided those locations.",
+  "zh": "Architect 已经运行并提供了那些位置。"
+ },
+ {
+  "seg": 264,
+  "start": 1842.64,
+  "end": 1852.345,
+  "speaker": "Unknown",
+  "en": "And for this one, in evaluation, you have a bunch of prompts and then a bunch of faces that go along with those prompts.",
+  "zh": "对于这一个，在评估中，有一堆 prompt，然后有一堆伴随那些 prompt 的人脸。"
+ },
+ {
+  "seg": 265,
+  "start": 1853.346,
+  "end": 1856.607,
+  "speaker": "Unknown",
+  "en": "And you're evaluating several things in the images.",
+  "zh": "你正在评估图像中的"
+ },
+ {
+  "seg": 266,
+  "start": 1856.907,
+  "end": 1863.17,
+  "speaker": "Unknown",
+  "en": "One are the identities of the provided faces retained in the output image.",
+  "zh": "其中之一是提供的人脸的身份是否保留在输出图像中。"
+ },
+ {
+  "seg": 267,
+  "start": 1863.75,
+  "end": 1865.851,
+  "speaker": "Unknown",
+  "en": "And also is whatever the descriptive",
+  "zh": "而且还有任何描述性的"
+ },
+ {
+  "seg": 268,
+  "start": 1867.392,
+  "end": 1874.659,
+  "speaker": "Unknown",
+  "en": "We have to do all of it, right?",
+  "zh": "我们必须做完这一切，对吧？"
+ },
+ {
+  "seg": 269,
+  "start": 1875.019,
+  "end": 1881.545,
+  "speaker": "Unknown",
+  "en": "We want to make sure that we are still aligned with the input prompt.",
+  "zh": "我们想确保我们要仍然与输入提示词保持一致。"
+ },
+ {
+  "seg": 270,
+  "start": 1881.645,
+  "end": 1889.453,
+  "speaker": "Unknown",
+  "en": "For instance, if you say three best friends riding unicorns on Mars, like the example in the paper, still we see three people.",
+  "zh": "例如，如果你说三个最好的朋友在火星上骑独角兽，就像论文中的例子，仍然我们要看到三个人。"
+ },
+ {
+  "seg": 271,
+  "start": 1890.093,
+  "end": 1894.275,
+  "speaker": "Unknown",
+  "en": "And there are unicorns, you know, kind of, and it's like the same as like Mars.",
+  "zh": "而且有独角兽，你知道，有点，而且它看起来像和火星一样。"
+ },
+ {
+  "seg": 272,
+  "start": 1894.955,
+  "end": 1898.316,
+  "speaker": "Unknown",
+  "en": "So that is alignment to the input prompts.",
+  "zh": "所以这就是与输入提示词的一致性。"
+ },
+ {
+  "seg": 273,
+  "start": 1898.376,
+  "end": 1900.017,
+  "speaker": "Unknown",
+  "en": "We still impose that.",
+  "zh": "我们仍然强加这一点。"
+ },
+ {
+  "seg": 274,
+  "start": 1900.097,
+  "end": 1903.558,
+  "speaker": "Unknown",
+  "en": "We also want to make sure that the generated image is high quality.",
+  "zh": "我们还想确保生成的图像是高质量的。"
+ },
+ {
+  "seg": 275,
+  "start": 1903.578,
+  "end": 1905.359,
+  "speaker": "Unknown",
+  "en": "This is human perception score.",
+  "zh": "这是人类感知评分。"
+ },
+ {
+  "seg": 276,
+  "start": 1905.819,
+  "end": 1908.32,
+  "speaker": "Unknown",
+  "en": "And there are three people, not like two friends.",
+  "zh": "而且有三个人，不像两个朋友。"
+ },
+ {
+  "seg": 277,
+  "start": 1909.72,
+  "end": 1927.132,
+  "speaker": "Unknown",
+  "en": "And also, okay, I mentioned three friends, but specific friends, not like random people, like not like two people driving unicorns, but three, you know, kind of Sam, me, you know, another person, kind of like, so we actually provide some examples of our faces.",
+  "zh": "还有，好的，我提到了三个朋友，但是是特定的朋友，不像随机的人，不像两个人在驾驶独角兽，而是三个，你知道，有点像 Sam，我，你知道，另一个人，有点像，所以我们实际上提供了一些我们人脸的例子。"
+ },
+ {
+  "seg": 278,
+  "start": 1927.533,
+  "end": 1928.814,
+  "speaker": "Unknown",
+  "en": "So we also want...",
+  "zh": "所以我们也想要..."
+ },
+ {
+  "seg": 279,
+  "start": 1930.115,
+  "end": 1934.241,
+  "speaker": "Unknown",
+  "en": "Our pictures to be also our faces to be in the generated picture.",
+  "zh": "我们的照片也是我们要让我们的人脸在生成的图片里。"
+ },
+ {
+  "seg": 280,
+  "start": 1934.501,
+  "end": 1937.646,
+  "speaker": "Unknown",
+  "en": "So that's the identity, face matching, all the objective.",
+  "zh": "所以那就是身份，人脸匹配，所有的目标。"
+ },
+ {
+  "seg": 281,
+  "start": 1937.987,
+  "end": 1944.296,
+  "speaker": "Unknown",
+  "en": "And also another one, we want them to maybe look at the camera if there's a group picture.",
+  "zh": "还有另一个，我们想要他们也许看着相机如果是集体照的话。"
+ },
+ {
+  "seg": 282,
+  "start": 1944.456,
+  "end": 1950.321,
+  "speaker": "Unknown",
+  "en": "I mean, this is again one example of how to improve the image generation.",
+  "zh": "我的意思是，这又是如何改进图像生成的一个例子。"
+ },
+ {
+  "seg": 283,
+  "start": 1950.401,
+  "end": 1957.987,
+  "speaker": "Unknown",
+  "en": "It doesn't mean that this is the only solution or, you know, kind of like Qualcomm is showcasing what is possible.",
+  "zh": "并不意味着这是唯一的解决方案或者，你知道，有点像 Qualcomm 在展示什么是可能的。"
+ },
+ {
+  "seg": 284,
+  "start": 1958.647,
+  "end": 1971.097,
+  "speaker": "Unknown",
+  "en": "Is the identity retention like a big part of the kind of the value of this approach or do you see it as a valuable approach independent of identity retention?",
+  "zh": "身份保留是这种方法价值的一大部分，还是你把它看作一种独立于身份保留的有价值的方法？"
+ },
+ {
+  "seg": 285,
+  "start": 1971.297,
+  "end": 1972.097,
+  "speaker": "Unknown",
+  "en": "Oh, absolutely.",
+  "zh": "哦，绝对的。"
+ },
+ {
+  "seg": 286,
+  "start": 1973.138,
+  "end": 1983.342,
+  "speaker": "Unknown",
+  "en": "Again, the composition itself would look much more natural because we ask architect to tell us about the structure of the image.",
+  "zh": "同样，构图本身看起来会自然得多，因为我们问架构师告诉我们关于图像的结构。"
+ },
+ {
+  "seg": 287,
+  "start": 1983.742,
+  "end": 1984.342,
+  "speaker": "Unknown",
+  "en": "Definitely.",
+  "zh": "肯定地。"
+ },
+ {
+  "seg": 288,
+  "start": 1984.622,
+  "end": 1986.083,
+  "speaker": "Unknown",
+  "en": "But, you know, kind of...",
+  "zh": "但是，你知道，有点..."
+ },
+ {
+  "seg": 289,
+  "start": 1986.503,
+  "end": 2013.182,
+  "speaker": "Unknown",
+  "en": "like i said before the message is bigger message is hey community everyone working on image generation text image generation models look what you can also accomplish if you really think smartly about the objective function like the disco paper and also simplify the task like r2cam paper not trying to do everything at once like i'm gonna generate the composition and the render but",
+  "zh": "就像我之前说的，信息是更大的信息是嘿社区每个人都在做图像生成文本图像生成模型看看如果你真正聪明地思考目标函数还能完成什么就像 disco 论文那样并且也简化任务就像 r2cam 论文那样不试图一次做所有事情就像我要生成构图和渲染但是"
+ },
+ {
+  "seg": 290,
+  "start": 2013.582,
+  "end": 2017.886,
+  "speaker": "Unknown",
+  "en": "Dwight those processes into more manageable parts.",
+  "zh": "Dwight 那些过程变成更易管理的部分。"
+ },
+ {
+  "seg": 291,
+  "start": 2018.006,
+  "end": 2024.652,
+  "speaker": "Unknown",
+  "en": "So we've got a couple of papers as well focused on more of this kind of quality bucket.",
+  "zh": "所以我们也有几篇论文专注于更多这种质量桶。"
+ },
+ {
+  "seg": 292,
+  "start": 2025.933,
+  "end": 2030.217,
+  "speaker": "Unknown",
+  "en": "Disco and R2CAN also are both controllability and quality, but",
+  "zh": "Disco 和 R2CAN 也都既是可控性也是质量，但是"
+ },
+ {
+  "seg": 293,
+  "start": 2031.658,
+  "end": 2037.525,
+  "speaker": "Unknown",
+  "en": "The next couple we've got here are Pixelrush and Inverfill that are really squarely focused on output quality.",
+  "zh": "接下来的几个我们这里有 Pixelrush 和 Inverfill 它们真正完全专注于输出质量。"
+ },
+ {
+  "seg": 294,
+  "start": 2037.545,
+  "end": 2039.267,
+  "speaker": "Unknown",
+  "en": "Talk a little bit about what these two are doing.",
+  "zh": "谈一点关于这两个在做什么。"
+ },
+ {
+  "seg": 295,
+  "start": 2039.507,
+  "end": 2040.008,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 296,
+  "start": 2040.368,
+  "end": 2048.878,
+  "speaker": "Unknown",
+  "en": "The first two papers, like you said, were about making image generation more controllable and incorporating different objectives.",
+  "zh": "前两篇论文，就像你说的，是关于使图像生成更可控并整合不同的目标。"
+ },
+ {
+  "seg": 297,
+  "start": 2049.158,
+  "end": 2053.54,
+  "speaker": "Unknown",
+  "en": "And making it easy for model to do the things that we expect it to do.",
+  "zh": "并且让模型做我们期望它做的事情变得容易。"
+ },
+ {
+  "seg": 298,
+  "start": 2053.76,
+  "end": 2062.343,
+  "speaker": "Unknown",
+  "en": "The papers you mentioned, the PixelRush and InvertFill, shift gears into a different objective now.",
+  "zh": "你提到的论文，PixelRush 和 InvertFill，现在转向不同的目标。"
+ },
+ {
+  "seg": 299,
+  "start": 2062.743,
+  "end": 2076.408,
+  "speaker": "Unknown",
+  "en": "We ask how to generate images much more efficiently than even what we did before, because Qualcomm proposed and presented many papers at the previous CVPRs, how to run such models much more efficiently on",
+  "zh": "我们问如何比我们以前做的更有效地生成图像，因为 Qualcomm 在之前的 CVPR 中提出并展示了许多论文，关于如何更有效地运行这样的模型在"
+ },
+ {
+  "seg": 300,
+  "start": 2077.188,
+  "end": 2082.953,
+  "speaker": "Unknown",
+  "en": "But now we are saying that can we even push it to the next level?",
+  "zh": "但现在我们在说，我们能不能把它推到下一个层级？"
+ },
+ {
+  "seg": 301,
+  "start": 2083.053,
+  "end": 2088.978,
+  "speaker": "Unknown",
+  "en": "Because before we have been talking about, let's say, 1K resolution and that's the current SOTA.",
+  "zh": "因为之前我们一直在讨论，比如说，1K 分辨率，而那是目前的 SOTA。"
+ },
+ {
+  "seg": 302,
+  "start": 2089.459,
+  "end": 2092.821,
+  "speaker": "Unknown",
+  "en": "Even the cloud models are kind of limited to that resolution.",
+  "zh": "即使是云端模型也某种程度上受限于那个分辨率。"
+ },
+ {
+  "seg": 303,
+  "start": 2093.002,
+  "end": 2102.289,
+  "speaker": "Unknown",
+  "en": "But the question is now, can we do like four megapixel image generation, 16 megapixel image generation?",
+  "zh": "但现在的问题是，我们能不能做像四百万像素的图像生成，一千六百万像素的图像生成？"
+ },
+ {
+  "seg": 304,
+  "start": 2103.773,
+  "end": 2109.056,
+  "speaker": "Unknown",
+  "en": "The challenge is not only how fast you can run the model.",
+  "zh": "挑战不仅仅在于你能多快地运行这个模型。"
+ },
+ {
+  "seg": 305,
+  "start": 2109.916,
+  "end": 2114.979,
+  "speaker": "Unknown",
+  "en": "By the way, such models, existing solutions, may take anywhere from 50 seconds to minutes.",
+  "zh": "顺便说一下，这样的模型，现有的解决方案，可能需要从 50 秒到几分钟不等的时间。"
+ },
+ {
+  "seg": 306,
+  "start": 2114.999,
+  "end": 2117.78,
+  "speaker": "Unknown",
+  "en": "They are not that fast.",
+  "zh": "它们没有那么快。"
+ },
+ {
+  "seg": 307,
+  "start": 2125.764,
+  "end": 2139.536,
+  "speaker": "Unknown",
+  "en": "But there is a memory challenge also because when the image resolution gets larger, we need to retain the steady fusion process, the latent features in the memory somewhere on the device.",
+  "zh": "但这里也有一个内存挑战，因为当图像分辨率变大时，我们需要在设备上的某处内存中保留稳态融合过程，以及那些潜在特征。"
+ },
+ {
+  "seg": 308,
+  "start": 2139.556,
+  "end": 2143.8,
+  "speaker": "Unknown",
+  "en": "So that requires big footprints.",
+  "zh": "所以这需要很大的占用空间。"
+ },
+ {
+  "seg": 309,
+  "start": 2144.04,
+  "end": 2147.223,
+  "speaker": "Unknown",
+  "en": "So how can we run a model",
+  "zh": "那么我们该如何运行一个模型"
+ },
+ {
+  "seg": 310,
+  "start": 2148.453,
+  "end": 2152.398,
+  "speaker": "Unknown",
+  "en": "Such that we generate a extremely large image, high resolution image.",
+  "zh": "使得我们生成一张极大的图像，高分辨率的图像。"
+ },
+ {
+  "seg": 311,
+  "start": 2152.598,
+  "end": 2162.01,
+  "speaker": "Unknown",
+  "en": "And of course, the quality has to be also still, you know, real high resolution, not just, you know, kind of like high resolution upsampled image, but real details.",
+  "zh": "当然，质量也必须是，你知道，真正的高分辨率，不仅仅是，你知道，那种上采样的高分辨率图像，而是真实的细节。"
+ },
+ {
+  "seg": 312,
+  "start": 2162.15,
+  "end": 2163.271,
+  "speaker": "Unknown",
+  "en": "A lot of details are there.",
+  "zh": "那里有很多细节。"
+ },
+ {
+  "seg": 313,
+  "start": 2164.673,
+  "end": 2166.434,
+  "speaker": "Unknown",
+  "en": "It will run at a reasonable time.",
+  "zh": "它会在合理的时间内运行。"
+ },
+ {
+  "seg": 314,
+  "start": 2166.574,
+  "end": 2175.817,
+  "speaker": "Unknown",
+  "en": "You don't need to wait like 10 minutes, which is the current, you know, kind of, I mean, except our solution, the time such model states requires.",
+  "zh": "你不需要像等 10 分钟那样，这是目前，你知道，某种程度上，我是说，除了我们的解决方案之外，这种模型陈述所需的时间。"
+ },
+ {
+  "seg": 315,
+  "start": 2176.177,
+  "end": 2183.179,
+  "speaker": "Unknown",
+  "en": "And it will run on, let's say, a memory available on a handheld device, like a smartphone.",
+  "zh": "并且它会运行在，比如说，手持设备上可用的内存上，像智能手机。"
+ },
+ {
+  "seg": 316,
+  "start": 2183.459,
+  "end": 2188.781,
+  "speaker": "Unknown",
+  "en": "Yeah, that was our objective for the, let's say, pixel rush.",
+  "zh": "是的，那是我们的目标，对于，比如说，Pixel Rush。"
+ },
+ {
+  "seg": 317,
+  "start": 2190.418,
+  "end": 2195.042,
+  "speaker": "Unknown",
+  "en": "And also we didn't want to change really the existing models significantly.",
+  "zh": "而且我们也不想真的显著改变现有的模型。"
+ },
+ {
+  "seg": 318,
+  "start": 2195.342,
+  "end": 2197.985,
+  "speaker": "Unknown",
+  "en": "So that is something to note.",
+  "zh": "所以这是需要注意的一点。"
+ },
+ {
+  "seg": 319,
+  "start": 2198.585,
+  "end": 2205.111,
+  "speaker": "Unknown",
+  "en": "There are wonderful image generation models and some of them by many big companies.",
+  "zh": "有很棒的图像生成模型，其中一些来自许多大公司。"
+ },
+ {
+  "seg": 320,
+  "start": 2206.332,
+  "end": 2208.894,
+  "speaker": "Unknown",
+  "en": "We all know those models.",
+  "zh": "我们都知道那些模型。"
+ },
+ {
+  "seg": 321,
+  "start": 2209.955,
+  "end": 2210.555,
+  "speaker": "Unknown",
+  "en": "We didn't want...",
+  "zh": "我们不想要..."
+ },
+ {
+  "seg": 322,
+  "start": 2211.316,
+  "end": 2216.398,
+  "speaker": "Unknown",
+  "en": "People to go and have to fine tune those models.",
+  "zh": "人们去不得不微调那些模型。"
+ },
+ {
+  "seg": 323,
+  "start": 2217.238,
+  "end": 2226.161,
+  "speaker": "Unknown",
+  "en": "But we are saying that, hey, you can still use any of those models that you have and then follow our pipeline we discussed in the paper.",
+  "zh": "但我们要说的是，嘿，你仍然可以使用你拥有的任何那些模型，然后遵循我们在论文中讨论的流程。"
+ },
+ {
+  "seg": 324,
+  "start": 2226.701,
+  "end": 2233.764,
+  "speaker": "Unknown",
+  "en": "So you can use that model, still generate, let's say, four times, 16 times more pixels.",
+  "zh": "所以你可以使用那个模型，仍然生成，比如说，四倍、16 倍更多的像素。"
+ },
+ {
+  "seg": 325,
+  "start": 2234.404,
+  "end": 2237.825,
+  "speaker": "Unknown",
+  "en": "And so talk a little bit about the generation process.",
+  "zh": "所以稍微谈谈生成过程。"
+ },
+ {
+  "seg": 326,
+  "start": 2237.865,
+  "end": 2240.746,
+  "speaker": "Unknown",
+  "en": "Like what's different about the way you've approached this?",
+  "zh": "就像你们处理这个问题的方式有什么不同？"
+ },
+ {
+  "seg": 327,
+  "start": 2241.456,
+  "end": 2242.276,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 328,
+  "start": 2242.477,
+  "end": 2248.2,
+  "speaker": "Unknown",
+  "en": "So it again starts with a prompt and there is this base generation like any model.",
+  "zh": "所以它再次以一个提示词开始，并且有像任何模型一样的基础生成。"
+ },
+ {
+  "seg": 329,
+  "start": 2248.28,
+  "end": 2249.901,
+  "speaker": "Unknown",
+  "en": "It could be like a flux model.",
+  "zh": "它可能像是一个 flux 模型。"
+ },
+ {
+  "seg": 330,
+  "start": 2250.341,
+  "end": 2253.223,
+  "speaker": "Unknown",
+  "en": "And then it generates, let's say, a base image.",
+  "zh": "然后它生成，比如说，一张基础图像。"
+ },
+ {
+  "seg": 331,
+  "start": 2253.343,
+  "end": 2254.203,
+  "speaker": "Unknown",
+  "en": "What base image?",
+  "zh": "什么基础图像？"
+ },
+ {
+  "seg": 332,
+  "start": 2254.824,
+  "end": 2256.785,
+  "speaker": "Unknown",
+  "en": "What I mean by that, let's say 1K image.",
+  "zh": "我的意思是，比如说 1K 的图像。"
+ },
+ {
+  "seg": 333,
+  "start": 2257.245,
+  "end": 2261.367,
+  "speaker": "Unknown",
+  "en": "And then we have this cascade upsampling stage.",
+  "zh": "然后我们有这个级联上采样阶段。"
+ },
+ {
+  "seg": 334,
+  "start": 2261.588,
+  "end": 2265.37,
+  "speaker": "Unknown",
+  "en": "That is the part that is known about this paper.",
+  "zh": "那是这篇论文所知道的部分。"
+ },
+ {
+  "seg": 335,
+  "start": 2265.87,
+  "end": 2267.27,
+  "speaker": "Unknown",
+  "en": "That's why I say CVPR paper.",
+  "zh": "这就是为什么我说 CVPR 论文。"
+ },
+ {
+  "seg": 336,
+  "start": 2267.631,
+  "end": 2286.416,
+  "speaker": "Unknown",
+  "en": "This cascade upsample, what it takes, it takes this image, which is like RGB pixels, not latent space, and then it creates, for instance, using any image super resolution solution.",
+  "zh": "这个级联上采样，它接收什么，它接收这张图像，也就是像 RGB 像素，而不是潜在空间，然后它创建，比如说，使用任何图像超分辨率解决方案。"
+ },
+ {
+  "seg": 337,
+  "start": 2286.436,
+  "end": 2290.677,
+  "speaker": "Unknown",
+  "en": "It could be bicubic upsampling or it could be something smarter.",
+  "zh": "它可能是双三次上采样，也可能是某种更聪明的东西。"
+ },
+ {
+  "seg": 338,
+  "start": 2291.317,
+  "end": 2293.978,
+  "speaker": "Unknown",
+  "en": "It generates, let's say, higher resolution image.",
+  "zh": "它生成，比如说，更高分辨率的图像。"
+ },
+ {
+  "seg": 339,
+  "start": 2294.618,
+  "end": 2302.144,
+  "speaker": "Unknown",
+  "en": "So when we do that, okay, we have now, let's say, 16 megapixel in the image, not one megapixel.",
+  "zh": "所以当我们那样做时，好了，我们现在有，比如说，图像里有一千六百万像素，而不是一百万像素。"
+ },
+ {
+  "seg": 340,
+  "start": 2302.164,
+  "end": 2303.545,
+  "speaker": "Unknown",
+  "en": "We have like a lot of pixels.",
+  "zh": "我们有像很多像素。"
+ },
+ {
+  "seg": 341,
+  "start": 2304.065,
+  "end": 2308.168,
+  "speaker": "Unknown",
+  "en": "And then we take that image, Sam, and then we apply an encoder.",
+  "zh": "然后我们取那张图像，Sam，然后我们应用一个编码器。"
+ },
+ {
+  "seg": 342,
+  "start": 2308.78,
+  "end": 2310.881,
+  "speaker": "Unknown",
+  "en": "... ... ... ... ... ... ...",
+  "zh": "... ... ... ... ... ... ..."
+ },
+ {
+  "seg": 343,
+  "start": 2326.627,
+  "end": 2327.668,
+  "speaker": "Unknown",
+  "en": "We patchify them.",
+  "zh": "我们把它们分块。"
+ },
+ {
+  "seg": 344,
+  "start": 2328.009,
+  "end": 2334.035,
+  "speaker": "Unknown",
+  "en": "So then we do improve those latent space features.",
+  "zh": "所以然后我们确实改进了那些潜在空间特征。"
+ },
+ {
+  "seg": 345,
+  "start": 2334.836,
+  "end": 2338.12,
+  "speaker": "Unknown",
+  "en": "But then we are still in the latent space.",
+  "zh": "但是然后我们仍然在潜在空间中。"
+ },
+ {
+  "seg": 346,
+  "start": 2338.18,
+  "end": 2344.728,
+  "speaker": "Unknown",
+  "en": "We go through a VAE decoder, in this case, to the pixel space.",
+  "zh": "我们通过一个 VAE 解码器，在这种情况下，进入像素空间。"
+ },
+ {
+  "seg": 347,
+  "start": 2345.871,
+  "end": 2368.83,
+  "speaker": "Unknown",
+  "en": "something we need to be very careful here there are solutions also you know kind of using patchification like i'm going to take and create a you know kind of like patch then another patch another pitch and when you do that you create artifacts actually you know like scenes visible meaning when you do that in your origin space you create patches what's different here is that you're doing it in a latent space",
+  "zh": "这里我们需要非常小心，也有一些解决方案你知道某种程度上使用分块化，就像我要去取并创建一个你知道像这样的块，然后是另一个块，另一个音高，当你那样做时你实际上会产生伪痕，你知道像场景可见，这意味着当你在你的原始空间那样做时你创建了块，这里的不同之处是你在潜在空间中做这件事。"
+ },
+ {
+  "seg": 348,
+  "start": 2369.455,
+  "end": 2370.076,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 349,
+  "start": 2370.416,
+  "end": 2372.017,
+  "speaker": "Unknown",
+  "en": "There are many reasons.",
+  "zh": "有很多原因。"
+ },
+ {
+  "seg": 350,
+  "start": 2372.518,
+  "end": 2380.964,
+  "speaker": "Unknown",
+  "en": "One is Latin space is much smaller spatial dimensionality than the original pixel space.",
+  "zh": "一个是拉丁空间比原始像素空间的空间维度要小得多。"
+ },
+ {
+  "seg": 351,
+  "start": 2381.445,
+  "end": 2385.408,
+  "speaker": "Unknown",
+  "en": "The other one is in Latin space, we can induce noise.",
+  "zh": "另一个是在拉丁空间里，我们可以引入噪声。"
+ },
+ {
+  "seg": 352,
+  "start": 2387.049,
+  "end": 2392.053,
+  "speaker": "Unknown",
+  "en": "And that is a smart way of leveraging noise.",
+  "zh": "那是一种利用噪声的聪明方式。"
+ },
+ {
+  "seg": 353,
+  "start": 2392.154,
+  "end": 2393.234,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 354,
+  "start": 2393.274,
+  "end": 2394.676,
+  "speaker": "Unknown",
+  "en": "That is the other reason.",
+  "zh": "那是另一个原因。"
+ },
+ {
+  "seg": 355,
+  "start": 2394.716,
+  "end": 2394.896,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 356,
+  "start": 2396.437,
+  "end": 2396.797,
+  "speaker": "Unknown",
+  "en": "And so,",
+  "zh": "所以，"
+ },
+ {
+  "seg": 357,
+  "start": 2398.15,
+  "end": 2408.639,
+  "speaker": "Unknown",
+  "en": "You have in the image describing the Cascade coarse latent refinement stage and then high quality latent.",
+  "zh": "你在图片中描述了级联粗糙潜在细化阶段，然后是高质量潜在。"
+ },
+ {
+  "seg": 358,
+  "start": 2409.44,
+  "end": 2412.502,
+  "speaker": "Unknown",
+  "en": "Are these two separate latent spaces or is it...",
+  "zh": "这是两个独立的潜在空间还是它是……"
+ },
+ {
+  "seg": 359,
+  "start": 2413.423,
+  "end": 2415.446,
+  "speaker": "Unknown",
+  "en": "So what does the refinement stage do?",
+  "zh": "那么细化阶段是做什么的？"
+ },
+ {
+  "seg": 360,
+  "start": 2429.574,
+  "end": 2439.722,
+  "speaker": "Unknown",
+  "en": "Refinement space that adds some guided semantic noise and then it iterates a couple of times.",
+  "zh": "细化空间添加了一些引导语义噪声，然后它迭代了几次。"
+ },
+ {
+  "seg": 361,
+  "start": 2440.262,
+  "end": 2441.703,
+  "speaker": "Unknown",
+  "en": "That is the new part.",
+  "zh": "那是新的部分。"
+ },
+ {
+  "seg": 362,
+  "start": 2441.723,
+  "end": 2443.705,
+  "speaker": "Unknown",
+  "en": "That's the part that we provide.",
+  "zh": "那是我们提供的部分。"
+ },
+ {
+  "seg": 363,
+  "start": 2444.025,
+  "end": 2447.368,
+  "speaker": "Unknown",
+  "en": "So it starts with these latent features.",
+  "zh": "所以它从这些潜在特征开始。"
+ },
+ {
+  "seg": 364,
+  "start": 2447.868,
+  "end": 2454.833,
+  "speaker": "Unknown",
+  "en": "It gets some additional kind of flexibility through this injected semantic noise.",
+  "zh": "它通过这种注入的语义噪声获得了一些额外的灵活性。"
+ },
+ {
+  "seg": 365,
+  "start": 2455.033,
+  "end": 2456.595,
+  "speaker": "Unknown",
+  "en": "We want that because we don't want",
+  "zh": "我们想要那个，因为我们要么不想要"
+ },
+ {
+  "seg": 366,
+  "start": 2457.835,
+  "end": 2470.5,
+  "speaker": "Unknown",
+  "en": "Suddenly, you know, kind of, okay, we are generating a big image, but then there isn't enough texture in the image or high resolution, semantically meaningful texture in that image.",
+  "zh": "突然，你知道，有点，好吧，我们正在生成一张大图，但是图像中没有足够的纹理或高分辨率，在该图像中有语义意义的纹理。"
+ },
+ {
+  "seg": 367,
+  "start": 2471.981,
+  "end": 2475.642,
+  "speaker": "Unknown",
+  "en": "That's why we want model to have flexibility to add things.",
+  "zh": "这就是为什么我们希望模型有灵活性来添加东西。"
+ },
+ {
+  "seg": 368,
+  "start": 2476.083,
+  "end": 2481.105,
+  "speaker": "Unknown",
+  "en": "We are in the latent space and then we induce such noise.",
+  "zh": "我们在潜在空间里，然后我们引入了这种噪声。"
+ },
+ {
+  "seg": 369,
+  "start": 2481.185,
+  "end": 2486.427,
+  "speaker": "Unknown",
+  "en": "I mean, we add literally some guided noise into this latent space.",
+  "zh": "我的意思是，我们确实在这个潜在空间里添加了一些引导噪声。"
+ },
+ {
+  "seg": 370,
+  "start": 2487.587,
+  "end": 2502.112,
+  "speaker": "Unknown",
+  "en": "Because diffusion models, the ones that we are using, they do diffusion in the latent space and they start with noise, like random noise, and then it varies, it varies, it varies many, many times.",
+  "zh": "因为扩散模型，我们正在用的那些，它们在潜在空间里做扩散，它们从噪声开始，像随机噪声，然后它变化，它变化，它变化很多很多次。"
+ },
+ {
+  "seg": 371,
+  "start": 2502.412,
+  "end": 2515.697,
+  "speaker": "Unknown",
+  "en": "I'm talking about a high-level idea of the diffusion, and then every time it estimates some noise and removes it from the original, previous noise, and then it clarifies.",
+  "zh": "我在谈论扩散的高级概念，然后每次它估计一些噪声并将其从原始的、先前的噪声中移除，然后它变清晰。"
+ },
+ {
+  "seg": 372,
+  "start": 2516.778,
+  "end": 2521.942,
+  "speaker": "Unknown",
+  "en": "And then it ends up with a final image, which is now noise-free.",
+  "zh": "然后它最终得到一张最终图像，现在是无噪声的。"
+ },
+ {
+  "seg": 373,
+  "start": 2522.122,
+  "end": 2523.223,
+  "speaker": "Unknown",
+  "en": "It looks like a real image.",
+  "zh": "它看起来像一张真实的图像。"
+ },
+ {
+  "seg": 374,
+  "start": 2523.383,
+  "end": 2529.448,
+  "speaker": "Unknown",
+  "en": "That's how denoising diffusion text image models work.",
+  "zh": "这就是去噪扩散文本图像模型的工作方式。"
+ },
+ {
+  "seg": 375,
+  "start": 2529.909,
+  "end": 2533.071,
+  "speaker": "Unknown",
+  "en": "So we are in the same space.",
+  "zh": "所以我们在同一个空间里。"
+ },
+ {
+  "seg": 376,
+  "start": 2533.252,
+  "end": 2537.956,
+  "speaker": "Unknown",
+  "en": "In the latent space is not the pixel RGB, but these are...",
+  "zh": "在潜在空间里不是像素 RGB，但这些是……"
+ },
+ {
+  "seg": 377,
+  "start": 2538.556,
+  "end": 2543.539,
+  "speaker": "Unknown",
+  "en": "Especially lower, let's say input is 1K, 1K, this is maybe 128, 128.",
+  "zh": "特别是更低的，假设输入是 1K，1K，这可能是 128，128。"
+ },
+ {
+  "seg": 378,
+  "start": 2543.679,
+  "end": 2556.228,
+  "speaker": "Unknown",
+  "en": "And of course, at every, let's say, point, we have a vector representing the features for that patch corresponding to a pixel.",
+  "zh": "当然，在每一个，假设，点，我们有一个向量代表对应于一个像素的那个补丁的特征。"
+ },
+ {
+  "seg": 379,
+  "start": 2556.348,
+  "end": 2557.749,
+  "speaker": "Unknown",
+  "en": "So that is the latent space.",
+  "zh": "所以那就是潜在空间。"
+ },
+ {
+  "seg": 380,
+  "start": 2558.009,
+  "end": 2564.473,
+  "speaker": "Unknown",
+  "en": "Is the dimensionality of the latent space larger than what you might use for smaller images, or is it the same?",
+  "zh": "潜在空间的维度比你可能用于更小图像的要大，还是它是相同的？"
+ },
+ {
+  "seg": 381,
+  "start": 2564.865,
+  "end": 2567.228,
+  "speaker": "Unknown",
+  "en": "Yeah, latent space dimension is same.",
+  "zh": "是的，潜在空间维度是相同的。"
+ },
+ {
+  "seg": 382,
+  "start": 2567.489,
+  "end": 2571.354,
+  "speaker": "Unknown",
+  "en": "That's why this method is still very efficient.",
+  "zh": "这就是为什么这个方法仍然非常高效。"
+ },
+ {
+  "seg": 383,
+  "start": 2571.374,
+  "end": 2575.02,
+  "speaker": "Unknown",
+  "en": "I mean, we could of course go to larger latent space.",
+  "zh": "我的意思是，我们当然可以去更大的潜在空间。"
+ },
+ {
+  "seg": 384,
+  "start": 2575.26,
+  "end": 2576.522,
+  "speaker": "Unknown",
+  "en": "But that has a cost.",
+  "zh": "但那是有代价的。"
+ },
+ {
+  "seg": 385,
+  "start": 2576.894,
+  "end": 2578.955,
+  "speaker": "Unknown",
+  "en": "But the memory challenge is there, right?",
+  "zh": "但是内存挑战是在那里的，对吧？"
+ },
+ {
+  "seg": 386,
+  "start": 2579.015,
+  "end": 2580.616,
+  "speaker": "Unknown",
+  "en": "And also, it will take forever.",
+  "zh": "而且，它将永远持续下去。"
+ },
+ {
+  "seg": 387,
+  "start": 2581.436,
+  "end": 2593.081,
+  "speaker": "Unknown",
+  "en": "The baseline actually does that, you know, kind of like they just make the latent space larger proportional to the target output resolution, which is not what we wanted to do.",
+  "zh": "基线实际上那样做了，你知道，有点像他们只是让潜在空间与目标输出分辨率成比例地变大，这不是我们想要做的。"
+ },
+ {
+  "seg": 388,
+  "start": 2593.101,
+  "end": 2594.962,
+  "speaker": "Unknown",
+  "en": "We wanted to run everything much faster.",
+  "zh": "我们想要快得多地运行一切。"
+ },
+ {
+  "seg": 389,
+  "start": 2594.982,
+  "end": 2601.165,
+  "speaker": "Unknown",
+  "en": "Yeah, that's why latent space is much smaller, like the original 1K-inch latent space.",
+  "zh": "是的，这就是为什么潜在空间要小得多，像原始的 1K 英寸潜在空间。"
+ },
+ {
+  "seg": 390,
+  "start": 2601.285,
+  "end": 2609.772,
+  "speaker": "Unknown",
+  "en": "So conceptually, the way I am thinking about what you're doing is you generate a low resolution image.",
+  "zh": "所以从概念上讲，我对你正在做的事情的思考方式是你生成一张低分辨率图像。"
+ },
+ {
+  "seg": 391,
+  "start": 2610.532,
+  "end": 2624.344,
+  "speaker": "Unknown",
+  "en": "You apply an off the shelf upsampler to get a larger image, but that image is going to be kind of blurrier and not all that great because that's the state of the art for upsampling.",
+  "zh": "你应用一个现成的上采样器来获得一张更大的图像，但那张图像会有点更模糊并且不是那么好，因为那是上采样最先进水平。"
+ },
+ {
+  "seg": 392,
+  "start": 2624.884,
+  "end": 2626.285,
+  "speaker": "Unknown",
+  "en": "And then you essentially",
+  "zh": "然后你基本上"
+ },
+ {
+  "seg": 393,
+  "start": 2627.386,
+  "end": 2653.31,
+  "speaker": "Unknown",
+  "en": "going to latent space and you you like you end up in the blurry place and then you apply diffusion to kind of generate out a higher definition when we go to latent space there is a nuance and it's important so we up sampled the image input and this is vr rgb like this is the color image right we have now larger version of it",
+  "zh": "去潜在空间然后你你就像你最终在模糊的地方然后你应用扩散来某种程度上生成更高定义当我们去潜在空间时有一个细微差别并且它很重要所以我们上采样了图像输入并且这是 vr rgb 就像这是彩色图像对吧我们现在有它的更大版本"
+ },
+ {
+  "seg": 394,
+  "start": 2654.798,
+  "end": 2655.418,
+  "speaker": "Unknown",
+  "en": "It is large.",
+  "zh": "它很大。"
+ },
+ {
+  "seg": 395,
+  "start": 2655.758,
+  "end": 2662.02,
+  "speaker": "Unknown",
+  "en": "If I go to the latent space of the same proportional size to the depth size, it's going to be very slow.",
+  "zh": "如果我去与深度大小成相同比例大小的潜在空间，它将会很慢。"
+ },
+ {
+  "seg": 396,
+  "start": 2662.04,
+  "end": 2668.042,
+  "speaker": "Unknown",
+  "en": "So what we do, we partition the input image into like original size patches.",
+  "zh": "所以我们做的是，我们将输入图像分割成像原始大小的补丁。"
+ },
+ {
+  "seg": 397,
+  "start": 2668.382,
+  "end": 2671.703,
+  "speaker": "Unknown",
+  "en": "Let's say I start with like 1K, 1K image.",
+  "zh": "假设我从一个 1K，1K 的图像开始。"
+ },
+ {
+  "seg": 398,
+  "start": 2671.723,
+  "end": 2673.904,
+  "speaker": "Unknown",
+  "en": "Now I have like 4K, 4K each side.",
+  "zh": "现在我有像 4K，4K 每一边。"
+ },
+ {
+  "seg": 399,
+  "start": 2674.464,
+  "end": 2676.345,
+  "speaker": "Unknown",
+  "en": "So I divide it into 16 parts.",
+  "zh": "所以我把它分成 16 部分。"
+ },
+ {
+  "seg": 400,
+  "start": 2676.565,
+  "end": 2679.426,
+  "speaker": "Unknown",
+  "en": "So I have like 16 1K, 1K images.",
+  "zh": "所以我有像 16 张 1K，1K 的图像。"
+ },
+ {
+  "seg": 401,
+  "start": 2680.895,
+  "end": 2684.42,
+  "speaker": "Unknown",
+  "en": "Do you project each patch into a latent space?",
+  "zh": "你把每个块投射到潜在空间吗？"
+ },
+ {
+  "seg": 402,
+  "start": 2684.86,
+  "end": 2685.461,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 403,
+  "start": 2686.122,
+  "end": 2686.763,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 404,
+  "start": 2687.324,
+  "end": 2688.565,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 405,
+  "start": 2689.747,
+  "end": 2690.027,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 406,
+  "start": 2690.708,
+  "end": 2696.636,
+  "speaker": "Unknown",
+  "en": "And then, so then how do you avoid artifacts at the borders when you...",
+  "zh": "然后那么你怎么避免边界的伪影当你……"
+ },
+ {
+  "seg": 407,
+  "start": 2697.637,
+  "end": 2712.73,
+  "speaker": "Unknown",
+  "en": "project out like so these images are not really super resolved in the way that we wanted because they are just up samples right it didn't add any semantic meaningful details we still have the original prompt by the way and",
+  "zh": "投射出来像这样这些图像并没有真正以我们想要的方式超分辨率化，因为它们只是上采样，对吧，它没有添加任何语义上有意义的细节，我们仍然有原始的提示词，顺便说一句，还有"
+ },
+ {
+  "seg": 408,
+  "start": 2713.33,
+  "end": 2716.971,
+  "speaker": "Unknown",
+  "en": "That's why we add nodes for each latent space.",
+  "zh": "这就是为什么我们为每个潜在空间添加节点。"
+ },
+ {
+  "seg": 409,
+  "start": 2717.431,
+  "end": 2726.513,
+  "speaker": "Unknown",
+  "en": "Yeah, that's why I think about it as like applying diffusion, you know, text-driven diffusion to this, the latent.",
+  "zh": "是的，这就是为什么我把它想象成应用扩散，你知道，文本驱动的扩散到这个，这个潜在。"
+ },
+ {
+  "seg": 410,
+  "start": 2726.533,
+  "end": 2727.453,
+  "speaker": "Unknown",
+  "en": "Yes, yes.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 411,
+  "start": 2727.793,
+  "end": 2731.294,
+  "speaker": "Unknown",
+  "en": "And so it allows us to create more texture.",
+  "zh": "所以它允许我们创建更多的纹理。"
+ },
+ {
+  "seg": 412,
+  "start": 2731.794,
+  "end": 2733.615,
+  "speaker": "Unknown",
+  "en": "The algorithm is going to definitely",
+  "zh": "算法肯定会"
+ },
+ {
+  "seg": 413,
+  "start": 2734.375,
+  "end": 2743.12,
+  "speaker": "Unknown",
+  "en": "I generate much nicer looking output image than the input image, given input image before we went to the latent space.",
+  "zh": "我生成比输入图像更好看的输出图像，给定输入图像在我们去潜在空间之前。"
+ },
+ {
+  "seg": 414,
+  "start": 2743.14,
+  "end": 2750.865,
+  "speaker": "Unknown",
+  "en": "So in the latent space now, we've provided this freedom for algorithm to generate better semantically meaningful texture.",
+  "zh": "所以现在在潜在空间中，我们已经为算法提供了这种自由来生成更好的语义上有意义的纹理。"
+ },
+ {
+  "seg": 415,
+  "start": 2750.985,
+  "end": 2753.527,
+  "speaker": "Unknown",
+  "en": "But now I have 16 pages, right?",
+  "zh": "但现在我有 16 页，对吧？"
+ },
+ {
+  "seg": 416,
+  "start": 2753.947,
+  "end": 2762.692,
+  "speaker": "Unknown",
+  "en": "And if I stick them together, arrange them in the original arrangement, that will be, because they did it independent from each other, right?",
+  "zh": "如果我把它们粘在一起，按原始排列排列它们，那将是，因为它们彼此独立地做这件事，对吧？"
+ },
+ {
+  "seg": 417,
+  "start": 2762.732,
+  "end": 2763.573,
+  "speaker": "Unknown",
+  "en": "Because you have to memory.",
+  "zh": "因为你必须内存。"
+ },
+ {
+  "seg": 418,
+  "start": 2764.529,
+  "end": 2770.131,
+  "speaker": "Unknown",
+  "en": "And, of course, we allow some overlap, small overlap, but it's not going to solve it, you know.",
+  "zh": "当然，我们允许一些重叠，小的重叠，但这解决不了它，你知道。"
+ },
+ {
+  "seg": 419,
+  "start": 2770.291,
+  "end": 2774.652,
+  "speaker": "Unknown",
+  "en": "When we patch, by the way, another nuance is those patches are overlapping slightly.",
+  "zh": "当我们打补丁时，顺便说一句，另一个细微差别是那些补丁略微重叠。"
+ },
+ {
+  "seg": 420,
+  "start": 2774.872,
+  "end": 2776.553,
+  "speaker": "Unknown",
+  "en": "But it's not going to solve our problem.",
+  "zh": "但这解决不了我们的问题。"
+ },
+ {
+  "seg": 421,
+  "start": 2776.713,
+  "end": 2783.915,
+  "speaker": "Unknown",
+  "en": "So what we also realized that when we are doing blending across such, you know, latent space,",
+  "zh": "所以我们也意识到，当我们做混合跨越这样的，你知道，潜在空间时，"
+ },
+ {
+  "seg": 422,
+  "start": 2784.415,
+  "end": 2785.876,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 423,
+  "start": 2808.265,
+  "end": 2820.03,
+  "speaker": "Unknown",
+  "en": "Allow algorithm to generate more noise towards the boundary, but in the center of the pages, you know, kind of like be maybe less at a lesser degree.",
+  "zh": "允许算法在边界附近生成更多噪声，但在页面的中心，你知道，有点像可能是较少的程度。"
+ },
+ {
+  "seg": 424,
+  "start": 2820.65,
+  "end": 2834.316,
+  "speaker": "Unknown",
+  "en": "Now we generate this high quality latent, which also at the same time now resolve added texture, but also resolve the boundary, this same issue, because we had...",
+  "zh": "现在我们生成这个高质量的潜在，同时也现在解决了添加的纹理，但也解决了边界，同样的问题，因为我们有……"
+ },
+ {
+  "seg": 425,
+  "start": 2834.396,
+  "end": 2835.977,
+  "speaker": "Unknown",
+  "en": "So you kind of like...",
+  "zh": "所以你有点像……"
+ },
+ {
+  "seg": 426,
+  "start": 2837.521,
+  "end": 2862.638,
+  "speaker": "Unknown",
+  "en": "I'm imagining that as opposed to independently processing patch by patch, you're pairwise or crosswise refining these patches so that on the other side of that refinement process, they're aware of each other in a sense that the edges are aligned and blended and all of that kind of stuff.",
+  "zh": "我想象这与逐个块独立处理相反，你是成对或交叉地细化这些块，以便在该细化过程的另一边，它们在某种意义上彼此知晓，即边缘对齐和混合以及所有这类事情。"
+ },
+ {
+  "seg": 427,
+  "start": 2863.312,
+  "end": 2869.695,
+  "speaker": "Unknown",
+  "en": "Yes, but when we generate this high-quality latent, most of the problems are already solved.",
+  "zh": "是的，但是当我们生成这个高质量的潜在时，大多数问题已经解决了。"
+ },
+ {
+  "seg": 428,
+  "start": 2870.976,
+  "end": 2877.959,
+  "speaker": "Unknown",
+  "en": "It will allow, when we go to VAE decoder, generating this high-resolution image, which is now artifact-free.",
+  "zh": "它将允许，当我们去 VAE 解码器时，生成这个高分辨率图像，现在它是无伪影的。"
+ },
+ {
+  "seg": 429,
+  "start": 2880.273,
+  "end": 2887.276,
+  "speaker": "Unknown",
+  "en": "I mean, we solved the problem, handled the test at a space, in the latent space, where it is easier to do.",
+  "zh": "我的意思是，我们解决了问题，在这个空间处理了测试，在潜在空间中，在那里做更容易。"
+ },
+ {
+  "seg": 430,
+  "start": 2887.437,
+  "end": 2900.683,
+  "speaker": "Unknown",
+  "en": "Because if we go to the image space, if we start blending into image space, we will most likely blur around the scenes, which is another artifact we don't want.",
+  "zh": "因为如果我们去图像空间，如果我们开始混合进入图像空间，我们很可能会在场景周围模糊，这是我们不想要的另一个伪影。"
+ },
+ {
+  "seg": 431,
+  "start": 2901.023,
+  "end": 2902.424,
+  "speaker": "Unknown",
+  "en": "Well, it's amazing that that works.",
+  "zh": "嗯，这竟然奏效真是太神奇了。"
+ },
+ {
+  "seg": 432,
+  "start": 2904.125,
+  "end": 2923.588,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, again, like all our motivation in this case, let's achieve a quality level like we have a big memory and a lot of compute power and we can do everything into a bigger latent space, but we are petrifying.",
+  "zh": "是的，我的意思是，再次，像我们在这种情况下所有的动机，让我们达到一个质量水平像我们有一个大内存和大量的计算能力，我们可以把所有事情都做进一个更大的潜在空间，但我们正在石化。"
+ },
+ {
+  "seg": 433,
+  "start": 2924.448,
+  "end": 2926.731,
+  "speaker": "Unknown",
+  "en": "And do it maybe much faster.",
+  "zh": "并且做它可能快得多。"
+ },
+ {
+  "seg": 434,
+  "start": 2926.971,
+  "end": 2929.954,
+  "speaker": "Unknown",
+  "en": "When I say much faster, it's not like two times faster.",
+  "zh": "当我说快得多时，它不是快两倍。"
+ },
+ {
+  "seg": 435,
+  "start": 2930.394,
+  "end": 2939.763,
+  "speaker": "Unknown",
+  "en": "It's maybe 35 times faster from, let's say, 10 minutes to around 20 seconds type of.",
+  "zh": "它可能是快 35 倍，从，比如说，10 分钟到大约 20 秒的那种类型。"
+ },
+ {
+  "seg": 436,
+  "start": 2940.303,
+  "end": 2941.444,
+  "speaker": "Unknown",
+  "en": "You know, acceleration.",
+  "zh": "你知道，加速。"
+ },
+ {
+  "seg": 437,
+  "start": 2941.624,
+  "end": 2953.674,
+  "speaker": "Unknown",
+  "en": "And it's interesting that we're talking about kind of boundaries and images and like reconstructing them correctly because that's part of what the Inverfill is doing also, isn't it?",
+  "zh": "这很有趣，我们正在谈论关于边界和图像以及像正确地重建它们，因为这也是 Inverfill 正在做的一部分，不是吗？"
+ },
+ {
+  "seg": 438,
+  "start": 2954.034,
+  "end": 2962.321,
+  "speaker": "Unknown",
+  "en": "In Inverfill, we also have a semantically steered noise injection like the PixelRush, but...",
+  "zh": "在 Inverfill 中，我们也有一个语义引导的噪声注入，像 PixelRush，但是……"
+ },
+ {
+  "seg": 439,
+  "start": 2963.441,
+  "end": 2966.584,
+  "speaker": "Unknown",
+  "en": "Fill is not a T2I model.",
+  "zh": "Fill 不是 T2I 模型。"
+ },
+ {
+  "seg": 440,
+  "start": 2967.024,
+  "end": 2970.066,
+  "speaker": "Unknown",
+  "en": "It is an image in painting model.",
+  "zh": "它是一个图像修复模型。"
+ },
+ {
+  "seg": 441,
+  "start": 2970.086,
+  "end": 2974.409,
+  "speaker": "Unknown",
+  "en": "So this is image to image generative AI.",
+  "zh": "所以这是图像到图像生成式 AI。"
+ },
+ {
+  "seg": 442,
+  "start": 2974.609,
+  "end": 2978.812,
+  "speaker": "Unknown",
+  "en": "For instance, you can touch an object, create a mask, and then",
+  "zh": "例如，你可以触摸一个物体，创建一个遮罩，然后"
+ },
+ {
+  "seg": 443,
+  "start": 2979.352,
+  "end": 2985.519,
+  "speaker": "Unknown",
+  "en": "...remote that object or you can bring another object, new object into the scene and then you can create.",
+  "zh": "……遥控那个物体或者你可以带来另一个物体，新物体进入场景，然后你可以创建。"
+ },
+ {
+  "seg": 444,
+  "start": 2985.739,
+  "end": 2992.927,
+  "speaker": "Unknown",
+  "en": "This is very practical, Sam, because many times we take pictures but in the background maybe there are things that we want to remove.",
+  "zh": "这非常实用，Sam，因为很多时候我们拍照但在背景中可能有一些我们想要移除的东西。"
+ },
+ {
+  "seg": 445,
+  "start": 2993.267,
+  "end": 2995.39,
+  "speaker": "Unknown",
+  "en": "The challenge is, well, I can still...",
+  "zh": "挑战是，好吧，我仍然可以……"
+ },
+ {
+  "seg": 446,
+  "start": 2996.432,
+  "end": 3011.684,
+  "speaker": "Unknown",
+  "en": "See you know kind of you create a texture sometimes okay it is meaningful but then there's those artifacts that you see in the background like the sand on the beach where you remove the the person who what didn't need to be in the picture is kind of funky looking",
+  "zh": "看你知道有点像你有时创建一个纹理好吧它是有意义的但然后是那些你在背景中看到的伪影像是海滩上的沙子那里你移除了那个不需要在照片里的人看起来有点时髦"
+ },
+ {
+  "seg": 447,
+  "start": 3012.248,
+  "end": 3020.352,
+  "speaker": "Unknown",
+  "en": "And maybe the texture is not really compliant with the rest of the image, or I see literally the artifacts around the boundary.",
+  "zh": "也许纹理真的不符合图像的其余部分，或者我真的看到了边界周围的伪影。"
+ },
+ {
+  "seg": 448,
+  "start": 3020.572,
+  "end": 3023.833,
+  "speaker": "Unknown",
+  "en": "So kind of now, yeah, it is like a toy, you know?",
+  "zh": "所以有点像现在，是的，它就像个玩具，你知道？"
+ },
+ {
+  "seg": 449,
+  "start": 3023.853,
+  "end": 3026.454,
+  "speaker": "Unknown",
+  "en": "Yeah, you can do that, but I'm not going to really use it.",
+  "zh": "是的，你可以那样做，但我不会真的使用它。"
+ },
+ {
+  "seg": 450,
+  "start": 3026.574,
+  "end": 3029.876,
+  "speaker": "Unknown",
+  "en": "But we are seeing that, hey, you don't need to be there.",
+  "zh": "但我们看到，嘿，你不需要在那里。"
+ },
+ {
+  "seg": 451,
+  "start": 3030.036,
+  "end": 3035.398,
+  "speaker": "Unknown",
+  "en": "You can do much better object removal or imaging painting, image editing.",
+  "zh": "你可以做得更好的对象移除或成像绘制，图像编辑。"
+ },
+ {
+  "seg": 452,
+  "start": 3035.739,
+  "end": 3038.94,
+  "speaker": "Unknown",
+  "en": "And that's what this Inverfield paper is talking about.",
+  "zh": "这就是这篇 Inverfield 论文所谈论的。"
+ },
+ {
+  "seg": 453,
+  "start": 3039.18,
+  "end": 3043.743,
+  "speaker": "Unknown",
+  "en": "And so what's the core idea behind this paper?",
+  "zh": "那么这篇论文背后的核心理念是什么？"
+ },
+ {
+  "seg": 454,
+  "start": 3043.803,
+  "end": 3052.61,
+  "speaker": "Unknown",
+  "en": "I'm imagining that you're using diffusion, you know, maybe multi-step or one-step diffusion somewhere.",
+  "zh": "我在想象你正在使用扩散，你知道，也许在某处是多步或单步扩散。"
+ },
+ {
+  "seg": 455,
+  "start": 3053.29,
+  "end": 3059.474,
+  "speaker": "Unknown",
+  "en": "So in inner field, what we do, okay, we have this input image and",
+  "zh": "所以在内部领域，我们要做的是，好吧，我们有这个输入图像并且"
+ },
+ {
+  "seg": 456,
+  "start": 3061.291,
+  "end": 3065.254,
+  "speaker": "Unknown",
+  "en": "We allow generating noise in the background.",
+  "zh": "我们允许在背景中生成噪声。"
+ },
+ {
+  "seg": 457,
+  "start": 3066.034,
+  "end": 3072.999,
+  "speaker": "Unknown",
+  "en": "And then we have also this noise in the mask, like the bird that we want to remove.",
+  "zh": "然后我们在这个掩码中也有这个噪声，就像我们想要移除的那只鸟。"
+ },
+ {
+  "seg": 458,
+  "start": 3073.46,
+  "end": 3078.003,
+  "speaker": "Unknown",
+  "en": "But what I mean by like this noise in the background, the rest of the image.",
+  "zh": "但我的意思是像背景中的噪声，图像的其余部分。"
+ },
+ {
+  "seg": 459,
+  "start": 3078.023,
+  "end": 3085.849,
+  "speaker": "Unknown",
+  "en": "So in denoising, we started with, during training, with a noisy image.",
+  "zh": "所以在去噪中，我们在训练期间开始于一个带噪图像。"
+ },
+ {
+  "seg": 460,
+  "start": 3086.984,
+  "end": 3090.945,
+  "speaker": "Unknown",
+  "en": "And then we progressively remove noise and end up with a clean image.",
+  "zh": "然后我们逐渐移除噪声，最终得到一个清晰图像。"
+ },
+ {
+  "seg": 461,
+  "start": 3091.645,
+  "end": 3095.246,
+  "speaker": "Unknown",
+  "en": "In image generation, we also do the same thing, right?",
+  "zh": "在图像生成中，我们也做同样的事情，对吧？"
+ },
+ {
+  "seg": 462,
+  "start": 3095.286,
+  "end": 3101.068,
+  "speaker": "Unknown",
+  "en": "We start with the noise and then end up with a clean image.",
+  "zh": "我们从噪声开始，然后以一个清晰图像结束。"
+ },
+ {
+  "seg": 463,
+  "start": 3101.088,
+  "end": 3104.389,
+  "speaker": "Unknown",
+  "en": "But think about the other process, like the way that we actually train those models.",
+  "zh": "但想一想另一个过程，就像我们实际训练这些模型的方式。"
+ },
+ {
+  "seg": 464,
+  "start": 3104.549,
+  "end": 3111.171,
+  "speaker": "Unknown",
+  "en": "Those models, when we train, we start with the clean image and then add noise, noise, noise, and at the end, it becomes a noisy image.",
+  "zh": "那些模型，当我们训练时，我们从清晰图像开始，然后添加噪声、噪声、噪声，最后，它变成了一个带噪图像。"
+ },
+ {
+  "seg": 465,
+  "start": 3111.191,
+  "end": 3115.652,
+  "speaker": "Unknown",
+  "en": "So think about the reverse process where we actually train the model.",
+  "zh": "所以想一想我们实际训练模型的逆向过程。"
+ },
+ {
+  "seg": 466,
+  "start": 3117.023,
+  "end": 3121.871,
+  "speaker": "Unknown",
+  "en": "So we can take this input image and map into noise.",
+  "zh": "所以我们可以获取这个输入图像并映射到噪声中。"
+ },
+ {
+  "seg": 467,
+  "start": 3122.252,
+  "end": 3123.795,
+  "speaker": "Unknown",
+  "en": "So we are progressively",
+  "zh": "所以我们正在逐渐"
+ },
+ {
+  "seg": 468,
+  "start": 3124.622,
+  "end": 3132.184,
+  "speaker": "Unknown",
+  "en": "...inverting a real, let's say, clean image into noisy versions.",
+  "zh": "...反转一个真实的，比如说，清晰图像变成噪声版本。"
+ },
+ {
+  "seg": 469,
+  "start": 3132.564,
+  "end": 3139.045,
+  "speaker": "Unknown",
+  "en": "So this thing is very well studied, understood, and it's very fast.",
+  "zh": "所以这东西被很好地研究过，理解了，而且它非常快。"
+ },
+ {
+  "seg": 470,
+  "start": 3139.125,
+  "end": 3150.267,
+  "speaker": "Unknown",
+  "en": "At 60 milliseconds, we can take a large image and then end up going through the reverse denoising and a noisy version of it.",
+  "zh": "在 60 毫秒内，我们可以获取一个大图像，然后最终通过逆向去噪和它的一个噪声版本。"
+ },
+ {
+  "seg": 471,
+  "start": 3150.367,
+  "end": 3153.328,
+  "speaker": "Unknown",
+  "en": "So this noise is not random noise anymore.",
+  "zh": "所以这个噪声不再是随机噪声了。"
+ },
+ {
+  "seg": 472,
+  "start": 3154.848,
+  "end": 3157.83,
+  "speaker": "Unknown",
+  "en": "Specific to the input image.",
+  "zh": "特定于输入图像。"
+ },
+ {
+  "seg": 473,
+  "start": 3158.33,
+  "end": 3163.173,
+  "speaker": "Unknown",
+  "en": "So if I change the input image, the noise is going to be different.",
+  "zh": "所以如果我更改输入图像，噪声将会是不同的。"
+ },
+ {
+  "seg": 474,
+  "start": 3163.633,
+  "end": 3165.474,
+  "speaker": "Unknown",
+  "en": "So this is about entire image.",
+  "zh": "所以这是关于整个图像的。"
+ },
+ {
+  "seg": 475,
+  "start": 3165.815,
+  "end": 3167.796,
+  "speaker": "Unknown",
+  "en": "And then we have this mask of the bird.",
+  "zh": "然后我们有这个鸟的掩码。"
+ },
+ {
+  "seg": 476,
+  "start": 3168.176,
+  "end": 3179.142,
+  "speaker": "Unknown",
+  "en": "Now I added noise to there for the bird because I want to allow algorithm to generate a new bird, you know, compliant with my field prompt, text prompt.",
+  "zh": "现在我给那里添加了关于鸟的噪声，因为我想允许算法生成一只新鸟，你知道，符合我的 field 提示词，文本提示词。"
+ },
+ {
+  "seg": 477,
+  "start": 3179.442,
+  "end": 3180.283,
+  "speaker": "Unknown",
+  "en": "So now...",
+  "zh": "所以现在……"
+ },
+ {
+  "seg": 478,
+  "start": 3182.251,
+  "end": 3189.341,
+  "speaker": "Unknown",
+  "en": "I changed the way that we kind of create this image, but I don't need to change the original model.",
+  "zh": "我改变了我们创建这种图像的方式，但我不需要更改原始模型。"
+ },
+ {
+  "seg": 479,
+  "start": 3189.401,
+  "end": 3197.271,
+  "speaker": "Unknown",
+  "en": "I can still, you know, I changed the way that I initialize the diffusion in this painting.",
+  "zh": "我仍然可以，你知道，我改变了我在这个绘制中初始化扩散的方式。"
+ },
+ {
+  "seg": 480,
+  "start": 3197.852,
+  "end": 3222.703,
+  "speaker": "Unknown",
+  "en": "And when we do that, when we start with, you know, like this inverted noise plus the, you know, mask and new noise within the mask, now, first of all, we can retain background, but we also allow background to slightly impact the foreground, like the mask itself, so it allows seamless harmonization.",
+  "zh": "当我们这样做时，当我们从，你知道，像这种反转噪声加上，你知道，掩码和掩码内的新噪声开始时，现在，首先，我们可以保留背景，但我们也允许背景稍微影响前景，像掩码本身，所以它允许无缝调和。"
+ },
+ {
+  "seg": 481,
+  "start": 3223.643,
+  "end": 3229.11,
+  "speaker": "Unknown",
+  "en": "And it generates high quality images, but most importantly, there's no boundary artifacts anymore.",
+  "zh": "并且它生成高质量图像，但最重要的是，不再有边界伪影。"
+ },
+ {
+  "seg": 482,
+  "start": 3229.973,
+  "end": 3237.977,
+  "speaker": "Unknown",
+  "en": "Because we have two noise, you know, like random noise and inverted noise within the same, when we started the image.",
+  "zh": "因为当我们开始图像时，我们在同一个里面有，你知道，像随机噪声和反转噪声。"
+ },
+ {
+  "seg": 483,
+  "start": 3237.997,
+  "end": 3241.919,
+  "speaker": "Unknown",
+  "en": "We are not starting from like just noise within the mask.",
+  "zh": "我们不是像仅仅从掩码内的噪声开始。"
+ },
+ {
+  "seg": 484,
+  "start": 3242.439,
+  "end": 3243.52,
+  "speaker": "Unknown",
+  "en": "Awesome, awesome.",
+  "zh": "很棒，很棒。"
+ },
+ {
+  "seg": 485,
+  "start": 3243.54,
+  "end": 3251.644,
+  "speaker": "Unknown",
+  "en": "So as we suggested starting up, you know, Qualcomm always has a ton of papers at CVPR.",
+  "zh": "所以正如我们开始时建议的那样，你知道，Qualcomm 总是在 CVPR 上有大量的论文。"
+ },
+ {
+  "seg": 486,
+  "start": 3252.124,
+  "end": 3253.565,
+  "speaker": "Unknown",
+  "en": "We can't cover all of them.",
+  "zh": "我们不能覆盖所有。"
+ },
+ {
+  "seg": 487,
+  "start": 3253.645,
+  "end": 3257.867,
+  "speaker": "Unknown",
+  "en": "We've covered a handful of the most important image generation papers.",
+  "zh": "我们已经覆盖了少数最重要的图像生成论文。"
+ },
+ {
+  "seg": 488,
+  "start": 3258.947,
+  "end": 3262.251,
+  "speaker": "Unknown",
+  "en": "But there were also papers on video generation.",
+  "zh": "但也有关于视频生成的论文。"
+ },
+ {
+  "seg": 489,
+  "start": 3262.351,
+  "end": 3264.032,
+  "speaker": "Unknown",
+  "en": "There were a ton of demos.",
+  "zh": "有大量的演示。"
+ },
+ {
+  "seg": 490,
+  "start": 3264.092,
+  "end": 3270.799,
+  "speaker": "Unknown",
+  "en": "Anything in particular you'd want to call out in terms of other things folks should look for?",
+  "zh": "有什么特别的东西你想指出来，关于其他人们应该寻找的东西吗？"
+ },
+ {
+  "seg": 491,
+  "start": 3271.3,
+  "end": 3271.82,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 492,
+  "start": 3272,
+  "end": 3278.106,
+  "speaker": "Unknown",
+  "en": "I'm very proud of the three video generation papers because it makes video generation",
+  "zh": "我对这三篇视频生成论文感到非常自豪，因为它让视频生成"
+ },
+ {
+  "seg": 493,
+  "start": 3279.275,
+  "end": 3280.475,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "感谢观看。"
+ },
+ {
+  "seg": 494,
+  "start": 3304.161,
+  "end": 3326.556,
+  "speaker": "Unknown",
+  "en": "now you can actually run it much faster and you can like five times faster and then put it into squeeze it into your memory limited device you don't need to run it on the cloud the other paper is um uh hybrid attention rehired uh so kind of a recurrent hybrid attention paper again like",
+  "zh": "现在你实际上可以运行得快得多，你可以像快五倍，然后把它放入挤进你内存有限的设备，你不需要在云端运行它另一篇论文是呃呃混合注意力重新雇佣呃所以有点像循环混合注意力论文再次像"
+ },
+ {
+  "seg": 495,
+  "start": 3327.577,
+  "end": 3330.319,
+  "speaker": "Unknown",
+  "en": "There's this challenge of where to apply attention.",
+  "zh": "在哪里应用注意力有这个挑战。"
+ },
+ {
+  "seg": 496,
+  "start": 3330.439,
+  "end": 3334.082,
+  "speaker": "Unknown",
+  "en": "So it kind of does much better job and makes it faster.",
+  "zh": "所以它做得好得多并使它更快。"
+ },
+ {
+  "seg": 497,
+  "start": 3334.102,
+  "end": 3338.125,
+  "speaker": "Unknown",
+  "en": "And also attention surgery, because attention takes a lot of compute.",
+  "zh": "还有注意力手术，因为注意力需要大量的计算。"
+ },
+ {
+  "seg": 498,
+  "start": 3338.225,
+  "end": 3340.506,
+  "speaker": "Unknown",
+  "en": "So these are for video generation.",
+  "zh": "所以这些是用于视频生成的。"
+ },
+ {
+  "seg": 499,
+  "start": 3341.207,
+  "end": 3343.028,
+  "speaker": "Unknown",
+  "en": "Amazing papers.",
+  "zh": "惊人的论文。"
+ },
+ {
+  "seg": 500,
+  "start": 3343.588,
+  "end": 3346.29,
+  "speaker": "Unknown",
+  "en": "Please take a look at those project pages also.",
+  "zh": "也请看一看那些项目页面。"
+ },
+ {
+  "seg": 501,
+  "start": 3346.31,
+  "end": 3348.352,
+  "speaker": "Unknown",
+  "en": "We have project pages for these papers.",
+  "zh": "我们有这些论文的项目页面。"
+ },
+ {
+  "seg": 502,
+  "start": 3348.895,
+  "end": 3362.079,
+  "speaker": "Unknown",
+  "en": "Well, Fatih, as always, it's been great catching up with you and hearing about what you all are doing with regards to computer vision and all the cool things you did at CBPR.",
+  "zh": "嗯，Fatih，和往常一样，很高兴和你叙旧，听听你们在计算机视觉方面所做的工作，以及你们在 CBPR 所做的所有很酷的事情。"
+ },
+ {
+  "seg": 503,
+  "start": 3362.279,
+  "end": 3363.939,
+  "speaker": "Unknown",
+  "en": "Sam, thanks for having me.",
+  "zh": "Sam，谢谢邀请我。"
+ },
+ {
+  "seg": 504,
+  "start": 3364.32,
+  "end": 3371.222,
+  "speaker": "Unknown",
+  "en": "It's really a real and always a pleasure to be a part of your amazing podcast.",
+  "zh": "这真的很荣幸，而且一直是成为你这档令人惊叹的播客的一部分的荣幸。"
+ },
+ {
+  "seg": 505,
+  "start": 3372.782,
+  "end": 3375.543,
+  "speaker": "Unknown",
+  "en": "I'm very excited to be a part of it, talk about the artwork.",
+  "zh": "我很兴奋能成为它的一部分，谈谈关于艺术作品的事情。"
+ },
+ {
+  "seg": 506,
+  "start": 3375.703,
+  "end": 3383.846,
+  "speaker": "Unknown",
+  "en": "I only mentioned a few of them and I look forward to meet again, you know, join your amazing podcast.",
+  "zh": "我只提到了其中几个，我很期待再次见面，你知道，加入你这档令人惊叹的播客。"
+ },
+ {
+  "seg": 507,
+  "start": 3383.866,
+  "end": 3384.086,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 508,
+  "start": 3384.206,
+  "end": 3386.807,
+  "speaker": "Unknown",
+  "en": "Thank you so much for inviting me.",
+  "zh": "非常谢谢你邀请我。"
+ },
+ {
+  "seg": 509,
+  "start": 3386.847,
+  "end": 3387.187,
+  "speaker": "Unknown",
+  "en": "Alrighty.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 510,
+  "start": 3387.227,
+  "end": 3387.607,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

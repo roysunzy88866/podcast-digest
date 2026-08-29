@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gemini</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,6 +16,12 @@ unlisted: true
 - **[[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]]**(09:58起):本集将其作为编码智能体的可选'大脑'之一提及
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(26:58起):本集把它说成:Kat 在做 2D 格斗游戏时,让 Claude Code 调用 Gemini 的 API 来生成视频动画
 - **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(00:24起):本集把它说成：Google 的超通用大模型，可以通过 API 供任何人做上下文工程；其 Flash 版本又快又轻量，正是得益于蒸馏技术。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-06-16-devtools-swyx-aie#^q2]]
 
 ## ② 出现在这些集
 
@@ -33,7 +39,7 @@ unlisted: true
 
 [[Google]] · [[Claude Code]] · [[智能体]] · [[Lenny]] · [[Anthropic]] · [[代码审查]] · [[评估]] · [[沙箱]] · [[Robby Stein]] · [[Benedict Evans]]
 
-<script type="application/json" class="pd-epn">{"Google":29,"Claude Code":38,"智能体":151,"Lenny":65,"Anthropic":77,"代码审查":2,"评估":16,"沙箱":30,"Robby Stein":1,"Benedict Evans":1}</script>
+<script type="application/json" class="pd-epn">{"Google":29,"Claude Code":38,"智能体":153,"Lenny":65,"Anthropic":79,"代码审查":2,"评估":17,"沙箱":31,"Robby Stein":1,"Benedict Evans":1}</script>
 
 <script>
 (function(){

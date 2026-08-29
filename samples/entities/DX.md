@@ -27,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Claire Vo]] · [[swyx]] · [[Nicole Forsgren]] · [[Eddie Kim]] · [[Akshat Bubna]] · [[代码行数]] · [[Gusto]] · [[Vibhu]]
+[[智能体]] · [[Lenny]] · [[Claire Vo]] · [[Swyx]] · [[Nicole Forsgren]] · [[Eddie Kim]] · [[Akshat Bubna]] · [[代码行数]] · [[Gusto]] · [[Vibhu]]
 
-<script type="application/json" class="pd-epn">{"智能体":151,"Lenny":65,"Claire Vo":2,"swyx":1,"Nicole Forsgren":1,"Eddie Kim":1,"Akshat Bubna":1,"代码行数":1,"Gusto":1,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":153,"Lenny":65,"Claire Vo":2,"Swyx":2,"Nicole Forsgren":1,"Eddie Kim":1,"Akshat Bubna":1,"代码行数":1,"Gusto":1,"Vibhu":1}</script>
 
 <script>
 (function(){

@@ -69,11 +69,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]] [[Malika Rao]]
+[[Ryan Greenblatt]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Factory":2,"Anthropic":77,"OpenAI":68,"Microsoft":18,"Meta":23,"NVIDIA":24,"Stripe":22,"OpenRouter":7,"Palantir":8}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Factory":2,"Anthropic":79,"OpenAI":69,"Microsoft":19,"Meta":23,"NVIDIA":24,"Stripe":22,"OpenRouter":7,"Palantir":8}</script>
 
 <script>
 (function(){

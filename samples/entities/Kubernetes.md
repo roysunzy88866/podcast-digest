@@ -38,9 +38,9 @@ aliases: ["K8s", "k8s"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[OpenAI]] · [[Bruno Scott Sperka]] · [[Matei Zaharia]] · [[swyx]] · [[Jensen Huang]] · [[Chris Benson]] · [[GitHub]] · [[Reynold Xin]]
+[[智能体]] · [[沙箱]] · [[OpenAI]] · [[Bruno Scott Sperka]] · [[Matei Zaharia]] · [[Swyx]] · [[Jensen Huang]] · [[Chris Benson]] · [[GitHub]] · [[Reynold Xin]]
 
-<script type="application/json" class="pd-epn">{"智能体":151,"沙箱":30,"OpenAI":68,"Bruno Scott Sperka":1,"Matei Zaharia":1,"swyx":1,"Jensen Huang":3,"Chris Benson":3,"GitHub":18,"Reynold Xin":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":153,"沙箱":31,"OpenAI":69,"Bruno Scott Sperka":1,"Matei Zaharia":1,"Swyx":2,"Jensen Huang":3,"Chris Benson":3,"GitHub":18,"Reynold Xin":1}</script>
 
 <script>
 (function(){

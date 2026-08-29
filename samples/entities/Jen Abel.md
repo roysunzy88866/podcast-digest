@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"企业销售":1,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":1,"PLG":5,"ACV":2,"前向部署工程师":6}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"企业销售":1,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":1,"PLG":6,"ACV":2,"前向部署工程师":6}</script>
 
 <script>
 (function(){

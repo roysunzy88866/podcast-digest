@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Azure</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Azure">AZ</div><div class="pi"><h1 class="pt">Azure</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Azure">AZ</div><div class="pi"><h1 class="pt">Azure</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(29:48起):本集提到其物理网络运营团队通过构建名为 Miles 的智能体系统来调度 500 多个光纤运营商，且过去 15 个月建成的算力容量超过了前 15 年的总和。
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(28:31起):本集提到 CloudEndure 在被 AWS 收购前，也与 Azure 支持过大规模企业迁移
+- **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(14:34起):本集提到早期产品不稳定时，Azure 实例流量一多系统就崩溃，这是他们决定冻结销售的原因之一。
 
 ## ① 提到它的金句
 
@@ -22,18 +23,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为被讨论公司
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
+- [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Saragawa]] · [[Ofir Ehrlich]] · [[Satya Nadella]] · [[Gonen Stein]] · [[Microsoft]] · [[Eon]] · [[GitHub]] · [[数据基础层]] · [[Microsoft 365]]
+[[智能体]] · [[Microsoft]] · [[ChatGPT]] · [[微调]] · [[Saragawa]] · [[Ofir Ehrlich]] · [[Max Junestrand]] · [[Satya Nadella]] · [[Gonen Stein]] · [[Legora]]
 
-<script type="application/json" class="pd-epn">{"智能体":151,"Saragawa":1,"Ofir Ehrlich":1,"Satya Nadella":2,"Gonen Stein":1,"Microsoft":18,"Eon":1,"GitHub":18,"数据基础层":1,"Microsoft 365":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":153,"Microsoft":19,"ChatGPT":39,"微调":5,"Saragawa":1,"Ofir Ehrlich":1,"Max Junestrand":1,"Satya Nadella":2,"Gonen Stein":1,"Legora":1}</script>
 
 <script>
 (function(){

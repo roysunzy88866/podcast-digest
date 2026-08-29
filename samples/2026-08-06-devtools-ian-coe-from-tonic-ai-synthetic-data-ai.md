@@ -93,7 +93,7 @@ Tonic 的 AI 团队刚发了一篇论文：大约一年前，有人拿一个开�
 
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]]<span class="pd-rz">同概念:微调 (fine tune)、智能体 (agent)</span>
 - [[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)、智能体 (agent)</span>
-- [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
+- [[2026-08-29-yc-max-junestrand-you-need-the-willingness|Legora：三个非律师如何造出法律AI操作系统]]<span class="pd-rz">同概念:微调 (fine tune)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

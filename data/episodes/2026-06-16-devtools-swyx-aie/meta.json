@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-16-devtools-swyx-aie",
+  "audio_mp3": "https://media.transistor.fm/982d68f2/b3d9d6ed.mp3",
+  "duration_sec": 3226.32,
+  "transcript_source": "节目方随 RSS 发布的官方转写稿(<podcast:transcript> json);由 scripts/fetch-source-feed.mjs 转换",
+  "transcript_segments": 246,
+  "feed_transcript_url": "https://share.transistor.fm/s/982d68f2/transcription.json",
+  "title_en": "Swyx and Louis Knight-Webb @ AI Engineer Europe: DevTools, code mode, and the future of AI engineering",
+  "podcast": "Scaling DevTools",
+  "date": "2026-06-16",
+  "added": "2026-08-30",
+  "speaker_map": {
+    "Speaker 2": "Louis Knight-Webb",
+    "Speaker 3": "Swyx"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Swyx"
+  ],
+  "host": "Louis Knight-Webb",
+  "cohosts": [],
+  "title_zh": "AI Engineer 大会背后的社区逻辑与创业生存法则",
+  "guest_name": "Swyx",
+  "guest_title": "AI Engineers 社区创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

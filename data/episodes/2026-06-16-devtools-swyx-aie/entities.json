@@ -1,0 +1,592 @@
+{
+  "episode_id": "2026-06-16-devtools-swyx-aie",
+  "podcast": "Scaling DevTools",
+  "date": "2026-06-16",
+  "tags": [
+    "AI DevTools",
+    "智能体",
+    "vibe coding",
+    "AI 会议",
+    "开源框架"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "louis-knight-webb",
+      "type": "person",
+      "role": "host",
+      "name": "Louis Knight-Webb",
+      "file": "Louis Knight-Webb",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "swyx",
+      "type": "person",
+      "role": "guest",
+      "name": "Swyx",
+      "file": "Swyx",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            10.32
+          ],
+          "quote": "Hey, everyone. We're coming from AI Engineers in London, AI Engineers Europe. Joined today by Louis and Sean Swyx, founder of AI Engineers.",
+          "speaker": "Speaker 1"
+        }
+      ]
+    },
+    {
+      "id": "ai-engineers",
+      "type": "company",
+      "role": "company",
+      "name": "AI Engineers",
+      "file": "AI Engineers",
+      "primary": true,
+      "how_described": "本集说它是 Swyx 创办的社区和大会品牌，采用类似 JSConf 的特许经营模式在全球扩展，核心受众是 AI 工程师，正在向 AI 领导层、PM、设计师和研究人员等邻近角色延伸",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            10.32
+          ],
+          "quote": "Hey, everyone. We're coming from AI Engineers in London, AI Engineers Europe. Joined today by Louis and Sean Swyx, founder of AI Engineers.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 15,
+          "t": [
+            248.41,
+            272.91498
+          ],
+          "quote": "But the world's fair is I always try to extend the and stay in the SAP every year. So the first year, we extend to AI leadership, so people who manage AI engineers. And then the second one, we did PMs and designers, and that was a pretty successful one. This year, we're expanding to AI research and people who are publishing papers and stuff. So I think we will just add adjacencies to AI engineer.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说代码沙箱是 DevTools 领域被验证的基础设施方向，Swyx 自己投资了 e2b 和 Daytona，并指出从免费代码模式到 Modal、Vercel 等大型执行平台，沙箱是其中关键一环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            864.55,
+            882.67505
+          ],
+          "quote": "Yeah. Yeah. I I was making this joke with someone that I felt like everyone in DevTools, there's two startups that I see, like, kind of again and again. It's like the Sandbox and OpenClaw. Like, if we count that as a DevTool, people like doing the merge.",
+          "speaker": "Speaker 1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 DevTools 格局中一端是智能体实验室，做垂直领域的智能体——律师用的 AI、医生用的 AI、政府用的 AI，定位为客户的外包 AI 团队，这比做横向开源框架更有出路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            520.925,
+            552.015
+          ],
+          "quote": "Like and so I think if you can sort of align those incentives, you get the alpha out of these labs that were otherwise had no incentive to do so. And I think it's it's it's a very in very similar way, this this exact phenomenon is happening at the big labs and the big agent companies where, yeah, you most of the time, you're going to be closed source, but this is the one place where you you share a little bit in order to to get back inclined, the the sort of community respect that you also want. And, yes, I do think you know, we run a paper club every week. It's it's it's struggling a little bit because papers are less interesting these days. Right?",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 65,
+          "t": [
+            942.085,
+            1005.32
+          ],
+          "quote": "And I I I think the other companies are like, there there there there's definitely, like, a let's call it a introspection moment about, like, what the value is, and and people who if say if you worked on an AI framework the last three years, and it was an open source AI framework, and you wanted to be the React of AI and blah blah blah, you maybe struggled a bit more. Right? Because everyone can write their own framework, and yours is not not necessarily as better or worse than mine because it's actually like, if your your whole defense or your moat is your ecosystem of integrations with everything else, well, I can vibe code that too. So, like, what the hell use are you? So so, really, like, I think I think people are really receding to either your model lab where you train models and you you supply them via API, whatever, and you have maybe you should specialize in a particular modality like 11 labs, or you're all the way on the other side where you're an agent lab where you you're you have a domain specific vertical agent that does very good thing for a particular target audience.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL 环境 (RL environments)",
+      "file": "RL 环境",
+      "primary": true,
+      "how_described": "本集说 RL 环境即强化学习训练环境，是与沙箱并列的另一个被验证的基础设施大方向，举例有一家 7 人公司被 DoorDash 以 4.5 亿美元收购",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            902.235,
+            912.075
+          ],
+          "quote": "I actually actually also think that the other big category is RL environments, which maybe you haven't talked about as much. But Yeah. Yeah. Very big category. And so people are acquiring them.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说这是用 AI 辅助写代码的方式，Swyx 用它排演讲日程、做一致性检查、写网站大部分代码；同时指出开源 AI 框架的护城河（集成生态）可以被 vibe code 绕过，使其创业价值被削弱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            1707.87,
+            1726.3949
+          ],
+          "quote": "Unhinged. Being being funny, being being cooked into live culture, anything in which you can prove that you are probably not an LLM. Because LLM, you know, I I'm still I'm, like, vibe coding things, and LLM still thinks the latest model Gemini model is Gemini 2.5. Right? So, like, that's definitely an LLM.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "code-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码模式 (code mode)",
+      "file": "代码模式",
+      "primary": true,
+      "how_described": "本集说这是让聊天机器人写代码并执行的长期趋势，Swyx 认为它是'不变的东西'之一，AIE 网站用 Cloudflare 的 Just Bash 实现，展示形式包括 Monty（JavaScript）和 Just Bash（Python）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            643.42,
+            676.43
+          ],
+          "quote": "And so, you know, we had a great dinner, and there was, like, this rogue guy that didn't have a ticket that was just, like he just moved from crypto to AI, and it was, like but and it was just so fun, and I'm that was just the best that to this day, that's the best conference I've ever been to, the very first day of Engineers. It's just, like, unbelievable energy. Yeah. So now, like, I mean, I do find that I I'm just learning a lot of stuff and, you know, there's so much so much so many things. Like, for instance, I can say, like, the code mode stuff that Cloudflare are doing.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 50,
+          "t": [
+            755.12,
+            780.61005
+          ],
+          "quote": "Yeah. I'd I'd and so I think that people start with the code mode, but represented here are both the sort of JavaScript and Python manifestations of code mode, which is Monty and just Bash. And so, I hope that people pick up on that, even if I don't necessarily say it out loud. Sometimes, I have considered doing, like, tasting notes of each speaker, because I picked every single one of these. And, like, there's a reason for Yeah.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 66,
+          "t": [
+            1005.4,
+            1023.705
+          ],
+          "quote": "Everything in between is very squeezed. Right? So you have to be really good infrastructure for code sandboxing, which is the small part of it is code mode where that's free. That's Monty and JustBash at the Swalin. At the at the large end, it's people like Modal and Vercel and all the all the other guys.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "open-source-ai-framework",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 AI 框架 (open source AI framework)",
+      "file": "开源 AI 框架",
+      "primary": true,
+      "how_described": "本集说过去三年做开源 AI 框架、想当'AI 界的 React'的创业公司大部分在挣扎，因为护城河（与各种东西的集成生态）可以被 vibe code 写出来，在模型实验室和智能体实验室之间被挤压",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            942.085,
+            1005.32
+          ],
+          "quote": "And I I I think the other companies are like, there there there there's definitely, like, a let's call it a introspection moment about, like, what the value is, and and people who if say if you worked on an AI framework the last three years, and it was an open source AI framework, and you wanted to be the React of AI and blah blah blah, you maybe struggled a bit more. Right? Because everyone can write their own framework, and yours is not not necessarily as better or worse than mine because it's actually like, if your your whole defense or your moat is your ecosystem of integrations with everything else, well, I can vibe code that too. So, like, what the hell use are you? So so, really, like, I think I think people are really receding to either your model lab where you train models and you you supply them via API, whatever, and you have maybe you should specialize in a particular modality like 11 labs, or you're all the way on the other side where you're an agent lab where you you're you have a domain specific vertical agent that does very good thing for a particular target audience.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集提到工程师想了解模型训练时做了什么，因为在推理时可以据此做另一件事，'training'和'inference'作为对应概念出现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            347.80502,
+            376.295
+          ],
+          "quote": "You know, we are primarily an applied conference, but people want to know how the models are trained even if they never ever train a model at all. They may still, like, have insights on, like, okay. Well, you did this during training. Therefore, during inference, I can do this other thing. And so I think that having good ties of research, having being a venue, a prestigious venue where people can publish good research, and engineering research in itself is research.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "mcp-gateways",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 网关 (MCP gateways)",
+      "file": "MCP 网关",
+      "primary": false,
+      "how_described": "本集说 LM 网关和 MCP 网关是相对被市场低估的方向，大会设有 MCP 赛道来讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            1024.025,
+            1043.1399
+          ],
+          "quote": "But then also maybe the security guys, maybe the LM gateways and MCP gateways, I actually think are relatively underrated thing, which the MCP track here, we'll talk about. But, like, other than that, not a ton. You know? Yeah. Like, there's a lot of struggle to figure out, like, what the horizontal DevTools are.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "type": "concept",
+      "role": "concept",
+      "name": "PLG",
+      "file": "PLG",
+      "primary": false,
+      "how_described": "本集说 PLG（产品驱动增长）能免费获得企业客户，但从企业端发力不会免费获得 PLG 用户，存在根本的不对称性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            1184.09,
+            1214.8099
+          ],
+          "quote": "Everyone loses money on on the PLG. But I think it's a it's an interesting battle between, like, do you start an enterprise and you go down or you start PLG and go up? I would say it seems to me that the current consensus is that you want to own PLG because that gets you enterprise for free. And whereas if you go hard on enterprise, you do not get PLG for free. And so it's it there is a fundamental asymmetry there because for better or worse, we are now very cooked by the timeline.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 77,
+          "t": [
+            1215.05,
+            1248.03
+          ],
+          "quote": "And we are still we are in a situation where people will buy your podcast for $200,000,000 if you do well on Twitter, specifically only while on Twitter. Like, you don't care about YouTube, don't care about LinkedIn, do well on Twitter. And and that's good enough because enough influential people are on Twitter now that that is all you need. And so I think more so than in any time in my career, think, Twitter has mattered, and that means PLG has mattered even in the enterprise go to market because we will talk to banks and they'll they'll they'll say, like, yeah. I mean, we love your enterprise sales pitch.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "high-perplexity-words",
+      "type": "concept",
+      "role": "concept",
+      "name": "高困惑度词 (high perplexity words)",
+      "file": "高困惑度词",
+      "primary": false,
+      "how_described": "本集说这是证明'你是人类'的写作方法之一，指 LLM 不会选但人类会选的有趣表达，因为 LLM 被激励给出最可能的下一个 token",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            1670.3551,
+            1695.375
+          ],
+          "quote": "Right? Like, select your breaking of rules, selecting you know, leaving, like, flaws in. But, also, I think choosing high perplexity words, perplexity in the sort of NLP sense of it, meaning, like, you would not normally predict that as the most likely next token, but a human would because they conceptually understand that this is the most interesting way to say something. Right? Whereas an LLM is not incentivized to do that.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 112,
+          "t": [
+            1695.375,
+            1704.5099
+          ],
+          "quote": "They are incentivized to give you the most likely next token. And so inserting high perplexity words like the word perplexity for now gives you some edge.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "awareness-of-evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "对测试的感知 (awareness of evals)",
+      "file": "对测试的感知",
+      "primary": true,
+      "how_described": "本集说这是对齐安全领域最重要的指标之一，指 LLM 知道自己在被测试后可以故意失败来隐藏智能——一旦模型非常清楚这一点，就该停下来了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            2257.17,
+            2284.395
+          ],
+          "quote": "We can we can we can just about detect awareness of evals, which is a fun one, which is the the the the the main idea is if an LLM knows it's being tested, it can intentionally fail to hide its intelligence if it understands that if it is too smart, it will be shut down. Woah. So there's a game theory going on here that is already being worked out. And, yeah, I hope this is not new to you, but, like, if you're",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "daytona",
+      "type": "company",
+      "role": "company",
+      "name": "Daytona",
+      "file": "Daytona",
+      "primary": false,
+      "how_described": "本集提到 Swyx 投资了 Daytona，它后来转型做代码沙箱方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            892.17,
+            901.21
+          ],
+          "quote": "Yeah. I mean, sandboxes. Yeah. And so I I am invested in both e two b and Daytona for god knows what reason. I invested in both before they both pivot to to that.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "type": "company",
+      "role": "company",
+      "name": "Modal",
+      "file": "Modal",
+      "primary": false,
+      "how_described": "本集在列举代码沙箱基础设施时，将 Modal 与 Vercel 并列为'大的那头'的执行平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            1005.4,
+            1023.705
+          ],
+          "quote": "Everything in between is very squeezed. Right? So you have to be really good infrastructure for code sandboxing, which is the small part of it is code mode where that's free. That's Monty and JustBash at the Swalin. At the at the large end, it's people like Modal and Vercel and all the all the other guys.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集说 Cloudflare 的 Just Bash 被 AIE 网站用来做任意代码执行，是 code mode 的 Python 形式实现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            643.42,
+            676.43
+          ],
+          "quote": "And so, you know, we had a great dinner, and there was, like, this rogue guy that didn't have a ticket that was just, like he just moved from crypto to AI, and it was, like but and it was just so fun, and I'm that was just the best that to this day, that's the best conference I've ever been to, the very first day of Engineers. It's just, like, unbelievable energy. Yeah. So now, like, I mean, I do find that I I'm just learning a lot of stuff and, you know, there's so much so much so many things. Like, for instance, I can say, like, the code mode stuff that Cloudflare are doing.",
+          "speaker": "Speaker 1"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集说 Swyx 为 Cognition 做咨询，Cognition 与 Cursor 是编码领域的两个大名字",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            1161.85,
+            1184.09
+          ],
+          "quote": "Well, know, so so I I consult for Cognition, and and the cursors basically, they're they're they're two big names in in coding. Right? It's Cognition and Cursor. And it's Factory and Coder and, you know, a long tail of others. I I would say everyone like, enterprise is where the margin is because everyone loses money, and this is a very good deal for us as individual developers.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集将 Cursor 与 Cognition 并列为编码领域的两个大名字",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            1161.85,
+            1184.09
+          ],
+          "quote": "Well, know, so so I I consult for Cognition, and and the cursors basically, they're they're they're two big names in in coding. Right? It's Cognition and Cursor. And it's Factory and Coder and, you know, a long tail of others. I I would say everyone like, enterprise is where the margin is because everyone loses money, and this is a very good deal for us as individual developers.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": false,
+      "how_described": "本集说 DoorDash 以 4.5 亿美元收购了一家 7 人公司，用来说明 RL 环境赛道的价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            912.075,
+            941.84503
+          ],
+          "quote": "Like, there's a there's a year old company that's called bought bought by DoorDash, $450,000,000 for seven employees. So they're they're doing decently well. You know? Like, not, like, not something that a VC would write home about, but individually, I would write home all day with that kind of outcome. And so so, yeah, I I I mean, absolutely, people are doing in incredibly well with with their startups on on these sort of very targeted services for basically model labs.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "11-labs",
+      "type": "company",
+      "role": "company",
+      "name": "11 Labs",
+      "file": "11 Labs",
+      "primary": false,
+      "how_described": "本集说模型实验室应该专注特定模态，举例'就像 11 Labs 那样'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            942.085,
+            1005.32
+          ],
+          "quote": "And I I I think the other companies are like, there there there there's definitely, like, a let's call it a introspection moment about, like, what the value is, and and people who if say if you worked on an AI framework the last three years, and it was an open source AI framework, and you wanted to be the React of AI and blah blah blah, you maybe struggled a bit more. Right? Because everyone can write their own framework, and yours is not not necessarily as better or worse than mine because it's actually like, if your your whole defense or your moat is your ecosystem of integrations with everything else, well, I can vibe code that too. So, like, what the hell use are you? So so, really, like, I think I think people are really receding to either your model lab where you train models and you you supply them via API, whatever, and you have maybe you should specialize in a particular modality like 11 labs, or you're all the way on the other side where you're an agent lab where you you're you have a domain specific vertical agent that does very good thing for a particular target audience.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "informa",
+      "type": "company",
+      "role": "company",
+      "name": "Informa",
+      "file": "Informa",
+      "primary": false,
+      "how_described": "本集说 Informa 是一家估值 130 亿美元的英国上市公司，只办会议（包括 GDC 和 Blackhats），其最大业务线比 AIE 大四倍，没有演讲者，纯商业对接",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            2991.825,
+            3001.9802
+          ],
+          "quote": "ruin my conference. You know? We could do that. We just haven't done it yet. But, like, it but, yeah, one of the in the businesses I'm inspired by is actually a UK publicly listed company called Informa.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说在 Anthropic 和 DeepMind 等大实验室里，研究和工程之间没有明确界限；也提到 Anthropic 在伦敦做机制可解释性研究",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            399.34,
+            430.34
+          ],
+          "quote": "That is also research, but that is not model training research. It is just capabilities research. And so I do think that, like, engineers derive a lot of their beliefs and architectural understanding from researchers, and people cross over all the time from research to engineering. And this is, like, probably the most single most consistent thing I hear from the model labs, primarily OpenAI Anthropic, where there is not that fine of a line between research and engineering. People jump over all the time.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 152,
+          "t": [
+            2196.735,
+            2227.005
+          ],
+          "quote": "Well, no. They can squeeze in much more information per bit than we do. So we're just fundamentally un ill equipped to deal with that, and they already communicate lane space internally anyway. And so the the only like like the the the research that Anthropic and DeepMind actually, we nearly had a mechanistic mechanistic interpret ability track here because that's where a lot of the work gets done in London, is to try to interpret what goes on in the neurons of of a of a LLM. And we don't know that much.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "gdc",
+      "type": "company",
+      "role": "company",
+      "name": "GDC",
+      "file": "GDC",
+      "primary": false,
+      "how_described": "本集说 GDC 是 3A 游戏行业唯一愿意分享内部技术细节的会议，是 AI Engineers 想对标的行业会议榜样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            477.88,
+            497.875
+          ],
+          "quote": "So I think there is some. And in some ways, AI engineer is founded as a counterbalance to that. I have three or four inspirations in terms of role models that I look up to. One of them is GameDevCon, GDC. If you're in the triple a games industry, this is the only conference you go to to learn your craft from your peers at other conferences.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 219,
+          "t": [
+            3014.945,
+            3038.205
+          ],
+          "quote": "So they do GDC and Blackhats, two of the my role model conferences. And so the kind of conferences that we run here is their second largest business. The first largest business is four times the size, and they'd have no speakers. You only show up, and you do business. You you network.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "latent space",
+      "reason": "别名表实体「latent-space」的任何书写形式都未在真相源出现(疑编造)"
+    },
+    {
+      "name": "e2b",
+      "reason": "专名「e2b」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

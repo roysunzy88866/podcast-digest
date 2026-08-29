@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":77,"智能体":151,"harness":17,"沙箱":30,"智能体循环":1,"上下文工程":6,"会话日志追踪":2,"泄露的凭证":3,"可观测性":13}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":79,"智能体":153,"harness":17,"沙箱":31,"智能体循环":1,"上下文工程":6,"会话日志追踪":2,"泄露的凭证":3,"可观测性":13}</script>
 
 <script>
 (function(){

@@ -1,0 +1,118 @@
+{
+  "title_zh": "Basecamp 5 引导设计：让CEO亲自带客户过产品",
+  "tldr": "37signals 联合创始人 Jason Fried 拆解 Basecamp 5 的新用户引导——用画中画视频让用户在真实项目里动手操作，并且他自己亲自给新客户做一对一演示。",
+  "digest_md": "这一集是 37signals 的 REWORK 播客，联合创始人 Jason Fried 和 David Heinemeier Hansson 聊他们怎么给 Basecamp 5 做新用户引导。Jason 是 37signals 的 CEO，David 是联合创始人兼 CTO [00:00 Kimberly]。最反直觉的一点是：Jason 在 Twitter 上发了个提议，说要亲自带五名新客户，每隔几周做一次通话，手把手过一遍产品 [06:53 Jason]。\n\n## 画中画导览：在真实项目里动手，而不是看箭头\n\nBasecamp 之前的引导基本就是指箭头——\"这是这儿，这是那儿，这样用\"。到做 HEY（他们的邮件产品）的时候，他们试了一种新方式：用户必须把邮件一封封筛选进来，这个过程本身就是在互动中学会产品 [00:30 Jason]。这套体验成了他们的新标杆。\n\nBasecamp 5 把这个思路往前推了一步。注册之后，用户看到的是一个内容完整的真实项目，不是空壳。角落里有一个画中画小视频，Kimberly 出镜说\"试试这个，试试那个\"。用户就在这个真实项目里点来点去、留评论、随便玩。玩完之后，下一步才是创建自己的第一个项目。整个过程没有风险——你不会搞砸任何真正重要的东西 [02:25 Unknown]。\n\n整个导览大概三分钟。走完之后，界面完整呈现，侧边栏会再推几条通知，教你更多功能，同时你也学会了怎么用通知系统本身 [03:01 Unknown]。\n\nJason 说他心里一直有个黄金标准：如果你能坐在每个客户旁边，亲手带他们过一遍产品，你会怎么做？他觉得 Basecamp 5 是他们最接近这个愿景的一次 [03:36 Unknown]。\n\n## 引导为什么总是烂：你自己不注册，当然不知道坏了\n\nDavid 指出了一个结构性问题：做产品的人自己不注册自己的产品。他们天天泡在满是数据的账户里，根本看不到\"稀疏状态\"——只有一个项目、两个待办列表时产品长什么样 [04:01 David]。\n\n更致命的是漂移。你发布那天做好了引导流程，然后产品不断迭代，东西挪了位置、加了新功能，但注册流程还停在发布日的样子。因为团队不会每天都走一遍注册流，不像某个拖拽交互坏了，你天天被烦就会去修 [05:31 Unknown]。\n\nDavid 说他以前注册别人的产品，看到明显过时的引导会想\"他们怎么不知道？\"，现在回想起来，他自己上次注册 Basecamp 可能都是一年前的事了。所以现在他多了点同理心 [06:10 Unknown]。\n\n## CEO 亲自演示：不是销售，是展示哲学\n\nJason 不只是设计了画中画引导，他还亲自上阵。他在 Twitter 上说，接下来 90 天内注册某个方案的前五名客户，他每隔几周带他们过一遍账户，随时问答。立刻就满了五个人 [06:53 Jason]。\n\n他说这不是销售。他不推销，不承诺定制功能，不在乎你买不买。他就是想展示产品，因为他为它自豪 [08:48 Jason]。而且演示的时候，他传递的不只是功能，还有他们的工作哲学——比如很多人问\"怎么接 GitHub issues\"，他的回答是\"你其实不需要接那些\"。人们现在被教育成觉得需要一堆工具、设计师和程序员分开在不同地方工作。而 Basecamp 的方式是一个程序员和一个设计师在同一个地方协作，这常常让人震惊 [07:39 Unknown]。\n\nKimberly 提到，让人惊讶的不仅是这件事本身，而是做这件事的人是 CEO [08:33 Kimberly]。David 的说法更直白：大多数\"职业 CEO\"根本不碰自己的产品，就像麦当劳 CEO 在广告里咬一小口汉堡，看起来像完全不吃自己东西的人，语言里都透着不对劲 [13:01 Unknown]。他认为创始人主导的公司有一个天然优势——创始人从零开始手动做过每一单销售，更可能保持和客户之间的双向连接 [14:02 Unknown]。\n\n## 引导也是介绍\"我们是谁\"\n\nBasecamp 5 的引导还有一层目的：不只是教人用产品，是介绍公司本身。注册后第一件事是看到 Jason 的一封信（格式信函，但写的是他本人的邮箱地址，有问题可以直接写给他，他每天亲自回） [09:24 Unknown]。应用内的公告也改成了个人头像发出，来自 Jason、Kimberly 或 Brian，而不是\"Basecamp 公司\"这个笼统品牌 [11:07 Kimberly]。\n\nJason 说，现在这个行业里产品越来越像——大家都在往中间塞一个大文本框，打字就行。产品之间区分度越来越低。那你怎么让人记住你？除了产品本身，还有你作为一家公司是什么样的人、多平易近人、多愿意沟通 [10:40 Unknown]。\n\n## 双向收获：演示也是用户测试\n\nDavid 补充说，这种一对一不是单向的。他们以为发布后会有争议的改动，有的确实成了问题，但很多要么根本没人注意到，要么被注意到的是他们完全没预料到的地方 [11:28 David]。\n\n这跟单口喜剧一样——你以为会炸场的段子没反应，随口一句反而全场笑。你只有坐到客户旁边，看他们实际操作，才知道什么真正落地 [12:13 Unknown]。包括那些很蠢的绊脚点，也是亲眼看着才能发现 [13:01 Unknown]。\n\n## 本集带走\n\n- **让用户在真实项目里动手，而不是空壳里看教程**：Basecamp 5 先给一个内容完整的项目让用户随便点，画中画视频引导，走完再创建自己的项目。零风险，学得快。\n- **引导流程会\"漂移\"——产品在进化，注册流程停在发布日**：团队自己不注册自己的产品，所以不知道引导已经过时了。要定期亲自走一遍注册流。\n- **创始人亲自演示传递的不只是功能，是工作哲学**：\"你不需要接那些工具\"这类回答，比功能介绍更有冲击力。\n- **把引导当成介绍\"我们是谁\"的机会**：用真人头像发公告、创始人邮箱直接暴露给客户、亲自回邮件——这些比产品差异化更难被复制。\n- **一对一演示是最好的用户测试**：你以为会炸的点没反应，没在意的地方反而被反复提到。只有坐到客户旁边才能发现。",
+  "quotes": [
+    {
+      "en": "If you could literally sit next to every single customer and go, here's what I want to show you, what would you do? And that's the gold standard for me.",
+      "zh": "如果你真的能坐在每个客户旁边，说，这是我想给你看的，你会做什么？那是我的黄金标准。",
+      "timestamp": "03:36",
+      "speaker": ""
+    },
+    {
+      "en": "You say, Kimberly, like, oh, you're surprised that Jason would do that. I can understand it's surprised because most company CEOs, certainly the professional ones never do. And that's why their shit sucks because they're not actually exposed to it.",
+      "zh": "你说，Kimberly，哦，你对 Jason 会那样做感到惊讶。我理解这是惊讶，因为大多数公司 CEO，当然专业的那些从不做。这就是为什么他们的东西很烂，因为他们实际上没有接触到它。",
+      "timestamp": "13:01",
+      "speaker": ""
+    },
+    {
+      "en": "I actually care about the thing I'm selling. I'm not selling product. I'm selling burgers. I'm selling project management tools. I'm selling something specific. I'm not selling a category. I'm not selling content.",
+      "zh": "我实际上关心我卖的东西。我不是卖产品。我在卖汉堡。我在卖项目管理工具。我在卖特定的东西。我不是卖一个类别。我不是卖内容。",
+      "timestamp": "14:02",
+      "speaker": ""
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:30",
+      "speaker": "Jason",
+      "en": "Yeah, onboarding is something that's always been really fun to work on, although Basecamp never really had a great onboarding. It was decent and there's some things we did to make it better, but it was a little bit like pointing arrows at things and this is where this is and this is where this is and this is how this works.",
+      "zh": "是的，引导一直是一件很有趣的工作，虽然 Basecamp 从来没有真正很好的引导。它还凑合，我们做了一些事情让它变得更好，但这有点像在东西上指箭头，这是这儿，这是那儿，这是这样工作的。"
+    },
+    {
+      "timestamp": "02:25",
+      "speaker": "Unknown",
+      "en": "And there's no stakes here. That's the other thing. You're not making projects that matter and you're not going to screw anything up if you play around. And then at the end it's like, okay, now I'm ready to go.",
+      "zh": "这里没有利害关系。那是另一回事。你不是在制作重要的项目，如果你玩弄它，你也不会搞砸任何东西。最后就像，好的，现在我准备好了。"
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Unknown",
+      "en": "If you could literally sit next to every single customer and go, here's what I want to show you, what would you do? And that's the gold standard for me.",
+      "zh": "如果你真的能坐在每个客户旁边，说，这是我想给你看的，你会做什么？那是我的黄金标准。"
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "David",
+      "en": "I think one of the reasons why this is hard to do really well is that you don't see it that often. We are not signing up for Basecamp every day because we already have Basecamp and we're very engrossed in it and we have a lot of data in it.",
+      "zh": "我认为很难做得非常好的原因之一是你不经常看到它。我们没有每天注册 Basecamp，因为我们已经有了 Basecamp，我们非常投入其中，我们有很多数据在里面。"
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Unknown",
+      "en": "There's always opportunities for these things to drift so that your nice onboarding flow, yeah, it was nice when you designed it and then seven things changed in the product and things moved around and maybe you introduced new features or whatever and you just don't see it or it just didn't keep up.",
+      "zh": "这些事情总是有机会漂移，以至于你很好的引导流程，是的，当你设计它时它很好，然后产品中有七个东西改变了，东西移动了，也许你引入了新功能或者不管什么，你就是看不到它或者它只是没有跟上。"
+    },
+    {
+      "timestamp": "06:10",
+      "speaker": "Unknown",
+      "en": "So you of course assume that it's going to be the best that that team has to offer. And that's just not the case. In almost all cases, onboarding flow is going to be substantially worse than the rest of the product if someone had kept working on it because all the attention goes somewhere else.",
+      "zh": "所以你当然假设它将是该团队提供的最好的。但事实并非如此。在几乎所有情况下，如果有人继续开发它，引导流程将比产品的其余部分糟糕得多，因为所有的注意力都去了别的地方。"
+    },
+    {
+      "timestamp": "06:53",
+      "speaker": "Jason",
+      "en": "I just enjoy it. I mean, I'm really proud of the product. Basecamp 5 is really, really good and I just want to show people.",
+      "zh": "我只是享受它。我的意思是，我真的为产品感到自豪。Basecamp 5 真的真的很好，我只是想展示给人们。"
+    },
+    {
+      "timestamp": "07:39",
+      "speaker": "Unknown",
+      "en": "People come at software these days thinking you need a bunch of tools and a bunch of separate things and a bunch of separate places. People are confused and they think designers work in one place and programmers work in another.",
+      "zh": "人们现在带着这样的想法看待软件，你需要一堆工具和一堆分开的东西和一堆分开的地方。人们很困惑，他们认为设计师在一个地方工作，程序员在另一个地方工作。"
+    },
+    {
+      "timestamp": "07:39",
+      "speaker": "Unknown",
+      "en": "And so not only do we get to show them the product, but we get to show them the point of view and the philosophy of working that a team is two people. It's a programmer and a designer. Those are the functional roles, but they work together in the same place on the same stuff. And that blows people's minds and it's always fun to blow people's minds.",
+      "zh": "所以我们不仅给他们展示产品，我们还给他们展示观点和工作的哲学，即团队是两个人。它是一个程序员和一个设计师。那些是职能角色，但他们在同一个地方在同样的东西上一起工作。这让人大开眼界，让人大开眼界总是很有趣。"
+    },
+    {
+      "timestamp": "08:48",
+      "speaker": "Jason",
+      "en": "I'm not a salesperson. I'm not trying to sell you anything. I don't care if you buy it or not. I think it'll leave an impression, make an impression on you and it's up to you at that point.",
+      "zh": "我不是销售人员。我不是试图向你推销任何东西。我不在乎你是否买它。我认为它会给你留下印象，做出印象，然后由你决定。"
+    },
+    {
+      "timestamp": "10:40",
+      "speaker": "Unknown",
+      "en": "Most products these days, most software these days looks about the same and a lot of it works about the same. And if you look, especially in our industry across things like Monday and ClickUp and Asana and Notion and whatever, they're all fully all in AI and they're all big text boxes in the middle and you just type what you want. And I think it's actually very confusing for a lot of people.",
+      "zh": "如今大多数产品，大多数软件看起来大致相同，很多工作方式大致相同。如果你看，特别是在我们的行业，像 Monday 和 ClickUp 和 Asana 和 Notion 和不管什么，它们都是 AI 全投入，它们都是中间的大文本框，你只是输入你想要的东西。我认为这实际上对很多人来说非常困惑。"
+    },
+    {
+      "timestamp": "11:28",
+      "speaker": "David",
+      "en": "I also think it's a very reciprocal process actually. Yes, someone is getting a tour of Basecamp, but Jason or I are getting a tour of how someone receives Bacecamp. What they notice, what they don't notice",
+      "zh": "我也认为这实际上是一个非常双向的过程。是的，有人在获得 Basecamp 的导览，但 Jason 或我正在获得某人接收 Bacecamp 的导览。他们注意到了什么，他们没注意到什么"
+    },
+    {
+      "timestamp": "12:13",
+      "speaker": "Unknown",
+      "en": "And sometimes it's sort of a throwaway comment that kills that night and you go like, \"Oh, okay. I didn't realize that that would be the trigger point.\" And I think you have that a lot in software development as well.",
+      "zh": "有时这有点像是那晚炸场的随口评论，你就像，\"哦，好的。我没意识到那会是触发点。\"我认为你在软件开发中也有很多这种情况。"
+    },
+    {
+      "timestamp": "13:01",
+      "speaker": "Unknown",
+      "en": "You say, Kimberly, like, oh, you're surprised that Jason would do that. I can understand it's surprised because most company CEOs, certainly the professional ones never do. And that's why their shit sucks because they're not actually exposed to it.",
+      "zh": "你说，Kimberly，哦，你对 Jason 会那样做感到惊讶。我理解这是惊讶，因为大多数公司 CEO，当然专业的那些从不做。这就是为什么他们的东西很烂，因为他们实际上没有接触到它。"
+    },
+    {
+      "timestamp": "14:02",
+      "speaker": "Unknown",
+      "en": "I actually care about the thing I'm selling. I'm not selling product. I'm selling burgers. I'm selling project management tools. I'm selling something specific. I'm not selling a category. I'm not selling content.",
+      "zh": "我实际上关心我卖的东西。我不是卖产品。我在卖汉堡。我在卖项目管理工具。我在卖特定的东西。我不是卖一个类别。我不是卖内容。"
+    }
+  ],
+  "voice_script": "你敢信吗？一家做了快二十年、员工好几十人的软件公司，CEO 竟然在推特上发帖说，要亲自给新客户打语音电话，手把手带他们过一遍产品。\n\n这期我们就来聊聊，37signals 的联合创始人 Jason Fried，是怎么给 Basecamp 5 做新用户引导的。这里头有一条特别反常识的主线——真正顶级的引导，根本不是教人点按钮，而是直接把你的工作哲学塞给用户。\n\n先说产品里发生了什么。以前的软件引导长什么样？无非就是指箭头，这是这儿，这是那儿，点一下。但 Basecamp 5 完全抛弃了这一套。你刚注册完，看到的不是空壳，而是一个内容满满的、真实的现成项目。屏幕角落弹出个画中画小视频，里面的真人会跟你说，试试点这里，试试留个评论。你就直接在这个真实项目里随便玩，怎么弄都不怕搞砸，因为根本不是你自己的数据。三分钟逛完，学会了怎么用，这时候才让你去建自己的第一个项目。\n\n说白了就是，把你扔进真车里开，而不是给你看一本方向盘说明书。Jason 自己说，心里一直有个黄金标准：如果你能坐在每个客户旁边，亲手带他们过一遍，你会怎么做？这版引导，就是最接近这个愿景的一次。\n\n但光有好的引导流程还不够，这里有个极其隐蔽的坑，叫\"漂移\"。\n\n联合创始人 David 一针见血地指出来：做产品的人，自己根本不注册自己的产品。团队天天泡在满是数据的账户里，完全看不到那种\"稀疏状态\"——就一个项目、两个待办事项的时候，界面长什么样。更致命的是，产品天天在改，东西挪了位置、加了新功能，但注册流程还死死停在发布那天的样子。因为没人每天去走一遍注册流，某个拖拽交互坏了你天天被烦会去修，引导流程过时了，谁也没感觉。\n\n那怎么破？Jason 的做法极其硬核：亲自上阵。发帖说接下来 90 天注册某个方案的前五名客户，每隔几周带他们过一遍账户，随时问答。名额瞬间就满了。\n\n注意，这不是销售电话。不推销，不承诺定制功能，不在乎你买不买，就是纯展示，因为为这个产品自豪。而且传递的根本不是功能，是工作哲学。很多人问怎么把 GitHub issues 接进来，回答是：你其实不需要接那些。大家现在被教育得觉得需要一堆工具，设计师和程序员得分散在不同地方。但 Basecamp 的方式就是一个程序员和一个设计师在同一个地方协作，这种理念常常让人震惊。\n\nDavid 说得更直白：大多数\"职业 CEO\"根本不碰自己的产品，就像麦当劳 CEO 在广告里咬一小口汉堡，看起来像完全不吃自己东西的人。而创始人主导的公司有天然优势，因为从零开始手动做过每一单销售，能保持和客户之间的双向连接。\n\n更有意思的是，这帮人把引导直接当成了介绍\"我们是谁\"的渠道。注册后第一件事是看到 Jason 的一封信，留的就是他本人的邮箱，有问题直接写，每天亲自回。应用里的公告也不再是\"Basecamp 公司\"这种冷冰冰的牌子发出来的，全换成 Jason、Kimberly 这些真人头像。\n\n现在行业里产品越来越像，都在中间塞个大文本框打字，区分度极低。那怎么让人记住你？就是你作为一家公司，到底是什么样的人，有多平易近人。\n\n最后说回那五个一对一的客户。这哪是演示，分明是最好的用户测试。本来以为发布后会有争议的改动，有的确实出了问题，但很多要么根本没人注意到，要么完全在意料之外。就像单口喜剧，你以为会炸场的段子没反应，随口一句反而全场笑。只有坐到客户旁边，亲眼看着操作，才能发现那些很蠢的绊脚点。\n\n如果你真的能坐在每个客户旁边，说，这是我想给你看的，你会做什么？那是我的黄金标准。"
+}

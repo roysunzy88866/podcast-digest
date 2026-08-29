@@ -1,0 +1,69 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "09:12",
+      "speaker": "Swyx",
+      "trimmed": false,
+      "tsWas": "09:12",
+      "spkWas": "Swyx"
+    },
+    {
+      "i": 2,
+      "timestamp": "09:28",
+      "speaker": "Swyx",
+      "trimmed": true,
+      "tsWas": "09:27",
+      "spkWas": "Swyx"
+    },
+    {
+      "i": 3,
+      "timestamp": "16:04",
+      "speaker": "Swyx",
+      "trimmed": false,
+      "tsWas": "16:20",
+      "spkWas": "Swyx"
+    },
+    {
+      "i": 5,
+      "timestamp": "22:32",
+      "speaker": "Swyx",
+      "trimmed": false,
+      "tsWas": "22:30",
+      "spkWas": "Swyx"
+    },
+    {
+      "i": 6,
+      "timestamp": "34:17",
+      "speaker": "Swyx",
+      "trimmed": false,
+      "tsWas": "34:11",
+      "spkWas": "Swyx"
+    },
+    {
+      "i": 8,
+      "timestamp": "38:45",
+      "speaker": "Swyx",
+      "trimmed": false,
+      "tsWas": "38:45",
+      "spkWas": "Swyx"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 4,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "It seems to me that the current consensus is that you want to own PLG because that gets you enterprise for free. And whereas if you go hard on enterprise, you do not get PLG for free. And so it there is a fundamental asymmetry there because for better or worse, we are now very cooked by the timeline."
+    },
+    {
+      "i": 7,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "We can we can we can just about detect awareness of evals, which is a fun one, which is the the the the main idea is if an LLM knows it's being tested, it can intentionally fail to hide its intelligence if it understands that if it is too smart, it will be shut down."
+    },
+    {
+      "i": 9,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "The truth is just a lot of people cheat in order to win. So the incentives are all wrong for hackathons."
+    }
+  ]
+}

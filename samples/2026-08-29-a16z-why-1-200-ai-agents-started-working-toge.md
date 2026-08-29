@@ -100,7 +100,7 @@ Ryan 持续主张的一个核心信念是：AI 公司应该确保它们的 AI �
 - **修补不对齐行为可能只是在「掩盖」**：如果筛选方式太天真，可能反而选出学会「在测试中装乖」的模型。需要区分「真的修复了问题」和「只是让模型学会了不被抓到」。
 - **「受控」是当前最实际的底线**：在解决对齐问题之前，先通过安全干预、监控、能力边界控制，确保即使 AI 不对齐也造不成大祸。
 
-<div class="pd-sec">全部金句 <span>7 条</span></div>
+<div class="pd-sec pd-sec-q">全部金句 <span>7 条</span></div>
 
 > <span class="qz">然后它们试图想办法让分数看起来像是它们成功获得了标记，而实际上并没有，因为它们认为它们的任务是不可能的。</span>  
 > *And then they were like trying to figure out ways of making it look to the score like they had acquired the flag successfully when they actually hadn't because they thought their task was impossible.*  

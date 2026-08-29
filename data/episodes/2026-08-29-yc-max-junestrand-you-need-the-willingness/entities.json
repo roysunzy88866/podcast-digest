@@ -1,0 +1,1268 @@
+{
+  "episode_id": "2026-08-29-yc-max-junestrand-you-need-the-willingness",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-29",
+  "tags": [
+    "法律 AI",
+    "智能体",
+    "创业文化",
+    "模型评估",
+    "增长策略"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "max-junestrand",
+      "type": "person",
+      "role": "host",
+      "name": "Max Junestrand",
+      "file": "Max Junestrand",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "legora",
+      "type": "company",
+      "role": "company",
+      "name": "Legora",
+      "file": "Legora",
+      "primary": true,
+      "how_described": "本集将其描述为律师的智能体操作系统（agentic operating system for lawyers），从头到尾处理复杂法律工作，全球超过 3% 的律师是活跃用户，ARR 在 18 个月内从零增长到 1 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.955,
+            23.318
+          ],
+          "quote": "Legora's YC journey started with a rejection, but more on that story later.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            36.183,
+            46.375
+          ],
+          "quote": "Legora is the agentic operating system for lawyers, and it handles complex legal work from start to finish so lawyers can achieve more than ever before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            47.136,
+            52.442
+          ],
+          "quote": "And over 3% of all the world's lawyers are now active users of Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            93.95,
+            102.139
+          ],
+          "quote": "Now, Legora has grown into a global brand, putting celebrities like Jude Law at the New York Wall Street.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            106.884,
+            111.849
+          ],
+          "quote": "My most favorite Slack channel in Legora is Customer Love.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            135.525,
+            136.886
+          ],
+          "quote": "One word, legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            144.993,
+            149.518
+          ],
+          "quote": "If Legora went away tomorrow, I'd just go back to coaching high school basketball.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            151.42,
+            159.628
+          ],
+          "quote": "When Legora went into YC, we were questioned about the idea of even selling and working in the legal industry.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            198.338,
+            201.459
+          ],
+          "quote": "Legora's story almost didn't happen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            655.473,
+            669.102
+          ],
+          "quote": "I think one big lesson from these first three years of building Legora has been that it is very powerful to be a person and to be a company that others want to see succeed and that others want to help.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            918.353,
+            927.737
+          ],
+          "quote": "In the very, very early days at LEIA, so even pre-LEGORA, the way that we would decide what to build was by voting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            1132.291,
+            1138.794
+          ],
+          "quote": "And by continuously doubling down on that type of talent, I think we have built a very unique culture at Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            1169.213,
+            1170.974
+          ],
+          "quote": "We have three values at Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1300.249,
+            1309.597
+          ],
+          "quote": "Another way that company culture gets expressed at Legora is through articles like this one that ended up in Sifted.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1331.886,
+            1337.708
+          ],
+          "quote": "I think it actually would be fair to say that when Legora was founded, it really had no reason to exist.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1365.045,
+            1369.929
+          ],
+          "quote": "And at Legora, we have had to build a culture to really support that ambition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1427.476,
+            1430.378
+          ],
+          "quote": "One of them was, is Legora made up of vampires?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1462.497,
+            1471.18
+          ],
+          "quote": "But that has created the same vibe in any Legora office, regardless of where you walk in all over the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1517.746,
+            1522.367
+          ],
+          "quote": "Swedish base has become one of Legora's real superpowers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1552.458,
+            1561.427
+          ],
+          "quote": "Most of what actually mattered in the company and in Legora so far did not revolve around signing a big client or...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1712.789,
+            1720.817
+          ],
+          "quote": "And Leia or Legora turned out to be the lesson for them that perhaps domain expertise is not what you need to succeed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1896.058,
+            1905.988
+          ],
+          "quote": "Because if everybody's betting on this exponential uplift in model capability, the Legora platform will continue delivering more and more value.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            2068.336,
+            2080.787
+          ],
+          "quote": "We did a lot of that early on because we hired a lot of lawyers into Legora and we made part of their job customer facing, but part of their job was also to build out use cases that we would throw our evals on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            2118.81,
+            2121.092
+          ],
+          "quote": "Well, we look at the Legora Bench.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            2240.821,
+            2241.422
+          ],
+          "quote": "About Legora?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2416.065,
+            2419.547
+          ],
+          "quote": "When we started Legora, I was super introverted.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2507.43,
+            2509.712
+          ],
+          "quote": "How is that expressed inside Legora?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2509.892,
+            2513.855
+          ],
+          "quote": "How does a Legora employee know that Max is a very competitive CEO who loves to win?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2513.895,
+            2515.416
+          ],
+          "quote": "I think everybody at Legora is like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2814.2,
+            2819.183
+          ],
+          "quote": "And I think now we are like that inside of Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2961.228,
+            2965.813
+          ],
+          "quote": "We need to sell the story of how working at Legora is going to be better than working at Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3145.616,
+            3148.737
+          ],
+          "quote": "We are hiring a hundred of them at Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            3149.077,
+            3153.919
+          ],
+          "quote": "What's the most interesting problems that people get to work on when they join Legora?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            3168.628,
+            3175.891
+          ],
+          "quote": "So for the last three years of working with the product, you will give Legora a prompt or a set of instructions, and it's going to go off and do that thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            3176.691,
+            3183.193
+          ],
+          "quote": "Now, we are basically connecting Legora to different pieces of context, and when it gets a trigger, it will start to do something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 506,
+          "t": [
+            3184.16,
+            3189.063
+          ],
+          "quote": "That means that if the sales team gets a contract, it will get routed to a Legora agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            3189.203,
+            3191.684
+          ],
+          "quote": "The Legora agent will start working on it in parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            3197.487,
+            3206.352
+          ],
+          "quote": "Or you connect the entire data room to a Legora agent, and the agent automatically starts organizing that data room and produce the due diligence report.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3213.697,
+            3222.905
+          ],
+          "quote": "And that for us is the unlock of how does one lawyer produce the outcomes of a team of 10 lawyers with the help of Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3312.858,
+            3321.701
+          ],
+          "quote": "And I tell this to the executive team, I need to re-qualify for the job as CEO of Legora every quarter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 564,
+          "t": [
+            3418.675,
+            3426.297
+          ],
+          "quote": "When I landed in Stockholm in the end of April, all of the ads were basically Legora ads with Jude Law.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3435.631,
+            3440.655
+          ],
+          "quote": "And if you haven't seen the ads, I recommend you go into YouTube and watch the Legora Jude Law ads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 578,
+          "t": [
+            3474.979,
+            3481.344
+          ],
+          "quote": "And all of these movies about lawyers, like what if they just had Legora and the movie would be over in like a minute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 580,
+          "t": [
+            3484.606,
+            3488.589
+          ],
+          "quote": "And then somebody went, well, Legora is like AI-powered law.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集大量讨论智能体工作流（agentic workflows）以及从反应式智能体（reactive agents）到主动式智能体（proactive agents）的转变——即从你给指令它才执行，变为接入上下文后收到触发信号就自动行动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 506,
+          "t": [
+            3184.16,
+            3189.063
+          ],
+          "quote": "That means that if the sales team gets a contract, it will get routed to a Legora agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            3189.203,
+            3191.684
+          ],
+          "quote": "The Legora agent will start working on it in parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            3197.487,
+            3206.352
+          ],
+          "quote": "Or you connect the entire data room to a Legora agent, and the agent automatically starts organizing that data room and produce the due diligence report.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3208.753,
+            3212.717
+          ],
+          "quote": "Having the agent do things without you telling it what it should do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "与 agent 同义复数形式，如 Legora agent 在收到合同后自动并行处理，需要升级才转给律师。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 502,
+          "t": [
+            3155.144,
+            3166.848
+          ],
+          "quote": "Oh, one of the most interesting problems right now is this transition from reactive agents to proactive agents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tune)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集将不微调模型作为核心战略判断：2022-2023 年的普遍认知是你必须微调模型（如 Bloomberg 花数百万建法律模型），但 Legora 打赌模型会持续变强，不把钱花在微调上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            1790.487,
+            1798.414
+          ],
+          "quote": "So I think the sort of tribal knowledge when we got started was that you have to fine-tune a model, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集称评估新模型和评估新用例的能力是创业公司应建立的核心 IP 和超能力，有了它才能在不同场景间有效路由。他们内部请律师构建用例来跑评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            2049.098,
+            2067.03
+          ],
+          "quote": "I think ultimately one of the core IPs and muscles that I encourage as many of you as possible to build is the ability to eval new models and to eval new use cases because that is the superpower that then allows you to route things effectively.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "benchmarks",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmarks)",
+      "file": "基准测试",
+      "primary": false,
+      "how_described": "本集提到他们内部用了三年的 Legora Bench 上周刚发布，用于衡量不同模型在法律场景的表现和性价比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            2114.167,
+            2117.749
+          ],
+          "quote": "And are there specific benchmarks you look at for how...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            2138.65,
+            2146.792
+          ],
+          "quote": "And so it wasn't like that interesting to publish benchmarks on and we would only make those two models available in our system and the user could pick.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            2152.848,
+            2161.08
+          ],
+          "quote": "And actually, we found, to our surprise, that SpaceX and Grok was one of the best performant models, especially given the costs on our benchmarks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpt-3-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT 3.5",
+      "file": "GPT 3.5",
+      "primary": true,
+      "how_described": "本集称 GPT-3.5 到来是'我们这一代人的互联网时刻'，它让法律 AI 从需要大量训练才能得到一点点结果，变成可以真正交付价值的拐点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            283.324,
+            294.252
+          ],
+          "quote": "And with GPT 3.5, they had built a very simple product that could explain what a stock option agreement really meant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            309.514,
+            315.38
+          ],
+          "quote": "When GPT 3.5 came, that was the internet moment of our generation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            428.235,
+            431.716
+          ],
+          "quote": "And when GPT-3.5 came, that really changed the story.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1617.465,
+            1626.313
+          ],
+          "quote": "When GPT 3.5 dropped in our knees, we truly made that into our thing, and we captured what I believe to be our generation's internet moment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "large-language-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "大型语言模型 (large language models)",
+      "file": "大型语言模型",
+      "primary": false,
+      "how_described": "本集开头说审视法律行业时，感觉这是应用大型语言模型解决实际问题最大的机会之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            58.253,
+            68.986
+          ],
+          "quote": "When we started looking at the legal industry, it felt like one of the biggest opportunities to apply large language models to solve real problems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            450.979,
+            461.662
+          ],
+          "quote": "We applied in May of 2023 with a promise of being able to query all legal documents using large language models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": false,
+      "how_described": "本集提到他们在销售冻结期间重建平台，使其能适配不断变化的智能体工作流框架，如 LangChain。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            959.55,
+            970.565
+          ],
+          "quote": "It was adaptable to foundations that were constantly changing, both with the underlying models, but also with the frameworks that we were using to build agentic workflows like LangChain, et cetera.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bert",
+      "type": "concept",
+      "role": "concept",
+      "name": "BERT",
+      "file": "BERT",
+      "primary": false,
+      "how_described": "本集提到 2020 年 GPT 出现之前，他们用 Google 的早期模型 BERT 来探索法学院案例总结的可能性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            235.316,
+            244.2
+          ],
+          "quote": "And with the early models from Google called BERT, they started to explore what this space could be and what was possible to build.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "azure",
+      "type": "company",
+      "role": "company",
+      "name": "Azure",
+      "file": "Azure",
+      "primary": false,
+      "how_described": "本集提到早期产品不稳定时，Azure 实例流量一多系统就崩溃，这是他们决定冻结销售的原因之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            874.943,
+            887.107
+          ],
+          "quote": "Or if the lag in the system is too high, or if the system goes down when there's too much traffic on your Azure instance, you are toast.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "type": "company",
+      "role": "company",
+      "name": "Bloomberg",
+      "file": "Bloomberg",
+      "primary": false,
+      "how_described": "本集举 Bloomberg 为反面例子：花了数百万美元建 Bloomberg 法律模型（微调路线），而 Legora 走了相反的路。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1801.857,
+            1809.624
+          ],
+          "quote": "I even remember it was Bloomberg who spent millions and millions and millions of dollars building like a Bloomberg law model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到在 Legora Bench 内部使用期间，基本上只有 OpenAI 和 Anthropic 的模型表现够好，所以之前没兴趣发布基准测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            2133.209,
+            2138.15
+          ],
+          "quote": "And the reason for that was it was basically OpenAI or the anthropic models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集两处提及：一是说 Legora 早期基准测试中基本上只有 OpenAI 和 Anthropic 模型够好；二是说招聘时要和 Anthropic 等实验室争夺人才。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            2133.209,
+            2138.15
+          ],
+          "quote": "And the reason for that was it was basically OpenAI or the anthropic models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2961.228,
+            2965.813
+          ],
+          "quote": "We need to sell the story of how working at Legora is going to be better than working at Anthropic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "type": "concept",
+      "role": "concept",
+      "name": "Grok",
+      "file": "Grok",
+      "primary": false,
+      "how_described": "本集说在 Legora Bench 发布后惊讶地发现，Grok 在性价比上表现意外地好，尽管它甚至还没被加入数据处理协议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            2152.848,
+            2161.08
+          ],
+          "quote": "And actually, we found, to our surprise, that SpaceX and Grok was one of the best performant models, especially given the costs on our benchmarks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ocr",
+      "type": "concept",
+      "role": "concept",
+      "name": "OCR",
+      "file": "OCR",
+      "primary": false,
+      "how_described": "本集提到 Legora 在 OCR 和文档解析上花费数百万美元，这是大规模工程问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 516,
+          "t": [
+            3230.151,
+            3234.954
+          ],
+          "quote": "Millions and millions and millions of dollars on OCR and document parsing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-room",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据室 (data room)",
+      "file": "数据室",
+      "primary": false,
+      "how_described": "本集描述将整个数据室（尽职调查用的文档库）接入 Legora 智能体，智能体自动整理并生成尽职调查报告。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 510,
+          "t": [
+            3197.487,
+            3206.352
+          ],
+          "quote": "Or you connect the entire data room to a Legora agent, and the agent automatically starts organizing that data room and produce the due diligence report.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "y-combinator",
+      "type": "company",
+      "role": "company",
+      "name": "Y Combinator",
+      "file": "Y Combinator",
+      "primary": false,
+      "how_described": "本集讲述 Legora 第一次申请 YC 被拒、两个月后以新名字被录取的经历，称在瑞典被 YC 录取感觉像去奥林匹斯山。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            7.312,
+            14.875
+          ],
+          "quote": "This is a much warmer welcome than what we had coming into Y Combinator the first time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            530.027,
+            539.514
+          ],
+          "quote": "From Sweden, the idea of getting accepted into Y Combinator felt like we were going to Mount Olympus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            551.042,
+            557.407
+          ],
+          "quote": "And once we got to Y Combinator, we realized that we actually knew a lot more than we thought we did.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            576.919,
+            584.801
+          ],
+          "quote": "So after we got accepted into Y Combinator, we moved into this law firm I mentioned earlier, Mannheimer & Swartling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1634.761,
+            1642.528
+          ],
+          "quote": "So with that, we're going to jump to Q&A, and I want to invite a very good friend, our partner from Y Combinator, Gustav Omstrammer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "company",
+      "role": "company",
+      "name": "Benchmark",
+      "file": "Benchmark",
+      "primary": false,
+      "how_described": "本集提到 Legora 融资时最终与风险投资公司 Benchmark 合作，对方投资了 951 万美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            782.828,
+            786.371
+          ],
+          "quote": "And we ended up working with a venture firm called Benchmark.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "type": "company",
+      "role": "company",
+      "name": "Spotify",
+      "file": "Spotify",
+      "primary": false,
+      "how_described": "本集提到在斯德哥尔摩创业时，Spotify 和 Klarna 是最大的科技成功故事，是他们早期的偶像和参照系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            2866.252,
+            2868.372
+          ],
+          "quote": "Also, we would look at Spotify and Klarna.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "klarna",
+      "type": "company",
+      "role": "company",
+      "name": "Klarna",
+      "file": "Klarna",
+      "primary": false,
+      "how_described": "本集说他们后来意识到 Legora 的市值已经比 Klarna 还大，这是一个奇怪的时刻。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            2866.252,
+            2868.372
+          ],
+          "quote": "Also, we would look at Spotify and Klarna.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2874.654,
+            2877.335
+          ],
+          "quote": "And then we realized, wow, we have a bigger market cap than Klarna.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vanta",
+      "type": "company",
+      "role": "company",
+      "name": "Vanta",
+      "file": "Vanta",
+      "primary": false,
+      "how_described": "本集提到 Legora 的 CFO David 来自 Vanta（另一家 YC 公司），Vanta 四年从 3000 万增长到 3 亿，而 Legora 一年就做到了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 556,
+          "t": [
+            3387.736,
+            3390.778
+          ],
+          "quote": "David, our CFO, joined from Vanta, another YC company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集提到当 Microsoft 推出 Copilot 时他们很恐慌，以为每个律师都会直接用 Word 和 Outlook 里的 Copilot，但结果 Copilot 在法律场景并不好用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            2372.075,
+            2376.177
+          ],
+          "quote": "And, I mean, I think you saw this in just, like, the way that Microsoft would build Copilots.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": false,
+      "how_described": "本集提到 Microsoft 构建的 Copilot 在法律领域很长一段时间都不起作用，说明通用工具无法替代垂直深耕的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            2384.481,
+            2388.362
+          ],
+          "quote": "Every lawyer already works in Word and Outlook, and now they're just going to use Copilot.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mannheimer-swartling",
+      "type": "company",
+      "role": "company",
+      "name": "Mannheimer Swartling",
+      "file": "Mannheimer Swartling",
+      "primary": false,
+      "how_described": "本集提到这是北欧最大的律师事务所，Legora 早期搬进他们的办公室紧密合作，其管理合伙人曾上电视说 AI 在法律领域人工多于智能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            369.103,
+            379.211
+          ],
+          "quote": "And once we had gotten our feet under ourselves, we approached one of the largest law firms in the Nordics named Mannheimer Swartling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            576.919,
+            584.801
+          ],
+          "quote": "So after we got accepted into Y Combinator, we moved into this law firm I mentioned earlier, Mannheimer & Swartling.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mckinsey",
+      "type": "company",
+      "role": "company",
+      "name": "McKinsey",
+      "file": "McKinsey",
+      "primary": false,
+      "how_described": "本集提到 Max 原本计划毕业后去 McKinsey，认为它是了解世界的好起点，但 GPT-3.5 出现后他改变了计划。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1609.522,
+            1615.844
+          ],
+          "quote": "I thought I had a big plan for my life, and I was going to go to McKinsey after school.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2212.457,
+            2218.861
+          ],
+          "quote": "What was the trigger for you to say, I'm just going to do this and not do McKinsey or the other options that you had?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2318.685,
+            2326.909
+          ],
+          "quote": "I should probably learn more about the world, which I thought McKinsey was going to be a great place to start at, which I still think it is.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集问答环节提到 Startup School 的观众里有人在 DeepMind 工作，讨论何时应该离开大公司去创业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 301,
+          "t": [
+            2204.093,
+            2205.094
+          ],
+          "quote": "People are working at DeepMind.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到第一代 ChatGPT 在法律中不可用（模型不够好、不支持欧洲数据托管），他们早期的话术是'我们就像 ChatGPT 但在欧洲合规'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1839.555,
+            1844.657
+          ],
+          "quote": "Even with the first generation of ChatGPT, that was unusable in law.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1860.942,
+            1864.565
+          ],
+          "quote": "We are like ChatGPT, but we are compliant in Europe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1869.069,
+            1871.951
+          ],
+          "quote": "And clearly, ChatGPT would figure out how to do that later on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": false,
+      "how_described": "本集提到另一组用户要求获得开源模型的访问权限，以降低消耗成本，Max 认为答案在闭源和开源之间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 272,
+          "t": [
+            2037.14,
+            2040.962
+          ],
+          "quote": "And another group of our users are saying, can we get access to open source?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "type": "concept",
+      "role": "concept",
+      "name": "路由 (route)",
+      "file": "路由",
+      "primary": false,
+      "how_described": "本集说评估能力是超能力，因为它允许你有效路由（route things effectively）——在不同场景间选择最合适的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            2049.098,
+            2067.03
+          ],
+          "quote": "I think ultimately one of the core IPs and muscles that I encourage as many of you as possible to build is the ability to eval new models and to eval new use cases because that is the superpower that then allows you to route things effectively.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jantelagen",
+      "type": "concept",
+      "role": "concept",
+      "name": "Jante 法则 (Jantelagen)",
+      "file": "Jante 法则",
+      "primary": false,
+      "how_described": "本集解释这是斯堪的纳维亚文化中不鼓励个人出风头的社会规范——你不该觉得自己是个人物、想法不比别人的好。好处是让最好的想法胜出，但要建增长最快的企业就是障碍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            1210.906,
+            1215.568
+          ],
+          "quote": "is something called Jantelagen, or the Law of Jante.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pmf",
+      "type": "concept",
+      "role": "concept",
+      "name": "PMF",
+      "file": "PMF",
+      "primary": false,
+      "how_described": "本集提到从一家寻找 PMF 的小型初创公司转变为真正确立业务和产品方向，是在销售冻结之后发生的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            904.787,
+            916.312
+          ],
+          "quote": "You know, turning from a small startup looking for PMF to really establishing what our business and what our product was going to be.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

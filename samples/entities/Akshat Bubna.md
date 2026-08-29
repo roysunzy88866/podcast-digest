@@ -32,17 +32,17 @@ aliases: ["Akshat"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[swyx]] · [[Vibhu]] · [[Modal]] · [[智能体]] · [[AX]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]] · [[投机解码]]
+[[Swyx]] · [[Vibhu]] · [[Modal]] · [[智能体]] · [[AX]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]] · [[投机解码]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"swyx":1,"Vibhu":1,"Modal":2,"智能体":151,"AX":1,"DX":3,"沙箱":30,"推理":3,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":3,"智能体":153,"AX":1,"DX":3,"沙箱":31,"推理":3,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

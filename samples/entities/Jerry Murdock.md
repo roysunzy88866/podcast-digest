@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
+[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Neoclouds":1,"Fireworks":3,"前沿模型":5,"开源模型":3,"沙箱":30,"智能体":151,"推理":3,"GPU":9,"持续学习模型":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Neoclouds":1,"Fireworks":3,"前沿模型":5,"开源模型":3,"沙箱":31,"智能体":153,"推理":3,"GPU":9,"持续学习模型":1}</script>
 
 <script>
 (function(){

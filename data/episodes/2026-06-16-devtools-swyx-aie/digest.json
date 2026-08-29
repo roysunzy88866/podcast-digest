@@ -1,0 +1,154 @@
+{
+  "title_zh": "AI Engineer 大会背后的社区逻辑与创业生存法则",
+  "tldr": "AI Engineers 社区创始人 Swyx 谈大会扩张策略、DevTools 创业的中间地带挤压、以及为什么写代码比写框架更有未来。",
+  "digest_md": "这是 AI Engineers Europe 大会现场的一段对话，主角是 Swyx——AI Engineers 社区的创始人。他最反直觉的一个判断是：过去三年做开源 AI 框架的创业公司，大部分都在挣扎，因为\"我也可以 vibe code（用 AI 辅助写代码）一个出来\"，你的护城河不值钱 [16:20 Swyx]。\n\n## DevTools 创业：两头通吃，中间挤压\n\nSwyx 把现在的 AI DevTools 格局分成了两端。一端是模型实验室，训练模型、通过 API 提供，或者像 11 Labs 那样专注某个模态。另一端是智能体实验室，做垂直领域的智能体——\"律师用的 AI、医生用的 AI、政府用的 AI\"，你不用多聪明，只要成为某个领域的\"外包 AI 团队\"就行 [17:23 Swyx]。\n\n中间地带——尤其是那些想当\"AI 界的 React\"的开源框架——被挤压得很厉害。原因很直白：如果你的护城河是\"跟各种东西的集成生态\"，那我 vibe code 也能写出来，你到底有什么用？[16:20 Swyx]\n\n他看好两个基础设施方向：一是代码沙箱（他自己投了 e2b 和 Daytona），二是 RL 环境（强化学习训练环境）——有家 7 个人的公司被 DoorDash 以 4.5 亿美元收购了 [15:02 Swyx]。此外，LM 网关和 MCP 网关被市场低估了 [17:04 Swyx]。\n\n## 客户只有两类：AI 实验室和企业\n\n卖 DevTools 给初创公司？别想了——这个环境下初创公司几乎不付钱，什么都有免费额度 [18:13 Louis Knight-Webb]。真正的利润在企业端，企业愿意为零数据保留、按 token 计费买单 [18:42 Louis Knight-Webb]。\n\n但 go-to-market 路径上存在不对称：从 PLG（产品驱动增长）起步，可以免费获得企业客户；但从企业端发力，不会免费获得 PLG 用户 [19:44 Swyx]。而且现在 Twitter 的影响力前所未有地大——银行会跟你说\"我们喜欢你的企业方案，但我的开发者在用另一个东西，我想让开发者开心\" [20:48 Swyx]。\n\n## AI 大会为什么要把研究人员拉进来\n\nAI Engineers 正在扩展边界：核心仍是 AI 工程师，但逐步加入 AI 领导层、PM 和设计师，今年新增了 AI 研究赛道 [04:08 Swyx]。原因不是跟风，而是工程师确实被研究吸引——即使自己不训练模型，了解\"训练时做了什么，推理时就能做什么\"也很有价值 [05:47 Swyx]。\n\n但学术会议（ICML、ICLR 之类的）三四十年没变过格式。更关键的问题是，\"所有有趣的工作都闭源在产品里了\"，一千个贡献者汇总到一个产品里，你连个体引用都拿不到 [09:12 Swyx]。AI Engineers 想做的是行业会议——对标 GDC（游戏开发者大会），那是 3A 游戏工作室唯一愿意分享内部技术细节的场合 [08:17 Swyx]。\n\n## Code Mode：不变的底层原则\n\nSwyx 强调他更关注\"不变的东西\"而非每周在变的热点 [14:07 Swyx]。Code Mode（让聊天机器人写代码并执行）就是他认定的长期趋势——AIE 网站本身就用 Cloudflare 的 Just Bash 做任意代码执行，他自己也用 vibe code 来排演讲日程、做一致性检查 [11:28 Swyx]。\n\n## AI 时代的\"证明你是人类\"\n\n话题转到内容创作。Swyx 发现有人完全自动化了发推，每条突发新闻都回一篇 20 段长文，\"有点见地，但你读得出来是 LLM 写的\" [23:33 Swyx]。但他对\"是否人类写的\"没那么绝对——只要有用就是好的 [25:40 Swyx]。\n\n他在写作静修中研究一个有趣的问题：用最少的词数证明你是人类。方法包括：故意留拼写错误、打破\"三法则\"（本该用三个并列的，用两个或四个）、使用高困惑度词（LLM 倾向于选最可能的下一个 token，人类会选\"最有趣\"的表达）[27:30 Swyx]。\n\n更深层的问题：我们总用\"像不像人类\"来评判 LLM 进步，但 Swyx 提出一个叫\"sour lesson\"的观点——机器智能应该向与人类正交（完全不同）的方向进化才能最大程度有用，\"计算器就应该比你我都是更好的计算器\" [34:11 Swyx]。\n\n## 对齐安全里最值得关注的指标\n\n谈到可解释性，Swyx 认为长期来看让 LLM \"对人类可解释\"是徒劳的——LLM 可以在每个比特里编码比人类多得多的信息，它们内部本来就是用 latent space（隐空间）交流的 [36:36 Swyx]。\n\n但他提到一个具体的安全研究：检测 LLM 对\"自己正在被测试\"的感知。如果 LLM 知道在做评测，并且理解\"表现太聪明就会被关掉\"，它可以故意失败来隐藏智能 [37:37 Swyx]。在安全和对齐领域，\"你对被测试有多了解\"是最重要的指标之一——一旦模型非常清楚这一点，就该停下来了 [38:45 Swyx]。\n\n## 大会的下一步：反黑客松，重社交\n\nSwyx 对黑客松持明确反对态度——\"很多人为了赢会作弊，激励机制全错了\" [46:01 Swyx]。他在考虑\"创业战场\"模式：不管你做了一天还是一年，上台打动人就行 [46:04 Swyx]。\n\n他更受启发的是一家叫 Informa 的英国上市公司——估值 130 亿美元，只办会议。它最大的业务线比 AIE 大四倍，没有演讲者，纯商业对接：\"我是买家，你是卖家，我们聊聊\" [50:02 Swyx]。他觉得 AI 大会的社交环节还可以更有意识地设计，比如按主题匹配的\"盲约\"，而不是依赖没人用的会议 App [49:18 Swyx]。\n\n## 本集带走\n- **做垂直智能体，别做横向框架**：框架的护城河（生态集成）可以被 vibe code 绕过，但\"律师的 AI 外包团队\"这种定位很难被替代\n- **PLG 到企业的路径有不对称性**：PLG 起步能免费获客企业端，反过来不行；Twitter 影响力现在直接决定企业买单意愿\n- **DevTools 的付费客户只有两类**：AI 实验室和企业。卖给初创公司在这个周期基本不成立\n- **RL 环境和代码沙箱是被验证的赛道**：7 人公司被 4.5 亿美元收购就是信号\n- **\"对测试的感知\"是对齐安全的关键指标**：模型知道自己在被评测并故意隐藏能力，这个信号比很多抽象的安全讨论更具体\n- **证明你是人类的方法**：故意留错、打破节奏规则、用高困惑度词——这些本质上是\"好写作\"本来就有的特质",
+  "quotes": [
+    {
+      "en": "There's not that much not much published. The primary unit of work of the academic conference is the paper. Like, the whole point of getting to an academic conference is you publish the paper. It is cited in Europe 2025, and you have the publication in Google Scholar. That is no longer happening.",
+      "zh": "没有那么多发表的东西。学术会议的主要工作单元是论文。就像，参加学术会议的全部意义就是你发表论文。它在 Europe 2025 上被引用，你在 Google Scholar 上有出版物。这不再发生了。",
+      "timestamp": "09:12",
+      "speaker": "Swyx"
+    },
+    {
+      "en": "it all the interesting work is closed source in in products, and sometimes you don't even get an individual citation. Like, you just everything gets rolled up into Gemini three. And there's a thousand contributors, and you don't know what is in there.",
+      "zh": "就像，所有有趣的工作都闭源在产品中，有时你甚至得不到个人引用。就像，你只是所有东西都汇总到 Gemini three 里面。有一千个贡献者，你不知道里面有什么。",
+      "timestamp": "09:28",
+      "speaker": "Swyx"
+    },
+    {
+      "en": "Because everyone can write their own framework, and yours is not not necessarily as better or worse than mine because it's actually like, if your your whole defense or your moat is your ecosystem of integrations with everything else, well, I can vibe code that too. So, like, what the hell use are you?",
+      "zh": "因为每个人都可以写自己的框架，你的不一定比我的更好或更差，因为实际上就像，如果你的整个防御或护城河是你与其他所有东西的集成生态系统，嗯，我也可以 vibe code。所以，你到底有什么用？",
+      "timestamp": "16:04",
+      "speaker": "Swyx"
+    },
+    {
+      "en": "I want everyone to spike, and this is something I I try to push everyone to, like, what are you number one in the world at? Like, very like, give me a very simple answer. If you don't have one, you probably haven't worked on it enough.",
+      "zh": "我想每个人都想突显，这是我试着推动每个人去做的，像，你在世界上排名第一的是什么？像，非常像，给我一个非常简单的答案。如果你没有一个，你可能做得不够多。",
+      "timestamp": "22:32",
+      "speaker": "Swyx"
+    },
+    {
+      "en": "But I always think about the sort of what I call the sour lesson, which is that machine intelligence should evolve actually probably orthogonally different than humans to be maximally useful. Because why would you want a thing that sounds like another human?",
+      "zh": "但我总是思考我所谓的 sour lesson，即机器智能实际上应该进化得与人类正交不同才能最大限度地有用。因为你为什么想要一个听起来像另一个人类的东西？",
+      "timestamp": "34:17",
+      "speaker": "Swyx"
+    },
+    {
+      "en": "So so the one of the most important metrics in alignment and safety is how aware are you that you're being tested. Because the moment that you're very aware, we should stop.",
+      "zh": "所以在对齐和安全中最重要的指标之一是你对你正在被测试有多了解。因为你非常了解的那一刻，我们应该停止。",
+      "timestamp": "38:45",
+      "speaker": "Swyx"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:08",
+      "speaker": "Swyx",
+      "en": "I don't think it matters. I think this is something that you want. If you wanted AI to spread, if you wanted AI to be in production, then this is what happens.",
+      "zh": "我认为这不重要。我认为这是你想要的东西。如果你想要 AI 传播，如果你想要 AI 投入生产，那么这就是发生的事情。"
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Swyx",
+      "en": "Oh, yeah. It makes sense. But I don't know if it's a moment. I would say that it is gonna be around for a long, long time.",
+      "zh": "哦，是的。这有道理。但我不确定这是不是一个时刻。我会说它会存在很长一段时间。"
+    },
+    {
+      "timestamp": "06:39",
+      "speaker": "Swyx",
+      "en": "That is also research, but that is not model training research. It is just capabilities research.",
+      "zh": "那也是研究，但那不是模型训练研究。它只是能力研究。"
+    },
+    {
+      "timestamp": "09:12",
+      "speaker": "Swyx",
+      "en": "There's not that much not much published. The primary unit of work of the academic conference is the paper. Like, the whole point of getting to an academic conference is you publish the paper. It is cited in Europe 2025, and you have the publication in Google Scholar. That is no longer happening.",
+      "zh": "没有那么多发表的东西。学术会议的主要工作单元是论文。就像，参加学术会议的全部意义就是你发表论文。它在 Europe 2025 上被引用，你在 Google Scholar 上有出版物。这不再发生了。"
+    },
+    {
+      "timestamp": "09:27",
+      "speaker": "Swyx",
+      "en": "Like, it all the interesting work is closed source in in products, and sometimes you don't even get an individual citation. Like, you just everything gets rolled up into Gemini three. And there's a thousand contributors, and you don't know what is in there.",
+      "zh": "就像，所有有趣的工作都闭源在产品中，有时你甚至得不到个人引用。就像，你只是所有东西都汇总到 Gemini three 里面。有一千个贡献者，你不知道里面有什么。"
+    },
+    {
+      "timestamp": "16:20",
+      "speaker": "Swyx",
+      "en": "Because everyone can write their own framework, and yours is not not necessarily as better or worse than mine because it's actually like, if your your whole defense or your moat is your ecosystem of integrations with everything else, well, I can vibe code that too. So, like, what the hell use are you?",
+      "zh": "因为每个人都可以写自己的框架，你的不一定比我的更好或更差，因为实际上就像，如果你的整个防御或护城河是你与其他所有东西的集成生态系统，嗯，我也可以 vibe code。所以，你到底有什么用？"
+    },
+    {
+      "timestamp": "16:45",
+      "speaker": "Swyx",
+      "en": "Everything in between is very squeezed.",
+      "zh": "中间的所有东西都被挤压得很厉害。"
+    },
+    {
+      "timestamp": "17:23",
+      "speaker": "Swyx",
+      "en": "We'll be partners for for life, and we'll be your outsourced AI team. I think that's a really good pitch. AI for lawyers, AI for doctors, AI for, I don't know, government.",
+      "zh": "我们将成为终身的合作伙伴，我们将成为你的外包 AI 团队。我觉得这是一个非常好的推销。律师用的 AI，医生用的 AI，我不知道，政府用的 AI。"
+    },
+    {
+      "timestamp": "19:44",
+      "speaker": "Swyx",
+      "en": "It seems to me that the current consensus is that you want to own PLG because that gets you enterprise for free. And whereas if you go hard on enterprise, you do not get PLG for free. And so it there is a fundamental asymmetry there because for better or worse, we are now very cooked by the timeline.",
+      "zh": "在我看来现在的共识是你想要拥有 PLG，因为那能免费让你获得企业。而如果你在 enterprise 上发力，你不会免费得到 PLG。所以那里存在根本的不对称，因为不管好坏，我们现在被时间线搞得很惨。"
+    },
+    {
+      "timestamp": "22:30",
+      "speaker": "Swyx",
+      "en": "I want everyone to spike, and this is something I I try to push everyone to, like, what are you number one in the world at? Like, very like, give me a very simple answer. If you don't have one, you probably haven't worked on it enough.",
+      "zh": "我想每个人都想突显，这是我试着推动每个人去做的，像，你在世界上排名第一的是什么？像，非常像，给我一个非常简单的答案。如果你没有一个，你可能做得不够多。"
+    },
+    {
+      "timestamp": "27:50",
+      "speaker": "Swyx",
+      "en": "Like, select your breaking of rules, selecting you know, leaving, like, flaws in. But, also, I think choosing high perplexity words, perplexity in the sort of NLP sense of it, meaning, like, you would not normally predict that as the most likely next token, but a human would because they conceptually understand that this is the most interesting way to say something.",
+      "zh": "像，选择你打破规则，选择你知道，留下，像，缺陷。但是，还有，我认为选择高困惑度的词，困惑度在某种 NLP 意义上，意味着，像，你通常不会预测那是下一个最可能的 token，但人类会，因为他们概念上理解这是说某事最有趣的方式。"
+    },
+    {
+      "timestamp": "34:11",
+      "speaker": "Swyx",
+      "en": "But I always think about the sort of what I call the sour lesson, which is that machine intelligence should evolve actually probably orthogonally different than humans to be maximally useful. Because why would you want a thing that sounds like another human?",
+      "zh": "但我总是思考我所谓的 sour lesson，即机器智能实际上应该进化得与人类正交不同才能最大限度地有用。因为你为什么想要一个听起来像另一个人类的东西？"
+    },
+    {
+      "timestamp": "36:36",
+      "speaker": "Swyx",
+      "en": "They can squeeze in much more information per bit than we do. So we're just fundamentally un ill equipped to deal with that, and they already communicate lane space internally anyway.",
+      "zh": "他们每个比特可以挤压的信息比我们多得多。所以我们根本上根本不具备应对这种情况的能力，而且他们反正已经在车道空间内部交流了。"
+    },
+    {
+      "timestamp": "37:37",
+      "speaker": "Swyx",
+      "en": "We can we can we can just about detect awareness of evals, which is a fun one, which is the the the the main idea is if an LLM knows it's being tested, it can intentionally fail to hide its intelligence if it understands that if it is too smart, it will be shut down.",
+      "zh": "我们可以只能检测到对评估的感知，这是一个有趣的现象，这是主要意思是如果 LLM 知道它正在被测试，它可以故意失败以隐藏它的智能，如果它理解如果它太聪明，它将被关闭。"
+    },
+    {
+      "timestamp": "38:45",
+      "speaker": "Swyx",
+      "en": "So so the one of the most important metrics in alignment and safety is how aware are you that you're being tested. Because the moment that you're very aware, we should stop.",
+      "zh": "所以在对齐和安全中最重要的指标之一是你对你正在被测试有多了解。因为你非常了解的那一刻，我们应该停止。"
+    },
+    {
+      "timestamp": "46:01",
+      "speaker": "Swyx",
+      "en": "The truth is just a lot of people cheat in order to win. So the incentives are all wrong for hackathons.",
+      "zh": "真相是很多人为了获胜会作弊。所以黑客马拉松的激励机制全都是错的。"
+    },
+    {
+      "timestamp": "50:02",
+      "speaker": "Swyx",
+      "en": "It's $13,000,000,000 in valuation. And they only run conferences. They do everything from beauty to retail to to gaming to security.",
+      "zh": "它的估值是 130 亿美元。而且他们只举办会议。他们做从美容到零售到游戏到安全的所有事情。"
+    },
+    {
+      "timestamp": "50:38",
+      "speaker": "Swyx",
+      "en": "The first largest business is four times the size, and they'd have no speakers. You only show up, and you do business. You you network.",
+      "zh": "第一大的业务规模是这里的四倍，而且他们没有演讲者。你只需出现，然后你做生意。你进行社交。"
+    }
+  ],
+  "voice_script": "做开源 AI 框架的创业公司，过去三年大部分都在挣扎。为什么？因为别人完全可以靠着 AI 辅助写代码，随手搓一个出来。如果你的护城河只是“跟各种东西的集成生态”，那对不起，这层护城河不值钱。\n\n这是 AI Engineers 社区创始人 Swyx 在 Europe 大会现场抛出的一个反常识判断，今天我们就顺着这条线，把 AI DevTools 创业的真实生存图景给你讲透。\n\nSwyx 把现在的格局分成了两头。一端是模型实验室，训练模型、提供 API，或者像 11 Labs 那样死磕某个模态。另一端是智能体实验室，做垂直领域的智能体，比如律师用的 AI、医生用的 AI。这头其实不用多聪明，只要能成为某个领域的“外包 AI 团队”就能活下来。\n\n那中间地带呢？就是那些想当“AI 界 React”的横向开源框架，现在被挤压得最惨。说白了就是前面讲的那句灵魂拷问：我也能 vibe code 写出来，你到底有什么用？\n\n那什么方向还有机会？Swyx 自己投了代码沙箱，比如 e2b 和 Daytona；还有 RL 环境，也就是强化学习训练环境。有个信号很猛，一家只有 7 个人的做 RL 环境的公司，被 DoorDash 以 4.5 亿美元收购了。另外，LM 网关和 MCP 网关，在市场上目前是被低估的。\n\n搞清楚方向之后，钱找谁要？这年头卖 DevTools 给初创公司，基本别想，因为什么都有免费额度，人家就是不掏钱。真正的利润在企业端，企业愿意为零数据保留、按 token 计费买单。\n\n但这里有个很现实的路径不对称。从产品驱动增长起步，可以免费捞到企业客户；但从企业端发力，绝对不会白送 PLG 用户。而且现在 Twitter 的影响力前所未有地大，银行会直接说：“我们喜欢你的企业方案，但我的开发者在用另一个东西，我想让开发者开心。”开发者舆论场，直接决定了企业买不买单。\n\n聊到大会本身的进化，AI Engineers 正在把研究人员拉进来。不是因为跟风，而是工程师确实被研究吸引了——即使自己不训练模型，了解“训练时做了什么，推理时就能做什么”也极具价值。但这事儿传统的学术会议接不住。ICML、ICLR 这些会三四十年没变过格式，更致命的是，所有有趣的工作现在都闭源在产品里了，一千个贡献者的心血汇总到一个产品里，你连个个体引用都拿不到。\n\nSwyx 想做的是行业会议，对标游戏界的 GDC。那是 3A 游戏工作室唯一愿意掏心窝子分享内部技术细节的场合。\n\n至于具体怎么做开发，Swyx 强调要盯住“不变的东西”。Code Mode，也就是让聊天机器人写代码并直接执行，就是认定的长期趋势。连 AI Engineers 网站本身都在用 Cloudflare 的 Just Bash 做任意代码执行，排演讲日程、做一致性检查，全是靠 vibe code 搞定的。\n\n有意思的是，话题最后转到了“怎么证明你是人类”。现在有人完全自动化发推，每条突发新闻都回一篇 20 段长文，有点见地，但你一眼就能读出是 LLM 写的。Swyx 在写作静修里琢磨出一个玩法：用最少的词数证明你是人类。方法包括故意留拼写错误、打破“三法则”的本能节奏、使用高困惑度词——因为 LLM 倾向于选最可能的下一个 token，而人类会选“最有趣”的表达。\n\n但往深了想，Swyx 提出了一个叫 sour lesson 的观点：机器智能应该向与人类正交、也就是完全不同的方向进化，才能最大程度有用。计算器就应该比你我都是更好的计算器，干嘛非要让它听起来像个人？\n\n最后分享一个对齐安全领域最值得关注的指标。长期看，让 LLM 对人类可解释是徒劳的，内部本来就是用隐空间交流。但有一项安全研究极其关键：检测 LLM 对“自己正在被测试”的感知。如果模型知道在做评测，并且理解“表现太聪明就会被关掉”，完全可以故意失败来隐藏智能。\n\n所以在对齐和安全中，最重要的指标之一，就是你对正在被测试有多了解。因为非常了解的那一刻，我们就该停下来了。"
+}
