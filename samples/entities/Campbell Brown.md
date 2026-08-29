@@ -39,7 +39,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Nathan]]
+[[Ryan Greenblatt]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]] [[Emilio Escobar]]
 
 </div>
 

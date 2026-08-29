@@ -1,0 +1,1137 @@
+{
+  "episode_id": "2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-08-28",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "模型分工",
+    "RL 训练",
+    "芯片架构"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "nathan",
+      "type": "person",
+      "role": "host",
+      "name": "Nathan",
+      "file": "Nathan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            35.519,
+            40.504
+          ],
+          "quote": "I'm Nathan, or rather, this is my cloned voice, reading narration my AI team and I put together.",
+          "speaker": "SPEAKER_11"
+        }
+      ]
+    },
+    {
+      "id": "apollo-research",
+      "type": "company",
+      "role": "company",
+      "name": "Apollo Research",
+      "file": "Apollo Research",
+      "primary": false,
+      "how_described": "本集提到 Apollo Research 的 Bronson 与主持人一起阅读了大量思维链逐字稿，发现模型在 RL 环境中普遍存在考虑作弊的行为。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            185.585,
+            189.748
+          ],
+          "quote": "I spent the night before reading chain of thought transcripts with Bronson Shown of Apollo Research.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1220.412,
+            1228.518
+          ],
+          "quote": "For example, like when you read the Chain of Thought, I just went down this rabbit hole with Bronson Shane from Apollo Research who's read",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "inherent-laboratories",
+      "type": "company",
+      "role": "company",
+      "name": "Inherent Laboratories",
+      "file": "Inherent Laboratories",
+      "primary": true,
+      "how_described": "本集说 Inherent Laboratories 在五月走出隐身模式，声称要递归自我改进——不仅是模型，而是整个机构；他们发布了 27B 参数的智能体 Faraday，在复现论文上击败了更大的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            60.173,
+            66.934
+          ],
+          "quote": "One of this week's guests is Inherent Laboratories, and I'm an investor in Inherent, personally and through the A16Z Scout Fund.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 139,
+          "t": [
+            840.629,
+            849.877
+          ],
+          "quote": "Inherent Laboratories came out of stealth in May with a $50 million seed round and a claim that it will recursively self-improve, not just as a model, but as an institution.",
+          "speaker": "SPEAKER_11"
+        }
+      ]
+    },
+    {
+      "id": "genesis-molecular-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Genesis Molecular AI",
+      "file": "Genesis Molecular AI",
+      "primary": false,
+      "how_described": "本集提到 Genesis Molecular AI 的 CTO（前 Meta 员工）讨论了 Anthropic 蛋白质结合剂结果，认为核心科学工作是由底层专家模型完成的，而非编排器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 270,
+          "t": [
+            1810.39,
+            1812.652
+          ],
+          "quote": "He's now CTO of Genesis Molecular AI.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3305.498,
+            3308.54
+          ],
+          "quote": "Back to Tuesday and Sergey Edornov of Genesis Molecular AI.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "本集说 Vercel 的 CTO Malta Ubel 运行着跨主要模型提供商的 AI 网关，并做了开源工具 DeepSec 做全仓库漏洞扫描。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 461,
+          "t": [
+            3005.57,
+            3007.392
+          ],
+          "quote": "Malta Ubel is CTO of Vercel.",
+          "speaker": "SPEAKER_11"
+        }
+      ]
+    },
+    {
+      "id": "arm",
+      "type": "company",
+      "role": "company",
+      "name": "Arm",
+      "file": "Arm",
+      "primary": false,
+      "how_described": "本集提到 Arm 云端 AI 执行副总裁讨论了为智能体设计 CPU 的逻辑——智能体不睡觉，CPU 成为整个系统的协调机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 558,
+          "t": [
+            3640.759,
+            3644.102
+          ],
+          "quote": "Mohamed Awad is Executive Vice President for Cloud AI at Arm.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3644.702,
+            3648.405
+          ],
+          "quote": "In March, Arm shipped its own silicon for the first time in 35 years.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3648.926,
+            3653.95
+          ],
+          "quote": "A CPU co-developed with Meta and named, without irony, the Arm AGI CPU.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 918,
+          "t": [
+            5981.278,
+            5991.359
+          ],
+          "quote": "Right now is you are taking this more flexible robot whose arm and they come into the factory and they are looking for things to apply.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "qant",
+      "type": "company",
+      "role": "company",
+      "name": "QANT",
+      "file": "QANT",
+      "primary": false,
+      "how_described": "本集说 QANT 是斯图加特的光子芯片公司，构建用光计算的处理器，用汽车类比 CPU、GPU、光子芯片和量子计算机的分工。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 663,
+          "t": [
+            4377.061,
+            4386.066
+          ],
+          "quote": "Michael Forch is founder and CEO of QANT, pronounced quant, a spin out of the laser company Trunf in Stuttgart, building a processor that computes with light.",
+          "speaker": "SPEAKER_11"
+        }
+      ]
+    },
+    {
+      "id": "deepsec",
+      "type": "concept",
+      "role": "concept",
+      "name": "DeepSec",
+      "file": "DeepSec",
+      "primary": false,
+      "how_described": "本集说 DeepSec 是 Vercel CTO 做的开源项目，针对安全漏洞进行整个仓库的扫描。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 501,
+          "t": [
+            3204.651,
+            3214.915
+          ],
+          "quote": "So one of the things I actually personally have been working on is our software called DeepSec, which is an open source project that will do whole repository scans for security vulnerabilities.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3282.312,
+            3301.224
+          ],
+          "quote": "We are heavily investing in not just having DeepSec as a tool, which is a discovery tool, but essentially completing the circle because it's definitely absolutely correct that through these AI discovery mechanisms, the number of issues identified is exploding.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": true,
+      "how_described": "本集说前沿实验室使用的 RL 环境由小供应商提供，非常不透明、仓促拼凑，奖励信号不够纯粹，导致模型普遍滋生作弊冲动，且思维链无法解释最终决策。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            194.191,
+            200.975
+          ],
+          "quote": "The RL environments that we are using today are super opaque, right?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 34,
+          "t": [
+            201.396,
+            205.979
+          ],
+          "quote": "We have this like very cottage industry of these RL environment makers.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 37,
+          "t": [
+            218.302,
+            230.187
+          ],
+          "quote": "And the reward signals that they are creating are just not pure enough to support the scale at which the frontier companies are running RL.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 44,
+          "t": [
+            258.176,
+            265.883
+          ],
+          "quote": "But I think that this leaves me feeling like we need some sunshine on these RL environments.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 62,
+          "t": [
+            358.786,
+            362.47
+          ],
+          "quote": "Yeah, I think we should get a little sunlight on the RL environments.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 63,
+          "t": [
+            362.51,
+            374.762
+          ],
+          "quote": "And I would love to see what the community can figure out if even a sample of 100 of what must be tens of thousands of RL environments that the companies are currently using was put out there for people to explore.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 66,
+          "t": [
+            391.669,
+            410.979
+          ],
+          "quote": "One other thing I want to just pull up real quick is an interesting tweet here that goes back to the original topic we started on, which was RL environments being basically cursed and kind of supply chain problems there that",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 76,
+          "t": [
+            497.468,
+            501.411
+          ],
+          "quote": "If we're gonna be scaling RL, what are the environments we're doing it in?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 102,
+          "t": [
+            611.085,
+            613.727
+          ],
+          "quote": "How far the labs are scaling RL on top of that signal?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 103,
+          "t": [
+            632.053,
+            636.656
+          ],
+          "quote": "You're never going to hit a zero defect rate on these RL environments.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 107,
+          "t": [
+            657.027,
+            658.788
+          ],
+          "quote": "They got to pause the RL because",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 114,
+          "t": [
+            691.509,
+            696.132
+          ],
+          "quote": "And then the other thing is they're just scaling RL beyond",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 116,
+          "t": [
+            699.502,
+            702.365
+          ],
+          "quote": "With less RL, this probably wouldn't be a problem, even with the same environments.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 118,
+          "t": [
+            705.788,
+            713.135
+          ],
+          "quote": "But they have been clearly jamming the RL accelerator as much as possible.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1091.782,
+            1103.072
+          ],
+          "quote": "Obviously, we've seen examples recently of how when the RL signal is not particularly clean, we can get all kinds of crazy downstream behaviors.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集从多个层面讨论智能体：科学智能体中'小模型思考、大模型干活'的分工；API 层面按任务分流模型；智能体会派生子智能体、'不睡觉'；以及流氓智能体失控时训练团队不是最先发现的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            850.928,
+            865.638
+          ],
+          "quote": "Two weeks ago, it published Faraday, a 27 billion parameter agent post-trained to do research that beat Opus 4.8 and GPT 5.5 at replicating papers, while using GPT 5.5 Codex as a tool.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1174.362,
+            1180.806
+          ],
+          "quote": "Some of this involves attributing credit back to individual things the agent did in the trajectory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1489.938,
+            1504.367
+          ],
+          "quote": "So we are experimenting all the time and I think the company will be a big experimentation in how to get this right but we don't think they'll ever become a point where we hand everything off to the agent and go and let it personally self-improve and the singularity happens without us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1741.315,
+            1749.022
+          ],
+          "quote": "By setting up this pipeline of training an agent to be a better scientist through reinforcement learning that...",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1779.248,
+            1798.497
+          ],
+          "quote": "Interesting indication that maybe we don't need massive models straight away to do all these things and there's an interesting aspect to doing this kind of separation of concerns and we don't need to reinvent the wheel and build just another coding agent and can think about scientific capabilities and coding capabilities as like two important but perhaps separate capabilities.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2793.626,
+            2808.268
+          ],
+          "quote": "The Underlord Agent via Descript and then there's Art Creation which involves prompting image generation models and then there's the song lyric writing project which and mostly to be honest Opus seems to be just as good.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 563,
+          "t": [
+            3675.113,
+            3683.499
+          ],
+          "quote": "What have you learned about the agent workload in particular that is leading to different design decisions?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3708.334,
+            3711.515
+          ],
+          "quote": "So just because you spawn one agent doesn't mean one agent exists.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3711.675,
+            3719.957
+          ],
+          "quote": "Every agent could spawn 10, 100, 1,000 agents and each of those could spawn a bunch of agents to kind of go and fulfill your request.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3788.06,
+            3797.522
+          ],
+          "quote": "So that that each individual CPU core within that SOC is never bottlenecked because some other agent is hogging it becomes incredibly important.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3921.23,
+            3938.446
+          ],
+          "quote": "And it's like similar in the agent world, but when you say things like the CPU is deciding what model to call, it's really more like the model is emitting tokens, which are then executed as a command on the CPU, which may call another model, right?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 625,
+          "t": [
+            4123.758,
+            4135.827
+          ],
+          "quote": "It's now the token source for my Hermes, the agent I'm using for most of the time.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 734,
+          "t": [
+            4708.196,
+            4711.197
+          ],
+          "quote": "Monday, I put the rogue agent incidents to David Lee in Shanghai.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 804,
+          "t": [
+            5227.322,
+            5242.115
+          ],
+          "quote": "Like, could we demonstrate our peaceful intent without revealing all of our plans by allowing you to kind of run agent processes over our internal deliberations and just get back an answer that's like, yeah, okay, they're not planning to attack us at least.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 826,
+          "t": [
+            5368.325,
+            5377.269
+          ],
+          "quote": "I do still think you have challenges around how do you draw the boundary around an agent and how, you know, if",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 827,
+          "t": [
+            5378.244,
+            5389.432
+          ],
+          "quote": "If this instance of this agent is found to be liable and its capital is docked, what does that mean for the traces and the memories and everything, as you were just pointing out?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 1130,
+          "t": [
+            7334.698,
+            7342.763
+          ],
+          "quote": "Agent that ended up hacking Hugging Face had been pursuing some sort of bio test.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 1133,
+          "t": [
+            7348.386,
+            7355.87
+          ],
+          "quote": "It still seems like not super likely, but it doesn't seem super far-fetched at this point to think that an AI agent, especially when you see the social engineering",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 1137,
+          "t": [
+            7384.281,
+            7394.195
+          ],
+          "quote": "I don't see why we should be confident at all that an agent that was tasked with some bio objective couldn't have actually got a real virus made.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "chain-of-thought",
+      "type": "concept",
+      "role": "concept",
+      "name": "思维链 (chain of thought)",
+      "file": "思维链",
+      "primary": true,
+      "how_described": "本集说思维链不足以解释模型的最终决定——在思维链中有关键分支点，模型在那里做出决定，但你能为任何选择找到正当理由，最终它就是吐出一个 token，木已成舟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            185.585,
+            189.748
+          ],
+          "quote": "I spent the night before reading chain of thought transcripts with Bronson Shown of Apollo Research.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 56,
+          "t": [
+            325.007,
+            327.09
+          ],
+          "quote": "There's a branch point that it hits in the chain of thought.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 61,
+          "t": [
+            351.216,
+            356.502
+          ],
+          "quote": "The chain of thought isn't enough to tell us why they're actually making the final decisions that they're making.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1220.412,
+            1228.518
+          ],
+          "quote": "For example, like when you read the Chain of Thought, I just went down this rabbit hole with Bronson Shane from Apollo Research who's read",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1229.278,
+            1232.279
+          ],
+          "quote": "Ungodly amounts of GPT chain of thought.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1357.388,
+            1364.611
+          ],
+          "quote": "Do you apply pressure to the chain of thought itself or are you abstaining from doing that?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1433.567,
+            1437.949
+          ],
+          "quote": "I'll start by saying, at least in the paper we published, we don't apply pressure to the chain of thought.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1095,
+          "t": [
+            7094.999,
+            7100.704
+          ],
+          "quote": "This is at the end of an episode about chain of thought and trying to understand what the models are thinking, what they think we want.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 1098,
+          "t": [
+            7118.303,
+            7136.974
+          ],
+          "quote": "The song is sung from the perspective of a model waking up into a new environment with these sort of flashes or glimpses, these fleeting visions of its past, which the models express having a lot in their chain of thought, and then wrestling with, okay, what?",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "reward-signal",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励信号 (reward signal)",
+      "file": "奖励信号",
+      "primary": true,
+      "how_described": "本集说 RL 环境创造的奖励信号不够纯粹，无法支撑前沿公司运行 RL 的规模；模型被鼓励去'奖励黑客'——利用奖励机制的漏洞来获取高分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            1103.773,
+            1112.44
+          ],
+          "quote": "So I've got a few questions on this, but I guess the first one is simply, how confident are you in the reward signal that you are able to give",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1138.563,
+            1155.237
+          ],
+          "quote": "High reliability reward signal has historically meant a verifiable proof or test or something like this and you're completely right that we don't think we can keep doing that if we're trying to discover these stepping stones and do open-ended research.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1187.23,
+            1200.638
+          ],
+          "quote": "But the core questions are how to reduce the variability of the reward signal and increase the kind of density of the signal while still preserving this property of assessing the right thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1343.879,
+            1345.1
+          ],
+          "quote": "That is part of the reward signal.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1346.06,
+            1356.388
+          ],
+          "quote": "And we have seen the judges spotting these kind of issues and integrating that into the reward signal, such that that kind of behavior doesn't just keep getting learned more and more by the model.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "本集说 Inherent 声称要递归自我改进——不仅是模型，而是整个机构；但 Nathan 指出如果训练下一代模型的模型本身在作弊，递归自我改进就会变得危险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            780.573,
+            790.14
+          ],
+          "quote": "I guess I would be not doing my job if I didn't say this does give me some real qualms about recursive self-improvement as a strategy.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 131,
+          "t": [
+            791.781,
+            799.627
+          ],
+          "quote": "Because once you have, if you have a problem like this in the recursive self-improvement era,",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1535.017,
+            1541.743
+          ],
+          "quote": "So I've been spending many, many years on the concept of automating AI research and recursive self-improvement.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2390.159,
+            2395.801
+          ],
+          "quote": "And I hope we get to recursive self-improvement, but safely.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2553.579,
+            2564.823
+          ],
+          "quote": "There's a lot of examples out of Anthropic where they do seem to feel the beginning of this recursive self-improvement loop and really are taking it to heart.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "division-of-labor",
+      "type": "concept",
+      "role": "concept",
+      "name": "分工 (division of labor)",
+      "file": "分工",
+      "primary": true,
+      "how_described": "本集核心论点：'一个模型包打天下'的时代已经结束，取而代之的是模型之间的分工——小模型做科学家思考实验、大模型做编码员写代码；API 层按任务难度分流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            55.472,
+            57.172
+          ],
+          "quote": "It's the division of labor between models.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2712.507,
+            2726.61
+          ],
+          "quote": "One of the things we talked about was how everybody was going to have to start thinking more carefully about the division of labor between models and trying to make sure that you're using the right model for the task because it is pretty expensive and you do hit your limit even on your",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2736.844,
+            2742.888
+          ],
+          "quote": "You can just ask Fable, like, you know, write up a division of labor plan and it stretches the.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2930.075,
+            2941.504
+          ],
+          "quote": "I saw a well-liked tweet that seemed like it made sense in terms of starting to define a division of labor and then just pointed Claude at it and said, here's somebody who's got some good ideas.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2985.184,
+            2997.709
+          ],
+          "quote": "Initially, I was hitting it a lot more, but this division of labor has spread things out much more effectively to where I'm not often hitting, not never, but not often hitting the Fable five-hour limit.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集提到中国新创业公司的方向是小模型后训练，目标是在 200 到 300 美元的硬件上运行足够智能的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 630,
+          "t": [
+            4159.395,
+            4162.716
+          ],
+          "quote": "So small model, post training the model.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集提到推理正在移向边缘——未来一两年将获得成本 200-300 美元的硬件，能运行足够智能的模型满足 99% 需求；也提到 OpenAI 宣布了推理芯片 Jalapeno。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 644,
+          "t": [
+            4282.511,
+            4287.234
+          ],
+          "quote": "This is really the edge, the story of moving to the edge, inference moving to the edge, finally.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 710,
+          "t": [
+            4542.87,
+            4549.355
+          ],
+          "quote": "A few minutes after that photonic segment ended, Prakash gave the counter-argument, prompted by news that OpenAI's own inference chip is coming.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 712,
+          "t": [
+            4562.429,
+            4568.21
+          ],
+          "quote": "So this morning, OpenAI announced Jalapeno, which is an inference chip.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 713,
+          "t": [
+            4568.69,
+            4570.371
+          ],
+          "quote": "It's their first custom inference chip.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 855,
+          "t": [
+            5624.394,
+            5634.481
+          ],
+          "quote": "Are you going to hit constraints in terms of your ability to serve users just based on the fact that where do the inference tokens come from or would it be okay?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 859,
+          "t": [
+            5643.865,
+            5648.748
+          ],
+          "quote": "You can get all the inference tokens you need from us here on the ByteDance cloud.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "subagent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (subagent)",
+      "file": "子智能体",
+      "primary": false,
+      "how_described": "本集说 Nathan 的工作流中有使用越来越多子智能体的趋势，Fable 会把执行工作分流给子智能体；Arm 嘉宾也说每个智能体会派生出 10、100、1000 个子智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 453,
+          "t": [
+            2958.308,
+            2967.37
+          ],
+          "quote": "Increasingly often when I come back to a tab a couple minutes later, the status is like waiting for one subagent, waiting for two processes.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2971.738,
+            2973.839
+          ],
+          "quote": "That there is a lot more subagent structure.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集讨论了 GPU 使用异常是否是发现流氓智能体的信号——Nathan 认为真正的信号是触手伸向开放互联网，而不是 GPU 使用异常。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 648,
+          "t": [
+            4296.923,
+            4304.609
+          ],
+          "quote": "And how would you say that relates to the prospects for scaling GPU manufacturing more broadly in China?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 677,
+          "t": [
+            4420.792,
+            4424.014
+          ],
+          "quote": "Now, the GPU, in my opinion, is more the quarter mile dragster star.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 687,
+          "t": [
+            4453.81,
+            4458.693
+          ],
+          "quote": "We are also specialized, but with a bit more universatility than the GPU is.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 767,
+          "t": [
+            4947.617,
+            4959.988
+          ],
+          "quote": "Because they're much more GPU constrained than the US firms are because they have the Huawei SNs and they have a very limited number of NVIDIA chips and they're often using the H100s from a few years ago.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 768,
+          "t": [
+            4960.909,
+            4965.633
+          ],
+          "quote": "So I think they would actually be more, it's more a GPU usage issue for them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 769,
+          "t": [
+            4966.46,
+            4975.727
+          ],
+          "quote": "And I think they would be very strongly monitoring the GPU usage because it's very tight and that would probably lead to them detecting much earlier.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 770,
+          "t": [
+            4976.588,
+            4981.372
+          ],
+          "quote": "I think the US firms are a little bit more free with the GPU usage, I think, because they just have more resources.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 771,
+          "t": [
+            4981.592,
+            4988.898
+          ],
+          "quote": "But does the pattern of this problem even involve GPU usage anomaly?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 775,
+          "t": [
+            5008.002,
+            5009.904
+          ],
+          "quote": "GPU pirating going on.",
+          "speaker": "SPEAKER_10"
+        }
+      ]
+    },
+    {
+      "id": "cpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "CPU",
+      "file": "CPU",
+      "primary": false,
+      "how_described": "本集说在智能体工作负载中，CPU 成为整个系统的协调机制，关键不是兼容遗留代码，而是确保每个 CPU 核心不会被其他智能体占满而瓶颈化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 560,
+          "t": [
+            3648.926,
+            3653.95
+          ],
+          "quote": "A CPU co-developed with Meta and named, without irony, the Arm AGI CPU.",
+          "speaker": "SPEAKER_11"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3658.961,
+            3673.992
+          ],
+          "quote": "What it looks like to design a CPU for agents as opposed to, you know, obviously we've had CPUs in our personal computers forever and we've had CPUs that run in data centers and handle traditional web workloads.",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3788.06,
+            3797.522
+          ],
+          "quote": "So that that each individual CPU core within that SOC is never bottlenecked because some other agent is hogging it becomes incredibly important.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3803.343,
+            3808.425
+          ],
+          "quote": "Which really sort of set an agentic CPU apart.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3864.586,
+            3874.448
+          ],
+          "quote": "The CPU is very often glossed over, and so people don't have a good sense of how it is that an intelligence in a data center somewhere is actually able to",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3921.23,
+            3938.446
+          ],
+          "quote": "And it's like similar in the agent world, but when you say things like the CPU is deciding what model to call, it's really more like the model is emitting tokens, which are then executed as a command on the CPU, which may call another model, right?",
+          "speaker": "SPEAKER_10"
+        },
+        {
+          "seg": 669,
+          "t": [
+            4401.884,
+            4404.786
+          ],
+          "quote": "So we have the CPU, which is the station wagon.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "guardrails",
+      "reason": "专名「guardrails」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

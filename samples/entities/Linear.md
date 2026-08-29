@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Slack]] · [[Codex]] · [[原型]] · [[Nesrine Changuel]] · [[Zevi Arnovitz]] · [[Andrew Ambrosino]] · [[Rob Willoughby]] · [[Elaina O'Mahoney]]
 
-<script type="application/json" class="pd-epn">{"智能体":148,"Lenny":65,"Slack":21,"Codex":27,"原型":3,"Nesrine Changuel":1,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"Rob Willoughby":1,"Elaina O'Mahoney":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":149,"Lenny":65,"Slack":21,"Codex":27,"原型":3,"Nesrine Changuel":1,"Zevi Arnovitz":1,"Andrew Ambrosino":1,"Rob Willoughby":1,"Elaina O'Mahoney":1}</script>
 
 <script>
 (function(){

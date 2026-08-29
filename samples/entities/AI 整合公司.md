@@ -339,7 +339,7 @@ unlisted: true
 
 [[Melisa Tokmak]] · [[NETIC]] · [[智能体]] · [[基础服务]] · [[私募股权]] · [[自主企业]] · [[主观能动性]] · [[OpenAI]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Melisa Tokmak":1,"NETIC":1,"智能体":148,"基础服务":1,"私募股权":1,"自主企业":1,"主观能动性":15,"OpenAI":66,"Anthropic":75}</script>
+<script type="application/json" class="pd-epn">{"Melisa Tokmak":1,"NETIC":1,"智能体":149,"基础服务":1,"私募股权":1,"自主企业":1,"主观能动性":15,"OpenAI":66,"Anthropic":75}</script>
 
 <script>
 (function(){

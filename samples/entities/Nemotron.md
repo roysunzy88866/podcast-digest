@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[NVIDIA]] · [[护栏]] · [[Anthropic]] · [[OpenAI]] · [[前沿模型]] · [[OpenRouter]] · [[沙箱]] · [[Jensen Huang]] · [[Jensen Wong]]
 
-<script type="application/json" class="pd-epn">{"智能体":148,"NVIDIA":23,"护栏":30,"Anthropic":75,"OpenAI":66,"前沿模型":4,"OpenRouter":6,"沙箱":29,"Jensen Huang":3,"Jensen Wong":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":149,"NVIDIA":23,"护栏":30,"Anthropic":75,"OpenAI":66,"前沿模型":4,"OpenRouter":6,"沙箱":29,"Jensen Huang":3,"Jensen Wong":1}</script>
 
 <script>
 (function(){

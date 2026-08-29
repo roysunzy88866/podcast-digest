@@ -1,0 +1,51 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "03:38",
+      "speaker": "SPEAKER_10",
+      "trimmed": false,
+      "tsWas": "03:38",
+      "spkWas": "Bronson"
+    },
+    {
+      "i": 2,
+      "timestamp": "07:30",
+      "speaker": "SPEAKER_10",
+      "trimmed": false,
+      "tsWas": "07:30",
+      "spkWas": "Nathan"
+    },
+    {
+      "i": 3,
+      "timestamp": "13:23",
+      "speaker": "SPEAKER_10",
+      "trimmed": false,
+      "tsWas": "13:23",
+      "spkWas": "Nathan"
+    },
+    {
+      "i": 4,
+      "timestamp": "61:24",
+      "speaker": "SPEAKER_09",
+      "trimmed": false,
+      "tsWas": "61:24",
+      "spkWas": "Mohamed Awad"
+    },
+    {
+      "i": 5,
+      "timestamp": "80:48",
+      "speaker": "SPEAKER_10",
+      "trimmed": false,
+      "tsWas": "80:45",
+      "spkWas": "Nathan"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 6,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Whatever you want to do on this machine, you have to break it down in something that's plus and multiplication. And that's it."
+    }
+  ]
+}

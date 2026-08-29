@@ -34,7 +34,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[推理]] · [[Anthropic]] · [[Cursor]] · [[Meta]] · [[Revolut]] · [[SpaceX]] · [[Fireworks]] · [[AEO]]
 
-<script type="application/json" class="pd-epn">{"智能体":148,"OpenAI":66,"推理":2,"Anthropic":75,"Cursor":38,"Meta":22,"Revolut":4,"SpaceX":10,"Fireworks":2,"AEO":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":149,"OpenAI":66,"推理":2,"Anthropic":75,"Cursor":38,"Meta":22,"Revolut":4,"SpaceX":10,"Fireworks":2,"AEO":3}</script>
 
 <script>
 (function(){

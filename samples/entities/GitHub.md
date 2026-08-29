@@ -65,7 +65,7 @@ unlisted: true
 
 [[智能体]] · [[Slack]] · [[Cursor]] · [[Claude Code]] · [[沙箱]] · [[Figma]] · [[Codex]] · [[Lenny]] · [[Notion]] · [[Vercel]]
 
-<script type="application/json" class="pd-epn">{"智能体":148,"Slack":21,"Cursor":38,"Claude Code":38,"沙箱":29,"Figma":11,"Codex":27,"Lenny":65,"Notion":9,"Vercel":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":149,"Slack":21,"Cursor":38,"Claude Code":38,"沙箱":29,"Figma":11,"Codex":27,"Lenny":65,"Notion":9,"Vercel":12}</script>
 
 <script>
 (function(){

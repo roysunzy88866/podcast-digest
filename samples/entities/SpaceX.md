@@ -43,7 +43,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Cursor]] · [[Microsoft]] · [[智能体]] · [[Alex]] · [[Theo Jaffe]] · [[a16z]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":75,"OpenAI":66,"NVIDIA":23,"Cursor":38,"Microsoft":17,"智能体":148,"Alex":4,"Theo Jaffe":4,"a16z":6,"Meta":22}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":75,"OpenAI":66,"NVIDIA":23,"Cursor":38,"Microsoft":17,"智能体":149,"Alex":4,"Theo Jaffe":4,"a16z":6,"Meta":22}</script>
 
 <script>
 (function(){

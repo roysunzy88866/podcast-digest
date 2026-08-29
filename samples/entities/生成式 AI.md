@@ -343,7 +343,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[Matt Turk]] · [[Ranjan]] · [[CoreWeave]] · [[Sanjit Biswas]]
 
-<script type="application/json" class="pd-epn">{"智能体":148,"Meta":22,"Anthropic":75,"OpenAI":66,"Google":29,"NVIDIA":23,"Matt Turk":2,"Ranjan":1,"CoreWeave":2,"Sanjit Biswas":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":149,"Meta":22,"Anthropic":75,"OpenAI":66,"Google":29,"NVIDIA":23,"Matt Turk":2,"Ranjan":1,"CoreWeave":2,"Sanjit Biswas":1}</script>
 
 <script>
 (function(){

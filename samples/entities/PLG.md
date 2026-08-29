@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Google]] · [[ACV]] · [[ChatGPT]] · [[Cursor]] · [[Stripe]] · [[OpenAI]] · [[Lovable]] · [[Jen Abel]]
 
-<script type="application/json" class="pd-epn">{"智能体":148,"Lenny":65,"Google":29,"ACV":2,"ChatGPT":38,"Cursor":38,"Stripe":21,"OpenAI":66,"Lovable":11,"Jen Abel":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":149,"Lenny":65,"Google":29,"ACV":2,"ChatGPT":38,"Cursor":38,"Stripe":21,"OpenAI":66,"Lovable":11,"Jen Abel":1}</script>
 
 <script>
 (function(){

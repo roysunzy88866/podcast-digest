@@ -41,7 +41,7 @@ unlisted: true
 
 [[OpenAI]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[NVIDIA]] · [[Apple]] · [[资本支出]] · [[编码智能体]] · [[CoreWeave]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":66,"Google":29,"Anthropic":75,"Microsoft":17,"智能体":148,"NVIDIA":23,"Apple":13,"资本支出":4,"编码智能体":1,"CoreWeave":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":66,"Google":29,"Anthropic":75,"Microsoft":17,"智能体":149,"NVIDIA":23,"Apple":13,"资本支出":4,"编码智能体":1,"CoreWeave":2}</script>
 
 <script>
 (function(){
