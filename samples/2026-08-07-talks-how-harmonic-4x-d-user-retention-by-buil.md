@@ -26,7 +26,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">自从我们切换到 deep agents 以来，我们从第一周到第四周的留存率提高了四倍。</div><div class="a">— SPEAKER_00 <button class="pd-ts" data-t="01:30" data-who="SPEAKER_00" data-en="We have four times the retention from week one to week four since we switched over to deep agents." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">自从我们切换到 deep agents 以来，我们从第一周到第四周的留存率提高了四倍。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="01:30" data-who="嘉宾" data-en="We have four times the retention from week one to week four since we switched over to deep agents." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **公司** [[Harmonic]] · [[Scout]]
@@ -87,23 +87,23 @@ Deep Agents 的核心优势就是管理上下文：当消息列表变长时它�
 
 > <span class="qz">自从我们切换到 deep agents 以来，我们从第一周到第四周的留存率提高了四倍。</span>  
 > *We have four times the retention from week one to week four since we switched over to deep agents.*  
-> <span class="qm">—— SPEAKER_00 · [01:30]</span> ^q1
+> <span class="qm">—— 嘉宾 · [01:30]</span> ^q1
 
 > <span class="qz">我们发现的核心张力在于，这些智能体喜欢看起来像代码的东西。</span>  
 > *The central tension that we found is that these agents love things that feel like code.*  
-> <span class="qm">—— SPEAKER_00 · [06:03]</span> ^q2
+> <span class="qm">—— 嘉宾 · [06:03]</span> ^q2
 
 > <span class="qz">这是在确保模型拥有主观能动性来自由推理和行动与构建一个 UX 之间的张力，这个 UX 需要具有很好的交互性，具有以可预测和确定性方式渲染的丰富元素。</span>  
 > *the tension between making sure the model has agency to reason and act freely with building a UX that's kind of nicely interactive, has rich elements that are rendered in a predictable and deterministic way.*  
-> <span class="qm">—— SPEAKER_00 · [06:47]</span> ^q3
+> <span class="qm">—— 嘉宾 · [06:47]</span> ^q3
 
 > <span class="qz">如果你正在构建一个 UX，并且有一些东西与对话并排很好渲染，但它既不存在于消息列表中，也没有被机具卸载并提供发现它的方式，那么它对智能体来说本质上就是不可见的。</span>  
 > *if you're building a UX and you have something that's nicely rendered side by side with the conversation, but it doesn't exist either in the message list or offloaded by the harness with a way to discover it, it'll be essentially invisible to the agent.*  
-> <span class="qm">—— SPEAKER_00 · [08:32]</span> ^q4
+> <span class="qm">—— 嘉宾 · [08:32]</span> ^q4
 
 > <span class="qz">智能体根本不知道实际发生了什么，因为它基本上只是向虚空发射东西，然后得到一些成功消息。</span>  
 > *The agent has no idea what actually happens because it's kind of just firing something into the void, getting back some success message.*  
-> <span class="qm">—— SPEAKER_00 · [09:53]</span> ^q5
+> <span class="qm">—— 嘉宾 · [09:53]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 

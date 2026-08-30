@@ -109,7 +109,7 @@ Philip 说，他们正在造一种低成本、轻量化的可展开式散热器�
 
 > <span class="qz">我认为这就好比如果你经营一家汉堡店，一个拥有数百兆瓦的相当大的数据中心消耗的水量大约和一家麦当劳一样多。</span>  
 > *I think the analogy is like if you ran a burger shop, a fairly large data center with hundreds of megawatts would consume about the same amount of water as a McDonald's.*  
-> <span class="qm">—— SPEAKER_02 · [33:29]</span> ^q9
+> <span class="qm">—— 嘉宾 · [33:29]</span> ^q9
 
 > <span class="qz">创始团队中的技术人才是你首先需要解决的问题，然后其他一切都随之而来。</span>  
 > *It's technical talent on the founding team is the thing you need to solve for first, and then everything else follows from there.*  

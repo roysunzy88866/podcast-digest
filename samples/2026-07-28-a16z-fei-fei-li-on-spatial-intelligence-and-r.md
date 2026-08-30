@@ -27,7 +27,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">下一个前沿领域是教会 AI 理解物理世界并在其中行动。</div><div class="a">— SPEAKER_00 <button class="pd-ts" data-t="01:12" data-who="SPEAKER_00" data-en="The next frontier is teaching AI to understand and act within the physical world." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">下一个前沿领域是教会 AI 理解物理世界并在其中行动。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="01:12" data-who="嘉宾" data-en="The next frontier is teaching AI to understand and act within the physical world." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Fei-Fei Li]] · [[Martin Cassaro]] · [[Yunzhu Li]]
@@ -92,7 +92,7 @@ Yunzhu 坦言,这需要很长时间,因为机器人最终是个系统工程,从�
 
 > <span class="qz">下一个前沿领域是教会 AI 理解物理世界并在其中行动。</span>  
 > *The next frontier is teaching AI to understand and act within the physical world.*  
-> <span class="qm">—— SPEAKER_00 · [01:12]</span> ^q1
+> <span class="qm">—— 嘉宾 · [01:12]</span> ^q1
 
 > <span class="qz">仿真扮演了一个非常重要的角色,这是现实世界的数据所没有的,那就是反事实推理,就是你在推演那些尚未发生或不可能发生的事件,或者你在现实世界中没有足够的数据让它发生。</span>  
 > *There's a very important role simulation plays that real world data doesn't play, which is counterfactual reasoning, is that you play out events that hasn't happened or cannot happen, or you don't have enough data to make it happen in real world.*  

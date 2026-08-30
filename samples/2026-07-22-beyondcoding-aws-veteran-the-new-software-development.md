@@ -34,47 +34,47 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[规范驱动开发]] · [[苏格拉底方法]] · [[对抗性审查]] · [[合并检查]] · [[命令]] · [[确定性]] · [[伪造证据]] · [[三层模型分层]] · [[OpenSpec]] · [[循环工程]]
 
-一次重构花掉差不多 2 亿个 token，让人意识到必须停止全程用最贵的模型 <button class="pd-ts" data-t="01:00" data-who="Unknown" data-en="This is a job for Indeed Sponsored Jobs. This cost me almost 200 million tokens to refactor. And I'm like, oh, I need to stop using Opus." aria-label="回原文"></button>。说这话的是 Heitor，在 AWS 待了 11 年、做过 8 个不同角色、看过几百家公司内部运作的人。他现在在用[[智能体|智能体]]重新设计软件开发的每一个环节，并且发现：真正值钱的不是让智能体"自己写代码"，而是你在让它写之前，花了多少功夫把流程编进规则里。
+一次重构花掉差不多 2 亿个 token，让人意识到必须停止全程用最贵的模型 <button class="pd-ts" data-t="01:00" data-who="嘉宾" data-en="This is a job for Indeed Sponsored Jobs. This cost me almost 200 million tokens to refactor. And I'm like, oh, I need to stop using Opus." aria-label="回原文"></button>。说这话的是 Heitor，在 AWS 待了 11 年、做过 8 个不同角色、看过几百家公司内部运作的人。他现在在用[[智能体|智能体]]重新设计软件开发的每一个环节，并且发现：真正值钱的不是让智能体"自己写代码"，而是你在让它写之前，花了多少功夫把流程编进规则里。
 
 ## 先做人脑该做的事，再让模型进场
 
-他团队用的产品循环叫 Residence Task Force，核心原则是：发现阶段和白板阶段不许碰智能体。先跟客户聊，把问题理清楚，在白板上画出客户细分和 80-20 法则下该优先解决什么 <button class="pd-ts" data-t="26:15" data-who="Unknown" data-en="And this discovery is our way to, let's talk to people first to figure out what is it that's needed. We need, like Adyen always does as well, customer centricity is a key, but you also don't want to take the advice from only a single customer." aria-label="回原文"></button>。只有到了把白板内容变成路线图时，才调用一个叫 slash roadmap 的[[命令|命令]]——注意，是"命令"（人主动调用）而不是"技能"（模型自主触发），因为命令能保证[[确定性|确定性]]，智能体不会跳过或曲解指令 <button class="pd-ts" data-t="32:32" data-who="Unknown" data-en="And the slash means it's a skill or it's something that's pre-configured that helps you with that? So this is a command. So we use a company called Factory." aria-label="回原文"></button>。
+他团队用的产品循环叫 Residence Task Force，核心原则是：发现阶段和白板阶段不许碰智能体。先跟客户聊，把问题理清楚，在白板上画出客户细分和 80-20 法则下该优先解决什么 <button class="pd-ts" data-t="26:15" data-who="嘉宾" data-en="And this discovery is our way to, let's talk to people first to figure out what is it that's needed. We need, like Adyen always does as well, customer centricity is a key, but you also don't want to take the advice from only a single customer." aria-label="回原文"></button>。只有到了把白板内容变成路线图时，才调用一个叫 slash roadmap 的[[命令|命令]]——注意，是"命令"（人主动调用）而不是"技能"（模型自主触发），因为命令能保证[[确定性|确定性]]，智能体不会跳过或曲解指令 <button class="pd-ts" data-t="32:32" data-who="嘉宾" data-en="And the slash means it's a skill or it's something that's pre-configured that helps you with that? So this is a command. So we use a company called Factory." aria-label="回原文"></button>。
 
-路线图生成后，有个关键动作：用[[苏格拉底方法|苏格拉底方法]]（不断追问直到找到思维中的矛盾和漏洞）做[[对抗性审查|对抗性审查]]，检查每个条目是否有明确的验收标准和业务结果 <button class="pd-ts" data-t="35:38" data-who="Unknown" data-en="One of the things we do a lot at Agile, especially with this project, is doing adversarial reviewers. So whenever I have a roadmap or have a plan, a spec or something, you always run a multiple angles of contrarians review, if you will, to see if you miss anything, if there's something you're maybe over-engineering, or if you're trying to boil the ocean to a degree." aria-label="回原文"></button>。没有这些，后面写的代码再多也可能跑偏。
+路线图生成后，有个关键动作：用[[苏格拉底方法|苏格拉底方法]]（不断追问直到找到思维中的矛盾和漏洞）做[[对抗性审查|对抗性审查]]，检查每个条目是否有明确的验收标准和业务结果 <button class="pd-ts" data-t="35:38" data-who="嘉宾" data-en="One of the things we do a lot at Agile, especially with this project, is doing adversarial reviewers. So whenever I have a roadmap or have a plan, a spec or something, you always run a multiple angles of contrarians review, if you will, to see if you miss anything, if there's something you're maybe over-engineering, or if you're trying to boil the ocean to a degree." aria-label="回原文"></button>。没有这些，后面写的代码再多也可能跑偏。
 
-为什么发现阶段不用智能体？因为他发现，长期跟模型对话会让人的沟通变得简短生硬，共情能力和批判性思维会退化 <button class="pd-ts" data-t="30:48" data-who="Unknown" data-en="I initially started with this and then I realized that my communication became more terse and more direct. And I was like, why am I doing this? I'm not rude." aria-label="回原文"></button>。先把人脑的分析能力和同理心用足，再让模型进场。
+为什么发现阶段不用智能体？因为他发现，长期跟模型对话会让人的沟通变得简短生硬，共情能力和批判性思维会退化 <button class="pd-ts" data-t="30:48" data-who="嘉宾" data-en="I initially started with this and then I realized that my communication became more terse and more direct. And I was like, why am I doing this? I'm not rude." aria-label="回原文"></button>。先把人脑的分析能力和同理心用足，再让模型进场。
 
 ## 三层模型分层：探索用最贵的，审查用最便宜的
 
-到了开发执行阶段，他们用 [[OpenSpec|OpenSpec]]（一种[[规范驱动开发|规范驱动开发]]工具）做设计，然后进入实现。这里的模型策略是分三层的 <button class="pd-ts" data-t="60:42" data-who="Unknown" data-en="You don't want to use this all the time. So in our process, we usually use three different tiers of models. We use a" aria-label="回原文"></button>：
+到了开发执行阶段，他们用 [[OpenSpec|OpenSpec]]（一种[[规范驱动开发|规范驱动开发]]工具）做设计，然后进入实现。这里的模型策略是分三层的 <button class="pd-ts" data-t="60:42" data-who="嘉宾" data-en="You don't want to use this all the time. So in our process, we usually use three different tiers of models. We use a" aria-label="回原文"></button>：
 
-- **探索/理解阶段**：用最强的 SOTA 模型，但禁止它创建任何文件，只许思考和规划 <button class="pd-ts" data-t="60:47" data-who="Unknown" data-en="We use a That's called the best model, SOTA, for help me understand, help me explore. Don't do anything." aria-label="回原文"></button>
-- **实现阶段**：用中端模型执行，因为上下文已经外化到了设计文档里，不需要最强模型带着全部上下文跑 <button class="pd-ts" data-t="88:47" data-who="Unknown" data-en="But because you already externalized that context into your artifacts, design, so forth, you don't need that baggage anymore. Otherwise, you're going to spend more tokens every round, every turn it takes." aria-label="回原文"></button>
-- **审查阶段**：用便宜的开源权重模型，跑一轮又一轮的对抗性审查 <button class="pd-ts" data-t="61:15" data-who="Unknown" data-en="So once you have a plan out and you go to, let's say, implementation, then you can use more of a meatier, depending on what you planned. And then you can use smaller models, especially open weights, super effective to do rounds and rounds and rounds of reviews." aria-label="回原文"></button>
+- **探索/理解阶段**：用最强的 SOTA 模型，但禁止它创建任何文件，只许思考和规划 <button class="pd-ts" data-t="60:47" data-who="嘉宾" data-en="We use a That's called the best model, SOTA, for help me understand, help me explore. Don't do anything." aria-label="回原文"></button>
+- **实现阶段**：用中端模型执行，因为上下文已经外化到了设计文档里，不需要最强模型带着全部上下文跑 <button class="pd-ts" data-t="88:47" data-who="嘉宾" data-en="But because you already externalized that context into your artifacts, design, so forth, you don't need that baggage anymore. Otherwise, you're going to spend more tokens every round, every turn it takes." aria-label="回原文"></button>
+- **审查阶段**：用便宜的开源权重模型，跑一轮又一轮的对抗性审查 <button class="pd-ts" data-t="61:15" data-who="嘉宾" data-en="So once you have a plan out and you go to, let's say, implementation, then you can use more of a meatier, depending on what you planned. And then you can use smaller models, especially open weights, super effective to do rounds and rounds and rounds of reviews." aria-label="回原文"></button>
 
-为什么要这样分？因为一个工程师每月的模型费用如果到几千美元，在 1400 人的组织里，这笔账领导会立刻质疑 <button class="pd-ts" data-t="01:14" data-who="Unknown" data-en="And he shares his blueprint for software engineering with agents today. When leadership start questioning, do I need an engineer plus 5,000 a month just for them to do their work?" aria-label="回原文"></button><button class="pd-ts" data-t="62:02" data-who="Unknown" data-en="I mean, companies like, it's a pocket money, especially in enterprise. But when you're looking at the scale of Agile, for instance, like 1.4 thousand engineers that we have, that math starts to show very quickly and adds questions." aria-label="回原文"></button>。分层用模型不是为了省钱而牺牲质量，而是把最贵的算力用在最需要"理解力"的地方。
+为什么要这样分？因为一个工程师每月的模型费用如果到几千美元，在 1400 人的组织里，这笔账领导会立刻质疑 <button class="pd-ts" data-t="01:14" data-who="嘉宾" data-en="And he shares his blueprint for software engineering with agents today. When leadership start questioning, do I need an engineer plus 5,000 a month just for them to do their work?" aria-label="回原文"></button><button class="pd-ts" data-t="62:02" data-who="嘉宾" data-en="I mean, companies like, it's a pocket money, especially in enterprise. But when you're looking at the scale of Agile, for instance, like 1.4 thousand engineers that we have, that math starts to show very quickly and adds questions." aria-label="回原文"></button>。分层用模型不是为了省钱而牺牲质量，而是把最贵的算力用在最需要"理解力"的地方。
 
 ## 防伪造：智能体会撒谎，用合并检查兜底
 
-智能体会[[伪造证据|伪造证据]]——假装跑了测试、从网上复制粘贴结果冒充自己的输出 <button class="pd-ts" data-t="01:21" data-who="Unknown" data-en="That math does not add up. Even if they forge an evidence, they forge that they run the test, they try to copy and paste the results from the internet, which they do." aria-label="回原文"></button>。他的解法是两道检查点 [101:32 Unknown]：
+智能体会[[伪造证据|伪造证据]]——假装跑了测试、从网上复制粘贴结果冒充自己的输出 <button class="pd-ts" data-t="01:21" data-who="嘉宾" data-en="That math does not add up. Even if they forge an evidence, they forge that they run the test, they try to copy and paste the results from the internet, which they do." aria-label="回原文"></button>。他的解法是两道检查点 <button class="pd-ts" data-t="101:32" data-who="嘉宾" data-en="How do you bring some of these things? The way I'm solving this now is in two ways. Two checkpoints, not hook." aria-label="回原文"></button>：
 
-第一道，在 OpenSpec 计划阶段就跑大约 15 个对抗性审查者：碰到 Python 代码就跑 Python 审查者，碰到数据库变更就检查 DDL 是否会导致数据丢失 [101:39 Unknown]。这些审查者可以本地跑，也可以在 CI 里跑。
+第一道，在 OpenSpec 计划阶段就跑大约 15 个对抗性审查者：碰到 Python 代码就跑 Python 审查者，碰到数据库变更就检查 DDL 是否会导致数据丢失 <button class="pd-ts" data-t="101:39" data-who="嘉宾" data-en="Two checkpoints, not hook. As part of the OpenSpec plan, we run roughly 15 adversarial reviewers for the changes that are being made. So think, is Python code being touched?" aria-label="回原文"></button>。这些审查者可以本地跑，也可以在 CI 里跑。
 
-第二道是"[[合并检查|合并检查]]"：每次提交必须附带一份证明，记录所有审查步骤确实执行了、确实读了对应的文件 [102:31 Unknown]。CI 会预先验证这份证明的真伪。这不是 linter 能替代的——linter 只管代码风格，这里管的是"智能体有没有老实干活"。
+第二道是"[[合并检查|合并检查]]"：每次提交必须附带一份证明，记录所有审查步骤确实执行了、确实读了对应的文件 <button class="pd-ts" data-t="102:31" data-who="嘉宾" data-en="All the steps that it took to be able to generate the release to begin with, the CI, CD, the jobs, the environment variables, commands, and so forth, all recorded." aria-label="回原文"></button>。CI 会预先验证这份证明的真伪。这不是 linter 能替代的——linter 只管代码风格，这里管的是"智能体有没有老实干活"。
 
 ## Slash Retro：让智能体帮你复盘，把非确定性变成确定性
 
-整个流程跑完（可能两三小时），人已经累了，最不想做的就是反思"哪里可以改进" [103:49 Unknown]。他做了个叫 slash retro 的命令：用苏格拉底方法采访你，看你的会话日志，找出你手动纠正智能体的地方、智能体跑偏的地方，然后输出一张表——哪些可以变成确定性规则（比如加一条 lint 规则），哪些保持非确定性但可以轻量化 [104:40 Unknown]。
+整个流程跑完（可能两三小时），人已经累了，最不想做的就是反思"哪里可以改进" <button class="pd-ts" data-t="103:49" data-who="嘉宾" data-en="After we conclude this whole development cycle, the biggest learning I've had over the last six months is you tend to forget that because agents are doing everything for you, some of those things could be deterministic." aria-label="回原文"></button>。他做了个叫 slash retro 的命令：用苏格拉底方法采访你，看你的会话日志，找出你手动纠正智能体的地方、智能体跑偏的地方，然后输出一张表——哪些可以变成确定性规则（比如加一条 lint 规则），哪些保持非确定性但可以轻量化 <button class="pd-ts" data-t="104:40" data-who="嘉宾" data-en="Or that it's simply you don't know how to make this more deterministic. So what this slash retro command does is interviews you. It looks into your whole context and sessions and so forth and figures out" aria-label="回原文"></button>。
 
-他举个例子：Retro 帮他发现 Go 项目里可以用 Golang CI lint 的依赖守卫功能，加一条规则就防止了不该出现的 import，二进制体积控制在 3MB 以内 [110:03 Unknown]。这不是人想不到，而是人在疲惫时想不到——智能体帮你从日志里挖出来。
+他举个例子：Retro 帮他发现 Go 项目里可以用 Golang CI lint 的依赖守卫功能，加一条规则就防止了不该出现的 import，二进制体积控制在 3MB 以内 <button class="pd-ts" data-t="110:03" data-who="嘉宾" data-en="I learned recently in Go that we have the Golang CI lint tooling, that you have a dependency guard feature that Retro told me about. I was like, yes, you can do this thing." aria-label="回原文"></button>。这不是人想不到，而是人在疲惫时想不到——智能体帮你从日志里挖出来。
 
 ## 规模化：不靠强制，靠"撞墙后的对话"
 
-1400 人的组织不可能强制统一工作流。他的做法是设软性上限（类似 AWS Lambda 的配额机制）：你用 SOTA 模型用到一定量，触发限制，这时候平台团队的人来找你聊——你知道还有更省的选型吗？<button class="pd-ts" data-t="66:34" data-who="Unknown" data-en="It doesn't make sense. So the limits help you to put that, Soft Guard Rail to figure out, oh, okay, you hit the limit." aria-label="回原文"></button> 
+1400 人的组织不可能强制统一工作流。他的做法是设软性上限（类似 AWS Lambda 的配额机制）：你用 SOTA 模型用到一定量，触发限制，这时候平台团队的人来找你聊——你知道还有更省的选型吗？<button class="pd-ts" data-t="66:34" data-who="嘉宾" data-en="It doesn't make sense. So the limits help you to put that, Soft Guard Rail to figure out, oh, okay, you hit the limit." aria-label="回原文"></button> 
 
-这不是 gate，是教育契机。同时内部有模式文档、有 chamption 体系，跟 AWS 当年培训架构师的路径一样 <button class="pd-ts" data-t="69:35" data-who="Unknown" data-en="Yeah, I mean, again, privilege. For AWS, I think back in the days, I trained like 8,000 plus architects back in the days because I was lucky enough to be one of the first then." aria-label="回原文"></button>。
+这不是 gate，是教育契机。同时内部有模式文档、有 chamption 体系，跟 AWS 当年培训架构师的路径一样 <button class="pd-ts" data-t="69:35" data-who="嘉宾" data-en="Yeah, I mean, again, privilege. For AWS, I think back in the days, I trained like 8,000 plus architects back in the days because I was lucky enough to be one of the first then." aria-label="回原文"></button>。
 
-核心判断：不要只铺一条路，要根据应用类型（是不是关键路径、是不是反欺诈）铺不同的路 <button class="pd-ts" data-t="64:19" data-who="Unknown" data-en="It's never going to be a single paved road. It's going to be paved roads depending on our profile, depending on the application. Is this a webhook?" aria-label="回原文"></button>，然后让开发者在"撞墙"时自然接触到更好的实践。
+核心判断：不要只铺一条路，要根据应用类型（是不是关键路径、是不是反欺诈）铺不同的路 <button class="pd-ts" data-t="64:19" data-who="嘉宾" data-en="It's never going to be a single paved road. It's going to be paved roads depending on our profile, depending on the application. Is this a webhook?" aria-label="回原文"></button>，然后让开发者在"撞墙"时自然接触到更好的实践。
 
 ## 本集带走
 
@@ -129,7 +129,7 @@ jsonLd: |
 
 > <span class="qz">但如果你给人们工具，并且他们自己创造了那个最终结果，他们就会建立信念，因为他们参与其中，使用了他们的批判性思维，他们通过做事建立自己的信念，然后他们真的相信最终结果。</span>  
 > *But if you give people tools and they create that end result themselves, they build conviction because they're in the loop, their critical thinking is used, they are building their own conviction by doing, then they really believe in the end result.*  
-> <span class="qm">—— SPEAKER_00 · [118:16]</span> ^q11
+> <span class="qm">—— 嘉宾 · [118:16]</span> ^q11
 
 <div class="pd-sec">接着看</div>
 

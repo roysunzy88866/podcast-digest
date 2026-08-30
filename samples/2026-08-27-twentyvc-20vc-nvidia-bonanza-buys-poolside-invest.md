@@ -27,7 +27,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">让我告诉你一件事，我保证。如果你在风险投资中的失败案例上获得了15倍回报，你会死的时候是个富翁。</div><div class="a">— SPEAKER_01 <button class="pd-ts" data-t="12:08" data-who="SPEAKER_01" data-en="Let me tell you one thing I guarantee. If you get 15x on your failures in venture, you'll die a rich man." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">让我告诉你一件事，我保证。如果你在风险投资中的失败案例上获得了15倍回报，你会死的时候是个富翁。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="12:08" data-who="嘉宾" data-en="Let me tell you one thing I guarantee. If you get 15x on your failures in venture, you'll die a rich man." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **公司** [[Poolside]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]]
@@ -38,79 +38,79 @@ jsonLd: |
 
 ## Poolside 卖给 NVIDIA：90 亿退出，种子轮 15 倍，不够
 
-[[NVIDIA|NVIDIA]] 花 60 亿美元许可 [[Poolside|Poolside]] 的模型工厂，再投 10 亿美元，投前估值 120 亿，把 109 名工程师转入 Nemotron。Poolside 之前想自建数据中心、买 4 万块 GPU，筹不到 20 亿美元，只能"向上失败"卖给 NVIDIA <button class="pd-ts" data-t="04:47" data-who="Unknown" data-en="And we're going to start with NVIDIA moving across different layers of the stack. And we're going to start with the model layer where NVIDIA is paying $6 billion to license Poolside's model factory and investing $1 billion more at a $12 billion pre-money valuation, moving 109 engineers over to Nemotron to help build it." aria-label="回原文"></button>。
+[[NVIDIA|NVIDIA]] 花 60 亿美元许可 [[Poolside|Poolside]] 的模型工厂，再投 10 亿美元，投前估值 120 亿，把 109 名工程师转入 Nemotron。Poolside 之前想自建数据中心、买 4 万块 GPU，筹不到 20 亿美元，只能"向上失败"卖给 NVIDIA <button class="pd-ts" data-t="04:47" data-who="嘉宾" data-en="And we're going to start with NVIDIA moving across different layers of the stack. And we're going to start with the model layer where NVIDIA is paying $6 billion to license Poolside's model factory and investing $1 billion more at a $12 billion pre-money valuation, moving 109 engineers over to Nemotron to help build it." aria-label="回原文"></button>。
 
-Jason 直接说：90 亿美元的退出对 2026 年的种子投资来说不达标。种子轮要做到基金级别的回报，最好的交易需要 50 倍——按 Poolside 的稀释情况算，得 630 亿美元退出才行 <button class="pd-ts" data-t="10:24" data-who="Unknown" data-en="I don't think 15x is good enough for a seed investor in poolside. Listen, first of all, let's step back. Seed has a weird definition today." aria-label="回原文"></button><button class="pd-ts" data-t="13:37" data-who="Unknown" data-en="I do think unless it's a hyper concentrated investment, your best investment still need to do 50x as a seed investor to make the math work. If Poolside returned 15x with further dilution, what exit price would it have to be to be a good seed investment to return 50x?" aria-label="回原文"></button>。
+Jason 直接说：90 亿美元的退出对 2026 年的种子投资来说不达标。种子轮要做到基金级别的回报，最好的交易需要 50 倍——按 Poolside 的稀释情况算，得 630 亿美元退出才行 <button class="pd-ts" data-t="10:24" data-who="嘉宾" data-en="I don't think 15x is good enough for a seed investor in poolside. Listen, first of all, let's step back. Seed has a weird definition today." aria-label="回原文"></button><button class="pd-ts" data-t="13:37" data-who="嘉宾" data-en="I do think unless it's a hyper concentrated investment, your best investment still need to do 50x as a seed investor to make the math work. If Poolside returned 15x with further dilution, what exit price would it have to be to be a good seed investment to return 50x?" aria-label="回原文"></button>。
 
 但 Rory 的反论更有意思：如果一等奖是一万亿美元（[[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 闭源赢家各自的量级），第五名仍然是 90 亿。"就像美国公开赛你没赢，连第二都没拿到，得了第七——然后你一看奖金，500 万美元。
 
-我会拿的。" <button class="pd-ts" data-t="15:08" data-who="Unknown" data-en="And then you think to yourself, oh, it's $5 million. I'll take it. On to next week." aria-label="回原文"></button>
+我会拿的。" <button class="pd-ts" data-t="15:08" data-who="嘉宾" data-en="And then you think to yourself, oh, it's $5 million. I'll take it. On to next week." aria-label="回原文"></button>
 
-底层逻辑是：现在全世界能资助前沿基础模型的只有四五家公司，VC 早就被挤出局了。"VC 的钱很久以前就在 Anthropic 和 OpenAI 上用光了，这就是为什么没有 VC 拥有它们任何一家超过 1% 或 2% 的股份。" <button class="pd-ts" data-t="12:30" data-who="Unknown" data-en="And remember, we say the VC money went out. The VC money went out on Anthropic and OpenAI long ago, which is why no VC owns more than 1% or 2% of either of them." aria-label="回原文"></button> 能玩这个游戏的只有 Microsoft、Google、Amazon，以及现在的 NVIDIA。
+底层逻辑是：现在全世界能资助前沿基础模型的只有四五家公司，VC 早就被挤出局了。"VC 的钱很久以前就在 Anthropic 和 OpenAI 上用光了，这就是为什么没有 VC 拥有它们任何一家超过 1% 或 2% 的股份。" <button class="pd-ts" data-t="12:30" data-who="嘉宾" data-en="And remember, we say the VC money went out. The VC money went out on Anthropic and OpenAI long ago, which is why no VC owns more than 1% or 2% of either of them." aria-label="回原文"></button> 能玩这个游戏的只有 Microsoft、Google、Amazon，以及现在的 NVIDIA。
 
-但 Rory 提炼了一个更普适的规律：在超增长市场里，即使你的独立商业模型算不通（DCF 为负），只要方向对了、创造了收购方看中的价值，你仍然能拿到漂亮的退出。"如果你在风险投资中的失败案例上获得了 15 倍回报，你会死的时候是个富翁。" <button class="pd-ts" data-t="12:09" data-who="Unknown" data-en="Let me tell you one thing I guarantee. If you get 15x on your failures in venture, you'll die a rich man. And that's what happened here." aria-label="回原文"></button>
+但 Rory 提炼了一个更普适的规律：在超增长市场里，即使你的独立商业模型算不通（DCF 为负），只要方向对了、创造了收购方看中的价值，你仍然能拿到漂亮的退出。"如果你在风险投资中的失败案例上获得了 15 倍回报，你会死的时候是个富翁。" <button class="pd-ts" data-t="12:09" data-who="嘉宾" data-en="Let me tell you one thing I guarantee. If you get 15x on your failures in venture, you'll die a rich man. And that's what happened here." aria-label="回原文"></button>
 
 ## NVIDIA 的全栈布局逻辑
 
-NVIDIA 还在投 McCaw（200 亿估值融资轮）和 Perplexity（300 亿估值融资轮）<button class="pd-ts" data-t="01:01" data-who="Unknown" data-en="And hell, NVIDIA are going fast. One, they're buying Poolside for $12 billion. Two, they're investing in McCall's $20 billion price round." aria-label="回原文"></button>。Rory 拆了这三种投资的本质区别：
+NVIDIA 还在投 McCaw（200 亿估值融资轮）和 Perplexity（300 亿估值融资轮）<button class="pd-ts" data-t="01:01" data-who="嘉宾" data-en="And hell, NVIDIA are going fast. One, they're buying Poolside for $12 billion. Two, they're investing in McCall's $20 billion price round." aria-label="回原文"></button>。Rory 拆了这三种投资的本质区别：
 
-- **Poolside** = 时间扩展，买相邻产品，推美国开源模型在自家芯片上跑，从闭源[[前沿模型|前沿模型]]那里抢份额 <button class="pd-ts" data-t="10:05" data-who="Unknown" data-en="And if I'm the maker of compute, it's awesome for NVIDIA if there's a viable US open source model running on NVIDIA chips, taking market share away from the frontier models at the margin." aria-label="回原文"></button>
-- **McCaw** = 纯财务投资，跟卖芯片没有直接逻辑关系 <button class="pd-ts" data-t="16:07" data-who="Unknown" data-en="And clearly, that's where NVIDIA is now. They're using their capital to fund the NeoClouds, fund OpenAI, fund, as we just discussed, Poolside, and for whatever reason, also fund Merkur." aria-label="回原文"></button>
-- **OpenAI** = [[供应商融资|供应商融资]]，你作为芯片厂商给客户钱，让他买你的芯片 <button class="pd-ts" data-t="20:39" data-who="Unknown" data-en="Here's some money. And then something like perplexity investment or OpenAI investment is literally, especially the OpenAI, is vendor financing, where you as the vendor of the chips are choosing to give your customer money." aria-label="回原文"></button>
+- **Poolside** = 时间扩展，买相邻产品，推美国开源模型在自家芯片上跑，从闭源[[前沿模型|前沿模型]]那里抢份额 <button class="pd-ts" data-t="10:05" data-who="嘉宾" data-en="And if I'm the maker of compute, it's awesome for NVIDIA if there's a viable US open source model running on NVIDIA chips, taking market share away from the frontier models at the margin." aria-label="回原文"></button>
+- **McCaw** = 纯财务投资，跟卖芯片没有直接逻辑关系 <button class="pd-ts" data-t="16:07" data-who="嘉宾" data-en="And clearly, that's where NVIDIA is now. They're using their capital to fund the NeoClouds, fund OpenAI, fund, as we just discussed, Poolside, and for whatever reason, also fund Merkur." aria-label="回原文"></button>
+- **OpenAI** = [[供应商融资|供应商融资]]，你作为芯片厂商给客户钱，让他买你的芯片 <button class="pd-ts" data-t="20:39" data-who="嘉宾" data-en="Here's some money. And then something like perplexity investment or OpenAI investment is literally, especially the OpenAI, is vendor financing, where you as the vendor of the chips are choosing to give your customer money." aria-label="回原文"></button>
 
-Jason 的解释最直白：NVIDIA 自由现金流巨大，战略团队和高管坐一圈，每人报最好的点子，预算 750 亿，全花出去。"如果华尔街允许你花掉它，我也会花掉 100% 的现金。" <button class="pd-ts" data-t="18:19" data-who="Unknown" data-en="And you know, OpenAI and friends are gonna get a big chunk of it and there's gonna be off-balance sheet guarantees, but I think they've decided to just spend it all, one for one, and I would do the same." aria-label="回原文"></button> 芯片公司的最优策略就是投资能增强整个生态的人——你不仅获得循环收入，还确保生态系统的成功，一举两得 <button class="pd-ts" data-t="20:12" data-who="Unknown" data-en="You get a customer. Not only do you get circular revenue, but you ensure the success of your ecosystem, the viability. You get a twofer out of it." aria-label="回原文"></button>。
+Jason 的解释最直白：NVIDIA 自由现金流巨大，战略团队和高管坐一圈，每人报最好的点子，预算 750 亿，全花出去。"如果华尔街允许你花掉它，我也会花掉 100% 的现金。" <button class="pd-ts" data-t="18:19" data-who="嘉宾" data-en="And you know, OpenAI and friends are gonna get a big chunk of it and there's gonna be off-balance sheet guarantees, but I think they've decided to just spend it all, one for one, and I would do the same." aria-label="回原文"></button> 芯片公司的最优策略就是投资能增强整个生态的人——你不仅获得循环收入，还确保生态系统的成功，一举两得 <button class="pd-ts" data-t="20:12" data-who="嘉宾" data-en="You get a customer. Not only do you get circular revenue, but you ensure the success of your ecosystem, the viability. You get a twofer out of it." aria-label="回原文"></button>。
 
-但 Rory 提了个警告：供应商融资意味着你必须在每一步都正确。如果 OpenAI 明年不需要那么多算力了，这些钱就打水漂了。他类比 2000 年电信崩盘——当年也是供应商疯狂融资给客户买设备，最后全解体了 <button class="pd-ts" data-t="21:07" data-who="Unknown" data-en="And we all remember the telecom crash in 2000. Well, we don't all remember, but some of us remember the telecom crash in 2002, where all those 99 deals unwound. And the bet that NVIDIA is taking here is it's not going to happen this time." aria-label="回原文"></button>。
+但 Rory 提了个警告：供应商融资意味着你必须在每一步都正确。如果 OpenAI 明年不需要那么多算力了，这些钱就打水漂了。他类比 2000 年电信崩盘——当年也是供应商疯狂融资给客户买设备，最后全解体了 <button class="pd-ts" data-t="21:07" data-who="嘉宾" data-en="And we all remember the telecom crash in 2000. Well, we don't all remember, but some of us remember the telecom crash in 2002, where all those 99 deals unwound. And the bet that NVIDIA is taking here is it's not going to happen this time." aria-label="回原文"></button>。
 
 ## OpenAI 被迫宣布 2027 上市：选择的缺失
 
-CFO Sarah Fryer 告诉员工 2027 年要上市。Rory 认为他们别无选择 <button class="pd-ts" data-t="27:04" data-who="Unknown" data-en="Is there anything surprising here about Sarah Fryer's statement to the team? I think they had no choice but to make those statements. And I'll tell you why." aria-label="回原文"></button>。
+CFO Sarah Fryer 告诉员工 2027 年要上市。Rory 认为他们别无选择 <button class="pd-ts" data-t="27:04" data-who="嘉宾" data-en="Is there anything surprising here about Sarah Fryer's statement to the team? I think they had no choice but to make those statements. And I'll tell you why." aria-label="回原文"></button>。
 
-原因：Q2 收入环比只增长 18%，年化不到 100%；而 Anthropic 年中已经是 600 亿的年化率，更大、增长更快。"如果那个 Q2 数字得以维持，这会让他们远远落后于 Anthropic。" <button class="pd-ts" data-t="27:29" data-who="Unknown" data-en="And it would have mean that when they went from 12 and a half billion last year of GAAP revenue to roughly probably under 30 this year. If that Q2 number was sustained, it would put them obviously, A, it would put them so far behind Anthropic at 60 billion run rate mid-year." aria-label="回原文"></button>
+原因：Q2 收入环比只增长 18%，年化不到 100%；而 Anthropic 年中已经是 600 亿的年化率，更大、增长更快。"如果那个 Q2 数字得以维持，这会让他们远远落后于 Anthropic。" <button class="pd-ts" data-t="27:29" data-who="嘉宾" data-en="And it would have mean that when they went from 12 and a half billion last year of GAAP revenue to roughly probably under 30 this year. If that Q2 number was sustained, it would put them obviously, A, it would put them so far behind Anthropic at 60 billion run rate mid-year." aria-label="回原文"></button>
 
-更致命的是叙事权。如果不动，所有人都会假设最坏的情况——连计划卖芯片给 OpenAI 的 Broadcom 和 NVIDIA 都会重新评估 <button class="pd-ts" data-t="28:08" data-who="Unknown" data-en="What happened is all those people like Broadcom, NVIDIA that were expecting to sell $200 billion worth of chips to OpenAI might suddenly go, hmm, maybe if they're not growing quickly, they won't need $200 billion worth of chips." aria-label="回原文"></button>。所以 OpenAI 必须主动释放"Q2 是异常，Q3 在爆发"的信号 <button class="pd-ts" data-t="28:29" data-who="Unknown" data-en="Meanwhile, you should just sweat it out. So I really detected a very concerted attempt to tell a Q2 is an anomaly, Q3 is exploding story. You could see it in the comments that they made to their internal team." aria-label="回原文"></button>。
+更致命的是叙事权。如果不动，所有人都会假设最坏的情况——连计划卖芯片给 OpenAI 的 Broadcom 和 NVIDIA 都会重新评估 <button class="pd-ts" data-t="28:08" data-who="嘉宾" data-en="What happened is all those people like Broadcom, NVIDIA that were expecting to sell $200 billion worth of chips to OpenAI might suddenly go, hmm, maybe if they're not growing quickly, they won't need $200 billion worth of chips." aria-label="回原文"></button>。所以 OpenAI 必须主动释放"Q2 是异常，Q3 在爆发"的信号 <button class="pd-ts" data-t="28:29" data-who="嘉宾" data-en="Meanwhile, you should just sweat it out. So I really detected a very concerted attempt to tell a Q2 is an anomaly, Q3 is exploding story. You could see it in the comments that they made to their internal team." aria-label="回原文"></button>。
 
-Rory 用了一本书的比喻："如果危险可以被描述为选择的缺失，那么他们现在正处于危险之中。" <button class="pd-ts" data-t="34:37" data-who="Unknown" data-en="But when the guys finally realized they're going to die at sea, right? And it said something like, if danger can be described as the absence of choice, they were now in danger, right?" aria-label="回原文"></button> Anthropic 如果先上市、交易价两万亿，OpenAI 只能拿更低的价。
+Rory 用了一本书的比喻："如果危险可以被描述为选择的缺失，那么他们现在正处于危险之中。" <button class="pd-ts" data-t="34:37" data-who="嘉宾" data-en="But when the guys finally realized they're going to die at sea, right? And it said something like, if danger can be described as the absence of choice, they were now in danger, right?" aria-label="回原文"></button> Anthropic 如果先上市、交易价两万亿，OpenAI 只能拿更低的价。
 
-"他们将在 2027 年以他们能得到的任何价格上市，因为他们再也等不起了。" <button class="pd-ts" data-t="34:00" data-who="Unknown" data-en="I will answer your question on what price do they go out in 2027. They'll go out whatever price they get in 2027, because they can't wait any longer. It's as simple as that." aria-label="回原文"></button>
+"他们将在 2027 年以他们能得到的任何价格上市，因为他们再也等不起了。" <button class="pd-ts" data-t="34:00" data-who="嘉宾" data-en="I will answer your question on what price do they go out in 2027. They'll go out whatever price they get in 2027, because they can't wait any longer. It's as simple as that." aria-label="回原文"></button>
 
-Jason 则指出了一个更深层的问题：OpenAI 的差异化使命到底是什么？消费者端 ChatGPT 品牌很强，但消费者业务是"以 200 美元卖出价值一万美元的 [[token|token]]"——"我们这个时代最糟糕的商业模式之一" <button class="pd-ts" data-t="39:07" data-who="Unknown" data-en="It's a crappy business that consumers, selling $10,000 worth of tokens for $200 is one of the worst business models of our lifetimes, right? If that was the only business, these guys would be dead in the water." aria-label="回原文"></button>。
+Jason 则指出了一个更深层的问题：OpenAI 的差异化使命到底是什么？消费者端 ChatGPT 品牌很强，但消费者业务是"以 200 美元卖出价值一万美元的 [[token|token]]"——"我们这个时代最糟糕的商业模式之一" <button class="pd-ts" data-t="39:07" data-who="嘉宾" data-en="It's a crappy business that consumers, selling $10,000 worth of tokens for $200 is one of the worst business models of our lifetimes, right? If that was the only business, these guys would be dead in the water." aria-label="回原文"></button>。
 
 而 Anthropic 押注的代码市场才是"采用最快、投资回报率最高的市场"。"今天 Anthropic 是什么，全都是关于代码。
 
-那是唯一重要的一句话。" <button class="pd-ts" data-t="38:08" data-who="Unknown" data-en="Today, what Anthropic is, it's all about code. That's the sentence. That's the only sentence that matters." aria-label="回原文"></button>
+那是唯一重要的一句话。" <button class="pd-ts" data-t="38:08" data-who="嘉宾" data-en="Today, what Anthropic is, it's all about code. That's the sentence. That's the only sentence that matters." aria-label="回原文"></button>
 
 ## Hugging Face 和开源权重的"巅峰卖出"时刻
 
-[[Hugging Face|Hugging Face]] 传闻 130 亿美元被收购，收入大约 1.5 亿。Jason 直说"我不够聪明，无法理解为什么有人会为它支付 130 亿" <button class="pd-ts" data-t="41:02" data-who="Unknown" data-en="Let's not do Hugging Face because I'm not smart enough to understand why anyone would pay $13 billion for it. I just don't get it. I'm just not smart enough to understand it." aria-label="回原文"></button>。
+[[Hugging Face|Hugging Face]] 传闻 130 亿美元被收购，收入大约 1.5 亿。Jason 直说"我不够聪明，无法理解为什么有人会为它支付 130 亿" <button class="pd-ts" data-t="41:02" data-who="嘉宾" data-en="Let's not do Hugging Face because I'm not smart enough to understand why anyone would pay $13 billion for it. I just don't get it. I'm just not smart enough to understand it." aria-label="回原文"></button>。
 
-但 Rory 给出了战略逻辑：当 OpenAI 和 Anthropic 声称的 TAM（总可触达市场）比整个美国 GDP 还大时，每家大 IT 公司都会说"我最好在闭源前沿模型之外保持相关性" <button class="pd-ts" data-t="41:32" data-who="Unknown" data-en="Everyone's looking at a world where, I mean, I might think it's delusional, but OpenAI and Anthropic are claiming TAMs that are larger than the entire US GDP. And if I'm running an IT company in the US, I'm saying," aria-label="回原文"></button>。Hugging Face 作为开放权重模型的入口，就成了战略资产。
+但 Rory 给出了战略逻辑：当 OpenAI 和 Anthropic 声称的 TAM（总可触达市场）比整个美国 GDP 还大时，每家大 IT 公司都会说"我最好在闭源前沿模型之外保持相关性" <button class="pd-ts" data-t="41:32" data-who="嘉宾" data-en="Everyone's looking at a world where, I mean, I might think it's delusional, but OpenAI and Anthropic are claiming TAMs that are larger than the entire US GDP. And if I'm running an IT company in the US, I'm saying," aria-label="回原文"></button>。Hugging Face 作为开放权重模型的入口，就成了战略资产。
 
-Rory 的判断更犀利："如果你现在拥有一个受益于向开放权重转型的 AI 产品，除了今天前后 90 天之外，没有更好的出售时机了。" <button class="pd-ts" data-t="42:42" data-who="Unknown" data-en="Just like Elad Gil said, sell if you have an AI asset right now, right? I think even better, if you have an AI product that's benefiting from the transition to open weights, there can't be a better time to sell than plus or minus 90 days from today." aria-label="回原文"></button> 这只是一个阶段转型，数字在 90 天内会很好看，但"这不会持续下去" <button class="pd-ts" data-t="43:17" data-who="Unknown" data-en="I mean, even if I only got 15x, I'd probably sell. It's not going to last. This transition is going to not going to be a transition anymore." aria-label="回原文"></button>。而且如果被收购，买家必须 95% 不碰它，否则就毁了其中立性——就像在 1 万个模型的市场上放个小广告，整个平台就废了 <button class="pd-ts" data-t="44:20" data-who="Unknown" data-en="If it becomes an OpenAI commercial, TBN has no value. I know we're probably the only people that are going to compare TBPN to Hugging Face, but if you mess with this marketplace for 10,000 models, even if you put a little ad at the top, you destroy it." aria-label="回原文"></button>。
+Rory 的判断更犀利："如果你现在拥有一个受益于向开放权重转型的 AI 产品，除了今天前后 90 天之外，没有更好的出售时机了。" <button class="pd-ts" data-t="42:42" data-who="嘉宾" data-en="Just like Elad Gil said, sell if you have an AI asset right now, right? I think even better, if you have an AI product that's benefiting from the transition to open weights, there can't be a better time to sell than plus or minus 90 days from today." aria-label="回原文"></button> 这只是一个阶段转型，数字在 90 天内会很好看，但"这不会持续下去" <button class="pd-ts" data-t="43:17" data-who="嘉宾" data-en="I mean, even if I only got 15x, I'd probably sell. It's not going to last. This transition is going to not going to be a transition anymore." aria-label="回原文"></button>。而且如果被收购，买家必须 95% 不碰它，否则就毁了其中立性——就像在 1 万个模型的市场上放个小广告，整个平台就废了 <button class="pd-ts" data-t="44:20" data-who="嘉宾" data-en="If it becomes an OpenAI commercial, TBN has no value. I know we're probably the only people that are going to compare TBPN to Hugging Face, but if you mess with this marketplace for 10,000 models, even if you put a little ad at the top, you destroy it." aria-label="回原文"></button>。
 
 ## Token 成瘾与企业预算的正面碰撞
 
-Jason 提了一个很实际的观点：企业和个人已经对 token 上瘾了。"我需要我的 10 个子智能体全天候 24 小时运行来做我的工作，否则我就辞职。" <button class="pd-ts" data-t="58:28" data-who="Unknown" data-en="Next year will be I need to run five to ten agents 24 hours a day or I quit. I quit. I won't do my crappy job." aria-label="回原文"></button> 但问题是——CFO 怎么买单？
+Jason 提了一个很实际的观点：企业和个人已经对 token 上瘾了。"我需要我的 10 个子智能体全天候 24 小时运行来做我的工作，否则我就辞职。" <button class="pd-ts" data-t="58:28" data-who="嘉宾" data-en="Next year will be I need to run five to ten agents 24 hours a day or I quit. I quit. I won't do my crappy job." aria-label="回原文"></button> 但问题是——CFO 怎么买单？
 
-Stripe 今年的信里有个类比被反复引用：智能应该像资本一样被管理和分配，而不是像软件许可证 <button class="pd-ts" data-t="56:10" data-who="Unknown" data-en="The comment they made was that near the end of the letter, they made a comment, we've internalized, I'm paraphrasing here from it, we've internalized that intelligence is like capital, it's fungible, there's demand for it, and it has to be managed and allocated." aria-label="回原文"></button>。你不会给员工无限额度的信用卡，但也不能直接切断 token。
+Stripe 今年的信里有个类比被反复引用：智能应该像资本一样被管理和分配，而不是像软件许可证 <button class="pd-ts" data-t="56:10" data-who="嘉宾" data-en="The comment they made was that near the end of the letter, they made a comment, we've internalized, I'm paraphrasing here from it, we've internalized that intelligence is like capital, it's fungible, there's demand for it, and it has to be managed and allocated." aria-label="回原文"></button>。你不会给员工无限额度的信用卡，但也不能直接切断 token。
 
-Rory 算了笔账：一家赚 10 亿的中游银行，如果 token 账单 1 亿，EPS 直接降 10%，华尔街会说你是白痴 <button class="pd-ts" data-t="57:49" data-who="Unknown" data-en="You can't say as the CFO of, take a US midstream bank, hey, we make a billion a year. I'm okay with running up $100 million token bill. I just decreased EPS 10%." aria-label="回原文"></button>。所以如果你在自动化上花更多，就必须在别处（比如裁员）省出来。
+Rory 算了笔账：一家赚 10 亿的中游银行，如果 token 账单 1 亿，EPS 直接降 10%，华尔街会说你是白痴 <button class="pd-ts" data-t="57:49" data-who="嘉宾" data-en="You can't say as the CFO of, take a US midstream bank, hey, we make a billion a year. I'm okay with running up $100 million token bill. I just decreased EPS 10%." aria-label="回原文"></button>。所以如果你在自动化上花更多，就必须在别处（比如裁员）省出来。
 
 Jason 还加了一层：CFO 们现在最怕的不是 token 账单，是人才流失。"如果我公司里 30% 的人离职去为 Harvey 工作，那我就完蛋了。
 
-" <button class="pd-ts" data-t="60:40" data-who="Unknown" data-en="And so there's this massive tension, which is if I don't give these people what they need for AI, I'm gonna lose all of them. And it is true. You'll be just be stuck with the folks that are still AI skeptics." aria-label="回原文"></button> 你不给他们 AI 工具，最好的人就走；你给了，预算就爆炸。这个张力 2027 年会全面爆发。
+" <button class="pd-ts" data-t="60:40" data-who="嘉宾" data-en="And so there's this massive tension, which is if I don't give these people what they need for AI, I'm gonna lose all of them. And it is true. You'll be just be stuck with the folks that are still AI skeptics." aria-label="回原文"></button> 你不给他们 AI 工具，最好的人就走；你给了，预算就爆炸。这个张力 2027 年会全面爆发。
 
 ## 这波 AI 周期走到哪了？
 
 Jason 问了一个所有投资人都在想的问题：脚下地板会不会塌？Rory 的判断："你必须相信我们在这个周期中不到三分之一。
 
-即使那个小小的云东西持续了九年。我们才刚刚开始。" <button class="pd-ts" data-t="52:34" data-who="Unknown" data-en="Eventually, of course, and Rory can pick the date like Babe Ruth, this will end. But I think you have to believe we're less than a third of the way through this cycle." aria-label="回原文"></button>
+即使那个小小的云东西持续了九年。我们才刚刚开始。" <button class="pd-ts" data-t="52:34" data-who="嘉宾" data-en="Eventually, of course, and Rory can pick the date like Babe Ruth, this will end. But I think you have to believe we're less than a third of the way through this cycle." aria-label="回原文"></button>
 
-他的框架：供给侧没人会眨眼——NVIDIA 不会，超大规模云厂商不会，OpenAI 也不会 <button class="pd-ts" data-t="53:05" data-who="Unknown" data-en="On the supply side, no one's going to blink. NVIDIA isn't going to blink. The hyperscalers aren't going to blink." aria-label="回原文"></button>。停止它的只有两件事：耗尽资本或耗尽需求。
+他的框架：供给侧没人会眨眼——NVIDIA 不会，超大规模云厂商不会，OpenAI 也不会 <button class="pd-ts" data-t="53:05" data-who="嘉宾" data-en="On the supply side, no one's going to blink. NVIDIA isn't going to blink. The hyperscalers aren't going to blink." aria-label="回原文"></button>。停止它的只有两件事：耗尽资本或耗尽需求。
 
-资本方面，公开市场还没真正参与——Anthropic 和 OpenAI 上市后会带来"一次转动曲柄的机会" <button class="pd-ts" data-t="53:52" data-who="Unknown" data-en="There's still a whole bunch of untapped demand to play in the AI game because these companies haven't gone public. You've clearly, on the capital side, got one more turn of the crank, which is when Anthropic goes out and OpenAI goes out." aria-label="回原文"></button>。需求方面，真正的限制因素是美国企业能不能足够快地花出 2000 亿到 4000 亿美元来喂饱这只野兽 <button class="pd-ts" data-t="54:24" data-who="Unknown" data-en="It's not 10x-ing anymore. But is there 200, 300, 400 billion of demand for this stuff? That, to me, is the question that will determine when the train stops." aria-label="回原文"></button>。
+资本方面，公开市场还没真正参与——Anthropic 和 OpenAI 上市后会带来"一次转动曲柄的机会" <button class="pd-ts" data-t="53:52" data-who="嘉宾" data-en="There's still a whole bunch of untapped demand to play in the AI game because these companies haven't gone public. You've clearly, on the capital side, got one more turn of the crank, which is when Anthropic goes out and OpenAI goes out." aria-label="回原文"></button>。需求方面，真正的限制因素是美国企业能不能足够快地花出 2000 亿到 4000 亿美元来喂饱这只野兽 <button class="pd-ts" data-t="54:24" data-who="嘉宾" data-en="It's not 10x-ing anymore. But is there 200, 300, 400 billion of demand for this stuff? That, to me, is the question that will determine when the train stops." aria-label="回原文"></button>。
 
-"这不会是 Google 的 CEO 醒来说也许我们应该更谨慎。那不是一件事。" <button class="pd-ts" data-t="54:45" data-who="Unknown" data-en="It's not going to be the CEO of Google waking up tomorrow and saying, maybe we should be more cautious, or the CEO of NVIDIA saying, maybe we should take less risk." aria-label="回原文"></button>
+"这不会是 Google 的 CEO 醒来说也许我们应该更谨慎。那不是一件事。" <button class="pd-ts" data-t="54:45" data-who="嘉宾" data-en="It's not going to be the CEO of Google waking up tomorrow and saying, maybe we should be more cautious, or the CEO of NVIDIA saying, maybe we should take less risk." aria-label="回原文"></button>
 
 ## 本集带走
 
@@ -126,63 +126,63 @@ Jason 问了一个所有投资人都在想的问题：脚下地板会不会塌�
 
 > <span class="qz">让我告诉你一件事，我保证。如果你在风险投资中的失败案例上获得了15倍回报，你会死的时候是个富翁。</span>  
 > *Let me tell you one thing I guarantee. If you get 15x on your failures in venture, you'll die a rich man.*  
-> <span class="qm">—— SPEAKER_01 · [12:08]</span> ^q1
+> <span class="qm">—— 嘉宾 · [12:08]</span> ^q1
 
 > <span class="qz">VC 的钱很久以前就在 Anthropic 和 OpenAI 上用光了，这就是为什么没有 VC 拥有它们任何一家超过1%或2%的股份。</span>  
 > *The VC money went out on Anthropic and OpenAI long ago, which is why no VC owns more than 1% or 2% of either of them.*  
-> <span class="qm">—— SPEAKER_01 · [12:30]</span> ^q2
+> <span class="qm">—— 嘉宾 · [12:30]</span> ^q2
 
 > <span class="qz">世界上只有四到五家公司可以为基础模型提供资金，而他们正在这样做。</span>  
 > *There are only four or five companies in the world that can finance a foundation model, and they are doing it.*  
-> <span class="qm">—— SPEAKER_01 · [13:02]</span> ^q3
+> <span class="qm">—— 嘉宾 · [13:02]</span> ^q3
 
 > <span class="qz">如果你能侥幸逃脱，除了防御性目的之外，在资产负债表上增加现金对你作为一家盈利公司的CEO来说没有任何意义，对吧？如果华尔街允许你花掉它，我也会花掉100%的现金。</span>  
 > *If you can get away with it, adding cash to the balance sheet other than being defensive does nothing for you as the CEO of a profitable company, right? If Wall Street lets you get away with spending it, I would spend 100% of my cash too.*  
-> <span class="qm">—— SPEAKER_02 · [18:19]</span> ^q4
+> <span class="qm">—— 嘉宾 · [18:19]</span> ^q4
 
 > <span class="qz">然后像Perplexity投资或OpenAI投资这样的东西简直就是，尤其是OpenAI，是供应商融资，作为芯片供应商的你选择给你的客户钱。</span>  
 > *And then something like perplexity investment or OpenAI investment is literally, especially the OpenAI, is vendor financing, where you as the vendor of the chips are choosing to give your customer money.*  
-> <span class="qm">—— SPEAKER_01 · [20:39]</span> ^q5
+> <span class="qm">—— 嘉宾 · [20:39]</span> ^q5
 
 > <span class="qz">他们会在2027年以他们能得到的任何价格上市，因为他们再也等不起了。</span>  
 > *They'll go out whatever price they get in 2027, because they can't wait any longer.*  
-> <span class="qm">—— SPEAKER_01 · [34:00]</span> ^q6
+> <span class="qm">—— 嘉宾 · [34:00]</span> ^q6
 
 > <span class="qz">如果危险可以被描述为选择的缺失，那么他们现在正处于危险之中。</span>  
 > *If danger can be described as the absence of choice, they were now in danger.*  
-> <span class="qm">—— SPEAKER_01 · [34:38]</span> ^q7
+> <span class="qm">—— 嘉宾 · [34:38]</span> ^q7
 
 > <span class="qz">今天，Anthropic是什么，它全是关于代码。那就是那句话。那是唯一重要的一句话。</span>  
 > *Today, what Anthropic is, it's all about code. That's the sentence. That's the only sentence that matters.*  
-> <span class="qm">—— SPEAKER_01 · [38:05]</span> ^q8
+> <span class="qm">—— 嘉宾 · [38:05]</span> ^q8
 
 > <span class="qz">对消费者来说，这是一个糟糕的生意，以200美元出售价值10,000美元的tokens是我们这个时代最糟糕的商业模式之一，对吧？</span>  
 > *It's a crappy business that consumers, selling $10,000 worth of tokens for $200 is one of the worst business models of our lifetimes, right?*  
-> <span class="qm">—— SPEAKER_02 · [39:01]</span> ^q9
+> <span class="qm">—— 嘉宾 · [39:01]</span> ^q9
 
 > <span class="qz">我认为更好的是，如果你拥有一个受益于向开放权重转型的AI产品，除了今天前后90天之外，没有更好的出售时机了。</span>  
 > *I think even better, if you have an AI product that's benefiting from the transition to open weights, there can't be a better time to sell than plus or minus 90 days from today.*  
-> <span class="qm">—— SPEAKER_02 · [42:42]</span> ^q10
+> <span class="qm">—— 嘉宾 · [42:42]</span> ^q10
 
 > <span class="qz">我知道我们可能是唯一会将TBPN与Hugging Face相提并论的人，但如果你在这个拥有10,000个模型的市场上捣乱，即使你在顶部放一个小广告，你也会毁了它。</span>  
 > *I know we're probably the only people that are going to compare TBPN to Hugging Face, but if you mess with this marketplace for 10,000 models, even if you put a little ad at the top, you destroy it.*  
-> <span class="qm">—— SPEAKER_02 · [44:20]</span> ^q11
+> <span class="qm">—— 嘉宾 · [44:20]</span> ^q11
 
 > <span class="qz">但我认为你必须相信我们在这个周期中不到三分之一。</span>  
 > *But I think you have to believe we're less than a third of the way through this cycle.*  
-> <span class="qm">—— SPEAKER_02 · [52:34]</span> ^q12
+> <span class="qm">—— 嘉宾 · [52:34]</span> ^q12
 
 > <span class="qz">我们已经内化了，智能就像资本一样，它是可替代的，对它有需求，并且必须被管理和分配。</span>  
 > *We've internalized that intelligence is like capital, it's fungible, there's demand for it, and it has to be managed and allocated.*  
-> <span class="qm">—— SPEAKER_01 · [56:03]</span> ^q13
+> <span class="qm">—— 嘉宾 · [56:03]</span> ^q13
 
 > <span class="qz">耶稣基督，如果我公司里30%的人离职去为Harvey工作，那我就完蛋了。</span>  
 > *Jesus Christ, if 30% of my company leaves to go work for Harvey, I'm dead in the water.*  
-> <span class="qm">—— SPEAKER_02 · [60:58]</span> ^q14
+> <span class="qm">—— 嘉宾 · [60:58]</span> ^q14
 
 > <span class="qz">硅谷每三年就会忘记一件事，那就是普通美国人并不追求效率。</span>  
 > *Silicon Valley forgets every three years that the average American is not trying to be efficient.*  
-> <span class="qm">—— SPEAKER_01 · [72:14]</span> ^q15
+> <span class="qm">—— 嘉宾 · [72:14]</span> ^q15
 
 <div class="pd-sec">接着看</div>
 

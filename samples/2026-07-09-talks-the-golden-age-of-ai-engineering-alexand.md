@@ -96,23 +96,23 @@ Peter 描绘了他理想中的最终形态：未来，智能体不应该被绑�
 
 > <span class="qz">我以为我在编排。实际上，我在轮询。</span>  
 > *I thought I was orchestrating. Really, I was polling.*  
-> <span class="qm">—— SPEAKER_01 · [19:24]</span> ^q3
+> <span class="qm">—— 嘉宾 · [19:24]</span> ^q3
 
 > <span class="qz">现在，我主要受限于注意力。与 tokens 或计算不同，我不能简单地增加更多的注意力。</span>  
 > *Now, I'm primarily constrained by attention. And unlike tokens or compute, I can't simply add more of it.*  
-> <span class="qm">—— SPEAKER_01 · [21:19]</span> ^q4
+> <span class="qm">—— 嘉宾 · [21:19]</span> ^q4
 
 > <span class="qz">智能体运行内部执行循环。我设定方向，我在外部循环中做决策。</span>  
 > *The agent runs the inner execution loop. I set the direction and I make decisions in the outer loop.*  
-> <span class="qm">—— SPEAKER_01 · [23:04]</span> ^q5
+> <span class="qm">—— 嘉宾 · [23:04]</span> ^q5
 
 > <span class="qz">模型的进步速度超过了围绕它们的工具和组织。</span>  
 > *Models are advancing faster than the harnesses and organizations around them.*  
-> <span class="qm">—— SPEAKER_01 · [24:34]</span> ^q6
+> <span class="qm">—— 嘉宾 · [24:34]</span> ^q6
 
 > <span class="qz">未来不是 20 个终端。而是更好的循环。</span>  
 > *The future is not 20 terminals. It's better loops.*  
-> <span class="qm">—— SPEAKER_01 · [24:49]</span> ^q7
+> <span class="qm">—— 嘉宾 · [24:49]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 

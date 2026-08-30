@@ -87,9 +87,9 @@ Amol 观察到,当前阶段工程师从 Claude Code(Anthropic 的命令行编程
 
 2022 年初,因为一次泰拳训练事故,他被重重踢中头部,造成了创伤性脑损伤。前两三个月他看不了屏幕、听不了 20 秒音乐,否则就会呕吐,连发短信都得靠妻子代劳,整整九个月没法工作。
 
-入职 Mercury(一家金融科技公司)才一个月,他又因为被行李砸到头而二次受伤,再度停工 [101:49 [[Amol Avasare|Amol Avasare]]]。直到今天,他说自己还没百分百康复。
+入职 Mercury(一家金融科技公司)才一个月,他又因为被行李砸到头而二次受伤,再度停工 <button class="pd-ts" data-t="101:49" data-who="Amol Avasare" data-en="It basically got to the point then where over nine months and then that it returned to work and then it slowly got better. And the part, Lenny, you don't know is in mid-2023, we posted that newsletter and a month later I got re-injured actually." aria-label="回原文"></button>。直到今天,他说自己还没百分百康复。
 
-但这段经历逼他养成了极其严格的节律:不碰酒精和咖啡因、雷打不动地休息、每年去做一次冥想静修。他反复提到一个从冥想里学来的感悟:「真正的自由,是学会在得不到想要的东西时依然知足」——这种定力,正是他能在 Anthropic 这种疯狂数字里保持理智的底盘 [106:28 Amol Avasare]。
+但这段经历逼他养成了极其严格的节律:不碰酒精和咖啡因、雷打不动地休息、每年去做一次冥想静修。他反复提到一个从冥想里学来的感悟:「真正的自由,是学会在得不到想要的东西时依然知足」——这种定力,正是他能在 Anthropic 这种疯狂数字里保持理智的底盘 <button class="pd-ts" data-t="106:28" data-who="Amol Avasare" data-en="And I think that that's the thing when the impacts maybe are not coming, you have to then adapt to, &quot;Okay, what do I want my happiness to be?&quot; And one of the meditation teachers said that true freedom in life is learning how to be content when you don't get what you want." aria-label="回原文"></button>。
 
 ## 本集带走
 最后收个尾,这一集值得带走的是几句话。第一,如果你做的是 AI 作为核心价值的产品,别再去精雕细琢那 30% 的增长优化了,因为未来的产品价值是今天的成百上千倍,你得把精力放在能接住巨大价值的「大动作」上,才不会见树不见林。第二,AI 自动化已经在吞噬增长工作流了——从识别机会、写代码、测质量到复盘,目前水平约等于初级 PM,且每一周都在变强;人在不久的将来,核心价值只剩下最难的对齐和跨部门扯皮。第三,在工程师产出被 AI 放大数倍后,传统的 PM 和设计人力反而被严重挤压,解法不是让人去死磕写代码,而是招募有产品思维的工程师,给足授权,让他们在两周以内的项目里自己当 PM。第四,增长不是榨干每一分钱,有时候为了品牌、安全和体验,你得心安理得地把钱留在桌面上,这才是长期的竞争壁垒。第五,约束本身就是自由,资源最匮乏的时候做出的最聚焦选择,往往能跑出最陡的增长曲线。最后,在这个被 AI 推着往前冲的疯狂时代,能在最疯的数字里不丢掉理智,靠的是先把自己的身体和心智底座给稳住——得不到想要的也能知足,才能在一切都不确定的时候,依然做出清醒的选择。

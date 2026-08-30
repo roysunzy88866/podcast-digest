@@ -25,7 +25,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-26-pragmatic-why-performant-code-matters-but-gets.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">他还说，市面上大多数软件的运行速度比所需速度慢几十到几百倍。</div><div class="a">— SPEAKER_01 <button class="pd-ts" data-t="00:08" data-who="SPEAKER_01" data-en="He also says that most software out there runs tens to hundred times slower than it needs to." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">他还说，市面上大多数软件的运行速度比所需速度慢几十到几百倍。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="00:08" data-who="嘉宾" data-en="He also says that most software out there runs tens to hundred times slower than it needs to." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Casey Moratori]]
@@ -84,9 +84,9 @@ Casey 把[[游戏引擎|游戏引擎]]的普及比作「游戏行业的 AI 时�
 
 Casey 在自己的项目里完全不用 AI 工具，原因很简单：他写游戏代码是因为他想写，不是为了产出 <button class="pd-ts" data-t="93:17" data-who="Casey Moratori" data-en="In the work that you're doing at Molly Rocket with this project that is yet unreleased, how are you using AI tools, if you're using them at all? We are not using them at all." aria-label="回原文"></button>。他把这比作手工家具——IKEA 自动化了制造，但工业区里还是有人手工做桌子，这是人类会做的事，不需要商业理由 <button class="pd-ts" data-t="95:13" data-who="Casey Moratori" data-en="I think there will probably also be at some point a notion of like traditional hand crafting that will come into play because we've seen this in most other times when you automate something." aria-label="回原文"></button>。
 
-关于 AI 对行业的实际影响，他觉得现在评估太早。就算 AI 已经让生产力提升了 10%，这种幅度的提升从外部也很难观察到 [102:42 Casey Moratori]。
+关于 AI 对行业的实际影响，他觉得现在评估太早。就算 AI 已经让生产力提升了 10%，这种幅度的提升从外部也很难观察到 <button class="pd-ts" data-t="102:42" data-who="Casey Moratori" data-en="So there's all that's on the table. Then there's another possibility, which is that it actually already has worked, but just the productivity boost isn't as big as would be obvious." aria-label="回原文"></button>。
 
-但他注意到一个现象：工作中自主权高的人通常对 AI 体验积极——他们拿 AI 做自己不想做的事；而被强制要求使用 AI 的人更容易产生倦怠 [106:35 Casey Moratori]。所以他的建议是，选工作时把自主权当成一个重要考量 [107:30 Casey Moratori]。
+但他注意到一个现象：工作中自主权高的人通常对 AI 体验积极——他们拿 AI 做自己不想做的事；而被强制要求使用 AI 的人更容易产生倦怠 <button class="pd-ts" data-t="106:35" data-who="Casey Moratori" data-en="If you're somebody with a high degree of autonomy, then when are you going to reach for an AI? Well, whenever there's something that you didn't want to do, right?" aria-label="回原文"></button>。所以他的建议是，选工作时把自主权当成一个重要考量 <button class="pd-ts" data-t="107:30" data-who="Casey Moratori" data-en="So... So I guess it might be just an idea for folks in this situation that now you might want to evaluate your current position or if you're interviewing your next position based on how much autonomy will you have." aria-label="回原文"></button>。
 
 ## 本集带走
 
@@ -100,7 +100,7 @@ Casey 在自己的项目里完全不用 AI 工具，原因很简单：他写游�
 
 > <span class="qz">他还说，市面上大多数软件的运行速度比所需速度慢几十到几百倍。</span>  
 > *He also says that most software out there runs tens to hundred times slower than it needs to.*  
-> <span class="qm">—— SPEAKER_01 · [00:08]</span> ^q1
+> <span class="qm">—— 嘉宾 · [00:08]</span> ^q1
 
 > <span class="qz">所以关键点是，你团队中每一个正在做架构决策的人，那些人必须懂性能，而且他们必须做出能让那些在他们下游的其他人使用以后可以优化的架构的决策。</span>  
 > *the crucial takeaway is everybody on your team who is making architectural decisions, those people must know performance and they must make decisions that will allow the other people downstream of them to use an architecture which can be optimized later.*  

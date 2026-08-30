@@ -41,19 +41,19 @@ jsonLd: |
 
 最早期的 Roblox 角色比例极其简单，腿是一乘一乘二，身体是二乘二乘一，脸就是程序员随手画的。当时所有游戏行业的人都说千万别发这个，你得要高分辨率的网格化身。
 
-但他们决定先发出去、先拿到反馈再说。后来发现，谢天谢地没听那些意见 <button class="pd-ts" data-t="11:45" data-who="Unknown" data-en="You know, one of the decisions I think back to the early founding of Roblox, and I would call this a set of an irreverence is The very earliest version of Roblox had what we would call a classic Roblox character." aria-label="回原文"></button>。
+但他们决定先发出去、先拿到反馈再说。后来发现，谢天谢地没听那些意见 <button class="pd-ts" data-t="11:45" data-who="嘉宾" data-en="You know, one of the decisions I think back to the early founding of Roblox, and I would call this a set of an irreverence is The very earliest version of Roblox had what we would call a classic Roblox character." aria-label="回原文"></button>。
 
 这种做减法的思维也延伸到公司管理上。他认为[[官僚主义|官僚主义]]就是组织的熵——沉积物会自然堆积，必须有一个反向的力量去对抗它。
 
-他在公司内部直接用"摧毁官僚主义"这个词。核心判断是：如果你不在减少官僚主义，那就没有中立地带——你以为维持现状就行了，实际上东西在悄悄内爆；如果你不在试图改善，那就是在倒退 <button class="pd-ts" data-t="06:53" data-who="Unknown" data-en="We do use the term destroy bureaucracy inside the company at times. I would say that if one is not reducing bureaucracy, there's no neutral ground. I think in a lot of situations where one thinks, we're pretty good, we're just going to let it be in this steady state, that's actually things are imploding in a way." aria-label="回原文"></button>。
+他在公司内部直接用"摧毁官僚主义"这个词。核心判断是：如果你不在减少官僚主义，那就没有中立地带——你以为维持现状就行了，实际上东西在悄悄内爆；如果你不在试图改善，那就是在倒退 <button class="pd-ts" data-t="06:53" data-who="嘉宾" data-en="We do use the term destroy bureaucracy inside the company at times. I would say that if one is not reducing bureaucracy, there's no neutral ground. I think in a lot of situations where one thinks, we're pretty good, we're just going to let it be in this steady state, that's actually things are imploding in a way." aria-label="回原文"></button>。
 
 给反馈的方式也体现了这种"轻"的哲学。他反对搞正式的反馈会议，而是追求高频、当下、轻松的反馈——就是随口一句"你觉得那个怎么样？
 
 "关键在于语调：如果对方能感觉到你血压没升高、你无论如何都支持他，哪怕反馈很严厉，对方也能接受。反过来，如果反馈带着攻击性，那个创伤感比反馈内容本身影响更大。
 
-他还有一条铁律：如果自己很生气，绝对不要碰文字或邮件。那种"发出去会很爽"的邮件，忍住别发，第二天早上你会庆幸没发，然后可以打电话、用更冷静的方式传递同样的信息 <button class="pd-ts" data-t="07:23" data-who="Unknown" data-en="How do you give feedback to people? What I have tried to do is move to more frequency, more in the moment, relaxed, not a big deal, rather than let's have a feedback session." aria-label="回原文"></button>。
+他还有一条铁律：如果自己很生气，绝对不要碰文字或邮件。那种"发出去会很爽"的邮件，忍住别发，第二天早上你会庆幸没发，然后可以打电话、用更冷静的方式传递同样的信息 <button class="pd-ts" data-t="07:23" data-who="嘉宾" data-en="How do you give feedback to people? What I have tried to do is move to more frequency, more in the moment, relaxed, not a big deal, rather than let's have a feedback session." aria-label="回原文"></button>。
 
-关于决策，他认为组织里很多决策最重要的不是集体讨论，而是先识别出谁是决策者，然后给这个人自由和创造力去做决定，这比集体决策或混乱决策有效得多 <button class="pd-ts" data-t="10:45" data-who="Unknown" data-en="Can you spend a few beats and explain the principles of good decision making and good thinking as you see them? There is something, I think, inside of an organization where for many decisions, it's actually more important just to let's identify the person who's going to make the decision and let them be somewhat free and creative to make the decision than in many cases a group decision or a confused decision or we're trying to do all of that." aria-label="回原文"></button>。他分析自己犯过的错，大多源于过于逻辑化、不够直觉——在一个概念上坚持太久，而其实完全可以更早改变航向 <button class="pd-ts" data-t="16:13" data-who="Unknown" data-en="What's your process? I would just say my process, I would say typically my mistakes have come, I think, from being maybe overly logical and less intuitive. Say more about that." aria-label="回原文"></button>。他还有一个有意思的做法：在脑海里虚构一家"街对面的公司"，想象那家公司的团队规模、人在做什么，把它当作假想的威胁来保持紧迫感，就像乔丹编造其他球员说的话来激励自己一样 <button class="pd-ts" data-t="15:42" data-who="Unknown" data-en="Do you manufacture threats as a way to motivate or focus yourself? And I think of Michael Jordan playing for the Bulls. He used to manufacture things that other players said about him." aria-label="回原文"></button>。
+关于决策，他认为组织里很多决策最重要的不是集体讨论，而是先识别出谁是决策者，然后给这个人自由和创造力去做决定，这比集体决策或混乱决策有效得多 <button class="pd-ts" data-t="10:45" data-who="嘉宾" data-en="Can you spend a few beats and explain the principles of good decision making and good thinking as you see them? There is something, I think, inside of an organization where for many decisions, it's actually more important just to let's identify the person who's going to make the decision and let them be somewhat free and creative to make the decision than in many cases a group decision or a confused decision or we're trying to do all of that." aria-label="回原文"></button>。他分析自己犯过的错，大多源于过于逻辑化、不够直觉——在一个概念上坚持太久，而其实完全可以更早改变航向 <button class="pd-ts" data-t="16:13" data-who="嘉宾" data-en="What's your process? I would just say my process, I would say typically my mistakes have come, I think, from being maybe overly logical and less intuitive. Say more about that." aria-label="回原文"></button>。他还有一个有意思的做法：在脑海里虚构一家"街对面的公司"，想象那家公司的团队规模、人在做什么，把它当作假想的威胁来保持紧迫感，就像乔丹编造其他球员说的话来激励自己一样 <button class="pd-ts" data-t="15:42" data-who="嘉宾" data-en="Do you manufacture threats as a way to motivate or focus yourself? And I think of Michael Jordan playing for the Bulls. He used to manufacture things that other players said about him." aria-label="回原文"></button>。
 
 Roblox 的经济系统演进是一个经典的"别修破系统、换个系统"的案例。早期 Roblox 用的是会员制模式——付钱获得额外建造位。
 
@@ -61,21 +61,21 @@ Roblox 的经济系统演进是一个经典的"别修破系统、换个系统"�
 
 团队的第一反应是典型的战术回应：列了 50 个可能出问题的地方，做了 30 个小调整，问题还在。而他们脑子深处其实一直有一个更大胆的想法：[[虚拟货币|虚拟货币]]体系。
 
-这不仅仅是修补，而可能是现有模式的一百倍。最终他们决定押注这个新系统——虚拟货币、用户可以购买、创作者可以整合、还能看到哪些游戏赚得最多。所有东西同时上线，八小时内就知道成了：创作者们立刻开始行动，排行榜上出现了收入最高的游戏 <button class="pd-ts" data-t="27:05" data-who="Unknown" data-en="And how did you realize you were going down the wrong path? Along the way to building an economy on the platform, we started with a very different economic model." aria-label="回原文"></button>。
+这不仅仅是修补，而可能是现有模式的一百倍。最终他们决定押注这个新系统——虚拟货币、用户可以购买、创作者可以整合、还能看到哪些游戏赚得最多。所有东西同时上线，八小时内就知道成了：创作者们立刻开始行动，排行榜上出现了收入最高的游戏 <button class="pd-ts" data-t="27:05" data-who="嘉宾" data-en="And how did you realize you were going down the wrong path? Along the way to building an economy on the platform, we started with a very different economic model." aria-label="回原文"></button>。
 
 这个经济系统背后有一个更早的工程决策奠定了基础。早期联合创始人 Eric 坚决反对把游戏类型硬编码进系统核心——他们当时真的在核心 C++ 代码里写了一个"旗子"对象来做夺旗游戏，现在看来是灾难性的工程。
 
-Eric 的主张是：接一门脚本语言上去，做通用的 [[API|API]]。他们选了 Lua，这个通用化决策给了 Roblox 巨大的[[用户生成内容|用户生成内容]](UGC)推动力 <button class="pd-ts" data-t="24:36" data-who="Unknown" data-en="One of the things that you and Eric disagreed on was the API. So Eric Castle, co-founder, started Roblox with me, passed away from cancer like eight years ago, rest in peace." aria-label="回原文"></button>。
+Eric 的主张是：接一门脚本语言上去，做通用的 [[API|API]]。他们选了 Lua，这个通用化决策给了 Roblox 巨大的[[用户生成内容|用户生成内容]](UGC)推动力 <button class="pd-ts" data-t="24:36" data-who="嘉宾" data-en="One of the things that you and Eric disagreed on was the API. So Eric Castle, co-founder, started Roblox with me, passed away from cancer like eight years ago, rest in peace." aria-label="回原文"></button>。
 
-虚拟货币 [[Robux|Robux]] 大约每个值一美分，这个汇率维持了大约 20 年，与美元挂钩，他们刻意保持不通胀不通缩。很多 8 到 12 岁孩子的第一次金钱体验就是 Robux——学怎么用虚拟货币、不一次花光、学会分配，这本身就是一种财商教育 <button class="pd-ts" data-t="31:53" data-who="Unknown" data-en="Like, how do you think about that? We have generally thought it's better not to inflate it, to have it be a somewhat consistent value. If you were or I were to go buy some Robux, we would see it's generally..." aria-label="回原文"></button>。
+虚拟货币 [[Robux|Robux]] 大约每个值一美分，这个汇率维持了大约 20 年，与美元挂钩，他们刻意保持不通胀不通缩。很多 8 到 12 岁孩子的第一次金钱体验就是 Robux——学怎么用虚拟货币、不一次花光、学会分配，这本身就是一种财商教育 <button class="pd-ts" data-t="31:53" data-who="嘉宾" data-en="Like, how do you think about that? We have generally thought it's better not to inflate it, to have it be a somewhat consistent value. If you were or I were to go buy some Robux, we would see it's generally..." aria-label="回原文"></button>。
 
-关于公司聚焦，他的标准是：你脑子里有没有一句话，公司里每个人都能听懂？"我们在做这件事"，每个人说"哦我明白了，我可以以此为核心"。早期 Roblox 的口号是"你制作游戏"，现在回头看这句话，随着 [[AI|AI]] 让任何人都能通过说话来创建游戏，这句话可能比以往任何时候都更真实 <button class="pd-ts" data-t="33:37" data-who="Unknown" data-en="What does focus mean to you? I think one way to think about focus is, like, is there one statement in your head that everyone in the company can just understand?" aria-label="回原文"></button>。
+关于公司聚焦，他的标准是：你脑子里有没有一句话，公司里每个人都能听懂？"我们在做这件事"，每个人说"哦我明白了，我可以以此为核心"。早期 Roblox 的口号是"你制作游戏"，现在回头看这句话，随着 [[AI|AI]] 让任何人都能通过说话来创建游戏，这句话可能比以往任何时候都更真实 <button class="pd-ts" data-t="33:37" data-who="嘉宾" data-en="What does focus mean to you? I think one way to think about focus is, like, is there one statement in your head that everyone in the company can just understand?" aria-label="回原文"></button>。
 
-他们内部已经有大量 AI 应用——一个叫 Roblox 操作系统的内部工具用来跟踪工作、帮人看到自己在组织中的位置，这些系统都启用了 [[MCP|MCP]](一种让 AI 调用外部工具的协议)，任何人都可以拿自己的 AI 系统在上面跑，有人用它自动生成一对一会议的讨论话题 <button class="pd-ts" data-t="35:21" data-who="Unknown" data-en="Do you use AI internally to help make decisions or help expand your context window in the company? I would say we have all kinds of AI. We have a bunch of internal systems that we have built." aria-label="回原文"></button>。
+他们内部已经有大量 AI 应用——一个叫 Roblox 操作系统的内部工具用来跟踪工作、帮人看到自己在组织中的位置，这些系统都启用了 [[MCP|MCP]](一种让 AI 调用外部工具的协议)，任何人都可以拿自己的 AI 系统在上面跑，有人用它自动生成一对一会议的讨论话题 <button class="pd-ts" data-t="35:21" data-who="嘉宾" data-en="Do you use AI internally to help make decisions or help expand your context window in the company? I would say we have all kinds of AI. We have a bunch of internal systems that we have built." aria-label="回原文"></button>。
 
-在安全方面，他们在没有法律要求的情况下就主动用 AI 检查平台上每个人的年龄，开源了语音安全过滤器。这确实拖慢了短期增长，但他的逻辑是：打造一个全年龄段都能一起玩的全球平台，这是增长的地基，不是可选项 <button class="pd-ts" data-t="36:14" data-who="Unknown" data-en="I want to get into talking about A lot of the policy that's coming out of governments all around the world in terms of age bands, how do you think, without commenting maybe on whether they should or should not exist, who do you think should implement those?" aria-label="回原文"></button>。
+在安全方面，他们在没有法律要求的情况下就主动用 AI 检查平台上每个人的年龄，开源了语音安全过滤器。这确实拖慢了短期增长，但他的逻辑是：打造一个全年龄段都能一起玩的全球平台，这是增长的地基，不是可选项 <button class="pd-ts" data-t="36:14" data-who="嘉宾" data-en="I want to get into talking about A lot of the policy that's coming out of governments all around the world in terms of age bands, how do you think, without commenting maybe on whether they should or should not exist, who do you think should implement those?" aria-label="回原文"></button>。
 
-五年后的 Roblox，他画了两张图。一是照片写实的多人游戏——不是"这画面很牛的游戏"，而是感觉像在看《谍影重重》电影一样的真实感，他说这会像从黑白到彩色一样大的跳跃。二是"你制作游戏"的终极实现——通过说话就能做出一个漂亮的东西、分享给家人、一起玩，游戏比代码复杂得多，有图像、资产、环境、故事，但 AI 能让这一切闭环 <button class="pd-ts" data-t="39:43" data-who="Unknown" data-en="So I do just feel the work we've done, safety, civility, platform-wide, is foundational for platforms like this. If you close your eyes, I want you to tell me what Roblox looks like in five years from now." aria-label="回原文"></button>。
+五年后的 Roblox，他画了两张图。一是照片写实的多人游戏——不是"这画面很牛的游戏"，而是感觉像在看《谍影重重》电影一样的真实感，他说这会像从黑白到彩色一样大的跳跃。二是"你制作游戏"的终极实现——通过说话就能做出一个漂亮的东西、分享给家人、一起玩，游戏比代码复杂得多，有图像、资产、环境、故事，但 AI 能让这一切闭环 <button class="pd-ts" data-t="39:43" data-who="嘉宾" data-en="So I do just feel the work we've done, safety, civility, platform-wide, is foundational for platforms like this. If you close your eyes, I want you to tell me what Roblox looks like in five years from now." aria-label="回原文"></button>。
 
 ## 本集带走
 - **好产品做减法**：别加旋钮和滑块，移除它们才难。一把好刀加一口好锅，胜过一堆专用电器
@@ -93,7 +93,7 @@ Eric 的主张是：接一门脚本语言上去，做通用的 [[API|API]]。他
 
 > <span class="qz">我的意思是，似乎像沉积物在公司内部堆积，官僚主义是组织的熵的自然形式。</span>  
 > *I mean, there seems to be like sediment builds up inside the company and bureaucracy is the natural sort of like entropy of an organization.*  
-> <span class="qm">—— SPEAKER_01 · [06:35]</span> ^q2
+> <span class="qm">—— 嘉宾 · [06:35]</span> ^q2
 
 > <span class="qz">我想说的是，如果一个人不减少官僚主义，就没有中立地带。</span>  
 > *I would say that if one is not reducing bureaucracy, there's no neutral ground.*  
@@ -109,7 +109,7 @@ Eric 的主张是：接一门脚本语言上去，做通用的 [[API|API]]。他
 
 > <span class="qz">我用结果胜过自我来思考它。</span>  
 > *I think of it in terms of like outcome over ego.*  
-> <span class="qm">—— SPEAKER_01 · [09:40]</span> ^q6
+> <span class="qm">—— 嘉宾 · [09:40]</span> ^q6
 
 > <span class="qz">我只想说我的流程，我想说我通常的错误都源于，我认为，可能过于逻辑化而不够直觉。</span>  
 > *I would just say my process, I would say typically my mistakes have come, I think, from being maybe overly logical and less intuitive.*  

@@ -25,7 +25,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-31-talks-building-deep-agents-and-deploying-in-pr.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">思考这个等式最简单的方法是,如果你不是那个模型,你就是那个框架。</div><div class="a">— SPEAKER_00 <button class="pd-ts" data-t="00:56" data-who="SPEAKER_00" data-en="the easiest way to think about this equation is that if you're not the model, you're the harness." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">思考这个等式最简单的方法是,如果你不是那个模型,你就是那个框架。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="00:56" data-who="嘉宾" data-en="the easiest way to think about this equation is that if you're not the model, you're the harness." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **公司** [[LangChain]]
@@ -92,19 +92,19 @@ jsonLd: |
 
 > <span class="qz">思考这个等式最简单的方法是,如果你不是那个模型,你就是那个框架。</span>  
 > *the easiest way to think about this equation is that if you're not the model, you're the harness.*  
-> <span class="qm">—— SPEAKER_00 · [00:56]</span> ^q1
+> <span class="qm">—— 嘉宾 · [00:56]</span> ^q1
 
 > <span class="qz">文件系统是……可能是目前上下文管理的最先进技术,智能体将利用文件系统来存储它们可能需要参考的信息,比如便签本。</span>  
 > *The file system is... Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad.*  
-> <span class="qm">—— SPEAKER_00 · [03:29]</span> ^q2
+> <span class="qm">—— 嘉宾 · [03:29]</span> ^q2
 
 > <span class="qz">我们在构建智能体方面的建议是,始终从深度智能体开始。</span>  
 > *Our recommendation when it comes to building agents is to always start with a deep agent.*  
-> <span class="qm">—— SPEAKER_00 · [08:11]</span> ^q3
+> <span class="qm">—— 嘉宾 · [08:11]</span> ^q3
 
 > <span class="qz">你的任务越长,你的智能体在某个时刻失败的可能性就越大,如果你处于 123 个步骤中的第 67 步,然后必须在重启任务时再次执行所有这 67 个步骤,那感觉真的很糟糕。</span>  
 > *It's likely that the longer your task is, at some point your agent is going to fail, and it's going to feel really bad if you're on step 67 out of 123, and then you have to execute all the 67 steps again when you restart the task.*  
-> <span class="qm">—— SPEAKER_00 · [08:57]</span> ^q4
+> <span class="qm">—— 嘉宾 · [08:57]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 

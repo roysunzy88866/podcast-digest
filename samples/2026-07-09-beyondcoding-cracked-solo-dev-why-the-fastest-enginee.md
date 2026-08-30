@@ -129,7 +129,7 @@ Kitsa 的观点很直白：这个行业大多数人是"薪水过高用来瞎搞"
 
 > <span class="qz">所以如果你不为此进行工程化，那个时间线只会加速。然后你需要在六个月内而不是几年内重写。</span>  
 > *So if you don't engineer for that, that timeline is just going to accelerate. And then you need to rewrite in like six months instead of years.*  
-> <span class="qm">—— SPEAKER_03 · [20:17]</span> ^q9
+> <span class="qm">—— 嘉宾 · [20:17]</span> ^q9
 
 > <span class="qz">但如果你把他们扔进一个房间里，和那些做了非常好的氛围工程设置的人在一起，他们会意识到，哦，见鬼，这不是我的编码和他们的编码的较量。是我的编码和他们的设置的较量。</span>  
 > *But then if you throw them into the room with people who have done very good vibe engineering setups, they'll realize, oh, fuck, it's not my coding versus their coding. It's my coding versus their setups.*  

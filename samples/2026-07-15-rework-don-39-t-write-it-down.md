@@ -86,23 +86,23 @@ David 说得更直白：如果你真的觉得这件事重要，现在就做。�
 
 > <span class="qz">我认为当你开始记下来、列清单、记录东西时，你会觉得，好吧，现在你觉得有义务对它做点什么或用它做点什么。</span>  
 > *I think when you begin to jot things down and make lists and record stuff, you’re like, well, now you feel like there’s an obligation to do something about it or do something with it.*  
-> <span class="qm">——  · [01:34]</span> ^q2
+> <span class="qm">—— 嘉宾 · [01:34]</span> ^q2
 
 > <span class="qz">这里的魔力不在于甚至很少是他们建议他们想要在产品里的东西。而是他们揭示出来的东西，那些对他们不起作用的、不显而易见的、只是个痛点的、或者与他们使用的语言不产生共鸣的东西。</span>  
 > *The magic here is not or even rarely what they’re suggesting that they want in the product. It’s what they’re revealing that doesn’t work for them or isn’t obvious or it’s just a pain or doesn’t resonate with the language that they’re using.*  
-> <span class="qm">——  · [03:59]</span> ^q3
+> <span class="qm">—— 嘉宾 · [03:59]</span> ^q3
 
 > <span class="qz">一个人会建议这个特定的功能。另一个人会建议另一个似乎完全不相关的功能，但它们都来自同一个核心痛点。作为软件设计师，你的工作是要意识到这个问题的星座实际上是同一件事。</span>  
 > *One person will suggest this specific feature. Another person will suggest another feature that doesn’t seem like it’s related at all, but it’s all coming from the same core hurt. And your job as a software designer is to realize this constellation of problems is actually the same thing.*  
-> <span class="qm">——  · [05:10]</span> ^q4
+> <span class="qm">—— 嘉宾 · [05:10]</span> ^q4
 
 > <span class="qz">当客户尝试为你设计软件时经常发生的情况是，他们想要一个补丁。他们只想在某样突起的东西上贴一些管道胶带，但你会想，不，实际上这东西突起来的原因是铆钉没有合适的公差。</span>  
 > *What happens a lot when customers try to design your software for you is they want a patch. They want to just put some duct tape on something that’s sticking up, but you go like, no, actually the reason this thing is sticking up is because the rivets are not the right tolerance.*  
-> <span class="qm">——  · [05:27]</span> ^q5
+> <span class="qm">—— 嘉宾 · [05:27]</span> ^q5
 
 > <span class="qz">你不会听到所有那些因为产品形状不对而没有注册你产品的客户的声音。你不会听到所有结构问题的声音，那些问题并不明显，无法由单一客户以简单的方式表达出来。</span>  
 > *You’re not going to hear about all the customers who didn’t sign up for your product because it didn’t have the right shape at all for them to be enticed to use it. You’re not going to hear about all the sort of structural problems that the thing has that just aren't obvious and can’t be articulated by a single customer in an easy way.*  
-> <span class="qm">——  · [06:53]</span> ^q6
+> <span class="qm">—— 嘉宾 · [06:53]</span> ^q6
 
 > <span class="qz">路线图是共识错觉的温床，你认为因为某条路线图上有一个要点，听起来含糊地解决了你对产品的渴望，它实际上就会满足那个渴望。</span>  
 > *Roadmaps are breeding ground for illusions of agreement, that you think because there’s a bullet point on some roadmap that vaguely sounds like it’s addressing a desire you have for the product, that it’s actually going to fulfill that desire.*  
@@ -110,7 +110,7 @@ David 说得更直白：如果你真的觉得这件事重要，现在就做。�
 
 > <span class="qz">购买产品的好方法是按它们今天存在的样子购买。然后之后来的任何东西都是额外的。你不应该基于"好吧，我觉得我真的需要的这个东西将在第四季度推出"来做购买决定。</span>  
 > *The good way of buying products is to buy as they exist today. And then anything that comes after that is gravy. You should not be basing your purchase decisions on, "Well, this thing I kind of feel like I really need is coming in Q4."*  
-> <span class="qm">——  · [11:03]</span> ^q8
+> <span class="qm">—— 嘉宾 · [11:03]</span> ^q8
 
 > <span class="qz">你承诺在未来做这件事，因为你不想现在做这件事。实际上这就是破绽。如果这真的这么重要，你现在就应该做。为什么要承诺在年底前做？</span>  
 > *You’re promising this in the future because you don’t want to work on it now. And there is actually the tell. If this was truly so important, you just work on it now. Why are you promising it by the end of the year?*  
@@ -126,7 +126,7 @@ David 说得更直白：如果你真的觉得这件事重要，现在就做。�
 
 > <span class="qz">我们会迟到，但然后我们会很好。而他们用 Apple Intelligence 打破了这个基本的品牌承诺。</span>  
 > *We’re going to be late, but then we’re going to be good. And they broke that fundamental brand promise with Apple Intelligence.*  
-> <span class="qm">——  · [18:29]</span> ^q12
+> <span class="qm">—— 嘉宾 · [18:29]</span> ^q12
 
 > <span class="qz">AI 是一个很棒的"某物"桶。它是共识错觉的终极体现。你能用 AI 做点什么吗？你到底什么意思？你能用电脑做点什么吗？这差不多是一回事。</span>  
 > *AI is such a great something bucket. It’s the ultimate illusion of agreement. Can you do something with AI? What the fuck do you mean? Can you do something with computer? That makes about as much sense.*  
@@ -134,7 +134,7 @@ David 说得更直白：如果你真的觉得这件事重要，现在就做。�
 
 > <span class="qz">有一线微光。我没法发布微光。它必须有最终的固体形状。否则，我只是在发布气体。那行不通。</span>  
 > *There’s a glimmer. I can’t ship a glimmer. It’s got to have a final solid shape. Otherwise, I’m just shipping gas. That doesn’t work.*  
-> <span class="qm">——  · [21:30]</span> ^q14
+> <span class="qm">—— 嘉宾 · [21:30]</span> ^q14
 
 <div class="pd-sec">接着看</div>
 

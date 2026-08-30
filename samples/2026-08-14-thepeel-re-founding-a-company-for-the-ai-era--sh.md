@@ -122,7 +122,7 @@ CEO 现在只做三件事：只有自己能做的事（招聘、展示方向、�
 
 > <span class="qz">构建智能体最难的部分是它周围的一切。</span>  
 > *The hardest part about building an agent is everything around it.*  
-> <span class="qm">—— SPEAKER_00 · [18:19]</span> ^q2
+> <span class="qm">—— 嘉宾 · [18:19]</span> ^q2
 
 > <span class="qz">就像 AI 编码变得如此之好，以至于几乎所有大多数公司的瓶颈都是市场营销，因为你最终会构建这么多功能，而你无法以同样的速度去营销它们，因为当时没有很多工具准备好做到这一点。</span>  
 > *Like AI coding got so good that the bottleneck for pretty much most companies was marketing because you'd end up building so many features and you wouldn't be able to market them at the same pace because there weren't a lot of tools ready for that.*  

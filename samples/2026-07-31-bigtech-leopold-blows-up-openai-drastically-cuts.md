@@ -27,7 +27,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">如果你掷硬币,49% 的概率是你炸毁世界,51% 的概率是你创造乌托邦。</div><div class="a">— SPEAKER_03 <button class="pd-ts" data-t="07:12" data-who="SPEAKER_03" data-en="If you could flip a coin and, you know, 49% is you blow up the world and 51% is, you know, you create a utopia." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">如果你掷硬币,49% 的概率是你炸毁世界,51% 的概率是你创造乌托邦。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="07:12" data-who="嘉宾" data-en="If you could flip a coin and, you know, 49% is you blow up the world and 51% is, you know, you create a utopia." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Reid Alberghati]]
@@ -100,7 +100,7 @@ Alex 猜测,Meta 可能是在赌一种比 TikTok 更让人上瘾的「AI 伴侣�
 
 > <span class="qz">如果你掷硬币,49% 的概率是你炸毁世界,51% 的概率是你创造乌托邦。</span>  
 > *If you could flip a coin and, you know, 49% is you blow up the world and 51% is, you know, you create a utopia.*  
-> <span class="qm">—— SPEAKER_03 · [07:12]</span> ^q1
+> <span class="qm">—— 嘉宾 · [07:12]</span> ^q1
 
 > <span class="qz">这帮人都擅长的一点,比如 Ilya,这点真的被低估了,就是让这些大计算机运转得非常好。</span>  
 > *One thing these people are all good at, like Ilya, which is really underappreciated, is making these big computers work really well.*  
@@ -108,7 +108,7 @@ Alex 猜测,Meta 可能是在赌一种比 TikTok 更让人上瘾的「AI 伴侣�
 
 > <span class="qz">这是 4500 亿美元的单日增长,这是历史上任何公司最大的市值增长。</span>  
 > *It's a $450 billion one-day gain, and that's the largest market cap gain by any company in history ever.*  
-> <span class="qm">—— SPEAKER_03 · [44:45]</span> ^q3
+> <span class="qm">—— 嘉宾 · [44:45]</span> ^q3
 
 > <span class="qz">世界上最大的科技公司,世界上最有价值的公司,不知道拿所有那些现金怎么办。</span>  
 > *The biggest tech companies in the world, the most valuable companies in the world couldn't figure out what to do with all that cash.*  

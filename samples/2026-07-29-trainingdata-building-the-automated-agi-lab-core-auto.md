@@ -107,11 +107,11 @@ Rohan 曾在 Google 推动过一种名为 n-gram 内存的技术,意图用额外
 
 > <span class="qz">目前的机制相当糟糕,如果你把它留给世界,我恐怕我们会花更长的时间才能替换 Transformer。</span>  
 > *The current mechanisms are quite poor and it will if if you leave it to the world I am afraid that it will take us like a much longer time horizon before we replace the transformer*  
-> <span class="qm">—— SPEAKER_01 · [18:15]</span> ^q3
+> <span class="qm">—— 嘉宾 · [18:15]</span> ^q3
 
 > <span class="qz">就像 Jerry 说的,现在有公司在竞争发布周期,因为 tokens 不具粘性。</span>  
 > *It's like, as Jerry said, there are companies now competing for release cycles because tokens are not sticky.*  
-> <span class="qm">—— SPEAKER_01 · [34:05]</span> ^q4
+> <span class="qm">—— 嘉宾 · [34:05]</span> ^q4
 
 > <span class="qz">我认为核心自动化所设想的自动化版本,在某种程度上是赋予每个人最大水平的主观能动性。</span>  
 > *I think the version of automation by Core Automation is about giving each human maximum level of agency in some way.*  
@@ -127,7 +127,7 @@ Rohan 曾在 Google 推动过一种名为 n-gram 内存的技术,意图用额外
 
 > <span class="qz">但这需要高水平品味的人类,就像世界上大概只有三个人,并且在四周内花费大约十万美元在这些编码智能体上,才能得到一个速度快 60 倍的解决方案。</span>  
 > *But it requires the high-taste human, like there's maybe three people in the world, and spend about $100,000 on these coding agents over a span of four weeks to get to a solution that's 60x faster.*  
-> <span class="qm">—— SPEAKER_01 · [41:10]</span> ^q8
+> <span class="qm">—— 嘉宾 · [41:10]</span> ^q8
 
 > <span class="qz">正如我提到的,我们相信 Transformer 无法进行持续学习。没有办法在 Transformer 上进行持续学习。</span>  
 > *We believe, as I mentioned, that transformers are incapable of continual learning. There's no way how to put continual learning on transformers.*  
@@ -139,7 +139,7 @@ Rohan 曾在 Google 推动过一种名为 n-gram 内存的技术,意图用额外
 
 > <span class="qz">理论上最优的架构对任何人都没有用。</span>  
 > *A theoretically optimal architecture is not useful to anyone.*  
-> <span class="qm">—— SPEAKER_01 · [17:40]</span> ^q11
+> <span class="qm">—— 嘉宾 · [17:40]</span> ^q11
 
 <div class="pd-sec">接着看</div>
 

@@ -43,7 +43,7 @@ jsonLd: |
 
 ## 工程师就是产品负责人
 
-MercadoLibre 有 18000 名开发者，但拥有产品经理头衔的人不到 1000，比例大约只有 5%，而其他科技公司通常是 10% 到 30% 甚至更高 <button class="pd-ts" data-t="10:06" data-who="SPEAKER_01" data-en="To make this even clearer, you have 18,000-ish developers. How many people have the PM title? I think it's less than 1,000." aria-label="回原文"></button>。这不是因为缺 PM，而是有意为之——他们不觉得工程和产品之间有明确的分界线 <button class="pd-ts" data-t="09:11" data-who="Sebastian Barrios" data-en="For me and for MercadoLibre, it's hard to separate where sort of like engineering stops and product begins. We do have..." aria-label="回原文"></button>。
+MercadoLibre 有 18000 名开发者，但拥有产品经理头衔的人不到 1000，比例大约只有 5%，而其他科技公司通常是 10% 到 30% 甚至更高 <button class="pd-ts" data-t="10:06" data-who="嘉宾" data-en="To make this even clearer, you have 18,000-ish developers. How many people have the PM title? I think it's less than 1,000." aria-label="回原文"></button>。这不是因为缺 PM，而是有意为之——他们不觉得工程和产品之间有明确的分界线 <button class="pd-ts" data-t="09:11" data-who="Sebastian Barrios" data-en="For me and for MercadoLibre, it's hard to separate where sort of like engineering stops and product begins. We do have..." aria-label="回原文"></button>。
 
 具体做法是：谁最适合拥有某个产品，就让它来负责，不看头衔。而事实证明，在大多数情况下，最适合的人是工程负责人和技术负责人——因为他们既懂技术上什么是可能的，也懂业务需求、用户需求，也知道怎么衡量效果 <button class="pd-ts" data-t="10:40" data-who="Sebastian Barrios" data-en="And that probably works being as close to the technology as possible, being as close to the users as possible. You can have it with two different people that have to interact and coordinate." aria-label="回原文"></button>。
 

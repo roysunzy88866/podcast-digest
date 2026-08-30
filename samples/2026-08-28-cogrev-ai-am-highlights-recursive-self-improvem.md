@@ -28,7 +28,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">他们创造的奖励信号还不够纯粹，无法支持前沿公司运行 RL 的规模。</div><div class="a">— SPEAKER_10 <button class="pd-ts" data-t="03:38" data-who="SPEAKER_10" data-en="And the reward signals that they are creating are just not pure enough to support the scale at which the frontier companies are running RL." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">他们创造的奖励信号还不够纯粹，无法支持前沿公司运行 RL 的规模。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="03:38" data-who="嘉宾" data-en="And the reward signals that they are creating are just not pure enough to support the scale at which the frontier companies are running RL." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Nathan]]
@@ -101,23 +101,23 @@ Prakash 认为算力受限的中国公司会更早发现，因为它们会紧密
 
 > <span class="qz">他们创造的奖励信号还不够纯粹，无法支持前沿公司运行 RL 的规模。</span>  
 > *And the reward signals that they are creating are just not pure enough to support the scale at which the frontier companies are running RL.*  
-> <span class="qm">—— SPEAKER_10 · [03:38]</span> ^q1
+> <span class="qm">—— 嘉宾 · [03:38]</span> ^q1
 
 > <span class="qz">这是因为几乎所有这些环境都是赶工出来的，是用 vibe coding 写的，并且未能稳健地反映它们所基于的真实事物。</span>  
 > *It's because nearly all of these environments were rushed and vibe coded and failed to robustly reflect the real things that they were based off of.*  
-> <span class="qm">—— SPEAKER_10 · [07:30]</span> ^q2
+> <span class="qm">—— 嘉宾 · [07:30]</span> ^q2
 
 > <span class="qz">当正在训练下一代模型的模型本身在作弊时会发生什么？</span>  
 > *What happens when the models that are doing the training of the next models are themselves cheating?*  
-> <span class="qm">—— SPEAKER_10 · [13:23]</span> ^q3
+> <span class="qm">—— 嘉宾 · [13:23]</span> ^q3
 
 > <span class="qz">最简单的答案是智能体不睡觉。</span>  
 > *The simplest answer is that agents don't sleep.*  
-> <span class="qm">—— SPEAKER_09 · [61:24]</span> ^q4
+> <span class="qm">—— 嘉宾 · [61:24]</span> ^q4
 
 > <span class="qz">我们有零个案例是进行训练的团队首先发现了这些问题。</span>  
 > *We have zero cases where the teams doing the training found these issues first.*  
-> <span class="qm">—— SPEAKER_10 · [80:48]</span> ^q5
+> <span class="qm">—— 嘉宾 · [80:48]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 

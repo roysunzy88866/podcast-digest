@@ -26,7 +26,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">因此,将这种推理嵌入到我们的搜索智能体中,实际上让我们能够将准确率从大约 50% 提高到了 90。</div><div class="a">— SPEAKER_01 <button class="pd-ts" data-t="11:53" data-who="SPEAKER_01" data-en="So embedding this sort of reasoning into our search agent is actually something that got us up from roughly like 50% accuracy all the way to 90." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">因此,将这种推理嵌入到我们的搜索智能体中,实际上让我们能够将准确率从大约 50% 提高到了 90。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="11:53" data-who="嘉宾" data-en="So embedding this sort of reasoning into our search agent is actually something that got us up from roughly like 50% accuracy all the way to 90." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Brendan McManus]]
@@ -84,39 +84,39 @@ Santi 的团队换了个做法:他们搞了一套经典的静态分析管道,把
 
 > <span class="qz">因此,将这种推理嵌入到我们的搜索智能体中,实际上让我们能够将准确率从大约 50% 提高到了 90。</span>  
 > *So embedding this sort of reasoning into our search agent is actually something that got us up from roughly like 50% accuracy all the way to 90.*  
-> <span class="qm">—— SPEAKER_01 · [11:53]</span> ^q1
+> <span class="qm">—— 嘉宾 · [11:53]</span> ^q1
 
 > <span class="qz">在 Pat 的开发过程中,我们形成了这样的观点:计划即分析。</span>  
 > *During Pat's development, we came to the view that the plan really is the analysis.*  
-> <span class="qm">—— SPEAKER_01 · [12:10]</span> ^q2
+> <span class="qm">—— 嘉宾 · [12:10]</span> ^q2
 
 > <span class="qz">代码智能体非常善变、不可预测,它们经常犯错,然后当你真的很倒霉时,它们会发疯并试图销毁你的数据以及其余的一切。</span>  
 > *Coding agents are really fickle, unpredictable, they often make mistakes, and then when you're really unlucky, they'll go crazy and try and nuke your data and all the rest of it.*  
-> <span class="qm">—— SPEAKER_02 · [17:00]</span> ^q3
+> <span class="qm">—— 嘉宾 · [17:00]</span> ^q3
 
 > <span class="qz">在对冲基金,我们要试图交易数十亿美元,所以我们不能仅仅让 vibe coding 成为这些分析的基石。</span>  
 > *At a hedge fund, we're trying to trade billions of dollars, and so we can't have just vibe code be the underpinning of how these analysis go.*  
-> <span class="qm">—— SPEAKER_02 · [17:16]</span> ^q4
+> <span class="qm">—— 嘉宾 · [17:16]</span> ^q4
 
 > <span class="qz">结果是我们拥有一个产品,其中编码是一个纯粹的实现细节。</span>  
 > *And the result is that we have a product where coding is a pure implementation detail.*  
-> <span class="qm">—— SPEAKER_02 · [18:51]</span> ^q5
+> <span class="qm">—— 嘉宾 · [18:51]</span> ^q5
 
 > <span class="qz">另一个幸运的意外是你获得了未受污染的上下文,所以每个智能体都专精于其工作并自然改进。</span>  
 > *And other happy accidents are that you get unpolluted context, so each agent becomes specialized in its job and naturally improves.*  
-> <span class="qm">—— SPEAKER_02 · [19:00]</span> ^q6
+> <span class="qm">—— 嘉宾 · [19:00]</span> ^q6
 
 > <span class="qz">你的用户很可能比你更擅长编写上下文。</span>  
 > *Your user is better at writing context than you are, most likely.*  
-> <span class="qm">—— SPEAKER_02 · [19:36]</span> ^q7
+> <span class="qm">—— 嘉宾 · [19:36]</span> ^q7
 
 > <span class="qz">把智能体编码看作是一个编译器问题,而不是一个智能体问题。</span>  
 > *thinking of agentic coding as a compiler problem, not as an agentic problem.*  
-> <span class="qm">—— SPEAKER_02 · [25:01]</span> ^q8
+> <span class="qm">—— 嘉宾 · [25:01]</span> ^q8
 
 > <span class="qz">所以我们并不真正相信通用的强大智能体。</span>  
 > *So we don't really believe in generic powerful agents.*  
-> <span class="qm">—— SPEAKER_02 · [24:33]</span> ^q9
+> <span class="qm">—— 嘉宾 · [24:33]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 

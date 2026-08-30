@@ -83,19 +83,19 @@ Mitchell（在做一个叫 Vouch 的系统）直接转向「默认拒绝」—�
 
 > <span class="qz">我认为开源目前更大的问题是，它正某种意义上被善意的泛滥和来自那些试图贡献的人的大量劣质内容扼杀</span>  
 > *I think the bigger problem for open source is at the moment, it's sort of being killed with kindness and a lot of slop from people that are trying to contribute*  
-> <span class="qm">——  · [00:08]</span> ^q1
+> <span class="qm">—— 嘉宾 · [00:08]</span> ^q1
 
 > <span class="qz">我花了一整天的时间来完善那段代码，确保我理解所有东西，撰写一个恰当的 PR 描述，因为我不想失去我的身份</span>  
 > *I spent a whole lot of day polishing up that code, making sure I understand everything, crafting a proper PR description because I don't want to lose my identity*  
-> <span class="qm">——  · [19:03]</span> ^q2
+> <span class="qm">—— 嘉宾 · [19:03]</span> ^q2
 
 > <span class="qz">开源本身有一个过滤器。它是一致性和坚持胜过强度</span>  
 > *There's a filter on open source in general. It's consistency and commitment wins over sort of beats intensity*  
-> <span class="qm">——  · [14:27]</span> ^q3
+> <span class="qm">—— 嘉宾 · [14:27]</span> ^q3
 
 > <span class="qz">这些是赢得的权利，那是我认为你必须小心地对待你把这个授予谁的地方</span>  
 > *These are earned rights and that's I think where you have to be careful with who you grant this to*  
-> <span class="qm">——  · [21:57]</span> ^q4
+> <span class="qm">—— 嘉宾 · [21:57]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 

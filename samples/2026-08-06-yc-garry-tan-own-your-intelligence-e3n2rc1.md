@@ -33,77 +33,77 @@ jsonLd: |
 >
 > **概念** [[智能体]] · [[个人 AGI]] · [[技能文件]] · [[上下文]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]]
 
-AGI 不会作为一个事件降临，不会有某天天空变色。它已经在房间里了，散布在基础设施里，一个终端窗口，一个在你睡觉时完成的任务。它不是数据中心里的神，而是你的[[智能体|智能体]]，在你的[[上下文|上下文]]上运行，做你的工作 <button class="pd-ts" data-t="05:08" data-who="Unknown" data-en="God or nature, he wrote. 400 years later, we are making a similar mistake about intelligence. Everyone is waiting for AGI as a singular event, a god in a data center, some announcement, some threshold, some day when the sky changes color." aria-label="回原文"></button>。
+AGI 不会作为一个事件降临，不会有某天天空变色。它已经在房间里了，散布在基础设施里，一个终端窗口，一个在你睡觉时完成的任务。它不是数据中心里的神，而是你的[[智能体|智能体]]，在你的[[上下文|上下文]]上运行，做你的工作 <button class="pd-ts" data-t="05:08" data-who="嘉宾" data-en="God or nature, he wrote. 400 years later, we are making a similar mistake about intelligence. Everyone is waiting for AGI as a singular event, a god in a data center, some announcement, some threshold, some day when the sky changes color." aria-label="回原文"></button>。
 
 这里有一个关键区分。每月付钱用的聊天机器人、稍微好点的自动补全、只知道你日历的助手——那只是你租用的订阅，是公司 AGI，你不拥有它，关掉标签页就重置，公司一转型你的助手就被"脑叶切除"。
 
-[[个人 AGI|个人 AGI]] 是另一种东西：一个在你自己的基础设施上运行、从你拥有的记忆中读取、执行你写的流程、并且每天复利增长的智能体。公司 AGI 只有在公司发布更新时才变好，你的个人 AGI 每用一天就多知道一点你的生活——一个是消费品，一个是你构建的资产 <button class="pd-ts" data-t="06:26" data-who="Unknown" data-en="Vannevar Bush called it the Memex, a machine that would be an extension of yourself and your brain. And I want to be precise about what I mean because the words personal AI has already been captured by marketing departments." aria-label="回原文"></button>。
+[[个人 AGI|个人 AGI]] 是另一种东西：一个在你自己的基础设施上运行、从你拥有的记忆中读取、执行你写的流程、并且每天复利增长的智能体。公司 AGI 只有在公司发布更新时才变好，你的个人 AGI 每用一天就多知道一点你的生活——一个是消费品，一个是你构建的资产 <button class="pd-ts" data-t="06:26" data-who="嘉宾" data-en="Vannevar Bush called it the Memex, a machine that would be an extension of yourself and your brain. And I want to be precise about what I mean because the words personal AI has already been captured by marketing departments." aria-label="回原文"></button>。
 
 ## 400 倍来自哪里：上下文，不是权重
 
-2013 年做 YC 合伙人时，全职运营 YC 加上晚上写代码，每天大概产出 14 行有用的代码——正好是程序员生产力的中位数。同样的大脑、同样的小时数，现在加上下午 5 点接孩子，算下来产出大约是 2013 年的 400 倍。即使你施加最极端的惩罚——假设一半是脚手架、假设自欺欺人——底线仍然是 8 倍，中间值是 10 倍 <button class="pd-ts" data-t="08:07" data-who="Unknown" data-en="Well, I think it's because of what agents can do and nowhere is it more obvious than encoding agents. In 2013, I was a YC partner building Bookface, our internal social network, at night." aria-label="回原文"></button>。
+2013 年做 YC 合伙人时，全职运营 YC 加上晚上写代码，每天大概产出 14 行有用的代码——正好是程序员生产力的中位数。同样的大脑、同样的小时数，现在加上下午 5 点接孩子，算下来产出大约是 2013 年的 400 倍。即使你施加最极端的惩罚——假设一半是脚手架、假设自欺欺人——底线仍然是 8 倍，中间值是 10 倍 <button class="pd-ts" data-t="08:07" data-who="嘉宾" data-en="Well, I think it's because of what agents can do and nowhere is it more obvious than encoding agents. In 2013, I was a YC partner building Bookface, our internal social network, at night." aria-label="回原文"></button>。
 
-杠杆不在模型权重里。用同一个 Claude、同样的上下文窗口，有人只拿到 2 倍提升，有人拿到 100 倍。差别在于你给模型什么上下文、多相关、以及它是否在正确的步骤介入 <button class="pd-ts" data-t="10:06" data-who="Unknown" data-en="They are treating it as a workforce. There are 2x people and there are 100x people who are using the same Claude, same weights, same context window size, same API." aria-label="回原文"></button>。
+杠杆不在模型权重里。用同一个 Claude、同样的上下文窗口，有人只拿到 2 倍提升，有人拿到 100 倍。差别在于你给模型什么上下文、多相关、以及它是否在正确的步骤介入 <button class="pd-ts" data-t="10:06" data-who="嘉宾" data-en="They are treating it as a workforce. There are 2x people and there are 100x people who are using the same Claude, same weights, same context window size, same API." aria-label="回原文"></button>。
 
-这不是个别现象。一年半前 YC 的 Winter 25 批次，四分之一的公司代码库 95% 是 AI 生成的，这些公司把智能体用在所有事情上，不只是代码。这个批次正在成为 YC 历史上增长最快、最盈利的批次之一 <button class="pd-ts" data-t="09:31" data-who="Unknown" data-en="At YC, we get to watch this at portfolio scale. A year and a half ago in the Winter 25 batch, a quarter of the companies had codebases that were 95% AI generated." aria-label="回原文"></button>。
+这不是个别现象。一年半前 YC 的 Winter 25 批次，四分之一的公司代码库 95% 是 AI 生成的，这些公司把智能体用在所有事情上，不只是代码。这个批次正在成为 YC 历史上增长最快、最盈利的批次之一 <button class="pd-ts" data-t="09:31" data-who="嘉宾" data-en="At YC, we get to watch this at portfolio scale. A year and a half ago in the Winter 25 batch, a quarter of the companies had codebases that were 95% AI generated." aria-label="回原文"></button>。
 
 ## 工作记忆的差距：七位数 vs 一千页
 
-人类的[[工作记忆|工作记忆]]一次只能保持大约七件事——七加或减二。这就是为什么电话号码是七位、为什么你会忘记清单上的第八件东西。人类建立的每一个机构——检查清单、组织架构图、档案柜、站会——本质上都是对这个限制的义肢 <button class="pd-ts" data-t="12:50" data-who="Unknown" data-en="Let's start with working memory because it explains everything. You and I as human beings hold about seven things in our head at once, seven plus or minus two. It's the most famous paper in cognitive psychology." aria-label="回原文"></button>。
+人类的[[工作记忆|工作记忆]]一次只能保持大约七件事——七加或减二。这就是为什么电话号码是七位、为什么你会忘记清单上的第八件东西。人类建立的每一个机构——检查清单、组织架构图、档案柜、站会——本质上都是对这个限制的义肢 <button class="pd-ts" data-t="12:50" data-who="嘉宾" data-en="Let's start with working memory because it explains everything. You and I as human beings hold about seven things in our head at once, seven plus or minus two. It's the most famous paper in cognitive psychology." aria-label="回原文"></button>。
 
-一个 AI 智能体能容纳一百万个 token，大约一千页，相当于三本《哈利·波特》同时在头顶摊开，还能在几秒内跨三本书找到一根针并综合。七位数对三本书——这还不是完全的 AGI，但已经是不同的运行机制了 <button class="pd-ts" data-t="13:27" data-who="Unknown" data-en="And every institution humanity has ever built, every checklist, every org chart, every filing cabinet, every stand-up meeting is a prosthetic for that limit. An AI agent, though, holds a million tokens." aria-label="回原文"></button>。
+一个 AI 智能体能容纳一百万个 token，大约一千页，相当于三本《哈利·波特》同时在头顶摊开，还能在几秒内跨三本书找到一根针并综合。七位数对三本书——这还不是完全的 AGI，但已经是不同的运行机制了 <button class="pd-ts" data-t="13:27" data-who="嘉宾" data-en="And every institution humanity has ever built, every checklist, every org chart, every filing cabinet, every stand-up meeting is a prosthetic for that limit. An AI agent, though, holds a million tokens." aria-label="回原文"></button>。
 
 但一千页同时也很少。你的生活不是三本书，是一座图书馆——每一封邮件、每一次会议、每个决定和背后的原因。
 
-决定你的智能体是天才还是金鱼的关键问题是：谁决定桌上打开哪三本书？这就是"大脑"的本质——图书馆加上图书管理员 <button class="pd-ts" data-t="14:08" data-who="Unknown" data-en="Run that number in the other direction. A thousand pages is a lot, but it is also very little. Your life is not three books." aria-label="回原文"></button>。
+决定你的智能体是天才还是金鱼的关键问题是：谁决定桌上打开哪三本书？这就是"大脑"的本质——图书馆加上图书管理员 <button class="pd-ts" data-t="14:08" data-who="嘉宾" data-en="Run that number in the other direction. A thousand pages is a lot, but it is also very little. Your life is not three books." aria-label="回原文"></button>。
 
 ## 技能文件：Markdown 就是代码
 
 整个架构的核心其实非常不神奇。主要是[[技能文件|技能文件]]——用英文写的、描述如何完成一项任务的页面——加上一个智能体可以驱动的浏览器，以及一种作用于世界的方式。
 
-Markdown，不是魔法。胖技能，瘦线束 <button class="pd-ts" data-t="16:45" data-who="Unknown" data-en="On top of this library sits my agentic coding framework, GStack, 123,000 stars now, which put it in the top 100 open source projects in the history of GitHub. What's actually in the punchline of this full architecture?" aria-label="回原文"></button>。
+Markdown，不是魔法。胖技能，瘦线束 <button class="pd-ts" data-t="16:45" data-who="嘉宾" data-en="On top of this library sits my agentic coding framework, GStack, 123,000 stars now, which put it in the top 100 open source projects in the history of GitHub. What's actually in the punchline of this full architecture?" aria-label="回原文"></button>。
 
-一个真实的技能文件长这样：当收到会议录音时，用说话人标签转录，提取承诺、谁做的、截止日期；对照资料库交叉核对每个提到的人并链接他们的页面；摘要归这里，逐字稿归那里；如果任何内容与已知信息矛盾就标记出来。就这样。一个聪明的实习生能照着做，智能体就能运行 <button class="pd-ts" data-t="17:06" data-who="Unknown" data-en="Let me show you what a skill file is because I keep saying this phrase and I want you to see how unmagical it is. Here's a real one, lightly redacted. It says, when a meeting recording lands from Circleback, transcribe it with speaker labels, pull out the commitment made, who made it, and the deadline." aria-label="回原文"></button>。
+一个真实的技能文件长这样：当收到会议录音时，用说话人标签转录，提取承诺、谁做的、截止日期；对照资料库交叉核对每个提到的人并链接他们的页面；摘要归这里，逐字稿归那里；如果任何内容与已知信息矛盾就标记出来。就这样。一个聪明的实习生能照着做，智能体就能运行 <button class="pd-ts" data-t="17:06" data-who="嘉宾" data-en="Let me show you what a skill file is because I keep saying this phrase and I want you to see how unmagical it is. Here's a real one, lightly redacted. It says, when a meeting recording lands from Circleback, transcribe it with speaker labels, pull out the commitment made, who made it, and the deadline." aria-label="回原文"></button>。
 
 测试标准很简单：如果聪明的实习生能照着做，智能体就能运行。这意味着一件事——Markdown 实际上就是代码。
 
-如果你能用英文写出清晰的指令，你就是程序员，编译器就是语言模型。YC 的媒体人员、活动员工、财务团队，这些从没打开过终端的人都在构建技能文件和定时任务 <button class="pd-ts" data-t="17:47" data-who="Unknown" data-en="I know I caught a lot of flack for talking about this, but I think it's more true than ever, especially now. Markdown is actually code. If you can write clear instructions in English, you're a programmer." aria-label="回原文"></button>。
+如果你能用英文写出清晰的指令，你就是程序员，编译器就是语言模型。YC 的媒体人员、活动员工、财务团队，这些从没打开过终端的人都在构建技能文件和定时任务 <button class="pd-ts" data-t="17:47" data-who="嘉宾" data-en="I know I caught a lot of flack for talking about this, but I think it's more true than ever, especially now. Markdown is actually code. If you can write clear instructions in English, you're a programmer." aria-label="回原文"></button>。
 
 ## 两个空间：别让模型做它不擅长的事
 
-所有智能体失败的根源，都来自于混淆了两种计算。品味、判断、从模糊请求中解读人类真正想要的东西——这属于潜在空间，存在于模型中，你用 Markdown 文件引导它。算术、SQL 查询、给 6,000 人排座位表——这属于[[确定性空间|确定性空间]]，必须存到数据库里由代码处理 <button class="pd-ts" data-t="18:32" data-who="Unknown" data-en="And there are exactly two answers, and confusing them causes every agent failure I've ever seen. Some computation belongs in latent space. Taste, judgment, reading what a human actually wants from a vague request." aria-label="回原文"></button>。
+所有智能体失败的根源，都来自于混淆了两种计算。品味、判断、从模糊请求中解读人类真正想要的东西——这属于潜在空间，存在于模型中，你用 Markdown 文件引导它。算术、SQL 查询、给 6,000 人排座位表——这属于[[确定性空间|确定性空间]]，必须存到数据库里由代码处理 <button class="pd-ts" data-t="18:32" data-who="嘉宾" data-en="And there are exactly two answers, and confusing them causes every agent failure I've ever seen. Some computation belongs in latent space. Taste, judgment, reading what a human actually wants from a vague request." aria-label="回原文"></button>。
 
-让智能体安排五个人围坐一桌，容易。让它为 6,000 人制定定制时间表，潜在空间的智能体必须写代码来追踪，没有代码做不到。模型在我们失败的地方失败——解决办法是让模型以人类计算的方式计算：潜在空间加确定性空间，Markdown 文件调用数据库和脚本 <button class="pd-ts" data-t="19:07" data-who="Unknown" data-en="Being smart about this goes a long way. Ask an agent or human to seat five people around a table. That's easy." aria-label="回原文"></button>。
+让智能体安排五个人围坐一桌，容易。让它为 6,000 人制定定制时间表，潜在空间的智能体必须写代码来追踪，没有代码做不到。模型在我们失败的地方失败——解决办法是让模型以人类计算的方式计算：潜在空间加确定性空间，Markdown 文件调用数据库和脚本 <button class="pd-ts" data-t="19:07" data-who="嘉宾" data-en="Being smart about this goes a long way. Ask an agent or human to seat five people around a table. That's easy." aria-label="回原文"></button>。
 
 ## 五步实操：从今晚开始
 
-**第一步，今晚**：选一个套件在你自己的机器上跑一个智能体。OpenClaw、Hermes Agent、Claude Code、Codex 都行，重点在概念，不在特定产品 <button class="pd-ts" data-t="24:28" data-who="Unknown" data-en="If you do what I describe in the next six minutes, you'll be ahead of 99% of people who watched this talk and just nodded. Step one tonight, pick a harness and run an agent on your own machine." aria-label="回原文"></button>。
+**第一步，今晚**：选一个套件在你自己的机器上跑一个智能体。OpenClaw、Hermes Agent、Claude Code、Codex 都行，重点在概念，不在特定产品 <button class="pd-ts" data-t="24:28" data-who="嘉宾" data-en="If you do what I describe in the next six minutes, you'll be ahead of 99% of people who watched this talk and just nodded. Step one tonight, pick a harness and run an agent on your own machine." aria-label="回原文"></button>。
 
 **第二步，这个周末**：开始建你的库。一个 Markdown 文件夹，导出笔记和邮件，为每个项目和每个合作者写一页——你们在做什么、他们关心什么、你欠他们什么、上次说了什么。
 
-这些是地球上任何模型都没有的东西，因为它只存在于你脑子里。第一次智能体用你的上下文而不是互联网回答问题时，你会感到那种顿悟 <button class="pd-ts" data-t="25:07" data-who="Unknown" data-en="The intelligence is on tap, and there are many paths. Step two this weekend, start your library, not a grand archive. One folder of markdown files, export your notes, export your email if you can." aria-label="回原文"></button>。
+这些是地球上任何模型都没有的东西，因为它只存在于你脑子里。第一次智能体用你的上下文而不是互联网回答问题时，你会感到那种顿悟 <button class="pd-ts" data-t="25:07" data-who="嘉宾" data-en="The intelligence is on tap, and there are many paths. Step two this weekend, start your library, not a grand archive. One folder of markdown files, export your notes, export your email if you can." aria-label="回原文"></button>。
 
 **第三步**：写第一个技能文件。选你每周最讨厌的任务——费用报告、会议记录、每周状态更新——用大白话解释给智能体听，就像给工作第一天的聪明朋友解释。
 
-然后让它出错，错了就纠正，把每条规则、每个例外都加进去。那一页现在就是一个员工 <button class="pd-ts" data-t="26:04" data-who="Unknown" data-en="The only gate between you and this entire architecture is probably 24 hours. Step three, write your first skill file. Picking it is easy." aria-label="回原文"></button>。
+然后让它出错，错了就纠正，把每条规则、每个例外都加进去。那一页现在就是一个员工 <button class="pd-ts" data-t="26:04" data-who="嘉宾" data-en="The only gate between you and this entire architecture is probably 24 hours. Step three, write your first skill file. Picking it is easy." aria-label="回原文"></button>。
 
-**第四步**：把它接成循环任务。每天早上七点做这个，每周五总结那个。第一次你醒来发现工作在你睡觉时已经完成，你脑子里会发生永久性的转变——"一天"不再是你的工作单位 <button class="pd-ts" data-t="26:41" data-who="Unknown" data-en="That page is now an employee, run it. Step four, wire it up to be a recurring job. Maybe it's the job you just created in step three." aria-label="回原文"></button>。
+**第四步**：把它接成循环任务。每天早上七点做这个，每周五总结那个。第一次你醒来发现工作在你睡觉时已经完成，你脑子里会发生永久性的转变——"一天"不再是你的工作单位 <button class="pd-ts" data-t="26:41" data-who="嘉宾" data-en="That page is now an employee, run it. Step four, wire it up to be a recurring job. Maybe it's the job you just created in step three." aria-label="回原文"></button>。
 
 **第五步，最关键的纪律**：永远不做一次性工作。每个任务结束时，让智能体把它的行为"技能化"——变成一个可以永远重复使用的 Markdown 文件。
 
-如果你必须把一件事请求两次，你就失败了。每天早上醒来就失忆的人是在浪费时间，模型变得多好也没用 <button class="pd-ts" data-t="27:13" data-who="Unknown" data-en="It becomes what you can imagine, and it should be driven by what your goals are and what you want to create in the world. Step five, this is the discipline that separates the compounders from the dabblers." aria-label="回原文"></button>。
+如果你必须把一件事请求两次，你就失败了。每天早上醒来就失忆的人是在浪费时间，模型变得多好也没用 <button class="pd-ts" data-t="27:13" data-who="嘉宾" data-en="It becomes what you can imagine, and it should be driven by what your goals are and what you want to create in the world. Step five, this is the discipline that separates the compounders from the dabblers." aria-label="回原文"></button>。
 
 ## 警告：没人整理的大脑是垃圾场
 
-检索会以绝对的自信抛出一个陈旧的事实，一个糟糕的技能文件会把糟糕的流程永远编码下来。原语是记忆加上卫生：每个事实的来源追溯、新旧信息冲突时的矛盾检查、一个实际工作是修剪的图书管理员。把大脑当生产基础设施对待，它就复利；当倾倒场，你得到一个自信但以没人能追踪的方式出错的智能体 <button class="pd-ts" data-t="23:33" data-who="Unknown" data-en="You'll know because other people start begging for them. And one honest caveat before the how-to, because you catch me out in any way. A brain nobody curates is a garbage dump with great search." aria-label="回原文"></button>。
+检索会以绝对的自信抛出一个陈旧的事实，一个糟糕的技能文件会把糟糕的流程永远编码下来。原语是记忆加上卫生：每个事实的来源追溯、新旧信息冲突时的矛盾检查、一个实际工作是修剪的图书管理员。把大脑当生产基础设施对待，它就复利；当倾倒场，你得到一个自信但以没人能追踪的方式出错的智能体 <button class="pd-ts" data-t="23:33" data-who="嘉宾" data-en="You'll know because other people start begging for them. And one honest caveat before the how-to, because you catch me out in any way. A brain nobody curates is a garbage dump with great search." aria-label="回原文"></button>。
 
 ## 技能文件的所有权：谁控制它，就是两个相反的未来
 
-同一个支持工程师 Maya，两年教会智能体 40 个技能——凌晨两点分流 P0、安抚即将流失的客户、写真正能防止下次事故的复盘。版本一：文件在 Maya 自己的仓库里，换工作时带走，入职第一天就带着多年积累的判断力，每年都在复利——那是所有权。版本二：文件在公司仓库里，Maya 离开时什么也带不走，公司没有她也在运行她的判断力，40 个文件永远执行，她名字不在提交历史里——她没有职业生涯，她经历了一场认知提取 <button class="pd-ts" data-t="29:28" data-who="Unknown" data-en="This is where. A skill file is not a document. It's a piece of your cognition, how you do the thing, extracted from your head, written down, and executable." aria-label="回原文"></button>。
+同一个支持工程师 Maya，两年教会智能体 40 个技能——凌晨两点分流 P0、安抚即将流失的客户、写真正能防止下次事故的复盘。版本一：文件在 Maya 自己的仓库里，换工作时带走，入职第一天就带着多年积累的判断力，每年都在复利——那是所有权。版本二：文件在公司仓库里，Maya 离开时什么也带不走，公司没有她也在运行她的判断力，40 个文件永远执行，她名字不在提交历史里——她没有职业生涯，她经历了一场认知提取 <button class="pd-ts" data-t="29:28" data-who="嘉宾" data-en="This is where. A skill file is not a document. It's a piece of your cognition, how you do the thing, extracted from your head, written down, and executable." aria-label="回原文"></button>。
 
 工匠拥有自己的工具，那是他们自由的原因。工厂打破了这一点，织布机属于磨坊。
 
-知识工作者以为自己是安全的，因为工具在脑子里没人能没收。技能文件改变了这一点——历史上第一次，你的认知可以被提取、存储、版本化和拥有。唯一的问题是：由谁拥有？ <button class="pd-ts" data-t="31:11" data-who="Unknown" data-en="And this happened before. Craftsmen owned their tools. That's what made them free." aria-label="回原文"></button>
+知识工作者以为自己是安全的，因为工具在脑子里没人能没收。技能文件改变了这一点——历史上第一次，你的认知可以被提取、存储、版本化和拥有。唯一的问题是：由谁拥有？ <button class="pd-ts" data-t="31:11" data-who="嘉宾" data-en="And this happened before. Craftsmen owned their tools. That's what made them free." aria-label="回原文"></button>
 
 从第一天起就把你的大脑和技能放在你控制的仓库里。
 
@@ -111,17 +111,17 @@ Markdown，不是魔法。胖技能，瘦线束 <button class="pd-ts" data-t="16
 
 **模型改进太快，这些东西会过时？** 每次模型发布，差异化因素反而更转移到上下文。
 
-当每个人的引擎都是 1000 马力，胜负取决于驾驶员和地图。更好的模型让你的库更有价值，因为更聪明的读者从同样的书里提取更多 <button class="pd-ts" data-t="33:39" data-who="Unknown" data-en="Now, three objections, and I can hear them from up here, so let's just do them. Objection one, the models are improving so fast that all this harness stuff will be obsolete." aria-label="回原文"></button>。
+当每个人的引擎都是 1000 马力，胜负取决于驾驶员和地图。更好的模型让你的库更有价值，因为更聪明的读者从同样的书里提取更多 <button class="pd-ts" data-t="33:39" data-who="嘉宾" data-en="Now, three objections, and I can hear them from up here, so let's just do them. Objection one, the models are improving so fast that all this harness stuff will be obsolete." aria-label="回原文"></button>。
 
 **这只是 RAG？** 检索是原语，不是产品。
 
-困难的部分是周围的一切：写什么、如何丰富和链接、什么提升到热内存什么归为冷参考、两个事实冲突时谁仲裁。检索容易，值得从中检索才是产品 <button class="pd-ts" data-t="34:26" data-who="Unknown" data-en="I'm rooting for the labs as hard as anyone in this building, but every release they ship is a free upgrade to a workforce I already own and a workforce I want you to own." aria-label="回原文"></button>。
+困难的部分是周围的一切：写什么、如何丰富和链接、什么提升到热内存什么归为冷参考、两个事实冲突时谁仲裁。检索容易，值得从中检索才是产品 <button class="pd-ts" data-t="34:26" data-who="嘉宾" data-en="I'm rooting for the labs as hard as anyone in this building, but every release they ship is a free upgrade to a workforce I already own and a workforce I want you to own." aria-label="回原文"></button>。
 
 **隐私怎么办？** 把整个生活放一个系统里，泄露了怎么办？
 
 答案和整个演讲一样：正因为如此它必须属于你。你的生活已经散布在 10 个云端，那些公司的利益不是你的，除了你之外谁都能搜索。
 
-你没有通过整合上下文制造风险，你接管了它。如果你不信任自己持有密钥，答案不是更相信别人的服务条款 <button class="pd-ts" data-t="34:50" data-who="Unknown" data-en="Being worth retrieving from is the product. Objection three, and it's the one that deserves the most respect. You put your entire life in one system, your email, your meetings, your kids' schedules, what happens when it leaks?" aria-label="回原文"></button>。
+你没有通过整合上下文制造风险，你接管了它。如果你不信任自己持有密钥，答案不是更相信别人的服务条款 <button class="pd-ts" data-t="34:50" data-who="嘉宾" data-en="Being worth retrieving from is the product. Objection three, and it's the one that deserves the most respect. You put your entire life in one system, your email, your meetings, your kids' schedules, what happens when it leaks?" aria-label="回原文"></button>。
 
 ## 本集带走
 

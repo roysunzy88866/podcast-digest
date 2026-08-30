@@ -93,7 +93,7 @@ Figma 把着色器做成了两种类型:一种叫着色器填充,就像是材质
 
 > <span class="qz">最好的着色器将是你自己梦想出来的那些。</span>  
 > *The best shaders are going to be the ones that you dream up on your own.*  
-> <span class="qm">—— SPEAKER_02 · [45:39]</span> ^q3
+> <span class="qm">—— 嘉宾 · [45:39]</span> ^q3
 
 > <span class="qz">他们能够创造出其他人甚至无法表达或解释的东西,更不用说复制了。</span>  
 > *they are able to create things that others cannot even articulate or explain, let alone replicate.*  

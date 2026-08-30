@@ -90,7 +90,7 @@ Alex 给出了实战结论:对于深度研究这类任务,他们发现让最聪�
 
 > <span class="qz">如果你在 Opus 和 Haiku 上运行 terminal bench,Opus 的表现会好大约三倍,成本却是 Haiku 的十分之一,尽管 Haiku 每个 token 的价格要便宜得多。</span>  
 > *If you run terminal bench on Opus and Haiku, Opus will do about three times better at one-tenth the cost of Haiku, even though Haiku is significantly cheaper per token.*  
-> <span class="qm">—— SPEAKER_01 · [15:26]</span> ^q2
+> <span class="qm">—— 嘉宾 · [15:26]</span> ^q2
 
 > <span class="qz">智能在某个点就会从悬崖上掉下来。</span>  
 > *The intelligence just kind of falls off a cliff at some point.*  

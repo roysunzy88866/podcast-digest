@@ -114,11 +114,11 @@ Michael 说现在瓶颈已经不在工程工时了 <button class="pd-ts" data-t=
 
 > <span class="qz">所以你可能有一个两个月前运作良好的评估，但随着模型变得更好，现在也许那个评估已经饱和了，所有的模型都达到了那个标准。</span>  
 > *And so you may have had an eval that worked well two months ago, but as the models get better, now maybe that eval's saturated and all of the models are meeting that.*  
-> <span class="qm">—— SPEAKER_02 · [10:33]</span> ^q2
+> <span class="qm">—— 嘉宾 · [10:33]</span> ^q2
 
 > <span class="qz">所以现在那个评估对于模型路由来说毫无价值。</span>  
 > *So now that eval is worthless for model routing.*  
-> <span class="qm">—— SPEAKER_02 · [10:45]</span> ^q3
+> <span class="qm">—— 嘉宾 · [10:45]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 

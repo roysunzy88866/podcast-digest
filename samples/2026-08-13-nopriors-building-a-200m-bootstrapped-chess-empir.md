@@ -88,7 +88,7 @@ Chess.com 不愿透露具体的[[反作弊|反作弊]]机制,但核心在于极�
 
 > <span class="qz">但我认为人类技能在超人类 AI 的世界里不再相关的想法,仅仅作为技术本身的一个产物,是无稽之谈。</span>  
 > *But I think the idea that human skill is no longer relevant in the world of superhuman AI just as a product of the technology itself is nonsense.*  
-> <span class="qm">—— SPEAKER_00 · [39:38]</span> ^q2
+> <span class="qm">—— 嘉宾 · [39:38]</span> ^q2
 
 > <span class="qz">我认为作为当今创始人的一大诅咒,就是外界的创始人建议太多了。</span>  
 > *I think one of the curses of being a founder today is just how much founder advice there is out there.*  

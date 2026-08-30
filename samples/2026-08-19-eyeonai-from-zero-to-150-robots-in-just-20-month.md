@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **概念** [[人形机器人]] · [[执行器]] · [[视觉-语言-行动模型]] · [[视频训练]] · [[远程遥控]] · [[世界行动模型]]
 
-一个做室内安保机器人的创业者，卖掉公司后转做军用和工业[[人形机器人|人形机器人]]，声称 20 个月就从零做到了机器人实际部署、轮班工作。但采访他的主持人去过他的车间、跟过他去乌克兰交付——机器人根本没过边境，车间每天产一台，推一下就跪。主持人说得很直白：[[Foundation|Foundation]] 的公关远比它的机器人跑得快 <button class="pd-ts" data-t="05:03" data-who="Unknown" data-en="As I told Mike, Foundation's PR is running far faster than its robots. Here's the conversation. Why don't we start with having you introduce yourself and talk about your earlier startup, and then we'll get into Foundation and what you guys are doing." aria-label="回原文"></button>。
+一个做室内安保机器人的创业者，卖掉公司后转做军用和工业[[人形机器人|人形机器人]]，声称 20 个月就从零做到了机器人实际部署、轮班工作。但采访他的主持人去过他的车间、跟过他去乌克兰交付——机器人根本没过边境，车间每天产一台，推一下就跪。主持人说得很直白：[[Foundation|Foundation]] 的公关远比它的机器人跑得快 <button class="pd-ts" data-t="05:03" data-who="嘉宾" data-en="As I told Mike, Foundation's PR is running far faster than its robots. Here's the conversation. Why don't we start with having you introduce yourself and talk about your earlier startup, and then we'll get into Foundation and what you guys are doing." aria-label="回原文"></button>。
 
 不过抛开公关叙事，这一集确实有一些关于人形机器人行业的实质内容值得拆解。
 
@@ -82,7 +82,7 @@ Mike 算了一笔账：工厂三班倒，每班工人年薪 6 万美元，一个
 
 ## 生产目标从 1 万台缩到 6 千台
 
-Mike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 万 <button class="pd-ts" data-t="34:38" data-who="Michael LeBlanc" data-en="And so you talked about the deployment in Georgia where the robots are tethered to the ceiling with electrical cables that feed power to them so that they can operate 24-7 without people having to swap batteries and stuff." aria-label="回原文"></button>。但主持人在开头段落提到，最新更新是目标缩减到 6 千台 <button class="pd-ts" data-t="04:11" data-who="Unknown" data-en="And the company is opening a new production facility in Texas. They've scaled back this year's production target to 6,000 robots instead of 10,000. Mike said that Foundation is building its own AI model to control the robot." aria-label="回原文"></button>。作为对照，特斯拉 2025 年的目标是 5 千台，也没达到 <button class="pd-ts" data-t="01:00" data-who="Unknown" data-en="Co-founder of Foundation Robotics Lab back in January when the company was making a public relations push claiming they were building humanoid robot soldiers. Mike was claiming they would produce 10,000 robots this year when even Tesla fell far short of the 5,000 it had hoped to make in 2025." aria-label="回原文"></button>。
+Mike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 万 <button class="pd-ts" data-t="34:38" data-who="Michael LeBlanc" data-en="And so you talked about the deployment in Georgia where the robots are tethered to the ceiling with electrical cables that feed power to them so that they can operate 24-7 without people having to swap batteries and stuff." aria-label="回原文"></button>。但主持人在开头段落提到，最新更新是目标缩减到 6 千台 <button class="pd-ts" data-t="04:11" data-who="嘉宾" data-en="And the company is opening a new production facility in Texas. They've scaled back this year's production target to 6,000 robots instead of 10,000. Mike said that Foundation is building its own AI model to control the robot." aria-label="回原文"></button>。作为对照，特斯拉 2025 年的目标是 5 千台，也没达到 <button class="pd-ts" data-t="01:00" data-who="嘉宾" data-en="Co-founder of Foundation Robotics Lab back in January when the company was making a public relations push claiming they were building humanoid robot soldiers. Mike was claiming they would produce 10,000 robots this year when even Tesla fell far short of the 5,000 it had hoped to make in 2025." aria-label="回原文"></button>。
 
 ## 本集带走
 

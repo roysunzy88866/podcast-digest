@@ -29,7 +29,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">在26年和27年会有很多人为23年和24年的某种犹豫不决买单。</div><div class="a">— SPEAKER_00 <button class="pd-ts" data-t="00:00" data-who="SPEAKER_00" data-en="There's going to be a lot of people paying the bill in 26 and 27 for a certain amount of hesitancy in 23 and 24." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">在26年和27年会有很多人为23年和24年的某种犹豫不决买单。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="00:00" data-who="嘉宾" data-en="There's going to be a lot of people paying the bill in 26 and 27 for a certain amount of hesitancy in 23 and 24." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Harry Stabbings]] · [[Jason Lamkin]]
@@ -80,11 +80,11 @@ Rory认为这是一个"之前"和"之后"之间出现裂缝的时期，能跳过
 
 > <span class="qz">在26年和27年会有很多人为23年和24年的某种犹豫不决买单。</span>  
 > *There's going to be a lot of people paying the bill in 26 and 27 for a certain amount of hesitancy in 23 and 24.*  
-> <span class="qm">—— SPEAKER_00 · [00:00]</span> ^q1
+> <span class="qm">—— 嘉宾 · [00:00]</span> ^q1
 
 > <span class="qz">证明你没有消亡的唯一方法就是增长。</span>  
 > *The only way you prove that you're not dying is by growing.*  
-> <span class="qm">—— SPEAKER_00 · [00:07]</span> ^q2
+> <span class="qm">—— 嘉宾 · [00:07]</span> ^q2
 
 > <span class="qz">Canva和Notion完全没有做错任何事。完全没有。而我们不需要它们。</span>  
 > *Canva and Notion did nothing wrong at all. Nothing. And we didn't need them.*  
@@ -100,7 +100,7 @@ Rory认为这是一个"之前"和"之后"之间出现裂缝的时期，能跳过
 
 > <span class="qz">但有时世界会打开，在"之前"和"之后"之间会出现一道裂缝。如果你做出那个跨越，你必须快速完成。</span>  
 > *But there are times when the world opens up and there's a crevice between the before and the after. And if you make that jump, you've got to make it quickly.*  
-> <span class="qm">—— SPEAKER_00 · [19:41]</span> ^q6
+> <span class="qm">—— 嘉宾 · [19:41]</span> ^q6
 
 > <span class="qz">没有人会把20亿美元的交易押在基于结果的解决方案上。</span>  
 > *No one puts a $2 billion deal on the line for an outcome-based resolution.*  
@@ -108,19 +108,19 @@ Rory认为这是一个"之前"和"之后"之间出现裂缝的时期，能跳过
 
 > <span class="qz">再说一次我们以那个估值融了资因此我们要持有420亿估值，这不再是可以接受的了，对吧？</span>  
 > *It's no longer acceptable to say once upon a time we raised at 42, therefore we're holding for 42 billion, right?*  
-> <span class="qm">—— SPEAKER_00 · [31:34]</span> ^q8
+> <span class="qm">—— 嘉宾 · [31:34]</span> ^q8
 
 > <span class="qz">持有者永远复利，而你卖掉的那些从那以后根本不复利。</span>  
 > *The holders compound forever, and the ones you sell don't compound at all from then on.*  
-> <span class="qm">—— SPEAKER_00 · [33:29]</span> ^q9
+> <span class="qm">—— 嘉宾 · [33:29]</span> ^q9
 
 > <span class="qz">如果你是Jeff Dean，作为一家市值2万亿或3万亿美元的上市公司的非CEO离开，并且股价下跌了几千亿美元，这一定是非常有验证感的。</span>  
 > *It must be extraordinarily validating, if you're Jeff Dean, to leave as a non-CEO of a $2 or $3 trillion market cap public company and have the stock go down by a couple of hundred billion dollars.*  
-> <span class="qm">—— SPEAKER_00 · [35:16]</span> ^q10
+> <span class="qm">—— 嘉宾 · [35:16]</span> ^q10
 
 > <span class="qz">所以企业的当务之急是找到一个想做那些事情的人，而不是一个想拯救世界的人。</span>  
 > *So the corporate imperative is to get someone who wants to do those things, not someone who wants to save the world.*  
-> <span class="qm">—— SPEAKER_00 · [43:21]</span> ^q11
+> <span class="qm">—— 嘉宾 · [43:21]</span> ^q11
 
 > <span class="qz">他们真的只想做对他们来说在绝对前沿且在智力上极其有趣的事情。他们不想做任何其他事情。他们就是不想做。</span>  
 > *They really only want to work on stuff at the absolute cutting edge that is extremely intellectually interesting to them. They don't want to work on anything else. They just don't want to do it.*  

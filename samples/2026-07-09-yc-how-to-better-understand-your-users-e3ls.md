@@ -25,42 +25,42 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-09-yc-how-to-better-understand-your-users-e3ls.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我看到的创始人犯的最大错误之一是依赖汇总用户指标，而不是理解单个用户如何使用他们的产品。</div><div class="a">— SPEAKER_01 <button class="pd-ts" data-t="00:09" data-who="SPEAKER_01" data-en="One of the biggest mistakes I see founders make is relying on aggregate user metrics instead of understanding how any individual users use their product." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我看到的创始人犯的最大错误之一是依赖汇总用户指标，而不是理解单个用户如何使用他们的产品。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="00:09" data-who="嘉宾" data-en="One of the biggest mistakes I see founders make is relying on aggregate user metrics instead of understanding how any individual users use their product." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **概念** [[点图]] · [[DAU]] · [[队列留存曲线]]
 
-Dave 做过一款叫 Bump 的产品，后来在 Google Photos 负责用户增长。他说创始人最容易犯的一个错误，就是只看 [[DAU|DAU]]（日活跃用户数）、MAU 这类汇总指标——这些数字把所有用户搅在一起，只要有增长，曲线就往右上走，但你根本不知道单个用户到底在怎么用你的产品、用了什么功能、使用频率和节奏如何 <button class="pd-ts" data-t="00:09" data-who="Unknown" data-en="One of the biggest mistakes I see founders make is relying on aggregate user metrics instead of understanding how any individual users use their product. In my last video, I talked about cohort retention curves and how you can use those to separate groups of users and track what they do over time throughout using your product." aria-label="回原文"></button>。
+Dave 做过一款叫 Bump 的产品，后来在 Google Photos 负责用户增长。他说创始人最容易犯的一个错误，就是只看 [[DAU|DAU]]（日活跃用户数）、MAU 这类汇总指标——这些数字把所有用户搅在一起，只要有增长，曲线就往右上走，但你根本不知道单个用户到底在怎么用你的产品、用了什么功能、使用频率和节奏如何 <button class="pd-ts" data-t="00:09" data-who="嘉宾" data-en="One of the biggest mistakes I see founders make is relying on aggregate user metrics instead of understanding how any individual users use their product. In my last video, I talked about cohort retention curves and how you can use those to separate groups of users and track what they do over time throughout using your product." aria-label="回原文"></button>。
 
 他推荐的工具叫[[点图|点图]]。做法很简单：画一个二维网格，像电子表格一样，每一行是一个用户，每一列是一个时间单位（通常用天）。
 
-然后选一个你认为代表产品核心价值的事件——比如音乐应用就是"听一首歌"，照片应用就是"分享一张照片"——用户在哪天做了这件事，就在对应格子里放一个点。用户第一天使用的那天，可以在点外面加个圆圈做标记 <button class="pd-ts" data-t="01:35" data-who="Unknown" data-en="So today I want to tell you about a tool that we came to in my startup that allows you to understand what's going on with individual users while also giving you a big picture view of how your entire product is performing." aria-label="回原文"></button>。
+然后选一个你认为代表产品核心价值的事件——比如音乐应用就是"听一首歌"，照片应用就是"分享一张照片"——用户在哪天做了这件事，就在对应格子里放一个点。用户第一天使用的那天，可以在点外面加个圆圈做标记 <button class="pd-ts" data-t="01:35" data-who="嘉宾" data-en="So today I want to tell you about a tool that we came to in my startup that allows you to understand what's going on with individual users while also giving you a big picture view of how your entire product is performing." aria-label="回原文"></button>。
 
-这样做出来的图，GitHub 贡献图本质上就是同一种东西，只是 GitHub 把天数按周环绕排列 <button class="pd-ts" data-t="05:17" data-who="Unknown" data-en="And you can kind of go as deep as you want on this. This idea of dot plots might be familiar to some of you. You've probably seen it at the top of GitHub pages." aria-label="回原文"></button>。
+这样做出来的图，GitHub 贡献图本质上就是同一种东西，只是 GitHub 把天数按周环绕排列 <button class="pd-ts" data-t="05:17" data-who="嘉宾" data-en="And you can kind of go as deep as you want on this. This idea of dot plots might be familiar to some of you. You've probably seen it at the top of GitHub pages." aria-label="回原文"></button>。
 
 点图的价值在于让人脑自动识别模式。Dave 举了个 Spotify 的例子：画完点图后，能清楚看到一批用户只在工作日用，另一批只在周末用——这是 DAU 图表完全看不出来的差异。
 
-知道这个之后就可以追问：哪类用户更有价值？产品是不是该针对不同场景做不同设计 <button class="pd-ts" data-t="04:03" data-who="Unknown" data-en="Okay, so let's look at this example I've just drawn. For our Spotify app, what do we see? What patterns have emerged now that we can see individual users and their own behavior?" aria-label="回原文"></button>？
+知道这个之后就可以追问：哪类用户更有价值？产品是不是该针对不同场景做不同设计 <button class="pd-ts" data-t="04:03" data-who="嘉宾" data-en="Okay, so let's look at this example I've just drawn. For our Spotify app, what do we see? What patterns have emerged now that we can see individual users and their own behavior?" aria-label="回原文"></button>？
 
-更进一步，可以用不同符号代表不同功能。比如搜索标 S、加入播放列表标 P。如果发现某个用户加入播放列表之后，连续很多天都在活跃，就能推断播放列表功能可能是驱动高频使用的因果因素，而不只是相关 <button class="pd-ts" data-t="09:11" data-who="Unknown" data-en="And you might start to see patterns. Where specific features maybe drive behaviors in the product that you actually want. Let's just say for the sake of argument that we see this one user here that joined a public playlist." aria-label="回原文"></button>。
+更进一步，可以用不同符号代表不同功能。比如搜索标 S、加入播放列表标 P。如果发现某个用户加入播放列表之后，连续很多天都在活跃，就能推断播放列表功能可能是驱动高频使用的因果因素，而不只是相关 <button class="pd-ts" data-t="09:11" data-who="嘉宾" data-en="And you might start to see patterns. Where specific features maybe drive behaviors in the product that you actually want. Let's just say for the sake of argument that we see this one user here that joined a public playlist." aria-label="回原文"></button>。
 
-除了追踪行为，还可以编码用户状态：iPhone 还是 Android、哪个国家、什么收入水平，用不同颜色或符号标注，然后按属性排序——比如只看 iOS 用户，或者只看某天刚注册的用户。当这种图铺满一整页的时候，人脑会注意到你事先根本想不到去查的模式 <button class="pd-ts" data-t="05:28" data-who="Unknown" data-en="They've just wrapped the days around per week. Another thing you can do is instead of just tracking user actions, you can track user state. So was this user using an iPhone or an Android phone?" aria-label="回原文"></button>。
+除了追踪行为，还可以编码用户状态：iPhone 还是 Android、哪个国家、什么收入水平，用不同颜色或符号标注，然后按属性排序——比如只看 iOS 用户，或者只看某天刚注册的用户。当这种图铺满一整页的时候，人脑会注意到你事先根本想不到去查的模式 <button class="pd-ts" data-t="05:28" data-who="嘉宾" data-en="They've just wrapped the days around per week. Another thing you can do is instead of just tracking user actions, you can track user state. So was this user using an iPhone or an Android phone?" aria-label="回原文"></button>。
 
 Dave 说这个思路他最早是从 Max Levchin（PayPal 创始人之一）那里听到的。PayPal 当年有欺诈问题，不知道该找什么模式，就建了一个可视化工具把所有交易画出来，让人盯着屏幕看。
 
-人类虽然说不清具体规则，但能一眼看出"那个东西不一样，可能是欺诈"，然后再去深挖 <button class="pd-ts" data-t="06:41" data-who="Unknown" data-en="In a way that you would never have figured out on your own a priori. This is actually an idea that I remember hearing about 10 years ago from Max Levchin, one of the founders of PayPal." aria-label="回原文"></button>。点图的逻辑一样：先看到异常模式，再去追问原因 <button class="pd-ts" data-t="07:17" data-who="Unknown" data-en="And then they would go and dig into that. It's kind of the same idea with dot plots. You can look at these charts and figure out, huh." aria-label="回原文"></button>。
+人类虽然说不清具体规则，但能一眼看出"那个东西不一样，可能是欺诈"，然后再去深挖 <button class="pd-ts" data-t="06:41" data-who="嘉宾" data-en="In a way that you would never have figured out on your own a priori. This is actually an idea that I remember hearing about 10 years ago from Max Levchin, one of the founders of PayPal." aria-label="回原文"></button>。点图的逻辑一样：先看到异常模式，再去追问原因 <button class="pd-ts" data-t="07:17" data-who="嘉宾" data-en="And then they would go and dig into that. It's kind of the same idea with dot plots. You can look at these charts and figure out, huh." aria-label="回原文"></button>。
 
-他画了个对比：同样那批用户，DAU 图表就是一条几乎不动的小折线，告诉你"没增长、有几个用户"，仅此而已。但点图给了你丰富得多的理解——你能推断出用户的生活习惯、使用场景 <button class="pd-ts" data-t="07:29" data-who="Unknown" data-en="And then you can go dig into it a lot deeper. So to illustrate the point I was talking about where dot plots give you a lot more granularity about what's going on with the users, let's draw the DAU graph for these users." aria-label="回原文"></button>。
+他画了个对比：同样那批用户，DAU 图表就是一条几乎不动的小折线，告诉你"没增长、有几个用户"，仅此而已。但点图给了你丰富得多的理解——你能推断出用户的生活习惯、使用场景 <button class="pd-ts" data-t="07:29" data-who="嘉宾" data-en="And then you can go dig into it a lot deeper. So to illustrate the point I was talking about where dot plots give you a lot more granularity about what's going on with the users, let's draw the DAU graph for these users." aria-label="回原文"></button>。
 
-点图在早期特别好用，因为用户少，所有人所有天的行为能一屏看完。但 Dave 说它在 Google Photos 也用过，当时用户远超十亿，做法是对用户群抽样，打印出几十张点图——"这是法国的 iOS 用户""这是美国年收入超过 8 万美元的网页用户"——团队花一整天坐在办公室看图、找结论 <button class="pd-ts" data-t="09:52" data-who="Unknown" data-en="That's really great. But it actually does scale to when you have thousands or millions or billions of users. This is a tool that we used at Google Photos when we had well more than a billion users." aria-label="回原文"></button>。
+点图在早期特别好用，因为用户少，所有人所有天的行为能一屏看完。但 Dave 说它在 Google Photos 也用过，当时用户远超十亿，做法是对用户群抽样，打印出几十张点图——"这是法国的 iOS 用户""这是美国年收入超过 8 万美元的网页用户"——团队花一整天坐在办公室看图、找结论 <button class="pd-ts" data-t="09:52" data-who="嘉宾" data-en="That's really great. But it actually does scale to when you have thousands or millions or billions of users. This is a tool that we used at Google Photos when we had well more than a billion users." aria-label="回原文"></button>。
 
 B2B 产品同样适用。他举了最近一期 YC 里一家公司的例子：签了一个大客户，年合同 8 万美元，买了 10 个席位，后来流失了。
 
-如果当时有点图，他们会看到：10 个席位只有 3 个被激活过，而且没人每周用超过两天，使用非常零星。真实原因是当初推动采购的那个内部支持者离职了，新人一来就问"为什么要用这个"，然后取消了续约。点图上这些信号早就有了，但公司没看到 <button class="pd-ts" data-t="10:50" data-who="Unknown" data-en="Turns out that dot plots could be really useful to you too. Let me give you a specific example. I worked with a company in the most recent YC batch that had a very name brand customer that signed up and bought their product." aria-label="回原文"></button>。
+如果当时有点图，他们会看到：10 个席位只有 3 个被激活过，而且没人每周用超过两天，使用非常零星。真实原因是当初推动采购的那个内部支持者离职了，新人一来就问"为什么要用这个"，然后取消了续约。点图上这些信号早就有了，但公司没看到 <button class="pd-ts" data-t="10:50" data-who="嘉宾" data-en="Turns out that dot plots could be really useful to you too. Let me give you a specific example. I worked with a company in the most recent YC batch that had a very name brand customer that signed up and bought their product." aria-label="回原文"></button>。
 
-两个常见误用：第一是选错事件，比如选"打开应用"或"登录"，这些不代表用户获得了真正价值，看着满屏点但没信息量；要选真正创造价值的行为，比如听歌、分享照片 <button class="pd-ts" data-t="11:57" data-who="Unknown" data-en="So there's a few ways you can misuse dot plots. The number one thing is to just chart the wrong event. A lot of founders might want to populate their dot plot with the easiest way to populate it so it feels good and you see a lot of dots." aria-label="回原文"></button>。第二是时间粒度太粗，比如用"周"做单位，细节就被抹掉了，建议至少用天，甚至更细 <button class="pd-ts" data-t="12:25" data-who="Unknown" data-en="Listen to a song, share a photo, something like that that's a real event. The other mistake you can make is picking a time period that's too wide. Sometimes founders want to make it look better and they pick weeks, like week one, week two, week three." aria-label="回原文"></button>。
+两个常见误用：第一是选错事件，比如选"打开应用"或"登录"，这些不代表用户获得了真正价值，看着满屏点但没信息量；要选真正创造价值的行为，比如听歌、分享照片 <button class="pd-ts" data-t="11:57" data-who="嘉宾" data-en="So there's a few ways you can misuse dot plots. The number one thing is to just chart the wrong event. A lot of founders might want to populate their dot plot with the easiest way to populate it so it feels good and you see a lot of dots." aria-label="回原文"></button>。第二是时间粒度太粗，比如用"周"做单位，细节就被抹掉了，建议至少用天，甚至更细 <button class="pd-ts" data-t="12:25" data-who="嘉宾" data-en="Listen to a song, share a photo, something like that that's a real event. The other mistake you can make is picking a time period that's too wide. Sometimes founders want to make it look better and they pick weeks, like week one, week two, week three." aria-label="回原文"></button>。
 
-Dave 说在用户数到几百之前，点图可以是你唯一的仪表板。技术上没什么复杂的，就是解析日志填进二维网格，现在的 AI 编码工具十来分钟能写出来 <button class="pd-ts" data-t="12:41" data-who="Unknown" data-en="It's way harder to figure out what's actually going on unless you look at it at the day or maybe even like sub-day granularity. So I would go so far as to say until you have hundreds of users, the dot plot could be your only dashboard." aria-label="回原文"></button>。他建议点图和[[队列留存曲线|队列留存曲线]]配合使用：留存曲线告诉你用户群整体是否在留住，点图告诉你他们具体怎么用、为什么留或为什么走 <button class="pd-ts" data-t="13:03" data-who="Unknown" data-en="This is a thing that modern AI coding tools can whip up in like 10 minutes. These are best used in conjunction with cohort retention curves. Cohort retention curves teach you in aggregate whether groups of users that you acquire stick with you over time." aria-label="回原文"></button>。
+Dave 说在用户数到几百之前，点图可以是你唯一的仪表板。技术上没什么复杂的，就是解析日志填进二维网格，现在的 AI 编码工具十来分钟能写出来 <button class="pd-ts" data-t="12:41" data-who="嘉宾" data-en="It's way harder to figure out what's actually going on unless you look at it at the day or maybe even like sub-day granularity. So I would go so far as to say until you have hundreds of users, the dot plot could be your only dashboard." aria-label="回原文"></button>。他建议点图和[[队列留存曲线|队列留存曲线]]配合使用：留存曲线告诉你用户群整体是否在留住，点图告诉你他们具体怎么用、为什么留或为什么走 <button class="pd-ts" data-t="13:03" data-who="嘉宾" data-en="This is a thing that modern AI coding tools can whip up in like 10 minutes. These are best used in conjunction with cohort retention curves. Cohort retention curves teach you in aggregate whether groups of users that you acquire stick with you over time." aria-label="回原文"></button>。
 
 > 【背景】Dave 指的是 Dave Morin，Bump 联合创始人，后加入 Google 负责 Google+ 等产品，这些身份信息未在转写稿中出现。YC 指 Y Combinator，全球知名的创业加速器。
 
@@ -76,15 +76,15 @@ Dave 说在用户数到几百之前，点图可以是你唯一的仪表板。技
 
 > <span class="qz">我看到的创始人犯的最大错误之一是依赖汇总用户指标，而不是理解单个用户如何使用他们的产品。</span>  
 > *One of the biggest mistakes I see founders make is relying on aggregate user metrics instead of understanding how any individual users use their product.*  
-> <span class="qm">—— SPEAKER_01 · [00:09]</span> ^q1
+> <span class="qm">—— 嘉宾 · [00:09]</span> ^q1
 
 > <span class="qz">如果你有一定程度的增长，那些图表往往会呈上升趋势，即使用户实际上并没有享受使用你的产品。</span>  
 > *And if you have any amount of growth, those graphs tend to be going up and to the right, even if users aren't actually enjoying using your product.*  
-> <span class="qm">—— SPEAKER_01 · [01:14]</span> ^q2
+> <span class="qm">—— 嘉宾 · [01:14]</span> ^q2
 
 > <span class="qz">所以我想冒昧地说，在你拥有数百名用户之前，点图可能是你唯一的仪表板。</span>  
 > *So I would go so far as to say until you have hundreds of users, the dot plot could be your only dashboard.*  
-> <span class="qm">—— SPEAKER_01 · [12:41]</span> ^q3
+> <span class="qm">—— 嘉宾 · [12:41]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 

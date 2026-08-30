@@ -103,7 +103,7 @@ David 说这是他唯一记得那么卡顿的时刻——而卡成那样本身�
 
 > <span class="qz">决策过程的大部分都是表演性的商议。</span>  
 > *So much of the decision making process is deliberation for show.*  
-> <span class="qm">——  · [09:45]</span> ^q4
+> <span class="qm">—— 嘉宾 · [09:45]</span> ^q4
 
 > <span class="qz">而如果你真的必须思考你做的每一个决定，你哪里也去不了。</span>  
 > *And if you had to really think about every decision you make, you'd get nowhere.*  

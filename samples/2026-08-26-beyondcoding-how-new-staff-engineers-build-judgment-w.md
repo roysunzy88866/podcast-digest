@@ -118,7 +118,7 @@ Malika 的定义：**在多个层次上思考的能力**——从一层、三层
 
 > <span class="qz">因为我觉得如果人们在使用智能体，你某种程度上必须使用智能体来对抗其他使用智能体的人，否则你就会落后。</span>  
 > *Because I feel like if people are using agents, you kind of have to use agents to combat other people from using agents because otherwise you stay behind.*  
-> <span class="qm">—— SPEAKER_01 · [36:15]</span> ^q3
+> <span class="qm">—— 嘉宾 · [36:15]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 

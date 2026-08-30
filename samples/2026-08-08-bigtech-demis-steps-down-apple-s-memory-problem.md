@@ -26,7 +26,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">这是 Google 内部激励机制的错位,是 Google 内部利益的错位,几天后这似乎通过 Demis 的离开而显现出来了。</div><div class="a">— SPEAKER_00 <button class="pd-ts" data-t="00:46" data-who="SPEAKER_00" data-en="This is a misalignment of incentives within Google, a misalignment of interest within Google that a couple of days later seems to have manifested with Demis' departure." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">这是 Google 内部激励机制的错位,是 Google 内部利益的错位,几天后这似乎通过 Demis 的离开而显现出来了。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="00:46" data-who="嘉宾" data-en="This is a misalignment of incentives within Google, a misalignment of interest within Google that a couple of days later seems to have manifested with Demis' departure." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **公司** [[Apple]] · [[Microsoft]] · [[Google]] · [[OpenAI]] · [[Anthropic]] · [[Amazon]] · [[Google DeepMind]]
@@ -81,19 +81,19 @@ jsonLd: |
 
 > <span class="qz">这是 Google 内部激励机制的错位,是 Google 内部利益的错位,几天后这似乎通过 Demis 的离开而显现出来了。</span>  
 > *This is a misalignment of incentives within Google, a misalignment of interest within Google that a couple of days later seems to have manifested with Demis' departure.*  
-> <span class="qm">—— SPEAKER_00 · [00:46]</span> ^q1
+> <span class="qm">—— 嘉宾 · [00:46]</span> ^q1
 
 > <span class="qz">如果你孤注一掷于一种技术模式但它没有显现结果,你最终可能会遭遇 AI 寒冬,一种衰退。</span>  
 > *if you go all in on one mode of the technology and it doesn't manifest results, you could end up having an AI winter, a drawdown.*  
-> <span class="qm">—— SPEAKER_00 · [04:00]</span> ^q2
+> <span class="qm">—— 嘉宾 · [04:00]</span> ^q2
 
 > <span class="qz">但是这个想法,即你不会在 25 年内更换那些芯片,这根本经不起任何审查。</span>  
 > *this idea that you're not going to replace those chips for 25 years, it just doesn't hold up to any scrutiny at all.*  
-> <span class="qm">—— SPEAKER_00 · [41:33]</span> ^q3
+> <span class="qm">—— 嘉宾 · [41:33]</span> ^q3
 
 > <span class="qz">从 Demis Hassabis 往下,他基本上都把世界模型视为前进的道路,视为最重要的东西,并且他们愿意在 LLM 开发上退居二线</span>  
 > *from Demis Hassabis on down he just basically views world models as the way forward as the most important thing and they're willing to sort of take a back seat on llm development*  
-> <span class="qm">—— SPEAKER_02 · [55:14]</span> ^q4
+> <span class="qm">—— 嘉宾 · [55:14]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 

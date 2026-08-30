@@ -57,13 +57,13 @@ jsonLd: |
 
 **V3——端到端处理**：当草稿被采纳率很高、新错误模式趋于零时，才让智能体直接回复客户，甚至执行退款、提工单等操作 <button class="pd-ts" data-t="54:31" data-who="Aishwarya Reganti" data-en="And then we say, post that, once you've figured out that those drafts look good and most of the times maybe humans are not making too many changes, they're using these drafts as is." aria-label="回原文"></button>。
 
-同样的逻辑适用于其他场景：编码助手 V1 只做行内补全，V2 生成测试让人类审，V3 才自主提 PR；营销助手 V1 起草文案，V2 跑多步Campaign，V3 才跨渠道 A/B 测试自动优化 <button class="pd-ts" data-t="18:04" data-who="Unknown" data-en="So a few more examples that you shared in your post that I'll just read. So say you're building a coding assistant, V1 would be just suggest inline completion and boilerplate snippets." aria-label="回原文"></button>。
+同样的逻辑适用于其他场景：编码助手 V1 只做行内补全，V2 生成测试让人类审，V3 才自主提 PR；营销助手 V1 起草文案，V2 跑多步Campaign，V3 才跨渠道 A/B 测试自动优化 <button class="pd-ts" data-t="18:04" data-who="嘉宾" data-en="So a few more examples that you shared in your post that I'll just read. So say you're building a coding assistant, V1 would be just suggest inline completion and boilerplate snippets." aria-label="回原文"></button>。
 
 判断能不能进入下一阶段的标志不是时间表，而是"意外率"——如果你连续校准一两天，没看到新的错误模式、用户行为稳定了，才适合往上走。但要注意，换了底层模型（比如从 GPT-4o 切到 5）或者用户行为本身演变了（比如开始问更深层的问题），校准就得重来 <button class="pd-ts" data-t="58:18" data-who="Aishwarya Reganti" data-en="Is there anything else before we go into different topic around this framework specifically that you think is important for people to know? I think one of the most common questions we get is, how do I know if I need to go to the next stage or if this is calibrated enough?" aria-label="回原文"></button>。
 
 ## 持续校准、持续开发（CCCD）框架
 
-把上面的思路做成可执行的开发流程，就是 CCCD 框架，可以理解为 AI 版的 CI/CD <button class="pd-ts" data-t="46:00" data-who="Unknown" data-en="We've been talking for almost an hour already, and we haven't even covered your extremely powerful software development workflow for building AI products that you two developed that you teach in your course, that you basically combined all the stuff we've been talking about into a step-by-step approach to building AI products." aria-label="回原文"></button>。
+把上面的思路做成可执行的开发流程，就是 CCCD 框架，可以理解为 AI 版的 CI/CD <button class="pd-ts" data-t="46:00" data-who="嘉宾" data-en="We've been talking for almost an hour already, and we haven't even covered your extremely powerful software development workflow for building AI products that you two developed that you teach in your course, that you basically combined all the stuff we've been talking about into a step-by-step approach to building AI products." aria-label="回原文"></button>。
 
 **右侧——持续开发**：先界定能力边界，把"期望输入长什么样、期望输出长什么样"整理成数据集。这个动作本身就有价值——你会发现团队里 PM、工程师、领域专家对"产品该怎么表现"根本没对齐。然后设定评估指标（不是"做不做 [[评估|evals]]"，而是你想盯哪些维度），部署并跑指标 <button class="pd-ts" data-t="48:08" data-who="Aishwarya Reganti" data-en="And that's where we came up with this idea of continuous calibration, continuous development. The idea is pretty simple, which is we have this right side of the loop, which is continuous development, where you scope capability and curate data, essentially get a data set of what your expected inputs are and what your expected outputs should be looking at." aria-label="回原文"></button>。
 
@@ -71,25 +71,25 @@ jsonLd: |
 
 关键认知：评估指标只能抓已知的错，生产环境监控才能暴露未知的错。两者都做，但不要迷信任何一个能"解决一切"——社区里"evals 万能"和"全是 vibe coding"都是错误的二分法 <button class="pd-ts" data-t="33:47" data-who="Kiriti Badam" data-en="How far does that take people in solving a lot of the problems that you talk about? In terms of what is going on in the community, I feel there's just this false dichotomy of this either evals is going to solve everything or online monitoring or production monitoring is going to solve everything." aria-label="回原文"></button>。
 
-而且"evals"这个词已经被语义扩散了：数据标注公司说的 evals 是专家写错误分析笔记，PM 说的 evals 是定义产品行为，有人说的 evals 其实是跑 LM Arena 看模型排行——这些是流程里完全不同的环节 <button class="pd-ts" data-t="38:45" data-who="Unknown" data-en="Now, step back as a beginner and kind of think what are evals? Why is everyone saying evals? And these are actually different parts of the process and nobody is wrong in the sense that yes, these are evals, but when a data labeling company is telling you that our experts are writing evals, they're actually referring to error analysis or experts just leading notes on what should be right." aria-label="回原文"></button>。
+而且"evals"这个词已经被语义扩散了：数据标注公司说的 evals 是专家写错误分析笔记，PM 说的 evals 是定义产品行为，有人说的 evals 其实是跑 LM Arena 看模型排行——这些是流程里完全不同的环节 <button class="pd-ts" data-t="38:45" data-who="嘉宾" data-en="Now, step back as a beginner and kind of think what are evals? Why is everyone saying evals? And these are actually different parts of the process and nobody is wrong in the sense that yes, these are evals, but when a data labeling company is telling you that our experts are writing evals, they're actually referring to error analysis or experts just leading notes on what should be right." aria-label="回原文"></button>。
 
 ## 成功公司的三个维度
 
-技术框架之外，能跑出来的公司有三个共性 <button class="pd-ts" data-t="25:43" data-who="Unknown" data-en="So we could just maybe start with, what are other ways that companies do this well, build AI products successfully? I almost think of it as like a success triangle with three dimensions that's never always technical." aria-label="回原文"></button>：
+技术框架之外，能跑出来的公司有三个共性 <button class="pd-ts" data-t="25:43" data-who="嘉宾" data-en="So we could just maybe start with, what are other ways that companies do this well, build AI products successfully? I almost think of it as like a success triangle with three dimensions that's never always technical." aria-label="回原文"></button>：
 
 **领导者必须亲自动手重建直觉**。Rackspace 的 CEO 每天凌晨 4 点到 6 点专门追 AI 最新动态，周末做 vibe coding，然后把问题带回来跟专家讨论。
 
-这不是让他写代码，而是他过去 15 年积累的产品直觉在 AI 时代需要推倒重来——他必须承认自己可能是"房间里最笨的人" <button class="pd-ts" data-t="26:28" data-who="Unknown" data-en="But now with AI in the picture, those intuitions will have to be relearned and leaders have to be vulnerable to do that. I used to work with the CEO of now Rackspace, Gagan." aria-label="回原文"></button>。CEO 不深入，下面工程师再使劲也推不动 <button class="pd-ts" data-t="32:10" data-who="Unknown" data-en="There's a lot there that resonates so deeply with other conversations I've been having on this podcast. One is just for a company to be successful at seeing a lot of impact from AI, the founder-CEO has to be deep into it." aria-label="回原文"></button>。
+这不是让他写代码，而是他过去 15 年积累的产品直觉在 AI 时代需要推倒重来——他必须承认自己可能是"房间里最笨的人" <button class="pd-ts" data-t="26:28" data-who="嘉宾" data-en="But now with AI in the picture, those intuitions will have to be relearned and leaders have to be vulnerable to do that. I used to work with the CEO of now Rackspace, Gagan." aria-label="回原文"></button>。CEO 不深入，下面工程师再使劲也推不动 <button class="pd-ts" data-t="32:10" data-who="嘉宾" data-en="There's a lot there that resonates so deeply with other conversations I've been having on this podcast. One is just for a company to be successful at seeing a lot of impact from AI, the founder-CEO has to be deep into it." aria-label="回原文"></button>。
 
 **文化上要赋能，不要制造 FOMO**。领域专家是 AI 产品成功的关键——你得靠他们判断 AI 行为对不对。
 
-但如果公司氛围是"不学 AI 就被淘汰"，专家会拒绝配合，因为觉得你在取代他们。正确的叙事是"AI 让你 10 倍效率" <button class="pd-ts" data-t="28:04" data-who="Unknown" data-en="And again, I work with enterprises where AI is not their main thing and they need to bring in AI into their processes just because a competitor is doing it. And just because it does make sense because there are use cases that are very ripe." aria-label="回原文"></button>。
+但如果公司氛围是"不学 AI 就被淘汰"，专家会拒绝配合，因为觉得你在取代他们。正确的叙事是"AI 让你 10 倍效率" <button class="pd-ts" data-t="28:04" data-who="嘉宾" data-en="And again, I work with enterprises where AI is not their main thing and they need to bring in AI into their processes just because a competitor is doing it. And just because it does make sense because there are use cases that are very ripe." aria-label="回原文"></button>。
 
 **技术上要痴迷工作流，不是痴迷 AI 本身**。没有一个真实工作流是"丢一个智能体进去就搞定"的。
 
-永远是：ML 模型做一部分、确定性代码做一部分、人类做一部分。你得把工作流拆清楚，为每个子问题选对工具 <button class="pd-ts" data-t="29:35" data-who="Unknown" data-en="I think folks that are successful are incredibly obsessed about understanding their workflows very well and augmenting parts that could be ripe for AI versus the ones that might need human in the loop somewhere, et cetera." aria-label="回原文"></button>。
+永远是：ML 模型做一部分、确定性代码做一部分、人类做一部分。你得把工作流拆清楚，为每个子问题选对工具 <button class="pd-ts" data-t="29:35" data-who="嘉宾" data-en="I think folks that are successful are incredibly obsessed about understanding their workflows very well and augmenting parts that could be ripe for AI versus the ones that might need human in the loop somewhere, et cetera." aria-label="回原文"></button>。
 
-一个判断标准：如果有人卖你"一键智能体，两三天见效"，这纯粹是营销。企业数据和基础设施太乱了，即使数据层和基础设施层都很好，替换一个关键工作流也至少要四到六个月 <button class="pd-ts" data-t="30:42" data-who="Unknown" data-en="It's about, have you built the right flywheels in place so that you can improve over time? When someone comes up to me and says, &quot;We have this one click agent, it's going to be deployed in your system.&quot;" aria-label="回原文"></button>。
+一个判断标准：如果有人卖你"一键智能体，两三天见效"，这纯粹是营销。企业数据和基础设施太乱了，即使数据层和基础设施层都很好，替换一个关键工作流也至少要四到六个月 <button class="pd-ts" data-t="30:42" data-who="嘉宾" data-en="It's about, have you built the right flywheels in place so that you can improve over time? When someone comes up to me and says, &quot;We have this one click agent, it's going to be deployed in your system.&quot;" aria-label="回原文"></button>。
 
 ## 本集带走
 

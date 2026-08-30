@@ -128,7 +128,7 @@ Figure 最近收购了 [[Kiavi|Kiavi]]——投资人贷款（「修了卖」类
 
 > <span class="qz">所以这就像把自己附着在成功上，而不是创造成功。</span>  
 > *So it's like about attaching yourself to success, not creating the success.*  
-> <span class="qm">—— SPEAKER_00 · [07:02]</span> ^q2
+> <span class="qm">—— 嘉宾 · [07:02]</span> ^q2
 
 > <span class="qz">是的，如果你看今年那个叫 Tricolor 的破产案，JP Morgan 损失了大约两三亿美元，因为有人把同一批车贷卖给了多个人而他们没发现。</span>  
 > *Yeah, if you look at this bankruptcy that happened this year called Tricolor, like JP Morgan lost like $200, $300 million because someone was selling the same auto loans to multiple people and they didn't figure it out.*  
@@ -148,7 +148,7 @@ Figure 最近收购了 [[Kiavi|Kiavi]]——投资人贷款（「修了卖」类
 
 > <span class="qz">每个人都应该把自己变成一个市场平台。</span>  
 > *Everyone should turn themselves into a marketplace.*  
-> <span class="qm">—— SPEAKER_00 · [72:19]</span> ^q7
+> <span class="qm">—— 嘉宾 · [72:19]</span> ^q7
 
 > <span class="qz">这很难做到，因为你必须放弃收入和 EBITDA，而人们讨厌那样做。</span>  
 > *it's hard to do that because you have to give up revenue and you have to give up EBITDA and people hate doing that.*  

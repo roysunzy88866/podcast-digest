@@ -117,11 +117,11 @@ Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工�
 
 > <span class="qz">我学到的是,当监管中有灰色地带时,你基本上会面临一场逐底竞争。</span>  
 > *What I've learned is when you have gray areas in regulation, you have essentially a race to the bottom.*  
-> <span class="qm">—— SPEAKER_01 · [21:00]</span> ^q2
+> <span class="qm">—— 嘉宾 · [21:00]</span> ^q2
 
 > <span class="qz">然后对于每一个好公司,都有这种邪恶的双胞胎,那个海外的替身,复制了所有功能但不做合规。</span>  
 > *And then for every one, there's kind of this evil twin, you know, the doppelganger offshore that sort of copies all the features but doesn't do the compliance.*  
-> <span class="qm">—— SPEAKER_01 · [21:43]</span> ^q3
+> <span class="qm">—— 嘉宾 · [21:43]</span> ^q3
 
 > <span class="qz">具有讽刺意味的是,他们希望更多的罪犯和恐怖分子使用加密货币并使用区块链,因为有一条轨迹。</span>  
 > *Ironically, they're hoping that more criminals and terrorists use crypto and use blockchains because there's a trail.*  

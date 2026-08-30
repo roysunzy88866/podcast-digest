@@ -27,7 +27,7 @@ jsonLd: |
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-19-aiandi-the-ai-alien-companion-app-that-s-bringi.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">它们实际上是讲故事的新媒介，而且还没人知道什么会奏效。</div><div class="a">— SPEAKER_05 <button class="pd-ts" data-t="00:33" data-who="SPEAKER_05" data-en="They are actually a new medium for storytelling and that no one knows what's going to work yet." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">它们实际上是讲故事的新媒介，而且还没人知道什么会奏效。</div><div class="a">— 嘉宾 <button class="pd-ts" data-t="00:33" data-who="嘉宾" data-en="They are actually a new medium for storytelling and that no one knows what's going to work yet." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Quintin]] · [[Elliot]]
@@ -98,7 +98,7 @@ Elliot 特别强调：从"氛围提示词"到真正让人持久觉得引人入�
 
 > <span class="qz">它们实际上是讲故事的新媒介，而且还没人知道什么会奏效。</span>  
 > *They are actually a new medium for storytelling and that no one knows what's going to work yet.*  
-> <span class="qm">—— SPEAKER_05 · [00:33]</span> ^q1
+> <span class="qm">—— 嘉宾 · [00:33]</span> ^q1
 
 > <span class="qz">超过两秒的循环，你本质上失去了沉浸的感觉。</span>  
 > *Anything beyond a two-second loop, you essentially lose the feeling of immersion.*  
@@ -114,7 +114,7 @@ Elliot 特别强调：从"氛围提示词"到真正让人持久觉得引人入�
 
 > <span class="qz">我们需要给它一个钩子。我们需要教它成为最好的即兴演员。</span>  
 > *We need to give it a hook. We need to teach it to be the best improv actor possible.*  
-> <span class="qm">—— SPEAKER_05 · [31:25]</span> ^q5
+> <span class="qm">—— 嘉宾 · [31:25]</span> ^q5
 
 > <span class="qz">但我认为我们发现的是，这里有一个巨大的鸿沟，实际上需要大量的手工人力工作才能跨越到人们觉得真正持久地引人入胜的东西。</span>  
 > *But I think what we found is that there's this enormous chasm that is in fact a lot of manual human work to cross over to something that people find truly compelling in a durable way.*  

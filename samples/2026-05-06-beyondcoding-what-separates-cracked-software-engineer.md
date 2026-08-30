@@ -41,39 +41,39 @@ jsonLd: |
 
 然后去贡献[[开源|开源]]，这跟做个人项目完全不同：你的受众不是你自己，而是维护代码仓库的人，你越适应他们的规范，你的拉取请求越容易被合并，这个过程本身就在逼你变强。最后，找真人要反馈——网上有大量资深工程师免费提供导师指导，比如 adplist.org 上有 Spotify、Netflix 的工程经理，你可以直接预约半小时，拿你写的代码去聊，这种反馈的价值远超自己闷头琢磨。
 
-技术造诣没有天花板，但你必须接受一件事：你不可能对所有东西都了如指掌，因为技术在持续进化。如果你对此感到不舒服，要么接受只在特定领域深耕，要么考虑这是否适合你——这越到后面越难，责任越多、时间越少，这是现实的权衡 <button class="pd-ts" data-t="05:03" data-who="Unknown" data-en="over again. All right. I don't think there's a ceiling to how technically cracked you can get just by virtue of having so much information out there" aria-label="回原文"></button>。
+技术造诣没有天花板，但你必须接受一件事：你不可能对所有东西都了如指掌，因为技术在持续进化。如果你对此感到不舒服，要么接受只在特定领域深耕，要么考虑这是否适合你——这越到后面越难，责任越多、时间越少，这是现实的权衡 <button class="pd-ts" data-t="05:03" data-who="嘉宾" data-en="over again. All right. I don't think there's a ceiling to how technically cracked you can get just by virtue of having so much information out there" aria-label="回原文"></button>。
 
 ## 只跟 AI 学写代码的初级开发者，五年后会不会废？
 
 不同意这个判断。五年在这个领域是很长的时间，工具本身会进化到让你定义接口、中间部分由智能体生成，人们不会太在乎中间过程。
 
-而且说实话，你永远不会有 100% 符合心意的代码库——"优雅"是非常主观的。[[生产级代码|生产级代码]]最重要的两个特质是：简单、易于更改。如果代码不难改，你就能在上面持续构建；如果代码不简单，人读不懂，智能体更读不懂 <button class="pd-ts" data-t="06:53" data-who="Unknown" data-en="the time it doesn't really matter. Things or code specifically needs to be simple and it needs to be easy to change. That's the most important aspect" aria-label="回原文"></button>。
+而且说实话，你永远不会有 100% 符合心意的代码库——"优雅"是非常主观的。[[生产级代码|生产级代码]]最重要的两个特质是：简单、易于更改。如果代码不难改，你就能在上面持续构建；如果代码不简单，人读不懂，智能体更读不懂 <button class="pd-ts" data-t="06:53" data-who="嘉宾" data-en="the time it doesn't really matter. Things or code specifically needs to be simple and it needs to be easy to change. That's the most important aspect" aria-label="回原文"></button>。
 
 初级开发者现在有一个独特优势：他们没有 20 年的包袱。那些有 20 年经验的人需要六个月来适应新工作方式，初级人员觉得"六个月挺好，我职业生涯才刚开始"。
 
-他们从白纸开始，用智能体工具一次又一次交付，遇到瓶颈再学——他们会适应的。但这也意味着资深团队需要好的资历搭配，而且资深的人得愿意向经验不如自己的人学习，否则才会真的被淘汰 <button class="pd-ts" data-t="08:09" data-who="Unknown" data-en="That's something we're going to have to experience. But the junior people right now have an edge that is quite unique because when things are new, when I'm telling people" aria-label="回原文"></button>。
+他们从白纸开始，用智能体工具一次又一次交付，遇到瓶颈再学——他们会适应的。但这也意味着资深团队需要好的资历搭配，而且资深的人得愿意向经验不如自己的人学习，否则才会真的被淘汰 <button class="pd-ts" data-t="08:09" data-who="嘉宾" data-en="That's something we're going to have to experience. But the junior people right now have an edge that is quite unique because when things are new, when I'm telling people" aria-label="回原文"></button>。
 
 ## Vibe coding 六个月，代码库变灾难怎么办？
 
 [[vibe coding|vibe coding]]（凭感觉让 AI 帮你写代码，不关心架构和规范）让你构建很快，但瓶颈也会更快到来。不过"代码库变得难以更改"这个问题并不新鲜——只是被加速了。
 
-以前这个问题可能要六年才暴露，现在六个月就来了。解法一样：要么自学，要么花钱请有经验的顾问帮你处理 <button class="pd-ts" data-t="14:20" data-who="Unknown" data-en="It's not a unique problem right now. It's just accelerated. And vibe coding is really cool because it allows you to build quite quickly, but also you will" aria-label="回原文"></button>。
+以前这个问题可能要六年才暴露，现在六个月就来了。解法一样：要么自学，要么花钱请有经验的顾问帮你处理 <button class="pd-ts" data-t="14:20" data-who="嘉宾" data-en="It's not a unique problem right now. It's just accelerated. And vibe coding is really cool because it allows you to build quite quickly, but also you will" aria-label="回原文"></button>。
 
-真正该担心的是安全。Lovable 被黑过，托管网站的秘密被公开了——你交付了价值、用户也在用，但满是安全漏洞，这才是最大的隐患 <button class="pd-ts" data-t="15:00" data-who="Unknown" data-en="have more examples of this. The problem is when applications have security holes. I think that's the biggest concern that I have right now. Lovable got hacked and then" aria-label="回原文"></button>。
+真正该担心的是安全。Lovable 被黑过，托管网站的秘密被公开了——你交付了价值、用户也在用，但满是安全漏洞，这才是最大的隐患 <button class="pd-ts" data-t="15:00" data-who="嘉宾" data-en="have more examples of this. The problem is when applications have security holes. I think that's the biggest concern that I have right now. Lovable got hacked and then" aria-label="回原文"></button>。
 
 ## 不写代码了，满足感去哪找？
 
 去年年底有好几个月我完全没动手写代码。我理解那种区别——我喜欢进入心流状态、敲代码、做出来觉得"这个真整洁"、收到同行评审意见再修改的循环。后面这部分确实彻底变了。
 
-如果你的满足感来自亲手写代码，而公司推动的正是智能体生成代码的方式，那你需要找到别的东西来获得同样的热情，或者把这份满足感转移到爱好里。转型大概需要几个月的时间投入，才能重新感到高效，但这笔投资值得 <button class="pd-ts" data-t="09:50" data-who="Unknown" data-en="agents in this new agentic way of working. My latest experience was kind of end of last year where for a lot of months I didn't do any hands on coding anymore." aria-label="回原文"></button>。
+如果你的满足感来自亲手写代码，而公司推动的正是智能体生成代码的方式，那你需要找到别的东西来获得同样的热情，或者把这份满足感转移到爱好里。转型大概需要几个月的时间投入，才能重新感到高效，但这笔投资值得 <button class="pd-ts" data-t="09:50" data-who="嘉宾" data-en="agents in this new agentic way of working. My latest experience was kind of end of last year where for a lot of months I didn't do any hands on coding anymore." aria-label="回原文"></button>。
 
 ## 被裁了能休间隔年吗？
 
 不建议。我之前脱离亲手写代码大约一年半，错失恐惧感非常强——尤其是在这个播客上跟真正优秀的工程师聊天，看着事情加速发展，而我既没在构建也没被启发做个人项目。
 
-更现实的问题：AI 工具的许可费在暴涨，GitHub Copilot 的乘数提高了 9 倍，原来一个月 30 美元的东西现在接近 300 美元。你休一年假回来，可能个人都负担不起这些工具了。而因为你一年没工作、没跟上浪潮，公司也不想招你 <button class="pd-ts" data-t="35:07" data-who="Unknown" data-en="All right, Last one, I just got laid off. I want to take a gap year. Is that advisable? My answer is no. All right, I was outside of" aria-label="回原文"></button>。
+更现实的问题：AI 工具的许可费在暴涨，GitHub Copilot 的乘数提高了 9 倍，原来一个月 30 美元的东西现在接近 300 美元。你休一年假回来，可能个人都负担不起这些工具了。而因为你一年没工作、没跟上浪潮，公司也不想招你 <button class="pd-ts" data-t="35:07" data-who="嘉宾" data-en="All right, Last one, I just got laid off. I want to take a gap year. Is that advisable? My answer is no. All right, I was outside of" aria-label="回原文"></button>。
 
-除非你把它变成"创业年"——从零构建一个小东西，解决你自己的问题然后推向市场。那不叫间隔年，那叫投资自己。纯粹的"休息、旅行、什么都不做"的间隔年，现在不是好时机 <button class="pd-ts" data-t="37:47" data-who="Unknown" data-en="best year to take a gap year. However, if you have a financial nest egg and you've always been kind of entrepreneurial in spirit, then that gap year might not be a gap year." aria-label="回原文"></button>。
+除非你把它变成"创业年"——从零构建一个小东西，解决你自己的问题然后推向市场。那不叫间隔年，那叫投资自己。纯粹的"休息、旅行、什么都不做"的间隔年，现在不是好时机 <button class="pd-ts" data-t="37:47" data-who="嘉宾" data-en="best year to take a gap year. However, if you have a financial nest egg and you've always been kind of entrepreneurial in spirit, then that gap year might not be a gap year." aria-label="回原文"></button>。
 
 ## 招聘正在变成什么样子？
 
@@ -81,7 +81,7 @@ jsonLd: |
 
 我问数据库复杂性或计算复杂性的问题，你怎么回答？你怎么推理？
 
-你能不能对从未构建过的系统进行推理，并且沟通清楚你如何保持事情简单？这种能力非常有价值 <button class="pd-ts" data-t="30:35" data-who="Unknown" data-en="of value, because that was, that's what companies are aiming for, right? They want results, outcomes and value. So the faster you can go, the" aria-label="回原文"></button>。
+你能不能对从未构建过的系统进行推理，并且沟通清楚你如何保持事情简单？这种能力非常有价值 <button class="pd-ts" data-t="30:35" data-who="嘉宾" data-en="of value, because that was, that's what companies are aiming for, right? They want results, outcomes and value. So the faster you can go, the" aria-label="回原文"></button>。
 
 ## 本集带走
 
@@ -96,27 +96,27 @@ jsonLd: |
 
 > <span class="qz">那些做不到的人，对我来说，他们很快就会变成遗留人员。</span>  
 > *Those that cannot, to me, they will be legacy quite soon.*  
-> <span class="qm">——  · [00:15]</span> ^q1
+> <span class="qm">—— 嘉宾 · [00:15]</span> ^q1
 
 > <span class="qz">我认为你的技术造诣能达到的上限并不存在，仅仅因为外面有太多的信息而且事物发展得如此之快。</span>  
 > *I don't think there's a ceiling to how technically cracked you can get just by virtue of having so much information out there and things evolving so quickly.*  
-> <span class="qm">——  · [05:03]</span> ^q2
+> <span class="qm">—— 嘉宾 · [05:03]</span> ^q2
 
 > <span class="qz">但现在的初级人员拥有一种相当独特的优势，因为当事情是新的时，当我告诉那些有 20 年经验的人他们需要用这种新工作方式工作六个月时，初级人员，他们并不真正在意。</span>  
 > *But the junior people right now have an edge that is quite unique because when things are new, when I'm telling people that have 20 years of experience that they need to have six months with this new way of working, the juniors, they don't really care.*  
-> <span class="qm">——  · [08:09]</span> ^q3
+> <span class="qm">—— 嘉宾 · [08:09]</span> ^q3
 
 > <span class="qz">作为工程师，编码绝不会是工作的全部。我不认为它会是工作的 80%。</span>  
 > *Coding as an engineer is never going to be 100% of the job. I don't think it's going to be 80% of the job.*  
-> <span class="qm">——  · [29:30]</span> ^q4
+> <span class="qm">—— 嘉宾 · [29:30]</span> ^q4
 
 > <span class="qz">原来 30 美元一个月的东西现在将变成接近 300 的东西。这太荒谬了。</span>  
 > *Something that was 30 bucks a month is now going to be something that is like close to 300. That's ridiculous.*  
-> <span class="qm">——  · [36:23]</span> ^q5
+> <span class="qm">—— 嘉宾 · [36:23]</span> ^q5
 
 > <span class="qz">那些没什么经验的人，那些不能快速成长和自我教育的人。他们会被淘汰。</span>  
 > *People that have little experience, people that cannot grow and educate themselves quickly. They will be weeded out.*  
-> <span class="qm">——  · [36:58]</span> ^q6
+> <span class="qm">—— 嘉宾 · [36:58]</span> ^q6
 
 <div class="pd-sec">接着看</div>
 

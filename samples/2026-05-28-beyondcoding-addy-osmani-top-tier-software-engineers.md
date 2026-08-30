@@ -31,21 +31,21 @@ jsonLd: |
 > [!info] 关联
 > **概念** [[智能体]] · [[harness]] · [[认知债务]] · [[认知投降]] · [[验证]] · [[爆炸半径]] · [[FOMO]] · [[认知带宽]]
 
-很多人把[[智能体|智能体]]当保姆养——给它权限、盯着它干活、随时救火。这不是智能体的问题，是使用方式的问题。想从"看护"毕业，核心不是换更好的工具，而是给智能体建立身份和治理：当多个子智能体同时跑不同任务时，你得知道谁在干什么，并且限制每个智能体的"[[爆炸半径|爆炸半径]]"——别让它能删你的生产数据或客户信息 <button class="pd-ts" data-t="01:52" data-who="Unknown" data-en="where they don't really know what they're doing. If you were trying to graduate from babysitting to something more serious, you kind of need to have identity around your" aria-label="回原文"></button>。
+很多人把[[智能体|智能体]]当保姆养——给它权限、盯着它干活、随时救火。这不是智能体的问题，是使用方式的问题。想从"看护"毕业，核心不是换更好的工具，而是给智能体建立身份和治理：当多个子智能体同时跑不同任务时，你得知道谁在干什么，并且限制每个智能体的"[[爆炸半径|爆炸半径]]"——别让它能删你的生产数据或客户信息 <button class="pd-ts" data-t="01:52" data-who="嘉宾" data-en="where they don't really know what they're doing. If you were trying to graduate from babysitting to something more serious, you kind of need to have identity around your" aria-label="回原文"></button>。
 
-现在最大的风险不是技术本身，而是[[FOMO|FOMO]]驱动的盲目实验。一个人试验个人智能体，不小心泄露API密钥、收到巨额账单，这很常见 <button class="pd-ts" data-t="03:07" data-who="Unknown" data-en="really know what they're doing, you know, goes and does that and they could easily leak API keys. They could end up with a very large, you know, bill at the end of it, those types of things." aria-label="回原文"></button>。但从单人创业公司到成熟企业，能承受的风险完全不同——后者需要安全保障和隐私机制到位 <button class="pd-ts" data-t="11:07" data-who="Unknown" data-en="And also realize that there's a big difference between, you know, the risk that a person who's, for example, a solo founder or a three person company can take trying out like" aria-label="回原文"></button>。
+现在最大的风险不是技术本身，而是[[FOMO|FOMO]]驱动的盲目实验。一个人试验个人智能体，不小心泄露API密钥、收到巨额账单，这很常见 <button class="pd-ts" data-t="03:07" data-who="嘉宾" data-en="really know what they're doing, you know, goes and does that and they could easily leak API keys. They could end up with a very large, you know, bill at the end of it, those types of things." aria-label="回原文"></button>。但从单人创业公司到成熟企业，能承受的风险完全不同——后者需要安全保障和隐私机制到位 <button class="pd-ts" data-t="11:07" data-who="嘉宾" data-en="And also realize that there's a big difference between, you know, the risk that a person who's, for example, a solo founder or a three person company can take trying out like" aria-label="回原文"></button>。
 
-关于选什么工具（[[harness|harness]]，即套在模型外面的执行框架），有个反直觉的建议：不要迷信"原厂组合最优"。某家公司的模型配上它自家的harness，不一定比拿同一模型配另一个harness效果更好 <button class="pd-ts" data-t="07:26" data-who="Unknown" data-en="will lead to the very best possible outcome. Maybe that statement holds true, but it's also possible, especially if you can use that model, whether it's your" aria-label="回原文"></button>。
+关于选什么工具（[[harness|harness]]，即套在模型外面的执行框架），有个反直觉的建议：不要迷信"原厂组合最优"。某家公司的模型配上它自家的harness，不一定比拿同一模型配另一个harness效果更好 <button class="pd-ts" data-t="07:26" data-who="嘉宾" data-en="will lead to the very best possible outcome. Maybe that statement holds true, but it's also possible, especially if you can use that model, whether it's your" aria-label="回原文"></button>。
 
-但如果你日常工作已经忙不过来，没有带宽逐个试工具，专注一个也完全没问题——因为各家harness的能力正在趋同，你在一个工具上建立的肌肉记忆和工作模式，切换后大概率还能用 <button class="pd-ts" data-t="09:06" data-who="Unknown" data-en="If there's a harness you're using or tool you're using that is actually delivering you good value right now, stick with it. Similar to how orchestration U XS are all kind of converging on" aria-label="回原文"></button>。真正值得你花"创新预算"去关注的，是那些跟所有人做法都不一样的冷门尝试，哪怕看起来很疯狂 <button class="pd-ts" data-t="09:35" data-who="Unknown" data-en="current one will probably still apply if you decide to switch at a later point. So I'm always looking for not what is converging, but what is like the thing that people are" aria-label="回原文"></button>。
+但如果你日常工作已经忙不过来，没有带宽逐个试工具，专注一个也完全没问题——因为各家harness的能力正在趋同，你在一个工具上建立的肌肉记忆和工作模式，切换后大概率还能用 <button class="pd-ts" data-t="09:06" data-who="嘉宾" data-en="If there's a harness you're using or tool you're using that is actually delivering you good value right now, stick with it. Similar to how orchestration U XS are all kind of converging on" aria-label="回原文"></button>。真正值得你花"创新预算"去关注的，是那些跟所有人做法都不一样的冷门尝试，哪怕看起来很疯狂 <button class="pd-ts" data-t="09:35" data-who="嘉宾" data-en="current one will probably still apply if you decide to switch at a later point. So I'm always looking for not what is converging, but what is like the thing that people are" aria-label="回原文"></button>。
 
-比工具选择更深的危机是两个词：[[认知债务|认知债务]]和[[认知投降|认知投降]]。认知债务是指代码生成太快，你开始丧失"事情到底怎么完成的"肌肉记忆和技能——如果有天智能体帮不上忙，你还能卷起袖子自己干吗 <button class="pd-ts" data-t="12:37" data-who="Unknown" data-en="around this that I've I've talked about recently. One of them is cognitive debt. And so especially as we get used to the fact that code is getting generated so quickly right now," aria-label="回原文"></button>？
+比工具选择更深的危机是两个词：[[认知债务|认知债务]]和[[认知投降|认知投降]]。认知债务是指代码生成太快，你开始丧失"事情到底怎么完成的"肌肉记忆和技能——如果有天智能体帮不上忙，你还能卷起袖子自己干吗 <button class="pd-ts" data-t="12:37" data-who="嘉宾" data-en="around this that I've I've talked about recently. One of them is cognitive debt. And so especially as we get used to the fact that code is getting generated so quickly right now," aria-label="回原文"></button>？
 
-认知投降更极端：你完全停止批判性思维，智能体生成什么就提交什么、发布什么，出了错再让智能体修 <button class="pd-ts" data-t="13:22" data-who="Unknown" data-en="And the other end of that spectrum is what we're seeing more and more of these days, which is cognitive surrender. So you, you, you just stop having critical thinking at all" aria-label="回原文"></button>。问题是——你怎么判断智能体修对了没有？生成变容易了，[[验证|验证]]才是当前真正的瓶颈 <button class="pd-ts" data-t="13:51" data-who="Unknown" data-en="whether the agent actually got those fixes right or not right? So generation is now easy. Verification is a big thing that I think that we as engineers need to keep a close eye on." aria-label="回原文"></button>。
+认知投降更极端：你完全停止批判性思维，智能体生成什么就提交什么、发布什么，出了错再让智能体修 <button class="pd-ts" data-t="13:22" data-who="嘉宾" data-en="And the other end of that spectrum is what we're seeing more and more of these days, which is cognitive surrender. So you, you, you just stop having critical thinking at all" aria-label="回原文"></button>。问题是——你怎么判断智能体修对了没有？生成变容易了，[[验证|验证]]才是当前真正的瓶颈 <button class="pd-ts" data-t="13:51" data-who="嘉宾" data-en="whether the agent actually got those fixes right or not right? So generation is now easy. Verification is a big thing that I think that we as engineers need to keep a close eye on." aria-label="回原文"></button>。
 
-解法不是回到纯手动，而是把"什么是好的、什么是对的"编码进系统里：用户旅程、测试用例、视觉回归测试——任何能让智能体的输出有东西可对比的锚点 <button class="pd-ts" data-t="15:04" data-who="Unknown" data-en="situation? And I think that what you need is to codify what good and what right means into your system. So that can be everything from your user journeys to your" aria-label="回原文"></button>。否则智能体最多只能打开浏览器点几下，说"我猜注册功能能用"，但这不等于验证了行为没有从上一个版本偏移 <button class="pd-ts" data-t="15:34" data-who="Unknown" data-en="it going to do? Maybe it will fire open a browser and load up the app and then click around and see, OK, well, I guess I'm able to register." aria-label="回原文"></button>。
+解法不是回到纯手动，而是把"什么是好的、什么是对的"编码进系统里：用户旅程、测试用例、视觉回归测试——任何能让智能体的输出有东西可对比的锚点 <button class="pd-ts" data-t="15:04" data-who="嘉宾" data-en="situation? And I think that what you need is to codify what good and what right means into your system. So that can be everything from your user journeys to your" aria-label="回原文"></button>。否则智能体最多只能打开浏览器点几下，说"我猜注册功能能用"，但这不等于验证了行为没有从上一个版本偏移 <button class="pd-ts" data-t="15:34" data-who="嘉宾" data-en="it going to do? Maybe it will fire open a browser and load up the app and then click around and see, OK, well, I guess I'm able to register." aria-label="回原文"></button>。
 
-最后一条实用建议：别以为跑多个智能体就等于你有更多脑子。[[认知带宽|认知带宽]]不能并行化。把任务分两堆——孤立的、低风险的扔给后台智能体；需要你真正动脑的，老老实实自己盯 <button class="pd-ts" data-t="16:55" data-who="Unknown" data-en="job, to experiment, to get better at what they do. Running multiple agents does not mean that there is more of you to go around because you have cognitive bandwidth that doesn't" aria-label="回原文"></button>。
+最后一条实用建议：别以为跑多个智能体就等于你有更多脑子。[[认知带宽|认知带宽]]不能并行化。把任务分两堆——孤立的、低风险的扔给后台智能体；需要你真正动脑的，老老实实自己盯 <button class="pd-ts" data-t="16:55" data-who="嘉宾" data-en="job, to experiment, to get better at what they do. Running multiple agents does not mean that there is more of you to go around because you have cognitive bandwidth that doesn't" aria-label="回原文"></button>。
 
 ## 本集带走
 - **给智能体设爆炸半径**：多智能体并行时，必须有身份和治理机制，限制每个智能体能触碰的范围
@@ -59,31 +59,31 @@ jsonLd: |
 
 > <span class="qz">如果你试图从看护毕业到更严肃的事情，你有点需要围绕你的智能体拥有身份。</span>  
 > *If you were trying to graduate from babysitting to something more serious, you kind of need to have identity around your agents.*  
-> <span class="qm">——  · [01:52]</span> ^q1
+> <span class="qm">—— 嘉宾 · [01:52]</span> ^q1
 
 > <span class="qz">如果智能体可以做任何事情，你想限制爆炸半径，因为我们已经看到很多它们去做你真的没预料到的事情的案例。</span>  
 > *if agents can do anything, you want to limit the blast radius because we have seen lots of cases of them going off and doing things that you didn't really expect.*  
-> <span class="qm">——  · [02:10]</span> ^q2
+> <span class="qm">—— 嘉宾 · [02:10]</span> ^q2
 
 > <span class="qz">把你花在尝试另一个工具的时间看作拥有一个创新代币或一个创新预算，对吧？你没有世界上所有的时间。</span>  
 > *Think about the time that you take to invest in trying in another tool as having an innovation token or an innovation budget, right? You don't have all the time in the world.*  
-> <span class="qm">——  · [08:46]</span> ^q3
+> <span class="qm">—— 嘉宾 · [08:46]</span> ^q3
 
 > <span class="qz">其中一个是认知债务。特别是当我们习惯了代码生成得如此之快这一事实，我们也可能开始丧失关于事情如何正确完成的肌肉记忆。</span>  
 > *One of them is cognitive debt. And so especially as we get used to the fact that code is getting generated so quickly right now, we can also start to lose our muscle memory around how things get done right.*  
-> <span class="qm">——  · [12:37]</span> ^q4
+> <span class="qm">—— 嘉宾 · [12:37]</span> ^q4
 
 > <span class="qz">你需要的是将什么是好的、什么是对的编码进你的系统中。</span>  
 > *what you need is to codify what good and what right means into your system.*  
-> <span class="qm">——  · [15:03]</span> ^q5
+> <span class="qm">—— 嘉宾 · [15:03]</span> ^q5
 
 > <span class="qz">我想我是能够做这些动作的，但这并不等同于能够验证从一个版本到另一个版本行为没有改变。</span>  
 > *I guess I'm able to do these actions, but that's not the same as being able to verify that the behavior hasn't changed from one release to another.*  
-> <span class="qm">——  · [15:39]</span> ^q6
+> <span class="qm">—— 嘉宾 · [15:39]</span> ^q6
 
 > <span class="qz">运行多个智能体并不意味着有更多的你可以到处去，因为你有认知带宽这并不并行化。</span>  
 > *Running multiple agents does not mean that there is more of you to go around because you have cognitive bandwidth that doesn't parallelize.*  
-> <span class="qm">——  · [16:55]</span> ^q7
+> <span class="qm">—— 嘉宾 · [16:55]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 

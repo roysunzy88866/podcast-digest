@@ -114,15 +114,15 @@ Doug 对核能行业现状有一个非常耸人听闻、但他坚称完全真实
 
 > <span class="qz">它也是邻避的转变,从「不要在我家后院」到……核能在我家后院。</span>  
 > *the NIMBY transition, the not in my backyard to... Nuclear in my backyard.*  
-> <span class="qm">—— SPEAKER_01 · [74:09]</span> ^q2
+> <span class="qm">—— 嘉宾 · [74:09]</span> ^q2
 
 > <span class="qz">电力就是文明。</span>  
 > *Electric power is civilization.*  
-> <span class="qm">—— SPEAKER_03 · [68:55]</span> ^q3
+> <span class="qm">—— 嘉宾 · [68:55]</span> ^q3
 
 > <span class="qz">你可以运行柴油发电机,也可以运行核反应堆,你真的就是在这两者之间做决定。</span>  
 > *you can run a diesel generator or you can run a nuclear reactor and you're really deciding between those two things.*  
-> <span class="qm">—— SPEAKER_03 · [69:55]</span> ^q4
+> <span class="qm">—— 嘉宾 · [69:55]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 

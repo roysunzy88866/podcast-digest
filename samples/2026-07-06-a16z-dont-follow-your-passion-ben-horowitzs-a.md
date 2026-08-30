@@ -42,13 +42,13 @@ jsonLd: |
 
 那时候计算机还根本不算真正存在的东西，大家用的都是专用机器：算数用计算器，打字用打字机，看视频用电视机。一台能做任何事情的机器，这个想法直接把他震撼了，他当下决定主修计算机科学。
 
-跑去跟朋友一说，朋友说：你在哥大，学这个跟去技校有什么区别？你应该学点"真正的东西"。他很沮丧，但正是在那个沮丧的顶点，他学到了在哥大最有价值的一课：别听你朋友的——更一般地说，就是[[独立思考|独立思考]] <button class="pd-ts" data-t="05:13" data-who="Unknown" data-en="But I was so frustrated, I couldn't even really explain to him why. But it was at that point, at my height of frustration, that I learned the most valuable lesson that I learned at Columbia, which is don't listen to your friends." aria-label="回原文"></button>。
+跑去跟朋友一说，朋友说：你在哥大，学这个跟去技校有什么区别？你应该学点"真正的东西"。他很沮丧，但正是在那个沮丧的顶点，他学到了在哥大最有价值的一课：别听你朋友的——更一般地说，就是[[独立思考|独立思考]] <button class="pd-ts" data-t="05:13" data-who="嘉宾" data-en="But I was so frustrated, I couldn't even really explain to him why. But it was at that point, at my height of frustration, that I learned the most valuable lesson that I learned at Columbia, which is don't listen to your friends." aria-label="回原文"></button>。
 
 独立思考听起来简单，实际上极其困难。原因在于人类有天然本能想要被喜欢——在穴居时代，不被群体喜欢就会被吃掉。
 
 而被人喜欢最简单的方式，就是说别人想听的话。每个人想听什么？
 
-他们已经相信为真的东西。所以他们最不想听到的，就是一个跟他们信念体系相悖的原创想法。但恰恰是这些"你相信、周围所有人都不信"的事情，当你对了的时候，才创造真正的价值 <button class="pd-ts" data-t="00:00" data-who="Unknown" data-en="Thinking for yourself sounds both simple and trivial, but in reality, it's extremely difficult and it's profound. And here's why. As human beings, we want to be liked." aria-label="回原文"></button>。
+他们已经相信为真的东西。所以他们最不想听到的，就是一个跟他们信念体系相悖的原创想法。但恰恰是这些"你相信、周围所有人都不信"的事情，当你对了的时候，才创造真正的价值 <button class="pd-ts" data-t="00:00" data-who="嘉宾" data-en="Thinking for yourself sounds both simple and trivial, but in reality, it's extremely difficult and it's profound. And here's why. As human beings, we want to be liked." aria-label="回原文"></button>。
 
 他每天在投资中看到这一点。如果有人来找他说"我想让手机电池续航更久"，他会说这是好主意但不会投——因为所有人都觉得这是好主意，Google、Apple、Samsung 这种资源巨头会直接做，没有留给新人的空间。
 
@@ -56,13 +56,13 @@ jsonLd: |
 
 但 Brian 做了实验，发现很多人愿意租，而且不是连环杀手。然后 Brian 去研究了酒店连锁的历史，发现酒店连锁其实是相对新的概念，在此之前人们住的是旅馆和家庭旅馆，质量完全不可预测。
 
-有了[[互联网|互联网]]，可以让每个选项都透明化，把家庭旅馆的个性化和酒店连锁的标准化结合起来。这个洞察——世界上每个人曾经都知道、但全都忘了的东西——变成了今天在纽约每晚租出房间数超过希尔顿的生意 <button class="pd-ts" data-t="07:04" data-who="Unknown" data-en="And I'll give you an example. So for example, if you came to me and said, hey, I've got an idea to make batteries and cell phones last longer, I would go, well, that's a pretty good idea, but I'm not going to fund it because everybody thinks that's a good idea." aria-label="回原文"></button>。
+有了[[互联网|互联网]]，可以让每个选项都透明化，把家庭旅馆的个性化和酒店连锁的标准化结合起来。这个洞察——世界上每个人曾经都知道、但全都忘了的东西——变成了今天在纽约每晚租出房间数超过希尔顿的生意 <button class="pd-ts" data-t="07:04" data-who="嘉宾" data-en="And I'll give you an example. So for example, if you came to me and said, hey, I've got an idea to make batteries and cell phones last longer, I would go, well, that's a pretty good idea, but I'm not going to fund it because everybody thinks that's a good idea." aria-label="回原文"></button>。
 
 ## "追随你的激情"为什么是坏建议
 
 接下来他直接反对最常见的一条毕业建议。
 
-所有成功的人都会说他们热爱自己在做的事，于是人们得出结论：做你热爱的事，你就会成功。但作为工程师，应该想到另一种可能：是你成功了，所以你热爱你在做的事——你只是热爱成功的感觉 <button class="pd-ts" data-t="10:07" data-who="Unknown" data-en="And so the broad conclusion of the world is that if you do what you love, then you'll be successful. But we're engineers, and we know that that might be true. But it also might be the case that if you're successful, you love what you do." aria-label="回原文"></button>。
+所有成功的人都会说他们热爱自己在做的事，于是人们得出结论：做你热爱的事，你就会成功。但作为工程师，应该想到另一种可能：是你成功了，所以你热爱你在做的事——你只是热爱成功的感觉 <button class="pd-ts" data-t="10:07" data-who="嘉宾" data-en="And so the broad conclusion of the world is that if you do what you love, then you'll be successful. But we're engineers, and we know that that might be true. But it also might be the case that if you're successful, you love what you do." aria-label="回原文"></button>。
 
 追随激情还有四个具体问题。第一，激情很难排优先级——你对数学更热情还是对工程更热情？
 
@@ -70,21 +70,21 @@ jsonLd: |
 
 但"你擅长什么"就容易判断得多。第二，21 岁的热情不等于 40 岁的热情——这个道理对男朋友和职业选择都适用。
 
-第三，你不一定擅长你的激情所在——看看《美国偶像》就明白了，热爱唱歌不等于该当专业歌手。第四也是最关键的：追随激情是一种"以我为中心"的世界观。人这一生，从世界上拿走的东西——钱、车、荣誉——远不如你给世界的贡献重要 <button class="pd-ts" data-t="10:35" data-who="Unknown" data-en="You have to back off when you were successful to like right now when you're graduating as the class of 2015. And the first tricky thing about passions are they're hard to prioritize." aria-label="回原文"></button>。
+第三，你不一定擅长你的激情所在——看看《美国偶像》就明白了，热爱唱歌不等于该当专业歌手。第四也是最关键的：追随激情是一种"以我为中心"的世界观。人这一生，从世界上拿走的东西——钱、车、荣誉——远不如你给世界的贡献重要 <button class="pd-ts" data-t="10:35" data-who="嘉宾" data-en="You have to back off when you were successful to like right now when you're graduating as the class of 2015. And the first tricky thing about passions are they're hard to prioritize." aria-label="回原文"></button>。
 
-所以他的建议是：[[追随你的贡献|追随你的贡献]]。找到你擅长的事，把它放进世界，帮助别人，让世界变好——这才是该追随的东西 <button class="pd-ts" data-t="12:09" data-who="Unknown" data-en="And when you go through life, what you'll find is what you take out of the world over time, be it whatever money, cars, stuff, accolades, is much less important than what you put into the world." aria-label="回原文"></button>。
+所以他的建议是：[[追随你的贡献|追随你的贡献]]。找到你擅长的事，把它放进世界，帮助别人，让世界变好——这才是该追随的东西 <button class="pd-ts" data-t="12:09" data-who="嘉宾" data-en="And when you go through life, what you'll find is what you take out of the world over time, be it whatever money, cars, stuff, accolades, is much less important than what you put into the world." aria-label="回原文"></button>。
 
 ## 世界没有在变糟，机会前所未有
 
 毕业演讲通常到这里该说"你们面临前所未有的挑战"了。他也承认 ISIS、全球变暖、国会僵局都是真的，但从历史角度看，值得注意的不是挑战，而是机遇。
 
-他甩出一串数据：极端贫困人口是世界历史最低，是 1900 年的五分之一；童工在 2000 到 2012 年间下降三分之一；工作时长比 19 世纪末减半；食品支出占比自 1960 年减半；预期寿命 1990 到 2012 年增了 6 岁；儿童死亡率自 1990 年减半；人类过去 100 年长高的幅度超过之前 2000 年；全球战场死亡人数比 40 年代降了 20 倍；美国凶杀率比 70 年代末降了一半；暴力犯罪是 1976 年的三分之一；核武库存自 1990 年降了近五倍；2014 年是 40 年来碳排放首次持平 <button class="pd-ts" data-t="12:32" data-who="Unknown" data-en="Find the thing that you're great at, put that into the world, contribute to others, help the world be better, and that is the thing to follow. Speaking of the world, so this is generally the point in a graduation speech where I should say the class of 2015 faces unprecedented challenges." aria-label="回原文"></button>。
+他甩出一串数据：极端贫困人口是世界历史最低，是 1900 年的五分之一；童工在 2000 到 2012 年间下降三分之一；工作时长比 19 世纪末减半；食品支出占比自 1960 年减半；预期寿命 1990 到 2012 年增了 6 岁；儿童死亡率自 1990 年减半；人类过去 100 年长高的幅度超过之前 2000 年；全球战场死亡人数比 40 年代降了 20 倍；美国凶杀率比 70 年代末降了一半；暴力犯罪是 1976 年的三分之一；核武库存自 1990 年降了近五倍；2014 年是 40 年来碳排放首次持平 <button class="pd-ts" data-t="12:32" data-who="嘉宾" data-en="Find the thing that you're great at, put that into the world, contribute to others, help the world be better, and that is the thing to follow. Speaking of the world, so this is generally the point in a graduation speech where I should say the class of 2015 faces unprecedented challenges." aria-label="回原文"></button>。
 
 但最大的机会还不在于这些数据，而在于信息获取的革命。他父母那代上大学没有互联网，查东西要去图书馆——一个在现实空间里、需要凭证才能进、基于杜威十进制分类系统、用户界面叫"卡片目录"、还得先上课培训才会用的"搜索引擎"。
 
 查一个东西要花几个小时。哥伦比亚学生还算好的，没上好学校的人更难，在孟加拉国或苏丹长大的人更是完全没有渠道把原创想法贡献给世界。
 
-现在，每个有智能手机的人——很快就是世界上的每个人——口袋里都装着国会图书馆。一个在孟加拉国长大的女孩，现在拥有的图书馆比 20 年前哥大或哈佛的学生还好。世界还不平——能源、水、食物、平等权利都有问题——但如果这一代人做出贡献、独立思考，回看 50 年、100 年、500 年后，这代人会是"解锁人类潜能"的一代 <button class="pd-ts" data-t="14:25" data-who="Unknown" data-en="But the biggest opportunity is one that we've only begun to measure. And to explain this, I'd like to go back to when your parents and I were in college. Because when we were in college, and they may have told you this, and it may have scared you, so I apologize for scaring you, but we didn't have the internet." aria-label="回原文"></button>。
+现在，每个有智能手机的人——很快就是世界上的每个人——口袋里都装着国会图书馆。一个在孟加拉国长大的女孩，现在拥有的图书馆比 20 年前哥大或哈佛的学生还好。世界还不平——能源、水、食物、平等权利都有问题——但如果这一代人做出贡献、独立思考，回看 50 年、100 年、500 年后，这代人会是"解锁人类潜能"的一代 <button class="pd-ts" data-t="14:25" data-who="嘉宾" data-en="But the biggest opportunity is one that we've only begun to measure. And to explain this, I'd like to go back to when your parents and I were in college. Because when we were in college, and they may have told you this, and it may have scared you, so I apologize for scaring you, but we didn't have the internet." aria-label="回原文"></button>。
 
 ## 本集带走
 
