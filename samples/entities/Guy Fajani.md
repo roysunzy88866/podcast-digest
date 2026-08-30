@@ -7,29 +7,22 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Guy Fajani</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Guy Fajani">GU</div><div class="pi"><h1 class="pt">Guy Fajani</h1><div class="byl">The AI-Native Dev 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Guy Fajani">GU</div><div class="pi"><h1 class="pt">Guy Fajani</h1><div class="byl">The AI-Native Dev 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|《Harness 工程：让智能体零人工写代码的实操》]] — 作为主持
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Maple]] · [[Andrew]] · [[TESL]] · [[智能体]] · [[循环工程]] · [[技能]] · [[验证器]] · [[变更风险验证器]] · [[软件工厂]] · [[代码审查]]
+[[智能体]] · [[Ryan Lopopolo]] · [[Simon Maple]] · [[harness 工程]] · [[Andrew]] · [[Codex]] · [[TESL]] · [[OpenAI]] · [[循环工程]] · [[提示词注入]]
 
-## ④ 也在聊「智能体」的人
-
-<div class="pd-peers">
-
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Simon Maple":6,"Andrew":3,"TESL":3,"智能体":153,"循环工程":4,"技能":7,"验证器":1,"变更风险验证器":1,"软件工厂":3,"代码审查":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":155,"Ryan Lopopolo":1,"Simon Maple":6,"harness 工程":1,"Andrew":3,"Codex":28,"TESL":3,"OpenAI":70,"循环工程":4,"提示词注入":7}</script>
 
 <script>
 (function(){

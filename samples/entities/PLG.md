@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[Lenny]] · [[Modal]] · [[Google]] · [[ACV]] · [[Cognition]] · [[ChatGPT]] · [[Stripe]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":153,"Cursor":40,"Lenny":65,"Modal":3,"Google":29,"ACV":2,"Cognition":12,"ChatGPT":39,"Stripe":22,"OpenAI":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":155,"Cursor":40,"Lenny":65,"Modal":3,"Google":29,"ACV":2,"Cognition":12,"ChatGPT":39,"Stripe":22,"OpenAI":70}</script>
 
 <script>
 (function(){

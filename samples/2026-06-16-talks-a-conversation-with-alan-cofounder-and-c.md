@@ -118,7 +118,7 @@ Charles 指出，除了能把公司变得更扁平、让知识流动更顺畅，
 
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:OpenAI、Stripe · 同概念:智能体 (agent)</span>
-- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|Clio 的 AI 赌注：从扑克到财务健康]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

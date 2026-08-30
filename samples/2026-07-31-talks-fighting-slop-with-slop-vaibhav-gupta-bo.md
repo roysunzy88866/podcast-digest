@@ -160,8 +160,8 @@ AI 写代码碰到错误，最常见的套路是套一层 try-catch，再套一�
 **顺着「AI 编程」挖下去**
 
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、CI/CD</span>
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、CI/CD</span>
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、劣质代码 (slop)</span>
 
 </div>
 <div class="pd-ex">

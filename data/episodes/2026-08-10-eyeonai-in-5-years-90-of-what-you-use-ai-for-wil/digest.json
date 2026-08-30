@@ -1,0 +1,202 @@
+{
+  "title_zh": "Tether 做本地 AI：数据中心造太多了",
+  "tldr": "Tether 的 Paolo 讲他们为什么押注手机端本地 AI——他认为 95% 的人用不着数据中心，当前算力军备竞赛会留下大量闲置产能。",
+  "digest_md": "这一集是 Tether 的 Paolo 聊他们做的 QVAC 平台——一个让你在手机和笔记本上跑 AI 模型、做微调、完全不依赖云的开源工具链。Tether 大家可能知道是做 USDT 稳定币的，Paolo 是这家公司的核心人物。他抛出一个相当激进的判断：现在全世界疯狂建的数据中心，大部分将来会是用不上的废铁。\n\n## 从 USDT 到去中介化\n\nPaolo 的逻辑起点不是 AI，而是金融。Tether 做了 12 年数字美元，攒了 5.73 亿用户，每季度涨 3000 万以上 [01:44 Unknown]。他的核心观察是：全世界有四五十亿人拿不到基本的银行服务，不是因为他们有问题，而是因为他们太穷，银行觉得没利润 [03:00 Unknown]。阿根廷比索五年对美元贬了 94.5%，土耳其里拉贬了 81%，委内瑞拉玻利瓦尔贬了 99.8% [03:15 Unknown]——这些地方的人天然需要一种跟美元挂钩的东西。\n\nTether 的做法是：不收交易费，靠持有的美元国库券的利息赚钱 [06:45 Unknown]。他管这叫\"人类历史上最大的普惠金融成功故事\" [01:59 Unknown]。更重要的是，他从中提炼出一个信念：**金融被过度中介化了，整个技术领域也是** [08:07 Unknown]。\n\n## 互联网本该是点对点的\n\nPaolo 把这套去中介化逻辑推到了互联网架构层面。他的论点是这样的：互联网生来就是点对点的，你连上网会拿到一个 IP 地址，本质上就是你的\"家庭地址\" [08:17 Unknown]。但后来互联网变了——所有连接都被路由到数据中心去中转 [08:43 Unknown]。你住在罗马，给同在罗马的妈妈发一条 WhatsApp 消息，这条消息要先跑到法兰克福或爱尔兰再绕回来 [09:43 Unknown]。每一张照片、每一段视频都是如此。过去 20 年各国政府在互联网基础设施上花了巨量资金，去路由那些根本不必要中转的数据包 [10:11 Unknown]。\n\n为什么？因为中介方——也就是托管数据的平台——靠持有和中介人们的数据来赚钱，这是错误的激励结构 [09:04 Unknown]。他认为 BitTorrent 早就证明了技术上的答案：点对点协议可以扩展到数亿用户和海量数据 [11:16 Unknown]，只是没人把这个思路从文件共享推广到更广泛的应用。\n\n## QVAC 到底做了什么\n\nQVAC（Quantumverse Automatic Computer）就是把这个思路搬到 AI 上。要让人在手机上跑 AI，Paolo 说需要解决两个问题：**推理**（你问模型问题、它回答你）和**微调**（模型根据你的数据学习，变成\"你的\"AI）[27:43 Unknown]。\n\n推理这侧，他们在 Llama CPP（开源 AI 最知名的推理引擎）之上做了大量优化，现在能扩展到几乎所有消费级 GPU [29:50 Unknown]。\n\n关键的突破来自微软的 BitNet——一种一位量化（1-bit quantization，用极少的位数来表示模型权重，大幅降低计算量）的模型架构 [30:16 Unknown]。但原始 BitNet 太依赖英伟达高端 GPU，跑不了消费设备。QVAC 团队改了 BitNet，让它能跑在任何消费级 GPU 上——三星手机上的 Snapdragon GPU、Adreno GPU、Apple GPU 都行 [30:58 Unknown]。\n\n微调这侧，他们建了一个通用的 LoRa（低秩适应，一种只调模型小部分权重就能定制化的小成本微调方法）微调框架 [29:15 Unknown]。不只是 BitNet 模型，他们支持数百个模型，开发者可以用同一套框架在任何消费级 GPU 上微调任何模型 [31:20 Unknown]。实际效果：你可以在自己笔记本上让模型读你所有邮件，学会用你的语气和习惯回复，数据完全不出你的设备 [28:01 Unknown]。\n\n## 手机 AI 能覆盖多少需求？\n\nPaolo 的核心主张是：大多数人根本不需要数据中心级别的 AI。95% 到 99% 的人用 AI 就是搜索、翻译、拍购物收据做月末记账、基础教育 [17:42 Unknown]——这些事情今天的手机模型已经能做了。\n\n他举了个具体例子：谷歌的 MedGemma 医疗模型有 270 亿参数，被认为是最先进的；Tether 团队做了一个 40 亿参数的模型，性能超过了它 [18:56 Unknown]。40 亿参数意味着可以在高端智能手机上跑；他们还有一个 17 亿参数的版本，能在非洲平均水平的手机上跑 [19:14 Unknown]。\n\n他的预测是：2026 年手机本地模型能覆盖 50% 的普通 AI 用例，三年后到 70%，五年后到 90% [19:36 Unknown]。届时 95% 的人口能在手机上跑 90% 的 AI 用例 [20:21 Unknown]。Apple 每年出新 GPU，跑 Llama 模型的速度比上一代快两倍 [21:47 Unknown]——硬件趋势也在往这个方向走。\n\n## 数据中心会不会过剩？\n\n主持人提了一个很直接的反问：企业和政府的需求呢？那些需要海量算力的场景 [22:32 Unknown]？\n\nPaolo 的回答分两层。第一层：ASIC（专用芯片，为特定计算任务专门设计的硬件，效率远超通用 GPU）会改变游戏规则。比特币挖矿从 CPU 到 GPU 再到 ASIC，AI 也在走同样的路 [23:31 Unknown]。好的 GPU 跑 Llama 3.2 是每秒 150 个 token，AI 专用的 ASIC 能跑到每秒 17,000 个 token [24:06 Unknown]。五年后，一家大银行花 5 万到 10 万美元买十几块 ASIC，就能在本地跑一个极其强大的 AI 集群，能耗降 98% [24:22 Unknown]。\n\n第二层：主权和安全。意大利的银行不会想把数据全跑在美国的基础设施上，法国也不会，公共行政部门更不会 [25:33 Unknown]。所以\"主权云\"（直接在某国建小型数据中心、就地部署软件）已经是一个真实趋势 [26:09 Unknown]。\n\n他把结论说得很直接：就算企业和政府需要一些集中式算力，那也是小众市场，花几十亿美元，可能还得政府补贴 [21:11 Unknown]。绝大多数人、几十亿人，会在手机上用 AI，保持自己数据的隐私 [21:25 Unknown]。\n\n## 对当前 AI 投资潮的担忧\n\nPaolo 对现在 AI 行业的金融工程有很深的怀疑。他指出许多大 AI 公司在大幅补贴订阅成本——收 200 美元，实际成本可能在 1,000 到 5,000 美元 [43:20 Unknown]。为什么敢这么干？因为还是私企，可以藏着；而且需要冲用户增长来推估值——花 50 亿补贴换来 500 亿估值增长，这笔账在私企阶段算得过来 [43:47 Unknown]。但 2026 年到 2027 年初很多大 AI 公司要上市 [43:07 Unknown]，上市后补贴就藏不住了，成本会转嫁到散户投资者身上 [44:17 Unknown]。\n\n还有一个更根本的质疑：人脑的功耗跟一个土豆电池差不多，而我们计划花 10 吉瓦的电力去重现人脑 [45:43 Unknown]。\"我认为我们通往智能的方法是相当错误的。\" [46:01 Unknown] 如果有 10 亿美元，他会选择雇 2,000 名 AI 研究员，而不是买芯片——研究员长期产出更多，芯片随着时间贬值 [46:19 Unknown]。\n\n## 小模型 vs 大模型\n\nPaolo 不认同\"先造大模型、再蒸馏成小模型\"的路径依赖。他认为**单体模型是不可持续的** [48:46 Unknown]，未来的方向是成百上千甚至数百万个小模型，各自专精不同领域、互相协作 [49:01 Unknown]。比如一个物理专家模型、一个化学专家模型，要改进化学能力只需微调那一个，不用重训整个巨型模型 [49:10 Unknown]。互联网上已经有足够知识，不一定非要靠集中式训练出万亿参数的单体怪物 [48:22 Unknown]。\n\n## QVAC 的产品形态和落地\n\nQVAC 不是一个面向终端用户的 App，而是一个 SDK（软件开发工具包）——让开发者把 AI 能力直接嵌进自己现有的应用里 [34:59 Unknown]。做地图应用、金融应用、烹饪应用，都可以按需拿对应的\"Lego 积木\"拼进去 [36:10 Unknown]。此外他们会发布一个开源的 QVAC AI 助手 App，跨 Linux、Windows、Mac、iOS、Android 全平台，展示这些模块怎么组合 [37:35 Unknown]。\n\n实际落地方面，开源不到两个月已经有不少公司在上面构建产品 [38:44 Unknown]。特别值得注意的是两家机器人公司正在测试把 QVAC 当作机器人的\"大脑\" [40:29 Unknown]——Paolo 认为机器人不能依赖云端做决策，延迟和安全都不允许 [39:24 Unknown]。\n\n## 不只是 AI：Tether 的四个板块\n\nPaolo 顺带讲了 Tether 的整体架构，分四个垂直方向：稳定币金融、能源、电信、AI 平台 [50:39 Unknown]。能源这块很具体：在非洲最偏远的村庄建太阳能售货亭，顶部装太阳能板，里面放几千块可充电电池 [50:55 Unknown]。用户每月花两三美元换电池，一块 145 瓦的电池够晚上照明和给手机充电 [54:16 Unknown]。已经有 1,000 个亭子、130 万用户 [54:33 Unknown]，计划五六年内扩到 10 万个亭子、覆盖 3000 万家庭 [55:49 Unknown]。这不是慈善，是商业运作——那些地区的平均月薪是 80 美元 [55:24 Unknown]。而这群人正是 Tether 稳定币的用户基础 [56:15 Unknown]。\n\n电信板块则是把 BitTorrent 的点对点思路从文件共享扩展成通用通信协议，能在没有数据中心的情况下扩展到数十亿人和 AI 智能体 [51:27 Unknown]。\n\nPaolo 把所有这些串成一条线：40 亿人拿不到基本金融服务，如果他们同时拿不到基本智能服务，社会差距会进一步撕裂 [52:44 Unknown]。金融和 AI 是他花最多精力的两个方向 [52:28 Unknown]。\n\n## 本集带走\n\n- **去中介化是 Tether 的统一主线**：从稳定币去掉金融中间商，到 QVAC 去掉云数据中心中间商，逻辑一脉相承\n- **BitNet + LoRa 是 QVAC 的技术核心**：改写微软的一位量化模型让它跑在消费级 GPU 上，加通用微调框架让任何模型都能在本地个性化，数据不出设备\n- **手机 AI 的覆盖速度可能超预期**：Tether 用 40 亿参数模型打败了 270 亿参数的 MedGemma，17 亿参数模型能在非洲普通手机上跑\n- **ASIC 会进一步削弱数据中心优势**：AI 专用芯片跑推理的速度是通用 GPU 的 100 倍以上，能耗降 98%，企业五年内可能用十几块 ASIC 就能在本地跑强集群\n- **当前 AI 订阅大量补贴、不可持续**：收 200 美元实际成本可能上千，私企阶段靠补贴冲估值，上市后成本会转嫁给散户\n- **小模型互协作 vs 单体大模型**：Paolo 认为万亿参数单体模型不可持续，未来是百万个小模型各司其职、按需微调\n- **机器人是本地 AI 的重要落地场景**：延迟和安全要求决定了机器人不能依赖云端决策，必须在本地有计算能力",
+  "quotes": [
+    {
+      "en": "I call it the biggest financial inclusion success story in the history of humanity.",
+      "zh": "我称其为人类历史上最大的普惠金融成功故事。",
+      "timestamp": "01:59",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "The Argentinian peso lost 94.5% of its value against the US dollar in the last five years.",
+      "zh": "阿根廷比索在过去五年中对美元失去了 94.5% 的价值。",
+      "timestamp": "03:15",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "The entire technology is overly intermediated.",
+      "zh": "整个技术也是过度中介化的。",
+      "timestamp": "08:07",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "Imagine how much all the governments spent in internet infrastructure in the last 20 years to route packets data that is completely unnecessary when internet was built to be point-to-point and peer-to-peer.",
+      "zh": "想象一下过去 20 年所有政府在互联网基础设施上花了多少钱，来路由那些完全不必要的数据包，而互联网本是被构建为点对点和端到端的。",
+      "timestamp": "10:11",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "An AI that is so intelligent, that knows everything, that can scale and be distributed to the four corners of the universe cannot sit in a data center on Earth, cannot belong to one person.",
+      "zh": "一个如此智能、无所不知、可以扩展并分发到宇宙四角的 AI，不可能只待在地球上的数据中心里，不可能属于一个人。",
+      "timestamp": "16:05",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "Those, I think medicine will have huge breakthroughs thanks to AI, but it will become a niche.",
+      "zh": "那些，我认为医学将归功于 AI 取得巨大突破，但它将成为一个小众领域。",
+      "timestamp": "21:03",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "The ASICs for AI were able to run Llama 3.2 at 17,000 tokens per second.",
+      "zh": "用于 AI 的 ASIC 能够以每秒 17,000 个 token 的速度运行 Llama 3.2。",
+      "timestamp": "24:06",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "So the ASICs will bring efficiency or energy consumption down 98%.",
+      "zh": "所以 ASIC 将把效率提高或能耗降低 98%。",
+      "timestamp": "24:40",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "So if you don't understand how your AI works, it's not you becoming more intelligent, it's someone else becoming more intelligent with your data.",
+      "zh": "所以如果你不理解你的 AI 是如何工作的，并不是你变得更智能，而是其他人利用你的数据变得更智能。",
+      "timestamp": "33:15",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "So a $200 subscription will cost from one to $5,000. That's the reality.",
+      "zh": "所以 200 美元的订阅成本将从 1 美元到 5,000 美元。这就是现实。",
+      "timestamp": "43:20",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "So our human brain consumes the same electricity of a potato clock. And we are planning to spend 10 gigawatts to recreate the human brain.",
+      "zh": "所以我们人类大脑消耗的电力与土豆时钟相同。而且我们计划花费 10 吉瓦来重现人类大脑。",
+      "timestamp": "45:43",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "I think our approach to intelligence is quite wrong.",
+      "zh": "我认为我们要通往智能的方法是相当错误的。",
+      "timestamp": "46:01",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "I believe monolithic models are not skivable and are not the right answer moving forward.",
+      "zh": "我相信单体模型是不可 skivable 的，并且不是前进的正确答案。",
+      "timestamp": "48:46",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "And I think that the world will converge in having millions of small models rather than one single large model.",
+      "zh": "我认为世界将汇聚于拥有数百万个小模型，而不是一个单一的大模型。",
+      "timestamp": "49:45",
+      "speaker": "Paolo Ardoino"
+    },
+    {
+      "en": "We cannot allow 4 billion people that are the ones that don't have access to basic financial services also to not have access to basic intelligence services.",
+      "zh": "我们不能允许 40 亿无法获得基本金融服务的人也无法获得基本智能服务。",
+      "timestamp": "52:44",
+      "speaker": "Paolo Ardoino"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:59",
+      "speaker": "Unknown",
+      "en": "I call it the biggest financial inclusion success story in the history of humanity.",
+      "zh": "我称其为人类历史上最大的普惠金融成功故事。"
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Unknown",
+      "en": "The Argentinian peso lost 94.5% of its value against the US dollar in the last five years.",
+      "zh": "阿根廷比索在过去五年中对美元失去了 94.5% 的价值。"
+    },
+    {
+      "timestamp": "08:07",
+      "speaker": "Unknown",
+      "en": "The entire technology is overly intermediated.",
+      "zh": "整个技术也是过度中介化的。"
+    },
+    {
+      "timestamp": "09:43",
+      "speaker": "Unknown",
+      "en": "I send a message on WhatsApp to my mom. That message goes from Rome to Frankfurt or Ireland and back to Rome.",
+      "zh": "我在 WhatsApp 上给我的妈妈发一条消息。那条消息从罗马传到法兰克福或爱尔兰，再回到罗马。"
+    },
+    {
+      "timestamp": "10:11",
+      "speaker": "Unknown",
+      "en": "Imagine how much all the governments spent in internet infrastructure in the last 20 years to route packets data that is completely unnecessary when internet was built to be point-to-point and peer-to-peer.",
+      "zh": "想象一下过去 20 年所有政府在互联网基础设施上花了多少钱，来路由那些完全不必要的数据包，而互联网本是被构建为点对点和端到端的。"
+    },
+    {
+      "timestamp": "16:05",
+      "speaker": "Unknown",
+      "en": "An AI that is so intelligent, that knows everything, that can scale and be distributed to the four corners of the universe cannot sit in a data center on Earth, cannot belong to one person.",
+      "zh": "一个如此智能、无所不知、可以扩展并分发到宇宙四角的 AI，不可能只待在地球上的数据中心里，不可能属于一个人。"
+    },
+    {
+      "timestamp": "17:42",
+      "speaker": "Unknown",
+      "en": "But the reality is that between 95% and 99% of the people in the world, they will never do that.",
+      "zh": "但现实是世界上 95% 到 99% 的人，他们永远不会那样做。"
+    },
+    {
+      "timestamp": "21:11",
+      "speaker": "Unknown",
+      "en": "Those, I think medicine will have huge breakthroughs thanks to AI, but it will become a niche.",
+      "zh": "那些，我认为医学将归功于 AI 取得巨大突破，但它将成为一个小众领域。"
+    },
+    {
+      "timestamp": "24:06",
+      "speaker": "Unknown",
+      "en": "The ASICs for AI were able to run Llama 3.2 at 17,000 tokens per second.",
+      "zh": "用于 AI 的 ASIC 能够以每秒 17,000 个 token 的速度运行 Llama 3.2。"
+    },
+    {
+      "timestamp": "24:40",
+      "speaker": "Unknown",
+      "en": "So the ASICs will bring efficiency or energy consumption down 98%.",
+      "zh": "所以 ASIC 将把效率提高或能耗降低 98%。"
+    },
+    {
+      "timestamp": "33:15",
+      "speaker": "Unknown",
+      "en": "So if you don't understand how your AI works, it's not you becoming more intelligent, it's someone else becoming more intelligent with your data.",
+      "zh": "所以如果你不理解你的 AI 是如何工作的，并不是你变得更智能，而是其他人利用你的数据变得更智能。"
+    },
+    {
+      "timestamp": "43:20",
+      "speaker": "Unknown",
+      "en": "So a $200 subscription will cost from one to $5,000. That's the reality.",
+      "zh": "所以 200 美元的订阅成本将从 1 美元到 5,000 美元。这就是现实。"
+    },
+    {
+      "timestamp": "45:43",
+      "speaker": "Unknown",
+      "en": "So our human brain consumes the same electricity of a potato clock. And we are planning to spend 10 gigawatts to recreate the human brain.",
+      "zh": "所以我们人类大脑消耗的电力与土豆时钟相同。而且我们计划花费 10 吉瓦来重现人类大脑。"
+    },
+    {
+      "timestamp": "46:01",
+      "speaker": "Unknown",
+      "en": "I think our approach to intelligence is quite wrong.",
+      "zh": "我认为我们要通往智能的方法是相当错误的。"
+    },
+    {
+      "timestamp": "48:46",
+      "speaker": "Unknown",
+      "en": "I believe monolithic models are not skivable and are not the right answer moving forward.",
+      "zh": "我相信单体模型是不可 skivable 的，并且不是前进的正确答案。"
+    },
+    {
+      "timestamp": "49:45",
+      "speaker": "Unknown",
+      "en": "And I think that the world will converge in having millions of small models rather than one single large model.",
+      "zh": "我认为世界将汇聚于拥有数百万个小模型，而不是一个单一的大模型。"
+    },
+    {
+      "timestamp": "52:44",
+      "speaker": "Unknown",
+      "en": "We cannot allow 4 billion people that are the ones that don't have access to basic financial services also to not have access to basic intelligence services.",
+      "zh": "我们不能允许 40 亿无法获得基本金融服务的人也无法获得基本智能服务。"
+    }
+  ],
+  "voice_script": "你现在用的 AI，聊天记录全得先跑到几千公里外的数据中心绕一圈再回来。就算你跟坐在同一条沙发上的朋友聊天，数据也可能要先飞到法兰克福再转回来。你觉得这正常吗？\n\n这一期我们聊 Tether 的核心人物 Paolo，做 USDT 稳定币的那家公司。Paolo 直接抛了个特别激进的判断：现在全世界疯狂建的 AI 数据中心，大部分将来都会是用不上的废铁。为了证明这件事，做了一个叫 QVAC 的开源工具链，就是让你在手机和笔记本上跑 AI、做微调，完全不依赖云端。\n\n为什么非要绕开数据中心？得从 Tether 做了 12 年的数字美元说起。手里攒了 5.73 亿用户，每季度涨 3000 万以上。有个观察特别扎心：全球有四五十亿人拿不到基本银行服务，不是人有问题，是太穷了，银行嫌没利润。阿根廷比索五年对美元贬了 94.5%，土耳其里拉贬了 81%，委内瑞拉玻利瓦尔贬了 99.8%。这些地方的人天然需要跟美元挂钩的东西。Tether 不收交易费，靠持有美元国库券的利息赚钱。Paolo 管这叫人类历史上最大的普惠金融成功故事。\n\n但更关键的是，从中提炼出一个信念：金融被过度中介化了，整个技术领域也是。\n\n互联网生来就是点对点的，你连上网拿到的 IP 地址，本质上就是你的家庭地址。但后来所有连接都被逼着去数据中心中转。过去 20 年各国政府在互联网基础设施上花了巨量资金，去路由那些根本不必要中转的数据包。为什么？因为中介方靠持有和转手你的数据赚钱，这是错的激励结构。BitTorrent 早就证明了点对点协议能扩展到数亿用户，只是没人把这思路推广开。\n\nQVAC 就是把去中介化搬到 AI 上。要在手机跑 AI，得解决两件事：推理和微调。推理就是问问题、得回答，微调就是让模型读你的数据，变成你专属的 AI。\n\n这里有个技术细节特别值得记。微软搞了个叫 BitNet 的架构，用极少的位数来表示模型权重，能大幅降低计算量。但原版太依赖英伟达高端 GPU，消费级设备根本跑不动。QVAC 团队硬是改了底层，让这个架构能跑在三星手机、苹果手机的各种普通 GPU 上。微调这侧，搭了一个通用的 LoRa 框架，说白了就是只调模型一小部分权重就能定制化的小成本方法。实际效果是，你可以在自己笔记本上让模型读完你所有邮件，学会用你的语气回信，数据完全不出设备。\n\n那你可能想问，手机 AI 真能顶用吗？\n\nPaolo 举了个很硬的例子。谷歌有个 MedGemma 医疗模型，270 亿参数，被认为是最先进的。结果 Tether 团队做了一个 40 亿参数的模型，性能直接超过它。40 亿参数，意味着高端智能手机就能跑。还有一个 17 亿参数的版本，能在非洲平均水平的手机上跑。预测到 2026 年，手机本地模型能覆盖一半的普通 AI 用例，三年后到 70%，五年后到 90%。到时候 95% 的人能在手机上搞定 90% 的 AI 需求。苹果每年出新 GPU，跑模型的速度比上一代快两倍，硬件趋势也完全往这边走。\n\n那企业和政府要的海量算力怎么办？回答分两层。第一层，ASIC，也就是为特定计算专门设计的芯片，会改变游戏规则。比特币挖矿从 CPU 到 GPU 再到 ASIC，AI 也在走同样的路。好的通用 GPU 跑 Llama 3.2 是每秒 150 个 token，AI 专用 ASIC 能跑到每秒 17000 个 token。五年后，一家大银行花 5 到 10 万美元买十几块 ASIC，就能在本地跑一个极其强大的 AI 集群，能耗降 98%。\n\n第二层，主权和安全。意大利的银行不会想把数据全跑在美国基础设施上，法国也不会，公共部门更不会。所以主权云，也就是直接在某国建小型数据中心就地部署，已经是一个真实趋势。就算企业和政府需要集中式算力，那也是小众市场，绝大多数几十亿人会在手机上用 AI。\n\n对现在的 AI 投资潮，怀疑也很深。很多大 AI 公司在大幅补贴订阅成本，收 200 美元，实际成本可能在 1000 到 5000 美元。为什么敢这么干？因为还是私企可以藏着，靠花 50 亿补贴换来 500 亿估值增长，这笔账在私企阶段算得过来。但 2026 年到 2027 年初很多大 AI 公司要上市，上市后补贴就藏不住了，成本会转嫁给散户投资者。\n\n还有个更根本的质疑：人脑的功耗跟一个土豆电池差不多，而我们计划花 10 吉瓦的电力去重现人脑。如果有 10 亿美元，会选择雇 2000 名 AI 研究员，而不是买芯片。研究员长期产出更多，芯片随着时间贬值。\n\n也不认同先造大模型再蒸馏成小模型的路径。未来的方向是成百上千甚至数百万个小模型，各自专精不同领域、互相协作。比如要改进化学能力，只需微调那一个化学专家模型，不用重训整个万亿参数的怪物。\n\nQVAC 本身不是面向普通用户的 App，而是一个开发工具包，让做地图、金融、烹饪应用的开发者，像拼乐高积木一样把 AI 能力嵌进去。开源不到两个月，已经有不少公司在上面做产品，特别值得注意的是两家机器人公司正在测试把 QVAC 当作机器人的大脑。机器人不能依赖云端做决策，延迟和安全都不允许，必须在本地有计算能力。\n\n想象一下，一个如此智能、可以扩展并分发到宇宙四角的 AI，不可能只待在地球上的数据中心里，不可能属于一个人。"
+}

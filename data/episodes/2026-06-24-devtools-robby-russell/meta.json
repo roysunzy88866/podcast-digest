@@ -11,12 +11,15 @@
   "added": "2026-08-29",
   "speaker_map": {
     "Robby": "Robby Russell",
-    "Jack": "Jack"
+    "Jack": "Jack",
+    "SPEAKER_00": "Robby",
+    "SPEAKER_01": "Jack"
   },
   "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
   "guests": [],
   "host": "Robby Russell",
   "cohosts": [
+    "Robby",
     "Jack"
   ]
 }

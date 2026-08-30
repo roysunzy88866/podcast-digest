@@ -41,7 +41,7 @@ unlisted: true
 
 [[Lenny]] · [[Revolut]] · [[智能体]] · [[Uber]] · [[Ramp]] · [[Cursor]] · [[Anthropic]] · [[Harry Stebbings]] · [[OpenAI]] · [[Chip Connolly]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Revolut":4,"智能体":153,"Uber":5,"Ramp":4,"Cursor":40,"Anthropic":79,"Harry Stebbings":7,"OpenAI":69,"Chip Connolly":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Revolut":4,"智能体":155,"Uber":5,"Ramp":4,"Cursor":40,"Anthropic":79,"Harry Stebbings":7,"OpenAI":70,"Chip Connolly":1}</script>
 
 <script>
 (function(){

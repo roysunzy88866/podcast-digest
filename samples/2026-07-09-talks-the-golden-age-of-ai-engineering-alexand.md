@@ -121,9 +121,9 @@ Peter 描绘了他理想中的最终形态：未来，智能体不应该被绑�
 
 **顺着「智能体」挖下去**
 
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、智能体 (agent)</span>
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同概念:Codex、循环 (loop)、智能体 (agent)</span>
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同嘉宾:Peter Steinberger · 同概念:Codex、智能体 (agent)</span>
-- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同嘉宾:Peter Steinberger · 同公司:OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

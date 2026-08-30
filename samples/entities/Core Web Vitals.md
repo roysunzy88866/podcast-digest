@@ -25,7 +25,7 @@ unlisted: true
 
 [[Addy Osmani]] · [[Chrome DevTools]] · [[智能体]] · [[认知投降]] · [[认知债务]] · [[循环工程]] · [[软件工厂]] · [[互相放大]] · [[护栏]] · [[Chrome]]
 
-<script type="application/json" class="pd-epn">{"Addy Osmani":1,"Chrome DevTools":1,"智能体":153,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":3,"互相放大":1,"护栏":30,"Chrome":3}</script>
+<script type="application/json" class="pd-epn">{"Addy Osmani":1,"Chrome DevTools":1,"智能体":155,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":3,"互相放大":1,"护栏":31,"Chrome":3}</script>
 
 <script>
 (function(){

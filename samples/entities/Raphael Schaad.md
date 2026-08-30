@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":14,"智能体":153,"Codex":27,"Claude Code":38,"MCP":17,"提示注入":1,"CLI":2,"护城河":7,"ChatGPT":39}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":14,"智能体":155,"Codex":28,"Claude Code":38,"MCP":18,"提示注入":1,"CLI":2,"护城河":7,"ChatGPT":39}</script>
 
 <script>
 (function(){

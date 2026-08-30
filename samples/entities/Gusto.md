@@ -25,7 +25,7 @@ unlisted: true
 
 [[Claire Vo]] · [[Eddie Kim]] · [[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Claire Vo":2,"Eddie Kim":1,"联合创始人":2,"vibe coding":24,"永久 Zoom":1,"智能体":153,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":2,"Claude Code":38}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":2,"Eddie Kim":1,"联合创始人":2,"vibe coding":24,"永久 Zoom":1,"智能体":155,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":2,"Claude Code":38}</script>
 
 <script>
 (function(){

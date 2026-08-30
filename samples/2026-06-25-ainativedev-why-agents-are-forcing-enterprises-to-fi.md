@@ -146,7 +146,7 @@ Patrick 总结了一个更底层的模式：对 AI 好的实践，对人也好�
 
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:智能体 (agent)、可观测性 (observability)、护栏 (guardrails)、沙箱 (sandbox)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:智能体 (agent)、CI/CD、token</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、CI/CD</span>
 
 </div>
 <div class="pd-ex">

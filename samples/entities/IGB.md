@@ -25,7 +25,7 @@ unlisted: true
 
 [[Harry Stebbings]] · [[Andrew MacDonald]] · [[Uber]] · [[Uber One]] · [[自主性]] · [[智能体]] · [[可变成本模式]] · [[分发]] · [[Growth Bets]] · [[managed transaction]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Andrew MacDonald":1,"Uber":5,"Uber One":1,"自主性":3,"智能体":153,"可变成本模式":1,"分发":4,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Andrew MacDonald":1,"Uber":5,"Uber One":1,"自主性":3,"智能体":155,"可变成本模式":1,"分发":4,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

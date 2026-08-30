@@ -1,0 +1,1122 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.79,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎来到 Practical AI 播客，在这里我们分解人工智能的现实世界应用，以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助让 AI 技术对每个人都实用、高效且可及。无论你是开发者、商业领袖，还是只是对炒作背后的技术感到好奇，你都来对地方了。请务必在 LinkedIn、X 或 Blue Sky 上与我们联系，以了解最新剧集发布、幕后内容和 AI 见解。你可以在 practicalai.fm 了解更多信息。"
+ },
+ {
+  "seg": 1,
+  "start": 35.79,
+  "end": 37.15,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在进入节目。"
+ },
+ {
+  "seg": 2,
+  "start": 41.805,
+  "end": 56.289997,
+  "speaker": "Daniel Whitenack",
+  "en": "Welcome to another episode of the Practical AI Podcast. This is Daniel Whitenack. I am the CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer. How are you doing, Chris?",
+  "zh": "欢迎收听 Practical AI 播客的另一集。我是 Daniel Whitenack。我是 Prediction Guard 的 CEO，我和我的联合主持人 Chris Benson 一起，他是一名首席 AI 和自动驾驶研究工程师。你怎么样，Chris？"
+ },
+ {
+  "seg": 3,
+  "start": 56.289997,
+  "end": 61.57,
+  "speaker": "Chris Benson",
+  "en": "Hey. I'm doing great. Can't wait to get into today's conversation. It's gonna be fun.",
+  "zh": "嘿。我很好。迫不及待想开始今天的对话。这会很有趣。"
+ },
+ {
+  "seg": 4,
+  "start": 61.57,
+  "end": 78.225,
+  "speaker": "Daniel Whitenack",
+  "en": "Yes. Yes. For for an audio podcast, we're gonna talk about a lot of interesting visual things. Maybe before we get started, just just a little teaser. Practical AI is posting some videos on YouTube now.",
+  "zh": "是的。是的。对于一个音频播客来说，我们将谈论很多有趣的视觉内容。也许在我们开始之前，先来一点小小的预告。Practical AI 现在正在 YouTube 上发布一些视频。"
+ },
+ {
+  "seg": 5,
+  "start": 78.225,
+  "end": 98.375,
+  "speaker": "Daniel Whitenack",
+  "en": "So if you do consume podcasts that way, you might go check us out on our on our YouTube page. But speaking of images, videos, and more specifically, image generation, really excited to have with us today Dustin Podell, who is cofounder and researcher at Black Forest Labs. Welcome, Dustin.",
+  "zh": "所以如果你是那样消费播客的，你可能会去我们在我们在 YouTube 页面上看看我们。但是说到图像、视频，更具体地说，图像生成，非常高兴今天能有 Black Forest Labs 的联合创始人和研究员 Dustin Podell 和我们一起。欢迎，Dustin。"
+ },
+ {
+  "seg": 6,
+  "start": 98.375,
+  "end": 101.655,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. Thanks for having me, guys. It's, really great to be here.",
+  "zh": "是的。谢谢你们邀请我，伙计们。真的很高兴来到这里。"
+ },
+ {
+  "seg": 7,
+  "start": 101.655,
+  "end": 133.225,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. And and I know that Black Forest Labs does more than just kind of, raw image generation. There's a lot of workflow related things, hardware optimization, all sorts of cool stuff you're involved with. But as we get into some of that, I'm wondering if you can just help our audience with a bit of a state of image generation methods and workflows, for the industry. We've talked on the show before about diffusion models, and we'll link some of those episodes in the show notes maybe.",
+  "zh": "是的。而且我知道 Black Forest Labs 做的不仅仅是那种原始的图像生成。还有很多工作流相关的事情，硬件优化，以及你们参与的各种很酷的事情。但当我们深入其中的一些内容时，我想知道你是否能帮助我们的听众了解一下目前行业中图像生成方法和工作流的状态。我们以前在节目中谈论过扩散模型，我们也许会在节目笔记中链接其中一些剧集。"
+ },
+ {
+  "seg": 8,
+  "start": 133.705,
+  "end": 149.03,
+  "speaker": "Daniel Whitenack",
+  "en": "But a lot has happened. Right? There's a lot of people working on a lot of interesting things. And, I'd love to kinda understand, like, over the last year, what are some of those main main points that might be good for people to orient themselves to where things are at now?",
+  "zh": "但是发生了很多事情。对吧？有很多人在从事很多有趣的工作。而且，我很想理解，就像，在过去的一年里，有哪些主要的点可能有助于人们了解现在的状况？"
+ },
+ {
+  "seg": 9,
+  "start": 149.03,
+  "end": 154.79001,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. Yeah. No. It's a it's a good question. I mean, if I'm allowed to take it even a little bit further back, mean, state of",
+  "zh": "是的。是的。不。这是一个这是一个好问题。我是说，如果允许我把它回溯得再远一点，我是说……的状态"
+ },
+ {
+  "seg": 10,
+  "start": 155.03,
+  "end": 155.51001,
+  "speaker": "Chris Benson",
+  "en": "Absolutely.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 11,
+  "start": 155.765,
+  "end": 166.645,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. Yeah. The state of the state of image gen, video gen, generative models in in as a whole has kind of gone crazy, so to speak, in the last, like, three or four years.",
+  "zh": "是的是的。图像生成、视频生成、生成式模型整体的状态，在过去的，大概，三四年里，有点疯狂了，可以说。"
+ },
+ {
+  "seg": 12,
+  "start": 167.125,
+  "end": 167.44499,
+  "speaker": "Chris Benson",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 13,
+  "start": 168.63,
+  "end": 228.48999,
+  "speaker": "Dustin Podell",
+  "en": "So where are we now? Where we came from about four years ago, where I first kind of entered into the scene, so to speak, is we were at Models that were essentially just doing little blobs of color that were kinda related a little bit to where you were with the prompt, you know, okay, oh, a lighthouse on the beach or this and that, and you would get something that, okay, that vaguely looks like it, and you would chose someone in the beach. Yeah, I could see it, I guess, and maybe it would interest a few nerdy people, and then now today, we're at the point where, if you've probably been seeing plenty of this stuff online, where we're seeing whole short films made entirely with AI generation where certain scenes are almost entirely indistinguishable from from reality, so to speak. So I would say we we've we've come quite far, but I will also say the core of the technology hasn't actually changed that much. It's been a pretty nice, like, forward progress.",
+  "zh": "那我们现在在哪里？我们从大概四年前开始，我第一次进入这个领域，可以说，那时候我们处于这样的模型：它们本质上只是在做一小团一小团的颜色，与你的提示词在某种程度上有点相关，你知道，比如，海滩上的灯塔或者这个那个，你会得到某种东西，好吧，那依稀看起来像它，你会选择海滩上的某人。是的，我猜我能看到它，也许它会吸引一些极客，而今天，我们到了这样一个地步，如果你可能在网上看到了大量的这类东西，我们看到的完全由 AI 生成的完整短片，其中某些场景几乎完全无法与与现实区分开来，可以说。所以我想说我们已经走了很远，但我也要说技术的核心实际上并没有太大变化。这是一个非常好的，就像，向前的进步。"
+ },
+ {
+  "seg": 14,
+  "start": 228.48999,
+  "end": 239.505,
+  "speaker": "Dustin Podell",
+  "en": "I don't wanna, like, dive immediately into anything technical here, but it's it's certainly I mean, for anyone who's been paying attention, I'm sure or or or anyone who really hasn't been paying attention, this probably came a bit out of out of nowhere, so, you know.",
+  "zh": "我不想，就像，立刻深入任何技术细节，但这当然我是说，对于任何一直在关注的人来说，我相信或者或者对于任何真的没有关注的人来说，这可能有点凭空出现，所以，你知道。"
+ },
+ {
+  "seg": 15,
+  "start": 239.505,
+  "end": 293.55,
+  "speaker": "Chris Benson",
+  "en": "Yeah. Was gonna say, I guess, you know, with the broadly attention by the general public is so much on kind of more of the LLM generative world in terms of, you know, that that stuff, and everyone's finally on apps regardless of whether they're technical or not. And so I think a lot of people kind of miss the tremendous advancements you guys are making on that side. And so, like, you know, could could you could you take a quick moment, and now that you've kinda done the highest level, maybe step through some of the things that people may remember, like we talked about stable diffusion and things, a couple of those things that have kinda led up to what we're gonna dive into today with some more specifics. And and as Daniel mentioned, we can we can offer some links for past conversations if people wanna dive into those specifically, but that would that would really be interesting to kinda hear distinct points on that timeline",
+  "zh": "是的。我想说的是，我猜，你知道，随着广大公众的关注非常集中在那种 LLM 生成世界方面，关于那种东西，每个人终于都在使用应用程序了，不管他们是不是技术人员。所以我认为很多人错过了你们在那方面取得的巨大进步。所以，就像，你知道，你能你能花一点时间，既然你现在已经做了最高层面的介绍，也许可以梳理一些人们可能记得的事情，就像我们谈到过的 Stable Diffusion 和一些事情，那些导致我们要在今天深入探讨的具体内容的几个点。而且正如 Daniel 提到的，我们可以我们可以为过去的对话提供一些链接，如果人们想深入研究那些具体内容，但那将那将真的很有趣，可以听到那个时间线上的不同点"
+ },
+ {
+  "seg": 16,
+  "start": 339.00998,
+  "end": 406.83,
+  "speaker": "Dustin Podell",
+  "en": "in 2017, some researchers at Google figured out this very cool thing called the transformer, which I'm sure people have have heard many, many times about right now, which These are what you would call an autoregressive language model. And so what this is is it's predicting data essentially one piece at a time. So it predicts one piece of data, and then it looks,",
+  "zh": "2017 年，谷歌的一些研究人员发现了这个叫做 Transformer 的非常酷的东西，我相信大家现在已经听过很多很多次了，这些就是你会称之为自回归语言模型的东西。所以这就是它本质上一块接一块地预测数据。所以它预测一块数据，然后它看，"
+ },
+ {
+  "seg": 17,
+  "start": 453.75,
+  "end": 460.31,
+  "speaker": "Chris Benson",
+  "en": "I love, yeah, I feel like I'm watching a thriller where you're about to reveal the next thing. It's good.",
+  "zh": "我喜欢，是啊，我觉得我在看一部惊悚片，你即将揭示下一件事。这很好。"
+ },
+ {
+  "seg": 18,
+  "start": 460.55,
+  "end": 466.87,
+  "speaker": "Dustin Podell",
+  "en": "Yeah, so what we do with the Fusion is, I'm just gonna tell practically what we do, and then we can kinda break down. You could ask me questions.",
+  "zh": "是的，所以我们对 Fusion 所做的是，我就只是实际地告诉你我们做什么，然后我们可以我们可以分解。你可以问我问题。"
+ },
+ {
+  "seg": 19,
+  "start": 466.87,
+  "end": 467.27,
+  "speaker": "Chris Benson",
+  "en": "That's fine.",
+  "zh": "没关系。"
+ },
+ {
+  "seg": 20,
+  "start": 468.575,
+  "end": 493.94,
+  "speaker": "Dustin Podell",
+  "en": "So what we do with the Fusion is we take a whole continuous medium, and what I mean by continuous medium is the most famous one is images. The world is continuous. There's not you know, it's not that there's, you know, one you know, like a letter is discrete. There's a T, there's an A, a B, a C, a D, an E, and an F. A color, shape, the structure of the world, the color, the light, all of this, these are continuous natural mediums.",
+  "zh": "所以我们对 Fusion 所做的是，我们选取一个完整的连续介质，我所说的连续介质是指最著名的是图像。世界是连续的。没有你知道，并不是说有，你知道，一个你知道，就像字母是离散的。有一个 T，有一个 A，一个 B，一个 C，一个 D，一个 E 和一个 F。颜色、形状、世界的结构、颜色、光线，所有这些，这些是连续的自然介质。"
+ },
+ {
+  "seg": 21,
+  "start": 494.02,
+  "end": 497.025,
+  "speaker": "Dustin Podell",
+  "en": "And so what",
+  "zh": "所以什么"
+ },
+ {
+  "seg": 22,
+  "start": 497.025,
+  "end": 497.185,
+  "speaker": "Chris Benson",
+  "en": "we",
+  "zh": "我们"
+ },
+ {
+  "seg": 23,
+  "start": 497.185,
+  "end": 542.82,
+  "speaker": "Dustin Podell",
+  "en": "do is we take one of these continuous natural mediums that that we've now encoded into digital space, so we use RGB. So, you know, okay, 256 colors we typically use for red, green, and blue, and then we encode this into an image. And then what we do is instead of trying to predict so an autoregressive view might try to predict like pixel by pixel by pixel, instead what we do is we essentially try to remove information, and the way we remove that information is by adding noise. So you imagine you like add a little bit of grain on top of an image, you can still kinda see the image, maybe it's a little grainy, maybe it's a little blurry, oh, you can't quite see it, and you add a little bit more, maybe you see some of the shapes, maybe, okay, there's like, is that a dog? Yeah, you kinda see it, the color starts to fade and then you keep adding and eventually you just get, okay, this is just noise.",
+  "zh": "做的是我们选取这些连续自然介质中的一个，我们现在已经将其编码到数字空间中，所以我们使用 RGB。所以，你知道，好的，我们通常为红、绿和蓝使用 256 种颜色，然后我们将其编码成图像。然后我们要做的是，而不是试图预测所以自回归视图可能会尝试像逐个像素地预测，相反我们要做的是我们本质上是尝试移除信息，而我们移除该信息的方式是通过添加噪声。所以你想象你就像在图像上添加一点颗粒感，你仍然可以隐约看到图像，也许它有一点颗粒感，也许它有一点模糊，哦，你不能完全看到它，你再添加一点，也许你可以看到一些形状，也许，好的，那是，那是狗吗？是的，你隐约看到了它，颜色开始褪色，然后你继续添加，最终你只会得到，好的，这只是噪声。"
+ },
+ {
+  "seg": 24,
+  "start": 542.82,
+  "end": 575.42004,
+  "speaker": "Dustin Podell",
+  "en": "I don't see anything in this image at all. And with the diffusion model, what we're trying to do is we're essentially adding a bit of noise and then we're saying, now try to predict what the clean image is essentially for this. So, you know, okay, so we add a little bit of noise, predict the clean, it just has to remove a little bit of noise. You add a lot of noise, and now what it has to do is there's so little information, it has to actually like come up with essentially like how to infill this properly. And then what you do is then in in what we call inference, which is when you actually run the model, you ask for an image.",
+  "zh": "我在这个图像中根本看不到任何东西。对于扩散模型，我们要做的是我们本质上是添加一点噪声，然后我们说，现在尝试预测针对这个的干净图像是什么。所以，你知道，好的，所以我们添加一点噪声，预测干净的，它只需要移除一点噪声。你添加很多噪声，现在它要做的是信息太少了，它实际上必须就像想出本质上如何正确地填充这个。然后你做的是然后在在我们称之为推理的过程中，那是当你实际运行模型时，你请求一张图像。"
+ },
+ {
+  "seg": 25,
+  "start": 575.5,
+  "end": 613.2,
+  "speaker": "Dustin Podell",
+  "en": "What you would do is then you start a fully noisy image and you say, give me a dog, you know, wearing a top hat on the beach. And then essentially what it does is it tries to remove a little bit of that noise to get closer to this idea of a dog in a top hat at a beach. And you might get some structure, it tries to figure it out, it's very coarse, it's very just trying to figure out the shape and then it has a little bit of shape to latch onto and then it does the next step where it removes a little bit more of that. Oh, and it starts to come into view. It starts to you start to get a little bit more in focus, and you do this do do do do do do do and what you see is essentially you completely remove the noise of this image and oh my goodness, now you have this this completely generated image of a dog on the beach with a top hat.",
+  "zh": "然后你要做的是从一个完全充满噪声的图像开始，你说，给我一只狗，你知道，戴着大礼帽在海滩上。然后本质上它做的是它试图移除一点那种噪声以更接近这个戴着大礼帽在海滩上的狗的想法。你可能会得到一些结构，它试图弄清楚，它非常粗糙，它只是试图弄清楚形状，然后它有一点形状可以抓住，然后它进行下一步，在那里它移除了更多一点的噪声。哦，它开始浮现了。它开始你开始变得更清晰一点，你这样做咚咚咚咚咚咚咚，你看到的是本质上你完全移除了这个图像的噪声，天哪，现在你有了这个完全生成的戴着大礼帽在海滩上的狗的图像。"
+ },
+ {
+  "seg": 26,
+  "start": 613.41504,
+  "end": 658.64996,
+  "speaker": "Dustin Podell",
+  "en": "For a long time, this was, I don't wanna say not good. I mean, all models have gotten a lot better, but when it first started out, these looked like blobs of color. It was like these little, like you could barely see it. But fundamentally, what I just described is still the process that's been happening over the last four years from these old image generator models or anyone that maybe tried like DALL mini, I mean, the old stable diffusion models that we worked on, you know, I don't know, many of the different models are out there now to these modern video models that are producing whole ten second sequences, fundamentally, it's doing the exact same process of removing this information slowly with this noise, and then just slowly going the other direction, essentially creating info to infill if this makes sense. Pause there",
+  "zh": "在很长一段时间里，这，我不想说不好。我是说，所有模型都变得好多了，但当它刚开始时，这些看起来像色块。就像这些小的，就像你几乎看不到它。但根本上，我刚才描述的仍然是过去四年里发生的过程，从这些旧的图像生成器模型，或者任何可能尝试过 DALL mini 的人，我是说，我们工作过的旧的 Stable Diffusion 模型，我不知道，现在有许多不同的模型，到这些正在生成整个十秒序列的现代视频模型，根本上，它执行完全相同的过程，即用这种噪声缓慢地移除这些信息，然后只是缓慢地向另一个方向移动，本质上创造信息来填充，如果这有道理的话。在那里停顿"
+ },
+ {
+  "seg": 27,
+  "start": 658.64996,
+  "end": 660.01,
+  "speaker": "Daniel Whitenack",
+  "en": "for a second just to kinda like that.",
+  "zh": "一秒钟来就像那样。"
+ },
+ {
+  "seg": 28,
+  "start": 660.57,
+  "end": 673.395,
+  "speaker": "Chris Benson",
+  "en": "Let me tell you, because as I'm listening, very, very good explanation, probably the best one that I've heard, so you are right on target if you just carry on what you're doing, because I'm I'm enjoying this.",
+  "zh": "让我告诉你，因为当我听着，非常非常好的解释，可能是我听过的最好的一个，所以如果你只是继续你正在做的事情，你就正中要害，因为我我很享受这个。"
+ },
+ {
+  "seg": 29,
+  "start": 673.395,
+  "end": 689.85,
+  "speaker": "Daniel Whitenack",
+  "en": "And and you mentioned that when this started, right, you sort of ended with these blobs, etcetera. I think there's a lot of people that have seen very impressive things like the, like you were saying, like whole parts of maybe movies or commercials or something",
+  "zh": "而且你提到当这开始时，对吧，你以这些色块等等结束。我想有很多人见过非常令人印象深刻的事情，就像，就像你说的，就像电影或商业广告或许整个部分"
+ },
+ {
+  "seg": 30,
+  "start": 690.00995,
+  "end": 690.17,
+  "speaker": "Dustin Podell",
+  "en": "Mhmm.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 31,
+  "start": 690.25,
+  "end": 707.90497,
+  "speaker": "Daniel Whitenack",
+  "en": "Being generated in this way. What what is the current, I guess, state of the art in terms of, whether it be your your models or others? And I know there's more to talk through as you get in. Like, there's more than just raw image generation. There's how this fits into workflows and and doing certain tasks.",
+  "zh": "以这种方式生成。目前的，我猜，最先进水平是什么，就无论是你的模型还是其他人的而言？我知道随着你的深入还有更多要谈的。就像，不仅仅是原始的图像生成。还有这如何融入工作流和执行某些任务。"
+ },
+ {
+  "seg": 32,
+  "start": 707.90497,
+  "end": 716.82996,
+  "speaker": "Daniel Whitenack",
+  "en": "But what is kind of the state of the art in terms of what we're able to generate? Where are the where are the bounds currently and in terms of quality and that sort of thing?",
+  "zh": "但是，就我们能够生成什么而言，最先进的状态是什么样子的？目前的界限在哪里，以及在质量和这类事情方面？"
+ },
+ {
+  "seg": 33,
+  "start": 716.82996,
+  "end": 741.745,
+  "speaker": "Dustin Podell",
+  "en": "Sure. So I'll I'll tell you kinda like in the last year, I'll I'll split it up into, let's call it three different categories, but they kinda blend a little bit, which is these continuous mediums I talked about. So I gave the example of a continuous medium with image. Video is obviously an extension of that, adding the the time dimension. But then there's also audio as well, which now a lot of these video models generate audio, but then there's also things like, I don't know, maybe you've heard the the like, Suno or these music models.",
+  "zh": "当然。所以我我会告诉你就像在过去的一年里，我会我将其分为，我们称之为三个不同的类别，但它们有点混合，这是我谈到的这些连续介质。所以我举了一个图像作为连续介质的例子。视频显然是那个的延伸，添加了时间维度。但也有音频，现在许多这些视频模型生成音频，但也有像，我不知道，也许你听过那像，Suno 或这些音乐模型。"
+ },
+ {
+  "seg": 34,
+  "start": 742.10004,
+  "end": 783.915,
+  "speaker": "Dustin Podell",
+  "en": "Some of these are also using this exact same technique of removing the information with noise, bringing it back in, it's just a different medium that they're essentially applying to. I'm happy to talk about our models all day. I love talking about our models. But I also wanna be fair to just anyone listening and honest to kind of the state of the world on if you wanna go out and try some nice things out there as well. I will say that before I kinda like dive a little bit into what I think is maybe the best one to recommend, I will make like one statement of that like best quote unquote here is a little bit hard to define sometimes, and this is something we're always like wrestling with is like what makes a best model for someone.",
+  "zh": "其中一些也在使用这种完全相同的技术，用噪声移除信息，把它带回来，这只是它们应用到的不同介质。我很乐意整天谈论我们的模型。我喜欢谈论我们的模型。但我也想对任何正在听的人公平，并诚实地说明世界的现状，如果你想出去尝试那里的一些好东西。我会说，在我有点深入我认为可能是推荐的最佳模型之前，我会做一个声明，就像那个引号中的最佳在这里有时有点难定义，这是我们总是正在纠结的事情，就像什么对某人来说是最好的模型。"
+ },
+ {
+  "seg": 35,
+  "start": 784.075,
+  "end": 831.41,
+  "speaker": "Dustin Podell",
+  "en": "Because, you know, obviously you when someone uses these models, they're typically prompting or putting in now you can reference images or videos or other sorts of things and kind of treat it a little bit like a more like a like a creative companion. And then what you expect out of this can be very different for different types of people. That said, I would say that if you wanna see kind of the quote unquote state of the art right now, For what I would say is like text to video at the moment, it would be Seedance. So Seedance has done some extremely impressive work with the Seedance two model over the over the last year, so they're doing I think it's now four k generations up to fifteen seconds, which is, I mean, very nice quality. It's focused very much on like cinematics.",
+  "zh": "因为，你知道，显然当有人使用这些模型时，他们通常在提示词或现在输入，你可以引用图像或视频或其他类型的东西，并把它当作一点像一个像一个创意伴侣。然后你对它的期望对于不同类型的人来说可能非常不同。也就是说，我会说，如果你想看看目前的引用号中的最先进水平，对于我现在所说的文本生成视频，它是 Seedance。所以 Seedance 在过去的在过去的一年里用 Seedance 2 模型做了一些非常令人印象深刻的工作，所以他们正在做我认为现在是 4k 生成最长十五秒，这，我是说，非常好的质量。它非常专注于像电影效果。"
+ },
+ {
+  "seg": 36,
+  "start": 832.29,
+  "end": 870.655,
+  "speaker": "Dustin Podell",
+  "en": "I will throw a shout out to anyone that, if anyone from the Sora team ever listens to this, I think Sora two is quite a nice model. It didn't rank so high on some of these like leaderboards that we In the AI community, there's a I'm sure you guys talk about this plenty, like leaderboards, rankings, where models place. I think in the LLM side of things, this is much better covered where there's very clear metrics of how well does it program, how well does it do math. On the more creative side of things with video models, image models, audio models, we typically end up falling down to this single preference type benchmark, which is just like a general preference. Everyone in the world goes and can can vote on, you know, on these leader hordes.",
+  "zh": "我会向任何人大喊一声，如果 Sora 团队的任何人听过这个，我认为 Sora 2 是一个非常不错的模型。它在我们的一些像排行榜上的排名不是那么高，我们在 AI 社区里，我确信你们 guys 谈论这个很多，就像排行榜，排名，模型的位置。我认为在 LLM 事情方面，这个覆盖得更好，有非常明确的指标，它编程有多好，它做数学有多好。在视频模型、图像模型、音频模型的更具创意性的一面，我们通常最终会陷入这种单一的偏好类型的基准测试，这就像一种普遍的偏好。世界上的每个人都可以去投票，你知道，在这些排行榜大群上。"
+ },
+ {
+  "seg": 37,
+  "start": 870.655,
+  "end": 882.23004,
+  "speaker": "Dustin Podell",
+  "en": "There's a couple different nice companies and sites that that do this. But I I feel like this kind of removes some of the the specificity that the or the granularity. That's the word I was looking for.",
+  "zh": "有几家不同的不错的公司和网站在做这个。但我我觉得这移除了一些那种特异性或者颗粒度。这就是我要找的词。"
+ },
+ {
+  "seg": 38,
+  "start": 883.03,
+  "end": 897.305,
+  "speaker": "Sponsor",
+  "en": "Listen. I've been to an incredible amount of AI events, many of which are good, but many of which are not practical. You know I love practicality. We're on practical AI. And some are just hype focused.",
+  "zh": "听着。我参加过令人难以置信的数量的 AI 活动，其中很多是好的，但很多是不实用的。你知道我喜欢实用性。我们在 Practical AI。有些只是专注于炒作。"
+ },
+ {
+  "seg": 39,
+  "start": 897.305,
+  "end": 937.305,
+  "speaker": "Sponsor",
+  "en": "Some are sales focused. That's why I'm always eager to share about an event that I truly think is practical and useful for people. That's what I discovered last year at the Midwest AI Summit. And they're gonna have another Midwest AI Summit October 15 in Indianapolis this year, 2026. One of the reasons why I love this event was there was an actual AI engineering lounge where you could sit down and talk through your use cases with actual experienced AI engineers and practitioners to really brainstorm and come back from the event with actual solutions and practicality rather than just a bunch of content and slides.",
+  "zh": "有些是专注于销售的。这就是为什么我总是热衷于分享一个我真正认为对人们实用和有用的活动。这是我去年在中西部 AI 峰会上发现的。他们将于今年 2026 年 10 月 15 日在印第安纳波利斯举办另一届中西部 AI 峰会。我喜欢这个活动的原因之一是有一个实际的 AI 工程室，你可以坐下来与有经验的 AI 工程师和从业者讨论你的用例，真正进行头脑风暴，并带着实际的解决方案和实用性从活动中回来，而不仅仅是一堆内容和幻灯片。"
+ },
+ {
+  "seg": 40,
+  "start": 937.41,
+  "end": 971.02,
+  "speaker": "Sponsor",
+  "en": "But there were also amazing keynote speakers, speakers from, even that had been on the podcast before, like Rajeev Shah, was at last year's event. I would really recommend that you go to midwestaisummit.com. And, for our listeners, you can actually get 20% off with the code Practical AI 20. So go to midwestaisummit.com. Don't miss your chance to attend this event and get 20% off with the code Practical AI 20.",
+  "zh": "但也有惊人的主题演讲嘉宾，甚至以前参加过播客的演讲者，比如 Rajeev Shah，就在去年的活动中。我真的建议你去 midwestaisummit.com。而且，对于我们的听众，你实际上可以使用代码 Practical AI 20 获得 20% 的折扣。所以去 midwestaisummit.com。不要错过你参加这个活动的机会，并使用代码 Practical AI 20 获得 20% 的折扣。"
+ },
+ {
+  "seg": 41,
+  "start": 972.14,
+  "end": 998.29,
+  "speaker": "Chris Benson",
+  "en": "I was gonna ask you, are the models that you're describing, are they kinda the traditional diffusion models? Or you had mentioned in passing a few minutes ago about flow matching, and so it's just in my head, I'm trying to kinda categorize how do the ones that you're talking about right now, how do they fit in? And and, like, and how what is to go back and pull that up, as you were talking about diffusion and you made the reference to flow matching",
+  "zh": "我本来想问你，你描述的这些模型，是它们是那种传统的扩散模型吗？或者你几分钟前顺便提到了流匹配，所以这只是在我想象中，我试图归类你现在谈论的那些，它们如何融入？就像，如何回顾把它拉出来，就像你在谈论扩散并且你提到了流匹配"
+ },
+ {
+  "seg": 42,
+  "start": 998.44995,
+  "end": 998.69,
+  "speaker": "Dustin Podell",
+  "en": "Mhmm.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 43,
+  "start": 998.76996,
+  "end": 1004.20996,
+  "speaker": "Chris Benson",
+  "en": "How do those what is that what is that transition and how do those models that you're talking about now fit into that?",
+  "zh": "那些什么是那是什么过渡，以及你现在谈论的这些模型如何融入其中？"
+ },
+ {
+  "seg": 44,
+  "start": 1004.20996,
+  "end": 1058.37,
+  "speaker": "Dustin Podell",
+  "en": "So I'll I'll I'll first keep it very simple and say all of these models are doing the same process of what I described earlier of adding noise and training the model to then remove this noise. The difference kinda This is where it gets a bit more technical in how we actually approach this. So we used to do more of this process called diffusion, which I I don't I don't I don't honestly know if I wanna get into how how deep and technical this is, but essentially what we've done is we've we've cleaned this process up to what we call flow matching, and flow matching is essentially this very simple process of still doing the same thing, still training the model to remove this noise, but fundamentally what it's learning under the surface is anyone out there who has ever seen a velocity map or a flow map, what this essentially looks like is if you can envision a I almost wanna I",
+  "zh": "所以我会我会首先保持非常简单，所有这些模型都在做我之前描述的相同过程，即添加噪声并训练模型然后移除这种噪声。不同之处这就像这就是它变得有点更技术性的地方，在于我们实际上如何处理这个问题。所以我们过去更多地做这个过程，称为扩散，我我不我我不诚实知道是否我想进入这有多深多技术性，但本质上我们所做的是我们已将这个过程清理为我们所说的流匹配，流匹配本质上是这个非常简单的过程，仍然做同样的事情，仍然训练模型移除这种噪声，但根本上它在表面下学习的是，任何看过速度图或流图的人，这本质上看起来就像如果你能想象一个我几乎想我"
+ },
+ {
+  "seg": 45,
+  "start": 1058.37,
+  "end": 1059.09,
+  "speaker": "Daniel Whitenack",
+  "en": "don't know, Mark, you got",
+  "zh": "不知道，Mark，你有"
+ },
+ {
+  "seg": 46,
+  "start": 1059.09,
+  "end": 1061.65,
+  "speaker": "Chris Benson",
+  "en": "the whiteboard behind it. Don't know if want the whiteboard. You're gonna",
+  "zh": "它后面的白板。不知道是否想要白板。你将要"
+ },
+ {
+  "seg": 47,
+  "start": 1061.65,
+  "end": 1061.89,
+  "speaker": "Dustin Podell",
+  "en": "have to",
+  "zh": "不得不"
+ },
+ {
+  "seg": 48,
+  "start": 1061.97,
+  "end": 1064.69,
+  "speaker": "Chris Benson",
+  "en": "For the audio folks only. They're not gonna see it, but that",
+  "zh": "仅针对音频听众。他们不会看到它，但那"
+ },
+ {
+  "seg": 49,
+  "start": 1064.69,
+  "end": 1066.05,
+  "speaker": "Dustin Podell",
+  "en": "was great. Probably about",
+  "zh": "很棒。大概关于"
+ },
+ {
+  "seg": 50,
+  "start": 1066.05,
+  "end": 1077.0049,
+  "speaker": "Chris Benson",
+  "en": "to turn to the whiteboard. Yeah, it was great. Dustin, if you're on video, you saw it, but Dustin was literally about to turn back to the whiteboard behind him, which I love. If I was in the room, I'd be like, Go, man. Take me there.",
+  "zh": "转向白板。是的，那太棒了。Dustin，如果你在看视频，你看到了，但 Dustin 实际上正要转回他身后的白板，我很喜欢那个。如果我在房间里，我会说，去吧，伙计。带我去那里。"
+ },
+ {
+  "seg": 51,
+  "start": 1077.325,
+  "end": 1081.245,
+  "speaker": "Chris Benson",
+  "en": "Unfortunately, a good bit of the audience won't be able to see us. You're going to have to describe it.",
+  "zh": "不幸的是，很大一部分观众将看不到我们。你得把它描述出来。"
+ },
+ {
+  "seg": 52,
+  "start": 1082.05,
+  "end": 1093.41,
+  "speaker": "Dustin Podell",
+  "en": "Yeah, yeah, no Let's keep it purely in the audio space. So I'll draw a picture with my words as best as I can. I spent enough time prompting anyway, so hopefully I can do this.",
+  "zh": "是的，是的，不。让我们把它完全保持在音频领域。所以我将尽我所能用我的语言画一幅画。无论如何我在提示词上花了足够多的时间，所以希望我能做到。"
+ },
+ {
+  "seg": 53,
+  "start": 1093.49,
+  "end": 1094.21,
+  "speaker": "Chris Benson",
+  "en": "All good.",
+  "zh": "都很好。"
+ },
+ {
+  "seg": 54,
+  "start": 1094.29,
+  "end": 1156.375,
+  "speaker": "Dustin Podell",
+  "en": "But yeah, essentially the way I like to think about it is if you imagine like a landscape, like I don't know, you can imagine your town or the region you're in, and imagine you're looking at it from like the sky and you see like your house, maybe right in the center of this map. And what you might wanna do Now imagine, okay, there's wind going all over the area, and the thing that you wanna do is you wanna be able to throw like a paper airplane from anywhere in this in this landscape, your city, and you want the wind to carry it so it lands on your house. And functionally, what we're trying to train here is essentially that in a much, much grander hyperdimensional space, where instead of it being your house and instead of it being a wind and a paper airplane, what it is is your house in the scenario is what we would call the manifold of real images. It's essentially the place in I'm trying not to use too many stop me if I use too many words here. Wanna",
+  "zh": "但是是的，从根本上说，我喜欢思考它的方式是，如果你想象一个风景，比如我不知道，你可以想象你的城镇或你所在的地区，并想象你从天空俯视它，你看到你的房子，也许就在这张地图的中心。你可能想做的事情现在想象一下，好吧，风在整个地区吹拂，你想做的是你希望能够在这个风景中，你的城市的任何地方扔出一架纸飞机，并且你希望风把它带走，这样它就落在你的房子上。实际上，我们在这里试图训练的根本上是在一个更大、更大的超维空间中，在那里，它不是你的房子，不是风和纸飞机，而是场景中的“你的房子”是我们所称的真实图像流形。这本质上是那个地方，我尽量不使用太多的词，如果我用太多词在这里就阻止我。想要"
+ },
+ {
+  "seg": 55,
+  "start": 1156.375,
+  "end": 1157.015,
+  "speaker": "Narrator",
+  "en": "say biggest.",
+  "zh": "说最大的。"
+ },
+ {
+  "seg": 56,
+  "start": 1157.015,
+  "end": 1161.655,
+  "speaker": "Chris Benson",
+  "en": "I'll I'll ask you, but you're doing fine. Keep going. We're fine on technical. We'll just gonna explain it as we go.",
+  "zh": "我会问你，但你做得很好。继续。我们在技术上没问题。我们只需在进行时解释它。"
+ },
+ {
+  "seg": 57,
+  "start": 1161.655,
+  "end": 1190.695,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. It's it's the place in latent space that would be where the actual real images images are. So another way I'll I'll I'll try to try to describe in the simple terms, okay, with your your town here, you're in two d space. You're where you are above an x y and the paper airplane has to fly in this x y coordinate, you land and then you have the x y. In this space, instead of it just being two coordinates, it's enough to have all of the colors of the entire image, so that's why I say it's hyperdimensional.",
+  "zh": "是的。它是潜在空间中实际真实图像所在的地方。所以另一种方式，我会试着用简单的术语来描述，好吧，这里有你的城镇，你在二维空间中。你在 xy 之上，纸飞机必须在这个 xy 坐标中飞行，你着陆然后你有了 xy。在这个空间里，它不仅仅是两个坐标，它足以容纳整个图像"
+ },
+ {
+  "seg": 58,
+  "start": 1191.16,
+  "end": 1214.285,
+  "speaker": "Dustin Podell",
+  "en": "It's the center is where literally real images are. And so what we're doing is instead of it being wind and the rest of your town, imagine the rest of your town here is every image that isn't real. And what that means is noise. If you think about noise as a real image, you can go generate a bunch of noise and save it to your computer, but that noise would exist somewhere in this space of all possible images. They're not real images.",
+  "zh": "中心就在这里，是真实图像所在的地方。所以我们正在做的是，与其说是风和你城镇的其余部分，想象一下这里的城镇的其余部分是每一张不真实的图像。这意味着噪声。如果你把噪声想象成一张真实的图像，你可以去生成一堆噪声并把它保存到你的电脑上，但这噪声会存在于所有可能图像空间的某个地方。它们不是真实的图像。"
+ },
+ {
+  "seg": 59,
+  "start": 1214.285,
+  "end": 1244.265,
+  "speaker": "Dustin Podell",
+  "en": "They're they're noise, but they you can you can save them. You know, they're they're they're RGB values. You have them. And so what we're doing with this this essentially this flow matching is we're training the model like, when we say we're we're training it to remove noise, what's really happening under the surface is we're training this flow map so that we can land anywhere in this field of noise. And then these flows, these winds in our scenario, when you take a step, will take you closer to your house or to the manifold of real images.",
+  "zh": "它们是噪声，但你可以保存它们。你知道，它们是RGB值。你拥有它们。所以我们用这种本质上的流匹配做的是，我们在训练模型，就像当我们说我们在训练它去除噪声时，表面之下真正发生的是我们在训练这个流映射，这样我们就可以降落在这个噪声领域的任何地方。然后这些流，我们场景中的这些风，当你迈出一步时，会让你更接近你的家或者真实图像的流形。"
+ },
+ {
+  "seg": 60,
+  "start": 1244.5901,
+  "end": 1257.31,
+  "speaker": "Dustin Podell",
+  "en": "And that's what like as you get closer, it starts to look more and more like a real image. It's it gets blurry. It has this. And then when you actually finally land on this this manifold, boom, you have hopefully a real image, but you'll have some image. You know?",
+  "zh": "这就是为什么当你越来越近时，它开始看起来越来越像一张真实的图像。它变得模糊了。它有这个。然后当你真正最终降落在这个流形上，砰，你希望有一张真实的图像，但你会有一张图像。你知道吗？"
+ },
+ {
+  "seg": 61,
+  "start": 1257.31,
+  "end": 1263.405,
+  "speaker": "Dustin Podell",
+  "en": "And then the better the model is trained, the better you have mapped this flow to actually take you to where you want to end up.",
+  "zh": "然后模型训练得越好，你就越好地将这个流映射到真正带你去你想要结束的地方。"
+ },
+ {
+  "seg": 62,
+  "start": 1263.405,
+  "end": 1289.855,
+  "speaker": "Daniel Whitenack",
+  "en": "And and I'm assuming yeah. No. I and I'm assuming because you are kind of mapping this, from from where you start to to where you end up with this real image, maybe in a way that's, just to be crude, I guess, less random. I mean, at at the end of the day, all AI and machine learning, like, it's sort of that training process is very much trial and error, but we have a lot of optimizations around it. Right?",
+  "zh": "而且我假设是的。不。我假设因为你正在某种程度上映射这个，从你开始的地方到你用这个真实图像结束的地方，也许以一种方式，只是粗略地说，我猜，不那么随机。我的意思是，归根结底，所有AI和机器学习，就像，这种训练过程很大程度上是试错，但我们要很多优化围绕它。对吗？"
+ },
+ {
+  "seg": 63,
+  "start": 1289.855,
+  "end": 1304.65,
+  "speaker": "Daniel Whitenack",
+  "en": "So I'm I'm assuming that this then allows you maybe to, I guess, advantage wise shorten the the training or make that more efficient? Or am I am I misconstruing that in some way?",
+  "zh": "所以我假设这然后可能允许你，我猜，优势方面缩短训练或使其更有效率？还是我在某种程度上误解了？"
+ },
+ {
+  "seg": 64,
+  "start": 1304.65,
+  "end": 1338.6799,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. Yeah. I mean, definitely, like, one of the things that's taken us a lot further over the last three to four years is just figuring out a lot of optimizations both in the actual training itself and then also in just, you know, architectures of the actual models have improved. But I will say the like fundamental underlying process of just removing this information and finding a path back to it is still the same process. It's it's just like the car you know, you've been having cars go down the road since the nineteen fifties, and we've made better engines and better safety and all this, but you're still driving down the road.",
+  "zh": "是的。是的。我的意思是，当然，就像，在过去三四年里让我们走得远得更多的事情之一就是只是弄清楚了很多优化，无论是在实际训练本身，然后也只是在，你知道，实际模型的架构已经改进了。但我会说，就像根本的基础过程只是移除这个信息并找到一条回到它的路径仍然是相同的过程。就像车，你知道，你从20世纪50年代就有车在路上走了，我们制造了更好的引擎和更好的安全性和所有这些，但你仍然在路上开车。"
+ },
+ {
+  "seg": 65,
+  "start": 1339.015,
+  "end": 1340.2949,
+  "speaker": "Dustin Podell",
+  "en": "Like, that that's yeah.",
+  "zh": "就像，那是是的。"
+ },
+ {
+  "seg": 66,
+  "start": 1340.2949,
+  "end": 1359.04,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. That that makes sense. And now, definitely, I I think that's a good setting in the sense that we've got to a point where, you know, your the the models coming out of Black Forest Labs, the models coming out from other places, the models that are even, like, now in my text messaging. Right? I get an image.",
+  "zh": "是的。那说得通。现在，当然，我认为这是一个很好的设定，因为我们已经到了一个地步，你知道，你的来自Black Forest Labs的模型，来自其他地方的模型，甚至是那些现在在我的短信里的模型。对吗？我得到一张图像。"
+ },
+ {
+  "seg": 67,
+  "start": 1359.04,
+  "end": 1380.8549,
+  "speaker": "Daniel Whitenack",
+  "en": "I can immediately remix it with an image model. Right? In in some way. So these things are becoming more embedded in our lives, but I don't know if everyone in the audience, some some might have been along for this ride where I was like, oh, cool. I can generate an image of a astronaut riding a horse on, you know, you know, wherever.",
+  "zh": "我可以立即用图像模型混音它。对吗？以某种方式。所以这些东西变得更嵌入我们的生活，但我不知道是否听众中的每个人，有些人可能已经在这趟旅程中，就像我一样，哦，酷。我可以生成一张宇航员骑在马背上的图像，你知道，你知道，无论哪里。"
+ },
+ {
+  "seg": 68,
+  "start": 1381.015,
+  "end": 1427.07,
+  "speaker": "Daniel Whitenack",
+  "en": "And that doesn't seem that practical to folks. So I'm wondering if you could now kind of given that that foundation that we have and we know sort of where we're oriented in the state of, I love how you put it on your website, Visual Intelligence, which I think is, I I I love that statement because it gets to more like language, although it it's being used a lot in terms of agents and intelligence like you mentioned, it is it is very much a subset of the information that we process as as humans. Right? There's this visual element, there's the audio, etcetera. So, now that we have that foundation, could you help the audience understand some of, I guess, the practicalities and the outworkings of the, like, okay, we can do this now.",
+  "zh": "这对人们来说似乎不实用。所以我想知道你现在能不能鉴于那个我们拥有的基础，我们大概知道我们在状态中的定位，我喜欢你在网站上怎么说的，视觉智能，我认为我我喜欢那个声明，因为它更接近语言，虽然它被用在很多关于智能体和智能如你提到的术语中，它是我们作为人类处理的信息的一个非常子集。对吗？有这个视觉元素，有音频等等。所以，现在我们有了那个基础，你能帮助听众理解一些，我猜，实用性和结果，就像，好的，我们现在可以做这个。"
+ },
+ {
+  "seg": 69,
+  "start": 1427.355,
+  "end": 1448.26,
+  "speaker": "Daniel Whitenack",
+  "en": "So what? So how does that how does that help people in the real world other in ways other than maybe just pure creativity? There's certainly like the the, cinema, like you were saying, that side of things. Not everyone's gonna be generating movies maybe, or maybe more people will, I I guess. But, but, yeah, I I think you're understanding what I'm saying.",
+  "zh": "那又怎样？那么这如何如何除了可能只是纯粹的创造力之外以其他方式帮助现实世界中的人们？当然有，电影，就像你说的，那方面的事情。不是每个人都会生成电影，或者也许更多人会，我猜。但是，但是，是的，我认为你理解我在说什么。"
+ },
+ {
+  "seg": 70,
+  "start": 1448.26,
+  "end": 1454.9799,
+  "speaker": "Daniel Whitenack",
+  "en": "Like, where where is this gonna impact where is it impacting me now? Where is it practically going in terms of the application?",
+  "zh": "就像，这将在哪里影响这现在在哪里影响我？这在应用方面实际上要去哪里？"
+ },
+ {
+  "seg": 71,
+  "start": 1455.14,
+  "end": 1467.5449,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. Yeah. Abs I'm very happy to talk about this. This is a I think we're going through, like, a very nice transition period right now where we finally get to leverage these for some very useful things. And if I'm allowed to take a little bit of a tangent and kinda Please.",
+  "zh": "是的。是的，我很高兴谈论这个。我认为我们正在经历，就像，一个非常美好的过渡时期，我们终于可以利用这些来做一些非常有用的事情。如果我可以稍微一点偏离正题并且"
+ },
+ {
+  "seg": 72,
+  "start": 1467.5449,
+  "end": 1468.505,
+  "speaker": "Dustin Podell",
+  "en": "Lead up to it again.",
+  "zh": "再次引导到它。"
+ },
+ {
+  "seg": 73,
+  "start": 1468.505,
+  "end": 1470.585,
+  "speaker": "Chris Benson",
+  "en": "I yeah. Wherever you wanna go is good. We're all good.",
+  "zh": "我是的。你想去哪里都行。我们都好。"
+ },
+ {
+  "seg": 74,
+  "start": 1470.585,
+  "end": 1485.77,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. Yeah. So, I mean, I guess I'll take it back to, like, a little bit of a timeline of things. So okay. So so early on, we had these nice models where most people recognize them for you put in a prompt, you get an image out, you put in a prompt, you get a video, maybe you get a song.",
+  "zh": "是的。是的，所以我猜我会把它带回，就像，一点时间线的事情。所以好的。所以早期，我们有这些很好的模型，大多数人通过你输入一个提示，你得到一个图像输出，你输入一个提示，你得到一个视频，也许你得到一首歌来认识它们。"
+ },
+ {
+  "seg": 75,
+  "start": 1485.93,
+  "end": 1515.36,
+  "speaker": "Dustin Podell",
+  "en": "It's just this one way okay, you make something, this appeals to maybe creators or ad agencies or movie, know, now cinematographers. And and I mean, we love this stuff. We love the creative side of this and and and what it allows because it fundamentally to me, this is like a nice potential communication tool. But then I feel like something changed. I don't wanna say changed, but there was definitely a timeline moment when we started to move into editing.",
+  "zh": "只是这单向好的，你制作某样东西，这可能吸引创作者或广告代理商或电影，知道，现在电影摄影师。而且我的意思是，我们喜欢这些东西。我们喜欢这创造性的方面以及和它允许的东西因为对我根本上，这就像一个很好的潜在沟通工具。但后来我觉得有些东西改变了。我不想说改变了，但肯定有一个时间线时刻，当我们开始进入编辑。"
+ },
+ {
+  "seg": 76,
+  "start": 1515.3601,
+  "end": 1538.89,
+  "speaker": "Dustin Podell",
+  "en": "So was it two years ago now? A year ago? I don't know, around a year, or take, we released our first in context editing model called FluxContext. And on the surface, would look at this and go, okay, well, is this is an image editing model. This is something you could take a photo, you can clean it up, you can add a hat, you can do silly things, you know, you can whatever you wanna do with it.",
+  "zh": "那是两年前吗？一年前？我不知道，大约一年，或者拿，我们发布了我们的第一个上下文内编辑模型称为FluxContext。在表面上，会看这个并说，好的，这是一个图像编辑模型。这是你可以拍照，你可以清理它，你可以加一顶帽子，你可以做傻事，你知道，你可以无论你想用它做什么。"
+ },
+ {
+  "seg": 77,
+  "start": 1538.89,
+  "end": 1571.8099,
+  "speaker": "Dustin Podell",
+  "en": "It's a general editing model that's supposed to supposed to do all these interrelational things. And on the surface, that's very cool. It's it seems like another creative thing. But if you think about, like, what's actually going on under the surface for the model to be able to do this, it has to understand a significant amount of relationships in the world and what it means for these like like how these relationships actually interact together. So if I say take a picture of a I don't know, we have like a water glass here on the table, and I take a picture of this water glass and I say to the model, knock the water glass over and show me what happens.",
+  "zh": "这是一个通用编辑模型，应该做所有这些相互关系的事情。在表面上，这很酷。这看起来像另一件创造性的事情。但如果你想想，就像，表面之下实际在发生什么，模型能够做这个，它必须理解世界上大量的关系以及这意味着这些就像就像这些关系实际上如何互动在一起。所以如果我说拍一张照片，我不知道，我们在桌子上有一个水杯，我拍了这张水杯的照片，我对模型说，把水杯打翻并给我看看会发生什么。"
+ },
+ {
+  "seg": 78,
+  "start": 1571.955,
+  "end": 1601.145,
+  "speaker": "Dustin Podell",
+  "en": "The model has to understand some part of the actual world. Like, it has to actually model the world in some way to know, okay, it spills over, maybe something gets wet, maybe x y z happens. And essentially what we're we're trying to do is train a model that could do all of these types of relationships. So so the model is learning not just like this one one thing, but just how the world works fundamentally so you can do this editing. Now we can take this a step further and we can look at all the video models that are coming out right now and you can do a very similar thing.",
+  "zh": "模型必须理解实际世界的某些部分。就像，它必须以某种方式实际建模世界，以便知道，好的，它溢出来了，也许某些东西变湿了，也许xyz发生了。本质上我们要做的是训练一个可以做所有这些类型关系的模型。所以模型不仅仅是学习这一个东西，而是基本上世界如何工作以便你可以做这个编辑。现在我们可以更进一步，我们可以看现在出来的所有视频模型，你可以做一个非常相似的事情。"
+ },
+ {
+  "seg": 79,
+  "start": 1601.145,
+  "end": 1633.375,
+  "speaker": "Dustin Podell",
+  "en": "You can take an init image and say, okay, this person now grabs a fire extinguisher and puts out a fire and it has to actually understand these relationships to do that. So, well, maybe this wasn't our original goal way back in the day. We were trying to make very cool models and figure out how to I I think in some sense we wanted to model the world, but maybe we weren't thinking this far ahead. Inherently through this whole process, we've learned to build these models that are developing this, and I'm really trying to avoid the use of the term world model here.",
+  "zh": "你可以取一个初始图像并说，好的，这个人现在抓起一个灭火器并扑灭了火灾，它必须实际理解这些关系才能做到这一点。所以，也许这不是我们很久以前最初的目标。我们试图制作非常酷的模型并弄清楚如何我在某种程度上想建模世界，但也许我们没有想得这么远。通过整个过程，我们学会了构建这些正在发展这个的模型，我真的试图避免使用世界模型这个术语。"
+ },
+ {
+  "seg": 80,
+  "start": 1633.855,
+  "end": 1636.735,
+  "speaker": "Chris Benson",
+  "en": "Because I'm gonna go there if you don't. I'm just telling you.",
+  "zh": "因为如果你不去，我会去的。我只是告诉你。"
+ },
+ {
+  "seg": 81,
+  "start": 1637.42,
+  "end": 1643.4999,
+  "speaker": "Dustin Podell",
+  "en": "Yeah, you might notice me trying to skirt this, because I think it's a little overused these days, we can definitely talk about it.",
+  "zh": "是的，你可能会注意到我试图回避这个，因为我认为这些天它有点被过度使用，我们当然可以谈论它。"
+ },
+ {
+  "seg": 82,
+  "start": 1645.1,
+  "end": 1648.0599,
+  "speaker": "Chris Benson",
+  "en": "But fundamentally, this is too many people, which is where I was going.",
+  "zh": "但基本上，这对很多人来说，这就是我要去的地方。"
+ },
+ {
+  "seg": 83,
+  "start": 1648.46,
+  "end": 1683.615,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. Fundamentally, this is what these models are doing when you train them at scale and you and you really train them to be general and robust is they need to be able to simulate parts of the world to get an output. And on on one end, you can take that and go, okay. Well, this is nice for creativity because you can make a film scene and it looks nice. But on the other side, this is why we're starting to move in this in this era, you know, this this area we're we're calling visual intelligence, and now we're starting to see how we can actually leverage what we're calling not just us calling it, this is this is a general field term, but the representation inside of this model of the world to actually go do practical things.",
+  "zh": "是的。基本上，这就是这些模型在规模上训练它们并且你真正训练它们变得通用和稳健时所做的，它们需要能够模拟世界的部分才能得到输出。一方面，你可以拿这个并说，好的。这对创造力很好，因为你可以制作一个电影场景并且看起来不错。但另一方面，这就是为什么我们开始在这个时代移动，你知道，这个我们称之为视觉智能的领域，现在我们开始看到我们实际上如何利用我们所谓的不仅仅是我们在称呼它，这是一个通用领域术语，而是模型内部的世界的表示，实际去做实用的事情。"
+ },
+ {
+  "seg": 84,
+  "start": 1683.615,
+  "end": 1714.255,
+  "speaker": "Dustin Podell",
+  "en": "Now this isn't to say we're gonna drop the creativity side of things, we're still definitely pushing on the side. This is something that we're all still very fond of, but looking forward, if our models are understanding these relationships and the physics of the world like this, well, this is a great place to put it in say robotics and actually, okay, a robot has this understanding, this model of the world inside of it to go act and take actions with confidence in the world. So I'll leave it there as kind of trying to build up to it, but",
+  "zh": "现在这不是说我们要放弃创造力方面的事情，我们仍然当然在这方面推动。这是我们所有人都仍然非常喜欢的东西，但展望未来，如果我们的模型理解这些关系和世界的物理学像这样，那么这是把它放在比如说机器人技术中的一个好地方，并且实际，好的，机器人有这个理解，这个内部世界的模型去行动并自信地在世界上采取行动。所以我会在那里作为一个试图建立到它的东西，但"
+ },
+ {
+  "seg": 85,
+  "start": 1714.655,
+  "end": 1742.2949,
+  "speaker": "Chris Benson",
+  "en": "Let me ask. I'm just gonna go there because that's kinda you're in the area that I spend all my time, which is, you know, embodied intelligence, robotics, you know, UXVs and stuff like that. That's my world. And so in even within our space, the notion of world models has there's a lot of interpretation. If you get into a meeting with 20 people, there's 20 different definitions, and we have to start off by sorting all that out, you know, in terms of how we're communicating.",
+  "zh": "让我问。我只会去那里，因为这有点是你花我所有时间的领域，也就是，你知道，具身智能，机器人技术，你知道，UXVs和类似的东西。这是我的世界。所以即使在我们的空间里，世界模型的概念也有很多解释。如果你进入一个有20人的会议，有20种不同的定义，我们必须开始通过整理这一切，你知道，在我们的沟通方面。"
+ },
+ {
+  "seg": 86,
+  "start": 1742.2949,
+  "end": 1771.0549,
+  "speaker": "Chris Benson",
+  "en": "As you add in this notion there and of this kind of contextual understanding, you know, that it has a representation. I am curious before we move on. Do you how do you do you and you've mentioned now robotics. Do you see it as the same thing, or is it kind of yet another variation of a world model, you know, using the word and stuff? Like, how how closely do would you would you believe those two to be related, you know, as you're talking about that?",
+  "zh": "当你添加这个概念和这种语境理解，你知道，它有一个表示。我很好奇，在我们继续之前。你你你怎么你并且你现在提到了机器人技术。你认为它是同一件事，或者它是世界模型的另一种变体，你知道，使用这个词和东西？就像，怎么你会相信这两个是多么相关，当你谈论那个时？"
+ },
+ {
+  "seg": 87,
+  "start": 1771.135,
+  "end": 1773.455,
+  "speaker": "Chris Benson",
+  "en": "Just because both are big topics, you know, and Sorry.",
+  "zh": "只是因为两者都是大话题，你知道，和抱歉。"
+ },
+ {
+  "seg": 88,
+  "start": 1773.455,
+  "end": 1777.57,
+  "speaker": "Dustin Podell",
+  "en": "Sorry. Can I can I just ask for clarification? You asked them, like, how close do I believe, like, our models are",
+  "zh": "抱歉。我可以我只是要求澄清吗？你问了他们，就像，有多接近我相信，就像，我们的模型是"
+ },
+ {
+  "seg": 89,
+  "start": 1777.57,
+  "end": 1778.0499,
+  "speaker": "Chris Benson",
+  "en": "kind of, like,",
+  "zh": "就像，"
+ },
+ {
+  "seg": 90,
+  "start": 1778.0499,
+  "end": 1779.0099,
+  "speaker": "Dustin Podell",
+  "en": "a world model or a",
+  "zh": "一个世界模型或"
+ },
+ {
+  "seg": 91,
+  "start": 1779.33,
+  "end": 1809.09,
+  "speaker": "Chris Benson",
+  "en": "Well, like, when you say world model, I I'm just kind of trying to to clarify the same thing I did when there was 20 people in the room and you're asking what they mean by it. Mhmm. And you as you mentioned robotics and stuff, we all need this representation of the world out there so that we can do better about about acknowledging the context of what we're working on, whether it's robotics or in visual intelligence, presumably. Are they I'm just curious. In your mind, do you think that they are very closely related, or are they kinda distinct ideas of what a world model is?",
+  "zh": "嗯，就像，"
+ },
+ {
+  "seg": 92,
+  "start": 1809.09,
+  "end": 1810.4501,
+  "speaker": "Chris Benson",
+  "en": "What what is your take on that?",
+  "zh": "那你的看法是什么？"
+ },
+ {
+  "seg": 93,
+  "start": 1810.4501,
+  "end": 1848.345,
+  "speaker": "Dustin Podell",
+  "en": "I would say I would say that they're pretty related. I mean, I I to to me, it's, like fundamentally under the surface of what we're doing is we're trying to teach the model as much as we can about the world that we exist in and then asking for it to utilize that in some way. And up to this point, it's basically been mostly through creative mediums, but like that representation that we're talking about that, and again, I'm trying to avoid this term because we, I don't know, it's a little overused, term we're a little bit, but it is. I mean, this is what it is. It is modeling, it's creating a representation of the world we live in, and then it is using essentially that intelligence it has to be able to act in it.",
+  "zh": "我会说，我会说它们非常相关。我的意思是，我，对我来说，这就像从根本上说，在我们正在做的事情表面之下，我们正在尝试尽可能多地教模型关于我们所存在的世界的知识，然后要求它以某种方式利用它。而在这一点上，基本上主要是通过创意媒介，但是就像我们正在谈论的那个表征，而且，我再次尝试避免使用这个术语，因为我们要，我不知道，这有点被滥用了，我们有一点，但它就是。我的意思是，就是这样。它是建模，它是创建我们生活的世界的表征，然后它本质上是利用它拥有的那种智能以便在其中行动。"
+ },
+ {
+  "seg": 94,
+  "start": 1848.345,
+  "end": 1858.025,
+  "speaker": "Dustin Podell",
+  "en": "So the idea is that if it understands enough of these relationships and and the actual, like, physical properties of it, it's it's a really good foundation to, you know, build and train robotics on top of.",
+  "zh": "所以其想法是，如果它理解了足够多的这些关系以及，以及实际的，比如，物理属性，它，它是构建和训练机器人技术的一个非常好的基础，你知道的。"
+ },
+ {
+  "seg": 95,
+  "start": 1858.25,
+  "end": 1858.81,
+  "speaker": "Chris Benson",
+  "en": "Gotcha.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 96,
+  "start": 1858.81,
+  "end": 1859.2101,
+  "speaker": "Daniel Whitenack",
+  "en": "And I",
+  "zh": "而我"
+ },
+ {
+  "seg": 97,
+  "start": 1859.2101,
+  "end": 1860.41,
+  "speaker": "Dustin Podell",
+  "en": "hope that hope that answers that.",
+  "zh": "希望希望这回答了那个问题。"
+ },
+ {
+  "seg": 98,
+  "start": 1860.41,
+  "end": 1865.13,
+  "speaker": "Chris Benson",
+  "en": "Don't know that That did. No. That was good. Yeah. Thank you for thank you for putting up with with that.",
+  "zh": "不知道那是否回答了。不。那很好。是的。谢谢你，谢谢你忍受了那个。"
+ },
+ {
+  "seg": 99,
+  "start": 1865.13,
+  "end": 1865.8501,
+  "speaker": "Chris Benson",
+  "en": "I was just curious.",
+  "zh": "我只是好奇。"
+ },
+ {
+  "seg": 100,
+  "start": 1865.8501,
+  "end": 1866.89,
+  "speaker": "Dustin Podell",
+  "en": "No. Not not at",
+  "zh": "不。不不，"
+ },
+ {
+  "seg": 101,
+  "start": 1866.89,
+  "end": 1871.13,
+  "speaker": "Chris Benson",
+  "en": "It's not unusual to to to navigate that. So go ahead, Daniel. Sorry about that.",
+  "zh": "导航那个并不不不罕见。所以继续，Daniel。很抱歉。"
+ },
+ {
+  "seg": 102,
+  "start": 1871.13,
+  "end": 1900.625,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I I from the from the non robotics person in in the room, that that was really interesting. I appreciate you going into that. And I'm and I'm wondering there's that kind of outworking of some of this where you are now kind of understanding the context that's in this model, maybe how it's representing the world. There's also things that I've seen just crossing my paths, whether it be kind of in ecommerce or, like I say, my my phone, my text messaging.",
+  "zh": "是的。我我作为房间里那个非机器人领域的人，那个那个真的很有趣。我很感激你深入探讨那个。而且我我想知道有一些这个东西的体现，你现在很了解这个模型中的语境，也许它是如何表现世界的。我也看到了一些只是经过我面前的东西，无论是在电商领域，或者就像我说的，我的我的手机，我的短信。"
+ },
+ {
+  "seg": 103,
+  "start": 1900.625,
+  "end": 1938.615,
+  "speaker": "Daniel Whitenack",
+  "en": "So on on the web where these models are being more and more integrated into workflows, whether that be kind of like try on these clothes or glasses or whatever, or it's a creative tools in, like, visual editing platforms. Are you seeing that with with your all's models in terms of kind of what's the state of and I know, I wanna get into your model families here in a second, and they do different things. Right? And many of them, I I know there's a big, some that are that are open weight, so you might not know all the ways that they're being used. Right?",
+  "zh": "所以在网上，这些模型越来越多地集成到工作流中，无论是那种试穿这些衣服或眼镜什么的，还是作为创意工具，比如，在视觉编辑平台中。你和你们的模型看到了这一点吗，关于这种现状是什么，我知道，我想马上进入你们的模型家族，它们做不同的事情。对。而且其中许多，我知道有一个很大的，有些是开放权重的，所以你可能不知道它们被使用的所有方式。对。"
+ },
+ {
+  "seg": 104,
+  "start": 1938.615,
+  "end": 1956.6749,
+  "speaker": "Daniel Whitenack",
+  "en": "But from from at least those partners that you're working with, in terms of of today, what are some of those creative and maybe more most practical uses of these models that you see out there beyond just kind of the, fun image generation kinda side of things.",
+  "zh": "但但至少从你正在合作的那几个合作伙伴来说，关于今天，你在那里看到的这些模型的一些创造性的以及也许最实际的用途是什么，不仅仅是那种有趣的图像生成那一类的东西。"
+ },
+ {
+  "seg": 105,
+  "start": 1956.6749,
+  "end": 1970.6749,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. Yeah. No. Absolutely. I would say, again, I'll come back to the the moment we started to get context into the model that wasn't just text made a huge like, it was it was a fundamental change in what these models could do and how people actually worked with them.",
+  "zh": "是的。是的。不。绝对地。我想说，再次，我会回到那一刻，当我们开始将不仅仅是文本的语境放入模型时，产生了巨大的——就像，它是这些模型能做什么以及人们实际上如何与它们合作的根本性变化。"
+ },
+ {
+  "seg": 106,
+  "start": 1970.79,
+  "end": 2023.815,
+  "speaker": "Dustin Podell",
+  "en": "Now our first model, Flex context, only could take one image reference, it was mostly used as an editing model, but you could reference a picture of a product and then tell it to generate like a nice product photography set, and this was very nice. Then moving on, we introduced the Flux two family and then the Klein speedier smaller variant that now could take many references. And then now we're looking at mean, people and this kinda come backs comes back again to what I was just saying of having this representation of how things relate, and that the better we actually build this representation, the more interesting ways you can essentially tie in all of these different things. So I mean, I'll throw out one of the most commonly used, or I don't wanna say commonly used, but like kind of obvious cases is okay, like clothing drive. I'm like, this is a very, you know, here's a picture of me, here's a picture of some clothes.",
+  "zh": "现在我们的第一个模型，Flex context，只能接收一张图片参考，它主要被用作编辑模型，但你可以参考一张产品的图片，然后告诉它生成像一套不错的产品摄影图，这非常好。然后继续，我们介绍了 Flux 2 家族，然后是 Klein 更快更小的变体，现在可以接收许多参考。然后现在我们正在看，我是说，人们，这有点又回到了我刚才说的，关于拥有这种事物之间如何关系的表示，而且我们实际构建这个表示越好，你基本上可以用所有这些有趣的方式将所有这些不同的东西联系起来的方式就越多。所以我是说，我会举出一个最常用的，或者我不想说最常用的，但像那种明显的案例是，好的，像服装试穿。我是说，这是一个非常，你知道，这是我的一张照片，这是一些衣服的照片。"
+ },
+ {
+  "seg": 107,
+  "start": 2024.935,
+  "end": 2067.3801,
+  "speaker": "Dustin Podell",
+  "en": "Could you please, you know, show me what this looks like? I've seen people like I actually did some home decoration earlier this year just trying to see, like, what different couches and furniture look like in my place. One of the most interesting uses, I'll say, that kind of stood out to me that I saw at a hackathon was and I I don't know how much this could be used for like real planning purposes, but I just thought it was interesting, is someone was taking pictures of fire exits in a building and then generating what it would look like if a crowd was trying to leave through this fire exit in an emergency, so that they Brilliant. Could actually like Yeah. So they could actually gauge, like, what would this look under, like emergency, like, where is the crowd?",
+  "zh": "能请你，你知道，给我看看这看起来是什么样吗？我见过人们像我今年早些时候实际上做了一些家居装饰，只是想看看，不同的沙发和家具在我的地方看起来是什么样。最有趣的用途之一，我会说，对我来说很突出的那个，是我在一个黑客马拉松上看到的，是，而且我不知道这在多大程度上可以用于像真正的规划目的，但我只是觉得这很有趣，是有人正在拍摄建筑物出口的照片，然后生成如果在紧急情况下人群试图离开这个出口时它会是什么样子，这样他们 漂亮的。 实际上可以像 是的。所以它们实际上可以评估，像，这是什么样子，在像紧急情况下，像，人群在哪里？"
+ },
+ {
+  "seg": 108,
+  "start": 2067.3801,
+  "end": 2076.355,
+  "speaker": "Dustin Podell",
+  "en": "Like, I don't know. Obviously, there there's, you know, there's a generated component, so you you have to take it with a little bit of grain of salt, but you still could get a general idea of this is what this would look like under this scenario. I thought",
+  "zh": "像，我不知道。显然，这里有，你知道，有一个生成的成分，所以你必须对此持有一点保留态度，但你仍然可以得到一个大致的想法，这就是这在这个场景下会是什么样子。我原以为"
+ },
+ {
+  "seg": 109,
+  "start": 2076.355,
+  "end": 2085.7202,
+  "speaker": "Chris Benson",
+  "en": "that extremely derailing us, you just sparked a whole bunch of ideas on that in my head. So, like, I'm I'm just like, oh, this great stuff. Keep going. Sorry.",
+  "zh": "那极其让我们偏离了轨道，你刚刚在我脑海中激发了一堆关于那个的想法。所以，像我只是，哦，这很棒。继续。抱歉。"
+ },
+ {
+  "seg": 110,
+  "start": 2086.84,
+  "end": 2144.28,
+  "speaker": "Sponsor",
+  "en": "If you've been listening to the show over the past few months, you realize just how transformative AgenTic AI is, whether that's Claude Code or Hermes Agent or custom built software that you're deploying for operational efficiencies or as new products to your customers. Regardless of your maturity now, this is the world that we're headed towards, this agentic AI world. And there's a lot of security and governance teams that aren't letting these agents go into production because of risks related to agency and autonomy and how do you take care of things like prompt injections or insecure tool usage? There's a lot to take care of, and that's why I'm personally spending my time outside of the show working with an amazing team of AI engineers to build Prediction Guard. Prediction Guard is an AI control plane that you run-in your own infrastructure behind your firewall.",
+  "zh": "如果你在过去几个月一直在听这个节目，你会意识到 AgenTic AI 是多么具有变革性，无论是 Claude Code 还是 Hermes Agent，或者是你为运营效率或作为客户的新产品而部署的自定义软件。无论你现在处于什么成熟度，这就是我们要走向的世界，这个智能体 AI 世界。有很多安全和治理团队不允许这些智能体投入生产，因为与主观能动性和自主性相关的风险，以及你如何处理提示词注入或不安全的工具使用等问题？有很多事情要处理，这也是为什么我个人的时间除了节目之外，都与一个由人工智能工程师组成的惊人团队合作，构建 Prediction Guard。Prediction Guard 是一个你运行在自己的防火墙后基础设施上的 AI 控制平面。"
+ },
+ {
+  "seg": 111,
+  "start": 2144.44,
+  "end": 2187.335,
+  "speaker": "Sponsor",
+  "en": "Developers can build on top of this control plane using everything that they wanna use, OpenAI and Anthropic compatible APIs, MCP servers, frameworks like LangChain, but all of this is plugged into a built in governance harness that enforces your organization's AI policies, and all of that telemetry goes back to your monitoring and alerting systems. I'd encourage you to check out what we're doing at predictionguard.com/practicalai. You can schedule a demo with me and the team and I'd love to get your feedback on what we're doing. So visit us at predictionguard.com/practicalai. That's predictionguard.com/practicalai.",
+  "zh": "开发人员可以使用他们想要的一切构建在这个控制平面之上，OpenAI 和 Anthropic 兼容的 API，MCP 服务器，像 LangChain 这样的框架，但所有这些都被插入到一个内置的治理工具中，以强制执行你组织的 AI 策略，并且所有这些遥测数据都会回到你的监控和警报系统。我鼓励你去查看我们在 predictionguard.com/practicalai 所做的工作。你可以安排我和团队的一个演示，我很想得到对我们所做工作的反馈。所以请访问我们 predictionguard.com/practicalai。那是 predictionguard.com/practicalai。"
+ },
+ {
+  "seg": 112,
+  "start": 2188.615,
+  "end": 2223.9302,
+  "speaker": "Daniel Whitenack",
+  "en": "These are all so you mentioned the the flux, family of models. So that's Black Forest family of models or at least some of the models that that you've worked on. Could you could you just kind of give us a concrete you mentioned a couple by name, but, like, give us a tour of the the family of models and then maybe where, I know that there's some on Hugging Face. People can find them. People can can look at them, but maybe just give us a little bit of a tour of the model family and then, anything that, that you wanna share about some of the some of the distinctions between them, the different ones of them?",
+  "zh": "这些都很棒，你提到了 flux 模型家族。所以那是 Black Forest 的模型家族，或者至少是你参与过的一些模型。你能能不能给我们一个具体的介绍，你提到了几个名字，但是，给我们介绍一下模型家族，然后也许我知道有一些在 Hugging Face 上。人们可以找到它们。人们可以看看它们，但是也许只是给我们介绍一下模型家族，然后，任何你想分享的关于它们之间的一些区别的信息，不同的那些？"
+ },
+ {
+  "seg": 113,
+  "start": 2223.9302,
+  "end": 2268.585,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. Yeah. I mean, we're I I would say fundamentally, like, as a core, we're still like a I'll say we're still like a research lab that wants to push the boundaries, so with each one of our model releases, we want to try to level up some capability of the model, not just make a general improvement, but really see some new versioning with it. So I mean, can take back through There's not that many models, so can take back through a little bit of history. Was a little That was around two years ago now, we released our first family models, which was the Flux series, and this was the first set of models that we created after we formed the company after a very fun but intense, I think it was around four or five month sprint to really like build our chops here and get something out.",
+  "zh": "是的。是的。我是说，我们我是说我会从根本上说，作为核心，我们仍然像我说我们仍然像一个想要突破界限的研究实验室，所以随着我们的每一个模型发布，我们要尝试提升模型的某些能力，不仅仅是做一个通用的改进，而是真正看到一些新的版本。所以我是说，可以回顾一下没有那么多模型，所以可以稍微回顾一下历史。有一点那大概是两年前了，我们发布了我们的第一批家族模型，就是 Flux 系列，这是我们创建的第一批模型，是我们组建公司后在一个非常有趣但紧张的阶段后创建的，我想那是大约四五个月的冲刺来真正建立我们的技能并推出一些东西。"
+ },
+ {
+  "seg": 114,
+  "start": 2268.585,
+  "end": 2322.295,
+  "speaker": "Dustin Podell",
+  "en": "And with that, we came up with this, at the time, this essentially distinction between the models where we released the Flux1. So we had the Flux1 Pro model, which was on our API. We had the Flux1 dev model, which was this commercially licensable model, but the weights were open for people out in the world to use. And then we had the Flux1 Chanel model, which was a high speed, like step distilled model that was totally I don't know if it was MIT or Apache, but it open to use for whatever purposes you want. Then from there, we worked on our tools series of models where we realized like we needed a lot more control with the models, and this is where alongside this work started the context project to, okay, these are people who want a lot more control of the models.",
+  "zh": "有了那个，我们提出了这个，当时，模型之间本质上的区别，我们发布了 Flux1。所以我们有 Flux1 Pro 模型，它在我们的 API 上。我们有 Flux1 dev 模型，这是一个商业许可的模型，但权重是开放的，供世界各地的人们使用。然后我们有 Flux1 Chanel 模型，这是一个高速的，像步骤蒸馏模型，完全是我不知道它是 MIT 还是 Apache，但它开放用于任何你想要的目的。然后从那里，我们要处理我们的工具系列模型，在那里我们意识到我们需要对模型有更多的控制，这就是随着这项工作开始上下文项目的地方，好的，这些是想要对模型有更多控制的人。"
+ },
+ {
+  "seg": 115,
+  "start": 2322.295,
+  "end": 2332.4548,
+  "speaker": "Dustin Podell",
+  "en": "These models are learning a lot of relationships. How can we leverage this? Which led up to the Flux context release, which I talked about. This was our big edit release. Everything I mentioned up to this point was still kind of our like historical models.",
+  "zh": "这些模型正在学习很多关系。"
+ },
+ {
+  "seg": 116,
+  "start": 2332.62,
+  "end": 2345.82,
+  "speaker": "Dustin Podell",
+  "en": "Now we're getting into our more up to date models, although they're getting a little bit older now, but we have a, I don't know, something I'm excited coming, I don't wanna get dates soon, hopefully later this summer, that'll be very exciting to talk about when it comes out, but",
+  "zh": "现在我们进入了我们更新的模型，虽然它们现在有点老了，但我们要有一个，我不知道，有些我兴奋的东西要来了，我不想很快给出日期，希望在这个夏天的晚些时候，当它发布时谈论这个会非常令人兴奋，但是"
+ },
+ {
+  "seg": 117,
+  "start": 2347.055,
+  "end": 2349.9348,
+  "speaker": "Chris Benson",
+  "en": "Looking forward to it. Yeah. We'll have to get you back on.",
+  "zh": "期待它。是的。我们得请你回来。"
+ },
+ {
+  "seg": 118,
+  "start": 2349.9348,
+  "end": 2383.185,
+  "speaker": "Dustin Podell",
+  "en": "Definitely. Yeah. Happy to happen to come back. But then we got to our Flux two series of models, and Flux two was a very big upgrade for us, where we really pushed the capabilities not just T2I, but also on editing, not just on single image, but this is where we also introduced like the multi image, the kind of omni edit where you could put many people, many different items, have all sorts of relationships. This is where we started to see, you know, not just these kind of more standard advertising use cases, which still were like the most common and we really wanna support this, but like some more interesting how people kind of build, you know, like things like this fire exit thing here or other types of stuff.",
+  "zh": "肯定的。是的。很高兴能回来。但后来我们进入了我们的 Flux two 系列模型，Flux two 对我们来说是一次非常大的升级，我们在那里真正推动了能力，不仅在 T2I 上，还在编辑上，不仅在单个图像上，而且这也是我们引入了像多图像，那种全能编辑的地方，你可以放入许多人，许多不同的物品，拥有各种关系。这就是我们开始看到的地方，你知道，不仅仅是这些更标准的广告用例，它们仍然是最常见的，我们真的很想支持这一点，而且还有一些更有趣的，人们如何构建，你知道，像这里的这个消防出口之类的东西或其他类型的东西。"
+ },
+ {
+  "seg": 119,
+  "start": 2384.4648,
+  "end": 2436.145,
+  "speaker": "Dustin Podell",
+  "en": "And then right after that, we came to our Klein series of models, which was essentially like a size distillation where we really wanted to pack as much performance as we could into a small model for both use on our API, but also just for open weight release. We know that there's many people out in the world who use our models locally, and we really wanted to make sure they had something powerful they could use. So it was a text image and an editing model. It was a was a very fast model, and it was it was pretty small in comparison to you know, it was even smaller than our our Flux one series. And then we've done further a further speed up on that with our our Klein KV model, which introduced, I believe for the first time KV caching, which is this I'll just say it's an optimization technique that's very common with the language model world that we were able to bring into the editing world to get a very, very big speed up on local editing.",
+  "zh": "紧接着，我们来到了我们的 Klein 系列模型，这本质上是一种大小蒸馏，我们真的想把尽可能多的性能打包到一个用于我们 API 使用的小模型中，但也仅仅是为了开源权重发布。我们知道世界上有很多人在本地使用我们的模型，我们真的很想确保他们有一些强大的东西可以使用。所以它是一个文本图像和编辑模型。它是一个非常快的模型，而且它非常小，相比你知道，它甚至比我们的 Flux one 系列还要小。然后我们通过我们的 Klein KV 模型进一步进一步加速了它，它引入了，我相信这是首次引入 KV 缓存，这是一种我只能说是在语言模型世界非常常见的优化技术，我们能够将其引入编辑世界，以在本地编辑上获得非常非常大的加速。"
+ },
+ {
+  "seg": 120,
+  "start": 2436.145,
+  "end": 2457.4849,
+  "speaker": "Dustin Podell",
+  "en": "So people who wanted to actually use these models locally, but also, you know, we also serve this as well, you know. And now now since then, we've done a couple blog releases, one fairly fun research, you know, research blog on on something called self flow, which I'm repping partially because I am on there. I'm not not the lead author. Our lead author is incredible. He list.",
+  "zh": "所以那些想要真正在本地使用这些模型的人，还有，你知道，我们也为此提供服务，你知道。而现在，从那时起，我们已经做了一些博客发布，一个相当有趣的研究，你知道，研究博客关于叫做 self flow 的东西，我部分代表它是因为我在上面。我不是第一作者。我们的第一作者非常了不起。He list。"
+ },
+ {
+  "seg": 121,
+  "start": 2457.4849,
+  "end": 2466.4402,
+  "speaker": "Dustin Podell",
+  "en": "She's amazing. But and then now we're we're kind of all pushing forward to our our next big release, which is hopefully gonna be I I'm quite excited about",
+  "zh": "她很棒。而且现在我们都在推动我们的下一个重大发布，这希望会是我相当兴奋的"
+ },
+ {
+  "seg": 122,
+  "start": 2466.4402,
+  "end": 2516.305,
+  "speaker": "Daniel Whitenack",
+  "en": "That that's awesome. And just to follow-up on that, I know some people out there, our listeners, are always trying things on, you know, on their laptop or or wherever they're they're they're pulling down things. I know for quite some time when I tried to access some of these models and run them myself, it was either very difficult to find find, you know, with my limited resources, the the right the right kind of configuration to run this, but also it was sometimes incredibly slow. So what to, just give a sense of some of those, you know, more hardware optimized models that you mentioned, I think the the Klein and other models. How, maybe my question is, can I reasonably run one of these models on my laptop now and create a a great image?",
+  "zh": "太棒了。只是跟进一下，我知道那里的一些人，我们的听众，总是在尝试，你知道，在他们的笔记本电脑上或者在他们拉取东西的任何地方。我知道很长一段时间，当我尝试访问其中一些模型并自己运行它们时，很难找到，你知道，以我有限的资源，找到正确类型的配置来运行这个，而且有时它非常慢。所以，只是让你对这些你提到的更多硬件优化的模型有一些感觉，我认为是 Klein 和其他模型。也许我的问题是，我现在可以在我的笔记本电脑上合理地运行这些模型之一并创建一张很棒的图像吗？"
+ },
+ {
+  "seg": 123,
+  "start": 2516.305,
+  "end": 2552.66,
+  "speaker": "Daniel Whitenack",
+  "en": "Like, what's what's required here? Certainly, I'm not gonna serve my production web app in an enterprise environment off of my my laptop, but just maybe give us a little bit of a sense because that has changed on the LLM side, right, where that has continually updated and obviously the smaller models are not up to the same output quality as the larger models, but you can run a small model, you know, even on a CPU now, at least for some tasks that, is is pretty reasonable. So how how has that progression happened on the visual intelligence or image generation side?",
+  "zh": "这里的要求是什么？当然，我不会在企业环境中从我的笔记本电脑上提供我的生产 Web 应用程序，但也许只是给我们一点感觉，因为在 LLM 方面这已经改变了，对吧，它不断更新，显然较小的模型达不到与较大模型相同的输出质量，但你可以运行一个小模型，你知道，即使在 CPU 上现在，至少对于某些任务，这是相当合理的。所以在视觉智能或图像生成方面，这种进展是如何发生的？"
+ },
+ {
+  "seg": 124,
+  "start": 2552.66,
+  "end": 2623.9448,
+  "speaker": "Dustin Podell",
+  "en": "Yeah. I I would say, I'll I'll first state that the LLM world definitely has a lot more people working on it, so they they definitely have a lot more of this up and down. That said, with our Klein series, I haven't run this personally. Maybe I'm not the best person in the world to speak on this, but I'm 99% certain you could run this on, say, like a modern M series Mac, like a MacBook Pro. As for speed, I don't have any numbers I can quote because I haven't tested this myself, but this is always like a big kind of trade off in this world of how, you know, even on the language side, you know, you see the scaling of a, you know, a lot of the new big open releases that people are excited about are getting into the hundreds of billions of parameters, and this is why we did the Klein series, for example, because Flux two was a 32E model, it was quite chunky, you could run it on a higher end local computer, but it was slower to run locally, you needed some more powerful computing, this is where like the Klein series popped in, but it's always a trade off because we wanna push performance and make something that we're really proud of, and then we wanna try to bring that again back into smaller, faster scale.",
+  "zh": "是的。我首先会说，LLM 领域肯定有更多的人在研究它，所以他们肯定有更多的这种起伏。也就是说，对于我们的 Klein 系列，我没有亲自运行这个。也许我不是世界上谈论这个的最佳人选，但我 99% 确定你可以在，比如说，现代 M 系列 Mac，像 MacBook Pro 上运行这个。至于速度，我没有任何可以引用的数字，因为我没有亲自测试过，但这在这个世界里总是一个很大的权衡，你知道，即使在语言方面，你知道，你看到了规模的扩展，许多人们兴奋的新的大型开源发布正在进入数千亿参数，这就是我们做 Klein 系列的原因，例如，因为 Flux two 是一个 32E 模型，它相当笨重，你可以在高端本地计算机上运行它，但在本地运行它较慢，你需要一些更强大的计算，这就是 Klein 系列介入的地方，但这总是一个权衡，因为我们要推动性能并制作我们真正引以为豪的东西，然后我们要试着再次将其带回更小、更快的规模。"
+ },
+ {
+  "seg": 125,
+  "start": 2623.9448,
+  "end": 2640.64,
+  "speaker": "Dustin Podell",
+  "en": "And this is something we've continually done with our Fluxone series, we had Schnell, with Flux2, we had Klein. I don't wanna promise anything going forward, but we definitely wanna keep bringing this bigger power that we generate into these smaller models that people can hopefully run locally.",
+  "zh": "这是我们一直在用我们的 Fluxone 系列做的事情，我们有 Schnell，有了 Flux2，我们有 Klein。我不想对未来承诺任何事情，但我们绝对想继续将我们产生的这种更大力量带入这些人们希望可以在本地运行的更小模型中。"
+ },
+ {
+  "seg": 126,
+  "start": 2640.64,
+  "end": 2664.04,
+  "speaker": "Chris Benson",
+  "en": "Absolutely. Super cool. I'm excited to try some of those. As we are starting to wind up, you guys have done some really, really cool, work in this space. One of the things we always like to to ask as we're closing out these episodes are kinda like we wanna get a glimpse into your head, into your thinking about what's to come.",
+  "zh": "绝对的。超级酷。我很兴奋尝试其中一些。随着我们开始总结，你们在这个领域做了一些非常非常酷的工作。我们在结束这些节目时总是喜欢问的一件事就像我们想窥视你的内心，了解你对未来的想法。"
+ },
+ {
+  "seg": 127,
+  "start": 2664.04,
+  "end": 2707.31,
+  "speaker": "Chris Benson",
+  "en": "And and kinda to to frame it a little bit as you're thinking about, like, you know, you're you're out of the the day's work and you're, you know, enjoying your evening and your mind wanders and you're kinda thinking about, like, down the road. What would you know, what you want, what where your passion is is taking you and what you'd like to see. Can you share can you share a little bit about what the future that you would like to to create with Visual Intelligence in terms of what's next that you guys haven't addressed? I'm not asking for a product release so much because I know those those need to stay in, but kind of just like what's what what, you know, where what is your aspiration? What's your dream in terms of where these kind of capabilities might ultimately lead?",
+  "zh": "稍微框架一下，就像你在思考，你知道，你完成了当天的工作，你在享受你的夜晚，你的思绪漫游，你在想关于未来的事情。你会知道，你想要什么，你的激情将带你去哪里，以及你想看到什么。你能分享一点关于你想用 Visual Intelligence 创造的未来是什么，关于你们尚未解决的下一步是什么？我不是在索要产品发布，因为我知道那些需要保密，但只是就像什么，你知道，你的抱负在哪里？就这些能力最终可能导致的方向而言，你的梦想是什么？"
+ },
+ {
+  "seg": 128,
+  "start": 2707.79,
+  "end": 2715.7349,
+  "speaker": "Chris Benson",
+  "en": "And and love to love to get your your your kind of your dream context, if you will, as we finish up.",
+  "zh": "如果可以的话，我很想获得你的梦想背景，在我们结束的时候。"
+ },
+ {
+  "seg": 129,
+  "start": 2715.7349,
+  "end": 2721.015,
+  "speaker": "Dustin Podell",
+  "en": "Sure. If I'm allowed to to give two split answers here, there's a",
+  "zh": "当然。如果我被允许在这里给出两个分开的答案，有一个"
+ },
+ {
+  "seg": 130,
+  "start": 2721.095,
+  "end": 2721.815,
+  "speaker": "Chris Benson",
+  "en": "Totally fine.",
+  "zh": "完全没问题。"
+ },
+ {
+  "seg": 131,
+  "start": 2721.815,
+  "end": 2733.02,
+  "speaker": "Dustin Podell",
+  "en": "There's kind of two areas that constantly sit on the front of my mind. At some point, they'll hopefully become one, but I imagine the next and this is no glimpse into saying what we're doing, but this is stuff I'm personally excited about.",
+  "zh": "有两个领域总是占据我的脑海。在某个时候，它们希望会成为一个，但我设想下一个——这不是对我们在做什么的一瞥，但这只是我个人感到兴奋的东西。"
+ },
+ {
+  "seg": 132,
+  "start": 2733.02,
+  "end": 2733.6602,
+  "speaker": "Chris Benson",
+  "en": "Fair enough.",
+  "zh": "很公平。"
+ },
+ {
+  "seg": 133,
+  "start": 2733.6602,
+  "end": 2794.7651,
+  "speaker": "Dustin Podell",
+  "en": "Well, I would say the two areas that I'm the most excited about is, one, is long context truly multimodal models. So nowadays, obviously, we're seeing lots of people work with agents constantly, And on our front where we're having these more like continuous generative models, we're starting to introduce more and more contextually usage with these references. I'm looking forward to when this kind of bridges a little bit more, And we have models that not just can like, okay, you have, say the agent calls the generative model, but when this kind of becomes more or less a model that not just can, you know, do work in the text and language and agent, but actually maybe can think visually as well and generate audio for you and has the full context of say all the stuff you've done over the last few weeks. You know, you don't need to say give it the reference, give it the right prompt. It just like already has this context and can reference this as needed in this, like, continuous space.",
+  "zh": "好的，我会说我最兴奋的两个领域是，一是长上下文真正多模态模型。所以现在，显然，我们看到很多人不断地与智能体一起工作，在我们这边，我们有这些更连续的生成模型，我们开始引入越来越多的关于这些参考的上下文使用。我很期待当这稍微更多地连接时，我们有模型不仅能够像，好的，你有，比如说智能体调用生成模型，而且当这或多或少变成一个不仅能够做文本和语言和智能体中的工作，而且实际上也许能够视觉思考并为你生成音频并且拥有比如说过去几周你做的所有事情的完整上下文的模型时。你知道，你不需要说给它参考，给它正确的提示词。它只是已经拥有这个上下文并且可以在这个连续的空间中根据需要引用它。"
+ },
+ {
+  "seg": 134,
+  "start": 2794.7651,
+  "end": 2824.215,
+  "speaker": "Dustin Podell",
+  "en": "This excites me a lot. The other side, I'll say, is the real time stuff that's you know, we're seeing a little bit of it now out there. I think that this is, like, very early, and I think it's gonna be very exciting for real time video, audio, duplex interactions, know, being able to I don't know. You see a little bit of these, like, interactive, you know, stuff with, like, Genie where, you know, play the game, but also on the side of, you can bridge this back into robotics where it needs to take in the real world in real time and make decisions.",
+  "zh": "这让我很兴奋。另一方面，我会说是实时的东西，你知道，我们现在在外面看到了一点点。我认为这是非常早期的，我认为它对于实时视频、音频、双工交互将会非常令人兴奋，知道，能够我不知道。你看到了一点点这些，你知道，像与 Genie 的交互，你知道，玩游戏，但也在你方面，你可以将其桥接回机器人技术，它需要实时接收现实世界并做出决策。"
+ },
+ {
+  "seg": 135,
+  "start": 2824.215,
+  "end": 2842.1099,
+  "speaker": "Chris Benson",
+  "en": "Yeah. I was gonna say that sounds really familiar in terms of interest on that side of things. Mhmm. So, yeah, really cool. Great conversation, and your lead in to to what what Black Forest Labs is doing was also really good contextually in terms of kind of explaining.",
+  "zh": "是的。我本来想说关于那方面的兴趣听起来真的很熟悉。嗯哼。所以，是的，真的很酷。很棒的对话，你对 Black Forest Labs 正在做什么的介绍在解释方面也有非常好的上下文。"
+ },
+ {
+  "seg": 136,
+  "start": 2842.1099,
+  "end": 2858.075,
+  "speaker": "Chris Benson",
+  "en": "So hope our audience got a lot out of that. Dustin, thank you very, very much for coming on the show. Great conversation. And as you've as you've hinted, there are things to come, and I'm looking forward to to having our next conversation as things move forward a little bit.",
+  "zh": "希望我们的观众从中收获很多。Dustin，非常非常感谢你来到节目。很棒的对话。正如你所暗示的，有些事情即将到来，我期待随着事情稍微向前发展进行我们的下一次对话。"
+ },
+ {
+  "seg": 137,
+  "start": 2858.075,
+  "end": 2859.9949,
+  "speaker": "Dustin Podell",
+  "en": "Absolutely. Thank you so much for having me, guys.",
+  "zh": "绝对的。非常感谢你们邀请我，伙计们。"
+ },
+ {
+  "seg": 138,
+  "start": 2864.66,
+  "end": 2885.475,
+  "speaker": "Narrator",
+  "en": "All right. That's our show for this week. If you haven't checked out our website, head to practicalai.fm, and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner Prediction Guard for providing operational support for the show.",
+  "zh": "好的，这就是我们本周的节目。如果你还没有查看我们的网站，请前往 practicalai.fm，并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 发展相关的见解，我们很希望你能加入对话。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 139,
+  "start": 2885.7148,
+  "end": 2895.0615,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "请在 predictionguard.com 查看他们。另外，感谢 Breakmaster Cylinder 提供的节拍，也感谢你的收听。目前就这些，但你下周会再次听到我们的消息。"
+ }
+]

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>69</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>70</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(26:56起):本集把它说成：强悍的基础模型实验室，探讨人们常担忧这类大模型公司会不会“通吃”所有商业价值。
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(00:17起):本集说它是目前最前沿的 AI 模型公司之一，在疯狂招人增加人手；为了不被巨头用默认选项锁死，去年采取“无处不在”的分发策略。
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(06:46起):本集把它当成一个反面教材：指出它最初就像做技术演示的网景，虽然爆火但缺乏明确的产品定义，导致用户用几天后就开始疑惑“我到底拿它干嘛”，如今不得不仓促补课产品与营销，正被 Anthropic 追赶。
+- **[[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|《Harness 工程：让智能体零人工写代码的实操》]]**(01:56起):本集提到它是 Ryan 所在的公司，其 Frontier 企业平台正在对齐 Codex，并且研究团队与 Codex 开发之间存在紧密的良性循环
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]]**(01:50起):本集提到的顶尖 AI 公司；嘉宾认为符合其利益去托管专门的面向消费者的智能体服务应用（如旅行代理）。
 - **[[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]]**(20:16起):本集说它是一家美国公司，Alan 在 2022 年中时完全依赖它的 GPT-3 模型，这让欧洲公司感到恐慌。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(00:00起):本集说它是 Codex 应用的母公司，内部近 100% 员工每周都在使用 Codex；团队极具主观能动性(high agentic),内部常同时涌现 90 个原型探索。
@@ -115,7 +116,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*69 集*
+*70 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -132,6 +133,7 @@ unlisted: true
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为被讨论公司
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为被讨论公司
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|《Harness 工程：让智能体零人工写代码的实操》]] — 作为被讨论公司
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为被讨论公司(提及)
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]] — 作为被讨论公司(提及)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为被讨论公司
@@ -193,7 +195,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[ChatGPT]] · [[Stripe]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":153,"Anthropic":79,"Google":29,"Lenny":65,"推理":3,"Cursor":40,"NVIDIA":24,"ChatGPT":39,"Stripe":22,"Microsoft":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":155,"Anthropic":79,"Google":29,"Lenny":65,"推理":3,"Cursor":40,"NVIDIA":24,"ChatGPT":39,"Stripe":22,"Microsoft":19}</script>
 
 <script>
 (function(){

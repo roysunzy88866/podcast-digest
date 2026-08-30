@@ -154,9 +154,9 @@ Nicole 观察到,AI 改变了写代码的本质,让它变成了一项「充满�
 
 **换个口味**
 
+- [[2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil|Tether 做本地 AI：数据中心造太多了]]<span class="pd-rz">同概念:微调 (fine-tuning)、智能体 (agents)</span>
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同概念:智能体 (agents)</span>
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]]<span class="pd-rz">同概念:智能体 (agents)</span>
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪]]<span class="pd-rz">同概念:智能体 (agents)</span>
 
 </div>
 </div>

@@ -123,9 +123,9 @@ GitHub Next 还为开发者准备了一整套现成的工作流库。比如可�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:护栏 (guardrails)、提示词注入 (prompt injection)</span>
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同公司:Copilot · 同概念:护栏 (guardrails)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Slack · 同概念:提示词注入 (prompt injection)</span>
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同概念:护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

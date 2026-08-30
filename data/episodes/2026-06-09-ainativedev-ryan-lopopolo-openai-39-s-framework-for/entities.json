@@ -1,0 +1,1360 @@
+{
+  "episode_id": "2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-06-09",
+  "tags": [
+    "智能体编码",
+    "harness 工程",
+    "零人工审查",
+    "规范驱动开发",
+    "异步循环"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "guy-fajani",
+      "type": "person",
+      "role": "host",
+      "name": "Guy Fajani",
+      "file": "Guy Fajani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            53.6,
+            63.76
+          ],
+          "quote": "Join your host, Guy Fajani, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ryan-lopopolo",
+      "type": "person",
+      "role": "guest",
+      "name": "Ryan Lopopolo",
+      "file": "Ryan Lopopolo",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "harness-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness 工程 (harness engineering)",
+      "file": "harness 工程",
+      "primary": true,
+      "how_described": "本集将其说成一种组合'给什么上下文'和'给什么工具'两个杠杆的方法体系，目标是让智能体在没有人工干预的情况下闭环产出可合并的代码，并且用工具调用本身来做提示词注入以管理上下文窗口",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            135.52,
+            156.56
+          ],
+          "quote": "Yeah, so uh I'm gonna be talking about uh all things harness engineering, which is sort of, I guess, kind of like some of the discourse that I helped define earlier in the year here, where uh talk about what it means to kind of set up agents to do highly complex, autonomous, software engineering-like work in your code bases with high confidence and uh almost headless nature if you can get to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            167.28,
+            178.96
+          ],
+          "quote": "And we're gonna talk about harness engineering, and we'll talk about some of the methodologies that you've used internally at OpenAI and talk through maybe some of the bits that have been enjoyable, some of the bits that have been scary, and it's gonna be great fun.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            179.12,
+            182.8
+          ],
+          "quote": "So, Ryan, why don't we kick off with harness engineering?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            183.92,
+            186.32
+          ],
+          "quote": "For the layman, what is harness engineering?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            197.36,
+            214.64
+          ],
+          "quote": "Uh and harness engineering is this idea that to produce code that is acceptable, to produce code that we trust, that we can build confidence in business systems around, there are a bunch of little decisions that go into the process of producing PRs, producing systems that we have to make along the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            261.52,
+            265.04
+          ],
+          "quote": "So we've had prompt engineering, context engineering, and harness engineering now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 43,
+          "t": [
+            265.12,
+            270.08
+          ],
+          "quote": "What would you say are the kind of like the main differences or overlap between context engineering and harness engineering?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 45,
+          "t": [
+            281.2,
+            291.6
+          ],
+          "quote": "And harness engineering is kind of a combination of both with the goal of making sure the context that we give the agent is correct so that it can work its reasoning magic to produce good code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            292.16,
+            301.04
+          ],
+          "quote": "And one thing that I think is unique about harness engineering is we're actually using the tool calls themselves to prompt inject the agent to manage its context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            369.12,
+            373.2
+          ],
+          "quote": "Would you say that helped you or hindered you from the point of view of harness engineering?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2305.44,
+            2307.2
+          ],
+          "quote": "The harness engineering gets easier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2381.6,
+            2384.8
+          ],
+          "quote": "So let's jump back into harness engineering then.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 442,
+          "t": [
+            3068,
+            3069.28
+          ],
+          "quote": "Harness engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 444,
+          "t": [
+            3073.04,
+            3079.52
+          ],
+          "quote": "Um engineers and a well, harness engineering is is part of every project, every team.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集将其说成作为代码库唯一入口的编码智能体，团队所有成员通过它提交代码，它特别擅长遵循指令、编写测试和调用测试，并且能自主完成完整工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.32,
+            4.72
+          ],
+          "quote": "We wanted Codex to be able to connect to our Electron app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            11.28,
+            28.32
+          ],
+          "quote": "Still, Codex was connecting to the Electron app over Chrome DevTools protocol, but it was actually a local TypeScript daemon that was being spun up that was providing a little CLI interface instead of the MCP because we found that there were only two or three tool calls that we actually needed, just more context efficient as faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            489.2,
+            497.04
+          ],
+          "quote": "Uh so this is you know 03 era Codex Mini had just came out, the very first versions of Codex CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            532.88,
+            536.64
+          ],
+          "quote": "This is just not something that uh that Codex was able to do reliably back then.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            587.76,
+            599.28
+          ],
+          "quote": "Because to see what mistakes it's making, I'm also able to see the parts that it does really good at and can start to retool the way I go about my week to lean into the stuff Codex is really good at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            723.44,
+            738.96
+          ],
+          "quote": "Uh and the reason for that is because as we accrued more and more context, more and more capability into the code base, sort of everyone invoking Codex as the sole entry point to the code base was getting the best parts of everybody by default.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1100.64,
+            1109.84
+          ],
+          "quote": "And the magic moment uh uh for that was sort of working on what was essentially a very early version of what the Codex app is today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1399.12,
+            1403.36
+          ],
+          "quote": "Uh early versions of codex security via Ardvark also worked in the same way, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1757.92,
+            1767.92
+          ],
+          "quote": "We started with Symfony as it was, and we gave it to Codex to say, produce a spec markdown file that is able to reproduce this system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            2018.08,
+            2028.08
+          ],
+          "quote": "I'm hearing people rave about codecs and moving from you know other well-known uh agents, Claude and things like that, over to over to Codex.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 301,
+          "t": [
+            2037.12,
+            2057.84
+          ],
+          "quote": "Internally, I guess you're probably maybe seeing this and like you know, it has has there been a has there been a moment or has there been a uh a feature or something whereby you know codex leveled up for it because of a number of things, or is it just you know the gradual hard work of a of of a group of uh of teams?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 302,
+          "t": [
+            2058.16,
+            2063.36
+          ],
+          "quote": "Yeah, so uh the the the product velocity on codex is fantastically quick.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            2075.44,
+            2094.4
+          ],
+          "quote": "Um I will say that there is a very tight and virtuous cycle between the development of Codex itself and our research team, which means there is this fantastic flywheel on every point revision of the uh GPT-5 series where uh the capability just improves in leaps and bounds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            2094.72,
+            2110.56
+          ],
+          "quote": "I would say uh big lifts uh from 5.2 to 5.3 background tool calling, parallel tool calling uh means that Codex was able to do more work all the time in order to make more progress more quickly on more complex changes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            2111.2,
+            2132.96
+          ],
+          "quote": "Uh the unification of uh the normal GPT-5 model and the codex model in 5.4 means that you are not only getting a superpowered code producing agent, but one that is also incredibly generally intelligent, a good writer, which means I'm able to start using Codex for other parts of the software development loop other than producing code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            2133.28,
+            2144.4
+          ],
+          "quote": "The slide deck that I'm gonna be presenting later today is 100% written by Codex uh using the app connectors in Google Sheets, which uh is not something I would have imagined to be possible last year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            2181.2,
+            2187.52
+          ],
+          "quote": "And one thing that I love about Codex is it'll just do the full job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2318.08,
+            2349.2
+          ],
+          "quote": "Uh, to give you an example, in order to get Codex to drive our electron app, before computer use was a thing, we needed to boot up a graphical Ubuntu in a Docker container with a virtual display driver and X server, have engineers install X quartz on their Mac in order to proxy over to that headless host uh and like wire up FFmpeg to this gross contraption in order to record videos of what the app was doing, how the agent had changed it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2402.96,
+            2419.36
+          ],
+          "quote": "Yeah, so uh a little bit of context, uh OpenAI Frontier is sort of our enterprise platform for agents, and it covers everything from how to build agents with the API, agents SDK, the codex harness, uh, to how you would sort of observe and govern agents running around your enterprise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2419.52,
+            2441.84
+          ],
+          "quote": "Uh and it's very, very cool to kind of see all of the harness aligning on codex for all the things that we do, which means there's a single highly leveraged uh interface between the product we are building and research, which means uh sort of all the post-training improvements that we do on the model accrue leverage to every product that we build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2457.2,
+            2481.04
+          ],
+          "quote": "Uh very, very cool that we have ended up sort of in this like IOCTL sort of extensibility, uh, where really the biggest levers we as agent builders, as product builders, can give the model give codex is to give it chunkier and chunkier tools that connect to the actual business problems that we're trying to solve and to do context shaping and management for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2532.24,
+            2536.72
+          ],
+          "quote": "And all of that comes from using that base codex harness in order to build these agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2694.88,
+            2701.44
+          ],
+          "quote": "Looking at the local development process, we wanted Codex to be able to connect to our Electron app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2709.6,
+            2725.84
+          ],
+          "quote": "Uh still, Codex was connecting to the Electron app over uh Chrome DevTools protocol, but it was actually a local TypeScript daemon that was being spun up that was providing a little CLI interface instead of the MCP because we found that there were only two or three tool calls that we actually needed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集提到它是 Ryan 所在的公司，其 Frontier 企业平台正在对齐 Codex，并且研究团队与 Codex 开发之间存在紧密的良性循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            116.88,
+            122.32
+          ],
+          "quote": "And joining me is Ryan Lapopolo, who is a member of technical staff at OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 33,
+          "t": [
+            167.28,
+            178.96
+          ],
+          "quote": "And we're gonna talk about harness engineering, and we'll talk about some of the methodologies that you've used internally at OpenAI and talk through maybe some of the bits that have been enjoyable, some of the bits that have been scary, and it's gonna be great fun.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2402.96,
+            2419.36
+          ],
+          "quote": "Yeah, so uh a little bit of context, uh OpenAI Frontier is sort of our enterprise platform for agents, and it covers everything from how to build agents with the API, agents SDK, the codex harness, uh, to how you would sort of observe and govern agents running around your enterprise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            3084.64,
+            3087.36
+          ],
+          "quote": "Um OpenAI, very happy with that.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其说成可以在代码库中做高度复杂、自主的软件工程工作的编码主体，并且通过异步循环从自身错误中学习，能对组织和团队产生副作用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            215.12,
+            219.76
+          ],
+          "quote": "And in order to get the agent to know and understand those, we have to write it down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            219.92,
+            229.28
+          ],
+          "quote": "We have to make sure that like the content of those choices, all those non-functional requirements that go into making good code get surfaced to the agent at the right time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            229.6,
+            246.4
+          ],
+          "quote": "So it's a combination of getting context into the repository in a place where these coding agents can see it, surfacing it to the agent at the right time, and making sure that all the code that we produce kind of like follows the golden thread of what it means for us to produce high-quality software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            246.64,
+            260.96
+          ],
+          "quote": "Reviewer agents, tests, lints, uh big refactoring loops, all sort of ways to get the agent to close the loop and make sure that uh it proves to me and the rest of the team that the code it has produced is acceptable and can't be merged.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            281.2,
+            291.6
+          ],
+          "quote": "And harness engineering is kind of a combination of both with the goal of making sure the context that we give the agent is correct so that it can work its reasoning magic to produce good code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            292.16,
+            301.04
+          ],
+          "quote": "And one thing that I think is unique about harness engineering is we're actually using the tool calls themselves to prompt inject the agent to manage its context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            441.2,
+            450.48
+          ],
+          "quote": "I'd love to, you know, when you have those 15 open, there's obviously a huge amount of agent-written code and and various different uh roles in the in the in the workflow in the pipeline.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 80,
+          "t": [
+            505.2,
+            517.28
+          ],
+          "quote": "Um and sort of by necessity, working with the model, working with the coding agent, I kind of had to stick myself in as a very chunky tool uh for the model to delegate to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            536.72,
+            541.6
+          ],
+          "quote": "So I would type the commands in my terminal and you know, give the agent some dependencies to work with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            556.32,
+            563.12
+          ],
+          "quote": "So then I can kind of figure out the other ways that I can help the agent get more and more chunky tools to give it more capability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            563.52,
+            572.96
+          ],
+          "quote": "And to start with zero like that, you kind of viscerally experience the failure of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            573.44,
+            587.28
+          ],
+          "quote": "Uh I think to kind of have a good sense of the tool calls as they are making, the mistakes the agent is making sort of in the process of writing the code is really, really important in order to build confidence in it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            605.68,
+            614
+          ],
+          "quote": "So collapsing a lot of the engineering process into these like very well-paved roads for the agent helps me build confidence in it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            667.28,
+            677.84
+          ],
+          "quote": "We were building sort of a data analyst agent, uh, a data analyst agent using codecs inside in order to write SQL and call data bricks and all these sort of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            678.08,
+            685.36
+          ],
+          "quote": "Um means a lot of the techniques that we were using to write the code were techniques we needed to deploy into this agent to have it be effective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            758.16,
+            760.96
+          ],
+          "quote": "You're effectively onboarding the new hire through the agent already.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 135,
+          "t": [
+            859.84,
+            883.92
+          ],
+          "quote": "And it's very cool to kind of like have this come back into vogue with agents because uh if the entry point to the code base is always the agent, it's really not required for every engineer on the team to have a full and complete mental model of the system, so long as that they are able to trust that everyone else on the team is enabling codecs to have that level of expertise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1075.84,
+            1085.04
+          ],
+          "quote": "But in terms of like true trust, as in, yeah, I'm gonna I'm gonna hand this off to the agent and believe that this is gonna be high quality that I can actually uh you know push to production.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1094.96,
+            1100
+          ],
+          "quote": "One was uh do I trust the agent to be able to produce code well?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1303.92,
+            1313.44
+          ],
+          "quote": "And that was sort of the seed for what it meant for the agent to go sort of spider through the code base, stack rank a set of violations, propose PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1313.52,
+            1319.6
+          ],
+          "quote": "And then one interesting thing there is we had like an on call whose job it was to supervise all the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1382.64,
+            1389.92
+          ],
+          "quote": "Or or would you uh today look at adding that into the uh agent at code creation time?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1440.48,
+            1455.76
+          ],
+          "quote": "And when you when you do push with mistakes or things that you want to correct, um are you less fearful of uh uh pushing those mistakes to production these days because you know how fast those can be reviewed and fixed by an agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1572.96,
+            1580.16
+          ],
+          "quote": "I can add some docs, or I can operationalize a review agent that is going to judge every PR according to those docs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1770.72,
+            1777.28
+          ],
+          "quote": "Give that to a new agent that says, without access to the original, that says, You have a spec, please implement this system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1781.84,
+            1795.04
+          ],
+          "quote": "When it says it's done, we give that system, the spec, and the original implementation to a third agent who's gonna act as the judge to say we are attempting to replicate the original version of Symfony.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1795.2,
+            1799.28
+          ],
+          "quote": "This was the spec that was given to an agent to produce it, and this is what they came up with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1956.24,
+            1991.44
+          ],
+          "quote": "One neat way that we made that idea real in this app we are building is in dev, uh electron app, we had a uh window screen that the agent could launch, uh, which would basically give it the native rendering canvas that we're shipping, as well as our full design system and component library, which means it's actually able to prototype new screens directly in the surface that we're deploying, produce screenshots of them, give them to our designer, and now it's a super, super tight loop on does our vision match the reality?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            2111.2,
+            2132.96
+          ],
+          "quote": "Uh the unification of uh the normal GPT-5 model and the codex model in 5.4 means that you are not only getting a superpowered code producing agent, but one that is also incredibly generally intelligent, a good writer, which means I'm able to start using Codex for other parts of the software development loop other than producing code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2217.84,
+            2220.48
+          ],
+          "quote": "Is it updates to the agent or updates to the model?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2307.36,
+            2317.52
+          ],
+          "quote": "The same techniques um we would use, but the need to build chunky tools in order to attach the agent to the outside world is just things that we need to do less and less.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2318.08,
+            2349.2
+          ],
+          "quote": "Uh, to give you an example, in order to get Codex to drive our electron app, before computer use was a thing, we needed to boot up a graphical Ubuntu in a Docker container with a virtual display driver and X server, have engineers install X quartz on their Mac in order to proxy over to that headless host uh and like wire up FFmpeg to this gross contraption in order to record videos of what the app was doing, how the agent had changed it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2457.2,
+            2481.04
+          ],
+          "quote": "Uh very, very cool that we have ended up sort of in this like IOCTL sort of extensibility, uh, where really the biggest levers we as agent builders, as product builders, can give the model give codex is to give it chunkier and chunkier tools that connect to the actual business problems that we're trying to solve and to do context shaping and management for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2500.8,
+            2512.64
+          ],
+          "quote": "Have been doing some really, really interesting experimentation on what it means to potentially give each agent in your enterprise sort of a sidecar that is continuously managing context for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2625.84,
+            2631.04
+          ],
+          "quote": "I am looking at the diffs as the agent is producing them, but I am able to do that less and less as I gain trust in it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2875.04,
+            2892.32
+          ],
+          "quote": "Like I find myself operating in this space differently than I did a year ago, where I am willing to vibe out a 50,000 line of diff PR and throw it away only to learn the areas where the agent is likely to fail, uh, where it is going to struggle putting those interfaces into place that I like.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集将其说成 harness 工程的独特之处——使用工具调用本身来提示词注入智能体，以管理其上下文窗口，比如将测试和 lint 报错压缩成语义清晰的文字而非机械列表",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            292.16,
+            301.04
+          ],
+          "quote": "And one thing that I think is unique about harness engineering is we're actually using the tool calls themselves to prompt inject the agent to manage its context window.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集将其说成从'永远不给两次同样的反馈'原则中堆叠出来的程序化规则，配合自动化 CI 任务扫描代码库中的偏差并自动提 PR 修复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            1218.24,
+            1241.92
+          ],
+          "quote": "So that kind of stacked into sort of these programmatic guardrails, and then a very long outer loop of sort of these automated CI jobs that are looking for slop, identifying slop, kind of compiling a list of golden principles for what it means for us to write good code, finding divergences from it in the code base, proposing PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1372.56,
+            1382.32
+          ],
+          "quote": "So it's almost like build the code and then do these almost like audits or reviews in post and then raise PRs where you're almost uh you know you're outside of the guardrails?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1503.36,
+            1524.72
+          ],
+          "quote": "Because it it feels like in this kind of scenario, debt and and fix is cheap because it's about, well, we'll run an audit and we'll so long as you have those guardrails and rules in place to say these these are these are some of our best practices, I can I can put you know something in which isn't ideal and no it's not gonna take six months for a human to come and review this code.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": false,
+      "how_described": "本集将其说成与 harness 工程对比的已有概念，harness 工程是其与工具提供的组合升级版",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            261.52,
+            265.04
+          ],
+          "quote": "So we've had prompt engineering, context engineering, and harness engineering now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 43,
+          "t": [
+            265.12,
+            270.08
+          ],
+          "quote": "What would you say are the kind of like the main differences or overlap between context engineering and harness engineering?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "symfony",
+      "type": "company",
+      "role": "company",
+      "name": "Symfony",
+      "file": "Symfony",
+      "primary": true,
+      "how_described": "本集将其说成一个'幽灵库'（ghost library），发布的东西是规范而非代码，起点是一个在 monorepo 里的 TypeScript 凭感觉实现，通过三阶段流水线验证规范的完备性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            1689.04,
+            1719.2
+          ],
+          "quote": "And for things like Symfony, for all these lints that we're producing, uh for things like documentation on critical user journeys or product features or click flows and screens, I've actually found it is much easier to produce the code first, to have that code sort of like present a straw man for what the world could look like, engage with that as a team to refine it, and then distill the spec out of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1734.96,
+            1738.48
+          ],
+          "quote": "So for Symfony, the thing that we shipped is very much a spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1738.56,
+            1754
+          ],
+          "quote": "But the thing that we started with was kind of a vibed implementation of Symfony in TypeScript in our mono repo, where when we thought it was good and it was solving the problems that we wanted it to, we worked on producing a spec out of that to share with the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1757.92,
+            1767.92
+          ],
+          "quote": "We started with Symfony as it was, and we gave it to Codex to say, produce a spec markdown file that is able to reproduce this system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1781.84,
+            1795.04
+          ],
+          "quote": "When it says it's done, we give that system, the spec, and the original implementation to a third agent who's gonna act as the judge to say we are attempting to replicate the original version of Symfony.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spec",
+      "type": "concept",
+      "role": "concept",
+      "name": "规范 (spec)",
+      "file": "规范",
+      "primary": true,
+      "how_described": "本集将其说成在代码生产变得极其便宜后比代码更持久的资产，应该先写代码实现再从中提炼规范，最终得到对业务逻辑关键部分指定得很细、但对实现留足灵活性的文档",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            1627.04,
+            1633.76
+          ],
+          "quote": "And it brings me to um something called uh Symphony, which is a ghost library uh because it's spec.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1671.12,
+            1688.8
+          ],
+          "quote": "Yeah, so it's kind of funny where you think traditionally in spec-driven development, right, you start with a spec and then you kind of refine it as the code is produced, sort of thing, to make it more concrete, to suss out those hidden decisions and ambiguity in the spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1689.04,
+            1719.2
+          ],
+          "quote": "And for things like Symfony, for all these lints that we're producing, uh for things like documentation on critical user journeys or product features or click flows and screens, I've actually found it is much easier to produce the code first, to have that code sort of like present a straw man for what the world could look like, engage with that as a team to refine it, and then distill the spec out of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1734.96,
+            1738.48
+          ],
+          "quote": "So for Symfony, the thing that we shipped is very much a spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1738.56,
+            1754
+          ],
+          "quote": "But the thing that we started with was kind of a vibed implementation of Symfony in TypeScript in our mono repo, where when we thought it was good and it was solving the problems that we wanted it to, we worked on producing a spec out of that to share with the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1757.92,
+            1767.92
+          ],
+          "quote": "We started with Symfony as it was, and we gave it to Codex to say, produce a spec markdown file that is able to reproduce this system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1768.72,
+            1769.6
+          ],
+          "quote": "We end up with a spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1770.72,
+            1777.28
+          ],
+          "quote": "Give that to a new agent that says, without access to the original, that says, You have a spec, please implement this system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1781.84,
+            1795.04
+          ],
+          "quote": "When it says it's done, we give that system, the spec, and the original implementation to a third agent who's gonna act as the judge to say we are attempting to replicate the original version of Symfony.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1795.2,
+            1799.28
+          ],
+          "quote": "This was the spec that was given to an agent to produce it, and this is what they came up with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1803.76,
+            1807.84
+          ],
+          "quote": "And propose changes to the spec in order to make the next attempt better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1817.04,
+            1854.4
+          ],
+          "quote": "But what you end up with is this really refined spec that is reliably able to produce the system as it is written while still providing space and ambiguity for consumers of this ghost library to adapt it to their actual business context, their actual repository and tool chain and issue tracker and all these other sorts of things, uh, which I think is pretty cool because it means that we end up specifying in very tight, high detail the parts that actually matter, the business logic critical parts, while still leaving the flexibility for folks to evolve and change it as they see fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1890.96,
+            1899.44
+          ],
+          "quote": "I'm not tempted to use that, but I'm gonna try and distill everything that I have learned and the functional requirements, etc., into that spec.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1899.52,
+            1912.32
+          ],
+          "quote": "And I love that iterate iterable kind of like that iterations through to make to really, you know, I've seen implementation to spec gaps, and this is this is really good to be able to really fill that in to make sure that the spec captures everything that we need.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "test-time-compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试时计算 (test time compute)",
+      "file": "测试时计算",
+      "primary": true,
+      "how_described": "本集将其说成每天消耗十亿 token 的理由——让模型通过更多推理变得更聪明，从模型中提取的智能量与 token 消耗基本是线性关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 424,
+          "t": [
+            2941.68,
+            2945.6
+          ],
+          "quote": "Uh this is ultimately why test time compute exists, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "asynchronous-loops",
+      "type": "concept",
+      "role": "concept",
+      "name": "异步循环 (asynchronous loops)",
+      "file": "异步循环",
+      "primary": true,
+      "how_described": "本集将其说成有效性的核心组成部分，包括自动化 CI 任务扫描代码库、吸收人工反馈、将学到的内容存为 artifact 供下次运行使用，使错误可以进入 main 并被学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 215,
+          "t": [
+            1392.48,
+            1398.96
+          ],
+          "quote": "We we do think sort of these asynchronous loops are a big part of what it means to be effective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2968.72,
+            2971.76
+          ],
+          "quote": "You must find ways to put these asynchronous loops into place.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到它是最初用于让 Codex 连接 Electron 应用的 Chrome DevTools 协议方式，后来被 Codex 自主替换为 TypeScript 守护进程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.96,
+            8.08
+          ],
+          "quote": "Chrome DevTools protocol MCP was how we started out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            11.28,
+            28.32
+          ],
+          "quote": "Still, Codex was connecting to the Electron app over Chrome DevTools protocol, but it was actually a local TypeScript daemon that was being spun up that was providing a little CLI interface instead of the MCP because we found that there were only two or three tool calls that we actually needed, just more context efficient as faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2701.6,
+            2705.12
+          ],
+          "quote": "Chrome DevTools protocol MCP was how we started out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2709.6,
+            2725.84
+          ],
+          "quote": "Uh still, Codex was connecting to the Electron app over uh Chrome DevTools protocol, but it was actually a local TypeScript daemon that was being spun up that was providing a little CLI interface instead of the MCP because we found that there were only two or three tool calls that we actually needed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "computer use",
+      "file": "computer use",
+      "primary": false,
+      "how_described": "本集提到它是 GPT-5.5 中带来的超强力功能，嵌入在应用中的浏览器，使之前需要 Docker 容器加虚拟显示驱动的复杂方案完全过时",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            2144.96,
+            2178.16
+          ],
+          "quote": "Uh and uh some super powered stuff that came out in uh 5.5 with uh computer use, the browser embedded in the app, these things make it so much easier in order to close the loop, where a ton of the jank that we had to put in place in the 5.1, 5.2 era just doesn't need to exist because we are giving more chunky, powerful tools because there is this virtuous loop between the harness and the app that we are deploying and sort of our research environment and what it means to get the model to be effective at using these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2318.08,
+            2349.2
+          ],
+          "quote": "Uh, to give you an example, in order to get Codex to drive our electron app, before computer use was a thing, we needed to boot up a graphical Ubuntu in a Docker container with a virtual display driver and X server, have engineers install X quartz on their Mac in order to proxy over to that headless host uh and like wire up FFmpeg to this gross contraption in order to record videos of what the app was doing, how the agent had changed it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2349.36,
+            2356.24
+          ],
+          "quote": "And this is like entirely obsoleted and like a single toggle in the app to turn on computer use, like so, so much easier.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": false,
+      "how_described": "本集将其类比为当前智能体软件生产模式的早期阶段，就像 CI/CD 刚被发明时大家都在摸索，要 15 年后才标准化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            1218.24,
+            1241.92
+          ],
+          "quote": "So that kind of stacked into sort of these programmatic guardrails, and then a very long outer loop of sort of these automated CI jobs that are looking for slop, identifying slop, kind of compiling a list of golden principles for what it means for us to write good code, finding divergences from it in the code base, proposing PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            3042.96,
+            3049.76
+          ],
+          "quote": "Uh sort of feels like we have just invented the concept of CI CD, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "electron",
+      "type": "company",
+      "role": "company",
+      "name": "Electron",
+      "file": "Electron",
+      "primary": false,
+      "how_described": "本集提到团队正在构建一个 Electron 原生应用，Codex 需要通过 Chrome DevTools 协议连接到它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.32,
+            4.72
+          ],
+          "quote": "We wanted Codex to be able to connect to our Electron app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            11.28,
+            28.32
+          ],
+          "quote": "Still, Codex was connecting to the Electron app over Chrome DevTools protocol, but it was actually a local TypeScript daemon that was being spun up that was providing a little CLI interface instead of the MCP because we found that there were only two or three tool calls that we actually needed, just more context efficient as faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1956.24,
+            1991.44
+          ],
+          "quote": "One neat way that we made that idea real in this app we are building is in dev, uh electron app, we had a uh window screen that the agent could launch, uh, which would basically give it the native rendering canvas that we're shipping, as well as our full design system and component library, which means it's actually able to prototype new screens directly in the surface that we're deploying, produce screenshots of them, give them to our designer, and now it's a super, super tight loop on does our vision match the reality?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2318.08,
+            2349.2
+          ],
+          "quote": "Uh, to give you an example, in order to get Codex to drive our electron app, before computer use was a thing, we needed to boot up a graphical Ubuntu in a Docker container with a virtual display driver and X server, have engineers install X quartz on their Mac in order to proxy over to that headless host uh and like wire up FFmpeg to this gross contraption in order to record videos of what the app was doing, how the agent had changed it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2694.88,
+            2701.44
+          ],
+          "quote": "Looking at the local development process, we wanted Codex to be able to connect to our Electron app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2709.6,
+            2725.84
+          ],
+          "quote": "Uh still, Codex was connecting to the Electron app over uh Chrome DevTools protocol, but it was actually a local TypeScript daemon that was being spun up that was providing a little CLI interface instead of the MCP because we found that there were only two or three tool calls that we actually needed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到行业社区讨论中有人从 Claude 等其他知名智能体转移到 Codex",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            2018.08,
+            2028.08
+          ],
+          "quote": "I'm hearing people rave about codecs and moving from you know other well-known uh agents, Claude and things like that, over to over to Codex.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai-frontier",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI Frontier",
+      "file": "OpenAI Frontier",
+      "primary": false,
+      "how_described": "本集将其说成 OpenAI 的企业智能体平台，涵盖从 API 构建智能体到观察和管理企业中运行的智能体的一切",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 354,
+          "t": [
+            2402.96,
+            2419.36
+          ],
+          "quote": "Yeah, so uh a little bit of context, uh OpenAI Frontier is sort of our enterprise platform for agents, and it covers everything from how to build agents with the API, agents SDK, the codex harness, uh, to how you would sort of observe and govern agents running around your enterprise.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

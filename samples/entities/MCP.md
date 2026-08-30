@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>18</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(30:36起):本集提到 Oji 在学习理解 MCP 并将不同的东西连接到它上面，还在家里建了一个 MCP 服务器
 - **[[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]]**(31:48起):本集把它说成：Figma Dev Mode 等产品用于连接其他生态系统的一项技术协议。它能帮助开发者在自己的智能体开发环境中直接拉取并使用 Figma 的上下文。
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(22:30起):本集解释它是 Anthropic 提出的模型上下文协议,本质上是一套包装器,能将 Salesforce、Snowflake 等企业工具暴露给大语言模型,让模型直接操作,实现跨系统的自动化编排。
+- **[[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|《Harness 工程：让智能体零人工写代码的实操》]]**(00:04起):本集提到它是最初用于让 Codex 连接 Electron 应用的 Chrome DevTools 协议方式，后来被 Codex 自主替换为 TypeScript 守护进程
 - **[[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]]**(61:33起):本集提到在定稿后，你可以通过 Figma MCP 协议把动效设计发给大语言模型（LLM）去进行代码开发。
 - **[[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]]**(55:23起):Daniel在讨论反馈循环时提到，可以通过MCP或智能体连接到可观测性，让它弄清楚自己构建并部署的东西是否正在崩溃
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(14:50起):本集把它说成:一种让大模型更好地与外部工具（如 Figma）或 API 进行通信的标准，能大幅拓展 AI 的执行边界。
@@ -39,12 +40,13 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*17 集*
+*18 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念(提及)
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为概念
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|《Harness 工程：让智能体零人工写代码的实操》]] — 作为概念(提及)
 - [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为概念(提及)
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]] — 作为概念(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念(提及)
@@ -63,9 +65,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[护栏]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[Figma]] · [[Codex]] · [[OpenAI]] · [[LLM]]
+[[智能体]] · [[护栏]] · [[Lenny]] · [[Claude]] · [[Codex]] · [[Claude Code]] · [[Cursor]] · [[Figma]] · [[OpenAI]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":153,"Lenny":65,"护栏":30,"Claude Code":38,"Cursor":40,"Claude":36,"Figma":11,"Codex":27,"OpenAI":69,"LLM":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":155,"护栏":31,"Lenny":65,"Claude":37,"Codex":28,"Claude Code":38,"Cursor":40,"Figma":11,"OpenAI":70,"LLM":20}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1150 @@
+{
+  "episode_id": "2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil",
+  "podcast": "Eye On A.I.",
+  "date": "2026-08-10",
+  "tags": [
+    "去中心化AI",
+    "边缘计算",
+    "开源模型",
+    "稳定币",
+    "去中介化"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "paolo-ardoino",
+      "type": "person",
+      "role": "host",
+      "name": "Paolo Ardoino",
+      "file": "Paolo Ardoino",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "tether",
+      "type": "company",
+      "role": "company",
+      "name": "Tether",
+      "file": "Tether",
+      "primary": true,
+      "how_described": "本集说 Tether 是一家诞生于2014年的公司，做数字美元（USDT），拥有5.73亿用户，每季度增长超3000万，不收交易费、靠持有的美元国库券利息赚钱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            56.315,
+            74.818
+          ],
+          "quote": "Why don't we start by having you introduce yourself to listeners about how you came to be involved with Tether and what Tether is and why it's important, which a lot of people, including me, don't quite understand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            75.978,
+            78.799
+          ],
+          "quote": "Look, Tether is a company born in 2014.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            124.702,
+            140.287
+          ],
+          "quote": "Sometimes my blood boils because how is it possible that a little company like Tether was able to achieve more for financial inclusion than all NGOs and charities and whatnot for the last 50 years?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            224.886,
+            232.254
+          ],
+          "quote": "The people who are trading and holding Tether are not, by and large, not poor people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            393.829,
+            398.072
+          ],
+          "quote": "And we proved with Tether that we could solve that problem or help to solve that problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            637.828,
+            654.137
+          ],
+          "quote": "So what we realized at Tether is that we could, but there was already a solution also when it comes to data sharing, how we could build a protocol over internet that could scale to tens of millions of people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1117.917,
+            1119.097
+          ],
+          "quote": "Few days ago, Tether,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2261.941,
+            2287.998
+          ],
+          "quote": "exactly that will be an app that will work on linux windows mac ios android name it and on servers can work everywhere and uh yeah we and again will be fully open source and so that that clips the the the tether to the cloud i mean you're now independent of the cloud if you have that compute uh capability on your laptop",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2686.842,
+            2689.783
+          ],
+          "quote": "I mean, as Tether, we can just build an alternative.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            3022.876,
+            3024.639
+          ],
+          "quote": "How is Tether organized?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 456,
+          "t": [
+            3025.139,
+            3030.987
+          ],
+          "quote": "Because this is a research initiative under Tether data, is that right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            3032.148,
+            3033.731
+          ],
+          "quote": "So Tether has four silos.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            3043.961,
+            3047.505
+          ],
+          "quote": "We have Tether Finance, the stablecoins, easily put.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            3048.226,
+            3049.468
+          ],
+          "quote": "Then we have Tether Energy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3369.83,
+            3375.633
+          ],
+          "quote": "And we believe that is going to be very important for Tether because that is our population, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "qvac",
+      "type": "company",
+      "role": "company",
+      "name": "QVAC",
+      "file": "QVAC",
+      "primary": true,
+      "how_described": "本集说 QVAC（Quantumverse Automatic Computer）是 Tether 打造的开源 AI 平台，让开发者通过 SDK 把 AI 能力嵌入现有应用，支持在手机和笔记本上跑推理和微调，数据完全不出设备",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            731.575,
+            736.257
+          ],
+          "quote": "And that's why we built HolePunch as a protocol and then QVAC as an AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            782.79,
+            787.313
+          ],
+          "quote": "Explain what QVAC, for short, what that is?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1176.48,
+            1188.962
+          ],
+          "quote": "I believe that today with the QVAC, we've created a platform, an open source platform, because open source is very important, so that people don't have to trust that they can verify the platform themselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1790.155,
+            1801.825
+          ],
+          "quote": "But with QVAC, we took the Llama CPP, that is probably the most known inference engine for open source AI, and we built on top of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1876.802,
+            1879.744
+          ],
+          "quote": "Second, we also created in QVAC...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1907.6,
+            1914.682
+          ],
+          "quote": "You have all these models that are supported by our QVAC platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            2011.53,
+            2033.702
+          ],
+          "quote": "Now, QVAC supports OCR, so basically recognition of images and text in images, supports text-to-speech, speech-to-text, supports standard AI chats like what you are used to with ChatGPT, support medical models, support financial models, support so many different models, plus has the ability to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            2099.765,
+            2108.29
+          ],
+          "quote": "First of all, we want the QVAC platform is made so that it's built as a software development kit so that every developer...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            2139.803,
+            2142.265
+          ],
+          "quote": "You integrate QVAC within your application.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2197.497,
+            2200.038
+          ],
+          "quote": "It's called Qvac AI Assistant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2429.654,
+            2439.499
+          ],
+          "quote": "And so, yeah, we have these two robotics companies that are testing how Qvac is performing in the brain of the robots they're building.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2849.854,
+            2853.816
+          ],
+          "quote": "And something like QVAC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            3121.295,
+            3135.485
+          ],
+          "quote": "Yeah, and which, I mean, this sounds promising, this QVAC, the tethered data vertical, is where are you spending most of your time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            3199.074,
+            3204.1
+          ],
+          "quote": "This is really about the QVAC initiative.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3451.538,
+            3457.584
+          ],
+          "quote": "And I'm going to follow this QVAC more closely now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把推理描述为'你向模型提问、得到回复'的计算过程，QVAC 在 Llama CPP 之上做了大量优化使其能扩展到几乎所有消费级 GPU",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 253,
+          "t": [
+            1663.494,
+            1665.956
+          ],
+          "quote": "The first one is inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1666.276,
+            1671.459
+          ],
+          "quote": "The process of inference is, you know, you ask something to a model, you get a reply.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1671.539,
+            1673.72
+          ],
+          "quote": "And so that computation is called inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1780.227,
+            1790.055
+          ],
+          "quote": "And so we understood that, of course, inference was already a proven task to do on local devices.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1790.155,
+            1801.825
+          ],
+          "quote": "But with QVAC, we took the Llama CPP, that is probably the most known inference engine for open source AI, and we built on top of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2034.843,
+            2046.739
+          ],
+          "quote": "Also interact with other devices at the same time, supports delegated inference so you can, from your smartphone, you can use your laptop to run the heaviest of the tasks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集把微调描述为让模型根据你的数据学习、变成'你的'AI 的过程，QVAC 建了通用 LoRa 微调框架，支持数百个模型在任何消费级 GPU 上微调",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 266,
+          "t": [
+            1752.116,
+            1754.077
+          ],
+          "quote": "That process is called fine-tuning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1755.07,
+            1761.735
+          ],
+          "quote": "And usually the best way, the best technique to do fine tuning is LoRa, that is low rank adaptation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1880.693,
+            1901.159
+          ],
+          "quote": "A common fine-tuning, LoRa fine-tuning framework, so that not only for the BitNet models, but any model that we support, and we support hundreds of models, we give to the developer the same framework to fine-tune any model on all the consumer GPUs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1915.202,
+            1919.203
+          ],
+          "quote": "Now you can run fine-tuning directly on your own device.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bitnet",
+      "type": "concept",
+      "role": "concept",
+      "name": "BitNet",
+      "file": "BitNet",
+      "primary": true,
+      "how_described": "本集说 BitNet 是微软做的一位量化（1-bit quantization）模型架构，原始版本太依赖英伟达高端 GPU，QVAC 团队修改了它使其能跑在任何消费级 GPU 上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1627.16,
+            1631.445
+          ],
+          "quote": "It's built around this BitNet LoRa framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1636.828,
+            1639.83
+          ],
+          "quote": "A lot of listeners will not know what BitNet is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1810.242,
+            1815.904
+          ],
+          "quote": "On top of that, the other breakthrough that was done by Microsoft was called BitNet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1816.864,
+            1821.886
+          ],
+          "quote": "The problem is that BitNet is a one-bit model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1833.71,
+            1836.591
+          ],
+          "quote": "Microsoft came up with this BitNet, so one-bit",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1858.509,
+            1876.141
+          ],
+          "quote": "And so we modified the first BitNet to make it adaptable to run on any consumer device, like in any consumer GPU, like the Snapdragon GPUs that you find on the Samsung phones or the Adreno GPUs or the Apple GPUs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1880.693,
+            1901.159
+          ],
+          "quote": "A common fine-tuning, LoRa fine-tuning framework, so that not only for the BitNet models, but any model that we support, and we support hundreds of models, we give to the developer the same framework to fine-tune any model on all the consumer GPUs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lora",
+      "type": "concept",
+      "role": "concept",
+      "name": "LoRa",
+      "file": "LoRa",
+      "primary": true,
+      "how_described": "本集说 LoRa（low rank adaptation）是做微调最好的技术，只调整模型一小部分权重就能定制化，QVAC 基于此建了通用微调框架",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1627.16,
+            1631.445
+          ],
+          "quote": "It's built around this BitNet LoRa framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1755.07,
+            1761.735
+          ],
+          "quote": "And usually the best way, the best technique to do fine tuning is LoRa, that is low rank adaptation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1880.693,
+            1901.159
+          ],
+          "quote": "A common fine-tuning, LoRa fine-tuning framework, so that not only for the BitNet models, but any model that we support, and we support hundreds of models, we give to the developer the same framework to fine-tune any model on all the consumer GPUs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-centers",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data centers)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集把当前大量建造的数据中心描述为可能将来用不上的产能，因为大多数人会在手机上跑 AI，企业和政府也可能用 ASIC 在本地跑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.797,
+            31.168
+          ],
+          "quote": "they're building all of these data centers and it's not at all clear that the compute paradigm that we're currently operating under is going to continue in which case maybe you don't need all those data centers so if you don't understand how your AI works",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            36,
+            51.656
+          ],
+          "quote": "The big transformational market is enterprise and government use and those will likely run on data centers because problems that they're solving, the speed at which they have to solve them, are going to require massive compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            523.945,
+            530.647
+          ],
+          "quote": "And instead of let's connect people directly, became let's route their connections through data centers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            657.061,
+            665.129
+          ],
+          "quote": "Oh, but how we can make internet usable if there are no data centers?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            689.769,
+            700.552
+          ],
+          "quote": "We could reuse structures similar to the BitTorrent protocol and to disintermediate servers and data centers in many, many applications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            765.48,
+            779.028
+          ],
+          "quote": "That there is a path down which we can deliver the power of AI without having to go through massive data centers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1025.826,
+            1031.15
+          ],
+          "quote": "And I became very bearish with data centers, also for multiple reasons.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1229.725,
+            1249.773
+          ],
+          "quote": "Then why the hell we are building tens of gigawatts of data centers when, you know, and the subscriptions to these AI models in centralized data centers cannot be justified because then the subscription could cost millions, not hundreds of dollars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1271.518,
+            1284.127
+          ],
+          "quote": "What will run on centralized data centers on these behemoths will be a niche, will cost billions and billions of dollars, and will be probably subsidized by governments because that is of fundamental importance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1333.417,
+            1343.619
+          ],
+          "quote": "And as I think I mentioned to you, I'm interested in the potential overcapacity of data centers that's being created.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1362.847,
+            1377.515
+          ],
+          "quote": "And those will likely run on data centers because the problems that they're solving, the speed at which they have to solve them, are going to require massive compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1516.65,
+            1522.974
+          ],
+          "quote": "Over time, I think that many banks, they run their own data centers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1569.15,
+            1582.92
+          ],
+          "quote": "One of the coolest new product lines for data centers or cloud providers is actually the sovereign cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2482.747,
+            2500.219
+          ],
+          "quote": "What do you think about the, I don't know, what is it this year, $600 billion, $700 billion in capital investment by AI companies to build data, primarily to build data centers?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2511.772,
+            2527.544
+          ],
+          "quote": "It's quite interesting because if you think about it, the majority without naming names, but many of these data centers are built by third parties that are basically then sign up contracts for offtakes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2530.683,
+            2545.93
+          ],
+          "quote": "It's not that the, so of course the big AI companies have their own data centers, but the majority of this expansion in the next years will happen where they go to a third party and they say, oh, I need this data center with this capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2556.542,
+            2563.184
+          ],
+          "quote": "So they are re-inferencing themselves from the risk of building their own data centers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2566.986,
+            2574.668
+          ],
+          "quote": "If tomorrow they will find out, the world will find out that the data centers are not needed anymore.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "disintermediate",
+      "type": "concept",
+      "role": "concept",
+      "name": "去中介化 (disintermediate)",
+      "file": "去中介化",
+      "primary": true,
+      "how_described": "本集把去中介化描述为 Tether 的统一主线——从稳定币去掉金融中间商，到 QVAC 去掉云数据中心中间商，认为金融和整个技术领域都被过度中介化了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            370.956,
+            374.738
+          ],
+          "quote": "We can truly disintermediate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            689.769,
+            700.552
+          ],
+          "quote": "We could reuse structures similar to the BitTorrent protocol and to disintermediate servers and data centers in many, many applications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            725.533,
+            729.154
+          ],
+          "quote": "We looked around and we thought, what else we can disintermediate?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集提到 Tether 的电信板块建立了点对点通信协议，可以在没有数据中心的情况下扩展到数十亿人和 AI 智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 473,
+          "t": [
+            3087.837,
+            3098.281
+          ],
+          "quote": "So we built peer-to-peer communication protocols that can scale to billions of people or billions of machines and billions of AI agents without any data center.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集反复讨论消费级 GPU——QVAC 让推理和微调能跑在 Snapdragon GPU、Adreno GPU、Apple GPU 等所有消费级 GPU 上，Apple 每年出新 GPU 跑 Llama 速度翻倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1298.555,
+            1307.163
+          ],
+          "quote": "Every year they're releasing the M3, the M4, M5 GPU of their iPhone 16, 17, and now 18.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1435.927,
+            1444.995
+          ],
+          "quote": "All four AI were born so that right now, if you have a good GPU, you can run Llama 3.2 at 150 tokens per second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1802.025,
+            1807.609
+          ],
+          "quote": "And we optimized it so much that now it can scale to basically every single consumer GPU.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1858.509,
+            1876.141
+          ],
+          "quote": "And so we modified the first BitNet to make it adaptable to run on any consumer device, like in any consumer GPU, like the Snapdragon GPUs that you find on the Samsung phones or the Adreno GPUs or the Apple GPUs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2407.558,
+            2420.443
+          ],
+          "quote": "So even robotics will need to have a GPU or a NASIC in their brain to be able to analyze information immediately locally.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集说开源非常重要，这样人们不必信任而是可以自己验证平台，引用了'不是你的 AI，就不是你的智能'，QVAC 和其 AI 助手 App 都完全开源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            1176.48,
+            1188.962
+          ],
+          "quote": "I believe that today with the QVAC, we've created a platform, an open source platform, because open source is very important, so that people don't have to trust that they can verify the platform themselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1790.155,
+            1801.825
+          ],
+          "quote": "But with QVAC, we took the Llama CPP, that is probably the most known inference engine for open source AI, and we built on top of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1942.343,
+            1946.805
+          ],
+          "quote": "I mean, and the thing is that we work, you know, the beauty of open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1954.267,
+            1956.528
+          ],
+          "quote": "They are the fathers of the open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1963.587,
+            1969.969
+          ],
+          "quote": "So when we get out with a claim, it's for everyone up there in open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            2063.441,
+            2069.028
+          ],
+          "quote": "It will be, again, fully open source for everyone to actually own their own intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2203.24,
+            2204.66
+          ],
+          "quote": "And will be open source as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2261.941,
+            2287.998
+          ],
+          "quote": "exactly that will be an app that will work on linux windows mac ios android name it and on servers can work everywhere and uh yeah we and again will be fully open source and so that that clips the the the tether to the cloud i mean you're now independent of the cloud if you have that compute uh capability on your laptop",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3387.028,
+            3390.069
+          ],
+          "quote": "Open source design that someone can build?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 530,
+          "t": [
+            3406.175,
+            3408.936
+          ],
+          "quote": "I think it would be a good idea to open source the kits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3439.605,
+            3443.489
+          ],
+          "quote": "But I like your idea or the suggestion to make it open source.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "usdt",
+      "type": "concept",
+      "role": "concept",
+      "name": "USDT",
+      "file": "USDT",
+      "primary": false,
+      "how_described": "本集提到 USDT 是 Tether 的数字美元产品，不收交易费，为世界上最贫穷的人发送美元成本为零",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            361.748,
+            369.711
+          ],
+          "quote": "But bottom line is what we learned with USDT over the last 12 years is that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            424.268,
+            437.658
+          ],
+          "quote": "So USDT for us, and also for us internally, was the demonstration that in the world of finance, there are too many intermediaries.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            448.911,
+            450.732
+          ],
+          "quote": "And with USDT, we proved the opposite.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sovereign-cloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "主权云 (sovereign cloud)",
+      "file": "主权云",
+      "primary": false,
+      "how_described": "本集说主权云是数据中心或云提供商最酷的新产品线之一，指直接在某国建小型数据中心、就地部署软件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1569.15,
+            1582.92
+          ],
+          "quote": "One of the coolest new product lines for data centers or cloud providers is actually the sovereign cloud.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llama-cpp",
+      "type": "concept",
+      "role": "concept",
+      "name": "Llama CPP",
+      "file": "Llama CPP",
+      "primary": false,
+      "how_described": "本集说 Llama CPP 可能是开源 AI 最知名的推理引擎，QVAC 在其之上构建并做了大量优化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 270,
+          "t": [
+            1790.155,
+            1801.825
+          ],
+          "quote": "But with QVAC, we took the Llama CPP, that is probably the most known inference engine for open source AI, and we built on top of it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "monolithic-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "单体模型 (monolithic models)",
+      "file": "单体模型",
+      "primary": false,
+      "how_described": "本集说万亿参数的单体模型是不可持续的，不是前进的正确答案，未来应该是数百万个小模型各司其职",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 440,
+          "t": [
+            2923.448,
+            2926.371
+          ],
+          "quote": "That are basically becoming monolithic models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2926.991,
+            2932.736
+          ],
+          "quote": "I believe monolithic models are not skivable and are not the right answer moving forward.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bittorrent",
+      "type": "concept",
+      "role": "concept",
+      "name": "BitTorrent",
+      "file": "BitTorrent",
+      "primary": false,
+      "how_described": "本集说 BitTorrent 早在2000年代初就证明了点对点协议可以扩展到数亿用户和海量数据，Tether 从中汲取思路推广到更广泛的通信",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            666.09,
+            675.74
+          ],
+          "quote": "Well, there is, you know, in early 2000, a new protocol was born, was called BitTorrent, and was the iteration of all the file sharing protocols.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            689.769,
+            700.552
+          ],
+          "quote": "We could reuse structures similar to the BitTorrent protocol and to disintermediate servers and data centers in many, many applications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            3098.521,
+            3105.724
+          ],
+          "quote": "We took the idea from the BitTorrent protocol and we perfected, we built it, we adjusted, we changed it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "quantization",
+      "type": "concept",
+      "role": "concept",
+      "name": "量化 (quantization)",
+      "file": "量化",
+      "primary": false,
+      "how_described": "本集提到模型通常用32位、16位或8位来表示权重，而 BitNet 用一位量化（1-bit quantization）大幅降低计算量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 274,
+          "t": [
+            1821.966,
+            1824.767
+          ],
+          "quote": "So usually, models have different levels of quantization.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "software-development-kit",
+      "type": "concept",
+      "role": "concept",
+      "name": "software development kit",
+      "file": "software development kit",
+      "primary": false,
+      "how_described": "本集说 QVAC 不是面向终端用户的 App，而是作为软件开发工具包让开发者把 AI 能力直接嵌进自己现有的应用里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            2099.765,
+            2108.29
+          ],
+          "quote": "First of all, we want the QVAC platform is made so that it's built as a software development kit so that every developer...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "ASIC",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "kept": [
+    {
+      "i": 2,
+      "timestamp": "11:36",
+      "speaker": "Ryan Lopopolo",
+      "trimmed": false,
+      "tsWas": "11:36",
+      "spkWas": "Ryan Lopopolo"
+    },
+    {
+      "i": 3,
+      "timestamp": "15:32",
+      "speaker": "Ryan Lopopolo",
+      "trimmed": false,
+      "tsWas": "15:32",
+      "spkWas": "Ryan Lopopolo"
+    },
+    {
+      "i": 4,
+      "timestamp": "20:08",
+      "speaker": "Ryan Lopopolo",
+      "trimmed": false,
+      "tsWas": "20:08",
+      "spkWas": "Ryan Lopopolo"
+    },
+    {
+      "i": 5,
+      "timestamp": "28:20",
+      "speaker": "Ryan Lopopolo",
+      "trimmed": false,
+      "tsWas": "28:09",
+      "spkWas": "Ryan Lopopolo"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 1,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "It was very painful in order to operate hands-off like this. And sort of by necessity, working with the model, working with the coding agent, I kind of had to stick myself in as a very chunky tool for the model to delegate to."
+    },
+    {
+      "i": 6,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Whereas at the beginning of sort of the 5.2 era, we were looking at maybe three and a half PRs per engineer per week on my team. Now with 5.5, we're looking at 70, which is just fantastic. Like that that's more than than linear scaling sort of thing."
+    },
+    {
+      "i": 7,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "I am willing to vibe out a 50,000 line of diff PR and throw it away only to learn the areas where the agent is likely to fail, where it is going to struggle putting those interfaces into place that I like. And usually I'll actually push up those PRs, trash them immediately, and then crank out 15 PRs out of that to kind of like do the prep work or do the staging in order to prepare myself for the actual cutover that I want to do."
+    },
+    {
+      "i": 8,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "In order to get to a billion tokens a day, you must be thinking in a grander world than pair programming with the model. You must find ways to be in parallel. You must find ways to put these asynchronous loops into place. You must find ways to build agents that are able to side effect onto organizations and teams rather than just yourself."
+    },
+    {
+      "i": 9,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "One of the things that's part of that is deciding what not to build. Very, very common trap I see people falling into these days with agents."
+    }
+  ]
+}

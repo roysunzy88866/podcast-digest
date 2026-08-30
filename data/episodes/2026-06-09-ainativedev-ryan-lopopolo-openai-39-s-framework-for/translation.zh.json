@@ -1,0 +1,3898 @@
+[
+ {
+  "seg": 0,
+  "start": 0.32,
+  "end": 4.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "We wanted Codex to be able to connect to our Electron app.",
+  "zh": "我们希望 Codex 能够连接到我们的 Electron 应用。"
+ },
+ {
+  "seg": 1,
+  "start": 4.96,
+  "end": 8.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "Chrome DevTools protocol MCP was how we started out.",
+  "zh": "Chrome DevTools 协议 MCP 是我们开始的方式。"
+ },
+ {
+  "seg": 2,
+  "start": 8.24,
+  "end": 11.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "Eventually, I kind of took a peek at the code and it was entirely different.",
+  "zh": "最终，我稍微看了一眼代码，它完全不同了。"
+ },
+ {
+  "seg": 3,
+  "start": 11.28,
+  "end": 28.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "Still, Codex was connecting to the Electron app over Chrome DevTools protocol, but it was actually a local TypeScript daemon that was being spun up that was providing a little CLI interface instead of the MCP because we found that there were only two or three tool calls that we actually needed, just more context efficient as faster.",
+  "zh": "尽管如此，Codex 仍然通过 Chrome DevTools 协议连接到 Electron 应用，但实际上启动的是一个本地 TypeScript 守护进程，它提供了一个小的 CLI 接口来代替 MCP，因为我们发现实际上只需要两三个工具调用，这样上下文更高效也更快。"
+ },
+ {
+  "seg": 4,
+  "start": 28.96,
+  "end": 34.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "And this had happened underneath me without me knowing my workflow was not interrupted.",
+  "zh": "这一切都在我不经意间发生了，我的工作流程没有被打断。"
+ },
+ {
+  "seg": 5,
+  "start": 34.72,
+  "end": 41.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "That same dependency edge and entity relationship existed, but I almost didn't have to know how it was implemented.",
+  "zh": "相同的依赖边和实体关系存在，但我几乎不需要知道它是如何实现的。"
+ },
+ {
+  "seg": 6,
+  "start": 42.08,
+  "end": 43.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "Did you find that cool or worrying?",
+  "zh": "你觉得这很酷还是令人担忧？"
+ },
+ {
+  "seg": 7,
+  "start": 43.84,
+  "end": 45.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "I found it shocking.",
+  "zh": "我觉得这很令人震惊。"
+ },
+ {
+  "seg": 8,
+  "start": 46.8,
+  "end": 53.36,
+  "speaker": "Guy Fajani",
+  "en": "The AI Native Dev is a podcast with developers and engineering leads at the cutting edge of AI and agentic coding.",
+  "zh": "The AI Native Dev 是一档播客，邀请处于 AI 和智能体编码前沿的开发者和工程负责人。"
+ },
+ {
+  "seg": 9,
+  "start": 53.6,
+  "end": 63.76,
+  "speaker": "Guy Fajani",
+  "en": "Join your host, Guy Fajani, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+  "zh": "每周加入您的主持人 Guy Fajani 和 Simon Maple，我们会与 AI 领域最激动人心的声音聊天，并探讨开发者今天面临的最大问题。"
+ },
+ {
+  "seg": 10,
+  "start": 64.4,
+  "end": 66.72,
+  "speaker": "Guy Fajani",
+  "en": "This is the AI Native Dev.",
+  "zh": "这就是 The AI Native Dev。"
+ },
+ {
+  "seg": 11,
+  "start": 69.44,
+  "end": 72.4,
+  "speaker": "Guy Fajani",
+  "en": "Hey everyone, hope you're enjoying the episode so far.",
+  "zh": "大家好，希望你们喜欢目前为止的这一集。"
+ },
+ {
+  "seg": 12,
+  "start": 72.64,
+  "end": 80.8,
+  "speaker": "Guy Fajani",
+  "en": "Our team is working really hard behind the scenes to bring you the best guests so we can have the most informative conversations about agentic development.",
+  "zh": "我们的团队在幕后非常努力，为您带来最好的嘉宾，这样我们就可以就智能体开发进行最有信息量的对话。"
+ },
+ {
+  "seg": 13,
+  "start": 80.96,
+  "end": 86.32,
+  "speaker": "Guy Fajani",
+  "en": "Whether that's talking about the latest tools, the most efficient workflows, or defining best practices.",
+  "zh": "无论是谈论最新的工具、最有效的工作流程，还是定义最佳实践。"
+ },
+ {
+  "seg": 14,
+  "start": 86.56,
+  "end": 90.08,
+  "speaker": "Guy Fajani",
+  "en": "But for whatever reason, many of you have yet to subscribe to the channel.",
+  "zh": "但无论出于何种原因，你们中的许多人还没有订阅该频道。"
+ },
+ {
+  "seg": 15,
+  "start": 90.32,
+  "end": 97.12,
+  "speaker": "Guy Fajani",
+  "en": "If you're enjoying the podcast and want us to continue to bring you the very best content, please do us a favour and hit that subscribe button.",
+  "zh": "如果你喜欢这个播客，并希望我们继续为你带来最好的内容，请帮我们一个忙，点击那个订阅按钮。"
+ },
+ {
+  "seg": 16,
+  "start": 97.28,
+  "end": 104.56,
+  "speaker": "Guy Fajani",
+  "en": "It really does make a difference and lets us continue to improve the quality of our guests and build an even better product for you.",
+  "zh": "这确实会有所作为，并让我们继续提高嘉宾的质量，为你构建更好的产品。"
+ },
+ {
+  "seg": 17,
+  "start": 104.88,
+  "end": 106.48,
+  "speaker": "Guy Fajani",
+  "en": "Alright, back to the episode.",
+  "zh": "好了，回到正片。"
+ },
+ {
+  "seg": 18,
+  "start": 106.8,
+  "end": 111.12,
+  "speaker": "Guy Fajani",
+  "en": "Hello and welcome to another episode of the AI Native Dev.",
+  "zh": "大家好，欢迎来到 The AI Native Dev 的另一集。"
+ },
+ {
+  "seg": 19,
+  "start": 111.2,
+  "end": 116.72,
+  "speaker": "Guy Fajani",
+  "en": "And we're here live at uh AI Native DevCon 2026 in London.",
+  "zh": "我们现在在伦敦的 AI Native DevCon 2026 大会现场。"
+ },
+ {
+  "seg": 20,
+  "start": 116.88,
+  "end": 122.32,
+  "speaker": "Guy Fajani",
+  "en": "And joining me is Ryan Lapopolo, who is a member of technical staff at OpenAI.",
+  "zh": "加入我的是 Ryan Lapopolo，他是 OpenAI 的技术成员。"
+ },
+ {
+  "seg": 21,
+  "start": 122.4,
+  "end": 124.4,
+  "speaker": "Guy Fajani",
+  "en": "So Ryan, how are you?",
+  "zh": "那么 Ryan，你好吗？"
+ },
+ {
+  "seg": 22,
+  "start": 124.72,
+  "end": 125.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "Doing great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 23,
+  "start": 125.28,
+  "end": 126.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "Excited to be here.",
+  "zh": "很兴奋来到这里。"
+ },
+ {
+  "seg": 24,
+  "start": 126.16,
+  "end": 127.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh the conf is popping.",
+  "zh": "大会很火爆。"
+ },
+ {
+  "seg": 25,
+  "start": 127.52,
+  "end": 128.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "It's really fun.",
+  "zh": "真的很有趣。"
+ },
+ {
+  "seg": 26,
+  "start": 128.48,
+  "end": 132,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh I go on stage later today, and I'm just excited to get after it.",
+  "zh": "我今天晚些时候要上台，我很兴奋去搞定它。"
+ },
+ {
+  "seg": 27,
+  "start": 132.24,
+  "end": 133.04,
+  "speaker": "Guy Fajani",
+  "en": "Absolutely looking forward.",
+  "zh": "绝对很期待。"
+ },
+ {
+  "seg": 28,
+  "start": 133.12,
+  "end": 135.2,
+  "speaker": "Guy Fajani",
+  "en": "And tell us a little bit about the session that you're giving later.",
+  "zh": "告诉我们一点关于你稍后要进行的会议。"
+ },
+ {
+  "seg": 29,
+  "start": 135.52,
+  "end": 156.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, so uh I'm gonna be talking about uh all things harness engineering, which is sort of, I guess, kind of like some of the discourse that I helped define earlier in the year here, where uh talk about what it means to kind of set up agents to do highly complex, autonomous, software engineering-like work in your code bases with high confidence and uh almost headless nature if you can get to it.",
+  "zh": "是的，所以我将谈论关于 harness 工程的所有事情，这有点像，我想，有点像我在今年早些时候帮助定义的一些话语，其中谈论了什么是设置智能体在你的代码库中做高度复杂的、自主的、类似软件工程的工作，具有高信心和几乎无头的性质，如果你能做到的话。"
+ },
+ {
+  "seg": 30,
+  "start": 156.72,
+  "end": 156.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 31,
+  "start": 157.6,
+  "end": 166.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "A lot of fancy context management techniques in order to get these agents to learn from their own mistakes, produce high quality code, and go for a very long time without human intervention.",
+  "zh": "大量花哨的上下文管理技术，为了让这些智能体从它们自己的错误中学习，产生高质量的代码，并在没有人工干预的情况下运行很长时间。"
+ },
+ {
+  "seg": 32,
+  "start": 167.04,
+  "end": 167.2,
+  "speaker": "Guy Fajani",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 33,
+  "start": 167.28,
+  "end": 178.96,
+  "speaker": "Guy Fajani",
+  "en": "And we're gonna talk about harness engineering, and we'll talk about some of the methodologies that you've used internally at OpenAI and talk through maybe some of the bits that have been enjoyable, some of the bits that have been scary, and it's gonna be great fun.",
+  "zh": "我们将谈论 harness 工程，我们将谈论你在 OpenAI 内部使用的一些方法，并讨论其中一些有趣的片段，一些可怕的片段，这将会非常有趣。"
+ },
+ {
+  "seg": 34,
+  "start": 179.12,
+  "end": 182.8,
+  "speaker": "Guy Fajani",
+  "en": "So, Ryan, why don't we kick off with harness engineering?",
+  "zh": "那么，Ryan，我们为什么不从 harness 工程开始呢？"
+ },
+ {
+  "seg": 35,
+  "start": 183.92,
+  "end": 186.32,
+  "speaker": "Guy Fajani",
+  "en": "For the layman, what is harness engineering?",
+  "zh": "对于外行来说，什么是 harness 工程？"
+ },
+ {
+  "seg": 36,
+  "start": 186.72,
+  "end": 197.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, so we have these wonderful technology and these coding agents and these fantastic models that are very smart and able to produce a ton of code.",
+  "zh": "是的，所以我们有这些美妙的技术和这些编码智能体以及这些非常智能并能产生大量代码的奇妙模型。"
+ },
+ {
+  "seg": 37,
+  "start": 197.36,
+  "end": 214.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh and harness engineering is this idea that to produce code that is acceptable, to produce code that we trust, that we can build confidence in business systems around, there are a bunch of little decisions that go into the process of producing PRs, producing systems that we have to make along the way.",
+  "zh": "harness 工程就是这个想法，为了产生可接受的代码，产生我们信任的代码，我们可以围绕其建立业务系统的信心，有一堆小决策进入了产生 PR 的过程，产生我们在沿途必须制作的系统。"
+ },
+ {
+  "seg": 38,
+  "start": 215.12,
+  "end": 219.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "And in order to get the agent to know and understand those, we have to write it down.",
+  "zh": "为了让智能体知道并理解那些，我们必须把它们写下来。"
+ },
+ {
+  "seg": 39,
+  "start": 219.92,
+  "end": 229.28,
+  "speaker": "Ryan Lopopolo",
+  "en": "We have to make sure that like the content of those choices, all those non-functional requirements that go into making good code get surfaced to the agent at the right time.",
+  "zh": "我们必须确保这些选择的内容，所有那些进入优秀代码的非功能性需求，在正确的时间暴露给智能体。"
+ },
+ {
+  "seg": 40,
+  "start": 229.6,
+  "end": 246.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "So it's a combination of getting context into the repository in a place where these coding agents can see it, surfacing it to the agent at the right time, and making sure that all the code that we produce kind of like follows the golden thread of what it means for us to produce high-quality software.",
+  "zh": "所以这是一种将上下文放入这些编码智能体可以看到的存储库中的组合，在正确的时间将其暴露给智能体，并确保我们产生的所有代码都遵循我们要产生高质量软件的金线。"
+ },
+ {
+  "seg": 41,
+  "start": 246.64,
+  "end": 260.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "Reviewer agents, tests, lints, uh big refactoring loops, all sort of ways to get the agent to close the loop and make sure that uh it proves to me and the rest of the team that the code it has produced is acceptable and can't be merged.",
+  "zh": "审查智能体、测试、lints、大的重构循环，所有这些方式都是为了智能体能够闭环，并确保它向我和其他团队证明它产生的代码是可接受的并且不能被合并。"
+ },
+ {
+  "seg": 42,
+  "start": 261.52,
+  "end": 265.04,
+  "speaker": "Guy Fajani",
+  "en": "So we've had prompt engineering, context engineering, and harness engineering now.",
+  "zh": "所以我们现在有了提示词工程、上下文工程和 harness 工程。"
+ },
+ {
+  "seg": 43,
+  "start": 265.12,
+  "end": 270.08,
+  "speaker": "Guy Fajani",
+  "en": "What would you say are the kind of like the main differences or overlap between context engineering and harness engineering?",
+  "zh": "你会说上下文工程和 harness 工程之间的主要区别或重叠是什么？"
+ },
+ {
+  "seg": 44,
+  "start": 270.48,
+  "end": 280.88,
+  "speaker": "Ryan Lopopolo",
+  "en": "I think really the two only levers you have when interacting with agents is which context you provide and which tools you provide.",
+  "zh": "我认为实际上你与智能体交互时仅有的两个杠杆是你提供什么上下文和你提供什么工具。"
+ },
+ {
+  "seg": 45,
+  "start": 281.2,
+  "end": 291.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "And harness engineering is kind of a combination of both with the goal of making sure the context that we give the agent is correct so that it can work its reasoning magic to produce good code.",
+  "zh": "harness 工程是两者的结合，目标是我们给智能体的上下文是正确的，这样它可以发挥它的推理魔法来产生好的代码。"
+ },
+ {
+  "seg": 46,
+  "start": 292.16,
+  "end": 301.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "And one thing that I think is unique about harness engineering is we're actually using the tool calls themselves to prompt inject the agent to manage its context window.",
+  "zh": "我认为 harness 工程独特的一点是，我们实际上使用工具调用来提示词注入智能体以管理其上下文窗口。"
+ },
+ {
+  "seg": 47,
+  "start": 301.76,
+  "end": 314.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "One thing that's pretty neat here is the way that we structure tests and lints and well-formed tests in the code base is actually very different than how I would structure those messages for a human, right?",
+  "zh": "这里有一件很整洁的事情是，我们在代码库中构建测试和 lints 以及格式良好的测试的方式实际上与我为人类构建那些消息的方式非常不同，对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 314.96,
+  "end": 321.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "I would have an exhaustive list of failures that I give the human and have them wade through the logs in order to figure out what's wrong.",
+  "zh": "我会有一份详尽的失败列表给人类，让他们在日志中跋涉以找出问题所在。"
+ },
+ {
+  "seg": 49,
+  "start": 321.68,
+  "end": 330.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "Whereas with agents, you know, due to the nature of how they invoke tools, we want those messages to be somewhat compressed, but also semantically meaningful, right?",
+  "zh": "而对于智能体，你知道，由于它们调用工具的性质，我们希望这些消息在一定程度上被压缩，但在语义上也是有意义的，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 330.88,
+  "end": 341.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "Rather than giving sort of a mechanical ESLint failure, for example, I can give a prose error message that says, you screwed it up in this way in this file.",
+  "zh": "与其给出那种机械性的 ESLint 失败，例如，我可以给出一整段文字的错误信息，说，你在这个文件里是以这种方式搞砸的。"
+ },
+ {
+  "seg": 51,
+  "start": 341.36,
+  "end": 346.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "You know, please open it and follow the runbook in file XYZ to go fix it.",
+  "zh": "你知道，请打开它并遵循文件 XYZ 里的运行手册去修复它。"
+ },
+ {
+  "seg": 52,
+  "start": 346.56,
+  "end": 350.88,
+  "speaker": "Ryan Lopopolo",
+  "en": "Because we've seen you make this mistake before, and we know that we can trust you to do the right thing.",
+  "zh": "因为我们见过你以前犯过这个错误，而且我们知道我们可以信任你做正确的事。"
+ },
+ {
+  "seg": 53,
+  "start": 351.12,
+  "end": 351.28,
+  "speaker": "Guy Fajani",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 54,
+  "start": 351.44,
+  "end": 356,
+  "speaker": "Guy Fajani",
+  "en": "And that that that level of integration, that deeper integration, really unlocks that next step, right?",
+  "zh": "而那种那种那种程度的集成，那种更深度的集成，真的解锁了下一步，对吧？"
+ },
+ {
+  "seg": 55,
+  "start": 356.16,
+  "end": 360.16,
+  "speaker": "Guy Fajani",
+  "en": "Um now interesting, I'm looking I'm like looking at some of the uh some of your background here.",
+  "zh": "嗯现在有趣的是，我正在看，我就像在看一些你的背景资料。"
+ },
+ {
+  "seg": 56,
+  "start": 360.24,
+  "end": 365.28,
+  "speaker": "Guy Fajani",
+  "en": "You built Stripe's efficiency engineering team, led developer productivity at BREX for 350 engineers.",
+  "zh": "你建立了 Stripe 的效率工程团队，在 BREX 为 350 名工程师领导开发者生产力工作。"
+ },
+ {
+  "seg": 57,
+  "start": 365.52,
+  "end": 368.96,
+  "speaker": "Guy Fajani",
+  "en": "There's a bunch of kind of like infrastructure and DX background there.",
+  "zh": "那里有一堆像是基础设施和 DX 背景的东西。"
+ },
+ {
+  "seg": 58,
+  "start": 369.12,
+  "end": 373.2,
+  "speaker": "Guy Fajani",
+  "en": "Would you say that helped you or hindered you from the point of view of harness engineering?",
+  "zh": "你会说这从驾驭工程的角度来说是有助于你还是阻碍了你吗？"
+ },
+ {
+  "seg": 59,
+  "start": 373.52,
+  "end": 374.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh definitely helped.",
+  "zh": "呃肯定是有帮助的。"
+ },
+ {
+  "seg": 60,
+  "start": 374.64,
+  "end": 379.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "It kind of uh got me used to this idea of working through others.",
+  "zh": "它有点呃让我习惯了这种通过他人来工作的想法。"
+ },
+ {
+  "seg": 61,
+  "start": 379.92,
+  "end": 391.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, you know, when I'm trying to improve productivity for an engineering organization of 350 engineers, I can't be hands-on in the weeds of every PR that's being produced.",
+  "zh": "呃，你知道，当我试图为 350 人的工程组织提高生产力时，我无法亲力亲为深入每一个正在生成的 PR 的细节。"
+ },
+ {
+  "seg": 62,
+  "start": 391.28,
+  "end": 394.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "And I can't work directly on the underlying systems.",
+  "zh": "而且我也无法直接在底层系统上工作。"
+ },
+ {
+  "seg": 63,
+  "start": 394.88,
+  "end": 404.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "I kind of have to steer from the background, make sure that the right things are happening by default, the right systems are in place in order to have high trust in the organization to do good work.",
+  "zh": "我有点必须要在幕后掌舵，确保默认情况下发生正确的事情，正确的系统已到位，以便对组织做高质量工作拥有高度的信任。"
+ },
+ {
+  "seg": 64,
+  "start": 404.72,
+  "end": 408.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "And that's exactly what it means in order to be high functioning with these agents.",
+  "zh": "而这正是要高效运作这些智能体所意味着的。"
+ },
+ {
+  "seg": 65,
+  "start": 409.04,
+  "end": 421.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "In order to move beyond sort of coding agents as pair programming assistants to go massively parallel where I've got the 15 TMUX windows open, I need to be able to take my hands off the wheel to a certain extent.",
+  "zh": "为了超越那种将编码智能体作为结对编程助手的情况，走向大规模并行，在那儿我有 15 个 TMUX 窗口开着，我需要能够在一定程度上放手。"
+ },
+ {
+  "seg": 66,
+  "start": 422.16,
+  "end": 431.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "So, this way of operating, this sort of systems thinking mentality kind of comes pretty naturally to me because that's kind of the expertise I've had to build up over the course of my career.",
+  "zh": "所以，这种操作方式，这种系统思维心态对我来说很自然，因为那是我不得不在整个职业生涯中建立起来的专业知识。"
+ },
+ {
+  "seg": 67,
+  "start": 431.28,
+  "end": 432.4,
+  "speaker": "Guy Fajani",
+  "en": "Yeah, yeah, interesting.",
+  "zh": "是，是，有趣。"
+ },
+ {
+  "seg": 68,
+  "start": 432.64,
+  "end": 439.44,
+  "speaker": "Guy Fajani",
+  "en": "We'll actually touch a little bit about, I guess, the the part of that which is, well, how much is how much trust do you need then to have those 15 open?",
+  "zh": "我们实际上会稍微谈谈，我猜，那其中的一部分是，好，你需要多少信任才能开着那 15 个？"
+ },
+ {
+  "seg": 69,
+  "start": 439.52,
+  "end": 441.04,
+  "speaker": "Guy Fajani",
+  "en": "But we'll cover that in just a second.",
+  "zh": "但我们马上就会谈到那个。"
+ },
+ {
+  "seg": 70,
+  "start": 441.2,
+  "end": 450.48,
+  "speaker": "Guy Fajani",
+  "en": "I'd love to, you know, when you have those 15 open, there's obviously a huge amount of agent-written code and and various different uh roles in the in the in the workflow in the pipeline.",
+  "zh": "我想要，你知道，当你开着那 15 个时，显然有大量的智能体编写的代码，以及在管道中的工作流里的各种不同的呃角色。"
+ },
+ {
+  "seg": 71,
+  "start": 450.64,
+  "end": 457.44,
+  "speaker": "Guy Fajani",
+  "en": "Um now a really interesting constraint that you imposed on yourself and the team was no human written code.",
+  "zh": "嗯现在一个真正有趣的约束是你给自己和团队施加的是没有人类编写的代码。"
+ },
+ {
+  "seg": 72,
+  "start": 457.68,
+  "end": 458.16,
+  "speaker": "Guy Fajani",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 73,
+  "start": 458.4,
+  "end": 467.68,
+  "speaker": "Guy Fajani",
+  "en": "And um I guess, first of all, how how fearful were you at the time when you said, like, no one's to write any code here in this project?",
+  "zh": "还有嗯我猜，首先，当你当时说，像，在这个项目中没人要写任何代码时，你有多害怕？"
+ },
+ {
+  "seg": 74,
+  "start": 468.16,
+  "end": 470.96,
+  "speaker": "Guy Fajani",
+  "en": "How confident were you that that was the right course?",
+  "zh": "你对那是正确的方向有多大信心？"
+ },
+ {
+  "seg": 75,
+  "start": 471.36,
+  "end": 474.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "It was definitely a bit of a radical idea at the time.",
+  "zh": "这在当时绝对有点是一个激进的想法。"
+ },
+ {
+  "seg": 76,
+  "start": 474.56,
+  "end": 489.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um kind of when I started out uh building in this way was uh even before we had proper reasoning models, GPT 5 came out in August of 2025, and I started working in this hands-off way in June.",
+  "zh": "嗯有点当我开始呃以这种方式构建时是在呃甚至在我们有适当的推理模型之前，GPT 5 在 2025 年 8 月出来，而我在 6 月开始以这种不插手的方式工作。"
+ },
+ {
+  "seg": 77,
+  "start": 489.2,
+  "end": 497.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh so this is you know 03 era Codex Mini had just came out, the very first versions of Codex CLI.",
+  "zh": "呃所以这是你知道 03 时代的 Codex Mini 刚刚出来，Codex CLI 的最早版本。"
+ },
+ {
+  "seg": 78,
+  "start": 497.36,
+  "end": 500.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "And uh to be honest, back then the models were way less capable.",
+  "zh": "还有呃老实说，那时候模型的能力要差得多。"
+ },
+ {
+  "seg": 79,
+  "start": 501.2,
+  "end": 504.88,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh it was very painful in order to operate hands-off like this.",
+  "zh": "呃为了像这样不插手操作是非常痛苦的。"
+ },
+ {
+  "seg": 80,
+  "start": 505.2,
+  "end": 517.28,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um and sort of by necessity, working with the model, working with the coding agent, I kind of had to stick myself in as a very chunky tool uh for the model to delegate to.",
+  "zh": "嗯还有某种程度上出于必要，与模型合作，与编码智能体合作，我有点不得不把自己插进去作为一个非常笨重的工具呃供模型委派给。"
+ },
+ {
+  "seg": 81,
+  "start": 517.52,
+  "end": 524.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "If it got stuck or if it needed to do something, the only thing it could do at the beginning was ask Ryan to do something for it.",
+  "zh": "如果它卡住了或者如果它需要做某事，它在开始时唯一能做的事情就是叫 Ryan 为它做某事。"
+ },
+ {
+  "seg": 82,
+  "start": 524.96,
+  "end": 528.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh eventually I get tired of being asked the same thing all the time.",
+  "zh": "呃最终我厌倦了总是被问同样的事情。"
+ },
+ {
+  "seg": 83,
+  "start": 528.48,
+  "end": 532.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Initially, back then it was um installing dependencies with cargo.",
+  "zh": "最初，那时候它是嗯用 cargo 安装依赖。"
+ },
+ {
+  "seg": 84,
+  "start": 532.88,
+  "end": 536.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "This is just not something that uh that Codex was able to do reliably back then.",
+  "zh": "这只是某些东西呃 Codex 那时候无法可靠地做到。"
+ },
+ {
+  "seg": 85,
+  "start": 536.72,
+  "end": 541.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "So I would type the commands in my terminal and you know, give the agent some dependencies to work with.",
+  "zh": "所以我会在我的终端里输入命令然后你知道，给智能体一些依赖来处理。"
+ },
+ {
+  "seg": 86,
+  "start": 541.84,
+  "end": 544.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "And sort of automating that was the first step.",
+  "zh": "还有某种程度上自动化那是第一步。"
+ },
+ {
+  "seg": 87,
+  "start": 544.8,
+  "end": 556.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "And it kind of got me in this mode of paying very close attention to where I'm spending my time, figuring out ways to build up a tool call that removes the need for me to spend that time.",
+  "zh": "而且它有点让我进入这种模式，非常密切地关注我花时间的地方，想办法建立一个工具调用来消除我花那时间的需要。"
+ },
+ {
+  "seg": 88,
+  "start": 556.32,
+  "end": 563.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "So then I can kind of figure out the other ways that I can help the agent get more and more chunky tools to give it more capability.",
+  "zh": "所以然后我可以有点弄清楚其他方式让我能帮助智能体获得越来越多的笨重工具来给它更多能力。"
+ },
+ {
+  "seg": 89,
+  "start": 563.52,
+  "end": 572.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "And to start with zero like that, you kind of viscerally experience the failure of the agent.",
+  "zh": "而像那样从零开始，你有点发自内心地体验智能体的失败。"
+ },
+ {
+  "seg": 90,
+  "start": 573.44,
+  "end": 587.28,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh I think to kind of have a good sense of the tool calls as they are making, the mistakes the agent is making sort of in the process of writing the code is really, really important in order to build confidence in it.",
+  "zh": "呃我认为有点对工具调用有一个好的感觉，正如它们正在进行的那样，智能体正在犯的错误某种程度上在写代码的过程中是真正，真正重要的以便建立对它的信心。"
+ },
+ {
+  "seg": 91,
+  "start": 587.36,
+  "end": 587.52,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 92,
+  "start": 587.76,
+  "end": 599.28,
+  "speaker": "Ryan Lopopolo",
+  "en": "Because to see what mistakes it's making, I'm also able to see the parts that it does really good at and can start to retool the way I go about my week to lean into the stuff Codex is really good at.",
+  "zh": "因为为了看到它在犯什么错，我也能看到它做得真正好的部分，并且可以开始重新调整我这一周的工作方式，以便深入利用 Codex 真正擅长的东西。"
+ },
+ {
+  "seg": 93,
+  "start": 599.6,
+  "end": 602,
+  "speaker": "Ryan Lopopolo",
+  "en": "It's really good at following instructions.",
+  "zh": "它真的非常擅长遵循指令。"
+ },
+ {
+  "seg": 94,
+  "start": 602.24,
+  "end": 605.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "It's really good at writing tests and calling them.",
+  "zh": "它真的非常擅长编写测试和调用它们。"
+ },
+ {
+  "seg": 95,
+  "start": 605.68,
+  "end": 614,
+  "speaker": "Ryan Lopopolo",
+  "en": "So collapsing a lot of the engineering process into these like very well-paved roads for the agent helps me build confidence in it.",
+  "zh": "所以把大量的工程过程折叠成这些像为智能体铺设得非常好的道路有助于我建立对它的信心。"
+ },
+ {
+  "seg": 96,
+  "start": 614.32,
+  "end": 618.8,
+  "speaker": "Guy Fajani",
+  "en": "It's funny how you say it's it's really good at following instructions and really and really good at writing tests.",
+  "zh": "有趣的是你怎么说它它真的非常擅长遵循指令而且真的真的非常擅长编写测试。"
+ },
+ {
+  "seg": 97,
+  "start": 618.88,
+  "end": 621.44,
+  "speaker": "Guy Fajani",
+  "en": "And I'm thinking, wow, the complete opposite of most developers.",
+  "zh": "而我在想，哇，这与大多数开发者完全相反。"
+ },
+ {
+  "seg": 98,
+  "start": 621.92,
+  "end": 623.6,
+  "speaker": "Guy Fajani",
+  "en": "Is that is that maybe that's wrong to say?",
+  "zh": "是那是是也许那是错误的说法吗？"
+ },
+ {
+  "seg": 99,
+  "start": 623.76,
+  "end": 625.44,
+  "speaker": "Guy Fajani",
+  "en": "Um, but so that's really interesting.",
+  "zh": "嗯，所以那真的很有趣。"
+ },
+ {
+  "seg": 100,
+  "start": 625.52,
+  "end": 637.2,
+  "speaker": "Guy Fajani",
+  "en": "And I guess when you think about your team, like this is a decision that you made, but when you think about your team, how how comfortable was every how on board was everyone in joining this?",
+  "zh": "我猜当你考虑你的团队时，就像这是你做出的一个决定，但当你考虑你的团队时，每个人对加入这件事有多支持/多自在？"
+ },
+ {
+  "seg": 101,
+  "start": 637.6,
+  "end": 643.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "I got very lucky that as we grew the team, we grew it uh all with new hires to the company.",
+  "zh": "我非常幸运，随着我们扩大团队，我们所有的团队成员都是公司的新招聘人员。"
+ },
+ {
+  "seg": 102,
+  "start": 644.08,
+  "end": 649.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "So they kind of get dropped into this insane environment and being like, oh, I guess this is just the way we do things now.",
+  "zh": "所以他们有点像是被扔进了这个疯狂的环境中，然后觉得，哦，我想这就是我们现在做事的方式。"
+ },
+ {
+  "seg": 103,
+  "start": 649.6,
+  "end": 651.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "Let me just go whole hog at it.",
+  "zh": "让我全力投入吧。"
+ },
+ {
+  "seg": 104,
+  "start": 651.84,
+  "end": 660.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh it usually took about two weeks for folks to ramp up to this way of operating some growing pains very early on in growing the team.",
+  "zh": "呃，大家通常需要大约两周时间才能适应这种运作方式，在团队扩张初期会有一些成长的阵痛。"
+ },
+ {
+  "seg": 105,
+  "start": 660.16,
+  "end": 662.56,
+  "speaker": "Guy Fajani",
+  "en": "Um, probably a good amount of dog fooding as well.",
+  "zh": "呃，可能也有相当程度的内部测试。"
+ },
+ {
+  "seg": 106,
+  "start": 662.72,
+  "end": 663.92,
+  "speaker": "Guy Fajani",
+  "en": "You were able to go back to the team.",
+  "zh": "你能够回到团队中。"
+ },
+ {
+  "seg": 107,
+  "start": 664.4,
+  "end": 667.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "I mean, the the product we were building too also helped a bunch.",
+  "zh": "我的意思是，我们要构建的产品也帮了大忙。"
+ },
+ {
+  "seg": 108,
+  "start": 667.28,
+  "end": 677.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "We were building sort of a data analyst agent, uh, a data analyst agent using codecs inside in order to write SQL and call data bricks and all these sort of things.",
+  "zh": "我们正在构建某种数据分析师智能体，呃，一种数据分析师智能体，在内部使用 codecs 来编写 SQL 并调用 data bricks 以及诸如此类的事情。"
+ },
+ {
+  "seg": 109,
+  "start": 678.08,
+  "end": 685.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um means a lot of the techniques that we were using to write the code were techniques we needed to deploy into this agent to have it be effective.",
+  "zh": "呃，这意味着我们要用来编写代码的许多技术，正是我们需要部署到这个智能体中以使其有效的技术。"
+ },
+ {
+  "seg": 110,
+  "start": 685.52,
+  "end": 687.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "A very cool virtuous cycle there.",
+  "zh": "那里有一个非常酷的良性循环。"
+ },
+ {
+  "seg": 111,
+  "start": 687.6,
+  "end": 690.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh took about two weeks for folks to onboard.",
+  "zh": "呃，大家大约需要两周时间来入职。"
+ },
+ {
+  "seg": 112,
+  "start": 690.32,
+  "end": 696.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "Initially, very painful in terms of figuring out how to uh coach folks to not produce slop.",
+  "zh": "最初，在弄清楚如何指导大家不制造垃圾代码方面，是非常痛苦的。"
+ },
+ {
+  "seg": 113,
+  "start": 696.48,
+  "end": 702.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "A big part of maintaining high velocity with these tools is just not permitting slop to enter the code base.",
+  "zh": "使用这些工具保持高速度的一个很大部分，就是不允许垃圾代码进入代码库。"
+ },
+ {
+  "seg": 114,
+  "start": 702.24,
+  "end": 723.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, but once we sort of had figured it out, by the time we got our fifth, sixth, seventh hire onto the team, uh within those two weeks, we were actually seeing like velocity and PR throughput go up 5, 10, 15%, uh, which is again not the common path when you onboard quickly to a team, like the the pre-singularity time, right?",
+  "zh": "呃，但一旦我们弄清楚了，当我们招募第五、第六、第七名员工加入团队时，呃，在那两周内，我们实际上看到了速度和 PR 吞吐量上升了 5%、10%、15%，呃，这再次说明，当你快速加入一个团队时，这并不是常见的路径，就像在奇点前的时间，对吧？"
+ },
+ {
+  "seg": 115,
+  "start": 723.44,
+  "end": 738.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh and the reason for that is because as we accrued more and more context, more and more capability into the code base, sort of everyone invoking Codex as the sole entry point to the code base was getting the best parts of everybody by default.",
+  "zh": "呃，原因是因为随着我们在代码库中积累了越来越多的上下文和越来越多的能力，每个人调用 Codex 作为进入代码库的唯一入口，默认都能获得每个人的精华部分。"
+ },
+ {
+  "seg": 116,
+  "start": 739.36,
+  "end": 747.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh rather than having to spend one, two, three months absorbing the best practices of the team, they're already there.",
+  "zh": "呃，而不是必须花上一、二、三个月来吸收团队的最佳实践，它们已经在那里了。"
+ },
+ {
+  "seg": 117,
+  "start": 747.52,
+  "end": 747.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 118,
+  "start": 747.92,
+  "end": 757.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh which means new hires to the team were able to very quickly supply their best judgment and context, uh, which means now everybody is being more effective very, very quickly.",
+  "zh": "呃，这意味着团队的新成员能够非常快地提供他们最好的判断和上下文，呃，这意味着现在每个人都变得非常快地更加高效。"
+ },
+ {
+  "seg": 119,
+  "start": 758.16,
+  "end": 760.96,
+  "speaker": "Guy Fajani",
+  "en": "You're effectively onboarding the new hire through the agent already.",
+  "zh": "你实际上已经通过智能体让新员工入职了。"
+ },
+ {
+  "seg": 120,
+  "start": 761.04,
+  "end": 763.04,
+  "speaker": "Guy Fajani",
+  "en": "So brilliant.",
+  "zh": "太精彩了。"
+ },
+ {
+  "seg": 121,
+  "start": 763.28,
+  "end": 766.08,
+  "speaker": "Guy Fajani",
+  "en": "Um so there's a really nice phrase, I'm sure you've heard.",
+  "zh": "呃，有一个非常好的短语，我相信你听过。"
+ },
+ {
+  "seg": 122,
+  "start": 766.24,
+  "end": 767.76,
+  "speaker": "Guy Fajani",
+  "en": "I've said it a million times as well.",
+  "zh": "我自己也说过一百万次。"
+ },
+ {
+  "seg": 123,
+  "start": 767.84,
+  "end": 769.44,
+  "speaker": "Guy Fajani",
+  "en": "Uh you you can go fast.",
+  "zh": "呃，你可以走得快。"
+ },
+ {
+  "seg": 124,
+  "start": 769.68,
+  "end": 771.28,
+  "speaker": "Guy Fajani",
+  "en": "You can only go fast when you have brakes.",
+  "zh": "只有当你有刹车时，你才能走得快。"
+ },
+ {
+  "seg": 125,
+  "start": 771.52,
+  "end": 771.92,
+  "speaker": "Guy Fajani",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 126,
+  "start": 772.08,
+  "end": 786.32,
+  "speaker": "Guy Fajani",
+  "en": "Um now going in in this scenario, going fast is using, you know, codecs and AI agents to generate that code for us at a faster velocity than we would be able to manually write.",
+  "zh": "呃，现在进入这个场景，走得快意味着使用，你知道，codecs 和 AI 智能体以比我们手动编写更快的速度为我们生成代码。"
+ },
+ {
+  "seg": 127,
+  "start": 786.48,
+  "end": 798.24,
+  "speaker": "Guy Fajani",
+  "en": "The brakes, of course, are those tests, those reviews that that you know validate the code that show and highlight where we need to actually spend time and fix and adjust uh before we go live.",
+  "zh": "刹车，当然是那些测试，那些审查，你知道，验证代码，显示并突出我们需要在上线前实际花时间修复和调整的地方。"
+ },
+ {
+  "seg": 128,
+  "start": 798.64,
+  "end": 803.2,
+  "speaker": "Guy Fajani",
+  "en": "Another interesting thing uh that is the zero human review.",
+  "zh": "另一个有趣的事情，呃，就是零人工审查。"
+ },
+ {
+  "seg": 129,
+  "start": 803.44,
+  "end": 809.68,
+  "speaker": "Guy Fajani",
+  "en": "Now, this is almost you're you're putting AI to be the brakes now, which is which is a little bit more worrying.",
+  "zh": "现在，这几乎是你让 AI 成为刹车，这是，呃，有点更令人担忧。"
+ },
+ {
+  "seg": 130,
+  "start": 809.92,
+  "end": 824.48,
+  "speaker": "Guy Fajani",
+  "en": "Um in terms of um, I guess, you know, an alarming, an alarming uh proposal, how comfortable were the engineers when you said, right, we're now gonna do zero human review on this code.",
+  "zh": "呃，关于，呃，我想，你知道，一个令人震惊的，一个令人震惊的，呃，提议，当你这样说时，工程师们有多自在，好吧，我们现在要对这段代码进行零人工审查。"
+ },
+ {
+  "seg": 131,
+  "start": 824.64,
+  "end": 828.24,
+  "speaker": "Guy Fajani",
+  "en": "Uh we're gonna we want you know agents to be able to do that review.",
+  "zh": "呃，我们要我们希望你知道智能体能够进行那种审查。"
+ },
+ {
+  "seg": 132,
+  "start": 828.64,
+  "end": 837.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, so sort of like the idea of post-merge code review, if at all, sort of thing is uh, you know kind of like not a new thing, right?",
+  "zh": "是的，所以有点像合并后代码审查的概念，如果有的话，这类事情是，呃，你知道，有点像不是新鲜事，对吧？"
+ },
+ {
+  "seg": 133,
+  "start": 837.52,
+  "end": 859.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "When I started my career back in the early 2010s, like this was this was a normal part of what it meant to write software is kind of have a high trust environment with your team, bias to action, bias to throughput, and you know, have some representative sample of the code that you are looking at, but you know, otherwise have lots of synchronous communication on as a team to make sure that everyone has the same mental model of the system.",
+  "zh": "当我在 2010 年代初开始我的职业生涯时，就像这是编写软件含义的正常部分，就是与你的团队建立一个高信任环境，偏向行动，偏向吞吐量，你知道，查看一些具有代表性的代码样本，但你知道，否则作为一个团队进行大量的同步沟通，以确保每个人都对系统有相同的心智模型。"
+ },
+ {
+  "seg": 134,
+  "start": 859.28,
+  "end": 859.6,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 135,
+  "start": 859.84,
+  "end": 883.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "And it's very cool to kind of like have this come back into vogue with agents because uh if the entry point to the code base is always the agent, it's really not required for every engineer on the team to have a full and complete mental model of the system, so long as that they are able to trust that everyone else on the team is enabling codecs to have that level of expertise.",
+  "zh": "随着智能体让这种做法重新流行起来，这非常酷，因为呃，如果进入代码库的入口总是智能体，团队中的每个工程师真的不需要对系统有完整的心智模型，只要他们能够信任团队中的其他每个人都在让 codecs 具备那种水平的专业知识。"
+ },
+ {
+  "seg": 136,
+  "start": 884.32,
+  "end": 889.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um there is no review at all in the system, right?",
+  "zh": "呃，系统中完全没有审查，对吧？"
+ },
+ {
+  "seg": 137,
+  "start": 889.28,
+  "end": 898.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "Like uh to kind of provide a little bit more nuance here, we do have some cases where we require like two-party traditional review pre-merge.",
+  "zh": "就像呃，为了在这里提供一点细微差别，我们确实有一些情况要求像合并前的双方传统审查。"
+ },
+ {
+  "seg": 138,
+  "start": 899.04,
+  "end": 910.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "And most of the time, that is centered around things like highly complex plans, sort of phase milestones that would take place over the course of an actual week, these sorts of things.",
+  "zh": "而且大多数时候，这集中在像高度复杂的计划上，那种会在实际一周内发生的阶段里程碑，这类事情。"
+ },
+ {
+  "seg": 139,
+  "start": 910.56,
+  "end": 919.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, and the reason for that is these plans, these milestones, these exec plans, function as the prompt you're gonna give the agents.",
+  "zh": "呃，原因是因为这些计划，这些里程碑，这些执行计划，充当了你将要给智能体的提示词。"
+ },
+ {
+  "seg": 140,
+  "start": 919.36,
+  "end": 931.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "And if you are relying on a text document to drive implementation, being crisp around what words are in there and whether or not they fully under or misspecify the task is quite important.",
+  "zh": "如果你依赖文本来驱动实现，对里面有什么字，以及它们是否完全 under 或 misspecify 任务保持明确，是非常重要的。"
+ },
+ {
+  "seg": 141,
+  "start": 932.08,
+  "end": 935.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "Because if you misspecify the task up front, you are gonna get garbage.",
+  "zh": "因为如果你在开头 misspecify 任务，你会得到垃圾。"
+ },
+ {
+  "seg": 142,
+  "start": 935.68,
+  "end": 938.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh so that's kind of where we focus the bulk of the human review.",
+  "zh": "呃，所以这就是我们集中大部分人工审查的地方。"
+ },
+ {
+  "seg": 143,
+  "start": 938.8,
+  "end": 938.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "Aaron Powell, Jr.",
+  "zh": "Aaron Powell, Jr."
+ },
+ {
+  "seg": 144,
+  "start": 939.04,
+  "end": 943.04,
+  "speaker": "Guy Fajani",
+  "en": "And so the review here, like it's it's different to how we would normally think of a code review, right?",
+  "zh": "所以这里的审查，就像它与我们通常认为的代码审查不同，对吧？"
+ },
+ {
+  "seg": 145,
+  "start": 943.6,
+  "end": 943.76,
+  "speaker": "Guy Fajani",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 146,
+  "start": 944,
+  "end": 952.64,
+  "speaker": "Guy Fajani",
+  "en": "It's like first of all, a code review, you know, we will argue about details and namings and things like you know, but almost more style guide style comments.",
+  "zh": "就像首先，代码审查，你知道，我们会争论细节和命名以及你知道的事情，但几乎更多是风格指南风格的评论。"
+ },
+ {
+  "seg": 147,
+  "start": 952.8,
+  "end": 955.84,
+  "speaker": "Guy Fajani",
+  "en": "Um or rather, that's what sometimes happens.",
+  "zh": "呃，或者更确切地说，这是有时发生的事情。"
+ },
+ {
+  "seg": 148,
+  "start": 956.16,
+  "end": 956.8,
+  "speaker": "Guy Fajani",
+  "en": "Unfortunately, yes.",
+  "zh": "不幸的是，是的。"
+ },
+ {
+  "seg": 149,
+  "start": 957.28,
+  "end": 960.96,
+  "speaker": "Guy Fajani",
+  "en": "Whereas now what we're looking at is actually a much more I guess I guess there's probably a couple of reasons.",
+  "zh": "而现在我们所看到的实际上是，呃，我想我想可能有几个原因。"
+ },
+ {
+  "seg": 150,
+  "start": 961.12,
+  "end": 973.44,
+  "speaker": "Guy Fajani",
+  "en": "One, because it's actually more interesting to actually you know review at that higher level anyway, because they're more meaningful uh input from from our point of view, where we need to kind of like much more think about what's the greatest value I can provide here.",
+  "zh": "第一，因为实际上在更高的层面上回顾无论如何都更有趣，因为从我们的角度来看，它们是有意义的输入，我们需要更多地思考我在这里能提供的最大价值是什么。"
+ },
+ {
+  "seg": 151,
+  "start": 973.52,
+  "end": 976.24,
+  "speaker": "Guy Fajani",
+  "en": "And it is that more meaningful decision-making at the at the top.",
+  "zh": "而且那是更高层面上更有意义的决策。"
+ },
+ {
+  "seg": 152,
+  "start": 976.4,
+  "end": 979.92,
+  "speaker": "Guy Fajani",
+  "en": "But also, I guess we're probably more abstracted away from the code.",
+  "zh": "而且，我想我们可能更多地从代码中抽象出来了。"
+ },
+ {
+  "seg": 153,
+  "start": 980.16,
+  "end": 993.2,
+  "speaker": "Guy Fajani",
+  "en": "So there is an amount that we just have to trust, where actually it'll it's almost a waste of our time to go too deep into the implementation because you know we we need that to be abstracted away and we need mechanisms of where yeah, testing just occurs to make sure that that succeeds.",
+  "zh": "所以我们要有一部分不得不去信任，实际上如果我们深入到实现细节中去简直是浪费时间，因为你知道我们需要将其抽象化，我们需要机制，是的，测试只是发生以确保其成功。"
+ },
+ {
+  "seg": 154,
+  "start": 993.52,
+  "end": 994.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 155,
+  "start": 994.32,
+  "end": 998.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh this is sort of again that sort of like group tech lead sort of mentality, right?",
+  "zh": "呃，这再次有点像那种技术组长的心态，对吧？"
+ },
+ {
+  "seg": 156,
+  "start": 998.8,
+  "end": 1011.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "Like when I led developer productivity at BREX, right, like I don't have my hands in the weeds of every bit of Terraform every team is writing, but I do care at a high level about like guiding principles, right?",
+  "zh": "比如当我在 BREX 领导开发者生产力时，对吧，我不会深入去管每个团队写的每一行 Terraform 的细枝末节，但我确实在高层面上关心指导原则，对吧？"
+ },
+ {
+  "seg": 157,
+  "start": 1012.08,
+  "end": 1014.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "I want the infrastructure to be reproducible.",
+  "zh": "我希望基础设施是可复现的。"
+ },
+ {
+  "seg": 158,
+  "start": 1014.32,
+  "end": 1016.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "I want it to provision quickly.",
+  "zh": "我希望它能快速预配。"
+ },
+ {
+  "seg": 159,
+  "start": 1016.4,
+  "end": 1020.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "I want us to have modules in place that solve common developer workflows.",
+  "zh": "我希望我们有现成的模块来解决常见的开发者工作流。"
+ },
+ {
+  "seg": 160,
+  "start": 1020.96,
+  "end": 1028.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "But like how you structure your underlying modules, whether you're using for each in an idiomatic way, I don't really care too much about that.",
+  "zh": "但是，比如你如何构建你的底层模块，你是否以一种惯用的方式使用 for each，我真的不太关心那个。"
+ },
+ {
+  "seg": 161,
+  "start": 1028.64,
+  "end": 1033.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "As long as the code is like locally coherent and actually solves the business problems that I'm hoping to do.",
+  "zh": "只要代码在局部是连贯的，并且确实解决我希望解决的业务问题。"
+ },
+ {
+  "seg": 162,
+  "start": 1033.92,
+  "end": 1038.56,
+  "speaker": "Guy Fajani",
+  "en": "And ideally, that's a decision that maybe even change over time, depending on how something should be structured.",
+  "zh": "理想情况下，这是一个可能会随着时间改变的决定，取决于某事物应该如何构建。"
+ },
+ {
+  "seg": 163,
+  "start": 1038.64,
+  "end": 1042.88,
+  "speaker": "Guy Fajani",
+  "en": "So it's it's not something we should always be so connected to uh at all times.",
+  "zh": "所以这不是我们要一直时刻保持紧密联系的事情。"
+ },
+ {
+  "seg": 164,
+  "start": 1042.96,
+  "end": 1046,
+  "speaker": "Guy Fajani",
+  "en": "Anyway, uh I think we mentioned kind of like trust a little bit.",
+  "zh": "无论如何，呃，我想我们稍微提到了一点信任。"
+ },
+ {
+  "seg": 165,
+  "start": 1046.16,
+  "end": 1054.96,
+  "speaker": "Guy Fajani",
+  "en": "Um I can't remember what the the magic ratio of trust is, where it doesn't matter how many times something works, it's it's how frequently something doesn't work, is the key which breaks the trust.",
+  "zh": "呃，我不记得那个信任的魔法比例是多少了，即某东西工作多少次并不重要，关键是它失败的频率，这会打破信任。"
+ },
+ {
+  "seg": 166,
+  "start": 1055.12,
+  "end": 1062.4,
+  "speaker": "Guy Fajani",
+  "en": "Um but I guess at what stage were you and the team like truly thinking, oh actually, do you know what I completely trust this?",
+  "zh": "呃，但我想你和团队在什么阶段真正想过，噢实际上，你知道吗，我完全信任这个？"
+ },
+ {
+  "seg": 167,
+  "start": 1062.56,
+  "end": 1075.52,
+  "speaker": "Guy Fajani",
+  "en": "Not not you know, I guess from my point of view, and I'll talk I'll talk about myself here when I say laziness, but there is a there there is a time when I'm using agentic development where I'm just kind of like assuming uh and just being lazy about not you know reviewing things in enough depth.",
+  "zh": "不是不是你知道，我想从我的角度来看，当我说懒惰时我会在这里谈论我自己，但在我使用智能体开发时确实有一个时间点，我只是有点假设，并且对不够深入地审查事情感到懒惰。"
+ },
+ {
+  "seg": 168,
+  "start": 1075.84,
+  "end": 1085.04,
+  "speaker": "Guy Fajani",
+  "en": "But in terms of like true trust, as in, yeah, I'm gonna I'm gonna hand this off to the agent and believe that this is gonna be high quality that I can actually uh you know push to production.",
+  "zh": "但在真正的信任方面，比如说，是的，我要把这个移交给智能体，并相信这将是高质量的，实际上我可以你知道把它推送到生产环境。"
+ },
+ {
+  "seg": 169,
+  "start": 1085.28,
+  "end": 1092.48,
+  "speaker": "Guy Fajani",
+  "en": "At what moment would you say in the in the during the process, would you say you were truly trusting of what was being delivered?",
+  "zh": "在这个过程中，你会说你是在什么时候真正信任所交付的东西？"
+ },
+ {
+  "seg": 170,
+  "start": 1092.8,
+  "end": 1094.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "I think there were two sort of phases here.",
+  "zh": "我认为这里有两个阶段。"
+ },
+ {
+  "seg": 171,
+  "start": 1094.96,
+  "end": 1100,
+  "speaker": "Ryan Lopopolo",
+  "en": "One was uh do I trust the agent to be able to produce code well?",
+  "zh": "一个是，呃，我是否信任智能体能够很好地编写代码？"
+ },
+ {
+  "seg": 172,
+  "start": 1100.64,
+  "end": 1109.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "And the magic moment uh uh for that was sort of working on what was essentially a very early version of what the Codex app is today.",
+  "zh": "而那个神奇的时刻，呃，呃，大概是在从事本质上是今天 Codex 应用的非常早期的版本时。"
+ },
+ {
+  "seg": 173,
+  "start": 1110,
+  "end": 1115.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh talking with a teammate around man, I wish I had voice input here.",
+  "zh": "呃，和一个队友聊天，伙计，我希望这里我有语音输入。"
+ },
+ {
+  "seg": 174,
+  "start": 1115.92,
+  "end": 1123.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "And then being able to just give a prompt and half an hour later see that in the real world in the app was fantastic.",
+  "zh": "然后能够只给出一个提示，半小时后就在现实世界的应用程序中看到它，那太棒了。"
+ },
+ {
+  "seg": 175,
+  "start": 1123.84,
+  "end": 1134.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "You kind of got this feeling of confidence that it really is down to my capacity for scheduling prompts to go into this magic machine to see my ideas come to life.",
+  "zh": "你会有一种自信的感觉，这真的归结于我安排提示输入这台神奇机器以看到我的想法变为现实的能力。"
+ },
+ {
+  "seg": 176,
+  "start": 1134.96,
+  "end": 1148.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, so that was sort of like the first phase of getting into this mindset of our role as engineers should be to figure out ways to feed the machine to schedule work in order to kind of have our vision come to fruition.",
+  "zh": "呃，所以这就像是进入这种思维模式的第一阶段，即我们作为工程师的角色应该是找出方法来喂给机器，安排工作，以使我们的愿景得以实现。"
+ },
+ {
+  "seg": 177,
+  "start": 1149.12,
+  "end": 1154.24,
+  "speaker": "Ryan Lopopolo",
+  "en": "The next sort of phase was is this code trustworthy?",
+  "zh": "下一个阶段是，这段代码值得信赖吗？"
+ },
+ {
+  "seg": 178,
+  "start": 1154.4,
+  "end": 1155.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "Is it high quality?",
+  "zh": "它是高质量的？"
+ },
+ {
+  "seg": 179,
+  "start": 1156,
+  "end": 1159.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "And this sort of came to us as a team sort of out of necessity.",
+  "zh": "这对我们团队来说有点是出于必要而出现的。"
+ },
+ {
+  "seg": 180,
+  "start": 1160.08,
+  "end": 1176,
+  "speaker": "Ryan Lopopolo",
+  "en": "When we onboarded our third engineer to the team, uh we significantly increased our PR throughput, but at the same time were unable to keep pace with reviews and making sure that slop didn't enter the code base.",
+  "zh": "当我们招聘第三位工程师加入团队时，呃，我们显著增加了我们的 PR 吞吐量，但同时无法跟上审查的进度，并确保垃圾不会进入代码库。"
+ },
+ {
+  "seg": 181,
+  "start": 1176.56,
+  "end": 1190.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "We kind of started to kind of pump the brakes a bit, like you mentioned, uh, and take one day a week Fridays to do garbage collection, where a lot of long synchronous stand-ups in this way of working, right, in order to socialize that mental model.",
+  "zh": "我们开始有点像你提到的那样踩刹车，呃，每周抽出一天，周五，来做垃圾收集，会有很多长时间同步站会，用这种工作方式，对吧，为了推广那种思维模型。"
+ },
+ {
+  "seg": 182,
+  "start": 1190.8,
+  "end": 1195.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "So we would kind of compile a list over the course of the week of things that we didn't quite like, right?",
+  "zh": "所以我们会在这一周内整理一份我们不太喜欢的事情清单，对吧？"
+ },
+ {
+  "seg": 183,
+  "start": 1195.84,
+  "end": 1200.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "We want to bias toward throughput, bias toward merging, but still we want to make sure we maintain our quality bar.",
+  "zh": "我们倾向于吞吐量，倾向于合并，但我们仍然想确保我们保持我们的质量标准。"
+ },
+ {
+  "seg": 184,
+  "start": 1201.28,
+  "end": 1207.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "So every Friday was trying to eliminate that slop, but also finding ways to systematically eliminate it going forward, right?",
+  "zh": "所以每个周五都在试图消除那些垃圾，但也寻找在以后系统地消除它的方法，对吧？"
+ },
+ {
+  "seg": 185,
+  "start": 1208.16,
+  "end": 1217.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "We never wanted to give the same feedback twice in the same way that you want a new engineer you're onboarding to the team to actually internalize what it means to do a good job.",
+  "zh": "我们永远不想给出两次同样的反馈，就像你希望一个新加入团队的工程师真正内化什么意味着做好工作一样。"
+ },
+ {
+  "seg": 186,
+  "start": 1218.24,
+  "end": 1241.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "So that kind of stacked into sort of these programmatic guardrails, and then a very long outer loop of sort of these automated CI jobs that are looking for slop, identifying slop, kind of compiling a list of golden principles for what it means for us to write good code, finding divergences from it in the code base, proposing PRs.",
+  "zh": "所以这堆叠成了这些程序化的护栏，然后是一个非常长的外循环，这些自动化的 CI 任务的循环，它们在寻找垃圾，识别垃圾，整理一份黄金原则清单，说明对我们来说什么是编写好的代码，在代码库中寻找与之的差异，提出 PR。"
+ },
+ {
+  "seg": 187,
+  "start": 1242.16,
+  "end": 1248.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "And at that point, we were able to see oh, the agents are able to write code the way we expect.",
+  "zh": "在那时，我们能够看到，噢，智能体能够按照我们期望的方式编写代码。"
+ },
+ {
+  "seg": 188,
+  "start": 1248.72,
+  "end": 1256.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "We just kind of need to put the right loops and systems in place for it to kind of close that feedback cycle for itself.",
+  "zh": "我们只需要放置正确的循环和系统，让它能够自行关闭那个反馈循环。"
+ },
+ {
+  "seg": 189,
+  "start": 1256.96,
+  "end": 1260.48,
+  "speaker": "Guy Fajani",
+  "en": "And presumably that was given to it by context or skills or something like that.",
+  "zh": "据推测，这是由上下文或技能或类似的东西提供给它的。"
+ },
+ {
+  "seg": 190,
+  "start": 1260.88,
+  "end": 1262,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh this is before skills were.",
+  "zh": "呃，这是在技能出现之前。"
+ },
+ {
+  "seg": 191,
+  "start": 1264.4,
+  "end": 1265.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "There was a time before skills.",
+  "zh": "曾经有一段技能出现之前的时期。"
+ },
+ {
+  "seg": 192,
+  "start": 1266.08,
+  "end": 1266.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "I know, I know.",
+  "zh": "我知道，我知道。"
+ },
+ {
+  "seg": 193,
+  "start": 1266.96,
+  "end": 1269.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "Only only what, eight months ago at this point.",
+  "zh": "只有只有大概，在这个时候是八个月前。"
+ },
+ {
+  "seg": 194,
+  "start": 1269.76,
+  "end": 1275.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um we kind of did a very cheap hack.",
+  "zh": "呃，我们做了一个非常廉价的技巧。"
+ },
+ {
+  "seg": 195,
+  "start": 1275.6,
+  "end": 1286.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um we kind of had just a GitHub issue where engineers and agents would leave comments around sort of underlying principles of good software development, right?",
+  "zh": "呃，我们只有一个 GitHub issue，工程师和智能体会在上面围绕良好软件开发的底层原则发表评论，对吧？"
+ },
+ {
+  "seg": 196,
+  "start": 1287.12,
+  "end": 1298.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "How to properly make a React snapshot test, uh, what it means to write reliable network code, uh, how to think about structuring a lint.",
+  "zh": "如何正确制作 React 快照测试，呃，编写可靠网络代码意味着什么，呃，如何思考构建一个 lint。"
+ },
+ {
+  "seg": 197,
+  "start": 1299.12,
+  "end": 1303.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, and you know, you end up with this big issue with 100, 150 comments on it.",
+  "zh": "呃，你知道，你最后会遇到一个有 100、150 条评论的大 issue。"
+ },
+ {
+  "seg": 198,
+  "start": 1303.92,
+  "end": 1313.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "And that was sort of the seed for what it meant for the agent to go sort of spider through the code base, stack rank a set of violations, propose PRs.",
+  "zh": "那是智能体去遍历代码库、对一组违规项进行排名、提出 PR 的意义的种子。"
+ },
+ {
+  "seg": 199,
+  "start": 1313.52,
+  "end": 1319.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "And then one interesting thing there is we had like an on call whose job it was to supervise all the agent.",
+  "zh": "然后那里有一个有趣的事情是，我们有一个 on call，他的工作是监督所有的智能体。"
+ },
+ {
+  "seg": 200,
+  "start": 1320.24,
+  "end": 1322.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "Produced stuff, all the headless stuff.",
+  "zh": "生成的东西，所有无头的东西。"
+ },
+ {
+  "seg": 201,
+  "start": 1322.4,
+  "end": 1324.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "Because we we didn't quite trust it yet.",
+  "zh": "因为我们我们还不完全信任它。"
+ },
+ {
+  "seg": 202,
+  "start": 1324.48,
+  "end": 1327.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "We needed eyes on it in order to build that confidence.",
+  "zh": "我们需要盯着它以便建立那种信心。"
+ },
+ {
+  "seg": 203,
+  "start": 1327.6,
+  "end": 1350.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh human with thumbs up, thumbs down, merge or not, leave review feedback, which means the next time that anti-slopification loop spins up, it looks at all the PRs it had produced, it ingests that human feedback, compares it with the session logs from the last time it ran, says, which mistakes did I make, which priorities did I miss?",
+  "zh": "呃人类竖起大拇指，竖起拇指向下，是否合并，留下审查反馈，这意味着下次那个 anti-slopification 循环启动时，它看着它产生的所有 PR，它吸收那个人类反馈，把它上次运行的会话日志进行比较，说，我犯了哪些错误，我错过了哪些优先级？"
+ },
+ {
+  "seg": 204,
+  "start": 1350.64,
+  "end": 1352.88,
+  "speaker": "Ryan Lopopolo",
+  "en": "Did I produce misaligned code and why?",
+  "zh": "我是否产生了未对齐的代码，为什么？"
+ },
+ {
+  "seg": 205,
+  "start": 1353.04,
+  "end": 1355.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "Let me figure out how not to do that going forward.",
+  "zh": "让我想清楚以后如何不那样做。"
+ },
+ {
+  "seg": 206,
+  "start": 1355.84,
+  "end": 1359.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "Produce some markdown, save it as an artifact in the GitHub run.",
+  "zh": "生成一些 markdown，将其作为工件保存在 GitHub 运行中。"
+ },
+ {
+  "seg": 207,
+  "start": 1359.84,
+  "end": 1365.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "So the next time I run, I have this extra context that I have learned from the actual human feedback in the system.",
+  "zh": "所以下次我运行时，我有这个我从系统中的实际人类反馈中学到的额外上下文。"
+ },
+ {
+  "seg": 208,
+  "start": 1366.16,
+  "end": 1367.28,
+  "speaker": "Guy Fajani",
+  "en": "And is that the correct way?",
+  "zh": "那是正确的方法吗？"
+ },
+ {
+  "seg": 209,
+  "start": 1367.44,
+  "end": 1372.48,
+  "speaker": "Guy Fajani",
+  "en": "Is that the way you would recommend uh others set up their agents to almost like iterate through?",
+  "zh": "那是你建议呃其他人设置他们的智能体的方式，以便几乎像迭代一样通过吗？"
+ },
+ {
+  "seg": 210,
+  "start": 1372.56,
+  "end": 1382.32,
+  "speaker": "Guy Fajani",
+  "en": "So it's almost like build the code and then do these almost like audits or reviews in post and then raise PRs where you're almost uh you know you're outside of the guardrails?",
+  "zh": "所以这几乎像构建代码，然后在事后做这些几乎像审计或审查，然后提起 PR，在那里你几乎呃你知道你处于护栏之外？"
+ },
+ {
+  "seg": 211,
+  "start": 1382.64,
+  "end": 1389.92,
+  "speaker": "Guy Fajani",
+  "en": "Or or would you uh today look at adding that into the uh agent at code creation time?",
+  "zh": "或者或者你会呃今天考虑在代码创建时将其添加到呃智能体中吗？"
+ },
+ {
+  "seg": 212,
+  "start": 1390.24,
+  "end": 1390.88,
+  "speaker": "Guy Fajani",
+  "en": "It's a mix of both.",
+  "zh": "两者兼有。"
+ },
+ {
+  "seg": 213,
+  "start": 1391.12,
+  "end": 1391.76,
+  "speaker": "Guy Fajani",
+  "en": "It's a mix of both.",
+  "zh": "两者兼有。"
+ },
+ {
+  "seg": 214,
+  "start": 1392,
+  "end": 1392.24,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 215,
+  "start": 1392.48,
+  "end": 1398.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "We we do think sort of these asynchronous loops are a big part of what it means to be effective.",
+  "zh": "我们我们确实认为这些异步循环是有效性的很大一部分。"
+ },
+ {
+  "seg": 216,
+  "start": 1399.12,
+  "end": 1403.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh early versions of codex security via Ardvark also worked in the same way, right?",
+  "zh": "呃 codex security 的早期版本通过 Ardvark 也以同样的方式工作，对吧？"
+ },
+ {
+  "seg": 217,
+  "start": 1403.52,
+  "end": 1407.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "Where I'm getting a security review of my code after it has ended up in main.",
+  "zh": "在我的代码最终进入 main 之后，我得到了它的安全审查。"
+ },
+ {
+  "seg": 218,
+  "start": 1407.6,
+  "end": 1414.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "It is maybe finding a way in which it is vulnerable, producing a patch, we put up a PR, we review it, and it merges.",
+  "zh": "它可能找到它易受攻击的方式，生成一个补丁，我们提出一个 PR，我们审查它，然后它合并了。"
+ },
+ {
+  "seg": 219,
+  "start": 1414.72,
+  "end": 1424.24,
+  "speaker": "Ryan Lopopolo",
+  "en": "And I think this sort of flow is really, really nice because uh it allows mistakes to actually make it to main, which means they can be learned from.",
+  "zh": "我认为这种流程真的非常非常好，因为呃它允许错误真正进入 main，这意味着它们可以被学习。"
+ },
+ {
+  "seg": 220,
+  "start": 1424.4,
+  "end": 1424.48,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 221,
+  "start": 1424.64,
+  "end": 1436.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh anytime we are able to come up with a correction, one, we want to fix it, but also repeating patterns sort of thing, which we identify with agents and loops and distillation and all of that.",
+  "zh": "呃任何时候我们能够想出一个修正，第一，我们想要修复它，还有重复模式这类事情，我们用智能体和循环和蒸馏以及所有这些来识别。"
+ },
+ {
+  "seg": 222,
+  "start": 1436.96,
+  "end": 1439.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "That's the stuff we want to pull forward earlier into the pipeline.",
+  "zh": "这些是我们想要更早拉到管道前面的东西。"
+ },
+ {
+  "seg": 223,
+  "start": 1439.84,
+  "end": 1440.08,
+  "speaker": "Guy Fajani",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 224,
+  "start": 1440.48,
+  "end": 1455.76,
+  "speaker": "Guy Fajani",
+  "en": "And when you when you do push with mistakes or things that you want to correct, um are you less fearful of uh uh pushing those mistakes to production these days because you know how fast those can be reviewed and fixed by an agent?",
+  "zh": "而当你当你推送有错误或你想要纠正的东西时，嗯这些天你是否不那么害怕呃呃把那些错误推送到生产环境，因为你知道那些可以被智能体审查和修复得有多快？"
+ },
+ {
+  "seg": 225,
+  "start": 1456.16,
+  "end": 1457.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh it's definitely a spectrum, right?",
+  "zh": "呃这肯定是一个范围，对吧？"
+ },
+ {
+  "seg": 226,
+  "start": 1458,
+  "end": 1462.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um I will say that for this project, we didn't have continuous deployment, right?",
+  "zh": "嗯我会说对于这个项目，我们没有持续部署，对吧？"
+ },
+ {
+  "seg": 227,
+  "start": 1462.32,
+  "end": 1463.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "We're building a native app.",
+  "zh": "我们正在构建一个原生应用。"
+ },
+ {
+  "seg": 228,
+  "start": 1463.6,
+  "end": 1466.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "We are manually cutting a release branch and doing smoke testing.",
+  "zh": "我们正在手动切出一个发布分支并进行冒烟测试。"
+ },
+ {
+  "seg": 229,
+  "start": 1466.88,
+  "end": 1473.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "That smoke testing is initially all by humans, where we look at where we're spending the time and try and get agents to do some of it, right?",
+  "zh": "那个冒烟测试最初全由人类完成，我们看着我们在哪里花时间并试着让智能体做其中一些，对吧？"
+ },
+ {
+  "seg": 230,
+  "start": 1474.16,
+  "end": 1481.28,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh but uh it is important, I think, to have some level of human supervision over the release process in this world.",
+  "zh": "呃但呃我认为，在这个世界里，对发布过程有一定程度的人类监督是很重要的。"
+ },
+ {
+  "seg": 231,
+  "start": 1481.36,
+  "end": 1481.68,
+  "speaker": "SPEAKER_02",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 232,
+  "start": 1482,
+  "end": 1485.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "But if I were to kind of like put my group tech lead hat on again, right?",
+  "zh": "但如果我要再次戴上我的组技术负责人的帽子，对吧？"
+ },
+ {
+  "seg": 233,
+  "start": 1485.44,
+  "end": 1488.24,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, uh, some mistakes are are able to be made.",
+  "zh": "是的，呃，一些错误是是能够被犯下的。"
+ },
+ {
+  "seg": 234,
+  "start": 1488.32,
+  "end": 1490.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "Like the consequences of them are low.",
+  "zh": "就像它们的后果很低。"
+ },
+ {
+  "seg": 235,
+  "start": 1490.56,
+  "end": 1503.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "And uh much like I want engineers who are becoming more senior to learn from their own mistakes, I also kind of want to see mistakes that the agents make so that we, as their supervisors, can figure out how to get them to learn as well.",
+  "zh": "而且呍很像我希望那些正在变得更资深的工程师从他们自己的错误中学习，我也有点想看到智能体犯的错误，以便我们，作为它们的监督者，可以想出如何让它们也学习。"
+ },
+ {
+  "seg": 236,
+  "start": 1503.36,
+  "end": 1524.72,
+  "speaker": "Guy Fajani",
+  "en": "Because it it feels like in this kind of scenario, debt and and fix is cheap because it's about, well, we'll run an audit and we'll so long as you have those guardrails and rules in place to say these these are these are some of our best practices, I can I can put you know something in which isn't ideal and no it's not gonna take six months for a human to come and review this code.",
+  "zh": "因为它它感觉在这种场景下，债务和和修复是便宜的，因为它是关于，好吧，我们将运行一次审计，我们将只要你有了这些护栏和规则到位来说这些这些是这些是我们的一些最佳实践，我我可以你知道放进去一些不是理想的东西，不它不需要六个月让一个人来审查这段代码。"
+ },
+ {
+  "seg": 237,
+  "start": 1524.88,
+  "end": 1528.48,
+  "speaker": "Guy Fajani",
+  "en": "It can be done, you know, in a in a a more regular time frame.",
+  "zh": "它可以被完成，你知道，在一个在一个更常规的时间框架内。"
+ },
+ {
+  "seg": 238,
+  "start": 1528.96,
+  "end": 1550.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, like with this sort of like new world where the production of code is so cheap, uh I actually think that you can, at least working with agents, flip sort of like the DevOps shift left thing onto its head a bit, where the cheapest thing I can do is literally produce a change to my prompt.",
+  "zh": "是的，就像这种这种新世界，其中代码的生产是如此便宜，呃我实际上认为你可以，至少在与智能体合作时，把那种把 DevOps 左移的事情颠倒一点点，其中我能做的最便宜的事情就是从字面上产生对我的提示词的改变。"
+ },
+ {
+  "seg": 239,
+  "start": 1550.32,
+  "end": 1558.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "Whether that is like one of those golden principles that I'm yeeting into that GitHub issue or, you know, a prompt that I socialize with my teammates, right?",
+  "zh": "那是否就像那些黄金原则之一，我 yeeting 到那个 GitHub issue 中，或者，你知道，我和我的队友社交的一个提示词，对吧？"
+ },
+ {
+  "seg": 240,
+  "start": 1558.88,
+  "end": 1562.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "That's the cheapest thing I can do in order to fix the code that is produced.",
+  "zh": "那是我在为了修复生成的代码时能做的最便宜的事情。"
+ },
+ {
+  "seg": 241,
+  "start": 1562.72,
+  "end": 1572.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "And, you know, if we find that like the mistakes are a bit more uh systematic, uh, I can kind of think about pulling that further left.",
+  "zh": "而且，你知道，如果我们发现像错误是更呃系统性的，呃，我可以考虑把它拉得更左。"
+ },
+ {
+  "seg": 242,
+  "start": 1572.96,
+  "end": 1580.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "I can add some docs, or I can operationalize a review agent that is going to judge every PR according to those docs.",
+  "zh": "我可以添加一些文档，或者我可以落实一个审查智能体，它将根据那些文档判断每个 PR。"
+ },
+ {
+  "seg": 243,
+  "start": 1580.48,
+  "end": 1587.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "Or I can do more shifting left by making deterministic tests that suss out this behavior and on and on earlier in the process.",
+  "zh": "或者我可以做更多的左移，通过制作确定性的测试来排查这种行为，并在过程中越来越早地继续。"
+ },
+ {
+  "seg": 244,
+  "start": 1587.28,
+  "end": 1592.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "But the cheapest amount of effort I can spend to shake out that misbehavior is kind of where I want to start.",
+  "zh": "但我能花来摇出那种不良行为的最便宜的努力量是我想要开始的地方。"
+ },
+ {
+  "seg": 245,
+  "start": 1593.04,
+  "end": 1599.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "Because these things are magic reasoners that most of the time they do pretty well with very little effort on my part.",
+  "zh": "因为这些事情是魔法推理者，大部分时间它们做得相当好，只需要我这边很少的努力。"
+ },
+ {
+  "seg": 246,
+  "start": 1599.92,
+  "end": 1600.72,
+  "speaker": "Guy Fajani",
+  "en": "It's super interesting.",
+  "zh": "这超级有趣。"
+ },
+ {
+  "seg": 247,
+  "start": 1600.8,
+  "end": 1603.68,
+  "speaker": "Guy Fajani",
+  "en": "And I'd almost love to jump ahead a couple of questions.",
+  "zh": "而且我几乎想跳过几个问题。"
+ },
+ {
+  "seg": 248,
+  "start": 1603.84,
+  "end": 1615.6,
+  "speaker": "Guy Fajani",
+  "en": "Uh, because I I kind of want to ask the question when you what the way the way you talk about that, whereby you know you make minor changes over here to a prompt, and then you know, implementations and things can just change.",
+  "zh": "呃，因为我我有点想问这个问题，当你你你谈论它的方式，借此你知道你在对提示词做微小的改动，然后你知道，实现和事情可以就改变。"
+ },
+ {
+  "seg": 249,
+  "start": 1615.76,
+  "end": 1626.88,
+  "speaker": "Guy Fajani",
+  "en": "And it kind of makes me feel that when we talk about the thing that persists, it's less about the code and it's more about our prompts and our context and our and our you know functional requirements.",
+  "zh": "而且这让我感觉，当我们谈论持久化的东西时，它更多不是关于代码，而更多是关于我们的提示词和我们的上下文和我们的和我们的你知道功能需求。"
+ },
+ {
+  "seg": 250,
+  "start": 1627.04,
+  "end": 1633.76,
+  "speaker": "Guy Fajani",
+  "en": "And it brings me to um something called uh Symphony, which is a ghost library uh because it's spec.",
+  "zh": "这让我想到了一个叫 uh Symphony 的东西，它是一个幽灵库 uh 因为它是规范。"
+ },
+ {
+  "seg": 251,
+  "start": 1633.92,
+  "end": 1638.8,
+  "speaker": "Guy Fajani",
+  "en": "It's all about specs and context versus versus uh implementation or code.",
+  "zh": "这完全是关于规范 和上下文 与 uh 实现或代码的对比。"
+ },
+ {
+  "seg": 252,
+  "start": 1638.96,
+  "end": 1645.44,
+  "speaker": "Guy Fajani",
+  "en": "Um and I guess when we think about when we when we think about that, the code just becomes a throwaway artifact.",
+  "zh": "Um 我想当我们思考当我们当我们思考这一点时，代码就变成了一个可丢弃的产物。"
+ },
+ {
+  "seg": 253,
+  "start": 1645.52,
+  "end": 1648.96,
+  "speaker": "Guy Fajani",
+  "en": "The implementation is just it's there today, it might change tomorrow.",
+  "zh": "实现仅仅是它今天在那儿，它明天可能会变。"
+ },
+ {
+  "seg": 254,
+  "start": 1649.12,
+  "end": 1659.84,
+  "speaker": "Guy Fajani",
+  "en": "But the thing that persists, the thing that we care about, and we should put most time in, like you say, lifting up those reviews more to the to the functional requirements and things like that, is the specification and the prompts.",
+  "zh": "但唯一留存的东西，我们关心的东西，以及我们应该投入大部分时间的东西，就像你说的，把那些评审更多地提升到功能需求之类的事情上，就是规范和提示词。"
+ },
+ {
+  "seg": 255,
+  "start": 1660.08,
+  "end": 1663.12,
+  "speaker": "Guy Fajani",
+  "en": "Um is this a is this a future?",
+  "zh": "Um 这是一种这是一种未来吗？"
+ },
+ {
+  "seg": 256,
+  "start": 1663.28,
+  "end": 1670.08,
+  "speaker": "Guy Fajani",
+  "en": "Is this a is this like when we when we think about the relationship between the specs and the code, how much is that changing today?",
+  "zh": "这是一种这就像当我们当我们思考规范和代码之间的关系时，这在今天发生了多大的变化？"
+ },
+ {
+  "seg": 257,
+  "start": 1671.12,
+  "end": 1688.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, so it's kind of funny where you think traditionally in spec-driven development, right, you start with a spec and then you kind of refine it as the code is produced, sort of thing, to make it more concrete, to suss out those hidden decisions and ambiguity in the spec.",
+  "zh": "是的，这有点好笑，你想想传统的规范驱动开发，对吧，你从规范开始，然后随着代码的产生，你某种程度上会完善它，为了让它更具体，以找出规范中那些隐藏的决定和歧义。"
+ },
+ {
+  "seg": 258,
+  "start": 1689.04,
+  "end": 1719.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "And for things like Symfony, for all these lints that we're producing, uh for things like documentation on critical user journeys or product features or click flows and screens, I've actually found it is much easier to produce the code first, to have that code sort of like present a straw man for what the world could look like, engage with that as a team to refine it, and then distill the spec out of that.",
+  "zh": "而对于像 Symfony 这样的事情，对于我们要生成的所有这些代码检查，uh 对于像关键用户旅程或产品功能或点击流和屏幕的文档这样的事情，我实际上发现先生成代码会容易得多，让那段代码有点像是一个关于世界可能样子的草案，作为团队与之互动来完善它，然后从中提炼出规范。"
+ },
+ {
+  "seg": 259,
+  "start": 1719.36,
+  "end": 1734.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, because sort of produced artifacts, whether they are code, a spreadsheet, a Google Doc, right, these things are very information dense in terms of the decisions that were made to go into producing something that we have accepted as good.",
+  "zh": "Uh，因为某种生成的产物，无论是代码、电子表格、Google 文档，对吧，这些东西在决策方面信息密度很高，这些决策是为了生成我们认为好的东西而做出的。"
+ },
+ {
+  "seg": 260,
+  "start": 1734.96,
+  "end": 1738.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "So for Symfony, the thing that we shipped is very much a spec.",
+  "zh": "所以对于 Symfony，我们发布的东西很大程度上就是一个规范。"
+ },
+ {
+  "seg": 261,
+  "start": 1738.56,
+  "end": 1754,
+  "speaker": "Ryan Lopopolo",
+  "en": "But the thing that we started with was kind of a vibed implementation of Symfony in TypeScript in our mono repo, where when we thought it was good and it was solving the problems that we wanted it to, we worked on producing a spec out of that to share with the world.",
+  "zh": "但我们开始的东西是一种在 TypeScript 中的 Symfony 的凭感觉的实现，在我们的 monorepo 中，当我们认为它很好并且它解决了我们希望它解决的问题时，我们致力于从中生成一个规范与世界分享。"
+ },
+ {
+  "seg": 262,
+  "start": 1754.24,
+  "end": 1757.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "And it was this very, very cool process where we had this three-phase pipeline.",
+  "zh": "这是一个非常非常酷的过程，我们有一个三阶段的流水线。"
+ },
+ {
+  "seg": 263,
+  "start": 1757.92,
+  "end": 1767.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "We started with Symfony as it was, and we gave it to Codex to say, produce a spec markdown file that is able to reproduce this system.",
+  "zh": "我们从原本的 Symfony 开始，把它交给 Codex 说，生成一个能够重现这个系统的规范 markdown 文件。"
+ },
+ {
+  "seg": 264,
+  "start": 1768.72,
+  "end": 1769.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "We end up with a spec.",
+  "zh": "我们最终得到了一个规范。"
+ },
+ {
+  "seg": 265,
+  "start": 1770.72,
+  "end": 1777.28,
+  "speaker": "Ryan Lopopolo",
+  "en": "Give that to a new agent that says, without access to the original, that says, You have a spec, please implement this system.",
+  "zh": "把它给一个新的智能体说，在没有访问原始权限的情况下，它说，你有一个规范，请实现这个系统。"
+ },
+ {
+  "seg": 266,
+  "start": 1777.68,
+  "end": 1781.52,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh you know, it goes for a while with goal in order to produce this thing.",
+  "zh": "Uh 你知道，它会运行一段时间以目标来生成这个东西。"
+ },
+ {
+  "seg": 267,
+  "start": 1781.84,
+  "end": 1795.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "When it says it's done, we give that system, the spec, and the original implementation to a third agent who's gonna act as the judge to say we are attempting to replicate the original version of Symfony.",
+  "zh": "当它说完成了，我们给第三个智能体那个系统、规范和原始实现，它将充当法官说，我们正在尝试复制 Symfony 的原始版本。"
+ },
+ {
+  "seg": 268,
+  "start": 1795.2,
+  "end": 1799.28,
+  "speaker": "Ryan Lopopolo",
+  "en": "This was the spec that was given to an agent to produce it, and this is what they came up with.",
+  "zh": "这是给智能体用来生成它的规范，这就是他们想出来的。"
+ },
+ {
+  "seg": 269,
+  "start": 1799.6,
+  "end": 1803.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "Where are their misalignments in the derived artifact versus the original system?",
+  "zh": "在衍生产物与原始系统之间，它们的不一致在哪里？"
+ },
+ {
+  "seg": 270,
+  "start": 1803.76,
+  "end": 1807.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "And propose changes to the spec in order to make the next attempt better.",
+  "zh": "并提出对规范的更改，以便让下一次尝试更好。"
+ },
+ {
+  "seg": 271,
+  "start": 1808.24,
+  "end": 1812.88,
+  "speaker": "Ryan Lopopolo",
+  "en": "That's like a very token-intensive process, but you know, working at the token factory, token factory.",
+  "zh": "这是一个非常消耗 token 的过程，但是你知道，在 token 工厂工作，token 工厂。"
+ },
+ {
+  "seg": 272,
+  "start": 1814.56,
+  "end": 1815.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "I suspect you get a discount number.",
+  "zh": "我怀疑你会得到一个折扣数。"
+ },
+ {
+  "seg": 273,
+  "start": 1817.04,
+  "end": 1854.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "But what you end up with is this really refined spec that is reliably able to produce the system as it is written while still providing space and ambiguity for consumers of this ghost library to adapt it to their actual business context, their actual repository and tool chain and issue tracker and all these other sorts of things, uh, which I think is pretty cool because it means that we end up specifying in very tight, high detail the parts that actually matter, the business logic critical parts, while still leaving the flexibility for folks to evolve and change it as they see fit.",
+  "zh": "但你最终得到的是这个真正经过提炼的规范，它能够可靠地生成所写的系统，同时仍为这个幽灵库的使用者提供空间和歧义，使其适应他们实际的业务上下文、他们实际的仓库和工具链以及问题跟踪器以及所有这些其他类型的东西，uh，我认为这非常酷，因为这意味着我们最终在非常紧密、高细节的程度上指定了真正重要的部分，业务逻辑关键部分，同时仍为人们提供灵活性以随心所欲地演变和更改它。"
+ },
+ {
+  "seg": 274,
+  "start": 1854.64,
+  "end": 1854.8,
+  "speaker": "Guy Fajani",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 275,
+  "start": 1855.12,
+  "end": 1865.52,
+  "speaker": "Guy Fajani",
+  "en": "And what I love about that is the process that you just described, and I think we need to learn from everything that we've done in software engineering for many, many years going into agentic development.",
+  "zh": "我对此喜欢的是你刚刚描述的过程，而且我认为我们需要从软件工程中我们做的所有事情中学习很多很多年，进入智能体开发。"
+ },
+ {
+  "seg": 276,
+  "start": 1865.68,
+  "end": 1869.44,
+  "speaker": "Guy Fajani",
+  "en": "But the process that you just described is a very pure prototype.",
+  "zh": "但你刚刚描述的过程是一个非常纯粹的的原型。"
+ },
+ {
+  "seg": 277,
+  "start": 1869.6,
+  "end": 1873.44,
+  "speaker": "Guy Fajani",
+  "en": "It's us rapidly applicate uh rapidly developing our application.",
+  "zh": "这是我们快速应用 uh 快速开发我们的应用程序。"
+ },
+ {
+  "seg": 278,
+  "start": 1873.52,
+  "end": 1877.04,
+  "speaker": "Guy Fajani",
+  "en": "So we make the learnings we need to be able to say, oh, this worked, that didn't.",
+  "zh": "所以我们要做出必要的认知，以便能够说，哦，这个奏效了，那个没有。"
+ },
+ {
+  "seg": 279,
+  "start": 1877.2,
+  "end": 1882.72,
+  "speaker": "Guy Fajani",
+  "en": "Actually, I'd prefer it to be like this, or let's change the UI, which ultimately breaks a number of flows.",
+  "zh": "实际上，我更希望它是这样的，或者让我们改变 UI，这最终会破坏许多流程。"
+ },
+ {
+  "seg": 280,
+  "start": 1882.8,
+  "end": 1884.4,
+  "speaker": "Guy Fajani",
+  "en": "So we we make those learnings.",
+  "zh": "所以我们要做出那些认知。"
+ },
+ {
+  "seg": 281,
+  "start": 1884.64,
+  "end": 1890.88,
+  "speaker": "Guy Fajani",
+  "en": "But the difference is because development is cheap now, uh, we are able to say, I can just throw this away.",
+  "zh": "但区别在于因为现在开发很便宜，uh，我们能够说，我可以直接把它扔掉。"
+ },
+ {
+  "seg": 282,
+  "start": 1890.96,
+  "end": 1899.44,
+  "speaker": "Guy Fajani",
+  "en": "I'm not tempted to use that, but I'm gonna try and distill everything that I have learned and the functional requirements, etc., into that spec.",
+  "zh": "我不倾向于使用它，但我要尝试将我学到的所有东西和功能需求等提炼到那个规范中。"
+ },
+ {
+  "seg": 283,
+  "start": 1899.52,
+  "end": 1912.32,
+  "speaker": "Guy Fajani",
+  "en": "And I love that iterate iterable kind of like that iterations through to make to really, you know, I've seen implementation to spec gaps, and this is this is really good to be able to really fill that in to make sure that the spec captures everything that we need.",
+  "zh": "我喜欢这种可迭代的迭代类型，以真正做到，你知道，我见过实现到规范的差距，而这这真的很好能够真正填补这一点，以确保规范捕获了我们需要的一切。"
+ },
+ {
+  "seg": 284,
+  "start": 1912.64,
+  "end": 1914.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, it's not like this process is new, right?",
+  "zh": "是的，这个过程并不是新的，对吧？"
+ },
+ {
+  "seg": 285,
+  "start": 1914.72,
+  "end": 1918.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Like if I think about other areas in my career where I've seen this, right?",
+  "zh": "就像如果我在我职业生涯中的其他领域思考这个问题，我在哪里见过这个，对吧？"
+ },
+ {
+  "seg": 286,
+  "start": 1918.8,
+  "end": 1926.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Like partnering with data science, they want to cobble together a model in a Jupyter notebook to prove out the idea first.",
+  "zh": "就像与数据科学合作，他们想在 Jupyter notebook 中拼凑一个模型来首先验证这个想法。"
+ },
+ {
+  "seg": 287,
+  "start": 1926.72,
+  "end": 1937.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "And once they get something that they are confident in, then it sort of gets handed off to engineering in order to productionize it, to actually deploy it into the MapReduce pipeline to operate at scale sort of thing.",
+  "zh": "一旦他们得到了自信的东西，那么它就会被移交给工程部门以便将其产品化，将其实际部署到 MapReduce 流水线中以大规模运行那种事情。"
+ },
+ {
+  "seg": 288,
+  "start": 1937.6,
+  "end": 1949.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh if we're thinking about you know doing rapid prototype uh of a design like in Figma and then handing it off in order to productionize also the same sort of context, right?",
+  "zh": "Uh 如果我们在思考你知道做快速原型 uh 的设计就像在 Figma 中然后移交它以便产品化也是同样的语境，对吧？"
+ },
+ {
+  "seg": 289,
+  "start": 1949.84,
+  "end": 1955.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "But now, because, like you said, production of code is cheap, we can actually do that in our production systems.",
+  "zh": "但现在，因为，就像你说的，代码生产是便宜的，我们实际上可以在我们的生产系统中做到这一点。"
+ },
+ {
+  "seg": 290,
+  "start": 1955.6,
+  "end": 1955.92,
+  "speaker": "SPEAKER_02",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 291,
+  "start": 1956.24,
+  "end": 1991.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "One neat way that we made that idea real in this app we are building is in dev, uh electron app, we had a uh window screen that the agent could launch, uh, which would basically give it the native rendering canvas that we're shipping, as well as our full design system and component library, which means it's actually able to prototype new screens directly in the surface that we're deploying, produce screenshots of them, give them to our designer, and now it's a super, super tight loop on does our vision match the reality?",
+  "zh": "我们在这个正在构建的应用程序中实现这一想法的一个巧妙方法是在开发中，uh electron 应用程序，我们有一个 uh 智能体可以启动的窗口屏幕，uh，这基本上会给它我们正在发布的原生渲染画布，以及我们的完整设计系统和组件库，这意味着它实际上能够直接在我们部署的表面上原型化新屏幕，生成它们的屏幕截图，把它们给我们的设计师，现在这是一个超级、超级紧密的循环，关于我们的愿景是否与现实相符？"
+ },
+ {
+  "seg": 292,
+  "start": 1991.6,
+  "end": 1996.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "Are we able to produce this experience in the surface that we're gonna ship?",
+  "zh": "我们能够在我们要发布的表面上生成这种体验吗？"
+ },
+ {
+  "seg": 293,
+  "start": 1996.32,
+  "end": 1998.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "Which is just wild and super, super cool.",
+  "zh": "这简直太疯狂了，超级、超级酷。"
+ },
+ {
+  "seg": 294,
+  "start": 1998.56,
+  "end": 1998.96,
+  "speaker": "SPEAKER_02",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 295,
+  "start": 1999.28,
+  "end": 2001.52,
+  "speaker": "Guy Fajani",
+  "en": "I'd love to talk about capabilities.",
+  "zh": "我想谈谈能力。"
+ },
+ {
+  "seg": 296,
+  "start": 2001.6,
+  "end": 2003.92,
+  "speaker": "Guy Fajani",
+  "en": "Um, and I'll take a slight deviation here.",
+  "zh": "Um，我在这里会稍微偏题一下。"
+ },
+ {
+  "seg": 297,
+  "start": 2004,
+  "end": 2011.76,
+  "speaker": "Guy Fajani",
+  "en": "And I'd love to talk about codecs and um the industry perception of codecs.",
+  "zh": "我想谈谈 codecs 以及 um 行业对 codecs 的看法。"
+ },
+ {
+  "seg": 298,
+  "start": 2012.4,
+  "end": 2017.84,
+  "speaker": "Guy Fajani",
+  "en": "On socials, in community discussions, and all kinds of things, particularly over the last month.",
+  "zh": "在社交媒体上，在社区讨论中，以及各种各样的事情中，特别是在上个月。"
+ },
+ {
+  "seg": 299,
+  "start": 2018.08,
+  "end": 2028.08,
+  "speaker": "Guy Fajani",
+  "en": "I'm hearing people rave about codecs and moving from you know other well-known uh agents, Claude and things like that, over to over to Codex.",
+  "zh": "我听到人们盛赞 codecs，并从你知道的其他著名的 uh 智能体，Claude 之类的东西，转移到转移到 Codex。"
+ },
+ {
+  "seg": 300,
+  "start": 2028.4,
+  "end": 2036.88,
+  "speaker": "Guy Fajani",
+  "en": "And they are they're stating, oh, all of a sudden I'm I'm I'm more productive, more productive on codecs, or I'm actually it's actually more accurate in terms of doing these various things.",
+  "zh": "他们正在陈述，噢，突然之间我我我在 Codecs 上更高效了，更高效了，或者实际上它实际上在做这些各种事情时更准确了。"
+ },
+ {
+  "seg": 301,
+  "start": 2037.12,
+  "end": 2057.84,
+  "speaker": "Guy Fajani",
+  "en": "Internally, I guess you're probably maybe seeing this and like you know, it has has there been a has there been a moment or has there been a uh a feature or something whereby you know codex leveled up for it because of a number of things, or is it just you know the gradual hard work of a of of a group of uh of teams?",
+  "zh": "在内部，我猜你大概可能正在看到这个，并且像你知道的，它是否是否有过一个时刻，或者是否有过一个 uh 一个功能或什么东西，你知道 Codex 因此升级了，因为很多事情，还是这只是你知道一个 uh 团队的渐进的艰苦工作？"
+ },
+ {
+  "seg": 302,
+  "start": 2058.16,
+  "end": 2063.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, so uh the the the product velocity on codex is fantastically quick.",
+  "zh": "是的，所以 uh Codex 上的产品速度非常快。"
+ },
+ {
+  "seg": 303,
+  "start": 2063.52,
+  "end": 2068.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "We just recently celebrated a milestone of having five million uh weekly active users.",
+  "zh": "我们刚刚庆祝了一个里程碑，拥有五百万 uh 周活跃用户。"
+ },
+ {
+  "seg": 304,
+  "start": 2068.4,
+  "end": 2068.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 305,
+  "start": 2068.72,
+  "end": 2069.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "So congratulations.",
+  "zh": "所以祝贺。"
+ },
+ {
+  "seg": 306,
+  "start": 2069.92,
+  "end": 2075.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh Thibaut just did uh weekly resets, you know, go fast, go up, go burn those links down.",
+  "zh": "Uh Thibaut 刚刚做了 uh 每周重置，你知道，快快，向上，去烧掉那些链接。"
+ },
+ {
+  "seg": 307,
+  "start": 2075.44,
+  "end": 2094.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um I will say that there is a very tight and virtuous cycle between the development of Codex itself and our research team, which means there is this fantastic flywheel on every point revision of the uh GPT-5 series where uh the capability just improves in leaps and bounds.",
+  "zh": "Um 我想说在 Codex 本身的开发和我们的研究团队之间有一个非常紧密和良性的循环，这意味着在 uh GPT-5 系列的每次点版本修订上有一个奇妙的飞轮，其中 uh 能力只是突飞猛进地提升。"
+ },
+ {
+  "seg": 308,
+  "start": 2094.72,
+  "end": 2110.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "I would say uh big lifts uh from 5.2 to 5.3 background tool calling, parallel tool calling uh means that Codex was able to do more work all the time in order to make more progress more quickly on more complex changes.",
+  "zh": "我想说 uh 从 5.2 到 5.3 的重大提升 uh 后台工具调用，并行工具调用 uh 意味着 Codex 能够一直做更多的工作，以便在更复杂的变化上更快地取得更多进展。"
+ },
+ {
+  "seg": 309,
+  "start": 2111.2,
+  "end": 2132.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh the unification of uh the normal GPT-5 model and the codex model in 5.4 means that you are not only getting a superpowered code producing agent, but one that is also incredibly generally intelligent, a good writer, which means I'm able to start using Codex for other parts of the software development loop other than producing code.",
+  "zh": "Uh 在 5.4 中 uh 普通 GPT-5 模型和 Codex 模型的统一意味着你不仅得到了一个超级强力的代码生成智能体，而且还得到了一个具有令人难以置信的通用智能的、写作很好的东西，这意味着我能够开始将 Codex 用于软件开发生命周期的其他部分，除了生成代码。"
+ },
+ {
+  "seg": 310,
+  "start": 2133.28,
+  "end": 2144.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "The slide deck that I'm gonna be presenting later today is 100% written by Codex uh using the app connectors in Google Sheets, which uh is not something I would have imagined to be possible last year.",
+  "zh": "我今天晚些时候要展示的幻灯片 100% 是由 Codex 编写的 uh 使用 Google Sheets 里的应用连接器，这 uh 去年我是不可能想象成可能的。"
+ },
+ {
+  "seg": 311,
+  "start": 2144.96,
+  "end": 2178.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh and uh some super powered stuff that came out in uh 5.5 with uh computer use, the browser embedded in the app, these things make it so much easier in order to close the loop, where a ton of the jank that we had to put in place in the 5.1, 5.2 era just doesn't need to exist because we are giving more chunky, powerful tools because there is this virtuous loop between the harness and the app that we are deploying and sort of our research environment and what it means to get the model to be effective at using these things.",
+  "zh": "Uh 还有 uh 一些在 uh 5.5 中出现的超强力东西，带有 uh computer use，嵌入在应用中的浏览器，这些事情使得闭环变得如此容易，其中我们在 5.1、5.2 时代不得不设置的大量笨拙工作根本不需要存在，因为我们提供了更大块、更强大的工具，因为在我们部署的 harness 和应用之间以及我们的研究环境之间存在这种良性循环，以及让模型有效使用这些东西意味着什么。"
+ },
+ {
+  "seg": 312,
+  "start": 2178.48,
+  "end": 2181.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "Just a constant march of capability improving.",
+  "zh": "只是一场能力不断提升的持续行军。"
+ },
+ {
+  "seg": 313,
+  "start": 2181.2,
+  "end": 2187.52,
+  "speaker": "Ryan Lopopolo",
+  "en": "And one thing that I love about Codex is it'll just do the full job.",
+  "zh": "我喜欢 Codex 的一点是它只会完成整个工作。"
+ },
+ {
+  "seg": 314,
+  "start": 2187.6,
+  "end": 2189.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "It won't give me much nonsense about it.",
+  "zh": "它不会给我太多关于它的废话。"
+ },
+ {
+  "seg": 315,
+  "start": 2190,
+  "end": 2192.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "I can treat it like I would another member of the team.",
+  "zh": "我可以像对待团队中的另一个成员那样对待它。"
+ },
+ {
+  "seg": 316,
+  "start": 2192.88,
+  "end": 2193.04,
+  "speaker": "SPEAKER_02",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 317,
+  "start": 2193.2,
+  "end": 2193.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 318,
+  "start": 2193.6,
+  "end": 2199.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "I'm not shoulder surfing all seven of my teammates in order to bop them on the head if they do a bad thing.",
+  "zh": "我不需要盯着我所有七个队友的肩膀，以便在他们做坏事时敲他们的头。"
+ },
+ {
+  "seg": 319,
+  "start": 2199.36,
+  "end": 2206.88,
+  "speaker": "Ryan Lopopolo",
+  "en": "I give them a task, I check in maybe occasionally at stand up, and I trust that I will get a produced PR or several that does the job.",
+  "zh": "我给他们一个任务，我也许偶尔在站会时查看一下，我相信我会得到一个完成工作的已生成的 PR 或几个。"
+ },
+ {
+  "seg": 320,
+  "start": 2207.12,
+  "end": 2211.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "And I have the same level of trust in Codecs in its ability to be autonomous and complete.",
+  "zh": "我对 Codecs 的自主性和完整性能力有同样的信任度。"
+ },
+ {
+  "seg": 321,
+  "start": 2212.08,
+  "end": 2215.52,
+  "speaker": "Guy Fajani",
+  "en": "And you mentioned codecs and then you mentioned models and model versions.",
+  "zh": "你提到了 Codecs，然后你提到了模型和模型版本。"
+ },
+ {
+  "seg": 322,
+  "start": 2215.6,
+  "end": 2217.68,
+  "speaker": "Guy Fajani",
+  "en": "What would you say moves the needle most?",
+  "zh": "你说什么最能起到作用？"
+ },
+ {
+  "seg": 323,
+  "start": 2217.84,
+  "end": 2220.48,
+  "speaker": "Guy Fajani",
+  "en": "Is it updates to the agent or updates to the model?",
+  "zh": "是智能体的更新还是模型的更新？"
+ },
+ {
+  "seg": 324,
+  "start": 2220.96,
+  "end": 2228,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh it's a mix of both, but I have to say the new model releases I think are the most exciting uh bit to me.",
+  "zh": "Uh 这是两者的混合，但我不得不说新模型发布我认为对我来说是最令人兴奋的 uh 部分。"
+ },
+ {
+  "seg": 325,
+  "start": 2228.16,
+  "end": 2236,
+  "speaker": "Ryan Lopopolo",
+  "en": "The the most sort of powerful levers we have in terms of increasing capability are uh continuing to train the model.",
+  "zh": "我们在提高能力方面拥有的最 sort of 强大的杠杆是 uh 继续训练模型。"
+ },
+ {
+  "seg": 326,
+  "start": 2236.48,
+  "end": 2240.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "And uh this is a thing that goes faster and faster over time.",
+  "zh": "而且 uh 这是一个随着时间的推移越来越快的事情。"
+ },
+ {
+  "seg": 327,
+  "start": 2240.8,
+  "end": 2243.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "We're super excited uh every time a new model comes out.",
+  "zh": "每当新模型发布时我们都超级兴奋 uh。"
+ },
+ {
+  "seg": 328,
+  "start": 2244,
+  "end": 2250.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh getting to test them internally is also fun to be able to kind of see the leaps and bounds of new progress we are able to make.",
+  "zh": "Uh 能够在内部测试它们也很有趣，能够看到我们能够取得的新进展的突飞猛进。"
+ },
+ {
+  "seg": 329,
+  "start": 2250.56,
+  "end": 2267.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh each revision of the five series from 5.2 onward, I think 5.2, I think is Singularity Era here with these coding agents, uh, has seen increases in PR throughput uh time and time again.",
+  "zh": "Uh 从 5.2 开始的五个系列的每次修订，我认为 5.2，我认为是这些编码智能体的奇点时代，uh，已经看到 PR 吞吐量一次又一次的增加。"
+ },
+ {
+  "seg": 330,
+  "start": 2267.2,
+  "end": 2267.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "You know.",
+  "zh": "你知道。"
+ },
+ {
+  "seg": 331,
+  "start": 2268.16,
+  "end": 2276.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Whereas at the beginning of sort of the 5.2 era, we were looking at maybe three and a half PRs per engineer per week on my team.",
+  "zh": "而在 5.2 时代的开始，我们在我的团队看到每个工程师每周也许有 3.5 个 PR。"
+ },
+ {
+  "seg": 332,
+  "start": 2276.88,
+  "end": 2283.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh now with 5.5, we're looking at 70, uh, which is just fantastic.",
+  "zh": "Uh 现在有了 5.5，我们看到了 70 个，uh，这简直太棒了。"
+ },
+ {
+  "seg": 333,
+  "start": 2283.36,
+  "end": 2286,
+  "speaker": "Ryan Lopopolo",
+  "en": "Like that that's more than than linear scaling sort of thing.",
+  "zh": "就像那是那是比比线性扩展 sort of 的事情更多。"
+ },
+ {
+  "seg": 334,
+  "start": 2286.16,
+  "end": 2287.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "It's um it's truly amazing.",
+  "zh": "它是 um 它真的令人惊叹。"
+ },
+ {
+  "seg": 335,
+  "start": 2287.68,
+  "end": 2293.28,
+  "speaker": "Guy Fajani",
+  "en": "And is that people changing or is that capabilities doing a better job?",
+  "zh": "是人们在改变，还是能力在做更好的工作？"
+ },
+ {
+  "seg": 336,
+  "start": 2293.92,
+  "end": 2294.88,
+  "speaker": "Guy Fajani",
+  "en": "A bit of a mix of both.",
+  "zh": "两者有一点混合。"
+ },
+ {
+  "seg": 337,
+  "start": 2295.6,
+  "end": 2304.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "A mix of both, I would say there as the model capability improves in leaps and downs like this, there is certainly less effort that needs to go into the enablement step.",
+  "zh": "两者混合，我想说在那里，随着模型能力像这样飞跃和下跌，肯定需要更少的精力投入到启用步骤中。"
+ },
+ {
+  "seg": 338,
+  "start": 2304.96,
+  "end": 2305.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 339,
+  "start": 2305.44,
+  "end": 2307.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "The harness engineering gets easier.",
+  "zh": "harness 工程变得更简单。"
+ },
+ {
+  "seg": 340,
+  "start": 2307.36,
+  "end": 2317.52,
+  "speaker": "Ryan Lopopolo",
+  "en": "The same techniques um we would use, but the need to build chunky tools in order to attach the agent to the outside world is just things that we need to do less and less.",
+  "zh": "我们会使用相同的技术 um，但构建大块工具以便将智能体连接到外部世界的需求只是我们需要做得越来越少的事情。"
+ },
+ {
+  "seg": 341,
+  "start": 2317.68,
+  "end": 2317.92,
+  "speaker": "SPEAKER_01",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 342,
+  "start": 2318.08,
+  "end": 2349.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, to give you an example, in order to get Codex to drive our electron app, before computer use was a thing, we needed to boot up a graphical Ubuntu in a Docker container with a virtual display driver and X server, have engineers install X quartz on their Mac in order to proxy over to that headless host uh and like wire up FFmpeg to this gross contraption in order to record videos of what the app was doing, how the agent had changed it.",
+  "zh": "Uh，举个例子，为了让 Codex 驱动我们的 Electron 应用，在 computer use 成为一种东西之前，我们需要在一个 Docker 容器中启动一个图形化的 Ubuntu，带有虚拟显示驱动和 X 服务器，让工程师在他们的 Mac 上安装 X quartz 以便代理到那个无头主机 uh 并且像将 FFmpeg 连接到这个糟糕的装置，以录制应用程序正在做什么的视频，智能体如何改变了它。"
+ },
+ {
+  "seg": 343,
+  "start": 2349.36,
+  "end": 2356.24,
+  "speaker": "Ryan Lopopolo",
+  "en": "And this is like entirely obsoleted and like a single toggle in the app to turn on computer use, like so, so much easier.",
+  "zh": "这就像完全过时了，就像应用中一个单一的开关来打开 computer use，就像太，太简单了。"
+ },
+ {
+  "seg": 344,
+  "start": 2356.48,
+  "end": 2359.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, and I expect this to only get better and better over time.",
+  "zh": "Uh，而且我指望这只会随着时间的推移变得越来越好。"
+ },
+ {
+  "seg": 345,
+  "start": 2359.36,
+  "end": 2372.8,
+  "speaker": "Guy Fajani",
+  "en": "Yeah, it kind of reminds me of uh thinking back to you know when I when I've been in in the industry 25 years now, but when I when I think back to wow, people actually used to write like bytecode or machine code or binary, and it's like this is the same thing, right?",
+  "zh": "是的，这让我想起了 uh 回想起来你知道当我我我已经在行业里 25 年了，但是当我我回想到哇，人们以前实际上写的是像字节码或机器码或二进制，这就像这是同一回事，对吧？"
+ },
+ {
+  "seg": 346,
+  "start": 2372.88,
+  "end": 2375.28,
+  "speaker": "Guy Fajani",
+  "en": "It's like wow, people used to actually do that and connect.",
+  "zh": "这就像哇，人们以前实际上那样做并连接。"
+ },
+ {
+  "seg": 347,
+  "start": 2376,
+  "end": 2379.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "I don't need to write TCL in order to test my user UIs anymore.",
+  "zh": "我不再需要编写 TCL 来测试我的用户界面了。"
+ },
+ {
+  "seg": 348,
+  "start": 2379.52,
+  "end": 2381.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "That is definitely an improvement.",
+  "zh": "这绝对是一个改进。"
+ },
+ {
+  "seg": 349,
+  "start": 2381.6,
+  "end": 2384.8,
+  "speaker": "Guy Fajani",
+  "en": "So let's jump back into harness engineering then.",
+  "zh": "那么让我们跳回到 harness 工程吧。"
+ },
+ {
+  "seg": 350,
+  "start": 2384.88,
+  "end": 2389.84,
+  "speaker": "Guy Fajani",
+  "en": "Um and let's specifically look at uh a good use case, the Frontier project.",
+  "zh": "嗯，让我们具体看看一个很好的用例，Frontier 项目。"
+ },
+ {
+  "seg": 351,
+  "start": 2390,
+  "end": 2394.64,
+  "speaker": "Guy Fajani",
+  "en": "Um tell us a little bit or walk me through what the harness actually looks like for that.",
+  "zh": "嗯，告诉我们一点或者带我过一遍那个挽具实际上长什么样。"
+ },
+ {
+  "seg": 352,
+  "start": 2394.8,
+  "end": 2400.56,
+  "speaker": "Guy Fajani",
+  "en": "Umcluding like how I guess what gets updated, what's in it, but also ownership.",
+  "zh": "嗯，包括比如我想猜是什么被更新，里面有什么，但也包括所有权。"
+ },
+ {
+  "seg": 353,
+  "start": 2400.72,
+  "end": 2402.56,
+  "speaker": "Guy Fajani",
+  "en": "Who owns that and who changes that?",
+  "zh": "谁拥有它，谁改变它？"
+ },
+ {
+  "seg": 354,
+  "start": 2402.96,
+  "end": 2419.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, so uh a little bit of context, uh OpenAI Frontier is sort of our enterprise platform for agents, and it covers everything from how to build agents with the API, agents SDK, the codex harness, uh, to how you would sort of observe and govern agents running around your enterprise.",
+  "zh": "是的，所以嗯，一点背景，OpenAI Frontier 是我们要给智能体的企业平台，它涵盖了从如何使用 API、agents SDK、codex 挽具来构建智能体，到如何观察和管理在你的企业里到处跑的智能体的一切。"
+ },
+ {
+  "seg": 355,
+  "start": 2419.52,
+  "end": 2441.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh and it's very, very cool to kind of see all of the harness aligning on codex for all the things that we do, which means there's a single highly leveraged uh interface between the product we are building and research, which means uh sort of all the post-training improvements that we do on the model accrue leverage to every product that we build.",
+  "zh": "嗯，看到我们做所有事情的所有挽具都在 codex 上对齐，是非常非常酷的，这意味着在我们正在构建的产品和研究之间存在一个单一的、高杠杆的接口，这意味着嗯，我们在模型上所做的所有后训练改进都能为我们构建的每一个产品带来杠杆效应。"
+ },
+ {
+  "seg": 356,
+  "start": 2442.16,
+  "end": 2449.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "And right now there's very, very clear interface in order to inject new capability into codecs via plugins.",
+  "zh": "而且现在有一个非常非常清晰的接口，以便通过插件将新能力注入到 codecs 中。"
+ },
+ {
+  "seg": 357,
+  "start": 2450.48,
+  "end": 2453.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh these things are skills and scripts.",
+  "zh": "嗯，这些东西是技能和脚本。"
+ },
+ {
+  "seg": 358,
+  "start": 2454,
+  "end": 2456.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Same thing as always I'm talking about context and tools.",
+  "zh": "和平时一样，我在说的是上下文和工具。"
+ },
+ {
+  "seg": 359,
+  "start": 2456.72,
+  "end": 2456.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 360,
+  "start": 2457.2,
+  "end": 2481.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh very, very cool that we have ended up sort of in this like IOCTL sort of extensibility, uh, where really the biggest levers we as agent builders, as product builders, can give the model give codex is to give it chunkier and chunkier tools that connect to the actual business problems that we're trying to solve and to do context shaping and management for it.",
+  "zh": "嗯，非常非常酷的是，我们最终落到了这种像 IOCTL 这样的可扩展性，嗯，作为智能体构建者、产品构建者的我们，能给模型给 codex 的最大杠杆真的是给它越来越大块的工具，连接到我们要解决的实际业务问题，并为它做上下文塑形和管理。"
+ },
+ {
+  "seg": 361,
+  "start": 2481.28,
+  "end": 2500.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "Another exciting part of Frontier that me and my team have been working on is sort of like the organizational context management pieces to be able to uh figure out what work is actually done in your enterprise or what the data ontology is of your data warehouse and how that is actually used in order to answer metrics questions and these things.",
+  "zh": "我和我的团队一直在研究的 Frontier 的另一个激动人心的部分，是组织上下文管理部分，以便能够嗯，弄清楚你的企业里实际做了什么工作，或者你数据仓库的数据本体是什么，以及它实际上是如何被用来回答指标问题以及诸如此类的事情的。"
+ },
+ {
+  "seg": 362,
+  "start": 2500.8,
+  "end": 2512.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Have been doing some really, really interesting experimentation on what it means to potentially give each agent in your enterprise sort of a sidecar that is continuously managing context for it.",
+  "zh": "一直在做一些非常非常有趣的实验，关于潜在地给你企业中的每个智能体某种边车，这东西持续地为它管理上下文意味着什么。"
+ },
+ {
+  "seg": 363,
+  "start": 2512.8,
+  "end": 2521.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, this idea that all agents are coding agents, so we should give them things that are native to that, little Git repositories that they can grap and search over.",
+  "zh": "嗯，这个想法是所有的智能体都是编码智能体，所以我们应该给它们对那来说原生的小东西，小 Git 仓库，它们可以抓取和搜索。"
+ },
+ {
+  "seg": 364,
+  "start": 2521.68,
+  "end": 2532.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh and all of that is to say the techniques that we're using to write the code are things that are going to translate really naturally to building agents in the enterprise.",
+  "zh": "嗯，所有这些都在说，我们用来编写代码的技术将非常自然地转化到企业中构建智能体。"
+ },
+ {
+  "seg": 365,
+  "start": 2532.24,
+  "end": 2536.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "And all of that comes from using that base codex harness in order to build these agents.",
+  "zh": "所有这些都来自使用那个基础 codex 挽具来构建这些智能体。"
+ },
+ {
+  "seg": 366,
+  "start": 2537.04,
+  "end": 2537.92,
+  "speaker": "Guy Fajani",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 367,
+  "start": 2538.16,
+  "end": 2546.64,
+  "speaker": "Guy Fajani",
+  "en": "And I guess when we think about, you know, a minute ago we were just talking about bytecode and you know machine code and things like that.",
+  "zh": "我想当我们思考的时候，你知道，一分钟前我们只是在谈论字节码，你知道，机器码以及诸如此类的东西。"
+ },
+ {
+  "seg": 368,
+  "start": 2546.88,
+  "end": 2549.68,
+  "speaker": "Guy Fajani",
+  "en": "The code that gets created, or let's actually let's go back then.",
+  "zh": "被创建的代码，或者实际上让我们倒回去吧。 [["
+ },
+ {
+  "seg": 369,
+  "start": 2549.92,
+  "end": 2558.4,
+  "speaker": "Guy Fajani",
+  "en": "The code that we used to write years and years ago when we did assembly and so forth, that it's really machine readable, less than less than human-readable.",
+  "zh": "我们多年前以前编写汇编语言等代码时，那段代码是真正机器可读的，远不如人类可读。"
+ },
+ {
+  "seg": 370,
+  "start": 2558.72,
+  "end": 2565.92,
+  "speaker": "Guy Fajani",
+  "en": "Then we kind of moved into the next next generation of programming languages, and actually we were writing more for us as humans.",
+  "zh": "然后我们进入了下一代的编程语言，实际上我们更多是为我们人类而写。"
+ },
+ {
+  "seg": 371,
+  "start": 2566,
+  "end": 2579.52,
+  "speaker": "Guy Fajani",
+  "en": "Sometimes we actually took uh the decision to make to write more maintainable, human-maintainable code versus most performant code because it mattered, it was less likely that we would add bugs and things like that when we make changes.",
+  "zh": "有时我们实际上做出了决定，去编写更具可维护性、人类可维护的代码，而不是最高性能的代码，因为这很重要，因为当我们进行修改时，引入 bug 等问题的可能性更小。"
+ },
+ {
+  "seg": 372,
+  "start": 2579.76,
+  "end": 2583.2,
+  "speaker": "Guy Fajani",
+  "en": "Um today, and I'll ask two questions.",
+  "zh": "嗯，今天，我会问两个问题。"
+ },
+ {
+  "seg": 373,
+  "start": 2583.44,
+  "end": 2597.68,
+  "speaker": "Guy Fajani",
+  "en": "Today, and in maybe a couple of years' time, I hate asking questions for a couple of years' time when we can barely barely think about this week, but today in a couple of years' time, is it more important that code is legible to agents or humans?",
+  "zh": "今天，以及在可能几年后的时间里，我讨厌为几年后的时间提问，因为我们几乎几乎没法思考这一周的事，但是今天在几年后的时间里，代码对智能体还是人类更易读这一点更重要吗？"
+ },
+ {
+  "seg": 374,
+  "start": 2599.92,
+  "end": 2617.2,
+  "speaker": "Ryan Lopopolo",
+  "en": "I would say if I had to pick only one thing uh that was legible to me, it would be the reference documentation of the system, the interfaces, and the rendering of all of that into mermaid entity relationship diagrams, system diagrams, and sequence diagrams.",
+  "zh": "我会说如果我必须只选一样东西 uh 那对我来说是易读的，那会是系统的参考文档、接口，以及将所有这些渲染成 mermaid 实体关系图、系统图和序列图。"
+ },
+ {
+  "seg": 375,
+  "start": 2617.44,
+  "end": 2617.92,
+  "speaker": "Guy Fajani",
+  "en": "And that's today.",
+  "zh": "那就是今天。"
+ },
+ {
+  "seg": 376,
+  "start": 2618.08,
+  "end": 2618.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "That's today.",
+  "zh": "那就是今天。"
+ },
+ {
+  "seg": 377,
+  "start": 2618.64,
+  "end": 2620.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "If I could only pick one, right?",
+  "zh": "如果我只能选一个，对吧？"
+ },
+ {
+  "seg": 378,
+  "start": 2620.4,
+  "end": 2625.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh still, of course, like I am peering down into the machine code, right?",
+  "zh": "呃当然，我仍然在盯着机器代码看，对吧？"
+ },
+ {
+  "seg": 379,
+  "start": 2625.84,
+  "end": 2631.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "I am looking at the diffs as the agent is producing them, but I am able to do that less and less as I gain trust in it.",
+  "zh": "我正在查看智能体生成的差异，但随着我对它的信任增加，我越来越少能够这样做了。"
+ },
+ {
+  "seg": 380,
+  "start": 2631.28,
+  "end": 2639.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh and I am able to do that, uh I'm able to ignore the code as it is produced for more and more complex tasks.",
+  "zh": "呃我能够那样做，呃我能够忽略为越来越复杂的任务生成的代码。"
+ },
+ {
+  "seg": 381,
+  "start": 2639.52,
+  "end": 2643.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um Not all of them, but for increasingly many of them.",
+  "zh": "嗯不是所有的，但对于越来越多的任务来说是。"
+ },
+ {
+  "seg": 382,
+  "start": 2644.56,
+  "end": 2659.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "The things where I find that me and the team provide the most outsized value are on defining the interfaces, defining what the components of the system are, how each component should be structured, and how the code relates to each other.",
+  "zh": "我发现我和团队能提供最大超额价值的地方在于定义接口，定义系统的组件是什么，每个组件应该如何构建，以及代码如何相互关联。"
+ },
+ {
+  "seg": 383,
+  "start": 2660.56,
+  "end": 2681.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "Things like wiring up all the system dependencies together and using like Scala cake pattern style dependency wiring, I find to be very useful to pay attention to because it actually means that I am able to draw the lines on that system diagram in my own head and in the reference documentation.",
+  "zh": "像把所有系统依赖连接在一起并使用像 Scala 蛋糕模式风格的依赖连接之类的事情，我发现非常有必要关注，因为这实际上意味着我能够在我自己的脑海中和参考文档里在这个系统图上画线。"
+ },
+ {
+  "seg": 384,
+  "start": 2681.84,
+  "end": 2689.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "Now, you know, sort of the concrete implementation of those things, like to be honest, I might not even know what language they are in.",
+  "zh": "现在，你知道，这些东西的具体实现，老实说，我甚至可能不知道它们是用什么语言编写的。"
+ },
+ {
+  "seg": 385,
+  "start": 2690.08,
+  "end": 2691.52,
+  "speaker": "Ryan Lopopolo",
+  "en": "Very, very funny story.",
+  "zh": "非常，非常有趣的故事。"
+ },
+ {
+  "seg": 386,
+  "start": 2691.68,
+  "end": 2694.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um to think about those system diagram, the lines.",
+  "zh": "嗯去思考那些系统图，那些线。"
+ },
+ {
+  "seg": 387,
+  "start": 2694.88,
+  "end": 2701.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "Looking at the local development process, we wanted Codex to be able to connect to our Electron app.",
+  "zh": "观察本地开发过程，我们希望 Codex 能够连接到我们的 Electron 应用程序。"
+ },
+ {
+  "seg": 388,
+  "start": 2701.6,
+  "end": 2705.12,
+  "speaker": "Ryan Lopopolo",
+  "en": "Chrome DevTools protocol MCP was how we started out.",
+  "zh": "Chrome DevTools 协议 MCP 是我们开始的方式。"
+ },
+ {
+  "seg": 389,
+  "start": 2706.08,
+  "end": 2709.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "Eventually, I kind of took a peek at the code and it was entirely different.",
+  "zh": "最终，我有点偷看了一眼代码，发现它完全不同。"
+ },
+ {
+  "seg": 390,
+  "start": 2709.6,
+  "end": 2725.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh still, Codex was connecting to the Electron app over uh Chrome DevTools protocol, but it was actually a local TypeScript daemon that was being spun up that was providing a little CLI interface instead of the MCP because we found that there were only two or three tool calls that we actually needed.",
+  "zh": "呃仍然，Codex 通过 Chrome DevTools 协议连接到 Electron 应用程序，但实际上被启动的是一个本地 TypeScript 守护进程，它提供了一个小的 CLI 接口而不是 MCP，因为我们发现我们实际上只需要两三个工具调用。"
+ },
+ {
+  "seg": 391,
+  "start": 2726,
+  "end": 2728.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "This was more context efficient, it was faster.",
+  "zh": "这在上下文方面更高效，它更快。"
+ },
+ {
+  "seg": 392,
+  "start": 2728.32,
+  "end": 2734.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "And this had happened underneath me without me knowing my workflow was not interrupted.",
+  "zh": "这发生在我眼皮底下而我却不知道，我的工作流程没有中断。"
+ },
+ {
+  "seg": 393,
+  "start": 2734.16,
+  "end": 2741.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "That same dependency edge and entity relationship existed, but I almost didn't have to know how it was implemented.",
+  "zh": "同样的依赖边和实体关系存在，但我几乎不需要知道它是如何实现的。"
+ },
+ {
+  "seg": 394,
+  "start": 2741.84,
+  "end": 2743.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh Did you find that cool or worrying?",
+  "zh": "呃你觉得这很酷还是令人担忧？"
+ },
+ {
+  "seg": 395,
+  "start": 2744.16,
+  "end": 2745.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "I found it shocking.",
+  "zh": "我觉得这令人震惊。"
+ },
+ {
+  "seg": 396,
+  "start": 2745.68,
+  "end": 2746.24,
+  "speaker": "Ryan Lopopolo",
+  "en": "I'd find it cool.",
+  "zh": "我会觉得这很酷。"
+ },
+ {
+  "seg": 397,
+  "start": 2746.64,
+  "end": 2749.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "I'd shocking, but also I found it great, right?",
+  "zh": "我会震惊，但我也觉得这很棒，对吧？"
+ },
+ {
+  "seg": 398,
+  "start": 2749.44,
+  "end": 2749.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 399,
+  "start": 2749.92,
+  "end": 2756.16,
+  "speaker": "Ryan Lopopolo",
+  "en": "It basically means I live that high trust relationship in a very, very real way.",
+  "zh": "这基本上意味着我在一种非常、非常真实的方式中生活在那种高信任关系里。"
+ },
+ {
+  "seg": 400,
+  "start": 2756.32,
+  "end": 2756.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 401,
+  "start": 2756.64,
+  "end": 2765.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "Someone on my team imagined a way the world could be better, went after it, and did it in such a way that disrupted literally no one on the team.",
+  "zh": "我团队中的某个人想象了一种让世界变得更好的方式，去追求它，并且做到了完全没有打扰到团队中的任何人。"
+ },
+ {
+  "seg": 402,
+  "start": 2765.92,
+  "end": 2774.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh and because it's the agents that are writing code, they have no opinions around the tools or their structure, as long as we give them things that work and permit them to do their job.",
+  "zh": "呃而且因为是智能体在编写代码，它们对工具或其结构没有任何意见，只要我们给它们能用的东西并允许它们完成它们的工作。"
+ },
+ {
+  "seg": 403,
+  "start": 2775.76,
+  "end": 2776.32,
+  "speaker": "Guy Fajani",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 404,
+  "start": 2776.88,
+  "end": 2777.68,
+  "speaker": "Guy Fajani",
+  "en": "Super interesting.",
+  "zh": "非常有意思。"
+ },
+ {
+  "seg": 405,
+  "start": 2777.76,
+  "end": 2789.68,
+  "speaker": "Guy Fajani",
+  "en": "And I think it's it's definitely a it it feels to me like humans are going to be the slowest, the slowest here in this in adapting to this kind of level of uh level of trust.",
+  "zh": "我认为这这绝对是一个呃我觉得人类将会是最慢的，在这里，在适应这种水平的呃信任水平方面是最慢的。"
+ },
+ {
+  "seg": 406,
+  "start": 2790.08,
+  "end": 2791.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, it's a consistent challenge.",
+  "zh": "是的，这是一个持续的挑战。"
+ },
+ {
+  "seg": 407,
+  "start": 2791.84,
+  "end": 2797.84,
+  "speaker": "Ryan Lopopolo",
+  "en": "My attention, my ability to focus across all these threads, it's it's uh still something we are contending with.",
+  "zh": "我的注意力，我跨所有这些线程聚焦的能力，这这呃仍然是我们正在努力应对的事情。"
+ },
+ {
+  "seg": 408,
+  "start": 2798.24,
+  "end": 2809.84,
+  "speaker": "Guy Fajani",
+  "en": "So when do you feel like you know, in your usage with these product product uh projects, when do you what what are the circumstances that you see today where you actually want to go in and look at the code?",
+  "zh": "那么你什么时候觉得，你知道，在你使用这些产品产品呃项目时，你什么时候你今天看到什么情况下你实际上想要进入并查看代码？"
+ },
+ {
+  "seg": 409,
+  "start": 2811.76,
+  "end": 2834.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "Sort of if we were to kind of put a sort of like two-axis graph together here of sort of uh low and high ambiguity and low and high complexity, in this sort of high high bucket here, I think that's largely two shapes of projects or tickets or epics, whatever you want to call them.",
+  "zh": "如果我们要在这里把一个类似双轴图放在一起，关于呃低和高模糊度以及低和高复杂性，在这个这里的高高桶里，我认为这主要有两种形式的项目或工单或史诗，无论你想怎么称呼它们。"
+ },
+ {
+  "seg": 410,
+  "start": 2834.96,
+  "end": 2844.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Things where I am literally starting from zero to do a net new thing, where maybe the shape of the interfaces, where it lives, what the experience is, I don't know yet.",
+  "zh": "那些我确实是从零开始做一个全新事物的事情，在那里可能接口的形状，它住在哪里，体验是什么，我还不知道。"
+ },
+ {
+  "seg": 411,
+  "start": 2844.72,
+  "end": 2844.96,
+  "speaker": "SPEAKER_02",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 412,
+  "start": 2845.2,
+  "end": 2857.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "Or sort of the most difficult refactors that I want to do, where I either need to break interfaces or redefine them, maybe go backwards and delete code in order to achieve this thing, but I don't know what the end shape that I want is.",
+  "zh": "或者是我想要做的最困难的重构，在那里我可能需要破坏接口或重新定义它们，也许回头并删除代码以实现这件事，但我不知道我想要的最终形状是什么。"
+ },
+ {
+  "seg": 413,
+  "start": 2858.16,
+  "end": 2861.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, these are the places where I pay the most attention.",
+  "zh": "呃，这些是我最关注的地方。"
+ },
+ {
+  "seg": 414,
+  "start": 2862.24,
+  "end": 2864.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "This is honestly where I want to be, right?",
+  "zh": "这确实是我想要在的地方，对吧？"
+ },
+ {
+  "seg": 415,
+  "start": 2864.32,
+  "end": 2869.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "Because this is what it means to kind of like peer six months into the future to unblock my team.",
+  "zh": "因为这就是有点像窥视未来六个月以解锁我的团队的意义所在。"
+ },
+ {
+  "seg": 416,
+  "start": 2869.68,
+  "end": 2874.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um it's also you know, you know, code code is cheap to produce here, right?",
+  "zh": "嗯这也就是你知道，你知道，代码代码在这里生产起来很便宜，对吧？"
+ },
+ {
+  "seg": 417,
+  "start": 2875.04,
+  "end": 2892.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "Like I find myself operating in this space differently than I did a year ago, where I am willing to vibe out a 50,000 line of diff PR and throw it away only to learn the areas where the agent is likely to fail, uh, where it is going to struggle putting those interfaces into place that I like.",
+  "zh": "就像我发现自己在这个空间里操作的方式和一年前不同，我愿意即兴生成一个 5 万行 diff 的 PR 并将其扔掉，只是为了了解智能体可能失败的领域，呃，以及它在将我喜欢的那些接口落实到位时会在哪里挣扎。"
+ },
+ {
+  "seg": 418,
+  "start": 2892.56,
+  "end": 2905.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "And usually I'll actually push up those PRs, trash them immediately, and then crank out 15 PRs out of that to kind of like do the prep work or do the staging in order to prepare myself for the actual cutover that I want to do.",
+  "zh": "通常我实际上会推送那些 PR，立即把它们扔进垃圾桶，然后从中猛搞出 15 个 PR 来做准备工作或做暂存，以便为我实际想要做的切换做准备。"
+ },
+ {
+  "seg": 419,
+  "start": 2905.6,
+  "end": 2906.32,
+  "speaker": "Guy Fajani",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 420,
+  "start": 2906.56,
+  "end": 2918.24,
+  "speaker": "Guy Fajani",
+  "en": "Let's let's uh let's jump to a quote that you uh that you made a while back, which is you called it borderline negligent not to use a billion tokens a day.",
+  "zh": "让我们让我们呃让我们跳到你不久前的一个引用，你说每天不使用十亿个 tokens 是近乎疏忽的。"
+ },
+ {
+  "seg": 421,
+  "start": 2918.64,
+  "end": 2921.2,
+  "speaker": "Guy Fajani",
+  "en": "Um it's a strong claim.",
+  "zh": "嗯这是一个强有力的声明。"
+ },
+ {
+  "seg": 422,
+  "start": 2921.44,
+  "end": 2936.48,
+  "speaker": "Ryan Lopopolo",
+  "en": "Who who are you aiming to shake the ladder of the idea that the amount of intelligence we are able to extract from the models is in a way linear with token consumption.",
+  "zh": "你想要撼动什么梯子，关于我们从模型中提取的智能量在某种程度上与 token 消耗成线性关系的想法。"
+ },
+ {
+  "seg": 423,
+  "start": 2936.64,
+  "end": 2941.28,
+  "speaker": "Ryan Lopopolo",
+  "en": "I think at the time was quite controversial, but we see it being increasingly true, right?",
+  "zh": "我认为在当时这是相当有争议的，但我们看到它变得越来越真实，对吧？"
+ },
+ {
+  "seg": 424,
+  "start": 2941.68,
+  "end": 2945.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh this is ultimately why test time compute exists, right?",
+  "zh": "呃这就是为什么测试时计算存在的根本原因，对吧？"
+ },
+ {
+  "seg": 425,
+  "start": 2945.76,
+  "end": 2955.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "In order to get the models to be smarter and have more and more rich side effects out into the world, we want to move workflows to high token consumption use cases.",
+  "zh": "为了让模型变得更聪明并在世界上产生越来越丰富的副作用，我们希望将工作流程转移到高 token 消耗用例。"
+ },
+ {
+  "seg": 426,
+  "start": 2956.32,
+  "end": 2966,
+  "speaker": "Ryan Lopopolo",
+  "en": "And I think in order to get to a billion tokens a day, you must be thinking in a grander world than pair programming with the model.",
+  "zh": "我认为为了达到每天十亿个 tokens，你必须在一个比与模型结对编程更宏大的世界里思考。"
+ },
+ {
+  "seg": 427,
+  "start": 2966.16,
+  "end": 2968.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "You must find ways to be in parallel.",
+  "zh": "你必须找到并行的方法。"
+ },
+ {
+  "seg": 428,
+  "start": 2968.72,
+  "end": 2971.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "You must find ways to put these asynchronous loops into place.",
+  "zh": "你必须找到将这些异步循环落实到位的方法。"
+ },
+ {
+  "seg": 429,
+  "start": 2971.92,
+  "end": 2979.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh, you must find ways to build agents that are able to side effect onto organizations and teams rather than just yourself.",
+  "zh": "呃，你必须找到能够建立智能体的方法，使其能够对组织和团队产生副作用，而不仅仅是对你自己。"
+ },
+ {
+  "seg": 430,
+  "start": 2979.28,
+  "end": 2993.52,
+  "speaker": "Ryan Lopopolo",
+  "en": "And in order to do that, we have kind of had to invent a bunch of patterns on what it means to do that, to have automations that are seeded from the repository context that everyone in the team can use rather than sort of single-player mode sort of things.",
+  "zh": "为了做到这一点，我们必须发明一系列模式来理解这意味着什么，要拥有从仓库上下文播种的自动化，团队中的每个人都可以使用，而不是那种单人模式的东西。"
+ },
+ {
+  "seg": 431,
+  "start": 2993.84,
+  "end": 3002.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "And it's definitely not the case that everyone today can say, I'm going to consume a billion tokens a day, and poof, magic, uh, it happens.",
+  "zh": "而且今天的情况绝对不是每个人都能说，我要每天消耗十亿个 tokens，然后噗，魔法，呃，它就发生了。"
+ },
+ {
+  "seg": 432,
+  "start": 3002.56,
+  "end": 3019.04,
+  "speaker": "Ryan Lopopolo",
+  "en": "There is work that has to be done in order to make that safe, in order to make the output aligned, to make sure those tokens are burned in ways that are productive, that make it to main and improve the end experience that I am shipping to users, these sorts of things.",
+  "zh": "为了使其安全，为了使输出对齐，为了确保那些 tokens 被以富有成效的方式燃烧，使其到达 main 并改善我交付给用户的最终体验，所有这些都是需要做的工作。"
+ },
+ {
+  "seg": 433,
+  "start": 3019.36,
+  "end": 3032.32,
+  "speaker": "Ryan Lopopolo",
+  "en": "And I think at this point in the industry with this technology, we don't really have a durable, scalable, locked-in sense of what those patterns are.",
+  "zh": "而且我认为在这个行业在这个技术阶段，我们对于这些模式是什么并没有真正持久的、可扩展的、锁定的感觉。"
+ },
+ {
+  "seg": 434,
+  "start": 3032.64,
+  "end": 3042.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "So, you know, to kind of poke aggressively like that and get to a billion tokens a day is really to kind of challenge people to figure out what it is that's gonna work.",
+  "zh": "所以，你知道，像那样激进地戳一下并达到每天十亿个 tokens，实际上是在挑战人们去弄清楚什么会起作用。"
+ },
+ {
+  "seg": 435,
+  "start": 3042.48,
+  "end": 3042.8,
+  "speaker": "SPEAKER_02",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 436,
+  "start": 3042.96,
+  "end": 3049.76,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh sort of feels like we have just invented the concept of CI CD, right?",
+  "zh": "呃有点感觉就像我们刚刚发明了 CI/CD 的概念，对吧？"
+ },
+ {
+  "seg": 437,
+  "start": 3050,
+  "end": 3053.44,
+  "speaker": "Ryan Lopopolo",
+  "en": "And like people are kind of scrambling to figure out what that means.",
+  "zh": "就像人们正在争先恐后地弄清楚那意味着什么。"
+ },
+ {
+  "seg": 438,
+  "start": 3053.52,
+  "end": 3059.36,
+  "speaker": "Ryan Lopopolo",
+  "en": "And only 15 years later did this become a thing that's like fairly standardized, that is table stakes.",
+  "zh": "直到 15 年后，这才成为一个相当标准化的事情，成为入场筹码。"
+ },
+ {
+  "seg": 439,
+  "start": 3059.52,
+  "end": 3064.88,
+  "speaker": "Ryan Lopopolo",
+  "en": "And that's I think what needs to happen right now uh with agents and producing software.",
+  "zh": "我认为这现在需要发生的事情，呃，关于智能体和生产软件。"
+ },
+ {
+  "seg": 440,
+  "start": 3065.12,
+  "end": 3066.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "We need to figure out those patterns.",
+  "zh": "我们需要弄清楚那些模式。"
+ },
+ {
+  "seg": 441,
+  "start": 3066.4,
+  "end": 3067.84,
+  "speaker": "Guy Fajani",
+  "en": "So let's continue this flow then.",
+  "zh": "那么让我们继续这个流程。"
+ },
+ {
+  "seg": 442,
+  "start": 3068,
+  "end": 3069.28,
+  "speaker": "Guy Fajani",
+  "en": "Harness engineering.",
+  "zh": "驾驭工程。"
+ },
+ {
+  "seg": 443,
+  "start": 3069.52,
+  "end": 3072.8,
+  "speaker": "Guy Fajani",
+  "en": "If we if we follow that to its logical conclusion.",
+  "zh": "如果我们如果我们将其遵循到其逻辑结论。"
+ },
+ {
+  "seg": 444,
+  "start": 3073.04,
+  "end": 3079.52,
+  "speaker": "Guy Fajani",
+  "en": "Um engineers and a well, harness engineering is is part of every project, every team.",
+  "zh": "嗯工程师和呃，驾驭工程是是每个项目、每个团队的一部分。"
+ },
+ {
+  "seg": 445,
+  "start": 3079.68,
+  "end": 3083.84,
+  "speaker": "Guy Fajani",
+  "en": "Uh developers on that team are using a billion tokens uh every day.",
+  "zh": "呿那个团队上的开发者每天正在使用十亿个 tokens 呃。"
+ },
+ {
+  "seg": 446,
+  "start": 3084.08,
+  "end": 3084.32,
+  "speaker": "Guy Fajani",
+  "en": "Woohoo!",
+  "zh": "哇吼！"
+ },
+ {
+  "seg": 447,
+  "start": 3084.64,
+  "end": 3087.36,
+  "speaker": "Guy Fajani",
+  "en": "Um OpenAI, very happy with that.",
+  "zh": "嗯 OpenAI，对此非常高兴。"
+ },
+ {
+  "seg": 448,
+  "start": 3087.52,
+  "end": 3092.4,
+  "speaker": "Guy Fajani",
+  "en": "Um what does an engineering team look like in that scenario?",
+  "zh": "嗯在那个场景下工程团队是什么样子的？"
+ },
+ {
+  "seg": 449,
+  "start": 3093.04,
+  "end": 3100.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "I have found it very valuable to have a diverse team in terms of perspective, experience, and expertise.",
+  "zh": "我发现在视角、经验和专业知识方面拥有一个多元化的团队是非常有价值的。"
+ },
+ {
+  "seg": 450,
+  "start": 3100.8,
+  "end": 3108.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um I know myself, I probably biased more toward backend and infrastructure uh sort of work.",
+  "zh": "嗯 我知道我自己，我可能更偏向于后端和基础架构 uh 类的工作。"
+ },
+ {
+  "seg": 451,
+  "start": 3108.96,
+  "end": 3117.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "You probably uh see in my sort of profile here, uh, which means that when it was just me on the team, I was producing quite terrible React code.",
+  "zh": "你大概 uh 在我的某种个人简介里能看到，uh，这意味着当团队里只有我一个人的时候，我写出了非常糟糕的 React 代码。"
+ },
+ {
+  "seg": 452,
+  "start": 3118.32,
+  "end": 3132.24,
+  "speaker": "Ryan Lopopolo",
+  "en": "We had we had some components that were 6,000 lines long, uh a ton of really bad re-renderings, uh these use effect hooks that were like four overlapping closures, like very hard to reason about.",
+  "zh": "我们有 我们有一些组件长达 6000 行，uh 有很多非常糟糕的重新渲染，uh 这些 use effect hooks 像是四个重叠的闭包，像是很难去理解推理。"
+ },
+ {
+  "seg": 453,
+  "start": 3132.4,
+  "end": 3138.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "And to bring folks onto the team that actually were able to say, Ryan, this is garbage, uh, really helped.",
+  "zh": "并且把这些人带进团队，他们实际上能说，Ryan，这是垃圾，uh，真的很有帮助。"
+ },
+ {
+  "seg": 454,
+  "start": 3138.8,
+  "end": 3144.64,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh and to be able to kind of like have these full stack teams, I find really, really useful.",
+  "zh": "Uh 并且能够有点像拥有这些全栈团队，我发现真的，真的很有用。"
+ },
+ {
+  "seg": 455,
+  "start": 3144.88,
+  "end": 3155.6,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh the other sort of thing is I think we no longer need to focus so much as software engineers on developing code production as a skill.",
+  "zh": "Uh 另一件事是 我认为我们作为软件工程师不再需要 so much 关注代码生产作为一种技能的开发。"
+ },
+ {
+  "seg": 456,
+  "start": 3155.84,
+  "end": 3162.72,
+  "speaker": "Ryan Lopopolo",
+  "en": "Really, what I want to see uh engineers sort of nurture in their own careers is this sort of systems thinking mentality.",
+  "zh": "真的，我想要看到 uh 工程师在他们的职业生涯中某种培养的，是这种系统思考的心态。"
+ },
+ {
+  "seg": 457,
+  "start": 3162.96,
+  "end": 3174.08,
+  "speaker": "Ryan Lopopolo",
+  "en": "What it means to set up teams for success, how far can I peer into the future to solve problems, to increase the throughput at which we are producing code and shipping to customers?",
+  "zh": "建立团队为了成功意味着什么，我能够把目光投向未来多远去解决问题，去增加我们生产代码和交付给客户的吞吐量？"
+ },
+ {
+  "seg": 458,
+  "start": 3174.48,
+  "end": 3192.56,
+  "speaker": "Ryan Lopopolo",
+  "en": "Um probably for me, my time has been split 30-30-30 between sort of the the hardest refactors and zero-to-one product ideation, talking to customers and prioritizing scheduling and staffing work.",
+  "zh": "Um 大概对我来说，我的时间被分配为 30-30-30，在 最艰难的重构和从零到一的产品构思，与客户交谈以及优先安排调度和人员配置工作之间。"
+ },
+ {
+  "seg": 459,
+  "start": 3193.04,
+  "end": 3198.96,
+  "speaker": "Ryan Lopopolo",
+  "en": "Uh whereas before I was probably spending closer to 50 or 70% of my time producing code.",
+  "zh": "Uh 然而之前我可能花费接近 50 或 70% 的时间在写代码。"
+ },
+ {
+  "seg": 460,
+  "start": 3199.28,
+  "end": 3211.68,
+  "speaker": "Ryan Lopopolo",
+  "en": "So I am able to step back a bit and focus on these other highly cross-functional, high-priority work streams in order to unblock teams of agents from going and doing the code production piece.",
+  "zh": "所以我能够退后一步，并关注这些其他的高度跨职能、高优先级的工作流，以便为 智能体 团队解除阻塞，让他们去执行代码生产环节。"
+ },
+ {
+  "seg": 461,
+  "start": 3212.16,
+  "end": 3233.52,
+  "speaker": "Guy Fajani",
+  "en": "And the most important piece there, talking to users and understanding the requirements and actually mapping those back to the functional requirements of the app versus thinking too deeply about how an app should be built in the implementation and not thinking enough about okay, what does the actual user want rather than me building this uh the this this back end to be absolutely perfect in its design and so forth.",
+  "zh": "而那里最重要的部分，是与用户交谈并理解需求，并实际将它们映射回应用的功能需求，而不是过度思考应用在实现中应该如何构建，以及没有足够思考好的，实际用户想要什么，而不是我构建这个 uh the this this 后端使其设计绝对完美等等。"
+ },
+ {
+  "seg": 462,
+  "start": 3233.84,
+  "end": 3236.8,
+  "speaker": "Ryan Lopopolo",
+  "en": "Yeah, and one of the things that's part of that is deciding what not to build.",
+  "zh": "是的，其中一部分是决定不构建什么。"
+ },
+ {
+  "seg": 463,
+  "start": 3237.12,
+  "end": 3237.28,
+  "speaker": "Guy Fajani",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 464,
+  "start": 3238.08,
+  "end": 3242.4,
+  "speaker": "Ryan Lopopolo",
+  "en": "Very, very common uh trap I see people falling into these days with agents.",
+  "zh": "非常，非常普遍的 uh 陷阱，我看到这些天人们用 智能体 会掉进去。"
+ },
+ {
+  "seg": 465,
+  "start": 3242.72,
+  "end": 3244.72,
+  "speaker": "Guy Fajani",
+  "en": "And particularly because, yeah, coding's cheap.",
+  "zh": "并且特别因为，是的，编码很便宜。"
+ },
+ {
+  "seg": 466,
+  "start": 3244.88,
+  "end": 3248.96,
+  "speaker": "Guy Fajani",
+  "en": "We can build everything, but we need to kind of like stop and ask ourselves, should we build this?",
+  "zh": "我们可以构建一切，但我们需要有点像停下来问自己，我们应该构建这个吗？"
+ },
+ {
+  "seg": 467,
+  "start": 3249.04,
+  "end": 3253.6,
+  "speaker": "Guy Fajani",
+  "en": "Because I guess it's still us as humans that are consuming uh in the majority, in the most part.",
+  "zh": "因为我猜在大多数情况下，大部分还是我们人类在消费。"
+ },
+ {
+  "seg": 468,
+  "start": 3253.76,
+  "end": 3260.4,
+  "speaker": "Guy Fajani",
+  "en": "Um well, I suppose that there will be these middleware things where uh I guess other agents and other apps can consume.",
+  "zh": "Um 嗯，我想会有这些中间件事物，那里 uh 我猜其他 智能体和其他应用可以消费。"
+ },
+ {
+  "seg": 469,
+  "start": 3260.64,
+  "end": 3267.84,
+  "speaker": "Guy Fajani",
+  "en": "But when we think about humans and users actually using this, we need to develop at the at the pace that they're comfortable consuming uh as well.",
+  "zh": "但当我们考虑实际使用这个的人类和用户时，我们需要以他们舒适的消费速度来进行开发 uh 也。"
+ },
+ {
+  "seg": 470,
+  "start": 3268,
+  "end": 3271.12,
+  "speaker": "Guy Fajani",
+  "en": "So it's super interesting, super interesting balance.",
+  "zh": "所以这是一个超级有趣的，超级有趣的平衡。"
+ },
+ {
+  "seg": 471,
+  "start": 3271.52,
+  "end": 3275.52,
+  "speaker": "Guy Fajani",
+  "en": "Ryan, this has been uh absolutely fascinating and really enlightening to chat with you.",
+  "zh": "Ryan，这次聊天 uh 绝对迷人且真正具有启发性。"
+ },
+ {
+  "seg": 472,
+  "start": 3275.6,
+  "end": 3292.88,
+  "speaker": "Guy Fajani",
+  "en": "So a massive thank you for spending the time to chat with us today, and really looking forward to your uh session later today, which is going to be uh live uh on the main stage and also recorded for for uh uh listeners uh to watch back in their own time as well.",
+  "zh": "所以非常感谢你花时间今天和我们聊天，并且真的很期待你今天晚些时候的 uh 环节，这将是 uh 直播 uh 在主舞台，并且也为 uh uh 听众录制了，以便他们可以在自己的时间回看。"
+ },
+ {
+  "seg": 473,
+  "start": 3292.96,
+  "end": 3294.8,
+  "speaker": "Guy Fajani",
+  "en": "So, Brian, massive thank you, appreciate it.",
+  "zh": "所以，Brian，非常感谢，我很感激。"
+ },
+ {
+  "seg": 474,
+  "start": 3295.04,
+  "end": 3296,
+  "speaker": "Ryan Lopopolo",
+  "en": "Amazing, thank you for having me.",
+  "zh": "太棒了，谢谢你的邀请。"
+ },
+ {
+  "seg": 475,
+  "start": 3296.16,
+  "end": 3299.92,
+  "speaker": "Ryan Lopopolo",
+  "en": "This is such a fun conversation, and I will catch you later at the conference and on the live stream.",
+  "zh": "这是一次如此有趣的谈话，我稍后会在会议和直播上见到你。"
+ },
+ {
+  "seg": 476,
+  "start": 3300.16,
+  "end": 3300.56,
+  "speaker": "Guy Fajani",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 477,
+  "start": 3300.64,
+  "end": 3303.44,
+  "speaker": "Guy Fajani",
+  "en": "Thanks very much for tuning in and uh hope to catch you on the next episode.",
+  "zh": "非常感谢收听，uh 希望在下一集节目中见到你。"
+ },
+ {
+  "seg": 478,
+  "start": 3303.6,
+  "end": 3304.08,
+  "speaker": "Guy Fajani",
+  "en": "Bye for now.",
+  "zh": "暂时再见。"
+ },
+ {
+  "seg": 479,
+  "start": 3304.16,
+  "end": 3304.72,
+  "speaker": "Guy Fajani",
+  "en": "Bye folks.",
+  "zh": "再见大伙。"
+ },
+ {
+  "seg": 480,
+  "start": 3305.12,
+  "end": 3309.76,
+  "speaker": "Guy Fajani",
+  "en": "The AI Native Dev is brought to you by Tesla, the package manager for skills and content.",
+  "zh": "The AI Native Dev 由 Tesla 为您呈现，它是用于技能和内容的包管理器。"
+ },
+ {
+  "seg": 481,
+  "start": 3310,
+  "end": 3312.96,
+  "speaker": "Guy Fajani",
+  "en": "Your hosts are Guy Pajani and me, Simon Maple.",
+  "zh": "你们的主播是 Guy Pajani 和我，Simon Maple。"
+ },
+ {
+  "seg": 482,
+  "start": 3313.12,
+  "end": 3314.64,
+  "speaker": "Guy Fajani",
+  "en": "Our producer is Tom Dowler.",
+  "zh": "我们的制片人是 Tom Dowler。"
+ },
+ {
+  "seg": 483,
+  "start": 3314.88,
+  "end": 3318.16,
+  "speaker": "Guy Fajani",
+  "en": "The AI Native Dev is not just a podcast, it's a community.",
+  "zh": "The AI Native Dev 不仅仅是一个播客，它是一个社区。"
+ },
+ {
+  "seg": 484,
+  "start": 3318.24,
+  "end": 3321.76,
+  "speaker": "Guy Fajani",
+  "en": "And we host monthly meetups at the Tesla offices in central London.",
+  "zh": "并且我们在位于市中心的 Tesla 办公室举办每月的聚会。"
+ },
+ {
+  "seg": 485,
+  "start": 3321.92,
+  "end": 3324.64,
+  "speaker": "Guy Fajani",
+  "en": "Visit Tesla.io forward slash community.",
+  "zh": "访问 Tesla.io/社区。"
+ },
+ {
+  "seg": 486,
+  "start": 3324.72,
+  "end": 3326.64,
+  "speaker": "Guy Fajani",
+  "en": "To learn more, I hope to see you there.",
+  "zh": "欲了解更多信息，我希望能在这里见到你。"
+ }
+]

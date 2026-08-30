@@ -129,7 +129,7 @@ Malika 的定义：**在多个层次上思考的能力**——从一层、三层
 
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:智能体 (agent)、可观测性 (observability)、护栏 (guardrails)</span>
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:智能体 (agent)、可观测性 (observability)</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:智能体 (agent)、护栏 (guardrails)</span>
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:智能体 (agent)、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

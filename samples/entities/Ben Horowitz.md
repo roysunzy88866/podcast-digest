@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":5,"Sofia Puccini":3,"NVIDIA":24,"Andreessen Horowitz":1,"Anthropic":79,"Hugging Face":12,"DeepSeq":1,"Thinking Machines":1,"Mistral":5,"开源":7}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":5,"Sofia Puccini":3,"NVIDIA":24,"Andreessen Horowitz":1,"Anthropic":79,"Hugging Face":12,"DeepSeq":1,"Thinking Machines":1,"Mistral":5,"开源":8}</script>
 
 <script>
 (function(){

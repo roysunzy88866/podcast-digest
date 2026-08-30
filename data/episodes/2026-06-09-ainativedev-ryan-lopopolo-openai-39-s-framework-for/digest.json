@@ -1,0 +1,154 @@
+{
+  "title_zh": "Harness 工程：让智能体零人工写代码的实操",
+  "tldr": "OpenAI 的 Ryan Lopopolo 讲解 harness 工程——如何通过上下文和工具的设计，让编码智能体自主产出可合并的代码，实现零人工编写、零人工审查。",
+  "digest_md": "这一集是 OpenAI 的 Ryan Lopopolo 在 AI Native DevCon 2026 大会上聊\" harness 工程\"(harness engineering)——一种让编码智能体在你的代码库里自主完成高质量工作的方法体系。最颠覆的一点是：他的团队做到了零人类编写代码、大部分情况下零人工代码审查，而且当 Codex 悄悄把底层实现从 MCP 协议换成完全不同的 TypeScript 守护进程时，他竟然毫不知情，工作流零中断 [00:08 Ryan Lopopolo]。\n\n## 什么是 harness 工程\n\nharness 工程的核心思路是：光有聪明的模型不够，你要把\"什么是好代码\"的所有非功能性需求——测试怎么写、lint 怎么跑、重构循环怎么转——全部写下来，在正确的时间喂给智能体，让它在没有你干预的情况下也能闭环产出可合并的代码 [03:06 Ryan Lopopolo]。\n\n和之前说的上下文工程(context engineering)相比，harness 工程是把\"给什么上下文\"和\"给什么工具\"两个杠杆组合起来用，而且独特之处在于——它用工具调用本身来做提示词注入，让智能体自己管理上下文窗口 [04:30 Ryan Lopopolo]。比如测试和 lint 的报错信息，给人类看你会列一份详尽的失败清单让人去翻日志；但给智能体，你要压缩成一段语义清晰的文字：\"你在这个文件里这样搞砸了，请打开它，按 XYZ 文件里的运行手册去修，因为你之前犯过同样的错\" [05:14 Ryan Lopopolo]。\n\n## 从零开始：怎么走到\"不写代码\"\n\nRyan 在 2025 年 6 月就开始用这种不插手的方式工作，那时候连像样的推理模型都没有，只有早期版本的 Codex CLI，模型能力差得多，过程非常痛苦 [07:51 Ryan Lopopolo]。一开始他自己不得不充当\"笨重工具\"——智能体卡住了只能叫他帮忙，比如用 cargo 装依赖这种 Codex 当时做不好的事 [08:37 Ryan Lopopolo]。\n\n关键转折是：他开始密切观察自己花时间在哪些地方，然后为每个\"叫 Ryan\"的场景造一个工具调用来自动化。第一步就是自动化依赖安装，然后逐步给智能体越来越多、越来越大的工具块 [09:04 Ryan Lopopolo]。从零开始的好处是你会发自内心地体验智能体在哪里失败，同时也能看到它哪里做得好——它特别擅长遵循指令、写测试、调用测试 [09:23 Ryan Lopopolo]。把工程流程大量折叠成这些\"铺好的路\"，就是建立信任的过程。\n\n团队扩张时，他只招公司新人，新员工直接被扔进这个环境，大约两周就能适应这种运作方式 [10:37 Ryan Lopopolo]。因为所有人通过 Codex 作为代码库的唯一入口，每个新成员贡献的最佳实践自动被所有人共享——新人不用花一两个月吸收团队规范，入职两周后 PR 吞吐量就能提升 5% 到 15% [12:03 Ryan Lopopolo]。\n\n## 反垃圾代码：不用审查代码，改审查计划\n\n他们的做法不是逐行审代码，而是把人类审查集中在\"上游\"：高度复杂的计划和跨一周的里程碑。因为这些计划本身就是给智能体的提示词，如果你在开头把任务描述错了，产出的就是垃圾 [14:59 Ryan Lopopolo]。日常代码则走零人工审查，直接合并。\n\n但\"不审查\"不等于\"不管\"。他们经历了一个关键阶段：招到第三个工程师时，PR 吞吐量上去了但审查跟不上，垃圾代码开始渗入 [19:20 Ryan Lopopolo]。他们的应对是每周五做\"垃圾收集\"——整理一周内不满意的地方，但核心原则是\"永远不给出两次同样的反馈\" [20:08 Ryan Lopopolo]。这些反馈逐渐堆叠成程序化的护栏，加上一个长时间运行的外循环——自动化 CI 任务扫描代码库，对照\"黄金原则\"找偏差，自动提 PR 修复 [20:18 Ryan Lopopolo]。\n\n具体实现很朴素：一个 GitHub issue，工程师和智能体在上面记录良好软件开发的原则——怎么写 React 快照测试、什么是可靠的网络代码、怎么构建 lint。最后累积到 100 多条评论，智能体就根据这个去扫描代码库、排名违规项、提 PR [21:15 Ryan Lopopolo]。初期还有专人 on call 监督这些智能体产出，给通过或不通过的反馈，而这些反馈会被下一次运行吸收——智能体会对比上次的会话日志，问自己\"犯了什么错、错过了什么优先级\"，然后把学到的内容保存为 artifact，下次运行时就有额外上下文 [22:07 Ryan Lopopolo]。\n\nRyan 强调，让错误进 main 分支其实是有价值的——错误可以被学习。一旦识别到重复模式，就把它往前拉到流水线更早的位置：先改提示词(最便宜)，再改文档、加审查智能体，最后才写确定性测试 [25:28 Ryan Lopopolo]。\n\n## 代码变成可丢弃物，规范才是持久资产\n\n当代码生产变得极其便宜，Ryan 发现一个反直觉的做法：先写代码实现，再从中提炼规范，而不是传统的先写规范再写代码 [27:51 Ryan Lopopolo]。原因很简单——代码是信息密度极高的产物，包含了大量隐性决策，先让智能体扔出一个\"稻草人\"实现，团队在此基础上打磨，然后蒸馏出规范，比从空白文档开始写规范容易得多。\n\n他们做了一个叫 Symfony 的\"幽灵库\"(ghost library)——发布的东西是规范，但起点是一个在 monorepo 里的 TypeScript 凭感觉实现 [28:58 Ryan Lopopolo]。验证规范的流程是三阶段流水线：第一个智能体从原始实现生成规范 markdown；第二个智能体只看规范、不看原始代码，从零实现一遍；第三个智能体当法官，对比原始实现和衍生实现，找不一致，然后修改规范让下一次尝试更好 [29:14 Ryan Lopopolo]。最终得到的是一个高度精炼的规范——对业务逻辑关键部分指定得很细，但对具体实现留足灵活性，让使用者能适配自己的仓库和工具链 [30:17 Ryan Lopopolo]。\n\n## 什么时候还需要人看代码\n\nRyan 画了一个二维图：模糊度和复杂度。他只在\"双高\"区域亲自看代码 [46:51 Ryan Lopopolo]。两种情况：一是从零开始做全新东西，接口形状、体验都还不清楚；二是最困难的重构，需要打破或重新定义接口，甚至删代码，但最终形态还不明确 [47:14 Ryan Lopopolo]。而且即使在这些场景，他的做法也不是小心翼翼地写，而是让智能体先即兴生成一个 5 万行 diff 的 PR，直接扔掉——目的是摸清智能体会在哪里失败、在哪里挣扎，然后再拆成 15 个小 PR 做准备和暂存工作 [47:55 Ryan Lopopolo]。\n\n至于日常代码，他越来越不看实现细节。他说如果只能选一样东西读，他选系统的参考文档、接口定义、以及渲染成 mermaid 图的实体关系图和序列图 [43:19 Ryan Lopopolo]。具体用什么语言写、怎么实现，他可能都不知道——就像开头那个故事，Codex 把 MCP 实现悄悄换成了 TypeScript 守护进程，同样的依赖关系和实体关系都在，但他几乎不需要知道底层怎么实现的 [45:28 Ryan Lopopolo]。\n\n## 每天烧十亿 token 不是吹牛\n\nRyan 说过\"不每天用十亿 token 是近乎疏忽\"这句话，他的逻辑是：我们从模型中提取的智能量和 token 消耗基本是线性关系，测试时计算(test time compute)存在的意义就是让模型通过更多推理变得更聪明 [48:56 Ryan Lopopolo]。但要用到十亿 token，你必须跳出\"和模型结对编程\"的思路——必须并行、必须建立异步循环、必须让智能体对整个组织产生副作用而不是只服务你一个人 [49:16 Ryan Lopopolo]。\n\n这需要一套全新的模式——从仓库上下文播种的自动化，团队所有人都能用，而不是单人模式。Ryan 把这个阶段类比成 CI/CD 刚被发明的时候：大家都在摸索，要 15 年后才标准化 [50:42 Ryan Lopopolo]。\n\n## 工程师的角色变了吗\n\nRyan 的团队现在是全栈配置，因为当他一个人时，写出的 React 代码很糟糕——6000 行的组件、糟糕的重渲染、四个重叠闭包的 use effect [51:48 Ryan Lopopolo]。但更重要的是技能重心的转移：代码生产作为技能不再那么重要，系统思维才是——怎么为团队搭建成功的环境、怎么把目光投向来解决问题、怎么提高交付吞吐量 [52:35 Ryan Lopopolo]。\n\n他现在的时间大致三等分：最困难的重构、从零到一的产品构思与客户沟通、优先级排序和人员调度。以前他 50% 到 70% 的时间在写代码，现在退后一步，专注跨职能高优先级工作，为智能体团队解除阻塞 [53:13 Ryan Lopopolo]。他也提醒一个常见陷阱：因为编码太便宜了，人们容易陷入\"什么都能建\"的幻觉，但决定不建什么反而更重要 [53:57 Ryan Lopopolo]。\n\n## 本集带走\n\n- **从\"叫 Ryan\"开始自动化**：观察智能体在哪些地方卡住需要你帮忙，为每个场景造一个工具调用，逐步把你自己从循环中移除\n- **永远不给两次同样的反馈**：垃圾代码出现后，不要只修，要把它提炼成可程序化执行的规则（他们用 GitHub issue 积累了 100 多条），让智能体下次自动遵守\n- **让错误进 main，但要从中学**：允许错误合并，用异步循环扫描模式、吸收人工反馈、把学到的内容存为 artifact 供下次运行使用；识别到重复模式后，按\"改提示词→加文档→加审查智能体→写确定性测试\"的顺序逐级左移\n- **先实现再提炼规范**：代码生产便宜了，先让智能体扔出稻草人实现，团队打磨后蒸馏成规范；用\"实现→生成规范→从规范重实现→对比差异修正规范\"的三阶段流水线验证规范的完备性\n- **人只看\"双高\"区域的代码**：高模糊度×高复杂度（全新东西、困难重构）才亲自介入；日常代码只关心接口定义和系统架构图，具体实现可以不看\n- **代码生产不再是核心技能**：工程师的重心转向系统思维——决定建什么、不建什么、怎么为智能体团队搭环境，而不是自己写代码",
+  "quotes": [
+    {
+      "en": "A big part of maintaining high velocity with these tools is just not permitting slop to enter the code base.",
+      "zh": "使用这些工具保持高速度的一个很大部分，就是不允许垃圾代码进入代码库。",
+      "timestamp": "11:36",
+      "speaker": "Ryan Lopopolo"
+    },
+    {
+      "en": "Because if you misspecify the task up front, you are gonna get garbage.",
+      "zh": "因为如果你在开头 misspecify 任务，你会得到垃圾。",
+      "timestamp": "15:32",
+      "speaker": "Ryan Lopopolo"
+    },
+    {
+      "en": "We never wanted to give the same feedback twice in the same way that you want a new engineer you're onboarding to the team to actually internalize what it means to do a good job.",
+      "zh": "我们永远不想给出两次同样的反馈，就像你希望一个新加入团队的工程师真正内化什么意味着做好工作一样。",
+      "timestamp": "20:08",
+      "speaker": "Ryan Lopopolo"
+    },
+    {
+      "en": "I've actually found it is much easier to produce the code first, to have that code sort of like present a straw man for what the world could look like, engage with that as a team to refine it, and then distill the spec out of that.",
+      "zh": "我实际上发现先生成代码会容易得多，让那段代码有点像是一个关于世界可能样子的草案，作为团队与之互动来完善它，然后从中提炼出规范。",
+      "timestamp": "28:20",
+      "speaker": "Ryan Lopopolo"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:08",
+      "speaker": "Ryan Lopopolo",
+      "en": "Eventually, I kind of took a peek at the code and it was entirely different. Still, Codex was connecting to the Electron app over Chrome DevTools protocol, but it was actually a local TypeScript daemon that was being spun up that was providing a little CLI interface instead of the MCP because we found that there were only two or three tool calls that we actually needed, just more context efficient as faster.",
+      "zh": "最终，我稍微看了一眼代码，它完全不同了。尽管如此，Codex 仍然通过 Chrome DevTools 协议连接到 Electron 应用，但实际上启动的是一个本地 TypeScript 守护进程，它提供了一个小的 CLI 接口来代替 MCP，因为我们发现实际上只需要两三个工具调用，这样上下文更高效也更快。"
+    },
+    {
+      "timestamp": "00:28",
+      "speaker": "Ryan Lopopolo",
+      "en": "And this had happened underneath me without me knowing my workflow was not interrupted. That same dependency edge and entity relationship existed, but I almost didn't have to know how it was implemented.",
+      "zh": "这一切都在我不经意间发生了，我的工作流程没有被打断。相同的依赖边和实体关系存在，但我几乎不需要知道它是如何实现的。"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Ryan Lopopolo",
+      "en": "I found it shocking.",
+      "zh": "我觉得这很令人震惊。"
+    },
+    {
+      "timestamp": "03:35",
+      "speaker": "Ryan Lopopolo",
+      "en": "And in order to get the agent to know and understand those, we have to write it down. We have to make sure that like the content of those choices, all those non-functional requirements that go into making good code get surfaced to the agent at the right time.",
+      "zh": "为了让智能体知道并理解那些，我们必须把它们写下来。我们必须确保这些选择的内容，所有那些进入优秀代码的非功能性需求，在正确的时间暴露给智能体。"
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Ryan Lopopolo",
+      "en": "Rather than giving sort of a mechanical ESLint failure, for example, I can give a prose error message that says, you screwed it up in this way in this file. You know, please open it and follow the runbook in file XYZ to go fix it. Because we've seen you make this mistake before, and we know that we can trust you to do the right thing.",
+      "zh": "与其给出那种机械性的 ESLint 失败，例如，我可以给出一整段文字的错误信息，说，你在这个文件里是以这种方式搞砸的。你知道，请打开它并遵循文件 XYZ 里的运行手册去修复它。因为我们见过你以前犯过这个错误，而且我们知道我们可以信任你做正确的事。"
+    },
+    {
+      "timestamp": "08:25",
+      "speaker": "Ryan Lopopolo",
+      "en": "It was very painful in order to operate hands-off like this. And sort of by necessity, working with the model, working with the coding agent, I kind of had to stick myself in as a very chunky tool for the model to delegate to.",
+      "zh": "为了像这样不插手操作是非常痛苦的。还有某种程度上出于必要，与模型合作，与编码智能体合作，我有点不得不把自己插进去作为一个非常笨重的工具供模型委派给。"
+    },
+    {
+      "timestamp": "09:23",
+      "speaker": "Ryan Lopopolo",
+      "en": "And to start with zero like that, you kind of viscerally experience the failure of the agent. I think to kind of have a good sense of the tool calls as they are making, the mistakes the agent is making sort of in the process of writing the code is really, really important in order to build confidence in it.",
+      "zh": "而像那样从零开始，你有点发自内心地体验智能体的失败。我认为有点对工具调用有一个好的感觉，正如它们正在进行的那样，智能体正在犯的错误某种程度上在写代码的过程中是真正，真正重要的以便建立对它的信心。"
+    },
+    {
+      "timestamp": "11:36",
+      "speaker": "Ryan Lopopolo",
+      "en": "A big part of maintaining high velocity with these tools is just not permitting slop to enter the code base.",
+      "zh": "使用这些工具保持高速度的一个很大部分，就是不允许垃圾代码进入代码库。"
+    },
+    {
+      "timestamp": "12:03",
+      "speaker": "Ryan Lopopolo",
+      "en": "The reason for that is because as we accrued more and more context, more and more capability into the code base, sort of everyone invoking Codex as the sole entry point to the code base was getting the best parts of everybody by default. Rather than having to spend one, two, three months absorbing the best practices of the team, they're already there.",
+      "zh": "原因是因为随着我们在代码库中积累了越来越多的上下文和越来越多的能力，每个人调用 Codex 作为进入代码库的唯一入口，默认都能获得每个人的精华部分。而不是必须花上一、二、三个月来吸收团队的最佳实践，它们已经在那里了。"
+    },
+    {
+      "timestamp": "15:32",
+      "speaker": "Ryan Lopopolo",
+      "en": "Because if you misspecify the task up front, you are gonna get garbage.",
+      "zh": "因为如果你在开头 misspecify 任务，你会得到垃圾。"
+    },
+    {
+      "timestamp": "20:08",
+      "speaker": "Ryan Lopopolo",
+      "en": "We never wanted to give the same feedback twice in the same way that you want a new engineer you're onboarding to the team to actually internalize what it means to do a good job.",
+      "zh": "我们永远不想给出两次同样的反馈，就像你希望一个新加入团队的工程师真正内化什么意味着做好工作一样。"
+    },
+    {
+      "timestamp": "22:30",
+      "speaker": "Ryan Lopopolo",
+      "en": "Did I produce misaligned code and why? Let me figure out how not to do that going forward. Produce some markdown, save it as an artifact in the GitHub run. So the next time I run, I have this extra context that I have learned from the actual human feedback in the system.",
+      "zh": "我是否产生了未对齐的代码，为什么？让我想清楚以后如何不那样做。生成一些 markdown，将其作为工件保存在 GitHub 运行中。所以下次我运行时，我有这个我从系统中的实际人类反馈中学到的额外上下文。"
+    },
+    {
+      "timestamp": "25:28",
+      "speaker": "Ryan Lopopolo",
+      "en": "The cheapest thing I can do in order to fix the code that is produced. And, you know, if we find that like the mistakes are a bit more systematic, I can kind of think about pulling that further left. I can add some docs, or I can operationalize a review agent that is going to judge every PR according to those docs.",
+      "zh": "那是我在为了修复生成的代码时能做的最便宜的事情。而且，你知道，如果我们发现像错误是更系统性的，我可以考虑把它拉得更左。我可以添加一些文档，或者我可以落实一个审查智能体，它将根据那些文档判断每个 PR。"
+    },
+    {
+      "timestamp": "28:09",
+      "speaker": "Ryan Lopopolo",
+      "en": "I've actually found it is much easier to produce the code first, to have that code sort of like present a straw man for what the world could look like, engage with that as a team to refine it, and then distill the spec out of that.",
+      "zh": "我实际上发现先生成代码会容易得多，让那段代码有点像是一个关于世界可能样子的草案，作为团队与之互动来完善它，然后从中提炼出规范。"
+    },
+    {
+      "timestamp": "30:17",
+      "speaker": "Ryan Lopopolo",
+      "en": "What you end up with is this really refined spec that is reliably able to produce the system as it is written while still providing space and ambiguity for consumers of this ghost library to adapt it to their actual business context, their actual repository and tool chain and issue tracker and all these other sorts of things.",
+      "zh": "但你最终得到的是这个真正经过提炼的规范，它能够可靠地生成所写的系统，同时仍为这个幽灵库的使用者提供空间和歧义，使其适应他们实际的业务上下文、他们实际的仓库和工具链以及问题跟踪器以及所有这些其他类型的东西。"
+    },
+    {
+      "timestamp": "37:56",
+      "speaker": "Ryan Lopopolo",
+      "en": "Whereas at the beginning of sort of the 5.2 era, we were looking at maybe three and a half PRs per engineer per week on my team. Now with 5.5, we're looking at 70, which is just fantastic. Like that that's more than than linear scaling sort of thing.",
+      "zh": "而在 5.2 时代的开始，我们在我的团队看到每个工程师每周也许有 3.5 个 PR。现在有了 5.5，我们看到了 70 个，这简直太棒了。就像那是比线性扩展更多的事情。"
+    },
+    {
+      "timestamp": "43:19",
+      "speaker": "Ryan Lopopolo",
+      "en": "If I had to pick only one thing that was legible to me, it would be the reference documentation of the system, the interfaces, and the rendering of all of that into mermaid entity relationship diagrams, system diagrams, and sequence diagrams.",
+      "zh": "如果我必须只选一样东西那对我来说是易读的，那会是系统的参考文档、接口，以及将所有这些渲染成 mermaid 实体关系图、系统图和序列图。"
+    },
+    {
+      "timestamp": "47:55",
+      "speaker": "Ryan Lopopolo",
+      "en": "I am willing to vibe out a 50,000 line of diff PR and throw it away only to learn the areas where the agent is likely to fail, where it is going to struggle putting those interfaces into place that I like. And usually I'll actually push up those PRs, trash them immediately, and then crank out 15 PRs out of that to kind of like do the prep work or do the staging in order to prepare myself for the actual cutover that I want to do.",
+      "zh": "我愿意即兴生成一个 5 万行 diff 的 PR 并将其扔掉，只是为了了解智能体可能失败的领域，以及它在将我喜欢的那些接口落实到位时会在哪里挣扎。通常我实际上会推送那些 PR，立即把它们扔进垃圾桶，然后从中猛搞出 15 个 PR 来做准备工作或做暂存，以便为我实际想要做的切换做准备。"
+    },
+    {
+      "timestamp": "49:16",
+      "speaker": "Ryan Lopopolo",
+      "en": "In order to get to a billion tokens a day, you must be thinking in a grander world than pair programming with the model. You must find ways to be in parallel. You must find ways to put these asynchronous loops into place. You must find ways to build agents that are able to side effect onto organizations and teams rather than just yourself.",
+      "zh": "为了达到每天十亿个 tokens，你必须在一个比与模型结对编程更宏大的世界里思考。你必须找到并行的方法。你必须找到将这些异步循环落实到位的方法。你必须找到能够建立智能体的方法，使其能够对组织和团队产生副作用，而不仅仅是对你自己。"
+    },
+    {
+      "timestamp": "53:57",
+      "speaker": "Ryan Lopopolo",
+      "en": "One of the things that's part of that is deciding what not to build. Very, very common trap I see people falling into these days with agents.",
+      "zh": "其中一部分是决定不构建什么。非常非常普遍的陷阱，我看到这些天人们用智能体会掉进去。"
+    }
+  ],
+  "voice_script": "你敢信吗，有个人连底层实现被偷偷换掉了，竟然毫不知情，而且工作流完全没有中断。今天我们就来聊聊 OpenAI 的 Ryan Lopopolo 在 AI Native DevCon 大会上分享的 harness 工程——说白了就是怎么通过设计上下文和工具，让编码智能体自己写出能直接合并的代码，全程零人工编写，大部分情况零人工审查。\n\n光有聪明的模型其实不够，harness 工程的核心思路是，把\"什么是好代码\"的所有非功能性需求——测试怎么跑、lint 怎么搞、重构循环怎么转——全部写下来，在正确的时间喂给智能体，让它在没有你干预的情况下闭环产出可合并的代码。它还有个特别精妙的地方，就是用工具调用本身来做提示词注入，让智能体自己管理上下文窗口。比如测试报错，给人类看你会列一份详尽的失败清单让人去翻日志；但给智能体，你要压缩成一段大白话：\"你在这个文件里这样搞砸了，请打开它，按那个运行手册去修，因为你之前犯过同样的错。\"\n\n听起来很爽，但真要从零走到这一步，一开始其实非常痛苦。2025 年 6 月 Ryan 就开始这么干，那时候连像样的推理模型都没有，只有早期版本的 Codex CLI，能力差得多。一开始 Ryan 自己不得不充当\"笨重工具\"，智能体卡住了只能喊帮忙，比如用 cargo 装依赖这种当时 Codex 做不好的事。\n\n关键转折来了：Ryan 开始密切观察自己到底花时间在哪些地方，然后为每个\"叫 Ryan\"的场景造一个工具调用来自动化。第一步就是自动化依赖安装，然后逐步给智能体越来越多、越来越大的工具块。把工程流程大量折叠成这些铺好的路，其实就是建立信任的过程。\n\n那代码质量怎么保证？完全不看吗？他们的做法很反常识——不逐行审代码，而是把人类审查集中在\"上游\"，也就是高度复杂的计划和跨一周的里程碑。因为如果你在开头把任务描述错了，产出的就是垃圾。日常代码直接零人工审查，走合并。\n\n但不审查不等于不管。团队扩张到第三个工程师时，PR 吞吐量上去了，垃圾代码开始渗入。应对方法很硬核：每周五做\"垃圾收集\"，整理一周内不满意的地方，但核心原则是——永远不给出两次同样的反馈。这些反馈逐渐堆叠成程序化的护栏。具体实现特别朴素：一个 GitHub issue，在上面记录良好软件开发的原则，最后累积到一百多条评论，智能体就根据这个去扫描代码库、排名违规项、自动提 PR 修复。一旦识别到重复的错误模式，就把它往前拉到流水线更早的位置：先改提示词，再改文档，加审查智能体，最后才写确定性测试。\n\n更颠覆的一点是，当代码生产变得极其便宜，Ryan 发现一个反直觉的做法：先写代码实现，再从中提炼规范，而不是传统的先写规范再写代码。因为代码是信息密度极高的产物，先让智能体扔出一个\"稻草人\"实现，团队在此基础上打磨，然后蒸馏出规范，比从空白文档开始写容易得多。他们甚至做了个\"幽灵库\"，起点是一个凭感觉写出来的 TypeScript 实现，然后用三阶段流水线验证规范：第一个智能体从原始实现生成规范，第二个智能体只看规范从零实现一遍，第三个智能体当法官对比两者找不一致，再修改规范。循环下来，最终得到的就是高度精炼、又留足灵活性的规范。\n\n那什么时候还需要人亲自看代码？Ryan 画了个二维图：模糊度和复杂度。只有\"双高\"区域才亲自看——从零开始的全新东西，或者最困难的重构。而且即使在这些场景，做法也不是小心翼翼地写，而是让智能体先即兴生成一个五万行 diff 的 PR，直接扔掉，目的是摸清智能体会在哪里失败，然后再拆成十五个小 PR 去做。\n\n至于日常代码，Ryan 越来越不看实现细节。如果只能选一样东西读，选系统的参考文档、接口定义、还有渲染成图的实体关系图。具体用什么语言写、怎么实现，可能都不知道——就像开头那个故事，Codex 把 MCP 实现悄悄换成了 TypeScript 守护进程，同样的依赖关系和实体关系都在，但几乎不需要知道底层怎么实现的。\n\n所以，代码生产作为技能不再那么重要，系统思维才是。以前 Ryan 百分之五十到七十的时间在写代码，现在退后一步，时间三等分：最困难的重构、从零到一的产品构思与客户沟通、优先级排序和人员调度。不过也千万别陷入\"什么都能建\"的幻觉，决定不建什么，反而更重要。"
+}

@@ -137,8 +137,8 @@ Boris 的老本是函数式编程,他把这套机制设计成了一套智能体�
 **顺着「AI 编程」挖下去**
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示 (system prompt)</span>
+- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、测试时计算 (test time compute)</span>
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|从看护智能体到认知投降：工程师该守住什么]]<span class="pd-rz">同概念:智能体 (agent)、验证 (verification)</span>
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同概念:智能体 (agent)、验证 (verification)</span>
 
 </div>
 <div class="pd-ex">
