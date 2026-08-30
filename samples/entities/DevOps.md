@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DevOps</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DevOps">DE</div><div class="pi"><h1 class="pt">DevOps</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DevOps">DE</div><div class="pi"><h1 class="pt">DevOps</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]]**(02:35起):本集把它说成 AI 编码演进的类比参照：当年说持续交付行不通其实是因为组织没准备好，与现在说暗工厂行不通如出一辙
+- **[[2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve|《企业AI转型：效率不是终点，绞杀旧组织才是》]]**(02:40起):本集说 DevOps 把软件和构建数字产品变成团队运动而不是个人运动，引入了价值流映射、精益技术、系统思维的思考，是嘉宾职业生涯找到自己位置的运动
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(15:47起):本集说 DevOps 是 RLGym 优先级的一个例子，因为亚马逊有独特数据，能让模型在这些任务上变得更好，对客户有实质性影响
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]] — 作为概念
+- [[2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve|《企业AI转型：效率不是终点，绞杀旧组织才是》]] — 作为概念
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[评估]] · [[Guy Pajani]] · [[Michael Giannangelli]] · [[Patrick Debois]] · [[Nova]] · [[Simon Maple]] · [[模型路由]] · [[暗工厂]] · [[基准测试]]
+[[智能体]] · [[回路中的人类]] · [[评估]] · [[Guy Pajani]] · [[Chris Blackburn]] · [[Michael Giannangelli]] · [[Patrick Debois]] · [[Liatrio]] · [[Nova]] · [[Simon Maple]]
 
-<script type="application/json" class="pd-epn">{"智能体":156,"评估":17,"Guy Pajani":3,"Michael Giannangelli":1,"Patrick Debois":1,"Nova":1,"Simon Maple":6,"模型路由":1,"暗工厂":2,"基准测试":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":158,"回路中的人类":4,"评估":17,"Guy Pajani":3,"Chris Blackburn":1,"Michael Giannangelli":1,"Patrick Debois":1,"Liatrio":1,"Nova":1,"Simon Maple":6}</script>
 
 <script>
 (function(){

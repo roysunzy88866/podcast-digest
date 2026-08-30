@@ -25,7 +25,7 @@ unlisted: true
 
 [[Olivia Moore]] · [[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]] · [[智能体]] · [[回路中的人类]] · [[现有巨头]] · [[Superhuman]] · [[Stripe]] · [[Workday]]
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"智能体":156,"回路中的人类":3,"现有巨头":1,"Superhuman":4,"Stripe":22,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"智能体":158,"回路中的人类":4,"现有巨头":1,"Superhuman":4,"Stripe":23,"Workday":4}</script>
 
 <script>
 (function(){

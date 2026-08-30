@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
+[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":2,"Samsara":2,"物理 AI":4,"护栏":32,"生成式 AI":3,"智能体":156,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":2,"Samsara":2,"物理 AI":4,"护栏":32,"生成式 AI":3,"智能体":158,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

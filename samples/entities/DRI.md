@@ -29,7 +29,7 @@ unlisted: true
 
 [[Microsoft]] · [[智能体]] · [[Brian Halligan]] · [[Willem Avé]] · [[Jay Parikh]] · [[Lenny]] · [[Square]] · [[Brett]] · [[HubSpot]] · [[Block]]
 
-<script type="application/json" class="pd-epn">{"Microsoft":20,"智能体":156,"Brian Halligan":1,"Willem Avé":1,"Jay Parikh":1,"Lenny":65,"Square":3,"Brett":1,"HubSpot":4,"Block":2}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":20,"智能体":158,"Brian Halligan":1,"Willem Avé":1,"Jay Parikh":1,"Lenny":66,"Square":3,"Brett":1,"HubSpot":4,"Block":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,190 @@
+{
+  "title_zh": "OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心",
+  "tldr": "OpenAI 的 Codex 和 ChatGPT Work 产品负责人 Tara Seshan，讲在 AI 前沿实验室做产品的核心方法——从理论转向实证、用智能体扩展个人能力边界、以及为什么\"写文档\"已经不如\"做原型\"。",
+  "digest_md": "这一集是 OpenAI 的 Tara Seshan 聊她负责 Codex 和 ChatGPT Work 这两个产品的经历——前者是面向开发者的编码智能体，后者是把同样的能力包装成非开发者也能用的知识工作模式。她之前在 Stripe 做了六年产品，是最早的一批 PM 之一。\n\nTara 说在 OpenAI 工作最大的意外是，这里没有一本\"秘密策略宝典\"。她进来之前以为会有类似\"支付圣经\"那样的内部纲领，结果发现 OpenAI 的想法非常快就会变成公开产品和对外信息。与此同时，公司内部极其\"去中心化\"——不是一个人领导，而是每个人在自己负责的领域里都像创始人一样运作，和市场之间的距离非常薄 [03:22 Tara Seshan]。\n\n## 从\"写长文档\"转向\"快速试\"\n\nTara 认为在 AI 时代做产品，最大的心态转变是从理论驱动变成实证驱动。在 Stripe 那种成熟市场里，你可以从第一性原理严谨推演竞争对手会怎么做，不严谨就是粗心。但 AI 市场变化太快、太涌现，你根本没法预测几个月后会怎样。所以现在更重要的不是写一篇像博士论文那样的长篇规划文档，而是尽可能快地做出一个能跟用户测试的东西 [07:48 Tara Seshan]。\n\n但这不是说 PM 的核心变了。恰恰相反——定义最核心的假设、设计最快的测试、看结果、迭代，这个循环从来没变过，只是变得比以前更重要了。而且不只是 PM，工程师、设计师、数据科学家都在用这个思路工作。Tara 借用了 Shishir Mehrotra 的说法，叫找\"本征问题\"（eigenquestion）——你到底要测的那个最关键的东西是什么？除此之外的宏大战略都不相关 [08:49 Tara Seshan]。\n\n## 工作的未来：掌舵而不是划桨\n\nTara 用了一个很直白的类比：未来的工作更像掌舵，而不是划桨。智能体负责划桨——执行具体的战术任务，你的角色是在越来越高的抽象层级上指方向 [11:23 Tara Seshan]。\n\n这个\"掌舵\"不光是看数据，很大一部分是做出有观点的判断——你想让产品变成什么样，不是因为另一个方向不行，而是因为你就是想把世界推向那个方向。她用了电影的类比：软件不像房地产（投钱就有回报），更像电影——投很多钱不一定出好片子，里面有作者性（auteur）、有艺术判断。Patrick Collison 也说过类似的话 [14:23 Tara Seshan]。\n\n她认为如果所有人用同样的工具，区分你的就是人的判断力和品味。就像时尚——功能性衣服大家都能穿，但你穿什么是一种个人表达，而这种表达之所以有力，恰恰是因为它跟别人不一样 [13:42 Tara Seshan]。\n\n## 三个内部\"梗\"：产品开发的新节拍\n\nTara 分享了 OpenAI 内部流行的三个产品开发\"梗\"：\n\n第一个是\"这是最大程度加速了吗？\"（Is this maximally accelerated?）——我们在这件事上移动得够快吗？\n\n第二个是\"你开始主力使用它了吗？\"（Are you mainlining it yet?）——你不是在试一下，而是不是整天都在用这个产品来完成你的工作？这比传统的\"吃狗粮\"（dogfooding）更极端 [25:28 Tara Seshan]。\n\n第三个是\"我们在为两三个月后的模型构建吗？\"——如果你为模型现在的能力构建，会失败；如果你为一年后的能力构建，也会失败。两种错误一样错。唯一的正确窗口是两到三个月 [27:18 Tara Seshan]。怎么知道两三个月后模型什么样？跟研究团队紧密沟通，知道他们正在集中提升哪些具体能力，然后让产品开发跟那个方向绑定 [28:17 Tara Seshan]。\n\n## 野心变成了最稀缺的东西\n\nTara 反复提到一个观点：AI 工具让简单的事变简单了，难的事也变简单了，那区分人和公司的就只剩野心的大小 [20:13 Tara Seshan]。\n\n最会用 AI 的人不是用它自动化机械任务，而是用它扩展自己\"能做的事\"的边界。以前那种\"既懂产品又懂工程又懂设计\"的独角兽型人才很稀缺，现在工具让每个人都多少有了这种超能力——你能自己出设计、搭原型、算定价模型。可能性的集合急剧扩大了，而你的野心不再受限于你自己能执行什么、能沟通什么 [21:26 Tara Seshan]。\n\n但她认为最难的部分不是能力不够，是思维没跟上——你根本没想起来可以让 AI 帮你做这件事。她引用 Tyler Cowen 的话：大多数人低估了走到别人面前说\"你正在做的事，能不能野心再大一点、速度再快一点、规模再大十倍\"的影响力。而 PM 现在的一个重要角色就是抬升周围人的野心天花板 [24:08 Tara Seshan]。\n\n## ChatGPT、Codex、Work 模式到底是什么关系\n\nChatGPT 界面上现在有下拉菜单（ChatGPT / Codex）和切换开关（Chat / Work），让人困惑。Tara 解释：\n\n- **Codex 模式**：面向开发者，有完整的编码 UI（比如工作树），适合写代码的人继续用。\n- **Chat 模式**：就是大家熟悉的聊天对话，用来搜索、对话。\n- **Work 模式**：底层就是 Codex 的能力，但藏起了编码 UI，让非开发者也能用——比如让团队里做财务的人生成复杂金融模型 [31:14 Tara Seshan]。\n\n三者能力上没有本质差别，差别只在展示什么级别的技术细节。北极星目标是最终合并成一个入口：用户不需要选模式，直接说你要做什么，系统自动选对的工具和模型 [29:50 Tara Seshan]。\n\n她把这看作三个时代：第一代 AI 产品是聊天，第二代是跟智能体协作（目前主要是编码），第三代是跟一个\"持续存在的同事\"一起工作——可能还能跟别人的智能体协作 [35:04 Tara Seshan]。\n\n## 知识工作和编码的本质区别\n\nTara 提到一个很关键的产品洞察：编码是结果导向的，你可以跑测试来验证代码对不对；但知识工作不是——你不能只看最终输出的幻灯片上的数字就信了，你需要看到过程、看到推理链、看到引用来源 [65:09 Tara Seshan]。\n\n所以知识工作场景下，产品需要让 ChatGPT 更像一个\"协作者\"而不是\"黑箱执行者\"——让你看到它进行中的工作、看到它的引用和输入、陪你走完整个推理过程，这样你到最终才能判断输出是不是靠谱的 [65:53 Tara Seshan]。\n\n## 写作分两种：思考型绝不外包\n\nTara 把工作中的写作严格分成两类：\n\n**写作即思考**：写简报、写策略、写\"为什么我们应该做这个\"。这种她永远不会交给 AI。因为她发现，自己梳理大纲、写成散文、反复剪切编辑的过程，就是理清思路的核心步骤。如果用 AI 代写，思考就萎缩了 [53:13 Tara Seshan]。\n\n**写作即汇报**：总结本周进展、写发布计划。这种她全部交给模型。\n\n她的原则是：如果要让别人读你的文档，你自己至少要先完整写一遍——她对开会也有同样的纪律，会前准备的时间量不能少于参会者总时间。她不依赖模型润色文笔，也不让它生成初版，只在中途用它查资料、拉数据、或者对自己的想法提反面意见 [58:28 Tara Seshan]。\n\n## 从\"文档\"到\"原型\"的最大转变\n\nTara 说她个人经历的最大变化是：以前先在文档里想清楚，再翻译成展示材料，那套流程本身就是\"我思考过了\"的信号。现在不行了——因为你可以很容易用 AI 生成一篇长文档，但那不代表你真想了。所以现在她信奉\"样机优于文档\"（mocks not docs）：与其写文档，不如做出一个能交互的东西，或者更好的是跑个 AB 测试拿结果，那比文档本身是强得多的沟通工具 [56:13 Tara Seshan]。\n\n她仍然写大量文档，但只给自己看，不再拿文档当沟通手段了 [56:52 Tara Seshan]。\n\n她还分享了一个写简报的实操方法：写到 70% 就拿去给需要 buy-in 的人看，从 70% 一起打磨到 100%。因为很少有人愿意跟一个\"完美打磨过的成品\"互动——新想法会在光滑表面上弹开；但有棱角、有粗糙边缘的半成品，别人才能跟你一起打磨 [57:29 Tara Seshan]。\n\n## 人的价值在哪里\n\nTara 认为在可预见的未来，人脑在三个地方持续有价值：\n\n一是**责任归属**——智能体可以看作你的下属，但最终谁对产出质量负责？在受监管行业尤其如此 [46:19 Tara Seshan]。\n\n二是**表达和作者性**——构建软件里有艺术性和个人判断，你选择构建什么、让它有什么感觉，这是人的问题 [47:00 Tara Seshan]。\n\n三是**人与人之间的关怀和协作**——跟队友交流、一起对某个方向产生热情、互相抬升野心，这些在她看来变得更重要了，而不是更不重要 [47:34 Tara Seshan]。\n\n## 本集带走\n\n- **找本征问题，别写宏大战略**：在 AI 市场里，最关键的技能是精准定义\"我要测的那个最核心的假设是什么\"，然后尽快做出能测试的东西，而不是写长篇规划文档。\n- **三种工作模式自检**：\"这是最大程度加速了吗？\"\"你在主力使用它吗？\"\"我们在为两三个月后的模型构建吗？\"——三个问题定期问自己。\n- **主动抬升野心天花板**：AI 让能力边界扩展了，但人的思维没自动跟上。PM 的新角色之一就是不断问团队\"可能性的天花板是不是可以更高？能不能更快？能不能规模大十倍？\"\n- **思考型写作不外包**：写策略、写简报是思考过程本身，自己从头写到尾；只有汇总、汇报类的写作才交给 AI。判断标准：这篇东西是不是你理清思路的工具？\n- **样机替代文档当沟通手段**：长文档不再是\"我思考过了\"的可靠信号。能交互的原型、AB 测试结果，比文档本身更有说服力。\n- **知识工作产品要看过程，不只看结果**：编码可以靠测试验证，知识工作不行——你需要看到 AI 的推理链、引用来源、进行中的工作，才能判断最终输出是否靠谱。",
+  "quotes": [
+    {
+      "en": "You fail if you build for where the models are now, you fail if you build for where you think the models will be in a year.",
+      "zh": "如果你为模型现在的状态而构建，你会失败；如果你为你认为模型一年后的状态而构建，你也会失败。",
+      "timestamp": "00:24",
+      "speaker": "Tara Seshan"
+    },
+    {
+      "en": "Being prolific and empirical is way more important than being academic or theoretical.",
+      "zh": "多产和实证比学术或理论重要得多。",
+      "timestamp": "00:38",
+      "speaker": "Tara Seshan"
+    },
+    {
+      "en": "Rather than writing out some long reasoning doc, instead it's like, how do I get to something I can try out and test with users as fast as possible?",
+      "zh": "与其写出一些长篇大论的推理文档，不如说是，我如何能尽快得到某种可以尝试并让用户测试的东西？",
+      "timestamp": "00:44",
+      "speaker": "Tara Seshan"
+    },
+    {
+      "en": "I came into the company expecting that there was a treasure trove of OpenAI secret strategy, and actually OpenAI is open.",
+      "zh": "我进入公司时期望有一个 OpenAI 秘密策略的宝库，实际上 OpenAI 是开放的。",
+      "timestamp": "01:07",
+      "speaker": "Tara Seshan"
+    },
+    {
+      "en": "The level of top-down direction at OpenAI is extremely limited relative to places I've worked for prior.",
+      "zh": "与我以前工作过的地方相比，OpenAI 的自上而下的指示水平极其有限。",
+      "timestamp": "03:34",
+      "speaker": "Tara Seshan"
+    },
+    {
+      "en": "The people that we see who are most effective at using AI tools don't simply use it to automate rote tasks, but use it to expand the set of things that they are capable of doing.",
+      "zh": "我们看到的最擅长使用 AI 工具的人不仅仅是用它来自动化机械任务，而是用它来扩展他们能够做的事情集合。",
+      "timestamp": "20:42",
+      "speaker": "Tara Seshan"
+    },
+    {
+      "en": "Elevating others' ambitions or reminding them of what's possible here is a huge part of the product management role.",
+      "zh": "提升他人的野心或提醒他们这里什么是可能的是产品管理角色的很大一部分。",
+      "timestamp": "24:31",
+      "speaker": "Tara Seshan"
+    },
+    {
+      "en": "Our north star here is that users do not need to make decisions between picking between all these different options. Ideally, there is no toggle here.",
+      "zh": "我们这里的北极星目标是用户不需要在所有这些不同的选项之间做决定。理想情况下，这里没有切换开关。",
+      "timestamp": "29:50",
+      "speaker": "Tara Seshan"
+    },
+    {
+      "en": "Getting the product in the hands of users when you have so much conviction that, hey, it's transformative, is way better than perfect.",
+      "zh": "当你有如此坚定的信念，即嘿，它是变革性的，将产品交到用户手中比完美要好得多。",
+      "timestamp": "36:50",
+      "speaker": "Tara Seshan"
+    },
+    {
+      "en": "Writing as thinking is something I never will automate.",
+      "zh": "但是作为思考的写作是我永远不会自动化的事情。",
+      "timestamp": "53:50",
+      "speaker": "Tara Seshan"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:24",
+      "speaker": "Unknown",
+      "en": "You fail if you build for where the models are now, you fail if you build for where you think the models will be in a year.",
+      "zh": "如果你为模型现在的状态而构建，你会失败；如果你为你认为模型一年后的状态而构建，你也会失败。"
+    },
+    {
+      "timestamp": "00:30",
+      "speaker": "Unknown",
+      "en": "Both outcomes are equally wrong.",
+      "zh": "两种结果同样是错误的。"
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Unknown",
+      "en": "Being prolific and empirical is way more important than being academic or theoretical.",
+      "zh": "多产和实证比学术或理论重要得多。"
+    },
+    {
+      "timestamp": "00:44",
+      "speaker": "Unknown",
+      "en": "Rather than writing out some long reasoning doc, instead it's like, how do I get to something I can try out and test with users as fast as possible?",
+      "zh": "与其写出一些长篇大论的推理文档，不如说是，我如何能尽快得到某种可以尝试并让用户测试的东西？"
+    },
+    {
+      "timestamp": "00:51",
+      "speaker": "Unknown",
+      "en": "It feels like not only are we able to be more ambitious, we almost need to be more ambitious, which is not natural for a lot of people.",
+      "zh": "感觉上不仅我们能够更有雄心，我们几乎还需要更有雄心，这对很多人来说并不是自然的。"
+    },
+    {
+      "timestamp": "00:58",
+      "speaker": "Unknown",
+      "en": "Elevating others' ambitions or reminding them of what's possible here is a huge part of the product management role.",
+      "zh": "提升他人的雄心或提醒他们这里可能发生什么，是产品管理角色的很大一部分。"
+    },
+    {
+      "timestamp": "01:07",
+      "speaker": "Unknown",
+      "en": "I came into the company expecting that there was a treasure trove of OpenAI secret strategy, and actually OpenAI is open.",
+      "zh": "我进入公司时期望有一个 OpenAI 秘密策略的宝库，实际上 OpenAI 是开放的。"
+    },
+    {
+      "timestamp": "03:22",
+      "speaker": "Unknown",
+      "en": "OpenAI is actually founders led, which is that everyone inside the company, especially in their area, is in essence a founder to some extent.",
+      "zh": "而 OpenAI 实际上是\"创始人领导\"的，这意味着公司内部的每个人，特别是在他们的领域，在某种程度上本质上是创始人。"
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Unknown",
+      "en": "The level of top-down direction at OpenAI is extremely limited relative to places I've worked for prior.",
+      "zh": "与我以前工作过的地方相比，OpenAI 的自上而下的指示水平极其有限。"
+    },
+    {
+      "timestamp": "11:23",
+      "speaker": "Unknown",
+      "en": "I do think that increasingly the future of work will look more like steering than rowing in the sense that there will be agents that you'll be able to work with that do a lot of the rowing and your role increasingly becomes steering the ship in the right direction and pointing it in the right direction.",
+      "zh": "我确实认为越来越多地，工作的未来看起来会更像掌舵而不是划桨，从这个意义上说，你将能够与其共事的智能体会做大量的划桨工作，而你的角色日益变成在正确的方向上掌舵并指向正确的方向。"
+    },
+    {
+      "timestamp": "12:21",
+      "speaker": "Unknown",
+      "en": "I think sometimes that we underrate that power of intuition or even positive determinism of what we want the future to be.",
+      "zh": "我认为有时我们低估了直觉的力量，甚至低估了我们要未来成为什么样的积极决定论。"
+    },
+    {
+      "timestamp": "20:42",
+      "speaker": "Unknown",
+      "en": "The people that we see who are most effective at using AI tools don't simply use it to automate rote tasks, but use it to expand the set of things that they are capable of doing.",
+      "zh": "我们看到的最擅长使用 AI 工具的人不仅仅是用它来自动化机械任务，而是用它来扩展他们能够做的事情集合。"
+    },
+    {
+      "timestamp": "22:46",
+      "speaker": "Unknown",
+      "en": "I think the hardest part about doing this is simply just expanding your thinking.",
+      "zh": "我认为做这件事最难的部分仅仅是扩展你的思维。"
+    },
+    {
+      "timestamp": "24:30",
+      "speaker": "Unknown",
+      "en": "Elevating others' ambitions or reminding them of what's possible here is a huge part of the product management role.",
+      "zh": "提升他人的野心或提醒他们这里什么是可能的是产品管理角色的很大一部分。"
+    },
+    {
+      "timestamp": "29:50",
+      "speaker": "Tara Seshan",
+      "en": "Our north star here is that users do not need to make decisions between picking between all these different options. Ideally, there is no toggle here.",
+      "zh": "我们这里的北极星目标是用户不需要在所有这些不同的选项之间做决定。理想情况下，这里没有切换开关。"
+    },
+    {
+      "timestamp": "36:43",
+      "speaker": "Unknown",
+      "en": "Getting the product in the hands of users when you have so much conviction that, hey, it's transformative, is way better than perfect.",
+      "zh": "当你有如此坚定的信念，即嘿，它是变革性的，将产品交到用户手中比完美要好得多。"
+    },
+    {
+      "timestamp": "46:19",
+      "speaker": "Unknown",
+      "en": "Humans will continue to be the most valuable certainly as an entity of accountability, so who ultimately owns the outcome here.",
+      "zh": "人类将继续作为责任实体当然最有价值，也就是谁最终拥有这里的结果。"
+    },
+    {
+      "timestamp": "53:54",
+      "speaker": "Unknown",
+      "en": "Writing as thinking is something I never will automate.",
+      "zh": "但是作为思考的写作是我永远不会自动化的事情。"
+    },
+    {
+      "timestamp": "56:32",
+      "speaker": "Unknown",
+      "en": "Now I am way more on mocks not docs, or prototypes not docs.",
+      "zh": "现在我要多得多的倾向于样机而不是文档，或者原型而不是文档。"
+    },
+    {
+      "timestamp": "65:09",
+      "speaker": "Unknown",
+      "en": "Coding is so output oriented that when you ask it to do a coding task, you can verify whether it did the task correctly or well via tests. But knowledge work is different.",
+      "zh": "编码是如此面向输出，以至于当你要求它做一个编码任务时，你可以通过测试验证它是否正确或良好地做了任务。但知识工作不同。"
+    }
+  ],
+  "voice_script": "你敢信吗？一个在 OpenAI 负责 Codex 和 ChatGPT Work 两个核心产品的人，进去之前居然以为公司里藏着一本“秘密策略宝典”。结果呢？根本没有。OpenAI 的想法几乎转眼就会变成公开产品，内部也没有什么自上而下的纲领，每个人在自己负责的领域里，都像创始人一样在干活。\n\n今天这一期，我们就来聊聊这位在 Stripe 做了六年产品的老兵，Tara Seshan，在 AI 时代做产品到底靠什么方法论。这里面最颠覆的一点，就是从“写长文档”彻底转向“快速试”。\n\n以前在成熟市场做产品，你可以从第一性原理出发，严谨推演竞争对手会怎么走，不严谨就是粗心。但 AI 市场太涌现了，变化快到你根本没法预测几个月后会怎样。所以 Tara 现在的信条是：与其写一篇像博士论文那样的长篇规划，不如尽快做出一个能拿去跟用户测试的东西。\n\n但这不代表 PM 的核心变了。定义最核心的假设、设计最快的测试、看结果、迭代，这个循环反而比以前更重要。借用别人的说法，这叫找“本征问题”——说白了就是，你到底要测的那个最关键的东西是什么？除此之外的宏大战略，全都不相关。\n\n那怎么保证节奏对呢？Tara 分享了 OpenAI 内部特别流行的三个“梗”，拿来当自检问题刚好。\n\n第一个：“这是最大程度加速了吗？”在这件事上，移动得够不够快？\n\n第二个更狠：“你开始主力使用它了吗？”不是试一下，而是你整天是不是都在用这个产品干活。这比传统的“吃狗粮”极端多了。\n\n第三个最关键：“我们在为两三个月后的模型构建吗？”如果你为模型现在的能力构建，会失败；如果你为一年后的能力构建，也会失败。两种错一样错。唯一的正确窗口，就是两到三个月后。怎么知道两三个月后模型长啥样？只能跟研究团队紧密沟通，盯住他们正在集中提升哪些能力，然后让产品开发死死绑住那个方向。\n\n工具越来越强，人的价值到底在哪？Tara 提了一个特别直白的类比：未来的工作更像掌舵，而不是划桨。智能体负责划桨，执行具体战术；你的角色是在越来越高的抽象层级上指方向。\n\n这个掌舵，很大一部分是做出有观点的判断。软件不像房地产投钱就有回报，它更像拍电影——里面有作者性，有艺术判断。如果所有人用同样的工具，最后区分你的，就是人的判断力和品味。就像穿衣服，功能性大家都差不多，但你穿什么是一种个人表达，有力量的表达，恰恰是因为它跟别人不一样。\n\n所以 Tara 反复强调，AI 时代，野心变成了最稀缺的东西。最擅长用 AI 的人，不是拿它自动化机械任务，而是拿它扩展自己“能做的事”的边界。以前那种既懂产品又懂工程又懂设计的独角兽型人才很稀缺，现在工具让每个人都多多少少有了这种超能力。但最难的部分不是能力不够，是思维没跟上——你根本没想起来可以让 AI 帮你做这件事。\n\n这就引出了一个非常反常识的写作原则。Tara 把工作中的写作严格分成两类。一类是“写作即汇报”，比如总结本周进展、写发布计划，这种全部交给模型。但另一类是“写作即思考”，比如写简报、写策略、写“为什么我们应该做这个”。这种她永远不会交给 AI。因为自己梳理大纲、写成散文、反复剪切编辑的过程，本身就是理清思路的核心步骤。如果让 AI 代写，思考就萎缩了。\n\n连带开会的纪律也是一样：会前准备的时间量，不能少于参会者的总时间。不依赖模型润色文笔，也不让它生成初版，只在中途拿它查资料、拉数据、或者对自己的想法提反面意见。\n\n因为现在“写文档”这件事，已经不再是一个可靠的信号了。你太容易用 AI 生成一篇长文档，但那不代表你真想了。所以 Tara 现在信奉“样机优于文档”：与其写文档，不如做出一个能交互的东西，或者跑个 AB 测试拿结果，那比文档本身是强得多的沟通工具。文档现在还写，但只给自己看，不再拿它当沟通手段了。\n\n如果用一句话拎出今天这条主线，就是 Tara 借用的一句话：多产和实证，比学术或理论重要得多。与其写长篇大论的推理文档，不如尽快得到某种可以尝试并让用户测试的东西。"
+}

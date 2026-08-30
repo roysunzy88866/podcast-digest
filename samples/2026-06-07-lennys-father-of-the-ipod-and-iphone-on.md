@@ -138,9 +138,9 @@ Tony 的判断极其清醒：绝不是一个别在胸前的小投影仪，只要
 
 **顺着「产品方法」挖下去**
 
+- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)</span>
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)</span>
-- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

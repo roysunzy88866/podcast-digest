@@ -1,0 +1,27 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "12:02",
+      "speaker": "Daniel Whitenack",
+      "trimmed": false,
+      "tsWas": "12:09",
+      "spkWas": "Daniel Whitenack"
+    },
+    {
+      "i": 3,
+      "timestamp": "44:41",
+      "speaker": "Daniel Whitenack",
+      "trimmed": false,
+      "tsWas": "44:17",
+      "spkWas": "Daniel Whitenack"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "in the zero trust world that we've been in for a number of years, it's fairly static. I think the thing that agentic implementations require is the is trying to anticipate an incredibly dynamic capability that can arise"
+    }
+  ]
+}

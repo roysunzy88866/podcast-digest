@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>39</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>41</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(36:09起):本集说 Codex 的经验与能力正在与 ChatGPT 结合,它们未来将融合为一个通用知识工作的主基地大本营。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(29:19起):本集鼓励大家都去使用它，并借用它指代机器人领域即将迎来的标志性启蒙时刻。
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(32:33起):本集提到：OpenAI 在成立几年后才想出要做这个面向用户付费的产品。
+- **[[2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve|《企业AI转型：效率不是终点，绞杀旧组织才是》]]**(32:54起):本集提到很多企业以为部署了 3 万个席位的 ChatGPT 就等于在 AI 方面启用了组织，但这跟真正的转型之间存在巨大脱节
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(07:46起):本集说 ChatGPT 正在成为功能的通用界面，用户可以在里面直接生成晚餐邀请函、传单、网站，从而绕过 Canva 等独立工具，这种'堡垒之夜化'是专业消费者工具的最大威胁
 - **[[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]]**(02:54起):本集把它说成:2022 年发布的首个真正在现实世界中被许多人广泛使用的通用模型;并且讨论了机器人何时能迎来属于自己的「ChatGPT 时刻」。
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(38:44起):本集说很多人去 ChatGPT 问问题然后继续手动工作，这不是工作流，面试中这种回答是差答案
@@ -49,6 +50,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(10:56起):本集说甚至老板都在玩 ChatGPT，所有人都经历了 ChatGPT 时刻从而理解了 AI 能做什么
 - **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(01:36起):本集说如果 PM 回答还停留在'我用 ChatGPT 网页版聊天'，那就是 AI 工具理解的低成熟度；工程师在最高复杂度任务分解时会使用 ChatGPT 5.6
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(30:39起):本集提到第一代 ChatGPT 在法律中不可用（模型不够好、不支持欧洲数据托管），他们早期的话术是'我们就像 ChatGPT 但在欧洲合规'。
+- **[[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]]**(01:19起):本集说 ChatGPT 拥有约十亿月活用户，界面提供 Chat、Work、Codex 等模式切换，北极星目标是最终合并成一个入口，用户不需要选模式
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
 ## ① 提到它的金句
@@ -79,7 +81,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*39 集*
+*41 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
@@ -105,6 +107,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为被讨论公司
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为概念(提及)
+- [[2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve|《企业AI转型：效率不是终点，绞杀旧组织才是》]] — 作为概念(提及)
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
 - [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]] — 作为概念
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司(提及)
@@ -119,15 +122,16 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 - [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司(提及)
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为概念(提及)
+- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[vibe coding]] · [[Cursor]] · [[Codex]] · [[LLM]]
+[[智能体]] · [[Lenny]] · [[OpenAI]] · [[Claude]] · [[Google]] · [[Anthropic]] · [[vibe coding]] · [[Codex]] · [[Cursor]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":156,"Lenny":65,"Claude":37,"OpenAI":70,"Google":31,"Anthropic":79,"vibe coding":24,"Cursor":40,"Codex":28,"LLM":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":158,"Lenny":66,"OpenAI":71,"Claude":37,"Google":31,"Anthropic":79,"vibe coding":24,"Codex":30,"Cursor":40,"Claude Code":40}</script>
 
 <script>
 (function(){

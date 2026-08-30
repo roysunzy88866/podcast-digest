@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
+[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Shreya Shankar":1,"评估":17,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":156,"trace":1,"Anthropic":79}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Shreya Shankar":1,"评估":17,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":158,"trace":1,"Anthropic":79}</script>
 
 <script>
 (function(){

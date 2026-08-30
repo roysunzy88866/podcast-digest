@@ -1,0 +1,178 @@
+{
+  "title_zh": "企业AI转型：效率不是终点，绞杀旧组织才是",
+  "tldr": "Liatrio 创始人 Chris Blackburn 认为，大企业平均只有 5%-6% 的时间花在真正创造价值上，AI 转型的核心不是给个人发工具，而是用\"绞杀组织\"模式从内部建起新的运作方式。",
+  "digest_md": "Chris Blackburn 是 Liatrio 的创始人兼 CEO，这家公司帮大型复杂组织做 DevOps 和软件交付转型，团队大约 175 人，其中四分之三是工程师。他做过一个测算：把一个组织转变成 AI 时代的现代工作方式，转型成本大约是全员两年薪酬的总和 [00:34 Chris Blackburn]。这不是一个小数目，但他认为 AI 的潜力大到值得把这个投入当成战略投资而非单纯成本。\n\n## 大企业只有 5% 的时间在创造价值\n\nChris 用实体工厂打比方：工厂里只有焊接、钻孔、喷漆这些动作才是\"增值时间\"，磨钻头、打扫车间是\"必要开销\"，库存积压、多余走动是\"浪费\"。他把这套逻辑搬到软件组织里，发现他们测过的客户平均只有 5% 到 6% 的时间花在增值活动上——按 40 小时工作周算，一个人每周只有三到三个半小时在真正构建数字产品 [26:25 Chris Blackburn]。更关键的是，即便用 AI 把这三小时的效率提升 10 倍，对组织的底线贡献也有限，因为瓶颈根本不在个人生产力上，而在组织本身 [27:30 Chris Blackburn]。\n\n## 瓶颈在组织，不在个人\n\n地球上最复杂的组织，平均最多也就每月往生产环境交付一次软件 [28:03 Chris Blackburn]。中间堆积了大量审批流程、交接环节和层级传递。Chris 认为现在 AI 在企业里的最大价值，其实是充当变革管理的催化剂——让组织开始端到端地审视自己的流程 [29:00 Chris Blackburn]。真正的大机会是用 AI 替代掉那些\"人在回路\"里的验证、确认、协调环节，让更多人从开销角色转回真正的价值生产者 [30:21 Chris Blackburn]。他直言这会意味着组织层级缩减、中层管理减少 [30:55 Chris Blackburn]。\n\n## 高管与一线严重脱节\n\nChris 跟大量 C-suite 高管打交道，他说第一大问题就是高管个人跟一线工作完全脱节。他借用丰田生产系统的概念问：你在巡视你的工厂车间吗？他认为几乎没有高管在这样做 [33:40 Chris Blackburn]。信息经过层层传递，到高管耳朵里只会越来越好看。他提到麦肯锡有本书说 CEO 每月应该花两到四天专注在转型上，但他觉得几乎没有企业做到 [34:45 Chris Blackburn]。\n\n## \"绞杀组织\"：不从外面改，从里面长出一个新的\n\nLiatrio 借用了一个老架构模式叫\"绞杀榕模式\"（strangler fig pattern，不重写整个旧系统，而是在旁边建新的、逐步替代旧的）。他们把这套思路应用到组织层面，叫\"绞杀组织\" [46:25 Chris Blackburn]。具体做法不是让现有庞大团队突然改变行为，而是在组织内部建一个全新的部门或实践，尽量不受旧有官僚体系约束，他们管这叫\"低税区\" [46:58 Chris Blackburn]。第一天可能只有一个人，然后以两三人的小团队为单位逐步扩张 [47:32 Chris Blackburn]。关键是把人调动到新组织里，给他们以新方式行动的自由。\n\n## 不是\"为你建\"，是\"和你一起建\"\n\nChris 强调 Liatrio 跟传统咨询的区别：不是坐在会议室里评估完给一版 PPT，而是把工程师和顾问直接嵌入客户组织，边做边评估 [37:13 Chris Blackburn]。他们有一句话叫\"我们不是英雄，我们是故事里的向导，客户才是英雄\" [06:40 Chris Blackburn]。目标不是永远留在客户那里，而是让客户在没有他们的情况下也能继续转型之旅 [45:31 Chris Blackburn]。\n\n## 转型要花多少钱？\n\nChris 给了一个粗略的经验法则：把组织全部薪酬总成本除以二，就是接下来几年要投入的转型花费 [55:29 Chris Blackburn]。一个七八百人的技术团队，光薪酬就可能上亿。但他认为这笔钱应该被视为学习旅程上的战略优势，而不是立刻要算清 ROI 的成本 [50:34 Chris Blackburn]。Liatrio 自己从创立起就有个叫 Flywheel 的项目，每季度把工程师从客户现场撤回一周去学新东西，每年就是四周不计费的时间 [51:47 Chris Blackburn]。现在他们又加了一个叫 Forge 的 AI 熟练度计划，每人投入两到六周 [52:50 Chris Blackburn]。他认为如果一个人只是 ChatGPT 的普通用户，离真正能在组织层面用好 AI 还有很长的路 [53:21 Chris Blackburn]。\n\n## 工具无关与数字孪生的现实\n\nLiatrio 不绑任何特定工具或云厂商。Chris 认为现在签三到五年的长期供应商绑定协议是很危险的，因为变化太快，应该让系统保持可替换性 [57:45 Chris Blackburn]。关于\"数字孪生\"的概念，他认为愿景很美好，但现实是连 CMDB（配置管理数据库，记录所有系统和服务如何部署的数据库）都几乎没企业能做准确 [62:32 Chris Blackburn]。不过 Liatrio 在自己内部做了个简化版：把 Slack、邮件、日历、源代码控制、HubSpot 等工具打通，接上 LLM，让智能层能看到线索进来、关联到 Slack 上的讨论 [64:09 Chris Blackburn]。不算完美，但已经能用来问\"系统瓶颈在哪\"这类问题 [64:57 Chris Blackburn]。\n\n## 本集带走\n\n- **先量化价值比例**：把组织时间分成\"增值/必要开销/浪费\"三类，实测很多大企业只有 5%-6% 在增值——先扩大这个比例，再谈 AI 杠杆\n- **个人效率提升不等于组织效率提升**：一个月才能交付一次软件的组织，给个人配再强的 AI 工具，产出也被组织流程卡住\n- **用\"绞杀组织\"而非\"改造组织\"**：在内部从零建一个不受旧官僚约束的新小团队，逐步扩张，比让大团队突然换方式可行得多\n- **高管必须\"走车间\"**：信息层层传递只会越来越好看，CEO 每月应花数天直接看一线流程，而非只听汇报\n- **转型预算的粗略算法**：全员两年薪酬总和——这笔钱应该当成战略学习投入，不是立刻要回本的项目\n- **系统保持可替换**：不签长期供应商锁定，让工具和平台可以被换掉，这是对变化速度的适应",
+  "quotes": [
+    {
+      "en": "The transformation cost to transform an organization into modern ways of working with AI is you are likely going to spend the equivalent of everyone's salary over a two-year period.",
+      "zh": "将组织转变为使用 AI 的现代工作方式的转型成本是，你可能会花费相当于每个人两年薪水的总和。",
+      "timestamp": "00:34",
+      "speaker": "Chris Blackburn"
+    },
+    {
+      "en": "We've measured this before and it's like something like five to 6% of time is being spent on value added tasks.",
+      "zh": "我们以前测量过这个，大概只有 5% 到 6% 的时间花在增值任务上。",
+      "timestamp": "25:25",
+      "speaker": "Chris Blackburn"
+    },
+    {
+      "en": "So that means on the given 40-hour workweek, on average, a person is only spending three, three and a half hours a week on value-added activities.",
+      "zh": "所以这意味着在给定的 40 小时工作周中，平均一个人每周只花三个、三个半小时在增值活动上。",
+      "timestamp": "26:27",
+      "speaker": "Chris Blackburn"
+    },
+    {
+      "en": "The most complex organizations on the planet usually deliver software to production on average monthly at best type of thing.",
+      "zh": "地球上最复杂的组织通常最多也就是平均每月将软件交付到生产环境这种水平。",
+      "timestamp": "28:03",
+      "speaker": "Chris Blackburn"
+    },
+    {
+      "en": "And I think that part's going to be difficult, but I think that's going to be where the biggest opportunity space is at with AI is to reduce the human in the loop on everything there.",
+      "zh": "我认为那部分将是困难的，但我认为那将是 AI 最大的机会空间所在，就是在那里的所有事情上减少人在回路。",
+      "timestamp": "30:21",
+      "speaker": "Chris Blackburn"
+    },
+    {
+      "en": "And that's the most important thing is we don't build for, we build with.",
+      "zh": "最重要的事情是我们不是为他们构建，而是与他们一起构建。",
+      "timestamp": "36:26",
+      "speaker": "Chris Blackburn"
+    },
+    {
+      "en": "But going back to the question, wet finger in the air is take the entire total cost of compensation for your organization and you're going to run that, divide that in half, and that's what you're going to spend for a couple of years in a row for sure.",
+      "zh": "但回到这个问题，粗略估计就是把你组织的全部薪酬总成本拿来，你要把它除以二，这就是你接下来几年肯定要花的。",
+      "timestamp": "55:29",
+      "speaker": "Chris Blackburn"
+    },
+    {
+      "en": "I would be scared to death to sign three and five year term commitments to a lot of these providers of any sort right now, because I think things are changing so rapidly.",
+      "zh": "我现在会非常害怕与任何这类提供商签署三年和五年的定期承诺，因为我认为事情变化得太快了。",
+      "timestamp": "57:45",
+      "speaker": "Chris Blackburn"
+    },
+    {
+      "en": "Where do we ever go into an enterprise and they have a CMDB that is completely accurate and it's like never like literally never.",
+      "zh": "我们什么时候走进一家企业，发现他们有一个完全准确的 CMDB，这就像是从来没有，真的从来没有。",
+      "timestamp": "62:32",
+      "speaker": "Chris Blackburn"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:34",
+      "speaker": "Chris Blackburn",
+      "en": "The transformation cost to transform an organization into modern ways of working with AI is you are likely going to spend the equivalent of everyone's salary over a two-year period.",
+      "zh": "将组织转变为使用 AI 的现代工作方式的转型成本是，你可能会花费相当于每个人两年薪水的总和。"
+    },
+    {
+      "timestamp": "26:25",
+      "speaker": "Chris Blackburn",
+      "en": "We've measured this before and it's like something like five to 6% of time is being spent on value added tasks.",
+      "zh": "我们以前测量过这个，大概只有 5% 到 6% 的时间花在增值任务上。"
+    },
+    {
+      "timestamp": "26:27",
+      "speaker": "Chris Blackburn",
+      "en": "So that means on the given 40-hour workweek, on average, a person is only spending three, three and a half hours a week on value-added activities.",
+      "zh": "所以这意味着在给定的 40 小时工作周中，平均一个人每周只花三个、三个半小时在增值活动上。"
+    },
+    {
+      "timestamp": "28:03",
+      "speaker": "Chris Blackburn",
+      "en": "The most complex organizations on the planet usually deliver software to production on average monthly at best type of thing.",
+      "zh": "地球上最复杂的组织通常最多也就是平均每月将软件交付到生产环境这种水平。"
+    },
+    {
+      "timestamp": "29:00",
+      "speaker": "Chris Blackburn",
+      "en": "So I think AI is more than just like, if it's just a catalyst today, a catalyst to change management for efficiency sake, to look at the end to end system, I think that's super successful.",
+      "zh": "所以我认为 AI 不仅仅是，如果它今天只是一个催化剂，一个为了效率而进行变革管理的催化剂，为了端到端地看待系统，我认为那是超级成功的。"
+    },
+    {
+      "timestamp": "30:21",
+      "speaker": "Chris Blackburn",
+      "en": "And I think that part's going to be difficult, but I think that's going to be where the biggest opportunity space is at with AI is to reduce the human in the loop on everything there.",
+      "zh": "我认为那部分将是困难的，但我认为那将是 AI 最大的机会空间所在，就是在那里的所有事情上减少人在回路。"
+    },
+    {
+      "timestamp": "30:55",
+      "speaker": "Chris Blackburn",
+      "en": "And that means, in my mind, likely a shrinking in the organizational hierarchy, less middle management.",
+      "zh": "在我看来，这意味着组织层级可能会缩减，更少的中层管理。"
+    },
+    {
+      "timestamp": "33:40",
+      "speaker": "Chris Blackburn",
+      "en": "When I talk to C-suite executive leaders and all of that, the number one problem I find is they personally are so disconnected from the work on the ground.",
+      "zh": "当我和 C-suite 高管领导交谈以及所有这些时，我发现的第一大问题是他们个人与一线工作如此脱节。"
+    },
+    {
+      "timestamp": "34:45",
+      "speaker": "Chris Blackburn",
+      "en": "And it says in there that they believe that the CEO should have something between two and four days a month of focus on the transformation.",
+      "zh": "书里提到，他们相信 CEO 应该每月有大约两到四天的时间专注于转型。"
+    },
+    {
+      "timestamp": "36:26",
+      "speaker": "Chris Blackburn",
+      "en": "And I think what's important for us is we advise and build with.",
+      "zh": "我认为对我们来说重要的是，我们提建议并与他们一起构建。"
+    },
+    {
+      "timestamp": "36:30",
+      "speaker": "Chris Blackburn",
+      "en": "And that's the most important thing is we don't build for, we build with.",
+      "zh": "最重要的事情是我们不是为他们构建，而是与他们一起构建。"
+    },
+    {
+      "timestamp": "45:13",
+      "speaker": "Chris Blackburn",
+      "en": "Our average customer that we go into has 5,500 people in technology and 12 layers of hierarchy.",
+      "zh": "我们进入的普通客户在技术方面有 5,500 人，并且有 12 个层级。"
+    },
+    {
+      "timestamp": "46:32",
+      "speaker": "Chris Blackburn",
+      "en": "We've actually been applying that same thinking and we're calling it either strangle the enterprise or strangle the organization.",
+      "zh": "我们实际上一直在应用同样的思维，我们称之为\"绞杀企业\"或\"绞杀组织\"。"
+    },
+    {
+      "timestamp": "47:01",
+      "speaker": "Chris Blackburn",
+      "en": "The reality is, is any size organization, you will never get tax-free.",
+      "zh": "现实是，对于任何规模的组织，你永远无法获得免税。"
+    },
+    {
+      "timestamp": "50:34",
+      "speaker": "Chris Blackburn",
+      "en": "But I want to maybe preface all of this with I believe that the potential of AI is so great that spending lots of time, lots of energy, and lots of resources should almost be looked at as a strategic advantage to learning on the journey that's going to come our way.",
+      "zh": "但我想也许在这所有内容之前先说明，我相信 AI 的潜力是如此巨大，以至于花费大量的时间、精力和资源几乎应该被视为一种战略优势，以便在我们要面临的旅程中进行学习。"
+    },
+    {
+      "timestamp": "53:21",
+      "speaker": "Chris Blackburn",
+      "en": "If you're starting at a zero or a one, if you're just a pedestrian user of ChatGPT or something like that, you have a long ways to go.",
+      "zh": "如果你是从零或一开始，如果你只是 ChatGPT 的普通用户或类似的东西，你还有很长的路要走。"
+    },
+    {
+      "timestamp": "55:29",
+      "speaker": "Chris Blackburn",
+      "en": "But going back to the question, wet finger in the air is take the entire total cost of compensation for your organization and you're going to run that, divide that in half, and that's what you're going to spend for a couple of years in a row for sure.",
+      "zh": "但回到这个问题，粗略估计就是把你组织的全部薪酬总成本拿来，你要把它除以二，这就是你接下来几年肯定要花的。"
+    },
+    {
+      "timestamp": "57:45",
+      "speaker": "Chris Blackburn",
+      "en": "I would be scared to death to sign three and five year term commitments to a lot of these providers of any sort right now, because I think things are changing so rapidly.",
+      "zh": "我现在会非常害怕与任何这类提供商签署三年和五年的定期承诺，因为我认为事情变化得太快了。"
+    },
+    {
+      "timestamp": "62:32",
+      "speaker": "Chris Blackburn",
+      "en": "Where do we ever go into an enterprise and they have a CMDB that is completely accurate and it's like never like literally never.",
+      "zh": "我们什么时候走进一家企业，发现他们有一个完全准确的 CMDB，这就像是从来没有，真的从来没有。"
+    }
+  ],
+  "voice_script": "你敢信吗？大企业里，一个人每周真正在创造价值的时间，只有三个小时。\n\n这期我们聊企业 AI 转型，但主角不是工具，而是怎么用 AI 把旧组织给\"绞杀\"掉。说这话的是 Liatrio 的创始人兼 CEO Chris Blackburn，这家公司专门帮大型复杂组织做软件交付转型，团队里四分之三都是工程师。\n\n三个小时是怎么算出来的？Chris 打了个特别直观的比方。你想象一个实体工厂，真正在焊接、钻孔、喷漆的动作，才叫\"增值时间\"；磨钻头、打扫车间，叫\"必要开销\"；库存积压、来回走动，那就是纯\"浪费\"。把这套逻辑搬到软件组织里一测，发现客户平均只有 5% 到 6% 的时间花在增值活动上。按一周 40 小时算，就是三个到三个半小时。\n\n听到这你可能想，那正好啊，用 AI 把这三个小时的效率提升个十倍不就行了？先别急，这里有个反常识的地方。哪怕个人效率真提了十倍，对整个组织的底线贡献也非常有限。为什么？因为瓶颈根本不在个人生产力上，而在组织本身。\n\n地球上最复杂的组织，平均最多也就每月往生产环境交付一次软件。中间堆了大量审批、交接和层级传递，全卡住了。所以现在 AI 在企业里最大的价值，其实是当一块变革的催化剂——逼着组织端到端去审视自己的流程。真正的大机会，是用 AI 替代掉那些需要人反复验证、确认、协调的环节，让人从开销角色变回真正的价值生产者。说白了，这必然意味着组织层级缩减，中层管理要变少。\n\n那怎么改呢？硬让几百人的大团队突然换工作方式，基本没戏。Liatrio 借用了一个老架构模式，叫\"绞杀榕模式\"，直接搬到了组织层面，叫\"绞杀组织\"。\n\n做法很实际：不从外面改，从里面长出一个新的。不搞一刀切，而是在组织内部建一个全新的小部门或实践，尽量不受旧官僚体系的约束，管这叫\"低税区\"。第一天可能就一个人，然后以两三人的小团队为单位逐步扩张。关键是把人调动到新组织里，给他们按新方式行动的自由。\n\n这里有个细节特别值得记。Chris 跟大量 C-suite 高管打交道，发现第一大问题就是高管跟一线完全脱节。借用丰田生产系统的概念问：你在巡视你的工厂车间吗？几乎没有高管在这么做。信息层层传递，到耳朵里只会越来越好看。有本书说 CEO 每月应该花两到四天专注在转型上，但现实中几乎没有企业做到。\n\n这种转型要花多少钱？Chris 给了个很粗暴的经验法则：把全员薪酬总成本除以二，差不多就是接下来几年要投进去的钱。一个七八百人的技术团队，光薪酬就可能上亿。但这笔钱千万别当成要立刻算清 ROI 的成本，得当成战略学习投入。而且别指望靠发几个 ChatGPT 账号就能转型，离真正在组织层面用好 AI，还有很长的路要走。\n\n最后分享一种做事的姿势。Liatrio 不坐在会议室里评估完给一版 PPT，而是把工程师直接嵌入客户组织，边做边评估。用他们自己的话说：\"我们不是英雄，只是故事里的向导，客户才是英雄。\"\n\n所以记住，把一个人转变成 AI 时代的现代工作方式，你可能会花掉相当于两年薪水的总和。但如果不从内部长出一个新组织，这笔钱可能连水花都溅不起来。"
+}

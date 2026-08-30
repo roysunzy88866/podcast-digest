@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Susan Kare]] [[Elaina O'Mahoney]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]] [[Gagan Bhat]]
+[[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"Freshworks":1,"Cursor":40,"Figma":11,"Databricks":9,"智能体":156,"MCP":18,"PRD Genie":1,"AI PDLC":1,"Figma Make":2}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"Freshworks":1,"Cursor":40,"Figma":11,"Databricks":9,"智能体":158,"MCP":18,"PRD Genie":1,"AI PDLC":1,"Figma Make":2}</script>
 
 <script>
 (function(){

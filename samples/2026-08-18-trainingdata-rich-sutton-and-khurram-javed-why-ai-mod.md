@@ -142,8 +142,8 @@ Rich 也不否认 LLM 是重大突破，但他认为那只覆盖了智能的约�
 **顺着「智能体」挖下去**
 
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)、持续学习 (continual learning)、预训练 (pre-training)</span>
+- [[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|LongLake：把AI塞进真实服务业务的笨办法]]<span class="pd-rz">同概念:持续学习 (continual learning)、智能体 (agent)、后训练 (post-training)</span>
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同公司:Cursor · 同概念:强化学习 (reinforcement learning)、后训练 (post-training)</span>
-- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|Clio 的 AI 赌注：从扑克到财务健康]]<span class="pd-rz">同概念:智能体 (agent)、强化学习 (reinforcement learning)、监督学习 (supervised learning)</span>
 
 </div>
 <div class="pd-ex">

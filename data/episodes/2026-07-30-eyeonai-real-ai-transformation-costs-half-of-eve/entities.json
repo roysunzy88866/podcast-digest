@@ -1,0 +1,657 @@
+{
+  "episode_id": "2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve",
+  "podcast": "Eye On A.I.",
+  "date": "2026-07-30",
+  "tags": [
+    "企业AI转型",
+    "DevOps",
+    "组织变革",
+    "价值流映射",
+    "绞杀组织"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "chris-blackburn",
+      "type": "person",
+      "role": "host",
+      "name": "Chris Blackburn",
+      "file": "Chris Blackburn",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            68.974,
+            72.557
+          ],
+          "quote": "So I'm Chris Blackburn, founder and CEO of Liatrio.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "liatrio",
+      "type": "company",
+      "role": "company",
+      "name": "Liatrio",
+      "file": "Liatrio",
+      "primary": true,
+      "how_described": "本集说 Liatrio 是一家约 175 人的公司，四分之三是工程师，帮大型复杂组织做 DevOps 和软件交付转型；他们不坐在会议室给 PPT，而是把工程师和顾问嵌入客户组织边做边评估，目标是让客户在没有他们的情况下也能继续转型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            68.974,
+            72.557
+          ],
+          "quote": "So I'm Chris Blackburn, founder and CEO of Liatrio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            73.117,
+            81.944
+          ],
+          "quote": "Started Liatrio a little over 10 years ago after having a long history in contracting and consulting in the technology space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            329.16,
+            337.564
+          ],
+          "quote": "And so that's where I started Liatrio, like I said, a little over 10 years ago, in the DevOps space for enterprises or complex organizations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            406.966,
+            414.092
+          ],
+          "quote": "25% of Liatrio looks more like management consulting, but really that's like the change management of the rest of the organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            3086.14,
+            3093.222
+          ],
+          "quote": "And so, you know, what's unique about Liatrio that we always try to push is our people are constantly learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3098.924,
+            3106.787
+          ],
+          "quote": "Since the beginning of Liatrio, we spend a ton of time on all of our people to make sure they have time to improve, learn, and practice new ways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3528.649,
+            3537.273
+          ],
+          "quote": "If our customer can win first and foremost, and as the tool or product provider and Liatrio can win, that's what I want to have.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "value-stream-mapping",
+      "type": "concept",
+      "role": "concept",
+      "name": "价值流映射 (value stream mapping)",
+      "file": "价值流映射",
+      "primary": true,
+      "how_described": "本集说价值流映射是对价值端到端流动的可视化，以及所有进入系统的交接和协调，用来让组织看清流程中哪里有瓶颈和挑战",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            176.395,
+            183.338
+          ],
+          "quote": "DevOps brought a lot of thinking around value stream mapping, lean techniques, systems thinking, and all that type of stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1698.202,
+            1700.863
+          ],
+          "quote": "So we use techniques like value stream mapping.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1701.103,
+            1702.584
+          ],
+          "quote": "Value stream mapping is very simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2121.201,
+            2128.927
+          ],
+          "quote": "I don't think there's enough of spending time on the shop floor and looking at value stream mapping and other things like that to see where bottlenecks are in the system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "strangle-the-organization",
+      "type": "concept",
+      "role": "concept",
+      "name": "绞杀组织 (strangle the organization)",
+      "file": "绞杀组织",
+      "primary": true,
+      "how_described": "本集说这是借用旧的绞杀榕模式的思路应用到组织层面，不在外面改，而是在组织内部建一个全新的部门或实践（低税区），尽量不受旧有官僚体系约束，从一个人开始以两三人的小团队为单位逐步扩张",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 472,
+          "t": [
+            2785.61,
+            2791.995
+          ],
+          "quote": "We've actually been applying that same thinking and we're calling it either strangle the enterprise or strangle the organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2974.641,
+            2980.463
+          ],
+          "quote": "So going back to the strangle the organization, that's something that's really important to us as well, is when we bring people over to the new...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "value-added-activities",
+      "type": "concept",
+      "role": "concept",
+      "name": "增值时间 (value added activities)",
+      "file": "增值时间",
+      "primary": true,
+      "how_described": "本集借用实体工厂类比，把组织时间分为价值、开销和浪费三类，说他们测过的客户平均只有 5% 到 6% 的时间花在增值活动上，即按 40 小时工作周算每周只有三到三个半小时在真正构建数字产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 274,
+          "t": [
+            1587.286,
+            1598.779
+          ],
+          "quote": "So that means on the given 40-hour workweek, on average, a person is only spending three, three and a half hours a week on value-added activities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1598.979,
+            1602.262
+          ],
+          "quote": "And value-added activities are building the digital product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集说现有组织里大量审批、交接和层级传递是因为需要人在回路中来验证、确认、对齐、协调，而 AI 最大的机会空间就是减少这些环节，让更多人从开销角色转回价值生产者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 307,
+          "t": [
+            1807.157,
+            1821.045
+          ],
+          "quote": "And today that means cutting out a lot of existing practices and bureaucracy and handoffs that were there for a reason where you kind of wanted a human in the loop to validate, to confirm, to align, to coordinate and all of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1821.905,
+            1831.791
+          ],
+          "quote": "And I think that part's going to be difficult, but I think that's going to be where the biggest opportunity space is at with AI is to reduce the human in the loop on everything there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "type": "concept",
+      "role": "concept",
+      "name": "DevOps",
+      "file": "DevOps",
+      "primary": true,
+      "how_described": "本集说 DevOps 把软件和构建数字产品变成团队运动而不是个人运动，引入了价值流映射、精益技术、系统思维的思考，是嘉宾职业生涯找到自己位置的运动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            160.471,
+            165.132
+          ],
+          "quote": "And then really when the DevOps movement happened, I feel like I found my space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            165.192,
+            167.013
+          ],
+          "quote": "DevOps was such a huge part for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            176.395,
+            183.338
+          ],
+          "quote": "DevOps brought a lot of thinking around value stream mapping, lean techniques, systems thinking, and all that type of stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            213.117,
+            219.542
+          ],
+          "quote": "So ultimately that became the beginning of my, you know, real part of my career was kind of the DevOps movement and the purity of DevOps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            329.16,
+            337.564
+          ],
+          "quote": "And so that's where I started Liatrio, like I said, a little over 10 years ago, in the DevOps space for enterprises or complex organizations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            338.565,
+            353.873
+          ],
+          "quote": "But really it was the purity of DevOps more than anything, end-to-end flow of value, getting teams to work better together, efficiency plays, small batch, quick iteration to learn and experiment and try things out and uplift the organization together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1943.207,
+            1956.599
+          ],
+          "quote": "I think in any technology, we saw this in the DevOps space, is that DevOps was a purity thing to start with and then all of a sudden the term got overused and everybody was doing DevOps and DevOps kind of meant nothing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "change-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "变革管理 (change management)",
+      "file": "变革管理",
+      "primary": true,
+      "how_described": "本集说 Liatrio 做的变革管理是与客户共同构建的同时贯穿整个组织进行，而不是只对构建团队做；AI 目前最大的价值是充当变革管理的催化剂，让组织开始端到端审视自己的流程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            21.172,
+            34.151
+          ],
+          "quote": "We believe that because things are moving so quickly right now and how hard it is in change management for these large complex organizations to truly operate in a new way is what we try to do is strangle away a part of the organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            406.966,
+            414.092
+          ],
+          "quote": "25% of Liatrio looks more like management consulting, but really that's like the change management of the rest of the organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            434.749,
+            443.158
+          ],
+          "quote": "Change management always kind of feels like maybe a funky word that talks about just process more than anything and new ways of doing stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            443.198,
+            452.367
+          ],
+          "quote": "We think about change management of doing that while building with the customer and not just change management on the teams that are builders, but change management through the entire organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1740.165,
+            1751.69
+          ],
+          "quote": "So I think AI is more than just like, if it's just a catalyst today, a catalyst to change management for efficiency sake, to look at the end to end system, I think that's super successful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2792.853,
+            2817.688
+          ],
+          "quote": "We believe that because things are moving so quickly right now and how hard it is in change management for these large complex organizations to truly operate in a new way is what we try to do is strangle away a part of the organization and literally build a net new division or business or practice inside the org that has as little restriction in the old way of operating as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3768.548,
+            3782.28
+          ],
+          "quote": "A change management database or configuration management database, it more or less is a definition of all systems and services and like how they were put in place to be there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "digital-twin",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字孪生 (digital twin)",
+      "file": "数字孪生",
+      "primary": false,
+      "how_described": "本集说数字孪生的愿景很美好，但现实是连 CMDB 都几乎没企业能做准确，不过 Liatrio 在自己内部做了个简化版，把 Slack、邮件、日历等工具打通接上 LLM 作为智能层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 604,
+          "t": [
+            3612.388,
+            3630.937
+          ],
+          "quote": "And, you know, it seems to me that a CEO should have a digital twin of his organization connected to a very focused, you know, fine-tuned",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3660.164,
+            3674.574
+          ],
+          "quote": "A great question in like a million different avenues that I could think about it is I think that this digital twin idea, this intelligence layer of an organization, kind of all these things are coming together that we're going to learn a lot about here in the near future.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3712.229,
+            3719.891
+          ],
+          "quote": "But you think about that, you think about the digital twin, you think about intelligence layer across the board, and it's very interesting to think about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3724.832,
+            3730.033
+          ],
+          "quote": "It's like, how do you digital twin something that you can't even take a picture of today, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3817.173,
+            3826.597
+          ],
+          "quote": "So if you can't have a CMDB, how can you have a digital twin of your organization, which is the people and the teams and the communication boundaries of all of that?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "strangler-fig-pattern",
+      "type": "concept",
+      "role": "concept",
+      "name": "绞杀榕模式 (strangler fig pattern)",
+      "file": "绞杀榕模式",
+      "primary": false,
+      "how_described": "本集说这是一个旧的架构模式，对于单体应用不要试图一次性重写，而是在旁边建新的、逐步替代旧的，Liatrio 把这套思路应用到组织层面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 434,
+          "t": [
+            2597.82,
+            2599.021
+          ],
+          "quote": "Strangler fig pattern.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2750.594,
+            2759.616
+          ],
+          "quote": "To your question about this idea of the Strangler fig tree or the Strangler fig pattern that we've been talking about, it was an old architecture pattern.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continuous-delivery",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续交付 (continuous delivery)",
+      "file": "持续交付",
+      "primary": false,
+      "how_described": "本集提到过去做持续交付等方面时，是将很多基础和期望构建到平台和管道中，让流程流通，而不是靠人在回路中审查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            152.97,
+            159.691
+          ],
+          "quote": "So source control management, build automation and all of that, which turned into continuous integration and continuous delivery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2506.003,
+            2520.653
+          ],
+          "quote": "And this is what things like continuous delivery and all of those aspects we're trying to do back in the day is build a lot of those fundamentals and the expectations into the platform, into the pipeline so that it flows through there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cmdb",
+      "type": "concept",
+      "role": "concept",
+      "name": "CMDB",
+      "file": "CMDB",
+      "primary": false,
+      "how_described": "本集说 CMDB 是记录所有系统和服务如何部署的数据库，但几乎从没见过企业有一个完全准确的 CMDB，因此在此基础上做数字孪生很困难",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 625,
+          "t": [
+            3752.614,
+            3767.394
+          ],
+          "quote": "where do we ever go into an enterprise and they have a CMDB that is completely accurate and it's like never like literally never and if you don't have a CMDB that is accurate how are you going to have a digital save for listeners what CMDB is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3782.32,
+            3790.047
+          ],
+          "quote": "So the very simple one is you spin up a new server, you spin up a new VM, it goes into the CMDB to be tracked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3817.173,
+            3826.597
+          ],
+          "quote": "So if you can't have a CMDB, how can you have a digital twin of your organization, which is the people and the teams and the communication boundaries of all of that?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "toyota-production-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "丰田生产系统 (Toyota production system)",
+      "file": "丰田生产系统",
+      "primary": false,
+      "how_described": "本集借用丰田生产系统的概念问高管是否在巡视工厂车间，指出几乎没有高管这样做，信息经过层层传递只会越来越好看",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 343,
+          "t": [
+            2030.819,
+            2040.646
+          ],
+          "quote": "And this, again, goes back into the Toyota production system and lean manufacturing and all that is, are they walking their factory floor?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intelligence-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能层 (intelligence layer)",
+      "file": "智能层",
+      "primary": false,
+      "how_described": "本集提到 Jack Dorsey 的白皮书设想用智能层替代中层管理，Liatrio 也在内部把 LLM 接入工具体系做简化版智能层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 609,
+          "t": [
+            3660.164,
+            3674.574
+          ],
+          "quote": "A great question in like a million different avenues that I could think about it is I think that this digital twin idea, this intelligence layer of an organization, kind of all these things are coming together that we're going to learn a lot about here in the near future.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            3695.824,
+            3701.986
+          ],
+          "quote": "You're going to have an intelligence layer for middle management and then all individual contributors type of thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3712.229,
+            3719.891
+          ],
+          "quote": "But you think about that, you think about the digital twin, you think about intelligence layer across the board, and it's very interesting to think about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3863.466,
+            3877.953
+          ],
+          "quote": "It's really easy for us to integrate all of that together so that our intelligence layer can see an email come through, see a new lead and HubSpot come through, and translate and connect that directly to conversation that's going on in Slack.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到很多企业以为部署了 3 万个席位的 ChatGPT 就等于在 AI 方面启用了组织，但这跟真正的转型之间存在巨大脱节",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 331,
+          "t": [
+            1974.871,
+            1988.458
+          ],
+          "quote": "I see a dozen news articles a day about an organization transforming with AI or deployed 30,000 seats of ChatGPT so we have enabled the organization on AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3201.582,
+            3211.19
+          ],
+          "quote": "If you're starting at a zero or a one, if you're just a pedestrian user of ChatGPT or something like that, you have a long ways to go.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

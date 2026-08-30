@@ -129,7 +129,7 @@ Stripe从写下第一行代码到公开发布等了近两年，在[[YC|YC]]"尽�
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:OpenAI、Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
+[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":156,"沙箱":31,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":4,"Anthropic":79,"Cloudflare":7,"Vercel AI SDK":2}</script>
+<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":158,"沙箱":32,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":4,"Anthropic":79,"Cloudflare":7,"Vercel AI SDK":2}</script>
 
 <script>
 (function(){

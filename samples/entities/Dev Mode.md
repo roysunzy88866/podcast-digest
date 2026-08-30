@@ -25,7 +25,7 @@ unlisted: true
 
 [[Dylan Field]] · [[Lenny]] · [[Figma]] · [[Figma Make]] · [[FigJam]] · [[工作流]] · [[品味]] · [[价值实现时间]] · [[Blockers(障碍)]] · [[Detach 计划]]
 
-<script type="application/json" class="pd-epn">{"Dylan Field":2,"Lenny":65,"Figma":11,"Figma Make":2,"FigJam":1,"工作流":1,"品味":8,"价值实现时间":1,"Blockers(障碍)":1,"Detach 计划":1}</script>
+<script type="application/json" class="pd-epn">{"Dylan Field":2,"Lenny":66,"Figma":11,"Figma Make":2,"FigJam":1,"工作流":1,"品味":8,"价值实现时间":1,"Blockers(障碍)":1,"Detach 计划":1}</script>
 
 <script>
 (function(){

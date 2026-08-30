@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Dhanji Prasanna]] · [[Block]] · [[智能体]] · [[MCP]] · [[康威定律]] · [[职能型架构]] · [[LLM]] · [[开源模型]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Dhanji Prasanna":1,"Block":2,"智能体":156,"MCP":18,"康威定律":1,"职能型架构":1,"LLM":20,"开源模型":3,"Anthropic":79}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Dhanji Prasanna":1,"Block":2,"智能体":158,"MCP":18,"康威定律":1,"职能型架构":1,"LLM":20,"开源模型":3,"Anthropic":79}</script>
 
 <script>
 (function(){

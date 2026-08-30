@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/B0fjR3yaZFU.m4a",
+  "duration_sec": 1048.594,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 239,
+  "asr": true,
+  "title_en": "How do you diffuse AI into the real world? — Varun Shenoy, Long Lake",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "added": "2026-08-31",
+  "added_at": "2026-08-30T16:26:31.013Z",
+  "speaker_map": {
+    "SPEAKER_00": "Varun Shenoy"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Varun Shenoy"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "LongLake：把AI塞进真实服务业务的笨办法",
+  "guest_name": "Varun Shenoy",
+  "guest_title": "LongLake 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

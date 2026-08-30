@@ -194,8 +194,8 @@ Dan 的比喻是柏拉图反对写作——写作确实损害了记忆力，但�
 **换个口味**
 
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Claude Code、ChatGPT、Codex · 同概念:智能体 (agent)</span>
+- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:ChatGPT、Claude Code、Codex · 同概念:智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude Code、Claude · 同概念:智能体 (agent)</span>
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:Claude Code、ChatGPT · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

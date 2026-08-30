@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
+[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Resolve AI":1,"GitHub":18,"Slack":21,"智能体":156,"后台智能体":5,"生产上下文":1,"可观测性":14,"沙箱":31,"部署监控":1}</script>
+<script type="application/json" class="pd-epn">{"Resolve AI":1,"GitHub":18,"Slack":21,"智能体":158,"后台智能体":5,"生产上下文":1,"可观测性":14,"沙箱":32,"部署监控":1}</script>
 
 <script>
 (function(){

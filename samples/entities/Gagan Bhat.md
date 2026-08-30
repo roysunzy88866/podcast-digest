@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
+[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":79,"智能体":156,"harness":17,"沙箱":31,"智能体循环":1,"上下文工程":7,"会话日志追踪":2,"泄露的凭证":3,"可观测性":14}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":79,"智能体":158,"harness":17,"沙箱":32,"智能体循环":1,"上下文工程":7,"会话日志追踪":2,"泄露的凭证":3,"可观测性":14}</script>
 
 <script>
 (function(){

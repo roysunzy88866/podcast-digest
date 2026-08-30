@@ -140,9 +140,9 @@ Max 觉得这种「SaaS 末日论」被严重夸大 <button class="pd-ts" data-t
 
 **顺着「产品方法」挖下去**
 
+- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)、知识工作 (knowledge work)</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同嘉宾:Lenny · 同概念:主观能动性 (agency)、智能体 (agent)</span>
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Figma · 同概念:品味 (taste)</span>
-- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同嘉宾:Lenny · 同概念:主观能动性 (agency)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]] [[Will]]
+[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":156,"数据基础层":1,"ETL":2,"token":11,"后训练":15,"PLG":6,"Google":31,"AWS":9}</script>
+<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":158,"数据基础层":1,"ETL":2,"token":11,"后训练":16,"PLG":6,"Google":31,"AWS":9}</script>
 
 <script>
 (function(){

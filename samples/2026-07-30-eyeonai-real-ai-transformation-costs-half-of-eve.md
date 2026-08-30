@@ -1,0 +1,471 @@
+---
+title: 企业AI转型：效率不是终点，绞杀旧组织才是
+podcast: Eye On A.I.
+date: 2026-08-31
+source_url: undefined
+duration: "65:32"
+type: episode
+cover: "#64748b"
+image: "/covers/2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve.jpg"
+description: "Liatrio 创始人 Chris Blackburn 认为，大企业平均只有 5%-6% 的时间花在真正创造价值上，AI 转型的核心不是给个人发工具，而是用\"绞杀组织\"模式从内部建起新的运作方式。"
+host: "[[Chris Blackburn]]"
+companies: ["[[Liatrio]]"]
+concepts: ["[[价值流映射]]", "[[绞杀组织]]", "[[增值时间]]", "[[回路中的人类]]", "[[DevOps]]", "[[变革管理]]"]
+category: 组织与领导力
+tags:
+  - 组织与领导力
+  - 创业与行业
+socialImage: "https://talk.solomind.cc/covers/2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve.jpg"
+jsonLd: |
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve#post","headline":"企业AI转型：效率不是终点，绞杀旧组织才是","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve","mainEntityOfPage":"https://talk.solomind.cc/2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve","description":"Liatrio 创始人 Chris Blackburn 认为，大企业平均只有 5%-6% 的时间花在真正创造价值上，AI 转型的核心不是给个人发工具，而是用\"绞杀组织\"模式从内部建起新的运作方式。","datePublished":"2026-08-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve.jpg","about":[{"@type":"Person","name":"Chris Blackburn"},{"@type":"Organization","name":"Liatrio"},{"@type":"Thing","name":"价值流映射 (value stream mapping)"},{"@type":"Thing","name":"绞杀组织 (strangle the organization)"},{"@type":"Thing","name":"增值时间 (value added activities)"},{"@type":"Thing","name":"回路中的人类 (human in the loop)"},{"@type":"Thing","name":"DevOps"},{"@type":"Thing","name":"变革管理 (change management)"}],"articleSection":"组织与领导力"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"组织与领导力","item":"https://talk.solomind.cc/tags/组织与领导力"},{"@type":"ListItem","position":3,"name":"企业AI转型：效率不是终点，绞杀旧组织才是","item":"https://talk.solomind.cc/2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve"}]}]}
+---
+
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>企业AI转型：效率不是终点，绞杀旧组织才是</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+
+# 企业AI转型：效率不是终点，绞杀旧组织才是
+
+<div class="pd-byl"><b>Chris Blackburn</b> · Liatrio 创始人 · 2026-08-31</div>
+
+<div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-30-eyeonai-real-ai-transformation-costs-half-of-eve.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
+<div class="pd-hook"><div class="z">将组织转变为使用 AI 的现代工作方式的转型成本是，你可能会花费相当于每个人两年薪水的总和。</div><div class="a">— Chris Blackburn <button class="pd-ts" data-t="00:34" data-who="Chris Blackburn" data-en="The transformation cost to transform an organization into modern ways of working with AI is you are likely going to spend the equivalent of everyone's salary over a two-year period." aria-label="回原文"></button></div></div>
+
+> [!info] 关联
+> **人物** [[Chris Blackburn]]
+>
+> **公司** [[Liatrio]]
+>
+> **概念** [[价值流映射]] · [[绞杀组织]] · [[增值时间]] · [[回路中的人类]] · [[DevOps]] · [[变革管理]]
+
+[[Chris Blackburn|Chris Blackburn]] 是 [[Liatrio|Liatrio]] 的创始人兼 CEO，这家公司帮大型复杂组织做 [[DevOps|DevOps]] 和软件交付转型，团队大约 175 人，其中四分之三是工程师。他做过一个测算：把一个组织转变成 AI 时代的现代工作方式，转型成本大约是全员两年薪酬的总和 <button class="pd-ts" data-t="00:34" data-who="Chris Blackburn" data-en="We believe that because things are moving so quickly right now and how hard it is in change management for these large complex organizations to truly operate in a new way is what we try to do is strangle away a part of the organization." aria-label="回原文"></button>。这不是一个小数目，但他认为 AI 的潜力大到值得把这个投入当成战略投资而非单纯成本。
+
+## 大企业只有 5% 的时间在创造价值
+
+Chris 用实体工厂打比方：工厂里只有焊接、钻孔、喷漆这些动作才是"[[增值时间|增值时间]]"，磨钻头、打扫车间是"必要开销"，库存积压、多余走动是"浪费"。他把这套逻辑搬到软件组织里，发现他们测过的客户平均只有 5% 到 6% 的时间花在增值活动上——按 40 小时工作周算，一个人每周只有三到三个半小时在真正构建数字产品 <button class="pd-ts" data-t="26:25" data-who="Chris Blackburn" data-en="And like I said, we measure them that the average organization that we spend time in is somewhere in the neighborhood of 5% to 6% of efficiency. So that means on the given 40-hour workweek, on average, a person is only spending three, three and a half hours a week on value-added activities." aria-label="回原文"></button>。更关键的是，即便用 AI 把这三小时的效率提升 10 倍，对组织的底线贡献也有限，因为瓶颈根本不在个人生产力上，而在组织本身 <button class="pd-ts" data-t="27:30" data-who="Chris Blackburn" data-en="And you could get a 2x, 10x, 100x bump in that individual's time of being spent on the thing. But you called it out very specifically and you're totally right is just because an individual's productivity or efficiency increases, does that matter to the system?" aria-label="回原文"></button>。
+
+## 瓶颈在组织，不在个人
+
+地球上最复杂的组织，平均最多也就每月往生产环境交付一次软件 <button class="pd-ts" data-t="28:03" data-who="Chris Blackburn" data-en="I think there is a lot of focus today, and I actually think it's rightfully so, a lot of focus on the individual builder and creation of software, of using AI to improve the efficiency there, but it's bottlenecked by the organization." aria-label="回原文"></button>。中间堆积了大量审批流程、交接环节和层级传递。
+
+Chris 认为现在 AI 在企业里的最大价值，其实是充当[[变革管理|变革管理]]的催化剂——让组织开始端到端地审视自己的流程 <button class="pd-ts" data-t="29:00" data-who="Chris Blackburn" data-en="And try things out and learn from it. So I think AI is more than just like, if it's just a catalyst today, a catalyst to change management for efficiency sake, to look at the end to end system, I think that's super successful." aria-label="回原文"></button>。真正的大机会是用 AI 替代掉那些"[[回路中的人类|人在回路]]"里的验证、确认、协调环节，让更多人从开销角色转回真正的价值生产者 <button class="pd-ts" data-t="30:21" data-who="Chris Blackburn" data-en="And today that means cutting out a lot of existing practices and bureaucracy and handoffs that were there for a reason where you kind of wanted a human in the loop to validate, to confirm, to align, to coordinate and all of that." aria-label="回原文"></button>。他直言这会意味着组织层级缩减、中层管理减少 <button class="pd-ts" data-t="30:55" data-who="Chris Blackburn" data-en="And I think ultimately that's going to mean more people are going to move into jobs that have been considered individual contributors, more builders, more people that are actually value producers versus the overhead." aria-label="回原文"></button>。
+
+## 高管与一线严重脱节
+
+Chris 跟大量 C-suite 高管打交道，他说第一大问题就是高管个人跟一线工作完全脱节。他借用丰田生产系统的概念问：你在巡视你的工厂车间吗？
+
+他认为几乎没有高管在这样做 <button class="pd-ts" data-t="33:40" data-who="Chris Blackburn" data-en="How do we come in? When I talk to C-suite executive leaders and all of that, the number one problem I find is they personally are so disconnected from the work on the ground." aria-label="回原文"></button>。信息经过层层传递，到高管耳朵里只会越来越好看。他提到麦肯锡有本书说 CEO 每月应该花两到四天专注在转型上，但他觉得几乎没有企业做到 <button class="pd-ts" data-t="34:45" data-who="Chris Blackburn" data-en="We encourage leaders to get involved in it. There was a book out from McKinsey called Rewired or something like that. It's a few years old, actually." aria-label="回原文"></button>。
+
+## "绞杀组织"：不从外面改，从里面长出一个新的
+
+Liatrio 借用了一个老架构模式叫"绞杀榕模式"（strangler fig pattern，不重写整个旧系统，而是在旁边建新的、逐步替代旧的）。他们把这套思路应用到组织层面，叫"[[绞杀组织|绞杀组织]]" <button class="pd-ts" data-t="46:25" data-who="Chris Blackburn" data-en="And then when you could shut down small pieces of the old monolithic application, you could run it in new services outside of that. We've actually been applying that same thinking and we're calling it either strangle the enterprise or strangle the organization." aria-label="回原文"></button>。
+
+具体做法不是让现有庞大团队突然改变行为，而是在组织内部建一个全新的部门或实践，尽量不受旧有官僚体系约束，他们管这叫"低税区" <button class="pd-ts" data-t="46:58" data-who="Chris Blackburn" data-en="We believe that because things are moving so quickly right now and how hard it is in change management for these large complex organizations to truly operate in a new way is what we try to do is strangle away a part of the organization and literally build a net new division or business or practice inside the org that has as little restriction in the old way of operating as possible." aria-label="回原文"></button>。第一天可能只有一个人，然后以两三人的小团队为单位逐步扩张 <button class="pd-ts" data-t="47:32" data-who="Chris Blackburn" data-en="So we've started to see quite a bit of success in this so far is when you just say, hey, we're building a new org over here. And day one, the org is one person. And what does that mean that we're going to do differently in this new and modern world?" aria-label="回原文"></button>。关键是把人调动到新组织里，给他们以新方式行动的自由。
+
+## 不是"为你建"，是"和你一起建"
+
+Chris 强调 Liatrio 跟传统咨询的区别：不是坐在会议室里评估完给一版 PPT，而是把工程师和顾问直接嵌入客户组织，边做边评估 <button class="pd-ts" data-t="37:13" data-who="Chris Blackburn" data-en="That's exactly it. Absolutely. So yeah, we deploy engineers and consultants in the same way." aria-label="回原文"></button>。他们有一句话叫"我们不是英雄，我们是故事里的向导，客户才是英雄" <button class="pd-ts" data-t="06:40" data-who="Chris Blackburn" data-en="But what's unique about them is they are all coaches, they're guides, they're teachers that take the customer on the journey. We have a saying that we are not the hero, we're the guide in the story." aria-label="回原文"></button>。目标不是永远留在客户那里，而是让客户在没有他们的情况下也能继续转型之旅 <button class="pd-ts" data-t="45:31" data-who="Chris Blackburn" data-en="Our goal is to truly just build the momentum and excitement for that. Our goal with We Leave Every Customer is, are they on the transformation journey without us, is where we ultimately want to get to, is where we want to see our customers succeed through that." aria-label="回原文"></button>。
+
+## 转型要花多少钱？
+
+Chris 给了一个粗略的经验法则：把组织全部薪酬总成本除以二，就是接下来几年要投入的转型花费 <button class="pd-ts" data-t="55:29" data-who="Chris Blackburn" data-en="And hopefully that passion part of it will allow people to go work in an industry or in a job or whatever that is much more passionate to them. But going back to the question, wet finger in the air is take the entire total cost of compensation for your organization and you're going to run that, divide that in half, and that's what you're going to spend for a couple of years in a row for sure." aria-label="回原文"></button>。一个七八百人的技术团队，光薪酬就可能上亿。
+
+但他认为这笔钱应该被视为学习旅程上的战略优势，而不是立刻要算清 ROI 的成本 <button class="pd-ts" data-t="50:34" data-who="Chris Blackburn" data-en="I think we're still figuring it out, but I'll share some kind of information that's right in front of us. But I want to maybe preface all of this with I believe that the potential of AI is so great that spending lots of time, lots of energy, and lots of resources should almost be looked at as a strategic advantage to learning on the journey that's going to come our way." aria-label="回原文"></button>。Liatrio 自己从创立起就有个叫 Flywheel 的项目，每季度把工程师从客户现场撤回一周去学新东西，每年就是四周不计费的时间 <button class="pd-ts" data-t="51:47" data-who="Chris Blackburn" data-en="Since the beginning of Liatrio, we spend a ton of time on all of our people to make sure they have time to improve, learn, and practice new ways. Real early on in Liatro's history, we built a program called Flywheel." aria-label="回原文"></button>。
+
+现在他们又加了一个叫 Forge 的 AI 熟练度计划，每人投入两到六周 <button class="pd-ts" data-t="52:50" data-who="Chris Blackburn" data-en="So we're spending even more time on that. We have a internal program of AI fluency that we build that we call Forge. And the forge is somewhere between two and six weeks per person on our team that we just invest in as we take our people and run it through this program here because, and I think our folks are already starting at a higher level." aria-label="回原文"></button>。他认为如果一个人只是 ChatGPT 的普通用户，离真正能在组织层面用好 AI 还有很长的路 <button class="pd-ts" data-t="53:21" data-who="Chris Blackburn" data-en="You know, if this is a zero to 10 or whatever, our folks are already at a four or five and we spend two to four weeks on having them go through the system to get even higher than that." aria-label="回原文"></button>。
+
+## 工具无关与数字孪生的现实
+
+Liatrio 不绑任何特定工具或云厂商。Chris 认为现在签三到五年的长期供应商绑定协议是很危险的，因为变化太快，应该让系统保持可替换性 <button class="pd-ts" data-t="57:45" data-who="Chris Blackburn" data-en="I think that's going to be something that's going to be really huge in the coming years. I would be scared to death to sign three and five year term commitments to a lot of these providers of any sort right now, because I think things are changing so rapidly." aria-label="回原文"></button>。
+
+关于"数字孪生"的概念，他认为愿景很美好，但现实是连 CMDB（配置管理数据库，记录所有系统和服务如何部署的数据库）都几乎没企业能做准确 <button class="pd-ts" data-t="62:32" data-who="Chris Blackburn" data-en="And as you improve them and they get more mature or better connected, you could do that across the entire board. where do we ever go into an enterprise and they have a CMDB that is completely accurate and it's like never like literally never and if you don't have a CMDB that is accurate how are you going to have a digital save for listeners what CMDB is" aria-label="回原文"></button>。不过 Liatrio 在自己内部做了个简化版：把 Slack、邮件、日历、源代码控制、HubSpot 等工具打通，接上 LLM，让智能层能看到线索进来、关联到 Slack 上的讨论 <button class="pd-ts" data-t="64:09" data-who="Chris Blackburn" data-en="You could do, and we've started to do this inside of our organization where we hook our LLM and some automation and customization we built in there into our entire system." aria-label="回原文"></button>。不算完美，但已经能用来问"系统瓶颈在哪"这类问题 <button class="pd-ts" data-t="64:57" data-who="Chris Blackburn" data-en="What if this was going on? Like, tell me about bottlenecks in the system. Tell me where we have opportunity because our system is..." aria-label="回原文"></button>。
+
+## 本集带走
+
+- **先量化价值比例**：把组织时间分成"增值/必要开销/浪费"三类，实测很多大企业只有 5%-6% 在增值——先扩大这个比例，再谈 AI 杠杆
+- **个人效率提升不等于组织效率提升**：一个月才能交付一次软件的组织，给个人配再强的 AI 工具，产出也被组织流程卡住
+- **用"绞杀组织"而非"改造组织"**：在内部从零建一个不受旧官僚约束的新小团队，逐步扩张，比让大团队突然换方式可行得多
+- **高管必须"走车间"**：信息层层传递只会越来越好看，CEO 每月应花数天直接看一线流程，而非只听汇报
+- **转型预算的粗略算法**：全员两年薪酬总和——这笔钱应该当成战略学习投入，不是立刻要回本的项目
+- **系统保持可替换**：不签长期供应商锁定，让工具和平台可以被换掉，这是对变化速度的适应
+
+<div class="pd-sec pd-sec-q">全部金句 <span>9 条</span></div>
+
+> <span class="qz">将组织转变为使用 AI 的现代工作方式的转型成本是，你可能会花费相当于每个人两年薪水的总和。</span>  
+> *The transformation cost to transform an organization into modern ways of working with AI is you are likely going to spend the equivalent of everyone's salary over a two-year period.*  
+> <span class="qm">—— Chris Blackburn · [00:34]</span> ^q1
+
+> <span class="qz">我们以前测量过这个，大概只有 5% 到 6% 的时间花在增值任务上。</span>  
+> *We've measured this before and it's like something like five to 6% of time is being spent on value added tasks.*  
+> <span class="qm">—— Chris Blackburn · [25:25]</span> ^q2
+
+> <span class="qz">所以这意味着在给定的 40 小时工作周中，平均一个人每周只花三个、三个半小时在增值活动上。</span>  
+> *So that means on the given 40-hour workweek, on average, a person is only spending three, three and a half hours a week on value-added activities.*  
+> <span class="qm">—— Chris Blackburn · [26:27]</span> ^q3
+
+> <span class="qz">地球上最复杂的组织通常最多也就是平均每月将软件交付到生产环境这种水平。</span>  
+> *The most complex organizations on the planet usually deliver software to production on average monthly at best type of thing.*  
+> <span class="qm">—— Chris Blackburn · [28:03]</span> ^q4
+
+> <span class="qz">我认为那部分将是困难的，但我认为那将是 AI 最大的机会空间所在，就是在那里的所有事情上减少人在回路。</span>  
+> *And I think that part's going to be difficult, but I think that's going to be where the biggest opportunity space is at with AI is to reduce the human in the loop on everything there.*  
+> <span class="qm">—— Chris Blackburn · [30:21]</span> ^q5
+
+> <span class="qz">最重要的事情是我们不是为他们构建，而是与他们一起构建。</span>  
+> *And that's the most important thing is we don't build for, we build with.*  
+> <span class="qm">—— Chris Blackburn · [36:26]</span> ^q6
+
+> <span class="qz">但回到这个问题，粗略估计就是把你组织的全部薪酬总成本拿来，你要把它除以二，这就是你接下来几年肯定要花的。</span>  
+> *But going back to the question, wet finger in the air is take the entire total cost of compensation for your organization and you're going to run that, divide that in half, and that's what you're going to spend for a couple of years in a row for sure.*  
+> <span class="qm">—— Chris Blackburn · [55:29]</span> ^q7
+
+> <span class="qz">我现在会非常害怕与任何这类提供商签署三年和五年的定期承诺，因为我认为事情变化得太快了。</span>  
+> *I would be scared to death to sign three and five year term commitments to a lot of these providers of any sort right now, because I think things are changing so rapidly.*  
+> <span class="qm">—— Chris Blackburn · [57:45]</span> ^q8
+
+> <span class="qz">我们什么时候走进一家企业，发现他们有一个完全准确的 CMDB，这就像是从来没有，真的从来没有。</span>  
+> *Where do we ever go into an enterprise and they have a CMDB that is completely accurate and it's like never like literally never.*  
+> <span class="qm">—— Chris Blackburn · [62:32]</span> ^q9
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「组织与领导力」挖下去**
+
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:DevOps</span>
+- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:ChatGPT</span>
+- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”]]<span class="pd-rz">同概念:ChatGPT</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
+- [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|把智能体推向生产环境:为什么标准基础设施不够用]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
+- [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|模型路由为什么还没解决：Amazon Nova 负责人的实话]]<span class="pd-rz">同概念:DevOps、人在回路 (human in the loop)</span>
+
+</div>
+</div>
+<script>
+(function(){
+  function move(){
+    var side=document.querySelector('.right.sidebar'); if(!side) return;
+    var box=null;
+    var all=document.querySelectorAll('article blockquote[data-callout]');
+    for(var i=0;i<all.length;i++){
+      if(all[i].closest('.mrel')) continue;   // C13d:页尾手机克隆块不许被当成正文关联框搬走(实测被搬空过)
+      var t=all[i].querySelector('.callout-title-inner');
+      if(t&&t.textContent.trim().indexOf('关联')===0){ box=all[i]; break; }
+    }
+    if(!box) return;
+    if(box.closest('.right.sidebar')) return;
+    var wrap=document.createElement('div');
+    wrap.className='pd-rel';
+    var h=document.createElement('h3'); h.textContent='这一集涉及';
+    wrap.appendChild(h); wrap.appendChild(box);
+    var toc=side.querySelector('.toc');
+    if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
+    else side.appendChild(wrap);
+  }
+  // C13f 第九批 #3:深浅色不再待在顶栏 —— 首页搬进左栏,集页没有左栏,搬到右栏末尾。
+  // 仍是**搬节点不重写**(🔒 #2 亮暗双模式的行为在 Quartz 手里),搬前比 parentElement 保幂等。
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts');
+    function grab(sel,host){
+      if(!host) return;
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==host) host.appendChild(el);
+    }
+    // 2026-08-15 用户条8:深浅色回顶栏,和分享/收藏/搜索一起(撤 C13f #3「深色进侧栏」)。
+    // 阅读模式仍不并入(设计稿顶栏只有分享/收藏/深色/搜索)。顺序由 custom.scss 的 order 排;
+    // 搬节点不重写(🔒#2 亮暗行为归 Quartz)。
+    ['.darkmode', '.search'].forEach(function (sel) { grab(sel, acts); });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function topbar(){
+    var bar=document.querySelector('article .pd'); if(!bar) return;
+    var qb=document.getElementById('quartz-body'); if(!qb||!qb.parentElement) return;
+    qb.parentElement.insertBefore(bar, qb);
+  }
+  // C13f:相关单集区(.pd-ex / .pd-exit)里的单集链接也在新标签页开,与首页卡片同口径。
+  // 它们是 markdown 双链、由 Quartz 渲染成 <a>,只能渲染完再打标记。
+  // ⚠️ 这段注释会原样进页面 —— 别在这里写那个区块的中文标题,
+  //    render-related 有一条守卫在断言「不传 related 时整页不出现那四个字」。
+  // data-router-ignore 是关键:Quartz SPA 判 _blank 只看事件目标本身,点到子元素会漏。
+  function newtab(){
+    document.querySelectorAll('.pd-ex a, .pd-exit a').forEach(function(a){
+      if(a.target==='_blank') return;
+      if(a.host && a.host!==location.host) return;   // 站外链接不归这条口径管
+      a.target='_blank'; a.rel='noopener'; a.dataset.routerIgnore='';
+    });
+  }
+  // 站名 logo 缺文件时摘掉 <img>,露出底下的引号标记(与首页同一条口径)
+  function logos(){
+    document.querySelectorAll('.pd .mk img').forEach(function(im){
+      if(im.__lg) return; im.__lg=1;
+      var kill=function(){ if(im.parentElement) im.remove(); };
+      if(im.complete && im.naturalWidth===0){ kill(); return; }
+      im.addEventListener('error', kill, {once:true});
+    });
+  }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  // 手机端「← 返回」= 回上一级(history.back);历史栈空(外站/新标签直开)→ 降级走 href="/" 回首页(ADR 0019)。
+  // 用委托监听而非内联 onclick:避开 CSP unsafe-inline;桌面(≥1024)不拦、走默认 href。
+  if(!window.__pdBack){ window.__pdBack=1;
+    document.addEventListener('click', function(ev){
+      var a=ev.target.closest && ev.target.closest('.pd-back'); if(!a) return;
+      if(innerWidth<1024 && history.length>1){ ev.preventDefault(); history.back(); }
+    });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  // C13d:mtoc 的 document/window 级监听只绑一次;回调每次现查当前 .mtoc(SPA 换页旧节点自然失联,不泄漏)
+  function mtocScroll(){
+    var bar=document.querySelector('.mtoc'); if(!bar||!bar.__items) return;
+    var items=bar.__items, panel=bar.querySelector('.mtm'), label=bar.querySelector('.mtl'), prog=bar.querySelector('.mtbar');
+    var off=bar.offsetHeight+24, idx=-1;
+    for(var i=0;i<items.length;i++){
+      if(items[i].el.getBoundingClientRect().top<=off) idx=i; else break;
+    }
+    if(window.scrollY>=document.body.scrollHeight-window.innerHeight-2) idx=items.length-1;
+    if(idx!==bar.__cur){
+      bar.__cur=idx;
+      label.textContent=idx<0?'':items[idx].label;
+      bar.classList.toggle('at', idx>=0);
+      panel.querySelectorAll('a').forEach(function(a,i){ a.classList.toggle('on', i===idx); });
+    }
+    var max=document.body.scrollHeight-window.innerHeight;
+    prog.style.width=(max>0?Math.min(100,Math.max(0,window.scrollY/max*100)):0)+'%';
+  }
+  if(!window.__pdMtocEvts){ window.__pdMtocEvts=1;
+    var mtocTick=false;
+    window.addEventListener('scroll', function(){
+      if(!mtocTick){ mtocTick=true; requestAnimationFrame(function(){ mtocScroll(); mtocTick=false; }); }
+    }, {passive:true});
+    document.addEventListener('click', function(e){
+      var bar=document.querySelector('.mtoc.open');
+      if(bar && !e.target.closest('.mtoc')){ bar.classList.remove('open'); var t=bar.querySelector('.mtt'); if(t) t.setAttribute('aria-expanded','false'); }
+    });
+  }
+  // C13d 手机端(移植 设计稿/m-detail.js;真站差异:顶栏不吸顶 → 吸顶条 top:0、跳转偏移只算条高;
+  // 无人物页 → 去掉 chip 形态分支;小节 = article 里带 id 的 h2,与桌面右栏目录同源)
+  function mtoc(){
+    var art=document.querySelector('article'); if(!art) return;
+    if(art.querySelector('.mtoc')) return;               // SPA nav 后 DOM 是新的;同页重跑不重复建
+    // 小节收集照设计稿口径:标题(真站是 h3 正文小节 + h2 收尾节)+ 组标 .pd-sec(金句区与相关区的组标;
+    // ⚠️ 本注释会原样进页面,守卫测试断言「无相关集时页面不出现那个区块的中文标题」——别在这里写它),
+    // 无 id 就发一个,再按文档序排 —— 设计稿当年也是 h2 + .sec 混收
+    var items=[];
+    [].forEach.call(art.querySelectorAll('h2[id], h3[id]'), function(h){
+      items.push({el:h,label:h.textContent.trim()});
+    });
+    [].forEach.call(art.querySelectorAll('.pd-sec'), function(sec,i){
+      if(!sec.id) sec.id='pdsec'+i;
+      var t=(sec.firstChild && sec.firstChild.nodeType===3 ? sec.firstChild.textContent : sec.textContent).trim();
+      items.push({el:sec,label:t});
+    });
+    if(items.length<2) return;
+    items.sort(function(a,b){ return a.el.compareDocumentPosition(b.el) & 4 ? -1 : 1; });
+    // 不用 innerHTML(守卫测试拦它防「搬节点」被偷换成重写)—— 这里全是自造新壳,逐个 createElement
+    function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt)e.textContent=txt; return e; }
+    var bar=el('div','mtoc');
+    var toggle=el('button','mtt'); toggle.type='button'; toggle.setAttribute('aria-expanded','false');
+    var mtk=el('span','mtk','目录'), label=el('span','mtl'), caret=el('i','','⌄');
+    toggle.appendChild(mtk); toggle.appendChild(label); toggle.appendChild(caret);
+    var panel=el('div','mtm'), prog=el('span','mtbar');
+    bar.appendChild(toggle); bar.appendChild(panel); bar.appendChild(prog);
+    items.forEach(function(it,i){
+      var a=document.createElement('a'); a.href='#'+it.el.id; a.dataset.i=i; a.textContent=it.label;
+      panel.appendChild(a);
+    });
+    // 就地插在第一节之前 → 滚到这里才吸顶(第一屏留给标题/播放条/钩子)
+    items[0].el.parentElement.insertBefore(bar, items[0].el);
+    bar.__items=items; bar.__cur=-1;   // 状态挂节点上:单例监听每次现查当前条,旧节点随 SPA 换页自然失联
+    toggle.addEventListener('click', function(){
+      var open=bar.classList.toggle('open'); toggle.setAttribute('aria-expanded', open?'true':'false');
+    });   // toggle/panel 的监听挂在自家节点上,随节点销毁,不泄漏
+    panel.addEventListener('click', function(e){
+      var a=e.target.closest('a'); if(!a) return;
+      e.preventDefault();
+      var it=items[+a.dataset.i];
+      window.scrollTo({top:it.el.getBoundingClientRect().top+window.scrollY-bar.offsetHeight-8, behavior:'smooth'});
+      bar.classList.remove('open'); toggle.setAttribute('aria-expanded','false');
+    });
+    mtocScroll();
+    // 页尾「这一集涉及」:克隆右栏里的关联框**本体**(同源不漂移;目录已被吸顶条取代不克隆)。
+    // 不克隆 .pd-rel 外壳 —— 实测撞过一次空壳(壳先建、框后搬,克隆到只有标题的半成品);
+    // 直接选框本身 + 「必须真有链接」守卫,拿不到内容宁可不出块。
+    var box=document.querySelector('.right.sidebar .pd-rel blockquote[data-callout]');
+    if(box && box.querySelector('a') && !art.querySelector('.mrel')){
+      var wrap=el('div','mrel');
+      wrap.appendChild(el('h3','','这一集涉及'));
+      wrap.appendChild(box.cloneNode(true));
+      art.appendChild(wrap);
+    }
+  }
+  // C13j 补遗:实体页关联药丸集数徽标(设计稿 .chp b)。数据 = 页内 script.pd-epn(构建期与 phero 同源);
+  // 从**当前页 DOM** 现读 —— SPA 换页不重跑新页内联脚本,闭包里的旧数据会漏配新页(实测),读 DOM 才与页同步。
+  // ③ 的药丸段 = 「标题→说明段→链接段」的第二个 p(与 custom.scss 药丸选择器同口径);④ 在 .pd-peers 里,天然不吃徽标。
+  function chips(){
+    var el=document.querySelector('article script.pd-epn'); if(!el) return;
+    var d; try{ d=JSON.parse(el.textContent); }catch(e){ return; }
+    var as=document.querySelectorAll('article h2 + p + p > a.internal');
+    for(var i=0;i<as.length;i++){
+      var a=as[i]; if(a.querySelector('b')) continue;
+      var n=d[(a.textContent||'').trim()];
+      if(n){ var b=document.createElement('b'); b.textContent=n+' 集'; a.appendChild(b); }
+    }
+  }
+  // C13j 补遗:右栏目录第四节改叫「④ 同主题的人」(设计稿右栏叫法比正文小节标题短;
+  // ⚠️ 本注释会原样进页面,别在这里写正文那个小节的中文标题 —— 守卫测试在拿它查空壳);非实体页无 ④,天然 no-op
+  function tocPeers(){
+    var links=document.querySelectorAll('.toc a');
+    for(var i=0;i<links.length;i++){
+      var t=(links[i].textContent||'').trim();
+      if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
+    }
+  }
+  // 手机端顶栏左上角:站内点进来的显「← 返回」,外部/分享链接直开的显 站名+logo(ADR 0019 补充,
+  // 用户 2026-08-16 手机 #12)。判据 = document.referrer 是不是本站 origin;SPA 换页 referrer 不更新,
+  // 故再兜一条「站内换过页没」。
+  // ⚠️ 原兜底用 history.length>1 —— 手机/微信内置浏览器分享链接直开也常 >1(会话预置历史),误判成站内、
+  //    害得分享页顶上显返回键而非站名(用户 2026-08-29 报)。改用「站内换过页没」判断。
+  //    状态挂 window 而非模块级 var(GLM 011[1]):Quartz SPA 换页可能重执行本段脚本,var 会每次重置成当前
+  //    pathname → spaNavigated 永远置不了 true。window 上用「未设置才记」守卫,只在**第一次**记真·落地路径,
+  //    重执行/换页都存活;__pdSpa 一旦置 true 就 sticky。referrer 用整 origin 比对(new URL),防
+  //    「本站origin.evil.com」前缀欺骗(GLM 011[2])。
+  if (window.__pdLanding == null) window.__pdLanding = location.pathname; // == null 兼捕未设置态,且不把该字面量带进页面(既有「页面无脏词」闸门)
+  function pdSameOrigin(u){ try { return new URL(u).origin === location.origin; } catch (e) { return false; } }
+  function direct(){
+    if (location.pathname !== window.__pdLanding) window.__pdSpa = true; // 跳到别的页 = 站内导航(sticky)
+    var fromSite = pdSameOrigin(document.referrer || '') || window.__pdSpa === true;
+    document.body.classList.toggle('pd-direct', !fromSite);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); direct(); }
+  document.addEventListener('nav', all);
+  // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
+  var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
+})();
+</script>
+
+<script>
+(function(){
+  function fmt(s){
+    if(!isFinite(s)||s<0) s=0;
+    var m=Math.floor(s/60), x=Math.floor(s%60);
+    return (m<10?'0':'')+m+':'+(x<10?'0':'')+x;
+  }
+  function wire(box){
+    if(box.dataset.wired) return; box.dataset.wired='1';
+    var a=box.querySelector('audio'), pb=box.querySelector('.pb'),
+        bar=box.querySelector('.bar'), fill=box.querySelector('.bar > i'),
+        tm=box.querySelector('.tm'), t2=box.querySelector('.t2');
+    if(!a||!pb||!bar||!fill||!tm) return;
+    var total=0;
+    function paint(){
+      var cur=a.currentTime||0;
+      fill.style.width=(total?(cur/total*100):0)+'%';
+      tm.textContent=fmt(cur)+(total?' / '+fmt(total):'');
+    }
+    a.addEventListener('loadedmetadata',function(){
+      total=a.duration||0;
+      if(total&&t2) t2.textContent=Math.round(total/60)+' 分钟 · AI 合成朗读';
+      paint();
+    });
+    a.addEventListener('timeupdate',paint);
+    a.addEventListener('play',function(){ pb.textContent='❚❚'; pb.setAttribute('aria-label','暂停'); });
+    a.addEventListener('pause',function(){ pb.textContent='▶'; pb.setAttribute('aria-label','播放'); });
+    a.addEventListener('ended',function(){ pb.textContent='▶'; });
+    pb.addEventListener('click',function(){ if(a.paused) a.play(); else a.pause(); });
+    function seek(ev){
+      if(!total) return;
+      if(ev.clientX==null) return;
+      var r=bar.getBoundingClientRect();
+      var x=Math.min(Math.max(ev.clientX-r.left,0),r.width);
+      a.currentTime=(x/r.width)*total;
+      paint();
+    }
+    bar.addEventListener('pointerdown',function(ev){
+      seek(ev);
+      function mv(e){ seek(e); }
+      function up(){ document.removeEventListener('pointermove',mv); document.removeEventListener('pointerup',up); }
+      document.addEventListener('pointermove',mv); document.addEventListener('pointerup',up);
+    });
+    a.addEventListener('error',function(){
+      box.classList.add('pd-play-dead');
+      box.textContent='本集中文精华音频还没生成好,稍后再来听。';
+    });
+  }
+  function all(){ document.querySelectorAll('.pd-play').forEach(wire); }
+  document.addEventListener('nav', all);
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
+})();
+</script>

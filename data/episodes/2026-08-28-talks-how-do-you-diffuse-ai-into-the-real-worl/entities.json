@@ -1,0 +1,679 @@
+{
+  "episode_id": "2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "AI 落地",
+    "智能体自主性阶梯",
+    "服务行业数字化",
+    "现实世界数据",
+    "学习循环"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "varun-shenoy",
+      "type": "person",
+      "role": "guest",
+      "name": "Varun Shenoy",
+      "file": "Varun Shenoy",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "longlake",
+      "type": "company",
+      "role": "company",
+      "name": "LongLake",
+      "file": "LongLake",
+      "primary": true,
+      "how_described": "本集说 LongLake 不卖软件，而是收购和合作运营物业管理、建筑、人力资源等领域真实服务业务的公司，目前已收购 35 家企业，自己是运营者所有者而非供应商",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.332,
+            16.633
+          ],
+          "quote": "I'm one of the co-founders at LongLake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            180.45,
+            181.611
+          ],
+          "quote": "We are LongLake.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体放在一个自主性谱系上讨论：从副驾驶到同步智能体、异步智能体、长期运行智能体，最终到 AI 同事，强调必须一步步爬这个阶梯不能跳级",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            46.79,
+            54.995
+          ],
+          "quote": "Think of the agent automatically booking a flight, the agent automatically completing a ticket in some kind of customer service portal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            55.776,
+            59.659
+          ],
+          "quote": "Think of an agent completing a block of code ready to commit and go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            327.112,
+            330.136
+          ],
+          "quote": "There's a spectrum of how much autonomy you can give an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            344.166,
+            346.027
+          ],
+          "quote": "The second step is a synchronous agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            362.298,
+            365.921
+          ],
+          "quote": "So the next obvious rung of the ladder is the asynchronous agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            369.039,
+            373.062
+          ],
+          "quote": "The agent will go off into the background, do some work, and then come back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            381.389,
+            390.357
+          ],
+          "quote": "Maybe someone completes a certain task and there is an async job queue that allows the async agent to pull off from and proactively offer advice to the end user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            392.08,
+            394.942
+          ],
+          "quote": "Then I'd argue the next step is a long-running agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            462.661,
+            466.243
+          ],
+          "quote": "So what does the, for example, synchronous agent for code generation look like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            468.124,
+            472.687
+          ],
+          "quote": "This is just your coding agent, maybe it's Codex, Claude Code, just running on your desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            479.483,
+            483.205
+          ],
+          "quote": "The next step is if you look at code generation, what is the async agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            486.287,
+            490.951
+          ],
+          "quote": "You take the exact same coding agent, you wrap it in a sandbox, and you just let it go run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            515.828,
+            521.552
+          ],
+          "quote": "Now when we come to services, the equivalent of a synchronous agent, what we talked about a little bit earlier, it's a co-working agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            521.732,
+            524.134
+          ],
+          "quote": "It's an agent that has deep context about your enterprise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            536.255,
+            540.218
+          ],
+          "quote": "What does it mean to build an asynchronous agent for the services?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            605.769,
+            611.597
+          ],
+          "quote": "Just because you have one way of launching an async agent for code doesn't mean that same way is going to work for architecture or property management.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            836.145,
+            838.768
+          ],
+          "quote": "How do you make an agent better over time with feedback?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            872.381,
+            875.482
+          ],
+          "quote": "The agent only improves if people actually use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            877.18,
+            879.822
+          ],
+          "quote": "And people only use the agent if it's worth adopting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            883.625,
+            888.309
+          ],
+          "quote": "More usage drives continual learning, which drives a better agent, which drives more usage again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "asynchronous-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "异步智能体 (asynchronous agent)",
+      "file": "异步智能体",
+      "primary": true,
+      "how_described": "本集说异步智能体可以进后台干活，而且触发它的不一定是人、可以是外部事件；在服务行业把传统串行工作并行化是每天最兴奋想解决的核心难题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            362.298,
+            365.921
+          ],
+          "quote": "So the next obvious rung of the ladder is the asynchronous agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            536.255,
+            540.218
+          ],
+          "quote": "What does it mean to build an asynchronous agent for the services?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "synchronous-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "同步智能体 (synchronous agent)",
+      "file": "同步智能体",
+      "primary": true,
+      "how_described": "本集说同步智能体是实时的双向互动，像 Claude Code、Codex 那样可以放手跑一两分钟、调用工具，但仍然需要人介入触发查询",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            344.166,
+            346.027
+          ],
+          "quote": "The second step is a synchronous agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            462.661,
+            466.243
+          ],
+          "quote": "So what does the, for example, synchronous agent for code generation look like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            515.828,
+            521.552
+          ],
+          "quote": "Now when we come to services, the equivalent of a synchronous agent, what we talked about a little bit earlier, it's a co-working agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-coworker",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 同事 (AI coworker)",
+      "file": "AI 同事",
+      "primary": true,
+      "how_described": "本集把 AI 同事称为阶梯顶端的圣杯——主动在你身边干活的伙伴，但强调不能一上来就跳到这一步，必须先从副驾驶逐步爬上来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            408.129,
+            412.171
+          ],
+          "quote": "And then finally, at the end, the holy grail, an AI coworker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            917.858,
+            929.282
+          ],
+          "quote": "You could have the best AI coworker on the internet or on Earth, and if the person who's closed the books for the last 20 years continues to do things the same way, nothing changes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说在代码领域，把同样的编码智能体包装在沙箱里让它自己构建、测试、最终提交 PR，这就是异步智能体的实现方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            486.287,
+            490.951
+          ],
+          "quote": "You take the exact same coding agent, you wrap it in a sandbox, and you just let it go run.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说他们在内部对企业独有的、对前沿实验室完全分布外的真实服务业务数据进行后训练，让模型能完成结账、划范围等任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            734.586,
+            742.69
+          ],
+          "quote": "Two, we've started post-training models internally on all of the data that these businesses operate on and produce, generally speaking.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continual-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continual learning)",
+      "file": "持续学习",
+      "primary": true,
+      "how_described": "本集说持续学习是通过反馈让智能体随时间推移变得更好，并与企业赋能是同一个循环——更多使用推动持续学习，更好的智能体又推动更多使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            834.324,
+            835.585
+          ],
+          "quote": "One, it's continual learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            838.788,
+            845.033
+          ],
+          "quote": "I think there are plenty of sessions this week on how you can use continual learning, whether it's in the prompt or in the waits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            858.115,
+            861.417
+          ],
+          "quote": "The continual learning is owned by your research team, your platform engineering team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            883.625,
+            888.309
+          ],
+          "quote": "More usage drives continual learning, which drives a better agent, which drives more usage again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "real-world-evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "现实世界的评估 (real-world evals)",
+      "file": "现实世界的评估",
+      "primary": true,
+      "how_described": "本集说他们用智能体干真实活儿收集的轨迹来构建现实世界的评估，地面真值很明确——比如屋顶修好了没、账结清了没，每周爬山基准变成回归测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            668.642,
+            671.704
+          ],
+          "quote": "This in turn allows us to build real-world evals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "副驾驶 (Copilot)",
+      "file": "副驾驶",
+      "primary": false,
+      "how_described": "本集说副驾驶是智能体自主性谱系最底层，就是两年前的简单 RAG 聊天机器人，问它答、非常快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            331.097,
+            332.639
+          ],
+          "quote": "On the left here, you see a Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            352.231,
+            354.193
+          ],
+          "quote": "It's a bit more sophisticated than a Copilot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "long-running-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "长期运行的智能体 (long-running agent)",
+      "file": "长期运行的智能体",
+      "primary": false,
+      "how_described": "本集说长期运行的智能体是能工作数小时、数天、数周甚至数月的智能体，是目前很多实验室关注的核心问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            392.08,
+            394.942
+          ],
+          "quote": "Then I'd argue the next step is a long-running agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": false,
+      "how_described": "本集说编码智能体非常擅长写代码，与其等模型学会服务行业的知识工作，不如把知识工作表示成代码来利用编码智能体的能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            468.124,
+            472.687
+          ],
+          "quote": "This is just your coding agent, maybe it's Codex, Claude Code, just running on your desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            486.287,
+            490.951
+          ],
+          "quote": "You take the exact same coding agent, you wrap it in a sandbox, and you just let it go run.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "enablement",
+      "type": "concept",
+      "role": "concept",
+      "name": "赋能 (enablement)",
+      "file": "赋能",
+      "primary": false,
+      "how_described": "本集说赋能是如何进入企业并真正让他们采用和使用 AI，传统上由增长或客户体验团队负责，与本集认为应与持续学习合为同一循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            594.395,
+            598.5
+          ],
+          "quote": "And finally, how do you move up the ladder here, both in terms of product and user enablement?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            846.251,
+            847.351
+          ],
+          "quote": "And two, enablement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            861.777,
+            865.398
+          ],
+          "quote": "Enablement's owned by growth or deployment or customer experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            968.595,
+            979.998
+          ],
+          "quote": "We need to meet the people within these companies both metaphorically, for example, bringing products to their systems so that the energy required for enablement is kept low, and also physically.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "american-express-global-business-travel",
+      "type": "company",
+      "role": "company",
+      "name": "American Express Global Business Travel",
+      "file": "American Express Global Business Travel",
+      "primary": false,
+      "how_described": "本集提到 LongLake 以 63 亿美元对其进行了私有化收购，称其为世界上最大的企业旅行平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            245.504,
+            254.945
+          ],
+          "quote": "And just to show you the scale we're playing at, we announced recently our $6.3 billion take private of American Express Global Business Travel, the world's largest corporate travel platform.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集将其作为同步智能体的参照例子，说它是运行在桌面上的编码智能体，可以实时协作、获得即时反馈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            346.107,
+            349.43
+          ],
+          "quote": "Consider something like Claude Code, Codex, ClaudeCowork.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            468.124,
+            472.687
+          ],
+          "quote": "This is just your coding agent, maybe it's Codex, Claude Code, just running on your desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            895.996,
+            903.182
+          ],
+          "quote": "I think a lot of people will use Claude Code or give it to their whole enterprise and expect folks to just start using it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集将其与 Claude Code 并列作为同步智能体的例子，也是编码智能体的代表",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            346.107,
+            349.43
+          ],
+          "quote": "Consider something like Claude Code, Codex, ClaudeCowork.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            468.124,
+            472.687
+          ],
+          "quote": "This is just your coding agent, maybe it's Codex, Claude Code, just running on your desktop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

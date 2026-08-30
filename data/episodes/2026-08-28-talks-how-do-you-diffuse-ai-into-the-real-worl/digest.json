@@ -1,0 +1,142 @@
+{
+  "title_zh": "LongLake：把AI塞进真实服务业务的笨办法",
+  "tldr": "LongLake 联合创始人 Varun 讲他们收购35家企业后，如何让AI在物业管理、建筑等传统行业真正落地干活。",
+  "digest_md": "这一集是 LongLake 的联合创始人 Varun 在讲他们怎么把 AI 塞进真实的服务业务里。LongLake 不卖软件，而是直接收购和合作运营物业管理、建筑、人力资源等领域的企业，目前已经收购了 35 家。他们的核心逻辑是：自己当运营者，AI 不干活就是自己的问题，不是客户的问题。\n\nVarun 先抛了一个类比：电力 1880 年代就有了，但福特工厂到 1924 年才完成电气化装配线——你得拆掉旧设备、引进新设备、培训所有人。通用技术的扩散需要一代人，AI 也一样。模型会越来越好，但怎么让它们在现实里完成真实任务，才是未来 20 年最重要的问题 [02:33 Unknown]。\n\n## 从副驾驶到同事：别一上来就跳到终点\n\nVarun 画了一个智能体自主性的阶梯：最底层是副驾驶（就是两年前的 RAG 聊天机器人，你问它答），往上是同步智能体（像 Claude Code、Codex，你能放手让它跑一两分钟，调用工具，但还是你在触发），再往上是异步智能体（它可以进后台干活，而且触发它的不一定是人，可以是外部事件），然后是长期运行的智能体（跑几小时、几天甚至几个月），最顶层是 AI 同事——主动在你身边干活的伙伴 [05:27 Unknown]。\n\n关键洞见是：**你必须一步步爬这个阶梯，不能跳** [07:02 Unknown]。原因有两个——某些任务模型还做不到，更重要的是你得跟现场的人密切互动迭代，让他们理解这是 AI 的起点，后续会逐步升级。\n\n他用代码智能体当参照物来说明这个阶梯在服务行业有多难。代码领域的同步智能体就是桌面上跑的编码助手，异步智能体也基本解决了——把同样的编码智能体扔进沙箱，让它自己构建、测试，完了交一个 PR（代码提交请求）。工程师本来就习惯并行干活，同时开 10 个任务、不关心谁先完成，所以用异步智能体很自然 [08:16 Unknown]。\n\n但服务行业不一样。工作传统上是串行的——人一封一封清理邮件，不会一次清 10 封。在服务行业做异步智能体、把串行工作并行化，是他们每天早上醒来最兴奋想的事 [09:08 Unknown]。而且各行业的形态差异巨大，代码领域的异步方案不能直接搬去建筑或物业管理 [10:05 Unknown]。\n\n他们还在琢磨一个方向：模型是在代码上训练的，天然想写代码、擅长写代码。与其等模型学会做服务行业的知识工作，不如**把知识工作表示成代码**，直接利用编码智能体的能力 [09:32 Unknown]。\n\n## 现实世界的数据：异常就是工作本身\n\n前沿模型学过了人类写下来的所有东西，但最有价值的任务不在互联网上。怎么在缺收据的情况下结账？怎么在蓝图中给建筑施工划范围？怎么协调供应商修破损的屋顶？这些知识在人脑子里、在 20 年前的软件里、在某个老员工的经验里 [10:26 Unknown]。\n\n他们搭了一个飞轮：让智能体跟员工协作干真实活儿，收集完整的操作轨迹——工具调用、卡顿、小麻烦、所有出错的地方。这反过来让他们能构建**现实世界的评估**：地面真值很明确——屋顶修好了没？账结清了没？[11:12 Unknown] 然后用这些评估做爬山优化，造出更好的智能体，产生更大影响。每周，上周的爬山基准就变成回归测试，智能体越跑越好 [11:29 Unknown]。\n\n收集这些轨迹有三个收获：第一，自动构建和评分的评估，同时收集显性反馈（点赞点踩、文字备注）和隐性反馈（AI 生成的数据和最终提交的数据之间的差异，这是几乎没人有的信息）[12:02 Unknown]；第二，用这些企业独有的、对前沿实验室完全分布外的数据做内部后训练 [12:14 Unknown]；第三，针对每家公司、每个用户、每个客户做深度定制，因为现实世界极其混乱，每家公司的做法都不一样 [12:43 Unknown]。\n\nVarun 放了一张图：我们通常想象 LLM 任务是一个斜坡，骑着自行车就能看到终点。但真实工作是有山丘有沟壑的，是被一千次纸割伤致死的过程。**异常不是例外，异常就是工作本身** [13:33 Unknown]。\n\n## 学习循环：持续学习和赋能是同一件事\n\n2026 年的两个热门趋势：持续学习（通过反馈让智能体越用越好）和企业赋能（让企业真正用上 AI）。传统上这两个事分属不同团队——研究团队管持续学习，增长或客户体验团队管赋能，彼此孤立 [14:13 Unknown]。\n\nVarun 认为它们是同一个循环：智能体只有被用了才会变好，人只有觉得好用才会用 [14:32 Unknown]。更多使用推动持续学习，更好的智能体又推动更多使用，这是一个雪球。\n\n但房间里的大象是：**最初的使用量从哪来？** [14:53 Unknown] 你不能指望把 Claude Code 丢给企业，大家就开始用。让一家百年公司改变流程极其困难——你可能有地球上最好的 AI 同事，但如果结了 20 年账的那个人继续用老办法，什么都不会发生 [15:17 Unknown]。\n\n他们的解法叫\"极端的软件服务协同设计\"，借的是 Jensen（把芯片和软件当一个系统协同设计）的思路 [15:40 Unknown]。具体做法有两层：隐喻层面，把产品原生嵌进对方已经在用的系统——Excel、ERP、3D 设计软件、Outlook、Gmail——降低启用门槛 [16:26 Unknown]；物理层面，**人必须到场**。坐飞机去现场，做午餐学习会，去他们的会议摆摊，一起去山地骑行聊日常工作里的困难，一对一甚至二对一教他们用工具、收集反馈 [16:38 Unknown]。\n\n他的结论很直接：你没办法通过 Zoom 或支持工单跟一个服务业务做软件协同设计。**为了让 AI 扩散真正发生，你必须接触草地** [17:17 Unknown]。\n\n## 本集带走\n- **智能体自主性要一步步爬**：从副驾驶→同步智能体→异步智能体→长期运行→AI 同事，不能跳级，模型能力和人的接受度都要跟上来。\n- **服务行业的异步化是核心难题**：代码领域工程师天然习惯并行，但服务行业工作传统上串行，把串行工作并行化的机制还没被解决。\n- **把知识工作表示成代码**：与其等模型学会服务行业的知识工作，不如利用模型已有的代码能力，把知识工作转译成代码形式让智能体执行。\n- **异常就是工作本身**：现实世界的任务不是斜坡骑车，是山丘沟壑加一千次纸割；针对每家公司、每个用户、每个客户的定制是必须的。\n- **持续学习和企业赋能是同一个循环**：智能体被用了才能变好，变好了人才会用——先解决\"第一波使用量从哪来\"。\n- **AI 落地必须人到场**：产品要嵌进对方已有的系统降低门槛，同时必须物理到场——去现场、建立关系、手把手教，Zoom 和工单不够。",
+  "quotes": [
+    {
+      "en": "Diffusion of any technology takes a generation.",
+      "zh": "任何技术的扩散都需要一代人。",
+      "timestamp": "02:29",
+      "speaker": "Varun Shenoy"
+    },
+    {
+      "en": "I would argue AI diffusion is perhaps the single most important problem for the next 20 years.",
+      "zh": "我认为 AI 的扩散也许是未来 20 年唯一最重要的问题。",
+      "timestamp": "02:36",
+      "speaker": "Varun Shenoy"
+    },
+    {
+      "en": "So when the AI doesn't work, it's not their problem. We're not the vendor. It's our problem.",
+      "zh": "所以当 AI 不工作时，这不是他们的问题。我们不是供应商。这是我们的问题。",
+      "timestamp": "04:19",
+      "speaker": "Varun Shenoy"
+    },
+    {
+      "en": "Rather than wait for the models to catch up on doing services knowledge work, what if we just use that code knowledge and represent knowledge work as code?",
+      "zh": "与其等待模型赶上做服务知识工作，如果我们只是使用那些代码知识并将知识工作表示为代码会怎么样？",
+      "timestamp": "09:35",
+      "speaker": "Varun Shenoy"
+    },
+    {
+      "en": "Frontier models have learned from everything humanity has written down, but the most valuable tasks are not on the internet.",
+      "zh": "前沿模型已经从人类记录下来的一切中学习，但最有价值的任务并不在互联网上。",
+      "timestamp": "10:18",
+      "speaker": "Varun Shenoy"
+    },
+    {
+      "en": "Maybe there's some data that the AI generated. And there's a real diff between the data that the AI generated and what was ultimately submitted. That's rich information that almost no one else has.",
+      "zh": "也许有一些是 AI 生成的数据。并且在 AI 生成的数据和最终提交的数据之间存在真正的差异。这是几乎其他人都没有的丰富信息。",
+      "timestamp": "12:02",
+      "speaker": "Varun Shenoy"
+    },
+    {
+      "en": "You could have the best AI coworker on the internet or on Earth, and if the person who's closed the books for the last 20 years continues to do things the same way, nothing changes.",
+      "zh": "你可能拥有互联网上或地球上最好的 AI 同事，如果过去 20 年一直结账的那个人继续以同样的方式做事，什么都不会改变。",
+      "timestamp": "15:17",
+      "speaker": "Varun Shenoy"
+    },
+    {
+      "en": "You cannot co-design software with a services business over Zoom or over a support ticket.",
+      "zh": "你无法通过 Zoom 或通过支持工单与服务业务进行软件协同设计。",
+      "timestamp": "17:06",
+      "speaker": "Varun Shenoy"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:24",
+      "speaker": "Unknown",
+      "en": "You would expect AI to show up by now, but the reality is nothing has changed at all.",
+      "zh": "你可能到现在会预期 AI 出现，但现实是什么都没有改变。"
+    },
+    {
+      "timestamp": "02:29",
+      "speaker": "Unknown",
+      "en": "Diffusion of any technology takes a generation.",
+      "zh": "任何技术的扩散都需要一代人。"
+    },
+    {
+      "timestamp": "02:33",
+      "speaker": "Unknown",
+      "en": "I would argue AI diffusion is perhaps the single most important problem for the next 20 years.",
+      "zh": "我认为 AI 的扩散也许是未来 20 年唯一最重要的问题。"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Unknown",
+      "en": "So when the AI doesn't work, it's not their problem. We're not the vendor. It's our problem.",
+      "zh": "所以当 AI 不工作时，这不是他们的问题。我们不是供应商。这是我们的问题。"
+    },
+    {
+      "timestamp": "07:02",
+      "speaker": "Unknown",
+      "en": "But what we've learned from owning the outcomes in this business is you have to earn the right to do more.",
+      "zh": "但是我们从拥有这项业务的成果中学到的是，你必须获得做更多事情的权利。"
+    },
+    {
+      "timestamp": "09:32",
+      "speaker": "Unknown",
+      "en": "Rather than wait for the models to catch up on doing services knowledge work, what if we just use that code knowledge and represent knowledge work as code?",
+      "zh": "与其等待模型赶上做服务知识工作，如果我们只是使用那些代码知识并将知识工作表示为代码会怎么样？"
+    },
+    {
+      "timestamp": "10:18",
+      "speaker": "Unknown",
+      "en": "Frontier models have learned from everything humanity has written down, but the most valuable tasks are not on the internet.",
+      "zh": "前沿模型已经从人类记录下来的一切中学习，但最有价值的任务并不在互联网上。"
+    },
+    {
+      "timestamp": "12:02",
+      "speaker": "Unknown",
+      "en": "Maybe there's some data that the AI generated. And there's a real diff between the data that the AI generated and what was ultimately submitted. That's rich information that almost no one else has.",
+      "zh": "也许有一些是 AI 生成的数据。并且在 AI 生成的数据和最终提交的数据之间存在真正的差异。这是几乎其他人都没有的丰富信息。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Unknown",
+      "en": "The exceptions are the job.",
+      "zh": "异常就是工作。"
+    },
+    {
+      "timestamp": "14:32",
+      "speaker": "Unknown",
+      "en": "The agent only improves if people actually use it. And people only use the agent if it's worth adopting.",
+      "zh": "只有当人们真正使用它时，智能体才会改进。而且人们只有在值得采用的时候才会使用该智能体。"
+    },
+    {
+      "timestamp": "15:17",
+      "speaker": "Unknown",
+      "en": "You could have the best AI coworker on the internet or on Earth, and if the person who's closed the books for the last 20 years continues to do things the same way, nothing changes.",
+      "zh": "你可能拥有互联网上或地球上最好的 AI 同事，如果过去 20 年一直结账的那个人继续以同样的方式做事，什么都不会改变。"
+    },
+    {
+      "timestamp": "16:02",
+      "speaker": "Unknown",
+      "en": "And I'd argue this is only possible from being within under the same roof.",
+      "zh": "而且我认为这只有在同一个屋檐下才可能实现。"
+    },
+    {
+      "timestamp": "17:06",
+      "speaker": "Unknown",
+      "en": "You cannot co-design software with a services business over Zoom or over a support ticket.",
+      "zh": "你无法通过 Zoom 或通过支持工单与服务业务进行软件协同设计。"
+    },
+    {
+      "timestamp": "17:17",
+      "speaker": "Unknown",
+      "en": "In order to get AI diffusion to work, you have to touch some grass.",
+      "zh": "为了让 AI 扩散发挥作用，你必须接触草地。"
+    }
+  ],
+  "voice_script": "你敢不敢直接收购 35 家传统企业，就为了把 AI 塞进去干活？这期我们聊聊 LongLake 的联合创始人 Varun，是怎么用这种最笨的办法，让 AI 在物业管理、建筑这些行业真正落地的。\n\nLongLake 不卖软件，直接收购和合作运营企业，现在已经拿了 35 家。为什么这么干？说白了就是一句话：AI 不干活，那是自己的问题，不是客户的问题。\n\nVarun 打了个特别有意思的比方。电力 1880 年代就有了，但福特工厂到 1924 年才搞定电气化装配线。你得拆旧设备、进新设备、培训所有人。任何技术的扩散都需要一代人，AI 也一样。模型会越来越好，但怎么让模型在现实里完成真实任务，这恐怕是未来 20 年最重要的问题。\n\n那怎么让 AI 干活？这里有个反常识的地方，千万别一上来就想跳到终点。\n\nVarun 画了一个阶梯。最底下是副驾驶，就是两年前那种你问它答的聊天机器人；往上是同步智能体，像 Claude Code，能放手跑一两分钟；再往上，是进后台干活的异步智能体；然后是跑几天的长期智能体；最顶上，才是真正主动干活的 AI 同事。\n\n关键来了，必须一步步爬，不能跳。为啥？有些任务模型还干不了，更关键的是，你得跟现场的人密切互动，让人知道这只是起点，后面还会升级。\n\n拿写代码举个例子。程序员本来就习惯同时开 10 个任务，谁先完成无所谓，所以用异步智能体特别顺。但服务行业完全不一样。工作传统上是串行的，一封一封清邮件，不会一次清 10 封。怎么把这种串行工作并行化？这是每天早上醒来最让人兴奋的事。而且每个行业差别太大，代码领域的异步方案根本搬不到建筑或者物业管理去用。\n\n这里有个思路特别妙。模型天生擅长写代码，与其傻等模型学会做服务行业的知识工作，不如反过来，把知识工作转译成代码，直接利用编码智能体的能力。\n\n可是现实世界的数据，根本不在互联网上。怎么在缺收据的情况下结账？怎么协调供应商修破损的屋顶？这些知识全在人脑子里，在 20 年前的老软件里。\n\n怎么办？他们搭了一个飞轮。让智能体跟员工一起干真实活儿，收集完整的操作轨迹——卡在哪儿了、哪儿出错了。然后做现实世界的评估，标准特别朴素：屋顶修好了没？账结清了没？拿这些评估做优化，每周把上周的基准变成回归测试，智能体越跑越好。\n\n这里有个细节特别值得记。收集轨迹能拿到一种几乎没人有的信息：AI 生成的数据，和最终提交的数据之间的差异。这等于隐性的反馈，太宝贵了。\n\nVarun 放了一张图说，我们总以为 AI 任务是个斜坡，骑着自行车就能看到终点。但真实工作是有山丘有沟壑的，是被一千次纸割伤致死的过程。异常不是例外，异常就是工作本身。\n\n那问题来了，怎么让一家百年公司改变流程？哪怕你有地球上最好的 AI 同事，只要结了 20 年账的那个人继续用老办法，什么都不会发生。\n\n这里牵出一个特别通透的洞见：持续学习，和企业赋能，其实是同一个循环。智能体只有被用了才会变好，人只有觉得好用才会用。但房间里的大象是，最初的使用量从哪来？\n\n解法叫“极端的软件服务协同设计”。两层：隐喻层面，把产品直接嵌进对方已经在用的系统，Excel、ERP、Outlook，降低启用门槛；物理层面，人必须到场。坐飞机去现场，做午餐学习会，去开会摆摊，甚至一起去山地骑行，聊日常工作里的困难，一对一、二对一手把手教。\n\n结论很直接：你没办法通过 Zoom 或者支持工单，跟一个服务业务做协同设计。为了让 AI 扩散真正发生，你必须接触草地。"
+}

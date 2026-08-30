@@ -29,7 +29,7 @@ unlisted: true
 
 [[Keith Rabois]] · [[点图]] · [[Rory O'Driscoll]] · [[Lenny]] · [[DAU]] · [[Jason Lemkin]] · [[Square]] · [[队列留存曲线]] · [[Harry Stebbings]] · [[Faire]]
 
-<script type="application/json" class="pd-epn">{"Keith Rabois":1,"点图":1,"Rory O'Driscoll":1,"Lenny":65,"DAU":1,"Jason Lemkin":2,"Square":3,"队列留存曲线":1,"Harry Stebbings":7,"Faire":1}</script>
+<script type="application/json" class="pd-epn">{"Keith Rabois":1,"点图":1,"Rory O'Driscoll":1,"Lenny":66,"DAU":1,"Jason Lemkin":2,"Square":3,"队列留存曲线":1,"Harry Stebbings":7,"Faire":1}</script>
 
 <script>
 (function(){

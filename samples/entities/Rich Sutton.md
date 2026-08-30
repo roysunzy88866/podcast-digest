@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
+[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":1,"大世界假说":1,"持续学习":4,"合成数据":4,"灾难性遗忘":2,"持续反向传播":1,"大语言模型":1,"智能体":156,"强化学习":13}</script>
+<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":1,"大世界假说":1,"持续学习":5,"合成数据":4,"灾难性遗忘":2,"持续反向传播":1,"大语言模型":1,"智能体":158,"强化学习":13}</script>
 
 <script>
 (function(){

@@ -114,8 +114,8 @@ Jeanne 认为，最厉害的销售组织绝对不只是完成指标，它们还�
 **换个口味**
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同嘉宾:Lenny · 同概念:go-to-market、智能体 (agent)</span>
+- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI、Stripe · 同概念:智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

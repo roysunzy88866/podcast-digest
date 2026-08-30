@@ -1,0 +1,1914 @@
+[
+ {
+  "seg": 0,
+  "start": 12.572,
+  "end": 13.232,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.372,
+  "end": 13.912,
+  "speaker": "Unknown",
+  "en": "I'm Varun.",
+  "zh": "我是 Varun。"
+ },
+ {
+  "seg": 2,
+  "start": 14.332,
+  "end": 16.633,
+  "speaker": "Unknown",
+  "en": "I'm one of the co-founders at LongLake.",
+  "zh": "我是 LongLake 的联合创始人之一。"
+ },
+ {
+  "seg": 3,
+  "start": 17.113,
+  "end": 21.054,
+  "speaker": "Unknown",
+  "en": "And I'm excited to share a little bit about what we've been up to for the last two years.",
+  "zh": "我很高兴能分享一下我们在过去两年里一直在做的事情。"
+ },
+ {
+  "seg": 4,
+  "start": 21.974,
+  "end": 26.476,
+  "speaker": "Unknown",
+  "en": "It all comes back to a question all of us have asked time and time again.",
+  "zh": "这一切都归结于我们要问过一次又一次的一个问题。"
+ },
+ {
+  "seg": 5,
+  "start": 27.336,
+  "end": 34.478,
+  "speaker": "Unknown",
+  "en": "The models are getting better, but the real question is, how do you actually deploy the AI into the real world?",
+  "zh": "模型正变得越来越好，但真正的问题是，你实际上如何将 AI 部署到现实世界中？"
+ },
+ {
+  "seg": 6,
+  "start": 35.438,
+  "end": 39.639,
+  "speaker": "Unknown",
+  "en": "How do you get the models to complete economically relevant tasks?",
+  "zh": "你如何让模型完成经济上相关的任务？"
+ },
+ {
+  "seg": 7,
+  "start": 43.147,
+  "end": 46.209,
+  "speaker": "Unknown",
+  "en": "Let me start by saying everyone has seen the demo.",
+  "zh": "首先让我说每个人都看过那个演示。"
+ },
+ {
+  "seg": 8,
+  "start": 46.79,
+  "end": 54.995,
+  "speaker": "Unknown",
+  "en": "Think of the agent automatically booking a flight, the agent automatically completing a ticket in some kind of customer service portal.",
+  "zh": "想象一下智能体自动预订航班，智能体在某种客户服务门户中自动完成一张票据。"
+ },
+ {
+  "seg": 9,
+  "start": 55.776,
+  "end": 59.659,
+  "speaker": "Unknown",
+  "en": "Think of an agent completing a block of code ready to commit and go.",
+  "zh": "想象一下智能体完成一段准备好提交和运行的代码块。"
+ },
+ {
+  "seg": 10,
+  "start": 60.599,
+  "end": 64.822,
+  "speaker": "Unknown",
+  "en": "The reality is we've all seen this, and it feels like magic.",
+  "zh": "现实是我们都见过这个，这感觉就像魔术。"
+ },
+ {
+  "seg": 11,
+  "start": 65.443,
+  "end": 69.005,
+  "speaker": "Unknown",
+  "en": "Two years ago, any of this would have been complete science fiction.",
+  "zh": "两年前，这些都完全是科幻小说。"
+ },
+ {
+  "seg": 12,
+  "start": 69.426,
+  "end": 70.927,
+  "speaker": "Unknown",
+  "en": "The capabilities are real.",
+  "zh": "这些能力是真实的。"
+ },
+ {
+  "seg": 13,
+  "start": 72.468,
+  "end": 76.229,
+  "speaker": "Unknown",
+  "en": "Now, walk with me into a 200-person property management firm.",
+  "zh": "现在，跟我走进一家 200 人的物业管理公司。"
+ },
+ {
+  "seg": 14,
+  "start": 77.029,
+  "end": 83.19,
+  "speaker": "Unknown",
+  "en": "Real people, real properties, real dollars, real customers all across the US.",
+  "zh": "真实的人，真实的房产，真实的美元，全美各地的真实客户。"
+ },
+ {
+  "seg": 15,
+  "start": 84.811,
+  "end": 91.092,
+  "speaker": "Unknown",
+  "en": "You would expect AI to show up by now, but the reality is nothing has changed at all.",
+  "zh": "你可能到现在会预期 AI 出现，但现实是什么都没有改变。"
+ },
+ {
+  "seg": 16,
+  "start": 94.673,
+  "end": 95.273,
+  "speaker": "Unknown",
+  "en": "Here's the thing.",
+  "zh": "事情是这样的。"
+ },
+ {
+  "seg": 17,
+  "start": 96.193,
+  "end": 97.813,
+  "speaker": "Unknown",
+  "en": "This is totally normal.",
+  "zh": "这完全正常。"
+ },
+ {
+  "seg": 18,
+  "start": 98.153,
+  "end": 101.254,
+  "speaker": "Unknown",
+  "en": "And maybe, in fact, I'd argue this is what we should expect.",
+  "zh": "也许，事实上，我认为这就是我们应该预期的。"
+ },
+ {
+  "seg": 19,
+  "start": 103.056,
+  "end": 106.32,
+  "speaker": "Unknown",
+  "en": "This is true for every general purpose technology.",
+  "zh": "这对每一种通用技术来说都是如此。"
+ },
+ {
+  "seg": 20,
+  "start": 106.4,
+  "end": 107.962,
+  "speaker": "Unknown",
+  "en": "Take electricity, for example.",
+  "zh": "以电力为例。"
+ },
+ {
+  "seg": 21,
+  "start": 108.642,
+  "end": 116.371,
+  "speaker": "Unknown",
+  "en": "Electricity was invented in the 1880s, and it was first demoed at Edison's Pearl Street Station Dynamo Room over in Manhattan.",
+  "zh": "电力是在 19 世纪 80 年代发明的，它首次在曼哈顿的 Edison's Pearl Street Station Dynamo Room 进行了演示。"
+ },
+ {
+  "seg": 22,
+  "start": 117.573,
+  "end": 119.455,
+  "speaker": "Unknown",
+  "en": "This was the magic demo of its time.",
+  "zh": "这是那个时代的神奇演示。"
+ },
+ {
+  "seg": 23,
+  "start": 121.635,
+  "end": 126.539,
+  "speaker": "Unknown",
+  "en": "The reality is it took a long time for electricity to be fully adopted.",
+  "zh": "现实是，电力被完全采用花了很长时间。"
+ },
+ {
+  "seg": 24,
+  "start": 127.12,
+  "end": 128.921,
+  "speaker": "Unknown",
+  "en": "Consider a Ford factory.",
+  "zh": "考虑一下福特工厂。"
+ },
+ {
+  "seg": 25,
+  "start": 129.762,
+  "end": 132.124,
+  "speaker": "Unknown",
+  "en": "It's not enough to just have electricity.",
+  "zh": "仅仅拥有电力是不够的。"
+ },
+ {
+  "seg": 26,
+  "start": 132.524,
+  "end": 135.447,
+  "speaker": "Unknown",
+  "en": "You have to rip out the existing motors and equipment.",
+  "zh": "你必须拆除现有的马达和设备。"
+ },
+ {
+  "seg": 27,
+  "start": 135.807,
+  "end": 137.028,
+  "speaker": "Unknown",
+  "en": "You have to bring in the new equipment.",
+  "zh": "你必须引进新设备。"
+ },
+ {
+  "seg": 28,
+  "start": 137.068,
+  "end": 140.131,
+  "speaker": "Unknown",
+  "en": "You have to go and train everybody to use that very same equipment.",
+  "zh": "你必须去培训每个人使用同样的设备。"
+ },
+ {
+  "seg": 29,
+  "start": 141.212,
+  "end": 144.875,
+  "speaker": "Unknown",
+  "en": "Here's a picture of a Ford electrified moving assembly in 1924.",
+  "zh": "这是一张 1924 年福特电气化移动装配线的图片。"
+ },
+ {
+  "seg": 30,
+  "start": 144.895,
+  "end": 146.396,
+  "speaker": "Unknown",
+  "en": "These things take time.",
+  "zh": "这些事情需要时间。"
+ },
+ {
+  "seg": 31,
+  "start": 149.077,
+  "end": 152.658,
+  "speaker": "Unknown",
+  "en": "Diffusion of any technology takes a generation.",
+  "zh": "任何技术的扩散都需要一代人。"
+ },
+ {
+  "seg": 32,
+  "start": 153.298,
+  "end": 163.101,
+  "speaker": "Unknown",
+  "en": "And since everyone here in this room today is talking about AI, I would argue AI diffusion is perhaps the single most important problem for the next 20 years.",
+  "zh": "既然今天在这个房间里的每个人都在谈论 AI，我认为 AI 的扩散也许是未来 20 年唯一最重要的问题。"
+ },
+ {
+  "seg": 33,
+  "start": 164.342,
+  "end": 165.882,
+  "speaker": "Unknown",
+  "en": "The models are going to keep getting better.",
+  "zh": "模型会继续变得更好。"
+ },
+ {
+  "seg": 34,
+  "start": 166.242,
+  "end": 175.585,
+  "speaker": "Unknown",
+  "en": "The big question is, how do we actually get these models to be in the real world, complete real tasks, and make people more efficient, happier, and provide better service?",
+  "zh": "最大的问题是，我们实际上如何让这些模型进入现实世界，完成真实的任务，并让人们更高效、更快乐，并提供更好的服务？"
+ },
+ {
+  "seg": 35,
+  "start": 177.488,
+  "end": 179.67,
+  "speaker": "Unknown",
+  "en": "So taking a quick step back, who are we?",
+  "zh": "简单回顾一下，我们是谁？"
+ },
+ {
+  "seg": 36,
+  "start": 180.45,
+  "end": 181.611,
+  "speaker": "Unknown",
+  "en": "We are LongLake.",
+  "zh": "我们是 LongLake。"
+ },
+ {
+  "seg": 37,
+  "start": 181.731,
+  "end": 188.996,
+  "speaker": "Unknown",
+  "en": "Over the last two years, we've raised over $3 billion from Elad Gill, General Catalyst, and AlphaWave since our founding.",
+  "zh": "在过去两年里，自成立以来，我们从 Elad Gill、General Catalyst 和 AlphaWave 那里筹集了超过 30 亿美元。"
+ },
+ {
+  "seg": 38,
+  "start": 190.317,
+  "end": 191.338,
+  "speaker": "Unknown",
+  "en": "Here's the strange part.",
+  "zh": "奇怪的部分是这样的。"
+ },
+ {
+  "seg": 39,
+  "start": 191.658,
+  "end": 193.319,
+  "speaker": "Unknown",
+  "en": "We don't sell software.",
+  "zh": "我们不销售软件。"
+ },
+ {
+  "seg": 40,
+  "start": 193.359,
+  "end": 197.922,
+  "speaker": "Unknown",
+  "en": "We actually go out and acquire and partner with real services businesses in the world.",
+  "zh": "我们实际上走出去收购并与世界上真正的服务业务合作。"
+ },
+ {
+  "seg": 41,
+  "start": 198.703,
+  "end": 204.707,
+  "speaker": "Unknown",
+  "en": "We've acquired 35 businesses across HOA and property management, architecture, HR services, and a lot more.",
+  "zh": "我们在 HOA 和物业管理、建筑、人力资源服务等等领域收购了 35 家企业。"
+ },
+ {
+  "seg": 42,
+  "start": 206.719,
+  "end": 213.584,
+  "speaker": "Unknown",
+  "en": "To give you a little bit more flavor, we have roughly a 40-person team right now, split between technology, finance, and operations.",
+  "zh": "为了给你多一点信息，我们现在大约有一个 40 人的团队，分布在技术、财务和运营部门。"
+ },
+ {
+  "seg": 43,
+  "start": 213.945,
+  "end": 221.911,
+  "speaker": "Unknown",
+  "en": "More than half our team is part of the technology team, focused on building products, data, and deploying the core products into the field.",
+  "zh": "我们团队中超过一半的人是技术团队的一部分，专注于构建产品、数据，并将核心产品部署到实地。"
+ },
+ {
+  "seg": 44,
+  "start": 222.652,
+  "end": 235.382,
+  "speaker": "Unknown",
+  "en": "We're in a collective group of folks, a bunch of ex-founders who've worked in the services before, ex-military folks from Palantir, Ramp, Glean, and from the finance side, Blackstone, HIG, et cetera.",
+  "zh": "我们是一个群体，一群以前在服务行业工作过的前创始人，来自 Palantir、Ramp、Glean 的前军方人员，以及来自金融方面的 Blackstone、HIG 等等。"
+ },
+ {
+  "seg": 45,
+  "start": 236.242,
+  "end": 240.263,
+  "speaker": "Unknown",
+  "en": "We are not selling them to these companies above from the outside.",
+  "zh": "我们不是从外部向上述这些公司销售。"
+ },
+ {
+  "seg": 46,
+  "start": 240.563,
+  "end": 244.363,
+  "speaker": "Unknown",
+  "en": "We're actually deploying into these companies and figuring out how to get the technology to work.",
+  "zh": "我们实际上是在部署到这些公司中，并弄清楚如何让技术发挥作用。"
+ },
+ {
+  "seg": 47,
+  "start": 245.504,
+  "end": 254.945,
+  "speaker": "Unknown",
+  "en": "And just to show you the scale we're playing at, we announced recently our $6.3 billion take private of American Express Global Business Travel, the world's largest corporate travel platform.",
+  "zh": "为了向你们展示我们所参与的规模，我们最近宣布了我们以 63 亿美元对 American Express Global Business Travel 的私有化收购，这是世界上最大的企业旅行平台。"
+ },
+ {
+  "seg": 48,
+  "start": 257.086,
+  "end": 258.466,
+  "speaker": "Unknown",
+  "en": "We own these businesses.",
+  "zh": "我们拥有这些企业。"
+ },
+ {
+  "seg": 49,
+  "start": 259.566,
+  "end": 262.947,
+  "speaker": "Unknown",
+  "en": "So when the AI doesn't work, it's not their problem.",
+  "zh": "所以当 AI 不工作时，这不是他们的问题。"
+ },
+ {
+  "seg": 50,
+  "start": 263.087,
+  "end": 263.827,
+  "speaker": "Unknown",
+  "en": "We're not the vendor.",
+  "zh": "我们不是供应商。"
+ },
+ {
+  "seg": 51,
+  "start": 264.487,
+  "end": 265.287,
+  "speaker": "Unknown",
+  "en": "It's our problem.",
+  "zh": "这是我们的问题。"
+ },
+ {
+  "seg": 52,
+  "start": 267.199,
+  "end": 269.68,
+  "speaker": "Unknown",
+  "en": "Concretely, again, we are not the vendor.",
+  "zh": "具体来说，再说一次，我们不是供应商。"
+ },
+ {
+  "seg": 53,
+  "start": 269.981,
+  "end": 271.141,
+  "speaker": "Unknown",
+  "en": "We are the operator owners.",
+  "zh": "我们是运营者所有者。"
+ },
+ {
+  "seg": 54,
+  "start": 271.541,
+  "end": 275.784,
+  "speaker": "Unknown",
+  "en": "And we work very closely with our teams within the businesses to drive real outcomes.",
+  "zh": "并且我们与企业内部的团队密切合作，以推动真正的成果。"
+ },
+ {
+  "seg": 55,
+  "start": 277.745,
+  "end": 280.827,
+  "speaker": "Unknown",
+  "en": "Now I want to step back and get to the concrete about the how.",
+  "zh": "现在我想退一步，谈谈关于“如何”的具体细节。"
+ },
+ {
+  "seg": 56,
+  "start": 281.187,
+  "end": 287.871,
+  "speaker": "Unknown",
+  "en": "What are the lessons we've learned over the last two and a half years and what we've learned from deploying AI into companies we've owned?",
+  "zh": "我们在过去两年半中学到了什么教训，以及我们将 AI 部署到我们拥有的公司中学到了什么？"
+ },
+ {
+  "seg": 57,
+  "start": 291.673,
+  "end": 292.534,
+  "speaker": "Unknown",
+  "en": "Three quick lessons.",
+  "zh": "三个快速的教训。"
+ },
+ {
+  "seg": 58,
+  "start": 293.314,
+  "end": 296.416,
+  "speaker": "Unknown",
+  "en": "One, how we move agents from co-pilots to co-workers.",
+  "zh": "第一，我们如何将智能体从副驾驶转变为同事。"
+ },
+ {
+  "seg": 59,
+  "start": 297.425,
+  "end": 301.486,
+  "speaker": "Unknown",
+  "en": "Two, how we leverage real-world data within these businesses.",
+  "zh": "第二，我们如何利用这些业务中的真实世界数据。"
+ },
+ {
+  "seg": 60,
+  "start": 302.206,
+  "end": 307.127,
+  "speaker": "Unknown",
+  "en": "Remember, we're seeing all of the work that's being done in these real services businesses.",
+  "zh": "记住，我们看到了这些真实服务业务中正在进行的所有工作。"
+ },
+ {
+  "seg": 61,
+  "start": 307.507,
+  "end": 311.327,
+  "speaker": "Unknown",
+  "en": "There's a lot of interesting problems and solutions embedded within that.",
+  "zh": "其中嵌入了大量有趣的问题和解决方案。"
+ },
+ {
+  "seg": 62,
+  "start": 311.948,
+  "end": 319.949,
+  "speaker": "Unknown",
+  "en": "And then finally, perhaps the most interesting and exciting is how do you actually get all of this technology to compound over time by learning loops in the enterprise?",
+  "zh": "然后最后，也许最有趣和最令人兴奋的是，你实际上如何通过企业中的学习循环让所有这些技术随时间复利增长？"
+ },
+ {
+  "seg": 63,
+  "start": 319.969,
+  "end": 322.149,
+  "speaker": "Unknown",
+  "en": "And we'll get to that at the end over here.",
+  "zh": "我们将在最后谈到这一点。"
+ },
+ {
+  "seg": 64,
+  "start": 323.77,
+  "end": 325.81,
+  "speaker": "Unknown",
+  "en": "So starting off from Copilots to coworkers.",
+  "zh": "所以从副驾驶开始到同事。"
+ },
+ {
+  "seg": 65,
+  "start": 327.112,
+  "end": 330.136,
+  "speaker": "Unknown",
+  "en": "There's a spectrum of how much autonomy you can give an agent.",
+  "zh": "关于你可以给智能体多少自主性，有一个谱系。"
+ },
+ {
+  "seg": 66,
+  "start": 331.097,
+  "end": 332.639,
+  "speaker": "Unknown",
+  "en": "On the left here, you see a Copilot.",
+  "zh": "在这里左边，你看到一个副驾驶。"
+ },
+ {
+  "seg": 67,
+  "start": 332.699,
+  "end": 335.944,
+  "speaker": "Unknown",
+  "en": "This is your simple RAG chatbot from two years ago.",
+  "zh": "这是你两年前的简单 RAG 聊天机器人。"
+ },
+ {
+  "seg": 68,
+  "start": 336.184,
+  "end": 336.805,
+  "speaker": "Unknown",
+  "en": "It's very quick.",
+  "zh": "它非常快。"
+ },
+ {
+  "seg": 69,
+  "start": 336.945,
+  "end": 337.886,
+  "speaker": "Unknown",
+  "en": "You can ask a question.",
+  "zh": "你可以问一个问题。"
+ },
+ {
+  "seg": 70,
+  "start": 337.946,
+  "end": 339.809,
+  "speaker": "Unknown",
+  "en": "Maybe it's integrated with some systems.",
+  "zh": "也许它与一些系统集成。"
+ },
+ {
+  "seg": 71,
+  "start": 339.829,
+  "end": 341.952,
+  "speaker": "Unknown",
+  "en": "It can give you information back very, very quickly.",
+  "zh": "它可以非常、非常快地给你回馈信息。"
+ },
+ {
+  "seg": 72,
+  "start": 344.166,
+  "end": 346.027,
+  "speaker": "Unknown",
+  "en": "The second step is a synchronous agent.",
+  "zh": "第二步是同步智能体。"
+ },
+ {
+  "seg": 73,
+  "start": 346.107,
+  "end": 349.43,
+  "speaker": "Unknown",
+  "en": "Consider something like Claude Code, Codex, ClaudeCowork.",
+  "zh": "考虑像 Claude Code、Codex、ClaudeCowork 这样的东西。"
+ },
+ {
+  "seg": 74,
+  "start": 349.89,
+  "end": 350.69,
+  "speaker": "Unknown",
+  "en": "It's real-time.",
+  "zh": "它是实时的。"
+ },
+ {
+  "seg": 75,
+  "start": 350.71,
+  "end": 351.931,
+  "speaker": "Unknown",
+  "en": "There's this two-way interaction.",
+  "zh": "有这种双向互动。"
+ },
+ {
+  "seg": 76,
+  "start": 352.231,
+  "end": 354.193,
+  "speaker": "Unknown",
+  "en": "It's a bit more sophisticated than a Copilot.",
+  "zh": "它比副驾驶稍微复杂一点。"
+ },
+ {
+  "seg": 77,
+  "start": 354.213,
+  "end": 356.434,
+  "speaker": "Unknown",
+  "en": "You can go let it run off for one to five minutes.",
+  "zh": "你可以放手让它运行一到五分钟。"
+ },
+ {
+  "seg": 78,
+  "start": 357.035,
+  "end": 358.996,
+  "speaker": "Unknown",
+  "en": "It'll call tools, maybe use its skills.",
+  "zh": "它会调用工具，也许使用它的技能。"
+ },
+ {
+  "seg": 79,
+  "start": 359.636,
+  "end": 360.377,
+  "speaker": "Unknown",
+  "en": "It's still synchronous.",
+  "zh": "它仍然是同步的。"
+ },
+ {
+  "seg": 80,
+  "start": 360.397,
+  "end": 361.978,
+  "speaker": "Unknown",
+  "en": "You still need to step in and ask a query.",
+  "zh": "你仍然需要介入并提出查询。"
+ },
+ {
+  "seg": 81,
+  "start": 362.298,
+  "end": 365.921,
+  "speaker": "Unknown",
+  "en": "So the next obvious rung of the ladder is the asynchronous agent.",
+  "zh": "所以梯子上下一个明显的阶梯是异步智能体。"
+ },
+ {
+  "seg": 82,
+  "start": 366.677,
+  "end": 368.739,
+  "speaker": "Unknown",
+  "en": "You can come in here, still ask a query.",
+  "zh": "你可以在这里进来，仍然提出查询。"
+ },
+ {
+  "seg": 83,
+  "start": 369.039,
+  "end": 373.062,
+  "speaker": "Unknown",
+  "en": "The agent will go off into the background, do some work, and then come back.",
+  "zh": "智能体将会进入后台，做一些工作，然后回来。"
+ },
+ {
+  "seg": 84,
+  "start": 373.182,
+  "end": 378.267,
+  "speaker": "Unknown",
+  "en": "And what's really interesting about asynchronous agents is that the user does not have to be the one that triggers them.",
+  "zh": "关于异步智能体，真正有趣的是用户不必是触发它们的人。"
+ },
+ {
+  "seg": 85,
+  "start": 379.147,
+  "end": 380.949,
+  "speaker": "Unknown",
+  "en": "You can have external triggers as well.",
+  "zh": "你也可以有外部触发器。"
+ },
+ {
+  "seg": 86,
+  "start": 381.389,
+  "end": 390.357,
+  "speaker": "Unknown",
+  "en": "Maybe someone completes a certain task and there is an async job queue that allows the async agent to pull off from and proactively offer advice to the end user.",
+  "zh": "也许某人完成了一项特定任务，并且有一个异步作业队列，允许异步智能体从中提取并主动向最终用户提供建议。"
+ },
+ {
+  "seg": 87,
+  "start": 392.08,
+  "end": 394.942,
+  "speaker": "Unknown",
+  "en": "Then I'd argue the next step is a long-running agent.",
+  "zh": "然后我认为下一步是长期运行的智能体。"
+ },
+ {
+  "seg": 88,
+  "start": 395.662,
+  "end": 400.465,
+  "speaker": "Unknown",
+  "en": "How do you get these agents to work for hours, days, weeks, months, et cetera?",
+  "zh": "你如何让这些智能体工作数小时、数天、数周、数月等等？"
+ },
+ {
+  "seg": 89,
+  "start": 400.905,
+  "end": 405.728,
+  "speaker": "Unknown",
+  "en": "I think this is currently a very core problem that a lot of the labs are focused on, as are we.",
+  "zh": "我认为这是目前很多实验室关注的一个核心问题，我们也一样。"
+ },
+ {
+  "seg": 90,
+  "start": 408.129,
+  "end": 412.171,
+  "speaker": "Unknown",
+  "en": "And then finally, at the end, the holy grail, an AI coworker.",
+  "zh": "然后最后，在终点，圣杯，一个 AI 同事。"
+ },
+ {
+  "seg": 91,
+  "start": 413.232,
+  "end": 414.633,
+  "speaker": "Unknown",
+  "en": "This is where most people start off.",
+  "zh": "这是大多数人开始的地方。"
+ },
+ {
+  "seg": 92,
+  "start": 415.293,
+  "end": 418.675,
+  "speaker": "Unknown",
+  "en": "You want a proactive partner that gets work done just alongside you.",
+  "zh": "你想要一个主动的伙伴，就在你身边完成工作。"
+ },
+ {
+  "seg": 93,
+  "start": 420.407,
+  "end": 421.847,
+  "speaker": "Unknown",
+  "en": "This is what everyone wants to sell you.",
+  "zh": "这是每个人都想卖给你的。"
+ },
+ {
+  "seg": 94,
+  "start": 422.327,
+  "end": 429.149,
+  "speaker": "Unknown",
+  "en": "But what we've learned from owning the outcomes in this business is you have to earn the right to do more.",
+  "zh": "但是我们从拥有这项业务的成果中学到的是，你必须获得做更多事情的权利。"
+ },
+ {
+  "seg": 95,
+  "start": 429.889,
+  "end": 434.77,
+  "speaker": "Unknown",
+  "en": "It's not enough to jump to the coworker immediately for a bunch of reasons.",
+  "zh": "出于各种原因，立即跳转到同事是不够的。"
+ },
+ {
+  "seg": 96,
+  "start": 434.97,
+  "end": 438.271,
+  "speaker": "Unknown",
+  "en": "One, for certain tasks, the models might not quite be there yet.",
+  "zh": "第一，对于某些任务，模型可能还不太到位。"
+ },
+ {
+  "seg": 97,
+  "start": 438.631,
+  "end": 450.374,
+  "speaker": "Unknown",
+  "en": "And two, you actually have to work with these companies in the field, interact and iterate very, very closely so that they understand that this is the beginning of AI and you can work up the rungs over time.",
+  "zh": "第二，你实际上必须在这些领域的公司与他们一起工作，非常、非常密切地互动和迭代，以便他们理解这是 AI 的开始，你可以随时间爬上阶梯。"
+ },
+ {
+  "seg": 98,
+  "start": 453.376,
+  "end": 458.279,
+  "speaker": "Unknown",
+  "en": "I think a really unique lens to look at this problem through is that of the jagged frontier.",
+  "zh": "我认为看待这个问题的一个独特视角是锯齿状前沿。"
+ },
+ {
+  "seg": 99,
+  "start": 458.799,
+  "end": 462.281,
+  "speaker": "Unknown",
+  "en": "We all know that agents are incredibly good at writing code.",
+  "zh": "我们都知道智能体非常擅长编写代码。"
+ },
+ {
+  "seg": 100,
+  "start": 462.661,
+  "end": 466.243,
+  "speaker": "Unknown",
+  "en": "So what does the, for example, synchronous agent for code generation look like?",
+  "zh": "那么，例如，用于代码生成的同步智能体是什么样的？"
+ },
+ {
+  "seg": 101,
+  "start": 467.064,
+  "end": 468.064,
+  "speaker": "Unknown",
+  "en": "This is super simple.",
+  "zh": "这非常简单。"
+ },
+ {
+  "seg": 102,
+  "start": 468.124,
+  "end": 472.687,
+  "speaker": "Unknown",
+  "en": "This is just your coding agent, maybe it's Codex, Claude Code, just running on your desktop.",
+  "zh": "这只是你的编码智能体，也许是 Codex，Claude Code，只是运行在你的桌面上。"
+ },
+ {
+  "seg": 103,
+  "start": 472.707,
+  "end": 477.55,
+  "speaker": "Unknown",
+  "en": "It has access to a file system, you collaborate with it in real time, you get instant feedback, and you iterate.",
+  "zh": "它可以访问文件系统，你与它实时协作，你获得即时反馈，然后你迭代。"
+ },
+ {
+  "seg": 104,
+  "start": 479.483,
+  "end": 483.205,
+  "speaker": "Unknown",
+  "en": "The next step is if you look at code generation, what is the async agent?",
+  "zh": "下一步是，如果你看代码生成，什么是异步智能体？"
+ },
+ {
+  "seg": 105,
+  "start": 483.846,
+  "end": 486.247,
+  "speaker": "Unknown",
+  "en": "This is also fairly straightforward and largely solved.",
+  "zh": "这也相当直接，并且很大程度上已经解决了。"
+ },
+ {
+  "seg": 106,
+  "start": 486.287,
+  "end": 490.951,
+  "speaker": "Unknown",
+  "en": "You take the exact same coding agent, you wrap it in a sandbox, and you just let it go run.",
+  "zh": "你拿完全相同的编码智能体，把它包装在一个沙箱里，然后你就让它去运行。"
+ },
+ {
+  "seg": 107,
+  "start": 491.371,
+  "end": 496.334,
+  "speaker": "Unknown",
+  "en": "It can build, it can test, and once it's done with its work, it can provide the code in the form of a PR.",
+  "zh": "它可以构建，它可以测试，一旦它完成了它的工作，它就可以以 PR 的形式提供代码。"
+ },
+ {
+  "seg": 108,
+  "start": 496.975,
+  "end": 503.119,
+  "speaker": "Unknown",
+  "en": "One thing that's really unique about engineers is folks are incredibly good at already parallelizing their work.",
+  "zh": "关于工程师真正独特的一件事是，人们非常擅长已经并行化他们的工作。"
+ },
+ {
+  "seg": 109,
+  "start": 503.939,
+  "end": 510.704,
+  "speaker": "Unknown",
+  "en": "It's very commonplace to launch 10 jobs and be comfortable with the fact that job seven might finish before job three.",
+  "zh": "启动 10 个作业并且对作业 7 可能在作业 3 之前完成这一事实感到习以为常，是很常见的。"
+ },
+ {
+  "seg": 110,
+  "start": 511.004,
+  "end": 513.907,
+  "speaker": "Unknown",
+  "en": "So engineers are incredibly good at using these async agents.",
+  "zh": "所以工程师非常擅长使用这些异步智能体。"
+ },
+ {
+  "seg": 111,
+  "start": 515.828,
+  "end": 521.552,
+  "speaker": "Unknown",
+  "en": "Now when we come to services, the equivalent of a synchronous agent, what we talked about a little bit earlier, it's a co-working agent.",
+  "zh": "现在当我们谈到服务时，同步智能体的等同物，我们刚才稍微谈到一点的，是协作智能体。"
+ },
+ {
+  "seg": 112,
+  "start": 521.732,
+  "end": 524.134,
+  "speaker": "Unknown",
+  "en": "It's an agent that has deep context about your enterprise.",
+  "zh": "这是一个对你的企业有深度上下文的智能体。"
+ },
+ {
+  "seg": 113,
+  "start": 524.675,
+  "end": 531.82,
+  "speaker": "Unknown",
+  "en": "It interacts potentially with MCPs, custom tools, custom integrations, and you can chat with it synchronously just like any of these other products.",
+  "zh": "它可能与 MCPs、自定义工具、自定义集成进行交互，并且你可以像任何其他这些产品一样与它同步聊天。"
+ },
+ {
+  "seg": 114,
+  "start": 533.233,
+  "end": 535.355,
+  "speaker": "Unknown",
+  "en": "I think this is the frontier here in the bottom right.",
+  "zh": "我认为这是这里右下角的前沿。"
+ },
+ {
+  "seg": 115,
+  "start": 536.255,
+  "end": 540.218,
+  "speaker": "Unknown",
+  "en": "What does it mean to build an asynchronous agent for the services?",
+  "zh": "为服务构建一个异步智能体意味着什么？"
+ },
+ {
+  "seg": 116,
+  "start": 540.639,
+  "end": 547.544,
+  "speaker": "Unknown",
+  "en": "What does it mean to parallelize work in industries where work is traditionally done in a very, very serial manner?",
+  "zh": "在那些工作传统上以非常、非常串行的方式完成的行业中，并行化工作意味着什么？"
+ },
+ {
+  "seg": 117,
+  "start": 548.244,
+  "end": 552.788,
+  "speaker": "Unknown",
+  "en": "This is where we spend a lot of time, and this is what I wake up every morning really excited thinking about.",
+  "zh": "这是我们花费大量时间的地方，这也是我每天早上醒来真正兴奋思考的事情。"
+ },
+ {
+  "seg": 118,
+  "start": 552.868,
+  "end": 557.331,
+  "speaker": "Unknown",
+  "en": "We've figured out what the async and forking mechanism for code is.",
+  "zh": "我们已经弄清楚了代码的异步和分叉机制是什么。"
+ },
+ {
+  "seg": 119,
+  "start": 557.651,
+  "end": 559.553,
+  "speaker": "Unknown",
+  "en": "You just spin up a bunch of sandboxes and do work.",
+  "zh": "你只是启动一堆沙箱并做工作。"
+ },
+ {
+  "seg": 120,
+  "start": 560.153,
+  "end": 562.235,
+  "speaker": "Unknown",
+  "en": "What does that look like for the rest of the world?",
+  "zh": "对于世界其余部分来说，那看起来是什么样的？"
+ },
+ {
+  "seg": 121,
+  "start": 564.891,
+  "end": 567.472,
+  "speaker": "Unknown",
+  "en": "So here's a couple questions we think about pretty seriously.",
+  "zh": "所以这里有几个我们相当认真地思考的问题。"
+ },
+ {
+  "seg": 122,
+  "start": 567.712,
+  "end": 569.933,
+  "speaker": "Unknown",
+  "en": "One, the models are trained on code.",
+  "zh": "第一，模型是在代码上训练的。"
+ },
+ {
+  "seg": 123,
+  "start": 569.993,
+  "end": 570.813,
+  "speaker": "Unknown",
+  "en": "They want to write code.",
+  "zh": "它们想要写代码。"
+ },
+ {
+  "seg": 124,
+  "start": 570.833,
+  "end": 572.174,
+  "speaker": "Unknown",
+  "en": "They're incredibly good at writing code.",
+  "zh": "它们非常擅长写代码。"
+ },
+ {
+  "seg": 125,
+  "start": 572.554,
+  "end": 575.695,
+  "speaker": "Unknown",
+  "en": "How do we leverage these coding agents for actual knowledge work?",
+  "zh": "我们如何利用这些编码智能体来做实际的知识工作？"
+ },
+ {
+  "seg": 126,
+  "start": 575.735,
+  "end": 583.499,
+  "speaker": "Unknown",
+  "en": "Rather than wait for the models to catch up on doing services knowledge work, what if we just use that code knowledge and represent knowledge work as code?",
+  "zh": "与其等待模型赶上做服务知识工作，如果我们只是使用那些代码知识并将知识工作表示为代码会怎么样？"
+ },
+ {
+  "seg": 127,
+  "start": 584.639,
+  "end": 587.44,
+  "speaker": "Unknown",
+  "en": "Two, as I mentioned, engineers are used to parallelizing work.",
+  "zh": "第二，正如我提到的，工程师习惯于并行化工作。"
+ },
+ {
+  "seg": 128,
+  "start": 587.68,
+  "end": 589.701,
+  "speaker": "Unknown",
+  "en": "How do you parallelize work that's traditionally serial?",
+  "zh": "你如何并行化传统上是串行的工作？"
+ },
+ {
+  "seg": 129,
+  "start": 589.741,
+  "end": 593.263,
+  "speaker": "Unknown",
+  "en": "People clean out their inbox one email by one email, not 10 emails at once.",
+  "zh": "人们一封一封邮件地清理他们的收件箱，而不是一次清理 10 封邮件。"
+ },
+ {
+  "seg": 130,
+  "start": 594.395,
+  "end": 598.5,
+  "speaker": "Unknown",
+  "en": "And finally, how do you move up the ladder here, both in terms of product and user enablement?",
+  "zh": "最后，你如何在这里向上发展，无论是在产品还是用户赋能方面？"
+ },
+ {
+  "seg": 131,
+  "start": 599.582,
+  "end": 601.083,
+  "speaker": "Unknown",
+  "en": "What are the right form factors?",
+  "zh": "什么是合适的形态规格？"
+ },
+ {
+  "seg": 132,
+  "start": 601.204,
+  "end": 605.369,
+  "speaker": "Unknown",
+  "en": "And I'd argue this varies dramatically from industry to industry.",
+  "zh": "并且我认为这在行业与行业之间变化巨大。"
+ },
+ {
+  "seg": 133,
+  "start": 605.769,
+  "end": 611.597,
+  "speaker": "Unknown",
+  "en": "Just because you have one way of launching an async agent for code doesn't mean that same way is going to work for architecture or property management.",
+  "zh": "仅仅因为你有一种用于代码的异步智能体的启动方式，并不意味着同样的方式将适用于架构或物业管理。"
+ },
+ {
+  "seg": 134,
+  "start": 613.488,
+  "end": 616.991,
+  "speaker": "Unknown",
+  "en": "The second point I want to cover today is leveraging real-world data.",
+  "zh": "我想涵盖的第二个点是利用现实世界的数据。"
+ },
+ {
+  "seg": 135,
+  "start": 617.611,
+  "end": 618.332,
+  "speaker": "Unknown",
+  "en": "We all know this.",
+  "zh": "我们都知道这一点。"
+ },
+ {
+  "seg": 136,
+  "start": 618.672,
+  "end": 625.257,
+  "speaker": "Unknown",
+  "en": "Frontier models have learned from everything humanity has written down, but the most valuable tasks are not on the internet.",
+  "zh": "前沿模型已经从人类记录下来的一切中学习，但最有价值的任务并不在互联网上。"
+ },
+ {
+  "seg": 137,
+  "start": 626.138,
+  "end": 628.88,
+  "speaker": "Unknown",
+  "en": "How do you actually close the books when you're missing receipts?",
+  "zh": "当你缺少收据时，你实际上如何结账？"
+ },
+ {
+  "seg": 138,
+  "start": 629.621,
+  "end": 633.864,
+  "speaker": "Unknown",
+  "en": "How do you scope a building for construction in a blueprint, potentially collaboratively?",
+  "zh": "你如何在蓝图中为建筑施工划定范围，可能是协作地？"
+ },
+ {
+  "seg": 139,
+  "start": 635.085,
+  "end": 637.787,
+  "speaker": "Unknown",
+  "en": "How do you coordinate vendors for fixing a broken roof?",
+  "zh": "你如何协调供应商来修复破损的屋顶？"
+ },
+ {
+  "seg": 140,
+  "start": 639.232,
+  "end": 647.495,
+  "speaker": "Unknown",
+  "en": "All of this knowledge lives in people's heads, in 20-year-old software, in the way that one senior person on one of these teams just knows how to do it.",
+  "zh": "所有这些知识存在于人们的头脑中，存在于 20 年前的软件中，存在于这些团队中的一位资深人员只是知道如何做它的方式中。"
+ },
+ {
+  "seg": 141,
+  "start": 647.875,
+  "end": 651.956,
+  "speaker": "Unknown",
+  "en": "How do you make this information explicit and create tasks that you can actually learn from?",
+  "zh": "你如何使这些信息显性化并创建你实际上可以从中学习的任务？"
+ },
+ {
+  "seg": 142,
+  "start": 652.717,
+  "end": 654.497,
+  "speaker": "Unknown",
+  "en": "So we've constructed a little bit of a flywheel.",
+  "zh": "所以我们构建了一个飞轮。"
+ },
+ {
+  "seg": 143,
+  "start": 654.957,
+  "end": 658.879,
+  "speaker": "Unknown",
+  "en": "We get our agents to collaborate with our employees to do real work.",
+  "zh": "我们让我们的智能体与我们的员工协作来做实际的工作。"
+ },
+ {
+  "seg": 144,
+  "start": 659.179,
+  "end": 667.802,
+  "speaker": "Unknown",
+  "en": "And this allows us to generate rich traces of data and information, tool calls, the hiccups, the paper cuts, everything that goes wrong with doing real work.",
+  "zh": "这允许我们生成丰富的数据和信息的追踪、工具调用、小故障、小麻烦，以及做实际工作时出错的一切。"
+ },
+ {
+  "seg": 145,
+  "start": 668.642,
+  "end": 671.704,
+  "speaker": "Unknown",
+  "en": "This in turn allows us to build real-world evals.",
+  "zh": "这反过来允许我们构建现实世界的评估。"
+ },
+ {
+  "seg": 146,
+  "start": 672.405,
+  "end": 673.646,
+  "speaker": "Unknown",
+  "en": "There is a ground truth here.",
+  "zh": "这里有一个基本事实。"
+ },
+ {
+  "seg": 147,
+  "start": 674.126,
+  "end": 678.169,
+  "speaker": "Unknown",
+  "en": "In the case of the roofing example, the question is, did the roof get repaired?",
+  "zh": "在屋顶修护的例子中，问题是，屋顶被修好了吗？"
+ },
+ {
+  "seg": 148,
+  "start": 679.65,
+  "end": 680.691,
+  "speaker": "Unknown",
+  "en": "Did the books get closed?",
+  "zh": "账目结清了吗？"
+ },
+ {
+  "seg": 149,
+  "start": 681.772,
+  "end": 686.516,
+  "speaker": "Unknown",
+  "en": "And this allows us to hill climb and build better agents, which leads to more and more impact.",
+  "zh": "这允许我们进行爬山并构建更好的智能体，这导致越来越多的影响。"
+ },
+ {
+  "seg": 150,
+  "start": 686.776,
+  "end": 689.278,
+  "speaker": "Unknown",
+  "en": "And what's really exciting is it ratchets up.",
+  "zh": "真正令人兴奋的是它在逐步升级。"
+ },
+ {
+  "seg": 151,
+  "start": 689.778,
+  "end": 693.841,
+  "speaker": "Unknown",
+  "en": "Every week, our hill climbing benchmarks become a regression test.",
+  "zh": "每周，我们的爬山基准都变成了一种回归测试。"
+ },
+ {
+  "seg": 152,
+  "start": 694.261,
+  "end": 696.003,
+  "speaker": "Unknown",
+  "en": "So our agents get better and better over time.",
+  "zh": "所以我们的智能体随着时间的推移变得越来越好。"
+ },
+ {
+  "seg": 153,
+  "start": 698.002,
+  "end": 704.087,
+  "speaker": "Unknown",
+  "en": "Just to drive a little bit deeper here on the traces, there's three upshots of being able to collect these rich traces.",
+  "zh": "为了在追踪记录方面再深入挖掘一点，能够收集这些丰富的追踪记录有三个主要收获。"
+ },
+ {
+  "seg": 154,
+  "start": 704.728,
+  "end": 713.015,
+  "speaker": "Unknown",
+  "en": "One, we get to generate amazing evals that are built and scored automatically, and we're able to gather both implicit and explicit feedback.",
+  "zh": "第一，我们能够生成惊人的评估，这些评估是自动构建和评分的，我们能够收集隐性和显性反馈。"
+ },
+ {
+  "seg": 155,
+  "start": 713.075,
+  "end": 721.062,
+  "speaker": "Unknown",
+  "en": "Explicit feedback in the sense of thumbs ups and thumbs down, maybe people provide a note telling us whether this response was good or not, and also implicit feedback.",
+  "zh": "显性反馈是指点赞和点踩，也许人们会提供便条告诉我们这个响应是否好，以及隐性反馈。"
+ },
+ {
+  "seg": 156,
+  "start": 721.682,
+  "end": 722.904,
+  "speaker": "Unknown",
+  "en": "Again, we have the ground truth.",
+  "zh": "同样，我们有地面真值。"
+ },
+ {
+  "seg": 157,
+  "start": 722.944,
+  "end": 724.987,
+  "speaker": "Unknown",
+  "en": "Maybe there's some data that the AI generated.",
+  "zh": "也许有一些是 AI 生成的数据。"
+ },
+ {
+  "seg": 158,
+  "start": 725.227,
+  "end": 729.933,
+  "speaker": "Unknown",
+  "en": "And there's a real diff between the data that the AI generated and what was ultimately submitted.",
+  "zh": "并且在 AI 生成的数据和最终提交的数据之间存在真正的差异。"
+ },
+ {
+  "seg": 159,
+  "start": 730.514,
+  "end": 733.338,
+  "speaker": "Unknown",
+  "en": "That's rich information that almost no one else has.",
+  "zh": "这是几乎其他人都没有的丰富信息。"
+ },
+ {
+  "seg": 160,
+  "start": 734.586,
+  "end": 742.69,
+  "speaker": "Unknown",
+  "en": "Two, we've started post-training models internally on all of the data that these businesses operate on and produce, generally speaking.",
+  "zh": "第二，一般来说，我们已经开始在内部对所有这些企业运作和产生的数据进行后训练模型。"
+ },
+ {
+  "seg": 161,
+  "start": 743.31,
+  "end": 747.533,
+  "speaker": "Unknown",
+  "en": "This is all data that is completely out of distribution for most frontier labs.",
+  "zh": "对于大多数前沿实验室来说，这些都是完全分布之外的数据。"
+ },
+ {
+  "seg": 162,
+  "start": 747.753,
+  "end": 749.434,
+  "speaker": "Unknown",
+  "en": "Think of the tasks I showed at the beginning.",
+  "zh": "想想我在开始时展示的任务。"
+ },
+ {
+  "seg": 163,
+  "start": 749.994,
+  "end": 759.479,
+  "speaker": "Unknown",
+  "en": "A lot of the frontier models today just can't do these tasks yet, and we're trying to post-train our own models internally to be able to do that on the rich source of data that we own.",
+  "zh": "今天许多前沿模型还无法完成这些任务，我们试图在内部对我们自己的模型进行后训练，以便能够基于我们拥有的丰富数据源来做到这一点。"
+ },
+ {
+  "seg": 164,
+  "start": 760.339,
+  "end": 763.121,
+  "speaker": "Unknown",
+  "en": "And then finally, the actual agents themselves.",
+  "zh": "最后，实际的智能体本身。"
+ },
+ {
+  "seg": 165,
+  "start": 763.882,
+  "end": 768.405,
+  "speaker": "Unknown",
+  "en": "The real world is incredibly hairy and messy, and you want customization per company.",
+  "zh": "现实世界极其棘手和混乱，你需要针对每家公司进行定制。"
+ },
+ {
+  "seg": 166,
+  "start": 768.865,
+  "end": 770.807,
+  "speaker": "Unknown",
+  "en": "Every company does things very differently.",
+  "zh": "每家公司的做事方式都非常不同。"
+ },
+ {
+  "seg": 167,
+  "start": 771.167,
+  "end": 772.468,
+  "speaker": "Unknown",
+  "en": "Customization per user.",
+  "zh": "针对每个用户的定制。"
+ },
+ {
+  "seg": 168,
+  "start": 772.768,
+  "end": 775.39,
+  "speaker": "Unknown",
+  "en": "The way each user does their work is very unique.",
+  "zh": "每个用户的工作方式都非常独特。"
+ },
+ {
+  "seg": 169,
+  "start": 775.931,
+  "end": 777.452,
+  "speaker": "Unknown",
+  "en": "And customization per client.",
+  "zh": "以及针对每个客户的定制。"
+ },
+ {
+  "seg": 170,
+  "start": 777.652,
+  "end": 779.814,
+  "speaker": "Unknown",
+  "en": "The way you work with every client is different.",
+  "zh": "你与每个客户共事的方式都是不同的。"
+ },
+ {
+  "seg": 171,
+  "start": 779.914,
+  "end": 782.536,
+  "speaker": "Unknown",
+  "en": "It's a services business, and you want to uphold those standards.",
+  "zh": "这是一项服务业务，你想坚持这些标准。"
+ },
+ {
+  "seg": 172,
+  "start": 784.617,
+  "end": 785.378,
+  "speaker": "Unknown",
+  "en": "I love this picture.",
+  "zh": "我喜欢这张图。"
+ },
+ {
+  "seg": 173,
+  "start": 786.308,
+  "end": 789.51,
+  "speaker": "Unknown",
+  "en": "Because it's the whole thing in a single image.",
+  "zh": "因为它把整个东西放在了一张图里。"
+ },
+ {
+  "seg": 174,
+  "start": 789.59,
+  "end": 793.673,
+  "speaker": "Unknown",
+  "en": "The way we usually talk about LLM tasks is the top panel.",
+  "zh": "我们通常谈论 LLM 任务的方式是顶部的面板。"
+ },
+ {
+  "seg": 175,
+  "start": 795.115,
+  "end": 795.735,
+  "speaker": "Unknown",
+  "en": "It's a slope.",
+  "zh": "这是一个斜坡。"
+ },
+ {
+  "seg": 176,
+  "start": 795.755,
+  "end": 796.396,
+  "speaker": "Unknown",
+  "en": "You've got a bike.",
+  "zh": "你有一辆自行车。"
+ },
+ {
+  "seg": 177,
+  "start": 796.696,
+  "end": 798.657,
+  "speaker": "Unknown",
+  "en": "But there's clear sight to success.",
+  "zh": "但是通往成功的视野很清晰。"
+ },
+ {
+  "seg": 178,
+  "start": 799.598,
+  "end": 802.48,
+  "speaker": "Unknown",
+  "en": "The reality is most work is not like that.",
+  "zh": "现实是大多数工作并非如此。"
+ },
+ {
+  "seg": 179,
+  "start": 802.58,
+  "end": 804.421,
+  "speaker": "Unknown",
+  "en": "And you and I both know that.",
+  "zh": "你我都知道这一点。"
+ },
+ {
+  "seg": 180,
+  "start": 805.142,
+  "end": 806.803,
+  "speaker": "Unknown",
+  "en": "There are hills and ravines.",
+  "zh": "有山丘和沟壑。"
+ },
+ {
+  "seg": 181,
+  "start": 807.444,
+  "end": 809.966,
+  "speaker": "Unknown",
+  "en": "There's death by 1,000 paper cuts.",
+  "zh": "有被一千次纸割伤致死的情况。"
+ },
+ {
+  "seg": 182,
+  "start": 810.246,
+  "end": 812.007,
+  "speaker": "Unknown",
+  "en": "But that's what real work looks like.",
+  "zh": "但这就是真正的工作的样子。"
+ },
+ {
+  "seg": 183,
+  "start": 812.367,
+  "end": 813.468,
+  "speaker": "Unknown",
+  "en": "That's the entire job.",
+  "zh": "这就是全部工作。"
+ },
+ {
+  "seg": 184,
+  "start": 813.808,
+  "end": 815.61,
+  "speaker": "Unknown",
+  "en": "The exceptions are the job.",
+  "zh": "异常就是工作。"
+ },
+ {
+  "seg": 185,
+  "start": 817.87,
+  "end": 818.911,
+  "speaker": "Unknown",
+  "en": "That's the demo.",
+  "zh": "那是演示。"
+ },
+ {
+  "seg": 186,
+  "start": 819.812,
+  "end": 820.752,
+  "speaker": "Unknown",
+  "en": "That's the actual job.",
+  "zh": "那是实际的工作。"
+ },
+ {
+  "seg": 187,
+  "start": 823.154,
+  "end": 828.299,
+  "speaker": "Unknown",
+  "en": "Now on to the final thing I want to chat with you guys today is learning loops within the enterprise.",
+  "zh": "现在谈到今天我想和你们聊的最后一件事，是企业内部的学习循环。"
+ },
+ {
+  "seg": 188,
+  "start": 829.18,
+  "end": 833.743,
+  "speaker": "Unknown",
+  "en": "I'd argue there's two hot trends everyone's talking about in 2026.",
+  "zh": "我认为 2026 年大家都在谈论的两个热门趋势。"
+ },
+ {
+  "seg": 189,
+  "start": 834.324,
+  "end": 835.585,
+  "speaker": "Unknown",
+  "en": "One, it's continual learning.",
+  "zh": "第一，持续学习。"
+ },
+ {
+  "seg": 190,
+  "start": 836.145,
+  "end": 838.768,
+  "speaker": "Unknown",
+  "en": "How do you make an agent better over time with feedback?",
+  "zh": "你如何通过反馈让智能体随时间推移变得更好？"
+ },
+ {
+  "seg": 191,
+  "start": 838.788,
+  "end": 845.033,
+  "speaker": "Unknown",
+  "en": "I think there are plenty of sessions this week on how you can use continual learning, whether it's in the prompt or in the waits.",
+  "zh": "我认为本周有很多关于如何使用持续学习的会议，无论是在提示词中还是在等待中。"
+ },
+ {
+  "seg": 192,
+  "start": 846.251,
+  "end": 847.351,
+  "speaker": "Unknown",
+  "en": "And two, enablement.",
+  "zh": "第二，赋能。"
+ },
+ {
+  "seg": 193,
+  "start": 848.032,
+  "end": 851.733,
+  "speaker": "Unknown",
+  "en": "How do you get in these enterprises and actually get them to adopt and use AI?",
+  "zh": "你如何进入这些企业并真正让他们采用和使用 AI？"
+ },
+ {
+  "seg": 194,
+  "start": 853.094,
+  "end": 858.035,
+  "speaker": "Unknown",
+  "en": "Traditionally speaking, these two initiatives are owned by two separate teams.",
+  "zh": "传统上讲，这两个举措由两个不同的团队负责。"
+ },
+ {
+  "seg": 195,
+  "start": 858.115,
+  "end": 861.417,
+  "speaker": "Unknown",
+  "en": "The continual learning is owned by your research team, your platform engineering team.",
+  "zh": "持续学习由你的研究团队、你的平台工程团队负责。"
+ },
+ {
+  "seg": 196,
+  "start": 861.777,
+  "end": 865.398,
+  "speaker": "Unknown",
+  "en": "Enablement's owned by growth or deployment or customer experience.",
+  "zh": "赋能由增长团队或部署团队或客户体验团队负责。"
+ },
+ {
+  "seg": 197,
+  "start": 865.558,
+  "end": 867.859,
+  "speaker": "Unknown",
+  "en": "Usually pretty siloed, not much interaction between the two.",
+  "zh": "通常是相当孤立的，两者之间没有太多的互动。"
+ },
+ {
+  "seg": 198,
+  "start": 869.88,
+  "end": 871.6,
+  "speaker": "Unknown",
+  "en": "We think these are part of the exact same loop.",
+  "zh": "我们认为它们属于完全相同的循环。"
+ },
+ {
+  "seg": 199,
+  "start": 872.381,
+  "end": 875.482,
+  "speaker": "Unknown",
+  "en": "The agent only improves if people actually use it.",
+  "zh": "只有当人们真正使用它时，智能体才会改进。"
+ },
+ {
+  "seg": 200,
+  "start": 877.18,
+  "end": 879.822,
+  "speaker": "Unknown",
+  "en": "And people only use the agent if it's worth adopting.",
+  "zh": "而且人们只有在值得采用的时候才会使用该智能体。"
+ },
+ {
+  "seg": 201,
+  "start": 881.303,
+  "end": 883.145,
+  "speaker": "Unknown",
+  "en": "So here's a little graphic of a snowball.",
+  "zh": "所以这里有一个雪球的小图示。"
+ },
+ {
+  "seg": 202,
+  "start": 883.625,
+  "end": 888.309,
+  "speaker": "Unknown",
+  "en": "More usage drives continual learning, which drives a better agent, which drives more usage again.",
+  "zh": "更多的使用推动持续学习，这推动更好的智能体，这反过来又推动更多的使用。"
+ },
+ {
+  "seg": 203,
+  "start": 889.37,
+  "end": 892.553,
+  "speaker": "Unknown",
+  "en": "All this to say, there's still a really big elephant in the room.",
+  "zh": "所有这些要说的是，房间里仍然有一头真正的大象。"
+ },
+ {
+  "seg": 204,
+  "start": 893.954,
+  "end": 895.215,
+  "speaker": "Unknown",
+  "en": "How do you get the initial usage?",
+  "zh": "你如何获得最初的使用？"
+ },
+ {
+  "seg": 205,
+  "start": 895.996,
+  "end": 903.182,
+  "speaker": "Unknown",
+  "en": "I think a lot of people will use Claude Code or give it to their whole enterprise and expect folks to just start using it.",
+  "zh": "我认为很多人会使用 Claude Code 或把它交给他们的整个企业，并期望人们直接开始使用它。"
+ },
+ {
+  "seg": 206,
+  "start": 904.473,
+  "end": 907.294,
+  "speaker": "Unknown",
+  "en": "Everyone assumes the usage just shows up.",
+  "zh": "每个人都假设使用量只是会出现。"
+ },
+ {
+  "seg": 207,
+  "start": 908.495,
+  "end": 911.096,
+  "speaker": "Unknown",
+  "en": "But as we all know, that's simply not the case.",
+  "zh": "但众所周知，事实并非如此。"
+ },
+ {
+  "seg": 208,
+  "start": 911.236,
+  "end": 912.576,
+  "speaker": "Unknown",
+  "en": "It never does.",
+  "zh": "它从未发生过。"
+ },
+ {
+  "seg": 209,
+  "start": 912.656,
+  "end": 917.078,
+  "speaker": "Unknown",
+  "en": "Getting a 100-year-old firm to change its processes is hard.",
+  "zh": "让一家百年公司改变其流程是困难的。"
+ },
+ {
+  "seg": 210,
+  "start": 917.858,
+  "end": 929.282,
+  "speaker": "Unknown",
+  "en": "You could have the best AI coworker on the internet or on Earth, and if the person who's closed the books for the last 20 years continues to do things the same way, nothing changes.",
+  "zh": "你可能拥有互联网上或地球上最好的 AI 同事，如果过去 20 年一直结账的那个人继续以同样的方式做事，什么都不会改变。"
+ },
+ {
+  "seg": 211,
+  "start": 929.643,
+  "end": 930.343,
+  "speaker": "Unknown",
+  "en": "Nothing happens.",
+  "zh": "什么也没发生。"
+ },
+ {
+  "seg": 212,
+  "start": 932.307,
+  "end": 933.889,
+  "speaker": "Unknown",
+  "en": "So what can you actually do about it?",
+  "zh": "那么你实际上能为此做些什么？"
+ },
+ {
+  "seg": 213,
+  "start": 934.489,
+  "end": 936.752,
+  "speaker": "Unknown",
+  "en": "This seems like incredibly hard.",
+  "zh": "这看起来极其困难。"
+ },
+ {
+  "seg": 214,
+  "start": 937.232,
+  "end": 938.233,
+  "speaker": "Unknown",
+  "en": "What's the upshot?",
+  "zh": "有什么结果？"
+ },
+ {
+  "seg": 215,
+  "start": 938.333,
+  "end": 939.674,
+  "speaker": "Unknown",
+  "en": "How do you actually get this stuff to work?",
+  "zh": "你实际上是如何让这些东西运作的？"
+ },
+ {
+  "seg": 216,
+  "start": 940.055,
+  "end": 951.687,
+  "speaker": "Unknown",
+  "en": "Well, I think a lot about Jensen and how he dominated the market, in his words, with extreme hardware software co-design, designing the chips and the software together as one system.",
+  "zh": "嗯，我经常思考 Jensen 以及他是如何主导市场的，用他的话来说，通过极端的硬件软件协同设计，将芯片和软件作为一个系统一起设计。"
+ },
+ {
+  "seg": 217,
+  "start": 953.1,
+  "end": 956.964,
+  "speaker": "Unknown",
+  "en": "We look at this through the lens of extreme software service co-design.",
+  "zh": "我们通过极端的软件服务协同设计的视角来看待这一点。"
+ },
+ {
+  "seg": 218,
+  "start": 957.325,
+  "end": 962.411,
+  "speaker": "Unknown",
+  "en": "How do you co-design our products with the people and the processes at our businesses?",
+  "zh": "你如何与我们业务中的人员和流程协同设计我们的产品？"
+ },
+ {
+  "seg": 219,
+  "start": 962.711,
+  "end": 966.776,
+  "speaker": "Unknown",
+  "en": "And I'd argue this is only possible from being within under the same roof.",
+  "zh": "而且我认为这只有在同一个屋檐下才可能实现。"
+ },
+ {
+  "seg": 220,
+  "start": 968.595,
+  "end": 979.998,
+  "speaker": "Unknown",
+  "en": "We need to meet the people within these companies both metaphorically, for example, bringing products to their systems so that the energy required for enablement is kept low, and also physically.",
+  "zh": "我们需要在这些公司内部在隐喻和物理层面上与人们见面，例如，将产品带到他们的系统中，以便启用所需的能量保持在低位，以及物理上。"
+ },
+ {
+  "seg": 221,
+  "start": 980.558,
+  "end": 985.919,
+  "speaker": "Unknown",
+  "en": "Get on a plane, show up, say hi, learn what people actually do.",
+  "zh": "坐上飞机，出现，打招呼，了解人们实际在做什么。"
+ },
+ {
+  "seg": 222,
+  "start": 986.199,
+  "end": 996.942,
+  "speaker": "Unknown",
+  "en": "Maybe you build a product that's natively embedded into Excel or into their ERP system, maybe their 3D design software, or maybe even their Microsoft products like Outlook, Gmail, et cetera.",
+  "zh": "也许你构建了一个原生嵌入到 Excel 或他们的 ERP 系统中的产品，也许是他们的 3D 设计软件，或者甚至是他们的 Microsoft 产品如 Outlook, Gmail 等等。"
+ },
+ {
+  "seg": 223,
+  "start": 998.166,
+  "end": 999.128,
+  "speaker": "Unknown",
+  "en": "Or you show up in person.",
+  "zh": "或者你亲自出现。"
+ },
+ {
+  "seg": 224,
+  "start": 999.148,
+  "end": 1001.493,
+  "speaker": "Unknown",
+  "en": "You do a lunch and learn with a bunch of folks at one of the companies.",
+  "zh": "你在其中一家公司和一群人做一次午餐学习会。"
+ },
+ {
+  "seg": 225,
+  "start": 1001.833,
+  "end": 1005.34,
+  "speaker": "Unknown",
+  "en": "You go to their conferences, and you create cotton candy and run a stand for them.",
+  "zh": "你去他们的会议，你制作棉花糖并为他们运营一个摊位。"
+ },
+ {
+  "seg": 226,
+  "start": 1005.781,
+  "end": 1010.089,
+  "speaker": "Unknown",
+  "en": "You go mountain biking and ask them about all the difficulties that they have with their actual day-to-day jobs.",
+  "zh": "你去山地骑行，并询问他们在日常实际工作中面临的所有困难。"
+ },
+ {
+  "seg": 227,
+  "start": 1011.062,
+  "end": 1022.144,
+  "speaker": "Unknown",
+  "en": "Or you show up in person, one-on-one, or sometimes even two-on-one in this case, and just show them how to use the tools and learn from the feedback because this is what the rest of the world really looks like.",
+  "zh": "或者你亲自出现，一对一，或者在这种情况下有时甚至是二对一，只是向他们展示如何使用工具并从反馈中学习，因为这就是世界其他地方的真正样子。"
+ },
+ {
+  "seg": 228,
+  "start": 1022.224,
+  "end": 1024.245,
+  "speaker": "Unknown",
+  "en": "It's not like the folks in this room or in San Francisco.",
+  "zh": "这不像这个房间里的人或在 San Francisco 的人。"
+ },
+ {
+  "seg": 229,
+  "start": 1024.765,
+  "end": 1025.925,
+  "speaker": "Unknown",
+  "en": "It's a lot more like this.",
+  "zh": "这更像是这样。"
+ },
+ {
+  "seg": 230,
+  "start": 1026.425,
+  "end": 1031.626,
+  "speaker": "Unknown",
+  "en": "You cannot co-design software with a services business over Zoom or over a support ticket.",
+  "zh": "你无法通过 Zoom 或通过支持工单与服务业务进行软件协同设计。"
+ },
+ {
+  "seg": 231,
+  "start": 1031.726,
+  "end": 1032.546,
+  "speaker": "Unknown",
+  "en": "You have to be there.",
+  "zh": "你必须在那里。"
+ },
+ {
+  "seg": 232,
+  "start": 1032.586,
+  "end": 1033.527,
+  "speaker": "Unknown",
+  "en": "You have to be in person.",
+  "zh": "你必须亲自在场。"
+ },
+ {
+  "seg": 233,
+  "start": 1034.247,
+  "end": 1036.907,
+  "speaker": "Unknown",
+  "en": "And I'd argue this is the part that actually makes it work.",
+  "zh": "而且我认为这是真正让它起作用的部分。"
+ },
+ {
+  "seg": 234,
+  "start": 1037.347,
+  "end": 1040.648,
+  "speaker": "Unknown",
+  "en": "In order to get AI diffusion to work, you have to touch some grass.",
+  "zh": "为了让 AI 扩散发挥作用，你必须接触草地。"
+ },
+ {
+  "seg": 235,
+  "start": 1042.209,
+  "end": 1042.949,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 236,
+  "start": 1043.33,
+  "end": 1045.511,
+  "speaker": "Unknown",
+  "en": "And I'll be around for the rest of the day if there's anything I could help with.",
+  "zh": "今天剩下的时间里我都会在，如果有任何我可以帮忙的地方。"
+ },
+ {
+  "seg": 237,
+  "start": 1045.992,
+  "end": 1046.872,
+  "speaker": "Unknown",
+  "en": "My email is up there.",
+  "zh": "我的邮箱在上面。"
+ },
+ {
+  "seg": 238,
+  "start": 1047.813,
+  "end": 1048.594,
+  "speaker": "Unknown",
+  "en": "And yeah, thank you.",
+  "zh": "是的，谢谢。"
+ }
+]

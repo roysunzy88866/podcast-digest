@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]] [[Ben]]
+[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":79,"Claude 认证架构师考试":1,"智能体":156,"循环":3,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":38}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":79,"Claude 认证架构师考试":1,"智能体":158,"循环":3,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":40}</script>
 
 <script>
 (function(){

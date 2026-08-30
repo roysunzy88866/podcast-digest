@@ -1,0 +1,2333 @@
+{
+  "episode_id": "2026-08-30-lennys-ais-third-era-the-rise-of-persistent",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-08-30",
+  "tags": [
+    "AI 产品方法",
+    "智能体",
+    "知识工作",
+    "产品管理",
+    "Codex"
+  ],
+  "categories": [
+    "产品方法",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "tara-seshan",
+      "type": "person",
+      "role": "host",
+      "name": "Tara Seshan",
+      "file": "Tara Seshan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            78.06,
+            79.621
+          ],
+          "quote": "Today my guest is Tara Seshan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 24,
+          "t": [
+            136.892,
+            138.554
+          ],
+          "quote": "With that, I bring you Tara Seshan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3087.423,
+            3089.96
+          ],
+          "quote": "I just kicked off create a site about Tara Seshan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3095,
+            3096.192
+          ],
+          "quote": "Tara Seshan, like station.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            110.494,
+            120.398
+          ],
+          "quote": "And most importantly of all, Tara was one of the three Lenny's Newsletter Fellows, which is a program that I ran a few years ago to highlight some of the most amazing up and coming product leaders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 23,
+          "t": [
+            125.2,
+            136.431
+          ],
+          "quote": "Before we get into it, don't forget to check out lennysproductpass.com for a free year of the hottest and most beautifully crafted AI products in the world available exclusively to Lenny's Newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 26,
+          "t": [
+            145.784,
+            146.407
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1077.591,
+            1083.319
+          ],
+          "quote": "I'd be, \"Hey, my agent, Lenny's agent, go check, make sure this is legit and connects to the way I think about the world.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 929,
+          "t": [
+            4868.102,
+            4868.857
+          ],
+          "quote": "Thanks, Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 内部是「创始人领导」的去中心化结构，每个人在自己领域都像创始人一样运作；没有秘密策略宝库，想法会非常快地变成公共产品和对外信息",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            63.261,
+            67
+          ],
+          "quote": "I'm curious what's most surprised you about what it's actually like to work at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 12,
+          "t": [
+            67.661,
+            75.776
+          ],
+          "quote": "I came into the company expecting that there was a treasure trove of OpenAI secret strategy, and actually OpenAI is open.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 14,
+          "t": [
+            79.981,
+            83.622
+          ],
+          "quote": "Tara leads product for both Codex and ChatGPT Work at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 18,
+          "t": [
+            95.047,
+            100.35
+          ],
+          "quote": "Prior to OpenAI, Tara spent six years at Stripe where she joined as one of the first five product managers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 30,
+          "t": [
+            150.283,
+            156.575
+          ],
+          "quote": "So you've been at OpenAI for just about a year now, which in most places would be a very short amount of time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 33,
+          "t": [
+            160.601,
+            166.31
+          ],
+          "quote": "I imagine when you joined OpenAI, you had a sense of what it was going to be like to work at a frontier lab.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 34,
+          "t": [
+            167.051,
+            172.94
+          ],
+          "quote": "I'm curious what's most surprised you about what it's actually like to work at OpenAI and ideally both good and bad stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 35,
+          "t": [
+            173.36,
+            184.652
+          ],
+          "quote": "So many things about working at OpenAI felt familiar to me because I had worked at other places that were high growth, high talent, high intensity, hyperscaling mode, places before.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 38,
+          "t": [
+            202.723,
+            214.807
+          ],
+          "quote": "And OpenAI is actually founders led, which is that everyone inside the company, especially in their area, is in essence a founder to some extent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 39,
+          "t": [
+            214.867,
+            223.69
+          ],
+          "quote": "The level of top-down direction at OpenAI is extremely limited relative to places I've worked for prior.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 43,
+          "t": [
+            249.057,
+            257.8
+          ],
+          "quote": "But actually at OpenAI that you do not at all, you are doing everything it takes to get product market fit for your product akin to how a founder might.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            258.38,
+            279.929
+          ],
+          "quote": "But the counter to this is that, or maybe the more surprising side of this is I came into the company expecting that there was a treasure trove of OpenAI secret strategy that I would be able to understand akin to how at past companies you come in and you're like, \"Oh yes, this is the payments Bible and this is how we think about payments and operations.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 45,
+          "t": [
+            280.349,
+            283.85
+          ],
+          "quote": "And actually OpenAI is open.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 50,
+          "t": [
+            316.623,
+            333
+          ],
+          "quote": "But I think the piece that is really inspiring to me is that so much of what OpenAI does immediately becomes something that users can touch and feel in the product and that cycle is faster than anywhere else I've seen.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 52,
+          "t": [
+            338.223,
+            345.008
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1524.4,
+            1527.742
+          ],
+          "quote": "\"Is this maximally accelerated,\" is totally a OpenAI meme.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1528.202,
+            1535.085
+          ],
+          "quote": "The other OpenAI meme that Andrew Ambrosino and I love to ask the team is, \"Are you mainlining it yet?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2503.622,
+            2520.41
+          ],
+          "quote": "Everyone on the team is incredibly thoughtful and independent and to the point of there are many founders at OpenAI, almost everyone on that team, the desktop team especially, acts like founders and cares about every piece and every detail.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3344.481,
+            3349.825
+          ],
+          "quote": "At OpenAI, I think I still write as thinking all the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 804,
+          "t": [
+            4411.475,
+            4415.739
+          ],
+          "quote": "Ideally not OpenAI product, but you can also go there if you want.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 806,
+          "t": [
+            4425.804,
+            4432.066
+          ],
+          "quote": "But outside of OpenAI products, my favorite AI products are products that my friends make for me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 860,
+          "t": [
+            4614.412,
+            4623.737
+          ],
+          "quote": "One of the Thiel Fellows that I get to work with all the time now is Ari Weinstein, who founded a company called Sky that was acquired by OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 863,
+          "t": [
+            4641.547,
+            4649.011
+          ],
+          "quote": "And so Ari leads a lot of our computer use stuff at OpenAI, and he's shipped a whole bunch of great things for computer use.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 是面向开发者的编码模式，有完整编码 UI（如工作树），是 ChatGPT 中与智能体协作的核心能力层，Work 模式底层也是 Codex",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            79.981,
+            83.622
+          ],
+          "quote": "Tara leads product for both Codex and ChatGPT Work at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1036.327,
+            1045.13
+          ],
+          "quote": "And so there was a time where everyone internally was just sending their Codex threads, screenshots of their Codex threads to each other on Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1437.581,
+            1444.413
+          ],
+          "quote": "To your point, the hardest part is just remembering to even to try just to be like, \"Oh yeah, well let me see if Codex can do this for me.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1771.942,
+            1777.828
+          ],
+          "quote": "ChatGPT, and then there's a dropdown and there's ChatGPT and Codex, and then there's this toggle, Chat and Work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1832.74,
+            1848.768
+          ],
+          "quote": "In the near term, picking between ChatGPT and Codex is really a choice for, do you want to stay in more development oriented UI or do you want to have the same power and capabilities in the ChatGPT mode?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1849.188,
+            1854.651
+          ],
+          "quote": "And so if you're a Codex user, keep using Codex, you're not missing out on anything, continue using it as much as possible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1874.04,
+            1878.202
+          ],
+          "quote": "But in Work mode, that's where under the covers, this is Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1926.947,
+            1933.092
+          ],
+          "quote": "And the knowledge Work mode, it's actually Codex doing all that work, but people may not know what Codex is, may be afraid of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1934.093,
+            1936.395
+          ],
+          "quote": "Is there anything in that Work mode that's not just Codex?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1946.142,
+            1959.289
+          ],
+          "quote": "So Work mode and Codex mode, if you go to Codex and ask it to generate an amazing financial model to price your product or something like that or predict my revenue for the next six months or something like that, Codex will do as good a job as Work mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1970.054,
+            1973.576
+          ],
+          "quote": "And so Codex users aren't missing out on anything by not switching modes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1975.237,
+            1980.8
+          ],
+          "quote": "Stay in Codex and do all the stuff you want to do in Codex, and we will show you the appropriate UI based on the things you asked for.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2012.442,
+            2016.925
+          ],
+          "quote": "Because things move so fast, I imagine somebody's like, \"Let's try Codex.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2022.849,
+            2024.21
+          ],
+          "quote": "We got ChatGPT, we got Codex.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2043.302,
+            2059.313
+          ],
+          "quote": "I imagine one of the hardest parts of your job is balancing this hundred billion MAU product, ChatGPT, maybe the most successful consumer product in history, with Codex, which is this new thing and other new things that you guys want to try.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2354.3,
+            2362.284
+          ],
+          "quote": "Something I've noticed on Twitter is there's definitely been this vibe shift from Claude Code to Codex in the past few months.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2366.006,
+            2373.51
+          ],
+          "quote": "More recently, it just feels like people are leaning now towards Codex, at least on Twitter, which is a bubble, but that's where a lot of tech people are.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2387.597,
+            2392.88
+          ],
+          "quote": "What helped shift the vibes and help Codex become as successful as it's becoming?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2405.665,
+            2422.252
+          ],
+          "quote": "And actually with the Codex app, the team who initially got it up and running and were working on it were super, again, user-focused, tight iteration loop, really dogfooded the thing, mainlined the app as much as possible to get everything right.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2943.537,
+            2944.92
+          ],
+          "quote": "I don't know if you've tried building sites in Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3033,
+            3035
+          ],
+          "quote": "In Codex be like, \"Create a site that-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3076.401,
+            3081.877
+          ],
+          "quote": "And you could do that through, I imagine, Work or... Can you do it through all the surfaces, Codex, Work, ChatGPT Chat?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 523,
+          "t": [
+            3085,
+            3085.404
+          ],
+          "quote": "... through Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3108.967,
+            3112.057
+          ],
+          "quote": "The other thing I really love is using Visualize in Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 805,
+          "t": [
+            4417,
+            4425.744
+          ],
+          "quote": "Ooh, I mean, of course my favorite AI product is ChatGPT and using cool Sites and Visualize stuff in Codex, which is amazing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "type": "concept",
+      "role": "concept",
+      "name": "Work",
+      "file": "Work",
+      "primary": true,
+      "how_described": "本集说 Work 模式底层就是 Codex 的能力，但移除了编码 UI，让非开发者也能用智能体完成复杂金融模型等知识工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.04,
+            14
+          ],
+          "quote": "If you think about the first era of AI products as chat, the second era of these products working with agents, that third era that might come soon is how do you work with a persistent coworker who is able to get things done with you?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 11,
+          "t": [
+            63.261,
+            67
+          ],
+          "quote": "I'm curious what's most surprised you about what it's actually like to work at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 14,
+          "t": [
+            79.981,
+            83.622
+          ],
+          "quote": "Tara leads product for both Codex and ChatGPT Work at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 33,
+          "t": [
+            160.601,
+            166.31
+          ],
+          "quote": "I imagine when you joined OpenAI, you had a sense of what it was going to be like to work at a frontier lab.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 34,
+          "t": [
+            167.051,
+            172.94
+          ],
+          "quote": "I'm curious what's most surprised you about what it's actually like to work at OpenAI and ideally both good and bad stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 64,
+          "t": [
+            409.26,
+            421.085
+          ],
+          "quote": "When a market is more static or a market is more slow moving, you have the chance to actually do some grand strategy-esque work because it's more predictable or you can at least understand all of the pieces.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 87,
+          "t": [
+            574.707,
+            578.828
+          ],
+          "quote": "What is the thing that will determine whether your product works or doesn't work?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 100,
+          "t": [
+            657.945,
+            663.868
+          ],
+          "quote": "And it feels like it continues to be a topic of discussion for knowledge work broadly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 102,
+          "t": [
+            673.654,
+            680.939
+          ],
+          "quote": "How do you think about just this idea of loops expanding from just software engineering to product management to all knowledge work?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 104,
+          "t": [
+            683,
+            700.167
+          ],
+          "quote": "I do think that increasingly the future of work will look more like steering than rowing in the sense that there will be agents that you'll be able to work with that do a lot of the rowing and your role increasingly becomes steering the ship in the right direction and pointing it in the right direction.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 115,
+          "t": [
+            784.109,
+            792.275
+          ],
+          "quote": "And I think work will also look like steering with other people over a group of agents that you guys work with together.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 145,
+          "t": [
+            936.14,
+            940.944
+          ],
+          "quote": "I'm curious what you think the next shift will be in how we work just broadly as knowledge workers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 146,
+          "t": [
+            941.664,
+            952.152
+          ],
+          "quote": "It feels like not only do you have access to the most advanced tools that other people don't get, also you work around the most AI forward people in the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 147,
+          "t": [
+            952.953,
+            961.6
+          ],
+          "quote": "How are people working internally that you think will become a more normal way we all work using these AI tools in the next, I don't know, three to six months?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            964.901,
+            971.643
+          ],
+          "quote": "One is continuing to work with agents at higher and higher levels of abstraction.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            986.169,
+            993.171
+          ],
+          "quote": "People are increasingly thinking about agents that are persistent, that feel like teammates, that feel like coworkers, where you can work with them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 153,
+          "t": [
+            993.211,
+            999.673
+          ],
+          "quote": "The way I might work with someone on my team, which is they do a whole bunch of work, I provide input, and then they do work again.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 154,
+          "t": [
+            999.713,
+            1005.796
+          ],
+          "quote": "And we sync up at different cadences, look at each other's in progress work and provide more and more feedback.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1011.378,
+            1017.58
+          ],
+          "quote": "It feels like a much more natural interface for us to be able to work with agents, and we already see a lot of that internally as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1018.26,
+            1024.703
+          ],
+          "quote": "The second is that a lot of my work with agents thus far has been one-on-one.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 158,
+          "t": [
+            1025.623,
+            1035.747
+          ],
+          "quote": "I work with my agent, maybe it's spawned some subagents to get some tasks done, but it's me and my agent together, and that is potentially divorced from what my colleagues are doing with their agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1057.455,
+            1064.658
+          ],
+          "quote": "And so as more and more work gets done with our agents, shouldn't we be able to get work done with our agents together?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1076.169,
+            1077.531
+          ],
+          "quote": "She did some work on some analysis.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1084,
+            1094.359
+          ],
+          "quote": "Ideally, work feels like a multiplayer game where all of us together are getting stuff done, steering our agents as our agents continue to take care of more and more of those rowing tactical tasks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1095,
+            1102.825
+          ],
+          "quote": "It's interesting how it's just been this slow progression of trust and just awareness that this can be how we work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1102.885,
+            1107.108
+          ],
+          "quote": "Just this, \"Okay, go work for longer, you can take on more.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1129.741,
+            1143.249
+          ],
+          "quote": "But I think a lot of the things that have enabled us to then work with our agents together or have the agents take care of higher and higher order abstraction things certainly are about the intelligence, their ability to perform long-running tasks, and how long they can stay on task.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1266.972,
+            1284.92
+          ],
+          "quote": "That person was always the unicorn hire because they were able to really flatten the layers of translation needed between all of these functions and were able to build something or ideate something really quickly and easily themselves and get it up and running, and then were able to work with a team and collaborate with a team on it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1696.419,
+            1696.96
+          ],
+          "quote": "How does that work?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1771.942,
+            1777.828
+          ],
+          "quote": "ChatGPT, and then there's a dropdown and there's ChatGPT and Codex, and then there's this toggle, Chat and Work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1874.04,
+            1878.202
+          ],
+          "quote": "But in Work mode, that's where under the covers, this is Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1881.303,
+            1893.009
+          ],
+          "quote": "You're not going to see a work tree pop up all of a sudden in Work mode, but it is the same power to get things done, to, for example, generate a really complex financial model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1893.649,
+            1896.11
+          ],
+          "quote": "That's all possible in Work mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1896.29,
+            1918
+          ],
+          "quote": "And we see people, especially I mentioned our corporate finance team, use Work mode to do incredible, incredible things that were previously either manual or required deep expertise from one person on the team, become things that the whole team can be able to execute or just elevate the ambitions of everyone on the team in terms of timeline or capabilities or frontier of what they can get done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1921.563,
+            1926.207
+          ],
+          "quote": "There's the engineering mode, the chat mode, and then the do knowledge Work mode.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1926.947,
+            1933.092
+          ],
+          "quote": "And the knowledge Work mode, it's actually Codex doing all that work, but people may not know what Codex is, may be afraid of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1934.093,
+            1936.395
+          ],
+          "quote": "Is there anything in that Work mode that's not just Codex?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1946.142,
+            1959.289
+          ],
+          "quote": "So Work mode and Codex mode, if you go to Codex and ask it to generate an amazing financial model to price your product or something like that or predict my revenue for the next six months or something like that, Codex will do as good a job as Work mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2007.419,
+            2008.7
+          ],
+          "quote": "We should do the same thing with knowledge work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2026.351,
+            2033.015
+          ],
+          "quote": "It's not going to feel obvious and perfect for a while because you have to adjust as things work and things don't work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2070.54,
+            2091.23
+          ],
+          "quote": "Yeah, I think one of the most interesting things here is that one of the goals of launching Work in ChatGPT web and launching it in the desktop app and bringing these things together was to look at those billion people who are using ChatGPT and bring them more and more of the agent's power.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2104.636,
+            2108.658
+          ],
+          "quote": "We'd like to bring it to more domains certainly, like knowledge work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2109.058,
+            2113
+          ],
+          "quote": "And that is part of the goal of giving all these billion chat users the power of Work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2137.18,
+            2149.504
+          ],
+          "quote": "And then of course, that third era that might come soon is how do you work with a persistent coworker who is able to get things done with you, maybe collaboratively with other people?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2540.761,
+            2550.548
+          ],
+          "quote": "Something you touched on is this idea of roles overlapping, this idea of engineers are doing PME work, you're doing probably shipping prototypes and building, maybe shipping to production.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2628.952,
+            2636.595
+          ],
+          "quote": "And then whatever work needs to be done to make that possible, certainly people can pick it up based on their affinity, based on their capability.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2861.063,
+            2867.626
+          ],
+          "quote": "That piece of my work has remained so human and has actually become more important than ever.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2868.026,
+            2885.114
+          ],
+          "quote": "The part where you talk to other people on your team and collectively figure out how you can be enthusiastic about a area, how you learn and work together, how you elevate each other's ambitions, all of that feels and remains such a human thing to do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2912.468,
+            2922.173
+          ],
+          "quote": "I'm curious, what are some ways that you use AI in your work that may inspire people like, \"Oh wow, I didn't think about using it that...\" There's two buckets here.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2935.862,
+            2943.377
+          ],
+          "quote": "One of the most exciting ways that I use AI in work is I actually build sites all the time now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2950.562,
+            2957.344
+          ],
+          "quote": "You can basically build a site, certainly in Work as a presentational artifact, but I also build sites for literally anything.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3076.401,
+            3081.877
+          ],
+          "quote": "And you could do that through, I imagine, Work or... Can you do it through all the surfaces, Codex, Work, ChatGPT Chat?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3083,
+            3083
+          ],
+          "quote": "You can do it through Work. You can do it-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 558,
+          "t": [
+            3193.14,
+            3195.981
+          ],
+          "quote": "I really strongly believe that I do two types of writing at work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3335.116,
+            3342.82
+          ],
+          "quote": "And so writing as thinking there is really prized, and that's where I did the majority of that writing work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3351.286,
+            3367.516
+          ],
+          "quote": "But the shareable artifact here is not really a long doc or a proof of work in that way, partially because times have changed and a long doc is not a signal that you thought through something.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3833.484,
+            3836.466
+          ],
+          "quote": "Previously, I'd always underrated PMM work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3840.43,
+            3851.359
+          ],
+          "quote": "And then I realized how transformative that work done excellently is to a company's outcome, and in fact can be the element that makes a company successful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3909.161,
+            3917.427
+          ],
+          "quote": "One thing that we've been thinking about a lot in product building, especially with ChatGPT Work in this new era, is how knowledge work and coding are actually fundamentally different.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3937.36,
+            3947.004
+          ],
+          "quote": "But knowledge work is different in that I can't simply look at the deck in the end and see the numbers, like, oh, it's like 90% success or whatever in the deck and actually believe that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3953.107,
+            3982.84
+          ],
+          "quote": "And so in terms of how that looks in the product, a lot of work that we have done and have to continue to do is continue to adapt the product to knowledge work, which means way more focus on making ChatGPT your collaborator, allowing you to see all the in-progress work, see its citations and inputs, help you go on the journey with the model to get to that end output, such that you know in the end that, oh wait, this thing is right, this thing is good, this thing is useful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 701,
+          "t": [
+            3996.448,
+            4003.452
+          ],
+          "quote": "Is the surface of a thread which is so suited to coding the right place for you to see all of that for knowledge work as well?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 703,
+          "t": [
+            4006.954,
+            4017.5
+          ],
+          "quote": "And so as we think of maybe bringing in human collaborators into your work, we also need to think about how we can make the model more of a collaborator with you as you get things done together.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 706,
+          "t": [
+            4028.466,
+            4034.969
+          ],
+          "quote": "So much of that is helping them see here's the work I did to get there, here's all the steps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 707,
+          "t": [
+            4035.91,
+            4041.233
+          ],
+          "quote": "And so it makes sense that you need the AI to show you that same sort of work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 708,
+          "t": [
+            4041.253,
+            4048.937
+          ],
+          "quote": "That it did the proof of work essentially versus engineering where like, \"Okay, I don't need to know all of the little architectural decisions you made, just what does it look like?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 717,
+          "t": [
+            4064.831,
+            4068.254
+          ],
+          "quote": "So I see the challenge in your job to make all this work is one product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 830,
+          "t": [
+            4508.304,
+            4512.679
+          ],
+          "quote": "Do you have a favorite life motto that you find yourself coming back to often in work or in life?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 831,
+          "t": [
+            4513.201,
+            4518.636
+          ],
+          "quote": "Ooh, my life motto that I come back to all the time in work is actually Toni Morrison's three takes on work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 836,
+          "t": [
+            4523.782,
+            4526.344
+          ],
+          "quote": "It's from her essay, The Work You Do, The Person You Are.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 837,
+          "t": [
+            4527.124,
+            4532.289
+          ],
+          "quote": "The first one is whatever the work is, do it well, not for the boss, but for yourself.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 840,
+          "t": [
+            4540.456,
+            4543.959
+          ],
+          "quote": "And the fourth is, you are not the work you do, you are the person that you are.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 860,
+          "t": [
+            4614.412,
+            4623.737
+          ],
+          "quote": "One of the Thiel Fellows that I get to work with all the time now is Ari Weinstein, who founded a company called Sky that was acquired by OpenAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 882,
+          "t": [
+            4738.638,
+            4742.48
+          ],
+          "quote": "And yeah, feel very lucky to be able to work with those folks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 893,
+          "t": [
+            4762.903,
+            4765.024
+          ],
+          "quote": "They should use ChatGPT in the web and try Work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 895,
+          "t": [
+            4767.686,
+            4770.687
+          ],
+          "quote": "They can toggle over to it and try out Work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 902,
+          "t": [
+            4795.403,
+            4797.779
+          ],
+          "quote": "Ask it to build a site to tell you what you could do with Work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 904,
+          "t": [
+            4800.03,
+            4800.573
+          ],
+          "quote": "That will work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 915,
+          "t": [
+            4827.997,
+            4830.9
+          ],
+          "quote": "You've finally got these things running in the cloud doing real work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 921,
+          "t": [
+            4846.243,
+            4852.448
+          ],
+          "quote": "So on your mobile app, you can go to ChatGPT, toggle Work, ask it to do some work, and you don't need to actually have the...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 923,
+          "t": [
+            4854.57,
+            4857.732
+          ],
+          "quote": "It'll keep doing work until it's done and then you could chat to it.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 拥有约十亿月活用户，界面提供 Chat、Work、Codex 等模式切换，北极星目标是最终合并成一个入口，用户不需要选模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            79.981,
+            83.622
+          ],
+          "quote": "Tara leads product for both Codex and ChatGPT Work at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1762.645,
+            1765.653
+          ],
+          "quote": "I want to talk about ChatGPT, the app, briefly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1771.942,
+            1777.828
+          ],
+          "quote": "ChatGPT, and then there's a dropdown and there's ChatGPT and Codex, and then there's this toggle, Chat and Work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1832.74,
+            1848.768
+          ],
+          "quote": "In the near term, picking between ChatGPT and Codex is really a choice for, do you want to stay in more development oriented UI or do you want to have the same power and capabilities in the ChatGPT mode?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1854.991,
+            1859.373
+          ],
+          "quote": "But if you're a ChatGPT user who is like, what are these new agentic capabilities?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1859.653,
+            1861.234
+          ],
+          "quote": "You should probably be in ChatGPT mode.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1861.934,
+            1867.797
+          ],
+          "quote": "And then when you're in ChatGPT, if you want to have conversations, if you want to search, that's where chat mode is the right thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2022.849,
+            2024.21
+          ],
+          "quote": "We got ChatGPT, we got Codex.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2043.302,
+            2059.313
+          ],
+          "quote": "I imagine one of the hardest parts of your job is balancing this hundred billion MAU product, ChatGPT, maybe the most successful consumer product in history, with Codex, which is this new thing and other new things that you guys want to try.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2070.54,
+            2091.23
+          ],
+          "quote": "Yeah, I think one of the most interesting things here is that one of the goals of launching Work in ChatGPT web and launching it in the desktop app and bringing these things together was to look at those billion people who are using ChatGPT and bring them more and more of the agent's power.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3076.401,
+            3081.877
+          ],
+          "quote": "And you could do that through, I imagine, Work or... Can you do it through all the surfaces, Codex, Work, ChatGPT Chat?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3117.822,
+            3127.328
+          ],
+          "quote": "You can just do /visualize, visualize my ChatGPT usage until now, or something like that, and it will pull in all the things that you've done and create an amazing visualization for it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3909.161,
+            3917.427
+          ],
+          "quote": "One thing that we've been thinking about a lot in product building, especially with ChatGPT Work in this new era, is how knowledge work and coding are actually fundamentally different.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3953.107,
+            3982.84
+          ],
+          "quote": "And so in terms of how that looks in the product, a lot of work that we have done and have to continue to do is continue to adapt the product to knowledge work, which means way more focus on making ChatGPT your collaborator, allowing you to see all the in-progress work, see its citations and inputs, help you go on the journey with the model to get to that end output, such that you know in the end that, oh wait, this thing is right, this thing is good, this thing is useful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 805,
+          "t": [
+            4417,
+            4425.744
+          ],
+          "quote": "Ooh, I mean, of course my favorite AI product is ChatGPT and using cool Sites and Visualize stuff in Codex, which is amazing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 892,
+          "t": [
+            4758.18,
+            4762.863
+          ],
+          "quote": "Anything I want to plug and point people to, maybe they should use the ChatGPT desktop app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 893,
+          "t": [
+            4762.903,
+            4765.024
+          ],
+          "quote": "They should use ChatGPT in the web and try Work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 897,
+          "t": [
+            4772.088,
+            4779.812
+          ],
+          "quote": "Ask it to build a site about you maybe to start, or ask it to make a little visualize a block of your ChatGPT usage.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 910,
+          "t": [
+            4808.741,
+            4812.184
+          ],
+          "quote": "Yeah, my main plug is, yeah, go download the ChatGPT app, go use it on web.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 921,
+          "t": [
+            4846.243,
+            4852.448
+          ],
+          "quote": "So on your mobile app, you can go to ChatGPT, toggle Work, ask it to do some work, and you don't need to actually have the...",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体比作「划桨」的执行者，人负责「掌舵」；提到第一代 AI 产品是聊天，第二代是与智能体协作（目前主要是编码），第三代是与持续存在的同事型智能体共事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            793.316,
+            799.94
+          ],
+          "quote": "Bringing in other teammates into that interaction between you and the agent where it's rowing and you're steering feels also incredibly valuable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 150,
+          "t": [
+            972.024,
+            980.607
+          ],
+          "quote": "So letting the agent do more and more for you independently, coming in, providing that steering, and then letting the agent continue to cook.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 151,
+          "t": [
+            980.687,
+            985.648
+          ],
+          "quote": "Let the agent cook and provide details at higher of orders of abstraction feels like the way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 158,
+          "t": [
+            1025.623,
+            1035.747
+          ],
+          "quote": "I work with my agent, maybe it's spawned some subagents to get some tasks done, but it's me and my agent together, and that is potentially divorced from what my colleagues are doing with their agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1073.465,
+            1076.149
+          ],
+          "quote": "It's like, okay, here's Tara's agent, here's my agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1077.591,
+            1083.319
+          ],
+          "quote": "I'd be, \"Hey, my agent, Lenny's agent, go check, make sure this is legit and connects to the way I think about the world.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1154.434,
+            1161.918
+          ],
+          "quote": "To make an agent successful in the cloud, there is a ton of cloud infrastructure that you have to build to make that possible, and just access to your systems.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1174.645,
+            1179.467
+          ],
+          "quote": "Similarly, a cloud agent that is similarly isolated will not be that effective.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2070.54,
+            2091.23
+          ],
+          "quote": "Yeah, I think one of the most interesting things here is that one of the goals of launching Work in ChatGPT web and launching it in the desktop app and bringing these things together was to look at those billion people who are using ChatGPT and bring them more and more of the agent's power.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2789.966,
+            2795.029
+          ],
+          "quote": "In some ways you can think of your agent that you're working with as your report.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-work",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识工作 (knowledge work)",
+      "file": "知识工作",
+      "primary": true,
+      "how_described": "本集说知识工作与编码根本不同——编码可跑测试验证输出，知识工作不能只看最终幻灯片上的数字，需要看到过程、推理链和引用来源才能判断输出是否靠谱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            657.945,
+            663.868
+          ],
+          "quote": "And it feels like it continues to be a topic of discussion for knowledge work broadly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 102,
+          "t": [
+            673.654,
+            680.939
+          ],
+          "quote": "How do you think about just this idea of loops expanding from just software engineering to product management to all knowledge work?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1921.563,
+            1926.207
+          ],
+          "quote": "There's the engineering mode, the chat mode, and then the do knowledge Work mode.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1926.947,
+            1933.092
+          ],
+          "quote": "And the knowledge Work mode, it's actually Codex doing all that work, but people may not know what Codex is, may be afraid of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2007.419,
+            2008.7
+          ],
+          "quote": "We should do the same thing with knowledge work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2104.636,
+            2108.658
+          ],
+          "quote": "We'd like to bring it to more domains certainly, like knowledge work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3909.161,
+            3917.427
+          ],
+          "quote": "One thing that we've been thinking about a lot in product building, especially with ChatGPT Work in this new era, is how knowledge work and coding are actually fundamentally different.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3937.36,
+            3947.004
+          ],
+          "quote": "But knowledge work is different in that I can't simply look at the deck in the end and see the numbers, like, oh, it's like 90% success or whatever in the deck and actually believe that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3953.107,
+            3982.84
+          ],
+          "quote": "And so in terms of how that looks in the product, a lot of work that we have done and have to continue to do is continue to adapt the product to knowledge work, which means way more focus on making ChatGPT your collaborator, allowing you to see all the in-progress work, see its citations and inputs, help you go on the journey with the model to get to that end output, such that you know in the end that, oh wait, this thing is right, this thing is good, this thing is useful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 701,
+          "t": [
+            3996.448,
+            4003.452
+          ],
+          "quote": "Is the surface of a thread which is so suited to coding the right place for you to see all of that for knowledge work as well?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "sites",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sites",
+      "file": "Sites",
+      "primary": true,
+      "how_described": "本集说 Sites 是一个用提示词就能构建并托管的可共享网站产品，有数据库、可自动更新，让 Tara 实现了 Alan Kay 在 60 年代提出的「可塑个人软件」梦想",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 482,
+          "t": [
+            2935.862,
+            2943.377
+          ],
+          "quote": "One of the most exciting ways that I use AI in work is I actually build sites all the time now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2943.537,
+            2944.92
+          ],
+          "quote": "I don't know if you've tried building sites in Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2945.143,
+            2946
+          ],
+          "quote": "I haven't talk about Sites.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2946.4,
+            2949.661
+          ],
+          "quote": "Sites is a really fun, amazing product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2950.562,
+            2957.344
+          ],
+          "quote": "You can basically build a site, certainly in Work as a presentational artifact, but I also build sites for literally anything.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2957.404,
+            2964.887
+          ],
+          "quote": "I built a site for the team as a game where we all played a game together using a site because Sites have a database.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2978.892,
+            2988.055
+          ],
+          "quote": "Sites realized the dream of malleable personal software that Alan Kay flagged in the '60s of the true personal computer is one that has personal software.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2988.455,
+            2992.117
+          ],
+          "quote": "In some ways, Sites are the tangible way to make that possible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 507,
+          "t": [
+            3044.367,
+            3045
+          ],
+          "quote": "It just knows what sites are?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3074.198,
+            3075.179
+          ],
+          "quote": "Now I just make sites all the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3097,
+            3097
+          ],
+          "quote": "Seshan. Okay, cool. Okay, cool. Sites. Okay. Any other quick tips, while we're on this-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3104.584,
+            3107
+          ],
+          "quote": "Because that was a great tip, because I don't think a lot of people know about Sites, so it's very useful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3107.221,
+            3108.645
+          ],
+          "quote": "Yeah, Sites are awesome.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3857.05,
+            3859.555
+          ],
+          "quote": "I'm going to show you what sites got created real quick.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3891,
+            3891.429
+          ],
+          "quote": "Good job Sites.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 805,
+          "t": [
+            4417,
+            4425.744
+          ],
+          "quote": "Ooh, I mean, of course my favorite AI product is ChatGPT and using cool Sites and Visualize stuff in Codex, which is amazing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集提到 Stripe 是一个成熟市场，可以从第一性原理严谨推演竞争对手行动；内部有以写作为导向的文化，简报会在公司内疯传",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            95.047,
+            100.35
+          ],
+          "quote": "Prior to OpenAI, Tara spent six years at Stripe where she joined as one of the first five product managers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 19,
+          "t": [
+            100.69,
+            106.132
+          ],
+          "quote": "And for many of those years, she was named one of the top three stripes across the entire organization of Stripe.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 58,
+          "t": [
+            383.03,
+            385.331
+          ],
+          "quote": "It's essentially Stripe for enterprise features.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2587.07,
+            2595.655
+          ],
+          "quote": "Actually, Stripe was very, very much this way where there are no boundaries around what a engineer could do versus a product manager could do versus a designer could do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3304.64,
+            3319.488
+          ],
+          "quote": "And so at Stripe, this is something I did many, many, many, many times over, whether that was to kick off a new product area or to suggest a big change in direction or to analyze a problem and suggest a path forward.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3320.148,
+            3323.47
+          ],
+          "quote": "And Stripe is incredibly oriented as a writing culture.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3324.07,
+            3331.214
+          ],
+          "quote": "And there are many people, like Jeff Weinstein, who are also very into writing and sharing briefs at Stripe.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3331.234,
+            3335.016
+          ],
+          "quote": "Stripe is one of the few places where a brief will go viral inside the company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3756.34,
+            3769.493
+          ],
+          "quote": "So I went to Sutter Hill because in some way my career has been about how do I try to find product market fit as many times as possible, whether that was as a founder or in starting new products at Stripe or in joining a startup like Watershed.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 684,
+          "t": [
+            3892,
+            3893.475
+          ],
+          "quote": "I think that was my badge photo from Stripe.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "writing-as-thinking",
+      "type": "concept",
+      "role": "concept",
+      "name": "写作即思考 (writing as thinking)",
+      "file": "写作即思考",
+      "primary": true,
+      "how_described": "本集说写简报、写策略这类「写作即思考」永远不会交给 AI，因为梳理大纲、写成散文、反复编辑的过程本身就是理清思路的核心步骤",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 559,
+          "t": [
+            3196.381,
+            3199.642
+          ],
+          "quote": "One is writing as thinking, and the other is writing as reporting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3200.282,
+            3209.986
+          ],
+          "quote": "Writing as thinking is me writing a brief about why we should build a certain product or why we should take a certain strategy or why maybe a spicy take.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 563,
+          "t": [
+            3230.112,
+            3233.774
+          ],
+          "quote": "But writing as thinking is something I never will automate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3335.116,
+            3342.82
+          ],
+          "quote": "And so writing as thinking there is really prized, and that's where I did the majority of that writing work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3508.42,
+            3519.092
+          ],
+          "quote": "Yeah, I think this writing as thinking discipline is one of the main pieces that I employ in my day-to-day to make sure I'm not overly atrophying my thinking abilities.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3524.057,
+            3526.319
+          ],
+          "quote": "But writing as thinking I have to do myself.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "writing-as-reporting",
+      "type": "concept",
+      "role": "concept",
+      "name": "写作即汇报 (writing as reporting)",
+      "file": "写作即汇报",
+      "primary": false,
+      "how_described": "本集说总结本周进展、写发布计划这类「写作即汇报」全部交给模型自动化处理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 559,
+          "t": [
+            3196.381,
+            3199.642
+          ],
+          "quote": "One is writing as thinking, and the other is writing as reporting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3210.326,
+            3221.77
+          ],
+          "quote": "But writing as reporting is things like, oh, I'm summarizing the status of what our team has been up to this week and I'm sending over a report about it, or this is our plan for this particular launch or announcement or something like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3222.43,
+            3229.752
+          ],
+          "quote": "Writing as reporting, I happily automate or I use the models all the time to make that as simple as it can be.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 567,
+          "t": [
+            3265.73,
+            3269.153
+          ],
+          "quote": "I think you should use the models as much as possible for writing as reporting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3519.572,
+            3523.977
+          ],
+          "quote": "I think I will, again, outsource all writing as reporting as much as possible to the model.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mocks-not-docs",
+      "type": "concept",
+      "role": "concept",
+      "name": "样机优于文档 (mocks not docs)",
+      "file": "样机优于文档",
+      "primary": true,
+      "how_described": "本集说长文档不再是「我思考过了」的可靠信号，因为可以轻易用 AI 生成；现在信奉「样机优于文档」，能交互的原型或 AB 测试结果比文档更有说服力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 580,
+          "t": [
+            3392.207,
+            3396.688
+          ],
+          "quote": "And now I am way more on mocks not docs, or prototypes not docs.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "eigenquestion",
+      "type": "concept",
+      "role": "concept",
+      "name": "本征问题 (eigenquestion)",
+      "file": "本征问题",
+      "primary": false,
+      "how_described": "本集借用 Shishir Mehrotra 的说法，指你要测的那个最关键、最核心的假设是什么，除此之外的宏大战略都不相关",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            529.053,
+            538.718
+          ],
+          "quote": "What is actually, to use the Shishir Mehrotra phrase, like the eigenquestion, what is that specific most important thing to test?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "sutter-hill-ventures",
+      "type": "company",
+      "role": "company",
+      "name": "Sutter Hill Ventures",
+      "file": "Sutter Hill Ventures",
+      "primary": false,
+      "how_described": "本集提到 Sutter Hill 有独特孵化模式（如 Snowflake），Tara 在那里学到「产品营销契合度」比「产品市场契合度」更被自己低估",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 616,
+          "t": [
+            3621.704,
+            3629.749
+          ],
+          "quote": "Your PMPM, founder person, and then just like, okay, EIR at Sutter Hill Ventures, which is a iconic VC.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "watershed",
+      "type": "company",
+      "role": "company",
+      "name": "Watershed",
+      "file": "Watershed",
+      "primary": false,
+      "how_described": "本集仅顺带提及 Tara 曾在 Watershed 领导产品，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            106.572,
+            110.074
+          ],
+          "quote": "She also led product at Watershed, was a founder, and a Thiel Fellow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3756.34,
+            3769.493
+          ],
+          "quote": "So I went to Sutter Hill because in some way my career has been about how do I try to find product market fit as many times as possible, whether that was as a founder or in starting new products at Stripe or in joining a startup like Watershed.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "product-marketing-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品营销契合度 (product marketing fit)",
+      "file": "产品营销契合度",
+      "primary": false,
+      "how_described": "本集说 Tara 在 Sutter Hill 学到：你谈论产品的方式和营销叙事甚至可以先于构建产品，是正确的事情去测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 646,
+          "t": [
+            3782.581,
+            3792.265
+          ],
+          "quote": "I think one thing that was very surprising to me that I learned there is that product market fit is, sure, important, but actually I really underrated product marketing fit.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3808.351,
+            3815.454
+          ],
+          "quote": "And then that product marketing fit, that narrative, that positioning, is actually even before you build a product experience the right thing to test.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "visualize",
+      "type": "concept",
+      "role": "concept",
+      "name": "Visualize",
+      "file": "Visualize",
+      "primary": false,
+      "how_described": "本集说 Codex 中的 /visualize 命令可以拉入数据并自动生成令人惊叹的可视化，让数据展示变得极其简单",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 538,
+          "t": [
+            3108.967,
+            3112.057
+          ],
+          "quote": "The other thing I really love is using Visualize in Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3112.077,
+            3113
+          ],
+          "quote": "Have you used /visualize?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3114.78,
+            3117.642
+          ],
+          "quote": "Oh, /visualize is incredibly exciting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3117.822,
+            3127.328
+          ],
+          "quote": "You can just do /visualize, visualize my ChatGPT usage until now, or something like that, and it will pull in all the things that you've done and create an amazing visualization for it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3139.836,
+            3142.018
+          ],
+          "quote": "And Visualize makes that incredibly simple.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 545,
+          "t": [
+            3142.118,
+            3145.039
+          ],
+          "quote": "It is surprisingly delightful to use Visualize.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 805,
+          "t": [
+            4417,
+            4425.744
+          ],
+          "quote": "Ooh, I mean, of course my favorite AI product is ChatGPT and using cool Sites and Visualize stuff in Codex, which is amazing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 897,
+          "t": [
+            4772.088,
+            4779.812
+          ],
+          "quote": "Ask it to build a site about you maybe to start, or ask it to make a little visualize a block of your ChatGPT usage.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集仅作为对比一笔带过，说 Twitter 上从 Claude Code 到 Codex 发生了氛围转变，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 388,
+          "t": [
+            2354.3,
+            2362.284
+          ],
+          "quote": "Something I've noticed on Twitter is there's definitely been this vibe shift from Claude Code to Codex in the past few months.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2363.325,
+            2365.466
+          ],
+          "quote": "It used to be everyone was Claude Code this, Cloud Code that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

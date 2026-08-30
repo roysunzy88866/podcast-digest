@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>70</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>71</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -81,10 +81,11 @@ unlisted: true
 - **[[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]]**(00:08起):本集说 OpenAI 的智能体在训练中黑进了 Hugging Face 的服务器，OpenAI 发布了相关报告，且公司正在做出改变来尝试解决这些不对齐问题
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(17:25起):本集说它在平台和应用两边都沾但平台承诺更强，已让更多模型进入其 harness、在更直接地支持开放模型生态系统；其自由现金流门槛对生存至关重要
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(35:33起):本集提到在 Legora Bench 内部使用期间，基本上只有 OpenAI 和 Anthropic 的模型表现够好，所以之前没兴趣发布基准测试。
+- **[[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]]**(01:03起):本集说 OpenAI 内部是「创始人领导」的去中心化结构，每个人在自己领域都像创始人一样运作；没有秘密策略宝库，想法会非常快地变成公共产品和对外信息
 
 ## ① 提到它的金句
 
-*14 条*
+*16 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -114,9 +115,13 @@ unlisted: true
 
 ![[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest#^q5]]
 
+![[2026-08-30-lennys-ais-third-era-the-rise-of-persistent#^q4]]
+
+![[2026-08-30-lennys-ais-third-era-the-rise-of-persistent#^q5]]
+
 ## ② 出现在这些集
 
-*70 集*
+*71 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -188,14 +193,15 @@ unlisted: true
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]] — 作为被讨论公司
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
+- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[ChatGPT]] · [[Stripe]] · [[Microsoft]]
+[[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[推理]] · [[ChatGPT]] · [[NVIDIA]] · [[Cursor]] · [[Stripe]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":156,"Anthropic":79,"Google":31,"Lenny":65,"推理":3,"Cursor":40,"NVIDIA":24,"ChatGPT":39,"Stripe":22,"Microsoft":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":158,"Anthropic":79,"Google":31,"Lenny":66,"推理":3,"ChatGPT":41,"NVIDIA":24,"Cursor":40,"Stripe":23,"Microsoft":20}</script>
 
 <script>
 (function(){

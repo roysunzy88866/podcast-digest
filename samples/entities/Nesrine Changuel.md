@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]]
+[[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"delight":1,"deep delight":1,"surface delight":1,"低愉悦":1,"消除摩擦":1,"预判需求":1,"超出预期":1,"情感连接":1,"人性化":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"delight":1,"deep delight":1,"surface delight":1,"低愉悦":1,"消除摩擦":1,"预判需求":1,"超出预期":1,"情感连接":1,"人性化":1}</script>
 
 <script>
 (function(){
