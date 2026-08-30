@@ -111,10 +111,11 @@ for (const k of report.kept.filter((k) => k.trimmed || k.tsWas !== k.timestamp |
 // 先校验后写:不合格别把 digest.json 改成残缺态(GLM 20260717-011 [3],与 judge 同病同治)
 writeFileSync(resolve(ROOT, DIR, "repair-report.json"), JSON.stringify(report, null, 2));
 
+// [standard-change: 用户授权 2026-08-30「没金句就先上站」] 原 fixed < MIN_KEEP 直接 exit 1、整集不发布。
+// 改为**留几条发几条(哪怕 0 条)**。fixed 是逐字校验后的存活集 —— 逐字对不上的已在上面 drop 掉,
+// 剩下的全逐字命中转写稿,发布它们(或一条不发)对防失真零风险。金句少 ≠ 内容差,不该毙掉整集。
 if (fixed.length < MIN_KEEP) {
-  console.error(`❌ 保留金句 ${fixed.length} < ${MIN_KEEP},本集金句质量不足,不发布`);
-  console.error(`   digest.json **未改动**;排障看 repair-report.json。`);
-  process.exit(1);
+  console.warn(`⚠️ 逐字校验后仅存 ${fixed.length} 条(<${MIN_KEEP}),按「没金句也先上站」照常发布(不卡整集)。`);
 }
 
 digest.quotes = fixed;

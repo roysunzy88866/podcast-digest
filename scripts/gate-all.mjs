@@ -143,7 +143,7 @@ for (const id of gatedIds) {
     console.log(`[机器闸门门] ✅ ${id}: ${g.passed}/${g.total} 金句过三联`);
   } else {
     bad++;
-    console.error(`[机器闸门门] ❌ ${id}: 仅 ${g.passed}/${g.total} 过三联${g.total === 0 ? "(0 条金句=没兑现 US-11)" : ",失真金句:"}`);
+    console.error(`[机器闸门门] ❌ ${id}: 仅 ${g.passed}/${g.total} 过三联,失真金句(0 条金句已按「没金句先上站」放行,走不到这里):`);
     g.results.forEach((r, i) => {
       if (!r.pass)
         console.error(

@@ -149,17 +149,17 @@ describe("三联校验 · 四类失真应被拦", () => {
   });
 });
 
-describe("防假绿 · 空金句不许算通过(C2 交付物审计:原测试是同义反复,不保护被测代码)", () => {
-  // ⚠️ 教训:原版在测试里把 gateEpisode 的判定式**重抄一遍**再断言,等于测自己写的表达式——
-  // 把 gate.mjs 的修复回退掉,测试照样全绿。真测试必须**调用被测函数本身**。
-  it("gateEpisode 对 0 条金句必须 allPass=false(真调 gateEpisode,回退修复即挂)", () => {
+describe("金句层 · 0 条金句照常放行(用户 2026-08-30「没金句就先上站」)", () => {
+  // [standard-change: 用户授权 2026-08-30] 原口径「空金句不许算通过」(防假绿,GLM 20260717-011[8])已反转:
+  // 用户拍板判官/repair 合法丢到 0 条时该集照常上站(金句是小板块,不是发布门槛)。这里真调 gateEpisode 钉新口径。
+  it("gateEpisode 对 0 条金句 allPass=true(没金句也放行,不卡整集)", () => {
     const dir = mkdtempSync(join(tmpdir(), "gate-empty-"));
     writeFileSync(join(dir, "transcript.en.json"), JSON.stringify(transcript));
     writeFileSync(join(dir, "meta.json"), JSON.stringify(meta));
     writeFileSync(join(dir, "digest.json"), JSON.stringify({ tldr: "x", digest_md: "y", quotes: [] }));
     const g = gateEpisode(dir);
     expect(g.total).toBe(0);
-    expect(g.allPass).toBe(false); // 没金句 = 没兑现 US-11,不许算通过
+    expect(g.allPass).toBe(true); // 没金句 = 没东西可失真 → 放行(反转旧「防假绿」口径,standard-change)
     rmSync(dir, { recursive: true, force: true });
   });
 

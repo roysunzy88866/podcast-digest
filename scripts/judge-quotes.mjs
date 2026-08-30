@@ -72,7 +72,7 @@ async function vote(zh, en) {
     try {
       raw = String(await glmAsk(SYS, input)).trim();
     } catch (e) {
-      if (attempt === 2) return { yes: false, raw: `(调用失败,按否:${e.message.slice(0, 30)})` };
+      if (attempt === 2) return { yes: false, apiFail: true, raw: `(调用失败,按否:${e.message.slice(0, 30)})` };
       continue; // 抖动 → 重试
     }
     // 解析纪律(GLM 20260717-012 [4] + 自测回归):
@@ -84,7 +84,10 @@ async function vote(zh, en) {
     if (/^是的?$/.test(clean)) return { yes: true, raw };
     // 答非所问 / 「是…但…」这类长句 → 重试;仍不行按默认否
   }
-  return { yes: false, raw: "(未给出干净的是/否,按默认否)" };
+  // apiFail 也标在这里(GLM 20260830-016[2]):API 返回 200 但净是垃圾/无法解析时,重试仍拿不到干净是/否——
+  // 这同样是「判官没能给出可用裁决」,不是品味判否。单条仍按「否」(不动既有「判不了=不够格」纪律),
+  // 但要计入聚合的「判官整体失灵」判断,免得系统性坏响应绕过 fail-safe、把整批静默发布成空金句。
+  return { yes: false, apiFail: true, raw: "(未给出干净的是/否,按默认否)" };
 }
 
 // 多票制:同一条判 VOTES 次,≥MAJORITY 票「是」才留。
@@ -96,7 +99,8 @@ async function judge(q) {
   if (!zh && !en) return { keep: false, yes: 0, raw: "(候选缺 zh/en,按否)" };
   const votes = await Promise.all(Array.from({ length: VOTES }, () => vote(zh, en)));
   const yes = votes.filter((v) => v.yes).length;
-  return { keep: yes >= MAJORITY, yes, raw: votes.map((v) => (v.yes ? "是" : "否")).join("") };
+  const apiFail = votes.filter((v) => v.apiFail).length; // 这条有几票是「调不通API降级为否」
+  return { keep: yes >= MAJORITY, yes, votes: votes.length, apiFail, raw: votes.map((v) => (v.yes ? "是" : "否")).join("") };
 }
 
 async function pool(items, worker, n) {
@@ -137,10 +141,23 @@ for (const k of report.kept) console.log(`  ✓ [${k.timestamp}] (${k.votes}) ${
 // 不合格就别把 digest.json 改成残缺态(否则重跑从残缺再筛,候选永久丢失,GLM 20260717-011 [3])
 writeFileSync(resolve(ROOT, DIR, "judge-report.json"), JSON.stringify(report, null, 2));
 
+// [standard-change: 用户授权 2026-08-30「没金句就先上站,别卡整集」] 原来 kept < MIN_KEEP 直接 exit 1、
+// 整集不发布(判官全毙就卡住,今天两集实证 13→0/11→1)。改为**留几条发几条(哪怕 0 条)**:
+// 金句只是集页一个小板块,不该拖垮整集。judge 只是「品味」筛,留少了是口味严、不是失真;
+// 防失真也不受影响 —— repair-quotes 下一步仍逐字校验、丢掉对不上的,活下来的都逐字命中,0 条=没东西可失真。
+// ⚠️ 但要分清「真判空」和「判官不可用」(GLM 20260830-014[4] 逮到的 fail-open):vote() 纪律是
+//    **任何 API 异常都降级为「否」**,所以 GLM 全线调不通时 kept 会被误清空 → 那是基础设施故障、
+//    不是品味判空,绝不能当「本集没金句」静默发布。大面积 API 失败时保持 fail-safe:exit 1、留到下轮重试。
+const totalVotes = verdicts.reduce((a, v) => a + (v.votes || 0), 0);
+const apiFailVotes = verdicts.reduce((a, v) => a + (v.apiFail || 0), 0);
+const judgeUnavailable = totalVotes > 0 && apiFailVotes * 2 >= totalVotes; // ≥半数票是 API 失败 = 判官没真跑
 if (kept.length < MIN_KEEP) {
-  console.error(`\n❌ 判官只留下 ${kept.length} 条(<${MIN_KEEP})。本集金句质量不足,或判官过严。`);
-  console.error(`   digest.json **未改动**(保住原始候选);排障看 judge-report.json。`);
-  process.exit(1);
+  if (judgeUnavailable) {
+    console.error(`\n❌ 判官大面积调用失败(${apiFailVotes}/${totalVotes} 票是 API 失败),这不是「品味判空」而是判官不可用。`);
+    console.error(`   digest.json 不改、整集留到下轮重试(不把 API 故障当「本集没金句」静默发布)。`);
+    process.exit(1);
+  }
+  console.warn(`\n⚠️ 判官只留下 ${kept.length} 条(<${MIN_KEEP})。本集金句偏少,按「没金句也先上站」照常发布(不卡整集)。`);
 }
 
 digest.quotes_candidates = cands; // 留档原始候选,保证重跑幂等

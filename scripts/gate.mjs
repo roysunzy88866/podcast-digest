@@ -210,9 +210,14 @@ export function gateEpisode(dir) {
   const quotes = digest.quotes || [];
   const results = quotes.map((q) => checkQuote(q, ctx));
   const passed = results.filter((r) => r.pass).length;
-  // 防假绿:0 条金句 ≠ 通过(passed===results.length 在空数组时恒真 → 无金句的稿子会「全过」)。
-  // 依 GLM 20260717-011 [8] 顺藤发现。金句是 US-11 的兑现物,一条都没有就是没兑现。
-  const allPass = results.length > 0 && passed === results.length;
+  // [standard-change: 用户授权 2026-08-30「没金句就先上站」] 原有 `results.length > 0 &&` 是防假绿守卫
+  // (GLM 20260717-011[8]:0 条金句会让 passed===length 空数组恒真而「假过」)。用户现拍板:判官/repair
+  // 合法丢到 0 条时,该集**没金句也照常上站**(金句是小板块,不是发布门槛)。故允许**合法筛空**的 0 条过。
+  // 防失真仍在两处:①任何**存在**的金句必须逐字命中(passed===results.length 对非空集照旧严格,一条失真即挂);
+  // ②只放行 quotes 字段**确实存在且为空数组**的 0 条(合法筛空);字段缺失/null = 坏 digest(上游管道故障),
+  //   仍判失败——保住「防假绿」对坏 digest 的纵深防御(GLM 20260830-018[1])。
+  const hasQuotesField = Array.isArray(digest.quotes); // 字段真在(哪怕是 [])才算合法筛空,非缺字段的假空
+  const allPass = hasQuotesField && passed === results.length;
   return { total: results.length, passed, allPass, results };
 }
 

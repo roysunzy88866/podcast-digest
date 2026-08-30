@@ -10,7 +10,14 @@
 name: 部署站点(独立通道)
 
 on:
-  workflow_dispatch: # 只手动触发,不定时(定时上线归 pipeline.yml)
+  workflow_dispatch: # 手动触发(单个视觉改动等)
+  schedule:
+    # 每日「补齐部署」安全网(2026-08-30 用户拍板治反复出现的「内容做完躺仓库、站上没有」)。
+    # 病根:pipeline 的部署步会因**一集金句没过 gate-all 而整批不部署**,把同批齐活的集也一起卡住;
+    # 下一轮干旱又跳过部署 → 干净集永远躺仓库。本通道从 samples/ 直接重建上线、**不跑 gate-all、不被坏集拦**,
+    # 每天北京早 07:30 无条件补一次 → 任何被卡住/被 GitHub 丢班次漏掉的干净集,最迟次日早上一定上站。
+    # 幂等:无新集则重建同一版、线上无变化(deploy-site.sh 按指纹只补缺音频,不重复烧钱)。
+    - cron: "30 23 * * *" # UTC 23:30 = 北京 07:30(早起就有)
 
 concurrency:
   group: deploy-site-only # ← 与 c7b-pipeline 不同组:内容任务在跑也不排队
