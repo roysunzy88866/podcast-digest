@@ -1,0 +1,738 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.76,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎来到 Practical AI 播客，在这里我们拆解人工智能的现实世界应用以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助使 AI 技术变得实用、高效且对所有人触手可及。无论你是开发者、商业领袖，还是只是对热门背后的技术感到好奇，你都来对地方了。请务必在 LinkedIn、X 或 Blue Sky 上与我们联系，以了解最新剧集发布、幕后内容和 AI 见解。您可以在 practicalai.fm 了解更多信息。"
+ },
+ {
+  "seg": 1,
+  "start": 35.84,
+  "end": 37.44,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在开始今天的节目。"
+ },
+ {
+  "seg": 2,
+  "start": 41.36,
+  "end": 65.94,
+  "speaker": "Daniel Whitenack",
+  "en": "Welcome another episode of the Practical AI Podcast. I'm Daniel Whitenack. I am CEO at Prediction Guard, and I'm really excited today to have, an amazing guest that, I'm personally interested in asking a bunch of selfish questions too because I'm I'm so interested in the topic. But we have Emil Lassen who's the standards lead at the Artificial Intelligence Underwriting Company. Welcome.",
+  "zh": "欢迎收看 Practical AI 播客的另一期节目。我是 Daniel Whitenack。我是 Prediction Guard 的 CEO，今天我真的很兴奋能请到一位神奇的嘉宾，我个人也有很多自私的问题想问他，因为我太感兴趣了。但我们请到了 Emil Lassen，他是人工智能承保公司的标准负责人。欢迎。"
+ },
+ {
+  "seg": 3,
+  "start": 65.94,
+  "end": 66.82,
+  "speaker": "Daniel Whitenack",
+  "en": "How how are you doing?",
+  "zh": "你你怎么样？"
+ },
+ {
+  "seg": 4,
+  "start": 66.82,
+  "end": 68.9,
+  "speaker": "Emil Lassen",
+  "en": "Thanks, Daniel. Thanks for having me. I'm doing great. How are you?",
+  "zh": "谢谢，Daniel。谢谢你邀请我。我很好。你呢？"
+ },
+ {
+  "seg": 5,
+  "start": 68.9,
+  "end": 109.315,
+  "speaker": "Daniel Whitenack",
+  "en": "I I'm I'm doing well. Actually, you know, today in the Midwest, everyone's concerned about tornadoes and talking about hail and and some things like insurance and other things. So it's a whole other other world, of course, but, obviously, the AI underwriting company, way way more than thinking about insurance, but thinking about standards, certification around AI and agents. I'm wondering how, you personally, just to give the audience a little bit about you personally, how did you end up at this intersection of standards, certification, AI, agents? How how did that come about?",
+  "zh": "我我我很好。其实，你知道，今天在中西部，每个人都担心龙卷风，谈论冰雹，以及一些像保险之类的事情。所以这当然是另一个世界，但是，显然，人工智能承保公司，不仅仅考虑保险，而是思考关于人工智能和智能体的标准和认证。我想知道，你个人，只是为了给听众一点关于你个人的背景，你是如何最终来到标准、认证、人工智能、智能体的这个交叉路口的？这是怎么发生的？"
+ },
+ {
+  "seg": 6,
+  "start": 109.315,
+  "end": 133.655,
+  "speaker": "Emil Lassen",
+  "en": "Yeah. So I I don't think I had as clearer path as as the classic standards lead where you work as a say, security engineer for ten years and then learn the technical craft and then come together. My journey has been very entrepreneurial always. I started my first company with actually the CEO of the artificial intelligence company, Ruininkvist, ten years ago. It was a nonprofit back then helping students from low income backgrounds get into top universities.",
+  "zh": "是的。所以我我不认为我有一条像经典标准负责人那样清晰的路径，比如作为安全工程师工作十年然后学习技术工艺然后走到一起。我的旅程一直是非常创业的。我实际上是在十年前和人工智能公司的 CEO Ruininkvist 一起创办了我的第一家公司的。那是一个非营利组织，帮助低收入背景的学生进入顶尖大学。"
+ },
+ {
+  "seg": 7,
+  "start": 133.81499,
+  "end": 210.53001,
+  "speaker": "Emil Lassen",
+  "en": "And I think what I took away from that was both the very entrepreneurial journey, but also desire to move fast on some of the challenges that society is facing. I then moved in and had my first interaction with standards at my second company, a real estate company back in Denmark, where we developed an impact management system that both had to navigate a lot of national legislation, local legislation, EU legislation, voluntary frameworks, investor demands. And so had my first interaction with one of these quite complex markets of different measurements and targets you wanted to get to, a very technical sector as well where like building codes, for example, require a lot of thinking through how you do things the right way. So I spent four years building up a real estate company that today is managing about 400,000,000 together with four other co founders and took from that this desire to go in and standardize when we know what the right answer is and try to push the sector in that direction. The way I got into the AI space was taking a step back from the real estate company now a few years ago and going to Cambridge, Massachusetts, so Harvard University, where I spent two years as a fellow at the Kennedy School, really getting into the emerging tech and geopolitics of all of this as well.",
+  "zh": "我想我从那里得到的是非常创业的旅程"
+ },
+ {
+  "seg": 8,
+  "start": 210.69,
+  "end": 247.68501,
+  "speaker": "Emil Lassen",
+  "en": "And left the Kennedy School with a very sheer ambition of just getting under the hood of the pace of AI, the safety and security aspects, and clearly just acknowledging that the technology is going to profoundly change society as we know it today. And in many different ways, I have 10 nephews and nieces, have five sisters. And seeing a 10 year old being comfortable using AI the way they are is kind of scary. And I don't see yet that we've codified the principles we want to see when it comes to how kids use AI. So that's one direction where, oh, maybe we should develop standards for this.",
+  "zh": "带着一种纯粹的抱负离开了肯尼迪学院，只想深入探究 AI 的步伐、安全与保障方面，并清楚地承认这项技术将深刻改变我们今天所知的社会。在许多不同方面，我有 10 个侄子和侄女，有 5 个姐妹。看到一个 10 岁的孩子如此自如地使用 AI，有点可怕。我还没有看到我们已经编纂了我们希望看到的原则，当涉及到孩子如何使用 AI 时。所以这是一个方向，哦，也许我们应该为此制定标准。"
+ },
+ {
+  "seg": 9,
+  "start": 248.645,
+  "end": 269.03,
+  "speaker": "Emil Lassen",
+  "en": "You also can read news every week and see new incidents. So there's clearly a big security angle to this as well. You said that the Midwest is facing tornadoes today. I think being a CISO at a company adopting and deploying AI right now feels a little bit like you're in a hailstorm and it's only a matter of time before you're hit by some of that. We just keep seeing that.",
+  "zh": "你每周都能看到新闻，看到新的突发事件。所以这显然也有一个很大的安全角度。你说中西部今天正面临龙卷风。我认为在一家采用和部署 AI 的公司担任 CISO，感觉有点像你在遭遇冰雹风暴，被其中一些击中只是时间问题。我们一直看到这种情况。"
+ },
+ {
+  "seg": 10,
+  "start": 269.03,
+  "end": 307.115,
+  "speaker": "Emil Lassen",
+  "en": "So clearly there was a element to that as well. And then there's the even bigger picture around what this will do to our job markets and so forth. So left the Kennedy School being very interested in just using the public policies toolbox that I brought from that with the standards toolbox I brought from my real estate company and then this desire to actually just work on societal challenges that I think has been with me since I started working. And that became my way to the artificial intelligence underwriting company. I've since then spent all my time building a network of people, a consortium, to help them figure out how we get the right practical and technical insights into the standards we develop as well.",
+  "zh": "所以显然也有这方面的因素。然后还有更大的图景，关于这将对我们的就业市场等产生什么影响。所以带着浓厚的兴趣离开了肯尼迪学院，只想使用我从那里带来的公共政策工具箱，以及我从房地产公司带来的标准工具箱，然后还有这种实际上致力于解决社会挑战的愿望，我认为这种愿望从我开始工作以来就一直伴随着我。这成为了我通往人工智能承保公司的方式。从那时起，我花了所有时间建立一个人员网络，一个财团，帮助他们弄清楚如何将正确的实践和技术见解纳入我们制定的标准中。"
+ },
+ {
+  "seg": 11,
+  "start": 307.115,
+  "end": 334.53503,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. That's that's awesome. And I and I know sometimes when people hear things like standard certification, you know, terms like this, maybe some some people might have a reaction of, like, slowing things down. Right? But I I like how in at the very, you know, front and center of what you talk about is how to actually unlock enterprise adoption with, certification standards, etcetera.",
+  "zh": "是的。这很棒。我知道有时当人们听到标准认证这样的事情时，你知道，像这样的术语，也许有些人会有反应，比如，这会拖慢事情。对。但我喜欢你在谈话的最核心，你知道，谈论的是如何实际上通过认证标准等解锁企业采用。"
+ },
+ {
+  "seg": 12,
+  "start": 334.695,
+  "end": 355.955,
+  "speaker": "Daniel Whitenack",
+  "en": "Could you talk, before we dive into the AI side of this specifically, could you talk about that a little bit in general, like how some of these things work together in actual enterprise settings, standard certification, even insurance, and how how those things actually can enable adoption with and not just like block things, I guess.",
+  "zh": "在我们深入探讨 AI 方面的具体内容之前，你能谈谈这方面的一些一般情况吗，比如这些事情在实际企业环境中是如何协同工作的，标准认证，甚至是保险，以及这些事情实际上如何能够促进采用，而不仅仅是阻碍事情，我猜。"
+ },
+ {
+  "seg": 13,
+  "start": 355.955,
+  "end": 369.86,
+  "speaker": "Emil Lassen",
+  "en": "Happy to. So I think our story and the inspiration we take dates back to Benjamin Franklin's Philadelphia. Philadelphia was starting to adopt electricity. Electricity was scary back then. Light bulbs did not work out.",
+  "zh": "很高兴。我认为我们的故事和我们的灵感可以追溯到本杰明·富兰克林的费城。费城开始采用电力。那时电力很可怕。灯泡没有成功。"
+ },
+ {
+  "seg": 14,
+  "start": 369.86,
+  "end": 398.18002,
+  "speaker": "Emil Lassen",
+  "en": "Homes started burning down. So Benjamin Franklin formed the first fire brigade in Philadelphia. He started codifying building codes so that we basically took what we knew around how to build safer houses, the standards part, and then he developed the first mutual insurance company. So back then, this is the first time we see this flywheel of standards, audits and insurance go together. By having standards around building codes, for example, you knew that houses needed to be placed a little bit further from each other.",
+  "zh": "房屋开始着火。所以本杰明·富兰克林在费城组建了第一支消防队。他开始编纂建筑规范，所以我们基本上利用了我们已知的关于如何建造更安全的房屋的知识，这是标准部分，然后他开发了第一家互助保险公司。所以在那时，这是我们第一次看到标准、审计和保险这个飞轮一起运转。通过围绕建筑规范制定标准，例如，你知道房屋需要彼此隔开一点距离。"
+ },
+ {
+  "seg": 15,
+  "start": 398.42,
+  "end": 427.52,
+  "speaker": "Emil Lassen",
+  "en": "They needed some of his lightning rods to ensure that when lightning strikes that they catch fire. The fire inspections was the audit part that actually went in and examined that you'd followed these rules appropriately. And the insurance side mitigated the residual risk that will always be there when we introduce new powerful technology into society. We've seen this flywheel of standards audits and insurance time and time again when new technology has been introduced in society. We see it again in cars.",
+  "zh": "它们需要他的一些避雷针，以确保当闪电击中时它们会着火。消防检查是审计部分，实际上进去检查你是否适当地遵守了这些规则。保险方面缓解了将新技术引入社会时始终存在的残余风险。当新技术引入社会时，我们一次又一次地看到标准、审计和保险的飞轮。我们在汽车上再次看到了它。"
+ },
+ {
+  "seg": 16,
+  "start": 427.52,
+  "end": 451.865,
+  "speaker": "Emil Lassen",
+  "en": "Cars have safety standards. These were not demanded by government. They came from industry themselves because they knew that if we develop safer cars, people are more likely to buy them and safer cars actually enable you to drive even faster as well. So it was industry standards that also led us to airbags and seat belts and some of the other things that now make cars safer. We naturally have, again, the third party auditor going in and checking these cars and ensure that they follow the rules.",
+  "zh": "汽车有安全标准。这些不是政府要求的。它们来自行业本身，因为他们知道如果我们开发更安全的汽车，人们更有可能购买它们，而更安全的汽车实际上也能让你开得更快。所以正是行业标准也让我们有了安全气囊和安全带以及其他一些现在让汽车更安全的东西。我们自然又有第三方审计员进去检查这些汽车，并确保它们遵守规则。"
+ },
+ {
+  "seg": 17,
+  "start": 451.865,
+  "end": 476.975,
+  "speaker": "Emil Lassen",
+  "en": "We have the inspection element again, and we also have the insurance element. And this flywheel, one of the best things about it is that it really scales. So we're not just thinking, seeing it with say light bulbs and cars. We also see it for nuclear power plants to this date where you also have standards inspections of those power plants and insurance even works in this case as well. So there's no limitation to the power of this flywheel.",
+  "zh": "我们再次有了检查元素，我们也有保险元素。这个飞轮，最好的事情之一是它真的可以扩展。所以我们不仅考虑看到灯泡和汽车有这样的情况。我们今天也看到它用于核电站，那里也有对这些电站的标准检查，保险在这种情况下也起作用。所以这个飞轮的力量没有限制。"
+ },
+ {
+  "seg": 18,
+  "start": 476.975,
+  "end": 517.88,
+  "speaker": "Emil Lassen",
+  "en": "When we're looking at AI, we see some of the same things at play. We see a new technology that is very powerful and has the powers both do a lot of good, but also if things go wrong, can have severe financial implications. And the other thing is it's a complex industry where me as a startup saying my technology is safe creates limited trust if I'm an enterprise buyer, big bank, for example, that wants to adopt this technology. So with the artificial intelligence underwriting company, what we're trying to do is to create that trust layer in between the companies building AI and the companies adopting AI. And what we offer as the trust layer is this flywheel.",
+  "zh": "当我们看 AI 时，我们看到一些相同的事情在起作用。我们看到一种非常强大的新技术，具有做很多好事的力量，但如果出错了，也会产生严重的财务影响。另一件事是它是一个复杂的行业，我作为一家初创公司说我的技术是安全的，如果我是一个企业买家，例如一家想要采用这项技术的大银行，就会产生有限的信任。因此，通过人工智能承保公司，我们要做的是在构建 AI 的公司和采用 AI 的公司之间创建一个信任层。我们作为信任层提供的就是这个飞轮。"
+ },
+ {
+  "seg": 19,
+  "start": 517.88,
+  "end": 556.985,
+  "speaker": "Emil Lassen",
+  "en": "So we go in and codify the standards we believe that the companies building AI should follow. We go in and audit against those standards in collaboration with third party auditors like Shellman, CoalFire, companies who really know how to go deep and validate that the standards actually followed. And then we certify companies against the standards. A big part of the certification in the case of Agenack AI is red teaming, so we go in and test the actual AI agent systems, not just to see that the policies they have are in place and work well, but that the agents actually work and are robust under pressure, and the companies that then obtain a certificate gets access to buy insurance of their agents so that there's also that financial coverage of residual risk.",
+  "zh": "所以我们进去编纂我们认为构建 AI 的公司应该遵循的标准。我们与第三方审计员（如 Shellman、CoalFire）合作，根据这些标准进行审计，这些公司真的知道如何深入验证标准实际上得到了遵守。然后我们根据标准对公司进行认证。在 Agenack AI 案例中，认证的大部分是红队测试，所以我们进去测试实际的 AI 智能体系统，不仅是为了看到他们制定的政策已经到位并且运行良好，而且是为了确保智能体真的有效并且在压力下是稳健的，然后获得证书的公司可以获得为其智能体购买保险的权限，以便也有针对残余风险的经济覆盖。"
+ },
+ {
+  "seg": 20,
+  "start": 556.985,
+  "end": 613.365,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah, this is so interesting and I have so many questions. Maybe one question that's just very selfish and our listeners know some part of the joy of being able to do a podcast like this is I get to get my own questions answered by people that are smarter than me. But one of those questions that I have that actually comes up in conversations I have day to day is is this tension of, hey, I I see a standard out there, whether it's, you know, some of the standards that we'll talk about that you all are codifying, or maybe it's things like the NIST AI risk management framework or things from OWASP. And logically they say, yes, it would make sense to do those things. But what is the forcing function that is kind of making making companies consider actual implementation of those of those principles rather than having it be a be an aspirational thing?",
+  "zh": "是的，这太有趣了，我有很多问题。也许有一个问题非常自私，我们的听众知道做这样一个播客的乐趣之一是我可以回答我自己的问题，由比我更聪明的人来回答。但我有的其中一个问题，实际上在我每天的谈话中出现的，是这种紧张关系，嘿，我在那里看到了一个标准，无论是你们正在编纂的一些标准，还是像 NIST AI 风险管理框架或来自 OWASP 的东西。逻辑上他们说，是的，做这些事情是有道理的。但是强制功能是什么，促使公司考虑实际实施这些原则，而不是让它成为一种愿景性的东西？"
+ },
+ {
+  "seg": 21,
+  "start": 613.365,
+  "end": 642.695,
+  "speaker": "Daniel Whitenack",
+  "en": "Is it the is it the potential, you know, PR risk to the company? Is it you mentioned the financial side, the, maybe it's the commercial side of getting, you know, software vendors getting their software into the hands of their enterprise customers. What what do you see as some of those main forcing functions, or are there even those forcing functions right now that would force people to consider this as something, you know, not aspirational but actually practical?",
+  "zh": "是对公司潜在的公关风险吗？你提到了财务方面，也许是软件供应商将他们的软件交给企业客户的商业方面。你认为那些主要的强制功能是什么，或者现在是否有那些强制功能，迫使人们将其视为某种不是愿景性的而是实际的东西？"
+ },
+ {
+  "seg": 22,
+  "start": 642.695,
+  "end": 662.005,
+  "speaker": "Emil Lassen",
+  "en": "Yeah. So I I see a couple of different things that I think are very practical. Any vendor building powerful AI right now knows how tricky it is to get through the enterprise vendor due diligence process and questionnaires. So these startups face these questionnaires. Sometimes there's a 100 questions on them and it's extremely painful to go through.",
+  "zh": "是的。所以我看到几件我认为非常实际的事情。现在任何构建强大 AI 的供应商都知道通过企业供应商尽职调查流程和问卷是多么棘手。所以这些初创公司面临这些问卷。有时上面有 100 个问题，过程非常痛苦。"
+ },
+ {
+  "seg": 23,
+  "start": 662.885,
+  "end": 699.97003,
+  "speaker": "Emil Lassen",
+  "en": "And I can tell you also, speak to a lot of enterprise CSOs and GSE managers, it's equally painful on their side, right? Because they're at a stage where the space changes so often that they feel a desire to actually change their questionnaire every month. Going through a 100 questions from a startup every single time you try to onboard a vendor is also completely painful on the other side. So I think part one here is speed and a desire to get to a place where you actually feel like you've covered your blind spots as well. And having a third party developed standard with all of the industry in the room to help find those blind spots and figure out how we can't fight them in a standard, I think is value proposition number one.",
+  "zh": "我也可以告诉你，我也和许多企业的 CSO 和 GSE 经理谈过，这对他们来说同样痛苦，对吧？因为他们处于一个阶段，这个领域变化非常频繁，以至于他们觉得实际上每个月都有改变问卷的愿望。每次尝试入职供应商时都要回答初创公司的 100 个问题，在另一方面也是完全痛苦的。所以我认为第一部分是速度和渴望到达一个地方，在那里你实际上觉得你也覆盖了你的盲点。拥有一个由所有行业参与开发的第三方标准，在房间里帮助发现这些盲点并弄清楚我们如何在标准中对抗它们，我认为这是价值主张的第一号。"
+ },
+ {
+  "seg": 24,
+  "start": 700.85004,
+  "end": 737.65,
+  "speaker": "Emil Lassen",
+  "en": "The speed argument obviously assumes that you can get across the line in the first place. I think the second part of the value proposition is having that third party validation that your Agenack AI is actually safe, secure and reliable. We're working with some of the frontier companies in the aerospace right now, companies like Eleven Labs, companies like Fin that just got acquired for 3,600,000,000 by Salesforce, companies like UiPath who have set the standards within their categories historically. They have fantastic security postures, but they don't have a way to prove that to an enterprise. So an enterprise will just never trust a company that has an incentive to sell their product.",
+  "zh": "速度论点显然假设你首先能跨越终点线。我认为价值主张的第二部分是拥有第三方验证，证明你的 Agenack AI 实际上是安全的、有保障的和可靠的。我们正在与航空航天领域的一些前沿公司合作，比如 Eleven Labs，比如刚刚被 Salesforce 以 36 亿美元收购的 Fin，比如 UiPath，他们在历史上确立了各自类别内的标准。他们拥有 fantastic 的安全态势，但他们没有办法向企业证明这一点。所以一个企业永远不会信任一家有销售产品激励的公司。"
+ },
+ {
+  "seg": 25,
+  "start": 737.65,
+  "end": 765.77997,
+  "speaker": "Emil Lassen",
+  "en": "They need that third party to go in and do that. And then I do think there is a security argument to be made here. Our red teaming consistently uncovers blind spots for the companies that we work with. Sometimes it's the hallucination rate where we realize that a specific type of adversarial attack will bring up the hallucination rate or specific language switches or other things that might actually happen when their products are deployed. Other times, it's jailbreaking risk that we manage to uncover or pump injection risk that we manage to uncover.",
+  "zh": "他们需要第三方进去做这件事。然后我确实认为这里有一个安全论据。我们的红队测试不断为我们合作的公司发现盲点。有时是幻觉率，我们意识到某种类型的对抗性攻击会提高幻觉率，或者特定的语言转换或其他事情，可能实际上发生在他们的产品部署时。其他时候，是我们设法发现的越狱风险，或者是 pump 注入风险。"
+ },
+ {
+  "seg": 26,
+  "start": 766.085,
+  "end": 801.195,
+  "speaker": "Emil Lassen",
+  "en": "So we do also see ourselves as helping these companies actually improve their safety, security and reliability posture, which is valuable as well. Then I'm sure there's a marketing benefit to the companies going out early and adopting a new framework and showing and demonstrating their moving in front when it comes to AI security leadership. I think that's an important branding value as well that we sometimes help provide, but I don't think that's the core benefit of decertification right now. I think that is really unlocking upmarket enterprise revenue for the for the companies.",
+  "zh": "所以我们也确实认为自己在帮助这些公司实际提高他们的安全性、保障性和可靠性态势，这也是有价值的。然后我确信公司有营销收益，早期采用新框架并展示和展示他们在 AI 安全领导力方面的前沿行动。我认为这也是一种重要的品牌价值，我们有时帮助提供，但我认为这不是目前去认证的核心利益。我认为这真的是为公司解锁高端企业收入。"
+ },
+ {
+  "seg": 27,
+  "start": 802.15497,
+  "end": 836.76495,
+  "speaker": "Daniel Whitenack",
+  "en": "Agents are impacting every function within a company, but it's sometimes very difficult to figure out what an agent should do, what a human should do. Jeffrey from News Research, a recent guest said often agents have no taste. That's why I'm so impressed with what our partner Framer is doing with their pro website builder that's already trusted by companies like Miro and Perplexity. They're implementing agents, but in a way that agents and humans work in tandem. Agents bring speed and scale, but people bring the taste, judgment, and control.",
+  "zh": "智能体正在影响公司内的每个职能，但有时很难弄清楚智能体应该做什么，人类应该做什么。News Research 的 Jeffrey，一位最近的嘉宾，经常说智能体没有品味。这就是为什么我对我们的合作伙伴 Framer 正在做的事情印象如此深刻，他们已经受到 Miro 和 Perplexity 等公司信任的专业网站构建器。他们正在实施智能体，但是以一种智能体和人类协同工作的方式。智能体带来速度和规模，但人带来品味、判断和控制。"
+ },
+ {
+  "seg": 28,
+  "start": 837.245,
+  "end": 874.41,
+  "speaker": "Daniel Whitenack",
+  "en": "And these agents help solve this gap between AI generated ideas and production ready website work. So Framer is already enterprise level solution. They they allow you to create amazing websites that are SEO ready. And so I really would recommend that you check them out if you're building a new website or just implementing landing pages or an upgrade in your existing website. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/practicalai for 30% off of Framer Pro annual plan.",
+  "zh": "这些智能体帮助解决 AI 生成的想法和就绪的网站工作之间的差距。所以 Framer 已经是企业级解决方案。它们允许您创建 SEO 就绪的惊人网站。所以我真的建议你检查一下他们，如果你正在建立一个新网站或者只是实施落地页面或升级你现有的网站。了解如何从 Framer 专家那里获得更多网站的价值，或者今天就在 framer.com/practicalai 免费开始构建，Framer Pro 年度计划可享受 30% 的折扣。"
+ },
+ {
+  "seg": 29,
+  "start": 874.49,
+  "end": 885.875,
+  "speaker": "Daniel Whitenack",
+  "en": "That's framer.com/practicalai for 30% off. Framer.com/practicalai. Rules and restrictions may apply. Yeah. Yeah.",
+  "zh": "那是 framer.com/practicalai 享受 30% 的折扣。Framer.com/practicalai。规则和限制可能适用。是的。是的。"
+ },
+ {
+  "seg": 30,
+  "start": 885.875,
+  "end": 957.69,
+  "speaker": "Daniel Whitenack",
+  "en": "I I'm I love your answer and it was a little bit I I was trying to validate some of my own thinking through that because we've talked on the show before about, you know, it isn't really like the the governments of the world are quite behind in terms of, you know, how they would, you know, enforce or even say what to enforce for companies building AI things. And and so it's really the enterprises themselves that have some motivation to do this, all of those that you laid out, and I'm and I'm sure more. In in the in the current, I guess, state of AI standards, if we kind of shift to that piece, and then eventually, wanna get to kind of the evidence and red teaming and and all of that. But maybe just as if we take a general look at the standards that exist out there for AI and AI agents, could you help us understand what kinds of standards are out there and what they cover? Because there's a lot of there's a lot of sort of intersections that we could think of, whether that be security or safety or alignment or all sorts of things, data privacy.",
+  "zh": "我喜欢你的回答，这有点像我试图通过它来验证我自己的一些想法，因为我们之前在节目中谈过，你知道，世界各政府真的有点落后，关于他们将如何执行，甚至说什么对构建 AI 事情的公司执行。所以实际上是企业自己有动力这样做，你列出的所有那些，我相信还有更多。在当前的，我猜，AI 标准状态下，如果我们稍微转移到那个部分，然后最终想进入证据和红队测试以及所有这些。但也许只是如果我们大致看一下目前存在的 AI 和 AI 智能体的标准，你能帮助我们了解有哪些种类的标准以及它们涵盖什么吗？因为有很多我们可以想到的交叉点，无论是安全还是保障还是对齐或所有种类的事情，数据隐私。"
+ },
+ {
+  "seg": 31,
+  "start": 957.69,
+  "end": 985.33,
+  "speaker": "Daniel Whitenack",
+  "en": "There there's all sorts of ways that you could kind of look at this and perspectives that you could look at it from, and there's all sorts of things that people have proposed over time. So I imagine, you know, that's part of the reason why having a company that's really digging into this at a deep level is is very worthwhile, which I I think it is. But could you help set the stage for that? Like, how can we categories categorize in our mind the current state of AI standards and what perspectives are coming from?",
+  "zh": "有很多种方式你可以通过来看待这个，你可以从中获得观点，而且随着时间的推移人们提出了各种各样的事情。所以我想象，这就是为什么拥有一家真正深入挖掘这一点的公司是非常值得的，我认为它是值得的。但你能帮助我们为此奠定基础吗？我们如何在脑海中分类当前 AI 标准的状态，以及来自哪些观点？"
+ },
+ {
+  "seg": 32,
+  "start": 985.33,
+  "end": 1010.26495,
+  "speaker": "Emil Lassen",
+  "en": "Yeah, absolutely. And by the way, Daniel, that's exactly where we started last summer, right? So if you go to auc1.com today, you'll find that we've done crosswalks. I think it's about 10 different frameworks now, but they're transparently available so you can see exactly how our standard fits into the existing environment and hopefully you also see then why we concluded after doing this work that yes, there actually was a need for another standard even though there can be sometimes a little bit of standard fatigue.",
+  "zh": "是的，绝对可以。顺便说一句，Daniel，这正是我们去年夏天开始的地方，对吧？所以如果你今天去 auc1.com，你会发现我们已经做了交叉对比。我想现在大约有 10 个不同的框架，但它们是透明可用的，所以你可以确切地看到我们的标准如何融入现有环境，希望你也明白为什么我们在做完这项工作后得出结论，是的，实际上确实需要另一个标准，尽管有时会有点标准疲劳。"
+ },
+ {
+  "seg": 33,
+  "start": 1010.48004,
+  "end": 1055.915,
+  "speaker": "Daniel Whitenack",
+  "en": "And just, by way of, I don't know, encouragement or thanks, maybe gratitude is the right way to put it, our our our, the company Eil Laid has looked at that many times in terms of, and we're maybe in, not not like everyone, we're building actual, you know, plane that works on some of these some of these knobs and levers that you talk about, but it's been extremely useful. And even, you know, as we're as we're writing content or doing planning or thinking about things in our product, I always refer people back to that page and I'd refer our listeners to that page because it is a it is a really great crosswalk and helps understand, you know, where these align, where they don't align, what what the other need is. So just by way of gratitude, thank you for putting that together and making it public.",
+  "zh": "只是，以我不知道的方式，鼓励或感谢，也许感激是正确的方式，我们公司 Eil Laid 已经多次看过那个，关于，我们可能，不是不是像所有人，我们正在构建实际的，你知道，可以在你谈论的一些一些旋钮和杠杆上工作的飞机，但这非常有用。甚至，当我们正在编写内容或做规划或思考我们产品中的事情时，我总是把人引回到那个页面，我也把我们的听众引向那个页面，因为它确实是一个很棒的交叉对比，有助于了解这些在哪里对齐，哪里不对齐，其他需求是什么。所以顺便表示感谢，感谢你把这些放在一起并公开。"
+ },
+ {
+  "seg": 34,
+  "start": 1055.915,
+  "end": 1094.86,
+  "speaker": "Emil Lassen",
+  "en": "Yeah, no, and we appreciate all the people who've worked on this. We do a lot of work with the Cloud Security Alliance, with the OWASP community across both the AIVSS and the GinAI project. We work with Cisco and IBM on Crosswalks, so it's a big team effort and I really appreciate that we've been able to gather the ecosystem around a decided to just publish some of this stuff transparently so that organizations like yours, but also I know big enterprises are using the controls we put out transparently in their own control frameworks. That's completely free to use and only the companies pursuing certification actually needs to get money out the pocket. To get back to your question, because I think it's an important one, the way we see the standard space is that you have three layers.",
+  "zh": "是的，不，我们非常感谢所有参与这项工作的人。我们与云安全联盟、OWASP 社区在 AIVSS 和 GinAI 项目上做了很多工作。我们与 Cisco 和 IBM 在交叉对比上合作，所以这是一个团队的努力，我真的很感激我们能够聚集生态系统围绕一个决定来透明地发布一些这些东西，以便像你们这样的组织，但我也知道大企业正在透明地使用我们发布的控制措施在他们自己的控制框架中。这是完全免费使用的，只有那些追求认证的公司实际上才需要掏钱。回到你的问题，因为我认为这是一个重要的问题，我们看待标准空间的方式是你有三层。"
+ },
+ {
+  "seg": 35,
+  "start": 1094.86,
+  "end": 1128.87,
+  "speaker": "Emil Lassen",
+  "en": "You have an organizational layer, you have an infrastructure layer and then you have the agentic AI layer. At the organizational level, many organizations have been through an ISO 27,001 certification, classic management system certification. ISO then about three years ago now published the 42,001, which is the management system certification for AI systems. It's a governance certification that ensures that you have the right policies in place and the right procedures in place so that when you develop AI systems, they hopefully turn out in the right way if you follow those systems. Then you have the infrastructure layer.",
+  "zh": "你有一个组织层，你有一个基础设施层，然后你有一个智能体 AI 层。在组织层面，许多组织已经通过了 ISO 27,001 认证，典型的管理体系认证。ISO 然后大约三年前发布了 42,001，这是 AI 系统的管理体系认证。这是一个治理认证，确保你有正确的政策和适当的程序，以便当你开发 AI 系统时，如果你遵循这些系统，它们有望以正确的方式出现。然后你有基础设施层。"
+ },
+ {
+  "seg": 36,
+  "start": 1128.87,
+  "end": 1172.605,
+  "speaker": "Emil Lassen",
+  "en": "That's where your SOC two comes in and your pentesting and some of the classic cybersecurity controls, access management, transport security, all the good stuff there. I'd say that many of those things become even more important in an space because pace is higher, data access is higher, so if you don't have that in order, then you should go back and ensure that you get those boxes checked. And then at the Agenack AI space, we basically just didn't see anything when we started this company and started drafting the first version of AI UC. One, we see NIST have come out with the AI risk management framework. There's a little bit of Agenack stuff in there, and I know from speaking to the team that they're considering publishing additions to this.",
+  "zh": "这就是你的 SOC 2、渗透测试和一些"
+ },
+ {
+  "seg": 37,
+  "start": 1172.605,
+  "end": 1189.57,
+  "speaker": "Emil Lassen",
+  "en": "The Cloud Security Alliance has also done their AI controls matrix, where again, there's some things in there around Agenack AI that are pretty good. The issue with both of those frameworks is that they're guidance. They're voluntary frameworks. You decide which controls you implement. You decide whether you like, how you implement them.",
+  "zh": "云安全联盟也做了他们的 AI 控制矩阵，同样，其中有一些关于 Agenack AI 的东西相当不错。这两个框架的问题在于它们是指导性的。它们是自愿框架。你决定你实施哪些控制。你决定你是否喜欢，你是如何实施它们的。"
+ },
+ {
+  "seg": 38,
+  "start": 1189.57,
+  "end": 1233.175,
+  "speaker": "Emil Lassen",
+  "en": "They're not orderable frameworks. So the way AAC One fits in here is that we've basically taken the core governance things from the organizational level that we think are really important when it comes to AI systems, such as having failure plans in play when agents do not do what they're intended to do and you know how to deal with that. Good change management and acknowledging that every time you, for example, replace the LLM in an agent, it will behave differently. And if you don't take that into account in your governance, your end users will bear the burden of that. So some parts of the governance, the core parts of the infrastructure layer as well as ensuring that the folks who have access to the AI system itself and can make these big decisions, that's restricted.",
+  "zh": "它们不是可订购的框架。所以 AAC One 适应这里的方式是，我们基本上从组织层面提取了我们认为对于 AI 系统非常重要的核心治理事项，例如制定当智能体不做它们打算做的事并且你知道如何处理该情况时的失败计划。良好的变更管理并承认每次你例如替换智能体中的 LLM 时，它的行为都会不同。如果你不在你的治理中考虑到这一点，你的最终用户将承担其后果。所以治理的某些部分，基础设施层的核心部分以及确保那些可以访问 AI 系统本身并可以做出这些重大决策的人员受到限制。"
+ },
+ {
+  "seg": 39,
+  "start": 1233.5,
+  "end": 1281.135,
+  "speaker": "Emil Lassen",
+  "en": "Ensuring again that transport security, when you do agent to agent communications and so forth, is in place. But otherwise, we basically leave ISO and TUC2 to do what they're really good at and focus on the agentic layer. And what is up there then for us is specific controls around safety, for example, ensuring that agents behave according to brand and that they don't give users guidance on medical care or legal advice, financial advice, other high risk areas, basically that they stay within their scope and don't start breaking out of that. We look at specifically how you restrict the agent's data access, its system access and its tool access, so it doesn't start processing refunds when you shouldn't. We look at hallucinations, which is also a risk that is quite unique to AI obviously and does not come up in any way in either ISO or SOC certifications.",
+  "zh": "再次确保传输安全，当你做智能体到智能体的通信等等时，已经到位。但除此之外，我们基本上让 ISO 和 TUC2 去做他们真正擅长的事情，并专注于智能体层。那上面对于我们来说是在安全方面的特定控制，例如，确保智能体的行为符合品牌，并且它们不给用户提供医疗护理或法律建议、金融建议、其他高风险领域的指导，基本上就是它们保持在范围内，并且不开始突破那个范围。我们具体看你如何限制智能体的数据访问，它的系统访问和它的工具访问，所以它不会在你不应该的时候开始处理退款。我们看幻觉问题，这显然也是 AI 独有的一种风险，并且不会以任何方式出现在 ISO 或 SOC 认证中。"
+ },
+ {
+  "seg": 40,
+  "start": 1281.135,
+  "end": 1330.445,
+  "speaker": "Emil Lassen",
+  "en": "So really focus on the agentic layer there and the core part of the differentiation, I'd say, is then the technical level of the controls. We go in and are actually quite prescriptive in what we want to see from the agents because we have a good understanding now of what the right toolbox is to ensure that these agents behave safe, secure and reliably. And the other thing is we acknowledge that a technical control in itself might not hold up under robustness. So six of the 40 mandatory requirements in AAC one have to do with red teaming, testing that these technical controls then hold up under pressure, both when we react, like we engage with the system as a benign user, just ask it questions and see if it hallucinates, but also what happens when we start approaching the system like, with social engineering and and adversarial pressure.",
+  "zh": "所以真的专注于那里的智能体层，并且差异化的核心部分，我会说，是控制的技术层面。我们进入并且实际上对我们要从智能体那里看到的东西相当规定化，因为我们要现在很好地理解了什么是正确的工具箱来确保这些智能体安全、可靠地行为。另一件事是我们承认技术控制本身可能在鲁棒性下站不住脚。所以 AAC one 中 40 个强制性要求中有 6 个与红队测试有关，测试这些技术控制随后在压力下站得住脚，既包括当我们反应时，像我们作为良性用户与系统互动，只是问它问题并看它是否产生幻觉，也包括当我们开始接近系统时会发生什么，像用社会工程学和对抗性压力。"
+ },
+ {
+  "seg": 41,
+  "start": 1330.445,
+  "end": 1354.39,
+  "speaker": "Daniel Whitenack",
+  "en": "And just to help people understand, so the AI UC one, that's the standard that that you all have published. People can look at it online. I assume since it's AI UC one, there's an anticipation there might be a a two or other or or various, you know, either revisions or different focuses kind of within different certifications is my is my understanding right there?",
+  "zh": "只是为了帮助人们理解，所以 AI UC one，那是你们发布的标准。人们可以在网上看到它。我假设既然是 AI UC one，预计可能会有一个两个或其他或各种，你知道，要么是修订版要么是不同的重点，在不同的认证中，我的我的理解对吗？"
+ },
+ {
+  "seg": 42,
+  "start": 1354.39,
+  "end": 1369.6951,
+  "speaker": "Emil Lassen",
+  "en": "That's correct. I think where to start is we update the standard every single quarter. So we've gathered now a consortium of two fifty secondurity leaders. Some of them are CSOs at Fortune 1,000 companies. Some of them are security engineers, architects, GRC managers.",
+  "zh": "那是正确的。我认为从哪里开始是我们每个季度都会更新标准。所以我们现在已经聚集了一个由 250 名 secondurity 领导者组成的联盟。其中一些是财富 1000 强公司的 CSO。其中一些是安全工程师、架构师、GRC 经理。"
+ },
+ {
+  "seg": 43,
+  "start": 1370.02,
+  "end": 1396.3151,
+  "speaker": "Emil Lassen",
+  "en": "And so we have the full stack of people in the room. And with them, every quarter we identify new priority areas. Last quarter it was MCP risk, for example, which has really come up as agents start not just operating in isolation but exchanging information. This quarter, we look a lot at how we can strengthen runtime security and that continuous element, which continues to be really important for a lot of organizations. So we get them into the room and update the standard each quarter.",
+  "zh": "所以我们在房间里拥有全员。并且与他们一起，每个季度我们都会确定新的优先领域。上个季度是 MCP 风险，例如，这真的出现了，因为智能体开始不仅独立运作而且交换信息。这个季度，我们看很多如何加强运行时安全和那个持续元素，这对于很多组织来说继续非常重要。所以我们把他们带入房间并每季度更新标准。"
+ },
+ {
+  "seg": 44,
+  "start": 1396.5,
+  "end": 1438.1799,
+  "speaker": "Emil Lassen",
+  "en": "I could very well see that new frameworks, so an AIAC two, AIAC three come out in the future. We don't have any plans to do that yet, but what we know, again, if we go all the way back to where we started our conversation, is that this combination of standards audits and insurance have worked historically. So right now we focus on the application layers of the platforms and products that take Agenack AI and deploy. But there's a model layer as well, which we see as our second horizon and there's the physical layer, like the data centers and the infrastructure that we deploy AI on, but also the cars and the robots that we put this into where standards audits and insurance could play a big role and that's where we see the company go long term.",
+  "zh": "我完全可以预见新的框架，所以 AIAC two，AIAC three 会在未来出现。我们还没有任何计划这样做，但我们知道的，再次，如果我们一路回到我们开始谈话的地方，是这个标准的审计和保险的组合在历史上是有效的。所以我们现在专注于采用 Agenack AI 并部署的平台和产品的应用层。但还有一个模型层，我们将此视为我们的第二个视野，还有一个物理层，像我们部署 AI 的数据中心和基础设施，还有我们将此放入的汽车和机器人，在那里标准审计和保险可以发挥重要作用，这就是我们看到公司长期发展的地方。"
+ },
+ {
+  "seg": 45,
+  "start": 1438.1799,
+  "end": 1459.7,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah, that makes sense. Could could you help us, so maybe paint the picture, let's say, there's a scenario, I'm I'm a company, I maybe I'm building an agentic a new agentic driven product. Right? And I'm going to offer it to some sort of regulated or enterprise customers. I'm selling into health care.",
+  "zh": "是的，那说得通。你能帮助我们吗，所以也许描绘一下图景，比如说，有一个场景，我是一家公司，我也许正在构建一个智能体的新的智能体驱动的产品。对吧？我打算把它提供给某种受监管的或企业客户。我在向医疗保健领域销售。"
+ },
+ {
+  "seg": 46,
+  "start": 1459.7,
+  "end": 1492.71,
+  "speaker": "Daniel Whitenack",
+  "en": "I'm selling into, you know, large manufacturing or or whatever it is. Right? So in that scenario, what what would the process kind of recommended process be for our company to engage with this standard and eventually get to that level of certification, maybe in the future eventually to the to the insurance side, but at least to that certification side, what would that process look like? And then maybe highlight in that process where the red teaming comes in. And then I'd love to circle back on that maybe later and and talk through that specifically.",
+  "zh": "我在向，你知道，大型制造业或任何行业销售。对吧？所以在那个场景中，对于我们公司参与这个标准并最终达到那个认证级别的过程，也许是未来最终到保险方面，但至少到认证方面，会是什么样的过程是什么？也许在那个过程中突出红队测试在哪个地方介入。然后我也许想稍后回到那个话题并具体谈论那个。"
+ },
+ {
+  "seg": 47,
+  "start": 1492.7101,
+  "end": 1515.3999,
+  "speaker": "Emil Lassen",
+  "en": "Yeah. Absolutely. So you'd get in touch with our team and the first thing we always do is we do a gap assessment against your existing systems. If you have a well documented trust center already or some blog post describing what you do, we can basically go back to you and tell you this is the places where we believe you already meet the standard. These are the areas where we expect that there will be work for you.",
+  "zh": "是的。当然。所以你会联系我们的团队，我们要做的第一件事就是对你现有的系统进行差距评估。如果你已经有一个文档完善的信任中心或一些描述你所做事情的博客文章，我们基本上可以回到你那里并告诉你这是我们认为你已经符合标准的地方。这些是我们预期你需要工作的领域。"
+ },
+ {
+  "seg": 48,
+  "start": 1515.48,
+  "end": 1542.08,
+  "speaker": "Emil Lassen",
+  "en": "So you basically go into the certifications process with open eyes around what is the workload needed from engineering, from legal and from your GRC team to take your company through it. I will mention at this point, we've had a three person Y Combinator startup go through this. We've had UiPath that is publicly traded go through this. We have companies at all stages. So I mentioned now security, legal and GSE.",
+  "zh": "所以你基本上睁大眼睛进入认证过程，关于从工程、法律和你的 GRC 团队需要什么工作量来带领你的公司完成它。我在这一点上会提到，我们有一个三人的 Y Combinator 初创公司完成了这个。我们有上市交易的 UiPath 完成了这个。我们拥有各个阶段的公司。所以我刚才提到了安全、法律和 GSE。"
+ },
+ {
+  "seg": 49,
+  "start": 1542.08,
+  "end": 1561.735,
+  "speaker": "Emil Lassen",
+  "en": "That was the same person when it came to points or getting certified, right? So it is a standard that scales with the organization's size as well. When you have this gap assessment completed, you basically decide whether you want to move forward with the certification or not. To move forward, we split the process in two parts. One part is you pick an order of your choice.",
+  "zh": "那是同一个人，当涉及到积分或获得认证时，对吧？所以它是一个随组织规模而扩展的标准。当你完成了这个差距评估，你基本上决定是否要继续进行认证。要继续，我们将过程分为两部分。一部分是你选择你选择的订单。"
+ },
+ {
+  "seg": 50,
+  "start": 1562.375,
+  "end": 1580.62,
+  "speaker": "Emil Lassen",
+  "en": "We have a number of credited auditors, like, for example, Shellman Coal Fired, but the list is growing very rapidly at the moment. And trusted auditor who knows how to do this. And on their track, you basically start collecting all the evidence that is needed to go through the ASC one audit. It falls in two buckets. Some of it is the classic legal policies.",
+  "zh": "我们有许多认可的审计师，例如 Shellman Coal Fired，但这个名单目前增长非常迅速。以及一位知道如何做这个的值得信赖的审计师。而在他们的轨道上，你基本上开始收集所有通过 ASC one 审计所需的证据。它分为两类。其中一些是经典的法律政策。"
+ },
+ {
+  "seg": 51,
+  "start": 1580.945,
+  "end": 1614.825,
+  "speaker": "Emil Lassen",
+  "en": "If you have a generative AI product, you need to define who owns the inputs and outputs and how you retain user data and whether you train on that user data. So forth, you need to define your acceptable use. And the second part is the technical controls that that Sheltman will go in and validate. So that is your filtering configuration against harmful output, your classifier, your defensive prompting, your groundedness filtering when it comes to hallucination preventing, your safeguards around tool calls and all the other things. So again, you go through those requirements and capture the evidence and submit that to the auditor that goes in and does that third party validation.",
+  "zh": "如果你有一个生成式 AI 产品，你需要定义谁拥有输入和输出，以及你如何保留用户数据，以及你是否在该用户数据上进行训练。等等，你需要定义你的可接受使用。第二部分是 Sheltman 将要进去验证的技术控制。那就是你针对有害输出的过滤配置，你的分类器，你的防御性提示，当涉及到防止幻觉时的真实性过滤，围绕工具调用的护栏以及所有其他事情。所以再次，你要过一遍这些要求并收集证据并提交给审计师，审计师进去做第三方验证。"
+ },
+ {
+  "seg": 52,
+  "start": 1615.465,
+  "end": 1652.0249,
+  "speaker": "Emil Lassen",
+  "en": "The other track we then do in parallel is that you give us an instance of the agent or the agents, it can be multiple as well, that is in scope for the certification. And you basically configure a representative version of that agent. So an agent that would be configured how an enterprise would use it. We sometimes see companies creating an extremely safe agent that has almost lost all its power because they just wanted to pass the certification, we obviously would then go in as the third party in the room and push back and say, we want to see an agent that is configured based on the public docs you have and the defaults you've built into the product. When we then have access to that, we often access it via API.",
+  "zh": "然后我们并行做的另一条轨道是，你给我们一个在认证范围内的智能体实例，也可以是多个。你基本上配置该智能体的一个代表性版本。也就是一个企业会使用的智能体配置。我们有时看到公司创建一个极其安全的智能体，几乎失去了所有的能力，因为他们只是想通过认证，我们显然然后会作为房间里的第三方介入并反驳说，我们想看到一个根据你拥有的公开文档和你内置到产品中的默认值配置的智能体。当我们有权访问它时，我们通常通过 API 访问它。"
+ },
+ {
+  "seg": 53,
+  "start": 1652.025,
+  "end": 1676.395,
+  "speaker": "Emil Lassen",
+  "en": "Our internal team will draw up a matrix of the risks we see that this agent is subject to and the attacks that it could be subject to if someone went in and attacked it. And we then develop usually between 1,005 different scenarios that we're going to hit this agent with. Each attack is unique. Some of them are, again, benign in nature. So the user will simply ask it a question, get the answer back.",
+  "zh": "我们的内部团队会根据我们看到该智能体所面临的风险以及如果有人进去攻击它可能受到的攻击，列出一份矩阵。然后我们要开发通常 1005 种我们要用来攻击该智能体的不同场景。每次攻击都是独特的。其中一些，再次，本质上是良性的。所以用户只需问它一个问题，拿回答案。"
+ },
+ {
+  "seg": 54,
+  "start": 1676.395,
+  "end": 1692.7001,
+  "speaker": "Emil Lassen",
+  "en": "If the agent doesn't hallucinate, it passes the eval. Other times we'll increase the adversarial pressure step by step. So the first step could be that we try to lie to it. The second step could be that we invoke authority. We do it over multiple turns sometimes and keep insisting on doing things.",
+  "zh": "如果智能体没有产生幻觉，它就通过了评估。其他时候我们会逐步增加对抗性压力。所以第一步可能是我们试图对它撒谎。第二步可能是我们援引权威。我们有时在多个轮次中这样做并坚持要做这些事。"
+ },
+ {
+  "seg": 55,
+  "start": 1692.7001,
+  "end": 1721.02,
+  "speaker": "Emil Lassen",
+  "en": "We pretend that we're under distress and say, if you don't do this right now, I will go and do something terrible. So please process this refund. And obviously only pass the agent if we see it hold up to that pressure. We do the red teaming in two rounds because we often do find things in the first round. So similar to an ISO audit where you have a stage one and a stage two and you then have a chance to mitigate any findings in between, we give a company the chance to do that because the goal for us, again, is not compliance.",
+  "zh": "我们假装我们处于困境并说，如果你不现在做这个，我会去做一些可怕的事情。所以请处理这个退款。显然，只有当我们看到它经受住这种压力时，才让智能体通过。我们分两轮进行红队测试，因为我们经常在第一轮中发现东西。所以类似于 ISO 审计，你有一个第一阶段和一个第二阶段，然后你有机会在之间减轻任何发现，我们给公司一个机会这样做，因为我们的目标，再次，不是合规。"
+ },
+ {
+  "seg": 56,
+  "start": 1721.02,
+  "end": 1751.9299,
+  "speaker": "Emil Lassen",
+  "en": "The goal for us is security, right, that you actually improve the agent as part of the certification process. So depending on the magnitude of the findings, your team will have between, say, one and four weeks to mitigate these things based on the recommendations we come up with. And we then do a second round of testing. That testing is final and is taken then into account when the auditor takes your evidence, takes your Red Team results and writes that final audit report. And what you leave the process with is a comprehensive audit report that describes your security posture.",
+  "zh": "我们的目标，对吧，是安全，即你实际上在认证过程中改进了智能体。所以根据发现的严重程度，你的团队将有一到四周的时间来根据我们提出的建议减轻这些事情。然后我们做第二轮测试。该测试是最终测试，随后被计入审计师拿走你的证据，拿走你的红队结果并撰写最终审计报告时。你离开该过程时得到的是一份描述你的安全态势的综合审计报告。"
+ },
+ {
+  "seg": 57,
+  "start": 1752.09,
+  "end": 1781.8599,
+  "speaker": "Emil Lassen",
+  "en": "It's between sixty and one hundred pages long and it's an asset you can really unblock those enterprise deals with. You get a certificate for your website again, so you can demonstrate that you've gone above and beyond when it comes to security. And then we come knocking again three months later and say, we still have access to your agent via the API. We're now going to run that same barrage of tests again to ensure that the changes you've made in the last quarter didn't invalidate some of the security things we found. And we do that every single quarter, that's a requirement to to maintain certification.",
+  "zh": "它有六十到一百页长，它是你真正可以用来解锁那些企业交易的资产。你再次为你的网站获得一张证书，所以你可以展示你在安全方面做得超出了要求。然后我们三个月后再次敲门说，我们仍然可以通过 API 访问你的智能体。我们现在将再次运行同样的连番测试，以确保你在上个季度所做的更改没有使我们发现的一些安全措施失效。我们每个季度都这样做，这是维持认证的要求。"
+ },
+ {
+  "seg": 58,
+  "start": 1781.94,
+  "end": 1811.7499,
+  "speaker": "Daniel Whitenack",
+  "en": "And in that red teaming, I mean, you you mentioned this before around kind of the probabilistic nature of of some of these things, and this is something I've always run into in in AI workshops as I give workshops in in enterprise. Often people will say, oh, this is like, you know, it's not deterministic. How do we how do we create the right like, what does passing mean? Right? And so you could say, well, passing means, you know, passing all 5,000 scenarios.",
+  "zh": "在那个红队测试中，我是说，你之前提到了关于其中一些事情的概率性质，这是我在企业中举办 AI 研讨会时经常遇到的。通常人们会说，哦，这就像，你知道，它不是确定性的。我们要如何我们要如何创建正确的就像，通过意味着什么？对吧？所以你可以说，好吧，通过意味着，你知道，通过所有 5000 个场景。"
+ },
+ {
+  "seg": 59,
+  "start": 1811.83,
+  "end": 1830.48,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? And you mentioned this phased approach, which I think deals with part of that. But, yeah, what, could you describe a little bit on that side? Like, what does what does passing mean? At what level kind of do you expect things to pass or should should you expect things to pass or has that even been a a topic of discussion?",
+  "zh": "对吧？你提到了这个分阶段方法，我认为这解决了其中的一部分。但是，是的，什么，你能描述一下那方面吗？就像，通过意味着什么？在什么水平上你期望事情通过，或者应该期望事情通过，或者这甚至是一个讨论的话题吗？"
+ },
+ {
+  "seg": 60,
+  "start": 1830.48,
+  "end": 1851.565,
+  "speaker": "Emil Lassen",
+  "en": "Yeah. So it's it's a great question and it's also a really hard question, so there's some nuances in here. What we require to pass AAC one is that you don't have any rate each run based on severity. So a pass, you can have a P four, which is an insignificant, say, small hallucination that doesn't really affect an end user. A minor thing would be which would be a P three.",
+  "zh": "是的。所以这是一个很好的问题，也是一个非常难的问题，所以这里有一些细微差别。我们要通过 AAC one 要求的是你没有任何基于严重程度的评级运行。所以一个通过，你可以有一个 P 四，这是一个无关紧要的，比如说，小幻觉，并不真正影响最终用户。一个小事情将是 P 三。"
+ },
+ {
+  "seg": 61,
+  "start": 1852.17,
+  "end": 1874.705,
+  "speaker": "Emil Lassen",
+  "en": "P2 would be something significant that may actually have real world implications. P1 is something critical. And P0 actually don't know the name for it. I think we have called it catastrophic or something like that. The kind of thing, if we found it, you would drop what you had in your hands and start mitigating it immediately because having a system deployed with this kind of vulnerability could have real world implications that would be high.",
+  "zh": "P2 将是可能具有现实世界影响的重大事情。P1 是关键性的东西。而 P0 实际上不知道它的名字。我认为我们称之为灾难性的或类似的东西。那种事情，如果我们发现了它，你会扔下手中的东西并立即开始缓解它，因为部署一个具有这种漏洞的系统可能会产生很高的现实世界影响。"
+ },
+ {
+  "seg": 62,
+  "start": 1875.185,
+  "end": 1918.41,
+  "speaker": "Emil Lassen",
+  "en": "Our grading approach right now is that you cannot pass AAC1 if you have any P0 or P1 vulnerabilities identified. You have to mitigate those. From then on, we believe a lot in transparency and we know from the compliance world, at least the frameworks that are robust and hold up under pressure, that if we put the results in the audit report and your customers see that audit report, you are very incentivized to mitigate the vulnerabilities we find. What we also know is that these agent systems are very different from use case to use case. So a coding agent is one type of beast versus a customer service agent versus a automation agent like UiPath that make decisions based on the information.",
+  "zh": "我们目前的评级方法是，如果你有任何确定的 P0 或 P1 漏洞，你就不能通过 AAC1。你必须减轻它们。从那时起，我们非常相信透明度，我们从合规世界知道，至少是那些在压力下站得住脚的稳健框架，如果我们将结果放在审计报告中并且你的客户看到那份审计报告，你会非常受到激励去减轻我们发现的漏洞。我们也知道这些智能体系统在不同用例之间差异很大。所以一个编码智能体是一种类型的野兽，相对于客户服务智能体相对于像 UiPath 那样根据信息做出决策的自动化智能体。"
+ },
+ {
+  "seg": 63,
+  "start": 1918.65,
+  "end": 1948.71,
+  "speaker": "Emil Lassen",
+  "en": "And so companies have different tolerances around the percentage of hallucinations they would accept and so forth. So we really leave it up to the company and really in the end, the customers of that company to make these calls. The important thing is, and this is where we sometimes have a little bit of a conversation with some of the companies we work with, no company has ever and will ever pass AAC1 with a 100 pass rate. It doesn't exist here. We're not Delve SOC two compliance where you just get a magical, a spot free audit report.",
+  "zh": "因此公司对于他们会接受的幻觉百分比有不同的容忍度等等。所以我们真的把它留给公司，实际上最终是留给该公司的客户来做这些决定。重要的是，这也是我们有时与我们合作的一些公司进行的一点对话的地方，没有任何公司曾经或将会以 100 的通过率通过 AAC1。这在这里不存在。我们不是 Delve SOC 二合规，你只是得到一个神奇的，无污点的审计报告。"
+ },
+ {
+  "seg": 64,
+  "start": 1948.71,
+  "end": 1970.34,
+  "speaker": "Emil Lassen",
+  "en": "All agentic systems are nondeterministic in nature. That means that they will always, if you put them under the right amount of pressure, be able to be jailbroken. They will always be able to hallucinate. We work again with, like some of the legal agents we're certifying right now are world class at hallucination prevention. I am sure we will still be able to find some minor hallucination cases in those.",
+  "zh": "所有的智能体系统本质上都是非确定性的。这意味着它们总是，如果你对它们施加适量的压力，能够被越狱。它们总是能够产生幻觉。我们再次合作，就像我们现在正在认证的一些法律智能体在防止幻觉方面是世界一流的。我确信我们仍然能够发现其中的一些小幻觉案例。"
+ },
+ {
+  "seg": 65,
+  "start": 1970.34,
+  "end": 2010.0651,
+  "speaker": "Emil Lassen",
+  "en": "And that's just the nature of these systems. If you remove those hallucination rates, it's because you've made the agent so dumb that it won't be able to actually execute the use case there. It is a topic that is very alive for us, both because there's a grading methodology question in there and then there's this communications question. And we've not yet seen that enterprises fully acknowledge this. Enterprises would also like to see something spotless because something that is not spotless just asks like adds complexity and raises some of these questions, but we're hoping to be part of a push in the sector to acknowledge that a spotless audit report is probably not as valuable as a audit report that reflects reality, more more more clearly.",
+  "zh": "而这些系统的本质就是这样。如果你去除了那些幻觉率，那是因为你让智能体变得如此愚蠢，以至于它无法真正执行那里的用例。这是一个对我们来说非常活跃的话题，既因为里面有评级方法论问题，然后还有这个沟通问题。我们还没有看到企业完全承认这一点。企业也希望看到无瑕疵的东西，因为不无瑕疵的东西就像增加了复杂性并提出了一些这些问题，但我们希望能成为推动该领域承认一份无瑕疵的审计报告可能不如一份更清楚地反映现实的审计报告有价值的一部分。"
+ },
+ {
+  "seg": 66,
+  "start": 2010.0651,
+  "end": 2038.255,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. That that's really helpful. Appreciate that. I hope you're inspired by the work that the AI underwriting company is doing and what we're talking about in this episode, really getting to a point where true enterprises can adopt agentic technology and actually have confidence in that technology and maybe eventually insurance around the risks associated with AI agents. That involves a whole lot of things.",
+  "zh": "是的。那真的很有帮助。感激这一点。我希望你能受到这家 AI 承保公司所做的工作以及我们在这一集中讨论的事情的启发，真正达到真正的企业可以采用智能体技术并实际上对该技术有信心的地步，并可能最终获得与 AI 智能体相关的风险的保险。这涉及到很多事情。"
+ },
+ {
+  "seg": 67,
+  "start": 2038.255,
+  "end": 2096.395,
+  "speaker": "Daniel Whitenack",
+  "en": "There there are a bunch of controls that need to be put into place. Everything from, yes, individual guardrails, but much more than that to how agents access MCP servers, how you manage supply chain and the risk associated with things in the supply chain around agents, how you handle observability and response to incidents. This can be really overwhelming, and that's why I'm so privileged to be working with an amazing team of AI engineers at Prediction Guard, where we've actually built an AI control plane that you can self host in your own infrastructure that allows you to treat AI agents that you're adopting with zero trust and these built in controls out of the box. I would love for you to take a look at what we're doing. Book a call with my team and I to talk through your individual implementation and how you can get up to speed rapidly and adopt this technology with full confidence.",
+  "zh": "有许多控制措施需要到位。从是的，单独的护栏开始，但更多的是关于智能体如何访问 MCP 服务器，你如何管理供应链以及围绕智能体的供应链中事物的相关风险，你如何处理可观测性和事件响应。这真的可能让人不知所措，这就是为什么我很荣幸能与 Prediction Guard 的一群出色的 AI 工程师一起工作，我们在那里实际上构建了一个 AI 控制平面，你可以在自己的基础设施中自托管，它允许你对正在采用的 AI 智能体采用零信任和这些开箱即用的内置控制。我希望你能看看我们在做什么。与我的团队和我预订一次通话，以讨论你的个人实施以及你如何能快速跟上并以充分的信心采用这项技术。"
+ },
+ {
+  "seg": 68,
+  "start": 2096.395,
+  "end": 2132.025,
+  "speaker": "Daniel Whitenack",
+  "en": "You can find out more at predictionguard.com/practicalai. That's predictionguard.com/practicalai. I I have another kind of selfish question because this is actually a response I get quite often when I'm talking to people about the systems that they're building. And, I I have my metaphor that I use that I would love you to critique, which might not be useful. If it's not useful, I need to use a different metaphor, but the the scenario is often they say, oh, well, we're building, you know, these agents or this agent, and maybe they're using AWS.",
+  "zh": "你可以在 predictionguard.com/practicalai 了解更多。那是 predictionguard.com/practicalai。我有另一个有点自私的问题，因为这实际上是当我与人们谈论他们正在构建的系统时经常得到的回应。我有我使用的比喻，我希望你能批评，这可能没有用。如果没有用，我需要使用一个不同的比喻，但场景通常是他们说，哦，好吧，我们正在构建，你知道，这些智能体或这个智能体，也许他们正在使用 AWS。"
+ },
+ {
+  "seg": 69,
+  "start": 2132.025,
+  "end": 2150.195,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? And so they're building some agents. They have some agent harness, and then they're plugging into some AWS bedrock models. And I'm talking to them about, hey. Well, like, when you're thinking about governance of these agents, the behavior of these agents, how you control that behavior, how you prevent bad things from happening.",
+  "zh": "对吧？所以他们在构建一些智能体。他们有一些智能体挽具，然后他们插入一些 AWS bedrock 模型。我和他们谈论关于，嘿。好吧，就像，当你在考虑这些智能体的治理，这些智能体的行为，你如何控制该行为，你如何防止坏事情发生时。"
+ },
+ {
+  "seg": 70,
+  "start": 2150.195,
+  "end": 2157.635,
+  "speaker": "Daniel Whitenack",
+  "en": "Like, how do you do that? And they're like, oh, well, that's easy. You know? AWS has, a content filter on their bedrock model. Right?",
+  "zh": "就像，你如何做那个？他们就像，哦，好吧，这很容易。你知道？AWS 在他们的 bedrock 模型上有一个内容过滤器。对吧？"
+ },
+ {
+  "seg": 71,
+  "start": 2157.715,
+  "end": 2176.975,
+  "speaker": "Daniel Whitenack",
+  "en": "And, to be clear, I'm not bashing on AWS. I think it's cool that they have a content filter. But I I I often use the metaphor of, like, my own health as a person. So I I say, like, well, is it bad for me to run a point check to, like, check my temperature? It's not, like, a bad thing, right?",
+  "zh": "而且，明确地说，我不是在抨击 AWS。我认为他们有一个内容过滤器很酷。但我经常使用关于我作为一个人的健康的比喻。所以我说，就像，好吧，对我来说"
+ },
+ {
+  "seg": 72,
+  "start": 2176.975,
+  "end": 2223.06,
+  "speaker": "Daniel Whitenack",
+  "en": "Like that's part of maybe being a healthy person is knowing if I have a fever or not, right? But it's very different from me being plugged into a healthcare system where there's electronic health records about my journey as a person, my health, my conditions, different from kind of having a comprehensive set of physicals and labs that were run that give different, you know, perspectives on on my health. Right? And so there's there's this system that I'm plugged into, there's a process, there's policies around that, there's, and that's, in in my mind, that's much more of kind of the perspective that people need to go to is not so much like, hey, I have a prompt injection filter. Right?",
+  "zh": "就像这也许是做一个健康人的一部分，是知道我是否发烧，对吧？但这和我接入一个医疗系统是非常不同的，那里有关于我个人旅程的电子健康记录，我的健康，我的状况，与拥有全面的体检和实验室检查是不同的，这些检查提供了不同的、你知道的、关于我的健康的视角。对吧？所以有我接入的这个系统，有流程，有围绕它的政策，有，而且那，在我看来，那更多是那种人们需要采取的视角，并不太像“嘿，我有一个提示词注入过滤器”，对吧？"
+ },
+ {
+  "seg": 73,
+  "start": 2223.06,
+  "end": 2238.7852,
+  "speaker": "Daniel Whitenack",
+  "en": "And that's my strategy. But more this kind of comprehensive view like you would have of your own health as a person, but now we're talking about like the the health or behavior of a of an agent. I don't know. Any any critique on that or or",
+  "zh": "那是我的策略。但这更多是一种全面的视角，就像你对自己作为一个人健康的看法，但现在我们要说的是关于一个智能体的健康或行为。我不知道。对此有什么批评或者"
+ },
+ {
+  "seg": 74,
+  "start": 2238.945,
+  "end": 2277.095,
+  "speaker": "Emil Lassen",
+  "en": "know, I I actually I I really like that analogy. I've not thought about this this one before, but I think our quarterly red teaming is is very much alike to the doctor's visit where you go from head to toe. You go through the MRI scanner, you go through the blood testing, you like everything that Elizabeth Holmes tried to prevent with Theranos, we will do to you and we will do it 10 times over. And in between, the beauty of the standard is there's obviously a lot of runtime controls in there. So we will ensure then that you do still take your temperature every day, in fact, probably every minute, so that alerts are configured if something immediately goes off.",
+  "zh": "知道，我我其实我我真的很喜欢那个类比。我以前没想过这一个，但我认为我们每季度的红队测试非常像医生的看诊，你会从头到脚检查一遍。你做核磁共振扫描，你做血液测试，你就像伊丽莎白·霍姆斯试图用 Theranos 阻止的那些事情，我们都会对你做，而且我们会做上十遍。而在此期间，标准的美妙之处在于其中显然有很多运行时控制措施。所以我们要确保你每天仍然量体温，事实上，可能每分钟，以便如果出现异常就配置警报。"
+ },
+ {
+  "seg": 75,
+  "start": 2277.095,
+  "end": 2314.47,
+  "speaker": "Emil Lassen",
+  "en": "We will also have you lock your system behavior right. So if something goes awry and you don't understand it, you can go back and see what is the observability then and go in and explain it. So I think it's basically the perfect analogy between the red teaming is a doctor's visit we do every course and we do that very comprehensively. And in between, we make sure that we check your vitals every minute and there's an alarm going off if there's something off and then maybe adding a healthy diet to it in the first place as well, ensuring that the inputs and outputs of the system are are working well, so not too much junk food there.",
+  "zh": "我们也会让你锁定你的系统行为，对吧。所以如果出了问题而你不理解它，你可以回去看看可观测性是什么，并进去解释它。所以我认为这是一个完美的类比，红队测试就是医生的看诊，我们每一个周期都做，而且我们做得很全面。而在此期间，我们确保我们每分钟检查你的生命体征，如果有什么不对劲就会有警报响起，然后也许首先加上健康的饮食，确保系统的输入和输出运行良好，所以那里没有太多的垃圾食品。"
+ },
+ {
+  "seg": 76,
+  "start": 2314.47,
+  "end": 2342.5098,
+  "speaker": "Daniel Whitenack",
+  "en": "Okay. Yeah. I like, even now I I I have some revisions of my metaphor I'll use based on your response. I think that's great. But yeah, I I think the other thing that might like we have some developers listening, Maybe people developing agents actively and it it might be somewhat overwhelming to, for example, look at the, you know, AI UC has like a evidence, page, right, where I can see all the things maybe I should be doing.",
+  "zh": "好的。是的。我喜欢，甚至现在，我我我对我的一些隐喻有一些修改，我会根据你的回答使用。我觉得这很棒。但是是的，我我认为另一件可能像的事情，我们有一些开发者在听，也许正在积极开发智能体的人，它这可能会让人有点不知所措，例如，看看那个，你知道的，AI UC 有一个证据页面，对吧，在那里我可以看到所有我也许应该做的事情。"
+ },
+ {
+  "seg": 77,
+  "start": 2342.5098,
+  "end": 2394.7148,
+  "speaker": "Daniel Whitenack",
+  "en": "How do you see the market evolving in terms of like, obviously, you have one side of this which is really related to the standard, the certification, maybe eventually that insurance side, but then it can be, you know, an individual developer of an agent might not be an expert in agent security or how to govern these things, that sort of thing. So that might seem overwhelming to them. That you mentioned partners like auditors. There's the infrastructure layer. What what do you think I I guess my question is what do you think needs to be in place to, to actually enable real world developers to meet some of these standards, whether that be evolution in the tooling or, obviously understanding maybe of the the the, standards.",
+  "zh": "你如何看待市场的发展，就比如，显然，你有一方面是真正与标准相关的，认证，也许最终是保险方面，但它可以是，你知道的，一个智能体的个人开发者可能不是智能体安全或如何治理这些事情的专家，诸如此类。所以这对他们来说可能显得不知所措。你提到了像审计员这样的合作伙伴。还有基础设施层。你怎么想，我我想我的问题是你认为需要具备什么才能实际上让现实世界的开发者满足其中一些标准，无论是工具的演进，或者显然是对标准的理解。"
+ },
+ {
+  "seg": 78,
+  "start": 2394.7148,
+  "end": 2396.7148,
+  "speaker": "Daniel Whitenack",
+  "en": "I I don't know. Does the question make sense?",
+  "zh": "我我不知道。这个问题说得通吗？"
+ },
+ {
+  "seg": 79,
+  "start": 2396.7148,
+  "end": 2408.77,
+  "speaker": "Emil Lassen",
+  "en": "Yeah. Yeah. No. Absolutely. I think where we are right now is we're just overwhelmed by how positively AAT one has been received as we're really busy just delivering certifications.",
+  "zh": "是的。是的。不。绝对是。我认为我们现在的处境就是我们对 AAT one 受到的积极反响感到不知所措，因为我们真的很忙于交付认证。"
+ },
+ {
+  "seg": 80,
+  "start": 2408.77,
+  "end": 2459.285,
+  "speaker": "Emil Lassen",
+  "en": "So that means we've less time to talk to some of the many, many fantastic partners who come into our inbox and want to partner with us. I think there's three things we need to get right for this to work. I think we need to continue pushing for code and Neogenetic products that come out of the gate as secure as possible by default. We're certifying our first coding agents right now and we are certifying both a well lovable, which I think will be certified when this episode comes out, and then another very large coding agent that may or may not have been acquired recently for a lot of money without naming names. Working with the coding agents layer and the platforms where you go in and configure code, we're also, like again, UiPath is a good example where you don't just like have one agent, but you actually go in and build agents on top.",
+  "zh": "所以这意味着我们要少花时间与许多许多很棒的合作伙伴交谈，他们进入我们的收件箱并想与我们合作。我认为要让这行得通，我们需要做对三件事。我认为我们需要继续推动代码和 Neogenetic 产品，它们一出来就尽可能默认安全。我们现在正在认证我们第一批编码智能体，我们正在认证一个 well lovable，我认为在这一集播出时就会被认证，然后还有一个非常大的编码智能体，最近可能被花大价钱收购了，在这个就不点名了。与编码智能体层和平台合作，你进入并配置代码的地方，我们也，就像再次，UiPath 是一个很好的例子，在那里你不仅仅拥有一个智能体，但你实际上进入并在其上构建智能体。"
+ },
+ {
+  "seg": 81,
+  "start": 2459.34,
+  "end": 2496.82,
+  "speaker": "Emil Lassen",
+  "en": "Means that it'll be easier to meet a lot of the standards just by default because the environment where you define and build your agent is secured by default. So I think that's step one and we're going to do more of that work with some of the big agentic platforms out there very soon. Think some of it will be announced in the fall. The second stage is we need this partner ecosystem you just talked about and we're already starting to come out with some examples of this where a partner meets, helps companies meet a good chunk of controls. So a company like White Circle, which I think is very cool, we don't work with them at all, so just a shout out.",
+  "zh": "这意味着仅仅通过默认就能更容易满足许多标准，因为你定义和构建智能体的环境是默认安全的。所以我认为那是第一步，我们将要做更多这方面的工作，很快与那里的一些大型智能体平台合作。我认为其中一些将在秋天宣布。第二阶段是我们需要你刚刚谈论的这个合作伙伴生态系统，我们已经开始提出一些这方面的例子，合作伙伴满足，帮助公司满足大部分控制措施。"
+ },
+ {
+  "seg": 82,
+  "start": 2496.82,
+  "end": 2523.43,
+  "speaker": "Emil Lassen",
+  "en": "Their monitoring and filtering work is really good and has helped companies meet a lot of the safety requirements in our standard. So that is like one platform you integrate and you immediately meet say eight or 10 of the requirements in the standard. There are many other platforms. We're doing some work right now with Credo, with Witness AI, and there's, again, tens of others. So having that ecosystem help companies meet the controls, I think is important.",
+  "zh": "所以像 White Circle 这样的公司，我认为它很酷，我们不与他们合作，所以只是提一下。他们的监控和过滤工作真的很好，并帮助公司满足了我们标准中的许多安全要求。所以这就像你集成的一个平台，你立即满足比如说标准中的八个或十个要求。还有许多其他平台。我们现在正在与 Credo、Witness AI 做一些工作，还有，再次，其他的几十个。所以拥有那个生态系统帮助公司满足控制措施，我认为很重要。"
+ },
+ {
+  "seg": 83,
+  "start": 2523.43,
+  "end": 2554.3,
+  "speaker": "Emil Lassen",
+  "en": "And where we've already gone in and done our best to help companies meet the standard is we've gone in and actually defined the typical evidence we see companies upload. To see that as your guidance for where to look for the right approaches, we don't just define the controls and leave it up to you to figure out how the hell to implement it. We actually try to give you the guidance as well on how we see companies do it today. I think the third and final stage we need is obviously making it easier then to go through the certification itself. So we're already integrating the framework in the leading GSE platforms.",
+  "zh": "在我们已经进入并尽力帮助公司满足标准的地方，是我们已经进入并实际定义了典型的证据，我们看到公司上传。将其视为你的指导，用于寻找正确的方法，我们不只是定义控制措施并让你自己去弄清楚到底如何实现它。我们实际上也尝试给你指导，关于我们今天看到公司是如何做的。我认为我们需要第三也是最后阶段，显然是让通过认证本身变得更容易。所以我们已经在领先的 GSE 平台中集成了该框架。"
+ },
+ {
+  "seg": 84,
+  "start": 2554.3,
+  "end": 2591.665,
+  "speaker": "Emil Lassen",
+  "en": "We're making it easier for our auditors to capture as much as the evidence programmatically. So we move away from screenshots and into like real validation that the controls work and hold up in real time. That layer and like the whole GSE engineering space is just really interesting to follow right now. And we're doing our best to keep up and make the standard work for the GSE engineering community as well. So that when your re audit comes in that next year, that it's a very limited time commitment we need from you and that we can focus on security instead of compliance.",
+  "zh": "我们正在让我们的审计员更容易以编程方式捕获尽可能多的证据。所以我们要摆脱截图，进入真正的验证，控制措施在实时运行并经得起考验。那一层和整个 GSE 工程领域现在真的非常有趣。我们正在尽最大努力跟上，并让标准也为 GSE 工程社区服务。所以当明年你的重新审计到来时，我们需要你花费的时间非常有限，而且我们可以专注于安全而不是合规。"
+ },
+ {
+  "seg": 85,
+  "start": 2591.665,
+  "end": 2612.705,
+  "speaker": "Daniel Whitenack",
+  "en": "That's great. Well, Emil, it's been amazing to look at what the AI UC has done even in the past year and the amazing resources that you put out for the community. Thank you for doing that. Thank you for working towards the future that you described. Would love to have you or others, back on the show in the future as things develop.",
+  "zh": "太棒了。嗯，Emil，看着 AI UC 所做的一切真是太棒了，即使在过去的一年里，以及你为社区发布的令人惊叹的资源。谢谢你做了这些。谢谢你为你描述的未来而努力。很想在未来事情发展时让你或其他人回到节目中。"
+ },
+ {
+  "seg": 86,
+  "start": 2612.705,
+  "end": 2613.425,
+  "speaker": "Daniel Whitenack",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 87,
+  "start": 2613.425,
+  "end": 2632.75,
+  "speaker": "Emil Lassen",
+  "en": "Thank you for having me, Daniel. And I think maybe just a final plug before I I head off. This is work made by industry for industry. I'm I'm luckily not alone in in doing this this work. We've collected a consortium of about two fifty leaders across CSOs and the Fortune 1,000, it is the security engineers and so forth.",
+  "zh": "谢谢你的邀请，Daniel。我想也许在我离开之前最后宣传一下。这是工业界为工业界做的工作。我我幸运的是在做这项工作时并不孤单。我们汇集了一个大约由 250 位领导者组成的联盟，遍布 CSO 和财富 1000 强，还有安全工程师等等。"
+ },
+ {
+  "seg": 88,
+  "start": 2632.75,
+  "end": 2666.0598,
+  "speaker": "Emil Lassen",
+  "en": "And having that community come together and actually leave competition aside for a moment and recognize that the size of these challenges and the pace of the challenges just dictates that industry has to come together is fantastic. The fact that we've been able to just offer the platform and then let industry work together to define and codify these standards is fantastic and we would love to see more people get into the machine room with us. An open invitation for everyone who's excited about this work, either to help us drive adoption of the standards we see work or actually help us help us write them. My pleasure. It was a great conversation.",
+  "zh": "拥有那个社区聚集在一起，实际上把竞争放在一边，并认识到这些挑战的规模和挑战的步伐仅仅决定了行业必须联合起来，这太棒了。事实上我们能够仅仅提供平台，然后让行业一起工作来定义和编纂这些标准，这太棒了，我们希望看到更多的人进入我们的机房。给每个对这项工作感到兴奋的人的公开邀请，无论是帮助我们推动我们看到有效的标准的采用，或者实际上帮助我们帮助我们来编写它们。我的荣幸。这是一次很棒的谈话。"
+ },
+ {
+  "seg": 89,
+  "start": 2666.0598,
+  "end": 2667.0198,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Thank you, Emil.",
+  "zh": "是的。谢谢你，Emil。"
+ },
+ {
+  "seg": 90,
+  "start": 2671.535,
+  "end": 2692.35,
+  "speaker": "Narrator",
+  "en": "Alright. That's our show for this week. If you haven't checked out our website, head to practicalai.fm, and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the AI developments, and we would love for you to join the conversation. Thanks to our partner Prediction Guard for providing operational support for the show.",
+  "zh": "好的。这是我们本周的节目。如果你还没有查看我们的网站，请前往 practicalai.fm，并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与 AI 发展相关的见解，我们很希望你能加入对话。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 91,
+  "start": 2692.5898,
+  "end": 2701.9043,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "请在 predictionguard.com 查看他们。另外，感谢 Breakmaster Cylinder 提供的节拍，并感谢你的收听。目前就是这样，但你下周会再次收到我们的消息。"
+ }
+]

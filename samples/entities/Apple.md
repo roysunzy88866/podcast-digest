@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Apple</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,6 +16,7 @@ unlisted: true
 - **[[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]]**(08:57起):本集提到嘉宾曾在此工作七年，并在史蒂夫·乔布斯手下经历了发布 iPhone 后立刻投入下一个版本、毫无休息的'死亡行军'阶段，以此印证非凡成果需要非凡努力。
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(08:11起):本集提到写 iPhone 应用时 90% 的底层代码都是它写的，并提到它发布了个人 AI 助手愿景（Apple Intelligence）且有十亿台边缘设备。
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(02:58起):本集复盘了其开发 iPod 和 iPhone 时的历史，包括早期面临破产危机、通过 iPod 拯救公司，以及内部关于虚拟键盘与物理键盘的激烈争论。嘉宾还呼吁平台公司应承担起提供数字消费工具的责任。
+- **[[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a|《Ben Horowitz：别追随激情，追随贡献》]]**(07:18起):本集举'让手机电池续航更久'的例子时，与 Google、Samsung 并列，作为拥有大量资源、会直接做所有人都认可的好主意的巨头
 - **[[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]]**(01:29起):本集用作类比:伟大的公司必须不断进化、推新产品,用户不会还用七年前的 iPhone,Bumble 也不能停留在七年前的产品形态
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(60:25起):本集说它虽然交出了亮眼财报，但受困于内存短缺引发的供应链限制，且在 AI 时代面临手机重要性减弱、围墙花园失效的长期危机。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(47:33起):本集把它说成:什么都不做、不在 CapEx 上花钱的策略,如果未来模型真的被彻底商品化,十年后看起来会像天才
@@ -26,15 +27,17 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba#^q1]]
 
 ![[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba#^q5]]
 
+![[2026-07-15-rework-don-39-t-write-it-down#^q12]]
+
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]] — 作为被讨论公司
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
@@ -42,6 +45,7 @@ unlisted: true
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司(提及)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为被讨论公司
+- [[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a|《Ben Horowitz：别追随激情，追随贡献》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]] — 作为被讨论公司(提及)
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
@@ -54,9 +58,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[OpenAI]] · [[NVIDIA]] · [[Meta]] · [[Amazon]] · [[AGI]]
+[[Google]] · [[Lenny]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[OpenAI]] · [[NVIDIA]] · [[Meta]] · [[Amazon]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Google":29,"Anthropic":79,"Microsoft":19,"智能体":155,"OpenAI":70,"NVIDIA":24,"Meta":23,"Amazon":9,"AGI":16}</script>
+<script type="application/json" class="pd-epn">{"Google":31,"Lenny":65,"Anthropic":79,"Microsoft":20,"智能体":156,"OpenAI":70,"NVIDIA":24,"Meta":23,"Amazon":9,"AGI":16}</script>
 
 <script>
 (function(){

@@ -1,0 +1,126 @@
+===标题===
+Omni 创始人：丢掉五单后，他靠修 bug 找到了产品市场契合
+===导语===
+Omni 创始人 Colin 聊了他们如何在 BI 领域找到产品市场契合：前 Looker 产品 VP 出来创业，一年内丢掉全部五笔交易，靠两个月死磕产品品质翻盘，以及如何用 LinkedIn 手动外联打开早期增长。
+===正文===
+Colin 在 BI（商业智能，帮企业把数据变成图表和报表的工具）领域干了八年，是 Looker 的产品 VP，Looker 被 Google 收购后他又待了两年，看着产品和客户群在被忽视中慢慢耗损，最终决定出来重新做。他的判断是：Looker 在企业级 BI 上很强，但极度僵化——你必须先建好数据模型，才能在上面提问。他想反过来：先让你自由提问、写 SQL、做一次性分析，做完了觉得有价值，再把它沉淀成可靠的数据模型。这听起来是个小翻转，但对每天泡在数据工具里的人来说，意味着速度和灵活性的质变 [16:00 Unknown]。
+
+公司成立于 2 月 22 日，因为和 Looker 董事会成员的关系，离开后四天就拿到握手协议，种子轮 900 万、A 轮 1700 万，起步就带着 3000 万美元。20 人的团队里 15 个来自 Looker，平均共事十年，管理几乎零开销 [18:21 Unknown]。
+
+但钱和人没换来快启动。前九个月只有一两个日活用户，全靠内部和一个前同事在撑。到一周年时，Colin 做了大概一百次演示，拿到五个口头承诺的客户，ACV（年度合同价值）在 15K 左右。结果五单全丢，反馈是公司太年轻、产品还不够好 [02:24 Unknown]。
+
+没换方向，没改定价，就回去花了两个月死磕 bug——从每两分钟一个错误降到大概一天一个。然后上了另一个播客，拿到四个完全陌生的试用，全部赢了 [03:26 Unknown]。Colin 说那一刻才意识到：产品骨架是对的，之前是负面因素（bug 太多）压过了正面因素（差异化设计）。他当时还给一个天使投资人当数据团队，每天用自家工具回答问题，切身体会到"这东西确实不一样，只是太糙了" [06:51 Unknown]。
+
+## 增长没有银弹，就是每件事多做一点
+
+找到契合之后怎么扩？Colin 说他们增长负责人和营销负责人希望能找到某个"一开就能让业务拐弯"的神奇渠道，但最终发现最无聊也最实在的结论是：你只需要在所有事情上做得更多 [32:26 Unknown]。
+
+早期三个渠道同时推：外联（创始人通过 LinkedIn 手动发消息）、自然增长、合作。外联后来扩展成了完整的 BDR 团队；自然增长就是把 inbound 的机器化流程搭好；合作分两档——大厂合作（Snowflake、Databricks、Amazon）早期不带来业务但建立品牌存在感，小合作（一人或两人的外包数据从业者）反而极其有价值 [33:40 Unknown]。
+
+这些小数据从业者本质上是小公司的外包数据团队，他们推荐工具、负责实施。Colin 付钱让他们去实施客户，他们反过来了解产品后主动推荐给下家。关键逻辑是：他们比终端客户更容易切换工具，因为他们在多个项目间有更多"击球机会"——只要在一个人身上验证了 Omni 确实更好用，他们就会机械化地复刻十次 [35:42 Unknown]。
+
+## LinkedIn 手动外联的具体打法
+
+Colin 在 LinkedIn 上有六七千联系人，很多是过去见过面的 Looker 客户。他把前 Looker 员工几乎全联系了一遍——被收购时 1000 人，他给 900 人发了消息 [39:17 Unknown]。不是求买，而是"我在做新东西，你想不想看看"。对前 Looker 群体，回复率到了 90% [44:14 Unknown]。
+
+具体操作：和 BDR 坐下来，逐个过名单，判断谁可能觉得有价值，手动发消息。两小时能过 200 人 [42:05 Unknown]。也打印过全部联系人列表，一个个标记"这个有趣、这个不有趣" [42:17 Unknown]。
+
+消息测试了很多种——有的讲产品、有的说"我是创始人在做新东西"。结论是：越短越好、越直接越好、少用华丽辞藻 [42:38 Unknown]。最好的句式是直接点出问题："我打赌你有这个问题，我们解决了，想看看吗？" [43:28 Unknown]。
+
+BDR 团队的回复率约 3%（100 个连接拿 3 个回复），Colin 自己对熟人能达到 50% 连接率。他认为如果你连回复率都没有，本身可能就说明产品市场契合有问题 [44:03 Unknown]。
+
+## 从老东家招人：人才自累积
+
+前 10 个员工里有大量来自 Looker，欧洲负责人是第三个员工，直接从 Looker 都柏林办公室挖来 [49:32 Unknown]。逻辑是：每个从老东家来的优秀人才，都会让下一个老东家的人更想来——招到前 10 个最好的，就能招到接下来 10 个最好的 [47:01 Unknown]。
+
+但他也提醒：大公司（比如 Google）里有效的工程师，不一定适合创业公司。他们招的是 Looker 还没被收购时那批人，平均任期八年，习惯没有框架、没有绩效管理、每天发代码的环境 [48:10 Unknown]。
+
+## 本集带走
+
+- **丢单不一定意味着方向错了**：五个口头承诺全丢，但产品骨架是对的，负面因素（bug 多）压过了正面因素。两个月死磕品质，不换方向就翻盘了。
+- **进入成熟领域要先抄 80% 再差异化**：你得先把现有工具的 80% 功能复刻出来，客户才敢换，哪怕那 80% 完全不是你的卖点。
+- **LinkedIn 外联的核心是"短、直、点问题"**：别写华丽文案，直接说"我猜你有这个麻烦，我们解决了，想看吗？"两小时手动过 200 人，比任何自动化都实在。
+- **小合作者比大厂合作更值钱**：一人制的外包数据团队有更多项目击球机会，说服他们用一次，他们会主动帮你复刻十次。
+- **从老东家招人要看"什么阶段的人"**：被收购前那批早期员工适合创业公司，被收购后适应大厂节奏的人不一定行。
+
+===金句===
+00:13 Unknown
+EN | I think it's hard to reinvent yourself.
+ZH | 我认为重塑自我很难。
+
+00:35 Unknown
+EN | If I'm saying, like, I bet that I can either reduce your cost or make you guys smarter and give you a better product and make it really easy for you, like, that's a pretty easy message.
+ZH | 如果我说，我打赌我可以降低你的成本，或者让你们更聪明，给你们更好的产品，让你们非常轻松，那是一个非常简单的信息。
+
+00:46 Unknown
+EN | Be thoughtful about where you're spending your time and what you're doing.
+ZH | 对你在哪里花费时间和你在做什么要深思熟虑。
+
+00:49 Unknown
+EN | Like the company only gets more valuable every day based on what you do.
+ZH | 公司每天都根据你所做的事情变得更有价值。
+
+00:54 Unknown
+EN | And so if you reflect on a day, like think about whether you made the company more valuable or not.
+ZH | 所以如果你回顾一天，想想你是否让公司变得更有价值了。
+
+01:00 Unknown
+EN | And if you didn't, think about what you should have done to make the company more valuable.
+ZH | 如果没有，想想你应该做什么来让公司变得更有价值。
+
+02:20 Unknown
+EN | It probably took us like nine months until we had our first user in the product.
+ZH | 我们大概花了九个月时间才在产品中拥有第一个用户。
+
+03:00 Unknown
+EN | And we ended up losing all five deals.
+ZH | 结果我们丢掉了所有五笔交易。
+
+03:26 Unknown
+EN | And so we went back and we actually just worked on the product for two months and we just said like, let's get rid of every bug that we could possibly find.
+ZH | 于是我们回到原点，实际上我们只是在产品上工作了两个月，我们只是说，让我们去掉每一个我们能找到的 bug。
+
+03:52 Unknown
+EN | And that was the moment that we realized that we had something interesting.
+ZH | 那就是我们意识到我们有一些有趣的东西的时刻。
+
+07:24 Unknown
+EN | I think when you build product, you need a balance of things that differentiate you and you need to avoid things that differentiate you in a negative way.
+ZH | 我认为当你构建产品时，你需要平衡让你差异化的事物，你需要避免那些以负面方式让你差异化的事物。
+
+10:12 Unknown
+EN | Like, that doesn't mean they're going to give me money, and it doesn't mean that we've found success yet, but it does mean that they saw, like, a grain of a problem that we have solved in a unique way that you can then wrap the rest of the company around.
+ZH | 比如，那并不意味着他们会给我钱，也不意味着我们已经找到了成功，但这确实意味着他们看到了，比如，我们以独特方式解决的问题的一丝痕迹，然后你可以把公司的其余部分围绕它建立起来。
+
+12:40 Unknown
+EN | I think it's hard to reinvent yourself.
+ZH | 我认为重塑自己很难。
+
+12:52 Unknown
+EN | And it's really hard to take like your core foundational thesis.
+ZH | 而且很难拿走就像是你的核心基础论点。
+
+13:21 Unknown
+EN | They probably needed to delete their whole tech stack and start over again because the platforms had changed, because the market had changed in a significant enough way.
+ZH | 他们可能需要删除他们的整个技术栈并重新开始，因为平台已经改变了，因为市场已经以足够显著的方式改变了。
+
+23:33 Unknown
+EN | And that's an enormous advantage because people want to both buy you for what the product's doing today, but they're buying you for the slope too.
+ZH | 这是一个巨大的优势，因为人们既想为你今天的产品功能买单，但他们也为斜率买单。
+
+32:26 Unknown
+EN | What we found that is like the least satisfying but sort of most obvious conclusion that you could possibly imagine is you just need to do more of literally everything.
+ZH | 我们发现的可能是你能想象到的最不满意但也是最明显的结论是，你只需要在字面意义上的所有事情上做得更多。
+
+40:10 Unknown
+EN | And like the thing that people forget about selling is that good selling is just connecting someone with a problem to someone that can solve their problem.
+ZH | 就像人们关于销售忘记的一点是，好的销售只是把有问题的人和能解决问题的人连接起来。
+
+44:03 Unknown
+EN | If you're not getting response rates, I think it's probably a good indication that like there's a product market fit issue at some level.
+ZH | 如果你没有得到回复率，我认为这可能是一个很好的指示，表明在某个层面上存在产品市场契合问题。
+
+47:01 Unknown
+EN | Every good person that you hire that you used to work with makes the place more attractive to the people that you used to work with.
+ZH | 你雇佣的每一个你曾经一起工作过的优秀的人，都会让这个地方对你曾经一起工作过的人更有吸引力。
+===END===

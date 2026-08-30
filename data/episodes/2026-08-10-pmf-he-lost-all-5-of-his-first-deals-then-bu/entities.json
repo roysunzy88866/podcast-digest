@@ -1,0 +1,1364 @@
+{
+  "episode_id": "2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu",
+  "podcast": "The Product Market Fit Show",
+  "date": "2026-08-10",
+  "tags": [
+    "BI 工具",
+    "产品市场契合",
+    "LinkedIn 获客",
+    "创新者的窘境",
+    "AI 数据分析"
+  ],
+  "categories": [
+    "产品方法",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "colin-zima",
+      "type": "person",
+      "role": "host",
+      "name": "Colin Zima",
+      "file": "Colin Zima",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "omni",
+      "type": "company",
+      "role": "company",
+      "name": "Omni",
+      "file": "Omni",
+      "primary": true,
+      "how_described": "本集说 Omni 是一个能把 SQL、Excel、数据透视表、企业级 BI 和嵌入式分析全做在一个平台里的 BI 工具，后来在 2026 年变成了 90% 由 AI 驱动的产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            105.673,
+            109.577
+          ],
+          "quote": "And we're going to hear all about what Omni actually is, what it does, how you made it all happen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            265.15,
+            270.312
+          ],
+          "quote": "So I have some questions, some follow-ups, but maybe this is a good moment for you to tell us a little bit, like, what does Omni do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            640.58,
+            642.661
+          ],
+          "quote": "Like how do you make the decision to leave and start Omni?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            720.159,
+            724.883
+          ],
+          "quote": "Like we had actually tried to build something similar to Omni inside Looker, classic kind of innovator's dilemma.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1660.34,
+            1663.621
+          ],
+          "quote": "Nine months at Looker that we built in a week at Omni.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 479,
+          "t": [
+            1968.539,
+            1970.662
+          ],
+          "quote": "Some of them would sort of recommend Omni and bring us in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2084.835,
+            2091.605
+          ],
+          "quote": "To get our brand out and say like, hey, the cool data practitioners have seen Omni, they use Omni, they think Omni is very good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2107.068,
+            2113.974
+          ],
+          "quote": "I'm going to recommend Omni if you take care of me in terms of like building a good tool, like I will help make these guys successful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2153.302,
+            2157.423
+          ],
+          "quote": "So for any given one of our customers, moving from Looker to Omni might be risky.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2316.891,
+            2322.093
+          ],
+          "quote": "So I probably, when I started Omni, had, I don't know, 7,000 or 8,000 connections on LinkedIn, maybe 6,000 or something like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "looker",
+      "type": "company",
+      "role": "company",
+      "name": "Looker",
+      "file": "Looker",
+      "primary": true,
+      "how_described": "本集说 Looker 是一家非常擅长企业级 BI 但非常死板的公司，它建立在数据模型之上，极其僵化，后被 Google 以 27 亿美元收购",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            17.053,
+            18.154
+          ],
+          "quote": "Take Looker, for example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            124.771,
+            127.673
+          ],
+          "quote": "I had spent eight years at a company called Looker that got acquired by Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            127.834,
+            132.397
+          ],
+          "quote": "And so when we launched the company, we actually had a bunch of really talented people that had spent a long time at Looker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            144.105,
+            151.128
+          ],
+          "quote": "And it was actually a product manager that I had worked with at Looker and she had started a company and I just convinced her to start using the product every day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            293.041,
+            300.583
+          ],
+          "quote": "But the idea was always a product that could compete with Tableau and Power BI and Looker and your SQL Runner and sort of do everything all in one place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            308.265,
+            315.747
+          ],
+          "quote": "And it came from this place where like I had worked with these very decentralized tools like Excel and these really heavy enterprise tools like Looker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            634.397,
+            638.339
+          ],
+          "quote": "You're a VP, you're a looker for like almost eight years, you're a VP product there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            684.579,
+            687.96
+          ],
+          "quote": "But, like, Looker got acquired by Google, and it was a great acquisition.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            720.159,
+            724.883
+          ],
+          "quote": "Like we had actually tried to build something similar to Omni inside Looker, classic kind of innovator's dilemma.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            764.363,
+            765.484
+          ],
+          "quote": "Take Looker, for example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            850.862,
+            857.747
+          ],
+          "quote": "And like, if the business is going, like, Looker was still growing 100% a year when we got acquired, you know, like, the business wasn't going poorly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            903.365,
+            908.288
+          ],
+          "quote": "Also, like, I probably met with 3,000 or 4,000 Looker customers, and they trusted me as an individual.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            938.573,
+            951.322
+          ],
+          "quote": "What did you see that you were able to, like, what was the piece of what, I'm sure Looker did some things great and some things not so great, as you mentioned, like, what were the pieces that you said, this is the thing that we're going to be known for, this is the thing that we're going to do so much better than Looker does?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            951.773,
+            956.675
+          ],
+          "quote": "Yeah, the biggest one was data model, like Looker was built on the data model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1059.675,
+            1064.877
+          ],
+          "quote": "Yeah, so we were incredibly fortunate in that I was close with like a bunch of members of the Looker board.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1065.077,
+            1068.298
+          ],
+          "quote": "I talked to first round the day after I left Looker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1143.249,
+            1149.656
+          ],
+          "quote": "Like these were people that were on the board at Looker for the last 10 years with us that we knew really well that wanted to come take this bet with us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1261.902,
+            1265.226
+          ],
+          "quote": "And out of those 20 people, maybe 15 of us had worked together at Looker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1337.72,
+            1347.948
+          ],
+          "quote": "So I just pinged every single person that I knew that had used Looker in the past, that was a data person, like literally anyone that would take a conversation, I would try to show the product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1660.34,
+            1663.621
+          ],
+          "quote": "Nine months at Looker that we built in a week at Omni.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1760.195,
+            1764.277
+          ],
+          "quote": "And then flowing through that to this is how Looker handles it or existing handles it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1916.157,
+            1923.04
+          ],
+          "quote": "Like you start off with more this ad hoc, like go through and just find people that use Looker that you could pitch this to, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2028.28,
+            2030.481
+          ],
+          "quote": "Like, thankfully, they knew us from the Looker days.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2041.644,
+            2055.689
+          ],
+          "quote": "On the other hand, at the low end, there are these one- and two-person data practitioners that were essentially former people that I used to work with or people that were customers at Looker that went and started outsourced analytics shops where they're the data team for five people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2117.157,
+            2142.4
+          ],
+          "quote": "So this is a great approach right and a lot of times when people talk about partnerships they do think more about the big vendor whoever that is in the space that's going to cross sell my product and and it's like no it's not going to happen because they got their own things to sell right for the most part but you know the people doing services they're smaller the question is how do you get them from they obviously are already recommending something they're doing looker they're using whatever they're using what do you what have you found works best to get them to move to recommending you?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2153.302,
+            2157.423
+          ],
+          "quote": "So for any given one of our customers, moving from Looker to Omni might be risky.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2322.693,
+            2328.174
+          ],
+          "quote": "And a lot of these were people that had purchased BI from Looker at some point in the past that I talked to in person.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2357.221,
+            2360.363
+          ],
+          "quote": "I pinged, I think, almost every single person that used to work at Looker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2376.658,
+            2381.38
+          ],
+          "quote": "This may be a dumb question, but why, like, they're not, like, somebody who works at Looker is not potentially a customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2396.13,
+            2399.272
+          ],
+          "quote": "Because a lot of people that work at Looker might be marketing or sales or engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2401.233,
+            2409.783
+          ],
+          "quote": "But like they hopefully like us and like we had a large group of looker constituents so like there was some there was like some love and they like they want their business to run better too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2517.644,
+            2524.709
+          ],
+          "quote": "So, like, we literally ran a campaign where I sat down with a BDR, and we looked through every single person that used to look at Looker, work at Looker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2654.813,
+            2660.32
+          ],
+          "quote": "And on a message, depending on the group, like to the ex-looker group, I probably got a 90% response rate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2712.24,
+            2715.083
+          ],
+          "quote": "Like we tried a lot of the I worked at Looker for eight years thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2715.203,
+            2716.964
+          ],
+          "quote": "Like that works really well to a Looker account.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2717.445,
+            2719.187
+          ],
+          "quote": "It doesn't work great to a non-Looker account.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2723.231,
+            2726.394
+          ],
+          "quote": "But if you've been using Looker for the last five years and it's like, hey, I'm Colin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2726.434,
+            2728.016
+          ],
+          "quote": "I led product at Looker for eight years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2767.892,
+            2775.758
+          ],
+          "quote": "Yeah, and it's, I mean, part of this is because Looker sold to Google and, like, people were there post-acquisition and either, like, loved the big company atmosphere or didn't.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 719,
+          "t": [
+            2877.178,
+            2881.963
+          ],
+          "quote": "An effective engineer at Looker when we were private is going to be an effective engineer here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 720,
+          "t": [
+            2882.901,
+            2886.122
+          ],
+          "quote": "So how big was Looker when you're, just before the acquisition, employee-wise?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 744,
+          "t": [
+            2966.026,
+            2971.694
+          ],
+          "quote": "Was it also helpful on the selling side where it's like, yeah, I've sold Looker into all these vendors, I'm going to call, you know, the people I used to sell to?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 747,
+          "t": [
+            2975.316,
+            2980.617
+          ],
+          "quote": "Like our third hire who now runs our Europe was in Dublin and he was just a great seller, a looker.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集提到 Snowflake 作为巨型技术合作伙伴之一，在 Omni 早期阶段并不会带来业务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 486,
+          "t": [
+            2000.726,
+            2003.247
+          ],
+          "quote": "So like Amazon, but also like Snowflake and Databricks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2020.296,
+            2024.938
+          ],
+          "quote": "There are gigantic tech partners like Snowflake and Databricks and Google and Amazon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2034.162,
+            2039.724
+          ],
+          "quote": "And, like, we could go talk to leaders at Snowflake because they knew us and, like, would sort of be willing to bet us off the future.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集提到 Databricks 作为巨型技术合作伙伴之一，在 Omni 早期阶段并不会带来业务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 486,
+          "t": [
+            2000.726,
+            2003.247
+          ],
+          "quote": "So like Amazon, but also like Snowflake and Databricks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2020.296,
+            2024.938
+          ],
+          "quote": "There are gigantic tech partners like Snowflake and Databricks and Google and Amazon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集说 Google 收购了 Looker，收购后 Looker 的产品和客户群没有得到照顾",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            124.771,
+            127.673
+          ],
+          "quote": "I had spent eight years at a company called Looker that got acquired by Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            684.579,
+            687.96
+          ],
+          "quote": "But, like, Looker got acquired by Google, and it was a great acquisition.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2020.296,
+            2024.938
+          ],
+          "quote": "There are gigantic tech partners like Snowflake and Databricks and Google and Amazon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2182.991,
+            2188.254
+          ],
+          "quote": "Like in the same way that Google doesn't care about us because we're too small, Google probably doesn't care about them because they're too small.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2767.892,
+            2775.758
+          ],
+          "quote": "Yeah, and it's, I mean, part of this is because Looker sold to Google and, like, people were there post-acquisition and either, like, loved the big company atmosphere or didn't.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2872.333,
+            2876.637
+          ],
+          "quote": "An effective engineer at Google is not going to be an effective engineer at a startup necessarily.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bi",
+      "type": "concept",
+      "role": "concept",
+      "name": "BI",
+      "file": "BI",
+      "primary": true,
+      "how_described": "本集说 BI 是一个每隔两三年就被重新发明的领域，Omni 的目标就是构建一个能做所有事情的 BI 平台来替代 Tableau、Power BI 和 Looker",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            21.115,
+            22.816
+          ],
+          "quote": "Like, we were really good at Enterprise BI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            118.687,
+            124.571
+          ],
+          "quote": "So, I mean, yeah, the quick backstory on the company is we're about four and a half years old, and I've spent a lot of my life in BI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            279.236,
+            281.496
+          ],
+          "quote": "It was, let's build a BI platform that can do everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            282.057,
+            288.559
+          ],
+          "quote": "Write SQL, use Excel, do pivot tables, and also enterprise BI and embedded all in one platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            293.041,
+            300.583
+          ],
+          "quote": "But the idea was always a product that could compete with Tableau and Power BI and Looker and your SQL Runner and sort of do everything all in one place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            305.164,
+            306.845
+          ],
+          "quote": "It was like, get rid of all of your other BI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            423.47,
+            428.293
+          ],
+          "quote": "We set up his ETL, we set up his BI, and I was just answering questions for him on a daily basis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            748.828,
+            751.992
+          ],
+          "quote": "You know, the same BI is a classic example of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            768.547,
+            770.268
+          ],
+          "quote": "Like, we were really good at enterprise BI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            777.496,
+            783.264
+          ],
+          "quote": "We are great enterprise BI and data modeling and compromise it at the margin to do these other things well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            961.716,
+            971.439
+          ],
+          "quote": "And so the idea was, can we let you do all of the normal things that you do in a BI environment, like write SQL and do things on the fly, but then turn it into semantic layer later?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 231,
+          "t": [
+            988.59,
+            990.972
+          ],
+          "quote": "For people that are not BI experts, how does that play out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1552.803,
+            1555.464
+          ],
+          "quote": "And that was suddenly when we were like a BI tool and not a toy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1599.986,
+            1602.67
+          ],
+          "quote": "Somebody might have seen, like, oh my God, BI is so outdated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1718.952,
+            1724.277
+          ],
+          "quote": "Now we have to do all of the debt work that we can actually exist as a BI tool in the existing market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1779.502,
+            1784.663
+          ],
+          "quote": "I know that sounds like the simplest thing ever, shockingly hard to do in every single BI tool that existed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2322.693,
+            2328.174
+          ],
+          "quote": "And a lot of these were people that had purchased BI from Looker at some point in the past that I talked to in person.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据模型 (data model)",
+      "file": "数据模型",
+      "primary": true,
+      "how_described": "本集说 Looker 建立在数据模型之上极其僵化，而 Omni 翻转了这一逻辑，让你先做一次性分析，之后再把它变成数据模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            951.773,
+            956.675
+          ],
+          "quote": "Yeah, the biggest one was data model, like Looker was built on the data model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1374.484,
+            1377.065
+          ],
+          "quote": "Like, do you want to write SQL and have a data model?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "semantic-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义层 (semantic layer)",
+      "file": "语义层",
+      "primary": false,
+      "how_described": "本集说 Looker 构建了一个做所有事情的语义层，但极其僵化，Omni 则让你先做事之后再把它变成语义层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            956.915,
+            959.396
+          ],
+          "quote": "So this idea of build a semantic layer, it does everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            961.716,
+            971.439
+          ],
+          "quote": "And so the idea was, can we let you do all of the normal things that you do in a BI environment, like write SQL and do things on the fly, but then turn it into semantic layer later?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "innovator-s-dilemma",
+      "type": "concept",
+      "role": "concept",
+      "name": "创新者的窘境 (innovator's dilemma)",
+      "file": "创新者的窘境",
+      "primary": true,
+      "how_described": "本集说创新者的窘境是一个真正的问题，很难拿你的核心基础论点在边缘上做出妥协，这给外部团队留出了空间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            720.159,
+            724.883
+          ],
+          "quote": "Like we had actually tried to build something similar to Omni inside Looker, classic kind of innovator's dilemma.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 180,
+          "t": [
+            761.701,
+            763.803
+          ],
+          "quote": "Like, the innovator's dilemma is a real problem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (Product Market Fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集将其定义为你每天做的事情是否让公司变得更有价值，并提到如果你在 LinkedIn 上得不到回复率，这本身可能就是产品市场契合有问题的信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            67.023,
+            68.384
+          ],
+          "quote": "That's Product Market Fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            68.424,
+            69.505
+          ],
+          "quote": "Product Market Fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            69.565,
+            70.586
+          ],
+          "quote": "Product Market Fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            70.626,
+            72.267
+          ],
+          "quote": "I called it the Product Market Fit question.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            72.347,
+            73.108
+          ],
+          "quote": "Product Market Fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            73.148,
+            74.129
+          ],
+          "quote": "Product Market Fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            74.169,
+            75.249
+          ],
+          "quote": "Product Market Fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            75.349,
+            76.41
+          ],
+          "quote": "Product Market Fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            76.59,
+            78.552
+          ],
+          "quote": "I mean, the name of the show is Product Market Fit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            79.172,
+            81.334
+          ],
+          "quote": "Do you think the Product Market Fit show has Product Market Fit?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            109.898,
+            114.923
+          ],
+          "quote": "But we start not where it all begins, but where this show begins, which is with the product market fit moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            114.943,
+            118.347
+          ],
+          "quote": "So when did you feel like you'd found true product market fit?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1923.52,
+            1925.201
+          ],
+          "quote": "That gets you to that product market fit moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2734.844,
+            2741.311
+          ],
+          "quote": "If you're not getting response rates, I think it's probably a good indication that like there's a product market fit issue at some level.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集说 AI 在回答问题时需要做新事情所以不能限制它，Omni 接入 Claude 的 AI 功能后，团队在同一周就停止了使用 UI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            289.28,
+            291.64
+          ],
+          "quote": "And in 2026, it's become, you know, like 90% AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            330.873,
+            333.414
+          ],
+          "quote": "And then I don't even know what the future's going to be with AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1029.685,
+            1036.607
+          ],
+          "quote": "And it's subtle, but for people that live in these tools every day, and AI actually became a huge driver of this, it really matters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1036.667,
+            1041.489
+          ],
+          "quote": "Because AI needs to do new things when it answers questions, so you can't constrain it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1765.638,
+            1768.879
+          ],
+          "quote": "Yep, so like AI has transformed a ton of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1795.691,
+            1800.714
+          ],
+          "quote": "How, this is, you brought up AI, so I think it's good to talk about, like, ChatGPT comes out near the end of 22.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1837.378,
+            1842.822
+          ],
+          "quote": "And even though we didn't believe in it, we started putting these AI features in the product and our customers started using it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1855.01,
+            1860.074
+          ],
+          "quote": "But we had a handful of customers that had started using the AI and they were like, no, it's actually really good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1881.348,
+            1892.235
+          ],
+          "quote": "It's noteworthy in the sense that in 23, and especially like second half 23 and all of 24, almost every new company was like just jumping on AI, jumping on AI, just building with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 711,
+          "t": [
+            2839.312,
+            2853.519
+          ],
+          "quote": "But would you also recommend this to someone who's building, let's say these days, an AI native product in whatever category, where there are some like SaaS, incumbents, 10, 15 year old companies, 2000 employees, 5000 employees, would you go poach?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sql",
+      "type": "concept",
+      "role": "concept",
+      "name": "SQL",
+      "file": "SQL",
+      "primary": false,
+      "how_described": "本集说 Omni 的平台支持编写 SQL，让你在 BI 环境中即时做事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            282.057,
+            288.559
+          ],
+          "quote": "Write SQL, use Excel, do pivot tables, and also enterprise BI and embedded all in one platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            293.041,
+            300.583
+          ],
+          "quote": "But the idea was always a product that could compete with Tableau and Power BI and Looker and your SQL Runner and sort of do everything all in one place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            961.716,
+            971.439
+          ],
+          "quote": "And so the idea was, can we let you do all of the normal things that you do in a BI environment, like write SQL and do things on the fly, but then turn it into semantic layer later?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1374.484,
+            1377.065
+          ],
+          "quote": "Like, do you want to write SQL and have a data model?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1773.06,
+            1779.041
+          ],
+          "quote": "Before it would be like, I need to make a dashboard that has a SQL tile over here and a governed metric over here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1785.423,
+            1792.305
+          ],
+          "quote": "And we could do a demo where we could show you a SQL tile next to a governed financial metric that the finance team approved.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "etl",
+      "type": "concept",
+      "role": "concept",
+      "name": "ETL",
+      "file": "ETL",
+      "primary": false,
+      "how_described": "本集提到 Colin 为天使投资人搭建了 ETL 和 BI，每天用工具回答问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            423.47,
+            428.293
+          ],
+          "quote": "We set up his ETL, we set up his BI, and I was just answering questions for him on a daily basis.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bdr",
+      "type": "concept",
+      "role": "concept",
+      "name": "BDR",
+      "file": "BDR",
+      "primary": false,
+      "how_described": "本集说 Omni 扩大了一个庞大的 BDR 组织，他们在打电话发邮件，做外拓时回复率约 3%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 481,
+          "t": [
+            1975.346,
+            1982.332
+          ],
+          "quote": "So the outbound, we've scaled a big BDR org and they're on the phones sending email, scaling up founder LinkedIn.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2517.644,
+            2524.709
+          ],
+          "quote": "So, like, we literally ran a campaign where I sat down with a BDR, and we looked through every single person that used to look at Looker, work at Looker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2643.9,
+            2648.145
+          ],
+          "quote": "So like when our BDR team was doing this, they were getting like a 3% response rate.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "salesnav",
+      "type": "concept",
+      "role": "concept",
+      "name": "SalesNav",
+      "file": "SalesNav",
+      "primary": false,
+      "how_described": "本集说你需要给 LinkedIn 付一点钱开一个 SalesNav 账号，用来精准筛选和联系潜在客户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 675,
+          "t": [
+            2692.54,
+            2696.164
+          ],
+          "quote": "Which money on LinkedIn, is that just for the SalesNav account or were you running ads on it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2696.384,
+            2697.185
+          ],
+          "quote": "No, just for SalesNav.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2698.146,
+            2701.43
+          ],
+          "quote": "Like we didn't start running ads for a couple of years, but it's like a SalesNav account.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": false,
+      "how_described": "本集说 SaaS 的美妙之处在于你希望客户在未来 20 年里成为客户，他们买的不仅是今天的产品，更是信任",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 343,
+          "t": [
+            1420.069,
+            1430.071
+          ],
+          "quote": "Like they can see your progress and they want to buy that progress also because like the beautiful thing about SaaS is we want them to be a customer for the next 20 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2341.03,
+            2345.793
+          ],
+          "quote": "Again, when we talk about SaaS, I'm trying to sell you a product over 10 years, not over a year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 711,
+          "t": [
+            2839.312,
+            2853.519
+          ],
+          "quote": "But would you also recommend this to someone who's building, let's say these days, an AI native product in whatever category, where there are some like SaaS, incumbents, 10, 15 year old companies, 2000 employees, 5000 employees, would you go poach?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

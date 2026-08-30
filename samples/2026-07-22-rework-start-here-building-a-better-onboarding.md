@@ -113,6 +113,13 @@ David 补充说，这种一对一不是单向的。他们以为发布后会有�
 <div class="pd-exit">
 <div class="pd-ex">
 
+**顺着「产品方法」挖下去**
+
+- [[2026-07-15-rework-don-39-t-write-it-down|别记客户反馈：37signals 的产品决策逻辑]]<span class="pd-rz">同嘉宾:David、Jason · 同公司:37signals、Basecamp</span>
+
+</div>
+<div class="pd-ex">
+
 **换个口味**
 
 - [[2026-08-26-rework-one-way-doors|37signals 的快决策哲学：五分钟做决定，别回头看]]<span class="pd-rz">同嘉宾:David、Jason · 同公司:37signals</span>

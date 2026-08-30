@@ -158,7 +158,7 @@ Melanie 还提到 Canva 正在推 3D 功能,加上已有的打印配送服务(�
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI</span>
 - [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|Bumble 大重置：挥别「滑动」，重塑约会软件]]<span class="pd-rz">同概念:AI</span>
-- [[2026-08-18-knowledge-roblox-ceo-how-to-make-better-decisions|Roblox创始人的做减法哲学与经济系统设计]]<span class="pd-rz">同概念:AI</span>
+- [[2026-07-15-rework-don-39-t-write-it-down|别记客户反馈：37signals 的产品决策逻辑]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 <div class="pd-ex">

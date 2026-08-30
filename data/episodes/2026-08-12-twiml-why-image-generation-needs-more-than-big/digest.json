@@ -1,0 +1,103 @@
+{
+  "title_zh": "AI画图看着像，但不是你想要的那种像",
+  "tldr": "Qualcomm技术副总裁Fatih Farikli解释为什么文生图模型在可控性、高分辨率和本地运行上仍有大量硬问题要解。",
+  "digest_md": "这一集是 Qualcomm 技术副总裁 Fatih 和主持人 Sam 聊图像生成的下一步——文生图模型看起来已经很逼真了，但「看起来好」和「生成的是你真正要的东西」之间还有巨大鸿沟 [01:28 Unknown]。他团队今年在 CVPR 上发了 20 多篇论文，核心围绕三个方向：可控性、质量、效率 [04:27 Unknown]。\n\n## 同一张图里几个人长同一张脸，怎么破\n\n让模型生成多个人时，它反复产出几乎一模一样的面孔——这不是图像质量的问题，像素和噪声层面看起来很逼真，但模型根本没学会创造真正不同的脸 [07:02 Unknown]。他们的 DISCO 论文做法是：不重新训练模型，而是用强化学习微调，把「多样性」本身变成优化目标 [08:01 Unknown]。\n\n具体来说，奖励函数同时鼓励几件事：同一张图里的不同人必须有不同身份（他们叫「图像内多样性」），相同提示词不同次运行之间也不能总出同一批脸（「运行间多样性」），还要生成正确数量的人 [08:28 Unknown]。技术底层用的是 GRPO（群组相对策略优化，一种强化学习方法）[09:29 Unknown]。\n\n关键发现是，这不需要大量数据。把多样性、人数、姿态、位置这些目标塞进强化学习框架，训练微调成本很低 [11:01 Unknown]。他们还用了课程学习——从简单场景开始、逐步增加复杂度，让强化学习训练更稳定 [11:47 Unknown]。在自建的「diverse humans」基准测试上，加了显式多样性目标后，唯一人脸准确度检测分数从很低拉到了 98-99，比没有这个目标的基础模型高出 10-20% 以上 [19:55 Unknown]。\n\nSam 问了一个尖锐问题：属性这么多，一个个调目标是不是反「苦涩的教训」？为什么不干脆用更多更好的数据训练？Fatih 的回答是：本质上就是在用数据，但不需要很多，强化学习框架让这个过程数据高效且计算高效 [10:28 Unknown]。\n\n## 一个模型干所有事，可能本身就是个错\n\n更深一层的反思是：也许我们让一个模型同时干太多事了 [14:03 Unknown]。生成一个多人场景，模型要理解提示词、决定人数、确定位置构图、推理人物关系、保持身份、最后渲染——全在一个过程里完成，这太多了 [14:27 Unknown]。\n\nR2CAM 论文的思路是把规划和渲染拆开，像人类艺术家工作一样 [24:04 Unknown]。两个组件：Architect 不生成像素，只决定场景结构——比如三个人放在图的哪个位置；Artist 拿这个构图做指导，生成最终的写实图像 [24:15 Unknown]。推理时，Architect 先输出坐标，Artist 做单次推理生成图像，不需要来回调用 [27:02 Unknown]。\n\n奖励函数也对应调整：除了身份匹配、人数准确、图像质量，还加了构图目标（脸放对了没）和姿态目标（比如合影时大家是否看镜头）[25:27 Unknown]。即使不涉及特定人物身份，光靠规划与渲染分离，构图本身就更自然 [32:51 Unknown]。\n\nFatih 把更大的信息总结为两句话：聪明地设计目标函数（DISCO 的路子），以及简化任务、不一次做完所有事（R2CAM 的路子）[33:06 Unknown]。\n\n更远的方向是智能体编排——根据输入提示自动路由到专门的模型或流程，比如检测到需要多人就调 diversity 优化的模型，需要文字就调文本生成优化的模型，最终编排输出 [16:45 Unknown]。他认为这是终极方案 [18:00 Unknown]。\n\n## 手机上跑 1600 万像素，10 分钟变 20 秒\n\n当前大多数文生图模型卡在 1K 分辨率，云模型也一样 [04:11 Unknown]。PixelRush 要解决的是：能不能在手机内存里生成 400 万甚至 1600 万像素的图，而且不是简单放大、是有真实细节的 [34:49 Unknown]。现有方案跑这种分辨率要 50 秒到几分钟甚至 10 分钟 [35:09 Unknown]。\n\n他们的方法不改原始模型。先用任何现成模型生成 1K 基础图，然后用级联上采样把像素空间拉大（比如拉到 4K×4K），接着把大图切成 16 个 1K 的块，分别投影回原始大小的潜在空间（潜在空间比像素空间小得多，所以快）[37:37 Unknown]。关键一步：在潜在空间里注入引导语义噪声，让扩散模型有自由度补充高分辨率纹理细节 [40:44 Unknown]。\n\n块与块之间有重叠，但光重叠不够。他们让算法在边界处生成更多噪声、中心处少一些，这样在潜在空间里就把边界问题解决了，再通过 VAE 解码器回到像素空间时就无伪影 [46:10 Unknown]。如果在像素空间做混合，反而会在场景边缘产生模糊 [48:07 Unknown]。结果是从约 10 分钟加速到 20 秒左右，大概 35 倍 [48:50 Unknown]。\n\n## 抠图去物体，边界不再有毛边\n\nInvertFill 解决的是图像编辑中的边界伪影问题——比如海边照片去掉一个人，沙子纹理对不上、边缘有明显接缝 [49:56 Unknown]。核心思路利用了扩散训练的反向过程：正常训练是从干净图逐步加噪变成噪声图，那反过来，可以把输入图像快速映射成它对应的噪声——60 毫秒就能完成 [51:44 Unknown]。这个噪声不是随机的，是特定于这张图的 [52:30 Unknown]。\n\n做修复时，背景区域用这张图专属的「反转噪声」，遮罩区域（比如要移除的鸟）用新的随机噪声。这样背景被保留，同时背景的噪声特征能影响前景生成，实现无缝融合，边界伪影消失 [53:17 Unknown]。而且不需要改原始模型，只是换了扩散初始化的方式 [53:02 Unknown]。\n\n## 本集带走\n\n- **把「多样性」变成显式优化目标**：用强化学习微调，奖励函数直接鼓励同图人脸不同、不同次运行人脸不同、人数正确——不需要大数据，数据高效且计算高效。\n- **规划与渲染分离**：不让一个模型同时干理解提示词、构图、保持身份、渲染所有事；Architect 定位置，Artist 做渲染，任务简化后效果更自然。\n- **高分辨率在潜在空间里做**：把上采样后的大图切块投回小维度的潜在空间，注入语义噪声补细节，在潜在空间解决边界问题再解码回像素——不改模型、35 倍加速。\n- **用「反转噪声」消灭编辑边界**：把输入图反向映射成它专属的噪声作为背景初始化，遮罩区用新随机噪声，不改模型就能实现无缝修复。\n- **课程学习不再只是理论**：从简单场景开始逐步加复杂度，在这批论文里实打实让强化学习训练更稳定了。",
+  "quotes": [
+    {
+      "timestamp": "01:28",
+      "speaker": "Unknown",
+      "en": "Maybe we are also asking a single model to solve too many difficult problems at once.",
+      "zh": "也许我们也正在要求一个单一模型同时解决太多难题。"
+    },
+    {
+      "timestamp": "07:02",
+      "speaker": "Unknown",
+      "en": "When we look at T2I models and our own models also, what was interesting that this is not an image quality problem.",
+      "zh": "当我们查看 T2I 模型和我们自己的模型时，有趣的是这不是图像质量问题。"
+    },
+    {
+      "timestamp": "08:01",
+      "speaker": "Unknown",
+      "en": "A simple question, what if the identity or facial appearance or any diversity, you know, kind of itself becomes an optimization objective?",
+      "zh": "一个简单的问题，如果把身份或面部外观或任何多样性，你知道，本身就变成一个优化目标会怎样？"
+    },
+    {
+      "timestamp": "10:28",
+      "speaker": "Unknown",
+      "en": "Why not just collect more data with lots of faces and train the model with better data?",
+      "zh": "为什么不只是收集更多包含大量人脸的数据，并用更好的数据训练模型？"
+    },
+    {
+      "timestamp": "11:47",
+      "speaker": "Unknown",
+      "en": "There is another thing called this curriculum learning starting from clear scenes and gradually increasing complexity makes learning, this reinforcement learning, much more stable.",
+      "zh": "还有另一件事叫做这种课程学习，从清晰的场景开始并逐渐增加复杂性，使得学习，这种强化学习，更加稳定。"
+    },
+    {
+      "timestamp": "14:27",
+      "speaker": "Unknown",
+      "en": "Think about what happens when you generate a scene with several people, going back to that core example.",
+      "zh": "想想当你生成一个有几个人的场景时会发生什么，回到那个核心例子。"
+    },
+    {
+      "timestamp": "15:08",
+      "speaker": "Unknown",
+      "en": "So maybe this is too much, and this would be explored in the other paper, R2CAM paper, instead of like asking one model to do everything, what if we separate it?",
+      "zh": "所以也许这太多了，而这将在另一篇论文，R2CAM 论文中被探索，而不是像要求一个模型做所有事情，如果我们把它分开呢？"
+    },
+    {
+      "timestamp": "24:04",
+      "speaker": "Unknown",
+      "en": "Instead of asking model to do everything, we separate planning from rendering, similar to how a human artist would work.",
+      "zh": "不是要求模型做所有事情，我们将规划与渲染分离开来，类似于人类艺术家的工作方式。"
+    },
+    {
+      "timestamp": "33:06",
+      "speaker": "Unknown",
+      "en": "look what you can also accomplish if you really think smartly about the objective function like the disco paper and also simplify the task like r2cam paper not trying to do everything at once",
+      "zh": "看看如果你真正聪明地思考目标函数就像 disco 论文那样并且简化任务就像 r2cam 论文那样不要试图一次做所有事情你能取得什么成就"
+    },
+    {
+      "timestamp": "35:09",
+      "speaker": "Unknown",
+      "en": "By the way, such models, existing solutions, may take anywhere from 50 seconds to minutes.",
+      "zh": "顺便说一句，这样的模型，现有的解决方案，可能需要 50 秒到几分钟不等的时间。"
+    },
+    {
+      "timestamp": "40:44",
+      "speaker": "Unknown",
+      "en": "That is the new part. That's the part that we provide.",
+      "zh": "这是新的部分。这是我们所提供的部分。"
+    },
+    {
+      "timestamp": "48:07",
+      "speaker": "Unknown",
+      "en": "Because if we go to the image space, if we start blending into image space, we will most likely blur around the scenes, which is another artifact we don't want.",
+      "zh": "因为如果我们进入图像空间，如果我们开始在图像空间中混合，我们很可能会在场景周围产生模糊，这是我们不想要的另一种伪影。"
+    },
+    {
+      "timestamp": "48:50",
+      "speaker": "Unknown",
+      "en": "It's maybe 35 times faster from, let's say, 10 minutes to around 20 seconds type of.",
+      "zh": "它可能快 35 倍，比如说，从 10 分钟到 20 秒左右的这种类型。"
+    },
+    {
+      "timestamp": "52:19",
+      "speaker": "Unknown",
+      "en": "At 60 milliseconds, we can take a large image and then end up going through the reverse denoising and a noisy version of it.",
+      "zh": "在 60 毫秒内，我们可以获取一个大图像，然后最终完成反向去噪和它的一个噪声版本。"
+    },
+    {
+      "timestamp": "52:30",
+      "speaker": "Unknown",
+      "en": "So this noise is not random noise anymore.",
+      "zh": "所以这个噪声不再是随机噪声。"
+    },
+    {
+      "timestamp": "53:43",
+      "speaker": "Unknown",
+      "en": "And it generates high quality images, but most importantly, there's no boundary artifacts anymore.",
+      "zh": "并且它生成高质量图像，但最重要的是，不再有边界伪影。"
+    }
+  ]
+}

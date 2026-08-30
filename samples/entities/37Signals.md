@@ -7,19 +7,21 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>37Signals</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="37Signals">37</div><div class="pi"><h1 class="pt">37Signals</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="37Signals">37</div><div class="pi"><h1 class="pt">37Signals</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(80:02起):本集将其作为自力更生型公司的代表，指出当它们碰到增长上限时，可以理直气壮地不再追求收入增长，而是选择将利润最大化，每年安安稳稳分红，这也是一种成功
+- **[[2026-07-15-rework-don-39-t-write-it-down|《别记客户反馈：37signals 的产品决策逻辑》]]**(00:00起):本集称其为客户反馈的接收方，拥有需要克制直接反应、保持专业的实际付费客户群体
 - **[[2026-07-22-rework-start-here-building-a-better-onboarding|《Basecamp 5 引导设计：让CEO亲自带客户过产品》]]**(00:00起):本集说 37signals 是 REWORK 播客的制作方，也是 Basecamp 和 HEY 背后的公司，强调以真人面孔而非笼统品牌与客户沟通
 - **[[2026-08-26-rework-one-way-doors|《37signals 的快决策哲学：五分钟做决定，别回头看》]]**(00:00起):本集以 37signals 为例，讲述他们 25 年来如何以极快的速度做决策、不列利弊清单，并通过积累 22 年的缓冲来承担决策风险
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为被讨论公司(提及)
+- [[2026-07-15-rework-don-39-t-write-it-down|《别记客户反馈：37signals 的产品决策逻辑》]] — 作为被讨论公司
 - [[2026-07-22-rework-start-here-building-a-better-onboarding|《Basecamp 5 引导设计：让CEO亲自带客户过产品》]] — 作为被讨论公司
 - [[2026-08-26-rework-one-way-doors|《37signals 的快决策哲学：五分钟做决定，别回头看》]] — 作为被讨论公司
 
@@ -27,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[入职引导]] · [[Kimberly]] · [[Jason]] · [[David]] · [[Lenny]] · [[Basecamp]] · [[单向门]] · [[Jason Cohen]] · [[画中画导览]] · [[移动平均值]]
+[[Kimberly]] · [[Jason]] · [[David]] · [[入职引导]] · [[Basecamp]] · [[Lenny]] · [[客户反馈]] · [[画中画导览]] · [[单向门]] · [[Jason Cohen]]
 
-<script type="application/json" class="pd-epn">{"入职引导":2,"Kimberly":2,"Jason":2,"David":2,"Lenny":65,"Basecamp":1,"单向门":1,"Jason Cohen":1,"画中画导览":1,"移动平均值":1}</script>
+<script type="application/json" class="pd-epn">{"Kimberly":3,"Jason":3,"David":3,"入职引导":2,"Basecamp":2,"Lenny":65,"客户反馈":2,"画中画导览":1,"单向门":1,"Jason Cohen":1}</script>
 
 <script>
 (function(){

@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(27:06起):本集提到它是经常公开谈论并活跃使用 Goose 的中技术梯队公司之一,也是早期接触 Goose 概念验证的公司。
 - **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(01:46起):本集提到 Matei Zaharia 和 Databricks 的人做的研究显示约 74-75% 的企业最大问题是可靠性
 - **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(00:03起):本集主要受访公司，大数据与 AI 领域的头部企业，举办有 3 万人到场的 Data AI Summit。在 AI 时代坚持开放数据格式（从 Parquet 到 Delta、Iceberg），业务从数据上游起步延伸至分析领域，并致力于从零重写数据库引擎。
+- **[[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]]**(33:20起):本集提到 Databricks 作为巨型技术合作伙伴之一，在 Omni 早期阶段并不会带来业务
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(23:02起):本集在讨论 DOJ 对 Andreessen Horowitz 的调查时提到 Databricks，说 Andreessen 的人在 Databricks 董事会，也在 Fivetran 董事会，现在这两家公司成了竞争对手，触发了《克莱顿法案》第 8 条。另外也提到 Databricks 在做模型路由。
 - **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(20:45起):本集提到 Freshworks 内部叫 Baikal 的数据湖是建在 Databricks 上的，PRD Genie 会写 SQL 查询去拉取其中的真实使用数据。
 - **[[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]]**(86:51起):本集仅在结尾预告下期嘉宾时提到 Databricks，说 Ron Gabrisco 作为 CRO 加入时 ARR 不足 100 万，后将其扩展到营收运行率超 70 亿美元。
@@ -21,12 +22,13 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司(提及)
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为被讨论公司
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为被讨论公司(提及)
+- [[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|《Omni 创始人：丢掉五笔交易后怎么找到产品市场契合》]] — 作为被讨论公司(提及)
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为被讨论公司(提及)
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|《不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法》]] — 作为被讨论公司(提及)
@@ -36,9 +38,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[护栏]] · [[Cursor]] · [[Claude]] · [[Meta]] · [[Lenny]] · [[OpenAI]] · [[推理]] · [[Stripe]] · [[MCP]]
+[[智能体]] · [[Snowflake]] · [[护栏]] · [[Cursor]] · [[Claude]] · [[Meta]] · [[Google]] · [[Lenny]] · [[OpenAI]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":155,"护栏":31,"Cursor":40,"Claude":37,"Meta":23,"Lenny":65,"OpenAI":70,"推理":3,"Stripe":22,"MCP":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":156,"Snowflake":5,"护栏":32,"Cursor":40,"Claude":37,"Meta":23,"Google":31,"Lenny":65,"OpenAI":70,"推理":3}</script>
 
 <script>
 (function(){

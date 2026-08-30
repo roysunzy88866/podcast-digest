@@ -1,0 +1,154 @@
+{
+  "title_zh": "Omni 创始人：丢掉五笔交易后怎么找到产品市场契合",
+  "tldr": "Omni 创始人 Colin 聊他如何在 BI 领域找到产品市场契合——从连续丢掉五笔交易到靠 LinkedIn 手动获客、从老东家挖人建团队的完整路径。",
+  "digest_md": "Colin 在 BI（商业智能）领域干了八年，做到 Looker 的产品 VP，Looker 被 Google 收购后他又待了两年。那两年里他亲眼看到产品和客户群在被冷落，也看到 Looker 内部想做一个更灵活的产品但始终做不动——核心原因就是创新者的窘境：你很难拿自己的核心基础论点去做边缘妥协。Looker 擅长企业级 BI，但非常死板，要在现有产品上改出灵活性，几乎等于删掉整个技术栈重来，但没有公司能对自己现有的客户群干这种事 [12:40 Unknown]。\n\n这就给了外部团队空间。Colin 离开后创办了 Omni，核心思路是一个翻转：传统 BI 要求你先建数据模型（打地基），再在上面提问（建房子）；Omni 让你先随便提问、做一次性分析，之后再把有价值的东西沉淀成数据模型。对于每天活在 BI 工具里的人来说，这个区别很大——而且后来 AI 加进来之后更关键，因为 AI 回答问题时会做新的事情，你不可能预先约束它，但事后你需要把它产生的结果变成一致的、有权限管控的指标 [16:01 Unknown]。\n\n## 九个月没用户，五笔交易全丢\n\nColin 以为凭团队经验，一个月就能有市场牵引力。实际上花了九个月才拿到第一个用户——还是他在 Looker 合作过的产品经理，被他劝着每天用的。之后三四个月只有一两个日活，加上团队自己。到了一周年左右，他做了大概一百次演示，有五个完全无关的客户口头承诺要签，ACV（年度合同价值）大概 1.5 万美元，他们以为在走文书流程了，结果五笔全丢。反馈是：公司太年轻、产品还不够好、终端用户不喜欢 [00:00 Unknown]。\n\n## 为什么没转向，而是回去改 bug\n\n丢掉五笔交易后，Colin 没有 pivor（转型），而是回去花了两个月纯修 bug——从每两分钟一个错误降到大概一天一个。为什么敢这么做？因为他自己每天都在用产品，他知道产品骨架是好的，只是负面因素（bug 多、粗糙）压过了正面因素。他当时还在给一个天使投资人当数据团队，每天用 Omni 回答问题，在这个过程中他能感觉到产品的独特性 [06:16 Unknown]。\n\n他的判断是：客户会对你撒谎，说产品很好但不付钱；但你自己心里应该清楚产品到底有没有差异化。如果客户不付钱，说明差异化还不够有趣。而在这个你深度了解的领域里，你自己对\"什么是好的\"的判断，比外人的反馈更有分量 [07:24 Unknown]。\n\n## 转折点：一个播客带来四个付费客户\n\n修完 bug 后，Colin 上了一个播客，拿到三四个完全无关的试用，四个全部赢了，付费 1.5 万到 2 万美元不等。这就是他意识到产品靠谱的时刻——不认识的人，付了接近全价，而且真的喜欢。接着第一个真正好用的客户出现，开始发现团队没想过的新用法，飞轮在大概四周内转起来 [03:37 Unknown]。\n\n但在这之前，还有一个内部里程碑：大概 22 年 9 月，团队内部用产品时觉得\"这东西感觉很好了\"，但当时没有仪表盘功能，还算不上 BI 工具。到 23 年 1 月仪表盘上线，突然从玩具变成了可以替代现有工具的产品。他强调一个容易被忽略的点：你要替换一个成熟品类，必须先构建出那个品类 80% 的基础能力，哪怕那些能力完全不是你的差异化所在。差异化只占 20%，但那 80% 的\"复制\"工作你必须做，否则客户没法切换 [25:52 Unknown]。\n\n## AI 的冲击：从不信到一周内放弃 UI\n\nChatGPT 刚出来时，Colin 用了早期的版本处理数据，觉得不太好，有六个月完全不信。直到 Claude 的 Sonnet 版本出来，工程团队开始用 Claude Code 写代码，他立刻意识到世界变了——如果代码可以这样写，数据分析也迟早会这样。他们把 AI 功能放进产品，客户反而比内部更早用起来，还反过来劝他们\"你们应该在内部试试\"。内部认真接入后，同一周团队就停止使用 UI 了 [30:05 Unknown]。\n\n## 增长没有银弹：所有事多做一点\n\n找到产品市场契合之后怎么扩展？Colin 说他们增长负责人和营销负责人找过\"神奇渠道\"，最后得出一个最无聊但最实在的结论：你只需要在所有事情上做得更多。早期有三个来源：一点自然增长、一点创始人通过 LinkedIn 的外拓、一点合作推荐。随着规模扩大，每个渠道独立放大——外拓方面建了 BDR 团队打电话发邮件、放大创始人 LinkedIn；入站方面做程序化邮件和人群筛选；合作方面分两路，一路是 Snowflake、Databricks 这类大厂商（早期不会给你带业务），另一路是一到两人的数据从业者——他们从前公司出来做外包数据团队，帮小公司管数据，会推荐工具。Omni 会付 5 千美元让这些人帮客户实施，这些人了解了产品后就会主动推荐 [32:15 Unknown]。\n\n这类小合作伙伴有个优势：他们比终端客户更容易\"换工具\"，因为他们服务多个客户，只要试一次发现真的好，就会机械化地推荐十次 [35:42 Unknown]。\n\n## LinkedIn 获客的具体操作\n\nColin 刚创业时大概有六七千 LinkedIn 联系人，很多是过去买过 Looker 的人。他给大概 900 个前 Looker 员工发了消息，不是因为要利用他们，而是他觉得能给对方好的体验，而且很多人离职后去了其他公司做数据相关工作，或者能把他介绍给数据团队 [38:32 Unknown]。\n\n具体做法：和 BDR 一起坐下，逐个过前 Looker 员工名单，判断谁可能觉得产品有价值，手动发消息。也打印出所有 LinkedIn 联系人，一个个标\"有用/没用\"。消息测试了各种版本，最终发现越短越好、越直接越好、越少华丽辞藻越好。对前 Looker 人群，他的回复率大概 90%；BDR 团队做同样的事，回复率约 3%——差距来自信任和关系 [41:42 Unknown]。\n\n关键前提：你得能清晰描述你的客户长什么样，然后给 LinkedIn 付一点钱（SalesNav 账号），用针对他们问题的消息去联系。如果你连回复率都拿不到，这本身可能就是产品市场契合有问题的信号 [44:03 Unknown]。\n\n## 从老东家挖人：人才飞轮\n\nOmni 前 20 个人里大概 15 个来自 Looker，还有 5 个来自另一个相关公司。20 个人平均有十年共事历史，管理几乎不需要。Colin 认为从老东家挖人的飞轮效应很强：你雇了前同事里最优秀的 10 个人，接下来那 10 个最优秀的也会想来。但他提醒要注意一点：大公司里有效的人不一定适合创业公司，要做严格的背调，确认对方不是过度专业化的、能适应没有框架没有导师的环境 [46:07 Unknown]。\n\n销售方面更是如此：前几个销售全是 Looker 的人，第三个员工直接被派去都柏林建欧洲团队——因为信任他，而且一个好的企业销售手里有一整本客户名录，等于带着生意来 [49:23 Unknown]。\n\n## 本集带走\n\n- **先确认产品骨架好不好，再决定修 bug 还是 pivor**：如果你自己每天用，能透过 bug 看到底层价值，那就先消灭负面因素（bug），而不是急着换方向。\n- **替换成熟品类要构建 80% 的基础能力**：你的差异化可能只占 20%，但剩下 80% 的\"复制\"工作是客户切换的前提，绕不过去。\n- **LinkedIn 手动获客的核心是信任 + 短消息**：对你有认知的人回复率可以到 90%，消息越短越直接越好，别写华丽辞藻。\n- **小合作伙伴比大厂商更适合早期推广**：一人制外包数据团队服务多个客户，试一次觉得好就会机械化推荐，而且他们最在乎的是你别让他在客户面前丢脸。\n- **从老东家挖人要飞轮但要筛选**：前 10 个最优秀的人会吸引下一批，但必须确认对方适应创业公司的节奏，不是大公司里过度专业化的人。\n\n> 【背景】Looker 是一家企业级 BI 平台，2019 年被 Google 以约 27 亿美元收购。BI（Business Intelligence）即商业智能，指用数据分析和可视化工具帮企业做决策的技术领域。ACV 指年度合同价值（Annual Contract Value），是 SaaS 行业衡量单客户收入的标准指标。BDR 指 Business Development Representative，即业务拓展代表，负责外拓获客。SalesNav 是 LinkedIn 的销售导航付费功能，用于精准筛选和联系潜在客户。Snowflake 和 Databricks 是数据云/数据平台领域的两家大型公司。ETL 指数据的抽取、转换、加载流程。",
+  "quotes": [
+    {
+      "en": "And if a customer is not going to kind of pay you money, they're sort of showing you that it's not differentiated in an interesting enough way.",
+      "zh": "如果客户不打算付钱给你，他们其实是向你展示它没有以一种足够有趣的方式差异化。",
+      "timestamp": "08:00",
+      "speaker": "Colin Zima"
+    },
+    {
+      "en": "And that's an enormous advantage because people want to both buy you for what the product's doing today, but they're buying you for the slope too.",
+      "zh": "这是一个巨大的优势，因为人们既想为你今天的产品功能买单，但他们也为斜率买单。",
+      "timestamp": "23:33",
+      "speaker": "Colin Zima"
+    },
+    {
+      "en": "They're buying the trust that you will have the best product over the next period of time.",
+      "zh": "他们购买的是信任，即你在下一个时期会拥有最好的产品。",
+      "timestamp": "23:52",
+      "speaker": "Colin Zima"
+    },
+    {
+      "en": "What you don't realize is you will have to build like 80% copy just to get your 20% that's going to be better.",
+      "zh": "你没有意识到的是，你必须构建 80% 的复制品，只是为了获得你将要变得更好的那 20%。",
+      "timestamp": "26:57",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "What we found that is like the least satisfying but sort of most obvious conclusion that you could possibly imagine is you just need to do more of literally everything.",
+      "zh": "我们发现的可能是你能想象到的最不满意但也是最明显的结论是，你只需要在字面意义上的所有事情上做得更多。",
+      "timestamp": "32:26",
+      "speaker": "Colin Zima"
+    },
+    {
+      "en": "Every good person that you hire that you used to work with makes the place more attractive to the people that you used to work with.",
+      "zh": "你雇佣的每一个你曾经一起工作过的优秀的人，都会让这个地方对你曾经一起工作过的人更有吸引力。",
+      "timestamp": "47:01",
+      "speaker": "Colin Zima"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:13",
+      "speaker": "Unknown",
+      "en": "I think it's hard to reinvent yourself.",
+      "zh": "我认为重塑自我很难。"
+    },
+    {
+      "timestamp": "00:24",
+      "speaker": "Unknown",
+      "en": "It's really hard to take, like, your core foundational thesis and compromise it at the margin to do these other things well.",
+      "zh": "想要拿走你的核心基础论点，并在边缘上做出妥协以把这些其他事情做好，这是非常困难的。"
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Unknown",
+      "en": "If I'm saying, like, I bet that I can either reduce your cost or make you guys smarter and give you a better product and make it really easy for you, like, that's a pretty easy message.",
+      "zh": "如果我说，我打赌我可以降低你的成本，或者让你们更聪明，给你们更好的产品，让你们非常轻松，那是一个非常简单的信息。"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Unknown",
+      "en": "Like, people like free money and, like, they like having their job done for them.",
+      "zh": "人们喜欢免费的钱，他们喜欢有人帮他们完成工作。"
+    },
+    {
+      "timestamp": "07:24",
+      "speaker": "Unknown",
+      "en": "I think when you build product, you need a balance of things that differentiate you and you need to avoid things that differentiate you in a negative way.",
+      "zh": "我认为当你构建产品时，你需要平衡让你差异化的事物，你需要避免那些以负面方式让你差异化的事物。"
+    },
+    {
+      "timestamp": "07:50",
+      "speaker": "Unknown",
+      "en": "Like, customers will lie to you and they'll say, like, hey, this is great, this is wonderful, and then not pay you money.",
+      "zh": "比如，客户会对你撒谎，他们会说，嘿，这很棒，这很棒，然后不付钱给你。"
+    },
+    {
+      "timestamp": "08:00",
+      "speaker": "Unknown",
+      "en": "And if a customer is not going to kind of pay you money, they're sort of showing you that it's not differentiated in an interesting enough way.",
+      "zh": "如果客户不打算付钱给你，他们其实是向你展示它没有以一种足够有趣的方式差异化。"
+    },
+    {
+      "timestamp": "10:04",
+      "speaker": "Unknown",
+      "en": "You've got to find these moments where I could do a two-minute demo to a Fortune 500 CIO, and they could be like, wow, that thing is actually interesting.",
+      "zh": "你得找到这些时刻，让我能给财富 500 强的 CIO 做两分钟的演示，然后他们会像，哇，那个东西其实很有趣。"
+    },
+    {
+      "timestamp": "13:21",
+      "speaker": "Unknown",
+      "en": "It's really hard to do that because you can't just wipe your customer base out.",
+      "zh": "做到这一点真的很难，因为你不能直接把你的客户群抹去。"
+    },
+    {
+      "timestamp": "16:19",
+      "speaker": "Unknown",
+      "en": "And that's small, but for a data person, that really matters because it lets you move more quickly.",
+      "zh": "这很微小，但对于数据人员来说，这很重要，因为它让你移动得更快。"
+    },
+    {
+      "timestamp": "23:33",
+      "speaker": "Unknown",
+      "en": "And that's an enormous advantage because people want to both buy you for what the product's doing today, but they're buying you for the slope too.",
+      "zh": "这是一个巨大的优势，因为人们既想为你今天的产品功能买单，但他们也为斜率买单。"
+    },
+    {
+      "timestamp": "23:52",
+      "speaker": "Unknown",
+      "en": "They're buying the trust that you will have the best product over the next period of time.",
+      "zh": "他们购买的是信任，即你在下一个时期会拥有最好的产品。"
+    },
+    {
+      "timestamp": "26:57",
+      "speaker": "Unknown",
+      "en": "What you don't realize is you will have to build like 80% copy just to get your 20% that's going to be better.",
+      "zh": "你没有意识到的是，你必须构建 80% 的复制品，只是为了获得你将要变得更好的那 20%。"
+    },
+    {
+      "timestamp": "32:34",
+      "speaker": "Unknown",
+      "en": "What we found that is like the least satisfying but sort of most obvious conclusion that you could possibly imagine is you just need to do more of literally everything.",
+      "zh": "我们发现的可能是你能想象到的最不满意但也是最明显的结论是，你只需要在字面意义上的所有事情上做得更多。"
+    },
+    {
+      "timestamp": "40:10",
+      "speaker": "Unknown",
+      "en": "And like the thing that people forget about selling is that good selling is just connecting someone with a problem to someone that can solve their problem.",
+      "zh": "就像人们关于销售忘记的一点是，好的销售只是把有问题的人和能解决问题的人连接起来。"
+    },
+    {
+      "timestamp": "42:59",
+      "speaker": "Unknown",
+      "en": "So we just found like honesty and simplicity to be the easiest approach.",
+      "zh": "所以我们只是发现诚实和简单是最容易的方法。"
+    },
+    {
+      "timestamp": "44:34",
+      "speaker": "Unknown",
+      "en": "If you're not getting response rates, I think it's probably a good indication that like there's a product market fit issue at some level.",
+      "zh": "如果你没有得到回复率，我认为这可能是一个很好的指示，表明在某个层面上存在产品市场契合问题。"
+    },
+    {
+      "timestamp": "47:07",
+      "speaker": "Unknown",
+      "en": "Every good person that you hire that you used to work with makes the place more attractive to the people that you used to work with.",
+      "zh": "你雇佣的每一个你曾经一起工作过的优秀的人，都会让这个地方对你曾经一起工作过的人更有吸引力。"
+    }
+  ],
+  "voice_script": "做了一百次演示，五个客户口头答应签单，结果最后一笔全丢。这不是什么刚入行的菜鸟，这是一个在 BI 领域干了八年的老手，做到 Looker 产品 VP，眼看老东家被 Google 收购的人。这就是 Omni 的创始人 Colin，今天这期，就聊聊丢掉五笔交易之后，怎么一步步把产品市场契合给找回来的。\n\nColin 离开 Looker 创办 Omni，核心思路其实是一个翻转。传统 BI 工具要求你先建好数据模型，打完地基再建房子；Omni 反过来，让你先随便提问做一次性分析，事后再把有价值的东西沉淀成模型。想法很漂亮，但现实很骨感。以为凭团队经验一个月就能有市场牵引力，结果整整九个月才拿到第一个用户，还是前同事被硬拉着每天用的。到了一周年左右，做了大概一百次演示，有五个客户口头承诺要签，年度合同价值大概一点五万美元。当时以为就在走文书流程了，结果五笔全丢。反馈很直接：公司太年轻，产品不够好，终端用户不喜欢。\n\n正常人到这里可能就想着转型了，但 Colin 没有，而是回去花了两个月纯修 bug，把错误率从每两分钟一个降到了大概一天一个。为什么敢这么做？因为当时还在给一个天使投资人当数据团队，每天用 Omni 回答问题，自己心里清楚产品骨架是好的，只是 bug 多、太粗糙这些负面因素把正面因素压住了。有句话特别值得记：客户会对你撒谎，说产品很好但不付钱；但你自己心里应该清楚产品到底有没有差异化。如果客户不付钱，说明差异化还不够有趣。在这个深度了解的领域里，自己对什么是好的判断，比外人的反馈更有分量。\n\n修完 bug 之后，上了一个播客，拿到三四个完全无关的试用，四个全部赢了，付费一点五万到两万美元不等。这就是意识到产品靠谱的时刻，不认识的人，付了接近全价，而且真的喜欢。但在这之前其实还有一个内部里程碑。团队内部用产品时觉得这东西感觉很好了，但当时没有仪表盘功能，还算不上 BI 工具。直到仪表盘上线，突然从玩具变成了可以替代现有工具的产品。这里有个细节特别值得记，你要替换一个成熟品类，必须先构建出那个品类百分之八十的基础能力，哪怕那些能力完全不是你的差异化所在。差异化只占百分之二十，但那百分之八十的复制工作必须做，否则客户根本没法切换。\n\n后来 AI 冲击来了。ChatGPT 刚出来的时候，用了早期版本处理数据，觉得不太好，有六个月完全不信。直到 Claude 的 Sonnet 版本出来，工程团队开始用 Claude Code 写代码，立刻意识到世界变了。把 AI 功能放进产品后，客户反而比内部更早用起来，还反过来劝团队应该在内部试试。内部认真接入后，同一周就停止使用 UI 了。\n\n找到产品市场契合之后怎么扩展？增长负责人和营销负责人找过各种神奇渠道，最后得出一个最无聊但也最实在的结论，你只需要在所有事情上做得更多。早期就三个来源，一点自然增长，一点创始人通过 LinkedIn 的外拓，一点合作推荐。LinkedIn 获客这块，当时大概有六七千联系人，很多是过去买过 Looker 的人。给大概九百个前 Looker 员工发了消息，和 BDR 一起逐个过名单，判断谁可能觉得产品有价值，手动发消息。也打印出所有联系人，一个个标有用没用。消息测试了各种版本，最后发现越短越好、越直接越好、越少华丽辞藻越好。对前 Looker 人群，回复率大概百分之九十，BDR 团队做同样的事回复率只有百分之三，差距全在信任和关系上。\n\n合作方面，早期根本别指望 Snowflake、Databricks 这种大厂商能带业务。真正好用的是一到两人的数据从业者，从前公司出来做外包数据团队，帮小公司管数据。Omni 会付五千美元让这些人帮客户实施，了解了产品后就会主动推荐。这类小合作伙伴有个巨大优势，比终端客户更容易换工具，服务多个客户，只要试一次发现真的好，就会机械化地推荐十次。\n\n团队怎么建？前二十个人里大概十五个来自 Looker，还有五个来自另一个相关公司，平均有十年共事历史，管理几乎不需要。前几个销售全是 Looker 的人，第三个员工直接被派去都柏林建欧洲团队，因为一个好的企业销售手里有一整本客户名录，等于带着生意来。但有个前提，大公司里有效的人不一定适合创业公司，要做严格的背调，确认对方不是过度专业化的、能适应没有框架没有导师的环境。\n\n最后送你一句 Colin 的话：如果你连回复率都拿不到，这本身可能就是产品市场契合有问题的信号。找到那条值得坚持的主线，先消灭负面因素，再把剩下的事情，每一件都多做一点。"
+}

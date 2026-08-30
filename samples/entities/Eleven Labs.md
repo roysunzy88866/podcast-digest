@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Eleven Labs</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Eleven Labs">EL</div><div class="pi"><h1 class="pt">Eleven Labs</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Eleven Labs">EL</div><div class="pi"><h1 class="pt">Eleven Labs</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents|《AI 智能体怎么认证：从标准到红队测试的全流程》]]**(11:40起):本集说它是航空航天领域的前沿公司之一，拥有出色的安全态势，正在与该公司合作
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(18:48起):本集说 Eleven Labs 起步于英国但创始人是波兰人，对波兰而言它已成为'AI 奥运会'中的国家代表队级别的品牌符号
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents|《AI 智能体怎么认证：从标准到红队测试的全流程》]] — 作为被讨论公司(提及)
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Gabriel Vasquez]] · [[Elena Berger]] · [[Angela Strange]] · [[a16z]] · [[Adi]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[OpenAI]] · [[Salesforce]]
+[[Daniel Whitenack]] · [[Gabriel Vasquez]] · [[Emil Lassen]] · [[Elena Berger]] · [[the artificial intelligence underwriting company]] · [[Angela Strange]] · [[AI UC one]] · [[a16z]] · [[智能体]] · [[Adi]]
 
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"Angela Strange":1,"a16z":6,"Adi":1,"Cognition":12,"Vercel":12,"Brex":3,"OpenAI":70,"Salesforce":10}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":3,"Gabriel Vasquez":1,"Emil Lassen":1,"Elena Berger":3,"the artificial intelligence underwriting company":1,"Angela Strange":1,"AI UC one":1,"a16z":7,"智能体":156,"Adi":1}</script>
 
 <script>
 (function(){

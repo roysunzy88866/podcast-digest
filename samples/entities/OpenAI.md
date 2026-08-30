@@ -195,7 +195,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[ChatGPT]] · [[Stripe]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":155,"Anthropic":79,"Google":29,"Lenny":65,"推理":3,"Cursor":40,"NVIDIA":24,"ChatGPT":39,"Stripe":22,"Microsoft":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":156,"Anthropic":79,"Google":31,"Lenny":65,"推理":3,"Cursor":40,"NVIDIA":24,"ChatGPT":39,"Stripe":22,"Microsoft":20}</script>
 
 <script>
 (function(){

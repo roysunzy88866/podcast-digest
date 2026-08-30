@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[待完成任务]] · [[Robby Stein]] · [[Evan Spiegel]] · [[Google]] · [[Snap]] · [[AI Mode]] · [[Spectacles]] · [[AI Overviews]] · [[Specs]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"待完成任务":2,"Robby Stein":1,"Evan Spiegel":1,"Google":29,"Snap":1,"AI Mode":1,"Spectacles":1,"AI Overviews":1,"Specs":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"待完成任务":2,"Robby Stein":1,"Evan Spiegel":1,"Google":31,"Snap":1,"AI Mode":1,"Spectacles":1,"AI Overviews":1,"Specs":1}</script>
 
 <script>
 (function(){

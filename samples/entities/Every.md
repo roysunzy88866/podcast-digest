@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Every</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Every">EV</div><div class="pi"><h1 class="pt">Every</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>60</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Every">EV</div><div class="pi"><h1 class="pt">Every</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>63</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*60 条*
+*63 条*
 
 ![[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios#^q4]]
 
@@ -57,6 +57,8 @@ unlisted: true
 
 ![[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi#^q1]]
 
+![[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents#^q3]]
+
 ![[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact#^q2]]
 
 ![[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang#^q2]]
@@ -68,6 +70,8 @@ unlisted: true
 ![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q13]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q9]]
+
+![[2026-07-15-rework-don-39-t-write-it-down#^q1]]
 
 ![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q6]]
 
@@ -102,6 +106,8 @@ unlisted: true
 ![[2026-08-08-talks-realtime-multiplayer-automation-and-you#^q3]]
 
 ![[2026-08-09-lennys-the-playbook-for-building-high-talent#^q7]]
+
+![[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu#^q6]]
 
 ![[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81#^q1]]
 
@@ -149,7 +155,7 @@ unlisted: true
 
 [[Lenny]] · [[Dan Shipper]] · [[Cora]] · [[Claude Code]] · [[ChatGPT]] · [[Claude]] · [[智能体]] · [[提示词]] · [[复合工程]] · [[配置型经济]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Dan Shipper":2,"Cora":1,"Claude Code":38,"ChatGPT":39,"Claude":37,"智能体":155,"提示词":2,"复合工程":1,"配置型经济":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Dan Shipper":2,"Cora":1,"Claude Code":38,"ChatGPT":39,"Claude":37,"智能体":156,"提示词":2,"复合工程":1,"配置型经济":1}</script>
 
 <script>
 (function(){

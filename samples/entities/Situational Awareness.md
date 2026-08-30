@@ -25,7 +25,7 @@ unlisted: true
 
 [[Reid Alberghati]] · [[OpenAI]] · [[NVIDIA]] · [[Microsoft]] · [[Safe Superintelligence]] · [[CoreWeave]] · [[Meta]] · [[Apple]] · [[智能体]] · [[算力]]
 
-<script type="application/json" class="pd-epn">{"Reid Alberghati":1,"OpenAI":70,"NVIDIA":24,"Microsoft":19,"Safe Superintelligence":1,"CoreWeave":2,"Meta":23,"Apple":13,"智能体":155,"算力":3}</script>
+<script type="application/json" class="pd-epn">{"Reid Alberghati":1,"OpenAI":70,"NVIDIA":24,"Microsoft":20,"Safe Superintelligence":1,"CoreWeave":2,"Meta":23,"Apple":14,"智能体":156,"算力":3}</script>
 
 <script>
 (function(){

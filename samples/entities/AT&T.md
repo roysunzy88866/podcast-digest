@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[Theo Jaffe]] · [[Manoj Saxena]] · [[Sofia Puccini]] · [[TrustWise]] · [[Steven Sinofsky]] · [[Harmony AI]] · [[regulatory capture]] · [[智能体]] · [[precautionary principle]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":79,"Theo Jaffe":5,"Manoj Saxena":1,"Sofia Puccini":3,"TrustWise":1,"Steven Sinofsky":2,"Harmony AI":1,"regulatory capture":2,"智能体":155,"precautionary principle":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":79,"Theo Jaffe":5,"Manoj Saxena":1,"Sofia Puccini":3,"TrustWise":1,"Steven Sinofsky":2,"Harmony AI":1,"regulatory capture":2,"智能体":156,"precautionary principle":1}</script>
 
 <script>
 (function(){

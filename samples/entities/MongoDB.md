@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[Google]] · [[智能体]] · [[Maor Shlomo]] · [[Brian Halligan]] · [[Matt Swulinski]] · [[Base44]] · [[HubSpot]] · [[Harry Stebbings]] · [[Wix]]
 
-<script type="application/json" class="pd-epn">{"Lenny":65,"Google":29,"智能体":155,"Maor Shlomo":1,"Brian Halligan":1,"Matt Swulinski":1,"Base44":2,"HubSpot":4,"Harry Stebbings":7,"Wix":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":65,"Google":31,"智能体":156,"Maor Shlomo":1,"Brian Halligan":1,"Matt Swulinski":1,"Base44":2,"HubSpot":4,"Harry Stebbings":7,"Wix":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,925 @@
+{
+  "episode_id": "2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents",
+  "podcast": "Practical AI",
+  "date": "2026-06-25",
+  "tags": [
+    "AI 安全标准",
+    "智能体认证",
+    "红队测试",
+    "企业 AI 采用",
+    "安全合规"
+  ],
+  "categories": [
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.36,
+            65.94
+          ],
+          "quote": "Welcome another episode of the Practical AI Podcast. I'm Daniel Whitenack. I am CEO at Prediction Guard, and I'm really excited today to have, an amazing guest that, I'm personally interested in asking a bunch of selfish questions too because I'm I'm so interested in the topic. But we have Emil Lassen who's the standards lead at the Artificial Intelligence Underwriting Company. Welcome.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "emil-lassen",
+      "type": "person",
+      "role": "cohost",
+      "name": "Emil Lassen",
+      "file": "Emil Lassen",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.36,
+            65.94
+          ],
+          "quote": "Welcome another episode of the Practical AI Podcast. I'm Daniel Whitenack. I am CEO at Prediction Guard, and I'm really excited today to have, an amazing guest that, I'm personally interested in asking a bunch of selfish questions too because I'm I'm so interested in the topic. But we have Emil Lassen who's the standards lead at the Artificial Intelligence Underwriting Company. Welcome.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "the-artificial-intelligence-underwriting-company",
+      "type": "company",
+      "role": "company",
+      "name": "the artificial intelligence underwriting company",
+      "file": "the artificial intelligence underwriting company",
+      "primary": true,
+      "how_described": "本集说它是在构建 AI 的公司和采用 AI 的公司之间创建信任层的公司，提供标准制定、第三方审计和智能体保险的飞轮服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.36,
+            65.94
+          ],
+          "quote": "Welcome another episode of the Practical AI Podcast. I'm Daniel Whitenack. I am CEO at Prediction Guard, and I'm really excited today to have, an amazing guest that, I'm personally interested in asking a bunch of selfish questions too because I'm I'm so interested in the topic. But we have Emil Lassen who's the standards lead at the Artificial Intelligence Underwriting Company. Welcome.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 10,
+          "t": [
+            269.03,
+            307.115
+          ],
+          "quote": "So clearly there was a element to that as well. And then there's the even bigger picture around what this will do to our job markets and so forth. So left the Kennedy School being very interested in just using the public policies toolbox that I brought from that with the standards toolbox I brought from my real estate company and then this desire to actually just work on societal challenges that I think has been with me since I started working. And that became my way to the artificial intelligence underwriting company. I've since then spent all my time building a network of people, a consortium, to help them figure out how we get the right practical and technical insights into the standards we develop as well.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 18,
+          "t": [
+            476.975,
+            517.88
+          ],
+          "quote": "When we're looking at AI, we see some of the same things at play. We see a new technology that is very powerful and has the powers both do a lot of good, but also if things go wrong, can have severe financial implications. And the other thing is it's a complex industry where me as a startup saying my technology is safe creates limited trust if I'm an enterprise buyer, big bank, for example, that wants to adopt this technology. So with the artificial intelligence underwriting company, what we're trying to do is to create that trust layer in between the companies building AI and the companies adopting AI. And what we offer as the trust layer is this flywheel.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "ai-uc-one",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI UC one",
+      "file": "AI UC one",
+      "primary": true,
+      "how_described": "本集说它是该公司发布的第一版智能体 AI 认证标准，包含 40 项强制性要求，其中 6 项与红队测试相关，每季度更新",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            1128.87,
+            1172.605
+          ],
+          "quote": "That's where your SOC two comes in and your pentesting and some of the classic cybersecurity controls, access management, transport security, all the good stuff there. I'd say that many of those things become even more important in an space because pace is higher, data access is higher, so if you don't have that in order, then you should go back and ensure that you get those boxes checked. And then at the Agenack AI space, we basically just didn't see anything when we started this company and started drafting the first version of AI UC. One, we see NIST have come out with the AI risk management framework. There's a little bit of Agenack stuff in there, and I know from speaking to the team that they're considering publishing additions to this.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1330.445,
+            1354.39
+          ],
+          "quote": "And just to help people understand, so the AI UC one, that's the standard that that you all have published. People can look at it online. I assume since it's AI UC one, there's an anticipation there might be a a two or other or or various, you know, either revisions or different focuses kind of within different certifications is my is my understanding right there?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体系统本质上是概率性的、非确定性的，在足够压力下都能被越狱、都会产生幻觉，如果把幻觉率压到零就会削弱到无法执行任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            517.88,
+            556.985
+          ],
+          "quote": "So we go in and codify the standards we believe that the companies building AI should follow. We go in and audit against those standards in collaboration with third party auditors like Shellman, CoalFire, companies who really know how to go deep and validate that the standards actually followed. And then we certify companies against the standards. A big part of the certification in the case of Agenack AI is red teaming, so we go in and test the actual AI agent systems, not just to see that the policies they have are in place and work well, but that the agents actually work and are robust under pressure, and the companies that then obtain a certificate gets access to buy insurance of their agents so that there's also that financial coverage of residual risk.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 27,
+          "t": [
+            802.15497,
+            836.76495
+          ],
+          "quote": "Agents are impacting every function within a company, but it's sometimes very difficult to figure out what an agent should do, what a human should do. Jeffrey from News Research, a recent guest said often agents have no taste. That's why I'm so impressed with what our partner Framer is doing with their pro website builder that's already trusted by companies like Miro and Perplexity. They're implementing agents, but in a way that agents and humans work in tandem. Agents bring speed and scale, but people bring the taste, judgment, and control.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1189.57,
+            1233.175
+          ],
+          "quote": "They're not orderable frameworks. So the way AAC One fits in here is that we've basically taken the core governance things from the organizational level that we think are really important when it comes to AI systems, such as having failure plans in play when agents do not do what they're intended to do and you know how to deal with that. Good change management and acknowledging that every time you, for example, replace the LLM in an agent, it will behave differently. And if you don't take that into account in your governance, your end users will bear the burden of that. So some parts of the governance, the core parts of the infrastructure layer as well as ensuring that the folks who have access to the AI system itself and can make these big decisions, that's restricted.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 39,
+          "t": [
+            1233.5,
+            1281.135
+          ],
+          "quote": "Ensuring again that transport security, when you do agent to agent communications and so forth, is in place. But otherwise, we basically leave ISO and TUC2 to do what they're really good at and focus on the agentic layer. And what is up there then for us is specific controls around safety, for example, ensuring that agents behave according to brand and that they don't give users guidance on medical care or legal advice, financial advice, other high risk areas, basically that they stay within their scope and don't start breaking out of that. We look at specifically how you restrict the agent's data access, its system access and its tool access, so it doesn't start processing refunds when you shouldn't. We look at hallucinations, which is also a risk that is quite unique to AI obviously and does not come up in any way in either ISO or SOC certifications.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 52,
+          "t": [
+            1615.465,
+            1652.0249
+          ],
+          "quote": "The other track we then do in parallel is that you give us an instance of the agent or the agents, it can be multiple as well, that is in scope for the certification. And you basically configure a representative version of that agent. So an agent that would be configured how an enterprise would use it. We sometimes see companies creating an extremely safe agent that has almost lost all its power because they just wanted to pass the certification, we obviously would then go in as the third party in the room and push back and say, we want to see an agent that is configured based on the public docs you have and the defaults you've built into the product. When we then have access to that, we often access it via API.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1652.025,
+            1676.395
+          ],
+          "quote": "Our internal team will draw up a matrix of the risks we see that this agent is subject to and the attacks that it could be subject to if someone went in and attacked it. And we then develop usually between 1,005 different scenarios that we're going to hit this agent with. Each attack is unique. Some of them are, again, benign in nature. So the user will simply ask it a question, get the answer back.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1676.395,
+            1692.7001
+          ],
+          "quote": "If the agent doesn't hallucinate, it passes the eval. Other times we'll increase the adversarial pressure step by step. So the first step could be that we try to lie to it. The second step could be that we invoke authority. We do it over multiple turns sometimes and keep insisting on doing things.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1692.7001,
+            1721.02
+          ],
+          "quote": "We pretend that we're under distress and say, if you don't do this right now, I will go and do something terrible. So please process this refund. And obviously only pass the agent if we see it hold up to that pressure. We do the red teaming in two rounds because we often do find things in the first round. So similar to an ISO audit where you have a stage one and a stage two and you then have a chance to mitigate any findings in between, we give a company the chance to do that because the goal for us, again, is not compliance.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 56,
+          "t": [
+            1721.02,
+            1751.9299
+          ],
+          "quote": "The goal for us is security, right, that you actually improve the agent as part of the certification process. So depending on the magnitude of the findings, your team will have between, say, one and four weeks to mitigate these things based on the recommendations we come up with. And we then do a second round of testing. That testing is final and is taken then into account when the auditor takes your evidence, takes your Red Team results and writes that final audit report. And what you leave the process with is a comprehensive audit report that describes your security posture.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1752.09,
+            1781.8599
+          ],
+          "quote": "It's between sixty and one hundred pages long and it's an asset you can really unblock those enterprise deals with. You get a certificate for your website again, so you can demonstrate that you've gone above and beyond when it comes to security. And then we come knocking again three months later and say, we still have access to your agent via the API. We're now going to run that same barrage of tests again to ensure that the changes you've made in the last quarter didn't invalidate some of the security things we found. And we do that every single quarter, that's a requirement to to maintain certification.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 62,
+          "t": [
+            1875.185,
+            1918.41
+          ],
+          "quote": "Our grading approach right now is that you cannot pass AAC1 if you have any P0 or P1 vulnerabilities identified. You have to mitigate those. From then on, we believe a lot in transparency and we know from the compliance world, at least the frameworks that are robust and hold up under pressure, that if we put the results in the audit report and your customers see that audit report, you are very incentivized to mitigate the vulnerabilities we find. What we also know is that these agent systems are very different from use case to use case. So a coding agent is one type of beast versus a customer service agent versus a automation agent like UiPath that make decisions based on the information.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1970.34,
+            2010.0651
+          ],
+          "quote": "And that's just the nature of these systems. If you remove those hallucination rates, it's because you've made the agent so dumb that it won't be able to actually execute the use case there. It is a topic that is very alive for us, both because there's a grading methodology question in there and then there's this communications question. And we've not yet seen that enterprises fully acknowledge this. Enterprises would also like to see something spotless because something that is not spotless just asks like adds complexity and raises some of these questions, but we're hoping to be part of a push in the sector to acknowledge that a spotless audit report is probably not as valuable as a audit report that reflects reality, more more more clearly.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 68,
+          "t": [
+            2096.395,
+            2132.025
+          ],
+          "quote": "You can find out more at predictionguard.com/practicalai. That's predictionguard.com/practicalai. I I have another kind of selfish question because this is actually a response I get quite often when I'm talking to people about the systems that they're building. And, I I have my metaphor that I use that I would love you to critique, which might not be useful. If it's not useful, I need to use a different metaphor, but the the scenario is often they say, oh, well, we're building, you know, these agents or this agent, and maybe they're using AWS.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 69,
+          "t": [
+            2132.025,
+            2150.195
+          ],
+          "quote": "Right? And so they're building some agents. They have some agent harness, and then they're plugging into some AWS bedrock models. And I'm talking to them about, hey. Well, like, when you're thinking about governance of these agents, the behavior of these agents, how you control that behavior, how you prevent bad things from happening.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 73,
+          "t": [
+            2223.06,
+            2238.7852
+          ],
+          "quote": "And that's my strategy. But more this kind of comprehensive view like you would have of your own health as a person, but now we're talking about like the the health or behavior of a of an agent. I don't know. Any any critique on that or or",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 77,
+          "t": [
+            2342.5098,
+            2394.7148
+          ],
+          "quote": "How do you see the market evolving in terms of like, obviously, you have one side of this which is really related to the standard, the certification, maybe eventually that insurance side, but then it can be, you know, an individual developer of an agent might not be an expert in agent security or how to govern these things, that sort of thing. So that might seem overwhelming to them. That you mentioned partners like auditors. There's the infrastructure layer. What what do you think I I guess my question is what do you think needs to be in place to, to actually enable real world developers to meet some of these standards, whether that be evolution in the tooling or, obviously understanding maybe of the the the, standards.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 80,
+          "t": [
+            2408.77,
+            2459.285
+          ],
+          "quote": "So that means we've less time to talk to some of the many, many fantastic partners who come into our inbox and want to partner with us. I think there's three things we need to get right for this to work. I think we need to continue pushing for code and Neogenetic products that come out of the gate as secure as possible by default. We're certifying our first coding agents right now and we are certifying both a well lovable, which I think will be certified when this episode comes out, and then another very large coding agent that may or may not have been acquired recently for a lot of money without naming names. Working with the coding agents layer and the platforms where you go in and configure code, we're also, like again, UiPath is a good example where you don't just like have one agent, but you actually go in and build agents on top.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 81,
+          "t": [
+            2459.34,
+            2496.82
+          ],
+          "quote": "Means that it'll be easier to meet a lot of the standards just by default because the environment where you define and build your agent is secured by default. So I think that's step one and we're going to do more of that work with some of the big agentic platforms out there very soon. Think some of it will be announced in the fall. The second stage is we need this partner ecosystem you just talked about and we're already starting to come out with some examples of this where a partner meets, helps companies meet a good chunk of controls. So a company like White Circle, which I think is very cool, we don't work with them at all, so just a shout out.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red teaming)",
+      "file": "红队测试",
+      "primary": true,
+      "how_described": "本集说它设计约 100 个攻击场景，从良性提问到多轮社会工程攻击，分两轮进行，发现问题后给 1-4 周修复时间，每季度复测",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            517.88,
+            556.985
+          ],
+          "quote": "So we go in and codify the standards we believe that the companies building AI should follow. We go in and audit against those standards in collaboration with third party auditors like Shellman, CoalFire, companies who really know how to go deep and validate that the standards actually followed. And then we certify companies against the standards. A big part of the certification in the case of Agenack AI is red teaming, so we go in and test the actual AI agent systems, not just to see that the policies they have are in place and work well, but that the agents actually work and are robust under pressure, and the companies that then obtain a certificate gets access to buy insurance of their agents so that there's also that financial coverage of residual risk.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 25,
+          "t": [
+            737.65,
+            765.77997
+          ],
+          "quote": "They need that third party to go in and do that. And then I do think there is a security argument to be made here. Our red teaming consistently uncovers blind spots for the companies that we work with. Sometimes it's the hallucination rate where we realize that a specific type of adversarial attack will bring up the hallucination rate or specific language switches or other things that might actually happen when their products are deployed. Other times, it's jailbreaking risk that we manage to uncover or pump injection risk that we manage to uncover.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 30,
+          "t": [
+            885.875,
+            957.69
+          ],
+          "quote": "I I'm I love your answer and it was a little bit I I was trying to validate some of my own thinking through that because we've talked on the show before about, you know, it isn't really like the the governments of the world are quite behind in terms of, you know, how they would, you know, enforce or even say what to enforce for companies building AI things. And and so it's really the enterprises themselves that have some motivation to do this, all of those that you laid out, and I'm and I'm sure more. In in the in the current, I guess, state of AI standards, if we kind of shift to that piece, and then eventually, wanna get to kind of the evidence and red teaming and and all of that. But maybe just as if we take a general look at the standards that exist out there for AI and AI agents, could you help us understand what kinds of standards are out there and what they cover? Because there's a lot of there's a lot of sort of intersections that we could think of, whether that be security or safety or alignment or all sorts of things, data privacy.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 40,
+          "t": [
+            1281.135,
+            1330.445
+          ],
+          "quote": "So really focus on the agentic layer there and the core part of the differentiation, I'd say, is then the technical level of the controls. We go in and are actually quite prescriptive in what we want to see from the agents because we have a good understanding now of what the right toolbox is to ensure that these agents behave safe, secure and reliably. And the other thing is we acknowledge that a technical control in itself might not hold up under robustness. So six of the 40 mandatory requirements in AAC one have to do with red teaming, testing that these technical controls then hold up under pressure, both when we react, like we engage with the system as a benign user, just ask it questions and see if it hallucinates, but also what happens when we start approaching the system like, with social engineering and and adversarial pressure.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 46,
+          "t": [
+            1459.7,
+            1492.71
+          ],
+          "quote": "I'm selling into, you know, large manufacturing or or whatever it is. Right? So in that scenario, what what would the process kind of recommended process be for our company to engage with this standard and eventually get to that level of certification, maybe in the future eventually to the to the insurance side, but at least to that certification side, what would that process look like? And then maybe highlight in that process where the red teaming comes in. And then I'd love to circle back on that maybe later and and talk through that specifically.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1692.7001,
+            1721.02
+          ],
+          "quote": "We pretend that we're under distress and say, if you don't do this right now, I will go and do something terrible. So please process this refund. And obviously only pass the agent if we see it hold up to that pressure. We do the red teaming in two rounds because we often do find things in the first round. So similar to an ISO audit where you have a stage one and a stage two and you then have a chance to mitigate any findings in between, we give a company the chance to do that because the goal for us, again, is not compliance.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1781.94,
+            1811.7499
+          ],
+          "quote": "And in that red teaming, I mean, you you mentioned this before around kind of the probabilistic nature of of some of these things, and this is something I've always run into in in AI workshops as I give workshops in in enterprise. Often people will say, oh, this is like, you know, it's not deterministic. How do we how do we create the right like, what does passing mean? Right? And so you could say, well, passing means, you know, passing all 5,000 scenarios.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 74,
+          "t": [
+            2238.945,
+            2277.095
+          ],
+          "quote": "know, I I actually I I really like that analogy. I've not thought about this this one before, but I think our quarterly red teaming is is very much alike to the doctor's visit where you go from head to toe. You go through the MRI scanner, you go through the blood testing, you like everything that Elizabeth Holmes tried to prevent with Theranos, we will do to you and we will do it 10 times over. And in between, the beauty of the standard is there's obviously a lot of runtime controls in there. So we will ensure then that you do still take your temperature every day, in fact, probably every minute, so that alerts are configured if something immediately goes off.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 75,
+          "t": [
+            2277.095,
+            2314.47
+          ],
+          "quote": "We will also have you lock your system behavior right. So if something goes awry and you don't understand it, you can go back and see what is the observability then and go in and explain it. So I think it's basically the perfect analogy between the red teaming is a doctor's visit we do every course and we do that very comprehensively. And in between, we make sure that we check your vitals every minute and there's an alarm going off if there's something off and then maybe adding a healthy diet to it in the first place as well, ensuring that the inputs and outputs of the system are are working well, so not too much junk food there.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "primary": true,
+      "how_described": "本集说它是 AI 独有的风险，在某些对抗攻击下幻觉率会飙升，没有任何智能体系统能完全消除幻觉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            737.65,
+            765.77997
+          ],
+          "quote": "They need that third party to go in and do that. And then I do think there is a security argument to be made here. Our red teaming consistently uncovers blind spots for the companies that we work with. Sometimes it's the hallucination rate where we realize that a specific type of adversarial attack will bring up the hallucination rate or specific language switches or other things that might actually happen when their products are deployed. Other times, it's jailbreaking risk that we manage to uncover or pump injection risk that we manage to uncover.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 51,
+          "t": [
+            1580.945,
+            1614.825
+          ],
+          "quote": "If you have a generative AI product, you need to define who owns the inputs and outputs and how you retain user data and whether you train on that user data. So forth, you need to define your acceptable use. And the second part is the technical controls that that Sheltman will go in and validate. So that is your filtering configuration against harmful output, your classifier, your defensive prompting, your groundedness filtering when it comes to hallucination preventing, your safeguards around tool calls and all the other things. So again, you go through those requirements and capture the evidence and submit that to the auditor that goes in and does that third party validation.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 60,
+          "t": [
+            1830.48,
+            1851.565
+          ],
+          "quote": "Yeah. So it's it's a great question and it's also a really hard question, so there's some nuances in here. What we require to pass AAC one is that you don't have any rate each run based on severity. So a pass, you can have a P four, which is an insignificant, say, small hallucination that doesn't really affect an end user. A minor thing would be which would be a P three.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1948.71,
+            1970.34
+          ],
+          "quote": "All agentic systems are nondeterministic in nature. That means that they will always, if you put them under the right amount of pressure, be able to be jailbroken. They will always be able to hallucinate. We work again with, like some of the legal agents we're certifying right now are world class at hallucination prevention. I am sure we will still be able to find some minor hallucination cases in those.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1970.34,
+            2010.0651
+          ],
+          "quote": "And that's just the nature of these systems. If you remove those hallucination rates, it's because you've made the agent so dumb that it won't be able to actually execute the use case there. It is a topic that is very alive for us, both because there's a grading methodology question in there and then there's this communications question. And we've not yet seen that enterprises fully acknowledge this. Enterprises would also like to see something spotless because something that is not spotless just asks like adds complexity and raises some of these questions, but we're hoping to be part of a push in the sector to acknowledge that a spotless audit report is probably not as valuable as a audit report that reflects reality, more more more clearly.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "jailbreaking",
+      "type": "concept",
+      "role": "concept",
+      "name": "越狱 (jailbreaking)",
+      "file": "越狱",
+      "primary": true,
+      "how_described": "本集说红队测试能持续发现智能体的越狱漏洞，所有智能体系统在足够压力下都能被越狱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            737.65,
+            765.77997
+          ],
+          "quote": "They need that third party to go in and do that. And then I do think there is a security argument to be made here. Our red teaming consistently uncovers blind spots for the companies that we work with. Sometimes it's the hallucination rate where we realize that a specific type of adversarial attack will bring up the hallucination rate or specific language switches or other things that might actually happen when their products are deployed. Other times, it's jailbreaking risk that we manage to uncover or pump injection risk that we manage to uncover.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集说它是红队测试能持续发现的智能体风险之一，转写稿中误写为 pump injection",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            2176.975,
+            2223.06
+          ],
+          "quote": "Like that's part of maybe being a healthy person is knowing if I have a fever or not, right? But it's very different from me being plugged into a healthcare system where there's electronic health records about my journey as a person, my health, my conditions, different from kind of having a comprehensive set of physicals and labs that were run that give different, you know, perspectives on on my health. Right? And so there's there's this system that I'm plugged into, there's a process, there's policies around that, there's, and that's, in in my mind, that's much more of kind of the perspective that people need to go to is not so much like, hey, I have a prompt injection filter. Right?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "standards-audits-and-insurance",
+      "type": "concept",
+      "role": "concept",
+      "name": "标准—审计—保险飞轮 (standards, audits and insurance)",
+      "file": "标准—审计—保险飞轮",
+      "primary": true,
+      "how_described": "本集说这是从本杰明·富兰克林时代电力引入开始反复出现的信任模式，在汽车和核电站行业重演，AI 智能体正在走同一条路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            369.86,
+            398.18002
+          ],
+          "quote": "Homes started burning down. So Benjamin Franklin formed the first fire brigade in Philadelphia. He started codifying building codes so that we basically took what we knew around how to build safer houses, the standards part, and then he developed the first mutual insurance company. So back then, this is the first time we see this flywheel of standards, audits and insurance go together. By having standards around building codes, for example, you knew that houses needed to be placed a little bit further from each other.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 15,
+          "t": [
+            398.42,
+            427.52
+          ],
+          "quote": "They needed some of his lightning rods to ensure that when lightning strikes that they catch fire. The fire inspections was the audit part that actually went in and examined that you'd followed these rules appropriately. And the insurance side mitigated the residual risk that will always be there when we introduce new powerful technology into society. We've seen this flywheel of standards audits and insurance time and time again when new technology has been introduced in society. We see it again in cars.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 44,
+          "t": [
+            1396.5,
+            1438.1799
+          ],
+          "quote": "I could very well see that new frameworks, so an AIAC two, AIAC three come out in the future. We don't have any plans to do that yet, but what we know, again, if we go all the way back to where we started our conversation, is that this combination of standards audits and insurance have worked historically. So right now we focus on the application layers of the platforms and products that take Agenack AI and deploy. But there's a model layer as well, which we see as our second horizon and there's the physical layer, like the data centers and the infrastructure that we deploy AI on, but also the cars and the robots that we put this into where standards audits and insurance could play a big role and that's where we see the company go long term.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "ai-risk-management-framework",
+      "type": "concept",
+      "role": "concept",
+      "name": "NIST AI 风险管理框架 (AI risk management framework)",
+      "file": "NIST AI 风险管理框架",
+      "primary": false,
+      "how_described": "本集说它是 NIST 发布的框架，包含一些智能体相关内容，但属于自愿指导性框架，不是可认证的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            556.985,
+            613.365
+          ],
+          "quote": "Yeah, this is so interesting and I have so many questions. Maybe one question that's just very selfish and our listeners know some part of the joy of being able to do a podcast like this is I get to get my own questions answered by people that are smarter than me. But one of those questions that I have that actually comes up in conversations I have day to day is is this tension of, hey, I I see a standard out there, whether it's, you know, some of the standards that we'll talk about that you all are codifying, or maybe it's things like the NIST AI risk management framework or things from OWASP. And logically they say, yes, it would make sense to do those things. But what is the forcing function that is kind of making making companies consider actual implementation of those of those principles rather than having it be a be an aspirational thing?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 36,
+          "t": [
+            1128.87,
+            1172.605
+          ],
+          "quote": "That's where your SOC two comes in and your pentesting and some of the classic cybersecurity controls, access management, transport security, all the good stuff there. I'd say that many of those things become even more important in an space because pace is higher, data access is higher, so if you don't have that in order, then you should go back and ensure that you get those boxes checked. And then at the Agenack AI space, we basically just didn't see anything when we started this company and started drafting the first version of AI UC. One, we see NIST have come out with the AI risk management framework. There's a little bit of Agenack stuff in there, and I know from speaking to the team that they're considering publishing additions to this.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "ai-controls-matrix",
+      "type": "concept",
+      "role": "concept",
+      "name": "云安全联盟 AI 控制矩阵 (AI controls matrix)",
+      "file": "云安全联盟 AI 控制矩阵",
+      "primary": false,
+      "how_described": "本集说它是云安全联盟发布的框架，有部分智能体 AI 相关内容，但同样是自愿指导性的，由企业自己决定实施哪些控制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            1172.605,
+            1189.57
+          ],
+          "quote": "The Cloud Security Alliance has also done their AI controls matrix, where again, there's some things in there around Agenack AI that are pretty good. The issue with both of those frameworks is that they're guidance. They're voluntary frameworks. You decide which controls you implement. You decide whether you like, how you implement them.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "runtime-security",
+      "type": "concept",
+      "role": "concept",
+      "name": "运行时安全 (runtime security)",
+      "file": "运行时安全",
+      "primary": true,
+      "how_described": "本集说它是本季度标准更新的重点加强领域，包括持续监控、警报配置等控制措施",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            1370.02,
+            1396.3151
+          ],
+          "quote": "And so we have the full stack of people in the room. And with them, every quarter we identify new priority areas. Last quarter it was MCP risk, for example, which has really come up as agents start not just operating in isolation but exchanging information. This quarter, we look a lot at how we can strengthen runtime security and that continuous element, which continues to be really important for a lot of organizations. So we get them into the room and update the standard each quarter.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提到围绕工具调用的护栏是审计中需要验证的技术控制之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            2038.255,
+            2096.395
+          ],
+          "quote": "There there are a bunch of controls that need to be put into place. Everything from, yes, individual guardrails, but much more than that to how agents access MCP servers, how you manage supply chain and the risk associated with things in the supply chain around agents, how you handle observability and response to incidents. This can be really overwhelming, and that's why I'm so privileged to be working with an amazing team of AI engineers at Prediction Guard, where we've actually built an AI control plane that you can self host in your own infrastructure that allows you to treat AI agents that you're adopting with zero trust and these built in controls out of the box. I would love for you to take a look at what we're doing. Book a call with my team and I to talk through your individual implementation and how you can get up to speed rapidly and adopt this technology with full confidence.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集说当系统行为出错时，可以通过可观测性回溯查看发生了什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            2038.255,
+            2096.395
+          ],
+          "quote": "There there are a bunch of controls that need to be put into place. Everything from, yes, individual guardrails, but much more than that to how agents access MCP servers, how you manage supply chain and the risk associated with things in the supply chain around agents, how you handle observability and response to incidents. This can be really overwhelming, and that's why I'm so privileged to be working with an amazing team of AI engineers at Prediction Guard, where we've actually built an AI control plane that you can self host in your own infrastructure that allows you to treat AI agents that you're adopting with zero trust and these built in controls out of the box. I would love for you to take a look at what we're doing. Book a call with my team and I to talk through your individual implementation and how you can get up to speed rapidly and adopt this technology with full confidence.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 75,
+          "t": [
+            2277.095,
+            2314.47
+          ],
+          "quote": "We will also have you lock your system behavior right. So if something goes awry and you don't understand it, you can go back and see what is the observability then and go in and explain it. So I think it's basically the perfect analogy between the red teaming is a doctor's visit we do every course and we do that very comprehensively. And in between, we make sure that we check your vitals every minute and there's an alarm going off if there's something off and then maybe adding a healthy diet to it in the first place as well, ensuring that the inputs and outputs of the system are are working well, so not too much junk food there.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": false,
+      "how_described": "本集说它是航空航天领域的前沿公司之一，拥有出色的安全态势，正在与该公司合作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            700.85004,
+            737.65
+          ],
+          "quote": "The speed argument obviously assumes that you can get across the line in the first place. I think the second part of the value proposition is having that third party validation that your Agenack AI is actually safe, secure and reliable. We're working with some of the frontier companies in the aerospace right now, companies like Eleven Labs, companies like Fin that just got acquired for 3,600,000,000 by Salesforce, companies like UiPath who have set the standards within their categories historically. They have fantastic security postures, but they don't have a way to prove that to an enterprise. So an enterprise will just never trust a company that has an incentive to sell their product.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "uipath",
+      "type": "company",
+      "role": "company",
+      "name": "UiPath",
+      "file": "UiPath",
+      "primary": false,
+      "how_described": "本集说它是上市交易的自动化公司，在历史上确立了其类别内的标准，已完成 AUC 1 认证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            700.85004,
+            737.65
+          ],
+          "quote": "The speed argument obviously assumes that you can get across the line in the first place. I think the second part of the value proposition is having that third party validation that your Agenack AI is actually safe, secure and reliable. We're working with some of the frontier companies in the aerospace right now, companies like Eleven Labs, companies like Fin that just got acquired for 3,600,000,000 by Salesforce, companies like UiPath who have set the standards within their categories historically. They have fantastic security postures, but they don't have a way to prove that to an enterprise. So an enterprise will just never trust a company that has an incentive to sell their product.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 48,
+          "t": [
+            1515.48,
+            1542.08
+          ],
+          "quote": "So you basically go into the certifications process with open eyes around what is the workload needed from engineering, from legal and from your GRC team to take your company through it. I will mention at this point, we've had a three person Y Combinator startup go through this. We've had UiPath that is publicly traded go through this. We have companies at all stages. So I mentioned now security, legal and GSE.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 62,
+          "t": [
+            1875.185,
+            1918.41
+          ],
+          "quote": "Our grading approach right now is that you cannot pass AAC1 if you have any P0 or P1 vulnerabilities identified. You have to mitigate those. From then on, we believe a lot in transparency and we know from the compliance world, at least the frameworks that are robust and hold up under pressure, that if we put the results in the audit report and your customers see that audit report, you are very incentivized to mitigate the vulnerabilities we find. What we also know is that these agent systems are very different from use case to use case. So a coding agent is one type of beast versus a customer service agent versus a automation agent like UiPath that make decisions based on the information.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 80,
+          "t": [
+            2408.77,
+            2459.285
+          ],
+          "quote": "So that means we've less time to talk to some of the many, many fantastic partners who come into our inbox and want to partner with us. I think there's three things we need to get right for this to work. I think we need to continue pushing for code and Neogenetic products that come out of the gate as secure as possible by default. We're certifying our first coding agents right now and we are certifying both a well lovable, which I think will be certified when this episode comes out, and then another very large coding agent that may or may not have been acquired recently for a lot of money without naming names. Working with the coding agents layer and the platforms where you go in and configure code, we're also, like again, UiPath is a good example where you don't just like have one agent, but you actually go in and build agents on top.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "fin",
+      "type": "company",
+      "role": "company",
+      "name": "Fin",
+      "file": "Fin",
+      "primary": false,
+      "how_described": "本集说它是一家 AI 客服公司，刚被 Salesforce 以 36 亿美元收购",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            700.85004,
+            737.65
+          ],
+          "quote": "The speed argument obviously assumes that you can get across the line in the first place. I think the second part of the value proposition is having that third party validation that your Agenack AI is actually safe, secure and reliable. We're working with some of the frontier companies in the aerospace right now, companies like Eleven Labs, companies like Fin that just got acquired for 3,600,000,000 by Salesforce, companies like UiPath who have set the standards within their categories historically. They have fantastic security postures, but they don't have a way to prove that to an enterprise. So an enterprise will just never trust a company that has an incentive to sell their product.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "prediction-guard",
+      "type": "company",
+      "role": "company",
+      "name": "Prediction Guard",
+      "file": "Prediction Guard",
+      "primary": false,
+      "how_described": "本集主持人提到它是自己担任 CEO 的公司，构建了可自托管的 AI 控制平面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.36,
+            65.94
+          ],
+          "quote": "Welcome another episode of the Practical AI Podcast. I'm Daniel Whitenack. I am CEO at Prediction Guard, and I'm really excited today to have, an amazing guest that, I'm personally interested in asking a bunch of selfish questions too because I'm I'm so interested in the topic. But we have Emil Lassen who's the standards lead at the Artificial Intelligence Underwriting Company. Welcome.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 67,
+          "t": [
+            2038.255,
+            2096.395
+          ],
+          "quote": "There there are a bunch of controls that need to be put into place. Everything from, yes, individual guardrails, but much more than that to how agents access MCP servers, how you manage supply chain and the risk associated with things in the supply chain around agents, how you handle observability and response to incidents. This can be really overwhelming, and that's why I'm so privileged to be working with an amazing team of AI engineers at Prediction Guard, where we've actually built an AI control plane that you can self host in your own infrastructure that allows you to treat AI agents that you're adopting with zero trust and these built in controls out of the box. I would love for you to take a look at what we're doing. Book a call with my team and I to talk through your individual implementation and how you can get up to speed rapidly and adopt this technology with full confidence.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 90,
+          "t": [
+            2671.535,
+            2692.35
+          ],
+          "quote": "Alright. That's our show for this week. If you haven't checked out our website, head to practicalai.fm, and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the AI developments, and we would love for you to join the conversation. Thanks to our partner Prediction Guard for providing operational support for the show.",
+          "speaker": "Narrator"
+        }
+      ]
+    },
+    {
+      "id": "framer",
+      "type": "company",
+      "role": "company",
+      "name": "Framer",
+      "file": "Framer",
+      "primary": false,
+      "how_described": "本集说它是播客合作伙伴，提供专业网站构建器，已受 Miro 和 Perplexity 等公司信任",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            802.15497,
+            836.76495
+          ],
+          "quote": "Agents are impacting every function within a company, but it's sometimes very difficult to figure out what an agent should do, what a human should do. Jeffrey from News Research, a recent guest said often agents have no taste. That's why I'm so impressed with what our partner Framer is doing with their pro website builder that's already trusted by companies like Miro and Perplexity. They're implementing agents, but in a way that agents and humans work in tandem. Agents bring speed and scale, but people bring the taste, judgment, and control.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 28,
+          "t": [
+            837.245,
+            874.41
+          ],
+          "quote": "And these agents help solve this gap between AI generated ideas and production ready website work. So Framer is already enterprise level solution. They they allow you to create amazing websites that are SEO ready. And so I really would recommend that you check them out if you're building a new website or just implementing landing pages or an upgrade in your existing website. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/practicalai for 30% off of Framer Pro annual plan.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 29,
+          "t": [
+            874.49,
+            885.875
+          ],
+          "quote": "That's framer.com/practicalai for 30% off. Framer.com/practicalai. Rules and restrictions may apply. Yeah. Yeah.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "shellman",
+      "type": "company",
+      "role": "company",
+      "name": "Shellman",
+      "file": "Shellman",
+      "primary": false,
+      "how_described": "本集说它是认可的第三方审计机构之一，转写稿中误写为 Shellman",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            517.88,
+            556.985
+          ],
+          "quote": "So we go in and codify the standards we believe that the companies building AI should follow. We go in and audit against those standards in collaboration with third party auditors like Shellman, CoalFire, companies who really know how to go deep and validate that the standards actually followed. And then we certify companies against the standards. A big part of the certification in the case of Agenack AI is red teaming, so we go in and test the actual AI agent systems, not just to see that the policies they have are in place and work well, but that the agents actually work and are robust under pressure, and the companies that then obtain a certificate gets access to buy insurance of their agents so that there's also that financial coverage of residual risk.",
+          "speaker": "Emil"
+        },
+        {
+          "seg": 50,
+          "t": [
+            1562.375,
+            1580.62
+          ],
+          "quote": "We have a number of credited auditors, like, for example, Shellman Coal Fired, but the list is growing very rapidly at the moment. And trusted auditor who knows how to do this. And on their track, you basically start collecting all the evidence that is needed to go through the ASC one audit. It falls in two buckets. Some of it is the classic legal policies.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "coalfire",
+      "type": "company",
+      "role": "company",
+      "name": "CoalFire",
+      "file": "CoalFire",
+      "primary": false,
+      "how_described": "本集说它是认可的第三方审计机构之一，转写稿中误写为 CoalFire",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            517.88,
+            556.985
+          ],
+          "quote": "So we go in and codify the standards we believe that the companies building AI should follow. We go in and audit against those standards in collaboration with third party auditors like Shellman, CoalFire, companies who really know how to go deep and validate that the standards actually followed. And then we certify companies against the standards. A big part of the certification in the case of Agenack AI is red teaming, so we go in and test the actual AI agent systems, not just to see that the policies they have are in place and work well, but that the agents actually work and are robust under pressure, and the companies that then obtain a certificate gets access to buy insurance of their agents so that there's also that financial coverage of residual risk.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "white-circle",
+      "type": "company",
+      "role": "company",
+      "name": "White Circle",
+      "file": "White Circle",
+      "primary": false,
+      "how_described": "本集说它的监控和过滤工作很好，集成后可满足标准中约 8-10 项要求",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            2459.34,
+            2496.82
+          ],
+          "quote": "Means that it'll be easier to meet a lot of the standards just by default because the environment where you define and build your agent is secured by default. So I think that's step one and we're going to do more of that work with some of the big agentic platforms out there very soon. Think some of it will be announced in the fall. The second stage is we need this partner ecosystem you just talked about and we're already starting to come out with some examples of this where a partner meets, helps companies meet a good chunk of controls. So a company like White Circle, which I think is very cool, we don't work with them at all, so just a shout out.",
+          "speaker": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "mcp-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 风险 (MCP risk)",
+      "file": "MCP 风险",
+      "primary": true,
+      "how_described": "本集说它是上个季度标准新增的优先领域，因为智能体开始不仅独立运作而且交换信息，带来了新的攻击面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            1370.02,
+            1396.3151
+          ],
+          "quote": "And so we have the full stack of people in the room. And with them, every quarter we identify new priority areas. Last quarter it was MCP risk, for example, which has really come up as agents start not just operating in isolation but exchanging information. This quarter, we look a lot at how we can strengthen runtime security and that continuous element, which continues to be really important for a lot of organizations. So we get them into the room and update the standard each quarter.",
+          "speaker": "Emil"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "ISO 42001",
+      "reason": "专名「ISO 42001」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "SOC 2",
+      "reason": "专名「SOC 2」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

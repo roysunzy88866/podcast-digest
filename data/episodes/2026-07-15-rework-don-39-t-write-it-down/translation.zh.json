@@ -1,0 +1,258 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 40,
+  "speaker": "Kimberly",
+  "en": "Welcome to REWORK, a podcast by 37signals about the better way to work and run your business. I’m your host, Kimberly Rhodes. Joined by the co-founders of 37signals, Jason Fried and David Heinemeier Hansson. This week I want to talk a little bit about one of the chapters of their book REWORK called “Don’t Write It Down,” and it’s all about customer feedback, when you should ignore it, when you should make notes about it. I thought we’d talk about this in reference to Basecamp 5 just a bit. Jason, I’m going to kick it off with you, but first I want to read you just the first couple of sentences of this chapter, which says, “How should you keep track of what customers want? Don’t. Listen, but then forget what people said Seriously.” I’m going to kick it off with that.",
+  "zh": "欢迎来到 REWORK，这是 37signals 制作的一个关于更好的工作和经营企业方式的播客。我是你们的主持人 Kimberly Rhodes。今天由 37signals 的联合创始人 Jason Fried 和 David Heinemeier Hansson 加入。本周我想稍微聊一聊他们写的《REWORK》这本书中的一个章节，叫作“别记下来”，这全是关于客户反馈的，你什么时候应该忽略它，什么时候应该对此做记录。我想我们可以结合 Basecamp 5 来稍微谈谈。Jason，我想先从你开始，但首先我想给你读读这一章的前几句，上面写道，“你应该如何追踪客户想要什么？别追踪。去听，但然后把人们说的话忘了。认真的。”我就以此开场。"
+ },
+ {
+  "seg": 1,
+  "start": 40,
+  "end": 88,
+  "speaker": "Jason",
+  "en": "Who wrote that? Did we write that? Just kidding. Yeah. The idea behind that, which is still I think very true, although there’s some reasons to write a few things down, we can talk about that. But the primary thing is that, especially for a product like Basecamp, we have lots and lots and lots and lots of people using it. So you get a lot of feedback and you hear a lot of things. And the things you keep hearing over and over and over are the things you’re going to be reminded of that are probably the important things. Every individual customer has an important thing to say about their own scenario, their own situation, their own reality, their own perspective, and it’s all valuable for them. But we have to build a product for the customer base at large. And so you have to be careful not to design by anecdote or fix by anecdote or change by anecdote because someone can write a really strong point and they could be making a great point that other people are making too.",
+  "zh": "那是谁写的？是我们写的吗？开玩笑的。是的。那背后的想法，我认为至今仍然非常正确，虽然有一些理由去记下一些事情，我们可以谈谈那个。但主要的一点是，特别是对于像 Basecamp 这样的产品，我们有非常多非常多非常多的人在使用它。所以你会得到很多反馈，你会听到很多事情。而你一遍又一遍听到的事情是那些你会被提醒的事情，那些可能是重要的事情。每个个体客户都有关于他们自己的场景、他们自己的情况、他们自己的现实、他们自己的视角的重要事情要说，这对他们来说都有价值。但我们必须为广大的客户群构建产品。所以你必须小心不要按轶事设计，或按轶事修复，或按轶事改变，因为某人可以写出一个非常强有力的观点，他们可能提出了其他人也在提出的好观点。"
+ },
+ {
+  "seg": 2,
+  "start": 88,
+  "end": 137,
+  "speaker": "Unknown",
+  "en": "Maybe they can make a point that no one’s making, but still you don’t want to just respond to one person’s feedback. And I think when you begin to jot things down and make lists and record stuff, you’re like, well, now you feel like there’s an obligation to do something about it or do something with it. So our point of view is listen for sure. And for the most part, forget. What I mean by that is don’t institutionalize that thing. Don’t write that thing down. Don’t make it official necessarily. Just keep listening. And the things that keep coming up over and over and over and over are just obvious then. And those become the higher priority items rather than just the good storytelling bits that can really move you to do something. So that’s sort of the primary idea. That said, we do keep track of certain things that customers write that have really interesting language or sort of some unique scenarios occasionally because there’s some insights you can get from that that you won’t hear from a lot of other people.",
+  "zh": "也许他们可以提出一个没有人提出的观点，但你仍然不想只回应一个人的反馈。我认为当你开始记下来、列清单、记录东西时，你会觉得，好吧，现在你觉得有义务对它做点什么或用它做点什么。所以我们的观点是一定要听。但大部分时候，忘掉。我的意思是，不要把那个东西制度化。不要把那个东西写下来。没必要让它正式化。只要继续听。那些一遍又一遍一遍又一遍反复出现的事情，到时候就会显而易见。这些将成为高优先级的事项，而不是那些真的能推动你去做某事的好故事片段。所以这主要是那个想法。话虽如此，我们确实会追踪客户写的一些具有非常有趣的语言或一些独特场景的事情，因为你可以从中获得一些见解，这是你从其他很多人那里听不到的。"
+ },
+ {
+  "seg": 3,
+  "start": 137,
+  "end": 184,
+  "speaker": "Unknown",
+  "en": "So if there is an interesting email or there’s something that’s described in an interesting way, our customer service team writes it down and adds it to this project called Support: Voice of the Customer, I believe is the name of the project. And it’s kind of fun to go through that and look at some of these words and the way people describe things occasionally. I’ll remember a long time ago before we were doing this though, customers used to call projects Basecamps. They’d be like, “I have a bunch of Basecamps.” And in our head, that means you have a lot of Basecamp accounts and then you kind of pick up, oh, people call projects Basecamps. And we wouldn’t have known that otherwise. It didn’t come up a lot, but it came up enough. And so that was kind of a nice thing to bump into and just kind of recognize that. And for a while, I think we actually did that, maybe it was sometime in Basecamp 3. We were thinking about calling projects Basecamps. We may have even done it for a bit. I’m not even sure what we did there. But anyway, that was an insight that came up.",
+  "zh": "所以如果有一封有趣的电子邮件，或者有什么东西以有趣的方式被描述出来，我们的客户服务团队会把它记下来，并把它添加到这个叫作 Support: Voice of the Customer 的项目中，我相信这是项目的名字。偶尔去浏览一下，看看这些词汇以及人们描述事情的方式，是很有趣的。我会记得很久以前，在我们这样做之前，客户过去常常把项目称为 Basecamps。他们会说，“我有一堆 Basecamps。” 在我们的脑海里，这意味着你有很多 Basecamp 账户，然后你会慢慢意识到，哦，人们把项目叫作 Basecamps。否则我们不会知道那一点。虽然它没怎么出现，但出现得足够多。所以遇到那件事并意识到那一点，是件好事。有一段时间，我想我们确实那样做了，也许是在 Basecamp 3 的某个时候。我们在考虑把项目叫作 Basecamps。我们可能甚至那样做了一段时间。我甚至不确定我们在那里做了什么。但无论如何，那是出现的一个见解。"
+ },
+ {
+  "seg": 4,
+  "start": 184,
+  "end": 189,
+  "speaker": "Kimberly",
+  "en": "And David, on the tech side of the house, are you doing the same thing with customer feedback?",
+  "zh": "David，在技术部门这一侧，你对客户反馈也做同样的事情吗？"
+ },
+ {
+  "seg": 5,
+  "start": 189,
+  "end": 238,
+  "speaker": "David",
+  "en": "It’s similar in many ways because on the tech side, we also have customers in the sense that we release a lot of open source software that we’re responsible for. And there’s a bunch of people who use that and they have opinions about how that should change, how that should evolve. But the wonderful thing about the open source customer is they don’t pay us any money, so I don’t feel bad about telling them to fuck off when they’re totally wrong about where something should go. And this is actually a great outlet because you need kind of that shadow to be a presentable professional person when you’re dealing with actual customers like we have at 37signals where you do need to restrain your immediate response because we get a lot of requests where a gut reaction or knee-jerk reaction I should rather say is, “Well, that’s dumb. You should just do this other thing instead.”",
+  "zh": "在很多方面是相似的，因为在技术侧，我们也有客户，因为我们发布很多我们要负责的开源软件。有一群人使用它，他们对它应该如何改变、如何进化有看法。但是开源客户的美妙之处在于他们不给我们付一分钱，所以当他们完全搞错某件事的发展方向时，我不介意叫他们滚蛋。这实际上是一个很好的出口，因为你需要那种阴影才能成为一个可展示的专业人士，就像我们在 37signals 与真正的客户打交道那样，你确实需要克制你的直接反应，因为我们收到很多请求，我的直觉反应，或者我应该说膝反射反应是，“好吧，那很蠢。你应该只做这另一件事代替。”"
+ },
+ {
+  "seg": 6,
+  "start": 238,
+  "end": 291,
+  "speaker": "Unknown",
+  "en": "And as Jason says, the magic here is not or even rarely what they’re suggesting that they want in the product. It’s what they’re revealing that doesn’t work for them or isn’t obvious or it’s just a pain or doesn’t resonate with the language that they’re using. And it’s those anecdotes that actually contain the real magic. That’s where the real gold is. It’s not, could you add this extra checkpoint on this specific screen? Because as it so happens, most customers are not software designers. Their software users, they know what doesn’t feel right. They don’t necessarily know how to make it right and certainly not for a broad class of customers that encompasses everyone we have to service. So you really have to divorce this idea that the customer describes their problems and they are 100% right about those problems.",
+  "zh": "正如 Jason 所说，这里的魔力不在于甚至很少是他们建议他们想要在产品里的东西。而是他们揭示出来的东西，那些对他们不起作用的东西，或者不显而易见的东西，或者只是个痛点，或者与他们使用的语言不产生共鸣的东西。正是这些轶事包含了真正的魔力。那是真正的金矿所在。它不是，“你能在这个特定的屏幕上添加这个额外的检查点吗？”因为碰巧的是，大多数客户不是软件设计师。他们是软件用户，他们知道什么感觉不对。他们不一定知道如何把它做对，当然也不知道为我们必须服务的广大客户群做对。所以你真的必须把客户描述他们问题并且他们在这些问题上 100% 正确这个想法分开来看。"
+ },
+ {
+  "seg": 7,
+  "start": 291,
+  "end": 343,
+  "speaker": "Unknown",
+  "en": "Not the same thing as what you should do in what order you should do it, how you should do it. All of those things you almost have to make it go through the sieve. And then what’s left is just that pain point. It’s just like, this is a real issue. And what’s fascinating about these anecdotes is they often come in very different shapes. One person will suggest this specific feature. Another person will suggest another feature that doesn’t seem like it’s related at all, but it’s all coming from the same core hurt. And your job as a software designer is to realize this constellation of problems is actually the same thing. And there’s a grander simplification that we should make. Because what happens a lot when customers try to design your software for you is they want a patch. They want to just put some duct tape on something that’s sticking up, but you go like, no, actually the reason this thing is sticking up is because the rivets are not the right tolerance.",
+  "zh": "这与你应该做什么、按什么顺序做、你应该怎么做不是同一回事。所有这些事情你几乎都要让它过一遍筛子。然后剩下的就是那个痛点。就像，这是一个真正的问题。这些轶事令人着迷的是，它们经常以非常不同的形状出现。一个人会建议这个特定的功能。另一个人会建议另一个似乎完全不相关的功能，但它们都来自同一个核心痛点。作为软件设计师，你的工作是要意识到这个问题的星座实际上是同一件事。我们应该做一个更大的简化。因为当客户尝试为你设计软件时经常发生的情况是，他们想要一个补丁。他们只想在某样突起的东西上贴一些管道胶带，但你会想，不，实际上这东西突起来的原因是铆钉没有合适的公差。"
+ },
+ {
+  "seg": 8,
+  "start": 343,
+  "end": 390,
+  "speaker": "Unknown",
+  "en": "They’re not the right torque or the airflow over the thing is pulling it apart. So just slapping some duct tape on it, do you know what, might fix the issue temporarily, but it’s going to make the whole thing look awful and ultimately it doesn’t solve the underlying problem. So we have that issue on both sides of the fence. And I think that’s why having faith in your own ability to be a software designer, whether you’re designing a piece of open source infrastructure or you’re designing a consumer or professional product is just really important. And I think the greatest example of not having this or the greatest sort of cultural anecdote here was Microsoft. Apple’s charge against Microsoft back in the day was that this is what all they did was they just tabulated all the requests coming in from customers and then they ranked them.",
+  "zh": "它们的扭矩不对，或者流过它的气流把它拉开了。所以只是在上面啪地贴上管道胶带，你知道吗，可能会暂时解决问题，但这会让整个东西看起来很糟糕，而且最终它没有解决潜在的问题。我们在篱笆的两边都有这个问题。我认为这就是为什么对自己作为软件设计师的能力有信心，无论你是在设计一个开源基础设施，还是在设计一个消费者或专业产品，是非常重要的。我认为没有这个信心或者最好的文化轶事就是微软。当年苹果对微软的指控是，他们所做的就是统计所有来自客户的请求，然后对他们进行排名。"
+ },
+ {
+  "seg": 9,
+  "start": 390,
+  "end": 456,
+  "speaker": "Unknown",
+  "en": "Oh, this thing has 47 requests. So therefore that is the most important thing we should work on. And then another thing has 35 requests, therefore it’s number two. Totally wrong. And it’s not just wrong because software users are not great software designers. It’s also wrong because you will only hear about the kind of inconveniences and hurt that’s sticking out that a piece of duct tape could fix. You’re not going to hear about all the customers who didn’t sign up for your product because it didn’t have the right shape at all for them to be enticed to use it. You’re not going to hear about all the sort of structural problems that the thing has that just aren't obvious and can’t be articulated by a single customer in an easy way. And that’s your job to represent all of those interests. You take in all the verbal and written communication that you get from customers. And then you are also obliged to advocate for everyone who did not sign up, everyone who did not bother to write support when something is broken. And just as importantly, your ambition for what the products should be.",
+  "zh": "哦，这个东西有 47 个请求。所以那是我们应该做的最重要的事情。然后另一个东西有 35 个请求，所以它是第二重要的。完全错了。这不仅仅是错的，因为软件用户不是伟大的软件设计师。这也是错的，因为你只会听到那种能用管道胶带修复的突出来的不便和伤害。你不会听到所有那些因为产品形状不对而没有注册你产品的客户的声音。你不会听到所有结构问题的声音，那些问题并不明显，无法由单一客户以简单的方式表达出来。而这就是你的工作，去代表所有这些利益。你接收你从客户那里得到的所有口头和书面沟通。然后你也有义务为所有那些没有注册的人，为所有那些在东西坏了时没有写信给支持的人代言。同样重要的是，你对产品应该是什么样子的雄心。"
+ },
+ {
+  "seg": 10,
+  "start": 456,
+  "end": 469,
+  "speaker": "Kimberly",
+  "en": "This also makes me think about roadmaps and your philosophy about that. We have people writing in like, is this feature on your roadmap? Can you tell me when this feature is coming to the product? Kind of tell us your philosophy about that.",
+  "zh": "这也让我想到了路线图以及你们关于它的理念。有人写信来问，这个功能在你们的路线图上吗？你能告诉我们这个功能什么时候会发布到产品中吗？请告诉我们你们关于这方面的理念。"
+ },
+ {
+  "seg": 11,
+  "start": 469,
+  "end": 518,
+  "speaker": "Jason",
+  "en": "Yeah. I mean, we don’t really have one. We have roughly what we’re working on now. Now extends out a few weeks. It used to extend out six weeks. Now it’s a little bit less than that perhaps. But let’s just call it a month. We kind of know we’re roughly working on over the next month. And it’s not that we’re trying to hide the backlog or the roadmap. We just don’t have them. It’s not like there’s like a smoke-filled room in the back where all the secrets are. We don’t have them. We really literally figure it out as we go. And part of that is you launch something new, like the work we put out there into the world, a new feature or something, and that can create ripples in the product that then lead us to new things and new discoveries and new ideas. So if you just lay things out before they exist in the product and you lay out months worth of work before it exists in the product, you’re not leaving yourself open to opportunities that come up because you do one thing and then you do something else.",
+  "zh": "是的。我的意思是，我们真的没有一个。我们大致知道我们现在在做什么。现在延伸到几周后。它过去延伸到六周。现在可能比那少一点。但我们姑且称之为一个月吧。我们大致知道我们在下个月在做什么。并不是我们要试图隐藏积压工作或路线图。我们只是没有它们。并不是后面有一个烟雾缭绕的房间藏着所有的秘密。我们没有它们。我们真的只是一边走一边搞清楚。部分原因是你发布了一个新东西，比如我们发布到这个世界上的工作，一个新功能或什么，这会在产品中产生涟漪，然后导致我们发现新事物、新发现和新想法。所以如果你在产品中存在之前就把东西铺陈出来，在产品中存在之前就铺陈出几个月的工作，你就不会对出现的机会敞开大门，因为你做了一件事，然后你做了另一件事。"
+ },
+ {
+  "seg": 12,
+  "start": 518,
+  "end": 555,
+  "speaker": "Unknown",
+  "en": "And then you do this thing and someone’s like, oh, that’s a great idea, but what about this? You’re like, oh, that is an interesting idea. And then you start to follow that trail. So we just want to have optionality to follow whatever trail makes sense depending on where we are. The other thing is that it just doesn’t make any sense to think that far ahead. Things change. And also, why dilute your energy and distribute it out seven months? You can only work on so many things right now, just work on those things. And then just when that’s done, think about what you want to do next. It just feels like it’s the right way to do things. And for customers who feel like there’s uncertainty there, the best thing I would always point to is Basecamp’s around for 22 years. So if you’re afraid of uncertainty, we’ve been around for over two decades.",
+  "zh": "然后你做这件事，有人会说，哦，这是个好主意，但是这个呢？你会说，哦，那是个有趣的想法。然后你开始顺着那条线索走。所以我们只是想要有选择权去追随任何有意义的线索，取决于我们在哪里。另一件事是，想那么远 ahead 根本没有意义。事情在变化。而且，为什么要稀释你的精力并把它分散到七个月？你现在只能做这么多事情，就做这些事情。然后当那件事做完后，再想你接下来想做什么。这感觉就是做事的正确方式。对于觉得有不确定性的客户，我总是指出的最好的事情是，Basecamp 已经存在 22 年了。如果你害怕不确定性，我们已经存在超过二十年。"
+ },
+ {
+  "seg": 13,
+  "start": 555,
+  "end": 595,
+  "speaker": "Unknown",
+  "en": "Clearly this is a good path forward. The product’s very successful and we figure it out as we go and we always kind of have. And longevity is sort of there. If you’re worried that we don’t know what we’re doing next, we’ve been doing it well for quite a long time. I think that helps to make people feel a lot more comfortable actually versus like, well, this company is making predictions about what they’re going to do over the next six months. That’s not really that comforting. To me, I’d actually be like, that’s actually a bad idea. I feel like they’re not then agile and able to adjust when necessary. I feel like they’re actually quite rigid and not actually paying attention anymore. They paid attention a long time ago and now they’re not paying attention. That’s what a long roadmap would say to me.",
+  "zh": "显然这是一条前进的好路径。产品非常成功，我们一边走一边搞清楚，而且我们一直都有点这样。长寿就在那里。如果你担心我们不知道接下来要做什么，我们已经做得很好很长一段时间了。我认为这实际上确实有助于让人们感觉更舒服，而不是像，嗯，这家公司正在预测他们未来六个月要做什么。那并不是真的那么令人安慰。对我来说，我会觉得那实际上是个坏主意。我觉得他们那时就不敏捷了，必要时无法调整。我觉得他们实际上相当僵化，不再真正关注了。他们很久以前关注过，现在他们不再关注了。这就是长长的路线图会告诉我的信息。"
+ },
+ {
+  "seg": 14,
+  "start": 595,
+  "end": 646,
+  "speaker": "David",
+  "en": "I think the other problem is that roadmaps are breeding ground for illusions of agreement, that you think because there’s a bullet point on some roadmap that vaguely sounds like it’s addressing a desire you have for the product, that it’s actually going to fulfill that desire. Very often you’re going to get a feature that’s in the vicinity of this problem, but it doesn’t solve what you’re trying to achieve very well or it doesn’t feel right. It doesn’t have the right shape. It doesn’t have the right handle. And now you’ve bought a product on a premise of future features that you don’t know what shape they’re going to take in their final form. You don’t know whether you’re going to like it and you might very well feel a little bit suckered. You’re buying a product that does not exist yet on this premise of a very vague promise.",
+  "zh": "我认为另一个问题是，路线图是共识错觉的温床，你认为因为某条路线图上有一个要点，听起来含糊地解决了你对产品的渴望，它实际上就会满足那个渴望。经常你会发现一个功能在这个问题附近，但它不能很好地解决你想要达到的目标，或者它感觉不对。它没有正确的形状。它没有正确的把手。现在你买了一个基于未来功能前提的产品，你不知道它们最终形式会是什么样子。你不知道你会不会喜欢它，你可能会觉得有点被骗了。你在买一个还不存在的产品，基于一个非常模糊的承诺。"
+ },
+ {
+  "seg": 15,
+  "start": 646,
+  "end": 689,
+  "speaker": "Unknown",
+  "en": "Usually it’s like one line on that damn roadmap. In Q4, we will deal with whatever, upload permission, something. And then Q4 rolls around and you get this feature and you’re like, “Well, that’s not solving the problem.” And now there’s a bit of snookering there. So I think in general, the good way of buying products is to buy as they exist today. And then anything that comes after that is gravy. You should not be basing your purchase decisions on, “Well, this thing I kind of feel like I really need is coming in Q4.” No, that’s not the way to buy and it’s a way to get greatly disappointed. Now you feel locked in and now all your data’s there and resentment grows and blah, blah, blah.",
+  "zh": "通常就是在该死的路线图上的一行字。在第四季度，我们将处理不管什么，上传权限，某事。然后第四季度到了，你得到了这个功能，你会说，“好吧，那并没有解决问题。” 现在有点被骗的感觉。所以我认为总的来说，购买产品的好方法是按它们今天存在的样子购买。然后之后来的任何东西都是 gravy。你不应该基于“好吧，我觉得我真的需要的这个东西将在第四季度推出”来做购买决定。不，这不是购买的方式，这是一种让你非常失望的方式。现在你感觉被锁定了，现在你所有的数据都在那里，怨恨在增长，等等等等。"
+ },
+ {
+  "seg": 16,
+  "start": 689,
+  "end": 727,
+  "speaker": "Jason",
+  "en": "And I think most times when you buy things, you buy things for the way they are now. Like you buy a car for the way it is now. So it’s an odd thing that you’re like, “Well, what is this going to be in nine months? I’ll buy it for that.” It’s a strange way to approach purchasing anything. And to David’s point, I’ll give you a more concrete example, like the word calendar. We’re adding a calendar. Let’s just say someone’s like, “We’re adding a calendar to our product.” It’s like, “Oh, great. I like a calendar. Who doesn’t want a calendar?” And then a calendar comes out and it’s like, “Well, this calendar doesn’t sync with Outlook.That’s useless to me now.” This is a word you’ll hear a lot, which is useless. Or this calendar doesn’t have an agenda view, or I can’t look at a week view, or I don’t like six weeks at a time.",
+  "zh": "我认为大多数时候当你买东西时，你是按它们现在的样子买的。就像你按它现在的样子买车一样。所以这很奇怪，你会说，“好吧，这东西九个月后会是什​​么样子？我会为此而买它。” 这是一种奇怪的购买任何东西的方式。关于 David 的观点，我会给你一个更具体的例子，比如“日历”这个词。我们正在添加一个日历。假设有人说，“我们要在产品里添加一个日历。” 就会有人说，“哦，太好了。我喜欢日历。谁不想要一个日历呢？” 然后日历出来了，你会说，“好吧，这个日历不能和 Outlook 同步。那对我来说现在没用了。” 这是你会经常听到的一个词，就是“没用”。或者这个日历没有议程视图，或者我看不了周视图，或者我不喜欢一次看六周。"
+ },
+ {
+  "seg": 17,
+  "start": 727,
+  "end": 768,
+  "speaker": "Unknown",
+  "en": "I just want to see four weeks at a time. Or I can’t jump four years in advance. People will find all the things that it doesn’t do, but when they hear the word calendar, they’re imagining it’s going to do everything that they want a calendar to do. But naturally it can’t do everything they want a calendar to do because there’s trade-offs in everything. And this is the problem with like, oh, that’s coming or client access or guest access. There’s these broad terms which don’t mean anything other than the wrapping paper, but what’s on the inside? Who knows? And so you can’t be buying things for that. We’ll often get emails from customers saying like, “If you guys would just add this one thing, we’ll buy it.” This is a common thing. And I don’t blame them for saying that, but people do say this all the time.",
+  "zh": "我只想一次看四周。或者我无法提前跳转四年。人们会发现它做不到的所有事情，但当他们听到“日历”这个词时，他们想象它会做他们希望日历做的所有事情。但自然它不能做他们希望日历做的所有事情，因为凡事都有取舍。这就是“哦，那个要来了”或“客户端访问”或“访客访问”的问题。有这些宽泛的术语，除了包装纸之外没有任何意义，但里面是什么？谁知道？所以你不能为此买东西。我们经常收到客户的电子邮件说，“如果你们能添加这一样东西，我们就会买。” 这是很常见的事。我不怪他们这么说，但人们确实总是这么说。"
+ },
+ {
+  "seg": 18,
+  "start": 768,
+  "end": 813,
+  "speaker": "Unknown",
+  "en": "And of course the answer is they still wouldn’t buy it because they’d find one more thing or the thing we delivered wouldn’t be exactly the thing they wanted. And so for anyone listening who’s getting customers or getting prospects or saying, “If you just add this one thing, we’ll buy it.” Or “if you just lower the price 10%, we’ll buy it,” whatever. It’s often not the case. Because again, what they’re imagining is not actually what you’re going to be producing and developing and delivering. So yeah, this idea of illusion of agreement, which goes all the way back to our book Getting Real, where we talk about the illusion of agreement internally while building features. It’s even more of an illusion when you’re describing it to people on the outside who don’t share the same vocabulary, who don’t have the same mindset about what something might mean. So the illusion becomes bigger and more magical and stranger and more impossible to describe as you get outside your own ecosystem, basically.",
+  "zh": "当然答案是即使我们加了他们也不会买，因为他们会发现另外一件事，或者我们交付的东西不完全是他们想要的东西。所以对于任何正在听的人来说，如果你遇到客户或潜在 prospects 说，“如果你只添加这一样东西，我们就会买。” 或者“如果你只降价 10%，我们就会买”，不管是什么。通常不是这样。因为同样，他们想象的实际上并不是你要生产、开发和交付的东西。所以是的，这个共识错觉的想法，这可以追溯到我们的书《Getting Real》，我们在里面谈到了在构建功能时内部的共识错觉。当你在描述给那些不共享相同词汇、对某事可能意味着什么没有相同心态的外部人员时，这种错觉甚至更大。当你基本上走出自己的生态系统时，这种错觉变得更大、更神奇、更陌生，更无法描述。"
+ },
+ {
+  "seg": 19,
+  "start": 813,
+  "end": 824,
+  "speaker": "Kimberly",
+  "en": "Has there ever been a time that we’ve forward promised something like, oh yeah, we’re going to definitely add that. And has that worked out and we’re good with that? Or is that something you regret?",
+  "zh": "有没有我们曾经提前承诺过什么的时候，比如哦是的，我们要添加那个。那有没有成功，我们对此感觉良好？还是那是你们后悔的事情？"
+ },
+ {
+  "seg": 20,
+  "start": 824,
+  "end": 864,
+  "speaker": "Jason",
+  "en": "It always ends in regret always. And it’s not that the thing that we promised isn’t maybe a good thing that we wanted to deliver. It’s that the promise was set on a timeline way ahead of time. It’s usually by the end of the year. That’s the thing. It’s like March. Well, we’ll do that by the end of the year. Of course we will. It’s like nine months from now or whatever. That’s the thing I always regret. Not necessarily the feature, even though I regret that too, but the bigger thing is like, okay, well, here’s a deadline now that we set for ourselves and we’re going to push off as far as we can. And then all these other things are going to come up and now we have to put one of those aside because of this promise we made nine months ago. It’s always something I regret. And so basically we don’t do that at all anymore.",
+  "zh": "它总是以后悔告终，总是。并不是我们承诺的东西可能不是我们想要交付的好东西。而是这个承诺是在很久以前的时间线上设定的。通常是在年底前。事情就是这样。现在是三月。好吧，我们会在年底前做。当然我们会。那是九个月后或者不管什么。那是总是让我后悔的事情。不一定是那个功能，虽然我也后悔那个，但更大的事情是，好吧，现在这里有一个我们要为自己设定的截止日期，我们会尽可能把它往后推。然后所有这些其他事情会出现，现在我们必须把其中一件放在一边，因为我们在九个月前做出的承诺。这是我总是后悔的事情。所以我们基本上不再那样做了。"
+ },
+ {
+  "seg": 21,
+  "start": 864,
+  "end": 933,
+  "speaker": "David",
+  "en": "And this is where all these lessons come from, hard worn mistakes of us promising things or setting out we’re going to do these three things. And the reason it usually turns into regret is that you’re promising this in the future because you don’t want to work on it now. And there is actually the tell. If this was truly so important, you just work on it now. Why are you promising it by the end of the year? You should just be on it right now. But it’s a way to say yes in a weasely way. It’s a way to say yes in a, well, I don’t have to deal with the consequences of that yes today where I actually want to pursue a bunch of other things that I think is important for the evolution of the product. So I’ll push it off such that it’s a later yes, such that it’s Jason in three months who have to deal with that problem. Not Jason today who has to deal with that problem. And I think that’s virtually never a good idea. I can’t actually recall ever us having made a public promise like that where it panned out on the other side like, oh, I’m so glad we’ve promised that. Because you know what? Even if you deliver and even if you deliver what they want, you would’ve been better off just giving that surprise then.",
+  "zh": "这就是所有这些经验教训的来源，我们承诺事情或设定我们要做这三件事的痛苦错误。它通常变成后悔的原因是你承诺在未来做这件事，因为你不想现在做这件事。实际上这就是破绽。如果这真的这么重要，你现在就应该做。为什么要承诺在年底前做？你现在就应该做。但这是一种狡猾地说“是”的方式。这是一种说“是”的方式，即好吧，我今天不必处理那个“是”的后果，而我实际上想追求一堆我认为对产品进化很重要的其他事情。所以我会把它推后，使其成为以后的“是”，使得那是三个月后的 Jason 必须处理那个问题。不是今天的 Jason 必须处理那个问题。我认为这几乎从来都不是一个好主意。我实际上不记得我们曾经做过这样的公开承诺，结果是“哦，我很高兴我们承诺了那个”。因为你知道什么？即使你交付了，即使你交付了他们想要的东西，如果那时候给他们惊喜，你会做得更好。"
+ },
+ {
+  "seg": 22,
+  "start": 933,
+  "end": 934,
+  "speaker": "Jason",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 23,
+  "start": 934,
+  "end": 970,
+  "speaker": "David",
+  "en": "Was this anticipation for? What was all of this promissory note for? Well, it was sort of because maybe you’re afraid that if you don’t make that promise, they’re going to leave. That’s a really bad place to be in terms of making decisions about where your product should go. You should not be acting out of this fear. Oh my god, if we don’t do this one thing, then a bunch of people are going to leave. Okay, either that’s real, the threat is imminent and you address it imminently or it’s a figment of your imagination. It’s just sort of brewing in your unconsciousness and you should find a way to deal with that.",
+  "zh": "那么这个期待是为了什么？所有这些期票是为了什么？好吧，某种程度上可能是因为你担心如果你不做那个承诺，他们就会离开。这是一个非常糟糕的决策位置，关于你的产品应该走向何方。你不应该出于这种恐惧行事。天哪，如果我们不做这一件事，那么一堆人就会离开。好吧，要么这是真的，威胁迫在眉睫，你立即解决它；要么它是你想象的虚构物。它只是在你的潜意识中酝酿，你应该找到一种方法来处理它。"
+ },
+ {
+  "seg": 24,
+  "start": 970,
+  "end": 1033,
+  "speaker": "Jason",
+  "en": "Yeah. There are a lot of stories we tell ourselves about those things. We’re going to lose a customer, people are going to leave. Maybe. It’s totally possible. But yeah, if it’s really that important... I mean, the most public example of this I think is Apple with Apple Intelligence. They made these promises about, it was like next year or next iOS update or whatever. And they’ve been delayed basically multiple years now. And they felt enormous amount of pressure clearly to say we’re in this game and we need to be part of this. And they couldn’t deliver on what they said. And so now rather than saying like, we’re working on it, we’re working on it to make it better and better and better, whatever they would say. They’re like, we actually missed deadlines. Now we’re behind. They’ve made themselves behind actually by establishing deadlines they couldn’t hit publicly, very publicly. And I understand the pressure. I mean, you can see how this can happen. We are all humans in the end. And there’s a lot of other things going on there with stock price and the market’s expectations and all these things, but it rarely pans out. Not a good idea.",
+  "zh": "是的。我们告诉自己很多关于这些事情的故事。我们会失去一个客户，人们会离开。也许。完全有可能。但是是的，如果它真的那么重要……我是说，我认为最公开的例子是 Apple 的 Apple Intelligence。他们做出了这些承诺，说是明年或者下一个 iOS 更新或者不管什么。他们基本上已经延迟了好几年了。显然他们感到了巨大的压力要说我们在这个游戏中，我们需要成为其中的一部分。而他们无法按照他们说的交付。所以现在，不是说我们在做这个，我们在做这个让它越来越好等等不管他们会说什么。他们会说，实际上我们错过了截止日期。现在我们落后了。他们实际上让自己落后了，通过公开建立他们无法达到的截止日期，非常公开地。我理解这种压力。我的意思是你明白这是怎么发生的。我们终究都是人类。那里还有关于股价和市场预期的很多其他事情，但这很少有结果。不是个好主意。"
+ },
+ {
+  "seg": 25,
+  "start": 1033,
+  "end": 1090,
+  "speaker": "David",
+  "en": "And I think one of the reasons it often ends up in that situation is that the people in charge simply do not have the courage to say no, to stand by their convictions, because the reason you’re getting into this situation is something is misaligned. Where you want to take the product is not straight lining up with it. Either you’re working on something that you don’t yet have the expertise to deliver on, that was clearly the case with Apple Intelligence. They just did not have the team. They didn’t have the technology. They were not ready to launch. They need a lot more time. And I know we mythologize Steve Jobs all the time, but I think that’s a good thing. Especially now that he’s not around to disprove our mythologies around him. We can just take it as this higher ideal, this higher virtue that you imagine Steve just saying like, “This is shit.” He’s looking at some internal product type for Apple Intelligence and all he gets is Genmoji or whatever the fuck they called it.",
+  "zh": "我认为它经常导致这种情况的原因之一是，负责人根本没有勇气说不，坚持他们的信念，因为你陷入这种情况的原因是有些东西错位了。你想带产品去的地方与它没有直线对齐。要么你在做你还没有专业知识来交付的东西，对于 Apple Intelligence 显然就是这种情况。他们没有团队。他们没有技术。他们还没准备好发布。他们需要更多时间。我知道我们总是神话 Steve Jobs，但我认为那是件好事。特别是既然他不在了，无法反驳我们对他的神话。我们可以把它视为这个更高的理想，这种更高的美德，你想象 Steve 只是会说，“这东西是屎。” 他看着 Apple Intelligence 的某个内部产品类型，他得到的只是 Genmoji 或者不管他们叫它什么鬼东西。"
+ },
+ {
+  "seg": 26,
+  "start": 1090,
+  "end": 1169,
+  "speaker": "Unknown",
+  "en": "And he would just look at it like, “This is shit. We’re not going to launch this. We’re not going to talk about it. We’re going to get it right and then we’re going to release it.” And maybe we’re late. How many things were Apple late on? Virtually everything? That’s basically their modus operandi is like, “We’re going to be late, but then we’re going to be good.” And they broke that fundamental brand promise with Apple Intelligence and in my opinion, a bunch of other things too. But I think it’s just such a crystallizing example. Even Apple, trillion dollar company is weak and in some ways slightly pathetic when it comes to these questions when suddenly the stakes are high enough. So first of all, you’re excused if you’re also a little weak when even Tim Cook can sit at the top of that behemoth and go like, “Oh my God, I can’t just not say anything. We got to do something.” I mean, that’s actually the phrase, we got to do something. That is very often sort of that expression of fear. I don’t know what. Just something. We got to have something about AI. We got to do something with AI. How many times do you think that phrase have been uttered inside companies as they realize that there’s a huge technological revolution happening right now? We got to do something. How often has something ever turned into anything great? Never.",
+  "zh": "他只会看着它说，“这东西是屎。我们不会发布这个。我们不会谈论它。我们要把它做对，然后我们会发布它。” 也许我们会迟到。Apple 有多少东西是迟到的？几乎全部？这基本上就是他们的惯用手法，“我们会迟到，但然后我们会很好。” 而他们用 Apple Intelligence 打破了这个基本的品牌承诺，在我看来，还有一堆其他事情。但我认为这只是一个非常典型的例子。即使是 Apple，一家万亿美元的公司，在这些问题上也是软弱和某种程度的可悲，当突然赌注足够高的时候。所以首先，如果你也有点软弱，你是被原谅的，因为即使 Tim Cook 坐在那个巨头的顶端说，“天哪，我不能什么都不说。我们得做点什么。” 我是说，这实际上就是那句话，我们得做点什么。这通常是那种恐惧的表达。我不知道。就是点什么。我们得有关于 AI 的东西。我们得用 AI 做点什么。你想那句话在公司内部被说了多少次，当他们意识到现在正在发生巨大的技术革命？我们得做点什么。那“点什么”什么时候变成过什么伟大的东西？从来没有。"
+ },
+ {
+  "seg": 27,
+  "start": 1169,
+  "end": 1189,
+  "speaker": "Kimberly",
+  "en": "I actually was going to bring up AI because I was thinking this is probably, you know, in the last six months some of the feedback, especially David on the technical side that we’ve gotten of AI, AI, AI. And it really is having to, as the product owner, put boundaries of what you want in the product versus just doing what people are requesting.",
+  "zh": "我其实正想提起 AI，因为我在想，这可能是，你知道，在过去六个月里的一些反馈，特别是 David 在技术方面，我们收到了很多关于 AI、AI、AI 的反馈。作为产品负责人，确实必须划清界限，区分你想要在产品里放什么，而不是仅仅做人们要求的事情。"
+ },
+ {
+  "seg": 28,
+  "start": 1189,
+  "end": 1239,
+  "speaker": "David",
+  "en": "Yes, because AI is such a great something bucket. It’s the ultimate illusion of agreement. Can you do something with AI? What the fuck do you mean? Can you do something with computer? That makes about as much sense. It needs to be shaped. It needs to be validated. It needs to be good. Like anything else in any part of commerce, in any kind of product, in any kind of service, you don’t want to deliver something. No one wants to buy something. They want to buy good. They want to buy great actually. They don’t most of the time just want to buy good. They want to buy something great. And that very rarely ever comes out of something. Now, that doesn’t mean that you should just ignore the whole world and all the technology changes that are happening and you can just stick to whatever you’ve been doing for 20 years, as it is in our case.",
+  "zh": "是的，因为 AI 是一个很棒的“某物”桶。它是共识错觉的终极体现。你能用 AI 做点什么吗？你到底什么意思？你能用电脑做点什么吗？这差不多是一回事。它需要成型。它需要被验证。它需要是好的。就像商业、任何产品、任何服务的任何其他部分一样，你不想交付什么东西。没人想买什么东西。他们想买好的东西。他们实际上想买伟大的东西。他们大多数时候不想只买好的东西。他们想买伟大的东西。而那几乎从未来自“某物”。现在，这并不意味着你应该忽视整个世界和正在发生的所有技术变化，你可以坚持你过去 20 年一直在做的事情，在我们的情况下就是这样。"
+ },
+ {
+  "seg": 29,
+  "start": 1239,
+  "end": 1309,
+  "speaker": "Unknown",
+  "en": "You have to be responsive to things changing. But having these knee jerk reactions that are bred out of fear, that are bred out of delivering something just produces the kind of slop that consumers have also been rejecting as of late. Microsoft famously have had to yank out all the AI something that they jammed into MS Paint and they jammed into all sorts of parts of the product where it just didn’t fit and that something made it worse and it made it cumbersome and customers didn’t want it. So as with anything, it’s this balancing act of realizing there are new opportunities, evaluating them and then turning them into something that’s actually valuable. And I mean, we’ve talked about this on the show several times where we’ve tried a lot of things around AI and we’ve gone quite far down, oh, can it help us do this? Can it help us do that? And we’ve occasionally, well, often found like, oh yeah, there’s a glimmer. I can’t ship a glimmer. It’s got to have a final solid shape. Otherwise, I’m just shipping gas. That doesn’t work. We got to get it solidified and we got to get it good. And by the time it is good and it is solidified and we go like, hell yeah, it’ll ship.",
+  "zh": "你必须对变化做出反应。但是产生这些出于恐惧的膝反射反应，出于只是交付“某物”的反应，只会产生消费者最近也一直在拒绝的那种垃圾。微软不得不把他们塞进 MS Paint 的所有 AI 某物拔出来，他们把它塞进了产品的各个部分，它就是不合适，那个“某物”让它变得更糟，让它变得笨重，客户不想要它。所以像任何事情一样，这是意识到有机会的新事物，评估它们，然后将它们转化为真正有价值的东西的平衡艺术。我的意思是，我们在节目上已经谈过好几次了，我们在 AI 周围尝试了很多东西，我们走了很远，哦，它能帮我们做这个吗？它能帮我们做那个吗？而且我们偶尔，嗯，经常发现像，哦是的，有一线微光。我不能发布微光。它必须有最终的固体形状。否则，我只是在发布气体。那行不通。我们必须把它固化，我们必须让它变好。等到它好了，它固化了，我们会说，是的，它就会发布。"
+ },
+ {
+  "seg": 30,
+  "start": 1309,
+  "end": 1331,
+  "speaker": "Kimberly",
+  "en": "Okay, that is a good place to wrap it up. REWORK is a production of 37signals. You can find show notes and transcripts on our website at 37signals.com/podcast. Full video episodes are on YouTube. And if you have a question for Jason or David about a better way to work and run your business, leave us a voicemail, a video recording. You can do that at 37signals.com/podcastquestion or email us at rework@37signals.com.",
+  "zh": "好的，这是一个结束的好地方。REWORK 是 37signals 的一个作品。你可以在我们的网站 37signals.com/podcast 上找到节目笔记和逐字稿。完整的视频节目在 YouTube 上。如果你有一个关于更好的工作和经营企业方式的问题要问 Jason 或 David，请给我们留一个语音留言，一个视频录制。你可以在 37signals.com/podcastquestion 这样做，或者发邮件给我们 rework@37signals.com。"
+ },
+ {
+  "seg": 31,
+  "start": 1331,
+  "end": 1336.2,
+  "speaker": "Unknown",
+  "en": "David, I’m going to put on a pillow. I can’t ship a glimmer.",
+  "zh": "David，我要去枕枕头了。我没法发布微光。"
+ }
+]

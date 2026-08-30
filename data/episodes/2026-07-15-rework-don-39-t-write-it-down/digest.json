@@ -1,0 +1,190 @@
+{
+  "title_zh": "别记客户反馈：37signals 的产品决策逻辑",
+  "tldr": "37signals 联合创始人 Jason Fried 和 David Heinemeier Hansson 解释为什么不追踪客户反馈、不给路线图、不为\"加点 AI\"恐慌。",
+  "digest_md": "这一集是 37signals 的联合创始人 Jason Fried 和 David Heinemeier Hansson 聊他们怎么处理客户反馈——核心主张很反直觉：去听，但别记下来。他们做 Basecamp 这类产品，用户量很大，每天收到大量反馈。他们的做法是，不把这些反馈制度化、不列清单、不建追踪表。原因是，一旦你写下来，就会觉得自己有义务去处理它，容易被某个人的好故事打动而做出反应。真正重要的东西，会一遍又一遍地出现，到那时候自然显而易见，不需要靠清单来提醒 [00:40 Jason]。\n\n## 客户说的不是你要做的\n\n客户反馈的价值不在于他们建议你加什么功能，而在于他们暴露了什么痛点。大多数客户不是软件设计师，他们知道什么感觉不对，但不知道怎么改才对，更不知道怎么改才能服务好所有用户 [03:58 David]。David 打了个比方：客户经常是在要求你贴管道胶带——某个地方突起来了，他们想糊一下。但作为设计师，你的活儿是发现铆钉的公差不对，做一次更大的简化，而不是到处打补丁 [04:51 David]。\n\n更常见的情况是，不同客户提的看似不相关的功能需求，其实源自同一个核心痛点。你的工作是看出这些零散问题背后的同一件事 [04:51 David]。\n\n## 路线图是共识错觉的温床\n\n他们没有产品路线图，不是藏着不公开，是真的没有。只大概知道接下来一个月在做什么。原因有两层：一是做了一件事之后会产生新的发现和方向，如果提前把几个月的工作排死，就没法跟着线索走；二是没必要把精力稀释到七个月之后，现在能做多少就做多少 [07:49 Jason]。\n\nDavid 提了一个更狠的观点：路线图制造的是\"共识错觉\"。客户看到路线图上写了\"日历\"两个字，脑子里想的是自己理想中的日历——要能同步 Outlook、要有周视图、要能跳四年。等日历真的出来了，发现不是他们想的那个东西，就觉得\"没用\"。你用一个宽泛的词让人产生了具体期望，最后必然失望 [09:55 David]。买产品应该按它今天的样子买，之后来的都是额外的，不该基于还没做出来的东西做购买决策 [10:46 David]。\n\n## 提前承诺，每次都后悔\n\n他们试过提前承诺\"年底前做\"，结果每次都后悔。不是因为功能本身不好，而是你给自己设了一个截止日期，九个月后别的更重要的事冒出来了，你还得为当初的承诺让路 [13:44 Jason]。David 说得更直白：如果你真的觉得这件事重要，现在就做。把承诺推到未来，本质上是狡猾地说\"是\"——让三个月后的自己去承受后果，而不是今天 [14:24 David]。\n\n## \"我们得做点 AI\"是最典型的恐慌\n\n聊到最近的 AI 热潮，David 说\"AI\"就是终极的共识错觉。客户说\"你们能不能加点 AI\"，跟说\"你们能不能用电脑做点什么\"一样空泛。它需要被塑造成具体的东西、被验证、被做好 [19:49 David]。\n\n很多公司的反应是\"我们得做点什么\"，这是恐惧驱动的膝反射。微软把 AI 功能硬塞进 MS Paint，最后又不得不拔掉，因为不合适、让产品变笨重、客户不想要 [20:39 David]。他们自己在 AI 方面也试了很多方向，有时会看到一线微光，但 David 的原则是：我没法发布微光，它必须有最终成型的样子，否则我只是在发布气体 [20:39 David]。\n\n> 【背景】37signals 是 Basecamp 的开发商，Jason Fried 和 David Heinemeier Hansson 是其联合创始人，两人也是《REWORK》和《Getting Real》的作者。David 也是 Ruby on Rails 框架的创建者。Apple Intelligence 是苹果在 2024 年 WWDC 上宣布的 AI 功能集，发布后多次延期。Genmoji 是其中一项用 AI 生成自定义表情符号的功能。\n\n## 本集带走\n\n- **听反馈但不记下来**：一遍遍出现的痛点自然会浮出来，写下来反而会制造\"必须处理\"的义务感，容易被个别好故事带偏。\n- **从需求里提炼痛点，别照着功能做**：不同客户提的看似不相关的功能，可能源自同一个核心问题，你的活儿是做一次更大的简化，不是到处打补丁。\n- **不给路线图**：路线图上的宽泛词汇（\"日历\"\"访客访问\"）只会制造共识错觉——客户按自己的想象填充细节，交付时必然有落差。\n- **不提前承诺**：真重要就现在做；推到未来承诺，本质上是把包袱甩给未来的自己。\n- **抗拒\"我们得做点什么\"的恐惧驱动**：不管是 AI 还是别的热点，没成型、没做好的东西不要发布——不能发布微光，只能发布成型的东西。",
+  "quotes": [
+    {
+      "en": "Every individual customer has an important thing to say about their own scenario, their own situation, their own reality, their own perspective, and it’s all valuable for them. But we have to build a product for the customer base at large.",
+      "zh": "每个个体客户都有关于他们自己的场景、情况、现实和视角的重要事情要说，这对他们来说都有价值。但我们必须为广大的客户群构建产品。",
+      "timestamp": "01:06",
+      "speaker": "Jason"
+    },
+    {
+      "en": "I think when you begin to jot things down and make lists and record stuff, you’re like, well, now you feel like there’s an obligation to do something about it or do something with it.",
+      "zh": "我认为当你开始记下来、列清单、记录东西时，你会觉得，好吧，现在你觉得有义务对它做点什么或用它做点什么。",
+      "timestamp": "01:34",
+      "speaker": ""
+    },
+    {
+      "en": "The magic here is not or even rarely what they’re suggesting that they want in the product. It’s what they’re revealing that doesn’t work for them or isn’t obvious or it’s just a pain or doesn’t resonate with the language that they’re using.",
+      "zh": "这里的魔力不在于甚至很少是他们建议他们想要在产品里的东西。而是他们揭示出来的东西，那些对他们不起作用的、不显而易见的、只是个痛点的、或者与他们使用的语言不产生共鸣的东西。",
+      "timestamp": "03:59",
+      "speaker": ""
+    },
+    {
+      "en": "One person will suggest this specific feature. Another person will suggest another feature that doesn’t seem like it’s related at all, but it’s all coming from the same core hurt. And your job as a software designer is to realize this constellation of problems is actually the same thing.",
+      "zh": "一个人会建议这个特定的功能。另一个人会建议另一个似乎完全不相关的功能，但它们都来自同一个核心痛点。作为软件设计师，你的工作是要意识到这个问题的星座实际上是同一件事。",
+      "timestamp": "05:10",
+      "speaker": ""
+    },
+    {
+      "en": "What happens a lot when customers try to design your software for you is they want a patch. They want to just put some duct tape on something that’s sticking up, but you go like, no, actually the reason this thing is sticking up is because the rivets are not the right tolerance.",
+      "zh": "当客户尝试为你设计软件时经常发生的情况是，他们想要一个补丁。他们只想在某样突起的东西上贴一些管道胶带，但你会想，不，实际上这东西突起来的原因是铆钉没有合适的公差。",
+      "timestamp": "05:27",
+      "speaker": ""
+    },
+    {
+      "en": "You’re not going to hear about all the customers who didn’t sign up for your product because it didn’t have the right shape at all for them to be enticed to use it. You’re not going to hear about all the sort of structural problems that the thing has that just aren't obvious and can’t be articulated by a single customer in an easy way.",
+      "zh": "你不会听到所有那些因为产品形状不对而没有注册你产品的客户的声音。你不会听到所有结构问题的声音，那些问题并不明显，无法由单一客户以简单的方式表达出来。",
+      "timestamp": "06:53",
+      "speaker": ""
+    },
+    {
+      "en": "Roadmaps are breeding ground for illusions of agreement, that you think because there’s a bullet point on some roadmap that vaguely sounds like it’s addressing a desire you have for the product, that it’s actually going to fulfill that desire.",
+      "zh": "路线图是共识错觉的温床，你认为因为某条路线图上有一个要点，听起来含糊地解决了你对产品的渴望，它实际上就会满足那个渴望。",
+      "timestamp": "09:57",
+      "speaker": "David"
+    },
+    {
+      "en": "The good way of buying products is to buy as they exist today. And then anything that comes after that is gravy. You should not be basing your purchase decisions on, \"Well, this thing I kind of feel like I really need is coming in Q4.\"",
+      "zh": "购买产品的好方法是按它们今天存在的样子购买。然后之后来的任何东西都是额外的。你不应该基于\"好吧，我觉得我真的需要的这个东西将在第四季度推出\"来做购买决定。",
+      "timestamp": "11:03",
+      "speaker": ""
+    },
+    {
+      "en": "You’re promising this in the future because you don’t want to work on it now. And there is actually the tell. If this was truly so important, you just work on it now. Why are you promising it by the end of the year?",
+      "zh": "你承诺在未来做这件事，因为你不想现在做这件事。实际上这就是破绽。如果这真的这么重要，你现在就应该做。为什么要承诺在年底前做？",
+      "timestamp": "14:34",
+      "speaker": "David"
+    },
+    {
+      "en": "It’s a way to say yes in a weasely way. It’s a way to say yes in a, well, I don’t have to deal with the consequences of that yes today where I actually want to pursue a bunch of other things.",
+      "zh": "这是一种狡猾地说\"是\"的方式。这是一种说\"是\"的方式，即好吧，我今天不必处理那个\"是\"的后果，而我实际上想追求一堆其他事情。",
+      "timestamp": "14:48",
+      "speaker": "David"
+    },
+    {
+      "en": "They’ve made themselves behind actually by establishing deadlines they couldn’t hit publicly, very publicly.",
+      "zh": "他们实际上让自己落后了，通过公开建立他们无法达到的截止日期，非常公开地。",
+      "timestamp": "16:53",
+      "speaker": "Jason"
+    },
+    {
+      "en": "We’re going to be late, but then we’re going to be good. And they broke that fundamental brand promise with Apple Intelligence.",
+      "zh": "我们会迟到，但然后我们会很好。而他们用 Apple Intelligence 打破了这个基本的品牌承诺。",
+      "timestamp": "18:29",
+      "speaker": ""
+    },
+    {
+      "en": "AI is such a great something bucket. It’s the ultimate illusion of agreement. Can you do something with AI? What the fuck do you mean? Can you do something with computer? That makes about as much sense.",
+      "zh": "AI 是一个很棒的\"某物\"桶。它是共识错觉的终极体现。你能用 AI 做点什么吗？你到底什么意思？你能用电脑做点什么吗？这差不多是一回事。",
+      "timestamp": "19:49",
+      "speaker": "David"
+    },
+    {
+      "en": "There’s a glimmer. I can’t ship a glimmer. It’s got to have a final solid shape. Otherwise, I’m just shipping gas. That doesn’t work.",
+      "zh": "有一线微光。我没法发布微光。它必须有最终的固体形状。否则，我只是在发布气体。那行不通。",
+      "timestamp": "21:30",
+      "speaker": ""
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:40",
+      "speaker": "Jason",
+      "en": "Every individual customer has an important thing to say about their own scenario, their own situation, their own reality, their own perspective, and it’s all valuable for them. But we have to build a product for the customer base at large.",
+      "zh": "每个个体客户都有关于他们自己的场景、情况、现实和视角的重要事情要说，这对他们来说都有价值。但我们必须为广大的客户群构建产品。"
+    },
+    {
+      "timestamp": "01:28",
+      "speaker": "Unknown",
+      "en": "I think when you begin to jot things down and make lists and record stuff, you’re like, well, now you feel like there’s an obligation to do something about it or do something with it.",
+      "zh": "我认为当你开始记下来、列清单、记录东西时，你会觉得，好吧，现在你觉得有义务对它做点什么或用它做点什么。"
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "David",
+      "en": "The magic here is not or even rarely what they’re suggesting that they want in the product. It’s what they’re revealing that doesn’t work for them or isn’t obvious or it’s just a pain or doesn’t resonate with the language that they’re using.",
+      "zh": "这里的魔力不在于甚至很少是他们建议他们想要在产品里的东西。而是他们揭示出来的东西，那些对他们不起作用的、不显而易见的、只是个痛点的、或者与他们使用的语言不产生共鸣的东西。"
+    },
+    {
+      "timestamp": "04:51",
+      "speaker": "David",
+      "en": "One person will suggest this specific feature. Another person will suggest another feature that doesn’t seem like it’s related at all, but it’s all coming from the same core hurt. And your job as a software designer is to realize this constellation of problems is actually the same thing.",
+      "zh": "一个人会建议这个特定的功能。另一个人会建议另一个似乎完全不相关的功能，但它们都来自同一个核心痛点。作为软件设计师，你的工作是要意识到这个问题的星座实际上是同一件事。"
+    },
+    {
+      "timestamp": "04:51",
+      "speaker": "David",
+      "en": "What happens a lot when customers try to design your software for you is they want a patch. They want to just put some duct tape on something that’s sticking up, but you go like, no, actually the reason this thing is sticking up is because the rivets are not the right tolerance.",
+      "zh": "当客户尝试为你设计软件时经常发生的情况是，他们想要一个补丁。他们只想在某样突起的东西上贴一些管道胶带，但你会想，不，实际上这东西突起来的原因是铆钉没有合适的公差。"
+    },
+    {
+      "timestamp": "06:30",
+      "speaker": "Unknown",
+      "en": "You’re not going to hear about all the customers who didn’t sign up for your product because it didn’t have the right shape at all for them to be enticed to use it. You’re not going to hear about all the sort of structural problems that the thing has that just aren't obvious and can’t be articulated by a single customer in an easy way.",
+      "zh": "你不会听到所有那些因为产品形状不对而没有注册你产品的客户的声音。你不会听到所有结构问题的声音，那些问题并不明显，无法由单一客户以简单的方式表达出来。"
+    },
+    {
+      "timestamp": "09:55",
+      "speaker": "David",
+      "en": "Roadmaps are breeding ground for illusions of agreement, that you think because there’s a bullet point on some roadmap that vaguely sounds like it’s addressing a desire you have for the product, that it’s actually going to fulfill that desire.",
+      "zh": "路线图是共识错觉的温床，你认为因为某条路线图上有一个要点，听起来含糊地解决了你对产品的渴望，它实际上就会满足那个渴望。"
+    },
+    {
+      "timestamp": "10:46",
+      "speaker": "Unknown",
+      "en": "The good way of buying products is to buy as they exist today. And then anything that comes after that is gravy. You should not be basing your purchase decisions on, \"Well, this thing I kind of feel like I really need is coming in Q4.\"",
+      "zh": "购买产品的好方法是按它们今天存在的样子购买。然后之后来的任何东西都是额外的。你不应该基于\"好吧，我觉得我真的需要的这个东西将在第四季度推出\"来做购买决定。"
+    },
+    {
+      "timestamp": "12:48",
+      "speaker": "Unknown",
+      "en": "The illusion of agreement, which goes all the way back to our book Getting Real, where we talk about the illusion of agreement internally while building features. It’s even more of an illusion when you’re describing it to people on the outside who don’t share the same vocabulary.",
+      "zh": "这个共识错觉的想法，这可以追溯到我们的书《Getting Real》，我们在里面谈到了在构建功能时内部的共识错觉。当你在描述给那些不共享相同词汇的外部人员时，这种错觉甚至更大。"
+    },
+    {
+      "timestamp": "14:24",
+      "speaker": "David",
+      "en": "You’re promising this in the future because you don’t want to work on it now. And there is actually the tell. If this was truly so important, you just work on it now. Why are you promising it by the end of the year?",
+      "zh": "你承诺在未来做这件事，因为你不想现在做这件事。实际上这就是破绽。如果这真的这么重要，你现在就应该做。为什么要承诺在年底前做？"
+    },
+    {
+      "timestamp": "14:24",
+      "speaker": "David",
+      "en": "It’s a way to say yes in a weasely way. It’s a way to say yes in a, well, I don’t have to deal with the consequences of that yes today where I actually want to pursue a bunch of other things.",
+      "zh": "这是一种狡猾地说\"是\"的方式。这是一种说\"是\"的方式，即好吧，我今天不必处理那个\"是\"的后果，而我实际上想追求一堆其他事情。"
+    },
+    {
+      "timestamp": "16:10",
+      "speaker": "Jason",
+      "en": "They’ve made themselves behind actually by establishing deadlines they couldn’t hit publicly, very publicly.",
+      "zh": "他们实际上让自己落后了，通过公开建立他们无法达到的截止日期，非常公开地。"
+    },
+    {
+      "timestamp": "18:10",
+      "speaker": "Unknown",
+      "en": "We’re going to be late, but then we’re going to be good. And they broke that fundamental brand promise with Apple Intelligence.",
+      "zh": "我们会迟到，但然后我们会很好。而他们用 Apple Intelligence 打破了这个基本的品牌承诺。"
+    },
+    {
+      "timestamp": "18:10",
+      "speaker": "Unknown",
+      "en": "We got to do something. How many times do you think that phrase have been uttered inside companies as they realize that there’s a huge technological revolution happening right now? We got to do something. How often has something ever turned into anything great? Never.",
+      "zh": "我们得做点什么。你想那句话在公司内部被说了多少次，当他们意识到现在正在发生巨大的技术革命？我们得做点什么。那\"点什么\"什么时候变成过什么伟大的东西？从来没有。"
+    },
+    {
+      "timestamp": "19:49",
+      "speaker": "David",
+      "en": "AI is such a great something bucket. It’s the ultimate illusion of agreement. Can you do something with AI? What the fuck do you mean? Can you do something with computer? That makes about as much sense.",
+      "zh": "AI 是一个很棒的\"某物\"桶。它是共识错觉的终极体现。你能用 AI 做点什么吗？你到底什么意思？你能用电脑做点什么吗？这差不多是一回事。"
+    },
+    {
+      "timestamp": "20:39",
+      "speaker": "David",
+      "en": "There’s a glimmer. I can’t ship a glimmer. It’s got to have a final solid shape. Otherwise, I’m just shipping gas. That doesn’t work.",
+      "zh": "有一线微光。我没法发布微光。它必须有最终的固体形状。否则，我只是在发布气体。那行不通。"
+    }
+  ],
+  "voice_script": "你每天收到几十上百条客户反馈，你的第一反应是不是赶紧建个表格，一条条记下来？\n\n先别急，今天这期得给你泼盆冷水。Basecamp 的开发商 37signals，两个联合创始人 Jason 和 David 直接说了句特别反直觉的话：去听，但千万别记下来。\n\n他们做 Basecamp 这类产品，用户量巨大，每天反馈塞满信箱。但就是不列清单、不建追踪表。原因很实在，一旦你白纸黑字写下来，就会觉得自己有义务去处理它，特别容易被某个人讲的好故事带偏。真正重要的痛点，会一遍又一遍地冒出来，到那时候根本不需要靠清单来提醒。\n\n那客户到底在说什么？这里有个特别容易踩的坑。客户反馈的价值，根本不在于他们建议你加什么功能，而在于暴露了什么痛点。\n\n大多数客户不是软件设计师，知道哪里用着别扭，但不知道怎么改才能服务好所有人。David 打了个比方，特别绝：客户经常是在要求你贴管道胶带。某个地方突起来了，想糊一下。但作为设计师，你的活儿是发现铆钉的公差不对，做一次更大的简化，而不是到处打补丁。\n\n更常见的情况是，张三提一个功能，李四提一个看似完全不相关的功能，但剥开一看，其实源自同一个核心痛点。你的工作是看出这些零散问题背后的同一件事，而不是照着清单去打补丁。\n\n既然不记反馈，那总得有个产品路线图吧？\n\n不好意思，真的没有。不是藏着不公开，是压根不排。只大概知道接下来一个月在干嘛。做了一件事之后必然会产生新发现，提前把几个月的工作排死，就没法跟着线索走了。更狠的一点是，路线图制造的是一种共识错觉。客户看到路线图上写了日历两个字，脑子里想的全是自己理想中的日历，要能同步、要有周视图。等真做出来，发现不是想的那个东西，就觉得没用。你用一个宽泛的词让人产生了具体期望，最后必然失望。买产品就应该按它今天的样子买。\n\n那如果客户逼得紧，承诺年底前做行不行？\n\n试过，每次都后悔。不是因为功能本身不好，而是九个月后冒出来了更重要的事，还得为当初的承诺让路。如果真的觉得重要，现在就做。把承诺推到未来，说白了就是狡猾地说“是”，让三个月后的自己去承受后果，而不是今天。\n\n最近 AI 这么火，难道也这副态度？\n\n在 David 眼里，“加点 AI”就是终极的共识错觉。客户说“你们能不能加点 AI”，跟说“你们能不能用电脑做点什么”一样空泛。很多公司的反应是“我们得做点什么”，这是恐惧驱动的膝反射。微软把 AI 功能硬塞进 MS Paint，最后又不得不拔掉，因为不合适、让产品变笨重、客户不想要。在 AI 方面试了很多方向，有时确实会看到一线微光，但底线是：没法发布微光，必须有最终成型的样子，否则只是在发布气体。\n\n所以你看，听反馈但不记下来，真重要就现在做，没成型的东西绝对不发。这三条拿出来，足够治好大部分产品团队的焦虑了。"
+}

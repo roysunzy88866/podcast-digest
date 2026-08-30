@@ -1,0 +1,399 @@
+{
+  "episode_id": "2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a",
+  "podcast": "The a16z Show",
+  "date": "2026-07-06",
+  "tags": [
+    "毕业演讲",
+    "独立思考",
+    "创业投资",
+    "职业选择",
+    "信息革命"
+  ],
+  "categories": [
+    "创业与行业",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "ben-horowitz",
+      "type": "person",
+      "role": "host",
+      "name": "Ben Horowitz",
+      "file": "Ben Horowitz",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            56.833,
+            58.393
+          ],
+          "quote": "Ben Horowitz disagrees.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "air-bed-and-breakfast",
+      "type": "company",
+      "role": "company",
+      "name": "air bed and breakfast",
+      "file": "air bed and breakfast",
+      "primary": true,
+      "how_described": "本集说它最初是 Brian Chesky 在公寓里放充气床垫租给别人的'充气床早餐'想法，Brian 发现这个别人都觉得糟透了的点子，结合互联网把家庭旅馆个性化和酒店连锁标准化结合后，在纽约每晚租出房间数超过了希尔顿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            457.116,
+            470.188
+          ],
+          "quote": "A young man by the name of Brian Chesky came up to me, and he had this idea that he was going to have an air mattress in his apartment that he rented to people, and it was going to be like an air bed and breakfast.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集举'让手机电池续航更久'的例子时，说像 Google 这种拥有大量资源的公司会直接做这种所有人都觉得是好主意的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            438.949,
+            447.651
+          ],
+          "quote": "And because everybody thinks that's a good idea, companies like Google and Apple and Samsung with tons of resources will just build that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            880.465,
+            887.287
+          ],
+          "quote": "And so if we had an idea, like Brian Chesky had an idea and we wanted to find out about it, we couldn't Google it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": false,
+      "how_described": "本集举'让手机电池续航更久'的例子时，与 Google、Samsung 并列，作为拥有大量资源、会直接做所有人都认可的好主意的巨头",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            438.949,
+            447.651
+          ],
+          "quote": "And because everybody thinks that's a good idea, companies like Google and Apple and Samsung with tons of resources will just build that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1109.45,
+            1113.053
+          ],
+          "quote": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "samsung",
+      "type": "company",
+      "role": "company",
+      "name": "Samsung",
+      "file": "Samsung",
+      "primary": false,
+      "how_described": "本集举'让手机电池续航更久'的例子时，与 Google、Apple 并列，作为拥有大量资源、会直接做所有人都认可的好主意的巨头",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            438.949,
+            447.651
+          ],
+          "quote": "And because everybody thinks that's a good idea, companies like Google and Apple and Samsung with tons of resources will just build that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hilton",
+      "type": "company",
+      "role": "company",
+      "name": "Hilton",
+      "file": "Hilton",
+      "primary": false,
+      "how_described": "本集说 Brian Chesky 的 Airbnb 现在在纽约每晚租出的房间数已经超过了希尔顿酒店",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            549.415,
+            560.883
+          ],
+          "quote": "And that ended up being, now I think they rent more nights every night in New York than Hilton Hotel, just five years ago, and it was all based on him believing something that nobody else believed.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": false,
+      "how_described": "本集结尾播客结束语中提到这是 A16Z 播客的一期节目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            1098.779,
+            1101.622
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1113.594,
+            1119.3
+          ],
+          "quote": "Follow us on X at A16Z, and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1131.286,
+            1138.872
+          ],
+          "quote": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1139.192,
+            1146.237
+          ],
+          "quote": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1146.697,
+            1152.402
+          ],
+          "quote": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "turing-machine",
+      "type": "concept",
+      "role": "concept",
+      "name": "图灵机 (Turing machine)",
+      "file": "图灵机",
+      "primary": true,
+      "how_described": "本集说 Alan Turing 证明了如果你建造了一台图灵机，从理论上讲不可能建造出一台计算能力更强的机器，这个'可以做任何事情的机器'的想法在 1984 年直接把演讲者震撼了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            173.055,
+            182.826
+          ],
+          "quote": "That if you built a machine that was what he called a Turing machine, that it was theoretically impossible to build a machine that was computationally more powerful.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "thinking-for-yourself",
+      "type": "concept",
+      "role": "concept",
+      "name": "独立思考 (thinking for yourself)",
+      "file": "独立思考",
+      "primary": true,
+      "how_described": "本集说独立思考听起来简单琐碎但实际上极其困难且深刻，因为人类有天生的本能想要被喜欢，而被人喜欢最简单的方法就是说别人想听的话，导致与别人信念体系相悖的原创想法很难被提出来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.33,
+            6.738
+          ],
+          "quote": "Thinking for yourself sounds both simple and trivial, but in reality, it's extremely difficult and it's profound.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            340.212,
+            347.016
+          ],
+          "quote": "And thinking for yourself sounds both simple and trivial, but in reality, it's extremely difficult and it's profound.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "follow-your-passion",
+      "type": "concept",
+      "role": "concept",
+      "name": "追随你的激情 (follow your passion)",
+      "file": "追随你的激情",
+      "primary": true,
+      "how_described": "本集直接反对这条最常见的毕业建议，指出它有四个问题：激情很难排优先级、21 岁的热情不等于 40 岁的热情、你不一定擅长你的激情所在、它是一种以我为中心的世界观",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            51.432,
+            55.933
+          ],
+          "quote": "Follow your passion may be the most common piece of career advice graduates receive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            570.9,
+            579.683
+          ],
+          "quote": "Do not follow your passion and the world is not going to hell in a handbasket and the class of 2015 is not required to save it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            586.346,
+            587.706
+          ],
+          "quote": "So don't follow your passion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            667.383,
+            679.767
+          ],
+          "quote": "The second thing that's tricky if you're going forward in time with this follow your passion idea is that what you're passionate about at 21 is not necessarily what you're gonna be passionate about at 40.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "follow-your-contribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "追随你的贡献 (follow your contribution)",
+      "file": "追随你的贡献",
+      "primary": true,
+      "how_described": "本集提出用它替代'追随激情'：找到你擅长的事情，把它放进世界，贡献给他人，帮助世界变得更好，这才是值得追随的东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            729.036,
+            732.178
+          ],
+          "quote": "And so my recommendation would be follow your contribution.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "dewey-decimal-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "杜威十进制分类系统 (Dewey Decimal System)",
+      "file": "杜威十进制分类系统",
+      "primary": false,
+      "how_described": "本集把它讽刺地比作旧时代图书馆的'高科技'——一种很奇怪的、用数字甚至小数来分类的技术，其用户界面叫卡片目录，糟糕到需要数小时课堂训练才会用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            917.577,
+            923.419
+          ],
+          "quote": "And then it was based on this really weird tech that was invented a long time ago called the Dewey Decimal System.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "internet",
+      "type": "concept",
+      "role": "concept",
+      "name": "互联网 (internet)",
+      "file": "互联网",
+      "primary": true,
+      "how_described": "本集说他们上大学时没有互联网，查东西要用图书馆花几个小时；而现在每个有智能手机的人口袋里都装着国会图书馆，一个在孟加拉国长大的女孩现在拥有的图书馆比 20 年前哥大或哈佛的学生还好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            522.038,
+            531.344
+          ],
+          "quote": "And so he thought, wow, with the internet, we can make every one of those little chocolates in the box transparent and you can know what you're getting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            869.941,
+            876.343
+          ],
+          "quote": "Because when we were in college, and they may have told you this, and it may have scared you, so I apologize for scaring you, but we didn't have the internet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            878.804,
+            880.245
+          ],
+          "quote": "There was no internet.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
