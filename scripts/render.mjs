@@ -37,6 +37,17 @@ export function blockId(index) {
   return `q${index + 1}`;
 }
 
+/** 显示用说话人:识别不出真名的占位(Unknown / SPEAKER_nn / spk_nn)显示为「嘉宾」
+ *  (用户 2026-08-31:不知道嘉宾名时原来露出 "Unknown" 难看,统一成中性的「嘉宾」;多数被引用的实质
+ *  来自嘉宾,这个默认大体成立;偶有其实是主持人在说的段落会归到嘉宾,用户已知并接受)。
+ *  空串仍返回空串:正文裸 [mm:ss] 出处本就不带说话人,不该被塞成「· 嘉宾」。 */
+const PLACEHOLDER_SPEAKER_RE = /^(unknown|unknown[_\s-]?speaker|speaker[_\s-]?\d+|spk[_\s-]?\d+)$/i;
+export function displaySpeaker(s) {
+  const t = String(s ?? "").trim();
+  if (!t) return "";
+  return PLACEHOLDER_SPEAKER_RE.test(t) ? "嘉宾" : t;
+}
+
 // C10 · 8 大类受控词表(data/tag-taxonomy.json,2026-07-24 用户拍板):
 // frontmatter tags=大类(1-2,首位=主类 category);自由细标签退出 frontmatter,降级为页底关键词。
 let _taxonomy;
@@ -464,11 +475,12 @@ export function renderHook(digest, meta) {
   const speaker = q.speaker ? String(q.speaker).trim() : "";
   const t = meta?.no_timestamps ? "" : q.timestamp != null ? String(q.timestamp) : "";
   const back = q.en
-    ? `<button class="pd-ts" data-t="${attrEscape(t)}" data-who="${attrEscape(plainText(speaker))}" data-en="${attrEscape(String(q.en).trim())}" aria-label="回原文"></button>`
+    ? `<button class="pd-ts" data-t="${attrEscape(t)}" data-who="${attrEscape(displaySpeaker(plainText(speaker)))}" data-en="${attrEscape(String(q.en).trim())}" aria-label="回原文"></button>`
     : "";
+  const disp = displaySpeaker(speaker); // 占位→嘉宾;空→空。可见的「— 说话人」与按钮 data-who 同口径(GLM 003[2])
   const a =
-    speaker || back
-      ? `<div class="a">${speaker ? `— ${escHtml(speaker)}` : ""}${speaker && back ? " " : ""}${back}</div>`
+    disp || back
+      ? `<div class="a">${disp ? `— ${escHtml(disp)}` : ""}${disp && back ? " " : ""}${back}</div>`
       : "";
   return `<div class="pd-hook"><div class="z">${String(q.zh).trim()}</div>${a}</div>`;
 }
@@ -485,7 +497,7 @@ const attrEscape = (s) => String(s).replace(/[&<>"]/g, (c) => HTML_ESC[c]);
 // 出处里的说话人可能已被 linkPrimaryEntities 补成双链([03:53 [[Lenny|Lenny]]]),data-who 要读文不要语法
 const plainText = (s) => String(s).replace(/\[\[([^\]|]*)\|([^\]]*)\]\]/g, "$2").replace(/\[\[([^\]]*)\]\]/g, "$1").trim();
 const secOf = (t) => {
-  const m = /^(\d{1,2}):(\d{2})$/.exec(String(t)); // 分钟可超 59(64:09 是第 64 分钟)
+  const m = /^(\d{1,3}):(\d{2})$/.exec(String(t)); // 分钟可超 99(101:32 是第 101 分钟,长集;GLM 20260831-005[4])
   return m ? Number(m[1]) * 60 + Number(m[2]) : null;
 };
 
@@ -521,10 +533,16 @@ export function renderOrigRefs(md, transcript, meta) {
   // 不再带说话人(全成了裸 [mm:ss]),旧正则要求「时间+说话人」→ 一个都不匹配 → 正文 ↩ 全丢、
   // 退化成裸 [mm:ss] 文本(用户 2026-08-15 条6)。修:说话人段改可选(?)。
   // digest_md 是纯正文(金句署名在 quotes 字段、走独立渲染,不经这里),故裸 [mm:ss] 都是正文出处,可放心转。
-  return String(md).replace(/\[(\d{1,2}:\d{2})(?:\s+((?:[^[\]]|\[\[[^\]]*\]\])+?))?\]/g, (whole, t, who) => {
+  return String(md).replace(/\[(\d{1,3}:\d{2})(?:\s+((?:[^[\]]|\[\[[^\]]*\]\])+?))?\]/g, (whole, t, who) => {
     const en = originalAt(transcript, secOf(t));
-    if (!en) return whole;
-    return `<button class="pd-ts" data-t="${attrEscape(t)}" data-who="${attrEscape(plainText(who || ""))}" data-en="${attrEscape(en)}" aria-label="回原文"></button>`;
+    if (!en) {
+      // 字面兜底(该时间点无原话可回、转不成按钮):占位说话人也要 → 嘉宾,别把 [mm:ss Unknown] 原样露出
+      // (用户 2026-08-31;GLM 003 之外自查发现的第 3 处漏点)。真名/[[双链]] 保持原样,不破坏既有链接。
+      const plainWho = plainText(who || "").trim();
+      if (plainWho && PLACEHOLDER_SPEAKER_RE.test(plainWho)) return `[${t} 嘉宾]`;
+      return whole;
+    }
+    return `<button class="pd-ts" data-t="${attrEscape(t)}" data-who="${attrEscape(displaySpeaker(plainText(who || "")))}" data-en="${attrEscape(en)}" aria-label="回原文"></button>`;
   });
 }
 
@@ -904,7 +922,7 @@ export function renderEpisode(meta, digest, entities = null, related = null, tra
   let digestMd = String(digest.digest_md);
   // 无时间戳源:剥掉导读内联占位时间戳,说话人用中文括号(避开方括号与 [[双链]] 冲突,防三重括号畸形)
   // [00:55 X] → (X)(标准变更·用户授权)
-  if (meta.no_timestamps) digestMd = digestMd.replace(/\s*\[\d{1,2}:\d{2}\s+([^\]]+)\]/g, "（$1）");
+  if (meta.no_timestamps) digestMd = digestMd.replace(/\s*\[\d{1,3}:\d{2}\s+([^\]]+)\]/g, (_, sp) => `（${displaySpeaker(sp.trim()) || "嘉宾"}）`); // 长集正则 + 占位→嘉宾(GLM 005[3])
   // ⚠️ 顺序:先收 ↩ 再补双链。反过来的话,出处里的说话人会先被补成 [[双链]],↩ 一收就把那个链吃掉;
   //    而补链已被教会跳过 HTML 标签内部,所以英文原话里的词不会被误链(linkSpans 第二条禁区)。
   digestMd = renderOrigRefs(digestMd, transcript, meta);
@@ -922,7 +940,7 @@ export function renderEpisode(meta, digest, entities = null, related = null, tra
       // C13h 设计稿 .qr:中文句 = 斜体普惠体带 CSS 引号(.qz),署名行 = 11.5px 浅灰(.qm)。
       // span 只是样式挂点,金句文字逐字不动(硬闸「引语逐字命中转写稿」对的是 digest,不受影响)。
       (q, i) =>
-        `> <span class="qz">${String(q.zh).trim()}</span>  \n> *${String(q.en).trim()}*  \n> <span class="qm">—— ${String(q.speaker)} · ${meta.no_timestamps ? "来自原文" : `[${String(q.timestamp)}]`}</span> ^${blockId(i)}`,
+        `> <span class="qz">${String(q.zh).trim()}</span>  \n> *${String(q.en).trim()}*  \n> <span class="qm">—— ${displaySpeaker(q.speaker) || "嘉宾"} · ${meta.no_timestamps ? "来自原文" : `[${String(q.timestamp)}]`}</span> ^${blockId(i)}`,
     )
     .join("\n\n");
 
