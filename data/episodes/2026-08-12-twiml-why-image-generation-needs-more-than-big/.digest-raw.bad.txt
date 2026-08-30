@@ -1,89 +1,104 @@
 ===标题===
-文本生图的三道硬伤：面孔雷同、分辨率卡脖子、边界伪影
+文本生图的三道硬伤：可控性、高分辨率与边界伪影
 ===导语===
-Qualcomm 技术副总裁 Fatih 讲解他们如何用强化学习和分块扩散，让图像生成模型真正听懂指令、在手机上跑出高分辨率。
+Qualcomm 技术副总裁 Fatih 讲解文本生图仍存在的关键缺陷，以及他们用强化学习和噪声反转等手段逐一突破的思路。
 ===正文===
-这一集是 Qualcomm 的技术副总裁 Fatih 聊他们团队在今年 CVPR 上发表的图像生成论文——核心话题是：文本生图模型看起来已经很厉害了，但「看起来像」和「生成对了」之间还有巨大鸿沟 [00:31 Unknown]。最反直觉的一点是，当前模型生成多人场景时，所有人长得几乎一模一样，而且这不是图像质量问题，是模型压根没学会创造不同的面孔 [07:02 Unknown]。
+文本到图像生成已经到了"随便一问就能出一张看起来不错的图"的阶段，但「看起来不错」和「生成对了」是两回事。Qualcomm 技术副总裁 Fatih 指出，当前模型有三个没解决好的硬伤：可控性差、高分辨率生成受内存和速度制约、以及图像编辑时的边界伪影。他们在今年的 CVPR 上发了 20 多篇论文，其中四篇直接对着这三个问题打。
 
-## 面孔雷同：不换模型，换训练目标
+## 多人图里全是同一张脸：不是质量问题，是目标函数缺了东西
 
-DISCO 这篇论文解决的就是这个问题。团队没有重新训练一个大模型，而是在现有模型上用强化学习微调。关键做法是给训练加了几条明确的优化目标：同一张图里不同人必须长得不一样（图像内多样性）、同一个提示词跑多次不能每次都出同一批脸（运行间多样性）、生成的人数必须跟要求的一致 [08:28 Unknown]。用的强化学习方法叫 GRPO（组相对策略优化），数据需求量很小，而且配合课程学习——先从简单场景开始训练，再逐步加复杂度——让整个训练过程更稳定 [09:29 Unknown]。效果上，唯一人脸准确度检测分数从原来的很低水平拉到了 98-99，比没有多样性目标的基线模型高 10-20 个百分点 [20:03 Unknown]。
+让模型生成一张包含多个人的图，你会发现所有人的脸几乎一模一样——这不是图像质量不行，像素级别的细节其实很逼真，问题是模型压根没被训练过"要生成不同的人脸"这个目标。
 
-## 一个模型干所有事，可能本身就是错的
+DISCO 论文的思路很直接：把"人脸多样性"本身变成一个显式的优化目标，用强化学习来微调现有模型。具体来说，奖励函数同时鼓励三件事：同一张图里不同人的脸要有区别（图像内多样性）、同一个提示词多次生成不能总是同一批脸（运行间多样性）、以及人数要数对。用的方法是 GRPO（组相对策略优化，一种强化学习算法）。不需要大量新数据，也不需要改模型架构，只需在训练时把目标设对。为了训练稳定，他们还用了课程学习——从简单场景开始，逐步增加复杂度。结果上，唯一人脸准确检测分数从基础模型的很低水平拉到了 98-99，和基础模型之间有超过 10-20% 的差距。[07:02 Unknown] [08:01 Unknown] [09:29 Unknown] [20:03 Unknown]
 
-Fatih 提了一个更根本的问题：也许我们让单个模型同时干的活太多了 [14:03 Unknown]。生成一张多人场景，模型要理解提示词、决定人数、安排构图、推理人物关系、保留特定身份、最后渲染——全在一个流程里完成，这太多了。R2CAM 论文的思路是把「规划」和「渲染」拆开，像人类艺术家一样工作 [24:04 Unknown]。架构师（Architect）不生成像素，只输出结构——比如三张脸分别放在图像的哪个坐标位置；艺术家（Artist）拿到这些坐标后，再生成最终的写实图像 [24:17 Unknown]。两者都用 GRPO 训练，奖励函数里除了身份匹配，还加入构图准确性和姿态合理性 [25:27 Unknown]。推理时架构师先跑一次输出坐标，艺术家再根据坐标做一次推理，不需要来回调用 [28:32 Unknown]。这个思路的价值不只在保留身份——构图本身就因为有了专门的规划步骤而变得更自然 [32:53 Unknown]。Fatih 更大的观点是，整个社区应该重新思考：与其让一个模型做所有事，不如聪明地设计目标函数（像 DISCO），或者把任务拆成更可管理的部分（像 R2CAM）[33:06 Unknown]。
+## 一个模型干所有事可能太多了：把规划和渲染拆开
 
-## 高分辨率：不放大潜在空间，在原始大小上分块做扩散
+DISCO 解决了多样性问题，但 Fatih 提了一个更深层的质疑：也许我们要求单个模型同时做的事情太多了。生成一张多人场景图，模型要理解提示词、决定人数、确定位置构图、推理人物互动关系、保持身份、最后渲染——全在一个过程里完成，这太贪了。
 
-PixelRush 解决的是另一个硬伤：现有模型基本卡在 1K 分辨率，要跑到 400 万甚至 1600 万像素，内存和速度都撑不住 [04:11 Unknown]。现有方案的思路是把潜在空间（latent space，模型内部压缩表示图像的低维空间）按比例放大，但这会导致计算量暴增，生成一张图要几十秒到几分钟 [35:25 Unknown]。PixelRush 的做法是：先用现有模型生成一张 1K 基础图，用现成的上采样方法放大到目标分辨率（比如 4K×4K），然后把这张大图切成 16 张 1K 的图块，分别投射回原始大小的潜在空间 [44:22 Unknown]。在潜在空间里注入引导语义噪声，让扩散模型为每个图块补充高分辨率纹理细节，同时让边界处的噪声多一点、中心少一点，使相邻图块在潜在空间里就能自然过渡，避免拼合时出现接缝 [46:48 Unknown]。最后统一解码回像素空间。整个流程不需要改动原始模型，潜在空间维度保持不变，所以速度可以从约 10 分钟压缩到约 20 秒——快了大约 35 倍 [48:50 Unknown]。
+R2CAM 论文的做法是像人类艺术家一样，把"规划"和"渲染"拆开。Architect 模块不生成像素，只输出场景的结构规划——比如"三个人，位置分别在这个图的这里、这里、这里"，输出的是坐标点。Artist 模块拿到这些坐标后，再基于基础扩散模型生成最终的逼真图像。两个模块都用强化学习（同样是 GRPO）训练，奖励函数里加了构图准确性、人物朝向等新目标。推理时，Architect 先跑一次出坐标，Artist 再跑一次出图，不需要来回调用。[15:08 Unknown] [24:04 Unknown] [26:41 Unknown]
 
-## 图像编辑：用反向噪声消除边界伪影
+Fatih 还认为，更远的未来是智能体编排式的图像生成——根据提示词内容，自动路由到不同专长的模型或流程，而不是指望一个万能模型。[16:45 Unknown]
 
-InverFill 解决的是图像内绘制（inpainting，比如去掉照片里不需要的物体）的边界伪影问题。核心技巧是利用扩散模型的逆向过程：正常训练是把干净图像逐步加噪变成噪声图，逆向就是把一张真实图像快速映射成它对应的噪声版本——这不是随机噪声，而是跟这张图的内容绑定的特定噪声，60 毫秒就能完成 [52:19 Unknown]。做物体移除时，背景区域用这个倒置噪声初始化，要替换的遮罩区域用随机噪声初始化，然后跑正常去噪。因为背景的噪声本身就携带了原图的结构信息，去噪时背景能自然地影响前景区域的生成，实现无缝融合，边界伪影基本消失 [53:17 Unknown]。
+## 手机上跑 1600 万像素生图：在潜在空间里做分块细化
+
+当前大多数文本生图模型（包括云端服务）被卡在 1K 分辨率。想做到 4 兆甚至 16 兆像素，挑战不仅是速度——现有方案可能要 50 秒到几分钟——更是内存：高分辨率扩散需要在内存里保留整个潜在特征图，手机装不下。
+
+PixelRush 的做法是：先用任何现有模型生成一张 1K 基础图，然后用上采样把它放大到目标分辨率，接着把放大后的图切成多个 1K 大小的图像块，分别送进编码器映射到潜在空间（一种比像素空间维度低很多的压缩表示）。关键创新是在潜在空间里做两件事：注入引导语义噪声，让模型有"自由度"补充真实的纹理细节；以及跨块优化边界，避免拼回去时出现接缝。最后通过 VAE 解码器（把潜在表示转回像素图像的模块）输出最终图像。因为潜在空间维度和原始 1K 一样大，不需要扩大，所以速度快很多——从基线的大约 10 分钟加速到约 20 秒，大概 35 倍。[35:09 Unknown] [38:46 Unknown] [44:22 Unknown] [48:50 Unknown]
+
+## 去掉背景里的人，不留痕迹：用反转噪声替代随机噪声
+
+InverFill 解决的是图像修复（比如去掉照片背景里多余的物体）的边界伪影问题。现有方法在掩码区域填充随机噪声然后去噪，但随机噪声和周围背景之间不匹配，导致边界处出现可见的接缝或纹理不协调。
+
+核心技巧是利用扩散模型的正向过程（训练时往干净图像逐步加噪声的过程）。先把整张输入图像通过这个正向过程"反转"成噪声——这步只要 60 毫秒，而且得到的噪声是特定于这张图的，不是随机的。然后在掩码区域（比如要删掉的那只鸟的位置）替换成新的随机噪声。去噪时，掩码外的区域从"这张图专属的噪声"出发，能完美还原原始背景；掩码内的区域从随机噪声出发，能生成新内容；两者之间的过渡因为共享了同一次扩散过程的语义空间，自然就无缝了。[51:01 Unknown] [52:19 Unknown] [53:17 Unknown]
 
 ## 本集带走
-- **加明确的多样性目标比换模型更划算**：用强化学习在现有模型上微调，加入「图像内面孔不重复」「运行间面孔不重复」「人数准确」等显式目标，数据需求小、效果提升显著。
-- **把规划和渲染拆开**：让一个模块只管输出构图坐标，另一个模块只管根据坐标渲染，比让一个模型同时干所有事更可靠，构图也更自然。
-- **高分辨率的关键是不放大潜在空间**：先上采样再切回原始大小的图块，在潜在空间里分块做扩散补充纹理，边界处多加噪声让图块自然过渡，速度提升约 35 倍。
-- **图像编辑用倒置噪声初始化背景**：把真实图像映射成它对应的非随机噪声来初始化背景区域，让背景结构信息自然渗透到前景生成中，消除边界伪影。
-===金句===
-00:41 Unknown
-EN | But looking good and being correct are not the same thing.
-ZH | 但看起来好和正确并不是一回事。
 
+- **缺什么就优化什么**：模型生成的多人全长得一样，不是架构问题，是训练目标里没写"人脸要不一样"。用强化学习把多样性加进奖励函数，不需要改模型、不需要大数据。
+- **别让一个模型干所有事**：把场景规划（Architect 出坐标）和像素渲染（Artist 出图）拆开，每个模块任务更简单，效果更好。
+- **高分辨率生图的关键是在潜在空间做分块**：不要在像素空间拼图（会出接缝），把上采样后的图切块映射到低维潜在空间，在那里注入噪声补充纹理并跨块融合边界，内存占用和原始 1K 一样。
+- **图像修复的边界伪影用"反转噪声"解决**：把原始图像通过扩散正向过程转成特定噪声，掩码区域换随机噪声，去噪时背景和前景自然融合，不再有接缝。
+===金句===
 01:28 Unknown
 EN | Maybe we are also asking a single model to solve too many difficult problems at once.
-ZH | 也许我们也要求单个模型同时解决太多困难的问题。
+ZH | 也许我们也正在要求单个模型同时解决太多难题。
 
-07:12 Unknown
-EN | the model to generate faces and certain number of faces and it keeps generating same faces, identical, almost identical faces over and over again.
-ZH | 要模型生成面孔和一定数量的面孔，它却不断生成相同的面孔，相同的，几乎相同的面孔，一遍又一遍。
+07:02 Unknown
+EN | what was interesting that this is not an image quality problem.
+ZH | 有趣的是这不是图像质量问题。
+
+08:01 Unknown
+EN | A simple question, what if the identity or facial appearance or any diversity, you know, kind of itself becomes an optimization objective?
+ZH | 一个简单的问题，如果身份或面部外观或任何多样性，其本身成为一个优化目标会怎样？
+
+10:13 Unknown
+EN | Tuning the objective for all of the possible ways that you might want images to generate correctly seems not just difficult, but anti-bitter lesson.
+ZH | 为你可能希望图像正确生成的所有可能方式调整目标，似乎不仅困难，而且违背 bitter lesson。
 
 12:34 Unknown
-EN | One broader lesson from the DISCO paper is sometimes the model simply needs the right objective in training, like the things that I mentioned.
-ZH | 从 DISCO 论文中得出的一个更广泛的教训是，有时模型在训练中只需要正确的目标，就像我提到的事情那样。
+EN | One broader lesson from the DISCO paper is sometimes the model simply needs the right objective in training
+ZH | DISCO 论文的一个更广泛的教训是，有时模型在训练中只需要正确的目标
 
 12:46 Unknown
-EN | And also, it is not mainly an architecture limitation, but it is how you are providing these objective and training data to the algorithm.
-ZH | 而且，这主要不是架构的限制，而是你如何向算法提供这些目标和训练数据。
-
-14:06 Unknown
-EN | Too many difficult problems at once.
-ZH | 一次解决太多困难的问题。
+EN | it is not mainly an architecture limitation, but it is how you are providing these objective and training data to the algorithm.
+ZH | 这主要不是架构上的限制，而是你如何向算法提供这些目标和训练数据。
 
 15:08 Unknown
 EN | So maybe this is too much, and this would be explored in the other paper, R2CAM paper, instead of like asking one model to do everything, what if we separate it?
-ZH | 所以这可能太多了，这将在另一篇论文，R2CAM 论文中进行探索，而不是像要求一个模型做所有事情那样，如果我们把它分开会怎样？
+ZH | 所以这可能太多了，这将在另一篇论文 R2CAM 中探讨，而不是要求一个模型做所有事情，如果我们把它分开会怎样？
+
+16:45 Unknown
+EN | This sounds like more like an agentic orchestrated image generation framework.
+ZH | 这听起来更像是一个智能体编排的图像生成框架。
+
+18:00 Unknown
+EN | I think this is going to be the ultimate solution.
+ZH | 我认为这将成为终极解决方案。
 
 24:04 Unknown
 EN | Instead of asking model to do everything, we separate planning from rendering, similar to how a human artist would work.
-ZH | 与其要求模型做所有事情，我们将规划与渲染分离开来，类似于人类艺术家的运作方式。
+ZH | 我们不要求模型做所有事情，我们将规划与渲染分开，类似于人类艺术家的工作方式。
 
-33:06 Unknown
-EN | the message is bigger message is hey community everyone working on image generation text image generation models look what you can also accomplish if you really think smartly about the objective function like the disco paper and also simplify the task like r2cam paper not trying to do everything at once
-ZH | 更大的消息是嘿社区，每个工作在图像生成文本图像生成模型的人看看如果你们真的聪明地思考目标函数像 disco 论文并且也简化任务像 r2cam 论文不试图一次做所有事情
+35:09 Unknown
+EN | such models, existing solutions, may take anywhere from 50 seconds to minutes.
+ZH | 这样的模型，现有的解决方案，可能需要 50 秒到几分钟不等的时间。
 
 35:25 Unknown
-EN | such models, existing solutions, may take anywhere from 50 seconds to minutes.
-ZH | 这样的模型，现有的解决方案，可能需要从 50 秒到几分钟不等的时间。
+EN | But there is a memory challenge also because when the image resolution gets larger, we need to retain the steady fusion process, the latent features in the memory somewhere on the device.
+ZH | 但还有一个内存挑战，因为当图像分辨率变大时，我们需要在设备某处的内存中保留稳定融合过程，保留那些潜在特征。
 
-42:47 Unknown
-EN | That's why this method is still very efficient.
-ZH | 这就是为什么这种方法仍然非常有效。
-
-43:13 Unknown
-EN | We wanted to run everything much faster.
-ZH | 我们想让一切都运行得快得多。
+43:01 Unknown
+EN | The baseline actually does that, you know, kind of like they just make the latent space larger proportional to the target output resolution, which is not what we wanted to do.
+ZH | 基线实际上是这样做的，他们只是让潜在空间与目标输出分辨率成比例地变大，这不是我们想做的。
 
 48:50 Unknown
 EN | It's maybe 35 times faster from, let's say, 10 minutes to around 20 seconds type of.
-ZH | 它可能快 35 倍，比如说，从 10 分钟到 20 秒左右的那种。
+ZH | 可能是快 35 倍，从 10 分钟到大约 20 秒这种类型。
 
 52:19 Unknown
 EN | At 60 milliseconds, we can take a large image and then end up going through the reverse denoising and a noisy version of it.
-ZH | 在 60 毫秒内，我们可以取一张大图像，然后最终完成反向去噪并得到它的噪声版本。
+ZH | 在 60 毫秒内，我们可以获取一张大图像，然后最终完成反向去噪并获得它的嘈杂版本。
 
 53:43 Unknown
 EN | And it generates high quality images, but most importantly, there's no boundary artifacts anymore.
-ZH | 它生成高质量的图像，但最重要的是，不再有边界伪影。
+ZH | 它生成高质量的图像，但最重要的是，不再有边界伪影了。
 ===END===
