@@ -41,6 +41,7 @@ describe("订阅配置(规则是数据)", () => {
     const byName = Object.fromEntries(subs.map((s) => [s.name, s]));
     expect(byName["Axios"].filters.titleMustInclude).toContain("full interview");
     expect(byName["LangChain"].filters.minDurationSec).toBe(600);
+    expect(byName["Anthropic"].filters.minDurationSec).toBe(300); // 滤掉几十秒到两三分钟的功能短片(GLM 027[3])
     for (const s of subs) expect(String(s.filters.judgeHint ?? "").length).toBeGreaterThan(10);
   });
 });
