@@ -1,0 +1,3210 @@
+[
+ {
+  "seg": 0,
+  "start": 15.978,
+  "end": 16.258,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 1,
+  "start": 16.278,
+  "end": 18.88,
+  "speaker": "Unknown",
+  "en": "Hey, everyone.",
+  "zh": "嘿，大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 19.701,
+  "end": 20.141,
+  "speaker": "Unknown",
+  "en": "I'm Boris.",
+  "zh": "我是 Boris。"
+ },
+ {
+  "seg": 3,
+  "start": 20.221,
+  "end": 24.765,
+  "speaker": "Unknown",
+  "en": "I'm a member of technical staff here at Anthropic, and I created Quad Code.",
+  "zh": "我是 Anthropic 的一名技术成员，我创建了 Quad Code。"
+ },
+ {
+  "seg": 4,
+  "start": 25.525,
+  "end": 30.769,
+  "speaker": "Unknown",
+  "en": "And here to talk to you a little bit about some practical tips and tricks for using Quad Code.",
+  "zh": "这里来和你谈谈一些使用 Quad Code 的实用技巧和窍门。"
+ },
+ {
+  "seg": 5,
+  "start": 30.89,
+  "end": 31.91,
+  "speaker": "Unknown",
+  "en": "It's going to be very practical.",
+  "zh": "这将是非常实用的。"
+ },
+ {
+  "seg": 6,
+  "start": 31.93,
+  "end": 35.653,
+  "speaker": "Unknown",
+  "en": "I'm not going to go too much into the history or the theory or anything like this.",
+  "zh": "我不会过多地讲历史或理论或类似的东西。"
+ },
+ {
+  "seg": 7,
+  "start": 37.515,
+  "end": 40.277,
+  "speaker": "Unknown",
+  "en": "And yeah, before we start, actually, can we get a quick show of hands?",
+  "zh": "是的，在我们开始之前，实际上，我们可以快速举一下手吗？"
+ },
+ {
+  "seg": 8,
+  "start": 40.337,
+  "end": 41.618,
+  "speaker": "Unknown",
+  "en": "Who has used Quad Code before?",
+  "zh": "谁以前用过 Quad Code？"
+ },
+ {
+  "seg": 9,
+  "start": 43.875,
+  "end": 45.435,
+  "speaker": "Unknown",
+  "en": "Yeah, all right, that's what we like to see.",
+  "zh": "是的，好吧，这就是我们喜欢看到的。"
+ },
+ {
+  "seg": 10,
+  "start": 46.236,
+  "end": 53.558,
+  "speaker": "Unknown",
+  "en": "For everyone that didn't raise your hands, I know you're not supposed to do this while people are talking, but if you can open your laptop and type this.",
+  "zh": "对于所有没有举手的人，我知道你们不应该在人们说话时这样做，但如果你们可以打开笔记本电脑并输入这个。"
+ },
+ {
+  "seg": 11,
+  "start": 58.059,
+  "end": 61.5,
+  "speaker": "Unknown",
+  "en": "And this will help you install Claude Code, just so you can follow along for the rest of the talk.",
+  "zh": "这将帮助你安装 Claude Code，只是为了让你能跟上演讲的其余部分。"
+ },
+ {
+  "seg": 12,
+  "start": 67.261,
+  "end": 69.902,
+  "speaker": "Unknown",
+  "en": "All you need is Node.js if you have it, this should work.",
+  "zh": "你只需要 Node.js，如果你有它，这应该能行。"
+ },
+ {
+  "seg": 13,
+  "start": 76.382,
+  "end": 82.288,
+  "speaker": "Unknown",
+  "en": "Yeah, you don't have to follow along, but if you don't have it yet, this is your chance to install it so you can follow along.",
+  "zh": "是的，你不必一定要跟上，但如果你还没有它，这是你安装它的机会，这样你就可以跟上了。"
+ },
+ {
+  "seg": 14,
+  "start": 85.931,
+  "end": 86.751,
+  "speaker": "Unknown",
+  "en": "So what is Claude Code?",
+  "zh": "那么 Claude Code 是什么？"
+ },
+ {
+  "seg": 15,
+  "start": 87.292,
+  "end": 90.573,
+  "speaker": "Unknown",
+  "en": "Claude Code is a new kind of AI assistant.",
+  "zh": "Claude Code 是一种新型的 AI 助手。"
+ },
+ {
+  "seg": 16,
+  "start": 90.713,
+  "end": 94.134,
+  "speaker": "Unknown",
+  "en": "And there's been different generations of AI assistants for coding.",
+  "zh": "编程的 AI 助手已经有了不同的几代。"
+ },
+ {
+  "seg": 17,
+  "start": 94.815,
+  "end": 99.556,
+  "speaker": "Unknown",
+  "en": "Most of them have been about completing a line at a time, completing a few lines of code at a time.",
+  "zh": "它们大多数是一次完成一行，一次完成几行代码。"
+ },
+ {
+  "seg": 18,
+  "start": 100.437,
+  "end": 101.377,
+  "speaker": "Unknown",
+  "en": "Claude Code is not for that.",
+  "zh": "Claude Code 不是为了那个。"
+ },
+ {
+  "seg": 19,
+  "start": 101.897,
+  "end": 102.758,
+  "speaker": "Unknown",
+  "en": "It's fully agentic.",
+  "zh": "它是完全智能体的。"
+ },
+ {
+  "seg": 20,
+  "start": 103.038,
+  "end": 110.701,
+  "speaker": "Unknown",
+  "en": "So it's meant for building features, for writing entire functions, entire files, fixing entire bugs at the same time.",
+  "zh": "所以它是为了构建功能，编写整个函数，整个文件，同时修复整个错误而设计的。"
+ },
+ {
+  "seg": 21,
+  "start": 112.566,
+  "end": 115.648,
+  "speaker": "Unknown",
+  "en": "And what's kind of cool about Claude Code is it works with all of your tools.",
+  "zh": "Claude Code 比较酷的一点是它可以与你所有的工具一起工作。"
+ },
+ {
+  "seg": 22,
+  "start": 116.288,
+  "end": 118.03,
+  "speaker": "Unknown",
+  "en": "And you don't have to change out your workflow.",
+  "zh": "而且你不必改变你的工作流程。"
+ },
+ {
+  "seg": 23,
+  "start": 118.05,
+  "end": 119.891,
+  "speaker": "Unknown",
+  "en": "You don't have to swap everything to start using it.",
+  "zh": "你不必交换所有东西来开始使用它。"
+ },
+ {
+  "seg": 24,
+  "start": 119.951,
+  "end": 131.899,
+  "speaker": "Unknown",
+  "en": "So whatever IDE you use, if you use VS Code or if you use Xcode or if you use JetBrains IDEs, there's some people at Anthropic that you can't pry them from their cold, dead hands.",
+  "zh": "所以无论你使用什么 IDE，如果你使用 VS Code 或 Xcode 或 JetBrains IDEs，Anthropic 都有一些人你无法从他们冰冷、僵硬的手中把这些东西撬走。"
+ },
+ {
+  "seg": 25,
+  "start": 132.019,
+  "end": 136.542,
+  "speaker": "Unknown",
+  "en": "But they use Claude Code because Claude Code works with every single IDE, every terminal out there.",
+  "zh": "但他们使用 Claude Code，因为 Claude Code 能与每一个 IDE，每一个终端一起工作。"
+ },
+ {
+  "seg": 26,
+  "start": 137.612,
+  "end": 143.557,
+  "speaker": "Unknown",
+  "en": "It'll work locally over remote SSH, over Tmux, whatever environment you're in, you can run it.",
+  "zh": "它可以在本地通过远程 SSH 工作，通过 Tmux，无论你在什么环境中，你都可以运行它。"
+ },
+ {
+  "seg": 27,
+  "start": 146.819,
+  "end": 159.869,
+  "speaker": "Unknown",
+  "en": "It's general purpose and this is something where if you haven't used these kind of free form coding assistants in the past, it can be kind of hard to figure out how to get started because you open it up and you just see a prompt bar and you might wonder like, what do I do with this?",
+  "zh": "它是通用的，如果你过去没有用过这种自由形式的编码助手，这可能会有点难弄清楚如何开始，因为你打开它，你只看到一个提示栏，你可能会想，我用这个做什么？"
+ },
+ {
+  "seg": 28,
+  "start": 159.909,
+  "end": 160.55,
+  "speaker": "Unknown",
+  "en": "What do I type in?",
+  "zh": "我该输入什么？"
+ },
+ {
+  "seg": 29,
+  "start": 161.585,
+  "end": 163.608,
+  "speaker": "Unknown",
+  "en": "It's a power tool, so you can use it for a lot of things.",
+  "zh": "它是一个强力工具，所以你可以把它用于很多事情。"
+ },
+ {
+  "seg": 30,
+  "start": 164.409,
+  "end": 168.054,
+  "speaker": "Unknown",
+  "en": "But also, because it can do so much, we don't try to guide you towards a particular workflow.",
+  "zh": "但也因为，因为它可以做这么多，我们并不试图引导你走向特定的工作流程。"
+ },
+ {
+  "seg": 31,
+  "start": 168.495,
+  "end": 171.78,
+  "speaker": "Unknown",
+  "en": "Because really, you should be able to use it however you want as an engineer.",
+  "zh": "因为真的，作为一名工程师，你应该能够随心所欲地使用它。"
+ },
+ {
+  "seg": 32,
+  "start": 177.177,
+  "end": 182.502,
+  "speaker": "Unknown",
+  "en": "As you open up Claude Code for the first time, there's a few things that we recommend doing to get your environment set up.",
+  "zh": "当你第一次打开 Claude Code 时，我们建议做一些事情来设置你的环境。"
+ },
+ {
+  "seg": 33,
+  "start": 183.042,
+  "end": 184.323,
+  "speaker": "Unknown",
+  "en": "And these are pretty straightforward.",
+  "zh": "这些是非常直接的。"
+ },
+ {
+  "seg": 34,
+  "start": 184.343,
+  "end": 185.304,
+  "speaker": "Unknown",
+  "en": "So run terminal setup.",
+  "zh": "所以运行 terminal setup。"
+ },
+ {
+  "seg": 35,
+  "start": 185.324,
+  "end": 190.589,
+  "speaker": "Unknown",
+  "en": "This will give you shift enter for new lines so you don't have to do backslashes to enter new lines.",
+  "zh": "这会给你 shift enter 来换行，这样你不必使用反斜杠来换行。"
+ },
+ {
+  "seg": 36,
+  "start": 190.969,
+  "end": 192.35,
+  "speaker": "Unknown",
+  "en": "It makes it a little bit nicer to use.",
+  "zh": "它让使用稍微好一点。"
+ },
+ {
+  "seg": 37,
+  "start": 193.251,
+  "end": 197.135,
+  "speaker": "Unknown",
+  "en": "Do slash theme to set light mode or dark mode or daltonize themes.",
+  "zh": "执行 slash theme 来设置浅色模式或深色模式或 daltonize 主题。"
+ },
+ {
+  "seg": 38,
+  "start": 198.939,
+  "end": 200.681,
+  "speaker": "Unknown",
+  "en": "You can do slash install GitHub app.",
+  "zh": "你可以执行 slash install GitHub app。"
+ },
+ {
+  "seg": 39,
+  "start": 200.841,
+  "end": 208.626,
+  "speaker": "Unknown",
+  "en": "So today we announced a GitHub app where you can add mention Claude on any GitHub issue or pull request.",
+  "zh": "所以今天我们发布了一个 GitHub 应用，你可以在任何 GitHub issue 或 pull request 上添加 mention Claude。"
+ },
+ {
+  "seg": 40,
+  "start": 209.067,
+  "end": 211.388,
+  "speaker": "Unknown",
+  "en": "So to install it, just run this command in your terminal.",
+  "zh": "所以要安装它，只需在你的终端中运行这个命令。"
+ },
+ {
+  "seg": 41,
+  "start": 213.45,
+  "end": 217.373,
+  "speaker": "Unknown",
+  "en": "You can customize the set of allowed tools that you can use so you're not prompted for it every time.",
+  "zh": "你可以自定义你可以使用的一组允许的工具，这样你每次都不会被提示。"
+ },
+ {
+  "seg": 42,
+  "start": 217.393,
+  "end": 218.234,
+  "speaker": "Unknown",
+  "en": "This is pretty convenient.",
+  "zh": "这是相当方便的。"
+ },
+ {
+  "seg": 43,
+  "start": 218.654,
+  "end": 223.457,
+  "speaker": "Unknown",
+  "en": "For stuff that I'm prompted about a bunch, I'll definitely customize it in this way so I don't have to accept it every time.",
+  "zh": "对于我会收到一堆提示的东西，我肯定会以这种方式自定义它，这样我就不必每次都接受它。"
+ },
+ {
+  "seg": 44,
+  "start": 224.444,
+  "end": 228.868,
+  "speaker": "Unknown",
+  "en": "And something that I actually do is, for a lot of my prompts, I won't hand-type them into Claude Code.",
+  "zh": "我实际上做的一件事是，对于我的很多提示词，我不会手动把它们输入到 Claude Code 中。"
+ },
+ {
+  "seg": 45,
+  "start": 229.569,
+  "end": 235.274,
+  "speaker": "Unknown",
+  "en": "If you're on macOS, you can go into your system settings under Accessibility as Dictation, and you can enable it.",
+  "zh": "如果你在 macOS 上，你可以进入系统设置中的 Accessibility 下的 Dictation，然后你可以启用它。"
+ },
+ {
+  "seg": 46,
+  "start": 235.855,
+  "end": 240.479,
+  "speaker": "Unknown",
+  "en": "And so something I do is you just hit the dictation key twice, and you can just speak your prompt.",
+  "zh": "所以我做的一件事是你只需按两次听写键，然后你就可以说出你的提示词。"
+ },
+ {
+  "seg": 47,
+  "start": 241.901,
+  "end": 243.702,
+  "speaker": "Unknown",
+  "en": "And it helps a lot to have specific prompts.",
+  "zh": "拥有具体的提示词很有帮助。"
+ },
+ {
+  "seg": 48,
+  "start": 243.842,
+  "end": 244.823,
+  "speaker": "Unknown",
+  "en": "So this is actually pretty awesome.",
+  "zh": "所以这实际上非常棒。"
+ },
+ {
+  "seg": 49,
+  "start": 244.843,
+  "end": 249.708,
+  "speaker": "Unknown",
+  "en": "You can just talk to Claude Code like you would another engineer, and you don't have to type a lot of code.",
+  "zh": "你可以像和另一个工程师交谈一样和 Claude Code 交谈，你不必输入很多代码。"
+ },
+ {
+  "seg": 50,
+  "start": 254.35,
+  "end": 257.994,
+  "speaker": "Unknown",
+  "en": "So when you're starting out with Claude Code, it's so freeform and it can do everything.",
+  "zh": "所以当你开始使用 Claude Code 时，它是如此自由形式，它可以做任何事情。"
+ },
+ {
+  "seg": 51,
+  "start": 258.074,
+  "end": 259.175,
+  "speaker": "Unknown",
+  "en": "What do you start with?",
+  "zh": "你从什么开始？"
+ },
+ {
+  "seg": 52,
+  "start": 259.655,
+  "end": 262.879,
+  "speaker": "Unknown",
+  "en": "The thing I recommend above everything else is starting with code-based Q&A.",
+  "zh": "我最推荐的事情是从基于代码的 Q&A 开始。"
+ },
+ {
+  "seg": 53,
+  "start": 263.079,
+  "end": 265.722,
+  "speaker": "Unknown",
+  "en": "So just asking questions to your code base.",
+  "zh": "所以只是向你的代码库提问。"
+ },
+ {
+  "seg": 54,
+  "start": 266.817,
+  "end": 269.259,
+  "speaker": "Unknown",
+  "en": "This is something that we teach new hires at Anthropic.",
+  "zh": "这是我们在 Anthropic 教给新员工的事情。"
+ },
+ {
+  "seg": 55,
+  "start": 269.82,
+  "end": 272.842,
+  "speaker": "Unknown",
+  "en": "So on the first day in technical onboarding, you learn about Cloud Code.",
+  "zh": "所以在技术入职的第一天，你会了解 Cloud Code。"
+ },
+ {
+  "seg": 56,
+  "start": 272.862,
+  "end": 273.483,
+  "speaker": "Unknown",
+  "en": "You download it.",
+  "zh": "你下载它。"
+ },
+ {
+  "seg": 57,
+  "start": 273.663,
+  "end": 274.264,
+  "speaker": "Unknown",
+  "en": "You get it set up.",
+  "zh": "你把它设置好。"
+ },
+ {
+  "seg": 58,
+  "start": 274.884,
+  "end": 277.326,
+  "speaker": "Unknown",
+  "en": "And then you immediately start asking questions about the code base.",
+  "zh": "然后你立即开始询问关于代码库的问题。"
+ },
+ {
+  "seg": 59,
+  "start": 278.247,
+  "end": 282.591,
+  "speaker": "Unknown",
+  "en": "And in the past, when you were doing technical onboarding, it's something that taxes the team a lot.",
+  "zh": "而在过去，当你进行技术入职时，这对团队来说是一件很耗费精力的事情。"
+ },
+ {
+  "seg": 60,
+  "start": 282.611,
+  "end": 285.373,
+  "speaker": "Unknown",
+  "en": "You have to ask other engineers on the team questions.",
+  "zh": "你必须向团队中的其他工程师提问。"
+ },
+ {
+  "seg": 61,
+  "start": 286.034,
+  "end": 286.995,
+  "speaker": "Unknown",
+  "en": "You have to look around the code.",
+  "zh": "你必须四处查看代码。"
+ },
+ {
+  "seg": 62,
+  "start": 287.015,
+  "end": 287.635,
+  "speaker": "Unknown",
+  "en": "And this takes a while.",
+  "zh": "这需要一段时间。"
+ },
+ {
+  "seg": 63,
+  "start": 287.655,
+  "end": 289.037,
+  "speaker": "Unknown",
+  "en": "You have to figure out how to use the tools.",
+  "zh": "你必须弄清楚如何使用这些工具。"
+ },
+ {
+  "seg": 64,
+  "start": 289.517,
+  "end": 290.318,
+  "speaker": "Unknown",
+  "en": "This takes a long time.",
+  "zh": "这需要很长时间。"
+ },
+ {
+  "seg": 65,
+  "start": 291.921,
+  "end": 295.184,
+  "speaker": "Unknown",
+  "en": "With Claude Code, you can just ask Claude Code, and it'll explore the code base.",
+  "zh": "使用 Claude Code，你可以直接询问 Claude Code，它会探索代码库。"
+ },
+ {
+  "seg": 66,
+  "start": 295.204,
+  "end": 296.385,
+  "speaker": "Unknown",
+  "en": "It'll answer these kind of questions.",
+  "zh": "它会回答这类问题。"
+ },
+ {
+  "seg": 67,
+  "start": 296.826,
+  "end": 300.65,
+  "speaker": "Unknown",
+  "en": "And so at Anthropic, onboarding used to take about two or three weeks for technical hires.",
+  "zh": "所以在 Anthropic，技术员工的入职过去通常需要两到三周。"
+ },
+ {
+  "seg": 68,
+  "start": 300.75,
+  "end": 301.791,
+  "speaker": "Unknown",
+  "en": "It's now about two or three days.",
+  "zh": "现在大约只需要两到三天。"
+ },
+ {
+  "seg": 69,
+  "start": 305.514,
+  "end": 308.878,
+  "speaker": "Unknown",
+  "en": "What's also kind of cool about Q&A is we don't do any sort of indexing.",
+  "zh": "关于 Q&A 还有一点很酷的是，我们不做任何类型的索引。"
+ },
+ {
+  "seg": 70,
+  "start": 309.278,
+  "end": 311.14,
+  "speaker": "Unknown",
+  "en": "So there's no remote database with your code.",
+  "zh": "所以没有包含你代码的远程数据库。"
+ },
+ {
+  "seg": 71,
+  "start": 311.16,
+  "end": 312.381,
+  "speaker": "Unknown",
+  "en": "We don't upload it anywhere.",
+  "zh": "我们不会把它上传到任何地方。"
+ },
+ {
+  "seg": 72,
+  "start": 312.421,
+  "end": 313.402,
+  "speaker": "Unknown",
+  "en": "Your code stays local.",
+  "zh": "你的代码保持在本地。"
+ },
+ {
+  "seg": 73,
+  "start": 313.863,
+  "end": 315.905,
+  "speaker": "Unknown",
+  "en": "We do not train generative models on the code.",
+  "zh": "我们不会在代码上训练生成模型。"
+ },
+ {
+  "seg": 74,
+  "start": 317.04,
+  "end": 317.74,
+  "speaker": "Unknown",
+  "en": "So it's there.",
+  "zh": "所以它就在那里。"
+ },
+ {
+  "seg": 75,
+  "start": 317.921,
+  "end": 318.481,
+  "speaker": "Unknown",
+  "en": "You control it.",
+  "zh": "你控制它。"
+ },
+ {
+  "seg": 76,
+  "start": 318.521,
+  "end": 319.982,
+  "speaker": "Unknown",
+  "en": "There's no indices or anything like this.",
+  "zh": "没有任何索引或类似的东西。"
+ },
+ {
+  "seg": 77,
+  "start": 320.882,
+  "end": 322.884,
+  "speaker": "Unknown",
+  "en": "And what that means is also there's no setup.",
+  "zh": "这也意味着没有任何设置。"
+ },
+ {
+  "seg": 78,
+  "start": 323.184,
+  "end": 324.184,
+  "speaker": "Unknown",
+  "en": "So you start Claude.",
+  "zh": "所以你启动 Claude。"
+ },
+ {
+  "seg": 79,
+  "start": 324.224,
+  "end": 324.725,
+  "speaker": "Unknown",
+  "en": "You download it.",
+  "zh": "你下载它。"
+ },
+ {
+  "seg": 80,
+  "start": 324.785,
+  "end": 325.245,
+  "speaker": "Unknown",
+  "en": "You start it.",
+  "zh": "你启动它。"
+ },
+ {
+  "seg": 81,
+  "start": 325.285,
+  "end": 325.966,
+  "speaker": "Unknown",
+  "en": "There's no indexing.",
+  "zh": "没有索引。"
+ },
+ {
+  "seg": 82,
+  "start": 325.986,
+  "end": 326.546,
+  "speaker": "Unknown",
+  "en": "You don't have to wait.",
+  "zh": "你不必等待。"
+ },
+ {
+  "seg": 83,
+  "start": 326.566,
+  "end": 327.527,
+  "speaker": "Unknown",
+  "en": "You can just use it right away.",
+  "zh": "你可以立即使用它。"
+ },
+ {
+  "seg": 84,
+  "start": 330.588,
+  "end": 331.509,
+  "speaker": "Unknown",
+  "en": "This is a technical talk.",
+  "zh": "这是一个技术讲座。"
+ },
+ {
+  "seg": 85,
+  "start": 331.689,
+  "end": 338.733,
+  "speaker": "Unknown",
+  "en": "So I'm going to show some very specific prompts and very specific code samples that you can use and hopefully improve and up-level your Claude code experience.",
+  "zh": "所以我将展示一些非常具体的提示词和非常具体的代码示例，你可以使用它们，希望能改进和提升你的 Claude 代码体验。"
+ },
+ {
+  "seg": 86,
+  "start": 339.906,
+  "end": 344.631,
+  "speaker": "Unknown",
+  "en": "So some kind of questions that you can ask is, you know, like, how is this particular piece of code used?",
+  "zh": "所以你可以问的一类问题是，你知道，比如，这段特定的代码是如何使用的？"
+ },
+ {
+  "seg": 87,
+  "start": 344.771,
+  "end": 346.272,
+  "speaker": "Unknown",
+  "en": "Or how do I instantiate this thing?",
+  "zh": "或者我如何实例化这个东西？"
+ },
+ {
+  "seg": 88,
+  "start": 346.292,
+  "end": 348.875,
+  "speaker": "Unknown",
+  "en": "And Claude Code, it won't just do, like, a text search and try to answer this.",
+  "zh": "而 Claude Code，它不会只是做一个文本搜索来尝试回答这个问题。"
+ },
+ {
+  "seg": 89,
+  "start": 349.515,
+  "end": 354.12,
+  "speaker": "Unknown",
+  "en": "It'll often go a level deeper, and it'll try to find examples of how is this class instantiated?",
+  "zh": "它通常会深入一层，并试图找到这个类是如何被实例化的例子？"
+ },
+ {
+  "seg": 90,
+  "start": 354.18,
+  "end": 354.9,
+  "speaker": "Unknown",
+  "en": "How is it used?",
+  "zh": "它是如何使用的？"
+ },
+ {
+  "seg": 91,
+  "start": 355.861,
+  "end": 361.527,
+  "speaker": "Unknown",
+  "en": "And it'll give you a much deeper answer, so something that you would get out of a wiki or documentation instead of just, like, Command-F.",
+  "zh": "它会给你一个更深层次的答案，也就是你从 wiki 或文档中得到的那些东西，而不仅仅是像 Command-F 那样。"
+ },
+ {
+  "seg": 92,
+  "start": 363.902,
+  "end": 366.603,
+  "speaker": "Unknown",
+  "en": "Something that I do a lot also is ask it about Git history.",
+  "zh": "我经常做的另一件事是询问它关于 Git 历史。"
+ },
+ {
+  "seg": 93,
+  "start": 367.323,
+  "end": 370.924,
+  "speaker": "Unknown",
+  "en": "So for example, why does this function have 15 arguments?",
+  "zh": "例如，为什么这个函数有 15 个参数？"
+ },
+ {
+  "seg": 94,
+  "start": 370.984,
+  "end": 372.725,
+  "speaker": "Unknown",
+  "en": "And why are the arguments named this weird way?",
+  "zh": "为什么这些参数以这种奇怪的方式命名？"
+ },
+ {
+  "seg": 95,
+  "start": 372.745,
+  "end": 377.667,
+  "speaker": "Unknown",
+  "en": "And this is something I bet in all of our code bases you have some function like this or some class like this.",
+  "zh": "我敢打赌，在我们所有的代码库中，你都有一些这样的函数或这样的类。"
+ },
+ {
+  "seg": 96,
+  "start": 379.218,
+  "end": 387.661,
+  "speaker": "Unknown",
+  "en": "And ClaudeCode can look through Git history, and it'll look to figure out how did these arguments get introduced, and who introduced them, and what was the situation, what are the issues that those commits linked to.",
+  "zh": "ClaudeCode 可以查看 Git 历史，它会查看这些参数是如何引入的，谁引入了它们，当时的情况是什么，以及那些提交链接到的问题是什么。"
+ },
+ {
+  "seg": 97,
+  "start": 388.161,
+  "end": 389.662,
+  "speaker": "Unknown",
+  "en": "And it'll look through all this and summarize it.",
+  "zh": "它会查看所有这些并总结它。"
+ },
+ {
+  "seg": 98,
+  "start": 390.042,
+  "end": 392.643,
+  "speaker": "Unknown",
+  "en": "And you don't have to tell it that in all this detail.",
+  "zh": "你不必如此详细地告诉它这些。"
+ },
+ {
+  "seg": 99,
+  "start": 393.263,
+  "end": 393.923,
+  "speaker": "Unknown",
+  "en": "You just ask it.",
+  "zh": "你只需要询问它。"
+ },
+ {
+  "seg": 100,
+  "start": 394.423,
+  "end": 396.444,
+  "speaker": "Unknown",
+  "en": "So just say, look through Git history, and it'll know to do this.",
+  "zh": "所以只要说，查看 Git 历史，它就会知道要这样做。"
+ },
+ {
+  "seg": 101,
+  "start": 398.165,
+  "end": 400.565,
+  "speaker": "Unknown",
+  "en": "The reason it knows it, by the way, is not because we prompted it to.",
+  "zh": "顺便说一句，它知道这个的原因并不是因为我们提示了它。"
+ },
+ {
+  "seg": 102,
+  "start": 400.585,
+  "end": 403.046,
+  "speaker": "Unknown",
+  "en": "There's nothing in the system prompt about looking through Git history.",
+  "zh": "系统提示词里没有任何关于查看 Git 历史的内容。"
+ },
+ {
+  "seg": 103,
+  "start": 403.666,
+  "end": 405.007,
+  "speaker": "Unknown",
+  "en": "It knows it because the model is awesome.",
+  "zh": "它知道这个是因为这个模型很棒。"
+ },
+ {
+  "seg": 104,
+  "start": 405.667,
+  "end": 407.668,
+  "speaker": "Unknown",
+  "en": "And if you tell it to use Git, it'll know how to use Git.",
+  "zh": "而且如果你告诉它使用 Git，它就会知道如何使用 Git。"
+ },
+ {
+  "seg": 105,
+  "start": 408.635,
+  "end": 412.598,
+  "speaker": "Unknown",
+  "en": "So we're lucky to be building on such a good model.",
+  "zh": "所以我们很幸运能建立在这么好的模型上。"
+ },
+ {
+  "seg": 106,
+  "start": 412.618,
+  "end": 415.301,
+  "speaker": "Unknown",
+  "en": "I often ask about GitHub issues.",
+  "zh": "我经常询问关于 GitHub issues 的问题。"
+ },
+ {
+  "seg": 107,
+  "start": 415.461,
+  "end": 421.085,
+  "speaker": "Unknown",
+  "en": "So I can use WebFetch, and I can fetch issues and look up context on issues too, and this is pretty awesome.",
+  "zh": "所以我可以使用 WebFetch，我可以抓取 issues 并查找关于 issues 的上下文，这非常棒。"
+ },
+ {
+  "seg": 108,
+  "start": 423.167,
+  "end": 428.672,
+  "speaker": "Unknown",
+  "en": "And this is something that I do every single Monday in our weekly standup is I ask, what did I ship this week?",
+  "zh": "这也是我每个周一在每周站会上都会做的事情，我会问，我这周交付了什么？"
+ },
+ {
+  "seg": 109,
+  "start": 428.752,
+  "end": 433.956,
+  "speaker": "Unknown",
+  "en": "And Claude Code looks at the log, it knows my username, and it'll just give me a nice readout of everything I shipped.",
+  "zh": "Claude Code 会查看日志，它知道我的用户名，并且会直接给我一份很好的关于我交付的所有内容的报告。"
+ },
+ {
+  "seg": 110,
+  "start": 434.397,
+  "end": 435.978,
+  "speaker": "Unknown",
+  "en": "And I'll just copy and paste that into a doc somewhere.",
+  "zh": "我只需要把它复制粘贴到某个文档里。"
+ },
+ {
+  "seg": 111,
+  "start": 440.846,
+  "end": 442.047,
+  "speaker": "Unknown",
+  "en": "So yeah, that's tip number one.",
+  "zh": "是的，这就是第一条建议。"
+ },
+ {
+  "seg": 112,
+  "start": 442.127,
+  "end": 449.953,
+  "speaker": "Unknown",
+  "en": "For people that have not used Claude Code before, if you're just showing it to someone for the first time, onboarding your team, the thing we definitely recommend is start with code-based Q&A.",
+  "zh": "对于以前没有使用过 Claude Code 的人，如果你是第一次向某人展示它，让你的团队上手，我们绝对推荐的做法是从基于代码的 Q&A 开始。"
+ },
+ {
+  "seg": 113,
+  "start": 450.033,
+  "end": 451.374,
+  "speaker": "Unknown",
+  "en": "Don't start by using fancy tools.",
+  "zh": "不要从使用花哨的工具开始。"
+ },
+ {
+  "seg": 114,
+  "start": 451.534,
+  "end": 452.695,
+  "speaker": "Unknown",
+  "en": "Don't start by editing code.",
+  "zh": "不要从编辑代码开始。"
+ },
+ {
+  "seg": 115,
+  "start": 453.095,
+  "end": 454.836,
+  "speaker": "Unknown",
+  "en": "Just start by asking questions about the code base.",
+  "zh": "只要从询问关于代码库的问题开始。"
+ },
+ {
+  "seg": 116,
+  "start": 454.856,
+  "end": 456.257,
+  "speaker": "Unknown",
+  "en": "And that'll teach people how to prompt.",
+  "zh": "这将教会人们如何进行提示。"
+ },
+ {
+  "seg": 117,
+  "start": 456.998,
+  "end": 460.26,
+  "speaker": "Unknown",
+  "en": "And it'll start teaching them this boundary of what can Claude Code do?",
+  "zh": "并且这将开始教他们这个边界，即 Claude Code 能做什么？"
+ },
+ {
+  "seg": 118,
+  "start": 460.3,
+  "end": 461.141,
+  "speaker": "Unknown",
+  "en": "What is it capable of?",
+  "zh": "它能做什么？"
+ },
+ {
+  "seg": 119,
+  "start": 461.181,
+  "end": 463.683,
+  "speaker": "Unknown",
+  "en": "Versus what do you need to hold its hand with a little bit more?",
+  "zh": "相比之下，哪些事情你需要更多地手把手教它？"
+ },
+ {
+  "seg": 120,
+  "start": 464.123,
+  "end": 465.024,
+  "speaker": "Unknown",
+  "en": "What can be one-shotted?",
+  "zh": "什么可以一次搞定？"
+ },
+ {
+  "seg": 121,
+  "start": 465.164,
+  "end": 466.565,
+  "speaker": "Unknown",
+  "en": "What can be two-shotted, three-shotted?",
+  "zh": "什么可以两次搞定，三次搞定？"
+ },
+ {
+  "seg": 122,
+  "start": 467.065,
+  "end": 468.907,
+  "speaker": "Unknown",
+  "en": "What do you need to use interactive mode for in a REPL?",
+  "zh": "什么时候你需要在 REPL 中使用交互模式？"
+ },
+ {
+  "seg": 123,
+  "start": 472.523,
+  "end": 474.995,
+  "speaker": "Unknown",
+  "en": "Once you're pretty comfortable with Q&A, you can dive into editing code.",
+  "zh": "一旦你对问答相当满意了，你就可以潜入编辑代码了。"
+ },
+ {
+  "seg": 124,
+  "start": 475.993,
+  "end": 476.734,
+  "speaker": "Unknown",
+  "en": "This is the next thing.",
+  "zh": "这是下一件事。"
+ },
+ {
+  "seg": 125,
+  "start": 477.875,
+  "end": 485.941,
+  "speaker": "Unknown",
+  "en": "And the cool thing about using a LLM in an agentic way is you give it tools, and it's just magical.",
+  "zh": "以智能体的方式使用 LLM 的酷之处在于你给它工具，它就像魔法一样。"
+ },
+ {
+  "seg": 126,
+  "start": 485.961,
+  "end": 487.362,
+  "speaker": "Unknown",
+  "en": "It figures out how to use the tools.",
+  "zh": "它会弄清楚如何使用这些工具。"
+ },
+ {
+  "seg": 127,
+  "start": 488.063,
+  "end": 490.265,
+  "speaker": "Unknown",
+  "en": "And with Claude Code, we give it a pretty small set of tools.",
+  "zh": "而且对于 Claude Code，我们给它一套相当小的工具集。"
+ },
+ {
+  "seg": 128,
+  "start": 490.325,
+  "end": 491.065,
+  "speaker": "Unknown",
+  "en": "It's not a lot.",
+  "zh": "并不多。"
+ },
+ {
+  "seg": 129,
+  "start": 491.746,
+  "end": 493.387,
+  "speaker": "Unknown",
+  "en": "And so it has a tool to edit files.",
+  "zh": "所以它有一个编辑文件的工具。"
+ },
+ {
+  "seg": 130,
+  "start": 493.808,
+  "end": 495.169,
+  "speaker": "Unknown",
+  "en": "It has a tool to run bash commands.",
+  "zh": "它有一个运行 bash 命令的工具。"
+ },
+ {
+  "seg": 131,
+  "start": 495.689,
+  "end": 496.97,
+  "speaker": "Unknown",
+  "en": "It has a tool to search files.",
+  "zh": "它有一个搜索文件的工具。"
+ },
+ {
+  "seg": 132,
+  "start": 497.471,
+  "end": 502.555,
+  "speaker": "Unknown",
+  "en": "And it'll string these together to explore the code, brainstorm, and then finally make edits.",
+  "zh": "它会将这些串联起来以探索代码，头脑风暴，然后最后进行编辑。"
+ },
+ {
+  "seg": 133,
+  "start": 503.978,
+  "end": 506.959,
+  "speaker": "Unknown",
+  "en": "And you don't have to prompt it specifically to use this tool and this tool and this tool.",
+  "zh": "而且你不需要专门提示它去使用这个工具和那个工具。"
+ },
+ {
+  "seg": 134,
+  "start": 506.979,
+  "end": 509.3,
+  "speaker": "Unknown",
+  "en": "You just say, do this thing, and it'll figure out how to do it.",
+  "zh": "你只需说，做这件事，它就会弄清楚怎么做。"
+ },
+ {
+  "seg": 135,
+  "start": 509.6,
+  "end": 512.241,
+  "speaker": "Unknown",
+  "en": "It'll string it together in the right way that makes sense for Claude code.",
+  "zh": "它会以对 Claude code 有意义的正确方式将其串联起来。"
+ },
+ {
+  "seg": 136,
+  "start": 517.143,
+  "end": 518.264,
+  "speaker": "Unknown",
+  "en": "There's a lot of ways to use this.",
+  "zh": "有很多方法可以使用它。"
+ },
+ {
+  "seg": 137,
+  "start": 518.284,
+  "end": 526.127,
+  "speaker": "Unknown",
+  "en": "Something I like to do sometimes is before having Claude jump in to write code, I'll ask it to brainstorm a little bit or make a plan.",
+  "zh": "我有时喜欢做的一件事是，在让 Claude 跳进去写代码之前，我会要求它先进行一点头脑风暴或制定一个计划。"
+ },
+ {
+  "seg": 138,
+  "start": 527.232,
+  "end": 528.593,
+  "speaker": "Unknown",
+  "en": "This is something we highly recommend.",
+  "zh": "这是我们强烈推荐的做法。"
+ },
+ {
+  "seg": 139,
+  "start": 528.693,
+  "end": 536.397,
+  "speaker": "Unknown",
+  "en": "And something I see sometimes is people, they take Claude Code and they ask it, hey, implement this enormous 3,000 line feature.",
+  "zh": "我有时看到的情况是，人们拿着 Claude Code 然后要求它，嘿，实现这个巨大的 3000 行功能。"
+ },
+ {
+  "seg": 140,
+  "start": 536.798,
+  "end": 538.579,
+  "speaker": "Unknown",
+  "en": "And sometimes it gets this right on the first shot.",
+  "zh": "有时它第一次尝试就做对了。"
+ },
+ {
+  "seg": 141,
+  "start": 539.219,
+  "end": 542.701,
+  "speaker": "Unknown",
+  "en": "But sometimes what happens is the thing that it builds is not at all the thing that you wanted.",
+  "zh": "但有时发生的情况是，它构建的东西根本不是你想要的东西。"
+ },
+ {
+  "seg": 142,
+  "start": 543.561,
+  "end": 547.504,
+  "speaker": "Unknown",
+  "en": "And the easiest way to get the result you want is ask it to think first.",
+  "zh": "而得到你想要的结果的最简单方法是要求它先思考。"
+ },
+ {
+  "seg": 143,
+  "start": 547.844,
+  "end": 552.487,
+  "speaker": "Unknown",
+  "en": "So brainstorm ideas, make a plan, run it by me, ask for approval before you write code.",
+  "zh": "所以头脑风暴想法，制定计划，让我过目，在写代码之前请求批准。"
+ },
+ {
+  "seg": 144,
+  "start": 553.387,
+  "end": 554.748,
+  "speaker": "Unknown",
+  "en": "And you don't have to use plan mode.",
+  "zh": "而且你不必使用计划模式。"
+ },
+ {
+  "seg": 145,
+  "start": 554.768,
+  "end": 556.63,
+  "speaker": "Unknown",
+  "en": "You don't have to use any special tools to do this.",
+  "zh": "你不必使用任何特殊工具来做到这一点。"
+ },
+ {
+  "seg": 146,
+  "start": 556.75,
+  "end": 559.432,
+  "speaker": "Unknown",
+  "en": "All you have to do is ask Claude, and it'll know to do this.",
+  "zh": "你要做的就是问 Claude，它就会知道这样做。"
+ },
+ {
+  "seg": 147,
+  "start": 559.653,
+  "end": 561.514,
+  "speaker": "Unknown",
+  "en": "So just say, before you write code, make a plan.",
+  "zh": "所以只要说，在写代码之前，制定一个计划。"
+ },
+ {
+  "seg": 148,
+  "start": 562.055,
+  "end": 562.295,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 149,
+  "start": 565.1,
+  "end": 569.601,
+  "speaker": "Unknown",
+  "en": "This is also, I want to think with this one, this commit push PR, this is a really common incantation that I use.",
+  "zh": "这也是，我想想这一个，这个 commit push PR，这是我经常使用的一个非常常见的咒语。"
+ },
+ {
+  "seg": 150,
+  "start": 569.801,
+  "end": 576.663,
+  "speaker": "Unknown",
+  "en": "There's nothing special about it, but Claude is kind of smart enough to interpret this, so it'll make a commit, it'll push it to the branch, make a branch, and then make a pull request from your GitHub.",
+  "zh": "这没什么特别的，但 Claude 足够聪明去解释这个，所以它会进行提交，它会把它推送到分支，创建一个分支，然后从你的 GitHub 创建一个拉取请求。"
+ },
+ {
+  "seg": 151,
+  "start": 577.243,
+  "end": 578.264,
+  "speaker": "Unknown",
+  "en": "You don't have to explain anything.",
+  "zh": "你不需要解释任何事情。"
+ },
+ {
+  "seg": 152,
+  "start": 578.444,
+  "end": 585.966,
+  "speaker": "Unknown",
+  "en": "It'll look through the code, it'll look through the history, it'll look through the Git log by itself to figure out the commit format and all the stuff, and it'll make the commit and push it the right way.",
+  "zh": "它会查看代码，它会查看历史，它会自己查看 Git 日志来弄清楚提交格式和所有东西，然后它会以正确的方式提交和推送。"
+ },
+ {
+  "seg": 153,
+  "start": 588.427,
+  "end": 591.007,
+  "speaker": "Unknown",
+  "en": "Again, we're not system prompting it to do this.",
+  "zh": "再次强调，我们并没有通过系统提示让它做这个。"
+ },
+ {
+  "seg": 154,
+  "start": 591.167,
+  "end": 592.088,
+  "speaker": "Unknown",
+  "en": "It just knows how to do this.",
+  "zh": "它只是知道如何做这个。"
+ },
+ {
+  "seg": 155,
+  "start": 592.148,
+  "end": 592.748,
+  "speaker": "Unknown",
+  "en": "The model is good.",
+  "zh": "模型很棒。"
+ },
+ {
+  "seg": 156,
+  "start": 596.2,
+  "end": 600.422,
+  "speaker": "Unknown",
+  "en": "As you get a little bit more advanced, you're going to want to start to plug in your team's tools.",
+  "zh": "当你变得稍微高级一点时，你会想要开始接入你团队的工具。"
+ },
+ {
+  "seg": 157,
+  "start": 600.502,
+  "end": 602.523,
+  "speaker": "Unknown",
+  "en": "And this is where Claude Code starts to really shine.",
+  "zh": "这就是 Claude Code 真正开始大放异彩的地方。"
+ },
+ {
+  "seg": 158,
+  "start": 603.324,
+  "end": 604.545,
+  "speaker": "Unknown",
+  "en": "And there's generally two kinds of tools.",
+  "zh": "通常有两种工具。"
+ },
+ {
+  "seg": 159,
+  "start": 604.825,
+  "end": 605.745,
+  "speaker": "Unknown",
+  "en": "So one is bash tools.",
+  "zh": "所以一种是 bash 工具。"
+ },
+ {
+  "seg": 160,
+  "start": 606.205,
+  "end": 609.107,
+  "speaker": "Unknown",
+  "en": "And an example of this I just made up, this like barley CLI.",
+  "zh": "我刚刚编的一个例子，比如像 barley CLI。"
+ },
+ {
+  "seg": 161,
+  "start": 609.147,
+  "end": 609.967,
+  "speaker": "Unknown",
+  "en": "This isn't a real thing.",
+  "zh": "这不是真实存在的东西。"
+ },
+ {
+  "seg": 162,
+  "start": 610.648,
+  "end": 612.569,
+  "speaker": "Unknown",
+  "en": "But you can say, use this CLI to do something.",
+  "zh": "但你可以说，使用这个 CLI 去做某事。"
+ },
+ {
+  "seg": 163,
+  "start": 612.989,
+  "end": 614.31,
+  "speaker": "Unknown",
+  "en": "And you can tell Claude Code about this.",
+  "zh": "并且你可以告诉 Claude Code 关于这个。"
+ },
+ {
+  "seg": 164,
+  "start": 614.67,
+  "end": 618.552,
+  "speaker": "Unknown",
+  "en": "And you can tell it to use, for example, like dash dash help to figure out how to use it.",
+  "zh": "你可以告诉它去使用，例如像 --help 来弄清楚如何使用它。"
+ },
+ {
+  "seg": 165,
+  "start": 619.072,
+  "end": 619.793,
+  "speaker": "Unknown",
+  "en": "And this is efficient.",
+  "zh": "这是高效的。"
+ },
+ {
+  "seg": 166,
+  "start": 620.824,
+  "end": 626.788,
+  "speaker": "Unknown",
+  "en": "If you find yourself using it a lot, you can also dump this into your ClaudeMD, which we'll talk about in a bit, so Claude can remember this across sessions.",
+  "zh": "如果你发现自己经常使用它，你也可以把这个放入你的 ClaudeMD 中，我们稍后会谈到这个，这样 Claude 就可以在会话之间记住它。"
+ },
+ {
+  "seg": 167,
+  "start": 627.209,
+  "end": 631.532,
+  "speaker": "Unknown",
+  "en": "But this is a common pattern we follow at Anthropic, and we see external customers use, too.",
+  "zh": "但这是我们在 Anthropic 遵循的一种常见模式，我们也看到外部客户在使用。"
+ },
+ {
+  "seg": 168,
+  "start": 633.033,
+  "end": 633.913,
+  "speaker": "Unknown",
+  "en": "And same thing with MCP.",
+  "zh": "MCP 也是一样的。"
+ },
+ {
+  "seg": 169,
+  "start": 634.854,
+  "end": 643.44,
+  "speaker": "Unknown",
+  "en": "Claude Code can use bash tools, it can use MCP tools, so just tell it about the tools, and you can add the MCP tool, and you can tell it how to use it, and it'll just start using it.",
+  "zh": "Claude Code 可以使用 bash 工具，它可以使用 MCP 工具，所以只要告诉它关于工具的信息，你可以添加 MCP 工具，你可以告诉它如何使用它，然后它就会开始使用它。"
+ },
+ {
+  "seg": 170,
+  "start": 645.095,
+  "end": 656.486,
+  "speaker": "Unknown",
+  "en": "And this is extremely powerful, because when you start to use code on a new codebase, you can just give it all of your tools, all the tools your team already uses for this codebase, and Claude Code can use it on your behalf.",
+  "zh": "这非常强大，因为当你开始在一个新代码库上使用代码时，你可以直接给它所有你的工具，你的团队已经在这个代码库上使用的所有工具，Claude Code 可以代表你使用它们。"
+ },
+ {
+  "seg": 171,
+  "start": 662.291,
+  "end": 663.613,
+  "speaker": "Unknown",
+  "en": "There's a few common workflows.",
+  "zh": "有几种常见的工作流。"
+ },
+ {
+  "seg": 172,
+  "start": 665.187,
+  "end": 666.789,
+  "speaker": "Unknown",
+  "en": "And this is the one that I talked about already.",
+  "zh": "这是我已经谈到过的那个。"
+ },
+ {
+  "seg": 173,
+  "start": 666.829,
+  "end": 673.437,
+  "speaker": "Unknown",
+  "en": "So kind of do a little bit of exploration, do a little bit of planning, and ask me for confirmation before you start to write code.",
+  "zh": "所以做一点探索，做一点计划，并在你开始写代码之前请求我的确认。"
+ },
+ {
+  "seg": 174,
+  "start": 674.298,
+  "end": 676.42,
+  "speaker": "Unknown",
+  "en": "These other two on the right are extremely powerful.",
+  "zh": "右边另外这两个非常强大。"
+ },
+ {
+  "seg": 175,
+  "start": 677.221,
+  "end": 685.07,
+  "speaker": "Unknown",
+  "en": "When Claude has some way to check its work, so for example, by writing unit tests or screenshotting in Puppeteer or screenshotting the iOS simulator,",
+  "zh": "当 Claude 有某种方法来检查它的工作时，例如，通过编写单元测试或在 Puppeteer 中截图，或对 iOS 模拟器进行截图，"
+ },
+ {
+  "seg": 176,
+  "start": 685.991,
+  "end": 697.255,
+  "speaker": "Unknown",
+  "en": "Then it can iterate and this is incredible because if you give it for example a mock and you say build this web UI it'll get it pretty good but if you let it iterate two or three times often it gets it almost perfect.",
+  "zh": "然后它就可以迭代，这非常棒，因为如果你给它例如一个模型，然后你说构建这个 Web UI，它会做得相当好，但如果你让它迭代两三次，通常它会做得几乎完美。"
+ },
+ {
+  "seg": 177,
+  "start": 698.116,
+  "end": 706.179,
+  "speaker": "Unknown",
+  "en": "So the trick is give it some sort of tool that it can use for feedback to check its work and then based on that it will iterate by itself and you're going to get a much better result.",
+  "zh": "所以诀窍是给它某种它可以用来获取反馈以检查其工作的工具，然后基于此它会自己进行迭代，你将会得到一个好得多的结果。"
+ },
+ {
+  "seg": 178,
+  "start": 707.221,
+  "end": 715.649,
+  "speaker": "Unknown",
+  "en": "So whatever your domain is, if it's unit tests or integration tests or screenshots for apps or web or anything, just give it away to see its result, and it'll iterate and get better.",
+  "zh": "所以无论你的领域是什么，无论是单元测试还是集成测试，或者是应用程序或 Web 的截图或任何东西，只要把它送出去去看它的结果，它就会迭代并变得更好。"
+ },
+ {
+  "seg": 179,
+  "start": 720.573,
+  "end": 721.434,
+  "speaker": "Unknown",
+  "en": "So these are the next steps.",
+  "zh": "所以这些就是接下来的步骤。"
+ },
+ {
+  "seg": 180,
+  "start": 721.694,
+  "end": 725.197,
+  "speaker": "Unknown",
+  "en": "Teach Claude how to use your tools and figure out the right workflow.",
+  "zh": "教 Claude 如何使用你的工具，并找出合适的工作流程。"
+ },
+ {
+  "seg": 181,
+  "start": 725.297,
+  "end": 733.705,
+  "speaker": "Unknown",
+  "en": "If you want Claude to jump in and code, if you want it to brainstorm a little bit, make a plan, if you want it to iterate, kind of have some sense of that so you know how to prompt Claude to do what you want.",
+  "zh": "如果你想要 Claude 加入并写代码，如果你想要它稍微头脑风暴一下，制定计划，如果你想要它迭代，有点这种概念，这样你就知道如何提示 Claude 去做你想做的事。"
+ },
+ {
+  "seg": 182,
+  "start": 737.627,
+  "end": 741.589,
+  "speaker": "Unknown",
+  "en": "As you go deeper, beyond tools, you want to start to give Claude more context.",
+  "zh": "当你更深入地钻研，超越工具之后，你会想要开始给 Claude 更多上下文。"
+ },
+ {
+  "seg": 183,
+  "start": 742.189,
+  "end": 744.49,
+  "speaker": "Unknown",
+  "en": "And the more context, the smarter the decisions will be.",
+  "zh": "上下文越多，决策就会越聪明。"
+ },
+ {
+  "seg": 184,
+  "start": 744.53,
+  "end": 751.193,
+  "speaker": "Unknown",
+  "en": "Because as an engineer working in a code base, you have a ton of context in your head about your systems and all the history and everything else.",
+  "zh": "因为作为一个在代码库中工作的工程师，你的脑子里有关于你的系统、所有历史以及其他所有事情的大量上下文。"
+ },
+ {
+  "seg": 185,
+  "start": 751.293,
+  "end": 753.074,
+  "speaker": "Unknown",
+  "en": "So there's different ways to give this to Claude.",
+  "zh": "所以有不同的方式可以把它给 Claude。"
+ },
+ {
+  "seg": 186,
+  "start": 753.734,
+  "end": 755.475,
+  "speaker": "Unknown",
+  "en": "And as you give Claude more context, it'll do better.",
+  "zh": "当你给 Claude 更多上下文时，它会做得更好。"
+ },
+ {
+  "seg": 187,
+  "start": 757.256,
+  "end": 758.937,
+  "speaker": "Unknown",
+  "en": "There's different ways to do this.",
+  "zh": "有不同的方式可以做到这一点。"
+ },
+ {
+  "seg": 188,
+  "start": 759.097,
+  "end": 762.158,
+  "speaker": "Unknown",
+  "en": "The simplest one is what we call ClaudeMD.",
+  "zh": "最简单的一种就是我们所谓的 ClaudeMD。"
+ },
+ {
+  "seg": 189,
+  "start": 762.178,
+  "end": 764.099,
+  "speaker": "Unknown",
+  "en": "And Claude.md is the special file name.",
+  "zh": "而 Claude.md 是特殊的文件名。"
+ },
+ {
+  "seg": 190,
+  "start": 765.214,
+  "end": 767.676,
+  "speaker": "Unknown",
+  "en": "The simplest place to put it is in the project root.",
+  "zh": "放置它的最简单位置是在项目根目录。"
+ },
+ {
+  "seg": 191,
+  "start": 767.956,
+  "end": 771.419,
+  "speaker": "Unknown",
+  "en": "So the same directory you start Claude in, put a ClaudeMD in there.",
+  "zh": "所以在你启动 Claude 的那个目录里，在那里放一个 ClaudeMD。"
+ },
+ {
+  "seg": 192,
+  "start": 771.739,
+  "end": 774.761,
+  "speaker": "Unknown",
+  "en": "And that'll get automatically read into context at the start of every session.",
+  "zh": "那样它会在每次会话开始时自动被读入上下文。"
+ },
+ {
+  "seg": 193,
+  "start": 775.242,
+  "end": 777.844,
+  "speaker": "Unknown",
+  "en": "And essentially, the first user turn will include the ClaudeMD.",
+  "zh": "本质上，第一个用户回合将包含 ClaudeMD。"
+ },
+ {
+  "seg": 194,
+  "start": 779.985,
+  "end": 781.887,
+  "speaker": "Unknown",
+  "en": "You can also have a local ClaudeMD.",
+  "zh": "你也可以有一个本地 ClaudeMD。"
+ },
+ {
+  "seg": 195,
+  "start": 782.507,
+  "end": 785.349,
+  "speaker": "Unknown",
+  "en": "And this one, you don't usually check into source control.",
+  "zh": "而对于这一个，你通常不会将其签入源代码控制。"
+ },
+ {
+  "seg": 196,
+  "start": 785.529,
+  "end": 790.893,
+  "speaker": "Unknown",
+  "en": "So ClaudeMD, you should check into source control, share with your team so that you can write it once and share it with your team.",
+  "zh": "所以 ClaudeMD，你应该签入源代码控制，与你的团队分享，这样你可以只写一次并与你的团队分享它。"
+ },
+ {
+  "seg": 197,
+  "start": 791.954,
+  "end": 793.375,
+  "speaker": "Unknown",
+  "en": "This one, you don't check in.",
+  "zh": "这一个，你不要签入。"
+ },
+ {
+  "seg": 198,
+  "start": 793.495,
+  "end": 794.036,
+  "speaker": "Unknown",
+  "en": "It's just for you.",
+  "zh": "它只是为你准备的。"
+ },
+ {
+  "seg": 199,
+  "start": 795.488,
+  "end": 806.653,
+  "speaker": "Unknown",
+  "en": "The kinds of things you put in CloudMD, it's like common bash commands, common MCP tools, architectural decisions, important files, anything that you would kind of typically need to know in order to work in this codebase.",
+  "zh": "你放入 CloudMD 的内容类型，就像常见的 bash 命令、常见的 MCP 工具、架构决策、重要文件，以及为了在这个代码库中工作你通常需要知道的任何东西。"
+ },
+ {
+  "seg": 200,
+  "start": 807.293,
+  "end": 812.856,
+  "speaker": "Unknown",
+  "en": "Try to keep it pretty short, because if it gets too long, it's just going to use up a bunch of context, and it's usually not that useful.",
+  "zh": "尽量保持简短，因为如果太长，会占用大量上下文，而且通常没什么用。"
+ },
+ {
+  "seg": 201,
+  "start": 813.296,
+  "end": 814.636,
+  "speaker": "Unknown",
+  "en": "So just try to keep it as short as you can.",
+  "zh": "所以尽量保持简短。"
+ },
+ {
+  "seg": 202,
+  "start": 815.417,
+  "end": 822.62,
+  "speaker": "Unknown",
+  "en": "And for example, in our codebase, we have common bash commands, we have a style guide, we have a few core files, kind of things like that.",
+  "zh": "例如，在我们的代码库中，我们有常用的 bash 命令，我们有风格指南，我们有几个核心文件，这类东西。"
+ },
+ {
+  "seg": 203,
+  "start": 823.841,
+  "end": 829.143,
+  "speaker": "Unknown",
+  "en": "All the other ClaudeMDs, you can put them in other nested child directories, and Claude will pull them in on demand.",
+  "zh": "所有其他的 ClaudeMD，你可以把它们放在其他嵌套的子目录中，Claude 会按需拉取它们。"
+ },
+ {
+  "seg": 204,
+  "start": 830.704,
+  "end": 843.308,
+  "speaker": "Unknown",
+  "en": "So these are the ClaudeMDs that will get pulled in automatically, but then also you can put ClaudeMDs in nested directories, and those will get automatically pulled when Claude works in those directories.",
+  "zh": "所以这些是会自动拉取的 ClaudeMD，但你也可以把 ClaudeMD 放在嵌套目录中，当 Claude 在这些目录中工作时，它们会自动拉取。"
+ },
+ {
+  "seg": 205,
+  "start": 843.388,
+  "end": 853.392,
+  "speaker": "Unknown",
+  "en": "And of course, if you're a company, maybe you want a ClaudeMD that's shared across all the different code bases, and you wanna manage it on behalf of your users, and you can put it in your enterprise route, and that'll get pulled in automatically.",
+  "zh": "当然，如果你是一家公司，也许你想要一个跨所有不同代码库共享的 ClaudeMD，并且你想代表你的用户管理它，你可以把它放在你的 enterprise route 中，它会自动拉取。"
+ },
+ {
+  "seg": 206,
+  "start": 857.483,
+  "end": 859.004,
+  "speaker": "Unknown",
+  "en": "There's a ton of ways to pull in context.",
+  "zh": "有很多方法可以拉取上下文。"
+ },
+ {
+  "seg": 207,
+  "start": 859.024,
+  "end": 863.767,
+  "speaker": "Unknown",
+  "en": "I actually had a lot of trouble putting this slide together just to communicate the breadth of ways you can do this.",
+  "zh": "我实际上在把这张幻灯片拼凑在一起时遇到了很多麻烦，只是为了沟通你能做这件事的各种方法的广度。"
+ },
+ {
+  "seg": 208,
+  "start": 864.528,
+  "end": 866.349,
+  "speaker": "Unknown",
+  "en": "But CloudMD is pulled in automatically.",
+  "zh": "但 CloudMD 会自动拉取。"
+ },
+ {
+  "seg": 209,
+  "start": 867.21,
+  "end": 868.41,
+  "speaker": "Unknown",
+  "en": "You can also use slash commands.",
+  "zh": "你也可以使用斜杠命令。"
+ },
+ {
+  "seg": 210,
+  "start": 868.45,
+  "end": 869.931,
+  "speaker": "Unknown",
+  "en": "So this is .Claude slash commands.",
+  "zh": "所以这是 .Claude 斜杠命令。"
+ },
+ {
+  "seg": 211,
+  "start": 870.011,
+  "end": 873.334,
+  "speaker": "Unknown",
+  "en": "And this can be in your home directory, or it can be checked into your project.",
+  "zh": "这可以在你的主目录中，也可以签入到你的项目中。"
+ },
+ {
+  "seg": 212,
+  "start": 873.374,
+  "end": 874.735,
+  "speaker": "Unknown",
+  "en": "And this is for slash commands.",
+  "zh": "这是用于斜杠命令的。"
+ },
+ {
+  "seg": 213,
+  "start": 875.735,
+  "end": 882.5,
+  "speaker": "Unknown",
+  "en": "And over here, we have a few examples of the slash commands that we have in Claude code itself.",
+  "zh": "在这里，我们有几个我们在 Claude code 本身中拥有的斜杠命令的例子。"
+ },
+ {
+  "seg": 214,
+  "start": 883.592,
+  "end": 889.513,
+  "speaker": "Unknown",
+  "en": "And so for example, if you're in the Claude code repo and you see issues getting labeled, that's actually this workflow running here.",
+  "zh": "所以举个例子，如果你在 Claude code 仓库中，你看到 issues 被标记，那实际上是这里运行的这个工作流。"
+ },
+ {
+  "seg": 215,
+  "start": 889.793,
+  "end": 891.054,
+  "speaker": "Unknown",
+  "en": "It's labeled GitHub issues.",
+  "zh": "它标记了 GitHub issues。"
+ },
+ {
+  "seg": 216,
+  "start": 892.134,
+  "end": 899.236,
+  "speaker": "Unknown",
+  "en": "And we have a GitHub action running, the same one we talked about this morning, where Claude code will run this command and it's just a slash command.",
+  "zh": "我们有一个 GitHub action 在运行，就是我们今天早上谈论的那个，Claude code 会运行这个命令，它只是一个斜杠命令。"
+ },
+ {
+  "seg": 217,
+  "start": 899.396,
+  "end": 902.096,
+  "speaker": "Unknown",
+  "en": "It'll run and it'll label the issues so humans don't have to.",
+  "zh": "它会运行并标记 issues，这样人类就不必做了。"
+ },
+ {
+  "seg": 218,
+  "start": 902.276,
+  "end": 903.297,
+  "speaker": "Unknown",
+  "en": "It just saves us a bunch of time.",
+  "zh": "它只是为我们节省了大量时间。"
+ },
+ {
+  "seg": 219,
+  "start": 904.937,
+  "end": 908.158,
+  "speaker": "Unknown",
+  "en": "And of course, you can add mentioned files to pull them into context.",
+  "zh": "当然，你可以添加提到的文件以将它们拉入上下文。"
+ },
+ {
+  "seg": 220,
+  "start": 908.298,
+  "end": 913.359,
+  "speaker": "Unknown",
+  "en": "And like I said before, ClaudeMDs in a nested directory get pulled in when Claude works in that directory.",
+  "zh": "就像我之前说的，嵌套目录中的 ClaudeMD 在 Claude 在该目录中工作时会被拉入。"
+ },
+ {
+  "seg": 221,
+  "start": 918.398,
+  "end": 919.779,
+  "speaker": "Unknown",
+  "en": "So give Claude more context.",
+  "zh": "所以给 Claude 更多上下文。"
+ },
+ {
+  "seg": 222,
+  "start": 920.459,
+  "end": 922.96,
+  "speaker": "Unknown",
+  "en": "And it's definitely worth taking the time to tune context.",
+  "zh": "花时间调整上下文绝对是值得的。"
+ },
+ {
+  "seg": 223,
+  "start": 923,
+  "end": 924.4,
+  "speaker": "Unknown",
+  "en": "You can run it through a prompt improver.",
+  "zh": "你可以通过 prompt improver 运行它。"
+ },
+ {
+  "seg": 224,
+  "start": 924.58,
+  "end": 926.961,
+  "speaker": "Unknown",
+  "en": "Consider who the context is for.",
+  "zh": "考虑上下文是给谁的。"
+ },
+ {
+  "seg": 225,
+  "start": 927.222,
+  "end": 934.244,
+  "speaker": "Unknown",
+  "en": "If you want to pull it in every time, if you want to pull it in on demand, if you want to share it with a team, if it's a personal preference, definitely take the time to tune it.",
+  "zh": "如果你想每次都拉入它，如果你想按需拉入它，如果你想与团队共享它，如果它是个人偏好，一定要花时间调整它。"
+ },
+ {
+  "seg": 226,
+  "start": 934.344,
+  "end": 937.205,
+  "speaker": "Unknown",
+  "en": "This will improve performance dramatically if you do it right.",
+  "zh": "如果你做得正确，这将极大地提高性能。"
+ },
+ {
+  "seg": 227,
+  "start": 942.047,
+  "end": 943.008,
+  "speaker": "Unknown",
+  "en": "As you get more advanced,",
+  "zh": "随着你变得更高级，"
+ },
+ {
+  "seg": 228,
+  "start": 943.957,
+  "end": 948.319,
+  "speaker": "Unknown",
+  "en": "You're going to want to think about this a little bit more, this kind of hierarchy of different ways to pull in everything.",
+  "zh": "你会想要多考虑一点，这种拉入所有内容的不同方式的层次结构。"
+ },
+ {
+  "seg": 229,
+  "start": 948.399,
+  "end": 956.223,
+  "speaker": "Unknown",
+  "en": "So not just ClaudeMD, but also config and kind of everything about Claude you can pull in in this hierarchical way.",
+  "zh": "所以不仅仅是 ClaudeMD，还有配置，以及关于 Claude 的几乎所有东西，你都可以用这种分层方式拉入。"
+ },
+ {
+  "seg": 230,
+  "start": 956.843,
+  "end": 959.884,
+  "speaker": "Unknown",
+  "en": "So projects are specific to your Git repo.",
+  "zh": "所以项目是特定于你的 Git 仓库的。"
+ },
+ {
+  "seg": 231,
+  "start": 960.064,
+  "end": 962.185,
+  "speaker": "Unknown",
+  "en": "And this you can check in, or you can make it just for you.",
+  "zh": "这个你可以签入，或者你可以只为你自己制作。"
+ },
+ {
+  "seg": 232,
+  "start": 962.966,
+  "end": 967.488,
+  "speaker": "Unknown",
+  "en": "You can also have global configs that are across all your projects, or you can have enterprise policies.",
+  "zh": "你也可以拥有跨所有项目的全局配置，或者你可以拥有 enterprise policies。"
+ },
+ {
+  "seg": 233,
+  "start": 968.028,
+  "end": 972.27,
+  "speaker": "Unknown",
+  "en": "And this is essentially a global config that you roll out for all of your employees, everyone on your team automatically.",
+  "zh": "这本质上是一个你为所有员工、团队中的每个人自动推出的全局配置。"
+ },
+ {
+  "seg": 234,
+  "start": 974.478,
+  "end": 978.602,
+  "speaker": "Unknown",
+  "en": "And this slide is like pretty information dense, but the point is this applies to a lot of stuff.",
+  "zh": "这张幻灯片信息密度相当大，但重点是这适用于很多东西。"
+ },
+ {
+  "seg": 235,
+  "start": 978.902,
+  "end": 981.425,
+  "speaker": "Unknown",
+  "en": "So you can do this for slash commands, you can do it for permissions.",
+  "zh": "所以你可以对斜杠命令这样做，你可以对权限这样做。"
+ },
+ {
+  "seg": 236,
+  "start": 981.745,
+  "end": 992.316,
+  "speaker": "Unknown",
+  "en": "So for example, if you have a bash command that you would run for all your employees, like all your employees use this like test command, for example, you can actually just check it into this enterprise policies file.",
+  "zh": "所以举个例子，如果你有一个你要为所有员工运行的 bash 命令，比如所有你的员工使用这个像 test 命令一样的命令，例如，你实际上可以把它签入这个 enterprise policies 文件中。"
+ },
+ {
+  "seg": 237,
+  "start": 992.976,
+  "end": 997.02,
+  "speaker": "Unknown",
+  "en": "And then any employee, when they run this command, it will be auto approved, which is pretty convenient.",
+  "zh": "然后任何员工，当他们运行这个命令时，它会被自动批准，这非常方便。"
+ },
+ {
+  "seg": 238,
+  "start": 997.741,
+  "end": 999.242,
+  "speaker": "Unknown",
+  "en": "And you can also use this to block commands.",
+  "zh": "你也可以使用它来阻止命令。"
+ },
+ {
+  "seg": 239,
+  "start": 999.522,
+  "end": 1002.663,
+  "speaker": "Unknown",
+  "en": "So for example, let's say there's a URL that should never be fetched.",
+  "zh": "所以举个例子，假设有一个永远不应该被获取的 URL。"
+ },
+ {
+  "seg": 240,
+  "start": 1002.743,
+  "end": 1009.265,
+  "speaker": "Unknown",
+  "en": "Just add it to this config and that'll make it so an employee cannot override it and that URL can never be fetched.",
+  "zh": "只需将它添加到此配置中，这将使员工无法覆盖它，并且该 URL 永远无法被获取。"
+ },
+ {
+  "seg": 241,
+  "start": 1009.985,
+  "end": 1013.306,
+  "speaker": "Unknown",
+  "en": "So pretty convenient both to unblock people and also just to keep your code base safe.",
+  "zh": "所以非常方便，既可以解除人们的阻碍，也可以保持你的代码库安全。"
+ },
+ {
+  "seg": 242,
+  "start": 1015.047,
+  "end": 1016.327,
+  "speaker": "Unknown",
+  "en": "And then same thing for MCP servers.",
+  "zh": "对于 MCP 服务器也是如此。"
+ },
+ {
+  "seg": 243,
+  "start": 1016.847,
+  "end": 1019.048,
+  "speaker": "Unknown",
+  "en": "Have an MCP JSON file, check it into the code base.",
+  "zh": "拥有一个 MCP JSON 文件，将其签入代码库。"
+ },
+ {
+  "seg": 244,
+  "start": 1019.088,
+  "end": 1025.13,
+  "speaker": "Unknown",
+  "en": "That way any time someone runs Claude code in your code base, they'll be prompted to install the MCP servers and share it with the team.",
+  "zh": "这样，任何时候有人在你的代码库中运行 Claude code，他们都会被提示安装 MCP 服务器并与团队共享它。"
+ },
+ {
+  "seg": 245,
+  "start": 1030.124,
+  "end": 1037.509,
+  "speaker": "Unknown",
+  "en": "If you're not sure which of these to use, this is like a kind of an insane matrix because we support a lot of stuff and engineer workflows are very flexible and every company is different.",
+  "zh": "如果你不确定使用哪一个，这就像一个疯狂的矩阵，因为我们支持很多东西，工程师工作流程非常灵活，每家公司都不同。"
+ },
+ {
+  "seg": 246,
+  "start": 1037.529,
+  "end": 1038.91,
+  "speaker": "Unknown",
+  "en": "So we kind of want to support everything.",
+  "zh": "所以我们想要支持一切。"
+ },
+ {
+  "seg": 247,
+  "start": 1039.03,
+  "end": 1042.993,
+  "speaker": "Unknown",
+  "en": "So if you're not sure how to get started, I would recommend start with shared project context.",
+  "zh": "所以如果你不确定如何开始，我建议从共享项目上下文开始。"
+ },
+ {
+  "seg": 248,
+  "start": 1044.394,
+  "end": 1050.898,
+  "speaker": "Unknown",
+  "en": "You write this once and then you share it with everyone on the team and you get this kind of network effect where someone does a little bit of work and everyone on the team benefits.",
+  "zh": "你写一次，然后与团队中的每个人共享，你会得到这种网络效应，其中某人做了一点点工作，团队中的每个人都受益。"
+ },
+ {
+  "seg": 249,
+  "start": 1054.972,
+  "end": 1057.174,
+  "speaker": "Unknown",
+  "en": "There's a lot of tools built into Claude to manage this.",
+  "zh": "Claude 内置了很多工具来管理这个。"
+ },
+ {
+  "seg": 250,
+  "start": 1057.995,
+  "end": 1062.839,
+  "speaker": "Unknown",
+  "en": "So as an example, if you run slash memory, you can see all the different memory files that are getting pulled in.",
+  "zh": "因此举个例子，如果你运行 /memory，你可以看到所有被引入的不同记忆文件，"
+ },
+ {
+  "seg": 251,
+  "start": 1063.36,
+  "end": 1071.707,
+  "speaker": "Unknown",
+  "en": "So maybe I have an enterprise policy, I have my user memory, I have project ClaudeMD, and then maybe there's a nested ClaudeMD that's only pulled in for certain directories.",
+  "zh": "所以也许我有一个企业策略，我有我的用户记忆，我有项目 ClaudeMD，然后也许有一个嵌套的 ClaudeMD，它只针对特定目录引入。"
+ },
+ {
+  "seg": 252,
+  "start": 1074.129,
+  "end": 1077.773,
+  "speaker": "Unknown",
+  "en": "And then similarly, when you do slash memory, you can edit particular memory files.",
+  "zh": "然后类似的，当你执行 /memory 时，你可以编辑特定的记忆文件。"
+ },
+ {
+  "seg": 253,
+  "start": 1077.913,
+  "end": 1081.276,
+  "speaker": "Unknown",
+  "en": "When you type pound sign to remember something, you can pick which memory you want it to go to.",
+  "zh": "当你输入井号来记住某事时，你可以选择你想让它进入哪个记忆。"
+ },
+ {
+  "seg": 254,
+  "start": 1086.348,
+  "end": 1087.25,
+  "speaker": "Unknown",
+  "en": "So yeah, that's the next step.",
+  "zh": "所以是的，这就是下一步。"
+ },
+ {
+  "seg": 255,
+  "start": 1087.491,
+  "end": 1096.29,
+  "speaker": "Unknown",
+  "en": "Take the time to configure QuadMD, MCP servers, all the stuff that your team uses so that you can use it once, configure it once, and then share it with everyone.",
+  "zh": "花时间配置 QuadMD、MCP 服务器、你们团队使用的所有东西，这样你可以使用它一次，配置它一次，然后与所有人分享。"
+ },
+ {
+  "seg": 256,
+  "start": 1099.429,
+  "end": 1103.313,
+  "speaker": "Unknown",
+  "en": "An example of this is in our apps repo for Anthropic.",
+  "zh": "这方面的一个例子在我们的 Anthropic 应用仓库中。"
+ },
+ {
+  "seg": 257,
+  "start": 1103.333,
+  "end": 1107.357,
+  "speaker": "Unknown",
+  "en": "This is like the repo that we have all of our web and apps code in.",
+  "zh": "这就像是我们存放所有 Web 和应用代码的仓库。"
+ },
+ {
+  "seg": 258,
+  "start": 1107.857,
+  "end": 1111.2,
+  "speaker": "Unknown",
+  "en": "There's a Puppeteer MCP server, and we share this with the team.",
+  "zh": "有一个 Puppeteer MCP 服务器，我们与团队共享它。"
+ },
+ {
+  "seg": 259,
+  "start": 1111.34,
+  "end": 1120.969,
+  "speaker": "Unknown",
+  "en": "And there's an MCP JSON checked in, so any engineer working that repo can use Puppeteer in order to pilot end-to-end tests and to screenshot automatically and iterate so that every engineer doesn't have to install it themselves.",
+  "zh": "并且有一个提交的 MCP JSON，所以任何在该仓库工作的工程师都可以使用 Puppeteer 来驾驶端到端测试和自动截图并进行迭代，这样每个工程师都不必自己安装它。"
+ },
+ {
+  "seg": 260,
+  "start": 1126.258,
+  "end": 1127.379,
+  "speaker": "Unknown",
+  "en": "This is a talk about protips.",
+  "zh": "这是一个关于专业技巧的谈话。"
+ },
+ {
+  "seg": 261,
+  "start": 1127.439,
+  "end": 1131.363,
+  "speaker": "Unknown",
+  "en": "I just want to take a quick interlude to talk about some common key bindings that people may not know.",
+  "zh": "我只想快速插一段，谈谈人们可能不知道的一些通用键绑定。"
+ },
+ {
+  "seg": 262,
+  "start": 1131.604,
+  "end": 1133.485,
+  "speaker": "Unknown",
+  "en": "It's very hard to build for terminal.",
+  "zh": "为终端构建是非常难的。"
+ },
+ {
+  "seg": 263,
+  "start": 1133.546,
+  "end": 1134.446,
+  "speaker": "Unknown",
+  "en": "It's also very fun.",
+  "zh": "它也非常有趣。"
+ },
+ {
+  "seg": 264,
+  "start": 1134.847,
+  "end": 1137.47,
+  "speaker": "Unknown",
+  "en": "It feels like rediscovering this new design language.",
+  "zh": "这感觉就像重新发现这种新的设计语言。"
+ },
+ {
+  "seg": 265,
+  "start": 1137.97,
+  "end": 1140.573,
+  "speaker": "Unknown",
+  "en": "But something about terminals, it's extremely minimal.",
+  "zh": "但是关于终端的某些方面，它极其极简。"
+ },
+ {
+  "seg": 266,
+  "start": 1141.133,
+  "end": 1143.916,
+  "speaker": "Unknown",
+  "en": "And so sometimes it's hard to discover these key bindings.",
+  "zh": "所以有时候很难发现这些键绑定。"
+ },
+ {
+  "seg": 267,
+  "start": 1143.996,
+  "end": 1145.798,
+  "speaker": "Unknown",
+  "en": "And here's just a quick reference sheet.",
+  "zh": "这里只是一个快速参考表。"
+ },
+ {
+  "seg": 268,
+  "start": 1146.038,
+  "end": 1148.941,
+  "speaker": "Unknown",
+  "en": "So anytime, you can hit Shift-Tab to accept edits.",
+  "zh": "所以任何时候，你可以按下 Shift-Tab 来接受编辑。"
+ },
+ {
+  "seg": 269,
+  "start": 1150.04,
+  "end": 1151.761,
+  "speaker": "Unknown",
+  "en": "And this switches you into auto accept edits mode.",
+  "zh": "这会切换你到自动接受编辑模式。"
+ },
+ {
+  "seg": 270,
+  "start": 1151.781,
+  "end": 1154.942,
+  "speaker": "Unknown",
+  "en": "So bash commands still need approval, but edits are auto accepted.",
+  "zh": "所以 bash 命令仍然需要批准，但编辑会被自动接受。"
+ },
+ {
+  "seg": 271,
+  "start": 1155.222,
+  "end": 1156.603,
+  "speaker": "Unknown",
+  "en": "And you can always ask Claude to undo them later.",
+  "zh": "而且你总是可以稍后让 Claude 撤销它们。"
+ },
+ {
+  "seg": 272,
+  "start": 1158.484,
+  "end": 1162.705,
+  "speaker": "Unknown",
+  "en": "For example, I'll do this if I know Claude's on the right track or if it's writing unit tests and iterating on tests.",
+  "zh": "例如，如果我知道 Claude 在正确的轨道上，或者它正在编写单元测试并在测试上迭代，我会这样做。"
+ },
+ {
+  "seg": 273,
+  "start": 1163.105,
+  "end": 1166.587,
+  "speaker": "Unknown",
+  "en": "I'll usually just switch into auto accept mode so I don't have to OK every single edit.",
+  "zh": "我通常只是切换到自动接受模式，这样我就不必确认每一个编辑。"
+ },
+ {
+  "seg": 274,
+  "start": 1168.857,
+  "end": 1178.524,
+  "speaker": "Unknown",
+  "en": "Anytime you want Claude to remember something, so for example, if it's not using a tool correctly and you want it to use it correctly from then on, just type the pound sign and then tell it what to remember, and it'll remember it.",
+  "zh": "任何时候你想让 Claude 记住某事，例如，如果它没有正确使用工具，而你希望它从那以后正确使用它，只需输入井号然后告诉它要记住什么，它会记住的。"
+ },
+ {
+  "seg": 275,
+  "start": 1178.604,
+  "end": 1180.385,
+  "speaker": "Unknown",
+  "en": "It'll incorporate it into ClaudeMD automatically.",
+  "zh": "它会自动将其合并到 ClaudeMD 中。"
+ },
+ {
+  "seg": 276,
+  "start": 1182.387,
+  "end": 1192.835,
+  "speaker": "Unknown",
+  "en": "If you ever want to drop down to bash mode, so just run a bash command, you can hit the exclamation mark and type in your command, that'll run locally, but that also goes into the context window, so Claude will see it on the next turn.",
+  "zh": "如果你想要进入 bash 模式，也就是只运行一个 bash 命令，你可以按感叹号并输入你的命令，这会在本地运行，但这也会进入上下文窗口，所以 Claude 会在下一轮看到它。"
+ },
+ {
+  "seg": 277,
+  "start": 1194.063,
+  "end": 1198.973,
+  "speaker": "Unknown",
+  "en": "And this is pretty good for long-running commands if you know exactly what you want to do or any command that you want to get into context.",
+  "zh": "如果你确切知道你想做什么，或者对于任何你想进入上下文的命令，这对于长时间运行的命令来说都很好。"
+ },
+ {
+  "seg": 278,
+  "start": 1199.373,
+  "end": 1200.957,
+  "speaker": "Unknown",
+  "en": "And Claude will see the command and the output.",
+  "zh": "Claude 会看到该命令和输出。"
+ },
+ {
+  "seg": 279,
+  "start": 1203.326,
+  "end": 1204.787,
+  "speaker": "Unknown",
+  "en": "You can at mention files and folders.",
+  "zh": "你可以 at 提及文件和文件夹。"
+ },
+ {
+  "seg": 280,
+  "start": 1205.547,
+  "end": 1208.149,
+  "speaker": "Unknown",
+  "en": "Any time you can hit escape to stop what Claude is doing.",
+  "zh": "任何时候你可以按 Escape 来停止 Claude 正在做的事情。"
+ },
+ {
+  "seg": 281,
+  "start": 1208.729,
+  "end": 1210.871,
+  "speaker": "Unknown",
+  "en": "No matter what Claude is doing, you can always safely hit escape.",
+  "zh": "无论 Claude 在做什么，你总是可以安全地按 Escape。"
+ },
+ {
+  "seg": 282,
+  "start": 1211.211,
+  "end": 1212.352,
+  "speaker": "Unknown",
+  "en": "It's not going to corrupt the session.",
+  "zh": "它不会破坏会话。"
+ },
+ {
+  "seg": 283,
+  "start": 1212.392,
+  "end": 1213.493,
+  "speaker": "Unknown",
+  "en": "It's not going to mess anything up.",
+  "zh": "它不会搞乱任何东西。"
+ },
+ {
+  "seg": 284,
+  "start": 1214.153,
+  "end": 1215.574,
+  "speaker": "Unknown",
+  "en": "So maybe Claude is doing a file edit.",
+  "zh": "所以也许 Claude 正在进行文件编辑。"
+ },
+ {
+  "seg": 285,
+  "start": 1215.654,
+  "end": 1216.234,
+  "speaker": "Unknown",
+  "en": "I'll hit escape.",
+  "zh": "我会按 Escape。"
+ },
+ {
+  "seg": 286,
+  "start": 1216.394,
+  "end": 1217.575,
+  "speaker": "Unknown",
+  "en": "I'll tell it what to do differently.",
+  "zh": "我会告诉它做些不同的事。"
+ },
+ {
+  "seg": 287,
+  "start": 1218.055,
+  "end": 1220.157,
+  "speaker": "Unknown",
+  "en": "Or maybe it suggested a 20-line edit.",
+  "zh": "或者也许它建议了一个 20 行的编辑。"
+ },
+ {
+  "seg": 288,
+  "start": 1220.197,
+  "end": 1223.639,
+  "speaker": "Unknown",
+  "en": "And I'm like, actually, 19 of these lines look perfect, but one line you should change.",
+  "zh": "然后我想，其实，这 19 行看起来很完美，但有一行你应该改改。"
+ },
+ {
+  "seg": 289,
+  "start": 1223.939,
+  "end": 1224.5,
+  "speaker": "Unknown",
+  "en": "I'll hit escape.",
+  "zh": "我会按 Escape。"
+ },
+ {
+  "seg": 290,
+  "start": 1224.56,
+  "end": 1225.16,
+  "speaker": "Unknown",
+  "en": "I'll tell it that.",
+  "zh": "我会告诉它那点。 [["
+ },
+ {
+  "seg": 291,
+  "start": 1225.32,
+  "end": 1226.441,
+  "speaker": "Unknown",
+  "en": "And then I'll tell it to redo the edit.",
+  "zh": "然后我会告诉它重做那个编辑。"
+ },
+ {
+  "seg": 292,
+  "start": 1229.196,
+  "end": 1231.299,
+  "speaker": "Unknown",
+  "en": "You can hit escape twice to jump back in history.",
+  "zh": "你可以按两次 Escape 来跳回历史记录。"
+ },
+ {
+  "seg": 293,
+  "start": 1232.16,
+  "end": 1238.308,
+  "speaker": "Unknown",
+  "en": "And then after you're done with the session, you can start Claude with a resume to resume that session if you want, or dash dash continue.",
+  "zh": "然后在你完成会话后，如果你想，你可以用一个 resume 来启动 Claude 以恢复那个会话，或者 dash dash continue。"
+ },
+ {
+  "seg": 294,
+  "start": 1240.251,
+  "end": 1247.16,
+  "speaker": "Unknown",
+  "en": "And then anytime if you want to see more output, hit control R. And that'll show you the entire output, the same thing that Claude sees in its context window.",
+  "zh": "然后任何时候如果你想看更多输出，按 Control R。那会显示给你完整输出，也就是 Claude 在其上下文窗口中看到的同样的东西。"
+ },
+ {
+  "seg": 295,
+  "start": 1253.627,
+  "end": 1256.188,
+  "speaker": "Unknown",
+  "en": "The next thing I wanna talk about is the Claude Code SDK.",
+  "zh": "接下来我想谈论的是 Claude Code SDK。"
+ },
+ {
+  "seg": 296,
+  "start": 1256.208,
+  "end": 1257.628,
+  "speaker": "Unknown",
+  "en": "So we talked about this at the top.",
+  "zh": "所以我们在最开始谈论过这个。"
+ },
+ {
+  "seg": 297,
+  "start": 1258.308,
+  "end": 1263.669,
+  "speaker": "Unknown",
+  "en": "Right after this, Sid is doing a session, I think, just across the hallway, and he's gonna go super deep on the SDK.",
+  "zh": "就在这之后，我想，Sid 正在过一场环节，就在大厅对面，他会深入探讨 SDK。"
+ },
+ {
+  "seg": 298,
+  "start": 1264.209,
+  "end": 1269.59,
+  "speaker": "Unknown",
+  "en": "If you hadn't played around with this, if you use the dash P flag in Claude, this is what the SDK is.",
+  "zh": "如果你没有玩过这个，如果你在 Claude 中使用 dash P 标志，SDK 就是这个。"
+ },
+ {
+  "seg": 299,
+  "start": 1270.251,
+  "end": 1273.511,
+  "speaker": "Unknown",
+  "en": "And we've been landing a bunch of features over the last few weeks to make it even better.",
+  "zh": "我们在过去几周一直在发布一系列功能以让它变得更好。"
+ },
+ {
+  "seg": 300,
+  "start": 1273.531,
+  "end": 1276.992,
+  "speaker": "Unknown",
+  "en": "So yeah, you can build on top of this.",
+  "zh": "所以是的，你可以在这个基础上构建。"
+ },
+ {
+  "seg": 301,
+  "start": 1277.012,
+  "end": 1277.712,
+  "speaker": "Unknown",
+  "en": "You can do cool stuff.",
+  "zh": "你可以做些很酷的事情。"
+ },
+ {
+  "seg": 302,
+  "start": 1277.732,
+  "end": 1279.713,
+  "speaker": "Unknown",
+  "en": "This is exactly the thing that Claude Code uses.",
+  "zh": "这正是 Claude Code 使用的东西。"
+ },
+ {
+  "seg": 303,
+  "start": 1280.013,
+  "end": 1281.153,
+  "speaker": "Unknown",
+  "en": "It's exactly the same SDK.",
+  "zh": "它是完全相同的 SDK。"
+ },
+ {
+  "seg": 304,
+  "start": 1282.838,
+  "end": 1285.239,
+  "speaker": "Unknown",
+  "en": "And so, for example, something you can do is Claude-P.",
+  "zh": "所以，举个例子，你可以做的一件事是 Claude-P。"
+ },
+ {
+  "seg": 305,
+  "start": 1285.359,
+  "end": 1287.22,
+  "speaker": "Unknown",
+  "en": "So this is the CLI SDK.",
+  "zh": "所以这是 CLI SDK。"
+ },
+ {
+  "seg": 306,
+  "start": 1287.58,
+  "end": 1289.221,
+  "speaker": "Unknown",
+  "en": "You can pass a prompt.",
+  "zh": "你可以传入一个提示。"
+ },
+ {
+  "seg": 307,
+  "start": 1290.022,
+  "end": 1293.483,
+  "speaker": "Unknown",
+  "en": "You can pass some allowed tools, which could include specific bash commands.",
+  "zh": "你可以传入一些允许的工具，这可能包括特定的 bash 命令。"
+ },
+ {
+  "seg": 308,
+  "start": 1294.124,
+  "end": 1295.524,
+  "speaker": "Unknown",
+  "en": "And you can tell it which format you want.",
+  "zh": "你可以告诉它你想要哪种格式。"
+ },
+ {
+  "seg": 309,
+  "start": 1295.804,
+  "end": 1300.247,
+  "speaker": "Unknown",
+  "en": "So you might want JSON, or you might want streaming JSON, if you want to process this somehow.",
+  "zh": "所以你可能想要 JSON，或者如果你想要以某种方式处理它，你可能想要流式 JSON。"
+ },
+ {
+  "seg": 310,
+  "start": 1301.221,
+  "end": 1302.923,
+  "speaker": "Unknown",
+  "en": "So this is awesome for building on.",
+  "zh": "所以这对构建来说非常棒。"
+ },
+ {
+  "seg": 311,
+  "start": 1302.963,
+  "end": 1304.405,
+  "speaker": "Unknown",
+  "en": "We use this in CI all the time.",
+  "zh": "我们一直在 CI 中使用这个。"
+ },
+ {
+  "seg": 312,
+  "start": 1305.126,
+  "end": 1306.548,
+  "speaker": "Unknown",
+  "en": "We use this for incident response.",
+  "zh": "我们把它用于事件响应。"
+ },
+ {
+  "seg": 313,
+  "start": 1306.608,
+  "end": 1307.989,
+  "speaker": "Unknown",
+  "en": "We use this in all sorts of pipelines.",
+  "zh": "我们在各种流水线中使用它。"
+ },
+ {
+  "seg": 314,
+  "start": 1308.67,
+  "end": 1309.611,
+  "speaker": "Unknown",
+  "en": "So really convenient.",
+  "zh": "所以真的很方便。"
+ },
+ {
+  "seg": 315,
+  "start": 1309.631,
+  "end": 1311.133,
+  "speaker": "Unknown",
+  "en": "Just think of it as like a Unix utility.",
+  "zh": "把它想象成像是一个 Unix 工具。"
+ },
+ {
+  "seg": 316,
+  "start": 1311.153,
+  "end": 1311.814,
+  "speaker": "Unknown",
+  "en": "You give it a prompt.",
+  "zh": "你给它一个提示。"
+ },
+ {
+  "seg": 317,
+  "start": 1311.914,
+  "end": 1312.655,
+  "speaker": "Unknown",
+  "en": "It gives you JSON.",
+  "zh": "它给你 JSON。"
+ },
+ {
+  "seg": 318,
+  "start": 1313.016,
+  "end": 1314.017,
+  "speaker": "Unknown",
+  "en": "You can use this in any way.",
+  "zh": "你可以用任何方式使用它。"
+ },
+ {
+  "seg": 319,
+  "start": 1314.157,
+  "end": 1314.918,
+  "speaker": "Unknown",
+  "en": "You can pipe into it.",
+  "zh": "你可以用管道输入到它。"
+ },
+ {
+  "seg": 320,
+  "start": 1314.938,
+  "end": 1315.599,
+  "speaker": "Unknown",
+  "en": "You can pipe out of it.",
+  "zh": "你可以用管道从它输出。"
+ },
+ {
+  "seg": 321,
+  "start": 1320.333,
+  "end": 1321.534,
+  "speaker": "Unknown",
+  "en": "The piping is also pretty cool.",
+  "zh": "管道操作也相当酷。"
+ },
+ {
+  "seg": 322,
+  "start": 1321.714,
+  "end": 1327.88,
+  "speaker": "Unknown",
+  "en": "So you can use, for example, git status and pipe this in and use jq to select the result.",
+  "zh": "所以你可以使用，例如，git status 并把这个用管道传进去，并使用 jq 来选择结果。"
+ },
+ {
+  "seg": 323,
+  "start": 1328.58,
+  "end": 1330.082,
+  "speaker": "Unknown",
+  "en": "The combinations are endless.",
+  "zh": "组合是无穷无尽的。"
+ },
+ {
+  "seg": 324,
+  "start": 1330.122,
+  "end": 1331.303,
+  "speaker": "Unknown",
+  "en": "And it's sort of this new idea.",
+  "zh": "而且这有点像是一个新想法。"
+ },
+ {
+  "seg": 325,
+  "start": 1331.323,
+  "end": 1333.304,
+  "speaker": "Unknown",
+  "en": "It's like a super intelligent Unix utility.",
+  "zh": "它就像一个超级智能的 Unix 工具。"
+ },
+ {
+  "seg": 326,
+  "start": 1333.885,
+  "end": 1336.187,
+  "speaker": "Unknown",
+  "en": "And I think we barely scratched the surface of how to use this.",
+  "zh": "我认为我们几乎只是触及了如何使用这个的表面。"
+ },
+ {
+  "seg": 327,
+  "start": 1336.407,
+  "end": 1337.388,
+  "speaker": "Unknown",
+  "en": "We're just figuring this out.",
+  "zh": "我们正在弄清楚这一点。"
+ },
+ {
+  "seg": 328,
+  "start": 1338.93,
+  "end": 1346.356,
+  "speaker": "Unknown",
+  "en": "You can read from a GCP bucket, read a giant log and pipe it in and tell Claude to figure out what's interesting about this log.",
+  "zh": "你可以从 GCP bucket 读取，读取一个巨大的日志并用管道传进去，并告诉 Claude 弄清楚这个日志有什么有趣的地方。"
+ },
+ {
+  "seg": 329,
+  "start": 1346.456,
+  "end": 1349.518,
+  "speaker": "Unknown",
+  "en": "You can fetch data from the Sentry CLI.",
+  "zh": "你可以从 Sentry CLI 获取数据。"
+ },
+ {
+  "seg": 330,
+  "start": 1349.958,
+  "end": 1352.2,
+  "speaker": "Unknown",
+  "en": "You can also pipe it in and have Claude do something with it.",
+  "zh": "你也可以把它用管道传进去，并让 Claude 用它做一些事情。"
+ },
+ {
+  "seg": 331,
+  "start": 1358.373,
+  "end": 1369.287,
+  "speaker": "Unknown",
+  "en": "The final thing, and this is probably the most advanced use cases we see, I'm sort of a Claude normie, so I'll have usually one Claude running at a time, and maybe I'll have a few terminal tabs for a few different repos running at a time.",
+  "zh": "最后一件事，这可能是我们见过的最先进的用例，我算是一个 Claude 普通用户，所以我通常一次运行一个 Claude，也许我会同时为几个不同的仓库 打开几个终端标签页运行。"
+ },
+ {
+  "seg": 332,
+  "start": 1369.788,
+  "end": 1372.171,
+  "speaker": "Unknown",
+  "en": "When I look at power users in and out of Anthropic,",
+  "zh": "当我看看 Anthropic 内外的高级用户时，"
+ },
+ {
+  "seg": 333,
+  "start": 1373.28,
+  "end": 1375.561,
+  "speaker": "Unknown",
+  "en": "Almost always, they're going to have SSH sessions.",
+  "zh": "几乎总是，他们会拥有 SSH 会话。"
+ },
+ {
+  "seg": 334,
+  "start": 1375.621,
+  "end": 1378.802,
+  "speaker": "Unknown",
+  "en": "They'll have tmux tunnels into their Claude sessions.",
+  "zh": "他们会有通往其 Claude 会话的 tmux 隧道。"
+ },
+ {
+  "seg": 335,
+  "start": 1379.342,
+  "end": 1384.064,
+  "speaker": "Unknown",
+  "en": "They're going to have a bunch of checkouts of the same repo so that they can run a bunch of Claudes in parallel in that repo.",
+  "zh": "他们会有一堆同一个仓库的检出，这样他们就可以在那个仓库中并行运行一堆 Claude。"
+ },
+ {
+  "seg": 336,
+  "start": 1384.644,
+  "end": 1387.666,
+  "speaker": "Unknown",
+  "en": "Or they're using Git work trees to have some kind of isolation as they do this.",
+  "zh": "或者他们在做这件事时使用 Git work trees 来获得某种隔离。"
+ },
+ {
+  "seg": 337,
+  "start": 1388.526,
+  "end": 1390.447,
+  "speaker": "Unknown",
+  "en": "And we're actively working on making this easier to use.",
+  "zh": "我们正在积极致力于让这变得更容易使用。"
+ },
+ {
+  "seg": 338,
+  "start": 1390.767,
+  "end": 1396.389,
+  "speaker": "Unknown",
+  "en": "But for now, these are some ideas for how to do more work in parallel with Claude.",
+  "zh": "但就目前而言，这些是关于如何用 Claude 并行做更多工作的一些想法。"
+ },
+ {
+  "seg": 339,
+  "start": 1396.849,
+  "end": 1398.29,
+  "speaker": "Unknown",
+  "en": "You can run as many sessions as you want.",
+  "zh": "你想运行多少会话就可以运行多少。"
+ },
+ {
+  "seg": 340,
+  "start": 1400.09,
+  "end": 1401.571,
+  "speaker": "Unknown",
+  "en": "And there's a lot that you can get done in parallel.",
+  "zh": "而且你可以并行完成很多事情。"
+ },
+ {
+  "seg": 341,
+  "start": 1404.887,
+  "end": 1406.128,
+  "speaker": "Unknown",
+  "en": "So yeah, that's it.",
+  "zh": "所以是的，就是这样。"
+ },
+ {
+  "seg": 342,
+  "start": 1406.248,
+  "end": 1408.229,
+  "speaker": "Unknown",
+  "en": "I wanted to also leave some time for Q&A.",
+  "zh": "我还想留出一些时间给问答。"
+ },
+ {
+  "seg": 343,
+  "start": 1408.969,
+  "end": 1411.05,
+  "speaker": "Unknown",
+  "en": "So I think this is the last slide that I have.",
+  "zh": "所以我想这是我拥有的最后一张幻灯片。"
+ },
+ {
+  "seg": 344,
+  "start": 1411.811,
+  "end": 1414.252,
+  "speaker": "Unknown",
+  "en": "And yeah, if folks have questions, there's mics on both sides.",
+  "zh": "是的，如果大家有问题，两边都有麦克风。"
+ },
+ {
+  "seg": 345,
+  "start": 1415.613,
+  "end": 1433.703,
+  "speaker": "Unknown",
+  "en": "And yeah, we'd love to answer any questions.",
+  "zh": "是的，我们很乐意回答任何问题。"
+ },
+ {
+  "seg": 346,
+  "start": 1434.083,
+  "end": 1434.323,
+  "speaker": "Unknown",
+  "en": "I did.",
+  "zh": "我有。"
+ },
+ {
+  "seg": 347,
+  "start": 1440.787,
+  "end": 1443.308,
+  "speaker": "Unknown",
+  "en": "Hey Boris, thanks for building a Cloud Code.",
+  "zh": "嘿 Boris，感谢你构建了 Cloud Code。"
+ },
+ {
+  "seg": 348,
+  "start": 1443.549,
+  "end": 1449.352,
+  "speaker": "Unknown",
+  "en": "And I was wondering what was the hardest implementation, like part of the implementation for you of building it?",
+  "zh": "我想知道最难实现的部分是什么，比如你在构建它时对你来说最难实现的部分是什么？"
+ },
+ {
+  "seg": 349,
+  "start": 1451.453,
+  "end": 1455.115,
+  "speaker": "Unknown",
+  "en": "I think there's a lot of tricky parts.",
+  "zh": "我认为有很多棘手的部分。"
+ },
+ {
+  "seg": 350,
+  "start": 1455.255,
+  "end": 1460.418,
+  "speaker": "Unknown",
+  "en": "I think one part that is especially tricky is the things that we do to make bash commands safe.",
+  "zh": "我认为特别棘手的一部分是我们为了让 bash 命令安全所做的事情。"
+ },
+ {
+  "seg": 351,
+  "start": 1461.739,
+  "end": 1465.661,
+  "speaker": "Unknown",
+  "en": "Bash is inherently pretty dangerous and it can change system state in unexpected ways.",
+  "zh": "Bash 本质上是相当危险的，并且它能以意想不到的方式改变系统状态。"
+ },
+ {
+  "seg": 352,
+  "start": 1466.261,
+  "end": 1467.242,
+  "speaker": "Unknown",
+  "en": "But at the same time if",
+  "zh": "但同时如果"
+ },
+ {
+  "seg": 353,
+  "start": 1468.638,
+  "end": 1471.959,
+  "speaker": "Unknown",
+  "en": "You have to manually approve every single bash command.",
+  "zh": "你必须手动批准每一条 bash 命令。"
+ },
+ {
+  "seg": 354,
+  "start": 1472.059,
+  "end": 1476.3,
+  "speaker": "Unknown",
+  "en": "It's super annoying as an engineer, and you can't really be productive because you're just constantly approving every command.",
+  "zh": "作为一名工程师这超级烦人，而且你无法真正提高生产力，因为你只是在不断地批准每一条命令。"
+ },
+ {
+  "seg": 355,
+  "start": 1477.32,
+  "end": 1487.463,
+  "speaker": "Unknown",
+  "en": "And just kind of navigating how to do this safely in a way that scales across the different kinds of code bases people have, because not everyone runs their code in a Docker container, was pretty tricky.",
+  "zh": "而且要搞清楚如何安全地做到这一点，并且以一种可扩展的方式跨越人们拥有的不同类型的代码库，因为不是每个人都在 Docker 容器中运行他们的代码，这相当棘手。"
+ },
+ {
+  "seg": 356,
+  "start": 1488.003,
+  "end": 1490.624,
+  "speaker": "Unknown",
+  "en": "And essentially, the thing we landed on is there's some commands that are read-only.",
+  "zh": "本质上，我们确定的方案是有些命令是只读的。"
+ },
+ {
+  "seg": 357,
+  "start": 1491.004,
+  "end": 1495.727,
+  "speaker": "Unknown",
+  "en": "There's some static analysis that we do in order to figure out which commands can be combined in safe ways.",
+  "zh": "我们会做一些静态分析，以便搞清楚哪些命令可以以安全的方式组合。"
+ },
+ {
+  "seg": 358,
+  "start": 1496.327,
+  "end": 1501.87,
+  "speaker": "Unknown",
+  "en": "And then we have this pretty complex tiered permission system so that you can allow list and block list commands at different levels.",
+  "zh": "然后我们有一个相当复杂的分层权限系统，这样你就可以把命令列入允许列表和阻止列表。"
+ },
+ {
+  "seg": 359,
+  "start": 1505.331,
+  "end": 1505.772,
+  "speaker": "Unknown",
+  "en": "Hi, Boris.",
+  "zh": "嗨，Boris。"
+ },
+ {
+  "seg": 360,
+  "start": 1506.472,
+  "end": 1513.675,
+  "speaker": "Unknown",
+  "en": "You mentioned giving an image to Claude Code, which made me wonder if there's some sort of multimodal functionality that I'm not aware of.",
+  "zh": "你提到了给 Claude Code 一个图像，这让我好奇是否有什么我不知道的多模态功能。"
+ },
+ {
+  "seg": 361,
+  "start": 1513.755,
+  "end": 1516.877,
+  "speaker": "Unknown",
+  "en": "Are you just pointing it at an image on the file system or something?",
+  "zh": "你只是把它指向文件系统上的一个图像还是什么？"
+ },
+ {
+  "seg": 362,
+  "start": 1517.457,
+  "end": 1519.178,
+  "speaker": "Unknown",
+  "en": "Yeah, so Claude Code is fully multimodal.",
+  "zh": "是的，所以 Claude Code 是完全多模态的。"
+ },
+ {
+  "seg": 363,
+  "start": 1519.758,
+  "end": 1520.818,
+  "speaker": "Unknown",
+  "en": "It has been from the start.",
+  "zh": "从一开始就是这样。"
+ },
+ {
+  "seg": 364,
+  "start": 1520.918,
+  "end": 1523.399,
+  "speaker": "Unknown",
+  "en": "It's in a terminal, so it's a little hard to discover.",
+  "zh": "它在终端里，所以有点难发现。"
+ },
+ {
+  "seg": 365,
+  "start": 1524.439,
+  "end": 1526.54,
+  "speaker": "Unknown",
+  "en": "But yeah, you can take an image and just drag and drop it in.",
+  "zh": "但是是的，你可以拿一个图像直接把它拖进去。"
+ },
+ {
+  "seg": 366,
+  "start": 1526.68,
+  "end": 1527.1,
+  "speaker": "Unknown",
+  "en": "That'll work.",
+  "zh": "那会起作用。"
+ },
+ {
+  "seg": 367,
+  "start": 1527.9,
+  "end": 1528.88,
+  "speaker": "Unknown",
+  "en": "You can give it a file path.",
+  "zh": "你可以给它一个文件路径。"
+ },
+ {
+  "seg": 368,
+  "start": 1529.08,
+  "end": 1530.281,
+  "speaker": "Unknown",
+  "en": "That'll work.",
+  "zh": "那会起作用。"
+ },
+ {
+  "seg": 369,
+  "start": 1530.361,
+  "end": 1532.881,
+  "speaker": "Unknown",
+  "en": "You can copy and paste the image in, and that works too.",
+  "zh": "你可以复制粘贴图像进去，那也行得通。"
+ },
+ {
+  "seg": 370,
+  "start": 1535.342,
+  "end": 1537.943,
+  "speaker": "Unknown",
+  "en": "So I'll use this pretty often for if I have a mock of something.",
+  "zh": "所以我会经常用这个，如果我有一个原型。"
+ },
+ {
+  "seg": 371,
+  "start": 1537.963,
+  "end": 1539.663,
+  "speaker": "Unknown",
+  "en": "I'll just drag and drop in the mock.",
+  "zh": "我就直接把原型拖进去。"
+ },
+ {
+  "seg": 372,
+  "start": 1539.683,
+  "end": 1540.544,
+  "speaker": "Unknown",
+  "en": "I'll tell it to implement it.",
+  "zh": "我告诉它去实现它。"
+ },
+ {
+  "seg": 373,
+  "start": 1540.944,
+  "end": 1543.064,
+  "speaker": "Unknown",
+  "en": "I'll give it up a tier server so it can iterate against it.",
+  "zh": "我会给它一个 tier 服务器，这样它可以针对它进行迭代。"
+ },
+ {
+  "seg": 374,
+  "start": 1543.645,
+  "end": 1545.065,
+  "speaker": "Unknown",
+  "en": "And yeah, it's just fully automated.",
+  "zh": "是的，它完全是自动化的。"
+ },
+ {
+  "seg": 375,
+  "start": 1548.963,
+  "end": 1552.964,
+  "speaker": "Unknown",
+  "en": "Hey, why did you build a CLI tool instead of an IDE?",
+  "zh": "嘿，你为什么要构建一个 CLI 工具而不是一个 IDE？"
+ },
+ {
+  "seg": 376,
+  "start": 1554.785,
+  "end": 1555.845,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a good question.",
+  "zh": "是的，这是个好问题。"
+ },
+ {
+  "seg": 377,
+  "start": 1555.885,
+  "end": 1556.966,
+  "speaker": "Unknown",
+  "en": "I think there's probably two reasons.",
+  "zh": "我想大概有两个原因。"
+ },
+ {
+  "seg": 378,
+  "start": 1557.146,
+  "end": 1560.427,
+  "speaker": "Unknown",
+  "en": "One is we started this at Anthropic.",
+  "zh": "一个是我们在 Anthropic 开始了这个。"
+ },
+ {
+  "seg": 379,
+  "start": 1560.627,
+  "end": 1562.927,
+  "speaker": "Unknown",
+  "en": "And at Anthropic, people use a broad range of IDEs.",
+  "zh": "在 Anthropic，人们使用广泛的 IDE。"
+ },
+ {
+  "seg": 380,
+  "start": 1563.228,
+  "end": 1565.188,
+  "speaker": "Unknown",
+  "en": "And some people use VS Code.",
+  "zh": "有些人使用 VS Code。"
+ },
+ {
+  "seg": 381,
+  "start": 1565.208,
+  "end": 1568.889,
+  "speaker": "Unknown",
+  "en": "Other people use Zed or Xcode or Vim or Emacs.",
+  "zh": "其他人使用 Zed 或 Xcode 或 Vim 或 Emacs。"
+ },
+ {
+  "seg": 382,
+  "start": 1569.85,
+  "end": 1572.07,
+  "speaker": "Unknown",
+  "en": "And it was just hard to build something that works for everyone.",
+  "zh": "构建一个对每个人都适用的东西很难。"
+ },
+ {
+  "seg": 383,
+  "start": 1572.39,
+  "end": 1574.351,
+  "speaker": "Unknown",
+  "en": "And so terminal is just the common denominator.",
+  "zh": "所以终端只是公分母。"
+ },
+ {
+  "seg": 384,
+  "start": 1575.453,
+  "end": 1581.937,
+  "speaker": "Unknown",
+  "en": "The second thing is at Anthropic, we see up close how fast the model is getting better.",
+  "zh": "第二件事是在 Anthropic，我们近距离看到模型变好的速度有多快。"
+ },
+ {
+  "seg": 385,
+  "start": 1582.678,
+  "end": 1586.22,
+  "speaker": "Unknown",
+  "en": "And so I think there's a good chance that by the end of the year, people aren't using IDEs anymore.",
+  "zh": "所以我认为很有可能在年底之前，人们就不再使用 IDE 了。"
+ },
+ {
+  "seg": 386,
+  "start": 1587.581,
+  "end": 1598.509,
+  "speaker": "Unknown",
+  "en": "And so we want to get ready for this future, and we want to avoid over-investing in UI and other layers on top, given that the way the models are progressing, it may not be useful work pretty soon.",
+  "zh": "所以我们要为这个未来做好准备，我们要避免在 UI 和其他上层层级上过度投资，鉴于模型进步的方式，这很快可能就是无用的工作。"
+ },
+ {
+  "seg": 387,
+  "start": 1603.952,
+  "end": 1604.453,
+  "speaker": "Unknown",
+  "en": "How much of you",
+  "zh": "你们中的多少"
+ },
+ {
+  "seg": 388,
+  "start": 1604.894,
+  "end": 1606.215,
+  "speaker": "Unknown",
+  "en": "I don't know if this is, is this on?",
+  "zh": "我不知道这是不是，这是开着的吗？"
+ },
+ {
+  "seg": 389,
+  "start": 1607.256,
+  "end": 1612.322,
+  "speaker": "Unknown",
+  "en": "How much have you used Claude Code for machine learning modeling and almost that AutoML experience?",
+  "zh": "你们在多大程度上使用 Claude Code 进行机器学习建模以及那种 AutoML 体验？"
+ },
+ {
+  "seg": 390,
+  "start": 1612.342,
+  "end": 1615.305,
+  "speaker": "Unknown",
+  "en": "I was curious what the experience has been so far with that.",
+  "zh": "我很好奇到目前为止这方面的体验如何。"
+ },
+ {
+  "seg": 391,
+  "start": 1616.021,
+  "end": 1621.345,
+  "speaker": "Unknown",
+  "en": "Yeah, I think the question was, how much are we using Claude Code for machine learning and modeling?",
+  "zh": "是的，我想问题是，我们在多大程度上使用 Claude Code 进行机器学习和建模？"
+ },
+ {
+  "seg": 392,
+  "start": 1621.846,
+  "end": 1623.447,
+  "speaker": "Unknown",
+  "en": "We actually use it for this a bunch.",
+  "zh": "我们实际上经常用它做这个。"
+ },
+ {
+  "seg": 393,
+  "start": 1623.467,
+  "end": 1627.41,
+  "speaker": "Unknown",
+  "en": "So both engineers and researchers at Anthropic use Claude Code every day.",
+  "zh": "所以 Anthropic 的工程师和研究员每天都使用 Claude Code。"
+ },
+ {
+  "seg": 394,
+  "start": 1628.391,
+  "end": 1632.815,
+  "speaker": "Unknown",
+  "en": "I think about 80% of people at Anthropic that are technical use Claude Code every day.",
+  "zh": "我认为 Anthropic 大约 80% 的人员是技术人员，每天都使用 Claude Code。"
+ },
+ {
+  "seg": 395,
+  "start": 1633.496,
+  "end": 1637.319,
+  "speaker": "Unknown",
+  "en": "And hopefully you can see that in the product and the amount of love and dogfooding we've put into it.",
+  "zh": "希望你能从产品中看到这一点，以及我们投入的爱和内部自用。"
+ },
+ {
+  "seg": 396,
+  "start": 1638.36,
+  "end": 1643.144,
+  "speaker": "Unknown",
+  "en": "But this includes researchers who use tools like the notebook tool to edit and run notebooks.",
+  "zh": "但这包括研究员，他们使用像 notebook 工具这样的工具来编辑和运行 notebook。"
+ },
+ {
+  "seg": 397,
+  "start": 1643.844,
+  "end": 1644.445,
+  "speaker": "Unknown",
+  "en": "OK, very cool.",
+  "zh": "好的，非常酷。"
+ },
+ {
+  "seg": 398,
+  "start": 1644.645,
+  "end": 1644.905,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 399,
+  "start": 1647.645,
+  "end": 1649.283,
+  "speaker": "Unknown",
+  "en": "All right, I think that's it.",
+  "zh": "好的，我想就这些了。"
+ },
+ {
+  "seg": 400,
+  "start": 1649.303,
+  "end": 1649.566,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ }
+]

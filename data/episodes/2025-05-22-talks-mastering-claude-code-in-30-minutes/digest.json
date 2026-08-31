@@ -1,0 +1,136 @@
+{
+  "title_zh": "Claude Code 实战技巧：从提问到并行",
+  "tldr": "Claude Code 创建者 Boris 分享这个终端编程智能体的使用技巧，从基于代码的问答到多会话并行工作流。",
+  "digest_md": "这一集是 Anthropic 技术成员 Boris 讲 Claude Code 的实战用法——Claude Code 是他造的一个完全智能体化的编程助手，不是补全一行代码，而是构建功能、写整个文件、修整个 bug，而且跑在终端里，不绑任何 IDE [01:27 Unknown]。\n\n## 先从\"问代码\"开始，别上来就让它写\n\nBoris 最推荐的上手方式是**基于代码的 Q&A**：直接向你的代码库提问，不写代码。比如问\"这段代码怎么用的\"、\"这个函数为什么有 15 个参数、参数名为什么这么怪\"——Claude Code 不会只做文本搜索，它会翻 Git 历史，查出这些参数是谁加的、关联什么 issue，然后给你一个总结 [06:07 Unknown]。Anthropic 新人技术入职第一天就装 Claude Code 然后开始问代码库，以前入职要两三周，现在两三天 [04:56 Unknown]。\n\n这里有个关键点：Claude Code **不做索引**，代码不上传、不存远程数据库、不拿来训练模型，本地启动就能用，零等待 [05:05 Unknown]。\n\n另外有个实用招：用 macOS 听写功能，按两次听写键直接用嘴说提示词，不用手打 [03:49 Unknown]。\n\n## 让它写代码前，先让它想\n\n能问答之后进编辑代码。Claude Code 的工具集很小——编辑文件、跑 bash 命令、搜索文件——它自己串联起来探索代码、头脑风暴、再动手改 [08:08 Unknown]。你不需要指定它用哪个工具，说\"做这件事\"它自己会串。\n\n一个很容易犯的错：一上来就让它\"实现一个 3000 行的功能\"。有时候能一次对，但经常它做出来的不是你要的。最简单的解法：**先让它做计划**。直接说\"在写代码之前，先做个计划，让我过目，批准了再写\"——不需要开什么特殊模式，说一句话它就懂 [08:48 Unknown]。\n\n还有个常用咒语：`commit push PR`。Claude 会自己查 Git log 弄清提交格式、创建分支、推送、建 pull request，不用你多解释 [09:25 Unknown]。\n\n## 给它反馈工具，让它自己迭代\n\n这是真正拉开差距的用法：**给 Claude 一种检查自己工作的方式**。比如写单元测试、用 Puppeteer 截图、截 iOS 模拟器的图——给它看结果的工具，它就能自己迭代两三轮，从\"还不错\"到\"几乎完美\" [11:14 Unknown]。无论你的领域是单元测试、集成测试还是 UI 截图，思路一样：给它看结果的通道，它自己会改 [11:47 Unknown]。\n\n## 接入团队工具：bash 工具和 MCP\n\n更进一层是把你团队已有的工具接进来。两种方式：bash 工具（比如你们自研的 CLI，告诉它用 `--help` 去学怎么用）和 MCP 工具。告诉它一次，它就会用。经常用的可以写进 ClaudeMD 让它跨会话记住 [10:00 Unknown]。\n\n## 上下文管理：ClaudeMD 是核心\n\nClaude Code 有套分层上下文系统，最基础的是 **ClaudeMD**——一个特殊文件名的 markdown 文件。放在项目根目录，每次启动 Claude Code 自动读入上下文。里面写常见 bash 命令、架构决策、重要文件、风格指南之类的 [12:39 Unknown]。尽量短，太长会吃上下文又没大用 [13:27 Unknown]。\n\nClaudeMD 分三层：\n- **项目级**：签入源码控制，团队共享，写一次所有人受益\n- **本地级**：不签入，只给自己用\n- **嵌套目录级**：放在子目录里，Claude 在那个目录工作时自动拉入 [13:02 Unknown]\n\n公司层面还有 **enterprise route**，跨所有代码库自动拉入，统一管理 [14:03 Unknown]。\n\n同样分层的还有权限系统：企业可以设全局策略，比如某些命令自动批准、某些 URL 永远禁止抓取、员工无法覆盖 [16:08 Unknown]。MCP 服务器配置也可以签入代码库，新人在仓库里跑 Claude Code 就会被提示安装 [16:55 Unknown]。\n\n管理这些的内置工具：`/memory` 查看所有记忆文件、编辑特定文件；输入 `#` 加内容可以让 Claude 自动把东西写进 ClaudeMD [17:37 Unknown]。\n\n## 实用快捷键\n\n- **Shift-Tab**：进入自动接受编辑模式（bash 命令仍需批准），适合它写单元测试迭代时用，省得逐条确认 [19:06 Unknown]\n- **`#`**：让 Claude 记住某件事，自动写入 ClaudeMD [19:28 Unknown]\n- **`!`**：直接跑 bash 命令，输出进上下文窗口，Claude 下一轮能看到 [19:42 Unknown]\n- **`@`**：提及文件和文件夹，拉入上下文 [20:03 Unknown]\n- **Escape**：随时打断，不会破坏会话。可以打断后改指令让它重做，比如 20 行改动能指出其中一行不对让它重来 [20:05 Unknown]\n- **Escape 两次**：跳回历史记录 [20:29 Unknown]\n- **Control-R**：看 Claude 完整输出的原始内容 [20:40 Unknown]\n\n## SDK：当超级智能的 Unix 工具用\n\nClaude Code 有个 SDK，就是 `claude -p` 那个标志背后的东西。你可以传入提示词、指定允许的工具、要 JSON 还是流式 JSON 输出。把它当成一个 Unix 工具：给它输入、它给你 JSON，可以管道进管道出 [20:53 Unknown]。比如 `git status` 管道进去用 jq 选结果、从日志里管道进大日志让它分析、从 Sentry CLI 拉数据让它处理 [22:00 Unknown]。他们在 CI 和事件响应流水线里大量用这个 [21:42 Unknown]。\n\n## 高级玩法：并行多会话\n\nBoris 说自己是普通用户，一次跑一个 Claude。但他看到的高级用户几乎都是：开 SSH 会话、用 tmux 隧道、同一仓库检出多份（或用 Git work trees 隔离），然后并行跑一堆 Claude 同时干活 [22:38 Unknown]。想跑多少会话就跑多少，并行能干很多事 [23:16 Unknown]。\n\n## 本集带走\n\n- **从问答开始上手**：别一上来就让它写代码，先问代码库的问题，同时摸清它能一次搞定什么、什么需要你手把手带\n- **写代码前先让它做计划**：一句话\"先做计划让我看\"，避免它花力气做出不是你要的东西\n- **给它自我检查的工具**：单元测试、UI 截图——只要有反馈通道，它自己迭代两三轮能从\"还行\"到\"几乎完美\"\n- **ClaudeMD 写短、签入代码库**：团队共享一份，写一次所有人受益；太长反而浪费上下文\n- **把 SDK 当 Unix 工具**：管道进管道出，适合塞进 CI 流水线和自动化脚本\n- **并行是高阶玩家的标配**：多检出 + tmux，同一仓库同时跑多个 Claude",
+  "quotes": [
+    {
+      "en": "And so at Anthropic, onboarding used to take about two or three weeks for technical hires. It's now about two or three days.",
+      "zh": "所以在 Anthropic，技术员工的入职过去通常需要两到三周。现在大约只需要两到三天。",
+      "timestamp": "04:56",
+      "speaker": "Boris"
+    },
+    {
+      "en": "And the easiest way to get the result you want is ask it to think first.",
+      "zh": "而得到你想要的结果的最简单方法是要求它先思考。",
+      "timestamp": "09:03",
+      "speaker": "Boris"
+    },
+    {
+      "en": "Bash is inherently pretty dangerous and it can change system state in unexpected ways. But at the same time if you have to manually approve every single bash command, it's super annoying as an engineer, and you can't really be productive because you're just constantly approving every command.",
+      "zh": "Bash 本质上是相当危险的，并且它能以意想不到的方式改变系统状态。但与此同时如果你必须手动批准每一条 bash 命令，作为一名工程师这超级烦人，而且你无法真正提高生产力，因为你只是在不断地批准每一条命令。",
+      "timestamp": "24:21",
+      "speaker": "Boris"
+    },
+    {
+      "en": "And so I think there's a good chance that by the end of the year, people aren't using IDEs anymore.",
+      "zh": "所以我认为很有可能在年底之前，人们就不再使用 IDE 了。",
+      "timestamp": "26:22",
+      "speaker": "Boris"
+    },
+    {
+      "en": "I think about 80% of people at Anthropic that are technical use Claude Code every day.",
+      "zh": "我认为 Anthropic 大约 80% 的人员是技术人员，每天都使用 Claude Code。",
+      "timestamp": "27:08",
+      "speaker": "Boris"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:27",
+      "speaker": "Unknown",
+      "en": "Claude Code is a new kind of AI assistant.",
+      "zh": "Claude Code 是一种新型的 AI 助手。"
+    },
+    {
+      "timestamp": "01:41",
+      "speaker": "Unknown",
+      "en": "It's fully agentic.",
+      "zh": "它是完全智能体的。"
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Unknown",
+      "en": "And so at Anthropic, onboarding used to take about two or three weeks for technical hires. It's now about two or three days.",
+      "zh": "所以在 Anthropic，技术员工的入职过去通常需要两到三周。现在大约只需要两到三天。"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Unknown",
+      "en": "What's also kind of cool about Q&A is we don't do any sort of indexing. So there's no remote database with your code. We don't upload it anywhere.",
+      "zh": "关于 Q&A 还有一点很酷的是，我们不做任何类型的索引。所以没有包含你代码的远程数据库。我们不会把它上传到任何地方。"
+    },
+    {
+      "timestamp": "06:38",
+      "speaker": "Unknown",
+      "en": "The reason it knows it, by the way, is not because we prompted it to. There's nothing in the system prompt about looking through Git history. It knows it because the model is awesome.",
+      "zh": "顺便说一句，它知道这个的原因并不是因为我们提示了它。系统提示词里没有任何关于查看 Git 历史的内容。它知道这个是因为这个模型很棒。"
+    },
+    {
+      "timestamp": "08:48",
+      "speaker": "Unknown",
+      "en": "And something I see sometimes is people, they take Claude Code and they ask it, hey, implement this enormous 3,000 line feature. And sometimes it gets this right on the first shot. But sometimes what happens is the thing that it builds is not at all the thing that you wanted.",
+      "zh": "我有时看到的情况是，人们拿着 Claude Code 然后要求它，嘿，实现这个巨大的 3000 行功能。有时它第一次尝试就做对了。但有时发生的情况是，它构建的东西根本不是你想要的东西。"
+    },
+    {
+      "timestamp": "09:03",
+      "speaker": "Unknown",
+      "en": "And the easiest way to get the result you want is ask it to think first.",
+      "zh": "而得到你想要的结果的最简单方法是要求它先思考。"
+    },
+    {
+      "timestamp": "11:38",
+      "speaker": "Unknown",
+      "en": "So the trick is give it some sort of tool that it can use for feedback to check its work and then based on that it will iterate by itself and you're going to get a much better result.",
+      "zh": "所以诀窍是给它某种它可以用来获取反馈以检查其工作的工具，然后基于此它会自己进行迭代，你将会得到一个好得多的结果。"
+    },
+    {
+      "timestamp": "13:27",
+      "speaker": "Unknown",
+      "en": "Try to keep it pretty short, because if it gets too long, it's just going to use up a bunch of context, and it's usually not that useful.",
+      "zh": "尽量保持简短，因为如果太长，会占用大量上下文，而且通常没什么用。"
+    },
+    {
+      "timestamp": "17:24",
+      "speaker": "Unknown",
+      "en": "You write this once and then you share it with everyone on the team and you get this kind of network effect where someone does a little bit of work and everyone on the team benefits.",
+      "zh": "你写一次，然后与团队中的每个人共享，你会得到这种网络效应，其中某人做了一点点工作，团队中的每个人都受益。"
+    },
+    {
+      "timestamp": "21:11",
+      "speaker": "Unknown",
+      "en": "It's like a super intelligent Unix utility. And I think we barely scratched the surface of how to use this.",
+      "zh": "它就像一个超级智能的 Unix 工具。我认为我们几乎只是触及了如何使用这个的表面。"
+    },
+    {
+      "timestamp": "22:59",
+      "speaker": "Unknown",
+      "en": "They're going to have a bunch of checkouts of the same repo so that they can run a bunch of Claudes in parallel in that repo.",
+      "zh": "他们会有一堆同一个仓库的检出，这样他们就可以在那个仓库中并行运行一堆 Claude。"
+    },
+    {
+      "timestamp": "24:21",
+      "speaker": "Unknown",
+      "en": "Bash is inherently pretty dangerous and it can change system state in unexpected ways. But at the same time if you have to manually approve every single bash command, it's super annoying as an engineer, and you can't really be productive because you're just constantly approving every command.",
+      "zh": "Bash 本质上是相当危险的，并且它能以意想不到的方式改变系统状态。但与此同时如果你必须手动批准每一条 bash 命令，作为一名工程师这超级烦人，而且你无法真正提高生产力，因为你只是在不断地批准每一条命令。"
+    },
+    {
+      "timestamp": "25:17",
+      "speaker": "Unknown",
+      "en": "Yeah, so Claude Code is fully multimodal. It has been from the start. It's in a terminal, so it's a little hard to discover.",
+      "zh": "是的，所以 Claude Code 是完全多模态的。从一开始就是这样。它在终端里，所以有点难发现。"
+    },
+    {
+      "timestamp": "26:22",
+      "speaker": "Unknown",
+      "en": "And so I think there's a good chance that by the end of the year, people aren't using IDEs anymore.",
+      "zh": "所以我认为很有可能在年底之前，人们就不再使用 IDE 了。"
+    },
+    {
+      "timestamp": "27:08",
+      "speaker": "Unknown",
+      "en": "I think about 80% of people at Anthropic that are technical use Claude Code every day.",
+      "zh": "我认为 Anthropic 大约 80% 的人员是技术人员，每天都使用 Claude Code。"
+    }
+  ],
+  "voice_script": "Anthropic 内部大概百分之八十的技术人员，现在每天都在用 Claude Code 干活。这期就来聊聊这个终端编程智能体到底怎么用才最顺手，分享人正是 Claude Code 的创建者 Boris。\n\n很多人刚上手智能体，习惯一上来就甩个大需求，让它直接写代码。Boris 最推荐的上手方式其实完全反过来，先拿来问代码。比如你可以问，这个函数为什么有十五个参数，名字还这么怪？Claude Code 不会只做简单的文本搜索，会去翻 Git 历史，查出这些参数是谁加的、关联什么 issue，然后给你一个总结。效果有多夸张呢？Anthropic 新人技术入职，以前熟悉代码库要两三周，现在两三天就搞定了。\n\n这里顺带提一嘴，Claude Code 不做索引，代码不上传、不存远程数据库，本地启动零等待，隐私方面不用担心。还有个小招，macOS 用户可以按两次听写键，直接用嘴说提示词，连键盘都不用碰。\n\n等问明白了，再让它改代码。这时候有个特别容易犯的错，就是一上来就让实现一个三千行的功能。有时候能一次对，但经常做出来的不是你要的。最简单的解法，就一句话，先让做个计划，过目批准了再写。不需要开什么特殊模式，说一句就懂。\n\n真正拉开差距的用法，是给它一种检查自己工作的方式。比如写完代码让它跑单元测试，或者用 Puppeteer 截个图、截个 iOS 模拟器的图。只要有看结果的通道，自己迭代两三轮，就能从还不错变成几乎完美。这时候有个快捷键特别好用，按 Shift-Tab 进入自动接受编辑模式，省得你逐条点确认，但 bash 命令还是需要你批准的。\n\n说到团队协作，有个东西叫 ClaudeMD，这是核心。就是一个放在项目根目录的 markdown 文件，每次启动自动读入上下文。里面写常见命令、架构决策、风格指南就行，尽量短，太长反而浪费上下文。这个文件分三层，项目级签入代码库团队共享，写一次所有人受益；本地级不签入只给自己用；还有嵌套目录级，放在子目录里，在那个目录工作时自动拉入。平时输入井号加上内容，就能让 Claude 自动把东西写进去。\n\n再进阶一点，Claude Code 有个 SDK，就相当于一个超级智能的 Unix 工具。用 claude 加 p 传提示词进去，要 JSON 还是流式输出随便选，管道进管道出。比如把 git status 管道进去选结果，或者从大日志里管道进去让它分析，在 CI 和事件响应流水线里特别好用。\n\n最后说个高阶玩法。Boris 说自己平时也就跑一个会话，但看到的高级用户，几乎都是开 SSH 会话、用 tmux 隧道、同一仓库用 Git work trees 隔离出多份，然后并行跑一堆 Claude 同时干活。\n\n所以回到最开始那句话，得到想要结果的最简单方法，就是要求它先思考。别急着让它动手，先问，再想，最后写。"
+}

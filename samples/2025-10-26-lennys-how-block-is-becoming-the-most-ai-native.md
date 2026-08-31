@@ -164,9 +164,9 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 
 **换个口味**
 
+- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、MCP</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)、MCP</span>
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同公司:Anthropic · 同概念:MCP、智能体 (agent)</span>
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%:企业软件的好日子到头了吗？]]<span class="pd-rz">同概念:MCP、智能体 (agent)、开源模型 (open source models)</span>
 
 </div>
 </div>

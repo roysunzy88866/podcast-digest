@@ -8,10 +8,11 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>CI/CD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="CI-CD">CI</div><div class="pi"><h1 class="pt">CI/CD</h1><div class="byl">概念 · 又名 CICD / CI CD / CI / CD</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="CI-CD">CI</div><div class="pi"><h1 class="pt">CI/CD</h1><div class="byl">概念 · 又名 CICD / CI CD / CI / CD</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]]**(21:42起):本集说 Claude Code 的 SDK（claude -p）在 CI 流水线中被大量使用
 - **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(17:10起):本集说 CI 流程里遇到 lint 错误，Codex 可以直接打补丁并重启 CI 流程，工程师几乎不需要介入
 - **[[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|《Harness 工程：让智能体零人工写代码的实操》]]**(20:18起):本集将其类比为当前智能体软件生产模式的早期阶段，就像 CI/CD 刚被发明时大家都在摸索，要 15 年后才标准化
 - **[[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]]**(00:47起):Tamuz强调CI流程必须做关键改造：可观测性平台要对智能体可查询，每个PR自动被智能体打风险标签，发布前另一个智能体按风险排序逐个检查日志
@@ -28,8 +29,9 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
+- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念(提及)
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为概念(提及)
 - [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|《Harness 工程：让智能体零人工写代码的实操》]] — 作为概念(提及)
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]] — 作为概念
@@ -42,9 +44,9 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Codex]] · [[OpenAI]] · [[护栏]] · [[Cursor]] · [[MCP]] · [[Simon Maple]] · [[vibe coding]] · [[Claude]] · [[可观测性]]
+[[智能体]] · [[MCP]] · [[Codex]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[Simon Maple]] · [[多模态]]
 
-<script type="application/json" class="pd-epn">{"智能体":162,"Codex":31,"OpenAI":72,"护栏":32,"Cursor":40,"MCP":19,"Simon Maple":6,"vibe coding":24,"Claude":38,"可观测性":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":163,"MCP":20,"Codex":31,"OpenAI":72,"护栏":32,"Anthropic":82,"Cursor":40,"Claude":38,"Simon Maple":6,"多模态":1}</script>
 
 <script>
 (function(){

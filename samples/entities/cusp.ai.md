@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Charrington]] · [[Max Welling]] · [[智能体]] · [[等变性]] · [[扩散模型]] · [[自发对称性破缺]] · [[波]] · [[机器学习力场]] · [[分子动力学]] · [[金属有机框架]]
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":1,"Max Welling":1,"智能体":162,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":1,"Max Welling":1,"智能体":163,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
 
 <script>
 (function(){

@@ -137,8 +137,8 @@ Sinofsky 提了一个很务实的替代路径：**不需要新造 AI 专属法�
 **换个口味**
 
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|Opus 5：神经质但干活最强的评测]]<span class="pd-rz">同公司:Anthropic · 同概念:open source</span>
+- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic</span>
 
 </div>
 </div>

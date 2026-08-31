@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Databricks]] · [[Lenny]] · [[Anthropic]] · [[Nesrine Changuel]] · [[Dhanji Prasanna]] · [[Zico Kolter]] · [[Matei Zaharia]] · [[Colin Zima]] · [[delight]]
 
-<script type="application/json" class="pd-epn">{"智能体":162,"Databricks":9,"Lenny":66,"Anthropic":81,"Nesrine Changuel":1,"Dhanji Prasanna":1,"Zico Kolter":1,"Matei Zaharia":1,"Colin Zima":1,"delight":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":163,"Databricks":9,"Lenny":66,"Anthropic":82,"Nesrine Changuel":1,"Dhanji Prasanna":1,"Zico Kolter":1,"Matei Zaharia":1,"Colin Zima":1,"delight":1}</script>
 
 <script>
 (function(){

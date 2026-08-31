@@ -1,0 +1,1183 @@
+{
+  "episode_id": "2025-05-22-talks-mastering-claude-code-in-30-minutes",
+  "podcast": "精选演讲",
+  "date": "2025-05-22",
+  "tags": [
+    "AI 编程",
+    "Claude Code",
+    "智能体",
+    "CLI 工具",
+    "MCP"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "boris",
+      "type": "person",
+      "role": "host",
+      "name": "Boris",
+      "file": "Boris",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.701,
+            20.141
+          ],
+          "quote": "I'm Boris.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1440.787,
+            1443.308
+          ],
+          "quote": "Hey Boris, thanks for building a Cloud Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1505.331,
+            1505.772
+          ],
+          "quote": "Hi, Boris.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 是 Boris 所在的公司，Anthropic 内部约 80% 的技术人员每天都在使用 Claude Code，新人技术入职从两三周缩短到两三天",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            20.221,
+            24.765
+          ],
+          "quote": "I'm a member of technical staff here at Anthropic, and I created Quad Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 24,
+          "t": [
+            119.951,
+            131.899
+          ],
+          "quote": "So whatever IDE you use, if you use VS Code or if you use Xcode or if you use JetBrains IDEs, there's some people at Anthropic that you can't pry them from their cold, dead hands.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            266.817,
+            269.259
+          ],
+          "quote": "This is something that we teach new hires at Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            296.826,
+            300.65
+          ],
+          "quote": "And so at Anthropic, onboarding used to take about two or three weeks for technical hires.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            627.209,
+            631.532
+          ],
+          "quote": "But this is a common pattern we follow at Anthropic, and we see external customers use, too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1099.429,
+            1103.313
+          ],
+          "quote": "An example of this is in our apps repo for Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1369.788,
+            1372.171
+          ],
+          "quote": "When I look at power users in and out of Anthropic,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1557.146,
+            1560.427
+          ],
+          "quote": "One is we started this at Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1560.627,
+            1562.927
+          ],
+          "quote": "And at Anthropic, people use a broad range of IDEs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1575.453,
+            1581.937
+          ],
+          "quote": "The second thing is at Anthropic, we see up close how fast the model is getting better.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1623.467,
+            1627.41
+          ],
+          "quote": "So both engineers and researchers at Anthropic use Claude Code every day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1628.391,
+            1632.815
+          ],
+          "quote": "I think about 80% of people at Anthropic that are technical use Claude Code every day.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Claude Code 是一种新型的、完全智能体化的 AI 编程助手，运行在终端里，不绑定任何 IDE，用于构建功能、编写整个文件、修复整个 bug",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            58.059,
+            61.5
+          ],
+          "quote": "And this will help you install Claude Code, just so you can follow along for the rest of the talk.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            85.931,
+            86.751
+          ],
+          "quote": "So what is Claude Code?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            87.292,
+            90.573
+          ],
+          "quote": "Claude Code is a new kind of AI assistant.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            100.437,
+            101.377
+          ],
+          "quote": "Claude Code is not for that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 21,
+          "t": [
+            112.566,
+            115.648
+          ],
+          "quote": "And what's kind of cool about Claude Code is it works with all of your tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            132.019,
+            136.542
+          ],
+          "quote": "But they use Claude Code because Claude Code works with every single IDE, every terminal out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            177.177,
+            182.502
+          ],
+          "quote": "As you open up Claude Code for the first time, there's a few things that we recommend doing to get your environment set up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            224.444,
+            228.868
+          ],
+          "quote": "And something that I actually do is, for a lot of my prompts, I won't hand-type them into Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            244.843,
+            249.708
+          ],
+          "quote": "You can just talk to Claude Code like you would another engineer, and you don't have to type a lot of code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            254.35,
+            257.994
+          ],
+          "quote": "So when you're starting out with Claude Code, it's so freeform and it can do everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            291.921,
+            295.184
+          ],
+          "quote": "With Claude Code, you can just ask Claude Code, and it'll explore the code base.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            331.689,
+            338.733
+          ],
+          "quote": "So I'm going to show some very specific prompts and very specific code samples that you can use and hopefully improve and up-level your Claude code experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            346.292,
+            348.875
+          ],
+          "quote": "And Claude Code, it won't just do, like, a text search and try to answer this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            428.752,
+            433.956
+          ],
+          "quote": "And Claude Code looks at the log, it knows my username, and it'll just give me a nice readout of everything I shipped.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            442.127,
+            449.953
+          ],
+          "quote": "For people that have not used Claude Code before, if you're just showing it to someone for the first time, onboarding your team, the thing we definitely recommend is start with code-based Q&A.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            456.998,
+            460.26
+          ],
+          "quote": "And it'll start teaching them this boundary of what can Claude Code do?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            488.063,
+            490.265
+          ],
+          "quote": "And with Claude Code, we give it a pretty small set of tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            509.6,
+            512.241
+          ],
+          "quote": "It'll string it together in the right way that makes sense for Claude code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 139,
+          "t": [
+            528.693,
+            536.397
+          ],
+          "quote": "And something I see sometimes is people, they take Claude Code and they ask it, hey, implement this enormous 3,000 line feature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            600.502,
+            602.523
+          ],
+          "quote": "And this is where Claude Code starts to really shine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            612.989,
+            614.31
+          ],
+          "quote": "And you can tell Claude Code about this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            634.854,
+            643.44
+          ],
+          "quote": "Claude Code can use bash tools, it can use MCP tools, so just tell it about the tools, and you can add the MCP tool, and you can tell it how to use it, and it'll just start using it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 170,
+          "t": [
+            645.095,
+            656.486
+          ],
+          "quote": "And this is extremely powerful, because when you start to use code on a new codebase, you can just give it all of your tools, all the tools your team already uses for this codebase, and Claude Code can use it on your behalf.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            875.735,
+            882.5
+          ],
+          "quote": "And over here, we have a few examples of the slash commands that we have in Claude code itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            883.592,
+            889.513
+          ],
+          "quote": "And so for example, if you're in the Claude code repo and you see issues getting labeled, that's actually this workflow running here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            892.134,
+            899.236
+          ],
+          "quote": "And we have a GitHub action running, the same one we talked about this morning, where Claude code will run this command and it's just a slash command.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1019.088,
+            1025.13
+          ],
+          "quote": "That way any time someone runs Claude code in your code base, they'll be prompted to install the MCP servers and share it with the team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1253.627,
+            1256.188
+          ],
+          "quote": "The next thing I wanna talk about is the Claude Code SDK.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1277.732,
+            1279.713
+          ],
+          "quote": "This is exactly the thing that Claude Code uses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1506.472,
+            1513.675
+          ],
+          "quote": "You mentioned giving an image to Claude Code, which made me wonder if there's some sort of multimodal functionality that I'm not aware of.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1517.457,
+            1519.178
+          ],
+          "quote": "Yeah, so Claude Code is fully multimodal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1607.256,
+            1612.322
+          ],
+          "quote": "How much have you used Claude Code for machine learning modeling and almost that AutoML experience?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1616.021,
+            1621.345
+          ],
+          "quote": "Yeah, I think the question was, how much are we using Claude Code for machine learning and modeling?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1623.467,
+            1627.41
+          ],
+          "quote": "So both engineers and researchers at Anthropic use Claude Code every day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1628.391,
+            1632.815
+          ],
+          "quote": "I think about 80% of people at Anthropic that are technical use Claude Code every day.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agentic)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 Claude Code 是 fully agentic 的，即给它工具它自己会串联起来探索代码、头脑风暴、再动手改，而不是一次只补全一行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            101.897,
+            102.758
+          ],
+          "quote": "It's fully agentic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            477.875,
+            485.941
+          ],
+          "quote": "And the cool thing about using a LLM in an agentic way is you give it tools, and it's just magical.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claudemd",
+      "type": "concept",
+      "role": "concept",
+      "name": "ClaudeMD",
+      "file": "ClaudeMD",
+      "primary": true,
+      "how_described": "本集说 ClaudeMD 是一个特殊文件名的 markdown 文件，放在项目根目录每次启动自动读入上下文，里面写常见 bash 命令、架构决策、风格指南等，分项目级、本地级、嵌套目录级三层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            620.824,
+            626.788
+          ],
+          "quote": "If you find yourself using it a lot, you can also dump this into your ClaudeMD, which we'll talk about in a bit, so Claude can remember this across sessions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 188,
+          "t": [
+            759.097,
+            762.158
+          ],
+          "quote": "The simplest one is what we call ClaudeMD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            767.956,
+            771.419
+          ],
+          "quote": "So the same directory you start Claude in, put a ClaudeMD in there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            775.242,
+            777.844
+          ],
+          "quote": "And essentially, the first user turn will include the ClaudeMD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            779.985,
+            781.887
+          ],
+          "quote": "You can also have a local ClaudeMD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            785.529,
+            790.893
+          ],
+          "quote": "So ClaudeMD, you should check into source control, share with your team so that you can write it once and share it with your team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            843.388,
+            853.392
+          ],
+          "quote": "And of course, if you're a company, maybe you want a ClaudeMD that's shared across all the different code bases, and you wanna manage it on behalf of your users, and you can put it in your enterprise route, and that'll get pulled in automatically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            948.399,
+            956.223
+          ],
+          "quote": "So not just ClaudeMD, but also config and kind of everything about Claude you can pull in in this hierarchical way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1063.36,
+            1071.707
+          ],
+          "quote": "So maybe I have an enterprise policy, I have my user memory, I have project ClaudeMD, and then maybe there's a nested ClaudeMD that's only pulled in for certain directories.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1178.604,
+            1180.385
+          ],
+          "quote": "It'll incorporate it into ClaudeMD automatically.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是 Claude Code 可以使用的工具类型之一，MCP 服务器配置可以签入代码库让团队共享，新人在仓库里跑 Claude Code 就会被提示安装",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            633.033,
+            633.913
+          ],
+          "quote": "And same thing with MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            634.854,
+            643.44
+          ],
+          "quote": "Claude Code can use bash tools, it can use MCP tools, so just tell it about the tools, and you can add the MCP tool, and you can tell it how to use it, and it'll just start using it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 199,
+          "t": [
+            795.488,
+            806.653
+          ],
+          "quote": "The kinds of things you put in CloudMD, it's like common bash commands, common MCP tools, architectural decisions, important files, anything that you would kind of typically need to know in order to work in this codebase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1015.047,
+            1016.327
+          ],
+          "quote": "And then same thing for MCP servers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1016.847,
+            1019.048
+          ],
+          "quote": "Have an MCP JSON file, check it into the code base.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1019.088,
+            1025.13
+          ],
+          "quote": "That way any time someone runs Claude code in your code base, they'll be prompted to install the MCP servers and share it with the team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1087.491,
+            1096.29
+          ],
+          "quote": "Take the time to configure QuadMD, MCP servers, all the stuff that your team uses so that you can use it once, configure it once, and then share it with everyone.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1107.857,
+            1111.2
+          ],
+          "quote": "There's a Puppeteer MCP server, and we share this with the team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1111.34,
+            1120.969
+          ],
+          "quote": "And there's an MCP JSON checked in, so any engineer working that repo can use Puppeteer in order to pilot end-to-end tests and to screenshot automatically and iterate so that every engineer doesn't have to install it themselves.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "SDK",
+      "file": "SDK",
+      "primary": true,
+      "how_described": "本集说 Claude Code 的 SDK 就是 claude -p 背后的东西，可以传入提示词、指定允许的工具、要 JSON 还是流式 JSON 输出，像一个超级智能的 Unix 工具一样管道进管道出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 295,
+          "t": [
+            1253.627,
+            1256.188
+          ],
+          "quote": "The next thing I wanna talk about is the Claude Code SDK.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1258.308,
+            1263.669
+          ],
+          "quote": "Right after this, Sid is doing a session, I think, just across the hallway, and he's gonna go super deep on the SDK.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1264.209,
+            1269.59
+          ],
+          "quote": "If you hadn't played around with this, if you use the dash P flag in Claude, this is what the SDK is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1280.013,
+            1281.153
+          ],
+          "quote": "It's exactly the same SDK.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1285.359,
+            1287.22
+          ],
+          "quote": "So this is the CLI SDK.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说以智能体的方式使用 LLM 的酷之处在于你给它工具，它会自己弄清楚如何使用，比如给 Claude Code 编辑文件、跑 bash、搜索文件的工具它就自动串联",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            477.875,
+            485.941
+          ],
+          "quote": "And the cool thing about using a LLM in an agentic way is you give it tools, and it's just magical.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集提到 Claude Code 可以通过 GitHub app 在 issue 或 pull request 上 mention Claude，以及用 commit push PR 让 Claude 自动创建分支和拉取请求",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            198.939,
+            200.681
+          ],
+          "quote": "You can do slash install GitHub app.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 39,
+          "t": [
+            200.841,
+            208.626
+          ],
+          "quote": "So today we announced a GitHub app where you can add mention Claude on any GitHub issue or pull request.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            412.618,
+            415.301
+          ],
+          "quote": "I often ask about GitHub issues.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            569.801,
+            576.663
+          ],
+          "quote": "There's nothing special about it, but Claude is kind of smart enough to interpret this, so it'll make a commit, it'll push it to the branch, make a branch, and then make a pull request from your GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 215,
+          "t": [
+            889.793,
+            891.054
+          ],
+          "quote": "It's labeled GitHub issues.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            892.134,
+            899.236
+          ],
+          "quote": "And we have a GitHub action running, the same one we talked about this morning, where Claude code will run this command and it's just a slash command.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "puppeteer",
+      "type": "company",
+      "role": "company",
+      "name": "Puppeteer",
+      "file": "Puppeteer",
+      "primary": false,
+      "how_described": "本集说 Anthropic 的 apps 仓库里有一个 Puppeteer MCP 服务器，工程师用它来做端到端测试和自动截图迭代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            677.221,
+            685.07
+          ],
+          "quote": "When Claude has some way to check its work, so for example, by writing unit tests or screenshotting in Puppeteer or screenshotting the iOS simulator,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1107.857,
+            1111.2
+          ],
+          "quote": "There's a Puppeteer MCP server, and we share this with the team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1111.34,
+            1120.969
+          ],
+          "quote": "And there's an MCP JSON checked in, so any engineer working that repo can use Puppeteer in order to pilot end-to-end tests and to screenshot automatically and iterate so that every engineer doesn't have to install it themselves.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vs-code",
+      "type": "company",
+      "role": "company",
+      "name": "VS Code",
+      "file": "VS Code",
+      "primary": false,
+      "how_described": "本集提到 Claude Code 不绑定 IDE，无论你用 VS Code、Xcode 还是 JetBrains 都可以用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            119.951,
+            131.899
+          ],
+          "quote": "So whatever IDE you use, if you use VS Code or if you use Xcode or if you use JetBrains IDEs, there's some people at Anthropic that you can't pry them from their cold, dead hands.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1563.228,
+            1565.188
+          ],
+          "quote": "And some people use VS Code.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "xcode",
+      "type": "company",
+      "role": "company",
+      "name": "Xcode",
+      "file": "Xcode",
+      "primary": false,
+      "how_described": "本集作为 IDE 举例之一提到，Claude Code 不绑定任何 IDE，Xcode 用户也能用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            119.951,
+            131.899
+          ],
+          "quote": "So whatever IDE you use, if you use VS Code or if you use Xcode or if you use JetBrains IDEs, there's some people at Anthropic that you can't pry them from their cold, dead hands.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1565.208,
+            1568.889
+          ],
+          "quote": "Other people use Zed or Xcode or Vim or Emacs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "jetbrains",
+      "type": "company",
+      "role": "company",
+      "name": "JetBrains",
+      "file": "JetBrains",
+      "primary": false,
+      "how_described": "本集说 Anthropic 有些人用 JetBrains IDEs，Claude Code 能与每个 IDE 一起工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            119.951,
+            131.899
+          ],
+          "quote": "So whatever IDE you use, if you use VS Code or if you use Xcode or if you use JetBrains IDEs, there's some people at Anthropic that you can't pry them from their cold, dead hands.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sentry",
+      "type": "company",
+      "role": "company",
+      "name": "Sentry",
+      "file": "Sentry",
+      "primary": false,
+      "how_described": "本集举例说可以从 Sentry CLI 获取数据，用管道传给 Claude Code 让它处理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            1346.456,
+            1349.518
+          ],
+          "quote": "You can fetch data from the Sentry CLI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gcp",
+      "type": "company",
+      "role": "company",
+      "name": "GCP",
+      "file": "GCP",
+      "primary": false,
+      "how_described": "本集举例说可以从 GCP bucket 读取巨大的日志，用管道传给 Claude Code 让它分析",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 328,
+          "t": [
+            1338.93,
+            1346.356
+          ],
+          "quote": "You can read from a GCP bucket, read a giant log and pipe it in and tell Claude to figure out what's interesting about this log.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "type": "company",
+      "role": "company",
+      "name": "Docker",
+      "file": "Docker",
+      "primary": false,
+      "how_described": "本集提到不是每个人都在 Docker 容器中运行代码，这让安全地处理 bash 命令变得更棘手",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 355,
+          "t": [
+            1477.32,
+            1487.463
+          ],
+          "quote": "And just kind of navigating how to do this safely in a way that scales across the different kinds of code bases people have, because not everyone runs their code in a Docker container, was pretty tricky.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zed",
+      "type": "company",
+      "role": "company",
+      "name": "Zed",
+      "file": "Zed",
+      "primary": false,
+      "how_described": "本集作为 Anthropic 内部使用的 IDE 之一被提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 381,
+          "t": [
+            1565.208,
+            1568.889
+          ],
+          "quote": "Other people use Zed or Xcode or Vim or Emacs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": false,
+      "how_described": "本集说 Claude Code 的 SDK（claude -p）在 CI 流水线中被大量使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            1302.963,
+            1304.405
+          ],
+          "quote": "We use this in CI all the time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "multimodal",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模态 (multimodal)",
+      "file": "多模态",
+      "primary": false,
+      "how_described": "本集说 Claude Code 是完全多模态的，从一开始就是这样，可以拖放图片、给文件路径或复制粘贴图片进去",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 360,
+          "t": [
+            1506.472,
+            1513.675
+          ],
+          "quote": "You mentioned giving an image to Claude Code, which made me wonder if there's some sort of multimodal functionality that I'm not aware of.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1517.457,
+            1519.178
+          ],
+          "quote": "Yeah, so Claude Code is fully multimodal.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "permission-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "权限系统 (permission system)",
+      "file": "权限系统",
+      "primary": false,
+      "how_described": "本集说 Claude Code 有一个相当复杂的分层权限系统，企业可以设全局策略让某些命令自动批准、某些 URL 永远禁止抓取",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 358,
+          "t": [
+            1496.327,
+            1501.87
+          ],
+          "quote": "And then we have this pretty complex tiered permission system so that you can allow list and block list commands at different levels.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "indexing",
+      "type": "concept",
+      "role": "concept",
+      "name": "索引 (indexing)",
+      "file": "索引",
+      "primary": false,
+      "how_described": "本集说 Claude Code 的 Q&A 不做任何索引，代码不上传、不存远程数据库、不拿来训练模型，所以零等待",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            305.514,
+            308.878
+          ],
+          "quote": "What's also kind of cool about Q&A is we don't do any sort of indexing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            325.285,
+            325.966
+          ],
+          "quote": "There's no indexing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

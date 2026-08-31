@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[token]] · [[Heitor Lessa]] · [[Harry Stebbings]] · [[规范驱动开发]] · [[Eno Reyes]] · [[苏格拉底方法]] · [[Anthropic]] · [[对抗性审查]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":162,"token":11,"Heitor Lessa":1,"Harry Stebbings":7,"规范驱动开发":1,"Eno Reyes":1,"苏格拉底方法":1,"Anthropic":81,"对抗性审查":1,"OpenAI":72}</script>
+<script type="application/json" class="pd-epn">{"智能体":163,"token":11,"Heitor Lessa":1,"Harry Stebbings":7,"规范驱动开发":1,"Eno Reyes":1,"苏格拉底方法":1,"Anthropic":82,"对抗性审查":1,"OpenAI":72}</script>
 
 <script>
 (function(){

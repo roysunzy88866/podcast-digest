@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Checkr":1,"企业市场":1,"消费模式":1,"DRI":4,"智能体":162,"生成式 AI":4,"富矿利基":1,"交易破坏者":1,"NRR":3}</script>
+<script type="application/json" class="pd-epn">{"Checkr":1,"企业市场":1,"消费模式":1,"DRI":4,"智能体":163,"生成式 AI":4,"富矿利基":1,"交易破坏者":1,"NRR":3}</script>
 
 <script>
 (function(){

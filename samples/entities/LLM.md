@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>20</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]]**(07:57起):本集说以智能体的方式使用 LLM 的酷之处在于你给它工具，它会自己弄清楚如何使用，比如给 Claude Code 编辑文件、跑 bash、搜索文件的工具它就自动串联
 - **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(10:35起):本集反复讨论 LLM 写代码的能力：LLM 能把用户需求翻译成实际代码，但需要合适的基础设施（数据库、用户管理等）；让 LLM 写尽可能少的代码是关键策略；不同 LLM 擅长不同任务
 - **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(20:07起):本集把 LLM 描述为解决问题的核心能力，区分了在旧代码上插入 LLM 的'AI 在边缘'和以 LLM 为核心重新构建的'AI 在核心'两种策略
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:15起):本集说 LLM 在总结多条引用时，被提及次数最多的产品会被推荐，而不是链接排第一就赢；Webflow 的 LLM 流量转化率是 Google 搜索流量的 6 倍
@@ -66,8 +67,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
+- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
@@ -93,9 +95,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Claude]] · [[Replit]] · [[Google]] · [[OpenAI]] · [[Cursor]] · [[主观能动性]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Claude]] · [[Claude Code]] · [[Replit]] · [[Google]] · [[OpenAI]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":162,"Anthropic":81,"Lenny":66,"ChatGPT":41,"Claude":38,"Replit":12,"Google":31,"OpenAI":72,"Cursor":40,"主观能动性":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":163,"Anthropic":82,"Lenny":66,"ChatGPT":41,"Claude":38,"Claude Code":42,"Replit":12,"Google":31,"OpenAI":72,"MCP":20}</script>
 
 <script>
 (function(){

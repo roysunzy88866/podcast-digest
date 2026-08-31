@@ -149,9 +149,9 @@ Chris 认为风投行业正在经历他职业生涯里最严重的大洗牌。�
 
 **换个口味**
 
+- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同公司:Anthropic · 同概念:产品市场匹配 (product market fit)</span>
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
-- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”]]<span class="pd-rz">同概念:LLM、第一性原理 (first principles)</span>
 
 </div>
 </div>

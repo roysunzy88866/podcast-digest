@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]]**(03:18起):本集提到 Claude Code 可以通过 GitHub app 在 issue 或 pull request 上 mention Claude，以及用 commit push PR 让 Claude 自动创建分支和拉取请求
 - **[[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]]**(47:16起):本集提到 GitHub 早期从基于座位的模式开始，现已随 Cursor 等转向混合定价模式
 - **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(22:56起):本集顺带提到 GitHub 是 Nesrine 为写书采访的 B2B 公司之一，以了解 B2B 领域的愉悦实践
 - **[[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]]**(02:54起):本集将其作为开源贡献的核心平台，提到在 GitHub 上筛选活跃贡献者、查看被合并的 PR 来复制维护者风格，以及匿名账号批量生成 PR 的问题
@@ -38,8 +39,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*18 集*
+*19 集*
 
+- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司(提及)
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为被讨论公司
@@ -63,9 +65,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Slack]] · [[Cursor]] · [[Claude Code]] · [[沙箱]] · [[Figma]] · [[Codex]] · [[Lenny]] · [[Notion]] · [[Vercel]]
+[[智能体]] · [[Slack]] · [[Claude Code]] · [[Cursor]] · [[沙箱]] · [[Anthropic]] · [[Figma]] · [[Codex]] · [[MCP]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":162,"Slack":21,"Cursor":40,"Claude Code":41,"沙箱":32,"Figma":11,"Codex":31,"Lenny":66,"Notion":9,"Vercel":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":163,"Slack":21,"Claude Code":42,"Cursor":40,"沙箱":32,"Anthropic":82,"Figma":11,"Codex":31,"MCP":20,"Lenny":66}</script>
 
 <script>
 (function(){

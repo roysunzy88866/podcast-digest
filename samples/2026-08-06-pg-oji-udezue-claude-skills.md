@@ -131,7 +131,7 @@ Oji 团队已把这套技能包开源。在 ProductMind.com 上,你可以不用�
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub · 同概念:Claude Code</span>
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]]<span class="pd-rz">同公司:Figma、GitHub · 同概念:Claude Code</span>
-- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:GitHub · 同概念:Claude Code</span>
+- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:GitHub · 同概念:Claude Code</span>
 
 </div>
 <div class="pd-ex">
