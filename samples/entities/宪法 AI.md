@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>宪法 AI (constitutional AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="宪法 AI">宪法</div><div class="pi"><h1 class="pt">宪法 AI (constitutional AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>174</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="宪法 AI">宪法</div><div class="pi"><h1 class="pt">宪法 AI (constitutional AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>174</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]]**(29:09起):本集详细描述了其工作机制：模型先产生默认输出，然后根据一份自然语言原则清单（来自联合国人权宣言等）判断是否合规，如果不合规就让模型自己批判自己并重写，最后删掉中间过程，训练模型“一开始就做对”。
+- **[[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]]**(32:37起):本集称其为 Anthropic 采用的方法，用另一个模型根据标准来打分，是后训练拒绝训练的一种复杂形式。
 
 ## ① 提到它的金句
 
@@ -367,17 +368,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
+- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Benjamin Mann]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[智能体]] · [[缩放定律]] · [[对齐]] · [[超级智能]]
+[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[后训练]] · [[Lenny]] · [[Adam Gleave]] · [[Benjamin Mann]] · [[FAR AI]] · [[Claude]] · [[通用越狱]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Benjamin Mann":1,"Anthropic":82,"OpenAI":72,"Claude":38,"Claude Code":42,"智能体":163,"缩放定律":4,"对齐":6,"超级智能":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":84,"OpenAI":73,"智能体":165,"后训练":17,"Lenny":66,"Adam Gleave":1,"Benjamin Mann":1,"FAR AI":1,"Claude":39,"通用越狱":1}</script>
 
 <script>
 (function(){

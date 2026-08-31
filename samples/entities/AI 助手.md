@@ -377,7 +377,7 @@ unlisted: true
 
 [[Whitney Wolfe Herd]] · [[Bumble]] · [[滑动]] · [[AI]] · [[推荐引擎]] · [[付费用户]] · [[创始人模式]] · [[Apple]] · [[真实性]] · [[交互模型]]
 
-<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"Bumble":1,"滑动":1,"AI":11,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Apple":14,"真实性":1,"交互模型":1}</script>
+<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"Bumble":1,"滑动":1,"AI":11,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Apple":14,"真实性":2,"交互模型":1}</script>
 
 <script>
 (function(){

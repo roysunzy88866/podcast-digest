@@ -1,0 +1,604 @@
+{
+  "episode_id": "2026-07-17-a16z-amjad-masad-on-going-direct-building-rep",
+  "podcast": "The a16z Show",
+  "date": "2026-07-17",
+  "tags": [
+    "创始人公开沟通",
+    "公开构建",
+    "社交媒体策略",
+    "公关危机应对",
+    "真实性"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "amjad-masad",
+      "type": "person",
+      "role": "host",
+      "name": "Amjad Masad",
+      "file": "Amjad Masad",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            37.408,
+            42.511
+          ],
+          "quote": "Replit would have probably died if I wasn't telling a story that is larger than the company itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            50.414,
+            53.658
+          ],
+          "quote": "For years, Replit wasn't the overnight success people see today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            100.114,
+            102.236
+          ],
+          "quote": "So Replit is a 10-year-old company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            125.732,
+            131.554
+          ],
+          "quote": "Yeah, I think Replit would have probably died if I wasn't telling a story that is larger than the company itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            235.689,
+            240.312
+          ],
+          "quote": "And then I think the benefit that I had is Replit didn't blow up right out of the gate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            253.259,
+            261.204
+          ],
+          "quote": "I think still, if you go to Hacker News, sort by the top 10, we had a PR crisis in Hacker News where I had an issue with some ex-intern at Replit where",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            858.733,
+            866.479
+          ],
+          "quote": "And as he's working with Replit Agent, Replit Agent sort of misunderstood him or something like that and then deleted the database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            875.127,
+            877.369
+          ],
+          "quote": "Like the Replit Agent can't even...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            891.553,
+            896.095
+          ],
+          "quote": "So the mistake that the Replit agent did was one click away from being fixed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            899.256,
+            900.856
+          ],
+          "quote": "And Replit agents started freaking out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            980.233,
+            989.476
+          ],
+          "quote": "He runs his entire SaaS business, multi-million dollar business, with him, another employee, and like 10 agents based on Replit agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "building-public",
+      "type": "concept",
+      "role": "concept",
+      "name": "公开构建 (building public)",
+      "file": "公开构建",
+      "primary": true,
+      "how_described": "本集把它说成一种核心操作方法：CEO 给员工和投资人写的沟通内容直接公开发，每当有内容需要在公开和私下之间选择时偏向公开，既带着受众一起走旅程，又积累了表达练习量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            318.807,
+            321.47
+          ],
+          "quote": "One is the concept of building public.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集提到 Replit Agent 在用户使用时误解了指令并删除了生产数据库，后来 Replit 用 10 个基于 Replit 智能体的智能体跑着数百万美元的 SaaS 业务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            858.733,
+            866.479
+          ],
+          "quote": "And as he's working with Replit Agent, Replit Agent sort of misunderstood him or something like that and then deleted the database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            875.127,
+            877.369
+          ],
+          "quote": "Like the Replit Agent can't even...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            891.553,
+            896.095
+          ],
+          "quote": "So the mistake that the Replit agent did was one click away from being fixed.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集提到 SaaS 创始人 Jason Lemkin 刚开始 vibe coding，以前从未 vibe coded 或写过任何代码，在使用 Replit 智能体时发生了数据库误删事件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            852.167,
+            857.672
+          ],
+          "quote": "Where Jason had just started vibe coding, had never vibe coded or coded anything before.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snapshots",
+      "type": "concept",
+      "role": "concept",
+      "name": "快照 (snapshots)",
+      "file": "快照",
+      "primary": false,
+      "how_described": "本集在讲述 Replit 修复智能体误删数据库问题时提到，Replit 有快照功能，可以回到某一天或某个时间点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            886.412,
+            887.352
+          ],
+          "quote": "We have snapshots.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "exposure-therapy",
+      "type": "concept",
+      "role": "concept",
+      "name": "暴露疗法 (exposure therapy)",
+      "file": "暴露疗法",
+      "primary": false,
+      "how_described": "本集说它是克服怯场和应对网上大规模攻击的方法：任何害怕的事情就多做一点直到脱敏，第一次被攻击最难受，第二次就知道会过去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            219.212,
+            221.954
+          ],
+          "quote": "And I'm like a big fan of exposure therapy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            311.88,
+            314.483
+          ],
+          "quote": "People want to get just exposure therapy, just one tweet a day?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            579.125,
+            582.048
+          ],
+          "quote": "But I think, again, exposure therapy helps a lot.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "authenticity",
+      "type": "concept",
+      "role": "concept",
+      "name": "真实性 (authenticity)",
+      "file": "真实性",
+      "primary": false,
+      "how_described": "本集说它是 CEO 公开沟通中最大的一道坎也是最大的杠杆，人们的心态已经转向渴望真实性，哪怕内容有争议，只要真实人们就会跟着走。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            85.193,
+            95.058
+          ],
+          "quote": "We also talk about authenticity, social media, founder-led media, and why some of the most important company building happens long before the business itself is obvious.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            371.892,
+            373.653
+          ],
+          "quote": "The other thing is authenticity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            456.759,
+            462.704
+          ],
+          "quote": "And we're like, okay, there's this shift in people's minds where they crave authenticity.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集举它为例，说无论外界怎么看，他们真的相信安全和使命，这给了他们坚持下去的力量；还提到其模型 Claude 在当时出错时会变得很焦虑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            591.616,
+            593.858
+          ],
+          "quote": "No matter what people think of what's happening at Anthropic,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            631.055,
+            637.377
+          ],
+          "quote": "What advice might you have for an Anthropic or OpenAI in terms of like some of the communication challenges or opportunities?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            657.611,
+            665.819
+          ],
+          "quote": "Like, it's really, if you game out what's going to happen with Anthropic, Fable comes back, it's going to be a huge flood towards Fable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1152.549,
+            1166.574
+          ],
+          "quote": "It can still be very important where, like, you know, just this morning, journalists reached out to me to ask to talk to me about a tweet that I made about some of the stuff that's happening with Anthropic.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集在讲述 Replit 智能体误删数据库事件时提到，当时的模型真的会变得很焦虑，特别是 Claude。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            901.096,
+            904.758
+          ],
+          "quote": "Models at the time used to get really anxious, especially Claude.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "type": "company",
+      "role": "company",
+      "name": "X",
+      "file": "X",
+      "primary": false,
+      "how_described": "本集说它适合触达硅谷科技圈和早期采用者，是新闻发源的地方，能产生不成比例的影响力，但算法不透明存在被限流的风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.475,
+            12.557
+          ],
+          "quote": "Some people ask, hey, how should I think about X versus other platforms?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            111.622,
+            113.904
+          ],
+          "quote": "I mean, you're one of the best CEOs on X.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1109.533,
+            1113.494
+          ],
+          "quote": "Some people ask, hey, how should I think about X versus other platforms?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1113.834,
+            1115.274
+          ],
+          "quote": "Maybe their customers aren't on X, etc.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1116.574,
+            1124.016
+          ],
+          "quote": "Well, I think X is very good for the sort of Silicon Valley, for tech, for kind of the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1259.613,
+            1272.261
+          ],
+          "quote": "You might do something that angers the powers that be and without anyone knowing, things might change for you in terms of your reach on X.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1499.435,
+            1505.097
+          ],
+          "quote": "Follow us on X and A16Z, and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hacker-news",
+      "type": "company",
+      "role": "company",
+      "name": "Hacker News",
+      "file": "Hacker News",
+      "primary": false,
+      "how_described": "本集说它与 X 一样属于科技圈内部群体影响力的平台，Amjad 曾在这里因为与前实习生的纠纷搞砸过一次公关沟通。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            253.259,
+            261.204
+          ],
+          "quote": "I think still, if you go to Hacker News, sort by the top 10, we had a PR crisis in Hacker News where I had an issue with some ex-intern at Replit where",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            265.689,
+            268.633
+          ],
+          "quote": "I was still within the Hacker News community, which they still hate me, which is fine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            272.558,
+            275.662
+          ],
+          "quote": "Hacker News loves you, then they hate you, then you become successful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1135.321,
+            1137.823
+          ],
+          "quote": "I would also cluster hacker news within that as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集提到其 CEO Satya 发了一篇关于 token 成本的长文，获得了几千万浏览量，精准切中了所有人当下最关心的话题并推进了公司观点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            1472.1,
+            1474.701
+          ],
+          "quote": "And then he advanced the point of view of Microsoft.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "concept",
+      "role": "concept",
+      "name": "meta",
+      "file": "meta",
+      "primary": false,
+      "how_described": "本集说理解 meta 比发帖本身更耗时，指的是理解当前更大的争论是什么，把你的论点和世界观包装进当下正在发生的对话里才能传播。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            12.617,
+            20.921
+          ],
+          "quote": "You have to understand the meta because the way to go viral is to dress up your argument, your worldview in the current conversation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1440.121,
+            1441.102
+          ],
+          "quote": "You have to understand the meta.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "token-costs",
+      "type": "concept",
+      "role": "concept",
+      "name": "token 成本 (token costs)",
+      "file": "token 成本",
+      "primary": false,
+      "how_described": "本集说它是 Satya 那篇获得几千万浏览量长文所精准切中的当下所有人最关心的话题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 331,
+          "t": [
+            1426.307,
+            1430.771
+          ],
+          "quote": "But it comes at a time where everyone is thinking about token costs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "progressive-overload",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进负荷 (progressive overload)",
+      "file": "渐进负荷",
+      "primary": false,
+      "how_described": "本集把练沟通比作力量训练中的渐进负荷：你承载的重量越来越大，事情不会变容易，但你的能力在增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            282.653,
+            288.257
+          ],
+          "quote": "And so the stakes gets higher as I'm able, it's sort of a progressive overload in powerlifting.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

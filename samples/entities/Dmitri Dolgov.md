@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Waymo":10,"Waymo driver":1,"智能体":163,"物理 AI":5,"LiDAR":1,"端到端模型":1,"模拟器":2,"世界模型":2,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":10,"Waymo driver":1,"智能体":165,"物理 AI":5,"LiDAR":1,"端到端模型":1,"模拟器":2,"世界模型":2,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

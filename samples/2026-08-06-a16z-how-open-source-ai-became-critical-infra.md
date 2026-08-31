@@ -116,8 +116,8 @@ Simon 给了一个直白的定义：它的工作就是把可用的 GPU 变成智
 **换个口味**
 
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同公司:Hugging Face · 同概念:护栏 (guardrails)、推理 (inference)、智能体 (agent)</span>
+- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Hugging Face · 同概念:后训练 (post-training)、开放权重 (open weight)、智能体 (agent)</span>
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]]<span class="pd-rz">同公司:Hugging Face · 同概念:开放权重 (open weight)、智能体 (agent)</span>
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Cursor · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 </div>

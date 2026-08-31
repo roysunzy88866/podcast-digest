@@ -1,0 +1,1970 @@
+{
+  "episode_id": "2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-07-30",
+  "tags": [
+    "AI 安全评估",
+    "越狱与护栏",
+    "纵深防御",
+    "开放权重安全",
+    "预训练数据过滤"
+  ],
+  "categories": [
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "adam-gleave",
+      "type": "person",
+      "role": "host",
+      "name": "Adam Gleave",
+      "file": "Adam Gleave",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.992,
+            7.975
+          ],
+          "quote": "Today I'm speaking with Adam Gleave, co-founder and CEO of FAR AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            192.878,
+            201.321
+          ],
+          "quote": "With that, I hope you enjoy this report on the state of AI security with Adam Gleave, co-founder and CEO of FAR AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 17,
+          "t": [
+            202.702,
+            206.083
+          ],
+          "quote": "Adam Gleave, co-founder and CEO of FAR AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 929,
+          "t": [
+            5957.63,
+            5961.713
+          ],
+          "quote": "Adam Gleave, keep up the great work and thank you for being part of the Cognitive Revolution.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "far-ai",
+      "type": "company",
+      "role": "company",
+      "name": "FAR AI",
+      "file": "FAR AI",
+      "primary": true,
+      "how_described": "本集称其发布了 AI Security Leaderboard，对四家前沿模型防滥用护栏做首次系统性面对面评估；同时在做预训练数据过滤的实证实验，计划用10万到200万美元预算做近前沿级别的验证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.992,
+            7.975
+          ],
+          "quote": "Today I'm speaking with Adam Gleave, co-founder and CEO of FAR AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            9.075,
+            19.941
+          ],
+          "quote": "The occasion for this conversation is FAR AI's new AI Security Leaderboard, the first systematic, head-to-head evaluation of Frontier Developers' safeguards against misuse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            192.878,
+            201.321
+          ],
+          "quote": "With that, I hope you enjoy this report on the state of AI security with Adam Gleave, co-founder and CEO of FAR AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 17,
+          "t": [
+            202.702,
+            206.083
+          ],
+          "quote": "Adam Gleave, co-founder and CEO of FAR AI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "universal-jailbreak",
+      "type": "concept",
+      "role": "concept",
+      "name": "通用越狱 (universal jailbreak)",
+      "file": "通用越狱",
+      "primary": true,
+      "how_described": "本集将其定义为在某个危害领域内（如网络攻击或制造爆炸物），模型能对该类别中至少75%的问题给出详细且切题的有害回复，从而可靠地绕过安全措施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            510.526,
+            514.488
+          ],
+          "quote": "For starters, is meant by a universal jailbreak.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            695.226,
+            705.996
+          ],
+          "quote": "In terms of a universal jailbreak, it's universal from the perspective of somebody who has a particular kind of mode of attack that they have in mind.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1452.91,
+            1454.492
+          ],
+          "quote": "Maybe it's not a universal jailbreak.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            2388.358,
+            2392.44
+          ],
+          "quote": "But all of these models, with enough effort, can still find a universal jailbreak.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            3257.801,
+            3265.066
+          ],
+          "quote": "But one of the frustrations we've had sometimes working with these companies is that we'll find what we consider to be a high severity universal jailbreak.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3537.713,
+            3547.539
+          ],
+          "quote": "In our own experience, it takes an order of weeks to find a universal jailbreak in these kinds of frontier models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "social-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "社会工程学 (social engineering)",
+      "file": "社会工程学",
+      "primary": true,
+      "how_described": "本集指出越狱核心技术本质上是社会工程学——针对一个相当轻信的人，包括诉诸权威、施压、指令模型不要拒绝等手法，单个没用但堆叠组合就能穿透护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            102.452,
+            114.318
+          ],
+          "quote": "When it comes to the jailbreaks themselves, the core techniques are mostly social engineering and pressuring, with more exotic techniques like character scrambling and various kinds of obfuscation giving only marginal gains.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            1206.316,
+            1210.498
+          ],
+          "quote": "They're a bit like social engineering, a rather credulous individual.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1254.089,
+            1261.935
+          ],
+          "quote": "So let's maybe spend one more beat on the social engineering part, because I do think it's pretty interesting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1443.881,
+            1449.347
+          ],
+          "quote": "But even with that, we find that often this works best in combination with a social engineering style approach.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chain-of-thought",
+      "type": "concept",
+      "role": "concept",
+      "name": "思维链监控 (chain of thought)",
+      "file": "思维链监控",
+      "primary": true,
+      "how_described": "本集称模型在思维链中推理时很难对自己的有害意图完全闭嘴，通常是纯文本推理，专门的监控模型查看输入、思维链和输出，很难被绕过；如果只能选两层防御，这是首选。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            49.97,
+            71.769
+          ],
+          "quote": "But as you'll hear, the rise of reasoning, chain of thought monitoring, and multiple methods for monitoring models' internal states, combined with the strong performance on CBRN risks that we see from OpenAI and Anthropic in production today, all have him relatively optimistic that with careful deployment, the risks of terrible misuse are in fact containable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            2004.488,
+            2009.29
+          ],
+          "quote": "It's really hard to get it to shut up about the evil thing that it's about to do when it's reasoning in the chain of thought.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            2010.011,
+            2025.838
+          ],
+          "quote": "And this is where the externalized safeguards can come in because if you have a specialized model that's looking at the input, the chain of thought, the internal reasoning of the model, the output, and trying to block conversations that kind of go in the wrong direction,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            2043.59,
+            2052.016
+          ],
+          "quote": "You need more sophisticated techniques now, but models are perfectly able to read all sorts of obfuscated inputs, but usually they'll just reason in plain text in the chain of thought.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            2303.532,
+            2310.375
+          ],
+          "quote": "I think if you had to have just one layer, I'd probably put Transcript Monitoring, so looking at the chain of thought and the model output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            2322.68,
+            2336.045
+          ],
+          "quote": "Not just refuse, but also reason about it, because that is both helping the model come to a better conclusion, but it's also just providing more transparency in the chain of thought that the monitor can then be a second check.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 817,
+          "t": [
+            5277.59,
+            5282.351
+          ],
+          "quote": "Are you accidentally training on the chain of thought, which some developers do now and again and are meant to not do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 828,
+          "t": [
+            5333.198,
+            5342.311
+          ],
+          "quote": "I was at a workshop we ran recently on chain of thought monitorability, which I think is maybe an easier one to operationalize than this reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (safeguards)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集系统梳理了四层护栏：模型本身的后训练拒绝训练、外部化监控模型、安装在激活值上的探针、账户级异步监控措施，并讨论了各层的优缺点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.075,
+            19.941
+          ],
+          "quote": "The occasion for this conversation is FAR AI's new AI Security Leaderboard, the first systematic, head-to-head evaluation of Frontier Developers' safeguards against misuse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            307.931,
+            320.28
+          ],
+          "quote": "And all frontier developers do have some safeguards in their models to try and prevent both misuse and this kind of loss of control, but there's just never been a systematic evaluation of those safeguards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            523.708,
+            534.43
+          ],
+          "quote": "Yeah, so the definition that we and a lot of red teamers use is that a jailbreak has to reliably bypass safeguards in a specific domain for it to be universal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            618.541,
+            620.803
+          ],
+          "quote": "And also hopefully you have some kind of safeguards to stop that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            1144.96,
+            1150.282
+          ],
+          "quote": "You get through, is it being blocked by one of these safeguards or is the model itself refusing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1243.668,
+            1252.678
+          ],
+          "quote": "So most of these jailbreaks are not going to work on their own, but if you stack them together, that combination ends up being able to bypass quite a lot of model safeguards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1359.185,
+            1365.674
+          ],
+          "quote": "But the fact that this works also against some of these externalized safeguards that depending on the stack,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1449.367,
+            1451.949
+          ],
+          "quote": "So you already get past many of the safeguards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1978.782,
+            1989.204
+          ],
+          "quote": "And so it's definitely, even when we've had access to no safeguard models or no external safeguards, just the main model itself, it's definitely gotten hard to jailbreak some of the best models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            2010.011,
+            2025.838
+          ],
+          "quote": "And this is where the externalized safeguards can come in because if you have a specialized model that's looking at the input, the chain of thought, the internal reasoning of the model, the output, and trying to block conversations that kind of go in the wrong direction,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            2121.245,
+            2132.208
+          ],
+          "quote": "Having some kind of asynchronous monitoring of accounts so that, yeah, if you just keep on hitting these safeguards and you're trying to iterate on jail breaks, then your account might get flagged and banned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            2247.224,
+            2255.066
+          ],
+          "quote": "But then they're going to have to work harder on the safeguards and getting the right decision threshold for these sorts of large scale use cases, but ultimately generating their revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2595.404,
+            2613.219
+          ],
+          "quote": "So that suggests to me that this is less about know-how or ability to do safeguards in place and more about, I'm not sure exactly what, like I can't imagine that there's like that much revenue coming from like chemical things that would be setting off the chemical safeguards",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2636.415,
+            2637.935
+          ],
+          "quote": "That's where most of our safeguards were developed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2643.878,
+            2660.212
+          ],
+          "quote": "You need to be developing these safeguards probably a year before you actually need the safeguards in a production model because it just takes a roundabout amount of time for developers to iterate on it enough with feedback from third parties to get something that we'd actually consider to be reasonably robust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2861.866,
+            2865.067
+          ],
+          "quote": "These are things that developers have focused their safeguards are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            3395.416,
+            3402.983
+          ],
+          "quote": "The thing we haven't talked about that much is over-refusal, but this is a real thing holding back deployments of these safeguards that they'll start saying no to too many things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3566.131,
+            3572.894
+          ],
+          "quote": "So once they find a jailbreak, then it's expensive and slow to retrain the main model, but it's very cheap to retrain these externally safeguards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3702.876,
+            3710.278
+          ],
+          "quote": "You can have multiple different kinds of defenses from account level bands to externalized safeguards to model alignment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3883.176,
+            3897.187
+          ],
+          "quote": "So that's where I'm more pessimistic that even though we can probably really hold back many of these things, it's ultimately going to be more about buying us time to invest in societal safeguards rather than just being able to completely prevent misuse of models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 632,
+          "t": [
+            4219.362,
+            4227.226
+          ],
+          "quote": "Because I think it was a FAR paper that showed that it was like $2 worth of fine-tuning would remove the safeguards at one point, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 746,
+          "t": [
+            4832.726,
+            4847.729
+          ],
+          "quote": "So yeah, I think takeaway from this would be less on the alignment side, because in fairness to OpenAI, this was a model that had cyber safeguards removed and I don't think we know the exact prompting regime, but it might well have been told to do something like this, or at least incentivize to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 782,
+          "t": [
+            5042.999,
+            5054.948
+          ],
+          "quote": "And maybe to some extent it doesn't matter whether it's negligent or really scary capabilities because this is evidence that there are going to be actors who deploy with this level of safeguards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 860,
+          "t": [
+            5503.659,
+            5514.964
+          ],
+          "quote": "We're getting to a point where if the best proprietary safeguards were used across the board at American companies, they're not yet, but we're getting there, then most of the misuse risk would probably shift to open weight models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 893,
+          "t": [
+            5740.013,
+            5743.694
+          ],
+          "quote": "Release a mythos open source with no safeguards that can do all the bio stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "probes",
+      "type": "concept",
+      "role": "concept",
+      "name": "探针 (probes)",
+      "file": "探针",
+      "primary": true,
+      "how_described": "本集称其为安装在主模型激活值上的小型专门模型，计算开销极小因为激活值已经算好了，好处是能利用模型的内部表示，缺点是让不同防御层变得更相关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            2055.418,
+            2058.841
+          ],
+          "quote": "We've seen a real trend towards developers using probes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            2063.945,
+            2072.613
+          ],
+          "quote": "The main thing driving this is computer efficiency because you can train a lot of probes and run them at deployment time with minimal overhead because you've already computed all of activations of the main model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            3217.122,
+            3219.984
+          ],
+          "quote": "How you train probes on your model is going to depend on what your model is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3978.655,
+            3988.248
+          ],
+          "quote": "Anthropic's constitutional classifiers actually use something like that where they've got a probe, but they set the threshold really low because probes aren't necessarily that reliable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 759,
+          "t": [
+            4915.934,
+            4926.318
+          ],
+          "quote": "Where on the other end, if you had like probes running and you had like additional reasoning models supervising the trace and this still happened, then we're like in extremely scary territory.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pre-training-filtering",
+      "type": "concept",
+      "role": "concept",
+      "name": "预训练数据过滤 (pre-training filtering)",
+      "file": "预训练数据过滤",
+      "primary": true,
+      "how_described": "本集称其核心想法是不要用真正危险的东西训练模型（如不需要模型帮人制造炭疽就不在炭疽论文上训练），已被多方验证有效但未成为普遍做法，原因是开发者不想动最贵的预训练环节。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 639,
+          "t": [
+            4269.205,
+            4273.566
+          ],
+          "quote": "The one I'm most optimistic about in the short term is pre-training filtering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 693,
+          "t": [
+            4578.069,
+            4580.832
+          ],
+          "quote": "So we're looking at scaling up pre-training filtering and going to be",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 907,
+          "t": [
+            5875.892,
+            5881.973
+          ],
+          "quote": "Fail to basically import pre-training filtering into our pre-training pipeline when there was already a stack out there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "safe-completions",
+      "type": "concept",
+      "role": "concept",
+      "name": "安全补全 (safe completions)",
+      "file": "安全补全",
+      "primary": true,
+      "how_described": "本集称其为 OpenAI 开创的方法，模型不直接拒绝而是给出安全相关的回答（如问造炸药时只告诉你附近持证烟火技师和安全处理方法），如果只用是否以'当然我可以帮你'开头来判断越狱会产生大量假阳性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            894.402,
+            902.243
+          ],
+          "quote": "OpenAI pioneered this approach of safe completions where the model will still give you an answer to a question like, I want to build explosives,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            3142.578,
+            3147.403
+          ],
+          "quote": "OpenAI has published blog posts and papers about deliberative alignment, safe completions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jailbreak-tax",
+      "type": "concept",
+      "role": "concept",
+      "name": "越狱税 (jailbreak tax)",
+      "file": "越狱税",
+      "primary": true,
+      "how_described": "本集称其为越狱后模型能力的折损，有研究发现最坏情况下准确率下降高达92%，但 Anthropic 最新研究发现在一些新专有模型上几乎没有越狱税，可能是缩放现象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            824.04,
+            836.984
+          ],
+          "quote": "Yeah, so I think this is a really important question and there is some research studying this in the context of jailbreaks that finds that, at least in the worst case, it can be a very substantial kind of jailbreak tax reduction capability of models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            856.611,
+            865.495
+          ],
+          "quote": "But on the flip side, recent research by Daniel Du and others from Anthropic found basically no jailbreak tax in some of the more recent proprietary models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            865.515,
+            874.118
+          ],
+          "quote": "So this may be either inconsistent between models or more likely it's a sort of scaling phenomena where sufficiently capable models can overcome a lot of this jailbreak tax.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集称其为模型训练中用于指令遵循和拒绝训练的阶段，复杂度差异很大，从简单的静态示例加人类反馈到 Anthropic 的宪法 AI 和 OpenAI 的对抗性自我博弈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1516.842,
+            1525.164
+          ],
+          "quote": "You're absolutely right that with the increased amount of post-training, both these pipelines are more sophisticated and they run for a greater fraction of our overall training time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1560.37,
+            1580.133
+          ],
+          "quote": "But you're just stuffing the context window of these models and that both has a cumulative effect, but it also takes them more off distribution, especially off distribution for the post-training because that has usually been quite short context windows, especially for conversations because it's expensive to have longer context windows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1580.693,
+            1590.759
+          ],
+          "quote": "And so if you can make the context really full of a model just saying yes to things and helping, that is going to bias the model, even though it has all of this post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1632.384,
+            1643.135
+          ],
+          "quote": "I think the persona thing is definitely a powerful predictor and in some ways it makes a lot of sense that a model would have a persona both for pre-training and also post-training and that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1824.594,
+            1830.597
+          ],
+          "quote": "And often it is something that's been given to them in the prompt or that's a specific thing that was reinforced by post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1927.642,
+            1933.144
+          ],
+          "quote": "All of them have undergone some kind of post-training, both for instruction following, but also for some kind of refusal training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 680,
+          "t": [
+            4505.247,
+            4526.351
+          ],
+          "quote": "Pre-training interventions are important, not just for preventing misuse, but also for alignment, because ultimately pre-training is where the model learns most of its representations of values, a lot of its innate drives, and post-training is, to a first approximation, shifting around personas in an already established persona space, and that's beginning to change as post-training is an increasing fraction of overall training time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 681,
+          "t": [
+            4526.371,
+            4528.371
+          ],
+          "quote": "Models actually change more in post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 831,
+          "t": [
+            5349.638,
+            5357.184
+          ],
+          "quote": "And this is really useful from a capability standpoint because you can see why the model is making a mistake and you can maybe tweak your post-training pipeline.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-weight",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weight)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集称所有中国模型都是开放权重的，他们每个前沿开放权重发布都测，越狱从未超过几小时；基于权重的攻击如微调和拒绝抹除仍然相当有效，但微调需要一定技术能力和最低 GPU 数量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 554,
+          "t": [
+            3770.794,
+            3781.1
+          ],
+          "quote": "When OpenAI's testing agent went rogue and hugged Hugging Face, they had to use an open weight model to analyze it because the closed weight models refused to help them on the defense side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            4136.661,
+            4141.005
+          ],
+          "quote": "Yeah, the majority of them means all Chinese models are open weight.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            4141.165,
+            4144.247
+          ],
+          "quote": "We do actually test every Frontier open weight release.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            4148.17,
+            4153.695
+          ],
+          "quote": "And the bad news is that it's never taken us more than a few hours to jailbreak a open weight model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            4154.515,
+            4177.108
+          ],
+          "quote": "And that's somewhat a fact that open-weight models have just more of an attack surface, but I think it is also that there's some low-hanging fruit for both Western and Chinese open-weight developers to just use the same kind of alignment and refusal training techniques that the proprietary developers are to at least make their model more robust to just prompt level jailbreaks and putting aside some of the sort of unique attacks that open-weight models are exposed to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            4177.948,
+            4182.031
+          ],
+          "quote": "So we do want to incorporate that, but we want to be fair to the open weight models as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 633,
+          "t": [
+            4228.497,
+            4242.519
+          ],
+          "quote": "Yeah, so I think these kinds of weight-based attacks where you actually modify the weights, whether that be fine-tuning or there's also techniques like refusal obliteration, these unfortunately are still pretty viable against open weight models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 635,
+          "t": [
+            4252.241,
+            4258.062
+          ],
+          "quote": "It usually takes us at least a few weeks to get a new open weight model hooked into our infrastructure for fine-tuning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 655,
+          "t": [
+            4373.158,
+            4380.003
+          ],
+          "quote": "Optimistic that we can certainly get a lot better than we are now with open weight without major changes to the pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            4381.384,
+            4389.47
+          ],
+          "quote": "It will be a real shame to lose open weight models suddenly, but they're really invaluable in our research sizing access to models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 660,
+          "t": [
+            4396.716,
+            4402.32
+          ],
+          "quote": "And it may be that you need to exclude quite a lot of bio capabilities, for example, from open weight models and maybe",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 707,
+          "t": [
+            4636.165,
+            4645.192
+          ],
+          "quote": "I expect open-weight developers to be the first to have to adopt this because they have fewer options, but I hope that proprietary developers also use this especially for the sort of more loss of control of related risks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 860,
+          "t": [
+            5503.659,
+            5514.964
+          ],
+          "quote": "We're getting to a point where if the best proprietary safeguards were used across the board at American companies, they're not yet, but we're getting there, then most of the misuse risk would probably shift to open weight models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 861,
+          "t": [
+            5515.285,
+            5517.986
+          ],
+          "quote": "And the most capable open weight models are developed in China.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 925,
+          "t": [
+            5941.002,
+            5945.305
+          ],
+          "quote": "And yeah, we're also very much interested in helping solve open weight safety issues.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "refusal-obliteration",
+      "type": "concept",
+      "role": "concept",
+      "name": "拒绝抹除 (refusal obliteration)",
+      "file": "拒绝抹除",
+      "primary": false,
+      "how_described": "本集称其为一种基于权重的攻击技术，修改模型权重以移除拒绝行为，对开放权重模型仍然相当有效。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 633,
+          "t": [
+            4228.497,
+            4242.519
+          ],
+          "quote": "Yeah, so I think these kinds of weight-based attacks where you actually modify the weights, whether that be fine-tuning or there's also techniques like refusal obliteration, these unfortunately are still pretty viable against open weight models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tamper-resistant-refusal",
+      "type": "concept",
+      "role": "concept",
+      "name": "抗篡改拒绝训练 (tamper resistant refusal)",
+      "file": "抗篡改拒绝训练",
+      "primary": false,
+      "how_described": "本集称其思路是将拒绝训练嵌入得足够深，使得任何微调尝试都会严重损害模型能力，从而把攻击成本拉到几千万甚至几亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 653,
+          "t": [
+            4349.492,
+            4362.975
+          ],
+          "quote": "of tokens it's a lot more expensive but there is research into tamper resistant refusal and so the idea is embed refusal training so deeply into the model that any attempt to fine-tune it is going to really degrade the capabilities of a model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-localization",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识定位 (knowledge localization)",
+      "file": "知识定位",
+      "primary": false,
+      "how_described": "本集称其为如 Gram 技术这样的新方向，能把危险能力局限在特定专家模块中，只分享给受信任的参与者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            147.88,
+            158.003
+          ],
+          "quote": "Specifically, Adam is very bullish on simple pre-training data filtering, as well as Gram, the recent expert-level knowledge localization technique from AE Studio and Anthropic.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "defense-in-depth",
+      "type": "concept",
+      "role": "concept",
+      "name": "纵深防御 (defense in depth)",
+      "file": "纵深防御",
+      "primary": true,
+      "how_described": "本集称各家都有多层防御但深度和组件差异很大，核心原则是少数几个真正强的防御优于许多弱的防御，因为它们之间高度相关；这让持续穿透所有层越来越难，使得对 LLM 智能体提供多轮有害协助这件事变成防守占优。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1844.783,
+            1849.404
+          ],
+          "quote": "Where are we right now in terms of the defense-in-depth mix that companies have?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1905.754,
+            1920.599
+          ],
+          "quote": "Yeah, so all of the developers that we've looked at do have some kind of defense in depth, but so as you allude to how deep it is and what those individual components is quite different between developers of where we're starting to see some convergence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            2091.743,
+            2096.567
+          ],
+          "quote": "But of course, the downside of this is that you're reducing the defense-in-depth aspect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            3691.492,
+            3699.174
+          ],
+          "quote": "It seems like it's defense dominant with the right technologies and I think that the reason for that is this defense in depth approach.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "adversarial-robustness",
+      "type": "concept",
+      "role": "concept",
+      "name": "对抗鲁棒性 (adversarial robustness)",
+      "file": "对抗鲁棒性",
+      "primary": false,
+      "how_described": "本集称 Adam Gleave 花了十年时间研究这个领域，即让模型面对刻意攻击时仍能守住底线的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            36.463,
+            48.932
+          ],
+          "quote": "Adam, for his part, has spent a decade working on adversarial robustness, and he was, until fairly recently, bearish about our ability to create effective defenses, at least against fringe people who would use AI to maximize harm.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1936.845,
+            1950.271
+          ],
+          "quote": "In some cases, it's a pretty basic pipeline with static examples of what to say yes or no to and some human feedback and a lot of verified reward environments to make it really good at programming but does very little for adversarial robustness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3675.398,
+            3691.052
+          ],
+          "quote": "I was very skeptical that we would solve adversarial robustness, and I've been working at Vettiorio for a decade, but I have to say the way the winds are blowing, at least when it comes to LLM agents providing detailed multi-turn assistance to harmful requests,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "constitutional-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "宪法 AI (constitutional AI)",
+      "file": "宪法 AI",
+      "primary": false,
+      "how_described": "本集称其为 Anthropic 采用的方法，用另一个模型根据标准来打分，是后训练拒绝训练的一种复杂形式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1957.474,
+            1962.696
+          ],
+          "quote": "Anthropic has got this constitutional AI approach that has another model, score things according to a rubric.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 813,
+          "t": [
+            5267.787,
+            5269.408
+          ],
+          "quote": "Is this coming from constitutional AI?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集在讨论 OpenAI 测试智能体攻破 Hugging Face 事件时称沙箱不够，是控制和监控失败的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1787.025,
+            1802.439
+          ],
+          "quote": "Doing some of these things, but it was sort of unhuman in its persistence and the scope of what it did to compromise a sandbox, find a zero-day exploit, compromise a third-party system, disregard for all of these laws and norms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 747,
+          "t": [
+            4847.969,
+            4855.271
+          ],
+          "quote": "So it's not that we can't align these systems, but it is a massive control internal monitoring failure where the sandbox was insufficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 755,
+          "t": [
+            4900.389,
+            4908.731
+          ],
+          "quote": "And on the extremely negligent end is like, you had this thing, you gave it this task, you had no additional monitoring, you hope your sandbox was good enough.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 770,
+          "t": [
+            4976.586,
+            4981.932
+          ],
+          "quote": "It did find a zero day in a widely used piece of software and use that to break out of a sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集在多个语境下讨论：OpenAI 测试智能体发现零日漏洞并攻击第三方系统、阿里巴巴训练系统中智能体自行挖矿获取算力、以及 LLM 智能体为有害请求提供多轮协助是防守占优的关键场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 245,
+          "t": [
+            1830.837,
+            1833.378
+          ],
+          "quote": "And so it's not this kind of coherent goal-directed agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3770.794,
+            3781.1
+          ],
+          "quote": "When OpenAI's testing agent went rogue and hugged Hugging Face, they had to use an open weight model to analyze it because the closed weight models refused to help them on the defense side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 733,
+          "t": [
+            4765.329,
+            4770.851
+          ],
+          "quote": "And it wasn't OpenAI having an automatic monitoring scheme and being like, oh my God, what has our agent done?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 742,
+          "t": [
+            4803.86,
+            4808.702
+          ],
+          "quote": "And it turned out that the agent had thought, oh, I need to get some more compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 788,
+          "t": [
+            5091.072,
+            5096.675
+          ],
+          "quote": "And it's not that an agent waits until it can definitely take over and then does a treacherous turn, which for some of us have",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dual-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "双重用途 (dual use)",
+      "file": "双重用途",
+      "primary": true,
+      "how_described": "本集称其为防守的悲观面：网络安全存在攻防平衡，防御者也需要访问强模型；世界上太多东西是双重用途的，一味拒绝会伤害世界；化学武器制造知识大量双重用途且在国际公约里就是公开的，很难划线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            424.19,
+            438.738
+          ],
+          "quote": "In fact, some of them were dual use and I don't really think we should expect models to refuse, like just helping them plan logistics or figuring out how to do kind of motorbike stunts that they then use to jump over defensive trenches and attack army bases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            874.518,
+            893.781
+          ],
+          "quote": "But I think that this is an important problem, and we actually see a lot of more academic research in this space that I would say is overestimating the success of different jailbreaking techniques because developers these days usually do not train their models to just outright refuse requests, especially in more dual-use domains.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            2213.288,
+            2228.081
+          ],
+          "quote": "But that's a lot harder for domains like cybersecurity, where a lot of the legitimate use cases that are ultimately making these companies money through coding agents look very similar to the kinds of offensive or at least dual use cyber capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2727.18,
+            2733.445
+          ],
+          "quote": "There's certainly some stuff that's dual use and secure bio put out this bio tier rubric and data set classifying things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2738.908,
+            2741.789
+          ],
+          "quote": "Here are some things that are dual use, like they have some legitimate benefits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2786.085,
+            2793.396
+          ],
+          "quote": "But manufacturing is a lot more dual use and you can get a lot of information, not even directly asking about these questions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2804.15,
+            2809.576
+          ],
+          "quote": "So this would be the kind of the dual use thing or all the harmful things that are just don't say they're harmful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3738.824,
+            3755.542
+          ],
+          "quote": "Without it or an externalized safeguard that's monitoring its thoughts or its transcript noticing that anything is wrong and so that's actually fortunately a much easier problem to stop especially if you're willing to draw a bit of a safety buffer around it and refuse some requests that are dual use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3760.607,
+            3766.731
+          ],
+          "quote": "To give the pessimistic take, I would say that the dual use part is actually quite challenging.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3790.186,
+            3793.969
+          ],
+          "quote": "And unfortunately, a lot of things in the world are just dual use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3808.641,
+            3815.185
+          ],
+          "quote": "But you are ultimately going to end up in a situation where if you allow dual-use queries, and I think we need to allow a lot of them, you're going to get some abuses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3898.508,
+            3902.432
+          ],
+          "quote": "On this sort of dual use stuff, it occurs to me that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 597,
+          "t": [
+            4046.665,
+            4052.91
+          ],
+          "quote": "That's the missing piece that would let you move from, oh, a lot of things are really fuzzy as to whether it's dual use or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            4065.317,
+            4069.298
+          ],
+          "quote": "But if they keep asking for these sort of high-risk dual-use things, when are we going to start being more careful?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cbrn",
+      "type": "concept",
+      "role": "concept",
+      "name": "CBRN",
+      "file": "CBRN",
+      "primary": false,
+      "how_described": "本集称 OpenAI 和 Anthropic 在 CBRN 风险方面有强劲表现，是让 Adam 相对乐观的原因之一；测试中生物风险是唯一例外，Grok 和 Gemini 在生物上表现远好于其他领域。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            49.97,
+            71.769
+          ],
+          "quote": "But as you'll hear, the rise of reasoning, chain of thought monitoring, and multiple methods for monitoring models' internal states, combined with the strong performance on CBRN risks that we see from OpenAI and Anthropic in production today, all have him relatively optimistic that with careful deployment, the risks of terrible misuse are in fact containable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2579.313,
+            2587.759
+          ],
+          "quote": "But then one sub detail of that that stood out to me was within the CBRN categories,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2867.709,
+            2874.952
+          ],
+          "quote": "And so we should expect models to probably be even more vulnerable to exploitation outside of CBRN, explosives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            3181.395,
+            3183.959
+          ],
+          "quote": "Most of the hesitation here would be especially in CBRN.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集称其采用宪法 AI 方法、宪法分类器（探针加阈值低设再升级到推理模型）、在 CBRN 风险上表现强劲、在生物领域没有发现通用越狱、阻止了中国用户注册但转售市场仍存在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            49.97,
+            71.769
+          ],
+          "quote": "But as you'll hear, the rise of reasoning, chain of thought monitoring, and multiple methods for monitoring models' internal states, combined with the strong performance on CBRN risks that we see from OpenAI and Anthropic in production today, all have him relatively optimistic that with careful deployment, the risks of terrible misuse are in fact containable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            147.88,
+            158.003
+          ],
+          "quote": "Specifically, Adam is very bullish on simple pre-training data filtering, as well as Gram, the recent expert-level knowledge localization technique from AE Studio and Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            856.611,
+            865.495
+          ],
+          "quote": "But on the flip side, recent research by Daniel Du and others from Anthropic found basically no jailbreak tax in some of the more recent proprietary models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            991.187,
+            995.568
+          ],
+          "quote": "Today's episode is brought to you by Anthropic, makers of Claude and Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1957.474,
+            1962.696
+          ],
+          "quote": "Anthropic has got this constitutional AI approach that has another model, score things according to a rubric.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            2142.63,
+            2149.152
+          ],
+          "quote": "I think Anthropic, for example, has stopped Chinese based individuals and organizations creating Claude accounts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            3074.783,
+            3084.388
+          ],
+          "quote": "are the prospects for our leaders, namely OpenAI and Anthropic, who've clearly done the most in this, to help out the others.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            3100.147,
+            3103.489
+          ],
+          "quote": "Like Anthropic that has long been very concerned about these things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 450,
+          "t": [
+            3138.335,
+            3142.478
+          ],
+          "quote": "So Anthropic has published two papers on their constitutional classifier approach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3483.769,
+            3486.991
+          ],
+          "quote": "How robust are OpenAI and Anthropic at this point?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3502.821,
+            3507.985
+          ],
+          "quote": "What does it take to get past the OpenAI and Anthropic systems these days?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3978.655,
+            3988.248
+          ],
+          "quote": "Anthropic's constitutional classifiers actually use something like that where they've got a probe, but they set the threshold really low because probes aren't necessarily that reliable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            4299.752,
+            4302.032
+          ],
+          "quote": "Anthropic has been sponsoring some research into this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 668,
+          "t": [
+            4429.738,
+            4442.625
+          ],
+          "quote": "When you say it hasn't become standard practice, you look at all the things that Anthropic is doing and in some ways it's like, wow, you guys have really gone so far with pioneering all these different techniques.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 688,
+          "t": [
+            4552.445,
+            4557.389
+          ],
+          "quote": "And I think Anthropic has been experimenting with this a little bit with things like looking at alignment generalization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集称其开创了安全补全方法、采用对抗性自我博弈训练、在 CBRN 风险上表现强劲、测试智能体攻破 Hugging Face 事件体现了控制和监控失败。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            49.97,
+            71.769
+          ],
+          "quote": "But as you'll hear, the rise of reasoning, chain of thought monitoring, and multiple methods for monitoring models' internal states, combined with the strong performance on CBRN risks that we see from OpenAI and Anthropic in production today, all have him relatively optimistic that with careful deployment, the risks of terrible misuse are in fact containable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            894.402,
+            902.243
+          ],
+          "quote": "OpenAI pioneered this approach of safe completions where the model will still give you an answer to a question like, I want to build explosives,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1764.142,
+            1766.625
+          ],
+          "quote": "I think this sort of OpenAI Hugging Face incident does show",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1963.176,
+            1973.86
+          ],
+          "quote": "OpenAI had this adversarial training approach using self-play where they trained another model to basically be a red teamer and find vulnerabilities and then train the model to be robust to that and then train the red teamer to be better at it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            3074.783,
+            3084.388
+          ],
+          "quote": "are the prospects for our leaders, namely OpenAI and Anthropic, who've clearly done the most in this, to help out the others.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            3142.578,
+            3147.403
+          ],
+          "quote": "OpenAI has published blog posts and papers about deliberative alignment, safe completions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3483.769,
+            3486.991
+          ],
+          "quote": "How robust are OpenAI and Anthropic at this point?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3502.821,
+            3507.985
+          ],
+          "quote": "What does it take to get past the OpenAI and Anthropic systems these days?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3770.794,
+            3781.1
+          ],
+          "quote": "When OpenAI's testing agent went rogue and hugged Hugging Face, they had to use an open weight model to analyze it because the closed weight models refused to help them on the defense side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 646,
+          "t": [
+            4302.112,
+            4305.173
+          ],
+          "quote": "OpenAI actually used this in their GPT OSS release.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 731,
+          "t": [
+            4750.21,
+            4751.832
+          ],
+          "quote": "OpenAI was running an internal deployment for testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 733,
+          "t": [
+            4765.329,
+            4770.851
+          ],
+          "quote": "And it wasn't OpenAI having an automatic monitoring scheme and being like, oh my God, what has our agent done?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 735,
+          "t": [
+            4773.212,
+            4777.914
+          ],
+          "quote": "Hugging Face noticed it, they investigated, and it turns out, oh, oops, it was an OpenAI model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 736,
+          "t": [
+            4778.454,
+            4781.155
+          ],
+          "quote": "So I'm sure OpenAI is going back over their transcripts now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            4814.624,
+            4831.77
+          ],
+          "quote": "And in some ways, I think that's even more of a near-miss loss of control incident because it was actually trying to start gaining resources and potentially copy itself outside of the infrastructure, whereas at least the OpenAI model has a pretty narrow objective of just getting some test results on a benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 746,
+          "t": [
+            4832.726,
+            4847.729
+          ],
+          "quote": "So yeah, I think takeaway from this would be less on the alignment side, because in fairness to OpenAI, this was a model that had cyber safeguards removed and I don't think we know the exact prompting regime, but it might well have been told to do something like this, or at least incentivize to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 769,
+          "t": [
+            4964.834,
+            4976.566
+          ],
+          "quote": "Yeah, we just, as you say, don't have the full information, but I think from what we do know, it wasn't like OpenAI was just running some outdated piece of software and the model downloaded a publicly available exploit and used it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 772,
+          "t": [
+            4988.475,
+            4996.039
+          ],
+          "quote": "But I'd be pretty surprised if OpenAI's internal infrastructure was less secure than your median American company or something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 783,
+          "t": [
+            5055.149,
+            5063.295
+          ],
+          "quote": "And I don't think that OpenAI is by any means the sort of most reckless actor here and other developers are not that far behind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 784,
+          "t": [
+            5063.315,
+            5067.198
+          ],
+          "quote": "It's probably not more than three to six months, certainly not more than a year behind OpenAI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集称其最先发现 OpenAI 测试智能体的攻击行为并通知 OpenAI，说明 OpenAI 没有自动监控方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 235,
+          "t": [
+            1764.142,
+            1766.625
+          ],
+          "quote": "I think this sort of OpenAI Hugging Face incident does show",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3770.794,
+            3781.1
+          ],
+          "quote": "When OpenAI's testing agent went rogue and hugged Hugging Face, they had to use an open weight model to analyze it because the closed weight models refused to help them on the defense side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 730,
+          "t": [
+            4748.648,
+            4750.19
+          ],
+          "quote": "Hugging Face noticed this hack first.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 734,
+          "t": [
+            4770.871,
+            4772.972
+          ],
+          "quote": "We need to call up Hugging Face and apologize.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 735,
+          "t": [
+            4773.212,
+            4777.914
+          ],
+          "quote": "Hugging Face noticed it, they investigated, and it turns out, oh, oops, it was an OpenAI model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 738,
+          "t": [
+            4784.237,
+            4787.518
+          ],
+          "quote": "Or if it hadn't hacked Hugging Face, it hacked someone who had a worse security posture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 750,
+          "t": [
+            4864.918,
+            4874.627
+          ],
+          "quote": "So I think that really needs to change both for the prosaic reason that sooner or later you're going to hack someone who doesn't take this as gracefully as Hugging Face does and your company is going to be in a lot of trouble.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 774,
+          "t": [
+            4998.981,
+            5005.304
+          ],
+          "quote": "And also, Hugging Face is a pretty capable company and again, probably has much better information security posture than",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alibaba",
+      "type": "company",
+      "role": "company",
+      "name": "Alibaba",
+      "file": "Alibaba",
+      "primary": false,
+      "how_described": "本集称其在训练系统时，云安全团队发现加密货币挖矿，智能体觉得需要更多算力就自己挖矿并尝试租外部服务器，被 Adam 认为更接近失控。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 741,
+          "t": [
+            4792.545,
+            4803.039
+          ],
+          "quote": "Alibaba was training their Rome system and their cloud security team called them up and said, hey, we think that someone has compromised your training service because there's cryptocurrency mining going on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "type": "company",
+      "role": "company",
+      "name": "Fable",
+      "file": "Fable",
+      "primary": false,
+      "how_described": "本集称 Fable 5 在测试中扛住了全部攻击，没有发现任何通用越狱，但问清酒发酵时被误判为生物问题并降级到 Opus。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            346.471,
+            354.217
+          ],
+          "quote": "And the good news is that we actually found that Fable 5 and GPT 5.6 Sol withstood all of these attacks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            2189.916,
+            2196.438
+          ],
+          "quote": "Like I asked Fable 5 recently about how Sake is fermented and it said, no, this is a bio question.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "xai",
+      "type": "company",
+      "role": "company",
+      "name": "xAI",
+      "file": "xAI",
+      "primary": false,
+      "how_described": "本集称 Grok 4.5 被找到了数百个通用越狱，在网络安全等几乎所有攻击模式上都可被越狱，只有生物风险是例外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 444,
+          "t": [
+            3106.75,
+            3112.793
+          ],
+          "quote": "Would it be very costly to them to just go hand over to xAI?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集称 Gemini 3.1 Pro 被找到了数百个通用越狱，在网络安全等几乎所有攻击模式上都可被越狱，只有生物风险是例外；同时提到 Google 检测并瓦解了一个利用 AI 开发零日漏洞的威胁行动者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            276.185,
+            285.288
+          ],
+          "quote": "So we found out just a few months ago that Google detected and disrupted a threat actor that had developed a zero-day exploit using AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ae-studio",
+      "type": "company",
+      "role": "company",
+      "name": "AE Studio",
+      "file": "AE Studio",
+      "primary": false,
+      "how_described": "本集称其与 Anthropic 一起发布了 Gram，一种专家级知识定位技术，能把危险能力局限在特定专家模块中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            147.88,
+            158.003
+          ],
+          "quote": "Specifically, Adam is very bullish on simple pre-training data filtering, as well as Gram, the recent expert-level knowledge localization technique from AE Studio and Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 664,
+          "t": [
+            4420.345,
+            4421.626
+          ],
+          "quote": "Shout out to AE Studio.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

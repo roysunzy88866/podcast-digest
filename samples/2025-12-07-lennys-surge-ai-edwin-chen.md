@@ -143,9 +143,9 @@ Edwin 觉得,大多数人根本不懂什么是[[数据质量|数据质量]]。�
 
 **换个口味**
 
+- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic · 同概念:后训练 (post training)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、Claude · 同概念:后训练 (post training)</span>
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同公司:ChatGPT · 同概念:后训练 (post training)、vibe coding</span>
-- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:ChatGPT · 同概念:后训练 (post training)</span>
 
 </div>
 </div>

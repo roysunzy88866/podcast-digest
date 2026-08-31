@@ -117,7 +117,7 @@ Amjad 也补充道，LLM 就像计算能力一样，正在变成一种极其底�
 
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:OpenAI、Replit · 同概念:护城河 (moat)、智能体 (agent)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:Replit · 同概念:护城河 (moat)、智能体 (agent)</span>
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同公司:Replit、OpenAI、Stripe · 同概念:智能体 (agent)</span>
+- [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|创始人为什么要公开讲话：Replit Amjad 的叙事法则]]<span class="pd-rz">同嘉宾:Amjad Masad · 同公司:Replit · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

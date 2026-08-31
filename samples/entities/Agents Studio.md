@@ -25,7 +25,7 @@ unlisted: true
 
 [[Matt Turk]] · [[Sanjit Biswas]] · [[Samsara]] · [[物理 AI]] · [[护栏]] · [[生成式 AI]] · [[智能体]] · [[数据网络效应]] · [[AI 行车记录仪]] · [[资产标签]]
 
-<script type="application/json" class="pd-epn">{"Matt Turk":2,"Sanjit Biswas":1,"Samsara":2,"物理 AI":5,"护栏":32,"生成式 AI":4,"智能体":163,"数据网络效应":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":2,"Sanjit Biswas":1,"Samsara":2,"物理 AI":5,"护栏":1,"生成式 AI":4,"智能体":165,"数据网络效应":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

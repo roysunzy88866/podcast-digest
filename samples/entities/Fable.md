@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Fable</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Fable">FA</div><div class="pi"><h1 class="pt">Fable</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Fable">FA</div><div class="pi"><h1 class="pt">Fable</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:Anthropic 的新前沿模型,一次性输出高质量代码,聪明到让 Anthropic 因此删掉了 Claude Code 80% 的系统提示词
 - **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(00:00起):本集说它的冗余是'给智能体看、由智能体生成'的语言，人类本来就不该读，完全难以理解，在盲测中垫底
 - **[[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]]**(34:58起):本集说用 Fable 花约一天时间构建了队列行为的形式化验证模型
+- **[[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]]**(05:46起):本集称 Fable 5 在测试中扛住了全部攻击，没有发现任何通用越狱，但问清酒发酵时被误判为生物问题并降级到 Opus。
 - **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(01:00起):本集仅作为昂贵模型的例子一笔带过——'Fable 刚发布，你打个招呼就要九美元'
 
 ## ① 提到它的金句
@@ -31,7 +32,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为被讨论公司(提及)
@@ -39,15 +40,16 @@ unlisted: true
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为概念(提及)
 - [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]] — 作为被讨论公司(提及)
+- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]] — 作为被讨论公司(提及)
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Claude]] · [[Codex]] · [[Claude Code]] · [[LLM]] · [[编排器]] · [[提示词]] · [[沙箱]] · [[Slack]]
+[[智能体]] · [[Anthropic]] · [[Claude]] · [[Codex]] · [[Claude Code]] · [[沙箱]] · [[LLM]] · [[编排器]] · [[提示词]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":163,"Anthropic":82,"Claude":38,"Codex":31,"Claude Code":42,"LLM":21,"编排器":2,"提示词":2,"沙箱":32,"Slack":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":165,"Anthropic":84,"Claude":39,"Codex":31,"Claude Code":42,"沙箱":33,"LLM":21,"编排器":2,"提示词":2,"OpenAI":73}</script>
 
 <script>
 (function(){

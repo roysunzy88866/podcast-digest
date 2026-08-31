@@ -42,7 +42,7 @@ unlisted: true
 
 [[智能体]] · [[Chris Benson]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[提示词注入]] · [[MCP]] · [[爆炸半径]] · [[可观测性]] · [[零信任]]
 
-<script type="application/json" class="pd-epn">{"智能体":163,"Chris Benson":4,"Anthropic":82,"护栏":32,"OpenAI":72,"提示词注入":9,"MCP":20,"爆炸半径":3,"可观测性":15,"零信任":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":165,"Chris Benson":4,"Anthropic":84,"护栏":1,"OpenAI":73,"提示词注入":9,"MCP":20,"爆炸半径":3,"可观测性":15,"零信任":1}</script>
 
 <script>
 (function(){

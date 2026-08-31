@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":163,"判断力":4,"品味":8,"认知协调":1,"案例教学法":1,"可观测性":15,"护栏":32,"代码审查":2,"AWS":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":165,"判断力":4,"品味":8,"认知协调":1,"案例教学法":1,"可观测性":15,"护栏":1,"代码审查":2,"AWS":9}</script>
 
 <script>
 (function(){

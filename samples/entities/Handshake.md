@@ -25,7 +25,7 @@ unlisted: true
 
 [[Garrett Lord]] · [[Lenny]] · [[后训练]] · [[数据标注]] · [[智能体]] · [[预训练]] · [[轨迹数据]] · [[SFT]] · [[带人类反馈的强化学习]] · [[评分标准]]
 
-<script type="application/json" class="pd-epn">{"Garrett Lord":1,"Lenny":66,"后训练":16,"数据标注":2,"智能体":163,"预训练":5,"轨迹数据":1,"SFT":1,"带人类反馈的强化学习":1,"评分标准":1}</script>
+<script type="application/json" class="pd-epn">{"Garrett Lord":1,"Lenny":66,"后训练":17,"数据标注":2,"智能体":165,"预训练":5,"轨迹数据":1,"SFT":1,"带人类反馈的强化学习":1,"评分标准":1}</script>
 
 <script>
 (function(){

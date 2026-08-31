@@ -7,27 +7,44 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Amjad Masad</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Amjad Masad">AM</div><div class="pi"><h1 class="pt">Amjad Masad</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Amjad Masad">AM</div><div class="pi"><h1 class="pt">Amjad Masad</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>2</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*2 条*
+*10 条*
 
 ![[2026-05-21-talks-the-best-time-in-history-to-start-a-comp#^q1]]
 
 ![[2026-05-21-talks-the-best-time-in-history-to-start-a-comp#^q2]]
 
+![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q1]]
+
+![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q2]]
+
+![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q3]]
+
+![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q4]]
+
+![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q6]]
+
+![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q7]]
+
+![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q8]]
+
+![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q9]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为嘉宾
+- [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Patrick Collison]] · [[Stripe]] · [[Replit]] · [[Magic School]] · [[OpenAI]] · [[智能体]] · [[垂直 SaaS]] · [[护城河]] · [[开源模型]] · [[LLM]]
+[[Replit]] · [[智能体]] · [[Patrick Collison]] · [[公开构建]] · [[Stripe]] · [[vibe coding]] · [[Magic School]] · [[真实性]] · [[OpenAI]] · [[Anthropic]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -37,7 +54,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":23,"Replit":12,"Magic School":1,"OpenAI":72,"智能体":163,"垂直 SaaS":1,"护城河":7,"开源模型":3,"LLM":21}</script>
+<script type="application/json" class="pd-epn">{"Replit":13,"智能体":165,"Patrick Collison":2,"公开构建":1,"Stripe":23,"vibe coding":25,"Magic School":1,"真实性":2,"OpenAI":73,"Anthropic":84}</script>
 
 <script>
 (function(){
