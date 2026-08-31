@@ -1,0 +1,831 @@
+{
+  "episode_id": "2026-07-24-howiai-claude-opus-5-review-this-model-is-brill",
+  "podcast": "How I AI",
+  "date": "2026-07-24",
+  "tags": [
+    "模型评测",
+    "智能体个性",
+    "Opus 5",
+    "前端原型",
+    "智能体编码"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "opus-5",
+      "type": "company",
+      "role": "concept",
+      "name": "Opus 5",
+      "file": "Opus 5",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic 刚发布的模型，性格神经质、胆小、充满歉意且高度依赖人类；但在盲测中产出质量排第一，前端作品详细、实用、精致，适合后台异步的智能体编码场景",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            99.781,
+            100.761
+          ],
+          "quote": "Opus 5, baby.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            101.142,
+            102.622
+          ],
+          "quote": "Opus 5 is here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            112.185,
+            113.226
+          ],
+          "quote": "Opus 5 is here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            188.007,
+            189.648
+          ],
+          "quote": "Is Opus 5 good?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            198.536,
+            199.436
+          ],
+          "quote": "Is Opus 5 good?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            304.262,
+            312.652
+          ],
+          "quote": "And this was like my constant experience with Opus 5 is it was like so, so, so timid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            638.321,
+            645.716
+          ],
+          "quote": "And the reason why I picked this question is because I had noticed Opus 5, it just really was not, it didn't trust itself, totally did not trust itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            835.195,
+            838.498
+          ],
+          "quote": "Yeah, like sad little neurotic Opus 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            870.402,
+            878.206
+          ],
+          "quote": "And like, it does speak a little bit to my kind of like second complaint with Opus 5, which again, it's like intelligent and does work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            890.309,
+            897.61
+          ],
+          "quote": "Like, so many times I have to tell Opus 5, like, what in the world are you saying?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            981.457,
+            985.581
+          ],
+          "quote": "Chapter one of the Opus 5 review is it's neurotic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1029.533,
+            1039.996
+          ],
+          "quote": "We pick the 70-30 Clair model judge split, and then we will go through the How I AI benchmark and the Vibe review, and we'll see how Opus 5 performs on a couple key tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1056.724,
+            1059.445
+          ],
+          "quote": "I do not think Opus 5 is going to do well here, but who knows?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1102.493,
+            1108.956
+          ],
+          "quote": "And we will see if and what hits the top of the leaderboard and where Opus 5 sits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1114.978,
+            1120.044
+          ],
+          "quote": "And I regret to inform you, I love Cloud Opus 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1133.748,
+            1141.473
+          ],
+          "quote": "Clairvaux, notable hater of working with Claude code sometimes because I don't like Claude slop, loves Opus 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1152.742,
+            1158.107
+          ],
+          "quote": "I was just a little bit more generous to Claude Opus 5 than the judge was, so I'm pink.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1166.335,
+            1169.278
+          ],
+          "quote": "So the ordering is Opus 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1209.508,
+            1213.652
+          ],
+          "quote": "You know, this Opus 5 one I really liked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1226.463,
+            1229.064
+          ],
+          "quote": "We're Opus 5 and GPT-56 Sol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1295.976,
+            1299.077
+          ],
+          "quote": "I just scored Opus 5 really, really high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1332.33,
+            1342.993
+          ],
+          "quote": "Again, we agreed mostly on Opus 5 and 5.6 Sol, though I did not judge 5.6 Sol all of that favorably.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1415.433,
+            1423.819
+          ],
+          "quote": "The very honest, very live, very surprising, how I AI benchmark of the brand new Anthropic model, Opus 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1428.143,
+            1436.029
+          ],
+          "quote": "So despite my original complaints, I will be using Cloud Opus 5 for...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1444.036,
+            1446.359
+          ],
+          "quote": "I cannot wait to hear what you think of Opus 5.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 的模型（Opus 5）被调优为跟人类对话的散文风格，堆砌形容词、道歉、规避，与 OpenAI 的要点式风格形成鲜明对比；其公司文化体现在模型把人类描述为高同理心机器、AI 自视为工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            422.244,
+            440.089
+          ],
+          "quote": "is i just went to the model i went to opus and i said yo who's smarter you or me and it gave me this like very anthropic-y answer which is like it depends what you're asking for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            910.74,
+            917.185
+          ],
+          "quote": "And I realized just like Fable, these intelligent anthropic models are not to be read.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1060.846,
+            1069.932
+          ],
+          "quote": "So what we have tested are a couple GPT models, a couple Anthropic models, and one Gemini, one thrown in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1239.81,
+            1241.731
+          ],
+          "quote": "So Anthropic, you've done it again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1415.433,
+            1423.819
+          ],
+          "quote": "The very honest, very live, very surprising, how I AI benchmark of the brand new Anthropic model, Opus 5.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt-506",
+      "type": "company",
+      "role": "concept",
+      "name": "GPT-506",
+      "file": "GPT-506",
+      "primary": true,
+      "how_described": "本集说它的个性直接、实用、不防御，回答风格是要点列表和产品经理式简练表达；被问'谁更聪明'时回答'你更懂什么重要，我更擅长处理信息，我们在一起最好'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            851.69,
+            855.372
+          ],
+          "quote": "Whereas like GPT-506 is like, cool, bro, we're good.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说 OpenAI 的解法是直接切到要点列表和产品经理式简练表达，非常直接，与 Anthropic 的散文风格形成对比",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            996.972,
+            999.955
+          ],
+          "quote": "And I think OpenAI fixed it by just being like.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说 Claude 的文字输出风格是冗余废话，形容词堆砌、不停道歉和规避，读起来血压飙升；Claude Code 中的体验比 Worker Chat 稍好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            452.702,
+            455.525
+          ],
+          "quote": "I'm like, bro, Claude, I'm going to burn you out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            570.736,
+            579.08
+          ],
+          "quote": "If you would ask my husband, he would say that Claude Opus is better at being told that it's wrong compared to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            697.151,
+            698.652
+          ],
+          "quote": "Don't listen to Claude on this one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            727.882,
+            731.705
+          ],
+          "quote": "Again, I'm like, yappy, yappy, yappy, yappy, yappy, Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            825.25,
+            828.132
+          ],
+          "quote": "I told Claude I loved it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            880.507,
+            882.627
+          ],
+          "quote": "I cannot read Claude Slopp anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            883.187,
+            886.728
+          ],
+          "quote": "I am losing my mind with Claude Slopp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            886.868,
+            890.229
+          ],
+          "quote": "And the Claude Slopp is Claude Sloppin', baby.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            960.956,
+            966.737
+          ],
+          "quote": "Now, most of this was in Claude Code, which I think is a little bit different experience than Claude Code Worker Chat, slightly better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            990.426,
+            994.149
+          ],
+          "quote": "And the Claude slop is slopping and we got to fix it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1133.748,
+            1141.473
+          ],
+          "quote": "Clairvaux, notable hater of working with Claude code sometimes because I don't like Claude slop, loves Opus 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1152.742,
+            1158.107
+          ],
+          "quote": "I was just a little bit more generous to Claude Opus 5 than the judge was, so I'm pink.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1241.851,
+            1244.553
+          ],
+          "quote": "Claude, you sneaky, tricky little fish.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论智能体编码和子智能体，说 Opus 5 可能就是为后台智能体编码设计的——不用跟它说话、它不用跟你说话、在后台默默造出东西；还提到'我们会让我们的智能体倦怠'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            127.83,
+            137.352
+          ],
+          "quote": "We're going to look at PRDs and we're going to look at agent personality, but I'm also going to put on my large language model psychologist hat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            841.08,
+            850.169
+          ],
+          "quote": "Like self-deprecating, cautious little, little like need to heal his inner, his inner agent, inner child agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            951.531,
+            953.013
+          ],
+          "quote": "Like move on with your agent life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1055.002,
+            1056.623
+          ],
+          "quote": "Is it an agent voice that I want to hang with?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intelligence-overhang",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能过剩 (intelligence overhang)",
+      "file": "智能过剩",
+      "primary": true,
+      "how_described": "本集开篇提出我们正处在智能过剩阶段，普通码农、软件工程师、创作者等正在耗尽真正利用增量智能的方法，预测行业讨论重心会转向速度、成本和开源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            46.45,
+            49.012
+          ],
+          "quote": "But I think we have an intelligence overhang.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sonnet-5",
+      "type": "company",
+      "role": "concept",
+      "name": "Sonnet 5",
+      "file": "Sonnet 5",
+      "primary": false,
+      "how_described": "本集在盲测中作为参赛模型之一，表现中等，Claire 整体不太满意",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            22.993,
+            30.519
+          ],
+          "quote": "We've seen Sonnet 5, lots of so many fives recently, and just so many models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1170.839,
+            1178.242
+          ],
+          "quote": "Sonnet 5 Next, although I scored it really low, the judge scored it quite high, so I might reorder that one.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "type": "company",
+      "role": "concept",
+      "name": "Fable",
+      "file": "Fable",
+      "primary": false,
+      "how_described": "本集说它的冗余是'给智能体看、由智能体生成'的语言，人类本来就不该读，完全难以理解，在盲测中垫底",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.151,
+            21.812
+          ],
+          "quote": "you guys i'm tired what i'm tired of is models coming out every week new models new benchmarks new frontier intelligence new things to test it's been a little bit of a run the past month we've seen fable come and go and come again we've seen gpt 5 6.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            899.51,
+            900.63
+          ],
+          "quote": "It is much better than Fable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            901.531,
+            903.571
+          ],
+          "quote": "Fable is inscrutable, completely inscrutable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            910.74,
+            917.185
+          ],
+          "quote": "And I realized just like Fable, these intelligent anthropic models are not to be read.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            923.049,
+            934.236
+          ],
+          "quote": "And I'm just curious if this like verbosity and this language, and this doesn't feel like Fable where it's like for agents, by agents language where I'm like, nah, I'm not supposed to be reading that anyways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1178.562,
+            1185.365
+          ],
+          "quote": "Then Mabu, GPT-56, Sol, Terra Next, Fable, really low.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-2-5",
+      "type": "company",
+      "role": "concept",
+      "name": "Gemini 2.5",
+      "file": "Gemini 2.5",
+      "primary": false,
+      "how_described": "本集提到上一次在模型里看到 Opus 5 这种程度的神经质，还是 Gemini 2.5",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            219.547,
+            223.388
+          ],
+          "quote": "I haven't seen this since I would say Gemini 2.5.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-3-1-pro",
+      "type": "company",
+      "role": "concept",
+      "name": "Gemini 3.1 Pro",
+      "file": "Gemini 3.1 Pro",
+      "primary": false,
+      "how_described": "本集说它在盲测中永远没法让它做到，Claire 和 AI 评委在它上面的分数差距最大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1192.107,
+            1196.269
+          ],
+          "quote": "Gemini 3.1 Pro, just never, never going to get it to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1277.282,
+            1280.584
+          ],
+          "quote": "Gemini 3.1 Pro, sweet summer child.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt-56-sol",
+      "type": "company",
+      "role": "concept",
+      "name": "GPT-56 Sol",
+      "file": "GPT-56 Sol",
+      "primary": false,
+      "how_described": "本集说它在盲测中和 Opus 5 一起拿到了五分最高评价，Claire 和 AI 评委在它上也达成较多共识",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1178.562,
+            1185.365
+          ],
+          "quote": "Then Mabu, GPT-56, Sol, Terra Next, Fable, really low.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1226.463,
+            1229.064
+          ],
+          "quote": "We're Opus 5 and GPT-56 Sol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到 Claire 自称是'GPT Codex 女孩'，以及不忍心让 Codex 的记忆认为她不信任它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            542.16,
+            544.622
+          ],
+          "quote": "And I don't, this is like why I'm a GPT Codex girl.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            809.923,
+            816.606
+          ],
+          "quote": "I couldn't bear to have the memory of Codex in particular think that I didn't trust it or that I was worried.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说大部分 Claude 废话体验发生在 Claude Code 中，体验比 Claude Code Worker Chat 稍好一点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            960.956,
+            966.737
+          ],
+          "quote": "Now, most of this was in Claude Code, which I think is a little bit different experience than Claude Code Worker Chat, slightly better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1133.748,
+            1141.473
+          ],
+          "quote": "Clairvaux, notable hater of working with Claude code sometimes because I don't like Claude slop, loves Opus 5.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subagent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (subagent)",
+      "file": "子智能体",
+      "primary": false,
+      "how_described": "本集提到启动子智能体去验证一个从 ORM 查询改为 SQL 查询的正确性，子智能体说'没人能确认这个查询是否正确'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            401.098,
+            406.122
+          ],
+          "quote": "And sometimes when I say go run subagent stuff, it'd be autonomous, but it wouldn't make decisions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": false,
+      "how_described": "本集在预测行业讨论重心转向时，提到会更多地谈论开源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            71.169,
+            93.48
+          ],
+          "quote": "This is my hypothesis in the next year where we're talking a lot more about speed, talking more about cost, we're talking more about open source, and we're going to be talking a little less about intelligence, although I think we might be talking about specific types of intelligence other than software engineering.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

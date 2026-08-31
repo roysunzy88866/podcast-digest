@@ -127,9 +127,9 @@ Chris 指出争论的核心：意识从来没有一个被广泛接受的统一�
 
 **顺着「智能体」挖下去**
 
+- [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同嘉宾:Daniel Whitenack · 同公司:Anthropic · 同概念:MCP、智能体 (agent)</span>
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:MCP、智能体 (agent)、开源模型 (open source models)</span>
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同概念:MCP、智能体 (agent)、Claude Code</span>
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:MCP、智能体 (agent)、Claude Code</span>
 
 </div>
 <div class="pd-ex">

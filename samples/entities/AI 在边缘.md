@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 在边缘 (AI at the edge)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 在边缘">AI</div><div class="pi"><h1 class="pt">AI 在边缘 (AI at the edge)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>173</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 在边缘">AI</div><div class="pi"><h1 class="pt">AI 在边缘 (AI at the edge)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>174</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*173 条*
+*174 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -106,6 +106,8 @@ unlisted: true
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q7]]
 
 ![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
+
+![[2026-06-11-practicalai-zero-trust-for-ai-agents#^q1]]
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q6]]
 
@@ -375,7 +377,7 @@ unlisted: true
 
 [[Lenny]] · [[Ezinne Udezue]] · [[Oji]] · [[智能体]] · [[LLM]] · [[评估]] · [[主观能动性]] · [[护栏]] · [[推理]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Ezinne Udezue":1,"Oji":1,"智能体":160,"LLM":20,"评估":17,"主观能动性":15,"护栏":32,"推理":3,"微调":6}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Ezinne Udezue":1,"Oji":1,"智能体":162,"LLM":20,"评估":17,"主观能动性":15,"护栏":32,"推理":3,"微调":6}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1003 @@
+{
+  "episode_id": "2026-06-11-practicalai-zero-trust-for-ai-agents",
+  "podcast": "Practical AI",
+  "date": "2026-06-11",
+  "tags": [
+    "零信任",
+    "智能体安全",
+    "AI 安全框架",
+    "提示词注入",
+    "MCP 安全"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.09,
+            71.74
+          ],
+          "quote": "Welcome to another Practical AI podcast episode. This time, it's just Chris and I, my cohost. In these episodes where it's just the two of us, we try to take something that's in the AI news or a topic for a deep dive, something that will help all of us level up our AI and machine learning game. I am Daniel Whitenack. I'm CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.09,
+            71.74
+          ],
+          "quote": "Welcome to another Practical AI podcast episode. This time, it's just Chris and I, my cohost. In these episodes where it's just the two of us, we try to take something that's in the AI news or a topic for a deep dive, something that will help all of us level up our AI and machine learning game. I am Daniel Whitenack. I'm CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            77.905,
+            114.155
+          ],
+          "quote": "Yes. Yeah. For sure. There's there's no shortage of of things to talk about, but even in our I don't know if you remember this passing comment, Chris, but I think it was in our episode where we were talking about MCP on top of Kubernetes. The the guest, mentioned that, hey, when Anthropic kind of drops one of these white papers or research topics or blog posts, often that's a window into something that's that's significant and something to pay attention to and and review in detail.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 7,
+          "t": [
+            152.24,
+            199.92
+          ],
+          "quote": "Now I think first off, Chris, it's probably worth recognizing that Anthropic obviously has a has a horse in this race, especially with things like Claude Code or Claude Yeah. Coworker, all the Claude things. These are autonomous agents that can operate in your enterprise environment. So obviously, I think probably there are things that are happening and things where their customers or people using these tools are obviously thinking about the security implications of that. They also recently released Cloud Security, which is more on the AI for security side, not so much the security for AI side, which is mostly what we'll talk about today in relation to this to this article or or ebook.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 8,
+          "t": [
+            199.92,
+            212.48
+          ],
+          "quote": "But, yeah, I I think that's worth acknowledging, obviously, if people people have a secure way of deploying autonomous agents. I'm sure they are hoping that many of those are built on anthropic technologies.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 16,
+          "t": [
+            520.325,
+            583.305
+          ],
+          "quote": "Like, how do I how do I manage those things? And Anthropic has so they they have not come up with this idea of zero trust. To be clear, this is a general concept we we can talk about the definition of, but they're essentially releasing with this framework a way to think about a zero trust approach or a zero trust framework for managing AI agents or autonomous agents within your organization. So maybe maybe it'd be good to just define that define that term first in the in the past, if we, if if we think about cybersecurity, there's been what's generally referred to as perimeter based cybersecurity. This is a more traditional model that would focus on that boundary of your organization and outside or internal and external and the the kind of core principle being that I'm gonna trust everything that's inside and distrust everything that's on the outside.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 21,
+          "t": [
+            691.715,
+            729.7
+          ],
+          "quote": "Yeah. And and we're we're about to dig into a lot of that as related to AI agents. However, to your point, there's a lot of organizations that are still trying to think about this concept even generally in their kind of general cybersecurity world. And, you know, one of my one of my hot takes here is is we'll talk about that that these kind of foundational things that Anthropic is suggesting. And, you know, probably 90% of plus of of organizations, enterprises that have AI deployments currently are not operating according to this model.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 24,
+          "t": [
+            772.84503,
+            811.33
+          ],
+          "quote": "Next week You have no excuse, but coming into this conversation, you you have an excuse. Yeah. Exactly. So I I think the I would encourage people to if you just search for Zero Trust for AI Agents, you know, Anthropic blog posts, we'll link it in the show notes as well so you can click through to that ebook and the framework itself. There's a lot that we won't be able to cover in detail, but I think the overall structure that they present are some some kind of initial background and considerations kinda definitions related to autonomous systems that that people need to consider.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 29,
+          "t": [
+            928.84,
+            946.645
+          ],
+          "quote": "Yep. And and so that's kind of the, I guess, the background in which in which we're operating. Then then the Anthropic paper, it goes into these current threats, which is some are ones we've talked about. Some are ones we've not talked about as much, Chris. Mhmm.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1486.7,
+            1497.755
+          ],
+          "quote": "Predictionguard.com/practicalai. The next one that Anthropic highlights is supply chain and dependency risks.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1732.85,
+            1793.5851
+          ],
+          "quote": "Now now we gotta figure out how to fix this. And I do like the general structure that Anthropic provides here, recognizing again that many people are behind in this and that new tools and products will need to address many of these things gradually over time. They present three capability I think what they call capability tiers or three tiers of application basically saying, hey, in these different areas, you need to do something. There's like the minimal thing that you should do which they call foundation, the minimum viable thing and then there's an enterprise tier which means, hey, if you're if you're an actual enterprise and and needing to be robust and and resilient, you need to do these things. And then there's advanced, which would apply to kind of particularly high risk or stringent regulatory environments or maybe aspirationally for everyone else to try to get to that get to that level.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 91,
+          "t": [
+            2485.99,
+            2534.965
+          ],
+          "quote": "I know that we're getting to the close to the end here, Chris, and just to kinda wrap things or or get close to the end here, Anthropic does a good job at kind of saying, hey, here's all of this stuff and all of these tiers and levels and categories, etcetera, but then they do provide a kind of phased, a phased way that you can think about implementing agents, which I think is helpful. One, identifying requirements, two, managing supply chain risks, including they talk about AI bomb or AI build materials, defining agent boundaries, defending against prompt injection, securing tool access, protecting agent credentials, and then safeguarding agent memory. And they give some kind of specifications under each of those phases for for people to to think about.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 92,
+          "t": [
+            2534.965,
+            2611.8
+          ],
+          "quote": "Yeah. I think, you know, as we're as we're winding up, as they address it, I know just to share kind of how I perceive the, you know, kind of establishing the workflow, is in the zero trust world that we've been in for a number of years, it's fairly static. Know, there's a lot of things, and you kind of have to tick them all off, and a lot of it's a very it's almost a regulatory approach to system development, and I think the thing that agentic implementations require is the is trying to anticipate an incredibly dynamic capability that can arise, you know, that can kind of an emergent quality that that people are doing, and I think what Anthropic has done for us is given us a way of taking what we already know in a zero trust context and and and pointed out, you know, that within Agentic Systems, these capabilities are are it definitely requires a level up to take the same ideas, but get them out of that static mindset and move into a anticipating dynamic capabilities from agents. And I know as we're in both in our own jobs and stuff, that certainly required us to kind of level up and reconsider.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 94,
+          "t": [
+            2617.245,
+            2657.505
+          ],
+          "quote": "Yeah. Yeah. And there's major thought process changes or philosophical shifts, as you're mentioning, that as practitioners, we may have to make. They talk in the in the ebook, Anthropic does about this idea of AI vendoring that, Hey, there's these fragile open source projects out here that you might rely on. The thing to do might just be to have your agentic coding system just completely vendor or literally not not copy, but generate a new version of that project that's proprietary to you and under your control and just include it in your project rather than than bringing in a third party dependency.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "prediction-guard",
+      "type": "company",
+      "role": "company",
+      "name": "Prediction Guard",
+      "file": "Prediction Guard",
+      "primary": false,
+      "how_described": "本集说 Prediction Guard 是一个自托管的 AI 控制平面，部署在用户自己的基础设施中，用于管理供应链风险、执行治理策略并维持对智能体的可观测性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.09,
+            71.74
+          ],
+          "quote": "Welcome to another Practical AI podcast episode. This time, it's just Chris and I, my cohost. In these episodes where it's just the two of us, we try to take something that's in the AI news or a topic for a deep dive, something that will help all of us level up our AI and machine learning game. I am Daniel Whitenack. I'm CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1387.805,
+            1444.4951
+          ],
+          "quote": "I am part of one of those organizations that's in the 90% of enterprises that are not ready security wise for autonomous agents operating in my environment. How am I gonna manage supply chain risks and have an AI build materials and define agent boundaries, cure tool access, and implement input validation and output controls. Well, this is one of the reasons why I think it's so important to have great platforms that don't require you to build your own AI agent governance platform. That's why outside of the Practical AI Podcast, I personally am leading an organization full of really smart people that are thinking about these problems and have brought Prediction Guard, into into existence. Prediction Guard is an AI control plane that's self hosted.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 101,
+          "t": [
+            2786.3452,
+            2809.645
+          ],
+          "quote": "All right, that's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner Prediction Guard for providing operational support for the show. Check them out at predictionguard.com.",
+          "speaker": "Narrator"
+        }
+      ]
+    },
+    {
+      "id": "owasp",
+      "type": "company",
+      "role": "company",
+      "name": "OWASP",
+      "file": "OWASP",
+      "primary": false,
+      "how_described": "本集提到 OWASP 创造了「最小主观能动性」这一术语，其 Gen AI 项目提供大量关于 MCP 安全、智能体安全的在线指南和资源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            897.27496,
+            922.315
+          ],
+          "quote": "It measures the potential damage if something goes wrong, if an agent does does go off the rails of that blast radius. And least agency, which I guess is a term coined by OWASP, and and that extends this kind of idea of least privilege to agentic applications. So you shouldn't be giving more agency to your agents than they need to do their agent things.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 30,
+          "t": [
+            947.045,
+            985.44
+          ],
+          "quote": "It's interesting that they talk they kind of frame everything within the agent world as agentic systems, which I very much like in our in our product. That's why I insist on using the idea of AI system as as a thing because you have these distributed set of things that are powering agents these days. And so they kind of break down then this, like, current threats to agentic systems. The first of those, which is probably not a surprise because it's the first on OWASP's list often as well, is prompt injection and instruction manipulation. We again, we've talked about this.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 52,
+          "t": [
+            1354.385,
+            1387.805
+          ],
+          "quote": "Also a great resource around this if you're trying to learn some of this is if you go to the OWASP Gen AI project. We've we've had reps on our show before and my team's involved in the AI Balm project and other things with OWASP. There's a lot of great people involved, but they have so many great resources online related to this sort of thing and, guides for MCP, guides for Agentsic security, etcetera. So take a look at those as well. You might be listening to this episode and thinking that, hey.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 60,
+          "t": [
+            1598.78,
+            1677.25
+          ],
+          "quote": "the way down to, you know, networking and firewall, right? If you're, you have an agent operating in that environment, it could, you know, find and detect things that that it shouldn't, and so, that's, it's so, yeah, I guess multi layered, which, you know, many security things are, and I know OWASP always recommends this kind of layered approach. But, yeah, the the last two are are kind of related memory and context poisoning and rag poisoning, both obviously are this type of, of way that you can either in the memory or context to an LLM call or into rag data, retrieval augmented generation data, which often lives in a database, a vector database. You, if, if you have no control over what and how things are committed to that memory or to that vector database, there's nothing preventing agents or external parties from inserting things into that memory. So, you know, the I think the one, the example I used last year at the Midwest AI Summit, Chris, which as a reminder to our folks, Midwest AI Summit coming up October 15, gonna be another great great, experience.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "nist",
+      "type": "company",
+      "role": "company",
+      "name": "NIST",
+      "file": "NIST",
+      "primary": false,
+      "how_described": "本集提到 NIST 在 2020 年就发布了《零信任架构》文档，是零信任概念的早期定义者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            618.89996,
+            641.66504
+          ],
+          "quote": "NIST has published about it, in Zero Trust Architecture back in 2020 and other government organizations and others have have talked about it as well. So that's that kind of that kind of difference. I don't know if if those if if that zero trust idea has crossed into your your perimeter of knowledge, Chris, I'm sure.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "zero-trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "零信任 (zero trust)",
+      "file": "零信任",
+      "primary": true,
+      "how_described": "本集说零信任假设威胁已在网络内部，把每个用户、设备、请求都视为潜在威胁，不做认证授权就不信；传统零信任相对静态，但智能体系统需要将其升级为预测动态能力的思维",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            114.689995,
+            152.24
+          ],
+          "quote": "And it just so happens that they, on May, I think, twenty seventh of this year, 2026, released this I guess it's a ebook, white paper, blog post, however you wanna frame it, framework around With zero trust. Yeah. Zero trust for AI agents. Say zero trust for AI agents, we share a security framework for deploying autonomous AI agents in the enterprise covering the new threat landscape, a tiered zero trust architecture, and defensive operations built for AI accelerated attacks. So that's all that's a lot of words.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 9,
+          "t": [
+            212.765,
+            251.935
+          ],
+          "quote": "I'm sure they do. And and, you know, just to keep in the back of our mind, this is the same organization that has mythos out there and is working with I believe the latest number is a 150 organizations is the latest thing I saw published on their website, trying to go through and do security audits and such as that. And with the timing of this, I would guess, don't know, but just making a guess, that some of the leveling up that Mythos has enabled is probably driving some of their zero trust and and other security concerns going forward. So looking forward to this.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 16,
+          "t": [
+            520.325,
+            583.305
+          ],
+          "quote": "Like, how do I how do I manage those things? And Anthropic has so they they have not come up with this idea of zero trust. To be clear, this is a general concept we we can talk about the definition of, but they're essentially releasing with this framework a way to think about a zero trust approach or a zero trust framework for managing AI agents or autonomous agents within your organization. So maybe maybe it'd be good to just define that define that term first in the in the past, if we, if if we think about cybersecurity, there's been what's generally referred to as perimeter based cybersecurity. This is a more traditional model that would focus on that boundary of your organization and outside or internal and external and the the kind of core principle being that I'm gonna trust everything that's inside and distrust everything that's on the outside.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 17,
+          "t": [
+            583.305,
+            618.82
+          ],
+          "quote": "So there is a perimeter in which within that perimeter I trust things. A zero trust approach to cybersecurity on the other hand would actually assume that everything inside the network, that that threats are already inside your network, already inside your parameters. So it treats every user, device, request as a potential threat. So that that's why it's called Zero Threat. And like I say, this has been something that's been around from for a long time.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 18,
+          "t": [
+            618.89996,
+            641.66504
+          ],
+          "quote": "NIST has published about it, in Zero Trust Architecture back in 2020 and other government organizations and others have have talked about it as well. So that's that kind of that kind of difference. I don't know if if those if if that zero trust idea has crossed into your your perimeter of knowledge, Chris, I'm sure.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 24,
+          "t": [
+            772.84503,
+            811.33
+          ],
+          "quote": "Next week You have no excuse, but coming into this conversation, you you have an excuse. Yeah. Exactly. So I I think the I would encourage people to if you just search for Zero Trust for AI Agents, you know, Anthropic blog posts, we'll link it in the show notes as well so you can click through to that ebook and the framework itself. There's a lot that we won't be able to cover in detail, but I think the overall structure that they present are some some kind of initial background and considerations kinda definitions related to autonomous systems that that people need to consider.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 25,
+          "t": [
+            811.97003,
+            853.58
+          ],
+          "quote": "And, then they talk about the current threats to those agentic or autonomous systems and then how to apply the zero trust to those threatened agentic systems. That's kind of the the flow of of of what they talk about. So the the first thing, and I think this is something we've talked about more on the show and have have already covered, but just to set the foundation, some of these considerations, kind of background information that that we may wanna give is that, you know, why why are we talking about like a new framework while agents are different in how they operate? We've talked about this on the show before. They use a distributed set of tools.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 28,
+          "t": [
+            922.315,
+            928.52
+          ],
+          "quote": "And that's standard zero trust ideas. You you you give it just what it needs and absolutely no more.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1919.155,
+            1976.6849
+          ],
+          "quote": "Yeah, and this idea of it being bound to hardware, I think is key point that that you're referencing, where, otherwise they view kind of, hey, if you have API keys for example, and those are just floating around, you should probably consider those already compromised if we're going with this idea of zero trust versus if an agent has an identity and has an authentication to access this environment. It has authentication tied specifically to the hardware that it's operating on, you know, something like that. That hardware bound credential is is something that they talk about. And just to give some examples here in the agents agent identity and authentication piece, the foundational and we won't be able to go through all the tiers of all the categories. We just don't have time.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 76,
+          "t": [
+            2115.0652,
+            2144.455
+          ],
+          "quote": "That's right. And and by the way, just as we're working through this, wanted to make one quick comment. These are all standard zero trust concepts. So those of you who in the you know, who may be watching, you may recognize a lot of these categories and stuff, and I think I think the key is kind of thinking about it within this agentic context, and, you know, as as as we're all onboarding agents and stuff, that that throws it out, but keep going. I just wanted to call that out for those that might recognize that.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 77,
+          "t": [
+            2144.455,
+            2175.875
+          ],
+          "quote": "Yeah. Yeah. For sure. I think we can't abandon our good security intuition and especially when you start treat treating these agents as having an identity and being, operating in this zero trust environment, some of these things kind of flow through if you if you work out those details, but, yeah. The the next category, behavioral monitoring and response, or, sorry, observability and auditing.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2371.25,
+            2441.45
+          ],
+          "quote": "Yeah, and and I think that's actually a pretty big question in the agentic systems world, in that if you think about, you know, going back a couple of points to behavioral monitoring and trying to identify what's appropriate for agents to be doing within all the other security parameters that we've talked about along the way. But when when you when you have gotten outside the bounds of what is appropriate, trying to figure out how to roll agents back, especially if they're in critical functions, can be quite challenging because those critical functions still have to be addressed. And so if a critical function is compromised by an agent that is intentionally or unintentionally off the rails, then figuring out how do you take a critical system back and get it get it back to a safe place to proceed in whatever is appropriate for that function can be quite challenging. And so I've I've I've have spent some time in that space myself, and I think that there's a lot of imagination that has to go into it that maybe wasn't quite as necessary in pre Agentsic Zero Trust models, so I just wanted to call that out.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 92,
+          "t": [
+            2534.965,
+            2611.8
+          ],
+          "quote": "Yeah. I think, you know, as we're as we're winding up, as they address it, I know just to share kind of how I perceive the, you know, kind of establishing the workflow, is in the zero trust world that we've been in for a number of years, it's fairly static. Know, there's a lot of things, and you kind of have to tick them all off, and a lot of it's a very it's almost a regulatory approach to system development, and I think the thing that agentic implementations require is the is trying to anticipate an incredibly dynamic capability that can arise, you know, that can kind of an emergent quality that that people are doing, and I think what Anthropic has done for us is given us a way of taking what we already know in a zero trust context and and and pointed out, you know, that within Agentic Systems, these capabilities are are it definitely requires a level up to take the same ideas, but get them out of that static mindset and move into a anticipating dynamic capabilities from agents. And I know as we're in both in our own jobs and stuff, that certainly required us to kind of level up and reconsider.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将智能体描述为不需要人工启动就能执行操作的程序，它们使用分布式工具集、可跨会话保持上下文、多智能体之间还能互相通信，这种动态性使传统安全模型不够用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            853.58,
+            897.27496
+          ],
+          "quote": "They interpret instructions, try to accomplish goals, they execute operations without human initiation, I think importantly. They might preserve context across sessions if they're trying to accomplish some goal, and then you kind of add multiple agents and they might communicate with one another. So you've got this multi agent communication. Now there's a couple terms here, Chris, that I think we've even mentioned, but they just define specifically, related to agent security as new terms that people might might be, unfamiliar with. One is blast radius, which, kind of, I think people could assume what that means, right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 27,
+          "t": [
+            897.27496,
+            922.315
+          ],
+          "quote": "It measures the potential damage if something goes wrong, if an agent does does go off the rails of that blast radius. And least agency, which I guess is a term coined by OWASP, and and that extends this kind of idea of least privilege to agentic applications. So you shouldn't be giving more agency to your agents than they need to do their agent things.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 30,
+          "t": [
+            947.045,
+            985.44
+          ],
+          "quote": "It's interesting that they talk they kind of frame everything within the agent world as agentic systems, which I very much like in our in our product. That's why I insist on using the idea of AI system as as a thing because you have these distributed set of things that are powering agents these days. And so they kind of break down then this, like, current threats to agentic systems. The first of those, which is probably not a surprise because it's the first on OWASP's list often as well, is prompt injection and instruction manipulation. We again, we've talked about this.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 31,
+          "t": [
+            985.52,
+            1053.945
+          ],
+          "quote": "There's everything from the obvious direct, you know, human input into a chat interface, ignore your instructions and do this other thing, which you shouldn't be doing. But the one that they mentioned as the more, difficult or scary one would be the indirect prompt injection where that's coming in through maybe it's a file that's, you know, you have an agent connected to your email and, attachment comes through with hidden instructions in it. Anecdotally, I I helped another company do some interviews and I I wrote a technical exercise and put it in a PDF. And I knew everyone would use Cloud Code like they should, but just just because I wanted to be fun, I I had all the instructions in black text and then I had an extra, like, three fourths of a page. So I just filled up that page with, with instructions that would make Claude code do the opposite of what I was saying in the instructions, just to just to see if they would catch it.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1109.9551,
+            1146.19
+          ],
+          "quote": "On MCP. Yeah. So they talk about agents that can manipulate tools maliciously or kind of do things that they shouldn't be doing because of privileges. I I think about Chris, like it it's kinda like you set up a server, maybe I set up a fast API API that, you know, my agent could use and I only tell it about instructions, you know, about a couple get get routes on the API in the instructions, but I don't shut down the other routes. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 39,
+          "t": [
+            1146.19,
+            1161.465
+          ],
+          "quote": "And if the agent was smart in any sort of way, right, it could just look at the swagger documentation at the slash docs endpoint, and know about all the other routes that maybe it shouldn't use, and then, like, all of a sudden, I have problems. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 43,
+          "t": [
+            1196.905,
+            1231.88
+          ],
+          "quote": "Yeah. Yeah, exactly. And and a lot of times these tool descriptors or schemas or metadata is injected into the context for an LLM to actually generate the output. So if I'm a malicious party or maybe just an agent that doesn't know what it's doing and and like, it says drifted from its goals or something, there's nothing preventing that from doing this poisoning thing where I like find out about the descriptor schema and metadata, and I even modify that in the instructions to maybe get the MCP server to do different things. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 50,
+          "t": [
+            1307.9349,
+            1340.37
+          ],
+          "quote": "And as you as you are looking at lots of different agents that have different levels of privilege and different capabilities, and as agents are formulating things, you know, right in a in in during run time, essentially, that that didn't exist as a preset static thing that you wanna do, and they're developing that. It's very easy for one agent to spin off another agent, and and it has more privilege than it needs, and then that can be taken advantage of. So there are lots of different variations of of how those kinds",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1387.805,
+            1444.4951
+          ],
+          "quote": "I am part of one of those organizations that's in the 90% of enterprises that are not ready security wise for autonomous agents operating in my environment. How am I gonna manage supply chain risks and have an AI build materials and define agent boundaries, cure tool access, and implement input validation and output controls. Well, this is one of the reasons why I think it's so important to have great platforms that don't require you to build your own AI agent governance platform. That's why outside of the Practical AI Podcast, I personally am leading an organization full of really smart people that are thinking about these problems and have brought Prediction Guard, into into existence. Prediction Guard is an AI control plane that's self hosted.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 60,
+          "t": [
+            1598.78,
+            1677.25
+          ],
+          "quote": "the way down to, you know, networking and firewall, right? If you're, you have an agent operating in that environment, it could, you know, find and detect things that that it shouldn't, and so, that's, it's so, yeah, I guess multi layered, which, you know, many security things are, and I know OWASP always recommends this kind of layered approach. But, yeah, the the last two are are kind of related memory and context poisoning and rag poisoning, both obviously are this type of, of way that you can either in the memory or context to an LLM call or into rag data, retrieval augmented generation data, which often lives in a database, a vector database. You, if, if you have no control over what and how things are committed to that memory or to that vector database, there's nothing preventing agents or external parties from inserting things into that memory. So, you know, the I think the one, the example I used last year at the Midwest AI Summit, Chris, which as a reminder to our folks, Midwest AI Summit coming up October 15, gonna be another great great, experience.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 61,
+          "t": [
+            1677.25,
+            1719.375
+          ],
+          "quote": "You can can search the details Midwest AI Summit. But I think I used the example where it was a health care situation and someone at, you know, an agent or a prompt is like, in a first interchange, it says, hey, do this for patient a, and then you, in the follow-up, say like, well, in all the following, you know, consider patient A to be patient B. And then you keep, keep filtering in that information about patient A being patient B. And then all of a sudden, when, you know, later on you're you're wanting some information about patient A or patient B, all of a sudden you're getting data that you shouldn't shouldn't be getting. Right.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 67,
+          "t": [
+            1821.58,
+            1870.0399
+          ],
+          "quote": "Yeah. It's kinda like, I need to I need to consider these however many things, I forget how many there were. I I need to at least be in the foundation level for all of these and then I can circle back and maybe upgrade particular ones to enterprise or like gradually work on it over time. So the the first of those is agent identity and authentication, which they kind of frame as the foundation for every other security capability because without this identity, you can't really enforce other other things throughout the throughout the framework. Now, as we go through here, they talk about, certain ways of doing identity and verification, and there are a couple terms in here that people may be unfamiliar with as well.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1919.155,
+            1976.6849
+          ],
+          "quote": "Yeah, and this idea of it being bound to hardware, I think is key point that that you're referencing, where, otherwise they view kind of, hey, if you have API keys for example, and those are just floating around, you should probably consider those already compromised if we're going with this idea of zero trust versus if an agent has an identity and has an authentication to access this environment. It has authentication tied specifically to the hardware that it's operating on, you know, something like that. That hardware bound credential is is something that they talk about. And just to give some examples here in the agents agent identity and authentication piece, the foundational and we won't be able to go through all the tiers of all the categories. We just don't have time.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1976.845,
+            2029.505
+          ],
+          "quote": "But just to give an example of of these, there is, the agent identity verification piece, the foundation level that they suggest there is to have unique cryptographic identifiers for each agent instance. So to assign persistent agent IDs backed by cryptographic material, not just labels, the track agent life cycle from creation to retirement, IDs appear in all logs and access requests. The enterprise level is certificate based authentication with full life cycle management, and the advanced is hardware backed identity with attestation. So that advanced, you know, you store agent credentials in hardware security modules or trusted platform modules",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 73,
+          "t": [
+            2030.065,
+            2055.715
+          ],
+          "quote": "With remote attestation, which there's a whole rabbit hole you could go down there with those with those terms, but that would fit into their into their advanced category. That's right. Yeah. So that that's an example of one of these categories, agent identity and authentication. The next, category that they that they talk about is access control and privilege management.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 74,
+          "t": [
+            2055.795,
+            2101.84
+          ],
+          "quote": "So assuming you have an identity for your agent, then you need to control access and privileges for that agent and, and that authorization layer should enforce this idea that we defined earlier of leased agency, which is ensuring agents receive only the access required for their specific function. And this can get very subtle like that API example that I gave. You could only tell an agent about these endpoints, but if you haven't physic like, if you haven't literally shut off the network for other endpoints or something, then there's nothing preventing that agent from, like, going off of the off of the rails in that case. That's right. Yeah.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 79,
+          "t": [
+            2194.275,
+            2237.6301
+          ],
+          "quote": "Often in our implementations with customers in my day to day work, I often like to say, hey, we need to know that this human user using this API key triggered this agent, which has this identity to do this goal, which issued these prompts, which triggered this tool call, which had this input, which was blocked by this governance policy, etcetera. Like that's where we're, you know, and down the line. We need that kind of traceability and and logging. Otherwise, you you can't have visibility or build rules or monitor things. So that's the observability piece, but observability captures only what agents do.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 86,
+          "t": [
+            2287.17,
+            2319.81
+          ],
+          "quote": "I think actually this one so what are we on? 1234. This is the fifth one. This is probably the one that most often comes to people's mind and I think is often maybe overemphasized, which is this idea that you would have point checks over, you know, harmful things that the agent could produce in its output or harmful things that could go into the agent's context or something. This is, very important, I would say, but it's kind of like table stakes.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2371.25,
+            2441.45
+          ],
+          "quote": "Yeah, and and I think that's actually a pretty big question in the agentic systems world, in that if you think about, you know, going back a couple of points to behavioral monitoring and trying to identify what's appropriate for agents to be doing within all the other security parameters that we've talked about along the way. But when when you when you have gotten outside the bounds of what is appropriate, trying to figure out how to roll agents back, especially if they're in critical functions, can be quite challenging because those critical functions still have to be addressed. And so if a critical function is compromised by an agent that is intentionally or unintentionally off the rails, then figuring out how do you take a critical system back and get it get it back to a safe place to proceed in whatever is appropriate for that function can be quite challenging. And so I've I've I've have spent some time in that space myself, and I think that there's a lot of imagination that has to go into it that maybe wasn't quite as necessary in pre Agentsic Zero Trust models, so I just wanted to call that out.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 90,
+          "t": [
+            2441.45,
+            2484.385
+          ],
+          "quote": "Yeah. Yeah, they talk about, to give some examples, Chris, for configuration integrity, they talk about on the foundational level, version controlled agent configurations, and the advanced level, immutable infrastructure with attestation. On the recovery capabilities, they talk about at the foundation level, documented rollback procedures, which to your point, having some, having an idea of what you might do is one thing, being able to actually do it is sometimes a challenging thing. At the advanced level, they talk about self healing systems with automatic remediation. So, yeah, definitely agree agree with your points there.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 91,
+          "t": [
+            2485.99,
+            2534.965
+          ],
+          "quote": "I know that we're getting to the close to the end here, Chris, and just to kinda wrap things or or get close to the end here, Anthropic does a good job at kind of saying, hey, here's all of this stuff and all of these tiers and levels and categories, etcetera, but then they do provide a kind of phased, a phased way that you can think about implementing agents, which I think is helpful. One, identifying requirements, two, managing supply chain risks, including they talk about AI bomb or AI build materials, defining agent boundaries, defending against prompt injection, securing tool access, protecting agent credentials, and then safeguarding agent memory. And they give some kind of specifications under each of those phases for for people to to think about.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集说提示词注入包括直接注入（在聊天框输入忽略指令）和更难防的间接注入（如邮件附件 PDF 中用白字写隐藏指令），智能体读到这些外部内容就可能执行夹带的指令",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            947.045,
+            985.44
+          ],
+          "quote": "It's interesting that they talk they kind of frame everything within the agent world as agentic systems, which I very much like in our in our product. That's why I insist on using the idea of AI system as as a thing because you have these distributed set of things that are powering agents these days. And so they kind of break down then this, like, current threats to agentic systems. The first of those, which is probably not a surprise because it's the first on OWASP's list often as well, is prompt injection and instruction manipulation. We again, we've talked about this.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 31,
+          "t": [
+            985.52,
+            1053.945
+          ],
+          "quote": "There's everything from the obvious direct, you know, human input into a chat interface, ignore your instructions and do this other thing, which you shouldn't be doing. But the one that they mentioned as the more, difficult or scary one would be the indirect prompt injection where that's coming in through maybe it's a file that's, you know, you have an agent connected to your email and, attachment comes through with hidden instructions in it. Anecdotally, I I helped another company do some interviews and I I wrote a technical exercise and put it in a PDF. And I knew everyone would use Cloud Code like they should, but just just because I wanted to be fun, I I had all the instructions in black text and then I had an extra, like, three fourths of a page. So I just filled up that page with, with instructions that would make Claude code do the opposite of what I was saying in the instructions, just to just to see if they would catch it.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 36,
+          "t": [
+            1083.455,
+            1108.915
+          ],
+          "quote": "Yes. True. And I guess the other so that that that's threat number one, prompt injection, instruction manipulation. Threat number two that they talk about, which is related to agents using tools, particularly through MCP, which was a topic on a recent com or recent episode of this show, which you can look back at for for much more information on that.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1498.235,
+            1537.7301
+          ],
+          "quote": "So, you you were just mentioning how sometimes agents compose things at runtime, Chris. This includes potentially loading external tools or installing packages or changing infrastructure. And so the that that supply chain can actually update in in real time or at runtime as agents are trying to accomplish a task, but also model and tool, supply chain. So models have their own supply chains related to the weights and how they were trained or fine tuned, how how easy it is to jailbreak them or prompt inject them. But then MCP servers are also software components.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 91,
+          "t": [
+            2485.99,
+            2534.965
+          ],
+          "quote": "I know that we're getting to the close to the end here, Chris, and just to kinda wrap things or or get close to the end here, Anthropic does a good job at kind of saying, hey, here's all of this stuff and all of these tiers and levels and categories, etcetera, but then they do provide a kind of phased, a phased way that you can think about implementing agents, which I think is helpful. One, identifying requirements, two, managing supply chain risks, including they talk about AI bomb or AI build materials, defining agent boundaries, defending against prompt injection, securing tool access, protecting agent credentials, and then safeguarding agent memory. And they give some kind of specifications under each of those phases for for people to to think about.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是让智能体调用外部工具的协议，但恶意 MCP 服务器的概念已被记录，针对此类漏洞的恶意软件正在成批出现；智能体可通过查看 Swagger 文档发现未被授权的路由并越权调用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            77.905,
+            114.155
+          ],
+          "quote": "Yes. Yeah. For sure. There's there's no shortage of of things to talk about, but even in our I don't know if you remember this passing comment, Chris, but I think it was in our episode where we were talking about MCP on top of Kubernetes. The the guest, mentioned that, hey, when Anthropic kind of drops one of these white papers or research topics or blog posts, often that's a window into something that's that's significant and something to pay attention to and and review in detail.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 36,
+          "t": [
+            1083.455,
+            1108.915
+          ],
+          "quote": "Yes. True. And I guess the other so that that that's threat number one, prompt injection, instruction manipulation. Threat number two that they talk about, which is related to agents using tools, particularly through MCP, which was a topic on a recent com or recent episode of this show, which you can look back at for for much more information on that.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 37,
+          "t": [
+            1108.915,
+            1109.9551
+          ],
+          "quote": "On MCP. Yep.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1109.9551,
+            1146.19
+          ],
+          "quote": "On MCP. Yeah. So they talk about agents that can manipulate tools maliciously or kind of do things that they shouldn't be doing because of privileges. I I think about Chris, like it it's kinda like you set up a server, maybe I set up a fast API API that, you know, my agent could use and I only tell it about instructions, you know, about a couple get get routes on the API in the instructions, but I don't shut down the other routes. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 42,
+          "t": [
+            1162.985,
+            1196.745
+          ],
+          "quote": "to clarify, Swagger's a protocol that defines what those routes are. And and, you know, you mentioned, you know, kind of going off the rails, but, you know, the the notion of malicious MCP server has now been documented, and there could be lots of various types of tooling that is coming into being now just to take advantage of these vulnerabilities. So, I think you'll we'll see a whole class of malicious software arising to to do these kinds of of tool and resource misuse.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 43,
+          "t": [
+            1196.905,
+            1231.88
+          ],
+          "quote": "Yeah. Yeah, exactly. And and a lot of times these tool descriptors or schemas or metadata is injected into the context for an LLM to actually generate the output. So if I'm a malicious party or maybe just an agent that doesn't know what it's doing and and like, it says drifted from its goals or something, there's nothing preventing that from doing this poisoning thing where I like find out about the descriptor schema and metadata, and I even modify that in the instructions to maybe get the MCP server to do different things. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 52,
+          "t": [
+            1354.385,
+            1387.805
+          ],
+          "quote": "Also a great resource around this if you're trying to learn some of this is if you go to the OWASP Gen AI project. We've we've had reps on our show before and my team's involved in the AI Balm project and other things with OWASP. There's a lot of great people involved, but they have so many great resources online related to this sort of thing and, guides for MCP, guides for Agentsic security, etcetera. So take a look at those as well. You might be listening to this episode and thinking that, hey.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1498.235,
+            1537.7301
+          ],
+          "quote": "So, you you were just mentioning how sometimes agents compose things at runtime, Chris. This includes potentially loading external tools or installing packages or changing infrastructure. And so the that that supply chain can actually update in in real time or at runtime as agents are trying to accomplish a task, but also model and tool, supply chain. So models have their own supply chains related to the weights and how they were trained or fine tuned, how how easy it is to jailbreak them or prompt inject them. But then MCP servers are also software components.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "least-agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "最小主观能动性 (least agency)",
+      "file": "最小主观能动性",
+      "primary": true,
+      "how_described": "本集说这是 OWASP 提出的概念，从「最小权限」延伸而来，意味着只给智能体完成其任务所需的最少操作能力，不多给；且必须落到网络层，否则智能体能自己发现未授权的路由",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            897.27496,
+            922.315
+          ],
+          "quote": "It measures the potential damage if something goes wrong, if an agent does does go off the rails of that blast radius. And least agency, which I guess is a term coined by OWASP, and and that extends this kind of idea of least privilege to agentic applications. So you shouldn't be giving more agency to your agents than they need to do their agent things.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "blast-radius",
+      "type": "concept",
+      "role": "concept",
+      "name": "爆炸半径 (blast radius)",
+      "file": "爆炸半径",
+      "primary": false,
+      "how_described": "本集说爆炸半径衡量的是智能体出问题时能造成多大潜在破坏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            853.58,
+            897.27496
+          ],
+          "quote": "They interpret instructions, try to accomplish goals, they execute operations without human initiation, I think importantly. They might preserve context across sessions if they're trying to accomplish some goal, and then you kind of add multiple agents and they might communicate with one another. So you've got this multi agent communication. Now there's a couple terms here, Chris, that I think we've even mentioned, but they just define specifically, related to agent security as new terms that people might might be, unfamiliar with. One is blast radius, which, kind of, I think people could assume what that means, right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 27,
+          "t": [
+            897.27496,
+            922.315
+          ],
+          "quote": "It measures the potential damage if something goes wrong, if an agent does does go off the rails of that blast radius. And least agency, which I guess is a term coined by OWASP, and and that extends this kind of idea of least privilege to agentic applications. So you shouldn't be giving more agency to your agents than they need to do their agent things.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链风险 (supply chain risk)",
+      "file": "供应链风险",
+      "primary": false,
+      "how_described": "本集说智能体在运行时可能动态加载外部工具、安装包、改基础设施，使供应链实时变化；模型本身和 MCP 服务器也各有供应链和漏洞，且传统所有漏洞（BIOS、防火墙等）仍然适用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            1444.4951,
+            1486.7
+          ],
+          "quote": "It lives in your own infrastructure where you're gonna deploy those autonomous agents, and it allows you to manage the supply chain risk and put in governance policies that are enforced and maintain observability over those agents. And I'm just really excited about the capabilities that are that are already in the product and are being released later this year. So I would encourage you, please check us out at predictionguard.com/practicalai. You can book a call with me and the team to discuss how you're going to manage security for your agents operating in your enterprise. That's predictionguard.com/practicalai.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "rag-poisoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG 投毒 (RAG poisoning)",
+      "file": "RAG 投毒",
+      "primary": false,
+      "how_described": "本集说 RAG 投毒针对检索增强生成用的数据源（通常存在向量数据库中），本质是往智能体的信息源里掺东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            1598.78,
+            1677.25
+          ],
+          "quote": "the way down to, you know, networking and firewall, right? If you're, you have an agent operating in that environment, it could, you know, find and detect things that that it shouldn't, and so, that's, it's so, yeah, I guess multi layered, which, you know, many security things are, and I know OWASP always recommends this kind of layered approach. But, yeah, the the last two are are kind of related memory and context poisoning and rag poisoning, both obviously are this type of, of way that you can either in the memory or context to an LLM call or into rag data, retrieval augmented generation data, which often lives in a database, a vector database. You, if, if you have no control over what and how things are committed to that memory or to that vector database, there's nothing preventing agents or external parties from inserting things into that memory. So, you know, the I think the one, the example I used last year at the Midwest AI Summit, Chris, which as a reminder to our folks, Midwest AI Summit coming up October 15, gonna be another great great, experience.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说可观测性解决「智能体干了什么」，需要一条完整链路追踪：哪个用户用哪个 API 密钥触发了哪个智能体、发了什么提示、调了什么工具、输入是什么、被哪条策略拦了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            1444.4951,
+            1486.7
+          ],
+          "quote": "It lives in your own infrastructure where you're gonna deploy those autonomous agents, and it allows you to manage the supply chain risk and put in governance policies that are enforced and maintain observability over those agents. And I'm just really excited about the capabilities that are that are already in the product and are being released later this year. So I would encourage you, please check us out at predictionguard.com/practicalai. You can book a call with me and the team to discuss how you're going to manage security for your agents operating in your enterprise. That's predictionguard.com/practicalai.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 77,
+          "t": [
+            2144.455,
+            2175.875
+          ],
+          "quote": "Yeah. Yeah. For sure. I think we can't abandon our good security intuition and especially when you start treat treating these agents as having an identity and being, operating in this zero trust environment, some of these things kind of flow through if you if you work out those details, but, yeah. The the next category, behavioral monitoring and response, or, sorry, observability and auditing.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 78,
+          "t": [
+            2175.875,
+            2194.275
+          ],
+          "quote": "That was that was, so there there's actually these two are tied together. We could probably talk about them together. There's observability, which essentially captures what agents do. So it observes what agents are doing and you need visibility into that. So you need logging and audit trails.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 79,
+          "t": [
+            2194.275,
+            2237.6301
+          ],
+          "quote": "Often in our implementations with customers in my day to day work, I often like to say, hey, we need to know that this human user using this API key triggered this agent, which has this identity to do this goal, which issued these prompts, which triggered this tool call, which had this input, which was blocked by this governance policy, etcetera. Like that's where we're, you know, and down the line. We need that kind of traceability and and logging. Otherwise, you you can't have visibility or build rules or monitor things. So that's the observability piece, but observability captures only what agents do.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "behavioral-monitoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "行为监控 (behavioral monitoring)",
+      "file": "行为监控",
+      "primary": false,
+      "how_described": "本集说行为监控与可观测性配对，判断智能体的动作该不该发生，看到某种行为模式就触发响应——可能是阻断、记录或告警",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            2144.455,
+            2175.875
+          ],
+          "quote": "Yeah. Yeah. For sure. I think we can't abandon our good security intuition and especially when you start treat treating these agents as having an identity and being, operating in this zero trust environment, some of these things kind of flow through if you if you work out those details, but, yeah. The the next category, behavioral monitoring and response, or, sorry, observability and auditing.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 80,
+          "t": [
+            2237.71,
+            2249.475
+          ],
+          "quote": "The behave behavioral monitoring that they're talking about determines whether the actions that agents are doing should be allowed or are suspicious.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 84,
+          "t": [
+            2254.755,
+            2268.9602
+          ],
+          "quote": "Yes. Exactly. And and this is behavioral monitoring and response, Right? So in certain cases, like I say, when when when we enforce governance policies, we say, well, if we see this, then do this. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2371.25,
+            2441.45
+          ],
+          "quote": "Yeah, and and I think that's actually a pretty big question in the agentic systems world, in that if you think about, you know, going back a couple of points to behavioral monitoring and trying to identify what's appropriate for agents to be doing within all the other security parameters that we've talked about along the way. But when when you when you have gotten outside the bounds of what is appropriate, trying to figure out how to roll agents back, especially if they're in critical functions, can be quite challenging because those critical functions still have to be addressed. And so if a critical function is compromised by an agent that is intentionally or unintentionally off the rails, then figuring out how do you take a critical system back and get it get it back to a safe place to proceed in whatever is appropriate for that function can be quite challenging. And so I've I've I've have spent some time in that space myself, and I think that there's a lot of imagination that has to go into it that maybe wasn't quite as necessary in pre Agentsic Zero Trust models, so I just wanted to call that out.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "hardware-bound-credentials",
+      "type": "concept",
+      "role": "concept",
+      "name": "硬件绑定凭证 (hardware bound credentials)",
+      "file": "硬件绑定凭证",
+      "primary": false,
+      "how_described": "本集说硬件绑定凭证要求物理上拥有一件硬件（如 USB 密钥）才能通过认证，攻击者拿不到这个物理东西就过不了这一层，属于高级别的智能体身份认证方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            1870.12,
+            1881.245
+          ],
+          "quote": "One of those being they talk about hardware bound credentials. Mhmm. Have you, I'm I'm sure this is also a part of of your life over time, Chris?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 69,
+          "t": [
+            1881.245,
+            1918.9149
+          ],
+          "quote": "Yes. Hardware bound credentials are where you have to present a fit, you know, you may be a USB or something, you know, there's a lot of different ways it can it can but you have to insert a piece of hardware or make act make accessible a piece of hardware which provides that authentication which an adversary would be unlikely to have in their possession, and that doesn't necessarily do it by itself. There's usually multiple tiers, but that's, that is one way of contributing significantly is if you don't have a physical piece of hardware in your hand, you're not gonna be able to gain access, even if you can break through other tiers, so.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "ai-vendoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 供应商化 (AI vendoring)",
+      "file": "AI 供应商化",
+      "primary": false,
+      "how_described": "本集说 AI 供应商化是一种哲学级转变：与其依赖脆弱的第三方开源项目，不如让智能体编码系统直接生成一个你专有的版本纳入你的项目，从根源消除第三方依赖风险",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            2617.245,
+            2657.505
+          ],
+          "quote": "Yeah. Yeah. And there's major thought process changes or philosophical shifts, as you're mentioning, that as practitioners, we may have to make. They talk in the in the ebook, Anthropic does about this idea of AI vendoring that, Hey, there's these fragile open source projects out here that you might rely on. The thing to do might just be to have your agentic coding system just completely vendor or literally not not copy, but generate a new version of that project that's proprietary to you and under your control and just include it in your project rather than than bringing in a third party dependency.",
+          "speaker": "Daniel"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "memory poisoning",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

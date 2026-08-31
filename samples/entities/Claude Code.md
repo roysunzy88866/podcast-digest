@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>40</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>41</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,6 +30,7 @@ unlisted: true
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集将其定位为集成在 VS Code 等 IDE 中的编程扩展。嘉宾用它从零编写知识库架构，并构建了赢得黑客马拉松的「对抗性智能体评估器」。(注:英文稿中误听为 plot code / cloud code)
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:去年二月发布的编码工具,从最初需死盯权限提示,演变为可托付复杂任务、甚至能自主做代码审查的智能体
 - **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(20:24起):本集说很多人还停留在跟 Claude Code 一对一交互的阶段，觉得成千上万智能体跑在企业基础设施里很遥远
+- **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(16:00起):本集说大部分 Claude 废话体验发生在 Claude Code 中，体验比 Claude Code Worker Chat 稍好一点
 - **[[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]]**(10:04起):本集把它说成：一个大家使用相同的系统提示和工具的马具（harness）；在基准测试中，PAT 的确定性架构在代码生成速度和二次执行延迟上均优于它。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:31起):本集将其描述为 Anthropic Labs 团队孵化的前沿产品，它与 Opus 4.5 模型相互成就，作为载体让用户真正感受到了前沿模型的魔力，迎来了爆发式的采用。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(05:42起):本集把它说成:在讨论智能体编码时代新范式时顺带提及的工具之一,代表了两年前到现在的任务复杂度巨变。
@@ -65,7 +66,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*40 集*
+*41 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
@@ -86,6 +87,7 @@ unlisted: true
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为概念(提及)
+- [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为概念(提及)
 - [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]] — 作为被讨论公司
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)
@@ -112,9 +114,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Cursor]] · [[OpenAI]] · [[Claude]] · [[评估]] · [[沙箱]] · [[Meta]]
+[[智能体]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[OpenAI]] · [[Cursor]] · [[Claude]] · [[评估]] · [[沙箱]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":160,"Anthropic":79,"Lenny":66,"Codex":30,"Cursor":40,"OpenAI":71,"Claude":37,"评估":17,"沙箱":32,"Meta":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":162,"Anthropic":81,"Codex":31,"Lenny":66,"OpenAI":72,"Cursor":40,"Claude":38,"评估":17,"沙箱":32,"Meta":23}</script>
 
 <script>
 (function(){

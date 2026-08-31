@@ -53,7 +53,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[Stripe]] · [[Lenny]] · [[OpenAI]] · [[Slack]] · [[GitHub]] · [[Lovable]] · [[go-to-market]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":160,"Cursor":40,"Stripe":23,"Lenny":66,"OpenAI":71,"Slack":21,"GitHub":18,"Lovable":11,"go-to-market":4,"Salesforce":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":162,"Cursor":40,"Stripe":23,"Lenny":66,"OpenAI":72,"Slack":21,"GitHub":18,"Lovable":11,"go-to-market":4,"Salesforce":10}</script>
 
 <script>
 (function(){

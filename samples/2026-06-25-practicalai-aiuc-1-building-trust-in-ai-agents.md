@@ -146,8 +146,8 @@ Emil 提了三件事 <button class="pd-ts" data-t="40:08" data-who="Emil Lassen"
 **顺着「AI 安全」挖下去**
 
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、红队测试 (red teaming)、护栏 (guardrails)</span>
+- [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、可观测性 (observability)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:智能体 (agent)、护栏 (guardrails)</span>
-- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同概念:智能体 (agent)、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

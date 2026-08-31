@@ -156,8 +156,8 @@ CEO 现在只做三件事：只有自己能做的事（招聘、展示方向、�
 **顺着「智能体」挖下去**
 
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|GrokBot、Origin 与 Grok 4.6 实测]]<span class="pd-rz">同概念:MCP、智能体 (agent)、连接器 (connector)</span>
+- [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同概念:MCP、智能体 (agent)、可观测性 (observability)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、后训练 (post-training)</span>
-- [[2026-08-09-talks-always-on-agents-run-production-without|当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、可观测性 (observability)</span>
 
 </div>
 <div class="pd-ex">

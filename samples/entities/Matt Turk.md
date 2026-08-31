@@ -22,7 +22,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Sanjit Biswas]] · [[Ryan Greenblatt]] · [[Samsara]] · [[Redwood Research]] · [[物理 AI]] · [[OpenAI]] · [[护栏]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":160,"Meta":23,"Sanjit Biswas":1,"Ryan Greenblatt":2,"Samsara":2,"Redwood Research":2,"物理 AI":5,"OpenAI":71,"护栏":32,"Anthropic":79}</script>
+<script type="application/json" class="pd-epn">{"智能体":162,"Meta":23,"Sanjit Biswas":1,"Ryan Greenblatt":2,"Samsara":2,"Redwood Research":2,"物理 AI":5,"OpenAI":72,"护栏":32,"Anthropic":81}</script>
 
 <script>
 (function(){

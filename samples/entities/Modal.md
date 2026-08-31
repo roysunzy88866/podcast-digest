@@ -30,7 +30,7 @@ aliases: ["Modal Labs", "Modo", "moto"]
 
 [[智能体]] · [[Swyx]] · [[沙箱]] · [[推理]] · [[PLG]] · [[Cognition]] · [[Anthropic]] · [[Louis Knight-Webb]] · [[Akshat Bubna]] · [[Matt Swulinski]]
 
-<script type="application/json" class="pd-epn">{"智能体":160,"Swyx":2,"沙箱":32,"推理":3,"PLG":6,"Cognition":12,"Anthropic":79,"Louis Knight-Webb":1,"Akshat Bubna":1,"Matt Swulinski":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":162,"Swyx":2,"沙箱":32,"推理":3,"PLG":6,"Cognition":12,"Anthropic":81,"Louis Knight-Webb":1,"Akshat Bubna":1,"Matt Swulinski":1}</script>
 
 <script>
 (function(){

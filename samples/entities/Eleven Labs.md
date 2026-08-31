@@ -27,7 +27,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Gabriel Vasquez]] · [[Emil Lassen]] · [[Elena Berger]] · [[the artificial intelligence underwriting company]] · [[Angela Strange]] · [[AI UC one]] · [[a16z]] · [[智能体]] · [[Adi]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":3,"Gabriel Vasquez":1,"Emil Lassen":1,"Elena Berger":3,"the artificial intelligence underwriting company":1,"Angela Strange":1,"AI UC one":1,"a16z":7,"智能体":160,"Adi":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":4,"Gabriel Vasquez":1,"Emil Lassen":1,"Elena Berger":3,"the artificial intelligence underwriting company":1,"Angela Strange":1,"AI UC one":1,"a16z":7,"智能体":162,"Adi":1}</script>
 
 <script>
 (function(){

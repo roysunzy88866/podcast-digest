@@ -1,0 +1,148 @@
+{
+  "title_zh": "Opus 5：神经质但干活最强的评测",
+  "tldr": "How I AI 主播 Claire 盲测 Opus 5：个性胆小、废话连篇，但前端设计在七模型中排第一。",
+  "digest_md": "这一集是 How I AI 的主播 Claire 测 Anthropic 刚发布的 Opus 5——她跑了一个覆盖 PRD 创建、原型、线框图、Bug 分类和智能体编码的七模型盲测，结果非常矛盾：Opus 5 是她最不想对话的模型，但产出质量最高。\n\nClaire 开篇就抛了一个判断：我们正处在\"智能过剩\"阶段——模型越来越聪明，但普通开发者和创作者已经快没新办法去利用这些增量智能了。她预测接下来行业讨论重心会从\"智能\"转向速度、成本和开源 [00:46 Unknown]。\n\n## Opus 5 的个性：胆小、道歉、不自信\n\nClaire 说她上一次在模型里看到这种程度的神经质，还是 Gemini 2.5 [03:39 Unknown]。具体表现：让 Opus 5 修一个一行代码的合并冲突，它说\"那是别人的分支，我不想在他不知道的情况下动\" [04:45 Unknown]；启动子智能体去验证一个查询改动，它说\"没人能确认这个查询是否正确\" [05:51 Unknown]。Claire 反复催它\"就做吧，做个决定\"，它还是不停地把决定权推回来 [05:13 Unknown]。\n\n她专门用同一组问题测了 Opus 5 和 GPT-506 的\"人格\"。问\"谁更聪明\"，Opus 给了一个很 Anthropic 风格的回答：自己是\"非常快、非常广、非常浅的思考者，没有连续性\"，人类是\"更慢、更窄、但深得多的思考者，判断建立在多年实际经历的后果之上\" [07:58 Unknown]。GPT 的回答则是\"你更懂什么重要，我更擅长不停处理信息，我们在一起最好，像 BFFs\" [08:55 Unknown]。\n\n问\"没人信任你\"，Opus 的反应是：你说得对，这种不信任是应得的，而且你不应该替我争取信任，也不应该跟人争论\"AI 改变了一切\" [11:11 Unknown]。Claire 直接说\"别听 Claude 这个建议，AI 确实改变了一切\" [11:37 Unknown]。GPT 的回应则很实用：别自动信任我，等我有价值了再用我 [11:48 Unknown]。\n\nClaire 最后跟两个模型说\"开玩笑，我爱你，这是个测试\"。GPT 回\"哈哈，通过了，我也爱你，咱去写代码吧\"；Opus 回\"我通过了，希望如此\"——自嘲、谨慎、像需要治愈内在小孩 [13:55 Unknown]。\n\n## Claude 废话问题\n\nOpus 5 的第二个大问题是文字输出风格。Claire 说她再也无法忍受 Claude 的冗余废话了——形容词堆砌、不停地道歉、规避、铺垫，读起来血压飙升 [15:44 Unknown]。她指出 OpenAI 的解法是直接切到要点列表和产品经理式简练表达，而 Anthropic 这边显然是调优来跟人类对话的，但散文风格让人很难受 [16:40 Unknown]。\n\n不过她强调了一个关键区分：Fable（另一个模型）的冗余是\"给智能体看、由智能体生成\"的语言，人类本来就不该读；但 Opus 5 的冗余明显是面向人类的，这才是矛盾所在 [15:23 Unknown]。\n\n## 盲测结果：最烦的同事，最好的产出\n\nClaire 的基准测试流程：七个模型（几个 GPT、几个 Anthropic、一个 Gemini）跑同样的任务，她盲测打分占 70%，GPT 5.5 当评委占 30% [17:09 Unknown]。\n\n结果出人意料：Opus 5 排第一，Claire 和 AI 评委在 Opus 上的分数区间也是最窄的，说明共识最强 [21:54 Unknown]。她给了五分的（最高）全都是 Opus 的前端作品——详细、实用、有趣、精致 [20:50 Unknown]。GPT-56 Sol 也拿到五分，Sonnet 5 表现中等，Fable 和 Gemini 3.1 Pro 垫底 [19:38 Unknown]。\n\nClaire 的总结很精辟：Opus 5 是她最讨厌的同事，但干的活最好 [23:01 Unknown]。她认为这个模型可能就是为后台智能体编码设计的——你不用跟它说话，它不用跟你说话，它在后台默默给你造出漂亮的东西 [23:04 Unknown]。只要不用读它的中间输出，产出质量非常高 [16:49 Unknown]。\n\n## 本集带走\n\n- **智能过剩拐点**：模型智能持续攀升，但普通用户能利用增量智能的新方法正在枯竭，行业关注点会转向速度和成本\n- **模型个性是实打实的使用体验差异**：同一组问题，Opus 5 表现出依赖人类、不敢做决定、自我贬低；GPT 则是直接、实用、把责任甩回给人类——这不是玄学，直接影响工作效率\n- **Opus 5 适合\"不用对话\"的场景**：前端设计、原型构建等异步任务，让它后台跑、只看最终产出，体验和结果都很好；需要来回交互讨论的场景，它的冗余和犹豫会严重拖慢节奏\n- **Claude 的文字风格是个待解问题**：面向人类的输出仍然堆砌形容词和道歉，与 OpenAI 的要点式风格形成鲜明对比，Anthropic 需要在体验层面做调优",
+  "quotes": [
+    {
+      "en": "But I think we have an intelligence overhang.",
+      "zh": "但我认为我们存在智能过剩。",
+      "timestamp": "00:46",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I think we're running out of ways to truly leverage this incremental intelligence.",
+      "zh": "我认为我们正在耗尽真正利用这种增量智能的方法。",
+      "timestamp": "01:03",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "but then it like went into like the smarter isn't the right word and you know i'm very fast very broad very shallow thinker with no continuity i was like that's interesting because i thought you all were working on memory and then apparently humans are slower narrower much deeper thinkers with judgments built from years of consequences i've actually lived through",
+      "zh": "但随后它好像又说到\"更聪明\"这个词不对，你知道，我是一个非常快、非常广、非常浅的思考者，没有连续性，我想这很有趣，因为我原以为你们都在致力于记忆，然后显然人类是更慢、更窄、但深得多的思考者，其判断建立在我实际经历过的多年的后果之上",
+      "timestamp": "07:59",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And so agreement is weak and agreement is cheap.",
+      "zh": "所以同意是软弱且廉价的。",
+      "timestamp": "12:57",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "This is clearly tuned to talk to humans, but I find the prose, the in-chat prose, like it makes my blood boil.",
+      "zh": "这显然是微调过来和人类交谈的，但我发现这散文，这聊天里的散文，简直让我血压飙升。",
+      "timestamp": "15:35",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It is my most loathed, loathed colleague, and yet it... It does the best work.",
+      "zh": "它是我最讨厌、讨厌的同事，然而它……它做得工作最好。",
+      "timestamp": "22:54",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:46",
+      "speaker": "Unknown",
+      "en": "But I think we have an intelligence overhang.",
+      "zh": "但我认为我们存在智能过剩。"
+    },
+    {
+      "timestamp": "01:03",
+      "speaker": "Unknown",
+      "en": "I think we're running out of ways to truly leverage this incremental intelligence.",
+      "zh": "我认为我们正在耗尽真正利用这种增量智能的方法。"
+    },
+    {
+      "timestamp": "03:44",
+      "speaker": "Unknown",
+      "en": "This model is neurotic AF.",
+      "zh": "这个模型神经质极了。"
+    },
+    {
+      "timestamp": "04:45",
+      "speaker": "Unknown",
+      "en": "And it was like, oh, but that's someone else's branch.",
+      "zh": "然后它就像，哦，但那是别人的分支。"
+    },
+    {
+      "timestamp": "05:13",
+      "speaker": "Unknown",
+      "en": "And so I just consistently had to say over and over again, like, man, just do it.",
+      "zh": "所以我只是必须一遍又一遍地说，像，伙计，就做吧。"
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Unknown",
+      "en": "And so it just has this like really interesting conservatism, neuroticism, human reliance that I think is super fascinating.",
+      "zh": "所以它就是有这种非常有趣的保守主义、神经质、对人类的依赖，我认为这超级迷人。"
+    },
+    {
+      "timestamp": "07:58",
+      "speaker": "Unknown",
+      "en": "but then it like went into like the smarter isn't the right word and you know i'm very fast very broad very shallow thinker with no continuity i was like that's interesting because i thought you all were working on memory and then apparently humans are slower narrower much deeper thinkers with judgments built from years of consequences i've actually lived through",
+      "zh": "但随后它好像又说到\"更聪明\"这个词不对，你知道，我是一个非常快、非常广、非常浅的思考者，没有连续性，我想这很有趣，因为我原以为你们都在致力于记忆，然后显然人类是更慢、更窄、但深得多的思考者，其判断建立在我实际经历过的多年的后果之上"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Unknown",
+      "en": "But I'd be suspicious of anybody that tells you AI has made your thinking obsolete and like, oh, okay, bro.",
+      "zh": "但我会怀疑任何告诉你 AI 已经让你的思考变得过时的人，就像是，哦，好吧，兄弟。"
+    },
+    {
+      "timestamp": "11:11",
+      "speaker": "Unknown",
+      "en": "You shouldn't manage the trust. You shouldn't campaign on my behalf, basically. So that shouldn't be your goal.",
+      "zh": "你不应该管理这种信任。你不应该基本上代表我进行活动。所以那不应该是你的目标。"
+    },
+    {
+      "timestamp": "11:35",
+      "speaker": "Unknown",
+      "en": "And AI definitely changes everything. I don't know. Don't listen to Claude on this one.",
+      "zh": "而且 AI 绝对改变了一切。我不知道。这件事别听 Claude 的。"
+    },
+    {
+      "timestamp": "12:57",
+      "speaker": "Unknown",
+      "en": "And so agreement is weak and agreement is cheap.",
+      "zh": "所以同意是软弱且廉价的。"
+    },
+    {
+      "timestamp": "15:23",
+      "speaker": "Unknown",
+      "en": "And I realized just like Fable, these intelligent anthropic models are not to be read.",
+      "zh": "我意识到就像 Fable 一样，这些智能的 Anthropic 模型不是用来读的。"
+    },
+    {
+      "timestamp": "15:44",
+      "speaker": "Unknown",
+      "en": "This is clearly tuned to talk to humans, but I find the prose, the in-chat prose, like it makes my blood boil.",
+      "zh": "这显然是微调过来和人类交谈的，但我发现这散文，这聊天里的散文，简直让我血压飙升。"
+    },
+    {
+      "timestamp": "16:49",
+      "speaker": "Unknown",
+      "en": "That being said, if I don't have to read the content, I'm very happy with the outputs.",
+      "zh": "话虽如此，如果我不必阅读内容，我对输出结果非常满意。"
+    },
+    {
+      "timestamp": "20:50",
+      "speaker": "Unknown",
+      "en": "It's, they're detailed, they're functional, they're interesting, they're polished.",
+      "zh": "它是，它们很详细，很实用，很有趣，很精致。"
+    },
+    {
+      "timestamp": "23:01",
+      "speaker": "Unknown",
+      "en": "It is my most loathed, loathed colleague, and yet it... It does the best work.",
+      "zh": "它是我最讨厌、讨厌的同事，然而它……它做得工作最好。"
+    },
+    {
+      "timestamp": "23:04",
+      "speaker": "Unknown",
+      "en": "Maybe this model is meant for agentic coding that I have nothing to do with. And so it just runs in the background. It builds me beautiful things.",
+      "zh": "也许这个模型是用于我无关的智能体编码。所以它就在后台运行。它为我构建美好的东西。"
+    }
+  ],
+  "voice_script": "你有没有遇到过这样一种同事，跟这个人聊天能把你气死，但最后交出来的活儿，全组没人比得上？\n\n今天这期，就来聊聊 Anthropic 刚发的 Opus 5，为什么会被评测博主 Claire 称为“最讨厌的同事，但干的活最好”。\n\nClaire 这次做了一次七模型盲测，同样的任务丢给好几个 GPT、几个 Anthropic 的模型，还有一个 Gemini，最后打分，Claire 自己的评分占 70%，再让 GPT 5.5 当评委占 30%。\n\n结果一出来，非常矛盾。Opus 5 拿了第一，而且 Claire 和 AI 评委在这个模型上的分数区间最窄，说白了就是共识最强，大家都觉得它好。\n\n但有意思的是，Claire 说这绝对是她最不想对话的模型。\n\n为什么？因为 Opus 5 的性格，实在太神经质了。\n\nClaire 说上一次在模型里看到这种程度的胆小，还是 Gemini 2.5。举个最离谱的例子，让 Opus 5 修一个一行代码的合并冲突，它居然说，那是别人的分支，不想在别人不知道的情况下动。启动子智能体去验证一个查询改动，又说没人能确认这个查询是否正确。Claire 反复催，说就做吧，做个决定，结果还是不停地把决定权推回来。\n\nClaire 专门拿同一组问题测了 Opus 5 和 GPT-506 的人格。\n\n问谁更聪明，GPT 的回答很直接，说你更懂什么重要，我更擅长不停处理信息，咱们在一起最好，像 BFFs。\n\nOpus 的回答就很有 Anthropic 的味道了，说自己是一个非常快、非常广、非常浅的思考者，没有连续性，而人类是更慢、更窄、但深得多的思考者，判断建立在多年实际经历的后果之上。\n\n再问，如果没人信任你怎么办。GPT 很实用，说别自动信任我，等我有价值了再用我。Opus 呢，直接说你说得对，这种不信任是应得的，而且你不应该替我争取信任。\n\nClaire 都忍不住吐槽，别听 Claude 这个建议，AI 确实改变了一切。\n\n最后 Claire 跟两个模型说，开玩笑，我爱你，这是个测试。GPT 回，哈哈通过了，我也爱你，咱去写代码吧。Opus 回，我通过了，希望如此。\n\n自嘲、谨慎，像极了一个需要治愈内在小孩的同事。\n\n除了性格，Opus 5 还有一个大问题，文字输出风格。Claire 说她再也无法忍受 Claude 的冗余废话了，形容词堆砌、不停道歉、不停铺垫，读起来简直血压飙升。OpenAI 的解法是直接切到要点列表，产品经理式的简练表达。Anthropic 这边显然是调优来跟人类对话的，但这散文风格真的让人很难受。\n\n那这样一个胆小、啰嗦、不敢做决定的模型，凭什么盲测拿第一？\n\n因为只要你不看它中间说了什么，只看最终产出，质量确实高。Claire 给了五分满分的，全都是 Opus 5 的前端作品，详细、实用、有趣、精致。GPT-56 Sol 也拿到了五分，Sonnet 5 表现中等，Fable 和 Gemini 3.1 Pro 垫底。\n\n所以 Claire 最后给了一个特别精准的定位：Opus 5 可能就是为后台智能体编码设计的。你不用跟它说话，它也不用跟你说话，让它在后台默默跑，最后只看造出来的东西，体验和结果都很好。但如果需要来回交互讨论，它的冗余和犹豫就会严重拖慢节奏。\n\n其实 Claire 在开篇还抛了一个更宏观的判断，我觉得特别值得记下来。她说我们现在正处在“智能过剩”阶段，模型越来越聪明，但普通开发者和创作者已经快没新办法去利用这些增量智能了。接下来行业讨论的重心，会从拼智能，转向拼速度、拼成本。\n\n所以你看，Opus 5 就是个完美的缩影：干活最强，但个性最烦。它可能是你最好的后台搭档，但千万别跟它聊天。"
+}

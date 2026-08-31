@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>79</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>81</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -46,6 +46,7 @@ unlisted: true
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(02:33起):本集把它说成:与 OpenAI 并列的优秀闭源模型提供商,在盈利和业务上都在高速增长,不应被监管阻碍其向大众提供服务。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(05:46起):本集作为前沿实验室的代表，被提及已延长其顶级模型的可用期限以应对开源模型的逼近；同时其围绕 Claude 的产品工具套件被视为构建护城河的关键。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(10:54起):本集把它说成:与 OpenAI 并列的「双重故障点」,两者必须保持指数级收入增长才能撑起万亿规模的 AI 数据中心表外债务链条。
+- **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(07:02起):本集说 Anthropic 的模型（Opus 5）被调优为跟人类对话的散文风格，堆砌形容词、道歉、规避，与 OpenAI 的要点式风格形成鲜明对比；其公司文化体现在模型把人类描述为高同理心机器、AI 自视为工具
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(04:45起):本集将其作为闭源垄断巨头的典型反复点名：被指投入大量资金推动禁止开源；既当裁判又当运动员下场抢夺应用层生意；甚至公然无视政府与国家安全，宣称「我们说了算」。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:00起):本集讨论的 AI 公司，拥有 Claude 系列模型，嘉宾在其中担任 AI 研究和实验室团队的产品负责人，讲述了公司早期摸索与押注编码能力的发展历程。
 - **[[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]]**(25:58起):本集说当 Anthropic 称'限制开源是打击中国的最好方式'时，真正受益的是 Anthropic 自己，因为被限制的不只是中国的开源模型，也包括美国的开源竞争对手
@@ -121,7 +122,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*79 集*
+*81 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -141,6 +142,7 @@ unlisted: true
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为被讨论公司
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为被讨论公司(提及)
+- [[2026-06-11-practicalai-zero-trust-for-ai-agents|《Anthropic 零信任框架：智能体安全的六层防御》]] — 作为被讨论公司
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为被讨论公司
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为被讨论公司(提及)
@@ -158,6 +160,7 @@ unlisted: true
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
+- [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为被讨论公司
 - [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]] — 作为被讨论公司
@@ -207,9 +210,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[NVIDIA]] · [[推理]] · [[Claude]] · [[沙箱]] · [[Meta]] · [[Cursor]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[NVIDIA]] · [[Claude]] · [[推理]] · [[Meta]] · [[沙箱]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":160,"OpenAI":71,"Lenny":66,"Claude Code":40,"NVIDIA":24,"推理":3,"Claude":37,"沙箱":32,"Meta":23,"Cursor":40}</script>
+<script type="application/json" class="pd-epn">{"智能体":162,"OpenAI":72,"Lenny":66,"Claude Code":41,"NVIDIA":24,"Claude":38,"推理":3,"Meta":23,"沙箱":32,"Cursor":40}</script>
 
 <script>
 (function(){

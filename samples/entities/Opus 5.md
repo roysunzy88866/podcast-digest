@@ -1,31 +1,33 @@
 ---
 title: Opus 5
-entity_type: 概念
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Opus 5</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Opus 5">OP</div><div class="pi"><h1 class="pt">Opus 5</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Opus 5">OP</div><div class="pi"><h1 class="pt">Opus 5</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(01:39起):本集说它是 Anthropic 刚发布的模型，性格神经质、胆小、充满歉意且高度依赖人类；但在盲测中产出质量排第一，前端作品详细、实用、精致，适合后台异步的智能体编码场景
 - **[[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]]**(00:21起):本集把它说成:Anthropic 刚刚发布的新一代大模型。它把 ARC AGI 3 的成绩做到了 30%,不需要外部脚手架就能自主连续运行数周或数月,且结合多层分类器克服了提示词注入问题。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为概念
 - [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Boris Cherny]] · [[Cloud Code]] · [[智能体]] · [[提示词注入]] · [[系统提示词]] · [[产品冗余]] · [[动态工作流]] · [[测试时计算]] · [[消融]] · [[例程]]
+[[智能体]] · [[Anthropic]] · [[Boris Cherny]] · [[GPT-506]] · [[Cloud Code]] · [[OpenAI]] · [[提示词注入]] · [[Claude]] · [[系统提示词]] · [[智能过剩]]
 
-<script type="application/json" class="pd-epn">{"Boris Cherny":2,"Cloud Code":3,"智能体":160,"提示词注入":8,"系统提示词":3,"产品冗余":1,"动态工作流":1,"测试时计算":3,"消融":1,"例程":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":162,"Anthropic":81,"Boris Cherny":2,"GPT-506":1,"Cloud Code":3,"OpenAI":72,"提示词注入":9,"Claude":38,"系统提示词":3,"智能过剩":1}</script>
 
 <script>
 (function(){

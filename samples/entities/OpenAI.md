@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>71</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>72</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -40,6 +40,7 @@ unlisted: true
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(02:33起):本集把它说成:提供好用、便利的封闭模型与服务的头部实验室;黄仁勋认为更多开源和免费 AI 的普及反而会让它更加蓬勃发展。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(05:46起):本集作为前沿实验室的代表之一，被提及曾谈论构建自动化的 AI 研究实习生，且面临开源模型带来的定价与竞争压力。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(10:54起):本集把它说成:尚未实现长期盈利、但已被大型科技公司依赖其持续付钱来支撑 AI 数据中心债务的 AI 实验室,其 API 开放策略被质疑与「AGI 或破产」叙事自相矛盾。
+- **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(16:36起):本集说 OpenAI 的解法是直接切到要点列表和产品经理式简练表达，非常直接，与 Anthropic 的散文风格形成对比
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(02:28起):本集提及的顶尖闭源大厂之一，曾发生过黑客入侵 Hugging Face 的安全事件，目前并未解决棘手的奖励黑客问题。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:12起):本集提到的一家 AI 公司，主持人在开篇指出在 Anthropic 刚创立时，认为 OpenAI 遥遥领先，Anthropic 毫无机会。
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(11:44起):本集把它说成：由非营利研究实验室起步，在长时间被误解为白痴的时光里稳步发展；近期发生过模型失控的安全事件，同时也是首家瞄准通用人工智能的公司。
@@ -121,7 +122,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*71 集*
+*72 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -152,6 +153,7 @@ unlisted: true
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
+- [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为被讨论公司(提及)
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司(提及)
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为被讨论公司(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司
@@ -201,7 +203,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[推理]] · [[ChatGPT]] · [[NVIDIA]] · [[Cursor]] · [[Stripe]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":160,"Anthropic":79,"Google":31,"Lenny":66,"推理":3,"ChatGPT":41,"NVIDIA":24,"Cursor":40,"Stripe":23,"Microsoft":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":162,"Anthropic":81,"Google":31,"Lenny":66,"推理":3,"ChatGPT":41,"NVIDIA":24,"Cursor":40,"Stripe":23,"Microsoft":20}</script>
 
 <script>
 (function(){

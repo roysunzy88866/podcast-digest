@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[Block]] · [[智能体]] · [[Dhanji Prasanna]] · [[Keith Rabois]] · [[Willem Avé]] · [[Goose]] · [[PayPal]] · [[业务单元模式]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Block":2,"智能体":160,"Dhanji Prasanna":1,"Keith Rabois":1,"Willem Avé":1,"Goose":1,"PayPal":3,"业务单元模式":1,"MCP":18}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Block":2,"智能体":162,"Dhanji Prasanna":1,"Keith Rabois":1,"Willem Avé":1,"Goose":1,"PayPal":3,"业务单元模式":1,"MCP":19}</script>
 
 <script>
 (function(){

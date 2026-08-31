@@ -7,11 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Daniel Whitenack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Daniel Whitenack">DA</div><div class="pi"><h1 class="pt">Daniel Whitenack</h1><div class="byl">Practical AI 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Daniel Whitenack">DA</div><div class="pi"><h1 class="pt">Daniel Whitenack</h1><div class="byl">Practical AI 主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*4 条*
+*7 条*
+
+![[2026-06-11-practicalai-zero-trust-for-ai-agents#^q1]]
+
+![[2026-06-11-practicalai-zero-trust-for-ai-agents#^q3]]
+
+![[2026-06-11-practicalai-zero-trust-for-ai-agents#^q4]]
 
 ![[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag#^q6]]
 
@@ -23,8 +29,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
+- [[2026-06-11-practicalai-zero-trust-for-ai-agents|《Anthropic 零信任框架：智能体安全的六层防御》]] — 作为主持
 - [[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents|《AI 智能体怎么认证：从标准到红队测试的全流程》]] — 作为主持
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为联合主持
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为联合主持
@@ -33,9 +40,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[护栏]] · [[Chris Benson]] · [[OpenAI]] · [[Emil Lassen]] · [[IBM]] · [[Hugging Face]] · [[the artificial intelligence underwriting company]] · [[企业软件]] · [[沙箱]]
+[[智能体]] · [[Chris Benson]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[提示词注入]] · [[MCP]] · [[爆炸半径]] · [[可观测性]] · [[零信任]]
 
-<script type="application/json" class="pd-epn">{"智能体":160,"护栏":32,"Chris Benson":3,"OpenAI":71,"Emil Lassen":1,"IBM":2,"Hugging Face":12,"the artificial intelligence underwriting company":1,"企业软件":1,"沙箱":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":162,"Chris Benson":4,"Anthropic":81,"护栏":32,"OpenAI":72,"提示词注入":9,"MCP":19,"爆炸半径":3,"可观测性":15,"零信任":1}</script>
 
 <script>
 (function(){
