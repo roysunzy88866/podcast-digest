@@ -107,7 +107,7 @@ jsonLd: |
 
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同公司:Tesla、Waymo · 同概念:智能体 (agents)、物理 AI (physical AI)</span>
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Meta · 同概念:智能体 (agents)</span>
-- [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|让机器人在真实世界干活：Physical Intelligence 的通用机器人之路]]<span class="pd-rz">同公司:Waymo · 同概念:物理 AI (physical AI)</span>
+- [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|Waymo 谈物理 AI 的七条实战教训]]<span class="pd-rz">同公司:Waymo · 同概念:物理 AI (physical AI)</span>
 
 </div>
 <div class="pd-ex">

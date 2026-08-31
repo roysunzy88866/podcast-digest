@@ -23,7 +23,7 @@ unlisted: true
 
 [[Simon Maple]] · [[智能体]] · [[沙箱]] · [[暗工厂]] · [[护栏]] · [[TESL]] · [[harness]] · [[可观测性]] · [[Lamus Mukta]] · [[Patrick Debois]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":6,"智能体":158,"沙箱":32,"暗工厂":2,"护栏":32,"TESL":3,"harness":17,"可观测性":14,"Lamus Mukta":1,"Patrick Debois":1}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":6,"智能体":160,"沙箱":32,"暗工厂":2,"护栏":32,"TESL":3,"harness":17,"可观测性":14,"Lamus Mukta":1,"Patrick Debois":1}</script>
 
 <script>
 (function(){

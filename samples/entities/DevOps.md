@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[回路中的人类]] · [[评估]] · [[Guy Pajani]] · [[Chris Blackburn]] · [[Michael Giannangelli]] · [[Patrick Debois]] · [[Liatrio]] · [[Nova]] · [[Simon Maple]]
 
-<script type="application/json" class="pd-epn">{"智能体":158,"回路中的人类":4,"评估":17,"Guy Pajani":3,"Chris Blackburn":1,"Michael Giannangelli":1,"Patrick Debois":1,"Liatrio":1,"Nova":1,"Simon Maple":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":160,"回路中的人类":4,"评估":17,"Guy Pajani":3,"Chris Blackburn":1,"Michael Giannangelli":1,"Patrick Debois":1,"Liatrio":1,"Nova":1,"Simon Maple":6}</script>
 
 <script>
 (function(){

@@ -1,0 +1,944 @@
+{
+  "episode_id": "2026-07-30-indepth-what-startups-get-wrong-about-enterprise",
+  "podcast": "In Depth",
+  "date": "2026-07-30",
+  "tags": [
+    "企业销售",
+    "销售薪酬设计",
+    "COO 运营节奏",
+    "AI 落地",
+    "决策下沉"
+  ],
+  "categories": [
+    "增长与销售",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "lindsey-scrase",
+      "type": "person",
+      "role": "host",
+      "name": "Lindsey Scrase",
+      "file": "Lindsey Scrase",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "checkr",
+      "type": "company",
+      "role": "company",
+      "name": "Checkr",
+      "file": "Checkr",
+      "primary": true,
+      "how_described": "本集将其描述为做背景调查的公司，最初在零工经济客户中取得成功，后来在 Lindsay 带领下拓展企业市场，采用消费模式（按用量计费）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            94.265,
+            99.007
+          ],
+          "quote": "And so not dissimilar to the size and scale that Checkr is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            127.296,
+            135.198
+          ],
+          "quote": "So when you kind of take that to the Checkr context, we had a lot more built out, frankly, at Checkr when I joined than I had at this similar stage at Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            266.757,
+            268.278
+          ],
+          "quote": "And at Checkr,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            320.818,
+            326.521
+          ],
+          "quote": "At Checkr, it's where we know we are huge value add versus like entrenched incumbents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            347.609,
+            351.21
+          ],
+          "quote": "At Checkr a few years ago, we said, let's go into enterprise again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            411.459,
+            418.505
+          ],
+          "quote": "Checkr, we're seeing a lot of success as well in our most recent few years here and a lot more to come.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            692.741,
+            700.493
+          ],
+          "quote": "So for Checkr, for example, getting the outbound motion, if you're going through enterprise, you have to get outbound pipeline generated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1100.111,
+            1107.382
+          ],
+          "quote": "I come from SMB mid-market, so I was not the deep enterprise expert when I came to Checkr.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1324.97,
+            1333.012
+          ],
+          "quote": "If you think about going from CRO to COO in the context of Checkr, what was by far the hardest parts of that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2108.877,
+            2113.18
+          ],
+          "quote": "When I came into Checkr, people were comped on bookings.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2140.835,
+            2151.038
+          ],
+          "quote": "And then, therefore, I know if you're comped on this, your pay is aligning with value to the customer, which is then aligning with revenue to Checkr.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2907.552,
+            2909.715
+          ],
+          "quote": "That was a big change I made coming to Checkr.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 738,
+          "t": [
+            4061.497,
+            4064.019
+          ],
+          "quote": "Like low, low ego is really important to us at Checkr.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 741,
+          "t": [
+            4071.025,
+            4078.151
+          ],
+          "quote": "And so I think that's, that's also served me well in this context because I'm really, I really want to make Checkr successful.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google-cloud",
+      "type": "company",
+      "role": "company",
+      "name": "Google Cloud",
+      "file": "Google Cloud",
+      "primary": false,
+      "how_described": "本集提到 Lindsay 在 Google Cloud 早期（几百人阶段）加入，对抗 Microsoft 和 Amazon，早期低估了市场营销和产品推向市场的投资力度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            87.903,
+            94.205
+          ],
+          "quote": "At Google, I joined Google Cloud when we were a few hundred people on the go-to-market side, you know, a few hundred million in revenue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            101.268,
+            106.25
+          ],
+          "quote": "Obviously we do, like unlimited funding in some ways for like the startup that was Google Cloud, but...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            304.507,
+            314.473
+          ],
+          "quote": "And so whether it's at Google Cloud, like innovative companies or high-volume or high-growth startups is where we really leaned in, but those will become the big companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            405.453,
+            411.258
+          ],
+          "quote": "So it's a huge undertaking and one that Google Cloud has been obviously very successful at.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1333.672,
+            1344.135
+          ],
+          "quote": "The mental shift, especially in a large company like Google, even though we were Google Cloud, smaller when I joined, but you're managing your own functions and you're working to push cross-functional teams.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "enterprise",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业市场 (enterprise)",
+      "file": "企业市场",
+      "primary": true,
+      "how_described": "本集详细讨论了从中端市场打入企业市场的挑战：决策周期长、品牌认知断层、产品定制需求、获客方式不同，以及区分 deal blocker 和 nice-to-have 的产品难题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            181.79,
+            191.852
+          ],
+          "quote": "Dabbled in enterprise, we could summon mid-market, starting in SMB, and really wanted someone to think multi-segment, operationally data-driven, high-velocity sales, layering on top.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            269.118,
+            295.681
+          ],
+          "quote": "I'd say it's been similar over the years where we like early lead and you know all of the gig economy high volume hiring and then shifted to enterprise and again like this was six plus years ago but had some failures where I thought like hey we could just do this enterprise is the same and it's absolutely not and you have to think about it in terms of focus I would say is very important you can't go from being a challenger in the market to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            347.609,
+            351.21
+          ],
+          "quote": "At Checkr a few years ago, we said, let's go into enterprise again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            442.059,
+            443.32
+          ],
+          "quote": "We're just going to take it to enterprise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            451.424,
+            459.088
+          ],
+          "quote": "And a lot of companies have done it, but a lot of companies have almost blown themselves up over trying to sort of dominating enterprise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            574.014,
+            580.9
+          ],
+          "quote": "And you may be faced with like lack of brand awareness and enterprise, especially if you're coming from being a scale up or startups know you only.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            593.125,
+            598.906
+          ],
+          "quote": "Enterprise customers, there's always going to be the last long tail of requests for any customer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            671.673,
+            684.964
+          ],
+          "quote": "The other part I mentioned is focus and making sure that, you know, I've seen enterprise sales leaders fail where you're running sales teams, you're kind of doing this in a repeatable fashion, but...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            692.741,
+            700.493
+          ],
+          "quote": "So for Checkr, for example, getting the outbound motion, if you're going through enterprise, you have to get outbound pipeline generated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            747.676,
+            759.444
+          ],
+          "quote": "And so when you do really well in enterprise, you're able to focus on the right target accounts, figure out the right messaging and the right, like, what's the pain they have and how do I address that and get a hold of them?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            773.793,
+            778.034
+          ],
+          "quote": "You're at a couple hundred million dollars in a mid-market business and you want to go build an enterprise business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            797.284,
+            802.688
+          ],
+          "quote": "So hiring enterprise experienced sellers is very different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            803.108,
+            808.592
+          ],
+          "quote": "Thinking about enterprise marketing is completely different than traditional growth marketing and demand generation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            813.135,
+            822.442
+          ],
+          "quote": "Having the right product and engineering investment to be able to do last mile needs and build for the enterprise specifically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            831.311,
+            838.921
+          ],
+          "quote": "And so often people will get like, have a small pilot in a specific large enterprise and like, okay, we're good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            838.941,
+            844.027
+          ],
+          "quote": "We're in the enterprise or a startup that they got when they were, you know, like, let's say",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            849.191,
+            854.215
+          ],
+          "quote": "They're now obviously a large enterprise, but just because you've scaled with that company doesn't make you enterprise ready.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            975.372,
+            986.599
+          ],
+          "quote": "I mean, the way that I think things work best for anything like this, not just enterprise, is to have dedicated people trying and like moving quickly and sharing information together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1032.031,
+            1043.023
+          ],
+          "quote": "Did you find that you had to pre-commit to X number of roughly we're going to spend a third of our engineering resources on what's coming from the go-to-market and product team that's with enterprise or it was much more organic?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1071.732,
+            1086.016
+          ],
+          "quote": "Do you think it's clear that the AEs need to understand enterprise and that being an enterprise AE is different than being an SMB AE or some version of a seller down market?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1086.256,
+            1097.6
+          ],
+          "quote": "Do you think the person leading revenue also needs to have enterprise experience or you can have somebody that's much more in a transactional mid-market be successful at building out enterprise?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1100.111,
+            1107.382
+          ],
+          "quote": "I come from SMB mid-market, so I was not the deep enterprise expert when I came to Checkr.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1107.402,
+            1109.645
+          ],
+          "quote": "And at that point, we weren't going big in enterprise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1114.192,
+            1121.696
+          ],
+          "quote": "...had done this multiple times and done it in an environment that was gritty and challenging, not where, hey, they're the market leader running an enterprise org.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1222.277,
+            1244.41
+          ],
+          "quote": "I think that the the crux of it is like a sale is a it's a big it's a leap of trust and especially at that enterprise level you're making a big decision often you're as a buyer your your career this is a big strategic thing you're you're recommending internally you don't want to you know take risk on behalf of the company and so a lot of that comes down to like the trust you're making in the individuals like humans are humans",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1244.932,
+            1253.579
+          ],
+          "quote": "I don't think anytime soon, in enterprise sales specifically, that's going to be replaced on the AI or on the agentic side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1517.226,
+            1520.588
+          ],
+          "quote": "He's like a very strong enterprise-focused product leader.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2351.386,
+            2354.948
+          ],
+          "quote": "And Enterprise AE is like a hot commodity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "consumptive",
+      "type": "concept",
+      "role": "concept",
+      "name": "消费模式 (consumptive)",
+      "file": "消费模式",
+      "primary": true,
+      "how_described": "本集将其与 SaaS 模式对比：消费模式下签了单客户得真正用起来才产生收入，按预订（bookings）发薪酬会导致激励错位，改成按实际收入发后销售会主动关心客户是否真正用起来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 281,
+          "t": [
+            1654.237,
+            1672.355
+          ],
+          "quote": "Like deals above a certain size or any major brand campaign, not like a demand gen, but like any major brand decision, any product monetization that's going like in a completely, like we're a consumptive model, like changing a product to SaaS is an example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2082.19,
+            2092.252
+          ],
+          "quote": "I mean, the biggest experience I've had in this and learnings has been in the, like, sales compensation and moving from a SaaS model to consumptive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2100.954,
+            2105.455
+          ],
+          "quote": "And then whereas consumptive, you have to close the deal, they have to ramp, you have to predict how much they're going to spend.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dri",
+      "type": "concept",
+      "role": "concept",
+      "name": "DRI",
+      "file": "DRI",
+      "primary": true,
+      "how_described": "本集将其作为防官僚主义的核心机制：为每个事项指定 DRI，防止决策全部上推到高管层，倒逼每个人问自己的时间花在决策上 ROI 够不够高",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            1695.852,
+            1718.11
+          ],
+          "quote": "initiative or anything happening like who's the DRI directly responsible individual and that's just in our lexicon because we saw a lot of like swirl happening around like unsure who is taking the next step to own something codifying who is the decision maker because we we saw naturally everything was just flowing up and then and it wasn't always obvious that certain executives were deciding everything or everything was flowing up to VPs",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1747.916,
+            1755.379
+          ],
+          "quote": "And so with that in your world, at this point in the company's life, what do you think the things that you should be DRI on?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1756.199,
+            1762.802
+          ],
+          "quote": "And maybe what are some things that other people might think you should be DRI on, but you sort of very strongly believe it should sit somewhere else in the org?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1763.37,
+            1771.397
+          ],
+          "quote": "Key DRI, how are we thinking about major product roadmap trade-offs?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2852.879,
+            2856.603
+          ],
+          "quote": "And kind of set a DRI in place to go address and follow up.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集提到两层应用：一是销售侧的外呼智能体编排层（agentic layer），销售醒来时系统已根据信号向特定账户发出定制触达；二是运营侧避免每个运营人员各自构建应用，转向共享的、集中管理的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 699,
+          "t": [
+            3777.757,
+            3785.624
+          ],
+          "quote": "Like, hey, you know, a customer 360 skill in Claude or agent that will help us actually have better insight into this customer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 710,
+          "t": [
+            3850.82,
+            3854.742
+          ],
+          "quote": "But we don't need every single ops agent building an app, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (generative AI)",
+      "file": "生成式 AI",
+      "primary": true,
+      "how_described": "本集提到三个落地场景：运营侧处理客户支持和争议（AI 解决率目标 90% 以上，CSAT 提升约三个点）；销售侧的智能体编排层；工程侧超过 8% 的代码由其编写",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 661,
+          "t": [
+            3588.181,
+            3593.004
+          ],
+          "quote": "A chatbot interaction, but it's generative AI addressing the customer issues.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3593.405,
+            3603.111
+          ],
+          "quote": "We've taken customer satisfaction on interactions from before generative AI and post, improved like three acts in terms of CSAT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3727.447,
+            3733.812
+          ],
+          "quote": "On the engineering side as well, we're, you know, over 8% of our code is now written with generative AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rich-niches",
+      "type": "concept",
+      "role": "concept",
+      "name": "富矿利基 (rich niches)",
+      "file": "富矿利基",
+      "primary": true,
+      "how_described": "本集将其描述为打入企业市场的策略：深入分析 mid-market 里 NRR 高、GRR 高的垂直领域，集中资源打透，如 Checkr 发现汽车经销商这个富矿利基后集中拿下财富 500 强的汽车经销商集团",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            887.177,
+            894.201
+          ],
+          "quote": "And then we started doing very quick iterations of like we're starting to see good takedowns in a specific, we call them rich niches.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deal-blocker",
+      "type": "concept",
+      "role": "concept",
+      "name": "交易破坏者 (deal blocker)",
+      "file": "交易破坏者",
+      "primary": true,
+      "how_described": "本集将其与 nice-to-have 对比，强调产品端必须区分两者：全答应会导致产品路线图变成每个客户一堆雪花式定制，全拒绝则签不到单，两个极端都致命",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            625.037,
+            644.159
+          ],
+          "quote": "I think that what can make one successful in this is, I mean, multiple things, but one, on the product development side, it's really hard to differentiate what's a deal blocker versus a nice to have or something that a customer wants versus something that they really need.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "account-based-marketing",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于账户的营销 (account-based marketing)",
+      "file": "基于账户的营销",
+      "primary": false,
+      "how_described": "本集提到企业营销需要 account-based营销、线下活动、精准外呼，与传统增长营销和需求生成完全不同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            809.052,
+            812.715
+          ],
+          "quote": "So you need account-based marketing, you need events, strategies, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3716.3,
+            3721.223
+          ],
+          "quote": "And another area we're, we're early in, but like account-based marketing, it's like, it tends to be very manual.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bookings",
+      "type": "concept",
+      "role": "concept",
+      "name": "预订 (bookings)",
+      "file": "预订",
+      "primary": false,
+      "how_described": "本集提到 Checkr 以前按 bookings（预测客户会花多少）给销售发薪酬，导致销售拿到的报酬远超实际，很多客户没上线或实际用量与预期差很远",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 363,
+          "t": [
+            2108.877,
+            2113.18
+          ],
+          "quote": "When I came into Checkr, people were comped on bookings.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "accelerators",
+      "type": "concept",
+      "role": "concept",
+      "name": "加速器 (accelerators)",
+      "file": "加速器",
+      "primary": false,
+      "how_described": "本集提到销售薪酬中的加速器机制：超额完成配额后提成比例更高，不应设上限、不应小气，表现最好的 AE 应该比公司里大多数人赚得多得多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 425,
+          "t": [
+            2371.695,
+            2372.796
+          ],
+          "quote": "Like, you know, we have accelerators.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nrr",
+      "type": "concept",
+      "role": "concept",
+      "name": "NRR",
+      "file": "NRR",
+      "primary": false,
+      "how_described": "本集提到通过分析 mid-market 里 NRR 高、GRR 高的垂直领域来找到富矿利基，作为打入企业市场的起点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            936.456,
+            939.137
+          ],
+          "quote": "Your NRR is high, GRR is high.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3277.762,
+            3286.532
+          ],
+          "quote": "It feels like if you have a consumption-based model with incredible NRR, you run the risk of actually underemphasizing net new business.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "grr",
+      "type": "concept",
+      "role": "concept",
+      "name": "GRR",
+      "file": "GRR",
+      "primary": false,
+      "how_described": "本集与 NRR 一起提及，作为分析 mid-market 表现、寻找富矿利基的关键指标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            936.456,
+            939.137
+          ],
+          "quote": "Your NRR is high, GRR is high.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "m-a",
+      "type": "concept",
+      "role": "concept",
+      "name": "并购 (M&A)",
+      "file": "并购",
+      "primary": false,
+      "how_described": "本集将其归类为 Lindsay 认为 COO 必须 DRI 的'单向门'决策，错了影响全局",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1458.613,
+            1464.395
+          ],
+          "quote": "I think we, one thing I've also done at the company is build out, I'm a big believer in cadences and connection.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1815.817,
+            1821.939
+          ],
+          "quote": "Big, like M&A is one where those are like, you know, one-way doors that we, you know, are hard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1836.564,
+            1837.424
+          ],
+          "quote": "I'm a perfectionist.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2975.993,
+            2981.155
+          ],
+          "quote": "It is thinking, you know, kind of bringing people along on whether it's our strategy with M&A or investors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3296.242,
+            3304.666
+          ],
+          "quote": "Yeah, no, I'm a big proponent of this and separating out your Salesforce into new logo hunters and then existing account reps.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "variable-comp",
+      "type": "concept",
+      "role": "concept",
+      "name": "可变薪酬 (variable comp)",
+      "file": "可变薪酬",
+      "primary": false,
+      "how_described": "本集讨论销售必须有可变薪酬（提成），与 PM 等职能对比——销售工作更容易衡量所以更容易设置可变薪酬",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 391,
+          "t": [
+            2232.774,
+            2236.856
+          ],
+          "quote": "What are the reflections you have about variable comp for sales?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2244.966,
+            2255.194
+          ],
+          "quote": "There shouldn't be variable comp for reps. And in the fullness of time, I think that basically every single one of them eventually gets to the point that says, no, we should have variable comp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2256.715,
+            2261.179
+          ],
+          "quote": "And I've always wondered why aren't more PMs on variable comp and why aren't we pick any of these functions?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2267.577,
+            2271.159
+          ],
+          "quote": "But on the sales side, absolutely, they should be on variable comp.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fraud",
+      "type": "concept",
+      "role": "concept",
+      "name": "欺诈 (fraud)",
+      "file": "欺诈",
+      "primary": false,
+      "how_described": "本集将其作为'数据会骗人'的典型案例：仪表盘上身份验证是低 ASP 产品不显眼，但通过连点成线的客户对话发现无意雇佣盗用 SSN 者、朝鲜人等问题急剧上升，成为重大战略投资方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 571,
+          "t": [
+            3054.368,
+            3058.251
+          ],
+          "quote": "And fraud is an area that just keeps coming up more and more.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

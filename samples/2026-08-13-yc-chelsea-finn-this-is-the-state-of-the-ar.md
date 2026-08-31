@@ -114,8 +114,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同公司:Waymo · 同概念:物理 AI (physical AI)、ChatGPT、强化学习 (reinforcement learning)</span>
+- [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|Waymo 谈物理 AI 的七条实战教训]]<span class="pd-rz">同公司:Waymo · 同概念:物理 AI (physical AI)</span>
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)、ChatGPT</span>
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]]<span class="pd-rz">同公司:Waymo · 同概念:物理 AI (physical AI)</span>
 
 </div>
 <div class="pd-ex">

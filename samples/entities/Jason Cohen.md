@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]]
+[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]] [[Amol Avasare]] [[Lenny Rachitsky]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"客户流失率":1,"定价":1,"NRR":2,"渠道饱和":1,"入职引导":2,"定位":1,"大象曲线":1,"SaaS":11,"营销漏斗":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"客户流失率":1,"定价":1,"NRR":3,"渠道饱和":1,"入职引导":2,"定位":1,"大象曲线":1,"SaaS":11,"营销漏斗":1}</script>
 
 <script>
 (function(){

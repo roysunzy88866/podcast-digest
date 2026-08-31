@@ -25,7 +25,7 @@ unlisted: true
 
 [[Paolo Ardoino]] · [[QVAC]] · [[推理]] · [[微调]] · [[BitNet]] · [[LoRa]] · [[数据中心]] · [[去中介化]] · [[智能体]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"Paolo Ardoino":1,"QVAC":1,"推理":3,"微调":6,"BitNet":1,"LoRa":1,"数据中心":3,"去中介化":1,"智能体":158,"GPU":10}</script>
+<script type="application/json" class="pd-epn">{"Paolo Ardoino":1,"QVAC":1,"推理":3,"微调":6,"BitNet":1,"LoRa":1,"数据中心":3,"去中介化":1,"智能体":160,"GPU":10}</script>
 
 <script>
 (function(){

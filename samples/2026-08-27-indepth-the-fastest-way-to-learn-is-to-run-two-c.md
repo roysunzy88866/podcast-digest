@@ -180,8 +180,8 @@ AI 带来的根本变化：代码从输入变成了输出，软件开发生命�
 **顺着「组织与领导力」挖下去**
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同公司:Microsoft · 同概念:DRI</span>
+- [[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|从 CRO 到 COO：挑战者怎么打企业市场]]<span class="pd-rz">同概念:DRI</span>
 - [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活]]<span class="pd-rz">同概念:DRI</span>
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Microsoft · 同概念:IC</span>
 
 </div>
 <div class="pd-ex">

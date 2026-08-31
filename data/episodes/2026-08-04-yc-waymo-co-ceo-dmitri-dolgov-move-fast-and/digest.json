@@ -1,0 +1,184 @@
+{
+  "title_zh": "Waymo 谈物理 AI 的七条实战教训",
+  "tldr": "Waymo 技术负责人分享在物理世界大规模部署 AI 智能体的七条技术教训，从演示到产品的鸿沟、传感器架构选型，到基础模型与仿真飞轮。",
+  "digest_md": "这是 Waymo 的一位技术负责人在 Y Combinator 创业学校上的演讲，主题是：在真实物理世界（而非屏幕上）大规模构建和部署 AI 智能体，到底需要什么。他们做的产品是 Waymo driver——一辆完全没有人开的出租车，目前每周在美国 15 个城市跑超过 400 万英里。最反直觉的一点：物理 AI 最棒的时刻，看起来应该像什么都没发生——不是炫技，而是安全平稳地把任务完成，车上的人甚至没注意到刚躲过一次危险。\n\n## 物理世界有四道数字世界没有的坎\n\n数字 AI（聊天机器人、代码助手）和物理 AI 之间有四个根本差距：\n\n**错误代价差距**：数字产品出错，代价是重试一次；物理世界出错，代价可能用生命衡量，没有撤销按钮。**延迟差距**：数字助手花几秒回答没问题，但高速公路上每秒移动约 100 英尺，决策必须在毫秒级完成，而且算力只能放在车后备箱里。**数据差距**：数字 AI 有整个互联网的预标注知识可用，物理世界没有这种\"数字化互联网\"。**验证差距**：数字产品可以先上线再迭代，用户帮你找边界情况；物理产品部署第一个机器人之前，就必须有极高的安全置信度。但同时，真实世界的运行经验又不可替代，不能只在实验室里\"憋完美\"再出门——所以必须极其清晰地定义运行条件和部署参数，用严格框架指导渐进式扩展。\n\n## 演示只是 1%的工作，剩下的在\"九的阶梯\"上\n\n一个能跑的演示最多只占最终产品的 1%。可靠性和性能住在一个指数级的\"九的阶梯\"上——从 90% 到 99% 相对容易，但每多一个 9，工作量大约翻 10 倍。所以你必须提前算清楚你的产品到底需要几个 9：演示可能 1 个 9 就够，辅助驾驶可能几个，但一个要在真实街道上与公众互动的全自动驾驶智能体，需要整整一摞 9。\n\n他们 2009 年启动项目，2010 年就用十几个工程师完成了 10 条路线各 100 英里的无人干预自动驾驶——按演示标准，自动驾驶 2010 年就\"解决了\"。但从演示到真正提供服务花了约 10 年，再到每周 50 万次行程又花了 5 年。前 1 亿英里花了 15 年，下一个 1 亿英里只用了 7 个月。原因就是：达到下一个 9 不能靠\"做同样的事但更久\"，必须做根本性不同的事——比如从简单的 bug 修复跳到构建完全冗余的系统、分层降级架构。\n\n每一波 AI 突破（深度学习、ConvNets、Transformers、VLMs）都让做演示变容易 100 倍，但长尾难题移动得少得多。所以每个炒作周期都产出一堆精彩演示和极少真实产品。反复犯的错误是：把应该留给\"九\"的资源花在了演示上。\n\n## 架构选型：别被早期陡坡骗了，看它在哪里变平\n\n每种技术都有\"性能-投入\"曲线，起步陡峭然后变平。常见失败模式：选了早期爬坡最快的技术，感觉赢了，把陡坡投射到未来，然后撞上高原——发现这条路在产品需要的性能之前就变平了。\n\n传感器选型就是典型例子。人类只用眼睛就能开车，所以\"纯视觉\"方案有存在性证明；如果目标只是接近人类水平或做辅助驾驶，这很合理。但目标是超人类安全性能时，弱感知的安全曲线会过早变平。Waymo 的选择是用多种感知模态互补：相机提供高分辨率和色彩但被动且怕暗怕眩光，LiDAR（一种用激光直接测量周围 3D 结构的传感器）主动发光所以黑暗中一样工作，雷达擅长穿透雾雨雪并直接测速。这些不是互相备份，而是各自编码后融合成一个比任何单一传感器都精确得多的统一世界视图——一片树叶挡住一个传感器时，车不会停摆。\n\n硬件方面，不要锚定今天的组件价格。他们已经到了第六代硬件，每代都在大幅降价简化。把公司赌在今天的硬件价格上，等于赌一个很快会过期的数字。\n\n## 骑技术浪潮的真正难点不是用新东西，而是不制造碎片\n\n每次 AI 突破浪潮，他们都围绕新技术重建 Waymo driver：2013 年用 ConvNets 做感知，2017 年 Transformers 出现后在感知和行为预测规划上重注（驾驶因为社交属性其实和语言建模有类似之处——你在用\"肢体语言\"和其他道路参与者\"对话\"），现在用最新的 VLMs。但用新技术做原型不是最难的，真正难的是把前沿研究搬进生产、在安全关键环境部署而不回归、不打断产品扩张节奏，同时还要减少碎片化而不是增加。\n\n两条建议：第一，启动新技术探索时就要想清楚\"成功了之后怎么整合进整个系统\"，否则项目成功却走进死胡同，极其浪费。第二，问的不只是\"新东西给我什么能力提升\"，还要问\"它简化了技术栈吗？导致了统一还是碎片化？\"——发布门槛要同时要求突破性能和根本性简化。\n\n这套理念产出了 Waymo 基础模型——一个\"多模态世界动作语言模型\"。多模态指能处理相机、LiDAR、雷达输入；世界模型指内在理解物理规律和社交语义；动作模型指理解自身行动对世界的影响；语言对齐指能调用视觉语言模型的通用世界知识，在罕见语义场景中特别有用。架构是编码器-解码器端到端模型，分\"快慢双路径\"：快路径融合原始传感器数据做毫秒级安全决策（像驾驶本能，行人冲出来立刻刹车），慢路径做更复杂的语义理解（比如识别路边着火的车，即使几何上前方畅通也决定绕行）。\n\n## 结构增强的端到端：结构要引导规模，不要对抗规模\n\nAI 界有个著名原则叫\"苦涩的教训\"——利用海量算力和数据的通用方法终将胜过依赖人工设计知识的方法。但结构怎么用，决定你站在哪边：对抗规模的结构会输，引导规模的结构会赢。\n\n纯端到端（传感器像素直接到控制指令）最容易构建，前期进步快，但要在安全关键环境达到超人类性能，基本版端到端不够。关键问题是：你加的结构是限制了解空间，还是帮助你在不损失通用性的情况下扩展？举了个思想实验：构建下围棋的机器人，不用端到端像素到动作，而是用 19×19 棋盘作为中间表示——这不限制模型，但极大帮助扩展。物理世界没有这么干净的中间表示，所以才需要学习到的表示；但物理世界有物理定律、交通规则、可预测的行为模式，这些结构可以利用。\n\n他们的做法叫\"结构增强型端到端\"——在学习到的嵌入之上叠加结构化表示。三个好处：推理时可以做实时安全和正确性验证（不是黑盒了）；大规模训练评估时可以灵活选择在结构化空间还是完整端到端空间做，效率高很多；有更强的可验证反馈信号支持强化学习等训练方法。\n\n## 模拟器本身就是一个大 AI 模型\n\n训练评估分开环（被动看输入输出对，适合模仿学习）和闭环（采取行动→看世界变化→更新感知→再行动，评估动作序列）。对安全关键的物理智能体，\"采取行动并评估反事实\"的能力绝对关键——这需要真正的模拟器，而它不是 AI 旁边的小工具，本身就是一个大 AI 模型，构建难度不亚于智能体本身。\n\n模拟器背后的 AI 必须理解物理、语义、交通、天气，质量要高到能高置信度地训练评估将放入真实世界的智能体——本质上要构建一个高度准确的生成式世界模型。Waymo 多年前就在做\"行为世界模型\"，端到端时代还需要加上\"感知世界模型\"（生成逼真传感器数据）。利用结构增强表示，行为世界模型在结构化中间表示空间运作，紧密耦合的传感世界模型生成逼真传感器仿真。结合 Google DeepMind 的 Genie 3 工作，能在从未见过的纯合成罕见场景中训练评估——比如高速公路上降落飞机、路口走过大象。\n\n## 三个 AI + 飞轮 + 评估才是完整系统\n\n大规模运作不能只建一个 AI，要建三个：智能体（驾驶）、模拟器（虚拟训练场）、评判者（严格评估并告诉智能体怎么改进）。三者共享基础推理和生成能力，所以都基于同一个基础模型。部署产生数据→数据让模拟器更逼真→模拟器生成更难场景→评判者打分、智能体学习→智能体变强→部署产生更多数据——飞轮转起来。但飞轮需要指标引导方向。\n\n最后一个教训：**在构建技术和产品之前，先构建评估和指标**。如果你不能定量定义\"足够好\"是什么，你不是在构建产品，你是在迭代演示。模型架构如今传播很快，数据极其重要，但没有好指标就是盲飞。对物理 AI，仅模型级评估不够——要从物理层到行为层到车外组件到运营流程全链路评估验证。他们花多年构建的\"安全与准备框架\"是指导开发部署扩展的核心资产。\n\n在物理世界，信任就是一切。信任不是靠讲聪明架构赢来的，是日复一日在现场证明系统安全。模型可以泄露，算法可以复制，但数亿英里真实自动驾驶里程加上证据级评估和公开审计，远难复制——这才是终极商业优势。最新数据：基于超过数亿英里完全自主里程，在运营区域内导致严重伤害的碰撞方面，Waymo driver 比人类司机好约 17 倍，按当前规模每 8 天预防一次严重伤害。\n\n> 【背景】演讲者身份在转写稿中未出现。本集来自 Y Combinator 的 Startup School 活动，演讲者为 Waymo 的技术负责人。转写稿中\"lighters\"为 LiDAR 的语音识别错误，\"condom nets\"为 ConvNets 的错误，\"BLMs\"可能指 LLMs，\"JLR IPAs\"和\"Ojai\"为车辆平台名称，正文中已按正确词书写。Richard Sutton 的\"苦涩的教训\"(The Bitter Lesson)是 2019 年发表的著名论文。\"Genie 3\"为 Google DeepMind 的研究项目。\n\n## 本集带走\n\n- **先算你的产品需要几个 9**：演示 1 个 9 就够，全自主物理智能体需要一摞 9。每多一个 9 工作量翻 10 倍，且不能靠\"做同样的事更久\"，必须换根本不同的方法（冗余系统、降级架构等）。\n- **选技术看它在哪里变平，别被早期陡坡骗**：问清楚这条技术路径的性能天花板是否够得到你的产品要求，不够就别上。\n- **结构要用对方向**：对抗规模的结构（人为限制解空间）会输，引导规模的结构（提供有用中间表示而不限制通用性）会赢——\"结构增强型端到端\"是可参考的思路。\n- **模拟器不是工具，是跟智能体同级的大模型**：闭环仿真能力是安全关键物理 AI 的必需品，模拟器本身就需要是世界级的生成式模型。\n- **先建评估指标，再建技术和产品**：不能定量定义\"足够好\" = 还在迭代演示不在做产品。评估体系是物理 AI 公司的核心战略资产和最终护城河。\n- **三个 AI 一个飞轮**：智能体、模拟器、评判者共享基础模型，靠部署数据驱动飞轮加速——单建一个 AI 不够。",
+  "quotes": [
+    {
+      "en": "That the best AI moments will look like nothing happened.",
+      "zh": "最好的 AI 时刻看起来会像什么都没发生一样。",
+      "timestamp": "02:11",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "However, when you're dealing with atoms instead of bits, breaking things is not really okay.",
+      "zh": "然而，当你处理的是原子而不是比特时，打破事物并不是真的可以。",
+      "timestamp": "03:15",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "In the physical world, the cost of a mistake can be measured in human lives, not tokens.",
+      "zh": "在物理世界，一个错误的代价可以用人类生命来衡量，而不是 tokens。",
+      "timestamp": "04:11",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "And a working demo is 1% at best of the work that you have to do.",
+      "zh": "而一个可运行的演示最多只是你必须做的工作的 1%。",
+      "timestamp": "08:21",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "And that's why every hype cycle produces a wave of absolutely spectacular demos and very few real products.",
+      "zh": "这就是为什么每一个炒作周期都会产生一波绝对精彩的演示，却很少有真正的产品。",
+      "timestamp": "14:02",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "So count your nines before you count your demo views.",
+      "zh": "所以在统计你的演示浏览量之前，先计算你的\"九\"。",
+      "timestamp": "14:43",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "The much harder muscle to build is to carry that bleeding edge research into production and deploy it in a safety-critical environment without regressions.",
+      "zh": "更难构建的能力是将那项前沿研究投入生产，并在安全关键的环境中部署它而不出现回归。",
+      "timestamp": "22:56",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "Essentially, structure that fights scale will always lose, and structure that channels scale always wins.",
+      "zh": "本质上，对抗规模的结构将总是输掉，而引导规模的结构将总是获胜。",
+      "timestamp": "31:25",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "And a real simulator isn't just some lightweight tooling that sits next to your AI. It is a big AI model in of itself.",
+      "zh": "而真正的模拟器不仅仅是一些位于你 AI 旁边的轻量级工具。它本身就是一个大型 AI 模型。",
+      "timestamp": "37:55",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "And the problem of building a good realistic simulator is just as hard as building the agent itself.",
+      "zh": "构建一个好的逼真模拟器的问题与构建智能体本身一样困难。",
+      "timestamp": "38:06",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "Build your eval and your metrics before you build your product.",
+      "zh": "在构建你的产品之前，先构建你的评估和你的指标。",
+      "timestamp": "43:13",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "If you can't quantitatively define what good enough means, you're not really building a product, you're just iterating on your demo.",
+      "zh": "如果你不能定量地定义\"足够好\"意味着什么，你并不是在构建产品，你只是在迭代你的演示。",
+      "timestamp": "43:16",
+      "speaker": "Dmitri Dolgov"
+    },
+    {
+      "en": "Your models can be leaked, algorithms can be replicated, but hundreds of millions of miles of fully autonomous operations in the real world, backed by evidence-grade evaluation and publicly audited proof, that is much, much more difficult to replicate.",
+      "zh": "你的模型可能会被泄露，算法可能会被复制，但在现实世界中数亿英里的完全自主操作，由证据级评估和公开审计证明支持，这要难得多、得多。",
+      "timestamp": "45:38",
+      "speaker": "Dmitri Dolgov"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:11",
+      "speaker": "Unknown",
+      "en": "That the best AI moments will look like nothing happened.",
+      "zh": "最好的 AI 时刻看起来会像什么都没发生一样。"
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Unknown",
+      "en": "However, when you're dealing with atoms instead of bits, breaking things is not really okay.",
+      "zh": "然而，当你处理的是原子而不是比特时，打破事物并不是真的可以。"
+    },
+    {
+      "timestamp": "04:11",
+      "speaker": "Unknown",
+      "en": "In the physical world, the cost of a mistake can be measured in human lives, not tokens.",
+      "zh": "在物理世界，一个错误的代价可以用人类生命来衡量，而不是 tokens。"
+    },
+    {
+      "timestamp": "08:21",
+      "speaker": "Unknown",
+      "en": "And a working demo is 1% at best of the work that you have to do.",
+      "zh": "而一个可运行的演示最多只是你必须做的工作的 1%。"
+    },
+    {
+      "timestamp": "11:53",
+      "speaker": "Unknown",
+      "en": "But then every next nine that you wanna add, that takes about 10 times more effort.",
+      "zh": "但随后你想增加的每一个\"九\"，那需要花费大约 10 倍的努力。"
+    },
+    {
+      "timestamp": "14:02",
+      "speaker": "Unknown",
+      "en": "And that's why every hype cycle produces a wave of absolutely spectacular demos and very few real products.",
+      "zh": "这就是为什么每一个炒作周期都会产生一波绝对精彩的演示，却很少有真正的产品。"
+    },
+    {
+      "timestamp": "14:43",
+      "speaker": "Unknown",
+      "en": "So count your nines before you count your demo views.",
+      "zh": "所以在统计你的演示浏览量之前，先计算你的\"九\"。"
+    },
+    {
+      "timestamp": "20:19",
+      "speaker": "Unknown",
+      "en": "Do not anchor to today's components prices.",
+      "zh": "不要锚定今天的组件价格。"
+    },
+    {
+      "timestamp": "23:06",
+      "speaker": "Unknown",
+      "en": "The much harder muscle to build is to carry that bleeding edge research into production and deploy it in a safety-critical environment without regressions.",
+      "zh": "更难构建的能力是将那项前沿研究投入生产，并在安全关键的环境中部署它而不出现回归。"
+    },
+    {
+      "timestamp": "24:28",
+      "speaker": "Unknown",
+      "en": "Also ask, has it simplified my stack? And has it led to fragmentation or unification?",
+      "zh": "还要问，它简化了我的技术栈吗？以及它导致了碎片化还是统一？"
+    },
+    {
+      "timestamp": "31:33",
+      "speaker": "Unknown",
+      "en": "Essentially, structure that fights scale will always lose, and structure that channels scale always wins.",
+      "zh": "本质上，对抗规模的结构将总是输掉，而引导规模的结构将总是获胜。"
+    },
+    {
+      "timestamp": "38:01",
+      "speaker": "Unknown",
+      "en": "And a real simulator isn't just some lightweight tooling that sits next to your AI. It is a big AI model in of itself.",
+      "zh": "而真正的模拟器不仅仅是一些位于你 AI 旁边的轻量级工具。它本身就是一个大型 AI 模型。"
+    },
+    {
+      "timestamp": "38:13",
+      "speaker": "Unknown",
+      "en": "And the problem of building a good realistic simulator is just as hard as building the agent itself.",
+      "zh": "构建一个好的逼真模拟器的问题与构建智能体本身一样困难。"
+    },
+    {
+      "timestamp": "43:13",
+      "speaker": "Unknown",
+      "en": "Build your eval and your metrics before you build your product.",
+      "zh": "在构建你的产品之前，先构建你的评估和你的指标。"
+    },
+    {
+      "timestamp": "43:16",
+      "speaker": "Unknown",
+      "en": "If you can't quantitatively define what good enough means, you're not really building a product, you're just iterating on your demo.",
+      "zh": "如果你不能定量地定义\"足够好\"意味着什么，你并不是在构建产品，你只是在迭代你的演示。"
+    },
+    {
+      "timestamp": "45:38",
+      "speaker": "Unknown",
+      "en": "Your models can be leaked, algorithms can be replicated, but hundreds of millions of miles of fully autonomous operations in the real world, backed by evidence-grade evaluation and publicly audited proof, that is much, much more difficult to replicate.",
+      "zh": "你的模型可能会被泄露，算法可能会被复制，但在现实世界中数亿英里的完全自主操作，由证据级评估和公开审计证明支持，这要难得多、得多。"
+    }
+  ],
+  "voice_script": "你有没有想过，一辆完全没有人开的出租车，跑出最漂亮成绩的时候，看起来是什么样？不是炫技，不是那种让人尖叫的极限操作，而是安全平稳地开过一条街，车上的人甚至没注意到，刚刚安静地躲过了一次危险。这期我们就来聊聊，在真实的物理世界大规模部署 AI，到底有多难。分享这些干货的，是 Waymo 的技术负责人，在 Y Combinator 创业学校上的一次硬核拆解。\n\n把 AI 从屏幕搬到物理世界，中间横着四道数字世界根本不存在的坎。最残酷的一道叫错误代价。数字产品出错了，点一下重试就行；但在物理世界，没有撤销按钮，一个错误的代价可能用生命来衡量。除此之外，还有毫秒级决策的延迟差距、没有现成互联网数据可用的数据差距，以及不能上线再迭代的验证差距。\n\n这就引出了今天最反常识的一条主线：一个能跑的演示，最多只占最终产品的 1%。\n\nWaymo 的性能和可靠性，住在一个指数级的九的阶梯上。从 90% 到 99% 相对容易，但每多一个 9，工作量大约翻 10 倍。2010 年，十几个工程师就完成了特定路线上 100 英里的无人干预驾驶，按演示标准，自动驾驶当年就解决了。但从演示到真正提供服务，花了大约 10 年，再到每周跑 50 万次行程，又花了 5 年。前 1 亿英里花了 15 年，下一个 1 亿英里只用了 7 个月。为什么？因为达到下一个 9，绝不能靠做同样的事但做更久，必须做根本性不同的事，比如从简单修 bug 跳到构建完全冗余的系统。每一波 AI 突破都让做演示变容易 100 倍，但长尾难题几乎没怎么动。所以每个炒作周期都产出一堆精彩演示和极少真实产品。反复犯的错误，就是把应该留给九的资源，全花在了演示上。\n\n那选技术路线怎么避坑？别被早期的陡坡骗了，要看它在哪里变平。拿传感器选型来说，人只用眼睛就能开车，纯视觉方案早期爬坡极快。但如果目标是超人类安全性能，弱感知的安全曲线会过早变平。Waymo 的选择是多模态互补：相机怕暗怕眩光，LiDAR 主动发光在黑暗中一样工作，雷达擅长穿透雾雨雪直接测速。这些不是互相备份，而是融合成一个比任何单一传感器都精确得多的统一视图。一片树叶挡住一个传感器时，车不会停摆。\n\nAI 界有个著名原则叫苦涩的教训，说通用方法终将胜过人工设计。但加什么结构，决定了你站在哪边。对抗规模的结构会输，引导规模的结构会赢。纯端到端前期进步快，但在安全关键环境不够用。Waymo 的做法叫结构增强型端到端，在学习到的嵌入之上叠加结构化表示。这样推理时不再是黑盒，能做实时安全验证，训练效率也高很多。这套理念最终产出了一个多模态世界动作语言模型，分快慢双路径：快路径像驾驶本能，行人冲出来立刻刹车；慢路径做复杂语义理解，比如识别路边着火的车，即使前方畅通也决定绕行。\n\n这里有个细节特别值得记：模拟器不是 AI 旁边的小工具，本身就是一个大 AI 模型。对物理智能体，必须有能力在闭环里评估反事实，这就需要一个高度准确的生成式世界模型。结合 Google DeepMind 的 Genie 3 工作，甚至能在从未见过的纯合成罕见场景里训练评估，比如高速公路上降落飞机。\n\n大规模运作不能只建一个 AI，要建三个：负责驾驶的智能体、当虚拟训练场的模拟器、严格打分的评判者。三者共享基础模型，靠部署产生数据让模拟器更逼真，模拟器生成更难场景让智能体变强，飞轮转起来。\n\n最后一条教训，也是最重要的一条：在构建技术和产品之前，先构建评估和指标。如果不能定量定义足够好是什么，你不是在构建产品，你还在迭代演示。在物理世界，信任就是一切。模型可以泄露，算法可以复制，但数亿英里真实里程加上证据级评估和公开审计，远难复制。最新数据是，基于超过数亿英里的完全自主里程，在导致严重伤害的碰撞方面，比人类司机好约 17 倍，按当前规模每 8 天预防一次严重伤害。\n\n所以，最好的 AI 时刻，看起来会像什么都没发生一样。但在统计你的演示浏览量之前，先算算你的产品需要几个九。"
+}

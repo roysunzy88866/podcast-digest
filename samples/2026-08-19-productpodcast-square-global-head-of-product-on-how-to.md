@@ -145,7 +145,7 @@ Square 从支付公司长成了整个生态系统，[[TAM|TAM]] 怎么算？Will
 
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同公司:Block、Square · 同概念:智能体 (agent)</span>
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同概念:DRI、智能体 (agent)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|从 CRO 到 COO：挑战者怎么打企业市场]]<span class="pd-rz">同概念:DRI、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

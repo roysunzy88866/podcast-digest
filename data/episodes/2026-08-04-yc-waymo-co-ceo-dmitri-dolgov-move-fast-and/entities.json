@@ -1,0 +1,1481 @@
+{
+  "episode_id": "2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-04",
+  "tags": [
+    "物理AI",
+    "自动驾驶",
+    "端到端模型",
+    "模拟器",
+    "安全评估"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "dmitri-dolgov",
+      "type": "person",
+      "role": "host",
+      "name": "Dmitri Dolgov",
+      "file": "Dmitri Dolgov",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "本集将 Waymo 描述为在真实物理世界大规模构建和部署 AI 智能体的公司，其产品 Waymo driver 每周在全美 15 个城市跑超过 400 万英里完全自动驾驶里程，安全性能比人类司机好约 17 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19.879,
+            28.703
+          ],
+          "quote": "And today I'd like to talk to you about a different kind of AI that we've been building at Waymo, AI that lives in the real physical world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            31.103,
+            34.545
+          ],
+          "quote": "How many of you, by the way, have been in a Waymo?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            41.919,
+            48.927
+          ],
+          "quote": "The folks who are visiting and have not had a chance to check out Waymo, I hope while you're here in the Bay Area, give it a try.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            52.12,
+            74.73
+          ],
+          "quote": "A startup school, I structured this presentation as a sequence of lessons, seven lessons that we've learned over the years at Waymo around what it takes to build and safely ship today's most mature application of AI in the physical world, the Waymo driver.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            79.433,
+            86.637
+          ],
+          "quote": "This is a clip from a ride that I recently took in a Waymo with my kids.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            96.243,
+            99.825
+          ],
+          "quote": "And the Waymo driver reacted safely, reacted smoothly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            141.598,
+            149.56
+          ],
+          "quote": "And these sort of moments where the Waymo driver kept everyone safe are happening daily across our fleet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            150.255,
+            161.543
+          ],
+          "quote": "Today, the Waymo driver is serving around 500 trips per week and driving over 4 million fully autonomous miles every week in 15 cities across the United States.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            171.89,
+            175.773
+          ],
+          "quote": "And the Waymo driver is accomplishing that with a superhuman safety record.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            412.798,
+            425.09
+          ],
+          "quote": "So at Waymo, we see these gaps, of course, in the context of autonomous vehicles, but these gaps will show up in practically any sort of non-trivial physical agent that we will deploy in some shape or form.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            435.513,
+            442.877
+          ],
+          "quote": "So let's dive into those lessons that we've learned over the years at Waymo from working on this problem and talk about how we address those gaps.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1009.415,
+            1013.06
+          ],
+          "quote": "So at Waymo, we've taken an approach where we use multiple sensing modalities.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1075.907,
+            1080.07
+          ],
+          "quote": "Here's the scene where Waymo is driving in a dust storm in Phoenix.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1226.951,
+            1231.254
+          ],
+          "quote": "We are on the sixth generation of the Waymo driver, the Waymo hardware suite today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1298.408,
+            1304.51
+          ],
+          "quote": "And with every wave of innovation, we pretty much rebuild the Waymo driver around that major wave of AI breakthroughs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1481.088,
+            1487.993
+          ],
+          "quote": "And this exact philosophy and this muscle that we've built at Waymo over the years is what produced our latest core technology.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1488.974,
+            1492.197
+          ],
+          "quote": "And the heart of it is the Waymo Foundation Model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1492.997,
+            1498.241
+          ],
+          "quote": "Now, the Waymo Foundation Model is a multimodal world action language model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1671.032,
+            1684.781
+          ],
+          "quote": "If the Waymo driver encounters a situation when there's a vehicle, let's say it's on fire on the side of the road, the fast path might just see it as a generic obstacle and reason that the path ahead of us is clear.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1723.193,
+            1732.52
+          ],
+          "quote": "And our Waymo Foundation model powers the Waymo driver that runs on different generations of hardware and runs on different vehicle platforms.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2074.265,
+            2078.606
+          ],
+          "quote": "And this is the approach that we are pursuing at Waymo, which we call structure augmented end-to-end.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2322.543,
+            2327.666
+          ],
+          "quote": "And at Waymo for years, we've been building what we called behavioral world models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2416.905,
+            2427.014
+          ],
+          "quote": "So what you're seeing here is not just the generated video, it's a generative, a full generative simulation of the Waymo driver in operating closed loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2793.142,
+            2802.37
+          ],
+          "quote": "And it's this playbook that we've been refining over the years is what allows us to achieve the strongly superhuman safety performance of the Waymo driver.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2809.936,
+            2822.506
+          ],
+          "quote": "And we're seeing there that in the areas where we operate, the Waymo driver is about 17 times better than human drivers when it comes to crashes that cause serious injury.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2836.558,
+            2841.12
+          ],
+          "quote": "And on the current scale, what that means is that Waymo is preventing a serious injury every eight days.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2919.149,
+            2920.47
+          ],
+          "quote": "We're in our first ever Waymo.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2921.092,
+            2922.613
+          ],
+          "quote": "And what does it mean when we're in a Waymo?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2926.517,
+            2929.639
+          ],
+          "quote": "And this is a fully autonomous Waymo ride.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2937.405,
+            2942.79
+          ],
+          "quote": "The truck was over the yellow line, so the Waymo braked and moved to the side.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo-driver",
+      "type": "concept",
+      "role": "concept",
+      "name": "Waymo driver",
+      "file": "Waymo driver",
+      "primary": true,
+      "how_described": "本集将 Waymo driver 描述为一辆完全没有人开的出租车，是当今物理世界中最成熟的 AI 应用，运行在 Waymo 基础模型之上，采用快慢双路径架构做出安全决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            52.12,
+            74.73
+          ],
+          "quote": "A startup school, I structured this presentation as a sequence of lessons, seven lessons that we've learned over the years at Waymo around what it takes to build and safely ship today's most mature application of AI in the physical world, the Waymo driver.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            96.243,
+            99.825
+          ],
+          "quote": "And the Waymo driver reacted safely, reacted smoothly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            141.598,
+            149.56
+          ],
+          "quote": "And these sort of moments where the Waymo driver kept everyone safe are happening daily across our fleet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            150.255,
+            161.543
+          ],
+          "quote": "Today, the Waymo driver is serving around 500 trips per week and driving over 4 million fully autonomous miles every week in 15 cities across the United States.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            171.89,
+            175.773
+          ],
+          "quote": "And the Waymo driver is accomplishing that with a superhuman safety record.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1226.951,
+            1231.254
+          ],
+          "quote": "We are on the sixth generation of the Waymo driver, the Waymo hardware suite today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1298.408,
+            1304.51
+          ],
+          "quote": "And with every wave of innovation, we pretty much rebuild the Waymo driver around that major wave of AI breakthroughs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1671.032,
+            1684.781
+          ],
+          "quote": "If the Waymo driver encounters a situation when there's a vehicle, let's say it's on fire on the side of the road, the fast path might just see it as a generic obstacle and reason that the path ahead of us is clear.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1723.193,
+            1732.52
+          ],
+          "quote": "And our Waymo Foundation model powers the Waymo driver that runs on different generations of hardware and runs on different vehicle platforms.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2416.905,
+            2427.014
+          ],
+          "quote": "So what you're seeing here is not just the generated video, it's a generative, a full generative simulation of the Waymo driver in operating closed loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2793.142,
+            2802.37
+          ],
+          "quote": "And it's this playbook that we've been refining over the years is what allows us to achieve the strongly superhuman safety performance of the Waymo driver.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2809.936,
+            2822.506
+          ],
+          "quote": "And we're seeing there that in the areas where we operate, the Waymo driver is about 17 times better than human drivers when it comes to crashes that cause serious injury.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将智能体描述为存在于真实物理世界中的 AI（区别于屏幕上的数字 AI），需要毫秒级决策、极高的安全置信度，且部署前必须清晰定义运行条件和部署参数",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            177.492,
+            184.136
+          ],
+          "quote": "So what does it take to build and deploy an AI agent in the physical world at scale?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            365.19,
+            371.597
+          ],
+          "quote": "The actual experience of having your agent in the real world is invaluable and it's irreplaceable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            385.47,
+            399.1
+          ],
+          "quote": "To super clearly and super crisply define the operating conditions and the deployment parameters of your agent, and then build a rigorous framework to guide your deployment so that you can scale in a responsible manner.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            412.798,
+            425.09
+          ],
+          "quote": "So at Waymo, we see these gaps, of course, in the context of autonomous vehicles, but these gaps will show up in practically any sort of non-trivial physical agent that we will deploy in some shape or form.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            467.113,
+            486.589
+          ],
+          "quote": "But I hope that the grounding of these lessons in our experience and some of the nuance that I can add about how they showed up in our experience of deploying a physical agent and scaling it safely will be interesting and useful for many of you who are in the space as you build your product, as you build your startup.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 115,
+          "t": [
+            726.096,
+            740.582
+          ],
+          "quote": "So demo might need one nine, an assist product or Copilot might need a few, but a fully autonomous AI agent that we're gonna be putting out in the physical world that engages with the public and with kids running around, that needs a whole stack of them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1332.481,
+            1342.128
+          ],
+          "quote": "You're kind of having a conversation with other dynamic actors in the world, but you're doing that in the space, kind of body language of your agent, your car, as opposed to just the language of words.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1526.211,
+            1534.778
+          ],
+          "quote": "So the model needs to understand the effects of the actions of our agent on the world and be able to tell the good ones from bad ones.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1632.198,
+            1641.043
+          ],
+          "quote": "This is like the lizard brain of your agent that deals with a lot of geometric tasks and can react in milliseconds.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1847.423,
+            1862.566
+          ],
+          "quote": "There is a well-known property that if you bet on high capacity model and you use your data and your compute on that, you just get better scaling laws and then you distill into smaller, more efficient models that are running on your agent in real time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1932.087,
+            1941.956
+          ],
+          "quote": "But if you need to reach superhuman levels of performance in a fully autonomous agent in a safety-critical environment, just doing kind of that basic vanilla end-to-end is not enough.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2094.323,
+            2111.392
+          ],
+          "quote": "Now, because the model isn't just a black box where sensors go in and actuation commands go out, we can create a very powerful correctness and safety validation layer that you can run in real time when the agent is deployed on our vehicles.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2112.132,
+            2115.254
+          ],
+          "quote": "And this is really important for any agent that's operating in the physical world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2193.185,
+            2199.13
+          ],
+          "quote": "Now, that raises the question of how do you actually train and evaluate your physical AI agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2203.716,
+            2212.22
+          ],
+          "quote": "And safely deploy an agent in the physical world, it is absolutely critical to have a good large-scale realistic high-fidelity simulator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2286.549,
+            2292.452
+          ],
+          "quote": "And the problem of building a good realistic simulator is just as hard as building the agent itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2302.307,
+            2315.073
+          ],
+          "quote": "And the quality of that simulator has to be high enough so that it doesn't only look good, but it's sufficient to train and evaluate with high confidence an agent that you're going to be putting in the world in a safety critical environment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2397.067,
+            2414.846
+          ],
+          "quote": "And that in turn allows us to not just evaluate our agent and train new versions of our agent in situations that we've previously encountered, but it allows us to train and evaluate in purely synthetic, rare scenarios that we've never seen in the real world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2488.18,
+            2494.963
+          ],
+          "quote": "Because to make this work at scale, you can't just build the agent and one AI, you need to build three.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2495.744,
+            2496.764
+          ],
+          "quote": "You're building the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2503.08,
+            2505.982
+          ],
+          "quote": "Which is that virtual playground for the agent to learn in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2508.504,
+            2514.408
+          ],
+          "quote": "And the critic is what rigorously evaluates and judges the performance of the agent and tells it how to improve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2540.411,
+            2544.056
+          ],
+          "quote": "So a deployment of your agent in the real world generates data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2550.052,
+            2556.019
+          ],
+          "quote": "The simulator generates harder age cases for the critic to score and for the agent to learn from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2556.3,
+            2562.407
+          ],
+          "quote": "So the agent gets smarter, gets deployed in the physical world, generate more data, and that powers the flywheel and accelerates progress.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2644.589,
+            2651.76
+          ],
+          "quote": "When you're putting an AI agent into the physical world, your eval and your validation needs to go much deeper and much broader.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2780.93,
+            2788.364
+          ],
+          "quote": "And your AI ecosystem with the agent, the simulator, and the critic guided by your eval and metrics, that's what allows you to build that powerful flywheel.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集将物理 AI 描述为存在于真实物理世界中的 AI，与数字 AI 之间存在错误代价、延迟、数据和验证四道根本差距，最好的物理 AI 时刻看起来像什么都没发生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            124.673,
+            130.415
+          ],
+          "quote": "And that I think will be a bit of a theme in general when it comes to physical AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            225.056,
+            228.737
+          ],
+          "quote": "And by the way, the problem itself of physical AI is different from digital AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            340.403,
+            342.764
+          ],
+          "quote": "In physical AI, the situation is different.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            359.518,
+            362.721
+          ],
+          "quote": "Now, at the same time, when you're dealing with physical AI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2193.185,
+            2199.13
+          ],
+          "quote": "Now, that raises the question of how do you actually train and evaluate your physical AI agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2449.977,
+            2460.763
+          ],
+          "quote": "So the lesson here is that closed-loop simulation is absolutely required for evaluation and is extremely valuable for training of your physical AI agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2638.248,
+            2642.912
+          ],
+          "quote": "But for physical AI agents, model-level evaluation is not enough.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2865.098,
+            2870.4
+          ],
+          "quote": "Physical AI right now is where digital AI was a few years ago, and we have all of the right ingredients to go after it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lidar",
+      "type": "concept",
+      "role": "concept",
+      "name": "LiDAR",
+      "file": "LiDAR",
+      "primary": true,
+      "how_described": "本集将 LiDAR 描述为一种用激光直接测量周围 3D 结构的主动传感器，在黑暗和眩光下与相机性能下降时仍能正常工作，与相机和雷达融合后形成比任何单一传感器都精确的统一世界视图",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            1025.493,
+            1031.015
+          ],
+          "quote": "LiDAR gives you a direct measurement of the 3D structure of the world around you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1041.538,
+            1043.798
+          ],
+          "quote": "LiDAR and radar are active sensors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1095.901,
+            1099.945
+          ],
+          "quote": "And here on the right is what the LiDAR sees for the exact same frame.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "end-to-end",
+      "type": "concept",
+      "role": "concept",
+      "name": "端到端模型 (end-to-end)",
+      "file": "端到端模型",
+      "primary": true,
+      "how_described": "本集将端到端模型描述为从传感器到控制指令的直接映射，最容易构建且前期进步快，但在安全关键环境达到超人类性能时基本版端到端不够，需要用结构增强来引导规模",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 253,
+          "t": [
+            1575.188,
+            1579.691
+          ],
+          "quote": "It's an end-to-end model which has a couple of nice properties.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1893.26,
+            1896.424
+          ],
+          "quote": "In particular, this comes up around the discussion of end-to-end models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1897.064,
+            1901.269
+          ],
+          "quote": "As I mentioned, an end-to-end model has some very nice properties.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1919.647,
+            1929.573
+          ],
+          "quote": "You can start with doing some imitation learning and a kind of a black box end-to-end model will give you very rapid progress and you will ride that very initial steep part of the curve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1932.087,
+            1941.956
+          ],
+          "quote": "But if you need to reach superhuman levels of performance in a fully autonomous agent in a safety-critical environment, just doing kind of that basic vanilla end-to-end is not enough.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1982.195,
+            1989.097
+          ],
+          "quote": "Now, one way you can build such a robot is to have an end-to-end system that goes directly from pixels to actuation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            2043.218,
+            2053.59
+          ],
+          "quote": "And the fact that such a simple, clean, engineered representation doesn't exist in the physical world is the whole reason why we need end-to-end systems and learned representations and learned embeddings.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2074.265,
+            2078.606
+          ],
+          "quote": "And this is the approach that we are pursuing at Waymo, which we call structure augmented end-to-end.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2079.086,
+            2086.348
+          ],
+          "quote": "So we go beyond the basic vanilla end-to-end by augmenting the learned embeddings with materialized structure representations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2127.693,
+            2139.304
+          ],
+          "quote": "If all you have is a black box end-to-end system, you are forced to do all of your evaluation and all of your training in the end-to-end setup, all the way from sensors to decisions to actuation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2144.367,
+            2154.713
+          ],
+          "quote": "You can do some training at larger scale and some evaluation in the space of those compact structured representations and some in the full space of end-to-end from sensors to decisions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2333.609,
+            2340.932
+          ],
+          "quote": "And now in the era of end-to-end models, you also need on top of behavioral realism, you need sensing realism as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2341.753,
+            2351.598
+          ],
+          "quote": "And in fact, building an end-to-end model has been fairly easy for quite a while now, but evaluating it in closed loop",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "simulator",
+      "type": "concept",
+      "role": "concept",
+      "name": "模拟器 (simulator)",
+      "file": "模拟器",
+      "primary": true,
+      "how_described": "本集将模拟器描述为不是 AI 旁边的小工具，而本身就是一个大 AI 模型，构建难度不亚于智能体本身，必须理解物理、语义、交通、天气，质量要高到能高置信度地训练评估将放入真实世界的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 346,
+          "t": [
+            2203.716,
+            2212.22
+          ],
+          "quote": "And safely deploy an agent in the physical world, it is absolutely critical to have a good large-scale realistic high-fidelity simulator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2271.3,
+            2275.022
+          ],
+          "quote": "So a real simulator is how you do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2275.342,
+            2279.885
+          ],
+          "quote": "And a real simulator isn't just some lightweight tooling that sits next to your AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2286.549,
+            2292.452
+          ],
+          "quote": "And the problem of building a good realistic simulator is just as hard as building the agent itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2293.543,
+            2301.667
+          ],
+          "quote": "So the AI behind the simulator really needs to understand how the world works, the physics, the semantics, the traffic, the weather, and so on and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2302.307,
+            2315.073
+          ],
+          "quote": "And the quality of that simulator has to be high enough so that it doesn't only look good, but it's sufficient to train and evaluate with high confidence an agent that you're going to be putting in the world in a safety critical environment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2500.246,
+            2501.747
+          ],
+          "quote": "You also have the simulator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2545.017,
+            2548.722
+          ],
+          "quote": "That data then grounds the simulator and makes it more realistic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2550.052,
+            2556.019
+          ],
+          "quote": "The simulator generates harder age cases for the critic to score and for the agent to learn from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2780.93,
+            2788.364
+          ],
+          "quote": "And your AI ecosystem with the agent, the simulator, and the critic guided by your eval and metrics, that's what allows you to build that powerful flywheel.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集将世界模型描述为高度准确的生成式模型，Waymo 分为行为世界模型（在结构化中间表示空间运作）和传感世界模型（生成逼真传感器仿真），结合 Genie 3 能在从未见过的纯合成罕见场景中训练评估",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 244,
+          "t": [
+            1509.959,
+            1517.745
+          ],
+          "quote": "It's a world model because it inherently understands how the world works, the physics, the dynamics, as well as the social and semantic aspect of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2315.493,
+            2321.096
+          ],
+          "quote": "So in other words, you have to build a highly accurate generative world model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2366.942,
+            2379.145
+          ],
+          "quote": "Our behavior world model operates in the space of structured intermediate representations, and the tightly coupled sensor world model then produces realistic sensor simulations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2380.701,
+            2395.612
+          ],
+          "quote": "Our world model leverages the great work of Google DeepMinds on Genie 3, and that gives us the ability to produce controllable and highly realistic scenarios, both in the behavioral as well as sensing aspects.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "waymo-foundation-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "Waymo 基础模型 (Waymo Foundation Model)",
+      "file": "Waymo 基础模型",
+      "primary": true,
+      "how_described": "本集将 Waymo 基础模型描述为一个多模态世界动作语言模型，采用编码器-解码器端到端架构，分快慢双路径：快路径融合原始传感器数据做毫秒级安全决策，慢路径做复杂语义理解",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 240,
+          "t": [
+            1488.974,
+            1492.197
+          ],
+          "quote": "And the heart of it is the Waymo Foundation Model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1492.997,
+            1498.241
+          ],
+          "quote": "Now, the Waymo Foundation Model is a multimodal world action language model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1723.193,
+            1732.52
+          ],
+          "quote": "And our Waymo Foundation model powers the Waymo driver that runs on different generations of hardware and runs on different vehicle platforms.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "structure-augmented-end-to-end",
+      "type": "concept",
+      "role": "concept",
+      "name": "结构增强型端到端 (structure augmented end-to-end)",
+      "file": "结构增强型端到端",
+      "primary": true,
+      "how_described": "本集将结构增强型端到端描述为在学习到的嵌入之上叠加结构化表示的方法，三个好处：推理时可做实时安全和正确性验证、大规模训练评估时灵活选择空间提升效率、有更强可验证反馈信号支持强化学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            2074.265,
+            2078.606
+          ],
+          "quote": "And this is the approach that we are pursuing at Waymo, which we call structure augmented end-to-end.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集提到在物理世界中必须在车上运行所有推理、做出所有决定，计算设备只能放在车后备箱里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            286.351,
+            292.994
+          ],
+          "quote": "And you have to run all of your inference, make all of your decisions on board a compute that fits in the trunk of your car.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2090.109,
+            2093.29
+          ],
+          "quote": "So first is validation at inference time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "closed-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "闭环仿真 (closed loop)",
+      "file": "闭环仿真",
+      "primary": true,
+      "how_described": "本集将闭环描述为采取行动后看世界变化、更新感知、再行动并评估动作序列的方式，对安全关键的物理智能体来说采取行动并评估反事实的能力绝对关键",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 348,
+          "t": [
+            2217.063,
+            2219.304
+          ],
+          "quote": "You can do open loop and you can do closed loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2236.645,
+            2239.826
+          ],
+          "quote": "And that's in contrast with closed loop, where in closed loop, you take an action.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2341.753,
+            2351.598
+          ],
+          "quote": "And in fact, building an end-to-end model has been fairly easy for quite a while now, but evaluating it in closed loop",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2416.905,
+            2427.014
+          ],
+          "quote": "So what you're seeing here is not just the generated video, it's a generative, a full generative simulation of the Waymo driver in operating closed loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2449.977,
+            2460.763
+          ],
+          "quote": "So the lesson here is that closed-loop simulation is absolutely required for evaluation and is extremely valuable for training of your physical AI agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "飞轮 (flywheel)",
+      "file": "飞轮",
+      "primary": true,
+      "how_described": "本集将飞轮描述为部署产生数据→数据让模拟器更逼真→模拟器生成更难场景→评判者打分、智能体学习→智能体变强→部署产生更多数据的循环，需要指标引导方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 386,
+          "t": [
+            2484.858,
+            2487.139
+          ],
+          "quote": "And then you also need a flywheel that powers it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2531.22,
+            2539.23
+          ],
+          "quote": "Now, once you have these three pillars, you can create an incredibly powerful flywheel to accelerate your progress.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2556.3,
+            2562.407
+          ],
+          "quote": "So the agent gets smarter, gets deployed in the physical world, generate more data, and that powers the flywheel and accelerates progress.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2564.928,
+            2570.911
+          ],
+          "quote": "But a flywheel, of course, will spin in any direction or in place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2780.93,
+            2788.364
+          ],
+          "quote": "And your AI ecosystem with the agent, the simulator, and the critic guided by your eval and metrics, that's what allows you to build that powerful flywheel.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "safety-and-readiness-framework",
+      "type": "concept",
+      "role": "concept",
+      "name": "安全与准备框架 (safety and readiness framework)",
+      "file": "安全与准备框架",
+      "primary": true,
+      "how_described": "本集将安全与准备框架描述为从物理层到行为层到车外组件到运营流程的全链路评估验证体系，花多年构建，是指导开发部署扩展的核心资产和最重要的战略资产",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 415,
+          "t": [
+            2668.468,
+            2672.17
+          ],
+          "quote": "So for us, we call that the safety and readiness framework.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦涩的教训 (bitter lesson)",
+      "file": "苦涩的教训",
+      "primary": false,
+      "how_described": "本集提到 Richard Sutton 2019 年阐述的苦涩的教训：利用海量算力和数据的通用方法终将胜过依赖手工设计人类知识的方法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            1878.388,
+            1884.313
+          ],
+          "quote": "And depending on how you use your structure, you can end up on either side of the bitter lesson.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "transformers",
+      "type": "concept",
+      "role": "concept",
+      "name": "Transformers",
+      "file": "Transformers",
+      "primary": false,
+      "how_described": "本集提到 Waymo 在 2017 年 Transformers 出现后，在感知和行为预测规划上重注，因为驾驶的社交属性与语言建模有类似之处",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            578.229,
+            586.716
+          ],
+          "quote": "And keep in mind, this was well before any of the AI breakthroughs, before ConvNest, before Transformers, before BLMs, before any of the stuff that we talk about today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            824.257,
+            833.582
+          ],
+          "quote": "So every AI breakthrough from deep learning to condom nets to transformers, VLMs, you name it, it makes it that much easier to get started.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1313.942,
+            1324.115
+          ],
+          "quote": "Then when Transformers came about around 2017, we bet big on them both for perception and for the task of behavior prediction and decision making and planning.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vlms",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLMs",
+      "file": "VLMs",
+      "primary": false,
+      "how_described": "本集提到 Waymo 现在正在利用最新的 VLMs，且 Waymo 基础模型与语言对齐以解锁视觉语言模型的通用世界知识",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            824.257,
+            833.582
+          ],
+          "quote": "So every AI breakthrough from deep learning to condom nets to transformers, VLMs, you name it, it makes it that much easier to get started.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1348.753,
+            1353.797
+          ],
+          "quote": "And today we're leveraging the latest in VLMs and frontier role models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1601.965,
+            1606.586
+          ],
+          "quote": "And it leverages the general world knowledge of VLMs for efficient learning of semantic tasks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "genie-3",
+      "type": "concept",
+      "role": "concept",
+      "name": "Genie 3",
+      "file": "Genie 3",
+      "primary": false,
+      "how_described": "本集提到 Waymo 的世界模型利用了 Google DeepMind 在 Genie 3 上的工作，获得生成可控且高度逼真场景的能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 372,
+          "t": [
+            2380.701,
+            2395.612
+          ],
+          "quote": "Our world model leverages the great work of Google DeepMinds on Genie 3, and that gives us the ability to produce controllable and highly realistic scenarios, both in the behavioral as well as sensing aspects.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "critic",
+      "type": "concept",
+      "role": "concept",
+      "name": "评判者 (critic)",
+      "file": "评判者",
+      "primary": false,
+      "how_described": "本集将评判者描述为三个 AI 之一，严格评估和判断智能体的表现并告诉它如何改进，与智能体和模拟器共享基础推理和生成能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 392,
+          "t": [
+            2506.803,
+            2507.684
+          ],
+          "quote": "And then you have the critic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2508.504,
+            2514.408
+          ],
+          "quote": "And the critic is what rigorously evaluates and judges the performance of the agent and tells it how to improve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2550.052,
+            2556.019
+          ],
+          "quote": "The simulator generates harder age cases for the critic to score and for the agent to learn from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2780.93,
+            2788.364
+          ],
+          "quote": "And your AI ecosystem with the agent, the simulator, and the critic guided by your eval and metrics, that's what allows you to build that powerful flywheel.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

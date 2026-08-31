@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Slack]] · [[Anthropic]] · [[Canva]] · [[OpenAI]] · [[GitHub]] · [[Benjamin Mann]] · [[Madhavan Ramanujam]] · [[Claire]]
 
-<script type="application/json" class="pd-epn">{"智能体":158,"Lenny":66,"Slack":21,"Anthropic":79,"Canva":3,"OpenAI":71,"GitHub":18,"Benjamin Mann":1,"Madhavan Ramanujam":1,"Claire":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":160,"Lenny":66,"Slack":21,"Anthropic":79,"Canva":3,"OpenAI":71,"GitHub":18,"Benjamin Mann":1,"Madhavan Ramanujam":1,"Claire":3}</script>
 
 <script>
 (function(){

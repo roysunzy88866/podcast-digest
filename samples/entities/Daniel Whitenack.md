@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[护栏]] · [[Chris Benson]] · [[OpenAI]] · [[Emil Lassen]] · [[IBM]] · [[Hugging Face]] · [[the artificial intelligence underwriting company]] · [[企业软件]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":158,"护栏":32,"Chris Benson":3,"OpenAI":71,"Emil Lassen":1,"IBM":2,"Hugging Face":12,"the artificial intelligence underwriting company":1,"企业软件":1,"沙箱":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":160,"护栏":32,"Chris Benson":3,"OpenAI":71,"Emil Lassen":1,"IBM":2,"Hugging Face":12,"the artificial intelligence underwriting company":1,"企业软件":1,"沙箱":32}</script>
 
 <script>
 (function(){

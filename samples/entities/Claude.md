@@ -138,7 +138,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[vibe coding]] · [[Google]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":158,"Lenny":66,"Anthropic":79,"ChatGPT":41,"OpenAI":71,"Codex":30,"Claude Code":40,"vibe coding":24,"Google":31,"护栏":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":160,"Lenny":66,"Anthropic":79,"ChatGPT":41,"OpenAI":71,"Codex":30,"Claude Code":40,"vibe coding":24,"Google":31,"护栏":32}</script>
 
 <script>
 (function(){

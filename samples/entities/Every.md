@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Every</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Every">EV</div><div class="pi"><h1 class="pt">Every</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>63</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Every">EV</div><div class="pi"><h1 class="pt">Every</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>65</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*63 条*
+*65 条*
 
 ![[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios#^q4]]
 
@@ -87,6 +87,8 @@ unlisted: true
 
 ![[2026-07-30-a16z-ai-for-americas-small-businesses-lassie#^q3]]
 
+![[2026-07-30-indepth-what-startups-get-wrong-about-enterprise#^q3]]
+
 ![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q6]]
 
 ![[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re#^q2]]
@@ -98,6 +100,8 @@ unlisted: true
 ![[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d#^q2]]
 
 ![[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai#^q6]]
+
+![[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and#^q5]]
 
 ![[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1#^q10]]
 
@@ -155,7 +159,7 @@ unlisted: true
 
 [[Lenny]] · [[Dan Shipper]] · [[Cora]] · [[Claude Code]] · [[ChatGPT]] · [[Claude]] · [[智能体]] · [[提示词]] · [[复合工程]] · [[配置型经济]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Dan Shipper":2,"Cora":1,"Claude Code":40,"ChatGPT":41,"Claude":37,"智能体":158,"提示词":2,"复合工程":1,"配置型经济":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Dan Shipper":2,"Cora":1,"Claude Code":40,"ChatGPT":41,"Claude":37,"智能体":160,"提示词":2,"复合工程":1,"配置型经济":1}</script>
 
 <script>
 (function(){

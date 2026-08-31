@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NRR</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NRR">NR</div><div class="pi"><h1 class="pt">NRR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NRR">NR</div><div class="pi"><h1 class="pt">NRR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(24:48起):本集把它说成:衡量客户扩张的指标。嘉宾提到,即使从 1 万扩张到 10 万会有惊人的 NRR 数据,但这通常是不可辩护的,客户根本不会买单这么夸张的阶跃式涨价。
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(53:11起):本集将它作为诊断框架的第三步，指出若 NRR 大于 100% 才能抵消流失做大公司；但同时也提出反直觉警示——因为基数（logo 数）流失时，剩下的老客户再怎么升级套餐也很难填补窟窿，不能被漂亮的 NRR 掩盖了大批客户逃离的事实
+- **[[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]]**(15:36起):本集提到通过分析 mid-market 里 NRR 高、GRR 高的垂直领域来找到富矿利基，作为打入企业市场的起点
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为概念(提及)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念
+- [[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Jen Abel]] · [[Jason Cohen]] · [[企业销售]] · [[客户流失率]] · [[愿景描绘]] · [[定价]] · [[超额收益]] · [[渠道饱和]] · [[第一梯队]]
+[[Lenny]] · [[Jen Abel]] · [[Jason Cohen]] · [[Lindsey Scrase]] · [[企业销售]] · [[客户流失率]] · [[Checkr]] · [[愿景描绘]] · [[定价]] · [[企业市场]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Jen Abel":1,"Jason Cohen":1,"企业销售":1,"客户流失率":1,"愿景描绘":1,"定价":1,"超额收益":2,"渠道饱和":1,"第一梯队":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Jen Abel":1,"Jason Cohen":1,"Lindsey Scrase":1,"企业销售":1,"客户流失率":1,"Checkr":1,"愿景描绘":1,"定价":1,"企业市场":1}</script>
 
 <script>
 (function(){

@@ -7,17 +7,18 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>生成式 AI (generative AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>171</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>173</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]]**(59:48起):本集提到三个落地场景：运营侧处理客户支持和争议（AI 解决率目标 90% 以上，CSAT 提升约三个点）；销售侧的智能体编排层；工程侧超过 8% 的代码由其编写
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(32:54起):本集把它说成:能对视频进行推理(如判断司机急刹车是为了躲避狗),甚至能生成 AI 虚拟教练视频来对司机进行周末安全辅导。
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(23:13起):本集说旅行领域的信息过载和虚假评论问题 'kind of made for generative AI，which takes in all the information, adds context, adds a little intelligence'
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(00:00起):本集核心批判对象，被描述为'本质上是一个骗局'、'极其昂贵、不可靠、不赚钱的云软件'，所有新建数据中心只为它服务，与蛋白质折叠、机器人等无关。
 
 ## ① 提到它的金句
 
-*171 条*
+*173 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -221,6 +222,10 @@ unlisted: true
 
 ![[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m#^q2]]
 
+![[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and#^q1]]
+
+![[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and#^q9]]
+
 ![[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#^q4]]
 
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q1]]
@@ -363,8 +368,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
+- [[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]] — 作为概念
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为概念
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为概念(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
@@ -373,9 +379,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Meta]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[Matt Turk]] · [[Ranjan]] · [[CoreWeave]] · [[Sanjit Biswas]]
+[[智能体]] · [[Meta]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[Lindsey Scrase]] · [[Matt Turk]] · [[Ranjan]] · [[CoreWeave]]
 
-<script type="application/json" class="pd-epn">{"智能体":158,"Meta":23,"Anthropic":79,"OpenAI":71,"Google":31,"NVIDIA":24,"Matt Turk":2,"Ranjan":1,"CoreWeave":2,"Sanjit Biswas":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":160,"Meta":23,"Anthropic":79,"OpenAI":71,"Google":31,"NVIDIA":24,"Lindsey Scrase":1,"Matt Turk":2,"Ranjan":1,"CoreWeave":2}</script>
 
 <script>
 (function(){
