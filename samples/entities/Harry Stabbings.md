@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lamkin":1,"Canva":3,"智能体":165,"无代码":1,"Figma":11,"Notion":9,"Airtable":3,"Palantir":8,"Replit":13,"ChatGPT":41}</script>
+<script type="application/json" class="pd-epn">{"Jason Lamkin":1,"Canva":3,"智能体":1,"无代码":1,"Figma":11,"Notion":10,"Airtable":3,"Palantir":8,"Replit":13,"ChatGPT":41}</script>
 
 <script>
 (function(){

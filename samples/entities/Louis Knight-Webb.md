@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":33,"智能体":165,"RL 环境":1,"vibe coding":25,"代码模式":1,"开源 AI 框架":1,"推理":3,"PLG":6}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":33,"智能体":1,"RL 环境":1,"vibe coding":25,"代码模式":1,"开源 AI 框架":1,"推理":3,"PLG":6}</script>
 
 <script>
 (function(){

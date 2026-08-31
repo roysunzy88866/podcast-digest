@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Dubois":1,"Tamuz Dubnov":1,"Simon Maple":6,"智能体":165,"智能体编码":3,"PR":5,"CI-CD":8,"可观测性":15,"护栏":1,"token":11}</script>
+<script type="application/json" class="pd-epn">{"Patrick Dubois":1,"Tamuz Dubnov":1,"Simon Maple":6,"智能体":1,"智能体编码":3,"PR":5,"CI-CD":8,"可观测性":15,"护栏":1,"token":11}</script>
 
 <script>
 (function(){

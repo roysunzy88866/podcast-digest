@@ -44,11 +44,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire":3,"Devon":4,"智能体":165,"云端智能体":2,"Codex":31,"Claude Code":42,"剧本":4,"后台智能体":5,"Cursor":40,"产品市场契合":11}</script>
+<script type="application/json" class="pd-epn">{"Claire":3,"Devon":4,"智能体":1,"云端智能体":2,"Codex":31,"Claude Code":44,"剧本":4,"后台智能体":5,"Cursor":40,"产品市场契合":11}</script>
 
 <script>
 (function(){

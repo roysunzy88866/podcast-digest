@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Legora":1,"智能体":165,"微调":6,"评估":17,"GPT 3.5":1,"大语言模型":1,"LangChain":4,"Azure":3,"OpenAI":73,"Anthropic":84}</script>
+<script type="application/json" class="pd-epn">{"Legora":1,"智能体":1,"微调":6,"评估":17,"GPT 3.5":1,"大语言模型":1,"LangChain":4,"Azure":3,"OpenAI":73,"Anthropic":84}</script>
 
 <script>
 (function(){

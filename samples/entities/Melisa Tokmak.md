@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":165,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":73,"Anthropic":84}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":1,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":15,"OpenAI":73,"Anthropic":84}</script>
 
 <script>
 (function(){

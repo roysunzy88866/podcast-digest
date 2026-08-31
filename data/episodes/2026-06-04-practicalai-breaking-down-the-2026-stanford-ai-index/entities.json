@@ -1,0 +1,500 @@
+{
+  "episode_id": "2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index",
+  "podcast": "Practical AI",
+  "date": "2026-06-04",
+  "tags": [
+    "AI 行业报告",
+    "AI 能力前沿",
+    "中美 AI 竞争",
+    "AI 安全治理",
+    "AI 与就业"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.53,
+            77.884995
+          ],
+          "quote": "Well, welcome to another episode of the Practical AI Podcast. Today, it's just Chris and I, my my cohost and I, in what we call a fully connected episode where we try to keep you updated with some of the things that are happening in the AI news and maybe, share some practical practical information that'll help you level up your AI and machine learning game. I'm Daniel Whitenack. I'm CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer. How you doing, Chris?",
+          "speaker": "Dan"
+        }
+      ]
+    },
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.53,
+            77.884995
+          ],
+          "quote": "Well, welcome to another episode of the Practical AI Podcast. Today, it's just Chris and I, my my cohost and I, in what we call a fully connected episode where we try to keep you updated with some of the things that are happening in the AI news and maybe, share some practical practical information that'll help you level up your AI and machine learning game. I'm Daniel Whitenack. I'm CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer. How you doing, Chris?",
+          "speaker": "Dan"
+        }
+      ]
+    },
+    {
+      "id": "ai-index-report",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Index report",
+      "file": "AI Index report",
+      "primary": true,
+      "how_described": "本集将其描述为 Stanford 的以人为中心人工智能研究所发布的、非常严谨且数据驱动的年度 AI 行业全景扫描报告，用于设定基准、校准人们对 AI 发展速度和方向的认知",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            77.884995,
+            89.75
+          ],
+          "quote": "I'm doing good. I'm excited. This is we we're doing the episode we're doing today, we've done a number of times over the years. Stanford AI Index Report, we get to go through it. It's always fun.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 5,
+          "t": [
+            100.795,
+            135.795
+          ],
+          "quote": "And for context, so some of you may or may not have have listened to our previous episodes where Stanford Stanford's Human Centered Artificial Intelligence center institute. I forget, the exact of what they call themselves. But the human centered artificial intelligence effort there at Stanford, they published this AI Index report, and they've been doing it for a number of years. We've talked about it before. If you're interested, we're we're not gonna go into, like, how it was created.",
+          "speaker": "Dan"
+        },
+        {
+          "seg": 23,
+          "t": [
+            572.01,
+            608.745
+          ],
+          "quote": "Yeah. I'm connecting a little bit more of that dynamic kind of US and abroad dynamic. Takeaway number three on the AI Index report was that The United States hosts the most AI data centers, but the majority of their chips are fab fabricated by a single Taiwanese foundry. So, it this one, actually, Chris so not the chip fabrication piece. I I knew that piece, but, you know, you always hear about China just spinning up data centers everywhere.",
+          "speaker": "Dan"
+        }
+      ]
+    },
+    {
+      "id": "jagged-frontier",
+      "type": "concept",
+      "role": "concept",
+      "name": "锯齿状前沿 (jagged frontier)",
+      "file": "锯齿状前沿",
+      "primary": true,
+      "how_described": "本集用这个概念形容 AI 能力分布的不均匀：Gemini DeepThink 能在国际数学奥林匹克拿金牌，但读模拟时钟的准确率只有 50.1%，说明模型缺乏对真实世界的常识性连接",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            664.895,
+            687.86
+          ],
+          "quote": "Yeah. Yeah. For sure. So takeaway number four, we're gradually working our way through here, Chris. AI models can win a gold medal at the International Mathematical Olympiad but cannot reliably tell time, an example of what researchers call the, quote, jagged frontier of AI.",
+          "speaker": "Dan"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集引用 Jan Lecun 的观点，将其描述为能对生活中所有事物建立真实语境的模型，认为现有基于语言训练的前沿模型缺乏这种对真实世界的上下文理解",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            754.23505,
+            806.935
+          ],
+          "quote": "Yeah. The example they talk about is Gemini DeepThink getting the gold medal at the IMO, but only being able to read an analog clock 50.1 of the time in terms of accurately. And and and they offer some other stats along the way. And I think, you know, this goes back to another topic that we've talked about a number of times, and that is we're still talking about language, you know, being what these models are are trained on, and we've we've talked you know, it's becoming increasingly popular to talk about the notion of what a genuine what you know, it's there's several names it goes by, but a world model, you know, something that actually has context for all the things in life because, you know, you don't have that with with our existing frontier models that are, you know, based on on training on language. So there's a lot of research.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 37,
+          "t": [
+            929.71,
+            976.17505
+          ],
+          "quote": "We've and we've we've addressed that a whole bunch of times on the show and and the the you you can't a model a model in isolation doesn't do you a whole lot of good. You've gotta have that connection with the world, and I think as things evolve, we will I personally, my own personal belief is that world model development requires the same. You have to have feedback from the real world to be able to incorporate that into training to actually get you what you're looking for. And as inspiration for that, if we look at our own human brains, we're born, we're babies, we don't you know, we have these amazing baby brains, but they they haven't gotten a lot of experience against the real world. And it is all those feedback loops in those first two decades of life that kinda get us to, to functioning.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 38,
+          "t": [
+            976.17505,
+            983.775
+          ],
+          "quote": "So, there'll be some sort of analog presumably to that notion, in the world model development world as we go forward. So",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "agentic-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agentic systems)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其描述为与前沿模型结合后能富有成效地做很多事情的新系统，是今年的巨大话题，在就业市场和公司认知中引发了大量动荡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            301.765,
+            332.845
+          ],
+          "quote": "Yeah. I mean, we're we've gotten these frontier models, you know, in recent months that are are just so capable, especially when combined with these new agentic systems that everyone's been obviously huge topic this year, and able to productively do a lot of stuff, which creating a lot of upheaval in the job markets and how different companies are perceiving that. Yeah. But, yeah, I mean, it's it's a new it's very different from a year ago today, I would say. Yeah.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集指出中国明显在开源模型方面领先并大力拥抱，而美国（如 Meta）已转向完全闭源，导致东方大规模用开源、西方用闭源的地缘分裂格局",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            450.34,
+            472.875
+          ],
+          "quote": "Yeah. Yeah. And actually, this was one of the ones well, I don't know. Maybe there there's different elements of this, Chris. I would say just in my own practical experience on the, you know, people use and govern, you know, both closed and open models in in our platform now, so I get exposed to kind of both of those.",
+          "speaker": "Dan"
+        },
+        {
+          "seg": 22,
+          "t": [
+            504.23,
+            572.01
+          ],
+          "quote": "I mean, that's true. We talked about that recently on an episode just a few weeks ago, and the notion of, in a lot of ways, The US has kind of walked away from open models to some degree, you know, Meta you know, with Meta walking away, they're they're now going entirely closed, and that was kinda leading The US contingent. It's not to say that there aren't smaller, but in that top tier, we've kinda walked away. Whereas China has largely embraced the open model approach, which I think the fallout from that in the West will be interesting in terms of how much, you know, there's a certain amount of geopolitical division across, you know, between the West and the East in terms of of how they adopt models and what models are okay to use in different contexts. And so as we see open models predominantly, in the large scale happening in the East, closed models only in the West, how that ends up shuffling things will be, an interesting thing to watch in the months and years ahead.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集指出超过 90% 的著名前沿模型是 2025 年产出的，其中不少在多项任务上达到或超过人类基准，但基准测试本身有缺陷不能完全当真",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            240.86499,
+            300.405
+          ],
+          "quote": "Yeah. So one one way one of the ways they express this is that over 90% of notable frontier models were produced in in 2025, and several of those now meet or exceed human baselines on a number of things, and they and they go into those things. Obviously, one of the things one of the hot takes that I'm always sharing, Chris, are these baseline or or these benchmarks, let's say, on PhD level science questions. They're very they're interesting, and I think they're some somehow representative of how we're advancing, but benchmarks in general are quite flawed. So even with that, you know, caveat in there, it does seem like there is advancement that's that's happening and, you know, a lot of that reaching or exceeding human level performance is is impressive and maybe scary for some people.",
+          "speaker": "Dan"
+        },
+        {
+          "seg": 12,
+          "t": [
+            301.765,
+            332.845
+          ],
+          "quote": "Yeah. I mean, we're we've gotten these frontier models, you know, in recent months that are are just so capable, especially when combined with these new agentic systems that everyone's been obviously huge topic this year, and able to productively do a lot of stuff, which creating a lot of upheaval in the job markets and how different companies are perceiving that. Yeah. But, yeah, I mean, it's it's a new it's very different from a year ago today, I would say. Yeah.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 30,
+          "t": [
+            754.23505,
+            806.935
+          ],
+          "quote": "Yeah. The example they talk about is Gemini DeepThink getting the gold medal at the IMO, but only being able to read an analog clock 50.1 of the time in terms of accurately. And and and they offer some other stats along the way. And I think, you know, this goes back to another topic that we've talked about a number of times, and that is we're still talking about language, you know, being what these models are are trained on, and we've we've talked you know, it's becoming increasingly popular to talk about the notion of what a genuine what you know, it's there's several names it goes by, but a world model, you know, something that actually has context for all the things in life because, you know, you don't have that with with our existing frontier models that are, you know, based on on training on language. So there's a lot of research.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 69,
+          "t": [
+            1824.6599,
+            1872.745
+          ],
+          "quote": "And, you know, talking about, you know, VC and the the adoption rate and stuff, we we the last few months, the amount of AI adoption has just skyrocketed. People were until until 2026, maybe, you know, late second half of twenty twenty five, I I knew a lot of people who were not in technology, and they were touching on different model programs here and there. Most of the, you know, the the people that I would be talking to would be touching the closed frontier models, whichever one they particularly went for. But we've seen a marked improve improvement in terms of adoption. I really don't think I've run across anyone recently, including I'm all all age brackets.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "responsible-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "负责任的 AI (responsible AI)",
+      "file": "负责任的 AI",
+      "primary": true,
+      "how_described": "本集指出它没有跟上 AI 能力发展的步伐，安全基准滞后且 AI 事件急剧增加；但国防领域因联邦法规约束，其护栏和负责任 AI 努力反而比大多数商业行业多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            1257.4851,
+            1295.26
+          ],
+          "quote": "Yeah. Make make sense. Well, something that is playing out over time, take away number six, responsible AI is not keeping pace with AI cap capability with safety benchmarks lagging and incidents rising sharply. Chris, obviously, this one, hits close to home for me. This is part of what we're hopefully helping people deal with, but it also reminded me of, you know, of course, incidents and other things that we've seen from my work with Prediction Guard, but also a show that we had actually somewhat recently.",
+          "speaker": "Dan"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1342.165,
+            1405.25
+          ],
+          "quote": "Yeah. You know, I'm gonna I'm gonna make a comment that probably will surprise most people tuning in, and that is, first of all, making it very clear I only speak for myself and not for my employer or any other organization. I actually think people would be surprised in the defense industry that there is probably more guardrails and responsible AI efforts around our industry than most commercial industries. There are federal regulations here in The US that prohibit certain things that in the commercial space people might just surge and go do in terms of safety issues. And so as I was reading that earlier before the show, I was thinking, you know, I'm actually in an industry that it may hold us back at times because we're not surging the way the commercial industries have the freedom to, but I think it also there's a there's quite an intense focus on keeping things that need to be safe, and I have noticed that.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1416.85,
+            1478.5751
+          ],
+          "quote": "Yeah. I think it's encouraging and a good inspiration for the rest of us to consider those, those responsible AI governance enforcement, you know, policy, whatever, however, what, what whatever form that takes in your level of maturity as an organization, I think there are there are those out there that are pushing, that direction. And we've seen development even over this last year where people I think are moving beyond the sort of trust me phase of of AI governance towards, you know, exportable proof and, even certification types of things. And I think we'll see, you know, one of my predictions this coming year, I think is we're gonna start to see some of that needed exportable proof being part of even audits and certifications, whether that's SOC two or AI specific types of certifications for companies.",
+          "speaker": "Dan"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提到国防行业因联邦法规禁止某些事情，其周围的护栏和负责任 AI 努力可能比大多数商业行业都多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            1342.165,
+            1405.25
+          ],
+          "quote": "Yeah. You know, I'm gonna I'm gonna make a comment that probably will surprise most people tuning in, and that is, first of all, making it very clear I only speak for myself and not for my employer or any other organization. I actually think people would be surprised in the defense industry that there is probably more guardrails and responsible AI efforts around our industry than most commercial industries. There are federal regulations here in The US that prohibit certain things that in the commercial space people might just surge and go do in terms of safety issues. And so as I was reading that earlier before the show, I was thinking, you know, I'm actually in an industry that it may hold us back at times because we're not surging the way the commercial industries have the freedom to, but I think it also there's a there's quite an intense focus on keeping things that need to be safe, and I have noticed that.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injections",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injections)",
+      "file": "提示词注入",
+      "primary": false,
+      "how_described": "本集在广告段中将其列为主观能动性和自主性带来的风险之一，是安全和治理团队不让智能体进入生产环境的原因",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            1511.1,
+            1568.3899
+          ],
+          "quote": "If you've been listening to the show over the past few months, you realize just how transformative AgenTic AI is, whether that's Claude Code or Hermes Agent or custom built software that you're deploying for operational efficiencies or as new products to your customers. Regardless of your maturity now, this is the world that we're headed towards, this agentic AI world. And there's a lot of security and governance teams that aren't letting these agents go into production because of risks related to agency and autonomy and how do you take care of things like prompt injections or insecure tool usage. There's a lot to take care of, and that's why I'm personally spending my time outside of the show working with an amazing team of AI engineers to build PredictionGuard. PredictionGuard is an AI control plane that you run-in your own infrastructure behind your firewall.",
+          "speaker": "Sponsor"
+        }
+      ]
+    },
+    {
+      "id": "predictionguard",
+      "type": "company",
+      "role": "company",
+      "name": "PredictionGuard",
+      "file": "PredictionGuard",
+      "primary": false,
+      "how_described": "本集提到它是 Daniel 担任 CEO 的公司，也是一个在防火墙后自建基础设施中运行的 AI 控制平面，内置治理护具来强制执行组织 AI 策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            1511.1,
+            1568.3899
+          ],
+          "quote": "If you've been listening to the show over the past few months, you realize just how transformative AgenTic AI is, whether that's Claude Code or Hermes Agent or custom built software that you're deploying for operational efficiencies or as new products to your customers. Regardless of your maturity now, this is the world that we're headed towards, this agentic AI world. And there's a lot of security and governance teams that aren't letting these agents go into production because of risks related to agency and autonomy and how do you take care of things like prompt injections or insecure tool usage. There's a lot to take care of, and that's why I'm personally spending my time outside of the show working with an amazing team of AI engineers to build PredictionGuard. PredictionGuard is an AI control plane that you run-in your own infrastructure behind your firewall.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1568.5499,
+            1611.505
+          ],
+          "quote": "Developers can build on top of this control plane using everything that they wanna use, OpenAI and Anthropic compatible APIs, MCP servers, frameworks like LangChain, but all of this is plugged into a built in governance harness that enforces your organization's AI policies and all of that telemetry goes back to your monitoring and alerting systems. I'd encourage you to check out what we're doing at prediction guard dot com slash practical AI. You can schedule a demo with me and the team, and I'd love to get your feedback on what we're doing. So visit us at predictionguard.com/practicalai. That's predictionguard.com/practicalai.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2818.035,
+            2827.395
+          ],
+          "quote": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+          "speaker": "Narrator"
+        }
+      ]
+    },
+    {
+      "id": "gemini-deepthink",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini DeepThink",
+      "file": "Gemini DeepThink",
+      "primary": false,
+      "how_described": "本集将其作为锯齿状前沿的例证：它能在国际数学奥林匹克拿到金牌，但读取模拟时钟的准确率只有 50.1%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            754.23505,
+            806.935
+          ],
+          "quote": "Yeah. The example they talk about is Gemini DeepThink getting the gold medal at the IMO, but only being able to read an analog clock 50.1 of the time in terms of accurately. And and and they offer some other stats along the way. And I think, you know, this goes back to another topic that we've talked about a number of times, and that is we're still talking about language, you know, being what these models are are trained on, and we've we've talked you know, it's becoming increasingly popular to talk about the notion of what a genuine what you know, it's there's several names it goes by, but a world model, you know, something that actually has context for all the things in life because, you know, you don't have that with with our existing frontier models that are, you know, based on on training on language. So there's a lot of research.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude code",
+      "file": "Claude code",
+      "primary": false,
+      "how_described": "本集中 Daniel 用它通过 Claude code skill 连接 ClickUp 获得工单上下文，Chris 用它学 Rust 时让模型解释代码选择和原理，当作学习伙伴",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            857.63495,
+            892.085
+          ],
+          "quote": "know if it's to the models or to the, the way people do AI because you, you know, like Claude, for example, like an anthropic model knows nothing about the tickets in my ClickUp platform. Right? And so you could call that model dumbaw. It doesn't know, like, blah blah blah. But I can perfectly well just connect Claude via Claude code skill to my ClickUp, and all of a sudden, now I have all that context about what I should be working on this sprint and all that context is there and it knows about my PRs and all of this stuff.",
+          "speaker": "Dan"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1511.1,
+            1568.3899
+          ],
+          "quote": "If you've been listening to the show over the past few months, you realize just how transformative AgenTic AI is, whether that's Claude Code or Hermes Agent or custom built software that you're deploying for operational efficiencies or as new products to your customers. Regardless of your maturity now, this is the world that we're headed towards, this agentic AI world. And there's a lot of security and governance teams that aren't letting these agents go into production because of risks related to agency and autonomy and how do you take care of things like prompt injections or insecure tool usage. There's a lot to take care of, and that's why I'm personally spending my time outside of the show working with an amazing team of AI engineers to build PredictionGuard. PredictionGuard is an AI control plane that you run-in your own infrastructure behind your firewall.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 96,
+          "t": [
+            2475.385,
+            2544.745
+          ],
+          "quote": "Yeah. Going back, before we leave this, because I think this is important, there there are other things we can skip over in the interest of time, but I think the way I think your a really big point there is the way we're learning things has to change too in that and I'll share a two second experience, is that both of us have been through many programming languages over the years. And and I had gotten an interest in Rust, and I was dipping in and out of it and not really taking it on board, and I'd get caught up into something else, and and it it's famous for its steep learning curve. It's taking a little better this time because one of the things that I've done to try to get go from very entry level to beyond that is to to use the tools that are out there, using Claude code, and and and creating it, but also having it explain and having discussions about what's going on and why. So it's not just make the thing, but it's let's have a conversation about what the thing, how you make the thing and why the choices are being made, and you can use the model to say, well, why are you doing that?",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "exportable-proof",
+      "type": "concept",
+      "role": "concept",
+      "name": "可输出的证明 (exportable proof)",
+      "file": "可输出的证明",
+      "primary": false,
+      "how_described": "本集预测它将成为审计和认证（如 SOC 2 或 AI 专项认证）的组成部分，市场会倒逼企业超越'相信我'阶段，提供这种证明",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            1416.85,
+            1478.5751
+          ],
+          "quote": "Yeah. I think it's encouraging and a good inspiration for the rest of us to consider those, those responsible AI governance enforcement, you know, policy, whatever, however, what, what whatever form that takes in your level of maturity as an organization, I think there are there are those out there that are pushing, that direction. And we've seen development even over this last year where people I think are moving beyond the sort of trust me phase of of AI governance towards, you know, exportable proof and, even certification types of things. And I think we'll see, you know, one of my predictions this coming year, I think is we're gonna start to see some of that needed exportable proof being part of even audits and certifications, whether that's SOC two or AI specific types of certifications for companies.",
+          "speaker": "Dan"
+        }
+      ]
+    },
+    {
+      "id": "ai-incident-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 事件数据库 (AI incident database)",
+      "file": "AI 事件数据库",
+      "primary": false,
+      "how_described": "本集提到 Sean MacGregor 曾上节目谈论他帮助创建和管理的这个数据库，记录在案的 AI 事件已经很多且多样性显著、数量急剧上升",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            1295.26,
+            1342.005
+          ],
+          "quote": "So back in February, episode three forty six, which was AI incidence audits and the limits of benchmarks, which basically hits directly at this. We had Sean MacGregor on that show, and and he was talking about the AI incident database that he was helping helping create and and manage. And, yeah, that it was very interesting just the the diversity of AI incidents that we're seeing now and the sharp rise in those. And this is also, you know, only documented AI incident, you know, cases. There's many things that are happening just anecdotally that I see that I'm sure aren't being documented in that AI incident database.",
+          "speaker": "Dan"
+        }
+      ]
+    },
+    {
+      "id": "gen-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (Gen AI)",
+      "file": "生成式 AI",
+      "primary": false,
+      "how_described": "本集指出五分之四的大学生已经在使用生成式 AI，80% 的高中和大学生用 AI 处理学业相关事务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            334.525,
+            363.155
+          ],
+          "quote": "I I think, like, they talk about the majority, four out of five university students using Gen AI. And I was actually thinking Chris, as like a gauge on this. I was thinking back to my own PhD, which is about five years long. Like how long would that amount of work taken me with the tools that are available now? Both research wise, there was a coding element to it.",
+          "speaker": "Dan"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

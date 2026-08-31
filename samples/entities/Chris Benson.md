@@ -7,11 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Chris Benson</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Chris Benson">CH</div><div class="pi"><h1 class="pt">Chris Benson</h1><div class="byl">Practical AI 联合主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Chris Benson">CH</div><div class="pi"><h1 class="pt">Chris Benson</h1><div class="byl">Practical AI 联合主持</div><div class="nums">本站收录 <b>5</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*11 条*
+*14 条*
+
+![[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index#^q2]]
+
+![[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index#^q3]]
+
+![[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index#^q4]]
 
 ![[2026-06-11-practicalai-zero-trust-for-ai-agents#^q2]]
 
@@ -37,8 +43,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
+- [[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index|《Stanford AI Index 报告十大要点速览》]] — 作为联合主持
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|《Anthropic 零信任框架：智能体安全的六层防御》]] — 作为联合主持
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为主持
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为主持
@@ -48,9 +55,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Daniel Whitenack]] · [[OpenAI]] · [[Anthropic]] · [[MCP]] · [[Workday]] · [[Hugging Face]] · [[爆炸半径]] · [[护栏]] · [[零信任]]
+[[Daniel Whitenack]] · [[智能体]] · [[护栏]] · [[Anthropic]] · [[OpenAI]] · [[Claude Code]] · [[MCP]] · [[Workday]] · [[Hugging Face]] · [[爆炸半径]]
 
-<script type="application/json" class="pd-epn">{"智能体":165,"Daniel Whitenack":4,"OpenAI":73,"Anthropic":84,"MCP":20,"Workday":4,"Hugging Face":13,"爆炸半径":3,"护栏":1,"零信任":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":5,"智能体":1,"护栏":1,"Anthropic":84,"OpenAI":73,"Claude Code":44,"MCP":20,"Workday":4,"Hugging Face":13,"爆炸半径":3}</script>
 
 <script>
 (function(){

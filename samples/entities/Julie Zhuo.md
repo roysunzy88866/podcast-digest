@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":165,"构建者":2,"可观测性":15,"对话分析":1,"评估":17,"维度思维":1,"ChatGPT":41,"Cursor":40,"OpenAI":73}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":1,"构建者":2,"可观测性":15,"对话分析":1,"评估":17,"维度思维":1,"ChatGPT":41,"Cursor":40,"OpenAI":73}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Vercel]] · [[智能体]] · [[Lenny]] · [[Elaina O'Mahoney]] · [[Jason Lemkin]] · [[Mural]] · [[SaaStr]] · [[视觉协作]] · [[Replit]] · [[共享上下文]]
 
-<script type="application/json" class="pd-epn">{"Vercel":12,"智能体":165,"Lenny":66,"Elaina O'Mahoney":1,"Jason Lemkin":2,"Mural":1,"SaaStr":1,"视觉协作":1,"Replit":13,"共享上下文":1}</script>
+<script type="application/json" class="pd-epn">{"Vercel":12,"智能体":1,"Lenny":66,"Elaina O'Mahoney":1,"Jason Lemkin":2,"Mural":1,"SaaStr":1,"视觉协作":1,"Replit":13,"共享上下文":1}</script>
 
 <script>
 (function(){

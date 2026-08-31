@@ -25,7 +25,7 @@ unlisted: true
 
 [[GrokBot]] · [[Cursor]] · [[Grok 4.6]] · [[GitHub]] · [[智能体]] · [[MCP]] · [[连接器]] · [[多智能体]] · [[Claude]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"GrokBot":2,"Cursor":40,"Grok 4.6":1,"GitHub":19,"智能体":165,"MCP":20,"连接器":2,"多智能体":1,"Claude":39,"Codex":31}</script>
+<script type="application/json" class="pd-epn">{"GrokBot":2,"Cursor":40,"Grok 4.6":1,"GitHub":19,"智能体":1,"MCP":20,"连接器":2,"多智能体":1,"Claude":40,"Codex":31}</script>
 
 <script>
 (function(){

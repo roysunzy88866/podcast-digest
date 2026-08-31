@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Sierra":4,"智能体":165,"基于结果的定价":1,"应用 AI":1,"前沿模型":5,"工具层":1,"上下文工程":7,"编程系统":1,"MCP":20}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Sierra":4,"智能体":1,"基于结果的定价":1,"应用 AI":1,"前沿模型":6,"工具层":1,"上下文工程":7,"编程系统":1,"MCP":20}</script>
 
 <script>
 (function(){

@@ -97,7 +97,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Claude]] · [[Claude Code]] · [[Replit]] · [[Google]] · [[OpenAI]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":165,"Anthropic":84,"Lenny":66,"ChatGPT":41,"Claude":39,"Claude Code":42,"Replit":13,"Google":32,"OpenAI":73,"MCP":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":84,"Lenny":66,"ChatGPT":41,"Claude":40,"Claude Code":44,"Replit":13,"Google":32,"OpenAI":73,"MCP":20}</script>
 
 <script>
 (function(){

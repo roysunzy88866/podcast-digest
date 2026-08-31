@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":24,"深度学习":3,"智能体":165,"沙箱":33,"Condi Rice":1,"harness":17,"Jerry":1,"GPU":10,"前沿模型":5,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":24,"深度学习":3,"智能体":1,"沙箱":33,"Condi Rice":1,"harness":17,"Jerry":1,"GPU":10,"前沿模型":6,"Sega":1}</script>
 
 <script>
 (function(){

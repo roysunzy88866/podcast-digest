@@ -1,0 +1,154 @@
+{
+  "title_zh": "Stanford AI Index 报告十大要点速览",
+  "tldr": "Practical AI 播客两位主持人 Daniel 和 Chris 快速过一遍 Stanford AI Index 报告的核心发现，从模型能力、中美差距到就业冲击。",
+  "digest_md": "这一集是 Practical AI 播客的两位主持人 Daniel（Prediction Guard 的 CEO）和 Chris（首席 AI 研究工程师）快速过一遍 Stanford 发布的 AI Index 报告——这是一份每年更新、数据驱动的 AI 行业全景扫描。最反直觉的一点：AI 模型能在国际数学奥林匹克拿金牌，但读模拟时钟的准确率只有 50.1% [11:28 Chris Benson]。\n\n## AI 能力没有见顶，反而在加速\n\n报告头一条就纠正了一个流行误解：AI 能力并没有高原化（plateau），而是在加速。超过 90% 的著名前沿模型是 2025 年产出的，其中不少在多项任务上达到或超过人类基准 [04:00 Daniel Whitenack]。不过 Daniel 也提醒，基准测试本身有缺陷，不能完全当真。与此同时，五分之四的大学生已经在用生成式 AI，Daniel 回想自己五年博士生涯，觉得用现在的工具至少能砍掉一半时间 [06:03 Daniel Whitenack]。Chris 也说自己在工作中，以前算一个研究项目的工作量，现在一周就能搞定 [06:29 Chris Benson]。\n\n## 中美模型性能差距已基本抹平\n\n第二点是中美 AI 模型性能差距已实质性地闭合，不再是\"领导者-追随者\"关系，而是两个共同领导者 [07:12 Chris Benson]。Daniel 从实操角度补充：在开源模型这边，中国明显领先；但闭源前沿模型那边，美国仍有优势，所以不能简单说中国模型全面超越 [07:53 Daniel Whitenack]。Chris 指出一个结构性变化：美国在顶层开源上其实在退步——Meta 已经转向完全闭源，而中国大力拥抱开源。这意味着东方大规模用开源模型、西方用闭源模型，这种地缘分裂的后续影响值得观察 [08:24 Chris Benson]。\n\n## 基础设施与人才的隐忧\n\n美国拥有最多的 AI 数据中心，但多数芯片依赖单一台湾代工厂制造 [09:32 Daniel Whitenack]。更触目惊心的是人才数据：过去一年，搬到美国的 AI 研究者和开发者数量下降了 80% [28:04 Daniel Whitenack]。Chris 认为这跟移民政策等政治因素直接相关 [27:13 Chris Benson]。不过 Daniel 也指出，现在小团队就能做出大营收，加上远程办公常态化，公司即使在美国拿 VC 的钱，实际干活的工程师也未必在美国 [29:42 Daniel Whitenack]。\n\n## 锯齿状前沿：能拿金牌，不会看表\n\n报告用\"锯齿状前沿\"形容 AI 的能力分布：Gemini DeepThink 在国际数学奥林匹克拿了金牌，但读模拟时钟只有 50.1% 的准确率 [12:34 Chris Benson]。Chris 把这归结为现有模型本质上是语言模型，缺乏对真实世界的理解——Jan Lecun 多次呼吁需要\"世界模型\"（能对生活中所有事物建立真实语境的模型）[13:27 Chris Benson]。Daniel 则提了另一个角度： Claude 对他 ClickUp 里的工单一无所知，但接上 Claude Code Skill 后就什么都知道了。所以问题不光在模型本身，还在于模型有没有\"身体\"——有没有连接真实世界的工具和接口 [14:17 Daniel Whitenack]。\n\n## 机器人：受控环境很强，家里不行\n\n机器人仍然在大多数家庭任务上失败，哪怕在受控环境（比如工厂或软件仿真）里表现优异 [16:24 Daniel Whitenack]。Daniel 去过芝加哥的餐饮展会，发现做菜的\"机器人\"本质上就是个加热的滚筒，跟想象中的人形机器人切寿司差得远 [18:42 Daniel Whitenack]。Chris 认为中国在机器人（包括无人机）上积累更久、优先级更高，可能领先美国一个台阶 [20:12 Chris Benson]。\n\n## 安全治理严重滞后\n\n负责任的 AI 没有跟上能力发展的步伐，安全基准滞后，AI 事件急剧增加 [20:57 Daniel Whitenack]。Daniel 提到他们之前请过 Sean MacGregor 聊 AI 事件数据库，记录在案的事件已经很多，没记录的更多 [21:35 Daniel Whitenack]。有意思的是 Chris 从国防行业角度说：恰恰因为联邦法规的约束，国防领域的 AI 护栏和负责任 AI 努力，可能比大多数商业行业都多 [22:22 Chris Benson]。Daniel 预测，未来一年会看到\"可输出的证明\"成为审计和认证（比如 SOC 2 或 AI 专项认证）的组成部分，市场会倒逼企业重视 [23:36 Daniel Whitenack]。\n\n## 入门级岗位在消失，但学习方式也在变\n\nAI 带来的生产力提升，恰恰出现在入门级就业开始萎缩的那些领域 [38:11 Daniel Whitenack]。Daniel 直说：现在不可能靠写 SQL 查询拿到初级开发岗了 [38:27 Daniel Whitenack]。但他认为工具也能帮新人更快上手——比如公司内部有自己写好的代码技能库，新人接上就能跑，加速成长 [40:25 Daniel Whitenack]。Chris 以自己学 Rust 为例：用 Claude Code 不光让模型写代码，还让它解释为什么这样写、有哪些选择，把 AI 当学习伙伴而不是单纯替你干活，这样学得更快 [42:24 Chris Benson]。\n\n## 正规教育没跟上，但全民在学\n\n80% 的高中和大学生用 AI 处理学业，但只有很小比例的老师制定了相关的使用政策 [43:31 Daniel Whitenack]。Chris 的女儿是 AI 工具重度用户，但期末考试不带工具照样全 A——关键是用 AI 来学，而不只是用来交差 [44:37 Chris Benson]。有趣的是，Chris 的母亲（八十多岁退休的技术人员，早年做过老派 AI）喜欢在 Photoshop 里手工修图，Chris 说服到一半就停了——因为那是她的爱好，享受过程本身，不一定非要让 AI 替她做 [34:00 Chris Benson]。Daniel 补充：自酿啤酒的人也不会因为商店有更好的就停手，但如果在公司里坚持手写信不用邮件，那就行不通了 [35:02 Daniel Whitenack]。区分爱好和工作场景，是关键。\n\n报告还提到但没展开的几点：AI 环境足迹在扩大、科学 AI 模型超越人类科学家但更大不等于更好、AI 在改变临床护理但严谨证据有限、AI 主权成为国家政策特征、AI 专家和公众对未来看法差异很大 [45:27 Daniel Whitenack]。\n\n## 本集带走\n\n- **AI 能力没有高原化，在加速**：90% 以上的著名前沿模型是 2025 年出的，别信\"瓶颈论\"。\n- **中美模型性能差距已闭合**：但结构上分化了——中国走开源、美国走闭源，这种分裂的长期影响要关注。\n- **\"锯齿状前沿\"是理解 AI 能力的关键概念**：能拿 IMO 金牌不等于会看表，语言模型缺的是对真实世界的连接，不只是模型参数的问题。\n- **入门级岗位在消失，但工具也能加速新人成长**：别只让 AI 替你干，让它解释为什么这么做，当学习伙伴用。\n- **安全治理严重落后于能力**：AI 事件在激增，\"可输出的证明\"很快会成为企业审计的硬要求。\n- **区分爱好和工作场景**：爱好享受过程就不必强上 AI，工作中有生产力预期就不用 AI 就不行了。",
+  "quotes": [
+    {
+      "en": "over 90% of notable frontier models were produced in in 2025, and several of those now meet or exceed human baselines on a number of things",
+      "zh": "超过 90% 的著名前沿模型是在 2025 年生产的，其中几个现在在许多方面达到或超过了人类基准",
+      "timestamp": "04:06",
+      "speaker": "Daniel Whitenack"
+    },
+    {
+      "en": "Gemini DeepThink getting the gold medal at the IMO, but only being able to read an analog clock 50.1 of the time in terms of accurately.",
+      "zh": "Gemini DeepThink 在 IMO 上获得金牌，但只能在 50.1 的时间内准确地读取模拟时钟。",
+      "timestamp": "12:36",
+      "speaker": "Chris Benson"
+    },
+    {
+      "en": "a model a model in isolation doesn't do you a whole lot of good. You've gotta have that connection with the world",
+      "zh": "一个孤立的模型对你没有多大好处。你必须与那个世界有连接",
+      "timestamp": "15:36",
+      "speaker": "Chris Benson"
+    },
+    {
+      "en": "I actually think people would be surprised in the defense industry that there is probably more guardrails and responsible AI efforts around our industry than most commercial industries. There are federal regulations here in The US that prohibit certain things that in the commercial space people might just surge and go do in terms of safety issues.",
+      "zh": "实际上我认为人们会在国防行业感到惊讶，我们的行业周围可能比大多数商业行业有更多的护栏和负责任的 AI 努力。在美国这里有联邦法规禁止某些事情，而在商业领域人们为了安全问题可能只是激增并去做。",
+      "timestamp": "22:38",
+      "speaker": "Chris Benson"
+    },
+    {
+      "en": "there's been an 80% decline just in the last year in terms of the number of AI researchers and developers moving to The US",
+      "zh": "就在去年，AI 研究人员和开发人员搬到美国的数量下降了 80%",
+      "timestamp": "28:11",
+      "speaker": "Daniel Whitenack"
+    },
+    {
+      "en": "There's no way you can get a junior software dev position writing SQL queries anymore.",
+      "zh": "你再也不可能通过编写 SQL 查询来获得初级软件开发职位了。",
+      "timestamp": "38:27",
+      "speaker": "Daniel Whitenack"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:40",
+      "speaker": "Chris Benson",
+      "en": "we realized a little while back that that wasn't happening for a variety of reasons, which we've actually talked about on previous episodes, but the very first thing they mention is AI capability is not plateauing. It is accelerating and reaching more people than ever, and yeah, I think we're seeing that in 2026.",
+      "zh": "我们不久前意识到，出于各种原因这并没有发生，我们实际上在之前的剧集中讨论过，但他们提到的第一件事是 AI 能力并没有高原化。它正在加速并触达比以往任何时候更多的人，是的，我认为我们在 2026 年看到了这一点。"
+    },
+    {
+      "timestamp": "04:00",
+      "speaker": "Daniel Whitenack",
+      "en": "over 90% of notable frontier models were produced in in 2025, and several of those now meet or exceed human baselines on a number of things",
+      "zh": "超过 90% 的著名前沿模型是在 2025 年生产的，其中几个现在在许多方面达到或超过了人类基准"
+    },
+    {
+      "timestamp": "07:12",
+      "speaker": "Chris Benson",
+      "en": "AI model performance between The United States and China has closed. It's effectively closed, and we're looking at two it no longer kind of a leader follower effect, but two co leaders in the world market.",
+      "zh": "AI 模型性能之间的美国和中国已经缩小。实际上已经缩小，我们正在看两个不再是领导者追随者效应，而是世界市场中的两个共同领导者。"
+    },
+    {
+      "timestamp": "08:24",
+      "speaker": "Chris Benson",
+      "en": "The US has kind of walked away from open models to some degree, you know, Meta you know, with Meta walking away, they're they're now going entirely closed, and that was kinda leading The US contingent. Whereas China has largely embraced the open model approach",
+      "zh": "美国在某种程度上已经放弃了开源模型，你知道，Meta 随着退出，他们现在完全闭源了，这本来是带领美国阵营的。而中国很大程度上拥抱了开源模型方法"
+    },
+    {
+      "timestamp": "11:28",
+      "speaker": "Daniel Whitenack",
+      "en": "AI models can win a gold medal at the International Mathematical Olympiad but cannot reliably tell time, an example of what researchers call the, quote, jagged frontier of AI.",
+      "zh": "AI 模型可以在国际数学奥林匹克中获得金牌，但无法可靠地报时，这是研究人员称之为锯齿状前沿的 AI 的一个例子。"
+    },
+    {
+      "timestamp": "12:34",
+      "speaker": "Chris Benson",
+      "en": "Gemini DeepThink getting the gold medal at the IMO, but only being able to read an analog clock 50.1 of the time in terms of accurately.",
+      "zh": "Gemini DeepThink 在 IMO 上获得金牌，但只能在 50.1 的时间内准确地读取模拟时钟。"
+    },
+    {
+      "timestamp": "13:27",
+      "speaker": "Chris Benson",
+      "en": "we're still talking about language, you know, being what these models are are trained on, and we've we've talked you know, it's becoming increasingly popular to talk about the notion of what a genuine what you know, it's there's several names it goes by, but a world model, you know, something that actually has context for all the things in life",
+      "zh": "我们仍然在谈论语言作为这些模型训练的基础，而且我们谈论过，现在越来越流行讨论一个真正的——有几个名字，但是一个世界模型，实际上对生活中所有事情都有语境的东西"
+    },
+    {
+      "timestamp": "14:17",
+      "speaker": "Daniel Whitenack",
+      "en": "Claude, for example, like an anthropic model knows nothing about the tickets in my ClickUp platform. Right? And so you could call that model dumbaw. It doesn't know, like, blah blah blah. But I can perfectly well just connect Claude via Claude code skill to my ClickUp, and all of a sudden, now I have all that context",
+      "zh": "比如 Claude，一个 anthropic 模型对我的 ClickUp 平台里的工单一无所知。对吧？所以你可以称那个模型为 dumbaw。它不知道。但我可以完美地通过 Claude code skill 将 Claude 连接到我的 ClickUp，突然间，现在我就有了关于所有的语境"
+    },
+    {
+      "timestamp": "15:29",
+      "speaker": "Chris Benson",
+      "en": "a model a model in isolation doesn't do you a whole lot of good. You've gotta have that connection with the world",
+      "zh": "一个孤立的模型对你没有多大好处。你必须与那个世界有连接"
+    },
+    {
+      "timestamp": "20:57",
+      "speaker": "Daniel Whitenack",
+      "en": "responsible AI is not keeping pace with AI cap capability with safety benchmarks lagging and incidents rising sharply.",
+      "zh": "负责任的 AI 没有跟上 AI 能力的步伐，安全基准滞后，事件急剧增加。"
+    },
+    {
+      "timestamp": "22:22",
+      "speaker": "Chris Benson",
+      "en": "I actually think people would be surprised in the defense industry that there is probably more guardrails and responsible AI efforts around our industry than most commercial industries. There are federal regulations here in The US that prohibit certain things that in the commercial space people might just surge and go do in terms of safety issues.",
+      "zh": "实际上我认为人们会在国防行业感到惊讶，我们的行业周围可能比大多数商业行业有更多的护栏和负责任的 AI 努力。在美国这里有联邦法规禁止某些事情，而在商业领域人们为了安全问题可能只是激增并去做。"
+    },
+    {
+      "timestamp": "28:04",
+      "speaker": "Daniel Whitenack",
+      "en": "there's been an 80% decline just in the last year in terms of the number of AI researchers and developers moving to The US",
+      "zh": "就在去年，AI 研究人员和开发人员搬到美国的数量下降了 80%"
+    },
+    {
+      "timestamp": "31:13",
+      "speaker": "Chris Benson",
+      "en": "Stanford had noticed that we are still, in The US, ranked twenty fourth at only a 28.3% adoption.",
+      "zh": "斯坦福注意到我们仍然在美国排名第 24 位，采用率仅为 28.3%。"
+    },
+    {
+      "timestamp": "34:00",
+      "speaker": "Chris Benson",
+      "en": "I realized that she was taking pride in working in Photoshop with her skills there, and I got about halfway through trying to convince her and I backed away because I suddenly realized, like, this is her hobby and there's fun, and even if she could, in a productive way, move right to the end goal, maybe this is a moment where AI is not the right thing to bring into play just because she enjoys doing it.",
+      "zh": "我意识到她以在 Photoshop 里用她的技能工作为荣，我试图说服她进行到一半时退缩了，因为我突然意识到，这是她的爱好，这很有趣，即使她能够以一种富有成效的方式直接达到最终目标，也许这就是一个不适合引入 AI 的时刻，仅仅因为她享受做这件事。"
+    },
+    {
+      "timestamp": "38:27",
+      "speaker": "Daniel Whitenack",
+      "en": "There's no way you can get a junior software dev position writing SQL queries anymore.",
+      "zh": "你再也不可能通过编写 SQL 查询来获得初级软件开发职位了。"
+    },
+    {
+      "timestamp": "42:24",
+      "speaker": "Chris Benson",
+      "en": "it's not just make the thing, but it's let's have a conversation about what the thing, how you make the thing and why the choices are being made, and you can use the model to say, well, why are you doing that?",
+      "zh": "不仅仅是制造那个东西，而是让我们进行一场关于那个东西是什么，你如何制造那个东西以及为什么要做出这些选择的对话，你可以使用模型来说，嗯，你为什么要那样做？"
+    },
+    {
+      "timestamp": "43:31",
+      "speaker": "Daniel Whitenack",
+      "en": "80% of high school and college students now use AI for school related things, but a very small percentage of teachers, you know, have any sort of policy in place around around that usage",
+      "zh": "现在有 80% 的高中和大学生使用 AI 处理学校相关的事情，但比例非常小的老师针对那种使用制定了任何类型的政策"
+    },
+    {
+      "timestamp": "44:37",
+      "speaker": "Chris Benson",
+      "en": "even though she's a heavy user of AI tools for school, without those tools, she'll go in she went in for her finals in middle school just now. Straight a's.",
+      "zh": "尽管她是学校 AI 工具的重度用户，但没有那些工具，她刚刚进去参加了她的中学期末考试。全 A 的成绩。"
+    }
+  ],
+  "voice_script": "AI 能在国际数学奥林匹克拿金牌，但读一个模拟时钟，准确率只有 50.1%。这事儿听起来像个段子，但这是 Stanford 刚发布的 AI Index 报告里一个真实的反常识发现。今天这期，咱们就用几分钟，把这份一年一度最硬核的 AI 行业全景报告里最值钱的几条线给你捋清楚。\n\n先纠正一个特别流行的误解，很多人觉得 AI 发展到现在是不是见顶了，碰到瓶颈了。报告给出的数据直接打脸：没有高原化，是在加速。超过 90% 的著名前沿模型，都是 2025 年产出的，其中不少在多项任务上已经达到甚至超过人类基准。不过主持人 Daniel 也提了个醒，基准测试本身有缺陷，不能全当真。但体感是真实的，五分之四的大学生已经在用生成式 AI，Daniel 算了一下，要是用现在的工具，五年博士生涯至少能砍掉一半时间。以前算一个研究项目的工作量，现在一周就能搞定。\n\n再看中美差距。报告给出的结论很直接：模型性能差距已经实质性闭合了，不再是谁带谁玩的关系，而是两个共同领导者。但这里有个非常值得注意的结构性变化。开源模型这边，中国明显领先；闭源前沿模型那边，美国还有优势。有意思的是，美国在顶层开源上其实在退步，比如 Meta 已经转向完全闭源，而中国正在大力拥抱开源。这就导致了一个地缘分裂的局面：东方大规模用开源模型，西方用闭源模型，后续影响值得长期盯着。\n\n基础设施和人才这块，有个数字特别触目惊心。过去一年，搬到美国的 AI 研究者和开发者数量，直接下降了 80%。这跟移民政策等政治因素直接相关。虽然美国拥有最多的 AI 数据中心，但多数芯片还依赖单一台湾代工厂制造。不过也有个新变化，现在小团队就能做出大营收，加上远程办公常态化，哪怕公司在美国拿了 VC 的钱，实际干活的工程师也未必在美国。\n\n刚才说的那个能拿金牌不会看表的现象，报告里用了一个词叫“锯齿状前沿”，特别精准。为什么会这样？因为现在的模型本质上是语言模型，缺的是对真实世界的理解。Jan Lecun 多次呼吁的“世界模型”就是这个意思，得让模型对生活中所有事物建立真实语境。但问题不光在模型本身，Daniel 举了个例子，Claude 对自己 ClickUp 里的工单一无所知，但接上 Claude Code Skill 之后就什么都知道了。说白了，一个孤立的模型对你没有多大好处，必须跟那个真实世界有连接，得有“身体”，有工具和接口。\n\n顺带提一嘴机器人，在受控环境比如工厂里表现确实好，但到大多数家庭任务上还是直接失败。Daniel 去过芝加哥的餐饮展会，发现做菜的机器人本质上就是个加热的滚筒，跟想象中的人形机器人切寿司差得远。而中国在机器人和无人机上积累更久，可能领先一个台阶。\n\n能力在狂飙，但安全治理严重滞后。AI 事件在急剧增加，没记录的比记录的更多。有意思的是，恰恰因为联邦法规的约束，国防行业的 AI 护栏和负责任 AI 努力，可能比大多数商业行业都多。商业领域为了抢速度往往直接冲了。Daniel 预测，未来一年“可输出的证明”会成为审计和认证的硬要求，市场会倒逼企业重视起来。\n\n最后说个跟每个人都有关的：就业和学习。AI 带来的生产力提升，恰恰出现在入门级岗位开始萎缩的那些领域。Daniel 说得很直白：现在再也不可能靠写 SQL 查询来拿到初级软件开发职位了。但工具也能加速新人成长，关键是别只让 AI 替你干活。Chris 举了自己学 Rust 的例子，用 Claude Code 不光让它写代码，还让它解释为什么这样写、有哪些选择，把 AI 当学习伙伴用，学得反而更快。学校那边呢，80% 的高中和大学生用 AI 处理学业，但只有很小比例的老师制定了使用政策。Chris 的女儿是 AI 重度用户，但期末考试不带工具照样全 A，关键是用来学，不是用来交差。\n\n不过说到这，也得认清一个界限：爱好和工作是不一样的。Chris 的母亲八十多岁了，早年做过老派 AI，喜欢在 Photoshop 里手工修图，Chris 说服到一半就停了，因为那是爱好，享受过程本身，没必要非让 AI 替代。Daniel 说得好，自酿啤酒的人也不会因为商店有更好的就停手。但如果在公司里坚持手写信不用邮件，那就行不通了。工作中有生产力预期，不用 AI 就不行。\n\n所以回到开头那个不会看表的数学天才，记住这一点：一个孤立的模型对你没有多大好处，必须跟那个真实世界有连接。"
+}

@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[MCP]] · [[Notion]] · [[设计系统]] · [[GitHub]] · [[Anthropic]] · [[Cursor]] · [[Aakash]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":165,"Lenny":66,"MCP":20,"Notion":9,"设计系统":5,"GitHub":19,"Anthropic":84,"Cursor":40,"Aakash":3,"Claude Code":42}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"MCP":20,"Notion":10,"设计系统":5,"GitHub":19,"Anthropic":84,"Cursor":40,"Aakash":3,"Claude Code":44}</script>
 
 <script>
 (function(){

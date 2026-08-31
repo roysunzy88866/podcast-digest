@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>42</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>44</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,6 +24,7 @@ unlisted: true
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(00:00起):Anthropic 推出的终端工具，Dan 一年前曾预测人们严重低估了它在非工程工作（如整理文件、修 bug）上的潜力；它让本地电脑上的智能体拥有了访问一切的超级权限。
 - **[[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]]**(04:32起):本集将其作为 harness 的具体例子，嘉宾说自己喜欢使用 Claude code，并用它处理了为 WAV 文件添加淡出效果的任务
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(08:38起):本集把软件开发者使用它的颠覆感比作 1970 年代会计师第一次看到电子表格，并说它的全部卖点就像给你 150 名专家工程师。
+- **[[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index|《Stanford AI Index 报告十大要点速览》]]**(14:17起):本集中 Daniel 用它通过 Claude code skill 连接 ClickUp 获得工单上下文，Chris 用它学 Rust 时让模型解释代码选择和原理，当作学习伙伴
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(01:07起):本集核心产品，Fiona 领导的团队构建的编程辅助智能体；本集指出它让编码不再是瓶颈，并将其用于团队复盘和自动化质量验证。
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(49:07起):本集提到的一款强大的命令行 AI 编程助手，嘉宾用它在机场写出了产品原型，并用它来跑从写评估测试到生成代码和提交拉取请求的完整开发流程。
 - **[[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]]**(22:05起):本集将其作为编码智能体的可选'大脑'之一提及，TESL 的审查框架不绑定任何单一编码智能体
@@ -51,6 +52,7 @@ unlisted: true
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:09起):本集说 Claude Code 于 2025 年 5 月强势推出，是 Cursor 面对的竞争轮换角色之一，但 Michael 对此表示'不吓倒我们'
 - **[[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]]**(05:46起):本集将其作为同步智能体的参照例子，说它是运行在桌面上的编码智能体，可以实时协作、获得即时反馈
 - **[[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]]**(39:14起):本集仅作为对比一笔带过，说 Twitter 上从 Claude Code 到 Codex 发生了氛围转变，未展开讨论
+- **[[2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude Co-work造出的自我进化工作系统》]]**(33:34起):本集说团队讨论过用 Claude Code 而非 co-work 来做 Workstation，但几位 PM 试用时光装依赖就花了三天，体验太差而放弃
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:55起):本集讨论的 Anthropic 推出的同类命令行编码智能体。嘉宾持反向观点，认为全世界都在用但他“不觉得可以用 Claude Code 构建任何东西”，并提及初版 OpenClaw 曾在连接 WhatsApp 和 Claude Code 的依赖间加了点“胶水”。
 
 ## ① 提到它的金句
@@ -69,7 +71,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*42 集*
+*44 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -84,6 +86,7 @@ unlisted: true
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念
+- [[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index|《Stanford AI Index 报告十大要点速览》]] — 作为概念(提及)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为概念
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]] — 作为被讨论公司(提及)
@@ -112,15 +115,16 @@ unlisted: true
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
 - [[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]] — 作为被讨论公司(提及)
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]] — 作为概念(提及)
+- [[2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude Co-work造出的自我进化工作系统》]] — 作为被讨论公司(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[OpenAI]] · [[Cursor]] · [[Claude]] · [[评估]] · [[沙箱]] · [[Meta]]
+[[智能体]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[OpenAI]] · [[Cursor]] · [[Claude]] · [[评估]] · [[沙箱]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":165,"Anthropic":84,"Codex":31,"Lenny":66,"OpenAI":73,"Cursor":40,"Claude":39,"评估":17,"沙箱":33,"Meta":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":84,"Codex":31,"Lenny":66,"OpenAI":73,"Cursor":40,"Claude":40,"评估":17,"沙箱":33,"Slack":22}</script>
 
 <script>
 (function(){

@@ -54,7 +54,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":13,"智能体":165,"Patrick Collison":2,"公开构建":1,"Stripe":23,"vibe coding":25,"Magic School":1,"真实性":2,"OpenAI":73,"Anthropic":84}</script>
+<script type="application/json" class="pd-epn">{"Replit":13,"智能体":1,"Patrick Collison":2,"公开构建":1,"Stripe":23,"vibe coding":25,"Magic School":1,"真实性":2,"OpenAI":73,"Anthropic":84}</script>
 
 <script>
 (function(){

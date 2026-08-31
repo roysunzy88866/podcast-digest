@@ -1,0 +1,112 @@
+{
+  "title_zh": "一个PM用Claude Co-work造出的自我进化工作系统",
+  "tldr": "Melio的产品经理Daniel Bloom展示了他在Claude Co-work上搭建的AI工作系统——能自动管理任务、主动学习公司内部术语，还会自我改进。",
+  "digest_md": "Daniel Bloom 是一家叫 Melio 的公司的产品经理，他在 Claude Co-work（一种可以连接你各种工具、自动执行任务的 AI 助手）上搭了一套系统，现在他电脑前 70% 到 80% 的时间都通过这套系统来管理 [19:31 Unknown]。他说自己现在一天能干完以前一周的活 [22:57 Unknown]——不是靠加速，而是靠 AI 帮他把所有协调、追踪、整理的杂活全接了，让他能做更深层的工作 [23:23 Unknown]。\n\n## 系统的两个核心能力\n\nDaniel 认为让这套系统真正管用的不是 Co-work 本身，而是两个条件：第一，系统能重写自己的核心文件，意味着它可以不断自我改进；第二，它跟你生态里尽可能多的工具有连接和集成 [05:59 Unknown]。满足这两条，才有真正的质变。\n\n## 周准备：从混乱到清晰的周计划\n\n整个系统从一个叫\"每周准备\"的周期性任务开始。周日早上自动运行，做三件事：梳理他的\"首要关注\"（脑子里一直想着的大项目）、排出\"本周优先级\"、清空\"收件箱\"——来自 Slack、邮件、日历里冒出来的杂事，全部由 Co-work 自动抓取并填进 Notion [10:06 Unknown]。\n\n最后它还会过一遍这周的会议，逐个问他：这个需要认真准备吗（如果需要，就自动变成本周的一个优先任务）、还是快速提醒就行、或者根本不用准备 [11:17 Unknown]。他确认完，一周的框架就立住了，全部自动推送到 Notion。\n\nNotion 对他来说几乎是只读的——他只看它来获取焦点和优先级，偶尔手动勾掉已完成的事项，其他全交给 Co-work 操作 [18:58 Unknown]。\n\n## 早间简报：最亮的一招——主动问你\"这是什么\"\n\n每天早上跑的\"早间简报\"里，Daniel 认为最厉害的不是过会议和行动项，而是一个上下文自学习机制 [13:15 Unknown]。\n\n具体做法：Co-work 会扫他最近的 Slack 消息、邮件、会议笔记，然后去找它\"看不懂的东西\"——比如出现了一个它上下文里没有的术语、文件名、里程碑。然后它会主动问：这是什么？重要吗？我要不要读一下？他确认后，Co-work 就把这个知识存进上下文文件 [17:08 Unknown]。\n\n现场演示时它就拦住了一个叫\"结算上限\"的支付术语，问 Daniel 要不要存下来 [17:30 Unknown]。这个设计的价值在于：公司内部的大量定义、术语、目标根本不在模型的训练数据里，如果不主动让模型去发现并学习这些\"盲区\"，它的理解力永远上不去 [18:05 Unknown]。\n\n## 上下文是怎么建起来的\n\n这套系统不是开箱即用的。Daniel 花了大量时间手动做初始的上下文注入：围绕他工作的每个主题和领域都建了上下文文件，包括目标、同事关系等等 [09:05 Unknown]。方式包括喂链接、喂文档，以及用语音口述（他提到用 Whisper）不停地\"胡扯\"自己知道的一切 [09:27 Unknown]。\n\n之后系统会自动维护：每隔几周跑一次更新，根据这段时间发生的变化来刷新知识文件 [09:41 Unknown]。\n\n它还学会了 Daniel 的工作习惯。比如他知道 Daniel 是\"收件箱归零\"的人——如果 Slack 上存了一条消息后来消失了，系统就推断这事处理完了；Gmail 收件箱里没了的，就当他读过了 [12:48 Unknown]。这种对个人工作模式的理解让协作顺畅很多。\n\n## 自我改进循环：四个自动跑的模块\n\nDaniel 搭了一个每周自动运行的\"自我改进循环\"任务，包含四部分 [27:45 Unknown]：\n\n**第一，草稿差距分析。** 他用 Claude 写东西时，Claude 给出草稿，他改完直接发出去——但 Claude 不知道改了什么。这个模块会让 Claude 回去找它之前给的草稿，对比他实际发送的版本，从中学习他的写作偏好 [28:05 Unknown]。\n\n**第二，新技能发现。** Claude 持续观察他反复做的事情，自动建议\"这个可以变成一个技能\"。他很多技能就是这么来的 [28:50 Unknown]。比如它建议他建一个\"设计交接\"技能，把 Co-work 里的研究和设计跟原型构建串起来 [29:11 Unknown]。\n\n**第三，现有技能的摩擦收集。** 他所有技能和周期任务的文件里都内嵌了反馈收集逻辑。平时他跟 Claude 交互时说的\"这个不对\"\"这里有问题\"，系统会自动记录。每周汇总 surfaced 出来，建议怎么改 [29:33 Unknown]。\n\n**第四，外部信息审计。** 他做了一个叫 Improve 的技能，专门用来处理社交媒体和博客上铺天盖地的\"AI 使用技巧\"。他把看到的内容丢进 Slack 频道让 Claude 审：这是真的吗？有用吗？跟我们现在的东西冲突吗？需要吗？然后两人一起决定要不要采纳 [30:35 Unknown]。他甚至拿主持人 Claire 的一期节目跑了一遍，Claude 给出了批评并指出了可以适配的部分 [31:03 Unknown]。\n\n## 扩展到团队：Workstation 插件\n\nDaniel 和同事把这套东西打包成了一个叫 Workstation 的共享插件，从 PM 扩展到了全公司 [33:34 Unknown]。\n\n关键决策：他们选择了 Co-work 而不是 Claude Code（更偏技术）。原因是他们让几位 PM 试用 Claude Code，光是装依赖就花了三天，体验太差 [34:18 Unknown]。\n\nWorkstation 的核心是一个内置在聊天流程里的引导式 UX：自动帮你连好所有工具、确认你的角色、映射你的同事和管理层、看你的日历和 Slack、帮你建立个人写作风格——从第一天起，AI 写出来的东西就像你本人写的，而不是一个陌生人的腔调 [34:36 Unknown]。整个过程大约 15 分钟 [36:06 Unknown]。\n\nDaniel 说这个\"把上手体验做成技能\"的思路，源于他之前的教训：他做了一个写产品规格的工具，自己用得很好，但分发给其他 PM 时发现完全不行——因为所有参数都是按他个人的工作方式调的 [37:00 Unknown]。从那以后他坚持：任何内部工具都必须有手把手引导的新手流程 [37:16 Unknown]。\n\n## 还缺什么\n\n他觉得差两块。一是真正的云端运行能力——现在 Claude 还得依赖他电脑开着、在线才能跑。他通过一个 Slack 频道做了变通，但不是真方案 [39:53 Unknown]。二是对简单任务的自主执行——他已经在教 Claude 识别\"闭环场景\"（比如 Slack 上有人问了问题、后来有了回复且消息被取消保存，就推断这事已解决），为将来让 AI 自己处理这类琐事打基础 [41:10 Unknown]。\n\n多出来的时间花在哪？三件事：跟客户和用户深聊、做研究、以及改进这套 AI 系统本身 [42:15 Unknown]。\n\n## 本集带走\n\n- **系统要能改自己的文件**：不能自我修改的系统，价值有天花板。让 AI 能重写自己的核心配置和知识文件，是持续进化的前提。\n- **让 AI 主动找它\"看不懂的东西\"**：不要只靠你手动喂知识。让它在日常扫你的消息和文档时，主动挑出它不认识的术语、文件、目标，问你\"这是什么、要不要存\"——这是填补训练数据盲区最高效的方式。\n- **在技能里内嵌反馈收集**：每个技能的指令文件里加一行\"记录用户反馈和摩擦点\"，不用你主动整理，每周自动汇总出改进建议。\n- **用 AI 审计 AI 建议**：面对铺天盖地的\"AI 技巧\"，建一个审计技能——丢进去让 AI 判断\"这是真有用还是炒作、跟现有系统冲突吗\"，避免被信息洪流淹没。\n- **内部工具必须有引导式 UX**：不要假设别人跟你的工作方式一样。把\"连接工具、确认角色、建立风格\"这些上手步骤做成自动化的聊天引导流程，15 分钟让任何人从同一条起跑线开始。\n- **挺过前几周的摩擦期**：一开始 AI 的输出都不对、你会反复检查、效率反而下降——但价值是复合增长的，咬牙把上下文建好、把工作流集中进来，后面会指数级回报 [22:28 Unknown]。",
+  "quotes": [
+    {
+      "en": "But the thing there is that Claude doesn't learn what the gap is between the draft that it wrote and what I actually sent.",
+      "zh": "但问题在于，Claude 并不知道它写的草稿和我实际发送的内容之间的差距是什么。",
+      "timestamp": "28:15",
+      "speaker": "Daniel Blum"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "22:28",
+      "speaker": "Unknown",
+      "en": "But the value tremendously compounds.",
+      "zh": "但其价值会极大地复合增长。"
+    },
+    {
+      "timestamp": "22:57",
+      "speaker": "Unknown",
+      "en": "First of all, I'm really able to do in a day now what used to take me a week and I stand behind that.",
+      "zh": "首先，我现在真的能在一天内完成以前需要我花一周做的事，我对此坚信不疑。"
+    },
+    {
+      "timestamp": "23:23",
+      "speaker": "Unknown",
+      "en": "But more than that, I'll say it's a lot of deeper work. There's things that I do today that I just wasn't able to do before, whether it's more in-depth research, whether it's better being more data-backed.",
+      "zh": "但不仅如此，我会说这涉及很多更深层次的工作。有些我今天做的事情以前我根本做不到，无论是更深入的研究，还是更好地做到有数据支持。"
+    },
+    {
+      "timestamp": "05:59",
+      "speaker": "Unknown",
+      "en": "I think the real importance is for a system to A, be able to rewrite its own core files, and that means that it keeps on improving, and B, just have connections and integrations to as much of your ecosystem.",
+      "zh": "我认为真正的重点是对于一个系统来说，A，能够重写它自己的核心文件，这意味着它不断改进，以及 B，只是拥有与你生态系统中尽可能多的连接和集成。"
+    },
+    {
+      "timestamp": "22:16",
+      "speaker": "Unknown",
+      "en": "It's going to be very frictionful and everything it does or says or thinks, it's going to be a little bit off and you're going to lose trust and you're going to be very skeptical and then you're going to double check everything.",
+      "zh": "这会是非常充满摩擦的，而且它所做的、所说的或所想的一切都会有点偏离，你会失去信任，你会非常怀疑，然后你会反复检查所有事情。"
+    },
+    {
+      "timestamp": "17:08",
+      "speaker": "Unknown",
+      "en": "So basically what it does is imagine in this daily brief, my coworker runs through my recent slacks, my emails, my granola notes. And it looks for context that it doesn't understand in these things.",
+      "zh": "所以基本上它的作用是想象在这个每日简报中，我的同事运行我的最近的 Slack、我的邮件、我的 granola 笔记。它在这些东西中寻找它不理解的上下文。"
+    },
+    {
+      "timestamp": "18:05",
+      "speaker": "Unknown",
+      "en": "And so many of us work inside companies where the things that we say are not in the training data. Actually proactively prompting Claude to say, like, I don't understand what you're talking about here. Can we define it together?",
+      "zh": "我们很多人在公司里工作，我们说的话并不在训练数据中。实际上主动提示 Claude 说，比如，我不明白你在这里说什么。我们可以一起定义它吗？"
+    },
+    {
+      "timestamp": "12:48",
+      "speaker": "Unknown",
+      "en": "So for example, I'm inbox zero, both on Slack and on email. So it knows that if something was saved on Slack and is no longer, it means it's likely done.",
+      "zh": "所以举个例子，我是收件箱归零，无论是 Slack 上还是邮件上。所以它知道，如果某样东西保存在 Slack 上并且不再存在，这意味着它可能已经完成了。"
+    },
+    {
+      "timestamp": "28:15",
+      "speaker": "Unknown",
+      "en": "But the thing there is that Claude doesn't learn what the gap is between the draft that it wrote and what I actually sent.",
+      "zh": "但问题在于，Claude 并不知道它写的草稿和我实际发送的内容之间的差距是什么。"
+    },
+    {
+      "timestamp": "28:50",
+      "speaker": "Unknown",
+      "en": "So basically Claude on an ongoing basis looks for things that I do on a recurring basis and suggests turning them into skills.",
+      "zh": "所以基本上 Claude 持续地寻找我周期性做的事情，并建议将它们转化为技能。"
+    },
+    {
+      "timestamp": "30:35",
+      "speaker": "Unknown",
+      "en": "So I've built a skill called Improve, which is basically like a very critical auditor for these. And I share them usually through my phone, through a Slack channel with Claude. And I ask them like, is this real? Is this powerful? How does this adapt to what we have now? Is this needed?",
+      "zh": "所以我构建了一个名为 Improve 的技能，它基本上就像一个非常严格的审计员来审计这些内容。我通常通过我的手机，通过一个 Slack 频道与 Claude 分享它们。我问它们，这是真的吗？这强大吗？这如何适应我们现在拥有的东西？这需要吗？"
+    },
+    {
+      "timestamp": "34:18",
+      "speaker": "Unknown",
+      "en": "And after having a few PMs try to do it with Claude Code through the terminal and taking three days to install everything and run all the dependencies, we understood that we need to do something that's simple.",
+      "zh": "在让几位产品经理尝试通过终端用 Claude Code 来做这件事，花了三天时间安装所有东西并运行所有依赖之后，我们明白了我们需要做一些简单的事情。"
+    },
+    {
+      "timestamp": "37:00",
+      "speaker": "Unknown",
+      "en": "I thought it was already this complete, fully baked tool, and I saw them using it and struggling because it was completely adjusted to how I work.",
+      "zh": "我以为它已经是一个完整的、完全成熟的工具，但我看到他们使用它并很挣扎，因为它完全是针对我的工作方式调整的。"
+    },
+    {
+      "timestamp": "39:53",
+      "speaker": "Unknown",
+      "en": "I think the missing piece, and my personal sense is that it's very close, is A, the ability to operate in the cloud, essentially, in a way that's unrelated to when my computer is open and running.",
+      "zh": "我认为缺失的部分，我个人的感觉是这已经很近了，是 A，在云端操作的能力，本质上，以一种与我的电脑打开和运行无关的方式。"
+    },
+    {
+      "timestamp": "41:10",
+      "speaker": "Unknown",
+      "en": "I've been having Claude not only capture my tasks and when they're done, but basically it looks at my tasks. It assigns like what it looks, what it would imagine is a closed scenario.",
+      "zh": "我一直让 Claude 不仅捕获我的任务以及它们何时完成，而且基本上它会查看我的任务。它分配，看起来，它会想象的是一个封闭场景。"
+    },
+    {
+      "timestamp": "24:24",
+      "speaker": "Unknown",
+      "en": "And yes, of course, the old way will be faster because it's muscle memory. But if you get to the next level, not only will you have a system that works better for you, but everybody will have more skills.",
+      "zh": "是的，当然，旧的方式会更快，因为那是肌肉记忆。但如果你达到了下一个层次，你不仅会有一个对你来说运作得更好的系统，而且每个人都会有更多的技能。"
+    }
+  ],
+  "voice_script": "有个产品经理，现在一天能干完以前一周的活。不是靠熬夜，也不是按快进键，而是靠自己在 Claude Co-work 上搭了一套AI工作系统，把协调、追踪、整理这些杂活全接走了。这一期，我们就来拆解 Daniel Bloom 这套系统的底层逻辑，看看它是怎么做到还能自我进化的。\n\nDaniel 是一家叫 Melio 的公司的产品经理。在他电脑前，百分之七十到八十的时间都由这套系统接管。很多人以为神奇的是 Claude Co-work 这个工具本身，但Daniel点破了一个关键：真正让系统发生质变的，是两个条件。第一，系统能重写自己的核心文件，说白了就是能自我改进；第二，跟你生态里尽可能多的工具连上。满足这两条，才会有质的飞跃。\n\n这套系统是怎么跑起来的？先看一个很实用的场景。每周日早上，系统会自动跑一个“每周准备”任务。做三件事：梳理脑子里一直惦记的大项目，排出这周的优先级，然后把 Slack、邮件、日历里的杂事全抓出来，填进 Notion。最后还会过一遍这周的会议，逐个问：这个要认真准备吗？还是快速提醒就行？或者干脆不用管？确认完，一周的框架就立住了。对他来说，Notion 几乎是只读的，只看焦点和优先级，偶尔手动勾掉已完成的事项，剩下的全交给系统操作。\n\n但整套系统里最亮的一招，不是这些日程管理，而是一个“早间简报”里的自学习机制。每天早上，系统会扫他最近的 Slack 消息、邮件和会议笔记，然后专门去找它“看不懂的东西”。比如冒出一个上下文里没有的术语、文件名、里程碑，它就会主动停下来问：这是什么？重要吗？我要不要读一下？现场演示的时候，系统就拦住了一个叫“结算上限”的支付术语，跑来问要不要存下来。这个设计太聪明了。公司内部的大量定义、目标，根本不在模型的训练数据里。如果不主动让模型去发现并学习这些盲区，理解力永远上不去。\n\n当然，这套系统不是开箱即用的。前期Daniel花了大量时间手动做初始的上下文注入。围绕工作的每个主题建文件，包括目标、同事关系，方式包括喂链接、喂文档，甚至用语音口述不停地“胡扯”自己知道的一切。建好之后，系统就会自动维护，每隔几周刷新一次知识文件。它甚至学会了工作习惯，比如知道他是“收件箱归零”的人，如果 Slack 上一条消息后来消失了，系统就推断这事处理完了。\n\n那前面说的“自我改进”到底怎么实现？每周会自动跑一个循环，里面有四个模块，每一个都很值得记。\n\n第一，草稿差距分析。平时用 Claude 写东西，改完直接发出去，但 Claude 并不知道它写的草稿和实际发送的内容之间的差距是什么。这个模块就是让 Claude 回去找原稿，对比改了什么，从中学习写作偏好。\n\n第二，新技能发现。系统会持续观察反复在做的事，自动建议“这个可以变成一个技能”。比如它建议建一个“设计交接”技能，把研究和设计跟原型构建串起来。\n\n第三，摩擦收集。所有技能的文件里都内嵌了反馈收集逻辑。平时交互时说的“这个不对”“这里有问题”，系统会自动记下来，每周汇总出改进建议。\n\n第四，外部信息审计。面对铺天盖地的“AI使用技巧”，专门做了一个审计技能。把看到的内容丢进 Slack 频道，让AI自己判断：这是真的吗？有用吗？跟现有的东西冲突吗？甚至拿主持人 Claire 的一期节目跑了一遍，Claude 直接给出了批评并指出了可以适配的部分。\n\n后来，这套东西被打包成了一个叫 Workstation 的共享插件，从产品经理扩展到了全公司。这里有个关键决策：选了 Co-work 而不是更偏技术的 Claude Code。原因很现实，让几位PM试用 Claude Code，光是装依赖就花了三天，体验太差。\n\nWorkstation 的核心，是把上手体验做成了一套引导式流程。自动帮你连好工具、确认角色、映射同事和管理层、看日历和 Slack、建立个人写作风格。从第一天起，AI 写出来的东西就像你本人写的，而不是一个陌生人的腔调。整个过程只要十五分钟。这个思路其实来自一个教训：之前做了一个写产品规格的工具，自己用得很好，但分发给其他PM时发现完全不行，因为所有参数都是按个人的工作方式调的。从那以后就坚持：任何内部工具，都必须有手把手引导的新手流程。\n\n现在这套系统还差两块。一是真正的云端运行能力，现在还得依赖电脑开着、在线才能跑；二是对简单任务的自主执行，已经在教 Claude 识别“闭环场景”，为将来让AI自己处理琐事打基础。\n\n那多出来的时间花在哪？三件事：跟客户和用户深聊、做研究、以及改进这套AI系统本身。\n\n最后送你一句话：一开始AI的输出都不对，你会反复检查，效率反而下降。但价值是复合增长的，咬牙把上下文建好、把工作流集中进来，后面会有指数级的回报。"
+}

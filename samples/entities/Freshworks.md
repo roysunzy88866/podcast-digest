@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aakash]] · [[Srini Raghavan]] · [[Cursor]] · [[Figma]] · [[Databricks]] · [[智能体]] · [[MCP]] · [[PRD Genie]] · [[AI PDLC]] · [[Figma Make]]
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"Srini Raghavan":1,"Cursor":40,"Figma":11,"Databricks":9,"智能体":165,"MCP":20,"PRD Genie":1,"AI PDLC":1,"Figma Make":2}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"Srini Raghavan":1,"Cursor":40,"Figma":11,"Databricks":9,"智能体":1,"MCP":20,"PRD Genie":1,"AI PDLC":1,"Figma Make":2}</script>
 
 <script>
 (function(){

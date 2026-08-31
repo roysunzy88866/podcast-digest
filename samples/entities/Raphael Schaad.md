@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":14,"智能体":165,"Codex":31,"Claude Code":42,"MCP":20,"提示注入":1,"CLI":2,"护城河":7,"ChatGPT":41}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":14,"智能体":1,"Codex":31,"Claude Code":44,"MCP":20,"提示注入":1,"CLI":2,"护城河":7,"ChatGPT":41}</script>
 
 <script>
 (function(){

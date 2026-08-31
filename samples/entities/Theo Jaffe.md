@@ -25,7 +25,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Sofia Puccini]] · [[开源]] · [[Hugging Face]] · [[蒸馏]] · [[NVIDIA]] · [[智能体]] · [[Mistral]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":84,"OpenAI":73,"Sofia Puccini":3,"开源":9,"Hugging Face":13,"蒸馏":7,"NVIDIA":24,"智能体":165,"Mistral":5,"SpaceX":11}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":84,"OpenAI":73,"Sofia Puccini":3,"开源":9,"Hugging Face":13,"蒸馏":7,"NVIDIA":24,"智能体":1,"Mistral":5,"SpaceX":11}</script>
 
 <script>
 (function(){

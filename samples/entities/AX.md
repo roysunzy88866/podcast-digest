@@ -25,7 +25,7 @@ unlisted: true
 
 [[Swyx]] · [[Akshat Bubna]] · [[Vibhu]] · [[Modal]] · [[智能体]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]] · [[投机解码]]
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Akshat Bubna":1,"Vibhu":1,"Modal":3,"智能体":165,"DX":3,"沙箱":33,"推理":3,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Akshat Bubna":1,"Vibhu":1,"Modal":3,"智能体":1,"DX":3,"沙箱":33,"推理":3,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

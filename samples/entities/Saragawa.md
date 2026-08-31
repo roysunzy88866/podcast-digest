@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":21,"Azure":3,"GitHub":19,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":17,"轨迹":1,"智能体":165}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":21,"Azure":3,"GitHub":19,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":17,"轨迹":1,"智能体":1}</script>
 
 <script>
 (function(){

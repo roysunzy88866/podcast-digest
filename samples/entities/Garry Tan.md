@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":165,"技能文件":2,"RAG":6,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":31,"YC":8,"上下文工程":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"技能文件":2,"RAG":6,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":31,"YC":8,"上下文工程":7}</script>
 
 <script>
 (function(){

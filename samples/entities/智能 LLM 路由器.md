@@ -57,7 +57,7 @@ unlisted: true
 
 [[Shensi Ding]] · [[Merge]] · [[智能体]] · [[MCP]] · [[沙箱]] · [[连接器]] · [[可观测性]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"Shensi Ding":1,"Merge":2,"智能体":165,"MCP":20,"沙箱":33,"连接器":2,"可观测性":15,"后训练":17}</script>
+<script type="application/json" class="pd-epn">{"Shensi Ding":1,"Merge":2,"智能体":1,"MCP":20,"沙箱":33,"连接器":2,"可观测性":15,"后训练":17}</script>
 
 <script>
 (function(){

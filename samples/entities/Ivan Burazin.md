@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":12,"Neon":2,"Parallel":4,"智能体":165,"沙箱":33,"突发负载":1,"裸金属":1,"计算机使用":5,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":12,"Neon":2,"Parallel":4,"智能体":1,"沙箱":33,"突发负载":1,"裸金属":1,"计算机使用":5,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){

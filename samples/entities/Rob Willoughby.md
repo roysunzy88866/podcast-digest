@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":6,"暗工厂":2,"TESL":3,"智能体":165,"验证器":1,"编排器":2,"沙箱":33,"软件工厂":3,"形式化验证":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":6,"暗工厂":2,"TESL":3,"智能体":1,"验证器":1,"编排器":2,"沙箱":33,"软件工厂":3,"形式化验证":2}</script>
 
 <script>
 (function(){

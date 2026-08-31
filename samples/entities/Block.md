@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Square]] · [[Lenny]] · [[Willem Avé]] · [[Dhanji Prasanna]] · [[业务单元模式]] · [[Goose]] · [[职能制]] · [[MCP]] · [[DRI]]
 
-<script type="application/json" class="pd-epn">{"智能体":165,"Square":3,"Lenny":66,"Willem Avé":1,"Dhanji Prasanna":1,"业务单元模式":1,"Goose":1,"职能制":1,"MCP":20,"DRI":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Square":3,"Lenny":66,"Willem Avé":1,"Dhanji Prasanna":1,"业务单元模式":1,"Goose":1,"职能制":1,"MCP":20,"DRI":4}</script>
 
 <script>
 (function(){

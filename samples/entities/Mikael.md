@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]] [[Anish Acharya]] [[Jen Ka]]
+[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":14,"Hermes":1,"智能体":165,"知识图谱":2,"向量数据库":1,"混合搜索":1,"自动技能生成":1,"指令库":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":14,"Hermes":1,"智能体":1,"知识图谱":2,"向量数据库":1,"混合搜索":1,"自动技能生成":1,"指令库":1}</script>
 
 <script>
 (function(){

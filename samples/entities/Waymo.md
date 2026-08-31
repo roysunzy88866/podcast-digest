@@ -50,7 +50,7 @@ unlisted: true
 
 [[ChatGPT]] · [[智能体]] · [[物理 AI]] · [[Lenny]] · [[Tesla]] · [[强化学习]] · [[World Labs]] · [[Anthropic]] · [[OpenAI]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":41,"智能体":165,"物理 AI":5,"Lenny":66,"Tesla":6,"强化学习":13,"World Labs":2,"Anthropic":84,"OpenAI":73,"推理":3}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":41,"智能体":1,"物理 AI":5,"Lenny":66,"Tesla":6,"强化学习":13,"World Labs":2,"Anthropic":84,"OpenAI":73,"推理":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,898 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.77,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎来到 Practical AI 播客，在这里我们解析人工智能的现实应用以及它如何塑造我们的生活方式、工作和创造。我们的目标是帮助每个人都让 AI 技术变得实用、高效且触手可及。无论你是开发者、商业领袖，还是仅仅对炒作背后的技术感到好奇，你都来对地方了。请务必在 LinkedIn、X 或 Blue Sky 上关注我们，以获取剧集发布、幕后内容和 AI 见解的最新动态。你可以在 practicalai.fm 了解更多信息。"
+ },
+ {
+  "seg": 1,
+  "start": 35.77,
+  "end": 37.449997,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在进入节目。"
+ },
+ {
+  "seg": 2,
+  "start": 41.53,
+  "end": 77.884995,
+  "speaker": "Daniel Whitenack",
+  "en": "Well, welcome to another episode of the Practical AI Podcast. Today, it's just Chris and I, my my cohost and I, in what we call a fully connected episode where we try to keep you updated with some of the things that are happening in the AI news and maybe, share some practical practical information that'll help you level up your AI and machine learning game. I'm Daniel Whitenack. I'm CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer. How you doing, Chris?",
+  "zh": "好的，欢迎来到 Practical AI 播客的另一集。今天，只有我和 Chris，也就是我和我的联合主持人，在我们称之为“完全互联”的剧集中，我们尝试让你了解 AI 新闻中正在发生的一些事情，也许，分享一些实用的实用信息，帮助你在 AI 和机器学习游戏中升级。我是 Daniel Whitenack。我是 Prediction Guard 的 CEO，我和我的联合主持人 Chris Benson 一起，他是一名首席 AI 和自主性研究工程师。你好吗，Chris？"
+ },
+ {
+  "seg": 3,
+  "start": 77.884995,
+  "end": 89.75,
+  "speaker": "Chris Benson",
+  "en": "I'm doing good. I'm excited. This is we we're doing the episode we're doing today, we've done a number of times over the years. Stanford AI Index Report, we get to go through it. It's always fun.",
+  "zh": "我挺好的。我很兴奋。这是我们多年来做过很多次的今天的这一集。Stanford AI Index Report，我们要过一遍它。总是很有趣。"
+ },
+ {
+  "seg": 4,
+  "start": 90.87,
+  "end": 100.235,
+  "speaker": "Chris Benson",
+  "en": "And kind of kind of level set kinda how things are changing, and gosh, I mean, things are changing so fast right now. Whew.",
+  "zh": "有点儿有点儿设定基准，看看事情是如何变化的，天哪，我是说，事情现在变化得太快了。呼。"
+ },
+ {
+  "seg": 5,
+  "start": 100.795,
+  "end": 135.795,
+  "speaker": "Daniel Whitenack",
+  "en": "And for context, so some of you may or may not have have listened to our previous episodes where Stanford Stanford's Human Centered Artificial Intelligence center institute. I forget, the exact of what they call themselves. But the human centered artificial intelligence effort there at Stanford, they published this AI Index report, and they've been doing it for a number of years. We've talked about it before. If you're interested, we're we're not gonna go into, like, how it was created.",
+  "zh": "关于背景，你们中有些人可能听过也可能没听过我们之前的剧集，其中提到 Stanford 的以人为中心的人工智能中心研究所。我忘了他们对自己的确切称呼。但是在 Stanford 那里的以人为中心的人工智能工作，他们发布了这份 AI Index 报告，并且他们已经做了很多年。我们以前谈到过它。如果你感兴趣，我们我们不会深入，比如，它是如何创建的。"
+ },
+ {
+  "seg": 6,
+  "start": 135.795,
+  "end": 161.685,
+  "speaker": "Daniel Whitenack",
+  "en": "It's very rigorous. It's very data driven. You can go back and listen to episode two seventy six. We had some representatives on from Stanford that actually shared, you know, what it is, how it's created, and I'm sure that's updated somewhat over time, but that would be a great context for today. But there's a lot of takeaways here, Chris, and I think, you know, maybe we'll get through all of them.",
+  "zh": "这非常严谨。这是非常数据驱动的。你可以回去听第 276 集。我们请来了 Stanford 的一些代表，实际上分享了，你知道，它是什么，它是如何创建的，我确信这随着时间的推移有所更新，但这将是今天的一个很好的背景。但是这里有很多要点，Chris，我认为，你知道，也许我们会过完所有这些。"
+ },
+ {
+  "seg": 7,
+  "start": 161.685,
+  "end": 173.16,
+  "speaker": "Daniel Whitenack",
+  "en": "We can try rapid rapid fire here to talk through some of these and share them with the audience and see see maybe our reaction to some of these. Some of them were a surprise to me, to be honest, Chris.",
+  "zh": "我们可以试着在这里快速快速地过一遍其中的一些，并与观众分享，看看看看我们对其中一些的反应。老实说，其中一些对我来说是个惊喜，Chris。"
+ },
+ {
+  "seg": 8,
+  "start": 173.16,
+  "end": 219.945,
+  "speaker": "Chris Benson",
+  "en": "Yeah, there always are, because I mean, you kind of, it kind of brings you back after, you know, with the rigorous approach they have. We all have these perceptions. We're all watching the news and all the AI hot things that are out there, and there's times where it kinda level sets you a little bit, and then other times it kind of goes and I mean, just kicking us off on number one on their top takeaways list right off the bat. We kind of This is one of those places where we were going one way, and then it didn't take the report. We kind of realized that things were changing back, but for a while we were pretty convinced open source models were gonna completely catch up with plateau models because that's the trend that we were seeing for such a long time.",
+  "zh": "是的，总是有的，因为我是说，你有点儿，它让你有点儿回归现实，你知道，考虑到他们严谨的方法。我们都有这些看法。我们都在看新闻和所有存在的 AI 热门东西，有时候它会有点儿为你设定基准，然后其他时候它会...我是说，直接从他们的首要要点列表中的第一条开始。我们就是我们处于一个方向，然后报告没有...。我们有点儿意识到事情正在变回去，但有一段时间我们相当确信开源模型将完全赶上高原模型，因为这是我们很长一段时间看到的趋势。"
+ },
+ {
+  "seg": 9,
+  "start": 220.185,
+  "end": 240.86499,
+  "speaker": "Chris Benson",
+  "en": "We realized a little while back that that wasn't happening for a variety of reasons, which we've actually talked about on previous episodes, but the very first thing they mention is AI capability is not plateauing. It is accelerating and reaching more people than ever, and yeah, I think we're seeing that in 2026.",
+  "zh": "我们不久前意识到，出于各种原因这并没有发生，我们实际上在之前的剧集中讨论过，但他们提到的第一件事是 AI 能力并没有高原化。它正在加速并触达比以往任何时候更多的人，是的，我认为我们在 2026 年看到了这一点。"
+ },
+ {
+  "seg": 10,
+  "start": 240.86499,
+  "end": 300.405,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. So one one way one of the ways they express this is that over 90% of notable frontier models were produced in in 2025, and several of those now meet or exceed human baselines on a number of things, and they and they go into those things. Obviously, one of the things one of the hot takes that I'm always sharing, Chris, are these baseline or or these benchmarks, let's say, on PhD level science questions. They're very they're interesting, and I think they're some somehow representative of how we're advancing, but benchmarks in general are quite flawed. So even with that, you know, caveat in there, it does seem like there is advancement that's that's happening and, you know, a lot of that reaching or exceeding human level performance is is impressive and maybe scary for some people.",
+  "zh": "是的。所以他们表达这一点的方式之一是，超过 90% 的著名前沿模型是在 2025 年生产的，其中几个现在在许多方面达到或超过了人类基准，而且他们...他们深入探讨了那些事情。显然，我总是分享的热门观点之一，Chris，是这些基准或者，让我们说，在博士级别的科学问题上。它们非常...它们很有趣，我认为它们在某种程度上代表了我们的进步方式，但一般来说基准是有缺陷的。所以即使有那个，你知道，警告在那里，似乎确实有正在发生的进步，你知道，许多达到或超过人类水平的表现是...令人印象深刻的，也许对一些人来说很可怕。"
+ },
+ {
+  "seg": 11,
+  "start": 300.405,
+  "end": 301.52502,
+  "speaker": "Daniel Whitenack",
+  "en": "I'm I'm not sure. But",
+  "zh": "我不确定。但是"
+ },
+ {
+  "seg": 12,
+  "start": 301.765,
+  "end": 332.845,
+  "speaker": "Chris Benson",
+  "en": "Yeah. I mean, we're we've gotten these frontier models, you know, in recent months that are are just so capable, especially when combined with these new agentic systems that everyone's been obviously huge topic this year, and able to productively do a lot of stuff, which creating a lot of upheaval in the job markets and how different companies are perceiving that. Yeah. But, yeah, I mean, it's it's a new it's very different from a year ago today, I would say. Yeah.",
+  "zh": "是的。我是说，我们已经得到了这些前沿模型，你知道，在最近几个月，是...非常有能力的，特别是当与这些新的智能体系统结合时，这显然是今年的一个巨大话题，并且能够富有成效地做很多事情，这在就业市场和不同公司如何看待这一点方面创造了很多动荡。是的。但是，是的，我是说，这是一个新的...这与一年前的今天非常不同，我会说。是的。"
+ },
+ {
+  "seg": 13,
+  "start": 332.845,
+  "end": 334.125,
+  "speaker": "Chris Benson",
+  "en": "If you if you look back.",
+  "zh": "如果你回顾。"
+ },
+ {
+  "seg": 14,
+  "start": 334.525,
+  "end": 363.155,
+  "speaker": "Daniel Whitenack",
+  "en": "I I think, like, they talk about the majority, four out of five university students using Gen AI. And I was actually thinking Chris, as like a gauge on this. I was thinking back to my own PhD, which is about five years long. Like how long would that amount of work taken me with the tools that are available now? Both research wise, there was a coding element to it.",
+  "zh": "我认为，就像他们谈到大多数，五分之四的大学生使用生成式 AI。实际上我在想 Chris，就像一个衡量标准。我在回想我自己的博士生涯，大约是五年长。用现在可用的工具做那么多工作需要多长时间？无论是研究方面，都有一个编码元素。"
+ },
+ {
+  "seg": 15,
+  "start": 363.155,
+  "end": 389.565,
+  "speaker": "Daniel Whitenack",
+  "en": "There was a writing element to it, obviously. And I think like the amount of work I did was a lot, but I think with the tools now, it's got to at least cut that down by half. I would I would assume. And I don't know, like, obviously, universities are wrestling with this and how to deal with it. And, you know, maybe people are just getting more done in their PhDs now, which would be which would probably be good.",
+  "zh": "显然还有一个写作元素。我认为我做的工作量很大，但认为用现在的工具，这至少能将其削减一半。我会...我会假设。而且我不知道，显然，大学正在为此挣扎以及如何处理它。而且，你知道，也许人们现在只是在博士期间完成更多的工作，这可能是这可能是好事。"
+ },
+ {
+  "seg": 16,
+  "start": 389.565,
+  "end": 431.80002,
+  "speaker": "Chris Benson",
+  "en": "But And and and I know we're already blowing through. We had we only have we have We had a bunch of items to get through, probably not gonna get through them all, but I will note that I think that also translates into the workplace. I know in my own job, I am much more productive with the tooling cape you know, that we are all using here, and so the notion of what what not too far back, it would have been like a research project, and you would have been trying to think about all the things you gotta do for that, and now that's like, it's like, I'm gonna dive into it, and by the end of the week, I'm gonna have this thing done. That would have been a large body of work prior to that, and so, yeah. I mean, it's definitely changing jobs, which is another thing that I think we're gonna get to down the road.",
+  "zh": "而且而且而且我知道我们已经快速通过了。我们我们只有我们有我们要过一堆项目，可能不会过完所有，但我会指出，我认为这也转化到了工作场所。我知道在我自己的工作中，有了我们都在使用的工具能力，你知道，我的生产力要高得多，所以关于什么的概念...就在不久前，它本来会是一个研究项目，你会试图思考你必须做的所有事情，现在那是就像，我就像，我要潜入它，到本周末，我会把这件事做完。在那之前这会是一个庞大的工作主体，所以，是的。我是说，它确实在改变工作，这也是我认为我们稍后会谈到的一点。"
+ },
+ {
+  "seg": 17,
+  "start": 432.885,
+  "end": 449.86,
+  "speaker": "Chris Benson",
+  "en": "Number two is AI model performance between The United States and China has closed. It's effectively closed, and we're looking at two it no longer kind of a leader follower effect, but two co leaders in the world market.",
+  "zh": "第二点是 AI 模型性能之间的...美国和中国已经缩小。实际上已经缩小，我们正在看两个不再是领导者追随者效应，而是世界市场中的两个共同领导者。"
+ },
+ {
+  "seg": 18,
+  "start": 450.34,
+  "end": 472.875,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. And actually, this was one of the ones well, I don't know. Maybe there there's different elements of this, Chris. I would say just in my own practical experience on the, you know, people use and govern, you know, both closed and open models in in our platform now, so I get exposed to kind of both of those.",
+  "zh": "是的。是的。实际上，这是其中之一...嗯，我不知道。也许 Chris 这里有不同的元素。我想说就在我自己在人们使用和管理方面的实践经验，你知道，在我们的平台中既有闭源也有开源模型，所以我接触到了这两者。"
+ },
+ {
+  "seg": 19,
+  "start": 473.035,
+  "end": 489.63,
+  "speaker": "Daniel Whitenack",
+  "en": "I would say on the open model side, just practically, China seems to clearly have the lead. Now maybe that's that's different on the, I guess, on the closed model side. If so maybe there is a little bit of nuance there where,",
+  "zh": "我想说在开源模型方面，仅仅从实践角度看，中国似乎显然领先。现在也许那是...不同的，我想，在闭源模型方面。如果是这样也许那里有一点细微差别，"
+ },
+ {
+  "seg": 20,
+  "start": 491.01498,
+  "end": 491.495,
+  "speaker": "Chris Benson",
+  "en": "Fair.",
+  "zh": "公平。"
+ },
+ {
+  "seg": 21,
+  "start": 491.495,
+  "end": 504.23,
+  "speaker": "Daniel Whitenack",
+  "en": "Maybe in my mind, had this perception of of Chinese models being almost superior, but that doesn't really factor in the frontier model, closed model provider side of that.",
+  "zh": "也许在我看来，对中国模型几乎优越的看法，但这并没有真正考虑到前沿模型，闭源模型提供商的那一方面。"
+ },
+ {
+  "seg": 22,
+  "start": 504.23,
+  "end": 572.01,
+  "speaker": "Chris Benson",
+  "en": "I mean, that's true. We talked about that recently on an episode just a few weeks ago, and the notion of, in a lot of ways, The US has kind of walked away from open models to some degree, you know, Meta you know, with Meta walking away, they're they're now going entirely closed, and that was kinda leading The US contingent. It's not to say that there aren't smaller, but in that top tier, we've kinda walked away. Whereas China has largely embraced the open model approach, which I think the fallout from that in the West will be interesting in terms of how much, you know, there's a certain amount of geopolitical division across, you know, between the West and the East in terms of of how they adopt models and what models are okay to use in different contexts. And so as we see open models predominantly, in the large scale happening in the East, closed models only in the West, how that ends up shuffling things will be, an interesting thing to watch in the months and years ahead.",
+  "zh": "我的意思是，那是真的。我们在几周前的一集中谈到过，关于在很大程度上，美国在某种程度上已经放弃了开源模型的概念，你知道，Meta...你知道，随着 Meta 的退出，他们...现在完全闭源了，这本来是带领美国阵营的。并不是说没有更小的，但在那个顶层，我们...有点儿退出了。而中国很大程度上拥抱了开源模型方法，我认为这在西方的后续影响会很有趣，关于多少，你知道，在东西方之间有一定程度的地缘政治分裂，关于他们如何采用模型以及在不同背景下什么模型是可以使用的。所以当我们看到开源模型主要在东方大规模发生，闭源模型只在西方，这最终如何洗牌将是在未来几个月和几年里一件有趣的事情。"
+ },
+ {
+  "seg": 23,
+  "start": 572.01,
+  "end": 608.745,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I'm connecting a little bit more of that dynamic kind of US and abroad dynamic. Takeaway number three on the AI Index report was that The United States hosts the most AI data centers, but the majority of their chips are fab fabricated by a single Taiwanese foundry. So, it this one, actually, Chris so not the chip fabrication piece. I I knew that piece, but, you know, you always hear about China just spinning up data centers everywhere.",
+  "zh": "是的。我正在多连接一点那种动态...美国和国外的动态。AI Index 报告的第三点是...美国拥有最多的 AI 数据中心，但它们的大多数芯片是由单一的一家台湾代工厂晶圆制造的。所以，这实际上，Chris 所以不是芯片制造部分。我...我知道那部分，但是，你知道，你总是听说中国只是在各地建立数据中心。"
+ },
+ {
+  "seg": 24,
+  "start": 608.745,
+  "end": 645.52997,
+  "speaker": "Daniel Whitenack",
+  "en": "So it was interesting to me to hear that the The US still hosts the most AI data centers because obviously, you know, if you're putting in a data center in some town in The United States, you could get, the local city council against you and people are up in arms and there's more hoops to jump through. Whereas in China, you know, a lot of a lot of that can just happen. I And there's a huge amount of investment. So, yeah, this one was actually pretty interesting to me to hear that current state.",
+  "zh": "所以对我来说有趣的是听到...美国仍然拥有最多的 AI 数据中心，因为显然，你知道，如果你在美国的某个城镇建立一个数据中心，你可能会得到，当地市议会的反对，人们...在抗议，有更多的障碍要跨越。而在中国，你知道，很多...那只是可以发生。而且有巨大的投资。所以，是的，这实际上对我来说非常有趣，听到这种现状。"
+ },
+ {
+  "seg": 25,
+  "start": 645.52997,
+  "end": 664.895,
+  "speaker": "Chris Benson",
+  "en": "I'm it'll be interesting, like, when this same report comes out next year, you know, year by year to track that, and see if our if the if the The United States, kind of that 10 time number that's in here shrinks, maybe even shrinks very rapidly. And so we'll see. We'll see what happens on there.",
+  "zh": "我会很有趣，就像，当明年同样的报告出来时，你知道，逐年跟踪那个，看看我们的...如果...美国...这里的十倍数字是否缩小，甚至也许缩小得非常快。所以我们拭目以待。看看那里会发生什么。"
+ },
+ {
+  "seg": 26,
+  "start": 664.895,
+  "end": 687.86,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. For sure. So takeaway number four, we're gradually working our way through here, Chris. AI models can win a gold medal at the International Mathematical Olympiad but cannot reliably tell time, an example of what researchers call the, quote, jagged frontier of AI.",
+  "zh": "是的。是的。当然。所以要点第四，我们正在逐步完成这里，Chris。AI 模型可以在国际数学奥林匹克中获得金牌，但无法可靠地报时，这是研究人员称之为锯齿状前沿的 AI 的一个例子。"
+ },
+ {
+  "seg": 27,
+  "start": 688.315,
+  "end": 697.59503,
+  "speaker": "Daniel Whitenack",
+  "en": "Interesting. It it almost seems like I remember we had a a guest. I'm pretty sure I I don't know. I remember talking to them. I think they were on the show.",
+  "zh": "有趣。它几乎似乎就像我记得我们有一位客人。我很确定我...我不知道。我记得和他们谈过。我认为他们在节目上。"
+ },
+ {
+  "seg": 28,
+  "start": 697.59503,
+  "end": 705.05,
+  "speaker": "Daniel Whitenack",
+  "en": "Sometimes I forget what was on the show and what conversations I had in real life, Chris. I don't know how do that same. People. Yeah. We do.",
+  "zh": "有时我忘记节目上有什么以及我在现实生活中有什么对话，Chris。我不知道该怎么做。人。是的。我们做。"
+ },
+ {
+  "seg": 29,
+  "start": 705.05,
+  "end": 754.23505,
+  "speaker": "Daniel Whitenack",
+  "en": "But at some point, there was a conversation that happened with, someone from the Allen Institute, for AI, and a lot of what they were looking at for some time was around, like, common sense. So AI models can do a lot of really impressive things, but when it comes to common sense, it's like they fall fall over because there's no actual connection to the real world. Right? They're producing tokens or they're, you know, producing, know, tokens based on probabilities of what they've seen before. And so there's these many seemingly seeming coherence and impressive things that happen, and then all of a sudden, they can't do the most simple thing that involves some connection to the real world, like here, you know, telling time, for example.",
+  "zh": "但在某个时候，发生了一场与...来自 Allen AI 研究所的人的对话，他们"
+ },
+ {
+  "seg": 30,
+  "start": 754.23505,
+  "end": 806.935,
+  "speaker": "Chris Benson",
+  "en": "Yeah. The example they talk about is Gemini DeepThink getting the gold medal at the IMO, but only being able to read an analog clock 50.1 of the time in terms of accurately. And and and they offer some other stats along the way. And I think, you know, this goes back to another topic that we've talked about a number of times, and that is we're still talking about language, you know, being what these models are are trained on, and we've we've talked you know, it's becoming increasingly popular to talk about the notion of what a genuine what you know, it's there's several names it goes by, but a world model, you know, something that actually has context for all the things in life because, you know, you don't have that with with our existing frontier models that are, you know, based on on training on language. So there's a lot of research.",
+  "zh": "是的。他们谈论的例子是 Gemini DeepThink 在 IMO 上获得金牌，但只能在 50.1 的时间内准确地读取模拟时钟。而且而且而且他们一路上提供了一些其他统计数据。而且我想，你知道，这回到了我们谈论过很多次的另一个话题，那就是我们仍然在谈论语言，你知道，作为这些模型训练的基础，而且我们我们谈论过，你知道，谈论一个真正的——你知道，有几个名字，但是一个世界模型，你知道，实际上对生活中所有事情都有语境的东西，因为，你知道，你无法通过我们现有的基于语言训练的前沿模型获得那个。所以有很多研究。"
+ },
+ {
+  "seg": 31,
+  "start": 807.015,
+  "end": 845.74,
+  "speaker": "Chris Benson",
+  "en": "Know, you know, that's famously Jan Lecun, one of the the godfathers of AI, has talked about that many times over the last few years, the need to move past LLMs and have world models that actually have context. So and increasingly, especially, I know as I as my world over the last few years has gotten more and more focused on on edge cases and autonomy, the notion of world models and how they would impact our field has become increasingly important. So it'll it'll be interesting as well to see how how this measures up, you know, next year in the same report as we get to that point on, on those kinds of upgrades.",
+  "zh": "知道，你知道，那是著名的 Jan Lecun，AI 的教父之一，在过去几年里多次谈到过，需要超越 LLM 并拥有实际上有语境的世界模型。所以而且日益地，特别是，我知道因为我过去几年的世界越来越专注于边缘情况和自主性，世界模型的概念以及它们将如何影响我们的领域变得越来越重要。所以这这也将很有趣，看看这明年在同一份报告中如何衡量，当我们达到关于这类升级的那个点时。"
+ },
+ {
+  "seg": 32,
+  "start": 845.74,
+  "end": 856.915,
+  "speaker": "Daniel Whitenack",
+  "en": "Maybe a bit of an opinion here, Chris, is I, I almost think we're not being fair in some sense to the,",
+  "zh": "也许在这里发表一点意见，Chris，是我，我几乎认为我们在某种意义上对……"
+ },
+ {
+  "seg": 33,
+  "start": 857.235,
+  "end": 857.63495,
+  "speaker": "Chris Benson",
+  "en": "I don't",
+  "zh": "我不"
+ },
+ {
+  "seg": 34,
+  "start": 857.63495,
+  "end": 892.085,
+  "speaker": "Daniel Whitenack",
+  "en": "know if it's to the models or to the, the way people do AI because you, you know, like Claude, for example, like an anthropic model knows nothing about the tickets in my ClickUp platform. Right? And so you could call that model dumbaw. It doesn't know, like, blah blah blah. But I can perfectly well just connect Claude via Claude code skill to my ClickUp, and all of a sudden, now I have all that context about what I should be working on this sprint and all that context is there and it knows about my PRs and all of this stuff.",
+  "zh": "知道这究竟是对模型还是对人们做 AI 的方式，因为你知道，比如 Claude，例如，一个 anthropic 模型对我的 ClickUp 平台里的工单一无所知。对吧？所以你可以称那个模型为 dumbaw。它不知道，就像，等等等等。但我可以完美地通过 Claude code skill 将 Claude 连接到我的 ClickUp，突然间，现在我就有了关于我在这个冲刺中应该做什么的所有语境，所有那些语境都在那里，它知道我的 PR 以及所有这些东西。"
+ },
+ {
+  "seg": 35,
+  "start": 892.165,
+  "end": 929.31,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? So it's kind of like what we talked about with, when we were talking about Hermes agent where the no one would expect a a brain absent a body to be sort of take useful action in the world. And so that agent harness around which we surround the model is really part of that connection. So it could be that like there are these world models and such that are relevant and that seems like good research, but also like part of this is that these models need a body. They need a harness around them.",
+  "zh": "对吧？所以这有点像我们谈论过的，当我们谈论 Hermes 智能体时，没有人会期望一个没有身体的大脑在世界上采取有用的行动。所以我们围绕模型构建的智能体挽具实际上是那个连接的一部分。所以可能是这样的，这些世界模型之类是相关的，这似乎是很好的研究，但还有一部分是这些模型需要一个身体。它们周围需要一个挽具。"
+ },
+ {
+  "seg": 36,
+  "start": 929.31,
+  "end": 929.71,
+  "speaker": "Daniel Whitenack",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 37,
+  "start": 929.71,
+  "end": 976.17505,
+  "speaker": "Chris Benson",
+  "en": "We've and we've we've addressed that a whole bunch of times on the show and and the the you you can't a model a model in isolation doesn't do you a whole lot of good. You've gotta have that connection with the world, and I think as things evolve, we will I personally, my own personal belief is that world model development requires the same. You have to have feedback from the real world to be able to incorporate that into training to actually get you what you're looking for. And as inspiration for that, if we look at our own human brains, we're born, we're babies, we don't you know, we have these amazing baby brains, but they they haven't gotten a lot of experience against the real world. And it is all those feedback loops in those first two decades of life that kinda get us to, to functioning.",
+  "zh": "我们而且我们我们在节目中多次解决了这个问题，而且你不能，一个模型，一个孤立的模型对你没有多大好处。你必须与那个世界有连接，而且我认为随着事情的发展，我们将我个人，我个人的信念是世界模型的发展也需要同样的东西。你必须来自现实世界的反馈才能将其融入训练以真正得到你想要的东西。作为这方面的灵感，如果我们看看我们自己的大脑，我们出生，我们是婴儿，我们不知道，我们有这些惊人的婴儿大脑，但它们他们还没有获得很多与现实世界对抗的经验。正是生命中前二十年的所有那些反馈循环让我们得以，能够运作。"
+ },
+ {
+  "seg": 38,
+  "start": 976.17505,
+  "end": 983.775,
+  "speaker": "Chris Benson",
+  "en": "So, there'll be some sort of analog presumably to that notion, in the world model development world as we go forward. So",
+  "zh": "所以，当我们向前发展时，在世界模型开发世界中，大概会有某种类似那个概念的东西。所以"
+ },
+ {
+  "seg": 39,
+  "start": 984.03,
+  "end": 998.27,
+  "speaker": "Daniel Whitenack",
+  "en": "speaking of AI in the physical world, takeaway number five, robots still fail at most household tasks even as they excel in controlled environments. Do you have any any robots in your house, Chris?",
+  "zh": "说到现实世界中的 AI，第五点，机器人仍然在大多数家庭任务上失败，即使他们在受控环境中表现出色。你家里有任何机器人吗，Chris？"
+ },
+ {
+  "seg": 40,
+  "start": 998.295,
+  "end": 1050.35,
+  "speaker": "Chris Benson",
+  "en": "Well, only the ones that most people have. We have the vacuum going around and such, but, you know, I keep seeing you know, especially this is a much bigger thing in China than it is here with with robots in production in a lot of households. I saw something just a few days ago about a humanoid robot that, you know, is doing elderly care and washes the dishes and things like that, and that was exactly what I was wondering is like if you took that out of of their version of CES and and kind of explore it, I I wonder when you have an kind of a somewhat unique environment, you know, as different configurations of households and what duties, how well that really performs. And I honestly, I I don't know. I haven't had direct exposure to robots of that that nature.",
+  "zh": "嗯，只有大多数人都有的那些。我们有吸尘器到处跑之类的，但是，你知道，我一直看到你知道，特别是在中国这比这里更重要，在许多家庭中投入生产的机器人。就在几天前我看到了关于一个人形机器人的东西，你知道，在做老年护理并洗碗之类的事情，而这正是我想知道的，就像如果你把它从他们的 CES 版本中拿出来，然后稍微探索一下，我想知道当你拥有一个有点独特的环境时，你知道，作为不同的家庭配置和职责，它的表现到底有多好。而且老实说，我不知道。我没有直接接触过那种性质的机器人。"
+ },
+ {
+  "seg": 41,
+  "start": 1050.35,
+  "end": 1053.725,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. I Petal Petal Woman.",
+  "zh": "是的。是的。我 Petal Petal Woman。"
+ },
+ {
+  "seg": 42,
+  "start": 1053.885,
+  "end": 1054.6849,
+  "speaker": "Chris Benson",
+  "en": "I'm ready.",
+  "zh": "我准备好了。"
+ },
+ {
+  "seg": 43,
+  "start": 1054.6849,
+  "end": 1075,
+  "speaker": "Daniel Whitenack",
+  "en": "You're ready? I'm ready. I guess controlled environments here, they're referring to maybe manufacturing facilities or, they also mention kind of software based simulations. Right? And, and yeah, that that that will be an interesting one to follow for for sure.",
+  "zh": "你准备好了？我准备好了。我猜这里的受控环境，他们指的是也许制造设施，或者，他们也提到了基于软件的模拟。对吧？而且，而且是的，那那那将是一个有趣的后续肯定。"
+ },
+ {
+  "seg": 44,
+  "start": 1075,
+  "end": 1096.95,
+  "speaker": "Chris Benson",
+  "en": "I'm I'm just curious that when we when I get my first humanoid robot and we assign it the tasks around the house and I have five dogs running around the house, and the dog starts jumping up on it to play. And it may be the puppy at first, but then the the big dog that weighs, you know, 80 pounds jumps up on it. It will be interesting to see if it can survive the chaos of the Benson household.",
+  "zh": "我我只是好奇，当我们当我得到我的第一台人形机器人并给它分配家里的任务，而且我家有五只狗在屋里跑，狗开始跳到它身上玩。起初可能是小狗，但随后那条你知道重 80 磅的大狗跳到它身上。看着它是否能在家里的混乱中生存下来会很有趣。"
+ },
+ {
+  "seg": 45,
+  "start": 1096.95,
+  "end": 1122.045,
+  "speaker": "Daniel Whitenack",
+  "en": "Listen, one of the I forget the so we had a friend in the restaurant industry, and he gave my wife and I tickets to I forget the name of the show. It's like the Chicago restaurant convention or something. It's basically, you could go there. There's a bunch of vendors that sell products into restaurants. So everything from, like, utensils to appliances to software to whatever, you know.",
+  "zh": "听着，其中一个我忘了所以我们有个餐饮业的朋友，他给了我和我妻子票给一个我忘记名字的展览。就像芝加哥餐厅大会之类的。基本上，你可以去那里。有一堆向餐厅销售产品的供应商。所以从一切，像餐具到电器到软件到不管什么，你知道。"
+ },
+ {
+  "seg": 46,
+  "start": 1122.69,
+  "end": 1178.975,
+  "speaker": "Daniel Whitenack",
+  "en": "And, so big networks of restaurants go there and look at things and they had all the robots there in, you know, different sections that did different things. And I have to say, you know, not having exposure to that world a ton, but kind of expecting way more than I saw. I I guess I I was fairly disappointed. Like, most of the robots that did, like, cooking, for example, it seemed to just be, you know, like, you the the washer dryer that spends and, you know, it spends around it was basically like a drum like that that heated up and you'd it just sort of dropped ingredients in the drum and it spun around and kinda stir fried them or something like that. It's like, I I was I was disappointed that I didn't see any, like, humanoid robots, like, chopping up, you know, making sushi or or something.",
+  "zh": "所以，大型餐厅网络去那里看东西，他们在那里有所有的机器人，你知道，不同的部分做不同的事情。我不得不说，你知道，对那个领域没有太多接触，但期望看到比我看到的更多。我想我相当失望。就像，大多数做像烹饪的机器人，例如，似乎只是，你知道，像，你那个会花费的洗衣机烘干机，而且，你知道，它围绕花费，这基本上就像一个像那样加热的鼓，你只是把配料扔进鼓里，它旋转并翻炒它们或类似的东西。就像，我很失望我没看到任何，像，人形机器人，像，切碎，你知道，做寿司或或什么东西。"
+ },
+ {
+  "seg": 47,
+  "start": 1179.295,
+  "end": 1186.55,
+  "speaker": "Daniel Whitenack",
+  "en": "Very far from, yeah. The the heated washing machine was very far from what I expected to see.",
+  "zh": "非常遥远，是的。那个加热洗衣机离我期望看到的非常遥远。"
+ },
+ {
+  "seg": 48,
+  "start": 1186.55,
+  "end": 1208.46,
+  "speaker": "Chris Benson",
+  "en": "What you envisioned. I I think and and while we're obviously questioning, you know, how how real the performance capabilities are, I do, at least my personal belief is that I think you're gonna find, a a a certain leveling up in China above what we've done in The US and probably, a fairly substantial one at that. So Is that",
+  "zh": "你设想的。我认为，而且虽然我们显然在质疑，你知道，那些性能能力有多真实，我确实，至少我个人的信念是，我认为你会发现，在中国，我们正在做的之上有一个特定的提升，而且可能，是一个相当实质性的提升。那么那是"
+ },
+ {
+  "seg": 49,
+  "start": 1208.46,
+  "end": 1211.98,
+  "speaker": "Daniel Whitenack",
+  "en": "because of safety restrictions in The US, or is",
+  "zh": "因为美国的安全限制，还是"
+ },
+ {
+  "seg": 50,
+  "start": 1212.22,
+  "end": 1257.4851,
+  "speaker": "Chris Benson",
+  "en": "I'm I'm not actually sure. Okay. I I think I think that my sense is that robots have just been a higher priority for quite a long time, drones and robots, obviously, and, you know, we go back to the turn of the millennium, like looking way back, or we're looking at old school drones going up and selling you know, performances way back before we were really even thinking about such things at all here. I think that if you've been doing something for a long time and it's more of an evolutionary step each way, whereas for us, we are we are surging here in The US, but I think we're coming from behind on the experience side of that. So, it'll be interesting to see how that plays out over time.",
+  "zh": "我我实际上不确定。好的。我我认为我的感觉是，机器人在很长一段时间内一直是更高的优先级，无人机和机器人，显然的，而且，你知道，我们回到千禧年之交，就像回首过去，或者我们看着老派的无人机升空并在销售，你知道，表现早在我们甚至根本没有在这里考虑这些事情之前。我认为如果你长期做某事，而且每一步都是更多的进化步骤，而对于我们来说，我们我们在美国正在激增，但我想我们在经验方面正在从后面追赶。所以，看看这在一段时间内如何发展会很有趣。"
+ },
+ {
+  "seg": 51,
+  "start": 1257.4851,
+  "end": 1295.26,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Make make sense. Well, something that is playing out over time, take away number six, responsible AI is not keeping pace with AI cap capability with safety benchmarks lagging and incidents rising sharply. Chris, obviously, this one, hits close to home for me. This is part of what we're hopefully helping people deal with, but it also reminded me of, you know, of course, incidents and other things that we've seen from my work with Prediction Guard, but also a show that we had actually somewhat recently.",
+  "zh": "是的。有有道理。好吧，有些事情正在随着时间展开，第六个要点，负责任的 AI 没有跟上 AI 能力的步伐，安全基准滞后，事件急剧增加。Chris，显然，这一点，对我来说感触很深。这是我们要希望帮助人们应对的事情的一部分，但它也让我想起了，你知道，当然，事件和其他我们从我在 Prediction Guard 的工作中看到的事情，但也包括我们实际上最近有的一期节目。"
+ },
+ {
+  "seg": 52,
+  "start": 1295.26,
+  "end": 1342.005,
+  "speaker": "Daniel Whitenack",
+  "en": "So back in February, episode three forty six, which was AI incidence audits and the limits of benchmarks, which basically hits directly at this. We had Sean MacGregor on that show, and and he was talking about the AI incident database that he was helping helping create and and manage. And, yeah, that it was very interesting just the the diversity of AI incidents that we're seeing now and the sharp rise in those. And this is also, you know, only documented AI incident, you know, cases. There's many things that are happening just anecdotally that I see that I'm sure aren't being documented in that AI incident database.",
+  "zh": "所以回到二月，第三百四十六集，那是 AI 事件审计和基准的局限性，这基本上直接针对这一点。我们邀请 Sean MacGregor 参加了那期节目，他他在谈论他正在帮助帮助创建和管理的 AI 事件数据库。而且，是的，我们现在看到的 AI 事件的多样性以及这些事件的急剧增加是非常有趣的。这也是，你知道，仅记录在案的 AI 事件，你知道，案例。还有很多事情只是传闻性地发生，我看到的这些我肯定没有被记录在那个 AI 事件数据库中。"
+ },
+ {
+  "seg": 53,
+  "start": 1342.165,
+  "end": 1405.25,
+  "speaker": "Chris Benson",
+  "en": "Yeah. You know, I'm gonna I'm gonna make a comment that probably will surprise most people tuning in, and that is, first of all, making it very clear I only speak for myself and not for my employer or any other organization. I actually think people would be surprised in the defense industry that there is probably more guardrails and responsible AI efforts around our industry than most commercial industries. There are federal regulations here in The US that prohibit certain things that in the commercial space people might just surge and go do in terms of safety issues. And so as I was reading that earlier before the show, I was thinking, you know, I'm actually in an industry that it may hold us back at times because we're not surging the way the commercial industries have the freedom to, but I think it also there's a there's quite an intense focus on keeping things that need to be safe, and I have noticed that.",
+  "zh": "是的。你知道，我要我要发表一个评论，这可能会让大多数正在收听的人感到惊讶，那就是，首先，非常明确我只代表我自己，而不是代表我的雇主或任何其他组织。实际上我认为人们会在国防行业感到惊讶，我们的行业周围可能比大多数商业行业有更多的护栏和负责任的 AI 努力。在美国这里有联邦法规禁止某些事情，而在商业领域人们为了安全问题可能只是激增并去做。所以当我之前在节目前读到那个时，我在想，你知道，我实际上在一个可能有时会拖累我们的行业，因为我们没有像商业行业那样有自由去激增，但我认为它也有非常强烈的关注，让需要安全的事情保持安全，我已经注意到了。"
+ },
+ {
+  "seg": 54,
+  "start": 1405.25,
+  "end": 1416.13,
+  "speaker": "Chris Benson",
+  "en": "And sometimes, as someone who is always enthusiastic on new technologies, I get a little bit frustrated, but then I stop and go, no, I'm glad we're that way. So I just thought I'd mention that.",
+  "zh": "有时候，作为一个总是对新技术充满热情的人，我有点受挫，但随后我停下来说，不，我很高兴我们是这样的。所以我只想提一下。"
+ },
+ {
+  "seg": 55,
+  "start": 1416.85,
+  "end": 1478.5751,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I think it's encouraging and a good inspiration for the rest of us to consider those, those responsible AI governance enforcement, you know, policy, whatever, however, what, what whatever form that takes in your level of maturity as an organization, I think there are there are those out there that are pushing, that direction. And we've seen development even over this last year where people I think are moving beyond the sort of trust me phase of of AI governance towards, you know, exportable proof and, even certification types of things. And I think we'll see, you know, one of my predictions this coming year, I think is we're gonna start to see some of that needed exportable proof being part of even audits and certifications, whether that's SOC two or AI specific types of certifications for companies.",
+  "zh": "是的。我认为这是令人鼓舞的，也是对我们其他人考虑这些负责任 AI 治理执行的良好启发，你知道，政策，无论，无论什么形式，无论你们组织成熟的水平是什么，我认为有有那些人正在推动那个方向。我们在过去一年里甚至看到了发展，我认为人们正在超越 AI 治理的“相信我”阶段，走向，你知道，可输出的证明，甚至认证类型的东西。我认为我们会看到，你知道，我这一年的预测之一，我认为是我们将开始看到一些所需的可输出证明成为审计和认证的一部分，无论是 SOC 2 还是针对公司的 AI 特定类型的认证。"
+ },
+ {
+  "seg": 56,
+  "start": 1478.5751,
+  "end": 1508.5399,
+  "speaker": "Chris Benson",
+  "en": "I I not only agree with that, but I think that the marketplace will demand it as we go forward. I think I think we will continue to have some big news events where things are going off the wheels from various organizations and industries at different places, probably a variety of them, and there's gonna be a point where where people say, we need we need to know that there are safety measures in place before we're willing to deploy it within our organization. And so I I think the market will will demand that going forward.",
+  "zh": "我我不仅同意这一点，而且我认为市场会随着我们的前进而要求它。我认为我认为我们将继续有一些大新闻事件，事情在不同的地方从各种组织和行业脱轨，可能有很多种，并且会有一个时刻，人们会说，我们需要我们需要知道有安全措施到位，然后我们才愿意在我们的组织内部部署它。所以我我认为市场将在未来要求这一点。"
+ },
+ {
+  "seg": 57,
+  "start": 1511.1,
+  "end": 1568.3899,
+  "speaker": "Sponsor",
+  "en": "If you've been listening to the show over the past few months, you realize just how transformative AgenTic AI is, whether that's Claude Code or Hermes Agent or custom built software that you're deploying for operational efficiencies or as new products to your customers. Regardless of your maturity now, this is the world that we're headed towards, this agentic AI world. And there's a lot of security and governance teams that aren't letting these agents go into production because of risks related to agency and autonomy and how do you take care of things like prompt injections or insecure tool usage. There's a lot to take care of, and that's why I'm personally spending my time outside of the show working with an amazing team of AI engineers to build PredictionGuard. PredictionGuard is an AI control plane that you run-in your own infrastructure behind your firewall.",
+  "zh": "如果你在过去几个月一直在收听这个节目，你就会意识到 AgenTic AI 是多么具有变革性，无论是 Claude Code 还是 Hermes Agent 还是你为运营效率或作为客户新产品部署的自定义软件。无论你现在成熟度如何，这就是我们要走向的世界，这个智能体 AI 世界。有很多安全和治理团队不让这些智能体进入生产环境，因为与主观能动性和自主性相关的风险，以及你如何处理诸如提示词注入或不安全的工具使用之类的事情。有很多事情要处理，这就是为什么我个人在节目之外花时间与一支令人惊叹的 AI 工程师团队一起构建 PredictionGuard。PredictionGuard 是一个 AI 控制平面，你在你的防火墙后面的自己的基础设施中运行。"
+ },
+ {
+  "seg": 58,
+  "start": 1568.5499,
+  "end": 1611.505,
+  "speaker": "Sponsor",
+  "en": "Developers can build on top of this control plane using everything that they wanna use, OpenAI and Anthropic compatible APIs, MCP servers, frameworks like LangChain, but all of this is plugged into a built in governance harness that enforces your organization's AI policies and all of that telemetry goes back to your monitoring and alerting systems. I'd encourage you to check out what we're doing at prediction guard dot com slash practical AI. You can schedule a demo with me and the team, and I'd love to get your feedback on what we're doing. So visit us at predictionguard.com/practicalai. That's predictionguard.com/practicalai.",
+  "zh": "开发人员可以使用他们想要的一切在这个控制平面上构建，OpenAI 和 Anthropic 兼容的 API，MCP 服务器，像 LangChain 这样的框架，但所有这些都插入到一个内置的治理护具中，强制执行你组织的 AI 策略，所有这些遥测都返回到你的监控和警报系统。我鼓励你去看看我们在 prediction guard dot com slash practical AI 正在做的事情。你可以安排我和团队进行演示，我很乐意得到你对我们在做的事情的反馈。所以请访问我们 predictionguard.com/practicalai。那是 predictionguard.com/practicalai。"
+ },
+ {
+  "seg": 59,
+  "start": 1614.145,
+  "end": 1633.7449,
+  "speaker": "Daniel Whitenack",
+  "en": "Well, Chris, we are almost half ish way through, the the the takeaways. We might not get to all of them in detail, but number seven, United States leads in AI investment, but its ability to attract global talent is declining. Interesting.",
+  "zh": "好的，Chris，我们差不多完成了一半，这些要点。我们可能无法详细讨论所有要点，但第七点，美国在 AI 投资方面领先，但其吸引全球人才的能力正在下降。很有趣。"
+ },
+ {
+  "seg": 60,
+  "start": 1633.745,
+  "end": 1672.9949,
+  "speaker": "Chris Benson",
+  "en": "Yes. It is interesting. It's, I think we are and I I'm not I'm not terribly surprised by that one either, as we have seen diversification, and also, frankly as political priorities in The United States have changed. I'll leave that to folks tuning in to decide kind of how they're looking at it, but I think that that has also impacted that. If you're it's certainly hard to attract if you're talking about global talent, it's hard to attract global talent if things that are ancillary to that, things like immigration, are challenge.",
+  "zh": "是的。这很有趣。我认为我们在而且我我也没有对此感到非常惊讶，正如我们所看到的多元化，而且坦率地说，随着美国的政治优先事项已经改变。我留给正在收听的人来决定他们如何看待它，但我认为这也影响了那一点。如果你在谈论全球人才，很难吸引全球人才，如果辅助于那​​样的事情，比如移民，是一个挑战。"
+ },
+ {
+  "seg": 61,
+  "start": 1673.715,
+  "end": 1684.7899,
+  "speaker": "Chris Benson",
+  "en": "So I don't, for me at least, given the current circumstances, that wasn't a surprise to run across that. I'm hoping that we don't lose our edge in that capacity.",
+  "zh": "所以我不，至少对我来说，鉴于目前的情况，遇到那一点并不让我感到惊讶。我希望我们不会失去那种能力方面的优势。"
+ },
+ {
+  "seg": 62,
+  "start": 1684.87,
+  "end": 1705.27,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Number that shocked me in this report was, I guess, the scale of that. So apparently, there's been an 80% decline just in the last year in terms of the number of AI researchers and developers moving to The US, which, yeah. Yeah. This is made right there.",
+  "zh": "是的。这个报告中让我震惊的数字是，我想，那个规模。所以显然，就在去年，AI 研究人员和开发人员搬到美国的数量下降了 80%，也就是啊。是啊。这就在那里证明了。"
+ },
+ {
+  "seg": 63,
+  "start": 1705.51,
+  "end": 1712.39,
+  "speaker": "Daniel Whitenack",
+  "en": "Is pretty, astounding. Yeah. Yeah. So it's, you you reap what",
+  "zh": "是非常令人震惊的。是啊。是啊。所以你你会得到"
+ },
+ {
+  "seg": 64,
+  "start": 1712.39,
+  "end": 1727.505,
+  "speaker": "Chris Benson",
+  "en": "you sow. I said we'll see how things change in the in the years ahead. But, yeah, interesting interesting point. I'm I'm curious with any thoughts on kind of future of AI investment? You know, we're we're leading right now.",
+  "zh": "你种下的（收获）。我说我们会看看事情在未来几年如何变化。但是，是的有趣有趣的点。我我对你对 AI 投资未来的任何想法好奇？你知道，我们现在领先。"
+ },
+ {
+  "seg": 65,
+  "start": 1727.505,
+  "end": 1731.505,
+  "speaker": "Chris Benson",
+  "en": "Do you have any any positions on your side on where you think things will go?",
+  "zh": "你那边你那边有什么关于你认为事情将去向的立场吗？"
+ },
+ {
+  "seg": 66,
+  "start": 1731.505,
+  "end": 1782.095,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I mean, I I think the The US still kind of corners the market on VC driven startup startups that are funded by that world and, you know, Silicon Valley still holds a special place there in terms of the VC funds that are there, you know, other places to New York and kind of growing markets in the Midwest and that sort of thing. I think that's gonna be that's gonna hold true. The report also shows still the greatest number of companies that are being started are starting in AI companies or starting in The US and maybe funded by US VCs. But now in this world, I think a couple of things are true.",
+  "zh": "是的。我的意思是，我我认为美国仍然垄断了由那个世界资助的 VC 驱动的初创初创公司市场，你知道，硅谷在那里仍然拥有特殊地位，那里的 VC 资金，你知道，其他地方像纽约以及中西部不断发展的市场等等。我认为那将保持不变。该报告还显示，最多数量的公司仍然是在美国开始或者是在美国开始的 AI 公司，或者可能由美国 VC 资助。但现在在这个世界里，我认为有几件事是真的。"
+ },
+ {
+  "seg": 67,
+  "start": 1782.095,
+  "end": 1822.6599,
+  "speaker": "Daniel Whitenack",
+  "en": "It it's becoming more and more possible to maintain smaller teams and get a lot done. And so there's less people needed to build a company that's even doing tens or hundreds of millions of dollars in in revenue. But then also teams are necessarily distributed these days and maybe it's not necessary for those AI researchers or developers to move from other places around the world to those countries to do that work. So even if the companies are funded there and the VC is here, that that might not reflect where the individuals in the company live or operate. Right.",
+  "zh": "这越来越有可能维持更小的团队并完成很多工作。所以建立一家甚至有数千万或数亿美元收入的公司所需的人更少了。但团队现在必然是分布式的，也许那些 AI 研究人员或开发人员不需要从世界其他地方搬到那些国家去做这项工作。所以即使公司在那里获得资金并且 VC 在这里，那那可能无法反映公司里的个人在哪里生活或运作。对。"
+ },
+ {
+  "seg": 68,
+  "start": 1822.74,
+  "end": 1824.1799,
+  "speaker": "Daniel Whitenack",
+  "en": "That makes perfect sense.",
+  "zh": "那非常有道理。"
+ },
+ {
+  "seg": 69,
+  "start": 1824.6599,
+  "end": 1872.745,
+  "speaker": "Chris Benson",
+  "en": "And, you know, talking about, you know, VC and the the adoption rate and stuff, we we the last few months, the amount of AI adoption has just skyrocketed. People were until until 2026, maybe, you know, late second half of twenty twenty five, I I knew a lot of people who were not in technology, and they were touching on different model programs here and there. Most of the, you know, the the people that I would be talking to would be touching the closed frontier models, whichever one they particularly went for. But we've seen a marked improve improvement in terms of adoption. I really don't think I've run across anyone recently, including I'm all all age brackets.",
+  "zh": "而且，你知道，谈论 VC 和采用率之类的东西，我们过去几个月，AI 采用量刚刚激增。人们直到直到 2026 年，也许，你知道，2025 年下半年的后期，我我认识很多不在技术领域的人，他们会在这里和那里接触不同的模型程序。大多数的，你知道，我会与之交谈的人会接触封闭的前沿模型，无论他们特别喜欢哪一个。但我们在采用方面看到了明显的改改善。我真的不觉得我最近遇到过任何人，包括我我所有所有年龄段。"
+ },
+ {
+  "seg": 70,
+  "start": 1873.625,
+  "end": 1909,
+  "speaker": "Chris Benson",
+  "en": "I have friends who are in their nineties who are using who are using the tools that are out there now. Mostly free mostly free, and that's what Stanford had noted as the different free tiers. But but that has that's been interesting to see, but I noticed that I think the one thing that may have surprised me was that Stanford had noticed that we are still, in The US, ranked twenty fourth at only a 28.3% adoption. So obviously, I'm not I'm not the, you know, representative in terms of my own experience of that. What are your thoughts there?",
+  "zh": "我有朋友在他们的九十多岁，他们在使用正在使用那里可用的工具。大多数免费主要是免费，这就是斯坦福指出的不同的免费层级。但这很有趣，但我注意到我认为可能让我感到惊讶的一件事是，斯坦福注意到我们仍然在美国排名第 24 位，采用率仅为 28.3%。所以显然，我不是我不是，你知道，代表我自己的经验。你在那里有什么想法？"
+ },
+ {
+  "seg": 71,
+  "start": 1909.56,
+  "end": 1973.22,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. It's it's super interesting. I I don't know, the full economics of some of these free access systems and how much, you know, usage for example, like Gemini's Google Gemini's getting off of usage on Android phones from free users versus like paid workspace accounts. I I I don't know how all the economics play out there, but certainly I know just anecdotally the last couple flights I've been on, for example, I look around and of course people are on their phones and a significant number of those people on their phones are chatting with an AI app of some type and some chatting with that AI app throughout the entire flight on, you know, WiFi and, you know, not even watching a movie or whatever. Like, it",
+  "zh": "是的。这非常有趣。我我不知道其中一些免费访问系统的完整经济学原理以及多少，你知道，使用量例如，像 Google Gemini 在 Android 手机上从免费用户那里获得的使用量与付费工作帐户相比。我我不知道所有的经济学是如何运作的，但当然我只知道传闻地我最近的几次航班，例如，我环顾四周，当然人们在手机上，其中很大一部分人在手机上正在与某种类型的 AI 应用聊天，有些人在整个飞行过程中都在与那个 AI 应用聊天，在，你知道，WiFi 上，甚至不看电影或其他任何东西。就像它"
+ },
+ {
+  "seg": 72,
+  "start": 1973.14,
+  "end": 1975.6749,
+  "speaker": "Chris Benson",
+  "en": "so I've been guilty of that myself.",
+  "zh": "所以我自己也对此感到内疚。"
+ },
+ {
+  "seg": 73,
+  "start": 1975.6749,
+  "end": 1998.68,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. And so, yeah, it it will be it will be interesting to see how that that level of usage continues to spread. I don't under like I say, understand some of those direct to consumer mechanisms as well as, some of the b to b type of things that that I that I interact with day to day.",
+  "zh": "是的。是的。所以，是的，这这将很有趣，看看那个使用水平如何继续传播。我不像我说的那样，"
+ },
+ {
+  "seg": 74,
+  "start": 1998.68,
+  "end": 2040.365,
+  "speaker": "Chris Benson",
+  "en": "I will well, before we leave the topic of kind of, you know, general population AI adoption, there's something that I've noticed that I was meaning to bring into the show at the right moment anyway, and that was my mother is a is a technologist. She's retired mid eighties. Did old school AI way back. But she's been kind of reengaging in recent times, and I noticed that she was she was talking to me the other night about she likes to paint, and then she'll capture thing an image in Photoshop historically and work on it in Photoshop and get it just the way she wants it. And I was like, well, mom, you could do that in any of these tools and just have it do it.",
+  "zh": "我好吧，在我们离开这个关于，你知道，普通大众采用 AI 的话题之前，有一件事我注意到了，我本来打算在合适的时刻带入节目，那就是我的母亲是一名技术人员。她八十年代中期退休了。很早以前做过老派 AI。但她最近有点重新参与进来了，我注意到她那天晚上跟我聊天说她喜欢画画，然后她通常会在 Photoshop 里捕捉一张图片，并在 Photoshop 里处理它，把它弄得完全按照她想要的样子。我就像，好吧，妈妈，你可以用这些工具里的任何一个来做这件事，然后就让它做。"
+ },
+ {
+  "seg": 75,
+  "start": 2040.365,
+  "end": 2072.06,
+  "speaker": "Chris Benson",
+  "en": "Like, just tell it what you want and it will do it. And I realized that she was taking pride in working in Photoshop with her skills there, and I got about halfway through trying to convince her and I backed away because I suddenly realized, like, this is her hobby and there's fun, and even if she could, in a productive way, move right to the end goal, maybe this is a moment where AI is not the right thing to bring into play just because she enjoys doing it. Yeah. So I just thought I wanted to bring that human element back into it, that not AI for all things is always the answer.",
+  "zh": "就像，告诉它你想要什么，它就会去做。我意识到她以在 Photoshop 里用她的技能工作为荣，我试图说服她进行到一半时退缩了，因为我突然意识到，这是她的爱好，这很有趣，即使她能够以一种富有成效的方式直接达到最终目标，也许这就是一个不适合引入 AI 的时刻，仅仅因为她享受做这件事。是的。所以我只是想我想把人性元素带回这个话题，那就是 AI 并不是所有事情的正确答案。"
+ },
+ {
+  "seg": 76,
+  "start": 2072.06,
+  "end": 2102.52,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah, I think that there is a distinction there, Chris, because you could look at other, other examples of this, right? It's, it, I know people that brew their own beer. Right? There's no reason conceivable that people should brew their own beer because they can just go down the street for less money with probably better results and and and get something, you know, that that tastes great's already cold. Right?",
+  "zh": "是的，我认为那里有一个区别，Chris，因为你可以看看其他的，其他的例子，对吗？它，我认识一些自己酿造啤酒的人。对吧？人们没有任何可想象的理由应该自己酿造啤酒，因为他们可以沿街走过去花更少的钱买到可能更好的结果，然后，你知道，得到某种尝起来很棒而且已经是冷的东西。对吧？"
+ },
+ {
+  "seg": 77,
+  "start": 2102.52,
+  "end": 2141.885,
+  "speaker": "Daniel Whitenack",
+  "en": "But that's not that's not the point, right, to to what you were saying. That's not why they're doing things in that way. And that it'll be interesting to see what kind of what elements also see we we see a resurgence of, I don't know, people that just want to use use Excel and do analysis because they enjoy doing it. Yeah. I I think what is true is if you're in a job where there's productivity expectations and you're doing those things, then that's no longer gonna be acceptable.",
+  "zh": "但这不是，这不是重点，对吧，针对你刚才所说的。那不是他们那样做事情的原因。而且看看会有什么样的元素，也会看到我们看到，不知道，复兴，那些只是想使用 Excel 做分析的人，因为他们享受这样做。是的。我认为真实的是，如果你在一个有生产力预期的工作中，而你在做那些事情，那么那将不再被接受。"
+ },
+ {
+  "seg": 78,
+  "start": 2141.885,
+  "end": 2143.165,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? So in the same way",
+  "zh": "对吧？所以以同样的方式"
+ },
+ {
+  "seg": 79,
+  "start": 2143.245,
+  "end": 2144.845,
+  "speaker": "Chris Benson",
+  "en": "hobbyist and professional.",
+  "zh": "业余爱好者和专业人士。"
+ },
+ {
+  "seg": 80,
+  "start": 2144.925,
+  "end": 2165.22,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. In the same way that, like, some people might like writing physical snail mail letters. But if you were to insist that you're only going to write physical mail letters, send them through the mail as part of your company communication and you're not gonna use email, that's not gonna work in the world that we live in. Right?",
+  "zh": "是的。就像，有些人可能喜欢写实体的蜗牛信件。但如果你坚持你只写实体信件，通过邮件发送它们作为你公司沟通的一部分，而且你不打算使用电子邮件，那在我们生活的世界里是行不通的。对吧？"
+ },
+ {
+  "seg": 81,
+  "start": 2165.22,
+  "end": 2196.345,
+  "speaker": "Chris Benson",
+  "en": "Yeah. I I will tie a bow on this by saying to your example, once upon a time, I did I took a a hand at at trying to brew some beer and and also wine, and both my beer and my wine were terrible, but I took great pride and I drank them because I took a lot of pride in it, whereas I certainly wouldn't have done that in a professional context, but yes, it's interesting to see the human element inching back in and recognizing So, that there's a",
+  "zh": "是的。我将通过针对你的例子来总结这个话题，从前，我确实尝试过酿造一些啤酒，还有葡萄酒，我的啤酒和葡萄酒都很糟糕，但我感到非常自豪，而且我把它们喝了，因为我对它们感到非常自豪，而在专业背景下我当然不会那样做，但是是的，看到"
+ },
+ {
+  "seg": 82,
+  "start": 2197.465,
+  "end": 2252.035,
+  "speaker": "Daniel Whitenack",
+  "en": "you were trying to try a bow on this, but I think one more anecdote is because really one of my friends that brews their own beer, one of the things that they told me that they did recently was they said they they actually used their creativity in a in in an AI tool and said, I'm I kind of wanna brew a beer that's, you know, like this, and it has this ABV and, like, these notes, and, it's kinda this style. I kinda want it to turn out like this. And he gave all that description and actually had the AI system create the full build materials and and recipe for that. And then he went to the brewing store and, you know, actually had the person there like, hey, could you look at this and see if this is legit? And they're like, yeah, this seems this seems great to to us.",
+  "zh": "你想试着在这个上面加个蝴蝶结，但我认为还有一个轶事，因为确实我的一个自酿啤酒的朋友，他们告诉我他们最近做的一件事是，他们说他们实际上在 AI 工具中发挥了创造力，并说，我有点想酿一种这样的啤酒，你知道，像这样的，它有这个 ABV，像这些风味，而且它是这种风格的。我有点想让它最后变成这样。他给出了所有这些描述，实际上让 AI 系统为此创建了完整的构建材料和配方。然后他去了酿酒商店，你知道，实际上让那里的人像这样，嘿，你能看看这个，看看这是否靠谱？他们说，是的，这对我们来说看起来很好。"
+ },
+ {
+  "seg": 83,
+  "start": 2252.035,
+  "end": 2285.2651,
+  "speaker": "Daniel Whitenack",
+  "en": "And they got that and he he brewed the beer and it was it was it worked out great. So I think actually this could be a spark to some of those hobbies on that side of things. I know, you know, even Well, I just, of course, on, like, travel and trips and that sort of thing, I heavily use AI systems to help me plan out things and do research and such, and that's, you know, part of what I enjoy about doing the planning of trips or something like that. Absolutely.",
+  "zh": "他们拿到了那个，他酿造了啤酒，而且它，它，效果非常好。所以我认为实际上这可能是那边那些爱好的火花。我知道，你知道，甚至，好吧，我只是，当然，比如旅行和行程这类事情，我大量使用 AI 系统来帮助我规划事情和做研究等等，而这，你知道，也是我在做行程规划或类似事情时所享受的一部分。确实如此。"
+ },
+ {
+  "seg": 84,
+  "start": 2285.425,
+  "end": 2286.3052,
+  "speaker": "Chris Benson",
+  "en": "Moving on.",
+  "zh": "往下进行。"
+ },
+ {
+  "seg": 85,
+  "start": 2286.7852,
+  "end": 2290.3052,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. What are we on? We're on Takeaway 9.",
+  "zh": "是的。我们讲到哪了？我们在讲第 9 个要点。"
+ },
+ {
+  "seg": 86,
+  "start": 2291.0251,
+  "end": 2291.5051,
+  "speaker": "Chris Benson",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 87,
+  "start": 2291.92,
+  "end": 2303.04,
+  "speaker": "Daniel Whitenack",
+  "en": "Which is productivity gains from AI are appearing in many of the same fields where entry level employment is starting to decline. That's",
+  "zh": "也就是 AI 带来的生产力提升正出现在许多入门级就业开始萎缩的相同领域。那是"
+ },
+ {
+  "seg": 88,
+  "start": 2303.36,
+  "end": 2306.48,
+  "speaker": "Chris Benson",
+  "en": "I think we've talked a lot about this on the show over the months. Yes.",
+  "zh": "我想我们在过去的几个月里在节目中已经谈了很多关于这个。是的。"
+ },
+ {
+  "seg": 89,
+  "start": 2307.255,
+  "end": 2314.295,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. There's no way you can get a junior software dev position writing SQL queries anymore.",
+  "zh": "是的。你再也不可能通过编写 SQL 查询来获得初级软件开发职位了。"
+ },
+ {
+  "seg": 90,
+  "start": 2314.295,
+  "end": 2327.62,
+  "speaker": "Chris Benson",
+  "en": "That's that's right. Yeah. That's gone. It's it's interesting, and and and the senior level people have have been learning very rapidly that it is time to embrace. I I really it's funny.",
+  "zh": "那，那是对的。是的。那个已经没了。这很有趣，而且，而且资深级别的人已经非常迅速地意识到，是时候拥抱它了。我，真的，这很有趣。"
+ },
+ {
+  "seg": 91,
+  "start": 2327.62,
+  "end": 2350.96,
+  "speaker": "Chris Benson",
+  "en": "As we went into New Year's, I knew a lot of people who were still pushing back on that. At this point. As we're recording in late May, I can't think of anybody I know that's pushing back on that at this point, at least not not that I know well enough to have these conversations with. So that's changed. The world has changed in a in a very short amount of time, certainly in coding, but I think in a lot of other areas.",
+  "zh": "当我们跨入新年时，我知道很多人还在抵制这一点。在这个时候。当我们在 5 月下旬录制时，我想不出我认识的还有谁在这个时候还在抵制这一点，至少不是，不是那些我足够熟悉、能进行这些对话的人。所以这已经改变了。世界在很短的一段时间内发生了改变，当然是在编程方面，但我认为在很多其他领域也是如此。"
+ },
+ {
+  "seg": 92,
+  "start": 2350.96,
+  "end": 2369.745,
+  "speaker": "Chris Benson",
+  "en": "You know, you talked about Excel. If you're not a technical person, but you're using Microsoft Office, and to your point a few minutes ago, a lot of the a lot of the basic stuff, you're gonna be using an AI assistant in your tool, and I think that's going that's going across many, many industries. So not not surprising.",
+  "zh": "你知道，你谈到了 Excel。如果你不是一个技术人员，但你在使用 Microsoft Office，并且正如你几分钟前指出的，很多很多基础的东西，你将在你的工具中使用一个 AI 助手，我认为这正在，正在跨越非常非常多的行业。所以并不，不令人惊讶。"
+ },
+ {
+  "seg": 93,
+  "start": 2369.745,
+  "end": 2425.485,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. Yeah. And I I think, I've been thinking about this over the previous weeks, Chris, also because, I mean, we have hired folks into our company and I'm sure I'll be part of hiring processes in the future, And it's interesting because there you could say there's no longer the chance for the entry level jobs, but there's still a chance to hire people in and give them, even if they're a more junior engineer, like we have, for example, in our company, maybe like we have our own repo with all the skills, quad code skills that are relevant to our stack and connect to this and that and help you get up and going. And really like that, that's that's a lot of power that you can give someone.",
+  "zh": "是的。是的。是的。而且，我想，我在过去几周里一直在思考这个问题，Chris，也因为，我的意思是，我们已经招聘人员进入我们的公司，而且我相信我将来也会参与招聘流程，这很有趣，因为在那里，你可以说入门级工作不再有机会了，但仍然有机会招聘人员进来并给他们，即使他们是一个更初级的工程师，就像我们在我们公司有的那样，也许就像我们有自己的代码库，其中包含所有与我们技术栈相关的 quad code 技能，并连接到这和那，并帮助你上手和运行。而且真的就像那样，那是你可以给某人的很多力量。"
+ },
+ {
+  "seg": 94,
+  "start": 2425.485,
+  "end": 2472.2,
+  "speaker": "Daniel Whitenack",
+  "en": "Now, obviously, there are debugging things and architecture things that are very take take a very skilled person, a more senior person to get to the bottom of. But I think, I guess what I'm saying is I think these tools can also help junior folks coming into a position to level up more rapidly than they were doing before. And maybe even if universities or educational systems embrace those tools and help them level up even before they were on the job market, then they might, you know, have have more of a, more of a chance. Not to not to not, you know, I I definitely acknowledge that jobs will be lost here. There there certainly will be, right?",
+  "zh": "现在，显然，有一些调试问题和架构问题需要非常熟练的人，一个更资深的人才能到底搞清楚。但我认为，我想我的意思是，我认为这些工具也可以帮助进入职位的新人比以前更快地提升水平。而且也许甚至如果大学或教育系统拥抱这些工具，并帮助他们甚至在进入就业市场之前就提升水平，那么他们可能会，你知道，有更多的，更多的机会。并不是要，并不是要，你知道，我我确实承认这里将会失去工作。那里肯定会的，对吧？"
+ },
+ {
+  "seg": 95,
+  "start": 2472.425,
+  "end": 2475.305,
+  "speaker": "Daniel Whitenack",
+  "en": "And that is a hard thing for many people.",
+  "zh": "这对许多人来说是一件困难的事情。"
+ },
+ {
+  "seg": 96,
+  "start": 2475.385,
+  "end": 2544.745,
+  "speaker": "Chris Benson",
+  "en": "Yeah. Going back, before we leave this, because I think this is important, there there are other things we can skip over in the interest of time, but I think the way I think your a really big point there is the way we're learning things has to change too in that and I'll share a two second experience, is that both of us have been through many programming languages over the years. And and I had gotten an interest in Rust, and I was dipping in and out of it and not really taking it on board, and I'd get caught up into something else, and and it it's famous for its steep learning curve. It's taking a little better this time because one of the things that I've done to try to get go from very entry level to beyond that is to to use the tools that are out there, using Claude code, and and and creating it, but also having it explain and having discussions about what's going on and why. So it's not just make the thing, but it's let's have a conversation about what the thing, how you make the thing and why the choices are being made, and you can use the model to say, well, why are you doing that?",
+  "zh": "是的。往回说一点，在我们离开这个话题之前，因为我认为这很重要，还有其他事情我们可以为了省时间跳过，但我认为，我认为你在那里的一个非常大的观点是，我们学习事物的方式也必须改变，在这方面，我要分享一个两秒钟的经历，是我们两人在这些年来都经历过很多种编程语言。而且我对 Rust 产生了兴趣，我当时断断续续地涉猎，并没有真正掌握它，我会被其他事情缠住，而且它以陡峭的学习曲线而闻名。这次情况稍微好一点，因为我为了试图从非常入门的水平更上一层楼所做的事情之一是，使用现有的工具，使用 Claude code，并创建它，但同时也让它解释，并讨论正在发生什么以及为什么。所以不仅仅是制造那个东西，而是让我们进行一场关于那个东西是什么，你如何制造那个东西以及为什么要做出这些选择的对话，你可以使用模型来说，嗯，你为什么要那样做？"
+ },
+ {
+  "seg": 97,
+  "start": 2544.745,
+  "end": 2565.125,
+  "speaker": "Chris Benson",
+  "en": "What's the what's the rationale? Would it make sense to do this and have that? And and I that has been transforming for me, is not fresh out of college, to to continue to learn at a rapid pace. And it's been a great experience. It's been different, but I would encourage people to be open to that.",
+  "zh": "有什么，有什么理由？这样做并拥有那个会有意义吗？而且，我那对我来说一直是变革性的，作为一个不是刚大学毕业的人，来继续快速学习。这很棒的经历。这不一样，但我会鼓励人们对这个持开放态度。"
+ },
+ {
+  "seg": 98,
+  "start": 2565.125,
+  "end": 2586.57,
+  "speaker": "Chris Benson",
+  "en": "And so don't just have the model do whatever your thing is. Don't just have it do it. Have it explain and share in the load as you go so that it is it is a creative, but also a learning process as you do it. And then you'll come out of it better than you started as well. So I I I really wanted to to just kinda get out get out there and urge people to give it a shot.",
+  "zh": "所以不要只是让模型做你的任何事情。不要只是让它做。让它解释并在你进行的过程中分担负担，这样它既是创造性的，但也是一个学习过程，当你做的时候。然后你会比你开始时更好地从中走出来。所以我我我真的想要，只是 kinda 表达出来，并敦促人们试一试。"
+ },
+ {
+  "seg": 99,
+  "start": 2586.57,
+  "end": 2610.54,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. It does tie into one of the other takeaways, which yeah. Chris, we can just mention a few of these as we get closer to closing out here, but formal education is lagging behind AI, but people are learning AI skills at every stage of life. That was one of the other takeaways. I think, you know, related to related to what you're what you're talking about.",
+  "zh": "是的。这确实联系到其他要点之一，是的。Chris，我们可以在这里快结束的时候只提其中几个，但是正规教育落后于 AI，但人们在生命的每个阶段都在学习 AI 技能。这是其他的要点之一。我想，你知道，与与你正在谈论的内容相关。"
+ },
+ {
+  "seg": 100,
+  "start": 2611.6602,
+  "end": 2648.685,
+  "speaker": "Daniel Whitenack",
+  "en": "And, yeah, it's it's like, I I think the stat they gave is 80% of high school and college students now use AI for school related things, but a very small percentage of teachers, you know, have any sort of policy in place around around that usage or either positive or negative. Right? Which I think both of us would hope that some of that is on the positive side and there's teachers and universities that are helping students learn how to use these tools and encouraging their use versus trying to always police it and shut it down, which isn't gonna work.",
+  "zh": "是的，是啊，就像是，我想他们给出的统计数据是，现在有 80% 的高中生和大学生使用 AI 处理学校相关的事情，但比例非常小的老师，你知道，针对那种使用制定了任何类型的政策，无论是积极的还是消极的。对吧？我想我们俩都希望其中一些是积极的一面，有老师和大学在帮助学生学习如何使用这些工具并鼓励他们使用，而不是试图总是监管它并关闭它，这是行不通的。"
+ },
+ {
+  "seg": 101,
+  "start": 2648.685,
+  "end": 2677.465,
+  "speaker": "Chris Benson",
+  "en": "Which is the right yeah. It's not gonna work. And I have an incoming high school student of my own, and I have I have been telling her for years now to use the tool. I want her to use the tools, but I'm but going back to my previous comment, we I'll sit down with her, and we will use the tools to learn so that she actually comes out. And by way of example, even though she's a heavy user of AI tools for school, without those tools, she'll go in she went in for her finals in middle school just now.",
+  "zh": "这是正确的，是的。这是行不通的。我有一个自己即将上高中的学生，这几年我一直告诉她使用工具。我希望她使用工具，但我回到我之前的评论，我会和她坐下来，我们将使用工具去学习，以便她真正掌握内容。举个例子，尽管她是学校 AI 工具的重度用户，但没有那些工具，她刚刚进去参加了她的中学期末考试。"
+ },
+ {
+  "seg": 102,
+  "start": 2677.465,
+  "end": 2690.745,
+  "speaker": "Chris Benson",
+  "en": "Straight a's. You know? And that's without any AI tools being available to her to do that. She learned the material, and that's trying to use it the right way. Use it to where you're learning in addition to just getting the job done like a lot of students might do.",
+  "zh": "全 A 的成绩。你知道吗？而且那是没有任何 AI 工具可供她使用的情况下做到的。她学习了材料，那是试图以正确的方式使用它。使用它以达到你正在学习的目的，而不仅仅是把工作做完，就像很多学生可能会做的那样。"
+ },
+ {
+  "seg": 103,
+  "start": 2690.745,
+  "end": 2707.205,
+  "speaker": "Chris Benson",
+  "en": "So it's it's the right way to do it. And I I as a parent, I would I would urge teachers, and I know you're restricted by your school policies and such, but try to be open to that, open to to to taking on the new tools over with your students.",
+  "zh": "所以这是做这件事的正确方式。而我作为一个家长，我会敦促老师，我知道你们受到学校政策等的限制，但试着对此持开放态度，开放地去和你的学生一起接纳这些新工具。"
+ },
+ {
+  "seg": 104,
+  "start": 2707.3652,
+  "end": 2727.45,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Well, just to mention a few of these that we didn't get to, Chris, I encourage people to look up the report. We'll link it in our show notes. You can read all the details. The full report is 425 pages long, so you probably wanna stick that into some type of AI thing and and ask some questions and and work through it.",
+  "zh": "是的。好吧，只是提几个我们没提到的，Chris，我鼓励人们查阅这份报告。我们会在节目说明中链接它。你可以阅读所有细节。完整的报告有 425 页长，所以你可能想要把它放进某种 AI 东西里，问一些问题，并通读它。"
+ },
+ {
+  "seg": 105,
+  "start": 2727.45,
+  "end": 2760.55,
+  "speaker": "Daniel Whitenack",
+  "en": "Some of the other ones that, just so people know them, are AI's environmental footprint is expanding. AI models for science outperform human scientists, though bigger models do not always perform better. AI is transforming clinical care, but rigorous evidence remains limited. AI sovereignty is becoming a defining feature of national policy, and AI experts and the public have very different perspectives on the technology's future. So all of those super interesting.",
+  "zh": "其他的一些点，只是为了让人们知道它们，是：AI 的环境足迹正在扩大。用于科学的 AI 模型表现优于人类科学家，尽管更大的模型并不总是表现得更好。AI 正在改变临床护理，但严格的证据仍然有限。AI 主权正在成为国家政策的一个决定性特征，而且 AI 专家和公众对技术未来的看法非常不同。所以所有这些都超级有趣。"
+ },
+ {
+  "seg": 106,
+  "start": 2760.63,
+  "end": 2770.685,
+  "speaker": "Daniel Whitenack",
+  "en": "Of course, go and look at the article, article, dig into the details, have some fun exploring it, and and thanks again to Stanford for continuing to to do this great work.",
+  "zh": "当然，去看看那篇文章，文章，深挖细节，在探索它的过程中找点乐子，并且再次感谢 Stanford 继续做这项伟大的工作。"
+ },
+ {
+  "seg": 107,
+  "start": 2770.685,
+  "end": 2776.94,
+  "speaker": "Chris Benson",
+  "en": "They do great great reports every year. We loved I we wait for this every year to dig in to and have fun with it.",
+  "zh": "他们每年都做非常棒非常棒的报告。我们喜欢，我们每年都等着这个来深入挖掘并从中找乐子。"
+ },
+ {
+  "seg": 108,
+  "start": 2777.02,
+  "end": 2790.5398,
+  "speaker": "Daniel Whitenack",
+  "en": "So awesome, Chris. Well, have have fun yourself with, with your non nonhumanoid robots at home and the AI tools for for school and all the things.",
+  "zh": "太棒了，Chris。好吧，你自己玩得开心，和你家里的非... 非人形机器人和用于学校的 AI 工具以及所有这些事情。"
+ },
+ {
+  "seg": 109,
+  "start": 2791.595,
+  "end": 2792.635,
+  "speaker": "Chris Benson",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ },
+ {
+  "seg": 110,
+  "start": 2797.035,
+  "end": 2817.51,
+  "speaker": "Narrator",
+  "en": "Alright. That's our show for this week. If you haven't checked out our website, head to practicalai.fm, and be sure connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner Prediction Guard for providing operational support for the show.",
+  "zh": "好的。这是我们本周的节目。如果你还没有查看我们的网站，前往 practicalai.fm，并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 发展相关的见解，我们很希望你加入对话。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 111,
+  "start": 2818.035,
+  "end": 2827.395,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "在 predictionguard.com 查看他们。另外，感谢 Breakmaster Cylinder 提供的节拍，也感谢你的收听。目前就这些，但你下周会再次收到我们的消息。"
+ }
+]
