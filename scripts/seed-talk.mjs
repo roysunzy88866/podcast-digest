@@ -140,17 +140,31 @@ async function main() {
     try {
       // ① 元数据(--no-download,不烧流量)
       console.log("   ① yt-dlp 元数据…");
-      const meta = JSON.parse(shOrThrow("yt-dlp", ["--no-download", "--no-playlist", "--dump-single-json", url]).stdout);
+      // 元数据也钉同一个 player_client(GLM 024[5]:与下载不同客户端会在某些视频先挂;统一口径)
+      const meta = JSON.parse(shOrThrow("yt-dlp", ["--extractor-args", "youtube:player_client=default", "--no-download", "--no-playlist", "--dump-single-json", url]).stdout);
       // ② 音频(最佳音轨,优先 m4a;已有本地音频文件则复用不重下——补传场景)
       mkdirSync(dir, { recursive: true });
-      let audioFile = already?.audio_file && existsSync(join(dir, already.audio_file)) ? already.audio_file : null;
+      // 复用**本地已有**音频(不限于 already 记录的):种子目录里已有该集音频就跳过下载,只补上传。
+      // 幂等 + 省掉重复(慢/易挂)的 YouTube 下载;补传场景(already.audio_file)天然被这条覆盖。
+      // ⚠️ **精确**匹配 `<vid>.<音频扩展名>`(GLM 024[1][4] + 026[1][2]):不吃 .part/.temp/.mp4 残留(不是纯音频扩展名),
+      //    也不被前缀撞车的别集音频误命中(exact `^vid\.ext$`,非 startsWith)。vid 是 YouTube ID([\w-],无正则特殊字符)。
+      const audioRe = new RegExp("^" + vid + "\\.(m4a|mp3|aac|opus|webm|ogg|wav)$", "i");
+      let audioFile = readdirSync(dir).find((f) => audioRe.test(f)) ?? null;
       if (audioFile) {
-        console.log(`   ② 复用已下载音频 ${audioFile}(只补上传)`);
+        console.log(`   ② 复用本地已有音频 ${audioFile}(跳过下载,只补上传)`);
       } else {
         console.log("   ② yt-dlp 下载最佳音频…");
-        shOrThrow("yt-dlp", ["--no-playlist", "-f", "bestaudio[ext=m4a]/bestaudio", "-o", join(dir, "%(id)s.%(ext)s"), url],
+        // 2026-08-31 修:YouTube 反爬升级后,默认(自动选)客户端只给 m3u8/HLS(下载易挂 ffmpeg 196),
+        //   且旧的 bestaudio 会误抓成**配音轨**(多语言 dub → 整集译错语言,防失真闸门还查不出,因为转写稿也是那门语言)。改三处:
+        //   ① --extractor-args player_client=default —— 拿到直连 m4a(139/140 系列,https,非 m3u8);
+        //   ② -S "lang,quality" —— **显式**把「原始语轨」排最前(GLM 024[2]:不靠默认排序的隐式行为;实证选中 140-17=en 原始);
+        //   ③ 格式优先 m4a+https,fallback 链保住只有 m3u8 的视频也能走。整条演讲通道共用此修。
+        shOrThrow("yt-dlp", ["--no-playlist", "--extractor-args", "youtube:player_client=default",
+          "-S", "lang,quality",
+          "-f", "bestaudio[ext=m4a][protocol=https]/bestaudio[ext=m4a]/bestaudio",
+          "-o", join(dir, "%(id)s.%(ext)s"), url],
           { stdio: ["ignore", "inherit", "inherit"] });
-        audioFile = readdirSync(dir).find((f) => f.startsWith(vid) && f !== "seed.json");
+        audioFile = readdirSync(dir).find((f) => audioRe.test(f));
         if (!audioFile) throw new Error("yt-dlp 报成功但找不到音频文件(fail-closed)");
       }
       // ③ 上传 Release asset(--clobber 幂等;--no-upload 时 asset_url 记 null,补传后重跑即补写)

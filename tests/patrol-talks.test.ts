@@ -28,13 +28,14 @@ const handleHtml = readFileSync(resolve(FIX, "yt-handle-page.html"), "utf8");
 
 describe("订阅配置(规则是数据)", () => {
   const subs = loadSubscriptions();
-  it("4 频道齐且 channel_id 与调研文档一致", () => {
-    expect(subs.map((s) => s.name).sort()).toEqual(["AI Engineer", "Axios", "LangChain", "Stripe"]);
+  it("5 频道齐且 channel_id 对(含 2026-08-31 用户点名加的 Anthropic)", () => {
+    expect(subs.map((s) => s.name).sort()).toEqual(["AI Engineer", "Anthropic", "Axios", "LangChain", "Stripe"]);
     const byName = Object.fromEntries(subs.map((s) => [s.name, s]));
     expect(byName["AI Engineer"].channelId).toBe("UCLKPca3kwwd-B59HNr-_lvA");
     expect(byName["Axios"].channelId).toBe("UCfU4-ArXuSX0tpyApyklMAg");
     expect(byName["LangChain"].channelId).toBe("UCC-lyoTfSrcJzA1ab3APAgw");
     expect(byName["Stripe"].channelId).toBe("UCM1guA1E-RHLO2OyfQPOkEQ");
+    expect(byName["Anthropic"].channelId).toBe("UCrDwWp7EBBv4NwvScIpBDOA"); // 官方频道,Mastering Claude Code 起
   });
   it("过滤规则以数据形式存在:Axios 标题必含 / LangChain 时长下限 / 各家 judgeHint", () => {
     const byName = Object.fromEntries(subs.map((s) => [s.name, s]));

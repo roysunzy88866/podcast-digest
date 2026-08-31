@@ -2,6 +2,7 @@
 // 铁律:测试全假实现,绝不真下载、不碰 yt-dlp/gh 真命令(副作用只在 main())。
 import { describe, it, expect } from "vitest";
 import { videoIdFromUrl, seedFromYtdlpJson, assetUrlFor, RELEASE_TAG } from "../scripts/seed-talk.mjs";
+import { readFileSync } from "node:fs";
 
 describe("videoIdFromUrl", () => {
   it("watch?v= 标准链接", () => {
@@ -66,5 +67,28 @@ describe("assetUrlFor(远端 → Release asset 公开直链)", () => {
   });
   it("认不出的远端抛错(不拼瞎 URL)", () => {
     expect(() => assetUrlFor("https://gitlab.com/o/r.git", "t", "a")).toThrow();
+  });
+});
+
+// YouTube 抓取修复(2026-08-31):反爬升级后原做法 403 / 只给 m3u8 / 误抓配音轨。
+// yt-dlp 下载在 CLI main() 里(不导出),故钉源码形状——但都是**行为关键**的不变量,漂了就回归。
+describe("YouTube 抓取修复 · 源码不变量(GLM 024 采纳项)", () => {
+  const src = readFileSync(new URL("../scripts/seed-talk.mjs", import.meta.url), "utf8");
+
+  it("★★★ 下载与元数据都钉 player_client=default(直连 m4a;两处同客户端)", () => {
+    expect((src.match(/youtube:player_client=default/g) || []).length).toBeGreaterThanOrEqual(2);
+  });
+  it("★★★ 显式 -S lang,quality:原始语轨排最前,防误抓配音轨(整集译错语言)", () => {
+    expect(src).toMatch(/"-S",\s*"lang,quality"/);
+  });
+  it("★★★ 格式优先 m4a+https(避开 m3u8/HLS 的 ffmpeg 196)", () => {
+    expect(src).toContain('bestaudio[ext=m4a][protocol=https]');
+  });
+  it("★★★ 复用/查找音频**精确**匹配 <vid>.<音频扩展名>,不吃残留/前缀撞车(GLM 024[1][4]+026[1][2])", () => {
+    // 精确 ^vid\.(m4a|...)$:.part/.temp/.mp4 残留不是纯音频扩展名 → 不命中;别集前缀撞车 → 不命中
+    expect(src).toMatch(/audioRe\s*=\s*new RegExp\("\^"\s*\+\s*vid\s*\+\s*"\\\\\.\(m4a\|/);
+    // 旧的宽松写法一律铲除(放行任意残留 / startsWith 前缀)
+    expect(src).not.toMatch(/f\.startsWith\(vid\) && f !== "seed\.json"/);
+    expect(src).not.toMatch(/f\.startsWith\(vid\) && isAudioFile/);
   });
 });

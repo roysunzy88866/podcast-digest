@@ -34,6 +34,15 @@
       "filters": {
         "judgeHint": "本频道约 30% 是产品宣传片/功能发布,不对味;要的是 Sessions/Tour 的高规格对谈与炉边访谈(Collison 家访谈先例)。注意其对谈可能与 Cheeky Pint 播客 RSS 重复,重复判定交云端标题比对,这里只判品味。"
       }
+    },
+    {
+      "key": "anthropic",
+      "name": "Anthropic",
+      "channelId": "UCrDwWp7EBBv4NwvScIpBDOA",
+      "filters": {
+        "minDurationSec": 300,
+        "judgeHint": "Anthropic 官方频道(2026-08-31 用户点名订阅,起因「Mastering Claude Code in 30 minutes」)。要的是**有实质的深度内容**:上手教程/工程实操(Claude Code、agent、MCP 那类「一集学透一件事」)、研究解读、创始人/研究员深访。不对味的:①几十秒到两三分钟的功能短片/宣传剪辑(minDurationSec 已滤大部分)、②纯产品发布公告(「Claude 现在支持 X」)、③活动预告/花絮。判据同品味档案——上手价值高、能读进去的留,广告味/资讯味的毙。"
+      }
     }
   ]
 }
