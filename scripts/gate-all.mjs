@@ -13,6 +13,7 @@ import { gateFacts } from "./gate-facts.mjs";
 import { gateEntities } from "./gate-entities.mjs";
 import { gateRelations } from "./gate-relations.mjs";
 import { gateAudio } from "./gate-audio.mjs";
+import { isDeadLinkKind } from "./deadlink-kinds.mjs";
 import { feedEnclosuresFromXml } from "./build-feed.mjs";
 import { renderEpisode, loadEpisode, episodeCategories } from "./render.mjs";
 import { taxonomyCategories } from "./build-list.mjs";
@@ -22,6 +23,13 @@ import { loadAllEpisodes } from "./build-entities.mjs";
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const base = join(ROOT, "data/episodes");
 const samplesDir = join(ROOT, "samples");
+
+// [standard-change: 用户授权 2026-08-31「内容断供很要命/我服了」] --deploy 部署模式:**死链**(链到缺页,纯装饰、
+// 既非失真也不影响阅读)降为警告、不拦上站。治病根:实体/关联层无隔离,一条 [[swyx]] 死链就把全站 239 集内容
+// 全扣在仓库(2026-08-31 实证:金句 0❌ / 事实层自隔离,唯一拦点是 1 条死链)。防失真一分不松——事实层(专名/数字/
+// how_described)、金句层、音频层、实体页一致性,在 --deploy 下**仍是硬拦**;只放行「死链」这一类装饰性问题。
+// 不带 --deploy(CI/本地 pre-commit)照旧全严,死链仍报错供修。
+const DEPLOY_MODE = process.argv.includes("--deploy");
 
 const ls = (d, f) => (existsSync(d) ? readdirSync(d, { withFileTypes: true }).filter(f) : []);
 
@@ -163,10 +171,20 @@ if (existsSync(join(samplesDir, "entities"))) {
     if (r.pass) {
       console.log(`[机器闸门门] ✅ 实体层过(${r.counts.entities} 实体页,死链/一致性/属性事实层全绿)`);
     } else {
-      bad++;
-      console.error(`[机器闸门门] ❌ 实体层未过(${r.failures.length} 条):`);
-      for (const f of r.failures.slice(0, 12)) console.error(`   [${f.kind}] ${f.file ?? ""} — ${f.reason ?? ""}`);
-      console.error(`              → 详情:node scripts/gate-entities.mjs`);
+      const dead = r.failures.filter((f) => isDeadLinkKind(f.kind)); // 精确白名单,非前缀(GLM 008[2])
+      const others = r.failures.filter((f) => !isDeadLinkKind(f.kind));
+      if (DEPLOY_MODE && dead.length) {
+        for (const f of dead) console.log(`[机器闸门门] ⚠️ [部署放行·死链] ${f.file ?? ""} — ${f.reason ?? ""}`);
+      }
+      const fatal = DEPLOY_MODE ? others : r.failures; // 部署模式只把「非死链」当拦点(死链已降警告)
+      if (fatal.length) {
+        bad++;
+        console.error(`[机器闸门门] ❌ 实体层未过(${fatal.length} 条${DEPLOY_MODE ? "·死链已放行" : ""}):`);
+        for (const f of fatal.slice(0, 12)) console.error(`   [${f.kind}] ${f.file ?? ""} — ${f.reason ?? ""}`);
+        console.error(`              → 详情:node scripts/gate-entities.mjs`);
+      } else {
+        console.log(`[机器闸门门] ✅ 实体层过(部署放行 ${dead.length} 条死链警告;非死链问题 0)`);
+      }
     }
   } catch (e) {
     bad++;
@@ -182,10 +200,21 @@ if (existsSync(samplesDir)) {
     if (rel.pass) {
       console.log(`[机器闸门门] ✅ 关联层过(相关单集 0 死链)`);
     } else {
-      bad++;
-      console.error(`[机器闸门门] ❌ 关联层未过(${rel.failures.length} 条):`);
-      for (const f of rel.failures.slice(0, 12)) console.error(`   [${f.kind}] ${f.epId} — ${f.reason}`);
-      console.error(`              → 补渲染缺页:node scripts/build-pages.mjs`);
+      // GLM 008[1]:只放行「死链」类,关联层若日后新增非死链失败类型绝不能被 --deploy 静默放过。
+      const deadR = rel.failures.filter((f) => isDeadLinkKind(f.kind));
+      const otherR = rel.failures.filter((f) => !isDeadLinkKind(f.kind));
+      if (DEPLOY_MODE && deadR.length) {
+        for (const f of deadR) console.log(`[机器闸门门] ⚠️ [部署放行·相关死链] ${f.epId} — ${f.reason}`);
+      }
+      const fatalR = DEPLOY_MODE ? otherR : rel.failures; // 部署模式只把「非死链」当拦点
+      if (fatalR.length) {
+        bad++;
+        console.error(`[机器闸门门] ❌ 关联层未过(${fatalR.length} 条${DEPLOY_MODE ? "·死链已放行" : ""}):`);
+        for (const f of fatalR.slice(0, 12)) console.error(`   [${f.kind}] ${f.epId} — ${f.reason}`);
+        console.error(`              → 补渲染缺页:node scripts/build-pages.mjs`);
+      } else {
+        console.log(`[机器闸门门] ✅ 关联层过(部署放行 ${deadR.length} 条相关死链警告;非死链 0)`);
+      }
     }
   } catch (e) {
     bad++;

@@ -229,8 +229,10 @@ jobs:
           # 闸门挂掉时 samples/ 已经脏了 → has_new=true;而 deploy-site.sh 自己不跑 gate-all
           # → 解耦前 bash -e 会中止整步(算不出 has_new)所以侥幸不部署,解耦后就把**没过闸的内容送上线**。
           # 这里不依赖编排器怎么退出的,自己再判一次:全过才允许部署。gate-all 是本地校验,几秒钟。
+          # --deploy 部署模式(2026-08-31 standard-change):死链(装饰性、非失真)降警告不拦上站,
+          # 治「一条 [[swyx]] 死链把全站内容扣在仓库」;事实/金句/音频/实体页一致性 仍硬拦(防失真不松)。
           GATE_OK=false
-          if node scripts/gate-all.mjs; then GATE_OK=true; else echo "::warning::闸门未过 → 本轮不部署(线上保持上一版)"; fi
+          if node scripts/gate-all.mjs --deploy; then GATE_OK=true; else echo "::warning::闸门未过(非死链问题)→ 本轮不部署(线上保持上一版)"; fi
           echo "gate_ok=$GATE_OK" >> "$GITHUB_OUTPUT"
           # 编排器的失败该红还红(告警照发),但 has_new/gate_ok 已经写出、部署步靠 !cancelled() 照常判
           exit $PIPE_RC
