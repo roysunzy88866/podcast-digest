@@ -77,9 +77,99 @@ describe("C27 · 客户端:真实数 + 失败静默", () => {
     expect(pvJs).toContain('typeof d.today !== "number"');
     expect(pvJs).toContain("el.hidden = false");
   });
-  it("★★ nav 驱动计数 + 无 nav 兜底不重复", () => {
-    expect(pvJs).toContain("document.addEventListener(\"nav\"");
-    expect(pvJs).toMatch(/if \(!navSeen\) hit\(\)/);
+});
+
+// —— 计数时机行为测试(2026-08-31「进页面即报」)——
+// 真跑 pv.js(IIFE)于假 document/fetch,断言 POST /hit 的时机与次数,而非只钉源码串。
+type Call = { method: string; url: string };
+function runPv(body: Record<string, unknown> = { total: 2598, today: 5, counted: 120, baseline: 2478 }) {
+  const calls: Call[] = [];
+  let navHandler: ((e: unknown) => void) | null = null;
+  let showHandler: ((e: { persisted?: boolean }) => void) | null = null;
+  const el = { textContent: "", hidden: true };
+  const doc = {
+    addEventListener(type: string, h: (e: unknown) => void) {
+      if (type === "nav") navHandler = h;
+    },
+    querySelector(sel: string) {
+      return sel === ".pd-pv" ? el : null;
+    },
+  };
+  const win = {
+    addEventListener(type: string, h: (e: { persisted?: boolean }) => void) {
+      if (type === "pageshow") showHandler = h;
+    },
+  };
+  const fetchFn = (url: string, opts?: { method?: string }) => {
+    calls.push({ method: (opts && opts.method) || "GET", url: String(url) });
+    return Promise.resolve({ ok: true, json: () => Promise.resolve(body) });
+  };
+  new Function("document", "fetch", "window", pvJs)(doc, fetchFn, win);
+  return {
+    calls,
+    el,
+    fireNav() {
+      const h = navHandler;
+      if (!h) throw new Error("pv.js 未注册 nav 监听");
+      h({});
+    },
+    firePageshow(persisted: boolean) {
+      const h = showHandler;
+      if (!h) throw new Error("pv.js 未注册 pageshow 监听");
+      h({ persisted });
+    },
+  };
+}
+const flush = async () => {
+  for (let i = 0; i < 6; i++) await Promise.resolve();
+};
+const hitsOf = (calls: Call[]) => calls.filter((c) => c.method === "POST" && c.url.endsWith("/hit"));
+const statsOf = (calls: Call[]) => calls.filter((c) => c.method === "GET" && c.url.endsWith("/stats"));
+
+describe("C27 · 计数时机(2026-08-31「进页面即报」,捞回秒退读者)", () => {
+  it("★★★ 一执行就 POST /hit 计一次——不再等 nav/2.5s(秒退手机读者是主要漏数来源)", () => {
+    const { calls } = runPv();
+    expect(hitsOf(calls).length).toBe(1);
+  });
+  it("★★★ 初次 nav(与立即上报同页)不重复计数,改走只读 /stats 刷新显示", () => {
+    const { calls, fireNav } = runPv();
+    calls.length = 0; // 清掉立即那一发,单看初次 nav 的行为
+    fireNav();
+    expect(hitsOf(calls).length).toBe(0);
+    expect(statsOf(calls).length).toBe(1);
+  });
+  it("★★★ 之后每次软换页各 POST /hit 一次(维持每页 1 次 PV 口径,不再走 /stats)", () => {
+    const { calls, fireNav } = runPv();
+    fireNav(); // 初次:跳过计数
+    calls.length = 0;
+    fireNav();
+    fireNav();
+    expect(hitsOf(calls).length).toBe(2);
+    expect(statsOf(calls).length).toBe(0);
+  });
+  it("★★ 显示:初次经 /stats 填「累计访问 … · 今日 …」,今日 ×9(5→45),容器解除 hidden", async () => {
+    const { el, fireNav } = runPv();
+    fireNav();
+    await flush();
+    expect(el.hidden).toBe(false);
+    expect(el.textContent).toBe(
+      "累计访问 " + (2598).toLocaleString() + " · 今日 " + (45).toLocaleString(),
+    );
+  });
+  it("★★★ bfcache 返回/前进恢复(persisted=true)补计一次;普通加载(persisted=false)不重复(GLM 030[1])", () => {
+    const { calls, firePageshow } = runPv();
+    calls.length = 0; // 清掉立即那一发,单看 pageshow
+    firePageshow(false); // 普通加载的 pageshow:① 已计过,不补
+    expect(hitsOf(calls).length).toBe(0);
+    firePageshow(true); // bfcache 恢复:脚本没重跑、nav 不派 → 补一次
+    expect(hitsOf(calls).length).toBe(1);
+  });
+  it("★★ 回包缺字段(如无 today)→ fill 静默:容器保持 hidden、不显示 NaN(×9 的 NaN 风险兜底,GLM 030[4])", async () => {
+    const { el, fireNav } = runPv({ total: 5 }); // 缺 today
+    fireNav();
+    await flush();
+    expect(el.hidden).toBe(true);
+    expect(el.textContent).toBe("");
   });
 });
 
