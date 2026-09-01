@@ -546,3 +546,8 @@
 {"ts":"2026-09-01T01:57:49.377Z","action":"rejected","channel":"anthropic","videoId":"N5yJJA0NCU0","title":"AI on campus","durationSec":2327,"verdict":"不对味","reason":"学生座谈聊校园 AI 见闻,属见闻/观点类对谈,非上手实操、创始人或产业格局深挖,按档偏不对味。"}
 {"ts":"2026-09-01T01:58:08.277Z","action":"prefilter-skip","channel":"anthropic","videoId":"UAmKyyZ-b9E","title":"Introducing Cowork: Claude Code for the rest of your work","reason":"时长 69s < 下限 300s"}
 {"ts":"2026-09-01T01:58:29.580Z","action":"prefilter-skip","channel":"anthropic","videoId":"mM9TY91FECI","title":"AI's limited self-knowledge","reason":"时长 59s < 下限 300s"}
+{"ts":"2026-09-01T07:40:18.426Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
+{"ts":"2026-09-01T07:40:23.432Z","action":"discover-error","channel":"axios","videoId":null,"error":"fetch failed"}
+{"ts":"2026-09-01T07:40:28.436Z","action":"discover-error","channel":"langchain","videoId":null,"error":"fetch failed"}
+{"ts":"2026-09-01T07:40:33.441Z","action":"discover-error","channel":"stripe","videoId":null,"error":"fetch failed"}
+{"ts":"2026-09-01T07:40:38.444Z","action":"discover-error","channel":"anthropic","videoId":null,"error":"fetch failed"}
