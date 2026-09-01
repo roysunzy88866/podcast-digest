@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Synthesia":1,"虚拟形象":2,"智能体":1,"基础模型层":1,"应用层":2,"LLM":22,"Netflix":3,"TikTok":2,"Instagram":4,"Google":33}</script>
+<script type="application/json" class="pd-epn">{"Synthesia":1,"虚拟形象":2,"智能体":1,"基础模型层":1,"应用层":2,"LLM":22,"Netflix":3,"TikTok":2,"Instagram":4,"Google":34}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Palantir</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,10 +19,12 @@ unlisted: true
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(23:22起):本集把它说成：有前沿部署工程师的企业软件公司，受到前沿模型公司向高端市场进发的威胁，其 CEO Alex Karp 在电视上抱怨这些 AI 公司不可信。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(23:39起):本集说 Palantir 是罕见的转型成功案例，从 18% 增长跳到 98%，靠的是真正的基于结果的定价（签 20 亿美元合同承诺省 80 亿）和积累了十几年的现场部署团队（FDE）
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(36:16起):本集提到它在'拥有你的智能'这一理念上表现得相当大声
+- **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(87:03起):本集引用其宣传视频：护士用 Palantir 软件处理文书工作，从而能花更多时间与病人面对面
+- **[[2026-09-01-trainingdata-making-cities-awesome-peregrine-s-nick-n|《Peregrine：不做监控国家，用AI保护城市安全》]]**(01:54起):本集提到 Palantir 是前向部署工程概念的来源地，并以不接八位数以下合同著称，作为对比说明 Peregrine 服务「弱者」客户的不同路径。
 
 ## ② 出现在这些集
 
-*8 集*
+*10 集*
 
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
@@ -32,14 +34,16 @@ unlisted: true
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
+- [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
+- [[2026-09-01-trainingdata-making-cities-awesome-peregrine-s-nick-n|《Peregrine：不做监控国家，用AI保护城市安全》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[后训练]] · [[Lenny]] · [[前向部署工程师]] · [[NVIDIA]] · [[开源模型]] · [[token]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Meta]] · [[后训练]] · [[ChatGPT]] · [[Lenny]] · [[前向部署工程师]] · [[NVIDIA]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":85,"智能体":1,"OpenAI":73,"Meta":24,"后训练":17,"Lenny":66,"前向部署工程师":6,"NVIDIA":24,"开源模型":4,"token":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":86,"OpenAI":74,"Meta":24,"后训练":17,"ChatGPT":43,"Lenny":66,"前向部署工程师":6,"NVIDIA":24,"开源模型":4}</script>
 
 <script>
 (function(){

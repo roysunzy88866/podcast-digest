@@ -1,0 +1,593 @@
+{
+  "episode_id": "2026-09-01-trainingdata-making-cities-awesome-peregrine-s-nick-n",
+  "podcast": "Training Data",
+  "date": "2026-09-01",
+  "tags": [
+    "公共安全AI",
+    "前向部署工程",
+    "数据治理",
+    "智能体",
+    "反监控"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "nick-noone",
+      "type": "person",
+      "role": "host",
+      "name": "Nick Noone",
+      "file": "Nick Noone",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ben-rudolph",
+      "type": "person",
+      "role": "guest",
+      "name": "Ben Rudolph",
+      "file": "Ben Rudolph",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "peregrine",
+      "type": "company",
+      "role": "company",
+      "name": "Peregrine",
+      "file": "Peregrine",
+      "primary": true,
+      "how_described": "本集说 Peregrine 是构建保护城市和社区的 AI 的公司，其商业模式是传统数据收集公司的反转——不往客户那里带新数据，只连接客户已有且散落各处的信息，在上面搭治理严格的层帮人精确回答问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            12.734
+          ],
+          "quote": "Peregrine is really around this idea of how can we leverage technology to work with our cities, our counties, our states to impact the places that we live in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 11,
+          "t": [
+            96.103,
+            102.728
+          ],
+          "quote": "Peregrine is building AI that protects cities and communities, and they are rejecting the surveillance state while doing that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            241.243,
+            245.465
+          ],
+          "quote": "When we first started building Peregrine,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            476.152,
+            490.786
+          ],
+          "quote": "And that was a really cool moment for me and really formed my thesis and idea around how Peregrine can have impact and how technology can have impact in the communities that we live in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 66,
+          "t": [
+            492.017,
+            505.367
+          ],
+          "quote": "And so Peregrine is really around this idea of how can we leverage technology to work with our cities, our counties, our states to impact the places that we live in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1148.841,
+            1151.042
+          ],
+          "quote": "Peregrine is like the inversion of that entire model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1327.836,
+            1329.277
+          ],
+          "quote": "It's not Peregrine's data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1453.832,
+            1458.594
+          ],
+          "quote": "And so they started asking Peregrine and starting interrogating this question.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1740.149,
+            1744.891
+          ],
+          "quote": "So much of what Peregrine does on the technology side is emergent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1744.971,
+            1748.372
+          ],
+          "quote": "Peregrine has been providing domain expertise and",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1787.886,
+            1795.509
+          ],
+          "quote": "And so I believe like the core strategy of Peregrine has remained very unchanged in this new age of AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1806.382,
+            1809.205
+          ],
+          "quote": "So I think stepping back a little bit, like what is the Peregrine platform?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2264.344,
+            2268.408
+          ],
+          "quote": "Peregrine the anti-network effects business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2541.217,
+            2547.999
+          ],
+          "quote": "I think the uniqueness about Peregrine is for each organization, we'll take the time to deliver solutions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2574.372,
+            2579.156
+          ],
+          "quote": "I've had the chance to talk to a few deployment strategists at Peregrine and they are, they're amazing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2799.37,
+            2804.735
+          ],
+          "quote": "For the longest time in Peregrine, we had no ability to edit specific fields and properties.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2814.291,
+            2818.315
+          ],
+          "quote": "And that comment would be read by Peregrine and then update a property.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2898.67,
+            2901.951
+          ],
+          "quote": "where someone had built a hurricane simulator in Peregrine.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集提到 Palantir 是前向部署工程概念的来源地，并以不接八位数以下合同著称，作为对比说明 Peregrine 服务「弱者」客户的不同路径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            114.341,
+            117.064
+          ],
+          "quote": "Nick, you ran Palantir's SOCOM unit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            127.554,
+            137.283
+          ],
+          "quote": "Palantir was a really fun experience and a really formative one because before joining the company, I had no idea what this concept of forward deployed engineering meant.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2448.667,
+            2469.107
+          ],
+          "quote": "Maybe in a similar vein, I want to talk about delivering technology to the underdogs and how you're able to scale this very deep customer motion into a very different customer base than the other company that notoriously has scaled this motion, Palantir, which notoriously doesn't take anything less than eight-figure contracts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "flock",
+      "type": "company",
+      "role": "company",
+      "name": "Flock",
+      "file": "Flock",
+      "primary": false,
+      "how_described": "本集提到 Flock 是做摄像头的公司，其商业模式建立在数据收集上：装硬件进去被动采集信息，靠分发优势卖更多收集系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            1096.45,
+            1102.014
+          ],
+          "quote": "How is your business structurally different from the data collection companies like a Flock or an Axon?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "axon",
+      "type": "company",
+      "role": "company",
+      "name": "Axon",
+      "file": "Axon",
+      "primary": false,
+      "how_described": "本集提到 Axon 是做执法记录仪的公司，与 Flock 一样，商业模式建立在数据收集和网络效应上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            1096.45,
+            1102.014
+          ],
+          "quote": "How is your business structurally different from the data collection companies like a Flock or an Axon?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "前向部署工程 (forward deployed engineering)",
+      "file": "前向部署工程",
+      "primary": true,
+      "how_described": "本集说前向部署工程的核心是派人走进客户的真实环境，心理上「拥有」或「共同拥有」客户的问题，技术只是手段，真正的目标是不惜一切代价替客户拿到结果，比任何其他人快三到五倍，但胜利归客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            103.589,
+            111.575
+          ],
+          "quote": "And this should be a fantastic conversation about one of the most important applications of AI, forward-deployed engineering, civil liberties, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            122.289,
+            127.074
+          ],
+          "quote": "Tell me, what does forward deployed engineering actually mean and what does Silicon Valley get wrong about it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            127.554,
+            137.283
+          ],
+          "quote": "Palantir was a really fun experience and a really formative one because before joining the company, I had no idea what this concept of forward deployed engineering meant.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集讨论了智能体两种用法：一是内部长时运行的集成智能体，分析数据库、理解本体、拆分成子智能体干活，目前编写约 90% 的 Python 笔记本集成代码；二是面向终端用户的运营智能体如冷案智能体，上传 200-300GB 数据后运行 30-60 分钟提取线索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            1466.496,
+            1471.078
+          ],
+          "quote": "But after a couple iterations and the agent doing some deep research,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1662.885,
+            1670.187
+          ],
+          "quote": "And so what we're seeing is that these deployment strategists, not every customer needs an agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1800.057,
+            1803.6
+          ],
+          "quote": "Are you doing anything on the long horizon agent side or background agents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1831.684,
+            1840.007
+          ],
+          "quote": "And we have built an agent that enables our deployment strategy team to integrate this data agentically.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1878.493,
+            1883.737
+          ],
+          "quote": "Those split off into subagents that all do a bunch of work communicating back to kind of the orchestrator agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1913.801,
+            1918.505
+          ],
+          "quote": "And the very first agent that we built was a cold case agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1919.045,
+            1924.669
+          ],
+          "quote": "And this agent, just to give you some context on what some of these",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1962.991,
+            1966.892
+          ],
+          "quote": "And so our cold case agent, we built this with customer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1983.139,
+            1986.922
+          ],
+          "quote": "And they said, hey, can you reproduce this result with an agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1987.342,
+            2000.953
+          ],
+          "quote": "And so we took all of the evidence and data that they had on that case and started to work on an agent that would run for 30 minutes, 60 minutes to start to glean insights.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2009.72,
+            2012.044
+          ],
+          "quote": "The manifestation of our first cold case agent.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "data-governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据治理 (data governance)",
+      "file": "数据治理",
+      "primary": true,
+      "how_described": "本集说数据治理（连同权限控制和主权）是部署到高风险机构的必要成分，Peregrine 通过它来调和公共安全与拒绝监控国家之间的张力，让每个机构安全地在内部使用自己的数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1241.643,
+            1249.59
+          ],
+          "quote": "I'll just say from day one, we've been really focused and thinking about this idea of permission controls, data governance, sovereignty.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1281.884,
+            1293.411
+          ],
+          "quote": "It seems like the data governance and data being so locked down is almost the way to reconcile the tension between public safety and, you know, not be humming the surveillance state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2246.228,
+            2252.294
+          ],
+          "quote": "But, and this is where things that might sometimes seem mundane, but we find really fascinating, like how do you think through data governance?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anti-network-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "反网络效应 (anti-network effect)",
+      "file": "反网络效应",
+      "primary": true,
+      "how_described": "本集说 Peregrine 的模式几乎是反网络效应的主张——不是最大化数据量和网络效应，而是去中心化，保留每个机构数据的神圣性和所有权，然后再建立互操作性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 361,
+          "t": [
+            2224.781,
+            2227.463
+          ],
+          "quote": "It's almost like the anti-network effect proposition.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ontology",
+      "type": "concept",
+      "role": "concept",
+      "name": "本体 (ontology)",
+      "file": "本体",
+      "primary": false,
+      "how_described": "本集提到本体是 Peregrine 垂直整合技术栈的组件之一，智能体在数据集成过程中需要理解本体（即数据的结构关系）来拼凑需要整合的部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1873.29,
+            1878.153
+          ],
+          "quote": "Understand the ontology, start to piece together different pieces that need to be integrated.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2501.119,
+            2509.422
+          ],
+          "quote": "Everything from network access to the permissioning and the governance and the ETL and the pipeline and the ontology and the UX and the APIs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "facial-recognition",
+      "type": "concept",
+      "role": "concept",
+      "name": "面部识别 (facial recognition)",
+      "file": "面部识别",
+      "primary": false,
+      "how_described": "本集提到面部识别作为技术红线的例子，Peregrine 的立场是硅谷公司不应给整个行业强加通用技术红线，而应帮客户理解具体环境后由客户自己决定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 381,
+          "t": [
+            2324.042,
+            2326.344
+          ],
+          "quote": "So for example, facial recognition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2333.215,
+            2346.28
+          ],
+          "quote": "Quickly on facial recognition, I think the idea of a Silicon Valley company imposing a decision that is kind of general purpose for an industry is fundamentally wrong.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2383.233,
+            2390.622
+          ],
+          "quote": "On facial rec, most public safety agencies in America and their communities choose not to implement facial recognition.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "semantic-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义搜索 (semantic search)",
+      "file": "语义搜索",
+      "primary": false,
+      "how_described": "本集提到语义搜索（配合嵌入）使探员能找到关键词搜索无法找到的信息，例如从大量数据中语义理解并找出针对犹太教堂的反犹威胁模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1594.562,
+            1596.624
+          ],
+          "quote": "So you got semantic search and embeddings going on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

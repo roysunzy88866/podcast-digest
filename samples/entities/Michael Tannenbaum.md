@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"分词":3,"Meta":24,"AI":11}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"分词":3,"Meta":24,"AI":12}</script>
 
 <script>
 (function(){

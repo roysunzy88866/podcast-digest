@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"系统提示词":3,"gpt 5.6":1,"Fable":8,"Anthropic":85,"open ai":2,"Codex":32,"智能体":1,"提示词":2,"原型":3,"浏览器使用":3}</script>
+<script type="application/json" class="pd-epn">{"系统提示词":3,"gpt 5.6":1,"Fable":8,"Anthropic":86,"open ai":2,"Codex":32,"智能体":1,"提示词":2,"原型":3,"浏览器使用":3}</script>
 
 <script>
 (function(){

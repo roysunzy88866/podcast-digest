@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Canva":3,"Column B":1,"疯狂大目标":1,"从混乱到清晰":1,"使命支柱":1,"两步计划":1,"前端重写":1,"AI":11}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Canva":3,"Column B":1,"疯狂大目标":1,"从混乱到清晰":1,"使命支柱":1,"两步计划":1,"前端重写":1,"AI":12}</script>
 
 <script>
 (function(){

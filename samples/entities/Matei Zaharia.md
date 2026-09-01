@@ -36,7 +36,7 @@ aliases: ["Matei", "Mattia"]
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
 
 </div>
 

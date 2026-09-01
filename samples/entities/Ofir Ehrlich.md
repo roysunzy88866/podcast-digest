@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Gonen Stein]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":1,"数据基础层":1,"ETL":2,"token":11,"后训练":17,"PLG":6,"Google":33,"AWS":9}</script>
+<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":1,"数据基础层":1,"ETL":2,"token":11,"后训练":17,"PLG":6,"Google":34,"AWS":9}</script>
 
 <script>
 (function(){

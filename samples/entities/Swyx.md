@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"沙箱":33,"智能体":1,"推理":3,"Modal":3,"Cognition":12,"Anthropic":85,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"沙箱":33,"智能体":1,"推理":3,"Modal":3,"Cognition":12,"Anthropic":86,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
 
 <script>
 (function(){

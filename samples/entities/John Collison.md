@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"智能体":1,"LLM":22,"推荐系统":1,"监督学习":2,"强化学习":13,"transformer":3,"创造性破坏":1,"Anthropic":85}</script>
+<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"智能体":1,"LLM":22,"推荐系统":1,"监督学习":2,"强化学习":13,"transformer":3,"创造性破坏":1,"Anthropic":86}</script>
 
 <script>
 (function(){

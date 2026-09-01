@@ -1,0 +1,4162 @@
+[
+ {
+  "seg": 0,
+  "start": 0.131,
+  "end": 12.734,
+  "speaker": "Unknown",
+  "en": "Peregrine is really around this idea of how can we leverage technology to work with our cities, our counties, our states to impact the places that we live in.",
+  "zh": "Peregrine 真的是围绕着这样一个理念，即我们如何利用技术与我们的城市、我们的县、我们的州合作，以影响我们所居住的地方。"
+ },
+ {
+  "seg": 1,
+  "start": 13.374,
+  "end": 19.416,
+  "speaker": "Unknown",
+  "en": "At the bottom of the pyramid, really, when it comes to how to make cities awesome is the idea of safety.",
+  "zh": "在金字塔的底部，实际上，当涉及到如何让城市变得很棒时，是安全这个理念。"
+ },
+ {
+  "seg": 2,
+  "start": 20.496,
+  "end": 25.678,
+  "speaker": "Unknown",
+  "en": "The idea that people need objective safety and also need to feel safe.",
+  "zh": "人们需要客观的安全，并且也需要感到安全的理念。"
+ },
+ {
+  "seg": 3,
+  "start": 27.038,
+  "end": 27.178,
+  "speaker": "Unknown",
+  "en": "And",
+  "zh": "并且"
+ },
+ {
+  "seg": 4,
+  "start": 28.725,
+  "end": 31.847,
+  "speaker": "Unknown",
+  "en": "When that stability is there, it's amazing what's possible.",
+  "zh": "当那种稳定性存在时，可能发生的事情是惊人的。"
+ },
+ {
+  "seg": 5,
+  "start": 32.887,
+  "end": 40.371,
+  "speaker": "Unknown",
+  "en": "And there were all these kind of contrasting, but actually similar concepts that we were wrestling with at the time.",
+  "zh": "当时我们正在努力解决所有这些对比鲜明但实际上相似的概念。"
+ },
+ {
+  "seg": 6,
+  "start": 40.731,
+  "end": 53.318,
+  "speaker": "Unknown",
+  "en": "We were thinking about how to deploy inside of institutions and also find ways to eliminate the mishandling of information inside of really complex organizations that have access to super, super sensitive data.",
+  "zh": "我们在思考如何在机构内部部署，并找到方法消除真正复杂的组织内部信息的误处理，这些组织有权访问超级、超级敏感的数据。"
+ },
+ {
+  "seg": 7,
+  "start": 53.618,
+  "end": 54.939,
+  "speaker": "Unknown",
+  "en": "And then if we could create...",
+  "zh": "然后如果我们能创造……"
+ },
+ {
+  "seg": 8,
+  "start": 56.072,
+  "end": 64.358,
+  "speaker": "Unknown",
+  "en": "And the backbone infrastructure level of the modern city, then we could help to preserve individuality.",
+  "zh": "以及现代城市的骨干基础设施层面，那么我们可以帮助保存个性。"
+ },
+ {
+  "seg": 9,
+  "start": 65.139,
+  "end": 71.163,
+  "speaker": "Unknown",
+  "en": "We talk about privacy and other aspects of what it means to be like an individual person, but also bring people together.",
+  "zh": "我们谈论隐私以及作为一个个体意味着什么的其他方面，但同时也把人们聚集在一起。"
+ },
+ {
+  "seg": 10,
+  "start": 88.277,
+  "end": 95.282,
+  "speaker": "Unknown",
+  "en": "One of the most important stories in AI is from a company that you may not have heard of, but is almost certainly keeping you and your loved ones safe.",
+  "zh": "AI 中最重要的故事之一来自一家你可能没听说过的公司，但它几乎肯定正在保护你和你的亲人的安全。"
+ },
+ {
+  "seg": 11,
+  "start": 96.103,
+  "end": 102.728,
+  "speaker": "Unknown",
+  "en": "Peregrine is building AI that protects cities and communities, and they are rejecting the surveillance state while doing that.",
+  "zh": "Peregrine 正在建立保护城市和社区的 AI，并且在这样做的同时，他们拒绝了监控国家。"
+ },
+ {
+  "seg": 12,
+  "start": 103.589,
+  "end": 111.575,
+  "speaker": "Unknown",
+  "en": "And this should be a fantastic conversation about one of the most important applications of AI, forward-deployed engineering, civil liberties, and much more.",
+  "zh": "这应该是一场关于 AI 最重要的应用之一、前向部署工程、公民自由以及更多内容的精彩对话。"
+ },
+ {
+  "seg": 13,
+  "start": 111.955,
+  "end": 112.896,
+  "speaker": "Unknown",
+  "en": "So let's get into it.",
+  "zh": "所以让我们开始吧。"
+ },
+ {
+  "seg": 14,
+  "start": 114.341,
+  "end": 117.064,
+  "speaker": "Unknown",
+  "en": "Nick, you ran Palantir's SOCOM unit.",
+  "zh": "Nick，你负责过 Palantir 的 SOCOM 部门。"
+ },
+ {
+  "seg": 15,
+  "start": 117.504,
+  "end": 121.588,
+  "speaker": "Unknown",
+  "en": "You deployed into dangerous high-stakes intelligence operations in the Middle East.",
+  "zh": "你部署到了中东危险的高风险情报行动中。"
+ },
+ {
+  "seg": 16,
+  "start": 122.289,
+  "end": 127.074,
+  "speaker": "Unknown",
+  "en": "Tell me, what does forward deployed engineering actually mean and what does Silicon Valley get wrong about it?",
+  "zh": "告诉我，前向部署工程到底意味着什么，而硅谷对它的误解是什么？"
+ },
+ {
+  "seg": 17,
+  "start": 127.554,
+  "end": 137.283,
+  "speaker": "Unknown",
+  "en": "Palantir was a really fun experience and a really formative one because before joining the company, I had no idea what this concept of forward deployed engineering meant.",
+  "zh": "Palantir 是一次非常有趣的经历，也是一次具有塑造意义的经历，因为在加入公司之前，我不知道前向部署工程这个概念意味着什么。"
+ },
+ {
+  "seg": 18,
+  "start": 139.756,
+  "end": 148.439,
+  "speaker": "Unknown",
+  "en": "But I was surrounded by people that were running into customer environments and doing who knows what.",
+  "zh": "但我周围都是冲进客户环境并在做天知道什么事的人。"
+ },
+ {
+  "seg": 19,
+  "start": 150.42,
+  "end": 151.04,
+  "speaker": "Unknown",
+  "en": "I watched them.",
+  "zh": "我观察他们。"
+ },
+ {
+  "seg": 20,
+  "start": 151.7,
+  "end": 152.741,
+  "speaker": "Unknown",
+  "en": "I watched them leave the office.",
+  "zh": "我看他们离开办公室。"
+ },
+ {
+  "seg": 21,
+  "start": 152.781,
+  "end": 155.082,
+  "speaker": "Unknown",
+  "en": "I watched them come back to the office and tell stories.",
+  "zh": "我看他们回到办公室并讲故事。"
+ },
+ {
+  "seg": 22,
+  "start": 157.383,
+  "end": 168.007,
+  "speaker": "Unknown",
+  "en": "It felt to me like the adventure of a lifetime to be able to go into a customer context and own the customer's problem",
+  "zh": "对我来说，能够进入客户的语境并拥有客户的问题，感觉像是一生一次的冒险"
+ },
+ {
+  "seg": 23,
+  "start": 169.122,
+  "end": 179.169,
+  "speaker": "Unknown",
+  "en": "But also take pride in the fact that the problem belongs to the customer and then take pride in getting the customer to the win.",
+  "zh": "但也对问题属于客户这一事实感到自豪，然后对帮助客户获得胜利感到自豪。"
+ },
+ {
+  "seg": 24,
+  "start": 179.57,
+  "end": 193.66,
+  "speaker": "Unknown",
+  "en": "And so these two truths that I learned when I was an early forward deployed engineer and that we try to embrace as we built our company, and those are that",
+  "zh": "所以当我还是一名早期前向部署工程师时学到了这两个真理，我们在建立公司时试图拥抱它们，那就是"
+ },
+ {
+  "seg": 25,
+  "start": 195.737,
+  "end": 200.079,
+  "speaker": "Unknown",
+  "en": "We psychologically go in and own or co-own the problem.",
+  "zh": "我们在心理上介入并拥有或共同拥有这个问题。"
+ },
+ {
+  "seg": 26,
+  "start": 200.799,
+  "end": 205.921,
+  "speaker": "Unknown",
+  "en": "We talk internally about getting all the way to the outcome with and on behalf of our customers.",
+  "zh": "我们在内部谈论的是，与我们的客户一起并代表我们的客户，一路达到结果。"
+ },
+ {
+  "seg": 27,
+  "start": 206.681,
+  "end": 220.987,
+  "speaker": "Unknown",
+  "en": "Technology and all of the skills and ways of delivering our tech is part of the answer, but the real answer is just getting to the outcome at all costs, ideally three to five times faster than any other person or team could do.",
+  "zh": "技术以及所有的技能和交付技术的方法只是答案的一部分，但真正的答案是不惜一切代价达到结果，理想情况下比任何其他人或团队快三到五倍。"
+ },
+ {
+  "seg": 28,
+  "start": 222.647,
+  "end": 223.708,
+  "speaker": "Unknown",
+  "en": "And everything flows from there.",
+  "zh": "一切都源于此。"
+ },
+ {
+  "seg": 29,
+  "start": 225.116,
+  "end": 239.022,
+  "speaker": "Unknown",
+  "en": "But recognizing that at the end of the day, it's the customer's win, it's not our win, and taking deep pride in the impact that we have on the institution and on the people that we're sitting across the table from, that's where the magic is culturally.",
+  "zh": "但认识到归根结底，这是客户的胜利，不是我们的胜利，并对我们对机构以及我们要与之面对面的人产生的影响感到深深的自豪，这就是文化上的魔力所在。"
+ },
+ {
+  "seg": 30,
+  "start": 239.322,
+  "end": 240.803,
+  "speaker": "Unknown",
+  "en": "What does Silicon Valley get wrong about it?",
+  "zh": "硅谷对它的误解是什么？"
+ },
+ {
+  "seg": 31,
+  "start": 241.243,
+  "end": 245.465,
+  "speaker": "Unknown",
+  "en": "When we first started building Peregrine,",
+  "zh": "当我们刚开始构建 Peregrine 时，"
+ },
+ {
+  "seg": 32,
+  "start": 247.011,
+  "end": 249.453,
+  "speaker": "Unknown",
+  "en": "The forward-to-plate engineering concept had been around for a while.",
+  "zh": "前向赴盘工程的概念已经存在了一段时间了。"
+ },
+ {
+  "seg": 33,
+  "start": 250.053,
+  "end": 272.487,
+  "speaker": "Unknown",
+  "en": "And we got feedback that when really smart people from top five, top 10 or equivalent schools would go into a really complicated place like the LAPD and quickly try to understand 30 years of institutional context.",
+  "zh": "我们得到的反馈是，当来自前五名、前 10 名或同等学校的非常聪明的人进入像 LAPD 这样非常复杂的地方，并试图快速理解 30 年的机构背景时。"
+ },
+ {
+  "seg": 34,
+  "start": 273.82,
+  "end": 276.062,
+  "speaker": "Unknown",
+  "en": "Not just at the data level, but at the human level.",
+  "zh": "不仅仅是在数据层面，而是在人类层面。"
+ },
+ {
+  "seg": 35,
+  "start": 276.542,
+  "end": 277.603,
+  "speaker": "Unknown",
+  "en": "How does this organization work?",
+  "zh": "这个组织是如何运作的？"
+ },
+ {
+  "seg": 36,
+  "start": 277.623,
+  "end": 278.503,
+  "speaker": "Unknown",
+  "en": "How are decisions made?",
+  "zh": "决策是如何制定的？"
+ },
+ {
+  "seg": 37,
+  "start": 278.523,
+  "end": 280.244,
+  "speaker": "Unknown",
+  "en": "How do teams interoperate with each other?",
+  "zh": "团队之间如何互操作？"
+ },
+ {
+  "seg": 38,
+  "start": 280.485,
+  "end": 287.69,
+  "speaker": "Unknown",
+  "en": "The idea that moving fast is even possible in that environment is very counterintuitive to the customer.",
+  "zh": "在那个环境下快速移动甚至是可能的这一理念，对客户来说是非常违反直觉的。"
+ },
+ {
+  "seg": 39,
+  "start": 288.29,
+  "end": 297.036,
+  "speaker": "Unknown",
+  "en": "And unfortunately, I think that shows up as ego to a lot of organizations where people have dedicated their entire lives to a particular role.",
+  "zh": "不幸的是，我认为这在很多组织中表现为自我，那些人把他们的一生都奉献给了特定的角色。"
+ },
+ {
+  "seg": 40,
+  "start": 298.157,
+  "end": 299.158,
+  "speaker": "Unknown",
+  "en": "And I think Silicon Valley",
+  "zh": "而且我认为硅谷"
+ },
+ {
+  "seg": 41,
+  "start": 300.458,
+  "end": 301.519,
+  "speaker": "Unknown",
+  "en": "Misses that sometimes.",
+  "zh": "有时候错过了这一点。"
+ },
+ {
+  "seg": 42,
+  "start": 302.039,
+  "end": 323.274,
+  "speaker": "Unknown",
+  "en": "That letting go of our intelligence, letting go of our own skills and abilities, trying to suspend our ego and then really get into the customer's context is an easy thing to say, but it's such a high empathy, patient way of working.",
+  "zh": "放下我们的智慧，放下我们自己的技能和能力，试图暂停我们的自我，然后真正进入客户的语境，这是一件容易说的事，但这是一种非常需要共情、耐心的工作方式。"
+ },
+ {
+  "seg": 43,
+  "start": 323.629,
+  "end": 324.77,
+  "speaker": "Unknown",
+  "en": "Yeah, I love that.",
+  "zh": "是的，我喜欢这一点。"
+ },
+ {
+  "seg": 44,
+  "start": 325.33,
+  "end": 333.836,
+  "speaker": "Unknown",
+  "en": "Ben, you, while Nick was off deploying into the Middle East, you were in almost the opposite part of the world in every sense of the word.",
+  "zh": "Ben，当 Nick 去中东部署时，你在某种意义上的世界的另一端。"
+ },
+ {
+  "seg": 45,
+  "start": 334.256,
+  "end": 344.543,
+  "speaker": "Unknown",
+  "en": "You were doing refugee work in Africa, in India, but you landed on a similar thesis of the world and technology's role in it.",
+  "zh": "你在非洲、印度做难民工作，但你对世界和技术在其中的作用得出了类似的论点。"
+ },
+ {
+  "seg": 46,
+  "start": 345.344,
+  "end": 346.225,
+  "speaker": "Unknown",
+  "en": "Maybe say a word on that.",
+  "zh": "也许对此说几句。"
+ },
+ {
+  "seg": 47,
+  "start": 346.385,
+  "end": 347.365,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 48,
+  "start": 347.385,
+  "end": 351.788,
+  "speaker": "Unknown",
+  "en": "So for me, I've always been obsessed with this idea of",
+  "zh": "所以对我来说，我一直痴迷于这个理念"
+ },
+ {
+  "seg": 49,
+  "start": 353.038,
+  "end": 357.341,
+  "speaker": "Unknown",
+  "en": "How do you make impact with technology?",
+  "zh": "如何用技术产生影响力？"
+ },
+ {
+  "seg": 50,
+  "start": 357.361,
+  "end": 360.663,
+  "speaker": "Unknown",
+  "en": "I graduated school and I remember I had these two offers.",
+  "zh": "我毕业了，我记得我有这两个邀约。"
+ },
+ {
+  "seg": 51,
+  "start": 360.763,
+  "end": 380.776,
+  "speaker": "Unknown",
+  "en": "One was to go work at a small startup at the time, Airbnb, and the UN Refugee Agency, which is an organization that goes and helps refugees who are making these extremely dangerous treks across country lines, usually because of war, to try and get help.",
+  "zh": "一个是去当时的一个小初创公司 Airbnb，以及联合国难民署，这是一个去帮助难民的组织，这些难民正在跨越国界进行极度危险的跋涉，通常是因为战争，试图寻求帮助。"
+ },
+ {
+  "seg": 52,
+  "start": 382.897,
+  "end": 392.412,
+  "speaker": "Unknown",
+  "en": "...took that path and deployed to the Sudanese border, the Colombian border, and was deeply humbled and really underst...",
+  "zh": "……选择了那条路并被部署到苏丹边境、哥伦比亚边境，并且深感谦卑，真的理……"
+ },
+ {
+  "seg": 53,
+  "start": 396.377,
+  "end": 405.107,
+  "speaker": "Unknown",
+  "en": "Deeply understood these types of situations and where technology can help and where, honestly, it can't help.",
+  "zh": "深入了解了这类情况以及技术在哪里能提供帮助，以及说实话，在哪里它无法提供帮助。"
+ },
+ {
+  "seg": 54,
+  "start": 405.868,
+  "end": 412.436,
+  "speaker": "Unknown",
+  "en": "And I remember the thing that I took away from that experience is, you know,",
+  "zh": "我记得我从那次经历中带走的一件事是，你知道，"
+ },
+ {
+  "seg": 55,
+  "start": 414.734,
+  "end": 416.796,
+  "speaker": "Unknown",
+  "en": "It's a deeply disconnected organization.",
+  "zh": "这是一个严重脱节的组织。"
+ },
+ {
+  "seg": 56,
+  "start": 416.816,
+  "end": 418.577,
+  "speaker": "Unknown",
+  "en": "It does phenomenal work, but it's deeply disconnected.",
+  "zh": "它做的工作很出色，但它严重脱节。"
+ },
+ {
+  "seg": 57,
+  "start": 418.958,
+  "end": 424.162,
+  "speaker": "Unknown",
+  "en": "They have some data that's often in spreadsheets, and it's very difficult to actually make sense of.",
+  "zh": "他们有一些数据，通常是在电子表格中，实际上很难理解。"
+ },
+ {
+  "seg": 58,
+  "start": 424.563,
+  "end": 434.611,
+  "speaker": "Unknown",
+  "en": "And so that's where I started to form this thesis of a lot of these problems are downstream of data problems where you can have a lot of impact.",
+  "zh": "所以那就是我开始形成这个论点的地方，很多这些问题都是数据问题的下游，你可以在那里产生很大影响。"
+ },
+ {
+  "seg": 59,
+  "start": 435.012,
+  "end": 441.397,
+  "speaker": "Unknown",
+  "en": "After UNHCR, the UN Refugee Agency, I left to join an organization that",
+  "zh": "在离开联合国难民署（UNHCR）之后，我离开去加入了一个组织，该"
+ },
+ {
+  "seg": 60,
+  "start": 442.601,
+  "end": 444.843,
+  "speaker": "Unknown",
+  "en": "You probably haven't heard of, it's called Damagi.",
+  "zh": "你可能没听说过，它叫 Damagi。"
+ },
+ {
+  "seg": 61,
+  "start": 444.883,
+  "end": 445.964,
+  "speaker": "Unknown",
+  "en": "They're a small company.",
+  "zh": "他们是一家小公司。"
+ },
+ {
+  "seg": 62,
+  "start": 446.304,
+  "end": 451.629,
+  "speaker": "Unknown",
+  "en": "They work building last mile healthcare solutions in under-resourced places around the world.",
+  "zh": "他们致力于在世界各地资源不足的地方建立最后一英里医疗解决方案。"
+ },
+ {
+  "seg": 63,
+  "start": 451.769,
+  "end": 468.264,
+  "speaker": "Unknown",
+  "en": "And so like one specific example, one project that I worked on while I was there, we were working with the Indian government on this project, building applications to help folks in rural India adhere to their tuberculosis drugs.",
+  "zh": "所以举一个具体的例子，我在那里工作时的一个项目，我们正在与印度政府合作开展这个项目，构建应用程序以帮助印度农村的人们坚持服用他们的结核病药物。"
+ },
+ {
+  "seg": 64,
+  "start": 468.804,
+  "end": 475.531,
+  "speaker": "Unknown",
+  "en": "And at the end of the day, we did get deployed and that technology rapidly spread throughout the country.",
+  "zh": "最终，我们确实得到了部署，而且这项技术迅速在全国范围内传播。"
+ },
+ {
+  "seg": 65,
+  "start": 476.152,
+  "end": 490.786,
+  "speaker": "Unknown",
+  "en": "And that was a really cool moment for me and really formed my thesis and idea around how Peregrine can have impact and how technology can have impact in the communities that we live in.",
+  "zh": "那对我来说真是一个很酷的时刻，真正形成了我的论点和想法，关于 Peregrine 如何能产生影响，以及技术如何在我们生活的社区中产生影响。"
+ },
+ {
+  "seg": 66,
+  "start": 492.017,
+  "end": 505.367,
+  "speaker": "Unknown",
+  "en": "And so Peregrine is really around this idea of how can we leverage technology to work with our cities, our counties, our states to impact the places that we live in.",
+  "zh": "所以 Peregrine 真的是围绕这个想法，我们如何利用技术与我们的城市、县、州合作，以影响我们生活的地方。"
+ },
+ {
+  "seg": 67,
+  "start": 505.687,
+  "end": 507.048,
+  "speaker": "Unknown",
+  "en": "Take us back to 2017.",
+  "zh": "带我们回到 2017 年。"
+ },
+ {
+  "seg": 68,
+  "start": 508.629,
+  "end": 511.631,
+  "speaker": "Unknown",
+  "en": "You cold called your way into the San Pablo Police Department.",
+  "zh": "你通过冷打电话的方式进入了圣巴勃罗警察局。"
+ },
+ {
+  "seg": 69,
+  "start": 512.672,
+  "end": 514.313,
+  "speaker": "Unknown",
+  "en": "What was going through your heads when you did that?",
+  "zh": "当你那样做的时候，你们脑子里在想什么？"
+ },
+ {
+  "seg": 70,
+  "start": 514.778,
+  "end": 524.574,
+  "speaker": "Unknown",
+  "en": "In 2016, when Ben and I got together actually on a vacation with a bunch of our gymnastics teammates, we had a conversation.",
+  "zh": "2016 年，当 Ben 和我实际上与一群体操队友在度假时聚在一起，我们进行了一次交谈。"
+ },
+ {
+  "seg": 71,
+  "start": 525.96,
+  "end": 530.521,
+  "speaker": "Unknown",
+  "en": "Basically 10 years after we graduated saying, should we build something together?",
+  "zh": "基本上是在我们毕业 10 年后，说，我们应该一起建造点什么吗？"
+ },
+ {
+  "seg": 72,
+  "start": 530.781,
+  "end": 541.924,
+  "speaker": "Unknown",
+  "en": "We got together in San Francisco and with my experience in the national security space and similar in the US government, Ben's experience working on humanitarian causes.",
+  "zh": "我们在旧金山聚在一起，凭借我在国家安全领域以及类似的美国政府的经验，以及 Ben 在人道主义事业方面的经验。"
+ },
+ {
+  "seg": 73,
+  "start": 542.604,
+  "end": 548.186,
+  "speaker": "Unknown",
+  "en": "And, you know, on my end had been flying back and forth between Baghdad and similar places in the Middle East.",
+  "zh": "而且，你知道，我这边一直在巴格达和中东类似的地方之间往返飞行。"
+ },
+ {
+  "seg": 74,
+  "start": 548.266,
+  "end": 551.647,
+  "speaker": "Unknown",
+  "en": "And, you know, Ben was commuting, God knows how many flights into Africa.",
+  "zh": "而且，你知道，Ben 在通勤，天知道有多少航班飞往非洲。"
+ },
+ {
+  "seg": 75,
+  "start": 551.687,
+  "end": 552.887,
+  "speaker": "Unknown",
+  "en": "And we looked at ourselves and said,",
+  "zh": "我们看着自己说，"
+ },
+ {
+  "seg": 76,
+  "start": 553.547,
+  "end": 555.148,
+  "speaker": "Unknown",
+  "en": "This is the place where people live.",
+  "zh": "这是人们生活的地方。"
+ },
+ {
+  "seg": 77,
+  "start": 555.849,
+  "end": 557.29,
+  "speaker": "Unknown",
+  "en": "This is the place where people thrive.",
+  "zh": "这是人们茁壮成长的地方。"
+ },
+ {
+  "seg": 78,
+  "start": 558.011,
+  "end": 560.333,
+  "speaker": "Unknown",
+  "en": "This is where the majority of our lives are spent.",
+  "zh": "这是我们度过大部分生活的地方。"
+ },
+ {
+  "seg": 79,
+  "start": 560.973,
+  "end": 565.076,
+  "speaker": "Unknown",
+  "en": "And then we started thinking about how to deconstruct working with American cities.",
+  "zh": "然后我们开始思考如何解构与美国城市合作。"
+ },
+ {
+  "seg": 80,
+  "start": 565.417,
+  "end": 573.843,
+  "speaker": "Unknown",
+  "en": "And what we came to is at the bottom of the pyramid, really, when it comes to how to make cities awesome is the idea of safety.",
+  "zh": "我们得出的结论是，在金字塔的底部，实际上，关于如何让城市变得棒极了，核心是安全的理念。"
+ },
+ {
+  "seg": 81,
+  "start": 574.924,
+  "end": 581.61,
+  "speaker": "Unknown",
+  "en": "The idea that people need objective safety and also need to feel safe and",
+  "zh": "这种理念是，人们需要客观上的安全，也需要感到安全，并且"
+ },
+ {
+  "seg": 82,
+  "start": 583.153,
+  "end": 586.274,
+  "speaker": "Unknown",
+  "en": "When that stability is there, it's amazing what's possible.",
+  "zh": "当那种稳定性存在时，一切皆有可能，这太神奇了。"
+ },
+ {
+  "seg": 83,
+  "start": 587.314,
+  "end": 594.795,
+  "speaker": "Unknown",
+  "en": "And there were all these kind of contrasting, but actually similar concepts that we were wrestling with at the time.",
+  "zh": "当时我们正在纠结所有这些对比鲜明但实际上相似的概念。"
+ },
+ {
+  "seg": 84,
+  "start": 595.155,
+  "end": 607.738,
+  "speaker": "Unknown",
+  "en": "We were thinking about how to deploy inside of institutions and also find ways to eliminate the mishandling of information inside of really complex organizations that have access to super, super sensitive data.",
+  "zh": "我们在思考如何部署到机构内部，并找到方法来消除真正复杂的组织内部信息的误处理，这些组织可以访问超、超敏感的数据。"
+ },
+ {
+  "seg": 85,
+  "start": 608.038,
+  "end": 609.358,
+  "speaker": "Unknown",
+  "en": "And then if we could create...",
+  "zh": "然后如果我们能够创造……"
+ },
+ {
+  "seg": 86,
+  "start": 610.52,
+  "end": 618.793,
+  "speaker": "Unknown",
+  "en": "And the backbone infrastructure level of the modern city, then we could help to preserve individuality.",
+  "zh": "以及现代城市的主干基础设施层面，那么我们可以帮助保护个性。"
+ },
+ {
+  "seg": 87,
+  "start": 619.574,
+  "end": 625.603,
+  "speaker": "Unknown",
+  "en": "We talk about privacy and other aspects of what it means to be like an individual person, but also bring people together.",
+  "zh": "我们谈论隐私以及其他关于作为一个人的方面，但也把人们聚集在一起。"
+ },
+ {
+  "seg": 88,
+  "start": 627.148,
+  "end": 639.96,
+  "speaker": "Unknown",
+  "en": "And the idea that we could do both of those things, preserve and protect individual privacy while also bringing people together and help them realize that if we're staring at the same information, we kind of want the same thing.",
+  "zh": "以及我们可以同时做这两件事的想法，在保护个人隐私的同时把人们聚集在一起，并帮助他们意识到，如果我们盯着同样的信息，我们某种程度上想要同样的东西。"
+ },
+ {
+  "seg": 89,
+  "start": 641.121,
+  "end": 642.723,
+  "speaker": "Unknown",
+  "en": "That's what I find really beautiful about cities.",
+  "zh": "这就是我觉得城市真正美丽的地方。"
+ },
+ {
+  "seg": 90,
+  "start": 643.384,
+  "end": 644.805,
+  "speaker": "Unknown",
+  "en": "And I think we're very aligned on that.",
+  "zh": "我认为我们在这一点上非常一致。"
+ },
+ {
+  "seg": 91,
+  "start": 644.985,
+  "end": 645.426,
+  "speaker": "Unknown",
+  "en": "Totally.",
+  "zh": "完全同意。"
+ },
+ {
+  "seg": 92,
+  "start": 645.726,
+  "end": 646.406,
+  "speaker": "Unknown",
+  "en": "Beautifully said.",
+  "zh": "说得很美。"
+ },
+ {
+  "seg": 93,
+  "start": 647.427,
+  "end": 649.75,
+  "speaker": "Unknown",
+  "en": "How many people said no before San Pablo said yes?",
+  "zh": "在圣巴勃罗说「是」之前，有多少人说了「不」？"
+ },
+ {
+  "seg": 94,
+  "start": 651.598,
+  "end": 656.644,
+  "speaker": "Unknown",
+  "en": "You know, it's such a blur at this point, but it's definitely over two dozen.",
+  "zh": "你知道，此时此刻这已经很模糊了，但这肯定超过了两打。"
+ },
+ {
+  "seg": 95,
+  "start": 657.225,
+  "end": 661.09,
+  "speaker": "Unknown",
+  "en": "In my opinion, we started the company on February 26th of 2018.",
+  "zh": "在我看来，我们在 2018 年 2 月 26 日创办了公司。"
+ },
+ {
+  "seg": 96,
+  "start": 661.53,
+  "end": 664.274,
+  "speaker": "Unknown",
+  "en": "We'd incorporated the company a month or so earlier.",
+  "zh": "我们大约一个月前注册了公司。"
+ },
+ {
+  "seg": 97,
+  "start": 665.115,
+  "end": 670.702,
+  "speaker": "Unknown",
+  "en": "But February 26th is the day that the San Pablo Northern California Police Department",
+  "zh": "但 2 月 26 日是加利福尼亚州北部圣巴勃罗警察局"
+ },
+ {
+  "seg": 98,
+  "start": 672.084,
+  "end": 675.465,
+  "speaker": "Unknown",
+  "en": "...permitted us to step into the building with our badges.",
+  "zh": "……允许我们佩戴徽章进入大楼的日子。"
+ },
+ {
+  "seg": 99,
+  "start": 675.925,
+  "end": 680.906,
+  "speaker": "Unknown",
+  "en": "We had desk space and we had access to information so that we could actually get to work.",
+  "zh": "我们有办公桌位，我们有获取信息的权限，所以我们实际上可以开始工作了。"
+ },
+ {
+  "seg": 100,
+  "start": 681.306,
+  "end": 690.389,
+  "speaker": "Unknown",
+  "en": "And the reason we got there is we started to research subject matter experts in the art of public safety at the city scale, at the municipal level.",
+  "zh": "我们到达那里的原因是我们开始研究城市规模、市级公共安全艺术方面的主题专家。"
+ },
+ {
+  "seg": 101,
+  "start": 691.229,
+  "end": 695.05,
+  "speaker": "Unknown",
+  "en": "And we found this amazing article about a young...",
+  "zh": "我们找到了一篇关于一位年轻的……的精彩文章"
+ },
+ {
+  "seg": 102,
+  "start": 695.97,
+  "end": 705.457,
+  "speaker": "Unknown",
+  "en": "Up and coming commander in a local police department named Brian Bubar, who was catapulting up the ranks inside of a paramilitary organization.",
+  "zh": "当地警局中一位名叫 Brian Bubar 的崭露头角的指挥官，他正在一个准军事组织内部飞速晋升。"
+ },
+ {
+  "seg": 103,
+  "start": 705.497,
+  "end": 706.217,
+  "speaker": "Unknown",
+  "en": "It's very structured.",
+  "zh": "它非常有条理。"
+ },
+ {
+  "seg": 104,
+  "start": 706.297,
+  "end": 710.12,
+  "speaker": "Unknown",
+  "en": "It takes years and years to reach higher levels of leadership.",
+  "zh": "需要很多年才能达到更高的领导层级。"
+ },
+ {
+  "seg": 105,
+  "start": 711.281,
+  "end": 714.563,
+  "speaker": "Unknown",
+  "en": "And he was young and intelligent and creative.",
+  "zh": "他年轻、聪明且富有创造力。"
+ },
+ {
+  "seg": 106,
+  "start": 715.003,
+  "end": 724.73,
+  "speaker": "Unknown",
+  "en": "And there's this article we found online about Operation Red Reach, which was one of the most iconic cross-jurisdictional gang affiliated narcotics",
+  "zh": "我们在网上找到了一篇关于“红色延伸行动”的文章，这是最具标志性的跨辖区涉毒帮派"
+ },
+ {
+  "seg": 107,
+  "start": 726.175,
+  "end": 732.34,
+  "speaker": "Unknown",
+  "en": "And Brian was a covert operator trying to figure out how to move this stuck investigation forward.",
+  "zh": "Brian 是一名秘密行动员，试图弄清楚如何推进这项陷入僵局的调查。"
+ },
+ {
+  "seg": 108,
+  "start": 732.36,
+  "end": 737.544,
+  "speaker": "Unknown",
+  "en": "I thought that took so much courage.",
+  "zh": "我认为那需要很大的勇气。"
+ },
+ {
+  "seg": 109,
+  "start": 747.471,
+  "end": 770.398,
+  "speaker": "Unknown",
+  "en": "For someone like Brian to come in and be the reason Operation Red Reach, and it was obviously wasn't just Brian, but so many people surrounded that work and did something so impactful and made headlines, but more importantly, you know, changed the state of safety in Contra Costa County.",
+  "zh": "对于像 Brian 这样的人来说，成为“红色延伸行动”的原因——显然这不仅仅是 Brian，还有很多人围绕这项工作做了如此有影响力的事情并上了头条，但更重要的是，你知道，改变了康特拉科斯塔县的安全状况。"
+ },
+ {
+  "seg": 110,
+  "start": 771.038,
+  "end": 775.58,
+  "speaker": "Unknown",
+  "en": "We just called him and said, Brian, we don't know that much.",
+  "zh": "我们只是给他打电话说，Brian，我们不太懂。"
+ },
+ {
+  "seg": 111,
+  "start": 777.944,
+  "end": 780.905,
+  "speaker": "Unknown",
+  "en": "We may have some utility, but I don't know.",
+  "zh": "我们可能有一些用处，但我不知道。"
+ },
+ {
+  "seg": 112,
+  "start": 782.565,
+  "end": 796.528,
+  "speaker": "Unknown",
+  "en": "Can we come in, ask you some questions, learn from you, try to understand some of the awesome things you've done, including some of these amazing prior investigations, and then maybe build something over time and just see what happens and lead with that level of trust.",
+  "zh": "我们能不能进来，问你一些问题，向你学习，试着理解你做的一些很棒的事情，包括这些惊人的以前的调查，然后也许随着时间的推移建立一些东西，看看会发生什么，并以那种程度的信任为主导。"
+ },
+ {
+  "seg": 113,
+  "start": 796.868,
+  "end": 799.348,
+  "speaker": "Unknown",
+  "en": "And that was what finally got us access.",
+  "zh": "这最终让我们获得了准入。"
+ },
+ {
+  "seg": 114,
+  "start": 799.949,
+  "end": 800.909,
+  "speaker": "Unknown",
+  "en": "He took a chance on you.",
+  "zh": "他冒险相信了你们。"
+ },
+ {
+  "seg": 115,
+  "start": 801.529,
+  "end": 802.309,
+  "speaker": "Unknown",
+  "en": "Yeah, truly.",
+  "zh": "是的，真的是。"
+ },
+ {
+  "seg": 116,
+  "start": 805.87,
+  "end": 806.77,
+  "speaker": "Unknown",
+  "en": "Did you do ride-alongs?",
+  "zh": "你们做过跟随巡逻吗？"
+ },
+ {
+  "seg": 117,
+  "start": 808.245,
+  "end": 810.727,
+  "speaker": "Unknown",
+  "en": "We have amazing photos from those days.",
+  "zh": "我们有一些那个时期的精彩照片。"
+ },
+ {
+  "seg": 118,
+  "start": 811.288,
+  "end": 817.533,
+  "speaker": "Unknown",
+  "en": "Our first ride-along was actually with Oakland PD, which was way when we were still in this deep research.",
+  "zh": "我们的第一次跟随巡逻实际上是和奥克兰警局一起的，那还是当我们处于这项深度研究的时候。"
+ },
+ {
+  "seg": 119,
+  "start": 817.573,
+  "end": 820.876,
+  "speaker": "Unknown",
+  "en": "And that was a really eye-opening and interesting experience.",
+  "zh": "那真是一次大开眼界且有趣的经历。"
+ },
+ {
+  "seg": 120,
+  "start": 821.157,
+  "end": 821.837,
+  "speaker": "Unknown",
+  "en": "Overnight, I think.",
+  "zh": "过夜的，我想。"
+ },
+ {
+  "seg": 121,
+  "start": 822.017,
+  "end": 822.658,
+  "speaker": "Unknown",
+  "en": "Yeah, it was overnight.",
+  "zh": "是的，是过夜的。"
+ },
+ {
+  "seg": 122,
+  "start": 822.678,
+  "end": 823.379,
+  "speaker": "Unknown",
+  "en": "Soup and Thai overnight.",
+  "zh": "汤和泰式过夜。"
+ },
+ {
+  "seg": 123,
+  "start": 826.061,
+  "end": 827.581,
+  "speaker": "Unknown",
+  "en": "And it was also eye-opening.",
+  "zh": "那也是大开眼界的。"
+ },
+ {
+  "seg": 124,
+  "start": 827.661,
+  "end": 836.503,
+  "speaker": "Unknown",
+  "en": "I mean, most people that are coming, I think, from Silicon Valley going on ride-alongs are not necessarily engineers.",
+  "zh": "我的意思是，大多数来自硅谷去跟随巡逻的人，不一定都是工程师。"
+ },
+ {
+  "seg": 125,
+  "start": 836.543,
+  "end": 842.005,
+  "speaker": "Unknown",
+  "en": "At the time, reporters or other types of community interest organizations.",
+  "zh": "当时，是记者或其他类型的社区利益组织。"
+ },
+ {
+  "seg": 126,
+  "start": 842.045,
+  "end": 846.506,
+  "speaker": "Unknown",
+  "en": "And so I think we had the white glove service at the time.",
+  "zh": "所以我认为我们当时享受了白手套服务。"
+ },
+ {
+  "seg": 127,
+  "start": 846.526,
+  "end": 853.828,
+  "speaker": "Unknown",
+  "en": "And it really was eye-opening that it's so difficult to penetrate and build trust with these organizations.",
+  "zh": "真正让人大开眼界的是，要渗透这些组织并建立信任是如此困难。"
+ },
+ {
+  "seg": 128,
+  "start": 854.308,
+  "end": 855.768,
+  "speaker": "Unknown",
+  "en": "And so there were so many lessons at the time.",
+  "zh": "所以当时有很多教训。"
+ },
+ {
+  "seg": 129,
+  "start": 856.509,
+  "end": 858.15,
+  "speaker": "Unknown",
+  "en": "The signal to us that we just have to take our time.",
+  "zh": "给我们的信号是我们必须慢慢来。"
+ },
+ {
+  "seg": 130,
+  "start": 859.311,
+  "end": 863.154,
+  "speaker": "Unknown",
+  "en": "You started this company 2017, 2018.",
+  "zh": "你在 2017 年或 2018 年创办了这家公司。"
+ },
+ {
+  "seg": 131,
+  "start": 863.174,
+  "end": 870.121,
+  "speaker": "Unknown",
+  "en": "I think Defund the Police was starting to get going maybe in the early days of the company.",
+  "zh": "我想削减警费运动可能是在公司早期开始兴起的。"
+ },
+ {
+  "seg": 132,
+  "start": 871.022,
+  "end": 875.726,
+  "speaker": "Unknown",
+  "en": "What did that feel like and how did it make you dig deep and think about your values?",
+  "zh": "那感觉如何，它是如何让你深入挖掘并思考你的价值观的？"
+ },
+ {
+  "seg": 133,
+  "start": 876.137,
+  "end": 890.511,
+  "speaker": "Unknown",
+  "en": "I'll share that, you know, on a personal level, I think I'm a very, um, I tend to be a very experience based learner, like very tactile, very, you know, under want to hear the concepts, but build a bottoms up understanding through action.",
+  "zh": "我想分享一点，你知道，在个人层面上，我想我是一个非常，呃，我倾向于做一个非常基于经验的学习者，非常触觉化，非常，你知道，在想要听到概念之下，但通过行动建立自下而上的理解。"
+ },
+ {
+  "seg": 134,
+  "start": 891.391,
+  "end": 900.24,
+  "speaker": "Unknown",
+  "en": "And I have found in my life with that mentality, it fundamentally leads me to question assumptions and, um,",
+  "zh": "我在我的生活中发现，有了这种心态，它从根本上导致我质疑假设，以及，嗯，"
+ },
+ {
+  "seg": 135,
+  "start": 901.956,
+  "end": 908.001,
+  "speaker": "Unknown",
+  "en": "The intent is not to question assumptions in a low trust way, in a skeptical way at all times.",
+  "zh": "其意图不是以低信任的方式质疑假设，不是时刻保持怀疑的方式。"
+ },
+ {
+  "seg": 136,
+  "start": 908.502,
+  "end": 914.987,
+  "speaker": "Unknown",
+  "en": "I think there's a danger of becoming overly cynical, but to really understand truth and",
+  "zh": "我认为变得过度愤世嫉俗是有危险的，而是要真正理解真理并且"
+ },
+ {
+  "seg": 137,
+  "start": 916.22,
+  "end": 918.661,
+  "speaker": "Unknown",
+  "en": "Love like curious adventure.",
+  "zh": "像充满好奇的冒险一样去爱。"
+ },
+ {
+  "seg": 138,
+  "start": 921.001,
+  "end": 930.904,
+  "speaker": "Unknown",
+  "en": "I think that is the kind of that the psychological backing that led us to build our business in the midst of a really tumultuous time in America.",
+  "zh": "我认为这就是那种心理基础，引导我们在美国真正动荡的时期建立我们的业务。"
+ },
+ {
+  "seg": 139,
+  "start": 931.825,
+  "end": 942.608,
+  "speaker": "Unknown",
+  "en": "You know, I have a personal affinity for working with people who sometimes feel misunderstood, frankly, and",
+  "zh": "你知道，我个人喜欢与那些有时感到被误解的人一起工作，坦率地说，"
+ },
+ {
+  "seg": 140,
+  "start": 945.638,
+  "end": 946.299,
+  "speaker": "Unknown",
+  "en": "It just is.",
+  "zh": "它就是这样。"
+ },
+ {
+  "seg": 141,
+  "start": 946.419,
+  "end": 953.747,
+  "speaker": "Unknown",
+  "en": "It's a very intuitive passion for me to help them feel more understood.",
+  "zh": "对我来说，帮助他们感到更被理解是一种非常直观的热情。"
+ },
+ {
+  "seg": 142,
+  "start": 954.368,
+  "end": 958.332,
+  "speaker": "Unknown",
+  "en": "I think many people at our company probably have character qualities like that, frankly.",
+  "zh": "我想我们公司的许多人可能有那样的品质，坦率地说。"
+ },
+ {
+  "seg": 143,
+  "start": 960.074,
+  "end": 963.858,
+  "speaker": "Unknown",
+  "en": "And when I think about moments like",
+  "zh": "当我想像这样的时刻时"
+ },
+ {
+  "seg": 144,
+  "start": 966.058,
+  "end": 978.266,
+  "speaker": "Unknown",
+  "en": "COVID and the protests that were happening at the same time, the convergence of social unease in America, we were holding a lot of complexity.",
+  "zh": "COVID 以及同时发生的抗议活动，美国社会不安的汇聚，我们承载了很多复杂性。"
+ },
+ {
+  "seg": 145,
+  "start": 978.326,
+  "end": 988.072,
+  "speaker": "Unknown",
+  "en": "We had very close friends that we've graduated with and built things with in the past that were standing outside of the Women's Center in San Francisco protesting the police.",
+  "zh": "我们有非常亲密的朋友，我们以前一起毕业、一起做事，他们正站在旧金山的妇女中心外抗议警察。"
+ },
+ {
+  "seg": 146,
+  "start": 991.902,
+  "end": 997.224,
+  "speaker": "Unknown",
+  "en": "We were driving a Honda Accord across the Bay Bridge out of San Francisco every day to work with gang homicide investigators.",
+  "zh": "我们每天开着本田雅阁穿过海湾大桥离开旧金山，与帮派凶杀案调查员一起工作。"
+ },
+ {
+  "seg": 147,
+  "start": 998.405,
+  "end": 1000.426,
+  "speaker": "Unknown",
+  "en": "And we were holding those two truths at the same time.",
+  "zh": "我们同时持有这两个真理。"
+ },
+ {
+  "seg": 148,
+  "start": 1001.306,
+  "end": 1009.41,
+  "speaker": "Unknown",
+  "en": "And to me, it's not enough to look at",
+  "zh": "对我来说，仅仅看……是不够的"
+ },
+ {
+  "seg": 149,
+  "start": 1014.552,
+  "end": 1016.433,
+  "speaker": "Unknown",
+  "en": "A very difficult situation from the outside.",
+  "zh": "从外部看一个非常困难的情况。"
+ },
+ {
+  "seg": 150,
+  "start": 1017.194,
+  "end": 1019.155,
+  "speaker": "Unknown",
+  "en": "The privilege is jumping into the pool and swimming.",
+  "zh": "特权就是跳进泳池去游泳。"
+ },
+ {
+  "seg": 151,
+  "start": 1020.476,
+  "end": 1023.038,
+  "speaker": "Unknown",
+  "en": "And I think through that process, we establish empathy.",
+  "zh": "而且我认为通过那个过程，我们建立了共情。"
+ },
+ {
+  "seg": 152,
+  "start": 1023.058,
+  "end": 1029.101,
+  "speaker": "Unknown",
+  "en": "We realize that, oh, this thing that we thought was wrong is actually really complicated.",
+  "zh": "我们意识到，哦，这个我们认为错的事情实际上真的很复杂。"
+ },
+ {
+  "seg": 153,
+  "start": 1029.662,
+  "end": 1030.662,
+  "speaker": "Unknown",
+  "en": "There are a lot of gray zones.",
+  "zh": "有很多灰色地带。"
+ },
+ {
+  "seg": 154,
+  "start": 1030.702,
+  "end": 1035.986,
+  "speaker": "Unknown",
+  "en": "And actually, the deeper we go, the more nuanced and textured the problem actually is.",
+  "zh": "而且实际上，我们越深入，这个问题实际上就越微妙且有质感。"
+ },
+ {
+  "seg": 155,
+  "start": 1036.486,
+  "end": 1037.307,
+  "speaker": "Unknown",
+  "en": "How empowering is that?",
+  "zh": "那是多么赋予力量啊？"
+ },
+ {
+  "seg": 156,
+  "start": 1039.408,
+  "end": 1045.91,
+  "speaker": "Unknown",
+  "en": "And so in some ways, even though in that period of time, our business is much more diverse now, right?",
+  "zh": "所以在某些方面，尽管在那个时间段，我们的业务现在更加多元化了，对吧？"
+ },
+ {
+  "seg": 157,
+  "start": 1046.87,
+  "end": 1051.512,
+  "speaker": "Unknown",
+  "en": "The through line is delivering safety and prosperity to cities.",
+  "zh": "贯穿的主线是给城市提供安全和繁荣。"
+ },
+ {
+  "seg": 158,
+  "start": 1051.952,
+  "end": 1054.733,
+  "speaker": "Unknown",
+  "en": "But at the time, we were only working with police departments.",
+  "zh": "但在那个时间段，我们只与警察部门合作。"
+ },
+ {
+  "seg": 159,
+  "start": 1054.793,
+  "end": 1059.234,
+  "speaker": "Unknown",
+  "en": "Now, police, fire, emergency management, health services, all kinds of stuff going on.",
+  "zh": "现在，警察、消防、应急管理、卫生服务，正在进行各种各样的事情。"
+ },
+ {
+  "seg": 160,
+  "start": 1059.274,
+  "end": 1062.975,
+  "speaker": "Unknown",
+  "en": "But engineers wouldn't...",
+  "zh": "但是工程师们不会……"
+ },
+ {
+  "seg": 161,
+  "start": 1064.808,
+  "end": 1067.35,
+  "speaker": "Unknown",
+  "en": "Even respond when we made a recruiting call.",
+  "zh": "甚至当我们发出招募电话时回应。"
+ },
+ {
+  "seg": 162,
+  "start": 1068.17,
+  "end": 1069.811,
+  "speaker": "Unknown",
+  "en": "I mean, that was a fascinating time.",
+  "zh": "我的意思是，那是一段迷人的时光。"
+ },
+ {
+  "seg": 163,
+  "start": 1070.892,
+  "end": 1078.237,
+  "speaker": "Unknown",
+  "en": "And I think that that level of polarization, to me, for both of us in our lives, I think we've seen the pendulums shift.",
+  "zh": "我认为那种程度的两极分化，对我来说，对于我们在生活中的两个人，我认为我们已经看到钟摆的摆动。"
+ },
+ {
+  "seg": 164,
+  "start": 1079.138,
+  "end": 1091.026,
+  "speaker": "Unknown",
+  "en": "And we're trying to deliver solutions that are apolitical, that are what people, communities, groups of people, these institutions that serve them truly want and need.",
+  "zh": "我们要提供非政治化的解决方案，那是人们、社区、群体、服务于他们的这些机构真正想要和需要的东西。"
+ },
+ {
+  "seg": 165,
+  "start": 1091.646,
+  "end": 1095.729,
+  "speaker": "Unknown",
+  "en": "And in many ways, I actually don't think that's controversial at all, if done well.",
+  "zh": "而且在许多方面，我实际上不认为这有任何争议，如果做得好的话。"
+ },
+ {
+  "seg": 166,
+  "start": 1096.45,
+  "end": 1102.014,
+  "speaker": "Unknown",
+  "en": "How is your business structurally different from the data collection companies like a Flock or an Axon?",
+  "zh": "你的业务在结构上与像 Flock 或 Axon 这样的数据收集公司有何不同？"
+ },
+ {
+  "seg": 167,
+  "start": 1105.277,
+  "end": 1117.206,
+  "speaker": "Unknown",
+  "en": "So we've been operating in public safety since 2018, and I think most of the companies that have come before us have built their business fundamentally on the back of data collection.",
+  "zh": "所以我们自 2018 年以来一直在公共安全领域运营，我认为在我们之前的大多数公司从根本上都是建立在数据收集的基础上的。"
+ },
+ {
+  "seg": 168,
+  "start": 1117.606,
+  "end": 1120.709,
+  "speaker": "Unknown",
+  "en": "So the idea that a hardware or software solution",
+  "zh": "[[169]] 所以一个硬件或软件解决方案被安装在客户群内部，且从根本上是关于输入的，无论是通过传感器进行被动收集还是人类直接输入信息，即该信息的收集和存储。"
+ },
+ {
+  "seg": 169,
+  "start": 1122.751,
+  "end": 1134.175,
+  "speaker": "Unknown",
+  "en": "is installed inside of a customer base and is fundamentally about the input, whether it's passive collection through a sensor or human beings inputting information directly, the collection and storage of that information.",
+  "zh": "安装在客户基地内部，并且从根本上说是关于输入，无论是通过传感器的被动收集还是人类直接输入信息，也就是该信息的收集和存储。"
+ },
+ {
+  "seg": 170,
+  "start": 1134.375,
+  "end": 1144.599,
+  "speaker": "Unknown",
+  "en": "Historically, those companies have grown because once they have information that it belongs to the customer inside of their system, plus distribution advantage, they can sell more stuff.",
+  "zh": "历史上，这些公司之所以能增长，是因为一旦他们拥有属于客户的信息存在于他们的系统中，加上分发优势，他们就可以销售更多东西。"
+ },
+ {
+  "seg": 171,
+  "start": 1145.279,
+  "end": 1148.061,
+  "speaker": "Unknown",
+  "en": "And the additional stuff tends to be more collection systems.",
+  "zh": "而额外的物品往往是更多的收集系统。"
+ },
+ {
+  "seg": 172,
+  "start": 1148.841,
+  "end": 1151.042,
+  "speaker": "Unknown",
+  "en": "Peregrine is like the inversion of that entire model.",
+  "zh": "Peregrine 就像是那个整个模式的反转。"
+ },
+ {
+  "seg": 173,
+  "start": 1151.423,
+  "end": 1172.075,
+  "speaker": "Unknown",
+  "en": "The idea for us is we're fundamentally in the business of joining disparate information to provide a more secure, properly governed solution that sits on top of the preexisting systems that helps people do better work, helps people get more precision and accuracy in the answers to their questions.",
+  "zh": "我们的想法是，我们从根本上从事的是连接不同信息的业务，以提供一个更安全、治理得当的解决方案，该解决方案位于现有系统之上，帮助人们做得更好，帮助人们在问题的答案中获得更高的精确度和准确性。"
+ },
+ {
+  "seg": 174,
+  "start": 1172.995,
+  "end": 1181.622,
+  "speaker": "Unknown",
+  "en": "And I think for companies like ours being not in the business of bringing more data to a customer, but in the business of",
+  "zh": "而且我认为对于像我们这样的公司，不是从事给客户带来更多数据的业务，而是从事"
+ },
+ {
+  "seg": 175,
+  "start": 1182.803,
+  "end": 1192.907,
+  "speaker": "Unknown",
+  "en": "Building solutions that drive greater levels of precision and how a human being interacts with their data is kind of like flipping the historical model on its head, so to speak.",
+  "zh": "构建驱动更高精度水平以及人类如何与他们的数据交互的解决方案，有点像把历史模式颠倒过来，可以这么说。"
+ },
+ {
+  "seg": 176,
+  "start": 1193.408,
+  "end": 1196.889,
+  "speaker": "Unknown",
+  "en": "Okay, so structurally almost the business incentive is the opposite almost.",
+  "zh": "好的，所以在结构上商业激励几乎也是相反的。"
+ },
+ {
+  "seg": 177,
+  "start": 1196.929,
+  "end": 1203.212,
+  "speaker": "Unknown",
+  "en": "It's not about maximizing the amount of data that you're collecting and creating network effects of that data.",
+  "zh": "这不是关于最大化你收集的数据量并创建该数据的网络效应。"
+ },
+ {
+  "seg": 178,
+  "start": 1203.352,
+  "end": 1203.532,
+  "speaker": "Unknown",
+  "en": "It's...",
+  "zh": "它是……"
+ },
+ {
+  "seg": 179,
+  "start": 1203.953,
+  "end": 1218.781,
+  "speaker": "Unknown",
+  "en": "I think the world is very concerned about the idea of like the amalgamation of data and the kind of like central, you know, whether public sector or private sector kind of authoritarian body that has access to this privileged information and what will they do with it.",
+  "zh": "我认为世界非常关心像数据合并这样的想法，以及那种类型的，你知道，无论是公共部门还是私营部门的那种拥有访问这些特权信息的权威机构，以及他们会用它做什么。"
+ },
+ {
+  "seg": 180,
+  "start": 1219.221,
+  "end": 1231.986,
+  "speaker": "Unknown",
+  "en": "And for us, we almost want to decentralize that to get to a world where we are actually not in any shape or form in the business of bringing more data to the customer that they don't already have.",
+  "zh": "对我们来说，我们几乎想要去中心化它，以达到一个世界，在这个世界里我们实际上不以任何形式从事向客户带来他们还没有的更多数据的业务。"
+ },
+ {
+  "seg": 181,
+  "start": 1232.407,
+  "end": 1240.57,
+  "speaker": "Unknown",
+  "en": "The fundamental problem is that they can't utilize the data that they have or utilize it in a way that's secure and high trust for the communities that they serve.",
+  "zh": "根本问题在于他们无法利用他们拥有的数据，或者以对他们服务的社区来说安全和高信任的方式利用它。"
+ },
+ {
+  "seg": 182,
+  "start": 1241.643,
+  "end": 1249.59,
+  "speaker": "Unknown",
+  "en": "I'll just say from day one, we've been really focused and thinking about this idea of permission controls, data governance, sovereignty.",
+  "zh": "我只想说从第一天起，我们就一直非常专注和思考权限控制、数据治理、主权这些想法。"
+ },
+ {
+  "seg": 183,
+  "start": 1250.21,
+  "end": 1256.856,
+  "speaker": "Unknown",
+  "en": "These are necessary ingredients to kind of deploy to these types of high stakes institutions.",
+  "zh": "这些是部署到这些类型的高风险机构的必要成分。"
+ },
+ {
+  "seg": 184,
+  "start": 1258.607,
+  "end": 1261.989,
+  "speaker": "Unknown",
+  "en": "Nick is right when he talks about trust.",
+  "zh": "Nick 谈到信任时是对的。"
+ },
+ {
+  "seg": 185,
+  "start": 1262.009,
+  "end": 1264.51,
+  "speaker": "Unknown",
+  "en": "And we think a lot about trust, trust both with the community.",
+  "zh": "我们思考了很多关于信任的问题，包括与社区的信任。"
+ },
+ {
+  "seg": 186,
+  "start": 1264.81,
+  "end": 1269.212,
+  "speaker": "Unknown",
+  "en": "These public servants are ultimately serving the community members.",
+  "zh": "这些公仆最终是为社区成员服务的。"
+ },
+ {
+  "seg": 187,
+  "start": 1269.332,
+  "end": 1273.014,
+  "speaker": "Unknown",
+  "en": "We have trust with those public servants and the community that we have to uphold.",
+  "zh": "我们必须维护与那些公仆以及社区的信任。"
+ },
+ {
+  "seg": 188,
+  "start": 1273.034,
+  "end": 1280.798,
+  "speaker": "Unknown",
+  "en": "And so we think a lot about this and how we build, what we build, and how it interacts with the end user.",
+  "zh": "所以我们思考了很多关于这个问题，以及我们如何构建，构建什么，以及它如何与最终用户交互。"
+ },
+ {
+  "seg": 189,
+  "start": 1281.063,
+  "end": 1281.303,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 190,
+  "start": 1281.884,
+  "end": 1293.411,
+  "speaker": "Unknown",
+  "en": "It seems like the data governance and data being so locked down is almost the way to reconcile the tension between public safety and, you know, not be humming the surveillance state.",
+  "zh": "看起来数据治理和数据被如此锁定几乎是调和公共安全与，你知道，不是在哼唱监控国家之间的张力的方式。"
+ },
+ {
+  "seg": 191,
+  "start": 1293.471,
+  "end": 1294.671,
+  "speaker": "Unknown",
+  "en": "Like that is the answer.",
+  "zh": "就像那是答案。"
+ },
+ {
+  "seg": 192,
+  "start": 1294.691,
+  "end": 1300.415,
+  "speaker": "Unknown",
+  "en": "Kind of this idea of you have local intelligence, local data, everything's locked down.",
+  "zh": "有点像这种想法，你有本地情报，本地数据，一切都被锁定了。"
+ },
+ {
+  "seg": 193,
+  "start": 1301.996,
+  "end": 1308.18,
+  "speaker": "Unknown",
+  "en": "Actually, maybe share a bit about your philosophy on data ownership and data sharing.",
+  "zh": "实际上，也许分享一点关于你对数据所有权和数据共享的哲学。"
+ },
+ {
+  "seg": 194,
+  "start": 1308.68,
+  "end": 1308.82,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 195,
+  "start": 1310.136,
+  "end": 1318.151,
+  "speaker": "Unknown",
+  "en": "We deeply believe in the idea that each customer, each institution owns their own data.",
+  "zh": "我们深信每个客户，每个机构拥有他们自己的数据。"
+ },
+ {
+  "seg": 196,
+  "start": 1318.171,
+  "end": 1319.273,
+  "speaker": "Unknown",
+  "en": "This is ultimately the",
+  "zh": "这最终是"
+ },
+ {
+  "seg": 197,
+  "start": 1321.414,
+  "end": 1325.175,
+  "speaker": "Unknown",
+  "en": "That organization is serving the community.",
+  "zh": "那个组织正在服务社区。"
+ },
+ {
+  "seg": 198,
+  "start": 1325.215,
+  "end": 1326.536,
+  "speaker": "Unknown",
+  "en": "That is the community's data.",
+  "zh": "那是社区的数据。"
+ },
+ {
+  "seg": 199,
+  "start": 1326.576,
+  "end": 1327.816,
+  "speaker": "Unknown",
+  "en": "That is the organization's data.",
+  "zh": "那是组织的数据。"
+ },
+ {
+  "seg": 200,
+  "start": 1327.836,
+  "end": 1329.277,
+  "speaker": "Unknown",
+  "en": "It's not Peregrine's data.",
+  "zh": "这不是 Peregrine 的数据。"
+ },
+ {
+  "seg": 201,
+  "start": 1329.777,
+  "end": 1348.324,
+  "speaker": "Unknown",
+  "en": "And we think about providing the controls and capabilities to allow them to very securely roll this out within their own department, but also share this with select pieces of information when they need to.",
+  "zh": "我们考虑提供控制和能力，让他们非常安全地在其部门内部部署这个，但也能在他们需要时与精选的信息片段共享这个。"
+ },
+ {
+  "seg": 202,
+  "start": 1349.624,
+  "end": 1359.932,
+  "speaker": "Unknown",
+  "en": "Without these types of solutions, you get folks, you put a bunch of data in the back of a car and drive it across a city and there's actually less control there.",
+  "zh": "如果没有"
+ },
+ {
+  "seg": 203,
+  "start": 1359.952,
+  "end": 1363.675,
+  "speaker": "Unknown",
+  "en": "So we think a lot about where can we actually enable",
+  "zh": "所以我们经常思考我们在哪里真正可以启用"
+ },
+ {
+  "seg": 204,
+  "start": 1365.036,
+  "end": 1367.377,
+  "speaker": "Unknown",
+  "en": "What are the biggest use cases you see for your customer base?",
+  "zh": "你看到的为你客户群提供的最大用例有哪些？"
+ },
+ {
+  "seg": 205,
+  "start": 1367.397,
+  "end": 1369.197,
+  "speaker": "Unknown",
+  "en": "Maybe what are people starting to play with now?",
+  "zh": "也许人们现在开始尝试玩什么？"
+ },
+ {
+  "seg": 206,
+  "start": 1369.698,
+  "end": 1371.458,
+  "speaker": "Unknown",
+  "en": "And then where do you see that going?",
+  "zh": "那么你看到这会走向何方？"
+ },
+ {
+  "seg": 207,
+  "start": 1385.823,
+  "end": 1387.323,
+  "speaker": "Unknown",
+  "en": "Yeah, this is what excites me the most.",
+  "zh": "是的，这是最让我兴奋的地方。"
+ },
+ {
+  "seg": 208,
+  "start": 1387.724,
+  "end": 1389.284,
+  "speaker": "Unknown",
+  "en": "Me too.",
+  "zh": "我也是。"
+ },
+ {
+  "seg": 209,
+  "start": 1389.564,
+  "end": 1390.724,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 210,
+  "start": 1391.004,
+  "end": 1399.567,
+  "speaker": "Unknown",
+  "en": "I think when you initially deploy this type of AI to these organizations, you often just get what I'd say a nice search.",
+  "zh": "我认为当你最初将这些类型的 AI 部署到这些组织时，你通常只会得到我想说的不错的搜索。"
+ },
+ {
+  "seg": 211,
+  "start": 1399.667,
+  "end": 1407.429,
+  "speaker": "Unknown",
+  "en": "Maybe you were looking for an address and now you don't have to look at a bunch of rows and you see everything that happened in that address in a nicely formatted way.",
+  "zh": "也许你在查找一个地址，现在你不必查看一堆行，你可以以格式良好的方式看到那个地址发生的所有事情。"
+ },
+ {
+  "seg": 212,
+  "start": 1409.229,
+  "end": 1418.277,
+  "speaker": "Unknown",
+  "en": "As we have had users get more used to the product and understand it better and how it works, you start to see the floor get raised for everybody across the department.",
+  "zh": "随着我们的用户更加习惯该产品并更好地理解它及其工作原理，你开始看到整个部门的每个人的水平都得到了提高。"
+ },
+ {
+  "seg": 213,
+  "start": 1418.297,
+  "end": 1424.002,
+  "speaker": "Unknown",
+  "en": "You start seeing these really interesting, deep types of analysis that previously were just impossible.",
+  "zh": "你开始看到这些以前根本不可能做到的非常有趣、深度的分析类型。"
+ },
+ {
+  "seg": 214,
+  "start": 1425.702,
+  "end": 1428.943,
+  "speaker": "Unknown",
+  "en": "I'll give a couple examples here because this stuff's really interesting to me.",
+  "zh": "我会在这里举几个例子，因为这东西真的让我很感兴趣。"
+ },
+ {
+  "seg": 215,
+  "start": 1429.924,
+  "end": 1437.127,
+  "speaker": "Unknown",
+  "en": "We're working with this county in Florida and the other month they had to do over a hundred water rescues.",
+  "zh": "我们正在与佛罗里达州的这个县合作，上个月他们不得不进行了超过一百次水上救援。"
+ },
+ {
+  "seg": 216,
+  "start": 1438.247,
+  "end": 1439.428,
+  "speaker": "Unknown",
+  "en": "And they're like, why?",
+  "zh": "他们就像，为什么？"
+ },
+ {
+  "seg": 217,
+  "start": 1439.468,
+  "end": 1442.649,
+  "speaker": "Unknown",
+  "en": "We've never had to do this many water rescues before.",
+  "zh": "我们以前从来没有进行过这么多次的水上救援。"
+ },
+ {
+  "seg": 218,
+  "start": 1442.809,
+  "end": 1452.453,
+  "speaker": "Unknown",
+  "en": "Water rescues is when there's a flood, rescuers need to get on a boat and literally go out and rescue someone from their car that might be stalled in the middle of the flood or their home.",
+  "zh": "水上救援是指发生洪水时，救援人员需要登上船，实际上出去把某人从可能困在洪水中央的汽车或家中救出来。"
+ },
+ {
+  "seg": 219,
+  "start": 1452.854,
+  "end": 1452.994,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 220,
+  "start": 1453.832,
+  "end": 1458.594,
+  "speaker": "Unknown",
+  "en": "And so they started asking Peregrine and starting interrogating this question.",
+  "zh": "于是他们开始问 Peregrine 并开始审问这个问题。"
+ },
+ {
+  "seg": 221,
+  "start": 1459.294,
+  "end": 1465.596,
+  "speaker": "Unknown",
+  "en": "And what they started to uncover is that, okay, these weather patterns, they've happened before.",
+  "zh": "他们开始揭露的是，好的，这些天气模式以前发生过。"
+ },
+ {
+  "seg": 222,
+  "start": 1466.496,
+  "end": 1471.078,
+  "speaker": "Unknown",
+  "en": "But after a couple iterations and the agent doing some deep research,",
+  "zh": "但经过几次迭代和智能体做一些深入研究之后，"
+ },
+ {
+  "seg": 223,
+  "start": 1471.958,
+  "end": 1479.22,
+  "speaker": "Unknown",
+  "en": "It came out with the pattern that, oh, these weather patterns have never occurred for three consecutive days.",
+  "zh": "它得出了那个模式，噢，这些天气模式从未连续三天发生过。"
+ },
+ {
+  "seg": 224,
+  "start": 1479.94,
+  "end": 1483.741,
+  "speaker": "Unknown",
+  "en": "And those types of weather patterns, they create these sand channels.",
+  "zh": "而那些类型的天气模式，它们造成了这些沙槽。"
+ },
+ {
+  "seg": 225,
+  "start": 1484.081,
+  "end": 1488.442,
+  "speaker": "Unknown",
+  "en": "And those sand channels are the perfect conditions for rip currents.",
+  "zh": "那些沙槽是离岸流的完美条件。"
+ },
+ {
+  "seg": 226,
+  "start": 1488.682,
+  "end": 1493.883,
+  "speaker": "Unknown",
+  "en": "And those rip currents cause a lot of issues for people who are in the water at that time.",
+  "zh": "而那些离岸流给当时在水中的人造成了很多问题。"
+ },
+ {
+  "seg": 227,
+  "start": 1494.564,
+  "end": 1497.884,
+  "speaker": "Unknown",
+  "en": "And that is actionable for the agency.",
+  "zh": "这对该机构来说是可操作的。"
+ },
+ {
+  "seg": 228,
+  "start": 1497.904,
+  "end": 1499.405,
+  "speaker": "Unknown",
+  "en": "And they can think deeply about that.",
+  "zh": "他们可以对此进行深入思考。"
+ },
+ {
+  "seg": 229,
+  "start": 1500.471,
+  "end": 1504.492,
+  "speaker": "Unknown",
+  "en": "And overlay that, you know, their terrain maps and all of the unique things that are county-specific.",
+  "zh": "并将其叠加，你知道，他们的地形地图以及所有县特有的独特事物。"
+ },
+ {
+  "seg": 230,
+  "start": 1504.512,
+  "end": 1504.792,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 231,
+  "start": 1504.812,
+  "end": 1512.034,
+  "speaker": "Unknown",
+  "en": "This is all fed by a bunch of, like, they obviously have to have incidents, information, 911 calls, they have to have weather information.",
+  "zh": "这一切都由一堆东西提供，像，他们显然必须有事件信息、911 电话，他们必须有天气信息。"
+ },
+ {
+  "seg": 232,
+  "start": 1512.474,
+  "end": 1520.156,
+  "speaker": "Unknown",
+  "en": "All that information is integrated and then kind of at the disposal of the AI to help the customer.",
+  "zh": "所有这些信息都被整合，然后某种程度上由 AI 支配以帮助客户。"
+ },
+ {
+  "seg": 233,
+  "start": 1521.656,
+  "end": 1525.057,
+  "speaker": "Unknown",
+  "en": "And we just can't, I mean, there's no way we could have made this up, right?",
+  "zh": "而我们只是不能，我是说，我们不可能编造这些，对吧？"
+ },
+ {
+  "seg": 234,
+  "start": 1525.077,
+  "end": 1529.518,
+  "speaker": "Unknown",
+  "en": "It's like we were sitting in our headquarters trying to pontificate.",
+  "zh": "就像我们要坐在总部里试图高谈阔论。"
+ },
+ {
+  "seg": 235,
+  "start": 1530.658,
+  "end": 1533.721,
+  "speaker": "Unknown",
+  "en": "And what emergency responders in a hurricane needed.",
+  "zh": "以及飓风中的紧急救援人员需要什么。"
+ },
+ {
+  "seg": 236,
+  "start": 1533.741,
+  "end": 1535.823,
+  "speaker": "Unknown",
+  "en": "There's zero chance we would have figured that out.",
+  "zh": "我们完全没有机会弄清楚那一点。"
+ },
+ {
+  "seg": 237,
+  "start": 1535.883,
+  "end": 1536.823,
+  "speaker": "Unknown",
+  "en": "Super interesting.",
+  "zh": "超级有趣。"
+ },
+ {
+  "seg": 238,
+  "start": 1537.104,
+  "end": 1545.811,
+  "speaker": "Unknown",
+  "en": "Another one that I'm excited about, there was a detective who was investigating a threat against a synagogue.",
+  "zh": "另一个让我兴奋的是，有一位探员正在调查针对犹太教堂的威胁。"
+ },
+ {
+  "seg": 239,
+  "start": 1546.591,
+  "end": 1555.258,
+  "speaker": "Unknown",
+  "en": "And what he was trying to do was trying to figure out, were there any other antisemitic threats that had happened to these two synagogues in the area?",
+  "zh": "他试图做的是试图弄清楚，该地区的这两个犹太教堂是否发生过任何其他反犹太主义的威胁？"
+ },
+ {
+  "seg": 240,
+  "start": 1556.279,
+  "end": 1563.223,
+  "speaker": "Unknown",
+  "en": "Now, when you think about that question and you're a detective, what are the keywords that you search for to try and find that information?",
+  "zh": "现在，当你思考那个问题并且你是一名探员时，你搜索什么关键词来试图找到那个信息？"
+ },
+ {
+  "seg": 241,
+  "start": 1563.723,
+  "end": 1566.985,
+  "speaker": "Unknown",
+  "en": "It's actually very difficult for keywords to find that.",
+  "zh": "关键词实际上很难找到那个。"
+ },
+ {
+  "seg": 242,
+  "start": 1567.565,
+  "end": 1571.867,
+  "speaker": "Unknown",
+  "en": "And what gets me excited, this is another area that's just previously impossible.",
+  "zh": "让我兴奋的是，这是另一个以前根本不可能的领域。"
+ },
+ {
+  "seg": 243,
+  "start": 1572.407,
+  "end": 1584.394,
+  "speaker": "Unknown",
+  "en": "And with the help of AI, they're able to semantically understand a lot of the information that they have access to, and they're able to actually pull out and they were able to find a bunch of",
+  "zh": "在 AI 的帮助下，他们能够从语义上理解他们有权访问的很多信息，并且他们实际上能够提取出，并且他们能够发现一堆"
+ },
+ {
+  "seg": 244,
+  "start": 1584.994,
+  "end": 1588.357,
+  "speaker": "Unknown",
+  "en": "Pattern of these threats that were occurring against these, these synagogues.",
+  "zh": "针对这些，这些犹太教堂发生的威胁的模式。"
+ },
+ {
+  "seg": 245,
+  "start": 1588.897,
+  "end": 1593.581,
+  "speaker": "Unknown",
+  "en": "And I thought, you know, that, that was, that was pretty interesting to me and a novel use case.",
+  "zh": "我觉得，你知道，那，那对我来说是相当有趣的，也是一个新颖的用例。"
+ },
+ {
+  "seg": 246,
+  "start": 1593.621,
+  "end": 1593.781,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 247,
+  "start": 1593.921,
+  "end": 1594.382,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有趣。"
+ },
+ {
+  "seg": 248,
+  "start": 1594.402,
+  "end": 1594.542,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 249,
+  "start": 1594.562,
+  "end": 1596.624,
+  "speaker": "Unknown",
+  "en": "So you got semantic search and embeddings going on.",
+  "zh": "所以你有语义搜索和嵌入在进行。"
+ },
+ {
+  "seg": 250,
+  "start": 1596.644,
+  "end": 1601.668,
+  "speaker": "Unknown",
+  "en": "You got, um, sounds like reasoning models that uncovered the use case.",
+  "zh": "你有，嗯，听起来像是揭示了用例的推理模型。"
+ },
+ {
+  "seg": 251,
+  "start": 1602.408,
+  "end": 1609.895,
+  "speaker": "Unknown",
+  "en": "Um, so one of the most interesting thing is, is because you've brought in all this context and you've stitched it together, you can kind of let the AI.",
+  "zh": "嗯，所以最有趣的事情之一是，因为你引入了所有这些上下文并且你把它缝合在一起，你可以某种程度地让 AI。"
+ },
+ {
+  "seg": 252,
+  "start": 1611.256,
+  "end": 1618.227,
+  "speaker": "Unknown",
+  "en": "Certainly, 95% of the work is what happens before the user types in the question.",
+  "zh": "当然，95% 的工作是发生在用户输入问题之前的。"
+ },
+ {
+  "seg": 253,
+  "start": 1618.688,
+  "end": 1623.576,
+  "speaker": "Unknown",
+  "en": "What is all the preparation that you do to get to a place where the AI can",
+  "zh": "你做的所有准备工作是什么，为了达到一个 AI 可以"
+ },
+ {
+  "seg": 254,
+  "start": 1624.876,
+  "end": 1625.916,
+  "speaker": "Unknown",
+  "en": "Answer accurately.",
+  "zh": "准确回答。"
+ },
+ {
+  "seg": 255,
+  "start": 1626.456,
+  "end": 1627.857,
+  "speaker": "Unknown",
+  "en": "Cite those questions accurately.",
+  "zh": "准确引用那些问题。"
+ },
+ {
+  "seg": 256,
+  "start": 1628.197,
+  "end": 1629.097,
+  "speaker": "Unknown",
+  "en": "That's a really hard problem.",
+  "zh": "那是一个真的很难的问题。"
+ },
+ {
+  "seg": 257,
+  "start": 1629.117,
+  "end": 1630.197,
+  "speaker": "Unknown",
+  "en": "We spent a lot of points on that.",
+  "zh": "我们在那上面花了很多点数。"
+ },
+ {
+  "seg": 258,
+  "start": 1630.537,
+  "end": 1632.878,
+  "speaker": "Unknown",
+  "en": "We have a lot of agentic use cases.",
+  "zh": "我们有很多智能体用例。"
+ },
+ {
+  "seg": 259,
+  "start": 1633.398,
+  "end": 1638.959,
+  "speaker": "Unknown",
+  "en": "And a lot of our engineering points are spent on that data preparation, getting that AI ready.",
+  "zh": "我们的很多工程点数都花在了那个数据准备上，让那个 AI 准备好。"
+ },
+ {
+  "seg": 260,
+  "start": 1639.139,
+  "end": 1642.86,
+  "speaker": "Unknown",
+  "en": "There's also this idea that AI allows you to write software rapidly.",
+  "zh": "也有这种想法，AI 允许你快速编写软件。"
+ },
+ {
+  "seg": 261,
+  "start": 1643.48,
+  "end": 1648.421,
+  "speaker": "Unknown",
+  "en": "And what happens when the cost of generating the software is virtually zero?",
+  "zh": "当生成软件的成本实际上为零时会发生什么？"
+ },
+ {
+  "seg": 262,
+  "start": 1648.662,
+  "end": 1649.662,
+  "speaker": "Unknown",
+  "en": "And what if we could apply...",
+  "zh": "如果我们可以应用……"
+ },
+ {
+  "seg": 263,
+  "start": 1650.762,
+  "end": 1658.084,
+  "speaker": "Unknown",
+  "en": "Provide the platform for our deployment team that gives them the security and governance controls, that gives them the APIs they need.",
+  "zh": "为我们的部署团队提供平台，给他们安全和治理控制，给他们他们需要的 API。"
+ },
+ {
+  "seg": 264,
+  "start": 1658.384,
+  "end": 1662.405,
+  "speaker": "Unknown",
+  "en": "And then they're allowed to write the world with software.",
+  "zh": "然后他们被允许用软件书写世界。"
+ },
+ {
+  "seg": 265,
+  "start": 1662.885,
+  "end": 1670.187,
+  "speaker": "Unknown",
+  "en": "And so what we're seeing is that these deployment strategists, not every customer needs an agent.",
+  "zh": "所以我们看到的是这些部署策略师，不是每个客户都需要一个智能体。"
+ },
+ {
+  "seg": 266,
+  "start": 1670.367,
+  "end": 1671.887,
+  "speaker": "Unknown",
+  "en": "Maybe they need a hurricane simulator.",
+  "zh": "也许他们需要一个飓风模拟器。"
+ },
+ {
+  "seg": 267,
+  "start": 1672.387,
+  "end": 1676.268,
+  "speaker": "Unknown",
+  "en": "And the way they're able to write this really well is with AI.",
+  "zh": "他们能够很好地编写这个的方式是通过 AI。"
+ },
+ {
+  "seg": 268,
+  "start": 1676.368,
+  "end": 1680.109,
+  "speaker": "Unknown",
+  "en": "And I think this rapid innovation cycle is just super interesting to me.",
+  "zh": "我认为这个快速创新周期对我来说真的非常有趣。"
+ },
+ {
+  "seg": 269,
+  "start": 1680.858,
+  "end": 1681.358,
+  "speaker": "Unknown",
+  "en": "So cool.",
+  "zh": "太酷了。"
+ },
+ {
+  "seg": 270,
+  "start": 1681.819,
+  "end": 1686.763,
+  "speaker": "Unknown",
+  "en": "Is it your deployment strategists that are kind of coding things in customer environments?",
+  "zh": "是你们的部署策略师在客户环境中编写这些东西吗？"
+ },
+ {
+  "seg": 271,
+  "start": 1687.324,
+  "end": 1692.768,
+  "speaker": "Unknown",
+  "en": "Or do you think your customers might even, you know, they have all these ideas in their head of what they want.",
+  "zh": "或者你认为你们的客户甚至可能，你知道，他们脑子里有所有这些他们想要的想法。"
+ },
+ {
+  "seg": 272,
+  "start": 1693.089,
+  "end": 1697.673,
+  "speaker": "Unknown",
+  "en": "Can they go from idea to working application themselves in your environment?",
+  "zh": "他们能在你们的环境中自己从想法走到可工作的应用程序吗？"
+ },
+ {
+  "seg": 273,
+  "start": 1698.713,
+  "end": 1700.694,
+  "speaker": "Unknown",
+  "en": "100% we enable that.",
+  "zh": "100% 我们实现了这一点。"
+ },
+ {
+  "seg": 274,
+  "start": 1700.855,
+  "end": 1715.463,
+  "speaker": "Unknown",
+  "en": "I think what we see most often is a partnership with our deployment team to provide that kind of technical expertise and be able to take the idea and bring it to fruition.",
+  "zh": "我认为我们最常看到的是与我们部署团队的伙伴关系，以提供那种技术专长，并能够采纳这个想法并实现它。"
+ },
+ {
+  "seg": 275,
+  "start": 1715.483,
+  "end": 1722.887,
+  "speaker": "Unknown",
+  "en": "We do have some customers that are able to kind of leverage the platform in that way, but a lot of that motion comes with our deployment team.",
+  "zh": "我们确实有一些客户能够以这种方式利用平台，但这种运作很多是伴随着我们的部署团队而来的。"
+ },
+ {
+  "seg": 276,
+  "start": 1723.387,
+  "end": 1725.028,
+  "speaker": "Unknown",
+  "en": "Do you think that'll change over the coming years?",
+  "zh": "你认为那会在未来几年改变吗？"
+ },
+ {
+  "seg": 277,
+  "start": 1726.005,
+  "end": 1727.105,
+  "speaker": "Unknown",
+  "en": "I see it changing right now.",
+  "zh": "我看到它现在就在改变。"
+ },
+ {
+  "seg": 278,
+  "start": 1727.125,
+  "end": 1729.646,
+  "speaker": "Unknown",
+  "en": "I mean, I'd love to get your thoughts on this, Ben.",
+  "zh": "我是说，我很想听听你对此的看法，Ben。"
+ },
+ {
+  "seg": 279,
+  "start": 1730.046,
+  "end": 1733.447,
+  "speaker": "Unknown",
+  "en": "I think it takes confidence to embrace that and say, you know what?",
+  "zh": "我认为拥抱这一点并说，你知道什么？这需要信心。"
+ },
+ {
+  "seg": 280,
+  "start": 1735.008,
+  "end": 1739.749,
+  "speaker": "Unknown",
+  "en": "Let's innovate and may the best method win.",
+  "zh": "让我们创新，让最好的方法获胜。"
+ },
+ {
+  "seg": 281,
+  "start": 1740.149,
+  "end": 1744.891,
+  "speaker": "Unknown",
+  "en": "So much of what Peregrine does on the technology side is emergent.",
+  "zh": "Peregrine 在技术方面所做的很多事情是涌现的。"
+ },
+ {
+  "seg": 282,
+  "start": 1744.971,
+  "end": 1748.372,
+  "speaker": "Unknown",
+  "en": "Peregrine has been providing domain expertise and",
+  "zh": "Peregrine 一直提供领域专业知识并且"
+ },
+ {
+  "seg": 283,
+  "start": 1749.332,
+  "end": 1755.758,
+  "speaker": "Unknown",
+  "en": "For our customers, we deeply understand and empathize with law enforcement, fire departments, EMTs.",
+  "zh": "对于我们的客户，我们深刻理解和同情执法部门、消防部门、EMTs。"
+ },
+ {
+  "seg": 284,
+  "start": 1757,
+  "end": 1761.884,
+  "speaker": "Unknown",
+  "en": "And then we provide technology to enable them to achieve their most important missions.",
+  "zh": "然后我们提供技术来使他们能够实现他们最重要的使命。"
+ },
+ {
+  "seg": 285,
+  "start": 1762.505,
+  "end": 1764.927,
+  "speaker": "Unknown",
+  "en": "And that technology can change over time.",
+  "zh": "而且那个技术可以随时间改变。"
+ },
+ {
+  "seg": 286,
+  "start": 1765.127,
+  "end": 1766.829,
+  "speaker": "Unknown",
+  "en": "And that's like the great thing about it.",
+  "zh": "这就是关于它的伟大之处。"
+ },
+ {
+  "seg": 287,
+  "start": 1767.169,
+  "end": 1769.532,
+  "speaker": "Unknown",
+  "en": "Most of that stuff is downstream of...",
+  "zh": "那些东西的大部分都在……的下游"
+ },
+ {
+  "seg": 288,
+  "start": 1770.72,
+  "end": 1771.78,
+  "speaker": "Unknown",
+  "en": "Really high quality data.",
+  "zh": "真正高质量的数据。"
+ },
+ {
+  "seg": 289,
+  "start": 1772.761,
+  "end": 1783.265,
+  "speaker": "Unknown",
+  "en": "And you can build charts and that chart could be completely useless if it's not accessing the right information and accurate information.",
+  "zh": "你可以构建图表，如果那个图表没有访问正确的信息和准确的信息，那个图表可能是完全没用的。"
+ },
+ {
+  "seg": 290,
+  "start": 1783.725,
+  "end": 1787.506,
+  "speaker": "Unknown",
+  "en": "The same is true with agents and the same will be true with the next technology.",
+  "zh": "智能体也是如此，下一项技术也是如此。"
+ },
+ {
+  "seg": 291,
+  "start": 1787.886,
+  "end": 1795.509,
+  "speaker": "Unknown",
+  "en": "And so I believe like the core strategy of Peregrine has remained very unchanged in this new age of AI.",
+  "zh": "所以我相信，在这个 AI 的新时代，Peregrine 的核心战略仍然非常没有改变。"
+ },
+ {
+  "seg": 292,
+  "start": 1795.529,
+  "end": 1799.711,
+  "speaker": "Unknown",
+  "en": "And it's just, we are applying a new technology to see how it impacts our customers.",
+  "zh": "只是，我们正在应用一项新技术来看看它如何影响我们的客户。"
+ },
+ {
+  "seg": 293,
+  "start": 1800.057,
+  "end": 1803.6,
+  "speaker": "Unknown",
+  "en": "Are you doing anything on the long horizon agent side or background agents?",
+  "zh": "你们在长期的智能体方面或后台智能体方面做了什么吗？"
+ },
+ {
+  "seg": 294,
+  "start": 1804.421,
+  "end": 1805.642,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 295,
+  "start": 1805.662,
+  "end": 1806.342,
+  "speaker": "Unknown",
+  "en": "A couple things here.",
+  "zh": "这里有几件事。"
+ },
+ {
+  "seg": 296,
+  "start": 1806.382,
+  "end": 1809.205,
+  "speaker": "Unknown",
+  "en": "So I think stepping back a little bit, like what is the Peregrine platform?",
+  "zh": "所以我认为稍微退后一点，比如什么是 Peregrine 平台？"
+ },
+ {
+  "seg": 297,
+  "start": 1811.146,
+  "end": 1824.177,
+  "speaker": "Unknown",
+  "en": "We think about 50% of our engineers spend most of their time working on the data platform that enables our deployment team to integrate data that the customer already owns.",
+  "zh": "我们认为我们有 50% 的工程师花大部分时间在那个数据平台上，该平台使我们的部署团队能够整合客户已经拥有的数据。"
+ },
+ {
+  "seg": 298,
+  "start": 1825.721,
+  "end": 1830.903,
+  "speaker": "Unknown",
+  "en": "And we've at this point integrated tens of thousands of data sets across all these customers.",
+  "zh": "此时此刻，我们在所有这些客户中整合了数万个数据集。"
+ },
+ {
+  "seg": 299,
+  "start": 1831.684,
+  "end": 1840.007,
+  "speaker": "Unknown",
+  "en": "And we have built an agent that enables our deployment strategy team to integrate this data agentically.",
+  "zh": "我们构建了一个智能体，使我们的部署策略团队能够智能体化地整合这些数据。"
+ },
+ {
+  "seg": 300,
+  "start": 1840.027,
+  "end": 1850.132,
+  "speaker": "Unknown",
+  "en": "And I think at this point, we have this amazing eval set where we can deterministically evaluate these agents for completeness and correctness on integrations.",
+  "zh": "我想在这一点上，我们要有一套很棒的评估集，可以在集成方面确定性地评估这些智能体的完整性和正确性。"
+ },
+ {
+  "seg": 301,
+  "start": 1850.552,
+  "end": 1852.052,
+  "speaker": "Unknown",
+  "en": "At this point, we're seeing about 90% of our",
+  "zh": "在这一点上，我们看到我们大约 90% 的"
+ },
+ {
+  "seg": 302,
+  "start": 1854.013,
+  "end": 1858.537,
+  "speaker": "Unknown",
+  "en": "We use a version of Python notebooks to do a lot of our integrations.",
+  "zh": "我们使用一种版本的 Python 笔记本来做大量的集成工作。"
+ },
+ {
+  "seg": 303,
+  "start": 1858.958,
+  "end": 1865.924,
+  "speaker": "Unknown",
+  "en": "About 90% of that is written by agents with the oversight of our deployment team.",
+  "zh": "其中大约 90% 是由智能体编写的，并在我们部署团队的监督下进行。"
+ },
+ {
+  "seg": 304,
+  "start": 1866.164,
+  "end": 1867.465,
+  "speaker": "Unknown",
+  "en": "And these agents run for hours, right?",
+  "zh": "这些智能体会运行数小时，对吧？"
+ },
+ {
+  "seg": 305,
+  "start": 1867.665,
+  "end": 1872.589,
+  "speaker": "Unknown",
+  "en": "And they will analyze, look at the databases.",
+  "zh": "它们会分析，查看数据库。"
+ },
+ {
+  "seg": 306,
+  "start": 1873.29,
+  "end": 1878.153,
+  "speaker": "Unknown",
+  "en": "Understand the ontology, start to piece together different pieces that need to be integrated.",
+  "zh": "理解本体，开始拼凑需要集成的不同部分。"
+ },
+ {
+  "seg": 307,
+  "start": 1878.493,
+  "end": 1883.737,
+  "speaker": "Unknown",
+  "en": "Those split off into subagents that all do a bunch of work communicating back to kind of the orchestrator agent.",
+  "zh": "这些分散成子智能体，它们都会做大量工作并反馈给某种编排器智能体。"
+ },
+ {
+  "seg": 308,
+  "start": 1884.877,
+  "end": 1888.68,
+  "speaker": "Unknown",
+  "en": "That's one bit on kind of long horizon agents.",
+  "zh": "这就是关于长视界智能体的一方面。"
+ },
+ {
+  "seg": 309,
+  "start": 1889.503,
+  "end": 1892.425,
+  "speaker": "Unknown",
+  "en": "Reminds me of how people are using these coding agents for code-based migrations.",
+  "zh": "这让我想到人们如何使用这些编码智能体进行基于代码的迁移。"
+ },
+ {
+  "seg": 310,
+  "start": 1892.545,
+  "end": 1896.088,
+  "speaker": "Unknown",
+  "en": "Also, similarly, just long-running, unglamorous work.",
+  "zh": "同样地，也类似于，只是长时间运行、不光鲜的工作。"
+ },
+ {
+  "seg": 311,
+  "start": 1896.388,
+  "end": 1896.628,
+  "speaker": "Unknown",
+  "en": "100%.",
+  "zh": "100%。"
+ },
+ {
+  "seg": 312,
+  "start": 1896.828,
+  "end": 1899.41,
+  "speaker": "Unknown",
+  "en": "I love this problem because it's verifiable.",
+  "zh": "我喜欢这个问题，因为它是可验证的。"
+ },
+ {
+  "seg": 313,
+  "start": 1899.591,
+  "end": 1900.911,
+  "speaker": "Unknown",
+  "en": "And that makes the problem a lot easier.",
+  "zh": "这使得这个问题容易得多。"
+ },
+ {
+  "seg": 314,
+  "start": 1900.932,
+  "end": 1903.994,
+  "speaker": "Unknown",
+  "en": "This is why coding agents are, in a lot of ways, a lot easier.",
+  "zh": "这就是为什么编码智能体在许多方面容易得多。"
+ },
+ {
+  "seg": 315,
+  "start": 1904.654,
+  "end": 1907.676,
+  "speaker": "Unknown",
+  "en": "And so the second piece that we spend a lot of time on is...",
+  "zh": "所以我们要花大量时间的第二部分是……"
+ },
+ {
+  "seg": 316,
+  "start": 1908.537,
+  "end": 1913.101,
+  "speaker": "Unknown",
+  "en": "What do our agents look like for operational outcomes for our end users?",
+  "zh": "对于我们最终用户的运营成果，我们的智能体是什么样的？"
+ },
+ {
+  "seg": 317,
+  "start": 1913.801,
+  "end": 1918.505,
+  "speaker": "Unknown",
+  "en": "And the very first agent that we built was a cold case agent.",
+  "zh": "我们构建的第一个智能体是一个冷案智能体。"
+ },
+ {
+  "seg": 318,
+  "start": 1919.045,
+  "end": 1924.669,
+  "speaker": "Unknown",
+  "en": "And this agent, just to give you some context on what some of these",
+  "zh": "关于这个智能体，只是为了给你一些关于这些"
+ },
+ {
+  "seg": 319,
+  "start": 1925.71,
+  "end": 1930.133,
+  "speaker": "Unknown",
+  "en": "Very high profile investigations look and feel like.",
+  "zh": "非常高调的调查看起来和感觉起来是什么样的背景。"
+ },
+ {
+  "seg": 320,
+  "start": 1930.353,
+  "end": 1934.476,
+  "speaker": "Unknown",
+  "en": "You are uploading 200 to 300 gigabytes of data.",
+  "zh": "你正在上传 200 到 300 GB 的数据。"
+ },
+ {
+  "seg": 321,
+  "start": 1935.297,
+  "end": 1936.037,
+  "speaker": "Unknown",
+  "en": "These are videos.",
+  "zh": "这些是视频。"
+ },
+ {
+  "seg": 322,
+  "start": 1936.277,
+  "end": 1937.999,
+  "speaker": "Unknown",
+  "en": "They are audio.",
+  "zh": "它们是音频。"
+ },
+ {
+  "seg": 323,
+  "start": 1938.359,
+  "end": 1939.279,
+  "speaker": "Unknown",
+  "en": "It is images.",
+  "zh": "它是图像。"
+ },
+ {
+  "seg": 324,
+  "start": 1939.42,
+  "end": 1942.482,
+  "speaker": "Unknown",
+  "en": "It is a ton of PDF files.",
+  "zh": "它是大量的 PDF 文件。"
+ },
+ {
+  "seg": 325,
+  "start": 1945.045,
+  "end": 1948.77,
+  "speaker": "Unknown",
+  "en": "The detective is tasked with going through all that.",
+  "zh": "侦探的任务是处理所有这些。"
+ },
+ {
+  "seg": 326,
+  "start": 1948.79,
+  "end": 1951.975,
+  "speaker": "Unknown",
+  "en": "So that in and of itself takes a really, really long time.",
+  "zh": "所以这本身就需要非常、非常长的时间。"
+ },
+ {
+  "seg": 327,
+  "start": 1951.995,
+  "end": 1959.925,
+  "speaker": "Unknown",
+  "en": "I've been in these police departments where they actually have paper records of all these and they are boxes that are like this big and they have all these CDs attached to it.",
+  "zh": "我去过这些警察局，他们实际上拥有所有这些的纸质记录，那是像这么大的盒子，上面附着所有这些 CD。"
+ },
+ {
+  "seg": 328,
+  "start": 1960.386,
+  "end": 1961.828,
+  "speaker": "Unknown",
+  "en": "It's really an outrageous amount of data.",
+  "zh": "这确实是一个惊人的数据量。"
+ },
+ {
+  "seg": 329,
+  "start": 1962.991,
+  "end": 1966.892,
+  "speaker": "Unknown",
+  "en": "And so our cold case agent, we built this with customer.",
+  "zh": "所以我们的冷案智能体，我们与客户一起构建了这个。"
+ },
+ {
+  "seg": 330,
+  "start": 1966.912,
+  "end": 1969.813,
+  "speaker": "Unknown",
+  "en": "And again, this goes back to how we like to build.",
+  "zh": "同样，这回到了我们喜欢的构建方式。"
+ },
+ {
+  "seg": 331,
+  "start": 1970.234,
+  "end": 1981.598,
+  "speaker": "Unknown",
+  "en": "And we were working with a customer who had worked a case where a man was wrongly convicted and they were able to exonerate this individual.",
+  "zh": "我们曾与一个客户合作，他们处理过一个案件，一名男子被错误定罪，他们能够使这个人免罪。"
+ },
+ {
+  "seg": 332,
+  "start": 1983.139,
+  "end": 1986.922,
+  "speaker": "Unknown",
+  "en": "And they said, hey, can you reproduce this result with an agent?",
+  "zh": "他们说，嘿，你能用智能体复现这个结果吗？"
+ },
+ {
+  "seg": 333,
+  "start": 1987.342,
+  "end": 2000.953,
+  "speaker": "Unknown",
+  "en": "And so we took all of the evidence and data that they had on that case and started to work on an agent that would run for 30 minutes, 60 minutes to start to glean insights.",
+  "zh": "所以我们提取了他们掌握的关于那个案件的所有证据和数据，并开始着手研究一个能够运行 30 分钟、60 分钟来开始收集见解的智能体。"
+ },
+ {
+  "seg": 334,
+  "start": 2001.554,
+  "end": 2007.839,
+  "speaker": "Unknown",
+  "en": "And eventually we got to the place where it could reproduce the results that those detectives had gotten to.",
+  "zh": "最终我们到了它能复现那些侦探所达到的结果的地步。"
+ },
+ {
+  "seg": 335,
+  "start": 2007.859,
+  "end": 2009.24,
+  "speaker": "Unknown",
+  "en": "So that was where that was like kind of the...",
+  "zh": "所以那就是那是那种……"
+ },
+ {
+  "seg": 336,
+  "start": 2009.72,
+  "end": 2012.044,
+  "speaker": "Unknown",
+  "en": "The manifestation of our first cold case agent.",
+  "zh": "我们第一个冷案智能体的具体体现。"
+ },
+ {
+  "seg": 337,
+  "start": 2012.384,
+  "end": 2015.549,
+  "speaker": "Unknown",
+  "en": "Now we're using this in a few departments across the US.",
+  "zh": "现在我们在美国的一些部门使用这个。"
+ },
+ {
+  "seg": 338,
+  "start": 2015.91,
+  "end": 2018.914,
+  "speaker": "Unknown",
+  "en": "We recently were working in a county in Wisconsin where",
+  "zh": "我们最近在威斯康星州的一个县工作，那里"
+ },
+ {
+  "seg": 339,
+  "start": 2020.595,
+  "end": 2024.056,
+  "speaker": "Unknown",
+  "en": "This, again, similar type of case, 300 gigabytes of data.",
+  "zh": "这，同样是类似的案件，300 GB 的数据。"
+ },
+ {
+  "seg": 340,
+  "start": 2024.716,
+  "end": 2033.578,
+  "speaker": "Unknown",
+  "en": "And they were able to identify and place the suspect at not just the scene of the crime, but where the body was found.",
+  "zh": "他们能够确定嫌疑人的位置，不仅在犯罪现场，还在发现尸体的地方。"
+ },
+ {
+  "seg": 341,
+  "start": 2034.198,
+  "end": 2046.481,
+  "speaker": "Unknown",
+  "en": "And this was a single, it was about a few cell records, cell call detail records, kind of ping of a phone that was scattered amongst a lot of data.",
+  "zh": "这是一份单一的，它是关于几条小区记录、小区通话详单，一种散布在大量数据中的手机 ping。"
+ },
+ {
+  "seg": 342,
+  "start": 2046.681,
+  "end": 2049.362,
+  "speaker": "Unknown",
+  "en": "And so this was really interesting to me.",
+  "zh": "所以这真的很有趣。"
+ },
+ {
+  "seg": 343,
+  "start": 2050.422,
+  "end": 2065.349,
+  "speaker": "Unknown",
+  "en": "It points to this area where we could really uplevel and help our public servants unburden them with all this administrative of watching hours and hours and hours of video and listening to hours and hours of audio.",
+  "zh": "它指向了这样一个领域，我们在那里真的可以提升并帮助我们的公仆，让他们从所有这些观看数小时视频和聆听数小时音频的行政事务中解脱出来。"
+ },
+ {
+  "seg": 344,
+  "start": 2065.369,
+  "end": 2066.87,
+  "speaker": "Unknown",
+  "en": "There's a quick comment.",
+  "zh": "有一个简短评论。"
+ },
+ {
+  "seg": 345,
+  "start": 2067.03,
+  "end": 2070.332,
+  "speaker": "Unknown",
+  "en": "This example, Ben Grove, is so impactful to the organization.",
+  "zh": "这个例子，Ben Grove，对组织非常有影响力。"
+ },
+ {
+  "seg": 346,
+  "start": 2071.132,
+  "end": 2080.958,
+  "speaker": "Unknown",
+  "en": "As a culture for our business, the way that we maintain trust is not actually taking credit and shouting from the rooftops about the awesomeness of what happened here.",
+  "zh": "作为我们业务的文化，我们维持信任的方式并不是居功自傲并到处宣扬这里发生的事情是多么棒。"
+ },
+ {
+  "seg": 347,
+  "start": 2081.878,
+  "end": 2085.74,
+  "speaker": "Unknown",
+  "en": "I think that is one of the fastest ways to break trust, frankly, with these organizations.",
+  "zh": "坦率地说，我认为这是破坏与这些组织信任的最快方式之一。"
+ },
+ {
+  "seg": 348,
+  "start": 2086.061,
+  "end": 2089.983,
+  "speaker": "Unknown",
+  "en": "The idea that we're going to scoop up the work and trumpet our",
+  "zh": "我们要抢占工作并吹嘘我们的"
+ },
+ {
+  "seg": 349,
+  "start": 2090.603,
+  "end": 2101.486,
+  "speaker": "Unknown",
+  "en": "So I think being the quiet professionals in a context like this and empowering the customer is why we have access to the next problem.",
+  "zh": "所以我认为，在这样的语境下做低调的专业人士并赋能给客户，这就是我们有权限接触下一个问题的原因。"
+ },
+ {
+  "seg": 350,
+  "start": 2102.186,
+  "end": 2111.049,
+  "speaker": "Unknown",
+  "en": "I wish you would talk about it more, though, because I think that we're in this moment where public distrust in AI is so high.",
+  "zh": "我希望你多谈谈这一点，不过，因为我认为我们正处于这样一个时刻，公众对 AI 的不信任是如此之高。"
+ },
+ {
+  "seg": 351,
+  "start": 2111.069,
+  "end": 2114.73,
+  "speaker": "Unknown",
+  "en": "And this is a wonderful story, right?",
+  "zh": "这是一个精彩的故事，对吧？"
+ },
+ {
+  "seg": 352,
+  "start": 2115.42,
+  "end": 2126.971,
+  "speaker": "Unknown",
+  "en": "I think that coming back to an earlier example of trying to identify threats to a synagogue, I think about network effects and I think about",
+  "zh": "我想回到之前试图识别犹太教会堂威胁的例子，我想到网络效应，我想到"
+ },
+ {
+  "seg": 353,
+  "start": 2129.017,
+  "end": 2130.818,
+  "speaker": "Unknown",
+  "en": "What motivates us to tell our story?",
+  "zh": "是什么激励我们讲述我们的故事？"
+ },
+ {
+  "seg": 354,
+  "start": 2132.519,
+  "end": 2154.21,
+  "speaker": "Unknown",
+  "en": "I think the convergence of this idea of a centralized authoritarian AI capability and surveillance in American or national society, the convergence of these forces has created this immense pressure and I think distrust in many of the",
+  "zh": "我认为这个集中式威权主义 AI 能力和监视在美国或国家社会中出现的想法的趋同，这些力量的趋同已经产生了这种巨大的压力，我认为对许多..."
+ },
+ {
+  "seg": 355,
+  "start": 2155.251,
+  "end": 2160.433,
+  "speaker": "Unknown",
+  "en": "The organizations and, frankly, the communities that we work with.",
+  "zh": "组织，坦率地说，还有我们与之合作的社区的不信任。"
+ },
+ {
+  "seg": 356,
+  "start": 2160.973,
+  "end": 2163.134,
+  "speaker": "Unknown",
+  "en": "That can't be ignored, first of all.",
+  "zh": "首先，这是不能被忽视的。"
+ },
+ {
+  "seg": 357,
+  "start": 2163.594,
+  "end": 2173.418,
+  "speaker": "Unknown",
+  "en": "And I think if we look at the organizations we work with and also the data landscape, the network effects are there and they are unbelievably strong.",
+  "zh": "我认为如果我们看我们合作的组织以及数据格局，网络效应就在那里，而且它们非常强。"
+ },
+ {
+  "seg": 358,
+  "start": 2173.738,
+  "end": 2177.18,
+  "speaker": "Unknown",
+  "en": "Like, for example, it would be very easy for an organization that's trying to kind of",
+  "zh": "比如，举个例子，对于一个试图...的组织来说，这很容易"
+ },
+ {
+  "seg": 359,
+  "start": 2178.08,
+  "end": 2179.1,
+  "speaker": "Unknown",
+  "en": "And for us, we have to protect against...",
+  "zh": "而对我们来说，我们必须防范..."
+ },
+ {
+  "seg": 360,
+  "start": 2199.166,
+  "end": 2223.461,
+  "speaker": "Unknown",
+  "en": "those moments where it's not like we don't need to we don't need to break the rules nor obviously should any organization break the rules in order to find a way to like introduce AI or technology into these complex environments the opposite is true we have to protect the data right and we have to protect these organizations that by virtue of their structure have astounding network effects",
+  "zh": "那些时刻，这并不是我们不需要我们不需要打破规则，显然任何组织也不应该打破规则，以找到一种方式比如将 AI 或技术引入这些复杂的环境，恰恰相反，我们必须保护数据，对吧，我们必须保护这些凭借其结构拥有惊人网络效应的组织"
+ },
+ {
+  "seg": 361,
+  "start": 2224.781,
+  "end": 2227.463,
+  "speaker": "Unknown",
+  "en": "It's almost like the anti-network effect proposition.",
+  "zh": "这几乎就像是一个反网络效应的主张。"
+ },
+ {
+  "seg": 362,
+  "start": 2228.243,
+  "end": 2238.568,
+  "speaker": "Unknown",
+  "en": "How do you preserve the sanctity of the data and the ownership of the data and the ways of working for every individual agency, every individual organization?",
+  "zh": "你如何为每一个单独的机构、每一个单独的组织保留数据的神圣性、数据所有权和工作方式？"
+ },
+ {
+  "seg": 363,
+  "start": 2238.909,
+  "end": 2244.772,
+  "speaker": "Unknown",
+  "en": "And then building the connective tissue, building the interoperability is going to happen.",
+  "zh": "然后建立连接组织，建立互操作性将会发生。"
+ },
+ {
+  "seg": 364,
+  "start": 2246.228,
+  "end": 2252.294,
+  "speaker": "Unknown",
+  "en": "But, and this is where things that might sometimes seem mundane, but we find really fascinating, like how do you think through data governance?",
+  "zh": "但是，这就是那些有时可能看起来平凡，但我们发现非常迷人的事情所在，比如你如何思考数据治理？"
+ },
+ {
+  "seg": 365,
+  "start": 2252.334,
+  "end": 2257.558,
+  "speaker": "Unknown",
+  "en": "How do you think through permissioning logic in the context of AI become unbelievably important?",
+  "zh": "你如何思考 AI 上下文中的许可逻辑变得异常重要？"
+ },
+ {
+  "seg": 366,
+  "start": 2257.758,
+  "end": 2263.764,
+  "speaker": "Unknown",
+  "en": "So I feel really motivated to talk about that in particular.",
+  "zh": "所以我真的很受鼓舞专门谈论这一点。"
+ },
+ {
+  "seg": 367,
+  "start": 2264.344,
+  "end": 2268.408,
+  "speaker": "Unknown",
+  "en": "Peregrine the anti-network effects business.",
+  "zh": "Peregrine 是反网络效应的业务。"
+ },
+ {
+  "seg": 368,
+  "start": 2268.668,
+  "end": 2272.372,
+  "speaker": "Unknown",
+  "en": "I think it's important, especially given the heat now around",
+  "zh": "我认为这很重要，特别是考虑到现在围绕..."
+ },
+ {
+  "seg": 369,
+  "start": 2274.05,
+  "end": 2281.937,
+  "speaker": "Unknown",
+  "en": "AI is so powerful, and so a lot of this data that used to exist, I think people now fear what happens when it's all...",
+  "zh": "AI 是如此强大，所以很多过去存在的这些数据，我认为人们现在害怕当这一切..."
+ },
+ {
+  "seg": 370,
+  "start": 2283.848,
+  "end": 2286.289,
+  "speaker": "Unknown",
+  "en": "Swooped up into a central panopticon.",
+  "zh": "被一扫而空进入一个中央全景监狱。"
+ },
+ {
+  "seg": 371,
+  "start": 2286.609,
+  "end": 2287.95,
+  "speaker": "Unknown",
+  "en": "That's deeply un-American.",
+  "zh": "那是极度非美国的。"
+ },
+ {
+  "seg": 372,
+  "start": 2288.63,
+  "end": 2288.79,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 373,
+  "start": 2289.09,
+  "end": 2289.61,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 374,
+  "start": 2289.79,
+  "end": 2289.99,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 375,
+  "start": 2290.29,
+  "end": 2290.57,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 376,
+  "start": 2290.61,
+  "end": 2296.092,
+  "speaker": "Unknown",
+  "en": "And I think that as a business, it's like I find that our business is a big practice in letting go.",
+  "zh": "我认为作为一个企业，就像我发现我们的业务是放手的大量练习。"
+ },
+ {
+  "seg": 377,
+  "start": 2296.773,
+  "end": 2302.115,
+  "speaker": "Unknown",
+  "en": "It's how do we build high integrity, transparent solutions for our customers?",
+  "zh": "这是我们如何为我们的客户构建高完整性、透明的解决方案？"
+ },
+ {
+  "seg": 378,
+  "start": 2302.695,
+  "end": 2308.657,
+  "speaker": "Unknown",
+  "en": "How do we make that transparent to our customers and their constituents?",
+  "zh": "我们如何对我们的客户及其选民透明这一点？"
+ },
+ {
+  "seg": 379,
+  "start": 2309.697,
+  "end": 2311.458,
+  "speaker": "Unknown",
+  "en": "And then how do we",
+  "zh": "然后我们要如何"
+ },
+ {
+  "seg": 380,
+  "start": 2313.572,
+  "end": 2323.882,
+  "speaker": "Unknown",
+  "en": "Are there technology decisions that you have to make that are morally nuanced?",
+  "zh": "你们是否必须做出在道德上微妙的技术决定？"
+ },
+ {
+  "seg": 381,
+  "start": 2324.042,
+  "end": 2326.344,
+  "speaker": "Unknown",
+  "en": "So for example, facial recognition.",
+  "zh": "例如，面部识别。"
+ },
+ {
+  "seg": 382,
+  "start": 2326.565,
+  "end": 2328.627,
+  "speaker": "Unknown",
+  "en": "I'm curious your stance on that.",
+  "zh": "我对你们在那方面的立场感到好奇。"
+ },
+ {
+  "seg": 383,
+  "start": 2329.147,
+  "end": 2331.97,
+  "speaker": "Unknown",
+  "en": "And then more generally, what is your North Star for hard decisions?",
+  "zh": "然后更广泛地说，你们做出艰难决定的北极星是什么？"
+ },
+ {
+  "seg": 384,
+  "start": 2332.595,
+  "end": 2332.695,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 385,
+  "start": 2333.215,
+  "end": 2346.28,
+  "speaker": "Unknown",
+  "en": "Quickly on facial recognition, I think the idea of a Silicon Valley company imposing a decision that is kind of general purpose for an industry is fundamentally wrong.",
+  "zh": "简单谈谈面部识别，我认为一家硅谷公司强加一个对行业来说有点通用的决定的这种想法是根本错误的。"
+ },
+ {
+  "seg": 386,
+  "start": 2346.74,
+  "end": 2358.524,
+  "speaker": "Unknown",
+  "en": "I think the idea that we as an institution would assert, whether it be the utilization of a technology or a retention policy, I mean, it's very much not how we think.",
+  "zh": "我认为我们作为一个机构会断言，无论是技术的使用还是保留政策，我的意思是，这根本不是我们的思考方式。"
+ },
+ {
+  "seg": 387,
+  "start": 2360.004,
+  "end": 2361.665,
+  "speaker": "Unknown",
+  "en": "Instead, the idea is,",
+  "zh": "相反，想法是，"
+ },
+ {
+  "seg": 388,
+  "start": 2363.426,
+  "end": 2375.184,
+  "speaker": "Unknown",
+  "en": "To help a customer understand the context in which they're operating and actually bring to light all of the considerations they may or may not know and then help them.",
+  "zh": "帮助客户理解他们所处的环境，并实际上揭示他们可能知道也可能不知道的所有考虑因素，然后帮助他们。"
+ },
+ {
+  "seg": 389,
+  "start": 2375.504,
+  "end": 2376.666,
+  "speaker": "Unknown",
+  "en": "And this requires patience.",
+  "zh": "这需要耐心。"
+ },
+ {
+  "seg": 390,
+  "start": 2376.846,
+  "end": 2377.066,
+  "speaker": "Unknown",
+  "en": "Help.",
+  "zh": "帮助。"
+ },
+ {
+  "seg": 391,
+  "start": 2377.667,
+  "end": 2382.733,
+  "speaker": "Unknown",
+  "en": "...usher in the right way of doing business, the right way of thinking about deploying these technologies.",
+  "zh": "...引入正确的做生意方式，正确的思考部署这些技术的方式。"
+ },
+ {
+  "seg": 392,
+  "start": 2383.233,
+  "end": 2390.622,
+  "speaker": "Unknown",
+  "en": "On facial rec, most public safety agencies in America and their communities choose not to implement facial recognition.",
+  "zh": "在面部识别方面，美国大多数公共安全机构及其社区选择不实施面部识别。"
+ },
+ {
+  "seg": 393,
+  "start": 2391.503,
+  "end": 2393.946,
+  "speaker": "Unknown",
+  "en": "Some take a very strong stand and some are...",
+  "zh": "有些采取非常坚定的立场，有些是..."
+ },
+ {
+  "seg": 394,
+  "start": 2395.567,
+  "end": 2399.328,
+  "speaker": "Unknown",
+  "en": "It's just a matter of subjective preference that they'll assert.",
+  "zh": "这只是他们将断言的主观偏好问题。"
+ },
+ {
+  "seg": 395,
+  "start": 2400.328,
+  "end": 2413.591,
+  "speaker": "Unknown",
+  "en": "But the idea of creating a technological red line without understanding the texture and context is not a boundary line that we think that we can assert on top of our customer.",
+  "zh": "但是在不理解纹理和上下文的情况下创建技术红线的想法，不是我们认为可以强加给客户的界限。"
+ },
+ {
+  "seg": 396,
+  "start": 2413.872,
+  "end": 2415.372,
+  "speaker": "Unknown",
+  "en": "So follow the customer, follow the law.",
+  "zh": "所以追随客户，遵循法律。"
+ },
+ {
+  "seg": 397,
+  "start": 2415.812,
+  "end": 2419.213,
+  "speaker": "Unknown",
+  "en": "Yeah, and expose it and create clarity.",
+  "zh": "是的，并揭露它并创造清晰度。"
+ },
+ {
+  "seg": 398,
+  "start": 2420.138,
+  "end": 2425.622,
+  "speaker": "Unknown",
+  "en": "Around, you know, what left-right limits and what the institutional norms may be.",
+  "zh": "关于，你知道，什么左右界限以及制度规范可能是什么。"
+ },
+ {
+  "seg": 399,
+  "start": 2425.822,
+  "end": 2428.104,
+  "speaker": "Unknown",
+  "en": "I mean, it's astounding how cities call each other.",
+  "zh": "我的意思是，城市之间互相联系的方式令人惊讶。"
+ },
+ {
+  "seg": 400,
+  "start": 2428.764,
+  "end": 2429.985,
+  "speaker": "Unknown",
+  "en": "They call each other for advice.",
+  "zh": "They call each other for advice."
+ },
+ {
+  "seg": 401,
+  "start": 2430.506,
+  "end": 2447.698,
+  "speaker": "Unknown",
+  "en": "And so if you really just listen to the way that people learn inside of the industries that we serve, what we realize is helping them streamline the way that they can get the best possible information so they can make their best decision, even about things like what technologies to use or not, goes a really long way.",
+  "zh": "And so if you really just listen to the way that people learn inside of the industries that we serve, what we realize is helping them streamline the way that they can get the best possible information so they can make their best decision, even about things like what technologies to use or not, goes a really long way."
+ },
+ {
+  "seg": 402,
+  "start": 2448.667,
+  "end": 2469.107,
+  "speaker": "Unknown",
+  "en": "Maybe in a similar vein, I want to talk about delivering technology to the underdogs and how you're able to scale this very deep customer motion into a very different customer base than the other company that notoriously has scaled this motion, Palantir, which notoriously doesn't take anything less than eight-figure contracts.",
+  "zh": "Maybe in a similar vein, I want to talk about delivering technology to the underdogs and how you're able to scale this very deep customer motion into a very different customer base than the other company that notoriously has scaled this motion, Palantir, which notoriously doesn't take anything less than eight-figure contracts."
+ },
+ {
+  "seg": 403,
+  "start": 2471.682,
+  "end": 2473.403,
+  "speaker": "Unknown",
+  "en": "Did your mentors try to convince you not to do this?",
+  "zh": "Did your mentors try to convince you not to do this?"
+ },
+ {
+  "seg": 404,
+  "start": 2473.423,
+  "end": 2476.145,
+  "speaker": "Unknown",
+  "en": "Did people tell you like the economics of this are not gonna scale?",
+  "zh": "Did people tell you like the economics of this are not gonna scale?"
+ },
+ {
+  "seg": 405,
+  "start": 2476.365,
+  "end": 2481.428,
+  "speaker": "Unknown",
+  "en": "And what made you think it was gonna be possible to deliver technology to the underdogs and serve them in this way?",
+  "zh": "And what made you think it was gonna be possible to deliver technology to the underdogs and serve them in this way?"
+ },
+ {
+  "seg": 406,
+  "start": 2481.828,
+  "end": 2482.889,
+  "speaker": "Unknown",
+  "en": "I think it takes confidence.",
+  "zh": "I think it takes confidence."
+ },
+ {
+  "seg": 407,
+  "start": 2482.909,
+  "end": 2492.394,
+  "speaker": "Unknown",
+  "en": "I think it takes confidence to believe that if you build something well, you can solve problems that have never been solved before that will scale later.",
+  "zh": "I think it takes confidence to believe that if you build something well, you can solve problems that have never been solved before that will scale later."
+ },
+ {
+  "seg": 408,
+  "start": 2493.555,
+  "end": 2499.999,
+  "speaker": "Unknown",
+  "en": "And the idea of going deep to build a vertically integrated tech stack",
+  "zh": "And the idea of going deep to build a vertically integrated tech stack"
+ },
+ {
+  "seg": 409,
+  "start": 2501.119,
+  "end": 2509.422,
+  "speaker": "Unknown",
+  "en": "Everything from network access to the permissioning and the governance and the ETL and the pipeline and the ontology and the UX and the APIs.",
+  "zh": "Everything from network access to the permissioning and the governance and the ETL and the pipeline and the ontology and the UX and the APIs."
+ },
+ {
+  "seg": 410,
+  "start": 2510.102,
+  "end": 2521.847,
+  "speaker": "Unknown",
+  "en": "To configure all of that and create a system that's open, interoperable, and can check these boxes, the audacity, I think, is real.",
+  "zh": "To configure all of that and create a system that's open, interoperable, and can check these boxes, the audacity, I think, is real."
+ },
+ {
+  "seg": 411,
+  "start": 2522.427,
+  "end": 2526.908,
+  "speaker": "Unknown",
+  "en": "And to build each of those components in a way that's first class, not just a check the box.",
+  "zh": "And to build each of those components in a way that's first class, not just a check the box."
+ },
+ {
+  "seg": 412,
+  "start": 2526.948,
+  "end": 2528.009,
+  "speaker": "Unknown",
+  "en": "I mean, it's... We were...",
+  "zh": "I mean, it's... We were..."
+ },
+ {
+  "seg": 413,
+  "start": 2529.173,
+  "end": 2540.657,
+  "speaker": "Unknown",
+  "en": "Truly thinking about how to deliver these types of technology solutions to an end market that has never been able to use these solutions before, let alone at the price point that we were able to deliver them.",
+  "zh": "Truly thinking about how to deliver these types of technology solutions to an end market that has never been able to use these solutions before, let alone at the price point that we were able to deliver them."
+ },
+ {
+  "seg": 414,
+  "start": 2541.217,
+  "end": 2547.999,
+  "speaker": "Unknown",
+  "en": "I think the uniqueness about Peregrine is for each organization, we'll take the time to deliver solutions.",
+  "zh": "I think the uniqueness about Peregrine is for each organization, we'll take the time to deliver solutions."
+ },
+ {
+  "seg": 415,
+  "start": 2548.839,
+  "end": 2549.939,
+  "speaker": "Unknown",
+  "en": "All the way to the outcome.",
+  "zh": "All the way to the outcome."
+ },
+ {
+  "seg": 416,
+  "start": 2550.059,
+  "end": 2559.803,
+  "speaker": "Unknown",
+  "en": "And then we'll own the responsibility with our customers of getting to that outcome, which might seem extremely manual, extremely laborious, extremely unstable or unscalable.",
+  "zh": "And then we'll own the responsibility with our customers of getting to that outcome, which might seem extremely manual, extremely laborious, extremely unstable or unscalable."
+ },
+ {
+  "seg": 417,
+  "start": 2560.503,
+  "end": 2573.908,
+  "speaker": "Unknown",
+  "en": "And what we found is being able to do that resulted in a technology platform that could show up and do something very different for these organizations and also scale.",
+  "zh": "And what we found is being able to do that resulted in a technology platform that could show up and do something very different for these organizations and also scale."
+ },
+ {
+  "seg": 418,
+  "start": 2574.372,
+  "end": 2579.156,
+  "speaker": "Unknown",
+  "en": "I've had the chance to talk to a few deployment strategists at Peregrine and they are, they're amazing.",
+  "zh": "I've had the chance to talk to a few deployment strategists at Peregrine and they are, they're amazing."
+ },
+ {
+  "seg": 419,
+  "start": 2579.196,
+  "end": 2581.318,
+  "speaker": "Unknown",
+  "en": "They're so smart, so humble.",
+  "zh": "They're so smart, so humble."
+ },
+ {
+  "seg": 420,
+  "start": 2581.838,
+  "end": 2583.48,
+  "speaker": "Unknown",
+  "en": "They so deeply embody the mission.",
+  "zh": "They so deeply embody the mission."
+ },
+ {
+  "seg": 421,
+  "start": 2583.68,
+  "end": 2589.345,
+  "speaker": "Unknown",
+  "en": "And so I think you guys have selected for and trained a really extraordinary group of people.",
+  "zh": "And so I think you guys have selected for and trained a really extraordinary group of people."
+ },
+ {
+  "seg": 422,
+  "start": 2590.066,
+  "end": 2590.646,
+  "speaker": "Unknown",
+  "en": "How do you do it?",
+  "zh": "How do you do it?"
+ },
+ {
+  "seg": 423,
+  "start": 2590.726,
+  "end": 2591.427,
+  "speaker": "Unknown",
+  "en": "What do you look for?",
+  "zh": "What do you look for?"
+ },
+ {
+  "seg": 424,
+  "start": 2592.588,
+  "end": 2594.369,
+  "speaker": "Unknown",
+  "en": "What do you interview for?",
+  "zh": "What do you interview for?"
+ },
+ {
+  "seg": 425,
+  "start": 2594.549,
+  "end": 2595.891,
+  "speaker": "Unknown",
+  "en": "How do you train these people up?",
+  "zh": "How do you train these people up?"
+ },
+ {
+  "seg": 426,
+  "start": 2595.911,
+  "end": 2600.595,
+  "speaker": "Unknown",
+  "en": "First of all, I mean, it's the greatest compliment because I and we love our team.",
+  "zh": "First of all, I mean, it's the greatest compliment because I and we love our team."
+ },
+ {
+  "seg": 427,
+  "start": 2600.755,
+  "end": 2601.856,
+  "speaker": "Unknown",
+  "en": "When you can build a culture",
+  "zh": "When you can build a culture"
+ },
+ {
+  "seg": 428,
+  "start": 2603.327,
+  "end": 2628.608,
+  "speaker": "Unknown",
+  "en": "where people are trying really hard and can achieve excellence it's almost like how could you not create the environmental factors and the feedback culture which sometimes isn't easy right sometimes it's it can be really intense ben and i would say you know we've aligned we've taken tests and we've aligned on some character qualities one of which is definitely the pursuit of excellence i think of a lot about these environmental factors of um",
+  "zh": "where people are trying really hard and can achieve excellence it's almost like how could you not create the environmental factors and the feedback culture which sometimes isn't easy right sometimes it's it can be really intense ben and i would say you know we've aligned we've taken tests and we've aligned on some character qualities one of which is definitely the pursuit of excellence i think of a lot about these environmental factors of um"
+ },
+ {
+  "seg": 429,
+  "start": 2629.769,
+  "end": 2651.125,
+  "speaker": "Unknown",
+  "en": "uh like trusting the individual contributor it's a very um important thing that we're trying to hold on to and to do that with a forward deployed engineer actually to truly do it really requires trust because we use this analogy of a dark cave right we'll we'll we'll send a person into a cave and they have a tool belt",
+  "zh": "uh like trusting the individual contributor it's a very um important thing that we're trying to hold on to and to do that with a forward deployed engineer actually to truly do it really requires trust because we use this analogy of a dark cave right we'll we'll we'll send a person into a cave and they have a tool belt"
+ },
+ {
+  "seg": 430,
+  "start": 2651.905,
+  "end": 2653.687,
+  "speaker": "Unknown",
+  "en": "And hopefully the tools are pretty good, right?",
+  "zh": "And hopefully the tools are pretty good, right?"
+ },
+ {
+  "seg": 431,
+  "start": 2653.907,
+  "end": 2659.412,
+  "speaker": "Unknown",
+  "en": "And there might be a rope, you know, with a friend at the entrance of the cave that, you know, if they yell for help, you can kind of pull them out.",
+  "zh": "And there might be a rope, you know, with a friend at the entrance of the cave that, you know, if they yell for help, you can kind of pull them out."
+ },
+ {
+  "seg": 432,
+  "start": 2659.812,
+  "end": 2663.235,
+  "speaker": "Unknown",
+  "en": "But truly, we are sending people into these zones.",
+  "zh": "But truly, we are sending people into these zones."
+ },
+ {
+  "seg": 433,
+  "start": 2664.696,
+  "end": 2666.818,
+  "speaker": "Unknown",
+  "en": "And we're saying, maintain your integrity.",
+  "zh": "And we're saying, maintain your integrity."
+ },
+ {
+  "seg": 434,
+  "start": 2668.059,
+  "end": 2669.401,
+  "speaker": "Unknown",
+  "en": "Like, maintain your principles.",
+  "zh": "Like, maintain your principles."
+ },
+ {
+  "seg": 435,
+  "start": 2671.142,
+  "end": 2671.823,
+  "speaker": "Unknown",
+  "en": "Here are the tools.",
+  "zh": "Here are the tools."
+ },
+ {
+  "seg": 436,
+  "start": 2672.844,
+  "end": 2673.504,
+  "speaker": "Unknown",
+  "en": "Go do good.",
+  "zh": "Go do good."
+ },
+ {
+  "seg": 437,
+  "start": 2674.465,
+  "end": 2676.907,
+  "speaker": "Unknown",
+  "en": "And to do that at scale, I really believe requires",
+  "zh": "And to do that at scale, I really believe requires"
+ },
+ {
+  "seg": 438,
+  "start": 2679.22,
+  "end": 2698.925,
+  "speaker": "Unknown",
+  "en": "Institutional trust and a belief system that innovation actually happens at the farthest fringes of our organization, that the way that our engineering product design organizations are fed is through that innovation process across the country and now across multiple countries with our Forward Deploy team.",
+  "zh": "Institutional trust and a belief system that innovation actually happens at the farthest fringes of our organization, that the way that our engineering product design organizations are fed is through that innovation process across the country and now across multiple countries with our Forward Deploy team."
+ },
+ {
+  "seg": 439,
+  "start": 2699.886,
+  "end": 2700.606,
+  "speaker": "Unknown",
+  "en": "It's fascinating.",
+  "zh": "It's fascinating."
+ },
+ {
+  "seg": 440,
+  "start": 2701.186,
+  "end": 2704.587,
+  "speaker": "Unknown",
+  "en": "So different from when I talk to companies who view Forward Deploy as",
+  "zh": "So different from when I talk to companies who view Forward Deploy as"
+ },
+ {
+  "seg": 441,
+  "start": 2705.764,
+  "end": 2706.404,
+  "speaker": "Unknown",
+  "en": "A cost center.",
+  "zh": "A cost center."
+ },
+ {
+  "seg": 442,
+  "start": 2707.285,
+  "end": 2710.406,
+  "speaker": "Unknown",
+  "en": "You guys are fundamentally very different talking to you.",
+  "zh": "You guys are fundamentally very different talking to you."
+ },
+ {
+  "seg": 443,
+  "start": 2710.446,
+  "end": 2711.407,
+  "speaker": "Unknown",
+  "en": "Definitely R&D.",
+  "zh": "Definitely R&D."
+ },
+ {
+  "seg": 444,
+  "start": 2711.687,
+  "end": 2713.588,
+  "speaker": "Unknown",
+  "en": "Definitely R&D and growth.",
+  "zh": "Definitely R&D and growth."
+ },
+ {
+  "seg": 445,
+  "start": 2713.948,
+  "end": 2724.913,
+  "speaker": "Unknown",
+  "en": "I mean, after we land inside of a customer base, we have these models where we'll do these within customer pilots for all intents and purposes, where we'll keep sprinting on additional use cases.",
+  "zh": "I mean, after we land inside of a customer base, we have these models where we'll do these within customer pilots for all intents and purposes, where we'll keep sprinting on additional use cases."
+ },
+ {
+  "seg": 446,
+  "start": 2725.013,
+  "end": 2734.458,
+  "speaker": "Unknown",
+  "en": "And in many ways, how we land and then how we expand in a customer base is fundamentally about leading from the front through our forward-deployed engineers.",
+  "zh": "And in many ways, how we land and then how we expand in a customer base is fundamentally about leading from the front through our forward-deployed engineers."
+ },
+ {
+  "seg": 447,
+  "start": 2734.718,
+  "end": 2737.199,
+  "speaker": "Unknown",
+  "en": "Have you discovered any new products through this motion?",
+  "zh": "Have you discovered any new products through this motion?"
+ },
+ {
+  "seg": 448,
+  "start": 2739.18,
+  "end": 2740.421,
+  "speaker": "Unknown",
+  "en": "A hundred, I mean, a hundred percent.",
+  "zh": "A hundred, I mean, a hundred percent."
+ },
+ {
+  "seg": 449,
+  "start": 2740.581,
+  "end": 2742.262,
+  "speaker": "Unknown",
+  "en": "It's just the whole thing.",
+  "zh": "It's just the whole thing."
+ },
+ {
+  "seg": 450,
+  "start": 2742.302,
+  "end": 2744.663,
+  "speaker": "Unknown",
+  "en": "Like, I think it's hard to even separate that.",
+  "zh": "就像，我觉得很难把它们分开。"
+ },
+ {
+  "seg": 451,
+  "start": 2744.683,
+  "end": 2753.528,
+  "speaker": "Unknown",
+  "en": "I mean, I remember walking or walking, driving across the Bay Bridge, San Pablo, typing on the computer and Nick's like, okay, we gotta get these reports done.",
+  "zh": "我的意思是，我记得走路或者走路，开车穿过海湾大桥，圣巴勃罗，在电脑上打字，然后 Nick 说，好吧，我们得把这些报告做完。"
+ },
+ {
+  "seg": 452,
+  "start": 2753.548,
+  "end": 2756.849,
+  "speaker": "Unknown",
+  "en": "And like, this is, and this is what this detective needs.",
+  "zh": "就像，这是，这就是这位侦探需要的。"
+ },
+ {
+  "seg": 453,
+  "start": 2756.89,
+  "end": 2762.933,
+  "speaker": "Unknown",
+  "en": "And literally typing as fast as I could to try and code what we needed at the time.",
+  "zh": "而且真的以我最快的速度打字，试图在当时编写我们需要的代码。"
+ },
+ {
+  "seg": 454,
+  "start": 2762.953,
+  "end": 2763.573,
+  "speaker": "Unknown",
+  "en": "And when you're-",
+  "zh": "而当你正——"
+ },
+ {
+  "seg": 455,
+  "start": 2763.693,
+  "end": 2764.754,
+  "speaker": "Unknown",
+  "en": "And it wasn't theoretical.",
+  "zh": "而且这不是理论上的。"
+ },
+ {
+  "seg": 456,
+  "start": 2764.914,
+  "end": 2768.977,
+  "speaker": "Unknown",
+  "en": "It was Aaron Blaisdell who had an extraordinarily urgent request.",
+  "zh": "是 Aaron Blaisdell 提出了一个极其紧急的请求。"
+ },
+ {
+  "seg": 457,
+  "start": 2769.537,
+  "end": 2770.778,
+  "speaker": "Unknown",
+  "en": "Yeah, and I feel it.",
+  "zh": "是的，我感同身受。"
+ },
+ {
+  "seg": 458,
+  "start": 2770.798,
+  "end": 2772.379,
+  "speaker": "Unknown",
+  "en": "And so it's so hard to separate.",
+  "zh": "所以很难把它们分开。"
+ },
+ {
+  "seg": 459,
+  "start": 2772.54,
+  "end": 2777.323,
+  "speaker": "Unknown",
+  "en": "Very rarely are we in a room pontificating about what to build.",
+  "zh": "我们很少在一个房间里夸夸其谈要构建什么。"
+ },
+ {
+  "seg": 460,
+  "start": 2778.144,
+  "end": 2783.988,
+  "speaker": "Unknown",
+  "en": "I really think about the FD motion and how it impacts our product in two ways.",
+  "zh": "我真的在考虑 FD 动议以及它如何以两种方式影响我们的产品。"
+ },
+ {
+  "seg": 461,
+  "start": 2785.589,
+  "end": 2786.27,
+  "speaker": "Unknown",
+  "en": "One is...",
+  "zh": "一个是……"
+ },
+ {
+  "seg": 462,
+  "start": 2788.121,
+  "end": 2791.484,
+  "speaker": "Unknown",
+  "en": "What are the basic primitives that the technology platform needs?",
+  "zh": "技术平台需要哪些基本原语？"
+ },
+ {
+  "seg": 463,
+  "start": 2791.544,
+  "end": 2798.81,
+  "speaker": "Unknown",
+  "en": "And there's a couple of examples of this that I think are fascinating and reflect the ingenuity of our Forward Deploy team.",
+  "zh": "有几个我认为非常有趣的例子，反映了我们前置部署团队的创新精神。"
+ },
+ {
+  "seg": 464,
+  "start": 2799.37,
+  "end": 2804.735,
+  "speaker": "Unknown",
+  "en": "For the longest time in Peregrine, we had no ability to edit specific fields and properties.",
+  "zh": "在 Peregrine 里的很长一段时间，我们无法编辑特定字段和属性。"
+ },
+ {
+  "seg": 465,
+  "start": 2805.235,
+  "end": 2807.977,
+  "speaker": "Unknown",
+  "en": "And so one Forward Deploy engineer to get around that",
+  "zh": "所以一位前置部署工程师为了绕过那个问题"
+ },
+ {
+  "seg": 466,
+  "start": 2808.984,
+  "end": 2813.75,
+  "speaker": "Unknown",
+  "en": "Made an integration based on the comments people would write on these objects.",
+  "zh": "基于人们在这些对象上写的评论做了一个集成。"
+ },
+ {
+  "seg": 467,
+  "start": 2814.291,
+  "end": 2818.315,
+  "speaker": "Unknown",
+  "en": "And that comment would be read by Peregrine and then update a property.",
+  "zh": "那条评论会被 Peregrine 读取，然后更新一个属性。"
+ },
+ {
+  "seg": 468,
+  "start": 2818.355,
+  "end": 2820.798,
+  "speaker": "Unknown",
+  "en": "And that was the way they implemented editing.",
+  "zh": "这就是他们实现编辑的方式。"
+ },
+ {
+  "seg": 469,
+  "start": 2820.938,
+  "end": 2821.92,
+  "speaker": "Unknown",
+  "en": "And so we saw that and we're like...",
+  "zh": "所以我们看到了那个，我们就像……"
+ },
+ {
+  "seg": 470,
+  "start": 2822.978,
+  "end": 2824.198,
+  "speaker": "Unknown",
+  "en": "We need to implement editing.",
+  "zh": "我们需要实现编辑功能。"
+ },
+ {
+  "seg": 471,
+  "start": 2824.338,
+  "end": 2837.281,
+  "speaker": "Unknown",
+  "en": "And by the way, the reason that teammate did that is because our intent was, and this is the way that the coaching and leading happens, it's like, your job is to hit the objective, like to hell with the technology.",
+  "zh": "顺便说一句，那位队友这么做的原因是因为我们的初衷是，这也是指导和领导的方式，就像，你的工作就是达成目标，管它什么技术呢。"
+ },
+ {
+  "seg": 472,
+  "start": 2838.301,
+  "end": 2846.003,
+  "speaker": "Unknown",
+  "en": "I mean, our job is to build the technologies and the tools that empower you to do higher and higher levels of work, but your job is to achieve.",
+  "zh": "我的意思是，我们的工作是构建技术和工具，使你能够做越来越高水平的工作，但你的工作是去达成目标。"
+ },
+ {
+  "seg": 473,
+  "start": 2847.463,
+  "end": 2854.009,
+  "speaker": "Unknown",
+  "en": "And that's what creates these crazy things that might look very unskilled, very hacky, but ultimately are the absolute best signaling network.",
+  "zh": "这就是创造了这些疯狂的东西的原因，它们可能看起来非常不熟练、非常 hacky，但最终绝对是最好的信号网络。"
+ },
+ {
+  "seg": 474,
+  "start": 2854.489,
+  "end": 2856.691,
+  "speaker": "Unknown",
+  "en": "It's great signal for what actually works.",
+  "zh": "这对于什么真正有效是一个极好的信号。"
+ },
+ {
+  "seg": 475,
+  "start": 2856.851,
+  "end": 2859.513,
+  "speaker": "Unknown",
+  "en": "And it's like the quintessential rapid prototyping.",
+  "zh": "这就像是典型的快速原型制作。"
+ },
+ {
+  "seg": 476,
+  "start": 2860.173,
+  "end": 2861.514,
+  "speaker": "Unknown",
+  "en": "So that's a category one.",
+  "zh": "所以那是第一类。"
+ },
+ {
+  "seg": 477,
+  "start": 2861.695,
+  "end": 2869.06,
+  "speaker": "Unknown",
+  "en": "You get these product primitives that you know that you need to provide the team in order to achieve the objective they're trying to achieve.",
+  "zh": "你获得了这些产品原语，你知道你需要提供给团队，以便实现他们试图达成的目标。"
+ },
+ {
+  "seg": 478,
+  "start": 2870.188,
+  "end": 2890.523,
+  "speaker": "Unknown",
+  "en": "I think category two is almost what I call innovation lab, where the deployment strategist goes and builds something totally unique that we're probably not going to integrate back into the product just because it's such a unique capability specifically for that customer.",
+  "zh": "我认为第二类几乎就是我所说的创新实验室，部署策略师去构建一些完全独特的东西，我们可能不会将其整合回产品中，因为它是专门为该客户提供的独特能力。"
+ },
+ {
+  "seg": 479,
+  "start": 2890.783,
+  "end": 2891.924,
+  "speaker": "Unknown",
+  "en": "And this stuff gets me really excited.",
+  "zh": "这些东西真的让我很兴奋。"
+ },
+ {
+  "seg": 480,
+  "start": 2891.944,
+  "end": 2895.066,
+  "speaker": "Unknown",
+  "en": "And I love watching and seeing what our deployment team builds.",
+  "zh": "我喜欢观看并看看我们的部署团队构建了什么。"
+ },
+ {
+  "seg": 481,
+  "start": 2895.086,
+  "end": 2897.448,
+  "speaker": "Unknown",
+  "en": "I was just looking at one the other day.",
+  "zh": "前几天我正在看一个。"
+ },
+ {
+  "seg": 482,
+  "start": 2898.67,
+  "end": 2901.951,
+  "speaker": "Unknown",
+  "en": "where someone had built a hurricane simulator in Peregrine.",
+  "zh": "有人在 Peregrine 里构建了一个飓风模拟器。"
+ },
+ {
+  "seg": 483,
+  "start": 2902.351,
+  "end": 2903.851,
+  "speaker": "Unknown",
+  "en": "And I was like, how did you do that?",
+  "zh": "我就像，你是怎么做到的？"
+ },
+ {
+  "seg": 484,
+  "start": 2903.871,
+  "end": 2905.391,
+  "speaker": "Unknown",
+  "en": "I didn't know you could do that.",
+  "zh": "我不知道你可以那样做。"
+ },
+ {
+  "seg": 485,
+  "start": 2906.011,
+  "end": 2908.292,
+  "speaker": "Unknown",
+  "en": "And so that was really interesting.",
+  "zh": "所以那真的很有趣。"
+ },
+ {
+  "seg": 486,
+  "start": 2908.312,
+  "end": 2927.655,
+  "speaker": "Unknown",
+  "en": "There was another deployment strategist who built this thing where you could, it integrated a bunch of data from all these different sources, 911 call times, budgets, and you could place a fire department in the city and it would give you an estimate on how many people that would impact.",
+  "zh": "还有另一位部署策略师构建了这个东西，你可以，它整合了来自所有不同来源的一堆数据，911 报警时间、预算，你可以在城市里放置一个消防部门，它会给你一个关于会影响多少人的估计。"
+ },
+ {
+  "seg": 487,
+  "start": 2928.095,
+  "end": 2929.235,
+  "speaker": "Unknown",
+  "en": "And she was at the company for a month.",
+  "zh": "她在公司才一个月。"
+ },
+ {
+  "seg": 488,
+  "start": 2930.116,
+  "end": 2931.656,
+  "speaker": "Unknown",
+  "en": "Maybe last set of questions.",
+  "zh": "也许是最后一组问题。"
+ },
+ {
+  "seg": 489,
+  "start": 2932.436,
+  "end": 2935.677,
+  "speaker": "Unknown",
+  "en": "10 years from now, suppose everything's gone right.",
+  "zh": "10年后，假设一切都进展顺利。"
+ },
+ {
+  "seg": 490,
+  "start": 2936.097,
+  "end": 2941.238,
+  "speaker": "Unknown",
+  "en": "PowerGrant is the institutional memory layer for 10,000 cities.",
+  "zh": "PowerGrant 是一万个城市的机构记忆层。"
+ },
+ {
+  "seg": 491,
+  "start": 2943.939,
+  "end": 2947.8,
+  "speaker": "Unknown",
+  "en": "I think that's great power that outlasts any one administration.",
+  "zh": "我认为那是超越任何一届政府的巨大权力。"
+ },
+ {
+  "seg": 492,
+  "start": 2948.64,
+  "end": 2951.281,
+  "speaker": "Unknown",
+  "en": "And with great power comes great responsibility.",
+  "zh": "能力越大，责任越大。"
+ },
+ {
+  "seg": 493,
+  "start": 2951.561,
+  "end": 2952.321,
+  "speaker": "Unknown",
+  "en": "How do you think about that?",
+  "zh": "你怎么看待那一点？"
+ },
+ {
+  "seg": 494,
+  "start": 2953.398,
+  "end": 2956.541,
+  "speaker": "Unknown",
+  "en": "I think there's the outcome and then I think there's the path to get there.",
+  "zh": "我认为有结果，然后我认为有通往那里的路径。"
+ },
+ {
+  "seg": 495,
+  "start": 2957.842,
+  "end": 2970.873,
+  "speaker": "Unknown",
+  "en": "The end game of 10,000 cities I think requires an operating model that is fundamentally about infrastructure, actually.",
+  "zh": "我认为一万座城市的终极博弈需要一个根本上关于基础设施的运营模式，实际上。"
+ },
+ {
+  "seg": 496,
+  "start": 2970.893,
+  "end": 2980.101,
+  "speaker": "Unknown",
+  "en": "It's like we as a technology organization are delivering technology infrastructure that empower these organizations to do with their data as they",
+  "zh": "就像我们作为一个技术组织正在提供技术基础设施，赋予这些组织去用他们的数据做他们……"
+ },
+ {
+  "seg": 497,
+  "start": 2981.727,
+  "end": 2988.931,
+  "speaker": "Unknown",
+  "en": "And every city, every jurisdiction I deeply believe is unique.",
+  "zh": "而且每个城市、每个司法管辖区我深信都是独一无二的。"
+ },
+ {
+  "seg": 498,
+  "start": 2989.591,
+  "end": 2998.556,
+  "speaker": "Unknown",
+  "en": "And I think the idea of preserving that uniqueness is actually beautiful.",
+  "zh": "我认为保留这种独特性的想法实际上是美丽的。"
+ },
+ {
+  "seg": 499,
+  "start": 2998.576,
+  "end": 3002.318,
+  "speaker": "Unknown",
+  "en": "And so I'm really excited about that.",
+  "zh": "所以我真的很对此感到兴奋。"
+ },
+ {
+  "seg": 500,
+  "start": 3002.338,
+  "end": 3007.841,
+  "speaker": "Unknown",
+  "en": "How do you make each, you know, the potpourri of cities make each one more awesome in their unique way?",
+  "zh": "你如何让每一个，你知道，这一大堆城市中的每一个都以它们独特的方式变得更棒？"
+ },
+ {
+  "seg": 501,
+  "start": 3009.161,
+  "end": 3009.562,
+  "speaker": "Unknown",
+  "en": "That's cool.",
+  "zh": "那很酷。"
+ },
+ {
+  "seg": 502,
+  "start": 3011.87,
+  "end": 3027.26,
+  "speaker": "Unknown",
+  "en": "The path to get there requires serious integrity, moral compass, core values, not just in words, but in our ways of working, our actions, and that never goes away.",
+  "zh": "到达那里的路径需要严肃的正直、道德指南针、核心价值观，不仅在言语上，而且在我们的工作方式、我们的行动中，这永远不会消失。"
+ },
+ {
+  "seg": 503,
+  "start": 3027.82,
+  "end": 3028.641,
+  "speaker": "Unknown",
+  "en": "It never goes away.",
+  "zh": "它永远不会消失。"
+ },
+ {
+  "seg": 504,
+  "start": 3028.701,
+  "end": 3033.504,
+  "speaker": "Unknown",
+  "en": "The way that we think about the next marginal customer that we support.",
+  "zh": "我们思考我们要支持的下一个边际客户的方式。"
+ },
+ {
+  "seg": 505,
+  "start": 3035.38,
+  "end": 3047.786,
+  "speaker": "Unknown",
+  "en": "...requires a level of handholding and delicacy that, candidly, I don't think was possible even five years ago because the marginal cost of doing what we do to drop it below a million bucks a year.",
+  "zh": "……需要一种牵手指导和精细的程度，坦率地说，我不认为这在五年前是可能的，因为我们做这些事的边际成本[要]把它降到每年一百万美元以下。"
+ },
+ {
+  "seg": 506,
+  "start": 3047.866,
+  "end": 3049.207,
+  "speaker": "Unknown",
+  "en": "I mean, it's radical, right?",
+  "zh": "我的意思是，这很激进，对吧？"
+ },
+ {
+  "seg": 507,
+  "start": 3049.467,
+  "end": 3050.668,
+  "speaker": "Unknown",
+  "en": "Coming back to the origin stories.",
+  "zh": "回到起源故事。"
+ },
+ {
+  "seg": 508,
+  "start": 3051.952,
+  "end": 3070.018,
+  "speaker": "Unknown",
+  "en": "In many ways, you know, it's supporting state, county, and city level public safety was, you know, there are a lineage of failed business units of major astounding organizations that tried to do it and failed because to deliver these solutions in a way that's tailored at a price point that these organizations can afford was never possible.",
+  "zh": "在许多方面，你知道，支持州、县和城市级别的公共安全，你知道，有一系列来自那些令人震惊的大型组织的失败业务部门，它们尝试做这个并且失败了，因为以这些组织能负担得起的价格点来提供量身定制的这些解决方案的方式是从来不可能的。"
+ },
+ {
+  "seg": 509,
+  "start": 3070.438,
+  "end": 3078.14,
+  "speaker": "Unknown",
+  "en": "And so to create the efficiency to drop the price by an order or orders of magnitude has earned us the right opportunity.",
+  "zh": "因此，创造效率将价格降低一个或多个数量级，为我们赢得了合适的机会。"
+ },
+ {
+  "seg": 510,
+  "start": 3080.362,
+  "end": 3087.993,
+  "speaker": "Unknown",
+  "en": "to try to deliver on what you just said it's like who are who are we to to think that we hold any power over that i mean it's the institution that has the power",
+  "zh": "去试着实现你刚才说的，这就像我们是，我们是谁去认为我们对此拥有任何权力，我的意思是，是机构拥有权力。"
+ },
+ {
+  "seg": 511,
+  "start": 3088.537,
+  "end": 3089.758,
+  "speaker": "Unknown",
+  "en": "Go make every city awesome.",
+  "zh": "去让每一个城市变得很棒。"
+ },
+ {
+  "seg": 512,
+  "start": 3090.399,
+  "end": 3090.779,
+  "speaker": "Unknown",
+  "en": "For sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 513,
+  "start": 3090.799,
+  "end": 3091.219,
+  "speaker": "Unknown",
+  "en": "I love that.",
+  "zh": "我喜欢那个。"
+ },
+ {
+  "seg": 514,
+  "start": 3092.38,
+  "end": 3094.082,
+  "speaker": "Unknown",
+  "en": "I think you're in a very, very serious seat.",
+  "zh": "我觉得你处在一个非常、非常严肃的位置。"
+ },
+ {
+  "seg": 515,
+  "start": 3095.063,
+  "end": 3102.409,
+  "speaker": "Unknown",
+  "en": "And just in the course of this conversation, it's clear that you're approaching this with great care and great stewardship.",
+  "zh": "就在这次对话的过程中，很明显你正带着极大的关怀和极好的管家精神来处理这件事。"
+ },
+ {
+  "seg": 516,
+  "start": 3102.449,
+  "end": 3104.23,
+  "speaker": "Unknown",
+  "en": "So thank you for what you do.",
+  "zh": "所以感谢你所做的。"
+ },
+ {
+  "seg": 517,
+  "start": 3104.25,
+  "end": 3110.616,
+  "speaker": "Unknown",
+  "en": "I think the world needs more examples of AI being used to improve lives, to improve communities.",
+  "zh": "我认为这个世界需要更多 AI 被用来改善生活、改善社区的例子。"
+ },
+ {
+  "seg": 518,
+  "start": 3110.896,
+  "end": 3114.219,
+  "speaker": "Unknown",
+  "en": "And thank you for what you're doing, and thank you for joining the pod today.",
+  "zh": "感谢你正在做的事，也感谢你今天加入这个播客。"
+ },
+ {
+  "seg": 519,
+  "start": 3115.159,
+  "end": 3115.66,
+  "speaker": "Unknown",
+  "en": "Thank you, Sonya.",
+  "zh": "谢谢你，索尼娅。"
+ }
+]

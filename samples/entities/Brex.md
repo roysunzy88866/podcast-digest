@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[Stripe]] · [[Databricks]] · [[AI]] · [[Claude]] · [[Salesforce]] · [[Lenny]] · [[Gabriel Vasquez]] · [[Michael Tannenbaum]] · [[Kiriti Badam]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":73,"Stripe":23,"Databricks":9,"AI":11,"Claude":41,"Salesforce":10,"Lenny":66,"Gabriel Vasquez":1,"Michael Tannenbaum":1,"Kiriti Badam":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":74,"Stripe":23,"Databricks":9,"AI":12,"Claude":42,"Salesforce":10,"Lenny":66,"Gabriel Vasquez":1,"Michael Tannenbaum":1,"Kiriti Badam":1}</script>
 
 <script>
 (function(){

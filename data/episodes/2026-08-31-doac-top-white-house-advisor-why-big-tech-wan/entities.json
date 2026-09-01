@@ -1,0 +1,1957 @@
+{
+  "episode_id": "2026-08-31-doac-top-white-house-advisor-why-big-tech-wan",
+  "podcast": "The Diary of a CEO",
+  "date": "2026-08-31",
+  "tags": [
+    "AI 与就业",
+    "开源 AI",
+    "美国经济",
+    "财富税与税收",
+    "生命科学与衰老"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "open-source-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 AI (open source AI)",
+      "file": "开源 AI",
+      "primary": true,
+      "how_described": "本集将开源 AI 与 Netscape 时代的 Firefox/Apache 类比，指出开源权重模型让任何人免费使用 AI，不需要付费给 Anthropic 或 OpenAI，是防止 AI 价值集中在少数公司的关键",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1970,
+          "t": [
+            7115.098,
+            7117.578
+          ],
+          "quote": "Everyone's using AI and everyone's using open source AI now.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重模型 (open-weight models)",
+      "file": "开源权重模型",
+      "primary": true,
+      "how_described": "本集解释其本质是'一串数字、数万亿个数字'，不是后门程序，任何人可下载并在自己的计算机上运行，中国模型即是此类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1318,
+          "t": [
+            4804.989,
+            4808.952
+          ],
+          "quote": "In the idea of AI, open-weight models, open source models are free.",
+          "speaker": ""
+        },
+        {
+          "seg": 1332,
+          "t": [
+            4854.611,
+            4856.392
+          ],
+          "quote": "That's not how open-weight models work, by the way.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集举例说现在有智能体每天遍历所有收件箱、把内容拉入中心系统，替代了过去助理做邮件整理和日程安排的工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1264,
+          "t": [
+            4651.934,
+            4657.179
+          ],
+          "quote": "Now with agents, I have an agent that goes across all of my inboxes every single day, pulls everything into the central system.",
+          "speaker": ""
+        },
+        {
+          "seg": 1275,
+          "t": [
+            4676.07,
+            4680.952
+          ],
+          "quote": "But now I don't need to because I've got this agent that does my scheduling, can help me with my scheduling.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "epigenetic-reprogramming",
+      "type": "concept",
+      "role": "concept",
+      "name": "表观遗传重编程 (epigenetic reprogramming)",
+      "file": "表观遗传重编程",
+      "primary": true,
+      "how_described": "本集详细解释为通过微剂量山中因子把细胞表观遗传开关移回正确位置，使细胞变回'年轻版'的自己，已在小鼠、猴子视网膜上验证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1690,
+          "t": [
+            6055.623,
+            6057.465
+          ],
+          "quote": "That's now called epigenetic reprogramming.",
+          "speaker": ""
+        },
+        {
+          "seg": 1695,
+          "t": [
+            6077.857,
+            6088.582
+          ],
+          "quote": "So this epigenetic reprogramming is an entirely new lane of medicine that says not just can we address all of the downstream effects of aging, but can we go to the core?",
+          "speaker": ""
+        },
+        {
+          "seg": 1736,
+          "t": [
+            6262.575,
+            6284.164
+          ],
+          "quote": "And it's transforming not just epigenetic reprogramming, which is this whole big avenue of medicine now, but it's transforming every aspect of biology and our understanding of life sciences, where we can use AI to make these simulations and have a better understanding of what these complicated, incredibly immense interaction sets look like or drive at the end state, versus me needing to kind of be a scientist, being like, oh, I got a good idea, let's try that.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集称其为'我们这个时代最重要的主题'，既讨论了它对就业的影响（企业拿到 AI 杠杆后会做更多新产品、雇更多人），也讨论了它在生命科学药物发现中将成功率从 1% 提升到 75%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            36.334,
+            36.555
+          ],
+          "quote": "AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 13,
+          "t": [
+            39.357,
+            43.601
+          ],
+          "quote": "And I don't vie into the narrative that Dario, Elon and Sam end up having all the value in AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 14,
+          "t": [
+            43.681,
+            51.488
+          ],
+          "quote": "Because in the next 10 years, there will be a billionaire that will emerge that has zero net worth today, downloaded open sourced AI and built a company that made them a billionaire.",
+          "speaker": ""
+        },
+        {
+          "seg": 17,
+          "t": [
+            55.151,
+            58.234
+          ],
+          "quote": "But this narrative that AI will take jobs away, you don't believe it.",
+          "speaker": ""
+        },
+        {
+          "seg": 24,
+          "t": [
+            75.028,
+            78.831
+          ],
+          "quote": "Because AI unleashes this capacity for human advancement.",
+          "speaker": ""
+        },
+        {
+          "seg": 100,
+          "t": [
+            334.301,
+            337.883
+          ],
+          "quote": "And this current PCAST under this administration is heavy in AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 106,
+          "t": [
+            368.044,
+            368.144
+          ],
+          "quote": "AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 107,
+          "t": [
+            368.184,
+            368.304
+          ],
+          "quote": "AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 109,
+          "t": [
+            371.003,
+            376.846
+          ],
+          "quote": "The big question in the United States from a policy perspective seems to be the regulation of AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 110,
+          "t": [
+            377.366,
+            389.092
+          ],
+          "quote": "What role should the government play in determining where AI goes, how it gets built, how it gets deployed, who gets to use it, who owns it, where the value lies?",
+          "speaker": ""
+        },
+        {
+          "seg": 119,
+          "t": [
+            434.125,
+            437.066
+          ],
+          "quote": "And if so, what does that do to American AI?",
+          "speaker": ""
+        },
+        {
+          "seg": 126,
+          "t": [
+            461.302,
+            464.383
+          ],
+          "quote": "enablement, acceleration, regulation of AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 128,
+          "t": [
+            470.165,
+            472.226
+          ],
+          "quote": "In an era of AI, science is also changing.",
+          "speaker": ""
+        },
+        {
+          "seg": 130,
+          "t": [
+            475.747,
+            479.788
+          ],
+          "quote": "We'll go into those subjects, specifically the subjects on AI and everything that it interfaces with.",
+          "speaker": ""
+        },
+        {
+          "seg": 131,
+          "t": [
+            480.128,
+            491.132
+          ],
+          "quote": "But I think it's important also to get kind of like a backdrop of the economic state and like the social state of the nation, because all of these things feed into these big questions on AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 133,
+          "t": [
+            494.093,
+            500.457
+          ],
+          "quote": "Because if you're at a different sort of socioeconomic position, or if you're feeling a different thing, your perspective on AI is going to be radically different.",
+          "speaker": ""
+        },
+        {
+          "seg": 623,
+          "t": [
+            2297.179,
+            2297.76
+          ],
+          "quote": "AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 624,
+          "t": [
+            2298.24,
+            2298.501
+          ],
+          "quote": "AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 643,
+          "t": [
+            2354.856,
+            2356.517
+          ],
+          "quote": "There's technology like AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 722,
+          "t": [
+            2626.779,
+            2631.56
+          ],
+          "quote": "It's what's discovered new advances in agriculture, new physics, new engineering, AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 832,
+          "t": [
+            3043.635,
+            3049.302
+          ],
+          "quote": "If you want to give it a go, head to whisperflow.ai.com to download it right now and give it a try.",
+          "speaker": ""
+        },
+        {
+          "seg": 850,
+          "t": [
+            3092.847,
+            3096.289
+          ],
+          "quote": "But this narrative that AI will take jobs away, you don't believe it.",
+          "speaker": ""
+        },
+        {
+          "seg": 902,
+          "t": [
+            3275.321,
+            3276.823
+          ],
+          "quote": "AI is definitely different.",
+          "speaker": ""
+        },
+        {
+          "seg": 903,
+          "t": [
+            3277.8,
+            3284.941
+          ],
+          "quote": "But I don't think that AI is this world where humans are going to look around and be like, none of us have anything to do anymore.",
+          "speaker": ""
+        },
+        {
+          "seg": 905,
+          "t": [
+            3287.422,
+            3294.043
+          ],
+          "quote": "And the reason is I already see extraordinary creative things being done with AI that were not possible years ago.",
+          "speaker": ""
+        },
+        {
+          "seg": 907,
+          "t": [
+            3299.584,
+            3303.245
+          ],
+          "quote": "And they can use AI to create AI-generated content and put these shows out on platforms.",
+          "speaker": ""
+        },
+        {
+          "seg": 910,
+          "t": [
+            3307.586,
+            3321.909
+          ],
+          "quote": "There may be a lot of AI slop out there, but as this stuff gets better and better, the creative output of people using AI on creative channels where we're all consuming media is only going to go up, and people are going to make money that they weren't able to make before from that output as other people consume it.",
+          "speaker": ""
+        },
+        {
+          "seg": 929,
+          "t": [
+            3396.026,
+            3402.589
+          ],
+          "quote": "If AI takes the cognitive work, and from what you said about robotics, robotics takes a lot of the physical work, what is this third type of work?",
+          "speaker": ""
+        },
+        {
+          "seg": 934,
+          "t": [
+            3417.795,
+            3419.537
+          ],
+          "quote": "So the painter's... And AI couldn't do that.",
+          "speaker": ""
+        },
+        {
+          "seg": 945,
+          "t": [
+            3455.496,
+            3463.46
+          ],
+          "quote": "I have an optimistic view on this, which is that AI and robotics enables individuals to do far more things than they ever could have contemplated.",
+          "speaker": ""
+        },
+        {
+          "seg": 950,
+          "t": [
+            3485.305,
+            3491.287
+          ],
+          "quote": "So I did like a Steve Jobs episode where it was my voice, AI had written the script, AI had synthesized my voice, so I had no involvement.",
+          "speaker": ""
+        },
+        {
+          "seg": 952,
+          "t": [
+            3495.508,
+            3497.969
+          ],
+          "quote": "And they knew it was AI, because it said at the top, this is an AI podcast.",
+          "speaker": ""
+        },
+        {
+          "seg": 983,
+          "t": [
+            3603.222,
+            3607.983
+          ],
+          "quote": "I like at my work, everyone's using AI and everyone's just doing more.",
+          "speaker": ""
+        },
+        {
+          "seg": 992,
+          "t": [
+            3631.492,
+            3637.033
+          ],
+          "quote": "The truth is on the revenue side, what ends up happening is you create new products that you couldn't create before because of AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1001,
+          "t": [
+            3665.41,
+            3672.839
+          ],
+          "quote": "AI can now screen through millions of material science ideas in a computer, print them out, test them, and you can automate that throughput.",
+          "speaker": ""
+        },
+        {
+          "seg": 1005,
+          "t": [
+            3682.526,
+            3698.513
+          ],
+          "quote": "Well, because we're both founders and we have capital, and we're thinking about how to really push intelligence to create new things, that maybe we, because what you're saying I can relate to, I can relate to the fact that AI has made me actually quite, it's probably made me more ambitious about hiring, especially in the near term.",
+          "speaker": ""
+        },
+        {
+          "seg": 1018,
+          "t": [
+            3776.088,
+            3784.293
+          ],
+          "quote": "I think that there's a media narrative on like, oh my God, there was a layoff at so-and-so company because it underlines what they've been promoting to everyone, which is AI is going to cause job loss.",
+          "speaker": ""
+        },
+        {
+          "seg": 1020,
+          "t": [
+            3787.355,
+            3788.416
+          ],
+          "quote": "It came from the AI guys.",
+          "speaker": ""
+        },
+        {
+          "seg": 1075,
+          "t": [
+            3914.675,
+            3919.683
+          ],
+          "quote": "And I think that AI enables more capacity for those individuals to realize more of their potential.",
+          "speaker": ""
+        },
+        {
+          "seg": 1078,
+          "t": [
+            3931.901,
+            3941.883
+          ],
+          "quote": "So when I look at the incentives of the people that are building the AI companies, Andy Jassy has said that there's going to be fewer people doing some of the jobs that are being done today.",
+          "speaker": ""
+        },
+        {
+          "seg": 1080,
+          "t": [
+            3944.204,
+            3949.445
+          ],
+          "quote": "Mark Benioff, who I know has been on your show, cut 4,000 jobs and said, I need less heads because of AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1082,
+          "t": [
+            3955.908,
+            3969.153
+          ],
+          "quote": "But then I look at the other, the AI CEOs, Dario, Elon, Sam Altman, and I go, their incentives, I'd say other than the exception of Elon, have just kind of changed with whatever's good for them at that moment.",
+          "speaker": ""
+        },
+        {
+          "seg": 1088,
+          "t": [
+            3996.177,
+            4002.881
+          ],
+          "quote": "Mitigating the risk of extinction from AI should be a global priority alongside societal scale risks such as pandemics and nuclear wars.",
+          "speaker": ""
+        },
+        {
+          "seg": 1120,
+          "t": [
+            4112.771,
+            4114.393
+          ],
+          "quote": "But he said, we are cutting because of AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1134,
+          "t": [
+            4152.464,
+            4156.569
+          ],
+          "quote": "On the ground, I just see people hiring more because they can do more with AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1138,
+          "t": [
+            4170.784,
+            4172.026
+          ],
+          "quote": "And I think that's what AI does.",
+          "speaker": ""
+        },
+        {
+          "seg": 1148,
+          "t": [
+            4206.697,
+            4214.523
+          ],
+          "quote": "I'll play this interviews and Klarna's always mentioned because I think the media has said that you like double down on AI then you reversed because it didn't work out.",
+          "speaker": ""
+        },
+        {
+          "seg": 1150,
+          "t": [
+            4220.848,
+            4225.452
+          ],
+          "quote": "So I just wanted to get an update on Klarna's business AI agents and all of that if possible.",
+          "speaker": ""
+        },
+        {
+          "seg": 1152,
+          "t": [
+            4226.713,
+            4231.757
+          ],
+          "quote": "First and foremost we were early on released AI to support our",
+          "speaker": ""
+        },
+        {
+          "seg": 1153,
+          "t": [
+            4234.038,
+            4244.046
+          ],
+          "quote": "initial benefit of more calls being dealt with by AI, which customers liked because those calls or chat messages were much, much faster and more qualitative.",
+          "speaker": ""
+        },
+        {
+          "seg": 1155,
+          "t": [
+            4248.529,
+            4254.954
+          ],
+          "quote": "What we did, however, try to communicate as well is that we believed in a world of where AI is cheap and available,",
+          "speaker": ""
+        },
+        {
+          "seg": 1165,
+          "t": [
+            4300.161,
+            4304.364
+          ],
+          "quote": "So I don't know how much restructuring he was doing in his AI-ification of his business.",
+          "speaker": ""
+        },
+        {
+          "seg": 1193,
+          "t": [
+            4359.025,
+            4365.447
+          ],
+          "quote": "Now, let me just go back because your whole point about like AI is going to destroy us all and these guys were making all these claims and then they all kind of backtracked.",
+          "speaker": ""
+        },
+        {
+          "seg": 1194,
+          "t": [
+            4366.327,
+            4369.428
+          ],
+          "quote": "I think there's an important question to ask, which is like, should we stop AI development?",
+          "speaker": ""
+        },
+        {
+          "seg": 1211,
+          "t": [
+            4454.77,
+            4458.752
+          ],
+          "quote": "Do we want to have the AI models built in the U.S. or do we want to have them built by China?",
+          "speaker": ""
+        },
+        {
+          "seg": 1213,
+          "t": [
+            4461.893,
+            4467.975
+          ],
+          "quote": "The idea that you can slow or stop AI development and fortunately think at this moment it's too far too late.",
+          "speaker": ""
+        },
+        {
+          "seg": 1214,
+          "t": [
+            4468.055,
+            4469.355
+          ],
+          "quote": "Like the AI is out there.",
+          "speaker": ""
+        },
+        {
+          "seg": 1218,
+          "t": [
+            4481.753,
+            4486.556
+          ],
+          "quote": "I mean, look at the number of companies that are doing stuff that you could never do before because of AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1226,
+          "t": [
+            4518.651,
+            4524.437
+          ],
+          "quote": "And when it does happen, I think that's a good time to have a conversation about AI taxes and all this sort of stuff.",
+          "speaker": ""
+        },
+        {
+          "seg": 1245,
+          "t": [
+            4569.622,
+            4579.987
+          ],
+          "quote": "You might have heard about the study that, I think it was Stanford that did it, and they showed that there was a 13% relative decline in employment for workers aged 22 to 25 in roles most exposed to generative AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1253,
+          "t": [
+            4605.691,
+            4607.735
+          ],
+          "quote": "You can use AI to write a lot of code.",
+          "speaker": ""
+        },
+        {
+          "seg": 1254,
+          "t": [
+            4608.456,
+            4613.665
+          ],
+          "quote": "But in order to be really good at using AI to write a lot of code, you got to have experience writing code.",
+          "speaker": ""
+        },
+        {
+          "seg": 1257,
+          "t": [
+            4628.556,
+            4631.216
+          ],
+          "quote": "With AI, you can turn one engineer into 100.",
+          "speaker": ""
+        },
+        {
+          "seg": 1318,
+          "t": [
+            4804.989,
+            4808.952
+          ],
+          "quote": "In the idea of AI, open-weight models, open source models are free.",
+          "speaker": ""
+        },
+        {
+          "seg": 1319,
+          "t": [
+            4809.712,
+            4815.874
+          ],
+          "quote": "So now you don't have to go pay Anthropic or Claude or Gemini or ChatGPT for AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1320,
+          "t": [
+            4816.314,
+            4819.235
+          ],
+          "quote": "You can actually use this AI model for free.",
+          "speaker": ""
+        },
+        {
+          "seg": 1338,
+          "t": [
+            4870.06,
+            4875.063
+          ],
+          "quote": "And then some people are arguing like, okay, so now that AI is everywhere, everyone has access to it.",
+          "speaker": ""
+        },
+        {
+          "seg": 1359,
+          "t": [
+            4930.266,
+            4940.976
+          ],
+          "quote": "So we've got all these technologies for monitoring, for cyber defense, for biodefense, and all these sorts of things that are critical for, you know, especially in a post-AI era, like what are the big attack factors?",
+          "speaker": ""
+        },
+        {
+          "seg": 1362,
+          "t": [
+            4949.073,
+            4962.964
+          ],
+          "quote": "I will bet you anything that in the next 10 years, there will be a billionaire that will emerge that has absolutely zero net worth today, downloaded open-sourced AI, and built a company that made them a billionaire five years from now, seven years from now.",
+          "speaker": ""
+        },
+        {
+          "seg": 1401,
+          "t": [
+            5109.351,
+            5111.691
+          ],
+          "quote": "You know, we all have a hypothesis about how AI is going to play out.",
+          "speaker": ""
+        },
+        {
+          "seg": 1443,
+          "t": [
+            5230.123,
+            5232.325
+          ],
+          "quote": "And she's like, well, I've got the AI doing all my paperwork.",
+          "speaker": ""
+        },
+        {
+          "seg": 1451,
+          "t": [
+            5249.258,
+            5255.022
+          ],
+          "quote": "And so she, you know, I think it was a very poignant story about kind of what AI actually does on the ground.",
+          "speaker": ""
+        },
+        {
+          "seg": 1588,
+          "t": [
+            5681.915,
+            5684.498
+          ],
+          "quote": "We've had, Brian, a slightly change of direction, but linked to AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1708,
+          "t": [
+            6142.29,
+            6145.633
+          ],
+          "quote": "And AI is going to play a role, I assume, in accelerating this because you can perform...",
+          "speaker": ""
+        },
+        {
+          "seg": 1722,
+          "t": [
+            6210.527,
+            6228.153
+          ],
+          "quote": "To answer the question, AI allows us to build models to better understand what the heck is going on and to make predictions about proteins we could put into the cells that can affect the outcome of changing the epigenome on that DNA without us having a deterministic understanding of what's going on.",
+          "speaker": ""
+        },
+        {
+          "seg": 1723,
+          "t": [
+            6228.493,
+            6231.634
+          ],
+          "quote": "So with AI, I can come up with a million different ideas for a new protein.",
+          "speaker": ""
+        },
+        {
+          "seg": 1735,
+          "t": [
+            6259.173,
+            6262.214
+          ],
+          "quote": "And so that's the way AI plays a role in life sciences discovery.",
+          "speaker": ""
+        },
+        {
+          "seg": 1736,
+          "t": [
+            6262.575,
+            6284.164
+          ],
+          "quote": "And it's transforming not just epigenetic reprogramming, which is this whole big avenue of medicine now, but it's transforming every aspect of biology and our understanding of life sciences, where we can use AI to make these simulations and have a better understanding of what these complicated, incredibly immense interaction sets look like or drive at the end state, versus me needing to kind of be a scientist, being like, oh, I got a good idea, let's try that.",
+          "speaker": ""
+        },
+        {
+          "seg": 1740,
+          "t": [
+            6290.437,
+            6291.237
+          ],
+          "quote": "Are you training your own AI?",
+          "speaker": ""
+        },
+        {
+          "seg": 1747,
+          "t": [
+            6305.22,
+            6310.601
+          ],
+          "quote": "And to your questions and talking about AI earlier, oh my God, the stuff we can do is unbelievable and it's mind-blowing.",
+          "speaker": ""
+        },
+        {
+          "seg": 1750,
+          "t": [
+            6313.722,
+            6315.542
+          ],
+          "quote": "It's not like AI got me to get rid of jobs.",
+          "speaker": ""
+        },
+        {
+          "seg": 1752,
+          "t": [
+            6318.643,
+            6332.726
+          ],
+          "quote": "That's why I'm so optimistic about AI not destroying jobs, because all I see is opportunity with new companies, new ideas, new pathways, new things, new breakthroughs in sciences, in materials, in engineering, things that we could have never, ever tackled.",
+          "speaker": ""
+        },
+        {
+          "seg": 1753,
+          "t": [
+            6333.126,
+            6334.327
+          ],
+          "quote": "We can now tackle with AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1931,
+          "t": [
+            6959.51,
+            6964.191
+          ],
+          "quote": "That AI unleashes this capacity for human advancement.",
+          "speaker": ""
+        },
+        {
+          "seg": 1936,
+          "t": [
+            6978.619,
+            6982.423
+          ],
+          "quote": "I think that the productivity gains that are going to arise from AI are not just going to kind of...",
+          "speaker": ""
+        },
+        {
+          "seg": 1960,
+          "t": [
+            7085.004,
+            7085.904
+          ],
+          "quote": "They see AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1968,
+          "t": [
+            7109.576,
+            7112.557
+          ],
+          "quote": "I'll tell you, everyone thinks that AI is going to accumulate to two or three companies.",
+          "speaker": ""
+        },
+        {
+          "seg": 1970,
+          "t": [
+            7115.098,
+            7117.578
+          ],
+          "quote": "Everyone's using AI and everyone's using open source AI now.",
+          "speaker": ""
+        },
+        {
+          "seg": 1971,
+          "t": [
+            7118.059,
+            7119.979
+          ],
+          "quote": "Meaning every company is going to benefit from AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1974,
+          "t": [
+            7128.362,
+            7133.285
+          ],
+          "quote": "I don't buy into the narrative that Dario, Elon, and Sam end up having all the value in AI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1979,
+          "t": [
+            7143.141,
+            7145.062
+          ],
+          "quote": "Are we in an AI bubble in that regard?",
+          "speaker": ""
+        },
+        {
+          "seg": 1981,
+          "t": [
+            7145.542,
+            7157.306
+          ],
+          "quote": "This CapEx on AI, if the cost to run a Chinese model comes down by some number of fold over the cost to run a proprietary model, I'm going to run more models.",
+          "speaker": ""
+        },
+        {
+          "seg": 2025,
+          "t": [
+            7320.593,
+            7323.374
+          ],
+          "quote": "And education with AI is changing as well.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集将其定义为核心驱动力——'人类的主观能动性能够影响我们周围的宇宙'，并认为社会主义的问题正是消灭了个人通过主观能动性从劳动跨到资本的可能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.151,
+            4.614
+          ],
+          "quote": "It's inevitable that socialism will happen in America, but I don't want to lose my agency, my liberty, my freedom.",
+          "speaker": ""
+        },
+        {
+          "seg": 40,
+          "t": [
+            145.825,
+            150.149
+          ],
+          "quote": "And I'm a big believer in human agency to affect the universe around us.",
+          "speaker": ""
+        },
+        {
+          "seg": 242,
+          "t": [
+            867.252,
+            875.317
+          ],
+          "quote": "And that's what America was founded on was this ability to find through freedom of choice, through agency, the ability to transition from labor to capital.",
+          "speaker": ""
+        },
+        {
+          "seg": 502,
+          "t": [
+            1839.004,
+            1843.488
+          ],
+          "quote": "And maybe the government solution wasn't the right solution, but human agency is what got all these people there.",
+          "speaker": ""
+        },
+        {
+          "seg": 516,
+          "t": [
+            1882.029,
+            1887.971
+          ],
+          "quote": "There's a lot of ways that the government actually inhibits people's agency and makes it harder for them to do the things that they want to do and progress.",
+          "speaker": ""
+        },
+        {
+          "seg": 518,
+          "t": [
+            1891.932,
+            1894.752
+          ],
+          "quote": "But I think the second thing is I never discount human agency.",
+          "speaker": ""
+        },
+        {
+          "seg": 523,
+          "t": [
+            1913.816,
+            1922.859
+          ],
+          "quote": "And these guys made the argument, which I discounted at the time, but I often think about nowadays, that it was actually the agency of the individual choice that,",
+          "speaker": ""
+        },
+        {
+          "seg": 542,
+          "t": [
+            1981.085,
+            1985.849
+          ],
+          "quote": "We've lost that value of agency, the importance of the individual taking their own action.",
+          "speaker": ""
+        },
+        {
+          "seg": 572,
+          "t": [
+            2116.074,
+            2119.595
+          ],
+          "quote": "There's nuance of like personal agency, but then also the government do need to give me a good foundation.",
+          "speaker": ""
+        },
+        {
+          "seg": 587,
+          "t": [
+            2170.559,
+            2179.905
+          ],
+          "quote": "The circumstances of our upbringing and maybe our nature, maybe our biology, maybe set us up to be the certain type of person where agency, however that's defined.",
+          "speaker": ""
+        },
+        {
+          "seg": 594,
+          "t": [
+            2195.234,
+            2202.477
+          ],
+          "quote": "If it's teaching you that your next job is to come and work for the city or come and work for the state, it's not teaching you that you have agency.",
+          "speaker": ""
+        },
+        {
+          "seg": 596,
+          "t": [
+            2208.578,
+            2209.959
+          ],
+          "quote": "It's not teaching you about your agency.",
+          "speaker": ""
+        },
+        {
+          "seg": 718,
+          "t": [
+            2602.379,
+            2613.415
+          ],
+          "quote": "What happens in America, the freedoms that were afforded, the individual agency and liberty and rights to private property, creates an incentive structure that says, go try and do crazy stuff that could work.",
+          "speaker": ""
+        },
+        {
+          "seg": 737,
+          "t": [
+            2687.802,
+            2696.75
+          ],
+          "quote": "So central planning, it might stop a few, you know, very high agency, ambitious people, but the vast majority would theoretically be happier with a Denmark model.",
+          "speaker": ""
+        },
+        {
+          "seg": 944,
+          "t": [
+            3446.746,
+            3455.236
+          ],
+          "quote": "So I think it's a pessimistic view to assume that robots replace all humans and then humans have no logic, no agency, no capacity for creative work anymore.",
+          "speaker": ""
+        },
+        {
+          "seg": 946,
+          "t": [
+            3463.94,
+            3468.362
+          ],
+          "quote": "And that's going to give everyone much more ability to realize their potential with their agency.",
+          "speaker": ""
+        },
+        {
+          "seg": 1462,
+          "t": [
+            5283.028,
+            5287.492
+          ],
+          "quote": "You know, you talked about the human agency point and should we be preparing for such a transition?",
+          "speaker": ""
+        },
+        {
+          "seg": 1493,
+          "t": [
+            5374.393,
+            5375.954
+          ],
+          "quote": "I'm actually, I don't want to lose my agency.",
+          "speaker": ""
+        },
+        {
+          "seg": 1496,
+          "t": [
+            5384.638,
+            5385.738
+          ],
+          "quote": "I think they're losing their agency.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "wealth-tax",
+      "type": "concept",
+      "role": "concept",
+      "name": "财富税 (wealth tax)",
+      "file": "财富税",
+      "primary": true,
+      "how_described": "本集称其为'资产没收税'，违反美国私有财产权建国原则；就算 100% 没收全美亿万富翁 8 万亿净值也只够政府花一年，不解决财政问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            1431.738,
+            1433.72
+          ],
+          "quote": "You can have a wealth tax by raising capital gains.",
+          "speaker": ""
+        },
+        {
+          "seg": 433,
+          "t": [
+            1537.135,
+            1543.899
+          ],
+          "quote": "You know, France had this wealth tax, and then their total tax revenue declined by more than they were making on the wealth tax because everyone left France.",
+          "speaker": ""
+        },
+        {
+          "seg": 434,
+          "t": [
+            1544.359,
+            1547.842
+          ],
+          "quote": "Then they stopped doing the wealth tax and everyone came back and the income came back.",
+          "speaker": ""
+        },
+        {
+          "seg": 436,
+          "t": [
+            1549.783,
+            1553.486
+          ],
+          "quote": "So I don't think that a wealth tax or an asset seizure tax is the solution.",
+          "speaker": ""
+        },
+        {
+          "seg": 1504,
+          "t": [
+            5423.814,
+            5427.237
+          ],
+          "quote": "He was asking me, why are people so outraged at my support for a wealth tax?",
+          "speaker": ""
+        },
+        {
+          "seg": 1536,
+          "t": [
+            5536.902,
+            5538.843
+          ],
+          "quote": "It doesn't stop fundamentally a wealth tax.",
+          "speaker": ""
+        },
+        {
+          "seg": 1563,
+          "t": [
+            5625.786,
+            5632.471
+          ],
+          "quote": "I don't get why all the politicians are fighting against a wealth tax or for a wealth tax when there's literally 15 other things you could do to make this better.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "capital-gains-tax",
+      "type": "concept",
+      "role": "concept",
+      "name": "资本利得税 (capital gains tax)",
+      "file": "资本利得税",
+      "primary": false,
+      "how_described": "本集主张应将资本利得税税率拉平到与劳动所得税率一致，以解决资本复利不交税而劳动每笔都扣税的不公平",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            1217.493,
+            1221.094
+          ],
+          "quote": "That's an income tax or a capital gains tax, like when you realize that gain.",
+          "speaker": ""
+        },
+        {
+          "seg": 350,
+          "t": [
+            1261.855,
+            1264.737
+          ],
+          "quote": "That's capital gains tax, income tax on high earners.",
+          "speaker": ""
+        },
+        {
+          "seg": 1547,
+          "t": [
+            5573.124,
+            5577.747
+          ],
+          "quote": "But I mean, in terms of when I say avoid that, I mean, you would rather take it like a capital gains tax, which is lower?",
+          "speaker": ""
+        },
+        {
+          "seg": 1551,
+          "t": [
+            5586.994,
+            5590.837
+          ],
+          "quote": "So can we lower income tax in the United States and raise capital gains tax?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "pcast",
+      "type": "company",
+      "role": "company",
+      "name": "PCAST",
+      "file": "PCAST",
+      "primary": true,
+      "how_described": "本集介绍其为总统科学和技术顾问委员会，本届重心在 AI，成员包括 Mark Zuckerberg、Mark Andreessen、Sergey Brin 等",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            314.768,
+            323.514
+          ],
+          "quote": "So if you look back in the last couple administrations, there have been different themes over time on who is appointed to PCAST.",
+          "speaker": ""
+        },
+        {
+          "seg": 96,
+          "t": [
+            323.774,
+            328.217
+          ],
+          "quote": "In historical context, like Bill Clinton had a PCAST that was set up just for the Internet.",
+          "speaker": ""
+        },
+        {
+          "seg": 97,
+          "t": [
+            328.377,
+            328.757
+          ],
+          "quote": "PCAST.",
+          "speaker": ""
+        },
+        {
+          "seg": 100,
+          "t": [
+            334.301,
+            337.883
+          ],
+          "quote": "And this current PCAST under this administration is heavy in AI.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集在讨论开源 AI 时提到，作为私有模型代表，使用其模型需付 50 美元/百万 token，远贵于中国开源模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            416.279,
+            426.442
+          ],
+          "quote": "for a million tokens of output, which is a measure of how productive the model is, you know, this token is kind of like a word, versus $50 from Anthropic, which is a private model.",
+          "speaker": ""
+        },
+        {
+          "seg": 1319,
+          "t": [
+            4809.712,
+            4815.874
+          ],
+          "quote": "So now you don't have to go pay Anthropic or Claude or Gemini or ChatGPT for AI.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集在讨论开源 AI 替代方案时提及，作为需要付费使用的私有模型提供商之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1092,
+          "t": [
+            4015.217,
+            4016.918
+          ],
+          "quote": "OpenAI, superintelligence letter they wrote.",
+          "speaker": ""
+        },
+        {
+          "seg": 1106,
+          "t": [
+            4062.602,
+            4066.945
+          ],
+          "quote": "And suddenly he's talking about how OpenAI and ChatGPT will benefit all of humanity.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "the-climate-corporation",
+      "type": "company",
+      "role": "company",
+      "name": "The Climate Corporation",
+      "file": "The Climate Corporation",
+      "primary": false,
+      "how_described": "本集提及为 Freeberg 创办的公司，2013 年以超 10 亿美元卖给拜耳，是为农民提供的软件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            257.897,
+            261.678
+          ],
+          "quote": "And I left a couple of years later, started a business called The Climate Corporation.",
+          "speaker": ""
+        },
+        {
+          "seg": 76,
+          "t": [
+            267.819,
+            268.679
+          ],
+          "quote": "The Climate Corporation?",
+          "speaker": ""
+        },
+        {
+          "seg": 77,
+          "t": [
+            268.939,
+            269.799
+          ],
+          "quote": "The Climate Corporation.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "netscape",
+      "type": "company",
+      "role": "company",
+      "name": "Netscape",
+      "file": "Netscape",
+      "primary": false,
+      "how_described": "本集用作类比：早期互联网需付费购买 Netscape 服务器软件和浏览器才能建网站，后被 Mozilla/Apache 开源替代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1302,
+          "t": [
+            4749.22,
+            4754.683
+          ],
+          "quote": "If you go back to the early days of the internet, Netscape made server software and Netscape made a browser.",
+          "speaker": ""
+        },
+        {
+          "seg": 1303,
+          "t": [
+            4755.183,
+            4759.085
+          ],
+          "quote": "So in order to produce a website, you needed to pay for Netscape software.",
+          "speaker": ""
+        },
+        {
+          "seg": 1305,
+          "t": [
+            4761.466,
+            4763.466
+          ],
+          "quote": "And you pay Netscape a fee for that software.",
+          "speaker": ""
+        },
+        {
+          "seg": 1308,
+          "t": [
+            4766.167,
+            4768.808
+          ],
+          "quote": "And then if you want to browse the internet, you got to pay for Netscape Navigator.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "mozilla-foundation",
+      "type": "company",
+      "role": "company",
+      "name": "Mozilla Foundation",
+      "file": "Mozilla Foundation",
+      "primary": false,
+      "how_described": "本集说它制作了开源浏览器 Firefox，打破了 Netscape 的收费围墙，使任何人能免费浏览互联网",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1312,
+          "t": [
+            4776.31,
+            4779.932
+          ],
+          "quote": "The Mozilla Foundation made an open source browser called Firefox.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集引用其宣传视频：护士用 Palantir 软件处理文书工作，从而能花更多时间与病人面对面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1442,
+          "t": [
+            5223.798,
+            5230.103
+          ],
+          "quote": "So Palantir put out this promotional video, which I thought was quite good, where they interviewed like a hospital administrator.",
+          "speaker": ""
+        },
+        {
+          "seg": 1448,
+          "t": [
+            5239.371,
+            5241.854
+          ],
+          "quote": "But Palantir, the software takes care of all that for me.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "klarna",
+      "type": "company",
+      "role": "company",
+      "name": "Klarna",
+      "file": "Klarna",
+      "primary": false,
+      "how_described": "本集播放其 CEO 采访：员工从约 6000 人降至不到 3000 人，同期收入翻倍，作为 AI 替代客服的案例讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1148,
+          "t": [
+            4206.697,
+            4214.523
+          ],
+          "quote": "I'll play this interviews and Klarna's always mentioned because I think the media has said that you like double down on AI then you reversed because it didn't work out.",
+          "speaker": ""
+        },
+        {
+          "seg": 1150,
+          "t": [
+            4220.848,
+            4225.452
+          ],
+          "quote": "So I just wanted to get an update on Klarna's business AI agents and all of that if possible.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集用以说明技术变革中个人选择转移的例子：纽约出租车司机因 Uber 能赚更多钱而主动转做 Uber 司机",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1420,
+          "t": [
+            5168.197,
+            5168.977
+          ],
+          "quote": "Then Uber came along.",
+          "speaker": ""
+        },
+        {
+          "seg": 1421,
+          "t": [
+            5169.218,
+            5171.138
+          ],
+          "quote": "And this was one of the big battles around Uber at the time.",
+          "speaker": ""
+        },
+        {
+          "seg": 1423,
+          "t": [
+            5175.81,
+            5181.333
+          ],
+          "quote": "Uber grew the number of people taking car transportation around New York considerably.",
+          "speaker": ""
+        },
+        {
+          "seg": 1424,
+          "t": [
+            5182.013,
+            5184.935
+          ],
+          "quote": "And when Uber demand shot up, a lot of these guys said, I'm not going to be a cab driver anymore.",
+          "speaker": ""
+        },
+        {
+          "seg": 1425,
+          "t": [
+            5184.955,
+            5185.735
+          ],
+          "quote": "I'm going to go be an Uber driver.",
+          "speaker": ""
+        },
+        {
+          "seg": 1426,
+          "t": [
+            5185.755,
+            5187.256
+          ],
+          "quote": "I can make more money as an Uber driver.",
+          "speaker": ""
+        },
+        {
+          "seg": 1427,
+          "t": [
+            5187.996,
+            5189.417
+          ],
+          "quote": "And the number of Uber drivers grew.",
+          "speaker": ""
+        },
+        {
+          "seg": 1428,
+          "t": [
+            5189.517,
+            5193.479
+          ],
+          "quote": "And look, there's a lot of regulation that's happened in New York since then with respect to Uber and whatnot.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提及 Freeberg 在 Google 员工不到千人时加入，IPO 后获得了资产，完成了从劳动到资本的跨越",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            252.476,
+            253.656
+          ],
+          "quote": "And then I ended up working at Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 72,
+          "t": [
+            253.816,
+            257.217
+          ],
+          "quote": "I worked at Google when it was started when it was just under a thousand employees and",
+          "speaker": ""
+        },
+        {
+          "seg": 210,
+          "t": [
+            780.258,
+            781.318
+          ],
+          "quote": "Then I worked at Google.",
+          "speaker": ""
+        },
+        {
+          "seg": 1207,
+          "t": [
+            4415.408,
+            4423.031
+          ],
+          "quote": "But it doesn't do very well with Sam Altman, Dario, Google, or others that have invested billions or hundreds of billions of dollars in model development.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集在列举需要付费的私有 AI 模型时与 Anthropic、Claude、Gemini 并提",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1106,
+          "t": [
+            4062.602,
+            4066.945
+          ],
+          "quote": "And suddenly he's talking about how OpenAI and ChatGPT will benefit all of humanity.",
+          "speaker": ""
+        },
+        {
+          "seg": 1319,
+          "t": [
+            4809.712,
+            4815.874
+          ],
+          "quote": "So now you don't have to go pay Anthropic or Claude or Gemini or ChatGPT for AI.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集两处提及：一是作为需付费的私有模型；二是说现在用 Claude 做邮件整理和日程安排，替代了助理的工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1267,
+          "t": [
+            4660.703,
+            4661.503
+          ],
+          "quote": "Now it's Claude doing it.",
+          "speaker": ""
+        },
+        {
+          "seg": 1268,
+          "t": [
+            4661.543,
+            4663.005
+          ],
+          "quote": "Now the PA can use Claude to do it.",
+          "speaker": ""
+        },
+        {
+          "seg": 1319,
+          "t": [
+            4809.712,
+            4815.874
+          ],
+          "quote": "So now you don't have to go pay Anthropic or Claude or Gemini or ChatGPT for AI.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "federal-student-loan-program",
+      "type": "concept",
+      "role": "concept",
+      "name": "联邦学生贷款计划 (federal student loan program)",
+      "file": "联邦学生贷款计划",
+      "primary": true,
+      "how_described": "本集称其为美国教育价格失控的根源——不区分学校好坏、不看毕业生表现地无限输血，导致大学行政人员从 10% 膨胀到 60%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            676.284,
+            691.048
+          ],
+          "quote": "The real reason is that because the federal student loan program doesn't discriminate against the university on how well they do with their graduating students or the degree or the individual that's taking out the loan, the federal student loan program has just allowed more money to flow in to universities.",
+          "speaker": ""
+        },
+        {
+          "seg": 189,
+          "t": [
+            722.372,
+            731.858
+          ],
+          "quote": "There isn't a natural market force that says your tuition is too high now because the government has provided unlimited funding to higher education through the federal student loan program.",
+          "speaker": ""
+        },
+        {
+          "seg": 2001,
+          "t": [
+            7216.725,
+            7220.09
+          ],
+          "quote": "I think we should end the federal student loan program in the United States.",
+          "speaker": ""
+        },
+        {
+          "seg": 2003,
+          "t": [
+            7227.499,
+            7233.086
+          ],
+          "quote": "I think if the federal student loan program, because it doesn't discern colleges, degrees,",
+          "speaker": ""
+        },
+        {
+          "seg": 2005,
+          "t": [
+            7235.915,
+            7242.058
+          ],
+          "quote": "I think that by ending that federal student loan program, the quality of education in the U.S. will improve dramatically and the price will drop dramatically.",
+          "speaker": ""
+        },
+        {
+          "seg": 2010,
+          "t": [
+            7253.758,
+            7258.602
+          ],
+          "quote": "Like, we've propped up the price of education in the U.S. with the Federal Student Loan Program.",
+          "speaker": ""
+        },
+        {
+          "seg": 2011,
+          "t": [
+            7259.003,
+            7265.108
+          ],
+          "quote": "And so the Federal Student Loan Program was replaced by a program that is accountable, meaning the person that's underwriting the loan.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "yamanaka-factors",
+      "type": "concept",
+      "role": "concept",
+      "name": "山中因子 (Yamanaka factors)",
+      "file": "山中因子",
+      "primary": false,
+      "how_described": "本集说这是 2006 年山中伸弥发现的四种蛋白质，微剂量使用可使细胞开关移回正确位置而不变成胚胎",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1682,
+          "t": [
+            6022.439,
+            6028.344
+          ],
+          "quote": "So they took the Yamanaka factors, which are just four proteins, and they put a microdose of them on a couple cells.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "ubi",
+      "type": "concept",
+      "role": "concept",
+      "name": "UBI",
+      "file": "UBI",
+      "primary": false,
+      "how_described": "本集在讨论 AI 与就业时提及，说有人提议用 UBI 作为 AI 抢走工作后的应对，但 Freeberg 认为那本质上就是社会主义",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 841,
+          "t": [
+            3076.479,
+            3077.68
+          ],
+          "quote": "We might get UBI.",
+          "speaker": ""
+        },
+        {
+          "seg": 1475,
+          "t": [
+            5324.147,
+            5324.647
+          ],
+          "quote": "Is it UBI?",
+          "speaker": ""
+        },
+        {
+          "seg": 1488,
+          "t": [
+            5356.817,
+            5366.72
+          ],
+          "quote": "But, you know, that's just there's going to be more government payments, whether it takes the form of UBI, government jobs grow or some other sort of financial support.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "car-t",
+      "type": "concept",
+      "role": "concept",
+      "name": "CAR T 疗法 (CAR T)",
+      "file": "CAR T 疗法",
+      "primary": false,
+      "how_described": "本集作为进步不均匀的例子：一剂 100 万美元，美国每年仅 5 万人能用，数十万人因无法获得而死亡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 638,
+          "t": [
+            2340.347,
+            2344.049
+          ],
+          "quote": "You know, a lot of medicines today are a million dollars a dose for like CAR T therapies, for example.",
+          "speaker": ""
+        },
+        {
+          "seg": 721,
+          "t": [
+            2620.498,
+            2626.439
+          ],
+          "quote": "It's what discovered CAR-T therapy, what discovered gene editing that can lead to curing human diseases.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "401k",
+      "type": "concept",
+      "role": "concept",
+      "name": "401k",
+      "file": "401k",
+      "primary": false,
+      "how_described": "本集说中产阶级拥有 160 万亿资产部分因为很多人有 401k，比仅靠社会保障的底层 50% 收益高得多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1998,
+          "t": [
+            7197.477,
+            7200.738
+          ],
+          "quote": "So they should be in your 401k and everyone can own a piece.",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

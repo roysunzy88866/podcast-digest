@@ -69,11 +69,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Factory":2,"Anthropic":85,"OpenAI":73,"Microsoft":21,"Meta":24,"NVIDIA":24,"Stripe":23,"OpenRouter":7,"Palantir":8}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Factory":2,"Anthropic":86,"OpenAI":74,"Microsoft":21,"Meta":24,"NVIDIA":24,"Stripe":23,"OpenRouter":7,"Palantir":10}</script>
 
 <script>
 (function(){

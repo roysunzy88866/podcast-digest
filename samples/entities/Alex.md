@@ -44,7 +44,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[AGI]] · [[Google]] · [[Meta]] · [[智能体]] · [[SpaceX]] · [[NVIDIA]] · [[资本支出]] · [[Ranjan Roy]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":73,"Anthropic":85,"AGI":16,"Google":33,"Meta":24,"智能体":1,"SpaceX":11,"NVIDIA":24,"资本支出":4,"Ranjan Roy":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":74,"Anthropic":86,"AGI":16,"Google":34,"Meta":24,"智能体":1,"SpaceX":11,"NVIDIA":24,"资本支出":4,"Ranjan Roy":2}</script>
 
 <script>
 (function(){

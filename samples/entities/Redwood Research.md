@@ -27,7 +27,7 @@ unlisted: true
 
 [[Ryan Greenblatt]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[对齐]] · [[奖励黑客]] · [[智能体]] · [[Matt Turk]] · [[Theo Jaffe]] · [[Google DeepMind]]
 
-<script type="application/json" class="pd-epn">{"Ryan Greenblatt":2,"OpenAI":73,"Anthropic":85,"Hugging Face":14,"对齐":6,"奖励黑客":2,"智能体":1,"Matt Turk":2,"Theo Jaffe":5,"Google DeepMind":4}</script>
+<script type="application/json" class="pd-epn">{"Ryan Greenblatt":2,"OpenAI":74,"Anthropic":86,"Hugging Face":14,"对齐":6,"奖励黑客":2,"智能体":1,"Matt Turk":2,"Theo Jaffe":5,"Google DeepMind":4}</script>
 
 <script>
 (function(){

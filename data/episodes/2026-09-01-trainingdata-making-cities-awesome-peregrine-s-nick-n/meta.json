@@ -1,0 +1,36 @@
+{
+  "id": "2026-09-01-trainingdata-making-cities-awesome-peregrine-s-nick-n",
+  "audio_mp3": "https://pscrb.fm/rss/p/traffic.megaphone.fm/CPUAI4167193786.mp3",
+  "duration_sec": 3115.66,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 520,
+  "asr": true,
+  "title_en": "Making Cities Awesome: Peregrine’s Nick Noone & Ben Rudolph",
+  "podcast": "Training Data",
+  "date": "2026-09-01",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/2361fcb0-a56c-11f1-bcee-5b403a4e1902/image/381c5d6cb5b55296673fcb73d2cbe17b.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-09-01",
+  "added_at": "2026-09-01T10:59:32.755Z",
+  "speaker_map": {
+    "SPEAKER_02": "Nick Noone",
+    "SPEAKER_03": "Ben Rudolph"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Ben Rudolph"
+  ],
+  "host": "Nick Noone",
+  "cohosts": [],
+  "title_zh": "Peregrine：不做监控国家，用AI保护城市安全",
+  "guest_name": "Nick Noone",
+  "guest_title": "Peregrine 的联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/2361fcb0-a56c-11f1-bcee-5b403a4e1902/image/381c5d6cb5b55296673fcb73d2cbe17b.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "1498x1498",
+    "aspect": 1,
+    "fetched_at": "2026-09-01T13:45:02.860Z"
+  }
+}

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Boris]] · [[Anthropic]] · [[Claude Code]] · [[智能体]] · [[ClaudeMD]] · [[MCP]] · [[LLM]] · [[GitHub]] · [[CI-CD]] · [[多模态]]
 
-<script type="application/json" class="pd-epn">{"Boris":1,"Anthropic":85,"Claude Code":45,"智能体":1,"ClaudeMD":2,"MCP":20,"LLM":22,"GitHub":19,"CI-CD":8,"多模态":1}</script>
+<script type="application/json" class="pd-epn">{"Boris":1,"Anthropic":86,"Claude Code":45,"智能体":1,"ClaudeMD":2,"MCP":20,"LLM":22,"GitHub":19,"CI-CD":8,"多模态":1}</script>
 
 <script>
 (function(){

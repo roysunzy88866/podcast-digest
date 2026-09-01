@@ -25,7 +25,7 @@ unlisted: true
 
 [[Kenton Varda]] · [[Apple]] · [[Google]] · [[智能体]] · [[沙箱]] · [[无服务器]] · [[云基础设施]] · [[vibe coding]] · [[蓝图]] · [[小玩意]]
 
-<script type="application/json" class="pd-epn">{"Kenton Varda":1,"Apple":14,"Google":33,"智能体":1,"沙箱":33,"无服务器":1,"云基础设施":1,"vibe coding":25,"蓝图":1,"小玩意":1}</script>
+<script type="application/json" class="pd-epn">{"Kenton Varda":1,"Apple":14,"Google":34,"智能体":1,"沙箱":33,"无服务器":1,"云基础设施":1,"vibe coding":25,"蓝图":1,"小玩意":1}</script>
 
 <script>
 (function(){

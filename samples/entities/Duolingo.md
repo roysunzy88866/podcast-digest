@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[LLM]] · [[主观能动性]] · [[Albert Cheng]] · [[Kiriti Badam]] · [[Jason Cohen]] · [[Turner]] · [[Grammarly]] · [[Aishwarya Reganti]] · [[客户流失率]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"LLM":22,"主观能动性":15,"Albert Cheng":1,"Kiriti Badam":1,"Jason Cohen":1,"Turner":1,"Grammarly":2,"Aishwarya Reganti":1,"客户流失率":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"LLM":22,"主观能动性":16,"Albert Cheng":1,"Kiriti Badam":1,"Jason Cohen":1,"Turner":1,"Grammarly":2,"Aishwarya Reganti":1,"客户流失率":1}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":1,"评估":17,"基准测试":6,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":45,"Codex":32,"Anthropic":85}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":1,"评估":17,"基准测试":6,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":45,"Codex":32,"Anthropic":86}</script>
 
 <script>
 (function(){

@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":5,"Anthropic":85,"Twitter":5,"智能体":1,"红队测试":3,"提示词注入":9,"越狱":1,"护栏":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":5,"Anthropic":86,"Twitter":5,"智能体":1,"红队测试":3,"提示词注入":9,"越狱":1,"护栏":1}</script>
 
 <script>
 (function(){

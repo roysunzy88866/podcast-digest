@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":1,"OpenAI":73,"Anthropic":85,"Salesforce":10,"Cursor":41,"GrokBot":2,"Town":2,"Decagon":3,"Replit":13,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":1,"OpenAI":74,"Anthropic":86,"Salesforce":10,"Cursor":41,"GrokBot":2,"Town":2,"Decagon":3,"Replit":13,"智能体":1}</script>
 
 <script>
 (function(){

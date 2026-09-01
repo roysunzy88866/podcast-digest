@@ -1,0 +1,148 @@
+{
+  "title_zh": "Peregrine：不做监控国家，用AI保护城市安全",
+  "tldr": "Peregrine 的两位创始人 Nick 和 Ben 讲他们如何把前向部署工程带到城市公共安全领域——不做数据收集，只帮机构用好已有数据。",
+  "digest_md": "Nick 和 Ben 是 Peregrine 的联合创始人。Nick 之前在 Palantir 负责过 SOCOM 部门，在中东做过高风险情报部署；Ben 则在联合国难民署和非洲、印度做过人道主义技术工作。两人 2016 年在一次聚会上决定一起做点什么，最终把目光投向了美国城市——结论是，让城市变好的金字塔底座是安全。安全不只是客观上没有犯罪，还得让人感到安全，有了这种稳定性，其他一切才有可能 [09:25 Unknown]。\n\n他们冷打了超过两打电话，2018 年 2 月 26 日才被加利福尼亚州圣巴勃罗警察局允许佩戴徽章进入大楼 [10:51 Unknown]。进去的方式很朴素：找到一位名叫 Brian Bubar 的年轻指挥官，读了他主导的跨辖区涉毒帮派调查的报道，然后直接打电话说——我们不太懂，但能不能进来问你几个问题、学一学，然后看看能不能慢慢搭点东西 [11:31 Unknown]。\n\n## 前向部署工程：不是去装系统，是去拥有问题\n\n前向部署工程这个概念来自 Palantir，核心理念是：派人走进客户的真实环境，心理上\"拥有\"或\"共同拥有\"客户的问题。技术只是手段，真正的目标是替客户拿到结果，而且要比任何其他人或团队快三到五倍 [03:15 Unknown]。但归根结底，这是客户的胜利，不是你的胜利 [03:45 Unknown]。\n\nNick 认为硅谷对这个模式最大的误解是：派聪明人进一个有 30 年机构积淀的地方（比如 LAPD），以为可以快速搞懂一切——这在客户眼里表现为傲慢。放下自己的聪明才智、暂停自我、真正进入客户的语境，说起来容易，但那是一种极其需要共情和耐心的工作方式 [04:10 Unknown]。\n\n## 反数据收集：Peregrine 的结构性差异\n\n公共安全领域之前的公司——比如做摄像头的 Flock、做执法记录仪的 Axon——商业模式本质上都建立在数据收集上：装一个硬件或软件进去，被动采集或让人手动录入信息，信息存在自己系统里后，靠分发优势卖更多收集系统 [18:25 Unknown]。\n\nPeregrine 是这个模式的反转。他们不往客户那里带任何新数据，做的事是连接客户已经拥有的、散落在各个系统里的信息，在上面搭一个治理严格的层，帮人更精确地回答问题 [19:11 Unknown]。商业激励也相反：不是最大化数据量和网络效应，而是去中心化，让每个机构用好自己已有的数据 [20:03 Unknown]。\n\n数据所有权上，他们的立场很明确：每个机构拥有自己的数据，那是社区的数据，不是 Peregrine 的数据。他们提供的是权限控制和治理能力，让机构安全地在内部使用，也能在需要时按规则分享特定信息 [21:50 Unknown]。\n\n## AI 真正发挥价值的地方\n\n最初部署 AI 到这些机构时，本质上就是个好用的搜索——比如查一个地址，不用再看一堆行，直接看到格式化好的所有相关事件 [23:11 Unknown]。但随着用户越来越熟，整个部门的水平线被抬高了，开始出现以前根本不可能做到的深度分析 [23:29 Unknown]。\n\n佛罗里达州一个县上个月做了一百多次水上救援，他们用 Peregrine 追问为什么。智能体跑了多次迭代后发现了关键模式：这种天气模式以前出现过，但从来没有连续三天出现。连续三天会造成沙槽，沙槽是离岸流的完美条件，离岸流就是出事的原因 [23:49 Unknown]。这是坐在总部里完全不可能想到的——飓风中的紧急救援人员需要什么，只有他们在前线才知道 [25:21 Unknown]。\n\n另一个例子：一个探员调查针对犹太教堂的威胁，想找该地区两个犹太教堂历史上是否有过其他反犹威胁。用关键词搜索根本搜不到，但 AI 能做语义理解，从大量数据里找出了威胁模式 [25:37 Unknown]。\n\n但这些能力背后，95% 的工作发生在用户输入问题之前——数据准备、让 AI 能准确回答并正确引用，这本身就是一个很难的工程问题 [26:51 Unknown]。\n\n## 智能体在实际部署中的两种用法\n\n第一种是内部用的长时运行智能体。Peregrine 有 50% 的工程师在做数据平台，已经整合了数万个数据集。他们建了一个集成智能体，能分析数据库、理解本体（即数据的结构关系）、把需要整合的部分拼起来，还会拆分成子智能体分别干活再汇报给编排器 [30:11 Unknown]。目前大约 90% 的 Python 笔记本集成代码由智能体编写，部署团队做监督 [30:54 Unknown]。Nick 说这个问题好在\"可验证\"——完整性、正确性可以确定性地评估，所以比很多其他智能体场景容易得多 [31:36 Unknown]。\n\n第二种是面向终端用户的运营智能体。第一个做出来的是冷案智能体：上传 200 到 300 GB 的数据（视频、音频、图像、大量 PDF），智能体跑 30 到 60 分钟来提取线索 [32:10 Unknown]。这个智能体是跟一个曾经成功为冤案平反的客户一起做的——他们问\"你能用智能体复现我们的结果吗\"，然后不断迭代直到做到 [33:03 Unknown]。现在在美国多个部门使用，最近在威斯康星州一个县，智能体从 300 GB 数据里找出了散布其中的几条手机基站记录，把嫌疑人定位到了犯罪现场和尸体发现地 [33:35 Unknown]。\n\n但 Nick 强调了一个文化原则：不要抢功、不要到处吹。在这种高风险机构里，高调宣扬自己的贡献是破坏信任最快的方式之一。做\"低调的专业人士\"、赋能客户，才是能接触下一个问题的原因 [34:27 Unknown]。\n\n## 面部识别与技术红线的态度\n\n主持人间接问到面部识别。Nick 的立场是：一家硅谷公司给整个行业强加一个通用技术红线，这本身就是错的 [38:53 Unknown]。他们的做法是帮客户理解他们所处的具体环境，把各种考量摊开讲清楚，然后让客户自己决定。在美国，大多数公共安全机构和社区确实选择不用面部识别，但这个决定应该由他们做出，而不是由技术供应商替他们划线 [39:43 Unknown]。核心逻辑是：追随客户，遵循法律，创造清晰度 [40:13 Unknown]。\n\n## 反网络效应：为什么这不是 Palantir 模式\n\nPalantir 以不接八位数以下合同著称。有人问 Nick 和 Ben：这种深度客户模式的经济学能规模化吗？特别是服务那些以前用不起这类技术的\"弱者\"客户 [41:05 Unknown]。\n\nNick 的回答是：这需要信心——相信如果你把东西造好，解决以前没被解决的问题，规模化会随后而来 [41:21 Unknown]。Peregrine 做的是垂直整合的技术栈，从网络接入、权限治理、ETL（数据抽取转换加载）、本体、UX 到 API，每个组件都要做到一流而不是凑合 [41:33 Unknown]。先为每个机构花时间做到结果，哪怕看起来极其手工、极其不可扩展——但这样做出来的技术平台反而能规模化 [42:28 Unknown]。\n\n他认为现在能把边际成本降到每年一百万美元以下，这在五年前是不可能的，也正因如此，他们才有机会进入这个以前被大公司放弃的市场 [50:28 Unknown]。\n\n## 前向部署团队不是成本中心，是 R&D\n\nPeregrine 的前向部署工程师和部署策略师被明确视为研发和增长引擎，不是成本中心 [45:07 Unknown]。他们用\"暗洞\"比喻：把人送进洞里，给一条工具带，洞口有个同伴拉着绳子，然后说——保持你的操守和原则，去吧，去做好的事 [44:11 Unknown]。创新发生在组织最远的边缘，产品团队的反哺靠的就是这些在前线的人 [44:39 Unknown]。\n\n这产生了两类产品信号。第一类是基础能力缺失的信号：有段时间 Peregrine 甚至不能编辑字段，一个前置部署工程师就绕了个弯——基于人们在对象上写的评论做集成，评论被读取后自动更新属性。团队看到后立刻意识到：得做编辑功能。那位工程师之所以这么做，是因为他被告知\"你的目标是达成目的，管它什么技术\" [46:45 Unknown]。第二类是\"创新实验室\"：部署策略师用平台搭出完全独特的东西，比如一个飓风模拟器，或者整合 911 报警时间、预算等数据，让你在城市里虚拟放置一个消防站然后估算覆盖人数——后者是一个入职才一个月的人做的 [47:50 Unknown]。\n\n## 本集带走\n\n- **不收集数据，只连接数据**：Peregrine 的商业模式是传统公共安全技术公司的反转——不往客户那里带新数据，只帮他们用好已有的、散落各处的数据。这从结构上避免了走向监控国家的激励。\n- **前向部署的核心是\"拥有客户的问题\"**：不是去装个系统就走，而是心理上共同承担结果，目标是比任何人快三到五倍帮客户赢。但胜利归客户，别抢功。\n- **95% 的功夫在用户提问之前**：AI 能不能准确回答、正确引用，取决于数据准备的质量。面向终端用户的智能体能力，本质是数据工程能力的体现。\n- **长时运行智能体最适合\"可验证\"的任务**：Peregrine 90% 的数据集成代码由智能体写，因为集成结果的完整性和正确性可以确定性地评估——这比开放式任务好控制得多。\n- **让前线的人决定产品方向**：告诉前向部署工程师\"目标是达成目的，管它什么技术\"，他们自会逼出最真实的产品需求信号。两类信号——基础能力缺失、独特创新——都直接来自前线。\n- **技术红线由客户划，不由供应商划**：面部识别用不用，应该帮客户把利弊摊开，让他们在自己的法律和社区语境下做决定，而不是硅谷公司替全行业定规矩。",
+  "quotes": [
+    {
+      "en": "I love this problem because it's verifiable. And that makes the problem a lot easier. This is why coding agents are, in a lot of ways, a lot easier.",
+      "zh": "我喜欢这个问题，因为它是可验证的。这使得这个问题容易得多。这就是为什么编码智能体在许多方面容易得多。",
+      "timestamp": "31:36",
+      "speaker": "Ben Rudolph"
+    },
+    {
+      "en": "the idea of a Silicon Valley company imposing a decision that is kind of general purpose for an industry is fundamentally wrong.",
+      "zh": "一家硅谷公司强加一个对行业来说有点通用的决定的这种想法是根本错误的。",
+      "timestamp": "38:55",
+      "speaker": "Nick Noone"
+    },
+    {
+      "en": "creating a technological red line without understanding the texture and context is not a boundary line that we think that we can assert on top of our customer.",
+      "zh": "在不理解纹理和上下文的情况下创建技术红线的想法，不是我们认为可以强加给客户的界限。",
+      "timestamp": "40:02",
+      "speaker": "Nick Noone"
+    },
+    {
+      "en": "I think it takes confidence to believe that if you build something well, you can solve problems that have never been solved before that will scale later.",
+      "zh": "我认为这需要信心——相信如果你把东西造好，解决以前没被解决的问题，规模化会随后而来。",
+      "timestamp": "41:22",
+      "speaker": "Nick Noone"
+    },
+    {
+      "en": "your job is to hit the objective, like to hell with the technology.",
+      "zh": "你的工作就是达成目标，管它什么技术呢。",
+      "timestamp": "47:13",
+      "speaker": "Nick Noone"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:37",
+      "speaker": "Unknown",
+      "en": "it felt to me like the adventure of a lifetime to be able to go into a customer context and own the customer's problem",
+      "zh": "对我来说，能够进入客户的语境并拥有客户的问题，感觉像是一生一次的冒险"
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Unknown",
+      "en": "Technology and all of the skills and ways of delivering our tech is part of the answer, but the real answer is just getting to the outcome at all costs, ideally three to five times faster than any other person or team could do.",
+      "zh": "技术以及所有的技能和交付技术的方法只是答案的一部分，但真正的答案是不惜一切代价达到结果，理想情况下比任何其他人或团队快三到五倍。"
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Unknown",
+      "en": "letting go of our intelligence, letting go of our own skills and abilities, trying to suspend our ego and then really get into the customer's context is an easy thing to say, but it's such a high empathy, patient way of working.",
+      "zh": "放下我们的智慧，放下我们自己的技能和能力，试图暂停我们的自我，然后真正进入客户的语境，这是一件容易说的事，但这是一种非常需要共情、耐心的工作方式。"
+    },
+    {
+      "timestamp": "07:04",
+      "speaker": "Unknown",
+      "en": "They have some data that's often in spreadsheets, and it's very difficult to actually make sense of.",
+      "zh": "他们有一些数据，通常是在电子表格中，实际上很难理解。"
+    },
+    {
+      "timestamp": "16:57",
+      "speaker": "Unknown",
+      "en": "The privilege is jumping into the pool and swimming.",
+      "zh": "特权就是跳进泳池去游泳。"
+    },
+    {
+      "timestamp": "18:25",
+      "speaker": "Unknown",
+      "en": "most of the companies that have come before us have built their business fundamentally on the back of data collection.",
+      "zh": "在我们之前的大多数公司从根本上都是建立在数据收集的基础上的。"
+    },
+    {
+      "timestamp": "19:11",
+      "speaker": "Unknown",
+      "en": "we're fundamentally in the business of joining disparate information to provide a more secure, properly governed solution that sits on top of the preexisting systems",
+      "zh": "我们从根本上从事的是连接不同信息的业务，以提供一个更安全、治理得当的解决方案，该解决方案位于现有系统之上"
+    },
+    {
+      "timestamp": "20:03",
+      "speaker": "Unknown",
+      "en": "It's not about maximizing the amount of data that you're collecting and creating network effects of that data.",
+      "zh": "这不是关于最大化你收集的数据量并创建该数据的网络效应。"
+    },
+    {
+      "timestamp": "21:50",
+      "speaker": "Unknown",
+      "en": "We deeply believe in the idea that each customer, each institution owns their own data. That is the community's data. That is the organization's data. It's not Peregrine's data.",
+      "zh": "我们深信每个客户，每个机构拥有他们自己的数据。那是社区的数据。那是组织的数据。这不是 Peregrine 的数据。"
+    },
+    {
+      "timestamp": "25:21",
+      "speaker": "Unknown",
+      "en": "And we just can't, I mean, there's no way we could have made this up, right? It's like we were sitting in our headquarters trying to pontificate. And what emergency responders in a hurricane needed. There's zero chance we would have figured that out.",
+      "zh": "而我们只是不能，我是说，我们不可能编造这些，对吧？就像我们要坐在总部里试图高谈阔论，以及飓风中的紧急救援人员需要什么。我们完全没有机会弄清楚那一点。"
+    },
+    {
+      "timestamp": "31:36",
+      "speaker": "Unknown",
+      "en": "I love this problem because it's verifiable. And that makes the problem a lot easier. This is why coding agents are, in a lot of ways, a lot easier.",
+      "zh": "我喜欢这个问题，因为它是可验证的。这使得这个问题容易得多。这就是为什么编码智能体在许多方面容易得多。"
+    },
+    {
+      "timestamp": "34:31",
+      "speaker": "Unknown",
+      "en": "the way that we maintain trust is not actually taking credit and shouting from the rooftops about the awesomeness of what happened here.",
+      "zh": "我们维持信任的方式并不是居功自傲并到处宣扬这里发生的事情是多么棒。"
+    },
+    {
+      "timestamp": "34:50",
+      "speaker": "Unknown",
+      "en": "being the quiet professionals in a context like this and empowering the customer is why we have access to the next problem.",
+      "zh": "在这样的语境下做低调的专业人士并赋能给客户，这就是我们有权限接触下一个问题的原因。"
+    },
+    {
+      "timestamp": "38:53",
+      "speaker": "Unknown",
+      "en": "the idea of a Silicon Valley company imposing a decision that is kind of general purpose for an industry is fundamentally wrong.",
+      "zh": "一家硅谷公司强加一个对行业来说有点通用的决定的这种想法是根本错误的。"
+    },
+    {
+      "timestamp": "39:43",
+      "speaker": "Unknown",
+      "en": "creating a technological red line without understanding the texture and context is not a boundary line that we think that we can assert on top of our customer.",
+      "zh": "在不理解纹理和上下文的情况下创建技术红线的想法，不是我们认为可以强加给客户的界限。"
+    },
+    {
+      "timestamp": "41:21",
+      "speaker": "Unknown",
+      "en": "I think it takes confidence to believe that if you build something well, you can solve problems that have never been solved before that will scale later.",
+      "zh": "我认为这需要信心——相信如果你把东西造好，解决以前没被解决的问题，规模化会随后而来。"
+    },
+    {
+      "timestamp": "47:15",
+      "speaker": "Unknown",
+      "en": "your job is to hit the objective, like to hell with the technology.",
+      "zh": "你的工作就是达成目标，管它什么技术呢。"
+    },
+    {
+      "timestamp": "50:28",
+      "speaker": "Unknown",
+      "en": "requires a level of handholding and delicacy that, candidly, I don't think was possible even five years ago because the marginal cost of doing what we do to drop it below a million bucks a year.",
+      "zh": "需要一种牵手指导和精细的程度，坦率地说，我不认为这在五年前是可能的，因为我们做这些事的边际成本要降到每年一百万美元以下。"
+    }
+  ],
+  "voice_script": "做城市公共安全的AI公司，最容易变成什么？变成一个帮着搞全民监控的数据怪物。但今天这期聊的这家叫Peregrine的公司，偏偏选了一条完全相反的路——不收集数据，只连接数据。\n\n这期聊的是Peregrine的两位联合创始人，Nick和Ben。Nick之前在Palantir负责过中东的高风险情报部署，Ben在联合国难民署做过人道主义技术。2016年两人决定一起干点事，目光锁定了美国城市。理由很朴素：让城市变好的金字塔底座是安全。但安全不只是没有犯罪，还得让人真正感到安全。\n\n为了进到真实场景里，两人冷打了超过两百通电话，直到2018年2月，才被加利福尼亚州圣巴勃罗警察局允许佩戴徽章进去。进去的方式也一点不高科技：找了一位年轻指挥官，读了主导的涉毒帮派调查报道，然后直接打电话说，我们不太懂，能不能进来问几个问题、学一学。\n\n这种打法叫“前向部署工程”，概念来自Palantir。说白了就是，不是去装个系统就走，而是派人走进客户的真实环境，心理上跟客户一起“拥有”那个问题。技术只是手段，真正的目标是替客户拿到结果，而且要比任何其他人快三到五倍。但归根结底，这是客户的胜利。\n\nNick觉得硅谷对这个模式最大的误解就是傲慢。派几个聪明人进一个有30年积淀的地方，以为能快速搞懂一切。放下聪明才智、暂停自我、真正进入客户的语境，说起来容易，做起来极其需要共情和耐心。\n\n那现成的路为什么不行呢？你看之前做公共安全的公司，比如做摄像头的Flock、做执法记录仪的Axon，商业模式本质上都建立在数据收集上。装个硬件进去，被动采集信息存到自己系统里，再靠分发优势卖更多收集系统。\n\nPeregrine把这个模式彻底反转了。不往客户那里带任何新数据，只做一件事：连接客户已经拥有的、散落在各个系统里的信息。在上面搭一个治理严格的层，帮人更精确地回答问题。数据所有权立场非常明确，每个机构拥有自己的数据，那是社区的数据，不是Peregrine的。商业激励也完全相反，不是最大化数据量和网络效应，而是去中心化，让每个机构用好自己已有的东西。这从结构上就避免了走向监控国家的激励。\n\nAI在这个场景里真正发挥价值的地方，可能跟你想的有点不一样。一开始其实就是个好用的搜索，比如查一个地址，直接看到格式化好的所有相关事件。但用熟了之后，整个部门的水平线会被抬高。\n\n举个特别生动的例子。佛罗里达州一个县上个月做了一百多次水上救援，用Peregrine追问为什么。智能体跑了多次迭代后发现了关键模式：那种天气模式以前出现过，但从来没有连续三天出现。连续三天会造成沙槽，沙槽是离岸流的完美条件，离岸流就是出事的原因。坐在总部里完全不可能想到这些，飓风中的紧急救援人员需要什么，只有在前线才知道。\n\n还有一个探员调查针对犹太教堂的威胁，想找历史上有没有过其他反犹威胁。关键词搜索根本搜不到，但AI做语义理解，从大量数据里找出了威胁模式。\n\n不过这里有个细节特别值得记：这些能力背后，95%的功夫发生在用户输入问题之前。数据准备、让AI能准确回答并正确引用，这本身就是一个极难的工程问题。\n\nPeregrine把智能体分成两种用法。一种是内部用的长时运行智能体，干数据集整合的活儿。目前大约90%的Python笔记本集成代码由智能体编写，部署团队做监督。为什么能这么放心？因为这个问题好在“可验证”。完整性、正确性可以确定性地评估，所以比很多其他智能体场景容易得多。\n\n另一种是面向终端用户的，比如冷案智能体。上传200到300GB的数据，智能体跑30到60分钟来提取线索。最近在威斯康星州一个县，智能体从300GB数据里找出了散布其中的几条手机基站记录，把嫌疑人直接定位到了犯罪现场和尸体发现地。\n\n但Nick特别强调了一个文化原则：不要抢功，不要到处吹。在高风险机构里，高调宣扬自己的贡献是破坏信任最快的方式之一。做低调的专业人士，赋能客户，才是能接触下一个问题的原因。\n\n那这种深度服务的模式能规模化吗？毕竟Palantir可是以不接八位数以下合同著称的。Nick的回答是，这需要信心——相信如果你把东西造好，解决以前没被解决的问题，规模化会随后而来。先为每个机构花时间做到结果，哪怕看起来极其手工、极其不可扩展，但这样做出来的技术平台反而能规模化。现在能把边际成本降到每年一百万美元以下，这在五年前是不可能的。\n\n在Peregrine，前向部署工程师绝不是成本中心，而是研发和增长引擎。他们用“暗洞”来比喻：把人送进洞里，给一条工具带，洞口有个同伴拉着绳子，然后说，保持你的操守和原则，去吧，去做好的事。\n\n创新就发生在组织最远的边缘。比如有段时间产品甚至不能编辑字段，一个前线工程师就被告诉，你的目标是达成目的，管它什么技术。于是绕了个弯，基于人们在对象上写的评论做集成，评论被读取后自动更新属性。团队看到后立刻意识到得做编辑功能。还有一个入职才一个月的人，用平台搭出了虚拟放置消防站然后估算覆盖人数的工具。\n\n最后说个很有意思的态度。主持人间接问到面部识别，Nick的立场很明确：一家硅谷公司给整个行业强加一个通用技术红线，这本身就是错的。做法是帮客户理解具体环境，把各种考量摊开讲清楚，然后让客户自己决定。在美国，大多数公共安全机构和社区确实选择不用，但这个决定应该由他们做出，而不是由技术供应商替他们划线。\n\n核心逻辑就十二个字：追随客户，遵循法律，创造清晰度。"
+}

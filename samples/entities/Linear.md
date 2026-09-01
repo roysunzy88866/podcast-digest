@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Slack]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[原型]] · [[Codex]] · [[Meta]] · [[Nesrine Changuel]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Slack":23,"Cursor":41,"OpenAI":73,"Anthropic":85,"原型":3,"Codex":32,"Meta":24,"Nesrine Changuel":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Slack":23,"Cursor":41,"OpenAI":74,"Anthropic":86,"原型":3,"Codex":32,"Meta":24,"Nesrine Changuel":1}</script>
 
 <script>
 (function(){

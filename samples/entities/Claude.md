@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>41</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>42</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -50,6 +50,7 @@ unlisted: true
 - **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(03:51起):本集举 Claude 为例，说在本地用 Claude 做研究生成子智能体时，子智能体会话日志藏在本机隐藏文件夹的 JSON Lines 文件里，属于黑盒问题
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(29:37起):本集说 Claude 有点抽象，基本上只是别人的电脑，很难向普通人解释它是什么
 - **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(11:37起):本集提到 ClaudeMD 拥有最高优先级的配置文件，Claude app 被用来在移动端管理智能体配置，Claude Design 被用来创建董事会演示文稿
+- **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(77:40起):本集两处提及：一是作为需付费的私有模型；二是说现在用 Claude 做邮件整理和日程安排，替代了助理的工作
 - **[[2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude Co-work造出的自我进化工作系统》]]**(01:34起):本集说 Claude 企业版是 Daniel 整个系统的核心引擎，负责执行周准备、早间简报、自我改进循环等所有任务
 
 ## ① 提到它的金句
@@ -102,7 +103,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*41 集*
+*42 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -144,15 +145,16 @@ unlisted: true
 - [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为概念(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 - [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司(提及)
+- [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
 - [[2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude Co-work造出的自我进化工作系统》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[OpenAI]] · [[Claude Code]] · [[Codex]] · [[vibe coding]] · [[Google]] · [[LLM]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[OpenAI]] · [[Claude Code]] · [[Codex]] · [[Google]] · [[vibe coding]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":85,"Lenny":66,"ChatGPT":42,"OpenAI":73,"Claude Code":45,"Codex":32,"vibe coding":25,"Google":33,"LLM":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":86,"Lenny":66,"ChatGPT":43,"OpenAI":74,"Claude Code":45,"Codex":32,"Google":34,"vibe coding":25,"LLM":22}</script>
 
 <script>
 (function(){

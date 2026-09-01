@@ -52,11 +52,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]] [[Ofir Ehrlich]] [[Gonen Stein]]
+[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]] [[James]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":45,"Slack":23,"OpenClaw":14,"Daniel Blum":2,"ChatGPT":42,"Co-work":4,"Notion":11,"上下文":13,"技能":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":45,"Slack":23,"OpenClaw":14,"Daniel Blum":2,"ChatGPT":43,"Co-work":4,"Notion":11,"上下文":13,"技能":9}</script>
 
 <script>
 (function(){

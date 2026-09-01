@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>42</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>43</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -51,6 +51,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(01:36起):本集说如果 PM 回答还停留在'我用 ChatGPT 网页版聊天'，那就是 AI 工具理解的低成熟度；工程师在最高复杂度任务分解时会使用 ChatGPT 5.6
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(30:39起):本集提到第一代 ChatGPT 在法律中不可用（模型不够好、不支持欧洲数据托管），他们早期的话术是'我们就像 ChatGPT 但在欧洲合规'。
 - **[[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]]**(01:19起):本集说 ChatGPT 拥有约十亿月活用户，界面提供 Chat、Work、Codex 等模式切换，北极星目标是最终合并成一个入口，用户不需要选模式
+- **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(67:42起):本集在列举需要付费的私有 AI 模型时与 Anthropic、Claude、Gemini 并提
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(05:54起):本集在列举工具时一笔带过，说 ChatGPT work 理论上也能实现类似系统
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
@@ -82,7 +83,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*42 集*
+*43 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
@@ -124,6 +125,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司(提及)
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为概念(提及)
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]] — 作为概念
+- [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
@@ -133,7 +135,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[Claude]] · [[Google]] · [[Anthropic]] · [[vibe coding]] · [[Codex]] · [[Cursor]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"OpenAI":73,"Claude":41,"Google":33,"Anthropic":85,"vibe coding":25,"Codex":32,"Cursor":41,"Claude Code":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"OpenAI":74,"Claude":42,"Google":34,"Anthropic":86,"vibe coding":25,"Codex":32,"Cursor":41,"Claude Code":45}</script>
 
 <script>
 (function(){

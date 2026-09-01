@@ -38,7 +38,7 @@ unlisted: true
 
 [[Microsoft]] · [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[AWS]] · [[Lenny]] · [[基准测试]] · [[Google]] · [[Brian Halligan]] · [[Benedict Evans]]
 
-<script type="application/json" class="pd-epn">{"Microsoft":21,"OpenAI":73,"智能体":1,"Anthropic":85,"AWS":9,"Lenny":66,"基准测试":6,"Google":33,"Brian Halligan":1,"Benedict Evans":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":21,"OpenAI":74,"智能体":1,"Anthropic":86,"AWS":9,"Lenny":66,"基准测试":6,"Google":34,"Brian Halligan":1,"Benedict Evans":1}</script>
 
 <script>
 (function(){
