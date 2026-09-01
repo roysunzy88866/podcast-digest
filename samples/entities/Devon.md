@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[剧本]] · [[技能]] · [[Cognition]] · [[Ryan Carson]] · [[OpenClaw]] · [[Claire]] · [[云端智能体]] · [[Codex]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"剧本":4,"技能":8,"Cognition":12,"Ryan Carson":2,"OpenClaw":14,"Claire":3,"云端智能体":2,"Codex":31,"Claude Code":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"剧本":4,"技能":9,"Cognition":12,"Ryan Carson":2,"OpenClaw":14,"Claire":3,"云端智能体":2,"Codex":32,"Claude Code":45}</script>
 
 <script>
 (function(){

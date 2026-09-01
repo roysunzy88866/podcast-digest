@@ -131,9 +131,9 @@ Daniel 说这个"把上手体验做成技能"的思路，源于他之前的教�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|一个PM用Claude CoWork建的自愈型工作系统]]<span class="pd-rz">同嘉宾:Claire Vo · 同公司:co-work、Notion、Whisper · 同概念:Workstation、上下文 (context)、技能 (skill)、智能体 (agent)、自我改进循环 (self-improvement loop)、周准备 (weekly prep)、早间简报 (morning brief)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、Slack · 同概念:上下文 (context)、智能体 (agent)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同嘉宾:Claire Vo · 同公司:Claude Code · 同概念:智能体 (agent)</span>
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同公司:Claude、Claude Code · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Shensi Ding]] · [[Kiriti Badam]] · [[MCP]] · [[Aishwarya Reganti]] · [[沙箱]] · [[非确定性]] · [[连接器]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Shensi Ding":1,"Kiriti Badam":1,"MCP":20,"Aishwarya Reganti":1,"沙箱":33,"非确定性":1,"连接器":2,"主观能动性":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Shensi Ding":1,"Kiriti Badam":1,"MCP":20,"Aishwarya Reganti":1,"沙箱":33,"非确定性":1,"连接器":3,"主观能动性":15}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Meng To]] · [[Matt Swulinski]] · [[Akash]] · [[Harry Stebbings]] · [[Codex]] · [[Superhuman]] · [[Cursor]] · [[Whisper]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Meta":24,"Meng To":1,"Matt Swulinski":1,"Akash":3,"Harry Stebbings":7,"Codex":31,"Superhuman":4,"Cursor":40,"Whisper":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Meta":24,"Meng To":1,"Matt Swulinski":1,"Akash":3,"Harry Stebbings":7,"Codex":32,"Superhuman":4,"Cursor":41,"Whisper":3}</script>
 
 <script>
 (function(){

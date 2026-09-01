@@ -1,0 +1,1543 @@
+{
+  "episode_id": "2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-08-31",
+  "tags": [
+    "个人AI系统",
+    "智能体",
+    "CoWork工作流",
+    "自我改进循环",
+    "PM生产力"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "daniel-blum",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Blum",
+      "file": "Daniel Blum",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "claire-vo",
+      "type": "person",
+      "role": "cohost",
+      "name": "Claire Vo",
+      "file": "Claire Vo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            88.554,
+            93.878
+          ],
+          "quote": "I'm Claire Vo, product leader and AI obsessive here on a mission to help you build better with these new tools.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "co-work",
+      "type": "company",
+      "role": "company",
+      "name": "co-work",
+      "file": "co-work",
+      "primary": true,
+      "how_described": "本集说 CoWork 是 Daniel 整个个人工作系统的运行基础，他 70%-80% 的电脑前工作都通过它完成，能连接 Slack、邮件、日历、Notion 等生态工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            42.198,
+            47.319
+          ],
+          "quote": "Today, I say I manage about 70 to 80% of my time in front of the computer with co-work alone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            94.438,
+            100.763
+          ],
+          "quote": "Today, I have Daniel Bloom, and he's going to show us his Claude co-work system to rule them all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            347.935,
+            353.819
+          ],
+          "quote": "Co-work was definitely the big unlock for me, but I think while I love co-work, it's not co-work in itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            423.909,
+            430.971
+          ],
+          "quote": "And it has inbox, which is things that arise from Slack, email, calendar, and co-work picks up and fills them in here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            993.152,
+            1000.334
+          ],
+          "quote": "One of the things that I think is super powerful with co-work and with these harnesses is that you can set them up for improving themselves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1171.233,
+            1176.377
+          ],
+          "quote": "Today, I say I manage about 70% to 80% of my time in front of the computer with co-work alone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1176.778,
+            1196.533
+          ],
+          "quote": "Almost everything I do here is through co-work, and I try to do more and more of it because anything that I don't do in co-work, then the context is not as well caught as if I do it through co-work, whether it's other applications, whether it's Jira, Slack, queries, anything generally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1197.314,
+            1200.379
+          ],
+          "quote": "Are you using co-work with Chrome at all?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1215.096,
+            1217.997
+          ],
+          "quote": "In my personal co-work that I have, I use Chrome a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1751.138,
+            1763.221
+          ],
+          "quote": "It's suggesting I create a Claude design handoff skill between co-work and where I do the research and design where I actually build a prototype and a bunch of other interesting skills that I've built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1763.681,
+            1770.983
+          ],
+          "quote": "I have a skill like this, by the way, that's handoff between co-work and code, which I use kind of as the executing arm of co-work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-enterprise",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Enterprise",
+      "file": "Claude Enterprise",
+      "primary": false,
+      "how_described": "本集提到 Daniel 的公司几个月前引入了 Claude Enterprise 和 CoWork，这是他系统真正运转起来的起点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            285.616,
+            291.28
+          ],
+          "quote": "Just a few months ago, we got the Claude Enterprise and CoWork, and that's when things really changed for me.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说团队在构建 Workstation 时考虑过用 Claude Code，但 PM 通过终端安装花了三天都没搞定，最终放弃而选择 CoWork",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            2014.282,
+            2027.953
+          ],
+          "quote": "So basically, I'll say that one of the main things that were important for us, and we were debating whether to do this with Claude Code, which was much more powerful, or with Cowork, and we decided on doing it with Cowork.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2058.3,
+            2071.37
+          ],
+          "quote": "And after having a few PMs try to do it with Claude Code through the terminal and taking three days to install everything and run all the dependencies, we understood that we need to do something that's simple.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集顺带提及，说 Daniel 认为像 Codex 这样的工具理论上也能用来构建类似的自改进系统，关键不在工具本身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            354.34,
+            358.483
+          ],
+          "quote": "And I think Codex could be great for this as well, or ChatGPT work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1519.87,
+            1525.193
+          ],
+          "quote": "That's a huge difference when working with AI coding agents like Claude, Cursor, Codex, or Copilot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2262.747,
+            2277.357
+          ],
+          "quote": "This is, I mean, this is something if you haven't taken it away as somebody watching this podcast, go, every company should go do this and build like your sort of like bootstrap my personal AI skill or plugin inside Claude or inside Codex.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集在列举工具时一笔带过，说 ChatGPT work 理论上也能实现类似系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            354.34,
+            358.483
+          ],
+          "quote": "And I think Codex could be great for this as well, or ChatGPT work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini-gems",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini Gems",
+      "file": "Gemini Gems",
+      "primary": false,
+      "how_described": "本集提到 Daniel 之前长期只用 Gemini Enterprise 和 Gems，能改进规格说明和研究，但缺乏自改进和生态连接能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            381.04,
+            396.613
+          ],
+          "quote": "While I was working with Gemini Gems earlier, and there is obviously some incredible things that can be done with those, these two elements make a system really powerful and also really integrated into your daily life, but also self-improving, which is one of the biggest unlocks here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": true,
+      "how_described": "本集说 Notion 在系统中充当几乎只读的看板，分 top of mind、this week、inbox 三块，是优先级和焦点的唯一真相源，所有操作通过 CoWork 完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            403.305,
+            405.645
+          ],
+          "quote": "Let me start with this notion board, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            408.306,
+            410.627
+          ],
+          "quote": "It's just a standard PM notion board.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            520.827,
+            529.336
+          ],
+          "quote": "Is it just that you just put everything in Notion, so when it's searching, it kind of knows, is there something more purposeful around your kind of personal brain?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            625.759,
+            631.842
+          ],
+          "quote": "But generally speaking, this task helps me go through all these things that you just saw in the notion and fill them in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            697.073,
+            699.594
+          ],
+          "quote": "And does that push all of it into Notion?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            700.814,
+            710.159
+          ],
+          "quote": "And that basically, this task that I ran earlier, basically created this state that we have now, the Notion that we have right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1131.535,
+            1137.278
+          ],
+          "quote": "Do you actually spend time in the Notion or are you still like navigating all this with Claude?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1138.06,
+            1141.542
+          ],
+          "quote": "So the main idea is that Notion is almost a read-only for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1141.962,
+            1150.027
+          ],
+          "quote": "I look at the Notion to get my focus, to remind me of my top of mind, to remind me of my priorities and focus this week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1994.174,
+            2009.043
+          ],
+          "quote": "What I also love that you've told us you do is you take this mega system that you've built across Notion, across Claude, this improving loops, and you figured out a way to scale this to the org in, is it called Workstation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2290.241,
+            2298.549
+          ],
+          "quote": "Just to recap for folks, you have Notion as sort of like a read-only database source of truth for all your context and priorities for a week.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2299.009,
+            2313.242
+          ],
+          "quote": "You run two anchoring automations in Cowork, which is your weekly setup, which sets up this whole Notion thing, preps you for meetings, priorities, and then your daily briefing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2346.926,
+            2354.929
+          ],
+          "quote": "And you have learned maybe to be more organized and Claude plus Notion have made you more organized as a PM.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集说 Slack 是系统的重要数据源，晨报会扫 Slack 消息找不理解的术语，也用 Slack 频道做离线时的变通触发机制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            205.099,
+            227.541
+          ],
+          "quote": "But I think as I was progressing with my AI adoption, I really felt that one of the biggest things that hangs over me and really makes my day-to-day more difficult is all this just overhead of being a PM, of coordinating a bunch of things, remembering endless tasks that arise on Slack and meetings and action items and just trying to maneuver this whole...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            423.909,
+            430.971
+          ],
+          "quote": "And it has inbox, which is things that arise from Slack, email, calendar, and co-work picks up and fills them in here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            741.54,
+            748.467
+          ],
+          "quote": "As we said, this chaos of slack and meetings and urgent priorities and executive asks and endless things that just flow in and out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            768.861,
+            772.702
+          ],
+          "quote": "So for example, I'm inbox zero, both on Slack and on email.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            773.002,
+            778.463
+          ],
+          "quote": "So it knows that if something was saved on Slack and is no longer, it means it's likely done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            905.04,
+            907.142
+          ],
+          "quote": "Some of the tasks were in saved on Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1176.778,
+            1196.533
+          ],
+          "quote": "Almost everything I do here is through co-work, and I try to do more and more of it because anything that I don't do in co-work, then the context is not as well caught as if I do it through co-work, whether it's other applications, whether it's Jira, Slack, queries, anything generally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1532.659,
+            1533.9
+          ],
+          "quote": "What got decided in Slack?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1841.389,
+            1845.832
+          ],
+          "quote": "And I share them usually through my phone, through a Slack channel with Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2094.576,
+            2111.98
+          ],
+          "quote": "It gets all your tools connected, confirms your roles, maps your colleagues, your management, where you sit, looks at your calendar and what that looks like, and your Slack helps you create your own voice so that you basically, from day zero, you're writing in a way that sounds like you and just doesn't sound like a stranger.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2433.88,
+            2444.668
+          ],
+          "quote": "Like I have a Slack channel that Claude pulls and when I'm away from the computer, I can send him some things and then he could read them later, but it's still something that has to happen online.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2481.895,
+            2489.022
+          ],
+          "quote": "So let's say somebody asked a question and I saved it on Slack, so it would say, okay, if there's a reply and it's unsaved, it means it's done.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "type": "company",
+      "role": "company",
+      "name": "Granola",
+      "file": "Granola",
+      "primary": false,
+      "how_described": "本集说晨报的会议回顾部分会拉取 Granola 的转录，给每个会议一行总结并标出待办事项",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            961.37,
+            967.935
+          ],
+          "quote": "And basically you can see this takes the granola transcripts and it gives me a one liner about each meeting and if there's an action item.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1028.612,
+            1036.04
+          ],
+          "quote": "So basically what it does is imagine in this daily brief, my coworker runs through my recent slacks, my emails, my granola notes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "whisper",
+      "type": "company",
+      "role": "company",
+      "name": "Whisper",
+      "file": "Whisper",
+      "primary": true,
+      "how_described": "本集说 Daniel 在前期手动喂上下文时大量使用 Whisper 口述，絮絮叨叨说一大堆就能把上下文高效注入系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            567.511,
+            574.737
+          ],
+          "quote": "And also just a lot of whisper, just dictating endless information and blabbering endlessly about everything that I can think of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2640.764,
+            2643.125
+          ],
+          "quote": "If I'm using Whisper, I may yell.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2654.868,
+            2657.23
+          ],
+          "quote": "That doesn't go through Whisper well enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2664.336,
+            2668.979
+          ],
+          "quote": "So, Whisper folks, if you're out there, this is a feature request.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集在赞助商段和正文中各提一次，说它是几个月前被大量炒作的编码工具，但 Daniel 觉得对 PM 不够友好而选择等待 CoWork",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1519.87,
+            1525.193
+          ],
+          "quote": "That's a huge difference when working with AI coding agents like Claude, Cursor, Codex, or Copilot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1584.075,
+            1596.085
+          ],
+          "quote": "And I think one of the things that have made me, you know, in a sense, wait for for ColdWork, for example, when a few months ago there was this endless hype about Cursor and about Cloud Code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jira",
+      "type": "company",
+      "role": "company",
+      "name": "Jira",
+      "file": "Jira",
+      "primary": false,
+      "how_described": "本集提到 Daniel 在 CoWork 之外使用的工具之一是 Jira，但也强调不在 CoWork 里做的事情上下文捕捉会变差",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 221,
+          "t": [
+            1176.778,
+            1196.533
+          ],
+          "quote": "Almost everything I do here is through co-work, and I try to do more and more of it because anything that I don't do in co-work, then the context is not as well caught as if I do it through co-work, whether it's other applications, whether it's Jira, Slack, queries, anything generally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1508.041,
+            1511.584
+          ],
+          "quote": "This episode is brought to you by Jira by Atlassian.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1512.144,
+            1519.289
+          ],
+          "quote": "The teamwork graph in Jira delivers 44% more accurate agent results with 48% less token usage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1534.461,
+            1544.283
+          ],
+          "quote": "The Teamwork Graph pulls all of that from across your entire stack from Jira and Confluence to GitHub and feeds it directly to your agents before they write a single line.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1557.225,
+            1559.926
+          ],
+          "quote": "Try them free at jira.dev.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "melio",
+      "type": "company",
+      "role": "company",
+      "name": "Melio",
+      "file": "Melio",
+      "primary": false,
+      "how_described": "本集提到 Daniel 所在的公司叫 Melio，他的工具选择大部分由公司决定",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            267.276,
+            277.227
+          ],
+          "quote": "So I'll say I think most of my choices were made by my company, Melio, and the tools are in our stack.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "optimizely",
+      "type": "company",
+      "role": "company",
+      "name": "Optimizely",
+      "file": "Optimizely",
+      "primary": false,
+      "how_described": "本集开头赞助商段提到 Optimizely 有面向营销人员的智能体平台，配有虚拟队友小队",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            108.308,
+            122.586
+          ],
+          "quote": "Optimizely agent platform for marketers is built on a bigger idea, a whole directory of agents now joined by a newly revealed squad of virtual teammates, each with a defined role and a personality of their own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            142.434,
+            151.057
+          ],
+          "quote": "Meet the squad and understand what virtual teammates can do for you at optimizely.com slash how I AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "intercom",
+      "type": "company",
+      "role": "company",
+      "name": "Intercom",
+      "file": "Intercom",
+      "primary": false,
+      "how_described": "本集 Claire 顺带提到 Intercom 在组织内分享技能时做了类似内置遥测的做法，但没展开",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 376,
+          "t": [
+            1965.427,
+            1969.391
+          ],
+          "quote": "I've seen a couple folks, like I think Intercom does this a little bit with some of their...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 Daniel 在让 Claude 变得 more agentic、更能自主行动，包括未来希望智能体能自主处理简单请求而不需要他在线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            108.308,
+            122.586
+          ],
+          "quote": "Optimizely agent platform for marketers is built on a bigger idea, a whole directory of agents now joined by a newly revealed squad of virtual teammates, each with a defined role and a personality of their own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1269.046,
+            1278.751
+          ],
+          "quote": "I built a personal agent that its main work is sending memes about my wife in our shared panel on Telegram, which, hey, to me is huge value, I think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1285.374,
+            1293.46
+          ],
+          "quote": "You need to watch our episode with Jason, the CEO of Memelord, who actually has a meme API, so you can plug that into your agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1512.144,
+            1519.289
+          ],
+          "quote": "The teamwork graph in Jira delivers 44% more accurate agent results with 48% less token usage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1544.923,
+            1549.724
+          ],
+          "quote": "You assign the work, the agent gets everything it needs, and a PR surfaces when it's ready.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2695.341,
+            2696.801
+          ],
+          "quote": "An agent or an AI makes me.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集把 Claude 中的可复用能力封装叫作 skill，如每周准备、晨报、Improve 审计技能等，技能文件内嵌反馈收集机制实现自动改进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            491.206,
+            517.205
+          ],
+          "quote": "So basically I just created this skill on Claude called demo and I just told it replace all the terminology and like specifics with generic terms then because it knows me so well basically in one prompt I was able to replace my manager's name with your manager and my top initiative you can see here with headline feature and that's how well it knows me it was just able to replace all of these and it just makes it for a really really seamless and comfortable collaboration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1751.138,
+            1763.221
+          ],
+          "quote": "It's suggesting I create a Claude design handoff skill between co-work and where I do the research and design where I actually build a prototype and a bunch of other interesting skills that I've built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1763.681,
+            1770.983
+          ],
+          "quote": "I have a skill like this, by the way, that's handoff between co-work and code, which I use kind of as the executing arm of co-work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1805.648,
+            1809.309
+          ],
+          "quote": "This is actually the improved skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1835.525,
+            1840.788
+          ],
+          "quote": "So I've built a skill called Improve, which is basically like a very critical auditor for these.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1970.211,
+            1984.646
+          ],
+          "quote": "Skills that they share across the org, but I haven't seen anybody for themselves say, anytime that you gather feedback from me, positive, negative, on a skill, or you hear feedback from me that's indirect, put it somewhere that we can review on a weekly basis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2146.48,
+            2151.002
+          ],
+          "quote": "Just making a skill to say, okay, do you have all your connectors set up?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2173.368,
+            2175.109
+          ],
+          "quote": "And then you just do this as like a shared skill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2262.747,
+            2277.357
+          ],
+          "quote": "This is, I mean, this is something if you haven't taken it away as somebody watching this podcast, go, every company should go do this and build like your sort of like bootstrap my personal AI skill or plugin inside Claude or inside Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2583.958,
+            2593.343
+          ],
+          "quote": "I have a skill that's called Improve, which I send posts and tweets and articles to with recommendations and tips about AI setup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2607.771,
+            2612.173
+          ],
+          "quote": "This is a skill that I think is critical today in order to be able to keep up and become better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2703.203,
+            2706.904
+          ],
+          "quote": "I think a lot of people are going to put this in their own improved skill.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集说上下文是系统最核心的资产，前期用 Whisper 和文档手动狠喂，之后系统自动维护知识文件，晨报还会主动找它不理解的上下文来追问",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            51.04,
+            59.482
+          ],
+          "quote": "In this daily brief, my coworker runs through my recent slacks, my emails, my notes, and it looks for context that it doesn't understand in these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            462.137,
+            490.726
+          ],
+          "quote": "Most important thing about this is that it knows me really really well because I spent a lot of time and effort contextualizing it and maintaining this context and also centralizing all of my work in it which took some time to get used to but the ROI is just absolutely insane there and I really felt how well it knows me just when prepping for this for this episode when I knew that because this is my real environment I couldn't show you know names and projects and sensitive stuff",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            517.523,
+            520.787
+          ],
+          "quote": "Tell me a little bit about how that context is saved.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            529.396,
+            532.24
+          ],
+          "quote": "How do you inject context into the system?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            538.251,
+            544.856
+          ],
+          "quote": "So I did a lot of research on like how to build, how to set up your ClaudeMD and the context files.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            545.717,
+            554.385
+          ],
+          "quote": "And basically I set it up so there's a context file around every topic that I have and like every area of my work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            575.397,
+            580.098
+          ],
+          "quote": "Which is just incredibly powerful and how much context you can give relatively easily and quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1014.217,
+            1020.564
+          ],
+          "quote": "This part is pretty cool where basically one of the difficulties in life is keeping the context clear, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1036.58,
+            1039.842
+          ],
+          "quote": "And it looks for context that it doesn't understand in these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1063.465,
+            1064.427
+          ],
+          "quote": "Save it to the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1071.809,
+            1085.441
+          ],
+          "quote": "And I want people to just take a pause and reflect on what this is, because it looks like for your context, you are making sure that Claude understands internal definitions, terms, goals, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1100.018,
+            1102.842
+          ],
+          "quote": "And then I'll save it to my context and I'll know what you're talking about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1176.778,
+            1196.533
+          ],
+          "quote": "Almost everything I do here is through co-work, and I try to do more and more of it because anything that I don't do in co-work, then the context is not as well caught as if I do it through co-work, whether it's other applications, whether it's Jira, Slack, queries, anything generally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1525.834,
+            1529.557
+          ],
+          "quote": "The hardest part of shipping with AI isn't the code, it's the context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1550.424,
+            1554.025
+          ],
+          "quote": "No digging, no context switching, no broken flow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2290.241,
+            2298.549
+          ],
+          "quote": "Just to recap for folks, you have Notion as sort of like a read-only database source of truth for all your context and priorities for a week.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scheduled-task",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环任务 (scheduled task)",
+      "file": "循环任务",
+      "primary": true,
+      "how_described": "本集说每周准备和自我改进循环都是 scheduled task，按固定时间自动运行，由多个 skill 组合而成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            788.345,
+            793.727
+          ],
+          "quote": "So basically, let me run to my next scheduled task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1669.027,
+            1673.749
+          ],
+          "quote": "It's a scheduled task that runs weekly and it has several skills attached to it and I'll walk through them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "self-improvement-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "自改进循环 (self-improvement loop)",
+      "file": "自改进循环",
+      "primary": true,
+      "how_described": "本集详细展示了四个部分：草稿差距分析、新技能建议、摩擦点收集修复、外部建议审计，本质是让 Claude 帮 Daniel 改进系统而非纯手动调",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1665.325,
+            1668.967
+          ],
+          "quote": "So I'll walk you through something called the self-improvement loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workstation",
+      "type": "concept",
+      "role": "concept",
+      "name": "Workstation",
+      "file": "Workstation",
+      "primary": true,
+      "how_described": "本集说 Workstation 是 Daniel 和同事把个人系统封装成的共享插件，核心是内置在聊天流程中的引导式 UX，点确认就配好所有工具和角色映射",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1608.535,
+            1627.124
+          ],
+          "quote": "It's a lot about just UX and experience and simplicity and a lot of the tools that we've built for the team and whether it's the gem that helps the team write product specs that we did almost a year ago or what we call the workstation that we have that I'll show a little bit later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1636.322,
+            1646.131
+          ],
+          "quote": "All right, before we get to the workstation flow, which is gonna be how you get this across the company, across the team, you also have some self-improving loops that I think are really interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1994.174,
+            2009.043
+          ],
+          "quote": "What I also love that you've told us you do is you take this mega system that you've built across Notion, across Claude, this improving loops, and you figured out a way to scale this to the org in, is it called Workstation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2010.443,
+            2010.984
+          ],
+          "quote": "Workstation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2028.853,
+            2031.956
+          ],
+          "quote": "We have this, what we call the workstation, which is essentially this...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2071.83,
+            2076.271
+          ],
+          "quote": "So basically one of the key elements of this workstation is that it basically does everything for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2318.727,
+            2329.055
+          ],
+          "quote": "And then you've been able to scale this in the org through kind of a workstation plugin that anybody can use and kind of set up this thing for themselves.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "connector",
+      "type": "concept",
+      "role": "concept",
+      "name": "连接器 (connector)",
+      "file": "连接器",
+      "primary": false,
+      "how_described": "本集说随着 connector 和 MCP 越来越多，CoWork 对各工具的原生集成越来越舒适，Chrome 连接器在没有原生 connector 时作为关键补充",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            1224.718,
+            1234.78
+          ],
+          "quote": "But the Chrome connector is a critical, critical piece of the puzzle for when you don't have these connectors and integrations and you need to use the browser.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ux",
+      "type": "concept",
+      "role": "concept",
+      "name": "UX",
+      "file": "UX",
+      "primary": false,
+      "how_described": "本集强调好的 UX 和简洁性对内部 AI 工具至关重要，Workstation 把设置流程做成聊天内的引导式体验，15 分钟上手",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1608.535,
+            1627.124
+          ],
+          "quote": "It's a lot about just UX and experience and simplicity and a lot of the tools that we've built for the team and whether it's the gem that helps the team write product specs that we did almost a year ago or what we call the workstation that we have that I'll show a little bit later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2055.639,
+            2058.24
+          ],
+          "quote": "We really insisted in the beginning on a good UX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2076.351,
+            2080.973
+          ],
+          "quote": "So it's a UX built into the flow, into the chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2236.627,
+            2242.37
+          ],
+          "quote": "And that's when it started when into this gem, I built this UX that guides you hand in hand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2254.215,
+            2260.298
+          ],
+          "quote": "So yeah, good UX and simplicity is critical even for, you know, internal teams and PMs and technical people.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gem",
+      "type": "concept",
+      "role": "concept",
+      "name": "gem",
+      "file": "gem",
+      "primary": false,
+      "how_described": "本集提到 Daniel 之前做了一个写产品规格的 gem 叫 spectacular，自己用得很好但分发给其他 PM 时因为完全按他的方式调教而用不动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1608.535,
+            1627.124
+          ],
+          "quote": "It's a lot about just UX and experience and simplicity and a lot of the tools that we've built for the team and whether it's the gem that helps the team write product specs that we did almost a year ago or what we call the workstation that we have that I'll show a little bit later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2193.833,
+            2199.154
+          ],
+          "quote": "About a year ago, I built our spec writing gem, call it spectacular.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2236.627,
+            2242.37
+          ],
+          "quote": "And that's when it started when into this gem, I built this UX that guides you hand in hand.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "morning-brief",
+      "type": "concept",
+      "role": "concept",
+      "name": "晨报 (morning brief)",
+      "file": "晨报",
+      "primary": false,
+      "how_described": "本集说晨报是每日运行的循环任务，分两段：会议回顾（拉 Granola 转录）和主动找不懂的术语追问",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            793.767,
+            795.367
+          ],
+          "quote": "And this is called the morning brief.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            924.362,
+            929.285
+          ],
+          "quote": "Well, let's look at this morning brief because we've seen a couple of morning briefs, but I want to see what you think makes yours different.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "weekly-prep",
+      "type": "concept",
+      "role": "concept",
+      "name": "每周准备 (weekly prep)",
+      "file": "每周准备",
+      "primary": false,
+      "how_described": "本集说每周准备是周日早晨自动运行的锚定任务，梳理优先级、处理 inbox、为下周会议判断准备级别",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            606.175,
+            614.929
+          ],
+          "quote": "So it all starts with one recurring task, which is a composition of several skills called the weekly prep.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            614.969,
+            620.096
+          ],
+          "quote": "So the weekly prep is the very basic task that helps me start my week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            717.012,
+            723.214
+          ],
+          "quote": "The unique thing about this is that I think, and this is something I ran into after having created the first weekly prep.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "telemetry",
+      "type": "concept",
+      "role": "concept",
+      "name": "遥测 (telemetry)",
+      "file": "遥测",
+      "primary": false,
+      "how_described": "本集 Claire 称赞 Daniel 在技能文件里内嵌反馈收集机制、每周回顾摩擦点的做法，是在技能中内置遥测",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 375,
+          "t": [
+            1951.275,
+            1965.407
+          ],
+          "quote": "Yeah, and then the third one, which is so genius, and I wish more people did this, is build in feedback or telemetry into your skills and then review that over time and improvement.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inbox-zero",
+      "type": "concept",
+      "role": "concept",
+      "name": "收件箱零 (inbox zero)",
+      "file": "收件箱零",
+      "primary": false,
+      "how_described": "本集说 Daniel 是 inbox zero 的人，所以系统知道如果一条 Slack 消息之前在、现在不在了，说明已经处理完不需要再提醒",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            768.861,
+            772.702
+          ],
+          "quote": "So for example, I'm inbox zero, both on Slack and on email.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claudemd",
+      "type": "concept",
+      "role": "concept",
+      "name": "ClaudeMD",
+      "file": "ClaudeMD",
+      "primary": false,
+      "how_described": "本集提到 Daniel 做了大量研究来设置 ClaudeMD 和上下文文件的结构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            538.251,
+            544.856
+          ],
+          "quote": "So I did a lot of research on like how to build, how to set up your ClaudeMD and the context files.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "draft",
+      "type": "concept",
+      "role": "concept",
+      "name": "草稿差距分析 (draft)",
+      "file": "草稿差距分析",
+      "primary": false,
+      "how_described": "本集说自改进循环的第一部分是让 Claude 找出它写了草稿但 Daniel 没回复、之后以不同方式发出的内容，对比学习写作风格差距",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            981.065,
+            984.527
+          ],
+          "quote": "So it's going to offer me to expand or draft any summaries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1688.436,
+            1694.839
+          ],
+          "quote": "So what I found over time is that when I write with Claude, it'll give me a draft and then I'll change it and I'll just send it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1695.179,
+            1701.862
+          ],
+          "quote": "But the thing there is that Claude doesn't learn what the gap is between the draft that it wrote and what I actually sent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1702.322,
+            1707.285
+          ],
+          "quote": "So I have Claude, when running this task, looking for a draft that it shared with me.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

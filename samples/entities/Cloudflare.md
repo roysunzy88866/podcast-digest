@@ -47,7 +47,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[沙箱]] · [[Copilot]] · [[Notion]] · [[多智能体系统]] · [[推理]] · [[ChatGPT]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":85,"智能体":1,"OpenAI":73,"沙箱":33,"Copilot":8,"Notion":10,"多智能体系统":1,"推理":3,"ChatGPT":41,"Claude":41}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":85,"智能体":1,"OpenAI":73,"沙箱":33,"Copilot":8,"Notion":11,"多智能体系统":1,"推理":3,"ChatGPT":42,"Claude":41}</script>
 
 <script>
 (function(){

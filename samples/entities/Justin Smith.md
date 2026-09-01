@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Resolve AI":1,"GitHub":19,"Slack":22,"智能体":1,"后台智能体":5,"生产上下文":1,"可观测性":15,"沙箱":33,"部署监控":1}</script>
+<script type="application/json" class="pd-epn">{"Resolve AI":1,"GitHub":19,"Slack":23,"智能体":1,"后台智能体":5,"生产上下文":1,"可观测性":15,"沙箱":33,"部署监控":1}</script>
 
 <script>
 (function(){

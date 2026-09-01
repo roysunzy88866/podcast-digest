@@ -27,7 +27,7 @@ unlisted: true
 
 [[Jeetu Patel]] · [[Elena Berger]] · [[Lenny]] · [[Joe Schmidt]] · [[NVIDIA]] · [[Andy McCall]] · [[ChatGPT]] · [[Lighthouse]] · [[主观能动性]] · [[LandGrab]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Elena Berger":3,"Lenny":66,"Joe Schmidt":1,"NVIDIA":24,"Andy McCall":1,"ChatGPT":41,"Lighthouse":1,"主观能动性":15,"LandGrab":1}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Elena Berger":3,"Lenny":66,"Joe Schmidt":1,"NVIDIA":24,"Andy McCall":1,"ChatGPT":42,"Lighthouse":1,"主观能动性":15,"LandGrab":1}</script>
 
 <script>
 (function(){

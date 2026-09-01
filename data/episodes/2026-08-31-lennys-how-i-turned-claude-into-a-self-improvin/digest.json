@@ -1,0 +1,130 @@
+{
+  "title_zh": "一个PM用Claude CoWork建的自愈型工作系统",
+  "tldr": "Melio的PM Daniel Bloom展示了他在Claude CoWork上搭建的个人工作系统，能自动整理任务、识别不懂的术语主动追问，还会自我改进。",
+  "digest_md": "这一集是产品经理 Daniel Bloom 展示他基于 Claude CoWork 搭建的一套个人工作系统——它帮他管理日程、追踪任务、自动学习公司内部术语，而且能自我迭代。他说现在一天能干完以前一周的活。\n\n## 系统的两个核心前提\n\nDaniel 认为让这套系统真正跑起来，关键不在于用 Claude 还是其他工具，而在于两条规则：第一，系统要能**重写自己的核心文件**，这样它才能持续改进；第二，系统要**尽可能多地连接你的工作生态**——Slack、邮件、日历、Notion 等等。这两条满足之后，才有机会真正改变工作方式 `[05:47 Daniel Bloom]`。\n\n## 上下文怎么喂：手动起步，自动维护\n\n系统的基础是 Notion 上的一个看板，分三块：top of mind（脑子里的大事）、this week（本周优先级）、inbox（从各渠道涌入的杂事）。Notion 对他来说几乎是只读的——只用来看焦点和优先级，所有操作都通过 CoWork 完成 `[18:58 Daniel Bloom]`。\n\n上下文的构建分两阶段。前期他花了大量时间手动喂信息：给 Claude 投喂链接、文档，还用 Whisper（语音转文字工具）口述了大量的背景信息。他发现 Whisper 这种方式出奇地高效——絮絮叨叨地说一大堆，上下文就喂进去了 `[09:27 Daniel Bloom]`。\n\n之后系统会自动维护。每隔几周，它会根据这段时间发生的变化自动更新知识文件 `[09:41 Daniel Bloom]`。\n\n## 每周准备：从混乱到清晰的结构化\n\n系统的第一个锚定任务是「每周准备」，周日早晨自动运行。它做三件事：梳理 top of mind 和本周优先级、处理 inbox 里从 Slack 和邮件捞出来的杂事、帮他准备下周的会议——对每个会议判断需要严肃准备（单独列为任务）、快速提醒、还是不需要准备 `[10:06 Daniel Bloom]`。\n\nDaniel 说了一个 PM 都有共鸣的痛点：你的路线图和优先级列表是一个干净有序的世界，但现实是 Slack、会议、高管临时要求的混乱。这个系统就是用来弥合这两者之间的差距的 `[12:03 Daniel Bloom]`。\n\n## 晨报：最核心的魔法——主动追问不懂的术语\n\n每天的晨报是 Daniel 认为最神奇的部分 `[13:15 Daniel Bloom]`。\n\n第一段是会议回顾：拉取 Granola（会议记录工具）的转录，给每个会议一行总结，标出有没有待办事项。他可以选展开或跳过 `[15:38 Daniel Bloom]`。\n\n第二段才是真正的杀手锏：Claude 会扫他最近的 Slack、邮件和笔记，**主动找它不理解的上下文**——比如一个没见过的术语、一个不知道的里程碑或目标——然后问他：「这是什么？重要吗？我要不要读一下？」现场演示中，它标记了「settlement cap」这个支付领域的术语，Daniel 说「保存到上下文」，它就记住了 `[17:08 Daniel Bloom]`。\n\n主持人 Claire 指出这为什么犀利：很多公司内部说的东西不在模型的训练数据里，主动让模型承认「我不懂」然后一起定义、存下来，之后就能理解了。这是这集播客里没见过的做法 `[18:05 Claire Vo]`。\n\n系统还了解他的工作习惯——比如他是 inbox zero 的人，所以如果一条 Slack 消息之前在、现在不在了，系统就推断这事已经处理完了，不需要再提醒 `[12:48 Daniel Bloom]`。\n\n## 自我改进循环：四个自动化模块\n\nDaniel 每周跑一个「自我改进循环」，分四部分，本质上是让 Claude 帮他改进系统，而不是纯手动调 `[27:31 Daniel Bloom]`：\n\n**第一，草稿差距分析。** Claude 写了草稿，Daniel 修改后直接发出去了——但 Claude 不知道改了什么。这个任务会去找那些 Claude 给了草稿但 Daniel 没回复、之后以不同方式发出的内容，对比学习差距，持续打磨写作风格 `[28:05 Daniel Bloom]`。\n\n**第二，新技能建议。** Claude 持续观察他反复做的事情，建议封装成技能。Daniel 很多技能就是这么来的——比如他在频繁做原型，系统就建议建一个「设计交接」技能 `[28:50 Daniel Bloom]`。\n\n**第三，摩擦点收集与修复。** 每个技能和循环任务的文件里都内嵌了反馈收集机制。每次 Daniel 要求修正或表达不满，系统会自动记录。每周汇总出最大的摩擦点，建议改进方案。Claire 说这是她见过最聪明的做法之一——在技能里内置遥测，定期回顾 `[29:33 Daniel Bloom]`。\n\n**第四，外部建议审计。** Daniel 面对的是无尽的 AI 使用技巧洪流——X、LinkedIn、博客。他建了一个叫「Improve」的技能，把看到的建议丢进一个 Slack 频道，让 Claude 审计：这是真的吗？强大吗？适合我现在的情况吗？还是只是炒作？两人一起决定要不要采纳 `[30:09 Daniel Bloom]`。\n\n## 扩展到团队：Workstation 插件\n\nDaniel 和同事把这套系统封装成了一个叫 Workstation 的共享插件，面向公司所有人，不只是 PM `[33:34 Daniel Bloom]`。\n\n关键决策是用 CoWork 而不是 Claude Code。他们试过让 PM 用 Claude Code 通过终端安装，三天都没搞定。Workstation 的核心是一个**内置在聊天流程中的引导式 UX**：点几个确认、回答几个问题，就自动连接好所有工具、确认角色、映射同事和管理层、读取日历和 Slack、帮你建立个人写作风格——从第一天起写出来的东西就像你本人，不像陌生人 `[34:18 Daniel Bloom]`。\n\nDaniel 说这个想法来自一年前的教训：他做了一个写产品规格的 gem，自己用得很好，分发给其他 PM 时发现人家根本用不动——因为完全按他的工作方式调教的。从此他坚持内部工具也要做好 onboarding 体验 `[36:33 Daniel Bloom]`。\n\n## 还缺什么\n\nDaniel 说他现在 70% 到 80% 的电脑前工作都通过 CoWork 完成。剩下的差距主要是两件事 `[39:52 Daniel Bloom]`：\n\n一是**脱离电脑运行**的能力。他希望 Claude 能在云端自主执行任务，而不是必须他在线。他用 Slack 频道做了个变通——离线时往频道发消息，Claude 上线后读取——但这仍是需要在线触发的。\n\n二是**自主执行简单任务**。他已经在让 Claude 观察他怎么解决任务（比如有人问了什么、他怎么回复的），为将来让 Claude 自主处理这类简单请求打基础。\n\n## 本集带走\n\n- **系统的价值在于能重写自身 + 连接生态**：工具本身（Claude/ChatGPT/Codex）不是关键，关键是系统能修改自己的核心文件实现自愈，以及尽可能多地接入你的实际工作工具\n- **上下文先手动狠喂，再自动维护**：前期用 Whisper 口述、投喂链接和文档大量注入，之后系统每隔几周自动更新知识文件\n- **让 AI 主动找它不懂的东西并追问**：晨报里最核心的设计——扫 Slack/邮件/笔记，标记不认识的术语和上下文，问你「这是什么、要不要记住」，持续补全公司内部知识\n- **在技能文件里内嵌反馈收集机制**：每次你要求修正或表达不满都自动记录，每周汇总摩擦点并建议改进——这是零额外维护成本的自我改进方式\n- **外部建议用专门技能做审计**：别直接跟着网上的 AI 技巧走，丢给 Claude 问「这是真的吗、适合我吗、还是炒作」，过滤后再决定是否采纳\n- **内部 AI 工具必须有引导式 onboarding**：按自己的习惯调教的系统别人用不动；把设置流程做成聊天内的引导 UX，点确认就配好，15 分钟上手",
+  "quotes": [
+    {
+      "en": "I think one of the things any PM can resonate with is the fact that there's two worlds, right? There's this beautiful, clean, organized world that's in our weekly priority or our roadmap where everything is very clear and beautiful and fits in. And then there's reality where... As we said, this chaos of slack and meetings and urgent priorities and executive asks and endless things that just flow in and out.",
+      "zh": "我认为任何产品经理都能产生共鸣的事情之一是有两个世界，对吧？有一个美丽、干净、有条理的世界，在我们的每周优先事项或路线图里，那里的一切都非常清晰、美丽且井井有条。然后还有现实……正如我们所说，这是 Slack、会议、紧急优先事项、高管要求和无数仅仅流进流出的混乱。",
+      "timestamp": "12:03",
+      "speaker": "Daniel Blum"
+    },
+    {
+      "en": "Actually proactively prompting Claude to say, like, I don't understand what you're talking about here. Can we define it together? And then I'll save it to my context and I'll know what you're talking about. Moving forward is really, really sharp and something we haven't seen on the podcast yet.",
+      "zh": "主动提示 Claude 说，比如，我不明白你在这里说什么。我们能一起定义它吗？然后我会把它保存到我的上下文中，我就会知道你在说什么。从此往后真的非常犀利，也是我们在播客中还没见过的东西。",
+      "timestamp": "18:14",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "One of the things, even at a company level, that I tell people is, look, you've got to go through the pain of switching your systems. And it's not going to be as efficient. And yes, of course, the old way will be faster because it's muscle memory. But if you get to the next level, not only will you have a system that works better for you, but everybody will have more skills.",
+      "zh": "即便是在公司层面，我告诉人们的一件事是，听着，你必须经历转换系统的痛苦。而且它不会那么高效。是的，当然，旧的方式会更快，因为那是肌肉记忆。但如果你进入下一个层级，不仅你会有一个更适合你的系统，而且每个人都会有更多技能。",
+      "timestamp": "24:15",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "And after I built something that was really powerful and good for the way I was working and I was excited to distribute it, I had live demos with several PMs that I watched them operated from zero, and I saw how different. I thought it was already this complete, fully baked tool, and I saw them using it and struggling because it was completely adjusted to how I work.",
+      "zh": "在我构建了那个真正强大的东西并且对我工作的方式很友好之后，我很兴奋去分发它，我和几个 PM 进行了现场演示，我看着他们从零开始操作，我看到了多么不同。我以为它已经是一个完整的、完全成熟的工具，但我看到他们在使用它时很挣扎，因为它完全是按照我的工作方式调整的。",
+      "timestamp": "36:53",
+      "speaker": "Daniel Blum"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:00",
+      "speaker": "Daniel Bloom",
+      "en": "And I was getting nowhere near solving it until I was able to actually build a system with cowork that I'm actually still a little bit surprised at how powerful it is and how much it's helped transform this problem for me.",
+      "zh": "在我能够用 cowork 构建一个系统之前，我离解决这个问题还差得远，其实我仍然有点惊讶于它是多么强大，以及它在多大程度上帮助我转化了这个问题。"
+    },
+    {
+      "timestamp": "05:47",
+      "speaker": "Daniel Bloom",
+      "en": "I think the real importance is for a system to A, be able to rewrite its own core files, and that means that it keeps on improving, and B, just have connections and integrations to as much of your ecosystem.",
+      "zh": "我认为真正的重要性在于一个系统要 A，能够重写它自己的核心文件，这意味着它不断改进，以及 B，只是拥有与你生态系统尽可能多的连接和集成。"
+    },
+    {
+      "timestamp": "12:03",
+      "speaker": "Daniel Bloom",
+      "en": "I think one of the things any PM can resonate with is the fact that there's two worlds, right? There's this beautiful, clean, organized world that's in our weekly priority or our roadmap where everything is very clear and beautiful and fits in. And then there's reality where... As we said, this chaos of slack and meetings and urgent priorities and executive asks and endless things that just flow in and out.",
+      "zh": "我认为任何产品经理都能产生共鸣的事情之一是有两个世界，对吧？有一个美丽、干净、有条理的世界，在我们的每周优先事项或路线图里，那里的一切都非常清晰、美丽且井井有条。然后还有现实……正如我们所说，这是 Slack、会议、紧急优先事项、高管要求和无数仅仅流进流出的混乱。"
+    },
+    {
+      "timestamp": "17:08",
+      "speaker": "Daniel Bloom",
+      "en": "So basically what it does is imagine in this daily brief, my coworker runs through my recent slacks, my emails, my granola notes. And it looks for context that it doesn't understand in these things. And it says like, oh, if there's a file I wasn't aware of, there's a milestone, there's a goal. It would ask me about it and say, hey, like, what is this? Is this important? Should I read this?",
+      "zh": "所以基本上它所做的是，在这个每日简报中，我的同事会过一遍我最近的 Slack、邮件和 Granola 笔记。它在这些东西中寻找它不理解的上下文。它会说，噢，如果有一个我不知道的文件，有一个里程碑，有一个目标。它会问我并说，嘿，这是什么？这重要吗？我应该读这个吗？"
+    },
+    {
+      "timestamp": "18:14",
+      "speaker": "Claire Vo",
+      "en": "Actually proactively prompting Claude to say, like, I don't understand what you're talking about here. Can we define it together? And then I'll save it to my context and I'll know what you're talking about. Moving forward is really, really sharp and something we haven't seen on the podcast yet.",
+      "zh": "主动提示 Claude 说，比如，我不明白你在这里说什么。我们能一起定义它吗？然后我会把它保存到我的上下文中，我就会知道你在说什么。从此往后真的非常犀利，也是我们在播客中还没见过的东西。"
+    },
+    {
+      "timestamp": "19:31",
+      "speaker": "Daniel Bloom",
+      "en": "Today, I say I manage about 70% to 80% of my time in front of the computer with co-work alone.",
+      "zh": "今天，我说我在电脑前管理大约 70% 到 80% 的时间是仅靠 Co-work 的。"
+    },
+    {
+      "timestamp": "22:28",
+      "speaker": "Daniel Bloom",
+      "en": "But the value tremendously compounds.",
+      "zh": "但其价值会极大地复合增长。"
+    },
+    {
+      "timestamp": "22:57",
+      "speaker": "Daniel Bloom",
+      "en": "First of all, I'm really able to do in a day now what used to take me a week, and I stand behind that. It's something that sounds like a hype-y LinkedIn post headliner, but it's true.",
+      "zh": "首先，我现在真的能在一天内完成过去需要花一周才能做的事，我对此深信不疑。这听起来像是 LinkedIn 上一篇炒作风格帖子的标题，但它是真的。"
+    },
+    {
+      "timestamp": "23:23",
+      "speaker": "Daniel Bloom",
+      "en": "But more than that, I'll say it's a lot of deeper work. There's things that I do today that I just wasn't able to do before, whether it's more in-depth research, whether it's better being more data-backed.",
+      "zh": "但不仅如此，我想说这里面有更深层的工作。我今天做的事情有些以前我是做不到的，无论是更深入的研究，还是更有数据支撑。"
+    },
+    {
+      "timestamp": "24:15",
+      "speaker": "Daniel Bloom",
+      "en": "One of the things, even at a company level, that I tell people is, look, you've got to go through the pain of switching your systems. And it's not going to be as efficient. And yes, of course, the old way will be faster because it's muscle memory. But if you get to the next level, not only will you have a system that works better for you, but everybody will have more skills.",
+      "zh": "即便是在公司层面，我告诉人们的一件事是，听着，你必须经历转换系统的痛苦。而且它不会那么高效。是的，当然，旧的方式会更快，因为那是肌肉记忆。但如果你进入下一个层级，不仅你会有一个更适合你的系统，而且每个人都会有更多技能。"
+    },
+    {
+      "timestamp": "28:15",
+      "speaker": "Daniel Bloom",
+      "en": "But the thing there is that Claude doesn't learn what the gap is between the draft that it wrote and what I actually sent.",
+      "zh": "但问题在于，Claude 不会学到它写的草稿和我实际发送的内容之间的差距。"
+    },
+    {
+      "timestamp": "30:09",
+      "speaker": "Daniel Bloom",
+      "en": "So basically, we're all dealing with an endless flood. Endless flood of tips, hyping up from X and LinkedIn and newsletters and blogs about setups and how to improve your AI usage and you must have this and you must build that. I found this incredibly overwhelming.",
+      "zh": "所以基本上，我们都在应对无尽的洪水。无尽的提示洪水，来自 X 和 LinkedIn 以及时事通讯和博客的炒作，关于设置以及如何改进你的 AI 使用，你必须有这个，你必须构建那个。我发现这极其令人不知所措。"
+    },
+    {
+      "timestamp": "32:31",
+      "speaker": "Claire Vo",
+      "en": "And then the third one, which is so genius, and I wish more people did this, is build in feedback or telemetry into your skills and then review that over time and improvement.",
+      "zh": "是的，然后第三个，简直太天才了，我希望更多人这么做，就是在你的技能中内置反馈或遥测，然后随着时间的推移审查和改进。"
+    },
+    {
+      "timestamp": "34:18",
+      "speaker": "Daniel Bloom",
+      "en": "And after having a few PMs try to do it with Claude Code through the terminal and taking three days to install everything and run all the dependencies, we understood that we need to do something that's simple. So basically one of the key elements of this workstation is that it basically does everything for you.",
+      "zh": "在几个 PM 尝试通过终端用 Claude Code 做这个，花了三天安装所有东西并运行所有依赖之后，我们明白我们需要做一些简单的事情。所以基本上这个工作站的关键要素之一就是它基本上为你做所有事情。"
+    },
+    {
+      "timestamp": "36:53",
+      "speaker": "Daniel Bloom",
+      "en": "And after I built something that was really powerful and good for the way I was working and I was excited to distribute it, I had live demos with several PMs that I watched them operated from zero, and I saw how different. I thought it was already this complete, fully baked tool, and I saw them using it and struggling because it was completely adjusted to how I work.",
+      "zh": "在我构建了那个真正强大的东西并且对我工作的方式很友好之后，我很兴奋去分发它，我和几个 PM 进行了现场演示，我看着他们从零开始操作，我看到了多么不同。我以为它已经是一个完整的、完全成熟的工具，但我看到他们在使用它时很挣扎，因为它完全是按照我的工作方式调整的。"
+    },
+    {
+      "timestamp": "40:53",
+      "speaker": "Daniel Bloom",
+      "en": "Once I have something that's able to operate in the cloud when I'm away from my computer when it's off and you know coordinate like act on things that that will be huge.",
+      "zh": "一旦我有能够操作的东西——在云端，当我离开我的电脑，当它关机时，你知道协调，比如对事情采取行动，那将是巨大的。"
+    }
+  ],
+  "voice_script": "一个做产品的哥们，现在一天能干完以前一周的活。这期我们聊聊，怎么用 Claude CoWork 搭一套真正能自我进化的工作系统。\n\n这套东西不是什么魔法，关键就两条硬规矩。第一，系统必须能重写自己的核心文件，说白了就是允许它给自己打补丁，不然永远停在第一天。第二，得尽可能多地接上你真实的工作生态，Slack、邮件、日历、Notion，全链路打通。这两条不满足，聊什么改变工作方式都是空话。\n\n那上下文怎么来呢？前期得狠下心手动喂。丢链接、塞文档，还用语音转文字工具对着屏幕絮絮叨叨说一大堆，出奇地高效。等底子打厚了，每隔几周系统就会根据最新发生的事，自动更新知识文件，不用再操心。\n\n搭好底座之后，第一道大餐是每周准备，周日早晨自动跑。干什么呢？梳理脑子里的优先级，处理从 Slack 和邮件捞出来的杂事，再挨个判断下周每个会议需要严肃准备、快速提醒、还是直接忽略。\n\n这里有个做产品的人绝对秒懂痛点：你的路线图和优先级列表，是个美丽、干净、有条理的世界。但现实是什么？是 Slack、会议、高管临时要求的混乱。这套系统就是用来填平这两个世界之间鸿沟的。\n\n不过最神奇的部分，是每天的晨报。第一段很简单，拉取会议记录工具的转录，一行总结一个会，标出待办，你可以选展开或跳过。真正的杀手锏在第二段，Claude 会去扫最近的 Slack、邮件和笔记，主动找它看不懂的东西。比如碰见一个没见过的行业术语，或者不知道的内部里程碑，它会直接开口问，这是什么？重要吗？我要不要读一下记住它？现场演示的时候，标记了一个支付领域的术语，说一句保存到上下文，就永远记住了。为什么这招犀利？因为很多公司内部的黑话根本不在模型的训练数据里，主动让模型承认我不懂，一起定义，存下来，之后全能看懂了。系统甚至还会摸清你的习惯，比如知道你是个inbox zero的人，一条消息之前在、现在不在了，就自动推断这事已经处理完，绝不再拿废话烦你。\n\n更厉害的是，这套东西还能自我改进，每周跑一个循环，分四步。第一步叫草稿差距分析，写完草稿发出去之前改了哪里，系统不知道，这个任务就专门去抓那些改过但没回复的内容，对比学习，打磨写作风格。第二步是新技能建议，观察你反复在做的事，主动问要不要封装成技能，频繁做原型，那就建一个设计交接技能。第三步最绝，在每一个技能文件里内嵌反馈收集机制，每次你要求修正或者表达不满，全自动记下来，每周汇总最大的摩擦点，直接给改进方案，零额外维护成本。第四步是外部建议审计，现在网上的AI技巧洪流太猛了，专门建一个渠道，看到什么建议就丢进去，让系统自己审，这是真的吗？强大吗？适合我现在的情况吗？还是纯炒作？过滤完再决定采不采纳。\n\n后来这套系统被封装成了一个叫 Workstation 的共享插件，全公司都能用。这里有个血泪教训，之前做了一个写产品规格的工具，自己用得飞起，分发给其他产品经理，结果人家根本用不动，因为完全按自己的工作方式调教的。所以这次核心做成了内置在聊天流程里的引导式体验，点几个确认，回答几个问题，工具、日历、同事关系、写作风格全自动配好，从第一天起写出来的东西就像你本人。\n\n现在这套系统已经覆盖了百分之七十到八十的电脑前工作。剩下的差距就两块，一是脱离电脑自主执行，二是让系统自己学着处理简单请求。这期最值得带走的一句话就是，别管外面吹什么工具，能重写自身、能接上你真实工作生态的系统，才是真正能陪你进化的系统。"
+}

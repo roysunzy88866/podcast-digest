@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Susan Kare]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]] [[Kevin Scott]]
+[[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mural":1,"视觉协作":1,"共享上下文":1,"智能体":1,"令牌":5,"原型":3,"前置部署员工":1,"Slack":22,"Linear":6,"Notion":10}</script>
+<script type="application/json" class="pd-epn">{"Mural":1,"视觉协作":1,"共享上下文":1,"智能体":1,"令牌":5,"原型":3,"前置部署员工":1,"Slack":23,"Linear":6,"Notion":11}</script>
 
 <script>
 (function(){

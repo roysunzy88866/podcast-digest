@@ -1,0 +1,1207 @@
+{
+  "episode_id": "2026-07-27-twiml-why-models-are-ai-s-next-training-datase",
+  "podcast": "The TWIML AI Podcast",
+  "date": "2026-07-27",
+  "tags": [
+    "权重空间学习",
+    "模型生成",
+    "自编码器",
+    "遥感基础模型",
+    "数据集提示"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sam-charrington",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Charrington",
+      "file": "Sam Charrington",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            120.223,
+            124.024
+          ],
+          "quote": "I'm Sam Charrington, and this is the TwiML AI Podcast.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "damian-borth",
+      "type": "person",
+      "role": "cohost",
+      "name": "Damian Borth",
+      "file": "Damian Borth",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            79.45,
+            86.793
+          ],
+          "quote": "Damian Borth, professor of AI and machine learning at the University of St. Gallen, sees trained models themselves as data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集说 Hugging Face 是一个存放了大量开放权重模型的在线仓库，他们从中下载约两万个模型，筛选出两千个通过质量检查的来训练权重空间学习模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            268.301,
+            278.409
+          ],
+          "quote": "More and more and more of those models have been published publicly, are online accessible at repositories like Hugging Face or GitHub.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1307.682,
+            1315.346
+          ],
+          "quote": "Different sized models with different architectures, tasks, modalities from open-weight repositories like Hugging Face.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1315.926,
+            1320.908
+          ],
+          "quote": "Could we download everything from Hugging Face and train a foundation model of neural networks?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1366.834,
+            1374.936
+          ],
+          "quote": "And there's amazing work on analyzing how Hugging Face looks like the model atlas from Eliahu Horowitz and Yedid.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1397.248,
+            1407.15
+          ],
+          "quote": "You know, weight space learning model that can do generation and analysis of weights of discriminative and generative downstream tasks on Hugging Face models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1429.518,
+            1439.884
+          ],
+          "quote": "And what's the filter that needs to be applied on the, you know, this Hugging Face's vast library of models that normalizes them to something you can deal with?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1439.964,
+            1447.73
+          ],
+          "quote": "But first of all, and this is work also that, you know, other figures like Iliahu, there's a lot of content on Hugging Face that's not documented.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1453.874,
+            1456.536
+          ],
+          "quote": "I mean, Hugging Face is amazing, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1621.383,
+            1623.845
+          ],
+          "quote": "We take the models that we download from Hugging Face.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1656.085,
+            1667.831
+          ],
+          "quote": "We tried different things and, you know, currently it depends a little bit what kind of, on the Hugging Face data we normalize in, instead of the batches, you know, during tokenization.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2076.547,
+            2081.788
+          ],
+          "quote": "Because that opens up to all the potential data sets that are not on Hugging Face.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2169.826,
+            2182.152
+          ],
+          "quote": "And it would also allow us to kind of understand how is the space that we're learning, this latent space, because the most interesting thing would be that we could interpolate the models that we see on Hugging Face.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2184.033,
+            2198.628
+          ],
+          "quote": "So can a dataset that per definition is never on Hugging Face and there's no model that's trained on that, can this dataset and the dataset prompt generate some meaningful neural networks that live between the space of known neural networks that are embedded?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2337.297,
+            2345.683
+          ],
+          "quote": "So we definitely can only reconstruct architectures that we saw in our Hugging Face collection.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "weight-space-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "权重空间学习 (weight-space learning)",
+      "file": "权重空间学习",
+      "primary": true,
+      "how_described": "本集说权重空间学习是把训练好的神经网络的权重当作输入模态，训练另一个神经网络来分析和生成权重的方法，可以从模型到模型进行知识迁移",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1237.639,
+            1258.803
+          ],
+          "quote": "weight space i don't think we talked about it as weight space learning but kind of this idea of like introspecting weights uh was with charles martin who uh does a lot of work on a weight watcher and grokking and motor labs and exactly like so charles and charles quote was michael mahoney who was then called on our paper",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1397.248,
+            1407.15
+          ],
+          "quote": "You know, weight space learning model that can do generation and analysis of weights of discriminative and generative downstream tasks on Hugging Face models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2643.613,
+            2657.263
+          ],
+          "quote": "But you could think also about a lot of pre-processing steps until you would go and do the weight space learning, compression, or learning the latent representation, the lower dimension manifold on that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2749.482,
+            2757.935
+          ],
+          "quote": "Taking the ideas of weight space learning, applying it to gradients or applying it to activation spaces, doing representation engineering.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "权重 (weights)",
+      "file": "权重",
+      "primary": true,
+      "how_described": "本集把权重描述为神经网络的 DNA，是一种输入模态，可以像语言模型吃文本、图像模型吃像素一样被另一个模型来'吃'，从中分析和生成新权重",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            72.527,
+            78.71
+          ],
+          "quote": "Instead of treating those weights just as the end of the training process, what if they're also the beginning of the next one?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            92.415,
+            96.857
+          ],
+          "quote": "When I asked him to explain the idea behind weights-based learning, here's where he started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            104.254,
+            113.681
+          ],
+          "quote": "The weights of trained neural networks as the input to train a neural network to understand these weights that we have out there much, much better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            114.061,
+            119.465
+          ],
+          "quote": "Thinking about that, that you can treat the weights as an input modality, gives you suddenly this opportunity of",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 31,
+          "t": [
+            200.108,
+            207.337
+          ],
+          "quote": "You know, we think about weights as the product of training a model and, you know, we get some utility out of them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            216.968,
+            220.991
+          ],
+          "quote": "It seems to be that, you know, there's so much more that we can learn from these weights.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 39,
+          "t": [
+            240.483,
+            253.191
+          ],
+          "quote": "And the outcome during this very expensive training procedure is a set of weights, a configuration of parameters that define the neural network, like the DNA of the neural network.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 45,
+          "t": [
+            285.373,
+            294.795
+          ],
+          "quote": "The weights of trained neural networks as the input to train a neural network to understand these weights that we have out there much, much better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 50,
+          "t": [
+            316.122,
+            325.626
+          ],
+          "quote": "We do the same idea on all the weights of trained neural networks so we can analyze weights of neural networks and we can generate weights of neural networks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 51,
+          "t": [
+            325.846,
+            336.17
+          ],
+          "quote": "As straightforward as it is, obviously, there's a little bit more into the details, but thinking about that, that you can treat the weights as an input modality gives you suddenly this opportunity of",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            343.773,
+            350.076
+          ],
+          "quote": "What would be generation of words and tokens that are words and generation of tokens that are weights?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            350.176,
+            355.498
+          ],
+          "quote": "And can we be much, much faster in creating new weights for particular tasks?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 55,
+          "t": [
+            355.858,
+            363.242
+          ],
+          "quote": "Or can we be much more precise in analyzing weights when somebody gives me a neural network that I'm not knowledgeable about and I never saw before?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            363.942,
+            384.167
+          ],
+          "quote": "And then, you know, you have this new entire world, this, you know, empty space of things you can do with weights that, you know, you kind of carry into the community and hope that there's somebody listening and continuing and, you know, building up a community which happened over the last two, three years, which is very exciting because there are more people about that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 57,
+          "t": [
+            385.088,
+            391.07
+          ],
+          "quote": "Yeah, weights are exciting, not only as the output of learning, but as the input for learning.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 60,
+          "t": [
+            396.572,
+            400.793
+          ],
+          "quote": "And then we'll work our way towards where we are now with weights-based learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            425.358,
+            431.503
+          ],
+          "quote": "Problem with neural networks is if you do one update of weights during training, every weight is a little bit different.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 74,
+          "t": [
+            442.38,
+            453.263
+          ],
+          "quote": "Can we find a space where these neural networks, the weights, the models of those neural networks are a little bit compressed and more understandable?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 77,
+          "t": [
+            465.167,
+            477.512
+          ],
+          "quote": "From Google Zurich, and they developed a paper that used weights as input, you know, did some statistical features, handcrafted features, and then predicted the accuracy of those ways.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 79,
+          "t": [
+            481.493,
+            486.935
+          ],
+          "quote": "So people started to use weights to extract information, and they were all handcrafted features.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 82,
+          "t": [
+            492.695,
+            502.423
+          ],
+          "quote": "So then we developed our idea of auto-encoding sequences of weights into a lower dimension space and then reconstructing it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            761.833,
+            772.344
+          ],
+          "quote": "We took the neural networks, we moved them in a forward pass, we reconstructed, as said, the loss is very low, we plucked the weights back to the neural network, totally screwed up the entire neural network.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 143,
+          "t": [
+            783.63,
+            786.691
+          ],
+          "quote": "So we're very good at reconstructing the average weights.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 151,
+          "t": [
+            824.158,
+            827.942
+          ],
+          "quote": "We kind of, we generate at that time blurry weights, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 176,
+          "t": [
+            955.139,
+            961.12
+          ],
+          "quote": "And instead of the university, he had like weights are the new modality, Eliyahu Horvitz.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1001.29,
+            1007.877
+          ],
+          "quote": "And it actually changes the sequence of weights because, you know, the order of weights, but the function is the same.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1237.639,
+            1258.803
+          ],
+          "quote": "weight space i don't think we talked about it as weight space learning but kind of this idea of like introspecting weights uh was with charles martin who uh does a lot of work on a weight watcher and grokking and motor labs and exactly like so charles and charles quote was michael mahoney who was then called on our paper",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1260.984,
+            1274.849
+          ],
+          "quote": "And it was really funny because Michael was doing with Charles the work of analyzing weights and looking how their shapes are changing so you can make a statement about if they converge or not.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1397.248,
+            1407.15
+          ],
+          "quote": "You know, weight space learning model that can do generation and analysis of weights of discriminative and generative downstream tasks on Hugging Face models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1577.185,
+            1581.209
+          ],
+          "quote": "Diversity is important in the model weights you use for training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1590.945,
+            1602.196
+          ],
+          "quote": "So that helped us to identify or to process weights in an agnostic way so that we are not bounded by, you know, this is a layer starting, this is a layer ending.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1624.205,
+            1627.869
+          ],
+          "quote": "We strip away the weights in reading order very stupidly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1648.293,
+            1655.177
+          ],
+          "quote": "There are different positions where you can normalize on the weights as a pre-processing during the tokenization or at the loss function.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1694.822,
+            1707.007
+          ],
+          "quote": "Very often, these fine tuning steps are very quickly able to recover, but given that our decoder has this problem of the blurry weights, we're kind of not getting perfect weights, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1839.8,
+            1843.904
+          ],
+          "quote": "We're running out of data to train the large models, but we're not using the weights of older models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1844.384,
+            1848.928
+          ],
+          "quote": "So why not using the weights, all the knowledge, all the compute that people invested, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1884.146,
+            1889.869
+          ],
+          "quote": "So why not taking this knowledge, compress it all in a weights-based learning representation and then sample models on demand?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2067.646,
+            2068.507
+          ],
+          "quote": "We provide you the weights.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2068.527,
+            2069.227
+          ],
+          "quote": "We give you the weights.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2135.683,
+            2146.07
+          ],
+          "quote": "But the idea is really like once we have this one embedding, can we generate from this one dataset embedding now the tokens or the embeddings that generate the tokens for the weights?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2246.311,
+            2250.832
+          ],
+          "quote": "Ah, so that might define the structure and you might provide the weights that fit into that structure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2263.095,
+            2264.696
+          ],
+          "quote": "And we provide the best weights.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2268.175,
+            2276.118
+          ],
+          "quote": "Does it produce weights kind of with knowledge of the architecture in which those weights will be used?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2276.178,
+            2288.762
+          ],
+          "quote": "Or is it just like you've got a parameter of the number of weights and it spits out the number of weights and then you have to, as a post-process, apply that to an architecture in a given way?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2302.55,
+            2306.254
+          ],
+          "quote": "But with the model prompt, you give an architecture that we fill with weights.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2328.111,
+            2329.111
+          ],
+          "quote": "We generate the weights.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2365.104,
+            2370.828
+          ],
+          "quote": "But always under the promise we can do it on open weights model that are diverse, all the chaos, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2379.744,
+            2392.752
+          ],
+          "quote": "Does it produce a sequence of weights that you then have to map to a position in an architecture or does the model also produce, like does it produce a weight and a position in an architecture?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2392.772,
+            2403.259
+          ],
+          "quote": "So it generates a sequence of weights that you have to then fit to the architecture and every token that is then translated into a weight has a position encoding.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2418.735,
+            2423.018
+          ],
+          "quote": "So then, you know, you get a sequence of weights and you have to fit it to the right architecture.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2444.101,
+            2449.229
+          ],
+          "quote": "And therefore, I think that conditioning would kind of help us to generate better weights quicker.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2460.669,
+            2475.397
+          ],
+          "quote": "When you produce these weights, are you like overriding an initialized model, like random initialization or zero initialization or something so that the model is always valid?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2577.075,
+            2593.4
+          ],
+          "quote": "You mentioned a couple of times the distinction between high frequency noise, low frequency noise in a way which calls to mind like doing things in a frequency domain, applying an FFT to weights or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2626.337,
+            2638.721
+          ],
+          "quote": "On weights, I would not know if somebody already did this, but moving the weights into some other domain and then processing is an interesting idea.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2759.026,
+            2765.531
+          ],
+          "quote": "Which you could also think about a neural artifact that is not the weights, but the gradients during training or the activations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2770.935,
+            2780.021
+          ],
+          "quote": "So not looking at the weights, but having controlled input-output relationships and therefore looking what happens given an unknown neural network.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "autoencoder",
+      "type": "concept",
+      "role": "concept",
+      "name": "自编码器 (autoencoder)",
+      "file": "自编码器",
+      "primary": true,
+      "how_described": "本集说自编码器包含编码器和解码器，用于将权重序列编码到低维空间再重建，中间加对比损失来学习低维流形，但早期版本会生成'模糊权重'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            551.53,
+            553.672
+          ],
+          "quote": "So we took, you know, an autoencoder.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 94,
+          "t": [
+            555.713,
+            561.036
+          ],
+          "quote": "We learned the autoencoder with, or trained the autoencoder with a reconstruction loss, a contrastive loss in the middle.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            639.969,
+            646.292
+          ],
+          "quote": "So we needed to be able to train this autoencoder, some population of neural networks, model zoo.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            659.157,
+            663.939
+          ],
+          "quote": "So the autoencoder was trained on 600 neural networks and tested on 300 others.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            719.956,
+            728.122
+          ],
+          "quote": "So you have an autoencoder, you take the encoder, so you can predict discriminative downstream tasks, like what's accuracy, what's generalization gap.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 137,
+          "t": [
+            757.969,
+            761.233
+          ],
+          "quote": "We trained this autoencoder, the mean squared error was super low.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 161,
+          "t": [
+            866.288,
+            873.135
+          ],
+          "quote": "And therefore we would kind of de-attach the sequence left of the original model to the autoencoder one.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1187.718,
+            1198.608
+          ],
+          "quote": "And then hopefully, you know, we could move this in our backbone, learning backbone, because, you know, some tokenization, some position encoding in the autoencoder is a transformer autoencoder.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2414.252,
+            2415.673
+          ],
+          "quote": "It was an autoencoder, yeah.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2608.06,
+            2620.124
+          ],
+          "quote": "And I think in the image domain, this is happening through, you have a kind of a variation autoencoder reconstructing, and then you have a generative adversarial network enforcing high frequency information.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "blurry-weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "模糊权重 (blurry weights)",
+      "file": "模糊权重",
+      "primary": true,
+      "how_described": "本集说模糊权重是自编码器用均方误差重建时产生的问题：低频信息有了但决定网络能否工作的高频细节丢失了，类比早期图像生成模型总是模糊的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            824.158,
+            827.942
+          ],
+          "quote": "We kind of, we generate at that time blurry weights, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1694.822,
+            1707.007
+          ],
+          "quote": "Very often, these fine tuning steps are very quickly able to recover, but given that our decoder has this problem of the blurry weights, we're kind of not getting perfect weights, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "window",
+      "type": "concept",
+      "role": "concept",
+      "name": "窗口化 (window)",
+      "file": "窗口化",
+      "primary": true,
+      "how_described": "本集说窗口化是把模型参数当作长序列、只重建每个窗口的技巧，这解耦了原始模型和自编码器的序列对应关系，使方法能从玩具模型扩展到 ResNet 级别",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            856.937,
+            865.623
+          ],
+          "quote": "And we had this idea of instead of reconstructing the entire model, think about the model parameters as a sequence that you window and then reconstruct the windows.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "tokenization",
+      "type": "concept",
+      "role": "concept",
+      "name": "分词 (tokenization)",
+      "file": "分词",
+      "primary": true,
+      "how_described": "本集说分词是把拉成一维序列的模型权重进行标记化处理的过程，分词器需要能适应任意架构，且在分词阶段做归一化对训练稳定性很重要",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 219,
+          "t": [
+            1187.718,
+            1198.608
+          ],
+          "quote": "And then hopefully, you know, we could move this in our backbone, learning backbone, because, you know, some tokenization, some position encoding in the autoencoder is a transformer autoencoder.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1581.349,
+            1588.696
+          ],
+          "quote": "The tokenization and the processing of tokens changed strongly, inspired by work from Kai Wang and",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1648.293,
+            1655.177
+          ],
+          "quote": "There are different positions where you can normalize on the weights as a pre-processing during the tokenization or at the loss function.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1656.085,
+            1667.831
+          ],
+          "quote": "We tried different things and, you know, currently it depends a little bit what kind of, on the Hugging Face data we normalize in, instead of the batches, you know, during tokenization.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1673.874,
+            1675.175
+          ],
+          "quote": "The tokenization is important.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dataset-prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据集提示 (dataset prompt)",
+      "file": "数据集提示",
+      "primary": true,
+      "how_described": "本集说数据集提示是用数据集的嵌入向量代替模型嵌入作为提示来生成权重的方法，类比 CLIP 把文本和图像对齐，可以同时解决鸡生蛋问题和隐私保护问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 379,
+          "t": [
+            2041.389,
+            2048.353
+          ],
+          "quote": "As a model prompt that could move into this space and point into this space, instead of a model prompt, we use a dataset prompt.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2184.033,
+            2198.628
+          ],
+          "quote": "So can a dataset that per definition is never on Hugging Face and there's no model that's trained on that, can this dataset and the dataset prompt generate some meaningful neural networks that live between the space of known neural networks that are embedded?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2296.444,
+            2297.845
+          ],
+          "quote": "With the dataset prompt, you don't.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "neural-architecture-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "神经架构搜索 (neural architecture search)",
+      "file": "神经架构搜索",
+      "primary": true,
+      "how_described": "本集说神经架构搜索决定'用什么结构'，而权重空间学习决定'填什么权重'，两者是互补关系，结合后可以实现按需生成任意架构的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 414,
+          "t": [
+            2222.138,
+            2231.523
+          ],
+          "quote": "I mean, it sounds a lot, a lot simpler than the way we think about like neural architecture search today, which is a lot of very complex machinery.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2241.33,
+            2245.971
+          ],
+          "quote": "We are, I consider this work complementary to the neural architecture search.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "behavior-loss",
+      "type": "concept",
+      "role": "concept",
+      "name": "行为损失 (behavior loss)",
+      "file": "行为损失",
+      "primary": false,
+      "how_described": "本集说行为损失是类比图像领域从均方误差换成感知损失而尝试的替代损失函数，用来改善模糊权重问题，生成出来的模型好了一些但仍需微调",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            811.364,
+            819.093
+          ],
+          "quote": "So we knew that reconstruction was the wrong loss and we tried to normalize and play around with the losses and, you know, thought about the behavior loss.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1077.479,
+            1079.302
+          ],
+          "quote": "How can we translate into behavior loss, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "task-vector",
+      "type": "concept",
+      "role": "concept",
+      "name": "任务向量 (task vector)",
+      "file": "任务向量",
+      "primary": false,
+      "how_described": "本集说任务向量是微调后模型与基础模型权重的差值，可以在权重空间里做任务算术，某些情况下比完整权重更容易学习和生成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 475,
+          "t": [
+            2536.471,
+            2537.912
+          ],
+          "quote": "And what is a task vector?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2538.292,
+            2548.039
+          ],
+          "quote": "So if you have a base model, for example, and you fine-tune to one task, another task, and the third task, you could take the difference of the fine-tuned model to the base model, and this would be a task vector.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "blitzy",
+      "type": "company",
+      "role": "company",
+      "name": "Blitzy",
+      "file": "Blitzy",
+      "primary": false,
+      "how_described": "本集开头赞助商口播中提到 Blitzy 是把自主软件工程带给企业的工具，能逆向工程代码库并自主执行软件史诗",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            1.148,
+            5.51
+          ],
+          "quote": "I want to send a big thanks to Blitzy for supporting the podcast and sponsoring this episode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            9.353,
+            13.255
+          ],
+          "quote": "You need Blitzy, which brings autonomous software engineering to your enterprise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            13.895,
+            20.179
+          ],
+          "quote": "Blitzy starts by reverse engineering your codebase, building a dynamic understanding of your entire application ecosystem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            20.819,
+            29.964
+          ],
+          "quote": "Your engineers simply declare intent, and once approved, Blitzy autonomously executes entire software epics, delivering validated end-to-end tested code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            34.475,
+            36.156
+          ],
+          "quote": "Blitzy is not just generating code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            39.237,
+            42.899
+          ],
+          "quote": "Experience Blitzy firsthand at blitzy.com slash twiml.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "terafm",
+      "type": "company",
+      "role": "company",
+      "name": "TeraFM",
+      "file": "TeraFM",
+      "primary": false,
+      "how_described": "本集说 TeraFM 是一篇发表在 ICLR 的遥感基础模型，作者声称训练花了 12000 GPU 小时，而用权重空间学习方法只用了 350 GPU 小时就达到同等性能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1798.26,
+            1807.606
+          ],
+          "quote": "where we are able actually to outperform or be equally in performance with current models like TeraFM published at ICLR.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "google-zurich",
+      "type": "company",
+      "role": "company",
+      "name": "Google Zurich",
+      "file": "Google Zurich",
+      "primary": false,
+      "how_described": "本集提到 Google Zurich 的 Thomas Untertinger 和 Daniel Kaisers 用权重做手工特征统计来预测模型准确率，是权重空间学习方向的早期工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            465.167,
+            477.512
+          ],
+          "quote": "From Google Zurich, and they developed a paper that used weights as input, you know, did some statistical features, handcrafted features, and then predicted the accuracy of those ways.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

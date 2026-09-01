@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Workstation</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Workstation">WO</div><div class="pi"><h1 class="pt">Workstation</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Workstation">WO</div><div class="pi"><h1 class="pt">Workstation</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude Co-work造出的自我进化工作系统》]]**(26:48起):本集说 Workstation 是 Daniel 和同事把个人系统打包成的共享插件，内置引导式 UX，约 15 分钟让任何人完成工具连接、角色确认和风格建立
+- **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(26:48起):本集说 Workstation 是 Daniel 和同事把个人系统封装成的共享插件，核心是内置在聊天流程中的引导式 UX，点确认就配好所有工具和角色映射
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude Co-work造出的自我进化工作系统》]] — 作为概念
+- [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Daniel Blum]] · [[Claire Vo]] · [[Co-work]] · [[Notion]] · [[Claude Code]] · [[Claude]] · [[Slack]] · [[智能体]] · [[上下文]] · [[技能]]
+[[Daniel Blum]] · [[Claire Vo]] · [[Co-work]] · [[Notion]] · [[Claude Code]] · [[Slack]] · [[智能体]] · [[上下文]] · [[技能]] · [[自我改进循环]]
 
-<script type="application/json" class="pd-epn">{"Daniel Blum":1,"Claire Vo":3,"Co-work":3,"Notion":10,"Claude Code":44,"Claude":41,"Slack":22,"智能体":1,"上下文":12,"技能":8}</script>
+<script type="application/json" class="pd-epn">{"Daniel Blum":2,"Claire Vo":4,"Co-work":4,"Notion":11,"Claude Code":45,"Slack":23,"智能体":1,"上下文":13,"技能":9,"自我改进循环":2}</script>
 
 <script>
 (function(){

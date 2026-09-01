@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]]
+[[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":19,"Slack":22,"Dust":1,"Devon":4,"智能体":1,"剧本":4,"技能":8,"本体":1}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":19,"Slack":23,"Dust":1,"Devon":4,"智能体":1,"剧本":4,"技能":9,"本体":1}</script>
 
 <script>
 (function(){

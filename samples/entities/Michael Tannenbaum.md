@@ -35,7 +35,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Figure]] · [[SoFi]] · [[Brex]] · [[Kiavi]] · [[高管心态]] · [[市场]] · [[区块链]] · [[代币化]] · [[Meta]] · [[AI]]
+[[Figure]] · [[SoFi]] · [[Brex]] · [[Kiavi]] · [[高管心态]] · [[市场]] · [[区块链]] · [[分词]] · [[Meta]] · [[AI]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"代币化":2,"Meta":24,"AI":11}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"分词":3,"Meta":24,"AI":11}</script>
 
 <script>
 (function(){

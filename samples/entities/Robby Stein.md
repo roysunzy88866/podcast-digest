@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]]
+[[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Google":33,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":41,"Gemini":5,"Instagram":4,"Stories":2,"Close Friends":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Google":33,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":42,"Gemini":5,"Instagram":4,"Stories":2,"Close Friends":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,245 @@
+{
+  "episode_id": "2026-06-17-yc-how-to-pick-a-startup-idea-e3ktvca",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-06-17",
+  "tags": [
+    "创业方向选择",
+    "AI 时代创业",
+    "创始人心态",
+    "深入客户",
+    "雄心勃勃的想法"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "john",
+      "type": "person",
+      "role": "host",
+      "name": "John",
+      "file": "John",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            9.346,
+            12.169
+          ],
+          "quote": "Hi, I'm John and I'm a partner at YC.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "本集提到 YC 是 John 所在的创业加速器，他在 YC 总是看到创始人在短时间内发展出非凡领域知识的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            9.346,
+            12.169
+          ],
+          "quote": "Hi, I'm John and I'm a partner at YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            122.68,
+            126.401
+          ],
+          "quote": "We see incredible examples of this all the time at YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            452.484,
+            458.947
+          ],
+          "quote": "One example of this is Corgi Insurance, an AI-powered commercial insurance company from YC's Summer 24 batch.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "boom-supersonic",
+      "type": "company",
+      "role": "company",
+      "name": "Boom Supersonic",
+      "file": "Boom Supersonic",
+      "primary": false,
+      "how_described": "本集举它为例：CEO Blake Scholl 之前做广告技术，后来决定将超音速飞行商业化，现在是一家价值十亿美元的公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            126.881,
+            130.182
+          ],
+          "quote": "Take Blake Scholl, the CEO of Boom Supersonic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "govdash",
+      "type": "company",
+      "role": "company",
+      "name": "GovDash",
+      "file": "GovDash",
+      "primary": false,
+      "how_described": "本集说它是一家帮助客户赢得政府合同的创业公司，至少转型了五次，每次都换公司名和邮箱，最终成为政府采购领域专家，需求大到几乎接不住",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            239.026,
+            244.907
+          ],
+          "quote": "For example, I worked with a startup called GovDash that helps customers win government contracts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "corgi-insurance",
+      "type": "company",
+      "role": "company",
+      "name": "Corgi Insurance",
+      "file": "Corgi Insurance",
+      "primary": false,
+      "how_described": "本集说它是 YC 24 年夏季批次的 AI 驱动商业保险公司，作为「垂直化、卖结果而不卖软件」的例子被提到",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            452.484,
+            458.947
+          ],
+          "quote": "One example of this is Corgi Insurance, an AI-powered commercial insurance company from YC's Summer 24 batch.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "founder-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人市场匹配度 (founder market fit)",
+      "file": "创始人市场匹配度",
+      "primary": true,
+      "how_described": "本集说创始人市场匹配度确实重要，但很多连续创业者会拿它当借口卡住自己，觉得得有十年领域经验才配动手，实际上选一个好奇的方向深入钻研就能快速建立认知",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            88.303,
+            90.183
+          ],
+          "quote": "It's true that founder market fit matters.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集在举例时提到「为清洁服务构建语音客服智能体（voice customer service agents）」，仅作为假设场景一笔带过",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            287.689,
+            290.97
+          ],
+          "quote": "Say you want to build voice customer service agents for cleaning services.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "edge-of-what-models-can-do",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型能力的边缘 (edge of what models can do)",
+      "file": "模型能力的边缘",
+      "primary": true,
+      "how_described": "本集说好想法应处在模型今天能做的事情的边缘——产品在当前前沿模型上勉强能用，但模型一进步就明显变好，你要清楚卡住产品性能的瓶颈是什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            381.818,
+            387.221
+          ],
+          "quote": "The first is that the idea sits at the edge of what models can do today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verticalize",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直化 (verticalize)",
+      "file": "垂直化",
+      "primary": true,
+      "how_described": "本集说 AI 时代好想法应该垂直化，最终卖结果而不是卖软件——别给保险公司做软件，直接当保险商；别给银行做后台系统，直接当银行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            412.32,
+            415.864
+          ],
+          "quote": "The second quality of a good idea is that it should verticalize.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": false,
+      "how_described": "本集在说「追求最雄心勃勃的版本」时提到可以挑战价值 100 亿美元的遗留 SaaS 公司，仅一笔带过",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            543.295,
+            548.339
+          ],
+          "quote": "Or taking on very large incumbents like a $10 billion legacy SaaS company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -126,7 +126,7 @@ Meng To 一针见血地澄清：被裁的是非技术型产品经理，而技术
 
 - [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周]]<span class="pd-rz">同公司:cursor、figma · 同概念:智能体 (agent)、mcp、护栏 (guardrails)</span>
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|GrokBot、Origin 与 Grok 4.6 实测]]<span class="pd-rz">同公司:cursor · 同概念:智能体 (agent)、codex、mcp</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:cursor · 同概念:上下文 (context)、智能体 (agent)</span>
+- [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|一个PM用Claude CoWork建的自愈型工作系统]]<span class="pd-rz">同公司:cursor · 同概念:上下文 (context)、智能体 (agent)、codex</span>
 
 </div>
 </div>

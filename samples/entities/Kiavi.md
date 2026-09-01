@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Michael Tannenbaum]] · [[Figure]] · [[SoFi]] · [[Brex]] · [[高管心态]] · [[市场]] · [[区块链]] · [[代币化]] · [[Meta]] · [[AI]]
+[[Michael Tannenbaum]] · [[Figure]] · [[SoFi]] · [[Brex]] · [[高管心态]] · [[市场]] · [[区块链]] · [[分词]] · [[Meta]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Michael Tannenbaum":1,"Figure":2,"SoFi":1,"Brex":3,"高管心态":1,"市场":2,"区块链":2,"代币化":2,"Meta":24,"AI":11}</script>
+<script type="application/json" class="pd-epn">{"Michael Tannenbaum":1,"Figure":2,"SoFi":1,"Brex":3,"高管心态":1,"市场":2,"区块链":2,"分词":3,"Meta":24,"AI":11}</script>
 
 <script>
 (function(){

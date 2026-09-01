@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Marc Andreessen]] · [[清晰法案]] · [[稳定币]] · [[加密货币]] · [[区块链]] · [[代币化]] · [[开源]] · [[Stripe]]
+[[Marc Andreessen]] · [[清晰法案]] · [[稳定币]] · [[加密货币]] · [[区块链]] · [[分词]] · [[开源]] · [[Stripe]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"代币化":2,"开源":9,"Stripe":23}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"分词":3,"开源":9,"Stripe":23}</script>
 
 <script>
 (function(){

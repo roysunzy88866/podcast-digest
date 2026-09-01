@@ -1,0 +1,142 @@
+{
+  "title_zh": "把训练好的模型当数据喂给模型：权重空间学习",
+  "tldr": "圣加仑大学教授 Damian Borth 介绍「权重空间学习」——把已训练模型的权重当成输入数据，直接分析和生成新模型权重，从而跳过或大幅缩短传统预训练。",
+  "digest_md": "这一集是圣加仑大学的 AI 教授 Damian Borth 聊一个听起来反直觉但逻辑很直接的想法：训练好的神经网络权重，不只是训练的「产物」，还可以当作「输入数据」来学习。他们从 2020 年开始做这件事，现在已经能用从 Hugging Face 下载的开放模型训练出一个「神经网络的神经网络」，直接生成新模型的权重，在遥感任务上把训练算力砍到了原来的三十分之一 [02:36 Damian Borth]。\n\n## 核心想法：权重是一种输入模态\n\n传统机器学习的流程是：拿数据训练神经网络，得到一组权重（参数），这组权重就像神经网络的 DNA。大家通常只拿这组权重去做推理，最多做做可解释性分析或量化压缩。Damian 的思路是——为什么不把「权重」本身当成一种输入模态，就像语言模型吃文本、图像模型吃像素一样，让另一个模型来「吃权重」？这样它就能分析权重、生成权重 [04:00 Damian Borth]。\n\n类比一下：语言模型在互联网所有句子上训练，学会分析和生成语言；图像模型在所有像素上训练，学会分析和生成图像。那如果在所有已训练神经网络的权重上训练，就学会分析和生成神经网络的权重 [05:03 Damian Borth]。\n\n这打开了一整片空白：能不能做「模型间的翻译」？能不能不用传统训练就快速生成一个特定任务的模型权重？拿到一个从没见过的神经网络，能不能不跑测试数据就分析出它的性能 [05:37 Damian Borth]？\n\n## 起步：用自编码器压缩权重，预测模型准确率\n\n第一篇论文（2021 年发表）的做法很朴素。他们训练一个自编码器（编码器把权重压到低维空间，解码器再重建），中间加对比损失来学一个低维流形。这个流形里编码了准确率、泛化差距、用了什么激活函数等「潜在生成因子」 [08:12 Damian Borth]。\n\n做法是：拿编码器把一个从未见过的神经网络权重编码到潜在空间，再用一个简单的线性回归头预测准确率——相当于不跑测试数据就能估计模型性能 [09:11 Damian Borth]。\n\n当时只在很小的模型上验证（数千到数万个参数），同一个模型动物园里训练了 1000 个模型、50 个轮次，自编码器在 600 个上训练、300 个上测试，预测准确率和实际差距在 2 个百分点以内，超过了 Google Zurich 同行用手工特征做的方法 [10:23 Damian Borth]。\n\n## 从分析到生成：遇到了「模糊权重」问题\n\n有编码器就有解码器——能不能从潜在空间采样来生成新神经网络的权重？理论上显然可以，但实际撞了墙 [12:08 Damian Borth]。\n\n自编码器的重建损失（均方误差）很低，但把生成的权重塞回神经网络，模型完全不能用。原因是：均方误差衡量的是「平均权重」的重建好坏，但真正决定网络能不能工作的是那些微小的、高频的差异——就像早期图像生成模型总是模糊的，低频信息有了、高频细节没了 [12:37 Damian Borth]。\n\n他们试了改损失函数（从重建损失换成行为损失，类比图像领域从均方误差换成感知损失），生成出来的模型好了一些，但仍然需要几步微调才能恢复性能。这个问题到现在还没有完全解决 [13:31 Damian Borth]。\n\n## 突破：窗口化序列 + 在 Hugging Face 模型上训练\n\n关键突破来自一个工程技巧：不再把整个模型的权重作为一个整体去重建，而是把参数当作一个长序列，做窗口化处理，只重建每个窗口。这样就把原始模型的序列和自编码器的序列「解耦」了，突然就能处理 ResNet 这种大得多的网络 [14:16 Damian Borth]。\n\n下一步自然是从实验室的模型动物园跳到真实世界——直接从 Hugging Face 下载模型来训练。这需要解决几个实际问题 [22:18 Damian Borth]：\n\n- **筛选**：Hugging Face 上约 30% 的模型没有有意义的元数据，先过滤掉。他们从 20,000 个模型里筛出 2,000 个通过质量检查的，涵盖数十亿参数 [24:07 Damian Borth]。\n- **分词**：把模型权重按阅读顺序「很笨地」拉成一维序列，破坏掉原有的层次结构（哪层开始、哪层结束），然后分词处理。分词器需要能适应任意架构，这部分受了新加坡 Kai Wang 等人的工作启发 [27:01 Damian Borth]。\n- **归一化**：在分词阶段做归一化处理，对训练稳定性很重要 [27:25 Damian Borth]。\n- **多样性比规模更重要**：光扩大模型数量没用，必须增加架构、数据集、任务的多样性。目前主要在计算机视觉模型上做，语言是下一步 [24:25 Damian Borth]。\n\n训练出来的骨干网络可以采样不同架构的权重（DiTs、ResNets 等）。有意思的是，他们甚至成功采样了一个小型的 GPT2 模型——这是从纯视觉模型集合里跨领域生成的，把它当作初始化来训练，比从零开始训练更快，说明发生了从视觉到语言的知识迁移 [25:10 Damian Borth]。\n\n## 实际战果：遥感任务上算力降到三十分之一\n\n最有说服力的实验是跨域生成：拿一个在 ImageNet 上训练的 ViT（视觉 Transformer），用他们的编码器-解码器生成遥感领域的模型权重 [29:33 Damian Borth]。\n\n结果：生成的遥感模型性能等同于甚至超过当前专门训练的遥感基础模型（比如 ICLR 发表的 TeraFM）。TeraFM 作者声称训练花了 12,000 GPU 小时，而他们只用了 350 GPU 小时——差了 20 到 30 倍 [30:08 Damian Borth]。\n\n逻辑是：你不需要重新从遥感数据开始训练，因为「如何做好视觉任务」的知识已经编码在 ImageNet 模型的权重里了。权重空间学习直接从模型到模型，跳过了数据这一层 [30:22 Damian Borth]。\n\n## 鸡生蛋问题与「数据集提示」的解法\n\n当前方法有一个结构性缺陷：生成新模型需要一个「锚点模型」——你得先有一个训练好的模型，通过编码器得到锚点，才能在潜在空间里采样附近的模型。如果你想在同一个领域生成模型，那「我已有一个好模型，为什么还要生成一个」就成了鸡生蛋问题 [29:05 Damian Borth]。\n\n跨域生成（比如从 ImageNet 生成遥感模型）天然绕过了这个问题，因为锚点和目标不在同一域，知识迁移是真实的 [29:42 Damian Borth]。\n\n但更彻底的解法是他们正在审稿中的下一篇论文：**数据集提示**。类比 CLIP 把文本和图像对齐到一个共享空间，他们想把数据集和模型权重也对齐。用户不需要提供一个模型作为提示，而是提供自己数据集的嵌入向量——「给我一个在这个数据上表现好的模型」 [33:10 Damian Borth]。\n\n这有一个额外好处：隐私保护。数据集被压缩成一个嵌入向量后，无法反推单条数据。银行、医疗机构这种不能分享数据的机构，可以只发一个数据集嵌入过来，拿回生成的模型权重，大幅缩短后续训练时间 [34:08 Damian Borth]。\n\n## 和神经架构搜索的关系：互补而非替代\n\n这套方法不挑架构——你可以指定要 ResNet、Transformer 还是别的什么，它就为那个架构生成权重。它和神经架构搜索（NAS）是互补的：NAS 决定「用什么结构」，权重空间学习决定「填什么权重」 [37:21 Damian Borth]。\n\n当前局限是：只能生成训练时见过的架构的权重（因为骨干网络只在 Hugging Face 上的架构上训练过）。下一步是让解码器接受架构作为条件信号，这样就能生成任意架构的权重 [38:27 Damian Borth]。\n\n生成的权重是整体覆盖到随机初始化的架构上的，技术上很直接——因为有序列和位置编码，知道每个权重该放到哪。目前没观察到重复生成或缺失位置的伪影，而且因为生成只是前向传播，成本极低，可以一次生成一堆模型做集成 [41:15 Damian Borth]。\n\n## 更大的图景：当数据耗尽，权重是未被利用的矿\n\n回到动机：大家都在担心高质量训练数据快用完了，所以涌向合成数据、推理时计算等方向。但 Damian 指出一个被忽略的事实——已经有海量模型被训练出来、发布在 Hugging Face 上，每个模型都凝结了大量算力和数据中的知识。这些权重本身就是一种「压缩过的数据」，却没人拿来当训练素材 [30:44 Damian Borth]。\n\n遥感领域已经有 70 个基础模型了，还有人继续训第 71 个。如果把这些知识全部压缩到一个权重空间学习的表示里，按需采样任意架构、任意大小的模型——包括适合边缘设备的小模型——这就可能从根本上改变「训练模型」的方式 [31:14 Damian Borth]。\n\n> 【背景】Damian Borth 是圣加仑大学（University of St. Gallen）AI 与机器学习教授。转写稿中\"wait-space\"为\"weight-space\"的语音识别错误，正文中已使用正确译名\"权重空间\"。\n> 【背景】\"GTP2\"应为\"GPT-2\"的语音识别错误，金句英文侧照转写稿原样保留。\n> 【背景】\"PSG\"应为\"PhD student\"（博士生）的语音识别错误。\n> 【背景】TeraFM 是一篇发表在 ICLR 的遥感基础模型论文，转写稿中仅出现名称未做展开。\n\n## 本集带走\n\n- **权重本身可以作为输入模态**：不只拿权重做推理，而是把权重当数据喂给另一个模型，让它学会分析和生成权重。\n- **「模糊权重」是核心工程难题**：自编码器倾向重建平均权重，丢失决定模型能否工作的高频细节——换了行为损失有所改善，但生成的模型仍需少量微调。\n- **窗口化序列是规模化关键**：把模型参数拉成一维序列、做窗口化重建，解耦了原始模型和自编码器的序列对应关系，才从玩具模型扩展到 ResNet 级别。\n- **跨域生成已经能大幅省算力**：用 ImageNet ViT 的权重生成遥感模型，350 GPU 小时达到 12,000 GPU 小时的效果——因为你从「模型」训练而不是从「数据」训练。\n- **「数据集提示」可以同时解决鸡生蛋问题和隐私问题**：用数据集嵌入代替模型嵌入作为提示，既不需要同域锚点模型，又不暴露原始数据。\n- **和神经架构搜索互补**：NAS 决定结构，权重空间学习填充权重，两者结合可以实现「按需生成任意架构的模型」。",
+  "quotes": [
+    {
+      "en": "Instead of treating those weights just as the end of the training process, what if they're also the beginning of the next one?",
+      "zh": "不要仅仅把这些权重视为训练过程的终点，如果它们也是下一个过程的起点呢？",
+      "timestamp": "01:12",
+      "speaker": "Sam Charrington"
+    },
+    {
+      "en": "If everything is different, nothing is different, right?",
+      "zh": "如果一切都是不同的，就没有什么是不同的，对吧？",
+      "timestamp": "07:17",
+      "speaker": "Damian Borth"
+    },
+    {
+      "en": "He actually said in one of the discussions like, Damian, what you're doing is really interesting, but useless.",
+      "zh": "他实际上在一次讨论中说过，像，Damian，你正在做的事情真的很有趣，但是没用。",
+      "timestamp": "14:44",
+      "speaker": "Damian Borth"
+    },
+    {
+      "en": "If we scale, scaling alone doesn't help. You need to increase the diversity of the models.",
+      "zh": "如果我们扩展规模，仅靠扩展规模并没有帮助。你需要增加模型的多样性。",
+      "timestamp": "24:25",
+      "speaker": "Damian Borth"
+    },
+    {
+      "en": "We're running out of data to train the large models, but we're not using the weights of older models. So why not using the weights, all the knowledge, all the compute that people invested, right?",
+      "zh": "我们正在耗尽数据来训练大模型，但我们没有在使用旧模型的权重。所以为什么不使用权重，所有的知识，人们投入的所有算力，对吧？",
+      "timestamp": "30:39",
+      "speaker": "Damian Borth"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:12",
+      "speaker": "Unknown",
+      "en": "Instead of treating those weights just as the end of the training process, what if they're also the beginning of the next one?",
+      "zh": "不要仅仅把这些权重视为训练过程的终点，如果它们也是下一个过程的起点呢？"
+    },
+    {
+      "timestamp": "01:19",
+      "speaker": "Unknown",
+      "en": "Damian Borth, professor of AI and machine learning at the University of St. Gallen, sees trained models themselves as data.",
+      "zh": "圣加仑大学的 AI 和机器学习教授 Damian Borth，将训练好的模型本身视为数据。"
+    },
+    {
+      "timestamp": "05:16",
+      "speaker": "Unknown",
+      "en": "We do the same idea on all the weights of trained neural networks so we can analyze weights of neural networks and we can generate weights of neural networks.",
+      "zh": "我们对训练好的神经网络的所有权重应用同样的想法，所以我们可以分析神经网络的权重，并且我们可以生成神经网络的权重。"
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Unknown",
+      "en": "And can we be much, much faster in creating new weights for particular tasks?",
+      "zh": "并且我们能否在为特定任务创建新权重方面变得非常非常快？"
+    },
+    {
+      "timestamp": "07:05",
+      "speaker": "Unknown",
+      "en": "Problem with neural networks is if you do one update of weights during training, every weight is a little bit different.",
+      "zh": "神经网络的问题在于，如果你在训练中做一次权重更新，每个权重都会有一点点不同。"
+    },
+    {
+      "timestamp": "07:17",
+      "speaker": "Unknown",
+      "en": "If everything is different, nothing is different, right?",
+      "zh": "如果一切都是不同的，就没有什么是不同的，对吧？"
+    },
+    {
+      "timestamp": "13:07",
+      "speaker": "Unknown",
+      "en": "So we're very good at reconstructing the average weights. But the little things that make the difference of having this function working or not, they were so important.",
+      "zh": "所以我们非常擅长重构平均权重。但决定这个功能是否起作用的小差异，它们是如此重要。"
+    },
+    {
+      "timestamp": "13:16",
+      "speaker": "Unknown",
+      "en": "Like when you had generative models for images, the images were always blurry.",
+      "zh": "就像当你有图像的生成模型时，图像总是模糊的。"
+    },
+    {
+      "timestamp": "14:44",
+      "speaker": "Unknown",
+      "en": "He actually said in one of the discussions like, Damian, what you're doing is really interesting, but useless.",
+      "zh": "他实际上在一次讨论中说过，像，Damian，你正在做的事情真的很有趣，但是没用。"
+    },
+    {
+      "timestamp": "24:25",
+      "speaker": "Unknown",
+      "en": "If we scale, scaling alone doesn't help. You need to increase the diversity of the models.",
+      "zh": "如果我们扩展规模，仅靠扩展规模并没有帮助。你需要增加模型的多样性。"
+    },
+    {
+      "timestamp": "27:07",
+      "speaker": "Unknown",
+      "en": "We strip away the weights in reading order very stupidly. There are probably better ways of doing it. So we kind of destroy the metric structure.",
+      "zh": "我们以非常愚蠢的方式按阅读顺序剥离权重。可能有更好的方法来做这件事。所以我们有点破坏了度量结构。"
+    },
+    {
+      "timestamp": "28:27",
+      "speaker": "Unknown",
+      "en": "If you would think about, so let's think about the world where we could train on all this data, a foundation model of neural networks and sample on demand your favorite model, whatever you need, then we would be actually replacing and totally replacing pre-training, right?",
+      "zh": "如果你会思考，所以让我们想象这样一个世界，我们可以训练所有这些数据，一个神经网络的基础模型，并按需采样你最喜欢的模型，无论你需要什么，那么我们将实际上在替换并且完全替换预训练，对吧？"
+    },
+    {
+      "timestamp": "30:44",
+      "speaker": "Unknown",
+      "en": "We're running out of data to train the large models, but we're not using the weights of older models. So why not using the weights, all the knowledge, all the compute that people invested, right?",
+      "zh": "我们正在耗尽数据来训练大模型，但我们没有在使用旧模型的权重。所以为什么不使用权重，所有的知识，人们投入的所有算力，对吧？"
+    },
+    {
+      "timestamp": "32:46",
+      "speaker": "Unknown",
+      "en": "And these smaller models are better than if you would take the original model and do distillation with a teacher's student.",
+      "zh": "而且这些更小的模型比你要是拿原始模型并用老师的学生做蒸馏要好。"
+    },
+    {
+      "timestamp": "34:36",
+      "speaker": "Unknown",
+      "en": "Because that opens up to all the potential data sets that are not on Hugging Face.",
+      "zh": "因为这开辟了所有不在 Hugging Face 上的潜在数据集。"
+    },
+    {
+      "timestamp": "36:45",
+      "speaker": "Unknown",
+      "en": "This machinery could be used for generating neural networks with minimum pre-training or training at all.",
+      "zh": "这种机制可用于生成具有最少预训练或根本没有训练的神经网络。"
+    },
+    {
+      "timestamp": "41:54",
+      "speaker": "Unknown",
+      "en": "But you could also think about not only generating one model, but because it's a forward pass, it's very cheap, you can generate ensembles of models.",
+      "zh": "但你也可以考虑不仅生成一个模型，而且因为它是前向传递，它非常便宜，你可以生成模型集合。"
+    }
+  ],
+  "voice_script": "你敢信吗，训练一个视觉模型，别人花一万两千个GPU小时，有人只花了三百五十个，性能还更好。\n\n这期聊一个听起来特别反直觉，但逻辑又极其直接的技术，叫「权重空间学习」。做这件事的是圣加仑大学的AI教授Damian Borth。\n\n传统思路里，拿数据训练神经网络，最后得到一组权重，这组权重就像神经网络的DNA。大家通常只拿这东西去做推理，最多做做压缩。但Damian想的是另一件事，为什么不把「权重」本身当成一种输入数据，就像语言模型吃文本、图像模型吃像素一样，让另一个模型来「吃权重」？\n\n说白了就是，在互联网所有句子上训练，能学会生成语言；在所有像素上训练，能学会生成图像。那如果在所有已训练神经网络的权重上训练，是不是就能学会分析和生成神经网络的权重？\n\n这个想法从2020年开始做，第一篇论文的做法很朴素。训练一个自编码器，把权重压到低维空间，再重建回来。中间加个对比损失，学一个低维流形。神奇的是，拿这个编码器去处理一个从来没见过的神经网络，不用跑任何测试数据，光看权重就能预测出这个模型的准确率，误差在2个百分点以内。\n\n既然能编码，那能不能解码生成新模型的权重？理论上可以，但实际撞了墙。\n\n自编码器的重建误差很低，但把生成的权重塞回神经网络，模型完全不能用。原因很细思极恐，均方误差衡量的是「平均权重」重建得好不好，但真正决定网络能不能工作的，是那些微小的、高频的差异。就像早期图像生成模型总是糊的，低频信息有了，高频细节全丢了。换成行为损失之后好了一些，但生成的模型还是得微调才能用。\n\n真正的突破来自一个工程技巧。不再把整个模型的权重当一个整体去重建，而是把参数拉成一维长序列，做窗口化处理，只重建每个窗口。这一下就把原始模型的序列和自编码器的序列解耦了，突然就能处理ResNet这种大得多的网络。\n\n有了这个基础，下一步就是直接上真实世界。从Hugging Face上下了两万多个模型，过滤掉没意义的数据，留下两千个通过质量检查的，把权重按阅读顺序拉成一维序列，破坏掉原有的层次结构，再做分词和归一化处理。这里有个反常识的细节，光扩大模型数量没用，必须增加架构、数据集和任务的多样性。\n\n训练出来的骨干网络可以直接采样不同架构的权重。甚至从纯视觉模型集合里，跨领域生成了一个小型的GPT2模型。拿这个当初始化去训练，比从零开始快得多，说明发生了从视觉到语言的知识迁移。\n\n最有说服力的战果是跨域生成。拿一个在ImageNet上训练的视觉Transformer，用编码器解码器直接生成遥感领域的模型权重。生成的遥感模型，性能等同甚至超过当前专门训练的遥感基础模型TeraFM。人家花了一万两千个GPU小时，这边只用了三百五十个，差了二十到三十倍。\n\n逻辑其实很简单，你不需要重新从遥感数据开始训练，因为「怎么做好视觉任务」的知识，已经编码在ImageNet模型的权重里了。从模型到模型，直接跳过了数据这一层。\n\n当然，现在还有个鸡生蛋的问题。生成新模型需要一个「锚点模型」，如果要在同一个领域生成，那既然已经有一个好模型了，为什么还要生成一个？跨域生成天然绕过了这个问题，因为锚点和目标不在一个域，知识迁移是真实的。\n\n但更彻底的解法正在审稿中，叫「数据集提示」。类比CLIP把文本和图像对齐到一个共享空间，把数据集和模型权重也对齐。用户不需要提供一个模型做提示，而是提供自己数据集的嵌入向量，直接跟系统说，给我一个在这个数据上表现好的模型。这还有个巨大的额外好处，就是隐私保护。数据集被压缩成一个嵌入向量后，根本无法反推单条数据。银行、医疗机构这种不能分享数据的机构，只发一个数据集嵌入过来，拿回生成的模型权重就行。\n\n现在大家都在担心高质量训练数据快用完了，都在涌向合成数据。但有一个被忽略的事实是，Hugging Face上已经有海量模型，每个都凝结了大量算力和数据里的知识。这些权重本身就是一种压缩过的数据，却没人拿来当训练素材。\n\n就像那句话说的，不要仅仅把这些权重视为训练过程的终点，如果它们也是下一个过程的起点呢？"
+}

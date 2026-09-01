@@ -9,13 +9,13 @@ cover: "#64748b"
 description: a16z 的两位合伙人畅谈为什么加密行业亟需《清晰法案》以及明确的监管框架。
 host: "[[Robert Hackett]]"
 guests: ["[[Marc Andreessen]]"]
-concepts: ["[[清晰法案]]", "[[稳定币]]", "[[加密货币]]", "[[区块链]]", "[[代币化]]", "[[开源]]"]
+concepts: ["[[清晰法案]]", "[[稳定币]]", "[[加密货币]]", "[[区块链]]", "[[分词]]", "[[开源]]"]
 category: 创业与行业
 tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at#post","headline":"加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at","mainEntityOfPage":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at","description":"a16z 的两位合伙人畅谈为什么加密行业亟需《清晰法案》以及明确的监管框架。","datePublished":"2026-08-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Robert Hackett"},{"@type":"Person","name":"Marc Andreessen"},{"@type":"Thing","name":"清晰法案 (Clarity Act)"},{"@type":"Thing","name":"稳定币 (stablecoin)"},{"@type":"Thing","name":"加密货币 (crypto)"},{"@type":"Thing","name":"区块链 (blockchain)"},{"@type":"Thing","name":"代币化 (tokenization)"},{"@type":"Thing","name":"开源 (open source)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法","item":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at#post","headline":"加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at","mainEntityOfPage":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at","description":"a16z 的两位合伙人畅谈为什么加密行业亟需《清晰法案》以及明确的监管框架。","datePublished":"2026-08-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Robert Hackett"},{"@type":"Person","name":"Marc Andreessen"},{"@type":"Thing","name":"清晰法案 (Clarity Act)"},{"@type":"Thing","name":"稳定币 (stablecoin)"},{"@type":"Thing","name":"加密货币 (crypto)"},{"@type":"Thing","name":"区块链 (blockchain)"},{"@type":"Thing","name":"分词 (tokenization)"},{"@type":"Thing","name":"开源 (open source)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法","item":"https://talk.solomind.cc/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -31,7 +31,7 @@ jsonLd: |
 > [!info] 关联
 > **人物** [[Marc Andreessen]] · [[Robert Hackett]]
 >
-> **概念** [[清晰法案]] · [[稳定币]] · [[加密货币]] · [[区块链]] · [[代币化]] · [[开源]]
+> **概念** [[清晰法案]] · [[稳定币]] · [[加密货币]] · [[区块链]] · [[分词]] · [[开源]]
 
 美国一届政府花了五年时间试图把加密行业弄死,结果这个行业不仅没死,还长到了每季度数万亿美元的规模。说这话的人是 Mark Andreessen,他和另一位 a16z 合伙人 Chris Dixon 坐在一起,聊的是国会正在推进的一项名为《[[清晰法案|清晰法案]]》的市场结构立法——这可能是决定[[区块链|区块链]]技术在美国到底是长大还是出走的关键一步 <button class="pd-ts" data-t="13:19" data-who="Mark Andreessen" data-en="Yeah, so, you know, we've been in this just kind of bizarre twilight state for the last several years, you know, where sort of crypto was developing, you know, largely without rules, you know, for better or for worse, in kind of, you know, what I would describe as sort of experimental ways, you know, between sort of inception through 2020." aria-label="回原文"></button>。
 
@@ -43,7 +43,7 @@ jsonLd: |
 
 他当时的一个判断如今看来很准:我们仍处于采用曲线的起点,大多数人还没开始了解和接触它。唯一需要修正的,是文章里每次写到的 Bitcoin(比特币),如今都该换成整个加密行业——那时候它基本是镇上唯一的游戏,后来才有了以太坊和各种新区块链平台 <button class="pd-ts" data-t="05:35" data-who="Mark Andreessen" data-en="And so I think if you read that piece, you'll see that I projected many of the use cases and the future development of the technology, but it took a different path." aria-label="回原文"></button>。
 
-快进到今天,情况已经完全不同。每一天你都能看到大银行或金融科技公司宣布涉足[[稳定币|稳定币]]或[[代币化|代币化]]资产的平台。
+快进到今天,情况已经完全不同。每一天你都能看到大银行或金融科技公司宣布涉足[[稳定币|稳定币]]或[[分词|代币化]]资产的平台。
 
 稳定币(锚定法币价值、发行在区块链上的加密货币)现在的交易规模已经可以和 Visa 网络媲美,一个具体场景是:你可以打开 WhatsApp 用它给世界任何地方几乎免费地汇款,就像发一条短信那样 <button class="pd-ts" data-t="07:05" data-who="Chris Dixon" data-en="The stablecoin volume, so, you know, stablecoins, for those who don't know, are basically what Mark described with Bitcoin, except they're dollars on blockchains." aria-label="回原文"></button>。三年前同样一笔链上交易可能要花几美元甚至几十美元,而现在在主流区块链上,结算不到一秒、花费不到一美分。
 

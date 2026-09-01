@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"AEO":3,"SEO":4,"RAG":6,"LLM":22,"citation":1,"AI 生成内容":1,"Webflow":2,"ChatGPT":41,"Google":33}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"AEO":3,"SEO":4,"RAG":6,"LLM":22,"citation":1,"AI 生成内容":1,"Webflow":2,"ChatGPT":42,"Google":33}</script>
 
 <script>
 (function(){

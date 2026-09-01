@@ -51,11 +51,9 @@
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
   },
-  "audioWanted": {
-    "2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin": "https://api.substack.com/feed/podcast/212924577/37a4efe4f921303b5ec4f6e7b7bf82e6.mp3"
-  },
+  "audioWanted": {},
   "cutoffs": {
-    "lennys": "2026-08-30T12:31:30.000Z",
+    "lennys": "2026-08-31T12:04:18.000Z",
     "pg": "2026-08-28T22:38:13.000Z",
     "a16z": "2026-08-30T10:00:00.000Z",
     "yc": "2026-08-29T13:00:00.000Z",
@@ -547,6 +545,12 @@
       "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
       "title": "In 5 to 10 Years, Using Weapons Without AI Will Be Considered Unethical | Yaroslav Azhnyuk, The Fourth Law",
       "pubDate": "2026-08-31T17:28:00.000Z"
+    },
+    {
+      "id": "2026-06-02-ainativedev-why-developers-hit-a-wall-at-4-ai-agents",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Why Developers Hit a Wall at 4 AI Agents",
+      "pubDate": "2026-06-02T12:00:00.000Z"
     }
   ]
 }
