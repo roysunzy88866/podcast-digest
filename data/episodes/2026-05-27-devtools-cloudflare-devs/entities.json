@@ -1,0 +1,655 @@
+{
+  "episode_id": "2026-05-27-devtools-cloudflare-devs",
+  "podcast": "Scaling DevTools",
+  "date": "2026-05-27",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "代码执行",
+    "Cloudflare",
+    "MCP"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "sunil-pai",
+      "type": "person",
+      "role": "host",
+      "name": "Sunil Pai",
+      "file": "Sunil Pai",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "thomas-ankcorn",
+      "type": "person",
+      "role": "guest",
+      "name": "Thomas Ankcorn",
+      "file": "Thomas Ankcorn",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "matt-carey",
+      "type": "person",
+      "role": "guest",
+      "name": "Matt Carey",
+      "file": "Matt Carey",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": true,
+      "how_described": "本集三位对话者均来自 Cloudflare，讨论了在 Cloudflare Worker 上运行编码智能体、通过 Cloudflare 保护家庭设备连接等实践",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            9.5199995
+          ],
+          "quote": "Hi, everyone. We're at AI Engineers Europe in London with all of the Cloudflare lads. Woo. Cloudflare. Sunil Thomas and Matt.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 19,
+          "t": [
+            164.395,
+            185.21
+          ],
+          "quote": "And then the second thing is being able to, like, remote bash into your home lab and stick that behind MCP and play it in your Clord code is really powerful. Have a open source package for Barry that lets you do this secured by Cloudflare, but it's kind of use that as inspiration and, like, expose all your computers at home to Clord and, like, build things.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 25,
+          "t": [
+            233.31,
+            246.595
+          ],
+          "quote": "Two things, by the way. You cannot have Cloudflare people with a mic in front of them and not talk about slop folks. Are you just our brand now, apparently? Second, am I right that your partner keeps disconnecting it to put the kettle on?",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 27,
+          "t": [
+            256.93997,
+            266.69998
+          ],
+          "quote": "Oh, another thing. By the way, we have been trying to bully Mario into making sure that the Pi coding agent runs natively on workers. Like, not even in container. We are gonna make it work on, like, Cloudflare Worker.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 49,
+          "t": [
+            431.38,
+            448.935
+          ],
+          "quote": "For the last thirty years, we have been told to never evaluate a random code. Yeah. Which means there's this entire branch of the tech tree that's been, like, unexplored. So this is, like, day one for, like, code mode, and we we suspect that there's no way that it remains a Cloudflare only thing. I suspect every provider is going to be this.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 52,
+          "t": [
+            480.565,
+            488.91
+          ],
+          "quote": "Yeah. And, Thomas, you're working on observability at Cloudflare. Are you seeing the same are you thinking about the same stuff?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 53,
+          "t": [
+            489.63,
+            500.885
+          ],
+          "quote": "Yeah. So working on observability at Cloudflare is interesting. You get have to touch, like, a a ton of different repos at Cloudflare. You have to add things to work a d r runtime. You have to add things to our control planes.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 58,
+          "t": [
+            538.69995,
+            547.1
+          ],
+          "quote": "You say that, but Tom is famously easily top five nicest people in Cloudflare. Oh. And I'm telling you, there's no one from management in that list. No.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 71,
+          "t": [
+            646.005,
+            660.67
+          ],
+          "quote": "And you now have to like so Cloudflare does a lot of things at scale, but we now have to tolerate our own scale back at us. It's like the planetary computer is going to start attacking itself. I'm",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 73,
+          "t": [
+            661.95,
+            667.95
+          ],
+          "quote": "think, that ties, like, code mode, MCP, observability, and all the other things we're doing in Cloudflare. We're just finishing the loop.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 74,
+          "t": [
+            668.565,
+            678.645
+          ],
+          "quote": "And I think my team, we're behind here, and we need to catch up. So I think you're gonna see a lot of things from the observability at Cloudflare's team this year. We're we're gonna be Next week, in fact.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 80,
+          "t": [
+            690.62994,
+            697.58997
+          ],
+          "quote": "Yeah. Well, I heard you guys, like it's always like the clues are there, isn't it? Like, you're not we think there was someone from Cloudflare said that.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            705.155,
+            722.88
+          ],
+          "quote": "She is amazing. But Shout out, Jane. Yeah. The week before we have any big releases, there are spoil some spoilers, small spoilers. But the the good thing about how we do releases at Cloudflare is we we normally collect a huge amount of releases into a short period of time, and so it's sort of like rapid fire.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "seg": 94,
+          "t": [
+            834.41,
+            859.5
+          ],
+          "quote": "I I think pretty much everything I ever built before joining Cloudflare, I ever engineered for the models because they they just weren't good enough in that moment. It's very hard to build something and just, like, know that you're gonna finish it, and it's not gonna work. And that feels like a really weird moment. But I think now the foundation of models are so good that actually if it doesn't work, you should be trying to find a way to make it work while still keeping it as light as possible.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "seg": 107,
+          "t": [
+            958.1,
+            963.54
+          ],
+          "quote": "Yeah. Do dumb stuff. That's the Cloudflare line. Do dumb stuff. We we endorse that message.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 108,
+          "t": [
+            964.42,
+            967.62
+          ],
+          "quote": "On Cloudflare. Do dumb stuff on Cloudflare, would you say?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 109,
+          "t": [
+            967.62,
+            973.415
+          ],
+          "quote": "I mean, yeah. Like, it's you should absolutely put on Cloudflare. But just do dumb stuff. Yeah. Like, leave the hard stuff to us.",
+          "speaker": "Speaker 4"
+        }
+      ]
+    },
+    {
+      "id": "code-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "code mode",
+      "file": "code mode",
+      "primary": true,
+      "how_described": "本集说 code mode 的理念是只暴露一个代码工具，让模型自己写代码去调 API 和外部服务，而不是给模型堆一堆静态工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            130.905,
+            140.105
+          ],
+          "quote": "Amazing. Okay. What technologies are you excited about in particular? I know, like, Sunil, you did your talk on code mode, and I know, Matt, you're doing I've missed your one. But",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 16,
+          "t": [
+            140.265,
+            141.785
+          ],
+          "quote": "MCP in code mode. MCP",
+          "speaker": "Speaker 2"
+        },
+        {
+          "seg": 17,
+          "t": [
+            141.785,
+            148.66
+          ],
+          "quote": "in code mode. And Thomas is also very excited about we the separate thing that we've been we're gonna come to. But",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 44,
+          "t": [
+            346.28,
+            356.76
+          ],
+          "quote": "Yeah. Yeah. But that's also something about how you've been doing, like, code mode and the MCP's that, Matt, you felt of, like, that kind of simple interface.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 45,
+          "t": [
+            357.495,
+            381.11002
+          ],
+          "quote": "I guess, like, the idea of code mode is that we just let the model write code, and we try and reduce the amount of static tools that we expose to the model because everyone adds context normally in in each agent. And instead of that, we just expose normally that one code tool or, like, you can name it whatever you want. And just let the model write code against an API and external service, like, whatever you want. Just let the model write code.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "seg": 49,
+          "t": [
+            431.38,
+            448.935
+          ],
+          "quote": "For the last thirty years, we have been told to never evaluate a random code. Yeah. Which means there's this entire branch of the tech tree that's been, like, unexplored. So this is, like, day one for, like, code mode, and we we suspect that there's no way that it remains a Cloudflare only thing. I suspect every provider is going to be this.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 69,
+          "t": [
+            607.54004,
+            629.80005
+          ],
+          "quote": "I love steak, bro. Okay. Amazing. And then just kind of tying it together, like, the MCVs with and code mode with observability, that's something that's like where there's, like, massive amounts of data and context and stuff. Like, is there something that you kind of think about together, and, like, are there any things that",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            661.95,
+            667.95
+          ],
+          "quote": "think, that ties, like, code mode, MCP, observability, and all the other things we're doing in Cloudflare. We're just finishing the loop.",
+          "speaker": "Speaker 4"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说通过 MCP 把家庭实验室的设备暴露给 Claude，让编码智能体能远程 bash 进你的机器并执行操作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            140.265,
+            141.785
+          ],
+          "quote": "MCP in code mode. MCP",
+          "speaker": "Speaker 2"
+        },
+        {
+          "seg": 19,
+          "t": [
+            164.395,
+            185.21
+          ],
+          "quote": "And then the second thing is being able to, like, remote bash into your home lab and stick that behind MCP and play it in your Clord code is really powerful. Have a open source package for Barry that lets you do this secured by Cloudflare, but it's kind of use that as inspiration and, like, expose all your computers at home to Clord and, like, build things.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 44,
+          "t": [
+            346.28,
+            356.76
+          ],
+          "quote": "Yeah. Yeah. But that's also something about how you've been doing, like, code mode and the MCP's that, Matt, you felt of, like, that kind of simple interface.",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            661.95,
+            667.95
+          ],
+          "quote": "think, that ties, like, code mode, MCP, observability, and all the other things we're doing in Cloudflare. We're just finishing the loop.",
+          "speaker": "Speaker 4"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论 coding agent（编码智能体），指出过去三十年程序员被教导不要执行随机代码，而现在让智能体写代码并执行成了关键交互方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            148.9,
+            164.395
+          ],
+          "quote": "I've got two things I'd like to shout out. First is PyAgent. That's like my agent coding agent of choice now. It's just insanely fast and simple and, like, the things you can build with it. You can build the same things as core code and open code, but if you want a good time, use PyAgent.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 27,
+          "t": [
+            256.93997,
+            266.69998
+          ],
+          "quote": "Oh, another thing. By the way, we have been trying to bully Mario into making sure that the Pi coding agent runs natively on workers. Like, not even in container. We are gonna make it work on, like, Cloudflare Worker.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 32,
+          "t": [
+            288.91,
+            292.43
+          ],
+          "quote": "I I I think people anyone making a coding agent should steal Pis2e's.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "seg": 36,
+          "t": [
+            306.705,
+            318.55002
+          ],
+          "quote": "Read, write, bash Edit. Edit. And it has this concept of extensions where if you want to add a feature to the coding agent, you just tell it to build it itself. Incredible. Just a This is",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 38,
+          "t": [
+            323.59,
+            327.99002
+          ],
+          "quote": "I mean, I love Pi. Like, I do think it's the best named coding agent. Of course.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 45,
+          "t": [
+            357.495,
+            381.11002
+          ],
+          "quote": "I guess, like, the idea of code mode is that we just let the model write code, and we try and reduce the amount of static tools that we expose to the model because everyone adds context normally in in each agent. And instead of that, we just expose normally that one code tool or, like, you can name it whatever you want. And just let the model write code against an API and external service, like, whatever you want. Just let the model write code.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "seg": 46,
+          "t": [
+            381.19,
+            388.475
+          ],
+          "quote": "Yeah. Is it it feels like is this kind of a is there, like, some kind of agent experience, developer experience principles in there, in a way?",
+          "speaker": "Speaker 1"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说通过 MCP 可以把你卧室里的树莓派变成一个持久的沙箱，它不像临时容器那样用完就销毁，而是一直在线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            185.495,
+            200.92
+          ],
+          "quote": "Thomas was telling me, he was like, this is this thing is so awesome. This thing is so awesome. Like, look. I'm just in the Claude app, and I'm using my Nord, like, Claude subscription or whatever, and I can I have this persistent sandbox that is my Raspberry Pi in my bedroom? I And was like, that's cool.",
+          "speaker": "Speaker 2"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说可观测性与 code mode、MCP 三者拼在一起能形成闭环，实现自愈、自调整的基础设施，不用再担心谁半夜改错配置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            480.565,
+            488.91
+          ],
+          "quote": "Yeah. And, Thomas, you're working on observability at Cloudflare. Are you seeing the same are you thinking about the same stuff?",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 53,
+          "t": [
+            489.63,
+            500.885
+          ],
+          "quote": "Yeah. So working on observability at Cloudflare is interesting. You get have to touch, like, a a ton of different repos at Cloudflare. You have to add things to work a d r runtime. You have to add things to our control planes.",
+          "speaker": "Speaker 3"
+        },
+        {
+          "seg": 69,
+          "t": [
+            607.54004,
+            629.80005
+          ],
+          "quote": "I love steak, bro. Okay. Amazing. And then just kind of tying it together, like, the MCVs with and code mode with observability, that's something that's like where there's, like, massive amounts of data and context and stuff. Like, is there something that you kind of think about together, and, like, are there any things that",
+          "speaker": "Speaker 1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            661.95,
+            667.95
+          ],
+          "quote": "think, that ties, like, code mode, MCP, observability, and all the other things we're doing in Cloudflare. We're just finishing the loop.",
+          "speaker": "Speaker 4"
+        },
+        {
+          "seg": 74,
+          "t": [
+            668.565,
+            678.645
+          ],
+          "quote": "And I think my team, we're behind here, and we need to catch up. So I think you're gonna see a lot of things from the observability at Cloudflare's team this year. We're we're gonna be Next week, in fact.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "pie",
+      "type": "company",
+      "role": "company",
+      "name": "pie",
+      "file": "pie",
+      "primary": true,
+      "how_described": "本集说 Pi 是一个编码智能体工具，TUI 终端界面极其流畅，库非常小，整个理念是做得非常少、只有四个工具（read、write、bash、edit）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            34.940002,
+            42.54
+          ],
+          "quote": "We have the pie guy. Yeah. There's, like, loads of people that you look around, like, oh my god. That's sick. And the talks have been really, really good.",
+          "speaker": "Speaker 2"
+        },
+        {
+          "seg": 26,
+          "t": [
+            246.75499,
+            256.755
+          ],
+          "quote": "Not to put the kettle on. Just when she wants to plug her laptop in. So I'm on top of my pie from the USB C connection. I'm like, no. So hopefully, that doesn't happen today when I'm showing people it.",
+          "speaker": "Speaker 3"
+        }
+      ]
+    },
+    {
+      "id": "tool-call",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具调用 (tool call)",
+      "file": "工具调用",
+      "primary": false,
+      "how_described": "本集提到 code mode 最初的想法不是通过工具调用实现的，而是在开源模型真正擅长工具调用之前的时代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            449.01498,
+            468.51
+          ],
+          "quote": "Well, we borrowed the idea also from from Apple originally. Like, there was a there was a yeah. Was codec paper called something like let it wasn't called let the model write code, but it was called something around that where they they they were getting the model to write Python, and then they were evaluating the Python as the output. So it wasn't exactly the same. It wasn't through a tool call.",
+          "speaker": "Speaker 2"
+        }
+      ]
+    },
+    {
+      "id": "foundational-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础模型 (foundational models)",
+      "file": "基础模型",
+      "primary": false,
+      "how_described": "本集说现在所有基础模型都足够好了，通过工具池让模型写代码这条路变得非常可行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            468.51,
+            480.40503
+          ],
+          "quote": "It was, like, pre open source models being really good at tool calling actually. And it was pre them being really good at Python actually, so it was quite rubbish. But I think now all the foundational models are good enough that doing all of this through a tool pool is amazing.",
+          "speaker": "Speaker 2"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-worker",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cloudflare Worker",
+      "file": "Cloudflare Worker",
+      "primary": false,
+      "how_described": "本集说他们正试图让 Pi 编码智能体原生运行在 Cloudflare Worker 上，连容器都不需要",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            256.93997,
+            266.69998
+          ],
+          "quote": "Oh, another thing. By the way, we have been trying to bully Mario into making sure that the Pi coding agent runs natively on workers. Like, not even in container. We are gonna make it work on, like, Cloudflare Worker.",
+          "speaker": "Speaker 4"
+        }
+      ]
+    },
+    {
+      "id": "raspberry-pi",
+      "type": "concept",
+      "role": "concept",
+      "name": "树莓派 (Raspberry Pi)",
+      "file": "树莓派",
+      "primary": false,
+      "how_described": "本集说 Thomas 通过 MCP 把卧室里的树莓派变成了 Claude 的持久沙箱，甚至能在上面跑磁盘操作工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            185.495,
+            200.92
+          ],
+          "quote": "Thomas was telling me, he was like, this is this thing is so awesome. This thing is so awesome. Like, look. I'm just in the Claude app, and I'm using my Nord, like, Claude subscription or whatever, and I can I have this persistent sandbox that is my Raspberry Pi in my bedroom? I And was like, that's cool.",
+          "speaker": "Speaker 2"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到在 Claude app 中通过 MCP 连接家庭设备作为持久沙箱使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            185.495,
+            200.92
+          ],
+          "quote": "Thomas was telling me, he was like, this is this thing is so awesome. This thing is so awesome. Like, look. I'm just in the Claude app, and I'm using my Nord, like, Claude subscription or whatever, and I can I have this persistent sandbox that is my Raspberry Pi in my bedroom? I And was like, that's cool.",
+          "speaker": "Speaker 2"
+        }
+      ]
+    },
+    {
+      "id": "self-healing-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "自愈基础设施 (self healing infrastructure)",
+      "file": "自愈基础设施",
+      "primary": false,
+      "how_described": "本集说把 code mode、MCP、可观测性连接起来就能实现自愈基础设施，不用担心有人在凌晨三点做错误配置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            630.36005,
+            645.285
+          ],
+          "quote": "Oh, you you you that's how we are going to establish the loop. Right? Yeah. That's how, like, you connect the entire loop, and you have, like, self healing infrastructure, self adjusting infrastructure. You don't have to worry about some kid making the wrong config change at like three in the morning.",
+          "speaker": "Speaker 4"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

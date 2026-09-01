@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[Theo Jaffe]] · [[Harry Stebbings]] · [[Sofia Puccini]] · [[Eno Reyes]] · [[Steven Sinofsky]] · [[Factory]] · [[precautionary principle]] · [[OpenAI]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":86,"Theo Jaffe":5,"Harry Stebbings":7,"Sofia Puccini":3,"Eno Reyes":1,"Steven Sinofsky":2,"Factory":2,"precautionary principle":1,"OpenAI":74,"开源":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":87,"Theo Jaffe":5,"Harry Stebbings":7,"Sofia Puccini":3,"Eno Reyes":1,"Steven Sinofsky":2,"Factory":2,"precautionary principle":1,"OpenAI":76,"开源":9}</script>
 
 <script>
 (function(){

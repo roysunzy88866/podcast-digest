@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Neoclouds":1,"Fireworks":3,"前沿模型":6,"开源模型":4,"沙箱":33,"智能体":1,"推理":3,"GPU":10,"持续学习模型":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Neoclouds":1,"Fireworks":3,"前沿模型":6,"开源模型":4,"沙箱":35,"智能体":1,"推理":4,"GPU":10,"持续学习模型":1}</script>
 
 <script>
 (function(){

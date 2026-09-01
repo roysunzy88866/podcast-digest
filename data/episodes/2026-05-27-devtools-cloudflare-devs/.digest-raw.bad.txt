@@ -1,0 +1,96 @@
+===标题===
+Cloudflare 三人聊：让模型直接写代码、做点傻事
+===导语===
+Cloudflare 的 Sunil、Matt 和 Thomas 在 AI Engineers Europe 现场聊 code mode 理念、编码智能体体验，以及为什么该「做点傻事」。
+===正文===
+这一集是 Cloudflare 的三个工程师——Sunil、Matt 和 Thomas——在伦敦 AI Engineers Europe 会议现场的闲聊，聊的是他们正在做的事和对 AI 工程的看法。
+
+## Code Mode：别给模型一堆工具，让它直接写代码
+
+Sunil 做 code mode 的核心理念很简单：不要给模型暴露一堆静态工具，而是只给一个代码工具，让模型自己写代码去调 API、调外部服务。过去三十年，程序员被教育「永远不要执行一段随机代码」——这意味着整个技术方向根本没人探索过。现在基础模型的能力够强了，这条路终于走得通了。
+
+这个想法最早是借了 Apple 的一篇论文的思路——让模型写 Python 然后直接执行，只是当时模型还不太会写 Python、也不太会做工具调用，效果很差。现在不一样了。Matt 认为这不只是 Cloudflare 会做的事，每个云提供者最终都会走到这一步 [06:55 Matt Carey]。
+
+## 编码智能体的体验：越简单越好
+
+Thomas 最兴奋的两件事：一是 PyAgent，一个极其轻量的编码智能体，只有 read、write、bash、edit 四个工具，但它有一个「扩展」机制——你想加功能，直接让智能体自己写。二是把家里的树莓派通过 MCP 接到 Claude 里当持久沙箱用，换机器也不丢状态 [02:28 Thomas Ankcorn]。
+
+Sunil 特别夸了 PyAgent 的终端界面（TUI），觉得比 Claude Code 和 OpenCode 都流畅，而且库本身非常小，做编码智能体的人都该抄它的界面 [04:28 Sunil Pai]。
+
+## 可观测性 + code mode = 自愈基础设施
+
+把 MCP、code mode 和可观测性串起来，能形成一个闭环：基础设施出了问题，智能体自己写代码去修，不需要人在凌晨三点起来改配置。Thomas 说他的可观测性团队在这条线上还落后，今年会追上来 [10:30 Matt Carey] [11:08 Thomas Ankcorn]。
+
+Thomas 还提到一个现实问题：现在用智能体给 Cloudflare 内部各种仓库提 PR 变得特别容易，但难点变成了「怎么让仓库维护者信任你、愿意合并你的 PR」。他说现在的工作重心变成了跟人搞好关系 [08:09 Thomas Ankcorn]。
+
+## 做点傻事，别过度工程
+
+Thomas 的建议很直白：看到别人做了个很聪明的东西，别想着怎么复刻，去做个更蠢的版本然后扔出去。他自己就做了一个 Matt 的 MCP 服务器的简陋版，很不安全，但能用 [12:51 Thomas Ankcorn]。
+
+Sunil 补了一层更深的道理：过去四年他每三四个月就被模型升级「烧伤」一次——辛辛苦苦为模型能力不足而做的工程补丁，模型一升级就全废了。所以现在的原则是：东西能做简单就做简单、能保持轻量就保持轻量，别过度工程 [13:13 Sunil Pai]。
+
+Matt 的两个期望：一是别再拿 AI 去做增量式的 B2B SaaS 了，想做就做有野心的、原创的东西；二是多做一些消费级的、好玩的、怪的东西 [14:19 Matt Carey]。
+
+## 本集带走
+
+- **code mode 的核心做法**：不给模型一堆工具，只给一个代码工具，让它自己写代码去完成所有操作
+- **编码智能体选型参考**：PyAgent 只有四个工具，但通过「让智能体自己写扩展」来补功能，终端体验特别好
+- **把家里设备接进智能体**：通过 MCP 把树莓派等设备暴露给 Claude，获得一个跨机器持久存在的沙箱环境
+- **别为模型短板做过度工程**：模型每几个月就升级一次，你为「模型不够好」做的复杂补丁很快就会被淘汰，保持简单和轻量
+- **做蠢版本**：看到聪明的东西，先做个更蠢的版本丢出去试，别一上来就想做完美的
+
+===金句===
+00:05 Matt Carey | For me, the big highlight about AI engineer, other than the great talks and the companies and individuals, is the quality of gossip is incredible.
+ZH | 对我来说，AI 工程师大会除了精彩的演讲、公司和个人之外，最大的亮点是八卦的质量令人难以置信。
+
+01:29 Matt Carey | I think gossip is a leading indicator of how good a conference is. If you don't have good sources of gossip, that means the attendance is not good.
+ZH | 我认为八卦是一个会议有多好的领先指标。如果你没有好的八卦来源，那就意味着出席情况不好。
+
+02:28 Thomas Ankcorn | First is PyAgent. That's like my agent coding agent of choice now. It's just insanely fast and simple and, like, the things you can build with it.
+ZH | 首先是 PyAgent。那就像我现在选择的智能体编码智能体。它快得惊人且简单，而且你可以用它构建的东西。
+
+05:00 Matt Carey | The entire philosophy of Py is that it does very, very little. Like, it has, like, four tools.
+ZH | Py 的整个理念是它做得非常非常少。就像，它有四个工具。
+
+05:06 Matt Carey | It has this concept of extensions where if you want to add a feature to the coding agent, you just tell it to build it itself.
+ZH | 它有这个扩展的概念，如果你想给编码智能体添加一个功能，你只需告诉它自己构建它。
+
+05:57 Sunil Pai | The idea of code mode is that we just let the model write code, and we try and reduce the amount of static tools that we expose to the model.
+ZH | code mode 的理念就是我们让模型写代码，我们尝试减少暴露给模型的静态工具数量。
+
+06:55 Matt Carey | For the last thirty years, we have been told to never evaluate a random code. Which means there's this entire branch of the tech tree that's been, like, unexplored.
+ZH | 在过去的三十年里，我们被告知永远不要求值一段随机代码。这意味着科技树的整个分支一直未被探索。
+
+07:11 Matt Carey | I suspect every provider is going to be this.
+ZH | 我怀疑每个提供者都会变成这样。
+
+08:47 Thomas Ankcorn | The hard part has become being trusted to contribute to these repos and then finding people and building relationships with the maintainers of these repos.
+ZH | 困难的部分变成了被信任去为这些仓库做贡献，然后找人，和这些仓库的维护者建立关系。
+
+10:30 Matt Carey | That's how you connect the entire loop, and you have self healing infrastructure, self adjusting infrastructure.
+ZH | 这就是你连接整个闭环的方式，然后你有自愈基础设施，自调整基础设施。
+
+10:46 Matt Carey | We now have to tolerate our own scale back at us. It's like the planetary computer is going to start attacking itself.
+ZH | 我们现在必须忍受我们自己的规模反作用于我们。就像行星计算机将开始攻击自己一样。
+
+12:51 Thomas Ankcorn | Build a dumber version and just put it out there and try and do things with it.
+ZH | 构建一个更愚蠢的版本然后把它放在那里，试着用它做事情。
+
+13:13 Sunil Pai | I've been burned every six months every three months, I think, for the last four years. As the models get better.
+ZH | 我想在过去四年里，我每六个月每三个月就被烧伤一次。随着模型变得更好。
+
+13:54 Sunil Pai | Pretty much everything I ever built before joining Cloudflare, I ever engineered for the models because they just weren't good enough in that moment.
+ZH | 几乎所有我在加入 Cloudflare 之前构建过的东西，我都在为模型做工程设计，因为它们在那一刻不够好。
+
+14:19 Matt Carey | I need people to start being original and courageous. Like, don't do an incremental, stop trying to build SaaSes.
+ZH | 我需要人们开始变得有原创性和勇气。别做增量式的，停止尝试构建 SaaS。
+
+14:37 Matt Carey | It's worrying me that AI researchers with hundreds of millions of dollars are buying houses in New Zealand. Like, there's some an apocalypse coming, and they were going to the farthest edge of the planet.
+ZH | 这让我担心，拥有数亿美元的 AI 研究人员正在新西兰买房。像是有末日即将来临，他们正在去地球的最边缘。
+
+15:58 Matt Carey | Do dumb stuff. That's the Cloudflare line. Do dumb stuff. We endorse that message.
+ZH | 做点傻事。那是 Cloudflare 的口号。做点傻事。我们认可那句话。
+
+16:07 Matt Carey | Just do dumb stuff. Like, leave the hard stuff to us.
+ZH | 就做点傻事。把难做的事留给我们。
+===END===

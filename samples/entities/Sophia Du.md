@@ -22,7 +22,7 @@ unlisted: true
 
 [[Ruby Thelot]] · [[Martin Casado]] · [[Sophia Puccini]] · [[Theo Jaffe]] · [[网络民族志学]] · [[OpenRouter]] · [[响亮的少数派]] · [[Cursor]] · [[多元文化]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Ruby Thelot":1,"Martin Casado":3,"Sophia Puccini":1,"Theo Jaffe":5,"网络民族志学":1,"OpenRouter":7,"响亮的少数派":1,"Cursor":41,"多元文化":1,"OpenAI":74}</script>
+<script type="application/json" class="pd-epn">{"Ruby Thelot":1,"Martin Casado":3,"Sophia Puccini":1,"Theo Jaffe":5,"网络民族志学":1,"OpenRouter":7,"响亮的少数派":1,"Cursor":41,"多元文化":1,"OpenAI":76}</script>
 
 <script>
 (function(){

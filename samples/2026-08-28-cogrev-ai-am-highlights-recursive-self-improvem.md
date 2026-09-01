@@ -128,7 +128,7 @@ Prakash 认为算力受限的中国公司会更早发现，因为它们会紧密
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同概念:RL、智能体 (agent)</span>
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同概念:RL、智能体 (agent)</span>
-- [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同概念:智能体 (agent)、后训练 (post-training)、推理 (inference)</span>
+- [[2026-09-01-dwarkesh-ajeya-cotra|千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋]]<span class="pd-rz">同概念:RL、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

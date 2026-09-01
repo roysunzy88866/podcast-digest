@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cloudflare Worker</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cloudflare Worker">CL</div><div class="pi"><h1 class="pt">Cloudflare Worker</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cloudflare Worker">CL</div><div class="pi"><h1 class="pt">Cloudflare Worker</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-05-27-devtools-cloudflare-devs|《Cloudflare 三人聊：让模型直接写代码，别再堆工具了》]]**(04:16起):本集说他们正试图让 Pi 编码智能体原生运行在 Cloudflare Worker 上，连容器都不需要
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(00:09起):本集把它说成一种在云端运行的轻量级代码执行环境，极简技术栈的核心，团队仅靠它来跑实际的智能体循环。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-05-27-devtools-cloudflare-devs|《Cloudflare 三人聊：让模型直接写代码，别再堆工具了》]] — 作为概念(提及)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claire Vo]] · [[Eddie Kim]] · [[Gusto]] · [[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Vercel AI SDK]] · [[Claude Code]]
+[[智能体]] · [[Sunil Pai]] · [[Claire Vo]] · [[Thomas Ankcorn]] · [[Eddie Kim]] · [[Matt Carey]] · [[Gusto]] · [[Cloudflare]] · [[联合创始人]] · [[code mode]]
 
-<script type="application/json" class="pd-epn">{"Claire Vo":4,"Eddie Kim":1,"Gusto":1,"联合创始人":2,"vibe coding":25,"永久 Zoom":1,"智能体":1,"垃圾桶法":1,"Vercel AI SDK":2,"Claude Code":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Sunil Pai":1,"Claire Vo":4,"Thomas Ankcorn":1,"Eddie Kim":1,"Matt Carey":1,"Gusto":1,"Cloudflare":8,"联合创始人":2,"code mode":2}</script>
 
 <script>
 (function(){

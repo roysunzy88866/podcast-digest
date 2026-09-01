@@ -1,0 +1,136 @@
+{
+  "title_zh": "让AI替你操作电脑和浏览器的三个实战用法",
+  "tldr": "How I AI 主持人演示如何用 Codex 的浏览器和计算机控制功能，完成自动QA测试、角色化产品调研和个人购物。",
+  "digest_md": "这一集是 How I AI 的主持人，聊她怎么让 AI 直接操控电脑和浏览器来替她干活——不是聊天，是真的控制鼠标键盘、点网页、填表单。她说这个功能是她每天每分钟都在用的、最改变生活的 AI 特性之一 `[02:45 Unknown]`。\n\n要跑起来很简单：装好 ChatGPT 或 Claude 的桌面应用，再在 Chrome 里装上对应的浏览器扩展就行。在 Codex 里有三种调用方式——`@browser` 会弹出侧边浏览器窗口，`@Chrome` 用 Chrome 扩展直接操控你正在用的浏览器，`@computer` 则能控制整台电脑 `[10:15 Unknown]`。但关键不在怎么调，在于你拿它干什么。\n\n## 用浏览器做 QA：比人更详尽、更无情\n\n第一个场景是给做产品的人用的：让 AI 用浏览器跑一遍你的 Web 应用，做可用性测试。具体做法是，在本地跑着应用的前提下，告诉 Codex「用浏览器测试引导流程的可用性和移动端响应性，过程中截图，把发现的问题做成一个 Google 表格」`[05:34 Unknown]`。\n\n它会启动浏览器技能，那个发光的小游标就会自己跑到浏览器那边，一步步走完整个流程——填表单、点下拉菜单、切换视口大小、测桌面端再测移动端。人做 QA 的时候容易偷懒，只走「快乐路径」（每个必填项都填对、点下一步），但它不会：它会故意不填必填字段看会不会报错，会测错误状态，会查可访问性、溢出、触摸目标大小这些你可能草草略过的东西 `[07:01 Unknown]`。\n\n她举了个真实的例子：她的产品上线已久的引导流程，一直没发现一个 bug——有个页面不选任何选项也能点「继续」，但实际上那个字段是必填的，只是没有前端校验代码，点了也不会往下走。这个 bug 存在的原因就是她自己测试时总是老老实实点了选项。AI 一跑就暴露出来了，因为它会主动测试失败状态 `[09:20 Unknown]`。\n\n跑完之后它找到了 11 个问题，包括 1 个高严重性的导航阻塞项，自动生成了带优先级的 Google 表格，每个问题都附上了截图、视口信息、复现步骤和修复建议。她接着可以直接拿这个表格当跟踪器，派子智能体去逐个修复 `[10:42 Unknown]`。\n\n一个小提示：对这些新模型，「低提示」（少给具体指令）比「过度提示」（列出 25 条要测的东西）效果更好。直接说「QA 这个流程」，让它自己动脑筋定计划，反而更详尽 `[08:01 Unknown]`。\n\n## 角色扮演式产品调研：让 AI 变成你的用户\n\n第二个场景是她丈夫想出来的：让 AI 扮演特定角色来用你的产品，然后以那个角色的身份给你写调研报告。比如她给 ChatPRD 设了三个角色——一个刚开完会要快速写 PRD 的产品经理、一个要拿 PRD 出技术规范和原型的工程师、一个想了解团队怎么用这个工具的团队负责人。指令就这些，不加更多细节，让它自己走完三遍流程，最后写一份研究风格的评论，包括摩擦点、令人愉悦的地方和改进建议 `[12:40 Unknown]`。\n\n这个做法有意思的地方在于，它能发现一些「显而易见但你自己看不到」的摩擦点。比如它以工程师角色接手 PM 创建的文档时，暴露了一个结构性问题：产品里你可以在一个对话里创建文档，但没办法在另一个对话里 @ 引用或关联那个文档——这在真实协作中是个真痛点，而它作为一个「新鲜眼睛」直接挑出来了 `[16:34 Unknown]`。它还会在遇到加载慢、界面不透明等体验问题时如实记录——哪怕遇到了报错，这些失败状态的反馈对产品改进也一样有价值 `[17:38 Unknown]`。\n\n## 日常杂活：消息处理、购物、填表、甚至操控手机\n\n到了日常使用层面，她的用法就更多了。\n\n处理 LinkedIn 消息：她让 AI 用浏览器翻未读消息，跟工作相关的直接回复，其他的留下笔记告诉她怎么回，纯感谢类的就友好回复掉。LinkedIn 没有官方 API，这种场景正好适合用浏览器操控来走非官方渠道 `[18:41 Unknown]`。\n\n网购：她让 AI 用 Chrome 扩展去 Free People 的打折区，按她的尺码、哺乳期妈妈的需求、夏威夷七月底的天气来挑 10 件衣服加进购物车但不结账。结果它确实选了长裙、宽松裤子、衬衫这些合适的单品，总共 352 美元 `[21:58 Unknown]`。不过中间有个插曲——网站检测到了自动化操作弹出了验证，这时候人就得介入当「人工验证层」了 `[23:09 Unknown]`。她说得很到位：有时我们让 AI 为我们干活，有时我们得被 AI 派活 `[23:20 Unknown]`。\n\n填表：采购表、给孩子报夏令营、那种超级老的旧网站表单，扔给浏览器用就行了 `[23:52 Unknown]`。\n\n操控手机：如果你用 Mac，有 iPhone 镜像功能可以把手机屏幕投到桌面上，计算机使用可以直接操作那个镜像。她有一次在外州，需要远程改家里 Wi-Fi 的防火墙设置来 SSH 回自己的电脑——Wi-Fi 管理软件只在手机上，她就让 Codex 通过屏幕镜像操作手机，改完设置、更新路由器、SSH 进去、最后关掉端口，全程自动化 `[24:14 Unknown]`。\n\n最后，当 Codex 里的 MCP 插件不好使的时候，她的兜底方案就是直接说「打开浏览器在网页里做」——浏览器操控本身就是最通用的后备通道 `[25:24 Unknown]`。\n\n## 本集带走\n\n- **让 AI 做 QA 别只走快乐路径**：直接说「测试这个流程的可用性和移动端响应性，截图，问题做成表格」，它会主动测错误状态和边缘情况，比人更详尽。\n- **对前沿模型少给指令比多给更好**：让它自己定测试计划，效果优于你列出 25 条具体测试项。\n- **角色扮演式调研**：设定 2-3 个真实用户角色，让 AI 扮演他们走完产品流程，最后输出摩擦点和改进建议——能发现你自己看不到的结构性问题。\n- **浏览器操控是最好的兜底通道**：当 MCP 或插件不好使、或者目标网站没有 API（比如 LinkedIn），直接让 AI 用浏览器操作网页。\n- **人要接受当「验证层」的角色**：网站可能检测到自动化操作并弹验证，这时候你得手动过一下——这不是失败，是正常的人机协作分工。\n- **通过 iPhone 镜像可以让 AI 操控手机**：Mac 上的屏幕镜像 + 计算机使用 = AI 能操作你手机上的 App，适合处理只在手机端有的操作。",
+  "quotes": [
+    {
+      "en": "I can definitely test things on the back end. I can definitely write tests for the front end. But what I really want to know is, is it usable?",
+      "zh": "我肯定可以在后端测试东西。我肯定可以为前端写测试。但我真正想知道的是，它可用吗？",
+      "timestamp": "04:56",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Under prompting these models gets you a much better effect than over prompting them.",
+      "zh": "对这些模型进行低提示能比对它们进行过度提示获得更好的效果。",
+      "timestamp": "08:01",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And what you see here is that the engineer handoff exposed a structural break, which is a real issue in chat purity, which is you can create one document, but you can't like at mention or reference it in another thread.",
+      "zh": "你在这里看到的是，工程师交接暴露了一个结构性断裂，这是聊天纯度中的一个真正问题，即你可以创建一个文档，但你不能像 @ 提及或在另一个线程中引用它。",
+      "timestamp": "16:34",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Sometimes we put AI to use for us, and then sometimes we need AI to put us to use.",
+      "zh": "有时我们让 AI 为我们所用，然后有时我们需要 AI 让我们发挥作用。",
+      "timestamp": "23:20",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And so sometimes I'm just the human verification layer on top of ChatGPT browser use.",
+      "zh": "所以有时我只是在 ChatGPT 浏览器使用之上的人工验证层。",
+      "timestamp": "23:27",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:45",
+      "speaker": "Unknown",
+      "en": "Now, this sounds really scary, but in fact, it has been one of the most life-changing features of AI, certainly professionally changing, but has also reduced so much personal toil and personal digital toil that I had to tell you about a couple of the use cases that I use because I literally use this every minute of every day.",
+      "zh": "现在，这听起来真的很可怕，但实际上，它是 AI 最能改变生活的特性之一，当然在职业上是改变的，但也减少了很多个人的辛劳和个人的数字辛劳，以至于我不得不告诉你几个我使用的用例，因为我真的每一天的每一分钟都在使用这个。"
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Unknown",
+      "en": "I can definitely test things on the back end. I can definitely write tests for the front end. But what I really want to know is, is it usable?",
+      "zh": "我肯定可以在后端测试东西。我肯定可以为前端写测试。但我真正想知道的是，它可用吗？"
+    },
+    {
+      "timestamp": "06:49",
+      "speaker": "Unknown",
+      "en": "Now, what I love about using browser use specifically for QA purposes is it is exhaustive or it is more exhaustive and organized than I as a human would be.",
+      "zh": "现在，我特别喜欢将浏览器使用专门用于 QA 目的是因为它很详尽，或者说它比人类的我更详尽、更有条理。"
+    },
+    {
+      "timestamp": "08:01",
+      "speaker": "Unknown",
+      "en": "Under prompting these models gets you a much better effect than over prompting them.",
+      "zh": "对这些模型进行低提示能比对它们进行过度提示获得更好的效果。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Unknown",
+      "en": "And so because they're so intelligent, you can literally just tell them QA the onboarding flow and it will do a much better job than saying QA these 25 things in the onboarding flow.",
+      "zh": "因此因为它们非常智能，你实际上只需要告诉它们 QA 用户引导流程，它就会做得比告诉它们用户引导流程中的这 25 件事要好得多。"
+    },
+    {
+      "timestamp": "09:50",
+      "speaker": "Unknown",
+      "en": "So again, the reason why this bug exists is because I always tested this flow as a human and I always clicked the required buttons.",
+      "zh": "再说一次，这个 bug 存在的原因是因为我总是作为人类测试这个流程，而且我总是点击了那些必需的按钮。"
+    },
+    {
+      "timestamp": "09:59",
+      "speaker": "Unknown",
+      "en": "It actually bubble up edge case bugs that you might not have thought of.",
+      "zh": "它实际上会浮现出你可能没有想到的边缘情况 bug。"
+    },
+    {
+      "timestamp": "11:45",
+      "speaker": "Unknown",
+      "en": "Again, this is really useful for agents because it has all the information it needs to reproduce the issue, the viewport, what the issue was, what the steps are to fix it, and then how to remediate it.",
+      "zh": "再说一次，这对智能体真的很有用，因为它有重现问题所需的所有信息，视口，问题是什么，修复它的步骤是什么，以及如何补救它。"
+    },
+    {
+      "timestamp": "16:34",
+      "speaker": "Unknown",
+      "en": "And what you see here is that the engineer handoff exposed a structural break, which is a real issue in chat purity, which is you can create one document, but you can't like at mention or reference it in another thread.",
+      "zh": "你在这里看到的是，工程师交接暴露了一个结构性断裂，这是聊天纯度中的一个真正问题，即你可以创建一个文档，但你不能像 @ 提及或在另一个线程中引用它。"
+    },
+    {
+      "timestamp": "18:01",
+      "speaker": "Unknown",
+      "en": "So just to take a step back, I really love this use case of coming up with a persona that kind of inhabits the mind and in this world, the body of your user, and then have them going through your website using browser use and giving you a report of what works and what doesn't.",
+      "zh": "所以退一步说，我真的喜欢这个用例，想出一个某种程度上占据你的用户的思想，在这个世界上，占据你的用户的身体的角色，然后让他们使用浏览器使用浏览你的网站并给你一份关于什么有效和什么无效的报告。"
+    },
+    {
+      "timestamp": "19:35",
+      "speaker": "Unknown",
+      "en": "Again, LinkedIn doesn't have an MCP or an API that's official. So we're using unofficial channels here to go through stuff.",
+      "zh": "再次，LinkedIn 没有一个 MCP 或官方的 API。所以我们在这里使用非官方渠道来浏览内容。"
+    },
+    {
+      "timestamp": "23:20",
+      "speaker": "Unknown",
+      "en": "Sometimes we put AI to use for us, and then sometimes we need AI to put us to use.",
+      "zh": "有时我们让 AI 为我们所用，然后有时我们需要 AI 让我们发挥作用。"
+    },
+    {
+      "timestamp": "23:27",
+      "speaker": "Unknown",
+      "en": "And so sometimes I'm just the human verification layer on top of ChatGPT browser use.",
+      "zh": "所以有时我只是在 ChatGPT 浏览器使用之上的人工验证层。"
+    },
+    {
+      "timestamp": "24:14",
+      "speaker": "Unknown",
+      "en": "So if you're on a Mac, you have something called iPhone mirroring where you can actually pull up a version of your phone on your desktop. Computer use can use iPhone mirroring. So your computer can technically use your phone.",
+      "zh": "所以如果你用的是 Mac，你有一个叫 iPhone 镜像的功能，你实际上可以在桌面上调出你手机的版本。计算机使用可以使用 iPhone 镜像。所以技术上讲，你的电脑可以使用你的手机。"
+    },
+    {
+      "timestamp": "25:24",
+      "speaker": "Unknown",
+      "en": "So sometimes I'm just not happy with what is being used with like the MCPs and the plugins in Codex. So if it hits kind of like access use or it can't do something via an MCP, if you are permissive enough, you can just say like, please just open up my browser and do it in the browser and it will do a very, very good job.",
+      "zh": "所以有时我只是对 Codex 中使用的 MCP 和插件不满意。所以如果它遇到像访问使用这样的问题，或者它无法通过 MCP 做某事，如果你足够允许，你可以直接说，请直接打开我的浏览器并在浏览器里做，它会做得非常、非常好。"
+    },
+    {
+      "timestamp": "26:35",
+      "speaker": "Unknown",
+      "en": "And I really think that this is going to change how we interface with our digital lives.",
+      "zh": "我真的认为这将改变我们要与数字生活交互的方式。"
+    }
+  ],
+  "voice_script": "你敢信吗，现在 AI 已经能直接接管你的鼠标键盘，帮你点网页、填表单、甚至网购了。这期聊聊 How I AI 的主持人是怎么让 AI 真正操控电脑和浏览器来干活的，不是聊天，是实打实地替你打工。\n\n要跑起来其实很简单，装好 ChatGPT 或者 Claude 的桌面应用，再给 Chrome 装上对应的浏览器扩展就行。在 Codex 里面，有三种调用方式，可以弹出一个侧边浏览器窗口，可以直接操控你正在用的 Chrome，还能直接控制整台电脑。但重点根本不在怎么调，而在你拿这东西到底能干什么。\n\n第一个场景，做产品的人一定要听。让 AI 用浏览器跑一遍你的 Web 应用，做可用性测试。你只需要告诉它，测试引导流程的可用性和移动端响应性，过程中截图，把发现的问题做成一个 Google 表格。\n\n然后你就看那个发光的小游标准备自己跑到浏览器那边，一步步走完整个流程。填表单、点下拉菜单、切视口大小，桌面端测完测移动端。人做 QA 的时候特别容易偷懒，永远只走那个最顺利的“快乐路径”，每个必填项都乖乖填好。但 AI 不会，它会故意不填必填字段看会不会报错，会主动去测错误状态，查可访问性、溢出这些你可能草草略过的东西。\n\n主持人举了个特别真实的例子。有个产品上线很久了，一直没发现一个 bug，有个页面不选任何选项也能点继续，但那个字段其实是必填的，只是没有前端校验代码，点了也往下走。为什么一直没发现？因为自己测试的时候总是老老实实点了选项。AI 一跑就暴露出来了，因为它会主动去试失败状态。跑完直接找到 11 个问题，自动生成了带优先级的表格，每个问题都附上截图、视口信息、复现步骤和修复建议。\n\n这里有个反常识的细节特别值得记。对这些前沿模型，你给的指令越少，效果反而越好。直接说一句“QA 这个流程”，让它自己动脑筋定计划，比你列出 25 条要测的东西，结果要详尽得多。\n\n第二个场景也特别妙，叫角色扮演式产品调研。比如给一个产品设三个角色，一个赶着写文档的产品经理，一个要拿文档出技术规范的工程师，一个想了解团队怎么用这个工具的负责人。指令就这些，让 AI 自己走完三遍流程，最后写一份调研报告。\n\n有意思的地方在于，它能发现一些显而易见但你自己绝对看不到的摩擦点。比如以工程师角色接手文档时，直接暴露了一个结构性问题，在一个对话里创建了文档，却没办法在另一个对话里引用或关联这个文档。这在真实协作中是个真痛点，作为一个“新鲜眼睛”直接就被挑出来了。\n\n到了日常杂活层面，用法就更野了。处理 LinkedIn 消息，没有官方 API？直接让 AI 用浏览器翻未读消息，工作相关的直接回复，纯感谢类的友好回复掉，其他的留下笔记告诉你怎么回。\n\n网购也一样，直接让 AI 去 Free People 的打折区，按照尺码、哺乳期妈妈的需求、夏威夷七月底的天气，挑 10 件衣服加进购物车但不结账。结果真选了长裙、宽松裤子这些合适的单品，总共 352 美元。不过中间有个插曲，网站检测到了自动化操作弹出了验证，这时候人就得介入了。\n\n有句话说得特别到位：有时我们让 AI 为我们所用，然后有时我们需要 AI 让我们发挥作用。说白了，人要接受自己当“人工验证层”的角色，这不是失败，这就是正常的人机协作分工。\n\n甚至操控手机都能干。用 Mac 的 iPhone 镜像功能把手机屏幕投到桌面上，AI 就能直接操作那个镜像。有一次需要远程改家里 Wi-Fi 的防火墙设置，管理软件只在手机上，就让 Codex 通过屏幕镜像操作手机，改完设置、更新路由器、最后关掉端口，全程自动化。\n\n所以最后拎一句特别实在的话。当那些插件不好使的时候，兜底方案就是直接让 AI 打开浏览器在网页里做。浏览器操控，就是当下最通用的后备通道。"
+}

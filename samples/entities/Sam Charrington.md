@@ -28,7 +28,7 @@ unlisted: true
 
 [[Damian Borth]] · [[Max Welling]] · [[Hugging Face]] · [[cusp.ai]] · [[权重空间学习]] · [[智能体]] · [[权重]] · [[等变性]] · [[自编码器]] · [[扩散模型]]
 
-<script type="application/json" class="pd-epn">{"Damian Borth":1,"Max Welling":1,"Hugging Face":14,"cusp.ai":1,"权重空间学习":1,"智能体":1,"权重":1,"等变性":1,"自编码器":1,"扩散模型":2}</script>
+<script type="application/json" class="pd-epn">{"Damian Borth":1,"Max Welling":1,"Hugging Face":15,"cusp.ai":1,"权重空间学习":1,"智能体":1,"权重":1,"等变性":1,"自编码器":1,"扩散模型":2}</script>
 
 <script>
 (function(){

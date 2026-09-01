@@ -1,0 +1,2546 @@
+[
+ {
+  "seg": 0,
+  "start": 0.171,
+  "end": 6.834,
+  "speaker": "Unknown",
+  "en": "One of my favorite guests ever, Jessie Janais, said that AI was great for moms because mom's hands are always busy.",
+  "zh": "我最喜欢的嘉宾之一，Jessie Janais，说 AI 对妈妈们很棒，因为妈妈的手总是很忙。"
+ },
+ {
+  "seg": 1,
+  "start": 7.214,
+  "end": 10.375,
+  "speaker": "Unknown",
+  "en": "We're always doing something with our hands and we do not have time to talk.",
+  "zh": "我们总是用我们的手在做某事，而我们没有时间说话。"
+ },
+ {
+  "seg": 2,
+  "start": 10.815,
+  "end": 15.617,
+  "speaker": "Unknown",
+  "en": "Now, in that episode, she was talking about the benefits of chatting with AI.",
+  "zh": "现在，在那期节目中，她正在谈论与 AI 聊天的益处。"
+ },
+ {
+  "seg": 3,
+  "start": 15.697,
+  "end": 18.178,
+  "speaker": "Unknown",
+  "en": "But in this episode, which I'm going to lovingly call",
+  "zh": "但在这一期节目中，我将亲切地称之为"
+ },
+ {
+  "seg": 4,
+  "start": 18.778,
+  "end": 19.939,
+  "speaker": "Unknown",
+  "en": "Look, Ma, no hands.",
+  "zh": "看哪，妈妈，不用手。"
+ },
+ {
+  "seg": 5,
+  "start": 20.439,
+  "end": 29.164,
+  "speaker": "Unknown",
+  "en": "I'm going to talk about browser and computer use, the way that you can let AI navigate your computer and navigate websites to get work done on your behalf.",
+  "zh": "我将谈谈浏览器和计算机的使用，那种你可以让 AI 导航你的计算机并导航网站来代表你完成工作的方式。"
+ },
+ {
+  "seg": 6,
+  "start": 29.565,
+  "end": 38.17,
+  "speaker": "Unknown",
+  "en": "Browser and computer use have gotten exceptionally good recently, especially in my experience with Codex and the GPT 5.6 models.",
+  "zh": "浏览器和计算机的使用最近变得非常出色，特别是在我使用 Codex 和 GPT 5.6 模型的经验中。"
+ },
+ {
+  "seg": 7,
+  "start": 38.55,
+  "end": 47.836,
+  "speaker": "Unknown",
+  "en": "And I'm going to show you a builder use case, a productivity use case, and a personal fund use case that I found super useful in using computer and browser use.",
+  "zh": "我将向你展示一个构建者用例、一个生产力用例和一个个人资金用例，这些是我在使用计算机和浏览器使用时发现超级有用的。"
+ },
+ {
+  "seg": 8,
+  "start": 48.076,
+  "end": 48.776,
+  "speaker": "Unknown",
+  "en": "Let's get to it.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 9,
+  "start": 48.996,
+  "end": 60.78,
+  "speaker": "Unknown",
+  "en": "This episode is brought to you by Runway, a new kind of creative platform that has everything you need to generate any image, video, or piece of content you want, all in one place.",
+  "zh": "这一集由 Runway 为您呈现，这是一种新型的创意平台，拥有您生成任何图像、视频或您想要的内容片段所需的一切，全部集中在一个地方。"
+ },
+ {
+  "seg": 10,
+  "start": 61.42,
+  "end": 67.102,
+  "speaker": "Unknown",
+  "en": "With Runway, it's now possible to go from initial idea to a finished deliverable in a matter of minutes.",
+  "zh": "有了 Runway，现在可以在几分钟内从最初的想法转变为可交付的成品。"
+ },
+ {
+  "seg": 11,
+  "start": 67.702,
+  "end": 80.946,
+  "speaker": "Unknown",
+  "en": "From turning low-fidelity product shots into campaign-ready imagery all the way through putting together big brand films, Runway can help your team scale your creative ambitions while keeping your budgets and timelines from doing the same.",
+  "zh": "从将低保真的产品照片转变为可用于营销活动的图像，一直到组合大型品牌电影，Runway 可以帮助您的团队扩大您的创意野心，同时保持您的预算和时间表不会做同样的事情。"
+ },
+ {
+  "seg": 12,
+  "start": 81.826,
+  "end": 96.97,
+  "speaker": "Unknown",
+  "en": "Runway brings together the world's most advanced AI models, which is why enterprises like Microsoft, Robinhood, Amazon, and Adobe, along with studios like Lionsgate and Legendary, all use Runway to ship real work every day.",
+  "zh": "Runway 汇集了世界上最先进的 AI 模型，这就是为什么像 Microsoft、Robinhood、Amazon 和 Adobe 这样的企业，以及像 Lionsgate 和 Legendary 这样的工作室，每天都使用 Runway 来交付实际工作。"
+ },
+ {
+  "seg": 13,
+  "start": 97.59,
+  "end": 103.534,
+  "speaker": "Unknown",
+  "en": "Try it yourself at runwayml.com slash howiai.",
+  "zh": "亲自在 runwayml.com/howiai 试用。"
+ },
+ {
+  "seg": 14,
+  "start": 104.055,
+  "end": 106.557,
+  "speaker": "Unknown",
+  "en": "Promo code howiai.",
+  "zh": "优惠码 howiai。"
+ },
+ {
+  "seg": 15,
+  "start": 106.997,
+  "end": 111.961,
+  "speaker": "Unknown",
+  "en": "Okay, before we dive into how I use computer use, just a refresher for anybody who's new.",
+  "zh": "好的，在我们深入我如何使用计算机使用之前，让我们先为任何新来的人做一个复习。"
+ },
+ {
+  "seg": 16,
+  "start": 112.521,
+  "end": 115.924,
+  "speaker": "Unknown",
+  "en": "In case you missed it, these LLMs, your AI chatbot,",
+  "zh": "万一你错过了，这些 LLM，你的 AI 聊天机器人，"
+ },
+ {
+  "seg": 17,
+  "start": 116.484,
+  "end": 120.327,
+  "speaker": "Unknown",
+  "en": "Can control your computer and can control your browser.",
+  "zh": "可以控制你的计算机，也可以控制你的浏览器。"
+ },
+ {
+  "seg": 18,
+  "start": 120.808,
+  "end": 130.716,
+  "speaker": "Unknown",
+  "en": "Now, there have been a class of AI native browsers that have come out in the last year thinking about Perplexity's Comet or ChatGPT's Atlas.",
+  "zh": "现在，过去一年中出现了一类 AI 原生浏览器，比如 Perplexity 的 Comet 或 ChatGPT 的 Atlas。"
+ },
+ {
+  "seg": 19,
+  "start": 131.137,
+  "end": 136.922,
+  "speaker": "Unknown",
+  "en": "But I like to use browser and computer use directly through Claude or in this instance, Codex.",
+  "zh": "但我喜欢直接通过 Claude 或者在这个例子中，通过 Codex 来使用浏览器和计算机。"
+ },
+ {
+  "seg": 20,
+  "start": 137.522,
+  "end": 144.586,
+  "speaker": "Unknown",
+  "en": "Why have I used Codex, specifically the Codex desktop app, or I guess we're calling it the ChatGPT desktop app these days?",
+  "zh": "为什么我使用 Codex，特别是 Codex 桌面应用程序，或者我想我们这些天把它称为 ChatGPT 桌面应用程序？"
+ },
+ {
+  "seg": 21,
+  "start": 144.827,
+  "end": 148.909,
+  "speaker": "Unknown",
+  "en": "Well, it is just the best at controlling my computer.",
+  "zh": "嗯，它只是最擅长控制我的计算机。"
+ },
+ {
+  "seg": 22,
+  "start": 149.55,
+  "end": 155.033,
+  "speaker": "Unknown",
+  "en": "And if you didn't know, it can control the mouse, it can control the keyboard, it can do all sorts of things.",
+  "zh": "如果你不知道，它可以控制鼠标，它可以控制键盘，它可以做各种事情。"
+ },
+ {
+  "seg": 23,
+  "start": 155.093,
+  "end": 160.716,
+  "speaker": "Unknown",
+  "en": "So imagine you have a virtual coworker and that coworker can put hands on your keyboard and get stuff done on your computer.",
+  "zh": "所以想象你有一个虚拟同事，那个同事可以把双手放在你的键盘上并在你的计算机上完成任务。"
+ },
+ {
+  "seg": 24,
+  "start": 161.297,
+  "end": 164.779,
+  "speaker": "Unknown",
+  "en": "That is what browser and computer use can do.",
+  "zh": "这就是浏览器和计算机使用可以做到的。"
+ },
+ {
+  "seg": 25,
+  "start": 165.239,
+  "end": 188.381,
+  "speaker": "Unknown",
+  "en": "Now, this sounds really scary, but in fact, it has been one of the most life-changing features of AI, certainly professionally changing, but has also reduced so much personal toil and personal digital toil that I had to tell you about a couple of the use cases that I use because I literally use this every minute of every day.",
+  "zh": "现在，这听起来真的很可怕，但实际上，它是 AI 最能改变生活的特性之一，当然在职业上是改变的，但也减少了很多个人的辛劳和个人的数字辛劳，以至于我不得不告诉你几个我使用的用例，因为我真的每一天的每一分钟都在使用这个。"
+ },
+ {
+  "seg": 26,
+  "start": 189.242,
+  "end": 192.664,
+  "speaker": "Unknown",
+  "en": "Now, invoking browser or computer use is pretty simple.",
+  "zh": "现在，调用浏览器或计算机使用非常简单。"
+ },
+ {
+  "seg": 27,
+  "start": 192.784,
+  "end": 197.127,
+  "speaker": "Unknown",
+  "en": "First, you have to have those desktop apps installed on your computer.",
+  "zh": "首先，你必须让那些桌面应用程序安装在你的计算机上。"
+ },
+ {
+  "seg": 28,
+  "start": 197.267,
+  "end": 202.03,
+  "speaker": "Unknown",
+  "en": "So whether those are the ChatGPT desktop app or the Claude desktop app, you need those installed.",
+  "zh": "所以无论是 ChatGPT 桌面应用程序还是 Claude 桌面应用程序，你需要安装它们。"
+ },
+ {
+  "seg": 29,
+  "start": 202.531,
+  "end": 208.815,
+  "speaker": "Unknown",
+  "en": "If you want to use the browser, you need to have the browser extensions installed inside Chrome.",
+  "zh": "如果你想使用浏览器，你需要让浏览器扩展安装在 Chrome 内部。"
+ },
+ {
+  "seg": 30,
+  "start": 209.455,
+  "end": 211.136,
+  "speaker": "Unknown",
+  "en": "I don't know if they work for these other browsers.",
+  "zh": "我不知道它们是否适用于这些其他浏览器。"
+ },
+ {
+  "seg": 31,
+  "start": 211.316,
+  "end": 213.758,
+  "speaker": "Unknown",
+  "en": "I just use Chrome and I know they have browser extensions.",
+  "zh": "我只使用 Chrome，而且我知道它们有浏览器扩展。"
+ },
+ {
+  "seg": 32,
+  "start": 213.938,
+  "end": 219.542,
+  "speaker": "Unknown",
+  "en": "So you can just search for, for example, Codex browser extension or Claude browser extension.",
+  "zh": "所以你可以只搜索，例如，Codex 浏览器扩展或 Claude 浏览器扩展。"
+ },
+ {
+  "seg": 33,
+  "start": 219.562,
+  "end": 222.864,
+  "speaker": "Unknown",
+  "en": "Make sure they're the official ones and then install those.",
+  "zh": "确保它们是官方的，然后安装那些。"
+ },
+ {
+  "seg": 34,
+  "start": 223.025,
+  "end": 232.931,
+  "speaker": "Unknown",
+  "en": "And then these two things together, the desktop app plus the Chrome extension, can really allow your computer plus AI to do a lot of work on your behalf.",
+  "zh": "然后这两样东西加在一起，桌面应用程序加上 Chrome 扩展，真的可以允许你的计算机加上 AI 代表你做大量的工作。"
+ },
+ {
+  "seg": 35,
+  "start": 233.492,
+  "end": 234.433,
+  "speaker": "Unknown",
+  "en": "Now, it sounds really simple.",
+  "zh": "现在，这听起来真的很简单。"
+ },
+ {
+  "seg": 36,
+  "start": 234.473,
+  "end": 236.234,
+  "speaker": "Unknown",
+  "en": "Let your AI use your computer.",
+  "zh": "让你的 AI 使用你的计算机。"
+ },
+ {
+  "seg": 37,
+  "start": 236.614,
+  "end": 243.757,
+  "speaker": "Unknown",
+  "en": "But the trick, and this is the how I AI sort of mantra, is you have to find a good use case for browser use.",
+  "zh": "但诀窍，这也是我 How I AI 的一种咒语，是你必须为浏览器使用找到一个好的用例。"
+ },
+ {
+  "seg": 38,
+  "start": 243.897,
+  "end": 256.122,
+  "speaker": "Unknown",
+  "en": "And having used browser and computer use for a while, I think I've come up with a couple unique and interesting use cases that maybe will inspire you and give you some ideas about how you can use it in your work and life.",
+  "zh": "在使用浏览器和计算机使用一段时间后，我认为我想出了几个独特且有趣的用例，也许会启发你并给你一些关于如何在你的工作和生活中使用它的想法。"
+ },
+ {
+  "seg": 39,
+  "start": 256.662,
+  "end": 270.658,
+  "speaker": "Unknown",
+  "en": "We're going to start with a use case out there for all the coders and all the vibe coders and all the professional software engineers, which is using browser use alongside a coding agent to validate changes.",
+  "zh": "我们将从一个用例开始，这是针对所有的程序员和所有的 vibe coders 和所有的专业软件工程师的，也就是使用浏览器使用与一个编程智能体一起来验证变更。"
+ },
+ {
+  "seg": 40,
+  "start": 270.738,
+  "end": 271.859,
+  "speaker": "Unknown",
+  "en": "Now, this is very simple.",
+  "zh": "现在，这非常简单。"
+ },
+ {
+  "seg": 41,
+  "start": 272.9,
+  "end": 274.561,
+  "speaker": "Unknown",
+  "en": "But one that I use quite a bit.",
+  "zh": "但我相当频繁地使用的一个。"
+ },
+ {
+  "seg": 42,
+  "start": 274.961,
+  "end": 278.002,
+  "speaker": "Unknown",
+  "en": "So what I'm showing here is the ChatPRD onboarding flow.",
+  "zh": "所以我在这里展示的是 ChatPRD 入门流程。"
+ },
+ {
+  "seg": 43,
+  "start": 278.122,
+  "end": 280.484,
+  "speaker": "Unknown",
+  "en": "It's just a step-by-step where you fill out your profile.",
+  "zh": "这只是一个循序渐进的过程，你填写你的个人资料。"
+ },
+ {
+  "seg": 44,
+  "start": 280.824,
+  "end": 293.99,
+  "speaker": "Unknown",
+  "en": "Let's say I was working on some enhancements on this feature and really wanted someone, and by someone, I mean GPT-56 Sol, to validate that all those features work really well.",
+  "zh": "假设我正在在这个功能上做一些增强，并且真的想要某人，通过某人，我的意思是 GPT-56 Sol，来验证所有那些功能工作得很好。"
+ },
+ {
+  "seg": 45,
+  "start": 294.09,
+  "end": 294.27,
+  "speaker": "Unknown",
+  "en": "Now,",
+  "zh": "现在，"
+ },
+ {
+  "seg": 46,
+  "start": 294.73,
+  "end": 296.954,
+  "speaker": "Unknown",
+  "en": "I could write what AI loves, a smoke test.",
+  "zh": "我可以写出 AI 所爱的，一个冒烟测试。"
+ },
+ {
+  "seg": 47,
+  "start": 296.974,
+  "end": 298.717,
+  "speaker": "Unknown",
+  "en": "I can definitely test things on the back end.",
+  "zh": "我肯定可以在后端测试东西。"
+ },
+ {
+  "seg": 48,
+  "start": 298.798,
+  "end": 301.062,
+  "speaker": "Unknown",
+  "en": "I can definitely write tests for the front end.",
+  "zh": "我肯定可以为前端写测试。"
+ },
+ {
+  "seg": 49,
+  "start": 301.122,
+  "end": 304.167,
+  "speaker": "Unknown",
+  "en": "But what I really want to know is, is it usable?",
+  "zh": "但我真正想知道的是，它可用吗？"
+ },
+ {
+  "seg": 50,
+  "start": 304.227,
+  "end": 304.848,
+  "speaker": "Unknown",
+  "en": "Can we use it?",
+  "zh": "我们可以用它吗？"
+ },
+ {
+  "seg": 51,
+  "start": 304.949,
+  "end": 306.471,
+  "speaker": "Unknown",
+  "en": "And so what I might do here.",
+  "zh": "所以我在这里可能会做的是。"
+ },
+ {
+  "seg": 52,
+  "start": 307.891,
+  "end": 310.372,
+  "speaker": "Unknown",
+  "en": "And say, use browser.",
+  "zh": "然后说，使用浏览器。"
+ },
+ {
+  "seg": 53,
+  "start": 310.692,
+  "end": 314.993,
+  "speaker": "Unknown",
+  "en": "And there are three ways you can invoke kind of computer use in Codex.",
+  "zh": "在 Codex 中有三种方式可以调用那种计算机使用。"
+ },
+ {
+  "seg": 54,
+  "start": 315.013,
+  "end": 316.233,
+  "speaker": "Unknown",
+  "en": "You can do at browser.",
+  "zh": "你可以在浏览器上做。"
+ },
+ {
+  "seg": 55,
+  "start": 316.253,
+  "end": 320.454,
+  "speaker": "Unknown",
+  "en": "That will pull up use of this side browser window.",
+  "zh": "那将拉起这个侧边浏览器窗口的使用。"
+ },
+ {
+  "seg": 56,
+  "start": 320.854,
+  "end": 325.695,
+  "speaker": "Unknown",
+  "en": "There is at Chrome, which will use the Chrome extension to manage Chrome.",
+  "zh": "有在 Chrome 上，它将使用 Chrome 扩展程序来管理 Chrome。"
+ },
+ {
+  "seg": 57,
+  "start": 325.735,
+  "end": 329.956,
+  "speaker": "Unknown",
+  "en": "And then there's at computer, which lets it manage the whole computer, just so you know.",
+  "zh": "然后有在计算机上，它让它能够管理整个计算机，只是为了让你知道。"
+ },
+ {
+  "seg": 58,
+  "start": 330.436,
+  "end": 334.278,
+  "speaker": "Unknown",
+  "en": "But I'm going to say use browser because I'm already logged into my local host over here on the browser.",
+  "zh": "但我要说使用浏览器，因为我已经在这个浏览器上登录到了我的本地主机。"
+ },
+ {
+  "seg": 59,
+  "start": 334.298,
+  "end": 344.544,
+  "speaker": "Unknown",
+  "en": "I'm going to say to test the open onboarding flow for usability and mobile responsiveness.",
+  "zh": "我要说测试开放的用户引导流程的可用性和移动端响应性。"
+ },
+ {
+  "seg": 60,
+  "start": 345.425,
+  "end": 356.992,
+  "speaker": "Unknown",
+  "en": "Please screenshot as you go and make a Google spreadsheet of any issues you identify.",
+  "zh": "请在过程中截图，并将你识别出的任何问题做成一个 Google 电子表格。"
+ },
+ {
+  "seg": 61,
+  "start": 358.06,
+  "end": 361.625,
+  "speaker": "Unknown",
+  "en": "OK, so I'm going to click submit and let that run.",
+  "zh": "好的，所以我将点击提交并让它运行。"
+ },
+ {
+  "seg": 62,
+  "start": 361.745,
+  "end": 366.591,
+  "speaker": "Unknown",
+  "en": "And what that's going to do is spin up the browser skill, which is embedded in Codex.",
+  "zh": "它要做的是启动嵌入在 Codex 中的浏览器技能。"
+ },
+ {
+  "seg": 63,
+  "start": 366.611,
+  "end": 375.142,
+  "speaker": "Unknown",
+  "en": "And you'll actually see this little cursor start to go over to the browser side and walk through the onboarding flow.",
+  "zh": "你实际上会看到这个小游标开始移到浏览器一侧，并走完用户引导流程。"
+ },
+ {
+  "seg": 64,
+  "start": 375.642,
+  "end": 379.626,
+  "speaker": "Unknown",
+  "en": "Why I think this is useful is this is how I would test if this is working.",
+  "zh": "我认为这有用的原因在于，这就是我测试它是否工作的方式。"
+ },
+ {
+  "seg": 65,
+  "start": 380.086,
+  "end": 385.631,
+  "speaker": "Unknown",
+  "en": "You know, I would go through, I would click, I would test all the dropdowns, I would change the viewport sizes.",
+  "zh": "你知道，我会过一遍，我会点击，我会测试所有的下拉菜单，我会改变视口大小。"
+ },
+ {
+  "seg": 66,
+  "start": 386.091,
+  "end": 392.057,
+  "speaker": "Unknown",
+  "en": "And what's really nice about browser use in this instance is all of that can happen automatically.",
+  "zh": "而在这个实例中，浏览器使用的真正好处是所有这些都可以自动发生。"
+ },
+ {
+  "seg": 67,
+  "start": 392.277,
+  "end": 393.198,
+  "speaker": "Unknown",
+  "en": "I can just sit back.",
+  "zh": "我只需坐下来。"
+ },
+ {
+  "seg": 68,
+  "start": 393.898,
+  "end": 395.039,
+  "speaker": "Unknown",
+  "en": "And watch it go.",
+  "zh": "看它运行。"
+ },
+ {
+  "seg": 69,
+  "start": 395.139,
+  "end": 398.66,
+  "speaker": "Unknown",
+  "en": "And I will tell you, it's really fascinating to watch these things go.",
+  "zh": "我要告诉你，看着这些东西运行真的很迷人。"
+ },
+ {
+  "seg": 70,
+  "start": 398.78,
+  "end": 409.345,
+  "speaker": "Unknown",
+  "en": "If you have looked at that little glowy cursor and watched it bop around your website, click things, test things, you know the magic feeling of this particular AI feature.",
+  "zh": "如果你看过那个发光的小游标，看着它在你网站上四处跳动，点击东西，测试东西，你就知道这种特定 AI 特性的神奇感觉。"
+ },
+ {
+  "seg": 71,
+  "start": 409.825,
+  "end": 420.608,
+  "speaker": "Unknown",
+  "en": "Now, what I love about using browser use specifically for QA purposes is it is exhaustive or it is more exhaustive and organized than I as a human would be.",
+  "zh": "现在，我特别喜欢将浏览器使用专门用于 QA 目的是因为它很详尽，或者说它比人类的我更详尽、更有条理。"
+ },
+ {
+  "seg": 72,
+  "start": 421.088,
+  "end": 428.391,
+  "speaker": "Unknown",
+  "en": "I don't know about you all, but when I am QAing things, I like to do the happy path QA where it's like, yes, I fill out all the form fields.",
+  "zh": "我不知道你们怎么样，但当我做 QA 的时候，我喜欢做快乐路径 QA，就像是，是的，我填写所有表单字段。"
+ },
+ {
+  "seg": 73,
+  "start": 428.431,
+  "end": 429.411,
+  "speaker": "Unknown",
+  "en": "Everything's required.",
+  "zh": "所有东西都是必填的。"
+ },
+ {
+  "seg": 74,
+  "start": 429.451,
+  "end": 430.311,
+  "speaker": "Unknown",
+  "en": "I click next.",
+  "zh": "我点击下一步。"
+ },
+ {
+  "seg": 75,
+  "start": 430.371,
+  "end": 431.212,
+  "speaker": "Unknown",
+  "en": "I don't get tired.",
+  "zh": "我不会累。"
+ },
+ {
+  "seg": 76,
+  "start": 431.252,
+  "end": 431.892,
+  "speaker": "Unknown",
+  "en": "I don't go back.",
+  "zh": "我不回去。"
+ },
+ {
+  "seg": 77,
+  "start": 432.832,
+  "end": 436.654,
+  "speaker": "Unknown",
+  "en": "But you can see here my little glowy Codex browser icon.",
+  "zh": "但你可以在这里看到我那个发光的 Codex 浏览器图标。"
+ },
+ {
+  "seg": 78,
+  "start": 436.814,
+  "end": 438.055,
+  "speaker": "Unknown",
+  "en": "It's going to be exhaustive.",
+  "zh": "它将会很详尽。"
+ },
+ {
+  "seg": 79,
+  "start": 438.115,
+  "end": 440.436,
+  "speaker": "Unknown",
+  "en": "It's going to test signing up with a team.",
+  "zh": "它将测试团队注册。"
+ },
+ {
+  "seg": 80,
+  "start": 440.476,
+  "end": 442.377,
+  "speaker": "Unknown",
+  "en": "It's going to test signing up as an individual.",
+  "zh": "它将测试个人注册。"
+ },
+ {
+  "seg": 81,
+  "start": 442.417,
+  "end": 444.037,
+  "speaker": "Unknown",
+  "en": "It's going to fill out form fields.",
+  "zh": "它将填写表单字段。"
+ },
+ {
+  "seg": 82,
+  "start": 444.077,
+  "end": 445.658,
+  "speaker": "Unknown",
+  "en": "It's going to try for error states.",
+  "zh": "它将尝试触发错误状态。"
+ },
+ {
+  "seg": 83,
+  "start": 445.998,
+  "end": 459.845,
+  "speaker": "Unknown",
+  "en": "It's going to do all these things that you wouldn't probably have the stamina or organization to do if you were like me a little late in the afternoon after coding and asked to sort of manually test your web app.",
+  "zh": "它将做所有这些事情，如果你像我一样，在编码后下午稍微晚一点的时候，被要求手动测试你的 Web 应用，你可能没有耐力或条理去做这些事。"
+ },
+ {
+  "seg": 84,
+  "start": 460.798,
+  "end": 463.659,
+  "speaker": "Unknown",
+  "en": "And so what I really like about this is its ability to be exhaustive.",
+  "zh": "所以我真正喜欢这一点的是它的详尽能力。"
+ },
+ {
+  "seg": 85,
+  "start": 463.719,
+  "end": 475.983,
+  "speaker": "Unknown",
+  "en": "Now, if I were being a little bit more organized, I would probably have it come up with a suite of test cases based on the code, then go through those test cases kind of specifically over time so I knew it was being exhaustive.",
+  "zh": "现在，如果我稍微更有条理一点，我可能会让它基于代码提出一套测试用例，然后随着时间的推移专门过一遍这些测试用例，这样我就知道它是详尽的。"
+ },
+ {
+  "seg": 86,
+  "start": 476.423,
+  "end": 481.225,
+  "speaker": "Unknown",
+  "en": "That being said, you know, side tip for some of these newer models, I actually found that",
+  "zh": "话虽如此，你知道，给这些较新模型的一些小贴士，我实际上发现"
+ },
+ {
+  "seg": 87,
+  "start": 481.845,
+  "end": 486.668,
+  "speaker": "Unknown",
+  "en": "Under prompting these models gets you a much better effect than over prompting them.",
+  "zh": "对这些模型进行低提示能比对它们进行过度提示获得更好的效果。"
+ },
+ {
+  "seg": 88,
+  "start": 486.749,
+  "end": 498.377,
+  "speaker": "Unknown",
+  "en": "And so because they're so intelligent, you can literally just tell them QA the onboarding flow and it will do a much better job than saying QA these 25 things in the onboarding flow.",
+  "zh": "因此因为它们非常智能，你实际上只需要告诉它们 QA 用户引导流程，它就会做得比告诉它们用户引导流程中的这 25 件事要好得多。"
+ },
+ {
+  "seg": 89,
+  "start": 498.417,
+  "end": 507.623,
+  "speaker": "Unknown",
+  "en": "So a little tip, under prompt your frontier models, let them use that intelligence to come up with their own plans and do what it wants to do.",
+  "zh": "所以一个小贴士，对你的前沿模型进行低提示，让它们利用那种智能来制定自己的计划并做它想做的事。"
+ },
+ {
+  "seg": 90,
+  "start": 508.164,
+  "end": 509.585,
+  "speaker": "Unknown",
+  "en": "Now, we're going to watch this a little bit.",
+  "zh": "现在，我们要稍微观察一下。"
+ },
+ {
+  "seg": 91,
+  "start": 510.374,
+  "end": 517.959,
+  "speaker": "Unknown",
+  "en": "And what I like about what I've told it to do is it also is being asked to look at responsive design.",
+  "zh": "我对我告诉它要做的事情喜欢之处在于，它还被要求查看响应式设计。"
+ },
+ {
+  "seg": 92,
+  "start": 518.179,
+  "end": 524.623,
+  "speaker": "Unknown",
+  "en": "And even seeing here, I see an issue with the right hand of the browser.",
+  "zh": "即使在这里，我也看到了浏览器右侧的一个问题。"
+ },
+ {
+  "seg": 93,
+  "start": 524.683,
+  "end": 531.748,
+  "speaker": "Unknown",
+  "en": "I'm curious if that's actually an artifact of how this responsive browser inside Codex works or if it's an issue with...",
+  "zh": "我很好奇这是否实际上是 Codex 内部这个响应式浏览器工作方式的产物，或者是...的问题。"
+ },
+ {
+  "seg": 94,
+  "start": 532.408,
+  "end": 534.55,
+  "speaker": "Unknown",
+  "en": "My responsive design, we will see.",
+  "zh": "我的响应式设计，我们会看到的。"
+ },
+ {
+  "seg": 95,
+  "start": 535.051,
+  "end": 542.558,
+  "speaker": "Unknown",
+  "en": "But you can also see that it's changing the dimensions of the viewport to the size of the monitor to match laptop size.",
+  "zh": "但你也可以看到它正在将视口的尺寸更改为显示器的大小以匹配笔记本电脑的大小。"
+ },
+ {
+  "seg": 96,
+  "start": 542.578,
+  "end": 545.32,
+  "speaker": "Unknown",
+  "en": "It's going to show matching a phone size, all those things.",
+  "zh": "它将显示匹配手机大小，所有这些东西。"
+ },
+ {
+  "seg": 97,
+  "start": 545.46,
+  "end": 549.544,
+  "speaker": "Unknown",
+  "en": "Again, things that I could technically do manually that I really don't want to do.",
+  "zh": "再次强调，这些是我技术上可以手动做但我真的不想做的事情。"
+ },
+ {
+  "seg": 98,
+  "start": 549.564,
+  "end": 557.572,
+  "speaker": "Unknown",
+  "en": "I'm going to let this run and then I'm going to show you one other use case as a builder that I think is a little bit more unique that you might find inspirational.",
+  "zh": "我将让它继续运行，然后我将向你展示作为构建者的另一个用例，我认为它稍微更独特一点，你可能会觉得有启发性。"
+ },
+ {
+  "seg": 99,
+  "start": 558.218,
+  "end": 559.88,
+  "speaker": "Unknown",
+  "en": "Okay, so something interesting here.",
+  "zh": "好的，这里有些有趣的东西。"
+ },
+ {
+  "seg": 100,
+  "start": 560,
+  "end": 561.642,
+  "speaker": "Unknown",
+  "en": "It did find an issue.",
+  "zh": "它确实发现了一个问题。"
+ },
+ {
+  "seg": 101,
+  "start": 561.702,
+  "end": 566.528,
+  "speaker": "Unknown",
+  "en": "Now I'm a little embarrassed because this onboarding flow has been here for a while.",
+  "zh": "现在我有点尴尬，因为这个引导流程已经存在有一段时间了。"
+ },
+ {
+  "seg": 102,
+  "start": 566.548,
+  "end": 573.877,
+  "speaker": "Unknown",
+  "en": "It surfaced one blocking issue, which is if you don't select anything on this page, you can still click...",
+  "zh": "它暴露了一个阻塞问题，如果你在这个页面上什么都不选，你仍然可以点击……"
+ },
+ {
+  "seg": 103,
+  "start": 574.418,
+  "end": 581.863,
+  "speaker": "Unknown",
+  "en": "Continue, but it won't move forward because one of these fields is required but there's no validation code in here.",
+  "zh": "继续，但它不会向前移动，因为这些字段中有一个是必填的，但这里没有验证代码。"
+ },
+ {
+  "seg": 104,
+  "start": 582.283,
+  "end": 590.509,
+  "speaker": "Unknown",
+  "en": "Now again, the reason why this bug exists is because I always tested this flow as a human and I always clicked the required buttons.",
+  "zh": "再说一次，这个 bug 存在的原因是因为我总是作为人类测试这个流程，而且我总是点击了那些必需的按钮。"
+ },
+ {
+  "seg": 105,
+  "start": 590.989,
+  "end": 598.973,
+  "speaker": "Unknown",
+  "en": "So again, these benefits of having AI test your flow is it will test failure states as well as success states.",
+  "zh": "所以再说一次，让 AI 测试你的流程的这些好处是它会测试失败状态以及成功状态。"
+ },
+ {
+  "seg": 106,
+  "start": 599.033,
+  "end": 603.455,
+  "speaker": "Unknown",
+  "en": "It actually bubble up edge case bugs that you might not have thought of.",
+  "zh": "它实际上会浮现出你可能没有想到的边缘情况 bug。"
+ },
+ {
+  "seg": 107,
+  "start": 603.495,
+  "end": 607.937,
+  "speaker": "Unknown",
+  "en": "And so it's going to continue through and actually work and go to the next screen.",
+  "zh": "所以它会继续下去，实际运作，并进入下一个屏幕。"
+ },
+ {
+  "seg": 108,
+  "start": 607.977,
+  "end": 611.179,
+  "speaker": "Unknown",
+  "en": "I'm curious if it will spin up mobile testing next.",
+  "zh": "我很好奇它接下来是否会启动移动端测试。"
+ },
+ {
+  "seg": 109,
+  "start": 612.133,
+  "end": 615.295,
+  "speaker": "Unknown",
+  "en": "OK, you can see now it's also switched to mobile testing.",
+  "zh": "好的，你现在可以看到它也切换到了移动端测试。"
+ },
+ {
+  "seg": 110,
+  "start": 615.395,
+  "end": 622.938,
+  "speaker": "Unknown",
+  "en": "Again, this is something I would probably give a cursory glance to, like I would make the browser smaller and then kind of click through stuff and make sure it works.",
+  "zh": "再说一次，这可能是我会草草看一眼的东西，比如我会把浏览器变小，然后随便点击一些东西，确保它能工作。"
+ },
+ {
+  "seg": 111,
+  "start": 623.839,
+  "end": 628.301,
+  "speaker": "Unknown",
+  "en": "But what I really love about browser use is, again, it's going to be just a lot more exhaustive.",
+  "zh": "但我真正喜欢浏览器使用的一点是，再说一次，它会更加详尽无遗。"
+ },
+ {
+  "seg": 112,
+  "start": 628.341,
+  "end": 631.123,
+  "speaker": "Unknown",
+  "en": "It's going to look at things like accessibility.",
+  "zh": "它会查看诸如可访问性之类的东西。"
+ },
+ {
+  "seg": 113,
+  "start": 631.183,
+  "end": 632.523,
+  "speaker": "Unknown",
+  "en": "It's going to look at overflow.",
+  "zh": "它会查看溢出。"
+ },
+ {
+  "seg": 114,
+  "start": 632.563,
+  "end": 641.368,
+  "speaker": "Unknown",
+  "en": "It's going to look at touch targets, all that kind of stuff, and just has a much more organized sense of what makes for good mobile testing.",
+  "zh": "它会查看触摸目标，所有这类东西，并且对于什么是好的移动端测试有一个更有条理的概念。"
+ },
+ {
+  "seg": 115,
+  "start": 642.008,
+  "end": 649.13,
+  "speaker": "Unknown",
+  "en": "Okay, so it wrapped up, it found 11 items, including one high severity navigation blocker, the one we talked about.",
+  "zh": "好的，所以它完成了，它发现了 11 个项目，包括一个高严重性的导航阻塞项，就是我们谈到的那一个。"
+ },
+ {
+  "seg": 116,
+  "start": 649.57,
+  "end": 655.171,
+  "speaker": "Unknown",
+  "en": "And now this is one of my favorite things that I do with AI is I just have it make me a Google Sheet or a Google document.",
+  "zh": "现在这是我用 AI 做的我最喜欢的事情之一，我只是让它给我做一个 Google 表格或一个 Google 文档。"
+ },
+ {
+  "seg": 117,
+  "start": 655.651,
+  "end": 657.831,
+  "speaker": "Unknown",
+  "en": "And it's going to make me one which is prioritized.",
+  "zh": "它会给我做一个带有优先级的。"
+ },
+ {
+  "seg": 118,
+  "start": 657.871,
+  "end": 665.053,
+  "speaker": "Unknown",
+  "en": "And then what I can do is use that Google Sheet as a tracker to kick off a bunch of fixes and track the status of them with subagents.",
+  "zh": "然后我能做的是使用那个 Google 表格作为一个跟踪器，启动一系列修复，并用子智能体跟踪它们的状态。"
+ },
+ {
+  "seg": 119,
+  "start": 665.233,
+  "end": 668.535,
+  "speaker": "Unknown",
+  "en": "So again, this is a very comprehensive QA that was done.",
+  "zh": "所以再说一次，这是一个非常全面的 QA。"
+ },
+ {
+  "seg": 120,
+  "start": 668.615,
+  "end": 671.056,
+  "speaker": "Unknown",
+  "en": "I get this beautiful list of issues that came out.",
+  "zh": "我得到了这个漂亮的问题列表。"
+ },
+ {
+  "seg": 121,
+  "start": 671.556,
+  "end": 676.018,
+  "speaker": "Unknown",
+  "en": "I can get those fixed ASAP and it ends up in a sheet.",
+  "zh": "我可以尽快修复它们，它最终会出现在一个表格中。"
+ },
+ {
+  "seg": 122,
+  "start": 676.719,
+  "end": 680.481,
+  "speaker": "Unknown",
+  "en": "Okay, so it wrapped up and it did everything I asked it to.",
+  "zh": "好的，所以它完成了，并且做了我要求它做的一切。"
+ },
+ {
+  "seg": 123,
+  "start": 680.721,
+  "end": 682.742,
+  "speaker": "Unknown",
+  "en": "It tested it in desktop and mobile.",
+  "zh": "它在桌面端和移动端测试了它。"
+ },
+ {
+  "seg": 124,
+  "start": 682.922,
+  "end": 687.484,
+  "speaker": "Unknown",
+  "en": "It gave me these beautiful screenshots telling me what work and it even made a spreadsheet.",
+  "zh": "它给了我这些漂亮的截图告诉我哪些有效，它甚至做了一个电子表格。"
+ },
+ {
+  "seg": 125,
+  "start": 687.504,
+  "end": 690.766,
+  "speaker": "Unknown",
+  "en": "Let's see if this spreadsheet is actually, if I can pull it up.",
+  "zh": "看看这个电子表格是不是实际上，如果我能把它拉出来的话。"
+ },
+ {
+  "seg": 126,
+  "start": 691.526,
+  "end": 698.616,
+  "speaker": "Unknown",
+  "en": "So I love this workflow, which is to have Codex make you a spreadsheet of issues that then it's going to go fix.",
+  "zh": "所以我喜欢这个工作流，就是让 Codex 为你制作一个问题的电子表格，然后它去修复。"
+ },
+ {
+  "seg": 127,
+  "start": 698.656,
+  "end": 699.798,
+  "speaker": "Unknown",
+  "en": "And so it has this nice summary.",
+  "zh": "所以它有一个不错的摘要。"
+ },
+ {
+  "seg": 128,
+  "start": 699.838,
+  "end": 702.862,
+  "speaker": "Unknown",
+  "en": "It found 11 issues, one that was high severity.",
+  "zh": "它发现了 11 个问题，其中一个是高严重性的。"
+ },
+ {
+  "seg": 129,
+  "start": 704.075,
+  "end": 705.697,
+  "speaker": "Unknown",
+  "en": "It listed out all the issues.",
+  "zh": "它列出了所有问题。"
+ },
+ {
+  "seg": 130,
+  "start": 705.797,
+  "end": 717.949,
+  "speaker": "Unknown",
+  "en": "Again, this is really useful for agents because it has all the information it needs to reproduce the issue, the viewport, what the issue was, what the steps are to fix it, and then how to remediate it.",
+  "zh": "再说一次，这对智能体真的很有用，因为它有重现问题所需的所有信息，视口，问题是什么，修复它的步骤是什么，以及如何补救它。"
+ },
+ {
+  "seg": 131,
+  "start": 718.109,
+  "end": 718.97,
+  "speaker": "Unknown",
+  "en": "And then look at this.",
+  "zh": "然后看看这个。"
+ },
+ {
+  "seg": 132,
+  "start": 719.09,
+  "end": 725.376,
+  "speaker": "Unknown",
+  "en": "It put all the screenshots here in the spreadsheet so I could reference them and even compare them to fixes.",
+  "zh": "它把所有的截图都放在电子表格里，这样我可以参考它们，甚至将它们与修复进行对比。"
+ },
+ {
+  "seg": 133,
+  "start": 726.523,
+  "end": 731.007,
+  "speaker": "Unknown",
+  "en": "This is just a very practical use case of browser use that I think is really nice.",
+  "zh": "这只是一个非常实用的浏览器使用案例，我认为真的很好。"
+ },
+ {
+  "seg": 134,
+  "start": 731.068,
+  "end": 736.093,
+  "speaker": "Unknown",
+  "en": "But what I want to show you is the same thing, but a slightly more fun use case.",
+  "zh": "但我想向你展示的是同一件事，但稍微更有趣一点的用例。"
+ },
+ {
+  "seg": 135,
+  "start": 736.473,
+  "end": 742.479,
+  "speaker": "Unknown",
+  "en": "So I'm going to go in here, I'm going to go to the core of ChatPRD, and I'm going to show you a use case that my husband came up with.",
+  "zh": "所以我要进入这里，我要去 ChatPRD 的核心，我要向你展示一个我的丈夫想出的用例。"
+ },
+ {
+  "seg": 136,
+  "start": 742.499,
+  "end": 744.781,
+  "speaker": "Unknown",
+  "en": "I have to give him credit, my husband, EJ Lalas.",
+  "zh": "我必须归功于他，我的丈夫，EJ Lalas。"
+ },
+ {
+  "seg": 137,
+  "start": 745.952,
+  "end": 755.503,
+  "speaker": "Unknown",
+  "en": "And he uses browser use to impersonate specific personas of his applications and then give feedback as the persona.",
+  "zh": "他使用浏览器使用来模拟他应用程序的特定人物角色，然后以该角色身份给出反馈。"
+ },
+ {
+  "seg": 138,
+  "start": 755.523,
+  "end": 757.645,
+  "speaker": "Unknown",
+  "en": "So let me just give an example of what this might look like.",
+  "zh": "所以让我举一个这可能是什么样子的例子。"
+ },
+ {
+  "seg": 139,
+  "start": 757.665,
+  "end": 759.907,
+  "speaker": "Unknown",
+  "en": "And I'm going to pull up monologue and just speak my prompt.",
+  "zh": "我要打开 monologue 并直接说出我的提示词。"
+ },
+ {
+  "seg": 140,
+  "start": 760.828,
+  "end": 769.511,
+  "speaker": "Unknown",
+  "en": "I want you to go through the core of ChatPRD's chat and document creation mode as two different personas.",
+  "zh": "我希望您以两个不同的角色身份体验 ChatPRD 的聊天和文档创建模式的核心。"
+ },
+ {
+  "seg": 141,
+  "start": 769.651,
+  "end": 770.912,
+  "speaker": "Unknown",
+  "en": "Actually, three different personas.",
+  "zh": "实际上，三个不同的角色。"
+ },
+ {
+  "seg": 142,
+  "start": 771.392,
+  "end": 779.055,
+  "speaker": "Unknown",
+  "en": "I want you to do one as a product manager trying to quickly create PRD for a feature that they just got out of a meeting.",
+  "zh": "我希望你做其中一个作为一个产品经理，试图为他们刚从会议中出来的一个功能快速创建 PRD。"
+ },
+ {
+  "seg": 143,
+  "start": 780.435,
+  "end": 792.1,
+  "speaker": "Unknown",
+  "en": "The second thing I want you to do is impersonate a engineer who is taking that already created PRD and trying to make a technical spec out of it and eventually a prototype.",
+  "zh": "我希望你做的第二件事是模拟一个工程师，拿到那个已经创建好的 PRD，并试图从中制定技术规范，最终做出原型。"
+ },
+ {
+  "seg": 144,
+  "start": 792.56,
+  "end": 800.383,
+  "speaker": "Unknown",
+  "en": "And the third thing that I want you to do is as a team leader, try to figure out how your team is using ChatPRD.",
+  "zh": "我希望你做的第三件事是作为一个团队领导者，试着弄清楚你的团队是如何使用 ChatPRD 的。"
+ },
+ {
+  "seg": 145,
+  "start": 800.463,
+  "end": 803.124,
+  "speaker": "Unknown",
+  "en": "I'm gonna give you no more instructions than just that.",
+  "zh": "我给你的指示只有这些，不再多了。"
+ },
+ {
+  "seg": 146,
+  "start": 803.184,
+  "end": 806.806,
+  "speaker": "Unknown",
+  "en": "I want you to go through those three persona use cases and flows.",
+  "zh": "我希望你体验这三个角色用例和流程。"
+ },
+ {
+  "seg": 147,
+  "start": 807.206,
+  "end": 809.007,
+  "speaker": "Unknown",
+  "en": "And then I want you to create a doc",
+  "zh": "然后我希望你创建一个文档"
+ },
+ {
+  "seg": 148,
+  "start": 809.467,
+  "end": 821.236,
+  "speaker": "Unknown",
+  "en": "Providing research style critique about the overall experience, including friction points, places of delight, and improvements you think we can make to serve those three personas better.",
+  "zh": "提供研究风格的评论，关于整体体验，包括摩擦点、令人愉悦的地方，以及你认为我们可以做的改进，以便更好地为这三个角色服务。"
+ },
+ {
+  "seg": 149,
+  "start": 822.022,
+  "end": 823.323,
+  "speaker": "Unknown",
+  "en": "Okay, so I got that prompt in.",
+  "zh": "好的，所以我输入了那个提示词。"
+ },
+ {
+  "seg": 150,
+  "start": 823.343,
+  "end": 824.224,
+  "speaker": "Unknown",
+  "en": "I'm going to click enter.",
+  "zh": "我要点击回车了。"
+ },
+ {
+  "seg": 151,
+  "start": 824.264,
+  "end": 837.215,
+  "speaker": "Unknown",
+  "en": "So just to like reiterate what this is, if you have personas and you want to test against those personas, now like I'm not a big synthetic user girl, but I do kind of like this framework.",
+  "zh": "所以就像重申一下这是什么，如果你有这些角色，你想针对这些角色进行测试，现在我不是一个很大的合成用户女孩，但我确实有点喜欢这个框架。"
+ },
+ {
+  "seg": 152,
+  "start": 837.235,
+  "end": 843.36,
+  "speaker": "Unknown",
+  "en": "We used to always do this with our prompting where we're like, you are a genius product manager or you are the best software engineer in the world.",
+  "zh": "我们以前总是在我们的提示词里这样做，我们会说，你是一个天才产品经理，或者你是世界上最好的软件工程师。"
+ },
+ {
+  "seg": 153,
+  "start": 843.86,
+  "end": 848.661,
+  "speaker": "Unknown",
+  "en": "Now I'm using that, but I'm using browser use and saying you are a persona type.",
+  "zh": "现在我正在用那个，但我正在使用浏览器使用，并说你是一个角色类型。"
+ },
+ {
+  "seg": 154,
+  "start": 849.201,
+  "end": 857.624,
+  "speaker": "Unknown",
+  "en": "Use my application as that persona and then give me research as you go through the browser experience about what you like and don't like.",
+  "zh": "以那个角色身份使用我的应用程序，然后在你浏览浏览器体验时给我关于你喜欢和不喜欢的调查结果。"
+ },
+ {
+  "seg": 155,
+  "start": 857.644,
+  "end": 862.045,
+  "speaker": "Unknown",
+  "en": "So I'm going to let that run a little bit and then I will show you what we come up with when it's done.",
+  "zh": "所以我要让它运行一会儿，然后当它完成时我会向你展示我们得出了什么。"
+ },
+ {
+  "seg": 156,
+  "start": 862.565,
+  "end": 865.348,
+  "speaker": "Unknown",
+  "en": "As you can see here, it's going down the PM path.",
+  "zh": "正如你在这里看到的，它正在走 PM 路径。"
+ },
+ {
+  "seg": 157,
+  "start": 865.628,
+  "end": 872.314,
+  "speaker": "Unknown",
+  "en": "It just put a fake prompt in that says, hey, I just got out of a customer design meeting about a decision digest feature in ChatPRD.",
+  "zh": "它刚刚输入了一个假的提示词，说，嘿，我刚刚结束了一个关于 ChatPRD 中的决策摘要功能的客户设计会议。"
+ },
+ {
+  "seg": 158,
+  "start": 872.394,
+  "end": 873.495,
+  "speaker": "Unknown",
+  "en": "Here are the problems.",
+  "zh": "这里是问题。"
+ },
+ {
+  "seg": 159,
+  "start": 873.996,
+  "end": 875.277,
+  "speaker": "Unknown",
+  "en": "Here's kind of what I want.",
+  "zh": "这有点是我想要的。"
+ },
+ {
+  "seg": 160,
+  "start": 875.297,
+  "end": 876.458,
+  "speaker": "Unknown",
+  "en": "Here are some open questions.",
+  "zh": "这里有一些开放性问题。"
+ },
+ {
+  "seg": 161,
+  "start": 876.558,
+  "end": 879.901,
+  "speaker": "Unknown",
+  "en": "And now it's watching ChatPRD create the document.",
+  "zh": "现在它正在观看 ChatPRD 创建文档。"
+ },
+ {
+  "seg": 162,
+  "start": 879.921,
+  "end": 884.165,
+  "speaker": "Unknown",
+  "en": "I'm really curious if it will actually analyze the quality of the document.",
+  "zh": "我真的很好奇它是否真的会分析文档的质量。"
+ },
+ {
+  "seg": 163,
+  "start": 884.785,
+  "end": 886.726,
+  "speaker": "Unknown",
+  "en": "Thank you so much for watching.",
+  "zh": "非常感谢大家的观看。"
+ },
+ {
+  "seg": 164,
+  "start": 906.793,
+  "end": 911.397,
+  "speaker": "Unknown",
+  "en": "But it's going to go through and give me an analysis as that first persona and then we're going to see it work through the rest of them.",
+  "zh": "但它会继续进行并作为第一个角色给我分析，然后我们将看到它处理剩下的角色。"
+ },
+ {
+  "seg": 165,
+  "start": 911.858,
+  "end": 919.245,
+  "speaker": "Unknown",
+  "en": "This episode is brought to you by HyperAgent, the platform for deploying always-on agents that actually run your business.",
+  "zh": "这一集由 HyperAgent 赞助，这是部署真正经营你业务的常驻智能体的平台。"
+ },
+ {
+  "seg": 166,
+  "start": 919.945,
+  "end": 926.912,
+  "speaker": "Unknown",
+  "en": "With HyperAgent, you build agents in the cloud and deploy them where your work already happens, like Slack, Telegram, or email.",
+  "zh": "使用 HyperAgent，你在云端构建智能体，并将它们部署在你工作已经发生的地方，比如 Slack、Telegram 或电子邮件。"
+ },
+ {
+  "seg": 167,
+  "start": 927.492,
+  "end": 931.036,
+  "speaker": "Unknown",
+  "en": "An agent will scan your inbox and draft replies to vendor follow-ups.",
+  "zh": "一个智能体会扫描你的收件箱并起草给供应商后续跟进的回复。"
+ },
+ {
+  "seg": 168,
+  "start": 931.477,
+  "end": 935.701,
+  "speaker": "Unknown",
+  "en": "Another monitors competitors and spins up rich ad kits and landing pages.",
+  "zh": "另一个监控竞争对手并快速生成丰富的广告工具包和着陆页。"
+ },
+ {
+  "seg": 169,
+  "start": 936.322,
+  "end": 941.948,
+  "speaker": "Unknown",
+  "en": "A third notices a deal going cold in Salesforce and writes the save email with full account context.",
+  "zh": "第三个注意到 Salesforce 中一笔交易正在变冷，并写下了带有完整账户背景的挽救邮件。"
+ },
+ {
+  "seg": 170,
+  "start": 942.529,
+  "end": 944.89,
+  "speaker": "Unknown",
+  "en": "These aren't chatbots waiting for a perfect prompt.",
+  "zh": "这些不是等待完美提示词的聊天机器人。"
+ },
+ {
+  "seg": 171,
+  "start": 945.31,
+  "end": 950.491,
+  "speaker": "Unknown",
+  "en": "They're proactive, learning your preferences, retaining your playbooks, and getting better with every run.",
+  "zh": "它们是主动的，学习你的偏好，保留你的剧本，并且每次运行都会变得更好。"
+ },
+ {
+  "seg": 172,
+  "start": 951.351,
+  "end": 959.473,
+  "speaker": "Unknown",
+  "en": "One user built four agents to run an outbound sales pipeline, prospecting, outreach, follow-ups, CRM updates, all in a single afternoon.",
+  "zh": "一个用户构建了四个智能体来运行外呼销售流水线，寻找潜在客户、外联、跟进、CRM 更新，全都在一个下午完成。"
+ },
+ {
+  "seg": 173,
+  "start": 960.133,
+  "end": 969.415,
+  "speaker": "Unknown",
+  "en": "No local setup, no VPS bills, no fragile permissions on your laptop, just powerful agents with full control over skills, tools, and guardrails.",
+  "zh": "没有本地设置，没有 VPS 账单，没有你笔记本电脑上脆弱的权限，只有强大的智能体，完全控制技能、工具和护栏。"
+ },
+ {
+  "seg": 174,
+  "start": 970.135,
+  "end": 978.378,
+  "speaker": "Unknown",
+  "en": "HyperAgent was built by the team behind Airtable and HowIAI listeners get $1,000 in free inference to start building.",
+  "zh": "HyperAgent 是由 Airtable 背后的团队构建的，HowIAI 的听众可以获得 1000 美元的免费推理额度来开始构建。"
+ },
+ {
+  "seg": 175,
+  "start": 978.879,
+  "end": 983.981,
+  "speaker": "Unknown",
+  "en": "Claim yours at hyperagent.com slash HowIAI.",
+  "zh": "请在 hyperagent.com/HowIAI 领取你的额度。"
+ },
+ {
+  "seg": 176,
+  "start": 984.821,
+  "end": 990.003,
+  "speaker": "Unknown",
+  "en": "Okay, so I love this internal kind of like chain of thought that you get with browser use.",
+  "zh": "好的，所以我喜欢这种你在浏览器使用中获得的内部思维链。"
+ },
+ {
+  "seg": 177,
+  "start": 990.043,
+  "end": 992.304,
+  "speaker": "Unknown",
+  "en": "So what it tried to do was do the handoff from PM.",
+  "zh": "所以它试图做的是从 PM 那里进行交接。"
+ },
+ {
+  "seg": 178,
+  "start": 992.904,
+  "end": 993.944,
+  "speaker": "Unknown",
+  "en": "To engineering.",
+  "zh": "给工程。"
+ },
+ {
+  "seg": 179,
+  "start": 994.145,
+  "end": 1006.129,
+  "speaker": "Unknown",
+  "en": "And what you see here is that the engineer handoff exposed a structural break, which is a real issue in chat purity, which is you can create one document, but you can't like at mention or reference it in another thread.",
+  "zh": "你在这里看到的是，工程师交接暴露了一个结构性断裂，这是聊天纯度中的一个真正问题，即你可以创建一个文档，但你不能像 @ 提及或在另一个线程中引用它。"
+ },
+ {
+  "seg": 180,
+  "start": 1006.169,
+  "end": 1008.75,
+  "speaker": "Unknown",
+  "en": "It's something that we're working on or thinking through how we want to reference.",
+  "zh": "这是我们正在正在工作或正在思考的事情，我们要如何引用。"
+ },
+ {
+  "seg": 181,
+  "start": 1009.211,
+  "end": 1014.893,
+  "speaker": "Unknown",
+  "en": "It works in a specific way, but obviously the agent here, the Codex agent thought.",
+  "zh": "它以一种特定方式工作，但显然这里的智能体，Codex 智能体认为。"
+ },
+ {
+  "seg": 182,
+  "start": 1015.653,
+  "end": 1020.218,
+  "speaker": "Unknown",
+  "en": "...reasoned that this feature would work a different way.",
+  "zh": "……推断这个功能会以不同的方式工作。"
+ },
+ {
+  "seg": 183,
+  "start": 1020.298,
+  "end": 1034.512,
+  "speaker": "Unknown",
+  "en": "And so it's really interesting when you combine browser use with sort of this AI chatbot, how you start to inhabit the mindset of a persona or a type of user and actually identify",
+  "zh": "所以当你把浏览器使用和这种 AI 聊天机器人结合起来时，真的很有趣，你如何开始占据一个角色或一种类型用户的心态，并实际识别出"
+ },
+ {
+  "seg": 184,
+  "start": 1035.173,
+  "end": 1046.556,
+  "speaker": "Unknown",
+  "en": "Really obvious, but kind of like hard to get your head wrapped around friction points where someone with fresh eyes, again, these are agent eyes, I'm sorry, I don't know a better metaphor, might have a challenge.",
+  "zh": "真正显而易见，但有点难以理解的摩擦点，对于有着新鲜眼光的人来说，再次说明，这些是智能体眼睛，抱歉，我不知道更好的比喻，可能会有挑战。"
+ },
+ {
+  "seg": 185,
+  "start": 1046.576,
+  "end": 1052.538,
+  "speaker": "Unknown",
+  "en": "And so it went back to the document, said, I'm the engineer picking up this PRD, turn it into an implementation-ready technical spec.",
+  "zh": "所以它回到了文档，说，我是接手这个 PRD 的工程师，把它变成一个准备好实施的技术规格。"
+ },
+ {
+  "seg": 186,
+  "start": 1052.738,
+  "end": 1057.58,
+  "speaker": "Unknown",
+  "en": "We'll see what the experience is and if the agent is happy.",
+  "zh": "我们会看看体验如何，以及智能体是否满意。"
+ },
+ {
+  "seg": 187,
+  "start": 1058.18,
+  "end": 1072.767,
+  "speaker": "Unknown",
+  "en": "OK, it called out something really interesting here, which I don't know if is an artifact of this running locally and something weird being happening locally, but it did call out that the loading screen was super slow and opaque and the interface didn't really make it clear what was happening when it was writing.",
+  "zh": "好的，它在这里指出了非常有趣的事情，我不知道这是否是这在本地运行的产物以及本地发生了一些奇怪的事情，但它确实指出加载屏幕非常慢和不透明，而且界面并没有真正弄清楚它在写的时候发生了什么。"
+ },
+ {
+  "seg": 188,
+  "start": 1072.827,
+  "end": 1079.03,
+  "speaker": "Unknown",
+  "en": "I think we hit an error, but this is really good feedback for me because, again, I want to make sure even if we have a failure state.",
+  "zh": "我想我们遇到了一个错误，但这对我来说真的是很好的反馈，因为，再次，我想确保即使我们有一个失败状态。"
+ },
+ {
+  "seg": 189,
+  "start": 1079.59,
+  "end": 1081.752,
+  "speaker": "Unknown",
+  "en": "It's going to make sense, quote unquote, to the user.",
+  "zh": "它对用户来说将是，所谓的，有意义的。"
+ },
+ {
+  "seg": 190,
+  "start": 1081.832,
+  "end": 1101.188,
+  "speaker": "Unknown",
+  "en": "So just to take a step back, I really love this use case of coming up with a persona that kind of inhabits the mind and in this world, the body of your user, and then have them going through your website using browser use and giving you a report of what works and what doesn't.",
+  "zh": "所以退一步说，我真的喜欢这个用例，想出一个某种程度上占据你的用户的思想，在这个世界上，占据你的用户的身体的角色，然后让他们使用浏览器使用浏览你的网站并给你一份关于什么有效和什么无效的报告。"
+ },
+ {
+  "seg": 191,
+  "start": 1101.755,
+  "end": 1103.235,
+  "speaker": "Unknown",
+  "en": "Okay, so those are my building use cases.",
+  "zh": "好的，所以这些是我的构建用例。"
+ },
+ {
+  "seg": 192,
+  "start": 1103.255,
+  "end": 1106.996,
+  "speaker": "Unknown",
+  "en": "I'm gonna sit through a couple other use cases that I think are kind of fun.",
+  "zh": "我要再讲几个我认为很有趣的用例。"
+ },
+ {
+  "seg": 193,
+  "start": 1107.056,
+  "end": 1113.018,
+  "speaker": "Unknown",
+  "en": "So my favorite one, I've talked about this a little bit briefly before, which is browser use for LinkedIn.",
+  "zh": "所以我最喜欢的一个，我以前简短地谈过一点，这就是 LinkedIn 的浏览器使用。"
+ },
+ {
+  "seg": 194,
+  "start": 1113.078,
+  "end": 1116.098,
+  "speaker": "Unknown",
+  "en": "LinkedIn, close your eyes, close your ears, do not pay attention.",
+  "zh": "LinkedIn，闭上你的眼睛，捂上你的耳朵，不要注意。"
+ },
+ {
+  "seg": 195,
+  "start": 1116.658,
+  "end": 1121.46,
+  "speaker": "Unknown",
+  "en": "But I like to log into LinkedIn here in my sidebar.",
+  "zh": "但我喜欢在这里的侧边栏登录 LinkedIn。"
+ },
+ {
+  "seg": 196,
+  "start": 1121.72,
+  "end": 1130.442,
+  "speaker": "Unknown",
+  "en": "And then I like to say, please use browser to go through my recent unread messages.",
+  "zh": "然后我喜欢说，请使用浏览器浏览我最近未读的消息。"
+ },
+ {
+  "seg": 197,
+  "start": 1132.422,
+  "end": 1141.687,
+  "speaker": "Unknown",
+  "en": "And reply to any that are super critical for chat purity or the podcast.",
+  "zh": "并回复任何对聊天纯度或播客超级关键的消息。"
+ },
+ {
+  "seg": 198,
+  "start": 1141.847,
+  "end": 1146.95,
+  "speaker": "Unknown",
+  "en": "Leave me notes here on the others about how I should reply.",
+  "zh": "在其他的消息上给我留在这里关于我应该如何回复的笔记。"
+ },
+ {
+  "seg": 199,
+  "start": 1146.97,
+  "end": 1153.253,
+  "speaker": "Unknown",
+  "en": "If this is just a friendly thank you note, reply in a friendly way.",
+  "zh": "如果这只是一个友好的感谢便条，以友好的方式回复。"
+ },
+ {
+  "seg": 200,
+  "start": 1155.846,
+  "end": 1161.592,
+  "speaker": "Unknown",
+  "en": "So this is just like the easiest way to go through the pile of LinkedIn requests I get.",
+  "zh": "所以这就像是浏览我收到的那堆 LinkedIn 请求最简单的方法。"
+ },
+ {
+  "seg": 201,
+  "start": 1162.032,
+  "end": 1162.633,
+  "speaker": "Unknown",
+  "en": "I love you all.",
+  "zh": "我爱你们大家。"
+ },
+ {
+  "seg": 202,
+  "start": 1162.673,
+  "end": 1164.395,
+  "speaker": "Unknown",
+  "en": "Thank you for connecting with me on LinkedIn.",
+  "zh": "谢谢你们在 LinkedIn 上连接我。"
+ },
+ {
+  "seg": 203,
+  "start": 1164.435,
+  "end": 1168.199,
+  "speaker": "Unknown",
+  "en": "I'm happy to be connected, but I get hundreds of these.",
+  "zh": "我很高兴建立连接，但我收到了几百个这样的。"
+ },
+ {
+  "seg": 204,
+  "start": 1168.319,
+  "end": 1171.222,
+  "speaker": "Unknown",
+  "en": "And so I love to use browser use to just.",
+  "zh": "所以我喜欢使用浏览器使用去只是。"
+ },
+ {
+  "seg": 205,
+  "start": 1172.618,
+  "end": 1175.56,
+  "speaker": "Unknown",
+  "en": "Go through LinkedIn, click through stuff, read it.",
+  "zh": "浏览 LinkedIn，点击浏览内容，阅读它。"
+ },
+ {
+  "seg": 206,
+  "start": 1175.66,
+  "end": 1179.763,
+  "speaker": "Unknown",
+  "en": "Again, LinkedIn doesn't have an MCP or an API that's official.",
+  "zh": "再次，LinkedIn 没有一个 MCP 或官方的 API。"
+ },
+ {
+  "seg": 207,
+  "start": 1179.823,
+  "end": 1183.385,
+  "speaker": "Unknown",
+  "en": "So we're using unofficial channels here to go through stuff.",
+  "zh": "所以我们在这里使用非官方渠道来浏览内容。"
+ },
+ {
+  "seg": 208,
+  "start": 1183.865,
+  "end": 1188.248,
+  "speaker": "Unknown",
+  "en": "One of the other things that I noticed is I am using high effort on 5.6 Sol for this.",
+  "zh": "我注意到的另一件事是，我在这个上对 5.6 Sol 使用了高努力。"
+ },
+ {
+  "seg": 209,
+  "start": 1188.368,
+  "end": 1190.93,
+  "speaker": "Unknown",
+  "en": "I probably can use Terra on medium effort.",
+  "zh": "我大概可以在中等努力下使用 Terra。"
+ },
+ {
+  "seg": 210,
+  "start": 1191.43,
+  "end": 1192.05,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "谢谢观看。"
+ },
+ {
+  "seg": 211,
+  "start": 1209.975,
+  "end": 1211.836,
+  "speaker": "Unknown",
+  "en": "All right, so as you can see, it's pulling up LinkedIn.",
+  "zh": "好的，正如你所见，它正在调出 LinkedIn。"
+ },
+ {
+  "seg": 212,
+  "start": 1212.376,
+  "end": 1213.776,
+  "speaker": "Unknown",
+  "en": "It's going through my messages.",
+  "zh": "它正在浏览我的消息。"
+ },
+ {
+  "seg": 213,
+  "start": 1213.836,
+  "end": 1215.077,
+  "speaker": "Unknown",
+  "en": "Christy is my friend.",
+  "zh": "Christy 是我的朋友。"
+ },
+ {
+  "seg": 214,
+  "start": 1215.117,
+  "end": 1217.177,
+  "speaker": "Unknown",
+  "en": "We used to be colleagues.",
+  "zh": "我们曾经是同事。"
+ },
+ {
+  "seg": 215,
+  "start": 1217.217,
+  "end": 1219.518,
+  "speaker": "Unknown",
+  "en": "She's asking me to meet with her CEO.",
+  "zh": "她要求我和她的 CEO 会面。"
+ },
+ {
+  "seg": 216,
+  "start": 1219.558,
+  "end": 1225.96,
+  "speaker": "Unknown",
+  "en": "We're gonna see it reply back a message, go to unreads, and then actually filter through this.",
+  "zh": "我们将看到它回复一条消息，转到未读，然后实际上过滤这些。"
+ },
+ {
+  "seg": 217,
+  "start": 1226.02,
+  "end": 1237.023,
+  "speaker": "Unknown",
+  "en": "So if you're like me, if you have tons of LinkedIn connections, LinkedIn comments, need to figure out how to get through this stuff, I love using browser use to go through those use cases.",
+  "zh": "所以如果你像我一样，如果你有大量的 LinkedIn 连接、LinkedIn 评论，需要弄清楚如何处理这些事情，我喜欢使用浏览器使用来处理那些用例。"
+ },
+ {
+  "seg": 218,
+  "start": 1238.167,
+  "end": 1241.789,
+  "speaker": "Unknown",
+  "en": "I'm going to wrap this up with a browser use case for the girls.",
+  "zh": "我将用给女孩子们的浏览器使用案例来结束这个。"
+ },
+ {
+  "seg": 219,
+  "start": 1242.569,
+  "end": 1246.111,
+  "speaker": "Unknown",
+  "en": "Gents, others, if you want to use this one, please do.",
+  "zh": "先生们，其他人，如果你想用这个，请便。"
+ },
+ {
+  "seg": 220,
+  "start": 1246.191,
+  "end": 1249.292,
+  "speaker": "Unknown",
+  "en": "But I'm going to use at Chrome.",
+  "zh": "但我要使用 at Chrome。"
+ },
+ {
+  "seg": 221,
+  "start": 1249.352,
+  "end": 1252.494,
+  "speaker": "Unknown",
+  "en": "So I'm going to show you how you use the computer use, but specifically for Chrome.",
+  "zh": "所以我要向你展示你如何使用计算机使用，特别是针对 Chrome。"
+ },
+ {
+  "seg": 222,
+  "start": 1252.554,
+  "end": 1256.876,
+  "speaker": "Unknown",
+  "en": "So I've been using at browser, which is the side window of Codex.",
+  "zh": "所以我一直在使用 at browser，这是 Codex 的侧边窗口。"
+ },
+ {
+  "seg": 223,
+  "start": 1256.896,
+  "end": 1258.056,
+  "speaker": "Unknown",
+  "en": "I'm going to use at Chrome.",
+  "zh": "我要使用 at Chrome。"
+ },
+ {
+  "seg": 224,
+  "start": 1258.436,
+  "end": 1263.959,
+  "speaker": "Unknown",
+  "en": "And I'm going to say, I'm going to Hawaii this weekend and I need new clothes.",
+  "zh": "我要说的是，我这个周末要去夏威夷，我需要新衣服。"
+ },
+ {
+  "seg": 225,
+  "start": 1264.179,
+  "end": 1264.819,
+  "speaker": "Unknown",
+  "en": "Good news!",
+  "zh": "好消息！"
+ },
+ {
+  "seg": 226,
+  "start": 1265,
+  "end": 1265.9,
+  "speaker": "Unknown",
+  "en": "Exclamation mark.",
+  "zh": "感叹号。"
+ },
+ {
+  "seg": 227,
+  "start": 1266.28,
+  "end": 1269.923,
+  "speaker": "Unknown",
+  "en": "Free people has 25% off their sale.",
+  "zh": "Free People 正在打折 25%。"
+ },
+ {
+  "seg": 228,
+  "start": 1270.584,
+  "end": 1278.15,
+  "speaker": "Unknown",
+  "en": "I would love for you to go through using Chrome browser use and pick out 10 items in my size.",
+  "zh": "我希望你使用 Chrome 浏览器使用去浏览，并挑选出 10 件我尺码的商品。"
+ },
+ {
+  "seg": 229,
+  "start": 1278.17,
+  "end": 1279.451,
+  "speaker": "Unknown",
+  "en": "You can pick size medium.",
+  "zh": "你可以选 M 码。"
+ },
+ {
+  "seg": 230,
+  "start": 1279.971,
+  "end": 1282.934,
+  "speaker": "Unknown",
+  "en": "That would be great for Hawaii.",
+  "zh": "那对于夏威夷来说会很棒。"
+ },
+ {
+  "seg": 231,
+  "start": 1283.094,
+  "end": 1285.015,
+  "speaker": "Unknown",
+  "en": "Remember, I'm a breastfeeding mom.",
+  "zh": "记住，我是个哺乳期的妈妈。"
+ },
+ {
+  "seg": 232,
+  "start": 1285.075,
+  "end": 1286.717,
+  "speaker": "Unknown",
+  "en": "I just had a baby six months ago.",
+  "zh": "我六个月前刚生了孩子。"
+ },
+ {
+  "seg": 233,
+  "start": 1287.237,
+  "end": 1295.161,
+  "speaker": "Unknown",
+  "en": "So pick things that are comfortable, that are breastfeeding friendly, and that would be great for the weather in Hawaii in late July.",
+  "zh": "所以挑选那些舒适的、便于哺乳的，并且适合夏威夷七月下旬天气的东西。"
+ },
+ {
+  "seg": 234,
+  "start": 1295.601,
+  "end": 1300.744,
+  "speaker": "Unknown",
+  "en": "What I want you to do is end up with 10 things in my cart that I can pick from and buy.",
+  "zh": "我要你做的是最终在我的购物车里放 10 件我可以从中挑选并购买的东西。"
+ },
+ {
+  "seg": 235,
+  "start": 1300.984,
+  "end": 1301.304,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 236,
+  "start": 1302.264,
+  "end": 1303.845,
+  "speaker": "Unknown",
+  "en": "Always say thank you to your AI.",
+  "zh": "永远要对你的 AI 说谢谢。"
+ },
+ {
+  "seg": 237,
+  "start": 1303.865,
+  "end": 1305.366,
+  "speaker": "Unknown",
+  "en": "Okay, so I'm going to put that in.",
+  "zh": "好的，所以我把它放进去。"
+ },
+ {
+  "seg": 238,
+  "start": 1306.56,
+  "end": 1308.042,
+  "speaker": "Unknown",
+  "en": "I should spin up.",
+  "zh": "我应该启动。"
+ },
+ {
+  "seg": 239,
+  "start": 1308.342,
+  "end": 1318.794,
+  "speaker": "Unknown",
+  "en": "It's going to use Chrome to curate 10 medium sale eligible pieces that are breathable, comfortable, and easy to nurse in, and then add them to my cart without checking out.",
+  "zh": "它将使用 Chrome 来挑选 10 件符合折扣条件的 M 码单品，这些单品透气、舒适且易于哺乳，然后将它们添加到我的购物车而不结账。"
+ },
+ {
+  "seg": 240,
+  "start": 1318.994,
+  "end": 1323.299,
+  "speaker": "Unknown",
+  "en": "And so again, this is something that can be happening over on the side.",
+  "zh": "所以再次，这是可以在旁边发生的事情。"
+ },
+ {
+  "seg": 241,
+  "start": 1323.419,
+  "end": 1324.9,
+  "speaker": "Unknown",
+  "en": "I do not need to think about it.",
+  "zh": "我不需要思考它。"
+ },
+ {
+  "seg": 242,
+  "start": 1325.001,
+  "end": 1325.902,
+  "speaker": "Unknown",
+  "en": "I do not need.",
+  "zh": "我不需要。"
+ },
+ {
+  "seg": 243,
+  "start": 1326.382,
+  "end": 1335.016,
+  "speaker": "Unknown",
+  "en": "To manage it or monitor it, it is, as you can see here, this little browser window will pop up and actually show you what it's doing.",
+  "zh": "去管理它或监控它，它是，正如你在这里看到的，这个小浏览器窗口会弹出并实际展示它在做什么。"
+ },
+ {
+  "seg": 244,
+  "start": 1335.056,
+  "end": 1341.105,
+  "speaker": "Unknown",
+  "en": "I think this is such a cool feature of Codex is that it will actually show you what it's browsing.",
+  "zh": "我认为这是 Codex 的一个如此酷的功能，它会实际向你展示它正在浏览什么。"
+ },
+ {
+  "seg": 245,
+  "start": 1342.416,
+  "end": 1347.117,
+  "speaker": "Unknown",
+  "en": "It's going to go through the sale and it's going to pick out outfits for me.",
+  "zh": "它将浏览打折商品并为我挑选服装。"
+ },
+ {
+  "seg": 246,
+  "start": 1347.197,
+  "end": 1356.739,
+  "speaker": "Unknown",
+  "en": "Now we're off to a bad start because I did say that I was a relatively new postpartum mom and it did pick a mini skirt.",
+  "zh": "现在我们开局不利，因为我确实说我是一个相对较新的产后妈妈，而它确实选了一条超短裙。"
+ },
+ {
+  "seg": 247,
+  "start": 1356.839,
+  "end": 1364.061,
+  "speaker": "Unknown",
+  "en": "So I'm not quite sure we'll see what good fashion sense that 5.6 Terra has.",
+  "zh": "所以我不太确定我们将看到 5.6 Terra 有多好的时尚感。"
+ },
+ {
+  "seg": 248,
+  "start": 1364.741,
+  "end": 1365.621,
+  "speaker": "Unknown",
+  "en": "TBD.",
+  "zh": "TBD。"
+ },
+ {
+  "seg": 249,
+  "start": 1366.122,
+  "end": 1371.863,
+  "speaker": "Unknown",
+  "en": "But again, just like think about these kind of like annoying shopping use cases that you have to use a browser for.",
+  "zh": "但是再次，就像想一想这些你必须使用浏览器的恼人的购物用例。"
+ },
+ {
+  "seg": 250,
+  "start": 1372.743,
+  "end": 1374.004,
+  "speaker": "Unknown",
+  "en": "Thank you so much for watching.",
+  "zh": "非常感谢您的观看。"
+ },
+ {
+  "seg": 251,
+  "start": 1387.752,
+  "end": 1388.932,
+  "speaker": "Unknown",
+  "en": "Bad news bears.",
+  "zh": "真是坏消息。"
+ },
+ {
+  "seg": 252,
+  "start": 1389.053,
+  "end": 1392.614,
+  "speaker": "Unknown",
+  "en": "Look, it thinks that I'm an agent, which I am.",
+  "zh": "看，它认为我是一个智能体，而我是的。"
+ },
+ {
+  "seg": 253,
+  "start": 1392.814,
+  "end": 1393.274,
+  "speaker": "Unknown",
+  "en": "Sorry.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 254,
+  "start": 1393.294,
+  "end": 1394.415,
+  "speaker": "Unknown",
+  "en": "This is much cuter.",
+  "zh": "这个可爱多了。"
+ },
+ {
+  "seg": 255,
+  "start": 1394.995,
+  "end": 1398.136,
+  "speaker": "Unknown",
+  "en": "So you might have to be the hands for your AI.",
+  "zh": "所以你可能必须做你 AI 的手。"
+ },
+ {
+  "seg": 256,
+  "start": 1398.276,
+  "end": 1399.997,
+  "speaker": "Unknown",
+  "en": "I tell people this all the time.",
+  "zh": "我一直告诉人们这一点。"
+ },
+ {
+  "seg": 257,
+  "start": 1400.057,
+  "end": 1407.539,
+  "speaker": "Unknown",
+  "en": "Sometimes we put AI to use for us, and then sometimes we need AI to put us to use.",
+  "zh": "有时我们让 AI 为我们所用，然后有时我们需要 AI 让我们发挥作用。"
+ },
+ {
+  "seg": 258,
+  "start": 1407.619,
+  "end": 1414.542,
+  "speaker": "Unknown",
+  "en": "And so sometimes I'm just the human verification layer on top of ChatGPT browser use.",
+  "zh": "所以有时我只是在 ChatGPT 浏览器使用之上的人工验证层。"
+ },
+ {
+  "seg": 259,
+  "start": 1414.642,
+  "end": 1415.922,
+  "speaker": "Unknown",
+  "en": "So again, this is the shop.",
+  "zh": "所以再说一次，这就是商店。"
+ },
+ {
+  "seg": 260,
+  "start": 1416.123,
+  "end": 1416.663,
+  "speaker": "Unknown",
+  "en": "We will see.",
+  "zh": "我们拭目以待。"
+ },
+ {
+  "seg": 261,
+  "start": 1417.703,
+  "end": 1422.847,
+  "speaker": "Unknown",
+  "en": "How successful it is if it adds stuff to the cart that I would really like.",
+  "zh": "如果它往购物车里添加的东西是我真正喜欢的，那它有多成功。"
+ },
+ {
+  "seg": 262,
+  "start": 1423.407,
+  "end": 1427.87,
+  "speaker": "Unknown",
+  "en": "But again, I hope this is getting your mind open on what browser use and computer use can do for you.",
+  "zh": "但再说一次，我希望这能打开你的思路，了解浏览器使用和计算机使用能为你做什么。"
+ },
+ {
+  "seg": 263,
+  "start": 1427.95,
+  "end": 1432.593,
+  "speaker": "Unknown",
+  "en": "Okay, I'm gonna list just a couple other things that I use browser and computer use for that you might find interesting.",
+  "zh": "好的，我要列出几件我用浏览器和计算机使用做的其他事情，你可能会觉得有趣。"
+ },
+ {
+  "seg": 264,
+  "start": 1432.813,
+  "end": 1435.135,
+  "speaker": "Unknown",
+  "en": "One, filling out really, really annoying forms.",
+  "zh": "第一，填写那些非常、非常烦人的表格。"
+ },
+ {
+  "seg": 265,
+  "start": 1435.195,
+  "end": 1446.983,
+  "speaker": "Unknown",
+  "en": "So if you ever have to do procurement forms, if you ever have to register your kid for camp, if you ever have to fill out an old, old, old website, browser and computer use is really,",
+  "zh": "所以如果你曾经要做采购表，如果你曾经要给孩子注册参加夏令营，如果你曾经要填一个超级老的旧网站，浏览器和计算机使用真的，"
+ },
+ {
+  "seg": 266,
+  "start": 1447.403,
+  "end": 1447.963,
+  "speaker": "Unknown",
+  "en": "Great for you.",
+  "zh": "对你很有用。"
+ },
+ {
+  "seg": 267,
+  "start": 1448.323,
+  "end": 1452.924,
+  "speaker": "Unknown",
+  "en": "Second one, browser and computer use can actually run your phone.",
+  "zh": "第二，浏览器和计算机使用实际上可以运行你的手机。"
+ },
+ {
+  "seg": 268,
+  "start": 1453.184,
+  "end": 1454.965,
+  "speaker": "Unknown",
+  "en": "I did this the other day.",
+  "zh": "我前几天就这样做了。"
+ },
+ {
+  "seg": 269,
+  "start": 1454.985,
+  "end": 1463.067,
+  "speaker": "Unknown",
+  "en": "So if you're on a Mac, you have something called iPhone mirroring where you can actually pull up a version of your phone on your desktop.",
+  "zh": "所以如果你用的是 Mac，你有一个叫 iPhone 镜像（iPhone mirroring）的功能，你实际上可以在桌面上调出你手机的版本。"
+ },
+ {
+  "seg": 270,
+  "start": 1463.507,
+  "end": 1466.227,
+  "speaker": "Unknown",
+  "en": "Computer use can use iPhone mirroring.",
+  "zh": "计算机使用可以使用 iPhone 镜像。"
+ },
+ {
+  "seg": 271,
+  "start": 1466.647,
+  "end": 1470.008,
+  "speaker": "Unknown",
+  "en": "So your computer can technically use your phone.",
+  "zh": "所以技术上讲，你的电脑可以使用你的手机。"
+ },
+ {
+  "seg": 272,
+  "start": 1470.488,
+  "end": 1471.889,
+  "speaker": "Unknown",
+  "en": "How did I use this recently?",
+  "zh": "我最近是怎么用这个的？"
+ },
+ {
+  "seg": 273,
+  "start": 1472.069,
+  "end": 1476.95,
+  "speaker": "Unknown",
+  "en": "Well, I was out of state and my Mac minis were sitting here on my desk here in California.",
+  "zh": "嗯，我当时在外州，而我的 Mac minis 正放在我在加利福尼亚这里的桌子上。"
+ },
+ {
+  "seg": 274,
+  "start": 1477.53,
+  "end": 1480.513,
+  "speaker": "Unknown",
+  "en": "And I needed to hack into my Wi-Fi.",
+  "zh": "我需要黑进我的 Wi-Fi。"
+ },
+ {
+  "seg": 275,
+  "start": 1480.573,
+  "end": 1486.218,
+  "speaker": "Unknown",
+  "en": "So I needed to open up some firewall gateways so I could remotely SSH in.",
+  "zh": "所以我需要打开一些防火墙网关，这样我才能远程 SSH 进去。"
+ },
+ {
+  "seg": 276,
+  "start": 1486.258,
+  "end": 1487.68,
+  "speaker": "Unknown",
+  "en": "Sorry, I'm just getting really nerdy.",
+  "zh": "抱歉，我变得太书呆子气了。"
+ },
+ {
+  "seg": 277,
+  "start": 1487.7,
+  "end": 1493.866,
+  "speaker": "Unknown",
+  "en": "So I could remotely SSH into my MacBooks and revive the open clause because it wasn't on the same network.",
+  "zh": "这样我就可以远程 SSH 到我的 MacBooks 并恢复那个 open 子句，因为它不在同一个网络上。"
+ },
+ {
+  "seg": 278,
+  "start": 1494.486,
+  "end": 1497.088,
+  "speaker": "Unknown",
+  "en": "My Wi-Fi management software is on my phone.",
+  "zh": "我的 Wi-Fi 管理软件在我的手机上。"
+ },
+ {
+  "seg": 279,
+  "start": 1497.128,
+  "end": 1511.38,
+  "speaker": "Unknown",
+  "en": "So I opened up Codex, I opened up screen mirroring, and I had Codex use computer use to set up the right settings on my home Wi-Fi, update my router, SSH into my MacBooks, and then close all the ports when it was done.",
+  "zh": "所以我打开了 Codex，我打开了屏幕镜像，我让 Codex 使用计算机使用来在我的家庭 Wi-Fi 上设置正确的设置，更新我的路由器，SSH 到我的 MacBooks，然后在完成后关闭所有端口。"
+ },
+ {
+  "seg": 280,
+  "start": 1511.56,
+  "end": 1513.501,
+  "speaker": "Unknown",
+  "en": "It was pretty amazing.",
+  "zh": "这太神奇了。"
+ },
+ {
+  "seg": 281,
+  "start": 1513.641,
+  "end": 1514.722,
+  "speaker": "Unknown",
+  "en": "It was really good.",
+  "zh": "真的很好。"
+ },
+ {
+  "seg": 282,
+  "start": 1515.883,
+  "end": 1519.184,
+  "speaker": "Unknown",
+  "en": "So you can definitely use computer use to use your phone.",
+  "zh": "所以你绝对可以使用计算机使用来使用你的手机。"
+ },
+ {
+  "seg": 283,
+  "start": 1519.224,
+  "end": 1524.885,
+  "speaker": "Unknown",
+  "en": "And the last thing that I do is I use computer use a lot to make like Google Documents and Google Sheets.",
+  "zh": "我做的最后一件事是我经常使用计算机使用来制作像 Google 文档（Google Documents）和 Google 表格（Google Sheets）。"
+ },
+ {
+  "seg": 284,
+  "start": 1524.945,
+  "end": 1531.007,
+  "speaker": "Unknown",
+  "en": "So sometimes I'm just not happy with what is being used with like the MCPs and the plugins in Codex.",
+  "zh": "所以有时我只是对 Codex 中使用的 MCP 和插件不满意。"
+ },
+ {
+  "seg": 285,
+  "start": 1531.167,
+  "end": 1544.57,
+  "speaker": "Unknown",
+  "en": "So if it hits kind of like access use or it can't do something via an MCP, if you are permissive enough, you can just say like, please just open up my browser and do it in the browser and it will do a very, very good job.",
+  "zh": "所以如果它遇到像访问使用这样的问题，或者它无法通过 MCP 做某事，如果你足够允许，你可以直接说，请直接打开我的浏览器并在浏览器里做，它会做得非常、非常好。"
+ },
+ {
+  "seg": 286,
+  "start": 1545.05,
+  "end": 1550.712,
+  "speaker": "Unknown",
+  "en": "So look, now my free people cart has 10 sale items, all size medium, totaling $352 before sacks.",
+  "zh": "所以看，现在我的 free people 购物车有 10 件促销商品，都是中码，总计 352 美元，sacks 之前。"
+ },
+ {
+  "seg": 287,
+  "start": 1551.233,
+  "end": 1553.313,
+  "speaker": "Unknown",
+  "en": "Tax, the extra 25%.",
+  "zh": "税，额外的 25%。"
+ },
+ {
+  "seg": 288,
+  "start": 1554.094,
+  "end": 1554.774,
+  "speaker": "Unknown",
+  "en": "What did it give me?",
+  "zh": "它给了我什么？"
+ },
+ {
+  "seg": 289,
+  "start": 1554.934,
+  "end": 1555.594,
+  "speaker": "Unknown",
+  "en": "A maxi dress?",
+  "zh": "一件超长裙？"
+ },
+ {
+  "seg": 290,
+  "start": 1555.674,
+  "end": 1556.055,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 291,
+  "start": 1556.395,
+  "end": 1557.035,
+  "speaker": "Unknown",
+  "en": "A skirt set?",
+  "zh": "一套半身裙套装？"
+ },
+ {
+  "seg": 292,
+  "start": 1557.135,
+  "end": 1557.575,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 293,
+  "start": 1558.095,
+  "end": 1559.116,
+  "speaker": "Unknown",
+  "en": "Loosey-goosey pants?",
+  "zh": "一条宽松松垮的裤子？"
+ },
+ {
+  "seg": 294,
+  "start": 1559.256,
+  "end": 1559.876,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "惊人。"
+ },
+ {
+  "seg": 295,
+  "start": 1560.296,
+  "end": 1560.716,
+  "speaker": "Unknown",
+  "en": "Shorts?",
+  "zh": "短裤？"
+ },
+ {
+  "seg": 296,
+  "start": 1560.997,
+  "end": 1561.477,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 297,
+  "start": 1562.237,
+  "end": 1562.757,
+  "speaker": "Unknown",
+  "en": "T-shirt?",
+  "zh": "T 恤？"
+ },
+ {
+  "seg": 298,
+  "start": 1562.877,
+  "end": 1563.778,
+  "speaker": "Unknown",
+  "en": "Oh, look at this tag.",
+  "zh": "哦，看这个标签。"
+ },
+ {
+  "seg": 299,
+  "start": 1564.856,
+  "end": 1566.457,
+  "speaker": "Unknown",
+  "en": "Perfect, perfect, perfect.",
+  "zh": "完美，完美，完美。"
+ },
+ {
+  "seg": 300,
+  "start": 1567.017,
+  "end": 1570.199,
+  "speaker": "Unknown",
+  "en": "A blouse, a couple of button downs, a little v-neck.",
+  "zh": "一件女式衬衫，几件扣领衬衫，一件小V领。"
+ },
+ {
+  "seg": 301,
+  "start": 1571.099,
+  "end": 1573.8,
+  "speaker": "Unknown",
+  "en": "It did a really good job.",
+  "zh": "它做得真的很好。"
+ },
+ {
+  "seg": 302,
+  "start": 1574.341,
+  "end": 1583.125,
+  "speaker": "Unknown",
+  "en": "So this started with browser use as a debugging tool and ended with browser use.",
+  "zh": "所以这始于作为调试工具的浏览器使用，并终于浏览器使用。"
+ },
+ {
+  "seg": 303,
+  "start": 1584.474,
+  "end": 1588.796,
+  "speaker": "Unknown",
+  "en": "As your personal shopper, again, this is my favorite feature, y'all.",
+  "zh": "作为你的个人购物助手，再次强调，这是我最喜欢的功能，大家。"
+ },
+ {
+  "seg": 304,
+  "start": 1588.856,
+  "end": 1593.259,
+  "speaker": "Unknown",
+  "en": "If you have not tried it, especially with Codex, it is a hundred out of 10.",
+  "zh": "如果你还没试过它，尤其是用 Codex，它是十分里的一百分。"
+ },
+ {
+  "seg": 305,
+  "start": 1594.159,
+  "end": 1595.18,
+  "speaker": "Unknown",
+  "en": "Everything is computer.",
+  "zh": "一切都是电脑。"
+ },
+ {
+  "seg": 306,
+  "start": 1595.92,
+  "end": 1601.663,
+  "speaker": "Unknown",
+  "en": "And I really think that this is going to change how we interface with our digital lives.",
+  "zh": "我真的认为这将改变我们要与数字生活交互的方式。"
+ },
+ {
+  "seg": 307,
+  "start": 1601.923,
+  "end": 1610.308,
+  "speaker": "Unknown",
+  "en": "And again, my goal for most of AI is I can be not on my computer and stuff can still get done so I can enjoy my Hawaii vacation.",
+  "zh": "同样，我对于大部分 AI 的目标是我可以不在我的电脑上，而事情仍然可以完成，这样我就能享受我的夏威夷假期。"
+ },
+ {
+  "seg": 308,
+  "start": 1610.854,
+  "end": 1614.598,
+  "speaker": "Unknown",
+  "en": "This has been a very fun mini episode on browser use and computer use.",
+  "zh": "这是一个关于浏览器使用和电脑使用的非常有趣的小插曲。"
+ },
+ {
+  "seg": 309,
+  "start": 1614.758,
+  "end": 1618.222,
+  "speaker": "Unknown",
+  "en": "If this is something you find interesting, let me know in the comments.",
+  "zh": "如果这是你觉得有趣的事情，在评论里告诉我。"
+ },
+ {
+  "seg": 310,
+  "start": 1618.322,
+  "end": 1627.992,
+  "speaker": "Unknown",
+  "en": "I would love to hear how you use computer or browser use, what questions you have about privacy, what questions you have about security and other things I can show you about how I AI.",
+  "zh": "我很想知道你如何使用电脑或浏览器使用，你关于隐私有什么问题，你关于安全有什么问题，以及关于我是怎么 AI 的我可以展示给你的其他事情。"
+ },
+ {
+  "seg": 311,
+  "start": 1628.472,
+  "end": 1630.835,
+  "speaker": "Unknown",
+  "en": "Thanks for joining this week and I'll see you all soon.",
+  "zh": "感谢本周加入，我会很快见到你们大家。"
+ },
+ {
+  "seg": 312,
+  "start": 1632.775,
+  "end": 1633.816,
+  "speaker": "Unknown",
+  "en": "Thanks so much for watching.",
+  "zh": "非常感谢收看。"
+ },
+ {
+  "seg": 313,
+  "start": 1634.116,
+  "end": 1639.719,
+  "speaker": "Unknown",
+  "en": "If you enjoyed this show, please like and subscribe here on YouTube, or even better, leave us a comment with your thoughts.",
+  "zh": "如果你喜欢这个节目，请在 YouTube 上点赞并订阅，或者更好的是，给我们留下带有你想法的评论。"
+ },
+ {
+  "seg": 314,
+  "start": 1640.379,
+  "end": 1645.923,
+  "speaker": "Unknown",
+  "en": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+  "zh": "你也可以在 Apple Podcasts、Spotify 或你最喜欢的播客应用上找到这个播客。"
+ },
+ {
+  "seg": 315,
+  "start": 1646.503,
+  "end": 1650.686,
+  "speaker": "Unknown",
+  "en": "Please consider leaving us a rating and review, which will help others find the show.",
+  "zh": "请考虑给我们留下评分和评论，这将帮助其他人找到这个节目。"
+ },
+ {
+  "seg": 316,
+  "start": 1651.306,
+  "end": 1657.049,
+  "speaker": "Unknown",
+  "en": "You can see all our episodes and learn more about the show at howiaipod.com.",
+  "zh": "你可以在 howiaipod.com 看到我们所有的集数并了解更多关于这个节目。"
+ },
+ {
+  "seg": 317,
+  "start": 1657.65,
+  "end": 1658.19,
+  "speaker": "Unknown",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

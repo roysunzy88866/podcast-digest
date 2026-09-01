@@ -1,0 +1,109 @@
+===标题===
+AI能解数学题，但理解在哪？
+===导语===
+多伦多大学数学家Daniel Litt拆解AI数学能力的真实边界：模型擅长应用已知技术和构造反例，但在直觉、理论构建和判断问题价值上仍远不如人类。
+===正文===
+这一集是多伦多大学数学教授 Daniel Litt 和 a16z 的 Lisha Lee 聊 AI 做数学到底到了什么程度。Daniel 是一线研究型数学家，一直在公开追踪和评论 AI 的数学能力变化，他的判断不是围观，是自己拿模型干活之后的切身体会。
+
+目前最让他觉得有意思的 AI 成果，是五月中旬公布的 Erdos 单位距离问题的解。这个解有意思，不在于它用了一多深的新技术——用的其实是 60 年代的分类思想，对这个领域来说是外来的——而在于它出乎意料：学界之前普遍觉得这个猜想是真的，结果 AI 找到了反例。更关键的是，这个反例的思路是"有生产力的"——之后一群数学家拿这个思路去攻别的开放问题，也找到了反例，比如实数的和积猜想。Daniel 说，判断一个 AI 数学成果好不好，事后看标准很简单：它引入的想法能不能被拿去做别的事 [03:34 Unknown][04:42 Unknown]。
+
+但把视角拉远，Daniel 认为这类成果只占了数学家真正在做的事情里相当窄的一条。他把数学家粗分为"解题者"和"理论构建者"，他自己偏解题者。解题者的核心逻辑是：一个开放问题存在的意义，是标出你在理解上的失败。你找到一个你弄不懂的最小情形，反复摆弄，盯住你为了"赢"而发展出的工具，试着把它变成一套理论 [14:43 Unknown][15:24 Unknown]。理论构建者则是另一条路：比如他自己很多工作的动力，来自代数簇的上同调与基本群的表示之间的类比——这个类比本身完全不严谨，不是符号推导，但它极有生产力，驱动了 30 多年的优美数学 [16:02 Unknown][16:56 Unknown]。还有一类更模糊的活动：弄清楚"正确的问题是什么"。很多伟大的猜想（比如 Birch 和 Swinnerton-Dyer 猜想）之所以重要，不在于它多难证，而在于"找到这个猜想"本身就极其困难 [17:08 Unknown][18:00 Unknown]。
+
+> 【背景】Birch 和 Swinnerton-Dyer 猜想是千禧年七大数学难题之一，由两位数学家在 60 年代用计算机对椭圆曲线做统计时发现规律而提出。
+
+模型在哪些环节强、哪些环节弱？Daniel 的经验很具体：如果你要找反例、做构造，或者把已知技术从 A 领域搬到 B 领域，模型非常强。但如果你面对的是一个嵌入在宏大理论框架里的猜想，有大量证据表明它是对的，但它需要真正的新思想、新技术才能证明——模型目前在这方面几乎帮不上忙 [23:32 Unknown][24:53 Unknown]。他自己有一个活生生的例子：有个引理他想证明，所有前沿模型都证不出来。他自己做了一堆例子之后，意识到可以换一个更强的表述——一旦他给出了这个更好的表述，模型几秒钟就证出来了。但如果他直接让模型去证原来那个弱版本，模型会输出 10 页粗暴计算、毫无洞见的东西。那个"更好的表述"是他自己磨出来的，模型没参与 [29:42 Unknown][30:33 Unknown]。
+
+他还观察到一个有意思的现象：现在模型产出的证明看起来都比较短、比较"聪明"。这不一定是好事——他的判断是，模型之所以不长篇大论，是因为它们还没有可靠地检查长证明正确性的能力。如果你让它生成短证明，你可以紧接着问"这个对吗"，它有时候会自己说"不对"。但如果你用某个自动化框架去强行让它生成几百页的证明，它可能不知道自己错了。他看到过一篇声称解决了正特征奇点消解的 800 页 AI 生成论文，他认为当前模型绝对做不到这件事，而且肯定没有人类读过、也没有模型能验证 [52:47 Unknown][54:07 Unknown]。
+
+## 数学界该怎么适应
+
+Daniel 认为最危险的事，是现有的学术激励结构在 AI 时代会走歪。现在一个博士后想找工作，最"理性"的策略是：拿模型去"拉老虎机"——让它上网找五个最近的猜想，自动生成证明，一小时就能出三篇"正确但糟糕"的论文。而且因为模型在某些推理路径上存在模式崩溃，你会看到三四篇不同作者出的论文，证明完全一样——显然是同一条机器路径跑出来的 [36:26 Unknown][37:36 Unknown]。
+
+问题在于，数学的目标不是产出论文，是产出理解。如果理解只存在于模型权重里，Daniel 觉得"相当不令人满意" [34:48 Unknown][35:00 Unknown]。更深层的问题是多样性：数学的进展高度依赖"一千朵不同的花各自绽放"——大量不同口味的人追自己的好奇心，知识前沿在超高维空间里均匀扩展，然后突然某个新想法被引入，级联式地打通一堆以前不理解的东西。如果数学探索被从属于模型想追什么，你得到的到底是一个数学家复制一千次，还是一百万个不同的数学家？目前模型在技术上依托的是同一批文献，产出的证明高度趋同，那种"各种奇怪直觉"的多样性来源并不清楚 [38:02 Unknown][39:28 Unknown]。
+
+他甚至认为，就算模型变得稳健地超人类，我们仍然需要人类数学家——因为这不是能力问题，是社会设计问题。没有理由认为把数学研究完全交给模型，它就会自动去做那种广泛的、基础性的探索。保证这件事发生最简单的方法，就是维持一个有广泛兴趣的人类社区，由人来决定方向 [40:40 Unknown][41:56 Unknown]。
+
+他自己日常怎么用模型？两个场景：一是替代 Google，用来快速了解某个相关话题，省一点时间，但不涉及深层智力工作 [19:02 Unknown]。二是做大规模并行计算——比如他想找某个东西的例子，可以让 10 个子智能体同时跑一千个例子，这在他以前会拖延半年等一个博士生来写代码 [19:18 Unknown][19:42 Unknown]。但在他真正关心的深度思考——那些他琢磨了 10 年的问题上——模型目前"没什么用" [23:15 Unknown]。
+
+## 本集带走
+- **AI 数学成果好不好，看它"有没有后劲"**：引入的想法能不能被拿去解决其他问题，而不是孤零零证了一个定理就结束。
+- **模型强在"搬"和"构造"，弱在"创"和"问"**：把已知技术跨领域移植、找反例，模型很强；但发展新理论、判断哪些问题值得问，目前几乎不行。
+- **人给出更好的问题表述，模型才能发挥**：Daniel 的引理例子说明，"人磨表述 + 模型出证明"是当前更现实的协作模式，而不是让模型从零开始。
+- **短证明不等于聪明，可能是能力受限**：模型不出长证明，部分原因是它还没有可靠验证长推理的能力，而非它"选择了优雅"。
+- **"拉老虎机"式发论文是真实存在的激励扭曲**：现有学术评价机制下，用模型批量生成低质量但正确的论文是最理性的个人策略，但这对数学整体是有害的。
+- **数学多样性是人类不可替代的角色**：即使模型超人类，"由谁来决定探索方向"仍然需要人类社区，否则可能丢失那种"一千朵花各自绽放"的扩张模式。
+
+===金句===
+00:00 Unknown
+EN | The goal of mathematics is not to produce mathematics papers.
+ZH | 数学的目标不是产出数学论文。
+
+00:03 Unknown
+EN | It's to produce some kind of understanding.
+ZH | 它是产生某种理解。
+
+00:05 Unknown
+EN | Maybe some of that understanding resides in model weights.
+ZH | 也许那些理解中的一些驻留在模型权重中。
+
+00:08 Unknown
+EN | To me, that's like pretty unsatisfying.
+ZH | 对我来说，这相当不令人满意。
+
+01:09 Unknown
+EN | But solving a problem isn't necessarily the same thing as understanding it.
+ZH | 但解决一个问题并不一定等同于理解它。
+
+03:36 Unknown
+EN | My favorite fully autonomous result by an AI so far is the solution to the Erdos unit distance problem.
+ZH | 我目前为止最喜欢的由 AI 完全自主完成的结果是 Erdos 单位距离问题的解决方案。
+
+04:48 Unknown
+EN | So for example, like the sum product conjecture for the real numbers.
+ZH | 所以举例来说，比如实数的和积猜想。
+
+09:19 Unknown
+EN | My sense is that because they're primarily scaling informal reasoning, like, probably the techniques are going to generalize to other domains pretty well.
+ZH | 我的感觉是，因为他们主要是在扩展非形式推理，这些技术可能会很好地泛化到其他领域。
+
+10:47 Unknown
+EN | It's more like they're very, very good at applying some known techniques, which is to be clear, that's like a very powerful thing to do to be very good at applying like all known techniques.
+ZH | 更像是他们非常非常擅长应用一些已知技术，需要明确的是，做一个非常擅长应用所有已知技术的模型，这是一件非常强大的事情。
+
+11:07 Unknown
+EN | But it's like some kind of fairly narrow band of what mathematicians care about.
+ZH | 但这只是数学家关心的事情中相当狭窄的一个部分。
+
+15:53 Unknown
+EN | You should win by any means necessary, in my opinion.
+ZH | 在我看来，你应该不惜一切代价去赢。
+
+22:03 Unknown
+EN | Instead of beauty, I try to think about maybe what is fundamental, what's going to open up further understanding most.
+ZH | 而不是美，我试着思考什么是最根本的，什么最能打开进一步的理解。
+
+30:33 Unknown
+EN | And then, OK, once I had that statement, OK, probably I could have done it pretty fast, but also the models were able to very quickly prove that sort of better statement.
+ZH | 然后，好的，一旦我有了那个表述，好的，也许我本可以很快做到，但模型也能非常快地证明那种更好的表述。
+
+34:48 Unknown
+EN | That said, the goal of mathematics is not to produce mathematics papers.
+ZH | 话虽如此，数学的目标并不是产生数学论文。
+
+36:31 Unknown
+EN | And you can do that by playing the slot machine until the model produces a hopefully correct proof of such a result.
+ZH | 你可以通过玩老虎机直到模型产生一个希望正确的这种结果的证明来做到这一点。
+
+38:02 Unknown
+EN | Like I think a lot of what I was saying earlier is that a lot of progress in mathematics comes from like letting, you know, a thousand different flowers bloom and people pursue their own curiosity.
+ZH | 像我想我之前说的很多是，数学的很多进展来自于像让，你知道，一千朵不同的花盛开，人们追求他们自己的好奇心。
+
+40:47 Unknown
+EN | I claim still, actually, we still want human mathematicians.
+ZH | 我仍然声称，实际上，我们仍然需要人类数学家。
+
+52:47 Unknown
+EN | The reason they're not producing long, complicated proofs is that they cannot.
+ZH | 它们不生成长长的、复杂的证明的原因是它们做不到。
+
+===END===

@@ -137,9 +137,9 @@ Ryan 持续主张的一个核心信念是：AI 公司应该确保它们的 AI �
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-09-01-dwarkesh-ajeya-cotra|千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Redwood Research、Meter · 同概念:RL、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同嘉宾:Ryan Greenblatt · 同公司:Redwood Research、Hugging Face、OpenAI · 同概念:奖励黑客 (reward hacking)、对齐 (alignment)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:对齐 (alignment)、智能体 (agent)</span>
-- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">
@@ -147,8 +147,8 @@ Ryan 持续主张的一个核心信念是：AI 公司应该确保它们的 AI �
 **换个口味**
 
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Anthropic · 同概念:智能体 (agent)</span>
+- [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:RL、推理 (reasoning)</span>
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:智能体 (agent)</span>
-- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

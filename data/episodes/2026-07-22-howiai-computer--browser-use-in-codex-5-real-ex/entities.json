@@ -1,0 +1,999 @@
+{
+  "episode_id": "2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex",
+  "podcast": "How I AI",
+  "date": "2026-07-22",
+  "tags": [
+    "浏览器操控",
+    "AI 编程",
+    "智能体",
+    "QA 自动化",
+    "vibe coding"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 桌面应用配合 Chrome 浏览器扩展，是目前控制计算机和浏览器最出色的工具，其内部嵌入了浏览器技能（browser skill）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            120.808,
+            130.716
+          ],
+          "quote": "Now, there have been a class of AI native browsers that have come out in the last year thinking about Perplexity's Comet or ChatGPT's Atlas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            137.522,
+            144.586
+          ],
+          "quote": "Why have I used Codex, specifically the Codex desktop app, or I guess we're calling it the ChatGPT desktop app these days?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            197.267,
+            202.03
+          ],
+          "quote": "So whether those are the ChatGPT desktop app or the Claude desktop app, you need those installed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1407.619,
+            1414.542
+          ],
+          "quote": "And so sometimes I'm just the human verification layer on top of ChatGPT browser use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到 Claude 桌面应用和 Claude 浏览器扩展作为调用浏览器和计算机使用的另一种方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            131.137,
+            136.922
+          ],
+          "quote": "But I like to use browser and computer use directly through Claude or in this instance, Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            197.267,
+            202.03
+          ],
+          "quote": "So whether those are the ChatGPT desktop app or the Claude desktop app, you need those installed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            213.938,
+            219.542
+          ],
+          "quote": "So you can just search for, for example, Codex browser extension or Claude browser extension.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集称 Codex 桌面应用是控制计算机最好的工具，内置侧边浏览器窗口，提供 @browser、@Chrome、@computer 三种调用方式，并内置浏览器技能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            29.565,
+            38.17
+          ],
+          "quote": "Browser and computer use have gotten exceptionally good recently, especially in my experience with Codex and the GPT 5.6 models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            131.137,
+            136.922
+          ],
+          "quote": "But I like to use browser and computer use directly through Claude or in this instance, Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            137.522,
+            144.586
+          ],
+          "quote": "Why have I used Codex, specifically the Codex desktop app, or I guess we're calling it the ChatGPT desktop app these days?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            213.938,
+            219.542
+          ],
+          "quote": "So you can just search for, for example, Codex browser extension or Claude browser extension.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            310.692,
+            314.993
+          ],
+          "quote": "And there are three ways you can invoke kind of computer use in Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            361.745,
+            366.591
+          ],
+          "quote": "And what that's going to do is spin up the browser skill, which is embedded in Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            432.832,
+            436.654
+          ],
+          "quote": "But you can see here my little glowy Codex browser icon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            524.683,
+            531.748
+          ],
+          "quote": "I'm curious if that's actually an artifact of how this responsive browser inside Codex works or if it's an issue with...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            691.526,
+            698.616
+          ],
+          "quote": "So I love this workflow, which is to have Codex make you a spreadsheet of issues that then it's going to go fix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1009.211,
+            1014.893
+          ],
+          "quote": "It works in a specific way, but obviously the agent here, the Codex agent thought.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1252.554,
+            1256.876
+          ],
+          "quote": "So I've been using at browser, which is the side window of Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1335.056,
+            1341.105
+          ],
+          "quote": "I think this is such a cool feature of Codex is that it will actually show you what it's browsing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1497.128,
+            1511.38
+          ],
+          "quote": "So I opened up Codex, I opened up screen mirroring, and I had Codex use computer use to set up the right settings on my home Wi-Fi, update my router, SSH into my MacBooks, and then close all the ports when it was done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1524.945,
+            1531.007
+          ],
+          "quote": "So sometimes I'm just not happy with what is being used with like the MCPs and the plugins in Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1588.856,
+            1593.259
+          ],
+          "quote": "If you have not tried it, especially with Codex, it is a hundred out of 10.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "浏览器使用 (browser use)",
+      "file": "浏览器使用",
+      "primary": true,
+      "how_described": "本集将其定义为让 AI 导航网站、控制浏览器来代表你完成工作的方式，是本集最核心的主题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            38.55,
+            47.836
+          ],
+          "quote": "And I'm going to show you a builder use case, a productivity use case, and a personal fund use case that I found super useful in using computer and browser use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            236.614,
+            243.757
+          ],
+          "quote": "But the trick, and this is the how I AI sort of mantra, is you have to find a good use case for browser use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            256.662,
+            270.658
+          ],
+          "quote": "We're going to start with a use case out there for all the coders and all the vibe coders and all the professional software engineers, which is using browser use alongside a coding agent to validate changes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            386.091,
+            392.057
+          ],
+          "quote": "And what's really nice about browser use in this instance is all of that can happen automatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            409.825,
+            420.608
+          ],
+          "quote": "Now, what I love about using browser use specifically for QA purposes is it is exhaustive or it is more exhaustive and organized than I as a human would be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            623.839,
+            628.301
+          ],
+          "quote": "But what I really love about browser use is, again, it's going to be just a lot more exhaustive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            726.523,
+            731.007
+          ],
+          "quote": "This is just a very practical use case of browser use that I think is really nice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            745.952,
+            755.503
+          ],
+          "quote": "And he uses browser use to impersonate specific personas of his applications and then give feedback as the persona.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            843.86,
+            848.661
+          ],
+          "quote": "Now I'm using that, but I'm using browser use and saying you are a persona type.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            984.821,
+            990.003
+          ],
+          "quote": "Okay, so I love this internal kind of like chain of thought that you get with browser use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1020.298,
+            1034.512
+          ],
+          "quote": "And so it's really interesting when you combine browser use with sort of this AI chatbot, how you start to inhabit the mindset of a persona or a type of user and actually identify",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1081.832,
+            1101.188
+          ],
+          "quote": "So just to take a step back, I really love this use case of coming up with a persona that kind of inhabits the mind and in this world, the body of your user, and then have them going through your website using browser use and giving you a report of what works and what doesn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1107.056,
+            1113.018
+          ],
+          "quote": "So my favorite one, I've talked about this a little bit briefly before, which is browser use for LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1168.319,
+            1171.222
+          ],
+          "quote": "And so I love to use browser use to just.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1226.02,
+            1237.023
+          ],
+          "quote": "So if you're like me, if you have tons of LinkedIn connections, LinkedIn comments, need to figure out how to get through this stuff, I love using browser use to go through those use cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1238.167,
+            1241.789
+          ],
+          "quote": "I'm going to wrap this up with a browser use case for the girls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1270.584,
+            1278.15
+          ],
+          "quote": "I would love for you to go through using Chrome browser use and pick out 10 items in my size.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1407.619,
+            1414.542
+          ],
+          "quote": "And so sometimes I'm just the human verification layer on top of ChatGPT browser use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1423.407,
+            1427.87
+          ],
+          "quote": "But again, I hope this is getting your mind open on what browser use and computer use can do for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1574.341,
+            1583.125
+          ],
+          "quote": "So this started with browser use as a debugging tool and ended with browser use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1610.854,
+            1614.598
+          ],
+          "quote": "This has been a very fun mini episode on browser use and computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1618.322,
+            1627.992
+          ],
+          "quote": "I would love to hear how you use computer or browser use, what questions you have about privacy, what questions you have about security and other things I can show you about how I AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "本集说它是让 AI 控制鼠标、键盘来操控整台计算机的能力，比浏览器使用范围更广，可通过 iPhone 镜像操控手机",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            20.439,
+            29.164
+          ],
+          "quote": "I'm going to talk about browser and computer use, the way that you can let AI navigate your computer and navigate websites to get work done on your behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            29.565,
+            38.17
+          ],
+          "quote": "Browser and computer use have gotten exceptionally good recently, especially in my experience with Codex and the GPT 5.6 models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            106.997,
+            111.961
+          ],
+          "quote": "Okay, before we dive into how I use computer use, just a refresher for anybody who's new.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            131.137,
+            136.922
+          ],
+          "quote": "But I like to use browser and computer use directly through Claude or in this instance, Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            161.297,
+            164.779
+          ],
+          "quote": "That is what browser and computer use can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            189.242,
+            192.664
+          ],
+          "quote": "Now, invoking browser or computer use is pretty simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            243.897,
+            256.122
+          ],
+          "quote": "And having used browser and computer use for a while, I think I've come up with a couple unique and interesting use cases that maybe will inspire you and give you some ideas about how you can use it in your work and life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            310.692,
+            314.993
+          ],
+          "quote": "And there are three ways you can invoke kind of computer use in Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1249.352,
+            1252.494
+          ],
+          "quote": "So I'm going to show you how you use the computer use, but specifically for Chrome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1423.407,
+            1427.87
+          ],
+          "quote": "But again, I hope this is getting your mind open on what browser use and computer use can do for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1427.95,
+            1432.593
+          ],
+          "quote": "Okay, I'm gonna list just a couple other things that I use browser and computer use for that you might find interesting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1435.195,
+            1446.983
+          ],
+          "quote": "So if you ever have to do procurement forms, if you ever have to register your kid for camp, if you ever have to fill out an old, old, old website, browser and computer use is really,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1448.323,
+            1452.924
+          ],
+          "quote": "Second one, browser and computer use can actually run your phone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1463.507,
+            1466.227
+          ],
+          "quote": "Computer use can use iPhone mirroring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1497.128,
+            1511.38
+          ],
+          "quote": "So I opened up Codex, I opened up screen mirroring, and I had Codex use computer use to set up the right settings on my home Wi-Fi, update my router, SSH into my MacBooks, and then close all the ports when it was done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1515.883,
+            1519.184
+          ],
+          "quote": "So you can definitely use computer use to use your phone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1519.224,
+            1524.885
+          ],
+          "quote": "And the last thing that I do is I use computer use a lot to make like Google Documents and Google Sheets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1610.854,
+            1614.598
+          ],
+          "quote": "This has been a very fun mini episode on browser use and computer use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集多次提到用子智能体（subagents）根据 Google 表格逐个修复 QA 发现的问题，以及称 AI 为'常驻智能体'和'虚拟同事'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            256.662,
+            270.658
+          ],
+          "quote": "We're going to start with a use case out there for all the coders and all the vibe coders and all the professional software engineers, which is using browser use alongside a coding agent to validate changes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            927.492,
+            931.036
+          ],
+          "quote": "An agent will scan your inbox and draft replies to vendor follow-ups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1009.211,
+            1014.893
+          ],
+          "quote": "It works in a specific way, but obviously the agent here, the Codex agent thought.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1035.173,
+            1046.556
+          ],
+          "quote": "Really obvious, but kind of like hard to get your head wrapped around friction points where someone with fresh eyes, again, these are agent eyes, I'm sorry, I don't know a better metaphor, might have a challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1052.738,
+            1057.58
+          ],
+          "quote": "We'll see what the experience is and if the agent is happy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1389.053,
+            1392.614
+          ],
+          "quote": "Look, it thinks that I'm an agent, which I am.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集说当 Codex 里的 MCP 插件不好使或无法通过 MCP 完成操作时，浏览器操控是最通用的兜底方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1175.66,
+            1179.763
+          ],
+          "quote": "Again, LinkedIn doesn't have an MCP or an API that's official.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1531.167,
+            1544.57
+          ],
+          "quote": "So if it hits kind of like access use or it can't do something via an MCP, if you are permissive enough, you can just say like, please just open up my browser and do it in the browser and it will do a very, very good job.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-extension",
+      "type": "concept",
+      "role": "concept",
+      "name": "浏览器扩展 (browser extension)",
+      "file": "浏览器扩展",
+      "primary": false,
+      "how_described": "本集说需要在 Chrome 里安装 Codex 或 Claude 的浏览器扩展，配合桌面应用才能实现 @Chrome 方式的浏览器操控",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            213.938,
+            219.542
+          ],
+          "quote": "So you can just search for, for example, Codex browser extension or Claude browser extension.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "type": "concept",
+      "role": "concept",
+      "name": "QA",
+      "file": "QA",
+      "primary": true,
+      "how_described": "本集详细讲述了用浏览器使用做 QA 的场景：AI 会自动测试表单填写、错误状态、移动端响应性、可访问性等，比人更详尽，不会只走快乐路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            409.825,
+            420.608
+          ],
+          "quote": "Now, what I love about using browser use specifically for QA purposes is it is exhaustive or it is more exhaustive and organized than I as a human would be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            421.088,
+            428.391
+          ],
+          "quote": "I don't know about you all, but when I am QAing things, I like to do the happy path QA where it's like, yes, I fill out all the form fields.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            486.749,
+            498.377
+          ],
+          "quote": "And so because they're so intelligent, you can literally just tell them QA the onboarding flow and it will do a much better job than saying QA these 25 things in the onboarding flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            665.233,
+            668.535
+          ],
+          "quote": "So again, this is a very comprehensive QA that was done.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "iphone-mirroring",
+      "type": "concept",
+      "role": "concept",
+      "name": "iPhone 镜像 (iPhone mirroring)",
+      "file": "iPhone 镜像",
+      "primary": false,
+      "how_described": "本集说 Mac 上的 iPhone 镜像功能可以把手机屏幕投到桌面，配合计算机使用就能让 AI 操控手机上的 App",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 269,
+          "t": [
+            1454.985,
+            1463.067
+          ],
+          "quote": "So if you're on a Mac, you have something called iPhone mirroring where you can actually pull up a version of your phone on your desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1463.507,
+            1466.227
+          ],
+          "quote": "Computer use can use iPhone mirroring.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "type": "company",
+      "role": "company",
+      "name": "Runway",
+      "file": "Runway",
+      "primary": false,
+      "how_described": "本集广告中提到 Runway 是新型创意平台，汇集先进 AI 模型，企业如 Microsoft、Amazon 等使用它交付工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            48.996,
+            60.78
+          ],
+          "quote": "This episode is brought to you by Runway, a new kind of creative platform that has everything you need to generate any image, video, or piece of content you want, all in one place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            61.42,
+            67.102
+          ],
+          "quote": "With Runway, it's now possible to go from initial idea to a finished deliverable in a matter of minutes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            67.702,
+            80.946
+          ],
+          "quote": "From turning low-fidelity product shots into campaign-ready imagery all the way through putting together big brand films, Runway can help your team scale your creative ambitions while keeping your budgets and timelines from doing the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            81.826,
+            96.97
+          ],
+          "quote": "Runway brings together the world's most advanced AI models, which is why enterprises like Microsoft, Robinhood, Amazon, and Adobe, along with studios like Lionsgate and Legendary, all use Runway to ship real work every day.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hyperagent",
+      "type": "company",
+      "role": "company",
+      "name": "HyperAgent",
+      "file": "HyperAgent",
+      "primary": false,
+      "how_described": "本集广告中提到 HyperAgent 是部署常驻智能体的平台，由 Airtable 团队构建，智能体可运行在 Slack、Telegram 等渠道",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            911.858,
+            919.245
+          ],
+          "quote": "This episode is brought to you by HyperAgent, the platform for deploying always-on agents that actually run your business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            919.945,
+            926.912
+          ],
+          "quote": "With HyperAgent, you build agents in the cloud and deploy them where your work already happens, like Slack, Telegram, or email.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            970.135,
+            978.378
+          ],
+          "quote": "HyperAgent was built by the team behind Airtable and HowIAI listeners get $1,000 in free inference to start building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            978.879,
+            983.981
+          ],
+          "quote": "Claim yours at hyperagent.com slash HowIAI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatprd",
+      "type": "company",
+      "role": "company",
+      "name": "ChatPRD",
+      "file": "ChatPRD",
+      "primary": false,
+      "how_described": "本集用 ChatPRD 的用户引导流程和核心功能作为浏览器 QA 测试与角色扮演式调研的实际演示对象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            274.961,
+            278.002
+          ],
+          "quote": "So what I'm showing here is the ChatPRD onboarding flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            736.473,
+            742.479
+          ],
+          "quote": "So I'm going to go in here, I'm going to go to the core of ChatPRD, and I'm going to show you a use case that my husband came up with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            760.828,
+            769.511
+          ],
+          "quote": "I want you to go through the core of ChatPRD's chat and document creation mode as two different personas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            792.56,
+            800.383
+          ],
+          "quote": "And the third thing that I want you to do is as a team leader, try to figure out how your team is using ChatPRD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            865.628,
+            872.314
+          ],
+          "quote": "It just put a fake prompt in that says, hey, I just got out of a customer design meeting about a decision digest feature in ChatPRD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            876.558,
+            879.901
+          ],
+          "quote": "And now it's watching ChatPRD create the document.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

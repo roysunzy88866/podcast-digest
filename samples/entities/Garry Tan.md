@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"技能文件":2,"RAG":6,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":32,"YC":9,"上下文工程":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"技能文件":2,"RAG":6,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":34,"YC":9,"上下文工程":7}</script>
 
 <script>
 (function(){

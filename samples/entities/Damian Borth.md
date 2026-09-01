@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":2,"Hugging Face":14,"权重空间学习":1,"权重":1,"自编码器":1,"模糊权重":1,"窗口化":1,"分词":3,"数据集提示":1,"神经架构搜索":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":2,"Hugging Face":15,"权重空间学习":1,"权重":1,"自编码器":1,"模糊权重":1,"窗口化":1,"分词":3,"数据集提示":1,"神经架构搜索":1}</script>
 
 <script>
 (function(){

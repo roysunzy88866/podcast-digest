@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":86,"智能体":1,"harness":17,"沙箱":33,"智能体循环":1,"上下文工程":7,"会话日志追踪":2,"泄露的凭证":3,"可观测性":15}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":87,"智能体":1,"harness":17,"沙箱":35,"智能体循环":1,"上下文工程":7,"会话日志追踪":2,"泄露的凭证":3,"可观测性":16}</script>
 
 <script>
 (function(){

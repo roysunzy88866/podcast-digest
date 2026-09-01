@@ -10,14 +10,14 @@ description: AI Engineers 社区创始人 Swyx 谈大会扩张策略、DevTools 
 host: "[[Louis Knight-Webb]]"
 guests: ["[[Swyx]]"]
 companies: ["[[AI Engineers]]"]
-concepts: ["[[沙箱]]", "[[智能体]]", "[[RL 环境]]", "[[vibe coding]]", "[[代码模式]]", "[[开源 AI 框架]]", "[[对测试的感知]]"]
+concepts: ["[[沙箱]]", "[[智能体]]", "[[RL 环境]]", "[[vibe coding]]", "[[code mode]]", "[[开源 AI 框架]]", "[[对测试的感知]]"]
 category: 智能体
 tags:
   - 智能体
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-16-devtools-swyx-aie#post","headline":"AI Engineer 大会背后的社区逻辑与创业生存法则","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-16-devtools-swyx-aie","mainEntityOfPage":"https://talk.solomind.cc/2026-06-16-devtools-swyx-aie","description":"AI Engineers 社区创始人 Swyx 谈大会扩张策略、DevTools 创业的中间地带挤压、以及为什么写代码比写框架更有未来。","datePublished":"2026-08-30","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Louis Knight-Webb"},{"@type":"Person","name":"Swyx"},{"@type":"Organization","name":"AI Engineers"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"RL 环境 (RL environments)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"代码模式 (code mode)"},{"@type":"Thing","name":"开源 AI 框架 (open source AI framework)"},{"@type":"Thing","name":"对测试的感知 (awareness of evals)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI Engineer 大会背后的社区逻辑与创业生存法则","item":"https://talk.solomind.cc/2026-06-16-devtools-swyx-aie"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-06-16-devtools-swyx-aie#post","headline":"AI Engineer 大会背后的社区逻辑与创业生存法则","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-06-16-devtools-swyx-aie","mainEntityOfPage":"https://talk.solomind.cc/2026-06-16-devtools-swyx-aie","description":"AI Engineers 社区创始人 Swyx 谈大会扩张策略、DevTools 创业的中间地带挤压、以及为什么写代码比写框架更有未来。","datePublished":"2026-08-30","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Louis Knight-Webb"},{"@type":"Person","name":"Swyx"},{"@type":"Organization","name":"AI Engineers"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"RL 环境 (RL environments)"},{"@type":"Thing","name":"vibe coding"},{"@type":"Thing","name":"code mode"},{"@type":"Thing","name":"开源 AI 框架 (open source AI framework)"},{"@type":"Thing","name":"对测试的感知 (awareness of evals)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI Engineer 大会背后的社区逻辑与创业生存法则","item":"https://talk.solomind.cc/2026-06-16-devtools-swyx-aie"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI Engineer 大会背后的社区逻辑与创业生存法则</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[AI Engineers]]
 >
-> **概念** [[沙箱]] · [[智能体]] · [[RL 环境]] · [[vibe coding]] · [[代码模式]] · [[开源 AI 框架]] · [[对测试的感知]]
+> **概念** [[沙箱]] · [[智能体]] · [[RL 环境]] · [[vibe coding]] · [[code mode]] · [[开源 AI 框架]] · [[对测试的感知]]
 
 这是 [[AI Engineers|AI Engineers]] Europe 大会现场的一段对话，主角是 [[Swyx|Swyx]]——AI Engineers 社区的创始人。他最反直觉的一个判断是：过去三年做[[开源 AI 框架|开源 AI 框架]]的创业公司，大部分都在挣扎，因为"我也可以 vibe code（用 AI 辅助写代码）一个出来"，你的护城河不值钱 <button class="pd-ts" data-t="16:20" data-who="Swyx" data-en="And I I I think the other companies are like, there there there there's definitely, like, a let's call it a introspection moment about, like, what the value is, and and people who if say if you worked on an AI framework the last three years, and it was an open source AI framework, and you wanted to be the React of AI and blah blah blah, you maybe struggled a bit more. Right? Because everyone can write their own framework, and yours is not not necessarily as better or worse than mine because it's actually like, if your your whole defense or your moat is your ecosystem of integrations with everything else, well, I can vibe code that too. So, like, what the hell use are you? So so, really, like, I think I think people are really receding to either your model lab where you train models and you you supply them via API, whatever, and you have maybe you should specialize in a particular modality like 11 labs, or you're all the way on the other side where you're an agent lab where you you're you have a domain specific vertical agent that does very good thing for a particular target audience." aria-label="回原文"></button>。
 
@@ -125,8 +125,8 @@ Swyx 对黑客松持明确反对态度——"很多人为了赢会作弊，激�
 **顺着「智能体」挖下去**
 
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同嘉宾:Swyx · 同公司:Modal · 同概念:智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
+- [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同公司:Cloudflare · 同概念:代码模式 (code mode)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-05-talks-gadgets-personal-app-vibe-coding-that-is|AI 想给每个人定制 App,但云架构 25 年前就走错了路]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

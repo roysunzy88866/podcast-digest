@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"判断力":4,"品味":8,"认知协调":1,"案例教学法":1,"可观测性":15,"护栏":1,"代码审查":2,"AWS":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"判断力":4,"品味":8,"认知协调":1,"案例教学法":1,"可观测性":16,"护栏":1,"代码审查":2,"AWS":9}</script>
 
 <script>
 (function(){

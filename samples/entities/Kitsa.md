@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"编排器":2,"护栏":1,"循环":3,"规则":1,"police 文件":1,"vibe coding":25,"vibe engineering":1,"技能文件":2,"Codex":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"编排器":2,"护栏":1,"循环":3,"规则":1,"police 文件":1,"vibe coding":25,"vibe engineering":1,"技能文件":2,"Codex":34}</script>
 
 <script>
 (function(){

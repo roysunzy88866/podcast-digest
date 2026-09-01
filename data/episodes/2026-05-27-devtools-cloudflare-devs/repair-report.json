@@ -1,0 +1,53 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "07:11",
+      "speaker": "Matt Carey",
+      "trimmed": false,
+      "tsWas": "06:55",
+      "spkWas": "Matt Carey"
+    },
+    {
+      "i": 2,
+      "timestamp": "08:28",
+      "speaker": "Thomas Ankcorn",
+      "trimmed": false,
+      "tsWas": "08:20",
+      "spkWas": "Thomas Ankcorn"
+    },
+    {
+      "i": 3,
+      "timestamp": "10:48",
+      "speaker": "Matt Carey",
+      "trimmed": false,
+      "tsWas": "10:46",
+      "spkWas": "Matt Carey"
+    },
+    {
+      "i": 7,
+      "timestamp": "14:44",
+      "speaker": "Matt Carey",
+      "trimmed": false,
+      "tsWas": "14:37",
+      "spkWas": "Matt Carey"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 4,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Build dumb things. If someone builds something and you go, wow. That's so smart. How could I build it? Build a dumber version and just put it out there"
+    },
+    {
+      "i": 5,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "I think pretty much everything I ever built before joining Cloudflare, I ever engineered for the models because they just weren't good enough in that moment."
+    },
+    {
+      "i": 6,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "I need people to start being original and courageous. Like, don't do an incremental stop trying to build SaaSes. Just be like super ambitious with this new tech."
+    }
+  ]
+}

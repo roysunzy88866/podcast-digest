@@ -190,8 +190,8 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 **换个口味**
 
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:沙箱 (sandbox)</span>
+- [[2026-09-01-dwarkesh-ajeya-cotra|千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:沙箱 (sandbox)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:OpenAI · 同概念:主观能动性 (agency)、ChatGPT</span>
-- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)</span>
 
 </div>
 </div>

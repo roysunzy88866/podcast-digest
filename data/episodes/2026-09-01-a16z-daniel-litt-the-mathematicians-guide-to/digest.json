@@ -1,0 +1,130 @@
+{
+  "title_zh": "AI解数学题≠理解数学",
+  "tldr": "多伦多大学数学家 Daniel Litt 拆解前沿模型在数学上的真实能力边界：模型擅长应用已知技术和构造反例，但在直觉、理论构建和提出正确问题上仍远不及人类。",
+  "digest_md": "这一集是 a16z 基础设施合伙人 Lisha Lee 和多伦多大学数学教授 Daniel Litt 聊 AI 在数学领域的真实能力。Daniel 是一位活跃的研究者，一直在公开追踪并评论 AI 数学能力的演变。\n\nDaniel 目前最喜欢的一个完全由 AI 自主完成的结果，是五月中旬宣布的 Erdos 单位距离问题的解决方案 [03:34 Daniel Litt]。这个结果有意思的地方在于，它不是简单的\"最后一公里\"——即人类做了大量深活、AI 踢最后一步——而是从一个意想不到的领域引入了已有的分类思想，证明了该领域普遍相信为真的猜想实际上是假的，随后人类数学家还拿这些想法找到了其他开放问题的反例 [04:10 Daniel Litt]。不过 Daniel 强调，回头看这些 AI 产出的证明，它们的推理过程看起来非常像人类数学家，并没有什么\"非人\"的奇招 [06:42 Daniel Litt]。\n\n## 模型到底在做什么\n\nDaniel 把目前的能力边界分得很清楚。模型非常擅长两件事：一是应用所有已知技术，二是做大规模的并行计算——比如让它同时跑十个子智能体处理一千个例子 [10:47 Daniel Litt]。OpenAI 和 Anthropic 的模型在他看来能力相当，ChatGPT 只是更早变强，Claude 大概在 Opus 4.5 或 4.6 左右追上 [12:33 Daniel Litt]。\n\n但模型在几个关键维度上明显偏弱。一是直觉。数学里很多猜想嵌在巨大的理论框架里，有大量证据支持它为真，不是靠找一个反例构造就能推翻的 [24:36 Daniel Litt]。二是理论构建。Daniel 试过让模型做理论构建，给一些提示后能做出有趣的东西，但完全自主做不到 [11:31 Daniel Litt]。三是提出正确的问题。很多时候找到猜想本身比证明它难得多 [17:38 Daniel Litt]。\n\nDaniel 讲了一个自己的亲身经历。他在一个项目里想证明某个引理，所有前沿模型都做不了。他自己做了大量例子后，找到了一个更好的表述，然后模型很快就能证明这个更强的版本 [30:03 Daniel Litt]。但如果你把原来那个引理直接扔给 ChatGPT，它会吐出十页毫无洞见的暴力计算 [30:33 Daniel Litt]。那种证明虽然\"正确\"，但不会带来任何理解上的发现。Daniel 承认自己其实知道那种暴力证法行得通，只是不愿意去做——恰恰是因为不愿意做丑陋的证明，反而逼出了更好的结果 [31:06 Daniel Litt]。\n\n## \"老虎机论文\"与激励机制的危险\n\nDaniel 对当前学术激励机制发出了很直接的警告。现在一个博士后如果想找工作，最快的方式是让模型去\"拉老虎机\"——比如让 Codex 上网找五个代数几何里的最新猜想然后去证明。他自己跑过这个实验，一小时就得到了三篇正确但质量很差的论文 [36:42 Daniel Litt]。预印本上已经出现了同一定理、同一证明、三四篇论文在几天内同时出现的情况——显然是有人在玩老虎机 [37:36 Daniel Litt]。\n\n更深层的问题是，这可能导致数学探索的多样性崩塌。数学的很多进展来自于一千个不同的人追求各自的好奇心，知识边界在高维空间里以相对均匀的方式扩展，然后突然某个新想法被引入，级联式地解决一堆老问题 [21:37 Daniel Litt]。如果数学探索从属于模型想追求的东西，你得到的可能不是一个有一百万种不同直觉的数学家群体，而是一个被复制了一千次的同一个数学家 [38:25 Daniel Litt]。模型的直觉从哪来？目前还是来自人类数学家 [39:44 Daniel Litt]。\n\nDaniel 的核心论点是：数学的目标不是产出论文，而是产生理解。如果理解只存在模型权重里，对他来说\"相当不令人满意\" [34:48 Daniel Litt]。维持一个有广泛兴趣、有能力在前沿有意义地参与的人类数学家群体，需要庞大的基础设施和人才管道 [35:17 Daniel Litt]。如果激励机制不改变，这条管道就会断裂。\n\n## 为什么模型只能产出\"短巧\"证明\n\n最近一些引人注目的 AI 证明都相对简短。Daniel 的判断很直接：不是因为短证明更好，而是因为模型目前还做不到长的 [52:47 Daniel Litt]。让它生成长证明，它可能自己都不知道哪里错了 [53:20 Daniel Litt]。有人贴过一篇 800 页的 AI 生成证明，Daniel 说那不可能正确——当前模型的能力范围是校准过的，而且肯定没有人类读过、模型也检查不了 [54:07 Daniel Litt]。\n\n人类检查长论文的方式不是逐行看，而是理解论证的全局结构，做各种压力测试——比如\"这个论证会不会推出某个我知道是假的东西\"。这种\"模糊单元测试\"式的宏观检查，模型目前也做不好 [57:05 Daniel Litt]。\n\n## 本集带走\n- **模型强在应用已知技术，弱在创造新理论**：它能从其他领域搬来你没读过的技术，但在需要发展全新理论框架的问题上几乎无能为力。\n- **\"丑证明\"有时是逼出好理解的起点**：Daniel 的案例说明，模型直接给的那个暴力证法虽然正确但无洞见；恰恰是模型做不了、人也不愿意做的丑证明，逼出了更好的概念性解释。\n- **警惕\"老虎机论文\"摧毁激励机制**：用模型批量生产正确但无理解的论文，既不发展人力资本，也可能让数学前沿的多样性坍缩成一个模型的副本。\n- **短证明不是审美选择，是能力限制**：模型目前产不出可靠的长证明，因为自身还缺乏对长论证进行全局一致性检查的能力。\n- **用 AI 要\"上升\"而非\"让渡\"**：用模型加深自己的理解，而不是把思考外包给模型——后者太容易了，而模型其实并不能真正思考 [47:35 Daniel Litt]。",
+  "quotes": [
+    {
+      "en": "That said, the goal of mathematics is not to produce mathematics papers.",
+      "zh": "话虽如此，数学的目标并不是产生数学论文。",
+      "timestamp": "34:48",
+      "speaker": "Daniel Litt"
+    },
+    {
+      "en": "You can take Codex. You can say, go online and find five recent conjectures in algebraic geometry and prove them.",
+      "zh": "你可以拿 Codex。你可以说，上网找五个代数几何中最近的猜想并证明它们。",
+      "timestamp": "36:44",
+      "speaker": "Daniel Litt"
+    },
+    {
+      "en": "The reason they're not producing long, complicated proofs is that they cannot.",
+      "zh": "它们不生成长长的、复杂的证明的原因是它们做不到。",
+      "timestamp": "52:47",
+      "speaker": "Daniel Litt"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:05",
+      "speaker": "Unknown",
+      "en": "Maybe some of that understanding resides in model weights.",
+      "zh": "也许那些理解中的一些驻留在模型权重中。"
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Unknown",
+      "en": "So my favorite, like, fully autonomous result by an AI so far is the solution to the Erdos unit distance problem, which I think was announced in mid-May.",
+      "zh": "所以我目前为止最喜欢的由 AI 完全自主完成的结果是 Erdos 单位距离问题的解决方案，我认为这是在五月中旬宣布的。"
+    },
+    {
+      "timestamp": "06:42",
+      "speaker": "Unknown",
+      "en": "I actually think the argument was very human.",
+      "zh": "我实际上认为那个论证非常人性化。"
+    },
+    {
+      "timestamp": "09:19",
+      "speaker": "Unknown",
+      "en": "my sense is that because they're primarily scaling informal reasoning, like, probably the techniques are going to generalize to other domains pretty well.",
+      "zh": "我的感觉是，因为他们主要是在扩展非形式推理，这些技术可能会很好地泛化到其他领域。"
+    },
+    {
+      "timestamp": "10:47",
+      "speaker": "Unknown",
+      "en": "It's more like they're very, very good at applying some known techniques, which is to be clear, that's like a very powerful thing to do to be very good at applying like all known techniques.",
+      "zh": "更像是他们非常非常擅长应用一些已知技术，需要明确的是，做一个非常擅长应用所有已知技术的模型，这是一件非常强大的事情。"
+    },
+    {
+      "timestamp": "14:43",
+      "speaker": "Unknown",
+      "en": "I think of myself as a problem solver as opposed to one other taxonomy you could have as a problem solver versus a theory builder.",
+      "zh": "我把自己看作一个解题者，相对于你可以有的另一种分类，即解题者与理论构建者之分。"
+    },
+    {
+      "timestamp": "17:38",
+      "speaker": "Unknown",
+      "en": "Like, often finding the conjecture is, like, really, really hard.",
+      "zh": "比如，找到这个猜想往往真的非常非常难。"
+    },
+    {
+      "timestamp": "24:36",
+      "speaker": "Unknown",
+      "en": "But in general, like, these conjectures fit into some very broad theoretical framework, which means that, look, we actually have a lot of evidence that they're true.",
+      "zh": "但总的来说，像，这些猜想符合一些非常广泛的理论框架，这意味着，看，我们实际上有很多证据表明它们是真的。"
+    },
+    {
+      "timestamp": "30:33",
+      "speaker": "Unknown",
+      "en": "And then, OK, once I had that statement, OK, probably I could have done it pretty fast, but also the models were able to very quickly prove that sort of better statement.",
+      "zh": "然后，好的，一旦我有了那个表述，好的，也许我本可以很快做到，但模型也能非常快地证明那种更好的表述。"
+    },
+    {
+      "timestamp": "34:48",
+      "speaker": "Unknown",
+      "en": "That said, the goal of mathematics is not to produce mathematics papers.",
+      "zh": "话虽如此，数学的目标并不是产生数学论文。"
+    },
+    {
+      "timestamp": "36:42",
+      "speaker": "Unknown",
+      "en": "You can take Codex. You can say, go online and find five recent conjectures in algebraic geometry and prove them.",
+      "zh": "你可以拿 Codex。你可以说，上网找五个代数几何中最近的猜想并证明它们。"
+    },
+    {
+      "timestamp": "37:36",
+      "speaker": "Unknown",
+      "en": "Like, sometimes, you know, we've seen examples where, like, three or four or five papers with the exact same proof of the exact same theorem have come out within a couple days of each other, which is clearly, you know, some situation where someone's playing the slot machine.",
+      "zh": "像，有时，你知道，我们看过例子，像，三篇或四篇或五篇具有完全相同证明的完全相同定理的论文在几天内出现，这显然是，你知道，有人在玩老虎机的情况。"
+    },
+    {
+      "timestamp": "38:25",
+      "speaker": "Unknown",
+      "en": "And it's like not clear to me that if, you know, we kind of subordinate mathematical exploration to what the model want to pursue, like if what you're getting is like one mathematician duplicated a thousand times or like actually, you know, a million different mathematicians doing a million different things.",
+      "zh": "而且对我来说不清楚的是，如果，你知道，我们使数学探索从属于模型想要追求的东西，像如果你得到的是一个被复制一千次的数学家还是像实际上，你知道，一百万个不同的数学家做一百万件不同的事情。"
+    },
+    {
+      "timestamp": "47:35",
+      "speaker": "Unknown",
+      "en": "Basically, you need to be ascending and using the models to deepen your understanding.",
+      "zh": "基本上，你需要保持上升，并使用模型来加深你的理解。"
+    },
+    {
+      "timestamp": "47:56",
+      "speaker": "Unknown",
+      "en": "The models can't really think.",
+      "zh": "模型真的不能思考。"
+    },
+    {
+      "timestamp": "52:47",
+      "speaker": "Unknown",
+      "en": "The reason they're not producing long, complicated proofs is that they cannot.",
+      "zh": "它们不生成长长的、复杂的证明的原因是它们做不到。"
+    },
+    {
+      "timestamp": "57:05",
+      "speaker": "Unknown",
+      "en": "What you would try to do to understand it is you try to, like, understand the overall global structure of the argument and you, like, stress test it in various ways.",
+      "zh": "你为了理解它会试图做的是，你试图，比如，理解论证的整体全局结构，然后你，比如，以各种方式对其进行压力测试。"
+    }
+  ],
+  "voice_script": "你敢信吗，拿现在最前沿的 AI 模型跑一个小时，就能自动产出三篇完全正确的数学论文。\n\n但别急着膜拜，这三篇论文的质量，用多伦多大学数学教授 Daniel Litt 的话说，就是“正确但极差”。这期我们就顺着这位一直死盯 AI 数学能力演变的学者的视角，聊聊现在模型在数学上到底行不行、到底差在哪儿。\n\n先说模型确实厉害的地方。五月中旬有个挺轰动的成果，一个关于 Erdos 单位距离问题的解法，完全由 AI 自主搞定。这不是那种人类挖好坑、AI 踢最后一脚的活儿，而是从一个意想不到的领域搬来了现成的分类思想，直接把大家本来觉得肯定对的猜想给证伪了。而且回头看这些证明，推理过程看着跟人类数学家写的没两样，并没有什么“非人类”的奇招。\n\n说白了，模型现在最擅长两件事：第一，应用所有已知技术；第二，做大规模并行计算，比如同时派十个子智能体去啃一千个例子。不管是 OpenAI 还是 Anthropic，在这块的底子都差不多。\n\n那模型到底卡在哪儿呢？三个关键维度：直觉、理论构建、还有提出正确的问题。\n\n很多时候，找到一个值得证明的猜想，比证明它本身难得多。数学里大量猜想是嵌在巨大的理论框架里的，有海量的证据在支撑，不是随便找个反例就能推翻的。让模型完全自主地去搭一套新理论？目前做不到。\n\nDaniel 讲了个特别真实的经历。有回做项目，想把一个引理证出来，所有前沿模型全翻车。后来自己硬啃了大量例子，换了个更精炼的表述方式，再扔给模型，哗哗一下就证出来了。但要是把最开始那个原始版本直接丢给 ChatGPT 呢？会吐出十页毫无洞见的暴力计算。\n\n那种证明虽然“正确”，但不会带来任何理解上的突破。其实 Daniel 知道那种笨办法行得通，只是不愿意去干。恰恰是因为不愿意做这种丑陋的证明，反而逼出了更好的概念性结果。\n\n这就引出了一个特别危险的现象——Daniel 管它叫“拉老虎机”。现在一个博士后想找工作，最快的方法是什么？拿个模型，让它上网去找五个代数几何里的最新猜想，然后挨个证。一个小时就能搞定三篇论文。预印本上已经出现了同一个定理、同一套证明，几天内冒出三四篇论文的情况。很明显，有人在批量刷成果。\n\n这会导致什么后果？数学探索的多样性可能直接崩塌。正常的数学进展是怎么来的？是一千个不同的人追着各自的好奇心，知识边界在各个方向均匀往外推，突然某个新想法杀进来，像多米诺骨牌一样解决一堆老问题。如果大家都跟着模型的节奏走，最后你得到的不是一个有一百万种直觉的数学家群体，而是一个被复制了一千次的同一个数学家。别忘了，模型脑子里的直觉，归根结底还是从人类这儿来的。\n\n最近你可能会看到一些很漂亮的 AI 短证明，觉得是不是短证明更优雅？Daniel 的判断特别干脆：不是因为短证明更好，是因为目前生成长证明，模型根本做不到。有人贴过一篇 800 页的 AI 生成证明，那肯定是不对的。人类检查长论文，不是逐行死磕，而是理解全局结构，做各种“压力测试”，比如看看这个论证会不会推出某个已知是错的结论。这种宏观把控，模型目前也做不好。\n\n所以你看，数学的目标并不是产生数学论文，而是产生理解。如果理解只锁在模型的权重里，那其实挺让人泄气的。用 AI，关键在于“上升”自己的认知，而不是把思考“让渡”出去。毕竟把活儿外包出去太容易了，但模型，其实并不能真正思考。"
+}

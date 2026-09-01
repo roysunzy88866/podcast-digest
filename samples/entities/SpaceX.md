@@ -45,7 +45,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Cursor]] · [[Microsoft]] · [[智能体]] · [[Meta]] · [[Harry Stebbings]] · [[OpenRouter]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":86,"OpenAI":74,"NVIDIA":24,"Cursor":41,"Microsoft":21,"智能体":1,"Meta":24,"Harry Stebbings":7,"OpenRouter":7,"Stripe":23}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":87,"OpenAI":76,"NVIDIA":24,"Cursor":41,"Microsoft":21,"智能体":1,"Meta":24,"Harry Stebbings":7,"OpenRouter":7,"Stripe":23}</script>
 
 <script>
 (function(){

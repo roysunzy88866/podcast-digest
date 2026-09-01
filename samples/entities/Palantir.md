@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Meta]] · [[后训练]] · [[ChatGPT]] · [[Lenny]] · [[前向部署工程师]] · [[NVIDIA]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":86,"OpenAI":74,"Meta":24,"后训练":17,"ChatGPT":43,"Lenny":66,"前向部署工程师":6,"NVIDIA":24,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":87,"OpenAI":76,"Meta":24,"后训练":17,"ChatGPT":45,"Lenny":66,"前向部署工程师":6,"NVIDIA":24,"开源模型":4}</script>
 
 <script>
 (function(){

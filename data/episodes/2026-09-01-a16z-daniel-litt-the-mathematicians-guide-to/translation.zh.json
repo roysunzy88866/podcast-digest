@@ -1,0 +1,5658 @@
+[
+ {
+  "seg": 0,
+  "start": 0.597,
+  "end": 3.458,
+  "speaker": "Unknown",
+  "en": "The goal of mathematics is not to produce mathematics papers.",
+  "zh": "数学的目标不是产出数学论文。"
+ },
+ {
+  "seg": 1,
+  "start": 3.658,
+  "end": 4.959,
+  "speaker": "Unknown",
+  "en": "It's to produce some kind of understanding.",
+  "zh": "它是产生某种理解。"
+ },
+ {
+  "seg": 2,
+  "start": 5.559,
+  "end": 8.1,
+  "speaker": "Unknown",
+  "en": "Maybe some of that understanding resides in model weights.",
+  "zh": "也许那些理解中的一些驻留在模型权重中。"
+ },
+ {
+  "seg": 3,
+  "start": 8.26,
+  "end": 9.641,
+  "speaker": "Unknown",
+  "en": "To me, that's like pretty unsatisfying.",
+  "zh": "对我来说，这相当不令人满意。"
+ },
+ {
+  "seg": 4,
+  "start": 9.861,
+  "end": 16.364,
+  "speaker": "Unknown",
+  "en": "Comparing Anthropic with OpenAI, do you detect any differences in how that is similar to human reasoning",
+  "zh": "比较 Anthropic 和 OpenAI，你在那与人类推理相似之处是否察觉到了任何差异"
+ },
+ {
+  "seg": 5,
+  "start": 16.484,
+  "end": 21.188,
+  "speaker": "Unknown",
+  "en": "They definitely are not good at it autonomously, but with some hints you can kind of get them to do something interesting.",
+  "zh": "它们绝对不擅长自主地做这件事，但通过一些提示，你可以让它们做点有趣的事情。"
+ },
+ {
+  "seg": 6,
+  "start": 21.208,
+  "end": 32.497,
+  "speaker": "Unknown",
+  "en": "A lot of progress in mathematics comes from like letting, you know, a thousand different flowers bloom and people pursue their own curiosity and then, you know, the boundaries of knowledge expand in some kind of fairly uniform way.",
+  "zh": "数学领域的许多进展来自于，你知道，让一千种不同的花朵绽放，人们追求他们自己的好奇心，然后，你知道，知识的边界以一种相当均匀的方式扩展。"
+ },
+ {
+  "seg": 7,
+  "start": 32.637,
+  "end": 36.14,
+  "speaker": "Unknown",
+  "en": "What has been the most impressive result so far?",
+  "zh": "迄今为止最令人印象深刻的结果是什么？"
+ },
+ {
+  "seg": 8,
+  "start": 36.3,
+  "end": 42.045,
+  "speaker": "Unknown",
+  "en": "My favorite fully autonomous result by an AI so far is the solution to the Erdos unit distance problem.",
+  "zh": "我目前为止最喜欢的由 AI 完全自主完成的结果是 Erdos 单位距离问题的解决方案。"
+ },
+ {
+  "seg": 9,
+  "start": 42.085,
+  "end": 43.986,
+  "speaker": "Unknown",
+  "en": "There was some lemma I wanted to prove,",
+  "zh": "有一些引理我想证明，"
+ },
+ {
+  "seg": 10,
+  "start": 44.887,
+  "end": 46.149,
+  "speaker": "Unknown",
+  "en": "None of the frontier models could do it.",
+  "zh": "没有一个前沿模型能做到。"
+ },
+ {
+  "seg": 11,
+  "start": 46.649,
+  "end": 52.876,
+  "speaker": "Unknown",
+  "en": "So I worked out a ton of examples on my own and I realized, oh, well, maybe here's some reason why it could be true.",
+  "zh": "所以我自己做了一堆例子，我意识到，噢，好吧，也许这里有一些理由说明它可能是真的。"
+ },
+ {
+  "seg": 12,
+  "start": 52.916,
+  "end": 57.041,
+  "speaker": "Unknown",
+  "en": "Once I had that statement, the models were able to very quickly prove that sort of better statement.",
+  "zh": "一旦我有了那个陈述，模型们就能非常快地证明那种更好的陈述。"
+ },
+ {
+  "seg": 13,
+  "start": 57.982,
+  "end": 63.208,
+  "speaker": "Unknown",
+  "en": "How should the mathematics community best adapt and benefit from this?",
+  "zh": "数学界应该如何最好地适应并从中受益？"
+ },
+ {
+  "seg": 14,
+  "start": 64.425,
+  "end": 68.589,
+  "speaker": "Unknown",
+  "en": "AI can increasingly solve math problems that would challenge professional mathematicians.",
+  "zh": "AI 越来越能够解决那些会挑战职业数学家的数学问题。"
+ },
+ {
+  "seg": 15,
+  "start": 69.23,
+  "end": 72.473,
+  "speaker": "Unknown",
+  "en": "But solving a problem isn't necessarily the same thing as understanding it.",
+  "zh": "但解决一个问题并不一定等同于理解它。"
+ },
+ {
+  "seg": 16,
+  "start": 73.193,
+  "end": 84.664,
+  "speaker": "Unknown",
+  "en": "In this episode, A16z infra partner, Lisha Lee, sits down with University of Toronto mathematician, Daniel Litt, to separate the headlines about AI and mathematics from what the models can actually do today.",
+  "zh": "在这一期节目中，A16z 基础设施合作伙伴 Lisha Lee 与多伦多大学数学家 Daniel Litt 坐在一起，旨在将关于 AI 和数学的新闻头条与模型今天实际能做的事情区分开来。"
+ },
+ {
+  "seg": 17,
+  "start": 85.625,
+  "end": 100.996,
+  "speaker": "Unknown",
+  "en": "Daniel explains why recent results have changed his views of AI, where frontier models already resemble human mathematicians, and where they still fall short, particularly when it comes to intuition, developing new theories, and even figuring out which questions are worth asking.",
+  "zh": "Daniel 解释了为什么最近的结果改变了他对 AI 的看法，前沿模型在哪些方面已经像人类数学家，以及它们在哪些方面仍然不足，特别是在直觉、发展新理论方面，甚至弄清楚哪些问题值得问。"
+ },
+ {
+  "seg": 18,
+  "start": 101.837,
+  "end": 114.83,
+  "speaker": "Unknown",
+  "en": "They also explore what happens to mathematics when generating a proof becomes cheap, why academic incentives may need to change, and how mathematicians can use AI without outsourcing the understanding that makes the work valuable in the first place.",
+  "zh": "他们还探讨了当生成证明变得廉价时，数学会发生什么，为什么学术激励机制可能需要改变，以及数学家如何在不外包理解的情况下使用 AI，因为正是这种理解让工作首先变得有价值。"
+ },
+ {
+  "seg": 19,
+  "start": 115.651,
+  "end": 123.959,
+  "speaker": "Unknown",
+  "en": "And more broadly, they ask what mathematics can teach us about working with AI, as increasingly capable models move into every knowledge profession.",
+  "zh": "更广泛地说，他们询问数学能教给我们什么关于与 AI 一起工作的知识，随着能力越来越强的模型进入每一个知识行业。"
+ },
+ {
+  "seg": 20,
+  "start": 126.66,
+  "end": 128.821,
+  "speaker": "Unknown",
+  "en": "I am so excited to have you on, Daniel.",
+  "zh": "我很高兴有你加入，Daniel。"
+ },
+ {
+  "seg": 21,
+  "start": 129.362,
+  "end": 133.424,
+  "speaker": "Unknown",
+  "en": "And so Daniel is a professor of mathematics at the University of Toronto.",
+  "zh": "Daniel 是多伦多大学的数学教授。"
+ },
+ {
+  "seg": 22,
+  "start": 133.564,
+  "end": 135.566,
+  "speaker": "Unknown",
+  "en": "Toronto's my hometown, so also very exciting.",
+  "zh": "多伦多是我的家乡，所以也很令人兴奋。"
+ },
+ {
+  "seg": 23,
+  "start": 135.906,
+  "end": 140.669,
+  "speaker": "Unknown",
+  "en": "But the thing that is most special here is Daniel's an actual practicing mathematician.",
+  "zh": "但这里最特别的事情是 Daniel 是一位真正的执业数学家。"
+ },
+ {
+  "seg": 24,
+  "start": 140.689,
+  "end": 145.912,
+  "speaker": "Unknown",
+  "en": "And in addition, he's been incredibly vocal about his evolving views of AI in math.",
+  "zh": "此外，他对 AI 在数学中不断演变的声音非常直言不讳。"
+ },
+ {
+  "seg": 25,
+  "start": 146.052,
+  "end": 152.597,
+  "speaker": "Unknown",
+  "en": "And so I feel like if I just don't check in with you, you know, like in two weeks, something, you know, different has been revealed.",
+  "zh": "所以我觉得如果我不和你查查，你知道，比如两周后，你知道，就会揭示出一些不同的东西。"
+ },
+ {
+  "seg": 26,
+  "start": 152.637,
+  "end": 155.418,
+  "speaker": "Unknown",
+  "en": "And then you're very kind of like, what do you call it?",
+  "zh": "然后你很像那种，你怎么称呼它？"
+ },
+ {
+  "seg": 27,
+  "start": 155.578,
+  "end": 156.479,
+  "speaker": "Unknown",
+  "en": "I have a lot of opinions.",
+  "zh": "我有很多意见。"
+ },
+ {
+  "seg": 28,
+  "start": 156.479,
+  "end": 157.701,
+  "speaker": "Unknown",
+  "en": "You have a lot of opinions, exactly.",
+  "zh": "你有很多意见，正是如此。"
+ },
+ {
+  "seg": 29,
+  "start": 157.741,
+  "end": 158.582,
+  "speaker": "Unknown",
+  "en": "So I want to get into that.",
+  "zh": "所以我想深入探讨那一点。"
+ },
+ {
+  "seg": 30,
+  "start": 158.863,
+  "end": 172.463,
+  "speaker": "Unknown",
+  "en": "So, I mean, one of the things that I'm most interested in is not just like a discussion of how the capabilities of advance, I feel like in math, that's definitely the headline, et cetera, but also you've been very thoughtful about how practicing mathematicians should respond.",
+  "zh": "所以，我的意思是，我最感兴趣的事情之一不仅仅是关于能力如何进步的讨论，我觉得在数学领域，这绝对是头条新闻，等等，但你也非常深思熟虑地思考了执业数学家应该如何回应。"
+ },
+ {
+  "seg": 31,
+  "start": 172.923,
+  "end": 176.686,
+  "speaker": "Unknown",
+  "en": "And so that kind of gives us a chance and opportunity to talk about actually what is special about math.",
+  "zh": "所以这给了我们一个机会和契机来讨论实际上数学的特别之处。"
+ },
+ {
+  "seg": 32,
+  "start": 176.726,
+  "end": 182.51,
+  "speaker": "Unknown",
+  "en": "It's not just like, hey, AI has been really making progress here, but delve into what actually mathematicians do.",
+  "zh": "这不仅仅是，嘿，AI 在这里真的取得了进步，而是深入探讨数学家实际在做什么。"
+ },
+ {
+  "seg": 33,
+  "start": 182.85,
+  "end": 192.036,
+  "speaker": "Unknown",
+  "en": "And so maybe like with that arc in line, we can start with what has been the most impressive result so far, given all the recent progress for you.",
+  "zh": "所以也许沿着那条脉络，考虑到你最近所有的进展，我们可以从迄今为止最令人印象深刻的结果开始。"
+ },
+ {
+  "seg": 34,
+  "start": 192.177,
+  "end": 193.878,
+  "speaker": "Unknown",
+  "en": "And then maybe, yeah, we'll kind of take it from there.",
+  "zh": "然后也许，是的，我们就从那里开始。"
+ },
+ {
+  "seg": 35,
+  "start": 194.657,
+  "end": 203.06,
+  "speaker": "Unknown",
+  "en": "Yeah, so, okay, so there have now been a lot of results, some of them produced autonomously, some produced, like, semi-autonomously, some whose, like, where the AI contribution is just not at all clear.",
+  "zh": "是的，所以，好吧，现在已经有很多结果了，其中一些是自主产生的，一些是半自主产生的，还有一些，比如 AI 的贡献根本不清楚。"
+ },
+ {
+  "seg": 36,
+  "start": 203.66,
+  "end": 210.562,
+  "speaker": "Unknown",
+  "en": "They're in a lot of different areas, so anything I say is kind of, you know, I can only really comment on things that I have some expertise on.",
+  "zh": "它们涉及很多不同的领域，所以我说的任何话都像是，你知道，我只能对我有一些专业知识的事情发表评论。"
+ },
+ {
+  "seg": 37,
+  "start": 210.602,
+  "end": 214.303,
+  "speaker": "Unknown",
+  "en": "So it's quite possible that if you talk to a different mathematician, you'll get, like, different answers here.",
+  "zh": "所以很有可能如果你和不同的数学家交谈，你会在这里得到不同的答案。"
+ },
+ {
+  "seg": 38,
+  "start": 214.763,
+  "end": 222.906,
+  "speaker": "Unknown",
+  "en": "So my favorite, like, fully autonomous result by an AI so far is the solution to the Erdos unit distance problem, which I think was announced in mid-May.",
+  "zh": "所以我目前为止最喜欢的由 AI 完全自主完成的结果是 Erdos 单位距离问题的解决方案，我认为这是在五月中旬宣布的。"
+ },
+ {
+  "seg": 39,
+  "start": 223.506,
+  "end": 228.748,
+  "speaker": "Unknown",
+  "en": "So at least what I liked about that is it seemed to me that like it was in some ways a little bit creative.",
+  "zh": "所以至少我喜欢的是，在我看来它在某种程度上有点创造性。"
+ },
+ {
+  "seg": 40,
+  "start": 228.928,
+  "end": 249.274,
+  "speaker": "Unknown",
+  "en": "So I think some of the results we've seen have had kind of the flavor if you kind of take some known techniques and apply them in maybe a clever way or you know they've kind of been some kind of results I would characterize as like last mile like where some recent work was done, quite deep work done by a group of human mathematicians and then the AI kind of took the final step.",
+  "zh": "所以我认为我们看到的一些结果带有这种味道，如果你采取一些已知技术并以也许聪明的方式应用它们，或者你知道它们是某种我会将其特征化为类似最后一英里的结果，在那里做了一些近期工作，由一群人类数学家做的相当深的工作，然后 AI 迈出了最后一步。"
+ },
+ {
+  "seg": 41,
+  "start": 250.134,
+  "end": 255.036,
+  "speaker": "Unknown",
+  "en": "But yeah, with this artist distance problem, I think it was something where the result was like a little unexpected.",
+  "zh": "但是是的，对于这个 artist distance 问题，我认为这是一些结果有点出乎意料的地方。"
+ },
+ {
+  "seg": 42,
+  "start": 255.156,
+  "end": 261.778,
+  "speaker": "Unknown",
+  "en": "So first of all, my sense was like that people working in the area thought it was true and then there was a counterexample found.",
+  "zh": "所以首先，我的感觉是该领域工作的人们认为它是真的，然后发现了一个反例。"
+ },
+ {
+  "seg": 43,
+  "start": 262.198,
+  "end": 265.219,
+  "speaker": "Unknown",
+  "en": "But then also it like brought in some techniques from another area.",
+  "zh": "但随后它也引入了一些来自其他领域的技术。"
+ },
+ {
+  "seg": 44,
+  "start": 265.699,
+  "end": 269.98,
+  "speaker": "Unknown",
+  "en": "I think those techniques were like not especially like deep or new.",
+  "zh": "我认为那些技术并不是特别深奥或新颖。"
+ },
+ {
+  "seg": 45,
+  "start": 270.04,
+  "end": 275.082,
+  "speaker": "Unknown",
+  "en": "They were sort of classified ideas from the 60s, but they were new to this area of studying, you know.",
+  "zh": "它们是 60 年代的某种分类思想，但对于这个研究领域来说它们是新的，你知道。"
+ },
+ {
+  "seg": 46,
+  "start": 276.085,
+  "end": 277.565,
+  "speaker": "Unknown",
+  "en": "...point configurations in the plane.",
+  "zh": "……平面中的点构型。"
+ },
+ {
+  "seg": 47,
+  "start": 278.086,
+  "end": 279.406,
+  "speaker": "Unknown",
+  "en": "And so that was pretty cool.",
+  "zh": "所以那非常酷。"
+ },
+ {
+  "seg": 48,
+  "start": 279.426,
+  "end": 282.327,
+  "speaker": "Unknown",
+  "en": "And then afterwards, we got to see, like, it was kind of fruitful.",
+  "zh": "然后在之后，我们得以看到，它是多产的。"
+ },
+ {
+  "seg": 49,
+  "start": 282.447,
+  "end": 288.849,
+  "speaker": "Unknown",
+  "en": "So a bunch of mathematicians took those ideas and used them to find counter examples to a bunch of other interesting open questions.",
+  "zh": "所以一群数学家拿走了这些想法，并用它们找到了一堆其他有趣开放问题的反例。 Wait, line 41 \"artist distance\". I need to make sure I follow \"Terminology Table\" logic vs \"Transcription Error\" logic. The glossary says \"Erdos unit distance problem\" -> \"Erdos unit distance problem\" (Keep English usually? No, Glossary says \"保留英文的保留\". Actually, looking at the Glossary: \"保留英文不译... Modal... Kubernetes...\" \"Erdos unit distance problem\" is NOT in the glossary list. However, the prompt says \"术语按术语表统一\". Line 38: \"Erdos unit distance problem\" -> Should I translate or keep? The glossary doesn't explicitly list it. But looking at the output format in the example, \"Kubernetes\" was kept English. However, the prompt also says \"English -> Chinese\". Let's look at the Glossary again. It lists: \"Modal\", \"Kubernetes\", \"vLLM\", etc. It does NOT list \"Erdos unit distance problem\". However, usually specific math problem names might be kept or translated. Line 38 translation in my draft: \"Erdos 单位距离问题的解决方案\". Line 41 translation in my draft: \"artist distance 问题\". Wait, if Line 38 has the correct name \"Erdos unit distance problem\", I should probably translate it as \"Erdos 单位距离问题\" or \"Erdos unit distance 问题\". Let's check the \"Drift-log #3\" rule again. \"Transcription error correction boundary... Full translation layer: Copy original errors, do not correct\". So for Line 41, I MUST translate \"artist distance problem\" as \"artist distance 问题\" or \"artist distance 问题\". For Line 38, it is \"Erdos unit distance problem\". If I translate \"Erdos unit distance problem\" as \"Erdos 单位距离问题\", then Line 41 becomes \"artist distance 问题\". This highlights the error well. Let's refine line 40/41/46. Line 46 starts with \"...\". The input has `[[46]] ...point configurations in the plane.` I should translate `[[46]] ……平面中的点构型。` (Keep the ellipsis if it's in the input, or if it's just a continuation). Input: `[[46]] ...point configurations in the plane.` My translation: `[[46]] ……平面中的点构型。` Line 24: \"vocal\". \"He's been incredibly vocal...\" \"Vocal\" means outspoken. Translation: \"直言不讳\" is good. Line 4: \"how that is similar to human reasoning\". My translation: \"你在那与人类推理相似之处是否察觉到了任何差异\". Literal: \"Comparing Anthropic with OpenAI, do you detect any differences in how that is similar to human reasoning\" \"比较 Anthropic 和 OpenAI，你在那与人类推理相似之处是否察觉到了任何差异\". This is very Chinglish but faithful to the garbled grammar. Alternative slightly better but still faithful: \"比较 Anthropic 和 OpenAI，关于那与人类推理相似之处，你是否察觉到了任何差异\". I will stick to the literal word order if possible to satisfy \"faithful > smooth\". Line 41: \"artist distance problem\". Input: `[[41]] But yeah, with this artist distance problem...` Translation: `[[41]] 但是是的，对于这个 artist distance 问题...` (Note: If I translate \"artist\" to \"艺术家\", it might be confusing. Keeping \"artist distance\" as a proper noun phrase-like structure might be safer, or \"艺术家距离\" (Artist Distance). Given \"Erdos unit distance\" is a specific math problem, \"artist distance\" is the typo. \"艺术家距离问题\" makes it clear it's a nonsensical name in this context. Let's translate 'artist' to '艺术家' to show the error clearly, or keep 'artist' English? The glossary doesn't cover typos. Usually, typos are translated if the word is a common word. \"Artist\" is a common word. \"Erdos\" is a name. I will translate \"artist\" to \"艺术家\" to contrast with the proper name \"Erdos\" (if I translated Erdos). Or keep both English? No, I should translate English text. \"Erdos unit distance problem\" -> \"Erdos 单位距离问题\". \"artist distance problem\" -> \"艺术家距离问题\". This shows the error effectively. Wait, Line 8 used \"Erdos unit distance problem\". Line 38 used \"Erdos unit distance problem\". Line 41 used \"artist distance problem\". I will translate as: `[[41]] 但是是的，对于这个艺术家距离问题...` One more check on Line 16. \"separate the headlines... from what the models can actually do today\". \"将...与...区分开来\". Correct. Line 17. \"where frontier models already resemble human mathematicians, and where they still fall short\". \"前沿模型在哪些方面已经像人类数学家，以及它们在哪些方面仍然不足\". Correct. Line 40. \"last mile\". \"最后一英里\" or \"最后一公里\". In tech/business context \"last mile\" is common. \"结果我将其特征化为类似最后一英里的结果\". Translating \"last mile\" as \"最后一公里\" is more natural Chinese, but \"最后一英里\" is the literal term. I'll use \"最后一公里\" as it's the standard idiom translation for \"last mile problem/delivery\". Wait, the prompt says \"Faithful > Smooth\". \"最后一英里\" is the literal translation of \"mile\". I will use \"最后一英里\" to be safe, or \"最后一公里\". I think \"最后一公里\" is the understood idiom. I'll use \"最后一公里\" to ensure the meaning of \"last mile\" (the final step) is conveyed, as \"最后一英里\" is less common in Chinese metaphors. Actually, let's stick to the text. \"Mile\" = \"英里\". \"最后一英里\". Line 41 again. \"artist distance\". Let's try to translate \"artist\" -> \"艺术家\". \"对于这个艺术家距离问题\". Let's double check the glossary for \"inference\" or \"agent\". Agent -> \"智能体\". Inference -> \"推理\". No instances found in this specific snippet. Final check on Line 46. `[[46]] ...point configurations in the plane.` Translation: `[[46]] ……平面中的点构型。` Ready to output."
+ },
+ {
+  "seg": 50,
+  "start": 288.889,
+  "end": 291.53,
+  "speaker": "Unknown",
+  "en": "So for example, like the sum product conjecture for the real numbers.",
+  "zh": "所以举例来说，比如实数的和积猜想。"
+ },
+ {
+  "seg": 51,
+  "start": 292.21,
+  "end": 295.613,
+  "speaker": "Unknown",
+  "en": "So that's at least what I like to think about how cool the result is.",
+  "zh": "所以这至少是我喜欢思考这结果有多酷的方式。"
+ },
+ {
+  "seg": 52,
+  "start": 295.633,
+  "end": 302.119,
+  "speaker": "Unknown",
+  "en": "Like you look at it post-hoc and you see like, oh, well, were whatever new ideas that were introduced, if any, like kind of useful to do other things?",
+  "zh": "就是你事后看它，你会看到，噢，好吧，无论引入了什么新想法，如果有的话，是不是有点对做其他事有用？"
+ },
+ {
+  "seg": 53,
+  "start": 302.2,
+  "end": 303.761,
+  "speaker": "Unknown",
+  "en": "Did they improve our understanding of something?",
+  "zh": "它们是否提升了我们对某事的理解？"
+ },
+ {
+  "seg": 54,
+  "start": 303.781,
+  "end": 308.846,
+  "speaker": "Unknown",
+  "en": "And I think that's maybe so far the main example I know of a result of that form.",
+  "zh": "我认为这也许是目前我知道的那种形式结果的主要例子。"
+ },
+ {
+  "seg": 55,
+  "start": 309.508,
+  "end": 321.851,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's really meaningful that you're commenting on this because that result came out to your point in May and there's been so many headlines so far and it's kind of probably hard for somebody who's not a practicing mathematician to appreciate the differences in these headlines.",
+  "zh": "是的，我认为你评论这一点真的很有意义，因为那个结果正如你所说是在五月份出来的，目前为止有太多头条了，这对于一个非执业数学家的人来说，可能很难体会这些头条之间的差异。"
+ },
+ {
+  "seg": 56,
+  "start": 322.191,
+  "end": 327.853,
+  "speaker": "Unknown",
+  "en": "And so you kind of already started laying out sort of a taxonomy of like what is different in that proof.",
+  "zh": "所以你其实已经开始列出了某种分类，比如那个证明里有什么不同。"
+ },
+ {
+  "seg": 57,
+  "start": 328.093,
+  "end": 335.336,
+  "speaker": "Unknown",
+  "en": "And so it'd be kind of interesting maybe to use that as kind of both an excuse to talk about where you sense the model differences are and what like mathematicians actually do.",
+  "zh": "所以这可能有点有趣，用那个作为借口去谈谈你感觉模型差异在哪里，以及数学家实际上做什么。"
+ },
+ {
+  "seg": 58,
+  "start": 335.717,
+  "end": 343.18,
+  "speaker": "Unknown",
+  "en": "So in this case, I mean, the most kind of maybe naive understanding of what mathematicians do is that we're pushing around symbols in a logical manner.",
+  "zh": "所以在这种情况下，我是说，对数学家做什么最天真的理解是我们以逻辑方式摆弄符号。"
+ },
+ {
+  "seg": 59,
+  "start": 343.2,
+  "end": 347.002,
+  "speaker": "Unknown",
+  "en": "And this is why RL is so successful at this because you can kind of both verify it.",
+  "zh": "这就是为什么 RL 在这方面这么成功，因为你可以某种程度上验证它。"
+ },
+ {
+  "seg": 60,
+  "start": 347.802,
+  "end": 356.047,
+  "speaker": "Unknown",
+  "en": "Somewhat cheaply compared to other domains and then also because the rules are quite illegible and so you can kind of like if you're superhuman at that you might be good at math.",
+  "zh": "相比其他领域相对便宜，而且因为规则相当难以辨认，所以你可以某种程度上如果你在这方面是超人的，你可能擅长数学。"
+ },
+ {
+  "seg": 61,
+  "start": 356.127,
+  "end": 367.935,
+  "speaker": "Unknown",
+  "en": "But I think that of course betrays most of actually what is interesting about mathematics which is perhaps I think you said this as well but I think anybody who's tried to do math is sort of like it's about the understanding and getting at truth.",
+  "zh": "但我认为这当然背叛了数学真正有趣的大部分，这也是我想你可能也说过这点，但我想任何尝试做数学的人都有点像，它是关于理解和抵达真理。"
+ },
+ {
+  "seg": 62,
+  "start": 368.875,
+  "end": 371.175,
+  "speaker": "Unknown",
+  "en": "Remaining confused and developing intuitions.",
+  "zh": "保持困惑并发展直觉。"
+ },
+ {
+  "seg": 63,
+  "start": 371.295,
+  "end": 380.257,
+  "speaker": "Unknown",
+  "en": "And I mean, the tool to do that stuff is, of course, in having really strong abilities to push out logical implications.",
+  "zh": "我的意思是，做这些事的工具当然是拥有很强的推出逻辑蕴涵的能力。"
+ },
+ {
+  "seg": 64,
+  "start": 380.737,
+  "end": 393.959,
+  "speaker": "Unknown",
+  "en": "But maybe if you can kind of speak to like, when you say it's most impressive and creative, like decoupling just the inhumane maybe feats of just like logical implication from like, where is it being creative?",
+  "zh": "但也许如果你能谈谈，当你说它最令人印象深刻和有创意时，比如把仅仅逻辑蕴涵的非人壮举分离开来，那么，它的创造性在哪里？"
+ },
+ {
+  "seg": 65,
+  "start": 394.079,
+  "end": 397.84,
+  "speaker": "Unknown",
+  "en": "What is it helping engender in terms of like mathematical activity as well?",
+  "zh": "它在数学活动方面帮助产生了什么？"
+ },
+ {
+  "seg": 66,
+  "start": 398.757,
+  "end": 402.28,
+  "speaker": "Unknown",
+  "en": "Yeah, okay, so first of all, I mean, you kind of characterized it as, like, inhuman in some way.",
+  "zh": "是的，好的，首先，我是说，你把它某种程度上描述为非人的。"
+ },
+ {
+  "seg": 67,
+  "start": 402.36,
+  "end": 403.982,
+  "speaker": "Unknown",
+  "en": "I actually think the argument was very human.",
+  "zh": "我实际上认为那个论证非常人性化。"
+ },
+ {
+  "seg": 68,
+  "start": 404.322,
+  "end": 405.483,
+  "speaker": "Unknown",
+  "en": "Ah, oh, I'd love to go for that.",
+  "zh": "啊，噢，我很想听听那个。"
+ },
+ {
+  "seg": 69,
+  "start": 405.503,
+  "end": 407.965,
+  "speaker": "Unknown",
+  "en": "ChatGPT, or sorry, OpenAI, like, released some chain of thought.",
+  "zh": "ChatGPT，或者说抱歉，OpenAI，发布了一些思维链。"
+ },
+ {
+  "seg": 70,
+  "start": 408.045,
+  "end": 408.226,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 71,
+  "start": 408.426,
+  "end": 409.547,
+  "speaker": "Unknown",
+  "en": "It was very recognizable.",
+  "zh": "它非常容易识别。"
+ },
+ {
+  "seg": 72,
+  "start": 409.567,
+  "end": 415.452,
+  "speaker": "Unknown",
+  "en": "It was like, if I tried to imagine, like, my chain of thought trying to solve a problem, like, it might look kind of like that.",
+  "zh": "就像是，如果我试着想象，比如，我试图解决问题时的思维链，它可能看起来有点像那样。"
+ },
+ {
+  "seg": 73,
+  "start": 415.913,
+  "end": 416.113,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 74,
+  "start": 416.193,
+  "end": 418.615,
+  "speaker": "Unknown",
+  "en": "We haven't seen the raw chain of thought, so maybe that would...",
+  "zh": "我们还没看到原始思维链，所以也许那会……"
+ },
+ {
+  "seg": 75,
+  "start": 419.055,
+  "end": 420.897,
+  "speaker": "Unknown",
+  "en": "Maybe they cleanse it a little bit, yeah.",
+  "zh": "也许他们稍微清理了一下，是的。"
+ },
+ {
+  "seg": 76,
+  "start": 421.158,
+  "end": 425.242,
+  "speaker": "Unknown",
+  "en": "Yeah, or maybe the model like to swear a lot in the middle of the chain of thought and they clean that up or something, but no.",
+  "zh": "是的，或者模型喜欢在思维链中间骂脏话，他们清理掉了之类的，但没有。"
+ },
+ {
+  "seg": 77,
+  "start": 425.622,
+  "end": 427.724,
+  "speaker": "Unknown",
+  "en": "But at least the summary seems pretty recognizable.",
+  "zh": "但至少总结看起来非常容易识别。"
+ },
+ {
+  "seg": 78,
+  "start": 427.824,
+  "end": 432.229,
+  "speaker": "Unknown",
+  "en": "And I would say that's actually like kind of typical of most of the results that I've studied.",
+  "zh": "我想这实际上是我研究过的大部分结果的典型特征。"
+ },
+ {
+  "seg": 79,
+  "start": 432.289,
+  "end": 433.951,
+  "speaker": "Unknown",
+  "en": "Like they don't seem inhuman at all.",
+  "zh": "它们看起来一点也不非人。"
+ },
+ {
+  "seg": 80,
+  "start": 433.991,
+  "end": 437.554,
+  "speaker": "Unknown",
+  "en": "They seem absolutely like something a human mathematician could produce.",
+  "zh": "它们绝对像是人类数学家能产生的东西。"
+ },
+ {
+  "seg": 81,
+  "start": 438.648,
+  "end": 441.891,
+  "speaker": "Unknown",
+  "en": "And they're, like, typically understandable if not so well-written.",
+  "zh": "它们通常是可以理解的，即使写得不太好。"
+ },
+ {
+  "seg": 82,
+  "start": 441.951,
+  "end": 446.414,
+  "speaker": "Unknown",
+  "en": "If you just look at raw model output, it's not like there's some move 37 or whatever.",
+  "zh": "如果你只看原始模型输出，不像有什么第37步之类的。"
+ },
+ {
+  "seg": 83,
+  "start": 447.034,
+  "end": 448.735,
+  "speaker": "Unknown",
+  "en": "It's like a human mathematician doing math.",
+  "zh": "就像一个人类数学家在做数学。"
+ },
+ {
+  "seg": 84,
+  "start": 449.216,
+  "end": 451.437,
+  "speaker": "Unknown",
+  "en": "It's like a human mathematician doing certain types of math.",
+  "zh": "就像一个人类数学家在做某些类型的数学。"
+ },
+ {
+  "seg": 85,
+  "start": 451.497,
+  "end": 452.698,
+  "speaker": "Unknown",
+  "en": "So, like, they're definitely...",
+  "zh": "所以，它们绝对是……"
+ },
+ {
+  "seg": 86,
+  "start": 452.718,
+  "end": 453.739,
+  "speaker": "Unknown",
+  "en": "The models are still, like...",
+  "zh": "模型仍然像……"
+ },
+ {
+  "seg": 87,
+  "start": 454.54,
+  "end": 455.721,
+  "speaker": "Unknown",
+  "en": "Thank you for watching!",
+  "zh": "感谢收看！"
+ },
+ {
+  "seg": 88,
+  "start": 473.303,
+  "end": 483.61,
+  "speaker": "Unknown",
+  "en": "It's interesting because, I mean, obviously we can't get too much information from the labs who are producing these models of why, of what the training recipes are or how they're kind of advancing in reasoning.",
+  "zh": "这很有趣，因为，我是说，显然我们不能从生产这些模型的实验室那里获得太多关于为什么的信息，关于训练配方是什么或者它们如何在推理上进步的信息。"
+ },
+ {
+  "seg": 89,
+  "start": 483.69,
+  "end": 490.674,
+  "speaker": "Unknown",
+  "en": "But at least one of the things we do know, and I think kind of OpenAI spearheaded this, is it's like reasoning in natural language is actually what they happen to scale up.",
+  "zh": "但我们至少知道一件事，我认为是 OpenAI 带头的，就是自然语言推理实际上是它们恰好扩展的事情。"
+ },
+ {
+  "seg": 90,
+  "start": 490.714,
+  "end": 495.637,
+  "speaker": "Unknown",
+  "en": "And it's not actually pushing a lot of lean verified proofs as like the training corpus.",
+  "zh": "并且它实际上并没有推送很多 Lean 验证过的证明作为训练语料库。"
+ },
+ {
+  "seg": 91,
+  "start": 495.737,
+  "end": 496.958,
+  "speaker": "Unknown",
+  "en": "And that's kind of amazing.",
+  "zh": "那有点令人惊叹。"
+ },
+ {
+  "seg": 92,
+  "start": 497.258,
+  "end": 499.34,
+  "speaker": "Unknown",
+  "en": "On another side, what's kind of interesting is",
+  "zh": "另一方面，有点有趣的是"
+ },
+ {
+  "seg": 93,
+  "start": 500.14,
+  "end": 512.248,
+  "speaker": "Unknown",
+  "en": "It's not clear that a lot of the mathematical training data, if they use that to a large extent at all, is reflective of how mathematicians think, if that's fair, because a lot of it is not like legible as traces, right?",
+  "zh": "不清楚很多数学训练数据，如果他们真的大规模使用那个，是否反映了数学家的思考方式，如果这公平的话，因为很多并不像痕迹那样清晰可辨，对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 512.268,
+  "end": 514.91,
+  "speaker": "Unknown",
+  "en": "Like most of the papers are crisp and like polished.",
+  "zh": "大多数论文是干脆的且经过润色的。"
+ },
+ {
+  "seg": 95,
+  "start": 515.09,
+  "end": 525.257,
+  "speaker": "Unknown",
+  "en": "The textbooks certainly just show very little motivation of how something is developed, which is why it's like usually easier to kind of follow a research direction by actually talking to the researchers and how they're thinking about it.",
+  "zh": "教科书当然只展示了关于某事是如何发展的非常少的动机，这就是为什么通常更容易通过与研究人员交谈和他们对它的思考来跟随研究方向。"
+ },
+ {
+  "seg": 96,
+  "start": 525.737,
+  "end": 539.482,
+  "speaker": "Unknown",
+  "en": "So I'm kind of curious before maybe even going to the taxonomy as an excuse, like when you're examining these models and their results comparing Anthropic with OpenAI, do you detect any differences in how that is similar to human reasoning?",
+  "zh": "所以我有点好奇，甚至在使用分类法作为借口之前，比如当你检查这些模型和它们的结果比较 Anthropic 和 OpenAI 时，你发现任何关于那如何类似于人类推理的差异吗？"
+ },
+ {
+  "seg": 97,
+  "start": 539.602,
+  "end": 545.725,
+  "speaker": "Unknown",
+  "en": "And then also if you have any comments or like insights on perhaps why natural language scales so well that way?",
+  "zh": "然后还有如果你有任何评论或见解关于为什么自然语言以这种方式扩展得这么好？"
+ },
+ {
+  "seg": 98,
+  "start": 546.465,
+  "end": 547.206,
+  "speaker": "Unknown",
+  "en": "Even though it's...",
+  "zh": "即使它是……"
+ },
+ {
+  "seg": 99,
+  "start": 547.226,
+  "end": 551.95,
+  "speaker": "Unknown",
+  "en": "Okay, so first of all, I really like your point, by the way, that they're mostly doing natural language reasoning rather than lean.",
+  "zh": "好的，首先，顺便说一句，我真的很喜欢你的观点，就是他们主要是在做自然语言推理而不是 Lean。"
+ },
+ {
+  "seg": 100,
+  "start": 551.97,
+  "end": 559.396,
+  "speaker": "Unknown",
+  "en": "Like, I think that suggests to me that, like, these... You hear a lot of people say, like, math is a verifiable domain, like, that explains the progress, whatever.",
+  "zh": "我觉得这向我暗示了这些……你听到很多人说，数学是一个可验证的领域，这就解释了进步，等等。"
+ },
+ {
+  "seg": 101,
+  "start": 559.436,
+  "end": 567.142,
+  "speaker": "Unknown",
+  "en": "Like, my sense is that because they're primarily scaling informal reasoning, like, probably the techniques are going to generalize to other domains pretty well.",
+  "zh": "我的感觉是，因为他们主要是在扩展非形式推理，这些技术可能会很好地泛化到其他领域。"
+ },
+ {
+  "seg": 102,
+  "start": 567.282,
+  "end": 568.103,
+  "speaker": "Unknown",
+  "en": "That's just my guess.",
+  "zh": "那只是我的猜测。"
+ },
+ {
+  "seg": 103,
+  "start": 568.643,
+  "end": 571.524,
+  "speaker": "Unknown",
+  "en": "Okay, you asked a little bit about Claude versus ChatGPT.",
+  "zh": "好的，你问了一点关于 Claude 对比 ChatGPT 的问题。"
+ },
+ {
+  "seg": 104,
+  "start": 572.284,
+  "end": 575.225,
+  "speaker": "Unknown",
+  "en": "My sense is that they're pretty similar in terms of capabilities.",
+  "zh": "我的感觉是，它们在能力方面非常相似。"
+ },
+ {
+  "seg": 105,
+  "start": 575.345,
+  "end": 584.989,
+  "speaker": "Unknown",
+  "en": "I've played around a lot more with ChatGPT than ClaudeFable, but it seems like there's a lot of cases where OpenAI will drop a solution to some problem and Anthropics will say, oh, you know, we also do.",
+  "zh": "我用 ChatGPT 玩得比用 ClaudeFable 多，但似乎有很多情况下 OpenAI 会针对某个问题发布解决方案，而 Anthropic 会说，哦，你知道，我们也做。"
+ },
+ {
+  "seg": 106,
+  "start": 585.469,
+  "end": 593.212,
+  "speaker": "Unknown",
+  "en": "It actually seems like they're solving a very similar collection of problems and it's like kind of a relatively small portion of what human mathematicians do.",
+  "zh": "实际上看起来他们正在解决一组非常相似的问题，而且这相对来说是人类数学家所做事情的一小部分。"
+ },
+ {
+  "seg": 107,
+  "start": 593.912,
+  "end": 598.593,
+  "speaker": "Unknown",
+  "en": "So, yeah, one thing that is interesting is, like, we see the solutions have a certain flavor, right?",
+  "zh": "所以，是的，有一件事很有趣，就是，我们看到这些解决方案有某种风格，对吧？"
+ },
+ {
+  "seg": 108,
+  "start": 598.633,
+  "end": 612.396,
+  "speaker": "Unknown",
+  "en": "Like, there'll be things that, this isn't surprising, like, there'll be things that rely on the model strengths, like their ability to round out a long computation or pull together kind of technical ideas from many areas or, like, maybe many papers that, you know, a human mathematician might not have read.",
+  "zh": "比如，会有一些事情，这并不令人惊讶，会有一些事情依赖于模型的优势，比如它们完成冗长计算或从许多领域汇总技术性想法的能力，或者，也许人类数学家可能没读过的许多论文。"
+ },
+ {
+  "seg": 109,
+  "start": 612.616,
+  "end": 616.157,
+  "speaker": "Unknown",
+  "en": "But they're not, like, they seem, like, weaker in things like intuition or, like...",
+  "zh": "但他们不是，他们似乎在直觉这类事情上更弱，或者……"
+ },
+ {
+  "seg": 110,
+  "start": 616.517,
+  "end": 617.097,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "谢谢大家观看。"
+ },
+ {
+  "seg": 111,
+  "start": 642.346,
+  "end": 647.91,
+  "speaker": "Unknown",
+  "en": "I haven't, you know, you can see even the best results the models are producing, you don't see that much of this kind of reasoning.",
+  "zh": "我还没有，你知道，你甚至可以看到模型产生的最好结果，你看不到太多这种推理。"
+ },
+ {
+  "seg": 112,
+  "start": 647.95,
+  "end": 658.036,
+  "speaker": "Unknown",
+  "en": "It's more like they're very, very good at applying some known techniques, which is to be clear, that's like a very powerful thing to do to be very good at applying like all known techniques.",
+  "zh": "更像是他们非常非常擅长应用一些已知技术，需要明确的是，做一个非常擅长应用所有已知技术的模型，这是一件非常强大的事情。"
+ },
+ {
+  "seg": 113,
+  "start": 658.837,
+  "end": 663.78,
+  "speaker": "Unknown",
+  "en": "There are mathematicians who have had great careers doing very high quality work of that flavor.",
+  "zh": "有一些数学家通过做那种风格的高质量工作而拥有伟大的职业生涯。"
+ },
+ {
+  "seg": 114,
+  "start": 663.82,
+  "end": 667.302,
+  "speaker": "Unknown",
+  "en": "And I think a lot of what the models are producing is high quality in that way.",
+  "zh": "我认为模型产生的很多东西在那种意义上是高质量的。"
+ },
+ {
+  "seg": 115,
+  "start": 667.742,
+  "end": 671.445,
+  "speaker": "Unknown",
+  "en": "But it's like some kind of fairly narrow band of what mathematicians care about.",
+  "zh": "但这只是数学家关心的事情中相当狭窄的一个部分。"
+ },
+ {
+  "seg": 116,
+  "start": 672.665,
+  "end": 680.988,
+  "speaker": "Unknown",
+  "en": "So far, I do think there's like signs of both, you know, all the frontier models starting to be able to do more fuzzy things.",
+  "zh": "到目前为止，我确实认为有迹象表明，你知道，所有的前沿模型开始能够做更多模糊的事情。"
+ },
+ {
+  "seg": 117,
+  "start": 682.429,
+  "end": 691.252,
+  "speaker": "Unknown",
+  "en": "So like I've tried to get both Fable and ChatGPT 5.6 Sol, I guess, to do some kind of theory building.",
+  "zh": "所以我试着让 Fable 和 ChatGPT 5.6 Sol，我想，去做某种理论构建。"
+ },
+ {
+  "seg": 118,
+  "start": 691.292,
+  "end": 697.234,
+  "speaker": "Unknown",
+  "en": "And it's like they're not, they definitely are not good at it autonomously, at least with like whatever scaffolding I've set up.",
+  "zh": "而就像他们不是，他们肯定不擅长自主地做这件事，至少对于我搭建的任何脚手架来说是这样。"
+ },
+ {
+  "seg": 119,
+  "start": 697.674,
+  "end": 700.255,
+  "speaker": "Unknown",
+  "en": "But with some hints, you can kind of get them to do something interesting.",
+  "zh": "但给一些提示，你可以让他们做一些有趣的事情。"
+ },
+ {
+  "seg": 120,
+  "start": 701.875,
+  "end": 715.038,
+  "speaker": "Unknown",
+  "en": "You know, when you give the models hints, it's always a little hard to tell, like, what part is from the model and what part is from you, but my experience is that, like, if they can do it with, like, 100 bits of hints or whatever in six months, maybe they can do it without hints.",
+  "zh": "你知道，当你给模型提示时，总是很难分辨，哪部分来自模型，哪部分来自你，但我的经验是，如果他们能用 100 比特的提示或类似的在六个月内做到，也许他们就能在没有提示的情况下做到。"
+ },
+ {
+  "seg": 121,
+  "start": 715.158,
+  "end": 715.398,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 122,
+  "start": 715.738,
+  "end": 722.08,
+  "speaker": "Unknown",
+  "en": "You know, I do think there's signs that they're also kind of somehow picking up some of this, like, implicit and unwritten mathematical knowledge.",
+  "zh": "你知道，我确实认为有迹象表明，他们也以某种方式正在获取一些这种隐性和未书写的数学知识。"
+ },
+ {
+  "seg": 123,
+  "start": 722.689,
+  "end": 732.352,
+  "speaker": "Unknown",
+  "en": "Okay, I would love to go into the intuition part and where it sucks at, to put it in a very basic way.",
+  "zh": "好的，我很想深入探讨直觉部分以及它在哪些方面表现糟糕，用一种非常基础的话来说。"
+ },
+ {
+  "seg": 124,
+  "start": 732.412,
+  "end": 742.815,
+  "speaker": "Unknown",
+  "en": "But you actually mentioned a small detail, which is that, you know, from the public, you've gleaned that Anthropic and OpenAI are probably neck and neck, but you personally are using a lot more ChatGPT.",
+  "zh": "但你实际上提到了一个小细节，就是，从公众那里，你推断出 Anthropic 和 OpenAI 可能并驾齐驱，但你个人使用 ChatGPT 的次数要多得多。"
+ },
+ {
+  "seg": 125,
+  "start": 742.835,
+  "end": 743.575,
+  "speaker": "Unknown",
+  "en": "Like, why is that?",
+  "zh": "为什么会那样？"
+ },
+ {
+  "seg": 126,
+  "start": 743.675,
+  "end": 745.035,
+  "speaker": "Unknown",
+  "en": "Or 5.6?",
+  "zh": "或者是 5.6？"
+ },
+ {
+  "seg": 127,
+  "start": 746.056,
+  "end": 747.576,
+  "speaker": "Unknown",
+  "en": "Well, I don't know.",
+  "zh": "嗯，我不知道。"
+ },
+ {
+  "seg": 128,
+  "start": 747.616,
+  "end": 749.917,
+  "speaker": "Unknown",
+  "en": "I mean, I just, I think it's just in our show.",
+  "zh": "我的意思是，我只是，我觉得这只是我们的节目里的事。"
+ },
+ {
+  "seg": 129,
+  "start": 749.977,
+  "end": 751.137,
+  "speaker": "Unknown",
+  "en": "Pretty sure I have it, yeah.",
+  "zh": "我很确信我有它，是的。"
+ },
+ {
+  "seg": 130,
+  "start": 753.338,
+  "end": 756.179,
+  "speaker": "Unknown",
+  "en": "One thing is that ChatGPT got better at math earlier.",
+  "zh": "一件事是 ChatGPT 在数学方面变得更早。"
+ },
+ {
+  "seg": 131,
+  "start": 756.199,
+  "end": 762.621,
+  "speaker": "Unknown",
+  "en": "So for a long time, the Claude models were just not useful for research math.",
+  "zh": "所以在很长一段时间里，Claude 模型对研究数学没有用。"
+ },
+ {
+  "seg": 132,
+  "start": 762.761,
+  "end": 766.963,
+  "speaker": "Unknown",
+  "en": "And I think maybe around Opus 4.5 or Opus 4.6, they more or less caught up.",
+  "zh": "我认为大概在 Opus 4.5 或 Opus 4.6 左右，他们或多或少赶上了。"
+ },
+ {
+  "seg": 133,
+  "start": 767.983,
+  "end": 771.425,
+  "speaker": "Unknown",
+  "en": "But some experimentation suggests to me they're pretty neck and neck.",
+  "zh": "但一些实验向我表明他们并驾齐驱。"
+ },
+ {
+  "seg": 134,
+  "start": 771.465,
+  "end": 776.847,
+  "speaker": "Unknown",
+  "en": "And so for my own work, except when I'm just experimenting, I mostly just stick with one and start at random.",
+  "zh": "所以对于我自己的工作，除非我只是做实验，我大部分时间只坚持用一种，然后随机开始。"
+ },
+ {
+  "seg": 135,
+  "start": 777.287,
+  "end": 783.753,
+  "speaker": "Unknown",
+  "en": "As people outside of labs like us, it's really interesting just to compare how they differ on the frontier.",
+  "zh": "作为像我们这样的实验室以外的人，仅仅比较他们在前沿的差异是很有趣的。"
+ },
+ {
+  "seg": 136,
+  "start": 783.953,
+  "end": 787.276,
+  "speaker": "Unknown",
+  "en": "And I mean, you know, to your point, it might be a little bit of momentum.",
+  "zh": "我的意思是，你知道，就你的观点而言，这可能有一点动量。"
+ },
+ {
+  "seg": 137,
+  "start": 787.496,
+  "end": 794.162,
+  "speaker": "Unknown",
+  "en": "I do think that, at least from my anecdotal experience, 5.6 has been like a lot more clear in exposition.",
+  "zh": "我确实认为，至少从我的轶事经验来看，5.6 在阐述方面更清晰。"
+ },
+ {
+  "seg": 138,
+  "start": 794.522,
+  "end": 796.544,
+  "speaker": "Unknown",
+  "en": "And it just like it's there's a little bit and this might not be true.",
+  "zh": "而且就像这有一点，这可能不是真的。"
+ },
+ {
+  "seg": 139,
+  "start": 796.564,
+  "end": 799.987,
+  "speaker": "Unknown",
+  "en": "I mean, obviously, the models are just incredibly jagged at the frontier.",
+  "zh": "我的意思是，显然，模型在前沿的表现参差不齐。"
+ },
+ {
+  "seg": 140,
+  "start": 800.668,
+  "end": 801.609,
+  "speaker": "Unknown",
+  "en": "But like, it's",
+  "zh": "但就像，它是"
+ },
+ {
+  "seg": 141,
+  "start": 802.827,
+  "end": 820.297,
+  "speaker": "Unknown",
+  "en": "In the explanations of results to me, I always find that 5.6 is giving a more accurate theory of mind of what it assumes I know and don't know, whereas Fable might be explaining something very trivial, but then just like jump at like, well, you know, obviously you should know these things.",
+  "zh": "在对我结果的解释中，我总是发现 5.6 给出了更准确的心智理论，关于它假设我知道什么和不知道什么，而 Fable 可能正在解释一些非常琐碎的事情，但然后就跳出来，说，嗯，显然你应该知道这些事情。"
+ },
+ {
+  "seg": 142,
+  "start": 820.657,
+  "end": 822.798,
+  "speaker": "Unknown",
+  "en": "Yeah, I find they're both pretty bad at theory of mind.",
+  "zh": "是的，我觉得他们在心智理论方面都很差。"
+ },
+ {
+  "seg": 143,
+  "start": 823.522,
+  "end": 824.003,
+  "speaker": "Unknown",
+  "en": "Okay, great.",
+  "zh": "好的，很好。"
+ },
+ {
+  "seg": 144,
+  "start": 824.023,
+  "end": 828.546,
+  "speaker": "Unknown",
+  "en": "So then seeing it from your eyes, you're probably asking much deeper questions.",
+  "zh": "那么从你的角度看，你可能会问更深的问题。"
+ },
+ {
+  "seg": 145,
+  "start": 828.926,
+  "end": 836.733,
+  "speaker": "Unknown",
+  "en": "Okay, so the thread that I really wanted to pull on was when you're talking about the models maybe starting to get better intuitions or even theory building.",
+  "zh": "好的，所以我真正想要深入探讨的是，当你谈论模型可能开始获得更好的直觉甚至理论构建时。"
+ },
+ {
+  "seg": 146,
+  "start": 836.753,
+  "end": 841.436,
+  "speaker": "Unknown",
+  "en": "So maybe before we even dive into that, it would be useful to kind of talk through like what is your...",
+  "zh": "所以也许在我们深入探讨之前，谈谈你的……是什么会很有用。"
+ },
+ {
+  "seg": 147,
+  "start": 842.477,
+  "end": 844.479,
+  "speaker": "Unknown",
+  "en": "Thank you for joining us today.",
+  "zh": "谢谢大家今天加入我们。"
+ },
+ {
+  "seg": 148,
+  "start": 863.447,
+  "end": 867.17,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think there are a lot of different kinds of mathematicians.",
+  "zh": "是的，所以我认为有很多不同种类的数学家。"
+ },
+ {
+  "seg": 149,
+  "start": 867.611,
+  "end": 872.134,
+  "speaker": "Unknown",
+  "en": "There's a lot of different spectra on which one can put a mathematician.",
+  "zh": "有很多不同的光谱可以把数学家放上去。"
+ },
+ {
+  "seg": 150,
+  "start": 873.535,
+  "end": 877.699,
+  "speaker": "Unknown",
+  "en": "So definitely a lot of mathematicians like solving open problems.",
+  "zh": "肯定有很多数学家喜欢解决开放问题。"
+ },
+ {
+  "seg": 151,
+  "start": 880.461,
+  "end": 881.122,
+  "speaker": "Unknown",
+  "en": "I'm one of those.",
+  "zh": "我是其中之一。"
+ },
+ {
+  "seg": 152,
+  "start": 881.142,
+  "end": 882.743,
+  "speaker": "Unknown",
+  "en": "I like to solve an open problem.",
+  "zh": "我喜欢解决一个开放问题。"
+ },
+ {
+  "seg": 153,
+  "start": 883.284,
+  "end": 889.929,
+  "speaker": "Unknown",
+  "en": "I think of myself as a problem solver as opposed to one other taxonomy you could have as a problem solver versus a theory builder.",
+  "zh": "我把自己看作一个解题者，相对于你可以有的另一种分类，即解题者与理论构建者之分。"
+ },
+ {
+  "seg": 154,
+  "start": 892.271,
+  "end": 898.814,
+  "speaker": "Unknown",
+  "en": "At least for me, the point of an open problem is it's like supposed to measure your failure to understand something.",
+  "zh": "至少对我来说，开放问题的意义在于，它应该被用来衡量你在理解某事物上的失败。"
+ },
+ {
+  "seg": 155,
+  "start": 898.854,
+  "end": 901.496,
+  "speaker": "Unknown",
+  "en": "So it's kind of like a benchmark, right?",
+  "zh": "所以这就像是一个基准，对吧？"
+ },
+ {
+  "seg": 156,
+  "start": 901.536,
+  "end": 907.319,
+  "speaker": "Unknown",
+  "en": "Like, you know, one problem I really like is the gross and decapped speak aperture, whatever that is.",
+  "zh": "比方说，你知道，有一个我真的很喜欢的问题是 gross and decapped speak aperture，不管那是什么。"
+ },
+ {
+  "seg": 157,
+  "start": 907.839,
+  "end": 911.661,
+  "speaker": "Unknown",
+  "en": "It measures something about our failure to understand differential equations.",
+  "zh": "它衡量的是我们在理解微分方程方面的某种失败。"
+ },
+ {
+  "seg": 158,
+  "start": 911.761,
+  "end": 915.243,
+  "speaker": "Unknown",
+  "en": "So it's like there's some very basic object we would like to understand.",
+  "zh": "所以这就好比有一些我们想理解的基本对象。"
+ },
+ {
+  "seg": 159,
+  "start": 916.043,
+  "end": 918.525,
+  "speaker": "Unknown",
+  "en": "If we can't answer this conjecture, we know we don't understand it.",
+  "zh": "如果我们不能回答这个猜想，我们就知道我们还不理解它。"
+ },
+ {
+  "seg": 160,
+  "start": 919.305,
+  "end": 924.73,
+  "speaker": "Unknown",
+  "en": "Okay, so in practice, like, how do you get a problem which is supposed to be measuring something you don't understand?",
+  "zh": "好的，那么在实践中，比如，你是如何得到一个本应衡量你并不理解之事物的问题的？"
+ },
+ {
+  "seg": 161,
+  "start": 924.75,
+  "end": 926.631,
+  "speaker": "Unknown",
+  "en": "Well, like, of course, you try to understand the thing better.",
+  "zh": "这个嘛，比如，当然，你会尝试更好地理解这个东西。"
+ },
+ {
+  "seg": 162,
+  "start": 928.153,
+  "end": 942.005,
+  "speaker": "Unknown",
+  "en": "And in practice, what that means is, like, well, you try to find the smallest situation where you can't understand something and fiddle around with it, and then you stare at, like, once you win, you stare at what you developed to win and try to turn that into some theory.",
+  "zh": "而在实践中，这意味着，比如，你会尝试找到最小的你无法理解某种事物的情况，然后摆弄它，然后你盯着，一旦你赢了，你盯着你为了获胜而开发出的东西，并尝试将其转化为某种理论。"
+ },
+ {
+  "seg": 163,
+  "start": 943.426,
+  "end": 944.386,
+  "speaker": "Unknown",
+  "en": "So that's one thing you might do.",
+  "zh": "所以这是你可能会做的一件事。"
+ },
+ {
+  "seg": 164,
+  "start": 944.406,
+  "end": 949.609,
+  "speaker": "Unknown",
+  "en": "You might try to solve a problem and in so doing, develop some kind of new understanding of the situation.",
+  "zh": "你可能会尝试解决一个问题，而在这样做的过程中，对情况产生某种新的理解。"
+ },
+ {
+  "seg": 165,
+  "start": 950.51,
+  "end": 954.532,
+  "speaker": "Unknown",
+  "en": "You might also just have some feeling that this thing is related to this other thing.",
+  "zh": "你可能也仅仅是有种感觉，觉得这个东西与那个东西有关。"
+ },
+ {
+  "seg": 166,
+  "start": 955.647,
+  "end": 962.912,
+  "speaker": "Unknown",
+  "en": "And, you know, you might start building a table, like, oh, this property A is related to property A prime, property B is related to property B prime, and so on and so forth.",
+  "zh": "而且，你知道，你可能会开始构建一张表格，比如，噢，这个属性 A 与属性 A 撇有关，属性 B 与属性 B 撇有关，以此类推。"
+ },
+ {
+  "seg": 167,
+  "start": 962.932,
+  "end": 973.599,
+  "speaker": "Unknown",
+  "en": "So, for example, in my work, a lot of it is motivated by some analogy between cohomology of algebraic varieties and representations of fundamental groups.",
+  "zh": "所以，举个例子，在我的工作中，很多工作是出于代数簇的上同调与基本群的表示之间的某种类比而驱动的。"
+ },
+ {
+  "seg": 168,
+  "start": 974.16,
+  "end": 975.601,
+  "speaker": "Unknown",
+  "en": "So that's some fancy stuff.",
+  "zh": "所以那是一些花哨的东西。"
+ },
+ {
+  "seg": 169,
+  "start": 975.621,
+  "end": 979.023,
+  "speaker": "Unknown",
+  "en": "But it's just that this analogy is, like, very, very fruitful.",
+  "zh": "但仅仅是这个类比，非常非常有成效。"
+ },
+ {
+  "seg": 170,
+  "start": 979.644,
+  "end": 984.087,
+  "speaker": "Unknown",
+  "en": "And, like, really any phenomenon that appears on one side, you can find an analog on the other side.",
+  "zh": "而且，真的，任何出现在一边的现象，你都能在另一边找到一个类比。"
+ },
+ {
+  "seg": 171,
+  "start": 984.885,
+  "end": 998.926,
+  "speaker": "Unknown",
+  "en": "And so trying to realize that dream has led to a lot of beautiful mathematics over the last 30 or 40 years about people like Carlos Simpson and Chihiro Machizuki and others.",
+  "zh": "因此，试图实现这一梦想在过去 30 或 40 年里，关于像 Carlos Simpson 和 Chihiro Machizuki 以及其他人，导致了很多优美的数学。"
+ },
+ {
+  "seg": 172,
+  "start": 1000.388,
+  "end": 1006.25,
+  "speaker": "Unknown",
+  "en": "And so here it's really just like someone noticed like here's an analogy and then that analogy has like led to a huge amount of developments.",
+  "zh": "所以在这里，真的就像有人注意到了这里有一个类比，然后那个类比导致了大量的进展。"
+ },
+ {
+  "seg": 173,
+  "start": 1006.27,
+  "end": 1011.012,
+  "speaker": "Unknown",
+  "en": "There's not really like an open problem at the end although of course like as you develop this you come up with lots of open problems.",
+  "zh": "最后并没有像是一个开放问题，尽管当然，随着你发展这个，你会提出很多开放问题。"
+ },
+ {
+  "seg": 174,
+  "start": 1011.372,
+  "end": 1015.713,
+  "speaker": "Unknown",
+  "en": "There's just like a philosophy that you're trying to, you know, you're trying to realize.",
+  "zh": "只有一种你试图，你知道，你试图实现的哲学。"
+ },
+ {
+  "seg": 175,
+  "start": 1016.013,
+  "end": 1018.734,
+  "speaker": "Unknown",
+  "en": "And that philosophy is like super not rigorous actually.",
+  "zh": "而那个哲学其实超级不严谨。"
+ },
+ {
+  "seg": 176,
+  "start": 1018.754,
+  "end": 1020.275,
+  "speaker": "Unknown",
+  "en": "It's not like symbol pushing at all.",
+  "zh": "它根本不像符号推导。"
+ },
+ {
+  "seg": 177,
+  "start": 1022.275,
+  "end": 1025.216,
+  "speaker": "Unknown",
+  "en": "Yeah, so that's another kind of activity that I like.",
+  "zh": "是的，这是另一种我喜欢的活动。"
+ },
+ {
+  "seg": 178,
+  "start": 1025.916,
+  "end": 1027.717,
+  "speaker": "Unknown",
+  "en": "Yeah, beyond that, no.",
+  "zh": "是的，除此之外，没有了。"
+ },
+ {
+  "seg": 179,
+  "start": 1028.902,
+  "end": 1040.834,
+  "speaker": "Unknown",
+  "en": "A lot of what you do when you try to, you know, a lot of the activities, like you're actually trying to figure out what the right question is even.",
+  "zh": "当你尝试，你知道，很多活动时，你做的很多工作，就像是你实际上甚至试图弄清楚什么是正确的问题。"
+ },
+ {
+  "seg": 180,
+  "start": 1041.414,
+  "end": 1048.121,
+  "speaker": "Unknown",
+  "en": "Like here you have some object, you feel like you don't understand it and like figuring out what you don't know is like actually very challenging.",
+  "zh": "比如这里你有一个对象，你觉得你并不理解它，然后弄清楚你不知道什么实际上是非常具有挑战性的。"
+ },
+ {
+  "seg": 181,
+  "start": 1048.846,
+  "end": 1049.387,
+  "speaker": "Unknown",
+  "en": "...thing to do.",
+  "zh": "...要做的事情。"
+ },
+ {
+  "seg": 182,
+  "start": 1049.487,
+  "end": 1055.233,
+  "speaker": "Unknown",
+  "en": "So, you know, there's, like, a list of, you know, you can go online and list open conjectures or whatever.",
+  "zh": "所以，你知道，有一个列表，你知道，你可以上网列出开放猜想或者其他的。"
+ },
+ {
+  "seg": 183,
+  "start": 1055.593,
+  "end": 1058.496,
+  "speaker": "Unknown",
+  "en": "And this, like, doesn't really capture in a lot of ways what we don't know.",
+  "zh": "而这在很多方面并没有真正捕捉到我们不知道的东西。"
+ },
+ {
+  "seg": 184,
+  "start": 1058.536,
+  "end": 1061.279,
+  "speaker": "Unknown",
+  "en": "Like, often finding the conjecture is, like, really, really hard.",
+  "zh": "比如，找到这个猜想往往真的非常非常难。"
+ },
+ {
+  "seg": 185,
+  "start": 1061.299,
+  "end": 1064.682,
+  "speaker": "Unknown",
+  "en": "So, I don't know, a good example of this is, like, the Bertrand Swinerton Dyer.",
+  "zh": "所以，我不知道，这方面的一个好例子是 Bertrand Swinerton Dyer。"
+ },
+ {
+  "seg": 186,
+  "start": 1065.804,
+  "end": 1079.305,
+  "speaker": "Unknown",
+  "en": "Conjecture, which is one of the millennium problems, is this beautiful relationship between L functions of elliptic curves and the set of solutions to the corresponding equations of the rank of the group of solutions, whatever that means.",
+  "zh": "猜想，这是千禧年难题之一，是椭圆曲线的 L 函数与解的集合对应方程的解群的秩之间的这种美丽关系，不管那意味着什么。"
+ },
+ {
+  "seg": 187,
+  "start": 1080.485,
+  "end": 1083.367,
+  "speaker": "Unknown",
+  "en": "It was discovered by, like, it was, like, the first big data conjecture.",
+  "zh": "它的发现是，比如，它是，第一个大数据猜想。"
+ },
+ {
+  "seg": 188,
+  "start": 1083.827,
+  "end": 1088.19,
+  "speaker": "Unknown",
+  "en": "So, Bertrand Sondert and Dyer had, like, found all these statistics on elliptic curves in the 60s.",
+  "zh": "所以，Bertrand Sondert 和 Dyer 在 60 年代，比如，发现了所有这些关于椭圆曲线的统计数据。"
+ },
+ {
+  "seg": 189,
+  "start": 1088.21,
+  "end": 1091.713,
+  "speaker": "Unknown",
+  "en": "Like, it was one of the first ever computer-aided bits of mathematics.",
+  "zh": "比如，这是最早的计算机辅助数学片段之一。"
+ },
+ {
+  "seg": 190,
+  "start": 1092.053,
+  "end": 1098.277,
+  "speaker": "Unknown",
+  "en": "And they, like, graphed these statistics and they noticed that, you know, the slope of some line on the graph was related to some other...",
+  "zh": "他们，比如，绘制了这些统计数据，他们注意到，你知道，图表上某条线的斜率与其他东西有关……"
+ },
+ {
+  "seg": 191,
+  "start": 1098.757,
+  "end": 1103.058,
+  "speaker": "Unknown",
+  "en": "And so I think going back to AI, I think these are things where AI seems so far to help a lot more in some things than other things.",
+  "zh": "所以我认为回到 AI，我认为在这些事情上，AI 似乎在某些方面比其他方面更有帮助。"
+ },
+ {
+  "seg": 192,
+  "start": 1103.098,
+  "end": 1103.918,
+  "speaker": "Unknown",
+  "en": "So I think the more vague",
+  "zh": "所以我认为越模糊的"
+ },
+ {
+  "seg": 193,
+  "start": 1124.358,
+  "end": 1126.02,
+  "speaker": "Unknown",
+  "en": "... ... ... ... ... ... ...",
+  "zh": "... ... ... ... ... ... ..."
+ },
+ {
+  "seg": 194,
+  "start": 1142.475,
+  "end": 1143.657,
+  "speaker": "Unknown",
+  "en": "It's just not that useful.",
+  "zh": "它真的没那么有用。"
+ },
+ {
+  "seg": 195,
+  "start": 1143.757,
+  "end": 1146.58,
+  "speaker": "Unknown",
+  "en": "It's primarily kind of a substitute for Google or something.",
+  "zh": "它主要是一种 Google 或其他东西的替代品。"
+ },
+ {
+  "seg": 196,
+  "start": 1146.62,
+  "end": 1152.266,
+  "speaker": "Unknown",
+  "en": "I might use it to learn about some related topic or something where I would have earlier Googled something and then read a paper.",
+  "zh": "我可能会用它来了解一些相关的主题，或者以前我会用 Google 搜索然后阅读论文的地方。"
+ },
+ {
+  "seg": 197,
+  "start": 1152.526,
+  "end": 1153.908,
+  "speaker": "Unknown",
+  "en": "Maybe I'll discuss it with AI instead.",
+  "zh": "也许我会和 AI 讨论它来代替。"
+ },
+ {
+  "seg": 198,
+  "start": 1153.928,
+  "end": 1155.309,
+  "speaker": "Unknown",
+  "en": "So it saves some time for sure.",
+  "zh": "所以它肯定节省了一些时间。"
+ },
+ {
+  "seg": 199,
+  "start": 1155.689,
+  "end": 1157.952,
+  "speaker": "Unknown",
+  "en": "It's not really doing deep intellectual work for me.",
+  "zh": "它并没有为我做真正的深层智力工作。"
+ },
+ {
+  "seg": 200,
+  "start": 1158.748,
+  "end": 1163.451,
+  "speaker": "Unknown",
+  "en": "But then, you know, because I, you know, I'm now like, well, I suck at coding.",
+  "zh": "但是然后，你知道，因为，你知道，我现在就像，好吧，我不擅长编程。"
+ },
+ {
+  "seg": 201,
+  "start": 1163.491,
+  "end": 1166.913,
+  "speaker": "Unknown",
+  "en": "And so now I know, you know, my good friend who's really good at coding.",
+  "zh": "所以现在我知道，我的那个真的很擅长编程的好朋友。"
+ },
+ {
+  "seg": 202,
+  "start": 1166.953,
+  "end": 1168.374,
+  "speaker": "Unknown",
+  "en": "And now I have all these coding projects.",
+  "zh": "现在我有所有这些编程项目。"
+ },
+ {
+  "seg": 203,
+  "start": 1168.454,
+  "end": 1175.139,
+  "speaker": "Unknown",
+  "en": "It's like suddenly, if I had a question where coding would have been really useful, I would have procrastinated on it for six months until I...",
+  "zh": "就像突然间，如果我有一个编程会非常有用的问题，我会拖延它六个月，直到我……"
+ },
+ {
+  "seg": 204,
+  "start": 1175.678,
+  "end": 1177.078,
+  "speaker": "Unknown",
+  "en": "Hireless PhD student.",
+  "zh": "未受雇的博士生。"
+ },
+ {
+  "seg": 205,
+  "start": 1177.699,
+  "end": 1179.019,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确实如此。"
+ },
+ {
+  "seg": 206,
+  "start": 1179.119,
+  "end": 1182.04,
+  "speaker": "Unknown",
+  "en": "So, yeah, now I've picked up all these projects where, yeah, coding is really useful.",
+  "zh": "所以，是的，现在我接手了所有这些项目，其中，是的，编程真的很有用。"
+ },
+ {
+  "seg": 207,
+  "start": 1182.1,
+  "end": 1185.561,
+  "speaker": "Unknown",
+  "en": "Like, the models are, like, very good for kind of massively parallel things.",
+  "zh": "比如，模型，非常擅长那种大规模并行的事情。"
+ },
+ {
+  "seg": 208,
+  "start": 1185.601,
+  "end": 1192.823,
+  "speaker": "Unknown",
+  "en": "Like, if you want to find an example of something, you can just ask it to find, you know, work through a thousand examples in parallel or maybe ten examples at a time.",
+  "zh": "比如，如果你想找某个东西的例子，你可以直接让它找，你知道，并行处理一千个例子，或者也许一次处理十个例子。"
+ },
+ {
+  "seg": 209,
+  "start": 1193.727,
+  "end": 1195.948,
+  "speaker": "Unknown",
+  "en": "You know, 10 different sub-agents, and, like, that's really useful.",
+  "zh": "你知道，10 个不同的子智能体，而且，这真的很有用。"
+ },
+ {
+  "seg": 210,
+  "start": 1196.328,
+  "end": 1201.67,
+  "speaker": "Unknown",
+  "en": "But these are, like, kind of different activities, which are, like, I don't know, on top of what I was doing before.",
+  "zh": "但这些是，不同类型的活动，就像，我不知道，是在我以前做的事情之上。"
+ },
+ {
+  "seg": 211,
+  "start": 1202.85,
+  "end": 1203.65,
+  "speaker": "Unknown",
+  "en": "I'd love to dig in.",
+  "zh": "我想深入探讨一下。"
+ },
+ {
+  "seg": 212,
+  "start": 1203.69,
+  "end": 1204.09,
+  "speaker": "Unknown",
+  "en": "Yeah, go on.",
+  "zh": "是的，继续。"
+ },
+ {
+  "seg": 213,
+  "start": 1204.59,
+  "end": 1222.316,
+  "speaker": "Unknown",
+  "en": "Yeah, sorry, because you were mentioning, you know, there's projects that you've been working on for, like, three, five, you know, three, four, five years, and I don't know if it's correct to say, like, those are more of the theory-building aspect of it, because you did characterize yourself as, like, an open problem solver, or, like, what is the thing that is, because, like, the deep thinking part, maybe, like, you know,",
+  "zh": "是的，抱歉，因为你提到，你知道，有那些你已经研究了，像，三、五，你知道，三、四、五年的项目，我不知道说，这些更多是理论构建方面的是否正确，因为你确实把自己描述为，一个开放式问题解决者，或者，那个关键的东西是什么，因为，那个深度思考部分，也许，你知道，"
+ },
+ {
+  "seg": 214,
+  "start": 1222.456,
+  "end": 1223.356,
+  "speaker": "Unknown",
+  "en": "Thank you so much for joining us.",
+  "zh": "非常感谢加入我们。"
+ },
+ {
+  "seg": 215,
+  "start": 1242.982,
+  "end": 1247.323,
+  "speaker": "Unknown",
+  "en": "Thurston made some comment or point about this in the 70s that it is a sociological phenomenon.",
+  "zh": "Thurston 在 70 年代对此发表了一些评论或观点，认为这是一个社会学现象。"
+ },
+ {
+  "seg": 216,
+  "start": 1247.343,
+  "end": 1253.685,
+  "speaker": "Unknown",
+  "en": "If more and more mathematicians start examining something, then you'll maybe, you know, converge on some interesting structures.",
+  "zh": "如果越来越多的数学家开始研究某样东西，那么你可能会，你知道，收敛于一些有趣的结构。"
+ },
+ {
+  "seg": 217,
+  "start": 1253.725,
+  "end": 1261.427,
+  "speaker": "Unknown",
+  "en": "But it's just like, it's not, there's some reason why people would prefer to study something or they think it's beautiful.",
+  "zh": "但这就好比，并不是，人们有某种理由会偏向于研究某些东西，或者他们认为它是美的。"
+ },
+ {
+  "seg": 218,
+  "start": 1261.447,
+  "end": 1263.807,
+  "speaker": "Unknown",
+  "en": "Like, what is it that drives maybe you in particular?",
+  "zh": "比如，是什么驱动了你，特别是你？"
+ },
+ {
+  "seg": 219,
+  "start": 1263.827,
+  "end": 1266.868,
+  "speaker": "Unknown",
+  "en": "And then maybe you can make a more general comment about the profession.",
+  "zh": "然后也许你可以对这个职业发表更普遍的评论。"
+ },
+ {
+  "seg": 220,
+  "start": 1267.755,
+  "end": 1273.401,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, so definitely some people are, like, motivated by, like, beauty or kind of aesthetic considerations.",
+  "zh": "是的，我是说，肯定有些人像被美或某种审美考虑所驱动。"
+ },
+ {
+  "seg": 221,
+  "start": 1273.481,
+  "end": 1275.323,
+  "speaker": "Unknown",
+  "en": "I try not to be motivated by that.",
+  "zh": "我尽量不被那个驱动。"
+ },
+ {
+  "seg": 222,
+  "start": 1275.943,
+  "end": 1278.146,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that's a bad way.",
+  "zh": "是的，我认为那是一种糟糕的方式。"
+ },
+ {
+  "seg": 223,
+  "start": 1278.526,
+  "end": 1280.528,
+  "speaker": "Unknown",
+  "en": "Like, well, one thing, like, that sort of limits you, right?",
+  "zh": "比如，好吧，一件事，那种会限制你，对吧？"
+ },
+ {
+  "seg": 224,
+  "start": 1280.548,
+  "end": 1289.197,
+  "speaker": "Unknown",
+  "en": "Like, one thing, kind of a failure mode I see among young mathematicians sometimes is, like, you have something and you kind of think you know how to prove it.",
+  "zh": "比如，一件事，我在年轻数学家身上看到的一种失败模式是，你有某个东西，你有点觉得你知道如何证明它。"
+ },
+ {
+  "seg": 225,
+  "start": 1289.937,
+  "end": 1292.318,
+  "speaker": "Unknown",
+  "en": "And then, like, the proof feels really ugly.",
+  "zh": "然后，证明感觉真的很丑陋。"
+ },
+ {
+  "seg": 226,
+  "start": 1292.738,
+  "end": 1296.258,
+  "speaker": "Unknown",
+  "en": "And you decide, but like, okay, I mean, what if you're wrong and it's not ugly?",
+  "zh": "然后你决定，但是像，好吧，我是说，如果你错了，它并不丑陋怎么办？"
+ },
+ {
+  "seg": 227,
+  "start": 1296.298,
+  "end": 1297.979,
+  "speaker": "Unknown",
+  "en": "Like, why limit yourself?",
+  "zh": "比如，为什么要限制自己？"
+ },
+ {
+  "seg": 228,
+  "start": 1298.019,
+  "end": 1299.519,
+  "speaker": "Unknown",
+  "en": "For this audience, like, what is ugly?",
+  "zh": "对于这个受众，比如，什么是丑陋？"
+ },
+ {
+  "seg": 229,
+  "start": 1299.679,
+  "end": 1303.98,
+  "speaker": "Unknown",
+  "en": "Because I have an intuition of what's ugly, but like, what is that for kind of spelling out?",
+  "zh": "因为我对什么是丑陋有直觉，但是像，为了明确说明，那是什么？"
+ },
+ {
+  "seg": 230,
+  "start": 1304.06,
+  "end": 1304.7,
+  "speaker": "Unknown",
+  "en": "I don't really know.",
+  "zh": "我真的不知道。"
+ },
+ {
+  "seg": 231,
+  "start": 1304.8,
+  "end": 1308.121,
+  "speaker": "Unknown",
+  "en": "I don't really have aesthetic feelings, but people sometimes feel this way.",
+  "zh": "我真的没有审美感觉，但人们有时会有这种感觉。"
+ },
+ {
+  "seg": 232,
+  "start": 1308.401,
+  "end": 1312.862,
+  "speaker": "Unknown",
+  "en": "Like, maybe it involves a lot of grinding, calculation that's not illuminating or something like that.",
+  "zh": "比如，也许它涉及大量的苦工，没有启发性的计算，或者类似的事情。"
+ },
+ {
+  "seg": 233,
+  "start": 1312.882,
+  "end": 1313.062,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确实如此。"
+ },
+ {
+  "seg": 234,
+  "start": 1313.322,
+  "end": 1316.263,
+  "speaker": "Unknown",
+  "en": "You should win by any means necessary, in my opinion.",
+  "zh": "在我看来，你应该不惜一切代价去赢。"
+ },
+ {
+  "seg": 235,
+  "start": 1317.083,
+  "end": 1321.964,
+  "speaker": "Unknown",
+  "en": "I like to think of what I'm doing as doing physics except with concepts.",
+  "zh": "我喜欢把我在做的事情看作是用概念做物理。"
+ },
+ {
+  "seg": 236,
+  "start": 1323.745,
+  "end": 1329.786,
+  "speaker": "Unknown",
+  "en": "Instead of beauty, I try to think about maybe what is fundamental, what's going to open up further understanding most.",
+  "zh": "而不是美，我试着思考什么是最根本的，什么最能打开进一步的理解。"
+ },
+ {
+  "seg": 237,
+  "start": 1330.526,
+  "end": 1336.328,
+  "speaker": "Unknown",
+  "en": "Am I introducing a new idea that will be broadly useful to understand this object?",
+  "zh": "我是否引入了一个新的想法，它将被广泛用于理解这个对象？"
+ },
+ {
+  "seg": 238,
+  "start": 1337.248,
+  "end": 1347.115,
+  "speaker": "Unknown",
+  "en": "I mean, I guess, you know, in some sense, there's like some aesthetic consideration there, but it's, I try to, I think the orientation of like trying to do good science rather than trying to do art is what I prefer.",
+  "zh": "我是说，我猜，你知道，在某种意义上，那里有一些审美考虑，但是，我试着，我认为这种尝试做好的科学而不是尝试做艺术的取向是我更喜欢的。"
+ },
+ {
+  "seg": 239,
+  "start": 1347.855,
+  "end": 1355.36,
+  "speaker": "Unknown",
+  "en": "But there's a huge, there's a huge variety of opinions here and like lots of mathematicians think of themselves as being like closer to poets or something.",
+  "zh": "但这里有巨大的，意见的巨大差异，而且很多数学家认为自己更接近诗人或什么的。"
+ },
+ {
+  "seg": 240,
+  "start": 1357.101,
+  "end": 1366.087,
+  "speaker": "Unknown",
+  "en": "Yeah, what I do think is broadly true is that like progress comes from people, like it seems to come in mathematics from people sort of pursuing their personal curiosity.",
+  "zh": "是的，我认为广泛正确的是，进步来自于人，似乎在数学中来自于人们追求他们的个人好奇心。"
+ },
+ {
+  "seg": 241,
+  "start": 1368.049,
+  "end": 1386.84,
+  "speaker": "Unknown",
+  "en": "And that it's sort of been crucial historically that there's like a lot of different people with different views of what's interesting and then the frontier of knowledge expands and expands and then suddenly, you know, you have these opportunistic situations where a new idea has been introduced and you can now find, you now can suddenly cascade through a bunch of other things that we didn't understand before.",
+  "zh": "这在历史上一直很关键，有很多不同的人对什么有趣有不同的看法，然后知识前沿不断扩展，然后突然，你知道，你会有这些机会主义的情况，一个新的想法被引入，你现在可以发现，你现在突然可以穿过我们以前不理解的一堆其他事情。"
+ },
+ {
+  "seg": 242,
+  "start": 1387.321,
+  "end": 1387.601,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 243,
+  "start": 1388.301,
+  "end": 1394.065,
+  "speaker": "Unknown",
+  "en": "I mean, so then going back to the three, four, five year problems and where are the models sort of",
+  "zh": "我是说，那回到三、四、五年的问题，以及模型在某种程度上是"
+ },
+ {
+  "seg": 244,
+  "start": 1395.43,
+  "end": 1396.431,
+  "speaker": "Unknown",
+  "en": "Not useful.",
+  "zh": "没有用。"
+ },
+ {
+  "seg": 245,
+  "start": 1397.031,
+  "end": 1398.112,
+  "speaker": "Unknown",
+  "en": "Kind of ask it another way.",
+  "zh": "换种方式问。"
+ },
+ {
+  "seg": 246,
+  "start": 1398.192,
+  "end": 1412.001,
+  "speaker": "Unknown",
+  "en": "Like when you're doing the deep thinking, like is it just that it's just not clear that you formulated as a problem and it's more that you're thinking about these, like what are the fundamental kind of physics of, you know?",
+  "zh": "比如当你做深度思考时，是不是只是因为不清楚你是否把它作为一个问题构想出来，更多的是你在思考这些，你知道的，"
+ },
+ {
+  "seg": 247,
+  "start": 1412.635,
+  "end": 1418.001,
+  "speaker": "Unknown",
+  "en": "So in some cases, I mean, some cases there is like a well-stated problem here.",
+  "zh": "所以在某些情况下，我是说，在某些情况下这里就像有一个表述清楚的问题。"
+ },
+ {
+  "seg": 248,
+  "start": 1418.402,
+  "end": 1422.847,
+  "speaker": "Unknown",
+  "en": "I've been thinking about things for maybe 10 years now at this point for certain problems.",
+  "zh": "对于某些问题，我在这个节点上已经思考到现在大概 10 年了。"
+ },
+ {
+  "seg": 249,
+  "start": 1423.107,
+  "end": 1426.19,
+  "speaker": "Unknown",
+  "en": "Sometimes there is just like a conjecture that I would like to prove that is there.",
+  "zh": "有时候就像有一个我想要证明的猜想就在那里。"
+ },
+ {
+  "seg": 250,
+  "start": 1429.25,
+  "end": 1433.972,
+  "speaker": "Unknown",
+  "en": "I think one reason the models might not be useful for some of these things is like the conductors are true.",
+  "zh": "我认为模型可能对其中一些事情没用的一个原因是像导体是真的。"
+ },
+ {
+  "seg": 251,
+  "start": 1435.213,
+  "end": 1447.137,
+  "speaker": "Unknown",
+  "en": "So like I think that certain, you know, for example, you know, this unit distance problem, like the general belief in the community was that it was true and then it turned out to be false.",
+  "zh": "所以我想有些，你知道，例如，你知道，这个单位距离问题，像社区中的普遍信念是它是真的，然后结果是假的。"
+ },
+ {
+  "seg": 252,
+  "start": 1447.617,
+  "end": 1451.739,
+  "speaker": "Unknown",
+  "en": "And so what that means is that there's like a specific construction you can do to refute it.",
+  "zh": "所以这意味着有像你可以做一个特定的构造来反驳它。"
+ },
+ {
+  "seg": 253,
+  "start": 1455.62,
+  "end": 1466.563,
+  "speaker": "Unknown",
+  "en": "On the other hand, I think a lot of the things I think about, like, I don't know, okay, maybe I'm about to, you know, someone will come up with a counter-example to the peak curvature conjecture for the Riemann hypothesis tomorrow, and, like, I'll look like a fool.",
+  "zh": "另一方面，我想很多我思考的事情，像，我不知道，好吧，也许我即将，你知道，明天有人会想出黎曼猜想的峰值曲率猜想的一个反例，然后，像，我会看起来像个傻瓜。"
+ },
+ {
+  "seg": 254,
+  "start": 1467.603,
+  "end": 1474.545,
+  "speaker": "Unknown",
+  "en": "But in general, like, these conjectures fit into some very broad theoretical framework, which means that, look, we actually have a lot of evidence that they're true.",
+  "zh": "但总的来说，像，这些猜想符合一些非常广泛的理论框架，这意味着，看，我们实际上有很多证据表明它们是真的。"
+ },
+ {
+  "seg": 255,
+  "start": 1476.405,
+  "end": 1478.826,
+  "speaker": "Unknown",
+  "en": "And so, you know...",
+  "zh": "所以，你知道……"
+ },
+ {
+  "seg": 256,
+  "start": 1479.834,
+  "end": 1480.715,
+  "speaker": "Unknown",
+  "en": "Yeah, so that's part of it.",
+  "zh": "是的，所以那是其中的一部分。"
+ },
+ {
+  "seg": 257,
+  "start": 1480.755,
+  "end": 1483.197,
+  "speaker": "Unknown",
+  "en": "Like, there's not, like, a construction you can do to refute it.",
+  "zh": "像，没有，像，你可以做一个构造来反驳它。"
+ },
+ {
+  "seg": 258,
+  "start": 1483.597,
+  "end": 1494.546,
+  "speaker": "Unknown",
+  "en": "You need to somehow kind of, you know, we have this giant framework where certain pieces of it are on the conjecture, and you probably need to resolve some of those conjectures to win.",
+  "zh": "你需要某种，你知道，我们有这个巨大的框架，它的某些部分在猜想上，你可能需要解决其中一些猜想才能赢。"
+ },
+ {
+  "seg": 259,
+  "start": 1494.807,
+  "end": 1501.132,
+  "speaker": "Unknown",
+  "en": "We also have, like, a pretty good sense, I think, that, like, very serious new ideas are needed to resolve those conjectures.",
+  "zh": "我们也还有，像，一个相当好的感觉，我想，像，非常严肃的新想法被需要来解决那些猜想。"
+ },
+ {
+  "seg": 260,
+  "start": 1501.712,
+  "end": 1504.535,
+  "speaker": "Unknown",
+  "en": "So, like, of course, you can't be sure.",
+  "zh": "所以，像，当然，你不能确定。"
+ },
+ {
+  "seg": 261,
+  "start": 1504.635,
+  "end": 1508.458,
+  "speaker": "Unknown",
+  "en": "Like, maybe there's some very clever construction that will let you, I don't know,",
+  "zh": "像，也许有一些非常聪明的构造会让你，我不知道，"
+ },
+ {
+  "seg": 262,
+  "start": 1509.262,
+  "end": 1509.923,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 263,
+  "start": 1529.942,
+  "end": 1532.144,
+  "speaker": "Unknown",
+  "en": "So you need to develop a new technique.",
+  "zh": "所以你需要开发新技术。"
+ },
+ {
+  "seg": 264,
+  "start": 1532.504,
+  "end": 1534.926,
+  "speaker": "Unknown",
+  "en": "Just to be clear, I'm not saying the models won't be able to do this.",
+  "zh": "明确一点，我不是说模型将不能做这个。"
+ },
+ {
+  "seg": 265,
+  "start": 1535.106,
+  "end": 1536.747,
+  "speaker": "Unknown",
+  "en": "It's just like so far they seem not to.",
+  "zh": "只是像到目前为止它们似乎没有。"
+ },
+ {
+  "seg": 266,
+  "start": 1537.047,
+  "end": 1546.153,
+  "speaker": "Unknown",
+  "en": "Actually, that's exactly the point that I wanted to delve into because it's, you know, to your point, it's like, okay, we can try to calibrate and forecast like why they would get better at this.",
+  "zh": "实际上，这正是我想深入探讨的点，因为它是，你知道，就你的观点，它是像，好吧，我们可以尝试校准和预测像为什么他们会在这方面变得更好。"
+ },
+ {
+  "seg": 267,
+  "start": 1546.233,
+  "end": 1552.157,
+  "speaker": "Unknown",
+  "en": "But it is true, like, you know, that just providing construction for a counterexample, they seem to be strong on.",
+  "zh": "但是这是真的，像，你知道，只是提供反例的构造，它们似乎在这方面很强。"
+ },
+ {
+  "seg": 268,
+  "start": 1552.558,
+  "end": 1558.362,
+  "speaker": "Unknown",
+  "en": "If you have to start developing either new theory or, to your point, techniques, machinery to solve",
+  "zh": "如果你必须开始开发新理论或者，就你的观点，技术，机械来解决"
+ },
+ {
+  "seg": 269,
+  "start": 1559.222,
+  "end": 1562.243,
+  "speaker": "Unknown",
+  "en": "To prove why conjecture is true, it struggles more.",
+  "zh": "去证明为什么猜想是真的，它更挣扎。"
+ },
+ {
+  "seg": 270,
+  "start": 1562.263,
+  "end": 1568.204,
+  "speaker": "Unknown",
+  "en": "And it's probably because a lot of what it's drawing on is also just like techniques that have happened in other areas and they're porting it over.",
+  "zh": "这可能是因为它所依赖的大部分也只是在其他领域发生过的技术，而它们正在将其移植过来。"
+ },
+ {
+  "seg": 271,
+  "start": 1568.264,
+  "end": 1574.165,
+  "speaker": "Unknown",
+  "en": "And to your point, that's why maybe the unit distance problem was such a more creative result because it was maybe doing more of that on its own.",
+  "zh": "就你的观点，这就是为什么也许单位距离问题是一个更有创意的结果，因为它可能更多地自己做那些事。"
+ },
+ {
+  "seg": 272,
+  "start": 1574.185,
+  "end": 1577.746,
+  "speaker": "Unknown",
+  "en": "It was like from another, at least it was drawing in something from an unexpected area.",
+  "zh": "它是像来自另一个，至少它是从意想不到的领域引入了一些东西。"
+ },
+ {
+  "seg": 273,
+  "start": 1577.886,
+  "end": 1578.666,
+  "speaker": "Unknown",
+  "en": "Exactly, exactly.",
+  "zh": "的确，的确。"
+ },
+ {
+  "seg": 274,
+  "start": 1578.726,
+  "end": 1584.527,
+  "speaker": "Unknown",
+  "en": "And so like maybe then to kind of ask the question, it's not that because now we're like, okay, fine, AI is getting so good so fast, we can't count it out.",
+  "zh": "所以像也许然后问这个问题，并不是因为现在我们像，好吧，好吧，AI 变得这么好这么快，我们不能把它排除在外。"
+ },
+ {
+  "seg": 275,
+  "start": 1584.547,
+  "end": 1587.328,
+  "speaker": "Unknown",
+  "en": "But like, why, what do you think it has to",
+  "zh": "但是像，为什么，你认为它必须"
+ },
+ {
+  "seg": 276,
+  "start": 1589.188,
+  "end": 1598.752,
+  "speaker": "Unknown",
+  "en": "Yeah, I guess it's, you're spelling out what it has to get better at, but maybe some more kind of feelings on like why it's kind of particularly hard to then develop that new theory and technique.",
+  "zh": "是的，我想它是，你正在详细说明它必须在哪些方面做得更好，但也许还有一些更多的感觉关于像为什么然后开发那个新理论和技术特别困难。"
+ },
+ {
+  "seg": 277,
+  "start": 1598.772,
+  "end": 1600.313,
+  "speaker": "Unknown",
+  "en": "Yeah, that's a good question.",
+  "zh": "是的，那是个好问题。"
+ },
+ {
+  "seg": 278,
+  "start": 1600.353,
+  "end": 1606.216,
+  "speaker": "Unknown",
+  "en": "I think you just need a different, like my guess actually is it's probably totally doable and it just hasn't been done yet.",
+  "zh": "我认为你只需要一个不同的，像我的猜测实际上是它可能是完全可行的，并且只是还没有被做。"
+ },
+ {
+  "seg": 279,
+  "start": 1606.296,
+  "end": 1608.397,
+  "speaker": "Unknown",
+  "en": "Like maybe you just need a different RL environment.",
+  "zh": "像也许你只需要一个不同的 RL 环境。"
+ },
+ {
+  "seg": 280,
+  "start": 1609.557,
+  "end": 1609.857,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 281,
+  "start": 1609.877,
+  "end": 1610.138,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 282,
+  "start": 1610.158,
+  "end": 1614.201,
+  "speaker": "Unknown",
+  "en": "So at this point, my expectation is just like that the trajectory will continue upwards.",
+  "zh": "所以在这一点上，我的期望只是像轨迹将继续向上。"
+ },
+ {
+  "seg": 283,
+  "start": 1614.721,
+  "end": 1617.624,
+  "speaker": "Unknown",
+  "en": "I'm not a skeptic of continued capabilities growth.",
+  "zh": "我不是一个持续能力增长的怀疑者。"
+ },
+ {
+  "seg": 284,
+  "start": 1618.224,
+  "end": 1625.471,
+  "speaker": "Unknown",
+  "en": "But yeah, you know, I think what is definitely true is that like the skill of like developing a theory",
+  "zh": "但是是的，你知道，我认为绝对真实的是像开发理论的技能"
+ },
+ {
+  "seg": 285,
+  "start": 1626.451,
+  "end": 1627.312,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "谢谢观看。"
+ },
+ {
+  "seg": 286,
+  "start": 1652.786,
+  "end": 1657.051,
+  "speaker": "Unknown",
+  "en": "Mathematics as a whole provides a lot of conjectures of varying levels of difficulty.",
+  "zh": "数学作为一个整体提供了许多不同难度级别的猜想。"
+ },
+ {
+  "seg": 287,
+  "start": 1657.531,
+  "end": 1662.156,
+  "speaker": "Unknown",
+  "en": "So, you know, maybe this explains why there seems to be a little bit of progress in these areas.",
+  "zh": "所以，你知道，也许这解释了为什么这些领域似乎有一点进展。"
+ },
+ {
+  "seg": 288,
+  "start": 1662.216,
+  "end": 1669.144,
+  "speaker": "Unknown",
+  "en": "Like, presumably, they are trying to, you know, get it to solve lots of problems, and some of those problems develop at least some of the skills of theory building.",
+  "zh": "像，据推测，他们正在试图，你知道，让它解决很多问题，而其中一些问题发展至少一些理论构建的技能。"
+ },
+ {
+  "seg": 289,
+  "start": 1669.184,
+  "end": 1670.945,
+  "speaker": "Unknown",
+  "en": "Humans are able to develop these skills.",
+  "zh": "人类能够发展这些技能。"
+ },
+ {
+  "seg": 290,
+  "start": 1672.086,
+  "end": 1680.853,
+  "speaker": "Unknown",
+  "en": "You know, I guess sometimes they get rewards from their PhD advisors and their advisor says, oh, that's a good idea or something based on some element of human taste or whatever.",
+  "zh": "你知道，我猜有时他们从他们的博士导师那里得到奖励，他们的导师说，噢，那是个好主意或基于人类品味的一些元素或其他东西。"
+ },
+ {
+  "seg": 291,
+  "start": 1681.113,
+  "end": 1683.515,
+  "speaker": "Unknown",
+  "en": "And that might be something one can do too.",
+  "zh": "那可能是某人也可以做的事情。"
+ },
+ {
+  "seg": 292,
+  "start": 1683.575,
+  "end": 1689.52,
+  "speaker": "Unknown",
+  "en": "But yeah, my expectation is that just like as part of continued capabilities growth, we'll see growth in these areas too.",
+  "zh": "但是是的，我的期望是就像作为持续能力增长的一部分，我们将看到这些领域的增长。"
+ },
+ {
+  "seg": 293,
+  "start": 1689.933,
+  "end": 1700.115,
+  "speaker": "Unknown",
+  "en": "Yeah, and I like the framing where you're sort of casting these increasingly difficult conjectures as a, you know, a form of curricula for both humans and, of course, AI.",
+  "zh": "是的，我喜欢这种框架，你正在把这些越来越难的猜想以此种方式呈现，你知道，一种课程的形式，既对人类也对，当然，AI。"
+ },
+ {
+  "seg": 294,
+  "start": 1700.655,
+  "end": 1706.656,
+  "speaker": "Unknown",
+  "en": "And it, you know, it may be kind of getting a little bit too philosophical for some people's taste.",
+  "zh": "而且它，你知道，它可能有点变得太哲学了，符合某些人的口味。"
+ },
+ {
+  "seg": 295,
+  "start": 1706.696,
+  "end": 1712.817,
+  "speaker": "Unknown",
+  "en": "It's like, it gets at the question of, like, why are we particularly good or maybe particularly bad at math, too?",
+  "zh": "它是像，它触及了这个问题，像，为什么我们在数学方面特别好或者也许特别坏？"
+ },
+ {
+  "seg": 296,
+  "start": 1712.937,
+  "end": 1717.178,
+  "speaker": "Unknown",
+  "en": "Because it's, you know, what is it that we're...",
+  "zh": "因为它是，你知道，我们在做的是什么……"
+ },
+ {
+  "seg": 297,
+  "start": 1718.422,
+  "end": 1725.436,
+  "speaker": "Unknown",
+  "en": "Either struggling to do or some people are particularly good at when you develop new theory because it's not, again, it's like not really...",
+  "zh": "要么努力去做或者当开发新理论时有些人特别擅长，因为它不是，再次，它像不是真的……"
+ },
+ {
+  "seg": 298,
+  "start": 1726.907,
+  "end": 1731.129,
+  "speaker": "Unknown",
+  "en": "Or maybe it's related to like, why can we formulate good structures for physics as well?",
+  "zh": "或者也许它关系到像，为什么我们也能为物理学制定好的结构？"
+ },
+ {
+  "seg": 299,
+  "start": 1731.149,
+  "end": 1732.49,
+  "speaker": "Unknown",
+  "en": "It's just like, it's not obvious.",
+  "zh": "它是就像，它不明显。"
+ },
+ {
+  "seg": 300,
+  "start": 1732.79,
+  "end": 1749.437,
+  "speaker": "Unknown",
+  "en": "All parts of the world are kind of understandable and legible that way, but some parts are and therefore we try to do it because there's maybe compressive pressures on our, you know, our minds because we need to, we can't understand anything beyond, you know, compressing stuff more finely.",
+  "zh": "世界上所有部分在某种程度上都是可以通过这种方式理解和阅读的，但有些部分是，因此我们尝试这样做，因为也许我们的思维上有压缩压力，你知道，因为我们需要，我们无法理解任何超出，你知道，更精细地压缩东西之外的事物。"
+ },
+ {
+  "seg": 301,
+  "start": 1751.238,
+  "end": 1751.78,
+  "speaker": "Unknown",
+  "en": "... ... ... ... ... ...",
+  "zh": "... ... ... ... ... ..."
+ },
+ {
+  "seg": 302,
+  "start": 1761.749,
+  "end": 1762.389,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "感谢收看。"
+ },
+ {
+  "seg": 303,
+  "start": 1782.981,
+  "end": 1789.324,
+  "speaker": "Unknown",
+  "en": "So this is some situation where like we had kind of proven the main result and then there were like some lemmas I was unhappy with, like they seemed not to be optimal.",
+  "zh": "所以在这种情况下，就像我们已经证明了主要结果，然后有一些引理我不满意，就像它们看起来不是最优的。"
+ },
+ {
+  "seg": 304,
+  "start": 1789.364,
+  "end": 1802.73,
+  "speaker": "Unknown",
+  "en": "And so I like worked with, actually this was with Gemini DeepThink, which at the time was also on the frontier, no longer, where I kind of worked with it to improve the lemmas.",
+  "zh": "所以我实际上是与 Gemini DeepThink 合作的，当时它也在前沿，不再是了，我与它合作改进了那些引理。"
+ },
+ {
+  "seg": 305,
+  "start": 1803.27,
+  "end": 1809.513,
+  "speaker": "Unknown",
+  "en": "And so what happened here was there was some lemma I wanted to prove and the models couldn't do it.",
+  "zh": "所以这里发生的情况是，我想证明某个引理，但模型做不到。"
+ },
+ {
+  "seg": 306,
+  "start": 1809.573,
+  "end": 1811.534,
+  "speaker": "Unknown",
+  "en": "So none of the frontier models could do it.",
+  "zh": "所以没有一个前沿模型能做到。"
+ },
+ {
+  "seg": 307,
+  "start": 1812.262,
+  "end": 1818.565,
+  "speaker": "Unknown",
+  "en": "And so I worked out a ton of examples on my own, and I realized, oh, well, maybe here's some reason why it could be true.",
+  "zh": "所以我独自做了一堆例子，我意识到，噢，也许这就是它可能为真的原因。"
+ },
+ {
+  "seg": 308,
+  "start": 1818.805,
+  "end": 1820.826,
+  "speaker": "Unknown",
+  "en": "So I found a better statement of the lemma.",
+  "zh": "所以我找到了引理的一个更好的表述。"
+ },
+ {
+  "seg": 309,
+  "start": 1820.966,
+  "end": 1828.669,
+  "speaker": "Unknown",
+  "en": "And then, OK, once I had that statement, OK, probably I could have done it pretty fast, but also the models were able to very quickly prove that sort of better statement.",
+  "zh": "然后，好的，一旦我有了那个表述，好的，也许我本可以很快做到，但模型也能非常快地证明那种更好的表述。"
+ },
+ {
+  "seg": 310,
+  "start": 1830.43,
+  "end": 1833.332,
+  "speaker": "Unknown",
+  "en": "So, like, our inability to prove it, like, led to an improvement in the result.",
+  "zh": "所以，就像，我们无法证明它，就像，导致了结果的改进。"
+ },
+ {
+  "seg": 311,
+  "start": 1833.712,
+  "end": 1846.579,
+  "speaker": "Unknown",
+  "en": "Okay, now you can take the original lemma I had that the models weren't able to prove, put it into ChatGPT 5.6 Pro, and it will output, like, the worst proof you've ever seen, like, 10 pages of, like, just brutal calculations with no insight whatsoever.",
+  "zh": "好的，现在你可以拿我原来的那个模型无法证明的引理，把它放进 ChatGPT 5.6 Pro，它会输出，就像，你见过的最糟糕的证明，就像，10 页的，就像，只是残酷的计算，没有任何见解。"
+ },
+ {
+  "seg": 312,
+  "start": 1846.599,
+  "end": 1848.921,
+  "speaker": "Unknown",
+  "en": "And so, okay, this would have been a perfectly fine proof.",
+  "zh": "所以，好的，这将是一个完全没问题的证明。"
+ },
+ {
+  "seg": 313,
+  "start": 1849.381,
+  "end": 1856.526,
+  "speaker": "Unknown",
+  "en": "But it would not have led to this discovery of, like, I think, a kind of beautiful conceptual explanation for why this thing discovered what's true.",
+  "zh": "但这不会导致这种发现，就像，我认为，一种美丽的概念性解释，解释为什么这个东西发现了什么是真的。"
+ },
+ {
+  "seg": 314,
+  "start": 1856.566,
+  "end": 1866.493,
+  "speaker": "Unknown",
+  "en": "So, like, we found a better proof because we couldn't do, I mean, okay, I say we couldn't do the calculation, like, what actually happened, and here I understand that I'm being hypocritical about my complaints about ugly proofs before.",
+  "zh": "所以，就像，我们找到了一个更好的证明，因为我们做不到，我的意思是，好的，我说我们不能做计算，就像，实际发生了什么，在这里我理解我对我之前关于丑陋证明的抱怨是虚伪的。"
+ },
+ {
+  "seg": 315,
+  "start": 1866.513,
+  "end": 1872.618,
+  "speaker": "Unknown",
+  "en": "It's like, I realized, like, this horrible grind proof would work, and I, like, could not bring myself to do it.",
+  "zh": "就像，我意识到，这种可怕的枯燥证明是行得通的，而我，就像，无法让自己去做。"
+ },
+ {
+  "seg": 316,
+  "start": 1873.708,
+  "end": 1875.59,
+  "speaker": "Unknown",
+  "en": "And so I went for another argument.",
+  "zh": "所以我选择了另一个论点。"
+ },
+ {
+  "seg": 317,
+  "start": 1877.192,
+  "end": 1883.339,
+  "speaker": "Unknown",
+  "en": "And so, I mean, it's not, yeah, but now the models can do very long technical calculations pretty reliably.",
+  "zh": "所以，我的意思是，不，是的，但现在模型可以非常可靠地做很长的技术计算。"
+ },
+ {
+  "seg": 318,
+  "start": 1883.359,
+  "end": 1892.731,
+  "speaker": "Unknown",
+  "en": "Yeah, well, I mean, to your credit, I think I understand why you're saying, it's like, don't, you know, just shy away from trying to prove something just because it seems ugly, because it's like you have to take the first step, right?",
+  "zh": "是的，好吧，我的意思是，给你点赞，我想我理解你在说什么，就像，不要，你知道，仅仅因为它看起来很丑就回避尝试证明某事，因为就像你必须迈出第一步，对吧？"
+ },
+ {
+  "seg": 319,
+  "start": 1892.731,
+  "end": 1892.911,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 320,
+  "start": 1892.951,
+  "end": 1895.534,
+  "speaker": "Unknown",
+  "en": "And eventually you all try to work towards insight.",
+  "zh": "最终你们都试图朝着见解努力。"
+ },
+ {
+  "seg": 321,
+  "start": 1895.574,
+  "end": 1904.144,
+  "speaker": "Unknown",
+  "en": "And so, you know, you might be shy about admitting it, but it is still maybe driven by whether it's like aesthetics or just like pure, you know, it's like I want to understand.",
+  "zh": "所以，你知道，你可能不好意思承认，但它可能仍然是由是否是美学还是仅仅是纯粹的，你知道，就像我想理解所驱动的。"
+ },
+ {
+  "seg": 322,
+  "start": 1904.184,
+  "end": 1909.29,
+  "speaker": "Unknown",
+  "en": "And if understanding just means it's a little bit simpler or, you know, more compressed than I've gotten understanding.",
+  "zh": "如果理解仅仅意味着它更简单一点或者，你知道，比我得到的理解更压缩。"
+ },
+ {
+  "seg": 323,
+  "start": 1909.31,
+  "end": 1912.253,
+  "speaker": "Unknown",
+  "en": "I mean, it's just like a deep philosophical question, too, is like what it is.",
+  "zh": "我的意思是，这同样是一个深刻的哲学问题，就像它是什么。"
+ },
+ {
+  "seg": 324,
+  "start": 1912.453,
+  "end": 1920.518,
+  "speaker": "Unknown",
+  "en": "Like, I mean, of course, any, you know, there's a reason we do informal mathematics rather than, like, writing out long informal strings of symbols of CFC or whatever.",
+  "zh": "就像，我的意思是，当然，任何，你知道，我们做非正式数学而不是，就像写出一长串非正式的 CFC 符号或其他东西是有原因的。"
+ },
+ {
+  "seg": 325,
+  "start": 1920.538,
+  "end": 1920.998,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 326,
+  "start": 1921.038,
+  "end": 1927.262,
+  "speaker": "Unknown",
+  "en": "Even though, you know, besides slang, it's just like somehow we're trying to put it in a way where we are actually getting some non-rigorous understanding out.",
+  "zh": "即使，你知道，除了俚语，这就像某种程度上我们试图把它以一种我们要真正获得一些非严谨的理解的方式放在一起。"
+ },
+ {
+  "seg": 327,
+  "start": 1927.502,
+  "end": 1927.682,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 328,
+  "start": 1928.062,
+  "end": 1929.103,
+  "speaker": "Unknown",
+  "en": "I mean, I think somehow.",
+  "zh": "我的意思是，我认为某种程度上。"
+ },
+ {
+  "seg": 329,
+  "start": 1929.403,
+  "end": 1932.325,
+  "speaker": "Unknown",
+  "en": "Yeah, and even how that even relates to, like, why it helps...",
+  "zh": "是的，而且甚至那如何甚至关系到，就像为什么它有帮助……"
+ },
+ {
+  "seg": 330,
+  "start": 1933.165,
+  "end": 1944.847,
+  "speaker": "Unknown",
+  "en": "And again, it's like, is it because of our inability to grind or is it because if we are pushing towards something that's more compressive, it also hopefully also ascends on the does it help understand other fields as well.",
+  "zh": "同样，就像，是因为我们无法枯燥计算，还是因为如果我们推动 towards 更有压缩性的东西，它也希望也有提升关于它是否有助于理解其他领域。"
+ },
+ {
+  "seg": 331,
+  "start": 1944.927,
+  "end": 1952.128,
+  "speaker": "Unknown",
+  "en": "And it is somewhat magical that when we try to optimize for the both, that it tends to coincide.",
+  "zh": "当我们尝试为两者优化时，这有点神奇的是，它倾向于重合。"
+ },
+ {
+  "seg": 332,
+  "start": 1952.148,
+  "end": 1959.01,
+  "speaker": "Unknown",
+  "en": "I don't actually know if that's a fair, it's actually a quantitative statement, but why that is, is kind of magical.",
+  "zh": "我实际上不知道那是否是一个公正的，它实际上是一个定量陈述，但为什么会那样，有点神奇。"
+ },
+ {
+  "seg": 333,
+  "start": 1959.05,
+  "end": 1960.45,
+  "speaker": "Unknown",
+  "en": "It's at least sometimes true, yeah.",
+  "zh": "这至少有时是真的，是的。"
+ },
+ {
+  "seg": 334,
+  "start": 1960.45,
+  "end": 1961.05,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，确切地。"
+ },
+ {
+  "seg": 335,
+  "start": 1961.27,
+  "end": 1964.032,
+  "speaker": "Unknown",
+  "en": "Or, you know, we certainly bias towards the cases in which it is.",
+  "zh": "或者，你知道，我们当然偏向于它是这种情况的案例。"
+ },
+ {
+  "seg": 336,
+  "start": 1964.052,
+  "end": 1966.533,
+  "speaker": "Unknown",
+  "en": "That's why we call that a good theory to build.",
+  "zh": "这就是我们为什么称之为一个值得构建的好理论。"
+ },
+ {
+  "seg": 337,
+  "start": 1967.414,
+  "end": 1982.421,
+  "speaker": "Unknown",
+  "en": "But it's, yeah, it's very much, I think, you know, it's like this is what we can study and understand, and therefore it's also very convenient that it was rich in kind of mathematical results there.",
+  "zh": "但是，是的，非常，我认为，你知道，就像这是我们可以研究和理解的，因此它在那种数学结果方面很丰富也很方便。"
+ },
+ {
+  "seg": 338,
+  "start": 1984.182,
+  "end": 1985.563,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, okay, so...",
+  "zh": "是的，我的意思是，好的，所以……"
+ },
+ {
+  "seg": 339,
+  "start": 1986.683,
+  "end": 2010.395,
+  "speaker": "Unknown",
+  "en": "I think there's two things that we can, like, you know, pull on, which is, like, what, given you've seeded that, or not seeded, but you've believed that mathematical ability of AI is going to continue advancing and can do some of the things that you're, you know, doing nowadays, how should, like, the mathematics community kind of best adapt and benefit from this?",
+  "zh": "我认为有两件事我们可以，你知道，依靠，也就是，什么，鉴于你已经播下了那颗种子，或者没有播下，但你相信 AI 的数学能力将继续推进并且可以做你目前正在做的一些事情，数学界应该如何最好地适应并从中受益？"
+ },
+ {
+  "seg": 340,
+  "start": 2010.875,
+  "end": 2019.997,
+  "speaker": "Unknown",
+  "en": "I mean, as a just kind of saying, as somebody who's, you know, doesn't have the time to kind of practice mathematics anymore, this is kind of very great because I can maybe dabble more.",
+  "zh": "我的意思是，作为一个只是说，作为一个，你知道，没有时间去练习数学的人，这非常棒，因为我也许可以更多地涉猎。"
+ },
+ {
+  "seg": 341,
+  "start": 2020.077,
+  "end": 2022.337,
+  "speaker": "Unknown",
+  "en": "There's a lot of results that can come out.",
+  "zh": "会有很多结果出现。"
+ },
+ {
+  "seg": 342,
+  "start": 2022.657,
+  "end": 2032.399,
+  "speaker": "Unknown",
+  "en": "But I can also see where, you know, you've made the more precise point of we can not motivate the right kind of behavior of understanding and development.",
+  "zh": "但我也能看到哪里，你已经做出了更精确的观点，即我们无法激励理解和发展正确类型的行为。"
+ },
+ {
+  "seg": 343,
+  "start": 2032.839,
+  "end": 2035.58,
+  "speaker": "Unknown",
+  "en": "And so we'd love to kind of hear more about your views there.",
+  "zh": "所以我们很想更多地听听你在那方面的观点。"
+ },
+ {
+  "seg": 344,
+  "start": 2036.438,
+  "end": 2043.624,
+  "speaker": "Unknown",
+  "en": "Yeah, so, okay, so first of all, like, it is clearly really exciting, like, that there are increasingly capable models that are, like, producing high-quality results.",
+  "zh": "是的，所以，好的，所以首先，就像，这显然真的很令人兴奋，就像有越来越多的有能力的模型正在，就像产生高质量的结果。"
+ },
+ {
+  "seg": 345,
+  "start": 2046.066,
+  "end": 2047.808,
+  "speaker": "Unknown",
+  "en": "At least, you know, some high-quality results.",
+  "zh": "至少，你知道，一些高质量的结果。"
+ },
+ {
+  "seg": 346,
+  "start": 2047.868,
+  "end": 2048.609,
+  "speaker": "Unknown",
+  "en": "Also a lot of stuff.",
+  "zh": "也是很多东西。"
+ },
+ {
+  "seg": 347,
+  "start": 2048.989,
+  "end": 2049.71,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 348,
+  "start": 2049.73,
+  "end": 2051.511,
+  "speaker": "Unknown",
+  "en": "Yeah, some good stuff.",
+  "zh": "是的，一些好东西。"
+ },
+ {
+  "seg": 349,
+  "start": 2051.611,
+  "end": 2059.919,
+  "speaker": "Unknown",
+  "en": "And so, you know, as the models get really capable, you know, my hope is that they will answer a lot of the questions that I've been, like, you know, kept up at night thinking about.",
+  "zh": "所以，你知道，随着模型变得真的很有能力，你知道，我的希望是它们将回答很多我一直，你知道，晚上睡不着思考的问题。"
+ },
+ {
+  "seg": 350,
+  "start": 2059.939,
+  "end": 2061.4,
+  "speaker": "Unknown",
+  "en": "I'm like, I'll get to learn the answers.",
+  "zh": "我觉得，我会去弄懂那些答案。"
+ },
+ {
+  "seg": 351,
+  "start": 2061.46,
+  "end": 2062.401,
+  "speaker": "Unknown",
+  "en": "I think that's really exciting.",
+  "zh": "我觉得这真的很令人兴奋。"
+ },
+ {
+  "seg": 352,
+  "start": 2062.441,
+  "end": 2064.803,
+  "speaker": "Unknown",
+  "en": "And, you know, a lot of people got into math.",
+  "zh": "而且，你知道，很多人进入了数学领域。"
+ },
+ {
+  "seg": 353,
+  "start": 2066.023,
+  "end": 2067.224,
+  "speaker": "Unknown",
+  "en": "Thank you for joining us.",
+  "zh": "谢谢加入我们。"
+ },
+ {
+  "seg": 354,
+  "start": 2088.578,
+  "end": 2092.199,
+  "speaker": "Unknown",
+  "en": "That said, the goal of mathematics is not to produce mathematics papers.",
+  "zh": "话虽如此，数学的目标并不是产生数学论文。"
+ },
+ {
+  "seg": 355,
+  "start": 2093.619,
+  "end": 2094.92,
+  "speaker": "Unknown",
+  "en": "It's to produce some kind of understanding.",
+  "zh": "而是产生某种理解。"
+ },
+ {
+  "seg": 356,
+  "start": 2096.02,
+  "end": 2100.161,
+  "speaker": "Unknown",
+  "en": "So maybe some of that understanding resides in model weights or something.",
+  "zh": "所以也许那种理解的一部分存在于模型权重或其他东西中。"
+ },
+ {
+  "seg": 357,
+  "start": 2100.481,
+  "end": 2102.262,
+  "speaker": "Unknown",
+  "en": "To me, that's pretty unsatisfying.",
+  "zh": "对我来说，那是相当不令人满意的。"
+ },
+ {
+  "seg": 358,
+  "start": 2103.382,
+  "end": 2108.464,
+  "speaker": "Unknown",
+  "en": "My motivation for doing mathematics is I would like to satisfy my own personal curiosity.",
+  "zh": "我做数学的动机是我想满足我自己的好奇心。"
+ },
+ {
+  "seg": 359,
+  "start": 2109.264,
+  "end": 2113.025,
+  "speaker": "Unknown",
+  "en": "I think people should have the capability to do that.",
+  "zh": "我认为人们应该有能力那样做。"
+ },
+ {
+  "seg": 360,
+  "start": 2113.085,
+  "end": 2115.926,
+  "speaker": "Unknown",
+  "en": "And that requires a pretty substantial apparatus.",
+  "zh": "而这需要相当庞大的装置。"
+ },
+ {
+  "seg": 361,
+  "start": 2117.319,
+  "end": 2126.847,
+  "speaker": "Unknown",
+  "en": "It's like simply not the case that you can like study the questions I think are fundamental unless you've invested a huge amount of time and effort kind of getting to the point where you can meaningfully do so.",
+  "zh": "这简直不是你可以像研究我认为是根本性的问题那样去做的情况，除非你已经投入了大量的时间和努力去达到那个点，在那里你可以有意义地这样做。"
+ },
+ {
+  "seg": 362,
+  "start": 2127.588,
+  "end": 2138.097,
+  "speaker": "Unknown",
+  "en": "And then moreover, like that, you know, even the people like, you know, you have the small group of people doing like fancy research math on the frontier or whatever that relies on like a huge apparatus of like, you know.",
+  "zh": "而且此外，像那样，你知道，即使是那些人，你知道，你有一小群人在做前沿的所谓花哨研究数学，或者任何依赖于巨大架构的东西，你知道。"
+ },
+ {
+  "seg": 363,
+  "start": 2139.618,
+  "end": 2143.58,
+  "speaker": "Unknown",
+  "en": "Thousands and millions or billions of people who are trying to learn to think mathematically.",
+  "zh": "成千上万、数百万甚至数十亿试图学习数学思维的人。"
+ },
+ {
+  "seg": 364,
+  "start": 2143.88,
+  "end": 2149.183,
+  "speaker": "Unknown",
+  "en": "You need an entire mathematical community to support a small group of people who are on the frontier.",
+  "zh": "你需要一个完整的数学社区来支持一小群处于前沿的人。"
+ },
+ {
+  "seg": 365,
+  "start": 2150.184,
+  "end": 2152.345,
+  "speaker": "Unknown",
+  "en": "Without the pipeline, the pipeline doesn't exist.",
+  "zh": "没有管道，管道就不存在。"
+ },
+ {
+  "seg": 366,
+  "start": 2153.405,
+  "end": 2169.074,
+  "speaker": "Unknown",
+  "en": "So if you think that's important, like development of human capital that can meaningfully engage with frontier mathematics, I think that you still have to incentivize those people to actually invest their time and effort getting to the point where they can engage and then do so in a high-quality, meaningful way.",
+  "zh": "所以如果你认为那很重要，比如能够有意义地接触前沿数学的人力资本的发展，我认为你仍然必须激励那些人真正投入他们的时间和努力去达到那个点，在那里他们能够参与，然后以高质量、有意义的方式这样做。"
+ },
+ {
+  "seg": 367,
+  "start": 2170.002,
+  "end": 2176.745,
+  "speaker": "Unknown",
+  "en": "So right now, I think like the existing incentive structures for math research do not do not encourage people to do that.",
+  "zh": "所以现在，我认为现有的数学研究激励机制并不会鼓励人们那样做。"
+ },
+ {
+  "seg": 368,
+  "start": 2177.846,
+  "end": 2184.609,
+  "speaker": "Unknown",
+  "en": "So, you know, right now, if you're like a postdoc on the market, you want to get a job maybe for the next couple of years before the community adapts.",
+  "zh": "所以，你知道，现在，如果你像是一个在市场上的博士后，你想在社区适应之前获得一份工作，也许是未来几年的工作。"
+ },
+ {
+  "seg": 369,
+  "start": 2186.17,
+  "end": 2191.012,
+  "speaker": "Unknown",
+  "en": "The best way to do that is like you want to produce a lot of papers which maybe prove, you know, old conjectures or whatever.",
+  "zh": "这样做的最好方式就像是你想产生很多论文，这些论文可能会证明，你知道，旧的猜想或其他任何东西。"
+ },
+ {
+  "seg": 370,
+  "start": 2191.032,
+  "end": 2197.956,
+  "speaker": "Unknown",
+  "en": "And you can do that by playing the slot machine until the model produces a hopefully correct proof of such a result.",
+  "zh": "你可以通过玩老虎机直到模型产生一个希望正确的这种结果的证明来做到这一点。"
+ },
+ {
+  "seg": 371,
+  "start": 2199.3,
+  "end": 2202.341,
+  "speaker": "Unknown",
+  "en": "So you don't even have to pick the theorem in advance.",
+  "zh": "所以你甚至不必提前选择定理。"
+ },
+ {
+  "seg": 372,
+  "start": 2202.401,
+  "end": 2204.201,
+  "speaker": "Unknown",
+  "en": "So here's an experiment you can do.",
+  "zh": "所以这里有一个你可以做的实验。"
+ },
+ {
+  "seg": 373,
+  "start": 2204.241,
+  "end": 2205.581,
+  "speaker": "Unknown",
+  "en": "You can take Codex.",
+  "zh": "你可以拿 Codex。"
+ },
+ {
+  "seg": 374,
+  "start": 2205.641,
+  "end": 2210.122,
+  "speaker": "Unknown",
+  "en": "You can say, go online and find five recent conjectures in algebraic geometry and prove them.",
+  "zh": "你可以说，上网找五个代数几何中最近的猜想并证明它们。"
+ },
+ {
+  "seg": 375,
+  "start": 2211.062,
+  "end": 2212.882,
+  "speaker": "Unknown",
+  "en": "And OK, I've run this experiment.",
+  "zh": "好的，我已经运行了这个实验。"
+ },
+ {
+  "seg": 376,
+  "start": 2212.942,
+  "end": 2224.324,
+  "speaker": "Unknown",
+  "en": "And with some back and forth, I was able to, in an hour, get three quite bad papers, but correct papers, which are now sitting on my hard drive waiting for me to email the relevant people.",
+  "zh": "经过一些来回，我能够在一个小时内得到三篇相当糟糕但正确的论文，它们现在正坐在我的硬盘上，等我把邮件发给相关的人。"
+ },
+ {
+  "seg": 377,
+  "start": 2224.384,
+  "end": 2227.865,
+  "speaker": "Unknown",
+  "en": "But this is not a good use of my time to investigate the results.",
+  "zh": "但这不是我调查结果的一个好用法。"
+ },
+ {
+  "seg": 378,
+  "start": 2228.606,
+  "end": 2230.488,
+  "speaker": "Unknown",
+  "en": "But yeah, you definitely see people doing this.",
+  "zh": "但是是的，你绝对看到人们在做这件事。"
+ },
+ {
+  "seg": 379,
+  "start": 2231.049,
+  "end": 2233.632,
+  "speaker": "Unknown",
+  "en": "So there's, you know, been a huge uptick in post-archive.",
+  "zh": "所以，你知道，后存档的数量有了巨大的激增。"
+ },
+ {
+  "seg": 380,
+  "start": 2234.193,
+  "end": 2235.454,
+  "speaker": "Unknown",
+  "en": "Mostly not very interesting.",
+  "zh": "大多数不是很感兴趣。"
+ },
+ {
+  "seg": 381,
+  "start": 2236.155,
+  "end": 2237.297,
+  "speaker": "Unknown",
+  "en": "Some of it is interesting.",
+  "zh": "其中一些是有趣的。"
+ },
+ {
+  "seg": 382,
+  "start": 2239.279,
+  "end": 2245.147,
+  "speaker": "Unknown",
+  "en": "But, you know, a lot of it is kind of clearly low quality, even if insofar as the...",
+  "zh": "但是，你知道，其中很多显然是低质量的，即使就……而言。"
+ },
+ {
+  "seg": 383,
+  "start": 2246.157,
+  "end": 2253.162,
+  "speaker": "Unknown",
+  "en": "Like, even if the result is something that would have been, like, kind of highly rewarded a year ago, just, like, there's sort of no evidence that a human being is actually engaged with it.",
+  "zh": "像，即使这个结果是一年前可能获得很高奖励的东西，就像，没有任何证据表明人类实际上参与了它。"
+ },
+ {
+  "seg": 384,
+  "start": 2253.603,
+  "end": 2255.824,
+  "speaker": "Unknown",
+  "en": "Like, there's no development of human capital or understanding.",
+  "zh": "像，没有人力资本或理解力的发展。"
+ },
+ {
+  "seg": 385,
+  "start": 2256.285,
+  "end": 2268.033,
+  "speaker": "Unknown",
+  "en": "Like, sometimes, you know, we've seen examples where, like, three or four or five papers with the exact same proof of the exact same theorem have come out within a couple days of each other, which is clearly, you know, some situation where someone's playing the slot machine.",
+  "zh": "像，有时，你知道，我们看过例子，像，三篇或四篇或五篇具有完全相同证明的完全相同定理的论文在几天内出现，这显然是，你知道，有人在玩老虎机的情况。"
+ },
+ {
+  "seg": 386,
+  "start": 2268.153,
+  "end": 2268.413,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 387,
+  "start": 2268.574,
+  "end": 2272.156,
+  "speaker": "Unknown",
+  "en": "ChatGPT is kind of consistently finding the same... Well, that's also interesting.",
+  "zh": "ChatGPT 有点是一致地发现相同的……嗯，那也很有趣。"
+ },
+ {
+  "seg": 388,
+  "start": 2272.176,
+  "end": 2272.657,
+  "speaker": "Unknown",
+  "en": "It's, like, not...",
+  "zh": "它，像，不是……"
+ },
+ {
+  "seg": 389,
+  "start": 2272.677,
+  "end": 2275.619,
+  "speaker": "Unknown",
+  "en": "It's kind of mode collapsed on, like, certain paths of reasoning.",
+  "zh": "它有点像是在某些推理路径上发生了模式崩溃。"
+ },
+ {
+  "seg": 390,
+  "start": 2276.079,
+  "end": 2280.261,
+  "speaker": "Unknown",
+  "en": "Yeah, and I think it's like not obvious that this problem goes away as the models get better.",
+  "zh": "是的，而且我认为这并不明显，这个问题会随着模型变好而消失。"
+ },
+ {
+  "seg": 391,
+  "start": 2280.281,
+  "end": 2282.082,
+  "speaker": "Unknown",
+  "en": "Like maybe it does, but maybe it doesn't.",
+  "zh": "像也许它会，也许它不会。"
+ },
+ {
+  "seg": 392,
+  "start": 2282.102,
+  "end": 2291.848,
+  "speaker": "Unknown",
+  "en": "Like I think a lot of what I was saying earlier is that a lot of progress in mathematics comes from like letting, you know, a thousand different flowers bloom and people pursue their own curiosity.",
+  "zh": "像我想我之前说的很多是，数学的很多进展来自于像让，你知道，一千朵不同的花盛开，人们追求他们自己的好奇心。"
+ },
+ {
+  "seg": 393,
+  "start": 2291.908,
+  "end": 2299.452,
+  "speaker": "Unknown",
+  "en": "And then, you know, the boundaries of knowledge expand in some kind of fairly, hopefully fairly uniform way in this really high dimensional space of mathematics.",
+  "zh": "然后，你知道，知识的边界在这个真正高维的数学空间中以某种相当，希望是相当统一的方式扩展。"
+ },
+ {
+  "seg": 394,
+  "start": 2300.172,
+  "end": 2305.015,
+  "speaker": "Unknown",
+  "en": "And then like opportunistically, you suddenly get some applications or like answers to old questions we found.",
+  "zh": "然后像投机地，你突然得到了一些应用或者像我们发现的旧问题的答案。"
+ },
+ {
+  "seg": 395,
+  "start": 2305.835,
+  "end": 2320.863,
+  "speaker": "Unknown",
+  "en": "And it's like not clear to me that if, you know, we kind of subordinate mathematical exploration to what the model want to pursue, like if what you're getting is like one mathematician duplicated a thousand times or like actually, you know, a million different mathematicians doing a million different things.",
+  "zh": "而且对我来说不清楚的是，如果，你知道，我们使数学探索从属于模型想要追求的东西，像如果你得到的是一个被复制一千次的数学家还是像实际上，你知道，一百万个不同的数学家做一百万件不同的事情。"
+ },
+ {
+  "seg": 396,
+  "start": 2321.643,
+  "end": 2328.604,
+  "speaker": "Unknown",
+  "en": "You know, I think actually that's pretty, I mean, you know, aside from like, okay, math has to adapt by changing incentive structures.",
+  "zh": "你知道，我认为实际上那是相当，我是说，你知道，除了像，好吧，数学必须通过改变激励结构来适应。"
+ },
+ {
+  "seg": 397,
+  "start": 2328.624,
+  "end": 2342.907,
+  "speaker": "Unknown",
+  "en": "I think this is actually a pretty maybe dangerous or something that the labs have to pay attention to because, you know, on one side, what's been successful for them is that this emergent reasoning capability is obviously incredibly powerful.",
+  "zh": "我认为这实际上是一个相当可能危险或实验室必须注意的事情，因为，你知道，一方面，对他们来说成功的是这种涌现的推理能力显然是极其强大的。"
+ },
+ {
+  "seg": 398,
+  "start": 2343.087,
+  "end": 2346.608,
+  "speaker": "Unknown",
+  "en": "And we've been, I mean, it's just created a lot of like great PR headlines, but...",
+  "zh": "而我们一直，我是说，它只是创造了很多像很棒的公关头条，但是……"
+ },
+ {
+  "seg": 399,
+  "start": 2347.468,
+  "end": 2366.908,
+  "speaker": "Unknown",
+  "en": "You know, to your point and also like where my interests tend to is that like human mathematicians, they are coming from all sorts of weird intuitions that like, you know, and that is why you end up developing, you know, to your point, the frontier that is so diverse that you actually can draw from and then be able to connect and produce a lot more.",
+  "zh": "你知道，关于你的观点以及像我的兴趣倾向于在于，像人类数学家，他们来自各种奇怪的直觉，像，你知道，这就是为什么你最终发展了，你知道，就你的观点而言，那个如此多样化的前沿，以至于你实际上可以从中汲取然后能够连接并产生更多。"
+ },
+ {
+  "seg": 400,
+  "start": 2368.53,
+  "end": 2381.682,
+  "speaker": "Unknown",
+  "en": "If it's true that most of these proofs that are being pushed out by the labs are converging on very similar things, because they are technically drawing on the same body of literature, and that's where they're strong at now, it's not clear that...",
+  "zh": "如果这些实验室推出的这些证明确实收敛在非常相似的事情上，因为它们在技术上是依托于同一批文献，而那是它们现在擅长的领域，那么还不清楚……"
+ },
+ {
+  "seg": 401,
+  "start": 2382.042,
+  "end": 2384.565,
+  "speaker": "Unknown",
+  "en": "I mean, one, where are they developing their intuitions?",
+  "zh": "我的意思是，第一，它们在哪儿发展它们的直觉？"
+ },
+ {
+  "seg": 402,
+  "start": 2384.625,
+  "end": 2386.486,
+  "speaker": "Unknown",
+  "en": "It's from practicing mathematicians.",
+  "zh": "是来自从业的数学家。"
+ },
+ {
+  "seg": 403,
+  "start": 2386.606,
+  "end": 2391.19,
+  "speaker": "Unknown",
+  "en": "It's not clear where that other emergent, stronger, diverse intuition might be coming from.",
+  "zh": "目前还不清楚那种其他的涌现的、更强的、多样的直觉可能来自哪里。"
+ },
+ {
+  "seg": 404,
+  "start": 2391.251,
+  "end": 2392.452,
+  "speaker": "Unknown",
+  "en": "It might come, but I don't have a good...",
+  "zh": "它可能会来，但我没有一个好的……"
+ },
+ {
+  "seg": 405,
+  "start": 2392.992,
+  "end": 2393.713,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "感谢收看。"
+ },
+ {
+  "seg": 406,
+  "start": 2415.697,
+  "end": 2437.828,
+  "speaker": "Unknown",
+  "en": "So this is like a long way of saying that it isn't clear to me that we'll maybe produce, if we don't incentivize enough people to interact with it, maybe unlike other domains, it might not actually continue producing a superior result without human aid.",
+  "zh": "所以这就像是一种冗长的说法，对我来说还不清楚的是，我们或许会产生，如果我们不激励足够多的人去与之交互，也许与其他领域不同，它可能实际上无法在没有人类援助的情况下继续产生优越的结果。"
+ },
+ {
+  "seg": 407,
+  "start": 2438.519,
+  "end": 2440.82,
+  "speaker": "Unknown",
+  "en": "Yeah, let me actually push a bit further even.",
+  "zh": "是的，让我实际上再推进一步。"
+ },
+ {
+  "seg": 408,
+  "start": 2440.84,
+  "end": 2444.78,
+  "speaker": "Unknown",
+  "en": "So let's suppose the models become really robustly superhuman.",
+  "zh": "所以让我们假设这些模型变得真正稳健地超人。"
+ },
+ {
+  "seg": 409,
+  "start": 2444.8,
+  "end": 2447.841,
+  "speaker": "Unknown",
+  "en": "We're not even adding meaningful cognitive diversity.",
+  "zh": "我们甚至没有增加有意义的认知多样性。"
+ },
+ {
+  "seg": 410,
+  "start": 2447.901,
+  "end": 2452.602,
+  "speaker": "Unknown",
+  "en": "I claim still, actually, we still want human mathematicians.",
+  "zh": "我仍然声称，实际上，我们仍然需要人类数学家。"
+ },
+ {
+  "seg": 411,
+  "start": 2452.622,
+  "end": 2453.742,
+  "speaker": "Unknown",
+  "en": "So why?",
+  "zh": "那么为什么？"
+ },
+ {
+  "seg": 412,
+  "start": 2453.882,
+  "end": 2458.904,
+  "speaker": "Unknown",
+  "en": "It's because there's a question on how we're designing society, right?",
+  "zh": "这是因为有一个关于我们如何设计社会的问题，对吧？"
+ },
+ {
+  "seg": 413,
+  "start": 2461.304,
+  "end": 2472.35,
+  "speaker": "Unknown",
+  "en": "The optimal situation is, like, you have the models doing all sorts of math research, and, like, that leads to very, you know, in this, like, highly, you know, whatever, non-uniform, diverse way.",
+  "zh": "最优的情况是，比如，你让这些模型做各种各样的数学研究，然后，这会导致非常，你知道，在这个，比如，高度，你知道，不管怎样，非均匀的、多样的方式。"
+ },
+ {
+  "seg": 414,
+  "start": 2472.37,
+  "end": 2475.912,
+  "speaker": "Unknown",
+  "en": "Like, maybe you don't need humans to add that kind of diversity.",
+  "zh": "比如，也许你不需要人类去增加那种多样性。"
+ },
+ {
+  "seg": 415,
+  "start": 2476.112,
+  "end": 2477.473,
+  "speaker": "Unknown",
+  "en": "So, like, maybe that's the optimal thing to do.",
+  "zh": "所以，比如，也许那是该做的最优事情。"
+ },
+ {
+  "seg": 416,
+  "start": 2477.513,
+  "end": 2481.896,
+  "speaker": "Unknown",
+  "en": "And, like, in the end, that leads to lots of applications and lots of improved understanding and so on.",
+  "zh": "而且，比如，最终，这会导致大量的应用和大量的改进理解等等。"
+ },
+ {
+  "seg": 417,
+  "start": 2482.416,
+  "end": 2485.538,
+  "speaker": "Unknown",
+  "en": "It's like, despite, like, something being optimal doesn't mean you do it.",
+  "zh": "这就像，尽管，比如，某事是最优的并不意味着你会去做。"
+ },
+ {
+  "seg": 418,
+  "start": 2486.359,
+  "end": 2486.599,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 419,
+  "start": 2487.079,
+  "end": 2494.409,
+  "speaker": "Unknown",
+  "en": "Like, there's no reason to think that, you know, if we hand over control of whatever math research to the models and just let them do their own thing, that it will do the optimal thing.",
+  "zh": "比如，没有理由认为，你知道，如果我们把任何数学研究的控制权移交给模型并只是让它们做自己的事情，它就会做那件最优的事情。"
+ },
+ {
+  "seg": 420,
+  "start": 2496.233,
+  "end": 2512.277,
+  "speaker": "Unknown",
+  "en": "And in fact, like, if you, you know, if we are, if we kind of instrumentalize what we want them to do, like, we want to say, like, oh, you know, make our life better or whatever, it might not be the case, like, that what they decide to do that is, like, is pursue a wide variety of interesting research, right?",
+  "zh": "事实上，比如，如果你，你知道，如果我们是，如果我们某种程度上工具化我们想让他们做的事情，比如，我们想说，比如，哦，你知道，让我们的生活更美好或其他什么，可能并非如此，比如，他们决定做的事情是，比如，是追求广泛的各种有趣的研究，对吧？"
+ },
+ {
+  "seg": 421,
+  "start": 2512.297,
+  "end": 2513.917,
+  "speaker": "Unknown",
+  "en": "Like, they might just try to take the direct path.",
+  "zh": "比如，他们可能只是试图走直接的路径。"
+ },
+ {
+  "seg": 422,
+  "start": 2514.057,
+  "end": 2515.658,
+  "speaker": "Unknown",
+  "en": "We don't know what's going to happen.",
+  "zh": "我们不知道会发生什么。"
+ },
+ {
+  "seg": 423,
+  "start": 2516.458,
+  "end": 2537.995,
+  "speaker": "Unknown",
+  "en": "So, I don't know, if you believe that there is any value in sort of this broad-based, like, fundamental research, which I do, like, I think that's one of the most valuable things humans or whatever, or the models can be doing, like, I think the easiest way to guarantee it happens is, like, to keep a community with, like, broad interests who are, like, pushing the models to do and, like, helping us to design a society where, like, that's what we're pushing for.",
+  "zh": "所以，我不知道，如果你相信这种广泛的，比如，基础研究有任何价值，我确实相信，比如，我认为这是人类或任何东西，或者模型能做的最有价值的事情之一，比如，我认为保证它发生的最简单方法是，比如，保持一个拥有，比如，广泛兴趣的社区，他们是，比如，推动模型去做，并且，比如，帮助我们设计一个社会，其中，比如，那就是我们要推动的。"
+ },
+ {
+  "seg": 424,
+  "start": 2539.336,
+  "end": 2544.718,
+  "speaker": "Unknown",
+  "en": "Like, I think at least, you know, my hopeful vision for the future is that, like, humans are not, like, totally disempowered.",
+  "zh": "比如，我认为至少，你知道，我对未来充满希望的愿景是，比如，人类并不是，比如，完全被剥夺权力。"
+ },
+ {
+  "seg": 425,
+  "start": 2544.738,
+  "end": 2546.459,
+  "speaker": "Unknown",
+  "en": "Like, we have some control over where we're going.",
+  "zh": "比如，我们对我们要去的地方有一些控制。"
+ },
+ {
+  "seg": 426,
+  "start": 2546.479,
+  "end": 2550.941,
+  "speaker": "Unknown",
+  "en": "And, like, if that's the case, like, what we end up doing is going to be driven by human interests.",
+  "zh": "而且，比如，如果是这种情况，比如，我们最终要做的事情将由人类利益驱动。"
+ },
+ {
+  "seg": 427,
+  "start": 2551.561,
+  "end": 2555.762,
+  "speaker": "Unknown",
+  "en": "And so you want to have people who have lots of different interests and also the capabilities to actually pursue them.",
+  "zh": "所以你希望拥有拥有许多不同兴趣并且也有能力真正追求它们的人。"
+ },
+ {
+  "seg": 428,
+  "start": 2555.883,
+  "end": 2562.205,
+  "speaker": "Unknown",
+  "en": "Like, you want people who are, like, smart and engaged and, like, you know, well, can do not just, like, mathematical thinking but all sorts of thinking.",
+  "zh": "比如，你想要那些，比如，聪明且投入并且，比如，你知道，嗯，不仅能做，比如，数学思考还能做各种思考的人。"
+ },
+ {
+  "seg": 429,
+  "start": 2562.465,
+  "end": 2562.986,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 430,
+  "start": 2563.306,
+  "end": 2572.093,
+  "speaker": "Unknown",
+  "en": "I mean, yeah, a great fear is like, as AI advances, we don't develop the right ergonomic kind of interfaces to actually encourage us to also be good, continue to be good thinkers.",
+  "zh": "我的意思是，是的，一个巨大的恐惧是，随着 AI 的进步，我们没有开发出正确的人体工学类型的接口来真正鼓励我们也变得优秀，继续成为优秀的思考者。"
+ },
+ {
+  "seg": 431,
+  "start": 2572.154,
+  "end": 2582.042,
+  "speaker": "Unknown",
+  "en": "And it's so easy to kind of relinquish that because you just often and the models aren't even good at that level of like, you know, thinking where it's like the top level structure.",
+  "zh": "而且很容易去放弃那个，因为你只是经常，而且模型甚至不擅长那个层面的，你知道，那种关于顶层结构的思考。"
+ },
+ {
+  "seg": 432,
+  "start": 2582.082,
+  "end": 2587.307,
+  "speaker": "Unknown",
+  "en": "But despite that, it's so easy to and so especially for math, I mean, just like, you know, another selfish reason is",
+  "zh": "但尽管如此，这太容易了，所以尤其是对于数学，我的意思是，就像，你知道，另一个自私的理由是"
+ },
+ {
+  "seg": 433,
+  "start": 2589.084,
+  "end": 2597.327,
+  "speaker": "Unknown",
+  "en": "If you kind of math max, you know, I think it's actually a great pedagogical excuse to actually get just really rigorous at thinking about various things.",
+  "zh": "如果你在数学上做到极致，你知道，我认为这实际上是一个很好的教学借口，可以真正严谨地思考各种事情。"
+ },
+ {
+  "seg": 434,
+  "start": 2597.387,
+  "end": 2601.428,
+  "speaker": "Unknown",
+  "en": "I mean, this is not why mathematicians do it, but as just somebody who's like...",
+  "zh": "我的意思是，这不是数学家做这件事的原因，但作为一个只是像……的人"
+ },
+ {
+  "seg": 435,
+  "start": 2601.448,
+  "end": 2602.228,
+  "speaker": "Unknown",
+  "en": "It's part of what I do.",
+  "zh": "这是我做的一部分工作。"
+ },
+ {
+  "seg": 436,
+  "start": 2602.248,
+  "end": 2602.668,
+  "speaker": "Unknown",
+  "en": "Okay, great.",
+  "zh": "好的，很好。"
+ },
+ {
+  "seg": 437,
+  "start": 2602.788,
+  "end": 2607.27,
+  "speaker": "Unknown",
+  "en": "Because it was kind of, you know, I thought it just really helped give me a very...",
+  "zh": "因为有点，你知道，我认为它真的帮助给了我一个非常……"
+ },
+ {
+  "seg": 438,
+  "start": 2608.785,
+  "end": 2610.046,
+  "speaker": "Unknown",
+  "en": "Thank you so much for joining us.",
+  "zh": "非常感谢您的加入。"
+ },
+ {
+  "seg": 439,
+  "start": 2635.377,
+  "end": 2638.639,
+  "speaker": "Unknown",
+  "en": "In Budapest, they would just teach group theory when you're in primary school.",
+  "zh": "在布达佩斯，他们只会在你上小学的时候教群论。"
+ },
+ {
+  "seg": 440,
+  "start": 2638.679,
+  "end": 2640.46,
+  "speaker": "Unknown",
+  "en": "And I'm like, well, we should definitely do that.",
+  "zh": "我就想，嗯，我们肯定应该那样做。"
+ },
+ {
+  "seg": 441,
+  "start": 2640.5,
+  "end": 2641.541,
+  "speaker": "Unknown",
+  "en": "We should continue doing that.",
+  "zh": "我们应该继续那样做。"
+ },
+ {
+  "seg": 442,
+  "start": 2641.561,
+  "end": 2649.946,
+  "speaker": "Unknown",
+  "en": "Now that AI is somewhat good at explaining, but it's far more accessible, we should actually probably proliferate that even more.",
+  "zh": "既然 AI 擅长解释，而且它更易于获取，我们实际上可能应该更多地推广它。"
+ },
+ {
+  "seg": 443,
+  "start": 2651.386,
+  "end": 2655.309,
+  "speaker": "Unknown",
+  "en": "And so maybe that helps with bringing more people to the frontier rather than just...",
+  "zh": "所以也许这有助于把更多人带到前沿，而不仅仅是……"
+ },
+ {
+  "seg": 444,
+  "start": 2655.949,
+  "end": 2657.951,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, this is something I'm concerned about, right?",
+  "zh": "是的，我的意思是，这是我担心的事情之一，对吧？"
+ },
+ {
+  "seg": 445,
+  "start": 2658.351,
+  "end": 2660.914,
+  "speaker": "Unknown",
+  "en": "Of course, I mostly talk about math because that's like where I live.",
+  "zh": "当然，我主要谈论数学是因为那是我生活的地方。"
+ },
+ {
+  "seg": 446,
+  "start": 2661.334,
+  "end": 2672.326,
+  "speaker": "Unknown",
+  "en": "But like, I think, you know, one nice thing about thinking about this is that we're one of the first professions to kind of, you know, have a significant impact of high quality models, although I think",
+  "zh": "但是，我认为，你知道，思考这个问题的一件好事是，我们是首批受到高质量模型产生重大影响的职业之一，虽然我认为"
+ },
+ {
+  "seg": 447,
+  "start": 2674.238,
+  "end": 2677.121,
+  "speaker": "Unknown",
+  "en": "Maybe we're one of the first professions for it to happen so publicly.",
+  "zh": "也许我们是第一批公开发生这种情况的职业之一。"
+ },
+ {
+  "seg": 448,
+  "start": 2677.201,
+  "end": 2680.684,
+  "speaker": "Unknown",
+  "en": "But, you know, my sense is that there are plenty of other professions that are... Coding.",
+  "zh": "但是，你知道，我的感觉是还有很多其他职业正在…… 编程。"
+ },
+ {
+  "seg": 449,
+  "start": 2681.225,
+  "end": 2681.785,
+  "speaker": "Unknown",
+  "en": "100%.",
+  "zh": "百分之百。"
+ },
+ {
+  "seg": 450,
+  "start": 2681.805,
+  "end": 2682.165,
+  "speaker": "Unknown",
+  "en": "Coding.",
+  "zh": "编程。"
+ },
+ {
+  "seg": 451,
+  "start": 2682.326,
+  "end": 2687.871,
+  "speaker": "Unknown",
+  "en": "But also just like, I mean, I think that, you know, anything you do at a computer, like probably a huge amount is being done by the models at this point.",
+  "zh": "但也就是，我是说，我认为，你知道，你在电脑上做的任何事情，可能很大一部分在这个阶段都是由模型完成的。"
+ },
+ {
+  "seg": 452,
+  "start": 2687.891,
+  "end": 2690.273,
+  "speaker": "Unknown",
+  "en": "And then, like, they're not having a public reckoning about it.",
+  "zh": "然后，就像，他们没有对此进行公开的清算。"
+ },
+ {
+  "seg": 453,
+  "start": 2690.373,
+  "end": 2699.822,
+  "speaker": "Unknown",
+  "en": "But, you know, because math capabilities are useful for the company, for the labs to talk about, I think, a bit more publicly than everyone else.",
+  "zh": "但是，你知道，因为数学能力对公司很有用，对实验室来说，谈论起来，我认为，比其他人更公开一点。"
+ },
+ {
+  "seg": 454,
+  "start": 2701.347,
+  "end": 2707.508,
+  "speaker": "Unknown",
+  "en": "But yeah, I think one reason to try to maintain human capital in this area is just it's a model for all professions.",
+  "zh": "但是是的，我认为试图在这个领域维持人力资本的一个原因是，它是所有职业的模型。"
+ },
+ {
+  "seg": 455,
+  "start": 2707.568,
+  "end": 2715.33,
+  "speaker": "Unknown",
+  "en": "Presumably, we still want people who are meaningfully engaging with the world and experts and have talents and trained skills and so on.",
+  "zh": "据推测，我们仍然希望那些有意义地与世界和专家互动，并且有天赋和受训技能等等的人。"
+ },
+ {
+  "seg": 456,
+  "start": 2719.151,
+  "end": 2726.452,
+  "speaker": "Unknown",
+  "en": "It's actually very convenient that the math profession is so entwined with education here because I think we're also seeing some amount of",
+  "zh": "数学职业在这里与教育如此交织，这实际上是非常方便的，因为我认为我们也看到了一定程度的"
+ },
+ {
+  "seg": 457,
+  "start": 2727.812,
+  "end": 2739.197,
+  "speaker": "Unknown",
+  "en": "So as you said, it's also an amazing tool to learn.",
+  "zh": "所以正如你所说，它也是一个令人惊叹的学习工具。"
+ },
+ {
+  "seg": 458,
+  "start": 2739.417,
+  "end": 2751.082,
+  "speaker": "Unknown",
+  "en": "I've heard people start talking about a bimodal distribution in their classes where there's some people who are really figuring out how to take advantage of new tools and other people who are just letting them do their homework and then bombing everything else.",
+  "zh": "我听人们开始谈论他们班级里的双峰分布，有一些人真的在弄清楚如何利用新工具，而另一些人只是让它们做他们的作业，然后在其他所有事情上都搞砸了。"
+ },
+ {
+  "seg": 459,
+  "start": 2751.722,
+  "end": 2757.627,
+  "speaker": "Unknown",
+  "en": "Unfortunately, I don't think that adapts fast enough, but it's like we definitely want to be living in a world where we're producing better thinkers.",
+  "zh": "不幸的是，我认为这种适应不够快，但这就像我们肯定想要生活在一个我们培养出更好的思考者的世界里。"
+ },
+ {
+  "seg": 460,
+  "start": 2757.687,
+  "end": 2763.872,
+  "speaker": "Unknown",
+  "en": "I think it's just, you know, even if we talk about just the pure kind of optimization game, I think that's better for us.",
+  "zh": "我认为这只是，你知道，即使我们谈论只是纯粹的优化游戏，我认为这对我们更好。"
+ },
+ {
+  "seg": 461,
+  "start": 2764.733,
+  "end": 2772.539,
+  "speaker": "Unknown",
+  "en": "But as, you know, just like a human being, I'm like, that would be pretty inconvenient if we became worse thinkers just as AI ascends.",
+  "zh": "但作为，你知道，就像一个人，我想，就在 AI 崛起的时候我们变成了更差的思考者，那将是非常不方便的。"
+ },
+ {
+  "seg": 462,
+  "start": 2772.619,
+  "end": 2774.681,
+  "speaker": "Unknown",
+  "en": "And it's too easy to let that happen.",
+  "zh": "而且让那发生太容易了。"
+ },
+ {
+  "seg": 463,
+  "start": 2774.741,
+  "end": 2780.205,
+  "speaker": "Unknown",
+  "en": "So we should kind of be thinking hard on how to actually take advantage of this and harness it for our own improvement.",
+  "zh": "所以我们或许应该认真思考如何真正利用这一点并利用它来实现我们自己的提升。"
+ },
+ {
+  "seg": 464,
+  "start": 2780.405,
+  "end": 2780.645,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 465,
+  "start": 2780.685,
+  "end": 2788.531,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's sort of interesting to observe the models at their current level capabilities let you do a lot more.",
+  "zh": "是的，我认为观察模型在它们当前水平的能力让你做更多事情是有点有趣的。"
+ },
+ {
+  "seg": 466,
+  "start": 2788.611,
+  "end": 2794.416,
+  "speaker": "Unknown",
+  "en": "They let you do a lot of things you wouldn't have done more cheaply than cheaply enough to do them now.",
+  "zh": "它们让你做很多你以前不会做的事情，而且成本比以前足够低，现在可以做这些事了。"
+ },
+ {
+  "seg": 467,
+  "start": 2795.117,
+  "end": 2799.26,
+  "speaker": "Unknown",
+  "en": "But it's not clear to me that in many cases they're actually improving the quality of outputs.",
+  "zh": "但对我来说，在很多情况下，不清楚它们实际上是否在提高产出的质量。"
+ },
+ {
+  "seg": 468,
+  "start": 2800.613,
+  "end": 2806.597,
+  "speaker": "Unknown",
+  "en": "And I think this is common, like you have a new technology that's doing something a little bit worse than was previously done, but much cheaper.",
+  "zh": "我认为这很常见，就像你有一项新技术，它做事情比以前做的稍微差一点，但便宜得多。"
+ },
+ {
+  "seg": 469,
+  "start": 2807.097,
+  "end": 2812.36,
+  "speaker": "Unknown",
+  "en": "And so you get a lot of suddenly a lot of like low quality outputs that are displacing previous high quality outputs.",
+  "zh": "所以你会突然得到很多低质量的产出，它们正在取代以前的高质量产出。"
+ },
+ {
+  "seg": 470,
+  "start": 2812.701,
+  "end": 2818.384,
+  "speaker": "Unknown",
+  "en": "But I think it's possible to use the tools in a way that actually like improves, you know, the quality among every dimension.",
+  "zh": "但我认为有可能以一种实际上改善，你知道，各个维度质量的方式使用这些工具。"
+ },
+ {
+  "seg": 471,
+  "start": 2818.404,
+  "end": 2823.427,
+  "speaker": "Unknown",
+  "en": "It just requires some thoughtfulness and some redesign of institutions to actually incentivize that.",
+  "zh": "这只需要一些思考和一些机构的重新设计来真正激励这一点。"
+ },
+ {
+  "seg": 472,
+  "start": 2824.055,
+  "end": 2824.315,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 473,
+  "start": 2824.775,
+  "end": 2826.596,
+  "speaker": "Unknown",
+  "en": "Well, hopefully capitalism works there.",
+  "zh": "嗯，希望资本主义在那里奏效。"
+ },
+ {
+  "seg": 474,
+  "start": 2826.636,
+  "end": 2832.798,
+  "speaker": "Unknown",
+  "en": "I do feel like the most high-value things do require people to use it effectively.",
+  "zh": "我确实感觉最高价值的事情确实需要人们有效地使用它。"
+ },
+ {
+  "seg": 475,
+  "start": 2832.938,
+  "end": 2837.08,
+  "speaker": "Unknown",
+  "en": "And right now, the models are not good enough without the human experts to actually participate.",
+  "zh": "而现在，如果没有人类专家的实际参与，模型还不够好。"
+ },
+ {
+  "seg": 476,
+  "start": 2837.78,
+  "end": 2842.482,
+  "speaker": "Unknown",
+  "en": "But to your point, there's a vast majority of maybe more junior and entry-level.",
+  "zh": "但说到你的观点，有绝大多数可能是更初级和入门级的人。"
+ },
+ {
+  "seg": 477,
+  "start": 2843.142,
+  "end": 2849.384,
+  "speaker": "Unknown",
+  "en": "And it's harder for those roles to adapt as well.",
+  "zh": "而且这些角色也更难适应。"
+ },
+ {
+  "seg": 478,
+  "start": 2849.604,
+  "end": 2851.805,
+  "speaker": "Unknown",
+  "en": "And so the thing that would be a mistake is to",
+  "zh": "所以错误的事情是去"
+ },
+ {
+  "seg": 479,
+  "start": 2852.567,
+  "end": 2854.864,
+  "speaker": "Unknown",
+  "en": "Use the AI models in a way that doesn't",
+  "zh": "以一种不……的方式使用 AI 模型"
+ },
+ {
+  "seg": 480,
+  "start": 2855.827,
+  "end": 2859.469,
+  "speaker": "Unknown",
+  "en": "Basically, you need to be ascending and using the models to deepen your understanding.",
+  "zh": "基本上，你需要保持上升，并使用模型来加深你的理解。"
+ },
+ {
+  "seg": 481,
+  "start": 2859.549,
+  "end": 2862.47,
+  "speaker": "Unknown",
+  "en": "And it's so easy for human nature just to be lazy.",
+  "zh": "人性变得懒惰是如此容易。"
+ },
+ {
+  "seg": 482,
+  "start": 2862.91,
+  "end": 2867.733,
+  "speaker": "Unknown",
+  "en": "And you have to resist that because that is the moment that you will kind of lose, basically.",
+  "zh": "你必须抵抗这一点，因为基本上那一刻你就会输掉。"
+ },
+ {
+  "seg": 483,
+  "start": 2867.753,
+  "end": 2876.217,
+  "speaker": "Unknown",
+  "en": "And so you kind of, you know, kind of forgive the very competitive language, but it really is that like, it's just so easy to kind of relinquish thinking to the models.",
+  "zh": "所以你有点，你知道，原谅那种非常有竞争性的语言，但这确实就像，把思考让渡给模型是如此容易。"
+ },
+ {
+  "seg": 484,
+  "start": 2876.637,
+  "end": 2877.797,
+  "speaker": "Unknown",
+  "en": "The models can't really think.",
+  "zh": "模型真的不能思考。"
+ },
+ {
+  "seg": 485,
+  "start": 2877.878,
+  "end": 2882.72,
+  "speaker": "Unknown",
+  "en": "And so as things are ascending so fast, it's like critical that you continue developing those",
+  "zh": "所以随着事物上升得这么快，你继续发展那些……是至关重要的"
+ },
+ {
+  "seg": 486,
+  "start": 2883.92,
+  "end": 2906.186,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, one thing I think has been nice about, you know, sort of this vast increase in, like, semi-expert attention or, like, model attention on math problems is, like, now there's been, you know, okay, I've been complaining about slot papers or whatever, like, you know, people who are not, you know, producing really high-quality stuff.",
+  "zh": "是的，我是说，我认为关于……的一件好事是，你知道，像这种在数学问题上的半专家关注或者，像，模型关注的巨大增加是，像，现在已经，你知道，好吧，我一直在抱怨 slot 论文或者其他的，就像，你知道，那些没有，你知道，产出真正高质量东西的人。"
+ },
+ {
+  "seg": 487,
+  "start": 2906.506,
+  "end": 2908.607,
+  "speaker": "Unknown",
+  "en": "Often that's actually coming from professionals.",
+  "zh": "通常这实际上是来自专业人士。"
+ },
+ {
+  "seg": 488,
+  "start": 2908.647,
+  "end": 2911.928,
+  "speaker": "Unknown",
+  "en": "Like, it's not, I'm not saying, like, you know, they're...",
+  "zh": "就像，这不是，我不是说，你知道，他们是……"
+ },
+ {
+  "seg": 489,
+  "start": 2912.348,
+  "end": 2919.131,
+  "speaker": "Unknown",
+  "en": "People who, you know, like within academic mathematics, there are incentives to produce like a lot of stuff.",
+  "zh": "那些，你知道，像在学术数学界的人，有激励去产出很多很多东西。"
+ },
+ {
+  "seg": 490,
+  "start": 2919.231,
+  "end": 2921.853,
+  "speaker": "Unknown",
+  "en": "And that's, you know, that's one place that slop comes from.",
+  "zh": "那是，你知道，那是 slop 的一个来源。"
+ },
+ {
+  "seg": 491,
+  "start": 2922.253,
+  "end": 2927.936,
+  "speaker": "Unknown",
+  "en": "So there's definitely also like slop coming from non-experts, but that I kind of actually don't see as a net negative.",
+  "zh": "所以肯定也有来自非专家的 slop，但我实际上并不将其视为净负面。"
+ },
+ {
+  "seg": 492,
+  "start": 2928.076,
+  "end": 2935.719,
+  "speaker": "Unknown",
+  "en": "Like, okay, there's a lot of, now there's a lot of like documents on the internet one might have to comb through to figure out if a problem has been solved or not.",
+  "zh": "就像，好吧，有很多，现在互联网上有很多文档，人们可能不得不翻阅这些文档来弄清楚一个问题是否已经解决。"
+ },
+ {
+  "seg": 493,
+  "start": 2935.999,
+  "end": 2940.502,
+  "speaker": "Unknown",
+  "en": "But to me, it seems like just the fact that there's lots of people excited about math is like kind of a positive.",
+  "zh": "但对我来说，似乎仅仅是有很多人对数学感到兴奋这一事实就像是一种积极因素。"
+ },
+ {
+  "seg": 494,
+  "start": 2940.562,
+  "end": 2941.462,
+  "speaker": "Unknown",
+  "en": "So that's like a nice thing.",
+  "zh": "所以那是一件好事。"
+ },
+ {
+  "seg": 495,
+  "start": 2941.482,
+  "end": 2942.062,
+  "speaker": "Unknown",
+  "en": "I totally agree.",
+  "zh": "我完全同意。"
+ },
+ {
+  "seg": 496,
+  "start": 2942.082,
+  "end": 2943.183,
+  "speaker": "Unknown",
+  "en": "I know I get to talk to you.",
+  "zh": "我知道我可以和你交谈。"
+ },
+ {
+  "seg": 497,
+  "start": 2943.223,
+  "end": 2945.085,
+  "speaker": "Unknown",
+  "en": "And not even kind of a positive, obviously.",
+  "zh": "甚至显然不只是那种积极的。"
+ },
+ {
+  "seg": 498,
+  "start": 2946.006,
+  "end": 2946.926,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, no, exactly.",
+  "zh": "是的，是的，不，确切地说。"
+ },
+ {
+  "seg": 499,
+  "start": 2946.946,
+  "end": 2950.809,
+  "speaker": "Unknown",
+  "en": "It's like suddenly there's a spotlight on it and I can nerd out about math more.",
+  "zh": "这就像突然聚光灯打在它上面，我可以更多地极客般地探讨数学。"
+ },
+ {
+  "seg": 500,
+  "start": 2950.829,
+  "end": 2962.038,
+  "speaker": "Unknown",
+  "en": "I was actually kind of curious, you've had any comments on the, I guess this is another constructive result, but the elliptic curve of rank 30, that just came out yesterday.",
+  "zh": "我其实有点好奇，你对这个有什么评论，我猜这是另一个构造性结果，但是秩为30的椭圆曲线，昨天刚出来的。"
+ },
+ {
+  "seg": 501,
+  "start": 2962.559,
+  "end": 2962.979,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 502,
+  "start": 2962.999,
+  "end": 2963.68,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 503,
+  "start": 2964.42,
+  "end": 2964.981,
+  "speaker": "Unknown",
+  "en": "That's cool.",
+  "zh": "那很酷。"
+ },
+ {
+  "seg": 504,
+  "start": 2965.041,
+  "end": 2967.303,
+  "speaker": "Unknown",
+  "en": "I mean, we don't have any details about it yet.",
+  "zh": "我的意思是，我们还没有关于它的任何细节。"
+ },
+ {
+  "seg": 505,
+  "start": 2967.403,
+  "end": 2969.505,
+  "speaker": "Unknown",
+  "en": "I know, there's rumors that it's... Yeah, we don't know how it...",
+  "zh": "我知道，有传言说它是……是的，我们不知道它是如何……"
+ },
+ {
+  "seg": 506,
+  "start": 2969.525,
+  "end": 2978.393,
+  "speaker": "Unknown",
+  "en": "I mean, so it's due to, I guess, Claude Fable, prompted by Levent Alpoge, and a collaborator whose name I unfortunately forget.",
+  "zh": "我的意思是，所以它归功于，我猜，Claude Fable，由 Levent Alpoge 提示，以及一个我不幸忘记名字的合作者。"
+ },
+ {
+  "seg": 507,
+  "start": 2978.433,
+  "end": 2980.675,
+  "speaker": "Unknown",
+  "en": "Maybe you can add it in post.",
+  "zh": "也许你可以在后期加进去。"
+ },
+ {
+  "seg": 508,
+  "start": 2980.695,
+  "end": 2982.337,
+  "speaker": "Unknown",
+  "en": "I just know the Twitter handle.",
+  "zh": "我只知道 Twitter 账号。"
+ },
+ {
+  "seg": 509,
+  "start": 2984.098,
+  "end": 2990.16,
+  "speaker": "Unknown",
+  "en": "So a lot of these nice recent results have come from the event with unclear amounts of autonomy.",
+  "zh": "所以很多这些不错的近期结果都来自自主性程度不明确的事件。"
+ },
+ {
+  "seg": 510,
+  "start": 2990.76,
+  "end": 2995.982,
+  "speaker": "Unknown",
+  "en": "So my sense is that some of them are semi-autonomous rather than fully autonomous.",
+  "zh": "所以我的感觉是，其中一些是半自主的，而不是完全自主的。"
+ },
+ {
+  "seg": 511,
+  "start": 2996.902,
+  "end": 2999.743,
+  "speaker": "Unknown",
+  "en": "With this, we don't know anything about the methods.",
+  "zh": "关于这个，我们不知道方法方面的任何事。"
+ },
+ {
+  "seg": 512,
+  "start": 2999.763,
+  "end": 3001.084,
+  "speaker": "Unknown",
+  "en": "This is a fun construction.",
+  "zh": "这是一个有趣的构造。"
+ },
+ {
+  "seg": 513,
+  "start": 3002.064,
+  "end": 3004.985,
+  "speaker": "Unknown",
+  "en": "Without knowing about the methods, it's very hard to say how significant it is.",
+  "zh": "在不知道方法的情况下，很难说它有多重要。"
+ },
+ {
+  "seg": 514,
+  "start": 3005.705,
+  "end": 3009.107,
+  "speaker": "Unknown",
+  "en": "What I would say is that if you want to understand",
+  "zh": "我想说如果你想要理解"
+ },
+ {
+  "seg": 515,
+  "start": 3010.892,
+  "end": 3019.969,
+  "speaker": "Unknown",
+  "en": "And if historically such results have been proved, or sorry, have been understood by the community, they're cool, but I wouldn't say they're a big deal.",
+  "zh": "而且如果历史上这样的结果已经被证明了，或者抱歉，已经被学界理解了，它们很酷，但我不会说它们是一件大事。"
+ },
+ {
+  "seg": 516,
+  "start": 3019.989,
+  "end": 3023.636,
+  "speaker": "Unknown",
+  "en": "So the typical place a result like this might go is someone's website of records.",
+  "zh": "所以这类结果典型的去处可能是某人的纪录网站。"
+ },
+ {
+  "seg": 517,
+  "start": 3025.227,
+  "end": 3027.248,
+  "speaker": "Unknown",
+  "en": "It's not an annals level result.",
+  "zh": "这不是一个 Annals 级别的结果。"
+ },
+ {
+  "seg": 518,
+  "start": 3027.288,
+  "end": 3028.148,
+  "speaker": "Unknown",
+  "en": "Yeah, it's not an annals.",
+  "zh": "是的，它不是 Annals。"
+ },
+ {
+  "seg": 519,
+  "start": 3028.288,
+  "end": 3029.109,
+  "speaker": "Unknown",
+  "en": "But that said, it's cool.",
+  "zh": "话虽如此，它很酷。"
+ },
+ {
+  "seg": 520,
+  "start": 3029.189,
+  "end": 3036.113,
+  "speaker": "Unknown",
+  "en": "And it's like, you know, it definitely, there were a few very, very, or are a few very, very talented mathematicians who like these kinds of questions.",
+  "zh": "而且，你知道，这绝对是，有几位非常、非常有天赋的数学家喜欢这类问题。"
+ },
+ {
+  "seg": 521,
+  "start": 3036.133,
+  "end": 3038.695,
+  "speaker": "Unknown",
+  "en": "So, no, Malky's being maybe the most famous example.",
+  "zh": "所以，不，Malky's 也许是其中最著名的例子。"
+ },
+ {
+  "seg": 522,
+  "start": 3038.715,
+  "end": 3042.257,
+  "speaker": "Unknown",
+  "en": "So, Malky's and Klagsbrun are the ones who kind of have been pushing this record for a while.",
+  "zh": "所以，Malky's 和 Klagsbrun 是那些一段时间以来一直在推动这个纪录的人。"
+ },
+ {
+  "seg": 523,
+  "start": 3042.277,
+  "end": 3047.96,
+  "speaker": "Unknown",
+  "en": "And they recently found a rank 29 example, which was, you know, the previous record.",
+  "zh": "他们最近发现了一个秩 29 的例子，那是，你知道，之前的纪录。"
+ },
+ {
+  "seg": 524,
+  "start": 3048.06,
+  "end": 3050.422,
+  "speaker": "Unknown",
+  "en": "You know, so those are mathematicians.",
+  "zh": "你知道，所以那些是数学家。"
+ },
+ {
+  "seg": 525,
+  "start": 3051.142,
+  "end": 3054.405,
+  "speaker": "Unknown",
+  "en": "And I think, you know, people like it and it's cool now that the models can do this sort of thing.",
+  "zh": "而且我认为，你知道，人们喜欢它，而且现在模型能做这类事情很酷。"
+ },
+ {
+  "seg": 526,
+  "start": 3055.165,
+  "end": 3061.69,
+  "speaker": "Unknown",
+  "en": "But yeah, it's very, you know, one thing I always say about a model result is like you cannot evaluate it except in retrospect.",
+  "zh": "但是是的，这很，你知道，我总是说关于模型结果的一点是，除了事后回顾，你无法评估它。"
+ },
+ {
+  "seg": 527,
+  "start": 3061.71,
+  "end": 3063.411,
+  "speaker": "Unknown",
+  "en": "And like this is also true of human mathematics.",
+  "zh": "这一点对于人类数学也是成立的。"
+ },
+ {
+  "seg": 528,
+  "start": 3063.471,
+  "end": 3068.395,
+  "speaker": "Unknown",
+  "en": "Like sometimes a problem we thought was really important or would require really deep new ideas does not.",
+  "zh": "有时一个我们觉得真的很重要或者需要真正深刻新思想的问题，其实不需要。"
+ },
+ {
+  "seg": 529,
+  "start": 3068.915,
+  "end": 3071.239,
+  "speaker": "Unknown",
+  "en": "And sometimes it does, and you can't really know in advance.",
+  "zh": "有时确实需要，而你无法事先真正知道。"
+ },
+ {
+  "seg": 530,
+  "start": 3071.719,
+  "end": 3073.862,
+  "speaker": "Unknown",
+  "en": "So it's always exciting when a problem like that gets solved.",
+  "zh": "所以当那样的问题被解决时总是令人兴奋。"
+ },
+ {
+  "seg": 531,
+  "start": 3074.343,
+  "end": 3076.826,
+  "speaker": "Unknown",
+  "en": "But then, like, to figure out how significant it is, you still have to look.",
+  "zh": "但是，要弄清楚它有多重要，你还得看一看。"
+ },
+ {
+  "seg": 532,
+  "start": 3076.866,
+  "end": 3084.116,
+  "speaker": "Unknown",
+  "en": "And, like, well, Levent and Claude and I think Ava Howell, maybe, is the collaborator, have not yet told us how they did it.",
+  "zh": "而且，嗯，Levent 和 Claude，我想还有 Ava Howell，可能是那位合作者，还没有告诉我们他们是怎么做到的。"
+ },
+ {
+  "seg": 533,
+  "start": 3085.563,
+  "end": 3087.125,
+  "speaker": "Unknown",
+  "en": "Have they been mostly more secretive?",
+  "zh": "他们主要更保密吗？"
+ },
+ {
+  "seg": 534,
+  "start": 3087.185,
+  "end": 3090.208,
+  "speaker": "Unknown",
+  "en": "I think they've released some traces for stuff.",
+  "zh": "我想他们已经发布了一些东西的追踪记录。"
+ },
+ {
+  "seg": 535,
+  "start": 3090.448,
+  "end": 3094.312,
+  "speaker": "Unknown",
+  "en": "Yeah, so for this one, I think they haven't yet, unless I missed it.",
+  "zh": "是的，所以对于这一个，我想他们还没，除非我错过了。"
+ },
+ {
+  "seg": 536,
+  "start": 3094.893,
+  "end": 3097.756,
+  "speaker": "Unknown",
+  "en": "You know, Levent likes to tweet out his results.",
+  "zh": "你知道，Levent 喜欢在推特上发布他的结果。"
+ },
+ {
+  "seg": 537,
+  "start": 3098.296,
+  "end": 3101.8,
+  "speaker": "Unknown",
+  "en": "But yeah, he has been slowly releasing some kind of PDF write-ups, too.",
+  "zh": "但是是的，他也一直在慢慢发布一些 PDF 书面报告。"
+ },
+ {
+  "seg": 538,
+  "start": 3101.86,
+  "end": 3105.564,
+  "speaker": "Unknown",
+  "en": "I think he's just having fun on the internet.",
+  "zh": "我想他只是在互联网上找乐子。"
+ },
+ {
+  "seg": 539,
+  "start": 3105.884,
+  "end": 3106.525,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 540,
+  "start": 3108.463,
+  "end": 3112.945,
+  "speaker": "Unknown",
+  "en": "It reminds me of when you're saying, you know, you have to evaluate how the results came.",
+  "zh": "这让我想起当你正在说，你知道，你必须评估结果是如何产生的。"
+ },
+ {
+  "seg": 541,
+  "start": 3113.446,
+  "end": 3128.834,
+  "speaker": "Unknown",
+  "en": "So I had Mark Selke and Metab Swanny on from OpenAI recently, and they were saying how, you know, what's kind of been the most charming or delightful is just that the proofs have been relatively short.",
+  "zh": "所以我最近请了 OpenAI 的 Mark Selke 和 Metab Swanny，他们在说，你知道，有点最迷人或令人高兴的是证明都相对较短。"
+ },
+ {
+  "seg": 542,
+  "start": 3128.914,
+  "end": 3133.437,
+  "speaker": "Unknown",
+  "en": "They're not like 200 page and, you know, maybe corresponding to your grinding point as well.",
+  "zh": "它们不像 200 页，而且，你知道，可能也对应了你关于繁琐的观点。"
+ },
+ {
+  "seg": 543,
+  "start": 3133.937,
+  "end": 3134.898,
+  "speaker": "Unknown",
+  "en": "But maybe this is kind of",
+  "zh": "但也许这有点"
+ },
+ {
+  "seg": 544,
+  "start": 3135.699,
+  "end": 3137.288,
+  "speaker": "Unknown",
+  "en": "Optimized for in retrospect.",
+  "zh": "为事后回顾而优化的。"
+ },
+ {
+  "seg": 545,
+  "start": 3138.689,
+  "end": 3140.269,
+  "speaker": "Unknown",
+  "en": "It was picked that it was short?",
+  "zh": "它被选出来是因为它是短的？"
+ },
+ {
+  "seg": 546,
+  "start": 3140.309,
+  "end": 3155.953,
+  "speaker": "Unknown",
+  "en": "Or maybe, do you find that on average, stuff that you throw at GPT, you know, Sol or Fable tends to be shorter and more legible to the human versus it might just go haywire and just grind it out?",
+  "zh": "或者，你是否发现平均而言，你扔给 GPT 的东西，你知道，Sol 或 Fable，往往对人类来说更短且更易读，而不是它可能会失控并只是把它算出来？"
+ },
+ {
+  "seg": 547,
+  "start": 3155.973,
+  "end": 3160.594,
+  "speaker": "Unknown",
+  "en": "Yeah, so, I mean, I think it is nice that we'll sometimes produce short cover proofs.",
+  "zh": "是的，所以，我认为，有时我们能生成简短的覆盖性证明是很好的。"
+ },
+ {
+  "seg": 548,
+  "start": 3161.314,
+  "end": 3164.394,
+  "speaker": "Unknown",
+  "en": "So that's, of course, everyone likes a short cover proof.",
+  "zh": "所以，当然，大家都喜欢简短的覆盖性证明。"
+ },
+ {
+  "seg": 549,
+  "start": 3164.454,
+  "end": 3166.135,
+  "speaker": "Unknown",
+  "en": "I think my sense is that",
+  "zh": "我想我的感觉是"
+ },
+ {
+  "seg": 550,
+  "start": 3167.135,
+  "end": 3172.242,
+  "speaker": "Unknown",
+  "en": "The reason they're not producing long, complicated proofs is that they cannot.",
+  "zh": "它们不生成长长的、复杂的证明的原因是它们做不到。"
+ },
+ {
+  "seg": 551,
+  "start": 3174.064,
+  "end": 3176.807,
+  "speaker": "Unknown",
+  "en": "Just like the ability to check correctness is not yet there.",
+  "zh": "就像检查正确性的能力还没有到位一样。"
+ },
+ {
+  "seg": 552,
+  "start": 3179.047,
+  "end": 3189.174,
+  "speaker": "Unknown",
+  "en": "So, you know, I mean, even actually, you know, if you ask the models to produce short proof, you can then often ask them to, you also just ask, is that correct?",
+  "zh": "所以，你知道，我的意思是，甚至实际上，你知道，如果你要求模型生成简短的证明，你可以随后经常问它们，你也可以直接问，那是正确的吗？"
+ },
+ {
+  "seg": 553,
+  "start": 3189.334,
+  "end": 3190.295,
+  "speaker": "Unknown",
+  "en": "And they will often say no.",
+  "zh": "它们经常会说不。"
+ },
+ {
+  "seg": 554,
+  "start": 3191.196,
+  "end": 3200.743,
+  "speaker": "Unknown",
+  "en": "So, like, they're much more reliable than they were six months ago for sure, but, like, it's still, you know, they will still sometimes produce things that are just wrong and they know they're wrong.",
+  "zh": "所以，像，它们肯定比六个月前更可靠了，但是，像，这仍然，你知道，它们仍然有时会生成只是错误的东西，而且它们知道它们是错的。"
+ },
+ {
+  "seg": 555,
+  "start": 3200.843,
+  "end": 3203.765,
+  "speaker": "Unknown",
+  "en": "I think the problem with producing a very long thing is they might not know they're wrong.",
+  "zh": "我认为生成一个非常长的东西的问题在于，它们可能不知道它们是错的。"
+ },
+ {
+  "seg": 556,
+  "start": 3204.285,
+  "end": 3206.727,
+  "speaker": "Unknown",
+  "en": "And so, but I wonder if, you know,",
+  "zh": "所以，但是我想知道是否，你知道，"
+ },
+ {
+  "seg": 557,
+  "start": 3207.227,
+  "end": 3213.05,
+  "speaker": "Unknown",
+  "en": "Presumably, internally, OpenAI and Anthropic have probably solved a lot more problems than they've released.",
+  "zh": "据推测，在内部，OpenAI 和 Anthropic 可能已经解决了比他们发布的更多的问题。"
+ },
+ {
+  "seg": 558,
+  "start": 3213.61,
+  "end": 3215.992,
+  "speaker": "Unknown",
+  "en": "And I imagine quite a few of them are just not sure if they're true.",
+  "zh": "我想象其中相当多只是不确定它们是否是真的。"
+ },
+ {
+  "seg": 559,
+  "start": 3217.432,
+  "end": 3227.878,
+  "speaker": "Unknown",
+  "en": "So, for example, with this recent list of 10 problems released by OpenAI, those were all formalized in Lean, which is, of course, a very good evidence that they're true.",
+  "zh": "所以，例如，随着 OpenAI 发布的最近 10 个问题列表，那些都在 Lean 中被形式化了，这当然是一个非常好的证据，证明它们是真的。"
+ },
+ {
+  "seg": 560,
+  "start": 3228.218,
+  "end": 3235.362,
+  "speaker": "Unknown",
+  "en": "I have no doubt that there were a lot more that they could not formalize in Lean because the prerequisite options have not been put into Maslow yet, for example.",
+  "zh": "我毫不怀疑还有很多他们无法在 Lean 中形式化，因为先决条件选项还没有被放入 Maslow 中，例如。"
+ },
+ {
+  "seg": 561,
+  "start": 3237.063,
+  "end": 3239.965,
+  "speaker": "Unknown",
+  "en": "There were probably more that were longer, which also makes it challenging to check.",
+  "zh": "可能还有更长的，这也使得检查变得具有挑战性。"
+ },
+ {
+  "seg": 562,
+  "start": 3241.026,
+  "end": 3241.827,
+  "speaker": "Unknown",
+  "en": "So yeah, this is my guess.",
+  "zh": "所以是的，这是我的猜测。"
+ },
+ {
+  "seg": 563,
+  "start": 3241.867,
+  "end": 3247.291,
+  "speaker": "Unknown",
+  "en": "And we do actually see very long generated proofs on the archive.",
+  "zh": "而且我们确实在档案上看到了非常长的生成的证明。"
+ },
+ {
+  "seg": 564,
+  "start": 3247.851,
+  "end": 3254.096,
+  "speaker": "Unknown",
+  "en": "So for example, someone recently posted a claimed proof of resolution of singularities and positive characteristic, which was 800.",
+  "zh": "所以例如，有人最近发布了一个声称的关于正特征奇点消解的证明，那是 800。"
+ },
+ {
+  "seg": 565,
+  "start": 3255.317,
+  "end": 3256.278,
+  "speaker": "Unknown",
+  "en": "AI-generated pages.",
+  "zh": "AI 生成的页数。"
+ },
+ {
+  "seg": 566,
+  "start": 3256.899,
+  "end": 3259.102,
+  "speaker": "Unknown",
+  "en": "It's definitely, I mean, I'm sorry, I haven't read it.",
+  "zh": "这绝对是，我的意思是，对不起，我还没有读过它。"
+ },
+ {
+  "seg": 567,
+  "start": 3259.122,
+  "end": 3260.904,
+  "speaker": "Unknown",
+  "en": "I haven't done an error, but there's no way it's correct.",
+  "zh": "我还没有做过一个错误，但是没有办法它是正确的。"
+ },
+ {
+  "seg": 568,
+  "start": 3261.004,
+  "end": 3262.766,
+  "speaker": "Unknown",
+  "en": "This will be a major result.",
+  "zh": "这将是一个主要的结果。"
+ },
+ {
+  "seg": 569,
+  "start": 3262.826,
+  "end": 3266.871,
+  "speaker": "Unknown",
+  "en": "It's just not within the capacities of the current models, which are reasonably well calibrated.",
+  "zh": "这只是不在当前模型的能力范围内，这些模型是相当好校准的。"
+ },
+ {
+  "seg": 570,
+  "start": 3268.132,
+  "end": 3269.995,
+  "speaker": "Unknown",
+  "en": "And it's definitely no human has read it.",
+  "zh": "而且肯定没有人类读过它。"
+ },
+ {
+  "seg": 571,
+  "start": 3270.575,
+  "end": 3272.798,
+  "speaker": "Unknown",
+  "en": "Definitely the models are not able to check this kind of thing yet.",
+  "zh": "肯定模型还不能检查这类事情。"
+ },
+ {
+  "seg": 572,
+  "start": 3275.052,
+  "end": 3282.278,
+  "speaker": "Unknown",
+  "en": "So, I mean, yeah, so this is my expectation is that the reason it's producing short, clever things is just like that's what we can check.",
+  "zh": "所以，我是说，是的，所以我的期望是，它生成简短的、聪明的（东西）的原因仅仅就像那是我们可以检查的。"
+ },
+ {
+  "seg": 573,
+  "start": 3282.738,
+  "end": 3282.899,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 574,
+  "start": 3283.119,
+  "end": 3288.423,
+  "speaker": "Unknown",
+  "en": "And you can get it to produce long things that are grindy or hard to check, but then... Yeah, yeah, we'll have to get there.",
+  "zh": "而且你可以让它生成长长的东西，那是枯燥的或难以检查的，但是然后……是的，是的，我们将不得不到达那里。"
+ },
+ {
+  "seg": 575,
+  "start": 3288.443,
+  "end": 3296.51,
+  "speaker": "Unknown",
+  "en": "This is actually more what it says about capabilities, frontier capabilities, rather than, in a perhaps more negative way, rather than, hey, it's just...",
+  "zh": "这实际上更多是它关于能力、前沿能力所说的，而不是，以一种也许更消极的方式，而不是，嘿，它只是……"
+ },
+ {
+  "seg": 576,
+  "start": 3296.65,
+  "end": 3299.133,
+  "speaker": "Unknown",
+  "en": "You know, so good at these clever... No, I think that's totally fair.",
+  "zh": "你知道，所以擅长这些聪明的……不，我认为那是完全公平的。"
+ },
+ {
+  "seg": 577,
+  "start": 3299.173,
+  "end": 3302.176,
+  "speaker": "Unknown",
+  "en": "I mean, especially if you look at an adjacent domain like code, right?",
+  "zh": "我的意思是，特别是如果你看一个相邻的领域像代码，对吗？"
+ },
+ {
+  "seg": 578,
+  "start": 3302.297,
+  "end": 3309.605,
+  "speaker": "Unknown",
+  "en": "I remember reading something that Cursor put out about testing their long horizon, you know, harness.",
+  "zh": "我记得读过一些 Cursor 发布的关于测试他们的长视界，你知道，工具。"
+ },
+ {
+  "seg": 579,
+  "start": 3309.685,
+  "end": 3316.093,
+  "speaker": "Unknown",
+  "en": "In this case, they're trying to reproduce SQLite in Rust, and it was just so telling, like, how far we are.",
+  "zh": "在这种情况下，他们试图用 Rust 复现 SQLite，这非常说明问题，像，我们要走的路有多远。"
+ },
+ {
+  "seg": 580,
+  "start": 3317.394,
+  "end": 3319.916,
+  "speaker": "Unknown",
+  "en": "And that seems like a very comparable task.",
+  "zh": "这看起来像一个非常可比的任务。"
+ },
+ {
+  "seg": 581,
+  "start": 3319.996,
+  "end": 3321.237,
+  "speaker": "Unknown",
+  "en": "It's very long.",
+  "zh": "它非常长。"
+ },
+ {
+  "seg": 582,
+  "start": 3321.257,
+  "end": 3321.877,
+  "speaker": "Unknown",
+  "en": "You have to make sure.",
+  "zh": "你必须确保。"
+ },
+ {
+  "seg": 583,
+  "start": 3321.897,
+  "end": 3327.042,
+  "speaker": "Unknown",
+  "en": "There's something to verify that it's a correct implementation by testing a suite of cases.",
+  "zh": "有某种东西通过测试一系列案例来验证它是一个正确的实现。"
+ },
+ {
+  "seg": 584,
+  "start": 3327.602,
+  "end": 3332.206,
+  "speaker": "Unknown",
+  "en": "But you actually need a harness there in this case.",
+  "zh": "但你实际上需要在那里有一个工具，在这种情况下。"
+ },
+ {
+  "seg": 585,
+  "start": 3332.246,
+  "end": 3333.467,
+  "speaker": "Unknown",
+  "en": "It's not just the raw models.",
+  "zh": "它不仅仅是原始模型。"
+ },
+ {
+  "seg": 586,
+  "start": 3333.587,
+  "end": 3335.448,
+  "speaker": "Unknown",
+  "en": "And it takes a while.",
+  "zh": "而且它需要一段时间。"
+ },
+ {
+  "seg": 587,
+  "start": 3335.508,
+  "end": 3345.697,
+  "speaker": "Unknown",
+  "en": "And you can actually compare with different frontier versus non-frontier models, who's the planner, et cetera, differences in their capabilities as well.",
+  "zh": "你实际上可以比较不同的前沿模型与非前沿模型，谁是规划者，等等，它们的能力差异。"
+ },
+ {
+  "seg": 588,
+  "start": 3346.542,
+  "end": 3351.495,
+  "speaker": "Unknown",
+  "en": "I always think in practice, to elicit a long proof, you kind of need a harness.",
+  "zh": "我总是认为在实践中，为了引出一个长证明，你有点需要一个工具。"
+ },
+ {
+  "seg": 589,
+  "start": 3354.028,
+  "end": 3359.633,
+  "speaker": "Unknown",
+  "en": "When you make a harness whose goal is to elicit a proof, I think it often decreases reliability because you're just trying to produce output.",
+  "zh": "当你制作一个目标是引出证明的工具时，我认为它经常降低可靠性，因为你只是试图产生输出。"
+ },
+ {
+  "seg": 590,
+  "start": 3361.114,
+  "end": 3369.701,
+  "speaker": "Unknown",
+  "en": "So ChatGPT 5.6 Pro really tries not to say wrong stuff, for example, and although it happens and then you'll ask it, like, oh, was that correct?",
+  "zh": "所以 ChatGPT 5.6 Pro 真的试着不说错误的东西，例如，虽然它发生了，然后你会问它，像，哦，那个正确吗？"
+ },
+ {
+  "seg": 591,
+  "start": 3369.741,
+  "end": 3371.462,
+  "speaker": "Unknown",
+  "en": "And it'll say no.",
+  "zh": "它会说不。"
+ },
+ {
+  "seg": 592,
+  "start": 3372.183,
+  "end": 3378.808,
+  "speaker": "Unknown",
+  "en": "But when you're trying to get it to ideate, you try to get it to be creative, you try to get it out of this very, like...",
+  "zh": "但当你试图让它构思时，你试图让它变得有创造力，你试图让它摆脱这种非常，像……"
+ },
+ {
+  "seg": 593,
+  "start": 3379.755,
+  "end": 3384.376,
+  "speaker": "Unknown",
+  "en": "You know, rigorous rut in order to like, you know, actually get it somewhere.",
+  "zh": "你知道，严谨的车辙，为了像，你知道，实际上让它到达某处。"
+ },
+ {
+  "seg": 594,
+  "start": 3384.396,
+  "end": 3395.44,
+  "speaker": "Unknown",
+  "en": "And I think if your interest is in, I mean, there are a lot of people who are, you know, trying to arbitrage the prestige mechanics of academic mathematics and trying to elicit a lot of proofs, which are not necessarily being checked.",
+  "zh": "而且我认为如果你的兴趣在于，我的意思是，有很多人，你知道，试图套利学术数学的声望机制，并试图引出许多证明，这些不一定被检查。"
+ },
+ {
+  "seg": 595,
+  "start": 3395.48,
+  "end": 3400.341,
+  "speaker": "Unknown",
+  "en": "And in order to do that, I think you just decrease the liability in order to get a lot of stuff.",
+  "zh": "为了做到这一点，我认为你只是降低责任以获得大量的东西。"
+ },
+ {
+  "seg": 596,
+  "start": 3400.441,
+  "end": 3406.643,
+  "speaker": "Unknown",
+  "en": "So, you know, I think any harness that can elicit a 250-page paper is probably not being very careful about what it's producing.",
+  "zh": "所以，你知道，我认为任何能引出 250 页论文的工具可能对它生成的不是很小心。"
+ },
+ {
+  "seg": 597,
+  "start": 3407.527,
+  "end": 3412.472,
+  "speaker": "Unknown",
+  "en": "And you're saying that it's decreasing or it's not reliable just because the capability isn't there yet.",
+  "zh": "而且你说它在降低或者它不可靠，仅仅是因为能力还不存在。"
+ },
+ {
+  "seg": 598,
+  "start": 3412.492,
+  "end": 3415.755,
+  "speaker": "Unknown",
+  "en": "And so it's just kind of forcing a longer horizon task on it.",
+  "zh": "所以这只是在强迫它执行一个更长视界的任务。"
+ },
+ {
+  "seg": 599,
+  "start": 3416.396,
+  "end": 3416.576,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 600,
+  "start": 3416.656,
+  "end": 3416.776,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 601,
+  "start": 3416.816,
+  "end": 3421.441,
+  "speaker": "Unknown",
+  "en": "I mean, in practice, like, how does, like, a human checking, like, can't check a 250-page paper either.",
+  "zh": "我的意思是，在实践中，比如说，一个人类检查者，比如说，也无法检查一篇 250 页的论文。"
+ },
+ {
+  "seg": 602,
+  "start": 3421.521,
+  "end": 3421.822,
+  "speaker": "Unknown",
+  "en": "Like...",
+  "zh": "比如……"
+ },
+ {
+  "seg": 603,
+  "start": 3422.262,
+  "end": 3425.225,
+  "speaker": "Unknown",
+  "en": "Like, you know, you can't reliably check it line by line.",
+  "zh": "就像，你知道，你无法逐行可靠地检查它。"
+ },
+ {
+  "seg": 604,
+  "start": 3425.625,
+  "end": 3431.971,
+  "speaker": "Unknown",
+  "en": "What you would try to do to understand it is you try to, like, understand the overall global structure of the argument and you, like, stress test it in various ways.",
+  "zh": "你为了理解它会试图做的是，你试图，比如，理解论证的整体全局结构，然后你，比如，以各种方式对其进行压力测试。"
+ },
+ {
+  "seg": 605,
+  "start": 3432.051,
+  "end": 3435.654,
+  "speaker": "Unknown",
+  "en": "Like, would this argument imply something else that I know to be false?",
+  "zh": "比如，这个论证是否意味着我所知道的其它虚假的事情？"
+ },
+ {
+  "seg": 606,
+  "start": 3435.754,
+  "end": 3438.156,
+  "speaker": "Unknown",
+  "en": "Like, oh, like, does it work in this special case?",
+  "zh": "比如，哦，比如，在这个特例中它有效吗？"
+ },
+ {
+  "seg": 607,
+  "start": 3438.256,
+  "end": 3438.757,
+  "speaker": "Unknown",
+  "en": "Blah, blah, blah.",
+  "zh": "等等，等等，等等。"
+ },
+ {
+  "seg": 608,
+  "start": 3439.217,
+  "end": 3442,
+  "speaker": "Unknown",
+  "en": "And also the models seem not to be able to do that kind of, like, more...",
+  "zh": "而且模型似乎还不能做那种，比如，更……"
+ },
+ {
+  "seg": 609,
+  "start": 3442.64,
+  "end": 3445.503,
+  "speaker": "Unknown",
+  "en": "I don't know, Fuzzy unit testing a proof very well yet.",
+  "zh": "我不知道，对证明进行模糊单元测试目前还做得不好。"
+ },
+ {
+  "seg": 610,
+  "start": 3445.903,
+  "end": 3449.746,
+  "speaker": "Unknown",
+  "en": "It's actually one of my favorite tests for the models, which they haven't succeeded at yet.",
+  "zh": "这实际上是我最喜欢的针对模型的测试之一，它们还没通过这个测试。"
+ },
+ {
+  "seg": 611,
+  "start": 3450.447,
+  "end": 3455.971,
+  "speaker": "Unknown",
+  "en": "There's a paper, I won't name it, that came out a couple years ago that was wrong.",
+  "zh": "有一篇论文，我不点名，是几年前出来的，那是错的。"
+ },
+ {
+  "seg": 612,
+  "start": 3456.552,
+  "end": 3463.277,
+  "speaker": "Unknown",
+  "en": "And it was very hard to find in close enough area to myself that I immediately was claiming some big result.",
+  "zh": "它很难找到，在足够接近我自己的领域，以至于我立即声称有一些大成果。"
+ },
+ {
+  "seg": 613,
+  "start": 3463.337,
+  "end": 3465.959,
+  "speaker": "Unknown",
+  "en": "I immediately downloaded it and started reading it.",
+  "zh": "我立即下载了它并开始阅读它。"
+ },
+ {
+  "seg": 614,
+  "start": 3465.979,
+  "end": 3468.882,
+  "speaker": "Unknown",
+  "en": "And it was very hard to find the actual specific error.",
+  "zh": "而且很难找到实际的具体错误。"
+ },
+ {
+  "seg": 615,
+  "start": 3469.542,
+  "end": 3473.325,
+  "speaker": "Unknown",
+  "en": "But it was also very clear from the structure of the argument that it couldn't work.",
+  "zh": "但从论证的结构来看也很清楚，它是行不通的。"
+ },
+ {
+  "seg": 616,
+  "start": 3473.345,
+  "end": 3477.989,
+  "speaker": "Unknown",
+  "en": "So it was like, you know, me and a bunch of other, well, he was proving something that was too strong to be true.",
+  "zh": "所以就像是，你知道，我和一群其他，好吧，他证明的东西太强了，不可能是真的。"
+ },
+ {
+  "seg": 617,
+  "start": 3478.029,
+  "end": 3479.69,
+  "speaker": "Unknown",
+  "en": "He took it a little bit further.",
+  "zh": "他走得稍微远了一点。"
+ },
+ {
+  "seg": 618,
+  "start": 3480.971,
+  "end": 3491.94,
+  "speaker": "Unknown",
+  "en": "So me and a bunch of other experts immediately realized it was wrong and we emailed the author and we kind of went back and forth until someone figured out what the precise specific error was.",
+  "zh": "所以我和一些其他专家立即意识到它是错的，我们给作者发了邮件，我们有点来回往返，直到有人弄清楚确切的具体错误是什么。"
+ },
+ {
+  "seg": 619,
+  "start": 3493.461,
+  "end": 3496.063,
+  "speaker": "Unknown",
+  "en": "And so far, the models seem not to have been able to do this.",
+  "zh": "到目前为止，模型似乎还没有能够做到这一点。"
+ },
+ {
+  "seg": 620,
+  "start": 3496.103,
+  "end": 3506.568,
+  "speaker": "Unknown",
+  "en": "The specific area is quite subtle, but they're also not able to do this kind of overall kind of big picture tech checking, which is kind of like how people in practice check papers.",
+  "zh": "这个具体领域相当微妙，但它们也不能做这种整体的宏观技术检查，这有点像人们在实践中检查论文的方式。"
+ },
+ {
+  "seg": 621,
+  "start": 3507.107,
+  "end": 3509.789,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, which is kind of, it mirrors, you know, why in code.",
+  "zh": "是的，是的，这有点像，它反映了，你知道，为什么在代码中。"
+ },
+ {
+  "seg": 622,
+  "start": 3509.809,
+  "end": 3516.254,
+  "speaker": "Unknown",
+  "en": "It's like, it's so clear it's good at the syntax, but, you know, higher level architectural stuff, still very weak.",
+  "zh": "就像是，很明显它擅长语法，但是，你知道，更高层级的架构方面的东西，仍然非常弱。"
+ },
+ {
+  "seg": 623,
+  "start": 3516.294,
+  "end": 3519.416,
+  "speaker": "Unknown",
+  "en": "Maybe it'll ascend there, but probably need some harness help.",
+  "zh": "也许它会在这方面提升，但可能需要一些 harness 帮助。"
+ },
+ {
+  "seg": 624,
+  "start": 3519.516,
+  "end": 3519.917,
+  "speaker": "Unknown",
+  "en": "Who knows?",
+  "zh": "谁知道呢？"
+ },
+ {
+  "seg": 625,
+  "start": 3519.937,
+  "end": 3528.063,
+  "speaker": "Unknown",
+  "en": "I mean, people have, you know, evolving opinions on how much the harness and the model have to co-evolve and which one is necessary, but the next model requires less.",
+  "zh": "我的意思是，人们有，你知道，不断演变的观点，关于 harness 和模型必须共同进化到什么程度以及哪一个是必要的，但下一个模型需要的更少。"
+ },
+ {
+  "seg": 626,
+  "start": 3528.103,
+  "end": 3535.908,
+  "speaker": "Unknown",
+  "en": "So I feel like in math, it'd be very interesting to see how you, if you do any experiments with the harness there and how that improves.",
+  "zh": "所以我觉得在数学中，如果你在那里用 harness 做任何实验以及它是如何改进的，那将是非常有趣的。"
+ },
+ {
+  "seg": 627,
+  "start": 3536.649,
+  "end": 3538.37,
+  "speaker": "Unknown",
+  "en": "Because it is a marker of general reasoning.",
+  "zh": "因为它是通用推理的一个标志。"
+ },
+ {
+  "seg": 628,
+  "start": 3538.631,
+  "end": 3538.931,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 629,
+  "start": 3539.592,
+  "end": 3543.215,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I do, you know, I have my own sort of bad little harness in Codex.",
+  "zh": "是的，我的意思是，我确实，你知道，我有我自己的那种在 Codex 里的糟糕的小 harness。"
+ },
+ {
+  "seg": 630,
+  "start": 3543.435,
+  "end": 3544.195,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦，是的。"
+ },
+ {
+  "seg": 631,
+  "start": 3544.276,
+  "end": 3553.383,
+  "speaker": "Unknown",
+  "en": "But, you know, personally, I do not enjoy autonomous mathematics very much, so I mostly do not use the harness.",
+  "zh": "但是，你知道，就我个人而言，我不太享受自主数学，所以我大部分时间不使用这个 harness。"
+ },
+ {
+  "seg": 632,
+  "start": 3553.423,
+  "end": 3555.405,
+  "speaker": "Unknown",
+  "en": "I mostly try to use it to help me understand stuff.",
+  "zh": "我主要尝试用它来帮助我理解东西。"
+ },
+ {
+  "seg": 633,
+  "start": 3555.873,
+  "end": 3556.813,
+  "speaker": "Unknown",
+  "en": "Okay, no, it's totally fair.",
+  "zh": "好的，不，这完全公平。"
+ },
+ {
+  "seg": 634,
+  "start": 3557.334,
+  "end": 3557.854,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，正是。"
+ },
+ {
+  "seg": 635,
+  "start": 3557.874,
+  "end": 3564.917,
+  "speaker": "Unknown",
+  "en": "You don't want to automate your job away because that does involve you being in the loop to understand it, which is, you know, necessary to participate.",
+  "zh": "你不想把你的工作自动化掉，因为这确实涉及你在循环中去理解它，这是，你知道，参与其中所必需的。"
+ },
+ {
+  "seg": 636,
+  "start": 3565.437,
+  "end": 3571.299,
+  "speaker": "Unknown",
+  "en": "Maybe to finish off, I'd love to, this could be just something you haven't thought about or actually thought a lot about.",
+  "zh": "也许作为结束，我想，这可能只是你没想到过或者实际上想了很多的事情。"
+ },
+ {
+  "seg": 637,
+  "start": 3571.599,
+  "end": 3573.2,
+  "speaker": "Unknown",
+  "en": "I think you also have a toddler.",
+  "zh": "我想你也有一个刚学会走路的孩子。"
+ },
+ {
+  "seg": 638,
+  "start": 3573.96,
+  "end": 3574.16,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 639,
+  "start": 3574.28,
+  "end": 3574.42,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 640,
+  "start": 3574.6,
+  "end": 3575,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 641,
+  "start": 3575.02,
+  "end": 3576.341,
+  "speaker": "Unknown",
+  "en": "So how have you... Yeah, I'm a three-year-old.",
+  "zh": "所以你是怎么……是的，我是一个三岁的小孩。"
+ },
+ {
+  "seg": 642,
+  "start": 3576.561,
+  "end": 3577.301,
+  "speaker": "Unknown",
+  "en": "Yeah, three-year-old.",
+  "zh": "是的，三岁。"
+ },
+ {
+  "seg": 643,
+  "start": 3577.361,
+  "end": 3577.762,
+  "speaker": "Unknown",
+  "en": "Great, great.",
+  "zh": "很好，很好。"
+ },
+ {
+  "seg": 644,
+  "start": 3577.782,
+  "end": 3582.324,
+  "speaker": "Unknown",
+  "en": "So you're one year more advanced and probably, you know, have more thoughts on this.",
+  "zh": "所以你领先了一年，并且可能，你知道，对此有更多的想法。"
+ },
+ {
+  "seg": 645,
+  "start": 3582.344,
+  "end": 3586.065,
+  "speaker": "Unknown",
+  "en": "Like, how are you thinking about, is it her education or his education?",
+  "zh": "比如，你是怎么想的，是她的教育还是他的教育？"
+ },
+ {
+  "seg": 646,
+  "start": 3586.125,
+  "end": 3586.786,
+  "speaker": "Unknown",
+  "en": "Her, yeah.",
+  "zh": "是她的，是的。"
+ },
+ {
+  "seg": 647,
+  "start": 3586.806,
+  "end": 3596.57,
+  "speaker": "Unknown",
+  "en": "How are you thinking about her education in math and, you know, not to grind, but, you know, really just like how, you know, pass on the love of it and how to react to AI?",
+  "zh": "你是怎么考虑她在数学方面的教育的，你知道，不是为了苦练，但是，你知道，真的就像是如何，你知道，传递对它的热爱以及如何应对 AI？"
+ },
+ {
+  "seg": 648,
+  "start": 3597.602,
+  "end": 3599.103,
+  "speaker": "Unknown",
+  "en": "Yeah, so she's three.",
+  "zh": "是的，她三岁。"
+ },
+ {
+  "seg": 649,
+  "start": 3599.223,
+  "end": 3601.424,
+  "speaker": "Unknown",
+  "en": "She's never used AI.",
+  "zh": "她从未使用过 AI。"
+ },
+ {
+  "seg": 650,
+  "start": 3601.444,
+  "end": 3602.765,
+  "speaker": "Unknown",
+  "en": "She is starting to add.",
+  "zh": "她开始学加法了。"
+ },
+ {
+  "seg": 651,
+  "start": 3603.145,
+  "end": 3604.846,
+  "speaker": "Unknown",
+  "en": "That's about as far as we are in math.",
+  "zh": "我们在数学上大概也就学到这了。"
+ },
+ {
+  "seg": 652,
+  "start": 3604.866,
+  "end": 3606.327,
+  "speaker": "Unknown",
+  "en": "Yeah, that's more far off than I do.",
+  "zh": "是的，那比我做的更远一些。"
+ },
+ {
+  "seg": 653,
+  "start": 3606.347,
+  "end": 3615.012,
+  "speaker": "Unknown",
+  "en": "She can add single-digit numbers by counting on her fingers and count up to maybe 30 reliably and 50 semi-reliably.",
+  "zh": "她可以通过数手指来做一位数加法，并且能可靠地数到 30，半可靠地数到 50。"
+ },
+ {
+  "seg": 654,
+  "start": 3615.032,
+  "end": 3616.133,
+  "speaker": "Unknown",
+  "en": "So I'm very proud of her.",
+  "zh": "所以我非常为她骄傲。"
+ },
+ {
+  "seg": 655,
+  "start": 3616.153,
+  "end": 3618.074,
+  "speaker": "Unknown",
+  "en": "Yeah, I definitely encourage that.",
+  "zh": "是的，我肯定会鼓励这个。"
+ },
+ {
+  "seg": 656,
+  "start": 3618.094,
+  "end": 3619.414,
+  "speaker": "Unknown",
+  "en": "We talk about shapes and stuff.",
+  "zh": "我们会谈论形状之类的东西。"
+ },
+ {
+  "seg": 657,
+  "start": 3620.795,
+  "end": 3626.239,
+  "speaker": "Unknown",
+  "en": "Actually, a couple days ago, I woke her up and she was like hiding under the blankets.",
+  "zh": "其实，几天前，我唤醒她时，她正躲在毯子下面。"
+ },
+ {
+  "seg": 658,
+  "start": 3626.699,
+  "end": 3628.48,
+  "speaker": "Unknown",
+  "en": "And I was like, what are you up to under there, Sophia?",
+  "zh": "我就像说，你在下面干嘛呢，Sophia？"
+ },
+ {
+  "seg": 659,
+  "start": 3628.6,
+  "end": 3630.061,
+  "speaker": "Unknown",
+  "en": "And she was like, oh, I'm doing some math.",
+  "zh": "她就像说，哦，我在做点数学。"
+ },
+ {
+  "seg": 660,
+  "start": 3630.501,
+  "end": 3632.743,
+  "speaker": "Unknown",
+  "en": "Oh, I think you tweeted about that.",
+  "zh": "哦，我想你在推特上发过这个。"
+ },
+ {
+  "seg": 661,
+  "start": 3632.763,
+  "end": 3633.443,
+  "speaker": "Unknown",
+  "en": "That was horrible.",
+  "zh": "那太糟糕了。"
+ },
+ {
+  "seg": 662,
+  "start": 3633.483,
+  "end": 3634.544,
+  "speaker": "Unknown",
+  "en": "Yeah, it was great.",
+  "zh": "是的，那很棒。"
+ },
+ {
+  "seg": 663,
+  "start": 3634.924,
+  "end": 3638.547,
+  "speaker": "Unknown",
+  "en": "So, you know, I think she has like some sense that I like math and she's into it because of that.",
+  "zh": "所以，你知道，我觉得她有些感觉我知道她喜欢数学，因为这个她也对此感兴趣。"
+ },
+ {
+  "seg": 664,
+  "start": 3639.587,
+  "end": 3652.037,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I would say I don't know, you know, I think the world is probably going to look pretty different in, you know, 20 years or whenever she's kind of, you know, fully adult and doing her own thing.",
+  "zh": "是的，我是说，我想说我不知道，你知道，我觉得世界在，你知道，20 年后或者当她，你知道，完全成年并做自己的事情时，大概看起来会非常不同。"
+ },
+ {
+  "seg": 665,
+  "start": 3653.198,
+  "end": 3658.602,
+  "speaker": "Unknown",
+  "en": "But, you know, I think a lot of what we educate people for is like pretty robust changes in the nature of the world.",
+  "zh": "但是，你知道，我认为我们教育人们的很多内容是为了，你知道，应对世界本质上的相当稳健的变化。"
+ },
+ {
+  "seg": 666,
+  "start": 3658.662,
+  "end": 3664.666,
+  "speaker": "Unknown",
+  "en": "Like, I think the reason to learn math has always been like to think clearly and like better understand the world.",
+  "zh": "比如，我认为学数学的原因一直就像是为了清晰地思考和更好地理解世界。"
+ },
+ {
+  "seg": 667,
+  "start": 3664.687,
+  "end": 3666.368,
+  "speaker": "Unknown",
+  "en": "And like, presumably that's something you want to do.",
+  "zh": "而且，想必那是你想做的事。"
+ },
+ {
+  "seg": 668,
+  "start": 3667.351,
+  "end": 3669.372,
+  "speaker": "Unknown",
+  "en": "Even if there are sort of extremely capable AIs.",
+  "zh": "即使有那种极其强大的 AI。"
+ },
+ {
+  "seg": 669,
+  "start": 3669.533,
+  "end": 3676.217,
+  "speaker": "Unknown",
+  "en": "And this is also true, you know, I personally like math a lot, but also the reason to like read a lot of books and humanities and so on.",
+  "zh": "这也是真的，你知道，我个人很喜欢数学，但这同样也是阅读大量书籍和人文学科等等的原因。"
+ },
+ {
+  "seg": 670,
+  "start": 3676.717,
+  "end": 3690.006,
+  "speaker": "Unknown",
+  "en": "So I mean, I think like the actual values of the math profession and like education more broadly are like things we definitely try to want to try to preserve that I hope to instill in my daughter.",
+  "zh": "所以我是说，我觉得就像数学专业的实际价值，还有更广泛的教育，都是我们绝对试图想要尝试去保留的东西，我希望灌输给我的女儿。"
+ },
+ {
+  "seg": 671,
+  "start": 3692.142,
+  "end": 3697.003,
+  "speaker": "Unknown",
+  "en": "You know, how much institutions have to change to make sure that happens is maybe an open question, I think, a lot.",
+  "zh": "你知道，机构需要做多大的改变来确保这一切发生，可能还是一个开放的问题，我认为，有很多。"
+ },
+ {
+  "seg": 672,
+  "start": 3698.184,
+  "end": 3705.946,
+  "speaker": "Unknown",
+  "en": "But, yeah, I mean, at least at a personal level, I'm definitely trying to, you know, convince my three-year-old that math is super cool.",
+  "zh": "但是，是的，我是说，至少在个人层面上，我绝对在试图，你知道，说服我三岁的孩子数学超级酷。"
+ },
+ {
+  "seg": 673,
+  "start": 3706.286,
+  "end": 3707.086,
+  "speaker": "Unknown",
+  "en": "Oh, yeah, 100%.",
+  "zh": "哦，是的，百分之百。"
+ },
+ {
+  "seg": 674,
+  "start": 3707.106,
+  "end": 3708.247,
+  "speaker": "Unknown",
+  "en": "One of her first words was, like, .",
+  "zh": "她最早的词之一是，就像，。"
+ },
+ {
+  "seg": 675,
+  "start": 3709.267,
+  "end": 3711.668,
+  "speaker": "Unknown",
+  "en": "Was what?",
+  "zh": "是什么？"
+ },
+ {
+  "seg": 676,
+  "start": 3712.609,
+  "end": 3716.351,
+  "speaker": "Unknown",
+  "en": "My parents gave her a little icosahedron toy when she was one.",
+  "zh": "我父母在她一岁的时候给了她一个小二十面体玩具。"
+ },
+ {
+  "seg": 677,
+  "start": 3716.371,
+  "end": 3718.072,
+  "speaker": "Unknown",
+  "en": "That was the first word?",
+  "zh": "那是最早的词吗？"
+ },
+ {
+  "seg": 678,
+  "start": 3718.092,
+  "end": 3721.313,
+  "speaker": "Unknown",
+  "en": "Yeah, not literally the first word, but she learned the platonic solids quite quickly.",
+  "zh": "是的，不是字面上的第一个词，但她很快学会了柏拉图立体。"
+ },
+ {
+  "seg": 679,
+  "start": 3721.333,
+  "end": 3722.214,
+  "speaker": "Unknown",
+  "en": "Oh, very good, very good.",
+  "zh": "哦，非常好，非常好。"
+ },
+ {
+  "seg": 680,
+  "start": 3722.234,
+  "end": 3723.134,
+  "speaker": "Unknown",
+  "en": "It was very, very fun.",
+  "zh": "那非常，非常有趣。"
+ },
+ {
+  "seg": 681,
+  "start": 3723.154,
+  "end": 3724.075,
+  "speaker": "Unknown",
+  "en": "Next stop, group theory.",
+  "zh": "下一站，群论。"
+ },
+ {
+  "seg": 682,
+  "start": 3724.135,
+  "end": 3725.375,
+  "speaker": "Unknown",
+  "en": "I mean, it's like very natural.",
+  "zh": "我是说，这就像很自然。"
+ },
+ {
+  "seg": 683,
+  "start": 3725.395,
+  "end": 3726.176,
+  "speaker": "Unknown",
+  "en": "That's right, yeah.",
+  "zh": "没错，是的。"
+ },
+ {
+  "seg": 684,
+  "start": 3726.196,
+  "end": 3727.356,
+  "speaker": "Unknown",
+  "en": "I mean, it's actual.",
+  "zh": "我是说，它是实际的。"
+ },
+ {
+  "seg": 685,
+  "start": 3727.376,
+  "end": 3733.46,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, actually, when I teach her about addition and subtraction, for example, we'll do it in the context of a general group.",
+  "zh": "是的，我是说，实际上，当我教她加减法时，例如，我们会在一般群的背景下做这件事。"
+ },
+ {
+  "seg": 686,
+  "start": 3733.68,
+  "end": 3734.1,
+  "speaker": "Unknown",
+  "en": "Oh, very good.",
+  "zh": "哦，非常好。"
+ },
+ {
+  "seg": 687,
+  "start": 3736.263,
+  "end": 3737.724,
+  "speaker": "Unknown",
+  "en": "Well, at least you gave the motivation.",
+  "zh": "嗯，至少你提供了动力。"
+ },
+ {
+  "seg": 688,
+  "start": 3737.744,
+  "end": 3740.806,
+  "speaker": "Unknown",
+  "en": "I think a lot of folks probably skipped that part.",
+  "zh": "我想很多人可能跳过了那部分。"
+ },
+ {
+  "seg": 689,
+  "start": 3741.407,
+  "end": 3742.468,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 690,
+  "start": 3742.528,
+  "end": 3754.657,
+  "speaker": "Unknown",
+  "en": "And maybe this is how math grad students can also focus on training the next much younger generation to use AI in service of actually getting better at math rather than just making understanding.",
+  "zh": "也许这就是数学研究生们也可以专注于训练下一代更年轻一代的方法，利用 AI 来真正在数学上变得更好，而不是仅仅制造理解。"
+ },
+ {
+  "seg": 691,
+  "start": 3755.398,
+  "end": 3755.758,
+  "speaker": "Unknown",
+  "en": "Wonderful.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 692,
+  "start": 3756.179,
+  "end": 3757.56,
+  "speaker": "Unknown",
+  "en": "Okay, well, thank you so much, Daniel.",
+  "zh": "好的，嗯，非常感谢，Daniel。"
+ },
+ {
+  "seg": 693,
+  "start": 3757.58,
+  "end": 3758.581,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 694,
+  "start": 3758.601,
+  "end": 3759.301,
+  "speaker": "Unknown",
+  "en": "It was a lot of fun.",
+  "zh": "这很有趣。"
+ },
+ {
+  "seg": 695,
+  "start": 3759.421,
+  "end": 3760.502,
+  "speaker": "Unknown",
+  "en": "Yeah, it was a lot of fun.",
+  "zh": "是的，这很有趣。"
+ },
+ {
+  "seg": 696,
+  "start": 3760.682,
+  "end": 3764.104,
+  "speaker": "Unknown",
+  "en": "And yeah, I mean, I think there's gonna be a lot more progress very soon.",
+  "zh": "而且是的，我是说，我觉得很快会有更多的进展。"
+ },
+ {
+  "seg": 697,
+  "start": 3764.164,
+  "end": 3766.125,
+  "speaker": "Unknown",
+  "en": "I'd love to maybe catch up and chat again.",
+  "zh": "我很想也许再聚聊一次。"
+ },
+ {
+  "seg": 698,
+  "start": 3766.526,
+  "end": 3766.946,
+  "speaker": "Unknown",
+  "en": "Sounds great.",
+  "zh": "听起来很棒。"
+ },
+ {
+  "seg": 699,
+  "start": 3769.825,
+  "end": 3772.646,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z podcast.",
+  "zh": "感谢收听这一期的 A16Z 播客。"
+ },
+ {
+  "seg": 700,
+  "start": 3773.306,
+  "end": 3779.628,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一集，一定要点赞、评论、订阅，给我们留下评分或评论，并与你的朋友和家人分享它。"
+ },
+ {
+  "seg": 701,
+  "start": 3780.488,
+  "end": 3784.029,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "若要获取更多剧集，请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 702,
+  "start": 3784.629,
+  "end": 3790.071,
+  "speaker": "Unknown",
+  "en": "Follow us on X and A16Z, and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 和 A16Z 上关注我们，并订阅我们的 Substack，地址是 a16z.substack.com。"
+ },
+ {
+  "seg": 703,
+  "start": 3790.731,
+  "end": 3793.192,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下一集再见。"
+ },
+ {
+  "seg": 704,
+  "start": 3795.192,
+  "end": 3808.219,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "作为提醒，此处的内容仅供参考，不应被视为法律、商业、税务或投资建议，也不用于评估任何投资或证券，且不针对任何 A16Z 基金的投资者或潜在投资者。"
+ },
+ {
+  "seg": 705,
+  "start": 3808.92,
+  "end": 3813.582,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意，A16Z 及其关联公司也可能持有本播客中讨论的公司的投资。"
+ },
+ {
+  "seg": 706,
+  "start": 3814.123,
+  "end": 3820.766,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多详情，包括我们投资的链接，请参阅 a16z.com/disclosures。"
+ }
+]

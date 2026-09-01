@@ -1,0 +1,72 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "04:43",
+      "speaker": "Ajaya Khatra",
+      "trimmed": false,
+      "tsWas": "03:45",
+      "spkWas": "Ajaya Khatra"
+    },
+    {
+      "i": 2,
+      "timestamp": "10:05",
+      "speaker": "Ajaya Khatra",
+      "trimmed": false,
+      "tsWas": "10:08",
+      "spkWas": "Ajaya Khatra"
+    },
+    {
+      "i": 3,
+      "timestamp": "33:10",
+      "speaker": "Ajaya Khatra",
+      "trimmed": false,
+      "tsWas": "33:02",
+      "spkWas": "Ajaya Khatra"
+    },
+    {
+      "i": 5,
+      "timestamp": "54:01",
+      "speaker": "Ajaya Khatra",
+      "trimmed": false,
+      "tsWas": "54:01",
+      "spkWas": "Ajaya Khatra"
+    },
+    {
+      "i": 7,
+      "timestamp": "64:18",
+      "speaker": "Ajaya Khatra",
+      "trimmed": false,
+      "tsWas": "64:50",
+      "spkWas": "Ajaya Khatra"
+    },
+    {
+      "i": 8,
+      "timestamp": "136:12",
+      "speaker": "Ajaya Khatra",
+      "trimmed": false,
+      "tsWas": "136:04",
+      "spkWas": "Ajaya Khatra"
+    },
+    {
+      "i": 9,
+      "timestamp": "138:11",
+      "speaker": "Ajaya Khatra",
+      "trimmed": false,
+      "tsWas": "138:11",
+      "spkWas": "Ajaya Khatra"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 4,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "And we were so reliant on it that if, hypothetically, it were just trying not to surface the most concerning stuff to us, it would have been very hard for us to tell. Our methodology was completely not robust to that."
+    },
+    {
+      "i": 6,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Consider the extreme of an AI that only tries anything if it believes it's in training. And then when you go to deploy it, it's just like, this isn't a training environment. It just sits there, right?"
+    }
+  ]
+}

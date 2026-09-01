@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Andrew]] · [[Sonia]] · [[Parag]] · [[搜索智能体]] · [[索引]] · [[爬取]] · [[推理]] · [[后台智能体]] · [[多智能体系统]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Andrew":3,"Sonia":2,"Parag":2,"搜索智能体":2,"索引":2,"爬取":2,"推理":3,"后台智能体":5,"多智能体系统":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Andrew":3,"Sonia":2,"Parag":2,"搜索智能体":2,"索引":2,"爬取":2,"推理":4,"后台智能体":5,"多智能体系统":1}</script>
 
 <script>
 (function(){

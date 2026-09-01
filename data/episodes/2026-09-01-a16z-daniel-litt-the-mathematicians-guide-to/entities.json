@@ -1,0 +1,840 @@
+{
+  "episode_id": "2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to",
+  "podcast": "The a16z Show",
+  "date": "2026-09-01",
+  "tags": [
+    "AI 数学",
+    "智能体",
+    "学术激励",
+    "直觉与理论构建",
+    "证明验证"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "lisha-lee",
+      "type": "person",
+      "role": "host",
+      "name": "Lisha Lee",
+      "file": "Lisha Lee",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            73.193,
+            84.664
+          ],
+          "quote": "In this episode, A16z infra partner, Lisha Lee, sits down with University of Toronto mathematician, Daniel Litt, to separate the headlines about AI and mathematics from what the models can actually do today.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "daniel-litt",
+      "type": "person",
+      "role": "cohost",
+      "name": "Daniel Litt",
+      "file": "Daniel Litt",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            73.193,
+            84.664
+          ],
+          "quote": "In this episode, A16z infra partner, Lisha Lee, sits down with University of Toronto mathematician, Daniel Litt, to separate the headlines about AI and mathematics from what the models can actually do today.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 带头做了自然语言推理的扩展，其 ChatGPT 在数学方面变得更早变强，最近还发布了一个包含 10 个在 Lean 中形式化的问题列表",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            9.861,
+            16.364
+          ],
+          "quote": "Comparing Anthropic with OpenAI, do you detect any differences in how that is similar to human reasoning",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            405.503,
+            407.965
+          ],
+          "quote": "ChatGPT, or sorry, OpenAI, like, released some chain of thought.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            483.69,
+            490.674
+          ],
+          "quote": "But at least one of the things we do know, and I think kind of OpenAI spearheaded this, is it's like reasoning in natural language is actually what they happen to scale up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            525.737,
+            539.482
+          ],
+          "quote": "So I'm kind of curious before maybe even going to the taxonomy as an excuse, like when you're examining these models and their results comparing Anthropic with OpenAI, do you detect any differences in how that is similar to human reasoning?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            575.345,
+            584.989
+          ],
+          "quote": "I've played around a lot more with ChatGPT than ClaudeFable, but it seems like there's a lot of cases where OpenAI will drop a solution to some problem and Anthropics will say, oh, you know, we also do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            732.412,
+            742.815
+          ],
+          "quote": "But you actually mentioned a small detail, which is that, you know, from the public, you've gleaned that Anthropic and OpenAI are probably neck and neck, but you personally are using a lot more ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3113.446,
+            3128.834
+          ],
+          "quote": "So I had Mark Selke and Metab Swanny on from OpenAI recently, and they were saying how, you know, what's kind of been the most charming or delightful is just that the proofs have been relatively short.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3207.227,
+            3213.05
+          ],
+          "quote": "Presumably, internally, OpenAI and Anthropic have probably solved a lot more problems than they've released.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3217.432,
+            3227.878
+          ],
+          "quote": "So, for example, with this recent list of 10 problems released by OpenAI, those were all formalized in Lean, which is, of course, a very good evidence that they're true.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 的 Claude 模型大概在 Opus 4.5 或 4.6 左右在数学能力上赶上 ChatGPT，且两者解决的题型非常相似",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            9.861,
+            16.364
+          ],
+          "quote": "Comparing Anthropic with OpenAI, do you detect any differences in how that is similar to human reasoning",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            525.737,
+            539.482
+          ],
+          "quote": "So I'm kind of curious before maybe even going to the taxonomy as an excuse, like when you're examining these models and their results comparing Anthropic with OpenAI, do you detect any differences in how that is similar to human reasoning?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            732.412,
+            742.815
+          ],
+          "quote": "But you actually mentioned a small detail, which is that, you know, from the public, you've gleaned that Anthropic and OpenAI are probably neck and neck, but you personally are using a lot more ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3207.227,
+            3213.05
+          ],
+          "quote": "Presumably, internally, OpenAI and Anthropic have probably solved a lot more problems than they've released.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 在数学方面比 Claude 更早变强，在给不出提示时会输出十页毫无洞见的暴力计算，并且有时会在某些推理路径上发生模式崩溃",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            405.503,
+            407.965
+          ],
+          "quote": "ChatGPT, or sorry, OpenAI, like, released some chain of thought.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            568.643,
+            571.524
+          ],
+          "quote": "Okay, you asked a little bit about Claude versus ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            575.345,
+            584.989
+          ],
+          "quote": "I've played around a lot more with ChatGPT than ClaudeFable, but it seems like there's a lot of cases where OpenAI will drop a solution to some problem and Anthropics will say, oh, you know, we also do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            682.429,
+            691.252
+          ],
+          "quote": "So like I've tried to get both Fable and ChatGPT 5.6 Sol, I guess, to do some kind of theory building.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            732.412,
+            742.815
+          ],
+          "quote": "But you actually mentioned a small detail, which is that, you know, from the public, you've gleaned that Anthropic and OpenAI are probably neck and neck, but you personally are using a lot more ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            753.338,
+            756.179
+          ],
+          "quote": "One thing is that ChatGPT got better at math earlier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1833.712,
+            1846.579
+          ],
+          "quote": "Okay, now you can take the original lemma I had that the models weren't able to prove, put it into ChatGPT 5.6 Pro, and it will output, like, the worst proof you've ever seen, like, 10 pages of, like, just brutal calculations with no insight whatsoever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2268.574,
+            2272.156
+          ],
+          "quote": "ChatGPT is kind of consistently finding the same... Well, that's also interesting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3361.114,
+            3369.701
+          ],
+          "quote": "So ChatGPT 5.6 Pro really tries not to say wrong stuff, for example, and although it happens and then you'll ask it, like, oh, was that correct?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说 Claude 在很长一段时间里对研究数学没有用，大概在 Opus 4.5 或 4.6 左右赶上，并且在解释结果时对用户已知和未知内容的判断（心智理论）不如 5.6 准确",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            568.643,
+            571.524
+          ],
+          "quote": "Okay, you asked a little bit about Claude versus ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            756.199,
+            762.621
+          ],
+          "quote": "So for a long time, the Claude models were just not useful for research math.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2969.525,
+            2978.393
+          ],
+          "quote": "I mean, so it's due to, I guess, Claude Fable, prompted by Levent Alpoge, and a collaborator whose name I unfortunately forget.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3076.866,
+            3084.116
+          ],
+          "quote": "And, like, well, Levent and Claude and I think Ava Howell, maybe, is the collaborator, have not yet told us how they did it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说可以用 Codex 让它上网找五个代数几何里的最新猜想然后去证明，以此玩'老虎机'在一小时内产出三篇正确但质量很差的论文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 373,
+          "t": [
+            2204.241,
+            2205.581
+          ],
+          "quote": "You can take Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3539.592,
+            3543.215
+          ],
+          "quote": "Yeah, I mean, I do, you know, I have my own sort of bad little harness in Codex.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": true,
+      "how_described": "本集说 RL 在数学符号推导上很成功，因为可以相对便宜地验证结果，且规则相当难以辨认，在这方面超人就可能擅长数学",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            343.2,
+            347.002
+          ],
+          "quote": "And this is why RL is so successful at this because you can kind of both verify it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1606.296,
+            1608.397
+          ],
+          "quote": "Like maybe you just need a different RL environment.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lean",
+      "type": "concept",
+      "role": "concept",
+      "name": "Lean",
+      "file": "Lean",
+      "primary": true,
+      "how_described": "本集说模型主要做自然语言推理而不是推送很多 Lean 验证过的证明作为训练语料，但 OpenAI 最近发布的 10 个问题都在 Lean 中被形式化，这是它们为真的好证据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            490.714,
+            495.637
+          ],
+          "quote": "And it's not actually pushing a lot of lean verified proofs as like the training corpus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            547.226,
+            551.95
+          ],
+          "quote": "Okay, so first of all, I really like your point, by the way, that they're mostly doing natural language reasoning rather than lean.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3217.432,
+            3227.878
+          ],
+          "quote": "So, for example, with this recent list of 10 problems released by OpenAI, those were all formalized in Lean, which is, of course, a very good evidence that they're true.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3228.218,
+            3235.362
+          ],
+          "quote": "I have no doubt that there were a lot more that they could not formalize in Lean because the prerequisite options have not been put into Maslow yet, for example.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "intuition",
+      "type": "concept",
+      "role": "concept",
+      "name": "直觉 (intuition)",
+      "file": "直觉",
+      "primary": true,
+      "how_described": "本集说模型在直觉上明显偏弱，很多数学猜想嵌在巨大的理论框架里并有大量证据支持，不是靠找一个反例构造就能推翻的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            85.625,
+            100.996
+          ],
+          "quote": "Daniel explains why recent results have changed his views of AI, where frontier models already resemble human mathematicians, and where they still fall short, particularly when it comes to intuition, developing new theories, and even figuring out which questions are worth asking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            612.616,
+            616.157
+          ],
+          "quote": "But they're not, like, they seem, like, weaker in things like intuition or, like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            722.689,
+            732.352
+          ],
+          "quote": "Okay, I would love to go into the intuition part and where it sucks at, to put it in a very basic way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1299.679,
+            1303.98
+          ],
+          "quote": "Because I have an intuition of what's ugly, but like, what is that for kind of spelling out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2386.606,
+            2391.19
+          ],
+          "quote": "It's not clear where that other emergent, stronger, diverse intuition might be coming from.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "theory-building",
+      "type": "concept",
+      "role": "concept",
+      "name": "理论构建 (theory building)",
+      "file": "理论构建",
+      "primary": true,
+      "how_described": "本集说模型绝对不擅长自主地做理论构建，但通过一些提示可以让他们做点有趣的事情，这可能需要不同的 RL 环境",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            682.429,
+            691.252
+          ],
+          "quote": "So like I've tried to get both Fable and ChatGPT 5.6 Sol, I guess, to do some kind of theory building.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            828.926,
+            836.733
+          ],
+          "quote": "Okay, so the thread that I really wanted to pull on was when you're talking about the models maybe starting to get better intuitions or even theory building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1204.59,
+            1222.316
+          ],
+          "quote": "Yeah, sorry, because you were mentioning, you know, there's projects that you've been working on for, like, three, five, you know, three, four, five years, and I don't know if it's correct to say, like, those are more of the theory-building aspect of it, because you did characterize yourself as, like, an open problem solver, or, like, what is the thing that is, because, like, the deep thinking part, maybe, like, you know,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1662.216,
+            1669.144
+          ],
+          "quote": "Like, presumably, they are trying to, you know, get it to solve lots of problems, and some of those problems develop at least some of the skills of theory building.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (reasoning)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说自然语言推理是 OpenAI 恰好扩展的事情，且因为主要扩展的是非形式推理，这些技术可能会很好地泛化到其他领域",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            9.861,
+            16.364
+          ],
+          "quote": "Comparing Anthropic with OpenAI, do you detect any differences in how that is similar to human reasoning",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            473.303,
+            483.61
+          ],
+          "quote": "It's interesting because, I mean, obviously we can't get too much information from the labs who are producing these models of why, of what the training recipes are or how they're kind of advancing in reasoning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            483.69,
+            490.674
+          ],
+          "quote": "But at least one of the things we do know, and I think kind of OpenAI spearheaded this, is it's like reasoning in natural language is actually what they happen to scale up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            525.737,
+            539.482
+          ],
+          "quote": "So I'm kind of curious before maybe even going to the taxonomy as an excuse, like when you're examining these models and their results comparing Anthropic with OpenAI, do you detect any differences in how that is similar to human reasoning?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            547.226,
+            551.95
+          ],
+          "quote": "Okay, so first of all, I really like your point, by the way, that they're mostly doing natural language reasoning rather than lean.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            559.436,
+            567.142
+          ],
+          "quote": "Like, my sense is that because they're primarily scaling informal reasoning, like, probably the techniques are going to generalize to other domains pretty well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            642.346,
+            647.91
+          ],
+          "quote": "I haven't, you know, you can see even the best results the models are producing, you don't see that much of this kind of reasoning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2272.677,
+            2275.619
+          ],
+          "quote": "It's kind of mode collapsed on, like, certain paths of reasoning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2328.624,
+            2342.907
+          ],
+          "quote": "I think this is actually a pretty maybe dangerous or something that the labs have to pay attention to because, you know, on one side, what's been successful for them is that this emergent reasoning capability is obviously incredibly powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3536.649,
+            3538.37
+          ],
+          "quote": "Because it is a marker of general reasoning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "erdos-unit-distance-problem",
+      "type": "concept",
+      "role": "concept",
+      "name": "Erdos 单位距离问题 (Erdos unit distance problem)",
+      "file": "Erdos 单位距离问题",
+      "primary": true,
+      "how_described": "本集说这是目前为止最喜欢的由 AI 完全自主完成的结果，它从意想不到的领域引入了 60 年代的分类思想，证明了该领域普遍相信为真的猜想实际上是假的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            36.3,
+            42.045
+          ],
+          "quote": "My favorite fully autonomous result by an AI so far is the solution to the Erdos unit distance problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            214.763,
+            222.906
+          ],
+          "quote": "So my favorite, like, fully autonomous result by an AI so far is the solution to the Erdos unit distance problem, which I think was announced in mid-May.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16z",
+      "file": "A16z",
+      "primary": false,
+      "how_described": "本集开头提到这是 a16z 播客的一期节目，主持人 Lisha Lee 是 a16z 的基础设施合伙人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            73.193,
+            84.664
+          ],
+          "quote": "In this episode, A16z infra partner, Lisha Lee, sits down with University of Toronto mathematician, Daniel Litt, to separate the headlines about AI and mathematics from what the models can actually do today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3769.825,
+            3772.646
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3784.629,
+            3790.071
+          ],
+          "quote": "Follow us on X and A16Z, and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3795.192,
+            3808.219
+          ],
+          "quote": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3808.92,
+            3813.582
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3814.123,
+            3820.766
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gemini-deepthink",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini DeepThink",
+      "file": "Gemini DeepThink",
+      "primary": false,
+      "how_described": "本集提到曾与当时也在前沿的 Gemini DeepThink 合作改进引理，但随后表示它'不再是'前沿了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1789.364,
+            1802.73
+          ],
+          "quote": "And so I like worked with, actually this was with Gemini DeepThink, which at the time was also on the frontier, no longer, where I kind of worked with it to improve the lemmas.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "natural-language-reasoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "自然语言推理 (natural language reasoning)",
+      "file": "自然语言推理",
+      "primary": false,
+      "how_described": "本集说模型主要是在做自然语言推理而不是 Lean，这暗示技术可能会很好地泛化到其他领域",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            547.226,
+            551.95
+          ],
+          "quote": "Okay, so first of all, I really like your point, by the way, that they're mostly doing natural language reasoning rather than lean.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mode-collapsed",
+      "type": "concept",
+      "role": "concept",
+      "name": "模式崩溃 (mode collapsed)",
+      "file": "模式崩溃",
+      "primary": false,
+      "how_described": "本集说当同一定理的相同证明在几天内出现三四篇论文时，ChatGPT 有点像是在某些推理路径上发生了模式崩溃",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 389,
+          "t": [
+            2272.677,
+            2275.619
+          ],
+          "quote": "It's kind of mode collapsed on, like, certain paths of reasoning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fuzzy-unit-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模糊单元测试 (fuzzy unit testing)",
+      "file": "模糊单元测试",
+      "primary": false,
+      "how_described": "本集说人类检查长论文的方式是理解论证全局结构并做压力测试，这种'模糊单元测试'式的宏观检查模型目前还做不好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 609,
+          "t": [
+            3442.64,
+            3445.503
+          ],
+          "quote": "I don't know, Fuzzy unit testing a proof very well yet.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Swyx]] · [[AI Engineers]] · [[沙箱]] · [[智能体]] · [[RL 环境]] · [[vibe coding]] · [[代码模式]] · [[开源 AI 框架]] · [[推理]] · [[PLG]]
+[[Swyx]] · [[AI Engineers]] · [[沙箱]] · [[智能体]] · [[RL 环境]] · [[vibe coding]] · [[code mode]] · [[开源 AI 框架]] · [[推理]] · [[PLG]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":33,"智能体":1,"RL 环境":1,"vibe coding":25,"代码模式":1,"开源 AI 框架":1,"推理":3,"PLG":6}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":35,"智能体":1,"RL 环境":1,"vibe coding":25,"code mode":2,"开源 AI 框架":1,"推理":4,"PLG":6}</script>
 
 <script>
 (function(){

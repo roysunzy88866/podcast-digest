@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]]
+[[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":5,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":1,"红队测试":3,"幻觉":4,"越狱":1,"提示词注入":9,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":5,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":1,"红队测试":3,"幻觉":4,"越狱":1,"提示词注入":10,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
 
 <script>
 (function(){

@@ -110,9 +110,9 @@ Jana 的大多数设计从手绘草图开始，老派的那种。然后她把草
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|让AI替你操作电脑和浏览器的三个实战用法]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:browser use、computer use、智能体 (agent)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:computer use、智能体 (agent)</span>
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]]<span class="pd-rz">同公司:Codex · 同概念:browser use、提示词 (prompt)、智能体 (agent)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:提示词 (prompt)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

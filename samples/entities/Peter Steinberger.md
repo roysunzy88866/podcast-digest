@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]] [[Mikael]] [[Varun Shenoy]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":74,"OpenClaw":14,"Codex":32,"Romain Huet":1,"Anthropic":86,"Raphael Schaad":1,"循环":3,"NVIDIA":24,"Claude Code":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":76,"OpenClaw":14,"Codex":34,"Romain Huet":1,"Anthropic":87,"Raphael Schaad":1,"循环":3,"NVIDIA":24,"Claude Code":45}</script>
 
 <script>
 (function(){
