@@ -1,0 +1,172 @@
+{
+  "title_zh": "Kriti Sharma：戴安全帽的AI，三周落地",
+  "tldr": "IFS 旗下 Nexus Black 的 CEO Kriti Sharma 讲如何在工厂、炼油厂、灾难现场部署生产级 AI——三周出价值，不允许失败。",
+  "digest_md": "这一集是 IFS 旗下新部门 Nexus Black 的 CEO Kriti Sharma，聊她们怎么做工业现场的 AI。Nexus Black 专门给能源、制造、航空这些重资产行业构建 AI 解决方案，Kriti 的原话是「你想一下戴着安全帽的 AI，那就是我们」。\n\n她做了一个挺大胆的声明：跟客户合作，大约三周就能看到价值。她自己在 AI 行业干了十几年，说自己是最讨厌 AI 炒作的人——但她的底气来自一个做法：**必须深入一线**。\n\n## 不在现场，就做不成\n\nKriti 举了个很具体的例子：现场技术员跟她们说，如果我得脱了安全手套才能在设备上打字，那我干脆不用。这句话直接决定了产品形态——不能用键盘输入，得用语音。\n\n还有一个细节：你可能觉得用图像模型扫一扫设备就能诊断问题，但跟工程师聊完才知道，很多时候设备要出故障的第一个信号不是视觉上的，而是**振动或压力的变化**。这些只有泡在现场才能知道。\n\n更极端的情况：海上设施，太平洋里没有 Wi-Fi。她们的解法是把知识压缩后部署到设备端，在边缘侧跑推理，不依赖网络连接。\n\n## 威士忌酒厂的案例\n\n她详细讲了一个客户 William Grant（威士忌品牌）的蒸馏厂项目。现场有两个核心问题：一是机器出故障时，技术员大约 38% 的时间花在紧急修复上，工厂停产就损失批次；二是真正懂设备的老师傅太少，但产能在扩张，人手不够。\n\n她们在现场观察技师怎么工作、工厂怎么运转，然后构建了整个工厂的**知识表征**（knowledge representation）。这里有个关键技术难点：工厂里设备之间的关系——哪个泵连着哪个密封件、上下游怎么影响——都记录在一种叫「管道和仪表图」的复杂工程示意图里，不是普通人能看懂的格式。\n\n她们拿 Anthropic 的 Claude 做领域训练，让模型能读懂这些工程图。这样当某个部件出问题时，系统不光知道哪里坏了，还能看到它对上游和下游的影响，然后给一线工人生成像工程师写的一样的详细操作指令。\n\n结果：据客户自己评估，仅这一家工厂，每年预计节省约 840 万英镑。\n\n## Resolve 产品怎么用\n\n这个能力被做成了一个叫 Resolve 的独立产品，面向工厂和现场的一线工人。它通过传感器持续监控工厂的温度、压力、噪音、图像、视频，结合历史故障模式，在问题发生前就预警。然后读取工程原理图，分析上下游影响，生成操作指令。\n\n工人不用打字，通过语音在手机上交互——用的是工厂环境批准的防爆手机。不需要专门硬件，就是他们自己的手机。\n\n## 航空合规：差一点都不行\n\n另一个场景是航空公司的适航性合规。每次 FAA 或飞机制造商发布服务通告或适航指令，都是几百页的文档，里面有文字、有图片、有零件详细规格。\n\n搞错的代价极其具体：每次搞错，面临 100 万到 2000 万美元的监管罚款；如果因为没及时处理而停飞机队，每天损失 1.4 亿美元收入；最坏的情况是人命风险。所以「差不多对」不是一个选项。\n\n她们的系统读取这些指令，跟已有的机队信息（每架飞机的尾号、所有零件）做比对，自动规划哪些飞机需要做什么、哪个零件要换掉。而在这之前，这些全是人类工程师手动处理的。\n\n## 灾难响应：最让她起鸡皮疙瘩的场景\n\nKriti 说最贴近她内心的是公用事业领域的灾难响应。暴风雪、飓风、野火、大停电——当这些发生时，一线工人的工作环境极其恶劣：基础设施可能泡在水里，他们得从各地紧急汇聚，在沃尔玛停车场碰头，靠口头协调去恢复供电或疏散居民。\n\n她们正在跟 Anthropic 合作，利用模型的新能力——不只是回答问题或推理，而是**在长期规划上采取行动**。目标是协调这种复杂的灾难响应行动。她说今年年初加州野火时合作过的人给她发消息说，这东西能帮社区更快恢复供电、让医院更快亮起来——她说到这时候真的起了鸡皮疙瘩。\n\n## 为什么小团队能做到\n\n她回应了一个行业观察：现在很多 AI 公司人很少但创造的价值很大。Nexus Black 也是这样——一小群精英 AI 工程师加上深厚的领域专家，自己用 AI 工具来构建生产级解决方案，几周就能交付。\n\n关键在于**不越界**：只做制造、公用事业、航空国防、电信建筑这些行业，不做别的。这样每进一个新客户，之前积累的领域理解（比如已经教会 AI 读工程图了）就能直接复用，专业化可以规模化。以前可能需要几百名工程师花几年才能让一套软件在制造业供应链跑起来，现在时间线大幅缩短。\n\n## 本集带走\n- **三周出价值的前提是人在现场**：不是远程调研，是真正泡在工厂、机库里，观察工人怎么操作、受什么约束，否则连「不能用键盘」这种基本需求都抓不到\n- **第一个故障信号不一定是视觉的**：振动、压力变化这些非视觉信号在现场很关键，只有跟工程师聊才知道\n- **让 AI 读懂工程图纸是工业落地的硬门槛**：管道和仪表图这类复杂工程示意图不是普通文档，需要专门做领域训练\n- **「差不多对」在物理世界不成立**：航空合规场景下，搞错一次罚款上千万美元、停飞一天损失 1.4 亿美元，产品必须是生产级的\n- **深耕少数行业，专业化才能规模化**：不跨行业，在一个行业里解决的问题（如读工程图的能力）可以直接复用到下一个客户",
+  "quotes": [
+    {
+      "en": "You think about AI with a hard hat on, that's us.",
+      "zh": "你想一下戴着安全帽的 AI，那就是我们。",
+      "timestamp": "01:44",
+      "speaker": "Kriti Sharma"
+    },
+    {
+      "en": "We go on the ground, we spend weekends in hangars, we spend our days in refineries and factories, and we travel along with the field technicians so that we build things where failure is not an option.",
+      "zh": "我们深入一线，我们在机库里度过周末，我们在炼油厂和工厂里度过白天，我们与现场技术人员一起旅行，以便我们构建那些不允许失败的东西。",
+      "timestamp": "01:48",
+      "speaker": "Kriti Sharma"
+    },
+    {
+      "en": "When we work with field technicians, they tell us, if I have to take my safety glove off to type into a thingy to use your thingy, I'm just not going to do it.",
+      "zh": "当我们与现场技术员合作时，他们告诉我们，如果我必须脱下安全手套来在一个小玩意上打字来使用你的小玩意，我就不会去做。",
+      "timestamp": "05:16",
+      "speaker": "Kriti Sharma"
+    },
+    {
+      "en": "Now these things, if you look at it, how do I even make sense of it unless I'm an engineer on the job with 20 years of experience?",
+      "zh": "现在这些东西，如果你看它，我怎么理解它，除非我是一个有 20 年工作经验的在岗工程师？",
+      "timestamp": "09:46",
+      "speaker": "Kriti Sharma"
+    },
+    {
+      "en": "I think more important than bespoke is deep domain understanding.",
+      "zh": "我认为比定制更重要的是深厚的领域理解。",
+      "timestamp": "11:57",
+      "speaker": "Kriti Sharma"
+    },
+    {
+      "en": "The magic now is previously it would have taken a lot of people, maybe possibly even hundreds of engineers, years worth of effort to make some sort of technology or software work for manufacturing supply chain.",
+      "zh": "现在的魔力在于，以前这需要很多人，可能甚至数百名工程师，数年的努力，才能使某种技术或软件在制造业供应链中工作。",
+      "timestamp": "12:43",
+      "speaker": "Kriti Sharma"
+    },
+    {
+      "en": "Every time a flight takes off, about 400 lives are at stake.",
+      "zh": "每次航班起飞，大约有 400 条生命处于危险之中。",
+      "timestamp": "14:56",
+      "speaker": "Kriti Sharma"
+    },
+    {
+      "en": "Each time you get it wrong, you could be faced with a $1 to $20 million regulatory fine.",
+      "zh": "每次你搞错了，你可能面临 1 到 2000 万美元的监管罚款。",
+      "timestamp": "17:22",
+      "speaker": "Kriti Sharma"
+    },
+    {
+      "en": "If you have to ground the fleet because you couldn't do this in time, you're talking about $140 million in lost revenue per day.",
+      "zh": "如果你必须停飞机队，因为你不能及时完成这项工作，你说的就是每天 1.4 亿美元的收入损失。",
+      "timestamp": "17:28",
+      "speaker": "Kriti Sharma"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:44",
+      "speaker": "Unknown",
+      "en": "We start to see value for our clients in about three weeks.",
+      "zh": "我们大约在三周内开始为客户看到价值。"
+    },
+    {
+      "timestamp": "00:45",
+      "speaker": "Unknown",
+      "en": "I've worked in AI my whole career since I was a kid, as I mentioned, and I absolutely would be the person who detests AI washing and statements like this.",
+      "zh": "我从小就一直在 AI 领域工作，正如我提到的，我绝对会是那种讨厌 AI 炒作和此类声明的人。"
+    },
+    {
+      "timestamp": "01:44",
+      "speaker": "Unknown",
+      "en": "You think about AI with a hard hat on, that's us.",
+      "zh": "你想一下戴着安全帽的 AI，那就是我们。"
+    },
+    {
+      "timestamp": "01:48",
+      "speaker": "Unknown",
+      "en": "We go on the ground, we spend weekends in hangars, we spend our days in refineries and factories, and we travel along with the field technicians so that we build things where failure is not an option.",
+      "zh": "我们深入一线，我们在机库里度过周末，我们在炼油厂和工厂里度过白天，我们与现场技术人员一起旅行，以便我们构建那些不允许失败的东西。"
+    },
+    {
+      "timestamp": "05:16",
+      "speaker": "Unknown",
+      "en": "When we work with field technicians, they tell us, if I have to take my safety glove off to type into a thingy to use your thingy, I'm just not going to do it.",
+      "zh": "当我们与现场技术员合作时，他们告诉我们，如果我必须脱下安全手套来在一个小玩意上打字来使用你的小玩意，我就不会去做。"
+    },
+    {
+      "timestamp": "05:39",
+      "speaker": "Unknown",
+      "en": "And then you realize when you work with the engineers that often the first signal of something's about to go wrong is a vibration or pressure.",
+      "zh": "然后当你与工程师合作时，你会意识到，往往某事即将出错的第一个信号是振动或压力。"
+    },
+    {
+      "timestamp": "05:54",
+      "speaker": "Unknown",
+      "en": "A site or a plant in the offshore environment, there's no Wi-Fi in the Pacific.",
+      "zh": "海上环境中的现场或工厂，太平洋里没有 Wi-Fi。"
+    },
+    {
+      "timestamp": "06:08",
+      "speaker": "Unknown",
+      "en": "With the people who are going to use it, then your chances of failure dramatically reduce.",
+      "zh": "与将要使用它的人一起，那么你失败的机会会急剧减少。"
+    },
+    {
+      "timestamp": "09:46",
+      "speaker": "Unknown",
+      "en": "Now these things, if you look at it, how do I even make sense of it unless I'm an engineer on the job with 20 years of experience?",
+      "zh": "现在这些东西，如果你看它，我怎么理解它，除非我是一个有 20 年工作经验的在岗工程师？"
+    },
+    {
+      "timestamp": "10:07",
+      "speaker": "Unknown",
+      "en": "we push the boundaries to make it understand what is a piping and instrumentation diagram so when something goes off or before it goes wrong we can see not only that part that needs to be fixed how is it impacting upstream and downstream",
+      "zh": "我们突破界限以让它理解什么是管道和仪表图，所以当出问题时或出错之前，我们不仅可以看到需要修复的那个部分，还能看到它如何影响上游和下游"
+    },
+    {
+      "timestamp": "12:01",
+      "speaker": "Unknown",
+      "en": "I think more important than bespoke is deep domain understanding.",
+      "zh": "我认为比定制更重要的是深厚的领域理解。"
+    },
+    {
+      "timestamp": "12:43",
+      "speaker": "Unknown",
+      "en": "The magic now is previously it would have taken a lot of people, maybe possibly even hundreds of engineers, years worth of effort to make some sort of technology or software work for manufacturing supply chain.",
+      "zh": "现在的魔力在于，以前这需要很多人，可能甚至数百名工程师，数年的努力，才能使某种技术或软件在制造业供应链中工作。"
+    },
+    {
+      "timestamp": "14:21",
+      "speaker": "Unknown",
+      "en": "It's a small number of people who are highly capable and highly specialized who know how to use AI tools themselves to build sophisticated solutions that are production grade in a matter of weeks.",
+      "zh": "这是一小群高度有能力且高度专业化的人，他们自己知道如何使用 AI 工具来构建复杂的、达到生产级别的解决方案，只需几周的时间。"
+    },
+    {
+      "timestamp": "14:56",
+      "speaker": "Unknown",
+      "en": "Every time a flight takes off, about 400 lives are at stake.",
+      "zh": "每次航班起飞，大约有 400 条生命处于危险之中。"
+    },
+    {
+      "timestamp": "15:01",
+      "speaker": "Unknown",
+      "en": "It would be reckless to do anything that's not production-grade, enterprise-grade.",
+      "zh": "做任何非生产级、企业级的事情都是鲁莽的。"
+    },
+    {
+      "timestamp": "17:22",
+      "speaker": "Unknown",
+      "en": "Each time you get it wrong, you could be faced with a $1 to $20 million regulatory fine.",
+      "zh": "每次你搞错了，你可能面临 1 到 2000 万美元的监管罚款。"
+    },
+    {
+      "timestamp": "17:28",
+      "speaker": "Unknown",
+      "en": "If you have to ground the fleet because you couldn't do this in time, you're talking about $140 million in lost revenue per day.",
+      "zh": "如果你必须停飞机队，因为你不能及时完成这项工作，你说的就是每天 1.4 亿美元的收入损失。"
+    },
+    {
+      "timestamp": "22:31",
+      "speaker": "Unknown",
+      "en": "I do think the importance, the magical moment now is you don't have to be a geek like me who is a computer scientist and roboticist type person to come and solve problems in this world.",
+      "zh": "我确实认为重要性在于，现在的神奇时刻在于你不必像我这样的极客，那种计算机科学家和机器人专家类型的人，来解决这个世界的问题。"
+    }
+  ],
+  "voice_script": "做工业现场的 AI，你猜大概要多久才能看到价值？一年？半年？这期嘉宾直接抛了个数出来：三周。\n\n这期聊的是 IFS 旗下新部门 Nexus Black 的 CEO Kriti Sharma，专门给能源、制造、航空这些重资产行业做 AI。用原话来说，就是你想一下戴着安全帽的 AI，那就是她们。在 AI 圈干了十几年，Kriti 说自己其实是最讨厌 AI 炒作的人，敢喊出三周出价值，底气就来自一条死规矩：必须深入一线。\n\n不在现场，连最基本的常识都会搞错。举个例子，现场技术员直接甩过来一句话，说如果得脱了安全手套才能在设备上打字，那干脆不用。这句话直接决定了产品形态，不能用键盘，得用语音。\n\n你可能觉得，现在图像模型这么强，拿手机扫一扫设备不就能诊断问题了吗？但跟一线工程师聊完才知道，很多设备要出故障，第一个信号根本不是视觉上的，而是振动或者压力变了。这些细节，坐在办公室里想破头也想不出来。\n\n更极端的，比如海上设施，太平洋中间哪来的 Wi-Fi？解法就是把知识压缩后直接部署到设备端，在边缘侧跑推理，断网也能用。\n\n她详细讲了一个威士忌酒厂的案例。这家叫 William Grant 的蒸馏厂当时有两个头疼的问题：机器一坏，技术员将近 38% 的时间全耗在紧急修复上，一停产就损失批次；还有就是真正懂设备的老师傅太少，产能在扩张，人手根本不够。\n\n在现场观察完整个运转流程后，关键难点来了。工厂里哪个泵连着哪个密封件、上下游怎么互相影响，全记在一种叫管道和仪表图的复杂工程示意图里，普通人根本看不懂。那就拿 Anthropic 的 Claude 做领域训练，硬让模型读懂这些工程图。这样一旦某个部件出问题，系统不光知道哪里坏了，还能顺着图看到对上下游的影响，直接给一线工人生成像工程师写的一样的详细操作指令。光这一家工厂，预计每年能省下大约 840 万英镑。\n\n这套能力后来做成了一个叫 Resolve 的独立产品。通过传感器持续监控温度、压力、噪音，结合历史故障模式提前预警，再读取工程图分析影响，生成操作步骤。工人就拿着自己那部防爆手机，用语音交互就行。\n\n换个场景到航空合规，画风就更硬核了。每次监管部门或飞机制造商发服务通告，都是几百页的文档，里面有文字有图片有零件规格。搞错的代价极其具体：错一次，罚款一百万到两千万美元；如果没及时处理导致停飞机队，一天损失 1.4 亿美元；最坏的情况是人命风险。所以在这个领域，差不多对，绝对不是一个选项。现在全靠系统读取这些指令，跟机队每一架飞机的尾号和零件信息做比对，自动规划哪架飞机要做什么，以前这些全是人类工程师手动熬出来的。\n\n不过 Kriti 说，最让人起鸡皮疙瘩的场景，其实是灾难响应。暴风雪、大停电的时候，一线工人的环境极其恶劣，基础设施泡在水里，人从各地紧急聚过来，可能就在沃尔玛停车场碰头，靠口头协调去恢复供电。现在正在利用模型的新能力，做长期规划上的行动协调。年初加州野火的时候，合作过的人发消息说，这东西能帮社区更快恢复供电，让医院更快亮起来。\n\n你可能会好奇，为什么这么少的人能干成这么多事？Kriti 的回应很实在，关键就在于不越界，死死盯住制造、公用事业、航空国防这几个行业。这样每进一个新客户，比如已经教会 AI 读工程图了，下一家直接复用。以前的魔力在于，可能需要数百名工程师花几年努力，才能让一套软件在制造业供应链里跑起来，现在这条时间线被大幅缩短了。\n\n比定制更重要的，是深厚的领域理解。说白了就是，深入一线，在机库里度过周末，在炼油厂和工厂里度过白天，跟现场技术人员泡在一起，只有这样，才能构建出那些不允许失败的东西。"
+}

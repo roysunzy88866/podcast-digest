@@ -73,7 +73,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[NVIDIA]] · [[Google]] · [[Meta]] · [[Apple]] · [[SpaceX]] · [[Amazon]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":84,"智能体":1,"OpenAI":73,"NVIDIA":24,"Google":32,"Meta":24,"Apple":14,"SpaceX":11,"Amazon":9,"Claude Code":44}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":85,"智能体":1,"OpenAI":73,"NVIDIA":24,"Google":33,"Meta":24,"Apple":14,"SpaceX":11,"Amazon":9,"Claude Code":44}</script>
 
 <script>
 (function(){

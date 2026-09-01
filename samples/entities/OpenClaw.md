@@ -61,7 +61,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[Codex]] · [[Claude]] · [[ChatGPT]] · [[Cursor]] · [[Anthropic]] · [[harness]] · [[NVIDIA]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":44,"Codex":31,"Claude":40,"ChatGPT":41,"Cursor":40,"Anthropic":84,"harness":17,"NVIDIA":24,"Lenny":66}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":44,"Codex":31,"Claude":41,"ChatGPT":41,"Cursor":40,"Anthropic":85,"harness":17,"NVIDIA":24,"Lenny":66}</script>
 
 <script>
 (function(){

@@ -55,7 +55,7 @@ unlisted: true
 
 [[Cursor]] · [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Replit]] · [[Claude]] · [[vibe coding]] · [[Meta]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Cursor":40,"Lenny":66,"智能体":1,"OpenAI":73,"Anthropic":84,"Replit":13,"Claude":40,"vibe coding":25,"Meta":24,"ChatGPT":41}</script>
+<script type="application/json" class="pd-epn">{"Cursor":40,"Lenny":66,"智能体":1,"OpenAI":73,"Anthropic":85,"Replit":13,"Claude":41,"vibe coding":25,"Meta":24,"ChatGPT":41}</script>
 
 <script>
 (function(){

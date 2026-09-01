@@ -57,7 +57,7 @@ unlisted: true
 
 [[智能体]] · [[Claude]] · [[OpenAI]] · [[ChatGPT]] · [[Figma]] · [[Slack]] · [[GitHub]] · [[Google]] · [[Anthropic]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude":40,"OpenAI":73,"ChatGPT":41,"Figma":11,"Slack":22,"GitHub":19,"Google":32,"Anthropic":84,"Lenny":66}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude":41,"OpenAI":73,"ChatGPT":41,"Figma":11,"Slack":22,"GitHub":19,"Google":33,"Anthropic":85,"Lenny":66}</script>
 
 <script>
 (function(){

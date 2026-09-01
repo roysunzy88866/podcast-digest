@@ -1,0 +1,655 @@
+{
+  "episode_id": "2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k",
+  "podcast": "Eye On A.I.",
+  "date": "2026-07-10",
+  "tags": [
+    "工业 AI",
+    "智能体",
+    "边缘推理",
+    "重资产行业",
+    "知识表征"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "kriti-sharma",
+      "type": "person",
+      "role": "host",
+      "name": "Kriti Sharma",
+      "file": "Kriti Sharma",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            25.227,
+            34.553
+          ],
+          "quote": "I'm interviewing Kriti Sharma, CEO of IFS's new unit, Nexus Black, which builds solutions for hard problems.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "craig-smith",
+      "type": "person",
+      "role": "cohost",
+      "name": "Craig Smith",
+      "file": "Craig Smith",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.637,
+            9.267
+          ],
+          "quote": "I'm Craig Smith with IonAI on the sidelines of IFS's Industrial X Conference in New York City.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nexus-black",
+      "type": "company",
+      "role": "company",
+      "name": "Nexus Black",
+      "file": "Nexus Black",
+      "primary": true,
+      "how_described": "本集说 Nexus Black 是 IFS 内部的新部门，专门为能源、制造、航空等重资产行业构建 AI 解决方案，形容自己是'戴着安全帽的 AI'，深入一线工厂和机库与客户合作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            25.227,
+            34.553
+          ],
+          "quote": "I'm interviewing Kriti Sharma, CEO of IFS's new unit, Nexus Black, which builds solutions for hard problems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            46.464,
+            51.947
+          ],
+          "quote": "Tell us your background, how you got to IFS and how you got to Nexus Black.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            96.367,
+            98.667
+          ],
+          "quote": "We started Nexus Black earlier this year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            179.727,
+            182.952
+          ],
+          "quote": "And is that your focus at Nexus Black?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            186.096,
+            188.199
+          ],
+          "quote": "Was that a Nexus Black product?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            188.439,
+            193.522
+          ],
+          "quote": "Yeah, so Nexus Black products are regardless of the form factor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            267.485,
+            280.619
+          ],
+          "quote": "So we focus purely on the job to be done in Nexus Black and by that I mean we go on the ground and we will make a bold claim and I'll back it up with facts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1080.876,
+            1089.378
+          ],
+          "quote": "Now, in normal situations, in non-technology situations or non-nexus black environments, human engineers are spending",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ifs",
+      "type": "company",
+      "role": "company",
+      "name": "IFS",
+      "file": "IFS",
+      "primary": true,
+      "how_described": "本集说 IFS 是工业 AI 软件的领先提供商，为以资产为中心的行业（能源、公用事业、制造业、航空航天）提供 AI 解决方案，Nexus Black 是其内部业务部门",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.637,
+            9.267
+          ],
+          "quote": "I'm Craig Smith with IonAI on the sidelines of IFS's Industrial X Conference in New York City.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1,
+          "t": [
+            10.518,
+            14.521
+          ],
+          "quote": "IFS is the leading provider of industrial AI software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            25.227,
+            34.553
+          ],
+          "quote": "I'm interviewing Kriti Sharma, CEO of IFS's new unit, Nexus Black, which builds solutions for hard problems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            46.464,
+            51.947
+          ],
+          "quote": "Tell us your background, how you got to IFS and how you got to Nexus Black.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            93.986,
+            95.807
+          ],
+          "quote": "And that's what brought me to IFS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            99.188,
+            103.669
+          ],
+          "quote": "It is a business inside of IFS that works with the most strategic clients, boots on ground.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 是 Nexus Black 的紧密合作伙伴，提供 Claude 模型能力，双方共同推进模型在工业场景的边界突破，包括读取工程图和在灾难响应中长期规划采取行动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            479.306,
+            487.508
+          ],
+          "quote": "Fine-tuning an anthropic model, or are you, and is it always with men?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            594.99,
+            601.392
+          ],
+          "quote": "So we take capabilities like Claude from Anthropic and then we domain train it and we push the boundaries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            601.452,
+            605.394
+          ],
+          "quote": "And this is what Garvin from Anthropic yesterday was saying with our lead team of engineers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1176.217,
+            1188.352
+          ],
+          "quote": "Now, in partnership with the work we are doing with Anthropic on the upcoming capabilities of the models, not only to answer tags or reason through it, but take actions on long range planning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "william-grant",
+      "type": "company",
+      "role": "company",
+      "name": "William Grant",
+      "file": "William Grant",
+      "primary": true,
+      "how_described": "本集说 William Grant 是威士忌品牌，其蒸馏厂是 Nexus Black 的客户案例，面临机器故障时 38% 时间花在紧急修复、资深技师不足的问题，部署后预计每年节省约 840 万英镑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            500.891,
+            504.531
+          ],
+          "quote": "The one in the conversation here is William Grant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            504.591,
+            505.432
+          ],
+          "quote": "William Grant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            645.667,
+            653.15
+          ],
+          "quote": "The result in the case of William Grant's is by their own assessment, they expect to save about 8 million, 8.4 million pounds",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            809.056,
+            811.798
+          ],
+          "quote": "Was that developed for William Grant?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "boston-dynamics",
+      "type": "company",
+      "role": "company",
+      "name": "Boston Dynamics",
+      "file": "Boston Dynamics",
+      "primary": false,
+      "how_described": "本集仅在开头顺带提及 IFS 与 Boston Dynamics 在机器狗 Spot 上有合作，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            157.565,
+            168.113
+          ],
+          "quote": "And I was talking to Mark Moffat earlier about some of the work that you guys are doing with Boston Dynamics and 1X on",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "1x",
+      "type": "company",
+      "role": "company",
+      "name": "1X",
+      "file": "1X",
+      "primary": false,
+      "how_described": "本集仅在开头顺带提及 IFS 与 1X 在人形机器人 Neo 上有合作，未展开讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            157.565,
+            168.113
+          ],
+          "quote": "And I was talking to Mark Moffat earlier about some of the work that you guys are doing with Boston Dynamics and 1X on",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说多数智能体试点项目由于各种原因没有投入生产，而 Nexus Black 的做法是通过深入现场理解约束，从'做了一个 AI 试点'升级为真正理解工厂、上下游关系的解决方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            246.067,
+            267.025
+          ],
+          "quote": "how you see the agent workflows developing because from what i understand there's a lot of excitement a lot of promise but most of the pilots out there are not going into production for various reasons and and how do you how do you see agents developing",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            626.359,
+            639.465
+          ],
+          "quote": "It was like, yeah, I kind of did the job and not really ended up with a chat bot or some sort of an agent to now have a solution that understands my site, my plant, what's happening here, what's the connection, how does it fit?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "resolve",
+      "type": "concept",
+      "role": "concept",
+      "name": "Resolve",
+      "file": "Resolve",
+      "primary": true,
+      "how_described": "本集说 Resolve 是面向工厂和现场一线工人的独立产品，通过传感器持续监控温度、压力、噪音、图像、视频，结合历史故障模式在问题发生前预警，读取工程原理图分析上下游影响，生成操作指令",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            183.352,
+            186.036
+          ],
+          "quote": "I know you're also working with Resolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            805.933,
+            808.696
+          ],
+          "quote": "Resolve is a standalone product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            913.66,
+            918.584
+          ],
+          "quote": "Resolve is a product we've designed for the frontline workers in the factories and out in the field.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-representation",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识表征 (knowledge representation)",
+      "file": "知识表征",
+      "primary": true,
+      "how_described": "本集说在现场观察技师工作和工厂运转后，需要构建整个工厂的知识表征，将设备间关系（哪个泵连哪个密封件、上下游影响）表征出来，但这些知识存在复杂工程图中而非普通格式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            554.639,
+            564.188
+          ],
+          "quote": "On the ground, we observe what's going on with the technicians, how the plant is functioning, and then started to build a knowledge representation of the factory of the plant and what's going on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "piping-and-instrumentation",
+      "type": "concept",
+      "role": "concept",
+      "name": "管道和仪表图 (piping and instrumentation)",
+      "file": "管道和仪表图",
+      "primary": true,
+      "how_described": "本集说管道和仪表图是工厂里记录设备关系的复杂工程示意图，表征泵、密封件及上下游连接，非 20 年经验工程师看不懂，需要专门对模型做领域训练才能读懂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            578.202,
+            585.785
+          ],
+          "quote": "All of this is connected to the rest of the environment, is represented in a complex engineering schematic diagram called piping and instrumentation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            607.215,
+            624.075
+          ],
+          "quote": "we push the boundaries to make it understand what is a piping and instrumentation diagram so when something goes off or before it goes wrong we can see not only that part that needs to be fixed how is it impacting upstream and downstream and these are the kind of moments where you go from",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            658.732,
+            664.413
+          ],
+          "quote": "So anyway, long story short, it works when you are on the ground and you're not scared of piping and instrumentation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "on-the-edge",
+      "type": "concept",
+      "role": "concept",
+      "name": "边缘推理 (on the edge)",
+      "file": "边缘推理",
+      "primary": true,
+      "how_described": "本集说在海上设施等没有 Wi-Fi 的环境中，需要压缩知识并部署到设备端，在边缘侧完成推理工作，不依赖网络连接",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            363.498,
+            367.005
+          ],
+          "quote": "And when you solve these real problems on the edge, on the ground,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            372.673,
+            379.895
+          ],
+          "quote": "Yeah, and that's interesting, working on the edge in environments with low or no connectivity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "domain-train",
+      "type": "concept",
+      "role": "concept",
+      "name": "领域训练 (domain train)",
+      "file": "领域训练",
+      "primary": true,
+      "how_described": "本集说拿 Anthropic 的 Claude 进行领域训练，让模型能理解管道和仪表图等复杂工程示意图，使其在部件出问题时能看到上游和下游影响",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            594.99,
+            601.392
+          ],
+          "quote": "So we take capabilities like Claude from Anthropic and then we domain train it and we push the boundaries.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "production-grade",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产级 (production grade)",
+      "file": "生产级",
+      "primary": true,
+      "how_described": "本集说在航空合规等场景中必须是生产级、企业级的，因为每次搞错面临 1 到 2000 万美元罚款，停飞一天损失 1.4 亿美元，最坏情况是人命风险",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            204.067,
+            218.845
+          ],
+          "quote": "Rare people on the planet right now who've built production-grade AI products already before, and we combine that with deep subject matter expertise, and I'm happy to talk about what that really means, because everyone comes and says they're building deep subject matter expertise with AI products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            861.07,
+            871.865
+          ],
+          "quote": "It's a small number of people who are highly capable and highly specialized who know how to use AI tools themselves to build sophisticated solutions that are production grade in a matter of weeks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            872.326,
+            875.611
+          ],
+          "quote": "Yeah, and that's important, production grade, because",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            886.223,
+            889.287
+          ],
+          "quote": "In my world, it has to be production grade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            901.832,
+            905.536
+          ],
+          "quote": "It would be reckless to do anything that's not production-grade, enterprise-grade.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "airworthiness-directive",
+      "type": "concept",
+      "role": "concept",
+      "name": "适航指令 (airworthiness directive)",
+      "file": "适航指令",
+      "primary": true,
+      "how_described": "本集说适航指令是 FAA 或飞机制造商发布的数百页文档，包含文字、图片和零件详细规格，之前全靠人类工程师手动处理，Nexus Black 的系统自动读取并比对机队信息做维护规划",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            1014.163,
+            1025.491
+          ],
+          "quote": "They release a guidance for some sort of service bulletin or airworthiness directive, which means things that manufacturers or operators of aircraft need to do to keep the fleet safe.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "disaster-response",
+      "type": "concept",
+      "role": "concept",
+      "name": "灾难响应 (disaster response)",
+      "file": "灾难响应",
+      "primary": true,
+      "how_described": "本集说灾难响应是公用事业领域最贴近她内心的场景，暴风雪、飓风、野火时一线工人在恶劣环境中协调恢复供电或疏散居民，Nexus Black 与 Anthropic 合作利用模型的长期规划行动能力来协调这种复杂行动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            1208.172,
+            1217.254
+          ],
+          "quote": "And for me, it gives me goosebumps when I hear firsthand from people who have been responsible for leading disaster response.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "specialization",
+      "type": "concept",
+      "role": "concept",
+      "name": "专业化 (specialization)",
+      "file": "专业化",
+      "primary": false,
+      "how_described": "本集说只做制造、公用事业、航空等少数行业不越界，这样在一个行业解决的问题（如读工程图的能力）可以直接复用到下一个客户，从而规模化专业化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            737.267,
+            760.028
+          ],
+          "quote": "we don't venture outside of our lane because that means when i go into these universe in these industries the next and the next and the next company i speak with i understand their right needs better i've solved the ability for ai to read these complex engineering diagrams once the next time we can do it like that right so over time you start to build specialization and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            760.546,
+            762.788
+          ],
+          "quote": "You start to scale said specialization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":3,"Co-work":3,"Notion":10,"Claude Code":44,"Claude":40,"Slack":22,"智能体":1,"上下文":12,"技能":8,"Workstation":1}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":3,"Co-work":3,"Notion":10,"Claude Code":44,"Claude":41,"Slack":22,"智能体":1,"上下文":12,"技能":8,"Workstation":1}</script>
 
 <script>
 (function(){

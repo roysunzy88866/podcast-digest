@@ -39,7 +39,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[后训练]] · [[Lenny]] · [[前向部署工程师]] · [[NVIDIA]] · [[开源模型]] · [[token]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":84,"智能体":1,"OpenAI":73,"Meta":24,"后训练":17,"Lenny":66,"前向部署工程师":6,"NVIDIA":24,"开源模型":4,"token":11}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":85,"智能体":1,"OpenAI":73,"Meta":24,"后训练":17,"Lenny":66,"前向部署工程师":6,"NVIDIA":24,"开源模型":4,"token":11}</script>
 
 <script>
 (function(){

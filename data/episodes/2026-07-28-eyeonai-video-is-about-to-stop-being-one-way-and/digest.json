@@ -1,0 +1,160 @@
+{
+  "title_zh": "Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介",
+  "tldr": "Synthesia 联合创始人兼 CEO Victor Riparbelli 讲了 AI 虚拟形象视频如何从企业培训切入，以及为什么 AI 生成内容将是自己的新流派，而非替代好莱坞。",
+  "digest_md": "这一集是 Synthesia 的联合创始人兼 CEO Victor 聊他们怎么用 AI 虚拟形象做视频——最反直觉的一点是，他认为好莱坞会是最后一个采用 AI 视频的行业，AI 生成的内容不会出现在电影院或 Netflix 上，而是诞生在 TikTok 和 Instagram 上，成为一种全新的内容流派 [27:47 Unknown]。\n\nSynthesia 起源于 2016 年 Victor 在伦敦看到斯坦福副教授 Matthias 的一篇论文，这篇论文首次展示神经网络生成逼真视频。Victor 当时在研究 VR 内容创作，发现 VR 的分发和内容制作是双重难题，但如果同样的技术用在视频上，视频的基础设施（YouTube 等）已经存在，分发问题直接消失 [06:01 Unknown]。2017 年公司成立，融资极其困难——他们被近一百个投资人拒绝，因为当时所有人只想投金融科技，而他们在讲\"十年后用想象力就能做好莱坞电影\"的科幻故事 [07:52 Unknown]。最终 Mark Cuban 通过一封冷邮件，14 小时邮件往来后就投了一百万美元，因为他自己在家实现过那篇论文，完全共享这个愿景 [08:24 Unknown]。\n\n## 找到真正的用户：不是好莱坞，是企业里发 PDF 的人\n\n最初他们找好莱坞工作室和视频制作机构合作，结果碰壁——这些人的质量要求极高，实验意愿极低，因为他们已经在产出很棒的内容了 [11:35 Unknown]。转机来自另一群人：企业里负责培训和教育的人。这些人拼命想做视频，但唯一能做的就是把长篇文本或幻灯片发出去。他们反复说的是同一件事：我写了这么多内容没人读，读了也记不住，我需要视频和音频，但我没有能力做 [12:01 Unknown]。\n\n关键发现是评估标准完全不同：好莱坞拿 AI 视频和真实电影比，说质量太差；而这些企业用户拿 AI 视频和 10 页 PDF 文档比，觉得好太多了 [12:27 Unknown]。这就是 Synthesia 的第一个真实用例——企业里的解释性、教育性视频。\n\n产品形态上，Victor 把它比作 PowerPoint 2.0：普通办公人员登录网页应用，选一个虚拟形象（可以是自己），输入脚本，组合视觉素材，就能生成视频 [21:57 Unknown]。不是给视频专家用的，是给写 PPT 的人用的。\n\n## 从单向视频到双向对话：虚拟形象 + 智能体\n\nSynthesia 正在推出的第二个大产品，是把视频从\"单向广播\"变成\"双向对话\" [13:06 Unknown]。具体做法：在视频中插入智能体（背后是 LLM 驱动），比如销售培训场景——员工先看一段教学视频，然后智能体假装成客户，跟你对话 15 分钟，你要回答问题、处理异议、建立同理心 [13:34 Unknown]。这比被动看视频有效得多，因为人们通过练习和大声说出来学习效果更好 [13:55 Unknown]。系统还能通过技术给表现打分，让创建视频的人知道你到底理解了没有 [14:00 Unknown]。\n\n这套实时交互目前在做 beta 测试，几个月内正式发布。第一个场景是培训（他们叫\"技能\"），之后会扩展到销售模拟、招聘等 [16:19 Unknown]。同时也会提供底层 API，让开发者只用实时虚拟形象而不用其他功能 [16:36 Unknown]。\n\nVictor 认为，未来你跟公司互动的方式不太会像现在这样浏览网站（本质上是一本小册子），而是打开一个跟虚拟形象的 Zoom 通话，虚拟形象可以调出内容、共享屏幕，更像跟真人销售做演示 [14:51 Unknown]。不过他也指出，面向客户时对质量和延迟的要求极高，必须感觉像跟真人说话；内部用例可以稍微放宽 [14:33 Unknown]。\n\n## 和视频生成平台的区别：不争通用模型，做垂直应用\n\n面对 Sora 这类通用视频生成平台，Victor 的定位很清晰：不竞争。他认为行业会分成基础模型层和应用层 [26:10 Unknown]。通用世界模型需要海量算力和人才，Google 这种公司做得最好，Synthesia 不去争。他们训练的模型非常垂直——专门针对虚拟形象、人对着镜头说话的场景：需要生成任意长度的片段（不是只有 8 分钟）、需要保持身份一致性（虚拟形象不能每次变样）[26:40 Unknown]。他们把通用模型当作合作伙伴和底层供应商来用，比如想让虚拟形象在车里驾驶，就调用通用模型的能力再包一层工作流 [26:56 Unknown]。\n\n声音克隆方面，他们自己训练语音模型，因为企业客户有特殊需求——比如保留口音，市面上现有方案做不好这一点 [25:18 Unknown]。同时也用第三方来覆盖更多语言。\n\n## AI 内容是新流派，不是好莱坞的替代品\n\nVictor 用合成器打比方：70 年代合成器被发明来模仿钢琴和吉他，但质量差，结果人们拿它创造了全新的电子音乐流派，而钢琴和吉他今天依然在用 [21:49 Unknown]。AI 视频也是一样——它不会替代真人拍摄，而是会成为一种看起来根本不同的新流派 [29:06 Unknown]。\n\n好莱坞不会是最先拥抱 AI 的，反而可能是最后。AI 生成的娱乐内容不会出现在院线，而是由没钱的电影系学生在笔记本电脑上做出 17 分钟的短片，发到 Instagram 上 [27:47 Unknown]。真人拍摄加 AI 视觉特效（比如五分钟就能生成你在太空中漂浮的画面）会先被采用，但主体仍然是真实视频 [29:40 Unknown]。\n\n关于名人虚拟形象的授权（比如让贝克汉姆教数学），Victor 认为技术上 6 到 12 个月内就能做到 [19:39 Unknown]，商业模式上可以想象成每个视频付名人 1 美元 [18:08 Unknown]，但这不是 Synthesia 的重点——他们是企业 B2B 平台 [18:03 Unknown]。他的判断标准很硬：除非技术好到看不出区别，否则对消费者场景来说就不够好 [18:22 Unknown]。\n\n## 本集带走\n\n- **找对评估标尺比提升技术更重要**：同样一个 AI 视频，跟好莱坞电影比是垃圾，跟 10 页 PDF 比就是飞跃。找到你的用户拿什么在做对比，比盲目追求质量提升更关键。\n- **从单向到双向是视频产品的下一步**：在视频中嵌入 LLM 驱动的智能体，让观看者从被动接收变成主动练习和对话，这是企业培训场景里明确的价值升级。\n- **不跟基础模型争，做垂直场景的应用层**：通用视频生成是 Google 们的游戏，Synthesia 专注\"人对镜头说话\"这个垂直场景的特殊需求（任意长度、身份一致性），把通用模型当供应商用。\n- **AI 内容是新流派，不是替代品**：就像合成器没有替代钢琴而是创造了电子乐，AI 视频会诞生自己的内容形式，先在短视频平台爆发，而不是冲击院线。\n- **冷启动融资的非共识策略**：找已经自己实现过相关技术、天然共享愿景的投资人（Mark Cuban 自己在家跑过那篇论文），这样对话从\"怎么建公司\"开始，而不是从\"这东西十年后可能吗\"开始。",
+  "quotes": [
+    {
+      "en": "It's going to drive the marginal cost of creating content to zero.",
+      "zh": "它将把创建内容的边际成本驱动到零。",
+      "timestamp": "03:50",
+      "speaker": "Victor Riparbelli"
+    },
+    {
+      "en": "We found his email, we sent him a cold email, and he responded back within four minutes saying, I think this is really interesting, came back with some more questions, and then we had a 14-hour email conversation with him.",
+      "zh": "我们找到了他的邮箱，给他发了一封冷邮件，他在四分钟内回复说，我觉得这真的很有趣，带回了一些更多的问题，然后我们进行了一次 14 小时的邮件往来。",
+      "timestamp": "08:45",
+      "speaker": "Victor Riparbelli"
+    },
+    {
+      "en": "My sense with this stuff is always that until the technology is truly so good that you cannot tell the difference, it's not good enough.",
+      "zh": "我对这些事情的感觉一直是，除非技术真正好到你无法分辨区别，否则它就不够好。",
+      "timestamp": "18:22",
+      "speaker": "Victor Riparbelli"
+    },
+    {
+      "en": "I think Hollywood is going to be the last industry to adopt any of these things.",
+      "zh": "我认为好莱坞将是最后一个采用任何这些东西的行业。",
+      "timestamp": "27:47",
+      "speaker": "Victor Riparbelli"
+    },
+    {
+      "en": "And I think what you will see AI-generated entertainment is not in the cinemas.",
+      "zh": "我认为你将看到的 AI 生成的娱乐内容不在电影院里。",
+      "timestamp": "27:51",
+      "speaker": "Victor Riparbelli"
+    },
+    {
+      "en": "AI content is just going to be its own genre that's going to look fundamentally different.",
+      "zh": "AI 内容将只是它自己的流派，看起来将根本不同。",
+      "timestamp": "29:22",
+      "speaker": "Victor Riparbelli"
+    },
+    {
+      "en": "What we're trying right now is invent a new media format that is proprietary to us.",
+      "zh": "我们现在正在尝试的是发明一种专属于我们的新媒体格式。",
+      "timestamp": "35:45",
+      "speaker": "Victor Riparbelli"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:50",
+      "speaker": "Unknown",
+      "en": "It's going to drive the marginal cost of creating content to zero.",
+      "zh": "它将把创建内容的边际成本驱动到零。"
+    },
+    {
+      "timestamp": "08:45",
+      "speaker": "Unknown",
+      "en": "We found his email, we sent him a cold email, and he responded back within four minutes saying, I think this is really interesting, came back with some more questions, and then we had a 14-hour email conversation with him.",
+      "zh": "我们找到了他的邮箱，给他发了一封冷邮件，他在四分钟内回复说，我觉得这真的很有趣，带回了一些更多的问题，然后我们进行了一次 14 小时的邮件往来。"
+    },
+    {
+      "timestamp": "09:41",
+      "speaker": "Unknown",
+      "en": "So he was evaluating us as a team, whereas everyone else, we had to try and convince them about this like worldview.",
+      "zh": "所以他是在把我们作为一个团队来评估，而其他人，我们必须尝试说服他们关于这种像世界观的东西。"
+    },
+    {
+      "timestamp": "09:46",
+      "speaker": "Unknown",
+      "en": "So we got turned down by, I think almost a hundred investors before Mark actually invested.",
+      "zh": "所以我们被拒绝了，我想在 Mark 实际投资之前有接近一百个投资人。"
+    },
+    {
+      "timestamp": "12:27",
+      "speaker": "Unknown",
+      "en": "And when we then came up with the first iteration of our technology and our product, what we discovered was that for these people, when they evaluated the quality of the AI video, they would hold it up against a 10-page PDF document.",
+      "zh": "当我们随后提出了我们技术和产品的第一次迭代时，我们发现对于这些人来说，当他们评估 AI 视频的质量时，他们会将其与一份 10 页的 PDF 文档进行对比。"
+    },
+    {
+      "timestamp": "12:39",
+      "speaker": "Unknown",
+      "en": "Whereas in Hollywood, right, they would hold it up against a real Hollywood film and say, the quality is terrible.",
+      "zh": "而在好莱坞，对吧，他们会将其与一部真正的好莱坞电影进行对比，并说，质量太糟糕了。"
+    },
+    {
+      "timestamp": "13:55",
+      "speaker": "Unknown",
+      "en": "We learn so much better by practicing and saying things out loud.",
+      "zh": "我们通过练习和大声说出来学习效果好得多。"
+    },
+    {
+      "timestamp": "14:51",
+      "speaker": "Unknown",
+      "en": "But I absolutely think that in the future, the way you're going to interact with a company is going to be probably less like a website, which is basically a brochure.",
+      "zh": "但我绝对认为，在未来，你与公司互动的方式可能不太像一个网站，它基本上就是一本小册子。"
+    },
+    {
+      "timestamp": "18:22",
+      "speaker": "Unknown",
+      "en": "My sense with this stuff is always that until the technology is truly so good that you cannot tell the difference, it's not good enough.",
+      "zh": "我对这些事情的感觉一直是，除非技术真正好到你无法分辨区别，否则它就不够好。"
+    },
+    {
+      "timestamp": "21:57",
+      "speaker": "Unknown",
+      "en": "Yeah, so it's a web app, and I think the best way of thinking about the product is PowerPoint 2.0.",
+      "zh": "是的，所以它是一个网页应用，我认为思考这个产品的最好方式是把它看作 PowerPoint 2.0。"
+    },
+    {
+      "timestamp": "26:40",
+      "speaker": "Unknown",
+      "en": "The models we train is very specifically for avatars, people talking to the camera.",
+      "zh": "我们训练的模型非常具体地针对虚拟化身，对着镜头说话的人。"
+    },
+    {
+      "timestamp": "26:45",
+      "speaker": "Unknown",
+      "en": "They need to be able to produce clips of arbitrary length, not just eight minutes.",
+      "zh": "它们需要能够产生任意长度的片段，而不仅仅是 8 分钟。"
+    },
+    {
+      "timestamp": "27:47",
+      "speaker": "Unknown",
+      "en": "I think Hollywood is going to be the last industry to adopt any of these things.",
+      "zh": "我认为好莱坞将是最后一个采用任何这些东西的行业。"
+    },
+    {
+      "timestamp": "27:51",
+      "speaker": "Unknown",
+      "en": "And I think what you will see AI-generated entertainment is not in the cinemas.",
+      "zh": "我认为你将看到的 AI 生成的娱乐内容不在电影院里。"
+    },
+    {
+      "timestamp": "29:22",
+      "speaker": "Unknown",
+      "en": "AI content is just going to be its own genre that's going to look fundamentally different.",
+      "zh": "AI 内容将只是它自己的流派，看起来将根本不同。"
+    },
+    {
+      "timestamp": "35:45",
+      "speaker": "Unknown",
+      "en": "What we're trying right now is invent a new media format that is proprietary to us.",
+      "zh": "我们现在正在尝试的是发明一种专属于我们的新媒体格式。"
+    },
+    {
+      "timestamp": "36:12",
+      "speaker": "Unknown",
+      "en": "We work with more than 90% of the Fortune 100.",
+      "zh": "我们与超过 90% 的财富 100 强公司合作。"
+    },
+    {
+      "timestamp": "37:27",
+      "speaker": "Unknown",
+      "en": "More than it's about the individual technology.",
+      "zh": "而不仅仅是关于单个技术。"
+    }
+  ],
+  "voice_script": "你可能想不到，做AI视频的头部公司，创始人居然说好莱坞会是最后一个用AI视频的行业。\n\n这期我们聊Synthesia，一家专门做AI虚拟形象视频的公司，联合创始人兼CEO Victor分享了他们怎么从企业培训切入，以及为什么AI生成的内容根本不是去替代好莱坞的。\n\n事情要从2016年说起，当时Victor在伦敦看到斯坦福一篇论文，第一次展示神经网络能生成逼真视频。本来在搞VR内容创作的Victor一下被点醒了，VR分发和制作是双重难题，但视频不一样，YouTube这些基础设施早就在那了，分发问题直接消失。\n\n于是2017年公司成立，结果融资碰了一鼻子灰。被近一百个投资人拒绝，因为当时所有人都只想投金融科技，谁也不想听一个“十年后用想象力就能做好莱坞电影”的科幻故事。转机特别戏剧性，团队找到了Mark Cuban的邮箱，发了封冷邮件。结果四分钟就收到回复，觉得这东西太有意思了，紧接着双方来了一次14小时的邮件往来，一百万美元的投资直接敲定。原因很简单，Cuban自己在家跑过那篇斯坦福的论文，完全共享这个愿景，对话根本不需要从“这东西十年后可能吗”开始。\n\n但拿到钱去做产品，又踩了大坑。一开始找好莱坞工作室和视频制作机构合作，直接碰壁。这帮人质量要求极高，实验意愿极低，因为本来产出的内容就很棒。转机来自完全意想不到的一群人，就是企业里负责培训和教育的人。\n\n这些人拼命想做视频，但唯一能干的事就是把长篇文本或者幻灯片发出去。天天抱怨同一件事：我写了这么多内容没人读，读了也记不住，我需要视频和音频，但我没有能力做。\n\n这里有个细节特别值得记，就是评估标准完全不同。好莱坞拿AI视频和真实电影比，说质量太差；但这些企业用户拿AI视频和10页PDF文档比，觉得好太多了。找对评估标尺，比盲目提升技术更重要。\n\n所以产品形态就定下来了，Victor把它比作PowerPoint 2.0。普通办公人员登录网页应用，选一个虚拟形象，可以选自己，输入脚本，组合视觉素材，就能出视频。不是给视频专家用的，就是给写PPT的人用的。\n\n但现在他们正在推的第二个大产品，才叫真的有劲，就是把视频从单向广播变成双向对话。具体做法是在视频里插一个LLM驱动的智能体。比如销售培训场景，员工先看一段教学视频，然后智能体假装成客户，跟你对话15分钟。你要回答问题、处理异议、建立同理心。人通过练习和大声说出来，学习效果好得多，系统还能给表现打分。未来你跟公司互动的方式，可能不再是像现在这样浏览网站，而是打开一个跟虚拟形象的Zoom通话，对方能调出内容、共享屏幕，就像跟真人销售做演示。\n\n面对Sora这种通用视频生成平台，Victor的定位极其清醒，就是不竞争。行业会分成基础模型层和应用层，通用世界模型需要海量算力和人才，那是Google们的游戏。Synthesia训练的模型非常垂直，专门针对虚拟形象、人对着镜头说话的场景。需要生成任意长度的片段，需要保持身份一致性，虚拟形象不能每次变样。他们把通用模型当底层供应商用，想让虚拟形象在车里驾驶，就调用通用模型的能力再包一层工作流。\n\n那AI视频到底会变成什么样？Victor打了个绝妙的比方。70年代合成器被发明出来，本来是为了模仿钢琴和吉他，结果质量差，大家不满意。但后来呢？人们拿合成器创造了全新的电子音乐流派，钢琴和吉他今天依然在用。\n\nAI视频也是一样，不会替代真人拍摄，而是会成为一种看起来根本不同的新流派。好莱坞不会是最先拥抱AI的，反而可能是最后。AI生成的娱乐内容不会出现在电影院或者Netflix上，而是由没钱的电影系学生在笔记本电脑上做出17分钟的短片，发到Instagram和TikTok上。真人拍摄加AI视觉特效会先被采用，但主体仍然是真实视频。\n\n就像Victor说的那句话，AI内容将只是它自己的流派，看起来将根本不同。"
+}

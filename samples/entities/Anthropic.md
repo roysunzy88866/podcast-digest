@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>84</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>85</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -39,6 +39,7 @@ unlisted: true
 - **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(03:58起):本集提到:与 OpenAI、Google 一起做了很棒的基础模型工作;旗下的 Claude Opus 在基准测试中得到 87 分作为对比
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(04:39起):本集提到该公司的 Mythos 模型具有敢于唱反调的「混蛋」脾气，在制定反共识战略的来回拉扯中非常有帮助；此外还顺带提及其增长负责人在 Twitter 上因定价实验翻车。
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(10:56起):本集把它说成:Replit 对照的顶尖 AI 研究团队之一,指出其研究人员总背着模型必须完美才能发布的预期包袱。
+- **[[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k|《Kriti Sharma：戴安全帽的AI，三周落地》]]**(07:59起):本集说 Anthropic 是 Nexus Black 的紧密合作伙伴，提供 Claude 模型能力，双方共同推进模型在工业场景的边界突破，包括读取工程图和在灾难响应中长期规划采取行动
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(05:00起):本集在提到哪些顶级 AI 公司使用 WorkOS 时列出了它，并提及最近领导其 Claude 产品设计的设计师 Jenny Wen。
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(02:56起):本集提到它是 Fable 模型的开发商,在订阅中限制了 Fable 的使用,主持人猜测 OpenAI 的定价可能会对其产生压力。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:15起):本集把它说成:Thariq 和 Kat 所在的公司,内部团队重度使用 Claude Code 处理了高达 65% 的 PR
@@ -129,7 +130,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*84 集*
+*85 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -160,6 +161,7 @@ unlisted: true
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司(提及)
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为被讨论公司
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
+- [[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k|《Kriti Sharma：戴安全帽的AI，三周落地》]] — 作为被讨论公司
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为被讨论公司
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为被讨论公司
@@ -222,7 +224,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[NVIDIA]] · [[Meta]] · [[沙箱]] · [[推理]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":73,"Lenny":66,"Claude Code":44,"Claude":40,"NVIDIA":24,"Meta":24,"沙箱":33,"推理":3,"Google":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":73,"Lenny":66,"Claude Code":44,"Claude":41,"NVIDIA":24,"Meta":24,"沙箱":33,"推理":3,"Google":33}</script>
 
 <script>
 (function(){

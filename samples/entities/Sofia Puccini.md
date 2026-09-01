@@ -23,7 +23,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[Anthropic]] · [[蒸馏]] · [[开源]] · [[Hugging Face]] · [[OpenAI]] · [[Sriram Krishnan]] · [[Ben Horowitz]] · [[Steven Sinofsky]] · [[开源权重]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":5,"Anthropic":84,"蒸馏":7,"开源":9,"Hugging Face":13,"OpenAI":73,"Sriram Krishnan":1,"Ben Horowitz":2,"Steven Sinofsky":2,"开源权重":5}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":5,"Anthropic":85,"蒸馏":7,"开源":9,"Hugging Face":13,"OpenAI":73,"Sriram Krishnan":1,"Ben Horowitz":2,"Steven Sinofsky":2,"开源权重":5}</script>
 
 <script>
 (function(){

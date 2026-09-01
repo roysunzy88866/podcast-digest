@@ -1,0 +1,722 @@
+{
+  "episode_id": "2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and",
+  "podcast": "Eye On A.I.",
+  "date": "2026-07-28",
+  "tags": [
+    "AI 视频生成",
+    "虚拟形象",
+    "企业培训",
+    "智能体交互",
+    "内容创作工具"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "victor-riparbelli",
+      "type": "person",
+      "role": "host",
+      "name": "Victor Riparbelli",
+      "file": "Victor Riparbelli",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "synthesia",
+      "type": "company",
+      "role": "company",
+      "name": "Synthesia",
+      "file": "Synthesia",
+      "primary": true,
+      "how_described": "本集说 Synthesia 是一个企业 B2B 平台，产品形态像 PowerPoint 2.0，让普通办公人员选虚拟形象、输入脚本就能生成解释性和教育性视频；正在从单向广播视频进化到双向对话的交互式新媒体格式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            51.514,
+            56.776
+          ],
+          "quote": "As I mentioned a moment ago, I was an early Synthesia.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            79.305,
+            83.348
+          ],
+          "quote": "So I'm Victor, and I'm one of the co-founders and the CEO of Synthesia today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            444.713,
+            449.597
+          ],
+          "quote": "So when did you start Synthesia?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1226.321,
+            1230.966
+          ],
+          "quote": "And how does Synthesia, am I pronouncing it right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1465.153,
+            1474.4
+          ],
+          "quote": "Like we'll probably focus more again on like business use cases, training use cases, HR use cases, which is more like kind of the world that Synthesia generally sits in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2134.478,
+            2137.199
+          ],
+          "quote": "So where is Synthesia going?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "avatar",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚拟形象 (avatar)",
+      "file": "虚拟形象",
+      "primary": true,
+      "how_described": "本集把虚拟形象描述为 Synthesia 的核心载体——可以是自己创建的数字分身，也可以是库里预设的形象；它被用来对着镜头说话生成视频，也能作为与 LLM 驱动的智能体进行实时对话的视觉界面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.106,
+            25.089
+          ],
+          "quote": "And I kept asking, why don't you put an avatar on this that would engage students more?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            647.886,
+            659.675
+          ],
+          "quote": "And I kept asking, why don't you put an avatar on this that would engage students more?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            799.699,
+            801.882
+          ],
+          "quote": "So you can talk to the video, you can talk to the avatar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            899.005,
+            902.789
+          ],
+          "quote": "And more like you go in and you open up a kind of a Zoom call with an avatar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            902.829,
+            915.02
+          ],
+          "quote": "The avatar can pull up content, share their screen, and you basically go through it more like a demo with a real salesperson than go to a website and click your own way around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            915.5,
+            925.523
+          ],
+          "quote": "Training that you're talking about, the avatar is the text or the content that they're speaking is all written.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            939.207,
+            940.507
+          ],
+          "quote": "So this is a live avatar you're talking to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            941.35,
+            951.702
+          ],
+          "quote": "So is it just a large language model that you plug in on the back that's producing the text that the avatar is speaking?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            952.443,
+            956.447
+          ],
+          "quote": "So, I mean, for most use cases, it's going to be an LLM that's like driving the avatar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            963.332,
+            970.837
+          ],
+          "quote": "Basically what the system does is it takes a string of text and then it generates in real time the avatar saying whatever you want it to say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            996.285,
+            1003.732
+          ],
+          "quote": "We're also going to enable you to use a low-level API if you just want the avatar in real time and you don't want the rest of our product around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1118.745,
+            1127.89
+          ],
+          "quote": "Because again, on the education, the idea of having an avatar as the interface between the system and the student.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1142.245,
+            1152.29
+          ],
+          "quote": "But if you had the avatar of a celebrity that they were attracted to, that would be a wonderful way to deliver content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1334.904,
+            1341.209
+          ],
+          "quote": "You go in, you create an avatar of yourself, you choose from the library, you type the scripts that you want, you put the visuals together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1371.35,
+            1387.038
+          ],
+          "quote": "So not yet, but we are building that because what you want is that if you do one of these simulation calls, for example, you want the avatar to be able to show that it's bored or that it's unengaged or that it's very excited or something like that as a signal to how you're doing yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1619.704,
+            1629.689
+          ],
+          "quote": "We offer many models inside their platform, both just as a standalone, but also if you want to have your avatar drive in a car, for example, we can tap into these models and build a workflow around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2155.023,
+            2156.484
+          ],
+          "quote": "So it's going to be an avatar that you talk to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2202.121,
+            2211.786
+          ],
+          "quote": "I mean, I was asking about, you know, having live interactions with an LLM with an avatar as the interface.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2219.991,
+            2229.997
+          ],
+          "quote": "We were talking about the avatar being able to read the emotions on the person it's interacting with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2301.234,
+            2304.356
+          ],
+          "quote": "And that's both the avatar and it's like all the stuff that happens on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2320.869,
+            2324.632
+          ],
+          "quote": "You'll be able to have like the real-time avatar specifically for the training product to begin with.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说可以把智能体插入视频中，比如在销售培训里智能体假装成客户跟你对话 15 分钟，你回答问题、处理异议；也提到 Synthesia 内部有智能体帮用户写脚本，未来方向是以视觉方式与智能体互动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 163,
+          "t": [
+            818.16,
+            831.76
+          ],
+          "quote": "You watch the video and then the agent pretends to be a customer for 15 minutes and you have to answer questions, overcome objections, build empathy, set up next steps, and basically practice like you would with a real customer, but you're doing it in a setting with an AI agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2287.034,
+            2293.239
+          ],
+          "quote": "And then maybe sometimes the agent will fetch a video from over here that shows this in detail, a scripted video.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "foundation-model-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础模型层 (foundation model layer)",
+      "file": "基础模型层",
+      "primary": true,
+      "how_described": "本集说行业会分成基础模型层和应用层，基础模型层是拥有最多算力和人才的公司（如 Google）做通用世界模型，Synthesia 不去争这个，而是把它们当合作伙伴和底层供应商来用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 303,
+          "t": [
+            1570.74,
+            1577.323
+          ],
+          "quote": "I think there is going to be a foundation model layer, and then there's going to be an application layer, and then it's going to be some mix in between, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "application-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "应用层 (application layer)",
+      "file": "应用层",
+      "primary": true,
+      "how_described": "本集说 Synthesia 坐在应用层，专注虚拟形象对着镜头说话这个垂直场景——需要生成任意长度的片段、保持身份一致性，而不是做通用的视频生成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 303,
+          "t": [
+            1570.74,
+            1577.323
+          ],
+          "quote": "I think there is going to be a foundation model layer, and then there's going to be an application layer, and then it's going to be some mix in between, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "voice-cloning",
+      "type": "concept",
+      "role": "concept",
+      "name": "声音克隆 (voice cloning)",
+      "file": "声音克隆",
+      "primary": false,
+      "how_described": "本集提到 Synthesia 自己训练语音模型做声音克隆，因为企业客户有特殊需求比如保留口音，市面上现有方案做不好这一点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1501.798,
+            1511.442
+          ],
+          "quote": "I mean, there's also a kind of a convergence between voice cloning and image cloning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1513.182,
+            1518.284
+          ],
+          "quote": "Do you do the voice cloning yourselves or do you have a third party?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "visual-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉特效 (visual effects)",
+      "file": "视觉特效",
+      "primary": false,
+      "how_described": "本集说 AI 视频很多最终是视觉特效，变化在于现在非常逼真且非常容易使用——比如五分钟就能生成你在太空中漂浮的画面，好莱坞会先采用这种真人拍摄加 AI 特效的方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 349,
+          "t": [
+            1780.677,
+            1782.598
+          ],
+          "quote": "A lot of this stuff ultimately is visual effects, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1782.618,
+            1784.558
+          ],
+          "quote": "The visual effects have been around for a very long time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1790.7,
+            1802.023
+          ],
+          "quote": "Whereas, you know, even just five years ago, if you wanted to create a scene with visual effects of like you floating in space, that would've been very expensive and take a lot of people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1809.665,
+            1815.946
+          ],
+          "quote": "So I think we will see a lot of this stuff just being picked up as just a faster, easier way to produce visual effects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1837.55,
+            1844.934
+          ],
+          "quote": "With added visual effects as opposed to the 100% AI generated content which we see a lot of on socials right now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": false,
+      "how_described": "本集说在实时交互场景中，大多数用例背后是 LLM 在驱动虚拟形象说话；也提到 Victor 自己用 LLM 来回答战略问题、扮演魔鬼代言人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            952.443,
+            956.447
+          ],
+          "quote": "So, I mean, for most use cases, it's going to be an LLM that's like driving the avatar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            959.45,
+            962.872
+          ],
+          "quote": "If you want it to be an API that has featured information without an LLM, you can also do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1907.038,
+            1932.528
+          ],
+          "quote": "More precisely trained CEO co-pilots so that the founder or the leader of a company can talk to an AI chatbot or LLM or something to think through how the company should develop, where the opportunities are, what the economics of various opportunities are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2202.121,
+            2211.786
+          ],
+          "quote": "I mean, I was asking about, you know, having live interactions with an LLM with an avatar as the interface.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "type": "company",
+      "role": "company",
+      "name": "Netflix",
+      "file": "Netflix",
+      "primary": false,
+      "how_described": "本集说 AI 生成的娱乐内容不会出现在 Netflix 上，它不会是 AI 视频的爆发渠道",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            12.682,
+            17.686
+          ],
+          "quote": "I think what you will see AI-generated entertainment is not in the cinemas, it's not on Netflix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1676.658,
+            1677.858
+          ],
+          "quote": "It's not on Netflix.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "company",
+      "role": "company",
+      "name": "TikTok",
+      "file": "TikTok",
+      "primary": false,
+      "how_described": "本集说 AI 生成的娱乐内容会出现在 TikTok 和 Instagram 上，由没钱的电影系学生做短片发到这些平台；也提到 TikTok 创作者风格的内容不是 Synthesia 的目标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            1427.635,
+            1430.616
+          ],
+          "quote": "They have specific requirements that a TikTok creator doesn't need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1432.416,
+            1438.318
+          ],
+          "quote": "Some of the other companies are more targeting that like downmarket TikTok creator style of content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1440.999,
+            1450.125
+          ],
+          "quote": "I think a lot of the very consumer level creation, I think it's going to end up happening inside of like Meta's apps, for example, inside of TikTok.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1678.319,
+            1680.2
+          ],
+          "quote": "It's going to be on TikTok and Instagram.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "type": "company",
+      "role": "company",
+      "name": "Instagram",
+      "file": "Instagram",
+      "primary": false,
+      "how_described": "本集说 AI 生成的娱乐内容会出现在 TikTok 和 Instagram 上，比如 17 分钟的短片发到 Instagram",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1678.319,
+            1680.2
+          ],
+          "quote": "It's going to be on TikTok and Instagram.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1683.081,
+            1690.246
+          ],
+          "quote": "But a laptop who's going to make something amazing, a short film that's 17 minutes long and posted on Instagram, it's got to be very different.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集说 Google 是拥有最多算力和人才的公司之一，能产生令人惊叹的通用世界模型，Synthesia 视其为合作伙伴而非竞争者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1577.363,
+            1585.226
+          ],
+          "quote": "And I think what we're very clearly seeing now is that the players that have the most compute and the most talent, like Google but VO3, can produce amazing models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集只顺带提到 Victor 最近切换到 Claude 来理解自己的思维方式，用于回答战略问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 374,
+          "t": [
+            1941.891,
+            1944.891
+          ],
+          "quote": "I just switched to Claude to understand how I think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2001.141,
+            2005.203
+          ],
+          "quote": "Yeah, and you're using, you switched to Claude recently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2005.523,
+            2007.484
+          ],
+          "quote": "Is that Claude co-work or?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2009.045,
+            2013.247
+          ],
+          "quote": "Right now it's just the vanilla Claude, the co-work, but yeah.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sora",
+      "type": "company",
+      "role": "company",
+      "name": "Sora",
+      "file": "Sora",
+      "primary": false,
+      "how_described": "本集只一笔带过说 Sora 已经退役了，作为通用视频生成平台的代表被提及",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 301,
+          "t": [
+            1547.012,
+            1561.917
+          ],
+          "quote": "This idea of you started out with this vision of producing a Hollywood movie and then, I mean, Sora has been retired, but there have been all these video generation platforms that have come up.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "content-moderation",
+      "type": "concept",
+      "role": "concept",
+      "name": "内容审核 (content moderation)",
+      "file": "内容审核",
+      "primary": false,
+      "how_described": "本集顺带提到 Synthesia 内部用智能体工作流来处理内容审核，这是产品的重要组成部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 406,
+          "t": [
+            2113.594,
+            2122.416
+          ],
+          "quote": "All of these are amazing ways to use these tools from the smallest like miniscule problems all the way through dealing with things like content moderation, for example, for us, right, which is an important piece of the product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

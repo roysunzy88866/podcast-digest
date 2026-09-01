@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>32</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>33</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,6 +24,7 @@ unlisted: true
 - **[[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a|《Ben Horowitz：别追随激情，追随贡献》]]**(07:18起):本集举'让手机电池续航更久'的例子时，说像 Google 这种拥有大量资源的公司会直接做这种所有人都觉得是好主意的事
 - **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(03:58起):本集一笔带过:与 Anthropic、OpenAI 一起在 AI 基础模型方面做得很棒
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(08:16起):本集把它说成:把 AI 基础设施支出预期上调至超 2000 亿美元后股价下跌的巨头,它本季度可能首次出现预计负自由现金流,被视为引发市场合理化回调的关键节点。
+- **[[2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and|《Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介》]]**(26:17起):本集说 Google 是拥有最多算力和人才的公司之一，能产生令人惊叹的通用世界模型，Synthesia 视其为合作伙伴而非竞争者
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(00:30起):本集把它说成:一家更由工程主导、产品管理职能相对较弱、决策更多由共识驱动的公司。
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(20:21起):本集提到：大型科技公司及模型竞争者，嘉宾举例 Google 发布 VO3 Fast 来降低模型成本
 - **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:23起):本集提到 Rohan 曾在此及旗下的 Google Brain、Gemini 从事过大量基础 AI 研究与预训练；并讨论了内部面对优化和算力花费时的思维方式与组织决策。
@@ -72,7 +73,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*32 集*
+*33 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -87,6 +88,7 @@ unlisted: true
 - [[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a|《Ben Horowitz：别追随激情，追随贡献》]] — 作为被讨论公司(提及)
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
+- [[2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and|《Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介》]] — 作为被讨论公司(提及)
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为被讨论公司
@@ -111,9 +113,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Meta]] · [[Claude]] · [[NVIDIA]] · [[Amazon]] · [[Microsoft]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Claude]] · [[Meta]] · [[Apple]] · [[NVIDIA]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":73,"Anthropic":84,"ChatGPT":41,"Lenny":66,"Meta":24,"Claude":40,"NVIDIA":24,"Amazon":9,"Microsoft":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":73,"Anthropic":85,"ChatGPT":41,"Lenny":66,"Claude":41,"Meta":24,"Apple":14,"NVIDIA":24,"Amazon":9}</script>
 
 <script>
 (function(){

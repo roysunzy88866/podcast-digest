@@ -25,7 +25,7 @@ unlisted: true
 
 [[Colin Zima]] · [[Looker]] · [[Snowflake]] · [[Databricks]] · [[Google]] · [[BI]] · [[数据模型]] · [[创新者的窘境]] · [[产品市场契合]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Colin Zima":1,"Looker":1,"Snowflake":5,"Databricks":9,"Google":32,"BI":1,"数据模型":1,"创新者的窘境":2,"产品市场契合":11,"AI":11}</script>
+<script type="application/json" class="pd-epn">{"Colin Zima":1,"Looker":1,"Snowflake":5,"Databricks":9,"Google":33,"BI":1,"数据模型":1,"创新者的窘境":2,"产品市场契合":11,"AI":11}</script>
 
 <script>
 (function(){

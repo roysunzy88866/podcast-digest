@@ -37,7 +37,7 @@ unlisted: true
 
 [[Mike LeBlanc]] · [[人形机器人]] · [[执行器]] · [[视觉-语言-行动模型]] · [[视频训练]] · [[远程遥控]] · [[世界行动模型]] · [[Boston Dynamics]] · [[Optimus]] · [[Physical Intelligence]]
 
-<script type="application/json" class="pd-epn">{"Mike LeBlanc":1,"人形机器人":1,"执行器":1,"视觉-语言-行动模型":1,"视频训练":1,"远程遥控":1,"世界行动模型":1,"Boston Dynamics":1,"Optimus":1,"Physical Intelligence":2}</script>
+<script type="application/json" class="pd-epn">{"Mike LeBlanc":1,"人形机器人":1,"执行器":1,"视觉-语言-行动模型":1,"视频训练":1,"远程遥控":1,"世界行动模型":1,"Boston Dynamics":2,"Optimus":1,"Physical Intelligence":2}</script>
 
 <script>
 (function(){

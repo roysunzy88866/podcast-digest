@@ -33,7 +33,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[David George]] · [[Whatnot]] · [[直播购物]] · [[市场]] · [[信任与安全]] · [[规则引擎]] · [[大型语言模型]] · [[发现]] · [[网络效应]] · [[Facebook]]
+[[David George]] · [[Whatnot]] · [[直播购物]] · [[市场]] · [[信任与安全]] · [[规则引擎]] · [[大型语言模型]] · [[发现]] · [[网络效应]] · [[虚拟形象]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":2,"Whatnot":3,"直播购物":2,"市场":2,"信任与安全":1,"规则引擎":1,"大型语言模型":3,"发现":1,"网络效应":3,"Facebook":11}</script>
+<script type="application/json" class="pd-epn">{"David George":2,"Whatnot":3,"直播购物":2,"市场":2,"信任与安全":1,"规则引擎":1,"大型语言模型":3,"发现":1,"网络效应":3,"虚拟形象":2}</script>
 
 <script>
 (function(){
