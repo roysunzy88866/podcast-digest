@@ -582,3 +582,4 @@
 {"ts":"2026-09-02T01:54:27.101Z","action":"judge-failed","channel":"stripe","videoId":"4GmHpHyoKmo","title":"Canva cofounder and COO Cliff Obrecht in conversation with John Collison","error":"判官不可达或输出解析不出(可重试)"}
 {"ts":"2026-09-02T01:54:47.124Z","action":"prefilter-skip","channel":"anthropic","videoId":"uVS88gnaxcg","title":"Meet Claude Fable 5.1","reason":"时长 85s < 下限 300s"}
 {"ts":"2026-09-02T01:55:08.307Z","action":"prefilter-skip","channel":"anthropic","videoId":"ROF2Nv_KjOM","title":"Introducing Claude Fable 5.1","reason":"时长 85s < 下限 300s"}
+{"ts":"2026-09-02T01:59:41.775Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
