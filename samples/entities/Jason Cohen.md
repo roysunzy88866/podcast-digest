@@ -41,7 +41,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]] [[Amol Avasare]] [[Lenny Rachitsky]]
+[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]] [[Ben Rudolph]] [[Amol Avasare]]
 
 </div>
 

@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Patrick Collison]] · [[Stripe]] · [[Atlas]] · [[精益创业]] · [[智能体]] · [[YC]] · [[Google]] · [[Claude]] · [[OpenAI]] · [[L1 缓存]]
+[[Patrick Collison]] · [[Stripe]] · [[Atlas]] · [[精益创业]] · [[智能体]] · [[YC]] · [[Google]] · [[Claude]] · [[OpenAI]] · [[Anduril]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]]
+[[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":23,"Atlas":1,"精益创业":1,"智能体":1,"YC":9,"Google":34,"Claude":45,"OpenAI":76,"L1 缓存":1}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":24,"Atlas":1,"精益创业":1,"智能体":1,"YC":9,"Google":34,"Claude":45,"OpenAI":77,"Anduril":3}</script>
 
 <script>
 (function(){

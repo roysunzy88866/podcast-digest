@@ -22,7 +22,7 @@ unlisted: true
 
 [[智能体]] · [[Ryan Lopopolo]] · [[Simon Maple]] · [[harness 工程]] · [[Andrew]] · [[Codex]] · [[TESL]] · [[OpenAI]] · [[循环工程]] · [[提示词注入]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Ryan Lopopolo":1,"Simon Maple":6,"harness 工程":1,"Andrew":3,"Codex":34,"TESL":3,"OpenAI":76,"循环工程":4,"提示词注入":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Ryan Lopopolo":1,"Simon Maple":6,"harness 工程":1,"Andrew":3,"Codex":34,"TESL":3,"OpenAI":77,"循环工程":4,"提示词注入":10}</script>
 
 <script>
 (function(){

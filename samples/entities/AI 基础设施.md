@@ -401,7 +401,7 @@ unlisted: true
 
 [[Anthropic]] · [[Jensen Wong]] · [[Max Hodak]] · [[Mike Allen]] · [[Science]] · [[NVIDIA]] · [[Neuralink]] · [[OpenAI]] · [[SpaceX]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":87,"Jensen Wong":1,"Max Hodak":1,"Mike Allen":1,"Science":1,"NVIDIA":24,"Neuralink":1,"OpenAI":76,"SpaceX":11,"Microsoft":21}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":89,"Jensen Wong":1,"Max Hodak":1,"Mike Allen":1,"Science":1,"NVIDIA":24,"Neuralink":1,"OpenAI":77,"SpaceX":12,"Microsoft":21}</script>
 
 <script>
 (function(){

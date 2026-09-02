@@ -150,9 +150,9 @@ Peregrine 的前向部署工程师和部署策略师被明确视为研发和增�
 
 **换个口味**
 
+- [[2026-07-27-pmf-he-worked-out-of-a-police-department-for|Peregrine 创始人：蹲点警局十八个月找 PMF]]<span class="pd-rz">同嘉宾:Ben Rudolph · 同公司:Peregrine</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:智能体 (agent)、前向部署工程 (forward deployed engineering)</span>
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同概念:智能体 (agent)、本体 (ontology)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>

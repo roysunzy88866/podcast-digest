@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]]
+[[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chamath":1,"OpenAI":76,"Anthropic":87,"NVIDIA":24,"SPAC":1,"闭源模型":1,"开放权重模型":7,"分布式计算":1,"末日论":1,"KYC":1}</script>
+<script type="application/json" class="pd-epn">{"Chamath":1,"OpenAI":77,"Anthropic":89,"NVIDIA":24,"SPAC":1,"闭源模型":1,"开放权重模型":7,"分布式计算":1,"末日论":1,"KYC":1}</script>
 
 <script>
 (function(){

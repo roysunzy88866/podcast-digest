@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ramp</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ramp">RA</div><div class="pi"><h1 class="pt">Ramp</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ramp">RA</div><div class="pi"><h1 class="pt">Ramp</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,25 @@ unlisted: true
 - **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(01:18起):本集说它是一家展现极快执行速度的公司，通常发卡需要 9-12 个月，它 3 个月就做到了；其内部还极度推崇速度，每次董事会都从计算上线天数开始。
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(13:59起):本集作为案例提及，与 Shopify 一样，Dan 指出他们现在也拥有了一个全公司共享的智能体。
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(21:37起):本集提到该公司的 Jeff 分享过经验：当他工作进展最缓慢（速度最低）时，他经历了最严重的职业倦怠。
+- **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(38:55起):本集在列举 Founders Fund 做了集中押注的公司时被顺带提及
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司(提及)
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)
+- [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Airbnb]] · [[PM]] · [[Kiriti Badam]] · [[Keith Rabois]] · [[Dan Shipper]] · [[Noam Segal]] · [[Aishwarya Reganti]] · [[PayPal]]
+[[Lenny]] · [[Airbnb]] · [[智能体]] · [[PM]] · [[Cognition]] · [[OpenAI]] · [[Anthropic]] · [[Kiriti Badam]] · [[Keith Rabois]] · [[Dan Shipper]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"智能体":1,"Airbnb":9,"PM":3,"Kiriti Badam":1,"Keith Rabois":1,"Dan Shipper":2,"Noam Segal":1,"Aishwarya Reganti":1,"PayPal":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Airbnb":10,"智能体":1,"PM":3,"Cognition":13,"OpenAI":77,"Anthropic":89,"Kiriti Badam":1,"Keith Rabois":1,"Dan Shipper":2}</script>
 
 <script>
 (function(){

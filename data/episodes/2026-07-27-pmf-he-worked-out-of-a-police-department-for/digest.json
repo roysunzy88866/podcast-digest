@@ -1,0 +1,130 @@
+{
+  "title_zh": "Peregrine 创始人：蹲点警局十八个月找 PMF",
+  "tldr": "Peregrine 的 Ben Rudolph 讲他如何没有产品、没有行业背景，靠\"免费当犯罪分析师\"蹲进警局十八个月，从零找到产品方向并做到 68 亿美元估值。",
+  "digest_md": "Ben Rudolph 是 Peregrine 的联合创始人，这家公司帮执法部门把碎片化的数据——通讯记录、枪声探测、案件档案——整合到一个平台上，让侦探能快速把人和时间、地点关联起来破案。\n\n他们找产品方向的方式很极端：两个没有执法背景的人，跑到湾区一个警察局，说想帮忙破案。对方给了他们一个房间，把他们当犯罪分析师用——一有凶杀案就丢一堆文件过来，他们就整天手动翻案卷、找电话号码。Ben 自己是程序员，边翻边写工具自动化，干了整整十八个月，直到帮忙破了一桩拖了几年的帮派凶杀案，还以专家证人身份上了法庭 [01:55 Ben Rudolph]。那是他第一次觉得\"这东西真的有用\"。\n\n## 怎么敲开第一扇门\n\n他们不是碰运气敲门。方法是：画出湾区东湾各城市的地图，筛选犯罪率可能较高的目标；然后查每个警察局的组织架构，找二号、三号负责人——通常更年轻、更拥抱技术。给每个指挥官建档案，研究他们过去经手过什么案子，再发非常针对性的消息 [10:27 Ben Rudolph]。\n\n最终答应他们的是圣巴勃罗警察局的 Brian Bubar 指挥官。去第一次见面时，他们已经把 Bubar 经手的\"Operation Red Reach\"案子细节摸透了，能直接聊具体案情，而不是泛泛地\"我想了解你们的工作\" [39:07 Ben Rudolph]。Ben 说，这跟Ada 那个聊天机器人公司的做法一样——先去当客服，把活干明白了，再写工具把自己自动化掉，\"这是体验派表演的最纯粹形式\" [15:02 Ben Rudolph]。\n\n为什么有人敢让两个没产品的人碰敏感案件？Ben 觉得两个原因：一是那位指挥官本身就相信技术能帮他们做更多，只是没预算没时间；二是\"白得两个会写代码的免费犯罪分析师，何乐不为\" [16:29 Ben Rudolph]。\n\n## 派驻工程师：不是成本，是增长驱动\n\nPeregrine 早期有个被投资人质疑的做法：公司十几个人时，可能一半工程师被派到单个客户那里驻场一两个月做数据集成，ACV（年度合同金额）早期也就几万美元，看起来投入产出比很紧。\n\nBen 的逻辑是\"为成功过度投资\"。他们把派驻当成增长驱动，而不是要优化掉的负担 [23:02 Ben Rudolph]。政府是个高信任网络——第二个客户就是隔壁城市的局长听第一个局长说\"这帮人靠谱\"直接找来的。深度嵌入换来的是极高的留存率，客户收到的价值远超付的钱，长期利润率反而更好 [25:00 Ben Rudolph]。\n\n但后来确实遇到瓶颈：工程师全拿去做集成，没人写核心产品了。他们的应对是建了一个叫\"部署策略\"的团队——招学过计算机、可能去过咨询公司的人，让他们做最后一英里的数据配置，把工程师解放出来 [23:02 Ben Rudolph]。\n\n## 企业级销售：用 120% 的准备\"赚\"来资格\n\nBen 反复用一个词：earn（赚）。他觉得在每个新领域，你都得\"赚到\"跟人家共事的资格 [36:39 Ben Rudolph]。\n\n具体做法：如果要攻一个新机构，先研究对方领导的公开讲话，搞清楚他们的优先事项；找到能拿到的开源数据，灌进自己平台，搭一个用对方真实数据、解决对方真实问题的演示。第一次见面就展示\"你的数据、你的问题\"，而不是通用 demo [37:20 Ben Rudolph]。\n\n最极端的例子是 2020 年圣诞节拿下一个加州野火应急的 RFP（招标）。那个 RFP 不是为他们写的，大概率是为某个大公司定制的。他们花了三周冲刺，把办公室改造成模拟的应急指挥中心，连摄像头布局都模仿对方实景，针对四个场景一一演示——其中一个是在 Lake Berryessa 湖区道路被野火封锁时怎么规划逃生路线，Ben 说那个湖的地形他\"已经背下来了\" [35:14 Ben Rudolph]。最终拿下了本来不该赢的合同。\n\n## 增长节奏：没有捷径，一三六十\n\nPeregrine 的 ARR 增长基本是\"一、三、十\"的节奏，三倍三倍往上翻 [28:43 Ben Rudolph]。种子轮只融了 100 到 200 万美元，在公司成立九到十个月后 [18:26 Ben Rudolph]。\n\nBen 对\"半年冲到五亿收入\"的模式持怀疑态度：\"如果你能在六个月内赚五亿，你也可能在六个月内亏五亿，护城河在哪？\" [19:16 Ben Rudolph] 他认为花很长时间堆出来的东西才是真护城河。\n\n真正从\"推\"变\"拉\"的转折点在 2023 年——客户多到部署团队全占满，靠 spreadsheet 排谁去哪，签了合同却没人能进场，成了新的瓶颈 [32:27 Ben Rudolph]。也是从那之后，融资变得容易了，因为你可以跟投资人说\"我有合同但交付不过来，需要招人\"——这是最低风险的融资叙事 [33:47 主持人]。\n\n## 本集带走\n\n- **先免费干活再写产品**：没产品时别卖产品，说自己想帮忙解决问题，争取到现场当\"免费劳动力\"的机会，在真实场景里摸清工作流再自动化。\n- **研究到让人无法拒绝**：攻企业客户前，把对方组织架构里关键人的履历、经手的案子/项目摸透，第一次见面就能聊对方的真实业务细节，用准备度换信任。\n- **派驻不是成本是投资**：在政府等高信任网络里，深度嵌入带来的口碑传播和超高留存，长期看利润率更好；但要及时建专门的部署团队，别把核心工程师耗死在集成上。\n- **RFP 可以\"不该赢但赢\"**：面对不是为你写的招标，用远超预期的准备（搭真实场景、模拟对方环境）去\"赚\"资格，把劣势翻成差异化。\n- **增长节奏上接受\"慢\"**：一三六十的节奏比爆发式增长更耐久，花时间堆出来的业务壁垒才是真壁垒。",
+  "quotes": [
+    {
+      "en": "But if you can get $500 million in revenue in six months, you'll probably lose $500 million in revenue in six months. It's just, it's unclear to me what the moat is when you go super, super quickly.",
+      "zh": "但如果你能在六个月内获得 5 亿美元的收入，你可能也会在六个月内失去 5 亿美元的收入。对我来说，当你发展得超级、超级快时，护城河是什么是不清楚的。",
+      "timestamp": "19:32",
+      "speaker": "Ben Rudolph"
+    },
+    {
+      "en": "I think the overarching principle for us in the early days and still today really is over investing for success.",
+      "zh": "我认为我们在早期的总体原则，直到今天真的，就是为成功过度投资。",
+      "timestamp": "20:33",
+      "speaker": "Ben Rudolph"
+    },
+    {
+      "en": "We won that contract, probably shouldn't have won that contract. I'm sure it was written for some other billion dollar company.",
+      "zh": "我们赢得了那份合同，大概不应该赢得那份合同。我肯定那是为其他数十亿美元的公司写的。",
+      "timestamp": "36:22",
+      "speaker": "Ben Rudolph"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:55",
+      "speaker": "Ben Rudolph",
+      "en": "We were there for about twelve to eighteen months and building product working on these cases. And the moment where I really started to feel like, okay, we're actually building a product that is adding value and being useful is there was this complex homicide that they had been working on for a few years.",
+      "zh": "我们在那里待了大约十二到十八个月，在处理这些案件时构建产品。那个我真正开始觉得，好吧，我们实际上正在构建一个增加价值并且有用的产品的时刻是，他们已经工作了好几年的一起复杂凶杀案。"
+    },
+    {
+      "timestamp": "03:12",
+      "speaker": "Ben Rudolph",
+      "en": "However, I'd really say that I think of Peregrine's product as fifty percent of its technology. It's that platform that allows you to get insight, build workflows, and do that type of technological work. The other fifty percent of our product is really the way we deploy and the way we partner, and work with our customers.",
+      "zh": "然而我真的很想说，我认为 Peregrine 的产品百分之五十是技术。它是那个允许你获得洞察、构建工作流并做那种技术工作的平台。我们产品的另一半实际上是我们部署的方式以及我们合作的方式，以及与我们的客户一起工作。"
+    },
+    {
+      "timestamp": "08:47",
+      "speaker": "Ben Rudolph",
+      "en": "When we went to partner with the first agency we worked with, the San Pablo Police Department. We didn't have a prescriptive solution. We had an objective, which was to help these detectives solve the cases that they were working on and then we worked backward from there.",
+      "zh": "当我们去与我们合作的第一个机构，圣巴勃罗警察局合作时。我们没有预设的解决方案。我们有一个目标，那就是帮助这些侦探解决他们正在处理的案件，然后我们从那里反向推导。"
+    },
+    {
+      "timestamp": "10:27",
+      "speaker": "Ben Rudolph",
+      "en": "We looked at essentially the org chart of these police departments. Who are the number two, number three in charge? They were maybe a little bit younger. They were leaned into technology. Isolated that list, we did a bunch of research on these folks, what kind of cases they worked in the past, and then we left very thoughtful messages.",
+      "zh": "我们基本上看了这些警察部门的组织结构图。谁是第二、第三号负责人？他们可能年轻一点。他们倾向于技术。我们隔离了那份名单，我们对这些人做了一堆研究，他们过去处理过什么样的案件，然后我们留下了非常深思熟虑的信息。"
+    },
+    {
+      "timestamp": "12:11",
+      "speaker": "Ben Rudolph",
+      "en": "We never came to them with, here's a technology that we want to build for you. It was always, we want to help you solve cases and we especially want to work with your detectives to do that.",
+      "zh": "我们从未带着这样的想法去找他们，这是我们想要为你构建的技术。这总是，我们想帮助你解决案件，我们特别是想与你的侦探一起做这件事。"
+    },
+    {
+      "timestamp": "15:02",
+      "speaker": "Ben Rudolph",
+      "en": "Yeah, exactly. That's exactly the way I would frame it. It was the purest form of method acting.",
+      "zh": "是的，正是。这正是我要表达的方式。这是体验派表演的最纯粹形式。"
+    },
+    {
+      "timestamp": "16:29",
+      "speaker": "Ben Rudolph",
+      "en": "A hundred percent and I also think there is like an aspect to, great, I got two free crime analysts. Who know how to write software and work with Excel really well, that's great.",
+      "zh": "百分之百同意，而且我也觉得这有一个方面，比如，棒极了，我得到了两个免费的犯罪分析师。他们非常懂怎么写软件和使用 Excel，这很棒。"
+    },
+    {
+      "timestamp": "19:16",
+      "speaker": "Ben Rudolph",
+      "en": "You know, I really believe that to build big businesses. You got to stack bricks, and there are very few shortcuts in life. And I think the things that we've done that have taken a long time. Those are our moats, and those are durable.",
+      "zh": "你知道，我真的相信要建立大生意。你必须砌砖，生活中很少有捷径。我认为我们做的那些花了很长时间的事情。那些是我们的护城河，那些是持久的。"
+    },
+    {
+      "timestamp": "19:16",
+      "speaker": "Ben Rudolph",
+      "en": "But if you can get $500 million in revenue in six months, you'll probably lose $500 million in revenue in six months. It's just, it's unclear to me what the moat is when you go super, super quickly.",
+      "zh": "但如果你能在六个月内获得 5 亿美元的收入，你可能也会在六个月内失去 5 亿美元的收入。对我来说，当你发展得超级、超级快时，护城河是什么是不清楚的。"
+    },
+    {
+      "timestamp": "20:33",
+      "speaker": "Ben Rudolph",
+      "en": "I think the overarching principle for us in the early days and still today really is over investing for success.",
+      "zh": "我认为我们在早期的总体原则，直到今天真的，就是为成功过度投资。"
+    },
+    {
+      "timestamp": "23:02",
+      "speaker": "Ben Rudolph",
+      "en": "Scarcity breeds innovation. And we started building this other platform that allowed people who weren't engineers to integrate data.",
+      "zh": "匮乏孕育创新。我们开始构建另一个平台，让不是工程师的人也能整合数据。"
+    },
+    {
+      "timestamp": "25:00",
+      "speaker": "Ben Rudolph",
+      "en": "I think that's true in the short term. In the long term, I'd say you probably have better, you have better margin. Because you have invested in that customer to the point where the technology is successful and if that technology is like deeply embedded in the way that organization works.",
+      "zh": "我认为这在短期内是真的。从长远来看，我会说你可能有更好的，你有更好的利润率。因为你已经投资了那个客户，直到技术成功，如果该技术像深度嵌入在该组织的工作方式中那样。"
+    },
+    {
+      "timestamp": "27:38",
+      "speaker": "Ben Rudolph",
+      "en": "The go to market that actually started to work for us was one, simplifying down the message we were, what we were trying to sell. I think Peregrine is a complex piece of technology. It could be hard for maybe a person not familiar with technology to explain that value prop.",
+      "zh": "真正开始为我们工作的市场推广策略是，第一，简化我们要传达的信息，我们试图销售什么。我认为 Peregrine 是一个复杂的技术。也许对于一个不熟悉技术的人来说很难解释那个价值主张。"
+    },
+    {
+      "timestamp": "35:14",
+      "speaker": "Ben Rudolph",
+      "en": "We won that contract, probably shouldn't have won that contract. I'm sure it was written for some other billion dollar company.",
+      "zh": "我们赢得了那份合同，大概不应该赢得那份合同。我肯定那是为其他数十亿美元的公司写的。"
+    },
+    {
+      "timestamp": "36:39",
+      "speaker": "Ben Rudolph",
+      "en": "The word that I think we always talk about and think about is earn. And we have to earn the right to be able to work with these folks.",
+      "zh": "就像我想我们总是谈论和想到的那个词是 earn。我们必须赢得能够与这些人共事的权利。"
+    },
+    {
+      "timestamp": "37:20",
+      "speaker": "Ben Rudolph",
+      "en": "Showing up for a first meeting where you can demo, and speak to somebody about, pretty much their own data and own problems is really powerful.",
+      "zh": "而在第一次会议时展示出来，你可以向某人演示，并谈论几乎他们自己的数据和自己的问题，这是非常强大的。"
+    },
+    {
+      "timestamp": "41:33",
+      "speaker": "Ben Rudolph",
+      "en": "I always tell founders kind of the same thing, go sit with your customer. Prove value, that is the thing.",
+      "zh": "我总是告诉创始人同样的事情，就是去和你的客户坐在一起。证明价值，这才是关键。"
+    }
+  ],
+  "voice_script": "两个完全没干过警察行业的人，跑到警局说想帮忙破案，对方居然真给了个房间，让他们当免费的犯罪分析师，一干就是十八个月。\n\n今天跟你聊的这条线，就是 Peregrine 联合创始人 Ben Rudolph 这段近乎疯狂的经历，以及从里面长出来的企业级销售和增长逻辑。\n\n你没听错，没产品、没背景，怎么敲开门？不是碰运气，是拿极度变态的准备去换。当时先画出湾区东湾的地图，筛犯罪率高的城市，再查每个警察局的组织架构，专门找二号、三号负责人。给每个指挥官建档案，研究过去经手的案子，发极其针对性的消息。\n\n最后答应的是圣巴勃罗警察局的 Brian Bubar 指挥官。第一次见面，连对方经手的 Operation Red Reach 案子细节都摸透了，坐下直接聊具体案情。Ben 打了个比方，说这跟 Ada 那个聊天机器人公司的做法一样，先去当客服，把活干明白了，再写工具把自己自动化掉，说是体验派表演的最纯粹形式。\n\n为什么有人敢让两个没产品的人碰敏感案件？两个原因。一是那位指挥官本身相信技术能帮忙，只是没预算没时间；二是白得两个会写代码的免费劳动力，何乐不为。\n\n进去之后干嘛？一有凶杀案，一堆文件就丢过来，整天手动翻案卷、找电话号码。Ben 本身是程序员，边翻边写工具自动化，干了整整十八个月。直到帮忙破了一桩拖了几年的帮派凶杀案，还以专家证人身份上了法庭。那是第一次觉得这东西真的有用。\n\n这种深入骨髓的干活方式，后来变成了公司早期的核心打法，叫派驻工程师。公司十几个人时，可能一半工程师被派到单个客户那里驻场一两个月做数据集成。早期年度合同金额也就几万美元，投资人看着都觉得投入产出比太紧。\n\n但逻辑是，为成功过度投资。政府是个高信任网络，第二个客户就是隔壁城市的局长听第一个局长说这帮人靠谱，直接找来的。深度嵌入换来极高的留存率，客户收到的价值远超付的钱，长期利润率反而更好。后来确实遇到瓶颈，工程师全拿去做集成，没人写核心产品了。应对方法就是建了一个叫部署策略的团队，招学过计算机、可能去过咨询公司的人，做最后一英里的数据配置，把工程师解放出来。\n\n到了攻大客户的时候，这个思路被推向极致。Ben 反复用一个词，earn，赚。觉得在每个新领域，都得赚到跟人家共事的资格。具体做法很硬核：先研究对方领导的公开讲话，搞清楚优先事项；找到能拿到的开源数据，灌进自己平台，搭一个用对方真实数据、解决对方真实问题的演示。第一次见面就展示你的数据、你的问题，绝不拿通用 demo 应付。\n\n最极端的例子，是 2020 年圣诞节拿下一个加州野火应急的招标。那个招标大概率是为某个大公司定制的，压根不是为他们写的。结果花了三周冲刺，把办公室改造成模拟的应急指挥中心，连摄像头布局都模仿对方实景，针对四个场景一一演示。其中一个是在 Lake Berryessa 湖区道路被野火封锁时怎么规划逃生路线，Ben 说那个湖的地形已经背下来了。最终拿下了本来不该赢的合同。\n\n这样一步步熬出来，ARR 增长基本是一、三、十的节奏，三倍三倍往上翻。种子轮只融了 100 到 200 万美元。对那种半年冲到五亿收入的模式，态度非常明确：如果你能在六个月内获得 5 亿美元的收入，你也可能在六个月内失去 5 亿美元的收入。发展得超级快的时候，护城河到底是什么，根本看不清楚。花很长时间堆出来的东西，才是真护城河。\n\n真正从推变拉的转折点在 2023 年。客户多到部署团队全占满，靠表格排谁去哪，签了合同却没人能进场，成了新的瓶颈。也是从那之后，融资变得容易了，因为可以跟投资人说，我有合同但交付不过来，需要招人，这是最低风险的融资叙事。\n\n回过头看这十八个月，其实就是一句话：没产品的时候别卖产品，先去现场当免费劳动力，在真实场景里摸清工作流再自动化。用一百二十分的准备去赚跟人家坐下来聊的资格，然后接受慢，因为花时间堆出来的业务壁垒，才是别人抢不走的真东西。"
+}

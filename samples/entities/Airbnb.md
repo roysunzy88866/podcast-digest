@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Airbnb</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Airbnb">AI</div><div class="pi"><h1 class="pt">Airbnb</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Airbnb">AI</div><div class="pi"><h1 class="pt">Airbnb</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,10 +20,17 @@ unlisted: true
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(01:17起):本集提到主持人和嘉宾 Noam 在十年前曾在这里共事多年，当时 Noam 是他团队里的研究员。
 - **[[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]]**(49:12起):本集在讨论'市场的堡垒化'时提到 Airbnb，说如果去掉交易性差旅预订就只剩体验式预订，市场会变小
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(18:36起):本集作为Sequoia高信念投资的经典例子：被大多数基金拒绝、睡充气床垫听起来糟糕，但Sequoia领了种子轮持续加注，成为资金回报率最高的投资之一
+- **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(28:51起):本集说 Founders Fund 可能是它第 30 个投资人，进去时估值已 20 亿美元但投了 1.5 亿美元，用来举例说明一旦确定对了就砸最多钱进去、放下自我
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3#^q8]]
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-08-03-lennys-chip-conley|《52岁入职Airbnb：年长者在科技公司怎么活下来、活得好》]] — 作为被讨论公司
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
@@ -34,14 +41,15 @@ unlisted: true
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
+- [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Revolut]] · [[智能体]] · [[Uber]] · [[Ramp]] · [[Cursor]] · [[Anthropic]] · [[Harry Stebbings]] · [[OpenAI]] · [[Chip Connolly]]
+[[Lenny]] · [[Revolut]] · [[Ramp]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Uber]] · [[Stripe]] · [[Cursor]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Revolut":4,"智能体":1,"Uber":6,"Ramp":4,"Cursor":41,"Anthropic":87,"Harry Stebbings":7,"OpenAI":76,"Chip Connolly":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Revolut":4,"Ramp":5,"智能体":1,"Anthropic":89,"OpenAI":77,"Uber":6,"Stripe":24,"Cursor":41,"Cognition":13}</script>
 
 <script>
 (function(){

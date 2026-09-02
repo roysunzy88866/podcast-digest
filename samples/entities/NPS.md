@@ -25,7 +25,7 @@ unlisted: true
 
 [[Noam Segal]] · [[Lenny]] · [[职业倦怠]] · [[认知衰退]] · [[同薪挤压]] · [[技能萎缩]] · [[经理有效性]] · [[大扁平化]] · [[冒名顶替综合征]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"Noam Segal":1,"Lenny":66,"职业倦怠":2,"认知衰退":1,"同薪挤压":1,"技能萎缩":1,"经理有效性":1,"大扁平化":1,"冒名顶替综合征":1,"Cognition":12}</script>
+<script type="application/json" class="pd-epn">{"Noam Segal":1,"Lenny":66,"职业倦怠":2,"认知衰退":1,"同薪挤压":1,"技能萎缩":1,"经理有效性":1,"大扁平化":1,"冒名顶替综合征":1,"Cognition":13}</script>
 
 <script>
 (function(){

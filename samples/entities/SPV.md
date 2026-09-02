@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SPV</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SPV">SP</div><div class="pi"><h1 class="pt">SPV</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SPV">SP</div><div class="pi"><h1 class="pt">SPV</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(29:02起):本集把它说成:独立于母公司的小型法律实体,被用来为数据中心筹集债务、购买 Nvidia GPU 并隐藏风险,将数千亿美元的表外债务切碎散布到整个经济中。
+- **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(21:03起):本集说它已经过时了，因为顶级公司如 Anthropic 和 Anduril 在使用 SPV 后非常痛苦，下一代创始人被告知永远不要做
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为概念
+- [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ranjan Roy]] · [[Alex]] · [[Google]] · [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[Tesla]] · [[AGI]] · [[次级数据中心危机]] · [[资本支出]]
+[[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[Ranjan Roy]] · [[Brian Singerman]] · [[Alex]] · [[Founders Fund]] · [[Google]] · [[GPX]] · [[Tesla]]
 
-<script type="application/json" class="pd-epn">{"Ranjan Roy":2,"Alex":4,"Google":34,"OpenAI":76,"Anthropic":87,"SpaceX":11,"Tesla":6,"AGI":16,"次级数据中心危机":1,"资本支出":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":77,"Anthropic":89,"SpaceX":12,"Ranjan Roy":2,"Brian Singerman":1,"Alex":4,"Founders Fund":1,"Google":34,"GPX":1,"Tesla":6}</script>
 
 <script>
 (function(){

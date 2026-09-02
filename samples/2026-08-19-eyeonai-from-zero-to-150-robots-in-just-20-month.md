@@ -133,6 +133,7 @@ Mike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 
 
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法]]<span class="pd-rz">同公司:Figure</span>
+- [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|别找"有棱角"的创始人，找能赢的人]]<span class="pd-rz">同公司:Anduril</span>
 
 </div>
 </div>

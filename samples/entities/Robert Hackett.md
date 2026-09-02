@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]]
+[[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"分词":3,"开源":9,"Stripe":23}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"分词":3,"开源":9,"Stripe":24}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Kriti Sharma]] · [[Craig Smith]] · [[Nexus Black]] · [[IFS]] · [[Anthropic]] · [[William Grant]] · [[Boston Dynamics]] · [[智能体]] · [[知识表征]] · [[管道和仪表图]]
 
-<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":87,"William Grant":1,"Boston Dynamics":2,"智能体":1,"知识表征":1,"管道和仪表图":1}</script>
+<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":89,"William Grant":1,"Boston Dynamics":2,"智能体":1,"知识表征":1,"管道和仪表图":1}</script>
 
 <script>
 (function(){

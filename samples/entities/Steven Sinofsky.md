@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]] [[Julien Bek]]
+[[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":87,"Theo Jaffe":5,"Martin Casado":3,"Sofia Puccini":3,"OpenAI":76,"监管俘获":3,"Google":34,"precautionary principle":1,"Microsoft":21,"开源":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":89,"Theo Jaffe":5,"Martin Casado":3,"Sofia Puccini":3,"OpenAI":77,"监管俘获":3,"Google":34,"precautionary principle":1,"Microsoft":21,"开源":9}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Chris Benson]] · [[Martin Casado]] · [[Daniel Whitenack]] · [[Steven Sinofsky]] · [[智能体]] · [[Google]] · [[企业软件]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":87,"OpenAI":76,"Chris Benson":5,"Martin Casado":3,"Daniel Whitenack":5,"Steven Sinofsky":2,"智能体":1,"Google":34,"企业软件":2,"Microsoft":21}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":89,"OpenAI":77,"Chris Benson":5,"Martin Casado":3,"Daniel Whitenack":5,"Steven Sinofsky":2,"智能体":1,"Google":34,"企业软件":2,"Microsoft":21}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Josh]] · [[Matt]] · [[OpenAI]] · [[药物发现]] · [[药物设计]] · [[抗体设计]] · [[蛋白质折叠]] · [[扩散模型]] · [[苦涩的教训]] · [[湿实验室]]
 
-<script type="application/json" class="pd-epn">{"Josh":1,"Matt":1,"OpenAI":76,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":1,"湿实验室":1}</script>
+<script type="application/json" class="pd-epn">{"Josh":1,"Matt":1,"OpenAI":77,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":1,"湿实验室":1}</script>
 
 <script>
 (function(){

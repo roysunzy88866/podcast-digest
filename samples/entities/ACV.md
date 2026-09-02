@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ACV</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ACV">AC</div><div class="pi"><h1 class="pt">ACV</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ACV">AC</div><div class="pi"><h1 class="pt">ACV</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(07:10起):本集把它说成:衡量企业销售合同金额的指标。嘉宾强调,做企业销售必须把 ACV 定在 7.5 万到 15 万美元之间,长期停留在 1 万美元的 ACV 会搞垮你的商业模式。
+- **[[2026-07-27-pmf-he-worked-out-of-a-police-department-for|《Peregrine 创始人：蹲点警局十八个月找 PMF》]]**(00:00起):本集提到 Peregrine 当前的平均 ACV 约为 25 万美元，早期则更小（约 5-10 万美元），用以说明在 ACV 不高的情况下投入多名工程师做集成短期内看起来投入产出比很紧。
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(16:36起):本集把它说成是衡量销售交易的指标：早期不用过度纠结具体金额，只要单体经济模型跨过健康的门槛，就去签尽可能多的合格单子，随后再逐渐攀升 ACV 阶梯。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为概念
+- [[2026-07-27-pmf-he-worked-out-of-a-police-department-for|《Peregrine 创始人：蹲点警局十八个月找 PMF》]] — 作为概念(提及)
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[PLG]] · [[Cursor]] · [[Jen Abel]] · [[Elena Berger]] · [[Lenny]] · [[Joe Schmidt]] · [[企业销售]] · [[Andy McCall]] · [[愿景描绘]] · [[Lighthouse]]
+[[PLG]] · [[Cursor]] · [[Anthropic]] · [[Jen Abel]] · [[Ben Rudolph]] · [[Elena Berger]] · [[Lenny]] · [[Peregrine]] · [[Joe Schmidt]] · [[企业销售]]
 
-<script type="application/json" class="pd-epn">{"PLG":6,"Cursor":41,"Jen Abel":1,"Elena Berger":3,"Lenny":66,"Joe Schmidt":1,"企业销售":1,"Andy McCall":1,"愿景描绘":1,"Lighthouse":1}</script>
+<script type="application/json" class="pd-epn">{"PLG":6,"Cursor":41,"Anthropic":89,"Jen Abel":1,"Ben Rudolph":2,"Elena Berger":3,"Lenny":66,"Peregrine":2,"Joe Schmidt":1,"企业销售":1}</script>
 
 <script>
 (function(){

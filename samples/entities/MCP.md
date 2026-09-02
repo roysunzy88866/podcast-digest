@@ -75,7 +75,7 @@ unlisted: true
 
 [[智能体]] · [[Claude]] · [[Claude Code]] · [[护栏]] · [[Codex]] · [[Anthropic]] · [[Lenny]] · [[LLM]] · [[Cursor]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude":45,"Claude Code":45,"护栏":1,"Codex":34,"Anthropic":87,"Lenny":66,"LLM":22,"Cursor":41,"Figma":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude":45,"Claude Code":45,"护栏":1,"Codex":34,"Anthropic":89,"Lenny":66,"LLM":22,"Cursor":41,"Figma":11}</script>
 
 <script>
 (function(){

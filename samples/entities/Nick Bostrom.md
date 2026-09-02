@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":4,"OpenAI":76,"Anthropic":87,"Hugging Face":15,"NVIDIA":24,"智能体":1,"对齐":6,"AI 安全":1,"护栏":1,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Alex":4,"OpenAI":77,"Anthropic":89,"Hugging Face":15,"NVIDIA":24,"智能体":1,"对齐":6,"AI 安全":1,"护栏":1,"开源模型":4}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]] [[Amol Avasare]] [[Lenny Rachitsky]] [[Michelle Rial]]
+[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]] [[Ben Rudolph]] [[Amol Avasare]] [[Lenny Rachitsky]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Andy McCall":1,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":2,"PLG":6,"Decagon":3}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Andy McCall":1,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":3,"PLG":6,"Decagon":3}</script>
 
 <script>
 (function(){

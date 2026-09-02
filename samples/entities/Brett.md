@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jay Parikh]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]] [[Adam Ward]]
+[[Brian Singerman]] [[Jay Parikh]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]]
 
 </div>
 

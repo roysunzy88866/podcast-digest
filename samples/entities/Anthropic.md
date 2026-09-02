@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>87</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>89</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -53,6 +53,7 @@ unlisted: true
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(04:45起):本集将其作为闭源垄断巨头的典型反复点名：被指投入大量资金推动禁止开源；既当裁判又当运动员下场抢夺应用层生意；甚至公然无视政府与国家安全，宣称「我们说了算」。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:00起):本集讨论的 AI 公司，拥有 Claude 系列模型，嘉宾在其中担任 AI 研究和实验室团队的产品负责人，讲述了公司早期摸索与押注编码能力的发展历程。
 - **[[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]]**(25:58起):本集说当 Anthropic 称'限制开源是打击中国的最好方式'时，真正受益的是 Anthropic 自己，因为被限制的不只是中国的开源模型，也包括美国的开源竞争对手
+- **[[2026-07-27-pmf-he-worked-out-of-a-police-department-for|《Peregrine 创始人：蹲点警局十八个月找 PMF》]]**(28:57起):本集主持人顺带提到，即使像 Anthropic 这样收入高速增长的公司，内部也并不轻松，用以说明'没有什么是容易的'。
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(07:00起):本集提到：作为现有巨头之一被提及（嘉宾还聊到了一部关于 Anthropic CEO Dario 的 AI 微剧）
 - **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:23起):本集在讨论 Transformer 是否见顶时提到，假设像 OpenAI 和 Anthropic 这样的大厂今天停止训练新模型，现有的静态模型随着现实世界新事件的出现，会变得越来越没用。
 - **[[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]]**(00:49起):本集称其采用宪法 AI 方法、宪法分类器（探针加阈值低设再升级到推理模型）、在 CBRN 风险上表现强劲、在生物领域没有发现通用越狱、阻止了中国用户注册但转售市场仍存在。
@@ -97,6 +98,7 @@ unlisted: true
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(35:33起):本集两处提及：一是说 Legora 早期基准测试中基本上只有 OpenAI 和 Anthropic 模型够好；二是说招聘时要和 Anthropic 等实验室争夺人才。
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(06:56起):本集在讨论开源 AI 时提到，作为私有模型代表，使用其模型需付 50 美元/百万 token，远贵于中国开源模型
 - **[[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]]**(00:09起):本集说 Anthropic 的 Claude 模型大概在 Opus 4.5 或 4.6 左右在数学能力上赶上 ChatGPT，且两者解决的题型非常相似
+- **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(33:33起):本集在讨论 SPV 问题时被提及，说有很多关于它和 SPV 的新闻，顶级公司对此很痛苦
 
 ## ① 提到它的金句
 
@@ -132,7 +134,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*87 集*
+*89 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -177,6 +179,7 @@ unlisted: true
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为被讨论公司
 - [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]] — 作为被讨论公司
+- [[2026-07-27-pmf-he-worked-out-of-a-police-department-for|《Peregrine 创始人：蹲点警局十八个月找 PMF》]] — 作为被讨论公司(提及)
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为被讨论公司
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]] — 作为被讨论公司
@@ -221,6 +224,7 @@ unlisted: true
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]] — 作为被讨论公司
+- [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -228,7 +232,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[NVIDIA]] · [[Meta]] · [[沙箱]] · [[Google]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":76,"Lenny":66,"Claude Code":45,"Claude":45,"NVIDIA":24,"Meta":25,"沙箱":35,"Google":34,"推理":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":77,"Lenny":66,"Claude Code":45,"Claude":45,"NVIDIA":24,"Meta":25,"沙箱":35,"Google":34,"推理":4}</script>
 
 <script>
 (function(){

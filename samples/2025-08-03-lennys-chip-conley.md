@@ -209,6 +209,7 @@ Becca Levy 在耶鲁的研究：如果你把对衰老的心态从消极转为积
 **顺着「组织与领导力」挖下去**
 
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|Keith Rabois：别招大厂高管，别做客户调研]]<span class="pd-rz">同公司:Airbnb</span>
+- [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|别找"有棱角"的创始人，找能赢的人]]<span class="pd-rz">同公司:Airbnb</span>
 
 </div>
 <div class="pd-ex">

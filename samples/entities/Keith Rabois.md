@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]]
+[[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"PayPal":3,"Square":3,"Faire":1,"Ramp":4,"Airbnb":9,"桶和弹药":1,"人才密度":3,"PM":3,"商业头脑":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"PayPal":3,"Square":3,"Faire":1,"Ramp":5,"Airbnb":10,"桶和弹药":1,"人才密度":3,"PM":3,"商业头脑":1}</script>
 
 <script>
 (function(){

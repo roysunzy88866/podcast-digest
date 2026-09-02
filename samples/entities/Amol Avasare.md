@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]] [[Lenny Rachitsky]] [[Michelle Rial]]
+[[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]] [[Ben Rudolph]] [[Lenny Rachitsky]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Anthropic":87,"OpenAI":76,"Meta":25,"Google":34,"Cursor":41,"Lovable":11,"Slack":23,"智能体编码":3,"能力过剩":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Anthropic":89,"OpenAI":77,"Meta":25,"Google":34,"Cursor":41,"Lovable":11,"Slack":23,"智能体编码":3,"能力过剩":2}</script>
 
 <script>
 (function(){
