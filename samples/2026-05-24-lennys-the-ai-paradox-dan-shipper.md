@@ -151,7 +151,7 @@ Dan 悟出一个道理:一个 AI 智能体要想真正有用,必须有一个关�
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor · 同概念:智能体 (agent)</span>
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:智能体 (agent)</span>
-- [[2026-08-09-lennys-the-playbook-for-building-high-talent|Cursor 人才负责人：别再掉进招聘的厄运漏斗]]<span class="pd-rz">同公司:Cursor · 同概念:前置部署工程师 (forward deployed engineer)、智能体 (agent)</span>
+- [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

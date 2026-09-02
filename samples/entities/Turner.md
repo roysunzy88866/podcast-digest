@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]] [[Michael Tannenbaum]]
+[[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]]
 
 </div>
 

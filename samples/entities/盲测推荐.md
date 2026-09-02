@@ -31,7 +31,7 @@ unlisted: true
 
 [[Brian Halligan]] · [[Lenny]] · [[HubSpot]] · [[Sequoia]] · [[MongoDB]] · [[Salesforce]] · [[Google]] · [[Microsoft]] · [[McKinsey]] · [[Delphi]]
 
-<script type="application/json" class="pd-epn">{"Brian Halligan":1,"Lenny":66,"HubSpot":4,"Sequoia":4,"MongoDB":3,"Salesforce":10,"Google":34,"Microsoft":21,"McKinsey":5,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"Brian Halligan":1,"Lenny":66,"HubSpot":4,"Sequoia":4,"MongoDB":3,"Salesforce":10,"Google":35,"Microsoft":21,"McKinsey":5,"Delphi":3}</script>
 
 <script>
 (function(){

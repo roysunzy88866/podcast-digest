@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Shreya Shankar":1,"评估":17,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":1,"trace":1,"Anthropic":89}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Shreya Shankar":1,"评估":17,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":1,"trace":1,"Anthropic":90}</script>
 
 <script>
 (function(){

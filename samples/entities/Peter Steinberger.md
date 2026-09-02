@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":77,"OpenClaw":14,"Codex":34,"Romain Huet":1,"Anthropic":89,"Raphael Schaad":1,"循环":3,"NVIDIA":24,"Claude Code":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":78,"OpenClaw":14,"Codex":35,"Romain Huet":1,"Anthropic":90,"Raphael Schaad":1,"循环":1,"NVIDIA":24,"Claude Code":45}</script>
 
 <script>
 (function(){

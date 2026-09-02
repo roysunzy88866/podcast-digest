@@ -27,7 +27,7 @@ unlisted: true
 
 [[Chelsea Finn]] · [[Mike LeBlanc]] · [[Waymo]] · [[Foundation]] · [[ChatGPT]] · [[人形机器人]] · [[物理 AI]] · [[执行器]] · [[强化学习]] · [[视觉-语言-行动模型]]
 
-<script type="application/json" class="pd-epn">{"Chelsea Finn":1,"Mike LeBlanc":1,"Waymo":10,"Foundation":1,"ChatGPT":45,"人形机器人":1,"物理 AI":6,"执行器":2,"强化学习":14,"视觉-语言-行动模型":1}</script>
+<script type="application/json" class="pd-epn">{"Chelsea Finn":1,"Mike LeBlanc":1,"Waymo":10,"Foundation":1,"ChatGPT":46,"人形机器人":1,"物理 AI":6,"执行器":2,"强化学习":14,"视觉-语言-行动模型":1}</script>
 
 <script>
 (function(){

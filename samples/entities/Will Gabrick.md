@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":2,"Stripe":24,"Stripe Minions":1,"智能体":1,"智能体商务":1,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":16}</script>
+<script type="application/json" class="pd-epn">{"David George":2,"Stripe":24,"Stripe Minions":1,"智能体":1,"智能体商务":2,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":16}</script>
 
 <script>
 (function(){

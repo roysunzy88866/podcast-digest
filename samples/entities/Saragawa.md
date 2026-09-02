@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
+[[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":21,"Azure":3,"GitHub":19,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":17,"轨迹":1,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":21,"Azure":3,"GitHub":20,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":17,"轨迹":1,"智能体":1}</script>
 
 <script>
 (function(){

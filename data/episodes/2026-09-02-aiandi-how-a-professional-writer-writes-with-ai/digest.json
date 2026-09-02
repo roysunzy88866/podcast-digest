@@ -1,0 +1,178 @@
+{
+  "title_zh": "被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史",
+  "tldr": "Every 全职撰稿人 Katie Parrott 对谈主持人 Natalia Quintero，讲她从拿 ChatGPT 当职业教练，到自建 Compound Writing 写作插件的完整方法与心得。",
+  "digest_md": "两年多前，Katie Parrott 还是个 AI 怀疑论者——刚被一家加密货币公司裁员，试过公司内部、外部、各种路线，觉得自己到了单打独斗的极限。雇真正的职业教练要一小时 150 美元左右，她付不起；ChatGPT 订阅一个月只要 20 美元。于是她把 ChatGPT 当成了职业教练，结果这段经历不仅帮她走出灾难化思维，还直接把她引向了 Every——收到写专栏邀请时拿不定主意，是 ChatGPT 推了她一把：「为什么不先试试？」她试了，现在成了 Every 的全明星撰稿人 [02:09–04:29]。\n\n## 上下文工程：写出「八篇博客+三本电子书+24 条 LinkedIn」的那个月\n\n2025 年初，她作为自由职业者过度承诺了：两周内要交付八篇博客文章、三本电子书、24 条 LinkedIn 帖子、24 条 X 帖子、16 条 Instagram 帖子。她能扛下来，靠的是当时还没名字、现在叫上下文工程的东西：给模型打一个非常好的基础——品牌信息、产品细节、受众细节——输出就能被塑造成想要的方向 [09:20–10:59]。\n\n那套东西从哪来？她的经验源自己在内容营销领域写风格指南：每个像样的品牌都有个事实来源，记录受众是谁、痛点是什么、产品如何对应痛点、竞争对手是谁、差异化优势是什么。她只是把这套自己熟悉的工作单元喂给了模型 [12:14–12:52]。当时 Claude 的项目功能还没出现，她只能把持久文档放在 Google 文档里手动复制粘贴进上下文窗口；项目功能上线后，她为每个自由职业客户、每个专栏都建了项目，配上自定义指令，不用再复制粘贴了 [11:45–13:16]。\n\n她的核心比喻是「护栏加围起来的游乐场」：先给模型画好可依循的轨道，你就不用太担心得到完全错误的东西。而且顺序很重要——先搭受众画像、数据、框架这些基础元素，才轮得到「用这些词、避免那些词、营造这种语气」这类句法层面的打磨 [13:47–15:40]。\n\n## 最后一公里：让写作独特的，是你喂进去的「食材」\n\n她对人类在 AI 写作中的角色有个鲜明判断：AI 写作存在最后一公里问题——模型有知识截止，总是在用过时几个月的数据工作。人类的工作就是弥合这最后一公里，提供 AI 拿不到的真实世界体验和独特洞见：你们公司产出的研究、你引入的第三方数据、你的个人经历 [15:57–17:03]。\n\n反过来，最常见的失败用法就是直接说「写一篇关于风格指南的文章」——基于模型已知的东西写，而模型已知的是商品化信息，既没用也没意思 [17:09–17:30]。她接受主持人的类比：模型是厨房，大纲是切菜，组织是煮，但食材必须新鲜够好，才能产出好作品——真正让写作独特的，是这些输入 [18:26–18:46]。\n\n## AI 作为「支持性技术」：从收件箱焦虑到拖了三年的看病预约\n\n她有双相情感障碍，大部分时间处在抑郁低谷。她发现 AI 不只是生产性技术（产出成果），作为支持性技术同样强大——它减少生活摩擦，让她更容易「当个人」[23:21–23:47]。\n\n例子很具体：预约初级保健医生这件事她拖了三年，后来意识到可以直接让 Codex 去找附近接受她保险、接收新病人的医生——它找到了，她预约上了。这种事她以前只会无限期拖延下去 [23:56–24:29]。收件箱也一样：她用 AI 过滤邮件，不再面对一整墙的订阅通知去找那颗「炸弹」，只处理真正需要人来回复的邮件；现在她通过 Codex 设了自动化，收件箱焦虑被完全解决了 [24:33–25:07]。\n\n## 职业教练 2.0：让 AI 面试你\n\n两年后的「职业教练」已经进化成 Codex 里的一个项目：有一份关于她和她的角色的档案、Every 的品牌定位（从市场负责人 Douglas 那里拿的），帮她排序优先级、做项目管理、像幕僚长一样指出「这是影响最大的事，先做这个」。它还替她维护看板——她从来不是能维护看板的人，但现在连碰都不用碰 [27:12–29:07]。\n\n项目里有什么？一个 evidence 文件夹：她定期从内容管理系统抓数据到电子表格，追踪帖子表现；还有一个她叫「验证文件夹」的东西，全是人们对她工作说过的好话——这帮模型理解读者对什么有积极反应、值得强化。再加上她的 Q2、Q3 OKR [29:25–30:15]。\n\n搭建方法来自同事 Alex Duffy 的技巧：让 AI 来面试你。她只说「问我问题，把我对这个的想法引出来」，然后给模型看一堆上下文文档，一直聊到系统按她设想的方式运作。这些文档也越来越不靠手动创建，AI 替她生成 [30:26–31:03]。\n\n## Compound Writing：把反馈固化成复利的写作插件\n\nCompounding 这个理念是：你给 AI 的每一条反馈，都应该回馈进系统、改进下一次输出——来自 Kieran Klassen 的复合工程插件，他开创了「一条反馈只给一次，固化好了就永远在那里」的做法 [32:38–33:11]。\n\n她做 Compound Writing 的方式很直接：fork 了复合工程插件，跟 Claude 说「我想把它改造成写作版」。因为写作和代码流程很像——头脑风暴、列大纲、起草、审查，只是容器不同：写代码看编码规范，写文章看结构、声音、论据。她内置了两级评审（看大局结构和论证的实质性编辑、看具体行文的逐行编辑）加最后一次发表前通读 [33:13–34:56]。她的原话：自己最好的 AI 点子都是从 Every 团队的人那里「抄」来的——这个插件基本就是复合工程加 Dan 的智能体原生架构指南 [35:01–35:10]。现在她写每篇东西都用它，不再待在聊天窗口里。\n\n插件里最有意思的是「名人审阅者」：她把冯内古特的八个故事结构要素（尽可能从接近结尾处开始写、每个句子都必须赢得自己的位置……）提炼成技能；把希区柯克的悬念原则——桌子底下的炸弹直接爆炸只有一刻惊讶，让观众知道炸弹五分钟后爆炸就有五分钟悬念——变成评估「能不能让读者凑近来看」的透镜；还有索金、塞达里斯管幽默。有经验的写作者也受益，因为她并不总能同时考虑所有这些视角 [38:58–40:56]。\n\n对非专业写作者，她认为这个插件甚至可能更有用——他们对写作没有强烈的既有观点，不容易挑剔，只会为自己能产出以前产不出的东西而兴奋。但她也提醒：用 AI 写作比你想象的难，它让她成了更好的写作者——她把插件比作健身房，一套让你变成更好写作者的锻炼系统 [38:22–39:04]。\n\n## 本集带走\n\n- **给模型先搭「事实来源」，再谈风格**：受众是谁、痛点是什么、产品如何对应、差异化在哪——这些基础元素立好了，模型才有轨道可跑；先抠词句是顺序颠倒。\n- **写作为你独有，靠的是最后一公里**：别让 AI「基于你已知的东西」写——那是商品化信息。喂进去的应是知识截止之后的数据、公司研究、个人经历这些模型拿不到的食材。\n- **让 AI 面试你**：说「问我问题，把我对这个的想法引出来」，比干等它输出更能挖出你真正想的东西——她整个职业教练系统就是这么拼起来的。\n- **反馈要固化，不要挥发**：每条给 AI 的纠正都写回系统（风格指南、技能、审阅者），下次同样情境它会做得更好——这就是 compounding。\n- **把崇拜的写作者变成审阅透镜**：冯内古特的故事要素、希区柯克的悬念原则都能提炼成可调用的评审技能，等于随时请一批杰出讲故事的人给你提意见。\n- **AI 的价值不只在产出，也在产出周围的一切**：预约医生、过滤收件箱、报销这类「电脑跑腿差事」，对心理健康状况不佳的人尤其改变巨大。",
+  "quotes": [
+    {
+      "en": "But then what the model already knows as commoditized information. Like that's not useful or interesting.",
+      "zh": "但模型已经知道的东西是商品化的信息，那既没用也没意思。",
+      "timestamp": "17:26",
+      "speaker": ""
+    },
+    {
+      "en": "It has fundamentally changed the scale of what I can do, the limits of what I use to bump up against time, energy, capacity are way lower.",
+      "zh": "它从根本上改变了我能做的事情的规模，我过去常常碰壁的时间、精力、能力等限制要低得多了。",
+      "timestamp": "19:12",
+      "speaker": ""
+    },
+    {
+      "en": "working with AI kind of made me fall in love with writing again, because for a long time writing to me had just felt like such a slog.",
+      "zh": "和 AI 一起工作让我重新爱上了写作，因为很长一段时间里，写作对我来说感觉就是一件苦差事。",
+      "timestamp": "20:08",
+      "speaker": ""
+    },
+    {
+      "en": "He was really the one to pioneer this idea that you should only have to give a piece of feedback once, but if you codify it the right way, it will be there forever and the next time you're in that same situation, the AI is going to make a better decision.",
+      "zh": "他真的是开创这个想法的人：你应该只需要给出一条反馈一次，但如果你以正确的方式把它固化下来，它就会永远在那里，而且下次你再处于同样的情境时，AI 会做出一个更好的决定。",
+      "timestamp": "32:58",
+      "speaker": ""
+    },
+    {
+      "en": "I always like all of my best AI ideas, I've ripped off from someone else on the every team.",
+      "zh": "我所有最好的 AI 点子，都是从 Every 团队上的某个人那里抄袭来的。",
+      "timestamp": "34:59",
+      "speaker": ""
+    },
+    {
+      "en": "It's made me a better writer. Like the analogy that I use for the Compound Writing plugin is that it's a gym.",
+      "zh": "它让我成为了一个更好的写作者。就像我给 Compound Writing 插件用的类比是，它是一个健身房。",
+      "timestamp": "38:56",
+      "speaker": ""
+    },
+    {
+      "en": "But if you have people sitting around the table and you show the audience the bomb under the table and say this bomb will go off in five minutes, now you have five minutes of suspense.",
+      "zh": "但如果你让一些人围坐在桌子旁，并且让观众看到桌子底下的炸弹，并说这颗炸弹将在五分钟后爆炸，那么现在你就有五分钟的悬念。",
+      "timestamp": "40:08",
+      "speaker": ""
+    },
+    {
+      "en": "Because AI does have this huge multiplicative capacity to end this compounding capacity. But the risk there is that value is going to compound to the small subset of people that happen to be early.",
+      "zh": "因为 AI 确实拥有这种巨大的倍增能力，去放大这种复利能力。但那里的风险在于，价值将会复合集中到那一小部分恰好早早入场的人身上。",
+      "timestamp": "46:26",
+      "speaker": ""
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:47",
+      "speaker": "Katie Parrott",
+      "en": "and get some of that same result of externalizing my thinking and getting an outside perspective and just holding me accountable for how I was thinking about my career journey",
+      "zh": "并得到一些同样的效果：外化我的思考，获得一个外部视角，并让我对自己思考职业旅程的方式负起责任"
+    },
+    {
+      "timestamp": "05:10",
+      "speaker": "Katie Parrott",
+      "en": "But once I write it down, it becomes obvious.",
+      "zh": "但一旦写下来，它就变得显而易见。"
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Katie Parrott",
+      "en": "Clarity, it turns out, doesn't arrive gift wrapped from a digital assistant or even a human coach.",
+      "zh": "事实证明，清晰并不会被礼品包装好、从数字助手那里送达，甚至也不会从一位人类教练那里送达。"
+    },
+    {
+      "timestamp": "06:41",
+      "speaker": "Katie Parrott",
+      "en": "The first thing it taught me is that I can use AI to make change in my life, which is something that I've continued to carry through over the last couple of years.",
+      "zh": "它教给我的第一件事就是，我可以用 AI 在我的生活中做出改变，这是我在过去几年里一直延续下来的事情。"
+    },
+    {
+      "timestamp": "09:26",
+      "speaker": "Katie Parrott",
+      "en": "but context engineering.",
+      "zh": "但就是上下文工程。"
+    },
+    {
+      "timestamp": "10:41",
+      "speaker": "Katie Parrott",
+      "en": "is just like you invest, at first it feels really effortful and you're spending a lot of time setting the scenes, like getting everything lined up, like in terms of your tools and your integrations and your context documents.",
+      "zh": "就是你得先投入，一开始感觉真的很费力，你要花很多时间布置场景，把一切都理顺，比如你的工具、你的集成、你的上下文文档。"
+    },
+    {
+      "timestamp": "13:53",
+      "speaker": "Katie Parrott",
+      "en": "I always think of is just like creating guardrails and kind of like a fenced in place for the model to play,",
+      "zh": "我总在想的就是，创建护栏，以及某种像是一个围起来的场地，让模型在里面玩耍。"
+    },
+    {
+      "timestamp": "16:03",
+      "speaker": "Katie Parrott",
+      "en": "sort of a last mile problem in writing in AI and writing, which is AI has that knowledge cut off, right?",
+      "zh": "AI 写作里存在某种最后一公里问题，那就是 AI 有那个知识截止，对吧？"
+    },
+    {
+      "timestamp": "17:30",
+      "speaker": "Katie Parrott",
+      "en": "But then what the model already knows as commoditized information. Like that's not useful or interesting.",
+      "zh": "但模型已经知道的东西是商品化的信息，那既没用也没意思。"
+    },
+    {
+      "timestamp": "19:12",
+      "speaker": "Katie Parrott",
+      "en": "It has fundamentally changed the scale of what I can do, the limits of what I use to bump up against time, energy, capacity are way lower.",
+      "zh": "它从根本上改变了我能做的事情的规模，我过去常常碰壁的时间、精力、能力等限制要低得多了。"
+    },
+    {
+      "timestamp": "20:07",
+      "speaker": "Katie Parrott",
+      "en": "working with AI kind of made me fall in love with writing again, because for a long time writing to me had just felt like such a slog.",
+      "zh": "和 AI 一起工作让我重新爱上了写作，因为很长一段时间里，写作对我来说感觉就是一件苦差事。"
+    },
+    {
+      "timestamp": "23:19",
+      "speaker": "Katie Parrott",
+      "en": "And what I found in my personal experience is that AI is just as powerful as a supportive technology.",
+      "zh": "而我在个人经历中发现的是，AI 作为一种支持性技术也同样强大。"
+    },
+    {
+      "timestamp": "23:36",
+      "speaker": "Katie Parrott",
+      "en": "my life in a way that like makes it easier for me to person.",
+      "zh": "我生活中的摩擦，以一种让我更容易“当个人”的方式减少了。"
+    },
+    {
+      "timestamp": "25:07",
+      "speaker": "Katie Parrott",
+      "en": "And so my inbox anxiety has been completely resolved.",
+      "zh": "于是我的收件箱焦虑被完全解决了。"
+    },
+    {
+      "timestamp": "32:45",
+      "speaker": "Katie Parrott",
+      "en": "So obviously for folks that follow every they'll be familiar with this from Kieran Klassen's compound engineering plugin.",
+      "zh": "所以显然，对于关注 Every 的人来说，他们会从 Kieran Klassen 的复合工程插件那里熟悉这一点。"
+    },
+    {
+      "timestamp": "33:02",
+      "speaker": "Katie Parrott",
+      "en": "He was really the one to pioneer this idea that you should only have to give a piece of feedback once, but if you codify it the right way, it will be there forever and the next time you're in that same situation, the AI is going to make a better decision.",
+      "zh": "他真的是开创这个想法的人：你应该只需要给出一条反馈一次，但如果你以正确的方式把它固化下来，它就会永远在那里，而且下次你再处于同样的情境时，AI 会做出一个更好的决定。"
+    },
+    {
+      "timestamp": "35:01",
+      "speaker": "Katie Parrott",
+      "en": "I always like all of my best AI ideas, I've ripped off from someone else on the every team.",
+      "zh": "我所有最好的 AI 点子，都是从 Every 团队上的某个人那里抄袭来的。"
+    },
+    {
+      "timestamp": "38:56",
+      "speaker": "Katie Parrott",
+      "en": "It's made me a better writer. Like the analogy that I use for the Compound Writing plugin is that it's a gym.",
+      "zh": "它让我成为了一个更好的写作者。就像我给 Compound Writing 插件用的类比是，它是一个健身房。"
+    },
+    {
+      "timestamp": "40:12",
+      "speaker": "Katie Parrott",
+      "en": "But if you have people sitting around the table and you show the audience the bomb under the table and say this bomb will go off in five minutes, now you have five minutes of suspense.",
+      "zh": "但如果你让一些人围坐在桌子旁，并且让观众看到桌子底下的炸弹，并说这颗炸弹将在五分钟后爆炸，那么现在你就有五分钟的悬念。"
+    },
+    {
+      "timestamp": "46:26",
+      "speaker": "Katie Parrott",
+      "en": "Because AI does have this huge multiplicative capacity to end this compounding capacity. But the risk there is that value is going to compound to the small subset of people that happen to be early.",
+      "zh": "因为 AI 确实拥有这种巨大的倍增能力，去放大这种复利能力。但那里的风险在于，价值将会复合集中到那一小部分恰好早早入场的人身上。"
+    }
+  ],
+  "voice_script": "两年多前，Katie Parrott 刚被一家加密货币公司裁掉，试遍了内部外部各种路子，觉得单打独斗到头了。真正的职业教练一小时一百五十美元，付不起；ChatGPT 一个月二十块。结果呢？这个曾经的 AI 怀疑论者，就这么把 ChatGPT 当成了自己的职业教练——而且这一用，直接用进了 Every,现在成了全明星撰稿人。\n\n这一期，就聊聊这两年她是怎么把 AI 一点点编织进工作和生活的。\n\n第一个转折，发生在 2025 年初。那会儿作为自由职业者，她接了个夸张的活：两周之内，八篇博客、三本电子书、二十四条 LinkedIn、二十四条 X、十六条 Instagram。听着就头皮发麻，对吧？扛下来靠的，是当时还没有名字、现在叫上下文工程的东西。说白了就是：先给模型打一个特别好的底子——品牌是什么、产品细节、受众是谁——输出自然就被塑造成你想要的方向。\n\n这套底子哪来的？不是什么新发明。她以前在内容营销领域写风格指南，每个像样的品牌都有个事实来源，记录受众、痛点、产品怎么对应痛点、对手是谁。她只是把自己熟悉的那套工作单元，原样喂给了模型。那会儿 Claude 的项目功能还没上线，只能放 Google 文档里手动复制粘贴；功能一出，每个客户、每个专栏都建了项目，再也不用粘来粘去。\n\n这里有个比喻特别值得记：护栏加围起来的游乐场。先给模型画好轨道，就不用太担心跑偏。而且顺序很重要——先搭受众画像、数据、框架这些基础，然后才轮得到\"用这些词、避免那些词\"这种句法层面的打磨。一上来就抠字眼，等于顺序全反了。\n\n那写作里，人的角色到底是什么？她的判断很鲜明：AI 写作有个最后一公里问题。模型有知识截止日期，永远在用过时几个月的数据干活。人的工作，就是弥合这最后一公里——喂进去模型拿不到的东西：你们公司自己的研究、第三方数据、你的亲身经历。\n\n反过来，最常见的失败用法就是一句\"写一篇关于风格指南的文章\"。模型已经知道的东西，是商品化信息，那既没用也没意思。主持人打了个比方她特别认：模型是厨房，大纲是切菜，组织是煮——但食材必须新鲜够好，才出得了好作品。\n\n不过这期最打动我的，反而不是生产力那部分。她有双相情感障碍，大部分时间在抑郁低谷里。她发现 AI 不只是生产性技术，作为支持性技术同样强大——说白了，它减少生活摩擦，让人更容易\"当个人\"。预约个初级保健医生，她拖了三年；后来直接让 Codex 去找附近收她保险、收新病人的医生，真找到了，真约上了。收件箱也一样，AI 先过滤，只处理真正需要人回复的邮件，焦虑直接清零。\n\n那两年的\"职业教练\"进化成什么样了？现在是 Codex 里的一个项目：里面有她的角色档案、Every 的品牌定位，帮她排优先级、像幕僚长一样提醒\"这是影响最大的事，先做这个\"，连看板都替她维护——她从来就不是能坚持维护看板的人。项目里还有个\"验证文件夹\"，存的全是别人对她工作说过的好话，帮模型理解读者喜欢什么。搭这套系统的方法来自同事 Alex Duffy,就一句话：让 AI 来面试你。问问题，把你的想法引出来——比干等它输出，强太多了。\n\n最后是那个写作插件，Compound Writing。理念是：每一条给 AI 的反馈，都应该回馈进系统——一条反馈只给一次，固化好了就永远在那里。她 fork 了同事的复合工程插件，改成写作版，内置两级编辑加发表前通读。最妙的是\"名人审阅者\"：冯内古特的八个故事要素、希区柯克的悬念原则——桌子底下的炸弹直接炸只有一刻惊讶，让观众知道五分钟后会炸，就有五分钟悬念——全都提炼成评审透镜。等于随时请一批杰出讲故事的人给你提意见。\n\n有句话想留给你。问她这两年最大的收获，答案不是效率，是：和 AI 一起工作，让她重新爱上了写作——因为很长一段时间里，写作对她来说就只是苦差事。插件是个健身房，不是替你锻炼的机器，是让你练成更好的写作者的那套系统。"
+}

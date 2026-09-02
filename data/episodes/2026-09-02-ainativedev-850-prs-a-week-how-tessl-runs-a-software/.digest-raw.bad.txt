@@ -1,0 +1,133 @@
+===标题===
+从技能到循环到工厂：一家公司怎么把开发全交给智能体
+===导语===
+TESL 产品负责人 Drew 讲述公司如何转向「软件工厂」：一周 850 个 PR 中 85-90% 完全由智能体处理，并分享技能、循环、验证器等具体构建方法。
+===正文===
+一周 850 个 PR,其中 85-90% 完全由智能体处理,人类只在关键节点出手——这不是实验,而是 TESL 产品负责人 Drew 描述的自己公司的日常运转状态。这一集他和主持人 Guy Fajani 聊的是 TESL 过去两三个月的转变:从一款帮你管理「上下文」的工具,扩展成一个帮你搭「软件工厂」的平台。他们还拍了一部以 Kikimora 命名的迷你纪录片——那是东欧传说里会在夜里帮你打扫房子的精灵,但前提是你把家里打理好;如果你把家搞得一团糟,它会把事情弄得更糟。Drew 觉得这是对智能体最贴切的类比:你把工作整理得井井有条,智能体给你超能力;你不负责任,它们给你反超能力。
+
+先厘清三个核心概念。**技能(skill)**是智能体的工作单元:要么是一个你想完成的工作流,要么是你希望智能体遵守的一项标准或政策——包括 hooks、MCP 工具等任何能打包进插件的东西,只是「技能」是最流行的叫法。**循环(loop)**是自动化运行的技能:启动不需要人工干预,而且随运行会有某种元过程让下一次跑得更好,于是收益开始复利式增长,而不只是线性提升。**工厂(factory)**则是一种工作方式:你把几乎所有开发转移到循环的创建、维护和监控上,循环产出了你大部分产品代码。人类的去向是判断标准——转向工厂后,你的时间主要花在维护循环、让循环变得更好上,甚至要创建循环来监控循环、用仪表盘做控制平面管理 [05:01 Drew][06:24 Drew]。
+
+## 工厂带来了什么:不止是快
+
+速度提升是意料之中的,但有两件事 Drew 事先没猜到。第一是**质量提升**:有了额外容量,你不会全部拿去堆新功能——他设计团队的一位成员一口气合入了 13 个 PR,全是修文案一致性、品牌语调、删多余边框这种原本只会在待办清单上永远搁置的事。第二是**人员可互换性**:设计师提交的 PR 能被合入,GTM 团队能直接改营销网站不用等工程支持,工程师能自己写规格说明——每个人都能做高杠杆的事,不用操心「谁来接手、怎么交接」[11:27 Drew]。另外 Guy 从管理视角补充:转向工厂也意味着从单人自动化走向多人协作——以前各人自动化各自的、非常孤立;而且一切跑在云端定义好的工作流里,系统变得透明可观测,安全上也更容易识别和控制风险 [09:34 Guy Fajani]。
+
+## 为什么必须先写下「正确是什么」
+
+TESL 的核心信念是:要自动化一件事,你得先坐下来定义什么是正确的。Guy 用生日礼物打比方——问你生日想要什么,你说「随便,你看着办」,那你每年总会收到几个失望的礼物。很多「 vibe coding(凭感觉指挥智能体写代码)」产出的软件就是这种情况 [13:41 Guy Fajani]。
+
+代码审查是最典型的试金石。大多数团队的路径是:装一个 GitHub 应用,点几下按钮,智能体就开始审 PR、抓 bug——像多巴胺刺激一样爽。但几周后就会发现:多抓了几个 bug、合并快了一点,然后就停滞了,没有指数级的复利收益,代码质量还是问题。Drew 的诊断是:你撞墙是因为跳过了基本功——「想不锻炼就练出大块肌肉,不吃蔬菜就想变健康」[17:56 Drew]。不把标准写下来,至少有两个代价:一,标准无法复用——你想让智能体在开发时就按标准写代码、想让自动化任务定期清扫代码库抓漏网之鱼、想把标准迁移到新仓库,全都做不到;二,无法精细化——前端 PR 在意 ARIA 属性(无障碍访问属性)和可访问性,后端 PR 则完全不用查这些,该关注脆弱性和组件复用。走向工厂后人类要退出代码审查,通用审查达不到 100% 质量,你必须能对每个组件说出「这是你要检查的全部事项」[18:29 Drew][20:02 Drew]。
+
+## 技能清单:给上下文做资产管理
+
+过去两三个月,TESL 在技能层推出的最大功能是**技能清单/上下文清单**:一个命令行工具加 GitHub 应用,装到全部仓库后扫描出所有喂给智能体的上下文(技能、agents MD、插件市场等),然后帮你推理——发现过时上下文(你从 Anthropic 市场装的技能已落后四个版本,要不要更新?);发现同一技能散落五处,帮你统一到维护源头并让下游跟上最新版;发现多人各自解决同一问题产生的重复上下文,帮你统一后集中改进;发现技能与代码脱节(写了个后端贡献指南,代码早已漂移)——帮你识别并更新 [22:51 Drew]。Guy 说他们原以为这是个速赢功能,结果越做越深,而且清单成了通往安全策略、治理等工具的入口:现在可以要求「品牌语调或代码审查技能必须存在于每个仓库」,清单成了组织级技能管理的核心控制平面。Guy 类比自己出身的安全行业:扫描全部仓库、盘点全部依赖、评估可信度——和 Wiz 这类云安全工具的思路同构 [26:01 Drew][26:28 Guy Fajani]。
+
+另外两件值得注意的事:TESL 把支持范围扩展到了工程之外——上下文清单化后,市场、销售、支持团队也能做版本管理、分发和部署,而且不需要教销售 Git 工作流;技能可以集中在 TESL registry 管理再同步到各家 marketplace,好处是不被单一厂商绑定、有带版本的生命周期能防回归 [27:13 Drew][27:30 Guy Fajani]。
+
+## 验证器:给技能装上「执行强制」的那一半
+
+技能是把工作流编码成 Markdown,但智能体并不一定会遵循 Markdown——怎么办?TESL 构建了**验证器(verifier)**:从技能自动生成非常聚焦、高准确率、又快又便宜的「LLM 即裁判」检查工具。例子:技能写着「所有前端组件必须带 ARIA 属性」,就生成一个验证器——对每个改动的 TSX/JSX 文件扫描所有 React 组件,检查 ARIA 属性。因为 prompt 极简单,裁判模型可以很小很便宜,快到可以直接跑在 CI 里——TESL 内部就是这么干的。这样技能就有了「执行强制」的那一半:你写下好的样子,验证器放进 CI/CD 保证它被遵循,把开发拉回那个确定性的世界 [28:35 Drew]。
+
+关于「坐下来写下所有标准很吓人」,Guy 给了一个关键松绑:大约三个月前他们意识到,大量正确性可以从**历史行为中提取**——把代码审查评论、PR 历史交给 Tesla 智能体,让它提炼出标准文档,之后在迭代中演化。不需要痛苦地手写一切,但「你正在评审的、你拥有的东西,确实应该成为你指令的领域」——而你越信任那套指令集和验证器,就能给智能体越多自主权,获得的价值也越多 [31:33 Guy Fajani][32:43 Drew]。
+
+## Tesla 代码审查:一个循环的完整样本
+
+TESL 自己也撞过那堵墙:原有代码审查工具很好,但扩展到工厂规模后,收益无法复合,审查代码花的时间降不下来。他们退一步想明白了缺什么:①标准要**左移**——审查中发现的同样问题应该在开发阶段就避免;②要有信心漏网的会被抓住——需要审查之后自动清扫代码库的循环。于是 TESL 代码审查的核心设计是「技能驱动」:标准被拆成一个个可独立使用的技能,叫**透镜(lens)**——你可以挂任意数量的技能,指定每个透镜适用的文件模式,PR 提交时按文件模式触发对应透镜审查 [37:45 Drew]。
+
+这样做的好处是连锁的:同一组技能可以在开发时喂给智能体、在维护智能体和自动化清扫中复用;技能连接到整个上下文平台,可评估、优化、跨仓库共享;而且审查会**反向回馈**上下文平台——代码审查是「哪里出了问题」的极丰富来源,它会寻找缺失的上下文、没起作用的技能并建议改进,让问题不必等到审查时才被抓。开发和审查的标准彼此回馈,才产生复利收益 [39:50 Drew]。Guy 总结与通用审查工具的三个差异:一,你拥有它——技能和调优都是你的,可精调查找内容和扫描深度、模型投入;二,因为具体,它就是更好——「具体性基本上是所有质量的标尺」,一个指令清晰的具体任务必然胜过泛泛的「这样找代码坏味道」,虽然这没什么算法突破,但结果就是找到更多问题、更快、噪音更少;三,它是通往工厂的路径——工厂收到工单直接实现时,不必等代码签入成 PR 才审查,把审查技能作为工厂流程内嵌运行即可 [41:18 Guy Fajani][42:17 Drew]。
+
+## 工厂组件:自动化平台与「永远在路上」
+
+工厂对 TESL 还是比较初期的部分,因为他们是陪客户一起走过技能→循环→工厂的旅程,客户更迫切的需求先是技能、然后是循环。两种维护循环今天就能搭:**软件维护循环**(找并修复不稳定测试、定期架构审查、补测试覆盖率、依赖升级)和**上下文维护循环**(审查技能日志、改进技能)。这些都可以由技能驱动,可以先手动跑几次确认有效,再转成循环,也可以随时拉回来——你始终坐在驾驶座上 [35:02 Guy Fajani]。
+
+支撑工厂运转的第一个组件是**自动化平台**:把你创建的上下文按计划部署运行(即将支持 webhooks 和更多触发器),可以声明工作流需要 Slack、Notion、每周五运行,可以选最便宜的模型拿到够用的质量而不多付钱。关键在后半段:所有运行自动捕获日志,你可以再建自动化来审查日志、基于真实使用改进技能;所有自动化默认多人协作可见、可分享、可设权限 [45:14 Drew]。
+
+Guy 强调两点:第一,工厂是一个**连续过程**而非终点——你会不断做循环,直到大部分工作变成维护循环和造监控循环,「越来越 loopy」,自然过渡到工厂。第二,每家公司都应该**拥有自己的工厂**,而且会有多个工厂(按仓库、业务部门划分)——工厂就是你对「什么是正确的」的定制定义,是新的软件工程;但这不等于每部分都自己造,可复用的组件(可观测性、上下文捕获与评估、调度、访问控制、仪表盘)由工具提供,定制部分自己建 [44:38 Drew][47:02 Guy Fajani]。
+
+## 本集带走
+
+- **顺序不能倒**:先写标准、再自动化、后工厂。直接上通用代码审查工具会有一个小的初始提升,然后停滞——没有「写下什么是好的」这一步,标准无法复用、无法精细化,收益无法复合。
+- **标准可以从历史中提取**:不必手写三周文档,把 Tesla 智能体指向 PR 历史、工单、Slack,让它提炼出代码审查标准,再迭代演化即可。
+- **技能 + 验证器 = 定义 + 强制**:技能写「好的样子」,从技能生成便宜到能跑在 CI 里的验证器,保证它真的被遵循——你越信任验证器,就能给智能体越多自主权。
+- **代码审查用透镜而非通用工具**:按文件模式挂载不同的标准技能(前端查可访问性、后端查脆弱性),同一组技能在开发、审查、清扫中复用,审查结果再回馈改进技能本身。
+- **工厂是连续体不是终点**:从手动跑技能开始,有效了转成循环,循环多了自然过渡到工厂;每家公司该拥有自己的工厂(那是「何为正确」的定义),但可复用组件不必自己造。
+===金句===
+00:00 | Drew
+We hit a peak of something like 850 PRs in a week, and 85-90% of those were handled by agents entirely.
+ZH | 我们曾达到一周大约 850 个 PR 的峰值，其中 85-90% 完全由智能体处理。
+
+00:31 | Drew
+Things that would have just lingered on a backlog can actually now get done.
+ZH | 那些原本只会在待办清单上一直搁置的事情，现在真的可以完成了。
+
+03:54 | Drew
+Like if you're keeping your house in order, agents give you superpowers. If you're being irresponsible, they give you anti-superpowers, right?
+ZH | 就像如果你把家里打理得井井有条，智能体就会给你超能力。如果你不负责任，它们会给你反超能力，对吧？
+
+05:57 | Drew
+And so you start to get compounding gains, you start to see agents sort of inflecting your productivity upwards faster than just linear.
+ZH | 于是你开始获得复利式的收益，你开始看到智能体让你的生产率以超过单纯线性的速度向上拐升。
+
+06:50 | Drew
+When you move to the factory, you're mostly spending your time maintaining the loops uh and thinking about how to make them better.
+ZH | 当你转向工厂时，你大部分时间都花在维护循环上，以及思考如何让它们变得更好。
+
+08:24 | Drew
+And so that was where we made the decision like we're gonna go full factory, we're gonna build out a system where basically all of our work, all of our PRs are created by agents.
+ZH | 于是我们就此做出决定：我们要全面转向工厂模式，我们要建立一个系统，基本上我们所有的工作、所有的 PR 都由智能体来创建。
+
+11:33 | Drew
+Maybe a lot of people when they think software factories or agents, they're sort of expecting a speed up or hoping for a speed up.
+ZH | 也许很多人想到软件工厂或智能体时，他们是在期待一个提速，或者希望能提速。
+
+11:55 | Drew
+Some of it, like one of the members of my design team was saying, I just put up and landed 13 PRs that were all about fixing consistency and uh copy and brand voice and like removing borders that weren't supposed to be there.
+ZH | 其中一部分，比如我设计团队的一位成员说，我只是提交并合入了 13 个 PR，全都是关于修复一致性的，呃，文案和品牌语调，以及移除那些本不该存在的边框。
+
+13:50 | Guy Fajani
+You may or may not be happy with it, you know, if I you know use that sort of approach to buy you every year, you know, that gift, you know, some of them will be disappointments.
+ZH | 你可能满意也可能不满意，你知道，如果我每年都用这种方式给你买礼物，你知道，其中一些会让你失望的。
+
+18:09 | Drew
+Uh, there is a certain amount of you have to write down what good looks like.
+ZH | 呃，在某种程度上，你必须写下「好」是什么样子。
+
+20:02 | Drew
+And in fact, this specificity, you know, being able to tune exactly what you're reviewing becomes increasingly important as you move towards factory because really the volume a factory is going to put out, you have to get humans out of the loop for code review.
+ZH | 而且实际上，这种特异性，你知道的，能够精确调整你正在审查的内容，在你走向工厂的过程中变得越来越重要，因为说真的，工厂将要产出的量，你必须让人类退出代码审查的循环。
+
+25:14 | Guy Fajani
+It's amazing how uh unimaginative we are when we think about sort of ideas uh for uh for skills on it, like a lot, a lot of duplicates, which makes sense, but then you know that creates problems, you know, it's not just wasteful because the knowledge doesn't accumulate in one spot.
+ZH | 令人惊讶的是，我们在思考关于技能的想法时是多么缺乏想象力，比如很多、很多重复，这说得通，但你知道这会产生问题，你知道，这不仅仅是浪费，因为知识不会在一个地方积累。
+
+29:55 | Drew
+And so as a result, it basically gives you the enforcement half of a skill.
+ZH | 于是，它基本上就给了你一个技能中「执行强制」的那一半。
+
+32:06 | Guy Fajani
+So it's not that it's a real burden that you need to sit down and kind of write down, you know, kind of uh painfully uh uh all of those instructions, but it's you know, if there's a thing that you are reviewing, if there's a thing that you own, it really should be these domains of your instructions.
+ZH | 所以这并不是一个真正的负担，并不是你需要坐下来痛苦地写下所有那些指令；而是说，如果有某件你正在评审的事，有某件你拥有的东西，那它真的应该成为你指令的这些领域。
+
+32:34 | Drew
+And yeah, I think it's just worth pointing out that that the Tesla agent exists to try and make it not feel like going to the gym or eating your vegetables.
+ZH | 而且是的，我觉得值得指出的一点是：Tesla agent 的存在，就是为了让这件事感觉不像去健身房或吃蔬菜。
+
+40:36 | Drew
+You want them to feed back into each other to create compounding gains.
+ZH | 你希望它们彼此回馈，以创造复利式收益。
+
+42:17 | Drew
+Specificity basically is the ruler of all quality.
+ZH | 具体性基本上是所有质量的标尺。
+
+44:45 | Drew
+It's not a final state. You're not going to say, okay, I've made a few loops, now I will have a factory, and in two months I'll be done.
+ZH | 它不是一个最终状态。你不会说，好，我已经做了几个循环，现在我就有了一个工厂，两个月后我就完工了。
+
+47:07 | Guy Fajani
+In fact, we think there will be a plurality of factories, right?
+ZH | 事实上，我们认为会存在多个工厂，对吧？
+
+47:20 | Guy Fajani
+It's the new software engineering.
+ZH | 它就是新的软件工程。
+===END===

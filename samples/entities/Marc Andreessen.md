@@ -80,11 +80,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
+[[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Robert Hackett":1,"AI":12,"清晰法案":1,"生产力增长":1,"稳定币":1,"一对一辅导":1,"加密货币":1,"超级赋能个体":1,"区块链":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Robert Hackett":1,"AI":13,"清晰法案":1,"生产力增长":1,"稳定币":1,"一对一辅导":1,"加密货币":1,"超级赋能个体":1,"区块链":2}</script>
 
 <script>
 (function(){

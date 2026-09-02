@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]]
+[[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":19,"Terraform":1,"Hashicorp":1,"Kubernetes":5,"开源":9,"智能体":1,"PR":5,"AI":12,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":20,"Terraform":1,"Hashicorp":1,"Kubernetes":5,"开源":9,"智能体":1,"PR":5,"AI":13,"工匠精神":1}</script>
 
 <script>
 (function(){

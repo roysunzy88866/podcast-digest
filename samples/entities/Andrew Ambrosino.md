@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]]
+[[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Codex":34,"OpenAI":77,"ChatGPT":45,"Linear":6,"智能体":1,"品味":8,"原型":3,"主观能动性":16,"策展":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Codex":35,"OpenAI":78,"ChatGPT":46,"Linear":6,"智能体":1,"品味":8,"原型":3,"主观能动性":16,"策展":1}</script>
 
 <script>
 (function(){

@@ -167,9 +167,9 @@ Kitsa 的观点很直白：这个行业大多数人是"薪水过高用来瞎搞"
 
 **换个口味**
 
+- [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Claude、Codex · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|创始人为什么要公开讲话：Replit Amjad 的叙事法则]]<span class="pd-rz">同公司:Claude · 同概念:vibe coding、智能体 (agent)</span>
-- [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|Opus 5：神经质但干活最强的评测]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

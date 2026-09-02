@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[浏览器使用]] · [[Codex]] · [[ChatGPT]] · [[Slack]] · [[Lenny]] · [[Claude]] · [[Claire]] · [[Claire Vo]] · [[计算机使用]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"浏览器使用":4,"Codex":34,"ChatGPT":45,"Slack":23,"Lenny":66,"Claude":45,"Claire":3,"Claire Vo":4,"计算机使用":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"浏览器使用":4,"Codex":35,"ChatGPT":46,"Slack":23,"Lenny":66,"Claude":46,"Claire":3,"Claire Vo":4,"计算机使用":6}</script>
 
 <script>
 (function(){

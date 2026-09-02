@@ -45,7 +45,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[后训练]] · [[Stripe]] · [[ChatGPT]] · [[Lenny]] · [[前向部署工程师]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":89,"智能体":1,"OpenAI":77,"Meta":25,"后训练":17,"Stripe":24,"ChatGPT":45,"Lenny":66,"前向部署工程师":6,"NVIDIA":24}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":90,"智能体":1,"OpenAI":78,"Meta":25,"后训练":17,"Stripe":24,"ChatGPT":46,"Lenny":66,"前向部署工程师":6,"NVIDIA":24}</script>
 
 <script>
 (function(){

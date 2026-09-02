@@ -1,0 +1,915 @@
+{
+  "episode_id": "2026-09-02-a16z-inside-modernas-personalized-cancer-vacc",
+  "podcast": "The a16z Show",
+  "date": "2026-09-02",
+  "tags": [
+    "mRNA 疗法",
+    "癌症疫苗",
+    "个性化医疗",
+    "生物制药",
+    "监管"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "st-phane-bancel",
+      "type": "person",
+      "role": "host",
+      "name": "Stéphane Bancel",
+      "file": "Stéphane Bancel",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "jorge-conde",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jorge Conde",
+      "file": "Jorge Conde",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            143.119,
+            146.86
+          ],
+          "quote": "I'm Jorge Conde, a general partner on the A6NZ Bio and Health team.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "moderna",
+      "type": "company",
+      "role": "company",
+      "name": "Moderna",
+      "file": "Moderna",
+      "primary": true,
+      "how_described": "本集主角公司：用 mRNA 技术做个体化癌症疗法，与 Merck 合作的黑色素瘤三期试验取得积极结果，工厂在马萨诸塞州已就绪，希望 2027 年上市",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            64.868,
+            72.852
+          ],
+          "quote": "Before Moderna's mRNA platform helped produce a COVID vaccine, the company was already working toward another goal, using mRNA to fight cancer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            77.354,
+            87.839
+          ],
+          "quote": "A16Z General Partner Jorge Cande sits down with Moderna CEO Stephan Bancel following positive phase three results from Moderna and Merck's individualized mRNA treatment for melanoma.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            88.56,
+            92.382
+          ],
+          "quote": "It's the culmination of a project Moderna has been working on for roughly a decade.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            93.082,
+            107.286
+          ],
+          "quote": "Stefan explains how Moderna takes a patient's tumor, sequences it against their healthy cells, identifies the mutations unique to that cancer, and uses that information to manufacture a personalized mRNA designed to teach the immune system what to attack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            147.5,
+            152.182
+          ],
+          "quote": "I am thrilled today to welcome back Moderna CEO, Stéphane Boncel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            162.005,
+            191.832
+          ],
+          "quote": "When we were talking about all of the work Moderna did to bring us the mRNA COVID vaccine, and at the time, if you can go back and listen to that episode, you'll hear how quickly Moderna was able to react to the existence of the virus, to analyze it, to essentially print a vaccine that would protect people against the COVID-19 vaccine and hence put us in a much better position with respect to the COVID pandemic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            196.778,
+            211.215
+          ],
+          "quote": "And the reason why we're talking again today in August 2026 is because Moderna has put out news on a really big advancement on what they can do with mRNA technology when it comes to cancer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 39,
+          "t": [
+            221.86,
+            232.589
+          ],
+          "quote": "Moderna and Merck announced earlier this month in August that you had conducted a phase three clinical trial in melanoma and have gotten very encouraging results.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            238.316,
+            242.305
+          ],
+          "quote": "And then I do want to dig in into what Moderna is doing in cancer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            513.613,
+            523.645
+          ],
+          "quote": "And so what we try to do with Merck and Israeli technology that emerged from Moderna Labs back in 2015, 2016, when we did a partnership with Merck as we were looking for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            706.147,
+            709.349
+          ],
+          "quote": "You and Moderna and Merck have succeeded here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            959.525,
+            961.746
+          ],
+          "quote": "Is this something of proprietary to Moderna?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1083.464,
+            1091.571
+          ],
+          "quote": "Well, it's exactly the same for Intismaran, which is the current version of Intismaran that Moderna is the worst version of Intismaran you're going to see for the rest of medical history.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1134.428,
+            1138.71
+          ],
+          "quote": "So I've had the benefit of seeing the Moderna from the earliest days.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1578.197,
+            1589.963
+          ],
+          "quote": "Number one, do the future SIDs of the world come to Moderna, or is this end-of-one phenomenon something that you think will just happen and exist in parallel?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1591.032,
+            1596.834
+          ],
+          "quote": "So I think they will come most of them to Moderna because it will just going to be easier and safer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1958.432,
+            1967.816
+          ],
+          "quote": "For patients with stage 1 lung cancer, but as intismarin, so Moderna's product, as a monotherapy without checkpoint.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "merck",
+      "type": "company",
+      "role": "company",
+      "name": "Merck",
+      "file": "Merck",
+      "primary": true,
+      "how_described": "本集说它是免疫疗法领域最好的公司之一，2015/2016 年起与 Moderna 合作开发个体化 mRNA 癌症疗法，三期结果为两家共同宣布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            77.354,
+            87.839
+          ],
+          "quote": "A16Z General Partner Jorge Cande sits down with Moderna CEO Stephan Bancel following positive phase three results from Moderna and Merck's individualized mRNA treatment for melanoma.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            221.86,
+            232.589
+          ],
+          "quote": "Moderna and Merck announced earlier this month in August that you had conducted a phase three clinical trial in melanoma and have gotten very encouraging results.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            247.464,
+            261.228
+          ],
+          "quote": "So, indeed, last week now, we shared the news with our colleagues at Merck that after working 10 years on an individualized treatment against cancer using mRNA technology, that the Phase 3 was positive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            513.613,
+            523.645
+          ],
+          "quote": "And so what we try to do with Merck and Israeli technology that emerged from Moderna Labs back in 2015, 2016, when we did a partnership with Merck as we were looking for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            706.147,
+            709.349
+          ],
+          "quote": "You and Moderna and Merck have succeeded here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1662.645,
+            1670.048
+          ],
+          "quote": "So in other words, you mentioned earlier, you along with Merck will prepare a regulatory filing soon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2041.624,
+            2045.645
+          ],
+          "quote": "But because the mechanism of action is different from a checkpoint, we at Merck",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mrna",
+      "type": "concept",
+      "role": "concept",
+      "name": "mRNA",
+      "file": "mRNA",
+      "primary": true,
+      "how_described": "本集称之为「信息分子」——工厂只需拿到序列「文件」即可全合成、全酶促生产；在免疫细胞内部翻译并从内部呈递，是与以往蛋白质/多肽疫苗的关键差异",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.436,
+            18.339
+          ],
+          "quote": "What is it about mRNA technology that enables the immune system to learn in a way that other approaches were unable?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            64.868,
+            72.852
+          ],
+          "quote": "Before Moderna's mRNA platform helped produce a COVID vaccine, the company was already working toward another goal, using mRNA to fight cancer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            77.354,
+            87.839
+          ],
+          "quote": "A16Z General Partner Jorge Cande sits down with Moderna CEO Stephan Bancel following positive phase three results from Moderna and Merck's individualized mRNA treatment for melanoma.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            93.082,
+            107.286
+          ],
+          "quote": "Stefan explains how Moderna takes a patient's tumor, sequences it against their healthy cells, identifies the mutations unique to that cancer, and uses that information to manufacture a personalized mRNA designed to teach the immune system what to attack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            162.005,
+            191.832
+          ],
+          "quote": "When we were talking about all of the work Moderna did to bring us the mRNA COVID vaccine, and at the time, if you can go back and listen to that episode, you'll hear how quickly Moderna was able to react to the existence of the virus, to analyze it, to essentially print a vaccine that would protect people against the COVID-19 vaccine and hence put us in a much better position with respect to the COVID pandemic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            196.778,
+            211.215
+          ],
+          "quote": "And the reason why we're talking again today in August 2026 is because Moderna has put out news on a really big advancement on what they can do with mRNA technology when it comes to cancer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            247.464,
+            261.228
+          ],
+          "quote": "So, indeed, last week now, we shared the news with our colleagues at Merck that after working 10 years on an individualized treatment against cancer using mRNA technology, that the Phase 3 was positive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            418.627,
+            422.749
+          ],
+          "quote": "Why was this particular mRNA cancer vaccine necessary in conjunction with Keytruda?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            529.358,
+            539.521
+          ],
+          "quote": "The idea that we have at the time using our infectious disease learning from our infectious disease vaccine, we learned a lot about the immune system and how mRNA interacts with the immune system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            712.251,
+            721.858
+          ],
+          "quote": "What is it about mRNA technology that enables the immune system to learn in a way that other approaches were unable to be successful?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            736.381,
+            764.971
+          ],
+          "quote": "On the technology of mRNA side, what we have known and published, actually with Karolinska, as you know, the institute in Sweden that gave the Nobel Prize for Medicine back in 2015, is that with all technology, I cannot speak about all the mRNA companies that have different mRNAs, different lipids and so on, but with all technology, when we inject our mRNA in a muscle, whether it's a COVID shot, a flu shot, or this cancer treatment, basically the mRNA goes down to your lymph node",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            773.504,
+            775.965
+          ],
+          "quote": "And the mRNA gets inside the APCs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            780.206,
+            788.248
+          ],
+          "quote": "And then it basically translates the message contained in the mRNA inside the APCs, inside your immune cells, and presents it from within.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            812.983,
+            814.163
+          ],
+          "quote": "As it's done with mRNA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            823.265,
+            827.026
+          ],
+          "quote": "In the past, a lot of time people have tried with non-mRNA, i.e.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            875.558,
+            884.405
+          ],
+          "quote": "We select the 34 that we believe are the most relevant, and we stitch them together into one big mRNA molecule, which we make in 30 each days for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1291.588,
+            1295.553
+          ],
+          "quote": "As you and I talked about, the beautiful thing of mRNA, it's an information molecule.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1676.47,
+            1680.591
+          ],
+          "quote": "Is it obviously the process for synthesizing mRNA?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1857.111,
+            1865.494
+          ],
+          "quote": "But we have de novo some new T-cells being created that recognize what we code in the mRNA that was not in the patient's body before the treatment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1866.314,
+            1880.138
+          ],
+          "quote": "So we really, in my book, have proven to ourselves and to the clinical community that modernized mRNA technology can develop, teach the immune system to develop new T-cells to go attack your cancer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1991.888,
+            2004.014
+          ],
+          "quote": "But what if you could have an mRNA made for cancer patient that has lung disease stage one, which you can find easily with x-ray, let's say, in former smokers is the easiest target population.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2236.394,
+            2245.002
+          ],
+          "quote": "And in June, we had our annual science day, and we announced that the next mountain we were pointing on mRNA platform is autoimmune disease.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cancer-vaccine",
+      "type": "concept",
+      "role": "concept",
+      "name": "癌症疫苗 (cancer vaccine)",
+      "file": "癌症疫苗",
+      "primary": true,
+      "how_described": "本集称这是医学史上第一支真正起效的癌症疫苗——此前二十多年、一千多项临床试验全部失败；命名惯例是凡教免疫系统识别目标的方法都算疫苗，区别在于感染前教还是确诊后「重新教」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.571,
+            3.172
+          ],
+          "quote": "It's the first time there is a cancer vaccine working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            272.275,
+            274.937
+          ],
+          "quote": "It's the first time there is a cancer vaccine working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            418.627,
+            422.749
+          ],
+          "quote": "Why was this particular mRNA cancer vaccine necessary in conjunction with Keytruda?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            589.177,
+            595.779
+          ],
+          "quote": "Okay, so now that's where the personalized cancer vaccine technology will make a big impact on the treatment of melanoma.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "keytruda",
+      "type": "concept",
+      "role": "concept",
+      "name": "Keytruda",
+      "file": "Keytruda",
+      "primary": true,
+      "how_described": "本集用「打开闸门放狗」比喻这种免疫检查点疗法：约 60% 的人五年无病，但有 40% 的人无应答且承受 1 型糖尿病、红斑狼疮等自身免疫副作用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            410.623,
+            418.167
+          ],
+          "quote": "The first one, for folks that are less familiar with cancer treatments, what is Keytruda and why is Keytruda alone not sufficient?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            418.627,
+            422.749
+          ],
+          "quote": "Why was this particular mRNA cancer vaccine necessary in conjunction with Keytruda?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "car-t",
+      "type": "concept",
+      "role": "concept",
+      "name": "CAR-T 疗法 (CAR-T)",
+      "file": "CAR-T 疗法",
+      "primary": true,
+      "how_described": "本集作为对比：需取患者免疫细胞体外改造再输回、要运活细胞用大反应器；它是「流程 BLA」获批的先例，说明 FDA 批流程不批产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1193.385,
+            1198.147
+          ],
+          "quote": "The other big personalized therapy that exists in cancer is CAR T-cell therapy, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1198.187,
+            1217.716
+          ],
+          "quote": "And in that case, the thing that in CAR T-cell therapy, for folks that may not be familiar, is this idea that you take a patient's tumor and then you take the patient's immune cells, you take them out of the body, and you essentially reprogram the immune cells and re-engineer them to be reactive to the tumor and put them back into the patient.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1274.557,
+            1288.282
+          ],
+          "quote": "The place where this is very different from CAR-T is that we don't have to take your immune cells, we program them ex vivo in a reactor in our factory and send them back to your hospital.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1329.498,
+            1336.981
+          ],
+          "quote": "If you think about CAR-T, for me, the analogy is the recombinant world, where you have cells and big reactors and you have big volumes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1343.283,
+            1344.584
+          ],
+          "quote": "You have the same issue with CAR-T.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1693.933,
+            1701.135
+          ],
+          "quote": "As you mentioned, CAR-T. CAR-T was also approved in the same way as we believe Intestin 1 will be, which is as a process BLA.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "personalized",
+      "type": "concept",
+      "role": "concept",
+      "name": "个性化医疗 (personalized)",
+      "file": "个性化医疗",
+      "primary": true,
+      "how_described": "本集反复强调个性化是疗法成立的根本而非加分项：约 90% 的抗原因人而异，从肿瘤与健康细胞测序比对中挑出 34 个突变、30 天内为单人制造疫苗",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            93.082,
+            107.286
+          ],
+          "quote": "Stefan explains how Moderna takes a patient's tumor, sequences it against their healthy cells, identifies the mutations unique to that cancer, and uses that information to manufacture a personalized mRNA designed to teach the immune system what to attack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            121.713,
+            129.923
+          ],
+          "quote": "How do you manufacture thousands of different medicines, one patient at a time, quickly and reliably enough to make personalized medicine work at scale?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            589.177,
+            595.779
+          ],
+          "quote": "Okay, so now that's where the personalized cancer vaccine technology will make a big impact on the treatment of melanoma.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            596.319,
+            603.481
+          ],
+          "quote": "We'll come back to the personalized piece because I think that's just fascinating, not only from a technological standpoint, but just from an operational standpoint.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1193.385,
+            1198.147
+          ],
+          "quote": "The other big personalized therapy that exists in cancer is CAR T-cell therapy, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1247.747,
+            1257.433
+          ],
+          "quote": "Like what needs to be true from the moment you sort of see a patient and get access to the tumor to the moment that patient receives their personalized vaccine?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1684.852,
+            1691.593
+          ],
+          "quote": "Help us understand that and build intuition around how we think that these kinds of personalized medicines will be regulated in the future.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2283.438,
+            2287.525
+          ],
+          "quote": "Would the theory there be that you'd have personalized autoimmune modulators?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fda",
+      "type": "concept",
+      "role": "concept",
+      "name": "FDA",
+      "file": "FDA",
+      "primary": true,
+      "how_described": "本集解释 FDA 对这类药「批流程、不批产品」：核心诉求是同样样本进去、黑箱末端出来同样的产品，Moderna 与其沟通已持续十年",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            60.386,
+            62.529
+          ],
+          "quote": "Basically, Jorge, what the FDA wants to know",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1060.528,
+            1062.53
+          ],
+          "quote": "And we will go to see FDA if we find",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1616.506,
+            1622.632
+          ],
+          "quote": "And of course, if it's industrialized and has been validated in terms of good manufacturing practice, kind of FDA standard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1714.524,
+            1716.546
+          ],
+          "quote": "Because we asked the FDA, can we go to the clinic?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1726.913,
+            1736.735
+          ],
+          "quote": "And then before we started every phase three, we need to have end of phase two meeting and agree the design of a study, the manufacturing protocol with the FDA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1739.616,
+            1742.037
+          ],
+          "quote": "And so it's not like we have not talked to FDA for the last 10 years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1772.523,
+            1783.145
+          ],
+          "quote": "Basically, Jorge, what the FDA wants to know, which is very legitimate, which I would want for my own family's sake, obviously, which is if you get the same sample at the beginning, the tumor,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1788.757,
+            1796.464
+          ],
+          "quote": "And that's what we have to demonstrate first to ourselves and then with the data to the FDA so that we have really robustness of the whole process.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": false,
+      "how_described": "本集说要用 AI 挖掘三期全部血液样本和测序数据，弄清那 20% 无应答患者为什么没应答，再改进十年未变的算法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            1076.338,
+            1082.984
+          ],
+          "quote": "But the way I think about it is when we talk about AI, we always joke that the current version of AI is the worst we're going to see in our lifetime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2150.688,
+            2166.743
+          ],
+          "quote": "So what I saw is very powerful and I'm really pushing our team to think really outside the box and to do a lot of analysis and to use AI to look at that gigantic set of data that we have, which is what are the things we can learn from the clinical studies to understand about the people that did not respond.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "autoimmune-disease",
+      "type": "concept",
+      "role": "concept",
+      "name": "自身免疫性疾病 (autoimmune disease)",
+      "file": "自身免疫性疾病",
+      "primary": false,
+      "how_described": "本集结尾说这是 mRNA 平台指向的「下一座高山」：不止治症状，而是用免疫系统攻击那些失调的、攻击自身身体的免疫细胞，治疗根源——目前还在实验室",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            508.987,
+            513.573
+          ],
+          "quote": "They get an autoimmune disease most of the time, and they don't get the benefit of a medicine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1986.275,
+            1990.787
+          ],
+          "quote": "But everybody's going to get pretty serious lifelong side effects like autoimmune disease.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2236.394,
+            2245.002
+          ],
+          "quote": "And in June, we had our annual science day, and we announced that the next mountain we were pointing on mRNA platform is autoimmune disease.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2259.302,
+            2265.225
+          ],
+          "quote": "on how to treat the root cause of autoimmune disease, not the symptoms, which is what the pharma industry has been doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2272.129,
+            2277.411
+          ],
+          "quote": "And we think we might find ways to use the immune system to treat the root cause of autoimmune disease.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2297.423,
+            2320.678
+          ],
+          "quote": "But what I'm most excited about, which is in the lab still, is the ability to do individualized autoimmune treatment where you target directly to the immune cells that are attacking your body as self when you have an autoimmune disease and who are basically part of your immune system going attacking those immune cells that are out of order so that you are able to take the symptom of an immune disease out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2325.679,
+            2337.031
+          ],
+          "quote": "Well, going from infectious disease to cancer to eventually autoimmune disease, we would love to have you back on the podcast to film episode three and complete the trilogy when you're ready.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

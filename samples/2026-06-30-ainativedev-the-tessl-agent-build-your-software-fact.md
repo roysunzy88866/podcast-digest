@@ -118,8 +118,8 @@ Simon 和 Andrew 最后聊了一个产品层面的观察：智能体时代，"�
 **顺着「智能体」挖下去**
 
 - [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:智能体 (agent)、软件工厂 (software factory)、沙箱 (sandbox)</span>
+- [[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|从技能到循环再到工厂:软件工厂实战路线图]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:代码审查 (code review)、验证器 (verifiers)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:代码审查 (code review)、智能体 (agent)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Claude Code、Gemini · 同概念:代码审查 (code review)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

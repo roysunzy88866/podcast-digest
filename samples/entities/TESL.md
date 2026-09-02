@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TESL</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TESL">TE</div><div class="pi"><h1 class="pt">TESL</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TESL">TE</div><div class="pi"><h1 class="pt">TESL</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]]**(01:57起):本集说 TESL 是提供技能和上下文包管理工具的公司，帮助团队管理和扩展给编码智能体用的指令（技能/skills），其产品 TESL agent 是一个工厂构建智能体
 - **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]]**(47:15起):本集把它说成播客的赞助商，是技能和上下文的包管理器，Simon 提到其产品 Tesla Agent 可以基于项目历史日志和 PR 事实来优化上下文
 - **[[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]]**(02:39起):本集说 TESL 是 Skills 和 Context 的包管理器，Dark Factory 的开发团队所在公司，目前约 65-70% 的 PR 由 Dark Factory 创建
+- **[[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]]**(02:07起):本集说 TESL 是技能和上下文的包管理器，过去三个月从帮你管上下文的平台扩展为帮你从技能到循环再到工厂构建以上下文为中心的软件工厂的平台
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|《TESL 智能体：让你的编码智能体自己越用越好》]] — 作为被讨论公司
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]] — 作为被讨论公司(提及)
 - [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|《Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过》]] — 作为被讨论公司
+- [[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Maple]] · [[智能体]] · [[循环工程]] · [[Guy Pajani]] · [[软件工厂]] · [[暗工厂]] · [[评估]] · [[沙箱]] · [[Guy Fajani]] · [[Patrick Debois]]
+[[Simon Maple]] · [[智能体]] · [[Guy Fajani]] · [[Guy Pajani]] · [[循环工程]] · [[暗工厂]] · [[技能]] · [[上下文]] · [[验证器]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":6,"智能体":1,"循环工程":4,"Guy Pajani":3,"软件工厂":3,"暗工厂":2,"评估":17,"沙箱":35,"Guy Fajani":2,"Patrick Debois":1}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":7,"智能体":1,"Guy Fajani":3,"Guy Pajani":3,"循环工程":4,"暗工厂":2,"技能":10,"上下文":14,"验证器":1,"可观测性":17}</script>
 
 <script>
 (function(){

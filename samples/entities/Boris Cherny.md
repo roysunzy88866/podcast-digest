@@ -66,11 +66,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]]
+[[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":35,"Lenny":66,"Cloud Code":3,"Claude Code":45,"Opus 5":2,"Anthropic":89,"提示词注入":10,"Cowork":3,"系统提示词":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":35,"Lenny":66,"Cloud Code":3,"Claude Code":45,"Opus 5":2,"Anthropic":90,"提示词注入":10,"Cowork":3,"系统提示词":3}</script>
 
 <script>
 (function(){

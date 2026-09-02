@@ -1,0 +1,140 @@
+===标题===
+从被裁到「一人内容公司」：Katie Parrott 的两年 AI 写作进化史
+===导语===
+Every 全职撰稿人 Katie Parrott 讲述她从用 ChatGPT 当职业教练，到自建 Compound Writing 写作插件的完整方法与心得。
+===正文##
+两年前，Katie Parrott 刚被一家加密货币公司裁员——她在那里做编辑和代笔。当时的她是个 AI 怀疑论者，试过公司内、公司外各种路子，感觉「已经到了靠自己能做的极限」，急需一个外部视角，但失业期看不到头，雇不起一小时 150 美元的真职业教练。她的选择是：注册一个每月 20 美元的 ChatGPT 订阅，让它当自己的职业教练 [02:03-03:49]。这一步最终把她引向了 Every,也彻底改变了她的写作方式。主持人是 Every 的 AI 咨询负责人 Natalia Quintero。
+
+## 最早学到的：AI 是能改变生活的工具
+
+那次「AI 职业教练」经历教给 Katie 的第一件事是：她可以用 AI 在生活里做出改变。她评价这项技术的标准很简单——看它对自己产生的实际影响 [06:41-06:58]。后来 Every 邀她写专栏(就是后来的 Working Overtime)时，她在自由职业和找全职之间拿不定主意，又是 ChatGPT 推了她一把：「为什么不在此期间先试试？」她试了，然后就有了今天 [07:11-07:34]。
+
+在那篇旧文里她写过一段核心认知：写作最喜欢的一点是「我从来不知道自己在想什么，直到写下来」；而写提示词本身就是一种策略性写作。清晰不会被礼品包装好送上门——不管来自数字助手还是人类教练——它得靠你自己一个问题一个问题地挖出来 [05:06-05:45]。
+
+## 「一个人的内容代理机构」：提前铺上下文，后面一路快跑
+
+2025 年初，自由职业的 Katie 严重过度承诺：两周内要交付八篇博客、三本电子书、24 条 LinkedIn 帖子、24 条 X 帖子、16 条 Instagram 帖子，还没数到一半 [08:45-09:04]。她靠的就是今天所说的「上下文工程」(提前给模型准备好它需要的全部背景信息)：品牌信息、产品细节、受众画像都写清楚，模型输出就能被塑造成想要的方向 [09:20-09:45]。
+
+这套做法源自她做内容营销时写风格指南的老本行——每个像样的品牌都有一份「事实来源」文档：受众是谁、痛点是什么、产品怎么对应痛点、对手是谁、差异化在哪。她把这套熟悉的工作单元直接搬给了模型 [12:14-13:01]。当时还没有项目功能，她得手动把 Google 文档复制粘贴进上下文窗口;Claude 项目上线后，她为每个客户、每个专栏各建一个项目，用自定义指令搭好框架，不再复制粘贴 [11:45-13:16]。
+
+她的核心比喻是「护栏 + 游乐场」：给模型围出一块场地让它玩耍，你就不用担心它跑偏，「因为你在把它往正确的方向推」[13:53-14:08]。
+
+关于该往上下文里放什么，她的次序很明确：先放受众画像、品牌差异这类基础数据，然后才轮到「用这些词、避免那些词、偏好什么阅读难度、营造什么语气」[14:44-15:37]。而真正让文章独特的，是模型拿不到的输入——她称之为写作里的「最后一公里问题」：AI 有知识截止，总是在用过时几个月的数据工作，人类的工作就是补上真实世界的独特洞见、公司研究、个人经历。「模型已经知道的东西是商品化的信息，那既没用也没意思」[17:26-17:30]。
+
+Natalia 总结成一个厨房类比，Katie 认可：模型是厨房，大纲是切菜，组织是煮——但你得有新鲜够好的食材，才能出好菜 [18:21-18:46]。
+
+## AI 让她重新爱上写作
+
+用了两年多 AI,她的感受是：AI 不只是让她更快产出，而是从根本上改变了她能做的事情的规模——以前碰壁的时间、精力、能力上限，现在低多了 [19:04-19:17]。很长一段时间里写作对她是个苦差事，精力全耗在拼句子上，写完只想赶紧交差；现在有了 AI,她有剩余精力去跟更难的、更宏观的问题较劲，「它带回了一种探索和发现的感觉」[20:03-20:58]。
+
+## AI 是「支持性技术」：收件箱焦虑被完全解决
+
+Katie 有双相情感障碍，大部分时间处在抑郁低谷。她发现 AI 不只是生产性技术，作为支持性技术同样强大——它减少她生活中的摩擦，让她更容易「当个人」、更容易工作 [23:21-23:39]。
+
+具体例子：她把预约初级保健医生的事拖了三年，然后意识到可以直接让 Codex 去找附近接受她保险、接收新病人的医生——它找到了，她预约上了，「那是我从来都不会去做的事情，我本来只会无限期拖延下去」[23:56-24:23]。她还设置了 Codex 自动化流程，只告诉她收件箱里哪些邮件需要亲自回复——不用再在百万条订阅通知里翻找那颗「炸弹」，收件箱焦虑被完全解决 [24:33-25:07]。
+
+她写道：在 Every 工作满一年听起来不算什么，但对她像个里程碑——「AI 价值的证明就在于我还在这里做着我引以为豪的工作」[26:15-26:24]。
+
+## 如今的「职业教练」：Codex 里的幕僚长
+
+两年后的今天，当年的 ChatGPT 职业教练进化成了 Codex 里的一个项目，信息量远超第一版：有她本人和角色的档案，有 Every 的背景和从市场负责人 Douglas 那里拿来的品牌定位。她每天大量语音独白，问它「我有四个优先事项，该按什么顺序做」——它像幕僚长一样指方向，还替她维护一个她从来坚持不下来的看板，她只需问「这个交付物的截止日期是什么时候」[27:12-29:07]。
+
+项目里的文件夹包括：定期从内容管理系统抓取的帖子表现数据；她所谓的「验证文件夹」——存满别人对她工作的好评，帮模型理解哪些特质该强化；角色定位资料；Q2 和 Q3 的 OKR [29:25-30:15]。而这些文档她越来越不用手动创建——诀窍是「让 AI 面试我」(Alex Duffy 早期教她的)：说一句「问我问题，把我对这个的想法引出来」，聊到系统按她设想的方式运作为止 [30:26-31:03]。两年时间，从一句简单提示词，到全自动维护待办、OKR 和看板的设置。Natalia 问她这疯不疯狂，她说：是的 [31:07-31:40]。
+
+## Compound Writing:把写作配方固化成插件
+
+Compounding 的理念是：你给 AI 的每一条反馈，都应该回馈进系统去改进下一次输出——每条反馈只需给一次，正确固化后它永远在那里，下次 AI 就会做出更好的决定。这来自 Kieran Klassen 的复合工程插件 [32:38-33:11]。
+
+Katie 的做法很直接：fork 了复合工程插件，和 Claude 聊「我想把它改造成写作版」。因为写作和代码流程很像——那边是头脑风暴、构思、规划、工作、审查；这边是头脑风暴、列大纲、起草、审查。差异在评审维度：写作不看编码规范，看的是结构、声音、论据 [33:13-34:20]。她设置了三种评审：实质性编辑(看大局结构和论证)、行级编辑(看具体文字)、最后通读(看发表前的细节)[34:41-34:54]。用她自己的话说，这个插件是「复合工程 + Dan 的智能体原生架构指南」结合的产物，而「我所有最好的 AI 点子都是从 Every 团队的某个人那里抄来的」[34:56-35:10]。现在她写的每一篇都用它，不再待在聊天窗口里 [35:13-35:19]。
+
+插件最有意思的部分是「借用名家大脑」：她把库尔特·冯内古特的八个故事结构要素(比如「尽可能从接近结尾的地方开始写」「每个句子都必须赢得自己的位置」「给读者一个能为之加油的角色」)做成了插件里的一个审阅技能；又把希区柯克的悬念原则——桌子底下的炸弹，爆炸只是一刻的惊讶，让观众提前看到炸弹就是五分钟的悬念——做成了评估「这能不能让读者凑近来看、焦虑又好奇」的透镜 [39:09-40:30]。作为有经验的写作者她也从中受益，因为「我并不总是能考虑到所有那些不同的透镜，但现在我可以调用冯内古特、调用希区柯克、调用索金、调用塞达里斯来处理幽默」[40:34-40:49]。
+
+Natalia 的观察是：出色的插件像一本「教你做你本来没资格做的事」的专家操作手册，而它最令人兴奋的地方在于能教会你那种工作——面对索金和冯内古特的不同意见，你认同或不认同，这个过程让你快得多地发展出自己的品味 [36:25-42:21]。Katie 补充：非专业写作者用它甚至可能效果更好，因为他们没有强烈的既有观点，不会去挑剔 [38:22-38:43]。
+
+她也在上面吃过亏：她给一个叫 Tastemaker 的应用(从你欣赏的文章里摘片段、提炼成风格指南)构建 MCP 时，用的复合工程插件版本安全功能不够新，Claude 帮她建好了，Codex 审查时发现五个安全漏洞——「AI 让我陷入麻烦，然后又是 AI 帮我摆脱了麻烦」[43:04-44:00]。
+
+## 她的论点：教育与获取机会比以往任何时候都重要
+
+Katie 住在俄亥俄州哥伦布市，在中西部长大，没在纽约、旧金山这类科技中心待过。她的 AI 论点是：这项技术应该掌握在尽可能多的人手中，而这需要创造合适的条件 [45:04-45:43]。她自己很幸运——有人脉、有经济宽裕，能买订阅、vibe code 到凌晨 2 点。她想挑战 AI 社区去思考：如何把这些机会扩展给更多的人、更多种类的、更多地方的人。因为 AI 有巨大的倍增能力，但风险是价值会复合集中到恰好早早入场的那一小部分人身上。「一个对 AI 未来更有说服力的愿景，是每个人都能搭上这趟旅程」[45:47-46:48]。
+
+## 本集带走
+
+- **先铺地基再开工**：受众画像、痛点、产品对应、差异化、风格指南——把这些基础上下文喂给模型，输出才「感觉真实」、有轨道可依;前期投入越多，后面跑得越快。
+- **独特输入决定独特输出**：直接说「写篇关于风格指南的文章」，产出只是商品化信息;模型拿不到的真实数据、研究和个人经历，才是你写作的「新鲜食材」。
+- **让 AI 面试你**:不说清需求，而是让它反过来提问、把你脑子里的想法引出来——Katie 的职业教练系统就是这么聊出来的。
+- **反馈只给一次，固化进系统**:每条反馈都该回馈进插件/文档,下次同情境 AI 自动做得更好——这是 compounding 的核心。
+- **把名家的框架变成审阅透镜**：冯内古特的故事结构、希区柯克的悬念原则都能提炼成技能,让你随时调用自己顾不过来的视角。
+- **AI 不只产出成果，还能替你跑腿**：预约医生、过滤收件箱、提交报销——「电脑跑腿差事」交给智能体,对心理健康低谷期的人尤其改变生活。
+===金句===
+05:10 | Katie Parrott
+EN | one of my favorite things about writing is that I never know what I think until I write it down. But once I write it down, it becomes obvious.
+ZH | 关于写作，我最喜欢的一点是，我从来不知道自己在想什么，直到我把它写下来。但一旦写下来，它就变得显而易见。
+
+05:30 | Katie Parrott
+EN | Clarity, it turns out, doesn't arrive gift wrapped from a digital assistant or even a human coach. It's something I had to dig out for myself, question by question and prompt by prompt.
+ZH | 事实证明，清晰并不会被礼品包装好、从数字助手那里送达，甚至也不会从一位人类教练那里送达。它是我必须为自己挖掘出来的东西，一个问题接一个问题，一条提示接一条提示。
+
+06:41 | Katie Parrott
+EN | The first thing it taught me is that I can use AI to make change in my life, which is something that I've continued to carry through over the last couple of years.
+ZH | 它教给我的第一件事就是，我可以用 AI 在我的生活中做出改变，这是我在过去几年里一直延续下来的事情。
+
+10:36 | Katie Parrott
+EN | you invest, at first it feels really effortful and you're spending a lot of time setting the scenes, like getting everything lined up, like in terms of your tools and your integrations and your context documents. But when you have that environment set up, you can just kind of run and like run fast.
+ZH | 你得先投入，一开始感觉真的很费力，你要花很多时间布置场景，把一切都理顺——你的工具、你的集成、你的上下文文档。但当你把那个环境搭好之后，你就可以直接跑起来，而且跑得很快。
+
+13:53 | Katie Parrott
+EN | I always think of is just like creating guardrails and kind of like a fenced in place for the model to play, and then you don't have to worry so much about getting something that's completely wrong because you're kind of pushing it in the right direction.
+ZH | 我一直想的就是，创建护栏，以及某种像一个围起来的场地，让模型在里面玩耍，然后你就不必太担心得到完全错误的东西，因为你算是在把它往正确的方向推。
+
+16:03 | Katie Parrott
+EN | there's sort of a last mile problem in writing in AI and writing, which is AI has that knowledge cut off, right? It's always working with data that's several months out of date. And our job as the humans is to close that last mile and provide the real world experiences that AI can't get.
+ZH | AI 和写作中存在某种最后一公里问题，那就是 AI 有那个知识截止，对吧？它总是在用过时了几个月的数据工作。而我们作为人类的工作就是弥合那最后一公里，提供那些 AI 无法获得的真实世界体验。
+
+17:26 | Katie Parrott
+EN | But then what the model already knows as commoditized information. Like that's not useful or interesting.
+ZH | 但模型已经知道的东西是商品化的信息。那既没用也没意思。
+
+19:10 | Katie Parrott
+EN | AI hasn't just helped me produce content faster. It has fundamentally changed the scale of what I can do, the limits of what I use to bump up against time, energy, capacity are way lower.
+ZH | AI 不只是帮我更快地产出内容。它从根本上改变了我能做的事情的规模，我过去常常碰壁的时间、精力、能力等限制要低得多了。
+
+20:07 | Katie Parrott
+EN | working with AI kind of made me fall in love with writing again, because for a long time writing to me had just felt like such a slog.
+ZH | 和 AI 一起工作让我重新爱上了写作，因为很长一段时间里，写作对我来说感觉就是一件苦差事。
+
+23:19 | Katie Parrott
+EN | what I found in my personal experience is that AI is just as powerful as a supportive technology.
+ZH | 而我在个人经历中发现的是，AI 作为一种支持性技术也同样强大。
+
+24:17 | Katie Parrott
+EN | And that's something that I would never have done. I would have just kept procrastinating on it infinitely because of the way my brain works and AI was able to help me over that hump.
+ZH | 那是我从来都不会去做的事情。我本来只会在这件事上无限期地拖延下去，因为我大脑的运作方式，而 AI 能够帮我跨过那道坎。
+
+26:19 | Katie Parrott
+EN | For me, the proof of AI's value is the fact that I'm still here doing work I'm proud of.
+ZH | 对我来说，AI 价值的证明就在于我还在这里做着我引以为豪的工作。
+
+28:28 | Katie Parrott
+EN | it kind of operates as that chief of staff that kind of like points me in a direction and says this is the highest impact thing you can do first, this is like maybe something that you can put off until later.
+ZH | 它有点像幕僚长那样运作，给我指个方向，说这是影响最大的事，你可以先做，这个也许可以推迟到以后。
+
+32:45 | Katie Parrott
+EN | compounding is the idea that every piece of feedback that you give to AI should feed back into the system to improve the next output.
+ZH | compounding 是这样一个理念:每一条你给 AI 的反馈，都应该回馈进系统，以改进下一次的输出。
+
+33:02 | Katie Parrott
+EN | you should only have to give a piece of feedback once, but if you codify it the right way, it will be there forever and the next time you're in that same situation, the AI is going to make a better decision.
+ZH | 你应该只需要给出一条反馈一次，但如果你以正确的方式把它固化下来，它就会永远在那里，而且下次你再处于同样的情境时，AI 会做出一个更好的决定。
+
+35:01 | Katie Parrott
+EN | I always like all of my best AI ideas, I've ripped off from someone else on the every team.
+ZH | 我所有最好的 AI 点子，都是从 every 团队上的某个人那里抄袭来的。
+
+38:58 | Katie Parrott
+EN | the analogy that I use for the Compound Writing plugin is that it's a gym. It's a workout system to like make you a better writer.
+ZH | 我给 Compound Writing 插件用的类比是，它是一个健身房。它是一套让你成为更好的写作者的锻炼系统。
+
+46:40 | Katie Parrott
+EN | the risk there is that value is going to compound to the small subset of people that happen to be early. And I just think that a much more compelling vision for an AI future is one where everyone is able to come along for the ride.
+ZH | 那里的风险在于，价值将会复合集中到那一小部分恰好早早入场的人身上。而我只是认为，一个对 AI 未来来说更有说服力的愿景，是这样一个未来：每个人都能一同搭上这趟旅程。
+===END===

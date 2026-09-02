@@ -1,0 +1,1149 @@
+{
+  "episode_id": "2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-09-02",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "互联网商业模式",
+    "出版业",
+    "智能体商务"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "matthew-prince",
+      "type": "person",
+      "role": "guest",
+      "name": "Matthew Prince",
+      "file": "Matthew Prince",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.757,
+            12.019
+          ],
+          "quote": "That's coming up with Cloudflare CEO Matthew Prince right after this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            104.682,
+            107.344
+          ],
+          "quote": "Well, today we are lucky to be joined by Matthew Prince.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2557.457,
+            2561.278
+          ],
+          "quote": "And we're back here on Big Technology Podcast with Matthew Prince, the CEO of Cloudflare.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": true,
+      "how_described": "本集以 CEO Matthew Prince 的视角介绍它:给全球很大一部分网站提供防护与加速、看得清全网流量构成的公司;正在推动默认屏蔽 Google 抓取广告/订阅制网站内容、建微支付基础设施,并用 Workers 和 isolates 等更轻量的技术为 1000 倍智能体流量做准备。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.757,
+            12.019
+          ],
+          "quote": "That's coming up with Cloudflare CEO Matthew Prince right after this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            107.364,
+            108.986
+          ],
+          "quote": "He is the CEO of Cloudflare.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            109.306,
+            115.811
+          ],
+          "quote": "He was with us almost exactly a year ago talking about Cloudflare's efforts to prevent the web from disappearing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            134.578,
+            142.463
+          ],
+          "quote": "All right, let's go with the headline here, which is that recently Cloudflare has found that AI bots outnumber humans browsing the web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            261.543,
+            274.035
+          ],
+          "quote": "And it's a lot of what the team at Cloudflare is thinking about is how do we make sure that the internet is ready for what is going to be just a complete and total onslaught of automated traffic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            305.118,
+            307.22
+          ],
+          "quote": "Cloudflare started and launched in 2010.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            375.141,
+            384.588
+          ],
+          "quote": "And that's, like, for the first time almost in CloudFlare's history, we're seeing an explosive growth in things which are getting created.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            514.063,
+            536.533
+          ],
+          "quote": "Colleagues, family who have been able to get online and tell things, but then also professional examples where every day I'm getting letters from people who are like, I'm able to do something that I was just never thought I would be capable of doing before and using some of these, again, incredible tools that are out there combined with the infrastructure that someone like Cloudflare provides very cost effectively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            544.717,
+            564.489
+          ],
+          "quote": "Okay, I'm just going to pause to say when I built the website for our summit, which happened in June, and when I'm saying I, I should really put quotes around it, it was mostly the Claude Code harness hooking into the Cloudflare agent that went out and set up all these accounts for me and then built the site.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1145.774,
+            1154.978
+          ],
+          "quote": "And so again, what we're spending a lot of time at Cloudflare is thinking about, OK, we went from servers to VMs to containers in order to get more efficient.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1286.673,
+            1297.803
+          ],
+          "quote": "So I think the thing that's that's really important is that different content creators, different publishers, different app developers are going to have different preferences that are there and in Cloudflare what we believe is we want to make it as",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1309.634,
+            1318.021
+          ],
+          "quote": "The majority of companies that are out there, the majority of content that's created, they actually want that content in AI, like Cloudflare, like our knowledge base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1318.781,
+            1323.026
+          ],
+          "quote": "is a way of us sharing how to use Cloudflare really well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1581.437,
+            1586.844
+          ],
+          "quote": "Cloudflare handles at peak during the holidays somewhere around 20,000 financial transactions per second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1587.224,
+            1593.211
+          ],
+          "quote": "Cloudflare handles about half a billion internet transactions per second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1834.504,
+            1839.039
+          ],
+          "quote": "If you don't give us the terms that we want, we are just going to use Cloudflare's tech and block you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1874.636,
+            1889.469
+          ],
+          "quote": "And what we have said at Cloudflare is that by mid-September, we're going to treat Google the same way on if you're a business that's ad-supported or subscription-supported, then we're going to restrict Google from being able to access your content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2347.87,
+            2350.472
+          ],
+          "quote": "I mean, it's a huge percentage of the internet uses Cloudflare.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2557.457,
+            2561.278
+          ],
+          "quote": "And we're back here on Big Technology Podcast with Matthew Prince, the CEO of Cloudflare.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 564,
+          "t": [
+            3077.671,
+            3079.672
+          ],
+          "quote": "And again, I don't think Cloudflare can do this on our own.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集称它是「外面那个大魔王」:用一个爬虫干两件事(搜索+喂 AI),抓取的网络内容超过 OpenAI 两倍、Anthropic 四倍、Microsoft 五倍,正把昨天的搜索垄断变现成明天的 AI 垄断;Prince 预计 9 月中旬后数百万网站将从它的雷达上消失,这会动摇 PageRank 的根基。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1434.338,
+            1444.369
+          ],
+          "quote": "So last year, you told us that 10 years ago on Google, Google would crawl your page twice and send one click for those two crawls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1448.813,
+            1455.08
+          ],
+          "quote": "Once Google released AI overviews mid-last year, it became 18 crawls for one click.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1513.82,
+            1535.778
+          ],
+          "quote": "in it further drop in that and that's that's the trend like over time even google has announced that the sort of the era of 10 blue links is going away and that everything is going to look much more like an ai interface and and i think that that's the change and if that's the case then the business model which has supported the web for the last 30 years which has been advertising and subscription based",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1705.062,
+            1713.13
+          ],
+          "quote": "And the big boogeyman out there is Google, because Google is basically saying, you know, if you want to be in search, you also have to let us use our AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1721.816,
+            1730.522
+          ],
+          "quote": "Google, to give you some sense of these, more than two times as much of the web as OpenAI, more than four times as much as Anthropic, more than five times as much as Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1735.726,
+            1740.029
+          ],
+          "quote": "We've got to figure out how to either bring everybody else up or get Google to play by the same rules.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1744.712,
+            1747.199
+          ],
+          "quote": "Towards a place where we're going to treat Google the same as everyone else.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1789.762,
+            1791.844
+          ],
+          "quote": "It said, Google was a lifeline for publishers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1794.427,
+            1803.155
+          ],
+          "quote": "The article talks about how Reddit has discussed shutting off the technology, like Google's technologies, access to its content for AI use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1820.971,
+            1833.822
+          ],
+          "quote": "Is the right way to read this article that like now that these publishers have put into place your technology that might allow them to block the AI crawling, they're now doing the sort of negotiating in public where they're telling Google, hey, listen,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1839.676,
+            1844.398
+          ],
+          "quote": "Well, if Google is just another AI company, then they should be treated like any other AI company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1844.478,
+            1847.84
+          ],
+          "quote": "And if every other AI company has to pay for content, so should Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1847.86,
+            1853.862
+          ],
+          "quote": "Google is not special just because they were, again, the business model of the last 30 years of the internet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1859.985,
+            1862.926
+          ],
+          "quote": "And so as that changes, Google should have to change with it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1874.636,
+            1889.469
+          ],
+          "quote": "And what we have said at Cloudflare is that by mid-September, we're going to treat Google the same way on if you're a business that's ad-supported or subscription-supported, then we're going to restrict Google from being able to access your content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1890.549,
+            1893.591
+          ],
+          "quote": "If you're like, no, I love Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1898.433,
+            1904.395
+          ],
+          "quote": "But the defaults for us starting in mid-September are going to be that we are going to block Google by default.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1916.693,
+            1921.314
+          ],
+          "quote": "Well, again, I think my hope is that Google is going to come around and say, we're going to have to pay for the content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1921.334,
+            1926.415
+          ],
+          "quote": "Because if they don't have the content, then Google's product is going to be significantly worse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1933.237,
+            1935.998
+          ],
+          "quote": "Google has said that the 10 blue links are going to go away.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1936.418,
+            1938.598
+          ],
+          "quote": "And so if you care about being in Google, that's fine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1959.806,
+            1962.107
+          ],
+          "quote": "And it can't be that Google gets special treatment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1972.539,
+            1976.52
+          ],
+          "quote": "Yeah, this is from a New York Times article writing about some of what we're seeing with Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1982.441,
+            1986.962
+          ],
+          "quote": "People are spending one to nine more minutes in AI mode than on traditional Google searches.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1998.585,
+            2023.392
+          ],
+          "quote": "So basically what I think you're saying is we're heading towards this kind of seismic moment where publishers you know they've played nice with Google because they had still a lot to lose if you know they sort of blocked them that could be a big portion of their revenue but at this point they've basically seen like they have very little to lose left and yet they're still delivering a lot of value and we could be seeing in September basically this moment where",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2024.872,
+            2027.493
+          ],
+          "quote": "This key source of information to Google goes away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2028.073,
+            2032.375
+          ],
+          "quote": "Yeah, and think about what a seismic threat that is to Google in some ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2087.992,
+            2098.9
+          ],
+          "quote": "And I am surprised that Google has dragged their feet as much as they have, as opposed to leaning in and saying, we're going to actually help build the future, invent the future, and support content creators in the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2120.533,
+            2122.053
+          ],
+          "quote": "And now they have a deadline for Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2129.937,
+            2133.701
+          ],
+          "quote": "Google keeps publishing these things saying, you know, look at how great AI is for",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2164.13,
+            2167.692
+          ],
+          "quote": "So it can't be that you charge OpenAI and Anthropic, but Google gets everything for free.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2170.214,
+            2180.261
+          ],
+          "quote": "And I think we're at that tipping point where even Google is starting to realize that the economics of the internet are changing, the economics of media creation are changing, and that they're going to have to get there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2218.182,
+            2225.089
+          ],
+          "quote": "Google, by the way, is one of the best at paying content creators.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2257.139,
+            2259.582
+          ],
+          "quote": "So you think Google's going to pay up before this deadline?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2306.206,
+            2318.393
+          ],
+          "quote": "So there will be millions of sites that will drop off of Google's radar and, at the same time, that we will very much tighten up all of the other controls on AI crawlers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2338.622,
+            2341.884
+          ],
+          "quote": "Millions of sites could drop out of Google's ranking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2350.632,
+            2363.142
+          ],
+          "quote": "And so, again, I think we're in a position to help fix what is a fundamental market problem where Google is leveraging their monopoly of yesterday in order to generate a monopoly tomorrow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2373.51,
+            2376.532
+          ],
+          "quote": "And that makes everyone worse off, including Google.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集用数据提到它:每 1500 次爬取才送来 1 次点击,一年内该数字又翻了一倍;Prince 说你也应该在意自己出现在 OpenAI 里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            730.752,
+            735.555
+          ],
+          "quote": "I mean, I don't think that OpenAI is crawling a little bit more than they did a year ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1455.56,
+            1465.811
+          ],
+          "quote": "OpenAI had 1,500 crawls for every click that it sent, and Anthropic and Claude were about 60,000 crawls for every click that it sent to publishers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1721.816,
+            1730.522
+          ],
+          "quote": "Google, to give you some sense of these, more than two times as much of the web as OpenAI, more than four times as much as Anthropic, more than five times as much as Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1938.618,
+            1941.439
+          ],
+          "quote": "But you should also care about being in OpenAI, and you should care about being in Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2164.13,
+            2167.692
+          ],
+          "quote": "So it can't be that you charge OpenAI and Anthropic, but Google gets everything for free.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集给出的数据:Anthropic/Claude 约每 60000 次爬取才向出版商送来 1 次点击,且该比率一年内翻倍;Google 抓取量是它的四倍多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            735.595,
+            737.717
+          ],
+          "quote": "Anthropic is crawling a little bit more than they did a year ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1254.937,
+            1260.659
+          ],
+          "quote": "And Anthropic crawls it and drops it into Claude, then they sort of get cut out of the value proposition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1455.56,
+            1465.811
+          ],
+          "quote": "OpenAI had 1,500 crawls for every click that it sent, and Anthropic and Claude were about 60,000 crawls for every click that it sent to publishers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1721.816,
+            1730.522
+          ],
+          "quote": "Google, to give you some sense of these, more than two times as much of the web as OpenAI, more than four times as much as Anthropic, more than five times as much as Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2164.13,
+            2167.692
+          ],
+          "quote": "So it can't be that you charge OpenAI and Anthropic, but Google gets everything for free.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "wordpress",
+      "type": "company",
+      "role": "company",
+      "name": "WordPress",
+      "file": "WordPress",
+      "primary": false,
+      "how_described": "本集举例说它是市面上最流行的内容托管平台,用 PHP 写成;托管成本约 3.17 美元、收费 12.99 美元,流量涨 1000 倍成本就超 3000 美元——说明底层技术必须换代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            959.383,
+            968.728
+          ],
+          "quote": "So like WordPress, most popular platform for hosting content that's out there is running a programming language called PHP, not the most efficient programming language.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            969.118,
+            972.379
+          ],
+          "quote": "And so we're like, listen, we want to support the WordPress community.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            972.399,
+            986.221
+          ],
+          "quote": "We want to make sure WordPress is successful, but if it costs, and I was meeting with one of the largest WordPress hosts a little bit ago, and they said, you know, it is, it costs us about $3.17 to host a website on WordPress.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            997.721,
+            1004.743
+          ],
+          "quote": "And again, the average WordPress user isn't going to be willing to spend over $3,000 to host their WordPress website.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1007.584,
+            1018.227
+          ],
+          "quote": "And again, I think in the best case, it's still the user interface and the ecosystem, everything that people have come to love about WordPress, but with the underlying technologies made much, much, much more efficient.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念:智能体流量已超过人类流量、五年后将达人类流量的 1000 倍;智能体有无限耐心、无情感,会调研一千个网站的所有页面,既是基础设施压力的来源,也是智能体商务整合效应的推手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            544.717,
+            564.489
+          ],
+          "quote": "Okay, I'm just going to pause to say when I built the website for our summit, which happened in June, and when I'm saying I, I should really put quotes around it, it was mostly the Claude Code harness hooking into the Cloudflare agent that went out and set up all these accounts for me and then built the site.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            760.026,
+            765.591
+          ],
+          "quote": "Agent to agent kind of commerce and things is less.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            786.668,
+            787.609
+          ],
+          "quote": "Unassisted by an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            795.634,
+            800.537
+          ],
+          "quote": "My agent is going to visit a thousand websites and visit every page on all of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1089.683,
+            1096.365
+          ],
+          "quote": "You had an agent that was working for them 24-7, helping them do their job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1099.646,
+            1102.467
+          ],
+          "quote": "Every knowledge worker is going to have some agent that's working for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1134.05,
+            1135.17
+          ],
+          "quote": "And that's with one agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1177.872,
+            1191.523
+          ],
+          "quote": "We think that those are the sorts of things that the internet's going to have to have if it's going to be able to continue to scale to support the level of agent traffic that just is inherent to what I think the future holds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1192.475,
+            1196.557
+          ],
+          "quote": "So just to put a fine point on it, the increase is going to be agent-driven, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1196.577,
+            1199.659
+          ],
+          "quote": "That 1,000 increase is going to be agent-driven.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2390.758,
+            2397.821
+          ],
+          "quote": "But if we go to an agent type of web or a super app dominated way to browse and interact and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3040.229,
+            3048.933
+          ],
+          "quote": "How do we aggregate all that information, package it up into some sort of module, and then make it actually verifiable so that when my agent comes and sees it, they go, oh.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3211.248,
+            3220.875
+          ],
+          "quote": "And if we're not in an ad-based business model anymore, which I think is likely, if you're spending thousands of dollars a year for your agent, you don't want it to be influenced by any ads at all.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务 (agentic commerce)",
+      "file": "智能体商务",
+      "primary": true,
+      "how_described": "本集说它是小企业面临的核心风险:放任自流会成为大规模整合的工具,新品牌因网上信息不足被智能体涌向信息最丰富的老牌大公司;解法是聚合评分、履约时间、退货率等做成可验证的质量证明模块。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 517,
+          "t": [
+            2869.695,
+            2872.937
+          ],
+          "quote": "Then agentic commerce becomes this massive tool of consolidation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3017.658,
+            3020.16
+          ],
+          "quote": "So like, what is a brand in the world of agentic commerce?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3063.236,
+            3069.617
+          ],
+          "quote": "I don't think it's impossible, but I think that left to its own devices, agentic commerce is going to be a consolidating factor.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "crawling",
+      "type": "concept",
+      "role": "concept",
+      "name": "爬取 (crawling)",
+      "file": "爬取",
+      "primary": true,
+      "how_described": "本集以爬取/点击比作为衡量 AI 吃掉网络的核心指标:Google 18:1、OpenAI 1500:1、Anthropic 60000:1,一年内全部翻倍;爬取量激增也让网站维护成本成为生死问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            156.151,
+            174.045
+          ],
+          "quote": "Sort of conventionalism is there's always been a lot of bot traffic on the web, but just talk a little bit about the escalation in AI traffic that you're seeing, whether that's, you know, crawling for new information or agents taking action and what it says about the rise in these type of AI applications recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            730.752,
+            735.555
+          ],
+          "quote": "I mean, I don't think that OpenAI is crawling a little bit more than they did a year ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            735.595,
+            737.717
+          ],
+          "quote": "Anthropic is crawling a little bit more than they did a year ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1730.782,
+            1735.546
+          ],
+          "quote": "Like they just have this enormous crawling advantage, which is going to give them an advantage in AI over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1820.971,
+            1833.822
+          ],
+          "quote": "Is the right way to read this article that like now that these publishers have put into place your technology that might allow them to block the AI crawling, they're now doing the sort of negotiating in public where they're telling Google, hey, listen,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "micropayments",
+      "type": "concept",
+      "role": "concept",
+      "name": "微支付 (micropayments)",
+      "file": "微支付",
+      "primary": true,
+      "how_described": "本集提出的媒体出路之一:访问一条信息付几分之一美分,至少覆盖基础设施成本、理想情况养活创作者;难点是量级——Visa 每秒约 2 万笔,Cloudflare 每秒约 5 亿笔互联网交易,现有支付网络扛不住。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 269,
+          "t": [
+            1550.227,
+            1559.694
+          ],
+          "quote": "And so one of the things that we're thinking about is how do you have actually micropayments, where if you're accessing a piece of information that a site can say, listen, you can have this, but it's going to cost you a fraction of a penny.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1659.952,
+            1665.258
+          ],
+          "quote": "I don't think we had the infrastructure to do, and we still don't have the infrastructure to do the micropayments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "type": "concept",
+      "role": "concept",
+      "name": "SEO",
+      "file": "SEO",
+      "primary": true,
+      "how_described": "本集直说:随着 10 条蓝色链接时代终结,排名和 SEO 已不再重要,旧的 SEO 手册对智能体商务的未来行不通,必须发明新的商业模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            1926.995,
+            1931.637
+          ],
+          "quote": "I would say that ranking, thinking about SEO is just not relevant anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1962.587,
+            1968.39
+          ],
+          "quote": "And so again, I think that what the industry is saying is that the old world of SEO is gone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3099.488,
+            3104.129
+          ],
+          "quote": "And if they're all just sort of following what the old SEO playbook is, that's not going to work for the future.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dead-internet-theory",
+      "type": "concept",
+      "role": "concept",
+      "name": "死互联网理论 (dead internet theory)",
+      "file": "死互联网理论",
+      "primary": false,
+      "how_described": "本集主持人提起该理论(网络将只剩机器人和自动化内容互相喂养),Prince 用数据反驳:趋势恰恰相反,2025 年 10 月起网络恢复增长、内容并非自动化垃圾。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            275.268,
+            296.002
+          ],
+          "quote": "Right, and I'm sure you've heard of dead internet theory, but for those who haven't, it's this theory that one day the web is basically gonna consist of bots and automated content, and the bots will be manipulating that content for algorithmic curation, so what you see in your social feed is effectively a dead internet that looks like it's real.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workers",
+      "type": "concept",
+      "role": "concept",
+      "name": "无服务器 (Workers)",
+      "file": "无服务器",
+      "primary": false,
+      "how_described": "本集介绍 Cloudflare 的开发者平台 Workers:配合 isolates 技术,让服务比容器更轻量,是支撑未来智能体流量的技术押注。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1135.59,
+            1139.692
+          ],
+          "quote": "I would guess that most knowledge workers are going to have many agents that are going to be working on their behalf.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1166.083,
+            1169.705
+          ],
+          "quote": "And a lot of what we've built with our developer platform, which we call Workers,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1221.752,
+            1231.415
+          ],
+          "quote": "not in the hands of you know probably about one percent of global knowledge workers like in terms of using it in a regular basis just just scale that up to 100 of knowledge workers",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "isolates",
+      "type": "concept",
+      "role": "concept",
+      "name": "isolates",
+      "file": "isolates",
+      "primary": false,
+      "how_described": "本集说它是一项让服务「轻量得多、轻量得多、轻量得多」的技术,Cloudflare 的 Workers 开发者平台大量依赖它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            1170.405,
+            1177.811
+          ],
+          "quote": "And leaning heavily on technologies like isolates that allow you to have much, much, much lighter weight services.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

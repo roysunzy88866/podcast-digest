@@ -52,11 +52,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Tara Seshan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":45,"Slack":23,"OpenClaw":14,"Daniel Blum":2,"ChatGPT":45,"Co-work":4,"Notion":11,"上下文":13,"技能":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":45,"Slack":23,"OpenClaw":14,"Daniel Blum":2,"ChatGPT":46,"Co-work":4,"Notion":11,"上下文":14,"技能":10}</script>
 
 <script>
 (function(){

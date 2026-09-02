@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]] [[Steven Sinofsky]] [[Ryan Carson]] [[Claire]]
+[[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Applied Intuition":1,"物理 AI":6,"自动驾驶":1,"工业革命":1,"FSD":1,"Tesla":6,"Waymo":10,"ChatGPT":45,"Huawei":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Applied Intuition":1,"物理 AI":6,"自动驾驶":1,"工业革命":1,"FSD":1,"Tesla":6,"Waymo":10,"ChatGPT":46,"Huawei":1}</script>
 
 <script>
 (function(){

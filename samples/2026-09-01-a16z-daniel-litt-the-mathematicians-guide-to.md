@@ -107,8 +107,8 @@ Daniel 的核心论点是：数学的目标不是产出论文，而是产生理�
 **顺着「智能体」挖下去**
 
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:OpenAI · 同概念:ChatGPT、Codex</span>
+- [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同概念:ChatGPT、Claude、Codex</span>
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|Opus 5：神经质但干活最强的评测]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Claude、Codex</span>
-- [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:RL、推理 (reasoning)</span>
 
 </div>
 <div class="pd-ex">

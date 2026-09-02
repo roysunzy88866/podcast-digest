@@ -1,0 +1,664 @@
+{
+  "episode_id": "2026-09-02-aiandi-how-a-professional-writer-writes-with-ai",
+  "podcast": "AI & I",
+  "date": "2026-09-02",
+  "tags": [
+    "AI 写作",
+    "上下文工程",
+    "智能体",
+    "个人成长",
+    "Compound Writing 插件"
+  ],
+  "categories": [
+    "智能体",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "every",
+      "type": "company",
+      "role": "company",
+      "name": "Every",
+      "file": "Every",
+      "primary": true,
+      "how_described": "本集的主场：Katie 是 Every 的全明星撰稿人，Compound Writing 插件由她构建并发布在 Every 的 GitHub 上，灵感来自 Every 团队成员的实践",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            89.71,
+            94.97
+          ],
+          "quote": "almost exactly two years ago, you wrote one of your most popular pieces for every",
+          "speaker": ""
+        },
+        {
+          "seg": 38,
+          "t": [
+            143.09,
+            149.07
+          ],
+          "quote": "happened to me because it led me back to every uh and but I was feeling really lost",
+          "speaker": ""
+        },
+        {
+          "seg": 53,
+          "t": [
+            210.09,
+            215.47
+          ],
+          "quote": "phrase I'd also seen Dan use around the same time because I was following every at",
+          "speaker": ""
+        },
+        {
+          "seg": 64,
+          "t": [
+            263.5,
+            269.2
+          ],
+          "quote": "and like kind of and it ultimately led me to every so yeah.",
+          "speaker": ""
+        },
+        {
+          "seg": 120,
+          "t": [
+            498.18,
+            498.98
+          ],
+          "quote": "the Every Audience.",
+          "speaker": ""
+        },
+        {
+          "seg": 145,
+          "t": [
+            604.54,
+            608.5
+          ],
+          "quote": "you know, one of the first products that Every put out was Spiral, which was all",
+          "speaker": ""
+        },
+        {
+          "seg": 146,
+          "t": [
+            608.5,
+            612.16
+          ],
+          "quote": "about content repurposing, because that's something that Every was doing a lot.",
+          "speaker": ""
+        },
+        {
+          "seg": 181,
+          "t": [
+            741.37,
+            747.93
+          ],
+          "quote": "You know, every brand worth its salt has, you know, a source of truth where",
+          "speaker": ""
+        },
+        {
+          "seg": 194,
+          "t": [
+            796.89,
+            799.55
+          ],
+          "quote": "And I had a project for every freelance client.",
+          "speaker": ""
+        },
+        {
+          "seg": 195,
+          "t": [
+            799.73,
+            806.39
+          ],
+          "quote": "I had a project for every column that I worked on because I was starting to spread",
+          "speaker": ""
+        },
+        {
+          "seg": 196,
+          "t": [
+            806.39,
+            809.05
+          ],
+          "quote": "out in terms of what I was doing at every at that time.",
+          "speaker": ""
+        },
+        {
+          "seg": 259,
+          "t": [
+            1079.17,
+            1084.97
+          ],
+          "quote": "codified as like good best practices but then what you bring into every piece it's",
+          "speaker": ""
+        },
+        {
+          "seg": 290,
+          "t": [
+            1194.75,
+            1200.39
+          ],
+          "quote": "Like, I have no idea how you do it, and it's magical every time that you put another",
+          "speaker": ""
+        },
+        {
+          "seg": 327,
+          "t": [
+            1352.6,
+            1359.52
+          ],
+          "quote": "Try adio for free at adio .com slash every that's adio at o .com slash",
+          "speaker": ""
+        },
+        {
+          "seg": 328,
+          "t": [
+            1359.52,
+            1365.62
+          ],
+          "quote": "every and now back to the episode This is the piece where I talk about my mental",
+          "speaker": ""
+        },
+        {
+          "seg": 384,
+          "t": [
+            1591.13,
+            1594.35
+          ],
+          "quote": "work that you're excited to wake up and do every day.",
+          "speaker": ""
+        },
+        {
+          "seg": 401,
+          "t": [
+            1651.09,
+            1658.03
+          ],
+          "quote": "context around every and our super top secret brand",
+          "speaker": ""
+        },
+        {
+          "seg": 405,
+          "t": [
+            1669.53,
+            1674.85
+          ],
+          "quote": "Here's the context on every, how do I put those two things together and what should",
+          "speaker": ""
+        },
+        {
+          "seg": 412,
+          "t": [
+            1698.77,
+            1703.75
+          ],
+          "quote": "I'd monologue like a ton all day, every day and I'll just like talk to my career",
+          "speaker": ""
+        },
+        {
+          "seg": 445,
+          "t": [
+            1831.01,
+            1836.81
+          ],
+          "quote": "having AI interview me Alex Duffy gave me that tip early on in my time at every and",
+          "speaker": ""
+        },
+        {
+          "seg": 476,
+          "t": [
+            1958.99,
+            1965.83
+          ],
+          "quote": "Yeah, so compounding is the idea that every piece of feedback",
+          "speaker": ""
+        },
+        {
+          "seg": 478,
+          "t": [
+            1971.07,
+            1975.51
+          ],
+          "quote": "So obviously for folks that follow every they'll be familiar with this from Kieran",
+          "speaker": ""
+        },
+        {
+          "seg": 509,
+          "t": [
+            2101.41,
+            2104.69
+          ],
+          "quote": "ideas, I've ripped off from someone else on the every team.",
+          "speaker": ""
+        },
+        {
+          "seg": 512,
+          "t": [
+            2113.47,
+            2117.81
+          ],
+          "quote": "And now that's what I use all the time for every piece that I write.",
+          "speaker": ""
+        },
+        {
+          "seg": 536,
+          "t": [
+            2204.09,
+            2209.55
+          ],
+          "quote": "products and products that I rely on now every day.",
+          "speaker": ""
+        },
+        {
+          "seg": 574,
+          "t": [
+            2363.41,
+            2365.81
+          ],
+          "quote": "You know, every sentence has to earn its place.",
+          "speaker": ""
+        },
+        {
+          "seg": 657,
+          "t": [
+            2689.84,
+            2695.56
+          ],
+          "quote": "And in a few months, you'll be speaking at the every conference thesis on November",
+          "speaker": ""
+        },
+        {
+          "seg": 696,
+          "t": [
+            2847.79,
+            2853.45
+          ],
+          "quote": "unadulterated knowledge bombs about chat GPT every episode is a roller coaster of",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说它 Katie 每月花 20 美元订阅、当作职业教练使用，帮她走出灾难化思维、外化思考，并最终把她推向了在 Every 写专栏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            227.33,
+            229.83
+          ],
+          "quote": "for a $20 a month ChatGPT subscription.",
+          "speaker": ""
+        },
+        {
+          "seg": 105,
+          "t": [
+            431.92,
+            437.64
+          ],
+          "quote": "I was talking to ChatGPT about whether it was the right step for me to take",
+          "speaker": ""
+        },
+        {
+          "seg": 696,
+          "t": [
+            2847.79,
+            2853.45
+          ],
+          "quote": "unadulterated knowledge bombs about chat GPT every episode is a roller coaster of",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说她用 Claude 的项目功能为每个客户和专栏搭建上下文，还跟 Claude 聊着把复合工程插件改造成了写作插件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            700.96,
+            702.42
+          ],
+          "quote": "Were they projects on Claude?",
+          "speaker": ""
+        },
+        {
+          "seg": 487,
+          "t": [
+            2009.75,
+            2016.15
+          ],
+          "quote": "Claude about it said, I want to take this compound engineering plugin and adapt it",
+          "speaker": ""
+        },
+        {
+          "seg": 501,
+          "t": [
+            2065.85,
+            2071.31
+          ],
+          "quote": "So like again, I just talked to Claude and said, you know, I want I want these steps",
+          "speaker": ""
+        },
+        {
+          "seg": 514,
+          "t": [
+            2119.81,
+            2124.97
+          ],
+          "quote": "I'm no longer in a project on Claude .ai or chadgbt .com.",
+          "speaker": ""
+        },
+        {
+          "seg": 515,
+          "t": [
+            2125.15,
+            2131.91
+          ],
+          "quote": "I am like in the Claude desktop app or the chatgbt desktop app working with",
+          "speaker": ""
+        },
+        {
+          "seg": 640,
+          "t": [
+            2614.39,
+            2619.01
+          ],
+          "quote": "actually having to go to the app just while I'm in Codex and like or Claude and like",
+          "speaker": ""
+        },
+        {
+          "seg": 642,
+          "t": [
+            2623.61,
+            2629.39
+          ],
+          "quote": "that had more robust security features and Claude was just like I'll build that for",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说她的「职业教练 2.0」现在是 Codex 里的一个项目：维护看板、排序优先级、过滤收件箱，还替她找到能约上的初级保健医生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            1074.97,
+            1079.17
+          ],
+          "quote": "what might be maybe like a Codex sort of setup is all of the things that can be",
+          "speaker": ""
+        },
+        {
+          "seg": 347,
+          "t": [
+            1442.39,
+            1447.53
+          ],
+          "quote": "three years and then I realized I could simply tell Codex to go find primary care",
+          "speaker": ""
+        },
+        {
+          "seg": 361,
+          "t": [
+            1500.71,
+            1505.07
+          ],
+          "quote": "And now I have an automation set up through Codex, and I have it tell me what's in",
+          "speaker": ""
+        },
+        {
+          "seg": 374,
+          "t": [
+            1548.23,
+            1555.15
+          ],
+          "quote": "For the first time in my life, I'm filing insurance -free because Codex is filing my",
+          "speaker": ""
+        },
+        {
+          "seg": 391,
+          "t": [
+            1614.83,
+            1617.63
+          ],
+          "quote": "Now it looks a little bit more like a Codex project, if I believe.",
+          "speaker": ""
+        },
+        {
+          "seg": 640,
+          "t": [
+            2614.39,
+            2619.01
+          ],
+          "quote": "actually having to go to the app just while I'm in Codex and like or Claude and like",
+          "speaker": ""
+        },
+        {
+          "seg": 643,
+          "t": [
+            2629.39,
+            2634.59
+          ],
+          "quote": "you no problem and then like I asked Codex to review it and Codex was like there are",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体能处理「电脑跑腿差事」——预约医生、过滤邮件、提交保险报销——减少生活摩擦，是 AI 作为支持性技术的体现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            726.05,
+            730.51
+          ],
+          "quote": "context windows so that the agent so that it wasn't an agent well I guess maybe it",
+          "speaker": ""
+        },
+        {
+          "seg": 177,
+          "t": [
+            730.51,
+            733.81
+          ],
+          "quote": "was an agent I don't know but so that the model would have access to that",
+          "speaker": ""
+        },
+        {
+          "seg": 510,
+          "t": [
+            2105.13,
+            2110.67
+          ],
+          "quote": "So it was very much compound engineering plus Dan's agent native architecture guide",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "style-guide",
+      "type": "concept",
+      "role": "concept",
+      "name": "风格指南 (style guide)",
+      "file": "风格指南",
+      "primary": true,
+      "how_described": "本集说每个像样的品牌都有个事实来源，记录受众、痛点、产品对应、竞争对手与差异化——她把这套内容营销的老工作单元直接喂给了模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            1040.11,
+            1044.77
+          ],
+          "quote": "They're just like, write a style guide, a guide, a post about style guides based on",
+          "speaker": ""
+        },
+        {
+          "seg": 639,
+          "t": [
+            2609.11,
+            2614.39
+          ],
+          "quote": "want to be able to like add new clips and like pull my style guide down without",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "compounding",
+      "type": "concept",
+      "role": "concept",
+      "name": "复合 (compounding)",
+      "file": "复合",
+      "primary": true,
+      "how_described": "本集把它说成：你给 AI 的每一条反馈都应回馈进系统、改进下一次输出——一条反馈只给一次，固化好了就永远在那里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 474,
+          "t": [
+            1949.99,
+            1956.83
+          ],
+          "quote": "Can you tell us a little bit about what compounding is as a concept and then about",
+          "speaker": ""
+        },
+        {
+          "seg": 476,
+          "t": [
+            1958.99,
+            1965.83
+          ],
+          "quote": "Yeah, so compounding is the idea that every piece of feedback",
+          "speaker": ""
+        },
+        {
+          "seg": 542,
+          "t": [
+            2234.21,
+            2239.37
+          ],
+          "quote": "compounding at the end, but this is a process that if you are not an engineer or an",
+          "speaker": ""
+        },
+        {
+          "seg": 680,
+          "t": [
+            2786.8,
+            2792.92
+          ],
+          "quote": "Because AI does have this huge multiplicative capacity to end this compounding",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "compound-writing",
+      "type": "concept",
+      "role": "concept",
+      "name": "Compound Writing",
+      "file": "Compound Writing",
+      "primary": true,
+      "how_described": "本集说它是 Katie 从复合工程插件 fork 出来改造的写作插件，内置实质性编辑、逐行编辑和冯内古特、希区柯克等「名人审阅者」，像让你成为更好写作者的健身房",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.92,
+            13.4
+          ],
+          "quote": "Compound Writing, which helps you write with AI the way that we do internally.",
+          "speaker": ""
+        },
+        {
+          "seg": 484,
+          "t": [
+            1993.17,
+            1997.27
+          ],
+          "quote": "And so the Compound Writing plugin, it started, I literally just forked.",
+          "speaker": ""
+        },
+        {
+          "seg": 511,
+          "t": [
+            2110.67,
+            2113.11
+          ],
+          "quote": "that kind of combined together to create Compound Writing.",
+          "speaker": ""
+        },
+        {
+          "seg": 547,
+          "t": [
+            2254.75,
+            2261.31
+          ],
+          "quote": "Now it's like I can access Katie's brain recipe with this Compound Writing",
+          "speaker": ""
+        },
+        {
+          "seg": 568,
+          "t": [
+            2338.47,
+            2343.07
+          ],
+          "quote": "Like the analogy that I use for the Compound Writing plugin is that it's a gym.",
+          "speaker": ""
+        },
+        {
+          "seg": 617,
+          "t": [
+            2525.55,
+            2532.45
+          ],
+          "quote": "really kind of no shortcut but with a plug -in like the Compound Writing plug -in it",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "context engineering",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "knowledge cutoff",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "title_zh": "20年、上千项试验失败后:第一支真正起效的癌症疫苗",
+  "tldr": "Moderna CEO Stéphane Bancel 讲解与默克的个体化 mRNA 癌症疗法三期积极结果，以及一人一药背后的制造与监管体系。",
+  "digest_md": "Moderna 与默克的个体化 mRNA 癌症疗法在黑色素瘤三期临床试验中取得积极结果——这是医学史上第一支真正起效的癌症疫苗。说这话的是 Moderna CEO Stéphane Bancel，这期播客里他与主持人深聊了这个结果意味着什么、以及背后的工程与监管难题。\n\n> 【背景】Bancel 是 Moderna 的 CEO；本期为 A16Z 生物与健康团队的播客节目，主持人为该团队合伙人 Jorge Conde。\n\n此前这个领域已经努力了二十多年，一千多项临床试验全部失败 [04:32 Stéphane Bancel][04:38 Stéphane Bancel]。\n\n## 这次为什么成了：从「放狗」到「教狗」\n\n先说这次宣布了什么：三期试验达到了主要终点「无复发生存」(患者癌症不复发、不死亡)，而且让团队自己都意外的是，第一次中期分析就连次要终点「无远处转移生存」也达到了。参考二期数据：治疗后五年，约 50% 的患者获得无复发生存(对照组为单用 Keytruda),约 80% 的人五年内无病——在肿瘤学里，五年无病基本被医生视为治愈。他们希望在 2027 年让药物尽快上市，马萨诸塞州的工厂已经就绪 [04:21 Stéphane Bancel][05:43 Stéphane Bancel][06:07 Stéphane Bancel][06:26 Stéphane Bancel]。\n\n这里要解释 Keytruda(一种免疫检查点疗法)。Bancel 打了个比方：它相当于打开闸门，把免疫系统里的「狗」放出去攻击癌症。问题是有 40% 的人对它没反应，而且它常带来严重的自身免疫副作用——1 型糖尿病、红斑狼疮、克罗恩病。对那 40% 的人来说，副作用照受、药效没有 [07:03 Stéphane Bancel][07:32 Stéphane Bancel][08:25 Stéphane Bancel]。\n\nmRNA 疗法走的是完全不同的机制，区别有两点 [12:04 Stéphane Bancel]:\n\n**一是给药方式。** 与 Karolinska 合作的研究证明，肌肉注射的 mRNA 会进入淋巴结里的抗原呈递细胞(APC,免疫系统的关键细胞)，在免疫细胞**内部**翻译出信息再从内部呈递出来。以往的癌症疫苗用蛋白质或多肽制造，注射后进入血液，免疫系统只能「从外面」看到它们——呈递方式完全不同 [13:09 Stéphane Bancel][13:28 Stéphane Bancel]。\n\n**二是个性化。** 过去业内试过「共享抗原」——所有人都用同一批靶点。而 Moderna 的做法是：取患者肿瘤活检，读取它 DNA 的全部「字母」(约三个 GB),再对你的健康细胞做同样测序，逐个核苷酸比对找出突变，然后用算法从数百上千个突变中挑出 34 个最相关的，拼接成一个大的 mRNA 分子，30 天内为你制造出来。关键发现是：约 90% 的抗原在患者之间各不相同——所以这件事**只有靠个性化才可能行得通** [13:43 Stéphane Bancel][14:18 Stéphane Bancel][15:33 Stéphane Bancel]。\n\n> 【背景】这项疗法对外通称「个体化新抗原疗法」，Bancel 在访谈中称其为「1.0 版本」。疫苗之所以叫「疫苗」，因为这个领域的惯例是：凡是教免疫系统识别目标的方法都算疫苗——区别在于 COVID 疫苗是感染前教，这里是确诊后「重新教」免疫系统认出它漏掉的癌症信号 [10:31 Stéphane Bancel][11:20 Stéphane Bancel]。\n\n## 一人一药的工厂：他们只运输「文件」\n\n个性化疗法最大的障碍通常是制造。Bancel 用 CAR-T 疗法(把患者免疫细胞取出体外改造再输回)做对比：CAR-T 需要运输活的细胞、用大反应器，因为细胞压太密会死。而 mRNA 的美妙之处在于它是**信息分子**——Moderna 从实验室拿到的只是两组序列数据，「我们只是拿到那个文件」。然后全合成、全酶促、在水里反应，反应器极小，生产方式更像小分子药而不是大分子药 [21:31 Stéphane Bancel][21:42 Stéphane Bancel][22:26 Stéphane Bancel]。\n\n现在的速度是「从针头到针头」约 42 天：从取活检到医院备好疫苗。Bancel 承认还有大量自动化和机器人技术的效率空间。他们的路径很工程师化：第一代机器「像一台大个的美式冰箱」，团队只被要求保证质量、绝不产生假阴性——如果科学还没验证就去优化机器人，五年可能白费；二期数据证明疗法有效后，才投入大批工程师专攻效率。Bancel 说自己痴迷两个指标：周期时间(资产周转速度)和平方英寸(洁净室是固定空间，能塞进 2 倍或 10 倍的机器，固定成本就摊薄数倍)。马尔伯勒工厂能产数万剂，足以覆盖整个黑色素瘤市场 [21:07 Stéphane Bancel][22:52 Stéphane Bancel][24:28 Stéphane Bancel][25:24 Stéphane Bancel][25:32 Stéphane Bancel]。\n\n顺带回应了「富人在家自制个体化药」的问题：Bancel 认为大多数人还是会来找 Moderna,因为注射产品的污染风险是致命的——哪怕一个杂菌就可能导致败血症，工业化并经过 GMP 验证的流程更安全 [26:31 Stéphane Bancel][26:44 Stéphane Bancel]。\n\n## 监管的是流程，不是某一剂药\n\n既然每一剂都不同，FDA 到底批什么？答案是：**批流程，不批产品**。先例是 CAR-T——以「流程 BLA」而非「产品 BLA」获批。Moderna 从进入临床的第一天起，IND 就是一个流程 IND;每个三期开始前还要与 FDA 开二期结束会议，就研究设计和生产方案达成一致——这些沟通已持续了十年。FDA 的核心诉求很朴素：同样的肿瘤样本进去，黑箱末端出来的必须是同样的产品。药厂要先用数据向自己、再向 FDA 证明整个流程的稳健性 [28:12 Stéphane Bancel][28:59 Stéphane Bancel][29:32 Stéphane Bancel][29:56 Stéphane Bancel]。\n\n## 下一座山：胰腺癌与自身免疫病\n\n这个平台最有力的证据是：治疗前后的血液对比显示，患者体内**从头产生了**能识别 mRNA 所编码靶点的新 T 细胞——不是扩增已有的，是新造的。这打开了三个扩展方向 [30:45 Stéphane Bancel][31:06 Stéphane Bancel]:\n\n- **去 Keytruda 有效的地方**：肺癌已进三期，肾癌、膀胱癌在二期，机制正交、预期有协同。\n- **去疾病的早期**：2026 年春启动了 1 期肺癌的三期试验，mRNA 单药、不联合检查点——因为早期癌症用检查点不值得(副作用终身伴随)，而 mRNA 的副作用「类似疫苗，累一天就完了」。可对曾经的吸烟者定期 X 光筛查。\n- **去检查点无效的地方**：胰腺癌和胃癌正在尝试——风险最高，但既然机制不同、且已证明能造新 T 细胞，值得做实验。\n\n而且 Bancel 强调：现在的算法是十年前写的一期算法，是「你此生会见到的最差版本」。有了三期全部血液样本和测序数据，他们要用 AI 去挖掘那 20% 无应答患者为什么没应答，再改进算法 [17:02 Stéphane Bancel][18:03 Stéphane Bancel][36:11 Stéphane Bancel]。\n\n年底前他们还会有针对儿童肝脏罕见遗传病的关键性研究数据；6 月的科学日上宣布的下一座高山是自身免疫病——不只治症状，而是用免疫系统去攻击那些失调的、攻击自身身体的免疫细胞，治疗根源。这部分还在实验室 [37:03 Stéphane Bancel][37:16 Stéphane Bancel][38:17 Stéphane Bancel]。\n\n## 本集带走\n\n- **成功的关键是「从内部呈递 + 一人一靶点」**：mRNA 在免疫细胞内部翻译并呈递，且约 90% 的抗原因人而异，个性化不是加分项、是唯一可行路径。\n- **mRNA 是信息分子，工厂只运数据**：与 CAR-T 运活细胞不同，拿到两组序列即可全合成生产，反应器极小、更像小分子药。\n- **42 天从活检到疫苗**，且「先保质量、再提效率」——科学未验证前不优化产线。\n- **监管批的是流程**：与 FDA 沟通了十年，核心是证明「同样输入必然同样输出」。\n- **下一步**：肺癌三期已启动，胰腺癌/胃癌在攻，算法自称 1.0、还有巨大改进空间。",
+  "quotes": [
+    {
+      "en": "It's the first time there is a cancer vaccine working.",
+      "zh": "这是第一次有癌症疫苗真正起作用。",
+      "timestamp": "04:32",
+      "speaker": "Stéphane Bancel"
+    },
+    {
+      "en": "I think more than a thousand clinical trials that have all failed.",
+      "zh": "我记得有一千多项临床试验，全部失败了。",
+      "timestamp": "04:38",
+      "speaker": "Stéphane Bancel"
+    },
+    {
+      "en": "And so when this is injected in your body, basically it teaches the immune system the signature of your cancer cell that it missed.",
+      "zh": "所以当它被注射进你的身体时，它教会免疫系统你的癌细胞那个被它漏掉的特征签名。",
+      "timestamp": "14:47",
+      "speaker": "Stéphane Bancel"
+    },
+    {
+      "en": "So the only way this can work is through personalization.",
+      "zh": "所以这件事能行得通的唯一途径就是个性化。",
+      "timestamp": "15:33",
+      "speaker": "Jorge Conde"
+    },
+    {
+      "en": "Well, it's exactly the same for Intismaran, which is the current version of Intismaran that Moderna is the worst version of Intismaran you're going to see for the rest of medical history.",
+      "zh": "对这款疗法来说也完全一样：Moderna 的当前版本，是你今后在整个医学史上会见到的最差版本。",
+      "timestamp": "18:03",
+      "speaker": "Stéphane Bancel"
+    },
+    {
+      "en": "So if we have the same input, we're going to get the same output going to patient as an individualized medicine.",
+      "zh": "所以如果我们有同样的输入，我们就会得到同样的输出，作为一种个体化药物给到病人。",
+      "timestamp": "29:56",
+      "speaker": "Stéphane Bancel"
+    },
+    {
+      "en": "So we really, in my book, have proven to ourselves and to the clinical community that modernized mRNA technology can develop, teach the immune system to develop new T-cells to go attack your cancer.",
+      "zh": "所以在我看来，我们真的已经向我们自己和临床界证明了，现代化的 mRNA 技术能够教会免疫系统去发展新的 T 细胞来攻击你的癌症。",
+      "timestamp": "31:06",
+      "speaker": "Stéphane Bancel"
+    },
+    {
+      "en": "Because I think you always learn more from things that don't work and things that work.",
+      "zh": "因为我认为，你从不奏效的事情里学到的东西，和从奏效的事情里学到的一样多。",
+      "timestamp": "36:07",
+      "speaker": "Stéphane Bancel"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:32",
+      "speaker": "Stéphane Bancel",
+      "en": "It's the first time there is a cancer vaccine working.",
+      "zh": "这是第一次有癌症疫苗真正起作用。"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Stéphane Bancel",
+      "en": "I think more than a thousand clinical trials that have all failed.",
+      "zh": "我记得有一千多项临床试验，全部失败了。"
+    },
+    {
+      "timestamp": "11:20",
+      "speaker": "Stéphane Bancel",
+      "en": "But if your cancer grows, then the question is, how can you reteach your immune system?",
+      "zh": "但如果你的癌症生长起来了，那么问题就是：你如何重新教会你的免疫系统？"
+    },
+    {
+      "timestamp": "12:04",
+      "speaker": "Stéphane Bancel",
+      "en": "One is the amount of technology, and I think the other one is the individualization by designing a product for one human at a time.",
+      "zh": "一个是技术的量，另一个是一次只为一个人设计产品的个性化。"
+    },
+    {
+      "timestamp": "13:28",
+      "speaker": "Stéphane Bancel",
+      "en": "So your immune system sees them, but not in the same manner from within.",
+      "zh": "所以你的免疫系统确实能看到它们，但不是以同样的方式、从内部看到。"
+    },
+    {
+      "timestamp": "14:45",
+      "speaker": "Stéphane Bancel",
+      "en": "And so when this is injected in your body, basically it teaches the immune system the signature of your cancer cell that it missed.",
+      "zh": "所以当它被注射进你的身体时，它教会免疫系统你的癌细胞那个被它漏掉的特征签名。"
+    },
+    {
+      "timestamp": "15:33",
+      "speaker": "Stéphane Bancel",
+      "en": "So the only way this can work is through personalization.",
+      "zh": "所以这件事能行得通的唯一途径就是个性化。"
+    },
+    {
+      "timestamp": "17:02",
+      "speaker": "Stéphane Bancel",
+      "en": "But because we've been doing this for 10 years, it's a 10-year-old algorithm.",
+      "zh": "但因为这件事我们已经做了 10 年，这是一个有 10 年历史的算法。"
+    },
+    {
+      "timestamp": "18:03",
+      "speaker": "Stéphane Bancel",
+      "en": "Well, it's exactly the same for Intismaran, which is the current version of Intismaran that Moderna is the worst version of Intismaran you're going to see for the rest of medical history.",
+      "zh": "对这款疗法来说也完全一样：Moderna 的当前版本，是你今后在整个医学史上会见到的最差版本。"
+    },
+    {
+      "timestamp": "21:31",
+      "speaker": "Stéphane Bancel",
+      "en": "As you and I talked about, the beautiful thing of mRNA, it's an information molecule.",
+      "zh": "就像你我谈过的，mRNA 的美妙之处在于，它是一个信息分子。"
+    },
+    {
+      "timestamp": "21:42",
+      "speaker": "Stéphane Bancel",
+      "en": "So we just get the file.",
+      "zh": "所以我们只是拿到那个文件。"
+    },
+    {
+      "timestamp": "23:26",
+      "speaker": "Stéphane Bancel",
+      "en": "That would be a disaster for humanity, obviously.",
+      "zh": "那对人类来说显然会是一场灾难。"
+    },
+    {
+      "timestamp": "24:36",
+      "speaker": "Stéphane Bancel",
+      "en": "And the second vector I'm obsessed about is square inches.",
+      "zh": "而我执着的第二个维度是平方英寸。"
+    },
+    {
+      "timestamp": "29:56",
+      "speaker": "Stéphane Bancel",
+      "en": "So if we have the same input, we're going to get the same output going to patient as an individualized medicine.",
+      "zh": "所以如果我们有同样的输入，我们就会得到同样的输出，作为一种个体化药物给到病人。"
+    },
+    {
+      "timestamp": "31:06",
+      "speaker": "Stéphane Bancel",
+      "en": "So we really, in my book, have proven to ourselves and to the clinical community that modernized mRNA technology can develop, teach the immune system to develop new T-cells to go attack your cancer.",
+      "zh": "所以在我看来，我们真的已经向我们自己和临床界证明了，现代化的 mRNA 技术能够教会免疫系统去发展新的 T 细胞来攻击你的癌症。"
+    },
+    {
+      "timestamp": "33:41",
+      "speaker": "Stéphane Bancel",
+      "en": "You might feel tired for a day, but that's it.",
+      "zh": "你可能会累一天，但仅此而已。"
+    },
+    {
+      "timestamp": "36:07",
+      "speaker": "Stéphane Bancel",
+      "en": "Because I think you always learn more from things that don't work and things that work.",
+      "zh": "因为我认为，你从不奏效的事情里学到的东西，和从奏效的事情里学到的一样多。"
+    },
+    {
+      "timestamp": "37:45",
+      "speaker": "Stéphane Bancel",
+      "en": "And we think we might find ways to use the immune system to treat the root cause of autoimmune disease.",
+      "zh": "而且我们认为我们可能会找到方法，利用免疫系统来治疗自身免疫性疾病的根源。"
+    }
+  ],
+  "voice_script": "一千多项临床试验，二十多年，全部失败——然后，第一支真正起效的癌症疫苗来了。\n\n这一期聊的就是这件事：Moderna 和默克的个体化 mRNA 癌症疗法，在黑色素瘤的三期试验里拿到了积极结果。说话的人是 Moderna 的 CEO Stéphane Bancel，他自己都说，这是医学史上第一支真正起效的癌症疫苗。\n\n先看数据有多硬。三期试验达到了主要终点，叫无复发生存，就是患者癌症不复发、也不死亡。更让团队自己都意外的是，第一次中期分析，连次要终点也提前达标了。参考二期的数据：治疗后五年，大约一半的患者没有复发；八成的人五年内没病——在肿瘤学里，五年无病，医生基本就当你是治愈了。他们希望 2027 年上市，马萨诸塞州的工厂已经就绪。\n\n那这次为什么成了？先说现成的办法为什么不行。现在主流的免疫疗法叫 Keytruda，打了个比方，它相当于打开闸门，把免疫系统里的狗放出去咬癌症。问题是有四成的人对它没反应——副作用照受，1 型糖尿病、红斑狼疮这些自身免疫问题都可能来，药效却没有。\n\n而 mRNA 走的是完全不同的路子，关键就两点。第一，给药方式。和 Karolinska 合作的研究证明，肌肉注射的 mRNA 会钻进淋巴结里的免疫细胞内部，在细胞里面翻译出信息、再从里面呈递出来。以前的癌症疫苗用的是蛋白质，进到血液里，免疫系统只能从外面看——呈现方式完全不一样。\n\n第二，就是个性化，这是真正的大招。做法是这样的：取你的肿瘤活检，读取它 DNA 的全部字母，大概三个 GB；再给你的健康细胞做同样的测序，逐个比对找突变，然后算法从成百上千个突变里挑出 34 个最相关的，拼成一个大 mRNA 分子，30 天内给你造出来。为什么非要这么麻烦？因为约九成的抗原，患者和患者之间各不相同。所以个性化不是锦上添花——是唯一走得通的路。\n\n听到这你可能会想：一人一药，这工厂得难成什么样？这恰恰是 mRNA 最美的地方。对比一下 CAR-T 疗法，那是要把患者的活细胞取出来、改造、再输回去，运输的是活细胞，得用大反应器，细胞挤太密会死。而 mRNA 是信息分子——Moderna 从实验室拿到的，就只是两组序列数据，说白了就是一份文件。然后全合成、在水里反应，反应器特别小，生产方式更像小分子药。\n\n现在的速度是\"从针头到针头\"大概 42 天，从取活检到医院备好疫苗。有意思的是他们的路径：第一代机器像一台大个的美式冰箱，团队只被要求保证质量、绝不漏检——科学还没验证就去优化机器人，五年可能白费。等二期数据证明疗法有效了，才投入大批工程师专攻效率。盯的两个指标也很工程师：周期时间，和洁净室里能塞进多少机器。\n\n还有个问题绕不开：每一剂都不一样，FDA 到底批什么？答案是——批流程，不批产品。从进临床第一天起，就是一个流程 IND；三期之前还要和 FDA 开会，就设计和生产方案达成一致，这种沟通已经持续了十年。监管的核心诉求其实很朴素：同样的肿瘤样本进去，黑箱末端出来的，必须是同样的产品。\n\n那下一步呢？最有力的证据是：治疗前后对比，患者体内从头产生了能识别新靶点的 T 细胞——不是扩增已有的，是新造出来的。所以肺癌已经进三期，胰腺癌、胃癌也在攻。而现在的算法，用原话说是\"你今后在整个医学史上会见到的最差版本\"——这只是 1.0，后面的空间还大得很。\n\n一千多次失败都没白费。当那针打进去，它教的是免疫系统，去认出你自己的癌细胞身上、被漏掉的那个特征签名。"
+}

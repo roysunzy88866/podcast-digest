@@ -50,7 +50,7 @@ aliases: ["cognition"]
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[Stripe]] · [[SpaceX]] · [[沙箱]] · [[OpenRouter]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":89,"OpenAI":77,"Cursor":41,"推理":4,"Stripe":24,"SpaceX":12,"沙箱":35,"OpenRouter":7,"Salesforce":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":90,"OpenAI":78,"Cursor":41,"推理":4,"Stripe":24,"SpaceX":12,"沙箱":35,"OpenRouter":7,"Salesforce":10}</script>
 
 <script>
 (function(){

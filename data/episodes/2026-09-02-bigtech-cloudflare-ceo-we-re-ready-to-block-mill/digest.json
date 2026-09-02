@@ -1,0 +1,178 @@
+{
+  "title_zh": "AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌",
+  "tldr": "Cloudflare CEO Matthew Prince 谈AI机器人流量首次超越人类，出版商、Google与小企业在智能体时代面临的经济重构。",
+  "digest_md": "互联网历史上第一次，爬网页的AI机器人比真人还多了。说这话的人是 Matthew Prince,Cloudflare 的 CEO——Cloudflare 是给全球很大一部分网站提供防护和加速的公司，所以全网的流量构成，他看得比谁都清楚。他透露了一个连自己都被震住的数据：他起初预测自动化流量要到 2027 年下半年才会超过人类，后来把这个预测提前到 2027 年上半年；结果到了 2026 年 5 月，团队告诉他——已经发生了。\n\n更惊人的是趋势的斜率。如果按当前曲线外推，五年后线上的自动化流量将是人类流量的**1000倍**——不是人类上网变少，而是机器人流量疯狂上涨。Prince 认为1000倍甚至可能是低估：现在只有约1%的全球知识工作者在日常使用 ChatGPT、Claude、Grok 这类工具，而且一天用一两次；想象100%的知识工作者、每个任务都让智能体跑一遍，量级自然就到了。\n\n## 网络没有死，反而在重新生长\n\n很多人会想到「死互联网理论」——认为网络终将只剩机器人和自动化内容互相喂养。Prince 说数据恰恰相反：网络流量大约在2015年就停止增长、过去十年还轻微下滑，但2025年10月前后突然恢复增长，速度接近2000年代中期。而且新内容不是垃圾流水线产物——是不懂技术、没资源但有想法的人，借助 Lovable、Replit、Base44、Wix 这类「说句话就能搭出应用」的工具，第一次能把东西做出来、发布上线。「AI辅助的人类，比以往任何时候都更有创造力。」变化在于消费界面：未来大家主要通过AI界面来接触这些内容。\n\n## 1000倍流量会压垮现有技术\n\nPrince 拿新冠举例：疫情初期欧洲互联网两周内流量翻倍，就差点整体崩溃——Netflix、Disney、YouTube 等平台高层开会僵持，谁都不肯降画质，最后不得不强制下调视频分辨率才保住欧洲网络。那还只是2倍。\n\n具体到成本：最大的建站平台 WordPress 用 PHP 写成，一家大托管商算过，托管一个网站成本约3.17美元、收费12.99美元；流量涨1000倍，成本就超过3000美元——没有用户付得起。所以Cloudflare的思路是底层技术必须换代：从服务器到虚拟机到容器已经省了一轮，但容器仍要拖一整个操作系统和工具链，太重。他们押注更轻量的方案(其开发者平台 Workers 及 isolates 技术)，让服务的启动开销小到智能体流量撑得住。按Prince的算法：全球每个知识工作者配一个全天候智能体，哪怕只跑在普通容器里，都需要超过当前全球一年CPU产量的40倍。\n\n## 出版商的账：抓取换点击的比率一年翻倍\n\n这是Prince最核心的一组数据。十年前Google抓你2次页面送来1次点击；半年前是6次抓取换1次；Google推出AI overviews后变成18:1;OpenAI是1500次抓取换1次点击，Anthropic约60000:1。**过去一年，这些数字全部又翻了一倍。**对用户来说体验确实更好了——答案直接给、不用再核查；对出版商来说，这意味着没人再点进原始来源。Prince判断：连Google都宣布「10条蓝色链接」的时代正在终结，支撑网络30年的广告+订阅模式，撑不起下一个30年。\n\n他给内容网站分了两类：\n\n- **大多数(希望内容进AI)**:包括Cloudflare自己的知识库。对它们要做的是极致提效——交付轻量的 markdown 而非笨重的HTML页面、用好缓存，目标是「每次提供页面的成本降到原来的千分之一」，才能跑赢需求增长。\n- **广告/订阅制媒体(内容被「偷走」)**：它们需要控制权——不给钱就不给内容。Cloudflare一年前给的工具已见效：《纽约时报》《大西洋月刊》、People 等用它屏蔽AI公司、再逼出交易。下一步是微支付基础设施：访问一条信息付几分之一美分，至少覆盖基础设施成本，理想情况还能养活背后的记者和学者。难点在量级——Visa每秒处理约2万笔金融交易，Cloudflare每秒处理约5亿次互联网交易，哪怕其中1%-10%需要付费结算，都是现有支付网络扛不住的。\n\n> 【背景】原文此处还提到 Condé Nast(康泰纳仕，出版集团)也在使用该工具屏蔽AI公司。\n\n## 9月中旬，Google默认被屏蔽\n\nPrince 点名最大的不公平：Google「用一个爬虫干两件事」——想留在搜索就得让它喂AI,这是把昨天的搜索垄断变现成明天的AI垄断。数据上，Google抓取的网络内容超过OpenAI的两倍、Anthropic的四倍、Microsoft的五倍。\n\nCloudflare 的动作：**从9月中旬起，对广告或订阅制企业，默认屏蔽Google抓取内容**(可主动选择退出)。Prince预计「数百万个网站会从Google的雷达上消失」，大型出版商会纷纷跟进。在他看来这对Google甚至是系统性威胁——PageRank 的本质是靠链接链路做归因和排名，如果大量内容退出可见范围，Google做搜索排名的根基就断了。他确信Google最终会付费，理由很简单：「YouTube 付给内容创作者的钱比谁都多，Google明明会做这件事，只是得让他们明白《纽约时报》和《大西洋月刊》跟YouTube网红一样值得被付钱。」而排名和SEO,他已经直说了——不再重要。\n\n## 小企业：智能体商务可能是一台「整合机器」\n\nPrince 这一年新的担忧从小媒体扩大到小企业。逻辑是：品牌本质上是人类懒得做调研时的捷径——看到万豪的标志就知道会得到什么体验。但智能体没有情感、有无限耐心，会调研一千个网站的所有页面再下单。听起来对小公司公平了？恰恰相反：新品牌在网上的信息近乎为零，智能体会涌向信息最丰富的老牌大公司。「我的本地农户怎么触达只想要某种棕色鸡蛋的我？它不可能有那样的信息深度。」\n\n他引用PayPal前CEO的话：担心未来只剩五家公司——一家管钱、一家管地产、一家制造、一家运输、一家AI。Prince还用《杰特森一家》打比方：乔治·杰特森的采购全交给女仆机器人罗茜，而罗茜绝不会去街角杂货店买鸡蛋——她只会去信息最全的大型企业集团。放任自流，智能体商务就会成为大公司并购整合的加速器。\n\n解法是什么？他给出了方向但承认还没答案：把亚马逊星级评分、实际发货履约时间、退货率、拒付率等信息聚合成**可验证的质量证明模块**，让智能体一眼认出「这是优质商家」——让没有历史声誉的新玩家有办法证明自己产品更好。他正拉着 Shopify、PayPal、Visa、MasterCard、American Express、Intuit 一起攒工具，并和主持人约定明年这个时候给出完整方案。\n\n## 本集带走\n\n- **爬取/点击比是衡量AI吃掉网络的核心指标**：Google 18:1、OpenAI 1500:1、Anthropic 60000:1,一年内全部翻倍——用户越满意，出版商越没饭吃。\n- **两条路线分而治之**：想让内容进AI的网站拼效率(降成本到千分之一)；广告/订阅制媒体拼控制权(不付费就屏蔽+微支付)。\n- **9月中旬是分水岭**：Cloudflare 将默认屏蔽Google抓取广告/订阅制网站内容，数百万网站可能退出Google索引，SEO时代加速落幕。\n- **AI流量的基础设施账**：新冠2倍流量就差点压垮欧洲网络；WordPress站在1000倍流量下成本从3美元涨到3000美元——容器之后还需要更轻量级的技术(如 isolates)。\n- **警惕智能体商务的整合效应**：没有信息积累的新品牌在「无限耐心的买家」面前天然吃亏，需要可验证的质量凭证机制给新进入者留门。\n- **下一个大问题**：付费智能体不被广告影响=富人得到更诚实的AI,贫富数字鸿沟可能是AI时代最深的裂痕。",
+  "quotes": [
+    {
+      "en": "We estimate now that automated traffic online will be 1,000 times what human traffic is.",
+      "zh": "我们现在估计,线上的自动化流量将会是人类流量的1000倍。",
+      "timestamp": "04:00",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "over the next five years, figuring out what the business model of the next 30 years of the internet, like that's the most interesting and important question in technology today.",
+      "zh": "在未来五年里,弄清楚未来30年互联网的商业模式是什么,这是当今技术领域最有趣也最重要的问题。",
+      "timestamp": "10:26",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "Like, the world shouldn't be five, you know, frontier model providers. It should be 500,000.",
+      "zh": "这个世界不应该只有五个前沿模型提供商,而应该是50万个。",
+      "timestamp": "12:22",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "I think they're using one crawler to do two things. And they're trying to leverage their sort of monopoly that they had yesterday into the monopoly tomorrow.",
+      "zh": "我认为他们是在用一个爬虫做两件事。他们正试图把昨天拥有的垄断转化为明天的垄断。",
+      "timestamp": "28:33",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "And if every other AI company has to pay for content, so should Google.",
+      "zh": "如果其他所有AI公司都必须为内容付费,Google也应该如此。",
+      "timestamp": "30:44",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "I would say that ranking, thinking about SEO is just not relevant anymore.",
+      "zh": "我想说,排名、考虑SEO已经不再重要了。",
+      "timestamp": "32:06",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "Starting in mid-September, we're going to actually make it not just a no trespassing sign, but we're actually going to have, basically put a bouncer there saying, unless you're compensating creators, you don't get this content.",
+      "zh": "从9月中旬开始,我们要让它不只是一块「禁止擅入」的牌子,我们会基本上派一个保安站在那里说:除非你补偿创作者,否则你拿不到这些内容。",
+      "timestamp": "38:47",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "The world that I'm trying to play for is one where there's not five AI companies, there's 500,000.",
+      "zh": "我想要为之奋斗的世界,不是只有五家AI公司的世界,而是有五十万家的世界。",
+      "timestamp": "43:38",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "It's not going to be a couple of swashes of pretty paint that agents are going to care about.",
+      "zh": "智能体在意的不会是几抹漂亮的油漆涂饰。",
+      "timestamp": "45:53",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "I don't think it's impossible, but I think that left to its own devices, agentic commerce is going to be a consolidating factor.",
+      "zh": "我不认为这是不可能的,但如果放任自流,智能体商务将会成为一个整合因素。",
+      "timestamp": "51:03",
+      "speaker": "Matthew Prince"
+    },
+    {
+      "en": "And if we're not in an ad-based business model anymore, which I think is likely, if you're spending thousands of dollars a year for your agent, you don't want it to be influenced by any ads at all.",
+      "zh": "如果我们不再处于基于广告的商业模式中——我认为这很可能——如果你每年为你的智能体花费数千美元,你根本不希望它受到任何广告的影响。",
+      "timestamp": "53:31",
+      "speaker": "Matthew Prince"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:00",
+      "speaker": "Matthew Prince",
+      "en": "We estimate now that automated traffic online will be 1,000 times what human traffic is.",
+      "zh": "我们现在估计,线上的自动化流量将会是人类流量的1000倍。"
+    },
+    {
+      "timestamp": "06:25",
+      "speaker": "Matthew Prince",
+      "en": "And instead of it making the internet worse, I actually think the internet's getting better right now.",
+      "zh": "它并没有让互联网变得更糟,我实际上认为互联网现在正在变得更好。"
+    },
+    {
+      "timestamp": "10:25",
+      "speaker": "Matthew Prince",
+      "en": "over the next five years, figuring out what the business model of the next 30 years of the internet, like that's the most interesting and important question in technology today.",
+      "zh": "在未来五年里,弄清楚未来30年互联网的商业模式是什么,这是当今技术领域最有趣也最重要的问题。"
+    },
+    {
+      "timestamp": "12:22",
+      "speaker": "Matthew Prince",
+      "en": "Like, the world shouldn't be five, you know, frontier model providers. It should be 500,000.",
+      "zh": "这个世界不应该只有五个前沿模型提供商,而应该是50万个。"
+    },
+    {
+      "timestamp": "13:15",
+      "speaker": "Matthew Prince",
+      "en": "My agent is going to visit a thousand websites and visit every page on all of them.",
+      "zh": "而我的智能体会访问一千个网站,并且访问它们所有的页面。"
+    },
+    {
+      "timestamp": "13:54",
+      "speaker": "Matthew Prince",
+      "en": "And if the AI companies are just taking without returning some sort of value, then that just doesn't make sense.",
+      "zh": "如果AI公司只是索取而不回馈某种价值,那这就讲不通。"
+    },
+    {
+      "timestamp": "15:51",
+      "speaker": "Matthew Prince",
+      "en": "And that was at 2x. At 1000x, it's going to be completely different.",
+      "zh": "而那还只是2倍。到了1000倍,情况将完全不同。"
+    },
+    {
+      "timestamp": "24:58",
+      "speaker": "Matthew Prince",
+      "en": "What changed is the results got better.",
+      "zh": "变的是结果变好了。"
+    },
+    {
+      "timestamp": "28:33",
+      "speaker": "Matthew Prince",
+      "en": "I think they're using one crawler to do two things. And they're trying to leverage their sort of monopoly that they had yesterday into the monopoly tomorrow.",
+      "zh": "我认为他们是在用一个爬虫做两件事。他们正试图把昨天拥有的垄断转化为明天的垄断。"
+    },
+    {
+      "timestamp": "30:44",
+      "speaker": "Matthew Prince",
+      "en": "And if every other AI company has to pay for content, so should Google.",
+      "zh": "如果其他所有AI公司都必须为内容付费,Google也应该如此。"
+    },
+    {
+      "timestamp": "32:06",
+      "speaker": "Matthew Prince",
+      "en": "I would say that ranking, thinking about SEO is just not relevant anymore.",
+      "zh": "我想说,排名、考虑SEO已经不再重要了。"
+    },
+    {
+      "timestamp": "38:47",
+      "speaker": "Matthew Prince",
+      "en": "Starting in mid-September, we're going to actually make it not just a no trespassing sign, but we're actually going to have, basically put a bouncer there saying, unless you're compensating creators, you don't get this content.",
+      "zh": "从9月中旬开始,我们要让它不只是一块「禁止擅入」的牌子,我们会基本上派一个保安站在那里说:除非你补偿创作者,否则你拿不到这些内容。"
+    },
+    {
+      "timestamp": "43:38",
+      "speaker": "Matthew Prince",
+      "en": "The world that I'm trying to play for is one where there's not five AI companies, there's 500,000.",
+      "zh": "我想要为之奋斗的世界,不是只有五家AI公司的世界,而是有五十万家的世界。"
+    },
+    {
+      "timestamp": "45:53",
+      "speaker": "Matthew Prince",
+      "en": "It's not going to be a couple of swashes of pretty paint that agents are going to care about.",
+      "zh": "智能体在意的不会是几抹漂亮的油漆涂饰。"
+    },
+    {
+      "timestamp": "50:23",
+      "speaker": "Matthew Prince",
+      "en": "I think it's actually like a true attestation of quality and experience.",
+      "zh": "我认为它实际上更像是对质量和体验的真实证明。"
+    },
+    {
+      "timestamp": "51:03",
+      "speaker": "Matthew Prince",
+      "en": "I don't think it's impossible, but I think that left to its own devices, agentic commerce is going to be a consolidating factor.",
+      "zh": "我不认为这是不可能的,但如果放任自流,智能体商务将会成为一个整合因素。"
+    },
+    {
+      "timestamp": "53:31",
+      "speaker": "Matthew Prince",
+      "en": "And if we're not in an ad-based business model anymore, which I think is likely, if you're spending thousands of dollars a year for your agent, you don't want it to be influenced by any ads at all.",
+      "zh": "如果我们不再处于基于广告的商业模式中——我认为这很可能——如果你每年为你的智能体花费数千美元,你根本不希望它受到任何广告的影响。"
+    }
+  ],
+  "voice_script": "互联网历史上第一次，爬网页的机器人比真人还多了。这一期就聊这件事——AI流量反超人类之后，整个网络的经济账要怎么重算。说这话的人叫Matthew Prince,是Cloudflare的CEO。这家公司给全球很大一部分网站做防护和加速，所以全网流量长什么样，没人比他看得更清楚。\n\n先说这个数据有多离谱。Prince原本预测，自动化流量超过人类要到2027年下半年，后来把预测提前到2027年上半年。结果到了2026年5月，团队告诉他——已经发生了，比预测早了整整一年。更狠的是趋势的斜率：按现在的曲线外推，五年后线上自动化流量会是人类的1000倍。而且Prince觉得1000倍可能还是低估了。为什么？因为现在全球只有大约1%的知识工作者在天天用ChatGPT、Claude这类工具，一天也就用一两次。想象一下百分之百的知识工作者、每个任务都让智能体跑一遍——量级自然就上去了。\n\n听到这你可能会想，这是不是就是那个“死互联网理论”，网络最后只剩机器人互相喂养？数据恰恰相反。网络流量2015年就停止增长了，过去十年还在轻微下滑，结果2025年10月前后突然恢复增长，速度接近2000年代中期。而且新内容不是垃圾流水线，是一堆不懂技术、没资源但有想法的人，靠Lovable、Replit这种“说句话就能搭出应用”的工具，第一次把东西做了出来。用Prince的话说，AI辅助的人类，比以往任何时候都更有创造力。变的是消费的界面——以后大家主要通过AI界面去接触这些内容。\n\n那1000倍流量意味着什么？先讲个旧事。疫情初期，欧洲互联网两周内流量翻倍，就差点整体崩溃。Netflix、YouTube这些平台的高层开会僵持，谁都不肯降画质，最后不得不强制下调分辨率，才保住欧洲的网络。那才只是2倍。再算笔具体的账：最大的建站平台WordPress,托管一个网站成本约3.17美元，收费12.99美元。流量涨1000倍，成本超过3000美元——没有任何用户付得起。所以Cloudflare押注更轻量的技术，让服务启动开销小到智能体流量撑得住。按Prince的算法，全球每个知识工作者配一个全天候智能体，哪怕只跑在普通容器里，都需要超过当前全球一年CPU产量的40倍。\n\n好，接下来是这期最核心的一组数据，关于出版商的。十年前，Google抓你2次页面，送来1次点击；半年前变成6次抓取换1次；Google推出AI overviews之后，变成18比1;OpenAI是1500次抓取换1次点击，Anthropic更夸张，60000比1。而且过去一年，这些数字全部又翻了一倍。说白了，用户体验是更好了，答案直接给、不用再核查；但对出版商来说，没人再点进原始来源了。支撑网络30年的广告加订阅模式，撑不起下一个30年。\n\nPrince的解法是分两类对待。大多数网站希望内容进AI,那就拼效率——交付轻量的markdown而不是笨重的HTML页面，目标把每次提供页面的成本降到原来的千分之一。而广告和订阅制媒体，内容等于是被“偷走”了，那就要控制权：不给钱就不给内容。《纽约时报》《大西洋月刊》已经在用这个工具屏蔽AI公司，再逼出交易。下一步是微支付——访问一条信息付几分之一美分，理想情况还能养活背后的记者。难点在量级，Visa每秒处理约2万笔交易，Cloudflare每秒处理约5亿次，现有支付网络根本扛不住。\n\n然后是9月中旬这个分水岭。Prince点名了最大的不公平：Google用一个爬虫干两件事，想留在搜索就得让它喂AI——这是把昨天的搜索垄断，变现成明天的AI垄断。所以Cloudflare的动作是，从9月中旬起，对广告或订阅制企业，默认屏蔽Google抓取内容。Prince预计数百万个网站会从Google的雷达上消失。这甚至威胁到Google的根基——PageRank本质是靠链接链路做归因排名，大量内容退出可见范围，排名的根基就断了。他确信Google最终会付费，理由很简单：YouTube付给创作者的钱比谁都多，Google明明会做这件事。而SEO?已经不再重要了。\n\n最后说个你可能想不到的担忧方向：小企业。品牌本质上是人类懒得做调研时的捷径，看到万豪的标志就知道会得到什么。但智能体没有情感、有无限耐心，会调研一千个网站再下单。听起来对小公司公平了？恰恰相反。新品牌在网上信息近乎为零，智能体会涌向信息最丰富的老牌大公司。打个比方，就像动画片里女仆机器人罗茜去采购，她绝不会去街角杂货店买鸡蛋，只会去信息最全的大型企业集团。放任自流，智能体商务就会变成大公司整合的加速器。Prince正在拉Shopify、PayPal、Visa这些公司一起攒工具，想做出可验证的质量证明模块，让没有历史声誉的新玩家也能证明自己产品更好。\n\n最后留一句话给你：未来五年里，弄清楚未来30年互联网的商业模式是什么——这是当今技术领域最有趣也最重要的问题。这一期，算是把这道题的题面，完整摆在了你面前。"
+}

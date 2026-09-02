@@ -1,0 +1,2599 @@
+{
+  "episode_id": "2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-09-02",
+  "tags": [
+    "软件工厂",
+    "智能体编程",
+    "代码审查",
+    "技能与上下文",
+    "开发范式"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "host",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            42.96,
+            53.2
+          ],
+          "quote": "Join your hosts, Guy Fajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3059.68,
+            3062.72
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "drew",
+      "type": "person",
+      "role": "cohost",
+      "name": "Drew",
+      "file": "Drew",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            127.12,
+            139.28
+          ],
+          "quote": "Today, uh myself and Drew here, our head of product at TESL, uh, will uh want to catch you up a little bit on what we've been up to at TESL, what we've been building over the last sort of two or three months.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 46,
+          "t": [
+            269.44,
+            279.92
+          ],
+          "quote": "We're not gonna force you to sort of repeat the whole thing over here, but maybe before we dive into the sort of factories and how we build it, maybe Drew, you can just sort of remind us a little bit of Tesla's own kind of dark factory, what do we build inside?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1309.36,
+            1316.72
+          ],
+          "quote": "In this subfolder, you know, when Drew writes code, I want to make sure uh that you sort of check, you know, that he doesn't again do X, you know, or whatever it is.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "guy-fajani",
+      "type": "person",
+      "role": "cohost",
+      "name": "Guy Fajani",
+      "file": "Guy Fajani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            42.96,
+            53.2
+          ],
+          "quote": "Join your hosts, Guy Fajani, and me, Simon Maple, every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesl",
+      "type": "company",
+      "role": "company",
+      "name": "TESL",
+      "file": "TESL",
+      "primary": true,
+      "how_described": "本集说 TESL 是技能和上下文的包管理器，过去三个月从帮你管上下文的平台扩展为帮你从技能到循环再到工厂构建以上下文为中心的软件工厂的平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            127.12,
+            139.28
+          ],
+          "quote": "Today, uh myself and Drew here, our head of product at TESL, uh, will uh want to catch you up a little bit on what we've been up to at TESL, what we've been building over the last sort of two or three months.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 23,
+          "t": [
+            139.44,
+            143.28
+          ],
+          "quote": "I think we had a bit of this episode talking about the TESL agent, which we'll kind of mention.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 27,
+          "t": [
+            154.32,
+            178.96
+          ],
+          "quote": "So really like there's a lot that we've been sort of building here at TESL, but I think the the key thing we're most excited by is this sort of expansion uh of TESIL from uh just sort of focusing on helping you own your context, right, and having a skill registry and build skills correctly and optimize them, which was still thinking is like an enormous uh important piece of this sort of new development paradigm, to uh starting to build loops.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 107,
+          "t": [
+            545.2,
+            549.2
+          ],
+          "quote": "And so that's been the flow that we've moved to uh internally at TESL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 152,
+          "t": [
+            796.4,
+            803.04
+          ],
+          "quote": "And at TESL, we've long seen the world through this sort of lens of specs and context and skills, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 157,
+          "t": [
+            821.84,
+            827.28
+          ],
+          "quote": "And I would use, I think since the beginning of TESL, this example of saying, hey, what do you want for your birthday?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1232.56,
+            1236.08
+          ],
+          "quote": "Hey everyone, my name is Sahil, and I'm one of the engineers here at TESL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1236.24,
+            1247.52
+          ],
+          "quote": "I'm gonna be in New York and in Boston on the 16th and 17th of September talking about how we've built our software factory here at TESL and what engineering looks like in an AI native world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1266,
+            1274.8
+          ],
+          "quote": "This is gonna be a much more practical look into the factory that we have here at TESL and some of the specifics on how it works and why we made some of the decisions that we did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1274.96,
+            1279.12
+          ],
+          "quote": "Go to TESL.io slash events and I hope to see you all there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2250.32,
+            2265.52
+          ],
+          "quote": "So I think the core name of the game is that TESL's code review tool is effectively our stance on context-driven code review as one loop that you're gonna use in a context-driven factory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2265.76,
+            2272.4
+          ],
+          "quote": "So we talked about, oh yeah, you get started with code review, it feels great, then you kind of hit a wall and you that happened to TESL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2324.72,
+            2329.2
+          ],
+          "quote": "So that's probably the core of TESL's code review is that it is skill powered.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2440.32,
+            2444
+          ],
+          "quote": "And so that's really what the TESL code review sort of philosophy is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2994.72,
+            3001.76
+          ],
+          "quote": "Uh so if you found uh all of this conversation interesting, uh, we'd love for you to try the sort of the expanded uh TESL of it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3001.92,
+            3009.12
+          ],
+          "quote": "Of course, you can always run still some TESL skill review and the evals and a lot of these components that we've been building for a long while.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3009.28,
+            3015.44
+          ],
+          "quote": "Uh, we're very excited and we're seeing a lot of sort of uptake around the TESL agent uh and using it to build loops.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3054.8,
+            3059.6
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL, the package manager for skills and context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3068,
+            3071.44
+          ],
+          "quote": "And we host monthly meetups at the TESL offices in central London.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3071.68,
+            3076.4
+          ],
+          "quote": "Visit TESL.io forward slash community to learn more, and I hope to see you there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集把它说成一种工作单元：要么是你要完成的工作流，要么是你希望智能体遵守的政策或标准——写「好」是什么样、让标准可复用可分域是自动化的前提",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            154.32,
+            178.96
+          ],
+          "quote": "So really like there's a lot that we've been sort of building here at TESL, but I think the the key thing we're most excited by is this sort of expansion uh of TESIL from uh just sort of focusing on helping you own your context, right, and having a skill registry and build skills correctly and optimize them, which was still thinking is like an enormous uh important piece of this sort of new development paradigm, to uh starting to build loops.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 29,
+          "t": [
+            190.64,
+            202.72
+          ],
+          "quote": "Uh and we talk about, and we'll sort of mention this a lot today, we talk about how Tesla helps you get to your factory from skills to loops to factory, which is sort of our view of the world of the sort of context-centric factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 52,
+          "t": [
+            297.44,
+            300.96
+          ],
+          "quote": "First, we've mentioned skills, loops, and factories.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            301.2,
+            306.48
+          ],
+          "quote": "So skills are, you know, obviously skills became quite popular at the beginning of the year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            309.92,
+            312.72
+          ],
+          "quote": "Think when we say skills as like a unit of work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            321.2,
+            322.64
+          ],
+          "quote": "That includes skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 60,
+          "t": [
+            327.92,
+            330
+          ],
+          "quote": "It's just that skills is the most popular term.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            337.44,
+            342.96
+          ],
+          "quote": "The second is loops, think of these as effectively automated skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            450.08,
+            453.92
+          ],
+          "quote": "Uh our development internally was very skills-driven to start, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 152,
+          "t": [
+            796.4,
+            803.04
+          ],
+          "quote": "And at TESL, we've long seen the world through this sort of lens of specs and context and skills, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 164,
+          "t": [
+            861.84,
+            867.76
+          ],
+          "quote": "It should and hence kind of the sort of repeated terms of going from skills to loops to factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1341.36,
+            1349.92
+          ],
+          "quote": "And because we talk about the journey from from skills to loops to to uh to factory, maybe we'll start with a little bit, you know, over the last sort of uh two two to three months on it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1350.08,
+            1354.4
+          ],
+          "quote": "What's sort of what's been sort of interesting in the skills part of it of the product?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1371.92,
+            1378.08
+          ],
+          "quote": "Since then, we've added a big feature that we've been calling uh skills inventory, context inventory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1397.04,
+            1406.96
+          ],
+          "quote": "So the most common form here is skills, but it could also be other like agents MDs or uh plug-in marketplaces, things like this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1474.56,
+            1490.88
+          ],
+          "quote": "Uh and so that's an area that we'll keep improving, but the sort of duplicate, stale, or uh in general, just finding things where there's opportunities to improve the overall performance and quality of your critical skills uh is a big improvement we've made to the platform.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1514.8,
+            1528.24
+          ],
+          "quote": "It's amazing how uh unimaginative we are when we think about sort of ideas uh for uh for skills on it, like a lot, a lot of duplicates, which makes sense, but then you know that creates problems, you know, it's not just wasteful because the knowledge doesn't accumulate in one spot.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1540,
+            1544.4
+          ],
+          "quote": "We added the whole kind of recommended skills that nudges you to sort of use the right ones.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1544.72,
+            1550.72
+          ],
+          "quote": "Uh, I guess security has been there for a while, you know, around sort of assessing whether those skills are sort of trustworthy on doing it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1568.32,
+            1576.88
+          ],
+          "quote": "Like security policies, governance, being able to require, hey, these skills, like our brand voice or our code review, needs to be in every repo.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1577.04,
+            1580.4
+          ],
+          "quote": "Now we can help you find those skills and set up those policies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1580.48,
+            1587.36
+          ],
+          "quote": "So it kind of becomes the integral control plane for somebody who's thinking about how do we manage skills across our organization.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1613.2,
+            1619.04
+          ],
+          "quote": "Um and then I think we've also done a bunch of stuff on uh the the quality aspect of the skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1674.88,
+            1681.6
+          ],
+          "quote": "So managing the sort of the skills centrally on the sort of the Tesla registry and then synchronizing them to the right spots uh has been quite appealing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1715.12,
+            1723.84
+          ],
+          "quote": "And one of the big things we found is that skills really are the codification of a workflow of what good looks like.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1743.92,
+            1766.48
+          ],
+          "quote": "You can think of it as a way of turning your skills into or creating off of them very focused, high accuracy, very fast, very cheap LM as judge tools where uh to take an example, let's say you have a skill that says all front-end components must have ARIA attributes on them, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1799.44,
+            1810.48
+          ],
+          "quote": "So you write out what is good look like, what is uh success, and then we generate these verifiers that you can then put up in CI CD so that you know your skills are being followed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2066.16,
+            2071.52
+          ],
+          "quote": "Or these great skills uh because you might not be equipped to to tap the benefit of them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2329.28,
+            2341.28
+          ],
+          "quote": "Uh we call them lenses just like code review lenses where you can supply any number of skills, it doesn't just have to be one, that codify some standard of good in your code base.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2360.56,
+            2362.72
+          ],
+          "quote": "But now it's uh it's a set of skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2403.68,
+            2406.56
+          ],
+          "quote": "Like what skills are we missing, what skills aren't working.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2413.28,
+            2426
+          ],
+          "quote": "So it's looking for missing context or uh skills that maybe aren't being triggered or aren't having the effect that you'd like, and suggesting ways to improve them so that they don't have to be caught at code review time later.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2478.96,
+            2508.48
+          ],
+          "quote": "And I, you know, I I I think reviewing is a critical part uh of it, but I guess I think of our code review in comparison to to the sort of the generic, again, powerful code review tools that are out there, is that I think the key difference is uh that that you own it, you know, it's your uh skills, it's your tunings, you know, you can uh therefore kind of refine them to your specific needs, not just what it looks for, but also choices like depth of scanning and choice of how much do you spend on different models on it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2579.44,
+            2585.92
+          ],
+          "quote": "So we we talked about skills and the skill centricity of it, talked about loops that indeed, you know, just sort of improve skills and use them with code review as an example.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2608.56,
+            2611.76
+          ],
+          "quote": "And so their sort of more immediate needs were sort of the skills and then the loops.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2801.84,
+            2807.12
+          ],
+          "quote": "You can, the same way you can see all of the skills in your repo, you can see all of the automations that your team has created.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2926.32,
+            2935.84
+          ],
+          "quote": "Uh, but what we will emphasize maybe once more uh is that we think a factory should really be uh uh skills-centric, context-centric.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3037.04,
+            3050.16
+          ],
+          "quote": "And we'd also love your perspective on the sort of philosophy that we're espousing here around uh our belief that you should build your factory gradually going from skills to loops to the factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3054.8,
+            3059.6
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL, the package manager for skills and context.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "loops",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环 (loops)",
+      "file": "循环",
+      "primary": true,
+      "how_described": "本集把它说成自动化的技能：无需人工启动即运行，带某种元过程让下一次运行更好，从而产生复利式收益；最终循环打磨出可在很多地方使用的技能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            90.8,
+            100.4
+          ],
+          "quote": "Three days of real talks, real tools, real answers, whether you're directing the agents, building the loops themselves, leading the teams, or setting the strategy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            154.32,
+            178.96
+          ],
+          "quote": "So really like there's a lot that we've been sort of building here at TESL, but I think the the key thing we're most excited by is this sort of expansion uh of TESIL from uh just sort of focusing on helping you own your context, right, and having a skill registry and build skills correctly and optimize them, which was still thinking is like an enormous uh important piece of this sort of new development paradigm, to uh starting to build loops.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 29,
+          "t": [
+            190.64,
+            202.72
+          ],
+          "quote": "Uh and we talk about, and we'll sort of mention this a lot today, we talk about how Tesla helps you get to your factory from skills to loops to factory, which is sort of our view of the world of the sort of context-centric factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 52,
+          "t": [
+            297.44,
+            300.96
+          ],
+          "quote": "First, we've mentioned skills, loops, and factories.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            337.44,
+            342.96
+          ],
+          "quote": "The second is loops, think of these as effectively automated skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 71,
+          "t": [
+            366.4,
+            372.24
+          ],
+          "quote": "Because it goes from an agentic workflow to something that loops with some form of learning back into the beginning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 74,
+          "t": [
+            376.72,
+            383.68
+          ],
+          "quote": "Yeah, and loops are where you really start to see your first glimmers of that sort of inflection point or your trajectory really taking off.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            387.28,
+            394.32
+          ],
+          "quote": "It's where you've moved almost all of your development to the creation and maintenance and monitoring of loops.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 77,
+          "t": [
+            394.8,
+            399.76
+          ],
+          "quote": "And the loops are now what produce most of your software or the product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 79,
+          "t": [
+            403.76,
+            408.56
+          ],
+          "quote": "That code will largely be loops, and then your product that you ship to users is also some code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 81,
+          "t": [
+            410.96,
+            416.72
+          ],
+          "quote": "When you move to the factory, you're mostly spending your time maintaining the loops uh and thinking about how to make them better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 84,
+          "t": [
+            420.32,
+            425.04
+          ],
+          "quote": "If your loops are kind of a kind of evolution of your pipelines, you know, of some automation that we come now.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 101,
+          "t": [
+            486.24,
+            503.84
+          ],
+          "quote": "Uh, and we we started that and very quickly, like the minute you get your first couple loops in place, you start to realize this is gonna get out of hand really quickly, and you have to move to a different way of working uh that has a bit more of the solution baked into the problem itself.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            530.64,
+            537.44
+          ],
+          "quote": "And then where we're doing our software engineering, our observability, our monitoring is in the loops themselves.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 106,
+          "t": [
+            537.6,
+            544.96
+          ],
+          "quote": "And so oftentimes you're creating loops to monitor loops, or you are creating dashboards to control plane your loops and things like that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            861.84,
+            867.76
+          ],
+          "quote": "It should and hence kind of the sort of repeated terms of going from skills to loops to factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 167,
+          "t": [
+            878.4,
+            882.8
+          ],
+          "quote": "And the Tesla agent kind of helps you uh build uh build loops, you know, that was a core part of it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1341.36,
+            1349.92
+          ],
+          "quote": "And because we talk about the journey from from skills to loops to to uh to factory, maybe we'll start with a little bit, you know, over the last sort of uh two two to three months on it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1363.52,
+            1371.52
+          ],
+          "quote": "We talked about how you could use it to create loops that themselves turn back and help you find new context and things that you want to write down.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1623.84,
+            1626.32
+          ],
+          "quote": "Do you want to maybe say a couple of words on that and then we'll kind of go to loops?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1869.76,
+            1879.04
+          ],
+          "quote": "Um and I think maybe you know we do need to get to loops, but maybe say a few words, which is we've also seen uh a bit of a revived uh um interest in evals.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1992.96,
+            1997.76
+          ],
+          "quote": "It's very easy to get going and then improve over time, and that's where loops come in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2035.92,
+            2046.64
+          ],
+          "quote": "So maybe let me say a few words about loops and we'll dive into specifically code review, which we launched uh as a dedicated loops, an example, one of multiple examples of how to uh build a good loop.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2056.88,
+            2066.08
+          ],
+          "quote": "And if you're not if you're not creating loops, if you're not creating a factory, you're not really benefiting from creating this sort of well-crafted piece of context, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2077.04,
+            2080.64
+          ],
+          "quote": "So it's like, hey, let's let's help you create those loops as well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2080.8,
+            2082.4
+          ],
+          "quote": "Uh and the loops will demonstrate that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2097.12,
+            2102.72
+          ],
+          "quote": "Uh and we uh have been building sort of two types of maintenance uh loops on it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2114.96,
+            2123.84
+          ],
+          "quote": "And so all of those are examples of loops that can be skill-driven that the Tesla agent can very easily set up for you, and then you can go on to optimize and improve.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2196.32,
+            2203.84
+          ],
+          "quote": "Uh and and so all of those, you know, the Tesla project, you know, like a bunch of that infrastructure sort of supports creating those loops and running them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2310.16,
+            2316.4
+          ],
+          "quote": "And so we wanted automated loops that come up after code review time and search for things that got lost.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2579.44,
+            2585.92
+          ],
+          "quote": "So we we talked about skills and the skill centricity of it, talked about loops that indeed, you know, just sort of improve skills and use them with code review as an example.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2608.56,
+            2611.76
+          ],
+          "quote": "And so their sort of more immediate needs were sort of the skills and then the loops.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2686.96,
+            2692.56
+          ],
+          "quote": "You're not going to say, okay, I've made a few loops, now I will have a factory, and in two months I'll be done.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2692.8,
+            2700.32
+          ],
+          "quote": "It's sort of, you're going to keep working on loops until you have so many loops that most of your work is in maintaining loops and building loops to observe them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3009.28,
+            3015.44
+          ],
+          "quote": "Uh, we're very excited and we're seeing a lot of sort of uptake around the TESL agent uh and using it to build loops.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3037.04,
+            3050.16
+          ],
+          "quote": "And we'd also love your perspective on the sort of philosophy that we're espousing here around uh our belief that you should build your factory gradually going from skills to loops to the factory.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "工厂 (factory)",
+      "file": "工厂",
+      "primary": true,
+      "how_described": "本集把它说成一种工作方式：把几乎所有开发转移到循环的创建、维护和监控上，你的定制化「什么是正确」的定义就是新的软件工程，且工厂是连续体不是两个月的项目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            63.2,
+            65.76
+          ],
+          "quote": "Tomorrow, you'll be running a software factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            179.04,
+            190.56
+          ],
+          "quote": "We talked about that a little bit with the uh Tesla agent launch on it, to uh to now really increasingly thinking about Tesla as a composable factory or as a platform that helps you build factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 29,
+          "t": [
+            190.64,
+            202.72
+          ],
+          "quote": "Uh and we talk about, and we'll sort of mention this a lot today, we talk about how Tesla helps you get to your factory from skills to loops to factory, which is sort of our view of the world of the sort of context-centric factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 43,
+          "t": [
+            251.84,
+            254.4
+          ],
+          "quote": "Um so that's the name of our sort of dark factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 46,
+          "t": [
+            269.44,
+            279.92
+          ],
+          "quote": "We're not gonna force you to sort of repeat the whole thing over here, but maybe before we dive into the sort of factories and how we build it, maybe Drew, you can just sort of remind us a little bit of Tesla's own kind of dark factory, what do we build inside?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 75,
+          "t": [
+            384,
+            387.2
+          ],
+          "quote": "And then a factory is in many ways, it's a way of working.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 78,
+          "t": [
+            399.92,
+            403.6
+          ],
+          "quote": "Uh one way of thinking of this is that your factory will have some code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 81,
+          "t": [
+            410.96,
+            416.72
+          ],
+          "quote": "When you move to the factory, you're mostly spending your time maintaining the loops uh and thinking about how to make them better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 86,
+          "t": [
+            425.76,
+            429.12
+          ],
+          "quote": "I'm trying to make factory development lifecycle a thing, FDLC.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 102,
+          "t": [
+            504.08,
+            514.08
+          ],
+          "quote": "And so that was where we made the decision like we're gonna go full factory, we're gonna build out a system where basically all of our work, all of our PRs are created by agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 114,
+          "t": [
+            574.32,
+            586.4
+          ],
+          "quote": "And and the pace, uh, I guess maybe what I would add is before we kind of leaned into the factory, what it felt was uh that we had a bunch of high automation environments, but they were very kind of uh disparate you know, environments.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 118,
+          "t": [
+            606.64,
+            611.2
+          ],
+          "quote": "So I think the factory is also a bit of that path to go from single player to multiplayer, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 163,
+          "t": [
+            852.32,
+            861.76
+          ],
+          "quote": "And and when we when we talk about building the factory, we have this uh uh perspective on how a factory should work, uh, which is that it should be context-centric, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 164,
+          "t": [
+            861.84,
+            867.76
+          ],
+          "quote": "It should and hence kind of the sort of repeated terms of going from skills to loops to factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 170,
+          "t": [
+            902.24,
+            918
+          ],
+          "quote": "I think it was uh it was around um uh uh test coverage or something in that domain uh and created that workflow with sort of plain vanilla claude uh and with the Tesla agent and with sort of uh another sort of uh factory-related uh agent out there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1202.16,
+            1218.16
+          ],
+          "quote": "Uh and in fact, this specificity, you know, being able to tune exactly what you're reviewing becomes increasingly important as you move towards factory because really the volume a factory is going to put out, you have to get humans out of the loop for code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1236.24,
+            1247.52
+          ],
+          "quote": "I'm gonna be in New York and in Boston on the 16th and 17th of September talking about how we've built our software factory here at TESL and what engineering looks like in an AI native world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1261.2,
+            1265.84
+          ],
+          "quote": "And all the different quirks and features that ended up building out the factory that we have today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1266,
+            1274.8
+          ],
+          "quote": "This is gonna be a much more practical look into the factory that we have here at TESL and some of the specifics on how it works and why we made some of the decisions that we did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1320.24,
+            1334.96
+          ],
+          "quote": "Is a really good story of it and an example of a loop that you can improve because indeed a factory has to sort of go to uh you have to sort of drive towards higher autonomy, and that has to sort of come with sort of definition of uh of what's correct, hence kind of skill-centric.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1341.36,
+            1349.92
+          ],
+          "quote": "And because we talk about the journey from from skills to loops to to uh to factory, maybe we'll start with a little bit, you know, over the last sort of uh two two to three months on it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2056.88,
+            2066.08
+          ],
+          "quote": "And if you're not if you're not creating loops, if you're not creating a factory, you're not really benefiting from creating this sort of well-crafted piece of context, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2129.12,
+            2131.6
+          ],
+          "quote": "You don't need to be afraid of that sort of factory ward.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2250.32,
+            2265.52
+          ],
+          "quote": "So I think the core name of the game is that TESL's code review tool is effectively our stance on context-driven code review as one loop that you're gonna use in a context-driven factory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2272.72,
+            2287.36
+          ],
+          "quote": "We uh had a code review tool, we still love it, it's still a great tool, but we found that as we scaled further and further into factory world, we were just unable to compound and like get to a place where like we were spending less time reviewing code, which was what we wanted.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2550.88,
+            2560.56
+          ],
+          "quote": "And then the third is that it is a path to your factory and uh and and you want it, and increasingly like the we say code review and we we imagine a pull request.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2560.8,
+            2571.36
+          ],
+          "quote": "But in practice, if you're performing uh uh if you're kind of running an agentic workflow, right, or a factory that takes a ticket and and implements it, you don't need to wait for it to have been sort of checked in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2571.6,
+            2577.12
+          ],
+          "quote": "And so you just sort of take that skill and run the review as part of your factory uh and you build that out.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2593.44,
+            2597.52
+          ],
+          "quote": "Um and then maybe like let's conclude with the sort of factory piece.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2597.6,
+            2602.64
+          ],
+          "quote": "And factory is admittedly like a more nascent piece uh uh for us, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2611.92,
+            2614.56
+          ],
+          "quote": "Now they're getting into that sort of broader factory of it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2614.72,
+            2629.68
+          ],
+          "quote": "Um and we've we've sort of learned through both kind of this work with customers and uh through our own sort of factory building, uh uh around kind of the the need for more componentry to be available to kind of make the factory run smooth.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2631.68,
+            2639.76
+          ],
+          "quote": "Yeah, so the the core of it, again, we talked about if you have a context-centric uh factory, I'm gonna sound like a broken record on that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2678.72,
+            2685.76
+          ],
+          "quote": "And what we found is basically once you start getting into this world, like factory building is really it's more of a continuum.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2686.96,
+            2692.56
+          ],
+          "quote": "You're not going to say, okay, I've made a few loops, now I will have a factory, and in two months I'll be done.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2707.2,
+            2711.2
+          ],
+          "quote": "It's going to just sort of transition seamlessly into factory work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2822.32,
+            2827.12
+          ],
+          "quote": "I guess the the point I'd emphasize is you know, we think every company should own its factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2835.12,
+            2837.36
+          ],
+          "quote": "Uh and we think a factory is something you should own, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2860.16,
+            2889.92
+          ],
+          "quote": "Uh and so a lot of these kind of components they come out of of portions that we think are reusable, whether they are around observability, whether around, of course, everything to do with context, the capturing of the context, the assessment of the context, et cetera, whether uh it's just just sort of utilities like scheduling, like uh like uh access controls, like dashboards and visuals around you know what makes for kind of an effective dashboard or like an effective factory uh or not, and what should you learn?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2900.4,
+            2906.96
+          ],
+          "quote": "And so uh I would say that our our our kind of factory componentry is still uh relatively light.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2907.12,
+            2918.08
+          ],
+          "quote": "There's a world that we still need to build over here, uh, and and that is on purpose because again, we sort of advance with our with our customers, uh, and many of them they want to build their own factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2926.32,
+            2935.84
+          ],
+          "quote": "Uh, but what we will emphasize maybe once more uh is that we think a factory should really be uh uh skills-centric, context-centric.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2951.2,
+            2956.32
+          ],
+          "quote": "This is what Tesla is to you, uh, to to help you kind of build your factory and evolve.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3016.56,
+            3029.04
+          ],
+          "quote": "Uh and then maybe try out thinking about using Tesla as the platform to kind of build up a broader context-centric, uh, if it wasn't, if we didn't say that enough, context-centric uh uh factory over it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3037.04,
+            3050.16
+          ],
+          "quote": "And we'd also love your perspective on the sort of philosophy that we're espousing here around uh our belief that you should build your factory gradually going from skills to loops to the factory.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "tesla-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "Tesla 智能体 (Tesla agent)",
+      "file": "Tesla 智能体",
+      "primary": true,
+      "how_described": "本集说它帮你发现系统里的自动化点并创建循环，且先建逻辑链（正确性的定义、规格）再构建，因此更有韧性、更可塑，还能从 PR 历史和工单中提取正确性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            179.04,
+            190.56
+          ],
+          "quote": "We talked about that a little bit with the uh Tesla agent launch on it, to uh to now really increasingly thinking about Tesla as a composable factory or as a platform that helps you build factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 166,
+          "t": [
+            872.32,
+            878.32
+          ],
+          "quote": "So it uh uh a couple of months ago or so, we launched uh a little over, we launched the Tesla agent, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 167,
+          "t": [
+            878.4,
+            882.8
+          ],
+          "quote": "And the Tesla agent kind of helps you uh build uh build loops, you know, that was a core part of it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 170,
+          "t": [
+            902.24,
+            918
+          ],
+          "quote": "I think it was uh it was around um uh uh test coverage or something in that domain uh and created that workflow with sort of plain vanilla claude uh and with the Tesla agent and with sort of uh another sort of uh factory-related uh agent out there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 173,
+          "t": [
+            940.24,
+            951.2
+          ],
+          "quote": "While the approach that the Tesla agent takes, and was almost unintentional, it's just sort of our life view, our sort of uh our view on kind of this domain, uh, was first it created this sort of chain of logic.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1359.68,
+            1363.44
+          ],
+          "quote": "So I think last time we checked in, Tesla Agent was a big part of this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1917.36,
+            1925.76
+          ],
+          "quote": "So verifiers, uh evals are increasingly, you know, even in the Tesla agent example, um, extracted out of a historical activity.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1954.88,
+            1963.2
+          ],
+          "quote": "And yeah, I think it's just worth pointing out that that the Tesla agent exists to try and make it not feel like going to the gym or eating your vegetables.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1963.36,
+            1971.36
+          ],
+          "quote": "You know, like to your point, you can point the Tesla agent at your repo, at your PR history, at your tickets, Slack, anything you want.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2071.76,
+            2076.96
+          ],
+          "quote": "And so we've been uh uh uh building, and I think this was the inception to kind of create the Tesla agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2114.96,
+            2123.84
+          ],
+          "quote": "And so all of those are examples of loops that can be skill-driven that the Tesla agent can very easily set up for you, and then you can go on to optimize and improve.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2156.96,
+            2162.48
+          ],
+          "quote": "And so the um the the Tesla agent will sort of help you set up the skill and run it.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集说通用的一键式智能体代码审查几周后收益就停了，因为你跳过了写下「什么是好」这一步；TESL 的审查是技能驱动的透镜，且你拥有它所以更好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            454.08,
+            462.88
+          ],
+          "quote": "We wrote down what good looks like, how we wanted code review to function, how we wanted uh if you're building something in the CLI versus in the UI, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 179,
+          "t": [
+            993.36,
+            999.68
+          ],
+          "quote": "And I think you you you had a similar view when we think about that context centricity uh when it comes to code review on it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1001.36,
+            1010.88
+          ],
+          "quote": "I think that code review is actually both a good example of how context centricity is sort of crucial, but it's also hopefully one that hits close to home for folks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1011.12,
+            1017.28
+          ],
+          "quote": "So maybe to start with the way most people will adopt some form of agentic code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1045.92,
+            1060.08
+          ],
+          "quote": "And what a lot of people see is that amazing, I'm doing a gen to code review, like I'm really like, I'm living it, and then a couple weeks later they find, well, okay, like we're finding a few more bugs, or maybe merging a bit faster, but nothing's changing after that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1114.4,
+            1131.12
+          ],
+          "quote": "Like code review is good for catching things at the end, but really what you'd like to do, especially to help with costs or to get features developed faster, is while building the feature, you'd like the agent to also see your standards and make sure that it is writing code in the correct way.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1131.44,
+            1146.48
+          ],
+          "quote": "And you know, not everything is going to get caught by code review, so you'd also like to have regular automations that sweep your code base and say, is there anything that's not conforming to our standards that slipped through or somehow is accrued and we need to fix and pull back?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1202.16,
+            1218.16
+          ],
+          "quote": "Uh and in fact, this specificity, you know, being able to tune exactly what you're reviewing becomes increasingly important as you move towards factory because really the volume a factory is going to put out, you have to get humans out of the loop for code review.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1218.32,
+            1224.56
+          ],
+          "quote": "And a general purpose code review is not going to get to 100% quality, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1568.32,
+            1576.88
+          ],
+          "quote": "Like security policies, governance, being able to require, hey, these skills, like our brand voice or our code review, needs to be in every repo.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1971.44,
+            1992.88
+          ],
+          "quote": "And it's its whole job is to be able to extract this context and capture it for you so that yes, it is a bit of a you're not just clicking a button and getting code review, but you're not sitting down and spending three weeks getting your whole team to it's like look at our code review comments from the last three months, write a document that captures our code review standards, and then we'll just evolve it from there, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2035.92,
+            2046.64
+          ],
+          "quote": "So maybe let me say a few words about loops and we'll dive into specifically code review, which we launched uh as a dedicated loops, an example, one of multiple examples of how to uh build a good loop.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2082.56,
+            2097.04
+          ],
+          "quote": "A code review is an example, we'll dig into, you know, define what correct is, evolve that, improve that as a skill, get better uh code review, but then you know, uh many automations that happen within uh within the system that really should be done recurringly.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2237.52,
+            2240.4
+          ],
+          "quote": "And so one of the things we're excited that we launched is around Tesla code review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2244.8,
+            2249.6
+          ],
+          "quote": "Uh, but maybe you can say a few words about what Tesla Code Review is and maybe using it as a representation of a loop.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2250.32,
+            2265.52
+          ],
+          "quote": "So I think the core name of the game is that TESL's code review tool is effectively our stance on context-driven code review as one loop that you're gonna use in a context-driven factory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2265.76,
+            2272.4
+          ],
+          "quote": "So we talked about, oh yeah, you get started with code review, it feels great, then you kind of hit a wall and you that happened to TESL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2272.72,
+            2287.36
+          ],
+          "quote": "We uh had a code review tool, we still love it, it's still a great tool, but we found that as we scaled further and further into factory world, we were just unable to compound and like get to a place where like we were spending less time reviewing code, which was what we wanted.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2297.68,
+            2303.44
+          ],
+          "quote": "So we wanted the same things that are happening in code review to be happening at development time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2310.16,
+            2316.4
+          ],
+          "quote": "And so we wanted automated loops that come up after code review time and search for things that got lost.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2316.56,
+            2324.56
+          ],
+          "quote": "Uh, and so we said we need all of the standards that go into code review to be documented and separate so that we can use them elsewhere.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2324.72,
+            2329.2
+          ],
+          "quote": "So that's probably the core of TESL's code review is that it is skill powered.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2329.28,
+            2341.28
+          ],
+          "quote": "Uh we call them lenses just like code review lenses where you can supply any number of skills, it doesn't just have to be one, that codify some standard of good in your code base.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2347.2,
+            2352.48
+          ],
+          "quote": "And then uh just like any other code review tool, you'll set it up through a GitHub app.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2379.92,
+            2390.64
+          ],
+          "quote": "It connects to the rest of Tesla's context platform, so we can help you evaluate your code review skill, optimize it, share it across repos for different teams.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2397.52,
+            2403.52
+          ],
+          "quote": "So that was another thing that we learned is that code review is a very rich source of what's going wrong.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2406.72,
+            2413.12
+          ],
+          "quote": "Uh, and so as code review is running, it's not just making code review better, it's making the context of your code base better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2413.28,
+            2426
+          ],
+          "quote": "So it's looking for missing context or uh skills that maybe aren't being triggered or aren't having the effect that you'd like, and suggesting ways to improve them so that they don't have to be caught at code review time later.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2431.28,
+            2436.48
+          ],
+          "quote": "Like you don't want your context for development and your code review standards to be separate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2440.32,
+            2444
+          ],
+          "quote": "And so that's really what the TESL code review sort of philosophy is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2478.96,
+            2508.48
+          ],
+          "quote": "And I, you know, I I I think reviewing is a critical part uh of it, but I guess I think of our code review in comparison to to the sort of the generic, again, powerful code review tools that are out there, is that I think the key difference is uh that that you own it, you know, it's your uh skills, it's your tunings, you know, you can uh therefore kind of refine them to your specific needs, not just what it looks for, but also choices like depth of scanning and choice of how much do you spend on different models on it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2550.88,
+            2560.56
+          ],
+          "quote": "And then the third is that it is a path to your factory and uh and and you want it, and increasingly like the we say code review and we we imagine a pull request.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2579.44,
+            2585.92
+          ],
+          "quote": "So we we talked about skills and the skill centricity of it, talked about loops that indeed, you know, just sort of improve skills and use them with code review as an example.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "verifiers",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证器 (verifiers)",
+      "file": "验证器",
+      "primary": true,
+      "how_described": "本集说它从技能自动生成非常聚焦、高准确率、快且便宜的 LM as judge 工具，跑进 CI 给技能补上「执行强制」的那一半，即「信任但验证」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            1619.12,
+            1623.76
+          ],
+          "quote": "We've started uh building kind of capturing of logs and we built these sort of verifiers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1741.12,
+            1743.6
+          ],
+          "quote": "And so verifiers are a thing we've built at TESIL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1799.44,
+            1810.48
+          ],
+          "quote": "So you write out what is good look like, what is uh success, and then we generate these verifiers that you can then put up in CI CD so that you know your skills are being followed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1810.64,
+            1823.52
+          ],
+          "quote": "And so that's a tool that we are increasingly relying on, where uh I think we're working right now on the ability to say, as soon as you create a skill, we'll create verifiers for it so that you can enforce the skill in a way that feels deterministic, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1836.56,
+            1838.32
+          ],
+          "quote": "But then you build these verifiers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1838.4,
+            1855.6
+          ],
+          "quote": "Uh and indeed I like the the speed, and in in general, like verifiers are you know still still forming, you know, but they can check the sort of the agent actions, you know, against the sort of the logs, they can check uh the output of it, of what has it done, they can be deterministic or they can be uh LMS judge.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1863.12,
+            1867.52
+          ],
+          "quote": "Verifiers are you know the checks to say, has it actually done it?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1917.36,
+            1925.76
+          ],
+          "quote": "So verifiers, uh evals are increasingly, you know, even in the Tesla agent example, um, extracted out of a historical activity.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1941.92,
+            1954.08
+          ],
+          "quote": "And the more you review and trust that sort of instruction set and those verifiers, uh the more uh uh uh autonomy you can give the agents as they operate and the more value you get.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集把上下文说成运营公司和工作流的说明书、工厂的核心：要自动化一件事先得定义什么是正确的，技能清单就是扫描全部仓库找出所有喂给智能体的上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            154.32,
+            178.96
+          ],
+          "quote": "So really like there's a lot that we've been sort of building here at TESL, but I think the the key thing we're most excited by is this sort of expansion uh of TESIL from uh just sort of focusing on helping you own your context, right, and having a skill registry and build skills correctly and optimize them, which was still thinking is like an enormous uh important piece of this sort of new development paradigm, to uh starting to build loops.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 29,
+          "t": [
+            190.64,
+            202.72
+          ],
+          "quote": "Uh and we talk about, and we'll sort of mention this a lot today, we talk about how Tesla helps you get to your factory from skills to loops to factory, which is sort of our view of the world of the sort of context-centric factory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 152,
+          "t": [
+            796.4,
+            803.04
+          ],
+          "quote": "And at TESL, we've long seen the world through this sort of lens of specs and context and skills, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 161,
+          "t": [
+            843.28,
+            845.92
+          ],
+          "quote": "And so we we think of context as the as the core, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 163,
+          "t": [
+            852.32,
+            861.76
+          ],
+          "quote": "And and when we when we talk about building the factory, we have this uh uh perspective on how a factory should work, uh, which is that it should be context-centric, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 175,
+          "t": [
+            957.76,
+            972.96
+          ],
+          "quote": "And so it was it was a much more context-driven workflow, which on one hand took a moment longer and was stronger on some things, it was more resilient, you know, more uh uh malleable, um, and and could find and you know more cases and and and and make them work.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 177,
+          "t": [
+            981.68,
+            985.84
+          ],
+          "quote": "And so this sort of context centricity uh was so ingrained in how we build.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 179,
+          "t": [
+            993.36,
+            999.68
+          ],
+          "quote": "And I think you you you had a similar view when we think about that context centricity uh when it comes to code review on it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1001.36,
+            1010.88
+          ],
+          "quote": "I think that code review is actually both a good example of how context centricity is sort of crucial, but it's also hopefully one that hits close to home for folks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1363.52,
+            1371.52
+          ],
+          "quote": "We talked about how you could use it to create loops that themselves turn back and help you find new context and things that you want to write down.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1371.92,
+            1378.08
+          ],
+          "quote": "Since then, we've added a big feature that we've been calling uh skills inventory, context inventory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1390.32,
+            1396.88
+          ],
+          "quote": "Um, and we will scan and find all instances of context that's being fed to agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1409.84,
+            1414.08
+          ],
+          "quote": "So we give you a bunch of findings around do you have out-of-date context, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1436.24,
+            1443.44
+          ],
+          "quote": "But we can also find things like duplicate context where multiple people have been solving the same problem and not realizing it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1460.8,
+            1474.4
+          ],
+          "quote": "And this is a capability we're going to keep investing in, where we're just continually scanning your code estate, we're finding all of the context that agents are using, we're pulling it out, and we're telling you how can it be improved, how could it be reused, shared.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1633.84,
+            1646.96
+          ],
+          "quote": "So now we have the ability, once we've inventoried all your context, you can now version, distribute, deploy uh for your go-to-market function, for sales, for support, for anything like that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1707.36,
+            1714.64
+          ],
+          "quote": "Like a lot of what we build comes from first, what did we need ourselves to make context-driven factories work inside of Tesla.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1855.68,
+            1862.64
+          ],
+          "quote": "Uh and I think they I think there will be a core fundamental of going alongside in a skill the context of what you want it to do.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1971.44,
+            1992.88
+          ],
+          "quote": "And it's its whole job is to be able to extract this context and capture it for you so that yes, it is a bit of a you're not just clicking a button and getting code review, but you're not sitting down and spending three weeks getting your whole team to it's like look at our code review comments from the last three months, write a document that captures our code review standards, and then we'll just evolve it from there, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2048.4,
+            2056.8
+          ],
+          "quote": "So what we've observed is you know, we we work with customers, we help them create very good context, but the reality is that companies kind of evolve their practices.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2056.88,
+            2066.08
+          ],
+          "quote": "And if you're not if you're not creating loops, if you're not creating a factory, you're not really benefiting from creating this sort of well-crafted piece of context, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2224.08,
+            2227.28
+          ],
+          "quote": "You don't just have to use it uh in the context of that specific loop.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2250.32,
+            2265.52
+          ],
+          "quote": "So I think the core name of the game is that TESL's code review tool is effectively our stance on context-driven code review as one loop that you're gonna use in a context-driven factory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2379.92,
+            2390.64
+          ],
+          "quote": "It connects to the rest of Tesla's context platform, so we can help you evaluate your code review skill, optimize it, share it across repos for different teams.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2390.96,
+            2397.2
+          ],
+          "quote": "Uh and then importantly, it also starts to feed back into the context platform.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2406.72,
+            2413.12
+          ],
+          "quote": "Uh, and so as code review is running, it's not just making code review better, it's making the context of your code base better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2413.28,
+            2426
+          ],
+          "quote": "So it's looking for missing context or uh skills that maybe aren't being triggered or aren't having the effect that you'd like, and suggesting ways to improve them so that they don't have to be caught at code review time later.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2431.28,
+            2436.48
+          ],
+          "quote": "Like you don't want your context for development and your code review standards to be separate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2631.68,
+            2639.76
+          ],
+          "quote": "Yeah, so the the core of it, again, we talked about if you have a context-centric uh factory, I'm gonna sound like a broken record on that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2665.76,
+            2678.4
+          ],
+          "quote": "And so we found with customers generally, you now need to provide the Rails or the plumbing to deploy that context and to do more and more work on your behalf in an automated fashion.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2714.16,
+            2726.8
+          ],
+          "quote": "And so the first thing that we've built to enable this is an automations platform, which effectively allows you to take the context that you've created and deploy it in a way that runs on schedule.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2772.16,
+            2777.68
+          ],
+          "quote": "But then importantly, so you know, that's context on the front half of making the automations actually work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2778.24,
+            2783.04
+          ],
+          "quote": "But on the back half, the automations platform integrates back into the context platform.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2794.32,
+            2801.68
+          ],
+          "quote": "And then, of course, it also integrates into the rest of our context platform where all these automations are multiplayer by default.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2860.16,
+            2889.92
+          ],
+          "quote": "Uh and so a lot of these kind of components they come out of of portions that we think are reusable, whether they are around observability, whether around, of course, everything to do with context, the capturing of the context, the assessment of the context, et cetera, whether uh it's just just sort of utilities like scheduling, like uh like uh access controls, like dashboards and visuals around you know what makes for kind of an effective dashboard or like an effective factory uh or not, and what should you learn?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2926.32,
+            2935.84
+          ],
+          "quote": "Uh, but what we will emphasize maybe once more uh is that we think a factory should really be uh uh skills-centric, context-centric.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3016.56,
+            3029.04
+          ],
+          "quote": "Uh and then maybe try out thinking about using Tesla as the platform to kind of build up a broader context-centric, uh, if it wasn't, if we didn't say that enough, context-centric uh uh factory over it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3054.8,
+            3059.6
+          ],
+          "quote": "The AI Native Dev is brought to you by TESL, the package manager for skills and context.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 TESL 峰值一周 850 个 PR 中 85-90% 完全由智能体处理，人只负责塑造工作、高杠杆审查和循环可观测性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.24,
+            8.72
+          ],
+          "quote": "We hit a peak of something like 850 PRs in a week, and 85-90% of those were handled by agents entirely.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1,
+          "t": [
+            9.04,
+            14.16
+          ],
+          "quote": "A lot of people, when they think software factories or agents, they're sort of expecting a speed up or hoping for a speed up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 9,
+          "t": [
+            61.12,
+            63.04
+          ],
+          "quote": "Today, you're prompting agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            90.8,
+            100.4
+          ],
+          "quote": "Three days of real talks, real tools, real answers, whether you're directing the agents, building the loops themselves, leading the teams, or setting the strategy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            227.76,
+            234.72
+          ],
+          "quote": "If you are making a mess, if you are being disrespectful, it makes things worse, which we felt like was a perfect analogy for agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            234.88,
+            238.4
+          ],
+          "quote": "Like if you're keeping your house in order, agents give you superpowers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 57,
+          "t": [
+            312.88,
+            320.8
+          ],
+          "quote": "It's either a workflow that you want completed or it is a policy, a standard that you want agents to adhere to.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 61,
+          "t": [
+            330.08,
+            335.28
+          ],
+          "quote": "It's what everybody thinks of as the unit for agents, so we sort of use that uh interchangeably.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 68,
+          "t": [
+            357.12,
+            364
+          ],
+          "quote": "And so you start to get compounding gains, you start to see agents sort of inflecting your productivity upwards faster than just linear.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            470.96,
+            476
+          ],
+          "quote": "We then wanted to really get into the business of handing work over to agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 102,
+          "t": [
+            504.08,
+            514.08
+          ],
+          "quote": "And so that was where we made the decision like we're gonna go full factory, we're gonna build out a system where basically all of our work, all of our PRs are created by agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            522.96,
+            529.76
+          ],
+          "quote": "Increasingly, we're trying to have agents review more and more of that code, and we only invest in the sort of like high-leverage points.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 108,
+          "t": [
+            549.36,
+            561.76
+          ],
+          "quote": "I think the last stat we saw, uh, we hit a peak of something like 850 PRs in a week, and about 90, 85, 90% of those were handled by agents entirely.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 135,
+          "t": [
+            695.28,
+            700.96
+          ],
+          "quote": "Maybe a lot of people when they think software factories or agents, they're sort of expecting a speed up or hoping for a speed up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1021.6,
+            1035.36
+          ],
+          "quote": "You install a GitHub app, or you click a few buttons here and there, and it's boom, you've now got agents reviewing your PRs, you're finding bugs, you're maybe merging faster, or you're at least catching more issues.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1390.32,
+            1396.88
+          ],
+          "quote": "Um, and we will scan and find all instances of context that's being fed to agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1397.04,
+            1406.96
+          ],
+          "quote": "So the most common form here is skills, but it could also be other like agents MDs or uh plug-in marketplaces, things like this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1460.8,
+            1474.4
+          ],
+          "quote": "And this is a capability we're going to keep investing in, where we're just continually scanning your code estate, we're finding all of the context that agents are using, we're pulling it out, and we're telling you how can it be improved, how could it be reused, shared.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1724.72,
+            1729.6
+          ],
+          "quote": "That's sort of like the interface where you want to write down this is what's important, this is how agents will look at it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1729.84,
+            1739.36
+          ],
+          "quote": "But everybody wants that little bit of extra security, the extra surety, that, like, yes, I wrote it down, but agents don't have to follow Markdown.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1941.92,
+            1954.08
+          ],
+          "quote": "And the more you review and trust that sort of instruction set and those verifiers, uh the more uh uh uh autonomy you can give the agents as they operate and the more value you get.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2362.8,
+            2373.6
+          ],
+          "quote": "And so you can also make those available to the agent while it develops or in sort of maintenance agents or automated uh sort of sweeps of your code base.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说工程工作转移到循环本身的可观测性和监控上，常是建循环来监控循环；自动化平台捕获所有运行日志，可再建自动化基于真实使用改进技能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            530.64,
+            537.44
+          ],
+          "quote": "And then where we're doing our software engineering, our observability, our monitoring is in the loops themselves.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2860.16,
+            2889.92
+          ],
+          "quote": "Uh and so a lot of these kind of components they come out of of portions that we think are reusable, whether they are around observability, whether around, of course, everything to do with context, the capturing of the context, the assessment of the context, et cetera, whether uh it's just just sort of utilities like scheduling, like uh like uh access controls, like dashboards and visuals around you know what makes for kind of an effective dashboard or like an effective factory uh or not, and what should you learn?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "lm-as-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LM as judge",
+      "file": "LM as judge",
+      "primary": false,
+      "how_described": "本集说验证器本质是用小模型当裁判的工具，prompt 极简单所以小模型判得又快又准又便宜，可以直接跑进 CI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 313,
+          "t": [
+            1743.92,
+            1766.48
+          ],
+          "quote": "You can think of it as a way of turning your skills into or creating off of them very focused, high accuracy, very fast, very cheap LM as judge tools where uh to take an example, let's say you have a skill that says all front-end components must have ARIA attributes on them, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集提到装个 GitHub app、点几下按钮就能让智能体审查 PR，以及通过 GitHub 应用来设置代码审查透镜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            72.8,
+            83.2
+          ],
+          "quote": "Hundreds of developers, engineering leads, and VPs packed in to hear speakers from Anthropic, OpenAI, Netlify, and GitHub cut through the hype and get to what actually works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1021.6,
+            1035.36
+          ],
+          "quote": "You install a GitHub app, or you click a few buttons here and there, and it's boom, you've now got agents reviewing your PRs, you're finding bugs, you're maybe merging faster, or you're at least catching more issues.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1378.24,
+            1390.16
+          ],
+          "quote": "Uh so what this is, is a uh command line as well as a GitHub app that you can install across your uh your source estate, uh so across all your repos.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2347.2,
+            2352.48
+          ],
+          "quote": "And then uh just like any other code review tool, you'll set it up through a GitHub app.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

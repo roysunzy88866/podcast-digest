@@ -36,11 +36,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Claire Vo]] [[Tara Seshan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":4,"Co-work":4,"Notion":11,"Claude Code":45,"Slack":23,"智能体":1,"上下文":13,"技能":9,"Workstation":2,"自我改进循环":2}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":4,"Co-work":4,"Notion":11,"Claude Code":45,"Slack":23,"智能体":1,"上下文":14,"技能":10,"Workstation":2,"自我改进循环":2}</script>
 
 <script>
 (function(){
