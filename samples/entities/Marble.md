@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Marble</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Marble">MA</div><div class="pi"><h1 class="pt">Marble</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Marble">MA</div><div class="pi"><h1 class="pt">Marble</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(02:49起):本集说它是建立在 World Labs 前沿模型上的应用,世界上第一个能通过提示词生成可走进、可探索的真正 3D 世界的应用,目前已被用于电影虚拟制作等领域。
 - **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]]**(05:51起):本集说它是 World Labs 去年冬天发布的第一版生成式基础模型代号，能够将图像或文本转化为几何上一致的三维世界。
+- **[[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|《Justin Johnson：世界模型不只有一种，而语言模型做不到这些》]]**(26:06起):本集说 Marble 是 World Labs 的产品，用户输入图片或文本，模型先生成 360 度全景图再提升为 3D 高斯溅射世界，跨越了渲染器和模拟器的边界
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]] — 作为概念
+- [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|《Justin Johnson：世界模型不只有一种，而语言模型做不到这些》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[World Labs]] · [[空间智能]] · [[Waymo]] · [[Lenny]] · [[Fei-Fei Li]] · [[Dr. Fei-Fei Li]] · [[Martin Cassaro]] · [[ImageNet]] · [[Yunzhu Li]] · [[世界模型]]
+[[World Labs]] · [[空间智能]] · [[Waymo]] · [[强化学习]] · [[Lenny]] · [[Fei-Fei Li]] · [[Sam Charrington]] · [[Dr. Fei-Fei Li]] · [[Martin Cassaro]] · [[Justin Johnson]]
 
-<script type="application/json" class="pd-epn">{"World Labs":2,"空间智能":2,"Waymo":10,"Lenny":66,"Fei-Fei Li":1,"Dr. Fei-Fei Li":1,"Martin Cassaro":1,"ImageNet":2,"Yunzhu Li":1,"世界模型":3}</script>
+<script type="application/json" class="pd-epn">{"World Labs":3,"空间智能":2,"Waymo":10,"强化学习":14,"Lenny":66,"Fei-Fei Li":1,"Sam Charrington":3,"Dr. Fei-Fei Li":1,"Martin Cassaro":1,"Justin Johnson":1}</script>
 
 <script>
 (function(){

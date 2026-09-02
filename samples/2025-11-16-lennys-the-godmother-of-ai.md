@@ -115,9 +115,9 @@ jsonLd: |
 
 **换个口味**
 
+- [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|Justin Johnson：世界模型不只有一种，而语言模型做不到这些]]<span class="pd-rz">同公司:World Labs · 同概念:Marble</span>
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:ChatGPT、Google</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT · 同概念:主观能动性 (agency)</span>
-- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:ChatGPT</span>
 
 </div>
 </div>

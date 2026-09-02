@@ -52,7 +52,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]] [[Max Junestrand]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
 
 </div>
 

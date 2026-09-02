@@ -38,7 +38,7 @@ unlisted: true
 
 [[Google]] · [[OpenAI]] · [[Anthropic]] · [[AGI]] · [[Alex]] · [[Ranjan]] · [[SpaceX]] · [[Meta]] · [[Tesla]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"Google":34,"OpenAI":76,"Anthropic":87,"AGI":16,"Alex":4,"Ranjan":1,"SpaceX":11,"Meta":24,"Tesla":6,"NVIDIA":24}</script>
+<script type="application/json" class="pd-epn">{"Google":34,"OpenAI":76,"Anthropic":87,"AGI":16,"Alex":4,"Ranjan":1,"SpaceX":11,"Meta":25,"Tesla":6,"NVIDIA":24}</script>
 
 <script>
 (function(){

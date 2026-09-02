@@ -45,7 +45,7 @@ unlisted: true
 
 [[Mike LeBlanc]] · [[Michael Tannenbaum]] · [[Foundation]] · [[SoFi]] · [[人形机器人]] · [[Brex]] · [[执行器]] · [[Kiavi]] · [[视觉-语言-行动模型]] · [[高管心态]]
 
-<script type="application/json" class="pd-epn">{"Mike LeBlanc":1,"Michael Tannenbaum":1,"Foundation":1,"SoFi":1,"人形机器人":1,"Brex":3,"执行器":1,"Kiavi":1,"视觉-语言-行动模型":1,"高管心态":1}</script>
+<script type="application/json" class="pd-epn">{"Mike LeBlanc":1,"Michael Tannenbaum":1,"Foundation":1,"SoFi":1,"人形机器人":1,"Brex":3,"执行器":2,"Kiavi":1,"视觉-语言-行动模型":1,"高管心态":1}</script>
 
 <script>
 (function(){

@@ -1,33 +1,39 @@
 ---
-title: regulatory capture
+title: Transformers
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>regulatory capture</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformers</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="regulatory capture">RE</div><div class="pi"><h1 class="pt">regulatory capture</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Transformers">TR</div><div class="pi"><h1 class="pt">Transformers</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]]**(10:31起):本集说它是公司打着'为了大家好'的旗号，推政府往对自己有利的方向走，历史上 AT&T 用'普遍接入'换来了事实上的国家电话公司地位
-- **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(19:19起):本集说前沿模型公司要实现巨大估值，要么走监管俘获让政客相信必须由你来提供智能，要么开放给更多模型——但两条路互相矛盾
+- **[[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|《Waymo 谈物理 AI 的七条实战教训》]]**(09:38起):本集提到 Waymo 在 2017 年 Transformers 出现后，在感知和行为预测规划上重注，因为驾驶的社交属性与语言建模有类似之处
+- **[[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|《Justin Johnson：世界模型不只有一种，而语言模型做不到这些》]]**(59:56起):本集说 Transformer 非常强大、扩展性好，不需要推翻，但需要进化以处理世界模型场景下几千万 token 的超长上下文
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q9]]
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]] — 作为概念
-- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为概念(提及)
+- [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|《Waymo 谈物理 AI 的七条实战教训》]] — 作为概念(提及)
+- [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|《Justin Johnson：世界模型不只有一种，而语言模型做不到这些》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Theo Jaffe]] · [[Harry Stebbings]] · [[Sofia Puccini]] · [[Eno Reyes]] · [[Steven Sinofsky]] · [[Factory]] · [[precautionary principle]] · [[OpenAI]] · [[开源]]
+[[智能体]] · [[模拟器]] · [[世界模型]] · [[Dmitri Dolgov]] · [[Sam Charrington]] · [[Waymo]] · [[Justin Johnson]] · [[Waymo driver]] · [[World Labs]] · [[物理 AI]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":87,"Theo Jaffe":5,"Harry Stebbings":7,"Sofia Puccini":3,"Eno Reyes":1,"Steven Sinofsky":2,"Factory":2,"precautionary principle":1,"OpenAI":76,"开源":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"模拟器":3,"世界模型":4,"Dmitri Dolgov":1,"Sam Charrington":3,"Waymo":10,"Justin Johnson":1,"Waymo driver":1,"World Labs":3,"物理 AI":6}</script>
 
 <script>
 (function(){

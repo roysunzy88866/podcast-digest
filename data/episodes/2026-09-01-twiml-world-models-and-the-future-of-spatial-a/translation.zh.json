@@ -1,0 +1,5450 @@
+[
+ {
+  "seg": 0,
+  "start": 1.148,
+  "end": 5.51,
+  "speaker": "Unknown",
+  "en": "I want to send a big thanks to Blitzy for supporting the podcast and sponsoring this episode.",
+  "zh": "我想向 Blitzy 致以衷心的感谢，感谢它支持本播客并赞助这一期。"
+ },
+ {
+  "seg": 1,
+  "start": 6.131,
+  "end": 8.892,
+  "speaker": "Unknown",
+  "en": "Want to accelerate software development velocity by 5x?",
+  "zh": "想要把软件开发速度提升 5 倍吗？"
+ },
+ {
+  "seg": 2,
+  "start": 9.353,
+  "end": 13.255,
+  "speaker": "Unknown",
+  "en": "You need Blitzy, which brings autonomous software engineering to your enterprise.",
+  "zh": "你需要 Blitzy，它将自主软件工程引入你的企业。"
+ },
+ {
+  "seg": 3,
+  "start": 13.895,
+  "end": 20.179,
+  "speaker": "Unknown",
+  "en": "Blitzy starts by reverse engineering your codebase, building a dynamic understanding of your entire application ecosystem.",
+  "zh": "Blitzy 首先逆向工程你的代码库，建立对你整个应用生态系统的动态理解。"
+ },
+ {
+  "seg": 4,
+  "start": 20.819,
+  "end": 29.964,
+  "speaker": "Unknown",
+  "en": "Your engineers simply declare intent, and once approved, Blitzy autonomously executes entire software epics, delivering validated end-to-end tested code.",
+  "zh": "你的工程师只需声明意图，一旦获批，Blitzy 就会自主执行整个软件史诗，交付经过验证的、端到端测试过的代码。"
+ },
+ {
+  "seg": 5,
+  "start": 30.493,
+  "end": 33.694,
+  "speaker": "Unknown",
+  "en": "More than 80% of the work completed in a single run.",
+  "zh": "超过 80% 的工作在单次运行中完成。"
+ },
+ {
+  "seg": 6,
+  "start": 34.474,
+  "end": 36.155,
+  "speaker": "Unknown",
+  "en": "Blitzy is not just generating code.",
+  "zh": "Blitzy 不仅仅是生成代码。"
+ },
+ {
+  "seg": 7,
+  "start": 36.335,
+  "end": 38.575,
+  "speaker": "Unknown",
+  "en": "It's developing software at the speed of compute.",
+  "zh": "它正在以计算的速度开发软件。"
+ },
+ {
+  "seg": 8,
+  "start": 39.236,
+  "end": 42.897,
+  "speaker": "Unknown",
+  "en": "Experience Blitzy firsthand at blitzy.com slash twiml.",
+  "zh": "请在 blitzy.com/twiml 亲身体验 Blitzy。"
+ },
+ {
+  "seg": 9,
+  "start": 43.237,
+  "end": 47.658,
+  "speaker": "Unknown",
+  "en": "That's B-L-I-T-Z-Y dot com slash T-W-I-M-L.",
+  "zh": "网址是 B-L-I-T-Z-Y dot com slash T-W-I-M-L。"
+ },
+ {
+  "seg": 10,
+  "start": 50.035,
+  "end": 54.039,
+  "speaker": "Unknown",
+  "en": "The race to build more capable AI isn't just about making language models bigger.",
+  "zh": "构建更有能力的 AI 的竞赛不仅仅是关于把语言模型做得更大。"
+ },
+ {
+  "seg": 11,
+  "start": 54.639,
+  "end": 62.007,
+  "speaker": "Unknown",
+  "en": "Increasingly, it's about world models, systems that understand space, predict how environments change, and act in the world around them.",
+  "zh": "越来越多地，它关乎世界模型，即理解空间、预测环境如何变化并在其周围世界中行动的系统。"
+ },
+ {
+  "seg": 12,
+  "start": 62.88,
+  "end": 65.042,
+  "speaker": "Unknown",
+  "en": "Justin Johnson is helping shape this shift.",
+  "zh": "Justin Johnson 正在帮助塑造这一转变。"
+ },
+ {
+  "seg": 13,
+  "start": 65.503,
+  "end": 71.669,
+  "speaker": "Unknown",
+  "en": "He co-founded World Labs with Fei-Fei Li and is an associate professor of computer science at the University of Michigan.",
+  "zh": "他与李飞飞共同创立了 World Labs，并且是密歇根大学的计算机科学副教授。"
+ },
+ {
+  "seg": 14,
+  "start": 72.29,
+  "end": 76.074,
+  "speaker": "Unknown",
+  "en": "I asked him why so many researchers think world models are AI's next frontier.",
+  "zh": "我问他为什么这么多研究者认为世界模型是 AI 的下一个前沿领域。"
+ },
+ {
+  "seg": 15,
+  "start": 76.114,
+  "end": 85.704,
+  "speaker": "Unknown",
+  "en": "There's a shared, like, low-level belief among many researchers in the field that there's something that language models aren't doing, that there's other kind of models that we should be building that do other kinds of things.",
+  "zh": "在该领域的许多研究者中，存在一种共同的、像低层层面的信念，即语言模型有些事情没做，还有其他种类的模型我们应该去构建去做其他种类的事情。"
+ },
+ {
+  "seg": 16,
+  "start": 86.444,
+  "end": 93.85,
+  "speaker": "Unknown",
+  "en": "And that's something around understanding the world, generating worlds, simulating worlds, reconstructing worlds, planning actions through worlds.",
+  "zh": "那是关于理解世界、生成世界、模拟世界、重建世界、通过世界规划行动的事情。"
+ },
+ {
+  "seg": 17,
+  "start": 94.21,
+  "end": 97.013,
+  "speaker": "Unknown",
+  "en": "These are all capabilities that we want to build models to have.",
+  "zh": "这些都是我们希望构建模型所具备的能力。"
+ },
+ {
+  "seg": 18,
+  "start": 97.493,
+  "end": 103.958,
+  "speaker": "Unknown",
+  "en": "And why do we care about this is because we want to build systems that are not just stuck in a terminal or stuck as a virtual agent, right?",
+  "zh": "为什么我们要关心这个，是因为我们要构建的不仅仅是困在终端里或者作为虚拟智能体被困住的系统，对吧？"
+ },
+ {
+  "seg": 19,
+  "start": 103.978,
+  "end": 108.742,
+  "speaker": "Unknown",
+  "en": "You want to have visions of AI systems that are going to be robots that are out in the world, acting in the world.",
+  "zh": "你想要展望那种将成为机器人、身处世界并在世界中行动的 AI 系统。"
+ },
+ {
+  "seg": 20,
+  "start": 109.162,
+  "end": 113.565,
+  "speaker": "Unknown",
+  "en": "Or we maybe want to build virtual worlds and live in those and simulate interesting things there.",
+  "zh": "或者我们可能想构建虚拟世界，生活在其中，并在那里模拟有趣的事情。"
+ },
+ {
+  "seg": 21,
+  "start": 114.045,
+  "end": 118.887,
+  "speaker": "Unknown",
+  "en": "So all of these are capabilities that really don't feel like they're falling naturally out of the language modeling paradigm.",
+  "zh": "所以所有这些都是真的不像是自然地从语言建模范式中产生出来的能力。"
+ },
+ {
+  "seg": 22,
+  "start": 119.408,
+  "end": 122.529,
+  "speaker": "Unknown",
+  "en": "I'm Sam Charrington, and this is the TwiML AI Podcast.",
+  "zh": "我是 Sam Charrington，这是 TwiML AI 播客。"
+ },
+ {
+  "seg": 23,
+  "start": 122.95,
+  "end": 132.875,
+  "speaker": "Unknown",
+  "en": "For over a decade, I've been exploring the ideas and innovations shaping the future of AI through conversations like this one that help you understand what's real, what's next, and what matters.",
+  "zh": "十多年来，我一直在通过像这样的对话探索塑造 AI 未来的想法和创新，这些对话能帮助你理解什么是真实的、什么是下一步、什么是重要的。"
+ },
+ {
+  "seg": 24,
+  "start": 133.415,
+  "end": 134.096,
+  "speaker": "Unknown",
+  "en": "Let's jump in.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 25,
+  "start": 143.089,
+  "end": 145.603,
+  "speaker": "Unknown",
+  "en": "Over the past few years,",
+  "zh": "在过去的几年里，"
+ },
+ {
+  "seg": 26,
+  "start": 147.765,
+  "end": 160.735,
+  "speaker": "Unknown",
+  "en": "One idea I think that has been espoused is, you know, essentially the idea that, you know, a world model is like an emergent property of, you know, either language models or diffusion.",
+  "zh": "我认为被提倡的一个想法是，你知道，本质上这个想法，你知道，世界模型像是语言模型或扩散模型的一个涌现属性。"
+ },
+ {
+  "seg": 27,
+  "start": 160.775,
+  "end": 175.385,
+  "speaker": "Unknown",
+  "en": "Like if you, you know, diffusion can, you know, illustrate some physical properties of the world or, you know, language models can tell stories that, you know, kind of seem like they know something about the world.",
+  "zh": "比如如果你，你知道，扩散模型可以，你知道，展示世界的一些物理属性，或者，你知道，语言模型可以讲故事，你知道，有点像它们知道一些关于世界的事情。"
+ },
+ {
+  "seg": 28,
+  "start": 178.912,
+  "end": 182.694,
+  "speaker": "Unknown",
+  "en": "I guess there's a couple of questions emerging in my, you know, my question here.",
+  "zh": "我猜我的问题里出现了几个问题。"
+ },
+ {
+  "seg": 29,
+  "start": 182.814,
+  "end": 206.084,
+  "speaker": "Unknown",
+  "en": "One is like, maybe it's asking for a concrete definition of a world model, because I think, you know, early on in those conversations, world model was really talking about, you know, these models having like foundational knowledge of the real world, like the world that we live in.",
+  "zh": "一个是像，也许它是在询问一个世界模型的具体定义，因为我认为，你知道，在那些对话的早期，世界模型实际上是在谈论，你知道，这些模型拥有像现实世界的基础知识，像我们居住的这个世界。"
+ },
+ {
+  "seg": 30,
+  "start": 208.895,
+  "end": 222.62,
+  "speaker": "Unknown",
+  "en": "More recently, you know, the world model conversation, I feel like has shifted to talking about being able to create artificial worlds, but have them be self-consistent and navigable and, you know, properties like that.",
+  "zh": "最近，你知道，关于世界模型的讨论，我感觉已经转向谈论能够创造人工世界，但让它们具有自洽性和可导航性，以及，你知道，诸如此类的属性。"
+ },
+ {
+  "seg": 31,
+  "start": 222.7,
+  "end": 229.923,
+  "speaker": "Unknown",
+  "en": "So, you know, A, kind of, I'd love to hear you, you know, elaborate on the relationship.",
+  "zh": "所以，你知道，首先，有点，我想听你，你知道，详细阐述这种关系。"
+ },
+ {
+  "seg": 32,
+  "start": 230.123,
+  "end": 235.805,
+  "speaker": "Unknown",
+  "en": "And if you see kind of the same shift in the terminology, but also this idea of like,",
+  "zh": "以及你是否在术语中也看到了同样的转变，但也还有这个想法像，"
+ },
+ {
+  "seg": 33,
+  "start": 237.128,
+  "end": 248.655,
+  "speaker": "Unknown",
+  "en": "You know, emergent and, you know, do we need new things or like if we throw enough, you know, data, compute, et cetera, at the models that we have, you know, does that get us there or more likely why won't that get us there?",
+  "zh": "你知道，涌现和，你知道，我们需要新东西，或者像如果我们向现有的模型投入足够多的，你知道，数据、计算等等，你知道，那能让我们达到目标，或者更可能为什么那不会让我们达到目标？"
+ },
+ {
+  "seg": 34,
+  "start": 248.915,
+  "end": 251.457,
+  "speaker": "Unknown",
+  "en": "I think there's a lot of interesting questions to unpack there.",
+  "zh": "我想那里有很多有趣的问题需要拆解。"
+ },
+ {
+  "seg": 35,
+  "start": 252.417,
+  "end": 255.259,
+  "speaker": "Unknown",
+  "en": "One, I mean, the biggest one is just like, let's get it out of the way.",
+  "zh": "第一，我的意思是，最大的那个问题只是像，让我们先把它解决掉。"
+ },
+ {
+  "seg": 36,
+  "start": 255.339,
+  "end": 258.681,
+  "speaker": "Unknown",
+  "en": "There isn't a clear definition of world models that everyone in the field agrees on.",
+  "zh": "并没有一个清晰的、该领域所有人都同意的世界模型定义。"
+ },
+ {
+  "seg": 37,
+  "start": 259.081,
+  "end": 261.403,
+  "speaker": "Unknown",
+  "en": "And I think that's causing part of the confusion, right?",
+  "zh": "我认为那是造成部分困惑的原因，对吧？"
+ },
+ {
+  "seg": 38,
+  "start": 261.463,
+  "end": 271.013,
+  "speaker": "Unknown",
+  "en": "Like there is not like a thing where we can say a model that has X property or produces X kind of input and produces X kind of output like is a world model definitionally.",
+  "zh": "像并没有像这样一件事，我们可以说一个具有 X 属性或产生 X 种输入并产生 X 种输出的模型，在定义上就是一个世界模型。"
+ },
+ {
+  "seg": 39,
+  "start": 271.313,
+  "end": 275.717,
+  "speaker": "Unknown",
+  "en": "I think we don't have that crisp definition as a field of what we mean, which leads to the confusion.",
+  "zh": "我认为作为一个领域，我们没有那个清晰的、关于我们要表达什么的定义，这导致了困惑。"
+ },
+ {
+  "seg": 40,
+  "start": 277.017,
+  "end": 287.999,
+  "speaker": "Unknown",
+  "en": "But to your point, I think there's a couple variants of this that feel like they're like, I think there is some notion of like implicit world knowledge that you mentioned, that there are other kinds of models that produce certain kinds of inputs and outputs.",
+  "zh": "但关于你的观点，我认为这里有几个变体感觉它们像，我认为有某种像你提到的隐式世界知识的概念，即有其他种类的模型产生某些种类的输入和输出。"
+ },
+ {
+  "seg": 41,
+  "start": 288.339,
+  "end": 302.362,
+  "speaker": "Unknown",
+  "en": "Maybe if a model that is producing text, if it produces the right kind of text, the only way it could have produced this kind of text answer is because it knows something about the real world or because it's modeling some kind of implicit world internally in its neural network weights.",
+  "zh": "也许如果一个产生文本的模型，如果它产生了正确种类的文本，它能够产生这种文本回答的唯一方式是因为它知道一些关于真实世界的事情，或者因为它在其神经网络权重内部建模了某种隐式世界。"
+ },
+ {
+  "seg": 42,
+  "start": 302.922,
+  "end": 304.483,
+  "speaker": "Unknown",
+  "en": "Or similarly for video models, right?",
+  "zh": "或者同样对于视频模型，对吧？"
+ },
+ {
+  "seg": 43,
+  "start": 304.523,
+  "end": 319.153,
+  "speaker": "Unknown",
+  "en": "Like if I am able to generate a video that is super photorealistic and has detailed and like has physics and has water running in very particular ways, like maybe implicitly the model must have been modeling something about a real world in order to generate an output of that kind.",
+  "zh": "像如果我能够生成一个超级写实、有细节、像是有物理属性、并且水以非常特定方式流动的视频，像也许隐含地该模型一定已经建模了一些关于现实世界的事情，为了产生那种输出。"
+ },
+ {
+  "seg": 44,
+  "start": 320.122,
+  "end": 333.718,
+  "speaker": "Unknown",
+  "en": "So I think that's kind of this notion of an implicit world model that you did this other, like maybe you could be doing any number of tasks, but there's certain kinds of answers that you could give that would require implicitly modeling something about the world.",
+  "zh": "所以我认为那是这种隐式世界模型的概念，你做了这个其他的，像也许你可以做任何数量的任务，但你可以给出的某些种类的答案会需要隐含地建模关于世界的一些事情。"
+ },
+ {
+  "seg": 45,
+  "start": 335.448,
+  "end": 338.25,
+  "speaker": "Unknown",
+  "en": "But then I think there's like two other threads there that are really interesting.",
+  "zh": "但我认为那里还有另外两条线索真的很有趣。"
+ },
+ {
+  "seg": 46,
+  "start": 338.611,
+  "end": 342.314,
+  "speaker": "Unknown",
+  "en": "I think the term itself, world model, actually goes back to reinforcement learning literature.",
+  "zh": "我认为世界模型这个术语本身实际上可以追溯到强化学习文献。"
+ },
+ {
+  "seg": 47,
+  "start": 342.735,
+  "end": 347.179,
+  "speaker": "Unknown",
+  "en": "And there, there's a specific technical definition related to PoMDPs that maybe we'll get into later.",
+  "zh": "在那里，有一个与 PoMDPs 相关的特定技术定义，也许我们稍后会深入探讨。"
+ },
+ {
+  "seg": 48,
+  "start": 347.779,
+  "end": 353.285,
+  "speaker": "Unknown",
+  "en": "But there's a specific technical term of world modeling that goes back to reinforcement learning for quite some time.",
+  "zh": "但有一个特定的世界建模技术术语可以追溯到强化学习领域已经相当一段时间了。"
+ },
+ {
+  "seg": 49,
+  "start": 354.295,
+  "end": 360.578,
+  "speaker": "Unknown",
+  "en": "And then there's another thread I think that ended up is like, you know, we've been talking a lot about generative models the last couple of years.",
+  "zh": "然后我认为还有另一条线索，结果是像，你知道，我们在过去几年里一直在谈论很多关于生成模型的事情。"
+ },
+ {
+  "seg": 50,
+  "start": 360.778,
+  "end": 363.619,
+  "speaker": "Unknown",
+  "en": "And an image model is a model that produces images.",
+  "zh": "一个图像模型是一个产生图像的模型。"
+ },
+ {
+  "seg": 51,
+  "start": 363.999,
+  "end": 366.28,
+  "speaker": "Unknown",
+  "en": "A video model is a model that produces videos.",
+  "zh": "一个视频模型是一个产生视频的模型。"
+ },
+ {
+  "seg": 52,
+  "start": 366.38,
+  "end": 369.121,
+  "speaker": "Unknown",
+  "en": "And then maybe a world model should be a model that produces worlds.",
+  "zh": "那么也许一个世界模型应该是一个产生世界的模型。"
+ },
+ {
+  "seg": 53,
+  "start": 369.462,
+  "end": 371.602,
+  "speaker": "Unknown",
+  "en": "And then what does it mean to produce or generate a world?",
+  "zh": "那么产生或生成一个世界意味着什么？"
+ },
+ {
+  "seg": 54,
+  "start": 372.063,
+  "end": 377.105,
+  "speaker": "Unknown",
+  "en": "So I think we got these like three kind of different threads that different people in the community use is around like...",
+  "zh": "所以我认为我们有了这些像三种不同的思路，社区里不同的人使用是围绕着像……"
+ },
+ {
+  "seg": 55,
+  "start": 377.625,
+  "end": 384.049,
+  "speaker": "Unknown",
+  "en": "Some notion of implicit world modeling that I can answer really hard problems, but I must be modeling something about a world to get the right answer.",
+  "zh": "关于隐式世界建模的某种概念，我可以回答非常难的问题，但我必须对世界的某些东西进行建模才能得到正确的答案。"
+ },
+ {
+  "seg": 56,
+  "start": 384.769,
+  "end": 388.972,
+  "speaker": "Unknown",
+  "en": "Or there's the specific RL formulation of world model.",
+  "zh": "或者有世界模型的具体 RL 形式化表述。"
+ },
+ {
+  "seg": 57,
+  "start": 389.252,
+  "end": 393.174,
+  "speaker": "Unknown",
+  "en": "And then there's a generative model that creates or generates worlds.",
+  "zh": "然后有一种生成模型，它创造或生成世界。"
+ },
+ {
+  "seg": 58,
+  "start": 393.635,
+  "end": 402.2,
+  "speaker": "Unknown",
+  "en": "Do you see this implicit world model as just another definition or an incorrect set of beliefs?",
+  "zh": "你把这个隐式世界模型看作仅仅是另一个定义还是一套错误的信念？"
+ },
+ {
+  "seg": 59,
+  "start": 402.24,
+  "end": 403.581,
+  "speaker": "Unknown",
+  "en": "When you hear that, do you...",
+  "zh": "当你听到那个时，你……"
+ },
+ {
+  "seg": 60,
+  "start": 404.382,
+  "end": 406.124,
+  "speaker": "Unknown",
+  "en": "You know, do you feel like those are world models?",
+  "zh": "你知道，你觉得像那些是世界模型吗？"
+ },
+ {
+  "seg": 61,
+  "start": 406.144,
+  "end": 409.288,
+  "speaker": "Unknown",
+  "en": "You think that's a valid way of thinking about world models?",
+  "zh": "你认为那是思考世界模型的一种有效方式吗？"
+ },
+ {
+  "seg": 62,
+  "start": 409.368,
+  "end": 421.922,
+  "speaker": "Unknown",
+  "en": "Or do you think, you know, world models have properties that aren't really characteristic of, you know, the current models that we are talking about, you know, vision, language, etc.",
+  "zh": "或者你认为，你知道，世界模型具有哪些属性，这些属性并不是我们所谈论的当前模型的真正特征，你知道，视觉、语言等等。"
+ },
+ {
+  "seg": 63,
+  "start": 421.901,
+  "end": 421.922,
+  "speaker": "Unknown",
+  "en": "?",
+  "zh": "？"
+ },
+ {
+  "seg": 64,
+  "start": 422.602,
+  "end": 424.304,
+  "speaker": "Unknown",
+  "en": "I almost think like, I think they're all valid.",
+  "zh": "我几乎觉得像，我认为它们都是有效的。"
+ },
+ {
+  "seg": 65,
+  "start": 424.444,
+  "end": 429.228,
+  "speaker": "Unknown",
+  "en": "I mean, the hard part is that I think all three of the things I just said are very interesting systems.",
+  "zh": "我的意思是，困难的部分在于我认为我刚才说的这三样东西都是非常有趣的系统。"
+ },
+ {
+  "seg": 66,
+  "start": 429.468,
+  "end": 430.849,
+  "speaker": "Unknown",
+  "en": "Like they're very interesting models.",
+  "zh": "像它们是非常有趣的模型。"
+ },
+ {
+  "seg": 67,
+  "start": 430.909,
+  "end": 434.252,
+  "speaker": "Unknown",
+  "en": "Like they all have, like we should probably build all of them as a community.",
+  "zh": "像它们都有，像我们作为一个社区可能应该构建它们所有。"
+ },
+ {
+  "seg": 68,
+  "start": 435.273,
+  "end": 440.358,
+  "speaker": "Unknown",
+  "en": "But we should probably come up with better terms so that we don't confuse each other by calling different systems by the same term.",
+  "zh": "但我们可能应该想出更好的术语，这样我们就不会通过用同一个术语称呼不同的系统来混淆彼此。"
+ },
+ {
+  "seg": 69,
+  "start": 441.68,
+  "end": 443.622,
+  "speaker": "Unknown",
+  "en": "And I think that's the thing.",
+  "zh": "我认为那就是问题所在。"
+ },
+ {
+  "seg": 70,
+  "start": 443.703,
+  "end": 454.076,
+  "speaker": "Unknown",
+  "en": "So I think maybe in the academic literature in the last year, the world model has more coalesced into a particular flavor of a real-time interactive video model.",
+  "zh": "所以我认为也许在过去一年的学术文献中，世界模型更多聚合成了实时交互式视频模型的一种特定类型。"
+ },
+ {
+  "seg": 71,
+  "start": 454.517,
+  "end": 458.302,
+  "speaker": "Unknown",
+  "en": "And that's been more commonly what people call world models in the literature the last year or so.",
+  "zh": "在过去一年左右的文献中，这更常见的是人们称之为世界模型的东西。"
+ },
+ {
+  "seg": 72,
+  "start": 459.768,
+  "end": 464.11,
+  "speaker": "Unknown",
+  "en": "But I think all of the other properties that we just talked about are really interesting and useful.",
+  "zh": "但我认为我们刚才谈到的所有其他属性都是真正有趣和有用的。"
+ },
+ {
+  "seg": 73,
+  "start": 464.53,
+  "end": 469.432,
+  "speaker": "Unknown",
+  "en": "And especially the implicit world model notion, I think that sort of can be applied to anything.",
+  "zh": "特别是隐式世界模型的概念，我认为那可以应用于任何事物。"
+ },
+ {
+  "seg": 74,
+  "start": 469.852,
+  "end": 480.796,
+  "speaker": "Unknown",
+  "en": "And no matter what kind of beta you're processing, no matter what kind of system you're building, I think if it gets to some level of interesting complexity, then it's going to end up with some notion of implicit world model somewhere in the system.",
+  "zh": "而且无论你在处理什么种类的 beta，无论你在构建什么种类的系统，我认为如果它达到了某种有趣的复杂性水平，那么它最终会在系统的某个地方产生某种隐式世界模型的概念。"
+ },
+ {
+  "seg": 75,
+  "start": 480.816,
+  "end": 482.037,
+  "speaker": "Unknown",
+  "en": "And that's really interesting.",
+  "zh": "那真的很有趣。"
+ },
+ {
+  "seg": 76,
+  "start": 482.469,
+  "end": 496.684,
+  "speaker": "Unknown",
+  "en": "One of the ways that that occurs to me is like thinking about it in the context of, you know, the question that we grappled with around or even so grappled with around large language models is like, do they really understand language?",
+  "zh": "这让我想到的一种方式是，像在……的背景下思考它，你知道，我们要围绕大型语言模型——甚至如此激烈围绕大型语言模型——探讨的问题，就像，它们真的理解语言吗？"
+ },
+ {
+  "seg": 77,
+  "start": 496.744,
+  "end": 503.532,
+  "speaker": "Unknown",
+  "en": "Do they, you know, is next token prediction, is it just faking an understanding of language or isn't an understanding of language?",
+  "zh": "它们，你知道，下一个 Token 预测，它只是在假装理解语言，还是不是一种对语言的理解？"
+ },
+ {
+  "seg": 78,
+  "start": 504.112,
+  "end": 504.593,
+  "speaker": "Unknown",
+  "en": "And I think.",
+  "zh": "我认为。"
+ },
+ {
+  "seg": 79,
+  "start": 506.168,
+  "end": 510.553,
+  "speaker": "Unknown",
+  "en": "You know, for the most part, maybe we've moved off from that question and said, these things are so amazing.",
+  "zh": "你知道，在大多数情况下，也许我们已经不再纠结那个问题并说，这些东西是如此神奇。"
+ },
+ {
+  "seg": 80,
+  "start": 510.613,
+  "end": 511.795,
+  "speaker": "Unknown",
+  "en": "Like, does it really matter?",
+  "zh": "像，这真的很重要吗？"
+ },
+ {
+  "seg": 81,
+  "start": 513.737,
+  "end": 522.667,
+  "speaker": "Unknown",
+  "en": "And so from that perspective, like if we apply that to the world model question, like if, you know, those types of models get so good at",
+  "zh": "所以从那个角度来看，像如果我们把它应用到世界模型问题上，像如果，你知道，那些类型的模型变得如此擅长"
+ },
+ {
+  "seg": 82,
+  "start": 523.466,
+  "end": 530.069,
+  "speaker": "Unknown",
+  "en": "You know, generating consistent to some underlying world results.",
+  "zh": "你知道，生成与某些潜在世界结果一致的东西。"
+ },
+ {
+  "seg": 83,
+  "start": 530.169,
+  "end": 539.113,
+  "speaker": "Unknown",
+  "en": "Maybe it doesn't really matter, but it, you know, I still find it an interesting, you know, if nothing else, like philosophical question.",
+  "zh": "也许这真的不重要，但这，你知道，我仍然觉得它是一个有趣的，你知道，如果不是别的，就像哲学问题。"
+ },
+ {
+  "seg": 84,
+  "start": 539.68,
+  "end": 539.96,
+  "speaker": "Unknown",
+  "en": "I agree.",
+  "zh": "我同意。"
+ },
+ {
+  "seg": 85,
+  "start": 539.98,
+  "end": 544.363,
+  "speaker": "Unknown",
+  "en": "There's an interesting philosophical question in there, but at some point it's sort of unanswerable, right?",
+  "zh": "那里有一个有趣的哲学问题，但在某种程度上它是无法回答的，对吧？"
+ },
+ {
+  "seg": 86,
+  "start": 544.403,
+  "end": 549.165,
+  "speaker": "Unknown",
+  "en": "Like as a scientist, you want to be like, at least for me, I like to think about what are things that I can measure about this system?",
+  "zh": "像作为一个科学家，你想要像，至少对我而言，我喜欢思考我可以关于这个系统测量什么东西？"
+ },
+ {
+  "seg": 87,
+  "start": 549.205,
+  "end": 553.687,
+  "speaker": "Unknown",
+  "en": "What are like concrete questions that I can ask or falsify ideally about a system?",
+  "zh": "我可以问的像具体问题是什么，或者理想情况下可以关于一个系统证伪的？"
+ },
+ {
+  "seg": 88,
+  "start": 554.348,
+  "end": 563.553,
+  "speaker": "Unknown",
+  "en": "Um, so like, but I think there, but I think the, another thing you're getting at is there is like another notion that I think some people sometimes have when talking about world models, which is",
+  "zh": "嗯，所以像，但我想那里，但我认为这个，你正在触及的另一件事是存在像另一个概念，我认为有些人在谈论世界模型有时会有，那就是"
+ },
+ {
+  "seg": 89,
+  "start": 564.253,
+  "end": 564.834,
+  "speaker": "Unknown",
+  "en": "Pretty different.",
+  "zh": "相当不同。"
+ },
+ {
+  "seg": 90,
+  "start": 565.514,
+  "end": 566.796,
+  "speaker": "Unknown",
+  "en": "And I don't think we know how to get there.",
+  "zh": "我不认为我们知道如何到达那里。"
+ },
+ {
+  "seg": 91,
+  "start": 567.156,
+  "end": 570.299,
+  "speaker": "Unknown",
+  "en": "And that's more like world model as theory builder, right?",
+  "zh": "那更像是作为理论构建者的世界模型，对吧？"
+ },
+ {
+  "seg": 92,
+  "start": 570.579,
+  "end": 582.251,
+  "speaker": "Unknown",
+  "en": "Because we have this notion that as humans, we're kind of like traversing this really complicated world all around us and having these experiences, but we're not just like letting the photons fall on our retinas and like letting it happen.",
+  "zh": "因为我们有这个概念，作为人类，我们有点像穿越我们周围这个非常复杂的世界并拥有这些经历，但我们不仅仅是像让光子落在我们的视网膜上并像让它发生。"
+ },
+ {
+  "seg": 93,
+  "start": 582.291,
+  "end": 585.655,
+  "speaker": "Unknown",
+  "en": "Like we're constantly building theories in our mind for what's happening.",
+  "zh": "像我们不断在我们的头脑中为正在发生的事情构建理论。"
+ },
+ {
+  "seg": 94,
+  "start": 586.055,
+  "end": 600.834,
+  "speaker": "Unknown",
+  "en": "right we come up with these great theories about how does gravity work and how does physics work and how does fluid dynamics work and it's not just that we observe these things we actually end up with these very compact and very powerful theories about that explain all the mechanisms behind what's what's happening out there",
+  "zh": "对，我们想出了这些关于引力如何运作以及物理学如何运作以及流体力学如何运作的伟大理论，而且不仅仅是我们观察这些东西，我们最终得到了这些非常紧凑和非常强大的理论，它们解释了外面的世界里正在发生的所有机制背后的所有机制。"
+ },
+ {
+  "seg": 95,
+  "start": 601.675,
+  "end": 607.917,
+  "speaker": "Unknown",
+  "en": "And I think part of the holy grail question around AI is how do we get machines to do that kind of a thing too?",
+  "zh": "我认为围绕人工智能的圣杯问题的一部分是我们如何让机器也做那种事情？"
+ },
+ {
+  "seg": 96,
+  "start": 608.457,
+  "end": 617.36,
+  "speaker": "Unknown",
+  "en": "And maybe there's this notion of like, well, a world model should not just be directly thinking about observations, but should be building deep explanatory theories about the world.",
+  "zh": "也许有这样一种概念，像，嗯，世界模型不应该只是直接思考观察结果，而应该构建关于世界的深层解释性理论。"
+ },
+ {
+  "seg": 97,
+  "start": 618.26,
+  "end": 620.041,
+  "speaker": "Unknown",
+  "en": "And I think that one's really, really hard.",
+  "zh": "我认为那真的非常非常难。"
+ },
+ {
+  "seg": 98,
+  "start": 620.661,
+  "end": 629.684,
+  "speaker": "Unknown",
+  "en": "And I don't know that anyone has a great angle on how to get there, but I think that's kind of a slightly different notion of the question that sometimes is mixed in there.",
+  "zh": "我不知道有谁对如何到达那里有一个很好的角度，但我认为那是这个问题的一个稍微不同的概念，有时被混在里面。"
+ },
+ {
+  "seg": 99,
+  "start": 630.165,
+  "end": 647.261,
+  "speaker": "Unknown",
+  "en": "Yeah, you could argue that even before worlds, it would be great if we can get, for example, a model that can build a deep theory about language, for example, or any other domain that is currently handled by the types of models we deal with currently.",
+  "zh": "是的，你可以争辩说，甚至在世界之前，如果我们能得到，例如，一个可以构建关于语言的深层理论的模型，那将是很好的，例如，或者任何其他目前由我们目前处理的模型类型处理的领域。"
+ },
+ {
+  "seg": 100,
+  "start": 648.582,
+  "end": 651.465,
+  "speaker": "Unknown",
+  "en": "You know, language, you know, graphic arts.",
+  "zh": "你知道，语言，你知道，平面艺术。"
+ },
+ {
+  "seg": 101,
+  "start": 652.686,
+  "end": 653.466,
+  "speaker": "Unknown",
+  "en": "Uh, yeah.",
+  "zh": "嗯，是的。"
+ },
+ {
+  "seg": 102,
+  "start": 653.627,
+  "end": 654.087,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有趣。"
+ },
+ {
+  "seg": 103,
+  "start": 654.127,
+  "end": 654.527,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有趣。"
+ },
+ {
+  "seg": 104,
+  "start": 654.587,
+  "end": 660.412,
+  "speaker": "Unknown",
+  "en": "But, but there, there's something like, you know, what if I had this like perfect, I mean, an LLM is kind of like, imagine like a perfect LLM.",
+  "zh": "但是，但是那里有类似的东西，你知道，如果我有这个像完美的，我的意思是，一个 LLM 有点像，想象像一个完美的 LLM。"
+ },
+ {
+  "seg": 105,
+  "start": 660.673,
+  "end": 665.537,
+  "speaker": "Unknown",
+  "en": "Maybe LLM is the wrong example, but like, suppose you had a perfect video model that could generate any video you asked for.",
+  "zh": "也许 LLM 是错误的例子，但是像，假设你有一个完美的视频模型，它能够生成你要求的任何视频。"
+ },
+ {
+  "seg": 106,
+  "start": 666.117,
+  "end": 669.52,
+  "speaker": "Unknown",
+  "en": "Um, but like maybe what I wanted wasn't actually a video.",
+  "zh": "嗯，但是像也许我想要的实际上不是一个视频。"
+ },
+ {
+  "seg": 107,
+  "start": 669.54,
+  "end": 671.762,
+  "speaker": "Unknown",
+  "en": "What I wanted as a human, as a scientist was.",
+  "zh": "作为人类，作为科学家，我想要的是。"
+ },
+ {
+  "seg": 108,
+  "start": 672.623,
+  "end": 674.264,
+  "speaker": "Unknown",
+  "en": "I wanted to learn something about the world.",
+  "zh": "我想了解关于世界的一些事情。"
+ },
+ {
+  "seg": 109,
+  "start": 675.084,
+  "end": 682.147,
+  "speaker": "Unknown",
+  "en": "And even if I can generate video of any kind or of any structure, I didn't learn what I wanted about the world.",
+  "zh": "而且即使我可以生成任何种类或任何结构的视频，我也没有学到我想知道的关于世界的事情。"
+ },
+ {
+  "seg": 110,
+  "start": 682.467,
+  "end": 687.87,
+  "speaker": "Unknown",
+  "en": "Then maybe the video I want is Einstein giving a lecture explaining the new theory of quantum gravity or something like that.",
+  "zh": "那么也许我想要的视频是爱因斯坦做一个讲座解释量子引力的新理论或者类似的东西。"
+ },
+ {
+  "seg": 111,
+  "start": 688.27,
+  "end": 692.032,
+  "speaker": "Unknown",
+  "en": "And then it's like not actually the pixels themselves, not the capability to generate video.",
+  "zh": "然后它实际上不是像素本身，不是生成视频的能力。"
+ },
+ {
+  "seg": 112,
+  "start": 692.452,
+  "end": 693.693,
+  "speaker": "Unknown",
+  "en": "That was what I really wanted.",
+  "zh": "那才是我真正想要的。"
+ },
+ {
+  "seg": 113,
+  "start": 693.753,
+  "end": 697.714,
+  "speaker": "Unknown",
+  "en": "I wanted to gain some new understanding of the world from this model somehow.",
+  "zh": "我想从这个模型中以某种方式获得对世界的一些新理解。"
+ },
+ {
+  "seg": 114,
+  "start": 698.135,
+  "end": 699.515,
+  "speaker": "Unknown",
+  "en": "And that's a really hard one.",
+  "zh": "而那真的很难。"
+ },
+ {
+  "seg": 115,
+  "start": 699.615,
+  "end": 701.976,
+  "speaker": "Unknown",
+  "en": "Yeah, and I don't think LLMs are a bad example, right?",
+  "zh": "是的，而且我不认为 LLMs 是一个坏的例子，对吧？"
+ },
+ {
+  "seg": 116,
+  "start": 701.996,
+  "end": 717.304,
+  "speaker": "Unknown",
+  "en": "If an LLM had the ability to generate theories, you could argue that it wouldn't hallucinate because it would think more deeply about the relationship between the things that it's generating and would kind of self-correct or could self-correct.",
+  "zh": "如果一个 LLM 有生成理论的能力，你可以争辩说它不会产生幻觉，因为它会更深入地思考它正在生成的事物之间的关系，并且会进行某种自我纠正或者可以自我纠正。"
+ },
+ {
+  "seg": 117,
+  "start": 719.743,
+  "end": 725.788,
+  "speaker": "Unknown",
+  "en": "So we talked about kind of implicit world models.",
+  "zh": "所以我们谈论了某种隐式的世界模型。"
+ },
+ {
+  "seg": 118,
+  "start": 725.828,
+  "end": 728.11,
+  "speaker": "Unknown",
+  "en": "We talked about generative world models.",
+  "zh": "我们谈论了生成式世界模型。"
+ },
+ {
+  "seg": 119,
+  "start": 728.93,
+  "end": 737.036,
+  "speaker": "Unknown",
+  "en": "There's this state machine interpretation that you mentioned, POMDP, Partially Observable Markov Decision Processes.",
+  "zh": "有一种你提到的状态机解释，POMDP，部分可观测马尔可夫决策过程。"
+ },
+ {
+  "seg": 120,
+  "start": 737.097,
+  "end": 741.08,
+  "speaker": "Unknown",
+  "en": "Talk a little bit about that and how, you know,",
+  "zh": "谈一点那个以及如何，你知道，"
+ },
+ {
+  "seg": 121,
+  "start": 741.82,
+  "end": 746.345,
+  "speaker": "Unknown",
+  "en": "That history kind of plays into the way, you know, you and others are thinking about world models.",
+  "zh": "那段历史某种程度上影响到了这种方式，你知道，你和其他人正在思考世界模型的方式。"
+ },
+ {
+  "seg": 122,
+  "start": 746.606,
+  "end": 753.053,
+  "speaker": "Unknown",
+  "en": "So there's this, there's this abstraction called partially observed markup decision processes or PoMDPs that goes back quite a long time.",
+  "zh": "所以有这种，有这种抽象叫做部分可观测标记决策过程或者 PoMDPs，这可以追溯到很久以前。"
+ },
+ {
+  "seg": 123,
+  "start": 753.333,
+  "end": 758.979,
+  "speaker": "Unknown",
+  "en": "That is a really nice mathematical formalism for thinking about how agents can interact with worlds.",
+  "zh": "这是一个非常好的数学形式主义，用于思考智能体如何与世界交互。"
+ },
+ {
+  "seg": 124,
+  "start": 759.5,
+  "end": 764.484,
+  "speaker": "Unknown",
+  "en": "So then there's basically like two, you imagine like you basically decompose your system into two parts.",
+  "zh": "所以基本上有两个，你想象基本上把你的系统分解成两个部分。"
+ },
+ {
+  "seg": 125,
+  "start": 764.684,
+  "end": 768.246,
+  "speaker": "Unknown",
+  "en": "One is the world, and that's like everything that happens around you.",
+  "zh": "一个是世界，就像你周围发生的所有事情。"
+ },
+ {
+  "seg": 126,
+  "start": 768.707,
+  "end": 772.129,
+  "speaker": "Unknown",
+  "en": "And then there's an agent, and an agent is something that can take actions in the world.",
+  "zh": "然后有一个智能体，一个智能体是可以在世界中采取行动的东西。"
+ },
+ {
+  "seg": 127,
+  "start": 772.169,
+  "end": 777.273,
+  "speaker": "Unknown",
+  "en": "They can move around, they can maybe pick up objects, they can do things in the world or to the world.",
+  "zh": "它们可以四处移动，它们也许可以拿起物体，它们可以在世界里面或者对世界做事情。"
+ },
+ {
+  "seg": 128,
+  "start": 777.993,
+  "end": 787.38,
+  "speaker": "Unknown",
+  "en": "So you sort of partition the whole universe into agent, which moves around and does stuff, and then world, which has stuff done to it by the agent and also maybe evolves in time.",
+  "zh": "所以你有点把整个宇宙划分为智能体，它四处移动并做事情，然后是世界，它被智能体对其做事情，并且也许随时间演化。"
+ },
+ {
+  "seg": 129,
+  "start": 787.88,
+  "end": 789.04,
+  "speaker": "Unknown",
+  "en": "So you've got the world and the agent.",
+  "zh": "所以你有了世界和智能体。"
+ },
+ {
+  "seg": 130,
+  "start": 789.44,
+  "end": 792.921,
+  "speaker": "Unknown",
+  "en": "And then you talk about this formalism of how do the two interact with each other.",
+  "zh": "然后你谈论这种两者如何相互交互的形式主义。"
+ },
+ {
+  "seg": 131,
+  "start": 793.441,
+  "end": 795.362,
+  "speaker": "Unknown",
+  "en": "Then the agent is going to take actions.",
+  "zh": "然后智能体将采取行动。"
+ },
+ {
+  "seg": 132,
+  "start": 795.902,
+  "end": 800.262,
+  "speaker": "Unknown",
+  "en": "And in different situations, your vocabulary of actions might be different, right?",
+  "zh": "在不同的情况下，你的行动词汇表可能是不同的，对吧？"
+ },
+ {
+  "seg": 133,
+  "start": 800.282,
+  "end": 804.203,
+  "speaker": "Unknown",
+  "en": "Like maybe you're a robot and I can actuate my motors in a certain way.",
+  "zh": "像也许你是一个机器人，我可以以某种方式致动我的马达。"
+ },
+ {
+  "seg": 134,
+  "start": 804.523,
+  "end": 807.884,
+  "speaker": "Unknown",
+  "en": "Maybe I'm in a video game and I can push buttons on the controller.",
+  "zh": "也许我在一个视频游戏中，我可以按控制器上的按钮。"
+ },
+ {
+  "seg": 135,
+  "start": 808.524,
+  "end": 812.285,
+  "speaker": "Unknown",
+  "en": "So in different situations, the agent might have available to them different kinds of actions.",
+  "zh": "所以在不同情况下，智能体可能拥有不同种类的行动可用。"
+ },
+ {
+  "seg": 136,
+  "start": 812.825,
+  "end": 819.308,
+  "speaker": "Unknown",
+  "en": "But whatever the situation is, when an agent makes actions on the world, the world will be changed in some way.",
+  "zh": "但无论情况如何，当智能体对世界做出行动时，世界会以某种方式被改变。"
+ },
+ {
+  "seg": 137,
+  "start": 819.989,
+  "end": 823.831,
+  "speaker": "Unknown",
+  "en": "And the way we denote that is we say that the world has a state internal to it.",
+  "zh": "我们表示这种方式的方法是我们说世界有一个内部状态。"
+ },
+ {
+  "seg": 138,
+  "start": 824.311,
+  "end": 827.472,
+  "speaker": "Unknown",
+  "en": "And the state kind of defines everything that makes the world what it is.",
+  "zh": "并且状态某种程度上定义了使世界之所以为世界的一切。"
+ },
+ {
+  "seg": 139,
+  "start": 828.113,
+  "end": 830.734,
+  "speaker": "Unknown",
+  "en": "And the state might be very large and very complex.",
+  "zh": "并且状态可能非常大和非常复杂。"
+ },
+ {
+  "seg": 140,
+  "start": 830.814,
+  "end": 832.335,
+  "speaker": "Unknown",
+  "en": "It might not be understandable.",
+  "zh": "它可能无法理解。"
+ },
+ {
+  "seg": 141,
+  "start": 832.695,
+  "end": 834.596,
+  "speaker": "Unknown",
+  "en": "It might be very, very large and high dimensional.",
+  "zh": "它可能非常大、非常高维。"
+ },
+ {
+  "seg": 142,
+  "start": 834.896,
+  "end": 837.918,
+  "speaker": "Unknown",
+  "en": "But it kind of is the full explanation of what's happening in the world.",
+  "zh": "但它某种程度上是对世界上正在发生的事情的完整解释。"
+ },
+ {
+  "seg": 143,
+  "start": 838.718,
+  "end": 840.96,
+  "speaker": "Unknown",
+  "en": "So then the agent makes actions on the world.",
+  "zh": "所以然后智能体对世界做出行动。"
+ },
+ {
+  "seg": 144,
+  "start": 841.26,
+  "end": 848.485,
+  "speaker": "Unknown",
+  "en": "And then because the action changes the world, that means the action will cause the state to change or transition sometimes somehow inside the world.",
+  "zh": "然后因为行动改变了世界，这意味着行动将导致状态改变或者有时以某种方式在世界内部转换。"
+ },
+ {
+  "seg": 145,
+  "start": 849.205,
+  "end": 851.927,
+  "speaker": "Unknown",
+  "en": "But now the state is so big, like it's something very complicated.",
+  "zh": "但现在状态太大了，像它是某种非常复杂的东西。"
+ },
+ {
+  "seg": 146,
+  "start": 851.947,
+  "end": 853.788,
+  "speaker": "Unknown",
+  "en": "Maybe it's, you know, you can't directly observe it.",
+  "zh": "也许它，你知道，你不能直接观察它。"
+ },
+ {
+  "seg": 147,
+  "start": 854.209,
+  "end": 856.25,
+  "speaker": "Unknown",
+  "en": "So then what the agent gets back are observations.",
+  "zh": "所以然后智能体得到的是观察。"
+ },
+ {
+  "seg": 148,
+  "start": 856.69,
+  "end": 858.312,
+  "speaker": "Unknown",
+  "en": "And then observations are somehow...",
+  "zh": "然后观察是某种..."
+ },
+ {
+  "seg": 149,
+  "start": 859.052,
+  "end": 861.694,
+  "speaker": "Unknown",
+  "en": "Some kind of low-dimensional projection of the full world state.",
+  "zh": "完整世界状态的某种低维投影。"
+ },
+ {
+  "seg": 150,
+  "start": 862.075,
+  "end": 864.357,
+  "speaker": "Unknown",
+  "en": "And again, what that means is different in different contexts.",
+  "zh": "再次，这意味着在不同的语境下是不同的。"
+ },
+ {
+  "seg": 151,
+  "start": 864.717,
+  "end": 873.084,
+  "speaker": "Unknown",
+  "en": "Maybe as a human, the observations we get are the images that we see in our eyes, the sounds that come into our ears, the feelings of touch that we feel on our bodies.",
+  "zh": "也许作为人类，我们得到的观察是我们眼睛里看到的图像，进入我们耳朵的声音，我们在身体上感觉到的触觉。"
+ },
+ {
+  "seg": 152,
+  "start": 873.585,
+  "end": 875.687,
+  "speaker": "Unknown",
+  "en": "Those are all the sensory signals that we get.",
+  "zh": "这些都是我们得到的所有感官信号。"
+ },
+ {
+  "seg": 153,
+  "start": 875.987,
+  "end": 882.613,
+  "speaker": "Unknown",
+  "en": "And those sensory signals tell us something about the world, but they only tell us something very sparse and local about everything that's happening in the world around us.",
+  "zh": "这些感官信号告诉我们关于世界的一些事情，但它们只是非常稀疏和局部地告诉我们周围世界中发生的一切。"
+ },
+ {
+  "seg": 154,
+  "start": 883.233,
+  "end": 889.614,
+  "speaker": "Unknown",
+  "en": "So then the PoMDP loop is that, you know, you have an agent does actions to the world that causes the state to transition.",
+  "zh": "那么 PoMDP 循环就是，你有一个智能体对世界做动作，导致状态转移。"
+ },
+ {
+  "seg": 155,
+  "start": 889.894,
+  "end": 894.335,
+  "speaker": "Unknown",
+  "en": "Then based on the state, the agent gets an observation that tells it something about the world.",
+  "zh": "然后基于状态，智能体得到一个观察，告诉它关于世界的一些事情。"
+ },
+ {
+  "seg": 156,
+  "start": 894.675,
+  "end": 899.496,
+  "speaker": "Unknown",
+  "en": "And then the agent is going to this is going to happen in a loop over and over again as the agent tries to do things in the world.",
+  "zh": "然后智能体将……这将在一个循环中一次又一次地发生，随着智能体试图在世界中做事。"
+ },
+ {
+  "seg": 157,
+  "start": 899.776,
+  "end": 905.617,
+  "speaker": "Unknown",
+  "en": "That sounds a lot like the setting for reinforcement learning, the agents operating in the world.",
+  "zh": "这听起来很像强化学习的设置，那些在世界中操作的智能体。"
+ },
+ {
+  "seg": 158,
+  "start": 906.897,
+  "end": 908.117,
+  "speaker": "Unknown",
+  "en": "It's making observations.",
+  "zh": "它正在做观察。"
+ },
+ {
+  "seg": 159,
+  "start": 908.137,
+  "end": 910.718,
+  "speaker": "Unknown",
+  "en": "There's some reward associated with its actions, etc.",
+  "zh": "有一些与它的动作相关联的奖励，等等。"
+ },
+ {
+  "seg": 160,
+  "start": 913.794,
+  "end": 923.563,
+  "speaker": "Unknown",
+  "en": "Is the implication then that you need a reinforcement learning type setup in order to have a robust world model?",
+  "zh": "那么这是否意味着你需要一个强化学习类型的设置来拥有一个稳健的世界模型？"
+ },
+ {
+  "seg": 161,
+  "start": 923.623,
+  "end": 927.547,
+  "speaker": "Unknown",
+  "en": "Or what's like the concrete relationship between POMDPs and world models?",
+  "zh": "或者说 POMDP 和世界模型之间具体的联系是什么？"
+ },
+ {
+  "seg": 162,
+  "start": 927.867,
+  "end": 928.528,
+  "speaker": "Unknown",
+  "en": "You got me there.",
+  "zh": "你问倒我了。"
+ },
+ {
+  "seg": 163,
+  "start": 928.588,
+  "end": 932.432,
+  "speaker": "Unknown",
+  "en": "So like the important, you know, technical piece that I left out of the initial definition was the reward.",
+  "zh": "所以就像那个重要的，我在初始定义中漏掉的技术部分是奖励。"
+ },
+ {
+  "seg": 164,
+  "start": 933.272,
+  "end": 938.337,
+  "speaker": "Unknown",
+  "en": "So this whole formalism was developed in the context of reinforcement learning.",
+  "zh": "所以这整个形式主义是在强化学习的背景下发展出来的。"
+ },
+ {
+  "seg": 165,
+  "start": 938.958,
+  "end": 945.484,
+  "speaker": "Unknown",
+  "en": "And there, it's like, well, the agent has some goal that they're trying to achieve, and how do they get signal about whether they're achieving the goal or not?",
+  "zh": "在那里，就像，嗯，智能体有一些他们试图实现的目标，他们如何获得关于他们是否正在实现目标的信号？"
+ },
+ {
+  "seg": 166,
+  "start": 945.784,
+  "end": 946.945,
+  "speaker": "Unknown",
+  "en": "And they get some reward signal.",
+  "zh": "然后他们得到一些奖励信号。"
+ },
+ {
+  "seg": 167,
+  "start": 947.366,
+  "end": 951.93,
+  "speaker": "Unknown",
+  "en": "So then the idea is like, well, the agent wants to try to take actions that will maximize its reward.",
+  "zh": "所以这个想法是，嗯，智能体想要尝试采取能最大化其奖励的动作。"
+ },
+ {
+  "seg": 168,
+  "start": 952.431,
+  "end": 955.394,
+  "speaker": "Unknown",
+  "en": "And once you go to that level, that's exactly the reinforcement learning setup.",
+  "zh": "一旦你到了那个层面，这正是强化学习的设置。"
+ },
+ {
+  "seg": 169,
+  "start": 956.662,
+  "end": 958.683,
+  "speaker": "Unknown",
+  "en": "And, you know, that's where this formalism comes from.",
+  "zh": "而且，你知道，这就是这个形式主义的来源。"
+ },
+ {
+  "seg": 170,
+  "start": 959.343,
+  "end": 967.745,
+  "speaker": "Unknown",
+  "en": "But the reason I chose not to talk about the reward a moment ago is because I think we can take that original abstraction of the PoMDP and then pull it out and use it in other contexts.",
+  "zh": "但我刚才选择不谈论奖励的原因是因为我认为我们可以采用 PoMDP 的原始抽象，然后把它提取出来并在其他语境中使用。"
+ },
+ {
+  "seg": 171,
+  "start": 968.245,
+  "end": 977.347,
+  "speaker": "Unknown",
+  "en": "So I think this notion about thinking about agents and states and observations, that becomes applicable and useful in a lot of other contexts, even outside of reinforcement learning specifically.",
+  "zh": "所以我认为这种关于思考智能体、状态和观察的概念，变得在很多其他语境中适用和有用，甚至在强化学习之外也是。"
+ },
+ {
+  "seg": 172,
+  "start": 977.967,
+  "end": 985.349,
+  "speaker": "Unknown",
+  "en": "And reinforcement learning is maybe one setting in which this formalism was originally developed and is super useful, but we can apply it elsewhere as well nowadays.",
+  "zh": "强化学习可能是这个形式主义最初发展出来的并且非常有用的一个设置，但如今我们也可以将其应用在其他地方。"
+ },
+ {
+  "seg": 173,
+  "start": 985.773,
+  "end": 989.616,
+  "speaker": "Unknown",
+  "en": "Give us an example of how it's applied out of that context.",
+  "zh": "给我们举一个它在该语境之外如何应用的例子。"
+ },
+ {
+  "seg": 174,
+  "start": 989.977,
+  "end": 994.581,
+  "speaker": "Unknown",
+  "en": "So one example, one like pretty concrete example might be behavior cloning and robotics, right?",
+  "zh": "所以一个例子，一个相当具体的例子可能是行为克隆和机器人技术，对吧？"
+ },
+ {
+  "seg": 175,
+  "start": 994.621,
+  "end": 1004.23,
+  "speaker": "Unknown",
+  "en": "So like say you're building a robot and your goal at the end of the day is I want to build this robot that's going to go around the world and do stuff and maybe make my bed for me or clean the kitchen or whatever it is.",
+  "zh": "所以比如说你在造一个机器人，你最终的目标是我想造这个机器人，它会到处跑并做事，也许帮我铺床或打扫厨房或其他什么。"
+ },
+ {
+  "seg": 176,
+  "start": 1004.71,
+  "end": 1007.413,
+  "speaker": "Unknown",
+  "en": "Then once that robot is out there, it's an agent.",
+  "zh": "那么一旦那个机器人出来了，它就是一个智能体。"
+ },
+ {
+  "seg": 177,
+  "start": 1007.773,
+  "end": 1008.815,
+  "speaker": "Unknown",
+  "en": "It's interacting in a world.",
+  "zh": "它在一个世界里互动。"
+ },
+ {
+  "seg": 178,
+  "start": 1009.035,
+  "end": 1009.836,
+  "speaker": "Unknown",
+  "en": "The world has state.",
+  "zh": "世界有状态。"
+ },
+ {
+  "seg": 179,
+  "start": 1010.056,
+  "end": 1011.898,
+  "speaker": "Unknown",
+  "en": "The robot is getting observations about the world.",
+  "zh": "机器人正在获得关于世界的观察。"
+ },
+ {
+  "seg": 180,
+  "start": 1012.218,
+  "end": 1015.702,
+  "speaker": "Unknown",
+  "en": "So it's kind of operating on that PoMDP loop once it's trained.",
+  "zh": "所以一旦它受过训练，它就在那种 PoMDP 循环上运作。"
+ },
+ {
+  "seg": 181,
+  "start": 1016.123,
+  "end": 1019.506,
+  "speaker": "Unknown",
+  "en": "But there's a question of like, what was the training signal?",
+  "zh": "但有一个问题是，训练信号是什么？"
+ },
+ {
+  "seg": 182,
+  "start": 1019.647,
+  "end": 1022.39,
+  "speaker": "Unknown",
+  "en": "And you could have had that thing trained via reinforcement learning.",
+  "zh": "你可能已经通过强化学习训练了那个东西。"
+ },
+ {
+  "seg": 183,
+  "start": 1022.79,
+  "end": 1044.64,
+  "speaker": "Unknown",
+  "en": "where like every time it got a reward like every time it took an action it got a reward or you could train it via behavior cloning right like maybe i had a large supervised data set of like in the in this data set when you receive this observation you should take this action um and then you could train a supervised learning model that would be very different that wouldn't have an explicit reward signal you would use like gradient descent and some supervised loss",
+  "zh": "就像每次它得到奖励，就像每次它采取一个动作它就得到一个奖励，或者你可以通过行为克隆训练它，对吧，就像也许我有一个大型监督数据集，就像在这个数据集中，当你收到这个观察时你应该采取这个动作，嗯，然后你可以训练一个监督学习模型，那会是非常不同的，它不会有明确的奖励信号，你会使用像梯度下降和一些监督损失。"
+ },
+ {
+  "seg": 184,
+  "start": 1045.2,
+  "end": 1054.186,
+  "speaker": "Unknown",
+  "en": "So you then, even though you end up with a system at the end of the day that kind of operates in this PoMDP-like loop, you could have had a training objective that was peer supervised learning that didn't require reinforcement learning.",
+  "zh": "所以你最终，尽管最终会得到一个在这个类 PoMDP 循环中运作的系统，你可能有了一个 peer supervised learning 的训练目标，不需要强化学习。"
+ },
+ {
+  "seg": 185,
+  "start": 1054.478,
+  "end": 1061.321,
+  "speaker": "Unknown",
+  "en": "So the summary is that there's two parts of this, two parts of POMDP.",
+  "zh": "所以总结是这有两部分，POMDP 的两部分。"
+ },
+ {
+  "seg": 186,
+  "start": 1061.921,
+  "end": 1075.246,
+  "speaker": "Unknown",
+  "en": "One kind of captures the relationship between an agent and the world and the idea that the agent, you know, can observe things that reflect some abstract state, but it can never really know that abstract state.",
+  "zh": "一种捕捉了智能体和世界之间的关系，以及智能体，你知道，可以观察反映某种抽象状态的事物，但它永远无法真正知道那个抽象状态的想法。"
+ },
+ {
+  "seg": 187,
+  "start": 1075.486,
+  "end": 1076.287,
+  "speaker": "Unknown",
+  "en": "And it needs to",
+  "zh": "它需要……"
+ },
+ {
+  "seg": 188,
+  "start": 1077.647,
+  "end": 1078.508,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "感谢观看。"
+ },
+ {
+  "seg": 189,
+  "start": 1098.683,
+  "end": 1103.247,
+  "speaker": "Unknown",
+  "en": "And then the reason why this is connected to world modeling is because this is where the term originally comes from, right?",
+  "zh": "然后这与世界建模相连的原因是因为这个词最初就是从那里来的，对吧？"
+ },
+ {
+  "seg": 190,
+  "start": 1103.287,
+  "end": 1116.598,
+  "speaker": "Unknown",
+  "en": "Like the kind of original technical definition of a world model is then, you know, if we're in this PoMDP setting, then a world model is something that inputs the world state, inputs the action the agent takes, and then predicts what's the next world state.",
+  "zh": "就像世界模型的那种原始技术定义是，如果我们处于这个 PoMDP 设置中，那么世界模型就是输入世界状态，输入智能体采取的动作，然后预测下一个世界状态是什么的东西。"
+ },
+ {
+  "seg": 191,
+  "start": 1117.039,
+  "end": 1122.203,
+  "speaker": "Unknown",
+  "en": "So then it like, that's the kind of the original technical setting where the term world model was used.",
+  "zh": "所以它就像，这就是那个使用了世界模型这个术语的原始技术设置。"
+ },
+ {
+  "seg": 192,
+  "start": 1122.363,
+  "end": 1135.156,
+  "speaker": "Unknown",
+  "en": "And I don't know how, you know, with that in mind that, you know, this is, you know, in a sense, kind of, you know, broader context or, you know, of historical interest and not necessarily about where we're going with world models today.",
+  "zh": "我不知道，考虑到这一点，这在某种意义上是更广泛的背景或历史兴趣，不一定关于我们今天世界模型的发展方向。"
+ },
+ {
+  "seg": 193,
+  "start": 1135.236,
+  "end": 1138.399,
+  "speaker": "Unknown",
+  "en": "But I did have a question about state.",
+  "zh": "但我确实有一个关于状态的问题。"
+ },
+ {
+  "seg": 194,
+  "start": 1138.439,
+  "end": 1139.46,
+  "speaker": "Unknown",
+  "en": "A lot of times we hear.",
+  "zh": "很多时候我们听到。"
+ },
+ {
+  "seg": 195,
+  "start": 1140.481,
+  "end": 1151.227,
+  "speaker": "Unknown",
+  "en": "State talked about as a representation of, almost like the observation is to the state in kind of this formalism of POMDP.",
+  "zh": "状态被谈论为一种表征，几乎就像观察相对于状态在 POMDP 的这种形式主义中。"
+ },
+ {
+  "seg": 196,
+  "start": 1155.149,
+  "end": 1163.174,
+  "speaker": "Unknown",
+  "en": "Often state is some lower dimensional representation of some other thing that is the ground truth.",
+  "zh": "通常状态是作为基本事实的某种其他东西的较低维度的表征。"
+ },
+ {
+  "seg": 197,
+  "start": 1166.229,
+  "end": 1169.512,
+  "speaker": "Unknown",
+  "en": "Is that a distinction that is, you know, useful for us to explore, do you think?",
+  "zh": "你认为这种区别对我们来说有用去探索吗？"
+ },
+ {
+  "seg": 198,
+  "start": 1169.652,
+  "end": 1170.453,
+  "speaker": "Unknown",
+  "en": "Maybe a little bit.",
+  "zh": "可能有一点。"
+ },
+ {
+  "seg": 199,
+  "start": 1170.773,
+  "end": 1175.817,
+  "speaker": "Unknown",
+  "en": "I think, you know, there's actually maybe two different notions of state that people talk about sometimes that are getting conflated.",
+  "zh": "我认为，实际上可能有两种不同的状态概念，人们有时在谈论它们，它们被混淆了。"
+ },
+ {
+  "seg": 200,
+  "start": 1175.837,
+  "end": 1177.919,
+  "speaker": "Unknown",
+  "en": "So that might be useful to try to unpack.",
+  "zh": "所以试着去拆解一下这可能是有用的。"
+ },
+ {
+  "seg": 201,
+  "start": 1178.42,
+  "end": 1183.264,
+  "speaker": "Unknown",
+  "en": "One is the notion, like, I think in my mind, when I say state, I'm thinking about sort of the ground true state of the world.",
+  "zh": "一个是那个概念，就像，我觉得在我的脑海中，当我说状态时，我是在思考某种世界的基准真实状态。"
+ },
+ {
+  "seg": 202,
+  "start": 1183.624,
+  "end": 1188.348,
+  "speaker": "Unknown",
+  "en": "That's like the complete description of everything in the world that would be required to answer any question about it.",
+  "zh": "这就像是世界上所有事物的完整描述，这是回答关于它的任何问题所必需的。"
+ },
+ {
+  "seg": 203,
+  "start": 1188.428,
+  "end": 1193.55,
+  "speaker": "Unknown",
+  "en": "This is a another way to come at it or a question that popped up for me earlier that I'll surface now.",
+  "zh": "这是切入它的另一种方式，或者是一个我早些时候想到的问题，我现在会把它提出来。"
+ },
+ {
+  "seg": 204,
+  "start": 1194.171,
+  "end": 1200.514,
+  "speaker": "Unknown",
+  "en": "You know, when you were talking about about state earlier in the context of the loop, I was thinking like.",
+  "zh": "你知道，当你们之前在循环的上下文中谈论状态时，我就在想。"
+ },
+ {
+  "seg": 205,
+  "start": 1202.07,
+  "end": 1210.155,
+  "speaker": "Unknown",
+  "en": "An extreme example of the relationship between state and observation is like you're sitting at a traffic light.",
+  "zh": "状态和观测之间关系的一个极端例子就像是你坐在红绿灯前。"
+ },
+ {
+  "seg": 206,
+  "start": 1210.195,
+  "end": 1217.759,
+  "speaker": "Unknown",
+  "en": "The observation can be boiled down into like a one-dimensional, you know, red, green, you know, red, green, yellow, or two-dimensional, whatever.",
+  "zh": "观测可以被浓缩为一个一维的，你知道，红、绿，你知道，红、绿、黄，或者二维的，不管是什么。"
+ },
+ {
+  "seg": 207,
+  "start": 1220.937,
+  "end": 1234.38,
+  "speaker": "Unknown",
+  "en": "Uh, the, um, you know, whereas the, the, the state and by the definition of the POMDP is like, you know, every atom in the world.",
+  "zh": "呃，那个，嗯，你知道，而那个，那个，那个状态，根据 POMDP 的定义，就像，你知道，世界上的每一个原子。"
+ },
+ {
+  "seg": 208,
+  "start": 1235.38,
+  "end": 1246.922,
+  "speaker": "Unknown",
+  "en": "And my question is really when you're talking about world models, does it necessarily, does the state necessarily consist of every atom in the world or is it, um,",
+  "zh": "而我的问题实际上是，当你们谈论世界模型时，它必然地，状态是否必然由世界上的每一个原子组成，还是它，嗯，"
+ },
+ {
+  "seg": 209,
+  "start": 1249.776,
+  "end": 1251.022,
+  "speaker": "Unknown",
+  "en": "Is it just a representation?",
+  "zh": "它仅仅是一种表示吗？"
+ },
+ {
+  "seg": 210,
+  "start": 1251.142,
+  "end": 1253.072,
+  "speaker": "Unknown",
+  "en": "And maybe that's another way of coming at this question.",
+  "zh": "也许那是切入这个问题的另一种方式。"
+ },
+ {
+  "seg": 211,
+  "start": 1253.617,
+  "end": 1254.117,
+  "speaker": "Unknown",
+  "en": "I think so.",
+  "zh": "我认为是这样。"
+ },
+ {
+  "seg": 212,
+  "start": 1254.157,
+  "end": 1258.461,
+  "speaker": "Unknown",
+  "en": "So I think it's all about the question of like, what's the abstraction that makes sense for the problem at hand, right?",
+  "zh": "所以我认为这全都取决于类似这样的问题，对于当前的问题来说，什么是有意义的抽象，对吧？"
+ },
+ {
+  "seg": 213,
+  "start": 1258.501,
+  "end": 1263.184,
+  "speaker": "Unknown",
+  "en": "And like, even physicists will use different representations depending on the question you're asking, right?",
+  "zh": "而且，就像，即使是物理学家也会根据你问的问题使用不同的表示，对吧？"
+ },
+ {
+  "seg": 214,
+  "start": 1263.224,
+  "end": 1267.328,
+  "speaker": "Unknown",
+  "en": "Like for some problems, I want the wave function of this quantum system.",
+  "zh": "就像对于某些问题，我想要这个量子系统的波函数。"
+ },
+ {
+  "seg": 215,
+  "start": 1267.348,
+  "end": 1269.149,
+  "speaker": "Unknown",
+  "en": "And that's kind of the best version of a state.",
+  "zh": "那是一种状态的最佳版本。"
+ },
+ {
+  "seg": 216,
+  "start": 1269.529,
+  "end": 1272.872,
+  "speaker": "Unknown",
+  "en": "For other systems, maybe it's macroscopic and quantum effects don't come into play.",
+  "zh": "对于其他系统，也许它是宏观的，量子效应不起作用。"
+ },
+ {
+  "seg": 217,
+  "start": 1272.932,
+  "end": 1274.693,
+  "speaker": "Unknown",
+  "en": "And then you could think of it as a Newtonian system.",
+  "zh": "然后你可以把它看作是一个牛顿系统。"
+ },
+ {
+  "seg": 218,
+  "start": 1274.994,
+  "end": 1277.135,
+  "speaker": "Unknown",
+  "en": "And the state is now this collection of particles.",
+  "zh": "而状态现在就是这个粒子的集合。"
+ },
+ {
+  "seg": 219,
+  "start": 1277.155,
+  "end": 1280.238,
+  "speaker": "Unknown",
+  "en": "What are their masses and what are their positions and momentums?",
+  "zh": "它们的质量是什么，它们的位置和动量是什么？"
+ },
+ {
+  "seg": 220,
+  "start": 1281.018,
+  "end": 1286.803,
+  "speaker": "Unknown",
+  "en": "Or maybe you're talking about like a chemical system and then maybe it's just like these solutions with these ions in this concentration.",
+  "zh": "或者也许你在谈论一个化学系统，然后也许它就像这些具有这些离子浓度的溶液。"
+ },
+ {
+  "seg": 221,
+  "start": 1286.823,
+  "end": 1294.01,
+  "speaker": "Unknown",
+  "en": "Or maybe you're talking about thermodynamical system and you think like, you know, it's an idealized gas and that's enough to describe the state of the system.",
+  "zh": "或者也许你在谈论热力学系统，你想像，你知道，它是一种理想气体，这就足以描述系统的状态。"
+ },
+ {
+  "seg": 222,
+  "start": 1294.09,
+  "end": 1295.771,
+  "speaker": "Unknown",
+  "en": "But it's never every atom in the world.",
+  "zh": "但它从来不是世界上的每一个原子。"
+ },
+ {
+  "seg": 223,
+  "start": 1296.172,
+  "end": 1296.632,
+  "speaker": "Unknown",
+  "en": "No, no.",
+  "zh": "不，不。"
+ },
+ {
+  "seg": 224,
+  "start": 1296.792,
+  "end": 1305.14,
+  "speaker": "Unknown",
+  "en": "I think it's always, I think even if we're talking about like ground truth state, it's always like relative to the abstraction, like the abstraction that's necessary for solving the problems you care about.",
+  "zh": "我认为它总是，我认为即使我们在谈论基准真实状态，它也总是相对于抽象而言的，就像那个解决你关心的问题所必需的抽象。"
+ },
+ {
+  "seg": 225,
+  "start": 1306.381,
+  "end": 1308.744,
+  "speaker": "Unknown",
+  "en": "But I think there is another notion, which is a learned state.",
+  "zh": "但我认为有另一个概念，那就是学习到的状态。"
+ },
+ {
+  "seg": 226,
+  "start": 1309.084,
+  "end": 1317.093,
+  "speaker": "Unknown",
+  "en": "And that's another interesting thing that people are now talking about is that, you know, the ground truth state, like we're probably not going to have direct access to in the physical world, right?",
+  "zh": "而那是人们现在谈论的另一个有趣的事情，就是，你知道，那个基准真实状态，比如我们在物理世界中可能无法直接访问，对吧？"
+ },
+ {
+  "seg": 227,
+  "start": 1317.113,
+  "end": 1324.122,
+  "speaker": "Unknown",
+  "en": "Like, even if we think about like every atom or like, you know, an idealized gas, like in a lot of situations, you're just not going to observe that in the world.",
+  "zh": "就像，即使我们考虑每一个原子或者，你知道，一种理想气体，就像在很多情况下，你只是无法在世界中观察到那个。"
+ },
+ {
+  "seg": 228,
+  "start": 1324.582,
+  "end": 1332.428,
+  "speaker": "Unknown",
+  "en": "So instead, there's another question of could I have a model which I learn, which is going to learn to take observations and predict some kind of neural vector.",
+  "zh": "所以相反，有另一个问题，就是我能否拥有一个我学习到的模型，它将学习获取观测并预测某种神经向量。"
+ },
+ {
+  "seg": 229,
+  "start": 1332.828,
+  "end": 1344.356,
+  "speaker": "Unknown",
+  "en": "And that learned vector, even though it's something learned by the model, it behaves as if it were a ground truth state where I can predict observations that would result from that state.",
+  "zh": "而那个学习到的向量，即使它是模型学习到的东西，它的行为就好像它是一个基准真实状态，我可以在其中预测由该状态产生的观测。"
+ },
+ {
+  "seg": 230,
+  "start": 1344.716,
+  "end": 1347.598,
+  "speaker": "Unknown",
+  "en": "I can imagine how that state would transition in response to actions.",
+  "zh": "我可以想像那个状态将如何响应动作而转换。"
+ },
+ {
+  "seg": 231,
+  "start": 1347.959,
+  "end": 1352.782,
+  "speaker": "Unknown",
+  "en": "But it's kind of a learned internal vector representation from a neural network.",
+  "zh": "但它某种程度是来自神经网络的、学习到的内部向量表示。"
+ },
+ {
+  "seg": 232,
+  "start": 1353.022,
+  "end": 1357.226,
+  "speaker": "Unknown",
+  "en": "And it's not like a ground truth state from physics, but it kind of behaves like that ground truth state.",
+  "zh": "它不像来自物理学的基准真实状态，但它的行为有点像那个基准真实状态。"
+ },
+ {
+  "seg": 233,
+  "start": 1357.626,
+  "end": 1361.89,
+  "speaker": "Unknown",
+  "en": "Is that analogous to the idea of model-based and model-free RL?",
+  "zh": "这是否类似于基于模型和免模型 RL 的想法？"
+ },
+ {
+  "seg": 234,
+  "start": 1362.17,
+  "end": 1362.99,
+  "speaker": "Unknown",
+  "en": "A little bit, yeah.",
+  "zh": "有一点，是的。"
+ },
+ {
+  "seg": 235,
+  "start": 1363.051,
+  "end": 1369.316,
+  "speaker": "Unknown",
+  "en": "So if you're doing model-based RL, then you have some explicit model of the state, and that's where you have a world model, right?",
+  "zh": "所以如果你在做基于模型的 RL，那么你有某种关于状态的显式模型，那就是你拥有世界模型的地方，对吧？"
+ },
+ {
+  "seg": 236,
+  "start": 1369.676,
+  "end": 1377.643,
+  "speaker": "Unknown",
+  "en": "So then I have an explicit part of my RL system that, in a model-based approach, I have a component that tries to predict the next state based on the current state in the action.",
+  "zh": "所以那么我的 RL 系统有一个显式部分，在基于模型的方法中，我有一个组件试图基于当前状态在动作中预测下一个状态。"
+ },
+ {
+  "seg": 237,
+  "start": 1378.223,
+  "end": 1381.066,
+  "speaker": "Unknown",
+  "en": "Or in a model-free approach, then I don't have that explicit notion.",
+  "zh": "或者在免模型方法中，我就没有那个显式的概念。"
+ },
+ {
+  "seg": 238,
+  "start": 1381.146,
+  "end": 1385.691,
+  "speaker": "Unknown",
+  "en": "Maybe I'm just getting the observations, feeding the observations directly to the model, and it outputs actions.",
+  "zh": "也许我只是获取观测，直接把观测喂给模型，它输出动作。"
+ },
+ {
+  "seg": 239,
+  "start": 1386.191,
+  "end": 1388.233,
+  "speaker": "Unknown",
+  "en": "And there's no explicit modeling of state.",
+  "zh": "而且没有对状态的显式建模。"
+ },
+ {
+  "seg": 240,
+  "start": 1388.614,
+  "end": 1400.686,
+  "speaker": "Unknown",
+  "en": "But maybe then, going back to implicit world models that we talked about before, maybe that neural network, if it's big and complicated enough, is doing something like state modeling inside its neural network weights, if it's able to predict really good actions in the right circumstances.",
+  "zh": "但也许那样的话，回到我们之前谈到的隐式世界模型，也许那个神经网络，如果它足够大和复杂，正在其神经网络权重内部做类似状态建模的事情，如果它能够在正确的情况下预测出非常好的动作。"
+ },
+ {
+  "seg": 241,
+  "start": 1401.046,
+  "end": 1405.79,
+  "speaker": "Unknown",
+  "en": "I think what we're doing here is illustrating the ambiguity of the term state.",
+  "zh": "我认为我们在这里做的是说明“状态”这个术语的模糊性。"
+ },
+ {
+  "seg": 242,
+  "start": 1406.09,
+  "end": 1426.288,
+  "speaker": "Unknown",
+  "en": "It can either be, you know, whatever the, the representation or abstraction of the world is, or in some settings it could be a surrogate for that, that the agent creates and predicts and predicts against in choosing actions.",
+  "zh": "它可以是，你知道，无论世界的表示或抽象是什么，或者在某些设置中它可能是那个的替代品，即智能体创建并在选择动作时预测和据此预测的东西。"
+ },
+ {
+  "seg": 243,
+  "start": 1426.588,
+  "end": 1429.19,
+  "speaker": "Unknown",
+  "en": "And I think the jury's still out on which of these is going to be the right approach.",
+  "zh": "而且我认为其中哪一种将是正确的方法，目前尚无定论。"
+ },
+ {
+  "seg": 244,
+  "start": 1429.37,
+  "end": 1430.671,
+  "speaker": "Unknown",
+  "en": "But that's exciting, right?",
+  "zh": "但这很令人兴奋，对吧？"
+ },
+ {
+  "seg": 245,
+  "start": 1431.051,
+  "end": 1440.517,
+  "speaker": "Unknown",
+  "en": "And that's one of the reasons why I think a lot of people are attracted to this area right now, is that language modeling feels like we kind of have a set of best practices that work pretty well.",
+  "zh": "这就是我认为现在很多人被这个领域吸引的原因之一，就是语言建模感觉我们要么有了一套效果很好的最佳实践。"
+ },
+ {
+  "seg": 246,
+  "start": 1440.617,
+  "end": 1444.86,
+  "speaker": "Unknown",
+  "en": "And there's things to be explored, but there's a recipe that we have that works pretty well.",
+  "zh": "还有待探索的事情，但我们有一个效果很好的配方。"
+ },
+ {
+  "seg": 247,
+  "start": 1445.32,
+  "end": 1447.703,
+  "speaker": "Unknown",
+  "en": "But if you want to talk about like, how do we build agents?",
+  "zh": "但如果你想谈论像，我们要如何构建智能体？"
+ },
+ {
+  "seg": 248,
+  "start": 1447.723,
+  "end": 1448.844,
+  "speaker": "Unknown",
+  "en": "How do we model environments?",
+  "zh": "我们如何建模环境？"
+ },
+ {
+  "seg": 249,
+  "start": 1448.884,
+  "end": 1449.885,
+  "speaker": "Unknown",
+  "en": "How do we model worlds?",
+  "zh": "我们如何建模世界？"
+ },
+ {
+  "seg": 250,
+  "start": 1449.925,
+  "end": 1452.347,
+  "speaker": "Unknown",
+  "en": "How do we model agents that interact with worlds?",
+  "zh": "我们如何为与世界互动的智能体建模？"
+ },
+ {
+  "seg": 251,
+  "start": 1452.647,
+  "end": 1459.874,
+  "speaker": "Unknown",
+  "en": "There's a lot of kind of basic, you know, technical questions or like basic engineering approaches that, you know, you could do it this way, you could do it that way.",
+  "zh": "有很多种，你知道，基础的技术问题，或者像基础工程方法，你知道，你可以这样做，你可以那样做。"
+ },
+ {
+  "seg": 252,
+  "start": 1459.914,
+  "end": 1461.616,
+  "speaker": "Unknown",
+  "en": "And we don't really know what's going to be the best way.",
+  "zh": "而我们真的不知道哪种方式会是最好的。"
+ },
+ {
+  "seg": 253,
+  "start": 1461.896,
+  "end": 1464.098,
+  "speaker": "Unknown",
+  "en": "And that's a really exciting place to be working in and doing research.",
+  "zh": "这真的是一个令人兴奋的工作和做研究的领域。"
+ },
+ {
+  "seg": 254,
+  "start": 1464.418,
+  "end": 1470.103,
+  "speaker": "Unknown",
+  "en": "So let's switch gears a little bit and talk a little bit about the graphical side of things.",
+  "zh": "所以让我们稍微转换一下话题，稍微谈谈事物的图形方面。"
+ },
+ {
+  "seg": 255,
+  "start": 1470.563,
+  "end": 1481.173,
+  "speaker": "Unknown",
+  "en": "As you mentioned, when we talk about world models, a lot of that conversation is focused on the generation of graphical worlds.",
+  "zh": "正如你提到的，当我们谈论世界模型时，很多对话集中在图形世界的生成上。"
+ },
+ {
+  "seg": 256,
+  "start": 1481.193,
+  "end": 1489.76,
+  "speaker": "Unknown",
+  "en": "And one of the kind of foundational technologies in that space is this idea of a Gaussian splat.",
+  "zh": "在那个领域的一种基础技术是高斯溅射这个概念。"
+ },
+ {
+  "seg": 257,
+  "start": 1490.581,
+  "end": 1491.722,
+  "speaker": "Unknown",
+  "en": "So talk a little bit about",
+  "zh": "所以稍微谈谈"
+ },
+ {
+  "seg": 258,
+  "start": 1492.864,
+  "end": 1504.487,
+  "speaker": "Unknown",
+  "en": "You know, maybe, you know, broadly the way folks approach, you know, this world generation and, you know, the role of Gaussian Splats, how that has evolved over the past few years as well.",
+  "zh": "你知道，也许，你知道，大概人们处理这个世界生成的方式，以及高斯溅射的角色，在过去几年里那又是如何演变的。"
+ },
+ {
+  "seg": 259,
+  "start": 1504.567,
+  "end": 1509.228,
+  "speaker": "Unknown",
+  "en": "I think there's actually a top level fork there that we should call out even before we get down that road.",
+  "zh": "我认为实际上那里有一个顶层的分支，我们在走那条路之前甚至应该指出来。"
+ },
+ {
+  "seg": 260,
+  "start": 1509.888,
+  "end": 1514.609,
+  "speaker": "Unknown",
+  "en": "And that's like, you know, are you doing explicit 3D or are you doing implicit 3D?",
+  "zh": "那就像是，你知道，你在做显式 3D 还是你在做隐式 3D？"
+ },
+ {
+  "seg": 261,
+  "start": 1516.13,
+  "end": 1525.4,
+  "speaker": "Unknown",
+  "en": "And the Gaussian splats are an example of an explicit 3D approach where when I generate my world or model my world, I'm going to have some explicit 3D representation of that world.",
+  "zh": "而高斯溅射是显式 3D 方法的一个例子，当我生成我的世界或为我的世界建模时，我将会有该世界的一些显式 3D 表现形式。"
+ },
+ {
+  "seg": 262,
+  "start": 1526.521,
+  "end": 1529.424,
+  "speaker": "Unknown",
+  "en": "And then I'm going to do things with that explicit 3D representation of the world.",
+  "zh": "然后我要用那个世界的显式 3D 表现形式来做事情。"
+ },
+ {
+  "seg": 263,
+  "start": 1529.544,
+  "end": 1531.946,
+  "speaker": "Unknown",
+  "en": "And one of those things might be render it down to pixels that you see.",
+  "zh": "而其中一件事可能是把它渲染成你看到的像素。"
+ },
+ {
+  "seg": 264,
+  "start": 1532.747,
+  "end": 1535.149,
+  "speaker": "Unknown",
+  "en": "There's a different approach, which is sort of implicit.",
+  "zh": "有一种不同的方法，是某种程度上的隐式方法。"
+ },
+ {
+  "seg": 265,
+  "start": 1535.209,
+  "end": 1537.932,
+  "speaker": "Unknown",
+  "en": "I'm going to have a model that's directly generating pixels.",
+  "zh": "我要有一个直接生成像素的模型。"
+ },
+ {
+  "seg": 266,
+  "start": 1538.392,
+  "end": 1547.18,
+  "speaker": "Unknown",
+  "en": "Like, it's a video model, it generates pixels, it generates observations directly, and it never goes through this intermediate explicit 3D representational bottleneck.",
+  "zh": "就像，它是一个视频模型，它生成像素，它直接生成观测，它从不经过这个中间的显式 3D 表现形式的瓶颈。"
+ },
+ {
+  "seg": 267,
+  "start": 1547.22,
+  "end": 1550.863,
+  "speaker": "Unknown",
+  "en": "And I think both angles have developed a lot over the last couple of years.",
+  "zh": "我认为这两个角度在过去几年里都发展了很多。"
+ },
+ {
+  "seg": 268,
+  "start": 1552.645,
+  "end": 1556.568,
+  "speaker": "Unknown",
+  "en": "So then, you know, that's an interesting fork in the road, even talking at that point.",
+  "zh": "所以，你知道，那是路上一个有趣的分支，甚至在那时谈论就是了。"
+ },
+ {
+  "seg": 269,
+  "start": 1556.828,
+  "end": 1557.209,
+  "speaker": "Unknown",
+  "en": "It is.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 270,
+  "start": 1557.429,
+  "end": 1566.736,
+  "speaker": "Unknown",
+  "en": "And do you, so WorldLabs, for example, takes the, well, is it even fair to say that you take the Gaussian splat approach?",
+  "zh": "那么你，所以 WorldLabs，比如说，采取了，嗯，说你们采取了高斯溅射方法甚至公平吗？"
+ },
+ {
+  "seg": 271,
+  "start": 1566.776,
+  "end": 1574.342,
+  "speaker": "Unknown",
+  "en": "Like in Marble and some of the work that you, you know, publish and demonstrate, you use that approach, but do you...",
+  "zh": "就像在 Marble 和你们，你知道，发布和展示的一些工作中，你们使用了那个方法，但是你们……"
+ },
+ {
+  "seg": 272,
+  "start": 1575.323,
+  "end": 1600.9,
+  "speaker": "Unknown",
+  "en": "feel that that is foundational or is it just kind of what you have you know shown thus far but you're open to other ideas well i think we've actually done both already right so it's true we we put out a product called marble um which takes the gaussian splatting approach and and there like what marble does is in lets a user input an image or a sequence of images or a text prompt and then generates a world where that world is represented as a set of gaussian splats",
+  "zh": "觉得那是基础性的，或者那只是你们目前为止展示的东西，但你们对其他想法持开放态度，嗯我认为其实我们已经两者都做过了，对吧，所以确实我们我们发布了一个名为 Marble 的产品，嗯，它采用了高斯溅射方法，然后那里就像 Marble 所做的那样，它让用户输入一张图像或一系列图像或一个文本提示，然后生成一个世界，那个世界表现为一组高斯溅射"
+ },
+ {
+  "seg": 273,
+  "start": 1601.721,
+  "end": 1603.383,
+  "speaker": "Unknown",
+  "en": "Which is an explicit 3D representation.",
+  "zh": "这是一种显式 3D 表现形式。"
+ },
+ {
+  "seg": 274,
+  "start": 1603.764,
+  "end": 1610.475,
+  "speaker": "Unknown",
+  "en": "And then once you have that Gaussian splat representation, then you can render it to view nice images of the world.",
+  "zh": "然后一旦你有了那个高斯溅射表现形式，你就可以渲染它来观看世界的精美图像。"
+ },
+ {
+  "seg": 275,
+  "start": 1610.836,
+  "end": 1614.922,
+  "speaker": "Unknown",
+  "en": "Or you could imagine compositing objects into it or export it to a graphics engine or something like this.",
+  "zh": "或者你可以想象把物体合成进去，或者把它导出到图形引擎，或者类似的东西。"
+ },
+ {
+  "seg": 276,
+  "start": 1616.206,
+  "end": 1624.513,
+  "speaker": "Unknown",
+  "en": "But then we put out a research blog post late last year called RTFM, which takes a very different approach called the real-time frame model.",
+  "zh": "但是我们在去年晚些时候发布了一篇研究博客文章叫 RTFM，它采用了一种非常不同的方法叫实时帧模型。"
+ },
+ {
+  "seg": 277,
+  "start": 1625.253,
+  "end": 1632.099,
+  "speaker": "Unknown",
+  "en": "And this contrasts with our Marble approach in that it kind of goes more this straight-to-video, pixels-only direction.",
+  "zh": "这与我们的 Marble 方法形成对比，在于它更多走向这种直接生成视频、仅包含像素的方向。"
+ },
+ {
+  "seg": 278,
+  "start": 1632.439,
+  "end": 1635.222,
+  "speaker": "Unknown",
+  "en": "There is no explicit representation of the 3D world.",
+  "zh": "没有 3D 世界的显式表现形式。"
+ },
+ {
+  "seg": 279,
+  "start": 1636.042,
+  "end": 1641.147,
+  "speaker": "Unknown",
+  "en": "You have a model running in real time that generates images in real time in response to user inputs.",
+  "zh": "你有一个模型在实时运行，实时生成图像以响应用户输入。"
+ },
+ {
+  "seg": 280,
+  "start": 1641.647,
+  "end": 1652.771,
+  "speaker": "Unknown",
+  "en": "So the user, you know, asks to move around, and if the user sees an image of the world moving, like you say move left, you see a video of yourself moving left, and this all happens in real time.",
+  "zh": "所以用户，你知道，要求四处移动，如果用户看到世界移动的图像，就像你说向左移，你看到你自己向左移动的视频，这一切都发生在实时中。"
+ },
+ {
+  "seg": 281,
+  "start": 1653.191,
+  "end": 1655.972,
+  "speaker": "Unknown",
+  "en": "But under the hood, there was no explicit 3D representation.",
+  "zh": "但在底层，没有显式 3D 表现形式。"
+ },
+ {
+  "seg": 282,
+  "start": 1656.092,
+  "end": 1658.533,
+  "speaker": "Unknown",
+  "en": "It's just frames being generated from a model in real time.",
+  "zh": "只是帧从模型中实时被生成。"
+ },
+ {
+  "seg": 283,
+  "start": 1659.113,
+  "end": 1662.054,
+  "speaker": "Unknown",
+  "en": "So WorldLabs actually has been approaching both directions.",
+  "zh": "所以 WorldLabs 实际上一直在这两个方向上探索。"
+ },
+ {
+  "seg": 284,
+  "start": 1662.174,
+  "end": 1670.037,
+  "speaker": "Unknown",
+  "en": "We have Marble, which is our explicit Gaussian splat-based world model, and RTFM we have as a more implicit real-time frame-generating world model.",
+  "zh": "我们有 Marble，那是我们要显式高斯溅射的世界模型，而 RTFM 我们作为一个更隐式的实时帧生成世界模型。"
+ },
+ {
+  "seg": 285,
+  "start": 1670.538,
+  "end": 1679.592,
+  "speaker": "Unknown",
+  "en": "You know, this raises a question for me that goes back to kind of our, you know, very foundational conversation about what is a world model.",
+  "zh": "你知道，这给我提出了一个问题，回到了我们，你知道，关于什么是世界模型的非常基础的对话。"
+ },
+ {
+  "seg": 286,
+  "start": 1683.558,
+  "end": 1684.76,
+  "speaker": "Unknown",
+  "en": "I'm thinking about, like,",
+  "zh": "我在想，就像，"
+ },
+ {
+  "seg": 287,
+  "start": 1686.442,
+  "end": 1699.329,
+  "speaker": "Unknown",
+  "en": "Meta's initial Gaussian splat, you know, work and demos and the tools that I think have popularized Gaussian splats before, you know, they became kind of foundational to this world model idea.",
+  "zh": "Meta 最初的高斯溅射，你知道，工作和演示，以及那些我认为在它们成为这个世界模型想法的基础之前就已经普及了高斯溅射的工具。"
+ },
+ {
+  "seg": 288,
+  "start": 1699.349,
+  "end": 1709.414,
+  "speaker": "Unknown",
+  "en": "You know, they allowed you to take a bunch of pictures and they would like stitch those pictures together using the term stitch very loosely to create",
+  "zh": "你知道，它们允许你拍一堆照片，它们会把这些照片缝合在一起，非常宽泛地使用缝合这个词，来创造"
+ },
+ {
+  "seg": 289,
+  "start": 1710.674,
+  "end": 1713.375,
+  "speaker": "Unknown",
+  "en": "A essentially a navigable 3D model.",
+  "zh": "一个本质上可导航的 3D 模型。"
+ },
+ {
+  "seg": 290,
+  "start": 1713.916,
+  "end": 1728.001,
+  "speaker": "Unknown",
+  "en": "And even, you know, prior to, I don't think it used Gaussian splats, but like Apple's ARKit and those kind of things produced like these modestly navigable 3D",
+  "zh": "而且甚至，你知道，在此之前，我不认为它使用了高斯溅射，但像 Apple 的 ARKit 和那些东西产生了这些适度可导航的 3D"
+ },
+ {
+  "seg": 291,
+  "start": 1731.42,
+  "end": 1739.764,
+  "speaker": "Unknown",
+  "en": "I'm trying not to call them worlds because the question is like, how do you draw the line between, you know, that thing and a world?",
+  "zh": "我试图不称它们为世界，因为问题是，你如何划清界限，你知道，那个东西和一个世界之间？"
+ },
+ {
+  "seg": 292,
+  "start": 1740.705,
+  "end": 1744.187,
+  "speaker": "Unknown",
+  "en": "I want to say like static versus dynamic, but that doesn't seem right.",
+  "zh": "我想说是静态与动态，但这似乎不对。"
+ },
+ {
+  "seg": 293,
+  "start": 1744.287,
+  "end": 1745.607,
+  "speaker": "Unknown",
+  "en": "No, I know what you mean.",
+  "zh": "不，我懂你的意思。"
+ },
+ {
+  "seg": 294,
+  "start": 1746.348,
+  "end": 1752.271,
+  "speaker": "Unknown",
+  "en": "There is a really interesting distinction here that I think a lot of people get confused about with Gaussian Splatting, with Gaussian Splatting in particular, right?",
+  "zh": "这里有一个非常有趣的区别，我认为很多人对高斯溅射感到困惑，特别是高斯溅射，对吧？"
+ },
+ {
+  "seg": 295,
+  "start": 1752.631,
+  "end": 1756.613,
+  "speaker": "Unknown",
+  "en": "Because a Gaussian Splat is actually just a particular, it's just a representation.",
+  "zh": "因为高斯溅射实际上只是一个特定的，它只是一个表现形式。"
+ },
+ {
+  "seg": 296,
+  "start": 1756.993,
+  "end": 1759.935,
+  "speaker": "Unknown",
+  "en": "Like a Gaussian Splat is just like, it's basically a 3D point cloud.",
+  "zh": "就像高斯溅射只是就像，它基本上是一个 3D 点云。"
+ },
+ {
+  "seg": 297,
+  "start": 1760.275,
+  "end": 1765.738,
+  "speaker": "Unknown",
+  "en": "I have a bunch of points in space, and each of those points has a position and a color and maybe a couple other properties attached to it.",
+  "zh": "我在空间中有一堆点，这些点中的每一个都有一个位置和一个颜色，可能还有一些附加的其他属性。"
+ },
+ {
+  "seg": 298,
+  "start": 1766.219,
+  "end": 1773.303,
+  "speaker": "Unknown",
+  "en": "And if your point cloud is large enough, you can move around in it from the perspective of a point.",
+  "zh": "如果你的点云足够大，你可以从点的角度在里面移动。"
+ },
+ {
+  "seg": 299,
+  "start": 1773.503,
+  "end": 1776.465,
+  "speaker": "Unknown",
+  "en": "But the interesting question is, where did that Gaussian splat point cloud come from?",
+  "zh": "但有趣的问题是，那个高斯溅射点云是从哪里来的？"
+ },
+ {
+  "seg": 300,
+  "start": 1776.805,
+  "end": 1780.447,
+  "speaker": "Unknown",
+  "en": "And there, there's two big divides that people get confused.",
+  "zh": "此外，人们经常对两个大的分歧点感到困惑。"
+ },
+ {
+  "seg": 301,
+  "start": 1780.808,
+  "end": 1785.991,
+  "speaker": "Unknown",
+  "en": "Because where Gaussian splatting originated as a technology is around reconstruction.",
+  "zh": "因为高斯泼溅作为一种技术的起源是围绕重建。"
+ },
+ {
+  "seg": 302,
+  "start": 1786.451,
+  "end": 1795.02,
+  "speaker": "Unknown",
+  "en": "So there the idea is like I'm going to take a lot of views of a space, like hundreds or even thousands of views that cover this one space in extraordinary detail.",
+  "zh": "所以那里的想法就像是，我要获取一个空间的大量视图，比如数百甚至数千个视图，以极其详细的细节覆盖这一个空间。"
+ },
+ {
+  "seg": 303,
+  "start": 1795.481,
+  "end": 1801.587,
+  "speaker": "Unknown",
+  "en": "Then I'm going to fit a Gaussian, like a 3D point cloud Gaussian splat representation that explains the images that I saw.",
+  "zh": "然后我要拟合一个高斯，就像一个 3D 点云高斯泼溅表示，来解释我所看到的图像。"
+ },
+ {
+  "seg": 304,
+  "start": 1801.747,
+  "end": 1804.19,
+  "speaker": "Unknown",
+  "en": "Well, put like that, the distinction is obvious.",
+  "zh": "嗯，那样说的话，区别就很明显了。"
+ },
+ {
+  "seg": 305,
+  "start": 1804.25,
+  "end": 1806.452,
+  "speaker": "Unknown",
+  "en": "It's not just world, it's world model.",
+  "zh": "它不仅仅是世界，它是世界模型。"
+ },
+ {
+  "seg": 306,
+  "start": 1806.712,
+  "end": 1807.033,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 307,
+  "start": 1807.053,
+  "end": 1808.674,
+  "speaker": "Unknown",
+  "en": "There's no world model in there, right?",
+  "zh": "里面没有世界模型，对吧？"
+ },
+ {
+  "seg": 308,
+  "start": 1809.455,
+  "end": 1813.099,
+  "speaker": "Unknown",
+  "en": "There was no big, powerful model in here that learned on a ton of data.",
+  "zh": "这里没有在大海量的数据上学习过的大型、强大的模型。"
+ },
+ {
+  "seg": 309,
+  "start": 1813.44,
+  "end": 1822.99,
+  "speaker": "Unknown",
+  "en": "These kind of optimization-based reconstruction approaches to Gaussian splatting are like, I've got a thousand images, the whole universe is like these thousand images, and I'm fitting a Gaussian splat to match these images.",
+  "zh": "这些基于优化的高斯泼溅重建方法就像是，我有一千张图像，整个宇宙就像是这一千张图像，而我正在拟合一个高斯泼溅来匹配这些图像。"
+ },
+ {
+  "seg": 310,
+  "start": 1823.37,
+  "end": 1825.071,
+  "speaker": "Unknown",
+  "en": "There's no generalizable knowledge here.",
+  "zh": "这里没有可泛化的知识。"
+ },
+ {
+  "seg": 311,
+  "start": 1825.511,
+  "end": 1827.733,
+  "speaker": "Unknown",
+  "en": "And that's actually very different from what we're doing in Marble.",
+  "zh": "而这实际上与我们在 Marble 中所做的非常不同。"
+ },
+ {
+  "seg": 312,
+  "start": 1828.153,
+  "end": 1832.756,
+  "speaker": "Unknown",
+  "en": "In Marble, we have trained a large, powerful model that's been trained on a lot of data of various kinds.",
+  "zh": "在 Marble 中，我们训练了一个大型、强大的模型，它在各种大量数据上进行了训练。"
+ },
+ {
+  "seg": 313,
+  "start": 1833.516,
+  "end": 1835.898,
+  "speaker": "Unknown",
+  "en": "And that model happens to output Gaussian splats.",
+  "zh": "而那个模型恰好输出高斯泼溅。"
+ },
+ {
+  "seg": 314,
+  "start": 1836.398,
+  "end": 1841.141,
+  "speaker": "Unknown",
+  "en": "So the Marble world model is the model that knows how to model worlds.",
+  "zh": "所以 Marble 的世界模型就是那个知道如何对世界进行建模的模型。"
+ },
+ {
+  "seg": 315,
+  "start": 1841.861,
+  "end": 1844.843,
+  "speaker": "Unknown",
+  "en": "It inputs images, it inputs text, and it outputs Gaussian splats.",
+  "zh": "它输入图像，它输入文本，它输出高斯泼溅。"
+ },
+ {
+  "seg": 316,
+  "start": 1845.383,
+  "end": 1853.667,
+  "speaker": "Unknown",
+  "en": "And that's very different from this situation where I'm just going to kind of dumbly fit, you know, a point cloud to this thousand images and there's no notion of a model that learned a ton of data.",
+  "zh": "这与这种情况非常不同，在这种情况下，我只是有点愚蠢地去拟合一个点云到这一千张图像，并且没有任何学习过大量数据的模型概念。"
+ },
+ {
+  "seg": 317,
+  "start": 1853.867,
+  "end": 1871.196,
+  "speaker": "Unknown",
+  "en": "And we touched on this before we started rolling, but I always thought of Gaussian splat as kind of, you know, the broad idea or process, you know, kind of the technical mathematical process of creating these, you know, rendered point clouds.",
+  "zh": "我们在开始录制之前提到过这一点，但我一直把高斯泼溅看作是，你知道，广泛的想法或过程，也就是创建这些渲染点云的技术数学过程。"
+ },
+ {
+  "seg": 318,
+  "start": 1871.876,
+  "end": 1872.997,
+  "speaker": "Unknown",
+  "en": "But it sounds like that",
+  "zh": "但听起来好像是"
+ },
+ {
+  "seg": 319,
+  "start": 1875.125,
+  "end": 1878.71,
+  "speaker": "Unknown",
+  "en": "And now, like, there are standard file formats and other things.",
+  "zh": "而现在，像是有了标准的文件格式和其他东西。"
+ },
+ {
+  "seg": 320,
+  "start": 1878.73,
+  "end": 1887.901,
+  "speaker": "Unknown",
+  "en": "You know, talk a little bit about kind of that ecosystem and the tooling that is used around Gaussian splats.",
+  "zh": "你知道，稍微谈谈那种生态系统以及围绕高斯泼溅使用的工具。"
+ },
+ {
+  "seg": 321,
+  "start": 1888.221,
+  "end": 1891.785,
+  "speaker": "Unknown",
+  "en": "Yeah, so their Gaussian splats are a pretty particular thing most of the time.",
+  "zh": "是的，所以高斯泼溅大部分时间是一个非常特殊的东西。"
+ },
+ {
+  "seg": 322,
+  "start": 1892.326,
+  "end": 1893.748,
+  "speaker": "Unknown",
+  "en": "It's a collection of points.",
+  "zh": "它是点的集合。"
+ },
+ {
+  "seg": 323,
+  "start": 1894.208,
+  "end": 1897.51,
+  "speaker": "Unknown",
+  "en": "Each point has a position in 3D space, which is three coordinates, x, y, z.",
+  "zh": "每个点在 3D 空间中都有一个位置，也就是三个坐标，x, y, z。"
+ },
+ {
+  "seg": 324,
+  "start": 1898.21,
+  "end": 1905.073,
+  "speaker": "Unknown",
+  "en": "It has an opacity, which is a number between zero and one that tells you how opaque it is or how transparent it is.",
+  "zh": "它有一个不透明度，这是一个介于 0 和 1 之间的数字，告诉你它有多不透明或多透明。"
+ },
+ {
+  "seg": 325,
+  "start": 1906.034,
+  "end": 1909.876,
+  "speaker": "Unknown",
+  "en": "Then you've got usually a color, which is like an RGB value, which is again, three numbers.",
+  "zh": "然后通常还有一个颜色，就像一个 RGB 值，同样也是三个数字。"
+ },
+ {
+  "seg": 326,
+  "start": 1910.716,
+  "end": 1914.538,
+  "speaker": "Unknown",
+  "en": "And then you'll often have some notion of what are called spherical harmonics.",
+  "zh": "然后你通常会有一些被称为球谐函数的概念。"
+ },
+ {
+  "seg": 327,
+  "start": 1915.218,
+  "end": 1918.68,
+  "speaker": "Unknown",
+  "en": "And that tells you what color is it when you look at it from different positions.",
+  "zh": "这告诉你当你从不同位置看它时它是什么颜色。"
+ },
+ {
+  "seg": 328,
+  "start": 1919.26,
+  "end": 1940.397,
+  "speaker": "Unknown",
+  "en": "right because you want to model this notion that maybe this point is one color if i look at it from the bottom and a different color if i look at it from the top and that helps you model reflections or or right because if i have a shiny surface like a mirror or a glossy surface then if i look at it from one angle i kind of see a highlight from a light that bounces from the top if i look at it from a different angle i see a different color",
+  "zh": "对，因为你想建模这个概念，也许这个点是一种颜色，如果我从底部看它，而如果我从顶部看它是不同的颜色，这有助于你建模反射，或者，对，因为如果我有一个闪亮的表面像镜子或光泽表面，那么如果我从某个角度看它，我有点看到从顶部反弹的光的亮光，如果我从不同的角度看它，我看到不同的颜色。"
+ },
+ {
+  "seg": 329,
+  "start": 1940.997,
+  "end": 1946.745,
+  "speaker": "Unknown",
+  "en": "And these spherical harmonics are a particular concrete way to capture this notion of view-dependent color.",
+  "zh": "而这些球谐函数是捕获这种视角依赖颜色概念的一种具体方式。"
+ },
+ {
+  "seg": 330,
+  "start": 1947.186,
+  "end": 1949.97,
+  "speaker": "Unknown",
+  "en": "So then, you know, a Gaussian splat is this set of points.",
+  "zh": "所以，你知道，高斯泼溅就是这组点。"
+ },
+ {
+  "seg": 331,
+  "start": 1950.05,
+  "end": 1957.34,
+  "speaker": "Unknown",
+  "en": "Each one has an XYZ position, has an opacity, has a color, and also has these spherical harmonics that tell you how the color varies as you look at it from different angles.",
+  "zh": "每一个都有 XYZ 位置，有不透明度，有颜色，还有这些球谐函数，告诉你当你从不同角度看它时颜色如何变化。"
+ },
+ {
+  "seg": 332,
+  "start": 1958.182,
+  "end": 1961.784,
+  "speaker": "Unknown",
+  "en": "And then there's different ways to pack that data into bytes in a file, right?",
+  "zh": "然后有不同的方式将这些数据打包成文件中的字节，对吧？"
+ },
+ {
+  "seg": 333,
+  "start": 1962.064,
+  "end": 1969.649,
+  "speaker": "Unknown",
+  "en": "So then PLY is a pretty popular file format for Gaussian splats, which is relatively easy to read and write, but pretty inefficient.",
+  "zh": "所以 PLY 是一种非常流行的高斯泼溅文件格式，它相对容易读写，但非常低效。"
+ },
+ {
+  "seg": 334,
+  "start": 1969.989,
+  "end": 1977.333,
+  "speaker": "Unknown",
+  "en": "And then there's compressed representations like SPZ that compress some of that data and use lower precision for some parts of it.",
+  "zh": "然后有像 SPZ 这样的压缩表示，它们压缩部分数据并对其某些部分使用较低的精度。"
+ },
+ {
+  "seg": 335,
+  "start": 1977.353,
+  "end": 1982.576,
+  "speaker": "Unknown",
+  "en": "They'll let you store something that looks pretty similar, looks pretty good, but there's a lot smaller file size.",
+  "zh": "它们让你存储看起来非常相似、看起来非常好的东西，但文件大小要小得多。"
+ },
+ {
+  "seg": 336,
+  "start": 1984.077,
+  "end": 1991.282,
+  "speaker": "Unknown",
+  "en": "And then you should think that like, you know, like a PLY is kind of like a like a like a GIF or a PNG, where it's something that's like pretty uncompressed.",
+  "zh": "然后你应该认为就像，你知道，像 PLY 有点像 GIF 或 PNG，它是那种相当未压缩的东西。"
+ },
+ {
+  "seg": 337,
+  "start": 1991.662,
+  "end": 1997.246,
+  "speaker": "Unknown",
+  "en": "And an SPZ is a little bit more like a JPEG, where you're going to compress some parts of the data, you're going to throw away some parts of the data.",
+  "zh": "而 SPZ 有点像 JPEG，你要压缩部分数据，你要扔掉部分数据。"
+ },
+ {
+  "seg": 338,
+  "start": 1997.586,
+  "end": 2003.15,
+  "speaker": "Unknown",
+  "en": "But we think those are parts that are you that aren't going to you're not going to notice as a human that you throw away some of these parts of the data.",
+  "zh": "但我们认为那些是你作为人类不会注意到的部分，你扔掉这些数据部分。"
+ },
+ {
+  "seg": 339,
+  "start": 2003.642,
+  "end": 2014.511,
+  "speaker": "Unknown",
+  "en": "Relative to kind of the way we think about like traditional 2D and 3D images, the Gaussian splats are not based on a grid.",
+  "zh": "相对于我们要思考传统 2D 和 3D 图像的方式，高斯泼溅不是基于网格的。"
+ },
+ {
+  "seg": 340,
+  "start": 2014.531,
+  "end": 2022.118,
+  "speaker": "Unknown",
+  "en": "And are they sparse in general relative to the dimensionality of the space we're representing?",
+  "zh": "相对于我们表示的空间的维度，它们通常是稀疏的吗？"
+ },
+ {
+  "seg": 341,
+  "start": 2022.672,
+  "end": 2024.092,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, they're not based on a grid.",
+  "zh": "是的，我是说，它们不是基于网格的。"
+ },
+ {
+  "seg": 342,
+  "start": 2024.152,
+  "end": 2025.753,
+  "speaker": "Unknown",
+  "en": "Any of these points can live anywhere in space.",
+  "zh": "这些点中的任何一个都可以存在于空间的任何地方。"
+ },
+ {
+  "seg": 343,
+  "start": 2026.353,
+  "end": 2034.895,
+  "speaker": "Unknown",
+  "en": "But they typically, I mean, one of the, oh, right, the other important thing I forgot, like the silly me for not having my notes in front of me, but like a Gaussian splat also has a size, right?",
+  "zh": "但它们通常，我是说，其中一个，哦，对了，我忘记的另一件重要的事情，就像我太蠢了没把笔记放在面前，但像高斯泼溅也有一个大小，对吧？"
+ },
+ {
+  "seg": 344,
+  "start": 2034.915,
+  "end": 2035.995,
+  "speaker": "Unknown",
+  "en": "It's not an infinitesimal point.",
+  "zh": "它不是一个"
+ },
+ {
+  "seg": 345,
+  "start": 2036.475,
+  "end": 2037.716,
+  "speaker": "Unknown",
+  "en": "A Gaussian splat has a size.",
+  "zh": "一个高斯泼溅有一个大小。"
+ },
+ {
+  "seg": 346,
+  "start": 2038.336,
+  "end": 2039.796,
+  "speaker": "Unknown",
+  "en": "It's not just a point in space.",
+  "zh": "它不仅仅是空间中的一个点。"
+ },
+ {
+  "seg": 347,
+  "start": 2039.856,
+  "end": 2046.178,
+  "speaker": "Unknown",
+  "en": "It has kind of a radius and, you know, also a covariance matrix because it might not be a sphere.",
+  "zh": "它有一个半径，也有一个协方差矩阵，因为它可能不是一个球体。"
+ },
+ {
+  "seg": 348,
+  "start": 2046.198,
+  "end": 2047.098,
+  "speaker": "Unknown",
+  "en": "It might be an ellipsoid.",
+  "zh": "它可能是一个椭球体。"
+ },
+ {
+  "seg": 349,
+  "start": 2047.738,
+  "end": 2050.939,
+  "speaker": "Unknown",
+  "en": "And the covariance matrix and the radius kind of, well,",
+  "zh": "而且协方差矩阵和半径有点，嗯，"
+ },
+ {
+  "seg": 350,
+  "start": 2051.379,
+  "end": 2057.522,
+  "speaker": "Unknown",
+  "en": "Really just the covariance matrix kind of tells you like how big is it and how like stretched or squashed is it along different dimensions.",
+  "zh": "其实就是协方差矩阵，它有点告诉你它有多大，以及它在不同维度上有多拉伸或多压扁。"
+ },
+ {
+  "seg": 351,
+  "start": 2057.742,
+  "end": 2068.907,
+  "speaker": "Unknown",
+  "en": "So then like part of the, you know, part of the original pitch of Gaussian splats is maybe they could be pretty sparse because, or maybe, you know, maybe they could be fairly sparse and you end up with like really big Gaussian splats to cover like a big part of the wall.",
+  "zh": "所以就像，你知道，高斯泼溅最初的推介的一部分是，它们可能相当稀疏，因为，或者也许，你知道，也许它们可能相当稀疏，你最终会得到非常大的高斯泼溅来覆盖墙的大部分。"
+ },
+ {
+  "seg": 352,
+  "start": 2069.768,
+  "end": 2072.229,
+  "speaker": "Unknown",
+  "en": "But in practice, that's usually ends up in pretty low quality.",
+  "zh": "但在实践中，这通常会导致相当低的质量。"
+ },
+ {
+  "seg": 353,
+  "start": 2072.569,
+  "end": 2076.571,
+  "speaker": "Unknown",
+  "en": "So usually you want the splats to be fairly dense over the geometry that you want to cover.",
+  "zh": "所以通常你希望泼溅在你想要覆盖的几何体上相当密集。"
+ },
+ {
+  "seg": 354,
+  "start": 2076.591,
+  "end": 2080.893,
+  "speaker": "Unknown",
+  "en": "I mean, that ends up in looking, that ends up generating nicer images in general.",
+  "zh": "我的意思是，这最终在看起来，这通常会生成更好的图像。"
+ },
+ {
+  "seg": 355,
+  "start": 2081.375,
+  "end": 2102.103,
+  "speaker": "Unknown",
+  "en": "That being the case, like, is a part of the technology or what makes Gaussian splats work, like that the renderer is able to, like, focus on, you know, what's in kind of the user's viewpoint versus things that are extraneous to it?",
+  "zh": "既然如此，就像，这是技术的一部分还是什么让高斯泼溅起作用，就像渲染器能够，就像，专注于，你知道，用户视角内的东西相对于那些多余的东西？"
+ },
+ {
+  "seg": 356,
+  "start": 2102.243,
+  "end": 2106.645,
+  "speaker": "Unknown",
+  "en": "Or, you know, maybe the broader question is like, you know, what...",
+  "zh": "或者，你知道，也许更广泛的问题是像，你知道，什么……"
+ },
+ {
+  "seg": 357,
+  "start": 2107.752,
+  "end": 2110.234,
+  "speaker": "Unknown",
+  "en": "What makes Gaussian Splats so interesting?",
+  "zh": "是什么让高斯泼溅如此有趣？"
+ },
+ {
+  "seg": 358,
+  "start": 2110.274,
+  "end": 2114.417,
+  "speaker": "Unknown",
+  "en": "Like a quick refresher on that relative to the way we've approached this before.",
+  "zh": "就像一个快速的复习，相对于我们以前处理这件事的方式。"
+ },
+ {
+  "seg": 359,
+  "start": 2114.637,
+  "end": 2117.759,
+  "speaker": "Unknown",
+  "en": "I think the contrast with Gaussian Splats you should be thinking about is triangle meshes.",
+  "zh": "我认为你应该考虑的高斯泼溅的对比对象是三角网格。"
+ },
+ {
+  "seg": 360,
+  "start": 2118.479,
+  "end": 2121.441,
+  "speaker": "Unknown",
+  "en": "So triangle meshes are kind of your standard representation in computer graphics.",
+  "zh": "所以三角网格是你在计算机图形学中的标准表示。"
+ },
+ {
+  "seg": 361,
+  "start": 2121.862,
+  "end": 2126.044,
+  "speaker": "Unknown",
+  "en": "And that's saying that we're going to represent the whole world as like little triangles, basically.",
+  "zh": "这就是说我们要把整个世界表示为像小三角形，基本上。"
+ },
+ {
+  "seg": 362,
+  "start": 2126.145,
+  "end": 2127.966,
+  "speaker": "Unknown",
+  "en": "And everything is like made up of little triangles.",
+  "zh": "一切都像是由小三角形组成的。"
+ },
+ {
+  "seg": 363,
+  "start": 2128.566,
+  "end": 2138.633,
+  "speaker": "Unknown",
+  "en": "And pretty much any game you've ever played, any VFX shot you've ever seen, any computer-generated imagery you've ever seen, they pretty much model the world as lots of little triangles.",
+  "zh": "几乎你玩过的任何游戏，你见过的任何特效镜头，你见过的任何计算机生成的图像，它们几乎都把世界建模为许多小三角形。"
+ },
+ {
+  "seg": 364,
+  "start": 2138.993,
+  "end": 2142.336,
+  "speaker": "Unknown",
+  "en": "And that's worked amazing for computer graphics for decades.",
+  "zh": "这在几十年里对计算机图形学来说效果惊人。"
+ },
+ {
+  "seg": 365,
+  "start": 2142.376,
+  "end": 2145.258,
+  "speaker": "Unknown",
+  "en": "But the problem is that triangles don't fit with neural networks very well.",
+  "zh": "但问题是三角形与神经网络不太契合。"
+ },
+ {
+  "seg": 366,
+  "start": 2145.998,
+  "end": 2148.839,
+  "speaker": "Unknown",
+  "en": "Because the important part is differentiability.",
+  "zh": "因为重要的部分是可微性。"
+ },
+ {
+  "seg": 367,
+  "start": 2148.939,
+  "end": 2153.141,
+  "speaker": "Unknown",
+  "en": "You want to be able to differentiate through this representation past gradients.",
+  "zh": "你希望能够通过这种表示进行微分来传递梯度。"
+ },
+ {
+  "seg": 368,
+  "start": 2153.541,
+  "end": 2159.803,
+  "speaker": "Unknown",
+  "en": "And in particular, that means that you want your representation to have the property that if I change the input a little bit, the output also changes a little bit.",
+  "zh": "特别是，这意味着你希望你的表示具有这样的属性：如果我稍微改变输入，输出也会稍微改变。"
+ },
+ {
+  "seg": 369,
+  "start": 2160.283,
+  "end": 2161.623,
+  "speaker": "Unknown",
+  "en": "And that's not the case with a triangle.",
+  "zh": "对于三角形来说情况并非如此。"
+ },
+ {
+  "seg": 370,
+  "start": 2161.823,
+  "end": 2167.705,
+  "speaker": "Unknown",
+  "en": "Because if I've got a triangle here and I move it a little bit, all of a sudden something that was invisible now becomes visible.",
+  "zh": "因为我这里有一个三角形并且我移动它一点，突然一个看不见的东西现在变得可见了。"
+ },
+ {
+  "seg": 371,
+  "start": 2168.086,
+  "end": 2174.808,
+  "speaker": "Unknown",
+  "en": "So now I have a sharp change, a sharp discontinuous change in the image that I'm gonna see as a function of the parameters.",
+  "zh": "所以现在我有一个急剧的变化，一个尖锐的不连续的变化，在我将看到的图像中作为参数的函数。"
+ },
+ {
+  "seg": 372,
+  "start": 2175.968,
+  "end": 2180.051,
+  "speaker": "Unknown",
+  "en": "So, you know, Gaussian splats don't have that property because everything is smooth.",
+  "zh": "所以，你知道，高斯泼溅没有那个属性，因为一切都是平滑的。"
+ },
+ {
+  "seg": 373,
+  "start": 2180.311,
+  "end": 2181.632,
+  "speaker": "Unknown",
+  "en": "Everything is partially transparent.",
+  "zh": "一切都是部分透明的。"
+ },
+ {
+  "seg": 374,
+  "start": 2181.972,
+  "end": 2188.676,
+  "speaker": "Unknown",
+  "en": "So, like, the image that you see continuously changes as you vary any of the parameters of the Gaussian splats infinitesimally.",
+  "zh": "所以，就像，你看到的图像随着你无限小地改变高斯泼溅的任何参数而连续变化。"
+ },
+ {
+  "seg": 375,
+  "start": 2189.376,
+  "end": 2191.718,
+  "speaker": "Unknown",
+  "en": "So what that means is they integrate with neural networks really well.",
+  "zh": "所以这意味着它们与神经网络集成得非常好。"
+ },
+ {
+  "seg": 376,
+  "start": 2192.078,
+  "end": 2194.96,
+  "speaker": "Unknown",
+  "en": "So neural networks are all gradient-based learners, right?",
+  "zh": "所以神经网络都是基于梯度的学习器，对吧？"
+ },
+ {
+  "seg": 377,
+  "start": 2195.02,
+  "end": 2196.501,
+  "speaker": "Unknown",
+  "en": "I'm going to have an objective function.",
+  "zh": "我将有一个目标函数。"
+ },
+ {
+  "seg": 378,
+  "start": 2196.521,
+  "end": 2198.742,
+  "speaker": "Unknown",
+  "en": "I'm going to minimize that objective function via gradient descent.",
+  "zh": "我将通过梯度下降最小化那个目标函数。"
+ },
+ {
+  "seg": 379,
+  "start": 2199.102,
+  "end": 2202.845,
+  "speaker": "Unknown",
+  "en": "In order to do that, I need to be able to pass gradient signal through whatever representation I'm using.",
+  "zh": "为了做到这一点，我需要能够通过我使用的任何表示传递梯度信号。"
+ },
+ {
+  "seg": 380,
+  "start": 2203.365,
+  "end": 2206.447,
+  "speaker": "Unknown",
+  "en": "And Gaussian splats pass gradients really, really well.",
+  "zh": "高斯泼溅传递梯度真的非常好。"
+ },
+ {
+  "seg": 381,
+  "start": 2206.787,
+  "end": 2218.875,
+  "speaker": "Unknown",
+  "en": "So that means they can be plugged into gradient-based optimizers and either directly optimize against a set of images, which happens in the reconstruction case, or be plugged into the output of a neural network, which is more what we do in the marble case.",
+  "zh": "所以这意味着它们可以插入到基于梯度的优化器中，并且要么针对一组图像直接进行优化，这发生在重建案例中，要么插入到神经网络的输出中，这更像是我们在 marble 案例中所做的。"
+ },
+ {
+  "seg": 382,
+  "start": 2219.275,
+  "end": 2228.124,
+  "speaker": "Unknown",
+  "en": "So there the setup is like I've got a neural network, it spits out Gaussians, those Gaussians get attached to some loss function, then I can back propagate my loss all the way into the parameters of the neural network.",
+  "zh": "所以在那里的设置就像我有一个神经网络，它吐出高斯，那些高斯被附加到某个损失函数，然后我可以反向传播我的损失一直到神经网络的参数。"
+ },
+ {
+  "seg": 383,
+  "start": 2228.685,
+  "end": 2230.546,
+  "speaker": "Unknown",
+  "en": "So that's kind of the biggest delta.",
+  "zh": "所以这是最大的差异。"
+ },
+ {
+  "seg": 384,
+  "start": 2230.647,
+  "end": 2238.955,
+  "speaker": "Unknown",
+  "en": "That's kind of the big innovation of Gaussian Splats and why people got excited about them over the past few years is because it's a graphics representation that integrates with neural networks really cleanly.",
+  "zh": "这是高斯泼溅的一大创新，也是为什么人们在过去几年对它们感到兴奋的原因，因为它是一种与神经网络非常干净地集成的图形表示。"
+ },
+ {
+  "seg": 385,
+  "start": 2239.279,
+  "end": 2249.788,
+  "speaker": "Unknown",
+  "en": "Kind of tying that to some of the core properties of world models, namely consistency, like is it that",
+  "zh": "有点将其与世界模型的一些核心属性联系起来，即一致性，就像它是那样"
+ },
+ {
+  "seg": 386,
+  "start": 2250.743,
+  "end": 2256.108,
+  "speaker": "Unknown",
+  "en": "Ability to backpropagate that, or how do we get that consistency?",
+  "zh": "反向传播该东西的能力，还是我们如何获得那种一致性？"
+ },
+ {
+  "seg": 387,
+  "start": 2256.148,
+  "end": 2260.092,
+  "speaker": "Unknown",
+  "en": "Are we, you know, is that coming from modeling?",
+  "zh": "我们，你知道，是那是来自建模吗？"
+ },
+ {
+  "seg": 388,
+  "start": 2260.172,
+  "end": 2263.395,
+  "speaker": "Unknown",
+  "en": "Is it coming from, you know, scale?",
+  "zh": "它是来自，你知道，规模吗？"
+ },
+ {
+  "seg": 389,
+  "start": 2263.455,
+  "end": 2267.719,
+  "speaker": "Unknown",
+  "en": "Like where does that, is it an architecture thing?",
+  "zh": "就像那个来自哪里，它是架构相关的事情吗？"
+ },
+ {
+  "seg": 390,
+  "start": 2268.42,
+  "end": 2269.201,
+  "speaker": "Unknown",
+  "en": "What does that come from?",
+  "zh": "那是来自什么的？"
+ },
+ {
+  "seg": 391,
+  "start": 2269.481,
+  "end": 2270.821,
+  "speaker": "Unknown",
+  "en": "I think it can come from many places.",
+  "zh": "我认为它可以来自许多地方。"
+ },
+ {
+  "seg": 392,
+  "start": 2270.842,
+  "end": 2276.383,
+  "speaker": "Unknown",
+  "en": "And that's actually a really interesting jumping off point because there's this property of the world around us that it's consistent, right?",
+  "zh": "这实际上是一个非常有趣的起点，因为我们周围的世界有这个属性，它是一致的，对吧？"
+ },
+ {
+  "seg": 393,
+  "start": 2276.443,
+  "end": 2279.505,
+  "speaker": "Unknown",
+  "en": "If I look at you, you kind of look pretty similar from moment to moment.",
+  "zh": "如果我看着你，你在时刻之间看起来相当相似。"
+ },
+ {
+  "seg": 394,
+  "start": 2279.925,
+  "end": 2283.786,
+  "speaker": "Unknown",
+  "en": "Or if I, you know, walk to a different room and come back, like you're still going to be here.",
+  "zh": "或者如果我，你知道，走到另一个房间并回来，就像你仍然会在这里。"
+ },
+ {
+  "seg": 395,
+  "start": 2284.966,
+  "end": 2286.487,
+  "speaker": "Unknown",
+  "en": "And that's this notion of consistency.",
+  "zh": "这就是一致性的概念。"
+ },
+ {
+  "seg": 396,
+  "start": 2287.147,
+  "end": 2290.528,
+  "speaker": "Unknown",
+  "en": "And there's different, and Gaussian splats are kind of consistent by construction, right?",
+  "zh": "并且有不同，而高斯泼溅在构造上是一致的，对吧？"
+ },
+ {
+  "seg": 397,
+  "start": 2290.548,
+  "end": 2293.129,
+  "speaker": "Unknown",
+  "en": "Because I've got this explicit 3D representation of the world.",
+  "zh": "因为我有一个世界的明确的 3D 表示。"
+ },
+ {
+  "seg": 398,
+  "start": 2293.389,
+  "end": 2296.971,
+  "speaker": "Unknown",
+  "en": "So if I look at it, then look away, then look back, like it's all there in 3D.",
+  "zh": "所以如果我看着它，然后移开视线，然后回头看，就像它都在 3D 中。"
+ },
+ {
+  "seg": 399,
+  "start": 2297.011,
+  "end": 2297.871,
+  "speaker": "Unknown",
+  "en": "So it's going to look the same.",
+  "zh": "所以它看起来会是一样的。"
+ },
+ {
+  "seg": 400,
+  "start": 2298.832,
+  "end": 2303.436,
+  "speaker": "Unknown",
+  "en": "But you could also get consistency via large-scale data and large-scale training and large-scale compute.",
+  "zh": "但你也可能通过大规模数据、大规模训练和大规模算力获得一致性。"
+ },
+ {
+  "seg": 401,
+  "start": 2303.776,
+  "end": 2309.181,
+  "speaker": "Unknown",
+  "en": "And that kind of leans into the more implicit representations that we've done in RTFM and in other places.",
+  "zh": "那有点倾向于我们在 RTFM 和其他地方所做的更隐式的表示。"
+ },
+ {
+  "seg": 402,
+  "start": 2309.721,
+  "end": 2315.587,
+  "speaker": "Unknown",
+  "en": "So there the idea is, what if I'm going to have a model, there is no Gaussian splats, there is no 3D, there are no explicit points.",
+  "zh": "所以这里的想法是,如果我要有一个模型,没有高斯溅射,没有 3D,没有显式的点。"
+ },
+ {
+  "seg": 403,
+  "start": 2315.967,
+  "end": 2319.569,
+  "speaker": "Unknown",
+  "en": "I just have a model that's spitting out RGB pixel values of the world.",
+  "zh": "我只有一个模型,它正在吐出世界的 RGB 像素值。"
+ },
+ {
+  "seg": 404,
+  "start": 2320.169,
+  "end": 2332.796,
+  "speaker": "Unknown",
+  "en": "But if that model is really, really smart and really powerful and having been trained on a lot of data and maybe with the right expressive architecture, even though it's not mathematically guaranteed, there's nothing mathematically guaranteeing it to be consistent.",
+  "zh": "但如果那个模型真的非常智能,而且非常强大,并且在很多数据上进行了训练,也许还有合适的表达性架构,尽管没有数学上的保证,没有什么能从数学上保证它是一致的。"
+ },
+ {
+  "seg": 405,
+  "start": 2332.816,
+  "end": 2333.957,
+  "speaker": "Unknown",
+  "en": "It still ends up being consistent.",
+  "zh": "它最终还是变得一致了。"
+ },
+ {
+  "seg": 406,
+  "start": 2334.517,
+  "end": 2337.479,
+  "speaker": "Unknown",
+  "en": "And I think it's actually not that one is better than the other.",
+  "zh": "而且我认为实际上并不是哪一个比另一个更好。"
+ },
+ {
+  "seg": 407,
+  "start": 2337.679,
+  "end": 2340.301,
+  "speaker": "Unknown",
+  "en": "They're just different points on the technology curve, right?",
+  "zh": "它们只是技术曲线上的不同点,对吧?"
+ },
+ {
+  "seg": 408,
+  "start": 2340.622,
+  "end": 2350.369,
+  "speaker": "Unknown",
+  "en": "If you have a relatively low compute budget and you want things to run embedded, like you don't want to train giant models, then Gaussian splats are appealing because they're consistent by construction.",
+  "zh": "如果你有相对较低的算力预算,并且你希望事情在嵌入式上运行,比如你不想训练巨型模型,那么高斯溅射是很吸引人的,因为它们在构造上是一致的。"
+ },
+ {
+  "seg": 409,
+  "start": 2350.869,
+  "end": 2358.793,
+  "speaker": "Unknown",
+  "en": "But if you can scale up and use a lot of data and use a lot of compute, then I actually think that the implicit 3D route is going to be the thing that scales up to infinity.",
+  "zh": "但如果你能扩展并使用大量数据和使用大量算力,那么我实际上认为隐式 3D 路线将是能够扩展到无限的东西。"
+ },
+ {
+  "seg": 410,
+  "start": 2359.493,
+  "end": 2367.236,
+  "speaker": "Unknown",
+  "en": "So it's more a question of like, it's more of an engineering question of what are the design constraints of the problem facing me right now and less a philosophical divide for me, right?",
+  "zh": "所以这更像是一个像这样的问题,这更多是一个工程问题,关于我现在面临的问题的设计约束是什么,对我来说,这更少是一个哲学上的分歧,对吧?"
+ },
+ {
+  "seg": 411,
+  "start": 2367.436,
+  "end": 2371.138,
+  "speaker": "Unknown",
+  "en": "If you want cheap and consistent by construction, Gaussian splats are very appealing.",
+  "zh": "如果你想要廉价且在构造上是一致的,高斯溅射是非常吸引人的。"
+ },
+ {
+  "seg": 412,
+  "start": 2371.498,
+  "end": 2379.662,
+  "speaker": "Unknown",
+  "en": "If you want something that scales to infinity and can rely on infinite data, infinite compute, but you're willing to pay that infinite computed inference time,",
+  "zh": "如果你想要能扩展到无限的东西,并且可以依靠无限的数据、无限的算力,但你愿意支付那无限的计算出的推理时间,"
+ },
+ {
+  "seg": 413,
+  "start": 2380.424,
+  "end": 2385.619,
+  "speaker": "Unknown",
+  "en": "And you're willing to pay the big training costs, then I think the implicit pixels-only approach is very appealing.",
+  "zh": "并且你愿意支付巨大的训练成本,那么我认为这种仅隐式像素的方法是非常吸引人的。"
+ },
+ {
+  "seg": 414,
+  "start": 2385.96,
+  "end": 2387.845,
+  "speaker": "Unknown",
+  "en": "And that's exactly why we've done both at WoltLabs.",
+  "zh": "这正是为什么我们在 WoltLabs 两方面都做了。"
+ },
+ {
+  "seg": 415,
+  "start": 2388.337,
+  "end": 2416.519,
+  "speaker": "Unknown",
+  "en": "I think the direction I was trying to go with that question was focusing more on the model and the generation perspective and the idea that we're describing a world, generating on the fly, the user can navigate through this world, turn away, come back, and we're generating consistent frames in the case of RTFM or splats in the case of Marble.",
+  "zh": "我想我试图用那个问题要表达的方向更多地集中在模型和生成的视角上,以及我们正在描述一个世界的想法,即时生成,用户可以在这个世界中导航,转开,回来,而且在 RTFM 的情况下我们生成一致的帧,或者在 Marble 的情况下生成溅射。"
+ },
+ {
+  "seg": 416,
+  "start": 2418.012,
+  "end": 2429.118,
+  "speaker": "Unknown",
+  "en": "And the question is like, I think part of what you're saying is that consistency is kind of orthogonal to whether we're talking about pixel generation or splat generation.",
+  "zh": "问题就像,我想你说的一部分内容是,一致性正交于我们是在谈论像素生成还是溅射生成。"
+ },
+ {
+  "seg": 417,
+  "start": 2430.158,
+  "end": 2436.361,
+  "speaker": "Unknown",
+  "en": "And so the next part of that question is, you know, that consistency seems like a really important part of all this.",
+  "zh": "所以那个问题的下一部分是,你知道,一致性似乎是这一切中非常重要的一部分。"
+ },
+ {
+  "seg": 418,
+  "start": 2436.421,
+  "end": 2437.742,
+  "speaker": "Unknown",
+  "en": "Like, where does it come from?",
+  "zh": "就像,它来自哪里?"
+ },
+ {
+  "seg": 419,
+  "start": 2438.134,
+  "end": 2440.776,
+  "speaker": "Unknown",
+  "en": "I mean, I think it basically comes from your data, ultimately, right?",
+  "zh": "我的意思是,我认为它基本上来自你的数据,归根结底,对吧?"
+ },
+ {
+  "seg": 420,
+  "start": 2440.836,
+  "end": 2452.103,
+  "speaker": "Unknown",
+  "en": "Like, no matter what representation you're using, if it's raw pixels or it's Gaussian splats, like, at the end of the day, you have to have a neural network in the system that's been taught to create consistent data.",
+  "zh": "就像,无论你使用什么表示,如果是原始像素或者是高斯溅射,就像,归根结底,你必须在系统中有一个被教导去创建一致性数据的神经网络。"
+ },
+ {
+  "seg": 421,
+  "start": 2453.324,
+  "end": 2460.189,
+  "speaker": "Unknown",
+  "en": "And, like, Gaussian splats kind of make it easier for a neural network to produce consistent outputs because they're more consistent by construction.",
+  "zh": "而且,就像,高斯溅射某种程度上让神经网络更容易产生一致的输出,因为它们在构造上更一致。"
+ },
+ {
+  "seg": 422,
+  "start": 2460.589,
+  "end": 2466.193,
+  "speaker": "Unknown",
+  "en": "But ultimately, it has to come from data of, like, views of the world that are consistent in the way you want your model to learn.",
+  "zh": "但归根结底,它必须来自像这样的数据,即以你希望你的模型学习的方式一致的世界视图。"
+ },
+ {
+  "seg": 423,
+  "start": 2468.043,
+  "end": 2480.249,
+  "speaker": "Unknown",
+  "en": "I think then the question is, or the opportunity is to like dig into Marble and talk a little bit about kind of the recipe and, you know, how that creates a world model, how that creates the Marble world models.",
+  "zh": "我想那么问题是,或者说机会是,像深入探讨 Marble 并谈论一下那种配方,你知道,它是如何创建一个世界模型的,它是如何创建 Marble 世界模型的。"
+ },
+ {
+  "seg": 424,
+  "start": 2480.549,
+  "end": 2484.791,
+  "speaker": "Unknown",
+  "en": "I mean, we have actually haven't talked explicitly about the model, the Marble architecture.",
+  "zh": "我的意思是,我们实际上还没有明确地谈论过那个模型,Marble 架构。"
+ },
+ {
+  "seg": 425,
+  "start": 2485.491,
+  "end": 2489.913,
+  "speaker": "Unknown",
+  "en": "But at a high level, it lets you input as a user different kinds of things.",
+  "zh": "但在高层次上,它让你作为用户输入不同种类的东西。"
+ },
+ {
+  "seg": 426,
+  "start": 2490.473,
+  "end": 2495.035,
+  "speaker": "Unknown",
+  "en": "You can input a text prompt, you can input an image, you can input multiple images, you can input a video.",
+  "zh": "你可以输入一个文本提示,你可以输入一张图像,你可以输入多张图像,你可以输入一个视频。"
+ },
+ {
+  "seg": 427,
+  "start": 2495.675,
+  "end": 2498.917,
+  "speaker": "Unknown",
+  "en": "Then from that, we generate a 3D Gaussian splat world.",
+  "zh": "然后从那个,我们生成一个 3D 高斯溅射世界。"
+ },
+ {
+  "seg": 428,
+  "start": 2500.157,
+  "end": 2504.539,
+  "speaker": "Unknown",
+  "en": "And one intermediate step in that is generating a 360 panorama image.",
+  "zh": "而其中的一步中间步骤是生成一个 360 度全景图像。"
+ },
+ {
+  "seg": 429,
+  "start": 2505.499,
+  "end": 2515.448,
+  "speaker": "Unknown",
+  "en": "And this is where, like, given those inputs, you kind of have one model, one part of a model that generates a 360 panorama view of the world you're about to generate.",
+  "zh": "这就是这里,就像,给定那些输入,你有点像有一个模型,一个模型的一部分,它生成你即将生成的世界的 360 度全景视图。"
+ },
+ {
+  "seg": 430,
+  "start": 2515.989,
+  "end": 2523.415,
+  "speaker": "Unknown",
+  "en": "And that's a big, powerful generative model that needs to take whatever that user input was and map it first into a 360 pano.",
+  "zh": "那是一个庞大、强大的生成式模型,它需要获取任何用户输入是什么,并将其首先映射到一个 360 度全景图中。"
+ },
+ {
+  "seg": 431,
+  "start": 2524.156,
+  "end": 2527.479,
+  "speaker": "Unknown",
+  "en": "And then from there, lift it up into a full 3D Gaussian splat world.",
+  "zh": "然后从那里,把它提升到一个完整的 3D 高斯溅射世界。"
+ },
+ {
+  "seg": 432,
+  "start": 2527.759,
+  "end": 2535.631,
+  "speaker": "Unknown",
+  "en": "Is the implication then that the user's input is either a single point or single image or...",
+  "zh": "那么其含义是否是,用户的输入要么是一个单点要么是一张单图像或者……"
+ },
+ {
+  "seg": 433,
+  "start": 2539.148,
+  "end": 2551.595,
+  "speaker": "Unknown",
+  "en": "I guess I'm thinking about if the user's providing a spatially diverse set of images, is it just that the sphere is much bigger?",
+  "zh": "我猜我在思考如果用户提供了一个空间上多样的图像集,是否只是那个球体要大得多?"
+ },
+ {
+  "seg": 434,
+  "start": 2551.955,
+  "end": 2552.636,
+  "speaker": "Unknown",
+  "en": "Oh, no.",
+  "zh": "哦,不。"
+ },
+ {
+  "seg": 435,
+  "start": 2552.696,
+  "end": 2558.759,
+  "speaker": "Unknown",
+  "en": "So basically what we're doing is the kind of marquee use case is almost single image, and that's probably what works best in Marble today.",
+  "zh": "所以我们基本上正在做的那种旗舰用例几乎就是单图像,那可能是今天在 Marble 中效果最好的。"
+ },
+ {
+  "seg": 436,
+  "start": 2559.179,
+  "end": 2567.062,
+  "speaker": "Unknown",
+  "en": "So there it's like I'm going to input a single image and then for the stuff in the world that I can see in that image, my generated world should match what I see in my input image.",
+  "zh": "所以那里就像我要输入一张单一图像,然后对于我在那张图像中能看到的世界里的东西,我生成的世界应该匹配我在我的输入图像中看到的东西。"
+ },
+ {
+  "seg": 437,
+  "start": 2567.522,
+  "end": 2575.425,
+  "speaker": "Unknown",
+  "en": "And then the model will try to complete what it, like try to give a plausible completion for everything else in the world that's not visible in the input image.",
+  "zh": "然后模型将尝试完成它,就像尝试为输入图像中不可见的世界中的所有其他东西提供一个合理的补全。"
+ },
+ {
+  "seg": 438,
+  "start": 2576.185,
+  "end": 2586.63,
+  "speaker": "Unknown",
+  "en": "So if I'm maybe taking a picture of a blackboard in the front of a classroom, then the model should know that behind the blackboard is going to be all these chairs where the people sit, where the students sit.",
+  "zh": "所以如果我可能正在拍教室前面的黑板的图片,那么模型应该知道在黑板后面将是所有这些人坐的椅子,学生坐的地方。"
+ },
+ {
+  "seg": 439,
+  "start": 2586.99,
+  "end": 2593.953,
+  "speaker": "Unknown",
+  "en": "And then the model should be able to take a picture of a blackboard and then complete that and generate the chairs behind the blackboard and then lift all that into 3D that you can navigate.",
+  "zh": "然后模型应该能够拍摄一张黑板的图片,然后完成它,并生成黑板后面的椅子,然后把所有这一切提升到你可以导航的 3D 中。"
+ },
+ {
+  "seg": 440,
+  "start": 2594.934,
+  "end": 2597.255,
+  "speaker": "Unknown",
+  "en": "And is the user also providing text prompts?",
+  "zh": "用户还在提供文本提示吗?"
+ },
+ {
+  "seg": 441,
+  "start": 2598.127,
+  "end": 2598.527,
+  "speaker": "Unknown",
+  "en": "They can.",
+  "zh": "他们可以。"
+ },
+ {
+  "seg": 442,
+  "start": 2599.028,
+  "end": 2601.509,
+  "speaker": "Unknown",
+  "en": "Yeah, the user can prompt this directly from text.",
+  "zh": "是的,用户可以直接从文本提示这个。"
+ },
+ {
+  "seg": 443,
+  "start": 2601.929,
+  "end": 2603.81,
+  "speaker": "Unknown",
+  "en": "That's kind of optional.",
+  "zh": "那有点可选。"
+ },
+ {
+  "seg": 444,
+  "start": 2603.85,
+  "end": 2606.491,
+  "speaker": "Unknown",
+  "en": "If you want to generate your world purely from text, we can do that.",
+  "zh": "如果你想纯粹从文本生成你的世界,我们可以做那个。"
+ },
+ {
+  "seg": 445,
+  "start": 2607.111,
+  "end": 2612.634,
+  "speaker": "Unknown",
+  "en": "If you want to provide text as an auxiliary input to give some extra guidance to what's happening in your input image, that can work too.",
+  "zh": "如果你想提供文本作为辅助输入,以给你的输入图像中发生的事情提供一些额外的指导,那也可以工作。"
+ },
+ {
+  "seg": 446,
+  "start": 2613.354,
+  "end": 2617.498,
+  "speaker": "Unknown",
+  "en": "But we kind of wanted to take this approach with Marvel of maximum flexibility for users.",
+  "zh": "但我们有点像想用 Marvel 这种方法给用户最大的灵活性。"
+ },
+ {
+  "seg": 447,
+  "start": 2617.938,
+  "end": 2631.65,
+  "speaker": "Unknown",
+  "en": "That no matter what kind of signal you got, no matter what kind of edit you do, no matter where you want to take it after it's generated, we want to give you a lot of pathways to use this thing and not try to like, you know, guide everyone down one rigid pathway for how to generate things or where to use it after you generate it.",
+  "zh": "即无论你得到什么样的信号,无论你做什么样的编辑,无论你生成后想去哪里,我们想给你很多途径来使用这个东西,而不试图像,你知道,引导每个人进入一个僵化的途径来生成东西或者在生成后去哪里使用它。"
+ },
+ {
+  "seg": 448,
+  "start": 2632.631,
+  "end": 2650.958,
+  "speaker": "Unknown",
+  "en": "I think where my questions around or my assumption of multi-image was coming from, like I've seen some marble worlds that were kind of your classic, you know, room and you spin around the room and there's like a ton of detail, super impressive.",
+  "zh": "我想我的问题围绕或我对多图像的假设来自哪里,就像我见过一些 marble 世界是你经典的,你知道,房间,你绕着房间旋转,那里有大量的细节,超级令人印象深刻。"
+ },
+ {
+  "seg": 449,
+  "start": 2651.679,
+  "end": 2658.782,
+  "speaker": "Unknown",
+  "en": "But then I've seen other ones where they're more like kind of these video game immersive worlds where you can like navigate, you know, through",
+  "zh": "但后来我见过其他的,它们更像是这些视频游戏沉浸式世界,你可以像导航一样,你知道,穿过"
+ },
+ {
+  "seg": 450,
+  "start": 2660.347,
+  "end": 2663.77,
+  "speaker": "Unknown",
+  "en": "You know, fantasy kind of village kind of situation.",
+  "zh": "你知道，那种奇幻村庄般的情况。"
+ },
+ {
+  "seg": 451,
+  "start": 2664.671,
+  "end": 2673.138,
+  "speaker": "Unknown",
+  "en": "And I think, are those all kind of generated from a single image generally and potentially some text conditioning?",
+  "zh": "我想，这些通常都是基于单张图像以及可能的一些文本条件生成的吗？"
+ },
+ {
+  "seg": 452,
+  "start": 2673.458,
+  "end": 2686.409,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, that's the beauty of having a world model in the loop there is that you have a single, powerful, large generative model that's been trained on a ton of data, both real world data and fantastical data and photorealistic stuff and non-photorealistic stuff.",
+  "zh": "是的，我的意思是，在循环中拥有一个世界模型的美妙之处在于，你拥有一个单一的、强大的、大型生成模型，它已经在大量数据上受过训练，包括真实世界的数据、奇幻数据、逼真的东西和非逼真的东西。"
+ },
+ {
+  "seg": 453,
+  "start": 2686.749,
+  "end": 2688.991,
+  "speaker": "Unknown",
+  "en": "So you've got this big, powerful model in the back end that",
+  "zh": "所以你在后端拥有这个庞大、强大的模型，它"
+ },
+ {
+  "seg": 454,
+  "start": 2689.291,
+  "end": 2703.867,
+  "speaker": "Unknown",
+  "en": "No matter what kind of image or prompt you bring, whether that image is of a room in your house or a fantastical video game kind of environment, you've got a model that knows all of these different kinds of worlds and can generate them as is necessary for the task at hand.",
+  "zh": "无论你带来什么样的图像或提示词，无论这张图像是你家里的房间还是奇幻视频游戏般的环境，你都有一个了解所有这些不同类型世界的模型，并且可以根据当前任务的需要生成它们。"
+ },
+ {
+  "seg": 455,
+  "start": 2705.048,
+  "end": 2714.734,
+  "speaker": "Unknown",
+  "en": "And that's kind of the major difference between having these generations backed by a big world model versus classical Gaussian splatting just fitting to these thousand images that I happen to have.",
+  "zh": "这大概就是让这些生成由一个大型世界模型支持与经典的高斯泼溅只拟合我手头的一千张图像之间的主要区别。"
+ },
+ {
+  "seg": 456,
+  "start": 2715.074,
+  "end": 2721.538,
+  "speaker": "Unknown",
+  "en": "And what can you say about the data sets that are used to create these models and the training approach and recipe?",
+  "zh": "关于用于创建这些模型的数据集以及训练方法和配方，你能说些什么？"
+ },
+ {
+  "seg": 457,
+  "start": 2721.857,
+  "end": 2723.338,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, you need to train a lot of data.",
+  "zh": "是的，我的意思是，你需要用大量数据进行训练。"
+ },
+ {
+  "seg": 458,
+  "start": 2723.918,
+  "end": 2728.901,
+  "speaker": "Unknown",
+  "en": "And one thing that's really important is being able to train on a variety of different kinds of data, right?",
+  "zh": "有一件事真的很重要，那就是能够使用各种不同种类的数据进行训练，对吧？"
+ },
+ {
+  "seg": 459,
+  "start": 2729.001,
+  "end": 2734.564,
+  "speaker": "Unknown",
+  "en": "Because ultimately, the world itself is 3D and has a lot of 3D structure.",
+  "zh": "因为归根结底，世界本身就是 3D 的，并且具有很多 3D 结构。"
+ },
+ {
+  "seg": 460,
+  "start": 2735.304,
+  "end": 2738.406,
+  "speaker": "Unknown",
+  "en": "But there's not a lot of explicit 3D data for you to learn on.",
+  "zh": "但是没有很多显式的 3D 数据供你学习。"
+ },
+ {
+  "seg": 461,
+  "start": 2738.466,
+  "end": 2740.067,
+  "speaker": "Unknown",
+  "en": "That's a pretty rare form of data.",
+  "zh": "那是一种相当罕见的数据形式。"
+ },
+ {
+  "seg": 462,
+  "start": 2740.547,
+  "end": 2741.907,
+  "speaker": "Unknown",
+  "en": "But there's a lot of images out there.",
+  "zh": "但是外面有很多图像。"
+ },
+ {
+  "seg": 463,
+  "start": 2741.927,
+  "end": 2743.168,
+  "speaker": "Unknown",
+  "en": "There's a lot of videos out there.",
+  "zh": "外面有很多视频。"
+ },
+ {
+  "seg": 464,
+  "start": 2743.528,
+  "end": 2747.428,
+  "speaker": "Unknown",
+  "en": "And images and videos are both 2D projections of a 3D world.",
+  "zh": "而图像和视频都是 3D 世界的 2D 投影。"
+ },
+ {
+  "seg": 465,
+  "start": 2747.828,
+  "end": 2758.851,
+  "speaker": "Unknown",
+  "en": "So even if you want a model that, at the end of the day, is going to produce 3D, it's still very powerful for it to learn on large quantities of image and video data, because those you can get in very large quantities.",
+  "zh": "所以，即使你想要一个最终要产生 3D 的模型，让它学习大量的图像和视频数据仍然非常强大，因为你可以非常大量地获得这些数据。"
+ },
+ {
+  "seg": 466,
+  "start": 2759.291,
+  "end": 2763.031,
+  "speaker": "Unknown",
+  "en": "And then when you've got explicit 3D data, that's very powerful to learn from.",
+  "zh": "然后，当你拥有显式的 3D 数据时，从中学习是非常强大的。"
+ },
+ {
+  "seg": 467,
+  "start": 2763.071,
+  "end": 2765.772,
+  "speaker": "Unknown",
+  "en": "But you don't want to be bottlenecked only on learning from 3D data.",
+  "zh": "但你不想仅仅因为从 3D 数据学习而受到瓶颈限制。"
+ },
+ {
+  "seg": 468,
+  "start": 2766.453,
+  "end": 2778.962,
+  "speaker": "Unknown",
+  "en": "I'm assuming that you're trying to train on whatever data you have natively as opposed to like you take an image and project it into 3D or something that sounds super expensive and noisy.",
+  "zh": "我假设你正尝试在你原生拥有的任何数据上进行训练，而不是像你拿一张图像并将其投影到 3D 中，或者某种听起来超级昂贵和嘈杂的东西。"
+ },
+ {
+  "seg": 469,
+  "start": 2779.362,
+  "end": 2779.562,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 470,
+  "start": 2779.622,
+  "end": 2786.007,
+  "speaker": "Unknown",
+  "en": "I mean, one of the lessons we learned from deep learning over the past decade is that you want big models trained on a lot of data that are trained end to end.",
+  "zh": "我的意思是，我们在过去十年从深度学习中学到的一个教训是，你需要大型模型在大量数据上训练，而且是端到端训练的。"
+ },
+ {
+  "seg": 471,
+  "start": 2786.407,
+  "end": 2788.088,
+  "speaker": "Unknown",
+  "en": "So if you've got a, like, what is your task?",
+  "zh": "所以如果你有一个，比如，你的任务是什么？"
+ },
+ {
+  "seg": 472,
+  "start": 2788.169,
+  "end": 2791.031,
+  "speaker": "Unknown",
+  "en": "Is your task to, like, generate Gaussian splat worlds today?",
+  "zh": "你的任务是，比如，今天生成高斯 splat 世界吗？"
+ },
+ {
+  "seg": 473,
+  "start": 2791.111,
+  "end": 2794.374,
+  "speaker": "Unknown",
+  "en": "Or is it to generate really powerful 3D consistent frames the next day?",
+  "zh": "还是第二天生成真正强大的 3D 一致帧？"
+ },
+ {
+  "seg": 474,
+  "start": 2794.754,
+  "end": 2797.096,
+  "speaker": "Unknown",
+  "en": "Like, just think about what is the task that you want to solve?",
+  "zh": "比如，就想一想你想要解决的任务是什么？"
+ },
+ {
+  "seg": 475,
+  "start": 2797.336,
+  "end": 2802.761,
+  "speaker": "Unknown",
+  "en": "And how can I marshal very large quantities of data to let a model learn how to solve that task in a very general way?",
+  "zh": "以及我如何调动非常大量的数据来让模型学习如何以一种非常通用的方式解决那个任务？"
+ },
+ {
+  "seg": 476,
+  "start": 2803.541,
+  "end": 2806.844,
+  "speaker": "Unknown",
+  "en": "Is the model's output directly splats?",
+  "zh": "模型的输出直接是 splats 吗？"
+ },
+ {
+  "seg": 477,
+  "start": 2806.924,
+  "end": 2807.945,
+  "speaker": "Unknown",
+  "en": "Or is there some...",
+  "zh": "还是说有一些……"
+ },
+ {
+  "seg": 478,
+  "start": 2809.527,
+  "end": 2811.208,
+  "speaker": "Unknown",
+  "en": "I think this is kind of what you were just saying.",
+  "zh": "我想这大概就是你刚才说的。"
+ },
+ {
+  "seg": 479,
+  "start": 2811.228,
+  "end": 2811.848,
+  "speaker": "Unknown",
+  "en": "Like, is it...",
+  "zh": "比如，它是……"
+ },
+ {
+  "seg": 480,
+  "start": 2813.396,
+  "end": 2822.985,
+  "speaker": "Unknown",
+  "en": "Is it producing some kind of normalized 3D representation, whatever that is, and you can convert that to pixels or splats or you just convert your, it's just spitting out splats?",
+  "zh": "它是在产生某种标准化的 3D 表示，不管那是什么，然后你可以把它转换为像素或 splats，还是说你只是转换你的，它只是吐出 splats？"
+ },
+ {
+  "seg": 481,
+  "start": 2823.68,
+  "end": 2827.244,
+  "speaker": "Unknown",
+  "en": "Yeah, the kind of rawest output from this model is splats in some way.",
+  "zh": "是的，这种模型最原始的输出在某种意义上是 splats。"
+ },
+ {
+  "seg": 482,
+  "start": 2827.605,
+  "end": 2831.549,
+  "speaker": "Unknown",
+  "en": "And then once you've got splats, that's kind of our lowest common denominator 3D format.",
+  "zh": "一旦你有了 splats，那大概就是我们的最小公分母 3D 格式。"
+ },
+ {
+  "seg": 483,
+  "start": 2831.849,
+  "end": 2838.957,
+  "speaker": "Unknown",
+  "en": "So once you've got splats, you can render them to an image and that can give you images or videos from these worlds.",
+  "zh": "所以一旦你有了 splats，你可以把它们渲染成图像，这可以给你来自这些世界的图像或视频。"
+ },
+ {
+  "seg": 484,
+  "start": 2839.818,
+  "end": 2842.521,
+  "speaker": "Unknown",
+  "en": "We can also fit a mesh representation to the world.",
+  "zh": "我们也可以将网格表示拟合到这个世界。"
+ },
+ {
+  "seg": 485,
+  "start": 2843.282,
+  "end": 2854.808,
+  "speaker": "Unknown",
+  "en": "And then in some contexts, like you want to import this into a game engine or a VFX engine, sometimes those don't work so well with splats today, and it's useful to have a more classical 3D triangle mesh of the world.",
+  "zh": "然后在某些语境下，比如你想把它导入游戏引擎或 VFX 引擎，有时那些今天不太适合处理 splats，拥有一个更经典的世界 3D 三角网格会很有用。"
+ },
+ {
+  "seg": 486,
+  "start": 2855.188,
+  "end": 2862.291,
+  "speaker": "Unknown",
+  "en": "So the splat is kind of our most rawest output format from the Marble models, and then you can go from that to images or videos or meshes.",
+  "zh": "所以 splat 大概是 Marble 模型最原始的输出格式，然后你可以从那里转到图像、视频或网格。"
+ },
+ {
+  "seg": 487,
+  "start": 2864.092,
+  "end": 2869.455,
+  "speaker": "Unknown",
+  "en": "But again, that's in pretty stark contrast to the RTFM model, where there's no splats, it just directly spits out pixels.",
+  "zh": "但同样，这与 RTFM 模型形成了非常鲜明的对比，后者没有 splats，它只是直接吐出像素。"
+ },
+ {
+  "seg": 488,
+  "start": 2870.326,
+  "end": 2879.532,
+  "speaker": "Unknown",
+  "en": "We alluded earlier to a blog post that you recently wrote or your team recently published.",
+  "zh": "我们之前提到过你最近写的一篇博文或你的团队最近发表的一篇博文。"
+ },
+ {
+  "seg": 489,
+  "start": 2880.593,
+  "end": 2895.783,
+  "speaker": "Unknown",
+  "en": "And I thought what was really interesting about that was like, you know, as kind of an analyst, anytime I see a taxonomy that tries to kind of pick apart the distinctions in a space and talk about those, I'm interested.",
+  "zh": "我觉得真正有趣的是，你知道，作为一名分析师，每当我看到一种试图在一个领域梳理出区别并谈论这些区别的分类法时，我就很感兴趣。"
+ },
+ {
+  "seg": 490,
+  "start": 2895.803,
+  "end": 2897.103,
+  "speaker": "Unknown",
+  "en": "And that is...",
+  "zh": "那就是……"
+ },
+ {
+  "seg": 491,
+  "start": 2899.79,
+  "end": 2908.173,
+  "speaker": "Unknown",
+  "en": "What you try to do, at least in a particular dimension of world models, I think we've introduced like three or four other taxonomies in this conversation so far.",
+  "zh": "你试图做的，至少在世界模型的一个特定维度上，我想我们在这次对话中到目前为止已经介绍了三四种其他的分类法。"
+ },
+ {
+  "seg": 492,
+  "start": 2909.973,
+  "end": 2917.576,
+  "speaker": "Unknown",
+  "en": "But talk a little bit about the way you kind of divided up that particular dimension of world models.",
+  "zh": "但稍微谈谈你对那个特定世界模型维度的划分方式。"
+ },
+ {
+  "seg": 493,
+  "start": 2918.176,
+  "end": 2926.685,
+  "speaker": "Unknown",
+  "en": "So there, like I said, like we talked about a couple of times, I think there's a lot of different flavors of things that people are training and calling world models that look pretty different from the outside.",
+  "zh": "所以在那里，就像我说的，就像我们讨论过几次的那样，我认为有很多不同风格的东西，人们正在训练并称之为世界模型，但从外表看它们非常不同。"
+ },
+ {
+  "seg": 494,
+  "start": 2927.506,
+  "end": 2935.094,
+  "speaker": "Unknown",
+  "en": "And when we thought about this really hard and realized that there is a framing where they all actually are kind of like different views onto the same thing.",
+  "zh": "当我们非常努力地思考这个问题并意识到，存在一种框架，在这个框架中它们实际上就像是同一事物的不同视角。"
+ },
+ {
+  "seg": 495,
+  "start": 2935.995,
+  "end": 2940.36,
+  "speaker": "Unknown",
+  "en": "And there we realized we could ground this back in this PoMDP formalism that we talked about before.",
+  "zh": "在那里我们意识到，我们可以将其建立在我们之前谈到的 PoMDP 形式主义之上。"
+ },
+ {
+  "seg": 496,
+  "start": 2940.88,
+  "end": 2946.206,
+  "speaker": "Unknown",
+  "en": "Because in this PoMDP, remember, there are three things that are moving around the system.",
+  "zh": "因为在这个 PoMDP 中，记住，有三样东西在系统中移动。"
+ },
+ {
+  "seg": 497,
+  "start": 2946.226,
+  "end": 2954.055,
+  "speaker": "Unknown",
+  "en": "You've got the agent and the world, then you've got the agent producing actions, you've got the world transitioning states, and then you've got the agent receiving observations.",
+  "zh": "你有智能体和世界，然后你有智能体产生动作，你有世界转换状态，然后你有智能体接收观测。"
+ },
+ {
+  "seg": 498,
+  "start": 2954.815,
+  "end": 2956.838,
+  "speaker": "Unknown",
+  "en": "And we realized, if you think about it that way,",
+  "zh": "我们意识到，如果你那样想的话，"
+ },
+ {
+  "seg": 499,
+  "start": 2957.579,
+  "end": 2965.289,
+  "speaker": "Unknown",
+  "en": "Pretty much everything that people are training today that are called world models are usually outputting one of three things in that loop.",
+  "zh": "今天人们训练的几乎所有被称为世界模型的东西，通常都会在该循环中输出三样东西之一。"
+ },
+ {
+  "seg": 500,
+  "start": 2965.71,
+  "end": 2973.68,
+  "speaker": "Unknown",
+  "en": "Either you're building a model that outputs actions, you're building a model that outputs states, or you're building a model that outputs observations.",
+  "zh": "要么你在构建一个输出动作的模型，要么你在构建一个输出状态的模型，要么你在构建一个输出观测的模型。"
+ },
+ {
+  "seg": 501,
+  "start": 2974.562,
+  "end": 2980.628,
+  "speaker": "Unknown",
+  "en": "And once we realized that, it was kind of an aha moment that, oh, it's not that these people are all building totally different things.",
+  "zh": "一旦我们意识到了这一点，那就像是一个顿悟时刻，哦，原来这些人并不是都在构建完全不同的东西。"
+ },
+ {
+  "seg": 502,
+  "start": 2980.888,
+  "end": 2983.992,
+  "speaker": "Unknown",
+  "en": "They're just focusing on different parts of this fundamental PoMDP loop.",
+  "zh": "他们只是专注于这个基础 PoMDP 循环的不同部分。"
+ },
+ {
+  "seg": 503,
+  "start": 2984.452,
+  "end": 2990.819,
+  "speaker": "Unknown",
+  "en": "And they're all connected together, trying to model the world and understand how worlds can respond and evolve and change over time.",
+  "zh": "它们都连接在一起，试图对世界建模，并理解世界如何响应、随时间演变和变化。"
+ },
+ {
+  "seg": 504,
+  "start": 2990.899,
+  "end": 2994.804,
+  "speaker": "Unknown",
+  "en": "But different people are focusing on different parts of that loop for different applications.",
+  "zh": "但不同的人为了不同的应用专注于该循环的不同部分。"
+ },
+ {
+  "seg": 505,
+  "start": 2995.363,
+  "end": 2995.743,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 506,
+  "start": 2995.763,
+  "end": 3004.79,
+  "speaker": "Unknown",
+  "en": "So something like a genie that's producing a stream of pixels, that would be observations in this model.",
+  "zh": "所以像 Genie 这样产生像素流的东西，在这个模型中就是观测。"
+ },
+ {
+  "seg": 507,
+  "start": 3005.151,
+  "end": 3014.998,
+  "speaker": "Unknown",
+  "en": "And something like a robotic system that's producing actions for the robot to take in the world, that's more focused on that as an output.",
+  "zh": "而像机器人系统那样产生机器人在世界中采取的动作的东西，则更专注于将其作为输出。"
+ },
+ {
+  "seg": 508,
+  "start": 3015.219,
+  "end": 3015.679,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确实如此。"
+ },
+ {
+  "seg": 509,
+  "start": 3017.1,
+  "end": 3017.801,
+  "speaker": "Unknown",
+  "en": "So then, you know,",
+  "zh": "所以那么，你知道，"
+ },
+ {
+  "seg": 510,
+  "start": 3018.782,
+  "end": 3023.807,
+  "speaker": "Unknown",
+  "en": "Then we kind of like taxonomize these into like these three different categories of world models then based on what they're outputting.",
+  "zh": "然后我们有点像根据它们输出的内容把这些世界模型归类为这三个不同的类别。"
+ },
+ {
+  "seg": 511,
+  "start": 3024.367,
+  "end": 3032.834,
+  "speaker": "Unknown",
+  "en": "So like you said, like if you're outputting the observation like Genie or like RTFM, then we're calling that a rendering world model or just a renderer, right?",
+  "zh": "就像你说的，如果你输出的是像 Genie 或 RTFM 那样的观测，那么我们称之为渲染世界模型，或者简称为渲染器，对吧？"
+ },
+ {
+  "seg": 512,
+  "start": 3032.874,
+  "end": 3038.279,
+  "speaker": "Unknown",
+  "en": "Because it's producing a final observation that can be consumed by a person or maybe by an agent.",
+  "zh": "因为它产生的是最终的观测，可以被一个人或者也许被一个智能体消费。"
+ },
+ {
+  "seg": 513,
+  "start": 3038.299,
+  "end": 3042.003,
+  "speaker": "Unknown",
+  "en": "So those are kind of what we're terming a rendering, a renderer as a world model.",
+  "zh": "所以这些就是我们所谓的作为世界模型的渲染，即渲染器。"
+ },
+ {
+  "seg": 514,
+  "start": 3043.333,
+  "end": 3048.116,
+  "speaker": "Unknown",
+  "en": "Then the other easy, the other cool one are all these people training robotics policies, right?",
+  "zh": "然后另一个容易的，另一个酷的东西是所有这些人在训练机器人策略，对吧？"
+ },
+ {
+  "seg": 515,
+  "start": 3048.136,
+  "end": 3054.138,
+  "speaker": "Unknown",
+  "en": "Like people are training models that, you know, the model operates a robot body and then the robot body does something cool in the world.",
+  "zh": "就像人们在训练模型，你知道，该模型操作一个机器人的身体，然后机器人的身体在世界中做一些很酷的事情。"
+ },
+ {
+  "seg": 516,
+  "start": 3054.499,
+  "end": 3055.659,
+  "speaker": "Unknown",
+  "en": "But then what is that model doing?",
+  "zh": "但那个模型在做什么呢？"
+ },
+ {
+  "seg": 517,
+  "start": 3056.019,
+  "end": 3059.301,
+  "speaker": "Unknown",
+  "en": "That model is kind of on the other side of the PoMDP loop, right?",
+  "zh": "那个模型有点在 PoMDP 循环的另一侧，对吧？"
+ },
+ {
+  "seg": 518,
+  "start": 3059.361,
+  "end": 3065.324,
+  "speaker": "Unknown",
+  "en": "It's receiving observations from the real world and now the model needs to take actions to, you know, try to make a change in the world.",
+  "zh": "它从现实世界接收观测，现在模型需要采取行动，你知道，试图改变世界。"
+ },
+ {
+  "seg": 519,
+  "start": 3065.744,
+  "end": 3071.647,
+  "speaker": "Unknown",
+  "en": "And then they've got a world model that is inputting real world observations and outputting actions to be made in the real world.",
+  "zh": "然后他们有了一个世界模型，它输入现实世界的观测，并输出要在现实世界中执行的动作。"
+ },
+ {
+  "seg": 520,
+  "start": 3072.327,
+  "end": 3078.952,
+  "speaker": "Unknown",
+  "en": "And that we're calling a planner, a world model as planner, because it's planning out a sequence of actions to take in the world.",
+  "zh": "我们称之为规划器，即作为规划器的世界模型，因为它在世界中规划出一系列要采取的动作。"
+ },
+ {
+  "seg": 521,
+  "start": 3079.432,
+  "end": 3092.142,
+  "speaker": "Unknown",
+  "en": "And that's almost like exactly dual to the world model as renderer, because the renderer is sort of receiving actions probably from a human user and then outputting observations of what a world might look like under those sequence of actions.",
+  "zh": "这几乎与作为渲染器的世界模型完全对偶，因为渲染器某种程度上可能是从人类用户那里接收动作，然后输出该世界在这些动作序列下可能看起来是什么样的观测。"
+ },
+ {
+  "seg": 522,
+  "start": 3092.682,
+  "end": 3096.125,
+  "speaker": "Unknown",
+  "en": "So the renderer and the planner are kind of like almost perfect duels to each other.",
+  "zh": "所以渲染器和规划器有点像彼此几乎完美的对决。"
+ },
+ {
+  "seg": 523,
+  "start": 3096.951,
+  "end": 3098.332,
+  "speaker": "Unknown",
+  "en": "And then the third one is what about the state?",
+  "zh": "那么第三个是关于状态的呢？"
+ },
+ {
+  "seg": 524,
+  "start": 3098.452,
+  "end": 3100.434,
+  "speaker": "Unknown",
+  "en": "Like that's a tricky one that we keep coming back to.",
+  "zh": "这是一个我们一直回到的棘手问题。"
+ },
+ {
+  "seg": 525,
+  "start": 3101.955,
+  "end": 3104.477,
+  "speaker": "Unknown",
+  "en": "So that we're calling world model as simulator, right?",
+  "zh": "所以我们称之为作为模拟器的世界模型，对吧？"
+ },
+ {
+  "seg": 526,
+  "start": 3104.517,
+  "end": 3110.202,
+  "speaker": "Unknown",
+  "en": "Because another important property of world models is that maybe they should do some kind of simulation of the state.",
+  "zh": "因为世界模型的另一个重要属性是，它们也许应该对状态进行某种模拟。"
+ },
+ {
+  "seg": 527,
+  "start": 3111.102,
+  "end": 3125.114,
+  "speaker": "Unknown",
+  "en": "In some contexts, you only care about the action of the observation, but in other contexts, you might want to know something about the state of the world under consideration and maybe understand or simulate how that state might evolve in response to actions in some explicit or semi-explicit way.",
+  "zh": "在某些语境下，你只关心观测的动作，但在其他语境下，你可能想知道有关考虑中的世界状态的一些事情，并且也许理解或模拟该状态如何以某种显式或半显式的方式响应动作而演变。"
+ },
+ {
+  "seg": 528,
+  "start": 3125.614,
+  "end": 3127.415,
+  "speaker": "Unknown",
+  "en": "So that's the world model is simulator.",
+  "zh": "所以这就是作为模拟器的世界模型。"
+ },
+ {
+  "seg": 529,
+  "start": 3127.795,
+  "end": 3138.863,
+  "speaker": "Unknown",
+  "en": "And then we kind of realized that, you know, planner, simulator, renderer, when you kind of think it, break it down to these terms, pretty much all the world models that people are training these days actually can be bucketed into one of these three camps, usually.",
+  "zh": "然后我们有点意识到了，你知道，规划器、模拟器、渲染器，当你思考它，把它分解为这些术语时，如今人们训练的几乎所有世界模型实际上通常都可以归入这三类之一。"
+ },
+ {
+  "seg": 530,
+  "start": 3139.323,
+  "end": 3144.807,
+  "speaker": "Unknown",
+  "en": "I thought the simulator was interesting in that",
+  "zh": "我认为模拟器的有趣之处在于"
+ },
+ {
+  "seg": 531,
+  "start": 3146.047,
+  "end": 3158.415,
+  "speaker": "Unknown",
+  "en": "I typically think of simulation as like this external tool that we're using to, you know, develop models as opposed to this framing of the model itself, you know, being fundamentally a simulator.",
+  "zh": "我通常认为模拟就像是我们用来开发模型的外部工具，而不是这种模型本身从根本上来说就是一个模拟器的框架。"
+ },
+ {
+  "seg": 532,
+  "start": 3158.996,
+  "end": 3163.318,
+  "speaker": "Unknown",
+  "en": "And there, and there that like there, I think like another interesting thing is these start to blend together.",
+  "zh": "在那里，那里那里，我认为另一件有趣的事情是，这些开始混合在一起。"
+ },
+ {
+  "seg": 533,
+  "start": 3163.439,
+  "end": 3170.643,
+  "speaker": "Unknown",
+  "en": "And I think Marble is actually an example of something that is somewhat straddling the boundary between world model as renderer and world model as simulator, right?",
+  "zh": "我认为 Marble 实际上是一个例子，它有点跨越了作为渲染器的世界模型和作为模拟器的世界模型之间的界限，对吧？"
+ },
+ {
+  "seg": 534,
+  "start": 3170.683,
+  "end": 3170.984,
+  "speaker": "Unknown",
+  "en": "Because",
+  "zh": "因为"
+ },
+ {
+  "seg": 535,
+  "start": 3171.824,
+  "end": 3178.25,
+  "speaker": "Unknown",
+  "en": "Right, because Marble ends, like, when you as a user interact with Marble, right, you're seeing pixels on the screen, right?",
+  "zh": "对，因为 Marble 结束，就像，当你作为用户与 Marble 互动时，对吧，你在屏幕上看到像素，对吧？"
+ },
+ {
+  "seg": 536,
+  "start": 3178.29,
+  "end": 3181.592,
+  "speaker": "Unknown",
+  "en": "And those pixels, you know, so in that sense, you're seeing an observation.",
+  "zh": "而那些像素，你知道，所以从那个意义上说，你正在看到一个观测。"
+ },
+ {
+  "seg": 537,
+  "start": 3182.073,
+  "end": 3185.015,
+  "speaker": "Unknown",
+  "en": "But that observation did not come directly out of the neural network.",
+  "zh": "但那个观测并不是直接来自神经网络。"
+ },
+ {
+  "seg": 538,
+  "start": 3185.035,
+  "end": 3187.297,
+  "speaker": "Unknown",
+  "en": "That observation came out of a set of Gaussian splats.",
+  "zh": "那个观测来自一组高斯溅射。"
+ },
+ {
+  "seg": 539,
+  "start": 3187.778,
+  "end": 3192.582,
+  "speaker": "Unknown",
+  "en": "And the Gaussian splats are kind of this state representation, this explicit state representation that we have of the world.",
+  "zh": "而高斯溅射是我们所拥有的世界的这种状态表示，这种显式状态表示。"
+ },
+ {
+  "seg": 540,
+  "start": 3193.202,
+  "end": 3199.007,
+  "speaker": "Unknown",
+  "en": "And then once you have that explicit state representation, you can do other things with it other than rendering, right?",
+  "zh": "一旦你拥有了这种显式状态表示，除了渲染之外，你还可以用它做其他事情，对吧？"
+ },
+ {
+  "seg": 541,
+  "start": 3199.048,
+  "end": 3208.757,
+  "speaker": "Unknown",
+  "en": "Because it's an explicit 3D representation, you can measure the distance between two points, or I can insert or I can manipulate the state explicitly by pulling in another object asset and putting it into that world.",
+  "zh": "因为它是一个显式的 3D 表示，你可以测量两点之间的距离，或者我可以通过引入另一个对象资产并将其放入该世界来显式地插入或操纵状态。"
+ },
+ {
+  "seg": 542,
+  "start": 3209.337,
+  "end": 3224.877,
+  "speaker": "Unknown",
+  "en": "So at least the version of Marble we have today, kind of the end-to-end experience as a user is you're seeing observations and you're seeing pixels on the screen, so it's kind of a renderer, but the model itself is outputting this explicit or semi-explicit world state that you can then do for other things.",
+  "zh": "所以至少我们今天拥有的 Marble 版本，某种程度上作为用户的端到端体验是你看到观测，你在屏幕上看到像素，所以它是一个渲染器，但模型本身正在输出这种显式或半显式的世界状态，然后你可以用于其他事情。"
+ },
+ {
+  "seg": 543,
+  "start": 3225.387,
+  "end": 3229.629,
+  "speaker": "Unknown",
+  "en": "That feels like a much more nuanced distinction than renderer and planner.",
+  "zh": "这感觉像是一个比渲染器和规划器更细致的区分。"
+ },
+ {
+  "seg": 544,
+  "start": 3229.869,
+  "end": 3247.419,
+  "speaker": "Unknown",
+  "en": "If I think about a renderer that, as opposed to spitting out 2D frames, was spitting out somehow 3D directly, then you can do distances between points in that",
+  "zh": "如果我想象一个渲染器，相对于吐出 2D 帧，它以某种方式直接吐出 3D，那么你可以在那个"
+ },
+ {
+  "seg": 545,
+  "start": 3248.659,
+  "end": 3250.84,
+  "speaker": "Unknown",
+  "en": "It's a representation, but it's also the observation.",
+  "zh": "它是一个表示，但它也是观测。"
+ },
+ {
+  "seg": 546,
+  "start": 3251.38,
+  "end": 3251.76,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确实如此。"
+ },
+ {
+  "seg": 547,
+  "start": 3251.78,
+  "end": 3256.821,
+  "speaker": "Unknown",
+  "en": "And that's the other kind of point that we wanted to make here is that while there is this taxonomy, it's not very rigid.",
+  "zh": "这是我们想在这里提出的另一点，即虽然存在这种分类法，但它不是很死板。"
+ },
+ {
+  "seg": 548,
+  "start": 3257.261,
+  "end": 3261.822,
+  "speaker": "Unknown",
+  "en": "And I think sticking too rigidly to it would do a disservice to all of us.",
+  "zh": "我认为太死板地坚持它会对我们所有人不利。"
+ },
+ {
+  "seg": 549,
+  "start": 3262.222,
+  "end": 3265.163,
+  "speaker": "Unknown",
+  "en": "So the real world is messy and all of our taxonomies break down.",
+  "zh": "所以现实世界是混乱的，我们所有的分类法都会崩溃。"
+ },
+ {
+  "seg": 550,
+  "start": 3265.843,
+  "end": 3267.524,
+  "speaker": "Unknown",
+  "en": "But it's a useful framework to think about.",
+  "zh": "但这是一个有用的思考框架。"
+ },
+ {
+  "seg": 551,
+  "start": 3267.564,
+  "end": 3273.245,
+  "speaker": "Unknown",
+  "en": "But in reality, I think the world models that are going to carry us at the end of the day are actually going to blend all of these aspects together.",
+  "zh": "但实际上，我认为最终将承载我们的世界模型实际上会将所有这些方面融合在一起。"
+ },
+ {
+  "seg": 552,
+  "start": 3274.345,
+  "end": 3277.786,
+  "speaker": "Unknown",
+  "en": "We ultimately want to have one combined system that could do all of these things.",
+  "zh": "我们最终想要拥有一个可以做所有这些事情的综合系统。"
+ },
+ {
+  "seg": 553,
+  "start": 3278.386,
+  "end": 3297.669,
+  "speaker": "Unknown",
+  "en": "Yeah, but I think I'm also asking for more elaboration on like simulator and, you know, beyond the marble example, are there other examples that kind of capture this idea of model as simulator?",
+  "zh": "是的，但我认为我也在寻求更多关于模拟器的阐述，你知道，除了弹珠的例子之外，是否还有其他例子能捕捉到这种模型即模拟器的概念？"
+ },
+ {
+  "seg": 554,
+  "start": 3298.29,
+  "end": 3299.451,
+  "speaker": "Unknown",
+  "en": "Yeah, I think there's a couple examples.",
+  "zh": "是的，我想有几个例子。"
+ },
+ {
+  "seg": 555,
+  "start": 3299.731,
+  "end": 3306.058,
+  "speaker": "Unknown",
+  "en": "I actually don't think anyone's nailed that one right now, but I think there's a couple flavors of future systems I can imagine here.",
+  "zh": "我其实不认为现在有人已经搞定了那个，但我认为我可以在这里想象出几种未来系统的形态。"
+ },
+ {
+  "seg": 556,
+  "start": 3307.479,
+  "end": 3311.023,
+  "speaker": "Unknown",
+  "en": "One is maybe like the marble explicit state future version.",
+  "zh": "一种可能像是弹珠显式状态的未来版本。"
+ },
+ {
+  "seg": 557,
+  "start": 3312.064,
+  "end": 3315.187,
+  "speaker": "Unknown",
+  "en": "Not to say that this is actually what we're going to do, but one could do.",
+  "zh": "并不是说这就是我们要做的，但人们可以这么做。"
+ },
+ {
+  "seg": 558,
+  "start": 3316.908,
+  "end": 3318.59,
+  "speaker": "Unknown",
+  "en": "Also not to say that we're not doing it either, right?",
+  "zh": "也不是说我们不会这么做，对吧？"
+ },
+ {
+  "seg": 559,
+  "start": 3320.752,
+  "end": 3328.934,
+  "speaker": "Unknown",
+  "en": "But you could imagine a version of this that treats something like Gaussian splats as a world state, but actually has a model evolve that state over time.",
+  "zh": "但你可以想象这样一个版本，它把像高斯溅射这样的东西视为一种世界状态，但实际上有一个模型让该状态随时间演化。"
+ },
+ {
+  "seg": 560,
+  "start": 3329.454,
+  "end": 3337.776,
+  "speaker": "Unknown",
+  "en": "So you could have then a model that inputs an image, outputs a Gaussian splat world, and then a user is going to take some action, like pick up the bottle or move something around.",
+  "zh": "所以你可以有一个模型，输入一张图像，输出一个高斯溅射世界，然后用户将采取一些行动，比如拿起瓶子或移动某物。"
+ },
+ {
+  "seg": 561,
+  "start": 3337.796,
+  "end": 3343.598,
+  "speaker": "Unknown",
+  "en": "And then you'll have a model that will then go in and update the Gaussian splat world with a powerful neural network model.",
+  "zh": "然后你会有一个模型，它将使用一个强大的神经网络模型进入并更新高斯溅射世界。"
+ },
+ {
+  "seg": 562,
+  "start": 3344.058,
+  "end": 3352.201,
+  "speaker": "Unknown",
+  "en": "So that would be then a model that is, you know, working with this explicit or semi explicit world state, and then actually being able to evolve that world state over time in response to actions.",
+  "zh": "所以那将是一个你知道的，与这种显式或半显式世界状态一起工作的模型，然后实际上能够根据行动随时间演化该世界状态。"
+ },
+ {
+  "seg": 563,
+  "start": 3353.043,
+  "end": 3355.884,
+  "speaker": "Unknown",
+  "en": "And I don't think anyone's really built a system like that, but they could.",
+  "zh": "而且我不认为有人真的构建了这样的系统，但他们可以。"
+ },
+ {
+  "seg": 564,
+  "start": 3356.724,
+  "end": 3359.144,
+  "speaker": "Unknown",
+  "en": "And the other would be kind of the implicit world state.",
+  "zh": "另一种则是隐式世界状态。"
+ },
+ {
+  "seg": 565,
+  "start": 3359.244,
+  "end": 3366.406,
+  "speaker": "Unknown",
+  "en": "And maybe we can build systems that maybe they're not working on Gaussian splats directly, but they have some kind of vector, implicit vector representation of a world state.",
+  "zh": "也许我们可以构建那些可能不直接在高斯溅射上工作的系统，但它们具有某种世界状态的向量、隐式向量表示。"
+ },
+ {
+  "seg": 566,
+  "start": 3366.946,
+  "end": 3382.61,
+  "speaker": "Unknown",
+  "en": "And it behaves in the way that an explicit state would, where you can render observations from it, you can have networks that predict how that state evolves in response to actions, predict how that state is going to evolve in time, and sort of have a neural network analog of that explicit world state.",
+  "zh": "它的行为方式就像显式状态一样，你可以从中渲染观测，你可以拥有网络来预测该状态如何响应行动而演化，预测该状态将如何在时间上演化，并且拥有那种显式世界状态的神经网络模拟物。"
+ },
+ {
+  "seg": 567,
+  "start": 3382.91,
+  "end": 3390.298,
+  "speaker": "Unknown",
+  "en": "And I think people are working on that, but that feels like it's still a pretty open research question as to what's the exact right recipe to get that to work.",
+  "zh": "我认为人们正在研究这个，但这感觉仍然是一个相当开放的研究问题，即究竟什么样的正确配方能让它工作。"
+ },
+ {
+  "seg": 568,
+  "start": 3390.829,
+  "end": 3403.781,
+  "speaker": "Unknown",
+  "en": "Yeah, the other thing that jumps out at me in thinking about this simulator is that like maybe a perfect expression of a simulator is this theory builder that we talked about.",
+  "zh": "是的，在思考这个模拟器时跳出来的另一件事是，也许模拟器的完美表达是我们谈到的这个理论构建者。"
+ },
+ {
+  "seg": 569,
+  "start": 3404.201,
+  "end": 3412.669,
+  "speaker": "Unknown",
+  "en": "Like it takes these abstract ideas and kind of boils them down into, you know, in this case, the state is a set of theories about the world.",
+  "zh": "就像它接受这些抽象的想法，并你知道在某种程度上将它们归纳为，在这种情况下，状态是一组关于世界的理论。"
+ },
+ {
+  "seg": 570,
+  "start": 3413.188,
+  "end": 3419.19,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, then you got to talk about like states and metastates and theories and metastate theories and push it up a level of abstraction, right?",
+  "zh": "是的，我是说，然后你必须谈论状态和元状态、理论和元状态理论，并将其推向一个抽象层级，对吧？"
+ },
+ {
+  "seg": 571,
+  "start": 3419.21,
+  "end": 3424.052,
+  "speaker": "Unknown",
+  "en": "Like, you could say, like, maybe the theory builder is the one who's writing the laws of physics in the states.",
+  "zh": "就像，你可以说，也许理论构建者就是那个在状态中书写物理定律的人。"
+ },
+ {
+  "seg": 572,
+  "start": 3424.552,
+  "end": 3429.814,
+  "speaker": "Unknown",
+  "en": "So like the theory kind of encapsulates the kinds of worlds that may exist and how those kinds of worlds are allowed to evolve.",
+  "zh": "所以就像理论概括了可能存在的世界类型以及这些类型的世界如何被允许演化。"
+ },
+ {
+  "seg": 573,
+  "start": 3430.194,
+  "end": 3434.016,
+  "speaker": "Unknown",
+  "en": "And then the state is like one particular instantiation of the theory that tells you a particular world.",
+  "zh": "然后状态就像理论的一个特定实例，它告诉你一个特定的世界。"
+ },
+ {
+  "seg": 574,
+  "start": 3434.716,
+  "end": 3437.437,
+  "speaker": "Unknown",
+  "en": "But that's like that's that I don't think anyone has any clue how to do.",
+  "zh": "但那个就像那个我不认为任何人都知道怎么做。"
+ },
+ {
+  "seg": 575,
+  "start": 3437.757,
+  "end": 3438.377,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 576,
+  "start": 3438.457,
+  "end": 3440.378,
+  "speaker": "Unknown",
+  "en": "Okay, we're getting a bit too abstract there.",
+  "zh": "好的，我们在那里变得有点太抽象了。"
+ },
+ {
+  "seg": 577,
+  "start": 3441.779,
+  "end": 3445.12,
+  "speaker": "Unknown",
+  "en": "You talked a little bit about this idea of a unified world model.",
+  "zh": "你稍微谈了一点关于统一世界模型的想法。"
+ },
+ {
+  "seg": 578,
+  "start": 3445.16,
+  "end": 3454.824,
+  "speaker": "Unknown",
+  "en": "I think we captured that a little bit as just the idea that it's kind of a leaky abstraction and you're not expecting",
+  "zh": "我认为我们稍微捕捉到了那个想法，即它是一种泄漏的抽象，而且你并不指望"
+ },
+ {
+  "seg": 579,
+  "start": 3455.987,
+  "end": 3460.733,
+  "speaker": "Unknown",
+  "en": "You're expecting kind of crossover in real-world products.",
+  "zh": "你指望在现实世界的产品中有某种交叉。"
+ },
+ {
+  "seg": 580,
+  "start": 3461.374,
+  "end": 3461.775,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确实。"
+ },
+ {
+  "seg": 581,
+  "start": 3461.815,
+  "end": 3468.243,
+  "speaker": "Unknown",
+  "en": "What I think we're going to get to as a field is models that can do all of these jointly, and they're all going to benefit from each other.",
+  "zh": "我认为我们作为一个领域将达到的目标是能够共同做所有这些事情的模型，而且它们都将受益于彼此。"
+ },
+ {
+  "seg": 582,
+  "start": 3468.724,
+  "end": 3469.285,
+  "speaker": "Unknown",
+  "en": "And why is that?",
+  "zh": "那是为什么？"
+ },
+ {
+  "seg": 583,
+  "start": 3469.325,
+  "end": 3472.029,
+  "speaker": "Unknown",
+  "en": "It's because they're all kind of asking similar questions.",
+  "zh": "是因为它们都在问类似的问题。"
+ },
+ {
+  "seg": 584,
+  "start": 3472.589,
+  "end": 3475.151,
+  "speaker": "Unknown",
+  "en": "They want to understand what are the kinds of worlds that could exist?",
+  "zh": "它们想要理解什么样的世界可能存在？"
+ },
+ {
+  "seg": 585,
+  "start": 3475.632,
+  "end": 3477.393,
+  "speaker": "Unknown",
+  "en": "How could those worlds respond to action?",
+  "zh": "这些世界如何响应行动？"
+ },
+ {
+  "seg": 586,
+  "start": 3477.734,
+  "end": 3478.875,
+  "speaker": "Unknown",
+  "en": "What do those worlds look like?",
+  "zh": "那些世界看起来是什么样的？"
+ },
+ {
+  "seg": 587,
+  "start": 3478.935,
+  "end": 3481.297,
+  "speaker": "Unknown",
+  "en": "What kind of observations arise from those worlds?",
+  "zh": "从那些世界中产生什么样的观测？"
+ },
+ {
+  "seg": 588,
+  "start": 3481.597,
+  "end": 3482.538,
+  "speaker": "Unknown",
+  "en": "How do they evolve in time?",
+  "zh": "它们如何在时间中演化？"
+ },
+ {
+  "seg": 589,
+  "start": 3482.818,
+  "end": 3483.599,
+  "speaker": "Unknown",
+  "en": "What can you do with them?",
+  "zh": "你能用它们做什么？"
+ },
+ {
+  "seg": 590,
+  "start": 3483.919,
+  "end": 3487.442,
+  "speaker": "Unknown",
+  "en": "These are all fundamental questions that all connect to each other.",
+  "zh": "这些都是相互关联的基本问题。"
+ },
+ {
+  "seg": 591,
+  "start": 3487.983,
+  "end": 3494.749,
+  "speaker": "Unknown",
+  "en": "If I get better at understanding how the world state evolves, probably I'll also get better at anticipating what it's going to look like from different angles as a renderer.",
+  "zh": "如果我在理解世界状态如何演化方面变得更好，可能我在作为渲染器预测它从不同角度看是什么样子方面也会变得更好。"
+ },
+ {
+  "seg": 592,
+  "start": 3495.149,
+  "end": 3501.879,
+  "speaker": "Unknown",
+  "en": "And if I'm really good at imagining how the implicit world state is going to evolve, probably that's pretty good for planning, right?",
+  "zh": "如果我真的非常擅长想象隐式世界状态将如何演化，那可能对规划非常有好处，对吧？"
+ },
+ {
+  "seg": 593,
+  "start": 3501.939,
+  "end": 3508.248,
+  "speaker": "Unknown",
+  "en": "If I can implicitly evolve my world state, probably I can also plan against that state and know how to take actions to affect the world.",
+  "zh": "如果我可以隐式地演化我的世界状态，可能我也可以针对该状态进行规划，并知道如何采取行动来影响世界。"
+ },
+ {
+  "seg": 594,
+  "start": 3508.755,
+  "end": 3518.004,
+  "speaker": "Unknown",
+  "en": "So I think it's pretty, I don't think we're there yet, but I think over the next couple of years, we'll start to see models that combine more and more of these capabilities into one powerful unified model.",
+  "zh": "所以我认为这相当，我不认为我们已经到了那一步，但我认为在接下来的几年里，我们将开始看到模型将这些能力中的越来越多结合到一个强大的统一模型中。"
+ },
+ {
+  "seg": 595,
+  "start": 3518.605,
+  "end": 3531.458,
+  "speaker": "Unknown",
+  "en": "And then like what output you want at one moment in time is less a function of having specialized models that are renders or simulators or planners, but more about, you know, is it today I want to drive a robot so it's going to operate in planner mode and tomorrow I want to, you know,",
+  "zh": "然后就像，你在某一时刻想要什么输出，与其说是拥有作为渲染器或模拟器或规划器的专门模型的功能，不如说是关于，你知道，今天我想驱动一个机器人所以它将以规划器模式运行，明天我想，你知道，"
+ },
+ {
+  "seg": 596,
+  "start": 3531.798,
+  "end": 3540.474,
+  "speaker": "Unknown",
+  "en": "Drive a virtual video game so it's operating in renderer mode or tomorrow or the next day I want to, you know, simulate possible counterfactuals in a world and now I want it to operate in simulator mode.",
+  "zh": "驱动一个虚拟视频游戏所以它以渲染器模式运行，或者明天或后天我想，你知道，模拟世界中可能的反事实，现在我希望它以模拟器模式运行。"
+ },
+ {
+  "seg": 597,
+  "start": 3540.854,
+  "end": 3543.659,
+  "speaker": "Unknown",
+  "en": "So I think like that's kind of where the field is going to get the next couple of years.",
+  "zh": "所以我认为这就是该领域在未来几年的发展方向。"
+ },
+ {
+  "seg": 598,
+  "start": 3544.518,
+  "end": 3554.491,
+  "speaker": "Unknown",
+  "en": "That makes me think of like this idea of like the output layer in a neural network is like it could be classification or it could be, you know, regression or something else.",
+  "zh": "这让我想到就像神经网络中的输出层这个想法，就像它可以是分类或者它可以是，你知道，回归或其他东西。"
+ },
+ {
+  "seg": 599,
+  "start": 3554.531,
+  "end": 3558.096,
+  "speaker": "Unknown",
+  "en": "But like the core representation is, you know, for the most part, the same.",
+  "zh": "但就像核心表示是，你知道，在大多数情况下，相同的。"
+ },
+ {
+  "seg": 600,
+  "start": 3558.837,
+  "end": 3562.742,
+  "speaker": "Unknown",
+  "en": "And, you know, we're just kind of using it in different ways.",
+  "zh": "你知道，我们只是以不同的方式使用它。"
+ },
+ {
+  "seg": 601,
+  "start": 3563.213,
+  "end": 3563.754,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 602,
+  "start": 3563.794,
+  "end": 3565.115,
+  "speaker": "Unknown",
+  "en": "I think that's what we're going to get.",
+  "zh": "我想这就是我们会得到的。"
+ },
+ {
+  "seg": 603,
+  "start": 3565.135,
+  "end": 3572.141,
+  "speaker": "Unknown",
+  "en": "We're going to have these giant unified world models that have maybe different input heads, different output heads that know how to input and output different kinds of things.",
+  "zh": "我们将拥有这些巨大的统一世界模型，它们可能有不同的输入头、不同的输出头，知道如何输入和输出不同种类的东西。"
+ },
+ {
+  "seg": 604,
+  "start": 3572.561,
+  "end": 3581.449,
+  "speaker": "Unknown",
+  "en": "But ultimately, all the compute, all the parameters of this model are going to be this shared trunk that is this world model that knows how to simulate any kind of a thing implicitly in its weights.",
+  "zh": "但归根结底，所有的计算，这个模型的所有参数都将是这个共享主干，也就是这个知道如何在其权重中隐式地模拟任何类型事物的世界模型。"
+ },
+ {
+  "seg": 605,
+  "start": 3581.79,
+  "end": 3587.675,
+  "speaker": "Unknown",
+  "en": "Then it can surface that world knowledge as actions or as states or as observations as needed for the application.",
+  "zh": "然后它可以根据应用程序的需要，将那些世界知识呈现为动作、状态或观察结果。"
+ },
+ {
+  "seg": 606,
+  "start": 3588.22,
+  "end": 3596.104,
+  "speaker": "Unknown",
+  "en": "I think the next question I wanted to get at was, and really kind of a closing question, is like, do current architectures get us there?",
+  "zh": "我想我想问的下一个问题，也算是一个结束性问题，就是，当前的架构能让我们达到那个目标吗？"
+ },
+ {
+  "seg": 607,
+  "start": 3596.224,
+  "end": 3608.589,
+  "speaker": "Unknown",
+  "en": "Like, and you just said, you know, kind of no, like the architecture evolves, but it's kind of consistent with the way we think about, you know, today's models, transformers, et cetera.",
+  "zh": "就像，你刚才说，你知道，某种程度上不，就像架构在进化，但这与我们要思考今天的模型、Transformer 等等的方式是一致的。"
+ },
+ {
+  "seg": 608,
+  "start": 3609.83,
+  "end": 3616.593,
+  "speaker": "Unknown",
+  "en": "Do you foresee kind of an architectural step function being required to",
+  "zh": "你是否预见需要一种架构上的阶跃函数来"
+ },
+ {
+  "seg": 609,
+  "start": 3617.513,
+  "end": 3619.494,
+  "speaker": "Unknown",
+  "en": "You know, fulfill the potential of world models.",
+  "zh": "你知道，实现世界模型的潜力。"
+ },
+ {
+  "seg": 610,
+  "start": 3619.854,
+  "end": 3621.634,
+  "speaker": "Unknown",
+  "en": "Maybe, yes, but not as big a one.",
+  "zh": "也许是的，但不会有那么大。"
+ },
+ {
+  "seg": 611,
+  "start": 3621.814,
+  "end": 3622.755,
+  "speaker": "Unknown",
+  "en": "Probably not too big.",
+  "zh": "可能不会太大。"
+ },
+ {
+  "seg": 612,
+  "start": 3623.035,
+  "end": 3625.355,
+  "speaker": "Unknown",
+  "en": "I think transformers are really, really powerful.",
+  "zh": "我认为 Transformer 非常、非常强大。"
+ },
+ {
+  "seg": 613,
+  "start": 3625.375,
+  "end": 3627.176,
+  "speaker": "Unknown",
+  "en": "Yeah, I get this question a lot.",
+  "zh": "是的，我经常被问到这个问题。"
+ },
+ {
+  "seg": 614,
+  "start": 3627.216,
+  "end": 3628.756,
+  "speaker": "Unknown",
+  "en": "Like, does that mean transformers are dead?",
+  "zh": "就像，这是否意味着 Transformer 已经过时了？"
+ },
+ {
+  "seg": 615,
+  "start": 3628.776,
+  "end": 3629.597,
+  "speaker": "Unknown",
+  "en": "Do we need new architectures?",
+  "zh": "我们需要新的架构吗？"
+ },
+ {
+  "seg": 616,
+  "start": 3629.637,
+  "end": 3630.897,
+  "speaker": "Unknown",
+  "en": "Like, no, transformers are great.",
+  "zh": "不，Transformer 很棒。"
+ },
+ {
+  "seg": 617,
+  "start": 3630.977,
+  "end": 3632.317,
+  "speaker": "Unknown",
+  "en": "Transformers are super powerful.",
+  "zh": "Transformer 超级强大。"
+ },
+ {
+  "seg": 618,
+  "start": 3632.357,
+  "end": 3633.858,
+  "speaker": "Unknown",
+  "en": "They scale up really well.",
+  "zh": "它们的扩展性真的很好。"
+ },
+ {
+  "seg": 619,
+  "start": 3633.898,
+  "end": 3637.139,
+  "speaker": "Unknown",
+  "en": "They can work on all different kinds of data.",
+  "zh": "它们可以处理所有不同类型的数据。"
+ },
+ {
+  "seg": 620,
+  "start": 3637.499,
+  "end": 3639.159,
+  "speaker": "Unknown",
+  "en": "So, transformers are very powerful.",
+  "zh": "所以，Transformer 非常强大。"
+ },
+ {
+  "seg": 621,
+  "start": 3639.199,
+  "end": 3640.8,
+  "speaker": "Unknown",
+  "en": "They could use them for all different kinds of problems.",
+  "zh": "你可以用它们来解决所有不同种类的问题。"
+ },
+ {
+  "seg": 622,
+  "start": 3641.921,
+  "end": 3647.105,
+  "speaker": "Unknown",
+  "en": "I think there is a loss function question about what is the right loss function for training these kinds of generative models.",
+  "zh": "我认为存在一个损失函数的问题，即什么是训练这些生成模型的正确损失函数。"
+ },
+ {
+  "seg": 623,
+  "start": 3647.565,
+  "end": 3648.926,
+  "speaker": "Unknown",
+  "en": "And that's more up in the air.",
+  "zh": "这一点还悬而未决。"
+ },
+ {
+  "seg": 624,
+  "start": 3649.406,
+  "end": 3652.068,
+  "speaker": "Unknown",
+  "en": "Do we want to train these things as a generative model?",
+  "zh": "我们想把这些东西作为生成模型来训练吗？"
+ },
+ {
+  "seg": 625,
+  "start": 3652.148,
+  "end": 3655.071,
+  "speaker": "Unknown",
+  "en": "If it's a generative model, do you train it via diffusion or rectified flow?",
+  "zh": "如果它是生成模型，你是通过 diffusion 还是 rectified flow 来训练它？"
+ },
+ {
+  "seg": 626,
+  "start": 3655.371,
+  "end": 3658.533,
+  "speaker": "Unknown",
+  "en": "Do you train it as a discrete autoregression or something else?",
+  "zh": "你是把它作为离散自回归来训练还是其他什么？"
+ },
+ {
+  "seg": 627,
+  "start": 3659.014,
+  "end": 3664.938,
+  "speaker": "Unknown",
+  "en": "So there is a kind of a loss function question that's really applicable to any kind of generative model that I think is probably going to evolve and has already.",
+  "zh": "所以存在一种损失函数问题，它真的适用于任何类型的生成模型，我认为这可能会进化，并且已经在进化了。"
+ },
+ {
+  "seg": 628,
+  "start": 3665.218,
+  "end": 3667.02,
+  "speaker": "Unknown",
+  "en": "We used to do GANs, now it's diffusion.",
+  "zh": "我们以前做 GANs，现在是 diffusion。"
+ },
+ {
+  "seg": 629,
+  "start": 3667.881,
+  "end": 3670.643,
+  "speaker": "Unknown",
+  "en": "That's a kind of a change in loss function more than it is a change in architecture.",
+  "zh": "这更像是一种损失函数的改变，而不是架构的改变。"
+ },
+ {
+  "seg": 630,
+  "start": 3672.164,
+  "end": 3681.373,
+  "speaker": "Unknown",
+  "en": "But, you know, another one, one area where I do think we need to see some evolution architecturally is how do we deal with really, really long contacts and really, really, really lots of tokens.",
+  "zh": "但，你知道，另一个，我认为确实需要在架构上看到一些进化的领域是我们如何处理非常、非常长的联系以及非常、非常、非常多的 token。"
+ },
+ {
+  "seg": 631,
+  "start": 3682.074,
+  "end": 3693.345,
+  "speaker": "Unknown",
+  "en": "So, you know, this is something that comes up in LLMs already, like LLMs are transformers, they work on tokens, but you can do a lot of problems, you know, even maybe, maybe this is less true now in the agentic era, but a couple years ago, like...",
+  "zh": "所以，你知道，这已经在 LLM 中出现了，比如 LLM 是 Transformer，它们处理 token，但你可以解决很多问题，你知道，甚至也许，也许这在智能体时代不那么成立了，但在几年前，像……"
+ },
+ {
+  "seg": 632,
+  "start": 3693.505,
+  "end": 3699.654,
+  "speaker": "Unknown",
+  "en": "It was hard to imagine situations that an LLM needs to operate on million or 10 million tokens because that's like whole books.",
+  "zh": "很难想象 LLM 需要操作 100 万或 1000 万 token 的情况，因为那就像整本书一样。"
+ },
+ {
+  "seg": 633,
+  "start": 3699.754,
+  "end": 3704.301,
+  "speaker": "Unknown",
+  "en": "Like, yeah, in principle, there's problems you need to fit whole book, cram whole books into your context.",
+  "zh": "就像，是的，原则上，有些问题你需要放入整本书，把整本书塞进你的上下文中。"
+ },
+ {
+  "seg": 634,
+  "start": 3704.381,
+  "end": 3708.647,
+  "speaker": "Unknown",
+  "en": "But, you know, maybe those are not, you could do a lot with language without needing that big of a context.",
+  "zh": "但，你知道，也许那些不是，你可以在不需要那么大的上下文的情况下用语言做很多事情。"
+ },
+ {
+  "seg": 635,
+  "start": 3709.248,
+  "end": 3718.433,
+  "speaker": "Unknown",
+  "en": "Um, but nowadays, but if you want to talk about worlds, like, you know, I need to generate, you know, model, maybe lots and lots of high dimensional images or lots and lots of space in 3D.",
+  "zh": "嗯，但是如今，但如果你想谈论世界，就像，你知道，我需要生成，你知道，模型，也许很多很多高维图像或者很多很多 3D 空间。"
+ },
+ {
+  "seg": 636,
+  "start": 3718.793,
+  "end": 3726.617,
+  "speaker": "Unknown",
+  "en": "Like it's very quick, very easy to get situations where you want hundreds of thousands or millions or tens of millions of tokens of context for different world modeling problems.",
+  "zh": "这非常快，非常容易遇到这样的情况：对于不同的世界建模问题，你需要数十万、数百万或数千万 token 的上下文。"
+ },
+ {
+  "seg": 637,
+  "start": 3727.057,
+  "end": 3733.461,
+  "speaker": "Unknown",
+  "en": "So I do think we need to see some evolution in, you know, how do we adapt transformers to work at really, really long context lengths?",
+  "zh": "所以我确实认为我们需要看到一些进化，你知道，我们如何调整 Transformer 以在非常、非常长的上下文长度下工作？"
+ },
+ {
+  "seg": 638,
+  "start": 3735.562,
+  "end": 3739.066,
+  "speaker": "Unknown",
+  "en": "Because that becomes kind of a nice-to-have in LLMs.",
+  "zh": "因为这在 LLM 中变成了一种“锦上添花”。"
+ },
+ {
+  "seg": 639,
+  "start": 3739.306,
+  "end": 3742.108,
+  "speaker": "Unknown",
+  "en": "That becomes the everyday problem for any scaled-up world model.",
+  "zh": "这对于任何扩展后的世界模型来说都成了日常问题。"
+ },
+ {
+  "seg": 640,
+  "start": 3742.328,
+  "end": 3749.675,
+  "speaker": "Unknown",
+  "en": "That begs the question, how should we think about both tokens and contexts in world models?",
+  "zh": "这引出了一个问题，我们应该如何看待世界模型中的 token 和上下文？"
+ },
+ {
+  "seg": 641,
+  "start": 3749.715,
+  "end": 3753.378,
+  "speaker": "Unknown",
+  "en": "Does the context length limit the size of the world?",
+  "zh": "上下文长度是否限制了世界的大小？"
+ },
+ {
+  "seg": 642,
+  "start": 3753.598,
+  "end": 3757.962,
+  "speaker": "Unknown",
+  "en": "Or are we paging out sections of the world and so it's not a hard constraint?",
+  "zh": "或者是我们将世界的各个部分换出，所以这不是一个硬约束？"
+ },
+ {
+  "seg": 643,
+  "start": 3758.943,
+  "end": 3762.526,
+  "speaker": "Unknown",
+  "en": "Does token correspond to a splat or some other construct?",
+  "zh": "token 是否对应一个 splat 或其他某种构造？"
+ },
+ {
+  "seg": 644,
+  "start": 3762.626,
+  "end": 3763.967,
+  "speaker": "Unknown",
+  "en": "Like, how do these things relate?",
+  "zh": "就像，这些东西如何关联？"
+ },
+ {
+  "seg": 645,
+  "start": 3764.147,
+  "end": 3766.689,
+  "speaker": "Unknown",
+  "en": "I think that's that's where there's a lot of, you know, different things happening.",
+  "zh": "我认为那是那里有很多，你知道，不同的事情正在发生的地方。"
+ },
+ {
+  "seg": 646,
+  "start": 3766.729,
+  "end": 3768.31,
+  "speaker": "Unknown",
+  "en": "And that's where I do see a lot of evolution.",
+  "zh": "那也是我确实看到很多进化的地方。"
+ },
+ {
+  "seg": 647,
+  "start": 3768.671,
+  "end": 3779.619,
+  "speaker": "Unknown",
+  "en": "So that's like in some architectures, a token will be maybe a little chunk of a video, you know, maybe a 16 by 16 spatial 16 by 16 pixels and like four, four frames in time.",
+  "zh": "所以这就像在某些架构中，一个 token 可能是一小块视频，你知道，也许是 16 乘 16 的空间 16 乘 16 像素，以及像四，四帧的时间。"
+ },
+ {
+  "seg": 648,
+  "start": 3780.179,
+  "end": 3783.202,
+  "speaker": "Unknown",
+  "en": "So some architectures, a token is literally like a little patch of a video.",
+  "zh": "所以在某些架构中，一个 token 实际上就像一小块视频。"
+ },
+ {
+  "seg": 649,
+  "start": 3784.322,
+  "end": 3788.844,
+  "speaker": "Unknown",
+  "en": "In some architectures, that token might be a little bundle of splats somewhere in the world.",
+  "zh": "在某些架构中，那个 token 可能是世界中某处的一小束 splat。"
+ },
+ {
+  "seg": 650,
+  "start": 3789.444,
+  "end": 3793.966,
+  "speaker": "Unknown",
+  "en": "In some architectures, that token might be a little chunk of 3D space.",
+  "zh": "在某些架构中，那个词元可能是一小块 3D 空间。"
+ },
+ {
+  "seg": 651,
+  "start": 3794.306,
+  "end": 3799.228,
+  "speaker": "Unknown",
+  "en": "Maybe I've carved up my 3D space into voxels and now each token corresponds to some chunk of 3D space.",
+  "zh": "也许我把我的 3D 空间划分成了体素，现在每个词元对应于 3D 空间的某一块。"
+ },
+ {
+  "seg": 652,
+  "start": 3800.588,
+  "end": 3803.31,
+  "speaker": "Unknown",
+  "en": "Or maybe those tokens are something abstract and latent.",
+  "zh": "或者也许那些词元是某种抽象的和潜在的东西。"
+ },
+ {
+  "seg": 653,
+  "start": 3803.69,
+  "end": 3809.294,
+  "speaker": "Unknown",
+  "en": "Like maybe I've got a latent world state that is just a number, like maybe I've just allocated, you know, my world state has a thousand tokens.",
+  "zh": "就像也许我有一个潜在的世界状态只是一个数字，就像也许我只是分配了，你知道，我的世界状态有一千个词元。"
+ },
+ {
+  "seg": 654,
+  "start": 3809.515,
+  "end": 3809.995,
+  "speaker": "Unknown",
+  "en": "What do they mean?",
+  "zh": "它们意味着什么？"
+ },
+ {
+  "seg": 655,
+  "start": 3810.035,
+  "end": 3810.455,
+  "speaker": "Unknown",
+  "en": "It's opaque.",
+  "zh": "它是不透明的。"
+ },
+ {
+  "seg": 656,
+  "start": 3810.555,
+  "end": 3811.936,
+  "speaker": "Unknown",
+  "en": "Model, figure it out.",
+  "zh": "模型，去搞清楚吧。"
+ },
+ {
+  "seg": 657,
+  "start": 3812.177,
+  "end": 3816.78,
+  "speaker": "Unknown",
+  "en": "So I think that's where we're seeing a lot of evolution and a lot of different approaches doing different things architecturally.",
+  "zh": "所以我认为这就是我们看到很多演变以及很多不同的方法在架构上做不同事情的地方。"
+ },
+ {
+  "seg": 658,
+  "start": 3817.233,
+  "end": 3828.843,
+  "speaker": "Unknown",
+  "en": "Also in this architectural thread, do you see a role for kind of these ideas around geometric deep learning or different models that incorporate symmetry?",
+  "zh": "同样在这个架构脉络中，你看到过这些围绕几何深度学习的想法或者融入对称性的不同模型的角色吗？"
+ },
+ {
+  "seg": 659,
+  "start": 3828.963,
+  "end": 3838.651,
+  "speaker": "Unknown",
+  "en": "There's been a variety of work around trying to incorporate geometry into deep learning.",
+  "zh": "已经有各种各样的工作试图将几何融入深度学习。"
+ },
+ {
+  "seg": 660,
+  "start": 3838.971,
+  "end": 3845.377,
+  "speaker": "Unknown",
+  "en": "And at least from a particular lens, it seems like if we're talking about spatial information, there may be a role for that.",
+  "zh": "至少从特定的视角来看，好像如果我们谈论空间信息，那里可能有一席之地。"
+ },
+ {
+  "seg": 661,
+  "start": 3845.738,
+  "end": 3854.342,
+  "speaker": "Unknown",
+  "en": "Maybe, but I think the lesson we've learned over and over again in deep learning is that you want simple representations and then scale up the model behind the simple representations.",
+  "zh": "也许吧，但我认为我们在深度学习中学过的一遍又一遍的教训是，你想要简单的表征，然后扩展简单表征背后的模型。"
+ },
+ {
+  "seg": 662,
+  "start": 3854.762,
+  "end": 3859.684,
+  "speaker": "Unknown",
+  "en": "And then also choose a representation that's adapted for the task at hand.",
+  "zh": "然后还要选择一个适应手头任务的表征。"
+ },
+ {
+  "seg": 663,
+  "start": 3859.784,
+  "end": 3864.767,
+  "speaker": "Unknown",
+  "en": "If the thing you actually want out is video frames or images, just do that.",
+  "zh": "如果你真正想要输出的东西是视频帧或图像，就那么做。"
+ },
+ {
+  "seg": 664,
+  "start": 3864.847,
+  "end": 3867.568,
+  "speaker": "Unknown",
+  "en": "You don't need to bottleneck yourself through an explicit 3D representation.",
+  "zh": "你不需要通过一个显式的 3D 表征来制造瓶颈。"
+ },
+ {
+  "seg": 665,
+  "start": 3868.008,
+  "end": 3876.531,
+  "speaker": "Unknown",
+  "en": "If you do want a 3D representation, be it a splat or a mesh, find a simple way to interface that architecture, that 3D representation with the neural network.",
+  "zh": "如果你确实想要一个 3D 表征，无论是 splat 还是网格，找到一种简单的方式来连接那个架构，那个 3D 表征与神经网络。"
+ },
+ {
+  "seg": 666,
+  "start": 3876.771,
+  "end": 3885.893,
+  "speaker": "Unknown",
+  "en": "And the more you put in symmetries and complicated representations, often the harder it'll be to optimize and the more assumptions you're making.",
+  "zh": "你加入的对称性和复杂表征越多，通常优化起来就越难，你做的假设也就越多。"
+ },
+ {
+  "seg": 667,
+  "start": 3885.933,
+  "end": 3887.414,
+  "speaker": "Unknown",
+  "en": "So the less it's going to work at scale.",
+  "zh": "所以它在大规模下工作的效果就越差。"
+ },
+ {
+  "seg": 668,
+  "start": 3888.154,
+  "end": 3912.068,
+  "speaker": "Unknown",
+  "en": "right like you put in some notion of you know symmetry well people are usually kind of symmetric we have two legs and two arms but not everybody has two legs and two arms so those those like hard assumptions of symmetry maybe get you maybe 80 or 90 of the way there but they're going to break down eventually and then you'd like to be in a position where your your architecture or your your your your model is expressive enough to handle the cases where those those shortcuts are going to break down",
+  "zh": "对，就像你加入某种你知道的对称性概念，嗯，人们通常是对称的，我们有两条腿和两条胳膊，但不是每个人都有两条腿和两条胳膊，所以那些像对称性的硬性假设也许能让你达到 80% 或 90% 的程度，但它们最终会崩溃，然后你会希望处于一种位置，你的你的架构或者你的你的你的你的模型具有足够的表达力来处理那些这些捷径会崩溃的情况。"
+ },
+ {
+  "seg": 669,
+  "start": 3912.891,
+  "end": 3915.993,
+  "speaker": "Unknown",
+  "en": "Where should folks go to learn more about this?",
+  "zh": "大家应该去哪里了解更多关于这个的信息？"
+ },
+ {
+  "seg": 670,
+  "start": 3916.053,
+  "end": 3923.196,
+  "speaker": "Unknown",
+  "en": "Are there any like canonical resources that you like to point folks to who are new to the space and want to dig in more deeply?",
+  "zh": "有没有什么像经典资源是你喜欢指给那些刚进入这个领域并想更深入钻研的人的？"
+ },
+ {
+  "seg": 671,
+  "start": 3923.456,
+  "end": 3925.197,
+  "speaker": "Unknown",
+  "en": "Yeah, so you can definitely try out Marble.",
+  "zh": "是的，所以你肯定可以试试 Marble。"
+ },
+ {
+  "seg": 672,
+  "start": 3925.237,
+  "end": 3927.658,
+  "speaker": "Unknown",
+  "en": "That's our product at marble.worldlabs.ai.",
+  "zh": "那是我们在 marble.worldlabs.ai 的产品。"
+ },
+ {
+  "seg": 673,
+  "start": 3927.698,
+  "end": 3929.479,
+  "speaker": "Unknown",
+  "en": "You can sign up and play around with that today.",
+  "zh": "你可以今天注册并试用它。"
+ },
+ {
+  "seg": 674,
+  "start": 3929.499,
+  "end": 3938.764,
+  "speaker": "Unknown",
+  "en": "I wish I could recommend a better lecture series or book or something on world models, but I just, I don't think anyone's written down anything super awesome yet.",
+  "zh": "我希望我能推荐一个更好的讲座系列或书籍或其他关于世界模型的东西，但我只是，我不认为有人写下过任何超级棒的东西。"
+ },
+ {
+  "seg": 675,
+  "start": 3939.164,
+  "end": 3946.387,
+  "speaker": "Unknown",
+  "en": "Which is partially what we tried to solve with our blog post, but I think someone could go a lot deeper and unpack a lot of these ideas in a better way.",
+  "zh": "这也是我们试图用我们的博客文章解决的一部分问题，但我认为有人可以做得更深，并以更好的方式拆解很多这些想法。"
+ },
+ {
+  "seg": 676,
+  "start": 3946.807,
+  "end": 3952.269,
+  "speaker": "Unknown",
+  "en": "So if I'm missing something, I'd love for your viewers or listeners to let me know.",
+  "zh": "所以如果我漏掉了什么，我很希望你的观众或听众告诉我。"
+ },
+ {
+  "seg": 677,
+  "start": 3952.489,
+  "end": 3959.551,
+  "speaker": "Unknown",
+  "en": "Justin, thank you so much for taking the time to share with us a bit about what you've been up to, you and the team at World Labs.",
+  "zh": "Justin，非常感谢你抽出时间跟我们分享一点你一直在做的事情，你和 World Labs 团队。"
+ },
+ {
+  "seg": 678,
+  "start": 3959.571,
+  "end": 3960.151,
+  "speaker": "Unknown",
+  "en": "Very cool stuff.",
+  "zh": "很酷的东西。"
+ },
+ {
+  "seg": 679,
+  "start": 3960.371,
+  "end": 3961.292,
+  "speaker": "Unknown",
+  "en": "Yeah, thanks so much for having me.",
+  "zh": "是的，非常感谢你邀请我。"
+ },
+ {
+  "seg": 680,
+  "start": 3961.332,
+  "end": 3961.932,
+  "speaker": "Unknown",
+  "en": "This was a lot of fun.",
+  "zh": "这很有趣。"
+ }
+]

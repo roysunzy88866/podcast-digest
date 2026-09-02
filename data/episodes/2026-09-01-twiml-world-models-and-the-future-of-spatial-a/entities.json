@@ -1,0 +1,1903 @@
+{
+  "episode_id": "2026-09-01-twiml-world-models-and-the-future-of-spatial-a",
+  "podcast": "The TWIML AI Podcast",
+  "date": "2026-09-01",
+  "tags": [
+    "世界模型",
+    "高斯溅射",
+    "3D 生成",
+    "强化学习",
+    "Transformer"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sam-charrington",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Charrington",
+      "file": "Sam Charrington",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            119.408,
+            122.529
+          ],
+          "quote": "I'm Sam Charrington, and this is the TwiML AI Podcast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "justin-johnson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Justin Johnson",
+      "file": "Justin Johnson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            62.88,
+            65.042
+          ],
+          "quote": "Justin Johnson is helping shape this shift.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-labs",
+      "type": "company",
+      "role": "company",
+      "name": "World Labs",
+      "file": "World Labs",
+      "primary": true,
+      "how_described": "本集说 World Labs 是由 Justin Johnson 与李飞飞共同创立的公司，同时在做显式 3D 和隐式像素两条世界模型路线，产品包括 Marble 和 RTFM",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            65.503,
+            71.669
+          ],
+          "quote": "He co-founded World Labs with Fei-Fei Li and is an associate professor of computer science at the University of Michigan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3952.489,
+            3959.551
+          ],
+          "quote": "Justin, thank you so much for taking the time to share with us a bit about what you've been up to, you and the team at World Labs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集说世界模型至少有三层含义：隐式世界知识、RL 里的状态预测器、生成可导航 3D 环境；最终渲染器、规划器、模拟器三类会融合成统一世界模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            147.765,
+            160.735
+          ],
+          "quote": "One idea I think that has been espoused is, you know, essentially the idea that, you know, a world model is like an emergent property of, you know, either language models or diffusion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            182.814,
+            206.084
+          ],
+          "quote": "One is like, maybe it's asking for a concrete definition of a world model, because I think, you know, early on in those conversations, world model was really talking about, you know, these models having like foundational knowledge of the real world, like the world that we live in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            208.895,
+            222.62
+          ],
+          "quote": "More recently, you know, the world model conversation, I feel like has shifted to talking about being able to create artificial worlds, but have them be self-consistent and navigable and, you know, properties like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            261.463,
+            271.013
+          ],
+          "quote": "Like there is not like a thing where we can say a model that has X property or produces X kind of input and produces X kind of output like is a world model definitionally.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            320.122,
+            333.718
+          ],
+          "quote": "So I think that's kind of this notion of an implicit world model that you did this other, like maybe you could be doing any number of tasks, but there's certain kinds of answers that you could give that would require implicitly modeling something about the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            338.611,
+            342.314
+          ],
+          "quote": "I think the term itself, world model, actually goes back to reinforcement learning literature.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            366.38,
+            369.121
+          ],
+          "quote": "And then maybe a world model should be a model that produces worlds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            384.769,
+            388.972
+          ],
+          "quote": "Or there's the specific RL formulation of world model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            393.635,
+            402.2
+          ],
+          "quote": "Do you see this implicit world model as just another definition or an incorrect set of beliefs?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            443.703,
+            454.076
+          ],
+          "quote": "So I think maybe in the academic literature in the last year, the world model has more coalesced into a particular flavor of a real-time interactive video model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            464.53,
+            469.432
+          ],
+          "quote": "And especially the implicit world model notion, I think that sort of can be applied to anything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            469.852,
+            480.796
+          ],
+          "quote": "And no matter what kind of beta you're processing, no matter what kind of system you're building, I think if it gets to some level of interesting complexity, then it's going to end up with some notion of implicit world model somewhere in the system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            513.737,
+            522.667
+          ],
+          "quote": "And so from that perspective, like if we apply that to the world model question, like if, you know, those types of models get so good at",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            567.156,
+            570.299
+          ],
+          "quote": "And that's more like world model as theory builder, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            608.457,
+            617.36
+          ],
+          "quote": "And maybe there's this notion of like, well, a world model should not just be directly thinking about observations, but should be building deep explanatory theories about the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            913.794,
+            923.563
+          ],
+          "quote": "Is the implication then that you need a reinforcement learning type setup in order to have a robust world model?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1103.287,
+            1116.598
+          ],
+          "quote": "Like the kind of original technical definition of a world model is then, you know, if we're in this PoMDP setting, then a world model is something that inputs the world state, inputs the action the agent takes, and then predicts what's the next world state.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1117.039,
+            1122.203
+          ],
+          "quote": "So then it like, that's the kind of the original technical setting where the term world model was used.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1363.051,
+            1369.316
+          ],
+          "quote": "So if you're doing model-based RL, then you have some explicit model of the state, and that's where you have a world model, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1662.174,
+            1670.037
+          ],
+          "quote": "We have Marble, which is our explicit Gaussian splat-based world model, and RTFM we have as a more implicit real-time frame-generating world model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1670.538,
+            1679.592
+          ],
+          "quote": "You know, this raises a question for me that goes back to kind of our, you know, very foundational conversation about what is a world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1686.442,
+            1699.329
+          ],
+          "quote": "Meta's initial Gaussian splat, you know, work and demos and the tools that I think have popularized Gaussian splats before, you know, they became kind of foundational to this world model idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1804.25,
+            1806.452
+          ],
+          "quote": "It's not just world, it's world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1807.053,
+            1808.674
+          ],
+          "quote": "There's no world model in there, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1836.398,
+            1841.141
+          ],
+          "quote": "So the Marble world model is the model that knows how to model worlds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2468.043,
+            2480.249
+          ],
+          "quote": "I think then the question is, or the opportunity is to like dig into Marble and talk a little bit about kind of the recipe and, you know, how that creates a world model, how that creates the Marble world models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2673.458,
+            2686.409
+          ],
+          "quote": "Yeah, I mean, that's the beauty of having a world model in the loop there is that you have a single, powerful, large generative model that's been trained on a ton of data, both real world data and fantastical data and photorealistic stuff and non-photorealistic stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2705.048,
+            2714.734
+          ],
+          "quote": "And that's kind of the major difference between having these generations backed by a big world model versus classical Gaussian splatting just fitting to these thousand images that I happen to have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3024.367,
+            3032.834
+          ],
+          "quote": "So like you said, like if you're outputting the observation like Genie or like RTFM, then we're calling that a rendering world model or just a renderer, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3038.299,
+            3042.003
+          ],
+          "quote": "So those are kind of what we're terming a rendering, a renderer as a world model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3065.744,
+            3071.647
+          ],
+          "quote": "And then they've got a world model that is inputting real world observations and outputting actions to be made in the real world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3072.327,
+            3078.952
+          ],
+          "quote": "And that we're calling a planner, a world model as planner, because it's planning out a sequence of actions to take in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3079.432,
+            3092.142
+          ],
+          "quote": "And that's almost like exactly dual to the world model as renderer, because the renderer is sort of receiving actions probably from a human user and then outputting observations of what a world might look like under those sequence of actions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3101.955,
+            3104.477
+          ],
+          "quote": "So that we're calling world model as simulator, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3125.614,
+            3127.415
+          ],
+          "quote": "So that's the world model is simulator.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3163.439,
+            3170.643
+          ],
+          "quote": "And I think Marble is actually an example of something that is somewhat straddling the boundary between world model as renderer and world model as simulator, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3441.779,
+            3445.12
+          ],
+          "quote": "You talked a little bit about this idea of a unified world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3572.561,
+            3581.449
+          ],
+          "quote": "But ultimately, all the compute, all the parameters of this model are going to be this shared trunk that is this world model that knows how to simulate any kind of a thing implicitly in its weights.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3739.306,
+            3742.108
+          ],
+          "quote": "That becomes the everyday problem for any scaled-up world model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gaussian-splatting",
+      "type": "concept",
+      "role": "concept",
+      "name": "高斯溅射 (Gaussian splatting)",
+      "file": "高斯溅射",
+      "primary": true,
+      "how_described": "本集说高斯溅射本质上是一个 3D 点云，每个点有位置、颜色、不透明度、大小和球谐函数；其核心优势是可微性好，一切平滑且部分透明，梯度可以干净回传到神经网络",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 272,
+          "t": [
+            1575.323,
+            1600.9
+          ],
+          "quote": "feel that that is foundational or is it just kind of what you have you know shown thus far but you're open to other ideas well i think we've actually done both already right so it's true we we put out a product called marble um which takes the gaussian splatting approach and and there like what marble does is in lets a user input an image or a sequence of images or a text prompt and then generates a world where that world is represented as a set of gaussian splats",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1746.348,
+            1752.271
+          ],
+          "quote": "There is a really interesting distinction here that I think a lot of people get confused about with Gaussian Splatting, with Gaussian Splatting in particular, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1780.808,
+            1785.991
+          ],
+          "quote": "Because where Gaussian splatting originated as a technology is around reconstruction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1813.44,
+            1822.99
+          ],
+          "quote": "These kind of optimization-based reconstruction approaches to Gaussian splatting are like, I've got a thousand images, the whole universe is like these thousand images, and I'm fitting a Gaussian splat to match these images.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2705.048,
+            2714.734
+          ],
+          "quote": "And that's kind of the major difference between having these generations backed by a big world model versus classical Gaussian splatting just fitting to these thousand images that I happen to have.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集在 POMDP 框架下将智能体定义为可以在世界中采取行动的东西，与世界构成循环交互关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            97.493,
+            103.958
+          ],
+          "quote": "And why do we care about this is because we want to build systems that are not just stuck in a terminal or stuck as a virtual agent, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            768.707,
+            772.129
+          ],
+          "quote": "And then there's an agent, and an agent is something that can take actions in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            777.993,
+            787.38
+          ],
+          "quote": "So you sort of partition the whole universe into agent, which moves around and does stuff, and then world, which has stuff done to it by the agent and also maybe evolves in time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            787.88,
+            789.04
+          ],
+          "quote": "So you've got the world and the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            793.441,
+            795.362
+          ],
+          "quote": "Then the agent is going to take actions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            808.524,
+            812.285
+          ],
+          "quote": "So in different situations, the agent might have available to them different kinds of actions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            812.825,
+            819.308
+          ],
+          "quote": "But whatever the situation is, when an agent makes actions on the world, the world will be changed in some way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            838.718,
+            840.96
+          ],
+          "quote": "So then the agent makes actions on the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            854.209,
+            856.25
+          ],
+          "quote": "So then what the agent gets back are observations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            883.233,
+            889.614
+          ],
+          "quote": "So then the PoMDP loop is that, you know, you have an agent does actions to the world that causes the state to transition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            889.894,
+            894.335
+          ],
+          "quote": "Then based on the state, the agent gets an observation that tells it something about the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            894.675,
+            899.496
+          ],
+          "quote": "And then the agent is going to this is going to happen in a loop over and over again as the agent tries to do things in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            938.958,
+            945.484
+          ],
+          "quote": "And there, it's like, well, the agent has some goal that they're trying to achieve, and how do they get signal about whether they're achieving the goal or not?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            947.366,
+            951.93
+          ],
+          "quote": "So then the idea is like, well, the agent wants to try to take actions that will maximize its reward.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1004.71,
+            1007.413
+          ],
+          "quote": "Then once that robot is out there, it's an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1061.921,
+            1075.246
+          ],
+          "quote": "One kind of captures the relationship between an agent and the world and the idea that the agent, you know, can observe things that reflect some abstract state, but it can never really know that abstract state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1103.287,
+            1116.598
+          ],
+          "quote": "Like the kind of original technical definition of a world model is then, you know, if we're in this PoMDP setting, then a world model is something that inputs the world state, inputs the action the agent takes, and then predicts what's the next world state.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1406.09,
+            1426.288
+          ],
+          "quote": "It can either be, you know, whatever the, the representation or abstraction of the world is, or in some settings it could be a surrogate for that, that the agent creates and predicts and predicts against in choosing actions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2946.226,
+            2954.055
+          ],
+          "quote": "You've got the agent and the world, then you've got the agent producing actions, you've got the world transitioning states, and then you've got the agent receiving observations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3032.874,
+            3038.279
+          ],
+          "quote": "Because it's producing a final observation that can be consumed by a person or maybe by an agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pomdps",
+      "type": "concept",
+      "role": "concept",
+      "name": "PoMDPs",
+      "file": "PoMDPs",
+      "primary": true,
+      "how_described": "本集说 POMDP（部分可观测马尔可夫决策过程）是描述智能体—世界交互的数学框架，包含智能体、动作、状态、观测四个要素，世界模型可据此分为渲染器、规划器、模拟器三类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            342.735,
+            347.179
+          ],
+          "quote": "And there, there's a specific technical definition related to PoMDPs that maybe we'll get into later.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            746.606,
+            753.053
+          ],
+          "quote": "So there's this, there's this abstraction called partially observed markup decision processes or PoMDPs that goes back quite a long time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            923.623,
+            927.547
+          ],
+          "quote": "Or what's like the concrete relationship between POMDPs and world models?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "marble",
+      "type": "concept",
+      "role": "concept",
+      "name": "Marble",
+      "file": "Marble",
+      "primary": true,
+      "how_described": "本集说 Marble 是 World Labs 的产品，用户输入图片或文本，模型先生成 360 度全景图再提升为 3D 高斯溅射世界，跨越了渲染器和模拟器的边界",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            1566.776,
+            1574.342
+          ],
+          "quote": "Like in Marble and some of the work that you, you know, publish and demonstrate, you use that approach, but do you...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1575.323,
+            1600.9
+          ],
+          "quote": "feel that that is foundational or is it just kind of what you have you know shown thus far but you're open to other ideas well i think we've actually done both already right so it's true we we put out a product called marble um which takes the gaussian splatting approach and and there like what marble does is in lets a user input an image or a sequence of images or a text prompt and then generates a world where that world is represented as a set of gaussian splats",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1625.253,
+            1632.099
+          ],
+          "quote": "And this contrasts with our Marble approach in that it kind of goes more this straight-to-video, pixels-only direction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1662.174,
+            1670.037
+          ],
+          "quote": "We have Marble, which is our explicit Gaussian splat-based world model, and RTFM we have as a more implicit real-time frame-generating world model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1825.511,
+            1827.733
+          ],
+          "quote": "And that's actually very different from what we're doing in Marble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1828.153,
+            1832.756
+          ],
+          "quote": "In Marble, we have trained a large, powerful model that's been trained on a lot of data of various kinds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1836.398,
+            1841.141
+          ],
+          "quote": "So the Marble world model is the model that knows how to model worlds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2206.787,
+            2218.875
+          ],
+          "quote": "So that means they can be plugged into gradient-based optimizers and either directly optimize against a set of images, which happens in the reconstruction case, or be plugged into the output of a neural network, which is more what we do in the marble case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2388.337,
+            2416.519
+          ],
+          "quote": "I think the direction I was trying to go with that question was focusing more on the model and the generation perspective and the idea that we're describing a world, generating on the fly, the user can navigate through this world, turn away, come back, and we're generating consistent frames in the case of RTFM or splats in the case of Marble.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2468.043,
+            2480.249
+          ],
+          "quote": "I think then the question is, or the opportunity is to like dig into Marble and talk a little bit about kind of the recipe and, you know, how that creates a world model, how that creates the Marble world models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2480.549,
+            2484.791
+          ],
+          "quote": "I mean, we have actually haven't talked explicitly about the model, the Marble architecture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2552.696,
+            2558.759
+          ],
+          "quote": "So basically what we're doing is the kind of marquee use case is almost single image, and that's probably what works best in Marble today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2632.631,
+            2650.958
+          ],
+          "quote": "I think where my questions around or my assumption of multi-image was coming from, like I've seen some marble worlds that were kind of your classic, you know, room and you spin around the room and there's like a ton of detail, super impressive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2855.188,
+            2862.291
+          ],
+          "quote": "So the splat is kind of our most rawest output format from the Marble models, and then you can go from that to images or videos or meshes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3163.439,
+            3170.643
+          ],
+          "quote": "And I think Marble is actually an example of something that is somewhat straddling the boundary between world model as renderer and world model as simulator, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 535,
+          "t": [
+            3171.824,
+            3178.25
+          ],
+          "quote": "Right, because Marble ends, like, when you as a user interact with Marble, right, you're seeing pixels on the screen, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3209.337,
+            3224.877
+          ],
+          "quote": "So at least the version of Marble we have today, kind of the end-to-end experience as a user is you're seeing observations and you're seeing pixels on the screen, so it's kind of a renderer, but the model itself is outputting this explicit or semi-explicit world state that you can then do for other things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3278.386,
+            3297.669
+          ],
+          "quote": "Yeah, but I think I'm also asking for more elaboration on like simulator and, you know, beyond the marble example, are there other examples that kind of capture this idea of model as simulator?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3307.479,
+            3311.023
+          ],
+          "quote": "One is maybe like the marble explicit state future version.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3923.456,
+            3925.197
+          ],
+          "quote": "Yeah, so you can definitely try out Marble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3925.237,
+            3927.658
+          ],
+          "quote": "That's our product at marble.worldlabs.ai.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rtfm",
+      "type": "concept",
+      "role": "concept",
+      "name": "RTFM",
+      "file": "RTFM",
+      "primary": true,
+      "how_described": "本集说 RTFM（实时帧模型）是 World Labs 的隐式路线，没有显式 3D 表示，模型直接实时生成像素帧响应用户输入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1616.206,
+            1624.513
+          ],
+          "quote": "But then we put out a research blog post late last year called RTFM, which takes a very different approach called the real-time frame model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1662.174,
+            1670.037
+          ],
+          "quote": "We have Marble, which is our explicit Gaussian splat-based world model, and RTFM we have as a more implicit real-time frame-generating world model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2303.776,
+            2309.181
+          ],
+          "quote": "And that kind of leans into the more implicit representations that we've done in RTFM and in other places.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2388.337,
+            2416.519
+          ],
+          "quote": "I think the direction I was trying to go with that question was focusing more on the model and the generation perspective and the idea that we're describing a world, generating on the fly, the user can navigate through this world, turn away, come back, and we're generating consistent frames in the case of RTFM or splats in the case of Marble.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2864.092,
+            2869.455
+          ],
+          "quote": "But again, that's in pretty stark contrast to the RTFM model, where there's no splats, it just directly spits out pixels.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3024.367,
+            3032.834
+          ],
+          "quote": "So like you said, like if you're outputting the observation like Genie or like RTFM, then we're calling that a rendering world model or just a renderer, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "transformers",
+      "type": "concept",
+      "role": "concept",
+      "name": "transformers",
+      "file": "transformers",
+      "primary": true,
+      "how_described": "本集说 Transformer 非常强大、扩展性好，不需要推翻，但需要进化以处理世界模型场景下几千万 token 的超长上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 607,
+          "t": [
+            3596.224,
+            3608.589
+          ],
+          "quote": "Like, and you just said, you know, kind of no, like the architecture evolves, but it's kind of consistent with the way we think about, you know, today's models, transformers, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3623.035,
+            3625.355
+          ],
+          "quote": "I think transformers are really, really powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 614,
+          "t": [
+            3627.216,
+            3628.756
+          ],
+          "quote": "Like, does that mean transformers are dead?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3629.637,
+            3630.897
+          ],
+          "quote": "Like, no, transformers are great.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3630.977,
+            3632.317
+          ],
+          "quote": "Transformers are super powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3637.499,
+            3639.159
+          ],
+          "quote": "So, transformers are very powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3682.074,
+            3693.345
+          ],
+          "quote": "So, you know, this is something that comes up in LLMs already, like LLMs are transformers, they work on tokens, but you can do a lot of problems, you know, even maybe, maybe this is less true now in the agentic era, but a couple years ago, like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3727.057,
+            3733.461
+          ],
+          "quote": "So I do think we need to see some evolution in, you know, how do we adapt transformers to work at really, really long context lengths?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "consistency",
+      "type": "concept",
+      "role": "concept",
+      "name": "一致性 (consistency)",
+      "file": "一致性",
+      "primary": false,
+      "how_described": "本集说一致性是世界模型的核心属性——你转开再转回来世界不变；显式路线中一致性是构造保证的，隐式路线中靠数据和训练学出来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 385,
+          "t": [
+            2239.279,
+            2249.788
+          ],
+          "quote": "Kind of tying that to some of the core properties of world models, namely consistency, like is it that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2250.743,
+            2256.108
+          ],
+          "quote": "Ability to backpropagate that, or how do we get that consistency?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2284.966,
+            2286.487
+          ],
+          "quote": "And that's this notion of consistency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2298.832,
+            2303.436
+          ],
+          "quote": "But you could also get consistency via large-scale data and large-scale training and large-scale compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2418.012,
+            2429.118
+          ],
+          "quote": "And the question is like, I think part of what you're saying is that consistency is kind of orthogonal to whether we're talking about pixel generation or splat generation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2430.158,
+            2436.361
+          ],
+          "quote": "And so the next part of that question is, you know, that consistency seems like a really important part of all this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "diffusion",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩散 (diffusion)",
+      "file": "扩散",
+      "primary": false,
+      "how_described": "本集提到扩散是生成模型损失函数的演化方向之一，与 rectified flow、离散自回归并列",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            147.765,
+            160.735
+          ],
+          "quote": "One idea I think that has been espoused is, you know, essentially the idea that, you know, a world model is like an emergent property of, you know, either language models or diffusion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            160.775,
+            175.385
+          ],
+          "quote": "Like if you, you know, diffusion can, you know, illustrate some physical properties of the world or, you know, language models can tell stories that, you know, kind of seem like they know something about the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3652.148,
+            3655.071
+          ],
+          "quote": "If it's a generative model, do you train it via diffusion or rectified flow?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3665.218,
+            3667.02
+          ],
+          "quote": "We used to do GANs, now it's diffusion.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rectified-flow",
+      "type": "concept",
+      "role": "concept",
+      "name": "rectified flow",
+      "file": "rectified flow",
+      "primary": false,
+      "how_described": "本集提到 rectified flow 是训练生成模型的可选损失函数方向之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 625,
+          "t": [
+            3652.148,
+            3655.071
+          ],
+          "quote": "If it's a generative model, do you train it via diffusion or rectified flow?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "autoregression",
+      "type": "concept",
+      "role": "concept",
+      "name": "自回归 (autoregression)",
+      "file": "自回归",
+      "primary": false,
+      "how_described": "本集提到离散自回归是训练生成模型的可选损失函数方向之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 626,
+          "t": [
+            3655.371,
+            3658.533
+          ],
+          "quote": "Do you train it as a discrete autoregression or something else?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "renderer",
+      "type": "concept",
+      "role": "concept",
+      "name": "渲染器 (renderer)",
+      "file": "渲染器",
+      "primary": false,
+      "how_described": "本集在 POMDP 框架下将输出观测（像素/视频）的世界模型称为渲染器，如 Genie 和 RTFM",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 355,
+          "t": [
+            2081.375,
+            2102.103
+          ],
+          "quote": "That being the case, like, is a part of the technology or what makes Gaussian splats work, like that the renderer is able to, like, focus on, you know, what's in kind of the user's viewpoint versus things that are extraneous to it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3024.367,
+            3032.834
+          ],
+          "quote": "So like you said, like if you're outputting the observation like Genie or like RTFM, then we're calling that a rendering world model or just a renderer, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3038.299,
+            3042.003
+          ],
+          "quote": "So those are kind of what we're terming a rendering, a renderer as a world model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3079.432,
+            3092.142
+          ],
+          "quote": "And that's almost like exactly dual to the world model as renderer, because the renderer is sort of receiving actions probably from a human user and then outputting observations of what a world might look like under those sequence of actions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            3092.682,
+            3096.125
+          ],
+          "quote": "So the renderer and the planner are kind of like almost perfect duels to each other.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3127.795,
+            3138.863
+          ],
+          "quote": "And then we kind of realized that, you know, planner, simulator, renderer, when you kind of think it, break it down to these terms, pretty much all the world models that people are training these days actually can be bucketed into one of these three camps, usually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3163.439,
+            3170.643
+          ],
+          "quote": "And I think Marble is actually an example of something that is somewhat straddling the boundary between world model as renderer and world model as simulator, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3209.337,
+            3224.877
+          ],
+          "quote": "So at least the version of Marble we have today, kind of the end-to-end experience as a user is you're seeing observations and you're seeing pixels on the screen, so it's kind of a renderer, but the model itself is outputting this explicit or semi-explicit world state that you can then do for other things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            3225.387,
+            3229.629
+          ],
+          "quote": "That feels like a much more nuanced distinction than renderer and planner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3229.869,
+            3247.419
+          ],
+          "quote": "If I think about a renderer that, as opposed to spitting out 2D frames, was spitting out somehow 3D directly, then you can do distances between points in that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3487.983,
+            3494.749
+          ],
+          "quote": "If I get better at understanding how the world state evolves, probably I'll also get better at anticipating what it's going to look like from different angles as a renderer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3531.798,
+            3540.474
+          ],
+          "quote": "Drive a virtual video game so it's operating in renderer mode or tomorrow or the next day I want to, you know, simulate possible counterfactuals in a world and now I want it to operate in simulator mode.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "planner",
+      "type": "concept",
+      "role": "concept",
+      "name": "规划器 (planner)",
+      "file": "规划器",
+      "primary": false,
+      "how_described": "本集在 POMDP 框架下将输出动作的世界模型称为规划器，如机器人策略模型，与渲染器几乎是对偶关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 520,
+          "t": [
+            3072.327,
+            3078.952
+          ],
+          "quote": "And that we're calling a planner, a world model as planner, because it's planning out a sequence of actions to take in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            3092.682,
+            3096.125
+          ],
+          "quote": "So the renderer and the planner are kind of like almost perfect duels to each other.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3127.795,
+            3138.863
+          ],
+          "quote": "And then we kind of realized that, you know, planner, simulator, renderer, when you kind of think it, break it down to these terms, pretty much all the world models that people are training these days actually can be bucketed into one of these three camps, usually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            3225.387,
+            3229.629
+          ],
+          "quote": "That feels like a much more nuanced distinction than renderer and planner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3518.605,
+            3531.458
+          ],
+          "quote": "And then like what output you want at one moment in time is less a function of having specialized models that are renders or simulators or planners, but more about, you know, is it today I want to drive a robot so it's going to operate in planner mode and tomorrow I want to, you know,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "simulator",
+      "type": "concept",
+      "role": "concept",
+      "name": "模拟器 (simulator)",
+      "file": "模拟器",
+      "primary": false,
+      "how_described": "本集在 POMDP 框架下将输出或操作状态的世界模型称为模拟器，Marble 部分跨越了渲染器和模拟器的边界",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 525,
+          "t": [
+            3101.955,
+            3104.477
+          ],
+          "quote": "So that we're calling world model as simulator, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3125.614,
+            3127.415
+          ],
+          "quote": "So that's the world model is simulator.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3127.795,
+            3138.863
+          ],
+          "quote": "And then we kind of realized that, you know, planner, simulator, renderer, when you kind of think it, break it down to these terms, pretty much all the world models that people are training these days actually can be bucketed into one of these three camps, usually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 530,
+          "t": [
+            3139.323,
+            3144.807
+          ],
+          "quote": "I thought the simulator was interesting in that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3146.047,
+            3158.415
+          ],
+          "quote": "I typically think of simulation as like this external tool that we're using to, you know, develop models as opposed to this framing of the model itself, you know, being fundamentally a simulator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3163.439,
+            3170.643
+          ],
+          "quote": "And I think Marble is actually an example of something that is somewhat straddling the boundary between world model as renderer and world model as simulator, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3278.386,
+            3297.669
+          ],
+          "quote": "Yeah, but I think I'm also asking for more elaboration on like simulator and, you know, beyond the marble example, are there other examples that kind of capture this idea of model as simulator?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3390.829,
+            3403.781
+          ],
+          "quote": "Yeah, the other thing that jumps out at me in thinking about this simulator is that like maybe a perfect expression of a simulator is this theory builder that we talked about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3531.798,
+            3540.474
+          ],
+          "quote": "Drive a virtual video game so it's operating in renderer mode or tomorrow or the next day I want to, you know, simulate possible counterfactuals in a world and now I want it to operate in simulator mode.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "triangle-meshes",
+      "type": "concept",
+      "role": "concept",
+      "name": "三角网格 (triangle meshes)",
+      "file": "三角网格",
+      "primary": false,
+      "how_described": "本集说三角网格是计算机图形学几十年的标准表示，但有尖锐的不连续性，和神经网络不兼容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 359,
+          "t": [
+            2114.637,
+            2117.759
+          ],
+          "quote": "I think the contrast with Gaussian Splats you should be thinking about is triangle meshes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2118.479,
+            2121.441
+          ],
+          "quote": "So triangle meshes are kind of your standard representation in computer graphics.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spherical-harmonics",
+      "type": "concept",
+      "role": "concept",
+      "name": "球谐函数 (spherical harmonics)",
+      "file": "球谐函数",
+      "primary": false,
+      "how_described": "本集说球谐函数是高斯溅射中用来描述从不同角度看颜色怎么变的具体方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 326,
+          "t": [
+            1910.716,
+            1914.538
+          ],
+          "quote": "And then you'll often have some notion of what are called spherical harmonics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1940.997,
+            1946.745
+          ],
+          "quote": "And these spherical harmonics are a particular concrete way to capture this notion of view-dependent color.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1950.05,
+            1957.34
+          ],
+          "quote": "Each one has an XYZ position, has an opacity, has a color, and also has these spherical harmonics that tell you how the color varies as you look at it from different angles.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "implicit-world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐式世界模型 (implicit world model)",
+      "file": "隐式世界模型",
+      "primary": false,
+      "how_described": "本集说隐式世界模型指模型内部隐含建模了世界规律，但输出仍是文本或图像，比如能生成物理正确水流视频的视频模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            320.122,
+            333.718
+          ],
+          "quote": "So I think that's kind of this notion of an implicit world model that you did this other, like maybe you could be doing any number of tasks, but there's certain kinds of answers that you could give that would require implicitly modeling something about the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            393.635,
+            402.2
+          ],
+          "quote": "Do you see this implicit world model as just another definition or an incorrect set of beliefs?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            464.53,
+            469.432
+          ],
+          "quote": "And especially the implicit world model notion, I think that sort of can be applied to anything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            469.852,
+            480.796
+          ],
+          "quote": "And no matter what kind of beta you're processing, no matter what kind of system you're building, I think if it gets to some level of interesting complexity, then it's going to end up with some notion of implicit world model somewhere in the system.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集说世界模型这个术语最早来自强化学习文献，POMDP 形式主义也是在强化学习背景下发展出来的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            338.611,
+            342.314
+          ],
+          "quote": "I think the term itself, world model, actually goes back to reinforcement learning literature.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            347.779,
+            353.285
+          ],
+          "quote": "But there's a specific technical term of world modeling that goes back to reinforcement learning for quite some time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            899.776,
+            905.617
+          ],
+          "quote": "That sounds a lot like the setting for reinforcement learning, the agents operating in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            913.794,
+            923.563
+          ],
+          "quote": "Is the implication then that you need a reinforcement learning type setup in order to have a robust world model?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            933.272,
+            938.337
+          ],
+          "quote": "So this whole formalism was developed in the context of reinforcement learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            952.431,
+            955.394
+          ],
+          "quote": "And once you go to that level, that's exactly the reinforcement learning setup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            968.245,
+            977.347
+          ],
+          "quote": "So I think this notion about thinking about agents and states and observations, that becomes applicable and useful in a lot of other contexts, even outside of reinforcement learning specifically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            977.967,
+            985.349
+          ],
+          "quote": "And reinforcement learning is maybe one setting in which this formalism was originally developed and is super useful, but we can apply it elsewhere as well nowadays.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1019.647,
+            1022.39
+          ],
+          "quote": "And you could have had that thing trained via reinforcement learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1045.2,
+            1054.186
+          ],
+          "quote": "So you then, even though you end up with a system at the end of the day that kind of operates in this PoMDP-like loop, you could have had a training objective that was peer supervised learning that didn't require reinforcement learning.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "behavior-cloning",
+      "type": "concept",
+      "role": "concept",
+      "name": "行为克隆 (behavior cloning)",
+      "file": "行为克隆",
+      "primary": false,
+      "how_described": "本集说行为克隆是训练机器人的方式之一，用监督学习而非强化学习的信号，但部署后仍运行在 POMDP 循环上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            989.977,
+            994.581
+          ],
+          "quote": "So one example, one like pretty concrete example might be behavior cloning and robotics, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1022.79,
+            1044.64
+          ],
+          "quote": "where like every time it got a reward like every time it took an action it got a reward or you could train it via behavior cloning right like maybe i had a large supervised data set of like in the in this data set when you receive this observation you should take this action um and then you could train a supervised learning model that would be very different that wouldn't have an explicit reward signal you would use like gradient descent and some supervised loss",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "genie",
+      "type": "concept",
+      "role": "concept",
+      "name": "Genie",
+      "file": "Genie",
+      "primary": false,
+      "how_described": "本集提到 Genie 作为渲染器类世界模型的例子，产生像素流作为观测输出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 506,
+          "t": [
+            2995.763,
+            3004.79
+          ],
+          "quote": "So something like a genie that's producing a stream of pixels, that would be observations in this model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3024.367,
+            3032.834
+          ],
+          "quote": "So like you said, like if you're outputting the observation like Genie or like RTFM, then we're calling that a rendering world model or just a renderer, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "geometric-deep-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "几何深度学习 (geometric deep learning)",
+      "file": "几何深度学习",
+      "primary": false,
+      "how_described": "本集说几何深度学习试图将几何先验硬塞进架构，但深度学习的教训是用简单表征、把规模堆上去，硬编码假设最终会崩溃",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 658,
+          "t": [
+            3817.233,
+            3828.843
+          ],
+          "quote": "Also in this architectural thread, do you see a role for kind of these ideas around geometric deep learning or different models that incorporate symmetry?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "blitzy",
+      "type": "company",
+      "role": "company",
+      "name": "Blitzy",
+      "file": "Blitzy",
+      "primary": false,
+      "how_described": "本集开篇广告中提到 Blitzy 是将自主软件工程引入企业的赞助商",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            1.148,
+            5.51
+          ],
+          "quote": "I want to send a big thanks to Blitzy for supporting the podcast and sponsoring this episode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            9.353,
+            13.255
+          ],
+          "quote": "You need Blitzy, which brings autonomous software engineering to your enterprise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            13.895,
+            20.179
+          ],
+          "quote": "Blitzy starts by reverse engineering your codebase, building a dynamic understanding of your entire application ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            20.819,
+            29.964
+          ],
+          "quote": "Your engineers simply declare intent, and once approved, Blitzy autonomously executes entire software epics, delivering validated end-to-end tested code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            34.474,
+            36.155
+          ],
+          "quote": "Blitzy is not just generating code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            39.236,
+            42.897
+          ],
+          "quote": "Experience Blitzy firsthand at blitzy.com slash twiml.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到 Meta 做过经典的高斯溅射重建工作，从大量照片拟合点云，但没有可泛化的大模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 287,
+          "t": [
+            1686.442,
+            1699.329
+          ],
+          "quote": "Meta's initial Gaussian splat, you know, work and demos and the tools that I think have popularized Gaussian splats before, you know, they became kind of foundational to this world model idea.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

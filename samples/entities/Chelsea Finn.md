@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":10,"ChatGPT":45,"物理 AI":5,"强化学习":13,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":5}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":10,"ChatGPT":45,"物理 AI":6,"强化学习":14,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":5}</script>
 
 <script>
 (function(){

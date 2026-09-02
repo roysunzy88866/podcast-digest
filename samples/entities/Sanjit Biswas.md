@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]] [[Eno Reyes]]
+[[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]] [[Ryan Greenblatt]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":2,"Samsara":2,"物理 AI":5,"护栏":1,"生成式 AI":4,"智能体":1,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":2,"Samsara":2,"物理 AI":6,"护栏":1,"生成式 AI":4,"智能体":1,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

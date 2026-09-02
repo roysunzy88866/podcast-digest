@@ -1,0 +1,927 @@
+{
+  "episode_id": "2026-07-23-a16z-building-the-physical-ai-stack-travis-ka",
+  "podcast": "The a16z Show",
+  "date": "2026-07-23",
+  "tags": [
+    "工业AI",
+    "采矿自动化",
+    "物理AI",
+    "机器人运输",
+    "企业软件模式"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "travis-kalanick",
+      "type": "person",
+      "role": "host",
+      "name": "Travis Kalanick",
+      "file": "Travis Kalanick",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.311,
+            6.274
+          ],
+          "quote": "Travis Kalanick joins TBPN to discuss why he's betting his next company on industrial AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "atoms",
+      "type": "company",
+      "role": "company",
+      "name": "Atoms",
+      "file": "Atoms",
+      "primary": true,
+      "how_described": "本集说它是把食品自动化、采矿自动化、运输等子公司合并后的单一实体，统称为做'工业AI'的公司，刚完成17亿美元融资",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.014,
+            19.74
+          ],
+          "quote": "He shares his vision behind Atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI into the physical world may be an even bigger opportunity than software alone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            236.787,
+            245.174
+          ],
+          "quote": "I mean, we continue to go up and to the right, but, like, the announcement of Atoms was, we are going to do physical automation, physical AI,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pronto",
+      "type": "company",
+      "role": "company",
+      "name": "Pronto",
+      "file": "Pronto",
+      "primary": true,
+      "how_described": "本集说它是Atoms旗下做采矿运输环节自主化的公司，拿套件装到矿场已有机器上使其变成自主驾驶，技术已超越人类生产力水平",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            639.307,
+            652.772
+          ],
+          "quote": "And so what's happened is the pronto technology has gotten past human productivity, which means you go to a goldmine CEO, you talk about go-to-market, you go to a goldmine CEO, and you say, would you like to have 20% more gold per year?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            670.587,
+            681.491
+          ],
+          "quote": "And so we're in that place on Pronto where that momentum is taking hold because there's enough proof points where it's just working in so many different places where people are like, all right, let's go.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            828.344,
+            833.208
+          ],
+          "quote": "And for that company, for Pronto, they were super – Anthony Lewandowski and the team there –",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "valet",
+      "type": "company",
+      "role": "company",
+      "name": "Valet",
+      "file": "Valet",
+      "primary": false,
+      "how_described": "本集提到它是巴西亚马逊深处一个巨型铁矿的客户公司，拥有世界上最大的铁矿之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            541.585,
+            542.866
+          ],
+          "quote": "A customer is called Valet.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "industrial-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "工业AI (industrial AI)",
+      "file": "工业AI",
+      "primary": true,
+      "how_described": "本集说它是Atoms对其业务的统称，指全栈软件、机器人、传感器、机械的组合，用于一次一个地改造行业，区别于人形机器人和世界模型的叙事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.311,
+            6.274
+          ],
+          "quote": "Travis Kalanick joins TBPN to discuss why he's betting his next company on industrial AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            246.837,
+            251.681
+          ],
+          "quote": "What we are calling industrial AI to transform these industries one at a time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 697,
+          "t": [
+            2577.379,
+            2582.561
+          ],
+          "quote": "And so on this one, I sort of dialed the language a little bit and am calling it industrial AI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理AI (physical AI)",
+      "file": "物理AI",
+      "primary": true,
+      "how_described": "本集说它是将AI带入物理世界的做法，Travis认为这可能是一个比单做软件更大的机会",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            236.787,
+            245.174
+          ],
+          "quote": "I mean, we continue to go up and to the right, but, like, the announcement of Atoms was, we are going to do physical automation, physical AI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2552.378,
+            2568.051
+          ],
+          "quote": "Yeah, I did come away from the last conversation thinking, all right, there's a lot of exciting companies in physical AI, and you could spend years and years and years trying to find all the best teams, or you could just give TK a big pile of cash and just say, go cook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 695,
+          "t": [
+            2573.556,
+            2575.698
+          ],
+          "quote": "Physical AI, people are like, well, is that a humanoid?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主化 (autonomy)",
+      "file": "自主化",
+      "primary": true,
+      "how_described": "本集说它是改变采矿和食品生产等行业的方式，通过让机器自主运行来提升安全性和生产力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.014,
+            19.74
+          ],
+          "quote": "He shares his vision behind Atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI into the physical world may be an even bigger opportunity than software alone.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "autonomous",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主 (autonomous)",
+      "file": "自主",
+      "primary": false,
+      "how_described": "本集多次用这个词描述机器和运输系统的自主运行能力，如'autonomous mining operation'和'autonomous burritos'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            565.652,
+            574.598
+          ],
+          "quote": "You're sort of figuring out how do I... You basically take a kit, you install it onto a machine, and that machine becomes autonomous.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            681.531,
+            685.293
+          ],
+          "quote": "We're going to think of mining, autonomous mining, almost like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 280,
+          "t": [
+            913.659,
+            924.223
+          ],
+          "quote": "Like right now you're taking existing mining equipment and you're augmenting it with, you're bringing, you're making it AI enabled, you're making it autonomous, you're making it more efficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1026.409,
+            1032.252
+          ],
+          "quote": "So you have to go from that to, okay, we're now running an autonomous mining operation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1138.345,
+            1143.895
+          ],
+          "quote": "And the no entry thing is you can have an autonomous thing, like our haulage system is autonomous.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1145.235,
+            1150.458
+          ],
+          "quote": "If you're getting into a new place, you can do remote control and move into autonomous.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2026.039,
+            2033.842
+          ],
+          "quote": "On regulation, I'm sure you saw the trial lawyers that are fighting back against autonomous vehicles because they're worried they're going to be too safe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2221.825,
+            2223.125
+          ],
+          "quote": "I call them autonomous burritos.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "type": "concept",
+      "role": "concept",
+      "name": "套件 (kit)",
+      "file": "套件",
+      "primary": true,
+      "how_described": "本集说它是Pronto的核心做法——拿一套包含传感器、计算设备和机械执行器的套件安装到矿场已有机器上，使其变成自主的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            565.652,
+            574.598
+          ],
+          "quote": "You're sort of figuring out how do I... You basically take a kit, you install it onto a machine, and that machine becomes autonomous.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "drive-by-wire",
+      "type": "concept",
+      "role": "concept",
+      "name": "线控驾驶 (drive by wire)",
+      "file": "线控驾驶",
+      "primary": true,
+      "how_described": "本集说矿场里很多20年旧机器甚至不是线控驾驶的（用电信号代替机械连接），需要用执行器去推物理按钮来实现自动化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            1046.616,
+            1049.197
+          ],
+          "quote": "Because that machine may not even be drive by wire.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1063.242,
+            1075.788
+          ],
+          "quote": "Yeah, you're trying to make electricity then do a physical thing, so then you need physical actuation to do the things because these machines are not natively drive-by-wire.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1541.477,
+            1556.527
+          ],
+          "quote": "How long drive-by-wire systems took to roll out and the need for AI to be deployed in like tactile ways that you just see it as more positive sum, there's more opportunity.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "actuator",
+      "type": "concept",
+      "role": "concept",
+      "name": "执行器 (actuator)",
+      "file": "执行器",
+      "primary": false,
+      "how_described": "本集说对于非线控驾驶的老机器，需要带来一个执行器去推动物理按钮，让电力去做物理的事情",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1059.26,
+            1063.062
+          ],
+          "quote": "You're bringing an actuator that might push a physical button.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "no-entry-mine",
+      "type": "concept",
+      "role": "concept",
+      "name": "无人进入矿山 (no entry mine)",
+      "file": "无人进入矿山",
+      "primary": true,
+      "how_described": "本集说它是采矿业的终极目标——矿坑里没有人，只有自主设备在运转，可能有控制中心但矿坑里没有人类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1092.397,
+            1099.223
+          ],
+          "quote": "I mean, look, we ultimately, I mean, if you go in the mining industry, there's like this term, it's called no entry mine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1100.003,
+            1104.107
+          ],
+          "quote": "A no entry mine is a mine where there are no people in the pit.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "haulage",
+      "type": "concept",
+      "role": "concept",
+      "name": "运输 (haulage)",
+      "file": "运输",
+      "primary": true,
+      "how_described": "本集说它是矿山里车辆最多、跑得最勤的环节，被称为矿山的'心血管系统'，是Pronto首先切入的自主化环节",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1118.883,
+            1128.05
+          ],
+          "quote": "And so there's drilling, there's blasting, there's loading, there's haulage, there's crushing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1138.345,
+            1143.895
+          ],
+          "quote": "And the no entry thing is you can have an autonomous thing, like our haulage system is autonomous.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1212.762,
+            1220.386
+          ],
+          "quote": "I mean, look, I would say the way we think about it is the haulage part of a mine is where most of the vehicles are.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1221.126,
+            1225.329
+          ],
+          "quote": "And we think of haulage as the cardiovascular system of a mine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1235.928,
+            1240.751
+          ],
+          "quote": "Because if you're doing haulage, you need to know where the other machines are and what their status is, as an example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2255.675,
+            2260.397
+          ],
+          "quote": "Like, I talked about haulage, but what about, like, what about grading the roads, the dirt roads?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产力 (productivity)",
+      "file": "生产力",
+      "primary": true,
+      "how_described": "本集说提升来自两部分叠加：机器每小时干得更多，加上24小时运转不需要人轮班，合计可能提升30%到40%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            639.307,
+            652.772
+          ],
+          "quote": "And so what's happened is the pronto technology has gotten past human productivity, which means you go to a goldmine CEO, you talk about go-to-market, you go to a goldmine CEO, and you say, would you like to have 20% more gold per year?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            706.963,
+            714.567
+          ],
+          "quote": "But once it works, and in mining that means human productivity, human level, better than human productivity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            756.783,
+            758.344
+          ],
+          "quote": "There's two parts to the productivity gain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1634.745,
+            1639.149
+          ],
+          "quote": "Or the price goes up when you prove that productivity.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "试点 (pilot)",
+      "file": "试点",
+      "primary": false,
+      "how_described": "本集说采矿自主化的市场拓展类似企业软件——先做试点，证明达到人类水平后从几台车扩展到整个车队",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            528.475,
+            529.876
+          ],
+          "quote": "You're a great pilot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            686.713,
+            689.054
+          ],
+          "quote": "Almost like enterprise software where you get a pilot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            701.801,
+            703.722
+          ],
+          "quote": "It's a pilot, but I swear it's going to work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            885.571,
+            886.631
+          ],
+          "quote": "Let's say you do a pilot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-software",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业软件 (enterprise software)",
+      "file": "企业软件",
+      "primary": false,
+      "how_described": "本集说采矿自主化的拓展模式几乎就像企业软件，先拿到几个席位做试点，一旦奏效就覆盖全部车辆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            686.713,
+            689.054
+          ],
+          "quote": "Almost like enterprise software where you get a pilot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1617.135,
+            1622.661
+          ],
+          "quote": "The instinct should be how do enterprise software companies do it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1628.627,
+            1630.129
+          ],
+          "quote": "Let's just say you're an enterprise software company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1662.023,
+            1664.004
+          ],
+          "quote": "I don't care if it's enterprise software.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 476,
+          "t": [
+            1694.186,
+            1699.189
+          ],
+          "quote": "It's an enterprise software style negotiation or approach to the whole thing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "change-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "变革管理 (change management)",
+      "file": "变革管理",
+      "primary": false,
+      "how_described": "本集说安装套件后还需要变革管理，因为矿场要从'人按严格流程操作'变成'人在控制中心监督自主作业'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1007.68,
+            1011.262
+          ],
+          "quote": "Then there's change management because that site's going from...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "commissioning",
+      "type": "concept",
+      "role": "concept",
+      "name": "调试 (commissioning)",
+      "file": "调试",
+      "primary": false,
+      "how_described": "本集说安装、启动和调试是让机器在新地点安全运行的必要流程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 309,
+          "t": [
+            1034.112,
+            1041.014
+          ],
+          "quote": "So the installation and the bring up and what we call commissioning are sort of like the things you have to do.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "wheelbase-for-robots",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人的轮基 (wheelbase for robots)",
+      "file": "机器人的轮基",
+      "primary": true,
+      "how_described": "本集说这是Atoms运输业务的定位——做专用工业轮式机器人而非通用人形机器人，从采矿到食品配送都用轮子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 589,
+          "t": [
+            2168.705,
+            2176.05
+          ],
+          "quote": "So I call it wheelbase for robots, which is if you're going to do specialized robots that move and act in the physical world...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-burritos",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主墨西哥卷饼 (autonomous burritos)",
+      "file": "自主墨西哥卷饼",
+      "primary": false,
+      "how_described": "本集说它是食品从设施运出时的形态——一个能保温的轮上盒子，把食物送到家门口，配送成本75美分而非12美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 599,
+          "t": [
+            2221.825,
+            2223.125
+          ],
+          "quote": "I call them autonomous burritos.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "federal-preemption",
+      "type": "concept",
+      "role": "concept",
+      "name": "联邦优先权 (federal preemption)",
+      "file": "联邦优先权",
+      "primary": false,
+      "how_described": "本集说当你想搞监管俘获、把竞争对手挤出去的时候，联邦优先权就是好的，Travis说他在Uber时从没推动过只对自己有利的规则",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 530,
+          "t": [
+            1914.208,
+            1917.929
+          ],
+          "quote": "The AI labs are duking it out over federal preemption.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 531,
+          "t": [
+            1918.89,
+            1927.112
+          ],
+          "quote": "Did you ever develop a theory around when federal preemption is better than state by state regulation?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 535,
+          "t": [
+            1935.155,
+            1940.196
+          ],
+          "quote": "Federal preemption is good when you are pro-regulatory capture.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "regulatory-capture",
+      "type": "concept",
+      "role": "concept",
+      "name": "监管俘获 (regulatory capture)",
+      "file": "监管俘获",
+      "primary": false,
+      "how_described": "本集说联邦优先权好的时候就是你支持监管俘获的时候——你想把别人挤出去，让联邦监管的宏大格局为你服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 535,
+          "t": [
+            1935.155,
+            1940.196
+          ],
+          "quote": "Federal preemption is good when you are pro-regulatory capture.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "full-stack",
+      "type": "concept",
+      "role": "concept",
+      "name": "全栈 (full stack)",
+      "file": "全栈",
+      "primary": false,
+      "how_described": "本集说工业AI是全栈解决方案——软件、机器人、传感器、机械，用于全栈地自动化一个行业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            1087.533,
+            1092.377
+          ],
+          "quote": "But would you eventually go full stack, like build the entire system?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2234.857,
+            2242.925
+          ],
+          "quote": "So it's serving, remember, I'm taking, I'm sort of going through an industry and saying, how do we transform it full stack?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2243.746,
+            2246.729
+          ],
+          "quote": "How do we automate full stack that entire industry?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2583.702,
+            2596.027
+          ],
+          "quote": "It's like, okay, this is a full stack software, robotics, sensors, machinery, like a full stack solution to automating an industry.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lights-out-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "熄灯工厂 (lights out factory)",
+      "file": "熄灯工厂",
+      "primary": false,
+      "how_described": "本集在谈到'无人进入矿山'时提到，说它有点像那个版本——矿坑里没有人类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1104.127,
+            1104.948
+          ],
+          "quote": "Lights out factory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化 (automation)",
+      "file": "自动化",
+      "primary": false,
+      "how_described": "本集说Atoms要做物理自动化，Travis认为被自动化的东西价格会下降，释放的资金最终流向人类催生新需求",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            236.787,
+            245.174
+          ],
+          "quote": "I mean, we continue to go up and to the right, but, like, the announcement of Atoms was, we are going to do physical automation, physical AI,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "three-laws-of-robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人三定律 (three laws of robotics)",
+      "file": "机器人三定律",
+      "primary": false,
+      "how_described": "本集提到阿西莫夫的机器人三定律是对齐问题的优雅解决方案，但在系列中并不总是奏效",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 399,
+          "t": [
+            1394.617,
+            1400.723
+          ],
+          "quote": "The alignment problem broadly, like the iRobot, the three laws of robotics, which was sort of an elegant solution.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1400.763,
+            1412.773
+          ],
+          "quote": "It's tested, obviously, but I would love to come back to a world where everyone, both the doomers and the AI builders agree that, yep, the three laws of robotics will be sufficient.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "alignment-problem",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐问题 (alignment problem)",
+      "file": "对齐问题",
+      "primary": false,
+      "how_described": "本集在讨论机器人三定律时提到对齐问题，Travis的起点不是技术方案而是创业经验——造没人喜欢的东西不会成功",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 399,
+          "t": [
+            1394.617,
+            1400.723
+          ],
+          "quote": "The alignment problem broadly, like the iRobot, the three laws of robotics, which was sort of an elegant solution.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

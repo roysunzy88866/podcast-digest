@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>物理 AI (physical AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>185</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>185</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(04:20起):本集把它说成是给采矿车、农业机械、建筑设备等已存在的大型物理机器注入智能,认为这是未来 5 到 10 年 AI 最大的真实影响所在。
+- **[[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|《Travis Kalanick：为什么把下一家公司赌在工业AI》]]**(03:56起):本集说它是将AI带入物理世界的做法，Travis认为这可能是一个比单做软件更大的机会
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(35:37起):本集把它描述为 AI 的下一个前沿，指能让机器人或自动驾驶汽车理解物理定律、因果关系和摩擦张力的 AI。
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(00:49起):本集把它说成:AI 在物理世界(如建筑工地、电网、交通等)的应用;因为缺乏现成的数字比特数据且涉及硬件部署,比数字世界的 AI 挑战大得多。
 - **[[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|《Waymo 谈物理 AI 的七条实战教训》]]**(02:04起):本集将物理 AI 描述为存在于真实物理世界中的 AI，与数字 AI 之间存在错误代价、延迟、数据和验证四道根本差距，最好的物理 AI 时刻看起来像什么都没发生
@@ -393,9 +394,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为概念
+- [[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|《Travis Kalanick：为什么把下一家公司赌在工业AI》]] — 作为概念
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为概念
 - [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|《Waymo 谈物理 AI 的七条实战教训》]] — 作为概念
@@ -405,9 +407,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Waymo]] · [[智能体]] · [[Tesla]] · [[ChatGPT]] · [[强化学习]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Dmitri Dolgov]] · [[Chelsea Finn]]
+[[Waymo]] · [[智能体]] · [[Tesla]] · [[ChatGPT]] · [[强化学习]] · [[Lenny]] · [[Travis Kalanick]] · [[Jensen Huang]] · [[Matt Turk]] · [[Dmitri Dolgov]]
 
-<script type="application/json" class="pd-epn">{"Waymo":10,"智能体":1,"Tesla":6,"ChatGPT":45,"强化学习":13,"Lenny":66,"Jensen Huang":3,"Matt Turk":2,"Dmitri Dolgov":1,"Chelsea Finn":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":10,"智能体":1,"Tesla":6,"ChatGPT":45,"强化学习":14,"Lenny":66,"Travis Kalanick":1,"Jensen Huang":3,"Matt Turk":2,"Dmitri Dolgov":1}</script>
 
 <script>
 (function(){

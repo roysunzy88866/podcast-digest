@@ -181,9 +181,9 @@ AI 界有个著名原则叫"苦涩的教训"——利用海量算力和数据的
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|Justin Johnson：世界模型不只有一种，而语言模型做不到这些]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)、Transformers、模拟器 (simulator)</span>
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同概念:智能体 (agent)、飞轮 (flywheel)</span>
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同公司:Waymo · 同概念:物理 AI (physical AI)</span>
-- [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|让机器人在真实世界干活：Physical Intelligence 的通用机器人之路]]<span class="pd-rz">同公司:Waymo · 同概念:物理 AI (physical AI)</span>
 
 </div>
 <div class="pd-ex">

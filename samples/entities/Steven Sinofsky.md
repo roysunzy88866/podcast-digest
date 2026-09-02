@@ -40,7 +40,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Theo Jaffe]] · [[Martin Casado]] · [[Sofia Puccini]] · [[OpenAI]] · [[regulatory capture]] · [[Google]] · [[precautionary principle]] · [[Microsoft]] · [[开源]]
+[[Anthropic]] · [[Theo Jaffe]] · [[Martin Casado]] · [[Sofia Puccini]] · [[OpenAI]] · [[监管俘获]] · [[Google]] · [[precautionary principle]] · [[Microsoft]] · [[开源]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -50,7 +50,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":87,"Theo Jaffe":5,"Martin Casado":3,"Sofia Puccini":3,"OpenAI":76,"regulatory capture":2,"Google":34,"precautionary principle":1,"Microsoft":21,"开源":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":87,"Theo Jaffe":5,"Martin Casado":3,"Sofia Puccini":3,"OpenAI":76,"监管俘获":3,"Google":34,"precautionary principle":1,"Microsoft":21,"开源":9}</script>
 
 <script>
 (function(){

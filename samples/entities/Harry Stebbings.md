@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[推理]] · [[Anthropic]] · [[Cursor]] · [[Meta]] · [[SpaceX]] · [[Fireworks]] · [[OpenRouter]] · [[AEO]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":76,"推理":4,"Anthropic":87,"Cursor":41,"Meta":24,"SpaceX":11,"Fireworks":3,"OpenRouter":7,"AEO":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":76,"推理":4,"Anthropic":87,"Cursor":41,"Meta":25,"SpaceX":11,"Fireworks":3,"OpenRouter":7,"AEO":3}</script>
 
 <script>
 (function(){

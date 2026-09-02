@@ -1,0 +1,178 @@
+{
+  "title_zh": "Travis Kalanick：为什么把下一家公司赌在工业AI",
+  "tldr": "Travis Kalanick 聊他的新公司 Atoms 如何用自主驾驶套件改造采矿和食品行业，将物理世界自动化视为比纯软件更大的机会。",
+  "digest_md": "这一集是 Travis Kalanick 聊他的新公司 Atoms——他把之前分散的几家子公司（食品自动化、采矿自动化、运输）合并成一个实体，统称为\"工业 AI\"，今天刚宣布完成了 17 亿美元融资 [03:05 Unknown]。最反直觉的一点是：他去巴西亚马逊深处的铁矿、去伊拉克和沙特边境的磷酸盐矿做市场拓展，而客户买单的理由非常直接——\"你愿不愿意每年多产 20% 的金子？\" [10:39 Unknown]。还没听到拒绝。\n\n## 采矿怎么改：套件装上老机器，让它自己跑\n\nAtoms 旗下有一家叫 Pronto 的公司，做的是采矿运输环节的自主化。做法不是造新车，而是拿一套套件——传感器、计算设备、机械执行器——装到矿场已有的机器上，那台机器就变成自主驾驶的了 [09:25 Unknown]。有些机器已经用了 20 年，本身连线控驾驶（用电信号代替机械连接操控）都不是，得靠执行器去推物理按钮 [17:26 Unknown]。安装完还要校准、做安全验证，加上现场的变革管理——从\"每天早上人来上班、按严格流程操作\"变成\"人在控制中心监督自主作业\"，这是完全不同的运作方式 [16:47 Unknown]。\n\n运输在采矿里是\"心血管系统\"——矿场里车辆最多、跑得最勤的环节 [20:21 Unknown]。Pronto 先从运输切入，通过 API 和其他设备（钻探、爆破、装载、破碎）做编排协调，不一步吃下所有环节 [20:31 Unknown]。最终目标是\"无人进入矿山\"——矿坑里没有人，只有自主设备在运转 [18:20 Unknown]。目前一台装满矿石的运输车重 200 万磅，在越野路面上以 35 英里时速自主行驶 [19:19 Unknown]。\n\n## 生产力提升从哪来：两件事叠加\n\n生产力提升不是单一因素，是两件事叠在一起：第一，每台机器每小时干得更多；第二，工时、排班和安全协议都变了——不需要人在危险环境里轮班，24 小时运转变得可行 [12:36 Unknown]。Travis 估计，全部加起来最终可能提升 30% 到 40% 的生产力 [12:58 Unknown]。这对金矿、锂矿效果最直接——多挖出来的矿就是钱。采石场不太一样，因为下游水泥需求是固定的，不能无限多挖，所以那边更多是降运营成本的逻辑，利润也更薄 [13:17 Unknown]。\n\n## 市场拓展：不是去开会，是飞进丛林\n\n做消费业务时，Travis 的打法是把年轻人派到一个新城做营销；做工业 AI 的市场拓展则是飞到亚马逊丛林深处、飞到沙特边境，信号被干扰了就让飞行员目视降落 [10:10 Unknown]。他在巴西一个飞越单个矿区就要 30 分钟的巨型铁矿待了几天，客户叫 Valet [09:01 Unknown]。这类客户的决策流程类似企业软件——先做试点，证明自主系统达到了人类水平甚至超越人类水平之后，再从几台车扩展到整个车队的全部车辆 [11:21 Unknown]。\"一旦它奏效了，它就会做大\" [11:55 Unknown]。\n\n## 运输：机器人的\"轮基\"\n\nAtoms 的运输业务被他叫作\"机器人的轮基\"——不做通用人形机器人，做专用工业轮式机器人 [36:08 Unknown]。在食品业务里，供应链进入工厂的是货运车辆，出来的是\"自主墨西哥卷饼\"——一个能保温的轮上盒子，把食物送到家门口，配送成本 75 美分，而不是现在外卖平台每次 12 美元 [36:53 Unknown]。更广泛地看，光是叉车就是一个巨大市场——他提到一家公司每年在叉车人工上花 35 亿美元 [38:03 Unknown]。\n\n## 自动化对就业：价格下降创造新需求\n\n关于\"机器人抢工作\"的问题，Travis 的逻辑很直接：被自动化的东西价格会下降，价格下降释放出消费者的剩余资金，这些钱最终只会流向人类（因为机器人没有银行账户），然后去消费其他东西 [39:46 Unknown]。新的需求会催生现在还不知道的新岗位。前提是人类仍然有机器人做不到的事，\"那就是高歌猛进的时刻\" [40:51 Unknown]。\n\n## 招高管：解决问题比会管理重要\n\nTravis 说他对高管的要求有两件事：能在规模上组织和管理，以及能做史诗级的问题解决者。这两者像左撇子和右撇子，很少人两头都强 [29:14 Unknown]。他多年的结论是：解决问题比管理能力更重要。如果一个人只会管理但不会解决问题，\"他会以超级有组织的方式做荒谬的事情\" [29:49 Unknown]。他的管理风格是\"首席问题解决者\"——挑最具影响力、没人解决的问题来盯，直属下属也必须是受委任的问题解决者，这样一层层往下传 [30:31 Unknown]。面试时则要模拟一起工作的感觉，让入职第一天就像第二周，降低上手风险 [31:27 Unknown]。\n\n## 监管：联邦优先权什么时候好？\n\n被问到 AI 实验室争联邦优先权（联邦统一监管、压过各州自定规则）的事，Travis 说得很直白：当你想搞监管俘获、把竞争对手挤出去的时候，联邦优先权就是好的 [32:15 Unknown]。他在 Uber 时从没推动过任何只对自己有利的规则，\"我们一直试图打开市场，让最优秀的人获胜\" [32:45 Unknown]。他还提到，交通领域每一条系统性的坏规则，背后几乎都有起诉律师和保险公司在推——保险公司按精算表从事故中赚利润，\"他们喜欢在他们计划范围内的事故\" [34:12 Unknown]。\n\n## AI 安全：做东西得是人类想要的\n\n聊到阿西莫夫的机器人三定律和 AI 对齐问题，Travis 的起点不是技术方案，而是一个很朴素的创业经验：如果你造了没人喜欢的东西，你不会成功 [24:03 Unknown]。延伸到 AI——如果你造了反人类的东西，你也走不远。而且现在阶段的 AI 有一个特征：\"它们想要取悦我们\" [24:44 Unknown]。在机器人拥有自己银行账户之前，机器人归人所有，人根据你创造的价值付费，所以\"如果你在做人类不喜欢的事情，你就完了\" [26:18 Unknown]。\n\n## 本集带走\n\n- **套件改造而非造新车**：拿传感器、计算设备和执行器装到现有矿场机器上，包括那些 20 年前没有线控驾驶的老设备，让它变成自主运行的。\n- **生产力提升是两件事叠加**：机器每小时干得更多 + 24 小时不间断运转（不需要人在危险环境轮班），合计可能提升 30%–40%。\n- **试点→扩展的企业软件模式**：先证明自主系统达到甚至超越人类生产力水平，客户就会从几台车扩展到全部车辆。\n- **招高管，解决问题能力压过管理能力**：只会管理不会解决问题的人，会\"以超级有组织的方式做荒谬的事\"；管理风格是首席问题解决者，一层层传导。\n- **被自动化的事价格下降，释放的钱流向人类**：机器人没有银行账户，剩余资金最终由人类消费，催生新需求和新岗位。\n- **联邦统一监管利好谁**：想搞监管俘获、挤掉竞争对手的时候，联邦优先权就是好东西。",
+  "quotes": [
+    {
+      "en": "And we think of haulage as the cardiovascular system of a mine.",
+      "zh": "我们把运输视为矿山的心血管系统。",
+      "timestamp": "20:21",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "Automating a 2 million pound machine going 35 miles an hour carrying gold.",
+      "zh": "在自动化一台重 200 万磅、时速 35 英里运载黄金的机器。",
+      "timestamp": "22:23",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "And when I think about why I failed, it's usually because I was building something that nobody liked.",
+      "zh": "当我思考我为什么失败时，通常是因为我正在构建没有人喜欢的东西。",
+      "timestamp": "24:03",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "So if you are doing things that humans don't like, you're done.",
+      "zh": "所以如果你在做人类不喜欢的事情，你就完了。",
+      "timestamp": "26:18",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "If you get somebody who organizes and manages well but cannot solve a problem, they're going to be doing ridiculous stuff in a super organized way.",
+      "zh": "如果你找到一个组织和管理得很好但不能解决问题的人，他们将以超级有组织的方式做一些荒谬的事情。",
+      "timestamp": "29:49",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "Federal preemption is good when you are pro-regulatory capture.",
+      "zh": "当你支持监管俘获时，联邦优先权是好的。",
+      "timestamp": "32:15",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "In a weird way, they love accidents.",
+      "zh": "以一种奇怪的方式，他们喜欢事故。",
+      "timestamp": "34:44",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "It brings it to your home and it costs 75 cents instead of like the $12 per drop that it costs like an Uber Eats or DoorDash today.",
+      "zh": "它把它送到你家，成本是 75 美分，而不是像今天的 Uber Eats 或 DoorDash 那样每次配送大约要花 12 美元。",
+      "timestamp": "37:05",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "And as long as humans still have things that we do that robots cannot, it's go-go time, man.",
+      "zh": "只要人类仍然有我们做而机器人做不到的事情，那就是高歌猛进的时刻，伙计。",
+      "timestamp": "40:51",
+      "speaker": "Travis Kalanick"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:06",
+      "speaker": "Unknown",
+      "en": "What we are calling industrial AI to transform these industries one at a time.",
+      "zh": "我们称之为工业 AI，以此一次一个地改变这些行业。"
+    },
+    {
+      "timestamp": "10:39",
+      "speaker": "Unknown",
+      "en": "So what's happened is the pronto technology has gotten past human productivity, which means you go to a goldmine CEO, you talk about go-to-market, you go to a goldmine CEO, and you say, would you like to have 20% more gold per year?",
+      "zh": "所以发生的事情是，pronto 技术已经超越了人类的生产力，这意味着你去一个金矿 CEO，你谈论市场拓展，你去一个金矿 CEO，然后你说，你愿意每年多产 20% 的金子吗？"
+    },
+    {
+      "timestamp": "10:55",
+      "speaker": "Unknown",
+      "en": "We haven't heard no.",
+      "zh": "我们还没听到拒绝。"
+    },
+    {
+      "timestamp": "12:58",
+      "speaker": "Unknown",
+      "en": "My guess is you could even end up 30%, 40% more productive at the end of all of it.",
+      "zh": "我的猜测是，在这一切结束时，你甚至可能最终提高 30% 到 40% 的生产力。"
+    },
+    {
+      "timestamp": "13:08",
+      "speaker": "Unknown",
+      "en": "And when you do that, the opportunity speaks for itself.",
+      "zh": "当你做到这一点时，机会不言自明。"
+    },
+    {
+      "timestamp": "17:26",
+      "speaker": "Unknown",
+      "en": "Because that machine may not even be drive by wire.",
+      "zh": "因为那台机器甚至可能不是线控驾驶的。"
+    },
+    {
+      "timestamp": "18:20",
+      "speaker": "Unknown",
+      "en": "A no entry mine is a mine where there are no people in the pit.",
+      "zh": "无人进入矿山是指矿坑里没有人的矿山。"
+    },
+    {
+      "timestamp": "20:21",
+      "speaker": "Unknown",
+      "en": "And we think of haulage as the cardiovascular system of a mine.",
+      "zh": "我们把运输视为矿山的心血管系统。"
+    },
+    {
+      "timestamp": "22:23",
+      "speaker": "Unknown",
+      "en": "Automating a 2 million pound machine going 35 miles an hour carrying gold.",
+      "zh": "在自动化一台重 200 万磅、时速 35 英里运载黄金的机器。"
+    },
+    {
+      "timestamp": "24:03",
+      "speaker": "Unknown",
+      "en": "And when I think about why I failed, it's usually because I was building something that nobody liked.",
+      "zh": "当我思考我为什么失败时，通常是因为我正在构建没有人喜欢的东西。"
+    },
+    {
+      "timestamp": "24:44",
+      "speaker": "Unknown",
+      "en": "They want to please us.",
+      "zh": "它们想要取悦我们。"
+    },
+    {
+      "timestamp": "26:18",
+      "speaker": "Unknown",
+      "en": "So if you are doing things that humans don't like, you're done.",
+      "zh": "所以如果你在做人类不喜欢的事情，你就完了。"
+    },
+    {
+      "timestamp": "29:49",
+      "speaker": "Unknown",
+      "en": "If you get somebody who organizes and manages well but cannot solve a problem, they're going to be doing ridiculous stuff in a super organized way.",
+      "zh": "如果你找到一个组织和管理得很好但不能解决问题的人，他们将以超级有组织的方式做一些荒谬的事情。"
+    },
+    {
+      "timestamp": "32:15",
+      "speaker": "Unknown",
+      "en": "Federal preemption is good when you are pro-regulatory capture.",
+      "zh": "当你支持监管俘获时，联邦优先权是好的。"
+    },
+    {
+      "timestamp": "34:44",
+      "speaker": "Unknown",
+      "en": "In a weird way, they love accidents.",
+      "zh": "以一种奇怪的方式，他们喜欢事故。"
+    },
+    {
+      "timestamp": "37:05",
+      "speaker": "Unknown",
+      "en": "I call them autonomous burritos.",
+      "zh": "我称之为自主墨西哥卷饼。"
+    },
+    {
+      "timestamp": "37:13",
+      "speaker": "Unknown",
+      "en": "It brings it to your home and it costs 75 cents instead of like the $12 per drop that it costs like an Uber Eats or DoorDash today.",
+      "zh": "它把它送到你家，成本是 75 美分，而不是像今天的 Uber Eats 或 DoorDash 那样每次配送大约要花 12 美元。"
+    },
+    {
+      "timestamp": "40:51",
+      "speaker": "Unknown",
+      "en": "And as long as humans still have things that we do that robots cannot, it's go-go time, man.",
+      "zh": "只要人类仍然有我们做而机器人做不到的事情，那就是高歌猛进的时刻，伙计。"
+    },
+    {
+      "timestamp": "43:03",
+      "speaker": "Unknown",
+      "en": "This is a full stack software, robotics, sensors, machinery, like a full stack solution to automating an industry.",
+      "zh": "这是全栈软件，机器人技术，传感器，机械，就像一个自动化行业的全栈解决方案。"
+    }
+  ],
+  "voice_script": "你敢信吗，有个创业者，跑到巴西亚马逊丛林深处的铁矿，甚至飞到沙特和伊拉克的边境，去卖一种看起来特别硬核的技术。客户见面的第一句话不是聊技术细节，而是直接问：“你能不能让我每年多挖出 20% 的金子？”\n\n这一期，咱们来聊聊 Travis Kalanick 的新公司 Atoms。没错，就是 Uber 的前 CEO。现在把之前分散的食品自动化、采矿自动化、运输业务全合并到了一起，统称“工业 AI”，刚拿了 17 亿美元融资。\n\n说回开头那个挖金子的问题。Atoms 旗下有家叫 Pronto 的公司，专门搞采矿运输的自主化。做法特别接地气，根本不是去造什么炫酷的新车，而是搞一套套件——传感器、计算设备、机械执行器——直接装到矿场现有的机器上，让老机器自己跑。\n\n有些矿车都用了 20 年了，连线控驾驶都不是，怎么办？靠执行器去推物理按钮。装完还得校准、做安全验证，更要命的是变革管理。以前是工人每天早上来，按严格流程操作；现在变成人在控制中心盯着屏幕，看机器自己干活。运作方式完全变了。\n\n为什么先拿运输开刀？因为运输在采矿里就是“心血管系统”，车辆最多、跑得最勤。通过 API 把钻探、爆破、装载这些环节串起来，最终目标就四个字：无人矿山。\n\n那生产力到底能提升多少？这里是两件事叠在一起的。第一，每台机器每小时干得更多；第二，不用人在危险环境里轮班了，24 小时连轴转变成现实。这两下一加，估计能提升 30% 到 40% 的生产力。对金矿、锂矿来说，多挖出来的矿就是白花花的银子。\n\n那怎么把这种东西卖出去？做消费互联网是派年轻人去新城做营销，做工业 AI 是真得飞进丛林。信号被干扰了，就让飞行员目视降落。决策流程跟企业软件一样，先搞试点，证明自主系统达到了人类水平甚至更强，再从几台车扩展到整个车队。用原话讲就是：“一旦它奏效了，它就会做大。”\n\n除了采矿，Atoms 还把运输业务叫作“机器人的轮基”。在食品业务里，进入工厂的是货运车，出来的是“自主墨西哥卷饼”——一个能保温的轮上盒子，把食物送到家门口，配送成本只要 75 美分，而不是现在外卖平台每次的 12 美元。\n\n聊到机器人抢工作，逻辑其实很直接：被自动化的东西价格会下降，省下来的钱最终只会流向人类，因为机器人没有银行账户。有了闲钱就会去消费别的东西，新需求自然催生新岗位。\n\n在选人上，有一个观点特别狠。找高管，解决问题能力必须压过管理能力。如果一个人只会管理但不会解决问题，就会“以超级有组织的方式做荒谬的事情”。管理风格就是“首席问题解决者”，一层层往下传。\n\n至于 AI 安全这种宏大命题，起点反而特别朴素：如果你造了没人喜欢的东西，你不会成功。延伸到 AI 也是一样，在机器人拥有自己银行账户之前，机器人归人所有，人根据你创造的价值付费。\n\n所以最后这句话特别值得记住：当你思考为什么失败时，通常是因为正在构建没有人喜欢的东西。如果你在做人类不喜欢的事情，你就完了。"
+}
