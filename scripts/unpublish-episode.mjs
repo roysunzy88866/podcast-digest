@@ -74,4 +74,7 @@ if (isMain()) {
   applyUnpublish(plan, state);
   writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
   console.log(`✅ 已下架 ${id}(账本已记;接着跑重建链 + 部署)`);
+  // ⚠️ 2026-09-03 实账:云端跑批回仓用 `git pull --rebase -X theirs`,**它修改过的 pipeline-state.json 以 run 版为准**
+  //    → 跑批期间手工加的账本条目会被冲掉(那次两条「跨源重复」丢了,靠事后核对才发现)。
+  console.log("⚠️ 若此刻云端跑批(C7b)正在跑,它回仓时会用自己的 pipeline-state 覆盖:跑批结束后请复核 origin 账本仍含本条,必要时重跑本命令(幂等)。");
 }
