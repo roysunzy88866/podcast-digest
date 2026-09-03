@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, TRANSIENT_CAP, noteTransientFail, clearTransient, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, dedupeNewPicks, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, TRANSIENT_CAP, noteTransientFail, clearTransient, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -685,6 +685,39 @@ describe("W6 · 转瞬失败连败上限 + 停车集不占当日名额(2026-09-0
     expect(src).toContain("excludeIds: excludeToday");
     expect(src).toMatch(/function countAddedToday\(todayISO, excludeIds = new Set\(\)\)/);
     expect(src).toContain("completedIds().filter((id) => !excludeIds.has(id))");
+  });
+});
+
+describe("dedupeNewPicks · 新集路径跨源同题去重(2026-09-03 用户报 Cowork 那集出了 2 个;此前只接在补历史/演讲)", () => {
+  const LIB = ["How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)", "Unrelated title about growth"];
+  it("★★★ 复现真凶:库里已有 Lenny's 版,How I AI feed 再来同题 → 判重复;不同题的照留", () => {
+    const picks = [
+      { title: "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)", pubDateISO: "2026-08-31T11:00:00.000Z" },
+      { title: "A brand new interview about pricing", pubDateISO: "2026-09-01T11:00:00.000Z" },
+    ];
+    const { keep, dups } = dedupeNewPicks(picks, LIB);
+    expect(keep.map((p) => p.title)).toEqual(["A brand new interview about pricing"]);
+    expect(dups).toHaveLength(1);
+    expect(dups[0].hit).toBe(LIB[0]);
+  });
+  it("★★ 同批内互查:两条同题只留顺序在前的", () => {
+    const picks = [{ title: "Same talk | X", pubDateISO: "a" }, { title: "Same talk | X", pubDateISO: "b" }];
+    const { keep, dups } = dedupeNewPicks(picks, []);
+    expect(keep).toHaveLength(1);
+    expect(dups).toHaveLength(1);
+  });
+  it("★★★ 接线源码锚:selectNew 之后、逐集处理之前调 dedupeNewPicks;重复记终态 retry:false 并 appendSkip;dry-run 不记账", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    const iSel = src.indexOf("picks = selectNew(items");
+    const iDedupe = src.indexOf("dedupeNewPicks(picks, libraryTitlesFromCompleted(completedIds()))");
+    const iLoop = src.indexOf("for (const [idx, item] of picks.entries())");
+    expect(iSel).toBeGreaterThan(-1);
+    expect(iDedupe).toBeGreaterThan(iSel);
+    expect(iLoop).toBeGreaterThan(iDedupe);
+    const block = src.slice(iDedupe, iLoop);
+    expect(block).toContain("retry: false");
+    expect(block).toContain("if (!dryRun) appendSkip(state");
+    expect(block).toContain("const skipped = [...dupSkips]");
   });
 });
 

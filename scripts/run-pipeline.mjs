@@ -502,6 +502,23 @@ export function pendingTalkVideoIds(seedVideoIds, ledger) {
   return (seedVideoIds ?? []).filter((v) => !(ledger ?? {})[v]);
 }
 
+/** 新集路径跨源同题去重(2026-09-03 用户报「一个 PM 用 Claude Cowork 出了 2 个」)。
+ *  病根:How I AI 的集经 Lenny's feed 分发(源表 :29 早写明「不用接」),C35 又把 howiai 直接接成源;
+ *  而 findTitleDuplicate 此前只接在补历史/演讲路径,**新集路径一直裸奔** → 同一场访谈两源各做一遍(库里实测 2 对)。
+ *  口径同 ADR 0021(无人值守从简):疑似即跳过;调用方记终态账(retry:false → cutoff 可推进;误杀可删账本条目重放)。
+ *  先到者留:libraryTitles 是库内已完成集,SOURCES 顺序 Lenny's 在前 = 正典渠道先做;同批内也互查(顺序在前的留)。 */
+export function dedupeNewPicks(picks, libraryTitles = []) {
+  const titles = [...libraryTitles];
+  const keep = [];
+  const dups = [];
+  for (const p of picks) {
+    const hit = findTitleDuplicate(p.title, titles);
+    if (hit) dups.push({ item: p, hit });
+    else { titles.push(p.title); keep.push(p); }
+  }
+  return { keep, dups };
+}
+
 /** 标题归一化:小写、非字母数字拉平成单空格(中英标点/破折号/引号全吃)。 */
 export function normalizeTitle(s) {
   return String(s ?? "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -1665,6 +1682,20 @@ async function processSource(source, state, { backfillN, dryRun }) {
     picks = selectNew(items, { sinceISO: state.cutoffs[source.key], existingIds: seen, source });
     console.log(`cutoff=${state.cutoffs[source.key]};待处理新集 ${picks.length}:`);
   }
+  // 跨源同题去重(新集路径此前没有;见 dedupeNewPicks 注)。dry-run 只报不记账。
+  const dupSkips = [];
+  {
+    const { keep, dups } = dedupeNewPicks(picks, libraryTitlesFromCompleted(completedIds()));
+    for (const { item, hit } of dups) {
+      const id = deriveId(item, source);
+      const reason = `跨源重复:与库内《${hit}》同题,不重做(先到者留;误杀可删账本条目重放)`;
+      console.log(`   ♻️ ${id} ${reason}`);
+      if (!dryRun) appendSkip(state, { id, reason, title: item.title, pubDate: item.pubDateISO });
+      dupSkips.push({ id, reason, retry: false });
+    }
+    if (dups.length && !dryRun) writeState(state);
+    picks = keep;
+  }
   picks.forEach((p) => console.log(`   - ${deriveId(p, source)}  (${p.pubDateISO})  ${p.title}`));
   // 批内 id 撞车响亮告警(独立审计 2026-07-24):同日同源 slug 前 40 字符全同会撞,后来者被 seen 静默吞——静默丢集违背响亮 fail 纪律
   const dupIds = picks.map((p) => deriveId(p, source)).filter((id, i, a) => a.indexOf(id) !== i);
@@ -1681,7 +1712,7 @@ async function processSource(source, state, { backfillN, dryRun }) {
 
   // 逐集处理:干净集入发布,失真集隔离(skip+通知,drift #24),转瞬失败留半成品下次重试。
   const clean = [];
-  const skipped = [];
+  const skipped = [...dupSkips]; // 跨源重复的终态也进通知与收尾判定(retry:false 不拦 cutoff)
   for (const [idx, item] of picks.entries()) {
     const id = deriveId(item, source);
     // C34 → W5 挪到预算检查**之前**:判官是标题级、几百 token 的免费一问,偏题 = 终态(retry:false),cutoff 可推进过它。
