@@ -323,13 +323,24 @@ export function timeBudgetVerdict(elapsedM, est, { budgetMin = JOB_BUDGET_MIN, m
   return budgetMin - elapsedM > minEpisodeMin ? "skip" : "stop"; // 还够塞最短一集 = 只是这集长;否则真见底
 }
 
+/** W5(2026-09-03):这一集**永远**放不进一班(估时 > 整班预算,与已用时间无关)。
+ *  病根实证:cogrev 一集 154 分周报估 337 > 300,新集路径「放不下就停」→ 每班在它这儿停手,
+ *  它后面 2 集更短的永远轮不到,cutoff 冻在 08-16;每班白占 3 个名额。这类集该判终态跳过,不该每班重撞。 */
+export function neverFitsBudget(estMin, { budgetMin = JOB_BUDGET_MIN } = {}) {
+  return Number(estMin) > budgetMin;
+}
+
+/** 估时壳(两处守卫 + W5 共用,防口径漂移):本地已有转写稿 → 不用再转写只算后链;
+ *  C36:估价只信字幕格式的稿,html/plain 可能没时间点解析失败回落 ASR → 按 ASR 价估,防炸预算。 */
+function episodeEstimate(item, source, id) {
+  const cached = id ? existsSync(join(EPISODES_DIR, id, "transcript.en.json")) : false;
+  const needsAsr = !cached && !!source?.asr && !hasTimedFeedTranscript(item?.transcripts);
+  return { est: estimateEpisodeMin(item?.durationSec, needsAsr), needsAsr, cached };
+}
+
 /** 副作用壳:读缓存/估时 + 打日志,返回 "ok"|"skip"|"stop"。调用方按裁决 continue(skip)/ break(stop)。 */
 function timeBudgetCheck(what, item, source, id) {
-  // 本地已有转写稿 → 这一集**不用再转写**,只跑后链(补活/半成品重试的常态)。
-  const cached = id ? existsSync(join(EPISODES_DIR, id, "transcript.en.json")) : false;
-  // C36:估价只信字幕格式的稿;html/plain 可能没时间点解析失败回落 ASR → 按 ASR 价估,防炸预算
-  const needsAsr = !cached && !!source?.asr && !hasTimedFeedTranscript(item?.transcripts);
-  const est = estimateEpisodeMin(item?.durationSec, needsAsr);
+  const { est, needsAsr, cached } = episodeEstimate(item, source, id);
   const v = timeBudgetVerdict(elapsedMin(), est);
   if (v === "ok") return "ok";
   const dur = cached ? "转写稿已在本地" : Number(item?.durationSec) > 0 ? `${Math.round(item.durationSec / 60)} 分音频` : "时长未知";
@@ -346,10 +357,7 @@ function timeBudgetCheck(what, item, source, id) {
 /** 新集路径专用(cutoff 敏感,drift #73 丢集):放不下就停(true),**不 skip 跳过** —— 剩下没做的由调用方
  *  统一登记 retry:true,否则 cutoff 会推进到「本批最新」把没做的永久跳过。故新集保守停手,不学补历史跳读。 */
 function outOfTimeBudget(what, item, source, id) {
-  const cached = id ? existsSync(join(EPISODES_DIR, id, "transcript.en.json")) : false;
-  // C36:同 timeBudgetCheck —— 估价只信字幕格式的稿
-  const needsAsr = !cached && !!source?.asr && !hasTimedFeedTranscript(item?.transcripts);
-  const est = estimateEpisodeMin(item?.durationSec, needsAsr);
+  const { est, needsAsr, cached } = episodeEstimate(item, source, id);
   if (timeBudgetVerdict(elapsedMin(), est) === "ok") return false;
   const dur = cached ? "转写稿已在本地" : Number(item?.durationSec) > 0 ? `${Math.round(item.durationSec / 60)} 分音频` : "时长未知";
   console.log(`⏳ 时间预算不够开下一集(已跑 ${Math.round(elapsedMin())} 分 / 预算 ${JOB_BUDGET_MIN} 分;` +
@@ -1301,7 +1309,18 @@ function processBackfillPicks(pairs, state) {
     const id = deriveId(item, source);
     const bv = timeBudgetCheck("补历史", item, source, id);
     if (bv === "stop") { budgetFull = true; break; }
-    if (bv === "skip") continue; // 这集太长 → 跳过试同批下一条(更短能放下的),别 break 掉整批(2026-08-24 真凶)
+    if (bv === "skip") {
+      // W5:永远放不进一班的超长集 → 终态记账(进 seen 不再入池),别每班白挑白跳
+      const { est } = episodeEstimate(item, source, id);
+      if (neverFitsBudget(est)) {
+        const reason = `超长集:估 ${est} 分 > 单班预算 ${JOB_BUDGET_MIN} 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)`;
+        console.log(`   ⛔ ${id} 超长集终态跳过:${reason}`);
+        appendSkip(state, { id, reason, title: item.title, pubDate: item.pubDateISO });
+        writeState(state);
+        skipped += 1;
+      }
+      continue; // 这集太长 → 跳过试同批下一条(更短能放下的),别 break 掉整批(2026-08-24 真凶)
+    }
     processed += 1; // 到这就要花成本了(判官本身也是 GLM 调用),计入护栏 —— 判官拒也算(GLM 001[2]:否则一池 off-taste 集会空转几百次判官)
     // C34:补历史同样先判题材(它挑「最新」,更容易撞上泛题材源的偏题集 —— 222 纳米光那集就是这么来的)
     const taste = judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
@@ -1616,17 +1635,10 @@ async function processSource(source, state, { backfillN, dryRun }) {
   const clean = [];
   const skipped = [];
   for (const [idx, item] of picks.entries()) {
-    // C32:新集是耗时主力(单集全链实测 76/93/70 分)。红线前停手,让已完成的集能回仓,
-    // 而不是整批被平台在 6h 整点强杀、产出全丢(实证 run 32217002487/32278842850)。
-    if (outOfTimeBudget("新集", item, source, deriveId(item, source))) {
-      // ⚠️ 剩下没做的必须登记 retry:true —— 否则收尾处 cutoff 会推进到「本批最新」(含没做的那些),
-      // 把它们永久跳过、再也抓不到(我这刀引入的 bug,GLM 035[3] 提示方向后查出)。
-      picks.slice(idx).forEach((rest) =>
-        skipped.push({ id: deriveId(rest, source), reason: "时间预算用尽(下班次继续)", retry: true }));
-      break;
-    }
     const id = deriveId(item, source);
-    // C34:开工前先过品味判官(标题级,免费档)。偏题 = 终态(retry:false),cutoff 可推进过它、不再重判重烧。
+    // C34 → W5 挪到预算检查**之前**:判官是标题级、几百 token 的免费一问,偏题 = 终态(retry:false),cutoff 可推进过它。
+    // 病根:cogrev 那集 154 分「AI in the AM weekly highlights」本是 ❌ 聚合简报,却因预算检查在前、每班在它这儿停手,
+    // 判官永远没机会拒掉它(08-16 起每班白占 3 个名额)。
     const taste = judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
     if (!taste.ok) {
       console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
@@ -1634,6 +1646,26 @@ async function processSource(source, state, { backfillN, dryRun }) {
       writeState(state);
       skipped.push({ id, reason: `题材不对味:${taste.why}`, retry: false });
       continue;
+    }
+    // W5:估时 > 整班预算 = 永远放不进任何一班 → 终态跳过(与「题材不对味」「[1301]」同一机制:进账本即进 seen,
+    // cutoff 可推进过它;不违反 drift #73 ——那条守的是「没处理的」,终态=已处理)。有官方稿后删账本条目即可重放。
+    const { est } = episodeEstimate(item, source, id);
+    if (neverFitsBudget(est)) {
+      const reason = `超长集:估 ${est} 分 > 单班预算 ${JOB_BUDGET_MIN} 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)`;
+      console.log(`   ⛔ ${id} 超长集终态跳过:${reason}`);
+      appendSkip(state, { id, reason, title: item.title, pubDate: item.pubDateISO });
+      writeState(state);
+      skipped.push({ id, reason, retry: false });
+      continue;
+    }
+    // C32:新集是耗时主力(单集全链实测 76/93/70 分)。这一集**当下**放不下 → 红线前停手,让已完成的集能回仓,
+    // 而不是整批被平台在 6h 整点强杀、产出全丢(实证 run 32217002487/32278842850)。
+    if (outOfTimeBudget("新集", item, source, id)) {
+      // ⚠️ 剩下没做的必须登记 retry:true —— 否则收尾处 cutoff 会推进到「本批最新」(含没做的那些),
+      // 把它们永久跳过、再也抓不到(我这刀引入的 bug,GLM 035[3] 提示方向后查出)。
+      picks.slice(idx).forEach((rest) =>
+        skipped.push({ id: deriveId(rest, source), reason: "时间预算用尽(下班次继续)", retry: true }));
+      break;
     }
     let res;
     try {

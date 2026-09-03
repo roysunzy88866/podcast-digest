@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -566,14 +566,15 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
   });
   it("★★★ 三处耗时循环都装了守卫(新集=停手 outOfTimeBudget;补历史/补活=skip 跳长集 timeBudgetCheck)", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-    expect(src).toContain('outOfTimeBudget("新集", item, source, deriveId(item, source))'); // 新集保守停手(cutoff 敏感)
+    expect(src).toContain('outOfTimeBudget("新集", item, source, id)'); // 新集保守停手(cutoff 敏感;W5 后 id 先算好)
     expect(src).toContain('timeBudgetCheck("补历史", item, source, id)'); // 补历史:太长跳过试下一条
     expect(src).toContain('timeBudgetCheck("补活", item, source, id)');
   });
   it("★★★ 补历史/补活遇长集是 skip(试下一条)不是 break 掉整批(2026-08-24 真凶:154分集把整班毙了)", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-    // 两处都要有「skip → continue」而非只有 break
-    expect((src.match(/if \((?:bv|rv) === "skip"\) continue;/g) || []).length).toBe(2);
+    // 两处都要有「skip → continue」而非只有 break(补历史的 skip 分支 W5 起是个块:先看是否超长终态,末尾仍 continue)
+    expect(src).toContain('if (rv === "skip") continue;');
+    expect(src).toMatch(/if \(bv === "skip"\) \{[\s\S]{0,900}?continue;[^\n]*\n\s*\}/);
     // 两处都要有 stop→break(补活直接 break;补历史 stop 置 budgetFull 后 break,供外层区分"预算见底"vs"这集太长")
     expect(src).toContain('if (rv === "stop") break;');
     expect(src).toMatch(/if \(bv === "stop"\) \{ budgetFull = true; break; \}/);
@@ -591,14 +592,19 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
   });
   it("★★★ 本地已有转写稿就按「无需转写」估 —— 补活的集全都有稿,不看这条会把补活整个拒掉", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
-    const fn = src.slice(src.indexOf("function timeBudgetCheck("), src.indexOf("\n}", src.indexOf("function timeBudgetCheck(")));
+    // W5 起估时收进 episodeEstimate(三处共用);两处守卫都必须经它估,不许各自另算
+    const fn = src.slice(src.indexOf("function episodeEstimate("), src.indexOf("\n}", src.indexOf("function episodeEstimate(")));
     expect(fn).toContain('transcript.en.json');
     expect(fn).toContain("const needsAsr = !cached");
+    const tbc = src.slice(src.indexOf("function timeBudgetCheck("), src.indexOf("\n}", src.indexOf("function timeBudgetCheck(")));
+    expect(tbc).toContain("episodeEstimate(item, source, id)");
+    const ootb = src.slice(src.indexOf("function outOfTimeBudget("), src.indexOf("\n}", src.indexOf("function outOfTimeBudget(")));
+    expect(ootb).toContain("episodeEstimate(item, source, id)");
   });
   it("★★★ 超时停手时,没做的集必须登记 retry —— 否则 cutoff 推过它们、永久抓不到", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
     const start = src.indexOf('if (outOfTimeBudget("新集"');
-    const guard = src.slice(start, src.indexOf("const id = deriveId(item, source);", start));
+    const guard = src.slice(start, src.indexOf("break;", start) + 6);
     expect(guard).toContain("picks.slice(idx)");
     expect(guard).toContain("retry: true");
   });
@@ -616,6 +622,36 @@ describe("bjDay · C31 一律按北京时间切日(读者在北京)", () => {
   });
   it("与 workers/pv-counter 的 bjDay 同口径(UTC+8 后取日期段)", () => {
     expect(bjDay(Date.parse("2026-01-01T16:00:00Z"))).toBe("2026-01-02");
+  });
+});
+
+describe("neverFitsBudget · W5 超长集终态跳过(2026-09-03:cogrev 154 分周报把源卡死 08-16 至今)", () => {
+  it("★★★ 估时 > 整班预算 = 永远放不进(337 > 300);恰好等于/小于 = 放得进", () => {
+    expect(neverFitsBudget(337)).toBe(true);
+    expect(neverFitsBudget(estimateEpisodeMin(154 * 60, true))).toBe(true); // 154 分音频要转写 → 337
+    expect(neverFitsBudget(JOB_BUDGET_MIN)).toBe(false);
+    expect(neverFitsBudget(299)).toBe(false);
+    expect(neverFitsBudget(NaN)).toBe(false); // 估不出不乱判终态
+  });
+  it("★★★ 源码锚(新集循环):判官在预算检查之前 → 超长终态(retry:false)→ 再 outOfTimeBudget 停手;顺序错了死锁就回来", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    const loop = src.slice(src.indexOf("for (const [idx, item] of picks.entries())"));
+    const iJudge = loop.indexOf("judgeEpisodeTaste(item, source");
+    const iNever = loop.indexOf("neverFitsBudget(est)");
+    const iBudget = loop.indexOf('outOfTimeBudget("新集"');
+    expect(iJudge).toBeGreaterThan(-1);
+    expect(iNever).toBeGreaterThan(iJudge);
+    expect(iBudget).toBeGreaterThan(iNever);
+    // 超长分支必须是终态(retry:false)且记账(进 seen),cutoff 才推得过去
+    const branch = loop.slice(iNever, iBudget);
+    expect(branch).toContain("appendSkip(state, { id, reason, title: item.title, pubDate: item.pubDateISO })");
+    expect(branch).toContain("retry: false");
+    expect(branch).toContain("超长集终态跳过");
+  });
+  it("★★ 源码锚(补历史):长集 skip 时若永远放不进也记终态,不再每班白挑", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    const i = src.indexOf('timeBudgetCheck("补历史"');
+    expect(src.slice(i, i + 900)).toContain("neverFitsBudget(est)");
   });
 });
 
