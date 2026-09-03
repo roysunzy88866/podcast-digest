@@ -1,0 +1,124 @@
+===标题===
+我杀掉所有 OpenClaw，全面转向 GrokBot：一份可直接抄的智能体实战清单
+===导语===
+How I AI 主播实测 GrokBot 数周后全员切换，拆解幕僚长、家庭、代码审查、砍价购物等六大 bot 用例与搭建方法。
+===正文---
+用了几周 GrokBot 之后,这一集的主播做出了一个有点残忍的决定:她杀掉了自己精心养了半年的所有 OpenClaw 智能体,几乎完全转向了 GrokBot——包括她曾经的心头爱、智能体同事的标杆 Polly。这期是完全实操的迷你节目,全是你可以直接抄走的 bot 点子和模板(她把模板链接放在了节目备注里)。
+
+## GrokBot 的三个关键原语
+
+GrokBot 是 SpaceX AI 团队推出的多智能体平台,定位是「可以交给你真实工作的 AI 队友」。上手只需要懂三件事 [02:10 SPEAKER_00]:
+
+**一是 Bots。** 你可以定义一个个独立智能体,各管一摊。有个有趣的细节:用一个特定名字创建 bot,它会从名字推断自己的职责——她最早的 bot 叫 Prody McProd,它就知道自己是做产品工作的。她的心法是「bot 即同事、一个工作一个 bot」:像招人一样招 bot,针对特定工作、用特定名字 [03:55 SPEAKER_00]。
+
+**二是插件。** 插件是技能和连接器的组合,让 bot 能碰到你技术栈的各个部分——Gmail、日历、Google Drive、GitHub、Slack 等。连接体验做得极好:你几乎不用专门去设置界面,bot 会主动提示你连接它需要的插件,走一遍 OAuth 授权就能用 [04:46 SPEAKER_00]。杀手级功能是**每个插件可以连多个账号**——她有大约 10 个邮箱、多个 Slack 和 Linear,全都能接上、自由切换。这对经营多家业务的创业者尤其有用 [05:09 SPEAKER_00]。
+
+**三是计算机和例程。** 每个 GrokBot 有一台云端虚拟机,可以登录网站、装东西、跑代码仓库;而且任务有连续性,手机上接着用。例程就是定时任务,到点替你干活 [06:03 SPEAKER_00]。
+
+一个当前的限制要听好:GrokBot 仍是单人游戏,你**不能把它拉进群聊**。这是 Eve 智能体和 OpenClaw 目前仍胜出的唯一一点。过去一周他们上线了「分享 bot 模板」,但两个各自聊天的人共享模板,终究不等于一个共享的 bot [07:01 SPEAKER_00]。
+
+## Chief:幕僚长机器人
+
+Chief 是她通用的生活秩序 bot:每小时扫一遍收件箱和日历——她有约六个收件箱、六个 Slack——清掉不用看的邮件,该保持未读的保持未读,只在真正需要时才 ping 她,而且信号非常高 [09:07 SPEAKER_00]。她的运行时段是早 6 点到晚 9 点、一周七天,刻意不跑通宵,免得别人习惯她半夜回复。除了每小时扫查,Chief 还做晨间简报和周末前瞻计划。
+
+一个实用技巧:Grok 模型写作很糟——被调校得过于简短省 token,经常把一句本来说得通的话压缩成三四个词,读不懂。她的解法是让 Chief 通读她的全部邮件、提炼出她的语气风格,生成一份「语音提示词」:简短、温暖、有趣、从不用破折号、以「嘿」开头、结尾署一小段文字。低风险邮件现在可以放心让 Chief 代写 [09:58 SPEAKER_00]。
+
+一个坑:OpenClaw 开箱即用就更主动(有心跳功能,可以设定每 5 分钟或 30 分钟主动干活),GrokBot 不是——她不得不跟 Chief 说了好几次「把这个排进日程」。例程要你明确指定运行时间,这点得自己管起来 [11:55 SPEAKER_00]。
+
+## TradBot:家庭智能体
+
+她有三个男孩和一个婴儿,今年报了大约 80 项不同的运动。她对家庭智能体的定位很清晰:**让智能体帮她轻松地离开电脑去陪孩子** [13:28 SPEAKER_00]。
+
+具体做法有三层。其一是「厨房餐桌报纸」:每天一份工作日家庭简报,打印出来放在餐桌上——日程、作业提醒、天气(以及该穿什么)。这不是新鲜事,但真的管用:某天简报提醒老二周三要交数学作业,她这个自认盯得很紧的虎妈根本不知道有这回事 [15:19 SPEAKER_00]。简报右侧还有适合孩子的新闻话题,比如宝可梦世界锦标赛就在旧金山办、NASA 望远镜这周发射,供全家早餐时聊。她丈夫还偷学了另一招:用「邮件转 Kindle」地址把简报发到 Kindle 上读——离开电脑和手机还能消化信息。
+
+其二是每天下午 2:30 接娃前的例行确认:今天谁接?柔术道服带了吗?足球零食呢?钢琴和棒球的时间冲突了吗?每周日程都在变,这种临出门的协调超有帮助 [17:12 SPEAKER_00]。其三是周五预告,预览周末两天谁要去哪个城市另一头、什么时候拼车、需要带什么。TradBot 模板已公开,可以直接借用。
+
+## 工程用例:两个 bot 管住 PR 和合规
+
+**Look Good To Me,PR 关闭器。** 发 PR 比审 PR 有趣,于是 PR 堆积成山;而出于 SOC 2 合规要求(SOC 2 是一项服务型企业安全审计标准),她又必须人工审查。这个 bot 每天过一遍她的 PR,判断哪些要合并、关闭、rebase,回复评论、发 Slack,基本扮演一个「烦人的工程经理」,推动 PR 管道向前。更妙的是 GrokBot 能启动 Cursor 云端编码任务——各 PR 的 rebase 和反馈修改可以交给 Cursor 去做。单是周五一次,它就清掉了约 50 个搁置等审的 PR [21:50 SPEAKER_00]。
+
+**Lockdown,SOC 2 控制机器人。** 小团队每天得检查中央仪表板上所有监控器是否绿色、报警有没有超出 SLA、漏洞有没有关闭。Lockdown 会登录那个仪表板、逐项检查;发现新漏洞就分诊、提交 PR、请她审查批准;人员类运营控制项(比如是否做过账户审计、承包商离职清单)它也会盯着提醒。她的总结是:「我们可以让 AI 去工作,也可以让 AI 以更有效的方式给我们安排工作」——这就像有个实习生时不时拍拍你的肩膀:别忘了明天是账户审查日 [23:23 SPEAKER_00]。
+
+客服方面她也把 ChatPRD 的客服智能体 Holly Helpdesk 从 OpenClaw 迁了过来,质量之好令她意外:Holly 每小时扫 Intercom 和邮件、按支持手册处理退款和技术修复、有 bug 时被授权用 Cursor 云端智能体去修。退款走的是「agent action」审批流——bot 弹出按钮问「该不该退 Ruben 的 19 美元」,推一个 Stripe 请求,她明确批准后智能体才代她执行,然后 Holly 回邮件告知用户。Holly 还每周回顾过去七天,把重复问题补进支持手册和文档,让更多问题能自助解决;甚至被授权管理 ChatPRD 社区 Slack、回复问题、发起社区互动 [24:44 SPEAKER_00]。
+
+## 好玩的个人用例
+
+**Penny Pinscher** 翻她的收据找钱省:找到了该取消的旧订阅、注意到她几个月没兑换 Audible 点数(于是暂停 90 天,到期再提醒她决定)、还发现房屋保险几个月后续保,主动去找市场费率,准备拿市场价去跟保险代理人议价 [27:14 SPEAKER_00]。她还让它去买一块出生年份的 Rolex——它真的进了市场,找到非标准尺寸、她出生那年发布的款式,算出市场价,找出可议价的并开始替她砍价(结论:她太怕麻烦,最后还是继续戴 Apple Watch)。另有一个独立的 **Shopzilla** bot:她要找一个 30 英寸宽、15 英寸深的书柜,它用浏览器出去逛,找来一堆全符合尺寸、还有她搜不到的选项。
+
+最 喜欢 的是 **Sylvie Style**:她把自己的 Pinterest 风格板设为公开交给它,它登录梳理、建立起她风格的「视觉语言」;还去 Reddit 研究私人造型师怎么帮人打造衣橱;然后给她建了自己的风格板,按优先级列出该买的——基础款运动裤(送娃上学用)、提升档次的工作装、图案 T 恤和首饰。每天早上 8 点它扫一遍哪些零售商在促销,从中挑出符合她风格的约 10 件、附链接发给她 [32:14 SPEAKER_00]。
+
+## 最后:怎么迁移你的 OpenClaw
+
+她的做法值得留档:养 OpenClaw 的都知道,必须有一个「救援 bot」管其他 bot——她的叫 lifeguard,唯一工作是管理其他 bot。她对 lifeguard 说:给我打包一份不含密钥的完整智能体设置——cron 任务、智能体身份、规则等等。它产出 一个 zip 文件,她把子文件夹直接上传到 GrokBot,「像做了一次大脑移植」:个性、任务、连接器全搬了过来。然后杀掉旧智能体只需一句「杀掉 Sam」——lifeguard 抽走所有 cron 和网关配置,Sam 就长眠了 [33:12 SPEAKER_00]。
+
+她经历这一切后的结论很简单:**UX 很重要**。她是技术很强的人——SSH 连 Mac Mini、跑着 lifeguard——但维护 OpenClaw 实在太难。SpaceX AI 团队做对一个简单的、一切开箱即用就能跑、完成度 90% 的同事型智能体,解决了她的大问题。现在她任意时刻大约有 30 个 bot 在运行。
+
+## 本集带走
+
+- **按「一个工作一个 bot」组织**:像招人一样招 bot,给特定名字(名字会自动暗示职责),别做一个万能大 bot。
+- **用邮件提炼语音提示词**:让 bot 通读你的历史邮件、总结你的写作风格,低风险邮件就能放心代写——尤其它本来的文风又短又难懂时。
+- **例程要显式指定**:GrokBot 不像 OpenClaw 那样开箱主动,想让 bot 定时干活,直接在设置里写清运行时间。
+- **打印出来用**:家庭简报打印上餐桌、或用「邮件转 Kindle」地址发到 Kindle,信息离开屏幕反而更起作用。
+- **高危操作走审批流**:退款这类动作让 bot 弹按钮请示、在 Stripe 里显式批准后再执行,授权边界清晰。
+- **迁移打包一条龙**:用一个「救援 bot」导出全部身份、cron、规则的无密钥 zip,上传新平台即完成「大脑移植」。
+===金句===
+00:25 | SPEAKER_00
+EN | I have killed all my open claws and moved almost entirely to GrokBot.
+ZH | 我已经杀掉了我所有的 OpenClaw,几乎完全转向了 GrokBot。
+
+03:56 | SPEAKER_00
+EN | I really like, again, this sort of like bot as colleague, bot as coworker, bot per job framework.
+ZH | 我真的很喜欢这种「bot 即同事」「bot 即搭档」「一个工作一个 bot」的框架。
+
+04:10 | SPEAKER_00
+EN | I like to hire my bots like I hire people for specific jobs and with specific names.
+ZH | 我雇佣我的 bot 就像我招人一样,针对特定的工作、用特定的名字。
+
+05:09 | SPEAKER_00
+EN | And I called this out in my earlier review, is that you can connect multiple accounts per plugin.
+ZH | 我在之前的评测里就指出过这一点:每个插件可以连接多个账号。
+
+07:01 | SPEAKER_00
+EN | These are still single player.
+ZH | 这些仍然是单人游戏。
+
+07:11 | SPEAKER_00
+EN | really still wins is you can't put a GrokBot in the group chat.
+ZH | 真正仍然胜出的地方,就是你不能把一个 GrokBot 放进群聊里。
+
+09:58 | SPEAKER_00
+EN | I will say the Grok model sniffs of Claude in that it's just really a terrible writer.
+ZH | 我得说 Grok 模型闻起来有股 Claude 味,因为它实在是个很糟糕的写手。
+
+10:16 | SPEAKER_00
+EN | And that means sometimes it just says no.
+ZH | 这意味着有时候它就直接说不。
+
+13:28 | SPEAKER_00
+EN | the ideal thing for an agent for a home is I want the agent to make it really easy for me to spend time with my kids off a computer.
+ZH | 家庭智能体最理想的样子就是:我希望它能让我非常轻松地离开电脑去陪我的孩子们。
+
+23:23 | SPEAKER_00
+EN | we can put AI to work or we can have AI put us to work in a more effective way.
+ZH | 我们可以让 AI 去工作,也可以让 AI 以更有效的方式给我们安排工作。
+
+23:39 | SPEAKER_00
+EN | It's just like having an intern who taps me on the shoulder every now and then
+ZH | 这就像有一个实习生时不时拍拍我的肩膀。
+
+25:14 | SPEAKER_00
+EN | And I really love this request tool use approval flow.
+ZH | 而且我真的很喜欢这个请求工具使用审批流程。
+
+34:44 | SPEAKER_00
+EN | UX matters. It just does.
+ZH | UX 很重要。它就是重要。
+
+35:15 | SPEAKER_00
+EN | And so I think that SpaceX AI team really nailing a simple, everything works, out of the box, 90%.
+ZH | 所以我觉得 SpaceX AI 团队真正做到了一个简单的、一切都正常工作、开箱即用、完成度 90% 的东西。
+
+35:32 | SPEAKER_00
+EN | I have probably 30 running at any one time.
+ZH | 我任意时刻大概有 30 个在运行。
+===END===

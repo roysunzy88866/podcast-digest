@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[评估]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[主观能动性]] · [[Meta]] · [[原型]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"评估":17,"Anthropic":90,"Codex":35,"OpenAI":78,"主观能动性":16,"Meta":25,"原型":3,"Claude Code":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"评估":17,"Anthropic":91,"Codex":35,"OpenAI":78,"主观能动性":16,"Meta":25,"原型":3,"Claude Code":46}</script>
 
 <script>
 (function(){

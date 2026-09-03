@@ -215,7 +215,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[Stripe]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":90,"Google":35,"Lenny":66,"ChatGPT":46,"推理":4,"Cursor":41,"NVIDIA":24,"Stripe":24,"Claude":46}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":91,"Google":35,"Lenny":66,"ChatGPT":46,"推理":4,"Cursor":41,"NVIDIA":24,"Stripe":24,"Claude":46}</script>
 
 <script>
 (function(){

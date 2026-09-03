@@ -48,7 +48,7 @@ unlisted: true
 
 [[智能体]] · [[Hugging Face]] · [[护栏]] · [[NPM]] · [[软件供应链]] · [[泄露的凭证]] · [[Dylan]] · [[Emilio Escobar]] · [[Max]] · [[Aaron Zolman]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Hugging Face":15,"护栏":1,"NPM":2,"软件供应链":2,"泄露的凭证":3,"Dylan":1,"Emilio Escobar":1,"Max":1,"Aaron Zolman":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Hugging Face":15,"护栏":33,"NPM":2,"软件供应链":2,"泄露的凭证":3,"Dylan":1,"Emilio Escobar":1,"Max":1,"Aaron Zolman":1}</script>
 
 <script>
 (function(){

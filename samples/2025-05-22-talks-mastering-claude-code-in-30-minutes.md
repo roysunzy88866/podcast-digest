@@ -142,7 +142,7 @@ Boris 说自己是普通用户，一次跑一个 Claude。但他看到的高级�
 
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:LLM</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Claude Code、GitHub</span>
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic、Claude Code</span>
+- [[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|Claude Fable 5 亲测：最聪明模型的能干与不能干]]<span class="pd-rz">同公司:Anthropic、Claude Code</span>
 
 </div>
 <div class="pd-ex">

@@ -42,7 +42,7 @@ aliases: ["Akshat"]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":4,"智能体":1,"AX":1,"DX":3,"沙箱":35,"推理":4,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":4,"智能体":1,"AX":1,"DX":3,"沙箱":36,"推理":4,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

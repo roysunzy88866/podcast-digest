@@ -1,0 +1,709 @@
+{
+  "episode_id": "2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho",
+  "podcast": "How I AI",
+  "date": "2026-06-09",
+  "tags": [
+    "AI 编程",
+    "模型评测",
+    "AI 安全",
+    "智能体",
+    "Claude"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集讨论的公司：发布了新模型档位 Mythos 级的第一个正式版本 Claude Fable 5,并配套推出 Cloud Managed Agents、fallback API 等产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.311,
+            7.921
+          ],
+          "quote": "It's here, the model, the myth, the legend, Mythos from Anthropic has finally dropped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            32.132,
+            37.713
+          ],
+          "quote": "Okay, let's talk about what Anthropic is telling us about this model and then we'll get into what I think about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            37.793,
+            54.137
+          ],
+          "quote": "So this is Claude Fable 5, the first mythos class intelligence model to reach GA. Now, if you haven't been paying attention, Anthropic has been marketing slash scaring slash warning us about the unbelievable capabilities of mythos and it is finally here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            114.56,
+            115.96
+          ],
+          "quote": "So what is Anthropic saying?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            185.014,
+            190.92
+          ],
+          "quote": "So Anthropic has said it consumes rate limits and tokens at about 2x the rate of other models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            344.601,
+            352.705
+          ],
+          "quote": "My question for any of these models, this is not an Anthropic model question, this is not a Fable question, is does this token intensity actually output?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            390.94,
+            394.382
+          ],
+          "quote": "And so this was one of the first things that Anthropic told me testing the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            518.501,
+            525.524
+          ],
+          "quote": "If you haven't paid attention, this is Anthropic's hosted harness, hosted sandbox for running long running agentic work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            592.318,
+            596.023
+          ],
+          "quote": "So this is Anthropic's state of the art model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            809.672,
+            814.973
+          ],
+          "quote": "Now, the Anthropic team suggested that I just needed to be a little bit more detailed in my prompting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fable-5",
+      "type": "company",
+      "role": "company",
+      "name": "Fable 5",
+      "file": "Fable 5",
+      "primary": true,
+      "how_described": "本集主角：Anthropic Mythos 级新模型,定价输入 10 美元/输出 50 美元、token 消耗约 2 倍;主持人实测认为它擅长视觉/文档排版和长时程难题,但写 spec 文笔没法读、前端设计出奇地差、执行过于保守。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.944,
+            15.751
+          ],
+          "quote": "We're calling it Fable 5, and this new model is crushing benchmarks, but the question is,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            37.793,
+            54.137
+          ],
+          "quote": "So this is Claude Fable 5, the first mythos class intelligence model to reach GA. Now, if you haven't been paying attention, Anthropic has been marketing slash scaring slash warning us about the unbelievable capabilities of mythos and it is finally here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            118.381,
+            123.123
+          ],
+          "quote": "So we had Sonnet, we had Opus, and now we have Mythos, the first of which is Fable 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            209.314,
+            215.717
+          ],
+          "quote": "Again, talking about long running tasks, Fable 5 is supposed to be able to run four days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            490.487,
+            500.036
+          ],
+          "quote": "I would suspect that at some point we get some access to a Fable 5 point whatever, or that the Project Glasswing class opens up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            511.558,
+            518.441
+          ],
+          "quote": "A couple of product things that are also launching today, along with the Fable 5 model, Cloud Managed Agents are going into public beta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            534.668,
+            542.952
+          ],
+          "quote": "There's also a new advisor strategy where you can use Fable 5 as a senior advisor and use cheaper models as an execution layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            565.524,
+            570.671
+          ],
+          "quote": "Fable 5 compared to Opus 4.8, GPT 5.5, and Gemini 3.1 Pro.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            601.807,
+            611.093
+          ],
+          "quote": "So I read Fable 5 on a bunch of different work, and I want to give you my feedback on where I thought it did well, where it needed a little bit of work, and where I was really surprised.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            712.042,
+            722.844
+          ],
+          "quote": "And I had Fable 5 go through that and actually do like an adversarial review of my requirements to try to figure out where there were internal consistencies in the logic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            831.725,
+            834.908
+          ],
+          "quote": "I'm not sure what about Fable 5 resulted in this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mythos",
+      "type": "concept",
+      "role": "concept",
+      "name": "Mythos",
+      "file": "Mythos",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic 高于 Sonnet 和 Opus 的全新模型类别;Fable 5 是带安全护栏、面向大众的 Mythos,而无护栏的完整 Mythos 只对 Project Glasswing 等企业伙伴开放。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.311,
+            7.921
+          ],
+          "quote": "It's here, the model, the myth, the legend, Mythos from Anthropic has finally dropped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            8.081,
+            9.904
+          ],
+          "quote": "Well, baby Mythos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            37.793,
+            54.137
+          ],
+          "quote": "So this is Claude Fable 5, the first mythos class intelligence model to reach GA. Now, if you haven't been paying attention, Anthropic has been marketing slash scaring slash warning us about the unbelievable capabilities of mythos and it is finally here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            118.381,
+            123.123
+          ],
+          "quote": "So we had Sonnet, we had Opus, and now we have Mythos, the first of which is Fable 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            426.933,
+            437.023
+          ],
+          "quote": "This is also a capability in the API now where you can do this graceful fallback to 4.8 if you're using a Mythos class model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            469.865,
+            471.747
+          ],
+          "quote": "Is this or is this not Mythos?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            472.048,
+            472.969
+          ],
+          "quote": "It is Mythos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            475.191,
+            476.272
+          ],
+          "quote": "Mythos does not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            480.457,
+            487.544
+          ],
+          "quote": "Mythos is still restricted to these project Glasswing partners, some of these enterprise level partners that are really checking it against.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            500.537,
+            510.807
+          ],
+          "quote": "But for now, we get Fable, Project Glasswing, or these pre-selected companies get Mythos, but they are all fundamentally the same underlying model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            629.739,
+            633.48
+          ],
+          "quote": "And on the right is Opus 4A and on the left is Mythos 5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            636.081,
+            644.606
+          ],
+          "quote": "But I really do think Mythos 5 did a much better job of a second grade layout for a handwriting sheet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            662.877,
+            664.278
+          ],
+          "quote": "Mythos 5 really did a good job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            674.667,
+            679.051
+          ],
+          "quote": "So if you're thinking about mythos for prose, for spec writing, for PRDs,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1003.795,
+            1006.157
+          ],
+          "quote": "That being said, mythos is here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说多智能体编排出现大量停滞和报错更像是 Claude Code 的问题而非模型本身,但既然承诺跑数天,就得技术兑现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            545.813,
+            551.275
+          ],
+          "quote": "And so this is going to work today in the API and in Claude Code and is a strategy you can use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            918.399,
+            926.086
+          ],
+          "quote": "But I really want to see how technically the Claude Code model holds up to the promise of multi-agent orchestration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            928.809,
+            932.873
+          ],
+          "quote": "I think this is a Claude Code issue, not necessarily a model issue.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloud-managed-agents",
+      "type": "company",
+      "role": "company",
+      "name": "Cloud Managed Agents",
+      "file": "Cloud Managed Agents",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic 托管的沙箱/harness,用于运行长时程智能体工作,Fable 开箱即用——不过主持人还在想它有什么好的用例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            511.558,
+            518.441
+          ],
+          "quote": "A couple of product things that are also launching today, along with the Fable 5 model, Cloud Managed Agents are going into public beta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            525.684,
+            528.685
+          ],
+          "quote": "I am still trying to figure out what a good use case for Cloud Managed Agents is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            530.586,
+            534.268
+          ],
+          "quote": "But Fable ships out of the box in Cloud Managed Agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体 (multi-agent)",
+      "file": "多智能体",
+      "primary": true,
+      "how_described": "本集说 Fable 的多智能体编排能力确实在,主持人成功跑过一些,但也遇到大量停滞和报错,离开三小时回来发现子智能体全卡死了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            894.95,
+            897.451
+          ],
+          "quote": "And the multi-agent capability is definitely there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            897.531,
+            908.494
+          ],
+          "quote": "And I definitely had some successful multi-agent runs kicked off in Fable, but I also ran into a lot of stalls and errors in using multi-agent orchestration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            918.399,
+            926.086
+          ],
+          "quote": "But I really want to see how technically the Claude Code model holds up to the promise of multi-agent orchestration.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vision",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉能力 (vision)",
+      "file": "视觉能力",
+      "primary": true,
+      "how_described": "本集说 Fable 在视觉方面极其出色,是视觉能力前进了一步;实测中 PDF/文档排版是最大惊喜,明显好于 Opus。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            163.91,
+            166.353
+          ],
+          "quote": "It's very good at vision, exceptionally good at vision.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            169.456,
+            173.982
+          ],
+          "quote": "And you know me, I'm pretty critical of models, but I did see a step ahead of vision.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            611.713,
+            613.574
+          ],
+          "quote": "As I said before, it's really good at vision.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            613.694,
+            617.075
+          ],
+          "quote": "And where is it good at vision that really impressed me?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            953.958,
+            957.442
+          ],
+          "quote": "I would also hand it vision problems where you really want something to...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "type": "concept",
+      "role": "concept",
+      "name": "安全护栏 (safeguards)",
+      "file": "安全护栏",
+      "primary": true,
+      "how_described": "本集说 Fable 内置针对网络安全、生物、化学和蒸馏的分类器,命中后不是拒绝而是优雅回退到 Opus 4.8;95% 的会话不会触发回退。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            388.017,
+            390.899
+          ],
+          "quote": "Now, there are safeguards in this model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            473.149,
+            474.731
+          ],
+          "quote": "Fable has the safeguards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            866.679,
+            870.361
+          ],
+          "quote": "And I'm curious that this comes from some of the safeguards on this model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fallback",
+      "type": "concept",
+      "role": "concept",
+      "name": "回退 (fallback)",
+      "file": "回退",
+      "primary": false,
+      "how_described": "本集说被分类器命中或使用 Mythos 级模型时,可通过 messages API 的可选参数优雅回退到 Opus 4.8,按 Opus 价格计费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            415.34,
+            417.623
+          ],
+          "quote": "And then the last one is they have this new fallback concept.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            426.933,
+            437.023
+          ],
+          "quote": "This is also a capability in the API now where you can do this graceful fallback to 4.8 if you're using a Mythos class model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            456.594,
+            461.378
+          ],
+          "quote": "And just, you know, for context, 95% of sessions on this model did not hit a fallback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            461.498,
+            467.383
+          ],
+          "quote": "I don't believe I hit a fallback, but again, I'm not doing anything in cybersecurity biology or chemistry, at least.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            551.335,
+            561.44
+          ],
+          "quote": "And then, as I mentioned, this fallback API where you can put an optional parameter on the messages API that allows you to continue to block requests by using 4.8 at Opus pricing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": false,
+      "how_described": "本集说 Fable 5 在 SweeBench Pro 上拿到 80%、远超 Opus 4.8/GPT 5.5/Gemini 3.1 Pro,主持人虽没测最尖端用例但认为这些跑分站得住。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            125.244,
+            128.265
+          ],
+          "quote": "It is exceeding every benchmark they tested by a significant amount.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            133.986,
+            136.727
+          ],
+          "quote": "Very, very good benchmark performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            571.331,
+            575.917
+          ],
+          "quote": "Significant increase in SweBench Pro benchmark.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集把 Cloud Managed Agents 说成 Anthropic 托管的沙箱,用于跑长时程智能体工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            518.501,
+            525.524
+          ],
+          "quote": "If you haven't paid attention, this is Anthropic's hosted harness, hosted sandbox for running long running agentic work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

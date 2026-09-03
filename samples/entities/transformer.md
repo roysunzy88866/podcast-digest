@@ -36,7 +36,7 @@ unlisted: true
 
 [[强化学习]] · [[持续学习]] · [[Anthropic]] · [[Barney Hussey-Yeo]] · [[Sonja]] · [[Zubin Gharemani]] · [[John Collison]] · [[Rohan Anil]] · [[Google DeepMind]] · [[Clio]]
 
-<script type="application/json" class="pd-epn">{"强化学习":14,"持续学习":5,"Anthropic":90,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1,"John Collison":1,"Rohan Anil":1,"Google DeepMind":4,"Clio":1}</script>
+<script type="application/json" class="pd-epn">{"强化学习":14,"持续学习":5,"Anthropic":91,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1,"John Collison":1,"Rohan Anil":1,"Google DeepMind":4,"Clio":1}</script>
 
 <script>
 (function(){

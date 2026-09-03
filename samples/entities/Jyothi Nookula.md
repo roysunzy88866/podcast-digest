@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":46,"Claude Code":45,"智能体":1,"对抗性智能体":1,"MCP":22,"知识库":1,"技能":10,"vibe coding":25,"红队测试":3}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":46,"Claude Code":46,"智能体":1,"对抗性智能体":1,"MCP":22,"知识库":1,"技能":10,"vibe coding":25,"红队测试":3}</script>
 
 <script>
 (function(){

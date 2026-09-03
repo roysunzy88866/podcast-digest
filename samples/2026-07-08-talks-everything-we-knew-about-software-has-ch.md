@@ -119,8 +119,8 @@ jsonLd: |
 **顺着「AI 编程」挖下去**
 
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操]]<span class="pd-rz">同公司:Vercel、Slack</span>
+- [[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|Claude Fable 5 亲测：最聪明模型的能干与不能干]]<span class="pd-rz">同概念:Mythos</span>
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同公司:Slack</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Slack</span>
 
 </div>
 <div class="pd-ex">

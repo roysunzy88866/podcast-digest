@@ -1,0 +1,106 @@
+{
+  "title_zh": "Claude Fable 5 亲测：最聪明模型的能干与不能干",
+  "tldr": "How I AI 主持人在正式发布前抢先实测 Anthropic 新旗舰 Claude Fable 5,讲清它哪些活真值那个价、哪些活千万别交。",
+  "digest_md": "Anthropic 的新模型发布了：Mythos 级(全新一代、高于 Sonnet 和 Opus 的模型档位)的第一个正式版本，叫 **Claude Fable 5**。本集是 How I AI 的主持人拿早期访问权限，站在「普通用户、普通软件工程师」的角度做的第一手实测——不测生物学、网络安全那些高大上场景，就看日常干活到底好不好用 [01:26]。\n\n先说价格，免得你被基准测试冲昏头：**每个输入 token 10 美元、输出 50 美元**，是高于 Opus 的一个新档位 [01:43]。而且它在设计上就是「token 大胃王」——官方说它消耗速率限制和 token 的速度约为其他模型的 **2 倍** [03:03]。主持人全程用最高的 extra high 档跑任务，形容是「token 燃烧叠加 token 燃烧」[05:14]。她最关心的问题是：这种 token 强度是否真的换来了对等的产出？「这正是我没法 100% 确定的地方」[05:56]。\n\n## 官方怎么介绍它\n\nAnthropic 的说法是：全新模型类别、当前最先进、所有测试基准都大幅领先——**SweeBench Pro 上拿到 80%**,远超 Opus 4.8、GPT 5.5、Gemini 3.1 Pro [02:08]。官方主打三个卖点：\n\n- **极强自主性**：能运行持续数天的异步任务，启动子智能体(把任务拆给多个小智能体并行干)、保持多天会话 [02:27]。主持人没拿到模型那么多天，无法验证「跑四天」，但确实让它在几个任务上跑了几小时——她自己也承认这些任务「可能值、也可能不值这几个小时的努力」[03:57]。\n- **「工程师中的工程师」**：调查极其完整、搜遍所有角落、要 120% 确定才交付 [04:25]。\n- **视觉能力**：官方称 exceptionally good,主持人也承认这是「视觉能力前进了一步」[02:49]。\n\n## 一个核心认知：太聪明反而是负担\n\n官方说 Fable「工作起来像个经验丰富的工程师」——主持人马上接了一句大实话：跟老工程师共事过的人都知道，这有好也有坏 [04:18]。它过度彻底，不总是服务于发布，更不总是服务于做出好产品；「有时候你想要的是一个稍微不那么彻底的工程师……稍微笨一点」[04:47]。使用任何高智能模型前都得先问：**这个任务实际需要多少智能？** 老老实实把简单任务交给 Sonnet 或 Opus,可能才是对的 [05:06]。\n\n## 实测里惊艳的地方\n\n**文档排版(PDF/视觉类任务)是最大惊喜。** 她用给七岁孩子做练字文档这种小事测试：Fable 5 排出的二年级练字纸间距刚好、留白足、清晰易读，而 Opus 排的版本又密、线都分不清该写在线上还是线下 [10:21]。她拿一堆不同模型对比过，Fable 在 PDF 排版上确实最好，「非常简单的评估，但是非常非常好的一个」[11:04]。\n\n**基准测试应该站得住。** 她虽然没测最尖端的用例，但「没发现它在技术上失败的地方」，认为这些跑分是真的 [09:40]。\n\n## 实测里翻车的地方\n\n**写文档给人读，几乎没法读。** 她让 Fable 对自己的需求文档做对抗性审查(专门挑逻辑毛病的审读)，得到一份看起来很长很聪明的 Markdown,但全是内部引用、大段大段的文字，「非常详细，但不是那种能让你拉远看全局的方式」——见树不见林 [12:25]。结论：**写 spec、写 PRD 别用它**，退回 Sonnet/Opus;把 Fable 当「执行的编排器」——细节真正重要、但你不用去读的那些地方 [12:43]。\n\n**前端/设计出奇地差。** 让它设计一个技能注册表，结果连「AI 垃圾内容」式的差都不如——灰黑红配色、简单轮廓，「从根本上就很糟糕」[13:24]。Anthropic 团队建议提示词写详细点，但她说过去一年的前端模型从没需要过这样，而且加了细节依然平平。设计活还是掺个 Opus 进来吧 [14:00]。\n\n**执行过于保守。** 让它交付一个「客户能拿到价值」的 MVP,它把「最小」牢记在心——产出非常窄、没什么实际用处 [14:17]。她怀疑这来自模型的安全调优，并指出从后期 Opus 开始她就发现这些模型「不是特别有雄心」，需要靠提示词把长时程产出和正确的产品雄心配起来 [14:36]。\n\n**多智能体有成功也有坑。** 多智能体编排能力确实在，她成功跑过一些，但也有大量停滞和报错——离开电脑三小时回来发现子智能体全卡死了 [15:15]。她认为这更多是 Claude Code 的问题而非模型本身，但既然承诺了「跑数天」，技术上就得把这个结果交付出来 [15:32]。\n\n## 安全护栏与版本区别\n\n这是很多人关心的：**Fable 5 算不算 Mythos?** 算，但有护栏 [07:52]。模型里内置了针对网络安全、生物、化学和蒸馏(别家偷模仿它的输出)的特定分类器，命中后不是直接拒绝，而是**优雅回退到 Opus 4.8**——这在 messages API 里也是个可选参数(按 Opus 价格用 4.8 兜底)[07:06]。另有 30 天数据保留政策，仅用于抓滥用、不用于训练 Claude。实际影响很小：**95% 的会话没触发回退** [07:36]。没护栏的完整 Mythos 目前只对 Project Glasswing 等少数企业伙伴开放，但底层是同一个模型 [08:20]。\n\n配套发布还有两样：**Cloud Managed Agents**(Anthropic 托管的沙箱，跑长时程智能体工作，Fable 开箱即用——不过主持人还在想它有什么好的用例)[08:38];以及**顾问策略**——把 Fable 5 当高级顾问、用更便宜的模型当执行层，今天就能在 API 和 Claude Code 里用 [09:03]。\n\n## 本集带走\n\n- **把难题交给它**：细节极其重要的高难度技术问题、长时程工作、以及视觉/文档解析类任务，是 Fable 5 的甜区 [15:42]。\n- **别把前端和策略/spec 交给它**：设计出奇地差，文笔几乎没法读，过度思考 [16:04]。\n- **别无脑用最强模型**：先问「这个任务需要多少智能」，简单活留给 Sonnet/Opus,它比什么都贵、还吃 2 倍 token [06:19]。\n- **低智模型的活它也能兼**：可用「顾问策略」让 Fable 当大脑、便宜模型当手，摊薄成本 [09:03]。\n- **安全回退机制对你影响不大**：95% 会话不会触发；真被分类器拦了也只是降级到 Opus 4.8 继续跑 [07:36]。\n- **想用好它先读官方提示词指南**：核心就是「把你最难的问题交给它」[16:31]。",
+  "quotes": [
+    {
+      "en": "And this is a real struggle with these more intelligent frontier models is they're like too smart.",
+      "zh": "而这正是这些更聪明的前沿模型的一个真正难题——它们有点太聪明了。",
+      "timestamp": "11:28",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:39",
+      "speaker": "Unknown",
+      "en": "That's not always in service of launching and that's honestly not always in service of building a great product.",
+      "zh": "这并不总是服务于发布，而且老实说，这也不总是服务于打造一个出色的产品。"
+    },
+    {
+      "timestamp": "05:06",
+      "speaker": "Unknown",
+      "en": "But it's just something to think about when you're working with any high intelligence model is how much intelligence does the task actually take?",
+      "zh": "但这是你使用任何高智能模型时都要想的事：这个任务实际上需要多少智能？"
+    },
+    {
+      "timestamp": "11:28",
+      "speaker": "Unknown",
+      "en": "And this is a real struggle with these more intelligent frontier models is they're like too smart.",
+      "zh": "而这正是这些更聪明的前沿模型的一个真正难题——它们有点太聪明了。"
+    },
+    {
+      "timestamp": "12:36",
+      "speaker": "Unknown",
+      "en": "But nearly impassable.",
+      "zh": "但几乎无法通行。"
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Unknown",
+      "en": "Product manager talking, even engineer talking.",
+      "zh": "这是产品经理在说话，甚至是工程师在说话。"
+    },
+    {
+      "timestamp": "12:20",
+      "speaker": "Unknown",
+      "en": "And I saw this sort of like over and over again, working on it with specs is it was very complete.",
+      "zh": "我一遍又一遍地看到这种情况：用它处理规格文档时，它非常完整。"
+    },
+    {
+      "timestamp": "13:24",
+      "speaker": "Unknown",
+      "en": "Gray, black, red, simple outlines, just really, really terrible.",
+      "zh": "灰色、黑色、红色，简单的轮廓，真的、真的很糟糕。"
+    },
+    {
+      "timestamp": "14:22",
+      "speaker": "Unknown",
+      "en": "It was like very, very narrow, not actually that useful.",
+      "zh": "它非常非常窄，实际上没那么有用。"
+    },
+    {
+      "timestamp": "14:36",
+      "speaker": "Unknown",
+      "en": "And so again, you'll have to think about how to prompt this to get that long-running outcome paired with the right product ambition.",
+      "zh": "所以你得思考如何提示它，才能让那种长时间运行的产出与正确的产品雄心相匹配。"
+    },
+    {
+      "timestamp": "16:28",
+      "speaker": "Unknown",
+      "en": "It definitely has a place in your stack.",
+      "zh": "它绝对在你的技术栈中有一席之地。"
+    },
+    {
+      "timestamp": "16:13",
+      "speaker": "Unknown",
+      "en": "I think it overthinks things.",
+      "zh": "我觉得它把事情想得太多了。"
+    },
+    {
+      "timestamp": "11:22",
+      "speaker": "Unknown",
+      "en": "And what's the problem with engineers?",
+      "zh": "而工程师的问题是什么？"
+    },
+    {
+      "timestamp": "05:44",
+      "speaker": "Unknown",
+      "en": "My question for any of these models, this is not an Anthropic model question, this is not a Fable question, is does this token intensity actually output?",
+      "zh": "我对所有这些模型的疑问——这不是 Anthropic 的问题，也不是 Fable 的问题——是这种 token 强度是否真的有产出？"
+    },
+    {
+      "timestamp": "16:43",
+      "speaker": "Unknown",
+      "en": "That being said, mythos is here.",
+      "zh": "话虽如此，Mythos 来了。"
+    },
+    {
+      "timestamp": "16:46",
+      "speaker": "Unknown",
+      "en": "I cannot wait to hear what you build, what you overbuild, and what you make ugly with this new model.",
+      "zh": "我迫不及待想听到你们用这个新模型构建了什么、过度构建了什么，又把什么做得很难看。"
+    }
+  ],
+  "voice_script": "十美元一个输入 token、五十美元一个输出，吃 token 的速度还是别的模型的两倍。这一期要聊的，就是 Anthropic 顶着这么贵的定价发的新旗舰 Claude Fable 5,值不值得你掏这个钱。\n\n说话的这位是 How I AI 的主持人，在正式发布前拿到了早期访问权限。她的测法很接地气：不搞什么高深场景，就站在普通用户、普通软件工程师的角度，看看日常干活到底行不行。全程用最高档跑任务，用她自己的话说，是 token 燃烧叠加 token 燃烧。\n\n先给你个基准认知。官方的说法很猛：全新模型档位，所有基准测试大幅领先，SweeBench Pro 上直接拿到 80%,远超 Opus 4.8、GPT 5.5 这些对手。主打三个卖点：能跑持续数天的自主任务、调查起来像个工程师中的工程师、视觉能力Exceptionally good。\n\n但这里有个反常识的核心认知，我觉得是整期最值钱的一句话：太聪明，反而是负担。官方说这模型工作起来像个经验丰富的工程师，主持人马上接了大实话——跟老工程师共事过的人都知道，这有好也有坏。它过度彻底，不总是服务于发布，更不总是服务于做出好产品。有时候你想要的，就是一个稍微不那么彻底、稍微笨一点的工程师。所以用任何高智能模型之前，都得先问自己：这个任务，实际需要多少智能？\n\n那到底什么活值这个价？最大惊喜是文档排版这类视觉任务。她拿给七岁孩子做练字纸这种小事去测，Fable 5 排出来的间距刚好、留白足、清晰易读；而 Opus 排的版本又密又挤，线都分不清该写在线上还是线下。对比过一堆模型之后，她的结论是这确实是最强的。另外基准跑分应该站得住——她没发现它在技术上失败的地方。\n\n那什么活千万别交？第一个，写给人看的文档。让它对自己的需求文档做对抗性审查，拿到一份看起来很长很聪明的 Markdown,结果全是内部引用、大段大段的文字，见树不见林。所以写 spec、写 PRD,老老实实退回 Sonnet 和 Opus。\n\n第二个翻车点更意外：前端设计出奇地差。让它设计一个界面，结果连 AI 垃圾内容那种水准都不如——灰黑红配色、简单轮廓。官方建议提示词写详细点，可过去一年的前端模型从没需要过这样，加了细节依然平平。\n\n还有个坑：执行过于保守。让它交付一个客户能拿到价值的 MVP,它把「最小」俩字记得太牢，产出非常窄，没什么实际用处。主持人怀疑这来自安全调优——她从后期 Opus 开始就发现这些模型不是特别有雄心。\n\n至于最噱头的「跑数天」，多智能体编排能力确实在，但坑也不少。离开电脑三小时回来，发现子智能体全卡死了。她觉得这更多是 Claude Code 的问题，不过话说回来，既然承诺了跑数天，技术上就得把这个结果交付出来。\n\n对了，很多人关心的安全问题：Fable 5 内置了针对网络安全、生物这些领域的分类器，命中后不是直接拒绝，而是优雅回退到 Opus 4.8 继续跑。实际影响很小——95% 的会话根本不会触发。\n\n所以这一集的带走清单很简单：把最难的技术问题、长时程工作、视觉文档类任务交给 Fable 5,这是它的甜区；前端和写文档，留给别的模型。嫌贵还有个顾问策略——让 Fable 当大脑，便宜模型当手，摊薄成本。\n\n最后回到那个核心问题：这些更聪明的前沿模型，真正难的地方在于——它们有点太聪明了。花最贵的钱之前，先想想你的任务，配得上这份聪明吗。"
+}

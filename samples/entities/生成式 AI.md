@@ -417,7 +417,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[NVIDIA]] · [[Lindsey Scrase]] · [[Matt Turk]] · [[Ranjan]] · [[CoreWeave]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Meta":25,"Anthropic":90,"OpenAI":78,"Google":35,"NVIDIA":24,"Lindsey Scrase":1,"Matt Turk":2,"Ranjan":1,"CoreWeave":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Meta":25,"Anthropic":91,"OpenAI":78,"Google":35,"NVIDIA":24,"Lindsey Scrase":1,"Matt Turk":2,"Ranjan":1,"CoreWeave":2}</script>
 
 <script>
 (function(){

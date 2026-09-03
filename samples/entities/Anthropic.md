@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>90</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>91</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,6 +29,7 @@ unlisted: true
 - **[[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]]**(04:35起):本集在提到 Claude code 时致敬了 Anthropic 和那里的团队
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(04:32起):本集将其与 OpenAI 并列为最前沿的 AI 模型公司，指出其同样在增加人手并投资大型咨询公司。
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(06:46起):本集提到它的 CEO 曾宣称 90% 到 100% 的代码都由 AI 编写，但 Claude 源代码泄露后，真正的架构师一看主循环代码全吐了，因为代码分层极其糟糕、脆弱且无法维护。
+- **[[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]]**(00:00起):本集讨论的公司：发布了新模型档位 Mythos 级的第一个正式版本 Claude Fable 5,并配套推出 Cloud Managed Agents、fallback API 等产品。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(15:14起):本集在讨论 AI 个性时，随口提到了 Anthropic 的新模型 Fable 及其个性。
 - **[[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]]**(06:39起):本集说在 Anthropic 和 DeepMind 等大实验室里，研究和工程之间没有明确界限；也提到 Anthropic 在伦敦做机制可解释性研究
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(00:00起):Fiona Fung 当前所在的公司，其工程师平均每个季度的代码量是 2025 年时的八倍。
@@ -135,7 +136,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*90 集*
+*91 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -155,6 +156,7 @@ unlisted: true
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为被讨论公司
+- [[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]] — 作为被讨论公司
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为被讨论公司(提及)
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|《Anthropic 零信任框架：智能体安全的六层防御》]] — 作为被讨论公司
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
@@ -232,9 +234,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[Google]] · [[NVIDIA]] · [[Meta]] · [[沙箱]] · [[推理]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[沙箱]] · [[Google]] · [[NVIDIA]] · [[Meta]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":78,"Lenny":66,"Claude Code":45,"Claude":46,"Google":35,"NVIDIA":24,"Meta":25,"沙箱":35,"推理":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":78,"Lenny":66,"Claude Code":46,"Claude":46,"沙箱":36,"Google":35,"NVIDIA":24,"Meta":25,"推理":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,90 @@
+===标题===
+Fable 5 实测评审：最强的模型，也是最啰嗦的工程师
+===导语===
+How I AI 主持人在正式发布前抢先实测 Anthropic 新模型 Claude Fable 5，讲了它哪些活值得交给它、哪些千万别。
+===正文##
+这一集聊的是 Anthropic 刚发布的新模型 Claude Fable 5——官方称之为第一个达到正式可用（GA）级别的「Mythos 级」智能模型。Anthropic 之前一直在为 Mythos 的能力造势（或者说吓唬大家），这一集的主播拿到了早期访问权限，替普通用户和普通软件工程师试了一圈，给出一手评测：它确实强，但有些活你千万别交给它。
+
+先说定位和价格。这不是 Sonnet 或 Opus 的升级，而是一个全新的模型类别，在官方测过的每一个基准上都大幅领先——SweBench Pro（一个考察真实代码修复能力的基准）上拿到 80%，把 Opus 4.8、GPT 5.5、Gemini 3.1 Pro 甩开一大截。但它是高于 Opus 的新一档，价格为每百万输入 token 10 美元、每百万输出 token 50 美元，而且 Anthropic 明说它消耗速率限制和 token 的速度大约是其他模型的 2 倍——官方建议 effort（努力程度）设在 high 是多数工作的最佳点，主播偏要用 extra high 跑全部任务，结果「token 燃烧叠加 token 燃烧」[03:03–05:41]。她留下的核心疑问是：这种 token 强度是否真的换来了对等的产出？她「没法 100% 确定」[05:44]。所以作为在回路中的人类，你得更聪明地决定什么任务配什么模型——她仍然认为经典好用的 Sonnet 和 Opus 各有位置 [05:59–06:22]。
+
+官方说它「工作起来像一个经验丰富的工程师」，而这恰好是它最大的优缺点来源。好的一面：调查极其完整，会搜遍所有角落，会想办法 120% 确定自己交付的是对的东西；极其自主，据称能运行长达四天的异步任务（主播只拿到模型几天，没法验证「数天」，但确实让它在几个任务上跑了几小时，确认它既有耐力也有智力支撑超长运行）。坏的一面恰恰也是这个：「这并不总是服务于发布，老实说，也不总是服务于打造一个出色的产品」——有时候你想要的是一个稍微不那么彻底、稍微笨一点的工程师 [04:15–05:03]。使用任何高智能模型前都该问一句：这个任务真的需要这么多智能吗？
+
+实测里它最惊艳的是视觉能力，尤其是文档排版。主播用给七岁孩子做练字文档这种极简任务对比了模型：Fable 5（转写稿里写作 Mythos 5）排出的二年级练字纸间距刚好、留白充足、清晰易读，明显好过 Opus；PDF 文档排版这一项她拿一堆模型测过，Fable 5 确实最强 [10:11–11:04]。
+
+但反差极大的是三个槽点。第一，文笔几乎没法读：她让 Fable 5 对自己的需求文档做对抗性审查，拿到一份「看起来很长很聪明」的 Markdown，但内部引用满天飞、大段大段的文字，「非常详细，但不是那种能让你拉远看全局的详细」，非常完整却「几乎无法通行」。她的建议是：spec 和文档退回 Sonnet 或 Opus 来写，把 Fable 当执行层的编排器——细节真正重要的地方交给它，但你不用去读它 [11:08–12:57]。第二，一次性设计出奇地差：让她设计一个技能注册表，结果是从根本上糟糕的设计（灰黑红配色、简单轮廓）；Anthropic 团队建议提示词写得更详细些，但她表示过去一年的前端模型从没需要她这样做，加了细节后设计依然平平，这是「真正的失望」，设计类的活还是混一个 Opus 进去 [12:57–14:00]。第三，执行上非常保守：她要求交付一个「客户能拿到价值」的 MVP，模型把「最小」牢记在心，产出非常窄、实际用处不大——她怀疑这源自模型的安全调优，也是较后期 Opus 以来的通病：不够有雄心，得靠提示词把长时程产出和正确的产品雄心配对 [14:06–14:36]。至于官方同步主打的多智能体动态工作流（让主模型启动子智能体分工），能力确实在，她也有成功运行，但停滞和报错不少——她离开电脑三小时回来发现子智能体全停了；她认为这更多是 Claude Code 的问题而非模型问题，但既然承诺了数天级长任务，技术上就得把结果交付出来 [14:44–15:40]。
+
+安全机制也值得知道：模型内置针对网络安全、生物学、化学和蒸馏（别人试图用它复制模型）的分类器，触发时不直接拒绝，而是「优雅回退」到 Opus 4.8 继续干活；另有 30 天数据保留政策，仅用于发现滥用、不用于训练 Claude。官方说 95% 的会话不会触发回退。顺带厘清命名：正式开放的 Fable 带这些安全护栏，而真正无护栏的 Mythos 仍只对少数 Project Glasswing 合作企业开放——但两者是同一个底层模型 [06:28–08:31]。同日发布的产品还有：Cloud Managed Agents（Anthropic 托管的沙箱，跑长时程智能体工作，Fable 开箱即用，不过主播还没想清楚最佳用例）、以及「顾问策略」——用 Fable 5 当高级顾问、用更便宜的模型当执行层，在 API 和 Claude Code 里今天就能用。
+
+她的最终结论：以前讨厌这个模型，现在绝对不是了，它绝对在你的技术栈里有一席之地——但要用对地方。
+
+## 本集带走
+- **把最难的技术问题交给它**：极度注重细节的高难度任务、长时程工作、需要解析 PDF/文档或追求视觉呈现的任务，是 Fable 5 的甜区。
+- **千万别交给它**：前端/设计（明显差于 Opus）、策略与 spec 写作（文笔「几乎无法通行」）——这类活退回 Sonnet 或 Opus。
+- **把它当编排器而非写作者**：让 Fable 5 做执行的编排和细节验证，产出的细节你不必读；也可用「顾问策略」，Fable 当顾问、便宜模型执行。
+- **想清楚任务要多少智能**：它 token 消耗约是其他模型 2 倍、按高于 Opus 的价格计费，简单任务用它是浪费；官方建议 effort 设 high，且要靠提示词纠正它过度保守的 MVP 倾向。
+- **安全护栏不碍事**：四类敏感领域分类器触发时是回退到 Opus 4.8 而非硬拒绝，95% 会话不受影响。
+===金句===
+03:03 | Unknown
+EN | It can consume those tokens. So Anthropic has said it consumes rate limits and tokens at about 2x the rate of other models.
+ZH | 它能消耗那些 token。Anthropic 说过，它消耗速率限制和 token 的速度大约是其他模型的 2 倍。
+
+04:39 | Unknown
+EN | That's not always in service of launching and that's honestly not always in service of building a great product.
+ZH | 这并不总是服务于发布，而且老实说，这也不总是服务于打造一个出色的产品。
+
+05:06 | Unknown
+EN | But it's just something to think about when you're working with any high intelligence model is how much intelligence does the task actually take?
+ZH | 但这只是你在使用任何高智能模型时需要思考的事情：这个任务实际上需要多少智能？
+
+05:56 | Unknown
+EN | Is this token intensity actually output? And that's a place where I'm just not 100% sure.
+ZH | 这种 token 强度是否真的有产出？而这正是我就是没法 100% 确定的地方。
+
+06:19 | Unknown
+EN | And honestly, I still think there's a place for good old Sonnet.
+ZH | 而老实说，我仍然认为经典好用的 Sonnet 有它的位置。
+
+11:11 | Unknown
+EN | Now, here's the problem, though. The writing is nearly unreadable.
+ZH | 不过，现在问题来了。它写出来的文字几乎没法读。
+
+11:24 | Unknown
+EN | They just really get wrapped around the axle on details.
+ZH | 工程师就是真的很容易在细节上钻牛角尖。
+
+11:28 | Unknown
+EN | And this is a real struggle with these more intelligent frontier models is they're like too smart.
+ZH | 而这正是这些更聪明的前沿模型的一个真正难题——它们有点太聪明了。
+
+12:20 | Unknown
+EN | It is just really hard to see the forest for the trees in this particular model.
+ZH | 在这个特定的模型中，真的很难透过树木看到森林。
+
+12:36 | Unknown
+EN | But nearly impassable.
+ZH | 但几乎无法通行。
+
+12:43 | Unknown
+EN | I would actually suggest pulling back to maybe a Sonnet or Opus model for specs and then looking at Fable as an orchestrator of execution where that detail really matters, but you don't have to read it.
+ZH | 我实际上建议在规格文档上退回到 Sonnet 或 Opus 模型，然后把 Fable 当作执行的编排器——在那种细节真正重要的地方，但你不用去读它。
+
+14:20 | Unknown
+EN | And the MVP, they just really took minimal to heart. It was like very, very narrow, not actually that useful.
+ZH | 而这个 MVP，它们真的把「最小」牢记在心了。它非常非常窄，实际上没那么有用。
+
+14:30 | Unknown
+EN | And it's been a challenge I've seen since the kind of later Opus models is they're not super ambitious.
+ZH | 而且这是我从较后期的 Opus 模型以来就看到的挑战：它们不是特别有雄心。
+
+16:02 | Unknown
+EN | I was actually really surprised.
+ZH | 我其实非常惊讶。
+
+16:26 | Unknown
+EN | I had a hater on this model. I definitely not.
+ZH | 我以前很讨厌这个模型。现在绝对不是了。
+
+16:28 | Unknown
+EN | It definitely has a place in your stack.
+ZH | 它绝对在你的技术栈中有一席之地。
+===END===
