@@ -1,0 +1,139 @@
+===标题===
+被所有人夸「天才」却没有市场：一家保险创业公司如何转型 AI 客服、靠一场「后门 POC」逆袭
+===导语===
+Notch CEO Rafael Broshi 讲他从加密保险转型 AI 客户体验的经历，以及小团队卖企业级客户的实战战术。
+===正文##
+这一集聊的是创业公司怎么找到产品市场契合度（PMF）、以及小团队怎么卖出企业级大单。主角 Rafael Broshi 是 Notch 的 CEO——一家帮保险公司、银行等受监管机构构建和部署 AI 智能体的公司，今年早些时候刚从 Headline 融了 3000 万美元 A 轮，是如今 A 轮中位数（1500 万美元）的两倍。
+
+最反直觉的一点是他对「好点子」的看法：当年他做加密资产保险时，产品被所有人夸「天才之作」，听起来像天才，唯一的问题是——没有产品市场契合度，它没解决真实的痛点。而他后来转型做 AI 客服时，得到的反馈是「不是所有人都在做这个吗？」他反而认为这才是好信号：**创新通常只在某一个层面上，如果你讲出点子别人回「哇，太天才了」，那多半意味着没人想买。**
+
+## 一场「从后门进」的 POC，如何变成第一份七位数合同
+
+Rafael 判断自己找到 PMF 的时刻，是一场进入方式很糟糕的 POC。他们从后门中途加入了一家大型保险公司的 POC——不了解环境、不熟人、没时间规划。客户要求交付三个版本（每两天一版）、跑数千个测试，而且这是一份四年期、年收入约 100 万美元的潜在大单。
+
+第一版提交后，他们周四下午收到期望清单，周一就要交第二版。六七人的团队在办公室睡了两晚。第二版一交付，对话基调彻底变了：从「多拉一家供应商陪跑」变成「天哪，这些人真的能赢」。[02:00 Rafael Broshi] 他由此总结出一个判断标准：**如果我们能用不到一周的准备时间，就在一个企业级 POC 里成为领跑者，那就说明我们的产品已经契合这类客户。**
+
+为什么能赢？他归结为出身：他们五年前起家于保险业，自己卖过保单、为自己的保单持有人建内部工具——押上身家的是自己，如果 AI 犯错被告上法庭，应对官司的是他。所以产品在架构上就不同：当复杂度上升时，他们不增大提示词规模，而是增加 AI/LLM 组件的数量——**复杂度上升时增加算力**，而不是让单个提示词的上下文膨胀到产生幻觉。[10:07 Rafael Broshi] 客户最怕的恰恰是这类产品在 POC 里表现好、进生产环境就崩——信息、指南、覆盖流程越多，回答质量越低，而且极难修。
+
+## 赢下一个客户 ≠ 复制十个：黄灯与绿灯
+
+主持人问：拿下一个百万美元合同，凭什么说明能拿下很多个？Rafael 的回答是：**取决于你为什么赢。**[11:03 Rafael Broshi]
+
+- **黄灯**：如果你赢是因为把系统方方面面都定制化去迎合客户，你可能正在变成他们的私人开发外包团队。企业找小初创公司图的就是速度和定制，但过度定制意味着这份合同很难复制。
+- **绿灯**：如果你几乎什么都没改、只做了正确的演示和两个集成，而且客户提的是通用化诉求（响应快、能消化海量语料、有审计追踪、可本地部署），那才说明你有点东西。
+
+他还提醒：**赢下企业合同是和企业合作里最容易的部分。**之后你要承诺 SLA——出了 bug 四分钟内就会接到对方 SOC 团队的电话，交付不了有罚则。
+
+## 从加密保险到 AI 客服：怎么选浪潮
+
+Rafael 的起点是 2021 年的数字资产保险（社交媒体账户、加密资产被盗赔付），在美国 47 个州的准入市场（监管更严格的保险市场）上线，拿到了真实保险公司的背书。产品很棒、没人买。他的教训是：**创业公司不该去教育市场。**[15:24 Rafael Broshi] 保险业最新险种「网络保险」大约 1997 年就上市，到 2015 年才起量——那不是你该战斗的地方。
+
+ChatGPT 问世后，他判断市场正在「像地震一样裂开」：过去十五年大家用 NLP 尝试做客服自动化都没成、砸进几亿美元的公司，在那一刻赛场被拉平，新玩家和 Salesforce、Zendesk 技术上成功率相同。2023 年他们决定转型，手里只剩 200 万美元，裁掉几乎所有人、留一两名工程师，一年半没招人，把每月烧钱压到一两万美元、几乎现金流为正，之后又融 700 万、再融 3000 万。
+
+他选择方向的逻辑很朴素：AI 会替代人力，替代发生在销售、营销、客服。销售太难（他至今不信自动化 SDR）、营销非所长，客服 ROI 最好解释——「你有一百人，我们让你只要二十人」。而且选一个**现在就有预算、或六到十二个月内肯定有预算**的方向。[21:09 Rafael Broshi] 为三年后才来的浪潮造东西，哪怕你熬到那天，晚两年入场的人技术更好、技术债更少。
+
+## 「不是所有人都在做吗」——拥挤是错觉
+
+转型时最大的心理障碍是觉得竞争太挤。实际情况是：他们看到的是上一代大公司（Salesforce、Zendesk、Ada）带着旧聊天机器人进场，和 ChatGPT 早期做 chat-with-PDF 赚快钱的单人创业者，加上少数隐身中的大玩家（Sierra、Decagon 这类）。真正入场后他发现：**能部署在受监管企业本地环境、满足同等合规安全和 SLA 要求的玩家，一只手数得过来。**[29:27 Rafael Broshi]
+
+他对竞争的态度也不同寻常：他不认为竞争会杀死这个阶段的创业公司——**竞争让你做愚蠢的事**：看到别人往哪走就跟着抄、就换方向。可「那帮人和你一模一样，他们根本不知道自己在干什么」。全场的人在这个阶段都不知道自己在干什么。
+
+## 卖企业客户的实战战术
+
+节目最后一段全是干货。怎么进房间？没有公式，全靠关系：自上而下动用所有投资人、员工、家人朋友——他「从来没被人拒绝过帮忙」，关键是真诚地说「我真的需要你的帮助」，人们想看到这种脆弱。同时必须自下而上：只搞定 CEO 没用，如果基层的人觉得你是「空降」的，事情不会有好结果。**给客户他们想要的，而不是你有的**；对方没痛点你就没东西可卖，那就用会面提问。
+
+最容易踩的坑是假 POC。他自己的经历：被一个技术部门（非业务负责人）的人兴奋地拉去「测试」，交了文档、花大量人力做完，对方一句「我们看不出需求」收场。他的标准很硬：**POC 应该有预算、该收钱（他举例五万美元一个 POC），必须见到业务负责人、问清 KPI、问清成功之后的流程。**真心想合作的美国公司不会因为报价就走——他们会直接告诉你价格离谱。卡住的交易，回头问自己：我见到相关的人了吗？是真 POC 还是烧了几万个人时准备了一个只有人看了一眼的东西？
+
+另外要防范「冠军离职」：**同时在客户公司的每个层级建立尽可能多的联系，永远不要停。**至于客户说「你们 logo 不够多」，他提醒这和 VC 说「太早了」一样——理由往往不是真实原因，真实问题是你的东西没戳中痛点；复盘时别逃到「产品不好、客户要 logo」这种结论上，要问：我戳中痛点了吗？没有的话为什么？
+
+## 本集带走
+
+- **用 POC 表现验证 PMF**：能在企业级 POC 里用不到一周准备成为领跑者，说明产品真的契合客户；靠深度定制赢下的单子是黄灯，几乎不用改就赢下、客户提的是通用化诉求才是绿灯。
+- **点子的「天才测试」**：别人听了说「太天才了」≈ 没市场；别人说「不是所有人都在做吗」反而说明需求真实存在。
+- **只在「现在就有预算」的方向上创新**：创业公司别教育市场；为三年后的浪潮造东西，晚两年入场的人技术更好、债更少。
+- **竞争激烈时，故事就是战略**：市场越卷，越要把「你为什么会在某个特定框格里成为第一」讲得越精细——不能对投资人讲清楚，就不能对客户讲清楚；公司越小信号越少，故事就得越强。
+- **真 POC 的四个硬指标**：有预算该收钱、见到业务负责人、问清 KPI、问清成功后的流程；同时不管停地在客户公司各层级建联系，防冠军离职。
+- **先去找梦想客户**：别等融到钱、卖出一堆其他客户再去找你最想要的那个客户——现在就去，他们不感兴趣你至少立刻知道。
+
+===金句===
+00:00 | Rafael Broshi
+The only problem was, and that's a big problem. There was no product market fit. It means that there was no real pain that we were solving by offering this kind of product.
+ZH | 唯一的问题是，而这可是个大问题。没有产品市场契合度。这意味着我们提供这种产品并没有解决真实的痛点。
+
+00:00 | Rafael Broshi
+if we get to an enterprise kind of POC and we figure out a way to be a front runner in the race with less than a week of preparation. That means that we have a good product that already fits those kind of clients.
+ZH | 如果我们能在一家企业级的 POC 中，用不到一周的准备时间就成为这场竞赛的领跑者。那就意味着我们有一个已经契合这类客户的优质产品。
+
+02:00 | Rafael Broshi
+I think that's the part where a lot of people are kind of confusing between product market fit of a product you currently have, or that you have a great team that can execute very fast and be agile.
+ZH | 我认为很多人容易混淆的一点是：是你当前已有的产品达到了产品市场契合度，还是你拥有一支执行极快、足够敏捷的优秀团队。
+
+08:31 | Rafael Broshi
+Because we were the one at stake here. It's not like you're selling a product and then you say, hey, good luck. I gave you the tool. You're going to be fine with it or not.
+ZH | 因为押上身家的就是我们自己。这不一样——不是你卖出一个产品然后说，嘿，祝你好运。工具给你了，你用得顺不顺利与我无关。
+
+08:31 | Rafael Broshi
+when complexity increases it's not that we increase the prompt size. We increase the number of components of AI, components of LLMs that we use.
+ZH | 当复杂度上升时，我们不是去增大提示词的规模。我们是增加 AI 组件、增加我们所用 LLM 组件的数量。
+
+11:03 | Rafael Broshi
+Winning an enterprise contract is the easiest part of working with an enterprise.
+ZH | 赢下企业合同是和企业合作这件事里最容易的部分。
+
+15:24 | Rafael Broshi
+everyone said it was great. It sounded genius. The only problem was, and that's a big problem. There was no product market fit.
+ZH | 大家都说它很棒。听起来像天才之作。唯一的问题是，而这可是个大问题。没有产品市场契合度。
+
+15:57 | Rafael Broshi
+I don't think it is a startup's job to change a market or create awareness
+ZH | 我不认为改变一个市场或创造认知是创业公司该干的事
+
+15:57 | Rafael Broshi
+The newest insurance product that went to market is probably Cyber and it went to market in like 1997 and only caught up in 2015. So I don't think that's where you should fight.
+ZH | 最新进入市场的保险产品大概是网络保险，它大约在 1997 年进入市场，到 2015 年才真正起量。所以我认为那不是你该战斗的地方。
+
+15:57 | Rafael Broshi
+wow, that's genius. Everything was genius other than the fact that not a lot of people wanted to buy it.
+ZH | 哇，太天才了。一切都很天才，除了没有多少人想买它这个事实。
+
+21:09 | Rafael Broshi
+usually what happens is you think you're late but you're incredibly early
+ZH | 通常发生的情况是，你觉得自己晚了，但其实你早得不可思议
+
+24:33 | Rafael Broshi
+if it starts in three years, you're not gonna be there, you're gonna start building too early. Even if you don't run out of money by the time the wave starts. Someone that started building two years after you will have better technology and less tech debt
+ZH | 但如果它三年后才开始，你就不会在场了，你会开始得太早。即便你在浪潮开始之前没烧完钱。比你晚两年开始的人会有更好的技术和更少的技术债
+
+24:33 | Rafael Broshi
+But there's going to be a dot com time sometime in the future, right? I don't know how hard this is going to hit, but it is going to hit.
+ZH | 但未来某个时候会有一次互联网泡沫式的时刻，对吧？我不知道这会有多狠，但它一定会来。
+
+26:00 | Rafael Broshi
+And since then, no one ever asked me, why would someone need it?
+ZH | 而从那以后，从来没有人问过我，为什么会有人需要它？
+
+29:27 | Rafael Broshi
+But no, those guys are exactly like you. They have no idea what they're doing. Everyone in the space has no idea what they're doing at this stage. So competition makes you do stupid things, not because it forces you, but just because it's part of our nature.
+ZH | 可是不，那帮人和你一模一样。他们根本不知道自己在干什么。这个领域里的每个人在这个阶段都不知道自己在干什么。所以竞争让你做愚蠢的事，不是因为它逼你，而只是因为那是我们的天性使然。
+
+36:02 | Rafael Broshi
+If you cannot crystallize it for your investors, you won't be able to crystallize it for customers.
+ZH | 如果你不能为投资人把它讲清楚，你就无法为客户把它讲清楚。
+
+36:02 | Rafael Broshi
+The smaller the company is, the less signals you have, the stronger your story needs to be.
+ZH | 公司越小，你得到的信号越少，你的故事就得越强。
+
+40:03 | Rafael Broshi
+That VC probably wants me to be the best founder that they've ever met.
+ZH | 那个 VC 大概率希望我是他们见过的最好的创始人。
+
+48:06 | Rafael Broshi
+You should also not be afraid to ask questions. Hey, what are the KPIs for the POC? What happens if we succeed? How's the process going forward?
+ZH | 你也不应该害怕问问题。嘿，这个 POC 的 KPI 是什么？如果我们成功了会怎样？后续流程是怎么样的？
+
+51:10 | Rafael Broshi
+Don't go the long route. Talk to your dream customers first. Just go to them.
+ZH | 不要走那条长路。先跟你的梦想客户谈。直接去找他们。
+
+===END===

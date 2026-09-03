@@ -1,0 +1,1427 @@
+{
+  "episode_id": "2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-09-01",
+  "tags": [
+    "数据库",
+    "RAG 与检索",
+    "智能体记忆",
+    "嵌入模型",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "nathan",
+      "type": "person",
+      "role": "host",
+      "name": "Nathan",
+      "file": "Nathan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            303.713,
+            304.894
+          ],
+          "quote": "Thanks so much for having me, Nathan.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 56,
+          "t": [
+            420.306,
+            422.288
+          ],
+          "quote": "So I am as old as SQL, Nathan.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1972.133,
+            1974.894
+          ],
+          "quote": "My joke for this, Nathan, is like, there's two kinds of developers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2385.589,
+            2386.949
+          ],
+          "quote": "I've been doing this a long time, Nathan.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pete-johnson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Pete Johnson",
+      "file": "Pete Johnson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.093,
+            11.178
+          ],
+          "quote": "Today, my guest is Pete Johnson, a 30-year technology veteran now serving as field CTO of AI at MongoDB.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            189.43,
+            194.076
+          ],
+          "quote": "With Pete Johnson, field CTO of AI at MongoDB.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            296.879,
+            300.568
+          ],
+          "quote": "Pete Johnson, field CTO of AI at MongoDB.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 842,
+          "t": [
+            5451.914,
+            5454.615
+          ],
+          "quote": "Pete Johnson, thank you for being part of the Cognitive Revolution.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "mongodb",
+      "type": "company",
+      "role": "company",
+      "name": "MongoDB",
+      "file": "MongoDB",
+      "primary": true,
+      "how_described": "本集嘉宾作为其 AI 现场 CTO 介绍：以 JSON 为核心的 NoSQL 文档数据库，因稀缺资源从磁盘变为时间而于 2007 年诞生，主打速度、规模与检索质量，自建了向量搜索、Atlas Search、Rank/Score Fusion、$Rerank 和智能体技能等能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.093,
+            11.178
+          ],
+          "quote": "Today, my guest is Pete Johnson, a 30-year technology veteran now serving as field CTO of AI at MongoDB.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 2,
+          "t": [
+            12.508,
+            35.112
+          ],
+          "quote": "We start with a brief history of database technology, going back to the 1970 introduction of SQL, and unpacking how the relative scarcity of disk space at that time informed data normalization as a design principle, and then how decades of Moore's law and the resulting evolution of constraints ultimately led to the creation of MongoDB in 2007.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 7,
+          "t": [
+            86.162,
+            92.566
+          ],
+          "quote": "With this in mind, MongoDB has continued to ship the improvements that developers need to take full advantage of AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 9,
+          "t": [
+            116.073,
+            126.134
+          ],
+          "quote": "Interestingly, while MongoDB customers are free to use whatever embedding models they like, Pete insists that embeddings are contrary to popular belief, not yet commoditized.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            189.43,
+            194.076
+          ],
+          "quote": "With Pete Johnson, field CTO of AI at MongoDB.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            296.879,
+            300.568
+          ],
+          "quote": "Pete Johnson, field CTO of AI at MongoDB.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 43,
+          "t": [
+            331.148,
+            336.326
+          ],
+          "quote": "Maybe just for quick starters, I remember first encountering MongoDB like",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 69,
+          "t": [
+            519.494,
+            526.657
+          ],
+          "quote": "Well, fast forward to 2007, which in October of 2007 is when the first commit was made to MongoDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 97,
+          "t": [
+            650.14,
+            655.782
+          ],
+          "quote": "Does that mean that every problem is solved by a NoSQL database or by MongoDB in particular?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            676.413,
+            684.137
+          ],
+          "quote": "But when you need speed, when you need scale, and increasingly when you need better retrieval quality, that's really where MongoDB shines.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1407.195,
+            1421.639
+          ],
+          "quote": "So in 2020, we noticed that a common use case for MongoDB was for people to stand up their own Apache Lucene servers co-located with wherever their MongoDB clusters might be.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1431.382,
+            1436.046
+          ],
+          "quote": "So we thought, well, as you might know, there's three different versions of MongoDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1472.168,
+            1475.769
+          ],
+          "quote": "So those are the different choices you have when you deploy MongoDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1491.835,
+            1492.416
+          ],
+          "quote": "MongoDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1559.345,
+            1569.014
+          ],
+          "quote": "So if you think about sort of the trivial example that most people learn MongoDB off of is suppose you have a book and a book might have a text field for the...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1588.718,
+            1598.701
+          ],
+          "quote": "And if that's the standard document for a book in MongoDB and that's put in a collection, suppose now I want to create a vector index off of the synopsis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1623.837,
+            1630.624
+          ],
+          "quote": "Because of the flexibility of the schema, because you can have different shapes, MongoDB not only allows that, but thrives on it really well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1717.367,
+            1726.689
+          ],
+          "quote": "You can use any embedding model and use MongoDB as your vector database, or you can use them together and there's a better together story that's a part of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1811.966,
+            1815.632
+          ],
+          "quote": "MongoDB has always had this notion of aggregation pipelines.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1974.954,
+            1977.696
+          ],
+          "quote": "There's those that love MongoDB and there's ones that haven't tried us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3306.618,
+            3312.962
+          ],
+          "quote": "And that is like in spring of 23, if you had asked ChatGPT, what's MongoDB stock price today, it couldn't tell you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 523,
+          "t": [
+            3346.373,
+            3348.475
+          ],
+          "quote": "Hey, what's MongoDB stock price?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3553.31,
+            3560.916
+          ],
+          "quote": "I mean, this kind of goes back to some of the challenges with... And maybe there's good solves within MongoDB for some of this.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 704,
+          "t": [
+            4472.86,
+            4477.904
+          ],
+          "quote": "For you and what you're doing at and for MongoDB, are you...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 713,
+          "t": [
+            4525.569,
+            4534.474
+          ],
+          "quote": "The two that I would shine a spotlight on are the MCP tools to make it easier for agents to talk to your data in your MongoDB instances.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 722,
+          "t": [
+            4592.596,
+            4597.918
+          ],
+          "quote": "You mentioned this acquisition that MongoDB did of Voyage a couple of times.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 732,
+          "t": [
+            4633.719,
+            4644.963
+          ],
+          "quote": "But the price, even at $220 million, which I'm old enough to remember when that was serious money, it's less than a tenth of a percent of MongoDB's overall market cap.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 754,
+          "t": [
+            4795.994,
+            4809.3
+          ],
+          "quote": "So if you look at the history of MongoDB features and really what our focus has been, we're all developers at heart, and it's about making it easier for the developer ecosystem to learn and operate this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 841,
+          "t": [
+            5437.429,
+            5451.194
+          ],
+          "quote": "Well, as field CTO of AI at MongoDB, I know you're going to be racing as hard as you can to keep up with all these cycles and we'll continue to look for new updates and more great progress from you.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "voyage-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Voyage AI",
+      "file": "Voyage AI",
+      "primary": true,
+      "how_described": "本集说 MongoDB 于 2025 年收购的嵌入模型公司，团队成员在斯坦福教人构建 LLM；提供上下文化分块、Matryoshka 结构、共享嵌入空间等易用特性，在 Hugging Face 的 RTAB 基准上常居榜首。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            93.426,
+            114.498
+          ],
+          "quote": "Vector search, sorting methods which combine traditional and vector search results into a single result set, a re-rank tool called $Rerank, and their own embedding models powered by the acquisition of Voyage AI, which have some pretty cool features like a shared embedding space across model sizes and a Matryoshka data structure.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2955.717,
+            2963.68
+          ],
+          "quote": "Voyage AI model, Hugging Face has a benchmark out there called RTAB that Voyage AI models are typically at the top of.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 自己没有市面上的嵌入模型，因此推荐 Voyage。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            2142.415,
+            2144.678
+          ],
+          "quote": "Today's episode is brought to you by Anthropic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 470,
+          "t": [
+            3009.941,
+            3012.603
+          ],
+          "quote": "Anthropic does not have an embedding model in market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 749,
+          "t": [
+            4768.033,
+            4770.155
+          ],
+          "quote": "And like I said before, Anthropic agrees with us.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": false,
+      "how_described": "本集说它是记忆实现得漂亮的范例：每个客户多个小型智能体的「微智能体」架构，配合各自的上下文记忆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 607,
+          "t": [
+            3955.372,
+            3957.355
+          ],
+          "quote": "There's a company called Eleven Labs out there.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集引用它今年早些时候在 13 周内烧光全年 token 预算的头条事件，作为 token 最大化教训的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            978.965,
+            990.433
+          ],
+          "quote": "And we can get into some of the details as to why we're a good fit for that and why that's emerged like in the wake of what happened at Uber earlier in the year with them burning through their token budget for 2026 and 13 weeks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论：智能体的性能（尤其成本调整后的性能）很大程度取决于检索质量；行业构建智能体才约 18 个月，还没有自己的 LAMP 技术栈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            76.764,
+            84.971
+          ],
+          "quote": "Pete's key point, above all, is that agent performance, and especially cost-adjusted agent performance, depends heavily on effective retrieval.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            184.423,
+            188.649
+          ],
+          "quote": "And survey of the still fast evolving frontier of agent memory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2258.234,
+            2265.078
+          ],
+          "quote": "That's when you typically see vector search start to enter the conversation when it comes into an agent architecture in some way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2305.01,
+            2312.978
+          ],
+          "quote": "And that's not super helpful when I'm trying to get an agent to help me figure out what my NOC should do next or my IT ticketing should do next.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2805.259,
+            2820.81
+          ],
+          "quote": "I call it deep context, but basically a retrieval system that allows my agent to go into kind of all of my history from the last five years, essentially, which is emails and Slack messages and everything I publish online and DMs across all kinds of channels.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2835.123,
+            2840.229
+          ],
+          "quote": "I just kind of let the agent throw it into a database of its choosing and put whatever",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2888.973,
+            2893.677
+          ],
+          "quote": "We can't really do it the let the agent choose its own adventure way anymore.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3356.284,
+            3365.134
+          ],
+          "quote": "The other thing we saw in 2025, though, is this notion of looping, where the result of one loop of that agent then became the input of the last one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3484.998,
+            3491.644
+          ],
+          "quote": "But for this agentic loop, what are the five that are relevant for this loop of the agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            3493.825,
+            3498.389
+          ],
+          "quote": "What are the five that are relevant for that loop of the agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 587,
+          "t": [
+            3794.538,
+            3807.821
+          ],
+          "quote": "But they do it in a pretty loose way where I'm right now kind of trusting the agent to hopefully notice those pointers and to the degree I'm like running maintenance, hopefully follow those pointers and do the necessary maintenance.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 678,
+          "t": [
+            4304.227,
+            4309.335
+          ],
+          "quote": "But even just this one location business, right, I call and who answers but an AI agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 681,
+          "t": [
+            4316.524,
+            4326.713
+          ],
+          "quote": "There were a couple little things where, especially as I started to get a little adversarial in my testing of it, like I asked it what company is powering this AI agent experience that I'm having.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 715,
+          "t": [
+            4543.379,
+            4544.979
+          ],
+          "quote": "And then the other one is the agent skills.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 717,
+          "t": [
+            4565.96,
+            4573.341
+          ],
+          "quote": "To an agent of your choice to give it sort of the lowdown on different ways that it should approach different tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 718,
+          "t": [
+            4573.902,
+            4579.883
+          ],
+          "quote": "And there's maybe the, I think it's agent skills we just dropped a couple of months ago has like the top eight.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 719,
+          "t": [
+            4580.323,
+            4587.564
+          ],
+          "quote": "It's like it's six to eight different agent skills that we have for things like operations and data modeling to help you do those sorts of things.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体记忆 (agentic memory)",
+      "file": "智能体记忆",
+      "primary": true,
+      "how_described": "本集把它的演进讲成补短板的历史：早期靠塞满上下文，现在演化为「写入、更改、召回、遗忘」四动作，其中遗忘最难、记忆有半衰期，还包括分类记忆等新类型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 349,
+          "t": [
+            2243.307,
+            2258.214
+          ],
+          "quote": "More broadly speaking, the use case for this level of search for this kind of semantic or vector searching is typically RAG pipelines for agents or for a more sophisticated agentic memory for agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3373.699,
+            3375.76
+          ],
+          "quote": "And that's when we needed agentic memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3375.96,
+            3388.925
+          ],
+          "quote": "And the early passes we saw of agentic memory was short-term memory was typically, okay, take every response that we got within this session and cram it into the context window so that we can see what happened earlier in this conversation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 755,
+          "t": [
+            4810.1,
+            4818.868
+          ],
+          "quote": "These new techniques that we see in application architectures around agents, whether it's the RAG pipeline or whether it's the agentic memory.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说它经历了「被迫用→RAG 已死→重新成为企业重大优先事项」的循环，核心用途是把专有数据安全注入只在公开数据上训练的 LLM。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            41.117,
+            59.448
+          ],
+          "quote": "As Pete recounts, in a remarkably short period of time, we've gone from being effectively forced to implement RAG pipelines by the very limited context windows of GPT-4 class models, to RAG is dead when we first got million token contexts, to the brief token maxing window and subsequent budgetary fallout.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 5,
+          "t": [
+            60.068,
+            75.242
+          ],
+          "quote": "To today, where RAG is again a major enterprise priority, as company data is increasingly available for AI systems to use, usage itself is scaling, and naively maxing out the context window costs multiple dollars each and every time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2243.307,
+            2258.214
+          ],
+          "quote": "More broadly speaking, the use case for this level of search for this kind of semantic or vector searching is typically RAG pipelines for agents or for a more sophisticated agentic memory for agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2265.738,
+            2272.503
+          ],
+          "quote": "Specifically, what you're talking about here is chunking and chunk size tends to be more in that RAG pipeline use case.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            3102.993,
+            3116.599
+          ],
+          "quote": "Again, you would, in a historical way, if you would have to do your vector search once, send your results to a re-ranker to get them reordered in a way that is most optimal for a RAG use case to then pop them into the context window.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            3286.358,
+            3289.524
+          ],
+          "quote": "And we've already talked about why you need RAG because...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            3293.27,
+            3298.673
+          ],
+          "quote": "If you want to inject proprietary data into it, you need to specifically do that with a RAG pipeline.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 755,
+          "t": [
+            4810.1,
+            4818.868
+          ],
+          "quote": "These new techniques that we see in application architectures around agents, whether it's the RAG pipeline or whether it's the agentic memory.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "embedding-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "嵌入模型 (embedding model)",
+      "file": "嵌入模型",
+      "primary": true,
+      "how_described": "本集最反共识的判断：嵌入模型并未商品化，不同模型检索质量差距可达 14%，可能就是幻觉与正确答案之差。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 241,
+          "t": [
+            1522.607,
+            1530.83
+          ],
+          "quote": "You take some piece of data and whether that piece of data is text or an image or audio or video, you pass it to an embedding model of your choosing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1598.881,
+            1611.145
+          ],
+          "quote": "I could take that text, synopsis text, I could pass it through an embedding model of my choice, and I then store the array of floats that come back from that embedding model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1690.734,
+            1703.243
+          ],
+          "quote": "So once we had that in play by like 2023, we thought, well, this works with any embedding model you want, but could we make this easier to develop if we had an embedding model that was part of it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1717.367,
+            1726.689
+          ],
+          "quote": "You can use any embedding model and use MongoDB as your vector database, or you can use them together and there's a better together story that's a part of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2448.623,
+            2454.365
+          ],
+          "quote": "Embedding model, there comes a point where at lower chunk sizes, you have zero context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2558.881,
+            2570.164
+          ],
+          "quote": "So that's one of the benefits that Voyage offers that no other embedding model out on the market offers, that ease of use feature that gets you better retrieval quality.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2906.787,
+            2916.955
+          ],
+          "quote": "What most people do, and you're not going to offend me if this is what you did, I mean, most people start with Postgres and PgVector, and then they choose their embedding model with whatever cloud they're using.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2917.475,
+            2930.427
+          ],
+          "quote": "Like Gemini is prominent if you're going to be on Google, just like OpenAI's embedding model is pretty popular over on Azure because of the historic relationship that those two companies have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2975.625,
+            2979.527
+          ],
+          "quote": "Embedding model quality is the difference between a hallucination and a correct answer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 469,
+          "t": [
+            3004.178,
+            3009.481
+          ],
+          "quote": "There is a very big difference that you can get in retrieval quality based on what embedding model you choose.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            3009.941,
+            3012.603
+          ],
+          "quote": "Anthropic does not have an embedding model in market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 477,
+          "t": [
+            3048.867,
+            3052.869
+          ],
+          "quote": "Because the model got smarter or the embedding model got better.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 492,
+          "t": [
+            3158.538,
+            3167
+          ],
+          "quote": "Anytime an existing document with that attribute in it changes, we will automatically take that new, let's say it's text, put it through the embedding model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3822.845,
+            3836.133
+          ],
+          "quote": "But what we see our customers doing is this is where like the retrieval quality of those memory types, that's where that non-commoditized embedding model can make a difference and where a re-ranker can make a difference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3836.953,
+            3846.219
+          ],
+          "quote": "You can get, depending upon the use case, you can get like a five to 10% boost at a retrieval quality just by using a re-ranker on top of whatever your embedding model of choice is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 746,
+          "t": [
+            4744.113,
+            4753.456
+          ],
+          "quote": "But where it was not as straightforward and why we made the voyage acquisition was today you can still use whatever embedding model you want as long as it generates that array of floats.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 763,
+          "t": [
+            4891.705,
+            4895.246
+          ],
+          "quote": "I also noticed that there's the multimodal embedding model that supports video.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "vector-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量搜索 (vector search)",
+      "file": "向量搜索",
+      "primary": true,
+      "how_described": "本集说向量本质是浮点数数组，在灵活 schema 上加属性建索引即可实现；核心是把数据映射进几何空间做相似度检索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            93.426,
+            114.498
+          ],
+          "quote": "Vector search, sorting methods which combine traditional and vector search results into a single result set, a re-rank tool called $Rerank, and their own embedding models powered by the acquisition of Voyage AI, which have some pretty cool features like a shared embedding space across model sizes and a Matryoshka data structure.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1384.074,
+            1395.157
+          ],
+          "quote": "And this is where how we've implemented, like the history of how we implemented vector search, the impact that has on application architectures for agents ends up, like the details matter here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1508.89,
+            1514.635
+          ],
+          "quote": "Then the next logical thing was a couple of years later, well, if you're going to have lexical search, you might as well also have vector search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1540.059,
+            1550.528
+          ],
+          "quote": "So for us to implement vector search was just add an additional attribute to the flexible schemas that we already have and now build a vector index on top of that array of floats.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1551.088,
+            1552.59
+          ],
+          "quote": "And that's your vector search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1612.545,
+            1620.934
+          ],
+          "quote": "And if I wanted to, suppose I had 10,000 records, I had 10,000 documents in my collection, maybe I only want to do a vector search on the top thousand.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1631.681,
+            1637.467
+          ],
+          "quote": "So we had lexical search, we had vector search, and then that enabled us to do this notion of hybrid search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1637.507,
+            1646.297
+          ],
+          "quote": "So suppose I wanted to combine a lexical search of the title of the book with this now vector search that I have on...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1652.261,
+            1667.81
+          ],
+          "quote": "Suppose I want to do a search where I do a lexical search on the subject and a vector search on the synopsis, but I want to eliminate any documents, any books that weren't published after that were public.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1688.553,
+            1690.054
+          ],
+          "quote": "With the vector search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1731.21,
+            1738.998
+          ],
+          "quote": "But it kind of went lexical search, vector search, hybrid search with pre-filtering, and now this better together storage with the Voyager bedding models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1769.853,
+            1778.38
+          ],
+          "quote": "So one of the advantages that we have in the way that we implemented Vector Search is it gets to stand on the shoulders of the base product that we already had.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1805.302,
+            1808.144
+          ],
+          "quote": "We get to stand on the shoulders of all of that for the vector search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1856.177,
+            1872.227
+          ],
+          "quote": "And what that allows you to do is in absence of an aggregation pipeline in these new aggregation pipeline stages, you would have to make the vector search and then independently you would have to make the lexical search and then you would have to combine them yourself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2258.234,
+            2265.078
+          ],
+          "quote": "That's when you typically see vector search start to enter the conversation when it comes into an agent architecture in some way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            3102.993,
+            3116.599
+          ],
+          "quote": "Again, you would, in a historical way, if you would have to do your vector search once, send your results to a re-ranker to get them reordered in a way that is most optimal for a RAG use case to then pop them into the context window.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 548,
+          "t": [
+            3509.238,
+            3530.243
+          ],
+          "quote": "memory type memory system that instead of just taking everything used vector search or semantic search or some combination of vector and lexical with some pre-filtering and just got the just the right just there's some perfect you never get there but there's some perfect context window for this pass",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3847.019,
+            3855.754
+          ],
+          "quote": "And that's true of architecturally, that's why we made it so easy to implement the re-ranker on top of the voyage embedding models when you're doing that vector search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 738,
+          "t": [
+            4695.966,
+            4700.45
+          ],
+          "quote": "I went through a description earlier in this conversation about how we implemented vector search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 745,
+          "t": [
+            4733.288,
+            4744.072
+          ],
+          "quote": "...do vector search the way that we did is because of the flexibility built into the document model from the very beginning, it was pretty straightforward for us to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 756,
+          "t": [
+            4819.188,
+            4821.81
+          ],
+          "quote": "So how do you make vector search more approachable?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 767,
+          "t": [
+            4922.19,
+            4934.913
+          ],
+          "quote": "The cool thing about the vector search is, I mean, vector search at its core is taking some piece of data and mapping it into in space, into some geographical, geometric space.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 768,
+          "t": [
+            4935.613,
+            4938.555
+          ],
+          "quote": "And then really all a vector search is similarity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 777,
+          "t": [
+            4966.414,
+            4976.22
+          ],
+          "quote": "And that's why the way that we implemented vector search and being able to, within the same platform, have the combination of the pre-filtering, the vector search, and the lexical search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 781,
+          "t": [
+            5003.819,
+            5009.983
+          ],
+          "quote": "We got all that for essentially for free because of how we implemented vector search on top of the core product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "contextualized-chunking",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文化分块 (contextualized chunking)",
+      "file": "上下文化分块",
+      "primary": true,
+      "how_described": "本集说这是 Voyage 提出的新概念：把「想要的那句原文」和上下文作为两段一起传入，返回兼顾两者的向量，更小的分块反而换来更高的检索质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 376,
+          "t": [
+            2425.006,
+            2429.691
+          ],
+          "quote": "And they came up with this new concept last summer called contextualized chunking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2474.562,
+            2485.01
+          ],
+          "quote": "What if you sent the fidelity of the sentence you actually want, and then as a second string, you send the size, you send the other contextual information where the name contextualized chunking comes from?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2508.451,
+            2515.677
+          ],
+          "quote": "But if you use this contextualized chunking, we released version three of that last summer.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "re-ranker",
+      "type": "concept",
+      "role": "concept",
+      "name": "重排序器 (re-ranker)",
+      "file": "重排序器",
+      "primary": true,
+      "how_described": "本集说它是把初筛结果重新排序、提升相关性的小模型，在嵌入模型之上通常还能白拿 5-10% 的检索质量提升；MongoDB 把它做成了 $Rerank 一次 API 调用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 485,
+          "t": [
+            3102.993,
+            3116.599
+          ],
+          "quote": "Again, you would, in a historical way, if you would have to do your vector search once, send your results to a re-ranker to get them reordered in a way that is most optimal for a RAG use case to then pop them into the context window.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3822.845,
+            3836.133
+          ],
+          "quote": "But what we see our customers doing is this is where like the retrieval quality of those memory types, that's where that non-commoditized embedding model can make a difference and where a re-ranker can make a difference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3836.953,
+            3846.219
+          ],
+          "quote": "You can get, depending upon the use case, you can get like a five to 10% boost at a retrieval quality just by using a re-ranker on top of whatever your embedding model of choice is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3847.019,
+            3855.754
+          ],
+          "quote": "And that's true of architecturally, that's why we made it so easy to implement the re-ranker on top of the voyage embedding models when you're doing that vector search.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "token-maxing",
+      "type": "concept",
+      "role": "concept",
+      "name": "token 最大化 (token maxing)",
+      "file": "token 最大化",
+      "primary": true,
+      "how_described": "本集说它是个已被抛弃的阶段：每次循环拉满上下文既烧钱又有功能性代价——学术研究表明开头和结尾各约 7K token 最重要，中间只会把 LLM 搅浑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            41.117,
+            59.448
+          ],
+          "quote": "As Pete recounts, in a remarkably short period of time, we've gone from being effectively forced to implement RAG pipelines by the very limited context windows of GPT-4 class models, to RAG is dead when we first got million token contexts, to the brief token maxing window and subsequent budgetary fallout.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 129,
+          "t": [
+            826.398,
+            841.293
+          ],
+          "quote": "An important factor, it continues to, especially later here in 2026, as you start to see people strategize around token maxing to evolve different kinds of agentic architectures in ways that we didn't see in the first half of...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            991.013,
+            997.117
+          ],
+          "quote": "That grabbed a lot of headlines and there's been similar stories about where like maybe token maxing wasn't such a great idea to begin with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3401.27,
+            3404.751
+          ],
+          "quote": "Negative side effect one we already talked about is token maxing, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 835,
+          "t": [
+            5404.565,
+            5410.967
+          ],
+          "quote": "Token maxing first got mentioned in like early March and by April it was over as like a conversation piece.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hybrid-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "混合搜索 (hybrid search)",
+      "file": "混合搜索",
+      "primary": true,
+      "how_described": "本集介绍为元数据预过滤 + 词法搜索 + 向量搜索三种杠杆在同一查询中组合，配合 Rank Fusion / Score Fusion 一次调用归并结果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1631.681,
+            1637.467
+          ],
+          "quote": "So we had lexical search, we had vector search, and then that enabled us to do this notion of hybrid search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1731.21,
+            1738.998
+          ],
+          "quote": "But it kind of went lexical search, vector search, hybrid search with pre-filtering, and now this better together storage with the Voyager bedding models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 483,
+          "t": [
+            3098.33,
+            3100.892
+          ],
+          "quote": "So those two relate to doing a hybrid search.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集说 2025 年靠工具和 MCP 解决了 LLM 知识截止日期问题；MongoDB 提供 MCP 服务器让智能体更容易访问数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 521,
+          "t": [
+            3325.725,
+            3339.41
+          ],
+          "quote": "And the way that we overcame that in 2025 or so was with tools and with MCP and being able to have to grant to the LLM, hey, here's this API or here's this tool we could call to go get additional information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 713,
+          "t": [
+            4525.569,
+            4534.474
+          ],
+          "quote": "The two that I would shine a spotlight on are the MCP tools to make it easier for agents to talk to your data in your MongoDB instances.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            4534.914,
+            4543.058
+          ],
+          "quote": "We had an MCP server for a while, and we're now kind of self-hosting some of those as part of Atlas, as part of the ecosystem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 834,
+          "t": [
+            5395.223,
+            5403.785
+          ],
+          "quote": "MCP published MCP on like Monday before Thanksgiving two years ago and by March all of their competitors had embraced it as a protocol.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

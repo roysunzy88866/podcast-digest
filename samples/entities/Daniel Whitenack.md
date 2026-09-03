@@ -49,7 +49,7 @@ unlisted: true
 
 [[Chris Benson]] · [[智能体]] · [[护栏]] · [[Claude Code]] · [[Anthropic]] · [[OpenAI]] · [[提示词注入]] · [[MCP]] · [[爆炸半径]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":5,"智能体":1,"护栏":33,"Claude Code":46,"Anthropic":91,"OpenAI":78,"提示词注入":10,"MCP":22,"爆炸半径":3,"可观测性":17}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":5,"智能体":1,"护栏":33,"Claude Code":46,"Anthropic":92,"OpenAI":78,"提示词注入":10,"MCP":24,"爆炸半径":3,"可观测性":17}</script>
 
 <script>
 (function(){

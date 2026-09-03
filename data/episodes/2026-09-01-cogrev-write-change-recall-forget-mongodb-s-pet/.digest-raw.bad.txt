@@ -1,0 +1,115 @@
+===标题===
+MongoDB 老兵谈 AI 检索:嵌入模型没商品化、智能体才 18 个月
+===导语===
+MongoDB AI 方向 Field CTO Pete Johnson 讲 AI 时代的数据库与检索:嵌入模型为何没商品化、智能体记忆怎么做、选问题为什么比选技术重要。
+===正文###
+把整个行业的智能体热潮放在时间尺度上看,其实是件很新的事——Pete Johnson(MongoDB 的 AI 方向 Field CTO,一位从 1970 年 SQL 诞生那年起活到今天的三十年技术老兵)的原话是:「我们构建数据库已经 60 年了,构建智能体才差不多 18 个月。没人知道所有答案。」这一集他和主持人 Nathan 从数据库历史讲到智能体记忆,核心观点只有一个:**智能体的性能——尤其是扣除成本后的性能——高度取决于检索做得好不好。**
+
+## 稀缺资源决定数据库设计
+
+Pete 用「稀缺资源」串起六十年数据库史。1970 年 E.F. Codd 在 IBM 写出孕育 SQL 的白皮书时,存储是三大硬件里最贵的,所以设计原则是「规范化」——同一份数据绝不存两次(第一范式、第三范式教的就是这个)。到了 2007 年 MongoDB 提交第一行代码时,四十七年摩尔定律之后,磁盘不再稀缺,稀缺的变成了**时间**:互联网和移动应用不能周末停机、用户遍布全球。于是反规范化变得合理——把地址重复存两份,换来的是三次磁盘读取变成一次。「我们的教育系统有种历史偏见:汝当永远规范化。对很多场景它成立,但有越来越多的场景,速度、规模和检索质量才是关键。」[15:50 Pete Johnson] 顺带纠正一个常见误解:MongoDB 不是 schemaless(无模式),而是 schema 灵活——同一个集合里可以放不同形状的文档,所以改起来不像改生产环境里的 SQL 表那样引发级联痛苦。
+
+## 从词法搜索到向量搜索:一条不太寻常的路
+
+MongoDB 做 AI 检索的起点是 2020 年的词法搜索:他们发现客户总在 MongoDB 旁边另搭 Apache Lucene 服务器做关键词检索,于是干脆把这条路做成产品(Atlas Search)。几年后加向量搜索时,他们的思路极其朴素——向量就是一串浮点数,而浮点数数组不过是文档上的又一个属性,在灵活 schema 上加一个属性、建个索引,向量搜索就有了。这带来的真正杀手锏是**混合搜索**:元数据预过滤 + 词法搜索 + 向量搜索,三根查询杠杆合在一次调用里(新发布的 RankFusion / ScoreFusion 就是把两路搜索合并成一次 API 往返、按排名或分数归并结果)。因为向量搜索站在已运行十年的核心产品肩膀上,跨数据中心复制、分片、加密这些能力几乎免费获得——这是很多从零起步的向量数据库公司还得苦苦追赶的。
+
+收购 Voyage(2025 年,2.2 亿美元,不到 MongoDB 市值的百分之一)买的是模型而不是另一家向量数据库,逻辑正在于此:数据库自己能做,但嵌入模型市场「以为是商品,其实 Voyager 脱颖而出」。
+
+## 嵌入模型没有商品化
+
+这是 Pete 最想打破的认知。「大多数人认为嵌入模型已经商品化了,这不是事实。根据你选什么嵌入模型,检索质量可能有非常大的差别。」[50:00 Pete Johnson] 他给出证据:Anthropic 自己市面上没有嵌入模型,推荐的就是 Voyage;Hugging Face 的 RTAB 基准上 Voyage 模型常年榜首,比常见替代品检索质量高可达 14%——而 14% 的差距,可能就是幻觉和正确答案的区别。几个具体技术点:
+
+- **上下文化分块(contextualized chunking)**:传统做法里,分块太小丢上下文、太大检索质量反降,开发者只能反复试三四种块大小找平衡。Voyage 的做法是把你真正要检索的句子和它的上下文作为两段输入,模型替你算出平衡后的向量——结果是用更小的分块拿到更好的检索质量,这在传统方式下不可能。
+- **Matryoshka(俄罗斯套娃式)结构**:高维度检索质量好但存储贵(256 维比 2048 维便宜得多)。Voyage 模型的浮点数是有序的,想从 1024 维试 512 维,直接砍掉后半段就行,不用把整个语料重新嵌入一遍——不能替你做决定,但让你更快找到答案。
+- **$Rerank 重排序与 auto embeddings**:重排序器(对初筛结果再精排一遍的工具)可在任何嵌入模型之上白拿 5-10% 的检索质量提升;auto embeddings 则是你指定集合、属性、模型和维度,文档一变,嵌入和索引自动更新。
+
+## RAG 没死,「token 拉满」死了
+
+Pete 复盘了短短两年的钟摆:GPT-4 时代上下文窗口极小,大家被迫搭 RAG 管道(RAG,即先从自己的数据库检索相关内容、再喂给大模型的注入专有数据的方法);百万 token 上下文出现后,一度流行「RAG 已死」;然后是短暂的「token 最大化」窗口——今年早些时候 Uber 在 13 周里烧光 2026 年的 token 预算,登上头条,这个故事宣告了拉满上下文的终结。今天的共识是双重的:一是钱,每次循环都塞一百万 token,成本会累积;二是功能代价,有几项学术研究显示上下文里最前和最后约 7K token 最重要,中间的东西只会「搅浑」大模型。正确的问题不是「怎么塞满一百万」,而是「怎么为这一轮循环挑出刚刚合适的 20 万」。所以 RAG 再次成为企业优先事项——检索质量,就是性价比。
+
+## 智能体记忆:写入、更改、召回、遗忘
+
+背景交代:LLM 只在公开数据上训练,注入专有数据靠 RAG;工具和 MCP 解决了知识截止日期的问题;但每次循环上下文窗口都是全新的,这才催生了智能体记忆。早期做法很粗暴:短期记忆=把本会话所有响应塞进上下文,长期记忆=把过去三天每个会话也塞进去。现在更精细的做法是:每次调用记忆系统时给一个 token 预算(「给我最好的 50K」),由它用向量+词法+预过滤从多种记忆类型里组合出这轮最相关的内容;拿到答案后,你的第二个职责是把答案发回记忆系统去整理、写入,更复杂的系统还有 RBAC 权限,让同岗位的同事能共享好记忆。财富 500 强里已出现「分类记忆」——行业黑话词表有 100 个,每轮循环只取相关的 5 个。
+
+而最难的部分,是 Pete 引用同事的那句「写入、更改、回忆、遗忘」:「因为这些记忆有半衰期——最近的事比几周前的重要。」遗忘做不好,就会出现主持人描述的那种尴尬:模型把一个你试了一下就放弃的项目当开放线索保留几个月。架构上的建议:别用「LLM 多遍处理来分类和压缩语料」的记忆方案——那等于换个地方继续烧 token,还拖慢决策循环延迟;应该靠便宜得多的嵌入器和重排序器。数据量太大时可以混合:图结构走两到六层(零售客户按产品类别分层,最多十几层),到叶子节点再做向量检索。一个值得参考的正面案例是 Eleven Labs:每个客户多个微智能体,配合音频编辑平台的场景做上下文记忆。
+
+## 自建还是购买:先选对问题
+
+Pete 今年跑了七个国家、聊了约一百个客户,把企业分三类:买一个工具就宣布「AI 战略完成」的(通常不够);做过 POC 但在 ROI 上挣扎的;以及已经在优化记忆系统、购入大平台或自研的进阶玩家。他的核心判断:「最大的区别不在于他们怎么应用技术,而在于他们选择了去解决什么问题。」[70:27 Pete Johnson] ROI 卡壳的,「我总说,多半是选错了问题」。他的选法:列出业务当下最严重的前 10-15 个问题,筛出**有高质量数据**且**已有现成衡量指标**的——「糟糕的数据质量和糟糕的安全态势不会被 AI 解决,只会被 AI 放大。」[69:02 Pete Johnson] 呼叫中心是典型的低垂果实,因为每次通话成本、话务量这些指标早就在奖金体系里,数字一跳就能归因给 AI。对比之下,「我有了 Claude Code/Codex,产出五倍代码」这类说法,任何老手都知道代码行数是糟糕的指标。落地节奏上,财富 500 强大多在做**有人类在环的、面向员工的**用例,而非直接面对客户的全自主 AI——因为员工之间的数据泄露是尴尬,客户之间看到彼此数据是要副总裁飞过去救火的。他还提到 MongoDB 自己的两个动作:MCP 服务器让智能体直接对话数据,以及「智能体技能」——把数据建模、运维优化这些原本是文档的操作手册,做成六到八套可投喂给任意智能体的 markdown 文件。
+
+## 最先进的客户不在硅谷
+
+最让主持人意外的观察:Pete 今年聊过的两家最成熟的客户,分别在**墨西哥城和圣保罗**——而他们一开始还以为美国的竞争对手跑在自己前面。「我以为事实相反。地理障碍已经不像 web 应用时代、甚至云时代那么重要了——那时超大规模云厂商在你国家没数据中心你就没辙,现在几乎每个国家至少有一个。」[85:10 Pete Johnson] 这不是美国公司保守,而是模型、向量数据库、嵌入、重排序器的获取途径已经民主化,「更大的获取途径,侵蚀了以往每一波技术浪潮里的地理壁垒」。
+
+## 本集带走
+
+- **检索质量是成本调整后智能体性能的命门**:嵌入模型没有商品化,选型差距可达 14%;在嵌入模型之上加一个重排序器,通常还能白拿 5-10%。
+- **别拉满上下文**:开头和结尾各约 7K token 最重要,中间的只会干扰模型;正确姿势是用带 token 预算的记忆系统,为每轮循环挑出「刚刚好」的内容。
+- **记忆系统的四步循环**:写入、更改、回忆、遗忘——遗忘最难,记忆有半衰期;压缩和分类语料要交给便宜的嵌入器和重排序器,不要靠 LLM 多遍处理(又烧 token 又加延迟)。
+- **选问题先于选技术**:从业务前 10-15 个问题里,挑既有好数据、又有现成指标的那个;没有基线指标,你永远不知道 AI 有没有用。数据质量和安全态势的问题,AI 只会放大不会修复。
+- **现在还没有「智能体版 LAMP 堆栈」**:行业才 18 个月大,没有标准答案,定制不可避免;但迭代周期极快——MCP 发布几个月内全员跟进,token 拉满的风潮三个月就结束了。
+===金句===
+50:00 | Pete Johnson
+EN | Most people think embedding models are commoditized, and that is not true. There is a very big difference that you can get in retrieval quality based on what embedding model you choose.
+ZH | 大多数人认为嵌入模型已经商品化了,但这不是事实。根据你选择什么样的嵌入模型,你在检索质量上可能会有非常巨大的差别。
+
+50:09 | Pete Johnson
+EN | Anthropic does not have an embedding model in market. They recommend us.
+ZH | Anthropic 在市面上没有嵌入模型,他们推荐我们。
+
+41:34 | Pete Johnson
+EN | When you flip that script, it turns out you can get better retrieval quality with a smaller chunk size, which otherwise is not possible.
+ZH | 当你翻转这个剧本时,结果是你可以用更小的分块大小获得更好的检索质量,否则这是不可能的。
+
+69:02 | Pete Johnson
+EN | Things like bad data quality and bad security posture don't get solved by AI, they get amplified by AI.
+ZH | 像糟糕的数据质量和糟糕的安全态势这类问题不会被 AI 解决,它们会被 AI 放大。
+
+61:15 | Pete Johnson
+EN | We've been building databases for 60 years. We've been building agents for like 18 months, man. Like nobody knows all the answers yet.
+ZH | 我们构建数据库已经 60 年了,而构建智能体才差不多 18 个月,老兄。还没人知道所有的答案。
+
+70:56 | Pete Johnson
+EN | There's no LAMP stack for agents yet in the way that we have with web development.
+ZH | 目前还没有智能体的 LAMP 技术栈,不像我们在 Web 开发领域那样。
+
+62:37 | Pete Johnson
+EN | Write, change, recall, forget. Because these things have a half-life to them, right?
+ZH | 写入、更改、回忆、遗忘。因为这些记忆有半衰期,对吧?
+
+70:27 | Pete Johnson
+EN | The biggest difference isn't in how they're applying the tech. It's what problems they chose to try to solve.
+ZH | 最大的区别不在于他们如何应用这项技术,而在于他们选择尝试解决什么问题。
+
+68:33 | Pete Johnson
+EN | I always argue probably picked the wrong problem.
+ZH | 我总认为,那很可能是选错了问题。
+
+84:54 | Pete Johnson
+EN | And the two most sophisticated customers I talked to this year were in Mexico City and Sao Paulo.
+ZH | 而我今年交谈过的两个最成熟的客户,就在墨西哥城和圣保罗。
+
+85:10 | Pete Johnson
+EN | I think we've reached a point with some of these technologies that like geographic barriers don't matter nearly as much as they did during like the web app era.
+ZH | 我认为,就其中某些技术而言,我们已经到了这样一个点:地理障碍已经不像 web 应用时代那样重要了。
+
+87:26 | Pete Johnson
+EN | I just think that greater access erodes those geographic barriers that we've seen with previous technology waves.
+ZH | 我只是认为,更大的获取途径侵蚀了我们在以往技术浪潮中看到的那些地理壁垒。
+
+32:54 | Pete Johnson
+EN | There's those that love MongoDB and there's ones that haven't tried us.
+ZH | 有两种开发者:一种是爱 MongoDB 的,另一种是还没试过我们的。
+
+42:14 | Pete Johnson
+EN | More developers will build AI agents in the next three years than did in the last three years.
+ZH | 未来三年构建 AI 智能体的开发者,将超过过去三年的总和。
+
+66:35 | Pete Johnson
+EN | I would worry about any memory architecture that instead of relying on lower costs embedders and re-rankers is relying on multiple passes of the LLM to help you categorize and shrink the corpus of data that you might want to then put into the context window for the larger
+ZH | 我会担心任何这样的记忆架构:它不依赖成本更低的嵌入器和重排序器,而是依赖 LLM 的多遍处理来帮你分类并缩小数据语料库,好让你随后放进上下文窗口。
+
+60:48 | Nathan
+EN | So forgetting is also sometimes a real virtue of memory system.
+ZH | 所以遗忘有时候也是记忆系统的一种真正的美德。
+===END===

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]] [[Tara Seshan]]
+[[Drew]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":9,"Google":35,"OpenAI":78,"Anthropic":91,"智能体":1,"智能体商务":2,"爬取":1,"微支付":1,"SEO":5}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":9,"Google":35,"OpenAI":78,"Anthropic":92,"智能体":1,"智能体商务":2,"爬取":1,"微支付":1,"SEO":5}</script>
 
 <script>
 (function(){

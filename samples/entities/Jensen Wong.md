@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Brian Singerman]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]] [[Jen Ka]]
+[[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":24,"OpenAI":78,"Anthropic":91,"Microsoft":21,"Palantir":11,"开源模型":4,"封闭模型":2,"沙箱":36,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":24,"OpenAI":78,"Anthropic":92,"Microsoft":21,"Palantir":11,"开源模型":4,"封闭模型":2,"沙箱":36,"智能体":1}</script>
 
 <script>
 (function(){

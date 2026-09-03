@@ -208,9 +208,9 @@ Flo 的回应：这就像知识产权和专利——如果你允许无成本复�
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆]]<span class="pd-rz">同嘉宾:Nathan · 同概念:RAG、智能体 (agent)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Slack · 同概念:上下文 (context)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:Lindy · 同概念:智能体 (agent)、vibe coding</span>
-- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、可观测性 (observability)</span>
 
 </div>
 <div class="pd-ex">

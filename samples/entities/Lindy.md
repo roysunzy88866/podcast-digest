@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[vibe coding]] · [[Andrew Wilkinson]] · [[Flo Crivello]] · [[Lenny]] · [[Nathan]] · [[Tiny]] · [[上下文]] · [[Replit]] · [[记忆智能体]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"vibe coding":25,"Andrew Wilkinson":1,"Flo Crivello":1,"Lenny":66,"Nathan":2,"Tiny":1,"上下文":14,"Replit":13,"记忆智能体":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"vibe coding":25,"Andrew Wilkinson":1,"Flo Crivello":1,"Lenny":66,"Nathan":3,"Tiny":1,"上下文":14,"Replit":13,"记忆智能体":1}</script>
 
 <script>
 (function(){

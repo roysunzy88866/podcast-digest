@@ -7,29 +7,37 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MongoDB</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MongoDB">MO</div><div class="pi"><h1 class="pt">MongoDB</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MongoDB">MO</div><div class="pi"><h1 class="pt">MongoDB</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(65:11起):本集说 MongoDB 在 vibe coding 场景下很好用，因为 schema 变化极快、LLM 经常改数据结构，文档数据库更灵活；同时也是 4Good 黑客马拉松的赞助商
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(07:13起):本集引用 MongoDB CEO Dave 的数据：在其 10 年 CEO 任期内，平均每年有两位 C 级高管离职，用以说明 C 级高管死亡率极高。
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(02:03起):本集仅在广告赞助段落提及，说它是智能体需要的数据平台，Eleven Labs 在上面运行 4000 万个智能体
+- **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(00:03起):本集嘉宾作为其 AI 现场 CTO 介绍：以 JSON 为核心的 NoSQL 文档数据库，因稀缺资源从磁盘变为时间而于 2007 年诞生，主打速度、规模与检索质量，自建了向量搜索、Atlas Search、Rank/Score Fusion、$Rerank 和智能体技能等能力。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet#^q3]]
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司(提及)
+- [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Google]] · [[智能体]] · [[Maor Shlomo]] · [[Brian Halligan]] · [[Matt Swulinski]] · [[Base44]] · [[HubSpot]] · [[Harry Stebbings]] · [[Wix]]
+[[智能体]] · [[Lenny]] · [[Google]] · [[Maor Shlomo]] · [[Brian Halligan]] · [[Matt Swulinski]] · [[Nathan]] · [[Base44]] · [[HubSpot]] · [[Harry Stebbings]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Google":35,"智能体":1,"Maor Shlomo":1,"Brian Halligan":1,"Matt Swulinski":1,"Base44":2,"HubSpot":4,"Harry Stebbings":7,"Wix":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Google":35,"Maor Shlomo":1,"Brian Halligan":1,"Matt Swulinski":1,"Nathan":3,"Base44":2,"HubSpot":4,"Harry Stebbings":7}</script>
 
 <script>
 (function(){

@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Sierra":4,"智能体":1,"基于结果的定价":1,"应用 AI":1,"前沿模型":6,"工具层":1,"上下文工程":7,"编程系统":1,"MCP":22}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Sierra":4,"智能体":1,"基于结果的定价":1,"应用 AI":1,"前沿模型":6,"工具层":1,"上下文工程":7,"编程系统":1,"MCP":24}</script>
 
 <script>
 (function(){

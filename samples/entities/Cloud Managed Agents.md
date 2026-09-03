@@ -25,7 +25,7 @@ unlisted: true
 
 [[Anthropic]] · [[Fable 5]] · [[Mythos]] · [[Claude Code]] · [[多智能体]] · [[视觉能力]] · [[安全护栏]] · [[基准测试]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":91,"Fable 5":1,"Mythos":4,"Claude Code":46,"多智能体":2,"视觉能力":1,"安全护栏":2,"基准测试":7,"沙箱":36}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":92,"Fable 5":1,"Mythos":4,"Claude Code":46,"多智能体":2,"视觉能力":1,"安全护栏":2,"基准测试":7,"沙箱":36}</script>
 
 <script>
 (function(){

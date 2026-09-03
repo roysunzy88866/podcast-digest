@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Whatnot":3,"Twitch":1,"Twitter":5,"Anthropic":91,"Claude":46,"PM":3,"IC":6,"数据科学":1,"直播购物":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Whatnot":3,"Twitch":1,"Twitter":5,"Anthropic":92,"Claude":46,"PM":3,"IC":6,"数据科学":1,"直播购物":2}</script>
 
 <script>
 (function(){

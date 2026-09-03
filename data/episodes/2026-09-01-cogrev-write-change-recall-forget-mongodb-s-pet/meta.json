@@ -1,0 +1,36 @@
+{
+  "id": "2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet",
+  "audio_mp3": "https://pdst.fm/e/mgln.ai/e/1113/pscrb.fm/rss/p/traffic.megaphone.fm/RINTP4227648811.mp3",
+  "duration_sec": 5728.697,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 858,
+  "asr": true,
+  "title_en": "Write, Change, Recall, Forget: MongoDB's Pete Johnson on How Retrieval Drives Agent Performance",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-09-01",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/5faf9776-a18f-11f1-9dc1-d3d77021b3b7/image/f1f5a517fbd4f64f9f8f82d534066ac8.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-09-03",
+  "added_at": "2026-09-03T04:08:06.385Z",
+  "speaker_map": {
+    "SPEAKER_03": "Nathan",
+    "SPEAKER_04": "Pete Johnson"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Nathan",
+  "cohosts": [
+    "Pete Johnson"
+  ],
+  "title_zh": "数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆",
+  "guest_name": "Pete Johnson",
+  "guest_title": "MongoDB AI 现场 CTO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/5faf9776-a18f-11f1-9dc1-d3d77021b3b7/image/f1f5a517fbd4f64f9f8f82d534066ac8.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "2048x2048",
+    "aspect": 1,
+    "fetched_at": "2026-09-03T05:03:07.284Z"
+  }
+}

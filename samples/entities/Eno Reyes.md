@@ -69,11 +69,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Factory":3,"Anthropic":91,"OpenAI":78,"Microsoft":21,"Meta":25,"NVIDIA":24,"Stripe":24,"OpenRouter":7,"Palantir":11}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":7,"Factory":3,"Anthropic":92,"OpenAI":78,"Microsoft":21,"Meta":25,"NVIDIA":24,"Stripe":24,"OpenRouter":7,"Palantir":11}</script>
 
 <script>
 (function(){

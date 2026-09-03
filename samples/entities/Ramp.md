@@ -33,7 +33,7 @@ unlisted: true
 
 [[Lenny]] · [[Airbnb]] · [[智能体]] · [[PM]] · [[Cognition]] · [[OpenAI]] · [[Anthropic]] · [[Kiriti Badam]] · [[Keith Rabois]] · [[Dan Shipper]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Airbnb":10,"智能体":1,"PM":3,"Cognition":13,"OpenAI":78,"Anthropic":91,"Kiriti Badam":1,"Keith Rabois":1,"Dan Shipper":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Airbnb":10,"智能体":1,"PM":3,"Cognition":13,"OpenAI":78,"Anthropic":92,"Kiriti Badam":1,"Keith Rabois":1,"Dan Shipper":2}</script>
 
 <script>
 (function(){

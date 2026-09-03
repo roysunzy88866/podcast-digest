@@ -44,11 +44,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire":3,"Devon":4,"智能体":1,"云端智能体":2,"Codex":35,"Claude Code":46,"剧本":4,"后台智能体":5,"Cursor":41,"产品市场契合":12}</script>
+<script type="application/json" class="pd-epn">{"Claire":3,"Devon":4,"智能体":1,"云端智能体":2,"Codex":35,"Claude Code":46,"剧本":4,"后台智能体":5,"Cursor":41,"产品市场契合":13}</script>
 
 <script>
 (function(){

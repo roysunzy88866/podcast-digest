@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":7,"Cursor":41,"SpaceX":12,"OpenRouter":7,"Stripe":24,"Anthropic":91,"Workday":4,"Microsoft":21,"Meta":25}</script>
+<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":7,"Cursor":41,"SpaceX":12,"OpenRouter":7,"Stripe":24,"Anthropic":92,"Workday":4,"Microsoft":21,"Meta":25}</script>
 
 <script>
 (function(){

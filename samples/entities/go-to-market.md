@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>go-to-market</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="go-to-market">GO</div><div class="pi"><h1 class="pt">go-to-market</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="go-to-market">GO</div><div class="pi"><h1 class="pt">go-to-market</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(00:04起):本集指出，传统的策略如发冷邮件、播客、线下活动依然有效，真正失效的是旧的「剧本」，因为 B2B 市场已经两极分化，需要用 AI 智能体来提效或处理海量需求。
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(28:17起):本集讨论 AI 如何颠覆进入市场——漏斗顶部从 Google 搜索变成在 ChatGPT/Gemini 里被找到，网站主页变成与全知 avatar 对话，销售代表带着自己的智能体上 Zoom。但 Brian 也承认当前 AI 公司的 GTM 做法和 100 年来没本质区别。
 - **[[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]]**(51:15起):本集提到招聘中的 Go to Market(市场推广/商业化)团队也会做面试挑战项目,让他们一起解决棘手客户的问题来作为评估。
+- **[[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]]**(30:03起):本集双方共识：产品市场匹配大多与 go to market 关系不大——好销售营销是好和伟大之间的区别，不是好和坏之间的区别；小公司无法靠渐进的 go to market 走出慢增长
 
 ## ① 提到它的金句
 
@@ -30,20 +31,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为概念
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为概念
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为概念
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|《Cursor 人才负责人：别再掉进招聘的厄运漏斗》]] — 作为概念(提及)
+- [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[前向部署工程师]] · [[Vercel]] · [[Salesforce]] · [[Delphi]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Brian Halligan]] · [[Adam Ward]]
+[[智能体]] · [[Lenny]] · [[前向部署工程师]] · [[Vercel]] · [[Salesforce]] · [[Delphi]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Brian Halligan]] · [[Adam Ward]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"智能体":1,"前向部署工程师":6,"Vercel":12,"Salesforce":10,"Delphi":3,"Jeanne DeWitt Grosser":1,"Jason Lemkin":2,"Brian Halligan":1,"Adam Ward":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"前向部署工程师":6,"Vercel":12,"Salesforce":10,"Delphi":3,"Jeanne DeWitt Grosser":1,"Jason Lemkin":2,"Brian Halligan":1,"Adam Ward":1}</script>
 
 <script>
 (function(){

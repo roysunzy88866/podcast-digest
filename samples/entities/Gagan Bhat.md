@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":91,"智能体":1,"harness":17,"沙箱":36,"智能体循环":1,"上下文工程":7,"会话日志追踪":2,"泄露的凭证":3,"可观测性":17}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":92,"智能体":1,"harness":17,"沙箱":36,"智能体循环":1,"上下文工程":7,"会话日志追踪":2,"泄露的凭证":3,"可观测性":17}</script>
 
 <script>
 (function(){

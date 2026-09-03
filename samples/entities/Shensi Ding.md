@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Claire Vo]]
+[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":1,"MCP":22,"沙箱":36,"连接器":3,"智能 LLM 路由器":1,"可观测性":17,"后训练":17}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":1,"MCP":24,"沙箱":36,"连接器":3,"智能 LLM 路由器":1,"可观测性":17,"后训练":17}</script>
 
 <script>
 (function(){
