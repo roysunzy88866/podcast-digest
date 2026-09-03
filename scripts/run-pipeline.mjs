@@ -77,8 +77,9 @@ export const SOURCES = [
   { key: "knowledge", name: "The Knowledge Project", feedUrl: "https://theknowledgeproject.libsyn.com/rss", asr: "whisperx" }, // 商业/创始人/决策,松沾 AI,靠判官筛,不进补历史池
   // pragmatic:Substack(纯 podcast feed 403,走 custom domain;20条才7条音频,isInterview 按音频过滤);⚠️ 地理陈旧风险,接后盯新音频集能否及时进。
   { key: "pragmatic", name: "The Pragmatic Engineer", feedUrl: "https://newsletter.pragmaticengineer.com/feed", asr: "whisperx" },
-  // workos:已停更18月(用户「只挖历史」)——向前抓自然0新(死源),靠进补历史池挖它31集封闭档。
-  { key: "workos", name: "Crossing the Enterprise Chasm (WorkOS)", feedUrl: "https://feeds.transistor.fm/crossing-the-enterprise-chasm", asr: "whisperx" },
+  // workos 已摘除(2026-09-03 用户「workos 清掉」,drift #80):停更 18 月的死源,31 集封闭档全在 2026 前 →
+  // 60 天新鲜窗口(drift #78)下永远轮不到,留着只在每班白抓一次 feed、在源清单里占一行。
+  // transistor 纯文本稿解析器(feed-transcript.mjs)不动 —— rework/devtools 仍在用。
   // ══ C35 · 2026-08-21 用户拍板扩 10 源(调研:两路 agent + 逐个 feed 实测,见 需求共创/调研-新源候选-2026-08-21.md)══
   // A 组 · feed 自带官方转写稿(便宜通道):
   { key: "practicalai", name: "Practical AI", feedUrl: "https://feeds.transistor.fm/practical-ai-machine-learning-data-science-llm", asr: "whisperx" }, // 实测 8/8 带 vtt/srt/json,秒级
@@ -111,8 +112,9 @@ export const SOURCES = [
  *  只列题材贴 AI/创业/科技的;**排除** founders(创始人传记偏)/doac(泛商业)/pg(Substack 浅 feed)——免拿偏题集凑 5/日。 */
 export const BACKFILL_FEED_KEYS = [
   "a16z", "aiandi", "yc", "mad", "trainingdata", "bigtech", "nopriors", "thepeel", "beyondcoding", // aia16z 已停(drift #59,与 a16z 同档播客)
-  // 2026-08-16 用户确认再进池(drift #58):deepmind/cogrev/twentyvc 题材贴 AI+深 feed;workos 停更但用户「只挖历史」=靠补历史池挖它 31 集封闭档。
-  "deepmind", "cogrev", "twentyvc", "workos",
+  // 2026-08-16 用户确认再进池(drift #58):deepmind/cogrev/twentyvc 题材贴 AI+深 feed。
+  // (workos 同批进过池,2026-09-03 用户拍板摘除该源,drift #80)
+  "deepmind", "cogrev", "twentyvc",
   // C35(2026-08-21 用户拍板):新 10 源全部进池 —— 品味判官(C34)逐集把关,时间预算(C32)控听写节奏
   "practicalai", "changelog", "devtools", "rework", "howiai", "unsupervised", "twiml", "eyeonai", "indepth", "uncapped",
   // C36b(2026-08-25 用户拍板):带稿新源进补历史池,品味判官逐集把关

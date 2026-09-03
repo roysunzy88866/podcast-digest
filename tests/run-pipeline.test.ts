@@ -191,6 +191,14 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
     expect(by.doac?.feedUrl).toContain("flightcast.com");
     expect(by.doac?.asr).toBe("whisperx");
   });
+  it("★★ workos 已摘除(2026-09-03 用户拍板,drift #80):死源不在源表、不在补历史池、账本无残留 cutoff", () => {
+    expect(SOURCES.some((s) => s.key === "workos")).toBe(false);
+    expect(BACKFILL_FEED_KEYS).not.toContain("workos");
+    const state = JSON.parse(readFileSync(new URL("../data/pipeline-state.json", import.meta.url), "utf8"));
+    // 先确认 cutoffs 这个键真在、真有内容,再断言没有 workos —— 否则键改名后 `in {}` 恒 false、守卫形同虚设(GLM 017[2])
+    expect(Object.keys(state.cutoffs ?? {}).length).toBeGreaterThan(10);
+    expect("workos" in state.cutoffs).toBe(false);
+  });
   it("★ 补历史池(drift #58):含题材贴的深 feed 源;排除 founders/doac/pg/lennys(避免偏题集凑 5/日或 Substack 浅 feed)", () => {
     expect(BACKFILL_FEED_KEYS).toContain("a16z");
     expect(BACKFILL_FEED_KEYS).toContain("beyondcoding");
@@ -208,14 +216,13 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
       cogrev: "feeds.megaphone.fm/RINTP3108857801",
       knowledge: "theknowledgeproject.libsyn.com",
       pragmatic: "newsletter.pragmaticengineer.com",
-      workos: "crossing-the-enterprise-chasm",
     };
     for (const [k, frag] of Object.entries(expected)) {
       expect(by[k]?.feedUrl).toContain(frag);
       expect(by[k]?.asr).toBe("whisperx");
     }
-    // 进补历史池:deepmind/cogrev/twentyvc/workos;不进:knowledge(商业泛)/pragmatic(Substack浅)
-    for (const k of ["deepmind", "cogrev", "twentyvc", "workos"]) expect(BACKFILL_FEED_KEYS).toContain(k);
+    // 进补历史池:deepmind/cogrev/twentyvc;不进:knowledge(商业泛)/pragmatic(Substack浅)
+    for (const k of ["deepmind", "cogrev", "twentyvc"]) expect(BACKFILL_FEED_KEYS).toContain(k);
     for (const k of ["knowledge", "pragmatic"]) expect(BACKFILL_FEED_KEYS).not.toContain(k);
   });
   it("每个源都带 key + 取料口(feed 源必有 feedUrl;C16 种子驱动源必有 seedDir,二者互斥)", () => {

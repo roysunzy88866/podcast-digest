@@ -138,3 +138,11 @@
 - **口径**:手工动账本后,**必须在在跑的班次结束后复核 origin 仍含该条**,丢了就重跑 unpublish(幂等)。已把这条写进 scripts/unpublish-episode.mjs 的 --apply 输出提醒。
 - **本次残余风险=低**:即便账本条目丢了,那两集也进不来 —— howiai cutoff 已推到 09-02(在它们之后)、且补历史/新集两条路的标题查重都会挡(Lenny's 版在库)。账本条目主要是留痕与第三道保险。
 
+## drift #80(2026-09-03 用户拍板):摘除 workos 死源(反转 drift #76 的「源保留在册无害」)
+- **旧**:drift #76(2026-08-24)裁决 workos 的 31 集封闭档放弃、该源**事实退役但保留在册**(「向前抓自然 0 新集,无害」)。
+- **新**:用户 2026-09-03 看过源清单报告后拍板「workos 清掉」。
+- **为什么现在无害不成立了**:60 天新鲜窗口(drift #78)落地后,它 2026 年前的封闭档永远进不了池;留着只在每班白抓一次 feed、在源清单里占一行、并让账本挂着一条 2025-02-04 的死 cutoff。
+- **动作**:SOURCES 摘除 · BACKFILL_FEED_KEYS 摘除 · 清 pipeline-state 的 workos cutoff · 测试改为守「已摘除」(不在源表/不在池/账本无残留,且先断言 cutoffs 键真在,防键改名后守卫失效)。
+- **不动**:`scripts/feed-transcript.mjs` 的 transistor 纯文本稿解析器及其测试 —— rework/devtools 仍在用,workos 只是当年的 fixture 来源。
+- **仍待用户定**:`aia16z` 账本残留(源已于 drift #59 退役,cutoff 还在;源清单报告会持续点名)。
+
