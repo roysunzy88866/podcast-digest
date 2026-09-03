@@ -77,6 +77,25 @@ export function ageDays(pubDateISO, todayISO) {
   return Math.max(0, Math.round((t - p) / 86400e3));
 }
 
+/** W2(2026-09-03):判官留痕条目 —— 放行与拒绝都记(此前只记拒绝,过审的集查无对证;Fable 5 那集就没有任何判官记录)。
+ *  result = judgeEpisodeTaste 的返回 {ok, why, verdict}。判官调不通/认不出时 verdict 为 null → 标 judgeFailed,便于事后分清「判官放的」还是「故障放的」。 */
+export function judgeLogEntry({ id, source, item, todayISO, path, result, model = TASTE_JUDGE_MODEL, now = new Date() }) {
+  const v = result?.verdict?.verdict ?? null;
+  return {
+    ts: now.toISOString(),
+    id,
+    source: source?.key ?? null,
+    title: String(item?.title ?? ""),
+    pubDate: item?.pubDateISO ?? null,
+    ageDays: ageDays(item?.pubDateISO, todayISO),
+    path, // "new" 新集 | "topup" 补历史
+    verdict: v ?? (result?.ok ? "放行(判官调不通/认不出)" : "不对味"),
+    reason: String(result?.why ?? ""),
+    judgeFailed: v == null,
+    model,
+  };
+}
+
 /** 喂给判官的输入(标题+时长+源名+发布日)。抽出来是为了可测:改字段不会静默丢信息。 */
 export function judgeInput(item, source, { todayISO } = {}) {
   const age = ageDays(item?.pubDateISO, todayISO);

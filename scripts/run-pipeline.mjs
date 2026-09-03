@@ -8,7 +8,7 @@
 //   node scripts/run-pipeline.mjs --dry-run  # 只打印会处理哪些集,不真跑(省钱、CI 干验)
 //
 // 纯逻辑(parseFeed/isInterview/deriveId/selectNew)导出供单测;副作用在 main()。
-import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync, renameSync, rmSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync, renameSync, rmSync, appendFileSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -19,7 +19,7 @@ import { pickFeedTranscript, hasTimedFeedTranscript, isOnTopic } from "./feed-tr
 import { isAudioDownloadFail, noteAudioWanted, consumeAudioWanted, relayUrlFor, RELAY_TAG } from "./audio-relay.mjs";
 // C34 品味判官(有 isMain 守卫,import 无副作用):开始处理**之前**按品味档案判一次题材,
 // 偏题的直接不做 —— 省下 2-4 小时转写,也不再让「222 纳米杀菌灯」那类内容做完才被发现。
-import { judgeEpisodeTaste } from "./taste-judge.mjs";
+import { judgeEpisodeTaste, judgeLogEntry } from "./taste-judge.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -130,6 +130,11 @@ const BROWSER_HEADERS = {
 export const STATE_FILE = join(ROOT, "data/pipeline-state.json");
 const EPISODES_DIR = join(ROOT, "data/episodes");
 const SKIPPED_DIR = join(ROOT, "data/skipped"); // 隔离区:自动跑出失真、闸门拦下的集(不删、留人工看,不发布不重跑,drift #24)
+// W2:判官留痕(放行+拒绝逐条追加;随仓提交、进 artifact;人工可复核「为什么这集过了」)。写失败只告警不阻断。
+const JUDGE_LOG = join(ROOT, "data/judge-log.jsonl");
+function appendJudgeLog(entry) {
+  try { appendFileSync(JUDGE_LOG, JSON.stringify(entry) + "\n"); } catch (e) { console.error(`   ⚠️ 判官留痕写入失败:${e.message}`); }
+}
 
 // ── 纯逻辑(可单测,无副作用)──────────────────────────────
 
@@ -1347,6 +1352,7 @@ function processBackfillPicks(pairs, state) {
     processed += 1; // 到这就要花成本了(判官本身也是 GLM 调用),计入护栏 —— 判官拒也算(GLM 001[2]:否则一池 off-taste 集会空转几百次判官)
     // C34:补历史同样先判题材(它挑「最新」,更容易撞上泛题材源的偏题集 —— 222 纳米光那集就是这么来的)
     const taste = judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
+    appendJudgeLog(judgeLogEntry({ id, source, item, todayISO: bjDay(), path: "topup", result: taste })); // W2 留痕
     if (!taste.ok) {
       console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
       appendSkip(state, { id, reason: `题材不对味:${taste.why}`, title: item.title, pubDate: item.pubDateISO });
@@ -1682,6 +1688,7 @@ async function processSource(source, state, { backfillN, dryRun }) {
     // 病根:cogrev 那集 154 分「AI in the AM weekly highlights」本是 ❌ 聚合简报,却因预算检查在前、每班在它这儿停手,
     // 判官永远没机会拒掉它(08-16 起每班白占 3 个名额)。
     const taste = judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
+    appendJudgeLog(judgeLogEntry({ id, source, item, todayISO: bjDay(), path: "new", result: taste })); // W2 留痕
     if (!taste.ok) {
       console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
       appendSkip(state, { id, reason: `题材不对味:${taste.why}`, title: item.title, pubDate: item.pubDateISO });

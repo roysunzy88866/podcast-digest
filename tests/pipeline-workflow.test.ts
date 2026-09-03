@@ -29,3 +29,15 @@ describe("drift #44 · pipeline.yml 开工刷新步(堵排队旧快照重烧钱�
     expect(y).toContain("drift #44");
   });
 });
+
+describe("W2 · 判官留痕文件随仓提交 + 进 artifact(否则随 runner 丢)", () => {
+  const y = readFileSync(new URL("../.github/workflows/pipeline.yml", import.meta.url), "utf8");
+  it("★★★ 回仓步单独一行 add judge-log(缺文件时不许拖垮既有那句 git add)", () => {
+    expect(y).toMatch(/\[ -f data\/judge-log\.jsonl \] && git add data\/judge-log\.jsonl \|\| true/);
+    expect(y).toContain("git add data/episodes data/pipeline-state.json samples 2>/dev/null || true"); // 原句不动
+  });
+  it("★★ 产物 artifact 含 judge-log", () => {
+    const i = y.indexOf("pipeline-products-");
+    expect(y.slice(i, i + 400)).toContain("data/judge-log.jsonl");
+  });
+});

@@ -4,7 +4,7 @@
 // 铁律:测试不碰 glm-ask、不读网络(副作用只在 judgeEpisodeTaste 的 spawnSync 里)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseVerdict, judgeAllows, shouldProcess, judgeInput, TASTE_JUDGE_MODEL, JUDGE_FRESHNESS_DAYS, ageDays } from "../scripts/taste-judge.mjs";
+import { parseVerdict, judgeAllows, shouldProcess, judgeInput, TASTE_JUDGE_MODEL, JUDGE_FRESHNESS_DAYS, ageDays, judgeLogEntry } from "../scripts/taste-judge.mjs";
 
 describe("parseVerdict", () => {
   it("认得出规范输出", () => {
@@ -115,5 +115,34 @@ describe("W3 · 判官看发布日 + 时效规则(2026-09-03 用户拍板;此前
     expect(doc).toContain("## ⏳ 时效");
     expect(doc).toContain("超过 14 天即过时");
     expect(doc.length).toBeLessThan(20000);
+  });
+});
+
+describe("W2 · 判官留痕(放行与拒绝都记;此前只记拒绝,过审的集查无对证)", () => {
+  const item = { title: "Claude Fable 5 review", pubDateISO: "2026-06-09T11:00:00.000Z", durationSec: 1041 };
+  const src = { key: "howiai", name: "How I AI" };
+  it("★★★ 放行条目:verdict/reason 透传,ageDays 按发布日算(86 天),path/model/源 齐全", () => {
+    const e = judgeLogEntry({ id: "x", source: src, item, todayISO: "2026-09-03", path: "topup",
+      result: { ok: true, why: "AI 实操", verdict: { verdict: "对味", reason: "AI 实操" } }, now: new Date("2026-09-03T00:00:00Z") });
+    expect(e).toMatchObject({ id: "x", source: "howiai", path: "topup", verdict: "对味", reason: "AI 实操", ageDays: 86, judgeFailed: false, pubDate: item.pubDateISO });
+    expect(e.ts).toBe("2026-09-03T00:00:00.000Z");
+    expect(typeof e.model).toBe("string");
+  });
+  it("★★★ 判官调不通被放行 → 明标 judgeFailed:true 与「放行(判官调不通/认不出)」,事后能分清是判官放的还是故障放的", () => {
+    const e = judgeLogEntry({ id: "x", source: src, item, todayISO: "2026-09-03", path: "new", result: { ok: true, why: "判官调不通 → 放行", verdict: null } });
+    expect(e.judgeFailed).toBe(true);
+    expect(e.verdict).toContain("放行(判官调不通");
+  });
+  it("★★ 拒绝条目 verdict=不对味;缺日期 ageDays=null 不炸", () => {
+    const e = judgeLogEntry({ id: "x", source: src, item: { title: "t" }, todayISO: "2026-09-03", path: "new", result: { ok: false, why: "过时:…", verdict: { verdict: "不对味", reason: "过时:…" } } });
+    expect(e.verdict).toBe("不对味");
+    expect(e.ageDays).toBe(null);
+  });
+  it("★★★ 接线源码锚:两条路(新集/补历史)判完都留痕,写入 data/judge-log.jsonl", () => {
+    const rp = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    expect((rp.match(/appendJudgeLog\(judgeLogEntry\(/g) ?? []).length).toBe(2);
+    expect(rp).toContain('path: "new"');
+    expect(rp).toContain('path: "topup"');
+    expect(rp).toContain('"data/judge-log.jsonl"');
   });
 });
