@@ -805,6 +805,23 @@ export function clearRevive(state, id) {
   if (state.revive) delete state.revive[id];
 }
 
+// ══ W6(2026-09-03)· 转瞬失败连败上限 ══
+// 病根实证:浓缩「连试 4 次仍不合格」/ 翻译「chunk 0 多轮补译仍缺 37 条」这类失败被当转瞬失败无限重试,
+// 半成品每班重做重扣钱(2026-07-29-productpodcast、2026-08-03-pmf 连续 5+ 班出现在 bot 提交里,从没做完)。
+// 修法:同 REVIVE_CAP 口径 —— 连败 TRANSIENT_CAP 次停车隔离(parkSkipped:挪 data/skipped + 记账 + retry:false 放行 cutoff),
+// 成功即清零;跨班次累计(计数落 state.transient)。停车集人工可捞:删账本条目 + 挪回目录。
+export const TRANSIENT_CAP = 3;
+
+export function noteTransientFail(state, id) {
+  state.transient = state.transient ?? {};
+  state.transient[id] = (state.transient[id] ?? 0) + 1;
+  return state.transient[id];
+}
+
+export function clearTransient(state, id) {
+  if (state.transient) delete state.transient[id];
+}
+
 // ══ 内容审查拦截(GLM [1301])= 确定性终态,非转瞬 ══
 // 病根:GLM(智谱)对军事/中美对抗/AI 末日等敏感话题返回 [1301] 拒绝处理,translate/infer-speakers 抛错。
 // 原来当「转瞬失败」无限重试 → 演讲永远重选那几条(死锁,饿死后面纯技术演讲)、RSS cutoff 冻结(每跑重烧同一集翻译)。
@@ -1074,12 +1091,15 @@ async function main() {
     processSource(source, state, { backfillN, dryRun }),
   );
   let totalClean = sourceRun.clean;
+  const excludeToday = new Set(); // W6:补活停车/本轮失败的 id,顶量计数时排除(今天注定发不出的不占 8 的名额)
   let totalSkipped = sourceRun.skipped;
 
   // C14:补活掉队半成品(有 digest 无集页)。放在正常班次之后:新集优先。
   // **无论上面的源成没成都要跑** —— 它是安全网,不能被自己要防的故障挡在门外(run 30446551961 血账)。
   {
     const r = revivePass(state, { onlyKey, dryRun });
+    (r.parkedIds ?? []).forEach((id) => excludeToday.add(id));
+    (r.failedIds ?? []).forEach((id) => excludeToday.add(id));
     totalClean += r.clean;
     totalSkipped += r.skipped;
   }
@@ -1089,7 +1109,7 @@ async function main() {
   // ~07:00 前跑完 → 用户早 8 点已有 ≥5 新内容(用户 2026-08-13 要求)。早班(02/08/14)天没过完不判不补,避免天天狂补(用户 2026-08-12 指出)。
   // 叠加守卫:--backfill(手动评估批)/--talks/--source 各入口即便误传也不顶量。
   if (flags.has("--daily-topup") && backfillN === 0 && !onlyKey && !flags.has("--talks")) {
-    const r = await backfillTopUpPass(state, { target: DAILY_TARGET, dryRun, todayISO: bjDay() }); // C31:按北京日
+    const r = await backfillTopUpPass(state, { target: DAILY_TARGET, dryRun, todayISO: bjDay(), excludeIds: excludeToday }); // C31:按北京日;W6:停车/失败集不占名额
     totalClean += r.clean;
     totalSkipped += r.skipped;
   }
@@ -1163,7 +1183,7 @@ function parkSkipped(state, id, item, source, reason) {
   }
   appendSkip(state, { id, reason, title: item.title, pubDate: item.pubDateISO });
   recordTalkTerminal(state, id, source, source.seedDir ? readTalkSeeds(source) : []);
-  clearBlocked(state, id);
+  clearBlocked(state, id); clearTransient(state, id);
   writeState(state);
 }
 
@@ -1184,17 +1204,18 @@ function revivePass(state, { onlyKey, dryRun }) {
   parked.forEach((id) => console.error(`🅿️ 补活停手(连败 ${state.revive?.[id]} 次,需人工;清 state.revive 恢复资格):${id}`));
   if (!revive.length) {
     if (!parked.length) console.log("\n✅ 补活:无掉队半成品。");
-    return { clean: 0, skipped: 0 };
+    return { clean: 0, skipped: 0, parkedIds: parked, failedIds: [] };
   }
   console.log(`\n══ 补活:${revive.length} 个掉队半成品(有 digest 无集页):`);
   revive.forEach((id) => console.log(`   - ${id}(已败 ${state.revive?.[id] ?? 0} 次)`));
   if (dryRun) {
     console.log("（--dry-run:仅列出,不真跑)");
-    return { clean: 0, skipped: 0 };
+    return { clean: 0, skipped: 0, parkedIds: parked, failedIds: [] };
   }
 
   let clean = 0;
   let skipped = 0;
+  const failedIds = []; // W6:本轮补活又转瞬失败的 —— 今天注定发不出,顶量计数不该把它当「已入库」
   for (const id of revive) {
     const source = sourceForId(id);
     if (!source) {
@@ -1213,11 +1234,13 @@ function revivePass(state, { onlyKey, dryRun }) {
       const n = noteReviveFail(state, id);
       writeState(state); // 即刻落盘:后续崩了也不丢连败账(同 appendSkip 口径)
       console.error(`   ⚠️ ${id} 补活又转瞬失败(第 ${n}/${REVIVE_CAP} 次):${e.message}`);
+      failedIds.push(id);
       skipped += 1;
       continue;
     }
     if (res.ok) {
       clearRevive(state, id);
+      clearTransient(state, id); // W6:补活成功也清连败账(GLM 013[1]:否则残留计数让日后 1-2 次失败就假性触顶)
       const vid = recordTalkTerminal(state, id, source, source.seedDir ? readTalkSeeds(source) : []);
       if (vid) console.log(`   🧾 演讲账本补记 ${vid} → ${id}(补活终态必记,防 lance 类漏写)`);
       writeState(state);
@@ -1239,7 +1262,7 @@ function revivePass(state, { onlyKey, dryRun }) {
     }
   }
   console.log(`🔔 补活收账:成功 ${clean} / 失败或隔离 ${skipped} / 停手 ${parked.length}`);
-  return { clean, skipped };
+  return { clean, skipped, parkedIds: parked, failedIds };
 }
 
 // ══ C23 · 每日补历史顶量(ADR 0021)══
@@ -1269,8 +1292,8 @@ export function episodeDate(id, meta) {
   return /^\d{4}-\d{2}-\d{2}$/.test(md) ? md : null;
 }
 
-function countAddedToday(todayISO) {
-  return completedIds().filter((id) => {
+function countAddedToday(todayISO, excludeIds = new Set()) {
+  return completedIds().filter((id) => !excludeIds.has(id)).filter((id) => {
     try {
       const meta = JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8"));
       return countsTowardDailyTarget(id, meta, todayISO);
@@ -1353,13 +1376,22 @@ function processBackfillPicks(pairs, state) {
         writeState(state);
         console.error(`   📦 已登记待搬运(audioWanted):${id} —— Mac mini 下轮抓音频送中转站`);
       }
-      console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
+      // W6:连败计数,到上限停车隔离(不再每班重烧)
+      const nT = noteTransientFail(state, id);
+      if (nT >= TRANSIENT_CAP) {
+        parkSkipped(state, id, item, source, `转瞬失败连败 ${nT} 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试`);
+        console.log(`   ⛔ ${id} 转瞬失败连败 ${nT}/${TRANSIENT_CAP} 次,停车隔离`);
+        skipped += 1;
+        continue;
+      }
+      writeState(state); // 连败账即刻落盘,跨班次累计
+      console.error(`   ⚠️ ${id} 处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,留半成品下次重试):${e.message}`);
       skipped += 1;
       continue;
     }
     if (res.ok) {
       clean += 1;
-      clearBlocked(state, id);
+      clearBlocked(state, id); clearTransient(state, id);
     } else {
       mkdirSync(SKIPPED_DIR, { recursive: true });
       const to = join(SKIPPED_DIR, id);
@@ -1376,8 +1408,8 @@ function processBackfillPicks(pairs, state) {
 }
 
 /** 每日顶量一轮:当天入库 <target 时,从带 archiveFile 的源倒序补历史(比库内该源最旧一期更旧)。返回 {clean, skipped}。 */
-async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
-  const have = countAddedToday(todayISO);
+async function backfillTopUpPass(state, { target, dryRun, todayISO, excludeIds = new Set() }) {
+  const have = countAddedToday(todayISO, excludeIds);
   const need = Math.max(0, target - have);
   if (need === 0) {
     console.log(`\n✅ 每日顶量:当天已入库 ${have} 集(≥ 目标 ${target}),不补历史。`);
@@ -1551,8 +1583,18 @@ function processTalksSource(source, state, { dryRun }) {
       }
       // 演讲源刻意不登记 audioWanted(GLM 020[5]):其 enclosure 本来就是本仓 Release asset(Mac mini 上传的),
       // 拿不到=asset 缺失/坏种子,该修种子而不是让搬运工从坏 URL 再抓一遍(登记只会造死循环)。
-      console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
-      skipped.push({ id, reason: `处理中断(转瞬失败,下次重试):${e.message}`, retry: true });
+      // W6:连败计数,到上限停车隔离 → 终态(retry:false)让 cutoff 推进过它,不再每班重烧
+      const nT = noteTransientFail(state, id);
+      if (nT >= TRANSIENT_CAP) {
+        const reason = `转瞬失败连败 ${nT} 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试`;
+        parkSkipped(state, id, item, source, reason);
+        skipped.push({ id, reason, retry: false });
+        console.log(`   ⛔ ${id} 转瞬失败连败 ${nT}/${TRANSIENT_CAP} 次,停车隔离`);
+        continue;
+      }
+      writeState(state); // 连败账即刻落盘,跨班次累计
+      console.error(`   ⚠️ ${id} 处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,留半成品下次重试):${e.message}`);
+      skipped.push({ id, reason: `处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,下次重试):${e.message}`, retry: true });
       continue; // 不记 videoId:非终态,下轮重选
     }
     // 终态才记 videoId 账本(去重第 1 层;成功与失真隔离都算终态,绝不再自动重跑重扣钱)
@@ -1560,7 +1602,7 @@ function processTalksSource(source, state, { dryRun }) {
     state.talkVideoIds[videoId] = id;
     if (res.ok) {
       cleanIds.push(id);
-      clearBlocked(state, id); // 曾被拦但这轮过了 → 清连拦账,不留陈旧计数
+      clearBlocked(state, id); clearTransient(state, id); // 曾被拦但这轮过了 → 清连拦账,不留陈旧计数
       writeState(state);
     } else {
       mkdirSync(SKIPPED_DIR, { recursive: true });
@@ -1694,13 +1736,23 @@ async function processSource(source, state, { backfillN, dryRun }) {
         writeState(state);
         console.error(`   📦 已登记待搬运(audioWanted):${id} —— Mac mini 下轮抓音频送中转站`);
       }
-      console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
-      skipped.push({ id, reason: `处理中断(转瞬失败,下次重试):${e.message}`, retry: true });
+      // W6:连败计数,到上限停车隔离 → 终态(retry:false)让 cutoff 推进过它,不再每班重烧
+      const nT = noteTransientFail(state, id);
+      if (nT >= TRANSIENT_CAP) {
+        const reason = `转瞬失败连败 ${nT} 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试`;
+        parkSkipped(state, id, item, source, reason);
+        skipped.push({ id, reason, retry: false });
+        console.log(`   ⛔ ${id} 转瞬失败连败 ${nT}/${TRANSIENT_CAP} 次,停车隔离`);
+        continue;
+      }
+      writeState(state); // 连败账即刻落盘,跨班次累计
+      console.error(`   ⚠️ ${id} 处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,留半成品下次重试):${e.message}`);
+      skipped.push({ id, reason: `处理中断(转瞬失败第 ${nT}/${TRANSIENT_CAP} 次,下次重试):${e.message}`, retry: true });
       continue;
     }
     if (res.ok) {
       clean.push(item);
-      clearBlocked(state, id); // 曾被拦但这轮过了 → 清连拦账
+      clearBlocked(state, id); clearTransient(state, id); // 曾被拦但这轮过了 → 清连拦账
     } else {
       // 失真被拦 → 隔离到 data/skipped(不发、不删、不自动重跑)。此时还没出集页/音频,无孤儿。
       mkdirSync(SKIPPED_DIR, { recursive: true });

@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, TRANSIENT_CAP, noteTransientFail, clearTransient, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -652,6 +652,39 @@ describe("neverFitsBudget · W5 超长集终态跳过(2026-09-03:cogrev 154 分�
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
     const i = src.indexOf('timeBudgetCheck("补历史"');
     expect(src.slice(i, i + 900)).toContain("neverFitsBudget(est)");
+  });
+});
+
+describe("W6 · 转瞬失败连败上限 + 停车集不占当日名额(2026-09-03:半成品连续 5+ 班重烧)", () => {
+  it("★★★ TRANSIENT_CAP=3,连败计数跨调用累计,成功清零", () => {
+    expect(TRANSIENT_CAP).toBe(3);
+    const state: any = {};
+    expect(noteTransientFail(state, "a")).toBe(1);
+    expect(noteTransientFail(state, "a")).toBe(2);
+    expect(noteTransientFail(state, "b")).toBe(1);
+    expect(noteTransientFail(state, "a")).toBe(3);
+    clearTransient(state, "a");
+    expect(state.transient.a).toBeUndefined();
+    expect(state.transient.b).toBe(1);
+  });
+  it("★★★ 源码锚:三条处理路径(补历史/演讲/新集)的转瞬失败尾段都记连败并到上限停车;新集路径停车是终态 retry:false(放行 cutoff)", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    // 三条处理路径:补历史 / 演讲种子 / 新集(cutoff 敏感)
+    expect((src.match(/const nT = noteTransientFail\(state, id\);/g) ?? []).length).toBe(3);
+    expect((src.match(/if \(nT >= TRANSIENT_CAP\)/g) ?? []).length).toBe(3);
+    const i = src.indexOf("if (nT >= TRANSIENT_CAP)", src.indexOf('outOfTimeBudget("新集"'));
+    expect(src.slice(i, i + 500)).toContain("retry: false");
+    expect(src.slice(i, i + 500)).toContain("parkSkipped(state, id, item, source");
+    expect(src).not.toMatch(/clearBlocked\(state, id\);(?! clearTransient)/); // 成功路径清零,不留陈旧连败账
+    const rv = src.slice(src.indexOf("function revivePass("), src.indexOf("\n}\n", src.indexOf("function revivePass(")));
+    expect(rv).toContain("clearTransient(state, id)"); // 补活成功也清零(GLM 013[1])
+  });
+  it("★★★ 源码锚:补活回传 parkedIds/failedIds,顶量计数排除它们(今天注定发不出的不占 8 的名额)", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    expect(src).toContain("return { clean, skipped, parkedIds: parked, failedIds };");
+    expect(src).toContain("excludeIds: excludeToday");
+    expect(src).toMatch(/function countAddedToday\(todayISO, excludeIds = new Set\(\)\)/);
+    expect(src).toContain("completedIds().filter((id) => !excludeIds.has(id))");
   });
 });
 
