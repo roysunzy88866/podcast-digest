@@ -41,65 +41,65 @@ jsonLd: |
 
 ## 系统的两个核心前提
 
-Daniel 认为让这套系统真正跑起来，关键不在于用 Claude 还是其他工具，而在于两条规则：第一，系统要能**重写自己的核心文件**，这样它才能持续改进；第二，系统要**尽可能多地连接你的工作生态**——Slack、邮件、日历、[[Notion|Notion]] 等等。这两条满足之后，才有机会真正改变工作方式 `<button class="pd-ts" data-t="05:47" data-who="Daniel Bloom" data-en="And in terms of the tool, so... Co-work was definitely the big unlock for me, but I think while I love co-work, it's not co-work in itself. And I think Codex could be great for this as well, or ChatGPT work." aria-label="回原文"></button>`。
+Daniel 认为让这套系统真正跑起来，关键不在于用 Claude 还是其他工具，而在于两条规则：第一，系统要能**重写自己的核心文件**，这样它才能持续改进；第二，系统要**尽可能多地连接你的工作生态**——Slack、邮件、日历、[[Notion|Notion]] 等等。这两条满足之后，才有机会真正改变工作方式 <button class="pd-ts" data-t="05:47" data-who="Daniel Bloom" data-en="And in terms of the tool, so... Co-work was definitely the big unlock for me, but I think while I love co-work, it's not co-work in itself. And I think Codex could be great for this as well, or ChatGPT work." aria-label="回原文"></button>。
 
 ## 上下文怎么喂：手动起步，自动维护
 
-系统的基础是 Notion 上的一个看板，分三块：top of mind（脑子里的大事）、this week（本周优先级）、inbox（从各渠道涌入的杂事）。Notion 对他来说几乎是只读的——只用来看焦点和优先级，所有操作都通过 CoWork 完成 `<button class="pd-ts" data-t="18:58" data-who="Daniel Bloom" data-en="Do you actually spend time in the Notion or are you still like navigating all this with Claude? So the main idea is that Notion is almost a read-only for me. I look at the Notion to get my focus, to remind me of my top of mind, to remind me of my priorities and focus this week." aria-label="回原文"></button>`。
+系统的基础是 Notion 上的一个看板，分三块：top of mind（脑子里的大事）、this week（本周优先级）、inbox（从各渠道涌入的杂事）。Notion 对他来说几乎是只读的——只用来看焦点和优先级，所有操作都通过 CoWork 完成 <button class="pd-ts" data-t="18:58" data-who="Daniel Bloom" data-en="Do you actually spend time in the Notion or are you still like navigating all this with Claude? So the main idea is that Notion is almost a read-only for me. I look at the Notion to get my focus, to remind me of my top of mind, to remind me of my priorities and focus this week." aria-label="回原文"></button>。
 
-[[上下文|上下文]]的构建分两阶段。前期他花了大量时间手动喂信息：给 Claude 投喂链接、文档，还用 [[Whisper|Whisper]]（语音转文字工具）口述了大量的背景信息。他发现 Whisper 这种方式出奇地高效——絮絮叨叨地说一大堆，上下文就喂进去了 `<button class="pd-ts" data-t="09:27" data-who="Daniel Bloom" data-en="I spent a lot of time manually contextualizing in the beginning, whether through like feeding it links and different decks and stuff like that. And also just a lot of whisper, just dictating endless information and blabbering endlessly about everything that I can think of." aria-label="回原文"></button>`。
+[[上下文|上下文]]的构建分两阶段。前期他花了大量时间手动喂信息：给 Claude 投喂链接、文档，还用 [[Whisper|Whisper]]（语音转文字工具）口述了大量的背景信息。他发现 Whisper 这种方式出奇地高效——絮絮叨叨地说一大堆，上下文就喂进去了 <button class="pd-ts" data-t="09:27" data-who="Daniel Bloom" data-en="I spent a lot of time manually contextualizing in the beginning, whether through like feeding it links and different decks and stuff like that. And also just a lot of whisper, just dictating endless information and blabbering endlessly about everything that I can think of." aria-label="回原文"></button>。
 
-之后系统会自动维护。每隔几周，它会根据这段时间发生的变化自动更新知识文件 `<button class="pd-ts" data-t="09:41" data-who="Daniel Bloom" data-en="Which is just incredibly powerful and how much context you can give relatively easily and quickly. And then this system basically updates itself on a recurring basis." aria-label="回原文"></button>`。
+之后系统会自动维护。每隔几周，它会根据这段时间发生的变化自动更新知识文件 <button class="pd-ts" data-t="09:41" data-who="Daniel Bloom" data-en="Which is just incredibly powerful and how much context you can give relatively easily and quickly. And then this system basically updates itself on a recurring basis." aria-label="回原文"></button>。
 
 ## 每周准备：从混乱到清晰的结构化
 
-系统的第一个锚定任务是「每周准备」，周日早晨自动运行。它做三件事：梳理 top of mind 和本周优先级、处理 inbox 里从 Slack 和邮件捞出来的杂事、帮他准备下周的会议——对每个会议判断需要严肃准备（单独列为任务）、快速提醒、还是不需要准备 `<button class="pd-ts" data-t="10:06" data-who="Daniel Bloom" data-en="Perfect. So it all starts with one recurring task, which is a composition of several skills called the weekly prep. So the weekly prep is the very basic task that helps me start my week." aria-label="回原文"></button>`。
+系统的第一个锚定任务是「每周准备」，周日早晨自动运行。它做三件事：梳理 top of mind 和本周优先级、处理 inbox 里从 Slack 和邮件捞出来的杂事、帮他准备下周的会议——对每个会议判断需要严肃准备（单独列为任务）、快速提醒、还是不需要准备 <button class="pd-ts" data-t="10:06" data-who="Daniel Bloom" data-en="Perfect. So it all starts with one recurring task, which is a composition of several skills called the weekly prep. So the weekly prep is the very basic task that helps me start my week." aria-label="回原文"></button>。
 
-Daniel 说了一个 PM 都有共鸣的痛点：你的路线图和优先级列表是一个干净有序的世界，但现实是 Slack、会议、高管临时要求的混乱。这个系统就是用来弥合这两者之间的差距的 `<button class="pd-ts" data-t="12:03" data-who="Daniel Bloom" data-en="The unique thing about this is that I think, and this is something I ran into after having created the first weekly prep. I think one of the things any PM can resonate with is the fact that there's two worlds, right?" aria-label="回原文"></button>`。
+Daniel 说了一个 PM 都有共鸣的痛点：你的路线图和优先级列表是一个干净有序的世界，但现实是 Slack、会议、高管临时要求的混乱。这个系统就是用来弥合这两者之间的差距的 <button class="pd-ts" data-t="12:03" data-who="Daniel Bloom" data-en="The unique thing about this is that I think, and this is something I ran into after having created the first weekly prep. I think one of the things any PM can resonate with is the fact that there's two worlds, right?" aria-label="回原文"></button>。
 
 ## 晨报：最核心的魔法——主动追问不懂的术语
 
-每天的晨报是 Daniel 认为最神奇的部分 `<button class="pd-ts" data-t="13:15" data-who="Daniel Bloom" data-en="And this is called the morning brief. And this is, I think, where the real magic happens. So actually, we're going to run this live right now." aria-label="回原文"></button>`。
+每天的晨报是 Daniel 认为最神奇的部分 <button class="pd-ts" data-t="13:15" data-who="Daniel Bloom" data-en="And this is called the morning brief. And this is, I think, where the real magic happens. So actually, we're going to run this live right now." aria-label="回原文"></button>。
 
-第一段是会议回顾：拉取 Granola（会议记录工具）的转录，给每个会议一行总结，标出有没有待办事项。他可以选展开或跳过 `<button class="pd-ts" data-t="15:38" data-who="Daniel Bloom" data-en="OK, so I think there's several things, but I'll walk through this very quickly and show the different parts and I'll highlight the interesting things. So the first part is that this brief basically walks me through my meetings." aria-label="回原文"></button>`。
+第一段是会议回顾：拉取 Granola（会议记录工具）的转录，给每个会议一行总结，标出有没有待办事项。他可以选展开或跳过 <button class="pd-ts" data-t="15:38" data-who="Daniel Bloom" data-en="OK, so I think there's several things, but I'll walk through this very quickly and show the different parts and I'll highlight the interesting things. So the first part is that this brief basically walks me through my meetings." aria-label="回原文"></button>。
 
 第二段才是真正的杀手锏：Claude 会扫他最近的 Slack、邮件和笔记，**主动找它不理解的上下文**——比如一个没见过的术语、一个不知道的里程碑或目标——然后问他：「这是什么？重要吗？
 
-我要不要读一下？」现场演示中，它标记了「settlement cap」这个支付领域的术语，Daniel 说「保存到上下文」，它就记住了 `<button class="pd-ts" data-t="17:08" data-who="Daniel Bloom" data-en="So this is one of the ways I've thought of. So basically what it does is imagine in this daily brief, my coworker runs through my recent slacks, my emails, my granola notes." aria-label="回原文"></button>`。
+我要不要读一下？」现场演示中，它标记了「settlement cap」这个支付领域的术语，Daniel 说「保存到上下文」，它就记住了 <button class="pd-ts" data-t="17:08" data-who="Daniel Bloom" data-en="So this is one of the ways I've thought of. So basically what it does is imagine in this daily brief, my coworker runs through my recent slacks, my emails, my granola notes." aria-label="回原文"></button>。
 
-主持人 Claire 指出这为什么犀利：很多公司内部说的东西不在模型的训练数据里，主动让模型承认「我不懂」然后一起定义、存下来，之后就能理解了。这是这集播客里没见过的做法 `<button class="pd-ts" data-t="18:05" data-who="Claire Vo" data-en="And I want people to just take a pause and reflect on what this is, because it looks like for your context, you are making sure that Claude understands internal definitions, terms, goals, et cetera." aria-label="回原文"></button>`。
+主持人 Claire 指出这为什么犀利：很多公司内部说的东西不在模型的训练数据里，主动让模型承认「我不懂」然后一起定义、存下来，之后就能理解了。这是这集播客里没见过的做法 <button class="pd-ts" data-t="18:05" data-who="Claire Vo" data-en="And I want people to just take a pause and reflect on what this is, because it looks like for your context, you are making sure that Claude understands internal definitions, terms, goals, et cetera." aria-label="回原文"></button>。
 
-系统还了解他的工作习惯——比如他是 inbox zero 的人，所以如果一条 Slack 消息之前在、现在不在了，系统就推断这事已经处理完了，不需要再提醒 `<button class="pd-ts" data-t="12:48" data-who="Daniel Bloom" data-en="And part of the fact that it knows me really well is also that it knows how I work. So for example, I'm inbox zero, both on Slack and on email. So it knows that if something was saved on Slack and is no longer, it means it's likely done." aria-label="回原文"></button>`。
+系统还了解他的工作习惯——比如他是 inbox zero 的人，所以如果一条 Slack 消息之前在、现在不在了，系统就推断这事已经处理完了，不需要再提醒 <button class="pd-ts" data-t="12:48" data-who="Daniel Bloom" data-en="And part of the fact that it knows me really well is also that it knows how I work. So for example, I'm inbox zero, both on Slack and on email. So it knows that if something was saved on Slack and is no longer, it means it's likely done." aria-label="回原文"></button>。
 
 ## 自我改进循环：四个自动化模块
 
-Daniel 每周跑一个「自我改进循环」，分四部分，本质上是让 Claude 帮他改进系统，而不是纯手动调 `<button class="pd-ts" data-t="27:31" data-who="Daniel Bloom" data-en="What have you figured out there? Yeah, so I think this is one of the coolest unlocks that have helped me continuously improve the setup while not dedicating too much time to it." aria-label="回原文"></button>`：
+Daniel 每周跑一个「自我改进循环」，分四部分，本质上是让 Claude 帮他改进系统，而不是纯手动调 <button class="pd-ts" data-t="27:31" data-who="Daniel Bloom" data-en="What have you figured out there? Yeah, so I think this is one of the coolest unlocks that have helped me continuously improve the setup while not dedicating too much time to it." aria-label="回原文"></button>：
 
-**第一，草稿差距分析。** Claude 写了草稿，Daniel 修改后直接发出去了——但 Claude 不知道改了什么。这个任务会去找那些 Claude 给了草稿但 Daniel 没回复、之后以不同方式发出的内容，对比学习差距，持续打磨写作风格 `<button class="pd-ts" data-t="28:05" data-who="Daniel Bloom" data-en="So I'm going to walk through this in retroactive. So first of all, the first part is how my drafts landed. So what I found over time is that when I write with Claude, it'll give me a draft and then I'll change it and I'll just send it." aria-label="回原文"></button>`。
+**第一，草稿差距分析。** Claude 写了草稿，Daniel 修改后直接发出去了——但 Claude 不知道改了什么。这个任务会去找那些 Claude 给了草稿但 Daniel 没回复、之后以不同方式发出的内容，对比学习差距，持续打磨写作风格 <button class="pd-ts" data-t="28:05" data-who="Daniel Bloom" data-en="So I'm going to walk through this in retroactive. So first of all, the first part is how my drafts landed. So what I found over time is that when I write with Claude, it'll give me a draft and then I'll change it and I'll just send it." aria-label="回原文"></button>。
 
-**第二，新[[技能|技能]]建议。** Claude 持续观察他反复做的事情，建议封装成技能。Daniel 很多技能就是这么来的——比如他在频繁做原型，系统就建议建一个「设计交接」技能 `<button class="pd-ts" data-t="28:50" data-who="Daniel Bloom" data-en="Now this is a cool one. The second one, and this is skills that are worth building. So basically Claude on an ongoing basis looks for things that I do on a recurring basis and suggests turning them into skills." aria-label="回原文"></button>`。
+**第二，新[[技能|技能]]建议。** Claude 持续观察他反复做的事情，建议封装成技能。Daniel 很多技能就是这么来的——比如他在频繁做原型，系统就建议建一个「设计交接」技能 <button class="pd-ts" data-t="28:50" data-who="Daniel Bloom" data-en="Now this is a cool one. The second one, and this is skills that are worth building. So basically Claude on an ongoing basis looks for things that I do on a recurring basis and suggests turning them into skills." aria-label="回原文"></button>。
 
 **第三，摩擦点收集与修复。** 每个技能和[[循环任务|循环任务]]的文件里都内嵌了反馈收集机制。
 
-每次 Daniel 要求修正或表达不满，系统会自动记录。每周汇总出最大的摩擦点，建议改进方案。Claire 说这是她见过最聪明的做法之一——在技能里内置遥测，定期回顾 `<button class="pd-ts" data-t="29:33" data-who="Daniel Bloom" data-en="This is the second part. The third part is fixes to my existing setup. So basically all of my skills and recurring tasks have lines in their files to collect feedback and friction from my interaction with them." aria-label="回原文"></button>`。
+每次 Daniel 要求修正或表达不满，系统会自动记录。每周汇总出最大的摩擦点，建议改进方案。Claire 说这是她见过最聪明的做法之一——在技能里内置遥测，定期回顾 <button class="pd-ts" data-t="29:33" data-who="Daniel Bloom" data-en="This is the second part. The third part is fixes to my existing setup. So basically all of my skills and recurring tasks have lines in their files to collect feedback and friction from my interaction with them." aria-label="回原文"></button>。
 
 **第四，外部建议审计。** Daniel 面对的是无尽的 AI 使用技巧洪流——X、LinkedIn、博客。
 
 他建了一个叫「Improve」的技能，把看到的建议丢进一个 Slack 频道，让 Claude 审计：这是真的吗？强大吗？
 
-适合我现在的情况吗？还是只是炒作？两人一起决定要不要采纳 `<button class="pd-ts" data-t="30:09" data-who="Daniel Bloom" data-en="This is actually the improved skill. So basically, we're all dealing with an endless flood. I think this resonates with anybody." aria-label="回原文"></button>`。
+适合我现在的情况吗？还是只是炒作？两人一起决定要不要采纳 <button class="pd-ts" data-t="30:09" data-who="Daniel Bloom" data-en="This is actually the improved skill. So basically, we're all dealing with an endless flood. I think this resonates with anybody." aria-label="回原文"></button>。
 
 ## 扩展到团队：Workstation 插件
 
-Daniel 和同事把这套系统封装成了一个叫 [[Workstation|Workstation]] 的共享插件，面向公司所有人，不只是 PM `<button class="pd-ts" data-t="33:34" data-who="Daniel Bloom" data-en="For sure. So basically, I'll say that one of the main things that were important for us, and we were debating whether to do this with Claude Code, which was much more powerful, or with Cowork, and we decided on doing it with Cowork." aria-label="回原文"></button>`。
+Daniel 和同事把这套系统封装成了一个叫 [[Workstation|Workstation]] 的共享插件，面向公司所有人，不只是 PM <button class="pd-ts" data-t="33:34" data-who="Daniel Bloom" data-en="For sure. So basically, I'll say that one of the main things that were important for us, and we were debating whether to do this with Claude Code, which was much more powerful, or with Cowork, and we decided on doing it with Cowork." aria-label="回原文"></button>。
 
-关键决策是用 CoWork 而不是 Claude Code。他们试过让 PM 用 Claude Code 通过终端安装，三天都没搞定。Workstation 的核心是一个**内置在聊天流程中的引导式 UX**：点几个确认、回答几个问题，就自动连接好所有工具、确认角色、映射同事和管理层、读取日历和 Slack、帮你建立个人写作风格——从第一天起写出来的东西就像你本人，不像陌生人 `<button class="pd-ts" data-t="34:18" data-who="Daniel Bloom" data-en="We really insisted in the beginning on a good UX. And after having a few PMs try to do it with Claude Code through the terminal and taking three days to install everything and run all the dependencies, we understood that we need to do something that's simple." aria-label="回原文"></button>`。
+关键决策是用 CoWork 而不是 Claude Code。他们试过让 PM 用 Claude Code 通过终端安装，三天都没搞定。Workstation 的核心是一个**内置在聊天流程中的引导式 UX**：点几个确认、回答几个问题，就自动连接好所有工具、确认角色、映射同事和管理层、读取日历和 Slack、帮你建立个人写作风格——从第一天起写出来的东西就像你本人，不像陌生人 <button class="pd-ts" data-t="34:18" data-who="Daniel Bloom" data-en="We really insisted in the beginning on a good UX. And after having a few PMs try to do it with Claude Code through the terminal and taking three days to install everything and run all the dependencies, we understood that we need to do something that's simple." aria-label="回原文"></button>。
 
-Daniel 说这个想法来自一年前的教训：他做了一个写产品规格的 gem，自己用得很好，分发给其他 PM 时发现人家根本用不动——因为完全按他的工作方式调教的。从此他坚持内部工具也要做好 onboarding 体验 `<button class="pd-ts" data-t="36:33" data-who="Daniel Bloom" data-en="This is a plugin so everybody has it in our library and anybody can access it and you know now it's already like it's become quite a big thing like my colleagues have taken it to to the next level and it's really really impressive but yeah I couldn't agree with you more I think for me this this landed when" aria-label="回原文"></button>`。
+Daniel 说这个想法来自一年前的教训：他做了一个写产品规格的 gem，自己用得很好，分发给其他 PM 时发现人家根本用不动——因为完全按他的工作方式调教的。从此他坚持内部工具也要做好 onboarding 体验 <button class="pd-ts" data-t="36:33" data-who="Daniel Bloom" data-en="This is a plugin so everybody has it in our library and anybody can access it and you know now it's already like it's become quite a big thing like my colleagues have taken it to to the next level and it's really really impressive but yeah I couldn't agree with you more I think for me this this landed when" aria-label="回原文"></button>。
 
 ## 还缺什么
 
-Daniel 说他现在 70% 到 80% 的电脑前工作都通过 CoWork 完成。剩下的差距主要是两件事 `<button class="pd-ts" data-t="39:52" data-who="Daniel Bloom" data-en="Or kind of what's that gap and what's missing in terms of you being able to use AI or use Claude for everything? So it's a really, really good question. I think the missing piece, and my personal sense is that it's very close, is A, the ability to operate in the cloud, essentially, in a way that's unrelated to when my computer is open and running." aria-label="回原文"></button>`：
+Daniel 说他现在 70% 到 80% 的电脑前工作都通过 CoWork 完成。剩下的差距主要是两件事 <button class="pd-ts" data-t="39:52" data-who="Daniel Bloom" data-en="Or kind of what's that gap and what's missing in terms of you being able to use AI or use Claude for everything? So it's a really, really good question. I think the missing piece, and my personal sense is that it's very close, is A, the ability to operate in the cloud, essentially, in a way that's unrelated to when my computer is open and running." aria-label="回原文"></button>：
 
 一是**脱离电脑运行**的能力。他希望 Claude 能在云端自主执行任务，而不是必须他在线。他用 Slack 频道做了个变通——离线时往频道发消息，Claude 上线后读取——但这仍是需要在线触发的。
 

@@ -533,14 +533,19 @@ export function renderOrigRefs(md, transcript, meta) {
   // 不再带说话人(全成了裸 [mm:ss]),旧正则要求「时间+说话人」→ 一个都不匹配 → 正文 ↩ 全丢、
   // 退化成裸 [mm:ss] 文本(用户 2026-08-15 条6)。修:说话人段改可选(?)。
   // digest_md 是纯正文(金句署名在 quotes 字段、走独立渲染,不经这里),故裸 [mm:ss] 都是正文出处,可放心转。
-  return String(md).replace(/\[(\d{1,3}:\d{2})(?:\s+((?:[^[\]]|\[\[[^\]]*\]\])+?))?\]/g, (whole, t, who) => {
+  // ⚠️ GLM 有时把整个时间戳标记包进反引号当行内代码(`[02:45 Unknown]`)→ 换成按钮后反引号还在,
+  //    Quartz 会把 <button> 当行内代码渲成 <code> 文字(实测 2026-07-22-howiai / 2026-08-31-lennys 两页
+  //    整篇按钮变「乱码」)。用 (`?)…\1 只吃**对称包裹**的那一对反引号(`[..]` 或裸 [..]),
+  //    绝不误伤相邻的 `@browser` 等正常代码块(它们与时间戳之间有空格,匹配不到)。
+  return String(md).replace(/(`?)\[(\d{1,3}:\d{2})(?:\s+((?:[^[\]]|\[\[[^\]]*\]\])+?))?\]\1/g, (whole, tick, t, who) => {
     const en = originalAt(transcript, secOf(t));
     if (!en) {
       // 字面兜底(该时间点无原话可回、转不成按钮):占位说话人也要 → 嘉宾,别把 [mm:ss Unknown] 原样露出
       // (用户 2026-08-31;GLM 003 之外自查发现的第 3 处漏点)。真名/[[双链]] 保持原样,不破坏既有链接。
+      // 去掉被匹配吃进来的对称反引号(若有),保留裸标记 —— 否则 `[02:45 名]` 仍会渲成代码文字。
       const plainWho = plainText(who || "").trim();
       if (plainWho && PLACEHOLDER_SPEAKER_RE.test(plainWho)) return `[${t} 嘉宾]`;
-      return whole;
+      return whole.replace(/^`/, "").replace(/`$/, "");
     }
     return `<button class="pd-ts" data-t="${attrEscape(t)}" data-who="${attrEscape(displaySpeaker(plainText(who || "")))}" data-en="${attrEscape(en)}" aria-label="回原文"></button>`;
   });

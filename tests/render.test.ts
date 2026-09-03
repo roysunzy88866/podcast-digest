@@ -516,6 +516,35 @@ describe("C13d-1 · 回原文 ↩ 小圆点(设计稿 .ts / .orig)", () => {
     expect(renderOrigRefs("正文 [99:59 X]。", TRANSCRIPT, {} as any)).not.toContain("pd-ts");
   });
 
+  it("★★★ GLM 把出处整体包进反引号(`[03:53 X]`)→ 反引号一并吃掉,按钮不许变成行内代码(2026-09-02 两页整篇乱码根因)", () => {
+    const out = renderOrigRefs("特性之一 `[03:53 X]`。", TRANSCRIPT, {} as any);
+    expect(out).toContain('class="pd-ts"');
+    expect(out).not.toMatch(/`<button/);    // 按钮前不能残留反引号(否则 Quartz 渲成 <code> 文字)
+    expect(out).not.toMatch(/<\/button>`/); // 按钮后也不能
+    expect(out).not.toContain("`");          // 这句里唯一的反引号就是包出处的,应全部消失
+  });
+
+  it("★★★ 相邻的 `@browser` 正常行内代码不许被误伤(只吃对称包裹出处的那一对)", () => {
+    const out = renderOrigRefs("`@browser` 会弹出窗口，`@computer` 控制电脑 `[03:53 X]`。", TRANSCRIPT, {} as any);
+    expect(out).toContain("`@browser`");
+    expect(out).toContain("`@computer`");
+    expect(out).not.toMatch(/`<button/);
+    expect((out.match(/`/g) || []).length).toBe(4); // 只剩两个命令各自的一对反引号
+  });
+
+  it("★★ 反引号包裹但该时间点无原话(回退裸标记)→ 反引号也去掉,不渲成代码文字", () => {
+    const out = renderOrigRefs("正文 `[99:59 X]`。", TRANSCRIPT, {} as any);
+    expect(out).toContain("[99:59 X]");
+    expect(out).not.toContain("`");
+    expect(out).not.toContain("pd-ts");
+  });
+
+  it("★★ 单边反引号(非对称)不吃:前面代码块的收尾反引号完整保留,只换出处", () => {
+    const out = renderOrigRefs("`代码`[03:53 X]。", TRANSCRIPT, {} as any);
+    expect(out).toContain("`代码`");
+    expect(out).toContain('class="pd-ts"');
+  });
+
   it("★★ 出处里的说话人已被补成双链时也能收(data-who 取读文,不带双链语法)", () => {
     const out = renderOrigRefs("正文 [03:53 [[Lenny|Lenny]]]。", TRANSCRIPT, {} as any);
     expect(out).toContain('data-who="Lenny"');
