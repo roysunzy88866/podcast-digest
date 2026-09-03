@@ -375,6 +375,25 @@ export function bjDay(ts = Date.now()) {
 // 要改须用户拍板 —— 放宽即意味着站上会重新出现更早年份的集。
 export const BACKFILL_SINCE = "2026-01-01T00:00:00.000Z";
 
+// [standard-change: 用户 2026-09-03 拍板「补量最多 60 天」] 补历史新鲜窗口:在年份下限之上再收紧到「最近 N 天」。
+// 病根实证(2026-09-03):年份下限内未入库存货 515 集,但 30 天内仅 5 集 → 顶量凑 8 靠的一直是挖几个月前的老集
+//   (6 月的《Claude Fable 5 测评》被当成 9-3 的内容补进来,入库时已 86 天;8-25 起约 29 集上站时已超 30 天)。
+// 窗口内无候选 → 当天留空并响亮说明,**绝不拿更旧的顶量**(用户接受当天可能不足 DAILY_TARGET)。改 N 须用户拍板。
+/** env 覆盖只认非负整数:"0" = 关窗(退回只按年份下限);非整数/负数/空 → 默认 60(GLM 010[1])。 */
+export function parseMaxAgeDays(raw, fallback = 60) {
+  return /^\d+$/.test(String(raw ?? "").trim()) ? Number(raw) : fallback;
+}
+export const BACKFILL_MAX_AGE_DAYS = parseMaxAgeDays(process.env.BACKFILL_MAX_AGE_DAYS);
+
+/** 补历史候选下限 = max(年份下限 BACKFILL_SINCE, 今天 − maxAgeDays)。maxAgeDays 无效/0 → 退回只按年份下限(旧口径)。 */
+export function backfillFloorISO(todayISO, { sinceISO = BACKFILL_SINCE, maxAgeDays = BACKFILL_MAX_AGE_DAYS } = {}) {
+  if (!(maxAgeDays > 0)) return sinceISO;
+  const t = Date.parse(`${String(todayISO).slice(0, 10)}T00:00:00.000Z`);
+  if (!Number.isFinite(t)) return sinceISO;
+  const floor = new Date(t - maxAgeDays * 86400e3).toISOString();
+  return floor > sinceISO ? floor : sinceISO;
+}
+
 /** 补历史候选池:「不早于 sinceISO 且从未入库」的集,按日期降序(最新优先)。
  *  取代原 selectBackfillBackward 的「比库内该源最旧一集更旧」—— 那条策略每补一集边界就往回退一格,
  *  **必然越挖越老**(实测 Lenny's 已挖到 2025-07、Beyond Coding 挖到 2026-04),
@@ -431,8 +450,8 @@ export function selectBackfillGlobal(candidates, { n }) {
 export function backfillStockWarning(poolLeft, target, days = 3) {
   if (!(target > 0) || poolLeft > target * days) return null;
   const d = Math.floor(poolLeft / target);
-  return `::warning::补历史存量见底:${BACKFILL_SINCE.slice(0, 4)} 年起未入库候选仅剩 ${poolLeft} 集(按每日 ${target} 集约够 ${d} 天)。` +
-    `需用户拍板:放宽 BACKFILL_SINCE 年份 / 加新内容源 / 接受站上更新变少 —— 在此之前绝不自动改口径。`;
+  return `::warning::补历史存量见底:新鲜窗口(最多 ${BACKFILL_MAX_AGE_DAYS} 天)内未入库候选仅剩 ${poolLeft} 集(按每日 ${target} 集约够 ${d} 天)。` +
+    `需用户拍板:放宽 BACKFILL_MAX_AGE_DAYS / 加新内容源 / 接受站上更新变少 —— 在此之前绝不自动改口径。`;
 }
 
 /** 从候选池挑 n 集补:最新的 n*4 集里,有官方稿的先吃(C28b 便宜通道不降级)。
@@ -1225,10 +1244,10 @@ function revivePass(state, { onlyKey, dryRun }) {
  *  病根实证:C31 生效前那班按老策略补了 9 条 2025 老集,当天计数 10/8 直接顶满 →
  *  新规则上线第一天一条 2026 内容都没补,用户看到的仍是「今天又只有一条」。
  *  老集(过渡期遗留 / 人工补 / 将来任何原因)不许再占配额,把真正该补的新内容挡在门外。 */
-export function countsTowardDailyTarget(id, meta, todayISO) {
+export function countsTowardDailyTarget(id, meta, todayISO, floorISO = backfillFloorISO(todayISO).slice(0, 10)) {
   if (meta?.added !== todayISO) return false;
   const d = episodeDate(id, meta);
-  return d ? d >= BACKFILL_SINCE.slice(0, 10) : false; // 判不出日期 → 不算入(fail-closed,宁可多补一集)
+  return d ? d >= floorISO : false; // 判不出日期 → 不算入(fail-closed,宁可多补一集);floor 与选池同口径(W4)
 }
 
 /** 集发布日(YYYY-MM-DD):id 前缀优先(deriveId 对 21 个源实测都产 `YYYY-MM-DD-`),
@@ -1351,7 +1370,8 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
   let clean = 0;
   let skipped = 0;
   let remaining = need;
-  console.log(`\n▶ 每日顶量(ADR 0021):当天 ${have}/${target} → 需补 ${need} 集(倒序往回)`);
+  const floorISO = backfillFloorISO(todayISO);
+  console.log(`\n▶ 每日顶量(ADR 0021):当天 ${have}/${target} → 需补 ${need} 集(只补 ${floorISO.slice(0, 10)} 起、最多 ${BACKFILL_MAX_AGE_DAYS} 天内的)`);
   // [standard-change: 用户 2026-08-16「每天必须 5 集」] 顶量从「只补差额一批」改为「循环补到够 target」:
   //   补历史有一定闸门失败率,失败的(失真被隔离)不占目标额度 → 继续往回补,
   //   直到补够 target / 归档更旧候选耗尽 / 触及成本护栏(防坏归档区无限烧钱)。need=5 → 最多试 ~13 集。
@@ -1373,8 +1393,8 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
       poolUnknown += 1; // 该源存量今日盘不到 → 告警时注明,别拿残缺数字吓人(GLM 032[2])
       continue;
     }
-    // C31:候选池 = 该源「≥ BACKFILL_SINCE 且未入库」的集(不再按「比库内最旧更旧」往回挖)。
-    const pool = backfillCandidates(items, { sinceISO: BACKFILL_SINCE, existingIds: seen, source, libraryTitles: libTitles });
+    // C31:候选池 = 该源「≥ 下限且未入库」的集(不再按「比库内最旧更旧」往回挖);下限 = 新鲜窗口(W4,用户 2026-09-03)
+    const pool = backfillCandidates(items, { sinceISO: floorISO, existingIds: seen, source, libraryTitles: libTitles });
     poolLeft += pool.length; // 盘点走完全部源(GLM 032[1]:中途 break 会让存量被严重低估、天天误报见底)
     pool.forEach((item) => allCandidates.push({ item, source }));
   }
@@ -1394,8 +1414,12 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
   while (remaining > 0 && attempted < attemptCap) {
     const pool = allCandidates.filter((c) => !tried.has(deriveId(c.item, c.source)));
     const picks = selectBackfillGlobal(pool, { n: remaining });
-    if (!picks.length) break; // 全源都无 2026 未入库候选了
-    console.log(`   跨源挑 ${picks.length} 集(${BACKFILL_SINCE.slice(0, 10)} 以来未入库;累计试 ${attempted}/${attemptCap}):`);
+    if (!picks.length) {
+      // W4:窗口内没货就留空,绝不拿更旧的顶量(用户 2026-09-03 拍板「宁缺毋旧」)
+      console.log(`⚠️ 每日顶量:新鲜窗口(${floorISO.slice(0, 10)} 起,最多 ${BACKFILL_MAX_AGE_DAYS} 天)内已无未入库候选 → 今日留空 ${remaining} 集,不拿更旧的顶量。`);
+      break;
+    }
+    console.log(`   跨源挑 ${picks.length} 集(${floorISO.slice(0, 10)} 以来未入库;累计试 ${attempted}/${attemptCap}):`);
     picks.forEach((p) => console.log(`      - ${deriveId(p.item, p.source)}  (${p.item.pubDateISO})  ${p.item.title}`));
     if (dryRun) {
       console.log("      （--dry-run:仅列出,不真补)");
@@ -1416,7 +1440,7 @@ async function backfillTopUpPass(state, { target, dryRun, todayISO }) {
     // 两种「补不够」要分清(GLM 032[6]):护栏到了=本班没跑完(下班次继续),候选耗尽=池子真没了
     const why = attempted >= attemptCap
       ? `触及本班成本护栏 ${attemptCap} —— 池子还有 ${poolLeft} 集,下班次继续`
-      : `${BACKFILL_SINCE.slice(0, 4)} 年候选耗尽(池子 ${poolLeft} 集)`;
+      : `新鲜窗口(${floorISO.slice(0, 10)} 起,最多 ${BACKFILL_MAX_AGE_DAYS} 天)候选耗尽(池子 ${poolLeft} 集)`;
     console.log(`⚠️ 每日顶量:补完仍差 ${remaining} 集 —— ${why}。今日不足 ${target}。`);
   }
   // C31 验收线⑤:存量见底必须响亮说,绝不悄悄改补更早年份/悄悄空站(改口径要用户拍板)

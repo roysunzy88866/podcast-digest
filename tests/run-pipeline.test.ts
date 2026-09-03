@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -445,6 +445,41 @@ describe("selectBackfillRecent · C31 补历史只补 2026、最新优先(替代
   });
 });
 
+describe("backfillFloorISO · W4 补历史新鲜窗口([standard-change: 用户 2026-09-03 拍板「最多 60 天」])", () => {
+  it("★★★ 默认 60 天:floor = 今天 − 60 天(2026-09-03 → 2026-07-05);env 已设时常量随 env(GLM 010[2])", () => {
+    expect(BACKFILL_MAX_AGE_DAYS).toBe(parseMaxAgeDays(process.env.BACKFILL_MAX_AGE_DAYS));
+    expect(backfillFloorISO("2026-09-03", { maxAgeDays: 60 })).toBe("2026-07-05T00:00:00.000Z");
+  });
+  it("★★ env 解析:只认非负整数,\"0\" 真能关窗;小数/字母/负数/空 → 默认 60(GLM 010[1])", () => {
+    expect(parseMaxAgeDays("0")).toBe(0);
+    expect(parseMaxAgeDays("30")).toBe(30);
+    for (const bad of ["60.5", "abc", "-3", "", undefined]) expect(parseMaxAgeDays(bad)).toBe(60);
+    expect(backfillFloorISO("2026-09-03", { maxAgeDays: parseMaxAgeDays("0") })).toBe(BACKFILL_SINCE);
+  });
+  it("★★★ 不早于年份下限:年初时窗口会落到 2025 → 钉在 BACKFILL_SINCE", () => {
+    expect(backfillFloorISO("2026-01-20")).toBe(BACKFILL_SINCE);
+  });
+  it("★★ 窗口关掉(null/0)= 旧口径只按年份;坏日期不炸、回落年份下限", () => {
+    expect(backfillFloorISO("2026-09-03", { maxAgeDays: null })).toBe(BACKFILL_SINCE);
+    expect(backfillFloorISO("garbage")).toBe(BACKFILL_SINCE);
+  });
+  it("★★★ 复现真凶:用窗口 floor 喂 backfillCandidates,86 天前的 Fable 5 被滤掉、14 天内的保留", () => {
+    const items = [
+      { title: "Claude Fable 5 review", link: "https://x/p/fable5", pubDateISO: "2026-06-09T11:00:00.000Z", hasAudio: true },
+      { title: "Fresh interview", link: "https://x/p/fresh", pubDateISO: "2026-08-20T11:00:00.000Z", hasAudio: true },
+    ];
+    const src = SOURCES.find((s) => s.key === "howiai");
+    const picks = backfillCandidates(items, { sinceISO: backfillFloorISO("2026-09-03"), existingIds: [], source: src });
+    expect(picks.map((p) => p.title)).toEqual(["Fresh interview"]);
+  });
+  it("★★ 源码锚:顶量池与计数都走 backfillFloorISO(选池/计数同口径),池空时明说「不拿更旧的顶量」", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    expect(src).toMatch(/backfillCandidates\(items, \{ sinceISO: floorISO/);
+    expect(src).toMatch(/floorISO = backfillFloorISO\(todayISO\)\.slice\(0, 10\)/); // countsTowardDailyTarget 默认参
+    expect(src).toContain("不拿更旧的顶量");
+  });
+});
+
 describe("countsTowardDailyTarget · C31b 只算 2026 内容(老集不许占配额)", () => {
   const TODAY = "2026-08-19";
   it("★★★ 今天入库的 2026 集算(这才是用户要的产出)", () => {
@@ -454,9 +489,15 @@ describe("countsTowardDailyTarget · C31b 只算 2026 内容(老集不许占配�
     expect(countsTowardDailyTarget("2025-06-08-lennys-inside-mercado-libre", { added: TODAY }, TODAY)).toBe(false);
     expect(countsTowardDailyTarget("2025-12-31-lennys-x", { added: TODAY }, TODAY)).toBe(false);
   });
-  it("★★ 年份边界与 BACKFILL_SINCE 同源(2026-01-01 起算)", () => {
-    expect(countsTowardDailyTarget("2026-01-01-a16z-x", { added: TODAY }, TODAY)).toBe(true);
-    expect(countsTowardDailyTarget("2025-12-31-a16z-x", { added: TODAY }, TODAY)).toBe(false);
+  it("★★ 年份边界与 BACKFILL_SINCE 同源(显式传年份 floor;默认 floor 已是新鲜窗口,见下)", () => {
+    const yearFloor = BACKFILL_SINCE.slice(0, 10);
+    expect(countsTowardDailyTarget("2026-01-01-a16z-x", { added: TODAY }, TODAY, yearFloor)).toBe(true);
+    expect(countsTowardDailyTarget("2025-12-31-a16z-x", { added: TODAY }, TODAY, yearFloor)).toBe(false);
+  });
+  it("★★★ W4:默认 floor = 新鲜窗口 —— 今天入库的 86 天老集**不算入**配额(否则老集顶掉该补的新集)", () => {
+    const today = "2026-09-03";
+    expect(countsTowardDailyTarget("2026-06-09-howiai-claude-fable-5", { added: today }, today)).toBe(false); // 86 天
+    expect(countsTowardDailyTarget("2026-08-20-a16z-x", { added: today }, today)).toBe(true); // 14 天
   });
   it("★ 不是今天入库的一概不算(哪年的都一样)", () => {
     expect(countsTowardDailyTarget("2026-08-17-lennys-x", { added: "2026-08-18" }, TODAY)).toBe(false);
@@ -545,7 +586,7 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
     // GLM 014[1] 终止性:外层 skip 不吃 cap 后,靠「pool 过滤 tried + 池空 break」保证不死循环(每批必往 tried 加、pool 严格缩小)。
     // 三条都用 ^\s*…/m 行首锚(GLM 015[1]:与本文件防御风格一致 —— 注释掉这三行终止性代码也要红,不许子串假绿)。
     expect(src).toMatch(/^\s*const pool = allCandidates\.filter\(\(c\) => !tried\.has/m);
-    expect(src).toMatch(/^\s*if \(!picks\.length\) break;/m);
+    expect(src).toMatch(/^\s*if \(!picks\.length\) \{[\s\S]{0,500}?break;/m);
     expect(src).toMatch(/^\s*picks\.forEach\(\(p\) => tried\.add/m);
   });
   it("★★★ 本地已有转写稿就按「无需转写」估 —— 补活的集全都有稿,不看这条会把补活整个拒掉", () => {
