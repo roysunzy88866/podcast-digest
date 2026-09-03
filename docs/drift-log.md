@@ -146,3 +146,15 @@
 - **不动**:`scripts/feed-transcript.mjs` 的 transistor 纯文本稿解析器及其测试 —— rework/devtools 仍在用,workos 只是当年的 fixture 来源。
 - **仍待用户定**:`aia16z` 账本残留(源已于 drift #59 退役,cutoff 还在;源清单报告会持续点名)。
 
+## drift #81(2026-09-03 用户拍板):扩两源(newcomer / engenable)· 清 aia16z 残留 · SaaStr 实抓淘汰
+- **起因**:用户「还有新的源可以补吗?现在源本来就少」。本轮候选**全部 curl 实抓核过**(iTunes 解析 feed → 真取 → parseFeed 统计近 60 天产量/时长/自带稿),不靠推断。
+- **接入(用户选「先加 3 个便宜的」,实际只有 2 个合格)**:
+  - `newcomer` Newcomer Pod —— 近 60 天 5 集、中位 54 分、**184/204 集自带 SRT**(Spotify CDN)→ 走便宜通道单集≈45 分,几乎零听写成本。
+  - `engenable` Engineering Enablement (DX) —— 近 60 天 5 集、中位 41 分,AI 工程效能/企业案例。
+  - 两源**不进 BACKFILL_FEED_KEYS**:用户要「只往前抓、不回头挖旧集」。基线走云端 `--seed`(本机 node fetch 不走代理,抓不到 anchor.fm)。
+- **SaaStr 当场淘汰(用户原本选了它)**:近期集 enclosure 是 `video/mp4`、约 4.9GB、**无音频** → `isInterview` 必滤;最新音频集 2026-05-06 已在 60 天窗口外 → 加了等于零产出。已用测试钉住理由,免将来重查。
+- **同批查实为 0 产量、不要再提**:BG2Pod(最后 2026-06-11)· Exponential View(06-04)· NFX(04-01)· Logan Bartlett(2025-09-12,feed 还活着但节目停了,回答了 08-21 调研留的悬案)· Business Breakdowns(60 天 1 集且分析体非访谈)· Hard Fork(feed 只放 3 条,且多话题混播 = 品味档案 ❌ 聚合体裁)。
+- **备选未接(用户可随时点)**:Invest Like the Best(近 60 天 9 集、嘉宾档次最高,但中位 70 分 → 单集估 178 分,吃掉半个班次)· Modern CTO(近 60 天 18 集最多,但标题偏厂商味,判官预计毙掉不少)· OpenAI 官方(现在能抓到了,但 60 天仅 1 集)· The Generalist(60 天 2 集)。
+- **aia16z**:源已于 drift #59 退役(与 a16z 主源撞车),账本 cutoff 残留今日清掉(用户拍板)。
+- **口径**:以后加源一律先实抓核「近 60 天产量 / 单集时长 / 有无音频 enclosure / 自带稿」四项再报给用户 —— 光看名气会加进 SaaStr 这种零产出源。
+

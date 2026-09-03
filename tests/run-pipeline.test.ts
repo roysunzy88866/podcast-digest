@@ -191,6 +191,26 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
     expect(by.doac?.feedUrl).toContain("flightcast.com");
     expect(by.doac?.asr).toBe("whisperx");
   });
+  it("★★ 2026-09-03 扩两源(drift #81):newcomer/engenable 在源表、feedUrl 对、走 ASR 兜底;**不进补历史池**(用户要只往前抓)", () => {
+    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
+    expect(by.newcomer?.feedUrl).toContain("anchor.fm/s/ffef15f0");
+    expect(by.engenable?.feedUrl).toContain("anchor.fm/s/1116ee148");
+    for (const k of ["newcomer", "engenable"]) {
+      expect(by[k]?.asr).toBe("whisperx"); // 自带稿优先由 hasTimedFeedTranscript 决定,ASR 只是兜底
+      expect(BACKFILL_FEED_KEYS).not.toContain(k);
+    }
+  });
+  it("★★★ SaaStr 淘汰理由钉住(免重查):video/mp4 无音频 enclosure → isInterview 必滤", () => {
+    // 实测其近期集 enclosure type=video/mp4(约 5GB);isInterview 要求 hasAudio
+    expect(isInterview({ title: "SaaStr 876", pubDateISO: "2026-09-02T00:00:00.000Z", hasAudio: false })).toBe(false);
+    expect(isInterview({ title: "SaaStr 876", pubDateISO: "2026-09-02T00:00:00.000Z", hasAudio: true })).toBe(true);
+  });
+  it("★★ aia16z 账本残留已清(2026-09-03 用户拍板;源 drift #59 已退役)", () => {
+    const state = JSON.parse(readFileSync(new URL("../data/pipeline-state.json", import.meta.url), "utf8"));
+    expect(Object.keys(state.cutoffs ?? {}).length).toBeGreaterThan(10);
+    expect("aia16z" in state.cutoffs).toBe(false);
+    expect(SOURCES.some((s) => s.key === "aia16z")).toBe(false);
+  });
   it("★★ workos 已摘除(2026-09-03 用户拍板,drift #80):死源不在源表、不在补历史池、账本无残留 cutoff", () => {
     expect(SOURCES.some((s) => s.key === "workos")).toBe(false);
     expect(BACKFILL_FEED_KEYS).not.toContain("workos");

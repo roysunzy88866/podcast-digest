@@ -100,6 +100,13 @@ export const SOURCES = [
   // C36c · 2026-08-25 用户「再写两套解析器」:后两源稿格式已扩解析器,秒级直用;解析失败照旧回落 ASR。
   { key: "productpodcast", name: "The Product Podcast", feedUrl: "https://rss.buzzsprout.com/90361.rss", asr: "whisperx" }, // Product School 产品访谈,html 行末裸戳头(实测 44 段/集),周更约 30 分
   { key: "ainativedev", name: "The AI-Native Dev", feedUrl: "https://rss.buzzsprout.com/2375985.rss", asr: "whisperx" }, // AI 原生开发,buzzsprout 词级 JSON(实测 579 段/集),周更约 60 分
+  // 2026-09-03 用户拍板扩源(drift #81)。本轮候选全部 curl 实抓核过(iTunes 解析 feed → 真取 → parseFeed):
+  //   只收「近 60 天有产量 + 单集成本放得进一个班次」的。**两源都不进补历史池** —— 用户要「只往前抓」。
+  //   淘汰记录(免重查):SaaStr 近期集是 video/mp4(约 5GB、无音频 enclosure)→ isInterview 天然滤掉,
+  //   最新音频集 2026-05-06 已在 60 天窗口外;BG2Pod(最后 06-11)/Exponential View(06-04)/NFX(04-01)/
+  //   Logan Bartlett(2025-09-12,feed 活着但节目停了)全为 0 产量;Hard Fork feed 只放 3 条且是多话题混播体裁。
+  { key: "newcomer", name: "Newcomer Pod", feedUrl: "https://anchor.fm/s/ffef15f0/podcast/rss", asr: "whisperx" }, // Eric Newcomer;184/204 集自带 SRT(Spotify CDN)→ 走便宜通道单集≈45 分;近 60 天 5 集、中位 54 分
+  { key: "engenable", name: "Engineering Enablement (DX)", feedUrl: "https://anchor.fm/s/1116ee148/podcast/rss", asr: "whisperx" }, // AI 工程效能/企业案例;近 60 天 5 集、中位 41 分
   // C16 · 演讲精选通道(ADR 0017):无 feed、manual=只在显式 --talks/点名时跑(cron 零影响)。
   // 种子由本机 scripts/seed-talk.mjs 落 data/talks-seed/<videoId>/seed.json(音频经 Release asset 送云,
   // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。
