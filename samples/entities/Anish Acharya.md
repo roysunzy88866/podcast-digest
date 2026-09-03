@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jen Ka":1,"OpenAI":79,"Anthropic":92,"Salesforce":11,"Cursor":42,"GrokBot":2,"Town":2,"Decagon":3,"Replit":13,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Jen Ka":1,"OpenAI":79,"Anthropic":92,"Salesforce":11,"Cursor":41,"GrokBot":2,"Town":2,"Decagon":3,"Replit":13,"智能体":1}</script>
 
 <script>
 (function(){

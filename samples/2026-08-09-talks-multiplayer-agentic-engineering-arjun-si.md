@@ -130,7 +130,7 @@ Arjun 提到自己去年大量使用 [[Claude Code|Claude Code]] 时刚有了孩
 
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Claude Code、Slack · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|Ryan Carson：从手把手到放养，云端智能体管理术]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor · 同概念:智能体 (agent)</span>
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:开源权重模型 (open weight models)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

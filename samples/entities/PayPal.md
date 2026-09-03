@@ -7,31 +7,39 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PayPal</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PayPal">PA</div><div class="pi"><h1 class="pt">PayPal</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PayPal">PA</div><div class="pi"><h1 class="pt">PayPal</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(01:25起):本集说它是「PayPal 黑手党」的大本营，Peter Thiel 和 Max Levchin 在此调动了极高的人才密度，不仅让它成功，还孕育了后续一连串伟大公司。
 - **[[2026-07-09-yc-how-to-better-understand-your-users-e3ls|《点图：看透单个用户行为的可视化工具》]]**(06:41起):本集提到它刚发布时有欺诈问题，Max Levchin 团队建了一个可视化工具把所有交易画出来，让人盯着屏幕看，靠人脑一眼识别出异常模式
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(26:47起):本集顺带提到 Stripe 同时在谈收购 PayPal，说这是'巩固已有地盘的整合'，与收购 OpenRouter 打入新地盘是两步同时走的棋。
+- **[[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a|《信用卡是最好的用户界面——PayPal 元老与 Affirm CEO 聊支付 25 年》]]**(00:57起):本集回顾它的意外起点:Max 本想做低功耗芯片上的加密,发现快速加解密小量数据把你引向支付;它的重大创新是『完全不在乎匿名性』;人才辈出靠刻意筛选创业者加彼此见过对方压力下的真实底层版本。
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(52:29起):本集说与 Stripe 的收购交易告吹，传言一方出价 60 多、一方要 70 多，死了之前先别说它死。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a#^q13]]
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
 - [[2026-07-09-yc-how-to-better-understand-your-users-e3ls|《点图：看透单个用户行为的可视化工具》]] — 作为被讨论公司(提及)
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
+- [[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a|《信用卡是最好的用户界面——PayPal 元老与 Affirm CEO 聊支付 25 年》]] — 作为被讨论公司
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harry Stebbings]] · [[Cursor]] · [[Stripe]] · [[Anthropic]] · [[OpenAI]] · [[Salesforce]] · [[Cognition]] · [[智能体]] · [[Keith Rabois]] · [[点图]]
+[[智能体]] · [[Harry Stebbings]] · [[Cursor]] · [[Stripe]] · [[Anthropic]] · [[OpenAI]] · [[Salesforce]] · [[Cognition]] · [[Keith Rabois]] · [[点图]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":8,"Cursor":42,"Stripe":25,"Anthropic":92,"OpenAI":79,"Salesforce":11,"Cognition":14,"智能体":1,"Keith Rabois":1,"点图":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Harry Stebbings":8,"Cursor":41,"Stripe":25,"Anthropic":92,"OpenAI":79,"Salesforce":11,"Cognition":14,"Keith Rabois":1,"点图":1}</script>
 
 <script>
 (function(){

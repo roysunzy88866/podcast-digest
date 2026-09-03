@@ -10,14 +10,14 @@ description: Melio的PM Daniel Bloom展示了他在Claude CoWork上搭建的个�
 host: "[[Daniel Blum]]"
 cohosts: ["[[Claire Vo]]"]
 companies: ["[[Co-work]]", "[[Notion]]", "[[Whisper]]"]
-concepts: ["[[智能体]]", "[[技能]]", "[[上下文]]", "[[循环任务]]", "[[自我改进循环]]", "[[Workstation]]"]
+concepts: ["[[智能体]]", "[[技能]]", "[[上下文]]", "[[循环任务]]", "[[自改进循环]]", "[[Workstation]]"]
 category: 智能体
 tags:
   - 智能体
   - 产品方法
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin#post","headline":"一个PM用Claude CoWork建的自愈型工作系统","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin","mainEntityOfPage":"https://talk.solomind.cc/2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin","description":"Melio的PM Daniel Bloom展示了他在Claude CoWork上搭建的个人工作系统，能自动整理任务、识别不懂的术语主动追问，还会自我改进。","datePublished":"2026-09-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Daniel Blum"},{"@type":"Person","name":"Claire Vo"},{"@type":"Organization","name":"Co-work"},{"@type":"Organization","name":"Notion"},{"@type":"Organization","name":"Whisper"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"技能 (skill)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"循环任务 (scheduled task)"},{"@type":"Thing","name":"自我改进循环 (self-improvement loop)"},{"@type":"Thing","name":"Workstation"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"一个PM用Claude CoWork建的自愈型工作系统","item":"https://talk.solomind.cc/2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin#post","headline":"一个PM用Claude CoWork建的自愈型工作系统","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin","mainEntityOfPage":"https://talk.solomind.cc/2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin","description":"Melio的PM Daniel Bloom展示了他在Claude CoWork上搭建的个人工作系统，能自动整理任务、识别不懂的术语主动追问，还会自我改进。","datePublished":"2026-09-01","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Daniel Blum"},{"@type":"Person","name":"Claire Vo"},{"@type":"Organization","name":"Co-work"},{"@type":"Organization","name":"Notion"},{"@type":"Organization","name":"Whisper"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"技能 (skill)"},{"@type":"Thing","name":"上下文 (context)"},{"@type":"Thing","name":"循环任务 (scheduled task)"},{"@type":"Thing","name":"自改进循环 (self-improvement loop)"},{"@type":"Thing","name":"Workstation"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"一个PM用Claude CoWork建的自愈型工作系统","item":"https://talk.solomind.cc/2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一个PM用Claude CoWork建的自愈型工作系统</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Co-work]] · [[Notion]] · [[Whisper]]
 >
-> **概念** [[智能体]] · [[技能]] · [[上下文]] · [[循环任务]] · [[自我改进循环]] · [[Workstation]]
+> **概念** [[智能体]] · [[技能]] · [[上下文]] · [[循环任务]] · [[自改进循环]] · [[Workstation]]
 
 这一集是产品经理 Daniel Bloom 展示他基于 Claude CoWork 搭建的一套个人工作系统——它帮他管理日程、追踪任务、自动学习公司内部术语，而且能自我迭代。他说现在一天能干完以前一周的活。
 
@@ -139,9 +139,9 @@ Daniel 说他现在 70% 到 80% 的电脑前工作都通过 CoWork 完成。剩�
 
 **顺着「智能体」挖下去**
 
-- [[2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin|一个PM用Claude Co-work造出的自我进化工作系统]]<span class="pd-rz">同嘉宾:Claire Vo · 同公司:co-work、Notion、Whisper · 同概念:Workstation、上下文 (context)、技能 (skill)、智能体 (agent)、自改进循环 (self-improvement loop)、晨报 (morning brief)、每周准备 (weekly prep)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor、Slack · 同概念:上下文 (context)、智能体 (agent)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同嘉宾:Claire Vo · 同公司:Claude Code · 同概念:智能体 (agent)</span>
+- [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同公司:Cursor · 同概念:上下文 (context)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

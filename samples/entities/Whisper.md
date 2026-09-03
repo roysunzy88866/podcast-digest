@@ -7,12 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Whisper</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Whisper">WH</div><div class="pi"><h1 class="pt">Whisper</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Whisper">WH</div><div class="pi"><h1 class="pt">Whisper</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(00:55起):本集说 Whisper 是语音转文字产品，采用电商 UGC 模式做增长，Google Ads 是其最大获客渠道，Matt 在那里用 Claude Code 搭建了自动化营销操作系统
-- **[[2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude Co-work造出的自我进化工作系统》]]**(09:27起):本集说 Daniel 用 Whisper 做语音口述来批量注入上下文信息，但也吐槽它处理激动语气时转录效果不好
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(09:27起):本集说 Daniel 在前期手动喂上下文时大量使用 Whisper 口述，絮絮叨叨说一大堆就能把上下文高效注入系统
 
 ## ① 提到它的金句
@@ -23,19 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*2 集*
 
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司
-- [[2026-08-31-howiai-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude Co-work造出的自我进化工作系统》]] — 作为被讨论公司(提及)
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[ChatGPT]] · [[Daniel Blum]] · [[Claire Vo]] · [[Co-work]] · [[Notion]] · [[Slack]] · [[上下文]] · [[技能]]
+[[智能体]] · [[Claude Code]] · [[ChatGPT]] · [[Matt Swulinski]] · [[Daniel Blum]] · [[Harry Stebbings]] · [[Claire Vo]] · [[Superhuman]] · [[Co-work]] · [[Victor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":45,"ChatGPT":46,"Daniel Blum":2,"Claire Vo":4,"Co-work":4,"Notion":11,"Slack":23,"上下文":14,"技能":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":43,"ChatGPT":46,"Matt Swulinski":1,"Daniel Blum":1,"Harry Stebbings":8,"Claire Vo":3,"Superhuman":4,"Co-work":3,"Victor":2}</script>
 
 <script>
 (function(){

@@ -33,7 +33,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Claude]] · [[Codex]] · [[浏览器使用]] · [[计算机使用]] · [[智能体]] · [[MCP]] · [[ChatPRD]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":46,"Claude":46,"Codex":35,"浏览器使用":4,"计算机使用":6,"智能体":1,"MCP":24,"ChatPRD":3}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":46,"Claude":45,"Codex":34,"浏览器使用":4,"计算机使用":6,"智能体":1,"MCP":24,"ChatPRD":3}</script>
 
 <script>
 (function(){

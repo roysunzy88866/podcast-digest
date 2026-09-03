@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Apple":14,"ThoughtSpot":1,"设计":2,"设计信条":1,"软件作为一种媒介":1,"原始印记":1,"设计系统":5,"Figma":11}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Apple":14,"ThoughtSpot":1,"设计":2,"设计信条":1,"软件作为一种媒介":1,"原始印记":1,"设计系统":4,"Figma":11}</script>
 
 <script>
 (function(){

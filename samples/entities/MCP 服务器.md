@@ -33,7 +33,7 @@ unlisted: true
 
 [[Stephen Haney]] · [[Paper]] · [[Cursor]] · [[Claude Code]] · [[Figma]] · [[Conductor]] · [[智能体]] · [[代码即真相来源]] · [[策展式设计]] · [[HTML]]
 
-<script type="application/json" class="pd-epn">{"Stephen Haney":1,"Paper":1,"Cursor":42,"Claude Code":45,"Figma":11,"Conductor":1,"智能体":1,"代码即真相来源":1,"策展式设计":1,"HTML":1}</script>
+<script type="application/json" class="pd-epn">{"Stephen Haney":1,"Paper":1,"Cursor":41,"Claude Code":43,"Figma":11,"Conductor":1,"智能体":1,"代码即真相来源":1,"策展式设计":1,"HTML":1}</script>
 
 <script>
 (function(){

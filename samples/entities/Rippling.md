@@ -33,7 +33,7 @@ unlisted: true
 
 [[Matt MacInnis]] · [[Rory O'Driscoll]] · [[Lenny]] · [[Jason Lemkin]] · [[Amar]] · [[Harry Stebbings]] · [[Notion]] · [[Cursor]] · [[Apple]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Rory O'Driscoll":1,"Lenny":66,"Jason Lemkin":2,"Amar":1,"Harry Stebbings":8,"Notion":11,"Cursor":42,"Apple":14,"SpaceX":12}</script>
+<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Rory O'Driscoll":1,"Lenny":66,"Jason Lemkin":2,"Amar":1,"Harry Stebbings":8,"Notion":10,"Cursor":41,"Apple":14,"SpaceX":12}</script>
 
 <script>
 (function(){

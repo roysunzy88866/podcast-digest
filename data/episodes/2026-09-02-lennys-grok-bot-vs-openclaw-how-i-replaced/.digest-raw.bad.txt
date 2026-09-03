@@ -1,125 +1,131 @@
 ===标题===
-从 OpenClaw 全面迁到 GrokBot:一位创业者/妈妈的 30 个 AI 同事实操
+我杀掉了所有 OpenClaw,全面迁移到 GrokBot:一份可直接抄的智能体用法清单
 ===导语===
-ChatPRD 创始人 Claire 演示她把全部智能体工作流迁到 GrokBot 后的十几个实用 bot:幕僚长、家庭简报、PR 清理工、客服、砍订阅。
-===正文===
-这一期是《How I AI》主持人 Claire(ChatPRD 的创始人)的单人实操节目。她用了几周 GrokBot(她口中「来自 SpaceX AI 团队的新多智能体平台」，定位是可以交给实际工作的 AI 队友)之后，做了一个大动作：杀掉自己养了几个月的所有 OpenClaw,几乎完全迁到了 GrokBot 上——「Polly 是智能体同事的标杆，而我很遗憾地通知你们，我已经谋杀了 Polly」[08:43]。
+How I AI 主持人在用 GrokBot 几周后弃用所有 OpenClaw,逐一展示幕僚长、家庭、工程、省钱等六个实用 bot 用例与设计心得。
+===正文###
+这一集是 How I AI 的实操迷你集:主持人用几周 GrokBot(一个定位为「可以交付真正工作的 AI 队友」的多智能体平台)之后,宣布一个重磅结论——她已经把之前运行的所有 OpenClaw 全部杀掉,几乎完全迁移到了 GrokBot,现在任何时刻大约有 30 个 bot 在运行 [00:25][35:32]。
 
-## GrokBot 的三个关键原语
+> 【背景】转写稿称 GrokBot 出自「SpaceX AI 团队」;按上下文这很可能指 xAI(Grok 模型的开发公司)。Grok 是 xAI 的大模型,OpenClaw 是此前流行的开源个人智能体框架。
 
-**Bots(智能体)**：左侧栏可以定义一个个独立智能体，每个有自己的名字、范围和上下文。冷知识：用特定名字新建 bot,它会从名字推断自己的工作——她最早建的「Prody McProd」就知道自己是干产品的。她的心法是「bot 即同事、一项工作一个 bot」:「我喜欢雇佣我的 bot,就像我雇人一样，针对特定的工作、用特定的名字」[04:05]。
+## 三个基础概念:bot、插件、带电脑的 routines
+GrokBot 界面像 iMessage 加 Terminal。核心原语有三个。第一是 bot 本身:你可以定义独立的智能体、起名字、给职务,而且新建 bot 时,平台会**从名字推断它的职责**——她最早建的 bot 叫 Prody McProd,它就明白自己是做产品工作的。她的方法论是「bot 即同事、一个工作一个 bot」,像雇人一样雇 bot [02:15-04:10]。
 
-**插件**：技能加连接器的组合(Gmail、Calendar、Google Drive、GitHub、Slack 等)。她爱上 GrokBot 就是因为连接器体验好：很少需要手动进设置页，bot 会主动提示连接所需插件，走一遍 OAuth 就能用。杀手级功能是**每个插件可连多个账户**——她大约有 10 个邮箱全部连上，bot 能在之间切换；同时运营多家企业，连多个 Slack、多个 Linear 都帮了大忙。
+第二是插件(技能+连接器的组合)。这是她爱上 GrokBot 的地方:你很少要手动去设置页,bot 会主动提示你连它需要的插件,走一个简单的 OAuth 授权流程就能用。杀手级功能是**每个插件可连多个账号**——她约 10 个邮箱全都能连,bot 可在之间切换;作为经营多家企业的创业者,多 Slack、多 Gmail、多 Linear 的连接对她极有用 [04:14-05:58]。
 
-**计算机 + 例程**：每个 bot 有一台云端虚拟机，可以登录网站、装软件、本地跑 repo;因为跑在云端，手机上接续任务毫无压力。例程就是定时任务，让 bot 到点自己干活。
+第三,每个 bot 有一台云上虚拟机,可以登录网站、装软件、本地跑代码仓库;手机上用也能延续任务。再加上 routines(定时任务),bot 会按时替你干活 [06:03-06:45]。
 
-一个槽点要记住：**GrokBot 目前是单人游戏**——没法把一个 bot 拉进群聊让团队共用，这是 OpenClaw 等仍然赢的地方。上周刚上线了「分享 bot 模板」功能，但和两个人共聊一个 bot 不是一回事。
+唯一的大缺口:**GrokBot 还是单人模式,没法放进群聊**,这是 OpenClaw 等仍胜出的地方。最近上了「分享 bot 模板」,但和两个人共享同一个 bot 不是一回事 [07:01-07:37]。
 
-## Chief:幕僚长机器人
+## Chief:幕僚长 bot
+Chief 是通用型「维持生活秩序」bot:每小时扫一遍她的收件箱和日历(她有约 6 个收件箱、6 个 Slack),清掉不用看的邮件、保留未读,只在**高信号**事项上 ping 她——比如网站出现数据传输峰值时提醒她「值得看,但可以开完会再处理」。运行时间设在工作时间早 6 点到晚 9 点,一周七天,夜间不跑,免得别人习惯她半夜回消息 [09:04-09:52]。
 
-Chief(甚至没有名字，只有个敬礼 emoji)做最基础的幕僚长工作：**每小时扫一遍**她的收件箱和日历——她有约 6 个收件箱、6 个 Slack、好几个日历——不用看的邮件清掉，不用操心的保持未读，只在真正需要时 ping 她，而且信噪比很高。她按工作时间运行(早 6 点到晚 9 点、一周七天)，夜里不跑，「不想让人们习惯我半夜回复他们」[09:47]。外加晨间简报和周末预览。实测例子：网站出现数据传输峰值，bot 报告说「值得看一眼，但可以等开完会再看」[11:47]。
+她还让 Chief 通读她的历史邮件,提取出她的语气风格(简短、温暖、有趣、从不用破折号),用于低风险邮件代写。顺带吐槽:Grok 模型写作被调校得过于省 token,常把一句通顺的话压成三四个词,「太简短生硬,很难理解它是什么意思」,所以要专门训练语感 [09:58-11:06]。
 
-她还训练 Chief 模仿自己的语气——方法是让它去翻她全部历史邮件提炼文风(结论：「我的邮件简短、温暖、有趣，从来不用长破折号」[10:51])。低风险的代写邮件已经够用了。但她吐槽 Grok 模型「实在是个很糟糕的写手」[10:07]:被调校得过于简短省 token,有时直接回个「不」，把本来说得通的句子压成三四个词。
+踩过的坑:OpenClaw 有 heartbeat(心跳)机制、开箱即用更主动;GrokBot 里她得反复明确要求「把这个排进日程」——**什么时候跑 routine 要自己管、说明确** [11:55-12:36]。
 
-**一个坑**：例程主动性不如 OpenClaw。OpenClaw 有心跳功能、开箱更主动(虽然难维护)；Chief 得反复叮嘱「把这个排上日程」「我让你盯着邮件的」。想要例程就得自己明确指定时间，好在设置页里看得见。
+## Tradbot:家庭 bot
+她家三个男孩加一个宝宝、今年报了约 80 种课外活动,Tradbot 负责三件事 [12:48-18:30]:
 
-## TradBot:家庭智能体
+- **餐桌报纸**:每天把当日要点、每个孩子的作业提醒、周末安排打印出来放餐桌上。一次它提醒「中间的孩子周三交数学作业」,虎妈如她都没记住——「不在电脑上、不在邮件里,是打印出来的」,这是关键设计:她的家庭 bot 理念就是**让她更容易离开电脑去陪孩子**。还有「适合孩子的新闻话题」栏目(宝可梦世界冠军赛、NASA 望远镜发射),当餐桌谈资。
+- **接娃协调**:每天下午 2:30 接娃前启动,问清谁来接、柔术道服带没带、足球零食买了没、钢琴和棒球时间冲不冲突。
+- **周五周末前瞻**:孩子三项运动横跨全城,一个要在 Marina、一个要在 Woodside,它汇总谁几点去哪、谁轮空、谁拼车。
 
-她有三个男孩加一个婴儿，今年报了「80 项不同的运动」。家庭 bot 的设计目标她一句话说清：「我希望智能体能让我非常轻松地离开电脑去陪伴我的孩子们」[13:33]。三个例程：
+另偷学了丈夫一招:用「发送到 Kindle」邮箱地址把这类通讯推到 Kindle 上读——离开手机还能看摘要 [16:33-16:56]。
 
-- **餐桌报纸**：每天早上打印出来放在餐桌上，有日程、天气(旧金山永远 55 到 62 度，「总要穿一件薄外套」)、每个孩子的作业提醒和周末安排、父母任务，还有「适合孩子的新闻话题」——宝可梦世界冠军赛在旧金山办、NASA 望远镜本周升空，全变成早餐桌上的聊天素材。真实战绩：某天简报提醒「中间的孩子周三有数学作业要交」，而这件事压根不在她脑子里。
-- **下午 2 点半接娃协调**：每天接孩子前启动，问清楚今天谁接、柔术道服带了吗、足球零食带了吗、钢琴和棒球有没有时间冲突。
-- **周五周末预览**：三个运动项目横跨全城，一个孩子在 Marina、另一个在 Woodside,谁去哪、什么时候拼车，一页说清。
+## 两个工程 bot
+**Look Good To Me(PR 关闭器)**:她天天开 PR 但不爱审,PR 堆积。这个 bot 每天过一遍她的 PR,判断哪些该合并、该关、该 rebase,回复评论、发 Slack,「基本上就像一个烦人的工程经理」推动 PR 管道。亮点是 GrokBot 能**启动 Cursor 云端智能体编码任务**,让 rebase 之类的活儿直接由 Cursor 干。周五它一次清完了压在她身上约 50 个待审 PR [20:02-22:03]。
 
-小技巧：可以把 newsletter 用「发送到 Kindle 的邮箱地址」推上 Kindle 读——离开手机和电脑还能读到摘要。TradBot 已作为模板公开，链接在 show notes。
+**Lockdown(SOC 2 控制 bot)**:小团队每天要确认合规仪表板上所有监控项是绿的。这个 bot 实际登录那个仪表板,逐项检查,发现新漏洞就分诊、提交 PR、再请她审查批准;也管运营类控制项(比如账户审计、承包商退场清单)。她的总结很有味道:「我们可以让 AI 去干活,也可以让 AI 以更有效的方式让我们去干活」——像实习生时不时拍肩膀提醒你「明天是账户审查日」 [22:11-23:52]。
 
-## 工程用例：让代码流水线自己动
+## Holly Helpdesk:客服 bot
+把 ChatPRD 的客服智能体从 OpenClaw 迁过来后,质量让她非常惊艳:每小时扫 Intercom 和邮件收件箱,按支持行动手册处理退款和技术支持,有 bug 时有权用 Cursor 云端智能体修,还可以**向她申请退款**——通过 Stripe 的「智能体操作」审批流,每笔退款弹一个按钮,她明确批准后 bot 才在 Stripe 里执行 [24:00-25:47]。
 
-**Look Good To Me(PR 关闭器)**：她的 PR 一个接一个堆着，「提交 PR 比审查 PR 有趣得多」[20:22],而 SOC 2 合规又要求必须审查。这个 bot 每天过一遍她的 PR:哪些该合并、该关闭、该 rebase,回复评论、发 Slack,「基本上就像一个烦人的工程经理」[20:49],推着 PR 流水线走。亮点是 **GrokBot 可以启动 Cursor 云端编码任务**——rebase 和评论反馈直接派给 Cursor 做。上线后一个周五就清掉了积压的约 50 个 PR。
+Holly 还每周回顾七天工单,把该补的内容加进支持手册或文档,让更多问题可自助;甚至被授权管理 ChatPRD 社区 Slack,回复问题、发起社区互动——发的消息会标注「用 Cursor 发送」,因为她本人没发。这让她不用面对空白页就能参与社区 [25:47-26:55]。
 
-**Lockdown(SOC 2 控制机器人)**：小团队每天要人工巡检合规仪表盘、确认监控全绿、漏洞在关闭。这个 bot 直接登录仪表盘浏览所有控制项，发现新漏洞就分诊、发 PR 再请她审查批准；人员类运营控制(如账户审计、承包商离职清单)也会提醒。她的总结很精辟：「我们可以让 AI 去干活，或者我们可以让 AI 以更有效的方式让我们去干活」[23:23]——这就像有个实习生时不时拍你肩膀：「别忘了，明天是账户审查日」。
+## 好玩的个人 bot
+- **Penny Pinscher(抠钱 bot)**:翻邮箱收据,找出该取消的订阅(孩子长大了还在付费的 Apple 游戏)、可议价的续费项(几个月后续保的房屋保险,让它找市场费率回去跟代理谈判)、快到期的试用(Apple Creator Studio 十一月到期,提前提醒)。还发现她几个月没兑换 Audible 点数,替她暂停了 90 天 [27:14-28:37]。
+- **买手表实验**:她让它去买一块出生年份的 Rolex,它真的进了市场、找到非标准尺寸、对比市价、找出可议价的并**开始替她砍价**——虽然她最后承认自己太图省事,继续戴 Apple Watch [28:41-29:34]。
+- **Shopzilla(代购 bot)**:给它「30 英寸宽、15 英寸深」的书架需求,它用浏览器找出一堆全部符合尺寸、她自己搜不到的选项 [29:37-30:07]。
+- **Sylvie Style(穿搭 bot)**:她把 Pinterest 憧憬画板设为公开交给它,它登录梳理出她的风格视觉语言,还去 Reddit 研究职业造型师怎么搭衣橱,最后产出她自己的风格画板(优先单品:送娃上学穿的基础款运动裤、升级版职场装、图案 T 恤和首饰)。再配一条 routine:每天早 8 点扫各零售商促销,发来约 10 条符合她风格的打折单品链接 [30:16-32:53]。
 
-**Holly Helpdesk(客服智能体)**：从 OpenClaw 迁来的 ChatPRD 客服，每小时扫 Intercom 和邮箱，按支持手册处理退款和技术支持，有 bug 还能用 Cursor 云端智能体修。她特别喜欢**审批流**：每笔退款弹一个按钮问她「要不要退」，Stripe 里以「智能体操作」的形式让她明确批准后才会执行。Holly 还每周回看七天数据，把常见问题沉淀进支持手册和文档，让支持尽量自助化；甚至接管了她一直疏于打理的 ChatPRD 社区 Slack,回复问题、发起互动(消息末尾会标注「用 Cursor 发送，因为我没发这条」)。
+## 彩蛋:如何「处决」你的 OpenClaw
+迁移方法:她有一个叫 the lifeguard 的救援 bot,唯一任务就是管理其他 bot。她让它把整个智能体配置(crons、智能体身份、规则等)打包成一个**不含机密信息**的 zip,然后把子文件夹直接上传到 GrokBot——「有点像大脑移植」,个性、任务、连接器全部带过来。最后对 lifeguard 说一句「杀掉 Sam」,旧智能体就下线了 [33:05-34:37]。
 
-## 个人趣味 bot
-
-- **Penny Pinscher(省钱)**：翻收据找该取消的订阅——找到了孩子长大不再玩的 Apple 游戏；更重要的是**预告式提醒**：房屋保险几个月后续订，它先去找市场费率备着谈价；Apple Creator Studio 试用 11 月到期前会提醒；Audible 几个月没兑换点数，先暂停 90 天再说。「我怀有听 Audible 的愿望。我不会去听 Audible 的，但它会提醒我」[28:25]。
-- **买表**：她让它去找「出生年份的劳力士」，它真进了市场、找到非标准尺寸、对照市价、锁定可议价的开始替她砍价——最后她承认「我这个人太不讲究了，不会去买这块表」[29:20],继续戴 Apple Watch。
-- **Shopzilla(代购)**：给一个「30 英寸宽、15 英寸深」的冷门书架需求，它用浏览器搜遍全网，找到一堆符合尺寸、她自己根本搜不到的选项。
-- **Sylvie Style(穿搭)**：刚生完孩子、只缺腰部以上的酷衣服(播客主持人)。她把 Pinterest 愿望板设为公开喂给它，让它去 Reddit 研究私人造型师的方法论，然后建出她自己的风格板：基本款运动裤(送孩子上学用)、提升档次的职场装、图案 T 恤和首饰。每天早 8 点扫各大零售商的促销，发来约 10 件「符合我想买的、而且真的在打折」的单品链接。
-
-## 怎么从 OpenClaw 迁移过来
-
-她有个叫 lifeguard 的救援 bot,唯一工作是管理其他 bot。迁移时让它「把我的整套智能体设置导出成一个不含密钥的包：cron 任务、智能体身份、规则」[33:29],得到一个 zip 文件，再把子文件夹直接上传到 GrokBot——「有点像做了个大脑移植」，个性、任务、连接器全迁过来。下线时更简单：「干掉 Sam」,lifeguard 抽走所有 cron 和网关配置，旧智能体就睡了。
-
-最后的感悟一句话：**UX matters,它就是重要**[34:44]。她是重度技术用户(SSH 进 Mac Mini、跑监控、养救援 bot),仍觉得 OpenClaw 维护「太难了」；而 GrokBot 做到了「简单、一切都能用、开箱即用、完成度 90%」的同事智能体。现在她随时有约 30 个 bot 在运行。
+一切体验完,她的结论只有一句话:**UX 很重要**。她是技术很强的人,SSH 进 Mac Mini、跑着各种工具维护 OpenClaw,但「还是太难了」。GrokBot 赢在一个简单、开箱即用、90% 好用的同事型智能体,让她敢放手让 30 个 bot 同时跑 [34:44-35:35]。
 
 ## 本集带走
-
-- **bot 即同事，一项工作一个 bot**:用具体名字创建智能体，它会从名字推断职责；按雇人的思路给它明确范围、上下文和例程。
-- **例程要显式排期**：GrokBot 开箱主动性不如 OpenClaw,想让它定时干活得自己明确说「每天 X 点做 Y」,并去设置页确认。
-- **多账户连接器是创业者杀手锏**：每个插件连多个邮箱/Slack/Linear,bot 自动切换——同时跑多业务的人收益最大。
-- **家庭 bot 的正确目标**：不是把你按在屏幕前，而是产出一张打印的餐桌报纸和一条接娃前的协调消息，帮你离开电脑。
-- **合规巡检交给 bot、决策留给人**：bot 登仪表盘巡检、分诊漏洞、发 PR,审批以按钮和 Stripe「智能体操作」形式回到你手里。
-- **迁移套路可复用**：用一个「救援 bot」导出全套不含密钥的配置(cron、身份、规则)，上传到新平台即完成「大脑移植」。
+- **bot 起名法**:给每个 bot 起具体名字、派具体职务,平台会从名字推断职责;「一个工作一个 bot」像雇人一样雇。
+- **代写前先训练语感**:让 bot 通读你的历史邮件提取写作风格,再让它处理低风险邮件;Grok 输出过于简短,要专门调。
+- **routine 要明说**:GrokBot 不像 OpenClaw 的心跳那样主动,什么时间跑什么任务要明确写进设置。
+- **重要事项落到纸上**:家庭日报打印放餐桌、推送 Kindle——离开屏幕的信息才真的会被看到。
+- **审批流是放权关键**:退款、改代码这类敏感操作,用按钮式审批(如 Stripe 智能体操作)让 bot 干活、你把关。
+- **迁移打包**:用管理型 bot 把旧智能体的 crons、身份、规则导出为无密钥的 zip,直接上传新平台即可完成「大脑移植」。
 ===金句===
-08:43 | SPEAKER_00
-Polly is the bar for agentic coworker. And I regret to inform you, I have murdered Polly.
-ZH | Polly 就是智能体同事的标杆。而我很遗憾地通知你们，我已经谋杀了 Polly。
+00:25 | SPEAKER_00
+EN | I have killed all my open claws and moved almost entirely to GrokBot.
+ZH | 我已经杀掉了我所有的 OpenClaw,几乎完全迁移到了 GrokBot。
+
+04:05 | SPEAKER_00
+EN | I like to hire my bots like I hire people for specific jobs and with specific names.
+ZH | 我喜欢像雇人一样雇我的 bot——为特定的工作、起特定的名字。
+
+07:15 | SPEAKER_00
+EN | And I want a GrokBot. In the group chat, once you get addicted to the bot, you want to share this with other people.
+ZH | 我想要一个 GrokBot 放进群聊。一旦你对这个 bot 上瘾,你就会想把它分享给其他人。
 
 10:07 | SPEAKER_00
-I will say the Grok model sniffs of Claude in that it's just really a terrible writer.
-ZH | 我得说，Grok 模型有股 Claude 的味道，因为它实在是个很糟糕的写手。
+EN | I will say the Grok model sniffs of Claude in that it's just really a terrible writer.
+ZH | 我得说,Grok 模型有一股 Claude 的味道,因为它实在是个很糟糕的写手。
+
+10:35 | SPEAKER_00
+EN | It's too clipped and short and it's hard to understand what it means.
+ZH | 它太简短生硬了,很难理解它是什么意思。
 
 13:33 | SPEAKER_00
-I want the agent to make it really easy for me to spend time with my kids off a computer.
-ZH | 我希望智能体能让我非常轻松地离开电脑去陪伴我的孩子们。
+EN | I want the agent to make it really easy for me to spend time with my kids off a computer.
+ZH | 我希望智能体能让我非常轻松地离开电脑去陪伴我的孩子。
 
-20:49 | SPEAKER_00
-and does all the things to just basically be like an annoying engineer manager.
-ZH | 并做所有这些事情，基本上就像一个烦人的工程经理。
+15:19 | SPEAKER_00
+EN | I'm a tiger mom. I'm on top of my kids' homework.
+ZH | 我是一个虎妈,我一直紧盯着孩子们的作业。
+
+16:41 | SPEAKER_00
+EN | I think it's such a genius idea, again, to get off a laptop, get away from your phone, but still read the news that you care about or have a summary.
+ZH | 我觉得这真是个天才的主意——离开笔记本电脑、远离手机,但还是能读到你关心的新闻或拿到摘要。
+
+20:53 | SPEAKER_00
+EN | And does all the things to just basically be like an annoying engineer manager. To keep things moving along in the PR pipeline.
+ZH | 并做所有这些事,基本上就像一个烦人的工程经理,来让 PR 管道里的事情持续推进。
 
 23:23 | SPEAKER_00
-we can put AI to work or we can have AI put us to work in a more effective way.
-ZH | 我们可以让 AI 去干活，或者我们可以让 AI 以更有效的方式让我们去干活。
+EN | We can put AI to work or we can have AI put us to work in a more effective way.
+ZH | 我们可以让 AI 去干活,或者我们可以让 AI 以更有效的方式让我们去干活。
 
-28:25 | SPEAKER_00
-I'm not going to listen to Audible, but it's going to remind me.
-ZH | 我不会去听 Audible 的，但它会提醒我。
+23:39 | SPEAKER_00
+EN | It's just like having an intern who taps me on the shoulder every now and then and says, don't forget, tomorrow is...
+ZH | 这就像有一个实习生时不时拍拍我的肩膀说:别忘了,明天是……
 
-29:22 | SPEAKER_00
-So I will be staying with my Apple Watch.
-ZH | 所以我会继续用我的 Apple Watch。
+26:39 | SPEAKER_00
+EN | And it says sent using cursor because I did not send this. Holly sent this.
+ZH | 上面写着「用 Cursor 发送」,因为这条并不是我发的,是 Holly 发的。
 
-34:44 | SPEAKER_00
-UX matters. It just does.
-ZH | UX 很重要。它就是重要。
-
-35:13 | SPEAKER_00
-And it was just too hard. And so I think that SpaceX AI team really nailing a simple, everything works, out of the box, 90%.
-ZH | 但它还是太难了。所以我觉得 SpaceX AI 团队真是做了一个简单的、一切都能用、开箱即用、完成度 90% 的东西。
-
-15:20 | SPEAKER_00
-I'm a tiger mom. I'm on top of my kids' homework.
-ZH | 我是个虎妈。我对孩子的作业盯得很紧。
-
-04:10 | SPEAKER_00
-And that is the kind of fundamental way that GrokBot works.
-ZH | 这基本上就是 GrokBot 运作的根本方式。
-
-09:47 | SPEAKER_00
-I don't want people to get used to me responding to them overnight, but we'll see.
-ZH | 我不想让人们习惯我半夜回复他们，不过到时候再看。
-
-11:47 | SPEAKER_00
-But It said it's worth looking at, but you can wait till after your meeting.
-ZH | 但它说这值得看一眼，不过你可以等到开完会再看。
-
-26:42 | SPEAKER_00
-Holly sent this.
-ZH | 是 Holly 发的。
+29:20 | SPEAKER_00
+EN | I'm just I'm too low maintenance to buy this watch. So I will be staying with my Apple Watch.
+ZH | 我这人太图省事了,买不了这块表,所以我会继续用我的 Apple Watch。
 
 31:48 | SPEAKER_00
-I just don't have confidence that I'm buying the right things, that they're going to all go together, that it's worth the time.
-ZH | 我就是没有信心觉得自己买的是对的东西，不确定它们都能搭到一起，不确定这值得花时间。
+EN | I just don't have confidence that I'm buying the right things, that they're going to all go together, that it's worth the time.
+ZH | 我就是没有信心——不相信自己买的东西是对的,不相信它们都能搭配在一起,不相信这值得花时间。
+
+33:59 | SPEAKER_00
+EN | And it kind of like did brain transplant. It pulled over their personalities, pulled over their tasks, pulled over their connectors.
+ZH | 这有点像是做了大脑移植——它把它们的个性迁移了过来,把它们的任务迁移了过来,把它们的连接器迁移了过来。
+
+34:44 | SPEAKER_00
+EN | Now, what do I have to say having gone through this? UX matters. It just does.
+ZH | 经历了这一切之后,我有什么想说的呢?UX 很重要。它就是很重要。
+
+35:15 | SPEAKER_00
+EN | And so I think that SpaceX AI team really nailing a simple, everything works, out of the box, 90%. Coworker agent has really just solved a lot of my problems and I have let these agent rip.
+ZH | 所以我觉得 SpaceX AI 团队真正做到了一个简单的、一切都能用、开箱即用、90% 好用的同事型智能体,这真的解决了我的很多问题,我也让这些智能体放开了干。
 ===END===

@@ -55,7 +55,7 @@
   "cutoffs": {
     "lennys": "2026-08-31T12:04:18.000Z",
     "pg": "2026-08-28T22:38:13.000Z",
-    "a16z": "2026-09-02T10:00:00.000Z",
+    "a16z": "2026-09-03T10:00:00.000Z",
     "yc": "2026-08-29T13:00:00.000Z",
     "mad": "2026-08-27T14:22:21.000Z",
     "trainingdata": "2026-09-01T09:00:00.000Z",
@@ -597,6 +597,18 @@
       "reason": "人工下架:跨源重复(How I AI 的集经 Lenny's feed 分发,Lenny's 版为正典且先入库;新集路径查重未落地所致,已修;用户 2026-09-03 报)",
       "title": "2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here",
       "pubDate": ""
+    },
+    {
+      "id": "2026-08-22-cogrev-ai-in-the-am-weekly-highlights-relaunch",
+      "reason": "超长集:估 337 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "AI in the AM — Weekly Highlights: Relaunch Week (Aug 17–20, 2026)",
+      "pubDate": "2026-08-22T14:22:00.000Z"
     }
-  ]
+  ],
+  "transient": {
+    "2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced": 1,
+    "2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce": 1,
+    "2026-09-03-practicalai-less-about-models-more-about-architectur": 2,
+    "2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l": 1
+  }
 }

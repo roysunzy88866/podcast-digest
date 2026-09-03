@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Sunil Pai]] · [[Claire Vo]] · [[Thomas Ankcorn]] · [[Eddie Kim]] · [[Matt Carey]] · [[Gusto]] · [[Cloudflare]] · [[联合创始人]] · [[code mode]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Sunil Pai":1,"Claire Vo":4,"Thomas Ankcorn":1,"Eddie Kim":1,"Matt Carey":1,"Gusto":1,"Cloudflare":9,"联合创始人":2,"code mode":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Sunil Pai":1,"Claire Vo":3,"Thomas Ankcorn":1,"Eddie Kim":1,"Matt Carey":1,"Gusto":1,"Cloudflare":9,"联合创始人":2,"code mode":2}</script>
 
 <script>
 (function(){

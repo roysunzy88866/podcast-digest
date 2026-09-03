@@ -27,7 +27,7 @@ unlisted: true
 
 [[Cursor]] · [[智能体]] · [[Origin]] · [[Anish Acharya]] · [[Grok 4.6]] · [[Jen Ka]] · [[GitHub]] · [[OpenAI]] · [[MCP]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Cursor":42,"智能体":1,"Origin":1,"Anish Acharya":1,"Grok 4.6":1,"Jen Ka":1,"GitHub":20,"OpenAI":79,"MCP":24,"Anthropic":92}</script>
+<script type="application/json" class="pd-epn">{"Cursor":41,"智能体":1,"Origin":1,"Anish Acharya":1,"Grok 4.6":1,"Jen Ka":1,"GitHub":20,"OpenAI":79,"MCP":24,"Anthropic":92}</script>
 
 <script>
 (function(){

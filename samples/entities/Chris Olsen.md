@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Anish Acharya]]
+[[Max Levchin]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":1,"Sequoia":4,"Path Robotics":1,"LLM":22,"云计算":1,"真空":1,"主题化投资":1,"投资组合构建":1,"产品市场契合":13,"第一性原理":4}</script>
+<script type="application/json" class="pd-epn">{"Turner":1,"Sequoia":4,"Path Robotics":1,"LLM":22,"云计算":1,"真空":1,"主题化投资":1,"投资组合构建":1,"产品市场契合":12,"第一性原理":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1256 @@
+{
+  "episode_id": "2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a",
+  "podcast": "The a16z Show",
+  "date": "2026-09-03",
+  "tags": [
+    "支付",
+    "Affirm",
+    "消费金融",
+    "PayPal",
+    "智能体商务"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "alex-rampell",
+      "type": "person",
+      "role": "host",
+      "name": "Alex Rampell",
+      "file": "Alex Rampell",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            71.27,
+            83.813
+          ],
+          "quote": "In this episode, I sit down with A16z General Partner Alex Rampell and Affirm co-founder and CEO Max Levchin to look back at how payments evolved over the last 25 years and where the next major shifts may come from.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "max-levchin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Max Levchin",
+      "file": "Max Levchin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            71.27,
+            83.813
+          ],
+          "quote": "In this episode, I sit down with A16z General Partner Alex Rampell and Affirm co-founder and CEO Max Levchin to look back at how payments evolved over the last 25 years and where the next major shifts may come from.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "affirm",
+      "type": "company",
+      "role": "company",
+      "name": "Affirm",
+      "file": "Affirm",
+      "primary": true,
+      "how_described": "本集主线公司:Max 与 Alex 创办的分期贷款公司,从『用身份支付』的演示起步,靠把分期提示挪到漏斗前端使转化率涨 30%,坚持『实在的零上永远没有星号』(不收滞纳金、不做递延利息),并拥有负的客户获取成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            71.27,
+            83.813
+          ],
+          "quote": "In this episode, I sit down with A16z General Partner Alex Rampell and Affirm co-founder and CEO Max Levchin to look back at how payments evolved over the last 25 years and where the next major shifts may come from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            84.533,
+            98.177
+          ],
+          "quote": "They revisit the early days of PayPal and the origins of Affirm, including the pajama problem, the first experiments with paying using identity, and the moment the team realized financing wasn't just another checkout option, but a way to materially change conversion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            473.822,
+            478.985
+          ],
+          "quote": "But I was trying to find the original email between the two of us where we start mentioning what becomes Affirm eventually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1061.275,
+            1070.464
+          ],
+          "quote": "I want you to take us both back to memory lane as to the beginning of Affirm and how you guys navigated the idea maze of what would eventually become Affirm.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1867.244,
+            1872.307
+          ],
+          "quote": "So I remember interviewing him in the context of Affirm, although I think at the time it was still Expedite.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2100.858,
+            2104.781
+          ],
+          "quote": "She would email me screenshots of her dashboards and say, this is the Affirm effect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2435.511,
+            2441.132
+          ],
+          "quote": "No interest at all, powered by Affirm, of course, is like a small price to pay and a cool marketing campaign.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2441.232,
+            2458.076
+          ],
+          "quote": "And so there were multiple events like this in Affirm's history where we saw an opportunity for the merchant to significantly contribute to the MDR, which allowed us to eliminate the APR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2559.9,
+            2566.342
+          ],
+          "quote": "Because fast forwarding a bit, a lot of people hear Affirm today and one quick thing they think is buy now, pay later.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2571.764,
+            2576.726
+          ],
+          "quote": "One of the things in the email thread that I just reread in the origin, origin of Affirm",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2799.313,
+            2803.734
+          ],
+          "quote": "But Affirm, the merchants actually want you to own the customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2820.677,
+            2831.167
+          ],
+          "quote": "Hey, you're late or you got to make your payment or all the communications that come from your lender is just another type of burden that the brand is kind of like, I know what, affirm you guys can handle this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2924.105,
+            2926.989
+          ],
+          "quote": "We've been covering some Affirm history while we're doing a historic episode.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "paypal",
+      "type": "company",
+      "role": "company",
+      "name": "PayPal",
+      "file": "PayPal",
+      "primary": true,
+      "how_described": "本集回顾它的意外起点:Max 本想做低功耗芯片上的加密,发现快速加解密小量数据把你引向支付;它的重大创新是『完全不在乎匿名性』;人才辈出靠刻意筛选创业者加彼此见过对方压力下的真实底层版本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            57.804,
+            61.085
+          ],
+          "quote": "And the big innovation of PayPal was, what if we don't care about anonymity at all?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            84.533,
+            98.177
+          ],
+          "quote": "They revisit the early days of PayPal and the origins of Affirm, including the pajama problem, the first experiments with paying using identity, and the moment the team realized financing wasn't just another checkout option, but a way to materially change conversion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            483.508,
+            493.054
+          ],
+          "quote": "And in it, I think I asked you, tell me more about this build me later thing, because I was working on something else while you were watching PayPal buying build me later.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            672.937,
+            688.54
+          ],
+          "quote": "Even before PayPal, there was this wand that I think MasterCard and one of the gas refueling station networks produced this thing where you could just like wave this wand next to a gas station and payment is secured and you can fuel your car.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            805.604,
+            807.005
+          ],
+          "quote": "I feel like PayPal was pretty early, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            811.303,
+            821.287
+          ],
+          "quote": "To give you full context for PayPal, I really wanted to build something very specific and quite different from PayPal that operated on very low power chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            830.584,
+            842.98
+          ],
+          "quote": "And we did, and then we promptly realized that it really couldn't do very much other than encrypt some very, very small amounts of data and small amounts of data that need to be encrypted and decrypted quickly that kind of leads you to payments, which is how PayPal came about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            891.975,
+            895.777
+          ],
+          "quote": "And then we promptly, soon thereafter, started PayPal, and I went to some",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1372.772,
+            1387.379
+          ],
+          "quote": "And my wife, who's pretty much always right, said, you know, the hardest you've ever worked and the happiest you were was during the anti-fraud days at PayPal, when we nearly died, or we nearly died.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1579.17,
+            1581.291
+          ],
+          "quote": "Reams of data we had access to at PayPal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1602.776,
+            1606.899
+          ],
+          "quote": "Trial pay, I think we were in the throes of selling to PayPal, but then they left me at the altar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1607.399,
+            1610.121
+          ],
+          "quote": "Not your PayPal, many generations later, PayPal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2667.244,
+            2668.344
+          ],
+          "quote": "I'm certainly too early with PayPal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2927.029,
+            2929.291
+          ],
+          "quote": "I also want to ask a question about PayPal history.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2933.136,
+            2941.666
+          ],
+          "quote": "You know, there's been, you know, a book came out, Founders recently, there's been sort of a lot of, you know, revisiting of PayPal, both in its impact as...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3004.664,
+            3007.725
+          ],
+          "quote": "So there have been many, much ink spilled on the history of PayPal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3030.331,
+            3034.693
+          ],
+          "quote": "We would ask, like one of the stock questions I would ask, we would say, what are you going to do after PayPal?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3055.402,
+            3066.427
+          ],
+          "quote": "That came out of PayPal, proceeded to start companies and like literally, you know, hot second after we all dispersed YouTube and Yelp and Peter's first major fund and LinkedIn.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "trialpay",
+      "type": "company",
+      "role": "company",
+      "name": "TrialPay",
+      "file": "TrialPay",
+      "primary": true,
+      "how_described": "Alex 创办的公司,做数字商品的替代支付——注册 Geico 就能免费拿 FarmVille 金币;他反省自己当时没搞明白『品牌不希望你拥有客户』,而 Affirm 的商家恰恰希望它拥有客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1087.66,
+            1091.543
+          ],
+          "quote": "So my recollection was I ran this company, TrialPay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1199.181,
+            1205.963
+          ],
+          "quote": "You sold to Google so I could not ever convince Slide to become a client of TrialPay, sadly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2734.087,
+            2737.789
+          ],
+          "quote": "I tried doing this with TrialPay because it's like, all right, you're playing a Zynga game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2738.189,
+            2742.552
+          ],
+          "quote": "Go get free coins if you sign up for Geico, powered by TrialPay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2742.792,
+            2747.475
+          ],
+          "quote": "Nobody knew who the hell TrialPay was, so we actually tried sending messages to consumers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "visa",
+      "type": "company",
+      "role": "company",
+      "name": "Visa",
+      "file": "Visa",
+      "primary": true,
+      "how_described": "两大卡组织之一:对网络、发卡行、商户、收单行之间的交互设有硬性 2.5 秒上限,且至今没推出新标准放宽这个时限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            175.861,
+            183.984
+          ],
+          "quote": "That's because the chip was being rewritten, it was much more secure than a mag stripe, and basically Visa and MasterCard, and then the Euro pay, that's what the E is for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            279.806,
+            293.77
+          ],
+          "quote": "I think we, to sort of further illustrate Alex's point, one of the things that's really amazing and subtle about Apple Pay slash Google Pay and its interaction with the Visa MasterCard networks is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            294.728,
+            304.95
+          ],
+          "quote": "Visa and MasterCard have a hard two and a half second limit on interaction between the network dishing bank and the merchant and the acquiring bank.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            316.072,
+            323.253
+          ],
+          "quote": "If you're doing e-commerce, you're like, well, yes, we're going to submit your card to Visa, but first we're going to run some anti-fraud checks and we're going to do some other things to reduce liability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            338.42,
+            341.641
+          ],
+          "quote": "I can do all kinds of things before I actually have to talk to Visa and MasterCard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            341.661,
+            347.543
+          ],
+          "quote": "And maybe the shocking thing is that Visa and MasterCard have not yet introduced some new standards saying, actually, it doesn't have to be two and a half seconds at all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            439.445,
+            446.032
+          ],
+          "quote": "You put $50 on your Starbucks account, well, they only have to pay Visa, MasterCard, and everybody else one time, as opposed to every successive time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mastercard",
+      "type": "company",
+      "role": "company",
+      "name": "MasterCard",
+      "file": "MasterCard",
+      "primary": true,
+      "how_described": "两大卡组织之一,曾与加油站网络推出挂在车钥匙上的支付『魔棒』,Max 以为它会取代信用卡,结果没有——因为它只比信用卡快一点点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            175.861,
+            183.984
+          ],
+          "quote": "That's because the chip was being rewritten, it was much more secure than a mag stripe, and basically Visa and MasterCard, and then the Euro pay, that's what the E is for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            279.806,
+            293.77
+          ],
+          "quote": "I think we, to sort of further illustrate Alex's point, one of the things that's really amazing and subtle about Apple Pay slash Google Pay and its interaction with the Visa MasterCard networks is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            294.728,
+            304.95
+          ],
+          "quote": "Visa and MasterCard have a hard two and a half second limit on interaction between the network dishing bank and the merchant and the acquiring bank.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            338.42,
+            341.641
+          ],
+          "quote": "I can do all kinds of things before I actually have to talk to Visa and MasterCard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            341.661,
+            347.543
+          ],
+          "quote": "And maybe the shocking thing is that Visa and MasterCard have not yet introduced some new standards saying, actually, it doesn't have to be two and a half seconds at all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            439.445,
+            446.032
+          ],
+          "quote": "You put $50 on your Starbucks account, well, they only have to pay Visa, MasterCard, and everybody else one time, as opposed to every successive time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            672.937,
+            688.54
+          ],
+          "quote": "Even before PayPal, there was this wand that I think MasterCard and one of the gas refueling station networks produced this thing where you could just like wave this wand next to a gas station and payment is secured and you can fuel your car.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "1-800-flowers",
+      "type": "company",
+      "role": "company",
+      "name": "1-800-Flowers",
+      "file": "1-800-Flowers",
+      "primary": true,
+      "how_described": "Affirm 的第一个真实客户:Max 熬通宵用 PHP 克隆它的网站做『用身份支付』演示,CEO Jim McCann 凭直觉当场同意合作,并讲起当年允许服役人员下一单再收钱的往事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1654.001,
+            1660.767
+          ],
+          "quote": "So we're going through the list, and it's like, oh, we both know Jim McCann, who's this very friendly guy who used to be on all the commercials for 1-800-Flowers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1660.927,
+            1661.748
+          ],
+          "quote": "Remember, 1-800-Flowers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1676.878,
+            1685.744
+          ],
+          "quote": "I basically like cloned, it's just funny, like AI can do this in five seconds now, but I cloned 1-800-Flowers site and then made a whole like pay with your identity.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "payments",
+      "type": "concept",
+      "role": "concept",
+      "name": "支付 (payments)",
+      "file": "支付",
+      "primary": true,
+      "how_described": "本集核心论题:支付是科技界最古老品类但没有任何小于 1000 亿美元的利基市场;金额越大抽成越小,收入机会在小额那端;支付领域没有『还可以』的结果,要么达到临界规模要么被遗忘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.761,
+            11.625
+          ],
+          "quote": "It is the world's largest market by any stretch of imagination, and there are no niches in payments that are smaller than $100 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            15.528,
+            22.693
+          ],
+          "quote": "There's a lot of volume, but the large volume revenue opportunities and payments tend to be the smaller dollar amounts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            48.602,
+            57.744
+          ],
+          "quote": "I went to some cryptography-related conference and presented a new idea in digital payments and was literally booed offstage because it was certainly not anonymous.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            61.525,
+            70.387
+          ],
+          "quote": "And in that sense... Payments may be one of the oldest categories in tech, but Max Lubchin argues there are still no small markets inside it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 13,
+          "t": [
+            71.27,
+            83.813
+          ],
+          "quote": "In this episode, I sit down with A16z General Partner Alex Rampell and Affirm co-founder and CEO Max Levchin to look back at how payments evolved over the last 25 years and where the next major shifts may come from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            371.797,
+            376.74
+          ],
+          "quote": "But the shocking thing about payments is that it is the world's largest market by any stretch of imagination.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            387.826,
+            390.508
+          ],
+          "quote": "There are no niches in payments that are smaller than $100 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            416.365,
+            423.57
+          ],
+          "quote": "There's a lot of volume, but the large volume revenue opportunities and payments tend to be the smaller dollar amounts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            458.196,
+            459.917
+          ],
+          "quote": "But everybody goes after B2B payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            459.957,
+            461.958
+          ],
+          "quote": "Everybody has a clever idea for B2B payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            515.43,
+            519.193
+          ],
+          "quote": "Actually, the idea there, it still is, it's not terrible because it's not payments, it's lending.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            580.274,
+            588.84
+          ],
+          "quote": "But I always thought that Pay Me Sooner was an interesting idea because the whole economy runs in the fact that, like, my business is waiting on payments from you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            708.61,
+            711.353
+          ],
+          "quote": "There's not really a okay outcomes in payments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            830.584,
+            842.98
+          ],
+          "quote": "And we did, and then we promptly realized that it really couldn't do very much other than encrypt some very, very small amounts of data and small amounts of data that need to be encrypted and decrypted quickly that kind of leads you to payments, which is how PayPal came about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            846.472,
+            855.515
+          ],
+          "quote": "I went to the wind down slash bankruptcy party for DigiCash, which was the original granddaddy of all digital payments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            858.516,
+            869.24
+          ],
+          "quote": "I was on Stanford University grounds and there was like, you know, pouring out of the forties and a bunch of very sad looking cyber punks telling each other how the age of digital payments is not upon us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            983.545,
+            991.694
+          ],
+          "quote": "I'm going to use this to buy a cup of coffee, which is kind of, that's the canonical and most important, I would argue, use case for all forms of payments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1092.163,
+            1095.044
+          ],
+          "quote": "which did alternative payments for digital goods.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1400.094,
+            1403.815
+          ],
+          "quote": "I know you're never going to touch payments again, but just this once, give it a chance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1403.995,
+            1408.136
+          ],
+          "quote": "And that actually had some influence as to my responsiveness, too, because you're working at a payments company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1408.156,
+            1415.138
+          ],
+          "quote": "And part of my reluctance to deal with trial pay was like, I can't handle another near payments company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1418.459,
+            1425.203
+          ],
+          "quote": "And so as I was slowly getting reeled back into working on payments, we started talking about this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1544.072,
+            1548.577
+          ],
+          "quote": "I think as a payments guy, you were mostly thinking like, let's go do some payment stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1567.725,
+            1570.686
+          ],
+          "quote": "And then someone else will take care of payments, like lending payments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1570.706,
+            1574.308
+          ],
+          "quote": "I don't really know anything about it, and I've done payments, don't need to do lending.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2659.14,
+            2665.243
+          ],
+          "quote": "And the convergence of payments and advertising is upon us, although 15 years later than how it's predicted.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2707.23,
+            2711.393
+          ],
+          "quote": "But going back to the mattresses, let's just say that you're late on one of your payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3192.502,
+            3199.874
+          ],
+          "quote": "I'm probably less optimistic about agenting shopping, and I'm very optimistic about agentic payments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 684,
+          "t": [
+            3254.854,
+            3260.157
+          ],
+          "quote": "And so I think we're about to see some interesting innovation in payments user interface.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3342.055,
+            3347.598
+          ],
+          "quote": "I guess, do you think that that form of agentic commerce, because it's actually related to agentic payments as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3538.618,
+            3546.504
+          ],
+          "quote": "And so we are already conditioned to allow some of these purchases to be fully outsourced, payments and shopping and everything else.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "credit-card",
+      "type": "concept",
+      "role": "concept",
+      "name": "信用卡 (credit card)",
+      "file": "信用卡",
+      "primary": true,
+      "how_described": "Max 称『卡片支付界面是有史以来独一无二的最佳用户界面』——魔棒、手掌扫描都只比它快一点点而非快很多,所以打不倒;但智能体可能终于让它坐上谈判桌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.095,
+            36.876
+          ],
+          "quote": "The best user interface ever created is the credit card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            98.917,
+            109.368
+          ],
+          "quote": "They also discuss why the credit card remains such a durable interface, how 0% financing can have very different economics, and what happens when AI agents begin participating in commerce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            728.71,
+            732.073
+          ],
+          "quote": "But it's just a little bit faster, not a lot faster than the credit card you have in your pocket.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1040.775,
+            1043.357
+          ],
+          "quote": "And if you don't have it, you'll pull out a debit card or credit card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1116.049,
+            1120.63
+          ],
+          "quote": "Ooh, I can get FarmVille coins if I switch to Geico or get a credit card or sign up for Netflix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1240.221,
+            1247.487
+          ],
+          "quote": "We should have a way of solving the pajama problem of you're upstairs in your pajamas, you want to buy something, your credit card is downstairs, how do you pay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1746.191,
+            1748.413
+          ],
+          "quote": "And no, I don't have my credit card with me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1962.149,
+            1964.531
+          ],
+          "quote": "And so you say, look, you guys are cannibalizing my credit card volume.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2477.978,
+            2484.604
+          ],
+          "quote": "There is a sign somewhere, these days somewhat less prominent, that says, get a branded credit card from fill in the blank.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2509.624,
+            2511.125
+          ],
+          "quote": "So this is called a deferred interest credit card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3212.586,
+            3217.349
+          ],
+          "quote": "But I think the friction, this notion of the best user interface ever created is the credit card.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "Max:『我对智能体购物可能不那么乐观,而我对智能体支付非常乐观』——智能体确实比塑料聪明,只是你还没有信任它做得和你一样好;Instacart 已证明我们接受把购买完全外包。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            42.139,
+            46.221
+          ],
+          "quote": "It's just that you haven't yet trusted your agent to do as good a job as you would.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3459.884,
+            3463.965
+          ],
+          "quote": "It's just that you haven't yet trusted your agent to do as good a job as you would.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "conversion",
+      "type": "concept",
+      "role": "concept",
+      "name": "转化率 (conversion)",
+      "file": "转化率",
+      "primary": true,
+      "how_described": "Affirm 的转折点:Beautylish 在漏斗前端(挑洗发水时)就告知可分期,转化率立刻提升 30%——团队由此意识到这不是替代支付,而是扩大用户预算的转化率机器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            84.533,
+            98.177
+          ],
+          "quote": "They revisit the early days of PayPal and the origins of Affirm, including the pajama problem, the first experiments with paying using identity, and the moment the team realized financing wasn't just another checkout option, but a way to materially change conversion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1926.544,
+            1934.85
+          ],
+          "quote": "After 100 Flowers, we had a sort of a non-stop interactions with Saad Ahmed, who was never happy with the conversion rates, with the user interface.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2033.271,
+            2035.972
+          ],
+          "quote": "And that had an instant 30% increase in conversion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2210.536,
+            2215.68
+          ],
+          "quote": "But if it's like 30, like once you subdivided, it just has a massive increase of conversion rate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "credit-score",
+      "type": "concept",
+      "role": "concept",
+      "name": "信用评分 (credit score)",
+      "file": "信用评分",
+      "primary": true,
+      "how_described": "Max 的原初动机:『我只想构建一个真正酷的信用评分』;洞察是 Facebook 上有 500 个好友、没主动找信贷的人可能就是低信贷风险——用你的身份来付款。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 301,
+          "t": [
+            1481.54,
+            1495.491
+          ],
+          "quote": "I was talking to a startup at the time as kind of just learning about the industry that was trying to build a social credit score, kind of modeling it on the Chinese social score, which is used for a lot more than credit, obviously.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1549.577,
+            1566.965
+          ],
+          "quote": "As a person recovering from doing lots of machine learning in the service of social media, which was, you know, good and well, but wasn't really what I was meant to do, and lusting for the days of doing machine learning to fight fraud, my MO was, I just want to build a really cool credit score.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "customer-acquisition-cost",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户获取成本 (customer acquisition cost)",
+      "file": "客户获取成本",
+      "primary": true,
+      "how_described": "Alex 说大多数消费公司的获客成本高到不如直接买 Google/Facebook 股票;Affirm 最酷的一点是负的客户获取成本——商家付钱让它获取客户,且品牌乐意让它拥有客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 579,
+          "t": [
+            2692.842,
+            2698.745
+          ],
+          "quote": "And I think, to me, one of the coolest things about a firm to this day is it has negative customer acquisition cost.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mdr",
+      "type": "concept",
+      "role": "concept",
+      "name": "MDR",
+      "file": "MDR",
+      "primary": true,
+      "how_described": "商家为分期服务付的费:Max 当初用 Excel 瞎编了 7%;高毛利床垫品牌(『记忆棉就是记忆棉』)在 MDR 上非常灵活,商家出资才让消费者拿到真 0% 贷款。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 382,
+          "t": [
+            1813.81,
+            1819.452
+          ],
+          "quote": "Like, so in consumer finance for these things, there's a concept of an MDR and an APR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1836.418,
+            1837.679
+          ],
+          "quote": "It was just MDR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2124.317,
+            2130.602
+          ],
+          "quote": "And I remember actually we were talking about this in the context of like, how can you charge a high MDR and get away with it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2198.807,
+            2202.29
+          ],
+          "quote": "So therefore, a lot more flexible on the MDR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2441.232,
+            2458.076
+          ],
+          "quote": "And so there were multiple events like this in Affirm's history where we saw an opportunity for the merchant to significantly contribute to the MDR, which allowed us to eliminate the APR.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deferred-interest",
+      "type": "concept",
+      "role": "concept",
+      "name": "递延利息 (deferred interest)",
+      "file": "递延利息",
+      "primary": true,
+      "how_described": "Max 至今愤怒声讨的『假的 0%』:百货商店品牌卡的星号条款——晚还一天利息就从开卡日追溯累积,刷 1000 美元两年后可能欠 3000;Affirm 的回应是不做递延利息、不收滞纳金。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 544,
+          "t": [
+            2509.624,
+            2511.125
+          ],
+          "quote": "So this is called a deferred interest credit card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2535.46,
+            2542.304
+          ],
+          "quote": "That is the origin story of why we don't charge late fees, we don't do deferred interest, all the sort of gimmicks and gotchas that the industry loves to throw at people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bitcoin",
+      "type": "concept",
+      "role": "concept",
+      "name": "比特币 (Bitcoin)",
+      "file": "比特币",
+      "primary": true,
+      "how_described": "Max 读了原始论文、佩服其技术方案的聪明,『但我从未哪怕一秒钟认为它会变成一种货币或支付方式』——它没接近过『我要用这个买杯咖啡』这个最经典的支付用例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            932.411,
+            943.634
+          ],
+          "quote": "So I read the original Bitcoin paper and thought, wow, that's a really clever way of solving the business in general problem, as all the math slash cryptography nerds was impressed with the approach.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            995.718,
+            1002.204
+          ],
+          "quote": "You know, what is the last time you spent a Bitcoin or a Satoshi on anything actually important?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

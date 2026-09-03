@@ -91,6 +91,13 @@ Dave 说在用户数到几百之前，点图可以是你唯一的仪表板。技
 <div class="pd-exit">
 <div class="pd-ex">
 
+**顺着「增长与销售」挖下去**
+
+- [[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a|信用卡是最好的用户界面——PayPal 元老与 Affirm CEO 聊支付 25 年]]<span class="pd-rz">同公司:PayPal</span>
+
+</div>
+<div class="pd-ex">
+
 **换个口味**
 
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|Nesrine：产品愉悦感不是彩纸，是增长策略]]<span class="pd-rz">同公司:Spotify</span>

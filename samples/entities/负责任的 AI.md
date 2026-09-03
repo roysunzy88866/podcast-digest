@@ -311,8 +311,6 @@ unlisted: true
 
 ![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q12]]
 
-![[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here#^q5]]
-
 ![[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#^q2]]
 
 ![[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#^q7]]
@@ -403,6 +401,8 @@ unlisted: true
 
 ![[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill#^q8]]
 
+![[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a#^q3]]
+
 ## ② 出现在这些集
 
 *1 集*
@@ -415,7 +415,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[AI Index report]] · [[锯齿状前沿]] · [[世界模型]] · [[智能体]] · [[开源模型]] · [[前沿模型]] · [[护栏]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":5,"Chris Benson":5,"AI Index report":1,"锯齿状前沿":1,"世界模型":4,"智能体":1,"开源模型":4,"前沿模型":6,"护栏":1,"Claude Code":45}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":5,"Chris Benson":5,"AI Index report":1,"锯齿状前沿":1,"世界模型":4,"智能体":1,"开源模型":4,"前沿模型":6,"护栏":1,"Claude Code":43}</script>
 
 <script>
 (function(){

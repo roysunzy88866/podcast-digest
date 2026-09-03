@@ -31,7 +31,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stéphane Bancel]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]] [[Anish Acharya]]
+[[Max Levchin]] [[Stéphane Bancel]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]]
 
 </div>
 

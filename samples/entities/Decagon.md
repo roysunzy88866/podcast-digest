@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[微调]] · [[OpenAI]] · [[Anthropic]] · [[Sarah Wang]] · [[Elena Berger]] · [[Anish Acharya]] · [[Kimberley Tan]] · [[Joe Schmidt]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":42,"微调":6,"OpenAI":79,"Anthropic":92,"Sarah Wang":2,"Elena Berger":3,"Anish Acharya":1,"Kimberley Tan":1,"Joe Schmidt":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":41,"微调":6,"OpenAI":79,"Anthropic":92,"Sarah Wang":2,"Elena Berger":3,"Anish Acharya":1,"Kimberley Tan":1,"Joe Schmidt":1}</script>
 
 <script>
 (function(){

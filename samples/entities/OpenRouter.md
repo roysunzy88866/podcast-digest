@@ -37,7 +37,7 @@ unlisted: true
 
 [[推理]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Cursor]] · [[NVIDIA]] · [[GPU]] · [[Stripe]] · [[Cognition]] · [[token]]
 
-<script type="application/json" class="pd-epn">{"推理":4,"OpenAI":79,"Anthropic":92,"智能体":1,"Cursor":42,"NVIDIA":25,"GPU":10,"Stripe":25,"Cognition":14,"token":11}</script>
+<script type="application/json" class="pd-epn">{"推理":4,"OpenAI":79,"Anthropic":92,"智能体":1,"Cursor":41,"NVIDIA":25,"GPU":10,"Stripe":25,"Cognition":14,"token":11}</script>
 
 <script>
 (function(){

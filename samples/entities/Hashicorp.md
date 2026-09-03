@@ -25,7 +25,7 @@ unlisted: true
 
 [[Bruno Scott Sperka]] · [[GitHub]] · [[Terraform]] · [[Kubernetes]] · [[开源]] · [[智能体]] · [[PR]] · [[AI]] · [[工匠精神]]
 
-<script type="application/json" class="pd-epn">{"Bruno Scott Sperka":1,"GitHub":20,"Terraform":1,"Kubernetes":5,"开源":10,"智能体":1,"PR":5,"AI":13,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"Bruno Scott Sperka":1,"GitHub":20,"Terraform":1,"Kubernetes":5,"开源":10,"智能体":1,"PR":4,"AI":13,"工匠精神":1}</script>
 
 <script>
 (function(){

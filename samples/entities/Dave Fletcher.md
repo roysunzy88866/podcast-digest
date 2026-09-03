@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]] [[Ben Rudolph]] [[Amol Avasare]]
+[[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]] [[Ben Rudolph]]
 
 </div>
 

@@ -311,8 +311,6 @@ unlisted: true
 
 ![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q12]]
 
-![[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here#^q5]]
-
 ![[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#^q2]]
 
 ![[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#^q7]]
@@ -403,6 +401,8 @@ unlisted: true
 
 ![[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill#^q8]]
 
+![[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a#^q3]]
+
 ## ② 出现在这些集
 
 *1 集*
@@ -415,7 +415,7 @@ unlisted: true
 
 [[Satya Nadella]] · [[Kwindla Kramer]] · [[Pipecat]] · [[Daily]] · [[智能体]] · [[推理]] · [[多模态]] · [[云计算]] · [[上下文]] · [[AWS]]
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Kwindla Kramer":1,"Pipecat":1,"Daily":1,"智能体":1,"推理":4,"多模态":1,"云计算":1,"上下文":14,"AWS":9}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Kwindla Kramer":1,"Pipecat":1,"Daily":1,"智能体":1,"推理":4,"多模态":1,"云计算":1,"上下文":13,"AWS":9}</script>
 
 <script>
 (function(){

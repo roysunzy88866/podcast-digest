@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PR</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PR">PR</div><div class="pi"><h1 class="pt">PR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PR">PR</div><div class="pi"><h1 class="pt">PR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,6 @@ unlisted: true
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(19:45起):本集把它说成：高级领导者亲自下场提交代码补丁（如 Mike Krieger）的机制，这种卷起袖子干脏活的低杠杆举动实则非常高杠杆，能带动团队士气。
 - **[[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]]**(02:59起):本集反复讨论 PR 的创建方式——标题、提交信息、PR 描述都要对标维护者风格以降低审阅者认知负荷；Bruno 有时在一个 PR 的描述上花两三小时
 - **[[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]]**(04:18起):本集围绕PR工作流展开深度讨论：Daniel认为企业内基于PR的工作流是极其愚蠢的主意应回到基于主干的开发；Tamuz提出PUMP流程让PR开了就尽快合并，一个功能通常要三到四个PR
-- **[[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]]**(17:55起):本集说 Ryan 现在每天大概提交 40 个 PR，手动追踪根本不现实，因此需要 Watchdog 交叉比对 PR 状态，以及 Merge Mommy 和 Land PR 来自动化 PR 审查流程
 
 ## ① 提到它的金句
 
@@ -33,21 +32,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*4 集*
 
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为概念(提及)
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念(提及)
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为概念
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]] — 作为概念
-- [[2026-08-24-howiai-i-spent-20-000-on-devin-in-a-month--here|《Ryan Carson：从手把手到放养，云端智能体管理术》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Claude Code]] · [[Codex]] · [[设计系统]] · [[Cursor]] · [[护栏]] · [[CI-CD]] · [[Sherwin Wu]] · [[Jenny Wen]]
+[[智能体]] · [[Lenny]] · [[护栏]] · [[CI-CD]] · [[Sherwin Wu]] · [[Jenny Wen]] · [[Bruno Scott Sperka]] · [[Patrick Dubois]] · [[Codex]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Claude Code":45,"Codex":35,"设计系统":5,"Cursor":42,"护栏":1,"CI-CD":8,"Sherwin Wu":1,"Jenny Wen":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"护栏":1,"CI-CD":8,"Sherwin Wu":1,"Jenny Wen":1,"Bruno Scott Sperka":1,"Patrick Dubois":1,"Codex":34,"Anthropic":92}</script>
 
 <script>
 (function(){

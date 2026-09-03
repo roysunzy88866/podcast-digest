@@ -23,7 +23,7 @@ unlisted: true
 
 [[Figma]] · [[智能体]] · [[设计系统]] · [[Oji Udezue]] · [[Srini Raghavan]] · [[Mikael]] · [[Claude Code]] · [[Freshworks]] · [[OLX Classifieds]] · [[项目脚手架技能]]
 
-<script type="application/json" class="pd-epn">{"Figma":11,"智能体":1,"设计系统":5,"Oji Udezue":1,"Srini Raghavan":1,"Mikael":1,"Claude Code":45,"Freshworks":1,"OLX Classifieds":1,"项目脚手架技能":1}</script>
+<script type="application/json" class="pd-epn">{"Figma":11,"智能体":1,"设计系统":4,"Oji Udezue":1,"Srini Raghavan":1,"Mikael":1,"Claude Code":43,"Freshworks":1,"OLX Classifieds":1,"项目脚手架技能":1}</script>
 
 <script>
 (function(){
