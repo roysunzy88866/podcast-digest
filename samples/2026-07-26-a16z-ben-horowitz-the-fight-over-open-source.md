@@ -142,9 +142,9 @@ AI 市场带有极强的欺骗性:因为它太大了,以至于给人一种格局
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI · 同概念:开源 (open source)</span>
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]]<span class="pd-rz">同嘉宾:Sofia Puccini · 同公司:Hugging Face、Anthropic · 同概念:蒸馏 (distillation)</span>
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI</span>
-- [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|Steven Sinofsky：AI监管为什么急不得]]<span class="pd-rz">同嘉宾:Sofia Puccini · 同公司:Anthropic · 同概念:开源 (open source)</span>
 
 </div>
 <div class="pd-ex">

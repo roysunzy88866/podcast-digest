@@ -166,8 +166,8 @@ Joon 的十年答案：今天 AI 造的是“智能单元的 CPU”(一个又大
 **顺着「智能体」挖下去**
 
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、记忆 (memory)</span>
-- [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

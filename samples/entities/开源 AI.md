@@ -415,7 +415,7 @@ unlisted: true
 
 [[开放权重模型]] · [[智能体]] · [[表观遗传重编程]] · [[AI]] · [[主观能动性]] · [[财富税]] · [[PCAST]] · [[Anthropic]] · [[OpenAI]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"开放权重模型":7,"智能体":1,"表观遗传重编程":1,"AI":13,"主观能动性":16,"财富税":1,"PCAST":1,"Anthropic":92,"OpenAI":78,"Palantir":11}</script>
+<script type="application/json" class="pd-epn">{"开放权重模型":7,"智能体":1,"表观遗传重编程":1,"AI":13,"主观能动性":16,"财富税":1,"PCAST":1,"Anthropic":92,"OpenAI":79,"Palantir":11}</script>
 
 <script>
 (function(){

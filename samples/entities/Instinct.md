@@ -1,41 +1,41 @@
 ---
-title: 视觉能力 (vision)
-entity_type: 概念
+title: Instinct
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>视觉能力 (vision)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Instinct</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="视觉能力">视觉</div><div class="pi"><h1 class="pt">视觉能力 (vision)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Instinct">IN</div><div class="pi"><h1 class="pt">Instinct</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]]**(02:43起):本集说 Fable 在视觉方面极其出色,是视觉能力前进了一步;实测中 PDF/文档排版是最大惊喜,明显好于 Opus。
+- **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(01:08起):本集说它是六个月前 OpenClaw 潮流的结构化版本：给它日历、邮箱、信用卡，它替你管理生活；以 25 亿美元估值融资，但 Jason 认为奖励作弊问题今天无解，别给它信用卡。
 
 ## ① 提到它的金句
 
 *3 条*
 
-![[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios#^q3]]
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q5]]
 
-![[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m#^q3]]
+![[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the#^q5]]
 
-![[2026-03-01-lennys-the-design-process-is-dead#^q2]]
+![[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug#^q8]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]] — 作为概念
+- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Fable 5]] · [[Mythos]] · [[Claude Code]] · [[Cloud Managed Agents]] · [[多智能体]] · [[安全护栏]] · [[基准测试]] · [[沙箱]]
+[[Harry Stebbings]] · [[NVIDIA]] · [[Hugging Face]] · [[OpenAI]] · [[Cursor]] · [[Anthropic]] · [[Cognition]] · [[Clay]] · [[Linear]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":92,"Fable 5":1,"Mythos":4,"Claude Code":46,"Cloud Managed Agents":1,"多智能体":2,"安全护栏":2,"基准测试":7,"沙箱":36}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":8,"NVIDIA":25,"Hugging Face":16,"OpenAI":79,"Cursor":42,"Anthropic":92,"Cognition":14,"Clay":2,"Linear":7,"Salesforce":11}</script>
 
 <script>
 (function(){

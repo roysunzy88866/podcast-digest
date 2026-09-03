@@ -27,7 +27,7 @@ unlisted: true
 
 [[Matt Turk]] · [[Susan Kare]] · [[Sanjit Biswas]] · [[Apple]] · [[Samsara]] · [[Macintosh]] · [[物理 AI]] · [[icon]] · [[护栏]] · [[font]]
 
-<script type="application/json" class="pd-epn">{"Matt Turk":2,"Susan Kare":1,"Sanjit Biswas":1,"Apple":14,"Samsara":2,"Macintosh":1,"物理 AI":6,"icon":1,"护栏":33,"font":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":2,"Susan Kare":1,"Sanjit Biswas":1,"Apple":14,"Samsara":2,"Macintosh":1,"物理 AI":6,"icon":1,"护栏":1,"font":1}</script>
 
 <script>
 (function(){

@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":7,"暗工厂":2,"智能体":1,"vibe coding":25,"harness":17,"循环工程":4,"上下文":14,"评估":17,"护栏":33}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":7,"暗工厂":2,"智能体":1,"vibe coding":25,"harness":17,"循环工程":4,"上下文":14,"评估":17,"护栏":1}</script>
 
 <script>
 (function(){

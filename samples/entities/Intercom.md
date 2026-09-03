@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Slack]] · [[Lenny]] · [[Cursor]] · [[Codex]] · [[Notion]] · [[Anthropic]] · [[Canva]] · [[ChatGPT]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Slack":23,"Lenny":66,"Cursor":41,"Codex":35,"Notion":11,"Anthropic":92,"Canva":3,"ChatGPT":46,"OpenAI":78}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Slack":23,"Lenny":66,"Cursor":42,"Codex":35,"Notion":11,"Anthropic":92,"Canva":3,"ChatGPT":46,"OpenAI":79}</script>
 
 <script>
 (function(){

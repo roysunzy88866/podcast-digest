@@ -25,7 +25,7 @@ unlisted: true
 
 [[Gabriel Vasquez]] · [[Elena Berger]] · [[Angela Strange]] · [[a16z]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[OpenAI]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"Angela Strange":1,"a16z":8,"Eleven Labs":3,"Cognition":13,"Vercel":12,"Brex":3,"OpenAI":78,"Salesforce":10}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"Angela Strange":1,"a16z":8,"Eleven Labs":3,"Cognition":14,"Vercel":12,"Brex":3,"OpenAI":79,"Salesforce":11}</script>
 
 <script>
 (function(){

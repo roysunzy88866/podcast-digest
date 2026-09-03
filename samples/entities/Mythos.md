@@ -7,21 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Mythos</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Mythos">MY</div><div class="pi"><h1 class="pt">Mythos</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Mythos">MY</div><div class="pi"><h1 class="pt">Mythos</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]]**(10:53起):本集提到的一个仍在预览阶段、未对外公开但极其强大的内部模型。主持人猜测用它加速了产品发布，嘉宾确认内部确实在使用，但称极速节奏主要归功于极简的流程。
-- **[[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]]**(00:00起):本集说它是 Anthropic 高于 Sonnet 和 Opus 的全新模型类别;Fable 5 是带安全护栏、面向大众的 Mythos,而无护栏的完整 Mythos 只对 Project Glasswing 等企业伙伴开放。
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(06:19起):本集提到它是 Anthropic 的模型,嘉宾用它演示了编码智能体在抓取不受信任内容时的提示注入鲁棒性问题。
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(01:48起):本集把它说成:能自己理解代码库、主动派生其他模型分头干活并验证的「编排时代」模型。
 
 ## ② 出现在这些集
 
-*4 集*
+*3 集*
 
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]] — 作为概念(提及)
-- [[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]] — 作为概念
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为概念
 
@@ -29,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[智能体]] · [[Slack]] · [[Lenny]] · [[Fable 5]] · [[Zico Kolter]] · [[Theo Browne]] · [[Kat Wu]]
+[[Anthropic]] · [[智能体]] · [[Slack]] · [[Lenny]] · [[Zico Kolter]] · [[Theo Browne]] · [[Kat Wu]] · [[Matt Fredrikson]] · [[Sonnet 3.5]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":92,"Claude Code":46,"沙箱":36,"智能体":1,"Slack":23,"Lenny":66,"Fable 5":1,"Zico Kolter":1,"Theo Browne":1,"Kat Wu":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":92,"智能体":1,"Slack":23,"Lenny":66,"Zico Kolter":1,"Theo Browne":1,"Kat Wu":1,"Matt Fredrikson":1,"Sonnet 3.5":1,"Claude Code":45}</script>
 
 <script>
 (function(){

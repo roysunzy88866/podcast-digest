@@ -269,8 +269,8 @@ Hino 学到的最大企业销售经验：别把销售当说服（试图让客户
 **顺着「智能体」挖下去**
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:前沿模型 (frontier models)、后训练 (post-training)、套索 (harness)、智能体 (agent)</span>
+- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cognition、Cursor、Linear、NVIDIA、Salesforce · 同概念:智能体 (agent)</span>
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、OpenAI、NVIDIA · 同概念:智能体 (agent)</span>
-- [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

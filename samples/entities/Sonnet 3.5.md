@@ -25,7 +25,7 @@ unlisted: true
 
 [[Theo Browne]] · [[Opus 4.5]] · [[Mythos]] · [[编排]] · [[拟物化]] · [[沉没成本心态]] · [[AWS]] · [[Vercel]] · [[Reddit]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"Theo Browne":1,"Opus 4.5":1,"Mythos":4,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":9,"Vercel":12,"Reddit":3,"Slack":23}</script>
+<script type="application/json" class="pd-epn">{"Theo Browne":1,"Opus 4.5":1,"Mythos":3,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":9,"Vercel":12,"Reddit":3,"Slack":23}</script>
 
 <script>
 (function(){

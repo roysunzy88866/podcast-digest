@@ -1,39 +1,33 @@
 ---
-title: 安全护栏 (safeguards)
-entity_type: 概念
+title: Clay
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>安全护栏 (safeguards)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Clay</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="安全护栏">安全</div><div class="pi"><h1 class="pt">安全护栏 (safeguards)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Clay">CL</div><div class="pi"><h1 class="pt">Clay</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]]**(06:28起):本集说 Fable 内置针对网络安全、生物、化学和蒸馏的分类器,命中后不是拒绝而是优雅回退到 Opus 4.8;95% 的会话不会触发回退。
-- **[[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]]**(00:09起):本集系统梳理了四层护栏：模型本身的后训练拒绝训练、外部化监控模型、安装在激活值上的探针、账户级异步监控措施，并讨论了各层的优缺点。
-
-## ① 提到它的金句
-
-*1 条*
-
-![[2026-06-22-latent-space-gray-swan#^q1]]
+- **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(50:00起):本集提到 Clay 的 CEO Kareem 是 Brian 认识的唯一一个强调工作生活平衡的 CEO，算是异类。
+- **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(52:03起):本集说它以 70 亿美元估值融资；Harry 因自己的智能体坚持只肯用 Clay 而从怀疑者变成皈依者——「跟智能体争论不值得」，看多逻辑是智能体化的 GTM 使用量会爆炸式增长。
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]] — 作为概念
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]] — 作为概念
+- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
+- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[沙箱]] · [[Fable 5]] · [[Adam Gleave]] · [[Mythos]] · [[FAR AI]] · [[Claude Code]] · [[通用越狱]] · [[Cloud Managed Agents]] · [[社会工程学]]
+[[Salesforce]] · [[智能体]] · [[Brian Halligan]] · [[Harry Stebbings]] · [[Lenny]] · [[NVIDIA]] · [[HubSpot]] · [[Hugging Face]] · [[Sequoia]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":92,"沙箱":36,"Fable 5":1,"Adam Gleave":1,"Mythos":4,"FAR AI":1,"Claude Code":46,"通用越狱":1,"Cloud Managed Agents":1,"社会工程学":1}</script>
+<script type="application/json" class="pd-epn">{"Salesforce":11,"智能体":1,"Brian Halligan":1,"Harry Stebbings":8,"Lenny":66,"NVIDIA":25,"HubSpot":4,"Hugging Face":16,"Sequoia":4,"OpenAI":79}</script>
 
 <script>
 (function(){

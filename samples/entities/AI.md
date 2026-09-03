@@ -439,7 +439,7 @@ unlisted: true
 
 [[Lenny]] · [[Claude]] · [[Stripe]] · [[智能体]] · [[Google]] · [[MCP]] · [[LLM]] · [[Anthropic]] · [[Databricks]] · [[Brex]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Claude":46,"Stripe":24,"智能体":1,"Google":35,"MCP":24,"LLM":22,"Anthropic":92,"Databricks":9,"Brex":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Claude":46,"Stripe":25,"智能体":1,"Google":35,"MCP":24,"LLM":22,"Anthropic":92,"Databricks":9,"Brex":3}</script>
 
 <script>
 (function(){

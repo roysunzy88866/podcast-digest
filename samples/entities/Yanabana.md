@@ -25,7 +25,7 @@ unlisted: true
 
 [[Claire Veva]] · [[Yana Welinder]] · [[Codex]] · [[ChatGPT]] · [[Stripe]] · [[GitHub]] · [[Vercel]] · [[Superhuman]] · [[智能体]] · [[计算机使用]]
 
-<script type="application/json" class="pd-epn">{"Claire Veva":1,"Yana Welinder":1,"Codex":35,"ChatGPT":46,"Stripe":24,"GitHub":20,"Vercel":12,"Superhuman":4,"智能体":1,"计算机使用":6}</script>
+<script type="application/json" class="pd-epn">{"Claire Veva":1,"Yana Welinder":1,"Codex":35,"ChatGPT":46,"Stripe":25,"GitHub":20,"Vercel":12,"Superhuman":4,"智能体":1,"计算机使用":6}</script>
 
 <script>
 (function(){

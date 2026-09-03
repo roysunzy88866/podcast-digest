@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[Cognition]] · [[Ivan Burazin]] · [[Louis Knight-Webb]] · [[Rob Willoughby]] · [[Neon]] · [[Swyx]] · [[Guy Pajani]] · [[Parallel]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":36,"Cognition":13,"Ivan Burazin":1,"Louis Knight-Webb":1,"Rob Willoughby":1,"Neon":2,"Swyx":2,"Guy Pajani":3,"Parallel":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":35,"Cognition":14,"Ivan Burazin":1,"Louis Knight-Webb":1,"Rob Willoughby":1,"Neon":2,"Swyx":2,"Guy Pajani":3,"Parallel":4}</script>
 
 <script>
 (function(){

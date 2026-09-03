@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[Ranjan Roy]] · [[Brian Singerman]] · [[Alex]] · [[Founders Fund]] · [[Google]] · [[GPX]] · [[Tesla]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":78,"Anthropic":92,"SpaceX":12,"Ranjan Roy":2,"Brian Singerman":1,"Alex":4,"Founders Fund":1,"Google":35,"GPX":1,"Tesla":6}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":79,"Anthropic":92,"SpaceX":12,"Ranjan Roy":2,"Brian Singerman":1,"Alex":4,"Founders Fund":1,"Google":35,"GPX":1,"Tesla":6}</script>
 
 <script>
 (function(){

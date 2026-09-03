@@ -112,8 +112,8 @@ a16z 跟这类人建立关系的方式很具体：帮他们重新激活人脉（
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:a16z、Cognition、OpenAI</span>
+- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Cognition、OpenAI、Salesforce</span>
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同嘉宾:Elena Berger</span>
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:OpenAI、Stripe</span>
 
 </div>
 <div class="pd-ex">

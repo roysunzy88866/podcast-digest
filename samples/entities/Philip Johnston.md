@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":3,"SpaceX":12,"NVIDIA":24,"发射成本":1,"H100":1,"基准测试":7,"相变材料":1,"辐射":1,"McKinsey":5}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":1,"数据中心":3,"SpaceX":12,"NVIDIA":25,"发射成本":1,"H100":1,"基准测试":6,"相变材料":1,"辐射":1,"McKinsey":5}</script>
 
 <script>
 (function(){

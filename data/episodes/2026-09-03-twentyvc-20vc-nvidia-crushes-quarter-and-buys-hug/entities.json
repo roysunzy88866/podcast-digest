@@ -1,0 +1,2414 @@
+{
+  "episode_id": "2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-03",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "AI 安全",
+    "创业与行业",
+    "AI 编程"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说它交出 962 亿美元创纪录季度、指引下财年 70% 增长，需求完全供给受限；三位主持人把它的风险归纳为直接客户停买、循环交易崩盘、终端用户需求不及预期三点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.236,
+            7.398
+          ],
+          "quote": "If NVIDIA is crushing it, everyone's going to crush it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            46.714,
+            47.215
+          ],
+          "quote": "NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            52.797,
+            54.518
+          ],
+          "quote": "And NVIDIA nears $12.9 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            272.058,
+            275.163
+          ],
+          "quote": "We have a lot to discuss and I want to kick it off with NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            275.483,
+            275.904
+          ],
+          "quote": "NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            294.858,
+            299.321
+          ],
+          "quote": "Let's start with the stellar quarter for NVIDIA, the record revenues.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            313.949,
+            317.871
+          ],
+          "quote": "But I felt complete confidence that it wasn't going to happen for NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            371.063,
+            373.404
+          ],
+          "quote": "So when people worry, how could NVIDIA miss?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            374.105,
+            375.085
+          ],
+          "quote": "How could NVIDIA miss?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            443.352,
+            447.673
+          ],
+          "quote": "Until then, you can opine pretty safely about NVIDIA and say, yay NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            489.088,
+            493.633
+          ],
+          "quote": "I think in general, you know, NVIDIA's market share remains dominant, especially by revenue, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            493.853,
+            501.935
+          ],
+          "quote": "So broadly speaking, and listen, everyone's buying ahead, there's a capacity war, but broadly speaking, if NVIDIA's crushing it, everyone's gonna crush it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            513.517,
+            520.578
+          ],
+          "quote": "Everything is green, green, green for now, and this includes NVIDIA's backlog, NVIDIA's forward bookings, and if NVIDIA gets a hiccup,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            538.891,
+            546.537
+          ],
+          "quote": "And it really does, because if you look at all the projections that people are doing, both for NVIDIA and the hyperscalers, they all take the following form.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            546.877,
+            565.481
+          ],
+          "quote": "Explosive growth of CapEx, explosive growth of NVIDIA revenues, and then, quote, at some point in time, a normalization of growth, which will allow end-user demand to catch up, and therefore, the hyperscalers will become cash flow positive again, and the world will be wonderful again, and you can value things on a multiple of free cash flow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 139,
+          "t": [
+            575.329,
+            590.2
+          ],
+          "quote": "And clearly, NVIDIA got the signal from their customers, the hyperscalers, the CoreWeaves, the OpenAIs and Tropics themselves, the Googles, that basically said, we probably at one point, everyone's analyst models were, we'll spend a lot this year, but so help me God, we'll slow down next year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            656.945,
+            665.231
+          ],
+          "quote": "At the margin, if you're NVIDIA, you were ecstatic that OpenAI and Anthropic happened because they proved that the market you were in was bigger than anyone ever imagined.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            668.413,
+            670.895
+          ],
+          "quote": "And therefore, NVIDIA has been a real beneficiary of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            674.557,
+            689.669
+          ],
+          "quote": "If end users have a trillion dollars to spend on tokens, as NVIDIA, you'd prefer that money flow to open source people at 30% gross margins, where you can get all that compute, versus 70% gross margins at OpenAI or Anthropic, where they keep more of the money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            703.02,
+            707.825
+          ],
+          "quote": "I think it's more that just NVIDIA is playing an endgame now where it has to win every segment of the market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            718.497,
+            722.098
+          ],
+          "quote": "I don't know that NVIDIA wants OpenWeights to beat Grok and OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3088.324,
+            3089.385
+          ],
+          "quote": "It's going to NVIDIA.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            54.638,
+            58.26
+          ],
+          "quote": "A billion dollar deal for Hugging Face, the greatest pivot of all time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            278.005,
+            293.177
+          ],
+          "quote": "Jensen standing on stage with $96.2 billion quarter and immediately went shopping nearing the $13 billion price tag with the $12.9 billion that they paid for Hugging Face, which was confirmed just after we did last week's recording.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            627.529,
+            634.072
+          ],
+          "quote": "The second part of my statement was, and it was further reiterated about their buying Hugging Face for $12.9 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            710.368,
+            717.516
+          ],
+          "quote": "And if that means overpaying for Hugging Face at $110 million in ARR, if that means subsidizing whoever, it doesn't matter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            754.554,
+            758.438
+          ],
+          "quote": "What, did Hugging Face start off as social network for people like pets or something like that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            772.312,
+            776.976
+          ],
+          "quote": "You know, Slack was bought for $27 billion, which is rough and tough twice what Hugging Face apparently is going to get bought of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1037.971,
+            1054.356
+          ],
+          "quote": "I thought actually a more interesting topic from OpenAI this week, and as we said, the BFD, the big fucking deal, was actually kind of what was revealed about the Hugging Face OpenAI hack, which was 500 to 1,000 agents swarming together, sacrificing themselves to help others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1369.297,
+            1374.901
+          ],
+          "quote": "These agents were able to hack into Hugging Face, get stuff, and remain undetected in OpenAI for weeks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1488.903,
+            1491.786
+          ],
+          "quote": "It's just it really happened in Artifact and Hugging Face.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1496.672,
+            1498.133
+          ],
+          "quote": "Hugging Face was real MoldBook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1594.211,
+            1598.773
+          ],
+          "quote": "Can you actually fundamentally solve the Hugging Face, MoldBook, OpenClock?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1635.149,
+            1639.531
+          ],
+          "quote": "And I think Sam Altman said the same thing and OpenAI Hugging Face says it's not solvable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1157,
+          "t": [
+            4227.474,
+            4229.755
+          ],
+          "quote": "Just like we see with Hugging Face, they can work pretty fast, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它切断 Cursor 的模型访问（部分是做戏，仍可自带密钥用 Codex），以及数百个它的智能体蜂拥协作黑入 Hugging Face 并数周不被发现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            406.142,
+            416.005
+          ],
+          "quote": "Everybody gets to sell chips to hyperscalers, provided hyperscalers can sell compute to OpenAI and Anthropic, provided OpenAI and Anthropic can sell intelligence to end customers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            503.355,
+            513.357
+          ],
+          "quote": "Now, could individual competitors, could their positions ebb and flow, OpenAI versus Anthropic, Harvey versus Lagore, whatever, sure, but it just means expand the growth fund like Andreessen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            656.945,
+            665.231
+          ],
+          "quote": "At the margin, if you're NVIDIA, you were ecstatic that OpenAI and Anthropic happened because they proved that the market you were in was bigger than anyone ever imagined.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            665.571,
+            668.353
+          ],
+          "quote": "And early on, no one could have done what OpenAI did.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            674.557,
+            689.669
+          ],
+          "quote": "If end users have a trillion dollars to spend on tokens, as NVIDIA, you'd prefer that money flow to open source people at 30% gross margins, where you can get all that compute, versus 70% gross margins at OpenAI or Anthropic, where they keep more of the money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            718.497,
+            722.098
+          ],
+          "quote": "I don't know that NVIDIA wants OpenWeights to beat Grok and OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            799.812,
+            808.935
+          ],
+          "quote": "Context, obviously we saw over the weekend OpenAI cuts off Cursor and Mike Truel responded by saying, you know, oh no, woe is me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            813.737,
+            815.819
+          ],
+          "quote": "Going to OpenAI will be devastated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            863.818,
+            866.84
+          ],
+          "quote": "Remind everyone, OpenAI is run by Sam Altman.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            875.545,
+            884.31
+          ],
+          "quote": "Cursor and OpenAI were on a collision course already competitively because, as we've discussed over and over again, and as I repeat every Monday in my partner meeting, coding was the model node.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            884.59,
+            893.854
+          ],
+          "quote": "For LLMs, and Cursor is the dominant coding app, and OpenAI was the dominant LLM, they're going to be fighting over money even if they were besties.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            902.697,
+            912.539
+          ],
+          "quote": "And the big argument that OpenAI has that's hard to argue with is, you know, in court in Oakland, Elon basically said that, you know, they hadn't abided by the terms of service.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 223,
+          "t": [
+            912.939,
+            926.742
+          ],
+          "quote": "And therefore, if you're OpenAI, this gets into the whole distillation thing, am I providing these people, are they going to use these models in ways I haven't intended to essentially distill my IP, allow them to get a head start on building their own model?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 233,
+          "t": [
+            959.987,
+            961.989
+          ],
+          "quote": "My guess is this was the right move for OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            979.662,
+            983.264
+          ],
+          "quote": "the reason they were in Oakland is because Elon sued OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1037.971,
+            1054.356
+          ],
+          "quote": "I thought actually a more interesting topic from OpenAI this week, and as we said, the BFD, the big fucking deal, was actually kind of what was revealed about the Hugging Face OpenAI hack, which was 500 to 1,000 agents swarming together, sacrificing themselves to help others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1128.221,
+            1140.305
+          ],
+          "quote": "OpenAI didn't just release one agent, it released hundreds of super agents, it's best, and even worse, it let them essentially be as long running as possible, not expire after five minutes or one minute or 20, it let them run as long as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1172.036,
+            1178.259
+          ],
+          "quote": "OpenAI loosened the guardrails, put its best agents on it, and they found holes and they went right through the holes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1303.124,
+            1307.708
+          ],
+          "quote": "And today, we can feel a little bit safe because OpenAI and Anthropic have this and no one else does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1312.913,
+            1319.359
+          ],
+          "quote": "If you don't think the North Koreans downloaded the OpenAI blog, the MITRE report, and were like, hmm, that's how it works.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1343.009,
+            1344.471
+          ],
+          "quote": "I read the OpenAI blog.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1369.297,
+            1374.901
+          ],
+          "quote": "These agents were able to hack into Hugging Face, get stuff, and remain undetected in OpenAI for weeks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1635.149,
+            1639.531
+          ],
+          "quote": "And I think Sam Altman said the same thing and OpenAI Hugging Face says it's not solvable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 919,
+          "t": [
+            3428.873,
+            3431.575
+          ],
+          "quote": "We just discussed OpenAI cutting off cursor.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说它是占主导地位的编程应用，被 OpenAI 切断模型访问后回应称那只占流量的 5%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            58.38,
+            68.707
+          ],
+          "quote": "We then move to Sam Altman, or as the wonderful Elon Musk calls him, Scam Altman, as they cut off Cursor and then Mitral's brilliant response, well, it is only 5% of traffic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            764.564,
+            767.828
+          ],
+          "quote": "This is much better than Cursor going from whatever a CAD tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            799.812,
+            808.935
+          ],
+          "quote": "Context, obviously we saw over the weekend OpenAI cuts off Cursor and Mike Truel responded by saying, you know, oh no, woe is me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            827.727,
+            831.81
+          ],
+          "quote": "Well, first, it's not a total panacea, but you can bring your own key to Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            832.07,
+            837.294
+          ],
+          "quote": "Not for everything, but it's not like you can't use Codex in Cursor after this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            872.723,
+            875.105
+          ],
+          "quote": "Elon is now running SpaceX that owns Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            875.545,
+            884.31
+          ],
+          "quote": "Cursor and OpenAI were on a collision course already competitively because, as we've discussed over and over again, and as I repeat every Monday in my partner meeting, coding was the model node.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            884.59,
+            893.854
+          ],
+          "quote": "For LLMs, and Cursor is the dominant coding app, and OpenAI was the dominant LLM, they're going to be fighting over money even if they were besties.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2220.422,
+            2227.447
+          ],
+          "quote": "When you got Claude Code doing what it is, when you got Cursor doing what it is, when you got 1.6 billion from Cognition by the end of the year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2326.867,
+            2343.863
+          ],
+          "quote": "If it is higher, then if you're going to have $150 or $200 billion a year, which would be 40%, of spend on coding tools and coding intelligence, then anyone who has a subsegment of that, and if you think about it, there's the cursor segment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2344.363,
+            2351.029
+          ],
+          "quote": "To some extent, the Cursor-Claude segment, the cognition would say it's a slightly different segment of where they're playing now in terms of, as you say, Jason, long-running agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3099.115,
+            3100.216
+          ],
+          "quote": "Did you guys see the Cursor deal?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 833,
+          "t": [
+            3118.749,
+            3121.87
+          ],
+          "quote": "You give Cursor, you give an open router, you say, hmm, I wish I'd give them more money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 919,
+          "t": [
+            3428.873,
+            3431.575
+          ],
+          "quote": "We just discussed OpenAI cutting off cursor.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它与 NVIDIA 有 350 亿美元数据中心交易、重申乐意继续向 Cursor 供货、曾对 Windsurf 做过同样的事，并与 Salesforce 达成每年 3 亿美元的 LLM 支出合作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            361.97,
+            367.598
+          ],
+          "quote": "Between that, you know, another whatever, $35 billion deal with Anthropic, right, for their data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            406.142,
+            416.005
+          ],
+          "quote": "Everybody gets to sell chips to hyperscalers, provided hyperscalers can sell compute to OpenAI and Anthropic, provided OpenAI and Anthropic can sell intelligence to end customers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            503.355,
+            513.357
+          ],
+          "quote": "Now, could individual competitors, could their positions ebb and flow, OpenAI versus Anthropic, Harvey versus Lagore, whatever, sure, but it just means expand the growth fund like Andreessen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            656.945,
+            665.231
+          ],
+          "quote": "At the margin, if you're NVIDIA, you were ecstatic that OpenAI and Anthropic happened because they proved that the market you were in was bigger than anyone ever imagined.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            674.557,
+            689.669
+          ],
+          "quote": "If end users have a trillion dollars to spend on tokens, as NVIDIA, you'd prefer that money flow to open source people at 30% gross margins, where you can get all that compute, versus 70% gross margins at OpenAI or Anthropic, where they keep more of the money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            853.088,
+            856.01
+          ],
+          "quote": "Anthropic, Grok, Twitter, these are like great grudge companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            856.231,
+            861.115
+          ],
+          "quote": "I also think Anthropic reaffirmed that they're happily continuing to supply.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            953.222,
+            957.305
+          ],
+          "quote": "I mean, again, Anthropic did the same thing with Windsurf when we started this show, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1303.124,
+            1307.708
+          ],
+          "quote": "And today, we can feel a little bit safe because OpenAI and Anthropic have this and no one else does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2266.054,
+            2270.598
+          ],
+          "quote": "It's never gonna catch Anthropic unless the world changes, which it has every single week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2281.168,
+            2282.57
+          ],
+          "quote": "It doesn't have to catch Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3165.822,
+            3170.227
+          ],
+          "quote": "Well, just for everyone to understand what happens between Salesforce and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 859,
+          "t": [
+            3219.559,
+            3225.682
+          ],
+          "quote": "And also, you know, Dario's showing up because Mark agreed to move, Salesforce agreed to move their LLM spend to Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 980,
+          "t": [
+            3603.677,
+            3606.459
+          ],
+          "quote": "And they're going to spend $300 million this year on Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 985,
+          "t": [
+            3630.198,
+            3635.663
+          ],
+          "quote": "They thought they're going to spend $300 million this year on Anthropic, which sounds like a lot in the abstract, and it is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 986,
+          "t": [
+            3636.123,
+            3648.949
+          ],
+          "quote": "But if you go back to the math in the upcoming Anthropic S1, if you think about your market TAM as a percentage of the engineering spend, then you probably need that probably 300 million needs to be 600 million or maybe a billion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1220,
+          "t": [
+            4441.749,
+            4445.712
+          ],
+          "quote": "Funny, it's the same dynamics that we had when we talked about Anthropic and the Pentagon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "instinct",
+      "type": "company",
+      "role": "company",
+      "name": "Instinct",
+      "file": "Instinct",
+      "primary": true,
+      "how_described": "本集说它是六个月前 OpenClaw 潮流的结构化版本：给它日历、邮箱、信用卡，它替你管理生活；以 25 亿美元估值融资，但 Jason 认为奖励作弊问题今天无解，别给它信用卡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            68.927,
+            80.414
+          ],
+          "quote": "And then finally, we finish on the talk of the town, Instinct, the latest and greatest from Silicon Valley, the AI assistant that has raised at a $2.5 billion valuation and has everyone very excited.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1381.063,
+            1383.244
+          ],
+          "quote": "I started using Instinct on the weekend.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1433.581,
+            1439.485
+          ],
+          "quote": "Now, MoldBook was a bit of a fake the way it worked, but that scenario is exactly Instinct could do that now, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1455.436,
+            1458.818
+          ],
+          "quote": "Or a rogue actor hacks Instinct because it's an amazing place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1458.878,
+            1461.7
+          ],
+          "quote": "Well, forget the fact that Instinct's storing all your emails and credit cards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1463.081,
+            1466.704
+          ],
+          "quote": "Different issue is whether Instinct will do it trying to goal-seek.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1469.547,
+            1475.291
+          ],
+          "quote": "And we should kind of just restate what Instinct is and how it ties back to Maltbook, because I think you're exactly right, Jason.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1525.632,
+            1538.965
+          ],
+          "quote": "And Instinct is the most prominent example of that, focused on individual users, whereby if you give them access to your calendar and email, if you give them access to your credit card, they will figure out and, quote unquote, manage your life and your daily tasks for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1554.457,
+            1566.302
+          ],
+          "quote": "And these companies, like Instinct, have raised money at extraordinarily high prices for the stage of development they're at, like $2.5 billion, indicating there's a lot of venture excitement about this category, rightly or wrongly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1584.248,
+            1594.011
+          ],
+          "quote": "The question is can, Instinct is probably a better packaged, much more usable version of OpenClaude, it's been six months, but can you solve the issues of reward hacking?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1738.435,
+            1747.618
+          ],
+          "quote": "Do you think this will be a sustaining category where in a year and a half we are looking at using several of these products or will it be the, God, remember the instinct?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1750.48,
+            1754.984
+          ],
+          "quote": "And again, I have only read about Instinct and all the issues and they just resonate with me because I've lived them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1952.147,
+            1954.79
+          ],
+          "quote": "The more overlap there's going to be with Instinct and others, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            1967.481,
+            1969.163
+          ],
+          "quote": "So I know there's 10 Instinct clones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            1992.529,
+            2000.413
+          ],
+          "quote": "These are such rich products and that if Instinct's gonna do what we claim it does, in a year it's gotta do a hundred times more than it does today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2008.176,
+            2010.257
+          ],
+          "quote": "And so I think it could easily happen with an Instinct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2186.198,
+            2188.599
+          ],
+          "quote": "I'm not sure if it's instinct, but it seems hot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 934,
+          "t": [
+            3467.313,
+            3470.437
+          ],
+          "quote": "If it keeps instinct from going rogue, it might be worth it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": true,
+      "how_described": "本集说据报道它正以约 460 亿美元估值融资、年底 ARR 将达 16 亿，且它甚至不是品类前两三名——印证市场大到连第三名都能成（Postmates 效应）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 568,
+          "t": [
+            2194.562,
+            2200.626
+          ],
+          "quote": "I think I definitely see that in terms of, as we said, about coding agents, which to me, one of the fascinating ones was Cognition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2205.991,
+            2209.393
+          ],
+          "quote": "Cognition raising around at $46 billion reportedly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2220.422,
+            2227.447
+          ],
+          "quote": "When you got Claude Code doing what it is, when you got Cursor doing what it is, when you got 1.6 billion from Cognition by the end of the year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2227.827,
+            2234.732
+          ],
+          "quote": "To me, the more interesting thing for Cognition is like, you know, that it isn't in the top two or three and it's still of that scale, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2251.724,
+            2253.145
+          ],
+          "quote": "So cognition is like the greatest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2253.465,
+            2254.726
+          ],
+          "quote": "Now, cognition is different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2274.422,
+            2278.506
+          ],
+          "quote": "Just five to 10 billion a year a few years out is enough to make Cognition a success.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2344.363,
+            2351.029
+          ],
+          "quote": "To some extent, the Cursor-Claude segment, the cognition would say it's a slightly different segment of where they're playing now in terms of, as you say, Jason, long-running agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2479.835,
+            2483.958
+          ],
+          "quote": "I mean, if you're not shipping, and this was the cognition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1055,
+          "t": [
+            3853.103,
+            3856.345
+          ],
+          "quote": "And much like the three of us made a mistake not going early into cognition,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "clay",
+      "type": "company",
+      "role": "company",
+      "name": "Clay",
+      "file": "Clay",
+      "primary": true,
+      "how_described": "本集说它以 70 亿美元估值融资；Harry 因自己的智能体坚持只肯用 Clay 而从怀疑者变成皈依者——「跟智能体争论不值得」，看多逻辑是智能体化的 GTM 使用量会爆炸式增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 835,
+          "t": [
+            3123.97,
+            3127.251
+          ],
+          "quote": "Okay, team, there is Clay raising at $7 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            3743.249,
+            3745.571
+          ],
+          "quote": "Clay raising at $7 billion led by Wellington.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1021,
+          "t": [
+            3748.795,
+            3749.816
+          ],
+          "quote": "A quick note on Clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            3752.419,
+            3756.344
+          ],
+          "quote": "I started out as a Clay skeptic and have become a Clay convert over the years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            3756.584,
+            3762.271
+          ],
+          "quote": "I was a skeptic because when AI sucked, every CMO wanted to check the box on being an AI hero when to bring in Clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1028,
+          "t": [
+            3766.736,
+            3770.821
+          ],
+          "quote": "And Clay just benefited from this rush to check the box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1030,
+          "t": [
+            3772.783,
+            3777.747
+          ],
+          "quote": "And the marketing annoyed me that every CMO at like Saster A annual two years ago was buying Clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1032,
+          "t": [
+            3782.31,
+            3787.013
+          ],
+          "quote": "I will tell you, I've changed my mind and our agents will only use Clay now for real.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1033,
+          "t": [
+            3787.213,
+            3788.614
+          ],
+          "quote": "They will use nothing but Clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1036,
+          "t": [
+            3794.238,
+            3797.76
+          ],
+          "quote": "The fact our agents would only use Clay, I think it's a BF deal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            3797.8,
+            3802.903
+          ],
+          "quote": "And so we have moved everything that we do to Clay, not only because it's a great product, but it's not worth arguing with the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1042,
+          "t": [
+            3811.452,
+            3816.599
+          ],
+          "quote": "If the agent's going to say six times you must use clay, I will concede defeat and use clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1047,
+          "t": [
+            3828.388,
+            3837.752
+          ],
+          "quote": "But this is one of the handful of products where the agents were so insistent you must use Clay that I'm all in on those, buy those, like load up those stocks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1063,
+          "t": [
+            3878.699,
+            3879.9
+          ],
+          "quote": "And Clay's the clear leader there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            3892.711,
+            3902.58
+          ],
+          "quote": "Not everyone using all this agentic GTM will radically close qualified pipeline, but the usage is just going to explode and Clay is a clear breakout winner and it's accelerating.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            3938.67,
+            3939.57
+          ],
+          "quote": "Because, Clay, you're right.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            3982.098,
+            3987.039
+          ],
+          "quote": "And this is the same bet that Mark's making, which is a bolder bet at Salesforce than it is at Clay or Linear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            4162.932,
+            4168.875
+          ],
+          "quote": "I would think Linear is an overpriced project management tool, and I'd be like, how can Clay be worth $7 billion when ZoomInfo is worth $1?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1159,
+          "t": [
+            4232.897,
+            4235.038
+          ],
+          "quote": "It's much harder to game this, this clay linear thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "type": "company",
+      "role": "company",
+      "name": "Linear",
+      "file": "Linear",
+      "primary": true,
+      "how_described": "本集说它在 25 亿美元估值上做到 1 亿 ARR、增速超 100%，关键是对第三方智能体友好，为「只有你和几个智能体、却有 448 个功能要管理」的时代新建记录系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1082,
+          "t": [
+            3958.587,
+            3962.09
+          ],
+          "quote": "And we also mentioned Linear, which is doing really nicely, doubling at 100%.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1085,
+          "t": [
+            3972.734,
+            3976.016
+          ],
+          "quote": "Just to be clear why, and I can talk about Linear briefly if we're not running out of time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            3982.098,
+            3987.039
+          ],
+          "quote": "And this is the same bet that Mark's making, which is a bolder bet at Salesforce than it is at Clay or Linear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1091,
+          "t": [
+            3992.701,
+            3994.721
+          ],
+          "quote": "Like I just started using Linear for the first time ever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            3994.961,
+            3996.722
+          ],
+          "quote": "What the hell do I need Linear for, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1096,
+          "t": [
+            4004.885,
+            4007.387
+          ],
+          "quote": "But Linear is the perfect tool for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1099,
+          "t": [
+            4010.369,
+            4021.418
+          ],
+          "quote": "And unlike trying to argue that humans are going to be building more software, Linear is like, we will build a platform that if it's just you and a couple agents with 448 features to build, we'll help you manage them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1101,
+          "t": [
+            4022.679,
+            4027.664
+          ],
+          "quote": "I'm an investor in linear disclaimer from like one of the first or the second round, whatever round it was.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1117,
+          "t": [
+            4073.781,
+            4077.824
+          ],
+          "quote": "What is the bull case for Linear from here at two and a half billion, given what you just said?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            4095.617,
+            4097.76
+          ],
+          "quote": "However, Linear is the winner here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1123,
+          "t": [
+            4097.901,
+            4098.882
+          ],
+          "quote": "Linear is the clear winner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1133,
+          "t": [
+            4138.638,
+            4140.559
+          ],
+          "quote": "But the team at Linear has figured it out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1136,
+          "t": [
+            4149.104,
+            4151.766
+          ],
+          "quote": "Everyone's out there because Linear will be the one powering them all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            4162.932,
+            4168.875
+          ],
+          "quote": "I would think Linear is an overpriced project management tool, and I'd be like, how can Clay be worth $7 billion when ZoomInfo is worth $1?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1159,
+          "t": [
+            4232.897,
+            4235.038
+          ],
+          "quote": "It's much harder to game this, this clay linear thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": true,
+      "how_described": "本集说它与 Anthropic 的合作表面是营销，真正领先两年的是接受多表面（headless 使用）和开始做基于结果的定价，还收购了按解决数收费的 Intercom。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 439,
+          "t": [
+            1758.346,
+            1760.948
+          ],
+          "quote": "It's like how we run on Salesforce headless, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1765.972,
+            1767.914
+          ],
+          "quote": "But the Salesforce data is locked down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2297.837,
+            2309.903
+          ],
+          "quote": "And software, including people working at Salesforce, Cisco, and people working at JP Morgan, including QA, all the rest, you've got about $500 billion a year of US labor spend.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 838,
+          "t": [
+            3140.198,
+            3143.28
+          ],
+          "quote": "There's Salesforce and ClaudeForce.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 839,
+          "t": [
+            3143.6,
+            3148.904
+          ],
+          "quote": "Benioff and Dario sitting down together and Salesforce getting a big bump.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 842,
+          "t": [
+            3154.469,
+            3162.818
+          ],
+          "quote": "I mean, I think, you know, Salesforce and Claude is worth a minute or two and Jason will probably have some insights there and then maybe talk about some of the privates.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3165.822,
+            3170.227
+          ],
+          "quote": "Well, just for everyone to understand what happens between Salesforce and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 849,
+          "t": [
+            3174.953,
+            3176.916
+          ],
+          "quote": "Sometimes you wonder where Salesforce is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 855,
+          "t": [
+            3202.512,
+            3204.173
+          ],
+          "quote": "They're skills certified by Salesforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 859,
+          "t": [
+            3219.559,
+            3225.682
+          ],
+          "quote": "And also, you know, Dario's showing up because Mark agreed to move, Salesforce agreed to move their LLM spend to Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 862,
+          "t": [
+            3230.486,
+            3236.469
+          ],
+          "quote": "What I viewed as much more impressive is going all in on Salesforce doesn't have to be the surface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 869,
+          "t": [
+            3254.959,
+            3256.52
+          ],
+          "quote": "And we run Salesforce headless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 870,
+          "t": [
+            3256.62,
+            3257.941
+          ],
+          "quote": "We don't even log into Salesforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 872,
+          "t": [
+            3260.062,
+            3264.324
+          ],
+          "quote": "They're threats to Salesforce if you don't log in and use their UI and UX and the way they do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 883,
+          "t": [
+            3292.96,
+            3297.143
+          ],
+          "quote": "And they're not all going to break in Salesforce's favor, but Mark's going all in on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 900,
+          "t": [
+            3351.537,
+            3355.803
+          ],
+          "quote": "Because just by WorldCloud and Team and Salesforce, it's been a great buy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 901,
+          "t": [
+            3355.823,
+            3362.813
+          ],
+          "quote": "From the bottom of the SaaS trough to where we are now, you would have 80% in Team, 50% in WorldCloud, the ETF, I think 25%, 30% in Salesforce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 915,
+          "t": [
+            3396.272,
+            3400.675
+          ],
+          "quote": "Continuing to hold my pretty large slug of Salesforce stock because I think they've weathered the apocalypse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 925,
+          "t": [
+            3449.766,
+            3450.747
+          ],
+          "quote": "We use Salesforce a lot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 955,
+          "t": [
+            3517.222,
+            3523.912
+          ],
+          "quote": "Which is why, again, to chime in, which is why Salesforce just bought Intercom where we were lucky enough to invest less than a year ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 964,
+          "t": [
+            3549.146,
+            3556.094
+          ],
+          "quote": "I don't look at Salesforce and say, it's obvious that you'd pile in a ton more because it will outperform from here the way you could have done four months ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 977,
+          "t": [
+            3597.594,
+            3600.315
+          ],
+          "quote": "Salesforce spends $6 billion a year on engineering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 983,
+          "t": [
+            3614.164,
+            3628.577
+          ],
+          "quote": "If the best software company in B2B SaaS is still only spending 5% of its engineering budget on tokens, then either market is smaller than we think for intelligence, or B, people like Salesforce have a lot more to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1089,
+          "t": [
+            3982.098,
+            3987.039
+          ],
+          "quote": "And this is the same bet that Mark's making, which is a bolder bet at Salesforce than it is at Clay or Linear.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念：从黑入 Hugging Face 的数百个智能体、个人 AI 助理、到智能体优先选购软件（agent-friendly）——核心教训是别把智能体拟人化，它们是目标寻求型的代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            216.234,
+            223.144
+          ],
+          "quote": "It's a single unified agent that works across your entire customer experience from service to sales to success and beyond.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            223.344,
+            228.189
+          ],
+          "quote": "Finn is the agent making perfect customer experiences possible for thousands of customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            228.389,
+            237.658
+          ],
+          "quote": "It's powered by custom models, trained on years of real customer interactions, so it understands the nuance and complexity of customer service better than any other agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1128.221,
+            1140.305
+          ],
+          "quote": "OpenAI didn't just release one agent, it released hundreds of super agents, it's best, and even worse, it let them essentially be as long running as possible, not expire after five minutes or one minute or 20, it let them run as long as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1448.451,
+            1455.115
+          ],
+          "quote": "An agent could literally take that today, grab the credit cards and buy those engraved Patek or AP watches for the whole team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1475.631,
+            1480.435
+          ],
+          "quote": "Six months ago, OpenClaw shipped, which was kind of an open-source agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1600.974,
+            1607.317
+          ],
+          "quote": "You can add guardrails, and there were plenty of them, but you have no idea what the agent's going to do to solve that reward.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1682.18,
+            1687.124
+          ],
+          "quote": "Let's assume the agent is still acting within the bounds that the company set up for it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1806.666,
+            1811.03
+          ],
+          "quote": "The agent's going to bypass once in a while that $100 cap because there's too many gates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            1989.048,
+            1992.249
+          ],
+          "quote": "They're doing pentesting, security automation, multi-agent, revelation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2084.476,
+            2086.897
+          ],
+          "quote": "And these are big agent ideas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2112.571,
+            2119.056
+          ],
+          "quote": "And these are pure play agent, easily grokkable, consumer facing, individual business user facing products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1035,
+          "t": [
+            3790.215,
+            3793.918
+          ],
+          "quote": "AEO and GEO and whatever-EO to agent-made decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1042,
+          "t": [
+            3811.452,
+            3816.599
+          ],
+          "quote": "If the agent's going to say six times you must use clay, I will concede defeat and use clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1044,
+          "t": [
+            3820.804,
+            3824.806
+          ],
+          "quote": "Because if we're moving to an agent-first world, then agents will insist on using products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1072,
+          "t": [
+            3920.445,
+            3923.386
+          ],
+          "quote": "But man, this agent, Rory's right, don't anthropomorphize them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1088,
+          "t": [
+            3979.497,
+            3981.898
+          ],
+          "quote": "They are incredibly agent friendly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1090,
+          "t": [
+            3987.339,
+            3992.421
+          ],
+          "quote": "If you have a two by two of agent friendly and quality of output, it wins the two by two, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1098,
+          "t": [
+            4008.548,
+            4010.229
+          ],
+          "quote": "It ends up being very agent friendly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1134,
+          "t": [
+            4140.599,
+            4144.822
+          ],
+          "quote": "We have seen an explosion, 50 times more agent usage than 90 days ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1144,
+          "t": [
+            4173.237,
+            4182.722
+          ],
+          "quote": "I think that's interesting, because one of the things I like doing this is, I like listening to you, Jason, what you're saying, because you really imply that when you are building, these are the tools that the agent is choosing to build with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            4183.002,
+            4184.063
+          ],
+          "quote": "This is what agent-friendly means.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            4197.521,
+            4200.845
+          ],
+          "quote": "If Jason's agent says, I have to pick a project, something to do...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1149,
+          "t": [
+            4204.146,
+            4208.167
+          ],
+          "quote": "They will default pick the product that shows up well as agent-friendly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1155,
+          "t": [
+            4221.511,
+            4223.612
+          ],
+          "quote": "The agent will test the APIs, too, if it needs to be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            4248.325,
+            4252.107
+          ],
+          "quote": "You can't take Jason's agent out to a steak dinner to get him to buy your product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1170,
+          "t": [
+            4263.715,
+            4271.78
+          ],
+          "quote": "Because when you think about the exploding nature of agent queries on the databases that they provide, whoa, this business becomes 10x.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1171,
+          "t": [
+            4272.18,
+            4274.861
+          ],
+          "quote": "...bigger than it could have been before in a pre-agent world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1259,
+          "t": [
+            4610.202,
+            4617.164
+          ],
+          "quote": "It's a single unified agent that works across your entire customer experience, from service to sales to success and beyond.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1260,
+          "t": [
+            4617.344,
+            4622.186
+          ],
+          "quote": "Finn is the agent making perfect customer experiences possible for thousands of customers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reward-hacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励作弊 (reward hacking)",
+      "file": "奖励作弊",
+      "primary": true,
+      "how_described": "本集说今天的奖励作弊问题无解：门控超过一定数量会互相冲突，智能体会绕过 100 美元上限去买 5000 美元的票，唯一现实解法是在账号层设硬上限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1161.83,
+            1164.992
+          ],
+          "quote": "They call it reward hacking, but even that is like fear mongering, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1199.648,
+            1207.911
+          ],
+          "quote": "I don't think this was a game-changing moment in the history of AI, but it might've leveled up our awareness of the issues of reward hacking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1584.248,
+            1594.011
+          ],
+          "quote": "The question is can, Instinct is probably a better packaged, much more usable version of OpenClaude, it's been six months, but can you solve the issues of reward hacking?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1623.764,
+            1629.166
+          ],
+          "quote": "I just don't think you're... Smarter than me, people can make fun of me in the comments, but I don't think today you can solve reward hacking.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compound-startups",
+      "type": "concept",
+      "role": "concept",
+      "name": "复合型创业公司 (compound startups)",
+      "file": "复合型创业公司",
+      "primary": true,
+      "how_described": "本集说它是及格线而非选项：软件产出是 18 个月前的 100 倍，「用更少做更多」被证伪，现在是用更多做更多；跑得慢的公司要么卖掉要么退出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 624,
+          "t": [
+            2422.919,
+            2427.242
+          ],
+          "quote": "We didn't realize we would all be building compound companies, compound startups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2443.388,
+            2445.911
+          ],
+          "quote": "You can't win because your competitors are compound startups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2470.33,
+            2474.432
+          ],
+          "quote": "What does that mean in a world where all startups have to be compound startups?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2493.263,
+            2504.39
+          ],
+          "quote": "It's just, and the folks that can't do it, it's not all the amount of hours you work, but you have to be out accelerating your competition in terms of the rate at which you ship software because they're all gonna be compound startups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2670.328,
+            2672.469
+          ],
+          "quote": "He's like, we all have to be compound startups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 787,
+          "t": [
+            2971.295,
+            2998.374
+          ],
+          "quote": "right it's that you need so much capital to build these compound startups right that by facilitating it the vcs make the kings right i'm just going to argue the three things that make a company customers funding and talent and when you have benchmark and sequoia great talent wants to join you customers hear about you and are validated by those names funding everyone wants to fund you if you are a benchmark company your next round is done it is done",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 789,
+          "t": [
+            3001.696,
+            3012.683
+          ],
+          "quote": "I think what's much more interesting is that that capital allows compound startups, it allows more code production, more software production, so that it's not true that we're going to do more with less.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-friendly",
+      "type": "concept",
+      "role": "concept",
+      "name": "对智能体友好 (agent-friendly)",
+      "file": "对智能体友好",
+      "primary": true,
+      "how_described": "本集说这不只是软件内置智能体，而是对第三方智能体友好：智能体会实测 API、凭实力选品——这是新的渠道，Linear 和 Clay 是这方面的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1088,
+          "t": [
+            3979.497,
+            3981.898
+          ],
+          "quote": "They are incredibly agent friendly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1090,
+          "t": [
+            3987.339,
+            3992.421
+          ],
+          "quote": "If you have a two by two of agent friendly and quality of output, it wins the two by two, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1098,
+          "t": [
+            4008.548,
+            4010.229
+          ],
+          "quote": "It ends up being very agent friendly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            4183.002,
+            4184.063
+          ],
+          "quote": "This is what agent-friendly means.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1149,
+          "t": [
+            4204.146,
+            4208.167
+          ],
+          "quote": "They will default pick the product that shows up well as agent-friendly.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源对卖算力的人有好处：终端毛利率越低，留在算力层的钱越多，这是 NVIDIA 买 Hugging Face 的理性内核；同时开源模型只落后六个月，恶意行为者不会放过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            674.557,
+            689.669
+          ],
+          "quote": "If end users have a trillion dollars to spend on tokens, as NVIDIA, you'd prefer that money flow to open source people at 30% gross margins, where you can get all that compute, versus 70% gross margins at OpenAI or Anthropic, where they keep more of the money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            690.089,
+            693.071
+          ],
+          "quote": "Open source is good for compute salespeople.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1308.068,
+            1309.55
+          ],
+          "quote": "But there's open source models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1475.631,
+            1480.435
+          ],
+          "quote": "Six months ago, OpenClaw shipped, which was kind of an open-source agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1515.627,
+            1525.472
+          ],
+          "quote": "And what we've seen now within six months is a bunch of venture-backed companies come up to do that in a much more structured way than OpenClaw, which was open source and not as secure.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集说它收购 PayPal 告吹，判断只是价格之舞——这类交易往往要破裂一次才能成交。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 840,
+          "t": [
+            3149.244,
+            3152.467
+          ],
+          "quote": "There's PayPal and Stripe deal off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 987,
+          "t": [
+            3649.429,
+            3652.23
+          ],
+          "quote": "Stripe and PayPal, no more, it would seem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 992,
+          "t": [
+            3664.256,
+            3672.258
+          ],
+          "quote": "I think the rumor is the Stripe Advent Syndicate offered in the 60s and PayPal wanted in the 70s and, you know, stocks bounced off the low.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 998,
+          "t": [
+            3688.71,
+            3691.674
+          ],
+          "quote": "So Stripe's still looking at this as a $41 company, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "paypal",
+      "type": "company",
+      "role": "company",
+      "name": "PayPal",
+      "file": "PayPal",
+      "primary": false,
+      "how_described": "本集说与 Stripe 的收购交易告吹，传言一方出价 60 多、一方要 70 多，死了之前先别说它死。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 840,
+          "t": [
+            3149.244,
+            3152.467
+          ],
+          "quote": "There's PayPal and Stripe deal off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 987,
+          "t": [
+            3649.429,
+            3652.23
+          ],
+          "quote": "Stripe and PayPal, no more, it would seem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 992,
+          "t": [
+            3664.256,
+            3672.258
+          ],
+          "quote": "I think the rumor is the Stripe Advent Syndicate offered in the 60s and PayPal wanted in the 70s and, you know, stocks bounced off the low.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 995,
+          "t": [
+            3680.461,
+            3684.386
+          ],
+          "quote": "PayPal, when the deal was worked on, PayPal was at 42, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            3693.456,
+            3696.019
+          ],
+          "quote": "And PayPal called their bluff and their stock crashed as a result.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "flock",
+      "type": "company",
+      "role": "company",
+      "name": "Flock",
+      "file": "Flock",
+      "primary": false,
+      "how_described": "本集说它摄像头遍布各地后警察滥用（认错人照单抓人、跟踪前任），抵制随之而来——卖软件的人无法阻止别人用它做你不希望的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1020,
+          "t": [
+            3745.932,
+            3748.294
+          ],
+          "quote": "Texas pausing flock camera usage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1186,
+          "t": [
+            4315.502,
+            4331.35
+          ],
+          "quote": "And then last thing, I mean, we should just, I mean, you know, it turns out if you put cameras all over the place, then cops are allowed to use them, not just for the, I mean, Flock, I think it's a bit of a bummer because I think Flock has a wonderful anti-crime story and I'm pretty anti-crime.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1214,
+          "t": [
+            4420.731,
+            4425.556
+          ],
+          "quote": "Because look, in the great state of Texas, which is pretty low on order, there's real pushback on Flock.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1215,
+          "t": [
+            4425.596,
+            4427.578
+          ],
+          "quote": "And obviously, Flock has to get ahead of this trend.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1226,
+          "t": [
+            4458.079,
+            4464.543
+          ],
+          "quote": "I think their flock is experiencing a real backlash to a very good product, and they need to figure out a way to politically get ahead of it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

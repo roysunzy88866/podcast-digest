@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Justine Moore]] · [[Anish Acharya]] · [[生成式媒体]] · [[Jen Ka]] · [[微剧]] · [[Salesforce]] · [[创作者经济]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":78,"Anthropic":92,"Justine Moore":1,"Anish Acharya":1,"生成式媒体":1,"Jen Ka":1,"微剧":1,"Salesforce":10,"创作者经济":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":79,"Anthropic":92,"Justine Moore":1,"Anish Acharya":1,"生成式媒体":1,"Jen Ka":1,"微剧":1,"Salesforce":11,"创作者经济":1}</script>
 
 <script>
 (function(){

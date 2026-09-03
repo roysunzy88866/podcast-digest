@@ -146,9 +146,9 @@ Ryan 持续主张的一个核心信念是：AI 公司应该确保它们的 AI �
 
 **换个口味**
 
+- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Anthropic · 同概念:奖励黑客 (reward hacking)、智能体 (agent)</span>
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Anthropic · 同概念:智能体 (agent)</span>
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:RL、推理 (reasoning)</span>
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

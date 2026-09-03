@@ -29,7 +29,6 @@ unlisted: true
 - **[[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]]**(04:35起):本集在提到 Claude code 时致敬了 Anthropic 和那里的团队
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(04:32起):本集将其与 OpenAI 并列为最前沿的 AI 模型公司，指出其同样在增加人手并投资大型咨询公司。
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(06:46起):本集提到它的 CEO 曾宣称 90% 到 100% 的代码都由 AI 编写，但 Claude 源代码泄露后，真正的架构师一看主循环代码全吐了，因为代码分层极其糟糕、脆弱且无法维护。
-- **[[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]]**(00:00起):本集讨论的公司：发布了新模型档位 Mythos 级的第一个正式版本 Claude Fable 5,并配套推出 Cloud Managed Agents、fallback API 等产品。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(15:14起):本集在讨论 AI 个性时，随口提到了 Anthropic 的新模型 Fable 及其个性。
 - **[[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]]**(06:39起):本集说在 Anthropic 和 DeepMind 等大实验室里，研究和工程之间没有明确界限；也提到 Anthropic 在伦敦做机制可解释性研究
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(00:00起):Fiona Fung 当前所在的公司，其工程师平均每个季度的代码量是 2025 年时的八倍。
@@ -102,6 +101,7 @@ unlisted: true
 - **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(35:42起):本集提到 Anthropic 自己没有市面上的嵌入模型，因此推荐 Voyage。
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(33:33起):本集在讨论 SPV 问题时被提及，说有很多关于它和 SPV 的新闻，顶级公司对此很痛苦
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(12:15起):本集给出的数据:Anthropic/Claude 约每 60000 次爬取才向出版商送来 1 次点击,且该比率一年内翻倍;Google 抓取量是它的四倍多。
+- **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(06:01起):本集说它与 NVIDIA 有 350 亿美元数据中心交易、重申乐意继续向 Cursor 供货、曾对 Windsurf 做过同样的事，并与 Salesforce 达成每年 3 亿美元的 LLM 支出合作。
 
 ## ① 提到它的金句
 
@@ -159,7 +159,6 @@ unlisted: true
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为被讨论公司
-- [[2026-06-09-howiai-claude-fable-5-review-what-the-new-mytho|《Claude Fable 5 亲测：最聪明模型的能干与不能干》]] — 作为被讨论公司
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为被讨论公司(提及)
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|《Anthropic 零信任框架：智能体安全的六层防御》]] — 作为被讨论公司
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
@@ -233,14 +232,15 @@ unlisted: true
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为被讨论公司(提及)
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为被讨论公司(提及)
+- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[沙箱]] · [[Google]] · [[NVIDIA]] · [[Meta]] · [[推理]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[NVIDIA]] · [[Google]] · [[Meta]] · [[沙箱]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":78,"Lenny":66,"Claude Code":46,"Claude":46,"沙箱":36,"Google":35,"NVIDIA":24,"Meta":25,"推理":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":79,"Lenny":66,"Claude Code":45,"Claude":46,"NVIDIA":25,"Google":35,"Meta":25,"沙箱":35,"推理":4}</script>
 
 <script>
 (function(){
