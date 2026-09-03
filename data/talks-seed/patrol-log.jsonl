@@ -585,3 +585,7 @@
 {"ts":"2026-09-02T01:59:41.775Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
 {"ts":"2026-09-02T07:42:55.053Z","action":"git-pull-failed","videoId":null,"error":"error: RPC failed; curl 28 Failed to connect to github.com port 443 after 75006 ms: Couldn't connect to server\nfatal: expected flush after ref listing\n"}
 {"ts":"2026-09-02T13:41:32.183Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Error in the HTTP2 framing layer\n"}
+{"ts":"2026-09-03T01:40:20.268Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
+{"ts":"2026-09-03T01:40:24.882Z","action":"discover-error","channel":"axios","videoId":null,"error":"fetch failed"}
+{"ts":"2026-09-03T01:40:29.885Z","action":"discover-error","channel":"langchain","videoId":null,"error":"fetch failed"}
+{"ts":"2026-09-03T01:41:08.213Z","action":"discover-error","channel":"stripe","videoId":null,"error":"fetch failed"}
