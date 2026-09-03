@@ -23,6 +23,9 @@ const TASTE_FILE = join(ROOT, "需求共创/内容品味档案.md");
 // (与 translate 同模型;判标题一集几百 token,月费角钱级;过载不再靠运气)。
 export const TASTE_JUDGE_MODEL = process.env.TASTE_JUDGE_MODEL || "glm-4.6";
 const TASTE_MAX = 20000; // 活文档失控膨胀会撑爆上下文(同 patrol 口径)
+// W3(2026-09-03 用户拍板「内容来源与审核整理」):判官此前拿不到发布日 → 86 天前的 Fable 5 测评畅通无阻。
+// 时效性题材(模型发布/评测/要闻/榜单/活动)超过 N 天判过时;常青内容(访谈/方法论/公司故事)不看日期。env 只认非负整数。
+export const JUDGE_FRESHNESS_DAYS = /^\d+$/.test(String(process.env.JUDGE_FRESHNESS_DAYS ?? "").trim()) ? Number(process.env.JUDGE_FRESHNESS_DAYS) : 14;
 
 // ── 纯逻辑(可单测)──────────────────────────────────────
 
@@ -66,12 +69,23 @@ export function shouldProcess(verdict, judgeFailed = false) {
     : { ok: false, why: verdict.reason };
 }
 
-/** 喂给判官的输入(标题+时长+源名)。抽出来是为了可测:改字段不会静默丢信息。 */
-export function judgeInput(item, source) {
+/** 发布日距今几天(按日历日,两头都取日期段;算不出 → null)。 */
+export function ageDays(pubDateISO, todayISO) {
+  const p = Date.parse(`${String(pubDateISO ?? "").slice(0, 10)}T00:00:00.000Z`);
+  const t = Date.parse(`${String(todayISO ?? "").slice(0, 10)}T00:00:00.000Z`);
+  if (!Number.isFinite(p) || !Number.isFinite(t)) return null;
+  return Math.max(0, Math.round((t - p) / 86400e3));
+}
+
+/** 喂给判官的输入(标题+时长+源名+发布日)。抽出来是为了可测:改字段不会静默丢信息。 */
+export function judgeInput(item, source, { todayISO } = {}) {
+  const age = ageDays(item?.pubDateISO, todayISO);
+  const pub = /^\d{4}-\d{2}-\d{2}/.test(String(item?.pubDateISO ?? "")) ? String(item.pubDateISO).slice(0, 10) : "";
   return [
     `播客:${source?.name ?? source?.key ?? "未知"}`,
     `标题:${item?.title ?? ""}`,
     `时长:${Number(item?.durationSec) > 0 ? Math.round(item.durationSec / 60) + " 分钟" : "未知"}`,
+    pub && age != null ? `发布日:${pub}(距今 ${age} 天)` : "发布日:未知",
   ].join("\n");
 }
 
@@ -88,7 +102,7 @@ function tasteDoc() {
 }
 
 /** 判一集。返回 {ok, why, verdict}。绝不抛 —— 判官出任何问题都退化为放行(见 shouldProcess)。 */
-export function judgeEpisodeTaste(item, source) {
+export function judgeEpisodeTaste(item, source, opts = {}) {
   const taste = tasteDoc();
   if (!taste) return { ...shouldProcess(null, true), verdict: null };
   const system = [
@@ -98,12 +112,13 @@ export function judgeEpisodeTaste(item, source) {
     "────────────────────────",
     '只输出一行 JSON:{"verdict":"对味"|"不对味","reason":"一句话理由"}。',
     "只看题材是否落在档案的收录范围内 —— 不评价内容质量、不猜测未公开信息。",
+    `时效规则:输入含「发布日(距今 N 天)」。若题材属时效性内容(模型发布/评测/版本对比/本周要闻/榜单/活动预告)且距今超过 ${JUDGE_FRESHNESS_DAYS} 天(档案若写了别的天数,以此处为准)→ 判「不对味」,reason 以「过时:」开头。人物访谈、方法论、公司/创始人故事、产业格局等常青内容不受发布日影响。`,
     '拿不准时判「不对味」,reason 以「拿不准:」开头(少发 ≪ 发离题;漏掉的可人工点名补)。',
   ].join("\n");
   // timeout 必设(GLM 038[6]):glm-ask 网络挂起时没有它整条流水线同步卡死;
   // 超时后 status=null ≠ 0 → 自然落进「调不通 → 放行」分支,符合设计。
   const r = spawnSync("python3", [join(ROOT, "tools/glm-ask"), "--model", TASTE_JUDGE_MODEL,
-    "--system", system, "--max-tokens", "200", judgeInput(item, source)],
+    "--system", system, "--max-tokens", "200", judgeInput(item, source, opts)],
     { cwd: ROOT, encoding: "utf8", maxBuffer: 8 * 1024 * 1024, timeout: 90_000 });
   if (r.status !== 0) {
     console.error(`   ⚠️ 品味判官调不通(exit ${r.status}):${(r.stderr || "").slice(-160)}`);

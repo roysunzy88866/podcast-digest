@@ -1304,7 +1304,7 @@ function processBackfillPicks(pairs, state) {
     if (bv === "skip") continue; // 这集太长 → 跳过试同批下一条(更短能放下的),别 break 掉整批(2026-08-24 真凶)
     processed += 1; // 到这就要花成本了(判官本身也是 GLM 调用),计入护栏 —— 判官拒也算(GLM 001[2]:否则一池 off-taste 集会空转几百次判官)
     // C34:补历史同样先判题材(它挑「最新」,更容易撞上泛题材源的偏题集 —— 222 纳米光那集就是这么来的)
-    const taste = judgeEpisodeTaste(item, source);
+    const taste = judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
     if (!taste.ok) {
       console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
       appendSkip(state, { id, reason: `题材不对味:${taste.why}`, title: item.title, pubDate: item.pubDateISO });
@@ -1627,7 +1627,7 @@ async function processSource(source, state, { backfillN, dryRun }) {
     }
     const id = deriveId(item, source);
     // C34:开工前先过品味判官(标题级,免费档)。偏题 = 终态(retry:false),cutoff 可推进过它、不再重判重烧。
-    const taste = judgeEpisodeTaste(item, source);
+    const taste = judgeEpisodeTaste(item, source, { todayISO: bjDay() }); // W3:判官看发布日(时效规则)
     if (!taste.ok) {
       console.log(`   🚫 ${id} 题材不对味,不做:${taste.why}`);
       appendSkip(state, { id, reason: `题材不对味:${taste.why}`, title: item.title, pubDate: item.pubDateISO });

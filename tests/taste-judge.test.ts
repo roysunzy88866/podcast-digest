@@ -4,7 +4,7 @@
 // 铁律:测试不碰 glm-ask、不读网络(副作用只在 judgeEpisodeTaste 的 spawnSync 里)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseVerdict, judgeAllows, shouldProcess, judgeInput, TASTE_JUDGE_MODEL } from "../scripts/taste-judge.mjs";
+import { parseVerdict, judgeAllows, shouldProcess, judgeInput, TASTE_JUDGE_MODEL, JUDGE_FRESHNESS_DAYS, ageDays } from "../scripts/taste-judge.mjs";
 
 describe("parseVerdict", () => {
   it("认得出规范输出", () => {
@@ -65,10 +65,11 @@ describe("judgeInput · 喂给判官的信息不许静默丢", () => {
 describe("接线源码锚 · 两条路都要判(删掉任一处都会红)", () => {
   const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
   it("★★★ 新集与补历史都在处理前判题材 —— 且顺序真的在 processEpisode 之前(GLM 038[9])", () => {
-    expect((src.match(/judgeEpisodeTaste\(item, source\)/g) ?? []).length).toBe(2);
+    // W3:两处都把今天传给判官(时效规则要日期);串形不同了锚也跟着改
+    expect((src.match(/judgeEpisodeTaste\(item, source, \{ todayISO: bjDay\(\) \}\)/g) ?? []).length).toBe(2);
     let from = 0;
     for (let i = 0; i < 2; i++) {
-      const j = src.indexOf("judgeEpisodeTaste(item, source)", from);
+      const j = src.indexOf("judgeEpisodeTaste(item, source, { todayISO: bjDay() })", from);
       const p = src.indexOf("processEpisode(item, id, source, state)", j);
       expect(j).toBeGreaterThan(0);
       expect(p).toBeGreaterThan(j); // 判官在前,processEpisode 在后
@@ -84,5 +85,35 @@ describe("接线源码锚 · 两条路都要判(删掉任一处都会红)", () =
   it("★★ 判官用付费档 glm-4.6([standard-change: 用户授权 2026-08-22]:免费档夜间 1305 整班停摆,把关不能靠运气)", () => {
     expect(TASTE_JUDGE_MODEL).toBe("glm-4.6");
     expect(TASTE_JUDGE_MODEL).not.toContain("flash");
+  });
+});
+
+describe("W3 · 判官看发布日 + 时效规则(2026-09-03 用户拍板;此前 86 天前的 Fable 5 测评畅通无阻)", () => {
+  const src = readFileSync(new URL("../scripts/taste-judge.mjs", import.meta.url), "utf8");
+  const doc = readFileSync(new URL("../需求共创/内容品味档案.md", import.meta.url), "utf8");
+  it("★★★ 输入多一行「发布日:YYYY-MM-DD(距今 N 天)」—— 复现真凶:2026-06-09 发布、9-3 判 → 86 天", () => {
+    const s = judgeInput({ title: "Claude Fable 5 review", pubDateISO: "2026-06-09T11:00:00.000Z", durationSec: 1041 }, { name: "How I AI" }, { todayISO: "2026-09-03" });
+    expect(s).toContain("发布日:2026-06-09(距今 86 天)");
+    expect(s).toContain("播客:How I AI"); // 原三行不丢
+  });
+  it("★★ 没发布日 / 没传今天 → 「发布日:未知」,不炸", () => {
+    expect(judgeInput({ title: "x" }, { name: "P" }, { todayISO: "2026-09-03" })).toContain("发布日:未知");
+    expect(judgeInput({ title: "x", pubDateISO: "2026-09-01T00:00:00.000Z" }, { name: "P" })).toContain("发布日:未知");
+    expect(ageDays("garbage", "2026-09-03")).toBe(null);
+    expect(ageDays("2026-09-03T23:00:00.000Z", "2026-09-03")).toBe(0); // 同日不出负数
+  });
+  it("★★★ 时效规则真喂给了判官(system prompt 含规则与阈值),阈值默认 14 天", () => {
+    // env 只认非负整数(0 合法):与解析口径比对,不假红(GLM 011[1])
+    const envRaw = String(process.env.JUDGE_FRESHNESS_DAYS ?? "").trim();
+    expect(JUDGE_FRESHNESS_DAYS).toBe(/^\d+$/.test(envRaw) ? Number(envRaw) : 14);
+    expect(src).toContain("以此处为准"); // env 覆盖时 prompt 阈值压过档案里的数字(GLM 011[3])
+    expect(src).toContain("时效规则");
+    expect(src).toMatch(/距今超过 \$\{JUDGE_FRESHNESS_DAYS\} 天/);
+    expect(src).toContain("常青内容不受发布日影响");
+  });
+  it("★★★ 品味档案(判官唯一知识源)有 ⏳ 时效节,且仍在 TASTE_MAX 之内", () => {
+    expect(doc).toContain("## ⏳ 时效");
+    expect(doc).toContain("超过 14 天即过时");
+    expect(doc.length).toBeLessThan(20000);
   });
 });
