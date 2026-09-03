@@ -23,6 +23,11 @@ const TASTE_FILE = join(ROOT, "需求共创/内容品味档案.md");
 // (与 translate 同模型;判标题一集几百 token,月费角钱级;过载不再靠运气)。
 export const TASTE_JUDGE_MODEL = process.env.TASTE_JUDGE_MODEL || "glm-4.6";
 const TASTE_MAX = 20000; // 活文档失控膨胀会撑爆上下文(同 patrol 口径)
+// ⚠️ 2026-09-04 实账(drift #82):原来写死 200,而服务端把 glm-4.6 路由到更啰嗦的 glm-5.3-flash,
+//    200 token 恰好把 JSON 截断在 `{"verdict":"对味","reason` → parseVerdict 认不出 → 走 fail-open 放行。
+//    结果:判官**静默全放**(留痕 10/10 全是「调不通/认不出」),❌ 题材(如 Fable 5 模型评测)照样上站。
+//    实测同一问题:200 → 截断认不出;800 → 完整 JSON(实际只用 165-180 token),留足余量。
+export const JUDGE_MAX_TOKENS = 800;
 // W3(2026-09-03 用户拍板「内容来源与审核整理」):判官此前拿不到发布日 → 86 天前的 Fable 5 测评畅通无阻。
 // 时效性题材(模型发布/评测/要闻/榜单/活动)超过 N 天判过时;常青内容(访谈/方法论/公司故事)不看日期。env 只认非负整数。
 export const JUDGE_FRESHNESS_DAYS = /^\d+$/.test(String(process.env.JUDGE_FRESHNESS_DAYS ?? "").trim()) ? Number(process.env.JUDGE_FRESHNESS_DAYS) : 14;
@@ -137,12 +142,14 @@ export function judgeEpisodeTaste(item, source, opts = {}) {
   // timeout 必设(GLM 038[6]):glm-ask 网络挂起时没有它整条流水线同步卡死;
   // 超时后 status=null ≠ 0 → 自然落进「调不通 → 放行」分支,符合设计。
   const r = spawnSync("python3", [join(ROOT, "tools/glm-ask"), "--model", TASTE_JUDGE_MODEL,
-    "--system", system, "--max-tokens", "200", judgeInput(item, source, opts)],
+    "--system", system, "--max-tokens", String(JUDGE_MAX_TOKENS), judgeInput(item, source, opts)],
     { cwd: ROOT, encoding: "utf8", maxBuffer: 8 * 1024 * 1024, timeout: 90_000 });
   if (r.status !== 0) {
     console.error(`   ⚠️ 品味判官调不通(exit ${r.status}):${(r.stderr || "").slice(-160)}`);
     return { ...shouldProcess(null, true), verdict: null };
   }
   const verdict = parseVerdict(r.stdout);
+  // 解析不出 = fail-open 放行,但**必须响亮**:静默放行会让判官整月停摆而无人察觉(drift #82 就是这么埋了很久)
+  if (!verdict) console.error(`   ⚠️ 品味判官输出认不出 → 放行(fail-open)。原样开头:${JSON.stringify(String(r.stdout ?? "").slice(0, 120))}`);
   return { ...shouldProcess(verdict, false), verdict };
 }

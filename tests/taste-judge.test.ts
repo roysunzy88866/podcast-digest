@@ -4,7 +4,7 @@
 // 铁律:测试不碰 glm-ask、不读网络(副作用只在 judgeEpisodeTaste 的 spawnSync 里)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseVerdict, judgeAllows, shouldProcess, judgeInput, TASTE_JUDGE_MODEL, JUDGE_FRESHNESS_DAYS, ageDays, judgeLogEntry } from "../scripts/taste-judge.mjs";
+import { parseVerdict, judgeAllows, shouldProcess, judgeInput, TASTE_JUDGE_MODEL, JUDGE_FRESHNESS_DAYS, ageDays, judgeLogEntry, JUDGE_MAX_TOKENS } from "../scripts/taste-judge.mjs";
 
 describe("parseVerdict", () => {
   it("认得出规范输出", () => {
@@ -144,5 +144,23 @@ describe("W2 · 判官留痕(放行与拒绝都记;此前只记拒绝,过审的�
     expect(rp).toContain('path: "new"');
     expect(rp).toContain('path: "topup"');
     expect(rp).toContain('"data/judge-log.jsonl"');
+  });
+});
+
+describe("drift #82 · 判官 token 预算(200 会把 JSON 截断成认不出 → 静默全放)", () => {
+  const src = readFileSync(new URL("../scripts/taste-judge.mjs", import.meta.url), "utf8");
+  it("★★★ 实账复现:服务端把 glm-4.6 路由到更啰嗦的 glm-5.3-flash,200 token 恰好截断在 reason 前 → parseVerdict 认不出", () => {
+    // 这就是当时真实收到的半截输出(out 恰好 200 token 被砍)
+    expect(parseVerdict('{"verdict":"对味","reason')).toBe(null);
+    expect(parseVerdict('{"verdict":"对味","reason":"完整的理由"}')).toEqual({ verdict: "对味", reason: "完整的理由" });
+  });
+  it("★★★ 预算必须够放完整 JSON:实测完整回答用 165-180 token,故不得低于 800", () => {
+    expect(JUDGE_MAX_TOKENS).toBeGreaterThanOrEqual(800);
+    expect(src).toContain('String(JUDGE_MAX_TOKENS)'); // 不许再写死字面量
+    expect(src).not.toMatch(/"--max-tokens", *"200"/);
+  });
+  it("★★★ 解析不出必须响亮告警 —— 静默 fail-open 会让判官整月停摆无人察觉(本次就是留痕才发现)", () => {
+    expect(src).toMatch(/if \(!verdict\) console\.error/);
+    expect(src).toContain("认不出 → 放行(fail-open)");
   });
 });

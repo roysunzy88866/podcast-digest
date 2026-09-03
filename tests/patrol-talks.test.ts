@@ -197,3 +197,13 @@ describe("parseDotEnv(.env 载入,key 用户自持不进仓)", () => {
     expect("EMPTY" in env).toBe(true);
   });
 });
+
+describe("drift #82 · 演讲巡航判官同一 token 预算 bug", () => {
+  it("★★★ max-tokens 已从 200 提到 800(200 会截断 JSON → 判官静默全放,off-taste 演讲照样落种)", () => {
+    const src = readFileSync(resolve(FIX, "..", "..", "scripts", "patrol-talks.mjs"), "utf8");
+    // 与 taste-judge 共用同一常量,不再各写一份(GLM 006[1]:双份真相必然再次跑偏)
+    expect(src).toContain('String(JUDGE_MAX_TOKENS)');
+    expect(src).toMatch(/import \{ JUDGE_MAX_TOKENS \} from "\.\/taste-judge\.mjs"/);
+    expect(src).not.toMatch(/"--max-tokens", *"200"/);
+  });
+});

@@ -27,6 +27,7 @@ import { spawnSync } from "node:child_process";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { xmlUnescape } from "./build-feed.mjs"; // isMain 守卫,import 无副作用
+import { JUDGE_MAX_TOKENS } from "./taste-judge.mjs"; // 单一真相:两个判官共用一个 token 预算(drift #82:两处各写一份必然再次跑偏)
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SUBS_FILE = join(ROOT, "data/talk-subscriptions.json");
@@ -324,7 +325,8 @@ function askJudge(video, sub) {
     `简介:${String(video.description ?? "").slice(0, 1200) || "(无)"}`,
   ].join("\n");
   // 仓库自带 tools/glm-ask(key 读 ZHIPU_API_KEY env 或 ~/.config/zhipu/api_key;.env 已由 loadDotEnv 注入)
-  const r = sh("python3", [join(ROOT, "tools/glm-ask"), "--model", JUDGE_MODEL, "--system", system, "--max-tokens", "200", input]);
+  // token 预算与 taste-judge 共用同一常量(drift #82:原写死 200 会把 JSON 截断成认不出 → 判官全线失效)
+  const r = sh("python3", [join(ROOT, "tools/glm-ask"), "--model", JUDGE_MODEL, "--system", system, "--max-tokens", String(JUDGE_MAX_TOKENS), input]);
   if (r.status !== 0) throw new Error(`glm-ask exit ${r.status}:${(r.stderr || "").slice(-200)}`);
   return r.stdout;
 }
