@@ -564,13 +564,16 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
     const long = estimateEpisodeMin(120 * 60, true);
     expect(long).toBeGreaterThan(short * 2);
   });
-  it("★★ 转写倍率不低于实测(185 分 ÷ ≈100 分音频);低估=又被杀", () => {
-    expect(TRANSCRIBE_RATIO).toBeGreaterThanOrEqual(1.8);
-    expect(estimateEpisodeMin(100 * 60, true)).toBeGreaterThanOrEqual(185);
+  it("★★★ 转写倍率校准到 turbo 实测 1.45×,并留余量(drift #89):既不低估被杀、也不高估白占预算", () => {
+    // 实测两集同为 1.45×(165分/114分、55分/38分);取 1.65 = 实测 +14%,回落 large-v3(2.0×)时只小幅低估
+    expect(TRANSCRIBE_RATIO).toBeGreaterThanOrEqual(1.5); // 低于此=低估,班次会冲破 timeout(09-03 两班实账)
+    expect(TRANSCRIBE_RATIO).toBeLessThanOrEqual(1.8);    // 高于此=按老 large-v3 估,白白少排集
+    expect(estimateEpisodeMin(100 * 60, true)).toBeGreaterThanOrEqual(145 + POST_CHAIN_MIN);
   });
   it("★★ 有现成稿的集只算后链(C28 便宜通道不该被估时误伤成「来不及」)", () => {
     expect(estimateEpisodeMin(120 * 60, false)).toBe(POST_CHAIN_MIN);
-    expect(hasTimeBudget(250, estimateEpisodeMin(120 * 60, false))).toBe(true); // 已跑 250 分仍能补一集便宜的
+    // 相对预算表达(别写死分钟数:预算一调这条就假红)——剩余恰好够一集便宜的时仍要放行
+    expect(hasTimeBudget(JOB_BUDGET_MIN - POST_CHAIN_MIN, estimateEpisodeMin(120 * 60, false))).toBe(true);
   });
   describe("timeBudgetVerdict · 长集 skip 而非 break 整批(2026-08-24 真凶)", () => {
     it("★★★ 复现今天:已跑 2 分、这集估 337 分(154分音频)→ 不是 stop、是 skip(预算剩 298 分还够做更短的)", () => {
@@ -587,9 +590,28 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
       expect(timeBudgetVerdict(JOB_BUDGET_MIN - POST_CHAIN_MIN - 1, 999)).toBe("skip");
     });
   });
-  it("★★ 预算留在平台上限内(workflow timeout 330;预算 300 + 回仓收尾)", () => {
-    expect(JOB_BUDGET_MIN).toBeLessThanOrEqual(330);
-    expect(360 - JOB_BUDGET_MIN).toBeGreaterThanOrEqual(30);
+  it("★★★ 预算必须给「编排器之外」留够(drift #89:09-03 两班恰在 330 分被砍,砍掉的正是部署步)", () => {
+    const y = readFileSync(new URL("../.github/workflows/pipeline.yml", import.meta.url), "utf8");
+    const timeout = Number(y.match(/^\s*timeout-minutes:\s*(\d+)/m)?.[1]);
+    expect(timeout).toBeLessThanOrEqual(360); // 平台上限;具体值不硬钉(钉了下次微调就假红,GLM 027[2])
+    const OVERHEAD = 17; // 实测:装机 ~5 + 兜底 1 + 建站部署 10 + 回仓 ~1
+    expect(JOB_BUDGET_MIN + OVERHEAD).toBeLessThan(timeout);
+    // 估错缓冲:一集估价失准时能被吸收,不至于连部署一起被砍
+    expect(timeout - OVERHEAD - JOB_BUDGET_MIN).toBeGreaterThanOrEqual(45);
+  });
+  it("★★★ 最坏情形:一集回落 large-v3(2.0×)在最晚时刻启动,仍不能撞 timeout(GLM 027[1] 的场景)", () => {
+    const y = readFileSync(new URL("../.github/workflows/pipeline.yml", import.meta.url), "utf8");
+    const timeout = Number(y.match(/^\s*timeout-minutes:\s*(\d+)/m)?.[1]);
+    const OVERHEAD = 17;
+    // 预算用的是**真实流逝时间**(elapsedMin = Date.now - JOB_STARTED_AT),故低估不会跨集累加,
+    // 只有「最后启动的那一集」会超出预算线 —— 逐个时长验它最坏也撞不上 timeout。
+    for (const audioMin of [30, 60, 100, 120]) {
+      const est = estimateEpisodeMin(audioMin * 60, true);
+      if (neverFitsBudget(est)) continue; // 这类集压根不会启动
+      const actualIfFallback = audioMin * 2.0 + POST_CHAIN_MIN; // 回落 large-v3 的真实耗时
+      const latestStart = JOB_BUDGET_MIN - est;
+      expect(latestStart + actualIfFallback + OVERHEAD, `${audioMin} 分音频回落`).toBeLessThan(timeout);
+    }
   });
   it("★★★ 三处耗时循环都装了守卫(新集=停手 outOfTimeBudget;补历史/补活=skip 跳长集 timeBudgetCheck)", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
@@ -1042,9 +1064,10 @@ describe("入库时刻 added_at · 只在「真·首次入库」钉(GLM 20260830
 
 describe("drift #83 · neverFitsBudget 扣开班固定开销", () => {
   it("★★★ 估时恰好 = 整班预算(300)→ 永远放不进(每班开工已跑 ~24 分,原 `>` 判不出来、每班重登记)", () => {
-    expect(neverFitsBudget(300)).toBe(true);
-    expect(neverFitsBudget(281)).toBe(true);
-    expect(neverFitsBudget(280)).toBe(false); // 恰好 = 300-20 还能放(空班)
+    const LIMIT = JOB_BUDGET_MIN - JOB_SETUP_MIN; // 一集能被放进空班的上限
+    expect(neverFitsBudget(JOB_BUDGET_MIN)).toBe(true);  // 估价 = 整班预算 → 扣掉开班开销后永远放不进
+    expect(neverFitsBudget(LIMIT + 1)).toBe(true);
+    expect(neverFitsBudget(LIMIT)).toBe(false);          // 恰好卡在上限:空班放得下
     expect(neverFitsBudget(120)).toBe(false);
   });
 });
