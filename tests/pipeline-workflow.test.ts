@@ -41,3 +41,10 @@ describe("W2 · 判官留痕文件随仓提交 + 进 artifact(否则随 runner �
     expect(y.slice(i, i + 400)).toContain("data/judge-log.jsonl");
   });
 });
+
+describe("drift #83/#84 · 浓缩模型钉回真 GLM-5.3(服务端把默认 glm-5-turbo 路由成 5.3-flash)", () => {
+  const y = readFileSync(new URL("../.github/workflows/pipeline.yml", import.meta.url), "utf8");
+  it("★★★ 编排器 env 里 CONDENSE_MODEL=glm-5.3(ADR 0013 口径,用户 2026-09-04 明选恢复)", () => {
+    expect(y).toMatch(/^\s+CONDENSE_MODEL: glm-5\.3\s*$/m);
+  });
+});

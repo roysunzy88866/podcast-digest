@@ -131,6 +131,9 @@ jobs:
         id: pipeline
         env:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          # drift #83/#84(用户 2026-09-04 拍板「直接恢复真 5.3」):浓缩从未 pin 模型,走 glm-ask 默认 glm-5-turbo,
+          # 服务端已把它路由到 glm-5.3-flash(实测)→ ADR 0013 的「浓缩=GLM-5.3」名存实亡。这里钉回真 5.3(实测该名不被路由)。
+          CONDENSE_MODEL: glm-5.3
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}   # C9:whisperX pyannote 分离要(a16z ASR 路线)
           PEIYIN_MIMO_KEY: ${{ secrets.MIMO_API_KEY }}  # C37:配音 MiMo 主路(缺=自动全走 edge,不炸)

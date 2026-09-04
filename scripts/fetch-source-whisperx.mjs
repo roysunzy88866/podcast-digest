@@ -32,11 +32,15 @@ export function audioUrlCandidates(audioUrl, relayUrl) {
   return relayUrl ? [relayUrl, audioUrl] : [audioUrl];
 }
 
-// 模型档(用户 2026-07-24 拍板):large-v3 默认(质量优先),>100 分钟降 medium 保时长余量。
-// 锚 P1 实测:large-v3 0.59x 实时 → 100 分钟 ≈2.8h;job 上限 6h,再长不留余量。时长未知→large-v3。
-const LONG_EPISODE_SEC = 100 * 60;
-export function pickWhisperxModel(durationSec) {
-  return durationSec > LONG_EPISODE_SEC ? "medium" : "large-v3";
+// 模型档 [standard-change: 用户 2026-09-04 拍板「直接换快档」,drift #84;取代 2026-07-24 的 large-v3/medium 两档]:
+// 病根实证:large-v3 CPU int8 稳定 2.0× 实时(近 8 班 10 次全在 1.91–2.04×),每班 300 分里转写 2 集就吃掉 ~185 分(60%),
+// 产量上限被它钉死在 2–3 集/班。large-v3-turbo(解码层 32→4)同 large-v2 档精度、快数倍;流水线装的是最新 whisperx
+// (3.8.6,faster-whisper ≥1.2.0,turbo 在列)。所有时长统一用 turbo —— 它本就比原来给长集的 medium 更快更准,不再分档。
+// 首班实测系数后再调 TRANSCRIBE_RATIO(先留 1.9 保守估,宁可少排一集,不撞 5.5h 超时丢产物)。
+export const WHISPERX_MODEL = "large-v3-turbo";
+export const WHISPERX_FALLBACK_MODEL = "large-v3"; // 快档加载失败(版本不认/权重拉不下)→ 回落原档,别让一整班零产出
+export function pickWhisperxModel(_durationSec) {
+  return WHISPERX_MODEL;
 }
 
 /**
@@ -125,15 +129,22 @@ async function runWhisperx(audioUrls, durationSec) {
     if (audioUrls.length > 1)
       console.log(picked === audioUrls[0] ? "── 📦 中转站音频命中(audio-relay)" : "── 📦 中转站未命中 → 已用原直链");
     const initialPrompt = asrInitialPrompt();
-    console.log(`── whisperX 转写(model=${model},CPU int8 + 内置 VAD + pyannote 分离${initialPrompt ? " + AI 专名词表偏置" : ""})…`);
     const t0 = Date.now();
-    const r = spawnSync(
-      "whisperx",
-      [audioFile, "--model", model, "--compute_type", "int8", "--language", "en", "--threads", "4",
-       ...(initialPrompt ? ["--initial_prompt", initialPrompt] : []),
-       "--diarize", "--hf_token", process.env.HF_TOKEN, "--output_dir", work, "--output_format", "json"],
-      { stdio: "inherit" },
-    );
+    // drift #84:先快档;快档失败(模型名不认/权重拉不下)→ 回落原档再试一次,响亮留痕。原档也失败才算真失败。
+    const tries = model === WHISPERX_FALLBACK_MODEL ? [model] : [model, WHISPERX_FALLBACK_MODEL];
+    let r;
+    for (const m of tries) {
+      console.log(`── whisperX 转写(model=${m},CPU int8 + 内置 VAD + pyannote 分离${initialPrompt ? " + AI 专名词表偏置" : ""})…`);
+      r = spawnSync(
+        "whisperx",
+        [audioFile, "--model", m, "--compute_type", "int8", "--language", "en", "--threads", "4",
+         ...(initialPrompt ? ["--initial_prompt", initialPrompt] : []),
+         "--diarize", "--hf_token", process.env.HF_TOKEN, "--output_dir", work, "--output_format", "json"],
+        { stdio: "inherit" },
+      );
+      if (r.status === 0) break;
+      console.error(`   ⚠️ whisperx(model=${m})失败 exit ${r.status ?? "?"}${r.error ? `,${r.error.message}` : ""}${m !== tries.at(-1) ? " → 回落 " + WHISPERX_FALLBACK_MODEL + " 再试(drift #84)" : ""}`);
+    }
     if (r.status !== 0) throw new Error(`whisperx 失败(exit ${r.status ?? "?"}${r.error ? `,${r.error.message}` : ""});runner 装了 whisperx 吗?`);
     console.log(`── whisperX 完成,耗时 ${Math.round((Date.now() - t0) / 60000)} 分`);
     return JSON.parse(readFileSync(join(work, "episode.json"), "utf8"));

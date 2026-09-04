@@ -2,6 +2,7 @@
 // 契约:输出与 Substack aligned 官方稿同构(段{start,end,text,speaker,words[{word,start,end,score}]}),
 // 后链(infer-speakers→translate→gate)零改动照走。
 import { describe, it, expect } from "vitest";
+import { readFileSync } from "node:fs";
 import { convertWhisperx } from "../scripts/fetch-source-whisperx.mjs";
 
 // 真实 whisperX --diarize 输出的最小代表(字段名照官方:segments[].words[].word/start/end/score/speaker)
@@ -57,19 +58,20 @@ describe("convertWhisperx · whisperX JSON → 官方稿同构", () => {
   });
 });
 
-// C9 接线 · 模型档(用户 2026-07-24 拍板):large-v3 默认(质量优先),超长集(>100 分钟)降 medium 保时长余量。
-// 锚 P1 实测(run 30075152246):large-v3 0.59x 实时 → 100 分钟集 ≈2.8h,再长贴 6h job 上限太近。
-describe("pickWhisperxModel · 按时长选模型档(C9)", () => {
-  it("★ 默认 large-v3;>100 分钟降 medium", async () => {
-    const { pickWhisperxModel } = await import("../scripts/fetch-source-whisperx.mjs");
-    expect(pickWhisperxModel(45 * 60)).toBe("large-v3");
-    expect(pickWhisperxModel(100 * 60)).toBe("large-v3"); // 边界:恰好 100 分钟仍 large-v3
-    expect(pickWhisperxModel(100 * 60 + 1)).toBe("medium");
+// 模型档 [standard-change: 用户 2026-09-04 拍板「直接换快档」,drift #84]:large-v3 2.0× 实时把产量钉死在 2–3 集/班,
+// 全时长统一 large-v3-turbo;快档失败回落 large-v3(别让一整班零产出)。
+describe("pickWhisperxModel · drift #84 全时长统一快档 + 回落保险", () => {
+  it("★★★ 任何时长都是 large-v3-turbo(不再分 medium 档:turbo 本就比 medium 快且准)", async () => {
+    const { pickWhisperxModel, WHISPERX_MODEL } = await import("../scripts/fetch-source-whisperx.mjs");
+    expect(WHISPERX_MODEL).toBe("large-v3-turbo");
+    for (const sec of [0, 45 * 60, 100 * 60, 100 * 60 + 1, 180 * 60, undefined as any]) expect(pickWhisperxModel(sec)).toBe("large-v3-turbo");
   });
-  it("时长未知(0/缺失)→ large-v3(播客单集不至于撞 6h 上限,质量优先)", async () => {
-    const { pickWhisperxModel } = await import("../scripts/fetch-source-whisperx.mjs");
-    expect(pickWhisperxModel(0)).toBe("large-v3");
-    expect(pickWhisperxModel(undefined)).toBe("large-v3");
+  it("★★ 源码锚:快档失败必回落 large-v3 再试一次并响亮留痕(快档名不认 ≠ 整班零产出)", async () => {
+    const { WHISPERX_FALLBACK_MODEL } = await import("../scripts/fetch-source-whisperx.mjs");
+    expect(WHISPERX_FALLBACK_MODEL).toBe("large-v3");
+    const src = readFileSync(new URL("../scripts/fetch-source-whisperx.mjs", import.meta.url), "utf8");
+    expect(src).toMatch(/const tries = model === WHISPERX_FALLBACK_MODEL \? \[model\] : \[model, WHISPERX_FALLBACK_MODEL\]/);
+    expect(src).toContain('回落 " + WHISPERX_FALLBACK_MODEL + " 再试');
   });
 });
 
