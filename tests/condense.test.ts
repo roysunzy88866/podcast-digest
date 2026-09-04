@@ -1,7 +1,7 @@
 // condense 的 JSON 提取容错(C7b lab E2E 逼出:GLM 把长 digest_md 的真换行直接塞进 JSON 字符串→控制字符非法)
 import { describe, it, expect } from "vitest";
 import { readFileSync, readdirSync } from "node:fs";
-import { escapeCtrlInStrings, extractJson, parseSections } from "../scripts/condense.mjs";
+import { escapeCtrlInStrings, extractJson, parseSections, stripRangeStamps } from "../scripts/condense.mjs";
 
 describe("escapeCtrlInStrings", () => {
   it("转义字符串内的裸换行/Tab,结构空白不动", () => {
@@ -242,5 +242,31 @@ describe("drift #83 · 分隔符收尾容错(===正文## 这类笔误不再整�
   it("★★ 只放宽收尾:段名错了仍不认(不硬猜)", () => {
     expect(parseSections("===标题===\nT\n===导语===\nL\n===正文===\nB\n===金句===\n\n===END===")).not.toBeNull();
     expect(parseSections("===标题===\nT\n===导语===\nL\n===内容===\nB\n===金句===\n\n===END===")).toBeNull(); // 「内容」≠「正文」
+  });
+});
+
+describe("drift #87 · 正文剥掉「无说话人的时间戳区间」(用户报「末尾为什么有数字」)", () => {
+  it("★★★ 真实线上案例:句末的 [00:50-03:41] 剥掉,句子干净收尾", () => {
+    expect(stripRangeStamps("定价是每百万输入 token 10 美元、输出 50 美元 [00:50-03:41]。")).toBe("定价是每百万输入 token 10 美元、输出 50 美元。");
+  });
+  it("★★★ 多区间、半角/全角破折号都吃掉", () => {
+    expect(stripRangeStamps("SaaS 的救星可能就是这个 [09:10-12:41, 28:51-29:24]。")).toBe("SaaS 的救星可能就是这个。");
+    expect(stripRangeStamps("他这么说 [38:58–40:56]。")).toBe("他这么说。"); // en dash
+  });
+  it("★★★ 规范标注 [mm:ss 说话人] 绝不能被误删(它是可核对的断言,gate-facts D8 要用)", () => {
+    const keep = "开车等红灯还得盯着笔记本 [06:25 Reynold Xin]。";
+    expect(stripRangeStamps(keep)).toBe(keep);
+    expect(stripRangeStamps("[00:00 主持人] 开场")).toBe("[00:00 主持人] 开场");
+  });
+  it("★★ 裸时间戳 [06:26] 本刀不动(30 集长期在用,另议)", () => {
+    expect(stripRangeStamps("他写下一份「AI 宣言」[06:26]。")).toBe("他写下一份「AI 宣言」[06:26]。");
+  });
+  it("★ 空/无标记输入原样返回", () => {
+    expect(stripRangeStamps("")).toBe("");
+    expect(stripRangeStamps("干净正文,没有任何标记。")).toBe("干净正文,没有任何标记。");
+  });
+  it("★★★ 接线:parseSections 出口就已剥干净(不能只有函数没接上)", () => {
+    const r = parseSections("===标题===\nT\n===导语===\nL\n===正文===\n定价 50 美元 [00:50-03:41]。\n===金句===\n\n===END===");
+    expect(r!.digest_md).toBe("定价 50 美元。");
   });
 });

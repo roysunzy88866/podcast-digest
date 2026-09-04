@@ -95,6 +95,19 @@ export function extractJson(text) {
  * 这里解析成对象;main 再程序化 `JSON.stringify` 写 digest.json → 转义交给 JS、下游读的 digest.json 格式不变。
  * 返回 {title_zh, tldr, digest_md, quotes:[{en,zh,timestamp,speaker}]};缺任一段 → null(交 extractJson 兜底/重试)。
  */
+/** drift #87(2026-09-04 用户报「正文末尾为什么有数字」):剥掉正文里**没有说话人**的时间戳区间标注。
+ *  规范(prompts/condense.md §2.2)只允许一种正文标注:`[mm:ss 说话人]` —— 它是一句可核对的断言
+ *  「这个人在这一刻说了这个」。而模型自作主张写的 `[00:50-03:41]`、`[09:10-12:41, 28:51-29:24]`
+ *  是**时间区间、无说话人**,规范里没有,建站也不渲染成跳转 → 页面上就是一串死字符。
+ *  实证:全库 279 集只有 4 集中招,最早 2026-08-26,集中在模型被路由到 glm-5.3-flash 之后。
+ *  只剥区间型(含逗号分隔的多区间);`[mm:ss 说话人]` 与裸 `[mm:ss]` 都不动 —— 前者是规范,后者另议。
+ *  一并吃掉标记前的空格,免得留下「… 50 美元 。」这种前空格。 */
+export function stripRangeStamps(md) {
+  if (!md) return md;
+  const RANGE = /[ \t]*\[\s*\d{1,2}:\d{2}\s*[-–—]\s*\d{1,2}:\d{2}(?:\s*,\s*\d{1,2}:\d{2}(?:\s*[-–—]\s*\d{1,2}:\d{2})?)*\s*\]/g;
+  return String(md).replace(RANGE, "");
+}
+
 export function parseSections(text) {
   if (!text) return null;
   let t = String(text).replace(/\r\n/g, "\n").trim();
@@ -131,7 +144,7 @@ export function parseSections(text) {
       zh: zhL.replace(/^ZH\s*\|\s?/i, "").trim(),
     });
   }
-  return { title_zh, tldr, digest_md: digest_md.trim(), quotes };
+  return { title_zh, tldr, digest_md: stripRangeStamps(digest_md).trim(), quotes };
 }
 
 /**
