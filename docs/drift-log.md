@@ -185,3 +185,11 @@
 - **验收(下一班日志)**:`whisperX 转写(model=large-v3-turbo` 且 `耗时 X 分` ÷ `时长 Y` 显著低于 1.9;无「回落 large-v3」;浓缩不再出 `格式解析失败`;`.digest-raw.bad.txt` 不再新增。
 - **调系数时的坑(GLM 008[2])**:TRANSCRIBE_RATIO 现在 = large-v3 的实测 1.9,所以**回落到 large-v3 的班次预算恰好准确**;将来按 turbo 实测调低后,回落路径会变成低估 → 届时要么系数按回落档估、要么回落发生时截断本班后续转写,二选一,别两头都不管。
 - **风险**:turbo 精度略低于 large-v3(OpenAI 口径≈large-v2)。防失真闸门(金句逐字命中转写稿)照常硬拦,专名回原文照常;若首班事实层拦截率明显上升 → 回报用户,可一键回 large-v3。
+
+## drift #85(2026-09-04 用户「捞」):捞回 2 集停车稿 + 新增 `scripts/unpark-episode.mjs`
+- **背景**:practicalai / productpodcast 因「转瞬失败连败 3 次」被停车(drift #83 的浓缩分隔符 bug 是主因)。转写已付费,唯一副本在 git 历史(`882fbc122^`)—— `data/skipped` 是 gitignored 且停车发生在 ephemeral runner 上,本机无副本。
+- **捞回 = 两件事缺一不可**:①从 git 历史恢复 `data/episodes/<id>/`;②**删 pipeline-state 的 skipped 账本条目** —— 账本 id 进 `seen`,光恢复文件根本不会被重新选中。工具在账本里删不到条目时**拒绝执行**(免得以为捞成功了其实没有)。
+- **绝不恢复 `digest.json`**(GLM 009[1] 抓到我实现漏了):`completedIds()` 以有无 digest 判「已完成」,带回陈稿 = 该集永不重跑,捞回白做。本次两集历史里恰好没有 digest,实跑未受影响,但规则已写进代码与测试(原测试是空转的:输入里本就没有 digest.json,断言恒真)。
+- **恢复后状态**:有转写、无 digest = 半成品 → 下一班重新选中并**复用已有转写稿**(不重烧 ASR)。practicalai(46 分/122 段)还需翻译+浓缩;productpodcast(26 分/37 段)译文完整,**只差浓缩** —— 正是 drift #83 修好的那一处。
+- **选中路径**:productpodcast 发布日 09-02 > 其 cutoff 08-26 → 走新集路径;practicalai 发布日 09-03 ≤ 其 cutoff 09-03 → 走 60 天窗口顶量(2026-07-06 起,在窗口内)。
+
