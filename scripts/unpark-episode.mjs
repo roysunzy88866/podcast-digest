@@ -16,7 +16,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { STATE_FILE } from "./run-pipeline.mjs";
+import { STATE_FILE, updateLedgerOverrides } from "./run-pipeline.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 // 不恢复的文件(GLM 009[1]):
@@ -67,7 +67,10 @@ if (isMain()) {
   // 代价是工作区若有同名未暂存改动会被覆盖 —— 停车集在本机通常根本不存在,可接受(GLM 009[3])。
   const co = spawnSync("git", ["checkout", from, "--", ...keep], { encoding: "utf8", cwd: ROOT });
   if (co.status !== 0) { console.error(`❌ git checkout 失败:${co.stderr}`); process.exit(1); }
+  // drift #90:**先**记 overrides.forget(它才是冲不掉的那份),再改 state —— 光改 state 会被云端回仓冲掉(09-04 实账)
+  updateLedgerOverrides((ov) => { if (!ov.forget.includes(id)) ov.forget.push(id); ov.skip = ov.skip.filter((e) => e.id !== id); });
   state.skipped = nextSkipped;
   writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
-  console.log(`✅ 已捞回 ${id}(文件已恢复、账本条目已删;提交推送后下一班自动重跑)`);
+  console.log(`✅ 已捞回 ${id}(文件已恢复、overrides.forget 已记、账本条目已删)`);
+  console.log("➡️  必须 commit + push:data/ledger-overrides.json + data/pipeline-state.json + data/episodes/<id>/ —— 没推上去,云端下一班看不见这次裁决。");
 }

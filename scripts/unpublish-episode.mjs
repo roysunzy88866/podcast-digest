@@ -13,7 +13,7 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync, renameSync, rmSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { appendSkip, STATE_FILE } from "./run-pipeline.mjs";
+import { appendSkip, STATE_FILE, updateLedgerOverrides } from "./run-pipeline.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -71,8 +71,11 @@ if (isMain()) {
   console.log(`  ③ 记账   ${JSON.stringify(plan.entry)}`);
   if (!apply) { console.log("(dry-run:未动任何东西;加 --apply 执行)"); process.exit(0); }
   const state = JSON.parse(readFileSync(STATE_FILE, "utf8"));
+  // drift #90:**先**记 overrides.skip(冲不掉的那份),再动文件和 state —— 09-03 两条跨源重复下架就是被回仓冲掉过
+  updateLedgerOverrides((ov) => { ov.forget = ov.forget.filter((x) => x !== plan.entry.id); if (!ov.skip.some((e) => e.id === plan.entry.id)) ov.skip.push(plan.entry); });
   applyUnpublish(plan, state);
   writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
+  console.log("➡️  必须 commit + push:data/ledger-overrides.json + data/pipeline-state.json(+ 删除的集目录/集页)—— 没推上去,云端下一班看不见这次裁决。");
   console.log(`✅ 已下架 ${id}(账本已记;接着跑重建链 + 部署)`);
   // ⚠️ 2026-09-03 实账:云端跑批回仓用 `git pull --rebase -X theirs`,**它修改过的 pipeline-state.json 以 run 版为准**
   //    → 跑批期间手工加的账本条目会被冲掉(那次两条「跨源重复」丢了,靠事后核对才发现)。

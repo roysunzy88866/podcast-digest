@@ -702,13 +702,54 @@ export function advanceCutoffGuarded(prev, advanced) {
 
 // ── 副作用层 ────────────────────────────────────────────
 
-function readState() {
-  if (!existsSync(STATE_FILE)) return migrateState(null);
-  try {
-    return migrateState(JSON.parse(readFileSync(STATE_FILE, "utf8")));
-  } catch {
-    return migrateState(null);
+// ── 账本覆盖层(drift #90,2026-09-04)────────────────────────────────────────
+// 病根:云端回仓用 `git pull --rebase -X theirs`,**它改过的 pipeline-state.json 以 run 版为准**;而任何一刻几乎都有
+// 一班在跑(5h/班 × 4 班/天),所以本机对账本的手工改动(下架/捞回)几乎必然被下一次回仓冲掉 ——
+// 09-03 冲掉 2 条跨源重复下架、09-04 冲掉 productpodcast 的捞回(文件在、账本条目又回来了 → 永远不会被重选)。
+// 修法:手工裁决写进 **data/ledger-overrides.json**(不在回仓 `git add` 的路径里,故永不被冲),编排器每次加载账本
+// 时叠加它:forget 里的 id 从 skipped 里剔掉(捞回),skip 里的条目保证在(下架)。幂等,每班重复叠加无害。
+// 只做叠加、不改回仓的 rebase 策略(那段是 drift #32 血账换来的,不动)。
+export const LEDGER_OVERRIDES_FILE = join(ROOT, "data/ledger-overrides.json");
+
+/** 纯逻辑:把手工裁决叠加到账本上。forget 优先于 skip(先下架再捞回 = 捞回)。 */
+export function applyLedgerOverrides(state, ov) {
+  if (!ov) return state;
+  const forget = new Set(Array.isArray(ov.forget) ? ov.forget : []);
+  state.skipped = (state.skipped ?? []).filter((s) => !forget.has(s.id));
+  for (const e of Array.isArray(ov.skip) ? ov.skip : []) if (typeof e?.id === "string" && e.id && !forget.has(e.id)) appendSkip(state, e); // GLM 028[7]:坏形状元素静默跳过
+  for (const id of forget) if (typeof id === "string") { clearBlocked(state, id); clearTransient(state, id); clearRevive(state, id); }
+  return state;
+}
+
+function readLedgerOverrides() {
+  if (!existsSync(LEDGER_OVERRIDES_FILE)) return null;
+  try { return JSON.parse(readFileSync(LEDGER_OVERRIDES_FILE, "utf8")); }
+  catch (e) {
+    // 坏文件 ≠ 没文件:静默忽略 = 所有手工裁决无声失效(同 drift #82 的"关口静默"病)。响亮告警,但不让整班崩。
+    console.error(`⚠️ data/ledger-overrides.json 解析失败,本班**所有手工裁决未叠加**(下架/捞回可能失效):${String(e?.message ?? e).slice(0, 120)}`);
+    return null;
   }
+}
+
+/** 手工工具(unpark/unpublish)用:改 overrides 文件。mutate 就地改 {forget, skip}。 */
+export function updateLedgerOverrides(mutate) {
+  const ov = readLedgerOverrides() ?? {};
+  ov.forget = Array.isArray(ov.forget) ? ov.forget : [];
+  ov.skip = Array.isArray(ov.skip) ? ov.skip : [];
+  mutate(ov);
+  mkdirSync(dirname(LEDGER_OVERRIDES_FILE), { recursive: true });
+  writeFileSync(LEDGER_OVERRIDES_FILE, JSON.stringify(ov, null, 2) + "\n");
+  return ov;
+}
+
+function readState() {
+  let base;
+  if (!existsSync(STATE_FILE)) base = migrateState(null);
+  else { try { base = migrateState(JSON.parse(readFileSync(STATE_FILE, "utf8"))); } catch { base = migrateState(null); } }
+  const ov = readLedgerOverrides();
+  const nF = Array.isArray(ov?.forget) ? ov.forget.length : 0, nS = Array.isArray(ov?.skip) ? ov.skip.length : 0;
+  if (nF + nS) console.log(`🧾 账本覆盖层已叠加(drift #90):forget ${nF} / skip ${nS}`); // 留 grep 锚点:验证它真跑了
+  return applyLedgerOverrides(base, ov); // drift #90:手工裁决每次加载都叠加,回仓冲不掉
 }
 
 function writeState(s) {
