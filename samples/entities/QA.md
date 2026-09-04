@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>QA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="QA">QA</div><div class="pi"><h1 class="pt">QA</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>8</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="QA">QA</div><div class="pi"><h1 class="pt">QA</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]]**(06:49起):本集详细讲述了用浏览器使用做 QA 的场景：AI 会自动测试表单填写、错误状态、移动端响应性、可访问性等，比人更详尽，不会只走快乐路径
+- **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(12:59起):本集说被低估的用法是用 browser use 做 QA:模型自己点击测试、检查控制台日志、专门复现竞态条件,这些活儿人来干非常繁琐。
 
 ## ① 提到它的金句
 
@@ -23,17 +24,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]] — 作为概念
+- [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[ChatGPT]] · [[Claude]] · [[Codex]] · [[浏览器使用]] · [[计算机使用]] · [[智能体]] · [[MCP]] · [[ChatPRD]]
+[[Codex]] · [[浏览器使用]] · [[计算机使用]] · [[MCP]] · [[ChatPRD]] · [[ChatGPT]] · [[OpenAI]] · [[Claude]] · [[GPT-6]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":46,"Claude":45,"Codex":34,"浏览器使用":4,"计算机使用":6,"智能体":1,"MCP":24,"ChatPRD":3}</script>
+<script type="application/json" class="pd-epn">{"Codex":35,"浏览器使用":5,"计算机使用":7,"MCP":25,"ChatPRD":5,"ChatGPT":46,"OpenAI":80,"Claude":45,"GPT-6":1,"智能体":1}</script>
 
 <script>
 (function(){

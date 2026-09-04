@@ -1,0 +1,130 @@
+{
+  "title_zh": "GPT-6 Astra 上手实测:它会用你的电脑了",
+  "tldr": "How I AI 主持 Claire Vo 抢先实测 OpenAI 新模型 GPT-6 Astra,演示它在电脑操作、编程上的突破,并主张「UI 回来了」。",
+  "digest_md": "OpenAI 的 GPT-6,代号 Astra,今天上线了(先面向 Daybreak 企业客户,几天内推向 Plus、Pro 和 API/AWS)。抢先用过它的人是 How I AI 的主持人 Claire Vo——她的结论很直接:过去六个月里各代模型她都测过,这是第一个让她觉得「更有雄心」的,一批 GPT-5.6 Sol 和 Fable 都搞不定的老任务,Astra 直接一次性(one shot,即一句提示不用来回修)搞定 [00:00 主持人]。\n\n先说定位和价格。OpenAI 把它宣传为「各方面都是最先进」:科学、数学、编程、知识工作、电脑操作。最重点强调的是 computer use(让模型直接操作你的电脑界面)——不只是浏览器,还包括 Excel、Unity、Power BI、Blender、Jupyter 和文档编辑器。基准上,Automation Bench 分数是上一代 Sol 的两倍,Frontier Math Tier 4 有巨大跃升。定价是每百万输入 token 10 美元、输出 50 美元 [00:50-03:41]。\n\n## Computer use:复杂 UI 终于能导航了\n\nClaire 认为最大的惊喜是:它终于能操作复杂的节点式 web 界面了。她自己花一小时都配不好的 CRM 工作流(用提示词判断销售线索该路由给谁、再发不同的 Slack 消息),她对 Codex 说了一句「把 Chrome 里的工作流更新成这样」,它就真的打开 Chrome、接管界面、搭好新节点、连好逻辑,把邮件收件人、主题、正文全部配好。她说在 GPT-5.6 之前,她真觉得 browser use 导航不了这些节点,而现在她「手完全不碰电脑」[04:23-08:16]。\n\n第二个例子是她从没试过的:把几张照片拖进去,让 Astra 打开节点式 AI 编辑工具 Flora,检查已有的缩略图工作流,选好图像生成模型(GPT image 2)、设置宽高比、参考已有提示词,把设计师 Naomi 每次手动做的播客缩略图素材全部生成出来。最后设计师开会来不及做图时,Astra 甚至接管电脑用 Figma 把缩略图拼好了——而 Figma 是 computer use 此前一直表现糟糕的应用 [09:10-12:41, 28:51-29:24]。\n\n由此她抛出一个判断:**大家都说「没有 UI 才是下一个 UI」,讨论 MCP 和 CLI,但现在「UI 回来了,宝贝」**——因为人类就是喜欢按钮,而既然 AI 能替你点按钮,如果你的产品本来就更适合 UI 表达,就不必非得做成 CLI 和 MCP 了。SaaS 的救星可能就是这个 [08:24-08:57]。\n\n## 被低估的用法:browser use 做 QA\n\n另一个她强烈推荐的用例是 QA。她的团队刚修完聊天产品里几个竞态条件的 bug,上线后她让 Astra「在 Chrome 里测一下」:它自己调出预览分支,开始点击测试、发送聊天,还会检查控制台错误日志、刷新页面、专门复现竞态条件——这些活儿人来干非常繁琐。它跑了 1 小时 45 分钟,发现并修了几个问题。「如果你还没用 browser use 做 QA,请用起来。」[12:59-14:15]\n\n## 编程:六个月攻不下的项目,一次性搞定\n\n编程方面,Claire 讲了她最有说服力的案例:她为 ChatPRD 做了一个「产品智能」功能,要从 Intercom、Granola、Linear、GitHub 等来源摄取数据、决定持久化哪些、处理去重、提炼洞察、生成产品状态的自动维基、再对照外部来源验证。她自称架构上知道该怎么做,但 Fable 在架构上做出疯狂的事、5.6 卡在洞察质量上——而 Astra one shot 直接搞定,一句提示就到 90%,再补两三条提示就跑通了。这个功能现在能告诉她三大优先事项(比如 AI 卡顿的竞态 bug、自助取消功能坏了、用户想要本地部署 JIRA),还会生成随时间变化的趋势图,并通过 MCP 暴露出去 [15:24-18:27]。\n\n## 硬件黑进现实:Divoom 小屏幕\n\n她的「珠穆朗玛峰」是一台 Divoom Mini 2——本质是个蓝牙小像素屏,预装专有软件、没有 API、破解不了。GPT-5.5 才勉强让她做出最基本的东西,而 Astra 已经完全搞明白了像素算法(她之前要靠逆向工程),做了一个实时应用:可以用鼠标直接在屏幕上画画、输入文字;她还让 Astra 建了个 CLI,让模型自己实时往屏幕上推送消息——它能查到最新一期节目并写一段观众友好的介绍流式打到屏幕上,一次成功 [18:44-22:07]。她还把这块屏接进 Codex hooks,Codex 需要什么时屏幕会提示她 [22:11]。\n\n## 从玩具到真正的软件:AIM 风格桌面应用和 3D\n\n更实际的例子:Astra 一次性给她构建了一个 Mac 应用,把她的 Codex 线程包装成 90 年代 AIM Messenger 的样子——每个「好友」是一个线程、有屏幕名和离开留言(「BRB,让我的智能体们大显身手」)、线程工作时对方会显示「正在输入」,她可以像和老朋友聊天一样跟 Codex 交互。她说这是用 GPT 5.6 永远做不出来的 [22:30-24:18]。\n\n3D 也一样:评测者圈子里它生成 Blender 3D 资产的能力像野火一样传开。她做了一个能换装、换发型、换配饰、走 T 台的 3D 芭比游戏(一次生成,虽然她承认人类 3D 渲染还是难,鞋子「有待改进」);更惊艳的是她给自己孩子做的家庭习惯应用——她只说了一句「能不能把它变成一个可以走过不同地点的 3D 之旅」,它就开箱做出了孩子能走到图书馆打卡阅读、走到池塘记录情绪的 3D 世界。「我永远不可能做出这样的东西。」[24:22-28:49]\n\n## 本集带走\n\n- **复杂 UI 交给 computer use**:很多按钮、很多节点、很多小输入框、你不想亲手填的东西,是 Astra 最强项;Claire 用它配 CRM 工作流、在 Flora 生成缩略图、在 Figma 拼图,全程不动手。\n- **browser use 做 QA**:让模型自己调预览分支、点击测试、查控制台日志、复现竞态条件——人做很繁琐,它跑 1 小时 45 分钟不嫌累。\n- **该提升编程野心了**:网站 vibe coding 已经过时,该试 3D 游戏、桌面应用、黑硬件;Claire 六个月攻不下的多源数据摄取+洞察去重+自动维基项目,Astra 一次搞定。\n- **去黑你的硬件**:没 API 的蓝牙音箱、蓝牙灯泡都行——模型与真实世界交互的能力在这一代是台阶式变化。\n- **UI 没死,反而回来了**:既然 AI 能替你点按钮,SaaS 不必都改造成 CLI/MCP,按钮本身就是给 AI 用的接口。",
+  "quotes": [
+    {
+      "en": "And what's so fascinating is now we're at this moment, we're actually like, UI's back, baby.",
+      "zh": "最迷人的是,现在我们正处在这样一个时刻,我们实际上就像在说:UI 回来了,宝贝。",
+      "timestamp": "08:32",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Like, sass, this might be your savior because humans really do like a button.",
+      "zh": "就是说,SaaS,这可能是你的救星,因为人类真的就是喜欢按钮。",
+      "timestamp": "08:36",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "08:32",
+      "speaker": "Claire",
+      "en": "And what's so fascinating is now we're at this moment, we're actually like, UI's back, baby.",
+      "zh": "最迷人的是,现在我们正处在这样一个时刻,我们实际上就像在说:UI 回来了,宝贝。"
+    },
+    {
+      "timestamp": "08:36",
+      "speaker": "Claire",
+      "en": "Like, sass, this might be your savior because humans really do like a button.",
+      "zh": "就是说,SaaS,这可能是你的救星,因为人类真的就是喜欢按钮。"
+    },
+    {
+      "timestamp": "08:47",
+      "speaker": "Claire",
+      "en": "You sort of don't have to think about these CLIs and MCPs necessarily if the right expression of your product is more of a UI-based thing.",
+      "zh": "如果你的产品的正确表达形式更偏 UI 类的东西,你就多少不必非得去考虑这些 CLI 和 MCP 了。"
+    },
+    {
+      "timestamp": "12:44",
+      "speaker": "Claire",
+      "en": "And so I do spend about 90% of my day sitting here watching Astra use my computer and specifically use Chrome to navigate websites and applications that I really love.",
+      "zh": "所以我确实每天大约 90% 的时间坐在这里,看着 Astra 使用我的电脑,特别是用 Chrome 去操作我非常喜爱的网站和应用程序。"
+    },
+    {
+      "timestamp": "14:15",
+      "speaker": "Claire",
+      "en": "So if you are not using browser use for QA, please do.",
+      "zh": "所以如果你还没有用 browser use 来做 QA,请用起来。"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "Claire",
+      "en": "And I've tried them over and over and over again for six months.",
+      "zh": "六个月来我一遍又一遍又一遍地尝试过它们。"
+    },
+    {
+      "timestamp": "16:44",
+      "speaker": "Claire",
+      "en": "And then all of a sudden Astra started to one-shot it.",
+      "zh": "然后突然之间,Astra 开始一次性搞定它。"
+    },
+    {
+      "timestamp": "18:27",
+      "speaker": "Claire",
+      "en": "And it really, Astra really figured this one out.",
+      "zh": "而它真的,Astra 真的把这个搞明白了。"
+    },
+    {
+      "timestamp": "19:14",
+      "speaker": "Claire",
+      "en": "This is my Everest.",
+      "zh": "这是我的珠穆朗玛峰。"
+    },
+    {
+      "timestamp": "28:29",
+      "speaker": "Claire",
+      "en": "I would never be able to do something like this.",
+      "zh": "我永远不可能做出这样的东西。"
+    },
+    {
+      "timestamp": "28:39",
+      "speaker": "Claire",
+      "en": "It makes me so excited about what the future of building products is, what the future of building things for my kids are, personal software, all those things.",
+      "zh": "它让我对未来构建产品会是什么样子、未来为我的孩子构建东西会是什么样子、个人软件,所有这些事情都感到无比兴奋。"
+    },
+    {
+      "timestamp": "29:25",
+      "speaker": "Claire",
+      "en": "All right, so to take a step back, Astra, GPT-6 is a banger.",
+      "zh": "好了,退一步总结一下,Astra,GPT-6 是个炸裂之作。"
+    },
+    {
+      "timestamp": "30:47",
+      "speaker": "Claire",
+      "en": "So like website vibe coding is over.",
+      "zh": "所以比如说,网站 vibe coding 已经过时了。"
+    },
+    {
+      "timestamp": "30:51",
+      "speaker": "Claire",
+      "en": "Let's do 3D games.",
+      "zh": "我们来做 3D 游戏吧。"
+    },
+    {
+      "timestamp": "24:17",
+      "speaker": "Claire",
+      "en": "One shot right now.",
+      "zh": "现在就一次生成。"
+    },
+    {
+      "timestamp": "31:24",
+      "speaker": "Claire",
+      "en": "This is going to be my daily driver.",
+      "zh": "这将是我的日常主力工具。"
+    },
+    {
+      "timestamp": "31:15",
+      "speaker": "Claire",
+      "en": "It's not annoying.",
+      "zh": "它不烦人。"
+    },
+    {
+      "timestamp": "31:26",
+      "speaker": "Claire",
+      "en": "So that has been my review of GPT-5.6.",
+      "zh": "这就是我对 GPT-5.6 的评测。"
+    }
+  ],
+  "voice_script": "一个让 OpenAI 押上“各方面都是最先进”这句话的模型,今天上线了——GPT-6,代号 Astra。这一期,咱们聊聊它到底强在哪:它真的会用你的电脑了。\n\n抢先用上它的人,是 How I AI 的主持人 Claire Vo。她这半年把各代模型全测了个遍,结论很直接:Astra 是第一个让她觉得“更有雄心”的。一批 GPT-5.6 和 Sol 都搞不定的老任务,Astra 一句提示、不来回修,直接搞定。\n\n先看最炸的一个演示。Claire 自己花一个小时都配不好的 CRM 工作流——就是用提示词判断销售线索该分给谁,再发不同的 Slack 消息。她对 Codex 说了一句“把 Chrome 里的工作流更新成这样”,它就真的打开 Chrome、接管界面、搭好新节点、连好逻辑,连邮件收件人、主题、正文全都配好了。整个过程,她手完全没碰电脑。\n\n还有更离谱的。设计师开会来不及做播客缩略图,Astra 直接接管电脑,用 Figma 把图拼好了。要知道,Figma 是 computer use 之前一直表现很糟糕的应用。\n\n所以 Claire 抛出一个判断,我觉得特别值得琢磨。现在大家都在说“没有 UI 才是下一个 UI”,都在聊命令行、聊 MCP。但她说:不,UI 回来了,宝贝。因为人类就是喜欢按钮——而现在 AI 能替你点按钮。如果你的产品本来就更适合用界面表达,根本不用非得做成命令行。SaaS,这可能是你的救星。\n\n那这套能力还有什么被低估的用法?做 QA。她的团队刚修完几个竞态条件的 bug,上线后她让 Astra“在 Chrome 里测一下”。它自己调出预览分支,点击测试、发消息、检查控制台错误日志,还会专门去复现竞态条件——这些活儿人来干非常繁琐。它跑了 1 小时 45 分钟,发现并修好了几个问题。如果你还没用浏览器自动化做 QA,真的该用起来。\n\n编程上的案例更有说服力。Claire 给 ChatPRD 做过一个“产品智能”功能:要从 Intercom、Linear、GitHub 好几个来源摄取数据,决定哪些要存、怎么去重、提炼洞察,再生成一个产品状态的自动维基。她架构上知道该怎么做,但 Fable 总在架构上搞出疯狂的事,5.6 又卡在洞察质量上,这一做就是六个月。Astra 一句提示就到 90%,再补两三条就跑通了。现在这个功能能告诉她产品的三大优先事项,还会画趋势图。\n\n更疯狂的还有硬件。她有台 Divoom 蓝牙小像素屏,预装专有软件、没有 API。Astra 完全搞明白了像素算法,做了一个实时画画的应用,还建了个命令行工具,让模型自己往屏幕上推送消息——它能查到最新一期节目,写一段介绍,流式打到屏幕上,一次成功。她管这叫自己的珠穆朗玛峰。\n\n最后的例子我想留给孩子。她只说了一句“能不能把它变成一个可以走过不同地点的 3D 之旅”,Astra 就开箱做出了一个 3D 世界——孩子能走到图书馆打卡阅读,走到池塘记录情绪。她那句感叹挺戳人的:我永远不可能做出这样的东西。\n\n所以这一集带走一句话:网站式的随手编程已经过时了,该把野心提上来——3D、桌面应用、没 API 的硬件,都可以去试。反正,按钮回来了,让 AI 替你按。"
+}

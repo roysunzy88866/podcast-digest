@@ -25,7 +25,7 @@ unlisted: true
 
 [[Zubin Gharemani]] · [[Google DeepMind]] · [[不确定性]] · [[贝叶斯规则]] · [[大语言模型]] · [[语义熵]] · [[AlphaFold]] · [[持续学习]] · [[灾难性遗忘]] · [[transformer]]
 
-<script type="application/json" class="pd-epn">{"Zubin Gharemani":1,"Google DeepMind":4,"不确定性":1,"贝叶斯规则":1,"大语言模型":1,"语义熵":1,"AlphaFold":2,"持续学习":5,"灾难性遗忘":2,"transformer":3}</script>
+<script type="application/json" class="pd-epn">{"Zubin Gharemani":1,"Google DeepMind":4,"不确定性":1,"贝叶斯规则":1,"大语言模型":1,"语义熵":1,"AlphaFold":2,"持续学习":5,"灾难性遗忘":2,"transformer":4}</script>
 
 <script>
 (function(){

@@ -111,8 +111,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|AI 当技术联合创始人：一个人怎么做时尚品牌]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)、浏览器使用 (browser use)、计算机使用 (computer use)</span>
+- [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|GPT-6 Astra 上手实测:它会用你的电脑了]]<span class="pd-rz">同公司:Codex、ChatPRD · 同概念:QA、浏览器使用 (browser use)、计算机使用 (computer use)、MCP</span>
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同公司:ChatGPT、Codex、Claude · 同概念:智能体 (agent)</span>
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]]<span class="pd-rz">同公司:Codex · 同概念:智能体 (agent)、浏览器使用 (browser use)</span>
 
 </div>
 <div class="pd-ex">

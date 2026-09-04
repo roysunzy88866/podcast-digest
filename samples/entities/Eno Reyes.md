@@ -73,7 +73,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":8,"Factory":3,"Anthropic":92,"OpenAI":79,"Microsoft":21,"Meta":25,"NVIDIA":25,"Stripe":25,"OpenRouter":7,"Palantir":11}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":8,"Factory":3,"Anthropic":92,"OpenAI":80,"Microsoft":21,"Meta":26,"NVIDIA":26,"Stripe":26,"OpenRouter":7,"Palantir":11}</script>
 
 <script>
 (function(){

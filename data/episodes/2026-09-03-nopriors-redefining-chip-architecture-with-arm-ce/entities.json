@@ -1,0 +1,1327 @@
+{
+  "episode_id": "2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce",
+  "podcast": "No Priors",
+  "date": "2026-09-03",
+  "tags": [
+    "芯片",
+    "Arm",
+    "AI 基础设施",
+    "CPU 与推理",
+    "机器人"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "elad",
+      "type": "person",
+      "role": "host",
+      "name": "Elad",
+      "file": "Elad",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            50.997,
+            55.178
+          ],
+          "quote": "Today, Elad and I are here with Rene Haas, the CEO of Arm and SoftBank Group International.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1136.653,
+            1146.84
+          ],
+          "quote": "But maybe a better way to think about it, Elad, is that I'm kind of in the room on a lot of discussions that Moss is having and helping him sort of formulate that strategy and more importantly, help execute it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rene-haas",
+      "type": "person",
+      "role": "cohost",
+      "name": "Rene Haas",
+      "file": "Rene Haas",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            50.997,
+            55.178
+          ],
+          "quote": "Today, Elad and I are here with Rene Haas, the CEO of Arm and SoftBank Group International.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "arm",
+      "type": "company",
+      "role": "company",
+      "name": "Arm",
+      "file": "Arm",
+      "primary": true,
+      "how_described": "本集主角:不造芯片而是授权 CPU 核心 IP 的公司,近年破天荒开始自研芯片(计算子系统、第一款自研 CPU),并认为机器人时代『ARM 将无处不在』、边缘 AI 靠其高能效优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            50.997,
+            55.178
+          ],
+          "quote": "Today, Elad and I are here with Rene Haas, the CEO of Arm and SoftBank Group International.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            55.459,
+            71.265
+          ],
+          "quote": "We talk about the position of Arm within the chip industry, the resurgence of interest in chip innovation, the challenges of the supply chain, the future of robotics, energy, his place in the SoftBank Group, and how he sees workloads changing in the future and for Arm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            74.266,
+            81.769
+          ],
+          "quote": "Congratulations on the chip presentation on hot chips and all of the progress that Arm has made.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            91.054,
+            94.095
+          ],
+          "quote": "For anybody who's not super familiar, can you explain Arm's position in it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            121.51,
+            124.412
+          ],
+          "quote": "So in that world, and this is the cool thing about Arm,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            159.539,
+            161.519
+          ],
+          "quote": "ARM, I believe, existed for a few decades now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            234.844,
+            242.106
+          ],
+          "quote": "And there are certain sets of customers that will license IP too, and they've got all the capability in the world to build chips based on ARM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            242.586,
+            244.806
+          ],
+          "quote": "There's a lot of companies who want to have product based on ARM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            302.962,
+            310.325
+          ],
+          "quote": "So whether it was NVIDIA, Amazon, Microsoft, Google, all people who build ARM-based server chips, they were all on board.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            377.332,
+            381.596
+          ],
+          "quote": "I remember discovering that Arm had a 98.5% gross margin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            389.443,
+            394.387
+          ],
+          "quote": "And I remember coming to Arm in 2013 and thinking, no inventory, no RMA, no scrap.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            465.206,
+            470.59
+          ],
+          "quote": "So since I'm such a believer in this, of course, we use it very heavily inside of Arm.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            570.447,
+            571.948
+          ],
+          "quote": "And one of the things that I'm proud of at Arm",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            710.562,
+            714.605
+          ],
+          "quote": "And, you know, the Veras and the Gravitrons of the world, they all use Arm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            939.965,
+            945.028
+          ],
+          "quote": "Arm itself as a business is just like a beautiful cash flow machine from the outside, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            956.026,
+            965.491
+          ],
+          "quote": "Yeah, so one of the benefits we have at Arm, publicly traded, yes, but a very, very large single shareholder.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            971.294,
+            984.161
+          ],
+          "quote": "We have a big advantage in that there's a lot of things symbiotically we can do together that can help Arm advance its initiatives by having SoftBank as our largest shareholder that we look to be very, very...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1067.444,
+            1072.106
+          ],
+          "quote": "I know, as mentioned, there's ARM and then there's this sort of broader suite of things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1103.344,
+            1118.715
+          ],
+          "quote": "But increasingly, a lot of the strategies that we're trying to do around SoftBank is helping the strategies that Masa talked about publicly at his shareholder meeting in Japan, which is around robotics, OpenAI, infrastructure, and ARM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1147.3,
+            1159.068
+          ],
+          "quote": "How has being part of the SoftBank group or working with all these different companies or even SP Energy and the broader ecosystem changed your point of view on what you can do with Arm?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1192.239,
+            1196.561
+          ],
+          "quote": "And then you look at the products that Arm has, the only one we've announced so far is the Arm AGI CPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1197.462,
+            1208.768
+          ],
+          "quote": "You can start to connect the dots and say, gosh, there could be some very interesting opportunities that could be an opportunity for Arm, which necessarily doesn't mean that we're getting into the broad merchant chip business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1241.433,
+            1247.665
+          ],
+          "quote": "What predictions do you have about the robotics market and any opportunity for Arm there?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1380.509,
+            1383.011
+          ],
+          "quote": "And to answer your earlier question, ARM is going to be everywhere.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1392.978,
+            1394.319
+          ],
+          "quote": "That's all going to be ARM-based.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1395.119,
+            1403.145
+          ],
+          "quote": "Today, whether it's NVIDIA or some of the work that Qualcomm does, most of the brains, the brains that you see in the humanoids, those are all running on ARM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1404.305,
+            1410.587
+          ],
+          "quote": "Today, so I think for us going forward, the robotic industry will be powered by ARM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1412.588,
+            1423.832
+          ],
+          "quote": "I mean, you have this great seat to your point where given the ubiquity of ARM and a lot of these different types of devices, you can kind of see the future before others in terms of where adoption is happening or where shifts are happening from a technology perspective.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1543.39,
+            1550.293
+          ],
+          "quote": "So putting my American citizen hat on for a moment, and Arm, as you said, is not an American company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1950.188,
+            1952.489
+          ],
+          "quote": "What are you most excited about in the coming year or two for Arm?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1978.697,
+            1979.618
+          ],
+          "quote": "That's what ARM does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2167.988,
+            2174.92
+          ],
+          "quote": "I think some of the focus kind of moved around, but for ARM, and by the way, that applies whether I'm talking about a data center, it applies when I'm talking about an automobile.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2179.165,
+            2188.727
+          ],
+          "quote": "And in fact, as you get to the smaller footprints where more and more AI is going to take place, that's going to be a sweet spot for ARM because the CPU is table stakes anyway.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "softbank",
+      "type": "company",
+      "role": "company",
+      "name": "SoftBank",
+      "file": "SoftBank",
+      "primary": true,
+      "how_described": "Arm 的最大股东,Rene 直接向孙正义汇报,主导 Ampere、Graphcore、StackAV 方向,参与机器人、OpenAI、基础设施、Arm 四大战略,并宣布要做 neocloud,可为芯片创业公司提供设计归宿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            50.997,
+            55.178
+          ],
+          "quote": "Today, Elad and I are here with Rene Haas, the CEO of Arm and SoftBank Group International.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            55.459,
+            71.265
+          ],
+          "quote": "We talk about the position of Arm within the chip industry, the resurgence of interest in chip innovation, the challenges of the supply chain, the future of robotics, energy, his place in the SoftBank Group, and how he sees workloads changing in the future and for Arm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            935.181,
+            937.523
+          ],
+          "quote": "Run SoftBank Group International.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            945.429,
+            950.372
+          ],
+          "quote": "I'm sure you think a lot about the leverage of SoftBank and how to use that well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            971.294,
+            984.161
+          ],
+          "quote": "We have a big advantage in that there's a lot of things symbiotically we can do together that can help Arm advance its initiatives by having SoftBank as our largest shareholder that we look to be very, very...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1026.382,
+            1043.388
+          ],
+          "quote": "And we at SoftBank, that's one of the things we look at very strategically, you know, companies that we can bring in into the portfolio that we can help, that we can provide a combination of either the backstop, you know, and or if you think about SoftBank, we just announced, we being SoftBank, SoftBank Neo,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1064.202,
+            1067.404
+          ],
+          "quote": "Can you talk a little bit more about the portfolio of things that fall under your purview at SoftBank?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1077.649,
+            1084.272
+          ],
+          "quote": "Yeah, so the way I think about it is SoftBank Group, which is headed in Japan, and that is Masa.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1088.154,
+            1092.637
+          ],
+          "quote": "One of the largest ones is SoftBank KK, which is essentially SoftBank Mobile.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1094.038,
+            1100.142
+          ],
+          "quote": "Inside the US, there's a lot of investment activity that's going on with SoftBank Group International.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1100.982,
+            1102.463
+          ],
+          "quote": "There's SoftBank Vision Fund.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1103.344,
+            1118.715
+          ],
+          "quote": "But increasingly, a lot of the strategies that we're trying to do around SoftBank is helping the strategies that Masa talked about publicly at his shareholder meeting in Japan, which is around robotics, OpenAI, infrastructure, and ARM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1147.3,
+            1159.068
+          ],
+          "quote": "How has being part of the SoftBank group or working with all these different companies or even SP Energy and the broader ecosystem changed your point of view on what you can do with Arm?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1176.766,
+            1187.648
+          ],
+          "quote": "So it doesn't need to be the home, but it certainly can be a home, which is also a big help when we think about the verticals that SoftBank's involved with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1209.328,
+            1212.85
+          ],
+          "quote": "We could be just doing products simply back for SoftBank.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tsmc",
+      "type": "company",
+      "role": "company",
+      "name": "TSMC",
+      "file": "TSMC",
+      "primary": false,
+      "how_described": "本集提到 Arm 客户把芯片设计交给 TSMC 流片,Arm 自研芯片后也要与台积电谈产能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            110.044,
+            121.41
+          ],
+          "quote": "Our customers are the ones who either build the chips themselves, a Samsung who's got their own fab, or the vast majority of companies that take their chip designs and go to TSMC and get them taped out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "samsung",
+      "type": "company",
+      "role": "company",
+      "name": "Samsung",
+      "file": "Samsung",
+      "primary": false,
+      "how_described": "本集举其为有自有晶圆厂、可自己造芯片的 Arm 客户例子,也是内存分配谈判对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            110.044,
+            121.41
+          ],
+          "quote": "Our customers are the ones who either build the chips themselves, a Samsung who's got their own fab, or the vast majority of companies that take their chip designs and go to TSMC and get them taped out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集说 Meta 是 Arm 自研芯片的第一推动者:想要一款通用的、面向智能体的 CPU,市面上没有,于是找 Arm 合作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            251.208,
+            253.148
+          ],
+          "quote": "So Meta was that first example.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集多次提及:Rene 的老东家,其 ARM 服务器芯片支持 Arm 自研,人形机器人大脑也多跑在 ARM 上;同时作为加速器代表出现在 CPU vs 加速器讨论中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            302.962,
+            310.325
+          ],
+          "quote": "So whether it was NVIDIA, Amazon, Microsoft, Google, all people who build ARM-based server chips, they were all on board.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            385.079,
+            387.761
+          ],
+          "quote": "I came from NVIDIA before I came over here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            403.835,
+            407.538
+          ],
+          "quote": "I've got execs from Broadcom, Qualcomm, NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            407.738,
+            408.579
+          ],
+          "quote": "I work for NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1395.119,
+            1403.145
+          ],
+          "quote": "Today, whether it's NVIDIA or some of the work that Qualcomm does, most of the brains, the brains that you see in the humanoids, those are all running on ARM.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "CPU",
+      "file": "CPU",
+      "primary": true,
+      "how_described": "全集核心论点:『从来没有一个计算问题不利用微处理器,它是一切的心脏』——训练转向推理后,CPU 负责编排、仲裁、调度 token 的『卡车』,且边缘设备离不开高能效 CPU。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            100.098,
+            109.183
+          ],
+          "quote": "Our primary business is licensing IP, the CPU core that finds its way into smartphones, data centers, automobiles, you name it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            138.103,
+            143.487
+          ],
+          "quote": "We also introduced our first product last March, the one you just mentioned at Hotchips, the Army GI CPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            174.345,
+            186.455
+          ],
+          "quote": "Yeah, it was an evolution from the early days of where we just supplied simply the IP components, the pieces, the CPU IP, the GPU IP, the system IP, etc., etc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            253.188,
+            255.249
+          ],
+          "quote": "They wanted a general-purpose, agentic CPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            267.273,
+            277.357
+          ],
+          "quote": "So one of the things that we were very careful about was getting, making sure the ecosystem was on board with this because we do CPU IP, which is really only as good as the ecosystem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            919.587,
+            933.56
+          ],
+          "quote": "Strategic use of the cap table, access to capital in an era where you either need to consume a lot of compute, or you need to put a lot of CapEx into the ground, or you're just doing big technical projects like coming up with CPU, IP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1192.239,
+            1196.561
+          ],
+          "quote": "And then you look at the products that Arm has, the only one we've announced so far is the Arm AGI CPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2026.396,
+            2031.859
+          ],
+          "quote": "My understanding of the CPU opportunity in this era is like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2037.697,
+            2039.878
+          ],
+          "quote": "But there's the CPU in the rack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2054.162,
+            2063.465
+          ],
+          "quote": "Do you have any guess as to, you know, both these things are growing, but the scale of opportunity, or am I missing things that you guys are really excited about from the CPU perspective?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2063.685,
+            2079.429
+          ],
+          "quote": "Well, from the CPU standpoint, and I think when the data center thing was kind of exploding, when ChatGPT had the explosion thing and everything was all about the accelerators, I think there was so much focus on no matter what the question is, the answer is the accelerator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2133.231,
+            2140.977
+          ],
+          "quote": "So until something's invented that says the CPU has gone away and we're now doing it through some other mechanism, which has yet been defined or invented,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2141.857,
+            2143.177
+          ],
+          "quote": "The CPU is going to be doing just fine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2153.98,
+            2164.723
+          ],
+          "quote": "Well, of course, memory is needed because in a computer von Neumann architecture or computing architecture, you have a CPU, you have some accelerator, whether it's a floating point, a GPU accelerator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2179.165,
+            2188.727
+          ],
+          "quote": "And in fact, as you get to the smaller footprints where more and more AI is going to take place, that's going to be a sweet spot for ARM because the CPU is table stakes anyway.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说 AI 重心正从训练转向推理——token 的使用与分发——这一转移正是 CPU 需求回升的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            781.773,
+            788.317
+          ],
+          "quote": "is the unit of energy relative to how you generate AI training and AI inference by design.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2111.784,
+            2114.934
+          ],
+          "quote": "To inference, the use of the tokens, the use of the information.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chip-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "芯片设计 (chip design)",
+      "file": "芯片设计",
+      "primary": true,
+      "how_described": "本集主线之一:芯片设计周期 24-36 个月,大头不在设计而在验证、确认、调试、文档;五到十年内从想法到 GDS2 文件『很有可能』,行业将巨变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            15.147,
+            20.693
+          ],
+          "quote": "Chip design can take anywhere from 24 to 36 months, depending on the complexity of the chip, et cetera, et cetera.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            481.217,
+            486.764
+          ],
+          "quote": "Chip design can take anywhere from 24 to 36 months, depending on the complexity of the chip, et cetera, et cetera.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            792.139,
+            800.924
+          ],
+          "quote": "So if you think about that, that's going to drive a lot of demand on having supply chain acumen, which then goes back to people who've got great ideas on chip design.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集指出验证、确认、调试是芯片周期中最耗时的环节,而『AI 非常擅长做这个』,是 AI 最先攻下的环节。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            23.334,
+            27.675
+          ],
+          "quote": "The largest amount of time is in the verification, the validation, the debug.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            431.015,
+            435.757
+          ],
+          "quote": "I know other companies have also talked about things like adopting formal verification at Amazon or other places for their Trinium chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            478.736,
+            479.836
+          ],
+          "quote": "You mentioned verification.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            495.929,
+            502.114
+          ],
+          "quote": "The largest amount of time is in the verification, the validation, the debug, the documentation, et cetera, et cetera.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            665.974,
+            669.117
+          ],
+          "quote": "It takes that whole piece out of the way relative to the verification.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链 (supply chain)",
+      "file": "供应链",
+      "primary": true,
+      "how_described": "本集强调芯片创业门槛在设计之外:存储/基板厂商关系、先进制程产线、资本——『供应链敏锐度』将成为最重要的能力,受限环境至少持续三到五年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            55.459,
+            71.265
+          ],
+          "quote": "We talk about the position of Arm within the chip industry, the resurgence of interest in chip innovation, the challenges of the supply chain, the future of robotics, energy, his place in the SoftBank Group, and how he sees workloads changing in the future and for Arm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            81.789,
+            90.253
+          ],
+          "quote": "I think there's an enormous amount of interest from the technology industry and the software industry in better understanding the chip supply chain recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            96.676,
+            100.078
+          ],
+          "quote": "So we have two positions in the chip supply chain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 30,
+          "t": [
+            134.62,
+            137.402
+          ],
+          "quote": "So we see the supply chain situation from all angles.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            346.153,
+            352.378
+          ],
+          "quote": "But that means you need supply chain operations people, you need to work with, as I said, the TSMCs and Samsungs of the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            721.876,
+            733.424
+          ],
+          "quote": "I think what's going to matter, back to the earlier discussion we had on supply chain, is understanding the supply chain impacts, how all of that gets built and put into ultimate end products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            792.139,
+            800.924
+          ],
+          "quote": "So if you think about that, that's going to drive a lot of demand on having supply chain acumen, which then goes back to people who've got great ideas on chip design.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1489.265,
+            1504.874
+          ],
+          "quote": "There is increasing debate and very quickly policy or EOs around supply chain controls and usage controls around both robotics and chips and data centers, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1510.016,
+            1522.822
+          ],
+          "quote": "All of these controls are relevant for you and now, either from your end customer perspective or as a relatively new entrant to, you know, we're going to own the end product and have a supply chain organization of your own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1638.109,
+            1641.451
+          ],
+          "quote": "It's also critical for diversification of supply chain.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集认为数据中心建设本身是下一个瓶颈;并反驳草根抗议是『胡扯』——数据中心带动能源、液冷等本地高技能岗位,反弹本质是对 AI 的恐惧。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            129.836,
+            134.12
+          ],
+          "quote": "We have a very good sense of what's going on in automotive, data center, smartphones.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            852.081,
+            855.064
+          ],
+          "quote": "Slowing down data center development or putting restrictions around it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1188.837,
+            1192.179
+          ],
+          "quote": "Robotics, energy, data center infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1722.782,
+            1729.369
+          ],
+          "quote": "Liquid cooling, all of the things that make the data center better, those are all jobs that can be created and done here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1740.321,
+            1749.93
+          ],
+          "quote": "On the data center side in particular, it seems like a lot of the actions that are being taken to try and prevent future data centers feel more coordinated than not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2063.685,
+            2079.429
+          ],
+          "quote": "Well, from the CPU standpoint, and I think when the data center thing was kind of exploding, when ChatGPT had the explosion thing and everything was all about the accelerators, I think there was so much focus on no matter what the question is, the answer is the accelerator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2167.988,
+            2174.92
+          ],
+          "quote": "I think some of the focus kind of moved around, but for ARM, and by the way, that applies whether I'm talking about a data center, it applies when I'm talking about an automobile.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集判断:『机器人 1.0』是专用机械,当机器人能靠训练/观察学习、机械通用且成本下降,建筑、基础设施、服务等大量人类劳动将被取代;自动驾驶卡车也算一种机器人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            55.459,
+            71.265
+          ],
+          "quote": "We talk about the position of Arm within the chip industry, the resurgence of interest in chip innovation, the challenges of the supply chain, the future of robotics, energy, his place in the SoftBank Group, and how he sees workloads changing in the future and for Arm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            454.401,
+            458.622
+          ],
+          "quote": "And for industries, whether it's healthcare, infrastructure, robotics,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1103.344,
+            1118.715
+          ],
+          "quote": "But increasingly, a lot of the strategies that we're trying to do around SoftBank is helping the strategies that Masa talked about publicly at his shareholder meeting in Japan, which is around robotics, OpenAI, infrastructure, and ARM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1188.837,
+            1192.179
+          ],
+          "quote": "Robotics, energy, data center infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1213.434,
+            1225.222
+          ],
+          "quote": "We're a couple years into serious efforts in more generalized robotics at this point, if you compare it to about a decade for LLMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1241.433,
+            1247.665
+          ],
+          "quote": "What predictions do you have about the robotics market and any opportunity for Arm there?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1261.412,
+            1274.055
+          ],
+          "quote": "The robotics 1.0, which is a purpose-built industry, you had a piece of mechanics designed to do a certain task and the software that was optimized for that task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1344.634,
+            1348.656
+          ],
+          "quote": "A lot of the hypotheses people have about the form factor of robotics tends to split into two or three camps.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1424.472,
+            1429.974
+          ],
+          "quote": "Are there specific pockets that you think will be most likely the early adopters of robotics that you're starting to see some signal from?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1489.265,
+            1504.874
+          ],
+          "quote": "There is increasing debate and very quickly policy or EOs around supply chain controls and usage controls around both robotics and chips and data centers, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1533.926,
+            1542.75
+          ],
+          "quote": "How protectionist the US or the West should be about manufacturing of chips, creation of data centers, robotics, like what are your overall stances here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2032.516,
+            2036.917
+          ],
+          "quote": "Two core pieces and then, you know, future devices and robotics as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "edge-device",
+      "type": "concept",
+      "role": "concept",
+      "name": "边缘设备 (edge device)",
+      "file": "边缘设备",
+      "primary": true,
+      "how_described": "本集说越往边缘走 AI 越多,『你不可能把一个 50 瓦的 GPU 戴在头上』,本地 AI 处理必须靠高能效 CPU——正是 Arm 的最佳区间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 411,
+          "t": [
+            2188.747,
+            2191.908
+          ],
+          "quote": "You have to have it to do all the things that are required in the edge device.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Transformer",
+      "file": "Transformer",
+      "primary": false,
+      "how_described": "本集提到:只要 Transformer 仍是计算密集、存储密集的架构,供应链受限环境就会持续三到五年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            779.671,
+            781.073
+          ],
+          "quote": "So long as the Transformer",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "export-controls",
+      "type": "concept",
+      "role": "concept",
+      "name": "出口管制 (export controls)",
+      "file": "出口管制",
+      "primary": true,
+      "how_described": "本集称出口管制是一场『无限游戏』——不会有一个赢家然后比赛结束——但关键技术离开美国本土会是坏事;并支持美国本土建更多晶圆厂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1505.234,
+            1509.596
+          ],
+          "quote": "Sorry, I'm going to throw export controls in there, so four types of controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1646.293,
+            1648.774
+          ],
+          "quote": "You know, as far as the export controls go and...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "von-neumann-architecture",
+      "type": "concept",
+      "role": "concept",
+      "name": "冯·诺依曼架构 (von Neumann architecture)",
+      "file": "冯·诺依曼架构",
+      "primary": false,
+      "how_described": "本集用其论证基本系统设计未变:CPU + 加速器 + 内存,因此 CPU 不会消失。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 405,
+          "t": [
+            2153.98,
+            2164.723
+          ],
+          "quote": "Well, of course, memory is needed because in a computer von Neumann architecture or computing architecture, you have a CPU, you have some accelerator, whether it's a floating point, a GPU accelerator.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fabless",
+      "type": "concept",
+      "role": "concept",
+      "name": "无晶圆厂 (fabless)",
+      "file": "无晶圆厂",
+      "primary": false,
+      "how_described": "本集说 Arm 自研芯片后成为一家 fabless 半导体公司——不建晶圆厂、制造全部外包,需补供应链与工程能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            335.505,
+            341.109
+          ],
+          "quote": "Yeah, so we, obviously to deliver a product, and we're a fabless semi-company, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

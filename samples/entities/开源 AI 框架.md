@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>开源 AI 框架 (open source AI framework)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="开源 AI 框架">开源</div><div class="pi"><h1 class="pt">开源 AI 框架 (open source AI framework)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>193</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="开源 AI 框架">开源</div><div class="pi"><h1 class="pt">开源 AI 框架 (open source AI framework)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>196</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*193 条*
+*196 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -401,7 +401,13 @@ unlisted: true
 
 ![[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill#^q8]]
 
+![[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced#^q4]]
+
 ![[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a#^q3]]
+
+![[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#^q2]]
+
+![[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#^q4]]
 
 ## ② 出现在这些集
 
@@ -415,7 +421,7 @@ unlisted: true
 
 [[Louis Knight-Webb]] · [[Swyx]] · [[AI Engineers]] · [[沙箱]] · [[智能体]] · [[RL 环境]] · [[vibe coding]] · [[code mode]] · [[推理]] · [[PLG]]
 
-<script type="application/json" class="pd-epn">{"Louis Knight-Webb":1,"Swyx":2,"AI Engineers":1,"沙箱":35,"智能体":1,"RL 环境":1,"vibe coding":25,"code mode":2,"推理":4,"PLG":6}</script>
+<script type="application/json" class="pd-epn">{"Louis Knight-Webb":1,"Swyx":2,"AI Engineers":1,"沙箱":35,"智能体":1,"RL 环境":1,"vibe coding":26,"code mode":2,"推理":4,"PLG":6}</script>
 
 <script>
 (function(){

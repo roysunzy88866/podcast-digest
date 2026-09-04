@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]]
+[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":3,"SpaceX":12,"Palantir":11,"Airbnb":10,"OpenAI":79,"Anthropic":92,"Cognition":14,"Ramp":5}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":3,"SpaceX":12,"Palantir":11,"Airbnb":10,"OpenAI":80,"Anthropic":92,"Cognition":14,"Ramp":5}</script>
 
 <script>
 (function(){

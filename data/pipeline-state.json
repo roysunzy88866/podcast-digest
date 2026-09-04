@@ -52,14 +52,9 @@
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
   },
   "audioWanted": {},
-  "transient": {
-    "2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced": 1,
-    "2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce": 1,
-    "2026-09-03-practicalai-less-about-models-more-about-architectur": 2,
-    "2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l": 1
-  },
+  "transient": {},
   "cutoffs": {
-    "lennys": "2026-08-31T12:04:18.000Z",
+    "lennys": "2026-09-02T12:03:39.000Z",
     "pg": "2026-08-28T22:38:13.000Z",
     "a16z": "2026-09-03T10:00:00.000Z",
     "yc": "2026-08-29T13:00:00.000Z",
@@ -78,11 +73,11 @@
     "cogrev": "2026-08-16T05:43:02.000Z",
     "knowledge": "2026-09-01T10:00:00.000Z",
     "pragmatic": "2026-08-26T15:59:59.000Z",
-    "practicalai": "2026-08-25T09:00:00.000Z",
+    "practicalai": "2026-09-03T09:00:00.000Z",
     "changelog": "2026-08-25T19:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
-    "howiai": "2026-09-02T11:00:00.000Z",
+    "howiai": "2026-09-03T19:34:55.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
     "twiml": "2026-09-01T17:45:00.000Z",
     "eyeonai": "2026-08-24T15:07:00.000Z",
@@ -611,6 +606,24 @@
       "reason": "超长集:估 337 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
       "title": "AI in the AM — Weekly Highlights: Relaunch Week (Aug 17–20, 2026)",
       "pubDate": "2026-08-22T14:22:00.000Z"
+    },
+    {
+      "id": "2026-09-03-practicalai-less-about-models-more-about-architectur",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Less about Models; More about Architecture",
+      "pubDate": "2026-09-03T09:00:00.000Z"
+    },
+    {
+      "id": "2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg",
+      "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
+      "title": "Ep 93: CEO of Redwood Research Buck Shlegeris on OpenAI/HuggingFace Revelations, Fixing AI Safety & Takeover Odds",
+      "pubDate": "2026-09-03T13:03:11.000Z"
+    },
+    {
+      "id": "2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Anthropic Member of Technical Staff on Leading Forward-Deployed Engineers, Turning Down 2x Pay, and Why Leaders Are Becoming ICs Again | Amandeep Khurana | E310",
+      "pubDate": "2026-09-02T19:00:00.000Z"
     }
   ]
 }

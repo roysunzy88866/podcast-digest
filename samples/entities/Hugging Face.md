@@ -62,7 +62,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[开源权重]] · [[沙箱]] · [[推理]] · [[NVIDIA]] · [[Theo Jaffe]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":79,"Anthropic":92,"护栏":1,"开源权重":5,"沙箱":35,"推理":4,"NVIDIA":25,"Theo Jaffe":5,"Stripe":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":80,"Anthropic":92,"护栏":1,"开源权重":5,"沙箱":35,"推理":4,"NVIDIA":26,"Theo Jaffe":5,"Stripe":26}</script>
 
 <script>
 (function(){

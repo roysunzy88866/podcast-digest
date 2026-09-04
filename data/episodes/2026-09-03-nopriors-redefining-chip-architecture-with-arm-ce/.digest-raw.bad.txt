@@ -1,132 +1,174 @@
 ===标题===
-Arm CEO Rene Haas：AI 时代，CPU 才是一切的心脏
+Arm CEO Rene Haas:AI 时代 CPU 为什么不会消失
 ===导语===
-Arm CEO Rene Haas 谈 Arm 为何亲自做芯片、AI 如何重塑芯片设计、机器人与数据中心之争，以及为什么加速器热潮掩不住 CPU 的核心地位。
+Arm 与软银国际 CEO Rene Haas 谈 Arm 自研芯片的缘由、AI 如何改写芯片设计周期、供应链瓶颈、机器人市场，以及为什么加速器热潮反而让 CPU 更重要。
 ===正文##
-这一集的主角是 Rene Haas——Arm 的 CEO，同时负责运营 SoftBank Group International。Arm 是芯片行业最特殊的一家公司：它自己几十年不造芯片，靠授权 CPU IP（也就是设计芯片核心组件的方式，授权给别人去制造）赚到了 98.5% 的毛利率。但这一集最值得注意的信息是：这家「只卖图纸」的公司，已经亲自下场做实体芯片了。
+这一集的嘉宾是 Rene Haas——Arm 的 CEO,同时经营 SoftBank Group International。Arm 可能是读者每天摸着却没意识到的公司：智能手机、数据中心、汽车里的 CPU 核心，大多源自它的 IP 授权。而他抛出的核心判断是：当所有人都说「AI 时代答案就是加速器」时，CPU 反而成了不可绕过的一环。
 
-## 为什么 IP 授权公司开始造芯片
+## Arm 为什么从卖图纸改成造芯片
 
-Haas 解释这是一步一步演变来的。Arm 早期只卖单独的组件——CPU IP、GPU IP、系统 IP。几年前他们发现产品周期越来越快、芯片制造时间却在拉长，于是推出了「计算子系统」——他路演时用乐高作比：不只给你积木块，还给你一张「怎么拼」的蓝图。需求疯狂增长。
+Arm 的主业是把 CPU 核心的设计(IP)授权给芯片公司——客户要么有自己的晶圆厂(如 Samsung),要么把设计拿去 TSMC 流片。因为服务的市场横跨汽车、数据中心、手机，Rene 说他们「几乎能看到一切」的供应链动向 [02:09]。
 
-再往前一步就是实体产品。契机是 Meta 找上门：他们想要一颗通用型、面向智能体的 CPU，市面上没人能给，于是提议「我们一起做」。这就是后来发布的 Arm 首款自有芯片 Neoverse 之外的 AGI CPU 的起点。出人意料的是客户阻力很小——NVIDIA、Amazon、Microsoft、Google 这些自研 ARM 服务器芯片的大厂全都表态支持，理由是市面上的 ARM 软件越多，整个生态和客户自己都受益 [04:27–05:10]。
+几年前他们看到产品周期在加快、芯片制造周期却在拉长，于是从卖单个组件转向卖「计算子系统」——他用乐高类比：Arm 提供把所有零件拼在一起的蓝图 [03:25]。需求「疯狂」之后，下一步就是实体芯片。契机是 Meta 找上门：他们想要一款通用的、面向智能体的 CPU,市面上没人能提供，于是提议一起做 [04:13]。这就是去年三月发布的 Arm AGI CPU。
 
-代价也真实存在。Arm 变成了一家无晶圆厂半导体公司（即自己不建工厂、委托代工的芯片公司），必须补上供应链运营、后端布局、物理实验室这些老业务里完全没有的能力。Haas 回忆 2013 年刚从 NVIDIA 来到 Arm 时的心态：「没有库存、没有退货、没有报废品，有什么不喜欢的？」现在领导层里补进了来自 Broadcom、Qualcomm、NVIDIA 的高管。
+风险在于：Arm 做的是 IP,IP 的价值完全取决于生态。所以他们对每位客户都做了沟通，结果反对比预想少得多——原因很直接，市面上可用的软件越多，NVIDIA、Amazon、Microsoft、Google 这些做 ARM 服务器芯片的客户自己也是受益者 [04:52]。发布当天，各家高管齐站台。
 
-## AI 正在改写芯片设计流程
+代价也很实际：Arm 原来是一家无晶圆厂公司，没有库存、没有退货、没有报废品——Rene 提到那条著名的 98.5% 毛利率。现在他们要建供应链运营团队，和 TSMC、Samsung 谈产能，和美光、SK 海力士谈内存分配，还要补齐后端、版图、物理实现这些工程能力。他从博通、高通、NVIDIA 挖来了做过这些事的领导层，「很快建起了那块肌肉」[06:53]。
 
-Haas 是 AI 生产力论的重度信徒，而芯片设计恰好是 AI 收益最明确的场景之一。他的关键判断是：一颗芯片 24 到 36 个月的设计周期里，占用时间最多的不是设计本身，而是验证、确认和调试——「AI 非常擅长这些」[08:01–08:22]。如今 Arm 大约 80% 到 90% 的工程师每天都在用 AI 工具。
+## AI 已经深入芯片设计，但卡在「不可训练」上
 
-他给外界打了个比方：如果现在把 AI 工具关掉，「就像 1990 年代你有了互联网，却规定每天只能在两点到四点之间上网，之后去走廊尽头的图书馆查资料——那会是无政府状态。精灵已经放出来了，拦不住」[08:31–08:49]。
+芯片设计周期 24 到 36 个月，但占时间最多的不是设计本身，而是验证、确认、调试和文档——而这恰恰是 AI 最擅长的。Arm 现在大约 80% 到 90% 的工程师每天在用 AI。他给出一个类比：如果把它关掉，「就像回到 1990 年代，你已经有互联网了，却被告知只有两点到四点能上网，之后去走廊尽头的图书馆查资料。那会是无政府状态」[08:31]。精灵已经出了瓶子。
 
-目前的短板也很清楚：AI 在 RTL 生成（芯片寄存器传输级设计）和物理设计上还不够一流，因为模型只能用公开数据训练，而芯片知识高度专有。Arm 正在和模型厂商合作微调。他提到 Arm 的一个内在优势：他们一向坚持给 IP 写文档——很多公司授权出去的 IP 根本没有文档，「不可用、不可测试，就不可训练；不可训练，对 AI 就不可用」[09:54–10:08]。
+短板在 RTL 生成和物理设计上——因为模型是用公开资料训练的，而芯片行业的核心信息高度专有。Arm 在和模型厂商合作微调。他还指出一个商业模式上的巧优势：有些公司持有宝贵 IP 却没有文档、没有解释，「不可用、不可测试，所以不可训练，所以对 AI 不可用」[10:01]——而 Arm 的 IP 体系文档完备，天然适合喂给 AI。
 
-往前看多少年？他认为五年以上，对于较直接的设计，「从一个想法直接到 GDS2 文件」（GDS2 是交给晶圆厂投产的最终文件）很有可能；但「给我设计一个比 Vera Rubin 快 10%、便宜 20%、能效高 30% 的芯片」这种级别的需求，还不是按一个按钮就能实现的 [10:43–11:27]。
+被问到 24-36 个月会不会缩短到六个月，他的回答是分层的：五年以上，对某些「更直接的设计」，从想法直接到 GDS2 文件(发给晶圆厂去制造的最终文件)「很有可能」；但你说「给我设计一个比 Vera Rubin 快 10%、便宜 20%、能效高 30% 的芯片」——不可能按一个按钮就实现。五到十年内，行业会有惊人的变化 [11:27]。
 
-## 下一个瓶颈：不是估值泡沫，是修不快的工地
+## 供应链才是新玩家的生死线，泡沫还差得远
 
-对于满屏的「AI 泡沫」之问，Haas 把估值问题和供需问题分开：「先撇开估值泡沫不谈——那是股市的事。至于我们是否供过于求？还差得远」[14:55]。需求之所以无法满足，是因为按设计而言 Transformer 架构就极其吃算力、吃内存。
+AI 芯片创业公司如今遍地开花、融资凶猛，但 Rene 提醒：真正的门槛不在设计，而在与存储厂商、基板厂商的关系，以及拿到三纳米产线、先进封装产能的通道。「我们认为至少会在这个受限环境里待三到五年」[12:53]——只要 Transformer 还是训练和推理的基本能量单位，它就是计算密集加存储密集的，需求会持续砸向供应链。
 
-他判断的下一个瓶颈有点出人意料：数据中心的建设本身。「看看今天在做的所有项目，没几个是进度超前、用人比预想少的」，再叠加美国各地对数据中心开发的限制——「我们会在这个受限环境里至少待上三到五年」[12:53]。之前封装是瓶颈，现在是内存，接下来是工地。
+瓶颈轮动到他看到的下一环：数据中心建设。「今天进行中的项目，没有多少是进度超前、用人比预期少的」，再叠加美国各地对数据中心的限制，基础设施可能成为逆风 [14:02]。被问到著名的「AI 泡沫」问题，他撇开股市估值不谈：「至于我们是否供过于求——还差得远」[14:55],因为需求是永不满足的，这是模型的工作方式决定的。
 
-这也直接回答了他常被问到的创业建议：在一个资本支出密集到极致的行业里，光有好设计不够，与内存供应商、基板供应商的关系、拿到三纳米产线和先进封装产能的渠道、以及获取资本的方式，都成了生死线。他透露软银的打法之一是刚宣布的 SoftBank Neo——软银有意成为一家 neocloud（新型云厂商），这样就能给那些拿不下微软或谷歌 design win（设计中标）的芯片初创公司提供一个「归宿」。
+## 背靠软银：资本密集时代的杠杆
 
-## 机器人：ARM 将无处不在
+Rene 在软银体系里主导 Ampere、Graphcore 和自动驾驶公司 StackAV 的方向，更深层的角色是参与孙正义(Masa)战略的制定与执行——围绕机器人、OpenAI、基础设施和 ARM 四条线。对资本密集行业的创业者，他的建议是：获得资本就是门槛，必须「在与生态系统合作的方式上更有创意」[17:00]。软银自己的玩法是宣布做 neocloud——这样它可以直接成为那些拿不下微软、谷歌设计中标的芯片新贵的「归宿」；对 Arm 而言，软银也不必是、但可以是产品的家 [19:19]。
 
-聊到机器人，Haas 完全同意「还在早期」的判断，但认为方向毫无疑问。他把行业分成「机器人 1.0」和现在：过去是为特定任务造专用机械、配专用软件，换一条产线就得拆掉重来，门槛极高；现在机器人能靠训练或观察来学习，加上机械结构足够通用、成本不断下降，「你看着它说，天哪，还有什么它做不到的」[21:45]。
+## 机器人：还早，但 Arm 已经在里面
 
-他不买人形机器人体育联赛的账（「没人有兴趣看机器人赛跑」），认为真正的价值在替代大量人类劳动任务。形态上他判断人形和专用形态会并存——很多工作是按六英尺身高、特定臂长优化的，但两者都会有。最早被自动化的领域他点名很明确：工厂自动化、配送和分销中心，「一辆拥有自主系统的卡车，宽泛地讲也算一种机器人」[24:35]。而当下还太早的原因很朴素：机器人太贵，商业模式还没跑通。
+他百分之百同意通用机器人还处早期：泛化、鲁棒性有了漂亮的演示，但没有大规模部署。市场判断很直接——从专机时代(换一条产线就得拆掉重来)走向能学习、可重编程、成本又在下降的机器人，「还有什么它是做不到的吗？」[21:45]。形态上他认为人形和专用形态都会有。至于早期采用者，他觉得商业模式还没想清楚、机器人成本太高，但配送中心的完全自动化——宽泛地讲，自动驾驶卡车也算一种机器人——会是最先落地的一批 [24:41]。
 
-对 Arm 的位置他毫不含糊：今天 NVIDIA 或 Qualcomm 方案里人形机器人的「大脑」，大多已经跑在 ARM 上；实时感知、指尖传感也会是 ARM 的——「机器人行业将由 ARM 驱动」[23:24]。
+而 Arm 的位置已经定了：「今天你在人形机器人里看到的大脑，都跑在 ARM 上」，从指尖的实时感知到主控，「机器人行业将由 ARM 驱动」[23:24]。
 
-## 保护主义、出口管制与「成为领导者没有坏处」
+## 为什么 CPU 反而是 AI 最大的受益者之一
 
-Haas 以美国公民身份表态：1980 年代美国半导体领导地位曾被日本存储器攻势打得措手不及，靠 Sematech 之类的努力重建；后来互联网和 SaaS 风靡，人们忘了半导体是战略资产。他的结论：美国需要更多本土晶圆厂，这对国家安全和供应链多元化都至关重要。
+这是全集最核心的论点。ChatGPT 引爆后，一切都围着加速器转，「CPU 有点被遗忘了」。但他的反驳是：「从来没有一个被发明出来的计算问题是不利用、也无法利用微处理器的。它是一切的心脏。」[34:43] 训练之后数据流向推理，而推理是一个系统问题：加速器是「token 工厂」，但「把 token 运走交给用户的卡车在哪里？这就是 CPU 做的事情」[35:26]。除非有人发明出替代机制——目前没有被定义或发明出来——CPU 会过得很好，而且在生成 token 的加速器之外，还有海量需求。
 
-对出口管制，他的看法是「这是一场无限游戏」——竞赛不会有所谓终结的赢家，但限制的后果可能是大量关键技术不再基于美国，这不是好事。他打了底特律的比方：1950 年代汽车城周围环绕着整个供应链生态；数据中心同理——「有人说数据中心就是个 Costco 大盒子、停车场两辆车、没有工作岗位，我认为那是胡扯」，液冷、能源这些配套都是本地高技能岗位，电工工会最近还公开喊话「请不要禁止数据中心」[29:38]。在他看来，反对声浪主要来自对失业的恐惧，数据中心不幸成了「所有 AI 可能带来的坏事的靶心」。
+更妙的是边缘场景：AI 正在走向越来越小的设备，「你不可能把一个 50 瓦的 GPU 戴在头上」[36:32],本地 AI 处理必须靠高能效的 CPU——这正是 Arm 最擅长的 sweet spot。
 
-这集的核心论点落在一句第一性原理上：「无论是智能手机、互联网还是个人电脑，成为领导者没有任何坏处。会有你不喜欢的二阶三阶效应，但成为落后者，你就只能让别人把整个剧本口述给你。」[31:34]
+## 保护主义、数据中心与「做领导者没有坏处」
 
-## 为什么 CPU 不会消失
+戴上美国公民的帽子，他主张美国需要更多本土晶圆厂——既为国家安全，也为供应链多元化，这和 1980 年代日本存储器冲击后美国重建半导体的逻辑一脉相承。对出口管制，他的看法是「这是一场无限游戏」，不会有一个赢家宣布比赛结束；但如果走到关键技术不再以美国为根基的那天，那不是好事 [27:43]。从第一性原理看：「做领导者没有任何坏处。会有你不喜欢的二阶三阶效应，但做落后者，整个剧本都是别人给你口述的。」[31:50]
 
-收在 Arm 最根本的商业判断上。加速器热潮让 CPU 一度「被遗忘」，Haas 的反驳是：「有史以来发明过的计算问题中，没有哪一个不使用、也不能使用微处理器。它是一切的心脏」[34:39]。关键在工作负载的转移：当重心从训练转向推理（即 token 的使用），系统里必须有个东西来编排、仲裁这些 token 去哪——「token 工厂光负责生成，那把 token 运走交给用户的卡车在哪儿？这就是 CPU 做的事情」[35:26]。冯·诺依曼架构（CPU+加速器+内存的基本计算机结构）没变，CPU 就是不会消失。
-
-而 AI 向边缘和端侧下沉，恰恰是 Arm 的甜蜜点：「你不可能把一个 50 瓦的 GPU 戴在头上」，本地 AI 处理必须靠高能效的 CPU——这正是 Arm 做了几十年的事。
+对数据中心的社区抗议，他认为根源是「AI 意味着失业」的恐惧——而他完全不认为这有根据：电工工会刚刚公开说「请不要禁止数据中心，我们需要这些工作」。数据中心成了所有关于 AI 的坏事的靶心，甚至有人举着假的「受污染的水」制造恐惧 [30:51]。
 
 ## 本集带走
 
-- **芯片周期的瓶颈在设计之外**：24-36 个月里最花时间的是验证、调试和文档而非设计本身，这正是 AI 收益最大的环节——Arm 已有 80-90% 的工程师每天在用 AI 工具。
-- ** Arm 下场做芯片是顺水推舟**：从卖 IP 组件 → 卖「计算子系统」蓝图（乐高拼装图）→ Meta 主动找来共创通用智能体 CPU，客户因生态软件变多而支持而非抵制。
-- **判断 AI 供需别看估值**：Haas 认为供给远未过剩，真正的调速器是数据中心建设速度、晶圆与内存产能，且这种受限环境至少持续三到五年。
-- **芯片创业的新门槛是供应链**：设计好想法之外，内存/基板供应商关系、先进制程产能、资本策略缺一不可；软银的应对是用 neocloud 给初创公司兜底。
-- **CPU 的护城河在推理时代更宽了**：token 的调度、仲裁全靠 CPU；边缘 AI 场景下「50 瓦 GPU 戴不到头上」，高能效 CPU 是必需品，这正中 Arm 下怀。
-- **机器人：早但确定**：能学习的通用机器人 + 通用机械结构 + 成本下降 = 巨大市场；工厂、配送中心最先自动化，但当下太贵、商业模式未验证。
+- **验证才是芯片周期的瓶颈**：24-36 个月里大头不是设计而是验证、调试、文档，这正是 AI 最先吃掉的部分——Arm 已有八九成工程师日用来做这些。
+- **专有数据是护城河，但前提是「可训练」**：没有文档、不可测试的 IP 对 AI 无用；商业模式里文档完备的一方，会在 AI 工具变强时自动放大优势。
+- **看 AI 芯片创业公司，先看供应链**：设计不稀奇，稀奇的是拿到先进制程产能、先进封装和存储分配的能力，这个受限期至少三到五年。
+- **推理时代 CPU 是「运 token 的卡车」**：加速器生成 token,CPU 负责编排调度；只要没有替代机制被发明，CPU 需求与加速器同涨。
+- **边缘 AI 是 Arm 的主场**：设备越小、越没法塞进 50 瓦 GPU,高能效 CPU 的价值越大——机器人也已经在 ARM 的大脑上跑。
+- **判断泡沫先分两件事**：估值泡沫是股市问题；供过于求则「还差得远」，瓶颈在数据中心建设、晶圆和存储产能。
 ===金句===
-00:20 | Rene Haas
-EN | The actual design is not the largest amount of time. The largest amount of time is in the verification, the validation, the debug.
-ZH | 实际的设计并不是占用时间最多的部分。占用时间最多的是验证、确认和调试。
+00:15 | Rene Haas
+EN | Chip design can take anywhere from 24 to 36 months, depending on the complexity of the chip, et cetera, et cetera.
+ZH | 芯片设计可能需要 24 到 36 个月不等，取决于芯片的复杂程度等等。
+
+00:23 | Rene Haas
+EN | The largest amount of time is in the verification, the validation, the debug.
+ZH | 占用时间最多的是验证、确认、调试。
 
 00:29 | Rene Haas
-EN | And if we were to shut it off, it's like being in the 1990s. You've got internet and you're now saying, you know, only internet between the hours of two and four.
-ZH | 如果我们把它关掉，那就好像回到了 1990 年代。你有互联网，而现在你却说，只能在两点到四点之间上网。
+EN | And if we were to shut it off, it's like being in the 1990s.
+ZH | 如果我们把它关掉，就像回到 1990 年代。
+
+00:39 | Rene Haas
+EN | It'd be anarchy.
+ZH | 那会是无政府状态。
 
 00:40 | Rene Haas
 EN | The genie's out of the bottle and there's no stopping that.
-ZH | 精灵已经从瓶子里放出来了，谁也拦不住。
+ZH | 精灵已经出了瓶子，没有什么能阻止这一点。
+
+03:34 | Rene Haas
+EN | Demand for that was insane.
+ZH | 对此的需求是疯狂的。
 
 04:15 | Rene Haas
 EN | They wanted a general-purpose, agentic CPU. There wasn't anybody out who could give it to them.
-ZH | 他们想要一颗通用型、智能体式的 CPU。外面没有任何人能提供这样的东西。
+ZH | 他们想要一款通用的、面向智能体的 CPU。当时没有任何人能够把这个提供给他们。
 
-09:59 | Rene Haas
+04:48 | Rene Haas
+EN | And surprisingly, we got a lot less pushback than I thought.
+ZH | 而出人意料的是，我们得到的反对比我预想的少得多。
+
+07:22 | Rene Haas
+EN | Well, personally, I'm a huge believer in AI as a utility that's going to help productivity for every single industry.
+ZH | 就个人而言，我坚信 AI 是一种将帮助每一个行业提升生产力的公用事业。
+
+08:59 | Rene Haas
+EN | One of them is really around RTL generation and then physical design and implementation in best of class.
+ZH | 其中之一确实是围绕 RTL 生成，以及物理设计和实现方面的同类最佳水平。
+
+10:01 | Rene Haas
 EN | And if it's unusable and untestable, it's actually untrainable. And if it's untrainable, it's not usable for AI.
-ZH | 如果它不可用、不可测试，那它实际上是不可训练的。而如果它不可训练，那它对 AI 来说就不可用。
+ZH | 如果它不可用、不可测试，那它实际上也不可训练。而如果它不可训练，那它对 AI 来说就不可用。
 
-11:27 | Rene Haas
-EN | But I think in five to 10 years, you know, our industry as well, we're gonna see some amazing differences relative to how chips are designed.
-ZH | 但我认为在五到十年内，我们的行业也一样，我们会看到在芯片设计方式方面一些惊人的差异。
+10:43 | Rene Haas
+EN | I don't know if it's in two to three years away, but five plus years, can you go from idea to a GDS2 file?
+ZH | 我不知道这是否是两三年后的事，但五年以上，你能从一个想法做到一个 GDS2 文件吗？
+
+11:24 | Rene Haas
+EN | You're not gonna be able to press a button and have it happen right away.
+ZH | 你不可能按一个按钮就让它立刻实现。
 
 12:53 | Rene Haas
 EN | I think we're going to be in this constrained environment for three to five years at least.
-ZH | 我认为我们至少会在这种受限环境中待上三到五年。
+ZH | 我认为我们至少会在这个受限的环境里待上三到五年。
+
+13:44 | Rene Haas
+EN | I think building out the data centers is going to be a bottleneck.
+ZH | 我认为数据中心的建设将是一个瓶颈。
 
 14:55 | Rene Haas
 EN | The bubble in terms of are we oversupply to demand, not even close.
-ZH | 至于说我们是否供过于求的泡沫，还差得远。
+ZH | 至于我们是否供过于求的泡沫，还差得远。
 
 15:02 | Rene Haas
 EN | And I think, again, that's because the demand is insatiable, just given the way these models work.
-ZH | 而且我认为，这是因为需求是无法满足的，就看这些模型的工作方式。
+ZH | 而且我认为，再说一次，这是因为需求是永不满足的，这是由这些模型的运作方式决定的。
 
-24:35 | Rene Haas
-EN | To me, loosely speaking, a truck that has an autonomous, is a robot of sorts.
-ZH | 对我来说，宽泛地讲，一辆拥有自主(系统)的卡车，也算是一种机器人。
+17:28 | Rene Haas
+EN | And in that world, we could become a home for these young companies who have chip technology that in other worlds they'd have to go up and figure out how to get a design win at Microsoft or Google.
+ZH | 在这个世界里，我们可以成为这些拥有芯片技术的年轻公司的归宿，因为在其他情况下，它们必须自己想办法在微软或谷歌那里拿下设计中标。
+
+21:45 | Rene Haas
+EN | And then when you layer on top of that, the costs coming down, you look at it and say, oh my gosh, what will it not be able to do?
+ZH | 然后当你在此基础上再加上成本不断下降，你看着它就会说，天哪，还有什么它是做不到的吗？
+
+22:09 | Rene Haas
+EN | I don't think anyone's going to have any interest in watching a sports league of robots.
+ZH | 我不认为会有人有兴趣观看机器人体育联赛。
+
+23:24 | Rene Haas
+EN | Today, so I think for us going forward, the robotic industry will be powered by ARM.
+ZH | 今天，所以我认为对我们来说，向前看，机器人行业将由 ARM 驱动。
 
 27:36 | Rene Haas
 EN | My personal view is that it's an infinite game, I believe, first in terms of the race, that there's not going to be a winner, the race is going to be over.
-ZH | 我个人的看法是，这是一场无限游戏，就这场竞赛而言，不会有赢家，这场竞赛会结束。
+ZH | 我个人的看法是，这是一场无限游戏，我相信，首先就这场竞赛而言，不会出现赢家、比赛就此落幕的那种局面。
 
 28:38 | Rene Haas
-EN | I call BS on that because if you think about whether it's around energy, Liquid cooling, all of the things that make the data center better, those are all jobs that can be created and done here.
-ZH | 我认为那是胡扯，因为如果你想想，无论是围绕能源、液冷，所有让数据中心变得更好的东西，这些都是可以在这里创造并完成的工作。
+EN | I call BS on that because if you think about whether it's around energy, liquid cooling, all of the things that make the data center better, those are all jobs that can be created and done here.
+ZH | 我认为那是胡扯，因为如果你想想，无论是围绕能源的、液冷的，以及所有能让数据中心变得更好的东西，这些都是可以在这里创造、在这里完成的工作岗位。
 
-31:45 | Rene Haas
-EN | There's just not a downside from being the leader. There are second or third order effects that you may not like, but to be the laggard, You are having the entire script dictated to you.
-ZH | 成为领导者就是没有坏处。会有一些你可能不喜欢的二阶或三阶效应，但成为落后者，你就只能是让别人把整个剧本口述给你。
+31:34 | Rene Haas
+EN | Yeah, I mean, on first principles, whether it was smartphones, the internet, personal computers, fill in your favorite technology, there is no downside from being the leader.
+ZH | 是的，我是说，从第一性原理来看，无论是智能手机、互联网、个人电脑，填入你最喜欢的任何技术，做领导者是没有任何坏处的。
 
-32:10 | Rene Haas
-EN | So if you're on the wave of some technology innovation, and I would argue, to some extent, AI is a little bit of the final frontier of what can be done with essentially intelligence. Of course you want to be in the lead.
-ZH | 如果你正处在这波技术创新的浪潮上，而且我会说，在某种程度上，AI 有点像是智能本质上所能做的事情的最终前沿。你当然想处于领先地位。
+31:56 | Rene Haas
+EN | You are having the entire script dictated to you and everything that kind of comes with it.
+ZH | 整个剧本都是由别人给你口述的，以及随之而来的一切。
 
-34:43 | Rene Haas
-EN | It doesn't utilize and can't utilize the microprocessor. It is the heart of everything. All roads lead through it, around it, past it, et cetera, et cetera.
-ZH | 没有利用、也不能利用微处理器。它是一切的心脏。所有的路都穿过它、绕着它、经过它，等等，等等。
+34:39 | Rene Haas
+EN | There's no computing problem that's ever been invented that It doesn't utilize and can't utilize the microprocessor.
+ZH | 从来没有被发明出来的计算问题，是它不利用、也无法利用微处理器的。
 
 35:26 | Rene Haas
 EN | It's like literally, where are the trucks that are gonna take the tokens away and give them to the users? That's what CPUs do.
-ZH | 说白了就是，那些要把 token 运走、交给用户的卡车在哪儿？这就是 CPU 做的事情。
+ZH | 说白了就是，把 token 运走并交给用户的卡车在哪里？这就是 CPU 所做的事情。
 
 36:32 | Rene Haas
 EN | But now we have an opportunity with our instructions at architecture to do a lot of things where you just can't put a 50-watt GPU on your head, right?
-ZH | 但现在我们有机会通过我们的指令架构来做很多事情，在这些场景下你根本不可能把一个 50 瓦的 GPU 戴在头上，对吧？
+ZH | 但现在我们有机会凭借我们的指令架构去做很多事情，在那些你根本不可能把一个 50 瓦的 GPU 戴在头上的场景，对吧？
 ===END===

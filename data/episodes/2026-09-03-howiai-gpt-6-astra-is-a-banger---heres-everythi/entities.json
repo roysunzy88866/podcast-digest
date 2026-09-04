@@ -1,0 +1,742 @@
+{
+  "episode_id": "2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi",
+  "podcast": "How I AI",
+  "date": "2026-09-03",
+  "tags": [
+    "AI 编程",
+    "computer use",
+    "browser use",
+    "模型评测",
+    "个人软件"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 把 GPT-6 Astra 定位为旗下最智能、最对齐的模型,重点强调 computer use 和软件使用能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            38.675,
+            49.279
+          ],
+          "quote": "I'm going to tell you what this model is, what OpenAI says it's great at, and I'm going to show you some pretty incredible things I've built with it, including yes, hacking this dumb computer again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            65.523,
+            69.984
+          ],
+          "quote": "So OpenAI is positioning it as its most intelligent and aligned model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-6",
+      "file": "GPT-6",
+      "primary": true,
+      "how_described": "本集主线:OpenAI 最新上线的模型(代号 Astra),声称各方面最先进,能 computer use 操作复杂 UI、one shot 搞定此前模型攻不下的编程任务,定价每百万输入 token 10 美元、输出 50 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.231,
+            25.071
+          ],
+          "quote": "we are going to the stars today because yes today GPT-6 Astra is live well it's live for daybreak customers it will be live for the rest of us very soon i was lucky enough to get some early access to test the model and this has been the model in the last six months and you know maybe i sound like a broken record but this is the one that has made me actually feel",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            35.334,
+            38.555
+          ],
+          "quote": "This model, GPT-6, one shot a bunch of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1765.768,
+            1770.951
+          ],
+          "quote": "All right, so to take a step back, Astra, GPT-6 is a banger.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1866.327,
+            1869.689
+          ],
+          "quote": "Again, something I would have never been able to build in GPT 6.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1899.635,
+            1905.459
+          ],
+          "quote": "But for now, as soon as you get access to GPT-6, you should be using it and please show me what you build.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "computer use",
+      "file": "computer use",
+      "primary": true,
+      "how_described": "本集说是 Astra 最被重点强调的能力:不只浏览器,还能操作 Excel、Figma、Blender 等复杂 UI,让 Claire 全程不碰电脑配好 CRM 工作流、生成缩略图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            58.921,
+            65.343
+          ],
+          "quote": "We got the science, math, coding, knowledge work, not being annoying, being fast, computer use, all the things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            77.166,
+            80.608
+          ],
+          "quote": "The big thing that they're calling out is computer use and the use of software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            80.628,
+            84.83
+          ],
+          "quote": "So you're going to see this in today's episode, but it is so good at computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            111.482,
+            117.465
+          ],
+          "quote": "They've really focused a lot on kind of time saving on common tasks, again, because of computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            126.188,
+            131.831
+          ],
+          "quote": "And I think you're going to hear a lot about them talking about Astra in terms of computer use and time saving, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            175.477,
+            181.48
+          ],
+          "quote": "But again, combined with computer use, you're going to be able to do a lot more really interesting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            221.453,
+            225.875
+          ],
+          "quote": "And then let's get into how amazing it is starting with computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            237.019,
+            245.385
+          ],
+          "quote": "I want to show you a couple examples of some things that I've done with computer use that I think are really, really, really useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            341.739,
+            342.8
+          ],
+          "quote": "Computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            342.9,
+            344.582
+          ],
+          "quote": "Of course, computer use can do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            477.625,
+            488.23
+          ],
+          "quote": "I mean, really before GPT-56, but certainly before Astra, I really just didn't feel like browser use and computer use could navigate these nodes as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            537.352,
+            541.954
+          ],
+          "quote": "So I really do think computer use is kind of incredible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            857.826,
+            861.468
+          ],
+          "quote": "I'm just going to go wrap our computer use action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            900.364,
+            913.812
+          ],
+          "quote": "And so this is just a really great example of a model in browser use and computer use, just taking toil off humans, even in the creative field and letting you do your work a little bit faster and letting you impress your customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1754.921,
+            1758.984
+          ],
+          "quote": "Again, this has been something that computer use has been quite terrible at.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "browser use",
+      "file": "browser use",
+      "primary": true,
+      "how_described": "本集说它终于能导航复杂的节点式 web 界面了,并强烈推荐用 browser use 做 QA:自动调预览分支、点击测试、查控制台错误日志、复现竞态条件,跑了 1 小时 45 分钟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            477.625,
+            488.23
+          ],
+          "quote": "I mean, really before GPT-56, but certainly before Astra, I really just didn't feel like browser use and computer use could navigate these nodes as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            779.836,
+            791.5
+          ],
+          "quote": "As a side note, another use case that I use for Astra and browser use that I think is really helpful for software developers in general, and we'll get to coding in a minute, is just QA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            821.849,
+            828.551
+          ],
+          "quote": "And what was really helpful about browser use here is it was inspecting the console, checking for error logs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            855.124,
+            857.806
+          ],
+          "quote": "So if you are not using browser use for QA, please do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            900.364,
+            913.812
+          ],
+          "quote": "And so this is just a really great example of a model in browser use and computer use, just taking toil off humans, even in the creative field and letting you do your work a little bit faster and letting you impress your customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            920.516,
+            921.836
+          ],
+          "quote": "I love browser use, but let's get to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1772.192,
+            1773.833
+          ],
+          "quote": "One, it's good at computer and browser use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集中 Claire 让 Codex 接管 Chrome 更新 CRM 工作流、构建 AIM 风格 Mac 应用,还把它接入 Divoom 屏幕和 Codex hooks,作为她与模型协作的主要入口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            348.726,
+            356.254
+          ],
+          "quote": "Okay, so instead of dragging and dropping all this stuff, I'm going to bring up my chat where I talk about the CRM with Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            406.651,
+            416.44
+          ],
+          "quote": "So what we should see Codex start to do is actually open up Chrome, take over Chrome and start building out new nodes, new logic, new prompts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            718.597,
+            722.74
+          ],
+          "quote": "And so what we're probably going to do is have Codex now generate all these images.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1228.774,
+            1233.137
+          ],
+          "quote": "And so it can now go, look, now it's saying Codex is working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1256.311,
+            1257.832
+          ],
+          "quote": "So it's going to say Codex is working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1331.106,
+            1336.909
+          ],
+          "quote": "The other really cool thing that I did with this that you all haven't seen is I hooked it into my Codex hooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1337.109,
+            1340.791
+          ],
+          "quote": "So now it can tell me when Codex needs something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1353.192,
+            1364.398
+          ],
+          "quote": "Building me a Mac app that turns my Codex threads into a 90s style AIM Messenger for those of you who are young and beautiful and were maybe not even born when AIM was around.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1390.553,
+            1391.453
+          ],
+          "quote": "Codex threads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1409.641,
+            1414.083
+          ],
+          "quote": "So I can chat with Codex as if it's my little",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1856.14,
+            1866.227
+          ],
+          "quote": "Or let's do desktop apps like this AIMS style messenger that wraps Codex and does something pretty incredible and lets me interact with my Codex threads in this really fun UI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatprd",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatPRD",
+      "file": "ChatPRD",
+      "primary": true,
+      "how_described": "本集说 Claire 为 ChatPRD 做的「产品智能」功能(从 Intercom、Linear、GitHub 等摄取数据、去重、提炼洞察、生成自动维基),六个月攻不下,Astra one shot 搞定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            941.276,
+            956.485
+          ],
+          "quote": "Specifically, I, for ChatPRD, have been working on this feature, this product intelligence feature that like sort of like sucks up all your product intelligence from like Intercom and Granola and Linear and GitHub and kind of tells you what's going on, what's trending, what you need to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1807.951,
+            1819.176
+          ],
+          "quote": "One was parsing through a lot of unstructured data, deduplicating and deriving insights out of that, and then generating a great UI for us in ChatPRD to share those insights with our customers about their own product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说大家都讨论 MCP 和 CLI、称「没有 UI 才是下一个 UI」,但既然 AI 能替你点按钮,SaaS 不必都改造成 CLI/MCP,「UI 回来了」;她的产品智能功能也通过 MCP 暴露出去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            1080.918,
+            1083.079
+          ],
+          "quote": "And then it exposes this via MCP.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说「网站 vibe coding 已经过时了」,该提升编程野心去做 3D 游戏、桌面应用、黑硬件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 392,
+          "t": [
+            1847.614,
+            1849.536
+          ],
+          "quote": "So like website vibe coding is over.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "type": "concept",
+      "role": "concept",
+      "name": "QA",
+      "file": "QA",
+      "primary": true,
+      "how_described": "本集说被低估的用法是用 browser use 做 QA:模型自己点击测试、检查控制台日志、专门复现竞态条件,这些活儿人来干非常繁琐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            779.836,
+            791.5
+          ],
+          "quote": "As a side note, another use case that I use for Astra and browser use that I think is really helpful for software developers in general, and we'll get to coding in a minute, is just QA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            833.932,
+            840.376
+          ],
+          "quote": "That would be very tedious and hard to execute as a human, but was super useful as a QA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            855.124,
+            857.806
+          ],
+          "quote": "So if you are not using browser use for QA, please do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "divoom",
+      "type": "concept",
+      "role": "concept",
+      "name": "Divoom",
+      "file": "Divoom",
+      "primary": true,
+      "how_described": "本集说 Divoom Mini 2 是 Claire 的「珠穆朗玛峰」:一个蓝牙小像素屏,预装专有软件、没有 API,Astra 搞明白了像素算法,做出实时绘画应用和推送消息的 CLI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            1130.343,
+            1132.585
+          ],
+          "quote": "It's a Divoom Mini 2.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1393.754,
+            1395.635
+          ],
+          "quote": "Here's the Divoom little mini app.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "concept",
+      "role": "concept",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集说 Figma 一直是 computer use 表现糟糕的应用,而 Astra 这次接管电脑用它拼好了播客缩略图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 363,
+          "t": [
+            1738.565,
+            1747.074
+          ],
+          "quote": "So I did ask Astra to take over my computer and actually use Figma to make thumbnails for this week's episode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1759.024,
+            1763.206
+          ],
+          "quote": "To date, I have not gotten it to use Figma very well, but look at that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1789.382,
+            1795.826
+          ],
+          "quote": "And then you saw I used it in Figma to actually put those thumbnail images together so that we had thumbnails for this podcast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "flora",
+      "type": "concept",
+      "role": "concept",
+      "name": "Flora",
+      "file": "Flora",
+      "primary": false,
+      "how_described": "本集说 Flora 是基于节点工作流的 AI 图片/视频编辑工具,Claire 让 Astra 在里面导航、选模型、设置宽高比并生成播客缩略图素材。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            550.458,
+            556.562
+          ],
+          "quote": "Which is, I'm going to say, we do a lot of thumbnail editing for our podcast in Flora.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            557.022,
+            563.766
+          ],
+          "quote": "I have Flora open in Chrome right now with all of our podcast thumbnail upscaling workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            590.921,
+            602.206
+          ],
+          "quote": "And I'm going to send this and we're going to see if it opens up Flora, which again is sort of this like node workflow based AI editing tool for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            611.794,
+            618.839
+          ],
+          "quote": "So it's going to inspect the thumbnail workflows that I already have open in Flora and then use these three photos to prepare the image assets Naomi needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            707.361,
+            711.527
+          ],
+          "quote": "Also, we love Flora, but it's kind of like chaos reigns here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            738.21,
+            760.659
+          ],
+          "quote": "And so you can just think of this as two examples, this like complex CRM workflow node builder and using Flora to generate assets and do prompting as something that really benefits from this UI, but does not benefit from humans using their fingers and typing prompts and dragging things to make the UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            877.403,
+            879.506
+          ],
+          "quote": "In Flora, super cute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1786.701,
+            1788.942
+          ],
+          "quote": "I used it in Flora to generate thumbnail images.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "blender",
+      "type": "concept",
+      "role": "concept",
+      "name": "Blender",
+      "file": "Blender",
+      "primary": false,
+      "how_described": "本集说 Astra 在 Blender 里生成 3D 资产的能力在评测者圈子里像野火一样传开,Claire 用它做了 3D 芭比游戏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            85.49,
+            92.113
+          ],
+          "quote": "Not just browsers, but Excel, Unity, Power BI, Blender, Jupyter, document editors, like kind of everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1462.598,
+            1476.913
+          ],
+          "quote": "This brings me to another thing that you'll probably see a lot of the other reviewers do because a few of us that had kind of early access to the model, this was like spreading like wildfire, is it's really good at generating 3D assets in Blender.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1548.804,
+            1555.149
+          ],
+          "quote": "So here's our Barbie 3D gal that we made here in Blender.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

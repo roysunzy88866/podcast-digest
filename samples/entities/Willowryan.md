@@ -31,7 +31,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]]
+[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
 
 </div>
 

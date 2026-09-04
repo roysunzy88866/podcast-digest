@@ -7,29 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatPRD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatPRD">CH</div><div class="pi"><h1 class="pt">ChatPRD</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatPRD">CH</div><div class="pi"><h1 class="pt">ChatPRD</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(06:37起):本集把它说成:嘉宾 Claire Vo 独自经营的产品公司;她用 OpenClaw 智能体 Sam 帮这家公司自动扫 CRM、发跟进邮件、清理销售管线,省去了以前每周花 10 小时请人做销售外包的成本。
 - **[[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]]**(04:34起):本集用 ChatPRD 的用户引导流程和核心功能作为浏览器 QA 测试与角色扮演式调研的实际演示对象
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(17:44起):本集主讲人为此公司构建了 PR 审查机器人，以自动批准低风险（如文档更新）的 PR。
+- **[[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]]**(04:34起):本集把它说成：主持人运营的公司之一，其客服智能体 Holly Helpdesk 从 OpenClaw 迁到 GrokBot 后质量令人惊艳，处理 Intercom 工单、退款审批和社区 Slack。
+- **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(15:41起):本集说 Claire 为 ChatPRD 做的「产品智能」功能(从 Intercom、Linear、GitHub 等摄取数据、去重、提炼洞察、生成自动维基),六个月攻不下,Astra one shot 搞定。
 
 ## ② 出现在这些集
 
-*3 集*
+*5 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为被讨论公司
 - [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]] — 作为被讨论公司(提及)
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司
+- [[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]] — 作为被讨论公司
+- [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[浏览器使用]] · [[Codex]] · [[ChatGPT]] · [[Slack]] · [[Lenny]] · [[Claude]] · [[Claire]] · [[Claire Vo]] · [[计算机使用]]
+[[智能体]] · [[浏览器使用]] · [[Codex]] · [[OpenClaw]] · [[计算机使用]] · [[SOC 2]] · [[ChatGPT]] · [[MCP]] · [[Slack]] · [[QA]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"浏览器使用":4,"Codex":34,"ChatGPT":46,"Slack":22,"Lenny":66,"Claude":45,"Claire":2,"Claire Vo":3,"计算机使用":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"浏览器使用":5,"Codex":35,"OpenClaw":14,"计算机使用":7,"SOC 2":3,"ChatGPT":46,"MCP":25,"Slack":22,"QA":2}</script>
 
 <script>
 (function(){

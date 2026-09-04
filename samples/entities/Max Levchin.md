@@ -61,7 +61,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]] [[Chris Olsen]]
+[[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]]
 
 </div>
 

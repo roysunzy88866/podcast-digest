@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GrokBot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GrokBot">GR</div><div class="pi"><h1 class="pt">GrokBot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GrokBot">GR</div><div class="pi"><h1 class="pt">GrokBot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(00:42起):本集说它是 Cursor/XAI 团队发布的聊天风格智能体产品，核心体验是一个花哨的 MCP 客户端，每个智能体自带虚拟机，最大亮点是每个连接器可挂多个账号
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(01:08起):本集说 GrokBot 是一个足智多谋的个人智能体产品，睡觉前拍张牛仔裤照片说预算，早上醒来它已经研究、比价、用信用卡买好了
+- **[[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]]**(00:00起):本集主角：SpaceX AI 团队新出的多智能体平台，定位是「能交付真实工作的 AI 队友」，由 bot、插件、虚拟机加例行任务三个关键原语构成，主持人几乎把所有 OpenClaw 都迁到了它上面。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为被讨论公司
+- [[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Cursor]] · [[智能体]] · [[Origin]] · [[Anish Acharya]] · [[Grok 4.6]] · [[Jen Ka]] · [[GitHub]] · [[OpenAI]] · [[MCP]] · [[Anthropic]]
+[[Cursor]] · [[智能体]] · [[OpenClaw]] · [[Origin]] · [[Anish Acharya]] · [[例程]] · [[Grok 4.6]] · [[Jen Ka]] · [[插件]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"Cursor":41,"智能体":1,"Origin":1,"Anish Acharya":1,"Grok 4.6":1,"Jen Ka":1,"GitHub":20,"OpenAI":79,"MCP":24,"Anthropic":92}</script>
+<script type="application/json" class="pd-epn">{"Cursor":42,"智能体":1,"OpenClaw":14,"Origin":1,"Anish Acharya":1,"例程":2,"Grok 4.6":1,"Jen Ka":1,"插件":2,"GitHub":20}</script>
 
 <script>
 (function(){

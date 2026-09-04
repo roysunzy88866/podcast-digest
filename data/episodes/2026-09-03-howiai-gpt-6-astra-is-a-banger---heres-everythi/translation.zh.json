@@ -1,0 +1,3362 @@
+[
+ {
+  "seg": 0,
+  "start": 0.231,
+  "end": 25.071,
+  "speaker": "Unknown",
+  "en": "we are going to the stars today because yes today GPT-6 Astra is live well it's live for daybreak customers it will be live for the rest of us very soon i was lucky enough to get some early access to test the model and this has been the model in the last six months and you know maybe i sound like a broken record but this is the one that has made me actually feel",
+  "zh": "我们今天要奔向星辰了,因为没错,今天 GPT-6 Astra 上线了,好吧,它是对 Daybreak 客户上线的,很快就会对我们其他人上线。我很幸运获得了一些早期访问权限来测试这个模型,在过去的六个月里这一直是那个模型,你知道,也许我听起来像老调重弹,但这是真正让我感觉到"
+ },
+ {
+  "seg": 1,
+  "start": 25.911,
+  "end": 26.971,
+  "speaker": "Unknown",
+  "en": "More ambitious.",
+  "zh": "更有雄心的那一个。"
+ },
+ {
+  "seg": 2,
+  "start": 27.332,
+  "end": 31.933,
+  "speaker": "Unknown",
+  "en": "It has crushed some of my standing tasks that Fable couldn't figure out.",
+  "zh": "它攻克了一些 Fable 搞不定的我的长期任务。"
+ },
+ {
+  "seg": 3,
+  "start": 32.413,
+  "end": 34.654,
+  "speaker": "Unknown",
+  "en": "Even my beloved 5.6 Sol couldn't figure out.",
+  "zh": "连我心爱的 5.6 Sol 都搞不定的那些。"
+ },
+ {
+  "seg": 4,
+  "start": 35.334,
+  "end": 38.555,
+  "speaker": "Unknown",
+  "en": "This model, GPT-6, one shot a bunch of them.",
+  "zh": "这个模型,GPT-6,一次性搞定了其中一大堆。"
+ },
+ {
+  "seg": 5,
+  "start": 38.675,
+  "end": 49.279,
+  "speaker": "Unknown",
+  "en": "I'm going to tell you what this model is, what OpenAI says it's great at, and I'm going to show you some pretty incredible things I've built with it, including yes, hacking this dumb computer again.",
+  "zh": "我要告诉你这个模型是什么,OpenAI 说它擅长什么,我还会给你展示我用它构建的一些相当不可思议的东西,包括,是的,再次黑进这台愚蠢的电脑。"
+ },
+ {
+  "seg": 6,
+  "start": 49.879,
+  "end": 50.539,
+  "speaker": "Unknown",
+  "en": "Let's get to it.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 7,
+  "start": 50.759,
+  "end": 52.76,
+  "speaker": "Unknown",
+  "en": "Okay, I don't want to spend too much time on the blog post.",
+  "zh": "好的,我不想在博客文章上花太多时间。"
+ },
+ {
+  "seg": 8,
+  "start": 52.78,
+  "end": 54.04,
+  "speaker": "Unknown",
+  "en": "We can link to it in the show notes.",
+  "zh": "我们可以在节目备注里附上链接。"
+ },
+ {
+  "seg": 9,
+  "start": 54.08,
+  "end": 55.04,
+  "speaker": "Unknown",
+  "en": "You all can go read it.",
+  "zh": "你们都可以去读一读。"
+ },
+ {
+  "seg": 10,
+  "start": 55.18,
+  "end": 58.601,
+  "speaker": "Unknown",
+  "en": "TLDR, state of the art on basically everything.",
+  "zh": "TLDR,基本上在所有方面都是最先进的。"
+ },
+ {
+  "seg": 11,
+  "start": 58.921,
+  "end": 65.343,
+  "speaker": "Unknown",
+  "en": "We got the science, math, coding, knowledge work, not being annoying, being fast, computer use, all the things.",
+  "zh": "我们有了科学、数学、编程、知识工作、不烦人、速度快、电脑操作,所有这些。"
+ },
+ {
+  "seg": 12,
+  "start": 65.523,
+  "end": 69.984,
+  "speaker": "Unknown",
+  "en": "So OpenAI is positioning it as its most intelligent and aligned model.",
+  "zh": "所以 OpenAI 把它定位为旗下最智能、最对齐的模型。"
+ },
+ {
+  "seg": 13,
+  "start": 70.584,
+  "end": 76.646,
+  "speaker": "Unknown",
+  "en": "Huge jumps, particularly on frontier math, a big jump there in mathematical ability.",
+  "zh": "巨大的飞跃,尤其是在前沿数学上,数学能力上有一个很大的跃升。"
+ },
+ {
+  "seg": 14,
+  "start": 77.166,
+  "end": 80.608,
+  "speaker": "Unknown",
+  "en": "The big thing that they're calling out is computer use and the use of software.",
+  "zh": "他们重点强调的是电脑操作和软件的使用。"
+ },
+ {
+  "seg": 15,
+  "start": 80.628,
+  "end": 84.83,
+  "speaker": "Unknown",
+  "en": "So you're going to see this in today's episode, but it is so good at computer use.",
+  "zh": "所以你会在今天这期节目中看到,它在电脑操作方面是真的强。"
+ },
+ {
+  "seg": 16,
+  "start": 85.49,
+  "end": 92.113,
+  "speaker": "Unknown",
+  "en": "Not just browsers, but Excel, Unity, Power BI, Blender, Jupyter, document editors, like kind of everything.",
+  "zh": "不只是浏览器,还有 Excel、Unity、Power BI、Blender、Jupyter、文档编辑器,基本上所有东西。"
+ },
+ {
+  "seg": 17,
+  "start": 92.554,
+  "end": 93.854,
+  "speaker": "Unknown",
+  "en": "So we're back.",
+  "zh": "所以我们回来了。"
+ },
+ {
+  "seg": 18,
+  "start": 94.114,
+  "end": 94.675,
+  "speaker": "Unknown",
+  "en": "SaaS is back.",
+  "zh": "SaaS 回来了。"
+ },
+ {
+  "seg": 19,
+  "start": 95.055,
+  "end": 95.555,
+  "speaker": "Unknown",
+  "en": "Product's back.",
+  "zh": "产品回来了。"
+ },
+ {
+  "seg": 20,
+  "start": 95.955,
+  "end": 98.757,
+  "speaker": "Unknown",
+  "en": "Buttons are back because now Astra can use it.",
+  "zh": "按钮回来了,因为现在 Astra 能操作它们了。"
+ },
+ {
+  "seg": 21,
+  "start": 99.317,
+  "end": 101.218,
+  "speaker": "Unknown",
+  "en": "It's really good at producing work artifacts.",
+  "zh": "它非常擅长产出工作产物。"
+ },
+ {
+  "seg": 22,
+  "start": 101.238,
+  "end": 105.52,
+  "speaker": "Unknown",
+  "en": "They've done a lot of work to make work artifacts match your style, match your brand, match your voice.",
+  "zh": "他们做了大量工作,让工作产物匹配你的风格,匹配你的品牌,匹配你的声音。"
+ },
+ {
+  "seg": 23,
+  "start": 106.04,
+  "end": 106.6,
+  "speaker": "Unknown",
+  "en": "Etc.",
+  "zh": "等等。"
+ },
+ {
+  "seg": 24,
+  "start": 106.72,
+  "end": 111.002,
+  "speaker": "Unknown",
+  "en": "And then again, autonomy, steering, all that kind of stuff is very good.",
+  "zh": "然后再说一次,自主性、掌控引导,所有这类东西都非常出色。"
+ },
+ {
+  "seg": 25,
+  "start": 111.482,
+  "end": 117.465,
+  "speaker": "Unknown",
+  "en": "They've really focused a lot on kind of time saving on common tasks, again, because of computer use.",
+  "zh": "他们真的非常聚焦于在常见任务上节省时间,再说一次,这要归功于电脑操作。"
+ },
+ {
+  "seg": 26,
+  "start": 118.005,
+  "end": 126.128,
+  "speaker": "Unknown",
+  "en": "And so this is a little like sneak peek into, I think, like we're all spending a lot of money on tokens and these models are feeling pressure to come up with an ROI model.",
+  "zh": "所以这有点像是抢先看一眼,我认为,就像我们都在token上花很多钱,而这些模型正感受到要拿出一个 ROI 模型的压力。"
+ },
+ {
+  "seg": 27,
+  "start": 126.188,
+  "end": 131.831,
+  "speaker": "Unknown",
+  "en": "And I think you're going to hear a lot about them talking about Astra in terms of computer use and time saving, right?",
+  "zh": "而且我想你会听到很多他们在谈论 Astra 时围绕电脑操作和节省时间,对吧?"
+ },
+ {
+  "seg": 28,
+  "start": 131.851,
+  "end": 134.872,
+  "speaker": "Unknown",
+  "en": "Like apartment hunting can go down to 10 minutes from six hours.",
+  "zh": "比如找公寓可以从六个小时缩短到十分钟。"
+ },
+ {
+  "seg": 29,
+  "start": 135.472,
+  "end": 137.314,
+  "speaker": "Unknown",
+  "en": "I'll show you an example of generating thumbnails.",
+  "zh": "我会给你展示一个生成缩略图的例子。"
+ },
+ {
+  "seg": 30,
+  "start": 137.374,
+  "end": 141.737,
+  "speaker": "Unknown",
+  "en": "Again, something that takes us like an hour down to a couple of minutes completely hands-free.",
+  "zh": "再说一次,这件事通常要花我们大约一个小时,现在缩短到几分钟,完全不用动手。"
+ },
+ {
+  "seg": 31,
+  "start": 142.277,
+  "end": 149.763,
+  "speaker": "Unknown",
+  "en": "And so a lot faster, a lot more efficient, and kind of able to do what they say real work.",
+  "zh": "所以快了很多,高效了很多,而且能够做到他们所说的真正工作。"
+ },
+ {
+  "seg": 32,
+  "start": 150.064,
+  "end": 157.169,
+  "speaker": "Unknown",
+  "en": "They really call out presentations, spreadsheets, documents, and software as great use cases for Astra.",
+  "zh": "他们真的特别点名演示文稿、电子表格、文档和软件作为 Astra 的绝佳用例。"
+ },
+ {
+  "seg": 33,
+  "start": 157.209,
+  "end": 158.931,
+  "speaker": "Unknown",
+  "en": "But let's look a little bit at",
+  "zh": "但让我们稍微看一看"
+ },
+ {
+  "seg": 34,
+  "start": 159.451,
+  "end": 160.511,
+  "speaker": "Unknown",
+  "en": "Kind of some of the numbers.",
+  "zh": "其中的一些数字。"
+ },
+ {
+  "seg": 35,
+  "start": 160.672,
+  "end": 165.874,
+  "speaker": "Unknown",
+  "en": "So automation bench, again, double Sol's reported scores.",
+  "zh": "所以 Automation Bench,再说一次,是 Sol 报告分数的两倍。"
+ },
+ {
+  "seg": 36,
+  "start": 165.894,
+  "end": 170.756,
+  "speaker": "Unknown",
+  "en": "So, you know, a lot higher on automating tasks.",
+  "zh": "所以,你知道,在任务自动化上高了很多。"
+ },
+ {
+  "seg": 37,
+  "start": 171.056,
+  "end": 172.016,
+  "speaker": "Unknown",
+  "en": "Let's look at coding.",
+  "zh": "让我们看看编程。"
+ },
+ {
+  "seg": 38,
+  "start": 172.156,
+  "end": 175.457,
+  "speaker": "Unknown",
+  "en": "DeepSuite, a little bump up here against Py6Sol.",
+  "zh": "DeepSuite,对比 Py6Sol 在这里有一点点提升。"
+ },
+ {
+  "seg": 39,
+  "start": 175.477,
+  "end": 181.48,
+  "speaker": "Unknown",
+  "en": "But again, combined with computer use, you're going to be able to do a lot more really interesting.",
+  "zh": "但再说一次,结合电脑操作,你将能够做出更多真正有趣的"
+ },
+ {
+  "seg": 40,
+  "start": 182.06,
+  "end": 184.441,
+  "speaker": "Unknown",
+  "en": "Things, math is a big story here.",
+  "zh": "东西。数学是这里的一个重头戏。"
+ },
+ {
+  "seg": 41,
+  "start": 184.521,
+  "end": 187.242,
+  "speaker": "Unknown",
+  "en": "So big jump in Frontier Math Tier 4.",
+  "zh": "所以 Frontier Math Tier 4 上有巨大的跃升。"
+ },
+ {
+  "seg": 42,
+  "start": 188.202,
+  "end": 193.163,
+  "speaker": "Unknown",
+  "en": "And then let's talk about price and can you get it?",
+  "zh": "然后我们谈谈价格,以及你能不能用到它。"
+ },
+ {
+  "seg": 43,
+  "start": 193.323,
+  "end": 194.884,
+  "speaker": "Unknown",
+  "en": "So it's rolling out.",
+  "zh": "所以它正在推出。"
+ },
+ {
+  "seg": 44,
+  "start": 194.924,
+  "end": 198.165,
+  "speaker": "Unknown",
+  "en": "First, it's going to go to Enterprise customers with Daybreak access.",
+  "zh": "首先,它会面向拥有 Daybreak 访问权限的企业客户。"
+ },
+ {
+  "seg": 45,
+  "start": 198.205,
+  "end": 201.406,
+  "speaker": "Unknown",
+  "en": "I got a little bit early access so I could test the model and tell you all about it.",
+  "zh": "我得到了一点早期访问权限,这样我就能测试这个模型并把一切都告诉你们。"
+ },
+ {
+  "seg": 46,
+  "start": 201.946,
+  "end": 207.428,
+  "speaker": "Unknown",
+  "en": "But over the coming days, it's going to be rolling out to GPT Plus Pro and Enterprise in the API and in AWS.",
+  "zh": "但在未来几天里,它将陆续推出到 GPT Plus、Pro 和 Enterprise,在 API 里和在 AWS 上。"
+ },
+ {
+  "seg": 47,
+  "start": 208.408,
+  "end": 212.91,
+  "speaker": "Unknown",
+  "en": "And then pricing $10 per million input tokens and 50 per output tokens.",
+  "zh": "然后是定价,每百万输入 token 10 美元,输出 token 每百万 50 美元。"
+ },
+ {
+  "seg": 48,
+  "start": 213.07,
+  "end": 215.411,
+  "speaker": "Unknown",
+  "en": "And fast mode will be fast.",
+  "zh": "而 fast mode 会很快。"
+ },
+ {
+  "seg": 49,
+  "start": 216.171,
+  "end": 217.652,
+  "speaker": "Unknown",
+  "en": "So it's a great model.",
+  "zh": "所以它是一个很棒的模型。"
+ },
+ {
+  "seg": 50,
+  "start": 217.672,
+  "end": 218.412,
+  "speaker": "Unknown",
+  "en": "You're going to want to use it.",
+  "zh": "你会想要使用它的。"
+ },
+ {
+  "seg": 51,
+  "start": 218.612,
+  "end": 221.053,
+  "speaker": "Unknown",
+  "en": "And I just want to get that out of the way so you know what it is.",
+  "zh": "我只是想先把这一点说清楚，让你知道它是什么。"
+ },
+ {
+  "seg": 52,
+  "start": 221.453,
+  "end": 225.875,
+  "speaker": "Unknown",
+  "en": "And then let's get into how amazing it is starting with computer use.",
+  "zh": "然后让我们进入它有多神奇的话题，从 computer use 开始。"
+ },
+ {
+  "seg": 53,
+  "start": 226.135,
+  "end": 231.637,
+  "speaker": "Unknown",
+  "en": "So now that I've told you a little bit about what Astra is great at, let's see it in action.",
+  "zh": "那么，既然我已经简单介绍了一下 Astra 擅长什么，让我们来看看它的实际表现。"
+ },
+ {
+  "seg": 54,
+  "start": 232.037,
+  "end": 236.239,
+  "speaker": "Unknown",
+  "en": "Now, the number one thing I covered when talking about the high level of the model is how",
+  "zh": "现在，我在谈这个模型的高层概览时讲到的头号事情是，如何"
+ },
+ {
+  "seg": 55,
+  "start": 237.019,
+  "end": 245.385,
+  "speaker": "Unknown",
+  "en": "I want to show you a couple examples of some things that I've done with computer use that I think are really, really, really useful.",
+  "zh": "我想给你们展示几个例子，是我用 computer use 做过的一些事情，我觉得真的真的真的很有用。"
+ },
+ {
+  "seg": 56,
+  "start": 263.358,
+  "end": 272.021,
+  "speaker": "Unknown",
+  "en": "The one I was really surprised by is how good it is at complex web UI and managing pretty complex nodes and interactions and doing it really well.",
+  "zh": "让我真的很惊讶的一点是，它有多擅长复杂的 web UI,能管理相当复杂的节点和交互，而且做得真的很好。"
+ },
+ {
+  "seg": 57,
+  "start": 272.221,
+  "end": 275.202,
+  "speaker": "Unknown",
+  "en": "So let me show you an example of what I mean here.",
+  "zh": "那么让我给你们展示一个例子来说明我这里的意思。"
+ },
+ {
+  "seg": 58,
+  "start": 275.542,
+  "end": 280.824,
+  "speaker": "Unknown",
+  "en": "So this is our CXO.dev CRM, and we are starting to get leads.",
+  "zh": "这是我们的 CXO.dev CRM,我们开始收到销售线索了。"
+ },
+ {
+  "seg": 59,
+  "start": 280.844,
+  "end": 284.225,
+  "speaker": "Unknown",
+  "en": "We launched this business last week and we're getting a bunch of inbound.",
+  "zh": "我们上周推出了这个业务，现在收到了一大堆主动找上门的咨询。"
+ },
+ {
+  "seg": 60,
+  "start": 284.985,
+  "end": 289.707,
+  "speaker": "Unknown",
+  "en": "And we want to filter those leads and then determine whether or not they should be",
+  "zh": "而我们想要过滤这些线索，然后判断它们是否应该被"
+ },
+ {
+  "seg": 61,
+  "start": 290.227,
+  "end": 291.207,
+  "speaker": "Unknown",
+  "en": "Thank you so much for watching.",
+  "zh": "非常感谢观看。"
+ },
+ {
+  "seg": 62,
+  "start": 318.194,
+  "end": 325.081,
+  "speaker": "Unknown",
+  "en": "Like prompt to determine Claire or Zach and then route it to different Slack messages and different CRM attributes.",
+  "zh": "比如用提示词来判断是 Claire 还是 Zach,然后把它路由到不同的 Slack 消息和不同的 CRM 属性。"
+ },
+ {
+  "seg": 63,
+  "start": 325.101,
+  "end": 331.969,
+  "speaker": "Unknown",
+  "en": "And I found myself sitting here and like futzing with these buttons one-off.",
+  "zh": "然后我发现自己就坐在这儿，一次一次地瞎摆弄这些按钮。"
+ },
+ {
+  "seg": 64,
+  "start": 332.149,
+  "end": 337.575,
+  "speaker": "Unknown",
+  "en": "I couldn't figure out like how to infer the right objects from the responses, the AI responses.",
+  "zh": "我搞不清楚怎么从响应中，也就是 AI 的响应中，推断出正确的对象。"
+ },
+ {
+  "seg": 65,
+  "start": 337.595,
+  "end": 338.696,
+  "speaker": "Unknown",
+  "en": "I was just getting really frustrated.",
+  "zh": "我真的变得非常沮丧。"
+ },
+ {
+  "seg": 66,
+  "start": 338.756,
+  "end": 339.477,
+  "speaker": "Unknown",
+  "en": "I spent an hour here.",
+  "zh": "我在这里花了一个小时。"
+ },
+ {
+  "seg": 67,
+  "start": 339.897,
+  "end": 340.838,
+  "speaker": "Unknown",
+  "en": "And then I was like, I don't know.",
+  "zh": "然后我心想，我也不知道。"
+ },
+ {
+  "seg": 68,
+  "start": 341.739,
+  "end": 342.8,
+  "speaker": "Unknown",
+  "en": "Computer use.",
+  "zh": "Computer use。"
+ },
+ {
+  "seg": 69,
+  "start": 342.9,
+  "end": 344.582,
+  "speaker": "Unknown",
+  "en": "Of course, computer use can do this.",
+  "zh": "当然，computer use 可以做这个。"
+ },
+ {
+  "seg": 70,
+  "start": 344.622,
+  "end": 348.226,
+  "speaker": "Unknown",
+  "en": "And so I want to show you what that looks like.",
+  "zh": "所以我想给你们展示一下那是什么样子。"
+ },
+ {
+  "seg": 71,
+  "start": 348.726,
+  "end": 356.254,
+  "speaker": "Unknown",
+  "en": "Okay, so instead of dragging and dropping all this stuff, I'm going to bring up my chat where I talk about the CRM with Codex.",
+  "zh": "好的，与其拖拽所有这些东西，我要调出我和 Codex 讨论这个 CRM 的聊天窗口。"
+ },
+ {
+  "seg": 72,
+  "start": 356.674,
+  "end": 363.922,
+  "speaker": "Unknown",
+  "en": "And I would say, hey, I have a workflow open to route leads to Zach or I.",
+  "zh": "然后我会说，嘿，我有一个打开着的工作流，用来把线索路由给 Zach 或者我。"
+ },
+ {
+  "seg": 73,
+  "start": 364.642,
+  "end": 377.054,
+  "speaker": "Unknown",
+  "en": "I want as part of this flow to generate with a custom agent, AI, an email that is custom to the lead submission.",
+  "zh": "我想在这个流程中，用一个自定义智能体 AI,生成一封针对该线索提交定制的邮件。"
+ },
+ {
+  "seg": 74,
+  "start": 379.185,
+  "end": 381.126,
+  "speaker": "Unknown",
+  "en": "Thank you for watching!",
+  "zh": "感谢观看！"
+ },
+ {
+  "seg": 75,
+  "start": 400.346,
+  "end": 404.249,
+  "speaker": "Unknown",
+  "en": "Can you update the workflow in Chrome to this?",
+  "zh": "你能把 Chrome 里的工作流更新成这样吗？"
+ },
+ {
+  "seg": 76,
+  "start": 404.99,
+  "end": 405.31,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 77,
+  "start": 406.351,
+  "end": 406.591,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 78,
+  "start": 406.651,
+  "end": 416.44,
+  "speaker": "Unknown",
+  "en": "So what we should see Codex start to do is actually open up Chrome, take over Chrome and start building out new nodes, new logic, new prompts.",
+  "zh": "所以我们应该会看到 Codex 开始做的，是真正打开 Chrome,接管 Chrome,并开始搭建新的节点、新的逻辑、新的提示词。"
+ },
+ {
+  "seg": 79,
+  "start": 417.16,
+  "end": 420.564,
+  "speaker": "Unknown",
+  "en": "And route all of this stuff, reconnecting the right nodes.",
+  "zh": "并把这一切都路由好，重新连接正确的节点。"
+ },
+ {
+  "seg": 80,
+  "start": 420.705,
+  "end": 421.526,
+  "speaker": "Unknown",
+  "en": "And here it goes.",
+  "zh": "然后它开始了。"
+ },
+ {
+  "seg": 81,
+  "start": 421.546,
+  "end": 434.06,
+  "speaker": "Unknown",
+  "en": "So you can see it's adding a new object to the AI generation that we're doing, who the email is going to, what the email subject is, what the email body is.",
+  "zh": "所以你可以看到，它正在给我们正在做的 AI 生成添加一个新对象：邮件发给谁、邮件主题是什么、邮件正文是什么。"
+ },
+ {
+  "seg": 82,
+  "start": 434.14,
+  "end": 435.682,
+  "speaker": "Unknown",
+  "en": "I'm guessing, look, there's no hands.",
+  "zh": "我猜——看，没有手。"
+ },
+ {
+  "seg": 83,
+  "start": 435.822,
+  "end": 436.523,
+  "speaker": "Unknown",
+  "en": "I'm not doing...",
+  "zh": "我没有在做……"
+ },
+ {
+  "seg": 84,
+  "start": 437.344,
+  "end": 439.006,
+  "speaker": "Unknown",
+  "en": "And so that's going to send.",
+  "zh": "所以那样它就会发送出去了。"
+ },
+ {
+  "seg": 85,
+  "start": 457.963,
+  "end": 458.884,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "感谢观看。"
+ },
+ {
+  "seg": 86,
+  "start": 477.125,
+  "end": 477.585,
+  "speaker": "Unknown",
+  "en": "Astra.",
+  "zh": "Astra。"
+ },
+ {
+  "seg": 87,
+  "start": 477.625,
+  "end": 488.23,
+  "speaker": "Unknown",
+  "en": "I mean, really before GPT-56, but certainly before Astra, I really just didn't feel like browser use and computer use could navigate these nodes as well.",
+  "zh": "我是说，其实在 GPT-56 之前，但肯定是在 Astra 之前，我真的就是觉得 browser use 和 computer use 不能把这些节点导航得这么好。"
+ },
+ {
+  "seg": 88,
+  "start": 488.89,
+  "end": 491.772,
+  "speaker": "Unknown",
+  "en": "And now I've found that it really can.",
+  "zh": "而现在我发现它真的可以。"
+ },
+ {
+  "seg": 89,
+  "start": 491.892,
+  "end": 494.213,
+  "speaker": "Unknown",
+  "en": "And I just am hands off my computer.",
+  "zh": "而我就是完全不碰我的电脑。"
+ },
+ {
+  "seg": 90,
+  "start": 495.113,
+  "end": 496.415,
+  "speaker": "Unknown",
+  "en": "All the time now.",
+  "zh": "现在时时刻刻都是这样。"
+ },
+ {
+  "seg": 91,
+  "start": 496.575,
+  "end": 503.001,
+  "speaker": "Unknown",
+  "en": "And it's a really fascinating new way to think about interacting with your computer, interacting with websites.",
+  "zh": "而这是一种非常迷人的新方式，来思考如何与你的电脑交互、与网站交互。"
+ },
+ {
+  "seg": 92,
+  "start": 503.061,
+  "end": 504.703,
+  "speaker": "Unknown",
+  "en": "And I think about this.",
+  "zh": "而我想到了这一点。"
+ },
+ {
+  "seg": 93,
+  "start": 504.743,
+  "end": 507.746,
+  "speaker": "Unknown",
+  "en": "We all said no UI is the next UI.",
+  "zh": "我们都说过，没有 UI 才是下一个 UI。"
+ },
+ {
+  "seg": 94,
+  "start": 507.806,
+  "end": 511.629,
+  "speaker": "Unknown",
+  "en": "And we had all these conversations about MCPs and CLIs.",
+  "zh": "而且我们有过所有这些关于 MCP 和 CLI 的讨论。"
+ },
+ {
+  "seg": 95,
+  "start": 512.39,
+  "end": 516.715,
+  "speaker": "Unknown",
+  "en": "And what's so fascinating is now we're at this moment, we're actually like, UI's back, baby.",
+  "zh": "而最迷人的是，现在我们正处在这样一个时刻，我们实际上就像在说：UI 回来了，宝贝。"
+ },
+ {
+  "seg": 96,
+  "start": 516.775,
+  "end": 521,
+  "speaker": "Unknown",
+  "en": "Like, sass, this might be your savior because humans really do like a button.",
+  "zh": "就是说，sass,这可能是你的救星，因为人类真的就是喜欢按钮。"
+ },
+ {
+  "seg": 97,
+  "start": 521.281,
+  "end": 526.927,
+  "speaker": "Unknown",
+  "en": "And now that you can get AI to click buttons for you and use a UI for you.",
+  "zh": "而现在，你可以让 AI 替你点击按钮，替你使用 UI。"
+ },
+ {
+  "seg": 98,
+  "start": 527.788,
+  "end": 537.312,
+  "speaker": "Unknown",
+  "en": "You sort of don't have to think about these CLIs and MCPs necessarily if the right expression of your product is more of a UI-based thing.",
+  "zh": "如果你的产品的正确表达形式更偏 UI 类的东西，你就多少不必非得去考虑这些 CLI 和 MCP 了。"
+ },
+ {
+  "seg": 99,
+  "start": 537.352,
+  "end": 541.954,
+  "speaker": "Unknown",
+  "en": "So I really do think computer use is kind of incredible.",
+  "zh": "所以我真的认为 computer use 是相当不可思议的。"
+ },
+ {
+  "seg": 100,
+  "start": 541.974,
+  "end": 543.535,
+  "speaker": "Unknown",
+  "en": "I'm going to let this keep running.",
+  "zh": "我会让它继续跑着。"
+ },
+ {
+  "seg": 101,
+  "start": 543.555,
+  "end": 549.758,
+  "speaker": "Unknown",
+  "en": "I'm going to give another example of something kind of completely fresh that I haven't done yet, but I think it's going to do really well.",
+  "zh": "我再举一个完全新颖的、我还没做过的例子，但我认为它会表现得非常好。"
+ },
+ {
+  "seg": 102,
+  "start": 550.458,
+  "end": 556.562,
+  "speaker": "Unknown",
+  "en": "Which is, I'm going to say, we do a lot of thumbnail editing for our podcast in Flora.",
+  "zh": "就是，我要说的是，我们在 Flora 里为我们的播客做大量的缩略图编辑。"
+ },
+ {
+  "seg": 103,
+  "start": 557.022,
+  "end": 563.766,
+  "speaker": "Unknown",
+  "en": "I have Flora open in Chrome right now with all of our podcast thumbnail upscaling workflows.",
+  "zh": "我现在在 Chrome 里开着 Flora,里面是我们所有的播客缩略图放大工作流。"
+ },
+ {
+  "seg": 104,
+  "start": 564.266,
+  "end": 568.769,
+  "speaker": "Unknown",
+  "en": "I'm going to drop you a couple images from the podcast I'm recording live right now.",
+  "zh": "我会给你拖入几张我现在正在录制的这期播客的图片。"
+ },
+ {
+  "seg": 105,
+  "start": 569.209,
+  "end": 575.974,
+  "speaker": "Unknown",
+  "en": "And can you generate the images that our designer Naomi would need to actually generate the thumbnails for this podcast?",
+  "zh": "你能生成我们的设计师 Naomi 制作这期播客缩略图实际需要的那些图片吗？"
+ },
+ {
+  "seg": 106,
+  "start": 576.874,
+  "end": 590.901,
+  "speaker": "Unknown",
+  "en": "And then I'm going to take, I took some photos earlier today, so I'm going to drop right before I started this, I'm dropping really high quality photos of your friend Claire looking super excited about Astra because I am.",
+  "zh": "然后我要……我今天早些时候拍了一些照片，所以就在我开始这个之前，我正在拖入你朋友 Claire 的高质量照片，她看起来对 Astra 超级兴奋，因为我也确实很兴奋。"
+ },
+ {
+  "seg": 107,
+  "start": 590.921,
+  "end": 602.206,
+  "speaker": "Unknown",
+  "en": "And I'm going to send this and we're going to see if it opens up Flora, which again is sort of this like node workflow based AI editing tool for",
+  "zh": "我会把这个发送出去，然后我们看看它会不会打开 Flora,再说明一下，它基本上是一个基于节点工作流的 AI 编辑工具，用于"
+ },
+ {
+  "seg": 108,
+  "start": 602.946,
+  "end": 604.007,
+  "speaker": "Unknown",
+  "en": "Images and videos.",
+  "zh": "图片和视频。"
+ },
+ {
+  "seg": 109,
+  "start": 604.027,
+  "end": 607.57,
+  "speaker": "Unknown",
+  "en": "I'm going to see if it can navigate that because again, I haven't done this before.",
+  "zh": "我要看看它能否在那个界面里导航操作，因为再说一次，我之前没有做过这个。"
+ },
+ {
+  "seg": 110,
+  "start": 607.67,
+  "end": 611.713,
+  "speaker": "Unknown",
+  "en": "And so I want to see if it actually works and can do that well.",
+  "zh": "所以我想看看它是否真的能行，并且能做得好。"
+ },
+ {
+  "seg": 111,
+  "start": 611.794,
+  "end": 618.839,
+  "speaker": "Unknown",
+  "en": "So it's going to inspect the thumbnail workflows that I already have open in Flora and then use these three photos to prepare the image assets Naomi needs.",
+  "zh": "所以它会检查我已经在 Flora 里打开的那些缩略图工作流，然后用这三张照片准备 Naomi 需要的图片素材。"
+ },
+ {
+  "seg": 112,
+  "start": 618.879,
+  "end": 623.123,
+  "speaker": "Unknown",
+  "en": "You can see here, this is our kind of like workflow.",
+  "zh": "你可以在这里看到，这就是我们的那种工作流。"
+ },
+ {
+  "seg": 113,
+  "start": 623.583,
+  "end": 625.524,
+  "speaker": "Unknown",
+  "en": "It looks cuckoo bananas.",
+  "zh": "它看起来疯疯癫癫的。"
+ },
+ {
+  "seg": 114,
+  "start": 649.457,
+  "end": 665.189,
+  "speaker": "Unknown",
+  "en": "And so what it's going to do is it's actually going to take these new images that I dropped, navigate this app, import these images, and hopefully generate us the videos that we want that you'll see today when you come to the podcast.",
+  "zh": "所以它要做的是，它实际上会拿我拖入的这些新图片，在这个应用里导航操作，导入这些图片，并有望为我们生成我们想要的视频，你们今天来看这期播客时就会看到。"
+ },
+ {
+  "seg": 115,
+  "start": 665.229,
+  "end": 665.93,
+  "speaker": "Unknown",
+  "en": "So I'm going to let that run.",
+  "zh": "所以我会让那个跑着。"
+ },
+ {
+  "seg": 116,
+  "start": 665.95,
+  "end": 668.412,
+  "speaker": "Unknown",
+  "en": "We're going to come back to it once the nodes are being generated.",
+  "zh": "等节点开始生成后，我们再回来看它。"
+ },
+ {
+  "seg": 117,
+  "start": 668.832,
+  "end": 670.433,
+  "speaker": "Unknown",
+  "en": "Okay, so let's watch what it's doing.",
+  "zh": "好，我们来看看它在做什么。"
+ },
+ {
+  "seg": 118,
+  "start": 670.593,
+  "end": 674.275,
+  "speaker": "Unknown",
+  "en": "It took this imported photo of me that I just took in Photo Booth.",
+  "zh": "它拿了我刚刚在 Photo Booth 里拍的这张已导入的我的照片。"
+ },
+ {
+  "seg": 119,
+  "start": 674.875,
+  "end": 680.818,
+  "speaker": "Unknown",
+  "en": "It's going through and drawing a node, selecting the image generation model that's going to use.",
+  "zh": "它正在逐步操作，绘制一个节点，选择它将要使用的图像生成模型。"
+ },
+ {
+  "seg": 120,
+  "start": 680.838,
+  "end": 682.378,
+  "speaker": "Unknown",
+  "en": "We use GPT image 2.",
+  "zh": "我们用 GPT image 2。"
+ },
+ {
+  "seg": 121,
+  "start": 682.858,
+  "end": 685.88,
+  "speaker": "Unknown",
+  "en": "We used to use NanoBanana, but we actually really like GPT image 2.",
+  "zh": "我们以前用 NanoBanana,但其实我们非常喜欢 GPT image 2。"
+ },
+ {
+  "seg": 122,
+  "start": 686.6,
+  "end": 688.282,
+  "speaker": "Unknown",
+  "en": "It's selecting aspect ratio.",
+  "zh": "它在选择宽高比。"
+ },
+ {
+  "seg": 123,
+  "start": 688.382,
+  "end": 691.424,
+  "speaker": "Unknown",
+  "en": "It's putting in the prompt based on other prompts we have.",
+  "zh": "它根据我们已有的其他提示词填入提示词。"
+ },
+ {
+  "seg": 124,
+  "start": 691.785,
+  "end": 693.106,
+  "speaker": "Unknown",
+  "en": "And it's going to go ahead and generate that.",
+  "zh": "然后它就会接着生成。"
+ },
+ {
+  "seg": 125,
+  "start": 693.126,
+  "end": 696.089,
+  "speaker": "Unknown",
+  "en": "And I think it's going to do it for all three of these images.",
+  "zh": "我想它会对这三张图片都这么做。"
+ },
+ {
+  "seg": 126,
+  "start": 696.189,
+  "end": 701.794,
+  "speaker": "Unknown",
+  "en": "And again, this is something that our designer Naomi, who's fabulous, does by hand every time.",
+  "zh": "再说一次，这是我们的设计师 Naomi——她非常出色——每次都要手动做的事。"
+ },
+ {
+  "seg": 127,
+  "start": 701.914,
+  "end": 703.015,
+  "speaker": "Unknown",
+  "en": "It's sort of mindless.",
+  "zh": "这种活儿有点不用动脑。"
+ },
+ {
+  "seg": 128,
+  "start": 703.735,
+  "end": 707.181,
+  "speaker": "Unknown",
+  "en": "And it takes a little bit of effort to drag the nodes, get it all organized.",
+  "zh": "而且拖动节点、把一切整理好要花一点力气。"
+ },
+ {
+  "seg": 129,
+  "start": 707.361,
+  "end": 711.527,
+  "speaker": "Unknown",
+  "en": "Also, we love Flora, but it's kind of like chaos reigns here.",
+  "zh": "另外，我们爱 Flora,但这里基本上是混乱当道。"
+ },
+ {
+  "seg": 130,
+  "start": 711.647,
+  "end": 718.117,
+  "speaker": "Unknown",
+  "en": "So anything that can help us reorganize these nodes and keep them in check can be very, very helpful.",
+  "zh": "所以任何能帮我们重新组织这些节点、让它们井井有条的东西都会非常非常有帮助。"
+ },
+ {
+  "seg": 131,
+  "start": 718.597,
+  "end": 722.74,
+  "speaker": "Unknown",
+  "en": "And so what we're probably going to do is have Codex now generate all these images.",
+  "zh": "所以我们接下来很可能会做的是让 Codex 现在生成所有这些图片。"
+ },
+ {
+  "seg": 132,
+  "start": 723.18,
+  "end": 732.607,
+  "speaker": "Unknown",
+  "en": "And then Naomi's job, like all humans, is just to have good taste and make sure that the model doesn't make my face look insane or give me extra fingers or give me like an uncanny valley look.",
+  "zh": "然后 Naomi 的工作，和所有人类一样，就是有好的品味，确保模型不会把我的脸弄得看起来很疯狂，或者多给我几根手指，或者给我一种恐怖谷的感觉。"
+ },
+ {
+  "seg": 133,
+  "start": 732.627,
+  "end": 733.587,
+  "speaker": "Unknown",
+  "en": "But you can see here.",
+  "zh": "但你可以在这里看到。"
+ },
+ {
+  "seg": 134,
+  "start": 734.628,
+  "end": 736.129,
+  "speaker": "Unknown",
+  "en": "It started generating one image.",
+  "zh": "它开始生成一张图片了。"
+ },
+ {
+  "seg": 135,
+  "start": 736.529,
+  "end": 738.13,
+  "speaker": "Unknown",
+  "en": "It's going to go ahead and generate the next.",
+  "zh": "它会接着生成下一张。"
+ },
+ {
+  "seg": 136,
+  "start": 738.21,
+  "end": 760.659,
+  "speaker": "Unknown",
+  "en": "And so you can just think of this as two examples, this like complex CRM workflow node builder and using Flora to generate assets and do prompting as something that really benefits from this UI, but does not benefit from humans using their fingers and typing prompts and dragging things to make the UI.",
+  "zh": "所以你可以把这当作两个例子——这个有点复杂的 CRM 工作流节点构建器，以及用 Flora 生成素材和做提示词——它们真正受益于这种 UI,但并不受益于人类用手指打字输入提示词、拖拽东西来搭建这个 UI。"
+ },
+ {
+  "seg": 137,
+  "start": 761.46,
+  "end": 764.643,
+  "speaker": "Unknown",
+  "en": "This is where Astra really, really shines.",
+  "zh": "这正是 Astra 真正、真正大放异彩的地方。"
+ },
+ {
+  "seg": 138,
+  "start": 764.723,
+  "end": 779.236,
+  "speaker": "Unknown",
+  "en": "And so I do spend about 90% of my day sitting here watching Astra use my computer and specifically use Chrome to navigate websites and applications that I really love.",
+  "zh": "所以我确实每天大约 90% 的时间坐在这里，看着 Astra 使用我的电脑，特别是用 Chrome 去操作我非常喜爱的网站和应用程序。"
+ },
+ {
+  "seg": 139,
+  "start": 779.836,
+  "end": 791.5,
+  "speaker": "Unknown",
+  "en": "As a side note, another use case that I use for Astra and browser use that I think is really helpful for software developers in general, and we'll get to coding in a minute, is just QA.",
+  "zh": "顺便说一下，我用 Astra 和浏览器操作的另一个用例，我认为它对整个软件开发者群体都非常有帮助——我们等一下会讲到写代码——就是 QA。"
+ },
+ {
+  "seg": 140,
+  "start": 791.721,
+  "end": 806.106,
+  "speaker": "Unknown",
+  "en": "And so recently I was working on stabilizing the main chat PRD chat experience with with Astra, and we were chasing down some like race conditions and some weird edge case things in",
+  "zh": "所以最近我在做稳定主聊天 PRD 聊天体验的工作，和 Astra 一起，我们在追查一些类似竞态条件的情况，还有一些奇怪的边界情况，出现在"
+ },
+ {
+  "seg": 141,
+  "start": 806.646,
+  "end": 808.166,
+  "speaker": "Unknown",
+  "en": "Streaming persistence and all this kind of stuff.",
+  "zh": "流式持久化以及所有这类东西里。"
+ },
+ {
+  "seg": 142,
+  "start": 808.206,
+  "end": 810.267,
+  "speaker": "Unknown",
+  "en": "And we finally got the code shipped and the PR shipped.",
+  "zh": "最后我们让代码上线了，PR 也发布上线了。"
+ },
+ {
+  "seg": 143,
+  "start": 810.727,
+  "end": 814.408,
+  "speaker": "Unknown",
+  "en": "And I was like, can you just like test this in Chrome?",
+  "zh": "然后我就说，你能直接在 Chrome 里测试一下这个吗？"
+ },
+ {
+  "seg": 144,
+  "start": 814.588,
+  "end": 821.789,
+  "speaker": "Unknown",
+  "en": "And what was really awesome is it just pulled up the preview branch and then it started clicking through testing, sending chats.",
+  "zh": "非常棒的是，它直接调出了预览分支，然后开始点击测试、发送聊天。"
+ },
+ {
+  "seg": 145,
+  "start": 821.849,
+  "end": 828.551,
+  "speaker": "Unknown",
+  "en": "And what was really helpful about browser use here is it was inspecting the console, checking for error logs.",
+  "zh": "而浏览器操作在这里真正有帮助的一点是，它会检查控制台，查看错误日志。"
+ },
+ {
+  "seg": 146,
+  "start": 828.951,
+  "end": 830.811,
+  "speaker": "Unknown",
+  "en": "It was doing things like race conditions.",
+  "zh": "它会做像竞态条件这样的事情。"
+ },
+ {
+  "seg": 147,
+  "start": 830.891,
+  "end": 832.452,
+  "speaker": "Unknown",
+  "en": "It would like refresh Chrome.",
+  "zh": "它会刷新 Chrome。"
+ },
+ {
+  "seg": 148,
+  "start": 832.472,
+  "end": 833.532,
+  "speaker": "Unknown",
+  "en": "It would do all this stuff.",
+  "zh": "它会做所有这些事情。"
+ },
+ {
+  "seg": 149,
+  "start": 833.932,
+  "end": 840.376,
+  "speaker": "Unknown",
+  "en": "That would be very tedious and hard to execute as a human, but was super useful as a QA.",
+  "zh": "这些作为人类来执行会非常繁琐且困难，但作为 QA 来做却超级有用。"
+ },
+ {
+  "seg": 150,
+  "start": 840.396,
+  "end": 846.299,
+  "speaker": "Unknown",
+  "en": "You can see here it actually ran for an hour and 45 minutes, basically, QAing this branch.",
+  "zh": "你可以看到这里它实际上运行了一小时四十五分钟，基本上是在对这个分支做 QA。"
+ },
+ {
+  "seg": 151,
+  "start": 846.459,
+  "end": 849.861,
+  "speaker": "Unknown",
+  "en": "It found a couple issues when you were navigating.",
+  "zh": "它在导航的时候发现了几个问题。"
+ },
+ {
+  "seg": 152,
+  "start": 850.001,
+  "end": 850.902,
+  "speaker": "Unknown",
+  "en": "It fixed some things.",
+  "zh": "它修复了一些东西。"
+ },
+ {
+  "seg": 153,
+  "start": 851.062,
+  "end": 855.104,
+  "speaker": "Unknown",
+  "en": "It specifically looked at some race conditions and was really awesome.",
+  "zh": "它专门查看了一些竞态条件，表现非常棒。"
+ },
+ {
+  "seg": 154,
+  "start": 855.124,
+  "end": 857.806,
+  "speaker": "Unknown",
+  "en": "So if you are not using browser use for QA, please do.",
+  "zh": "所以如果你还没有用 browser use 来做 QA,请用起来。"
+ },
+ {
+  "seg": 155,
+  "start": 857.826,
+  "end": 861.468,
+  "speaker": "Unknown",
+  "en": "I'm just going to go wrap our computer use action.",
+  "zh": "我就先去把我们的 computer use 操作收个尾。"
+ },
+ {
+  "seg": 156,
+  "start": 862.088,
+  "end": 867.173,
+  "speaker": "Unknown",
+  "en": "By looking at found and made the links kind of incredible.",
+  "zh": "通过查看，找到并让链接变得有点不可思议。"
+ },
+ {
+  "seg": 157,
+  "start": 867.273,
+  "end": 871.998,
+  "speaker": "Unknown",
+  "en": "I'm actually just going to Slack Naomi right now and say, good news.",
+  "zh": "我现在就要在 Slack 上给 Naomi 发消息说，好消息。"
+ },
+ {
+  "seg": 158,
+  "start": 872.819,
+  "end": 876.622,
+  "speaker": "Unknown",
+  "en": "Astra made the thumb photos itself.",
+  "zh": "Astra 自己做了缩略图照片。"
+ },
+ {
+  "seg": 159,
+  "start": 877.403,
+  "end": 879.506,
+  "speaker": "Unknown",
+  "en": "In Flora, super cute.",
+  "zh": "在 Flora 里，超级可爱。"
+ },
+ {
+  "seg": 160,
+  "start": 880.007,
+  "end": 884.193,
+  "speaker": "Unknown",
+  "en": "And then I'm going to send her an example of it.",
+  "zh": "然后我要给她发一个例子。"
+ },
+ {
+  "seg": 161,
+  "start": 884.393,
+  "end": 887.297,
+  "speaker": "Unknown",
+  "en": "And like, this is so funny because think of a perfect example.",
+  "zh": "而且，这太有趣了，因为想想一个完美的例子。"
+ },
+ {
+  "seg": 162,
+  "start": 887.778,
+  "end": 888.879,
+  "speaker": "Unknown",
+  "en": "She's got an appointment.",
+  "zh": "她有个预约。"
+ },
+ {
+  "seg": 163,
+  "start": 889.72,
+  "end": 893.205,
+  "speaker": "Unknown",
+  "en": "We need this thing done because you all like your model reviews ASAP.",
+  "zh": "我们需要把这件事做完，因为你们都想尽快看到模型评测。"
+ },
+ {
+  "seg": 164,
+  "start": 893.886,
+  "end": 894.026,
+  "speaker": "Unknown",
+  "en": "And",
+  "zh": "而且"
+ },
+ {
+  "seg": 165,
+  "start": 895.261,
+  "end": 899.904,
+  "speaker": "Unknown",
+  "en": "Astra made a great image for our thumbnail.",
+  "zh": "Astra 为我们的缩略图做了一张很棒的图片。"
+ },
+ {
+  "seg": 166,
+  "start": 900.364,
+  "end": 913.812,
+  "speaker": "Unknown",
+  "en": "And so this is just a really great example of a model in browser use and computer use, just taking toil off humans, even in the creative field and letting you do your work a little bit faster and letting you impress your customers.",
+  "zh": "所以这只是一个非常棒的例子，展示了一个模型在 browser use 和 computer use 中，仅仅就是把苦差事从人类身上拿走，即使在创意领域，让你更快一点完成工作，让你打动你的客户。"
+ },
+ {
+  "seg": 167,
+  "start": 913.832,
+  "end": 914.672,
+  "speaker": "Unknown",
+  "en": "You all are my customers.",
+  "zh": "你们都是我的客户。"
+ },
+ {
+  "seg": 168,
+  "start": 914.692,
+  "end": 915.293,
+  "speaker": "Unknown",
+  "en": "You're my clients.",
+  "zh": "你们是我的客户。"
+ },
+ {
+  "seg": 169,
+  "start": 915.313,
+  "end": 916.073,
+  "speaker": "Unknown",
+  "en": "You're my audience.",
+  "zh": "你们是我的观众。"
+ },
+ {
+  "seg": 170,
+  "start": 916.133,
+  "end": 918.194,
+  "speaker": "Unknown",
+  "en": "I love you a little bit more.",
+  "zh": "我爱你们多一点点。"
+ },
+ {
+  "seg": 171,
+  "start": 918.254,
+  "end": 919.775,
+  "speaker": "Unknown",
+  "en": "So very, very cool example.",
+  "zh": "所以非常、非常酷的例子。"
+ },
+ {
+  "seg": 172,
+  "start": 919.955,
+  "end": 920.496,
+  "speaker": "Unknown",
+  "en": "I love Astra.",
+  "zh": "我爱 Astra。"
+ },
+ {
+  "seg": 173,
+  "start": 920.516,
+  "end": 921.836,
+  "speaker": "Unknown",
+  "en": "I love browser use, but let's get to",
+  "zh": "我爱 browser use,但让我们进入"
+ },
+ {
+  "seg": 174,
+  "start": 923.097,
+  "end": 924.539,
+  "speaker": "Unknown",
+  "en": "Some other fun stuff.",
+  "zh": "一些其他好玩的内容。"
+ },
+ {
+  "seg": 175,
+  "start": 924.799,
+  "end": 926.921,
+  "speaker": "Unknown",
+  "en": "Okay, let's talk about coding.",
+  "zh": "好，我们来聊聊编程。"
+ },
+ {
+  "seg": 176,
+  "start": 927.662,
+  "end": 929.744,
+  "speaker": "Unknown",
+  "en": "Yes, obviously, it's great at coding.",
+  "zh": "是的，显然，它很擅长编程。"
+ },
+ {
+  "seg": 177,
+  "start": 929.884,
+  "end": 940.876,
+  "speaker": "Unknown",
+  "en": "But specifically, it has broken through a couple software engineering challenges that I have not been able to crack thus far with GPT-56 or with Fable or with Opus.",
+  "zh": "但具体来说，它突破了几个软件工程挑战，这些挑战到目前为止我用 GPT-56、或 Fable、或 Opus 都没能攻克。"
+ },
+ {
+  "seg": 178,
+  "start": 941.276,
+  "end": 956.485,
+  "speaker": "Unknown",
+  "en": "Specifically, I, for ChatPRD, have been working on this feature, this product intelligence feature that like sort of like sucks up all your product intelligence from like Intercom and Granola and Linear and GitHub and kind of tells you what's going on, what's trending, what you need to do.",
+  "zh": "具体来说，我，为 ChatPRD,一直在做这个功能，这个产品智能功能，它会把你的所有产品情报从 Intercom、Granola、Linear 和 GitHub 之类的地方吸进来，然后大致告诉你正在发生什么，什么正在流行，你需要做什么。"
+ },
+ {
+  "seg": 179,
+  "start": 956.926,
+  "end": 963.41,
+  "speaker": "Unknown",
+  "en": "And in addition to creating those insights and trends, it generates this sort of like auto wiki of the state of your product.",
+  "zh": "而且除了创建这些洞察和趋势，它还会生成这种类似自动维基的东西，关于你产品的状态。"
+ },
+ {
+  "seg": 180,
+  "start": 964.11,
+  "end": 966.432,
+  "speaker": "Unknown",
+  "en": "And I have thrown every model at this.",
+  "zh": "我把每个模型都拿来做这个试过。"
+ },
+ {
+  "seg": 181,
+  "start": 966.492,
+  "end": 967.133,
+  "speaker": "Unknown",
+  "en": "I'm pretty smart.",
+  "zh": "我挺聪明的。"
+ },
+ {
+  "seg": 182,
+  "start": 967.173,
+  "end": 969.895,
+  "speaker": "Unknown",
+  "en": "I kind of like architecturally know how it needs to work, but it is complex.",
+  "zh": "我在架构上大致知道它需要怎么工作，但它很复杂。"
+ },
+ {
+  "seg": 183,
+  "start": 969.955,
+  "end": 973.138,
+  "speaker": "Unknown",
+  "en": "It has to ingest data, has to decide what it durably stores.",
+  "zh": "它必须摄取数据，必须决定持久化存储哪些内容。"
+ },
+ {
+  "seg": 184,
+  "start": 973.178,
+  "end": 976.26,
+  "speaker": "Unknown",
+  "en": "It has to process it, has to deduplicate insights.",
+  "zh": "它必须处理数据，必须对洞察去重。"
+ },
+ {
+  "seg": 185,
+  "start": 976.28,
+  "end": 977.441,
+  "speaker": "Unknown",
+  "en": "It has to generate a wiki.",
+  "zh": "它必须生成一个维基。"
+ },
+ {
+  "seg": 186,
+  "start": 977.461,
+  "end": 979.583,
+  "speaker": "Unknown",
+  "en": "It has to verify that wiki against external sources.",
+  "zh": "它必须针对外部来源验证那个维基。"
+ },
+ {
+  "seg": 187,
+  "start": 979.663,
+  "end": 984.687,
+  "speaker": "Unknown",
+  "en": "And like, Fable did insane things with the architecture.",
+  "zh": "而且，Fable 在架构上做了疯狂的事情。"
+ },
+ {
+  "seg": 188,
+  "start": 985.027,
+  "end": 988.71,
+  "speaker": "Unknown",
+  "en": "FiveSix just like got stuck on quality of insights.",
+  "zh": "FiveSix 就卡在了洞察的质量上。"
+ },
+ {
+  "seg": 189,
+  "start": 989.291,
+  "end": 990.552,
+  "speaker": "Unknown",
+  "en": "And I am telling you all.",
+  "zh": "我是在告诉你们大家。"
+ },
+ {
+  "seg": 190,
+  "start": 992.067,
+  "end": 992.987,
+  "speaker": "Unknown",
+  "en": "Astra one-shotted.",
+  "zh": "Astra 一次性搞定了。"
+ },
+ {
+  "seg": 191,
+  "start": 993.767,
+  "end": 1001.309,
+  "speaker": "Unknown",
+  "en": "And I was like, it was like, this has been my experience this entire model, which has been like, it's been so hard to do these like very specific tasks.",
+  "zh": "而我就想，就像是，这就是我体验这个模型以来的整个感受，就是，做这些非常具体的任务一直太难了。"
+ },
+ {
+  "seg": 192,
+  "start": 1001.349,
+  "end": 1004.13,
+  "speaker": "Unknown",
+  "en": "And I've tried them over and over and over again for six months.",
+  "zh": "六个月来我一遍又一遍又一遍地尝试过它们。"
+ },
+ {
+  "seg": 193,
+  "start": 1004.65,
+  "end": 1007.231,
+  "speaker": "Unknown",
+  "en": "And then all of a sudden Astra started to one-shot it.",
+  "zh": "然后突然之间，Astra 开始一次性搞定它。"
+ },
+ {
+  "seg": 194,
+  "start": 1007.311,
+  "end": 1012.472,
+  "speaker": "Unknown",
+  "en": "So I have been working on this product graph, product intelligence forever.",
+  "zh": "所以我做这个产品图谱、产品智能已经做了很久了。"
+ },
+ {
+  "seg": 195,
+  "start": 1012.932,
+  "end": 1014.072,
+  "speaker": "Unknown",
+  "en": "And finally just gave it to Astra.",
+  "zh": "最后我直接把它交给了 Astra。"
+ },
+ {
+  "seg": 196,
+  "start": 1014.092,
+  "end": 1015.413,
+  "speaker": "Unknown",
+  "en": "I'm like, can you, I have a branch open.",
+  "zh": "我说，你能不能，我开了一个分支。"
+ },
+ {
+  "seg": 197,
+  "start": 1015.433,
+  "end": 1015.953,
+  "speaker": "Unknown",
+  "en": "Can you fix it?",
+  "zh": "你能修好它吗？"
+ },
+ {
+  "seg": 198,
+  "start": 1016.893,
+  "end": 1017.694,
+  "speaker": "Unknown",
+  "en": "And it built it.",
+  "zh": "然后它把它构建出来了。"
+ },
+ {
+  "seg": 199,
+  "start": 1017.774,
+  "end": 1025.742,
+  "speaker": "Unknown",
+  "en": "So it ingests data from a bunch of different sources, Intercom, Granola, Linear, etc.",
+  "zh": "所以它从一堆不同的来源摄取数据，Intercom、Granola、Linear 等等。"
+ },
+ {
+  "seg": 200,
+  "start": 1026.202,
+  "end": 1027.343,
+  "speaker": "Unknown",
+  "en": "It pulls in those insights.",
+  "zh": "它会吸收那些洞察。"
+ },
+ {
+  "seg": 201,
+  "start": 1027.403,
+  "end": 1030.566,
+  "speaker": "Unknown",
+  "en": "It tells me what my top three priorities as a product person should be.",
+  "zh": "它告诉我,作为产品人员,我的前三大优先事项应该是什么。"
+ },
+ {
+  "seg": 202,
+  "start": 1030.586,
+  "end": 1035.111,
+  "speaker": "Unknown",
+  "en": "AI stalling, that was that race condition bug that we were figuring out.",
+  "zh": "AI 卡住,那就是我们之前在排查的那个竞态条件 bug。"
+ },
+ {
+  "seg": 203,
+  "start": 1035.491,
+  "end": 1037.173,
+  "speaker": "Unknown",
+  "en": "Self-service cancellation is broken.",
+  "zh": "自助取消功能坏了。"
+ },
+ {
+  "seg": 204,
+  "start": 1037.314,
+  "end": 1038.916,
+  "speaker": "Unknown",
+  "en": "And then people want on-prem JIRA.",
+  "zh": "然后大家想要本地部署的 JIRA。"
+ },
+ {
+  "seg": 205,
+  "start": 1038.976,
+  "end": 1042.98,
+  "speaker": "Unknown",
+  "en": "So JIRA friends, please, sponsors of the pod, people want on-prem JIRA integration.",
+  "zh": "所以 JIRA 的朋友们,拜托了,播客的赞助商们,大家想要本地部署的 JIRA 集成。"
+ },
+ {
+  "seg": 206,
+  "start": 1043.461,
+  "end": 1046.365,
+  "speaker": "Unknown",
+  "en": "It generates these kind of graphs over time.",
+  "zh": "它会生成这类随时间变化的图表。"
+ },
+ {
+  "seg": 207,
+  "start": 1046.385,
+  "end": 1052.672,
+  "speaker": "Unknown",
+  "en": "It tells you what opportunities, and I am telling you, I could not get any other model to get to this.",
+  "zh": "它告诉你有哪些机会,而我告诉你,我没办法让任何其他模型做到这一点。"
+ },
+ {
+  "seg": 208,
+  "start": 1054.354,
+  "end": 1073.972,
+  "speaker": "Unknown",
+  "en": "So what this does is it sucks up all the information you can find about your product, in this case about ChatPureD, and it went and looked at GitHub, it looked at our documents, and it just basically explains.",
+  "zh": "所以它做的是,把你能找到的关于你产品的所有信息都吸进来,在这个例子里是关于 ChatPureD 的,然后它去看了 GitHub,看了我们的文档,基本上就是在做解释。"
+ },
+ {
+  "seg": 209,
+  "start": 1074.593,
+  "end": 1080.497,
+  "speaker": "Unknown",
+  "en": "Current function of all the product, recent changes, customer context, things that we need to fix.",
+  "zh": "产品当前的全部功能、最近的变更、客户背景,以及我们需要修复的东西。"
+ },
+ {
+  "seg": 210,
+  "start": 1080.918,
+  "end": 1083.079,
+  "speaker": "Unknown",
+  "en": "And then it exposes this via MCP.",
+  "zh": "然后它通过 MCP 把这些暴露出来。"
+ },
+ {
+  "seg": 211,
+  "start": 1083.319,
+  "end": 1086.241,
+  "speaker": "Unknown",
+  "en": "And I am telling you, this was like, I would call it three shot.",
+  "zh": "我告诉你,这就像是,我会称之为 three shot(三次搞定)。"
+ },
+ {
+  "seg": 212,
+  "start": 1086.421,
+  "end": 1090.224,
+  "speaker": "Unknown",
+  "en": "One shot got it to 90% and it was like two or three other prompts.",
+  "zh": "One shot(一枪)就让它达到了 90%,然后又用了大概两三条其他提示词。"
+ },
+ {
+  "seg": 213,
+  "start": 1090.765,
+  "end": 1092.105,
+  "speaker": "Unknown",
+  "en": "And finally it got it working.",
+  "zh": "最后它把它跑通了。"
+ },
+ {
+  "seg": 214,
+  "start": 1092.125,
+  "end": 1095.508,
+  "speaker": "Unknown",
+  "en": "I had to polish the UI a little bit, but this is one of those things that just.",
+  "zh": "我只需要稍微打磨一下 UI,但这就是那种……"
+ },
+ {
+  "seg": 215,
+  "start": 1096.669,
+  "end": 1099.251,
+  "speaker": "Unknown",
+  "en": "None of these models could do really well out of the gate.",
+  "zh": "这些模型没有一个能一上来就做得很好。"
+ },
+ {
+  "seg": 216,
+  "start": 1099.591,
+  "end": 1102.413,
+  "speaker": "Unknown",
+  "en": "It wasn't that I couldn't technically explain how one had executed.",
+  "zh": "并不是我在技术上解释不了其中一个是怎么执行的。"
+ },
+ {
+  "seg": 217,
+  "start": 1102.913,
+  "end": 1107.497,
+  "speaker": "Unknown",
+  "en": "The architecture and whatever decisions it made on how to do it just resulted in poor quality.",
+  "zh": "是它的架构,以及它在如何做这件事上做出的种种决策,导致了质量很差。"
+ },
+ {
+  "seg": 218,
+  "start": 1107.577,
+  "end": 1111.019,
+  "speaker": "Unknown",
+  "en": "And it really, Astra really figured this one out.",
+  "zh": "而且它真的,Astra 真的把这个搞明白了。"
+ },
+ {
+  "seg": 219,
+  "start": 1111.059,
+  "end": 1116.223,
+  "speaker": "Unknown",
+  "en": "So it has super accelerated my personal product development, software development on ChatPurity.",
+  "zh": "所以它极大地加速了我在 ChatPurity 上的个人产品开发、软件开发。"
+ },
+ {
+  "seg": 220,
+  "start": 1116.623,
+  "end": 1118.285,
+  "speaker": "Unknown",
+  "en": "But more important.",
+  "zh": "但更重要的是。"
+ },
+ {
+  "seg": 221,
+  "start": 1119.41,
+  "end": 1120.571,
+  "speaker": "Unknown",
+  "en": "It's let me build some fun stuff.",
+  "zh": "它让我构建了一些好玩的东西。"
+ },
+ {
+  "seg": 222,
+  "start": 1120.611,
+  "end": 1123.875,
+  "speaker": "Unknown",
+  "en": "So let's talk about coding, but make it fun.",
+  "zh": "所以我们来聊聊编程,但要聊得好玩一点。"
+ },
+ {
+  "seg": 223,
+  "start": 1124.296,
+  "end": 1129.702,
+  "speaker": "Unknown",
+  "en": "So you all know that I have been victimized by this thing.",
+  "zh": "大家都知道,我一直被这个东西折磨。"
+ },
+ {
+  "seg": 224,
+  "start": 1130.343,
+  "end": 1132.585,
+  "speaker": "Unknown",
+  "en": "It's a Divoom Mini 2.",
+  "zh": "它是一个 Divoom Mini 2。"
+ },
+ {
+  "seg": 225,
+  "start": 1132.605,
+  "end": 1134.548,
+  "speaker": "Unknown",
+  "en": "It is really just like a Bluetooth speaker.",
+  "zh": "它其实就是一个蓝牙音箱。"
+ },
+ {
+  "seg": 226,
+  "start": 1134.708,
+  "end": 1138.592,
+  "speaker": "Unknown",
+  "en": "It comes pre-installed with proprietary software.",
+  "zh": "它预装了专有软件。"
+ },
+ {
+  "seg": 227,
+  "start": 1140.054,
+  "end": 1141.115,
+  "speaker": "Unknown",
+  "en": "There's no API.",
+  "zh": "没有 API。"
+ },
+ {
+  "seg": 228,
+  "start": 1141.195,
+  "end": 1141.996,
+  "speaker": "Unknown",
+  "en": "You can't crack it.",
+  "zh": "你没法破解它。"
+ },
+ {
+  "seg": 229,
+  "start": 1142.016,
+  "end": 1142.816,
+  "speaker": "Unknown",
+  "en": "You can't hack it.",
+  "zh": "你没法黑进它。"
+ },
+ {
+  "seg": 230,
+  "start": 1143.357,
+  "end": 1149.783,
+  "speaker": "Unknown",
+  "en": "And GPT-5.5 was the first one that even let me do the most basic thing on this little computer.",
+  "zh": "而 GPT-5.5 是第一个甚至让我能在这台小电脑上做出最基本事情的模型。"
+ },
+ {
+  "seg": 231,
+  "start": 1150.064,
+  "end": 1150.704,
+  "speaker": "Unknown",
+  "en": "This is my Everest.",
+  "zh": "这是我的珠穆朗玛峰。"
+ },
+ {
+  "seg": 232,
+  "start": 1154.668,
+  "end": 1159.534,
+  "speaker": "Unknown",
+  "en": "I mean, the quality of what I've been able to flash onto this little device is amazing.",
+  "zh": "我是说,我能刷进这个小设备里的东西,质量太惊人了。"
+ },
+ {
+  "seg": 233,
+  "start": 1159.554,
+  "end": 1160.895,
+  "speaker": "Unknown",
+  "en": "Look, it's like Claire's little lab.",
+  "zh": "你看,这就像 Claire 的小实验室。"
+ },
+ {
+  "seg": 234,
+  "start": 1160.955,
+  "end": 1165.02,
+  "speaker": "Unknown",
+  "en": "It's figured out the pixel algorithm, which I had to reverse engineer.",
+  "zh": "它搞明白了像素算法,而这我之前必须逆向工程才能搞定。"
+ },
+ {
+  "seg": 235,
+  "start": 1165.04,
+  "end": 1165.88,
+  "speaker": "Unknown",
+  "en": "It was not easy.",
+  "zh": "那可不容易。"
+ },
+ {
+  "seg": 236,
+  "start": 1166.801,
+  "end": 1168.183,
+  "speaker": "Unknown",
+  "en": "So it's already doing cute art.",
+  "zh": "所以它已经在画可爱的图案了。"
+ },
+ {
+  "seg": 237,
+  "start": 1168.543,
+  "end": 1174.39,
+  "speaker": "Unknown",
+  "en": "But let me show you what Astra was able to do here.",
+  "zh": "但让我给你看看 Astra 在这里能做到什么。"
+ },
+ {
+  "seg": 238,
+  "start": 1175.727,
+  "end": 1184.49,
+  "speaker": "Unknown",
+  "en": "Oh, Astra built a little app that allows me to connect live to this device.",
+  "zh": "哦,Astra 做了一个小应用,让我能实时连接到这个设备。"
+ },
+ {
+  "seg": 239,
+  "start": 1185.291,
+  "end": 1190.093,
+  "speaker": "Unknown",
+  "en": "I can draw on the device using my mouse.",
+  "zh": "我可以用鼠标在设备上画画。"
+ },
+ {
+  "seg": 240,
+  "start": 1190.873,
+  "end": 1193.414,
+  "speaker": "Unknown",
+  "en": "I can change the thing.",
+  "zh": "我可以改那个东西。"
+ },
+ {
+  "seg": 241,
+  "start": 1193.434,
+  "end": 1198.936,
+  "speaker": "Unknown",
+  "en": "I can type, I love my subscribers.",
+  "zh": "我可以输入「我爱我的订阅者」。"
+ },
+ {
+  "seg": 242,
+  "start": 1201.737,
+  "end": 1205.099,
+  "speaker": "Unknown",
+  "en": "I can do all that live, live streaming.",
+  "zh": "这些我都能实时做,边直播边做。"
+ },
+ {
+  "seg": 243,
+  "start": 1205.26,
+  "end": 1215.966,
+  "speaker": "Unknown",
+  "en": "But even cooler, I had Astra build me a CLI, now that it's totally figured out this thing, so that it can talk to me live about anything it wants.",
+  "zh": "但更酷的是,我让 Astra 给我建了一个 CLI,现在它已经完全搞明白这个东西了,这样它就能实时跟我聊任何它想聊的。"
+ },
+ {
+  "seg": 244,
+  "start": 1216.026,
+  "end": 1227.774,
+  "speaker": "Unknown",
+  "en": "And so I can say, use the CLI again to tell our audience about the most recent episode of How I AI.",
+  "zh": "所以我可以说,再用一下这个 CLI,跟我们的观众讲讲最新一期的 How I AI。"
+ },
+ {
+  "seg": 245,
+  "start": 1228.774,
+  "end": 1233.137,
+  "speaker": "Unknown",
+  "en": "And so it can now go, look, now it's saying Codex is working.",
+  "zh": "所以它现在就可以跑了,看,它现在显示 Codex 正在工作。"
+ },
+ {
+  "seg": 246,
+  "start": 1233.258,
+  "end": 1233.838,
+  "speaker": "Unknown",
+  "en": "Very cute.",
+  "zh": "非常可爱。"
+ },
+ {
+  "seg": 247,
+  "start": 1233.878,
+  "end": 1236.5,
+  "speaker": "Unknown",
+  "en": "It's going to think really hard about what it's doing.",
+  "zh": "它会非常认真地思考它在做什么。"
+ },
+ {
+  "seg": 248,
+  "start": 1236.9,
+  "end": 1244.406,
+  "speaker": "Unknown",
+  "en": "It's going to find the latest HowAI published episode, and it's going to stream an audience-friendly introduction to the CLI.",
+  "zh": "它会找到 HowAI 最新发布的一期,然后把一段对观众友好的介绍流式输出到 CLI 上。"
+ },
+ {
+  "seg": 249,
+  "start": 1246.147,
+  "end": 1250.529,
+  "speaker": "Unknown",
+  "en": "I mean, again, it took me forever to get this thing to say hi with these previous models.",
+  "zh": "我是说,再强调一次,用之前那些模型,我花了好久才让这个东西说出「你好」。"
+ },
+ {
+  "seg": 250,
+  "start": 1251.049,
+  "end": 1256.291,
+  "speaker": "Unknown",
+  "en": "And now I am truly able to do anything I want on this.",
+  "zh": "现在,在这上面我真的能做任何我想做的事了。"
+ },
+ {
+  "seg": 251,
+  "start": 1256.311,
+  "end": 1257.832,
+  "speaker": "Unknown",
+  "en": "So it's going to say Codex is working.",
+  "zh": "所以它会显示 Codex 正在工作。"
+ },
+ {
+  "seg": 252,
+  "start": 1258.372,
+  "end": 1261.654,
+  "speaker": "Unknown",
+  "en": "It's reading the Python that is the script.",
+  "zh": "它正在读取作为脚本的 Python。"
+ },
+ {
+  "seg": 253,
+  "start": 1261.814,
+  "end": 1264.335,
+  "speaker": "Unknown",
+  "en": "And then hopefully, fingers crossed,",
+  "zh": "然后但愿如此,手指交叉,"
+ },
+ {
+  "seg": 254,
+  "start": 1264.975,
+  "end": 1273.357,
+  "speaker": "Unknown",
+  "en": "It will stream a message to you all beautiful subscribers about our most recent episode of How I AI, and let's just see if it gets it right.",
+  "zh": "它会向你们所有美丽的订阅者推送一条消息,介绍我们最近一期的 How I AI 节目,我们就来看看它能不能做对。"
+ },
+ {
+  "seg": 255,
+  "start": 1273.857,
+  "end": 1274.497,
+  "speaker": "Unknown",
+  "en": "It got it right.",
+  "zh": "它做对了。"
+ },
+ {
+  "seg": 256,
+  "start": 1274.557,
+  "end": 1281.858,
+  "speaker": "Unknown",
+  "en": "The most recent episode is Grokbot versus OpenClaw, but let's see if it can actually stream it to the little computer.",
+  "zh": "最近一期节目是 Grokbot versus OpenClaw,但我们看看它能不能真的把它推送到这台小电脑上。"
+ },
+ {
+  "seg": 257,
+  "start": 1281.878,
+  "end": 1284.579,
+  "speaker": "Unknown",
+  "en": "I'll show it to you all and we'll see it come in.",
+  "zh": "我会展示给你们大家看,我们会看到消息进来。"
+ },
+ {
+  "seg": 258,
+  "start": 1284.919,
+  "end": 1285.419,
+  "speaker": "Unknown",
+  "en": "Here it goes.",
+  "zh": "来了。"
+ },
+ {
+  "seg": 259,
+  "start": 1285.539,
+  "end": 1286.259,
+  "speaker": "Unknown",
+  "en": "It's streaming.",
+  "zh": "它正在推送。"
+ },
+ {
+  "seg": 260,
+  "start": 1286.359,
+  "end": 1290.26,
+  "speaker": "Unknown",
+  "en": "So it's saying, Claire shows us Grokbot.",
+  "zh": "所以它在说,Claire 向我们展示 Grokbot。"
+ },
+ {
+  "seg": 261,
+  "start": 1290.66,
+  "end": 1292.34,
+  "speaker": "Unknown",
+  "en": "It's streaming in the...",
+  "zh": "它正在推送进……"
+ },
+ {
+  "seg": 262,
+  "start": 1293,
+  "end": 1294.1,
+  "speaker": "Unknown",
+  "en": "Thank you for watching!",
+  "zh": "感谢观看!"
+ },
+ {
+  "seg": 263,
+  "start": 1309.286,
+  "end": 1313.773,
+  "speaker": "Unknown",
+  "en": "Okay, this, again, is my Everest.",
+  "zh": "好的,这,再说一次,就是我的珠穆朗玛峰。"
+ },
+ {
+  "seg": 264,
+  "start": 1313.833,
+  "end": 1317.678,
+  "speaker": "Unknown",
+  "en": "It also says, Inside PR support SOC 2 monitoring and moving agents from OpenClaw.",
+  "zh": "它还写着,Inside PR 支持 SOC 2 监控,并把智能体从 OpenClaw 迁走。"
+ },
+ {
+  "seg": 265,
+  "start": 1317.999,
+  "end": 1319.681,
+  "speaker": "Unknown",
+  "en": "36 minutes, a real agent tour.",
+  "zh": "36 分钟,一次真正的智能体之旅。"
+ },
+ {
+  "seg": 266,
+  "start": 1320.242,
+  "end": 1323.266,
+  "speaker": "Unknown",
+  "en": "Find it in your podcast app today.",
+  "zh": "今天就在你的播客应用里找到它。"
+ },
+ {
+  "seg": 267,
+  "start": 1323.286,
+  "end": 1324.348,
+  "speaker": "Unknown",
+  "en": "This thing.",
+  "zh": "这玩意儿。"
+ },
+ {
+  "seg": 268,
+  "start": 1326.223,
+  "end": 1327.444,
+  "speaker": "Unknown",
+  "en": "We did it, folks.",
+  "zh": "我们做到了,各位。"
+ },
+ {
+  "seg": 269,
+  "start": 1327.664,
+  "end": 1328.724,
+  "speaker": "Unknown",
+  "en": "Next, I got to root it.",
+  "zh": "接下来,我得把它 root 了。"
+ },
+ {
+  "seg": 270,
+  "start": 1329.265,
+  "end": 1330.726,
+  "speaker": "Unknown",
+  "en": "So that's next.",
+  "zh": "所以那是接下来的事。"
+ },
+ {
+  "seg": 271,
+  "start": 1331.106,
+  "end": 1336.909,
+  "speaker": "Unknown",
+  "en": "The other really cool thing that I did with this that you all haven't seen is I hooked it into my Codex hooks.",
+  "zh": "我用这个做的另一件特别酷的事,你们都还没见过,就是我把它接入了我的 Codex hooks。"
+ },
+ {
+  "seg": 272,
+  "start": 1337.109,
+  "end": 1340.791,
+  "speaker": "Unknown",
+  "en": "So now it can tell me when Codex needs something.",
+  "zh": "所以现在当 Codex 需要什么的时候,它能告诉我。"
+ },
+ {
+  "seg": 273,
+  "start": 1340.972,
+  "end": 1343.913,
+  "speaker": "Unknown",
+  "en": "And that brings me to my next use case.",
+  "zh": "这就引出了我的下一个用例。"
+ },
+ {
+  "seg": 274,
+  "start": 1344.053,
+  "end": 1344.574,
+  "speaker": "Unknown",
+  "en": "Very fun.",
+  "zh": "非常有趣。"
+ },
+ {
+  "seg": 275,
+  "start": 1344.694,
+  "end": 1349.356,
+  "speaker": "Unknown",
+  "en": "Again, just coding things that I could not do before that I can do now.",
+  "zh": "再说一次,就是那些我以前做不了、现在能做的编码项目。"
+ },
+ {
+  "seg": 276,
+  "start": 1350.077,
+  "end": 1350.997,
+  "speaker": "Unknown",
+  "en": "Let's look at it.",
+  "zh": "我们来看看它。"
+ },
+ {
+  "seg": 277,
+  "start": 1351.277,
+  "end": 1351.778,
+  "speaker": "Unknown",
+  "en": "It is...",
+  "zh": "它是……"
+ },
+ {
+  "seg": 278,
+  "start": 1353.192,
+  "end": 1364.398,
+  "speaker": "Unknown",
+  "en": "Building me a Mac app that turns my Codex threads into a 90s style AIM Messenger for those of you who are young and beautiful and were maybe not even born when AIM was around.",
+  "zh": "它正在给我构建一个 Mac 应用,把我的 Codex 线程变成 90 年代风格的 AIM Messenger——给那些年轻又漂亮的你们说一下,AIM 还流行的时候你们可能都没出生。"
+ },
+ {
+  "seg": 279,
+  "start": 1365.238,
+  "end": 1366.379,
+  "speaker": "Unknown",
+  "en": "AOL Instant Messenger.",
+  "zh": "AOL Instant Messenger。"
+ },
+ {
+  "seg": 280,
+  "start": 1366.459,
+  "end": 1369.321,
+  "speaker": "Unknown",
+  "en": "It's how we olds used to chit chat with each other on the internet.",
+  "zh": "那是我们这些老家伙以前在网上闲聊的方式。"
+ },
+ {
+  "seg": 281,
+  "start": 1370.041,
+  "end": 1373.683,
+  "speaker": "Unknown",
+  "en": "And it looked like this.",
+  "zh": "它长这个样子。"
+ },
+ {
+  "seg": 282,
+  "start": 1375.376,
+  "end": 1376.838,
+  "speaker": "Unknown",
+  "en": "It looked like this.",
+  "zh": "它长这个样子。"
+ },
+ {
+  "seg": 283,
+  "start": 1377.078,
+  "end": 1381.022,
+  "speaker": "Unknown",
+  "en": "And look at this thing that Astra made for me.",
+  "zh": "再看看 Astra 为我做的这个东西。"
+ },
+ {
+  "seg": 284,
+  "start": 1381.163,
+  "end": 1389.952,
+  "speaker": "Unknown",
+  "en": "Oh, he's made a 90s AIM Instant Messenger style wrapper around all my live.",
+  "zh": "哦,它做了一个 90 年代 AIM Instant Messenger 风格的外壳,包住我所有实时的"
+ },
+ {
+  "seg": 285,
+  "start": 1390.553,
+  "end": 1391.453,
+  "speaker": "Unknown",
+  "en": "Codex threads.",
+  "zh": "Codex 线程。"
+ },
+ {
+  "seg": 286,
+  "start": 1391.914,
+  "end": 1393.734,
+  "speaker": "Unknown",
+  "en": "So all my buddies are different threads.",
+  "zh": "所以我所有的好友都是不同的线程。"
+ },
+ {
+  "seg": 287,
+  "start": 1393.754,
+  "end": 1395.635,
+  "speaker": "Unknown",
+  "en": "Here's the Divoom little mini app.",
+  "zh": "这是 Divoom 的小迷你应用。"
+ },
+ {
+  "seg": 288,
+  "start": 1396.135,
+  "end": 1399.077,
+  "speaker": "Unknown",
+  "en": "So I can open up the chat that we're chatting there.",
+  "zh": "这样我就能打开我们正在那里聊的聊天窗口。"
+ },
+ {
+  "seg": 289,
+  "start": 1399.197,
+  "end": 1402.458,
+  "speaker": "Unknown",
+  "en": "It said it streamed the September 2 episode on Grokbot versus OpenClaw.",
+  "zh": "它说它推送了 9 月 2 日那期关于 Grokbot versus OpenClaw 的节目。"
+ },
+ {
+  "seg": 290,
+  "start": 1402.598,
+  "end": 1404.599,
+  "speaker": "Unknown",
+  "en": "I can go back and send it another message.",
+  "zh": "我可以回去再给它发一条消息。"
+ },
+ {
+  "seg": 291,
+  "start": 1405.239,
+  "end": 1407.04,
+  "speaker": "Unknown",
+  "en": "I can look at different things.",
+  "zh": "我可以看看不同的东西。"
+ },
+ {
+  "seg": 292,
+  "start": 1407.08,
+  "end": 1409.281,
+  "speaker": "Unknown",
+  "en": "Like I built this Astra podcast for review.",
+  "zh": "比如我建了这个 Astra 播客用于审阅。"
+ },
+ {
+  "seg": 293,
+  "start": 1409.641,
+  "end": 1414.083,
+  "speaker": "Unknown",
+  "en": "So I can chat with Codex as if it's my little",
+  "zh": "这样我就可以和 Codex 聊天,就好像它是我的小"
+ },
+ {
+  "seg": 294,
+  "start": 1414.963,
+  "end": 1419.107,
+  "speaker": "Unknown",
+  "en": "And buddy, it's so stinking cute.",
+  "zh": "伙伴,它真是可爱得要命。"
+ },
+ {
+  "seg": 295,
+  "start": 1419.188,
+  "end": 1421.27,
+  "speaker": "Unknown",
+  "en": "It lets me have my screen name.",
+  "zh": "它让我能有自己的屏幕名。"
+ },
+ {
+  "seg": 296,
+  "start": 1421.67,
+  "end": 1424.173,
+  "speaker": "Unknown",
+  "en": "Here's my away message, BRB, letting my agents cook.",
+  "zh": "这是我的离开留言,BRB(马上回来),让我的智能体们大显身手。"
+ },
+ {
+  "seg": 297,
+  "start": 1424.613,
+  "end": 1430.92,
+  "speaker": "Unknown",
+  "en": "And then you can see here, I can say to that thread I was just working on, great job.",
+  "zh": "然后你们可以看到这里,我可以对刚才正在做的那个线程说,干得好。"
+ },
+ {
+  "seg": 298,
+  "start": 1430.94,
+  "end": 1432.601,
+  "speaker": "Unknown",
+  "en": "That worked awesome.",
+  "zh": "那个运行得非常棒。"
+ },
+ {
+  "seg": 299,
+  "start": 1433.222,
+  "end": 1434.383,
+  "speaker": "Unknown",
+  "en": "I love it so much.",
+  "zh": "我太喜欢它了。"
+ },
+ {
+  "seg": 300,
+  "start": 1435.464,
+  "end": 1441.267,
+  "speaker": "Unknown",
+  "en": "And it can, it's already got an active writer, so it knows when it's actually working, which it is right now.",
+  "zh": "而且它可以，它已经有一个活跃的 writer(写入者)了，所以它知道什么时候自己真的在工作，现在就是这样。"
+ },
+ {
+  "seg": 301,
+  "start": 1441.607,
+  "end": 1442.367,
+  "speaker": "Unknown",
+  "en": "It won't let me write.",
+  "zh": "它不让我写入。"
+ },
+ {
+  "seg": 302,
+  "start": 1442.747,
+  "end": 1443.247,
+  "speaker": "Unknown",
+  "en": "Little error.",
+  "zh": "小错误。"
+ },
+ {
+  "seg": 303,
+  "start": 1443.388,
+  "end": 1444.428,
+  "speaker": "Unknown",
+  "en": "Again, this was one shot.",
+  "zh": "再说一次，这是一次生成(one shot)完成的。"
+ },
+ {
+  "seg": 304,
+  "start": 1444.888,
+  "end": 1448.33,
+  "speaker": "Unknown",
+  "en": "But again, this is the kind of thing that I want your mind to go to.",
+  "zh": "但再说一次，这就是我希望你们的思维能去想的那类东西。"
+ },
+ {
+  "seg": 305,
+  "start": 1448.43,
+  "end": 1455.693,
+  "speaker": "Unknown",
+  "en": "Like things that you never thought were possible, interacting on your computer, building software, building custom things, you can do.",
+  "zh": "比如那些你从未想过可能的事情，在你的电脑上交互、构建软件、构建定制的东西，你都可以做到。"
+ },
+ {
+  "seg": 306,
+  "start": 1457.252,
+  "end": 1458.393,
+  "speaker": "Unknown",
+  "en": "One shot right now.",
+  "zh": "现在就一次生成。"
+ },
+ {
+  "seg": 307,
+  "start": 1458.634,
+  "end": 1461.156,
+  "speaker": "Unknown",
+  "en": "It is so, so, so fun.",
+  "zh": "这真的太、太、太有趣了。"
+ },
+ {
+  "seg": 308,
+  "start": 1461.236,
+  "end": 1461.957,
+  "speaker": "Unknown",
+  "en": "So awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 309,
+  "start": 1462.598,
+  "end": 1476.913,
+  "speaker": "Unknown",
+  "en": "This brings me to another thing that you'll probably see a lot of the other reviewers do because a few of us that had kind of early access to the model, this was like spreading like wildfire, is it's really good at generating 3D assets in Blender.",
+  "zh": "这让我想到另一件事，你可能看到很多其他评测者都在做，因为我们几个有点提前拿到这个模型访问权限的人，这事像野火一样传播开来，那就是它非常擅长在 Blender 里生成 3D 资产。"
+ },
+ {
+  "seg": 310,
+  "start": 1476.953,
+  "end": 1478.374,
+  "speaker": "Unknown",
+  "en": "This is something that they call out in",
+  "zh": "这是他们在里面提到的东西，"
+ },
+ {
+  "seg": 311,
+  "start": 1478.935,
+  "end": 1481.237,
+  "speaker": "Unknown",
+  "en": "There's a lot of things that I'm going to talk about in this video.",
+  "zh": "这个视频里我要讲很多东西。"
+ },
+ {
+  "seg": 312,
+  "start": 1502.275,
+  "end": 1514.499,
+  "speaker": "Unknown",
+  "en": "Have this 3D Barbie and you could design her clothes and like pick colors and prints and then you could actually print out clothes on this like printable fabric and then you could like tape it together and put it on your Barbie and then she walked like a 3D runway like this.",
+  "zh": "有这个 3D 芭比，你可以设计她的衣服，比如挑选颜色和图案，然后你可以真的用这种可打印面料打印出衣服，然后你可以用胶带把它们粘起来，穿到你的芭比身上，然后她就像这样走一场 3D T 台秀。"
+ },
+ {
+  "seg": 313,
+  "start": 1514.959,
+  "end": 1520.361,
+  "speaker": "Unknown",
+  "en": "And I know all of you are out there making space games and making race games and making RPGs and making all sorts of stuff.",
+  "zh": "我知道你们所有人都在外面做太空游戏、做赛车游戏、做 RPG、做各种各样的东西。"
+ },
+ {
+  "seg": 314,
+  "start": 1520.801,
+  "end": 1521.601,
+  "speaker": "Unknown",
+  "en": "That is not for me.",
+  "zh": "那不适合我。"
+ },
+ {
+  "seg": 315,
+  "start": 1521.701,
+  "end": 1522.182,
+  "speaker": "Unknown",
+  "en": "I am a girl.",
+  "zh": "我是个女孩。"
+ },
+ {
+  "seg": 316,
+  "start": 1522.642,
+  "end": 1523.162,
+  "speaker": "Unknown",
+  "en": "I want...",
+  "zh": "我想要……"
+ },
+ {
+  "seg": 317,
+  "start": 1523.822,
+  "end": 1524.743,
+  "speaker": "Unknown",
+  "en": "3D Barbie Bench.",
+  "zh": "3D Barbie Bench。"
+ },
+ {
+  "seg": 318,
+  "start": 1545.981,
+  "end": 1548.724,
+  "speaker": "Unknown",
+  "en": "It is certainly better than it was.",
+  "zh": "它当然比之前好了。"
+ },
+ {
+  "seg": 319,
+  "start": 1548.804,
+  "end": 1555.149,
+  "speaker": "Unknown",
+  "en": "So here's our Barbie 3D gal that we made here in Blender.",
+  "zh": "这就是我们在 Blender 里做出来的 3D 芭比姑娘。"
+ },
+ {
+  "seg": 320,
+  "start": 1555.169,
+  "end": 1558.813,
+  "speaker": "Unknown",
+  "en": "You can see a step up from this, which made some progress.",
+  "zh": "你可以看到相比之前这个进步了一步，有了一些进展。"
+ },
+ {
+  "seg": 321,
+  "start": 1559.133,
+  "end": 1563.437,
+  "speaker": "Unknown",
+  "en": "But let me show you exactly the game it generated, which I think is super cool.",
+  "zh": "但让我给你看看它生成的那个游戏到底是什么样的，我觉得超级酷。"
+ },
+ {
+  "seg": 322,
+  "start": 1563.877,
+  "end": 1565.238,
+  "speaker": "Unknown",
+  "en": "Okay, let me show you.",
+  "zh": "好，让我给你们看看。"
+ },
+ {
+  "seg": 323,
+  "start": 1566.263,
+  "end": 1567.004,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "感谢观看。"
+ },
+ {
+  "seg": 324,
+  "start": 1583.262,
+  "end": 1586.565,
+  "speaker": "Unknown",
+  "en": "I'm sort of chaps situation where her hips are showing it's very chic.",
+  "zh": "我有点像 chaps(皮套裤)的那种情况，她的胯部露出来了，非常时髦。"
+ },
+ {
+  "seg": 325,
+  "start": 1587.566,
+  "end": 1592.07,
+  "speaker": "Unknown",
+  "en": "Shoes, you know, leave something to be desired, but you know, who doesn't like an other shoe?",
+  "zh": "鞋子嘛，你知道的，还有待改进，但你知道，谁会不喜欢再来一双鞋呢？"
+ },
+ {
+  "seg": 326,
+  "start": 1592.61,
+  "end": 1602.7,
+  "speaker": "Unknown",
+  "en": "And then accessories, again, look at this queen, look at her glasses, look at earrings on and off, a little bow looking cute, a little lock as a purse.",
+  "zh": "然后是配饰，再说一次，看看这位女王，看看她的眼镜，看看耳环可以戴上摘下，一个小蝴蝶结看起来很可爱，一个小锁当作手提包。"
+ },
+ {
+  "seg": 327,
+  "start": 1603.36,
+  "end": 1604.701,
+  "speaker": "Unknown",
+  "en": "And then you can change her hair.",
+  "zh": "然后你可以换她的头发。"
+ },
+ {
+  "seg": 328,
+  "start": 1604.781,
+  "end": 1611.845,
+  "speaker": "Unknown",
+  "en": "Let's just stunning, stunning, stunning, stunning highlights slash pigtails slash whatever.",
+  "zh": "简直是，惊艳、惊艳、惊艳、惊艳，挑染/双马尾/随便什么。"
+ },
+ {
+  "seg": 329,
+  "start": 1611.865,
+  "end": 1614.026,
+  "speaker": "Unknown",
+  "en": "You can change her skin tone.",
+  "zh": "你可以改她的肤色。"
+ },
+ {
+  "seg": 330,
+  "start": 1614.066,
+  "end": 1614.967,
+  "speaker": "Unknown",
+  "en": "She can be beautiful.",
+  "zh": "她可以很漂亮。"
+ },
+ {
+  "seg": 331,
+  "start": 1615.107,
+  "end": 1615.707,
+  "speaker": "Unknown",
+  "en": "Look at this.",
+  "zh": "看看这个。"
+ },
+ {
+  "seg": 332,
+  "start": 1616.287,
+  "end": 1619.369,
+  "speaker": "Unknown",
+  "en": "And then you can have her walk the runway.",
+  "zh": "然后你可以让她走 T 台。"
+ },
+ {
+  "seg": 333,
+  "start": 1621.29,
+  "end": 1621.891,
+  "speaker": "Unknown",
+  "en": "Beautifully.",
+  "zh": "美美地走。"
+ },
+ {
+  "seg": 334,
+  "start": 1622.191,
+  "end": 1624.733,
+  "speaker": "Unknown",
+  "en": "I mean, nothing better than this.",
+  "zh": "我是说，没有什么比这更好了。"
+ },
+ {
+  "seg": 335,
+  "start": 1624.834,
+  "end": 1625.854,
+  "speaker": "Unknown",
+  "en": "Now, is this perfect?",
+  "zh": "那么，这完美吗？"
+ },
+ {
+  "seg": 336,
+  "start": 1626.055,
+  "end": 1626.315,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不完美。"
+ },
+ {
+  "seg": 337,
+  "start": 1626.455,
+  "end": 1628.697,
+  "speaker": "Unknown",
+  "en": "You're going to see a lot of games that are a lot better than this.",
+  "zh": "你们会看到很多比这好得多的游戏。"
+ },
+ {
+  "seg": 338,
+  "start": 1629.358,
+  "end": 1632.421,
+  "speaker": "Unknown",
+  "en": "I think this like human 3D rendering is a lot harder.",
+  "zh": "我觉得这种人类 3D 渲染要难得多。"
+ },
+ {
+  "seg": 339,
+  "start": 1632.701,
+  "end": 1636.224,
+  "speaker": "Unknown",
+  "en": "This was one shot though, so I cannot complain.",
+  "zh": "不过这是一次生成的，所以我没什么可抱怨的。"
+ },
+ {
+  "seg": 340,
+  "start": 1636.264,
+  "end": 1640.908,
+  "speaker": "Unknown",
+  "en": "I want to show you a different one though that I think is a lot more beautiful and a lot more interesting.",
+  "zh": "不过我想给你看另一个，我觉得它漂亮得多，也有意思得多。"
+ },
+ {
+  "seg": 341,
+  "start": 1641.529,
+  "end": 1646.453,
+  "speaker": "Unknown",
+  "en": "So you all know that I have been working on this family app to",
+  "zh": "所以你们都知道，我一直在做这个家庭应用，为了——"
+ },
+ {
+  "seg": 342,
+  "start": 1647.755,
+  "end": 1667.798,
+  "speaker": "Unknown",
+  "en": "And I asked Astra to turn this app into a 3D journey where my kids could walk to the library, for example, and say, I read 20 minutes, collect my reward, or...",
+  "zh": "我让 Astra 把这个应用变成一个 3D 旅程，我的孩子可以走到图书馆，比如说，说，我读了 20 分钟，领取我的奖励，或者……"
+ },
+ {
+  "seg": 343,
+  "start": 1668.298,
+  "end": 1674.761,
+  "speaker": "Unknown",
+  "en": "Go to Moonwater Pond and see what my weather is, my emotions are today.",
+  "zh": "走到 Moonwater Pond,看看我今天的天气是什么样、我的情绪是什么样。"
+ },
+ {
+  "seg": 344,
+  "start": 1674.782,
+  "end": 1677.583,
+  "speaker": "Unknown",
+  "en": "We're doing a lot of like SEL stuff in my house.",
+  "zh": "我们家最近做了很多类似 SEL 的东西。"
+ },
+ {
+  "seg": 345,
+  "start": 1677.643,
+  "end": 1684.907,
+  "speaker": "Unknown",
+  "en": "So again, like walking through this and look how beautiful all this is, how so super cute.",
+  "zh": "所以再说一次，比如在这里面走一走，看看这一切多么漂亮，多么超级可爱。"
+ },
+ {
+  "seg": 346,
+  "start": 1685.627,
+  "end": 1687.808,
+  "speaker": "Unknown",
+  "en": "You can use keyboard control, which I'm using right now.",
+  "zh": "你可以用键盘控制，我现在就在用。"
+ },
+ {
+  "seg": 347,
+  "start": 1687.848,
+  "end": 1691.11,
+  "speaker": "Unknown",
+  "en": "I'm sure Astra would be really good at controlling this as well.",
+  "zh": "我确信 Astra 控制这个也会非常在行。"
+ },
+ {
+  "seg": 348,
+  "start": 1691.61,
+  "end": 1694.132,
+  "speaker": "Unknown",
+  "en": "I mean, truly one shot.",
+  "zh": "我是说，真的是一次生成。"
+ },
+ {
+  "seg": 349,
+  "start": 1694.872,
+  "end": 1696.813,
+  "speaker": "Unknown",
+  "en": "I did not code any of this.",
+  "zh": "这些我都没有写代码。"
+ },
+ {
+  "seg": 350,
+  "start": 1696.913,
+  "end": 1702.756,
+  "speaker": "Unknown",
+  "en": "I just actually said, can you make this a 3D journey where you can walk through different places?",
+  "zh": "我就是直接说了一句，你能把这个变成一个 3D 之旅，让你可以走过不同的地方吗？"
+ },
+ {
+  "seg": 351,
+  "start": 1703.457,
+  "end": 1704.978,
+  "speaker": "Unknown",
+  "en": "And it did this out of the box.",
+  "zh": "然后它开箱即用地做到了。"
+ },
+ {
+  "seg": 352,
+  "start": 1705.018,
+  "end": 1708.66,
+  "speaker": "Unknown",
+  "en": "And it's so stinking cute.",
+  "zh": "而且它可爱得要命。"
+ },
+ {
+  "seg": 353,
+  "start": 1708.8,
+  "end": 1709.5,
+  "speaker": "Unknown",
+  "en": "It's so cute.",
+  "zh": "太可爱了。"
+ },
+ {
+  "seg": 354,
+  "start": 1709.56,
+  "end": 1712.682,
+  "speaker": "Unknown",
+  "en": "I would never be able to do something like this.",
+  "zh": "我永远不可能做出这样的东西。"
+ },
+ {
+  "seg": 355,
+  "start": 1712.782,
+  "end": 1713.602,
+  "speaker": "Unknown",
+  "en": "Never, never, never.",
+  "zh": "永远、永远、永远不可能。"
+ },
+ {
+  "seg": 356,
+  "start": 1714.283,
+  "end": 1715.944,
+  "speaker": "Unknown",
+  "en": "And Astra made it.",
+  "zh": "而 Astra 把它做了出来。"
+ },
+ {
+  "seg": 357,
+  "start": 1716.584,
+  "end": 1718.486,
+  "speaker": "Unknown",
+  "en": "Totally possible.",
+  "zh": "完全成为可能。"
+ },
+ {
+  "seg": 358,
+  "start": 1718.646,
+  "end": 1719.567,
+  "speaker": "Unknown",
+  "en": "I love it so much.",
+  "zh": "我太喜欢它了。"
+ },
+ {
+  "seg": 359,
+  "start": 1719.687,
+  "end": 1729.136,
+  "speaker": "Unknown",
+  "en": "It makes me so excited about what the future of building products is, what the future of building things for my kids are, personal software, all those things.",
+  "zh": "它让我对未来构建产品会是什么样子、未来为我的孩子构建东西会是什么样子、个人软件，所有这些事情都感到无比兴奋。"
+ },
+ {
+  "seg": 360,
+  "start": 1729.256,
+  "end": 1731.638,
+  "speaker": "Unknown",
+  "en": "I am just psyched about Astra.",
+  "zh": "我就是对 Astra 感到超兴奋。"
+ },
+ {
+  "seg": 361,
+  "start": 1731.998,
+  "end": 1736.643,
+  "speaker": "Unknown",
+  "en": "Okay, and to wrap it up, during one of the breaks, our designer said, I have to go to a meeting.",
+  "zh": "好了，收尾说一下，在某次休息期间，我们的设计师说，我必须去开个会。"
+ },
+ {
+  "seg": 362,
+  "start": 1736.663,
+  "end": 1738.505,
+  "speaker": "Unknown",
+  "en": "I'm not sure if I'm going to be able to do thumbs in time.",
+  "zh": "我不确定我能不能来得及做缩略图。"
+ },
+ {
+  "seg": 363,
+  "start": 1738.565,
+  "end": 1747.074,
+  "speaker": "Unknown",
+  "en": "So I did ask Astra to take over my computer and actually use Figma to make thumbnails for this week's episode.",
+  "zh": "所以我确实让 Astra 接管了我的电脑，实际使用 Figma 为本周这期节目制作缩略图。"
+ },
+ {
+  "seg": 364,
+  "start": 1747.574,
+  "end": 1749.697,
+  "speaker": "Unknown",
+  "en": "Let's see what it did.",
+  "zh": "我们来看看它做了什么。"
+ },
+ {
+  "seg": 365,
+  "start": 1750.097,
+  "end": 1752.259,
+  "speaker": "Unknown",
+  "en": "Look at that YouTube classic.",
+  "zh": "看看那个 YouTube 经典款。"
+ },
+ {
+  "seg": 366,
+  "start": 1752.92,
+  "end": 1754.541,
+  "speaker": "Unknown",
+  "en": "This face, maybe this one will go live.",
+  "zh": "这张脸，也许最后上线的会是这张。"
+ },
+ {
+  "seg": 367,
+  "start": 1754.921,
+  "end": 1758.984,
+  "speaker": "Unknown",
+  "en": "Again, this has been something that computer use has been quite terrible at.",
+  "zh": "再说一次，这一直是计算机使用表现相当糟糕的领域。"
+ },
+ {
+  "seg": 368,
+  "start": 1759.024,
+  "end": 1763.206,
+  "speaker": "Unknown",
+  "en": "To date, I have not gotten it to use Figma very well, but look at that.",
+  "zh": "到今天为止，我都没能让它把 Figma 用得很好，但看看那个。"
+ },
+ {
+  "seg": 369,
+  "start": 1763.807,
+  "end": 1764.207,
+  "speaker": "Unknown",
+  "en": "It did it.",
+  "zh": "它做到了。"
+ },
+ {
+  "seg": 370,
+  "start": 1764.547,
+  "end": 1765.608,
+  "speaker": "Unknown",
+  "en": "Pretty incredible.",
+  "zh": "相当不可思议。"
+ },
+ {
+  "seg": 371,
+  "start": 1765.768,
+  "end": 1770.951,
+  "speaker": "Unknown",
+  "en": "All right, so to take a step back, Astra, GPT-6 is a banger.",
+  "zh": "好了，退一步总结一下，Astra,GPT-6 是个炸裂之作。"
+ },
+ {
+  "seg": 372,
+  "start": 1771.071,
+  "end": 1771.912,
+  "speaker": "Unknown",
+  "en": "What is it good at?",
+  "zh": "它擅长什么？"
+ },
+ {
+  "seg": 373,
+  "start": 1772.192,
+  "end": 1773.833,
+  "speaker": "Unknown",
+  "en": "One, it's good at computer and browser use.",
+  "zh": "第一，它擅长计算机和浏览器使用。"
+ },
+ {
+  "seg": 374,
+  "start": 1774.173,
+  "end": 1775.394,
+  "speaker": "Unknown",
+  "en": "What should you use that for?",
+  "zh": "你应该用它来做什么？"
+ },
+ {
+  "seg": 375,
+  "start": 1775.894,
+  "end": 1781.438,
+  "speaker": "Unknown",
+  "en": "Navigating complex UI, lots of buttons, lots of nodes, lots of little fields, things that you don't want to fill out.",
+  "zh": "导航复杂的 UI,很多按钮、很多节点、很多小输入框，那些你不想亲手填的东西。"
+ },
+ {
+  "seg": 376,
+  "start": 1781.978,
+  "end": 1783.639,
+  "speaker": "Unknown",
+  "en": "Really, really exceptional at that.",
+  "zh": "在这方面真的、真的极其出色。"
+ },
+ {
+  "seg": 377,
+  "start": 1783.959,
+  "end": 1786.641,
+  "speaker": "Unknown",
+  "en": "I used it in my CRM to build new pipeline workflows.",
+  "zh": "我在我的 CRM 里用它构建了新的管线工作流。"
+ },
+ {
+  "seg": 378,
+  "start": 1786.701,
+  "end": 1788.942,
+  "speaker": "Unknown",
+  "en": "I used it in Flora to generate thumbnail images.",
+  "zh": "我在 Flora 里用它生成了缩略图图片。"
+ },
+ {
+  "seg": 379,
+  "start": 1789.382,
+  "end": 1795.826,
+  "speaker": "Unknown",
+  "en": "And then you saw I used it in Figma to actually put those thumbnail images together so that we had thumbnails for this podcast.",
+  "zh": "然后你们看到我在 Figma 里用它实际把那些缩略图图片拼到一起，这样我们这档播客就有缩略图了。"
+ },
+ {
+  "seg": 380,
+  "start": 1795.846,
+  "end": 1798.247,
+  "speaker": "Unknown",
+  "en": "We'll probably polish them, but truly not bad.",
+  "zh": "我们大概会再打磨一下，但真的不赖。"
+ },
+ {
+  "seg": 381,
+  "start": 1798.887,
+  "end": 1802.409,
+  "speaker": "Unknown",
+  "en": "On the coding side, it's going to help you get a lot more ambitious.",
+  "zh": "在编程方面，它会帮助你变得雄心勃勃得多。"
+ },
+ {
+  "seg": 382,
+  "start": 1802.669,
+  "end": 1807.671,
+  "speaker": "Unknown",
+  "en": "So it one-shot a couple things that in the past these models just could not do.",
+  "zh": "所以它一次性搞定了几件过去这些模型根本做不到的事。"
+ },
+ {
+  "seg": 383,
+  "start": 1807.951,
+  "end": 1819.176,
+  "speaker": "Unknown",
+  "en": "One was parsing through a lot of unstructured data, deduplicating and deriving insights out of that, and then generating a great UI for us in ChatPRD to share those insights with our customers about their own product.",
+  "zh": "其中一件是解析大量非结构化数据，去重并从中提炼洞察，然后在 ChatPRD 里为我们生成了一个很棒的 UI,把这些关于客户自己产品的洞察分享给他们。"
+ },
+ {
+  "seg": 384,
+  "start": 1819.516,
+  "end": 1824.819,
+  "speaker": "Unknown",
+  "en": "The second one was this guy hacking hardware.",
+  "zh": "第二个是这家伙黑硬件。"
+ },
+ {
+  "seg": 385,
+  "start": 1824.919,
+  "end": 1826.739,
+  "speaker": "Unknown",
+  "en": "Please hack your hardware.",
+  "zh": "请去黑你的硬件。"
+ },
+ {
+  "seg": 386,
+  "start": 1826.839,
+  "end": 1827.42,
+  "speaker": "Unknown",
+  "en": "Hack this.",
+  "zh": "黑这个。"
+ },
+ {
+  "seg": 387,
+  "start": 1828.68,
+  "end": 1830.282,
+  "speaker": "Unknown",
+  "en": "Hack your Bluetooth light bulbs.",
+  "zh": "黑你的蓝牙灯泡。"
+ },
+ {
+  "seg": 388,
+  "start": 1830.402,
+  "end": 1831.723,
+  "speaker": "Unknown",
+  "en": "Hack, hack, hack this guy.",
+  "zh": "黑、黑、黑这家伙。"
+ },
+ {
+  "seg": 389,
+  "start": 1832.663,
+  "end": 1838.628,
+  "speaker": "Unknown",
+  "en": "Just being able to interact with hardware and the real world is such a fun thing.",
+  "zh": "能够与硬件和真实世界交互真的是一件很有趣的事。"
+ },
+ {
+  "seg": 390,
+  "start": 1839.228,
+  "end": 1844.052,
+  "speaker": "Unknown",
+  "en": "And it's been a step change in this model in my experience, and I've been working on this for a long time.",
+  "zh": "在我的经验里，这在这个模型上是一个台阶式的变化，而我做这件事已经很久了。"
+ },
+ {
+  "seg": 391,
+  "start": 1844.732,
+  "end": 1847.554,
+  "speaker": "Unknown",
+  "en": "Upleveling your ambition on what kinds of things you can code.",
+  "zh": "提升你对自己能编写什么东西的雄心。"
+ },
+ {
+  "seg": 392,
+  "start": 1847.614,
+  "end": 1849.536,
+  "speaker": "Unknown",
+  "en": "So like website vibe coding is over.",
+  "zh": "所以比如说，网站 vibe coding 已经过时了。"
+ },
+ {
+  "seg": 393,
+  "start": 1849.596,
+  "end": 1850.636,
+  "speaker": "Unknown",
+  "en": "We can all do that.",
+  "zh": "那个我们都能做到。"
+ },
+ {
+  "seg": 394,
+  "start": 1851.057,
+  "end": 1852.518,
+  "speaker": "Unknown",
+  "en": "Let's do 3D games.",
+  "zh": "我们来做 3D 游戏吧。"
+ },
+ {
+  "seg": 395,
+  "start": 1852.578,
+  "end": 1853.739,
+  "speaker": "Unknown",
+  "en": "Let's do Barbie Bench.",
+  "zh": "我们来做 Barbie Bench 吧。"
+ },
+ {
+  "seg": 396,
+  "start": 1854.119,
+  "end": 1855.82,
+  "speaker": "Unknown",
+  "en": "I'm going to do this 3D game for my kid.",
+  "zh": "我要为我的孩子做这个 3D 游戏。"
+ },
+ {
+  "seg": 397,
+  "start": 1856.14,
+  "end": 1866.227,
+  "speaker": "Unknown",
+  "en": "Or let's do desktop apps like this AIMS style messenger that wraps Codex and does something pretty incredible and lets me interact with my Codex threads in this really fun UI.",
+  "zh": "或者我们来做桌面应用，比如这个 AIMS 风格的即时通讯软件，它包裹了 Codex,做出了相当不可思议的东西，让我能在这个非常有趣的 UI 里与我的 Codex 线程交互。"
+ },
+ {
+  "seg": 398,
+  "start": 1866.327,
+  "end": 1869.689,
+  "speaker": "Unknown",
+  "en": "Again, something I would have never been able to build in GPT 6.",
+  "zh": "再说一次，这是我用 GPT 6 永远不可能构建出来的东西。"
+ },
+ {
+  "seg": 399,
+  "start": 1870.81,
+  "end": 1872.011,
+  "speaker": "Unknown",
+  "en": "One shot it.",
+  "zh": "一次性搞定。"
+ },
+ {
+  "seg": 400,
+  "start": 1872.492,
+  "end": 1873.532,
+  "speaker": "Unknown",
+  "en": "I really do love this model.",
+  "zh": "我真的很喜欢这个模型。"
+ },
+ {
+  "seg": 401,
+  "start": 1873.653,
+  "end": 1874.874,
+  "speaker": "Unknown",
+  "en": "I will just say like meta things.",
+  "zh": "我就先说点 meta 层面的事情吧。"
+ },
+ {
+  "seg": 402,
+  "start": 1875.374,
+  "end": 1876.395,
+  "speaker": "Unknown",
+  "en": "It's not annoying.",
+  "zh": "它不烦人。"
+ },
+ {
+  "seg": 403,
+  "start": 1877.235,
+  "end": 1880.058,
+  "speaker": "Unknown",
+  "en": "It's kind of slow, but like not too slow.",
+  "zh": "它有点慢，但也不算太慢。"
+ },
+ {
+  "seg": 404,
+  "start": 1882.224,
+  "end": 1882.824,
+  "speaker": "Unknown",
+  "en": "I'm happy with it.",
+  "zh": "我对它很满意。"
+ },
+ {
+  "seg": 405,
+  "start": 1883.165,
+  "end": 1883.985,
+  "speaker": "Unknown",
+  "en": "It gets the stuff done.",
+  "zh": "它能把事情搞定。"
+ },
+ {
+  "seg": 406,
+  "start": 1884.205,
+  "end": 1885.506,
+  "speaker": "Unknown",
+  "en": "This is going to be my daily driver.",
+  "zh": "这将是我的日常主力工具。"
+ },
+ {
+  "seg": 407,
+  "start": 1885.786,
+  "end": 1886.227,
+  "speaker": "Unknown",
+  "en": "I love her.",
+  "zh": "我爱她。"
+ },
+ {
+  "seg": 408,
+  "start": 1886.367,
+  "end": 1889.168,
+  "speaker": "Unknown",
+  "en": "So that has been my review of GPT-5.6.",
+  "zh": "这就是我对 GPT-5.6 的评测。"
+ },
+ {
+  "seg": 409,
+  "start": 1889.469,
+  "end": 1894.412,
+  "speaker": "Unknown",
+  "en": "We will do a follow-up episode comparing 5.6 to Fable 5.1 and a couple other of the new models.",
+  "zh": "我们会做一期后续节目，把 5.6 和 Fable 5.1 以及另外几个新模型进行比较。"
+ },
+ {
+  "seg": 410,
+  "start": 1894.752,
+  "end": 1896.173,
+  "speaker": "Unknown",
+  "en": "We'll do the Hawaii AI Bench.",
+  "zh": "我们会做 Hawaii AI Bench。"
+ },
+ {
+  "seg": 411,
+  "start": 1896.453,
+  "end": 1899.235,
+  "speaker": "Unknown",
+  "en": "We'll do the blind Clare taste test.",
+  "zh": "我们会做 Clare 盲测品味测试。"
+ },
+ {
+  "seg": 412,
+  "start": 1899.635,
+  "end": 1905.459,
+  "speaker": "Unknown",
+  "en": "But for now, as soon as you get access to GPT-6, you should be using it and please show me what you build.",
+  "zh": "但就现在而言，只要你一获得 GPT-6 的访问权限，你就应该使用它，并且请给我看看你用它构建了什么。"
+ },
+ {
+  "seg": 413,
+  "start": 1905.859,
+  "end": 1910.082,
+  "speaker": "Unknown",
+  "en": "Thanks for joining Hawaii AI and I cannot wait to see what you do with this new model.",
+  "zh": "感谢加入 Hawaii AI,我迫不及待想看到你用这个新模型做出来的东西。"
+ },
+ {
+  "seg": 414,
+  "start": 1911.87,
+  "end": 1912.91,
+  "speaker": "Unknown",
+  "en": "Thanks so much for watching.",
+  "zh": "非常感谢观看。"
+ },
+ {
+  "seg": 415,
+  "start": 1913.211,
+  "end": 1918.793,
+  "speaker": "Unknown",
+  "en": "If you enjoyed this show, please like and subscribe here on YouTube, or even better, leave us a comment with your thoughts.",
+  "zh": "如果你喜欢这档节目，请在 YouTube 上点赞并订阅，或者更好的是，留下评论分享你的想法。"
+ },
+ {
+  "seg": 416,
+  "start": 1919.474,
+  "end": 1925.016,
+  "speaker": "Unknown",
+  "en": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+  "zh": "你也可以在 Apple Podcasts、Spotify 或你最喜欢的播客应用上找到这个播客。"
+ },
+ {
+  "seg": 417,
+  "start": 1925.596,
+  "end": 1929.778,
+  "speaker": "Unknown",
+  "en": "Please consider leaving us a rating and review, which will help others find the show.",
+  "zh": "请考虑给我们评分和写评论，这能帮助其他人发现这档节目。"
+ },
+ {
+  "seg": 418,
+  "start": 1930.399,
+  "end": 1936.141,
+  "speaker": "Unknown",
+  "en": "You can see all our episodes and learn more about the show at howiaipod.com.",
+  "zh": "你可以在 howiaipod.com 查看我们的所有节目并了解更多关于本节目的信息。"
+ },
+ {
+  "seg": 419,
+  "start": 1936.742,
+  "end": 1937.282,
+  "speaker": "Unknown",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

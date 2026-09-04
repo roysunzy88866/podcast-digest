@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>34</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>35</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -43,6 +43,7 @@ unlisted: true
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(05:54起):本集顺带提及，说 Daniel 认为像 Codex 这样的工具理论上也能用来构建类似的自改进系统，关键不在工具本身
 - **[[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]]**(36:44起):本集说可以用 Codex 让它上网找五个代数几何里的最新猜想然后去证明，以此玩'老虎机'在一小时内产出三篇正确但质量很差的论文
 - **[[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]]**(17:54起):本集说她的「职业教练 2.0」现在是 Codex 里的一个项目：维护看板、排序优先级、过滤收件箱，还替她找到能约上的初级保健医生
+- **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(05:48起):本集中 Claire 让 Codex 接管 Chrome 更新 CRM 工作流、构建 AIM 风格 Mac 应用,还把它接入 Divoom 屏幕和 Codex hooks,作为她与模型协作的主要入口。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
 ## ① 提到它的金句
@@ -67,7 +68,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*34 集*
+*35 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -102,6 +103,7 @@ unlisted: true
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]] — 作为概念
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]] — 作为被讨论公司
+- [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联
@@ -110,7 +112,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[Claude]] · [[ChatGPT]] · [[Cursor]] · [[OpenAI]] · [[Lenny]] · [[Anthropic]] · [[沙箱]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":43,"Claude":45,"ChatGPT":46,"Cursor":41,"OpenAI":79,"Lenny":66,"Anthropic":92,"沙箱":35,"护栏":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":43,"Claude":45,"ChatGPT":46,"Cursor":42,"OpenAI":80,"Lenny":66,"Anthropic":92,"沙箱":35,"护栏":1}</script>
 
 <script>
 (function(){

@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>transformer</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="transformer">TR</div><div class="pi"><h1 class="pt">transformer</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="transformer">TR</div><div class="pi"><h1 class="pt">transformer</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:55起):本集说它的天花板（见顶）在于无法持续学习：在实验室用静态数据训练，一旦部署到动态现实世界很快就会贬值；同时其计算深度极差，采用一次生成一个 token 的方式极其低效。
 - **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]]**(11:16起):本集顺带提到 Transformer 是现代 AI 的两个主力架构之一（另一个是扩散模型），但未展开讨论
+- **[[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]]**(12:59起):本集提到:只要 Transformer 仍是计算密集、存储密集的架构,供应链受限环境就会持续三到五年。
 
 ## ① 提到它的金句
 
@@ -24,19 +25,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为概念
 - [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]] — 作为概念(提及)
+- [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[强化学习]] · [[持续学习]] · [[Anthropic]] · [[Barney Hussey-Yeo]] · [[Sonja]] · [[Zubin Gharemani]] · [[John Collison]] · [[Rohan Anil]] · [[Google DeepMind]] · [[Clio]]
+[[强化学习]] · [[持续学习]] · [[Anthropic]] · [[Barney Hussey-Yeo]] · [[Sonja]] · [[Zubin Gharemani]] · [[Elad]] · [[John Collison]] · [[Rohan Anil]] · [[Google DeepMind]]
 
-<script type="application/json" class="pd-epn">{"强化学习":14,"持续学习":5,"Anthropic":92,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1,"John Collison":1,"Rohan Anil":1,"Google DeepMind":4,"Clio":1}</script>
+<script type="application/json" class="pd-epn">{"强化学习":14,"持续学习":5,"Anthropic":92,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1,"Elad":1,"John Collison":1,"Rohan Anil":1,"Google DeepMind":4}</script>
 
 <script>
 (function(){

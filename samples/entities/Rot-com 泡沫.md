@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[NVIDIA]] · [[CoreWeave]] · [[Amazon]] · [[Google]] · [[Microsoft]] · [[生成式 AI]] · [[GPU]] · [[token]]
+[[OpenAI]] · [[Anthropic]] · [[NVIDIA]] · [[CoreWeave]] · [[Amazon]] · [[Google]] · [[Microsoft]] · [[SoftBank]] · [[生成式 AI]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":79,"Anthropic":92,"NVIDIA":25,"CoreWeave":2,"Amazon":9,"Google":35,"Microsoft":21,"生成式 AI":4,"GPU":10,"token":11}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":80,"Anthropic":92,"NVIDIA":26,"CoreWeave":2,"Amazon":9,"Google":35,"Microsoft":21,"SoftBank":4,"生成式 AI":4,"GPU":10}</script>
 
 <script>
 (function(){

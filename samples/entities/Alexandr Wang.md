@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]]
+[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":2,"Meta":25,"MuseSpark":1,"开源模型":4,"智能体":1,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":16,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":2,"Meta":26,"MuseSpark":1,"开源模型":4,"智能体":1,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":16,"Spark API":1}</script>
 
 <script>
 (function(){

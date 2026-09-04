@@ -124,7 +124,7 @@ Philip 说，他们正在造一种低成本、轻量化的可展开式散热器�
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:NVIDIA、SpaceX</span>
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同公司:NVIDIA、SpaceX</span>
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]]<span class="pd-rz">同公司:NVIDIA</span>
+- [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|Arm CEO 谈芯片、AI 与下一个十年的算力格局]]<span class="pd-rz">同公司:NVIDIA · 同概念:数据中心 (data center)</span>
 
 </div>
 <div class="pd-ex">

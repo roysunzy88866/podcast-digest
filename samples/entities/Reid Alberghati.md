@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]]
+[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":79,"NVIDIA":25,"Microsoft":21,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":2,"Meta":25,"Apple":14,"智能体":1,"算力":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":80,"NVIDIA":26,"Microsoft":21,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":2,"Meta":26,"Apple":14,"智能体":1,"算力":3}</script>
 
 <script>
 (function(){

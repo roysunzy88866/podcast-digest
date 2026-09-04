@@ -25,9 +25,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[NVIDIA]] · [[Microsoft]] · [[智能体]] · [[Anthropic]] · [[Amazon]] · [[Google]] · [[Reid Alberghati]] · [[生成式 AI]] · [[Safe Superintelligence]]
+[[OpenAI]] · [[NVIDIA]] · [[Microsoft]] · [[智能体]] · [[Anthropic]] · [[Amazon]] · [[Google]] · [[Reid Alberghati]] · [[SoftBank]] · [[Safe Superintelligence]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":79,"NVIDIA":25,"Microsoft":21,"智能体":1,"Anthropic":92,"Amazon":9,"Google":35,"Reid Alberghati":1,"生成式 AI":4,"Safe Superintelligence":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":80,"NVIDIA":26,"Microsoft":21,"智能体":1,"Anthropic":92,"Amazon":9,"Google":35,"Reid Alberghati":1,"SoftBank":4,"Safe Superintelligence":1}</script>
 
 <script>
 (function(){

@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Anthropic]] · [[Cursor]] · [[Cognition]] · [[Stripe]] · [[Replit]] · [[Microsoft]] · [[Harry Stebbings]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":79,"Lenny":66,"Anthropic":92,"Cursor":41,"Cognition":14,"Stripe":25,"Replit":13,"Microsoft":21,"Harry Stebbings":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":80,"Lenny":66,"Anthropic":92,"Cursor":42,"Cognition":14,"Stripe":26,"Replit":13,"Microsoft":21,"Harry Stebbings":8}</script>
 
 <script>
 (function(){

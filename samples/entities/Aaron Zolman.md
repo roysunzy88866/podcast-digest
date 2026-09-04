@@ -27,7 +27,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Joel de la Garza]] · [[OpenClaw]] · [[智能体]] · [[红队]] · [[容器化]] · [[物理隔离]] · [[威胁模型]] · [[护栏]] · [[harness]] · [[身份]]
+[[Joel de la Garza]] · [[OpenClaw]] · [[智能体]] · [[红队]] · [[容器化]] · [[物理隔离]] · [[威胁模型]] · [[护栏]] · [[harness]] · [[供应链攻击]]
 
 ## ④ 也在聊「AI 安全」的人
 
@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"OpenClaw":13,"智能体":1,"红队":2,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":1,"harness":17,"身份":2}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"OpenClaw":14,"智能体":1,"红队":2,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":1,"harness":17,"供应链攻击":2}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Work</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Work">WO</div><div class="pi"><h1 class="pt">Work</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>88</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Work">WO</div><div class="pi"><h1 class="pt">Work</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>90</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*88 条*
+*90 条*
 
 ![[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc#^q7]]
 
@@ -193,6 +193,10 @@ unlisted: true
 
 ![[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software#^q8]]
 
+![[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced#^q4]]
+
+![[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#^q7]]
+
 ## ② 出现在这些集
 
 *1 集*
@@ -205,7 +209,7 @@ unlisted: true
 
 [[Tara Seshan]] · [[Lenny]] · [[OpenAI]] · [[Codex]] · [[ChatGPT]] · [[智能体]] · [[知识工作]] · [[Sites]] · [[Stripe]] · [[写作即思考]]
 
-<script type="application/json" class="pd-epn">{"Tara Seshan":1,"Lenny":66,"OpenAI":79,"Codex":34,"ChatGPT":46,"智能体":1,"知识工作":2,"Sites":1,"Stripe":25,"写作即思考":1}</script>
+<script type="application/json" class="pd-epn">{"Tara Seshan":1,"Lenny":66,"OpenAI":80,"Codex":35,"ChatGPT":46,"智能体":1,"知识工作":2,"Sites":1,"Stripe":26,"写作即思考":1}</script>
 
 <script>
 (function(){

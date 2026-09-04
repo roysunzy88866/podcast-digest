@@ -35,17 +35,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Figure]] · [[SoFi]] · [[Brex]] · [[Kiavi]] · [[高管心态]] · [[市场]] · [[区块链]] · [[分词]] · [[Meta]] · [[AI]]
+[[Figure]] · [[SoFi]] · [[Brex]] · [[Kiavi]] · [[高管心态]] · [[市场]] · [[区块链]] · [[分词]] · [[SoftBank]] · [[Meta]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]] [[Max Junestrand]] [[Turner]]
+[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"分词":3,"Meta":25,"AI":13}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":3,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"分词":3,"SoftBank":4,"Meta":26}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ajaya Khatra]] · [[OpenAI]] · [[Hugging Face]] · [[Meter]] · [[Redwood Research]] · [[Modal]] · [[智能体]] · [[沙箱]] · [[RL]] · [[Exploit Gym]]
 
-<script type="application/json" class="pd-epn">{"Ajaya Khatra":1,"OpenAI":79,"Hugging Face":16,"Meter":2,"Redwood Research":3,"Modal":4,"智能体":1,"沙箱":35,"RL":5,"Exploit Gym":1}</script>
+<script type="application/json" class="pd-epn">{"Ajaya Khatra":1,"OpenAI":80,"Hugging Face":16,"Meter":2,"Redwood Research":3,"Modal":4,"智能体":1,"沙箱":35,"RL":5,"Exploit Gym":1}</script>
 
 <script>
 (function(){
