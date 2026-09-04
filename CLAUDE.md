@@ -24,7 +24,7 @@
 共识漂移 / 灰色地带 / 写临时方案前 → 先停问用户,或先登记 `docs/tech-debt.md` / `docs/drift-log.md`。
 
 ## 💻 代码硬规矩(本项目最易塌的几条)
-- **写稿只用付费档 GLM;判官原用免费档,2026-08-22 起品味判官也升 glm-4.6(免费档夜间过载整班停摆,standard-change)**——GLM-4.7-Flash 实测编造原话(需求共创/试跑记录-第2轮)。**现口径(ADR 0013 + 2026-08-15 修订 · standard-change):翻译=GLM-4.6、浓缩=GLM-5.3**(5.2 抽风返回空/坏 JSON 于 2026-08-15 切 5.3;双语对齐下保真不依赖翻译模型;GLM-4-Flash 太弱淘汰)。**浓缩输出=分隔符分段纯文本(非 JSON),condense.mjs parseSections 解析后程序化 JSON.stringify 写 digest.json**——大段 markdown 塞 JSON 会吐结构性坏稿,根治见 ADR 0013 修订 B
+- **GLM 档位口径已作废(用户 2026-09-04 明示「我的 GLM 是免费用的」,drift #86)**:全链本就不额外计费,「付费档/免费档」之分不再是选模型的理由;选模型只看**能不能稳定吐出格式正确的输出**。历史沿革:判官原用 glm-4.7-flash,2026-08-22 因夜间过载整班停摆改 glm-4.6(standard-change)——GLM-4.7-Flash 实测编造原话(需求共创/试跑记录-第2轮)。**现口径(ADR 0013 + 2026-08-15 修订 · standard-change):翻译=GLM-4.6、浓缩=GLM-5.3**(5.2 抽风返回空/坏 JSON 于 2026-08-15 切 5.3;双语对齐下保真不依赖翻译模型;GLM-4-Flash 太弱淘汰)。**浓缩输出=分隔符分段纯文本(非 JSON),condense.mjs parseSections 解析后程序化 JSON.stringify 写 digest.json**——大段 markdown 塞 JSON 会吐结构性坏稿,根治见 ADR 0013 修订 B
 - **防失真机器闸门不许砍,但硬校验口径已收窄(ADR 0013/drift #26 · standard-change)**:金句**硬拦只剩①「引语逐字命中转写稿」**;②时间戳区间、③说话人匹配**已降为软提醒**(不拦发布,支持无时间戳源)。事实层专名回原文含拼接容错(D46)。要再动闸门口径走 standard-change
 - 用云端 ASR 转写前必 VAD 切静音(Whisper 系在静音处无中生有,污染防失真地基)
 - **API key 用户自持**:不进仓库不进代码,走 `.env`(已 gitignore)/ wrangler secrets;不接触凭证明文
