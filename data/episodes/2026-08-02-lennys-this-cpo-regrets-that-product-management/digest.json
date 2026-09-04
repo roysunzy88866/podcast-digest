@@ -1,1 +1,153 @@
-{"title_zh":"让最资深的人回去写文档:Whatnot CPO 的 PM 新法则","tldr":"Whatnot CPO Tom Verrilli 主张把最资深的人推回一线做具体事,用更少但更资深的人取代层层管理。","digest_md":"过去两年,有 31,832 人申请成为 Whatnot 的产品经理——他们只招了 1 个。说这话的人是 Tom Verrilli,Whatnot 的首席产品官,他管产品的方式几乎跟整个科技行业相反:不要在每个团队塞一个 PM,把最资深的人推回一线亲自干具体的活儿,而且管理者得深入最底层的代码和数据去核对基本事实,而不是开会对齐。\n\n在这一集播客里,他跟主持人 Lenny 聊了他是怎么把产品团队从臃肿的对齐会议里拽回真正动手干活的。你会听到几块内容:为什么他不认同科技公司「每招六个工程师就配一个产品经理」的默认比例;为什么 AI 让他敢把最资深的人推回去当独立贡献者(指自己写文档、拉数据、定方案、亲自交付,而不是只管人);他用什么办法在创始人极其强势、极其懂产品的情况下找准自己的位置;还有一个他叫作「拉手风琴」的思维模型,怎么帮团队在盲目动手和纸上谈兵两个极端之间来回拉扯。最后他还回答了一个扎心的问题:面对市场的剧变,找工作的产品经理现在到底该怎么办。\n\n说完了开场这个反直觉的数字,接下来先看他为什么觉得行业里默认的产品经理比例是错的。\n\n## 产品经理是怎么变得这么多的\n\nTom 先追溯了历史。在互联网行业早期,根本没有产品经理这个角色,通常是创始人或 CEO 直接找工程师和设计师讨论要做什么,大家一起去执行 [03:31]。但互联网公司的扩张速度史无前例,创始人的精力顾不过来,自然就需要把执行的具体细节交给专人。慢慢地,科技圈形成了一种不成文的编制比率:每招 6 个工程师,就配 1 个设计师、1 个产品经理、1 个工程经理(管工程师的人) [00:08]。到了服务上亿日活的产品,工程师数以千计,产品经理跟着膨胀。\n\n但他觉得这套逻辑在很多时候根本站不住脚。通知基础设施需要配产品经理吗?工程师完全有能力自己搞懂 [07:04]。强行塞了这么多产品经理,反而让本来完全能做决策的工程师和设计师「幼稚化」——因为总有人在替他们想、替他们拍板,他们的决策肌肉就萎缩了 [07:21]。他反复强调,产品管理本质是一门靠实战练出来的手艺、一块肌肉;你越是让工程师和设计师不去做产品经理做的事,他们这块肌肉就越发育不良 [05:03]。\n\n那什么情况下真的需要产品经理?Tom 的结论是:把它当作一门需要特定手艺的专职岗位,只在真正有特定需求的地方用,不要预设每个团队都非得有一个 [09:52]。在 Whatnot,他们干脆把产品经理「映射到具体问题或核心项目」上,而不是固定绑定到某个工程团队。这意味着可能有一整年,某个工程团队手头有大量产品工作要做,却根本没有产品经理跟着 [10:46]。目前 Whatnot 整个公司只有 20 个出头的 PM,对于他们处理的交易体量(GMV)来说,这个比例小得惊人 [15:28]。\n\n## 不要再找擅长「推动对齐」的人\n\n顺着到底什么时候需要招人,他详细拆解了现在招产品经理最看重的和最反感的东西。\n\n那到底招人看什么呢?Tom 说,绝对在下降的一类人,是面试时把大部分时间花在讲「推动对齐(推动不同部门达成共识)」「利益相关者管理」上的人。他直言不讳地说,行业里有一批产品经理,专长不是技术或客户,而是办公室政治 [01:06]。他找的是能在案例研究中同时展现宏观思考和微观执行的人:既能在脑子里搭出大系统的运作模型,又能拿出具体、清晰、快速验证的落地方案。他特别反感那种在 FANG、Uber 这种大公司待过,只是维护、微调现有产品的人;他想要那种能面对模糊问题,从零做出独特东西,一路做决策并推进的人 [19:07]。\n\n他还特别提到培养「系统思维」的训练法。他会在产品评审时问:如果实验跑出来是涨的(绿),我们策略会怎么变?如果是跌的(红),我们又怎么办?如果答不上来,说明这事压根没想透,马上停下推演一遍 [20:24]。他们内部有个口头禅叫「先想透最坏情况,然后照干不误」:把规模放大十倍、百倍后可能出错的地方全过一遍,解决掉能解决的,然后别被风险拖死,继续往前走 [21:13]。\n\n## 把最资深的人推回一线当独立贡献者\n\n说完了招什么人、怎么想问题,接下来这也许是整集最反常规的部分:他不要资深的人脱离一线去管人,他要他们回去做独立贡献者的活儿。\n\n行业的老规矩是:产品经理做好了,就提拔成总监,然后脱离具体动手,专职指导团队 [22:36]。Tom 觉得这套毁了人才:「我们把最厉害的球员都提拔去当教练,不让他们上场了,这等于剥夺了他们的实战肌肉」 [01:30]。在 Whatnot,所有的人,包括他自己,绝大部分时间都在做独立贡献者的工作。他作为 CPO,依然有 50% 的时间在做具体的交付工作,团队里四五个管人的管理者,每个人起码有 90% 的时间在做独立贡献者的活儿 [23:20]。在这套逻辑里,独立贡献者的工作不是去写生产代码,而是亲自翻看客诉记录、亲自拉取数据、亲自和工程师一起查代码库、写规格说明,然后亲自把控产品的交付 [26:30]。说到写代码,他甚至调侃自己用 Claude Code 推了一些生产代码,但很确信有人偷偷帮他把代码重写了,以满足代码规范、处理本地化,修正那些需要几十年工程经验才懂、而他和 AI 都没做对的细节 [26:18]。\n\n聊到这里,主持人提到一个行业奇观:一堆大公司的首席技术官跑到 Anthropic 当普通工程师。Tom 说这正是他梦寐以求的团队配置 [28:18]。这背后不光是情怀,还有经济账:与其养一个金字塔式的层级结构,不如把钱分给少数最顶尖、被推回一线的人。算算账就明白,同样一笔预算,给三个人付大公司副总级别的工资,让他们直接产生相当于五六个初级人的产出,完全可行 [28:59]。\n\n## AI 带来的三大效率杠杆\n\n工具变了,人怎么重新安排?这正是接下来要谈的——AI 在其中扮演的角色。\n\n第一个杠杆,也是 Tom 觉得遥遥领先的,是数据科学。Whatnot 内部用一种叫 Hex threads 的工具。现在他可以自己拉取极其细致的用户分群数据,抓取个别用户的日志,快速做回归、做预测模型,这是过去需要一个高级数据科学家花一两周才能干完的活。结果是,过去一年他跟数据科学家开会的时间是职业生涯最少的,但泡在数据里理解产品运作的时间却是过去的十倍 [35:47]。\n\n第二个是不用再拿琐碎问题去打断工程师。过去作为初级产品经理,他经常得去问工程师某个改动难度有多大,这其实分散了工程师真正写代码的精力。现在他直接问 Claude,就能大致摸清工作量级别,甚至能直接去查询代码库,搞懂某个界面的逻辑到底是怎么回事 [31:37]。他明白这些 AI 工具产出的结果依然需要人把关,毕竟非专业人士做半吊子的数据分析,经常出错。但好处是,资深的人因为有经验,更能判断这些 AI 辅助产出的对错 [42:48]。\n\n第三个杠杆,是针对直播购物这种实时产品独有的。当用户在描述遇到的问题时,他可以一边看用户操作产品的视频回放,一边实时分析代码库到底出了什么 bug。客户那里发生了什么、代码层面发生了什么,全在一个屏幕上实时呈现,这种反馈循环是前所未有的强力 [38:28]。聊到这,他讲了个细节:有个卖家在直播间抱怨拍卖倒计时太长,想在旁边办公室的两个工程师听到后,当场改了倒计时,直接在直播聊天室喊大家刷新应用,砰的一下规则就变了 [39:21]。这种极速响应,正是 AI 和直播场景结合的威力。\n\n## 和强势创始人共事的艺术\n\n人是回来了,但如果创始人也很强势、很懂产品,你这个产品负责人怎么摆正位置?这就是下一块内容。\n\nWhatnot 的创始人 Grant 非常有产品主见。Tom 摸索出了一套跟这类强势创始人打交道的门道。首先,最关键的一点是认清现实:这不是你的公司,是他们的 [54:59]。如果创始人正在盯某个具体项目,Tom 就主动退让,不跟对方抢控制权。他半开玩笑说这叫「两个爸爸问题」:如果他和创始人同时在一个项目上发号施令,下面的人只会被搞得团团转 [54:15]。所以经常有一半的团队在干创始人主导的项目,他完全不过问日常进度。\n\n其次,他强调管理绝不是脱离一线的遥控。他极度不认同「招牛人然后别挡他们的道」这种硅谷经典口号。他的信条是「先验证,再信任」(verify, then trust) [50:17]。他自己必须经常和一线工程师、设计师坐在一起,逐行去看数据。他举了个例子:如果开会有人说「这是欺诈」,他会追问——你怎么知道?哦,数据集标记了。那你知道是怎么标记的吗?标记的标准操作流程是什么?如果连这个都答不上,那说明你根本不了解事实。如果你不了解事实,怎么可能做出好决策?\n\n主持人问他,如果跟创始人意见相左,怎么优雅地推回去?Tom 给了个实在的建议:不要把它当成说服的技巧,而是寻求真相。如果发现不对劲,第一反应应该是好奇——「我是不是漏掉了什么背景信息?」确认完信息后,如果还是没有共识,那就看数据:你手里有硬数据就拿上来;如果你只有观点、创始人也只有观点,那听创始人的,因为这是人家的公司;把自我意识留在门外 [01:00:30]。\n\n## 用「拉手风琴」对抗盲目迭代\n\n原则定好了,日常具体干活时怎么避免瞎忙?接下来看他最得意的思维模型。\n\nTom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到产品团队常陷入两种失败模式:一种是没有方向,疯狂做 A/B 测试,像往墙上瞎扔意面看什么能粘住;另一种是关起门来写两三年的宏大战略路线图,彻底丧失了互联网行业快速学习的优势 [62:31]。\n\n拉手风琴就是为了解决这个。想象一个手风琴:演奏前,你得先把风箱完全拉开,吸入空气——这代表你要先往大处想,把目标、宏观图景和各种影响推演一遍。但光拉开不出声,只有把风箱用力推回去,按响琴键,才真正创造出价值——这代表你要把宏大的思考压缩成一个具体、能验证的最小行动方案(V1)并去执行。等做完这一下,你要重新拉开风箱,根据刚学到的经验教训重新评估方向,然后再推回去做下一个版本 [62:52]。\n\n他用 Whatnot 平台上的商品列表来举例。以前做直播带货,卖家举起东西喊价就行,不需要专门做商品列表(拉手风琴:不用做,先专注直播体验)。但往大处想(拉开风箱),新买家习惯用搜索,如果等卖完才知道卖的是 AirPods,系统根本没法提前把人引流过去。那怎么办?让所有人都做商品列表。再往大处想(再次拉开),如果让卖家每件商品花三分半钟做列表,他们一小时的销量就暴跌,这伤害了卖家的核心利益。于是思路又得收回来重新推演 [65:35]。这种在宏观和微观之间不断伸缩、往复验证的节奏,就是拉手风琴的核心。\n\n## 失败与收尾\n\n讨论完方法论,最后来听听他从过往踩坑里学到的深刻教训,以及给当下从业者的实在建议。\n\n主持人问他经历过什么印象深刻的失败。Tom 说,他职业生涯里最让他对自己失望的决策,往往都跟一个陷阱有关:被平均数据骗了。在庞大的用户群里,你很容易去看平均利用率,发现某个功能只有 3% 的人用,就觉得没用,随手砍掉。但如果你不深挖,你可能根本不知道这 3% 对某一小撮人来说是 100% 的核心用例。你一刀切下去,就炸了这部分人的体验,随之而来的就是毁灭性的网络效应崩溃。他提醒,在电商这种场景里,你的产品就是别人的生计,因为想偷懒维护就砍掉一个功能,无异于购物中心在圣诞节前夜拉闸断电 [73:47]。\n\n面对整个行业从规模扩张转向追求效率的剧变,他给在找工作或感到迷茫的产品经理的建议非常直接:不要只是在脑子里琢磨大局,去把具体的活儿干起来。回到你最核心的产品手艺上:去摸第一手的数据,去写真实的规格说明,去界定到底什么是好的标准。把你现在的生产力拿出来,这无论对你现在的处境还是未来的去向都有好处 [32:54]。行业的洗牌是真切的,但这恰恰是回归真正产品工作的好时机。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是这么几句话。第一,别再默认每个团队都需要配产品经理了,招人只该在真正需要这门手艺的特定节点上招,否则你剥夺了工程师和设计师做实战决策的能力。第二,行业里囤积了大量擅长开会、对齐和搞政治的产品经理,这层「产品剧场」正在被现实无情戳破,真正能活下来、能创造价值的是那种既能看懂大系统,又能亲自扎进数据、代码和工单去验证细节的人。第三,不要再把资深的人提拔起来去当专职管理者了,把他们推回一线做独立贡献者的活儿,一个顶尖的人配上 AI 工具,能抵过一个金字塔层级结构的产出,这笔账在经济上和效率上都更划算。第四,管理不是脱离一线的远程遥控,你必须扎进泥里去搞清楚最基本的事实,否则所谓的自上而下的强势决策,就会沦为不靠谱的微管理。最后,日常干活时记得「拉手风琴」:别光埋头瞎跑实验,也别光写宏大路线图,要在战略推演和最小可行验证之间反复拉扯,在不断学习中去逼近正确的方向。","quotes":[{"en":"Hiring so many PMs infantilizes the engineers and the designers who are perfectly capable of making good decisions, but just never had to because there was always a PM to babysit them.","zh":"招聘这么多产品经理让工程师和设计师变得幼稚,他们完全有能力做出好的决策,但从来不需要这样做,因为总有一个产品经理来照看他们。","timestamp":"00:08","speaker":"Tom Verrilli"},{"en":"The only argument for why you would want product management to be a specialist function is really it's a trade, not a qualification.","zh":"关于为什么你希望产品管理成为一个专业职能的唯一论点实际上是它是一门手艺,而不是一种资格。","timestamp":"00:38","speaker":"Tom Verrilli"},{"en":"I can tell you what's definitely trending down, folks who spend a lot of their time in their interviews talking about driving alignment and stakeholder management, because there's definitely a group of PMs whose specialty wasn't technical, it was politics.","zh":"我可以告诉你什么是绝对在下降的,那些在面试中花大量时间谈论推动一致性和利益相关者管理的人,因为绝对有一群产品经理他们的专长不是技术,而是政治。","timestamp":"01:06","speaker":"Tom Verrilli"},{"en":"But you don't make music until you press the key and push it all the way back into V1.","zh":"但是直到你按下琴键并把它一直推回到 V1,你才是在演奏音乐。","timestamp":"62:47","speaker":"Tom Verrilli"},{"en":"averages mean nothing to the individual is probably the thing that I've really scarred by.","zh":"「平均值对个人毫无意义」这可能是我真正深受其害的一点。","timestamp":"74:13","speaker":"Tom Verrilli"},{"en":"we tend to live in a verify, then trust land as opposed to a totally trust or even trust but verify","zh":"我们倾向于生活在先验证再信任的土地上,而不是完全信任甚至信任但验证","timestamp":"50:17","speaker":"Tom Verrilli"},{"en":"most of the time you hear it's really complex, it isn't. Leadership's just weak.","zh":"大多数时候当你听说它真的很复杂时,它其实并不复杂。只是领导力太弱了。","timestamp":"71:20","speaker":"Tom Verrilli"},{"en":"as a product manager, I've spent less time in the last year talking to a data scientist than I ever have in my career, even though I've probably spent 10 times more time in data and understanding actually how the product's working than I ever have in my career.","zh":"作为一个产品经理,我在过去一年里花在与数据科学家交谈的时间比我职业生涯中任何时候都少,即使我可能花在数据和实际理解产品如何工作上的时间比我在职业生涯中任何时候都多 10 倍。","timestamp":"36:54","speaker":"Tom Verrilli"}],"quotes_candidates":[{"en":"Hiring so many PMs infantilizes the engineers and the designers who are perfectly capable of making good decisions, but just never had to because there was always a PM to babysit them.","zh":"招聘这么多产品经理让工程师和设计师变得幼稚,他们完全有能力做出好的决策,但从来不需要这样做,因为总有一个产品经理来照看他们。","timestamp":"00:08","speaker":"Tom Verrilli"},{"en":"The only argument for why you would want product management to be a specialist function is really it's a trade, not a qualification.","zh":"关于为什么你希望产品管理成为一个专业职能的唯一论点实际上是它是一门手艺,而不是一种资格。","timestamp":"00:38","speaker":"Tom Verrilli"},{"en":"I can tell you what's definitely trending down, folks who spend a lot of their time in their interviews talking about driving alignment and stakeholder management, because there's definitely a group of PMs whose specialty wasn't technical, it was politics.","zh":"我可以告诉你什么是绝对在下降的,那些在面试中花大量时间谈论推动一致性和利益相关者管理的人,因为绝对有一群产品经理他们的专长不是技术,而是政治。","timestamp":"01:06","speaker":"Tom Verrilli"},{"en":"We took all of our A players and then promoted them out of doing things.","zh":"把我们所有的 A 级球员都提拔走了,不再做实事。","timestamp":"01:26","speaker":"Tom Verrilli"},{"en":"Why wouldn't you want Messi playing for your team rather than trying to have the academy coming along all the time?","zh":"为什么你不希望梅西为你的球队效力,而不是试图让学院一直跟上来?","timestamp":"01:30","speaker":"Tom Verrilli"},{"en":"So we took all of our A players and then promoted them out of doing things.","zh":"我们把所有的 A 类球员提拔出来,让他们不再做具体事情。","timestamp":"22:41","speaker":"Tom Verrilli"},{"en":"But you don't make music until you press the key and push it all the way back into V1.","zh":"但是直到你按下琴键并把它一直推回到 V1,你才是在演奏音乐。","timestamp":"62:47","speaker":"Tom Verrilli"},{"en":"averages mean nothing to the individual is probably the thing that I've really scarred by.","zh":"「平均值对个人毫无意义」这可能是我真正深受其害的一点。","timestamp":"74:07","speaker":"Tom Verrilli"},{"en":"we tend to live in a verify, then trust land as opposed to a totally trust or even trust but verify","zh":"我们倾向于生活在先验证再信任的土地上,而不是完全信任甚至信任但验证","timestamp":"50:17","speaker":"Tom Verrilli"},{"en":"There's never been a better time to attempt to be in the detail on things because you can literally query it in real time.","zh":"尝试在事情上深入细节从未有过比现在更好的时机,因为你实际上可以实时查询它。","timestamp":"56:33","speaker":"Tom Verrilli"},{"en":"most of the time you hear it's really complex, it isn't. Leadership's just weak.","zh":"大多数时候当你听说它真的很复杂时,它其实并不复杂。只是领导力太弱了。","timestamp":"71:16","speaker":"Tom Verrilli"},{"en":"I think product management plays a really important role.","zh":"我认为产品管理发挥着非常重要的作用。","timestamp":"05:11","speaker":"Tom Verrilli"},{"en":"It's folks who spend a lot of the time in their interviews talking about those alignment meetings and driving alignment and stakeholder management and those pieces.","zh":"是那些在面试中花很多时间谈论那些对齐会议、推动对齐和利益相关者管理以及这些片段的人。","timestamp":"18:04","speaker":"Tom Verrilli"},{"en":"Why not?","zh":"为什么不呢?","timestamp":"29:28","speaker":"Tom Verrilli"},{"en":"as a product manager, I've spent less time in the last year talking to a data scientist than I ever have in my career, even though I've probably spent 10 times more time in data and understanding actually how the product's working than I ever have in my career.","zh":"作为一个产品经理,我在过去一年里花在与数据科学家交谈的时间比我职业生涯中任何时候都少,即使我可能花在数据和实际理解产品如何工作上的时间比我在职业生涯中任何时候都多 10 倍。","timestamp":"36:53","speaker":"Tom Verrilli"},{"en":"There are people who are wonderful people managers and really derive their satisfaction from doing that and growing and coaching.","zh":"有些人是很棒的人员管理者,并且真正从做这件事以及指导和成长中获得满足感。","timestamp":"76:28","speaker":"Tom Verrilli"}]}
+{
+  "title_zh": "让最资深的人回去写文档:Whatnot CPO 的 PM 新法则",
+  "tldr": "Whatnot CPO Tom Verrilli 主张把最资深的人推回一线做具体事,用更少但更资深的人取代层层管理。",
+  "digest_md": "过去两年,有 31,832 人申请成为 Whatnot 的产品经理——他们只招了 1 个。说这话的人是 Tom Verrilli,Whatnot 的首席产品官,他管产品的方式几乎跟整个科技行业相反:不要在每个团队塞一个 PM,把最资深的人推回一线亲自干具体的活儿,而且管理者得深入最底层的代码和数据去核对基本事实,而不是开会对齐。\n\n在这一集播客里,他跟主持人 Lenny 聊了他是怎么把产品团队从臃肿的对齐会议里拽回真正动手干活的。你会听到几块内容:为什么他不认同科技公司「每招六个工程师就配一个产品经理」的默认比例;为什么 AI 让他敢把最资深的人推回去当独立贡献者(指自己写文档、拉数据、定方案、亲自交付,而不是只管人);他用什么办法在创始人极其强势、极其懂产品的情况下找准自己的位置;还有一个他叫作「拉手风琴」的思维模型,怎么帮团队在盲目动手和纸上谈兵两个极端之间来回拉扯。最后他还回答了一个扎心的问题:面对市场的剧变,找工作的产品经理现在到底该怎么办。\n\n说完了开场这个反直觉的数字,接下来先看他为什么觉得行业里默认的产品经理比例是错的。\n\n## 产品经理是怎么变得这么多的\n\nTom 先追溯了历史。在互联网行业早期,根本没有产品经理这个角色,通常是创始人或 CEO 直接找工程师和设计师讨论要做什么,大家一起去执行。但互联网公司的扩张速度史无前例,创始人的精力顾不过来,自然就需要把执行的具体细节交给专人。慢慢地,科技圈形成了一种不成文的编制比率:每招 6 个工程师,就配 1 个设计师、1 个产品经理、1 个工程经理(管工程师的人)。到了服务上亿日活的产品,工程师数以千计,产品经理跟着膨胀。\n\n但他觉得这套逻辑在很多时候根本站不住脚。通知基础设施需要配产品经理吗?工程师完全有能力自己搞懂。强行塞了这么多产品经理,反而让本来完全能做决策的工程师和设计师「幼稚化」——因为总有人在替他们想、替他们拍板,他们的决策肌肉就萎缩了。他反复强调,产品管理本质是一门靠实战练出来的手艺、一块肌肉;你越是让工程师和设计师不去做产品经理做的事,他们这块肌肉就越发育不良。\n\n那什么情况下真的需要产品经理?Tom 的结论是:把它当作一门需要特定手艺的专职岗位,只在真正有特定需求的地方用,不要预设每个团队都非得有一个。在 Whatnot,他们干脆把产品经理「映射到具体问题或核心项目」上,而不是固定绑定到某个工程团队。这意味着可能有一整年,某个工程团队手头有大量产品工作要做,却根本没有产品经理跟着。目前 Whatnot 整个公司只有 20 个出头的 PM,对于他们处理的交易体量(GMV)来说,这个比例小得惊人。\n\n## 不要再找擅长「推动对齐」的人\n\n顺着到底什么时候需要招人,他详细拆解了现在招产品经理最看重的和最反感的东西。\n\n那到底招人看什么呢?Tom 说,绝对在下降的一类人,是面试时把大部分时间花在讲「推动对齐(推动不同部门达成共识)」「利益相关者管理」上的人。他直言不讳地说,行业里有一批产品经理,专长不是技术或客户,而是办公室政治。他找的是能在案例研究中同时展现宏观思考和微观执行的人:既能在脑子里搭出大系统的运作模型,又能拿出具体、清晰、快速验证的落地方案。他特别反感那种在 FANG、Uber 这种大公司待过,只是维护、微调现有产品的人;他想要那种能面对模糊问题,从零做出独特东西,一路做决策并推进的人。\n\n他还特别提到培养「系统思维」的训练法。他会在产品评审时问:如果实验跑出来是涨的(绿),我们策略会怎么变?如果是跌的(红),我们又怎么办?如果答不上来,说明这事压根没想透,马上停下推演一遍。他们内部有个口头禅叫「先想透最坏情况,然后照干不误」:把规模放大十倍、百倍后可能出错的地方全过一遍,解决掉能解决的,然后别被风险拖死,继续往前走。\n\n## 把最资深的人推回一线当独立贡献者\n\n说完了招什么人、怎么想问题,接下来这也许是整集最反常规的部分:他不要资深的人脱离一线去管人,他要他们回去做独立贡献者的活儿。\n\n行业的老规矩是:产品经理做好了,就提拔成总监,然后脱离具体动手,专职指导团队。Tom 觉得这套毁了人才:「我们把最厉害的球员都提拔去当教练,不让他们上场了,这等于剥夺了他们的实战肌肉」。在 Whatnot,所有的人,包括他自己,绝大部分时间都在做独立贡献者的工作。他作为 CPO,依然有 50% 的时间在做具体的交付工作,团队里四五个管人的管理者,每个人起码有 90% 的时间在做独立贡献者的活儿。在这套逻辑里,独立贡献者的工作不是去写生产代码,而是亲自翻看客诉记录、亲自拉取数据、亲自和工程师一起查代码库、写规格说明,然后亲自把控产品的交付。说到写代码,他甚至调侃自己用 Claude Code 推了一些生产代码,但很确信有人偷偷帮他把代码重写了,以满足代码规范、处理本地化,修正那些需要几十年工程经验才懂、而他和 AI 都没做对的细节。\n\n聊到这里,主持人提到一个行业奇观:一堆大公司的首席技术官跑到 Anthropic 当普通工程师。Tom 说这正是他梦寐以求的团队配置。这背后不光是情怀,还有经济账:与其养一个金字塔式的层级结构,不如把钱分给少数最顶尖、被推回一线的人。算算账就明白,同样一笔预算,给三个人付大公司副总级别的工资,让他们直接产生相当于五六个初级人的产出,完全可行。\n\n## AI 带来的三大效率杠杆\n\n工具变了,人怎么重新安排?这正是接下来要谈的——AI 在其中扮演的角色。\n\n第一个杠杆,也是 Tom 觉得遥遥领先的,是数据科学。Whatnot 内部用一种叫 Hex threads 的工具。现在他可以自己拉取极其细致的用户分群数据,抓取个别用户的日志,快速做回归、做预测模型,这是过去需要一个高级数据科学家花一两周才能干完的活。结果是,过去一年他跟数据科学家开会的时间是职业生涯最少的,但泡在数据里理解产品运作的时间却是过去的十倍。\n\n第二个是不用再拿琐碎问题去打断工程师。过去作为初级产品经理,他经常得去问工程师某个改动难度有多大,这其实分散了工程师真正写代码的精力。现在他直接问 Claude,就能大致摸清工作量级别,甚至能直接去查询代码库,搞懂某个界面的逻辑到底是怎么回事。他明白这些 AI 工具产出的结果依然需要人把关,毕竟非专业人士做半吊子的数据分析,经常出错。但好处是,资深的人因为有经验,更能判断这些 AI 辅助产出的对错。\n\n第三个杠杆,是针对直播购物这种实时产品独有的。当用户在描述遇到的问题时,他可以一边看用户操作产品的视频回放,一边实时分析代码库到底出了什么 bug。客户那里发生了什么、代码层面发生了什么,全在一个屏幕上实时呈现,这种反馈循环是前所未有的强力。聊到这,他讲了个细节:有个卖家在直播间抱怨拍卖倒计时太长,想在旁边办公室的两个工程师听到后,当场改了倒计时,直接在直播聊天室喊大家刷新应用,砰的一下规则就变了。这种极速响应,正是 AI 和直播场景结合的威力。\n\n## 和强势创始人共事的艺术\n\n人是回来了,但如果创始人也很强势、很懂产品,你这个产品负责人怎么摆正位置?这就是下一块内容。\n\nWhatnot 的创始人 Grant 非常有产品主见。Tom 摸索出了一套跟这类强势创始人打交道的门道。首先,最关键的一点是认清现实:这不是你的公司,是他们的。如果创始人正在盯某个具体项目,Tom 就主动退让,不跟对方抢控制权。他半开玩笑说这叫「两个爸爸问题」:如果他和创始人同时在一个项目上发号施令,下面的人只会被搞得团团转。所以经常有一半的团队在干创始人主导的项目,他完全不过问日常进度。\n\n其次,他强调管理绝不是脱离一线的遥控。他极度不认同「招牛人然后别挡他们的道」这种硅谷经典口号。他的信条是「先验证,再信任」(verify, then trust)。他自己必须经常和一线工程师、设计师坐在一起,逐行去看数据。他举了个例子:如果开会有人说「这是欺诈」,他会追问——你怎么知道?哦,数据集标记了。那你知道是怎么标记的吗?标记的标准操作流程是什么?如果连这个都答不上,那说明你根本不了解事实。如果你不了解事实,怎么可能做出好决策?\n\n主持人问他,如果跟创始人意见相左,怎么优雅地推回去?Tom 给了个实在的建议:不要把它当成说服的技巧,而是寻求真相。如果发现不对劲,第一反应应该是好奇——「我是不是漏掉了什么背景信息?」确认完信息后,如果还是没有共识,那就看数据:你手里有硬数据就拿上来;如果你只有观点、创始人也只有观点,那听创始人的,因为这是人家的公司;把自我意识留在门外 [01:00:30]。\n\n## 用「拉手风琴」对抗盲目迭代\n\n原则定好了,日常具体干活时怎么避免瞎忙?接下来看他最得意的思维模型。\n\nTom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到产品团队常陷入两种失败模式:一种是没有方向,疯狂做 A/B 测试,像往墙上瞎扔意面看什么能粘住;另一种是关起门来写两三年的宏大战略路线图,彻底丧失了互联网行业快速学习的优势。\n\n拉手风琴就是为了解决这个。想象一个手风琴:演奏前,你得先把风箱完全拉开,吸入空气——这代表你要先往大处想,把目标、宏观图景和各种影响推演一遍。但光拉开不出声,只有把风箱用力推回去,按响琴键,才真正创造出价值——这代表你要把宏大的思考压缩成一个具体、能验证的最小行动方案(V1)并去执行。等做完这一下,你要重新拉开风箱,根据刚学到的经验教训重新评估方向,然后再推回去做下一个版本。\n\n他用 Whatnot 平台上的商品列表来举例。以前做直播带货,卖家举起东西喊价就行,不需要专门做商品列表(拉手风琴:不用做,先专注直播体验)。但往大处想(拉开风箱),新买家习惯用搜索,如果等卖完才知道卖的是 AirPods,系统根本没法提前把人引流过去。那怎么办?让所有人都做商品列表。再往大处想(再次拉开),如果让卖家每件商品花三分半钟做列表,他们一小时的销量就暴跌,这伤害了卖家的核心利益。于是思路又得收回来重新推演。这种在宏观和微观之间不断伸缩、往复验证的节奏,就是拉手风琴的核心。\n\n## 失败与收尾\n\n讨论完方法论,最后来听听他从过往踩坑里学到的深刻教训,以及给当下从业者的实在建议。\n\n主持人问他经历过什么印象深刻的失败。Tom 说,他职业生涯里最让他对自己失望的决策,往往都跟一个陷阱有关:被平均数据骗了。在庞大的用户群里,你很容易去看平均利用率,发现某个功能只有 3% 的人用,就觉得没用,随手砍掉。但如果你不深挖,你可能根本不知道这 3% 对某一小撮人来说是 100% 的核心用例。你一刀切下去,就炸了这部分人的体验,随之而来的就是毁灭性的网络效应崩溃。他提醒,在电商这种场景里,你的产品就是别人的生计,因为想偷懒维护就砍掉一个功能,无异于购物中心在圣诞节前夜拉闸断电。\n\n面对整个行业从规模扩张转向追求效率的剧变,他给在找工作或感到迷茫的产品经理的建议非常直接:不要只是在脑子里琢磨大局,去把具体的活儿干起来。回到你最核心的产品手艺上:去摸第一手的数据,去写真实的规格说明,去界定到底什么是好的标准。把你现在的生产力拿出来,这无论对你现在的处境还是未来的去向都有好处。行业的洗牌是真切的,但这恰恰是回归真正产品工作的好时机。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是这么几句话。第一,别再默认每个团队都需要配产品经理了,招人只该在真正需要这门手艺的特定节点上招,否则你剥夺了工程师和设计师做实战决策的能力。第二,行业里囤积了大量擅长开会、对齐和搞政治的产品经理,这层「产品剧场」正在被现实无情戳破,真正能活下来、能创造价值的是那种既能看懂大系统,又能亲自扎进数据、代码和工单去验证细节的人。第三,不要再把资深的人提拔起来去当专职管理者了,把他们推回一线做独立贡献者的活儿,一个顶尖的人配上 AI 工具,能抵过一个金字塔层级结构的产出,这笔账在经济上和效率上都更划算。第四,管理不是脱离一线的远程遥控,你必须扎进泥里去搞清楚最基本的事实,否则所谓的自上而下的强势决策,就会沦为不靠谱的微管理。最后,日常干活时记得「拉手风琴」:别光埋头瞎跑实验,也别光写宏大路线图,要在战略推演和最小可行验证之间反复拉扯,在不断学习中去逼近正确的方向。",
+  "quotes": [
+    {
+      "en": "Hiring so many PMs infantilizes the engineers and the designers who are perfectly capable of making good decisions, but just never had to because there was always a PM to babysit them.",
+      "zh": "招聘这么多产品经理让工程师和设计师变得幼稚,他们完全有能力做出好的决策,但从来不需要这样做,因为总有一个产品经理来照看他们。",
+      "timestamp": "00:08",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "The only argument for why you would want product management to be a specialist function is really it's a trade, not a qualification.",
+      "zh": "关于为什么你希望产品管理成为一个专业职能的唯一论点实际上是它是一门手艺,而不是一种资格。",
+      "timestamp": "00:38",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "I can tell you what's definitely trending down, folks who spend a lot of their time in their interviews talking about driving alignment and stakeholder management, because there's definitely a group of PMs whose specialty wasn't technical, it was politics.",
+      "zh": "我可以告诉你什么是绝对在下降的,那些在面试中花大量时间谈论推动一致性和利益相关者管理的人,因为绝对有一群产品经理他们的专长不是技术,而是政治。",
+      "timestamp": "01:06",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "But you don't make music until you press the key and push it all the way back into V1.",
+      "zh": "但是直到你按下琴键并把它一直推回到 V1,你才是在演奏音乐。",
+      "timestamp": "62:47",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "averages mean nothing to the individual is probably the thing that I've really scarred by.",
+      "zh": "「平均值对个人毫无意义」这可能是我真正深受其害的一点。",
+      "timestamp": "74:13",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "we tend to live in a verify, then trust land as opposed to a totally trust or even trust but verify",
+      "zh": "我们倾向于生活在先验证再信任的土地上,而不是完全信任甚至信任但验证",
+      "timestamp": "50:17",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "most of the time you hear it's really complex, it isn't. Leadership's just weak.",
+      "zh": "大多数时候当你听说它真的很复杂时,它其实并不复杂。只是领导力太弱了。",
+      "timestamp": "71:20",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "as a product manager, I've spent less time in the last year talking to a data scientist than I ever have in my career, even though I've probably spent 10 times more time in data and understanding actually how the product's working than I ever have in my career.",
+      "zh": "作为一个产品经理,我在过去一年里花在与数据科学家交谈的时间比我职业生涯中任何时候都少,即使我可能花在数据和实际理解产品如何工作上的时间比我在职业生涯中任何时候都多 10 倍。",
+      "timestamp": "36:54",
+      "speaker": "Tom Verrilli"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "Hiring so many PMs infantilizes the engineers and the designers who are perfectly capable of making good decisions, but just never had to because there was always a PM to babysit them.",
+      "zh": "招聘这么多产品经理让工程师和设计师变得幼稚,他们完全有能力做出好的决策,但从来不需要这样做,因为总有一个产品经理来照看他们。",
+      "timestamp": "00:08",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "The only argument for why you would want product management to be a specialist function is really it's a trade, not a qualification.",
+      "zh": "关于为什么你希望产品管理成为一个专业职能的唯一论点实际上是它是一门手艺,而不是一种资格。",
+      "timestamp": "00:38",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "I can tell you what's definitely trending down, folks who spend a lot of their time in their interviews talking about driving alignment and stakeholder management, because there's definitely a group of PMs whose specialty wasn't technical, it was politics.",
+      "zh": "我可以告诉你什么是绝对在下降的,那些在面试中花大量时间谈论推动一致性和利益相关者管理的人,因为绝对有一群产品经理他们的专长不是技术,而是政治。",
+      "timestamp": "01:06",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "We took all of our A players and then promoted them out of doing things.",
+      "zh": "把我们所有的 A 级球员都提拔走了,不再做实事。",
+      "timestamp": "01:26",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "Why wouldn't you want Messi playing for your team rather than trying to have the academy coming along all the time?",
+      "zh": "为什么你不希望梅西为你的球队效力,而不是试图让学院一直跟上来?",
+      "timestamp": "01:30",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "So we took all of our A players and then promoted them out of doing things.",
+      "zh": "我们把所有的 A 类球员提拔出来,让他们不再做具体事情。",
+      "timestamp": "22:41",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "But you don't make music until you press the key and push it all the way back into V1.",
+      "zh": "但是直到你按下琴键并把它一直推回到 V1,你才是在演奏音乐。",
+      "timestamp": "62:47",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "averages mean nothing to the individual is probably the thing that I've really scarred by.",
+      "zh": "「平均值对个人毫无意义」这可能是我真正深受其害的一点。",
+      "timestamp": "74:07",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "we tend to live in a verify, then trust land as opposed to a totally trust or even trust but verify",
+      "zh": "我们倾向于生活在先验证再信任的土地上,而不是完全信任甚至信任但验证",
+      "timestamp": "50:17",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "There's never been a better time to attempt to be in the detail on things because you can literally query it in real time.",
+      "zh": "尝试在事情上深入细节从未有过比现在更好的时机,因为你实际上可以实时查询它。",
+      "timestamp": "56:33",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "most of the time you hear it's really complex, it isn't. Leadership's just weak.",
+      "zh": "大多数时候当你听说它真的很复杂时,它其实并不复杂。只是领导力太弱了。",
+      "timestamp": "71:16",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "I think product management plays a really important role.",
+      "zh": "我认为产品管理发挥着非常重要的作用。",
+      "timestamp": "05:11",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "It's folks who spend a lot of the time in their interviews talking about those alignment meetings and driving alignment and stakeholder management and those pieces.",
+      "zh": "是那些在面试中花很多时间谈论那些对齐会议、推动对齐和利益相关者管理以及这些片段的人。",
+      "timestamp": "18:04",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "Why not?",
+      "zh": "为什么不呢?",
+      "timestamp": "29:28",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "as a product manager, I've spent less time in the last year talking to a data scientist than I ever have in my career, even though I've probably spent 10 times more time in data and understanding actually how the product's working than I ever have in my career.",
+      "zh": "作为一个产品经理,我在过去一年里花在与数据科学家交谈的时间比我职业生涯中任何时候都少,即使我可能花在数据和实际理解产品如何工作上的时间比我在职业生涯中任何时候都多 10 倍。",
+      "timestamp": "36:53",
+      "speaker": "Tom Verrilli"
+    },
+    {
+      "en": "There are people who are wonderful people managers and really derive their satisfaction from doing that and growing and coaching.",
+      "zh": "有些人是很棒的人员管理者,并且真正从做这件事以及指导和成长中获得满足感。",
+      "timestamp": "76:28",
+      "speaker": "Tom Verrilli"
+    }
+  ]
+}

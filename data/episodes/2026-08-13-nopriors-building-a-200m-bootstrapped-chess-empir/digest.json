@@ -1,1 +1,135 @@
-{"title_zh":"棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来","tldr":"Chess.com 创始人分享 20 年自举创业史,以及在 AI 击败人类后,如何让国际象棋更繁荣。","digest_md":"机器早在 30 年前就在国际象棋上击败了人类,但 Chess.com 的数据表明,人类的胜负欲反而让这项古老游戏空前繁荣。他们的日活达到千万级,并在自举运营 20 年后确立了「让 10 亿人下棋」的宏大使命。但在繁荣背后,面对 AI 辅助作弊的威胁,这家全球最大的国际象棋平台正用更强大的统计模型与技术打一场看不见的保卫战。\n\n### 20 年自举的「反共识」生意经\nErik 从破产拍卖中买下 chess.com 域名。当他试图在 Sand Hill Road（硅谷风险投资聚集地）寻求融资时，几乎所有人都告诉他这是一个「不可投资的小众激情项目」，让他去找份正经工作 [04:17]。最终他没有融一分钱，而是 2007 年上线产品，靠收取在线学习会员费在 18 个月内迅速盈利 [04:59]。\n\n这种不走寻常路的模式贯穿了公司发展的始终:当硅谷的标准创业剧本是「雇名校技术合伙人、融一大笔钱、砸钱获客」时,Erik 偏偏找了圣何塞州立大学的朋友,全远程办公、零外部资金、不花一分钱获客,并且挑了一个极小的市场 [35:34]。这种专注于自身愿景、极致用户体验的做法让团队一步步做大。直到 2024 年,看着疫情期间涌入的用户潮在回落后依然维持在极高的基准线上,团队才真正确信:这是一门在不断复利增长的大生意 [10:43]。\n\n> 【背景】Sand Hill Road(沙丘路)是硅谷著名的风险投资机构聚集地,在语境中代指 VC 行业。\n\n当公司估值达到数十亿美元的规模后,Chess.com 才开始引入 General Atlantic 和 CVC 等私募股权机构 [15:08]。Erik 强调,这些投资全是「二级市场」交易(买断老股),公司业务本身仍不需要任何外部资本注入来维持增长 [17:29]。而引入 PE 的实际意义并非「被催促拼命工作」,而是帮助这家 650 人的全远程团队在运营预测、财务汇报等方面完成了组织架构上的成年礼 [18:18]。\n\n### AI 让国际象棋「先变无聊,再变惊艳」\nDeep Blue(深蓝)当年击败 Kasparov(卡斯帕罗夫)时,许多人预测国际象棋将走向死亡,但这违背了基本的人性。「从根本上说,人类想做人类的事情。那是人与其他人的竞争,是人在制造东西,是人在解决问题。」[20:24] \n\n虽然早期的国际象棋引擎(如 Stockfish)过于完美,导致顶级棋手纷纷模仿电脑下出极其无聊的平局残局,一度扼杀了比赛的观赏性 [21:10];但随后基于神经网络和自我强化学习的引擎(如 Leela Chess Zero)出现,它们极具攻击性且不按套路出牌,反而重新点燃了棋手们的创造力,把这项运动推向了前所未有的精彩高度 [21:26]。如今,AI 早已不是终结者,而是变成了口袋里的超级教练,通过复盘分析、定制谜题等方式,大幅加快了人类学习的速度 [22:08]。我们看到越来越年轻的棋手涌现,正是这种「智力普惠」的直接证明 [23:18]。\n\n### 没有捷径:如何练就顶尖技能\n拥有海量各等级人类棋谱数据的 Chess.com,给出的「变强秘诀」却极其朴素:「只是像小积木一样的重复」[27:36]。\n\n即使有了强大的 AI 辅助,知识获取变得极度容易,人类依然必须实打实地把每一次练习存进自己的大脑里。「这就像当你训练一个神经网络时一样,你给它一堆数据。但人类的大脑并不能那样并行工作。」[28:11] 要在某个领域出类拔萃,靠的是习惯的「千日复利」:如果你每天做 5 个国际象棋谜题,乘以 1000 天,你就做了 5000 个谜题,你自然会变得好得多 [25:49]。\n\n### 作弊:技术引发的问题,用更强技术解决\n当机器能轻易产出超越人类的输出并将其伪装成人类表现时,在线作弊成为了一个严峻的挑战 [28:58]。尽管有人曾担忧这会是对游戏的生存威胁,但国际象棋界早就习惯了与作弊长期斗争 [29:44]。\n\nChess.com 不愿透露具体的反作弊机制,但核心在于极其强悍的数据壁垒:他们完全掌握人类下棋的模式特征,也清楚计算机下棋的逻辑,并能通过统计模型和机器学习模型不断逼近检测的极限 [30:22]。虽然没法钻进每个玩家家里装摄像头,但他们依然能通过这些模型高效地封禁作弊账号 [31:06]。\n\n### 扑克、AGI 与人类技能的终极价值\n在扩张版图时,Chess.com 推出了 Gambit,进军扑克领域。其最大的创新在于引入了国际象棋的「评级思路」:剥离买筹码的财力优势,用一套基于对手实力、赢牌数和手牌数的综合算法,衡量你「实际上到底有多强」[34:20]。当人们在乎自己的评级分数时,就会像在乎钱一样在乎它,这将成为扑克界的一大创新 [45:01]。\n\n面对即将到来的 AGI(通用人工智能)或 ASI(超人工智能),Erik 相信超人类智能会以极快的速度降临,而这就需要设立明确的护栏和互动规则 [37:10]。AGI 能用于善也能用于恶,其走向取决于掌权者的选择,因此这是个深刻的文化问题,而非单纯的技术问题 [38:21]。即便机器全方位碾压人类,Erik 依然相信人类技能的绝对价值:国际象棋的热潮就是最强有力的证据——人类渴望习得人类技能,也会欣赏哪怕不如机器那样完美的杰出人类表现 [39:06]。那种认为「在超人类 AI 面前人类技能不再有意义」的虚无主义,纯粹是无稽之谈 [39:49]。\n\n## 本集带走\n- **反共识的启动资金**:找一个你真正热爱的小众市场,靠早期收费实现正向现金流;在不需要重资产投入时,不拿 VC 的钱也能跑赢长达 20 年的马拉松。\n- **让 PE 成为组织进化的催化剂**:在成熟期引入二级市场投资,不为续命,只为倒逼团队建立严谨的运营预测、深度数据汇报与流程规范,完成向大型企业的蜕变。\n- **人机协作的最优解**:即便机器超越人类,其最大价值也是作为加速人类学习的「口袋教练」,通过实时复盘和针对性强化训练,缩短天才的成长周期。\n- **对抗 AI 作弊的检测逻辑**:用「机器行为 vs 人类行为」的差异化特征作为核心判别指标。利用海量的对局数据不断优化统计与机器学习模型,以技术手段保护游戏生态。\n- **评级系统的降维打击**:把零和博弈的金钱游戏(如扑克)改造成以「客观技能实力」为导向的评级体系,通过剥离纯粹的财力优势,重塑用户在游戏中的核心驱动力。\n- **微习惯的千日复利**:不要去寻找捷径。把你想提升的领域拆解为每日最小单位的动作(如 5 个谜题、1 幅草图),将一个普通日子乘以 1000 天,这就是你不可替代的专业壁垒。","quotes":[{"en":"What was interesting is that computers at first made chess a little bit more boring, but then made it so much more exciting and we're seeing more exciting chess than we ever have.","zh":"有趣的是,计算机起初让国际象棋变得有点无聊,但后来让它变得令人兴奋得多,我们看到的国际象棋比以往任何时候都更令人兴奋。","timestamp":"21:57","speaker":"Erik Allebest"},{"en":"But I think the idea that human skill is no longer relevant in the world of superhuman AI just as a product of the technology itself is nonsense.","zh":"但我认为人类技能在超人类 AI 的世界里不再相关的想法,仅仅作为技术本身的一个产物,是无稽之谈。","timestamp":"39:38","speaker":"SPEAKER_00"},{"en":"I think one of the curses of being a founder today is just how much founder advice there is out there.","zh":"我认为作为当今创始人的一大诅咒,就是外界的创始人建议太多了。","timestamp":"35:26","speaker":"Erik Allebest"},{"en":"And stop listening to people just giving you advice on what to do.","zh":"别再听那些给你建议告诉你该做什么的人的话。","timestamp":"36:43","speaker":"Erik Allebest"},{"en":"I think this is less a technology problem and more a cultural problem.","zh":"所以我认为这与其说是一个技术问题,不如说是一个文化问题。","timestamp":"37:39","speaker":"Erik Allebest"}],"quotes_candidates":[{"en":"Fundamentally, humans want to do human stuff.","zh":"从根本上说,人类想做人类的事情。","timestamp":"20:24","speaker":"Erik"},{"en":"At the time when I was getting into doing this 20 years ago, the playbook was like, hire a technical founder from Stanford, raise a bunch of money, get an office, go after a big market, spend a bunch of money on customer acquisition.","zh":"回想我 20 年前刚入行的时候,那个剧本就像是,从斯坦福雇一位技术创始人,筹集一大笔钱,搞个办公室,冲进一个大市场,在客户获取上花一大笔钱。","timestamp":"35:34","speaker":"Erik"},{"en":"And we literally just did like all the opposite of that.","zh":"而我们实际上恰恰做了相反的事。","timestamp":"35:51","speaker":"Erik"},{"en":"But then neural nets came along","zh":"但后来神经网络出现了","timestamp":"21:26","speaker":"Erik"},{"en":"What was interesting is that computers at first made chess a little bit more boring, but then made it so much more exciting and we're seeing more exciting chess than we ever have.","zh":"有趣的是,计算机起初让国际象棋变得有点无聊,但后来让它变得令人兴奋得多,我们看到的国际象棋比以往任何时候都更令人兴奋。","timestamp":"22:00","speaker":"Erik"},{"en":"It's the same as when you train a neural net, right?","zh":"这就像当你训练一个神经网络时一样,对吧?","timestamp":"28:11","speaker":"Erik"},{"en":"Our brains don't work quite that way.","zh":"我们的大脑并不是那样工作的。","timestamp":"28:21","speaker":"Erik"},{"en":"you know losing 100 bucks at a table it's not my favorite thing but i don't care that much but honestly losing you 100 rating points on my on poker that just like really bothers me","zh":"你知道在桌上输掉 100 美元这不是我最喜欢的事情但我没那么在意但说实话在我的扑克评级上输掉 100 个分点真的让我很困扰","timestamp":"45:01","speaker":"Erik"},{"en":"But I think the idea that human skill is no longer relevant in the world of superhuman AI just as a product of the technology itself is nonsense.","zh":"但我认为人类技能在超人类 AI 的世界里不再相关的想法,仅仅作为技术本身的一个产物,是无稽之谈。","timestamp":"39:49","speaker":"Erik"},{"en":"And so we spend a lot of time, a lot of money, a lot of resources on","zh":"所以我们花了很多时间、很多钱、很多资源在","timestamp":"30:04","speaker":"Erik"},{"en":"So I don't know.","zh":"所以我不知道。","timestamp":"32:58","speaker":"Erik"},{"en":"Evolutionarily, it just became the king of games, we can say, because of its many attributes.","zh":"从进化上讲,它只是成为了游戏之王,我们可以这么说,因为它有很多属性。","timestamp":"33:00","speaker":"Erik"},{"en":"I think one of the curses of being a founder today is just how much founder advice there is out there.","zh":"我认为作为当今创始人的一大诅咒,就是外界的创始人建议太多了。","timestamp":"35:26","speaker":"Erik"},{"en":"And stop listening to people just giving you advice on what to do.","zh":"别再听那些给你建议告诉你该做什么的人的话。","timestamp":"36:43","speaker":"Erik"},{"en":"I do believe in superhuman intelligence and that it will move at a faster and faster pace.","zh":"我确实相信超人类智能,并且它会以越来越快的速度发展。","timestamp":"37:01","speaker":"Erik"},{"en":"I think this is less a technology problem and more a cultural problem.","zh":"所以我认为这与其说是一个技术问题,不如说是一个文化问题。","timestamp":"37:55","speaker":"Erik"}]}
+{
+  "title_zh": "棋盘上的 AGI 启示录:Chess.com 创始人谈 AI、作弊与人类技能的未来",
+  "tldr": "Chess.com 创始人分享 20 年自举创业史,以及在 AI 击败人类后,如何让国际象棋更繁荣。",
+  "digest_md": "机器早在 30 年前就在国际象棋上击败了人类,但 Chess.com 的数据表明,人类的胜负欲反而让这项古老游戏空前繁荣。他们的日活达到千万级,并在自举运营 20 年后确立了「让 10 亿人下棋」的宏大使命。但在繁荣背后,面对 AI 辅助作弊的威胁,这家全球最大的国际象棋平台正用更强大的统计模型与技术打一场看不见的保卫战。\n\n### 20 年自举的「反共识」生意经\nErik 从破产拍卖中买下 chess.com 域名。当他试图在 Sand Hill Road（硅谷风险投资聚集地）寻求融资时，几乎所有人都告诉他这是一个「不可投资的小众激情项目」，让他去找份正经工作。最终他没有融一分钱，而是 2007 年上线产品，靠收取在线学习会员费在 18 个月内迅速盈利。\n\n这种不走寻常路的模式贯穿了公司发展的始终:当硅谷的标准创业剧本是「雇名校技术合伙人、融一大笔钱、砸钱获客」时,Erik 偏偏找了圣何塞州立大学的朋友,全远程办公、零外部资金、不花一分钱获客,并且挑了一个极小的市场。这种专注于自身愿景、极致用户体验的做法让团队一步步做大。直到 2024 年,看着疫情期间涌入的用户潮在回落后依然维持在极高的基准线上,团队才真正确信:这是一门在不断复利增长的大生意。\n\n> 【背景】Sand Hill Road(沙丘路)是硅谷著名的风险投资机构聚集地,在语境中代指 VC 行业。\n\n当公司估值达到数十亿美元的规模后,Chess.com 才开始引入 General Atlantic 和 CVC 等私募股权机构。Erik 强调,这些投资全是「二级市场」交易(买断老股),公司业务本身仍不需要任何外部资本注入来维持增长。而引入 PE 的实际意义并非「被催促拼命工作」,而是帮助这家 650 人的全远程团队在运营预测、财务汇报等方面完成了组织架构上的成年礼。\n\n### AI 让国际象棋「先变无聊,再变惊艳」\nDeep Blue(深蓝)当年击败 Kasparov(卡斯帕罗夫)时,许多人预测国际象棋将走向死亡,但这违背了基本的人性。「从根本上说,人类想做人类的事情。那是人与其他人的竞争,是人在制造东西,是人在解决问题。」 \n\n虽然早期的国际象棋引擎(如 Stockfish)过于完美,导致顶级棋手纷纷模仿电脑下出极其无聊的平局残局,一度扼杀了比赛的观赏性;但随后基于神经网络和自我强化学习的引擎(如 Leela Chess Zero)出现,它们极具攻击性且不按套路出牌,反而重新点燃了棋手们的创造力,把这项运动推向了前所未有的精彩高度。如今,AI 早已不是终结者,而是变成了口袋里的超级教练,通过复盘分析、定制谜题等方式,大幅加快了人类学习的速度。我们看到越来越年轻的棋手涌现,正是这种「智力普惠」的直接证明。\n\n### 没有捷径:如何练就顶尖技能\n拥有海量各等级人类棋谱数据的 Chess.com,给出的「变强秘诀」却极其朴素:「只是像小积木一样的重复」。\n\n即使有了强大的 AI 辅助,知识获取变得极度容易,人类依然必须实打实地把每一次练习存进自己的大脑里。「这就像当你训练一个神经网络时一样,你给它一堆数据。但人类的大脑并不能那样并行工作。」 要在某个领域出类拔萃,靠的是习惯的「千日复利」:如果你每天做 5 个国际象棋谜题,乘以 1000 天,你就做了 5000 个谜题,你自然会变得好得多。\n\n### 作弊:技术引发的问题,用更强技术解决\n当机器能轻易产出超越人类的输出并将其伪装成人类表现时,在线作弊成为了一个严峻的挑战。尽管有人曾担忧这会是对游戏的生存威胁,但国际象棋界早就习惯了与作弊长期斗争。\n\nChess.com 不愿透露具体的反作弊机制,但核心在于极其强悍的数据壁垒:他们完全掌握人类下棋的模式特征,也清楚计算机下棋的逻辑,并能通过统计模型和机器学习模型不断逼近检测的极限。虽然没法钻进每个玩家家里装摄像头,但他们依然能通过这些模型高效地封禁作弊账号。\n\n### 扑克、AGI 与人类技能的终极价值\n在扩张版图时,Chess.com 推出了 Gambit,进军扑克领域。其最大的创新在于引入了国际象棋的「评级思路」:剥离买筹码的财力优势,用一套基于对手实力、赢牌数和手牌数的综合算法,衡量你「实际上到底有多强」。当人们在乎自己的评级分数时,就会像在乎钱一样在乎它,这将成为扑克界的一大创新。\n\n面对即将到来的 AGI(通用人工智能)或 ASI(超人工智能),Erik 相信超人类智能会以极快的速度降临,而这就需要设立明确的护栏和互动规则。AGI 能用于善也能用于恶,其走向取决于掌权者的选择,因此这是个深刻的文化问题,而非单纯的技术问题。即便机器全方位碾压人类,Erik 依然相信人类技能的绝对价值:国际象棋的热潮就是最强有力的证据——人类渴望习得人类技能,也会欣赏哪怕不如机器那样完美的杰出人类表现。那种认为「在超人类 AI 面前人类技能不再有意义」的虚无主义,纯粹是无稽之谈。\n\n## 本集带走\n- **反共识的启动资金**:找一个你真正热爱的小众市场,靠早期收费实现正向现金流;在不需要重资产投入时,不拿 VC 的钱也能跑赢长达 20 年的马拉松。\n- **让 PE 成为组织进化的催化剂**:在成熟期引入二级市场投资,不为续命,只为倒逼团队建立严谨的运营预测、深度数据汇报与流程规范,完成向大型企业的蜕变。\n- **人机协作的最优解**:即便机器超越人类,其最大价值也是作为加速人类学习的「口袋教练」,通过实时复盘和针对性强化训练,缩短天才的成长周期。\n- **对抗 AI 作弊的检测逻辑**:用「机器行为 vs 人类行为」的差异化特征作为核心判别指标。利用海量的对局数据不断优化统计与机器学习模型,以技术手段保护游戏生态。\n- **评级系统的降维打击**:把零和博弈的金钱游戏(如扑克)改造成以「客观技能实力」为导向的评级体系,通过剥离纯粹的财力优势,重塑用户在游戏中的核心驱动力。\n- **微习惯的千日复利**:不要去寻找捷径。把你想提升的领域拆解为每日最小单位的动作(如 5 个谜题、1 幅草图),将一个普通日子乘以 1000 天,这就是你不可替代的专业壁垒。",
+  "quotes": [
+    {
+      "en": "What was interesting is that computers at first made chess a little bit more boring, but then made it so much more exciting and we're seeing more exciting chess than we ever have.",
+      "zh": "有趣的是,计算机起初让国际象棋变得有点无聊,但后来让它变得令人兴奋得多,我们看到的国际象棋比以往任何时候都更令人兴奋。",
+      "timestamp": "21:57",
+      "speaker": "Erik Allebest"
+    },
+    {
+      "en": "But I think the idea that human skill is no longer relevant in the world of superhuman AI just as a product of the technology itself is nonsense.",
+      "zh": "但我认为人类技能在超人类 AI 的世界里不再相关的想法,仅仅作为技术本身的一个产物,是无稽之谈。",
+      "timestamp": "39:38",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I think one of the curses of being a founder today is just how much founder advice there is out there.",
+      "zh": "我认为作为当今创始人的一大诅咒,就是外界的创始人建议太多了。",
+      "timestamp": "35:26",
+      "speaker": "Erik Allebest"
+    },
+    {
+      "en": "And stop listening to people just giving you advice on what to do.",
+      "zh": "别再听那些给你建议告诉你该做什么的人的话。",
+      "timestamp": "36:43",
+      "speaker": "Erik Allebest"
+    },
+    {
+      "en": "I think this is less a technology problem and more a cultural problem.",
+      "zh": "所以我认为这与其说是一个技术问题,不如说是一个文化问题。",
+      "timestamp": "37:39",
+      "speaker": "Erik Allebest"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "Fundamentally, humans want to do human stuff.",
+      "zh": "从根本上说,人类想做人类的事情。",
+      "timestamp": "20:24",
+      "speaker": "Erik"
+    },
+    {
+      "en": "At the time when I was getting into doing this 20 years ago, the playbook was like, hire a technical founder from Stanford, raise a bunch of money, get an office, go after a big market, spend a bunch of money on customer acquisition.",
+      "zh": "回想我 20 年前刚入行的时候,那个剧本就像是,从斯坦福雇一位技术创始人,筹集一大笔钱,搞个办公室,冲进一个大市场,在客户获取上花一大笔钱。",
+      "timestamp": "35:34",
+      "speaker": "Erik"
+    },
+    {
+      "en": "And we literally just did like all the opposite of that.",
+      "zh": "而我们实际上恰恰做了相反的事。",
+      "timestamp": "35:51",
+      "speaker": "Erik"
+    },
+    {
+      "en": "But then neural nets came along",
+      "zh": "但后来神经网络出现了",
+      "timestamp": "21:26",
+      "speaker": "Erik"
+    },
+    {
+      "en": "What was interesting is that computers at first made chess a little bit more boring, but then made it so much more exciting and we're seeing more exciting chess than we ever have.",
+      "zh": "有趣的是,计算机起初让国际象棋变得有点无聊,但后来让它变得令人兴奋得多,我们看到的国际象棋比以往任何时候都更令人兴奋。",
+      "timestamp": "22:00",
+      "speaker": "Erik"
+    },
+    {
+      "en": "It's the same as when you train a neural net, right?",
+      "zh": "这就像当你训练一个神经网络时一样,对吧?",
+      "timestamp": "28:11",
+      "speaker": "Erik"
+    },
+    {
+      "en": "Our brains don't work quite that way.",
+      "zh": "我们的大脑并不是那样工作的。",
+      "timestamp": "28:21",
+      "speaker": "Erik"
+    },
+    {
+      "en": "you know losing 100 bucks at a table it's not my favorite thing but i don't care that much but honestly losing you 100 rating points on my on poker that just like really bothers me",
+      "zh": "你知道在桌上输掉 100 美元这不是我最喜欢的事情但我没那么在意但说实话在我的扑克评级上输掉 100 个分点真的让我很困扰",
+      "timestamp": "45:01",
+      "speaker": "Erik"
+    },
+    {
+      "en": "But I think the idea that human skill is no longer relevant in the world of superhuman AI just as a product of the technology itself is nonsense.",
+      "zh": "但我认为人类技能在超人类 AI 的世界里不再相关的想法,仅仅作为技术本身的一个产物,是无稽之谈。",
+      "timestamp": "39:49",
+      "speaker": "Erik"
+    },
+    {
+      "en": "And so we spend a lot of time, a lot of money, a lot of resources on",
+      "zh": "所以我们花了很多时间、很多钱、很多资源在",
+      "timestamp": "30:04",
+      "speaker": "Erik"
+    },
+    {
+      "en": "So I don't know.",
+      "zh": "所以我不知道。",
+      "timestamp": "32:58",
+      "speaker": "Erik"
+    },
+    {
+      "en": "Evolutionarily, it just became the king of games, we can say, because of its many attributes.",
+      "zh": "从进化上讲,它只是成为了游戏之王,我们可以这么说,因为它有很多属性。",
+      "timestamp": "33:00",
+      "speaker": "Erik"
+    },
+    {
+      "en": "I think one of the curses of being a founder today is just how much founder advice there is out there.",
+      "zh": "我认为作为当今创始人的一大诅咒,就是外界的创始人建议太多了。",
+      "timestamp": "35:26",
+      "speaker": "Erik"
+    },
+    {
+      "en": "And stop listening to people just giving you advice on what to do.",
+      "zh": "别再听那些给你建议告诉你该做什么的人的话。",
+      "timestamp": "36:43",
+      "speaker": "Erik"
+    },
+    {
+      "en": "I do believe in superhuman intelligence and that it will move at a faster and faster pace.",
+      "zh": "我确实相信超人类智能,并且它会以越来越快的速度发展。",
+      "timestamp": "37:01",
+      "speaker": "Erik"
+    },
+    {
+      "en": "I think this is less a technology problem and more a cultural problem.",
+      "zh": "所以我认为这与其说是一个技术问题,不如说是一个文化问题。",
+      "timestamp": "37:55",
+      "speaker": "Erik"
+    }
+  ]
+}

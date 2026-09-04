@@ -258,8 +258,16 @@ describe("drift #87 · 正文剥掉「无说话人的时间戳区间」(用户�
     expect(stripRangeStamps(keep)).toBe(keep);
     expect(stripRangeStamps("[00:00 主持人] 开场")).toBe("[00:00 主持人] 开场");
   });
-  it("★★ 裸时间戳 [06:26] 本刀不动(30 集长期在用,另议)", () => {
-    expect(stripRangeStamps("他写下一份「AI 宣言」[06:26]。")).toBe("他写下一份「AI 宣言」[06:26]。");
+  it("★★★ 裸时间戳 [06:26] 也剥(用户 2026-09-04 拍板「一并清掉」,30 集 644 处已清)", () => {
+    expect(stripRangeStamps("他写下一份「AI 宣言」[06:26]。")).toBe("他写下一份「AI 宣言」。");
+    expect(stripRangeStamps("彼此几乎不交流 [09:43]。")).toBe("彼此几乎不交流。");
+  });
+  it("★★★ 方括号里只要有说话人就整体保留 —— 判据是「有没有说话人」,不是「有没有时间戳」", () => {
+    expect(stripRangeStamps("见 [注1] 说明")).toBe("见 [注1] 说明");
+    expect(stripRangeStamps("[12:28 Conway] 说")).toBe("[12:28 Conway] 说");
+  });
+  it("★★ 括号内不跨行(GLM 020[1]:原用 \\s 会跨行匹配,比实际见过的形态宽)", () => {
+    expect(stripRangeStamps("a [06:26\n] b")).toBe("a [06:26\n] b");
   });
   it("★ 空/无标记输入原样返回", () => {
     expect(stripRangeStamps("")).toBe("");

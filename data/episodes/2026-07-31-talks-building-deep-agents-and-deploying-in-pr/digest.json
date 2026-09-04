@@ -1,1 +1,123 @@
-{"title_zh":"把智能体推向生产环境:为什么标准基础设施不够用","tldr":"从开源框架 DeepAgents 的架构设计,到长任务、记忆、权限与人机交互的生产级挑战。","digest_md":"你给大模型挂上工具、塞进提示词、装上护栏,这些围绕模型搭建的全部代码,有一个统称——harness(挽具/框架)。Claude Code 光这部分就有 50 万行代码,全是为了让模型在执行你的任务时表现最好 [01:07]。讲这场分享的人来自 LangChain,他不仅拆解了这套框架里有什么,还讲了一个更扎心的事实:现有的标准基础设施,根本扛不住真正复杂的智能体跑在生产环境里。\n\n这是 LangChain 团队的成员,这一集聊了两块内容:前半段拆解他们开源的 DeepAgents 框架到底封装了哪些最佳实践,以及为什么文件系统成了当前管理上下文的「最先进技术」;后半段则直面现实——当你的智能体任务变长、变复杂,标准的基础设施会在持久化执行、记忆、权限和人工审批上统统掉链子,你得针对性地重建运行时的地基。结尾他还顺带提了一句,如果你不想自己搞定这些麻烦,LangSmith 部署提供了打包方案。\n\n### 智能体到底是什么:harness 的拆解\n\n要理解这场分享,得先弄明白一个核心等式:一个智能体 = 一个基础大模型 + 一个 harness [00:41]。如果你不是那个模型本身,那你写的一切围绕模型运转的代码,就是 harness。\n\n那么,harness 里具体有什么?讲者把里面的核心构件分了几类。首先是系统提示词和记忆,这是你与大模型交互的主要接口,也是让模型随着时间学习你偏好的方式。其次是工具、技能、MCP(模型上下文协议)和子智能体,这些通常属于编排层的东西也被算作 harness 的一部分。再往外扩展,任何智能体与之交互的基础设施——比如文件系统、沙箱(一种隔离程序运行的安全环境)、浏览器——同样属于这个框架 [02:09]。DeepAgents 的独特之处在于引入了钩子和中间件的概念:你可以定义自己的中间件来拦截对模型的调用,在模型执行前后注入自定义逻辑,比如护栏(限制模型行为的规则)或额外的预处理 [02:29]。\n\n### 为什么文件系统成了上下文管理的「最先进技术」\n\n说完了 harness 里有什么,接下来是 DeepAgents 在具体设计上最强调的一个原语:文件系统。\n\n在这个框架里,文件系统被视为目前上下文管理的最先进技术。智能体会利用文件系统来存储可能需要参考的信息,就像用便签本一样 [03:31]。为什么偏偏是文件系统?原因在于基础模型的训练数据。因为各大模型在优化 Claude Code 和 Codex 等编程智能体的过程中,接受了海量的文件系统数据训练,所以它们非常非常擅长利用这个接口。把数据以文件系统的形式提供给模型,往往能直接提升表现 [03:49]。围绕上下文管理,DeepAgents 还开放了摘要、子智能体和规划等模块,让你精准控制送达模型的信息量,只传递最少量的必要信息,从而扩展上下文窗口并保持模型专注。\n\n从架构层级看,DeepAgents 是最高级别的抽象,构建在 LangChain 之上,提供标准工具调用能力;而 LangChain 的底层是提供节点、边和状态的 LangGraph [04:46]。这种分层带来极强的可组合性:你可以让一个完全确定性的 LangGraph 工作流,把 DeepAgent 当作其中一个处理复杂推理的节点;反过来,让深度智能体在底层协调确定性流作为子智能体也可以 [06:42]。这就允许开发者根据任务找到自由度与确定性的最佳平衡点。这也是为什么团队建议:构建智能体时,始终从深度智能体开始 [08:11]。\n\n### 标准基础设施的失灵:复杂智能体的生产难题\n\n工具和架构再好,一旦要部署到生产环境,真正的考验才刚开始。这正是接下来的话题:标准基础设施并不是为长期运行的复杂智能体而构建的 [08:28]。\n\n当一个深度智能体的用例是长期运行、多步骤的,你就会面临一系列棘手的新问题。讲者列出了必须考量的因素清单:如何处理错误、如何实现自动伸缩或并行分发、如何恢复掉线的会话,以及如何加入人工在环 [09:11]。你现成的运行时环境需要彻底改造,才能适应这些复杂的深度任务。\n\n首当其冲的是持久化执行。智能体的核心模式仍然受限于上下文窗口。当你构建复杂智能体时,必然会把上下文窗口推向极限,运行很长时间;而在逼近极限的过程中,智能体产生幻觉或出错的概率会越来越大 [10:16]。如果没有适当的机制,一旦任务跑到第 67 步(假设总共 123 步)时崩溃,你就得从第一步重来,这种体验极其糟糕。DeepAgents 和 LangGraph 通过在执行的每一步设置检查点来解决这个问题,如果第 67 步失败,你可以直接从第 66 步恢复 [10:36]。\n\n把跨会话的检查点串联起来,就引出了第二大挑战:记忆机制。把单个会话的所有执行步骤关联起来,就构成了短期记忆,让智能体记住你前几轮对话的偏好;如果把这些跨会话的洞察提取出来存入长期记忆库,就能实现为特定用户进行个性化定制的功能 [11:38]。\n\n第三大挑战是极其棘手的身份验证与权限问题。在智能体场景下,权限的边界变得模糊了 [12:43]。传统应用里,你授权一个程序读写 Gmail,它是确定性的,你很放心;但对于复杂智能体,你可能觉得它替你发一封邮件没问题,但如果它瞬间替你发了一千封邮件,你肯定会觉得出大问题了,想要立刻调查并叫停 [13:15]。这种动态的、需要根据行为频次或规模进行干预的权限控制,是传统应用没有的全新 auth 流程,也是目前业界仍在摸索的领域。\n\n最后,只要任务重要,就必然需要一定程度的人工在环 [13:45]。这就要求运行时必须支持最基础的人机交互:人类用户如何中断、停止或批准智能体的动作?智能体在执行长任务时,如何将其实时进度流式传输回前端,持续向人类更新状态?这些都是把复杂智能体推向生产时绕不开的底层基础设施。\n\n讲者也坦言,如果注意到了这些生产级难题却拿不出方案是不合适的。LangSmith 部署就是为此而生:如果你不想自己从头解决这些掉头发的底层问题,可以直接把构建好的智能体自动部署到他们的平台上 [15:12]。但无论你是否使用这套商业产品,只要打算在生产环境跑复杂智能体,上述的持久化、记忆、动态权限和人机交互,都是你必须跨过的门槛。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是对智能体架构和生产挑战的全景认知。第一,智能体等于基础模型加上 harness(框架),这层围绕模型的代码包含了提示词、工具、沙箱和中间件,决定了模型表现的下限。第二,文件系统是目前管理上下文的最先进手段,因为模型在训练中已经极度熟悉它,以文件形式喂数据能直接涨表现。第三,标准基础设施扛不住复杂智能体,要在生产环境跑长线任务,必须在运行时层面死磕持久化执行(靠检查点实现断点续传)、长期记忆(提取跨会话状态)、动态权限管理(应对模糊的行为边界)以及人工在环的交互通道。无论你自己造轮子还是用打包方案,这都是绕不过去的四道坎。","quotes":[{"en":"the easiest way to think about this equation is that if you're not the model, you're the harness.","zh":"思考这个等式最简单的方法是,如果你不是那个模型,你就是那个框架。","timestamp":"00:56","speaker":"SPEAKER_00"},{"en":"The file system is... Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad.","zh":"文件系统是……可能是目前上下文管理的最先进技术,智能体将利用文件系统来存储它们可能需要参考的信息,比如便签本。","timestamp":"03:29","speaker":"SPEAKER_00"},{"en":"Our recommendation when it comes to building agents is to always start with a deep agent.","zh":"我们在构建智能体方面的建议是,始终从深度智能体开始。","timestamp":"08:11","speaker":"SPEAKER_00"},{"en":"It's likely that the longer your task is, at some point your agent is going to fail, and it's going to feel really bad if you're on step 67 out of 123, and then you have to execute all the 67 steps again when you restart the task.","zh":"你的任务越长,你的智能体在某个时刻失败的可能性就越大,如果你处于 123 个步骤中的第 67 步,然后必须在重启任务时再次执行所有这 67 个步骤,那感觉真的很糟糕。","timestamp":"08:57","speaker":"SPEAKER_00"}],"quotes_candidates":[{"en":"And the easiest way to think about this equation is that if you're not the model, you're the harness.","zh":"思考这个等式最简单的方法是,如果你不是那个模型,你就是那个框架。","timestamp":"00:54","speaker":"Unknown"},{"en":"All of those 500,000 lines are part of the harness.","zh":"所有那 50 万行代码都是框架的一部分。","timestamp":"01:15","speaker":"Unknown"},{"en":"DeepAgents allows you to define your own middleware to intercept calls to the model, either before the model executes or after the model executes, so you can add in your own custom logic","zh":"DeepAgents 允许你定义自己的中间件来拦截对模型的调用,无论是在模型执行之前还是之后,这样你就可以添加你自己的自定义逻辑","timestamp":"02:29","speaker":"Unknown"},{"en":"The file system is... Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad.","zh":"文件系统是……可能是目前上下文管理的最先进技术,智能体将利用文件系统来存储它们可能需要参考的信息,比如便签本。","timestamp":"03:31","speaker":"Unknown"},{"en":"Foundational models are very, very good at utilizing the interface, so giving your data to your model in the form of a file system tends to boost performance.","zh":"基础模型非常非常擅长利用这个接口,所以以文件系统的形式将你的数据提供给你的模型往往能提升性能。","timestamp":"03:49","speaker":"Unknown"},{"en":"It'll add things like a subagent tool too so that your core LLM can dynamically spin up subagents.","zh":"它还会添加诸如子智能体工具之类的东西,以便你的核心大模型可以动态地启动子智能体。","timestamp":"06:23","speaker":"Unknown"},{"en":"You can have a fully deterministic LangGraph workflow utilize a DeepAgent as one of its nodes.","zh":"你可以拥有一个完全确定性的 LangGraph 工作流,将 DeepAgent 用作它的其中一个节点。","timestamp":"06:42","speaker":"Unknown"},{"en":"Our recommendation when it comes to building agents is to always start with a deep agent.","zh":"我们在构建智能体方面的建议是,始终从深度智能体开始。","timestamp":"08:11","speaker":"Unknown"},{"en":"Standard infrastructure in short is not really built for long running complex agents.","zh":"简而言之,标准基础设施并不是为长期运行的复杂智能体而构建的。","timestamp":"08:28","speaker":"Unknown"},{"en":"It's likely that the longer your task is, at some point your agent is going to fail, and it's going to feel really bad if you're on step 67 out of 123, and then you have to execute all the 67 steps again when you restart the task.","zh":"你的任务越长,你的智能体在某个时刻失败的可能性就越大,如果你处于 123 个步骤中的第 67 步,然后必须在重启任务时再次执行所有这 67 个步骤,那感觉真的很糟糕。","timestamp":"08:57","speaker":"Unknown"},{"en":"So by nature of building a complex agent, you are likely going to be pushing your context window to the limit.","zh":"因此,构建复杂智能体的本质决定了你很可能会将上下文窗口推向极限。","timestamp":"10:16","speaker":"Unknown"},{"en":"So if you have a failure at step 67, you can start from step 66 and not have to go back to step one.","zh":"所以如果你在第 67 步失败了,你可以从第 66 步开始,而不必回到第一步。","timestamp":"10:44","speaker":"Unknown"},{"en":"But there's also new sorts of RBAC and auth scenarios that agents have fuzzy lines around that you don't really have with traditional applications.","zh":"但也有新的 RBAC 和认证场景,智能体在这些场景周围有模糊的界限,这是你在传统应用中真的没有的。","timestamp":"12:43","speaker":"Unknown"},{"en":"For example, you might be okay with an agent sending one email on your behalf, but you might think that something's wrong and you might want to investigate if you see that agent sending a thousand emails on your behalf.","zh":"例如,你可能可以接受一个智能体代表你发送一封邮件,但如果你看到那个智能体代表你发送一千封邮件,你可能会觉得出问题了,想去调查一下。","timestamp":"13:15","speaker":"Unknown"},{"en":"There are cases where you can fully run something autonomously end to end with an agent, but many cases today, you will still want to have some degree of human oversight.","zh":"在某些情况下你可以用智能体完全自主地端到端运行某些东西,但在今天的许多情况下,你仍然会希望有某种程度的人工监督。","timestamp":"14:04","speaker":"Unknown"}]}
+{
+  "title_zh": "把智能体推向生产环境:为什么标准基础设施不够用",
+  "tldr": "从开源框架 DeepAgents 的架构设计,到长任务、记忆、权限与人机交互的生产级挑战。",
+  "digest_md": "你给大模型挂上工具、塞进提示词、装上护栏,这些围绕模型搭建的全部代码,有一个统称——harness(挽具/框架)。Claude Code 光这部分就有 50 万行代码,全是为了让模型在执行你的任务时表现最好。讲这场分享的人来自 LangChain,他不仅拆解了这套框架里有什么,还讲了一个更扎心的事实:现有的标准基础设施,根本扛不住真正复杂的智能体跑在生产环境里。\n\n这是 LangChain 团队的成员,这一集聊了两块内容:前半段拆解他们开源的 DeepAgents 框架到底封装了哪些最佳实践,以及为什么文件系统成了当前管理上下文的「最先进技术」;后半段则直面现实——当你的智能体任务变长、变复杂,标准的基础设施会在持久化执行、记忆、权限和人工审批上统统掉链子,你得针对性地重建运行时的地基。结尾他还顺带提了一句,如果你不想自己搞定这些麻烦,LangSmith 部署提供了打包方案。\n\n### 智能体到底是什么:harness 的拆解\n\n要理解这场分享,得先弄明白一个核心等式:一个智能体 = 一个基础大模型 + 一个 harness。如果你不是那个模型本身,那你写的一切围绕模型运转的代码,就是 harness。\n\n那么,harness 里具体有什么?讲者把里面的核心构件分了几类。首先是系统提示词和记忆,这是你与大模型交互的主要接口,也是让模型随着时间学习你偏好的方式。其次是工具、技能、MCP(模型上下文协议)和子智能体,这些通常属于编排层的东西也被算作 harness 的一部分。再往外扩展,任何智能体与之交互的基础设施——比如文件系统、沙箱(一种隔离程序运行的安全环境)、浏览器——同样属于这个框架。DeepAgents 的独特之处在于引入了钩子和中间件的概念:你可以定义自己的中间件来拦截对模型的调用,在模型执行前后注入自定义逻辑,比如护栏(限制模型行为的规则)或额外的预处理。\n\n### 为什么文件系统成了上下文管理的「最先进技术」\n\n说完了 harness 里有什么,接下来是 DeepAgents 在具体设计上最强调的一个原语:文件系统。\n\n在这个框架里,文件系统被视为目前上下文管理的最先进技术。智能体会利用文件系统来存储可能需要参考的信息,就像用便签本一样。为什么偏偏是文件系统?原因在于基础模型的训练数据。因为各大模型在优化 Claude Code 和 Codex 等编程智能体的过程中,接受了海量的文件系统数据训练,所以它们非常非常擅长利用这个接口。把数据以文件系统的形式提供给模型,往往能直接提升表现。围绕上下文管理,DeepAgents 还开放了摘要、子智能体和规划等模块,让你精准控制送达模型的信息量,只传递最少量的必要信息,从而扩展上下文窗口并保持模型专注。\n\n从架构层级看,DeepAgents 是最高级别的抽象,构建在 LangChain 之上,提供标准工具调用能力;而 LangChain 的底层是提供节点、边和状态的 LangGraph。这种分层带来极强的可组合性:你可以让一个完全确定性的 LangGraph 工作流,把 DeepAgent 当作其中一个处理复杂推理的节点;反过来,让深度智能体在底层协调确定性流作为子智能体也可以。这就允许开发者根据任务找到自由度与确定性的最佳平衡点。这也是为什么团队建议:构建智能体时,始终从深度智能体开始。\n\n### 标准基础设施的失灵:复杂智能体的生产难题\n\n工具和架构再好,一旦要部署到生产环境,真正的考验才刚开始。这正是接下来的话题:标准基础设施并不是为长期运行的复杂智能体而构建的。\n\n当一个深度智能体的用例是长期运行、多步骤的,你就会面临一系列棘手的新问题。讲者列出了必须考量的因素清单:如何处理错误、如何实现自动伸缩或并行分发、如何恢复掉线的会话,以及如何加入人工在环。你现成的运行时环境需要彻底改造,才能适应这些复杂的深度任务。\n\n首当其冲的是持久化执行。智能体的核心模式仍然受限于上下文窗口。当你构建复杂智能体时,必然会把上下文窗口推向极限,运行很长时间;而在逼近极限的过程中,智能体产生幻觉或出错的概率会越来越大。如果没有适当的机制,一旦任务跑到第 67 步(假设总共 123 步)时崩溃,你就得从第一步重来,这种体验极其糟糕。DeepAgents 和 LangGraph 通过在执行的每一步设置检查点来解决这个问题,如果第 67 步失败,你可以直接从第 66 步恢复。\n\n把跨会话的检查点串联起来,就引出了第二大挑战:记忆机制。把单个会话的所有执行步骤关联起来,就构成了短期记忆,让智能体记住你前几轮对话的偏好;如果把这些跨会话的洞察提取出来存入长期记忆库,就能实现为特定用户进行个性化定制的功能。\n\n第三大挑战是极其棘手的身份验证与权限问题。在智能体场景下,权限的边界变得模糊了。传统应用里,你授权一个程序读写 Gmail,它是确定性的,你很放心;但对于复杂智能体,你可能觉得它替你发一封邮件没问题,但如果它瞬间替你发了一千封邮件,你肯定会觉得出大问题了,想要立刻调查并叫停。这种动态的、需要根据行为频次或规模进行干预的权限控制,是传统应用没有的全新 auth 流程,也是目前业界仍在摸索的领域。\n\n最后,只要任务重要,就必然需要一定程度的人工在环。这就要求运行时必须支持最基础的人机交互:人类用户如何中断、停止或批准智能体的动作?智能体在执行长任务时,如何将其实时进度流式传输回前端,持续向人类更新状态?这些都是把复杂智能体推向生产时绕不开的底层基础设施。\n\n讲者也坦言,如果注意到了这些生产级难题却拿不出方案是不合适的。LangSmith 部署就是为此而生:如果你不想自己从头解决这些掉头发的底层问题,可以直接把构建好的智能体自动部署到他们的平台上。但无论你是否使用这套商业产品,只要打算在生产环境跑复杂智能体,上述的持久化、记忆、动态权限和人机交互,都是你必须跨过的门槛。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是对智能体架构和生产挑战的全景认知。第一,智能体等于基础模型加上 harness(框架),这层围绕模型的代码包含了提示词、工具、沙箱和中间件,决定了模型表现的下限。第二,文件系统是目前管理上下文的最先进手段,因为模型在训练中已经极度熟悉它,以文件形式喂数据能直接涨表现。第三,标准基础设施扛不住复杂智能体,要在生产环境跑长线任务,必须在运行时层面死磕持久化执行(靠检查点实现断点续传)、长期记忆(提取跨会话状态)、动态权限管理(应对模糊的行为边界)以及人工在环的交互通道。无论你自己造轮子还是用打包方案,这都是绕不过去的四道坎。",
+  "quotes": [
+    {
+      "en": "the easiest way to think about this equation is that if you're not the model, you're the harness.",
+      "zh": "思考这个等式最简单的方法是,如果你不是那个模型,你就是那个框架。",
+      "timestamp": "00:56",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "The file system is... Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad.",
+      "zh": "文件系统是……可能是目前上下文管理的最先进技术,智能体将利用文件系统来存储它们可能需要参考的信息,比如便签本。",
+      "timestamp": "03:29",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Our recommendation when it comes to building agents is to always start with a deep agent.",
+      "zh": "我们在构建智能体方面的建议是,始终从深度智能体开始。",
+      "timestamp": "08:11",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It's likely that the longer your task is, at some point your agent is going to fail, and it's going to feel really bad if you're on step 67 out of 123, and then you have to execute all the 67 steps again when you restart the task.",
+      "zh": "你的任务越长,你的智能体在某个时刻失败的可能性就越大,如果你处于 123 个步骤中的第 67 步,然后必须在重启任务时再次执行所有这 67 个步骤,那感觉真的很糟糕。",
+      "timestamp": "08:57",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "And the easiest way to think about this equation is that if you're not the model, you're the harness.",
+      "zh": "思考这个等式最简单的方法是,如果你不是那个模型,你就是那个框架。",
+      "timestamp": "00:54",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "All of those 500,000 lines are part of the harness.",
+      "zh": "所有那 50 万行代码都是框架的一部分。",
+      "timestamp": "01:15",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "DeepAgents allows you to define your own middleware to intercept calls to the model, either before the model executes or after the model executes, so you can add in your own custom logic",
+      "zh": "DeepAgents 允许你定义自己的中间件来拦截对模型的调用,无论是在模型执行之前还是之后,这样你就可以添加你自己的自定义逻辑",
+      "timestamp": "02:29",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The file system is... Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad.",
+      "zh": "文件系统是……可能是目前上下文管理的最先进技术,智能体将利用文件系统来存储它们可能需要参考的信息,比如便签本。",
+      "timestamp": "03:31",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Foundational models are very, very good at utilizing the interface, so giving your data to your model in the form of a file system tends to boost performance.",
+      "zh": "基础模型非常非常擅长利用这个接口,所以以文件系统的形式将你的数据提供给你的模型往往能提升性能。",
+      "timestamp": "03:49",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It'll add things like a subagent tool too so that your core LLM can dynamically spin up subagents.",
+      "zh": "它还会添加诸如子智能体工具之类的东西,以便你的核心大模型可以动态地启动子智能体。",
+      "timestamp": "06:23",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "You can have a fully deterministic LangGraph workflow utilize a DeepAgent as one of its nodes.",
+      "zh": "你可以拥有一个完全确定性的 LangGraph 工作流,将 DeepAgent 用作它的其中一个节点。",
+      "timestamp": "06:42",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Our recommendation when it comes to building agents is to always start with a deep agent.",
+      "zh": "我们在构建智能体方面的建议是,始终从深度智能体开始。",
+      "timestamp": "08:11",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Standard infrastructure in short is not really built for long running complex agents.",
+      "zh": "简而言之,标准基础设施并不是为长期运行的复杂智能体而构建的。",
+      "timestamp": "08:28",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It's likely that the longer your task is, at some point your agent is going to fail, and it's going to feel really bad if you're on step 67 out of 123, and then you have to execute all the 67 steps again when you restart the task.",
+      "zh": "你的任务越长,你的智能体在某个时刻失败的可能性就越大,如果你处于 123 个步骤中的第 67 步,然后必须在重启任务时再次执行所有这 67 个步骤,那感觉真的很糟糕。",
+      "timestamp": "08:57",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So by nature of building a complex agent, you are likely going to be pushing your context window to the limit.",
+      "zh": "因此,构建复杂智能体的本质决定了你很可能会将上下文窗口推向极限。",
+      "timestamp": "10:16",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So if you have a failure at step 67, you can start from step 66 and not have to go back to step one.",
+      "zh": "所以如果你在第 67 步失败了,你可以从第 66 步开始,而不必回到第一步。",
+      "timestamp": "10:44",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "But there's also new sorts of RBAC and auth scenarios that agents have fuzzy lines around that you don't really have with traditional applications.",
+      "zh": "但也有新的 RBAC 和认证场景,智能体在这些场景周围有模糊的界限,这是你在传统应用中真的没有的。",
+      "timestamp": "12:43",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "For example, you might be okay with an agent sending one email on your behalf, but you might think that something's wrong and you might want to investigate if you see that agent sending a thousand emails on your behalf.",
+      "zh": "例如,你可能可以接受一个智能体代表你发送一封邮件,但如果你看到那个智能体代表你发送一千封邮件,你可能会觉得出问题了,想去调查一下。",
+      "timestamp": "13:15",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "There are cases where you can fully run something autonomously end to end with an agent, but many cases today, you will still want to have some degree of human oversight.",
+      "zh": "在某些情况下你可以用智能体完全自主地端到端运行某些东西,但在今天的许多情况下,你仍然会希望有某种程度的人工监督。",
+      "timestamp": "14:04",
+      "speaker": "Unknown"
+    }
+  ]
+}

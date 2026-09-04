@@ -1,1 +1,87 @@
-{"title_zh":"别迷信大上下文：拆解 Claude 认证架构师考试的反模式","tldr":"资深讲师拆解 Claude 认证架构师考试的五大场景，点明智能体设计中最致命的反模式与正确做法。","digest_md":"编程不再是通往工作的神奇路径了——因为 AI 来了。说这话的人是 Frank Coyle，一个教了 30 多年计算机科学、现在在伯克利教书的老师。面对被 AI 冲击的学生，他最近找到了一个帮助大家入门智能体 AI 的抓手：Anthropic 在今年 3 月推出的 Claude 认证架构师考试。\n\n在这一集里，他带大家拆解了这场考试到底在考什么。考试对个人开放，花 99 美元每半年能考一次。它不是简单的选择题，而是基于真实的业务约束和场景。考纲分成五个领域：占 27% 的智能体架构、占 20% 的 Claude Code 配置与工作流、提示词工程（比如到处用 JSON 结构化输出）、工具设计与模型上下文集成，以及上下文管理和可靠性。官方会给你提供六个生产场景，考试随机抽四个来考你。接下来我们就顺着这些场景，看看 Anthropic 认为什么才是合格的智能体设计。这一集的灵魂不在于教你怎么拿分，而在于点出那些会导致系统崩溃的反模式——弄懂了什么千万别做，你自然就知道该怎么做。\n\n考试的第一个场景，是构建客户支持解决智能体。如今的 AI 圈子总爱把智能体挂在嘴边，Frank 提醒大家，大家追捧的所谓循环（让模型不断执行、反馈、再执行的动作）根本不是什么新鲜事。早在 1966 年，计算机科学家就证明了，只要你有顺序执行、条件判断和循环，就能做到图灵完备（即能计算出计算机所能计算的一切）。如今的智能体能变得这么强大，正是因为我们给它补上了循环这个关键拼图。\n\n但有了循环，第一个反模式就来了：千万别让智能体闷头干完活，直接把结果拿过来就用。你要做的，是让程序去监控模型的“停止原因”。大语言模型本身做不了任何事，它只是个概率上的“下一个词预测器”，它没法自己执行工具。它真正做的，是把工具需要的参数提取出来交给你。所以当模型停下时，它返回的“停止原因”如果是工具使用，你的代码就得去真正运行那个工具，再把结果丢回给模型让它继续；如果“停止原因”显示 token（模型处理信息的最小单位）用完了，你就得知道这个回答是不完整的，必须采取干预措施 [10:55]。\n\n说完了单兵作战的智能体，接下来的场景是：如果要多个智能体协同工作该怎么办？考试的第三个场景就是多智能体研究系统。这里最大的反模式，是把所有工具都塞给同一个智能体。Frank 打了个比方：这就像你雇了个木匠来家里干活，结果他带着水管工、电工、木工的全套工具出现，说自己什么都能干。你真正需要的是专注干好一件事的专业木匠。\n\n同样要命的，是让子智能体的上下文溢出到主上下文里 [13:11]。很多人觉得现在上下文窗口动辄上百万 token，大得装得下一切，于是就把所有东西都往里塞。千万别这么做。因为上下文越多，意味着花钱越多，而且模型在给答案时也会越困惑、越不准。Frank 特别提醒，当你把一群智能体凑在一起协作时，它们会产生像人类一样的群体思维（随大溜、不愿做破坏气氛的那个人）[14:36]。所以正确的做法是做子任务隔离：每个智能体只拿到完成自己任务所需的切片信息。比如让评论者智能体去审查某个主张，你只把主张和证据给它，千万别把它背后一长串的思维过程也丢进去，否则整个系统很容易被带偏。\n\n工具和人都齐了，面对具体的开发任务该怎么管上下文？这就是考试第四个场景开发者生产力要解决的。这里的核心反模式，是让每个子任务把它完整的输出全都倾倒进主线程里，导致上下文无限制地膨胀。正确的做法是执行上下文分叉：把智能体赶到一个单独的线程里干活，无论它在那边怎么折腾、查了多少日志，那些庞杂的过程都不会回来污染主上下文。你只需要把最终提炼出的摘要带回来就行。\n\n如果哪怕做了隔离，上下文还是不可避免地变大了怎么办？你可以监控 token 数量，当它超过比如 15 万时，主动运行一次压缩。Anthropic 自带能把巨大上下文揉碎、浓缩的压缩算法 [17:12]。如果你觉得官方的算法不够贴合业务，你完全可以自己写一套自定义的逻辑，决定哪些信息必须保留。\n\n那么，写好了的 Claude 程序怎么进入日常的持续集成流水线？最后这个场景同样藏着反模式：千万别在自动化流水线里开启交互模式 [18:20]。因为一旦开启，Claude 会在半路上突然停下来问你：“我想做这个，行不行？”这在需要无人值守跑通宵的流水线里简直是灾难。你要把它设置成一气呵成跑到底的模式。此外还有个省钱的实用技巧：如果不急要结果，你可以把任务打成一个批处理。用这种方式，你能享受打对折的 token 成本——官方保证最迟在 24 小时内把结果交给你 [18:46]。你可以下班去睡觉、去度假，让任务自己慢慢跑就行。\n\n## 本集带走\n\n最后收个尾，这一集值得带走的是这么几层意思。第一，时代变了，计算机科学不再是包票，面对智能体 AI 的冲击，动手做、去实验才是唯一的出路。第二，循环是智能体之所以拥有强大能力的基石，但在让循环转起来之前，一定要盯紧模型每一次停下来的“停止原因”，它是你判断该不该执行工具、或者有没有超限的关键信号。第三，也是最核心的一条，永远不要迷信那个庞大无比的上下文窗口。不管你是在分配任务、调度子智能体还是处理子任务的输出结果，都要千方百计地做隔离、给切片、防溢出，必要的时候果断触发压缩。把多余的上下文挡在门外，你的系统才会又准又省钱。最后，上了流水线就彻底放手，去掉交互确认，用批处理换半价成本，这才是让 AI 真正替你打工的成熟姿势。","quotes":[{"en":"The problem is the LLM can't do anything.","zh":"问题是 LLM 做不了任何事。","timestamp":"08:53","speaker":"Frank Coyle"},{"en":"Context spill over into the main context because context means tokens, tokens mean money, and the more context you have, the more confused the LLM is gonna be in giving you an answer.","zh":"上下文溢出到主上下文，因为上下文意味着 tokens，tokens 意味着钱，而且你有越多的上下文，LLM 在给你答案时就会越困惑。","timestamp":"13:11","speaker":"Frank Coyle"},{"en":"When you get a bunch of agents together collaborating and talking to each other, there's a tendency to have group think.","zh":"当你把一群智能体聚集在一起协作并互相交谈时，会有一种群体思维的趋势。","timestamp":"14:25","speaker":"Frank Coyle"}],"quotes_candidates":[{"en":"Past and present are having is AI because computer science is no longer the magic pathway to a job.","zh":"过去和现在的，就是 AI，因为计算机科学不再是通往工作的神奇路径了。","timestamp":"00:32","speaker":"Frank Coyle"},{"en":"and I think anti-patterns are a key to understanding what you should not do, because understanding what you should not do is the key to leading you to what you should do.","zh":"我认为反模式是理解你不该做什么的关键，因为理解你不该做什么是引导你去做你该做的事的关键。","timestamp":"02:13","speaker":"Frank Coyle"},{"en":"The problem is the LLM can't do anything.","zh":"问题是 LLM 做不了任何事。","timestamp":"08:53","speaker":"Frank Coyle"},{"en":"It is just a probabilistic next word predictor.","zh":"它只是一个概率性的下一个词预测器。","timestamp":"09:01","speaker":"Frank Coyle"},{"en":"Context spill over into the main context because context means tokens, tokens mean money, and the more context you have, the more confused the LLM is gonna be in giving you an answer.","zh":"上下文溢出到主上下文，因为上下文意味着 tokens，tokens 意味着钱，而且你有越多的上下文，LLM 在给你答案时就会越困惑。","timestamp":"13:11","speaker":"Frank Coyle"},{"en":"When you get a bunch of agents together collaborating and talking to each other, there's a tendency to have group think.","zh":"当你把一群智能体聚集在一起协作并互相交谈时，会有一种群体思维的趋势。","timestamp":"14:36","speaker":"Frank Coyle"},{"en":"Let every subtask dump its full output into the primary thread, crowding out the context.","zh":"让每个子任务把它的完整输出都倾倒到主线程中，挤占上下文。","timestamp":"15:25","speaker":"Frank Coyle"},{"en":"So there are ways to set it up so that it'll just run straight through, okay?","zh":"所以有一些方法可以设置它，让它直接运行到底，好吗？","timestamp":"18:29","speaker":"Frank Coyle"},{"en":"So you can take your prompts, you can take your work, and you can put them in a batch, and for 50% fewer token cost, you will get the result they promise in at least 24 hours.","zh":"所以你可以拿你的提示词，你可以拿你的工作，你可以把它们放在一个批处理中，以 50% 更低的 token 成本，你将得到他们承诺的在 24 小时内的结果。","timestamp":"18:45","speaker":"Frank Coyle"},{"en":"Remember, nothing is a mistake.","zh":"记住，没有什么是个错误。","timestamp":"19:22","speaker":"Frank Coyle"}]}
+{
+  "title_zh": "别迷信大上下文：拆解 Claude 认证架构师考试的反模式",
+  "tldr": "资深讲师拆解 Claude 认证架构师考试的五大场景，点明智能体设计中最致命的反模式与正确做法。",
+  "digest_md": "编程不再是通往工作的神奇路径了——因为 AI 来了。说这话的人是 Frank Coyle，一个教了 30 多年计算机科学、现在在伯克利教书的老师。面对被 AI 冲击的学生，他最近找到了一个帮助大家入门智能体 AI 的抓手：Anthropic 在今年 3 月推出的 Claude 认证架构师考试。\n\n在这一集里，他带大家拆解了这场考试到底在考什么。考试对个人开放，花 99 美元每半年能考一次。它不是简单的选择题，而是基于真实的业务约束和场景。考纲分成五个领域：占 27% 的智能体架构、占 20% 的 Claude Code 配置与工作流、提示词工程（比如到处用 JSON 结构化输出）、工具设计与模型上下文集成，以及上下文管理和可靠性。官方会给你提供六个生产场景，考试随机抽四个来考你。接下来我们就顺着这些场景，看看 Anthropic 认为什么才是合格的智能体设计。这一集的灵魂不在于教你怎么拿分，而在于点出那些会导致系统崩溃的反模式——弄懂了什么千万别做，你自然就知道该怎么做。\n\n考试的第一个场景，是构建客户支持解决智能体。如今的 AI 圈子总爱把智能体挂在嘴边，Frank 提醒大家，大家追捧的所谓循环（让模型不断执行、反馈、再执行的动作）根本不是什么新鲜事。早在 1966 年，计算机科学家就证明了，只要你有顺序执行、条件判断和循环，就能做到图灵完备（即能计算出计算机所能计算的一切）。如今的智能体能变得这么强大，正是因为我们给它补上了循环这个关键拼图。\n\n但有了循环，第一个反模式就来了：千万别让智能体闷头干完活，直接把结果拿过来就用。你要做的，是让程序去监控模型的“停止原因”。大语言模型本身做不了任何事，它只是个概率上的“下一个词预测器”，它没法自己执行工具。它真正做的，是把工具需要的参数提取出来交给你。所以当模型停下时，它返回的“停止原因”如果是工具使用，你的代码就得去真正运行那个工具，再把结果丢回给模型让它继续；如果“停止原因”显示 token（模型处理信息的最小单位）用完了，你就得知道这个回答是不完整的，必须采取干预措施。\n\n说完了单兵作战的智能体，接下来的场景是：如果要多个智能体协同工作该怎么办？考试的第三个场景就是多智能体研究系统。这里最大的反模式，是把所有工具都塞给同一个智能体。Frank 打了个比方：这就像你雇了个木匠来家里干活，结果他带着水管工、电工、木工的全套工具出现，说自己什么都能干。你真正需要的是专注干好一件事的专业木匠。\n\n同样要命的，是让子智能体的上下文溢出到主上下文里。很多人觉得现在上下文窗口动辄上百万 token，大得装得下一切，于是就把所有东西都往里塞。千万别这么做。因为上下文越多，意味着花钱越多，而且模型在给答案时也会越困惑、越不准。Frank 特别提醒，当你把一群智能体凑在一起协作时，它们会产生像人类一样的群体思维（随大溜、不愿做破坏气氛的那个人）。所以正确的做法是做子任务隔离：每个智能体只拿到完成自己任务所需的切片信息。比如让评论者智能体去审查某个主张，你只把主张和证据给它，千万别把它背后一长串的思维过程也丢进去，否则整个系统很容易被带偏。\n\n工具和人都齐了，面对具体的开发任务该怎么管上下文？这就是考试第四个场景开发者生产力要解决的。这里的核心反模式，是让每个子任务把它完整的输出全都倾倒进主线程里，导致上下文无限制地膨胀。正确的做法是执行上下文分叉：把智能体赶到一个单独的线程里干活，无论它在那边怎么折腾、查了多少日志，那些庞杂的过程都不会回来污染主上下文。你只需要把最终提炼出的摘要带回来就行。\n\n如果哪怕做了隔离，上下文还是不可避免地变大了怎么办？你可以监控 token 数量，当它超过比如 15 万时，主动运行一次压缩。Anthropic 自带能把巨大上下文揉碎、浓缩的压缩算法。如果你觉得官方的算法不够贴合业务，你完全可以自己写一套自定义的逻辑，决定哪些信息必须保留。\n\n那么，写好了的 Claude 程序怎么进入日常的持续集成流水线？最后这个场景同样藏着反模式：千万别在自动化流水线里开启交互模式。因为一旦开启，Claude 会在半路上突然停下来问你：“我想做这个，行不行？”这在需要无人值守跑通宵的流水线里简直是灾难。你要把它设置成一气呵成跑到底的模式。此外还有个省钱的实用技巧：如果不急要结果，你可以把任务打成一个批处理。用这种方式，你能享受打对折的 token 成本——官方保证最迟在 24 小时内把结果交给你。你可以下班去睡觉、去度假，让任务自己慢慢跑就行。\n\n## 本集带走\n\n最后收个尾，这一集值得带走的是这么几层意思。第一，时代变了，计算机科学不再是包票，面对智能体 AI 的冲击，动手做、去实验才是唯一的出路。第二，循环是智能体之所以拥有强大能力的基石，但在让循环转起来之前，一定要盯紧模型每一次停下来的“停止原因”，它是你判断该不该执行工具、或者有没有超限的关键信号。第三，也是最核心的一条，永远不要迷信那个庞大无比的上下文窗口。不管你是在分配任务、调度子智能体还是处理子任务的输出结果，都要千方百计地做隔离、给切片、防溢出，必要的时候果断触发压缩。把多余的上下文挡在门外，你的系统才会又准又省钱。最后，上了流水线就彻底放手，去掉交互确认，用批处理换半价成本，这才是让 AI 真正替你打工的成熟姿势。",
+  "quotes": [
+    {
+      "en": "The problem is the LLM can't do anything.",
+      "zh": "问题是 LLM 做不了任何事。",
+      "timestamp": "08:53",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "Context spill over into the main context because context means tokens, tokens mean money, and the more context you have, the more confused the LLM is gonna be in giving you an answer.",
+      "zh": "上下文溢出到主上下文，因为上下文意味着 tokens，tokens 意味着钱，而且你有越多的上下文，LLM 在给你答案时就会越困惑。",
+      "timestamp": "13:11",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "When you get a bunch of agents together collaborating and talking to each other, there's a tendency to have group think.",
+      "zh": "当你把一群智能体聚集在一起协作并互相交谈时，会有一种群体思维的趋势。",
+      "timestamp": "14:25",
+      "speaker": "Frank Coyle"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "Past and present are having is AI because computer science is no longer the magic pathway to a job.",
+      "zh": "过去和现在的，就是 AI，因为计算机科学不再是通往工作的神奇路径了。",
+      "timestamp": "00:32",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "and I think anti-patterns are a key to understanding what you should not do, because understanding what you should not do is the key to leading you to what you should do.",
+      "zh": "我认为反模式是理解你不该做什么的关键，因为理解你不该做什么是引导你去做你该做的事的关键。",
+      "timestamp": "02:13",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "The problem is the LLM can't do anything.",
+      "zh": "问题是 LLM 做不了任何事。",
+      "timestamp": "08:53",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "It is just a probabilistic next word predictor.",
+      "zh": "它只是一个概率性的下一个词预测器。",
+      "timestamp": "09:01",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "Context spill over into the main context because context means tokens, tokens mean money, and the more context you have, the more confused the LLM is gonna be in giving you an answer.",
+      "zh": "上下文溢出到主上下文，因为上下文意味着 tokens，tokens 意味着钱，而且你有越多的上下文，LLM 在给你答案时就会越困惑。",
+      "timestamp": "13:11",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "When you get a bunch of agents together collaborating and talking to each other, there's a tendency to have group think.",
+      "zh": "当你把一群智能体聚集在一起协作并互相交谈时，会有一种群体思维的趋势。",
+      "timestamp": "14:36",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "Let every subtask dump its full output into the primary thread, crowding out the context.",
+      "zh": "让每个子任务把它的完整输出都倾倒到主线程中，挤占上下文。",
+      "timestamp": "15:25",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "So there are ways to set it up so that it'll just run straight through, okay?",
+      "zh": "所以有一些方法可以设置它，让它直接运行到底，好吗？",
+      "timestamp": "18:29",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "So you can take your prompts, you can take your work, and you can put them in a batch, and for 50% fewer token cost, you will get the result they promise in at least 24 hours.",
+      "zh": "所以你可以拿你的提示词，你可以拿你的工作，你可以把它们放在一个批处理中，以 50% 更低的 token 成本，你将得到他们承诺的在 24 小时内的结果。",
+      "timestamp": "18:45",
+      "speaker": "Frank Coyle"
+    },
+    {
+      "en": "Remember, nothing is a mistake.",
+      "zh": "记住，没有什么是个错误。",
+      "timestamp": "19:22",
+      "speaker": "Frank Coyle"
+    }
+  ]
+}
