@@ -85,7 +85,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Cursor]] · [[Claude]] · [[ChatGPT]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[Replit]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Cursor":42,"Claude":45,"ChatGPT":46,"Anthropic":92,"护栏":1,"OpenAI":80,"Replit":13,"Codex":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Cursor":42,"Claude":45,"ChatGPT":47,"Anthropic":93,"护栏":1,"OpenAI":81,"Replit":13,"Codex":35}</script>
 
 <script>
 (function(){

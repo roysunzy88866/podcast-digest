@@ -1,0 +1,208 @@
+{
+  "title_zh": "n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR",
+  "tldr": "n8n 创始人 Jan Oberhauser 讲述这个开源自动化平台如何靠 fair-code 许可证、社区和深度 AI 能力击败 Zapier,并演示用一句话构建智能体。",
+  "digest_md": "自动化平台 n8n 靠把代码免费送出去,反而做出了突破 1 亿欧元的 ARR、接近 20 万 GitHub 星。这一集的嘉宾 Jan Oberhauser 是 n8n 的创始人,他在 The Product Podcast 上和 Product School CEO Carlos 聊了这台「送钱机器」是怎么转起来的,还现场演示了用一句话让 AI 帮你搭出一个能收发邮件、管日历的智能体。\n\n## 名字与转身:从自动化到 AI 编排平台\n\nn8n 这个名字是限时一小时起出来的:所有喜欢的名字都被抢注了,只剩「nodemation」(节点 + 自动化),太长,于是学 Kubernetes 缩成 K8s 的做法,取首尾字母中间的八个字母,变成 n8n [01:50 Jan Oberhauser]。\n\nn8n 创立于 AI 之前,Jan 坦言从没想过会做 AI。但 ChatGPT 出现后,他和团队退后一步审视:包括自己在内的所有竞品,「都只是在表面撒了一点 AI」。真正的机会是想清楚 LLM 需要什么——大量来自 Google Drive、本地文件、Salesforce 等来源的数据,处理后还要输出回系统。这些环节 n8n 早就全部就位,只要把 AI 能力放到核心位置,就不只是简单自动化,而是真正强大的智能体 [03:21 Jan Oberhauser]。他给自己的定位是「编排平台」:LLM 是发动机,n8n 是车、是道路、是整个系统,负责把不同模型、智能体和业务系统之间的连接组织变成真正可用的流程 [16:13 Jan Oberhauser]。\n\n## fair-code:拒绝传统开源,也拒绝改规则\n\n「如果你想成为默认工具,你必须确保很多人能免费获取它。」但 Jan 没走传统开源路线,因为他看到太多开源公司后来把许可证改严格,社区暴怒——真正惹恼大家的不是新许可证,而是「规则被突然改了」。他判断自己承受不起失去社区,于是从一开始就选了「fair-code」:你能做的事和开源差不多,可以在自己公司内部以任意规模商业使用,唯一限制是不能把代码本身商业化——不能搭一个 n8n 托管版向别人收费。「我认为这是一个公平的要求,所以它叫 fair-code。」[09:07 Jan Oberhauser]\n\n官网首页就在注册按钮旁边摆着近 20 万星的 GitHub 仓库。Jan 说得很直白:当然希望人们用托管方案付费,但免费使用「只是使用 n8n 的两种不同方式」。免费版是进入大企业的入口——Meta、Nvidia、Dell、Accenture、Vodafone、Deutsche Telekom、Mercedes,全是同一条路:某人遇到一个问题,从免费版开始,然后把它带进了企业组织。人们总在短期想「怎么让他明天付费」,而长期看,获得巨大价值的人大多最终会成为付费客户 [12:42 Jan Oberhauser]。\n\n## 秘诀:强大灵活 + 正经智能体 + 自托管\n\nJan 归纳早期顺风有两点。一是强大与灵活:很多平台搭东西很快,但投入生产或扩规模就到顶了;n8n 要确保用户不会「成长到超出我们的方案」。二是社区:把构建者放在中心,公司核心价值观就是字面意义的「我们是构建者」[06:18 Jan Oberhauser]。真正起飞是在专注 AI 之后——别的平台也能调用 OpenAI,但 n8n 从一开始确保你构建的是正经智能体:记忆、多个模型、可轻松配置的工具、可添加的脚本,再加上自托管——数据在自己防火墙后面运行。他还强调可审计性:用 n8n 构建的自动化,你确切知道数据怎么流动、用哪些工具、不会做任何别的事,出了问题能确切看到哪里出的问题——这正是大组织敢把它用于业务关键场景的原因 [16:13 Jan Oberhauser]。\n\n模型层面,n8n 与众不同的是「自带密钥」:用户自己接 Anthropic、OpenAI 或 Hugging Face 的模型,按用例和预算自选;换模型理论上是一秒钟的事——删一个节点、放另一个节点。n8n 里还能建评估来测试改动对提示词等的影响 [14:25 Jan Oberhauser]。对「X 干掉了 Y」的日常新闻,他不以为然:大多数被「干掉」的初创公司活得很好;自己的护城河是可审计、灵活、稳定、安全,以及把控制权交还用户。\n\n## 现场演示:描述就能建,还能迭代\n\nJan 演示了约一周半前发布的最新助手:描述想要什么,它就开始构建,边构建边问你问题(比如选哪个模型)[18:03 Jan Oberhauser],还会自动测试,保证交付的就是可运行状态 [33:45 Jan Oberhauser]。他构建的是一个处理邮件和日历的个人智能体:聊天触发器进入,Claude 做默认模型,还配了备用模型回退到 GPT——「因为即便是 Anthropic 也不是 100% 可靠的」。关键是 human-in-the-loop(关键操作需人工批准才能执行):发邮件、发回复、建日历事件,执行前都会先展示发给谁、主题、正文,请求确认。\n\n可视化流程图还解决了代码的审查难题:「写代码的问题在于你可能有 10,000 行你希望是对的代码,但理解它们几乎不可能,可能比写还花时间。」而审查一个 n8n 工作流,任何人都能看懂、逐步走过,确切知道它会做什么——这让企业比用其他系统更快敢上生产 [23:39 Jan Oberhauser] [34:32 Jan Oberhauser]。出错时节点标红,日志里能看到发了什么给模型、怎么调的工具、怎么请求的批准,任何一次执行都能逐步调试 [26:29 Jan Oberhauser]。\n\n生态方面:内置集成由官方维护(重要的如 Google 系、Salesforce),社区集成经官方安全审查,实际远超官网的 500 个;就算都没有,还能用 HTTP 请求节点手动连接任何基于 API 的系统 [25:20 Jan Oberhauser]。社区建了超过 10,000 个模板,点开就能看到完整的自动化,复制粘贴进自己的工作流、换上自己的凭证就能用——解决「白纸难起笔」的问题 [28:07 Jan Oberhauser]。构建也可以迭代:先从最基础的版本开始,再让智能体逐步扩展——他在演示中现场让它加了一个格式固定的 30 分钟一对一预约日历工具,不到一分钟完成。「字面意义上的每个人都能做到。你只需要知道你想构建什么。」[30:07 Jan Oberhauser]\n\n针对「人人自建小助手」的多人协作瓶颈,n8n 即将支持动态分配凭证:同一个智能体,谁和它交互就用谁的凭证、访问谁的 Gmail 和日历——「与其一个组织里 10,000 个人各自构建,不如任何人部署一个,整个组织共用」[32:36 Jan Oberhauser]。他还举例:一家大型在线旅游代理商把 75% 的客服请求交给 n8n 构建的 AI 智能体处理,换房间、改预订、答疑——而用户对这个 AI 客服的满意度比人类客服还高。「这说明 AI 不只是降低成本;它能为用户提供真实价值。」[22:12 Jan Oberhauser]\n\n## 该谁来建自动化:有问题的人自己建\n\n入市路径是自下而上为主,但也常自上而下:董事会或 C 级高管看到 n8n 的内容后问「我们为什么不这么做」,推进时才发现公司里早已有人在用 [35:56 Jan Oberhauser]。加速靠合作伙伴——社区里大量围绕 n8n 建立代理商的人充当加速器,一个月前刚宣布与 Accenture 的合作。\n\n对于企业该集中还是分散,Jan 的答案很鲜明:集中化团队替别人构建,短期有价值,但「到某个时点它会变得无法维护,因为那一个部门必须维护成百上千个自动化」——这恰恰与 n8n 的初衷相反。他创建 n8n 就是因为看到有问题的人被迫依赖别人来构建。n8n 内部也设了 AI 与自动化部门,但职责是赋能而非代建:创建护栏、负责教育、帮你想清楚什么是可能的,「授人以渔」,但构建必须由真正有问题的人负责——「没有人能比他们做得更好。他们对整个流程烂熟于心。」[38:07 Jan Oberhauser]\n\n## ROI 怎么量:别发明新指标\n\n时间节省是最直觉的指标,但 Jan 说它容易被作弊:一个自动化每分钟运行一次、每次「节省」十分钟,不代表真省了那么多。现在 n8n 内部反而不精确衡量 ROI,而是推动「改变真正发生」:每个部门定义自己的 AI 愿景、每季度设具体目标,公司确保每部门至少达成 90% [40:50 Jan Oberhauser]。降本上,n8n 的主张是「AI 不是一切问题的解决方案」:AI 只是一块,「批准邮件」「根据某个数字做 X 或 Y」这类确定性逻辑不需要 AI——AI 昂贵、更不可靠、还慢。加上 human-in-the-loop,系统成本被压得很低,ROI 自然清晰。衡量价值也别只盯省钱:那个旅游代理商的例子里,价值是更好的客户体验——AI 客服永不疲倦、会说任何语言、7×24 工作、拥有完美上下文。「无论你的公司在追求什么,那就是你应该衡量的东西。」甚至有时因为 AI 花更多钱是对的:人要 15 秒、AI 三秒搞定,也许值得付五倍价钱 [40:50 / 45:41 Jan Oberhauser]。\n\n## 本集带走\n\n- **想成为默认工具,先免费**:fair-code 许可证让企业内任意规模免费商用,只禁「转卖托管版」;规则从第一天说死、绝不变,信任才是社区的根基。\n- **进大企业靠个人种子用户**:Meta、Nvidia、Mercedes 全是「某人从免费版解决自己的问题,再带进组织」;别只想让用户明天付费。\n- **AI 别撒在表面**:想清楚模型需要什么数据、往哪输出,把 AI 做进价值链,才不只是「调用一下 API 的集成」。\n- **确定性逻辑别用 AI**:AI 昂贵、慢、不可靠;该走规则的走规则,再加 human-in-the-loop 关键操作审批,才能上生产、出真实 ROI。\n- **自动化由有问题的人自己建**:中央团队只做护栏、教育和救急,代建成百上千个自动化必然失控。\n- **ROI 别发明新指标**:时间节省易作弊;用你已有的业务指标(客户满意度、营收),或者干脆像 n8n 一样——按影响已成定局处理,改成推动各部门每季度的 AI 目标达成率。",
+  "quotes": [
+    {
+      "en": "All of us, including ourselves, honestly, were just sprinkling some AI on top.",
+      "zh": "说实话,我们所有人,包括我们自己,都只是在表面撒了一点 AI。",
+      "timestamp": "03:54",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "With many of them you could build something very fast, but if you actually wanted to bring it into production or scale it, the platform maxed out.",
+      "zh": "对其中很多平台来说,你可以非常快地搭建出一个东西,但如果你真的想把它投入生产或扩展规模,平台就到顶了。",
+      "timestamp": "06:35",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "Less because of the license they chose, and more because the company suddenly changed the rules: \"first you could do all of this,\" and then they took some rights away.",
+      "zh": "这较少是因为他们选的那个许可证本身,更多是因为公司突然改变了规则:「之前你可以做这一切」,然后他们夺走了一些权利。",
+      "timestamp": "09:57",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "Building a successful community is very hard, and it's also very easy to lose.",
+      "zh": "建立一个成功的社区非常难,而失去它却非常容易。",
+      "timestamp": "10:11",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "We got into all of those companies the same way: someone had a problem, started with our free version, and brought it into their enterprise organization.",
+      "zh": "我们进入所有这些公司的方式都一样:某个人遇到一个问题,从我们的免费版开始,然后把它带进了他们的企业组织。",
+      "timestamp": "13:29",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "The way I see it: the LLM is the engine, and we're the car, the roads, and the whole system.",
+      "zh": "在我看来:LLM 是发动机,而我们是车、是道路、是整个系统。",
+      "timestamp": "16:37",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "The problem with writing code is that you might have 10,000 lines you hope are right, but actually reading and understanding them is almost impossible; it can take more time to understand the code than to write it.",
+      "zh": "写代码的问题在于你可能有 10,000 行你希望是对的代码,但真正去阅读并理解它们几乎是不可能的;理解代码可能比写代码花的时间还多。",
+      "timestamp": "24:10",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "The nice thing about that example is that people are actually happier with the AI customer representative than with a human one.",
+      "zh": "那个例子的妙处在于,人们对这个 AI 客服代表的满意度实际上比对人类客服更高。",
+      "timestamp": "23:06",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "And they're not reviewing 10,000 lines of code; they're reviewing a workflow they can easily understand and step through, so they know exactly what it will do.",
+      "zh": "他们审查的不是 10,000 行代码;他们审查的是一个他们能轻松理解并逐步走过的工作流,所以他们确切知道它会做什么。",
+      "timestamp": "35:08",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "The people who have a problem should be empowered to build it themselves.",
+      "zh": "有问题的人应该被赋能去自己构建。",
+      "timestamp": "39:06",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "The building should be owned by the people who actually have the problem, because nobody can do it better than them.",
+      "zh": "构建应该由真正有问题的人来负责,因为没有人能比他们做得更好。",
+      "timestamp": "39:45",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "You can cheat very easily: an automation might run every minute and \"save\" ten minutes each time, but that doesn't mean it saves you crazy amounts of time.",
+      "zh": "你很容易作弊:一个自动化可能每分钟运行一次,每次「节省」十分钟,但这并不意味着它真的为你省下了天文数字的时间。",
+      "timestamp": "41:12",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "It doesn't need an AI, because AI is expensive, less reliable, and slow.",
+      "zh": "它不需要 AI,因为 AI 昂贵、可靠性更低、而且慢。",
+      "timestamp": "43:05",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "Whatever your company is striving for, that's the thing you should measure.",
+      "zh": "无论你的公司在追求什么,那就是你应该衡量的东西。",
+      "timestamp": "44:40",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "If a human takes 15 seconds and the AI does it in three, maybe that's worth paying five times as much.",
+      "zh": "如果一个人要花 15 秒而 AI 三秒就能做完,也许值得付五倍的价钱。",
+      "timestamp": "45:50",
+      "speaker": "Carlos González de Villaumbrosia"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:12",
+      "speaker": "Carlos González de Villaumbrosia",
+      "en": "My guest today is Jan Oberhauser, the founder of n8n, the open-source automation platform that's crossed one hundred million in ARR at a five-point-two-billion-dollar valuation, with nearly 200,000 GitHub stars.",
+      "zh": "今天的嘉宾是 Jan Oberhauser,n8n 的创始人——这个开源自动化平台 ARR 已突破 1 亿,估值 52 亿美元,GitHub 星数接近 20 万。"
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Jan Oberhauser",
+      "en": "All of us, including ourselves, honestly, were just sprinkling some AI on top.",
+      "zh": "说实话,我们所有人,包括我们自己,都只是在表面撒了一点 AI。"
+    },
+    {
+      "timestamp": "06:18",
+      "speaker": "Jan Oberhauser",
+      "en": "With many of them you could build something very fast, but if you actually wanted to bring it into production or scale it, the platform maxed out.",
+      "zh": "对其中很多平台来说,你可以非常快地搭建出一个东西,但如果你真的想把它投入生产或扩展规模,平台就到顶了。"
+    },
+    {
+      "timestamp": "09:07",
+      "speaker": "Jan Oberhauser",
+      "en": "Less because of the license they chose, and more because the company suddenly changed the rules: \"first you could do all of this,\" and then they took some rights away.",
+      "zh": "这较少是因为他们选的那个许可证本身,更多是因为公司突然改变了规则:「之前你可以做这一切」,然后他们夺走了一些权利。"
+    },
+    {
+      "timestamp": "09:07",
+      "speaker": "Jan Oberhauser",
+      "en": "Building a successful community is very hard, and it's also very easy to lose.",
+      "zh": "建立一个成功的社区非常难,而失去它却非常容易。"
+    },
+    {
+      "timestamp": "09:07",
+      "speaker": "Jan Oberhauser",
+      "en": "The only limitation is that you cannot commercialize the code itself.",
+      "zh": "唯一的限制是你不能把代码本身商业化。"
+    },
+    {
+      "timestamp": "12:42",
+      "speaker": "Jan Oberhauser",
+      "en": "We got into all of those companies the same way: someone had a problem, started with our free version, and brought it into their enterprise organization.",
+      "zh": "我们进入所有这些公司的方式都一样:某个人遇到一个问题,从我们的免费版开始,然后把它带进了他们的企业组织。"
+    },
+    {
+      "timestamp": "16:13",
+      "speaker": "Jan Oberhauser",
+      "en": "The way I see it: the LLM is the engine, and we're the car, the roads, and the whole system.",
+      "zh": "在我看来:LLM 是发动机,而我们是车、是道路、是整个系统。"
+    },
+    {
+      "timestamp": "23:39",
+      "speaker": "Jan Oberhauser",
+      "en": "The problem with writing code is that you might have 10,000 lines you hope are right, but actually reading and understanding them is almost impossible; it can take more time to understand the code than to write it.",
+      "zh": "写代码的问题在于你可能有 10,000 行你希望是对的代码,但真正去阅读并理解它们几乎是不可能的;理解代码可能比写代码花的时间还多。"
+    },
+    {
+      "timestamp": "22:12",
+      "speaker": "Jan Oberhauser",
+      "en": "The nice thing about that example is that people are actually happier with the AI customer representative than with a human one.",
+      "zh": "那个例子的妙处在于,人们对这个 AI 客服代表的满意度实际上比对人类客服更高。"
+    },
+    {
+      "timestamp": "34:32",
+      "speaker": "Jan Oberhauser",
+      "en": "And they're not reviewing 10,000 lines of code; they're reviewing a workflow they can easily understand and step through, so they know exactly what it will do.",
+      "zh": "他们审查的不是 10,000 行代码;他们审查的是一个他们能轻松理解并逐步走过的工作流,所以他们确切知道它会做什么。"
+    },
+    {
+      "timestamp": "38:07",
+      "speaker": "Jan Oberhauser",
+      "en": "The people who have a problem should be empowered to build it themselves.",
+      "zh": "有问题的人应该被赋能去自己构建。"
+    },
+    {
+      "timestamp": "38:07",
+      "speaker": "Jan Oberhauser",
+      "en": "The building should be owned by the people who actually have the problem, because nobody can do it better than them.",
+      "zh": "构建应该由真正有问题的人来负责,因为没有人能比他们做得更好。"
+    },
+    {
+      "timestamp": "40:50",
+      "speaker": "Jan Oberhauser",
+      "en": "You can cheat very easily: an automation might run every minute and \"save\" ten minutes each time, but that doesn't mean it saves you crazy amounts of time.",
+      "zh": "你很容易作弊:一个自动化可能每分钟运行一次,每次「节省」十分钟,但这并不意味着它真的为你省下了天文数字的时间。"
+    },
+    {
+      "timestamp": "40:50",
+      "speaker": "Jan Oberhauser",
+      "en": "It doesn't need an AI, because AI is expensive, less reliable, and slow.",
+      "zh": "它不需要 AI,因为 AI 昂贵、可靠性更低、而且慢。"
+    },
+    {
+      "timestamp": "40:50",
+      "speaker": "Jan Oberhauser",
+      "en": "Whatever your company is striving for, that's the thing you should measure.",
+      "zh": "无论你的公司在追求什么,那就是你应该衡量的东西。"
+    },
+    {
+      "timestamp": "45:41",
+      "speaker": "Jan Oberhauser",
+      "en": "If a human takes 15 seconds and the AI does it in three, maybe that's worth paying five times as much.",
+      "zh": "如果一个人要花 15 秒而 AI 三秒就能做完,也许值得付五倍的价钱。"
+    },
+    {
+      "timestamp": "06:18",
+      "speaker": "Jan Oberhauser",
+      "en": "One of our core company values is literally \"we are builders.\"",
+      "zh": "我们公司的核心价值观之一就是字面意义上的「我们是构建者」。"
+    }
+  ],
+  "voice_script": "一个自动化平台,把代码免费送出去,反而做到了 1 亿欧元的年收入。是不是听着有点反常识?这一期咱们就聊聊 n8n 是怎么转起来的。创始人 Jan Oberhauser 前不久上了播客,把这台\"送钱机器\"的底细讲了个遍。\n\n先说说这个公司的思路。你可能觉得,想做行业里的默认工具,那肯定得想办法收钱啊。Jan 的逻辑正相反:想成为默认工具,就必须让很多人能免费用到。但有意思的是,他没走传统开源那条路。为啥?因为他看过太多开源公司的翻车现场——不是新许可证本身惹恼了社区,而是公司突然改了规则,之前说好的权利,说收回就收回。有句话说得特别实在:建立一个成功的社区非常难,失去它却非常容易。所以从一开始就选了 fair-code 这个模式——你能做的事跟开源差不多,在自己公司里想怎么用就怎么用,唯一的限制是不能把代码拿去转卖,比如搭一个托管版向别人收费。规则从第一天就说死,永远不变。这就叫公平,所以叫 fair-code。\n\n那免费送出去,钱从哪来?答案特别朴素。Meta、英伟达、戴尔、奔驰,这一串大公司进来的方式全都一样:某个人遇到一个问题,从免费版开始解决,然后把工具带进了自己的组织。你看,人们总在想怎么让用户明天就掏钱,可长期看,真正获得巨大价值的人,大多最后都会成为付费客户。\n\n再聊个转折点。n8n 创立的时候还没有 AI 这一说,Jan 自己都说从没想过会做 AI。ChatGPT 一出来,团队退后一步一看,发现包括自己在内的所有竞品,其实都只是在表面撒了一点 AI。真正的机会是想清楚:大模型到底需要什么?它需要大量来自网盘、本地文件、各种业务系统的数据,处理完还得输出回去。而这些环节 n8n 早就全部就位了。于是给自己的定位是编排平台——用原话说,大模型是发动机,n8n 是车、是道路、是整个系统。\n\n说到这儿,有个细节特别值得记。别的平台也能调用 OpenAI,但 n8n 从一开始就确保你构建的是正经智能体:有记忆,能接多个模型,工具随便配,还能自托管,数据就跑在你自己的防火墙后面。更关键的是可审计——你确切知道数据怎么流动、用了哪些工具,出了问题能一步步看到哪里错的。一个大机构敢把自动化用在业务关键场景,靠的就是这个。还有个很妙的地方:代码的问题在于,一万行代码摆在那儿,你想确认它是对的,理解起来的时间可能比写还长。可一个可视化的工作流,任何人都能看懂、能逐步走一遍,清清楚楚知道它会干什么。企业当然更敢上生产。\n\n现场演示也很绝。Jan 描述了一下自己想要什么——一个能收发邮件、管日历的个人智能体——助手就开始边构建边问他问题,还会自动测试,交付出来就能直接跑。关键操作还留了人工审批:发邮件之前,先给你看发给谁、什么主题、什么内容,确认了才执行。这里有个理念我觉得特别对:别什么活都丢给 AI。像\"批准邮件\"\"根据某个数字走哪条分支\"这种确定性逻辑,压根不需要 AI——AI 又贵又慢还不稳定。该走规则的走规则,该人工审批的人工审批,成本压下来了,回报自然就清楚了。还有个在线旅游代理商的例子:把 75% 的客服请求交给 AI 处理,换房间、改预订、答疑,结果用户对 AI 客服的满意度比人类客服还高。这说明 AI 不只是降成本,它能提供真实的价值。\n\n最后说一条我觉得对很多公司都有用的。企业做自动化,该集中还是分散?Jan 的答案很鲜明:中央团队替所有人代建,短期看着不错,但到某个时点,那一个部门得维护成百上千个自动化,必然失控。正确的做法是让有问题的人自己建——没有人能比他们做得更好,因为整个流程他们烂熟于心。中央团队只负责一件事:做护栏、做教育、帮你想清楚什么是可能的。\n\n把代码送出去,把控制权交还给用户,把构建的权利还给真正遇到问题的人——这套看起来最不赚钱的打法,反而做成了 1 亿欧元。有时候,愿意先给,才是最大的护城河。"
+}

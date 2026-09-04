@@ -25,7 +25,7 @@ unlisted: true
 
 [[Philip Johnston]] · [[StarCloud]] · [[数据中心]] · [[SpaceX]] · [[NVIDIA]] · [[发射成本]] · [[H100]] · [[基准测试]] · [[相变材料]] · [[辐射]]
 
-<script type="application/json" class="pd-epn">{"Philip Johnston":1,"StarCloud":1,"数据中心":3,"SpaceX":12,"NVIDIA":26,"发射成本":1,"H100":1,"基准测试":6,"相变材料":1,"辐射":1}</script>
+<script type="application/json" class="pd-epn">{"Philip Johnston":1,"StarCloud":1,"数据中心":3,"SpaceX":12,"NVIDIA":27,"发射成本":1,"H100":1,"基准测试":6,"相变材料":1,"辐射":1}</script>
 
 <script>
 (function(){

@@ -81,7 +81,7 @@ unlisted: true
 
 [[智能体]] · [[Claude]] · [[Codex]] · [[Anthropic]] · [[护栏]] · [[Claude Code]] · [[Lenny]] · [[Figma]] · [[OpenAI]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude":45,"Codex":35,"Anthropic":92,"护栏":1,"Claude Code":43,"Lenny":66,"Figma":12,"OpenAI":80,"LLM":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude":45,"Codex":35,"Anthropic":93,"护栏":1,"Claude Code":43,"Lenny":66,"Figma":12,"OpenAI":81,"LLM":23}</script>
 
 <script>
 (function(){

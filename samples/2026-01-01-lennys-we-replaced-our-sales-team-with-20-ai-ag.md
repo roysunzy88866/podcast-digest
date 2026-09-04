@@ -153,7 +153,7 @@ jsonLd: |
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同公司:Delphi、Salesforce · 同概念:推向市场 (go-to market)、智能体 (agent)、前置部署工程师 (Forward Deployed Engineer)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同嘉宾:Jason Lemkin · 同公司:Replit、Salesforce · 同概念:智能体 (agent)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:Replit · 同概念:智能体 (agent)</span>
+- [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同公司:Salesforce · 同概念:智能体 (agent)、编排 (orchestration)</span>
 
 </div>
 </div>

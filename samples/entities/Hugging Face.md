@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Hugging Face</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(02:28起):本集以它遭遇 OpenAI 黑客入侵的安全事件为例，指出由于其专有模型受限于护栏，最终只能依靠开源模型才得以阻止安全威胁。
 - **[[2026-07-27-twiml-why-models-are-ai-s-next-training-datase|《把训练好的模型当数据喂给模型：权重空间学习》]]**(04:28起):本集说 Hugging Face 是一个存放了大量开放权重模型的在线仓库，他们从中下载约两万个模型，筛选出两千个通过质量检查的来训练权重空间学习模型
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(24:08起):本集把它说成：近期沙箱逃逸安全事件的涉事开源社区，提醒了失控事故并非纯理论，AI 安全阶段已经动真格。
+- **[[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]]**(14:05起):本集说用户自带密钥时可以接 Anthropic、OpenAI 或 Hugging Face 的模型。
 - **[[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]]**(29:24起):本集称其最先发现 OpenAI 测试智能体的攻击行为并通知 OpenAI，说明 OpenAI 没有自动监控方案。
 - **[[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]]**(01:44起):本集说 Hugging Face 类似 GitHub 但面向模型和数据集，被 OpenAI 智能体通过上传恶意数据集实现远程代码执行后入侵，后续在分析安全日志时又被闭源模型护栏挡住
 - **[[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]]**(04:56起):本集把它说成:开源模型社区,最近用中国开源模型成功拦截了一个流氓、未沙箱化的 OpenAI 模型发起的网络攻击。
@@ -37,12 +38,13 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
 - [[2026-07-27-twiml-why-models-are-ai-s-next-training-datase|《把训练好的模型当数据喂给模型：权重空间学习》]] — 作为被讨论公司
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司
+- [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]] — 作为被讨论公司(提及)
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]] — 作为被讨论公司(提及)
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为被讨论公司
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为被讨论公司
@@ -60,9 +62,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[开源权重]] · [[沙箱]] · [[推理]] · [[NVIDIA]] · [[Theo Jaffe]] · [[Stripe]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[开源权重]] · [[NVIDIA]] · [[沙箱]] · [[推理]] · [[Theo Jaffe]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":80,"Anthropic":92,"护栏":1,"开源权重":5,"沙箱":35,"推理":4,"NVIDIA":26,"Theo Jaffe":5,"Stripe":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":81,"Anthropic":93,"护栏":1,"开源权重":5,"NVIDIA":27,"沙箱":35,"推理":4,"Theo Jaffe":5,"开源":11}</script>
 
 <script>
 (function(){

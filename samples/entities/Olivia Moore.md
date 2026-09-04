@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]] · [[Lassie]] · [[智能体]] · [[回路中的人类]] · [[现有巨头]] · [[Superhuman]] · [[Stripe]] · [[Workday]]
+[[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]] · [[Lassie]] · [[智能体]] · [[人在回路]] · [[现有巨头]] · [[Superhuman]] · [[Stripe]] · [[Workday]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":1,"回路中的人类":4,"现有巨头":1,"Superhuman":4,"Stripe":26,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":1,"人在回路":5,"现有巨头":1,"Superhuman":4,"Stripe":26,"Workday":4}</script>
 
 <script>
 (function(){

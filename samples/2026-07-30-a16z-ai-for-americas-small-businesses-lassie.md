@@ -10,14 +10,14 @@ description: "a16z 合伙人与 Lassie 创始人对谈:当 AI 能直接干活而
 host: "[[Olivia Moore]]"
 cohosts: ["[[Frederick Rankin]]", "[[Alex Rampell]]", "[[Stein Pella]]"]
 companies: ["[[Lassie]]"]
-concepts: ["[[智能体]]", "[[回路中的人类]]", "[[现有巨头]]"]
+concepts: ["[[智能体]]", "[[人在回路]]", "[[现有巨头]]"]
 category: 智能体
 tags:
   - 智能体
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-30-a16z-ai-for-americas-small-businesses-lassie#post","headline":"AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-30-a16z-ai-for-americas-small-businesses-lassie","mainEntityOfPage":"https://talk.solomind.cc/2026-07-30-a16z-ai-for-americas-small-businesses-lassie","description":"a16z 合伙人与 Lassie 创始人对谈:当 AI 能直接干活而不是提供工具,小企业的困境与机遇同时被放大。","datePublished":"2026-07-30","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Olivia Moore"},{"@type":"Person","name":"Frederick Rankin"},{"@type":"Person","name":"Alex Rampell"},{"@type":"Person","name":"Stein Pella"},{"@type":"Organization","name":"Lassie"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"回路中的人类 (human in the loop)"},{"@type":"Thing","name":"现有巨头 (incumbent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱","item":"https://talk.solomind.cc/2026-07-30-a16z-ai-for-americas-small-businesses-lassie"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-30-a16z-ai-for-americas-small-businesses-lassie#post","headline":"AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-30-a16z-ai-for-americas-small-businesses-lassie","mainEntityOfPage":"https://talk.solomind.cc/2026-07-30-a16z-ai-for-americas-small-businesses-lassie","description":"a16z 合伙人与 Lassie 创始人对谈:当 AI 能直接干活而不是提供工具,小企业的困境与机遇同时被放大。","datePublished":"2026-07-30","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Olivia Moore"},{"@type":"Person","name":"Frederick Rankin"},{"@type":"Person","name":"Alex Rampell"},{"@type":"Person","name":"Stein Pella"},{"@type":"Organization","name":"Lassie"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"人在回路 (human-in-the-loop)"},{"@type":"Thing","name":"现有巨头 (incumbent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱","item":"https://talk.solomind.cc/2026-07-30-a16z-ai-for-americas-small-businesses-lassie"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Lassie]]
 >
-> **概念** [[智能体]] · [[回路中的人类]] · [[现有巨头]]
+> **概念** [[智能体]] · [[人在回路]] · [[现有巨头]]
 
 Yelp 上排名第一的牙医,每个月要花 200 个小时亲手处理保险理赔和账单——他甚至找不到人来接手,只能自己熬夜。说这话的人是 [[Stein Pella|Stein Pella]],他拉着朋友辞掉硅谷工作,跑去牙医诊所里亲手干了几年杂活,做出了能完全接管这些行政工作的 AI 系统 [[Lassie|Lassie]] <button class="pd-ts" data-t="02:40" data-who="Stein Pella" data-en="And he walked me to the back and I never forgot what I saw there. A small business owner that is the number one rated doctor on Yelp, spending 200 hours a month on paperwork and busy work." aria-label="回原文"></button>。
 
@@ -144,9 +144,9 @@ Frederick 的发现很出人意料:现在的模型在海量数据上训练,体�
 
 **顺着「智能体」挖下去**
 
+- [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同概念:回路中的人类 (human in the loop)、智能体 (agent)</span>
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
 - [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
-- [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|模型路由为什么还没解决：Amazon Nova 负责人的实话]]<span class="pd-rz">同概念:智能体 (agent)、回路中的人类 (human in the loop)</span>
 
 </div>
 <div class="pd-ex">

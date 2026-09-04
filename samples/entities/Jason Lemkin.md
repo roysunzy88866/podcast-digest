@@ -62,7 +62,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":13,"Salesforce":11,"智能体":1,"Lenny":66,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":8,"Vercel":12,"Cursor":42,"Artisan":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":13,"Salesforce":12,"智能体":1,"Lenny":66,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":8,"Vercel":12,"Cursor":42,"Artisan":1}</script>
 
 <script>
 (function(){

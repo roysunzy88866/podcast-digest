@@ -53,7 +53,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Lenny]] · [[Notion]] · [[设计系统]] · [[GitHub]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Aakash]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":25,"Lenny":66,"Notion":10,"设计系统":4,"GitHub":20,"Anthropic":92,"OpenAI":80,"Cursor":42,"Aakash":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":25,"Lenny":66,"Notion":10,"设计系统":4,"GitHub":20,"Anthropic":93,"OpenAI":81,"Cursor":42,"Aakash":3}</script>
 
 <script>
 (function(){

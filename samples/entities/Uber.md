@@ -45,7 +45,7 @@ unlisted: true
 
 [[ChatGPT]] · [[智能体]] · [[OpenAI]] · [[Revolut]] · [[Anthropic]] · [[Lenny]] · [[Airbnb]] · [[Palantir]] · [[Airtable]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":46,"智能体":1,"OpenAI":80,"Revolut":4,"Anthropic":92,"Lenny":66,"Airbnb":10,"Palantir":11,"Airtable":3,"Google":35}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":47,"智能体":1,"OpenAI":81,"Revolut":4,"Anthropic":93,"Lenny":66,"Airbnb":10,"Palantir":11,"Airtable":3,"Google":35}</script>
 
 <script>
 (function(){

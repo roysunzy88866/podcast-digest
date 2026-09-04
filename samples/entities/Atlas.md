@@ -25,7 +25,7 @@ unlisted: true
 
 [[Harj]] · [[Patrick Collison]] · [[Stripe]] · [[精益创业]] · [[智能体]] · [[YC]] · [[Google]] · [[Claude]] · [[OpenAI]] · [[Anduril]]
 
-<script type="application/json" class="pd-epn">{"Harj":1,"Patrick Collison":2,"Stripe":26,"精益创业":1,"智能体":1,"YC":9,"Google":35,"Claude":45,"OpenAI":80,"Anduril":3}</script>
+<script type="application/json" class="pd-epn">{"Harj":1,"Patrick Collison":2,"Stripe":26,"精益创业":1,"智能体":1,"YC":9,"Google":35,"Claude":45,"OpenAI":81,"Anduril":3}</script>
 
 <script>
 (function(){

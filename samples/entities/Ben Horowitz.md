@@ -64,7 +64,7 @@ unlisted: true
 
 [[air bed and breakfast]] · [[Theo Jaffe]] · [[Google]] · [[Sofia Puccini]] · [[Apple]] · [[NVIDIA]] · [[a16z]] · [[Andreessen Horowitz]] · [[图灵机]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"air bed and breakfast":1,"Theo Jaffe":5,"Google":35,"Sofia Puccini":3,"Apple":14,"NVIDIA":26,"a16z":8,"Andreessen Horowitz":1,"图灵机":1,"Anthropic":92}</script>
+<script type="application/json" class="pd-epn">{"air bed and breakfast":1,"Theo Jaffe":5,"Google":35,"Sofia Puccini":3,"Apple":14,"NVIDIA":27,"a16z":8,"Andreessen Horowitz":1,"图灵机":1,"Anthropic":93}</script>
 
 <script>
 (function(){

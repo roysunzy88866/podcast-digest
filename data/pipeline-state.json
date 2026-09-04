@@ -52,7 +52,10 @@
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
   },
   "audioWanted": {},
-  "transient": {},
+  "transient": {
+    "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
+    "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1
+  },
   "cutoffs": {
     "lennys": "2026-09-02T12:03:39.000Z",
     "pg": "2026-08-28T22:38:13.000Z",
@@ -70,7 +73,7 @@
     "doac": "2026-08-31T05:00:00.000Z",
     "deepmind": "2026-07-10T15:50:06.000Z",
     "twentyvc": "2026-09-03T07:07:00.000Z",
-    "cogrev": "2026-08-16T05:43:02.000Z",
+    "cogrev": "2026-08-26T11:02:32.000Z",
     "knowledge": "2026-09-01T10:00:00.000Z",
     "pragmatic": "2026-08-26T15:59:59.000Z",
     "practicalai": "2026-09-03T09:00:00.000Z",
@@ -612,6 +615,54 @@
       "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
       "title": "Ep 93: CEO of Redwood Research Buck Shlegeris on OpenAI/HuggingFace Revelations, Fixing AI Safety & Takeover Odds",
       "pubDate": "2026-09-03T13:03:11.000Z"
+    },
+    {
+      "id": "2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Anthropic Member of Technical Staff on Leading Forward-Deployed Engineers, Turning Down 2x Pay, and Why Leaders Are Becoming ICs Again | Amandeep Khurana | E310",
+      "pubDate": "2026-09-02T19:00:00.000Z"
+    },
+    {
+      "id": "2026-09-03-lennys-gpt-6-astra-is-a-banger-heres-everything",
+      "reason": "跨源重复:与库内《GPT-6 Astra is a banger - here’s everything I’ve built》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
+      "pubDate": "2026-09-03T19:34:20.000Z"
+    },
+    {
+      "id": "2026-08-26-cogrev-rl-s-a-hell-of-a-drug-metagaming-reward",
+      "reason": "题材不对味:RL 训练行为、reward seeking、motivated CoT 属 AI 安全/对齐与模型研究深水区(Apollo 是安全评测机构),落在档案明确不要的「AI 安全/对齐 + 学术研究」类",
+      "title": "RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo",
+      "pubDate": "2026-08-26T11:02:32.000Z"
+    },
+    {
+      "id": "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds",
+      "reason": "题材不对味:题材是运动员如何进入顶级 VC 基金的风投/财富通路话题,与 AI 无关,不属于档案要的 AI 商业+人+产业+实操面",
+      "title": "How Athletes Get Into the Top VC Funds | Ryan Nece, Next Legacy",
+      "pubDate": "2026-09-03T13:00:00.000Z"
+    },
+    {
+      "id": "2026-08-05-cogrev-pick-your-poison-zvi-mowshowitz-on-the-u",
+      "reason": "超长集:估 383 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Pick Your Poison: Zvi Mowshowitz on the Unipolar/Multipolar AGI Dilemma, OpenFace & Pacing the ...",
+      "pubDate": "2026-08-05T18:10:32.000Z"
+    },
+    {
+      "id": "2026-08-02-cogrev-nathan-goes-to-china-part-2-ai-safety-wi",
+      "reason": "超长集:估 306 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Nathan Goes to China – Part 2: AI Safety with Chinese Characteristics",
+      "pubDate": "2026-08-02T21:09:53.000Z"
+    },
+    {
+      "id": "2026-07-27-cogrev-nathan-goes-to-china-part-1-tech-agent-s",
+      "reason": "超长集:估 319 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Nathan Goes to China – Part 1: Tech & Agent Setup, Chinese AI UX, WAIC, and Attitudes on AI",
+      "pubDate": "2026-07-27T16:09:25.000Z"
+    },
+    {
+      "id": "2026-07-12-cogrev-alignment-with-awakening-davidad-on-mora",
+      "reason": "超长集:估 319 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Alignment with Awakening: Davidad on Moral Realism, AI Wisdom, & why His p(Doom) is Down to 5%",
+      "pubDate": "2026-07-12T11:11:54.000Z"
     }
   ]
 }

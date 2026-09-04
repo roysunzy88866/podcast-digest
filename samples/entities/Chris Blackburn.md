@@ -41,7 +41,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Liatrio]] · [[价值流映射]] · [[绞杀组织]] · [[增值时间]] · [[回路中的人类]] · [[DevOps]] · [[变革管理]] · [[数字分身]] · [[ChatGPT]]
+[[Liatrio]] · [[价值流映射]] · [[绞杀组织]] · [[增值时间]] · [[人在回路]] · [[DevOps]] · [[变革管理]] · [[数字分身]] · [[ChatGPT]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"回路中的人类":4,"DevOps":3,"变革管理":2,"数字分身":2,"ChatGPT":46}</script>
+<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":5,"DevOps":3,"变革管理":2,"数字分身":2,"ChatGPT":47}</script>
 
 <script>
 (function(){
