@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[技能]] · [[token]] · [[Heitor Lessa]] · [[Harry Stebbings]] · [[Simon Maple]] · [[规范驱动开发]] · [[Eno Reyes]] · [[Drew]] · [[苏格拉底方法]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"技能":9,"token":11,"Heitor Lessa":1,"Harry Stebbings":8,"Simon Maple":7,"规范驱动开发":1,"Eno Reyes":1,"Drew":1,"苏格拉底方法":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"技能":9,"token":11,"Heitor Lessa":1,"Harry Stebbings":9,"Simon Maple":7,"规范驱动开发":1,"Eno Reyes":1,"Drew":1,"苏格拉底方法":1}</script>
 
 <script>
 (function(){

@@ -43,49 +43,49 @@ jsonLd: |
 
 ## 世界模型到底在说什么
 
-Justin 指出，现在「世界模型」这个术语至少被三个不同的群体在用，说的是三件不同的事 <button class="pd-ts" data-t="04:15" data-who="" data-en="One, I mean, the biggest one is just like, let's get it out of the way. There isn't a clear definition of world models that everyone in the field agrees on. And I think that's causing part of the confusion, right?" aria-label="回原文"></button>：
+Justin 指出，现在「世界模型」这个术语至少被三个不同的群体在用，说的是三件不同的事：
 
 **隐式世界模型**：模型内部隐含地建模了世界的某些规律，但它输出的还是文本或图像。比如一个视频模型能生成极其逼真、物理正确的水流视频，那它内部一定隐含地对流体力学做了某种建模，但它并不显式地告诉你那些规律是什么。
 
-**强化学习里的世界模型**：这个术语最早来自强化学习文献，和 POMDP（部分可观测马尔可夫决策过程，一种把「[[智能体|智能体]]—世界」交互形式化的数学框架）绑定。在这个框架里，世界有一个内部状态，智能体采取动作后状态会转移，智能体只能拿到状态的低维投影（即「观测」，比如人眼看到的图像）。世界模型在这个语境下的原始定义是：输入当前状态和动作，预测下一个状态 <button class="pd-ts" data-t="18:23" data-who="" data-en="And then the reason why this is connected to world modeling is because this is where the term originally comes from, right? Like the kind of original technical definition of a world model is then, you know, if we're in this PoMDP setting, then a world model is something that inputs the world state, inputs the action the agent takes, and then predicts what's the next world state." aria-label="回原文"></button>。
+**强化学习里的世界模型**：这个术语最早来自强化学习文献，和 POMDP（部分可观测马尔可夫决策过程，一种把「[[智能体|智能体]]—世界」交互形式化的数学框架）绑定。在这个框架里，世界有一个内部状态，智能体采取动作后状态会转移，智能体只能拿到状态的低维投影（即「观测」，比如人眼看到的图像）。世界模型在这个语境下的原始定义是：输入当前状态和动作，预测下一个状态。
 
-**生成式世界模型**：图像模型生成图像，视频模型生成视频，那世界模型就应该生成世界——一个你可以走进去、可以导航、自洽的人工环境。这也是过去一年学术文献里「世界模型」最常指代的东西 <button class="pd-ts" data-t="07:23" data-who="" data-en="And I think that's the thing. So I think maybe in the academic literature in the last year, the world model has more coalesced into a particular flavor of a real-time interactive video model." aria-label="回原文"></button>。
+**生成式世界模型**：图像模型生成图像，视频模型生成视频，那世界模型就应该生成世界——一个你可以走进去、可以导航、自洽的人工环境。这也是过去一年学术文献里「世界模型」最常指代的东西。
 
-Justin 认为这三条路都有价值，但用同一个词称呼不同系统造成了混乱，社区需要更好的术语 <button class="pd-ts" data-t="07:15" data-who="" data-en="Like they all have, like we should probably build all of them as a community. But we should probably come up with better terms so that we don't confuse each other by calling different systems by the same term." aria-label="回原文"></button>。还有一个更极端的设想——**世界模型作为「理论构建者」**：不只是生成像素或预测状态，而是像物理学家一样构建紧凑、强大的解释性理论（比如引力定律、流体力学方程）。Justin 直说「这个真的非常非常难，我不知道有谁找到了好的切入点」<button class="pd-ts" data-t="10:18" data-who="" data-en="And maybe there's this notion of like, well, a world model should not just be directly thinking about observations, but should be building deep explanatory theories about the world." aria-label="回原文"></button>。
+Justin 认为这三条路都有价值，但用同一个词称呼不同系统造成了混乱，社区需要更好的术语。还有一个更极端的设想——**世界模型作为「理论构建者」**：不只是生成像素或预测状态，而是像物理学家一样构建紧凑、强大的解释性理论（比如引力定律、流体力学方程）。Justin 直说「这个真的非常非常难，我不知道有谁找到了好的切入点」。
 
 ## 显式 3D vs 隐式像素：两条技术路线
 
 做图形化的世界模型，有一个顶层分叉：你要不要在中间显式地表示 3D？
 
-**显式路线——[[高斯溅射|高斯溅射]]（Gaussian Splatting）**。高斯溅射本质上是一个 3D 点云，每个点有位置、颜色、不透明度、大小，还有球谐函数来描述从不同角度看颜色怎么变 <button class="pd-ts" data-t="31:34" data-who="" data-en="It's a collection of points. Each point has a position in 3D space, which is three coordinates, x, y, z. It has an opacity, which is a number between zero and one that tells you how opaque it is or how transparent it is." aria-label="回原文"></button>。
+**显式路线——[[高斯溅射|高斯溅射]]（Gaussian Splatting）**。高斯溅射本质上是一个 3D 点云，每个点有位置、颜色、不透明度、大小，还有球谐函数来描述从不同角度看颜色怎么变。
 
-它之所以在过去几年火了，核心原因是**可微性好**——所有东西都是平滑的、部分透明的，参数微调时输出也连续变化，梯度可以干净地回传到神经网络里 <button class="pd-ts" data-t="36:15" data-who="" data-en="So now I have a sharp change, a sharp discontinuous change in the image that I'm gonna see as a function of the parameters. So, you know, Gaussian splats don't have that property because everything is smooth." aria-label="回原文"></button>。相比之下，传统的三角网格（游戏和特效用了几十年的标准表示）有尖锐的不连续性，和神经网络不兼容 <button class="pd-ts" data-t="35:42" data-who="" data-en="And that's worked amazing for computer graphics for decades. But the problem is that triangles don't fit with neural networks very well. Because the important part is differentiability." aria-label="回原文"></button>。World Labs 的产品 [[Marble|Marble]] 走的就是这条路：用户输入一张图片或文本，模型先生成 360 度全景图，再把它「提升」成 3D 高斯溅射世界，用户可以导航 <button class="pd-ts" data-t="41:40" data-who="" data-en="Then from that, we generate a 3D Gaussian splat world. And one intermediate step in that is generating a 360 panorama image. And this is where, like, given those inputs, you kind of have one model, one part of a model that generates a 360 panorama view of the world you're about to generate." aria-label="回原文"></button>。
+它之所以在过去几年火了，核心原因是**可微性好**——所有东西都是平滑的、部分透明的，参数微调时输出也连续变化，梯度可以干净地回传到神经网络里。相比之下，传统的三角网格（游戏和特效用了几十年的标准表示）有尖锐的不连续性，和神经网络不兼容。World Labs 的产品 [[Marble|Marble]] 走的就是这条路：用户输入一张图片或文本，模型先生成 360 度全景图，再把它「提升」成 3D 高斯溅射世界，用户可以导航。
 
-**隐式路线——直接生成像素**。没有中间的 3D 表示，模型直接实时吐出视频帧。World Labs 的 [[RTFM|RTFM]]（实时帧模型）就是这条路 <button class="pd-ts" data-t="27:05" data-who="" data-en="But then we put out a research blog post late last year called RTFM, which takes a very different approach called the real-time frame model. And this contrasts with our Marble approach in that it kind of goes more this straight-to-video, pixels-only direction." aria-label="回原文"></button>。
+**隐式路线——直接生成像素**。没有中间的 3D 表示，模型直接实时吐出视频帧。World Labs 的 [[RTFM|RTFM]]（实时帧模型）就是这条路。
 
-Justin 强调一个容易混淆的点：**高斯溅射本身只是一种表示，不是世界模型**。早期 Meta 等公司做的经典高斯溅射是「重建」——拍几千张照片然后拟合一个点云，这里没有在大数据上训练过的大模型，没有可泛化的知识 <button class="pd-ts" data-t="30:09" data-who="" data-en="There's no world model in there, right? There was no big, powerful model in here that learned on a ton of data. These kind of optimization-based reconstruction approaches to Gaussian splatting are like, I've got a thousand images, the whole universe is like these thousand images, and I'm fitting a Gaussian splat to match these images." aria-label="回原文"></button>。Marble 的区别在于：高斯溅射是一个在大规模数据上训练的生成模型的**输出**，模型本身才是世界模型 <button class="pd-ts" data-t="30:36" data-who="" data-en="And that model happens to output Gaussian splats. So the Marble world model is the model that knows how to model worlds. It inputs images, it inputs text, and it outputs Gaussian splats." aria-label="回原文"></button>。
+Justin 强调一个容易混淆的点：**高斯溅射本身只是一种表示，不是世界模型**。早期 Meta 等公司做的经典高斯溅射是「重建」——拍几千张照片然后拟合一个点云，这里没有在大数据上训练过的大模型，没有可泛化的知识。Marble 的区别在于：高斯溅射是一个在大规模数据上训练的生成模型的**输出**，模型本身才是世界模型。
 
-两条路线怎么选？Justin 认为不是谁优于谁，而是工程约束问题：算力预算低、要嵌入式运行、要构造上保证一致性→高斯溅射；能砸大量数据和算力、追求无限扩展→隐式像素路线 <button class="pd-ts" data-t="39:00" data-who="" data-en="They're just different points on the technology curve, right? If you have a relatively low compute budget and you want things to run embedded, like you don't want to train giant models, then Gaussian splats are appealing because they're consistent by construction." aria-label="回原文"></button>。一致性（你转开再转回来，世界不变）在显式路线里是构造保证的，在隐式路线里靠数据和训练「学出来」<button class="pd-ts" data-t="38:07" data-who="" data-en="And that's this notion of consistency. And there's different, and Gaussian splats are kind of consistent by construction, right? Because I've got this explicit 3D representation of the world." aria-label="回原文"></button>。
+两条路线怎么选？Justin 认为不是谁优于谁，而是工程约束问题：算力预算低、要嵌入式运行、要构造上保证一致性→高斯溅射；能砸大量数据和算力、追求无限扩展→隐式像素路线。一致性（你转开再转回来，世界不变）在显式路线里是构造保证的，在隐式路线里靠数据和训练「学出来」。
 
 ## 三类世界模型：渲染器、规划器、模拟器
 
-World Labs 的团队把这些纷繁的世界模型工作统一回了 POMDP 框架，发现几乎所有东西都可以归入三类，取决于模型在「智能体—动作—状态—观测」循环里输出什么 <button class="pd-ts" data-t="49:00" data-who="" data-en="And there we realized we could ground this back in this PoMDP formalism that we talked about before. Because in this PoMDP, remember, there are three things that are moving around the system." aria-label="回原文"></button>：
+World Labs 的团队把这些纷繁的世界模型工作统一回了 POMDP 框架，发现几乎所有东西都可以归入三类，取决于模型在「智能体—动作—状态—观测」循环里输出什么：
 
-- **渲染器（Renderer）**：输出观测（像素/视频）。比如 Genie、RTFM。用户给动作，模型告诉你世界看起来什么样 <button class="pd-ts" data-t="50:24" data-who="" data-en="Then we kind of like taxonomize these into like these three different categories of world models then based on what they're outputting. So like you said, like if you're outputting the observation like Genie or like RTFM, then we're calling that a rendering world model or just a renderer, right?" aria-label="回原文"></button>。
-- **规划器（Planner）**：输出动作。比如机器人策略模型——输入现实世界的观测，输出机器人该做的动作。和渲染器几乎是对偶关系 <button class="pd-ts" data-t="50:43" data-who="" data-en="So those are kind of what we're terming a rendering, a renderer as a world model. Then the other easy, the other cool one are all these people training robotics policies, right?" aria-label="回原文"></button>。
-- **模拟器（Simulator）**：输出或操作状态。这是最棘手的一个。Marble 其实跨越了渲染器和模拟器的边界：用户看到的是像素（渲染器），但模型真正输出的是高斯溅射这种显式状态表示，你可以测距离、插物体、做渲染以外的事 <button class="pd-ts" data-t="52:50" data-who="" data-en="And I think Marble is actually an example of something that is somewhat straddling the boundary between world model as renderer and world model as simulator, right?" aria-label="回原文"></button>。
+- **渲染器（Renderer）**：输出观测（像素/视频）。比如 Genie、RTFM。用户给动作，模型告诉你世界看起来什么样。
+- **规划器（Planner）**：输出动作。比如机器人策略模型——输入现实世界的观测，输出机器人该做的动作。和渲染器几乎是对偶关系。
+- **模拟器（Simulator）**：输出或操作状态。这是最棘手的一个。Marble 其实跨越了渲染器和模拟器的边界：用户看到的是像素（渲染器），但模型真正输出的是高斯溅射这种显式状态表示，你可以测距离、插物体、做渲染以外的事。
 
-Justin 认为，最终这些不会是割裂的三类系统。它们问的是同一组根本问题——世界可能什么样、如何响应动作、如何演化——所以会融合成**统一世界模型**：一个共享主干，根据需要切换输出头，有时输出像素，有时输出动作，有时输出状态 <button class="pd-ts" data-t="58:07" data-who="" data-en="These are all fundamental questions that all connect to each other. If I get better at understanding how the world state evolves, probably I'll also get better at anticipating what it's going to look like from different angles as a renderer." aria-label="回原文"></button>。但他也坦承，现在还没到那一步 <button class="pd-ts" data-t="58:28" data-who="" data-en="If I can implicitly evolve my world state, probably I can also plan against that state and know how to take actions to affect the world. So I think it's pretty, I don't think we're there yet, but I think over the next couple of years, we'll start to see models that combine more and more of these capabilities into one powerful unified model." aria-label="回原文"></button>。
+Justin 认为，最终这些不会是割裂的三类系统。它们问的是同一组根本问题——世界可能什么样、如何响应动作、如何演化——所以会融合成**统一世界模型**：一个共享主干，根据需要切换输出头，有时输出像素，有时输出动作，有时输出状态。但他也坦承，现在还没到那一步。
 
 ## 当前架构够用吗
 
-Transformer 本身很强，Justin 不认为需要推翻它 <button class="pd-ts" data-t="60:23" data-who="" data-en="Probably not too big. I think transformers are really, really powerful. Yeah, I get this question a lot." aria-label="回原文"></button>。他看到两个更紧迫的进化方向：
+Transformer 本身很强，Justin 不认为需要推翻它。他看到两个更紧迫的进化方向：
 
-**损失函数**：扩散、rectified flow、离散自回归——这是生成模型训练目标的演化，比架构变化更关键 <button class="pd-ts" data-t="61:05" data-who="" data-en="So there is a kind of a loss function question that's really applicable to any kind of generative model that I think is probably going to evolve and has already." aria-label="回原文"></button>。
+**损失函数**：扩散、rectified flow、离散自回归——这是生成模型训练目标的演化，比架构变化更关键。
 
-**超长上下文**：这是世界模型和语言模型的真正分水岭。语言模型里百万 token 是极端情况，但 3D 世界建模很容易就需要几千万 token 的上下文——每个 token 可能是一小块视频、一小束高斯溅射、或一小块 3D 空间 <button class="pd-ts" data-t="62:44" data-who="" data-en="Like, how do these things relate? I think that's that's where there's a lot of, you know, different things happening. And that's where I do see a lot of evolution." aria-label="回原文"></button>。怎么让 Transformer 在这种长度下高效工作，是必须解决的问题 <button class="pd-ts" data-t="62:07" data-who="" data-en="Like it's very quick, very easy to get situations where you want hundreds of thousands or millions or tens of millions of tokens of context for different world modeling problems." aria-label="回原文"></button>。
+**超长上下文**：这是世界模型和语言模型的真正分水岭。语言模型里百万 token 是极端情况，但 3D 世界建模很容易就需要几千万 token 的上下文——每个 token 可能是一小块视频、一小束高斯溅射、或一小块 3D 空间。怎么让 Transformer 在这种长度下高效工作，是必须解决的问题。
 
-至于几何深度学习、对称性这些「把物理先验硬塞进架构」的思路，Justin 持谨慎态度：深度学习的教训反复是——用简单表征，把规模堆上去；硬编码的假设（比如人体对称）可能帮你走 80% 的路，但最终会崩溃 <button class="pd-ts" data-t="64:05" data-who="" data-en="And at least from a particular lens, it seems like if we're talking about spatial information, there may be a role for that. Maybe, but I think the lesson we've learned over and over again in deep learning is that you want simple representations and then scale up the model behind the simple representations." aria-label="回原文"></button>。
+至于几何深度学习、对称性这些「把物理先验硬塞进架构」的思路，Justin 持谨慎态度：深度学习的教训反复是——用简单表征，把规模堆上去；硬编码的假设（比如人体对称）可能帮你走 80% 的路，但最终会崩溃。
 
 > 【背景】POMDP 全称 Partially Observable Markov Decision Process（部分可观测马尔可夫决策过程），是强化学习中描述智能体在不确定环境下做决策的经典数学框架。转写稿中写作 "PoMDPs" / "partially observed markup decision processes"，为 ASR 识别错误。
 > 【背景】World Labs 由 Justin Johnson 与李飞飞共同创立，转写稿中提到 "World Labs" / "WoltLabs"（ASR 识别偏差），指同一公司。
@@ -124,9 +124,9 @@ Transformer 本身很强，Justin 不认为需要推翻它 <button class="pd-ts"
 
 **换个口味**
 
+- [[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model|Atlas:让 AI 预测世界的下一个视角]]<span class="pd-rz">同嘉宾:Justin Johnson · 同公司:World Labs · 同概念:Marble、世界模型 (world model)</span>
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同公司:World Labs · 同概念:Marble</span>
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]]<span class="pd-rz">同公司:World Labs · 同概念:Marble</span>
-- [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|SaaS增长该抄电商作业：付费广告立刻开打]]<span class="pd-rz">同公司:Meta · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

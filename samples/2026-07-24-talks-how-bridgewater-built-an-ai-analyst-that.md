@@ -39,43 +39,43 @@ jsonLd: |
 
 在这场技术分享中,桥水应用 AI 团队的三位成员——团队负责人 Brendan、投资负责人 Michael 和技术负责人 Santi——完整拆解了 PAT。我们会听到三块内容:第一,这家沉淀了 50 年投资规则的对冲基金为什么要建一个 AI 分析师;第二,PAT 具体怎么完成从查数据、出计划到并行生成代码并自我纠错的全流程;第三,他们最得意的架构洞察——为什么要把 AI 写代码看作编译器问题,而不是智能体问题。
 
-先交代一下这工具的土壤。桥水的方法论核心是:每一笔交易,必须写下确切的因果逻辑规则 <button class="pd-ts" data-t="01:30" data-who="" data-en="Every time you wanted to make a trade, write down exactly the rules for why you think that trade makes sense. Write down the exact causal logic, because once you do this, another investor can take a look at what you've written, help you to figure out where you went wrong, and help you to improve upon this process." aria-label="回原文"></button>。
+先交代一下这工具的土壤。桥水的方法论核心是:每一笔交易,必须写下确切的因果逻辑规则。
 
-如果逻辑错了,别的投资者可以看着你写下的规则帮你纠正。几十年来,这些规则被划掉、重写、最终沉淀成既可机读又可人读的专家系统 <button class="pd-ts" data-t="01:52" data-who="" data-en="Every time you learn something new, you scratch out a rule, you write down a new one, and this creates a pretty incredible learning process that has been the foundation of everything that we've done at Bridgewater for the past 50 years." aria-label="回原文"></button>。
+如果逻辑错了,别的投资者可以看着你写下的规则帮你纠正。几十年来,这些规则被划掉、重写、最终沉淀成既可机读又可人读的专家系统。
 
-这意味着,当 AI 时代到来时,他们根本不需要回头去为智能体整理语料——50 年的数据和上下文已经躺在那儿了 <button class="pd-ts" data-t="02:16" data-who="" data-en="And all of this data is really what sets us up well for the AI era. We didn't have to go back and write down everything for agents. It was already there for us to draw upon." aria-label="回原文"></button>。具体到工具 PAT(Pocket Analyst,口袋分析师),定位非常克制:它不负责交易,只做深度的探索性研究 <button class="pd-ts" data-t="04:36" data-who="" data-en="And just to set expectations, PAT is not about how we trade. It's really about performing deep exploratory research, enabling our investors to go after questions that they never would have had the bandwidth to go after before." aria-label="回原文"></button>。
+这意味着,当 AI 时代到来时,他们根本不需要回头去为智能体整理语料——50 年的数据和上下文已经躺在那儿了。具体到工具 PAT(Pocket Analyst,口袋分析师),定位非常克制:它不负责交易,只做深度的探索性研究。
 
 了解了它长在什么土壤上,接下来看它到底怎么干活。一份高质量的分析,一切从查数据开始。
 
-除了全网搜索,PAT 还能在内部那个每天涌入数千篇新文档、包含数百万份研报和纪要的非结构化数据库里翻找 <button class="pd-ts" data-t="10:44" data-who="" data-en="Now, web search itself is table stakes when it comes to these modern chat applications, but the real differentiator here is the breadth of unstructured content that we subscribe to that Pat is able to search over." aria-label="回原文"></button>。查结构化时间序列数据(比如几十年的股价)时,团队发现一个关键细节:只靠 [[RAG|RAG]](检索增强生成,一种让模型先查资料再回答的技术)和重排序,准确率只有 50%;但如果像人类研究员那样,顺便检查数据的频率、货币,以及数值是否合理 <button class="pd-ts" data-t="11:46" data-who="" data-en="And what I mean by that is when a human researcher is looking for data, they don't just anchor to what the name of the time series is. They'll do things like look at the frequency, the currency of the series, and then most importantly, whether the values in the series align with their priors." aria-label="回原文"></button>,准确率能直接拉到 90%。
+除了全网搜索,PAT 还能在内部那个每天涌入数千篇新文档、包含数百万份研报和纪要的非结构化数据库里翻找。查结构化时间序列数据(比如几十年的股价)时,团队发现一个关键细节:只靠 [[RAG|RAG]](检索增强生成,一种让模型先查资料再回答的技术)和重排序,准确率只有 50%;但如果像人类研究员那样,顺便检查数据的频率、货币,以及数值是否合理,准确率能直接拉到 90%。
 
-数据备齐,接下来才是最关键的一步。PAT 的核心信条是:计划即分析 <button class="pd-ts" data-t="12:15" data-who="" data-en="During Pat's development, we came to the view that the plan really is the analysis. If we can create a high-quality, detailed plan, we felt confident that we could consistently take this plan, intelligently execute it, and produce our desired outputs." aria-label="回原文"></button>。
+数据备齐,接下来才是最关键的一步。PAT 的核心信条是:计划即分析。
 
-它不会急匆匆去写代码,而是先跟投资者反复对齐——逼着平时不爱做规划的投资者,把模糊的研究意图,掰碎成一份详尽的计划。这份计划会精确列出需要产生哪些[[数据帧|数据帧]](data frame,数据表)、每个表的结构,以及这些表之间怎么连接 <button class="pd-ts" data-t="12:49" data-who="" data-en="We taught Pat what makes a good research question versus a bad one, so this back and forth helps humans, who tend to underinvest in planning, flesh out what we consider to be a high-quality research plan." aria-label="回原文"></button>。定计划虽然耗时,但这是团队主动付出的成本,为的是换取执行阶段的绝对确定性。
+它不会急匆匆去写代码,而是先跟投资者反复对齐——逼着平时不爱做规划的投资者,把模糊的研究意图,掰碎成一份详尽的计划。这份计划会精确列出需要产生哪些[[数据帧|数据帧]](data frame,数据表)、每个表的结构,以及这些表之间怎么连接。定计划虽然耗时,但这是团队主动付出的成本,为的是换取执行阶段的绝对确定性。
 
 > 【背景】「数据帧」(data frame)是 Python 数据分析中常用的二维表格结构,类似 Excel 表;「子智能体」(subagent)指在主程序调度下专门负责单一任务的小型 AI。
 
-把规划讲透了,难点才刚刚开始:怎么让 AI 照着这份计划写出不出错的代码?这正是技术负责人 Santi 要解决的问题。他的核心主张反直觉且大胆:别把 AI 写代码当成一个充满随机性的智能体问题,要把它当成确定性的编译器问题 <button class="pd-ts" data-t="25:06" data-who="" data-en="And this last thing is kind of like a thought exercise, and hopefully it's exciting that someone might take away, is thinking of agentic coding as a compiler problem, not as an agentic problem." aria-label="回原文"></button>。
+把规划讲透了,难点才刚刚开始:怎么让 AI 照着这份计划写出不出错的代码?这正是技术负责人 Santi 要解决的问题。他的核心主张反直觉且大胆:别把 AI 写代码当成一个充满随机性的智能体问题,要把它当成确定性的编译器问题。
 
-Santi 指出,代码智能体非常善变、不可预测,经常犯错,倒霉起来还会发疯删数据 <button class="pd-ts" data-t="17:09" data-who="" data-en="Coding agents are really fickle, unpredictable, they often make mistakes, and then when you're really unlucky, they'll go crazy and try and nuke your data and all the rest of it." aria-label="回原文"></button>。在对冲基金动辄交易几十亿美元的背景下,绝不能指望 vibe coding(凭感觉编程)来托底 <button class="pd-ts" data-t="17:25" data-who="" data-en="At a hedge fund, we're trying to trade billions of dollars, and so we can't have just vibe code be the underpinning of how these analysis go. My background is in compiler theory and programming language design, and compilers have a very similar footprint of requirements, which is they're fully deterministic, fully correct, and reliable." aria-label="回原文"></button>。基于[[编译器理论|编译器理论]](要求绝对确定性)的灵感,他们彻底重构了架构。
+Santi 指出,代码智能体非常善变、不可预测,经常犯错,倒霉起来还会发疯删数据。在对冲基金动辄交易几十亿美元的背景下,绝不能指望 vibe coding(凭感觉编程)来托底。基于[[编译器理论|编译器理论]](要求绝对确定性)的灵感,他们彻底重构了架构。
 
-首先是物理隔离。聊天智能体和写代码的智能体被完全拆开 <button class="pd-ts" data-t="18:42" data-who="" data-en="So why would you separate your two agents? Early on, we decided that our investors are not programmers by trade, and they care about investment. And so we decided to keep the chat purely about investment content." aria-label="回原文"></button>。
+首先是物理隔离。聊天智能体和写代码的智能体被完全拆开。
 
-理由很简单:投资者不是程序员,聊天界面必须纯粹谈投资。结果是,「写代码」在 PAT 里成了纯粹的底层实现细节,用户根本看不到代码 <button class="pd-ts" data-t="18:57" data-who="" data-en="And the result is that we have a product where coding is a pure implementation detail. From the chat, you can't tell that there's code under the hood. And other happy accidents are that you get unpolluted context, so each agent becomes specialized in its job and naturally improves." aria-label="回原文"></button>。这不仅让聊天体验更纯粹,也让两个智能体的上下文互不污染,各自专精 <button class="pd-ts" data-t="19:00" data-who="" data-en="From the chat, you can't tell that there's code under the hood. And other happy accidents are that you get unpolluted context, so each agent becomes specialized in its job and naturally improves." aria-label="回原文"></button>。
+理由很简单:投资者不是程序员,聊天界面必须纯粹谈投资。结果是,「写代码」在 PAT 里成了纯粹的底层实现细节,用户根本看不到代码。这不仅让聊天体验更纯粹,也让两个智能体的上下文互不污染,各自专精。
 
 > 【背景】「确定性」(deterministic)指同样的输入永远得出完全相同的输出,不允许有任何随机性或偏差。
 
-拆分了智能体,再看那套「编译器」怎么运作。PAT 拿到那份极其详尽的计划后,不是一步步串行去写代码,而是用[[子智能体|子智能体]]对全量任务进行并行的 LLM(大语言模型)生成 <button class="pd-ts" data-t="21:19" data-who="" data-en="And then we do parallel LLM generation. And because our plan is so detailed, a visualization task at the end of the plan already knows everything it needs to consume code generation that hasn't yet been completed for a loading data set." aria-label="回原文"></button>。
+拆分了智能体,再看那套「编译器」怎么运作。PAT 拿到那份极其详尽的计划后,不是一步步串行去写代码,而是用[[子智能体|子智能体]]对全量任务进行并行的 LLM(大语言模型)生成。
 
-因为计划足够细,排在最后的可视化任务,在中间步骤的代码还没写出来时,就已经知道该调用什么数据了。这使得一个 20 个任务的大计划,跟一个 3 个任务的小计划,花的时间几乎一样 <button class="pd-ts" data-t="21:46" data-who="" data-en="But then we have this hyperscaling, so a 20-task plan takes the same amount of time as a three-task plan. Okay, so now we have code, and we're going to execute it." aria-label="回原文"></button>。比传统串行模式快了约 4 倍。
+因为计划足够细,排在最后的可视化任务,在中间步骤的代码还没写出来时,就已经知道该调用什么数据了。这使得一个 20 个任务的大计划,跟一个 3 个任务的小计划,花的时间几乎一样。比传统串行模式快了约 4 倍。
 
-更关键的纠错环节同样借鉴了编译器思路。代码写出来不是直接运行,而是先做[[静态分析|静态分析]],构建 DAG(有向无环图,一种表示任务依赖关系的结构),然后并行投入多个验证智能体 <button class="pd-ts" data-t="22:15" data-who="" data-en="The first thing we do on the code is we do static analysis and then figure out the DAG. And we're going to apply our validation agents in parallel. So here, there's two tasks that are going to be validated at the same time." aria-label="回原文"></button>。
+更关键的纠错环节同样借鉴了编译器思路。代码写出来不是直接运行,而是先做[[静态分析|静态分析]],构建 DAG(有向无环图,一种表示任务依赖关系的结构),然后并行投入多个验证智能体。
 
-Santi 反复强调:这里没有任何「智能体编排」,全靠硬邦邦的常规 Python 代码控制流程——这意味着智能体「不可能忘记验证」,它们是被强制要求验证的 <button class="pd-ts" data-t="22:42" data-who="" data-en="This is regular Python code, and so the handles are really quick, and the agents cannot forget to validate. They are forced to validate. The result is that when we run our test suite, anyone planned for our test suite, 95% of the time, the code that comes out is exactly the same for two different agents." aria-label="回原文"></button>。这套硬核机制换来了惊人的稳定性:面对测试套件,95% 的情况下,两个不同的智能体写出的代码,运行结果完全一样 <button class="pd-ts" data-t="22:53" data-who="" data-en="The result is that when we run our test suite, anyone planned for our test suite, 95% of the time, the code that comes out is exactly the same for two different agents." aria-label="回原文"></button>。
+Santi 反复强调:这里没有任何「智能体编排」,全靠硬邦邦的常规 Python 代码控制流程——这意味着智能体「不可能忘记验证」,它们是被强制要求验证的。这套硬核机制换来了惊人的稳定性:面对测试套件,95% 的情况下,两个不同的智能体写出的代码,运行结果完全一样。
 
-架构做到了确定性,最后一步的代码执行也迎来了额外红利。通常代码智能体是自己通过终端去调用自己的代码,不仅延迟高,还容易半路迷路 <button class="pd-ts" data-t="23:22" data-who="" data-en="There's a couple of trade-offs here. That's high latency with the tool calls, but I'm sure you've all experienced, like, they'll sometimes get lost along the way." aria-label="回原文"></button>。
+架构做到了确定性,最后一步的代码执行也迎来了额外红利。通常代码智能体是自己通过终端去调用自己的代码,不仅延迟高,还容易半路迷路。
 
-Santi 的团队换了个做法:他们搞了一套经典的静态分析管道,把缓存注释自动注入到 Python 代码里 <button class="pd-ts" data-t="23:36" data-who="" data-en="We do a classical static analysis pipeline where we inject caching annotations into the Python code to avoid re-execution and run it through a custom framework." aria-label="回原文"></button>。好处在哪?投资者微调了某个图表的变量后,PAT 几乎瞬间就能出结果,因为它绝对不会去重复执行那些未改动的中间数据加载步骤 <button class="pd-ts" data-t="24:10" data-who="" data-en="So it's basically the same amount of time, though it is faster editing the code. But Pocket Analyst basically has instantaneous code execution for the second round." aria-label="回原文"></button>。
+Santi 的团队换了个做法:他们搞了一套经典的静态分析管道,把缓存注释自动注入到 Python 代码里。好处在哪?投资者微调了某个图表的变量后,PAT 几乎瞬间就能出结果,因为它绝对不会去重复执行那些未改动的中间数据加载步骤。
 
 ## 本集带走
 最后收个尾,这一集最值得带走的是他们对 AI 智能体工程的三个判断。第一,你得敢于把大而全的「超级智能体」拆掉。酷炫的万能智能体只能拿来做演示,真要进日常工作流,就得把它拆成极度狭窄的垂直任务,往死里做[[基准测试|基准测试]],然后再把它们组合起来——这才是可靠的工程化路径。第二,跟用户对齐时,「计划」本身就是最核心的分析。与其让模型直接给答案,不如逼着投资者把模糊想法拆成详尽到极致的计划,把成本前置到规划阶段。第三,也是最反直觉的一点:要想让 AI 写代码不出错,得把它当成编译器问题,而不是智能体问题。抛弃充满随机性的自由探索,用静态分析、并行生成、强制验证这些传统计算机科学里的老办法,反而能在对冲基金这种对确定性要求极高的地方,把 AI 真正落地成不可替代的生产力。

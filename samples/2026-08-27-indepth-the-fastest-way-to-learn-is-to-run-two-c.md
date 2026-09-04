@@ -45,92 +45,92 @@ jsonLd: |
 
 他总结了五个要素，但强调不是等权重的，取决于组织所处的阶段。
 
-**第一，建高绩效团队。** 不只是招顶尖的人，还要想清楚团队构成——多少早期职业生涯的人、多少专家、多少通才、多少资深技术骨干，比例要对 <button class="pd-ts" data-t="02:30" data-who="" data-en="Yeah so for me there's like five things maybe that come together. One is you have to build a high performing team. So that is all about how do you recruit the top people, you know, and then thinking about like the composition of the team, right?" aria-label="回原文"></button>。
+**第一，建高绩效团队。** 不只是招顶尖的人，还要想清楚团队构成——多少早期职业生涯的人、多少专家、多少通才、多少资深技术骨干，比例要对。
 
-**第二，设定战略和北极星，但抽象层次必须对。** 太高层，团队不知道拿它干嘛；太细，你把所有 OKR 都口述给团队，团队就不自己思考了。要给一个合适的抽象层次，比如收入、用户这类高层指标，然后让团队自己决定怎么达到 <button class="pd-ts" data-t="02:50" data-who="" data-en="How many senior? tech lead type of people do you want senior ICs etc second then is the in some ways like setting that strategy setting that vision like where is that north star going but it's got to be at the right level because if it's too high level then it's too opaque people don't know what to do with it if you're as an engineering leader dictating like all of the 1051 OKRs for the team then the team doesn't think on its own so you've got to come with the right level of that" aria-label="回原文"></button>。
+**第二，设定战略和北极星，但抽象层次必须对。** 太高层，团队不知道拿它干嘛；太细，你把所有 OKR 都口述给团队，团队就不自己思考了。要给一个合适的抽象层次，比如收入、用户这类高层指标，然后让团队自己决定怎么达到。
 
-**第三，建立执行的鼓点。** 这是他反复强调的——组织里必须有一种"一周接一周"甚至"一天接一天"的节奏感。可以有需要一两年的大项目，但你必须能展示每周的进展，而且这个进展要是客观可量化的，不管是效率工作、收入增长还是用户留存 <button class="pd-ts" data-t="03:30" data-who="" data-en="Abstraction of the strategy division in Northstar, kind of maybe the higher level metrics or goals that you have, whether it be revenue or users or whatever it might be." aria-label="回原文"></button>。
+**第三，建立执行的鼓点。** 这是他反复强调的——组织里必须有一种"一周接一周"甚至"一天接一天"的节奏感。可以有需要一两年的大项目，但你必须能展示每周的进展，而且这个进展要是客观可量化的，不管是效率工作、收入增长还是用户留存。
 
-**第四，建立一种对抗"[[苦差事|苦差事]]累积"的文化。** 随着 AI 时代构建和迭代的速度前所未有地快，如果你不回头清理那些随着增长堆起来的繁琐工作，它就会拖慢你、引发各种螺旋式恶化 <button class="pd-ts" data-t="04:36" data-who="" data-en="A service for longer and longer. You need to have this moment or this thing in your culture that cares about the toil and about the headwinds that are created and knows how to go and collect that stuff and squish it down or get rid of it, right?" aria-label="回原文"></button>。
+**第四，建立一种对抗"[[苦差事|苦差事]]累积"的文化。** 随着 AI 时代构建和迭代的速度前所未有地快，如果你不回头清理那些随着增长堆起来的繁琐工作，它就会拖慢你、引发各种螺旋式恶化。
 
-**第五，有意识地构建文化。** 他指出现在谈论文化甚至"不酷了"，但他说的不是周边商品和零食，而是非常具体的东西：工作方式、价值观、你希望团队体现的行为——因为这些要与使命对齐，让组织在每 24 小时都在变化的环境里越来越快地适应 <button class="pd-ts" data-t="05:15" data-who="" data-en="And if you don't go back and have a culture where you are in some ways like fighting allergic, recognizing that this toil can't just infinitely keep accruing or kind of piling up for you, then that just is going to slow you down and all sorts of things spiral." aria-label="回原文"></button>。
+**第五，有意识地构建文化。** 他指出现在谈论文化甚至"不酷了"，但他说的不是周边商品和零食，而是非常具体的东西：工作方式、价值观、你希望团队体现的行为——因为这些要与使命对齐，让组织在每 24 小时都在变化的环境里越来越快地适应。
 
 ## 文化是其他四条的速率限制器
 
-五条里，文化最容易被低估，但他认为文化往往是其他四条的天花板。原因在于：当组织变老、变慢时，堆积的苦差事往往是一个"结果"，真正的"原因"是组织里形成了一种[[习得性无助|习得性无助]]的风气——"我做不了那个""如果有更多人就能修""安全审查就是慢，没办法" <button class="pd-ts" data-t="06:42" data-who="" data-en="I'm talking about the toil being an effect. The cause actually is having built an organization and a leadership that has an ethos of maybe learned helplessness. where hey i can't do that or hey we would fix that if we had more people or i could do this if we could you know like there's a lot of that there could be a lot of that learned helplessness that then outputs this toil which just people feel defeated by right and you have to change the culture you have to change potentially" aria-label="回原文"></button>。
+五条里，文化最容易被低估，但他认为文化往往是其他四条的天花板。原因在于：当组织变老、变慢时，堆积的苦差事往往是一个"结果"，真正的"原因"是组织里形成了一种[[习得性无助|习得性无助]]的风气——"我做不了那个""如果有更多人就能修""安全审查就是慢，没办法"。
 
-这种风气让人觉得什么都改变不了，文化就回归平庸了。你不改文化，其他四条都推不动 <button class="pd-ts" data-t="07:42" data-who="" data-en="And you have to change that. That's why the fifth one around building a great culture oftentimes rate limits your ability to be great at the other four. Do you think on the fifth one, culture, what are the primary input drivers to that?" aria-label="回原文"></button>。
+这种风气让人觉得什么都改变不了，文化就回归平庸了。你不改文化，其他四条都推不动。
 
 ## 学习循环：组织越大，学得越慢
 
-他把组织想象成一个圆，圆的一圈代表一次学习。组织变大、变成功、人变多之后，这个圆的直径变大，你绕一圈的速度变慢——学同样的东西，距离更长了，速度也更慢了。他思考的所有事情就是怎么对抗这种扩张和变慢 <button class="pd-ts" data-t="09:40" data-who="" data-en="you know great values customer obsession or like move fast or whatever it might be those can not be very deep those can be just things that people put on posters on a wall somewhere but how are those embodied in terms of the behaviors and the you know minute by minute hour by hour i'd say interactions between people so when i talk about culture it's really that" aria-label="回原文"></button>。
+他把组织想象成一个圆，圆的一圈代表一次学习。组织变大、变成功、人变多之后，这个圆的直径变大，你绕一圈的速度变慢——学同样的东西，距离更长了，速度也更慢了。他思考的所有事情就是怎么对抗这种扩张和变慢。
 
-具体做法包括：不断调整运作方式（比如会议从 8 人变成 40 人时必须拆分）、设定更明确的目标和 [[DRI|DRI]]（直接责任人）、从失败中学习而不是被失败扰乱。他强调很多人"对流程过敏"，但为了流程而流程是糟糕的，问题是"什么是让所有人能做最好工作的正确结构" <button class="pd-ts" data-t="11:11" data-who="" data-en="But you've got to keep recursing that into the system. And a lot of people are allergic to process. And I'd say, you know, processes for process sakes is terrible." aria-label="回原文"></button>。
+具体做法包括：不断调整运作方式（比如会议从 8 人变成 40 人时必须拆分）、设定更明确的目标和 [[DRI|DRI]]（直接责任人）、从失败中学习而不是被失败扰乱。他强调很多人"对流程过敏"，但为了流程而流程是糟糕的，问题是"什么是让所有人能做最好工作的正确结构"。
 
 ## 速度不是可选的，是竞争优势
 
-他不觉得速度是"锦上添花"，而是他个人认为构建伟大产品的核心信念。回溯到[[学习循环|学习循环]]——如果你能在同样的时间里比竞争对手学得快 2 倍、5 倍、10 倍，长期来看你会喜欢你的胜算 <button class="pd-ts" data-t="13:03" data-who="" data-en="Building great businesses is like speed really does matter because I think it's a competitive edge. I think back to that learning loop that I talked about, I think it is all about if I can learn 2x, 5x, 10x faster than my competitors in the fullness of time, I like my chances at that point, right?" aria-label="回原文"></button>。
+他不觉得速度是"锦上添花"，而是他个人认为构建伟大产品的核心信念。回溯到[[学习循环|学习循环]]——如果你能在同样的时间里比竞争对手学得快 2 倍、5 倍、10 倍，长期来看你会喜欢你的胜算。
 
 **怎么在大型组织里真正提速？** 他加入微软 Core AI 时做了几件事：
 
-- **收集数据**：定性和定量都做。定量方面，把工程师的时间分成"专注时间"和"非专注时间"，建仪表板让所有工程负责人看到自己团队的数据，目标是增加专注时间 <button class="pd-ts" data-t="14:07" data-who="" data-en="And then we also had a bunch of quantitative data in terms of how Product folks, builders, engineers were spending their time and we broke it up into what we call kind of like either you call it productive time or we called it focus time and that was like we wanted more and more focus time and then come you know what we do with that focus time was like another thing we had to go do but we wanted to get more of your time spent into focus time but we could measure this right and then we could actually have dashboards we could have all of the engineering leaders" aria-label="回原文"></button>。
-- **改心态，不只下命令**：如果团队说 9 月 30 日发布，你不能只说"8 月 15 日必须发"——用一次命令可能做到一两次，但不会形成持久文化。要理解他们为什么认为需要那么久，带着他们走一遍假设，然后逐步缩短：下一次早两周，再下一次再早两周，直到每周发布、每天发布 <button class="pd-ts" data-t="15:42" data-who="" data-en="Because some part of this is mindset, which is, hey, we have been doing things this way, and this September 30th date is the normal way of doing things, right? Then you have those, in some ways, kind of the Socratic method, right?" aria-label="回原文"></button>。
-- **砍掉路上的障碍**：工程师都想交付价值，你要找出哪些流程在拖慢他们、哪些可以在发布后处理 <button class="pd-ts" data-t="17:15" data-who="" data-en="The other thing is back to the toil part of it. You know, I think all engineers want to ship great things and deliver value to their end users, right? Like they want to land the impact." aria-label="回原文"></button>。
-- **投资自动化和减少繁琐工作**：这是高管必须平衡的事。他在 Facebook 时，从每天发布一次核心产品，到每天三次，最后到持续部署——这不只是文化，也是对内部中央系统的大量投资 <button class="pd-ts" data-t="18:36" data-who="" data-en="And then we went, by the time I left, we were doing basically continual deployments, right? And that was like culture, but also a big investment in our own internal kind of central systems to go do this." aria-label="回原文"></button>。
+- **收集数据**：定性和定量都做。定量方面，把工程师的时间分成"专注时间"和"非专注时间"，建仪表板让所有工程负责人看到自己团队的数据，目标是增加专注时间。
+- **改心态，不只下命令**：如果团队说 9 月 30 日发布，你不能只说"8 月 15 日必须发"——用一次命令可能做到一两次，但不会形成持久文化。要理解他们为什么认为需要那么久，带着他们走一遍假设，然后逐步缩短：下一次早两周，再下一次再早两周，直到每周发布、每天发布。
+- **砍掉路上的障碍**：工程师都想交付价值，你要找出哪些流程在拖慢他们、哪些可以在发布后处理。
+- **投资自动化和减少繁琐工作**：这是高管必须平衡的事。他在 Facebook 时，从每天发布一次核心产品，到每天三次，最后到持续部署——这不只是文化，也是对内部中央系统的大量投资。
 
 ## 大团队不可能快：工作图取代组织结构图
 
-他见过最快的团队，不管是 Facebook 时期还是现在微软 Core AI 里的，都是**超级小的团队**——每天发布、有时一天多次，但人数很少 <button class="pd-ts" data-t="19:21" data-who="" data-en="I think it just depends on the kind of the part of the system that we're building, right? I mean, we have teams now in Core AI and Microsoft that, you know, that I support, that I work with, that are shipping daily, sometimes multiple times a day." aria-label="回原文"></button>。
+他见过最快的团队，不管是 Facebook 时期还是现在微软 Core AI 里的，都是**超级小的团队**——每天发布、有时一天多次，但人数很少。
 
-他的核心观点：**大团队就是不可能快**。关键不是组织结构图，而是"[[工作图|工作图]]"——不管你叫它 V 团队还是分队，把工作拆成极小的单元，每个单元有合适的人、一个拥有上下文和主观能动性的明确 DRI，然后信任这个团队去执行 <button class="pd-ts" data-t="20:23" data-who="" data-en="It's just like not possible to me, right? So it's all about how do you get, if you have a large team, how do you get this broken down into what You know, I call, we call the work chart, not the org chart." aria-label="回原文"></button>。
+他的核心观点：**大团队就是不可能快**。关键不是组织结构图，而是"[[工作图|工作图]]"——不管你叫它 V 团队还是分队，把工作拆成极小的单元，每个单元有合适的人、一个拥有上下文和主观能动性的明确 DRI，然后信任这个团队去执行。
 
-配套做法：**升级不是坏事**。他告诉团队，任何事卡住超过 24 小时就直接找他，不要一层层上报等两周 <button class="pd-ts" data-t="21:10" data-who="" data-en="In this world, right? It's like I've told teams, I'm like, listen, if you get stuck for more than 24 hours in anything that you're doing, you call me, right? Because I don't want this to be like, oh, we have to talk to our manager who talks to their manager who then comes to me two weeks later." aria-label="回原文"></button>。但也要快速判断 DRI 是否选对了人——选错了就要果断换 <button class="pd-ts" data-t="21:49" data-who="" data-en="And like you have to assess, you have to develop them, give them feedback. Sometimes you put people in that DRI or lead role that are actually just not the right people." aria-label="回原文"></button>。
+配套做法：**升级不是坏事**。他告诉团队，任何事卡住超过 24 小时就直接找他，不要一层层上报等两周。但也要快速判断 DRI 是否选对了人——选错了就要果断换。
 
 ## 每个人都必须贴近客户，包括基础设施团队
 
-在 Facebook，他把基础设施团队的职责推得很高——不只管硬件，连移动端堆栈都管。他的原则是：即使你是做基础设施的，如果你的部分好了但产品没好，那还是失败。团队之间是"共享命运"的关系 <button class="pd-ts" data-t="22:26" data-who="" data-en="In that case, do you think it's important that those folks that are working on that think that the software engineering team at Facebook is their customer and they need to delight the customer and meet the customer where they are?" aria-label="回原文"></button>。
+在 Facebook，他把基础设施团队的职责推得很高——不只管硬件，连移动端堆栈都管。他的原则是：即使你是做基础设施的，如果你的部分好了但产品没好，那还是失败。团队之间是"共享命运"的关系。
 
-在微软，他推一个叫"FTE"的文化概念——不是字面意思的全职员工编制，而是一种心态：团队里每个人，不管做什么层级的工作，都必须把自己做的事和客户怎么使用它联系起来，参加客户简报、旁听客户会议、读反馈 <button class="pd-ts" data-t="24:09" data-who="" data-en="I don't disagree with you and I think this comes back to kind of that vision that strategy that mission orientation but then also that culture because if you don't have that curiosity of and like listen sometimes customers say they want x but they really meant y sometimes they meant x they didn't really need x so you know you have to have you have to have processing to understand and judgment and intuition right and hopefully you get it more right than wrong" aria-label="回原文"></button>。
+在微软，他推一个叫"FTE"的文化概念——不是字面意思的全职员工编制，而是一种心态：团队里每个人，不管做什么层级的工作，都必须把自己做的事和客户怎么使用它联系起来，参加客户简报、旁听客户会议、读反馈。
 
-为什么这很重要？两个原因：一是让组织有目标感，知道自己的工作怎么创造价值，这能吸引和留住优秀的人；二是**减少组织内部的响应延迟**。如果只有顶层跟客户连接，顶层捕捉到趋势后还要一层一层传到前端、后端、基础设施、运维，每一层都有延迟——在今天的时代，这种延迟的惩罚已经"非常非常大"了 <button class="pd-ts" data-t="25:28" data-who="" data-en="And great people want to come there, great people want to stay at that point. Number two is part of this is we adapt faster, right? Because what ends up happening is if you only have, say, you know, the top layer of your organization connected to the customer, there's basically, there's sort of like loose layering here, right?" aria-label="回原文"></button>。
+为什么这很重要？两个原因：一是让组织有目标感，知道自己的工作怎么创造价值，这能吸引和留住优秀的人；二是**减少组织内部的响应延迟**。如果只有顶层跟客户连接，顶层捕捉到趋势后还要一层一层传到前端、后端、基础设施、运维，每一层都有延迟——在今天的时代，这种延迟的惩罚已经"非常非常大"了。
 
 ## S 曲线陡峭处：人才缺口要主动填，入职要"慢才能快"
 
-在技术浪潮的陡峭上升期，快速扩张会暴露每一层堆栈的人才缺口——你有没有合适的人来掌控这一层？他在 Facebook 时，从不用自己的数据中心、不造硬件，到后来因为规模和性价比的需求，必须在堆栈每一层都内部自制，这需要提前很久主动招人 <button class="pd-ts" data-t="30:02" data-who="" data-en="Like building some technology thing, meeting with customers, etc. But that steep part also then requires you, it will expose and you will see kind of where you have holes from a talent perspective." aria-label="回原文"></button>。
+在技术浪潮的陡峭上升期，快速扩张会暴露每一层堆栈的人才缺口——你有没有合适的人来掌控这一层？他在 Facebook 时，从不用自己的数据中心、不造硬件，到后来因为规模和性价比的需求，必须在堆栈每一层都内部自制，这需要提前很久主动招人。
 
-关于入职，他有一个反直觉的观点：**"慢一点才能快一点"**。花大量时间和钱招来顶尖的人，第一天就扔进一个几百人的团队说"去吧"，结果就是各种"器官排斥"。他在微软自己入职时，前两个月基本以 IC（独立贡献者）身份度过，见人、学习，然后才形成了 Core AI 的核心想法 <button class="pd-ts" data-t="33:01" data-who="" data-en="And sort of I have always this Moniker of like go slow to go fast in terms of an onboarding thing we oftentimes make such a tragic mistake you go out there and spend all this time and money to hire great people and then you're like day one here you know here's like a team of x hundred people and you know go for it" aria-label="回原文"></button>。
+关于入职，他有一个反直觉的观点：**"慢一点才能快一点"**。花大量时间和钱招来顶尖的人，第一天就扔进一个几百人的团队说"去吧"，结果就是各种"器官排斥"。他在微软自己入职时，前两个月基本以 IC（独立贡献者）身份度过，见人、学习，然后才形成了 Core AI 的核心想法。
 
 ## S 曲线陡峭处：IC 要被提拔，不被管理层压住
 
-在技术急剧拐点时，最懂技术的人往往是 IC，不是管理者。如果文化是 IC 什么都听从经理、向经理汇报，一切就会变慢。他在微软建了"智囊团"——每个由六到八个高级或中级 IC 组成，没有经理，专门讨论和争论他们在客户和技术中看到的拐点 <button class="pd-ts" data-t="36:35" data-who="" data-en="So you really have to make sure you're pulling the ICs out, holding them accountable. One of the things that I do at Microsoft is I have these brain trusts and they're in different parts of our stack." aria-label="回原文"></button>。
+在技术急剧拐点时，最懂技术的人往往是 IC，不是管理者。如果文化是 IC 什么都听从经理、向经理汇报，一切就会变慢。他在微软建了"智囊团"——每个由六到八个高级或中级 IC 组成，没有经理，专门讨论和争论他们在客户和技术中看到的拐点。
 
-他强调：**成为经理不是晋升，管理和技术是两条平行的职业轨道** <button class="pd-ts" data-t="37:01" data-who="" data-en="And we have other representations of this as well. So I think that's also really important is to like have in my mind that career tracks are parallel. It's not a promotion to be a manager." aria-label="回原文"></button>。
+他强调：**成为经理不是晋升，管理和技术是两条平行的职业轨道**。
 
 ## AI 时代：赌注变短，但标准不变
 
-AI 带来的根本变化：代码从输入变成了输出，软件开发生命周期的半衰期急剧缩短 <button class="pd-ts" data-t="37:40" data-who="" data-en="When you think about what's happened in AI in the past few years, in what way does it remind you of things of the past and what is like wholesale net new and that either you overly pattern match to the past or it's like so abundantly clear to you that nothing in the past is useful and trying to model and understand what it means to like either where we go or what it means to win or how do we position ourselves or sort of those types of things." aria-label="回原文"></button>。过去一个软件团队一年才能写出来的东西，现在一个月就能做出不错的原型 <button class="pd-ts" data-t="39:56" data-who="" data-en="So the thing that may have taken... You know, in my career, a software team, a year to write, well, I actually think we can get something pretty good in a month, maybe, you know, at least as a prototype." aria-label="回原文"></button>。
+AI 带来的根本变化：代码从输入变成了输出，软件开发生命周期的半衰期急剧缩短。过去一个软件团队一年才能写出来的东西，现在一个月就能做出不错的原型。
 
-这改变了他下注的方式：过去一个"[[大赌注|大赌注]]"要锁一个团队 12 个月看两三个里程碑；现在同样的人，两个月就能看到同样多的进展，所以同一年里可以下四五个赌注——**射门次数增加了** <button class="pd-ts" data-t="40:12" data-who="" data-en="We can't see this thing, right? So that I think is just like, hey, maybe I had n number of people locked up doing this quote-unquote big bet for 12 months to see something, and maybe we would have seen two or three milestones." aria-label="回原文"></button>。
+这改变了他下注的方式：过去一个"[[大赌注|大赌注]]"要锁一个团队 12 个月看两三个里程碑；现在同样的人，两个月就能看到同样多的进展，所以同一年里可以下四五个赌注——**射门次数增加了**。
 
 但什么算"大赌注"的标准没变：
-- **必须带来不连续的影响**——不是 10% 或 20% 的改进，而是阶梯式的跃升 <button class="pd-ts" data-t="41:08" data-who="" data-en="I would say like the... What's a good example of it? Well, and for me, it's like you got to remember like a bet to me is not something that gains me like 10 or 20 or 30% kind of improvements, right?" aria-label="回原文"></button>。
+- **必须带来不连续的影响**——不是 10% 或 20% 的改进，而是阶梯式的跃升。
 - **必须跨职能**——如果只是单个团队在局部最优，可能错失全局最优。
 
-他在 Facebook 的大赌注通常横跨三到五个团队 <button class="pd-ts" data-t="41:50" data-who="" data-en="You know at Facebook we used to have a whole set of projects and that we and I would curate and sort of track and work with the team that was like our big bets list and these in that time were like multi-year bets right and these things there's like really strong characteristics of what I think is a big bet right which is one is they have to bring that discontinuous impact to the business." aria-label="回原文"></button>。
-- **必须有可衡量的进展**——不能消失三年才拿出一个不需要的东西，团队有责任持续获取上下文、及时调整 <button class="pd-ts" data-t="42:47" data-who="" data-en="And all teams had to come together to try to achieve that some new global maxima versus five teams all trying to get a little bit, right? So, and then the other thing too is, you know, you want to be able to have some measurable kind of, you don't want this to just kind of go into a hole for three years and then come out with something you don't need." aria-label="回原文"></button>。
+他在 Facebook 的大赌注通常横跨三到五个团队。
+- **必须有可衡量的进展**——不能消失三年才拿出一个不需要的东西，团队有责任持续获取上下文、及时调整。
 
 
-- **允许失败**——五个大赌注里两个起飞就是成功，一个一般、两个失败也"相当不错"。而且失败的大赌注往往会产生衍生价值，落到别处 <button class="pd-ts" data-t="43:13" data-who="" data-en="Gaining context, if something's zigging in the market or internally and they're zagging, they need to go and adjust and pivot. I also think that many big bets, it's okay for them to fail." aria-label="回原文"></button>。
+- **允许失败**——五个大赌注里两个起飞就是成功，一个一般、两个失败也"相当不错"。而且失败的大赌注往往会产生衍生价值，落到别处。
 
-**遇到 A 还是 B 选不定时，他的做法是"两个都做"**——与其花四个月做一个、失败、再做另一个，不如并行做两个，两个月就能学到四个月才能学到的东西 <button class="pd-ts" data-t="46:18" data-who="" data-en="And I just, it's okay to say I can't forecast that accurately. We spend, I think, having been in lots of different teams, spend an inordinate amount of time arguing A or B." aria-label="回原文"></button>。
+**遇到 A 还是 B 选不定时，他的做法是"两个都做"**——与其花四个月做一个、失败、再做另一个，不如并行做两个，两个月就能学到四个月才能学到的东西。
 
 ## 垂直整合的三个理由
 
 为什么 Facebook 最终自己建数据中心、造硬件，而不是用 AWS？三个原因：
 
-1. **成本**：从堆栈顶层到底层，每一层如果从不同供应商买，都在给别人利润空间。规模大到一定程度，这不是小数目 <button class="pd-ts" data-t="48:22" data-who="" data-en="One is the vertical integration. It's the most optimal. And it's the most optimal when you look at the overall kind of efficiency of the stack." aria-label="回原文"></button>。
-2. **掌控命运**：Facebook 那种规模是"独一无二的"，供应商是为普通客户做产品，Facebook 永远在供应商能力的最前沿，永远不是他们收益率曲线上的最优位置——等他们、修 bug 都会拖慢你 <button class="pd-ts" data-t="49:04" data-who="" data-en="That's number one. Number two is back to there's a speed, there's a control your own destiny argument that I always felt, right? Because" aria-label="回原文"></button>。
-3. **速度**：当要重新构想一个全新体验（比如直播视频）时，需要移动端、边缘网络、应用服务器、存储等整个堆栈同时改变。如果不是[[垂直整合|垂直整合]]的，这个改变要太久；如果是自己的工程师，两三周就能让整个栈为想要的体验定制好 <button class="pd-ts" data-t="50:06" data-who="" data-en="Those things would all slow us down. And then the third thing is when we would reimagine or come up with a new product experience. So when we started thinking about live video or video or something in messaging or whatever it be, that did actually require a lot of..." aria-label="回原文"></button>。
+1. **成本**：从堆栈顶层到底层，每一层如果从不同供应商买，都在给别人利润空间。规模大到一定程度，这不是小数目。
+2. **掌控命运**：Facebook 那种规模是"独一无二的"，供应商是为普通客户做产品，Facebook 永远在供应商能力的最前沿，永远不是他们收益率曲线上的最优位置——等他们、修 bug 都会拖慢你。
+3. **速度**：当要重新构想一个全新体验（比如直播视频）时，需要移动端、边缘网络、应用服务器、存储等整个堆栈同时改变。如果不是[[垂直整合|垂直整合]]的，这个改变要太久；如果是自己的工程师，两三周就能让整个栈为想要的体验定制好。
 
 > 【背景】转写稿中提及嘉宾在 Akamai 早期经历互联网泡沫破裂和 9-11 事件（联合创始人 Danny 在 9-11 中去世），这段经历深刻影响了他后来在 Facebook 一开始就重视效率工作。
 

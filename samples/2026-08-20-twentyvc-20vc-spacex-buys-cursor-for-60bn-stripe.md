@@ -122,7 +122,7 @@ Jason 最后总结了一整集的底层逻辑："增长或死亡。这整个节�
 - **记录系统留住客户 ≠ 增长**：客户被锁住不代表多花钱，CIO 反而想砍支出。"仅仅是你的客户是囚犯，并不意味着他们会多花一分钱" <button class="pd-ts" data-t="55:07" data-who="嘉宾" data-en="My God, it's OpenRouter, 192x revenue. Just because your customers are prisoners does not mean in today's world they will spend one more dollar with you. In fact, the CIOs want to cut what they spend when they're hostage, right?" aria-label="回原文"></button>。
 - **在智能体世界里，路线图必须提前两年**：如果你的团队到 2026 年 8 月还没深入排 2027 年的产品路线图，"你的团队就不够优秀，无法在今天生存" <button class="pd-ts" data-t="00:47" data-who="嘉宾" data-en="They're into 2027. If you're not into your 2027 roadmap, deep into it by August of 2026 in the agentic world, your team is not good enough to survive today. This is 20VC with me, Harry Stebbings, and today it's my favorite show of the week." aria-label="回原文"></button>。
 
-> 【背景】本集转写稿中说话人全部标为 Unknown，根据对话内容和 20VC 节目格式推断：Harry Stebbings 为主持人，Rory O'Driscoll 和 Jason Lemkin 为嘉宾（节目开场 <button class="pd-ts" data-t="00:59" data-who="" data-en="This is 20VC with me, Harry Stebbings, and today it's my favorite show of the week. Rory O'Driscoll, Jason Lemkin coming together to discuss the biggest, best news that's happened in the last seven days." aria-label="回原文"></button> 有提及两人名字）。金句中统一标为 Unknown。
+> 【背景】本集转写稿中说话人全部标为 Unknown，根据对话内容和 20VC 节目格式推断：Harry Stebbings 为主持人，Rory O'Driscoll 和 Jason Lemkin 为嘉宾（节目开场 有提及两人名字）。金句中统一标为 Unknown。
 > 【背景】Colossus 是 xAI/Elon Musk 建设的大规模 GPU 计算集群。
 > 【背景】"OpenRooter"为转写稿对 OpenRouter 的误识，正文中已使用正确名称 OpenRouter。
 > 【背景】"Claude Note Pro"为广告口播中对某硬件产品的称呼，非 Anthropic 官方产品名。
@@ -196,7 +196,7 @@ Jason 最后总结了一整集的底层逻辑："增长或死亡。这整个节�
 
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、Microsoft、Cursor、OpenAI、OpenRouter、SpaceX、Stripe · 同概念:智能体 (agent)、推理 (inference)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、Cursor、Cognition、OpenAI、Salesforce、Stripe · 同概念:智能体 (agent)</span>
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Microsoft、SpaceX、Meta、OpenAI</span>
+- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenRouter、Cursor、Lovable、OpenAI · 同概念:推理 (inference)</span>
 
 </div>
 </div>

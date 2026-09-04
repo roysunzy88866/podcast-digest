@@ -34,39 +34,39 @@ jsonLd: |
 
 要跑一个能自主工作十二个小时、甚至能处理几十万行代码库的智能体,最大的障碍早就不是模型聪不聪明,而是你怎么给它的记忆和验证做架构设计——你得给它配一套能[[dreaming|做梦]]、能自我纠正的外部脑子。讲这话的人来自 Anthropic,这一集他拆解了支撑 [[Claude|Claude]] 长时程异步智能体的四大设计主题,核心是最近推出的 Cloud [[Managed Agents|Managed Agents]] 平台背后的架构思考。
 
-所谓异步智能体(一种你派出去干活、不用全程盯着、干完或卡住才回来找你的程序),它的能力上限直接由模型的[[任务视界|任务视界]](模型能连续自主完成工作的最长时间)决定。演讲者把 Claude 的演进分成三阶段:在 Opus 3 时代,模型大概只能连续自主干十到二十分钟,那时只适合做自动补全或聊天这种你深度在环的活儿;过去一年,像 Claude Code 这种同步编码智能体兴起,模型能扛住大约一小时的活儿;直到最近几个月,模型终于能连续干十二小时以上的工作,异步这种产品形态才真正好用 <button class="pd-ts" data-t="01:01" data-who="" data-en="So I'm plotting here different Cloud models and their task horizon. So how much autonomous work can they do over time? And you might recall back in the Opus 3 days, this was kind of like 2024, models could only do maybe 10 to 20 minutes of autonomous work." aria-label="回原文"></button>。伴随着任务视界的拉长,API 也在进化:两年前只有最基础的 Messages API(你给提示词、它给响应,只适合你自己搭[[harness|工作框架]]);后来发布了 Agent SDK,相当于官方把工作框架直接打包给你;而从四月起,他们推出了 Managed Agents,把工作框架连同部署基础设施全包了 <button class="pd-ts" data-t="02:39" data-who="" data-en="Now over the past year, we saw the rise of coding agents in particular. So we released agent SDK. So that's basically a way to programmatically call cloud code." aria-label="回原文"></button>。
+所谓异步智能体(一种你派出去干活、不用全程盯着、干完或卡住才回来找你的程序),它的能力上限直接由模型的[[任务视界|任务视界]](模型能连续自主完成工作的最长时间)决定。演讲者把 Claude 的演进分成三阶段:在 Opus 3 时代,模型大概只能连续自主干十到二十分钟,那时只适合做自动补全或聊天这种你深度在环的活儿;过去一年,像 Claude Code 这种同步编码智能体兴起,模型能扛住大约一小时的活儿;直到最近几个月,模型终于能连续干十二小时以上的工作,异步这种产品形态才真正好用。伴随着任务视界的拉长,API 也在进化:两年前只有最基础的 Messages API(你给提示词、它给响应,只适合你自己搭[[harness|工作框架]]);后来发布了 Agent SDK,相当于官方把工作框架直接打包给你;而从四月起,他们推出了 Managed Agents,把工作框架连同部署基础设施全包了。
 
 明白了时间视界为什么决定了产品形态,接下来要问的是:让模型长时间自主干活,架构上到底该怎么搭?
 
-这就要讲到第一个主题:把大脑和手解耦 <button class="pd-ts" data-t="03:19" data-who="" data-en="kind of extend beyond just managed agents broadly to think about this kind of new type of asynchronous agents, which can apply, of course, to clause and other types of kind of longer running long horizon agents." aria-label="回原文"></button>。最直观的架构是把工作框架(harness,即指挥模型干活的控制程序)和[[沙箱|沙箱]](实际干活的执行环境)塞在同一个容器里。
+这就要讲到第一个主题:把大脑和手解耦。最直观的架构是把工作框架(harness,即指挥模型干活的控制程序)和[[沙箱|沙箱]](实际干活的执行环境)塞在同一个容器里。
 
 但问题在于,一旦这个容器崩溃,你整个会话连同之前的进度就全丢了。更让人脊背发凉的是安全问题:如果你把一堆系统密钥也放在这个容器里,让模型连着跑十个小时而你没在旁边盯着,这就太危险了。
 
-所以他们把架构拆成了两部分:大脑(工作框架)变成了一个无状态进程,它只负责跟一个会话对话;这个会话是一个只追加(append-only,即只往里添新内容、不修改旧内容)的事件日志;而实际干活的双手就是一堆纯粹的容器 <button class="pd-ts" data-t="04:13" data-who="" data-en="So, for example, giving Cloud access to a bunch of your secrets and letting it run for 10 hours and you're not watching it can be a little bit spooky and has some security concerns, especially as models get extremely capable." aria-label="回原文"></button>。大脑去指挥这些手干活,而且一个大脑可以同时管很多双手 <button class="pd-ts" data-t="04:39" data-who="" data-en="So those are sandboxes, work is done. And one thing that's interesting is, Cloud is increasingly capable of managing many hands. So that is, you can give one harness access to many different containers to perform tool execution, and Cloud can manage this very easily and effectively." aria-label="回原文"></button>。这种解耦非常优雅:沙箱挂了也没事,因为进度都在那个只追加的日志里;密钥被单独存在保险库里,从不直接进沙箱。
+所以他们把架构拆成了两部分:大脑(工作框架)变成了一个无状态进程,它只负责跟一个会话对话;这个会话是一个只追加(append-only,即只往里添新内容、不修改旧内容)的事件日志;而实际干活的双手就是一堆纯粹的容器。大脑去指挥这些手干活,而且一个大脑可以同时管很多双手。这种解耦非常优雅:沙箱挂了也没事,因为进度都在那个只追加的日志里;密钥被单独存在保险库里,从不直接进沙箱。
 
-架构有了安全感,但模型怎么保证自己长跑时不犯错?这引出了第二个主题:使用[[验证器|验证器]] <button class="pd-ts" data-t="06:20" data-who="" data-en="So we've seen this to be quite nice in terms of long horizon context engineering as well. So the second theme is use verifiers. And one of the problems that we've seen with Claude and other models in general is that when you ask them to do a bunch of work and then say, okay, grade your work, if that same context is being used to both do the work and grade, you can get lots of odd artifacts and confabulation and basically odd behavior." aria-label="回原文"></button>。
+架构有了安全感,但模型怎么保证自己长跑时不犯错?这引出了第二个主题:使用[[验证器|验证器]]。
 
 如果你让同一个模型、在同一个上下文里既干活又给自己打分,它往往会自我感觉良好,产生各种幻觉。更好的做法是把验证这个动作分离出去,放到一个完全独立的上下文窗口里,专门为审查工作做优化。
 
 具体做法是建一个构建智能体和一个验证器智能体:验证器拿着你设定的目标或标准,不断去挑构建智能体的刺,两者形成一个循环。只有当独立验证器确认目标达成、退出循环时,任务才算结束。
 
-演讲者拿 OpenAI 发起的一个挑战打了比方:他给 Opus 4.7 和更高容量的前沿模型配上这套验证循环,让它们去搞机器学习训练实验,结果发现高容量模型配上这套循环,能自己连续迭代二十次直到完全达标 <button class="pd-ts" data-t="08:57" data-who="" data-en="And what I did was I set up a kind of a verifier loop using managed agents and outcomes. to test the ability for Opus 4.7 and one of our frontier models, like mythos class models, on this task." aria-label="回原文"></button>。因为这套范式不再需要人类去来回纠正,而是把纠正的信号直接写进了环境里,模型就能自己闭环完成长程任务 <button class="pd-ts" data-t="09:31" data-who="" data-en="are extremely good with this pattern of loops and verification. Because what happens is instead of encoding steering into me as the human, you're encoding the signal into the environment." aria-label="回原文"></button>。
+演讲者拿 OpenAI 发起的一个挑战打了比方:他给 Opus 4.7 和更高容量的前沿模型配上这套验证循环,让它们去搞机器学习训练实验,结果发现高容量模型配上这套循环,能自己连续迭代二十次直到完全达标。因为这套范式不再需要人类去来回纠正,而是把纠正的信号直接写进了环境里,模型就能自己闭环完成长程任务。
 
 模型能闭环干活了,但它能像人一样积累经验、越干越好吗?这正是第三个主题自我学习的核心,答案藏在两个机制里。
 
-第一个机制叫[[带内记忆|带内记忆]](in-band memory,即模型在执行任务的线路上实时写记忆) <button class="pd-ts" data-t="11:04" data-who="" data-en="And we've actually found memory systems with Claude actually can employ these same two principles. So this is showing Claude's capacity as an in-band memory writer." aria-label="回原文"></button>。你只要给模型一个文件系统作为记忆目录,它就能边干边记。
+第一个机制叫[[带内记忆|带内记忆]](in-band memory,即模型在执行任务的线路上实时写记忆)。你只要给模型一个文件系统作为记忆目录,它就能边干边记。
 
-演讲者发现,像 Sonnet 3.5 这种稍早的模型,写出来的记忆往往是很差劲的战术碎片;但更新的模型,比如 4.6,已经能写出非常有战略性的笔记 <button class="pd-ts" data-t="11:25" data-who="" data-en="And here's the key point. When Sonnet 3.5 is given this access to a memory directory, and it can write memory, quote unquote, in band as it progresses through this game, it's not very good." aria-label="回原文"></button>。他用一个开源基准测试说明:高容量模型的关键优势在于它们多了一个蒸馏(distillation,即从具体信息中提炼出可复用的抽象规律)步骤 <button class="pd-ts" data-t="12:44" data-who="" data-en="And some of the most interesting things I've found from this are that the main differentiation between, there we go, The main differentiation between like a lower capacity model and a high capacity model is kind of this distillation step." aria-label="回原文"></button>。
+演讲者发现,像 Sonnet 3.5 这种稍早的模型,写出来的记忆往往是很差劲的战术碎片;但更新的模型,比如 4.6,已经能写出非常有战略性的笔记。他用一个开源基准测试说明:高容量模型的关键优势在于它们多了一个蒸馏(distillation,即从具体信息中提炼出可复用的抽象规律)步骤。
 
-但只靠边干边记会出大问题,于是有了第二个机制:做梦 <button class="pd-ts" data-t="13:22" data-who="" data-en="Now, there's a little trick here which is very important. So we talked about kind of in-band memory, and we talked about dreaming. So at night, I dream and I write things to, like, long-term memory." aria-label="回原文"></button>。在漫长任务中,模型有时会写下一些局部最优(只对当前这一步有用)甚至是完全错误的记忆。
+但只靠边干边记会出大问题,于是有了第二个机制:做梦。在漫长任务中,模型有时会写下一些局部最优(只对当前这一步有用)甚至是完全错误的记忆。
 
 演讲者拿玩宝可梦游戏举了个极其生动的例子:Claude 写错了一条关于位置的记忆,结果导致游戏角色一直走错位,次次掉进陷阱门。在五次测试中,只靠带内记忆的模型五次全掉坑。
 
-而引入做梦机制后——也就是在离线状态下,回头审视之前所有的记忆和运行轨迹,找出并修正这些错误——模型就能纠正偏差,顺利过关 <button class="pd-ts" data-t="14:20" data-who="" data-en="So basically what happened is, Claude wrote an incorrect memory, okay? And what happened is this incorrect memory was related to the location of, the details don't actually matter." aria-label="回原文"></button>。所以,带内写记忆会犯错,而做梦这个离线过程就是用来纠错的,它俩缺一不可。
+而引入做梦机制后——也就是在离线状态下,回头审视之前所有的记忆和运行轨迹,找出并修正这些错误——模型就能纠正偏差,顺利过关。所以,带内写记忆会犯错,而做梦这个离线过程就是用来纠错的,它俩缺一不可。
 
-把记忆和架构都解决了,最后一个主题是关于整个组织的协作:我们将走向[[组织级驾驭系统|组织级驾驭系统]](org-level harness,即整个团队共享而非单兵使用的智能体工作框架) <button class="pd-ts" data-t="16:09" data-who="" data-en="That's the key intuition. And theme four, and I'll open up for questions after this, is what I think is kind of this trend that we're going to see moving towards org-level harnesses with async agents." aria-label="回原文"></button>。他们发布了 [[CloudTag|CloudTag]],大家第一反应是不就是个 Slackbot(运行在聊天软件里的机器人)嘛。
+把记忆和架构都解决了,最后一个主题是关于整个组织的协作:我们将走向[[组织级驾驭系统|组织级驾驭系统]](org-level harness,即整个团队共享而非单兵使用的智能体工作框架)。他们发布了 [[CloudTag|CloudTag]],大家第一反应是不就是个 Slackbot(运行在聊天软件里的机器人)嘛。
 
-但演讲者强调,它的精髓不在于接入了 Slack,而在于底下的那套多人共享系统:它有自己独立的身份和凭证,不绑定某一个用户;它能访问整个组织的上下文,而不只是你本地的上下文 <button class="pd-ts" data-t="17:09" data-who="" data-en="What's interesting about Cloud Tag is it is a harness that everyone in the organization has access to and can use. So it is a multiplayer harness. And what's nice about that is it has its own identity." aria-label="回原文"></button>。这带来的好处是颠覆性的:新人入职第一天就能用上配置最完善的工作框架;它能在你动手做实验前去查别人是不是已经做过了;它甚至能主动巡视组织里的动态,在关键时刻主动提醒你该注意什么,而不是被动等你提问 <button class="pd-ts" data-t="17:24" data-who="" data-en="This has many interesting and useful implications. including the ability to check others' work before you do an experiment, the ability to kind of deduplicate findings, the ability to do internal research, the ability to give everyone access to kind of a very well-developed harness on day one, whereas when you have your own personal harness, often new employees, it takes them weeks or maybe even months to kind of ramp up fully to configure all the right connectors and so forth." aria-label="回原文"></button>。未来,这种能被组织里许多人同时引导、在更长时间跨度上自主运作的智能体,将成为主流 <button class="pd-ts" data-t="19:02" data-who="" data-en="and, of course, multiplayer. So the ability for a single harness to be steered by many, many different people kind of concurrently is an important shift in Agent UX that I think will be quite interesting going forward." aria-label="回原文"></button>。
+但演讲者强调,它的精髓不在于接入了 Slack,而在于底下的那套多人共享系统:它有自己独立的身份和凭证,不绑定某一个用户;它能访问整个组织的上下文,而不只是你本地的上下文。这带来的好处是颠覆性的:新人入职第一天就能用上配置最完善的工作框架;它能在你动手做实验前去查别人是不是已经做过了;它甚至能主动巡视组织里的动态,在关键时刻主动提醒你该注意什么,而不是被动等你提问。未来,这种能被组织里许多人同时引导、在更长时间跨度上自主运作的智能体,将成为主流。
 
 ## 本集带走
 

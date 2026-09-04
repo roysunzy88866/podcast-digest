@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"OpenAI":81,"Anthropic":93,"Google":35,"Meta":26,"Apple":14,"Microsoft":21,"AWS":9,"McKinsey":5,"Claude Code":43}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"OpenAI":82,"Anthropic":94,"Google":35,"Meta":26,"Apple":14,"Microsoft":21,"AWS":9,"McKinsey":5,"Claude Code":43}</script>
 
 <script>
 (function(){

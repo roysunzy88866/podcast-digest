@@ -42,31 +42,31 @@ jsonLd: |
 
 ### 三个时代:从工具调用到自我编排
 
-他把大模型分为三个时代来看待 <button class="pd-ts" data-t="02:05" data-who="" data-en="If you handed a prompt that you would have handed to these other models before, it's not gonna feel that different. I think of these almost as eras now, where Sonnet 3.5 is the tool call era." aria-label="回原文"></button>。Sonnet 3.5 是「工具调用时代」,它是第一个能在代码库上下文里足够可靠地做工具调用、真正帮你干日常编码活的模型。
+他把大模型分为三个时代来看待。Sonnet 3.5 是「工具调用时代」,它是第一个能在代码库上下文里足够可靠地做工具调用、真正帮你干日常编码活的模型。
 
-后来出了 [[Opus 4.5|Opus 4.5]],能做更长流程的任务,会自己测试、把工作收尾,完成任务所需的时间从分钟变成了小时 <button class="pd-ts" data-t="01:39" data-who="" data-en="Having a model that couldn't just write the code and call tools but could go way further. A model that could test the work and actually get it into a good state and complete tasks that take hours instead of minutes." aria-label="回原文"></button>。而到了 Mythos,模型能自己理解代码库、理解自己,并主动派生其他模型来分头干活、事后验证,这就是「编排时代」 <button class="pd-ts" data-t="02:35" data-who="" data-en="You can just tell it what you want, and it could figure it out a lot of the time. Mythos is another jump to orchestration. It feels to me like it's the first model that doesn't just understand your code base, but it understands itself." aria-label="回原文"></button>。如果模型真的一直变强,而人变强的速度跟不上,那就别死磕细节了,「我们必须做得更大」 <button class="pd-ts" data-t="03:35" data-who="" data-en="The models are getting better faster than we are, so we can't necessarily get better, so instead we have to go bigger. In order to do that, we have to get over ourselves." aria-label="回原文"></button>。
+后来出了 [[Opus 4.5|Opus 4.5]],能做更长流程的任务,会自己测试、把工作收尾,完成任务所需的时间从分钟变成了小时。而到了 Mythos,模型能自己理解代码库、理解自己,并主动派生其他模型来分头干活、事后验证,这就是「编排时代」。如果模型真的一直变强,而人变强的速度跟不上,那就别死磕细节了,「我们必须做得更大」。
 
 ### 从 iOS 7 说起:开发者的拟物化包袱
 
-讲完了模型为什么重要,接下来要面对的是人。想做得更大,首先得「放下自我」 <button class="pd-ts" data-t="03:37" data-who="" data-en="In order to do that, we have to get over ourselves. This was really hard for me as someone who spent a long time writing software. Who here has written code for more than 10 years?" aria-label="回原文"></button>。为了解释这个心理障碍,他打了个比方:用过 iOS 6 的人可能记得,当时的指南针 app 必须画得像个真的指南针,因为那时候的 app 设计必须先「说服」你去用它;而到了 iOS 7,界面变扁平了,不用再模仿实物,因为大家已经默认手机能干这些事了,这时候重点就变成了「拥抱」更好的交互 <button class="pd-ts" data-t="05:22" data-who="" data-en="Apps had to be designed to convince you to use them, not to be useful. And iOS 7 represents the shift to not focusing on convincing you anymore. Apple won." aria-label="回原文"></button>。
+讲完了模型为什么重要,接下来要面对的是人。想做得更大,首先得「放下自我」。为了解释这个心理障碍,他打了个比方:用过 iOS 6 的人可能记得,当时的指南针 app 必须画得像个真的指南针,因为那时候的 app 设计必须先「说服」你去用它;而到了 iOS 7,界面变扁平了,不用再模仿实物,因为大家已经默认手机能干这些事了,这时候重点就变成了「拥抱」更好的交互。
 
-他认为,我们软件开发者现在还处在死抱着旧界面的「拟物化」阶段 <button class="pd-ts" data-t="06:08" data-who="" data-en="Even if we don't like it because it's not the thing we're used to, we got over it. We're currently in our skeuomorphic phase as software developers. Skeuomorphism is this design aesthetic trying to represent the way things used to look, the physical goods that we relied on, and try to make them digital." aria-label="回原文"></button>。大家假装终端是终极界面,其实它连个像样的界面都算不上,自然语言在里面根本没立足之地,只因为大家习惯了就死抱不放 <button class="pd-ts" data-t="06:23" data-who="" data-en="We're doing this right now with software. We're pretending our terminals are the ultimate interface when they're not even good interfaces, and I'm saying this as someone who loves their terminal deeply." aria-label="回原文"></button>。
+他认为,我们软件开发者现在还处在死抱着旧界面的「拟物化」阶段。大家假装终端是终极界面,其实它连个像样的界面都算不上,自然语言在里面根本没立足之地,只因为大家习惯了就死抱不放。
 
-再比如 Git,为了版本控制不让提交环境文件,我们不得不专门搭套系统去分享这一个文件,这件事细想其实很蠢,但因为是 Git 的设定,我们就全盘接受了 <button class="pd-ts" data-t="07:10" data-who="" data-en="Like, why can't we commit our environment files? It sounds stupid when I put it on a slide like this, but I want you to really think about this for a second. When I have a team of engineers that are working on a project, why do I have to build another system to share this specific file, but all the other files can go and get just fine?" aria-label="回原文"></button>。还有用编程语言给人定性的执念:初级程序员说我写 JavaScript,高级工程师则鄙视写 JavaScript 的不是真开发者——我们在这些奇怪的自我认同上投入了太多没必要的情感 <button class="pd-ts" data-t="08:09" data-who="" data-en="We care too much. We pride ourselves in these things. They're our identity, these weird facts, these weird choices, these things that feel essential just don't matter that much anymore." aria-label="回原文"></button>。
+再比如 Git,为了版本控制不让提交环境文件,我们不得不专门搭套系统去分享这一个文件,这件事细想其实很蠢,但因为是 Git 的设定,我们就全盘接受了。还有用编程语言给人定性的执念:初级程序员说我写 JavaScript,高级工程师则鄙视写 JavaScript 的不是真开发者——我们在这些奇怪的自我认同上投入了太多没必要的情感。
 
-更糟糕的是行业内严重的[[沉没成本心态|沉没成本心态]],面对不对的代码,删掉重置是最好的办法,但往往因为别人写了一两周,你怕伤人就硬着头皮合并了 PR <button class="pd-ts" data-t="08:44" data-who="" data-en="where the solution is to just delete it and reset. But we have such a bad sunk cost mindset in this industry. We care so much about the code we wrote and we care so much about it still being there that I feel bad working with my team sometimes when somebody files a PR that isn't quite the right solution but they spent a week or two on it." aria-label="回原文"></button>。关掉智能体的产出不用有心理负担,这恰恰是放手让 AI 干活的好处。
+更糟糕的是行业内严重的[[沉没成本心态|沉没成本心态]],面对不对的代码,删掉重置是最好的办法,但往往因为别人写了一两周,你怕伤人就硬着头皮合并了 PR。关掉智能体的产出不用有心理负担,这恰恰是放手让 AI 干活的好处。
 
 ### 创业点子降级:一切皆 markdown
 
-旧工具和旧心理包袱放下了,项目的层级也会随之重构。他拿自己做过的三个东西举例:爬 Reddit 做表情包的爬虫、叫 Ping 的面向主播的 Zoom 替代品(他上过 Y Combinator),以及一个内置数据库和认证的全栈云 <button class="pd-ts" data-t="09:48" data-who="" data-en="These are three of the things that I have built or are currently working on. I'm gonna go from the bottom up. I built a Reddit scraper because making good memes is hard and I would rather just steal them from Reddit, and it went pretty well." aria-label="回原文"></button>。
+旧工具和旧心理包袱放下了,项目的层级也会随之重构。他拿自己做过的三个东西举例:爬 Reddit 做表情包的爬虫、叫 Ping 的面向主播的 Zoom 替代品(他上过 Y Combinator),以及一个内置数据库和认证的全栈云。
 
-就在一年前,他会把这三样分别归为:副业项目、初创公司、太大做不了 <button class="pd-ts" data-t="10:39" data-who="" data-en="These are also kind of tiers, different levels that we can build at. If I was to try and categorize them, I would call the bottom one side project, call the middle one startup, and call the top one too big." aria-label="回原文"></button>。但现在模型变强了,层级整体下移——曾经的初创公司现在只算副业,而最底层现在直接变成了:一个 markdown 文件 <button class="pd-ts" data-t="10:53" data-who="" data-en="Well, this is how I would have categorized this even just a year ago. But things have changed. Now that the models are bigger, the tiers have shifted." aria-label="回原文"></button>。
+就在一年前,他会把这三样分别归为:副业项目、初创公司、太大做不了。但现在模型变强了,层级整体下移——曾经的初创公司现在只算副业,而最底层现在直接变成了:一个 markdown 文件。
 
 > 【背景】Y Combinator(常简称 YC)是美国知名的早期创业孵化器。
 
-这事听起来离谱,但演讲者自己有个给 PR 分类的服务,现在就真成了一个 markdown 文件。他只需在里面写上指令:去这四个仓库看开放的 PR,搞清楚现状排好优先级,最后更新一个 HTML 文件传到 S3 <button class="pd-ts" data-t="11:49" data-who="" data-en="That service is a markdown file now. I just literally wrote, like, go to these four GitHub repos, look at all the open PRs, figure out what the current status of the work is, and then help me prioritize it." aria-label="回原文"></button>。
+这事听起来离谱,但演讲者自己有个给 PR 分类的服务,现在就真成了一个 markdown 文件。他只需在里面写上指令:去这四个仓库看开放的 PR,搞清楚现状排好优先级,最后更新一个 HTML 文件传到 S3。
 
-每天早上 9 点跑个定时任务,这份工作就自动生成了。到底有多少公司的产品其实就是一个喂给 Claude 或 Codex 的 markdown 文件?这才是让他感到恐惧又兴奋的空白地带 <button class="pd-ts" data-t="11:18" data-who="" data-en="What's that? It's the G brain tier. It's a markdown file." aria-label="回原文"></button>。
+每天早上 9 点跑个定时任务,这份工作就自动生成了。到底有多少公司的产品其实就是一个喂给 Claude 或 Codex 的 markdown 文件?这才是让他感到恐惧又兴奋的空白地带。
 
 ### 思考更宽,而不是更大
 
@@ -74,9 +74,9 @@ jsonLd: |
 
 做操作系统?还是直接跟 Node 和 NPM 竞争?
 
-他坦言自己也不知道 <button class="pd-ts" data-t="12:54" data-who="" data-en="Is it trying to compete with NPM and Node directly? I don't know. I don't know what too big is right now." aria-label="回原文"></button>。但与其纠结于「大」,不如换个词:想得更「宽」 <button class="pd-ts" data-t="13:17" data-who="" data-en="I would argue that bigger's probably the wrong word for most of how I'm thinking here. It's time to think wider. What I mean by this is a spectrum, and I'm sorry, I have to do a diagram." aria-label="回原文"></button>。
+他坦言自己也不知道。但与其纠结于「大」,不如换个词:想得更「宽」。
 
-软件有广度和深度之分,以前你没法跟 [[AWS|AWS]] 拼广度(功能覆盖的广度),因为你没成千上万的工程师,所以只能像 [[Vercel|Vercel]] 那样在特定领域(如全栈前端)拼深度 <button class="pd-ts" data-t="13:52" data-who="" data-en="But Vercel offers deeper features in the space they're in, which is full-stack front-end leaning servers. If you're a front-end developer and you're not using Vercel, you're feeling some amount of pain because they're just further ahead with this, so much so that even the agents prefer it." aria-label="回原文"></button>。可现在,有了模型加持,你能用一两天的工作量就把一个数据库平台做进自己的产品里,拼广度突然变得可行了 <button class="pd-ts" data-t="14:31" data-who="" data-en="I'm not saying you can build something as reliable as RDS. I'm saying that you can build a database platform into your product in a day or two of work with enough prompting and enough effort." aria-label="回原文"></button>。你只要把地基打好,让用户有自己往上添砖加瓦的空间(就像 [[Slack|Slack]] 成了大家跑智能体的平台一样) <button class="pd-ts" data-t="15:01" data-who="" data-en="as long as you build it right, because they can build the features that are missing themselves. If you architect your systems and you architect your products in such a way that users can do things that you never would have guessed, like Slack accidentally did this, because Slack is now the platform people run their agents in half the time, which is crazy." aria-label="回原文"></button>。
+软件有广度和深度之分,以前你没法跟 [[AWS|AWS]] 拼广度(功能覆盖的广度),因为你没成千上万的工程师,所以只能像 [[Vercel|Vercel]] 那样在特定领域(如全栈前端)拼深度。可现在,有了模型加持,你能用一两天的工作量就把一个数据库平台做进自己的产品里,拼广度突然变得可行了。你只要把地基打好,让用户有自己往上添砖加瓦的空间(就像 [[Slack|Slack]] 成了大家跑智能体的平台一样)。
 
 ## 本集带走
 最后收个尾,这一集值得带走的是三层意思。第一,大模型已经跨过了单纯调用工具的阶段,现在它能自己理解上下文、主动派生其他模型分头干活,也就是进入了「编排时代」,别再像以前那样一步一步下指令了,放手让它自己干。第二,作为开发者,我们得放下对特定语言、终端界面、Git 旧规矩的执念,甚至要克服害怕删代码的沉没成本包袱,那些过去被我们奉为金科玉律的东西,很多只是历史惯性。第三,也是最关键的一点,在模型加持下,过去的创业公司现在只需一个 markdown 文件加定时任务就能跑起来。所以别再在狭窄的垂直领域里跟别人卷深度了,去拼广度,去敢于直面 AWS 和 Slack,如果你的想法听起来不觉得愚蠢,那只能说明它还不够大。

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":8,"Sequoia":4,"智能体":1,"Copilot":8,"自动驾驶":1,"服务伪装成软件":1,"IC":6,"AEO":3,"Sierra":4,"SpaceX":12}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":9,"Sequoia":4,"智能体":1,"Copilot":8,"自动驾驶":1,"服务伪装成软件":1,"IC":6,"AEO":3,"Sierra":4,"SpaceX":12}</script>
 
 <script>
 (function(){

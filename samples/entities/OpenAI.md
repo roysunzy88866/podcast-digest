@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>81</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>82</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -43,6 +43,7 @@ unlisted: true
 - **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(16:36起):本集说 OpenAI 的解法是直接切到要点列表和产品经理式简练表达，非常直接，与 Anthropic 的散文风格形成对比
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(02:28起):本集提及的顶尖闭源大厂之一，曾发生过黑客入侵 Hugging Face 的安全事件，目前并未解决棘手的奖励黑客问题。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:12起):本集提到的一家 AI 公司，主持人在开篇指出在 Anthropic 刚创立时，认为 OpenAI 遥遥领先，Anthropic 毫无机会。
+- **[[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]]**(05:11起):本集把它说成:ChatGPT 起飞势不可挡、Dario 离开它是因为觉得它做太多事;且被绑定在 Azure 一家云上,因此 Anthropic 成了替代选择
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(11:44起):本集把它说成：由非营利研究实验室起步，在长时间被误解为白痴的时光里稳步发展；近期发生过模型失控的安全事件，同时也是首家瞄准通用人工智能的公司。
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(33:08起):本集提到：生成式媒体领域的现有巨头，现在从头训练基础模型去和它竞争已经变得极其昂贵
 - **[[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]]**(05:53起):本集多次提及:作为用户可自带密钥接入的模型提供商之一,也是「X 干掉了 Y」新闻的主角。
@@ -131,7 +132,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*81 集*
+*82 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -165,6 +166,7 @@ unlisted: true
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为被讨论公司(提及)
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司(提及)
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为被讨论公司(提及)
+- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]] — 作为被讨论公司(提及)
@@ -219,9 +221,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[Lenny]] · [[NVIDIA]] · [[Cursor]] · [[推理]] · [[Stripe]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[Lenny]] · [[NVIDIA]] · [[推理]] · [[Cursor]] · [[Stripe]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":93,"Google":35,"ChatGPT":47,"Lenny":66,"NVIDIA":27,"Cursor":42,"推理":4,"Stripe":26,"Claude":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":94,"Google":35,"ChatGPT":48,"Lenny":66,"NVIDIA":27,"推理":4,"Cursor":43,"Stripe":26,"Claude":45}</script>
 
 <script>
 (function(){

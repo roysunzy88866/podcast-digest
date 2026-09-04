@@ -7,11 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Harry Stebbings</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Harry Stebbings">HA</div><div class="pi"><h1 class="pt">Harry Stebbings</h1><div class="byl">The Twenty Minute VC 联合主持</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Harry Stebbings">HA</div><div class="pi"><h1 class="pt">Harry Stebbings</h1><div class="byl">The Twenty Minute VC 主持</div><div class="nums">本站收录 <b>9</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*2 条*
+*3 条*
+
+![[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun#^q10]]
 
 ![[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n#^q9]]
 
@@ -19,8 +21,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
+- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为主持
 - [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]] — 作为联合主持
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为联合主持
 - [[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s|《Uber COO 谈会员制反转、自动驾驶终局与AI预算失控》]] — 作为主持
@@ -34,9 +37,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Cursor]] · [[Meta]] · [[SpaceX]] · [[Fireworks]] · [[OpenRouter]] · [[Stripe]]
+[[OpenAI]] · [[智能体]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[OpenRouter]] · [[Lovable]] · [[Meta]] · [[SpaceX]] · [[Fireworks]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":81,"Anthropic":93,"推理":4,"Cursor":42,"Meta":26,"SpaceX":12,"Fireworks":3,"OpenRouter":7,"Stripe":26}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":82,"智能体":1,"Anthropic":94,"Cursor":43,"推理":4,"OpenRouter":8,"Lovable":12,"Meta":26,"SpaceX":12,"Fireworks":3}</script>
 
 <script>
 (function(){

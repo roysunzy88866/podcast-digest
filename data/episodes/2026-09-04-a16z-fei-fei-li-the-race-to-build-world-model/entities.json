@@ -1,0 +1,1279 @@
+{
+  "episode_id": "2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model",
+  "podcast": "The a16z Show",
+  "date": "2026-09-04",
+  "tags": [
+    "空间智能",
+    "世界模型",
+    "3D 重建",
+    "机器人",
+    "模型发布"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "justin-johnson",
+      "type": "person",
+      "role": "host",
+      "name": "Justin Johnson",
+      "file": "Justin Johnson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            57.891,
+            70.078
+          ],
+          "quote": "In this episode, Martin Casado sits down with WorldLab's co-founders Fei-Fei Li, Justin Johnson, and Ben Mildenhall to discuss Atlas and the broader challenge of building AI that can reason about physical space.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "martin-casado",
+      "type": "person",
+      "role": "cohost",
+      "name": "Martin Casado",
+      "file": "Martin Casado",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            57.891,
+            70.078
+          ],
+          "quote": "In this episode, Martin Casado sits down with WorldLab's co-founders Fei-Fei Li, Justin Johnson, and Ben Mildenhall to discuss Atlas and the broader challenge of building AI that can reason about physical space.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "world-labs",
+      "type": "company",
+      "role": "concept",
+      "name": "World Labs",
+      "file": "World Labs",
+      "primary": true,
+      "how_described": "本集嘉宾创办两年半的公司,以攻克空间智能为目标,刚发布下一代世界模型 Atlas",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            657.814,
+            660.154
+          ],
+          "quote": "How long has world labs been in existence?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1489.746,
+            1501.428
+          ],
+          "quote": "So World Labs has historically had a lot of users that were creatives and they use it for like consistency and you know like whatever 2D images and for movies and for 3D and for games etc.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "type": "concept",
+      "role": "concept",
+      "name": "Atlas",
+      "file": "Atlas",
+      "primary": true,
+      "how_described": "本集主角:World Labs 新发布的下一代世界模型,能生成、重建和模拟世界,底层原语是新视角预测",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.571,
+            10.035
+          ],
+          "quote": "On the path to spatial intelligence, generating pixels that are truly spatially contextualized and grounded, that is the very hard step that Atlas has taken.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            14.936,
+            16.637
+          ],
+          "quote": "Atlas has really new view prediction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 9,
+          "t": [
+            31.462,
+            33.583
+          ],
+          "quote": "On Atlas, we can do this with just three cameras.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            57.891,
+            70.078
+          ],
+          "quote": "In this episode, Martin Casado sits down with WorldLab's co-founders Fei-Fei Li, Justin Johnson, and Ben Mildenhall to discuss Atlas and the broader challenge of building AI that can reason about physical space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            70.958,
+            82.028
+          ],
+          "quote": "They explain how Atlas combines generation and 3D reconstruction, why the team chose NewView prediction as its underlying primitive, and what they learned trying to scale an approach that hadn't been tested before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            118.345,
+            120.607
+          ],
+          "quote": "Yeah, so Atlas is our new next generation world model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 47,
+          "t": [
+            183.396,
+            185.938
+          ],
+          "quote": "But now with Atlas, we can do this with as few as three cameras.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            210.554,
+            213.055
+          ],
+          "quote": "What is the simplest description of what Atlas does?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            214.936,
+            219.619
+          ],
+          "quote": "Yeah, so one of the really core principles of Atlas, the most fundamental thing is it does new view prediction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            232.394,
+            234.496
+          ],
+          "quote": "Atlas is really new view prediction, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 60,
+          "t": [
+            243.662,
+            251.408
+          ],
+          "quote": "Then you can point a virtual camera at an arbitrary point in space and time and Atlas will understand what that world is supposed to look like from that position in space and time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 67,
+          "t": [
+            281.463,
+            286.904
+          ],
+          "quote": "But what's key with Atlas is that it actually has a kind of like spatially grounded meaning to every frame you put into it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            286.964,
+            295.406
+          ],
+          "quote": "So it's not just an image that the model is going to interpret whatever way it wants, or you can kind of try to argue with it in the text prompting and get it to do something specific with Atlas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            384.704,
+            390.366
+          ],
+          "quote": "But now with Atlas for the first time, we're putting these two different parts of visual intelligence together in one model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 127,
+          "t": [
+            581.541,
+            594.547
+          ],
+          "quote": "And I do believe Atlas is a significant step forward because now with every single frame, you can generate an estimated important piece of information, which is the viewpoint, the camera pose.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            626.444,
+            629.746
+          ],
+          "quote": "And that is the very hard step that Atlas has taken.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            665.921,
+            667.845
+          ],
+          "quote": "So why don't you just jump right to Atlas?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 151,
+          "t": [
+            691.827,
+            695.848
+          ],
+          "quote": "But one of the biggest differences between Marble and Atlas is exactly what is that output modality.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 161,
+          "t": [
+            721.217,
+            723.92
+          ],
+          "quote": "So what we did with Atlas is redesign the thing a little bit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 163,
+          "t": [
+            732.028,
+            736.993
+          ],
+          "quote": "So now with Atlas, the fundamental primitive is not like could generate a Gaussian splat world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 218,
+          "t": [
+            997.124,
+            999.567
+          ],
+          "quote": "This is something we've been playing around with a lot with Atlas, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1172.26,
+            1175.643
+          ],
+          "quote": "And like Atlas, like being able to, like this is something we can never do with Marvel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1181.507,
+            1193.337
+          ],
+          "quote": "But Atlas, I can go and I can actually take like a 64 image capture and do like a fly through of an entire house and everything is grounded by being, you know, seen or like almost seen or like slightly extrapolated from what's not there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1216.318,
+            1219.779
+          ],
+          "quote": "And then Atlas as a model creates the rest of the views.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1224.82,
+            1226
+          ],
+          "quote": "I mean, that's the beauty of Atlas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1230.461,
+            1234.822
+          ],
+          "quote": "And then you can almost use Atlas as this rendering engine to produce anything else you want, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1432.957,
+            1442.184
+          ],
+          "quote": "And then there was one day in summer, early summer, that it's not even this, the current Atlas model size, it's a smaller model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1759.292,
+            1763.976
+          ],
+          "quote": "But it's less obvious to me, especially in the context of Atlas, like how that maps to robotics.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1765.617,
+            1769.26
+          ],
+          "quote": "Yeah, actually Atlas is a key part of the puzzle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1843.275,
+            1848.64
+          ],
+          "quote": "So Atlas really is the next generation technology for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1913.626,
+            1919.967
+          ],
+          "quote": "So this real to some step will be, you know, really helped by Atlas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1933.625,
+            1939.188
+          ],
+          "quote": "But Atlas is an omnimodel, is a multimodal model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1944.512,
+            1953.097
+          ],
+          "quote": "You can totally imagine the next step is Atlas taking in data that's dynamical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1954.738,
+            1967.927
+          ],
+          "quote": "And that can really start to bridge the gap between, you know, action planning and robotics and the Atlas output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2080.819,
+            2083.842
+          ],
+          "quote": "And that's a really interesting future direction of Atlas.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2181.046,
+            2184.789
+          ],
+          "quote": "We already knew that that was a big problem post-Marvel, and we already fixed it in Atlas, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2184.849,
+            2188.813
+          ],
+          "quote": "Like, the Atlas architecture is already fundamentally supports dynamics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2188.833,
+            2191.014
+          ],
+          "quote": "The Atlas training data fundamentally has dynamics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2252.387,
+            2260.09
+          ],
+          "quote": "So in the Atlas pre-training already, like it saw a ton of dynamics in the pre-training already.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2531.962,
+            2543.308
+          ],
+          "quote": "But I think there's something we're kind of realizing, and Ben was talking about this earlier today, is like new view prediction, this primitive that we have in Atlas, especially generative new view prediction, this is also AI complete, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "spatial-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "空间智能 (spatial intelligence)",
+      "file": "空间智能",
+      "primary": true,
+      "how_described": "李飞飞提出的公司核心目标:生成空间、在空间中推理、编辑与交互,最终通向渲染、模拟与规划动作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.571,
+            10.035
+          ],
+          "quote": "On the path to spatial intelligence, generating pixels that are truly spatially contextualized and grounded, that is the very hard step that Atlas has taken.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            96.088,
+            102.02
+          ],
+          "quote": "Could new view prediction play a similar role for spatial intelligence that next token prediction has played for language?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            515.663,
+            520.586
+          ],
+          "quote": "So when you started the company, I remember you saying you want to tackle spatial intelligence, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 118,
+          "t": [
+            533.132,
+            537.954
+          ],
+          "quote": "Can maybe you pencil out like how this is a significant step to this general problem of spatial intelligence?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 119,
+          "t": [
+            538.094,
+            541.216
+          ],
+          "quote": "Maybe by starting to describe what spatial intelligence is.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 120,
+          "t": [
+            541.958,
+            553.731
+          ],
+          "quote": "Well, spatial intelligence eventually must enable us to both generate what the space is, reason within it, and being able to edit and interact within it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            562.18,
+            566.325
+          ],
+          "quote": "tasks that one has to do or spatial intelligence has to enable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            607.373,
+            610.155
+          ],
+          "quote": "So on the path to spatial intelligence,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            645.391,
+            650.312
+          ],
+          "quote": "So this is part of the roadmap of spatial intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            780.59,
+            783.353
+          ],
+          "quote": "There was no scaling law of spatial intelligence.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "new-view-prediction",
+      "type": "concept",
+      "role": "concept",
+      "name": "新视角预测 (new view prediction)",
+      "file": "新视角预测",
+      "primary": true,
+      "how_described": "Atlas 的基础原语:给定若干视角进入空间上下文,从任意时空点渲染世界;三位嘉宾相信它是下一 token 预测在空间智能中的等价物、且是 AI 完备的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.936,
+            16.637
+          ],
+          "quote": "Atlas has really new view prediction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            96.088,
+            102.02
+          ],
+          "quote": "Could new view prediction play a similar role for spatial intelligence that next token prediction has played for language?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            214.936,
+            219.619
+          ],
+          "quote": "Yeah, so one of the really core principles of Atlas, the most fundamental thing is it does new view prediction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            232.394,
+            234.496
+          ],
+          "quote": "Atlas is really new view prediction, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 115,
+          "t": [
+            525.628,
+            528.75
+          ],
+          "quote": "You've got an expert token prediction and this is next new view prediction.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 116,
+          "t": [
+            528.77,
+            529.71
+          ],
+          "quote": "New view prediction, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 164,
+          "t": [
+            737.293,
+            739.996
+          ],
+          "quote": "The fundamental primitive is, as we said, new view prediction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1508.89,
+            1516.774
+          ],
+          "quote": "Yeah, I mean, it's kind of funny, actually, one of the kind of main ways we even saw people using, Marvel plays exactly into this new view prediction case.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2531.962,
+            2543.308
+          ],
+          "quote": "But I think there's something we're kind of realizing, and Ben was talking about this earlier today, is like new view prediction, this primitive that we have in Atlas, especially generative new view prediction, this is also AI complete, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集核心产品类别:能生成、仿真、理解世界如何回应动作的模型;区别于只是自称世界模型的视频模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            118.345,
+            120.607
+          ],
+          "quote": "Yeah, so Atlas is our new next generation world model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 148,
+          "t": [
+            678.601,
+            685.844
+          ],
+          "quote": "So last year we released our Marble world model, and that was the first kind of big major world model that we put out that powers our current Marble product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2166.819,
+            2171.861
+          ],
+          "quote": "We didn't really highlight in the blog post, but like the previous Marble World model, it was like fundamentally static.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "3d-reconstruction",
+      "type": "concept",
+      "role": "concept",
+      "name": "3D 重建 (3D reconstruction)",
+      "file": "3D 重建",
+      "primary": true,
+      "how_described": "计算机视觉里独立半个世纪的子领域;Atlas 第一次把生成与重建统一进一个模型,把房间重建从两三百张照片降到约三张",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            70.958,
+            82.028
+          ],
+          "quote": "They explain how Atlas combines generation and 3D reconstruction, why the team chose NewView prediction as its underlying primitive, and what they learned trying to scale an approach that hadn't been tested before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            135.377,
+            137.018
+          ],
+          "quote": "It's really good at sparse 3D reconstruction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            143.903,
+            150.107
+          ],
+          "quote": "And that reconstruction can take the case either of novel video flying through the space or an explicit 3D reconstruction of the space.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 87,
+          "t": [
+            390.726,
+            394.628
+          ],
+          "quote": "So we can do both 3D reconstruction and generation together in one architecture.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 108,
+          "t": [
+            490.424,
+            498.509
+          ],
+          "quote": "You go to a computer vision conference, you have the pixel generation track, you have some recognition track, and you have 3D reconstruction track.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            870.425,
+            880.469
+          ],
+          "quote": "Yeah, so I think this is actually, even on the kind of like business and commercial side, I think been one of the challenges of productizing 3D reconstruction technology like at a fundamental level, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1074.063,
+            1081.687
+          ],
+          "quote": "And on the flip side, anything that wasn't captured in these views, like any pixel that was not visible in one of the input views will be a hole in a 3D reconstruction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2215.991,
+            2222.374
+          ],
+          "quote": "No, so actually one of our theses here is that if you're going to do fundamental 3D reconstruction, you actually want to have no dynamics.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "scaling-law",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling law)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "三位嘉宾表达完全信念:每次把模型做大、训练更久、上更多芯片都显著变好;当前瓶颈是训练算力,扩展还在起点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            780.59,
+            783.353
+          ],
+          "quote": "There was no scaling law of spatial intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1302.317,
+            1306.838
+          ],
+          "quote": "I think three of us have total conviction about the scaling law.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1333.306,
+            1340.229
+          ],
+          "quote": "But I think the hypothesis, two hypotheses, one is scaling law hypothesis, the other one is next viewpoint prediction.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "marble",
+      "type": "concept",
+      "role": "concept",
+      "name": "Marble",
+      "file": "Marble",
+      "primary": true,
+      "how_described": "World Labs 上一代世界模型与现有产品,输出高斯泼溅表示,根本上静态、塞不进几张图,被 Atlas 重新设计取代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            678.601,
+            685.844
+          ],
+          "quote": "So last year we released our Marble world model, and that was the first kind of big major world model that we put out that powers our current Marble product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 149,
+          "t": [
+            685.904,
+            687.005
+          ],
+          "quote": "And Marble is really cool.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 150,
+          "t": [
+            687.045,
+            691.767
+          ],
+          "quote": "Marble can take images, it can take videos, it can take text prompts and use these to generate 3D worlds.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 151,
+          "t": [
+            691.827,
+            695.848
+          ],
+          "quote": "But one of the biggest differences between Marble and Atlas is exactly what is that output modality.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 152,
+          "t": [
+            696.289,
+            699.47
+          ],
+          "quote": "So Marble was really focused on Gaussian splats as an output representation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 160,
+          "t": [
+            717.576,
+            720.817
+          ],
+          "quote": "But, you know, I think that was kind of a bottleneck in the previous Marble model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2166.819,
+            2171.861
+          ],
+          "quote": "We didn't really highlight in the blog post, but like the previous Marble World model, it was like fundamentally static.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nerf",
+      "type": "concept",
+      "role": "concept",
+      "name": "Nerf",
+      "file": "Nerf",
+      "primary": true,
+      "how_described": "Ben 创造的从图像做 3D 重建的方法;那篇论文里的花园桌子是初夏 Slack 消息里「就是它了」一刻的素材",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            799.768,
+            813.953
+          ],
+          "quote": "Ben, being the creator of Nerf and doing a lot of 3D and reconstruction, so it's not so obvious to me that if you have multiple views that you actually end up with a 3D thing, but you've kind of made a career of ending up with a 3D thing, so maybe talk a little bit about that step.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1012.942,
+            1018.308
+          ],
+          "quote": "And, you know, imagine angles that I never would have gotten from a traditional kind of like Nerf or Splat type reconstruction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1447.668,
+            1456.774
+          ],
+          "quote": "And remember that famous table, the garden table for Nerf paper and many papers that overnight I got a slack.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gaussian-splats",
+      "type": "concept",
+      "role": "concept",
+      "name": "高斯泼溅 (Gaussian splats)",
+      "file": "高斯泼溅",
+      "primary": true,
+      "how_described": "Marble 的输出表示:易渲染、可与游戏引擎互操作,但成为上一代模型的输出瓶颈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            696.289,
+            699.47
+          ],
+          "quote": "So Marble was really focused on Gaussian splats as an output representation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 154,
+          "t": [
+            704.291,
+            705.872
+          ],
+          "quote": "And Gaussian splats are really useful, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 159,
+          "t": [
+            715.275,
+            717.036
+          ],
+          "quote": "There's a lot of nice things about Gaussian splats.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 166,
+          "t": [
+            747.381,
+            751.263
+          ],
+          "quote": "But we don't need to bottleneck our outputs through the Gaussian splats when we don't need to.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "camera-pose",
+      "type": "concept",
+      "role": "concept",
+      "name": "相机位姿 (camera pose)",
+      "file": "相机位姿",
+      "primary": true,
+      "how_described": "Atlas 的关键架构创新:每帧图像关联三维相机位姿,作为预训练阶段的原生输入,带来极高精度重建",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            295.826,
+            299.187
+          ],
+          "quote": "Every image actually has an associated three-dimensional camera pose.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            581.541,
+            594.547
+          ],
+          "quote": "And I do believe Atlas is a significant step forward because now with every single frame, you can generate an estimated important piece of information, which is the viewpoint, the camera pose.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "real-to-sim",
+      "type": "concept",
+      "role": "concept",
+      "name": "真实到仿真 (real to sim)",
+      "file": "真实到仿真",
+      "primary": true,
+      "how_described": "机器人数据瓶颈的关键流程:采集真实环境数据并做条件随机化,过去靠痛苦费人的稠密重建,Atlas 是下一代技术",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 380,
+          "t": [
+            1776.703,
+            1782.885
+          ],
+          "quote": "Right now, their key technology is a system that goes from real to sim and then sim to real.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "robotics-policy",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人策略 (robotics policy)",
+      "file": "机器人策略",
+      "primary": true,
+      "how_described": "Ben 指出它与生成静态工件根本不同:是走进真实世界做动作、追求目标的策略,训练须暴露于一切可能出错的情况",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 408,
+          "t": [
+            1971.05,
+            1977.114
+          ],
+          "quote": "Yeah, I was going to say there's something fundamentally different about training a robotics policy compared to really any other application in AI we've seen before.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1997.605,
+            1999.668
+          ],
+          "quote": "A robotics policy is something fundamentally different.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ai-completeness",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 完备性 (AI completeness)",
+      "file": "AI 完备性",
+      "primary": true,
+      "how_described": "与图灵完备性类比:若一个 AI 任务在最普遍意义上被解决就能解决任何智能问题;Justin 论证生成式新视角预测同下一 token 预测一样 AI 完备",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 508,
+          "t": [
+            2460.087,
+            2462.768
+          ],
+          "quote": "I think one interesting notion there is this notion of AI completeness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2498.044,
+            2509.128
+          ],
+          "quote": "So then like the kind of like the soft definition of AI completeness is like there's this fundamental primitive, it's an AI task, but if I could solve this AI task in its full broadest generality, it would solve any intelligence problem.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "neural-simulators",
+      "type": "concept",
+      "role": "concept",
+      "name": "神经仿真器 (neural simulators)",
+      "file": "神经仿真器",
+      "primary": true,
+      "how_described": "数据驱动的仿真路线:训练学习到的模型理解世界将如何回应动作,用它当仿真床训练机器人策略,是 Atlas 有趣的未来方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 432,
+          "t": [
+            2069.431,
+            2079.717
+          ],
+          "quote": "Then could we build these neural simulators that are trained on as much data as we can, then use these neural simulators, these learned neural simulators, you know, as a simulation bed to train robotic policies?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dynamics",
+      "type": "concept",
+      "role": "concept",
+      "name": "动态 (dynamics)",
+      "file": "动态",
+      "primary": true,
+      "how_described": "专家反馈的最大缺口;Atlas 架构从设计起就支持动态、训练数据含波浪与移动小车,雏形已在预训练检查点里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            82.849,
+            92.097
+          ],
+          "quote": "They also get into what's still missing, including richer dynamics and interaction, and how world models could eventually connect simulation with robotics and planning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            634.948,
+            645.171
+          ],
+          "quote": "Like there is the fourth dimension of time which will bring in dynamics and there is more higher fidelity simulation and delineation of the space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2143.036,
+            2144.897
+          ],
+          "quote": "It's amazing, but there needs to be more dynamics.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2159.635,
+            2161.396
+          ],
+          "quote": "Yeah, I mean, like, dynamics is clearly going to happen.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2161.416,
+            2163.357
+          ],
+          "quote": "Like, actually... We have baby dynamics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2163.377,
+            2164.818
+          ],
+          "quote": "We actually do have baby dynamics already.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2171.961,
+            2175.123
+          ],
+          "quote": "Like the model just like could not handle any dynamics at all.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2184.849,
+            2188.813
+          ],
+          "quote": "Like, the Atlas architecture is already fundamentally supports dynamics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2188.833,
+            2191.014
+          ],
+          "quote": "The Atlas training data fundamentally has dynamics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2205.566,
+            2208.028
+          ],
+          "quote": "So like dynamics is actually already in this model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2208.608,
+            2213.73
+          ],
+          "quote": "By the way, dynamics seems very problematic to me if you're trying to reconstruct 3D from multiple views.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2215.991,
+            2222.374
+          ],
+          "quote": "No, so actually one of our theses here is that if you're going to do fundamental 3D reconstruction, you actually want to have no dynamics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2236.7,
+            2245.224
+          ],
+          "quote": "And the thing we realized is that even in the case where I want static output in the end, the best way to get it is actually expose the model to dynamics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2252.387,
+            2260.09
+          ],
+          "quote": "So in the Atlas pre-training already, like it saw a ton of dynamics in the pre-training already.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2269.153,
+            2275.175
+          ],
+          "quote": "But like we already had, we already like, I'm pretty sure this, the pre-trained checkpoint already has a lot of latent dynamics in it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cinex",
+      "type": "company",
+      "role": "concept",
+      "name": "Cinex",
+      "file": "Cinex",
+      "primary": false,
+      "how_described": "World Labs 收购的、原名为 Cinex 的机器人公司,关键技术是真实到仿真、仿真到真实的系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 378,
+          "t": [
+            1771.101,
+            1774.682
+          ],
+          "quote": "We acquired this company that was formerly known as Cinex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

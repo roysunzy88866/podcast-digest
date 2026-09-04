@@ -25,7 +25,7 @@ unlisted: true
 
 [[Chris Blackburn]] · [[价值流映射]] · [[绞杀组织]] · [[增值时间]] · [[人在回路]] · [[DevOps]] · [[变革管理]] · [[数字分身]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Chris Blackburn":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":5,"DevOps":3,"变革管理":2,"数字分身":2,"ChatGPT":47}</script>
+<script type="application/json" class="pd-epn">{"Chris Blackburn":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":5,"DevOps":3,"变革管理":2,"数字分身":2,"ChatGPT":48}</script>
 
 <script>
 (function(){

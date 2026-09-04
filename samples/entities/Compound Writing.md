@@ -31,7 +31,7 @@ unlisted: true
 
 [[Every]] · [[ChatGPT]] · [[Claude]] · [[Codex]] · [[智能体]] · [[风格指南]] · [[复合]]
 
-<script type="application/json" class="pd-epn">{"Every":2,"ChatGPT":47,"Claude":45,"Codex":35,"智能体":1,"风格指南":1,"复合":1}</script>
+<script type="application/json" class="pd-epn">{"Every":2,"ChatGPT":48,"Claude":45,"Codex":35,"智能体":1,"风格指南":1,"复合":1}</script>
 
 <script>
 (function(){

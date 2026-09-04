@@ -138,7 +138,7 @@ AI 带来的生产力提升，恰恰出现在入门级就业开始萎缩的那�
 
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:开源模型 (open models)、护栏 (guardrails)</span>
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|AI模型正在学会黑入一切：软件供应链已成最薄弱环节]]<span class="pd-rz">同概念:前沿模型 (frontier models)</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:Claude code</span>
+- [[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model|Atlas:让 AI 预测世界的下一个视角]]<span class="pd-rz">同概念:世界模型 (world model)</span>
 
 </div>
 </div>

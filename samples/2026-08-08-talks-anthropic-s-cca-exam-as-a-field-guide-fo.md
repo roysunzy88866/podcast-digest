@@ -50,17 +50,17 @@ jsonLd: |
 
 但有了循环，第一个反模式就来了：千万别让智能体闷头干完活，直接把结果拿过来就用。你要做的，是让程序去监控模型的“[[停止原因|停止原因]]”。
 
-大语言模型本身做不了任何事，它只是个概率上的“下一个词预测器”，它没法自己执行工具。它真正做的，是把工具需要的参数提取出来交给你。所以当模型停下时，它返回的“停止原因”如果是工具使用，你的代码就得去真正运行那个工具，再把结果丢回给模型让它继续；如果“停止原因”显示 token（模型处理信息的最小单位）用完了，你就得知道这个回答是不完整的，必须采取干预措施 <button class="pd-ts" data-t="10:55" data-who="" data-en="Now, there's another reason why you need to make sure you check your stop reason. One of the stop reasons may be you have run out of tokens, and this response is based on partial when the LLM had to stop." aria-label="回原文"></button>。
+大语言模型本身做不了任何事，它只是个概率上的“下一个词预测器”，它没法自己执行工具。它真正做的，是把工具需要的参数提取出来交给你。所以当模型停下时，它返回的“停止原因”如果是工具使用，你的代码就得去真正运行那个工具，再把结果丢回给模型让它继续；如果“停止原因”显示 token（模型处理信息的最小单位）用完了，你就得知道这个回答是不完整的，必须采取干预措施。
 
 说完了单兵作战的智能体，接下来的场景是：如果要多个智能体协同工作该怎么办？考试的第三个场景就是多智能体研究系统。
 
 这里最大的反模式，是把所有工具都塞给同一个智能体。Frank 打了个比方：这就像你雇了个木匠来家里干活，结果他带着水管工、电工、木工的全套工具出现，说自己什么都能干。你真正需要的是专注干好一件事的专业木匠。
 
-同样要命的，是让子智能体的[[上下文溢出|上下文溢出]]到主上下文里 <button class="pd-ts" data-t="13:11" data-who="" data-en="The other part of this is don't let your agents Context spill over into the main context because context means tokens, tokens mean money, and the more context you have, the more confused the LLM is gonna be in giving you an answer." aria-label="回原文"></button>。很多人觉得现在上下文窗口动辄上百万 token，大得装得下一切，于是就把所有东西都往里塞。
+同样要命的，是让子智能体的[[上下文溢出|上下文溢出]]到主上下文里。很多人觉得现在上下文窗口动辄上百万 token，大得装得下一切，于是就把所有东西都往里塞。
 
 千万别这么做。因为上下文越多，意味着花钱越多，而且模型在给答案时也会越困惑、越不准。
 
-Frank 特别提醒，当你把一群智能体凑在一起协作时，它们会产生像人类一样的群体思维（随大溜、不愿做破坏气氛的那个人）<button class="pd-ts" data-t="14:36" data-who="" data-en="When you get a bunch of agents together collaborating and talking to each other, there's a tendency to have group think. And all the agents seem to kind of devolve into one idea." aria-label="回原文"></button>。所以正确的做法是做子任务隔离：每个智能体只拿到完成自己任务所需的切片信息。比如让评论者智能体去审查某个主张，你只把主张和证据给它，千万别把它背后一长串的思维过程也丢进去，否则整个系统很容易被带偏。
+Frank 特别提醒，当你把一群智能体凑在一起协作时，它们会产生像人类一样的群体思维（随大溜、不愿做破坏气氛的那个人）。所以正确的做法是做子任务隔离：每个智能体只拿到完成自己任务所需的切片信息。比如让评论者智能体去审查某个主张，你只把主张和证据给它，千万别把它背后一长串的思维过程也丢进去，否则整个系统很容易被带偏。
 
 工具和人都齐了，面对具体的开发任务该怎么管上下文？这就是考试第四个场景开发者生产力要解决的。
 
@@ -68,15 +68,15 @@ Frank 特别提醒，当你把一群智能体凑在一起协作时，它们会�
 
 如果哪怕做了隔离，上下文还是不可避免地变大了怎么办？你可以监控 token 数量，当它超过比如 15 万时，主动运行一次压缩。
 
-Anthropic 自带能把巨大上下文揉碎、浓缩的压缩算法 <button class="pd-ts" data-t="17:12" data-who="" data-en="So Anthropic and Claude have these compaction algorithms that take this giant context and compact it in some way, shape, or form. Not quite sure how the implementation is of that, but there is compaction." aria-label="回原文"></button>。如果你觉得官方的算法不够贴合业务，你完全可以自己写一套自定义的逻辑，决定哪些信息必须保留。
+Anthropic 自带能把巨大上下文揉碎、浓缩的压缩算法。如果你觉得官方的算法不够贴合业务，你完全可以自己写一套自定义的逻辑，决定哪些信息必须保留。
 
-那么，写好了的 Claude 程序怎么进入日常的持续集成流水线？最后这个场景同样藏着反模式：千万别在自动化流水线里开启交互模式 <button class="pd-ts" data-t="18:20" data-who="" data-en="Always have interactive modes in a pipeline. No, no, no, because interactive modes mean Claude will stop and ask you, you want to do this, you want to do that, can I have permission for that?" aria-label="回原文"></button>。
+那么，写好了的 Claude 程序怎么进入日常的持续集成流水线？最后这个场景同样藏着反模式：千万别在自动化流水线里开启交互模式。
 
 因为一旦开启，Claude 会在半路上突然停下来问你：“我想做这个，行不行？”这在需要无人值守跑通宵的流水线里简直是灾难。
 
 你要把它设置成一气呵成跑到底的模式。此外还有个省钱的实用技巧：如果不急要结果，你可以把任务打成一个批处理。
 
-用这种方式，你能享受打对折的 token 成本——官方保证最迟在 24 小时内把结果交给你 <button class="pd-ts" data-t="18:46" data-who="" data-en="The batch. So you can take your prompts, you can take your work, and you can put them in a batch, and for 50% fewer token cost, you will get the result they promise in at least 24 hours." aria-label="回原文"></button>。你可以下班去睡觉、去度假，让任务自己慢慢跑就行。
+用这种方式，你能享受打对折的 token 成本——官方保证最迟在 24 小时内把结果交给你。你可以下班去睡觉、去度假，让任务自己慢慢跑就行。
 
 ## 本集带走
 

@@ -128,8 +128,8 @@ Sinofsky 提了一个很务实的替代路径：**不需要新造 AI 专属法�
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同嘉宾:Sofia Puccini · 同公司:Anthropic · 同概念:open source</span>
+- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同公司:Anthropic · 同概念:open source</span>
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|AI 如何把工程问题变回资本问题]]<span class="pd-rz">同嘉宾:Steven Sinofsky · 同公司:Anthropic</span>
-- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic · 同概念:open source</span>
 
 </div>
 <div class="pd-ex">

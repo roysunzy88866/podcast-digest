@@ -1,0 +1,190 @@
+{
+  "title_zh": "主导投资 Anthropic 的人：风投的游戏规则已经彻底变了",
+  "tldr": "Menlo Ventures 合伙人 Matt Murphy 讲述领投 Anthropic 的全过程，以及为什么「低估值、高持股」的老打法已经失效。",
+  "digest_md": "这一集是 20VC 主持人 Harry Stebbings 和 Menlo Ventures 合伙人 Matt Murphy 的对谈——Matt 就是主导投资 Anthropic 那笔交易的人，过去几年他还接连投中了 Lovable、Legora、OpenRouter,几乎是风投圈火力最猛的人。而这集最颠覆的判断是：一个还没营收、要价 40 亿美元估值的公司，放在旧的打法里根本不该投——但今天，你必须投。\n\n## Anthropic 是怎么投进来的\n\n引荐人是 Anj(Anjane Mita),他跟 Matt 说「你得见见 Dario 和 Tom,这就是唯一那家公司」。第二天 Matt 就和 Dario 通了电话，当场表态「我加入」。\n\n容易判断的部分很清晰:Dario 正是 OpenAI 内部缔造 ChatGPT 起飞的那个人，他离开的原因是觉得 OpenAI 做的事情太多、想专注这一个机会；模型虽然未发布、没有营收，但基准测试已经和 ChatGPT 打平甚至更好，花的钱大概只有五十分之一——「看到这些算力乘数，你就知道技术底层有特别的东西」[05:59 Unknown]。而且这些市场从来不会被一家独占，谁能比 Anthropic 更有条件成为第二名？\n\n难的部分是内部：当时 Menlo 是一支 6 亿美元的创投基金，平均单笔投 1500 万，而这家公司开价 40 亿以上估值。合伙人里有人算账：投 10 个亿(百万单位)就算变 20 倍、扣掉稀释也就返还基金的 12%——「谢谢你返还了基金的 12%,Matt」[07:58 Unknown]。Matt 的回应是：进入这个市场永远不会有完美的切入点，要么进去，要么坐场边观望。幸运的是他的合伙人团队够灵活，拍板「我们就这么干」。第一张支票略高于 1000 万美元；但真正定格局的是下一轮——Menlo 做了公司历史上第一个 SPV(为单个项目临时凑的专项投资载体)，规模超过 5 亿美元。\n\n那笔 SPV 的打法成了 Matt 最想重复的剧本：先建关系、看公司运作；模型四月发布后收入从零开始逐月累加；Amazon 和 Google 同时进场，带来资本、技术合作(Bedrock、Vertex)和分发渠道——「他们是 OpenAI 的替代选择，而 OpenAI 被绑在 Azure 一家云上，这就是多云提供商」。标志性事件是十一月 LP 会议上一位 Anthropic 高管的演讲把所有人震撼，会开完两周内，Menlo 就签了领投条款书。\n\n## 风投的游戏规则变了：持股比例不再重要\n\nMatt 入行 25 年，前 20 多年行业的共识是「好结果就是 3 亿、5 亿、10 亿的退出，你得持有 20% 才能赚到 1 亿」。他现在的判断恰恰相反：**以很小的比例投中巨大的离群值，好过持有一个 3 到 5 亿退出公司的大比例**——后者根本撬不动基金回报[09:54 Unknown]。\n\n他坦承自己为此交过学费：Steel、Eleven Labs、StarCloud 都只给他 1% 的份额，他按老训练拒绝了，「现在回头看，这些公司本来全都会带来巨额回报」[45:33 Unknown]。连 LP 也在慢慢接受这个新现实——Menlo 跟 LP 明确沟通「核心仓位 + 起始支票」的结构：他们的 Anthology Fund 用 10 万到 100 万的种子支票投了 50 多家公司(OpenRouter、Whisper、Axiom Math 都从那里毕业)，因为「哪怕只拿到一个小立足点，你大额参与下一轮的可能性就高 10 倍」[46:32 Unknown]。\n\n对价格，他同样态度鲜明：Harry 说自己因为「1.5 到 5 再到 15 的增速不够 exciting」拒绝了一家公司被 VC Braggs 骂，Matt 完全站他这边——「过去是前 5%,现在同样的数字看起来像前 50%,而我们不是要进前 50%」[47:47 Unknown]。\n\n## 开源 vs 前沿模型：不是取代，是组合\n\n有人问：如果开源能做 96% 的企业工作流，会不会砍掉 Anthropic 的市场？Matt 不同意：基础模型的性能和智能太特别，开源加自己的数据「对一部分事情有功能性作用，但我就是不认为它能强大到真正取代它」[23:55 Unknown]。真实数据是：应用公司用 Anthropic 反而提高了客户留存、带来更多收入和用户互动。未来的格局是组合式选模型——他举 OpenRouter 为例(一家拦截 API 调用、按价格/推理能力/延迟帮你挑最优模型的「路由」公司)，「AI 第一波是先跑起来，第二波是对用什么、什么时候用、怎么用变得精细，成本优化就进来了」[23:14 Unknown]。他放话 OpenRouter 已经「在一个会让大多数人震惊的规模上疯狂盈利」，而这波模型优化市场才刚到拐点。\n\n## 为什么只募 30 亿：小而强 vs 大平台\n\nHarry 问：手里有 Anthropic、Lovable、Legora、OpenRouter,你本可以募多得多的钱，为什么只募 30 亿？Matt 的答案关乎机构文化：资本多了就要扩团队、按行业分组，「如果一个团队做得不好，就会拖累其他团队」，一致性就没了。Menlo 保持约 12 位合伙人的小机器，两只基金之间工作高度流动。\n\n由此衍生出他们的**杠铃策略**：一端压后期离群值(爆发在 ARR 1000 万以上、已被认定为赢家的公司)；另一端往更早走——三位合伙人可以**当场**开出最高 800 万美元的种子支票(以前上限是 300 万)。中间的 A 轮他认为「是当今最糟糕的位置」：种子到 A 轮的时间被极大压缩，A 轮公司只有几百万 ARR、五六个 POC,「这其实算不上多大的信号，然而估值却从 5000 万涨到 2 亿」[34:33 Unknown]。\n\n## 闲谈里的几条金矿\n\n- **输掉项目的最大共性是来晚了**：轮次前几周才进场，而别人已建了一年关系，「那通常就是丧钟」；很少真的输在估值上。\n- **最紧张的 24 个月**是做那笔 5 亿 SPV 时——亲自站在第一线募资、被拒、回答二阶三阶的问题，「那让我对创业者产生了极大的同理心」。\n- **LP 圈最爱的小型精品种子基金**，Harry 判定会是这个年份表现最差的类别——太大不能做友好跟投、太小不能领投；Matt 补充：连 Benchmark 都加了成长期载体，「泳道」这个概念已经消失了。\n- **过热**：机器人、NeoLabs(自建基础模型的创业公司，现在市面上有 60 多家)、「绝不可能有 60 家独立模型公司」；**投资不足**：基础模型之上的开发者栈——可观测性、智能体框架、抽象屏蔽底层芯片的工具，三四年前投过一轮没跑出来，现在真正起飞了。\n- **最想投而没投进的**：Eleven Labs 的 Matty——「了不起的创始人最终会成就公司，不只是选对了市场」。\n- **欧洲创业者更值得高看**：在欧洲起步做成全球公司需要的毅力远超湾区，所以那本身就说明这个人行。\n\n## 本集带走\n\n- ** outlier 逻辑取代持股逻辑**：今天风投的回报靠投中巨大离群值，哪怕比例很小；为 1% 股份拒绝顶尖公司是 Matt 后悔学费最贵的一课。\n- **用「起始支票」买入场券**：小金额先进股权结构表、认识创始人，等看到跑起来的信号再猛扑加注——小立足点能让你下一轮参与概率翻 10 倍。\n- **价格贵不是不投的理由，增速不够快才是**：同样的增长数字，过去是前 5%,今天是前 50%。\n- **应用层的防御性在于工作流**：模型能直接做的事你也会做，那本就不防御；但像 Legora 那种跨越律所、客户、多利益相关方的复杂工作流，模型很难一口吃掉。\n- **未来的模型使用是组合选优**：前沿模型 + 开源 + 自有数据模型拼图选型，路由和成本优化层是刚起飞的机会。",
+  "quotes": [
+    {
+      "en": "It's like you have to be in the big outliers to drive great returns, and you're better off being in them at a very small percent than owning a large percent of a company that exits for three to 500.",
+      "zh": "你必须投中大的离群值才能驱动丰厚回报，而以很小的比例投中它们，好过拥有一个以 3 到 5 亿退出的公司的大比例。",
+      "timestamp": "09:54",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "And I would say if you get even a wedge into a company, you're 10x more likely to be able to participate significantly in the next round or lead.",
+      "zh": "我想说的是，只要你哪怕在一家公司里拿到一个小小的立足点，你能大额参与下一轮或领投的可能性就会高 10 倍。",
+      "timestamp": "46:32",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "So you're coming in a couple of weeks or a month before the round and somebody else has a year long relationship. That's usually a death knell.",
+      "zh": "你是在轮次开始前几周或一个月才进来，而别人已经有一整年的关系。那通常就是丧钟。",
+      "timestamp": "44:16",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "And so wave one of AI is like, let's just get it going. Wave two is like, let's get a lot more sophisticated about what we use and when and how.",
+      "zh": "所以 AI 的第一波是，让我们先把它跑起来。第二波是，让我们对用什么、什么时候用、怎么用变得更加精细。",
+      "timestamp": "23:10",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "This company is wildly profitable at a scale that would probably shock most people before this whole open source model, alternative model, model optimization market really takes off.",
+      "zh": "在整个开源模型、替代模型、模型优化市场真正起飞之前，这家公司就已经在一个可能会让大多数人震惊的规模上疯狂盈利了。",
+      "timestamp": "28:41",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "And so if you look around and you're like, well, that used to be top 5%, and now it looks more like top 50%, well, we're not trying to be in top 50%, right?",
+      "zh": "如果你环顾四周会想，嗯，那过去是前 5%,现在看起来更像前 50%,嗯，我们并不是要进前 50%,对吧？",
+      "timestamp": "47:47",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "My view is they're kind of like, look, if the model just kind of does something and your application isn't distinctive enough, the workflow, the value you've built on top of it, and the model takes that market away, well, then it probably wasn't that, you know, defensible anyway.",
+      "zh": "我的看法是，他们大致是说，看，如果模型就这么把某件事做了，而你的应用——你在它之上构建的工作流、价值——不够有独特性，模型夺走了那个市场，那么它很可能本来就没那么有防御性。",
+      "timestamp": "30:39",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "And there's no way in hell that, you know, we're going to have 60 independent model companies in addition to all the open source and everything.",
+      "zh": "而且绝不可能，在所有开源和其他一切之外，我们还能有 60 家独立的模型公司。",
+      "timestamp": "56:21",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "So if you have the grit to get off the ground in Europe, to be a global company, that says a lot about you.",
+      "zh": "所以如果你有那份毅力能在欧洲起步、做成一家全球性的公司，那非常能说明你这个人。",
+      "timestamp": "43:44",
+      "speaker": "Matt Murphy"
+    },
+    {
+      "en": "It is the greatest time to do venture.",
+      "zh": "现在是做风险投资最伟大的时代。",
+      "timestamp": "59:41",
+      "speaker": "Harry Stebbings"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "23:43",
+      "speaker": "Unknown",
+      "en": "I think the foundation models, let's say specifically Anthropic, have such special models, performant, intelligent models.",
+      "zh": "我认为基础模型——具体说 Anthropic——拥有如此特别的模型，高性能、智能的模型。"
+    },
+    {
+      "timestamp": "23:55",
+      "speaker": "Unknown",
+      "en": "It's going to be functional and positive for some amount of what you're doing, but I just don't think it can be powerful enough to really, you know, displace it.",
+      "zh": "对于你在做的事情的某一部分，它会有功能性、积极的作用，但我就是不认为它能强大到真正取代它。"
+    },
+    {
+      "timestamp": "09:54",
+      "speaker": "Unknown",
+      "en": "It's like you have to be in the big outliers to drive great returns, and you're better off being in them at a very small percent than owning a large percent of a company that exits for three to 500.",
+      "zh": "你必须投中大的离群值才能驱动丰厚回报，而以很小的比例投中它们，好过拥有一个以 3 到 5 亿退出的公司的大比例。"
+    },
+    {
+      "timestamp": "08:01",
+      "speaker": "Unknown",
+      "en": "Thanks for returning 12% of the fund, Matt.",
+      "zh": "谢谢你返还了基金的 12%,Matt。"
+    },
+    {
+      "timestamp": "08:24",
+      "speaker": "Unknown",
+      "en": "But it's like, look, there's never going to be a perfect entry point into this market.",
+      "zh": "但你看，进入这个市场永远不会有完美的切入点。"
+    },
+    {
+      "timestamp": "08:40",
+      "speaker": "Unknown",
+      "en": "So just don't overthink it and get in.",
+      "zh": "所以别想太多，进去就行。"
+    },
+    {
+      "timestamp": "12:53",
+      "speaker": "Unknown",
+      "en": "So it's like, hey, this is the multi-cloud provider.",
+      "zh": "所以就像是，嘿，这就是那个多云提供商。"
+    },
+    {
+      "timestamp": "13:32",
+      "speaker": "Unknown",
+      "en": "We've got to figure out a way to lead the round. And two weeks later, we signed a term sheet.",
+      "zh": "我们得想办法领投这一轮。两周后，我们签了投资条款书。"
+    },
+    {
+      "timestamp": "16:34",
+      "speaker": "Unknown",
+      "en": "But like being on the front lines, having to be the person kind of, you know, capital raising, talking to these investors, getting an occasional turndown.",
+      "zh": "但就像站在第一线，不得不成为那个做资本募集的人，和这些投资人交谈，偶尔遭到拒绝。"
+    },
+    {
+      "timestamp": "46:32",
+      "speaker": "Unknown",
+      "en": "And I would say if you get even a wedge into a company, you're 10x more likely to be able to participate significantly in the next round or lead.",
+      "zh": "我想说的是，只要你哪怕在一家公司里拿到一个小小的立足点，你能大额参与下一轮或领投的可能性就会高 10 倍。"
+    },
+    {
+      "timestamp": "45:33",
+      "speaker": "Unknown",
+      "en": "And now I look back and all of them would have returned huge amounts of money.",
+      "zh": "现在回头看，这些公司本来全都会带来巨额回报。"
+    },
+    {
+      "timestamp": "44:21",
+      "speaker": "Unknown",
+      "en": "So you're coming in a couple of weeks or a month before the round and somebody else has a year long relationship. That's usually a death knell.",
+      "zh": "你是在轮次开始前几周或一个月才进来，而别人已经有一整年的关系。那通常就是丧钟。"
+    },
+    {
+      "timestamp": "23:14",
+      "speaker": "Unknown",
+      "en": "And so wave one of AI is like, let's just get it going. Wave two is like, let's get a lot more sophisticated about what we use and when and how.",
+      "zh": "所以 AI 的第一波是，让我们先把它跑起来。第二波是，让我们对用什么、什么时候用、怎么用变得更加精细。"
+    },
+    {
+      "timestamp": "28:54",
+      "speaker": "Unknown",
+      "en": "This company is wildly profitable at a scale that would probably shock most people before this whole open source model, alternative model, model optimization market really takes off.",
+      "zh": "在整个开源模型、替代模型、模型优化市场真正起飞之前，这家公司就已经在一个可能会让大多数人震惊的规模上疯狂盈利了。"
+    },
+    {
+      "timestamp": "47:47",
+      "speaker": "Unknown",
+      "en": "And so if you look around and you're like, well, that used to be top 5%, and now it looks more like top 50%, well, we're not trying to be in top 50%, right?",
+      "zh": "如果你环顾四周会想，嗯，那过去是前 5%,现在看起来更像前 50%,嗯，我们并不是要进前 50%,对吧？"
+    },
+    {
+      "timestamp": "30:39",
+      "speaker": "Unknown",
+      "en": "My view is they're kind of like, look, if the model just kind of does something and your application isn't distinctive enough, the workflow, the value you've built on top of it, and the model takes that market away, well, then it probably wasn't that, you know, defensible anyway.",
+      "zh": "我的看法是，他们大致是说，看，如果模型就这么把某件事做了，而你的应用——你在它之上构建的工作流、价值——不够有独特性，模型夺走了那个市场，那么它很可能本来就没那么有防御性。"
+    },
+    {
+      "timestamp": "56:21",
+      "speaker": "Unknown",
+      "en": "And there's no way in hell that, you know, we're going to have 60 independent model companies in addition to all the open source and everything.",
+      "zh": "而且绝不可能，在所有开源和其他一切之外，我们还能有 60 家独立的模型公司。"
+    },
+    {
+      "timestamp": "43:44",
+      "speaker": "Unknown",
+      "en": "So if you have the grit to get off the ground in Europe, to be a global company, that says a lot about you.",
+      "zh": "所以如果你有那份毅力能在欧洲起步、做成一家全球性的公司，那非常能说明你这个人。"
+    },
+    {
+      "timestamp": "53:44",
+      "speaker": "Unknown",
+      "en": "But the point is, like, you just got to keep going and finding that next big one.",
+      "zh": "但重点是，你必须继续前进，去寻找下一个大项目。"
+    },
+    {
+      "timestamp": "59:41",
+      "speaker": "Unknown",
+      "en": "It is the greatest time to do venture.",
+      "zh": "现在是做风险投资最伟大的时代。"
+    }
+  ],
+  "voice_script": "一个还没有营收、张口就要 40 亿估值的公司，放在过去的风投规则里，根本就不该投。但这一集的主角会说：今天，你必须投。\n\n这期聊的就是这件事。Harry Stebbings 采访了 Menlo Ventures 的合伙人 Matt Murphy——主导投资 Anthropic 那笔交易的人，过去几年还接连投中了 Lovable、Legora、OpenRouter,可以说是风投圈火力最猛的一个。\n\n先讲这笔交易是怎么进来的。引荐人 Anj 跟 Matt 说，你得见见 Dario,这就是唯一那家公司。第二天 Matt 就和 Dario 通了电话，当场表态：我加入。\n\n为什么这么快？容易判断的部分其实很清晰。Dario 正是 OpenAI 内部缔造 ChatGPT 起飞的那个人，离开是因为觉得 OpenAI 摊子铺太大，想专注这一个机会。模型虽然没发布、没营收，但基准测试已经和 ChatGPT 打平甚至更好，花的钱大概只有五十分之一。看到这种算力乘数，你就知道技术底层有特别的东西。而且，谁能比 Anthropic 更有条件成为第二名呢？\n\n难的部分在公司内部。当时 Menlo 是一支 6 亿美元的基金，平均单笔投 1500 万，这家公司却开价 40 亿以上。合伙人里有人算账：就算变 20 倍，扣掉稀释也就返还基金的 12%,说一句“谢谢你返还了基金的 12%,Matt”。Matt 的回应很直白：进入这个市场永远不会有完美的切入点，要么进去，要么坐场边观望。好在合伙人团队够灵活，拍板“我们就这么干”。第一张支票略高于 1000 万美元。而真正定格局的是下一轮——Menlo 做了公司历史上第一个 SPV,就是为单个项目临时凑的专项投资载体，规模超过 5 亿美元。\n\n但真正颠覆的，是这个判断：风投的老打法，已经彻底失效了。\n\nMatt 入行 25 年，前 20 多年行业的共识是，好结果就是 3 亿、5 亿、10 亿的退出，你得持有 20% 才能赚到 1 亿。现在恰恰相反：以很小的比例投中巨大的离群值，好过持有一个 3 到 5 亿退出公司的大比例，后者根本撬不动基金回报。\n\n这个道理是交学费学来的。Steel、Eleven Labs、StarCloud,都只给 1% 的份额，按老训练全拒绝了。现在回头看，这些公司本来全都会带来巨额回报。\n\n所以 Menlo 现在玩的是另一套剧本：用 10 万到 100 万的种子支票，先在股权结构表上买一个小小的立足点，认识创始人。因为哪怕只拿到一个小立足点，你大额参与下一轮的可能性就高 10 倍。\n\n那价格呢？Matt 的态度同样鲜明：同样的增长数字，过去是前 5%,现在看起来像前 50%——而我们并不是要进前 50%。翻译一下就是，贵不是不投的理由，增速不够快才是。\n\n中间还有个细节特别值得记：做那笔 5 亿 SPV 的 24 个月，是最紧张的时候，亲自站在第一线募资、被拒、回答各种刁钻问题。这段经历让 Matt 对创业者产生了极大的同理心——你想想，这不就是每个创始人融资时的日常吗。\n\n再输掉项目，最大共性是什么？不是估值，是来晚了。轮次前几周才进场，别人已经建了一年关系，那通常就是丧钟。\n\n最后收个尾。这一集最值得带走的一句话，还是那句：今天风投的回报，靠的是投中巨大的离群值——以很小的比例投中它，好过拥有一个平庸退出公司的大比例。游戏规则变了，还按老打法出牌的人，可能连牌桌都上不去了。"
+}

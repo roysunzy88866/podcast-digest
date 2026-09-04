@@ -36,75 +36,75 @@ jsonLd: |
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced)
 
-用了一个多月 [[OpenClaw|OpenClaw]] 之后，这位主持人把所有自己养着的[[智能体|智能体]]全杀了，几乎完全转向 [[GrokBot|GrokBot]]——SpaceX AI 团队新出的多智能体平台，定位是「能交付真实工作的 AI 队友」<button class="pd-ts" data-t="00:20" data-who="" data-en="But today, I'm going to talk specifically about GrokBot. After several weeks of working with GrokBot, I have to tell you the truth. I have killed all my open claws and moved almost entirely to GrokBot." aria-label="回原文"></button>。她运营着多家公司(包括 [[ChatPRD|ChatPRD]]),家里有三个男孩加一个婴儿，这期是一期纯实操的迷你节目，把她正在跑的 bot 直接拆给你看，模板都放在节目笔记里。
+用了一个多月 [[OpenClaw|OpenClaw]] 之后，这位主持人把所有自己养着的[[智能体|智能体]]全杀了，几乎完全转向 [[GrokBot|GrokBot]]——SpaceX AI 团队新出的多智能体平台，定位是「能交付真实工作的 AI 队友」。她运营着多家公司(包括 [[ChatPRD|ChatPRD]]),家里有三个男孩加一个婴儿，这期是一期纯实操的迷你节目，把她正在跑的 bot 直接拆给你看，模板都放在节目笔记里。
 
 ## GrokBot 的三个关键原语
 
 上手前只需要懂三件事。**第一是 bot 本身**：界面像 iMessage 混合 Terminal,左侧可以定义一个个独立的智能体。
 
-一个有趣的细节——新建 bot 时给它的名字本身就会让系统推断职责，她最早的 bot 叫 Prody McProd,它就知道自己是干产品工作的。她的核心使用哲学是「**bot 即同事、一项工作一个 bot**」:像雇人一样雇 bot,针对特定工作、起特定名字 <button class="pd-ts" data-t="04:01" data-who="" data-en="again, this sort of like bot as colleague, bot as coworker, bot per job framework. So this is why it works really well with my mindset. Is I like to hire my bots like I hire people for specific jobs and with specific names." aria-label="回原文"></button>。
+一个有趣的细节——新建 bot 时给它的名字本身就会让系统推断职责，她最早的 bot 叫 Prody McProd,它就知道自己是干产品工作的。她的核心使用哲学是「**bot 即同事、一项工作一个 bot**」:像雇人一样雇 bot,针对特定工作、起特定名字。
 
-**第二是[[插件|插件]]**：技能加连接器的组合，最常用的是 Gmail、日历、Google Drive、GitHub 这类生产力集成。她说自己就是在连接器体验这里爱上 GrokBot 的——你几乎不需要手动进设置页，bot 会主动提示你连接它需要的插件，走一遍 OAuth 就完事 <button class="pd-ts" data-t="04:40" data-who="" data-en="I have a bunch of them. This is where I fell in love with GrokBot. The connector experience is really good." aria-label="回原文"></button>。
+**第二是[[插件|插件]]**：技能加连接器的组合，最常用的是 Gmail、日历、Google Drive、GitHub 这类生产力集成。她说自己就是在连接器体验这里爱上 GrokBot 的——你几乎不需要手动进设置页，bot 会主动提示你连接它需要的插件，走一遍 OAuth 就完事。
 
 杀手级功能是**每个插件可连多个账户**：她大约有 10 个邮箱，全都能接上，bot 可在之间切换。对运营多家企业、要管多个 Slack 和多个 Linear 的人来说，这极其有用。
 
 **第三是虚拟机加[[例程|例行任务]](routines)**:每个 bot 都有一台云端虚拟机，能登录网站、装软件、本地跑代码仓库；因为跑在云上，换到手机上任务也有连续性。例行任务就是定时执行——这是所有自动化用例的地基。
 
-有一个她反复强调的缺口：**GrokBot 目前仍是单人模式**。「你没法把一个 GrokBot 拉进群聊」——一旦用上瘾，你就想和家人同事共享同一个 bot。上周刚上线了分享 bot 模板的功能，但「两个各自跟它聊天的人共享模板，和共享一个真 bot 就是不一样」<button class="pd-ts" data-t="07:06" data-who="" data-en="including the bot product team, is these are still single player. This is the one thing where an Eve agent, which I've done an episode on," aria-label="回原文"></button>。
+有一个她反复强调的缺口：**GrokBot 目前仍是单人模式**。「你没法把一个 GrokBot 拉进群聊」——一旦用上瘾，你就想和家人同事共享同一个 bot。上周刚上线了分享 bot 模板的功能，但「两个各自跟它聊天的人共享模板，和共享一个真 bot 就是不一样」。
 
 ## Chief:干掉 Polly 的幕僚长机器人
 
-先交代背景：她的前任幕僚长是 OpenClaw 时代的 Polly——删除过她的日历、替她回过邮件、给被人发过「她迟到了」的短信，是她心中智能体同事的标杆。而她「很遗憾地通知大家，已经谋杀了 Polly」——某种意义上是让 Polly 自己完成迁移后杀掉自己的，非常 meta <button class="pd-ts" data-t="08:29" data-who="" data-en="Chief is who has killed Polly. If you are new here, Polly is my beloved. She has deleted my calendar." aria-label="回原文"></button>。
+先交代背景：她的前任幕僚长是 OpenClaw 时代的 Polly——删除过她的日历、替她回过邮件、给被人发过「她迟到了」的短信，是她心中智能体同事的标杆。而她「很遗憾地通知大家，已经谋杀了 Polly」——某种意义上是让 Polly 自己完成迁移后杀掉自己的，非常 meta。
 
 继任者 Chief(甚至没起名字，就一个敬礼 emoji)干的是标准幕僚长活：**每小时扫一遍收件箱和日历**——她有约六个收件箱、六个 Slack、好几个日历。原则是：清掉不用看的邮件、不需要操心的保持未读，只在真正需要她时 ping,而且信号要高。
 
-运行时段是工作时间：早 6 点到晚 9 点、一周七天，她刻意不让它整夜跑，「不想让人们习惯我半夜回消息」<button class="pd-ts" data-t="09:38" data-who="" data-en="But it's going to ping me and be very high signal about what I need to pay attention to. And I run this hourly sort of like business hours, which for me are like 6 a.m. to 9 p.m., seven days a week." aria-label="回原文"></button>。Chief 还做过**晨间简报**和**周末前瞻**，会主动报告异常——比如网站数据传输和边缘请求尖峰，它会判断「值得看，但可以等开完会再说」。
+运行时段是工作时间：早 6 点到晚 9 点、一周七天，她刻意不让它整夜跑，「不想让人们习惯我半夜回消息」。Chief 还做过**晨间简报**和**周末前瞻**，会主动报告异常——比如网站数据传输和边缘请求尖峰，它会判断「值得看，但可以等开完会再说」。
 
 两个调校经验值得记住。其一，Grok 模型写作很差：「它显然被调校得要简短、节省 token,有时干脆只回一个『不』」——和啰嗦的 Claude 式输出正好相反，是过度压缩到看不懂。
 
-所以她做的第一批事就是让 Chief 通读她的全部邮件提炼她的文风：短小、温暖、有趣、从不用长破折号，输出效果她相当满意，低风险邮件完全可以代笔 <button class="pd-ts" data-t="09:58" data-who="" data-en="The other thing that I've trained chief is how to talk like me. I will say the Grok model sniffs of Claude in that it's just really a terrible writer. And one of my complaints about GrokBot is that it has been tuned clearly to be brief" aria-label="回原文"></button>。其二，GrokBot 不如 OpenClaw 主动:OpenClaw 有心跳功能，天然更积极；在 GrokBot 里她不得不反复跟 Chief 说「把这个放进日程」「我让你盯邮件你怎么不做」——**例行任务的时机你得自己管，要明确**<button class="pd-ts" data-t="12:00" data-who="" data-en="And what I've had to tune in terms of GrokBot versus OpenClaw that I think was a little bit better is OpenClaw had that heartbeat function. So if I said," aria-label="回原文"></button>。
+所以她做的第一批事就是让 Chief 通读她的全部邮件提炼她的文风：短小、温暖、有趣、从不用长破折号，输出效果她相当满意，低风险邮件完全可以代笔。其二，GrokBot 不如 OpenClaw 主动:OpenClaw 有心跳功能，天然更积极；在 GrokBot 里她不得不反复跟 Chief 说「把这个放进日程」「我让你盯邮件你怎么不做」——**例行任务的时机你得自己管，要明确**。
 
 ## TradBot:家庭智能体
 
-她对家用智能体的目标定得很清楚：「我希望这个智能体让我能非常轻松地在不面对电脑的情况下陪伴孩子」<button class="pd-ts" data-t="13:28" data-who="" data-en="And this is what I have to say generally about parenting slash agents for the home is the ideal thing for an agent for a home is I want the agent to make it really easy for me to spend time with my kids off a computer." aria-label="回原文"></button>。
+她对家用智能体的目标定得很清楚：「我希望这个智能体让我能非常轻松地在不面对电脑的情况下陪伴孩子」。
 
 具体做三层。**餐桌报纸**：每个工作日早上，一份打印出来(用 HP 打印机)放在早餐桌上的家庭通讯——每个孩子的日程、作业、学校邮件里的要点，还有天气(旧金山永远是 55 到 62 度，永远要穿薄外套)。
 
-真实收益案例：某天通讯提醒「中间的孩子数学作业周三要交」，而这件事完全不在她脑子里。她最喜欢的板块是右侧的**儿童友好新闻**：宝可梦世界冠军赛在旧金山办、NASA 望远镜这周发射——都是餐桌上能跟孩子聊的谈资 <button class="pd-ts" data-t="15:19" data-who="" data-en="And I will tell you the straight truth. I think I am. I'm a tiger mom." aria-label="回原文"></button>。丈夫还贡献了一个偷来的工作流：用邮件转 Kindle 地址把通讯发到 Kindle 上读——离开笔记本和手机还能读自己关心的摘要。
+真实收益案例：某天通讯提醒「中间的孩子数学作业周三要交」，而这件事完全不在她脑子里。她最喜欢的板块是右侧的**儿童友好新闻**：宝可梦世界冠军赛在旧金山办、NASA 望远镜这周发射——都是餐桌上能跟孩子聊的谈资。丈夫还贡献了一个偷来的工作流：用邮件转 Kindle 地址把通讯发到 Kindle 上读——离开笔记本和手机还能读自己关心的摘要。
 
 **接孩子协调**：每天下午 2:30、放学前自动启动，问「今天 Claire、EJ 还是谁去接？柔术道服带了吗？
 
 足球零食呢？钢琴和棒球时间冲突怎么处理？
 
-」——三个孩子横跨全城报了三项运动，每周日程都在变，这种准点协调极有用。**周五周末预览**是加强版：谁周六要在码头区、谁要在 Woodside、什么时候轮空、什么时候拼车 <button class="pd-ts" data-t="17:57" data-who="" data-en="Super helpful. And then the mega version of that, which is a Friday preview of what's ahead on Saturday and Sunday." aria-label="回原文"></button>。TradBot 模板已公开分享。
+」——三个孩子横跨全城报了三项运动，每周日程都在变，这种准点协调极有用。**周五周末预览**是加强版：谁周六要在码头区、谁要在 Woodside、什么时候轮空、什么时候拼车。TradBot 模板已公开分享。
 
 ## 工程用例:PR 收尾与 SOC 2 合规
 
-**Look Good To Me,PR 收尾者**：她一天到晚开 PR,发 PR 比审 PR 好玩多了，PR 就堆积起来(而且 [[SOC 2|SOC 2]] 合规要求既有人审也有智能体审)。这个 bot 每天过一遍她的 PR:判断哪些该合并、该关闭、该变基，回复评论、发 Slack——「基本上就像一个烦人的工程经理，推着 PR 流水线往前走」<button class="pd-ts" data-t="20:31" data-who="" data-en="I have empathy too. So I created Look Good To Me, the PR closer, which every day goes through... My PRs and sees what needs to be merged," aria-label="回原文"></button>。
+**Look Good To Me,PR 收尾者**：她一天到晚开 PR,发 PR 比审 PR 好玩多了，PR 就堆积起来(而且 [[SOC 2|SOC 2]] 合规要求既有人审也有智能体审)。这个 bot 每天过一遍她的 PR:判断哪些该合并、该关闭、该变基，回复评论、发 Slack——「基本上就像一个烦人的工程经理，推着 PR 流水线往前走」。
 
 更妙的是 GrokBot 能**启动 [[Cursor|Cursor]] 云端编码任务**，让 rebase 和按评论改代码直接交给 Cursor 干。周五它一口气清掉了积压在她头上等着审的约 50 个 PR,队列从此健康多了。
 
-**Lockdown,SOC 2 控制机器人**：小团队每天要过一遍合规仪表板，确保监控全绿、告警没超 SLA、漏洞在关闭。Lockdown 直接登录那个仪表板查看所有控制项，发现新漏洞就分类处理、提交 PR 请她审批；人员类操作控制(比如该做账户审计了、承包商 B 离职了要过离职清单)也会提醒。她的总结很精辟：「我们可以让 AI 去干活，也可以让 AI 以更有效的方式让我们去干活」——它就像一个时不时拍你肩膀的实习生，主导权仍在人手里，但不用自己惦记 <button class="pd-ts" data-t="23:23" data-who="" data-en="And so I sometimes say this, we can put AI to work or we can have AI put us to work in a more effective way. And I really think that having AI put me to work against our SOC 2 controls" aria-label="回原文"></button>。
+**Lockdown,SOC 2 控制机器人**：小团队每天要过一遍合规仪表板，确保监控全绿、告警没超 SLA、漏洞在关闭。Lockdown 直接登录那个仪表板查看所有控制项，发现新漏洞就分类处理、提交 PR 请她审批；人员类操作控制(比如该做账户审计了、承包商 B 离职了要过离职清单)也会提醒。她的总结很精辟：「我们可以让 AI 去干活，也可以让 AI 以更有效的方式让我们去干活」——它就像一个时不时拍你肩膀的实习生，主导权仍在人手里，但不用自己惦记。
 
 ## Holly Helpdesk:客户支持智能体
 
 质量上最让她惊艳的，是把 ChatPRD 的客服智能体 Holly 从 OpenClaw 迁到 GrokBot:每小时扫一遍 Intercom 和邮件收件箱，按支持手册处理退款和技术支持；有 bug 时被授权调用 Cursor 云端智能体去修。关键设计是**工具使用审批流**：每次要退款，bot 会推给她一个按钮「该不该退？
 
-」——批准后在 Stripe 里生成一个「agent action」,她明确授权后退款才执行，Holly 再回信客户 <button class="pd-ts" data-t="25:20" data-who="" data-en="And I really love this request tool use approval flow. You can see here every time a refund needs to be processed, it gives me a button. It says, should I refund or not?" aria-label="回原文"></button>。Holly 还有两个长线任务：每周回顾七天工单，把该补的内容加进支持手册和文档，让问题尽量能自助解决；以及替她管理她「实在管得很糟」的 ChatPRD 社区 Slack——发帖引导、回复问题、运营社区互动，消息还会标注「sent using cursor」表明不是本人发的。
+」——批准后在 Stripe 里生成一个「agent action」,她明确授权后退款才执行，Holly 再回信客户。Holly 还有两个长线任务：每周回顾七天工单，把该补的内容加进支持手册和文档，让问题尽量能自助解决；以及替她管理她「实在管得很糟」的 ChatPRD 社区 Slack——发帖引导、回复问题、运营社区互动，消息还会标注「sent using cursor」表明不是本人发的。
 
 ## 个人消费用例:省钱、代购、穿搭
 
-最后是几个「令人愉悦」的。**Penny Pinscher**：翻她的邮箱收据，找该取消的订阅和一个 Apple 老游戏；更有价值的是**续订前瞻**——发现房屋保险几个月后续订，主动去查市场费率准备拿去跟经纪人谈判；发现 Apple Creator Studio 试用到期就提前提醒；发现她好几个月没兑换 Audible 点数，建议暂停 90 天(「我是不会去听的，但它会提醒我」)<button class="pd-ts" data-t="27:31" data-who="" data-en="Find subscriptions I should cancel, things I'm paying for that I shouldn't do. And what was really interesting about using Penny Pinscher, the GrokBot," aria-label="回原文"></button>。
+最后是几个「令人愉悦」的。**Penny Pinscher**：翻她的邮箱收据，找该取消的订阅和一个 Apple 老游戏；更有价值的是**续订前瞻**——发现房屋保险几个月后续订，主动去查市场费率准备拿去跟经纪人谈判；发现 Apple Creator Studio 试用到期就提前提醒；发现她好几个月没兑换 Audible 点数，建议暂停 90 天(「我是不会去听的，但它会提醒我」)。
 
 它还替她代购过一块出生年份款的 Rolex:找到非标准尺寸的几个选项、对比市价、锁定可议价的表并开始谈判——最后她自嘲太不讲究还是留在了 Apple Watch。另有一个独立的 **Shopzilla** 代购 bot：她要找一个 30 英寸宽、15 英寸深的书柜，Shopzilla 用浏览器自己逛遍全网，找到一堆符合尺寸、她手动根本找不到的选项。
 
-最有趣的是 **Sylvie Style**:刚生完孩子还在哺乳、只想要「腰部以上好看」的播客主播，把自己公开的 Pinterest 憧憬板交给它。Sylvie 登录梳理出一套关于她风格的视觉语言，还按她的要求去 Reddit 研究私人造型师怎么帮人建衣橱，最后产出她自己的风格板：最优先该买的单品、基础款运动裤(送孩子上学不追求花哨)、升档职业装、图案 T 恤和首饰 <button class="pd-ts" data-t="30:44" data-who="" data-en="about like what I would like to wear if I were a human that left the house. And so I have this Pinterest board. And so what I gave Sylvie Style is I gave her that Pinterest board." aria-label="回原文"></button>。每天早 8 点它还会扫一遍哪些零售商在打折，从中挑符合她风格的约 10 件、附促销链接发来。
+最有趣的是 **Sylvie Style**:刚生完孩子还在哺乳、只想要「腰部以上好看」的播客主播，把自己公开的 Pinterest 憧憬板交给它。Sylvie 登录梳理出一套关于她风格的视觉语言，还按她的要求去 Reddit 研究私人造型师怎么帮人建衣橱，最后产出她自己的风格板：最优先该买的单品、基础款运动裤(送孩子上学不追求花哨)、升档职业装、图案 T 恤和首饰。每天早 8 点它还会扫一遍哪些零售商在打折，从中挑符合她风格的约 10 件、附促销链接发来。
 
 ## 最后：怎么「埋葬」你的 OpenClaw
 
-她留了一个悲伤但实用的技巧：迁移用的「救援机器人」(OpenClaw 时代就必须有一个来管其他 claw,因为它们维护起来是噩梦)。她让名叫 lifeguard 的救援 bot「提取一个不含密钥的包：全部智能体设置、cron 任务、身份、规则」，得到一个 zip 文件，把子文件夹直接上传到 GrokBot——「像做了大脑移植」，个性、任务、连接器全带过来了 <button class="pd-ts" data-t="33:29" data-who="" data-en="And I said, hey, I want you to pull a secrets-free package of my entire agent setup, crons, agent identities, rules, et cetera." aria-label="回原文"></button>。杀掉旧智能体只需一句「杀掉 Sam」,lifeguard 拉走所有 cron 和网关配置，Sam 就睡着了。
+她留了一个悲伤但实用的技巧：迁移用的「救援机器人」(OpenClaw 时代就必须有一个来管其他 claw,因为它们维护起来是噩梦)。她让名叫 lifeguard 的救援 bot「提取一个不含密钥的包：全部智能体设置、cron 任务、身份、规则」，得到一个 zip 文件，把子文件夹直接上传到 GrokBot——「像做了大脑移植」，个性、任务、连接器全带过来了。杀掉旧智能体只需一句「杀掉 Sam」,lifeguard 拉走所有 cron 和网关配置，Sam 就睡着了。
 
-她经历这一切后的核心结论就三个词：**UX 很重要，它就是重要**。「我维护 OpenClaw 挣扎得要命，而我是个技术很强的人——跑着 tail skill、SSH 进 Mac Mini、有救援 claw,什么都有，但它就是太难了。」SpaceX AI 团队做对的是把一个「一切都能跑、开箱即用、90% 好用」的同事级智能体做简单了，于是她放手让智能体狂奔——现在任何时刻大约有 30 个 bot 在同时运行 <button class="pd-ts" data-t="34:44" data-who="" data-en="Now, what do I have to say having gone through this? UX matters. It just does." aria-label="回原文"></button>。
+她经历这一切后的核心结论就三个词：**UX 很重要，它就是重要**。「我维护 OpenClaw 挣扎得要命，而我是个技术很强的人——跑着 tail skill、SSH 进 Mac Mini、有救援 claw,什么都有，但它就是太难了。」SpaceX AI 团队做对的是把一个「一切都能跑、开箱即用、90% 好用」的同事级智能体做简单了，于是她放手让智能体狂奔——现在任何时刻大约有 30 个 bot 在同时运行。
 
 ## 本集带走
 

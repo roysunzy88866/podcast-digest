@@ -136,7 +136,7 @@ jsonLd: |
 
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|Martin Casado：AI 时代，钱比以前好使了]]<span class="pd-rz">同公司:Cursor · 同概念:开源 (open source)、vibe coding</span>
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同公司:Cursor · 同概念:vibe coding</span>
-- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Cursor · 同概念:开源 (open source)</span>
+- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同公司:Lovable · 同概念:开源 (open source)</span>
 
 </div>
 </div>

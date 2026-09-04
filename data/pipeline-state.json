@@ -57,12 +57,12 @@
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2026-09-03-practicalai-less-about-models-more-about-architectur": 1
+    "2026-09-03-practicalai-less-about-models-more-about-architectur": 2
   },
   "cutoffs": {
     "lennys": "2026-09-02T12:03:39.000Z",
     "pg": "2026-08-28T22:38:13.000Z",
-    "a16z": "2026-09-03T10:00:00.000Z",
+    "a16z": "2026-09-04T10:00:00.000Z",
     "yc": "2026-08-29T13:00:00.000Z",
     "mad": "2026-08-27T14:22:21.000Z",
     "trainingdata": "2026-09-01T09:00:00.000Z",
@@ -73,20 +73,20 @@
     "beyondcoding": "2026-09-02T12:00:00.000Z",
     "founders": "2026-08-31T04:05:00.000Z",
     "dwarkesh": "2026-09-01T15:41:06.000Z",
-    "doac": "2026-08-31T05:00:00.000Z",
+    "doac": "2026-09-03T05:00:00.000Z",
     "deepmind": "2026-07-10T15:50:06.000Z",
     "twentyvc": "2026-09-03T07:07:00.000Z",
     "cogrev": "2026-08-26T11:02:32.000Z",
     "knowledge": "2026-09-01T10:00:00.000Z",
     "pragmatic": "2026-08-26T15:59:59.000Z",
     "practicalai": "2026-09-03T09:00:00.000Z",
-    "changelog": "2026-08-25T19:00:00.000Z",
+    "changelog": "2026-09-03T20:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
     "howiai": "2026-09-03T19:34:55.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
     "twiml": "2026-09-01T17:45:00.000Z",
-    "eyeonai": "2026-08-24T15:07:00.000Z",
+    "eyeonai": "2026-09-03T15:30:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-09-01T09:00:00.000Z",
     "pmf": "2026-08-31T09:00:00.000Z",
@@ -660,6 +660,48 @@
       "reason": "超长集:估 319 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
       "title": "Alignment with Awakening: Davidad on Moral Realism, AI Wisdom, & why His p(Doom) is Down to 5%",
       "pubDate": "2026-07-12T11:11:54.000Z"
+    },
+    {
+      "id": "2026-09-03-doac-andrew-huberman-stop-wasting-money-on-ba",
+      "reason": "题材不对味:健康补剂话题与 AI 商业/实操完全无关,不在档案收录范围",
+      "title": "Andrew Huberman: Stop Wasting Money On Bad Vitamins, I Take THESE Supplements Every Single Day!",
+      "pubDate": "2026-09-03T05:00:00.000Z"
+    },
+    {
+      "id": "2026-09-03-changelog-forking-cal-com-to-closed-source",
+      "reason": "题材不对味:Cal.com 开源转闭源属开源商业/传统软件话题,与 AI 无关,落档案「传统软件工程(非 AI)」类。",
+      "title": "Forking Cal.com to closed source",
+      "pubDate": "2026-09-03T20:00:00.000Z"
+    },
+    {
+      "id": "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "From 10 Drones a Month to Nearly 100,000 — Inside Ukraine's Largest Drone Manufacturer | Marko Kushnir, General Cherry",
+      "pubDate": "2026-09-03T15:30:00.000Z"
+    },
+    {
+      "id": "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "He fired almost everyone, kept 2 engineers—then grew 12x and raised a $30M Series A. | Rafael Broshi, Co-Founder of Notch",
+      "pubDate": "2026-08-03T09:00:00.000Z"
+    },
+    {
+      "id": "2026-07-30-thepeel-healthcare-skipped-the-internet-and-went",
+      "reason": "超长集:估 290 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Healthcare Skipped The Internet And Went Straight To AI | Alamin Uddin, NexHealth",
+      "pubDate": "2026-07-30T14:16:41.000Z"
+    },
+    {
+      "id": "2026-07-21-changelog-canary-tokens-and-digital-tripwires",
+      "reason": "超长集:估 286 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Canary tokens and digital tripwires",
+      "pubDate": "2026-07-21T19:00:00.000Z"
+    },
+    {
+      "id": "2026-07-09-cogrev-ai-am-highlights-exploring-the-j-space-a",
+      "reason": "超长集:估 286 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "AI:AM Highlights: Exploring the J-Space, AI Superforecasters, SambaNova's Chips, & LTX Video Gen",
+      "pubDate": "2026-07-09T19:38:35.000Z"
     }
   ]
 }

@@ -181,7 +181,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Claude]] · [[智能体]] · [[Codex]] · [[Lenny]] · [[风格指南]] · [[Dan Shipper]] · [[复合]] · [[Cora]] · [[Compound Writing]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":47,"Claude":45,"智能体":1,"Codex":35,"Lenny":66,"风格指南":1,"Dan Shipper":2,"复合":1,"Cora":1,"Compound Writing":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":48,"Claude":45,"智能体":1,"Codex":35,"Lenny":66,"风格指南":1,"Dan Shipper":2,"复合":1,"Cora":1,"Compound Writing":1}</script>
 
 <script>
 (function(){

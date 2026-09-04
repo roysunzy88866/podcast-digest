@@ -39,67 +39,67 @@ jsonLd: |
 
 这一集是 [[Legora|Legora]] 的 CEO 在 YC Startup School 上的演讲加问答，讲的是三个非律师出身的工程师怎么在法律行业里砸出一个 AI 操作系统，18 个月 ARR 从零冲到 1 亿美元。主角是 Max，Legora 的联合创始人兼 CEO。
 
-法律行业的软件看起来像 90 年代建的，而律师这个群体的特点是：事情做对了没人夸你，做错了一定被惩罚 <button class="pd-ts" data-t="06:47" data-who="" data-en="And so we had to work really hard to change the perception of what both technology and what AI could be in the area of law. In law, you are not paid when things go right, you are punished when things go wrong." aria-label="回原文"></button>。所以早期 AI 在法律领域很难推——需要喂大量用例才换来一点点结果。
+法律行业的软件看起来像 90 年代建的，而律师这个群体的特点是：事情做对了没人夸你，做错了一定被惩罚。所以早期 AI 在法律领域很难推——需要喂大量用例才换来一点点结果。
 
-GPT-3.5 出来之后局面才真正改变。但他们的关键判断不是"模型够不够好"，而是另一件事：不[[微调|微调]]模型，直接打赌模型会持续变强，自己只管把模型产生的价值交付到市场里 <button class="pd-ts" data-t="30:18" data-who="" data-en="Our view was partly because we didn't have enough money and partly because we truly believed that to be right. The models will keep improving. I'm sure Sam is going to come up on stage and say that later today." aria-label="回原文"></button>。
+GPT-3.5 出来之后局面才真正改变。但他们的关键判断不是"模型够不够好"，而是另一件事：不[[微调|微调]]模型，直接打赌模型会持续变强，自己只管把模型产生的价值交付到市场里。
 
 ## 不选问题，选赛道，然后边跑边找
 
-他们 2020 年就起步了，最初用 Google 的 BERT 模型做法学院案例总结。GPT-3.5 出来后，Max 在一次排球赛上遇到两个联合创始人 August 和 Sige，看了一眼他们用 GPT-3.5 做的"解释股票期权协议真正含义"的 demo，就从大学退学入了伙。Max 说 GPT-3.5 到来那一刻是"我们这一代人的互联网时刻"——不去构建的机会成本太大了，硕士论文都没写完 <button class="pd-ts" data-t="05:09" data-who="" data-en="And I ended up helping out a little bit more than just that. When GPT 3.5 came, that was the internet moment of our generation. I dropped out of college." aria-label="回原文"></button>。
+他们 2020 年就起步了，最初用 Google 的 BERT 模型做法学院案例总结。GPT-3.5 出来后，Max 在一次排球赛上遇到两个联合创始人 August 和 Sige，看了一眼他们用 GPT-3.5 做的"解释股票期权协议真正含义"的 demo，就从大学退学入了伙。Max 说 GPT-3.5 到来那一刻是"我们这一代人的互联网时刻"——不去构建的机会成本太大了，硕士论文都没写完。
 
-有意思的是，他承认他们选的是一个"空间"而不是一个"问题"：法律加 AI 会成为趋势是显而易见的，但具体怎么成为趋势非常不确定。策略就是先往这个大方向走，边走边弄明白 <button class="pd-ts" data-t="41:09" data-who="" data-en="Then I would say you should think really deeply about who you started with and the problem space. And I think we picked a space more than we picked a problem, which I think is like two different ways of going about it." aria-label="回原文"></button>。这跟另一种路径——先找到一个具体问题、解决它、产生回报、再扩张——是两种截然不同的打法。
+有意思的是，他承认他们选的是一个"空间"而不是一个"问题"：法律加 AI 会成为趋势是显而易见的，但具体怎么成为趋势非常不确定。策略就是先往这个大方向走，边走边弄明白。这跟另一种路径——先找到一个具体问题、解决它、产生回报、再扩张——是两种截然不同的打法。
 
 ## 冻结销售六个月，换来从 100 万到 1 亿的爆发
 
-融完钱之后他们账上躺着 3500 万美元，团队 10 个人，有一个月利息收入比客户收入还多——"当你变成一家银行时，这不是好迹象" <button class="pd-ts" data-t="14:04" data-who="" data-en="And there was actually a month following that that we made more money from interest rates on those 35 million than we did from customers. And that is not a very good sign when you have become a bank." aria-label="回原文"></button>。第一次董事会，他们做了一个极其反直觉的决定：冻结销售。
+融完钱之后他们账上躺着 3500 万美元，团队 10 个人，有一个月利息收入比客户收入还多——"当你变成一家银行时，这不是好迹象"。第一次董事会，他们做了一个极其反直觉的决定：冻结销售。
 
-原因很直接——跟律师打交道，你只有一次机会。产品不好用、延迟太高、Azure 实例流量一多就崩，你就完了 <button class="pd-ts" data-t="14:23" data-who="" data-en="And we made a very hard decision, which was to freeze our sales motion. Because when you work with lawyers, you only really get one chance to get it right. If you show up and the product doesn't work," aria-label="回原文"></button>。
+原因很直接——跟律师打交道，你只有一次机会。产品不好用、延迟太高、Azure 实例流量一多就崩，你就完了。
 
-这六个月他们没卖东西，重建了整个产品，让平台能适配不断变化的底层模型和[[智能体|智能体]]工作流框架（比如 LangChain）。解冻之后，曲线从 100 万直接拉到 1 亿 <button class="pd-ts" data-t="14:48" data-who="" data-en="Or if the lag in the system is too high, or if the system goes down when there's too much traffic on your Azure instance, you are toast. And after that six-month sales freeze was when we really started ripping." aria-label="回原文"></button>。
+这六个月他们没卖东西，重建了整个产品，让平台能适配不断变化的底层模型和[[智能体|智能体]]工作流框架（比如 LangChain）。解冻之后，曲线从 100 万直接拉到 1 亿。
 
 ## 招聘不看履历光环，看上升轨迹
 
-他们早期踩过一个大坑：靠投票决定做什么功能，"厨房里厨师太多，做不出好菜" <button class="pd-ts" data-t="15:33" data-who="" data-en="We would make democratic votes in the entire team. And for anyone who has built software before, you know that if you have too many chefs in the kitchen, that typically does not make one very good dish." aria-label="回原文"></button>。后来写了"产品宣言"，25 个人的团队统一方向。
+他们早期踩过一个大坑：靠投票决定做什么功能，"厨房里厨师太多，做不出好菜"。后来写了"产品宣言"，25 个人的团队统一方向。
 
-招聘上也有教训。一开始他们看简历上光鲜的公司标志，后来发现这不对——一个人的技能曲线可能起点很高，但没有上升轨迹的话，在指数级扩张的公司里会非常吃力 <button class="pd-ts" data-t="18:08" data-who="" data-en="One of the hiring patterns that we had to unlearn was looking for fancy logos on resumes or what we like to call why intercept. If you think about somebody's skill curve, it might start out really high, but if they don't have a good trajectory upwards, they are going to have a really hard time working in a company that is scaling exponentially." aria-label="回原文"></button>。
+招聘上也有教训。一开始他们看简历上光鲜的公司标志，后来发现这不对——一个人的技能曲线可能起点很高，但没有上升轨迹的话，在指数级扩张的公司里会非常吃力。
 
-于是转向找"像我们一样想拼命干、增长潜力很高的人"。他们的顶级销售 23 岁，没任何销售背景，从大学出来直接干，卖了超过 1000 万美元 <button class="pd-ts" data-t="18:37" data-who="" data-en="And so instead, we started to look for people like us who wanted to work insanely hard with a very high growth potential, and we doubled down on that talent over and over again." aria-label="回原文"></button>。
+于是转向找"像我们一样想拼命干、增长潜力很高的人"。他们的顶级销售 23 岁，没任何销售背景，从大学出来直接干，卖了超过 1000 万美元。
 
-到 500 人之前，Max 面试了工程以外的每一个候选人，现在面试所有董事及以上级别的人。三个价值观：全情投入、追求卓越、共同成长——英文缩写 LFG，全称是"Let's fucking go" <button class="pd-ts" data-t="19:32" data-who="" data-en="We have three values at Legora. Lean in, fight for excellence, and grow together. And together they make LFG." aria-label="回原文"></button>。他说这个带脏话的价值观本身就是一种筛选，告诉从大公司来的人：这就是我们的风格。
+到 500 人之前，Max 面试了工程以外的每一个候选人，现在面试所有董事及以上级别的人。三个价值观：全情投入、追求卓越、共同成长——英文缩写 LFG，全称是"Let's fucking go"。他说这个带脏话的价值观本身就是一种筛选，告诉从大公司来的人：这就是我们的风格。
 
 ## 评估模型的能力才是核心护城河
 
-关于模型选择，他们的观点很实在：法律场景里，比起优化成本和延迟，你更想要的是最大程度的智能——因为相比人类专家的时间成本，token 支出微不足道 <button class="pd-ts" data-t="33:16" data-who="" data-en="I think Finn used to charge like $1 per solved customer ticket. In law, you actually want the most amount of intelligence quite often because the fraction of token spend or software spend compared to human expertise applied to the problem is really tiny." aria-label="回原文"></button>。但另一批客户想要更便宜的方案。所以答案在中间。
+关于模型选择，他们的观点很实在：法律场景里，比起优化成本和延迟，你更想要的是最大程度的智能——因为相比人类专家的时间成本，token 支出微不足道。但另一批客户想要更便宜的方案。所以答案在中间。
 
-Max 认为创业公司真正应该建的核心能力是：[[评估|评估]]新模型、评估新用例的能力。有了这个，你就能有效地在不同场景间做路由 <button class="pd-ts" data-t="34:09" data-who="" data-en="And I think the answer is somewhere in between. I think ultimately one of the core IPs and muscles that I encourage as many of you as possible to build is the ability to eval new models and to eval new use cases because that is the superpower that then allows you to route things effectively." aria-label="回原文"></button>。
+Max 认为创业公司真正应该建的核心能力是：[[评估|评估]]新模型、评估新用例的能力。有了这个，你就能有效地在不同场景间做路由。
 
-他们内部请了很多律师，一部分做客户工作，一部分专门构建用例、跑评估。上周他们发布了内部用了三年的 Legora Bench，发现按性价比算，Grok 在他们的基准上表现意外地好 <button class="pd-ts" data-t="35:22" data-who="" data-en="Well, we look at the Legora Bench. So we actually announced and released that on Friday, last week. And it has been..." aria-label="回原文"></button>。
+他们内部请了很多律师，一部分做客户工作，一部分专门构建用例、跑评估。上周他们发布了内部用了三年的 Legora Bench，发现按性价比算，Grok 在他们的基准上表现意外地好。
 
 ## 从"你告诉它做什么"到"它自己知道该做什么"
 
-Max 觉得当下最有趣的工程问题是从反应式智能体到主动式智能体的转变 <button class="pd-ts" data-t="52:35" data-who="" data-en="What's the most interesting problems that people get to work on when they join Legora? Oh, one of the most interesting problems right now is this transition from reactive agents to proactive agents." aria-label="回原文"></button>。过去三年，你给 Legora 一个指令，它去执行。
+Max 觉得当下最有趣的工程问题是从反应式智能体到主动式智能体的转变。过去三年，你给 Legora 一个指令，它去执行。
 
-现在他们把 Legora 接入不同的上下文，收到触发信号就自动行动——销售团队收到合同，自动路由给智能体，能处理的直接处理，需要升级的才转给律师；或者把整个数据室（尽职调查用的文档库）接进去，智能体自动整理并生成报告 <button class="pd-ts" data-t="53:04" data-who="" data-en="Now, we are basically connecting Legora to different pieces of context, and when it gets a trigger, it will start to do something. That means that if the sales team gets a contract, it will get routed to a Legora agent." aria-label="回原文"></button>。目标是一个律师借 Legora 产出十个律师的成果。
+现在他们把 Legora 接入不同的上下文，收到触发信号就自动行动——销售团队收到合同，自动路由给智能体，能处理的直接处理，需要升级的才转给律师；或者把整个数据室（尽职调查用的文档库）接进去，智能体自动整理并生成报告。目标是一个律师借 Legora 产出十个律师的成果。
 
 ## 竞争心态：不觉得安全，才能一直快
 
-Max 极度好胜。他说 Legora 刚成立时"完全没有存在的理由"，只是众多法律 AI 公司之一 <button class="pd-ts" data-t="22:11" data-who="" data-en="And the company has to run like there is no place for number two. I think it actually would be fair to say that when Legora was founded, it really had no reason to exist." aria-label="回原文"></button>。
+Max 极度好胜。他说 Legora 刚成立时"完全没有存在的理由"，只是众多法律 AI 公司之一。
 
-正因为不觉得安全，他们才像职业游泳运动员一样盯着自己的泳道，不看旁边 <button class="pd-ts" data-t="22:24" data-who="" data-en="But Because of this mentality and because of not feeling like we're safe, even though we have achieved extraordinary numbers by any normal measures, we continue acting like professional swimmers who are looking down in our lane while the competition is looking sideways at what we're doing." aria-label="回原文"></button>。公司文化里有一条是"对我们来说只有赢，其他都是输" <button class="pd-ts" data-t="21:51" data-who="" data-en="Another way that company culture gets expressed at Legora is through articles like this one that ended up in Sifted. For us, there is only winning. Everything else is losing in a winner-takes-all market or winner-takes-most market." aria-label="回原文"></button>。
+正因为不觉得安全，他们才像职业游泳运动员一样盯着自己的泳道，不看旁边。公司文化里有一条是"对我们来说只有赢，其他都是输"。
 
-但竞争不是单打独斗，是团队运动。赢了集体庆祝，输了集体哀悼，然后立刻做扭转计划——"人们处于解决方案模式，而不是责备模式" <button class="pd-ts" data-t="43:47" data-who="" data-en="Or how can we make a land and turn it around? And I feel like people are in solution mode rather than blame mode. I think that has been a big momentum driver for us, but also we've been chasing." aria-label="回原文"></button>。他承认早期他们一直在追赶比自己大的竞争对手，现在反超了，反而需要找到新的参照系——要么选一个新的敌人，要么学会胜过昨天的自己 <button class="pd-ts" data-t="44:28" data-who="" data-en="I thought a lot about what happens at that moment. I think we need to either pick out another enemy and go like, okay, we have to be bigger than them now. Or we have to really find this way of being better than ourselves yesterday." aria-label="回原文"></button>。
+但竞争不是单打独斗，是团队运动。赢了集体庆祝，输了集体哀悼，然后立刻做扭转计划——"人们处于解决方案模式，而不是责备模式"。他承认早期他们一直在追赶比自己大的竞争对手，现在反超了，反而需要找到新的参照系——要么选一个新的敌人，要么学会胜过昨天的自己。
 
 ## 背后的文化碰撞：Jante 法则 vs 硅谷野心
 
-在斯堪的纳维亚创业有一个隐形障碍叫 Jante 法则（Jantelagen）：你不该觉得自己是个人物，你的想法不比别人的好 <button class="pd-ts" data-t="20:16" data-who="" data-en="is something called Jantelagen, or the Law of Jante. This is very foreign to our American friends, but in Swedish culture, this basically means that you should not think that you are somebody, or you are not more important than anybody else, and your ideas are not better than anybody else's." aria-label="回原文"></button>。Max 说这种谦卑有好处——让最好的想法胜出、让资历浅的人敢说话。
+在斯堪的纳维亚创业有一个隐形障碍叫 Jante 法则（Jantelagen）：你不该觉得自己是个人物，你的想法不比别人的好。Max 说这种谦卑有好处——让最好的想法胜出、让资历浅的人敢说话。
 
-但你要建世界上增长最快的企业之一，这种心态就是障碍 <button class="pd-ts" data-t="21:00" data-who="" data-en="I think a part of this humility is good and it supports a culture where the best ideas win and where people earlier in their careers feel empowered to speak up." aria-label="回原文"></button>。所以他们刻意混搭了美国、欧洲、亚洲文化。
+但你要建世界上增长最快的企业之一，这种心态就是障碍。所以他们刻意混搭了美国、欧洲、亚洲文化。
 
-总部留在斯德哥尔摩反而成了超能力：全球所有员工都在斯德哥尔摩入职，不管你在世界哪个办公室走进去，氛围是一样的 <button class="pd-ts" data-t="24:13" data-who="" data-en="And I think part of having our HQ in Stockholm has worked to help us keep this. Everybody globally from the company makes their onboarding in Stockholm, which is a lot nicer in summer than in the winter." aria-label="回原文"></button>。他举了个例子：美国一个律所有个竞品没解决的问题，驻美工程师飞回斯德哥尔摩跟团队花一周搞定，再飞回去交付 <button class="pd-ts" data-t="24:59" data-who="" data-en="And our competition had promised that they were going to solve that problem for them, and they hadn't. And so one of our US-based engineers, legal engineers, lawyers, learned about this use case, got on a flight to Stockholm, spent a week with our engineers, solved the problem in Sweden, and then went back to the US and delivered it to the customer." aria-label="回原文"></button>。
+总部留在斯德哥尔摩反而成了超能力：全球所有员工都在斯德哥尔摩入职，不管你在世界哪个办公室走进去，氛围是一样的。他举了个例子：美国一个律所有个竞品没解决的问题，驻美工程师飞回斯德哥尔摩跟团队花一周搞定，再飞回去交付。
 
 ## "真正重要的事不会写进融资PPT"
 
-演讲结尾 Max 说了一句很实在的话：三年下来，真正重要的事不是签下大客户、不是融完一轮钱、不是在曼哈顿开新办公室——而是发生在一间没窗户、缺氧的会议室里，或者去机场路上的电话里，或者凌晨两点 Slack 频道里赶在周一演示前修 bug <button class="pd-ts" data-t="26:07" data-who="" data-en="Closing a new round of financing or open a new big office in Manhattan. It happened in a windowless room without much oxygen or on a call on our way to the airport, a Slack channel at 2 a.m. trying to fix a bug before a big presentation on Monday." aria-label="回原文"></button>。"没有人把这个放进融资演示文稿，但这正是成就公司的东西" <button class="pd-ts" data-t="26:22" data-who="" data-en="It happened in a windowless room without much oxygen or on a call on our way to the airport, a Slack channel at 2 a.m. trying to fix a bug before a big presentation on Monday." aria-label="回原文"></button>。
+演讲结尾 Max 说了一句很实在的话：三年下来，真正重要的事不是签下大客户、不是融完一轮钱、不是在曼哈顿开新办公室——而是发生在一间没窗户、缺氧的会议室里，或者去机场路上的电话里，或者凌晨两点 Slack 频道里赶在周一演示前修 bug。"没有人把这个放进融资演示文稿，但这正是成就公司的东西"。
 
 > 【背景】Legora 是一家法律 AI 公司，本集转写稿中未出现公司全名及创始人姓氏，仅以 Legora / Max / August / Sige 指代。Jude Law 在转写稿中写作"Jude Law"。ARR 指年度经常性收入（Annual Recurring Revenue）。YC 指创业加速器 Y Combinator。GA 指产品正式发布。PMF 指产品-市场匹配。ROI 指投资回报率。OCR 指光学字符识别。fika 是瑞典语，指喝咖啡吃肉桂卷的茶歇。Jante 法则是北欧文化中一种不鼓励个人出风头的社会规范。Bloomberg 是金融数据公司。LangChain 是一个用于构建 LLM 应用的开源框架。Vanta 是一家安全合规公司。Sifted 是一家欧洲科技媒体。Oppenheimer 指克里斯托弗·诺兰导演的电影。SNL 指美国喜剧节目《周六夜现场》。数据室（data room）在并购尽职调查中指存放所有相关文档的虚拟空间。
 

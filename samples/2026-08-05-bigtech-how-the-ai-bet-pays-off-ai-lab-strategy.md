@@ -37,53 +37,53 @@ jsonLd: |
 >
 > **概念** [[AGI]] · [[资本支出]] · [[AI ROI]] · [[垂直整合]] · [[认知劳动]] · [[TPU]]
 
-AI 行业需要赚回 4 万亿美元才够回本，但红杉资本的合伙人 [[David Cahn|David Cahn]] 说，只有 [[AGI|AGI]]（通用人工智能，能像人一样完成绝大多数[[认知劳动|认知劳动]]的 AI）能填这个窟窿。如果等不来 AGI，市场会迎来一次大清算 <button class="pd-ts" data-t="13:13" data-who="" data-en="is everybody in the game but everyone is massively accelerating and um there's no you know i think we were at some point there was some question of like are people going to try to rationalize things are people going to look at the math i think reached a point where people just don't care about the math anymore at all it's all in all the way let's see what happens and that's how i view 2026 and i think there was a real catalyst for that earlier this year" aria-label="回原文"></button>。
+AI 行业需要赚回 4 万亿美元才够回本，但红杉资本的合伙人 [[David Cahn|David Cahn]] 说，只有 [[AGI|AGI]]（通用人工智能，能像人一样完成绝大多数[[认知劳动|认知劳动]]的 AI）能填这个窟窿。如果等不来 AGI，市场会迎来一次大清算。
 
 这是 Big Technology 播客的一期对谈。David Cahn 一直追踪 AI 投资回报率，是提出「2000 亿美元问题」和「6000 亿美元问题」的人。这一集里，他和主持人 [[Alex|Alex]] Kantrowitz 一起理清了三件事：这笔账到底有多大体量、目前市场预期是否脱离现实，以及——全场最精彩的部分——他把八大科技公司比作战略游戏中的玩家，逐一点评各自的资源和招数，看谁在为赢下 AGI 这场终极赌局布阵，谁又留下了致命破绽。
 
-先把账算清楚。David 追溯道，AI 的资本支出（买 GPU 建数据中心的投入）一直在狂飙：2023 年是 2000 亿美元的缺口，2024 年翻三倍到 6000 亿，2025 年 850 亿，2026 年直接翻倍至 1.5 万亿 <button class="pd-ts" data-t="03:55" data-who="" data-en="Well, maybe first a couple of comments on that. First, the 200 billion was 2023, 600 billion is 2024. Anyways, regardless, these numbers have gotten really big." aria-label="回原文"></button>。
+先把账算清楚。David 追溯道，AI 的资本支出（买 GPU 建数据中心的投入）一直在狂飙：2023 年是 2000 亿美元的缺口，2024 年翻三倍到 6000 亿，2025 年 850 亿，2026 年直接翻倍至 1.5 万亿。
 
-把这些年份的投入累加，自 ChatGPT 发布以来，整个行业累积了约 3 万亿美元的资本支出 <button class="pd-ts" data-t="04:46" data-who="" data-en="So it's 200 plus 600 plus 850 plus 1.5. You basically have about $3 trillion that needs to get paid back just since chat GPT. And then as you say, if you add 2027, it's going to get larger." aria-label="回原文"></button>。再叠加上预计的支出，这就意味着需要 4 万亿美元的生命周期收入来回本。
+把这些年份的投入累加，自 ChatGPT 发布以来，整个行业累积了约 3 万亿美元的资本支出。再叠加上预计的支出，这就意味着需要 4 万亿美元的生命周期收入来回本。
 
 4 万亿是什么概念？David 拆解道，如今的云软件行业分为两大块：一块是云基础设施（AWS、Azure、GCP），大约是 5000 亿美元的市场；另一块是 SaaS（软件即服务，通过云端交付的应用软件）应用，也是 5000 亿左右。
 
-两者加起来不到 1 万亿 <button class="pd-ts" data-t="07:54" data-who="" data-en="Yeah, in one of the first follow-up posts in summer of 24, I did a post on the game theory of AI CapEx, and I sort of tried to quantify, what are we talking about here?" aria-label="回原文"></button>。既然软件市场不够大，乐观主义者认为 AI 的真正可寻址市场其实是替代人力劳动。
+两者加起来不到 1 万亿。既然软件市场不够大，乐观主义者认为 AI 的真正可寻址市场其实是替代人力劳动。
 
-David 承认，如果 AI 能自动化全部服务业的 10% 并且被完全变现，账是算得平的 <button class="pd-ts" data-t="08:44" data-who="" data-en="And if AI automates 10% of that and the labs capture all of that value, you know, then we got to pay back. And it's like, okay, that's great. But that's a huge assumption to be making, which is..." aria-label="回原文"></button>。他确信，从 50 年的长周期看，人类做的认知劳动会从如今的 99% 降到 1% <button class="pd-ts" data-t="06:02" data-who="" data-en="Today, humans do 99% of cognitive work. 50 years, humans are gonna do maybe 1% of cognitive work, right? So there's a huge revolution that's coming and we all see that." aria-label="回原文"></button>。问题出在时间线：华尔街要的是明天的报表，但「长远不是明天」<button class="pd-ts" data-t="09:09" data-who="" data-en="There's always a timing tension in financial markets. because the long run is not tomorrow. Companies are spending today." aria-label="回原文"></button>，大家面临的是严重的「期限错配」。
+David 承认，如果 AI 能自动化全部服务业的 10% 并且被完全变现，账是算得平的。他确信，从 50 年的长周期看，人类做的认知劳动会从如今的 99% 降到 1%。问题出在时间线：华尔街要的是明天的报表，但「长远不是明天」，大家面临的是严重的「期限错配」。
 
-理清了账目，这场由巨额资金驱动的大棋局也浮出水面。David 最喜欢用《星际争霸》和《Azad》来打比方：《星际争霸》考验的是资源分配，而 AI 也是资源分配的游戏 <button class="pd-ts" data-t="28:33" data-who="" data-en="And I think this will inform how we think about the individual company strategies, which is on StarCraft for those who've played StarCraft, if not highly recommend at least reading about it." aria-label="回原文"></button>；《Azad》是小说《游戏玩家》里的虚构棋局，赢家直接称王。他眼中的科技巨头们都认为自己在为宇宙中最高的赌注下棋——争夺 AGI 的控制权 <button class="pd-ts" data-t="29:13" data-who="" data-en="And I think that's what's happening right now in AI. I think that the eight players around this 4D chessboard think they are playing for the highest stakes in the universe." aria-label="回原文"></button>。
+理清了账目，这场由巨额资金驱动的大棋局也浮出水面。David 最喜欢用《星际争霸》和《Azad》来打比方：《星际争霸》考验的是资源分配，而 AI 也是资源分配的游戏；《Azad》是小说《游戏玩家》里的虚构棋局，赢家直接称王。他眼中的科技巨头们都认为自己在为宇宙中最高的赌注下棋——争夺 AGI 的控制权。
 
 顺着这套逻辑，David 开始了精彩的逐家复盘。先看 [[Anthropic|Anthropic]]。
 
-主持人猜它的战略是主导企业级市场，David 直接反驳。他认为，Anthropic 的真正战略是「网罗全世界最顶尖的 AI 人才」<button class="pd-ts" data-t="29:59" data-who="" data-en="I don't think that's the strategy. I think the strategy is corner the world's talent in AI and win, period. Elaborate on that one." aria-label="回原文"></button>。
+主持人猜它的战略是主导企业级市场，David 直接反驳。他认为，Anthropic 的真正战略是「网罗全世界最顶尖的 AI 人才」。
 
-因为他们深信 AGI 必将到来，而人才是目前最稀缺的资源。这是一套在哲学上高度自洽的打法，唯一的风险在于：如果底层模型真的被彻底商品化，这套策略就会失效 <button class="pd-ts" data-t="32:32" data-who="" data-en="Like the chance that AGI is commoditized is the flaw in that strategy. What do you think? That's your prerogative to, I'm not a grandmaster." aria-label="回原文"></button>。
+因为他们深信 AGI 必将到来，而人才是目前最稀缺的资源。这是一套在哲学上高度自洽的打法，唯一的风险在于：如果底层模型真的被彻底商品化，这套策略就会失效。
 
-说完了 Anthropic 的人才战略，与之形成鲜明对比的是 [[OpenAI|OpenAI]]。David 把 OpenAI 的战略总结为「所有人都低估了 AGI，那我们就做最激进、最敢冒险的那个」<button class="pd-ts" data-t="35:33" data-who="" data-en="All right. I think OpenAI's strategy is everybody underestimates AGI, all in AGI, and we're going to be the most aggressive, and everybody else is going to take fewer risks than we do, and we're ultimately going to be proven right and win." aria-label="回原文"></button>。
+说完了 Anthropic 的人才战略，与之形成鲜明对比的是 [[OpenAI|OpenAI]]。David 把 OpenAI 的战略总结为「所有人都低估了 AGI，那我们就做最激进、最敢冒险的那个」。
 
-Sam Altman 一直坚信指数级增长，从早期筹集 10 亿美元，到后来拿微软的 100 亿，他始终是棋局上最激进的玩家 <button class="pd-ts" data-t="36:22" data-who="" data-en="And I think Sam's strategy is very coherent, which is like, we're just going to be the most aggressive. Okay, so I think, is what you're saying about OpenAI kind of like their yes anding anthropic?" aria-label="回原文"></button>。这种全盘猛冲的策略，带来的隐患正是主持人指出的——最容易在时间表上发生错配。
+Sam Altman 一直坚信指数级增长，从早期筹集 10 亿美元，到后来拿微软的 100 亿，他始终是棋局上最激进的玩家。这种全盘猛冲的策略，带来的隐患正是主持人指出的——最容易在时间表上发生错配。
 
 比起这两家纯正的 AI 实验室，巨头的处境更为复杂。接下来看 [[Google|Google]]，它的手握两大王牌：搜索业务这台「印钞机」，以及自研的 [[TPU|TPU]]（专门为机器学习定制的芯片）。
 
-David 说，如果他是操盘手，会毫不犹豫地把 TPU 开放给全行业，去抢夺英伟达的市场份额 <button class="pd-ts" data-t="38:54" data-who="" data-en="And so if I was Google, I would be all in TPU. And I think they are to an extent, right? But they're right now hoarding the TPUs for themselves for the most part." aria-label="回原文"></button>。但他观察到，Google 反而在囤积 TPU 供自家用，试图亲自下场追逐 AGI，可它庞大组织的战略执行看起来却有些脱节 <button class="pd-ts" data-t="41:14" data-who="" data-en="But then when you think about the gameplay, it does sometimes feel disjointed. So I don't know. Anyways, I don't have as clear of a view." aria-label="回原文"></button>。
+David 说，如果他是操盘手，会毫不犹豫地把 TPU 开放给全行业，去抢夺英伟达的市场份额。但他观察到，Google 反而在囤积 TPU 供自家用，试图亲自下场追逐 AGI，可它庞大组织的战略执行看起来却有些脱节。
 
-Google 的纠结引出了一个关键洞察：为什么手握重金的超大规模云厂商（AWS、Azure、GCP 的提供商）反而打不好这盘棋？David 提出了「资源诅咒」的概念——它们拥有一个完美的寡头垄断云业务，产出现金，所以它们被倒逼着不得不把上百亿美元砸进资本支出 <button class="pd-ts" data-t="42:26" data-who="" data-en="And sometimes I look at this CapEx boom and it's like, I think it's almost downstream of this resource curse. It's like, oh, I have so many resources. I have to spend those resources." aria-label="回原文"></button>。
+Google 的纠结引出了一个关键洞察：为什么手握重金的超大规模云厂商（AWS、Azure、GCP 的提供商）反而打不好这盘棋？David 提出了「资源诅咒」的概念——它们拥有一个完美的寡头垄断云业务，产出现金，所以它们被倒逼着不得不把上百亿美元砸进资本支出。
 
-他发现一个反直觉的现象：过去两年，试图把硬件、数据中心和模型全包揽的[[垂直整合|垂直整合]]模式，并没有带来明显的模型优势 <button class="pd-ts" data-t="43:35" data-who="" data-en="But one thing, and I've been writing about vertical integration for a couple of years, the reality is when you look at the ecosystem today versus two years ago," aria-label="回原文"></button>。在庞大到畸形的组织里，搞芯片的人和搞模型的人根本不交流，干脆像两家独立的公司 <button class="pd-ts" data-t="47:02" data-who="" data-en="And maybe it's because these companies are so big that the guy building the model is over here, and the guy building the data center is over there, and they never talk to each other." aria-label="回原文"></button>。
+他发现一个反直觉的现象：过去两年，试图把硬件、数据中心和模型全包揽的[[垂直整合|垂直整合]]模式，并没有带来明显的模型优势。在庞大到畸形的组织里，搞芯片的人和搞模型的人根本不交流，干脆像两家独立的公司。
 
-相反，真正把资源用出刀刃的是由创始人独断的公司。顺着这个逻辑看 [[Meta|Meta]]，David 形容 Zuck（扎克伯格）的做法是「组建一支雇佣军」——靠天价薪酬收购人才和公司 <button class="pd-ts" data-t="48:21" data-who="" data-en="Buy talent, it's a mercenary army. Buy talent, you can pay enough and get the people that you need. And again, the question for Meta is like, can a mercenary army do as well as a missionary army?" aria-label="回原文"></button>。这套打法很连贯，但隐患在于组织内部的文化撕裂，以及顶尖年轻人才不再把 Meta 视为首选之地 <button class="pd-ts" data-t="49:34" data-who="" data-en="And so the other question is, are you fighting a losing battle against organic talent flows? Do you need to win the organic talent flow game? And this is a question for all the big tech companies, which is organically, the talent flows are not there." aria-label="回原文"></button>。
+相反，真正把资源用出刀刃的是由创始人独断的公司。顺着这个逻辑看 [[Meta|Meta]]，David 形容 Zuck（扎克伯格）的做法是「组建一支雇佣军」——靠天价薪酬收购人才和公司。这套打法很连贯，但隐患在于组织内部的文化撕裂，以及顶尖年轻人才不再把 Meta 视为首选之地。
 
 面对这些激进的挑战者，老牌巨头稳坐钓鱼台。接下来说微软，David 对 Satya Nadella 的评价极高。
 
-微软的策略是一张「通杀」的牌：如果 OpenAI（微软持有其大量股份）赢了，微软跟着赢；如果模型被商品化了，微软就靠无敌的企业分发渠道赢 <button class="pd-ts" data-t="53:03" data-who="" data-en="Microsoft's distribution machine is amazing. So Microsoft benefits, if OpenAI and the labs win and it's all frontier models and it's not commoditized, he owns a lot of that, he's going to do great." aria-label="回原文"></button>。而在这一众豪强中，亚马逊被视作「躺平」，动作最少、只想靠卖算力赚钱 <button class="pd-ts" data-t="54:06" data-who="" data-en="That's probably the closest one that I agree on, you know? All right, good. Look at us." aria-label="回原文"></button>；苹果则是真正的「什么都不做」，如果模型真被商品化了，十年后的苹果看起来会像天才 <button class="pd-ts" data-t="56:48" data-who="" data-en="Apple is the one, by the way, with the do nothing strategy. Like you gotta look at Apple and say, wow, like there's some chance that Apple just comes out looking like a genius on this." aria-label="回原文"></button>。
+微软的策略是一张「通杀」的牌：如果 OpenAI（微软持有其大量股份）赢了，微软跟着赢；如果模型被商品化了，微软就靠无敌的企业分发渠道赢。而在这一众豪强中，亚马逊被视作「躺平」，动作最少、只想靠卖算力赚钱；苹果则是真正的「什么都不做」，如果模型真被商品化了，十年后的苹果看起来会像天才。
 
-在这场大乱斗中，英伟达扮演了独特的角色。英伟达不像其他公司那样抢份额，Jensen（黄仁勋）的根本世界观是「把蛋糕做大」<button class="pd-ts" data-t="60:30" data-who="" data-en="I do actually view Jensen as kind of the make the pie big. The way that everybody else is kind of fighting over share and this and that, I think Jensen just wants the pie to be really big." aria-label="回原文"></button>。
+在这场大乱斗中，英伟达扮演了独特的角色。英伟达不像其他公司那样抢份额，Jensen（黄仁勋）的根本世界观是「把蛋糕做大」。
 
 他通过投资初创公司、扶持整个生态系统来确保 AI 事业不断向前。David 感叹，这其实是一种很高尚的策略，因为只要 AI 这盘棋赢了，英伟达就会稳坐赢家位置。
 
-聊完了冷酷的博弈论，话题在最后转向了精神层面。David 把人们建造 AI 的冲动，视为一种现代的「巴别塔」情结，或是试图创造新神的尝试 <button class="pd-ts" data-t="67:38" data-who="" data-en="But I think that the cultural thing has echoes inside of this AI universe where think one view of it is it's the tower of babel quest right we're trying to build god that didn't end well in the tower of babel what happens how does that play out something that's one view and then the other view is that hey god died in the early 1900s just as societal level and then these people are trying to create a new god and maybe they will successfully create a new god and maybe that will re-infuse the world with some spirituality and i think there's going to be a lot of debate along the way of is this good is this bad it's hard to have an opinion um" aria-label="回原文"></button>。
+聊完了冷酷的博弈论，话题在最后转向了精神层面。David 把人们建造 AI 的冲动，视为一种现代的「巴别塔」情结，或是试图创造新神的尝试。
 
-他反思道，宗教曾是人类数千年探求宇宙真理的系统，但在过去的一个世纪里「上帝死了」，取而代之的是没能治愈人们孤独的心理治疗文化 <button class="pd-ts" data-t="67:12" data-who="" data-en="And Freud invents therapy and therapy culture if you look at the last... 20, 30 years, therapy culture has like sort of taken over. And yet you look at the stats, people are lonely, people are depressed, people are unhappy." aria-label="回原文"></button>。他正在思考：AI 的发展是否填补了现代人对「超越性」的渴求？虽然他没有给出明确答案，但相信开发者们真心希望通过 AI 解放人类的日常劳作，从而让大家过上精神上更丰盈的生活 <button class="pd-ts" data-t="69:55" data-who="" data-en="And I hope that through developing this technology, we come out with some optimistic answer that enables people to have enriched lives. I do think a lot of the people who are building this technology believe that once we're freed from daily labor," aria-label="回原文"></button>。
+他反思道，宗教曾是人类数千年探求宇宙真理的系统，但在过去的一个世纪里「上帝死了」，取而代之的是没能治愈人们孤独的心理治疗文化。他正在思考：AI 的发展是否填补了现代人对「超越性」的渴求？虽然他没有给出明确答案，但相信开发者们真心希望通过 AI 解放人类的日常劳作，从而让大家过上精神上更丰盈的生活。
 
 ## 本集带走
 

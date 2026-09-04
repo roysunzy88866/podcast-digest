@@ -37,7 +37,7 @@ unlisted: true
 
 [[Lenny]] · [[Google]] · [[智能体]] · [[ChatGPT]] · [[Brian Balfour]] · [[Jason Cohen]] · [[Brian Halligan]] · [[Harry Stabbings]] · [[Claude]] · [[客户流失率]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Google":35,"智能体":1,"ChatGPT":47,"Brian Balfour":1,"Jason Cohen":1,"Brian Halligan":1,"Harry Stabbings":1,"Claude":45,"客户流失率":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Google":35,"智能体":1,"ChatGPT":48,"Brian Balfour":1,"Jason Cohen":1,"Brian Halligan":1,"Harry Stabbings":1,"Claude":45,"客户流失率":1}</script>
 
 <script>
 (function(){

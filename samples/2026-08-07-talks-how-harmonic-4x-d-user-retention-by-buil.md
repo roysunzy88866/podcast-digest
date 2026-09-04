@@ -39,39 +39,39 @@ jsonLd: |
 
 说完了这一集的来龙去脉，来看看 Scout 是怎么脱胎换骨的。大概一年半前，Scout 1.0 采用的是一个复杂的 LangGraph 查询解析图。
 
-它把用户的自然语言拆成各个语义部分，分别路由给自定义搜索语言和嵌入（一种把文本转化为向量的技术）去处理 <button class="pd-ts" data-t="02:12" data-who="" data-en="And the concept here was basically how do we take a natural language query someone's looking up, show me all the fintech SaaS companies in New York that have raised money in the last two months." aria-label="回原文"></button>。图里的每个节点都有各自的模型和评估，需要疯狂调优，维护成本极高 <button class="pd-ts" data-t="02:34" data-who="" data-en="And each one of these nodes in LangGraph had their own models, had their own evals. We would tweak them like crazy to make sure that they were passing the evals and required a ton of maintenance." aria-label="回原文"></button>。
+它把用户的自然语言拆成各个语义部分，分别路由给自定义搜索语言和嵌入（一种把文本转化为向量的技术）去处理。图里的每个节点都有各自的模型和评估，需要疯狂调优，维护成本极高。
 
-后来前沿模型能力提升，他们果断切换到了 Deep Agents。新架构变得极其精简，核心就是一个工具调用循环：模型在中间，外围是通过中间件挂载的一堆工具 <button class="pd-ts" data-t="02:51" data-who="" data-en="So the graph is a lot simpler here. Essentially, we have just a tool call loop in the middle. You have the model." aria-label="回原文"></button>。他们给智能体配了 50 个连接生态的工具，从搜索实体到操作用户 CRM 应有尽有，智能体不仅能准确选对工具，还能极好地执行复杂的组合任务 <button class="pd-ts" data-t="03:33" data-who="" data-en="So we found that using frontier models and the harness Giving it a bunch of tools, even 50 tools, it's able to kind of choose the right tool, execute really complicated, long composite tasks really well." aria-label="回原文"></button>。
+后来前沿模型能力提升，他们果断切换到了 Deep Agents。新架构变得极其精简，核心就是一个工具调用循环：模型在中间，外围是通过中间件挂载的一堆工具。他们给智能体配了 50 个连接生态的工具，从搜索实体到操作用户 CRM 应有尽有，智能体不仅能准确选对工具，还能极好地执行复杂的组合任务。
 
 架构变简单了，Deep Agents 的上下文管理也立了大功。为什么这点如此关键？
 
-当用户执行一次公司搜索，返回的结果可能包含上千家公司，每家又嵌套着团队和融资信息，实际响应轻轻松松就能达到上万行 <button class="pd-ts" data-t="04:14" data-who="" data-en="If you're conducting a company search where there's 1,000 results coming back, each one of those companies might have nested team members and funding information and all this other stuff." aria-label="回原文"></button>。如果直接把这些塞进传给模型的消息列表里，上下文很快就会爆炸。
+当用户执行一次公司搜索，返回的结果可能包含上千家公司，每家又嵌套着团队和融资信息，实际响应轻轻松松就能达到上万行。如果直接把这些塞进传给模型的消息列表里，上下文很快就会爆炸。
 
-Deep Agents 的核心优势就是管理上下文：当消息列表变长时它会自动运行压缩；对于返回数千行的工具调用，它会启用工具调用驱逐机制，把结果转存到[[文件系统|文件系统]]里，只返回给模型一个轻量级的指针，模型可以按需读取，从而不被海量数据污染 <button class="pd-ts" data-t="04:32" data-who="" data-en="So deep agents, I think one of the core benefits of it is it handles, it basically manages context. So if the messages list gets long, it'll run compaction, so it can keep going pretty much infinitely." aria-label="回原文"></button>。正是这种强大的支撑，让 Scout 从第一周到第四周的用户留存率翻了四倍 <button class="pd-ts" data-t="01:30" data-who="" data-en="You know, metrics are fun. We have four times the retention from week one to week four since we switched over to deep agents. But we've also gotten some really great qualitative feedback." aria-label="回原文"></button>。
+Deep Agents 的核心优势就是管理上下文：当消息列表变长时它会自动运行压缩；对于返回数千行的工具调用，它会启用工具调用驱逐机制，把结果转存到[[文件系统|文件系统]]里，只返回给模型一个轻量级的指针，模型可以按需读取，从而不被海量数据污染。正是这种强大的支撑，让 Scout 从第一周到第四周的用户留存率翻了四倍。
 
-底层[[harness|机具]]（harness，即管理和调度模型、工具与上下文的框架）的能力这么强，新的张力又出现了：这些智能体天生喜欢代码 <button class="pd-ts" data-t="06:08" data-who="" data-en="And the central tension that we found is that these agents love things that feel like code. Like the models are trained on coding tasks, tool calling, structured JSON." aria-label="回原文"></button>。它们被海量编码任务和结构化 JSON 训练过，动不动就往对话里输出 XML 或文件路径。
+底层[[harness|机具]]（harness，即管理和调度模型、工具与上下文的框架）的能力这么强，新的张力又出现了：这些智能体天生喜欢代码。它们被海量编码任务和结构化 JSON 训练过，动不动就往对话里输出 XML 或文件路径。
 
-但 Harmonic 的绝大多数用户是 VC 机构里的非技术人员。他们要的是可以直接点击的公司列表和漂亮的交互界面。要打造一款真正好用的产品，就必须调和这种张力：既要给模型自由推理和行动的主观能动性，又要构建高度可预测的交互式 UX <button class="pd-ts" data-t="06:47" data-who="" data-en="Most of our users are non-technical, so we had to basically fight this tension of how do we leverage the full benefit of this harness that is extremely capable with a correct model and then build it into a product that is generally useful to people without compromising some of that power." aria-label="回原文"></button>。
+但 Harmonic 的绝大多数用户是 VC 机构里的非技术人员。他们要的是可以直接点击的公司列表和漂亮的交互界面。要打造一款真正好用的产品，就必须调和这种张力：既要给模型自由推理和行动的主观能动性，又要构建高度可预测的交互式 UX。
 
-要理解怎么调和这种张力，就必须明白机具与模型之间的“上下文契约”。你可以这样理解：每次调用模型，你传入的都只是一个消息列表 <button class="pd-ts" data-t="07:12" data-who="" data-en="So the way I think about the context that the harness manages, it basically has a contract with the model. The model is always just getting a list of messages, assistant message, human messages, tool messages." aria-label="回原文"></button>。
+要理解怎么调和这种张力，就必须明白机具与模型之间的“上下文契约”。你可以这样理解：每次调用模型，你传入的都只是一个消息列表。
 
 机具的职责，就是确保这个列表不触及容量上限或发生上下文腐烂（context rot，即上下文过长导致模型理解能力下降）。因此，消息列表里的内容模型一定看得见；而被机具卸载到外围的内容，则必须通过工具按需取用。
 
-这就引出了本集最核心的法则：对于最终呈现给用户的 UX，模型必须有“渐进式可见性”——要么直接放在消息列表里，要么提供工具让模型能一步步去探查。否则，在模型眼里它就是彻底不存在的 <button class="pd-ts" data-t="08:23" data-who="" data-en="if it's pulling out a file it returns a pointer to the file saying you can access it at this this path and it will give tools to kind of read chunks in at a time so the concept of progressive disclosure you have kind of a an initial like lightweight one-liner of what what exists and some tools and then the model can kind of choose to build up context in chunks as needed" aria-label="回原文"></button>。
+这就引出了本集最核心的法则：对于最终呈现给用户的 UX，模型必须有“渐进式可见性”——要么直接放在消息列表里，要么提供工具让模型能一步步去探查。否则，在模型眼里它就是彻底不存在的。
 
 模型为什么必须“看得见”界面上的东西？拿可视化图表举例。
 
-模型自己就很擅长吐出 HTML 或 SVG 代码来做行业图谱。这时候，绝对不能用那种“掩耳盗铃”的错误做法：即暴露一个叫“渲染数据”的工具，前端拦截后渲染图表，只给模型返回一句“执行成功 true” <button class="pd-ts" data-t="09:43" data-who="" data-en="So you pass in some arguments, and then it would return something like success true or some sort of no op. The problem with this is it knows, or it would call that to one in the front end, would intercept that call and render something based on that data." aria-label="回原文"></button>。
+模型自己就很擅长吐出 HTML 或 SVG 代码来做行业图谱。这时候，绝对不能用那种“掩耳盗铃”的错误做法：即暴露一个叫“渲染数据”的工具，前端拦截后渲染图表，只给模型返回一句“执行成功 true”。
 
-这种做法灾难性的后果在于，一旦用户指着屏幕问“为什么这家公司放在左侧？”，模型会彻底宕机，因为它根本不知道前端干了什么 <button class="pd-ts" data-t="10:00" data-who="" data-en="But if the user says, why is that company on the left-hand side, it doesn't have any context on what the front end is doing because it's completely outside of the purview of the harness." aria-label="回原文"></button>。
+这种做法灾难性的后果在于，一旦用户指着屏幕问“为什么这家公司放在左侧？”，模型会彻底宕机，因为它根本不知道前端干了什么。
 
-正确的做法是，让模型的输出直接留在消息列表里，用类似 XML 的标签包裹住图表代码。前端照常拦截并渲染出漂亮的界面，但最关键的是，模型对图表的全貌一清二楚。用户让它“把背景色换掉”，它完全有能动性去修改 <button class="pd-ts" data-t="10:53" data-who="" data-en="So you could do something, basically prompt the agent to use some sort of delimiter, in this case an XML tag, HTML visualization that wraps whatever HTML it's going to use to print out the visualization." aria-label="回原文"></button>。
+正确的做法是，让模型的输出直接留在消息列表里，用类似 XML 的标签包裹住图表代码。前端照常拦截并渲染出漂亮的界面，但最关键的是，模型对图表的全貌一清二楚。用户让它“把背景色换掉”，它完全有能动性去修改。
 
-图表这种小东西留在消息列表里没问题，但搜索公司返回的成千上万条结果该怎么办？同样的道理，最幼稚的做法是“发后即忘”（fire and forget）：模型触发搜索，前端立刻渲染出并列的结果列表，但结果信息压根没传回给模型 <button class="pd-ts" data-t="12:09" data-who="" data-en="And by the way, when I say naive, this is what we did at the beginning, and it caused a bunch of issues. The model would trigger a search. It would call some sort of search service." aria-label="回原文"></button>。
+图表这种小东西留在消息列表里没问题，但搜索公司返回的成千上万条结果该怎么办？同样的道理，最幼稚的做法是“发后即忘”（fire and forget）：模型触发搜索，前端立刻渲染出并列的结果列表，但结果信息压根没传回给模型。
 
-用户如果问“第二家公司的 CEO 是谁”，模型毫无上下文，也无法建立上下文。更好的解法是，让工具返回一个搜索 ID 和结果计数，模型据此通过工具去抓取前 10 条结果来建立认知 <button class="pd-ts" data-t="12:51" data-who="" data-en="A better approach here would be to create a tool that returns some sort of identifier and then tools to explore that artifact a bit. So the model would call something like start company search." aria-label="回原文"></button>。
+用户如果问“第二家公司的 CEO 是谁”，模型毫无上下文，也无法建立上下文。更好的解法是，让工具返回一个搜索 ID 和结果计数，模型据此通过工具去抓取前 10 条结果来建立认知。
 
-而最优雅的“原生解法”，则是把 Deep Agents 的文件系统当作智能体、前端以及各种后台进程的共享存储空间 <button class="pd-ts" data-t="13:43" data-who="" data-en="So this is the better version. The best version is a DeepAgent's native version, which is basically using the file system as a shared storage space for basically the agent, the front end, and any other kind of deterministic processes that you want to run." aria-label="回原文"></button>。模型可以触发一个后台搜索智能体，持续将排序好的数万条结果写入共享文件系统；前端实时读取并渲染这些结果；与此同时，如果用户提问，主智能体能随时使用 `grep` 或 `ls`（文件查找与列表指令）读取特定片段来作答。三方完美和谐 <button class="pd-ts" data-t="14:45" data-who="" data-en="We expose an API to render the results directly from there. So then everything is kind of in harmony. The front end can view the results as they come in, like up to tens of thousands of results, ranked, sorted, with annotations." aria-label="回原文"></button>。
+而最优雅的“原生解法”，则是把 Deep Agents 的文件系统当作智能体、前端以及各种后台进程的共享存储空间。模型可以触发一个后台搜索智能体，持续将排序好的数万条结果写入共享文件系统；前端实时读取并渲染这些结果；与此同时，如果用户提问，主智能体能随时使用 `grep` 或 `ls`（文件查找与列表指令）读取特定片段来作答。三方完美和谐。
 
 ## 本集带走
 

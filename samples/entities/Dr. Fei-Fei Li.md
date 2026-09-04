@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"World Labs":3,"Marble":3,"ImageNet":2,"空间智能":2,"世界模型":4,"具身智能":1,"苦涩的教训":1,"神经网络":1,"机器学习":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"World Labs":4,"Marble":4,"ImageNet":2,"空间智能":3,"世界模型":5,"具身智能":1,"苦涩的教训":1,"神经网络":1,"机器学习":1}</script>
 
 <script>
 (function(){

@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":93,"Theo Jaffe":5,"Martin Casado":3,"Sofia Puccini":3,"OpenAI":81,"监管俘获":3,"Google":35,"precautionary principle":1,"Microsoft":21,"开源":11}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":94,"Theo Jaffe":5,"Martin Casado":4,"Sofia Puccini":3,"OpenAI":82,"监管俘获":3,"Google":35,"precautionary principle":1,"Microsoft":21,"开源":12}</script>
 
 <script>
 (function(){

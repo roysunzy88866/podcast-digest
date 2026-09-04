@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude]] · [[Microsoft]] · [[OpenAI]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Fiona Fung]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Anthropic":93,"智能体":1,"Claude":45,"Microsoft":21,"OpenAI":81,"Claude Code":43,"Slack":22,"Jenny Wen":1,"Fiona Fung":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Anthropic":94,"智能体":1,"Claude":45,"Microsoft":21,"OpenAI":82,"Claude Code":43,"Slack":22,"Jenny Wen":1,"Fiona Fung":1}</script>
 
 <script>
 (function(){

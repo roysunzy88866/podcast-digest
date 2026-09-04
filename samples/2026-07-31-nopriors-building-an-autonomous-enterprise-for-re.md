@@ -39,7 +39,7 @@ jsonLd: |
 
 这一集是 Netic 的创始人兼 CEO Melissa Tokmak 与投资人对谈。Netic 是一家成立两年的公司，做的是“[[基础服务|基础服务]]”行业的 AI——暖通空调(HVAC,即暖气、通风与空调)、管道、电气、健身会所、宠物服务这些“维持世界运转”的生意。
 
-Melissa 此前在 Scale.ai 做了四年工程总监，建过政府、物流、制造、医疗等业务线。Netic 的定位是站在企业和它的客户之间：接电话、发短信、网站预约，全都是 AI [[智能体|智能体]]在应对。最值得注意的一个数字是：如今超过 70% 的客户是“AI first”——客户与公司的第一次接触，就是和 Netic 的智能体对话 <button class="pd-ts" data-t="06:13" data-who="" data-en="Yeah, that is many customers how they started. But today, actually, over 70% of our customers are AI first. We call it netic first." aria-label="回原文"></button>。
+Melissa 此前在 Scale.ai 做了四年工程总监，建过政府、物流、制造、医疗等业务线。Netic 的定位是站在企业和它的客户之间：接电话、发短信、网站预约，全都是 AI [[智能体|智能体]]在应对。最值得注意的一个数字是：如今超过 70% 的客户是“AI first”——客户与公司的第一次接触，就是和 Netic 的智能体对话。
 
 ## 这门生意的实质：调度比看起来难得多
 
@@ -73,7 +73,7 @@ Melissa 用一个场景说明为什么这事不简单：零下 20 度，暖气�
 
 不过她坦承，私募股权的第一轮对话永远聚焦降本，因为她这类平台还太少，而她要扭转的是这个框架：“我不是来削减你的成本的……
 
-我真正感兴趣的是你将如何获得全新的收入” <button class="pd-ts" data-t="30:45" data-who="" data-en="I will say, though, it's still they are always the first conversations very focused on cost cutting because I think they don't see a lot of products or platforms like ours." aria-label="回原文"></button>。“如果只把 AI 用于削减成本，那将非常令人难过。
+我真正感兴趣的是你将如何获得全新的收入”。“如果只把 AI 用于削减成本，那将非常令人难过。
 
 ”她的北极星数字：Netic 至今已为客户创造了超过 6 亿美元、真正由 AI 处理的互动产生的收入——销售时也不做演示，直接拉出一个真实客户的实时部署给他看。私募股权的旧剧本是“找到未被发现的宝石、换团队、创造价值、再卖掉”，但这样的宝石已经不存在了，新剧本是如何与手里这些企业创造有形价值。
 

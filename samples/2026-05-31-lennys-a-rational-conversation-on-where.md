@@ -45,47 +45,47 @@ jsonLd: |
 
 ## 「任务」和「工作」不是一回事
 
-从「为什么 AI 实验室反而在狂招人」说起。一个最反直觉的现象是：最先进的 AI 公司（比如 [[Anthropic|Anthropic]]、[[OpenAI|OpenAI]]），恰恰是当下最拼命增加人手的公司。这背后的核心洞见，在于区分「[[任务|任务]]」和「工作」<button class="pd-ts" data-t="12:55" data-who="" data-en="And one of the sort of strands I tried to pull together in the section on change is, what's the hard part of the job? Is the hard part of the job writing the code line by line?" aria-label="回原文"></button>。
+从「为什么 AI 实验室反而在狂招人」说起。一个最反直觉的现象是：最先进的 AI 公司（比如 [[Anthropic|Anthropic]]、[[OpenAI|OpenAI]]），恰恰是当下最拼命增加人手的公司。这背后的核心洞见，在于区分「[[任务|任务]]」和「工作」。
 
-很多 AI 末日论者的错误，在于把一项工作拆解成一个个小任务，然后算「这 17% 能被自动化」——在 Benedict 看来，这就像几十年前失败的传统专家系统逻辑，你没法那样机械地拆解一个真实职业 <button class="pd-ts" data-t="63:00" data-who="" data-en="And there's two reasons for this. The first reason is that this is, ironically, this is the logical systems problem, the expert system's problem. The problem with expert systems is, for anyone who doesn't know, you try to recognize a picture of a cat and so you start building up logical steps." aria-label="回原文"></button>。回想 70 年代末，电子表格（让会计数字自动联动计算的软件）刚出现时，会计行业的反应是「天变了」，但对律师或记者来说，这只是「我下周可以拿来填工时表的小工具」<button class="pd-ts" data-t="07:40" data-who="" data-en="What does this mean for us? One of the analogies I used in the presentation is, imagine you're an accountant seeing the first software spreadsheets in the late '70s, and this is mind-blowing." aria-label="回原文"></button>。如今面对 AI，软件开发者就是当年第一批看到电子表格的会计，在 [[Claude Code|Claude Code]]（一款 AI 编程工具）出来后高呼天变了，但其他行业只是稍微有点困惑。
+很多 AI 末日论者的错误，在于把一项工作拆解成一个个小任务，然后算「这 17% 能被自动化」——在 Benedict 看来，这就像几十年前失败的传统专家系统逻辑，你没法那样机械地拆解一个真实职业。回想 70 年代末，电子表格（让会计数字自动联动计算的软件）刚出现时，会计行业的反应是「天变了」，但对律师或记者来说，这只是「我下周可以拿来填工时表的小工具」。如今面对 AI，软件开发者就是当年第一批看到电子表格的会计，在 [[Claude Code|Claude Code]]（一款 AI 编程工具）出来后高呼天变了，但其他行业只是稍微有点困惑。
 
-这就引出了那个著名的「[[杰文斯悖论|杰文斯悖论]]」（即价格弹性：当某事物的成本下降，人们往往会大量增加使用量，而不是花原来的钱办原来的事）<button class="pd-ts" data-t="13:42" data-who="" data-en="So there were some things where the button, the job was a task and the task got automated. What happens much more, and this is why people talked about the Jevons paradox is this pricey elasticity, because the Jevons paradox is just price elasticity, applied price elasticity." aria-label="回原文"></button>。Benedict 在访谈中抛出了一句辛辣的吐槽：在 Excel（电子表格软件）出现之前，初级投行分析师同样要加班到吐；现在有了 Excel，高盛的员工照样要在周五午餐时间干活 <button class="pd-ts" data-t="14:14" data-who="" data-en="And if you look at something like the history of accounting, or indeed professional services, this is a joke I made on Twitter back when it was Twitter, was like, young people won't believe this, but before Excel, junior investment bankers worked really long hours." aria-label="回原文"></button>。工具的提升不仅没有消灭岗位，反而因为「做更多事」的冲动拉高了整体工作量。
+这就引出了那个著名的「[[杰文斯悖论|杰文斯悖论]]」（即价格弹性：当某事物的成本下降，人们往往会大量增加使用量，而不是花原来的钱办原来的事）。Benedict 在访谈中抛出了一句辛辣的吐槽：在 Excel（电子表格软件）出现之前，初级投行分析师同样要加班到吐；现在有了 Excel，高盛的员工照样要在周五午餐时间干活。工具的提升不仅没有消灭岗位，反而因为「做更多事」的冲动拉高了整体工作量。
 
 > 【背景】马克·安德森（Marc Andreessen）是 A16Z（全称 Andreessen Horowitz，一家顶级风投）的联合创始人。Benedict 曾是该机构的长期合伙人兼内部分析师。他在文中顺带吐槽了老东家，并引用了前老板关于科技浪潮的经典论断。
 
 ## 为什么顾问、投行不但没消失，反而被 AI 公司买下来了？
 
-顺着「做更多事需要更多手」的逻辑，就能看懂一个最近让很多人意外的趋势：OpenAI 和 Anthropic 这些 AI 实验室，正在疯狂投资专业服务和前向部署工程师 <button class="pd-ts" data-t="09:45" data-who="" data-en="There's a lot of other people who are like, people are having a moment or they're not, or again, we're in that kind of 1997 moment of, &quot;Okay, what is this?&quot; Along those lines, something you've been writing a bit about is, this unexpected investment in professional services/consulting services/forward deployed engineers, all the AI labs, at least the two big ones, OpenAI and Anthropic, are investing in buying massive consultancies and PE firms." aria-label="回原文"></button>。
+顺着「做更多事需要更多手」的逻辑，就能看懂一个最近让很多人意外的趋势：OpenAI 和 Anthropic 这些 AI 实验室，正在疯狂投资专业服务和前向部署工程师。
 
-原因其实极其朴素：当你想让一家大公司用 AI 重构其全部内部工作流时，这需要 5 到 10 个人坐下来花一两个月去规划，然后还要把旧系统拔掉、训练员工——这是一个极其庞大的落地项目 <button class="pd-ts" data-t="11:30" data-who="" data-en="And so we are supposed to completely reimagine all of the internal workflows of your company, and work out which of them could be automated really quickly with AI." aria-label="回原文"></button>。任何在大公司干过的人都明白，公司里根本没有一帮闲人随时等着搞这种新项目。
+原因其实极其朴素：当你想让一家大公司用 AI 重构其全部内部工作流时，这需要 5 到 10 个人坐下来花一两个月去规划，然后还要把旧系统拔掉、训练员工——这是一个极其庞大的落地项目。任何在大公司干过的人都明白，公司里根本没有一帮闲人随时等着搞这种新项目。
 
 这通常是你去雇佣 Bain（贝恩）、[[McKinsey|McKinsey]]（麦金赛）或 Accenture（埃森哲）这类咨询公司来干的事。所以，AI 公司买下咨询团队，并不是为了证明「AI 搞不定」，而是因为给企业部署 AI 这件事本身，就是一项极其庞大的重体力活。
 
 这套逻辑也给普通人的职业前景投下了一束理性之光：你所做的工作中，「难的那部分」到底是什么？是逐行敲代码，还是搞清楚客户到底想要什么、怎么把产品推向市场？
 
-Claude Code 能帮你写代码，但它没法替你决定「该写什么代码」<button class="pd-ts" data-t="15:19" data-who="" data-en="And so what Amazon does is get you the SKU, but knowing what SKU you want is another job. Claude Code can write you the code, but what code do you want? It can make you the features." aria-label="回原文"></button>。这个决策与洞察的向上跃升，正是普通人在 AI 时代要卡位的地方。
+Claude Code 能帮你写代码，但它没法替你决定「该写什么代码」。这个决策与洞察的向上跃升，正是普通人在 AI 时代要卡位的地方。
 
 ## 模型公司赚不到暴利，价值都在「更上层」
 
-聊清了人的问题，接下来是资本的问题：那些动辄砸上千亿美元训练大模型的公司，未来真的能靠卖模型赚到大钱吗？Benedict 给出的判断极其冷峻——不会。模型公司未来大概率没有「定价权」（即企业能随意提价而不流失客户的能力）<button class="pd-ts" data-t="34:55" data-who="" data-en="And so this is the elemental question right now around foundation models is, does the model do the whole thing? Do you just go to the chatbot and get the chatbot to do the whole thing?" aria-label="回原文"></button>。
+聊清了人的问题，接下来是资本的问题：那些动辄砸上千亿美元训练大模型的公司，未来真的能靠卖模型赚到大钱吗？Benedict 给出的判断极其冷峻——不会。模型公司未来大概率没有「定价权」（即企业能随意提价而不流失客户的能力）。
 
-他打了一个绝佳的比方：今天全球移动通信行业每年有一万亿美元的收入，但它其实是一个利润率极低的大宗商品公用事业。25 年前，电信运营商以为自己在手机上做的一切应用都能赚钱，结果什么都没做成，真正赚钱的全是在「堆栈上层」做应用的公司（比如做手机的苹果、做软件的互联网大厂）<button class="pd-ts" data-t="34:34" data-who="" data-en="And the stocks have gone nowhere in 25 years, because it's an X gross low margin commodity utility, where they're selling this objectively amazing piece of global technology infrastructure that has enormous complexity and enormous sophistication, but all the cool stuff is made by you." aria-label="回原文"></button>。
+他打了一个绝佳的比方：今天全球移动通信行业每年有一万亿美元的收入，但它其实是一个利润率极低的大宗商品公用事业。25 年前，电信运营商以为自己在手机上做的一切应用都能赚钱，结果什么都没做成，真正赚钱的全是在「堆栈上层」做应用的公司（比如做手机的苹果、做软件的互联网大厂）。
 
-他由此指出，当前围绕「[[基础模型|基础模型]]」（由大公司花巨资训练的通用 AI 大模型）的根本问题是：模型本身会不会变成一种无差异的底层大宗商品？如果是这样，你最后只会看到三到六家公司按边际成本卖模型，所有的超额利润和价值，都会跑到「堆栈上层」那些做具体应用的公司手里 <button class="pd-ts" data-t="36:13" data-who="" data-en="Aren't you basically, have you got like three to six companies selling a commodity at marginal cost? Now, obviously the semi-analyst guys are like, &quot;No, no, no, no, no." aria-label="回原文"></button>。
+他由此指出，当前围绕「[[基础模型|基础模型]]」（由大公司花巨资训练的通用 AI 大模型）的根本问题是：模型本身会不会变成一种无差异的底层大宗商品？如果是这样，你最后只会看到三到六家公司按边际成本卖模型，所有的超额利润和价值，都会跑到「堆栈上层」那些做具体应用的公司手里。
 
 ## AI 会导致职场末日吗？
 
 既然价值还在创造，那工作机会呢？很多听众最焦虑的，莫过于「职场末日」。
 
-对此，Benedict 的回答是：每一波新技术都会自动化掉一批工作，然后解锁一批现在还不存在的新工作，我们在过去两百年里一直在经历这个过程 <button class="pd-ts" data-t="18:54" data-who="" data-en="So this kind of comes back to my point about platform shifts. Every time we have a new technology, it automates away a bunch of jobs. And then that automation, whether it's price elasticity, and the enablement of the fact that they became automated, unlock so much of new jobs." aria-label="回原文"></button>。1800 年时 90% 的人是农民，天天担心庄稼歉收；今天这些工作被自动化了，我们却有了铁路工程师这种当年听起来极其荒谬的职业。
+对此，Benedict 的回答是：每一波新技术都会自动化掉一批工作，然后解锁一批现在还不存在的新工作，我们在过去两百年里一直在经历这个过程。1800 年时 90% 的人是农民，天天担心庄稼歉收；今天这些工作被自动化了，我们却有了铁路工程师这种当年听起来极其荒谬的职业。
 
-当然，每次转型都会伴随「摩擦性痛苦」——有的人失业、有的小镇被掏空，这一切确实很糟糕。但在另一头，我们整体上更富裕了，不再担心饿肚子 <button class="pd-ts" data-t="19:41" data-who="" data-en="We've had this process over and over again since 1800. And each time you go through it, you get a bunch of frictional pain and dislocation, and a bunch of people do their jobs, and a bunch of towns get hollowed out, and it all sucks." aria-label="回原文"></button>。他认为，当下那些天天喊着大公司明天就会买 ChatGPT、两周后开除所有员工的「末日论者」，根本不懂企业运转的常识：大公司的企业软件采购周期长达 18 个月以上，全面替换核心系统（比如替换掉 SAP）并改变员工习惯，至少需要 5 到 10 年 <button class="pd-ts" data-t="21:34" data-who="" data-en="And that was like the starting point why they then didn't understand anything else. Turn to a big company, enterprise software sales cycle, you'll know this better than me, enterprise software sales cycle is like 18 months, if you're lucky." aria-label="回原文"></button>。
+当然，每次转型都会伴随「摩擦性痛苦」——有的人失业、有的小镇被掏空，这一切确实很糟糕。但在另一头，我们整体上更富裕了，不再担心饿肚子。他认为，当下那些天天喊着大公司明天就会买 ChatGPT、两周后开除所有员工的「末日论者」，根本不懂企业运转的常识：大公司的企业软件采购周期长达 18 个月以上，全面替换核心系统（比如替换掉 SAP）并改变员工习惯，至少需要 5 到 10 年。
 
-至于大家关心的 AGI（通用人工智能，指能像人一样完成任何智力任务的 AI）何时到来、会不会产生超级智能，他直言：我们既没有关于人类智能的理论，也不知道这些模型为何工作得这么好，大家不过是在靠「感觉」做预测 <button class="pd-ts" data-t="26:46" data-who="" data-en="And I think the AGI question is kind of the same. I mean, the thing that the observation one can make, we have no theory of what human intelligence is, we have no theory of why these models work so well, we have no theory of how much better they will get." aria-label="回原文"></button>。他还敏锐地指出，业界正在不断「重新定义」AGI，把它描述成「能做一定比例有经济价值的工作」，但 1975 年的 IBM 大型机就能做到这一点，这并不能说明它拥有人类级别的智能 <button class="pd-ts" data-t="28:09" data-who="" data-en="And I think the point here is now clearly you can see people redefining AGI to mean the stuff that works now. So is AEI, what's the definition now? It's like it can do a certain percentage of economically valuable work." aria-label="回原文"></button>。
+至于大家关心的 AGI（通用人工智能，指能像人一样完成任何智力任务的 AI）何时到来、会不会产生超级智能，他直言：我们既没有关于人类智能的理论，也不知道这些模型为何工作得这么好，大家不过是在靠「感觉」做预测。他还敏锐地指出，业界正在不断「重新定义」AGI，把它描述成「能做一定比例有经济价值的工作」，但 1975 年的 IBM 大型机就能做到这一点，这并不能说明它拥有人类级别的智能。
 
 ## 不要把头埋在沙子里
 
-既然大局难料，个体该怎么办？在回答「如何在这个未来中更成功」时，Benedict 给出的建议非常直白：不要把头埋在沙子里说「我讨厌 AI」，去 BlueSky（一个社交平台）上跟人一起痛骂 AI 有多邪恶，虽然能让你获得巨大的道德优越感，但这无济于事 <button class="pd-ts" data-t="67:28" data-who="" data-en="It's very unclear what happens to the pyramid structure of professional services. The only answer I think one can have is, don't stick your head in the sand and say, &quot;I hate all of this stuff,&quot; because that gives you a great feeling of moral superiority." aria-label="回原文"></button>。
+既然大局难料，个体该怎么办？在回答「如何在这个未来中更成功」时，Benedict 给出的建议非常直白：不要把头埋在沙子里说「我讨厌 AI」，去 BlueSky（一个社交平台）上跟人一起痛骂 AI 有多邪恶，虽然能让你获得巨大的道德优越感，但这无济于事。
 
 真正有帮助的，是完全潜入其中，去搞明白你能用它做什么、它如何改变行业、你怎样做才能成为企业眼中极具价值的雇员。也许这并不能保证你不被裁员，但如果你去律所面试，面对「我们今年招人名额减半」的现实，进去就对老板说「我觉得 AI 不行，我永远不会用它」，绝对不是聪明的态度。你必须像当年消化移动互联网和互联网一样，去吸收、内化它。
 

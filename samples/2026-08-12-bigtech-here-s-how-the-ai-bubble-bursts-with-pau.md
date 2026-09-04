@@ -39,59 +39,59 @@ jsonLd: |
 
 ## 史无前例的钱:规模大、压缩在两三年内
 
-把这轮 AI 基建跟历史上所有基建狂潮——运河、铁路、农村电气化、州际公路、光纤——做对比,用任何指标(GDP 占比、对非住宅固定投资的贡献、对 GDP 增长的贡献),这一轮的量级都已经超过了除「二战重整军备」之外的所有历史时刻 <button class="pd-ts" data-t="02:21" data-who="" data-en="There's lots of ways to back into this so you can kind of provide some context. And it doesn't really matter anymore which one of those you use, we're the winners." aria-label="回原文"></button>。但更关键的一点是速度:电气化花了近 30 年,铁路是几十年,光纤用了四年半到六年,而这一轮是**更高的支出量级被压缩在更短的几年里**完成 <button class="pd-ts" data-t="04:43" data-who="" data-en="Yeah, and a way that I like to talk about this is, you know, first of all, it's not only a bigger magnitude than these previous build outs, but it is a bigger magnitude contracted into a fewer number of years." aria-label="回原文"></button>。这意味着市场根本没有「暂停点」去消化预测、反思回报——钱一直在涌。
+把这轮 AI 基建跟历史上所有基建狂潮——运河、铁路、农村电气化、州际公路、光纤——做对比,用任何指标(GDP 占比、对非住宅固定投资的贡献、对 GDP 增长的贡献),这一轮的量级都已经超过了除「二战重整军备」之外的所有历史时刻。但更关键的一点是速度:电气化花了近 30 年,铁路是几十年,光纤用了四年半到六年,而这一轮是**更高的支出量级被压缩在更短的几年里**完成。这意味着市场根本没有「暂停点」去消化预测、反思回报——钱一直在涌。
 
-更危险的是资金结构正在悄悄变化:过去两年,乐观派的护身符是「这些大厂都是用自有现金流在投,不是借债」。但截至 2026 年第二季度,[[数据中心|数据中心]]资金里超过 50% 已经是外部融资(资产负债表外融资) <button class="pd-ts" data-t="03:57" data-who="" data-en="Tech companies themselves are now at a point where for the last two years people repeatedly told me that it really didn't matter because they were doing it out of cash flows and so it would only become worrisome if this was becoming out of debt." aria-label="回原文"></button>。科技债在垃圾债市场里已经是最大的一块,在投资级债里也是除金融外最大的一块。
+更危险的是资金结构正在悄悄变化:过去两年,乐观派的护身符是「这些大厂都是用自有现金流在投,不是借债」。但截至 2026 年第二季度,[[数据中心|数据中心]]资金里超过 50% 已经是外部融资(资产负债表外融资)。科技债在垃圾债市场里已经是最大的一块,在投资级债里也是除金融外最大的一块。
 
 ## 要让回报合理,得拿它跟商业地产比——但这正是陷阱
 
 外部资本提供者怎么给数据中心定价?他们拿它跟[[商业地产|商业地产]](CRE,比如多租户公寓楼)做类比,问的是「我把 1000 亿美元投进去,能拿到的资本化率(年化净收益/资产价值)能不能跟同类地产项目比」。
 
-主持人顺着这个逻辑想,觉得门槛好像不高:[[Meta|Meta]] 每季度利润就三四百亿,拿回 6% 或 20% 的回报似乎不难 <button class="pd-ts" data-t="09:43" data-who="" data-en="We don't even need to hit the best case scenario, right? So like a way that I've thought about it is almost everything needs to go perfectly in order to return on these investments because they're so big." aria-label="回原文"></button>。**但这个类比里有三个致命的结构性错误**:
+主持人顺着这个逻辑想,觉得门槛好像不高:[[Meta|Meta]] 每季度利润就三四百亿,拿回 6% 或 20% 的回报似乎不难。**但这个类比里有三个致命的结构性错误**:
 
-**错误一:这不是「一次投完、坐收年金」的地产。** 数据中心更像非受监管的公用事业——除了前期巨额资本开支,还要**每 4 到 7 年周期性地把大部分硬件、冷却系统整体换掉** <button class="pd-ts" data-t="10:46" data-who="" data-en="So what you're really entering into is a project that not only has current capital requirements, but has ongoing capital requirements. This isn't just now and then I'm going to have to replace a tenant's drywall." aria-label="回原文"></button>。地产前期 capex 之后是年金式现金流;数据中心是持续的资本消耗,不断稀释回报。
+**错误一:这不是「一次投完、坐收年金」的地产。** 数据中心更像非受监管的公用事业——除了前期巨额资本开支,还要**每 4 到 7 年周期性地把大部分硬件、冷却系统整体换掉**。地产前期 capex 之后是年金式现金流;数据中心是持续的资本消耗,不断稀释回报。
 
-**错误二:[[GPU|GPU]] 的故障率取决于它的历史用途。** 一块被高强度用于训练的 GPU,跟一块只做[[推理|推理]]的 GPU,故障率天差地别——就像一辆跑了 5000 英里的车,你是 72 小时不间断拉力赛跑出来的,还是周日去教堂跑出来的 <button class="pd-ts" data-t="17:40" data-who="" data-en="In its adolescent years inside the data center. The analogy I often make is if you could buy a used car, two used cars, one of them, they both have like 5,000 miles on them." aria-label="回原文"></button>?用于训练的芯片故障率远高于只做推理的芯片,而数据中心的芯片是个「混合车队」,用平均寿命去算账会严重失真。
+**错误二:[[GPU|GPU]] 的故障率取决于它的历史用途。** 一块被高强度用于训练的 GPU,跟一块只做[[推理|推理]]的 GPU,故障率天差地别——就像一辆跑了 5000 英里的车,你是 72 小时不间断拉力赛跑出来的,还是周日去教堂跑出来的?用于训练的芯片故障率远高于只做推理的芯片,而数据中心的芯片是个「混合车队」,用平均寿命去算账会严重失真。
 
-**错误三:卖的是史上贬值最快的商品。** 数据中心本质是工厂,它生产的是 [[token|token]]——而 token 在恒定性能下**每年跌价 70% 到 80%,持续至少四年,没有停下来的迹象** <button class="pd-ts" data-t="13:11" data-who="" data-en="And the thing that they produce, the widget that they produce, is this thing we euphemistically call tokens and these tokens are among the most rapidly depreciating assets we've ever seen in a modern economy that they've continually been falling 70 to 80 percent year over year on a constant performance basis for at least the last four years and there's no reason to expect that to change so we've got at least three different problems here in terms of making that naive comparison to commercial real estate and saying okay everything's going to be fine look look these guys are good for it and we've got these long duration contracts" aria-label="回原文"></button>。付给资本提供者的是固定回报率,底层资产却在超级通缩,这在任何历史周期里都没出现过:铁路、农村电力、光纤都不是贬值商品(光纤反而随时间增值)<button class="pd-ts" data-t="13:54" data-who="" data-en="We have the depreciation of the data centers, we have the continuing capital requirements, and then we have this unprecedented problem of hyper-deflationary commodity at the core of the revenue generation engine of these so-called data centers." aria-label="回原文"></button>。
+**错误三:卖的是史上贬值最快的商品。** 数据中心本质是工厂,它生产的是 [[token|token]]——而 token 在恒定性能下**每年跌价 70% 到 80%,持续至少四年,没有停下来的迹象**。付给资本提供者的是固定回报率,底层资产却在超级通缩,这在任何历史周期里都没出现过:铁路、农村电力、光纤都不是贬值商品(光纤反而随时间增值)。
 
 ## 「价格降,用量涨」救不了——数学算不过来
 
-乐观派的标准反驳是「[[杰文斯悖论|杰文斯悖论]]」:token 越便宜,大家用得越多,总收入还是涨。Paul 的回击很直白:**80% 的复合价格下降,要在另一端补回来,未来六年需要大约一亿倍的 token 用量增长** <button class="pd-ts" data-t="20:38" data-who="" data-en="They don't understand what a compounding price decline of 80% means in terms of what you would have to see in terms of growth on the other side. You have to see around 100 million-fold growth over the next six years in terms of tokens." aria-label="回原文"></button>。
+乐观派的标准反驳是「[[杰文斯悖论|杰文斯悖论]]」:token 越便宜,大家用得越多,总收入还是涨。Paul 的回击很直白:**80% 的复合价格下降,要在另一端补回来,未来六年需要大约一亿倍的 token 用量增长**。
 
 有没有可能?有可能。
 
-大概率吗?不大。而且这次更糟,因为模型正在快速趋同(百事可乐盲测都喝不出区别 <button class="pd-ts" data-t="19:36" data-who="" data-en="Because what we're seeing increasingly, if you look at things like the Epic Composite Index and other things, is that while models are still improving, they're improving at a much slower rate." aria-label="回原文"></button>),竞争从「能力差异」转向纯价格战,叠加中国主权补贴的 token(像中国这样用国家补贴压价),通缩只会加速。
+大概率吗?不大。而且这次更糟,因为模型正在快速趋同(百事可乐盲测都喝不出区别),竞争从「能力差异」转向纯价格战,叠加中国主权补贴的 token(像中国这样用国家补贴压价),通缩只会加速。
 
 ## 「向高端市场走」也救不了——逻辑被颠倒了
 
-既然卖 token 不赚钱,那 [[OpenAI|OpenAI]]、[[Anthropic|Anthropic]] 是不是该学早期微软,自己上去做应用、吃掉垂直市场(让 [[Palantir|Palantir]] 的 CEO Alex Karp 在电视上跳脚 <button class="pd-ts" data-t="22:05" data-who="" data-en="But think about some of the carnage that it's already creating. Alex Karp was complaining on CNBC the other day, I'm sure you saw it, that these companies are increasingly marching up market and trying to eat other..." aria-label="回原文"></button>)?Paul 有个很巧的反杀:如果[[前沿模型|前沿模型]]真的强到能吃掉整个经济,**它们为什么不直接自己吃,还要辛苦地把 token 卖给我们?
+既然卖 token 不赚钱,那 [[OpenAI|OpenAI]]、[[Anthropic|Anthropic]] 是不是该学早期微软,自己上去做应用、吃掉垂直市场(让 [[Palantir|Palantir]] 的 CEO Alex Karp 在电视上跳脚)?Paul 有个很巧的反杀:如果[[前沿模型|前沿模型]]真的强到能吃掉整个经济,**它们为什么不直接自己吃,还要辛苦地把 token 卖给我们?
 
-** 还在卖 token,本身就证明它们知道做不到 <button class="pd-ts" data-t="28:24" data-who="" data-en="So the fact that they're telling other people about this alpha generating technology is by default a refutation because if it actually worked, they wouldn't tell me." aria-label="回原文"></button>。Karp 的原话也是:如果你真能让我销售额翻倍,为什么你不直接拿走那 30% 的增量 <button class="pd-ts" data-t="29:02" data-who="" data-en="That was basically Karp's argument, which is, why are you selling tokens if you can increase my sales by 2x? Why don't you just take 30% of that uplift? That's right." aria-label="回原文"></button>?
+** 还在卖 token,本身就证明它们知道做不到。Karp 的原话也是:如果你真能让我销售额翻倍,为什么你不直接拿走那 30% 的增量?
 
-即便它们被迫往上游走,这生意本身极痛苦:企业买 SaaS 软件(像 Salesforce、ServiceNow)不是因为觉得它们不可替代,而是因为**有问题要解决、不想自己建、还要有个人可以吼可以告** <button class="pd-ts" data-t="33:06" data-who="" data-en="It's not because they think ServiceNow or Salesforce or whoever is somehow, you know, bold innovators that could not be replaced. No, it's because they have a problem, they don't want to build it themselves, and they want someone to sue or shout at." aria-label="回原文"></button>。前沿模型公司去做垂直应用,等于主动去当全世界的被告——这是门烂生意。
+即便它们被迫往上游走,这生意本身极痛苦:企业买 SaaS 软件(像 Salesforce、ServiceNow)不是因为觉得它们不可替代,而是因为**有问题要解决、不想自己建、还要有个人可以吼可以告**。前沿模型公司去做垂直应用,等于主动去当全世界的被告——这是门烂生意。
 
 > 【背景】Paul 说的「向高端市场走」(move up market),在科技语境里指的是从底层基础设施(模型/token)向更靠近终端用户的应用层(如 Claude Code、做客户管理软件)扩张,试图在更高毛利的环节赚回来。
 
 ## 为什么钱还在狂奔:群体便利 + 四重泡沫叠加
 
-既然账算不过来,为什么支票还在签?Paul 的观察很冷:资本方对自家 LP(有限合伙人)讲 AGI 故事,但在内部合伙人会议上,**根本没人信这套,他们算的是跟水电大坝一样的项目融资账** <button class="pd-ts" data-t="40:49" data-who="" data-en="To a degree, investors that I've talked to are very cynical, so they're perfectly happy to use that in front of their own LPs, but they don't believe that in-house." aria-label="回原文"></button>。
+既然账算不过来,为什么支票还在签?Paul 的观察很冷:资本方对自家 LP(有限合伙人)讲 AGI 故事,但在内部合伙人会议上,**根本没人信这套,他们算的是跟水电大坝一样的项目融资账**。
 
-「这次不一样」(This time is different)的信念本身也有毒——历史上的泡沫参与者没有「因为上次铁路泡沫最终也兑现了,所以这次也一定会兑现」这种自我合理化的反身性飞轮 <button class="pd-ts" data-t="37:41" data-who="" data-en="We've created this reflexivity where now we justify overspending on the basis of prior overspending having worked out. Well, in prior episodes where that happened, people were not justifying the overspending by saying, say, in rural electrification, you know, this may look bad," aria-label="回原文"></button>。更深的结构原因是大型基金的「支票规模过滤器」:主权财富基金管着几千亿美元,他们开始按「能不能签出足够大的单笔支票」来筛项目——除了大型数据中心园区,地球上没什么别的地方能让你一次签几百亿美元 <button class="pd-ts" data-t="43:16" data-who="" data-en="And then even worse as a sovereign, as a sovereign wealth fund. And I've been inside these folks is that once you're managing hundreds of billions of dollars, you start looking at opportunities, not in terms of their economic value, but in terms of check size." aria-label="回原文"></button>。
+「这次不一样」(This time is different)的信念本身也有毒——历史上的泡沫参与者没有「因为上次铁路泡沫最终也兑现了,所以这次也一定会兑现」这种自我合理化的反身性飞轮。更深的结构原因是大型基金的「支票规模过滤器」:主权财富基金管着几千亿美元,他们开始按「能不能签出足够大的单笔支票」来筛项目——除了大型数据中心园区,地球上没什么别的地方能让你一次签几百亿美元。
 
-Paul 概括:美国历史上最大的泡沫都跟「技术、地产、宽松信贷、政府政策」这几个因素有关。**这一轮是美国历史上第一次四者同时叠加**(还要加上跟中国的生存博弈)——每个泡沫里的人都觉得能用自己那套逻辑自洽 <button class="pd-ts" data-t="45:47" data-who="" data-en="The US in particular is very good at ones that also include real estate, so we can add that to the mix. So technology, real estate, loose credit, government policy." aria-label="回原文"></button>。
+Paul 概括:美国历史上最大的泡沫都跟「技术、地产、宽松信贷、政府政策」这几个因素有关。**这一轮是美国历史上第一次四者同时叠加**(还要加上跟中国的生存博弈)——每个泡沫里的人都觉得能用自己那套逻辑自洽。
 
 ## 「你愿意为 AGI 的看涨期权付多少钱」是个有毒的偷换
 
-当所有经济论据都站不住,最后的挡箭牌是 AGI:**「你不可能出价过高,因为 AGI 的价值像永生的看涨期权一样无穷大。」** Paul 的反驳:这是「填补空白的上帝」(God of the gaps)式论证——把 AGI 当作无法定价的万能牌插进所有算不过账的空白里 <button class="pd-ts" data-t="40:03" data-who="" data-en="This is a God of the gaps argument. I'm inserting AGI because now that allows me to create an undiscountable call option that I can't price, therefore I should be willing to spend anything, and I reject that." aria-label="回原文"></button>。一旦接受这个前提,对话就变成了「没有球网的网球」,任何理性讨论都失效。
+当所有经济论据都站不住,最后的挡箭牌是 AGI:**「你不可能出价过高,因为 AGI 的价值像永生的看涨期权一样无穷大。」** Paul 的反驳:这是「填补空白的上帝」(God of the gaps)式论证——把 AGI 当作无法定价的万能牌插进所有算不过账的空白里。一旦接受这个前提,对话就变成了「没有球网的网球」,任何理性讨论都失效。
 
 ## 音乐怎么停:超定事件——多条引信,迟早一根先燃
 
-崩盘不需要某个戏剧性单点事件,它在统计学上是「超定」的(overdetermined,即引爆路径太多,总会有一条先触发):① 宏观利率一变,外部资本要求的门槛利率抬到高个位数,数据中心的回报立刻显得没有竞争力 <button class="pd-ts" data-t="51:43" data-who="" data-en="I think it's actually overdetermined in a statistical sense, meaning that there are so many different ways it can stop that the only thing you can say is that it's going to stop because it could stop because of a macro event that changes the hurdle rate that external capital providers are looking for." aria-label="回原文"></button>;② AI 公司 IPO 后被公开市场按通缩商品估值,投资者发现向高端市场走也没救,继续重金 capex 就撑不住;③ 国家博弈导致市场割裂,禁用对方模型,可用市场瞬间缩水;④ 政府入股(如美方可能持有 OpenAI 股份),这种资本结构让商业投资者重新评估估值 <button class="pd-ts" data-t="53:12" data-who="" data-en="Government involvement. So we're talking already about Anthropic, or I guess it was OpenAI, having potentially a 5% US share in it. How do I feel about that as an investor?" aria-label="回原文"></button>;⑤ 市场终于看穿:模型的大部分增益其实来自「[[harness|挽具]]」(harness,指 Claude Code、OpenCode 这类在模型上层编排调用的工具框架,就像高功能保姆管住顽童 <button class="pd-ts" data-t="55:14" data-who="" data-en="No, no, for sure. And even more fundamentally, these super apps or whatever you want to call it, I think of them as harnesses, right? They sit on top and kind of orchestrate what models are doing." aria-label="回原文"></button>)和[[后训练|后训练]](RLHF 等事后调整),而不是动辄十亿美元的[[预训练|预训练]]——那预训练的开支就守不住了 <button class="pd-ts" data-t="56:03" data-who="" data-en="That's a huge misunderstanding, but it's reflective of where we're going in the future. That investors increasingly are going to look at this stuff and say, well, why are you continuing to spend a billion dollars on a huge training run for a model that may be out in 18 months?" aria-label="回原文"></button>。
+崩盘不需要某个戏剧性单点事件,它在统计学上是「超定」的(overdetermined,即引爆路径太多,总会有一条先触发):① 宏观利率一变,外部资本要求的门槛利率抬到高个位数,数据中心的回报立刻显得没有竞争力;② AI 公司 IPO 后被公开市场按通缩商品估值,投资者发现向高端市场走也没救,继续重金 capex 就撑不住;③ 国家博弈导致市场割裂,禁用对方模型,可用市场瞬间缩水;④ 政府入股(如美方可能持有 OpenAI 股份),这种资本结构让商业投资者重新评估估值;⑤ 市场终于看穿:模型的大部分增益其实来自「[[harness|挽具]]」(harness,指 Claude Code、OpenCode 这类在模型上层编排调用的工具框架,就像高功能保姆管住顽童)和[[后训练|后训练]](RLHF 等事后调整),而不是动辄十亿美元的[[预训练|预训练]]——那预训练的开支就守不住了。
 
 ## 真崩了长什么样:2008 式的债务散播
 
-一旦引爆,它的传染路径跟 2007–2009 的次贷危机高度同构 <button class="pd-ts" data-t="58:04" data-who="" data-en="So talk a little bit about what happens if this goes under. Well, so it's in many ways analogous to what happened during the global financial crisis, is that you find out how it has metastasized across the economy because there's an increasing fraction of the institutional investor population that mathematically, because this is such a large fraction in percentage terms of issuance in both high yield and investment" aria-label="回原文"></button>。你哪怕什么都不做、只持有标普 500 指数基金,也已经被动持仓——因为超大规模企业和 AI 相关标的已经占了指数约 40% <button class="pd-ts" data-t="58:39" data-who="" data-en="So you're in it whether you like it or not. And so people are realizing that they're in it even by holding an S&amp;P 500 index fund because of the concentration of hyperscaler and AI related names, which is something like 40 odd percent now." aria-label="回原文"></button>。更隐蔽的是,这些债务被包装进高评级投资级债券,先在 [[PIMCO|PIMCO]] 这类机构之间转手,最终落在保险公司和欧洲银行的资产负债表上,跟当年 CMBS(商业地产抵押贷款证券)和信用违约掉期的扩散路径几乎一模一样。
+一旦引爆,它的传染路径跟 2007–2009 的次贷危机高度同构。你哪怕什么都不做、只持有标普 500 指数基金,也已经被动持仓——因为超大规模企业和 AI 相关标的已经占了指数约 40%。更隐蔽的是,这些债务被包装进高评级投资级债券,先在 [[PIMCO|PIMCO]] 这类机构之间转手,最终落在保险公司和欧洲银行的资产负债表上,跟当年 CMBS(商业地产抵押贷款证券)和信用违约掉期的扩散路径几乎一模一样。
 
 ## 本集带走
 

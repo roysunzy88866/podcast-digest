@@ -32,7 +32,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[OpenAI]] · [[Anthropic]] · [[Kimberley Tan]] · [[Matt Bornstein]] · [[Jesse Zhang]] · [[Martin Casado]] · [[Ashwin Srinivas]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"推理":4,"OpenAI":81,"Anthropic":93,"Kimberley Tan":1,"Matt Bornstein":2,"Jesse Zhang":1,"Martin Casado":3,"Ashwin Srinivas":1,"Cursor":42}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"推理":4,"OpenAI":82,"Anthropic":94,"Kimberley Tan":1,"Matt Bornstein":2,"Jesse Zhang":1,"Martin Casado":4,"Ashwin Srinivas":1,"Cursor":43}</script>
 
 <script>
 (function(){

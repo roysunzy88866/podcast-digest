@@ -1,0 +1,1537 @@
+{
+  "episode_id": "2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-07-27",
+  "tags": [
+    "风险投资",
+    "AI 基础设施",
+    "开源模型",
+    "前沿模型",
+    "投资策略"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.495,
+            20.436
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "matt-murphy",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt Murphy",
+      "file": "Matt Murphy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            25.079,
+            27.18
+          ],
+          "quote": "Matt Murphy, partner at Menlo.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集主线公司：Matt 主导投进的项目，其基础模型性能强劲、智能出众，开源方案难以取代；Matt 因主导该交易在 Menlo 内部备受赞誉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            7.08
+          ],
+          "quote": "I think the foundation models, let's say specifically Anthropic, have such special models, performant, intelligent models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            27.36,
+            30.002
+          ],
+          "quote": "He's the guy that led the deal into Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            30.062,
+            37.606
+          ],
+          "quote": "I mean, Jesus, if anyone's got brownie points inside a firm for leading a deal, it's the dude that led Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            243.285,
+            248.547
+          ],
+          "quote": "And I wanted to start with a relatively obvious one, which is Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            378.863,
+            382.424
+          ],
+          "quote": "Who's better positioned to be the number two player than Anthropic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            778.909,
+            790.336
+          ],
+          "quote": "But the seminal event was we held our LP meeting in November and we had an Anthropic executive named Nirav, who's kind of a jack of all trades at a very valuable one at Anthropic come and present.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            943.677,
+            948.723
+          ],
+          "quote": "When was the most nervous time along the last 18 months for you as an Anthropic shareholder?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            958.165,
+            961.285
+          ],
+          "quote": "When we did the SPV, Anthropic wasn't a household name yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1132.432,
+            1133.073
+          ],
+          "quote": "Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1299.262,
+            1302.564
+          ],
+          "quote": "That goes against one of the other investments being Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1312.91,
+            1318.833
+          ],
+          "quote": "I mean, first of all, Anthropic is a fantastic partner to Lovable and vice versa, but like this market is so big.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1320.093,
+            1323.655
+          ],
+          "quote": "One, some people worry about Lovable and Anthropic tripping over each other.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1324.055,
+            1330.638
+          ],
+          "quote": "I think Anthropic always comes to things a little more like the technical user and Lovable comes at it more from the lay user.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1337.901,
+            1343.226
+          ],
+          "quote": "Cursor was about as in the crosshairs of Anthropic as possible, and I think they still had a pretty darn good outcome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1411.074,
+            1422.02
+          ],
+          "quote": "And maybe we're so early that it's still $10 trillion for a TAM, but like maybe Anthropic and OpenAI solve cancer and climate change and your email tagging is done by open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1423.421,
+            1431.083
+          ],
+          "quote": "No, I think the foundation models, let's say specifically Anthropic, have such special models, performant, intelligent models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1446.568,
+            1453.192
+          ],
+          "quote": "Let's say if you're someone pick a company that maybe you use 50% Anthropic and 50% open source in your own model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1454.673,
+            1463.979
+          ],
+          "quote": "Well, you were talking more cost, but I don't think it goes to that 96% because what's happening is companies see this like, yes, I can get lower cost, but if I use Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1481.504,
+            1483.804
+          ],
+          "quote": "It keeps Anthropic on their toes to keep innovating.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1517.253,
+            1520.275
+          ],
+          "quote": "But, you know, I mean, look, even within the Anthropic family, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1524.198,
+            1529.502
+          ],
+          "quote": "So even Anthropic itself is innovating around, you know, hey, it's not one size fits all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1529.942,
+            1538.425
+          ],
+          "quote": "So I think you're going to have the combination of something like that, a family of models from Anthropic, and then a set of open source models and things that you train with your own data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1561.048,
+            1577.165
+          ],
+          "quote": "I'm incredibly naive, and so I don't understand something, which is like we see, obviously, OpenAI have Jalapeno, reportedly Anthropic working with Samsung to create their own chips, DeepSeeker creating their own chips, Meta creating their own chips.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1781.139,
+            1784.241
+          ],
+          "quote": "But everyone tells me, oh, Anthropic's the real threat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1796.489,
+            1800.592
+          ],
+          "quote": "How do you answer that statement when everyone's like, well, Anthropic Legal is going to beat them?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1836.74,
+            1839.381
+          ],
+          "quote": "And I think, you know, not speaking for Anthropic, but my...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2247.574,
+            2255.799
+          ],
+          "quote": "You've got Anthropic, you've got Lovable, you've got Ligora, you've got OpenRuda, you've got Fireworks, you've got the list goes on and on and on of great companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2481.069,
+            2485.191
+          ],
+          "quote": "And I'll, that's, you know, I'll take you back to our investment in Anthropic, like same thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2506.498,
+            2515.582
+          ],
+          "quote": "Can I ask you, just on geography, we've spoken about Lovable, we've spoken about Lagora, two companies based in obviously Sweden, and then you have Anthropic and you sitting on the west coast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2950.222,
+            2956.947
+          ],
+          "quote": "The obvious answer is Anthropic in some ways, but I'm trying to think about, and by the way, there was two controversial points around that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3006.699,
+            3017.245
+          ],
+          "quote": "I am not great at maths, but if I do like a little bit of a back of a napkin on Anthropic and distributions, it'll distribute around $10 billion in carry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3224.097,
+            3227.38
+          ],
+          "quote": "Now, OK, if you didn't win Anthropic, that would have been extra painful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 813,
+          "t": [
+            3515.232,
+            3518.772
+          ],
+          "quote": "And of course, you know, that's a very near and dear mission to Anthropic and Dario.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "menlo",
+      "type": "company",
+      "role": "company",
+      "name": "Menlo",
+      "file": "Menlo",
+      "primary": true,
+      "how_described": "本集嘉宾所在的基金:约 12 位合伙人的「小而强」机器,转型全押 AI,操作方式极度灵活(不必强求持股比例),用杠铃策略和起始支票适应环境",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            25.079,
+            27.18
+          ],
+          "quote": "Matt Murphy, partner at Menlo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            248.667,
+            252.349
+          ],
+          "quote": "I think it's the cornerstone of Menlo and of the last few years for you investing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            536.196,
+            542.059
+          ],
+          "quote": "And I think the new Menlo that I'm part of has shown extreme flexibility to just do what makes sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            716.767,
+            729.451
+          ],
+          "quote": "I mean, so we basically built a relationship, got into the company and said, look, we need to go all in Menlo style, you know, our recruiting team, our BD team, and just get close to the founding team, build relationships, see how we can have value.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            978.75,
+            983.252
+          ],
+          "quote": "But it wasn't, it was just, that was very nerve wracking because Menlo had never done an SPV before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1133.173,
+            1140.878
+          ],
+          "quote": "It has been incredible for Menlo and for you, and it's been a massive brand builder in AI, positioning you as one of the leading firms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2014.853,
+            2018.857
+          ],
+          "quote": "So that's kind of like the Menlo inflection classic kind of investment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2313.878,
+            2316.48
+          ],
+          "quote": "And that's what we've really wanted to keep at Menlo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2326.345,
+            2330.086
+          ],
+          "quote": "So it's really more like, how do we want Menlo to meet the market?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3047.135,
+            3059.101
+          ],
+          "quote": "I think Menlo has always had a challenger mentality since myself and Venki came over a little over 10 years ago and kind of Sean Carrollin came back and Mark Siegel was the partner who was there who kind of put the band together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3067.925,
+            3072.027
+          ],
+          "quote": "And I feel like everyone we've brought along has kind of felt Menlo",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3176.936,
+            3189.212
+          ],
+          "quote": "I mean, certainly just how big companies can be and how bold Menlo should be in pursuing those, that we need people who are free thinkers and willing to take those kind of risks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 814,
+          "t": [
+            3519.153,
+            3525.914
+          ],
+          "quote": "But aside from that, like the thing I'm most excited about probably goes back to like where Menlo is now and watching how we really",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成:ChatGPT 起飞势不可挡、Dario 离开它是因为觉得它做太多事;且被绑定在 Azure 一家云上,因此 Anthropic 成了替代选择",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            311.823,
+            320.549
+          ],
+          "quote": "You know, the easy part was, okay, OpenAI is absolutely ripping with ChatGPT taking off, but Dario was the creator of that within OpenAI, as you know.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            320.629,
+            324.651
+          ],
+          "quote": "The reason why he left is because basically he's like, OpenAI is doing too many things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            768.906,
+            773.588
+          ],
+          "quote": "They're alternative to OpenAI, who's kind of tied to one cloud with Azure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1411.074,
+            1422.02
+          ],
+          "quote": "And maybe we're so early that it's still $10 trillion for a TAM, but like maybe Anthropic and OpenAI solve cancer and climate change and your email tagging is done by open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1561.048,
+            1577.165
+          ],
+          "quote": "I'm incredibly naive, and so I don't understand something, which is like we see, obviously, OpenAI have Jalapeno, reportedly Anthropic working with Samsung to create their own chips, DeepSeeker creating their own chips, Meta creating their own chips.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": true,
+      "how_described": "本集说它一年内从零做到约 3 亿营收的离群值,创始人 Anton 有远见,靠利用更便宜的开源把利润率结构拉起来,面向非技术用户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            41.408,
+            46.833
+          ],
+          "quote": "But then he follows it up with, check this out, investing in Lovable and then investing in Lagura?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1141.318,
+            1142.979
+          ],
+          "quote": "Another that you've done is Lovable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1147.762,
+            1154.926
+          ],
+          "quote": "Can I ask, when you do a check like that in this specific case, what do you like underwrite Lovable to?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1289.29,
+            1291.511
+          ],
+          "quote": "And for what it's worth, I think Lovable is one of those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1291.937,
+            1298.921
+          ],
+          "quote": "The margin structure of Lovable will be changed greatly with the utilization of open source, which is obviously much cheaper.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1312.91,
+            1318.833
+          ],
+          "quote": "I mean, first of all, Anthropic is a fantastic partner to Lovable and vice versa, but like this market is so big.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1320.093,
+            1323.655
+          ],
+          "quote": "One, some people worry about Lovable and Anthropic tripping over each other.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1324.055,
+            1330.638
+          ],
+          "quote": "I think Anthropic always comes to things a little more like the technical user and Lovable comes at it more from the lay user.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1740.933,
+            1742.434
+          ],
+          "quote": "We mentioned Lovable earlier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2247.574,
+            2255.799
+          ],
+          "quote": "You've got Anthropic, you've got Lovable, you've got Ligora, you've got OpenRuda, you've got Fireworks, you've got the list goes on and on and on of great companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2506.498,
+            2515.582
+          ],
+          "quote": "Can I ask you, just on geography, we've spoken about Lovable, we've spoken about Lagora, two companies based in obviously Sweden, and then you have Anthropic and you sitting on the west coast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2595.965,
+            2601.112
+          ],
+          "quote": "Companies like Lovable and Lagora that we're in and Ryan a couple more, like that's new for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2636.181,
+            2639.363
+          ],
+          "quote": "Anton at Lovable always says building in Europe is like, you know, hard mode.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lagura",
+      "type": "company",
+      "role": "company",
+      "name": "Lagura",
+      "file": "Lagura",
+      "primary": true,
+      "how_described": "本集说它是重 GTM 的法律 AI 公司,跨越律所、客户、多个利益相关方的复杂工作流,模型很难一口吃掉,愿景是扩张到税务、会计等领域",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            41.408,
+            46.833
+          ],
+          "quote": "But then he follows it up with, check this out, investing in Lovable and then investing in Lagura?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": true,
+      "how_described": "本集说它拦截 API 调用、按价格/推理能力/延迟帮开发者挑最优模型的推理市场与路由层,已「在一个会让大多数人震惊的规模上疯狂盈利」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 325,
+          "t": [
+            1359.442,
+            1362.185
+          ],
+          "quote": "And so I'm also on the board of OpenRouter, a company that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1669.706,
+            1679.472
+          ],
+          "quote": "Well, first of all, what OpenRouter has is like they've just got this groundswell of organic activity with developers who come to them because they trust them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1699.244,
+            1708.089
+          ],
+          "quote": "But if you're a company that's building and thinking about multiple cloud platforms and you want to kind of even obfuscate that, then OpenRouter is a great solution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1711.691,
+            1712.772
+          ],
+          "quote": "How big could OpenRouter be?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3422.974,
+            3436.18
+          ],
+          "quote": "But now as the whole ecosystem has gotten so much bigger and you're doing optimizations, you want to manage your spend, you need to have much more robust observability solutions, you need something like OpenRouter.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": true,
+      "how_described": "本集说它是 Matt 只被给 1% 份额、按老训练拒绝、事后看会带来巨额回报的后悔案例;创始人 Matty 被他称为欧洲「了不起的创始人成就公司」的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 621,
+          "t": [
+            2724.711,
+            2733.396
+          ],
+          "quote": "There have been several companies where we've had like 1% offered to us, Steel, Eleven Labs, StarCloud, where we were like, 1%, we can't be doing that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2931.263,
+            2936.769
+          ],
+          "quote": "So anyway, I think an example of that in Europe, just because it's close to home for you, would be someone like Matty at Eleven Labs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集把它说成:Dario 在 OpenAI 内部缔造的起飞产品,当时 Anthropic 的基准测试已与其打平甚至更好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            311.823,
+            320.549
+          ],
+          "quote": "You know, the easy part was, okay, OpenAI is absolutely ripping with ChatGPT taking off, but Dario was the creator of that within OpenAI, as you know.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            343.109,
+            359.076
+          ],
+          "quote": "And then, you know, another easy part of it was, you know, they had basically, it was pre-revenue, pre-launch of the model, but all the benchmarks you could see that they were kind of better or at the same level of performance as ChatGPT at the time, and they'd spent like, I don't know, a 50th of the capital.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说它「曾几乎是处在 Anthropic 十字准星正中」,但仍然取得了相当不错的结果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1337.901,
+            1343.226
+          ],
+          "quote": "Cursor was about as in the crosshairs of Anthropic as possible, and I think they still had a pretty darn good outcome.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "company",
+      "role": "company",
+      "name": "Benchmark",
+      "file": "Benchmark",
+      "primary": false,
+      "how_described": "本集说连它都加了成长期载体,「泳道」概念已经消失;Matt 的 A 轮基金之选",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 497,
+          "t": [
+            2126.197,
+            2152.645
+          ],
+          "quote": "Every LP, this is the funniest thing, every LP wants San Francisco specific seed fund only under a hundred million and I think this will be the worst performing category of venture in this vintage because firms like you and Founders Fund and Benchmark and Sequoia and Excel and the list goes on and on are so effective with a very good seed product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2174.37,
+            2179.374
+          ],
+          "quote": "And now more and more, everyone's full stack, including our good friends now at Benchmark, adding a growth vehicle, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2745.644,
+            2753.09
+          ],
+          "quote": "Because LP is always like high ownership portfolio, you know, constrained portfolio sizes, concentration, benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3271.657,
+            3273.118
+          ],
+          "quote": "Series A, you know, benchmark.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "starcloud",
+      "type": "company",
+      "role": "company",
+      "name": "StarCloud",
+      "file": "StarCloud",
+      "primary": false,
+      "how_described": "本集说它是只给 Matt 1% 份额、被他按持股比例老规矩拒绝、回头看会带来巨额回报的公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 621,
+          "t": [
+            2724.711,
+            2733.396
+          ],
+          "quote": "There have been several companies where we've had like 1% offered to us, Steel, Eleven Labs, StarCloud, where we were like, 1%, we can't be doing that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源加自有数据「对一部分事情有功能性作用,但不足以真正取代前沿模型」;未来格局是前沿+开源+自有数据的组合式选模型,开源也让 Anthropic 保持警觉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.1,
+            10.845
+          ],
+          "quote": "This can be hard for somebody to just kind of say, I've used open source with my data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1291.937,
+            1298.921
+          ],
+          "quote": "The margin structure of Lovable will be changed greatly with the utilization of open source, which is obviously much cheaper.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1305.125,
+            1310.809
+          ],
+          "quote": "Do you worry about the progression of open source given how much can be done now with open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1343.627,
+            1346.57
+          ],
+          "quote": "But the whole open source topic, look, it's like any market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1402.609,
+            1410.674
+          ],
+          "quote": "So I do just wonder like if open source can do 96% of enterprise workflows, does that not dramatically reduce the TAM of frontier model companies?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1411.074,
+            1422.02
+          ],
+          "quote": "And maybe we're so early that it's still $10 trillion for a TAM, but like maybe Anthropic and OpenAI solve cancer and climate change and your email tagging is done by open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1431.103,
+            1434.844
+          ],
+          "quote": "This can be hard for somebody to just kind of say, I've used open source with my data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1446.568,
+            1453.192
+          ],
+          "quote": "Let's say if you're someone pick a company that maybe you use 50% Anthropic and 50% open source in your own model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1487.825,
+            1490.306
+          ],
+          "quote": "And then startups innovate in their own way with open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1529.942,
+            1538.425
+          ],
+          "quote": "So I think you're going to have the combination of something like that, a family of models from Anthropic, and then a set of open source models and things that you train with your own data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1721.575,
+            1734.08
+          ],
+          "quote": "This company is wildly profitable at a scale that would probably shock most people before this whole open source model, alternative model, model optimization market really takes off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3381.682,
+            3388.108
+          ],
+          "quote": "And there's no way in hell that, you know, we're going to have 60 independent model companies in addition to all the open source and everything.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "foundation-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础模型 (foundation models)",
+      "file": "基础模型",
+      "primary": true,
+      "how_described": "本集说「Anthropic 这类基础模型拥有如此特别、性能强大、智能的模型」,性能和智能太特别,很难被开源加自有数据替代",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            7.08
+          ],
+          "quote": "I think the foundation models, let's say specifically Anthropic, have such special models, performant, intelligent models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            509.655,
+            514.04
+          ],
+          "quote": "Foundation models or Neolabs of any kind, then okay, you sit on the sidelines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1423.421,
+            1431.083
+          ],
+          "quote": "No, I think the foundation models, let's say specifically Anthropic, have such special models, performant, intelligent models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说「仅仅因为推理计算的成本,已经很难说你会成为一家 80%、90% 毛利率的公司了」,推理成本压低了应用公司的利润率结构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1252.74,
+            1259.087
+          ],
+          "quote": "You know, a lot of companies, just because of the cost of computing inference, it's harder to say you're going to be an 80, 90% gross margin company anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1267.095,
+            1270.739
+          ],
+          "quote": "I'm not completely tied to inference around, you know, my cost structure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1636.327,
+            1640.85
+          ],
+          "quote": "And I'm sure for some percentage of the workload, whether it's in training or inference, that could be a big deal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1679.492,
+            1681.173
+          ],
+          "quote": "They know it's a great inference marketplace.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说可观测性、智能体框架这类基础模型之上的开发者栈三四年前投过一轮没跑出来,现在随着生态变大、要做成本优化「真正起飞了」,是被投资不足的机会",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 785,
+          "t": [
+            3398.416,
+            3411.867
+          ],
+          "quote": "I think that there was a bit of a false negative on some of the infrastructure stack, you know, whether it's like observability, agent frameworks, you know, all this kind of stuff that started maybe three, four years ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3422.974,
+            3436.18
+          ],
+          "quote": "But now as the whole ecosystem has gotten so much bigger and you're doing optimizations, you want to manage your spend, you need to have much more robust observability solutions, you need something like OpenRouter.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent-frameworks",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体框架 (agent frameworks)",
+      "file": "智能体框架",
+      "primary": true,
+      "how_described": "本集把它与可观测性并列为「基础模型之上」被投资不足的基础设施栈:早年做了没成,现在整个生态变大后这些公司真的起飞",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 785,
+          "t": [
+            3398.416,
+            3411.867
+          ],
+          "quote": "I think that there was a bit of a false negative on some of the infrastructure stack, you know, whether it's like observability, agent frameworks, you know, all this kind of stuff that started maybe three, four years ago.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spv",
+      "type": "concept",
+      "role": "concept",
+      "name": "SPV",
+      "file": "SPV",
+      "primary": true,
+      "how_described": "本集说它是为单个项目临时凑的专项投资载体:Menlo 的第一个 SPV 规模超 5 亿、为其最紧张的 24 个月,也成了 Matt 最想重复的剧本;如今市场上 SPV 已泛滥到引发 Anthropic 鸣枪示警",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            451.103,
+            454.744
+          ],
+          "quote": "But then the next round is when we did the 500 plus SPV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            822.322,
+            825.304
+          ],
+          "quote": "Are we in a new venture world of SPV usage?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            828.086,
+            833.909
+          ],
+          "quote": "How do you think about that and when to go aggressive on the SPV strategy and when it moves out of fund strategy?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            854.904,
+            856.105
+          ],
+          "quote": "So let's do an SPV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            958.165,
+            961.285
+          ],
+          "quote": "When we did the SPV, Anthropic wasn't a household name yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            978.75,
+            983.252
+          ],
+          "quote": "But it wasn't, it was just, that was very nerve wracking because Menlo had never done an SPV before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            983.753,
+            985.433
+          ],
+          "quote": "This was your first SPV?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1058.479,
+            1064.985
+          ],
+          "quote": "When there were like the SPV stuff and then that, you know, Dario constraining, was that a nerve wracking time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2961.75,
+            2963.19
+          ],
+          "quote": "We've never done an SPV before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2965.011,
+            2976.894
+          ],
+          "quote": "I can't really remember offhand anything that was that profound and felt like, wow, we're kind of putting the reputation of the firm, especially the bigger SPV, on the line to kind of pull this off and breaking new ground.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ownership",
+      "type": "concept",
+      "role": "concept",
+      "name": "股权占比 (ownership)",
+      "file": "股权占比",
+      "primary": true,
+      "how_described": "本集的核心论点:以很小比例投中巨大离群值,好过持有 3-5 亿退出公司的大比例;Matt 因死守 20% 持股老规矩错过 Steel、Eleven Labs、StarCloud,是学费最贵的一课",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            527.113,
+            535.916
+          ],
+          "quote": "Other firms can be, and not to throw any shade on anybody because I have such great respect, but, you know, you kind of get into these situations where we have to own 15 or 20% ownership or we don't do this and don't do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            548.521,
+            558.644
+          ],
+          "quote": "So do we think that ownership today is less relevant than it ever used to be, given outcome scenarios being so much larger than they ever used to be?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            559.645,
+            565.907
+          ],
+          "quote": "I mean, look, if you can get ownership, it's magical because if you own a lot and the company's worth a lot, that's going to be great, but...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            566.347,
+            570.892
+          ],
+          "quote": "A, there's a lot more capital coming in, so it's hard to even maintain that kind of ownership.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2099.343,
+            2105.626
+          ],
+          "quote": "We're going in where we can get ownership early or be part of something that we think ultimately could be a winner and pile in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2227.802,
+            2232.205
+          ],
+          "quote": "And some of that's obviously a function of ownership, but I like the syndication part.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2720.448,
+            2724.491
+          ],
+          "quote": "The single biggest mistake for me is always actually focused around ownership.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2745.644,
+            2753.09
+          ],
+          "quote": "Because LP is always like high ownership portfolio, you know, constrained portfolio sizes, concentration, benchmark.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "series-a",
+      "type": "concept",
+      "role": "concept",
+      "name": "A轮 (Series A)",
+      "file": "A轮",
+      "primary": true,
+      "how_described": "本集说它「是当今最糟糕的位置」:种子到 A 轮时间被极大压缩,几百万 ARR、五个 POC 算不上多大信号,估值却从 5000 万涨到 2 亿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 457,
+          "t": [
+            1942.257,
+            1945.678
+          ],
+          "quote": "I think Series A is the worst place to be today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1946.018,
+            1951.08
+          ],
+          "quote": "And my partners always hate me for this because all Series A founders are like, great, we won't go and see them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1959.442,
+            1964.944
+          ],
+          "quote": "Do you agree that right now, insertion point wise, Series A is the hardest?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2031.307,
+            2035.531
+          ],
+          "quote": "But to your specific question around Series A, that's the other side of the barbell.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2211.55,
+            2218.695
+          ],
+          "quote": "I mean, believe me, for the first 10, 15 years of my career, every Series A you led, you would bring in another kind of top tier firm alongside you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2232.505,
+            2247.534
+          ],
+          "quote": "When we talk about seed funds of that size being challenging, Series A being a difficult insertion point today, and the barbell approach, the $3 billion fund size, we talked about it in the show with Rory and Jason, and we didn't really get it in the nicest way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3242.514,
+            3246.838
+          ],
+          "quote": "You can invest in one seed fund, one Series A fund, and one growth fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3271.657,
+            3273.118
+          ],
+          "quote": "Series A, you know, benchmark.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "barbell-strategy",
+      "type": "concept",
+      "role": "concept",
+      "name": "杠铃策略 (barbell strategy)",
+      "file": "杠铃策略",
+      "primary": true,
+      "how_described": "本集说 Menlo 现在的打法:一端压已被认定为赢家的后期离群值(ARR 1000 万以上爆发),另一端往更早走——三位合伙人可当场开出最高 800 万美元的种子支票",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 465,
+          "t": [
+            1972.642,
+            1976.044
+          ],
+          "quote": "I mean, you nailed it, but I mean, what we're doing is a barbell strategy right now, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "starter-checks",
+      "type": "concept",
+      "role": "concept",
+      "name": "起始支票 (starter checks)",
+      "file": "起始支票",
+      "primary": true,
+      "how_described": "本集说 Anthology Fund 用 10 万到 100 万的支票投了 50 多家公司,「哪怕只拿到一个小立足点,你大额参与下一轮的可能性就高 10 倍」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 629,
+          "t": [
+            2764.28,
+            2767.263
+          ],
+          "quote": "And then here we call like tracker checks or starter checks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "seed-fund",
+      "type": "concept",
+      "role": "concept",
+      "name": "种子基金 (seed fund)",
+      "file": "种子基金",
+      "primary": false,
+      "how_described": "本集说小型精品种子基金「太大不能做友好跟投、太小不能领投」,会是这个年份表现最差的风投类别",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 497,
+          "t": [
+            2126.197,
+            2152.645
+          ],
+          "quote": "Every LP, this is the funniest thing, every LP wants San Francisco specific seed fund only under a hundred million and I think this will be the worst performing category of venture in this vintage because firms like you and Founders Fund and Benchmark and Sequoia and Excel and the list goes on and on are so effective with a very good seed product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2153.045,
+            2162.167
+          ],
+          "quote": "That if you're a $50 million seed fund and you're writing $2 million checks, dude, I'm too big to be friendly and I'm too small to lead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3242.514,
+            3246.838
+          ],
+          "quote": "You can invest in one seed fund, one Series A fund, and one growth fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3250.261,
+            3250.961
+          ],
+          "quote": "Seed fund.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3251.382,
+            3255.846
+          ],
+          "quote": "I'm less like plugged into the seed fund world for reasons that you and I have already discussed.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

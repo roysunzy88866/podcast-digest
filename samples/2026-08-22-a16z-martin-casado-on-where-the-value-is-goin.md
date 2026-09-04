@@ -122,9 +122,9 @@ Martin 反复强调一个观点：如果你只看资产负债表——利润率�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同公司:OpenAI、OpenRouter、Anthropic、Cursor · 同概念:开源模型 (open source)、推理 (inference)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Cursor、OpenAI、Anthropic、NVIDIA · 同概念:开源模型 (open source)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Cursor、OpenRouter、Anthropic、OpenAI、SpaceX、Stripe · 同概念:推理 (inference)</span>
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同嘉宾:Theo Jaffe · 同公司:Anthropic、Mistral、NVIDIA、OpenAI · 同概念:开源模型 (open source)</span>
 
 </div>
 <div class="pd-ex">

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":8,"Uber":7,"Uber One":1,"自主性":4,"智能体":1,"IGB":1,"可变成本模式":1,"分发":4,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":9,"Uber":7,"Uber One":1,"自主性":4,"智能体":1,"IGB":1,"可变成本模式":1,"分发":4,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

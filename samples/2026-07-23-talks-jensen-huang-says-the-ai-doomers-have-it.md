@@ -43,47 +43,47 @@ jsonLd: |
 
 说完了这集访谈的几个核心方向，我们先来看引发最多争议的话题：中国 AI 的崛起，以及该不该把它挡在门外。
 
-对于美国是否应该禁止或限制中国的开源模型，黄仁勋的态度非常明确：绝对不应该 <button class="pd-ts" data-t="03:41" data-who="" data-en="Should American companies be allowed to use Chinese AI models? Absolutely. Absolutely." aria-label="回原文"></button>。在他看来，世界既需要像 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 这样好用、便利的封闭模型，也绝对离不开[[开源模型|开放模型]]。科学进步、网络安全、国家安全乃至经济安全，都需要建立在对开放模型的审查和测试之上。
+对于美国是否应该禁止或限制中国的开源模型，黄仁勋的态度非常明确：绝对不应该。在他看来，世界既需要像 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 这样好用、便利的封闭模型，也绝对离不开[[开源模型|开放模型]]。科学进步、网络安全、国家安全乃至经济安全，都需要建立在对开放模型的审查和测试之上。
 
-主持人问到了一个常见的担忧：开放模型会不会有「后门」？黄仁勋用技术常识化解了这个误解——模型是下载到本地的，你可以微调它，加装[[护栏|护栏]]，把它关进安全的[[沙箱|沙箱]]里运行 <button class="pd-ts" data-t="03:42" data-who="" data-en="Absolutely. Absolutely. There's a misconception that somehow there are backdoors that is somehow connected to China in some way." aria-label="回原文"></button>。
+主持人问到了一个常见的担忧：开放模型会不会有「后门」？黄仁勋用技术常识化解了这个误解——模型是下载到本地的，你可以微调它，加装[[护栏|护栏]]，把它关进安全的[[沙箱|沙箱]]里运行。
 
-恰恰相反，如果全世界都只用一个封闭的大模型，那才是真正单一的故障点和攻击目标 <button class="pd-ts" data-t="19:02" data-who="" data-en="they could share ideas among communities. If everything just becomes one single model, one single point of attack, one single source of failure, I think the world is much, much more vulnerable." aria-label="回原文"></button>。我们需要把开放模型交到全球的网络安全专家手里，实现大规模的分布式防御。从技术逻辑延伸到地缘政治，他认为 AI 是双用途技术，监管应该针对具体应用（比如医疗或自动驾驶），而不是去遏制技术本身的进步 <button class="pd-ts" data-t="04:39" data-who="" data-en="And so open models allows for that. Can intervention by the government ever be a good thing? Of course, regulation is a good thing in many different industries, and you want to regulate applications." aria-label="回原文"></button>。
+恰恰相反，如果全世界都只用一个封闭的大模型，那才是真正单一的故障点和攻击目标。我们需要把开放模型交到全球的网络安全专家手里，实现大规模的分布式防御。从技术逻辑延伸到地缘政治，他认为 AI 是双用途技术，监管应该针对具体应用（比如医疗或自动驾驶），而不是去遏制技术本身的进步。
 
 既然中国模型这么厉害，那 OpenAI 和 Anthropic 这些美国头部的闭源实验室会不会有麻烦？顺理成章地，黄仁勋聊到了竞争与市场的逻辑。
 
 他的判断是：不仅没麻烦，反而大有可为。市场有一种误解，认为便宜的开源模型会抢走闭源模型的饭碗。
 
-但他指出，免费的开源模型就像一块敲门砖，它让全社会以极低的成本尝试 AI。当人们用过 AI 之后，才发现自己真正想要的是更聪明、更便利的服务，而这些正是闭源模型擅长的 <button class="pd-ts" data-t="07:08" data-who="" data-en="Open source models that are excellent should be used. And so the market's misunderstood the impact of DeepSeek the first time. Another Chinese model." aria-label="回原文"></button>。
+但他指出，免费的开源模型就像一块敲门砖，它让全社会以极低的成本尝试 AI。当人们用过 AI 之后，才发现自己真正想要的是更聪明、更便利的服务，而这些正是闭源模型擅长的。
 
-他用了一个绝佳的比喻：这就好比你当然可以自己搭一个数据库或搜索引擎，但那太费劲了，直接向专业的云服务商租用会更划算 <button class="pd-ts" data-t="11:39" data-who="" data-en="And the way that people want to have better AI is they try to AI today and they just realize it'd be nice for somebody else to help me serve it. It's no different than cloud services." aria-label="回原文"></button>。就算模型免费，自己运营的成本依然很高。
+他用了一个绝佳的比喻：这就好比你当然可以自己搭一个数据库或搜索引擎，但那太费劲了，直接向专业的云服务商租用会更划算。就算模型免费，自己运营的成本依然很高。
 
-不过他也强调了一条红线：没有任何公司或国家，应该把自己最核心的「阿尔法（Alpha）」——也就是专有技术或绝密智能——外包给别人 <button class="pd-ts" data-t="13:46" data-who="" data-en="Nobody should outsource their alpha. Nobody should outsource their intelligence. No country should." aria-label="回原文"></button>。通用的业务（比如自动化营销、法律部门）可以放心地外包给闭源大模型，但涉及主权、机密和核心知识产权的领域，必须自己动手。正是为了这部分需求，NVIDIA 推出了自己的开源模型 [[Nemotron|Nemotron]]，专门给那些必须自建 AI 的公司做底座 <button class="pd-ts" data-t="09:47" data-who="" data-en="And it turns out a lot of companies, whether it's financial services or cybersecurity companies, companies like ourselves, we must build our own AI. And so Nemotron is built for companies who need to do that." aria-label="回原文"></button>。
+不过他也强调了一条红线：没有任何公司或国家，应该把自己最核心的「阿尔法（Alpha）」——也就是专有技术或绝密智能——外包给别人。通用的业务（比如自动化营销、法律部门）可以放心地外包给闭源大模型，但涉及主权、机密和核心知识产权的领域，必须自己动手。正是为了这部分需求，NVIDIA 推出了自己的开源模型 [[Nemotron|Nemotron]]，专门给那些必须自建 AI 的公司做底座。
 
 谈完了开放与封闭的商业逻辑，我们转向让华尔街最揪心的问题：现在的 AI 到底是不是一个即将破裂的巨大泡沫？
 
-随着中国模型相继发布，NVIDIA 的股价曾出现剧烈波动，一些投资者甚至开始认为 AI 已经见顶。黄仁勋直言，这完全是搞错了状况 <button class="pd-ts" data-t="27:45" data-who="" data-en="What's Wall Street getting wrong about the future of the AI build-out? Well, free AI should be great for hardware. free AI should be great for chips." aria-label="回原文"></button>。
+随着中国模型相继发布，NVIDIA 的股价曾出现剧烈波动，一些投资者甚至开始认为 AI 已经见顶。黄仁勋直言，这完全是搞错了状况。
 
-他解释道，过去由消费需求拉动的[[半导体|半导体]]行业确实有明显的繁荣与衰退周期，但这次完全不同。这是由工业驱动的底层基础设施重构——就像过去人类修建了公路、铁路和互联网，现在我们在这些之上还要铺设一层全新的「智能基础设施」 <button class="pd-ts" data-t="31:36" data-who="" data-en="It's not demand-driven, meaning seasonal demand-driven. This is industrially driven, meaning the fundamental technology of computers is changing. We need a whole new layer of infrastructure in the world." aria-label="回原文"></button>。
+他解释道，过去由消费需求拉动的[[半导体|半导体]]行业确实有明显的繁荣与衰退周期，但这次完全不同。这是由工业驱动的底层基础设施重构——就像过去人类修建了公路、铁路和互联网，现在我们在这些之上还要铺设一层全新的「智能基础设施」。
 
-正因为是基础设施的大规模重构，他预计在未来 10 年内，整个半导体行业需要扩张到如今规模的 5 到 10 倍 <button class="pd-ts" data-t="32:01" data-who="" data-en="And this layer needs chips. You know, I believe we probably need our semiconductor industry to be somewhere between, you know, five to 10 times larger than it is." aria-label="回原文"></button>。眼下，所谓的「AI 泡沫」根本无从谈起，因为连最基本的物理供应都严重短缺：没有足够的芯片、内存、土地、电力，甚至连盖[[数据中心|数据中心]]的建筑工人都不够 <button class="pd-ts" data-t="36:44" data-who="" data-en="It just depends on how fast we can build. Now, the challenge, of course, is that the rate at which we can build the infrastructure is limited by physical things." aria-label="回原文"></button>。
+正因为是基础设施的大规模重构，他预计在未来 10 年内，整个半导体行业需要扩张到如今规模的 5 到 10 倍。眼下，所谓的「AI 泡沫」根本无从谈起，因为连最基本的物理供应都严重短缺：没有足够的芯片、内存、土地、电力，甚至连盖[[数据中心|数据中心]]的建筑工人都不够。
 
-更重要的是，如今 AI 已经跨过了盈利的拐点。像 OpenAI 的编码[[智能体|智能体]]能替代高薪工作，企业一年花数亿美元购买这类服务，不仅提高了自身的生产力和利润，又反过来变成购买更多 AI 的动力——这个飞轮才刚刚开始转动 <button class="pd-ts" data-t="34:55" data-who="" data-en="So that flywheel has now started. And so I think the industry has now arrived at a very critical juncture. an inflection point, if you will, where we now have profitable AI because we have useful AI." aria-label="回原文"></button>。
+更重要的是，如今 AI 已经跨过了盈利的拐点。像 OpenAI 的编码[[智能体|智能体]]能替代高薪工作，企业一年花数亿美元购买这类服务，不仅提高了自身的生产力和利润，又反过来变成购买更多 AI 的动力——这个飞轮才刚刚开始转动。
 
 面对这场规模庞大的工业革命，社会上的焦虑情绪也在蔓延，这正是黄仁勋在访谈后半段最想驳斥的东西。
 
-对于某些科技领袖宣扬的「AI 将毁灭人类」或「AI 会抢走一半工作」，黄仁勋毫不客气地称其为「胡说八道」 <button class="pd-ts" data-t="24:35" data-who="" data-en="And it's absolutely inappropriate to make things up. And so the fact that this is going to be the end of humanity, it's complete nonsense. The fact that this is going to destroy half of the American jobs is complete nonsense." aria-label="回原文"></button>。他给出的现实证据是：AI 并没有消灭工作，反而增加了需求。
+对于某些科技领袖宣扬的「AI 将毁灭人类」或「AI 会抢走一半工作」，黄仁勋毫不客气地称其为「胡说八道」。他给出的现实证据是：AI 并没有消灭工作，反而增加了需求。
 
-比如 AI 自动化了放射扫描的判读，但结果是医生能看更多病人，对放射科医生的需求反而增加了大约 20% <button class="pd-ts" data-t="16:42" data-who="" data-en="And the reason for that is, and I'll just first of all give you the evidence, the number of radiologists in the world is increasing substantially. Some 20% I understand." aria-label="回原文"></button>；律师助理的需求也增加了约 10% <button class="pd-ts" data-t="17:08" data-who="" data-en="It's the same with paralegals. Apparently, the number of paralegals has increased by some 10%. And the reason for that is while they're using AI, the number of cases they could see has increased." aria-label="回原文"></button>。至于能黑进银行的网络安全智能体，他觉得人们大可不必惊讶——既然 AI 能写代码、调漏洞，它理所当然就能被用来找系统漏洞。
+比如 AI 自动化了放射扫描的判读，但结果是医生能看更多病人，对放射科医生的需求反而增加了大约 20%；律师助理的需求也增加了约 10%。至于能黑进银行的网络安全智能体，他觉得人们大可不必惊讶——既然 AI 能写代码、调漏洞，它理所当然就能被用来找系统漏洞。
 
-应对之道不是封锁，而是用更好的开放模型去防御 <button class="pd-ts" data-t="18:03" data-who="" data-en="What has surprised you or what's coming that gives you pause? Well, it surprised me that people were surprised. The fact that..." aria-label="回原文"></button>。他甚至认为，真正可怕的不是 AI 毁灭工作，而是「某个使用 AI 的人会夺走不用 AI 的人的工作」 <button class="pd-ts" data-t="23:35" data-who="" data-en="The most important thing that we have to do with AI is not to scare our industries not to scare our society into not using ai ai is not going to destroy all of our jobs someone who uses ai is going to take our jobs and so we have to make sure that we adopt ai diffuse ai into the industries as quickly as possible anything we do" aria-label="回原文"></button>。因此，美国的当务之急是放下科幻式的恐慌，以极大的热情在各行各业普及这项技术。
+应对之道不是封锁，而是用更好的开放模型去防御。他甚至认为，真正可怕的不是 AI 毁灭工作，而是「某个使用 AI 的人会夺走不用 AI 的人的工作」。因此，美国的当务之急是放下科幻式的恐慌，以极大的热情在各行各业普及这项技术。
 
 最后，话题回到了这位掌舵人自己的人生哲学。
 
-主持人问他，作为市值最高的公司之一，NVIDIA 只有约 5 万名员工，十年后也可能「只有」7.5 万人，为什么不扩张到几十万人？黄仁勋的回答体现了他的经营哲学：战略的本质，就是用极其有限的资源去实现未来的愿景，把每一分钱的回报率最大化 <button class="pd-ts" data-t="59:08" data-who="" data-en="How do you do that? Strategy involves utilizing your resources as efficiently as possible. Your goal is to realize a future vision with the limited resources that you have and to use that resource wisely." aria-label="回原文"></button>。
+主持人问他，作为市值最高的公司之一，NVIDIA 只有约 5 万名员工，十年后也可能「只有」7.5 万人，为什么不扩张到几十万人？黄仁勋的回答体现了他的经营哲学：战略的本质，就是用极其有限的资源去实现未来的愿景，把每一分钱的回报率最大化。
 
-对于员工个人，他给出了非常清醒的建议：不要把你的「工作」等同于某个具体的「任务」。比如放射科医生的任务是看扫描图，但工作是终结人类的病痛；如果任务被自动化了，你的工作目的并没有消失 <button class="pd-ts" data-t="61:11" data-who="" data-en="And so just remember that a job has a purpose. which includes many tasks. And so one of my favorite examples is the original example about radiology." aria-label="回原文"></button>。
+对于员工个人，他给出了非常清醒的建议：不要把你的「工作」等同于某个具体的「任务」。比如放射科医生的任务是看扫描图，但工作是终结人类的病痛；如果任务被自动化了，你的工作目的并没有消失。
 
-现在的程序员每天坐在键盘前敲字，未来可能就不需要打字了，但解决问题、创造价值的本质依然不变。这就是他所说的「痛苦和磨难造就伟大」——一遍遍在没人的角落练习、经历挫折，才能让你在极高压力下依然稳如泰山 <button class="pd-ts" data-t="65:45" data-who="" data-en="Nothing. No great athlete just happens to be a great athlete. It's a lot of practice when nobody's watching, a lot of setbacks, a lot of losing." aria-label="回原文"></button>。
+现在的程序员每天坐在键盘前敲字，未来可能就不需要打字了，但解决问题、创造价值的本质依然不变。这就是他所说的「痛苦和磨难造就伟大」——一遍遍在没人的角落练习、经历挫折，才能让你在极高压力下依然稳如泰山。
 
 ## 本集带走
 

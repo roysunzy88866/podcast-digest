@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Fei-Fei Li":1,"Yunzhu Li":1,"World Labs":3,"Cynics":1,"空间智能":2,"大型世界模型":1,"模拟":4,"反事实推理":1,"现实到仿真再到现实":1,"Marble":3}</script>
+<script type="application/json" class="pd-epn">{"Fei-Fei Li":1,"Yunzhu Li":1,"World Labs":4,"Cynics":1,"空间智能":3,"大型世界模型":1,"模拟":4,"反事实推理":1,"现实到仿真再到现实":1,"Marble":4}</script>
 
 <script>
 (function(){
