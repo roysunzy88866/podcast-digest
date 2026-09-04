@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, dedupeNewPicks, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, TRANSIENT_CAP, noteTransientFail, clearTransient, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, dedupeNewPicks, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, JOB_SETUP_MIN, TRANSIENT_CAP, noteTransientFail, clearTransient, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -653,11 +653,12 @@ describe("bjDay · C31 一律按北京时间切日(读者在北京)", () => {
 });
 
 describe("neverFitsBudget · W5 超长集终态跳过(2026-09-03:cogrev 154 分周报把源卡死 08-16 至今)", () => {
-  it("★★★ 估时 > 整班预算 = 永远放不进(337 > 300);恰好等于/小于 = 放得进", () => {
+  it("★★★ 估时 > 整班预算 − 开班开销 = 永远放不进(337 > 280);低于它 = 放得进(drift #83 起「恰好=预算」也放不进)", () => {
     expect(neverFitsBudget(337)).toBe(true);
+    expect(neverFitsBudget(300)).toBe(true); // = 整班预算:扣掉 ~20 分开班开销后永远放不进(cogrev 134 分 AI 安全集实账)
     expect(neverFitsBudget(estimateEpisodeMin(154 * 60, true))).toBe(true); // 154 分音频要转写 → 337
-    expect(neverFitsBudget(JOB_BUDGET_MIN)).toBe(false);
-    expect(neverFitsBudget(299)).toBe(false);
+    expect(neverFitsBudget(JOB_BUDGET_MIN - JOB_SETUP_MIN)).toBe(false);
+    expect(neverFitsBudget(100)).toBe(false);
     expect(neverFitsBudget(NaN)).toBe(false); // 估不出不乱判终态
   });
   it("★★★ 源码锚(新集循环):判官在预算检查之前 → 超长终态(retry:false)→ 再 outOfTimeBudget 停手;顺序错了死锁就回来", () => {
@@ -1036,5 +1037,14 @@ describe("入库时刻 added_at · 只在「真·首次入库」钉(GLM 20260830
 
   it("★★ 全文件里 added_at 只被赋值一次(别在别处又补一个赋值绕过上面的守卫)", () => {
     expect((src.match(/meta\.added_at\s*=/g) || []).length).toBe(1);
+  });
+});
+
+describe("drift #83 · neverFitsBudget 扣开班固定开销", () => {
+  it("★★★ 估时恰好 = 整班预算(300)→ 永远放不进(每班开工已跑 ~24 分,原 `>` 判不出来、每班重登记)", () => {
+    expect(neverFitsBudget(300)).toBe(true);
+    expect(neverFitsBudget(281)).toBe(true);
+    expect(neverFitsBudget(280)).toBe(false); // 恰好 = 300-20 还能放(空班)
+    expect(neverFitsBudget(120)).toBe(false);
   });
 });

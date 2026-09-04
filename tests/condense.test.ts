@@ -1,5 +1,6 @@
 // condense 的 JSON 提取容错(C7b lab E2E 逼出:GLM 把长 digest_md 的真换行直接塞进 JSON 字符串→控制字符非法)
 import { describe, it, expect } from "vitest";
+import { readFileSync, readdirSync } from "node:fs";
 import { escapeCtrlInStrings, extractJson, parseSections } from "../scripts/condense.mjs";
 
 describe("escapeCtrlInStrings", () => {
@@ -221,5 +222,25 @@ describe("validate · C5.1 Scenario 5:浓缩产物必须带 title_zh(中文标�
     expect(validate(ok)).toEqual([]);
     const { title_zh, ...noTitle } = ok;
     expect(validate(noTitle).join()).toContain("title_zh");
+  });
+});
+
+describe("drift #83 · 分隔符收尾容错(===正文## 这类笔误不再整篇作废)", () => {
+  const dir = new URL("./fixtures/condense-bad-sep/", import.meta.url);
+  const files = readdirSync(dir).filter((f) => f.endsWith(".txt"));
+  it("★★★ 三个真实坏样本(近 8 班 14 次浓缩失败全是这一种)全部完整解析:标题/导语/正文/金句齐", () => {
+    expect(files.length).toBeGreaterThanOrEqual(3); // 允许以后追加样本(GLM 007[3])
+    for (const f of files) {
+      const r = parseSections(readFileSync(new URL(f, dir), "utf8"));
+      expect(r, f).not.toBeNull();
+      expect(r!.title_zh.length, f).toBeGreaterThan(5);
+      expect(r!.tldr.length, f).toBeGreaterThan(20);
+      expect(r!.digest_md.length, f).toBeGreaterThan(3000);
+      expect(r!.quotes.length, f).toBeGreaterThanOrEqual(15);
+    }
+  });
+  it("★★ 只放宽收尾:段名错了仍不认(不硬猜)", () => {
+    expect(parseSections("===标题===\nT\n===导语===\nL\n===正文===\nB\n===金句===\n\n===END===")).not.toBeNull();
+    expect(parseSections("===标题===\nT\n===导语===\nL\n===内容===\nB\n===金句===\n\n===END===")).toBeNull(); // 「内容」≠「正文」
   });
 });

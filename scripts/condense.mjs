@@ -99,10 +99,16 @@ export function parseSections(text) {
   if (!text) return null;
   let t = String(text).replace(/\r\n/g, "\n").trim();
   const fence = t.match(/```[a-z]*\n([\s\S]*?)```/i); // GLM 偶尔仍包一层围栏
-  if (fence && /===\s*标题\s*===/.test(fence[1])) t = fence[1];
-  if (!/===\s*标题\s*===/.test(t)) return null; // 不是分段格式 → 让 extractJson 兜底
+  // drift #83(2026-09-04):分隔符**收尾**容错。实账:服务端把浓缩模型路由到 glm-5.3-flash 后,它稳定把正文分隔符写成
+  // `===正文##` / `===正文###`(正文紧接着的 markdown「## 小节」标题渗进了分隔符),其余分隔符全对、内容完整、`===END===` 收尾。
+  // 原正则要求严格 `===`,一处笔误整篇作废 → 4 次重试同样笔误 → 转瞬失败 3 班后停车 → 一集 90+ 分钟的转写白烧。
+  // 近 8 班 14 次浓缩失败**全部**是这一种;容错后 3 个真实坏样本全部完整解析(tests/fixtures/condense-bad-sep)。
+  // 只放宽收尾(`[=#]+`),开头 `===` 与段名不放宽 —— 段名错了不该硬猜。
+  const SEP = (name) => `===\\s*${name}\\s*[=#]+`;
+  if (fence && new RegExp(SEP("标题")).test(fence[1])) t = fence[1];
+  if (!new RegExp(SEP("标题")).test(t)) return null; // 不是分段格式 → 让 extractJson 兜底
   const grab = (name, next) => {
-    const m = t.match(new RegExp(`===\\s*${name}\\s*===[ \\t]*\\n([\\s\\S]*?)(?=\\n===\\s*(?:${next})\\s*===)`));
+    const m = t.match(new RegExp(`${SEP(name)}[ \\t]*\\n([\\s\\S]*?)(?=\\n===\\s*(?:${next})\\s*[=#]+)`));
     return m ? m[1] : null;
   };
   const title_zh = (grab("标题", "导语|正文|金句|END") || "").trim();

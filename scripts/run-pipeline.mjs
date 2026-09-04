@@ -340,8 +340,11 @@ export function timeBudgetVerdict(elapsedM, est, { budgetMin = JOB_BUDGET_MIN, m
 /** W5(2026-09-03):这一集**永远**放不进一班(估时 > 整班预算,与已用时间无关)。
  *  病根实证:cogrev 一集 154 分周报估 337 > 300,新集路径「放不下就停」→ 每班在它这儿停手,
  *  它后面 2 集更短的永远轮不到,cutoff 冻在 08-16;每班白占 3 个名额。这类集该判终态跳过,不该每班重撞。 */
-export function neverFitsBudget(estMin, { budgetMin = JOB_BUDGET_MIN } = {}) {
-  return Number(estMin) > budgetMin;
+// drift #83:开班固定开销(装 whisperX ~3 分 + 抓 34 源 feed + 缓存复用的头几集)实测第一次预算检查时已跑 ~24 分,
+// 所以「估时恰好 = 整班预算」的集(cogrev 134 分 AI 安全访谈估 300 = 300)用 `>` 判不出来,每班都重新登记重试、每班都放不进。
+export const JOB_SETUP_MIN = 20;
+export function neverFitsBudget(estMin, { budgetMin = JOB_BUDGET_MIN, setupMin = JOB_SETUP_MIN } = {}) {
+  return Number(estMin) > budgetMin - setupMin;
 }
 
 /** 估时壳(两处守卫 + W5 共用,防口径漂移):本地已有转写稿 → 不用再转写只算后链;
