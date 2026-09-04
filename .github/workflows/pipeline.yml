@@ -131,9 +131,11 @@ jobs:
         id: pipeline
         env:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
-          # drift #83/#84(用户 2026-09-04 拍板「直接恢复真 5.3」):浓缩从未 pin 模型,走 glm-ask 默认 glm-5-turbo,
-          # 服务端已把它路由到 glm-5.3-flash(实测)→ ADR 0013 的「浓缩=GLM-5.3」名存实亡。这里钉回真 5.3(实测该名不被路由)。
-          CONDENSE_MODEL: glm-5.3
+          # drift #88:CONDENSE_MODEL 曾于 2026-09-04 钉成 glm-5.3,首班即 3 集 ×3 次全「格式解析失败」、零产出 → 已撤回。
+          # 撤回理由(我当初漏读的):tools/glm-ask 的注释白纸黑字记着 2026-08-15 冷测结论 ——
+          #   「5.2 抽风返回空、**5.3 给 condense 长稿吐坏 JSON 连 jsonrepair 都修不了** → 切 turbo,冷测两集浓缩干净可过」。
+          # 即 5.3 对**长稿浓缩**是已证伪的选项。现回到 glm-ask 默认(glm-5-turbo,服务端路由到 5.3-flash):
+          # 它会写出 `===正文##` 这类分隔符笔误,但**有内容**,而 drift #83 的容错解析器正是为此而修。
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}   # C9:whisperX pyannote 分离要(a16z ASR 路线)
           PEIYIN_MIMO_KEY: ${{ secrets.MIMO_API_KEY }}  # C37:配音 MiMo 主路(缺=自动全走 edge,不炸)

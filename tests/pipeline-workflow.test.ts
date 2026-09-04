@@ -42,9 +42,13 @@ describe("W2 · 判官留痕文件随仓提交 + 进 artifact(否则随 runner �
   });
 });
 
-describe("drift #83/#84 · 浓缩模型钉回真 GLM-5.3(服务端把默认 glm-5-turbo 路由成 5.3-flash)", () => {
+describe("drift #88 · 浓缩绝不能钉 glm-5.3(2026-08-15 已冷测证伪:长稿吐坏 JSON;2026-09-04 实跑复现零产出)", () => {
   const y = readFileSync(new URL("../.github/workflows/pipeline.yml", import.meta.url), "utf8");
-  it("★★★ 编排器 env 里 CONDENSE_MODEL=glm-5.3(ADR 0013 口径,用户 2026-09-04 明选恢复)", () => {
-    expect(y).toMatch(/^\s+CONDENSE_MODEL: glm-5\.3\s*$/m);
+  it("★★★ 编排器 env 里不许出现 CONDENSE_MODEL: glm-5.3 —— 钉过一次,首班 3 集 ×3 次全格式解析失败", () => {
+    expect(y).not.toMatch(/CONDENSE_MODEL:\s*glm-5\.3\s*$/m);
+  });
+  it("★★ 撤回原因留在 workflow 里,防下次又被「ADR 说浓缩=5.3」勾回去", () => {
+    expect(y).toContain("drift #88");
+    expect(y).toContain("已证伪");
   });
 });
