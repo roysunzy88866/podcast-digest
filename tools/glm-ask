@@ -57,6 +57,11 @@ def main():
     body = {
         "model": model,
         "max_tokens": max_tokens,
+        # drift #92(2026-09-05 实锤):服务端把 glm-4.6/glm-5-turbo 路由到 glm-5.3-flash,它会**只回一个 thinking 块**
+        # 把 max_tokens 烧光(stop_reason=max_tokens),永远轮不到 text → 本工具只取 text 块 → 输出为空。
+        # 这是判官返回空(drift #82 的真凶,token 上限只是症状)/ 翻译整块「缺 50 条」/ 浓缩空返回的同一根因。
+        # 实测:同一输入,不关思考 0/50;关掉后连打两次(含缓存命中)均 50/50。默认关;要开设 GLM_THINKING=on。
+        **({} if os.environ.get("GLM_THINKING", "").lower() == "on" else {"thinking": {"type": "disabled"}}),
         "messages": [{"role": "user", "content": prompt}],
     }
     if system:
@@ -79,9 +84,11 @@ def main():
     except urllib.error.URLError as e:
         sys.exit(f"网络错误: {e}")
 
-    text = "".join(
-        b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"
-    )
+    blocks = data.get("content", [])
+    text = "".join(b.get("text", "") for b in blocks if b.get("type") == "text")
+    if not text.strip():
+        # 没有 text 块 = 上面那种病(或别的新病)。响亮说明,别让调用方把「空」当「模型没话说」(drift #92)
+        sys.stderr.write(f"[glm-ask] ⚠️ 响应无有效 text 内容(块类型={[b.get('type') for b in blocks]} stop_reason={data.get('stop_reason')})—— 输出为空;调用方按「缺/重试」处理,退出码仍 0(drift #92)\n")
     print(text)
     u = data.get("usage", {})
     if u:
