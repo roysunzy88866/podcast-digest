@@ -229,7 +229,7 @@ describe("drift #83 · 分隔符收尾容错(===正文## 这类笔误不再整�
   const dir = new URL("./fixtures/condense-bad-sep/", import.meta.url);
   const files = readdirSync(dir).filter((f) => f.endsWith(".txt"));
   it("★★★ 三个真实坏样本(近 8 班 14 次浓缩失败全是这一种)全部完整解析:标题/导语/正文/金句齐", () => {
-    expect(files.length).toBeGreaterThanOrEqual(3); // 允许以后追加样本(GLM 007[3])
+    expect(files.length).toBeGreaterThanOrEqual(5); // 09-05 追加 2 个(EN| 前缀缺失 / ===正文---)
     for (const f of files) {
       const r = parseSections(readFileSync(new URL(f, dir), "utf8"));
       expect(r, f).not.toBeNull();
@@ -276,5 +276,28 @@ describe("drift #87 · 正文剥掉「无说话人的时间戳区间」(用户�
   it("★★★ 接线:parseSections 出口就已剥干净(不能只有函数没接上)", () => {
     const r = parseSections("===标题===\nT\n===导语===\nL\n===正文===\n定价 50 美元 [00:50-03:41]。\n===金句===\n\n===END===");
     expect(r!.digest_md).toBe("定价 50 美元。");
+  });
+});
+
+describe("drift #93 · 金句 EN| 前缀缺失 + ===正文--- 分隔符(关思考后首班 2 集整篇作废)", () => {
+  const dir = new URL("./fixtures/condense-bad-sep/", import.meta.url);
+  it("★★★ 真实样本:pg 那集 28 块金句全无 EN| 前缀 → 原判 0 条;容错后 28 条、validate 全过", () => {
+    const r = parseSections(readFileSync(new URL("sample4-2026-09-04-pg-product-loops-no-EN-prefix.txt", dir), "utf8"));
+    expect(r).not.toBeNull();
+    expect(r!.quotes.length).toBe(28);
+    expect(r!.quotes[0].en.startsWith("For me, the difference is an agent")).toBe(true);
+    expect(r!.quotes[0].speaker).toBe("Tyler Folkman");
+  });
+  it("★★★ 真实样本:indepth 那集 ===正文--- + 无 EN| → 容错后 20 条金句、正文完整", () => {
+    const r = parseSections(readFileSync(new URL("sample5-2026-07-24-indepth-gamma-dash-sep-no-EN.txt", dir), "utf8"));
+    expect(r).not.toBeNull();
+    expect(r!.quotes.length).toBe(20);
+    expect(r!.digest_md.length).toBeGreaterThan(3000);
+  });
+  it("★★ 容错只在「块里恰好剩一条候选行」时启用;多出两条不猜(宁可丢这一条金句)", () => {
+    const raw = "===标题===\nT\n===导语===\nL\n===正文===\n" + "x".repeat(400) + "\n===金句===\n01:00 | A\nline one\nline two\nZH | 中\n\n02:00 | B\nonly line\nZH | 文\n===END===";
+    const r = parseSections(raw)!;
+    expect(r.quotes.length).toBe(1);
+    expect(r.quotes[0].en).toBe("only line");
   });
 });

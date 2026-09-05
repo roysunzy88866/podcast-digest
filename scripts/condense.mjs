@@ -123,11 +123,12 @@ export function parseSections(text) {
   // 原正则要求严格 `===`,一处笔误整篇作废 → 4 次重试同样笔误 → 转瞬失败 3 班后停车 → 一集 90+ 分钟的转写白烧。
   // 近 8 班 14 次浓缩失败**全部**是这一种;容错后 3 个真实坏样本全部完整解析(tests/fixtures/condense-bad-sep)。
   // 只放宽收尾(`[=#]+`),开头 `===` 与段名不放宽 —— 段名错了不该硬猜。
-  const SEP = (name) => `===\\s*${name}\\s*[=#]+`;
+  // drift #93(2026-09-05):再容 `===正文---`(关思考后首班首见);判据仍是「开头 === + 段名」严格、收尾符号宽松
+  const SEP = (name) => `===\\s*${name}\\s*[=#-]+`;
   if (fence && new RegExp(SEP("标题")).test(fence[1])) t = fence[1];
   if (!new RegExp(SEP("标题")).test(t)) return null; // 不是分段格式 → 让 extractJson 兜底
   const grab = (name, next) => {
-    const m = t.match(new RegExp(`${SEP(name)}[ \\t]*\\n([\\s\\S]*?)(?=\\n===\\s*(?:${next})\\s*[=#]+)`));
+    const m = t.match(new RegExp(`${SEP(name)}[ \\t]*\\n([\\s\\S]*?)(?=\\n===\\s*(?:${next})\\s*[=#-]+)`));
     return m ? m[1] : null;
   };
   const title_zh = (grab("标题", "导语|正文|金句|END") || "").trim();
@@ -139,8 +140,15 @@ export function parseSections(text) {
   for (const block of quotesRaw.split(/\n[ \t]*\n/)) {
     const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
     const tsL = lines.find((l) => /^\d{1,3}:\d{2}\s*\|/.test(l));
-    const enL = lines.find((l) => /^EN\s*\|/i.test(l));
+    let enL = lines.find((l) => /^EN\s*\|/i.test(l));
     const zhL = lines.find((l) => /^ZH\s*\|/i.test(l));
+    // drift #93(2026-09-05,关思考后首班):模型开始把 EN 行的 `EN |` 前缀整体省掉(两集 0/48 块有前缀)→ 原逻辑判「无金句」
+    // → validate「quotes 少于 4 条」→ 4 次重试同样省 → 整篇作废。容错:块里恰好剩一条「非时间戳、非 ZH」行 → 它就是 EN。
+    // 安全边界:EN 仍要在下游金句三联闸门逐字命中转写稿,认错行会被硬拦,不会放进错句。
+    if (!enL && tsL && zhL) { // 按下标剔除而非按文本相等(GLM 003[2]:同文本行会被双剔)
+      const rest = lines.filter((l, i) => i !== lines.indexOf(tsL) && i !== lines.indexOf(zhL));
+      if (rest.length === 1) enL = `EN | ${rest[0]}`;
+    }
     if (!tsL || !enL || !zhL) continue;
     const [tsPart, ...spRest] = tsL.split("|");
     quotes.push({
