@@ -1,0 +1,871 @@
+{
+  "episode_id": "2026-09-03-practicalai-less-about-models-more-about-architectur",
+  "podcast": "Practical AI",
+  "date": "2026-09-03",
+  "tags": [
+    "企业 AI 架构",
+    "AI 主权",
+    "物理 AI",
+    "评估（eval）",
+    "治理与保证"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.29,
+            57.585
+          ],
+          "quote": "Welcome to another episode of Practical AI Podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer at Lockheed Martin. How are you doing, Chris?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.29,
+            57.585
+          ],
+          "quote": "Welcome to another episode of Practical AI Podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer at Lockheed Martin. How are you doing, Chris?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "chetan-gupta",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chetan Gupta",
+      "file": "Chetan Gupta",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            61.88,
+            75.315
+          ],
+          "quote": "Yeah. Yeah. Excited to chat about all sorts of things, both in in terms of background and current work with Chetan Gupta today, is chief AI officer at Rackspace. Well, welcome, Chetan. How are doing?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "rackspace",
+      "type": "company",
+      "role": "company",
+      "name": "Rackspace",
+      "file": "Rackspace",
+      "primary": true,
+      "how_described": "嘉宾现任东家，定位是「从芯片到成果」：与 AMD 合作、自有数据中心，为客户提供完全由客户控制的私有 AI 环境，并把内部验证过的 AI 方案轮换推广给客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            61.88,
+            75.315
+          ],
+          "quote": "Yeah. Yeah. Excited to chat about all sorts of things, both in in terms of background and current work with Chetan Gupta today, is chief AI officer at Rackspace. Well, welcome, Chetan. How are doing?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 10,
+          "t": [
+            136.635,
+            156.72
+          ],
+          "quote": "And we were focused a lot. We started focusing we started with focus on industrial AI, as we defined it at that time. And as the industry matured, we started looking at a broader spectrum of things. And that's what I was doing. And then I joined Rackspace, and I've been here for four months.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 18,
+          "t": [
+            303.985,
+            309.745
+          ],
+          "quote": "Rackspace, just from a growth learning standpoint, if you wouldn't mind sharing?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 44,
+          "t": [
+            951.075,
+            982.05
+          ],
+          "quote": "So, Chetan, I I wanna circle back to a comment that you made as you were talking about the the arc of your career and landing at Rackspace. You mentioned something to the effect of going with the technology, but now moving to a place where you could make it, you know, more accessible and and safe and etcetera, and oper operationalize it, if I'm if I'm understanding you right. Could you help us understand that dynamic a little bit more around kind of the technology?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 76,
+          "t": [
+            1697.28,
+            1729.0249
+          ],
+          "quote": "So, Chetan, you you brought us to the point of talking through kind of thinking about architecture, and I want I I do wanna come back to that here in a second in terms of how you're thinking about that and enabling that at Rackspace. But before I do that, I wanted maybe to get your perspective on a word that you that you used a a little bit ago, which was sovereignty, which has to do I I think maybe there's listeners out there that are thinking, oh, I'm you know, I work for an an industry company. I'm not a nation state.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 83,
+          "t": [
+            1898.775,
+            1930.1349
+          ],
+          "quote": "That's great. And I I love well, I love that definition. I think it gets people thinking in the right direction. But I also loved how you actually kind of made a distinction there when you talked about AI versus model, and you you brought us to the point of thinking about architecture before. And I'm wondering if you can help us now that you're kinda you're at Rackspace, you're helping Rackspace think through the architecture that needs to be enabled for different enterprises.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 85,
+          "t": [
+            1952.645,
+            1987.035
+          ],
+          "quote": "It it's almost like you can look at that AI stack, and it can be very overwhelming to understand, you know, how to put all the pieces together, what what is the right architecture. Could you help help us understand maybe how you're think helping Rackspace enable, the architecture the architectures that are important for people now and how you're encouraging your customers, your partners to think about that architecture, not just as a model, but as a whole architecture that's supporting the deployment of AI.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 86,
+          "t": [
+            1987.035,
+            2020.765
+          ],
+          "quote": "So in some sense, Rackspace today goes from, as you say, from chip to outcome, right? Because we have a partnership with AMD, we have our own data centers, so our stack goes all the way. And for our customers, we provide the whole sort of private AI kind of environment, private cloud kind of environment where they can safely run their AI in their own environment, completely controlled by them. And this is what we are trying to do. I'm trying to build this sort of stack out for our customers, partners, and also internally at Rackspace.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 106,
+          "t": [
+            2418.7998,
+            2436.575
+          ],
+          "quote": "Yeah. Yeah. I I love that. And I I guess kind of as we as we get closer to the to the end here, I I wanna give you a chance to you know, you're sitting in this chief AI officer role. You've kind of navigated the this career are coming to Rackspace.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 107,
+          "t": [
+            2437.31,
+            2490.1
+          ],
+          "quote": "Obviously, I know you can't share, you know, anything that that's not public, but I wonder if you could give us a sense of what are the types of challenges and the and the things that you're encouraging Rackspace to think about as we're going into the rest of this year and next year. What's what's on your mind as that chief AI officer for Rackspace? What's what's kind of, yeah. What what sorts of challenges are at kind of the top of your mind as you're as you're laying down to to to sleep at night or or coming to the end of the day? What what's at the top of your mind that that needs to be addressed, you know, within Rackspace and maybe the industry a little bit more broadly to make sure that we move forward to produce the types of AI outcomes and the accessibility and the safety that that we're after?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 110,
+          "t": [
+            2504.8948,
+            2531.44
+          ],
+          "quote": "Like, what makes sense? There's no one answer that fits all. So the general design questions around architecture and all the sort of underlying components of that are of interest and of importance to me, and we think about that. The other thing I think about, and I think in this case, in the sense Rackspace is unique, could be like other companies could learn from us as well. I want to build I don't know what the right word for it is, like, a mirror org.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 115,
+          "t": [
+            2624.105,
+            2651.2449
+          ],
+          "quote": "I would very much encourage our listeners to check out what Rackspace is doing. We'll include some links in our in our show notes. Is there anywhere in particular, Chetan, that, obviously, people can go to the website, see what you're doing with AI, but anything to highlight in terms of what Rackspace is doing, kind of a jumping off point for people, or anything to highlight as we close out here in terms of what's what's currently available from Rackspace and what people can explore?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 116,
+          "t": [
+            2651.2449,
+            2667.37
+          ],
+          "quote": "So I would say that the questions that Rackspace are trying to answer is where the industry is moving towards. So you should think about those as well. How do you maintain? How do you build AI that is sovereign, that is safe, that meets your outcomes, and all of that. Right?",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 117,
+          "t": [
+            2667.37,
+            2694.6
+          ],
+          "quote": "So those are things that everyone should think about. And those are the kind of solutions that is bringing to market. So please visit us, send me an email, or reach out to me on LinkedIn if you have specific questions as to what sort of Rackspace is to it. But I would encourage everyone, if there is Rackspace or not, to think systematically about these problems because that's how you can ensure that AI succeeds in your own",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 118,
+          "t": [
+            2694.6,
+            2706.36
+          ],
+          "quote": "That's that's great. Well, thank you so much for joining us, Chetan. Look forward to having you back on the show to give us some updates as you continue to advance with Rackspace. Thank you much so much for joining.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "hitachi",
+      "type": "company",
+      "role": "company",
+      "name": "Hitachi",
+      "file": "Hitachi",
+      "primary": true,
+      "how_described": "嘉宾曾任全球 AI 研究负责人；2016-2017 年押注工业 AI，在湾区与 Facebook、Google 抢人才，成功后让管理层建立了对内部人才的信心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            81.075005,
+            96.119995
+          ],
+          "quote": "Let's start. Yeah. Yeah. Well, like I say, we we had bonded even yesterday when we were chatting about our backgrounds in in physics and mathematics. I know you started out in mathematics and spent a bunch of time at Hitachi.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 9,
+          "t": [
+            110.705,
+            136.635
+          ],
+          "quote": "I started off with a PhD in mathematics. Then I joined Hewlett Packard Labs as a research scientist working on data mining, machine learning. Then I joined Hitachi as a principal researcher, if I remember correctly. And then I sort of, you know, through the management ladder was when I left Hitachi in 2026, I was leading all of AI research at Hitachi globally. This is a very strong team, and that's what I did.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 12,
+          "t": [
+            177.74,
+            198.985
+          ],
+          "quote": "I mean, if you guys, we were all doing machine learning, making small models, right? Solving specific problems. And there was a community in Bay Area that was focused primarily on set recommendation systems. And as Chris, you would know, in companies like Lockheed Martin or Hitachi, we focus on industrial problems. And so that's what I was doing for the first half of my career.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 16,
+          "t": [
+            243.335,
+            303.585
+          ],
+          "quote": "So I wanna go back for a second. I'm gonna drag you back as you went through your timeline for a second, because as you were talking about coming up through the managerial ranks at Hitachi, and you look at with kind of the AI world exploding in terms of volume and importance and budgets and all that stuff, and so many times organizations will go to kind of an outside expert and bring them in to fill a particular key position and stuff, and yet you kind of came through the ranks at Hitachi, and I'm wondering if you have any thoughts about because there are other people out there that are watching this and listening to this right now that are in their careers, and they are aspiring to move up through the ranks themselves. What were some of the things that you brought to bear that made you able to move up through that and take on the leadership role at Hitachi before you were able to",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 19,
+          "t": [
+            309.84,
+            327.14502
+          ],
+          "quote": "Chris, that's a hard one. I was more prepared to answer the AI related question. I'm sorry. But I think that's actually a very, very interesting question. I think one thing that I think helped in my career, Hitachi, was we decided to take a bit on industrial AI.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 20,
+          "t": [
+            327.14502,
+            342.47998
+          ],
+          "quote": "This was 2016, 2017. And not very many people were talking about it. So we started a small research lab in North America. And I said given where Hitachi is, it's a giant industrial conglomerate, it makes lot of sense. But there wasn't a lot of background around it.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 22,
+          "t": [
+            358.26498,
+            416.02502
+          ],
+          "quote": "And we tried to succeed, and we did succeed to a large extent. I think that sort of paved the way, in some sense, for management for our leadership from the CEO downwards to have confidence and internal talent to take Hitachi to the next level. And and I think so my if I if I look back, I would say look forward, see what's sort of around the corner. It's it's difficult, but I think if you spend time thinking about it, not just reading about it, but thinking about it as well, gestating what's happening in the industry around you, and take a risk, take a bet on on something different, something new that is aligned with your company's direction as well, obviously, Then I think that sort of shows your leadership in terms of looking ahead and ability to take risks and then to execute. I think that's maybe that's what worked for me, I would say.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 27,
+          "t": [
+            526.415,
+            558.05505
+          ],
+          "quote": "But the math behind it was somewhat similar. And that's how it started out. And those are the kinds of problems we were solving around maintenance, around quality, how do you sort of predict if a part was going to fail, and so forth. And then, as the industry evolved, both the physical industries, meaning companies like, say, Hitachi, they started collecting more data, and sort of the AI industry also was evolving towards deep learning. Right?",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到其某个最新模型入侵了 Hugging Face 网站，作为模型可能不受控、治理重要的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            1229.805,
+            1253.0249
+          ],
+          "quote": "Should I use a larger model? And then, how do I preserve my health? So these are all the three questions that are today difficult to answer. Now, the jargon of AI also is in terms of how do you guarantee that it behaves in a responsible manner. So we all heard that Anthropic, sort of the latest model hacked Hugging Face website.",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 最新模型入侵了它的网站，作为 AI 行为需要护栏与治理的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            1229.805,
+            1253.0249
+          ],
+          "quote": "Should I use a larger model? And then, how do I preserve my health? So these are all the three questions that are today difficult to answer. Now, the jargon of AI also is in terms of how do you guarantee that it behaves in a responsible manner. So we all heard that Anthropic, sort of the latest model hacked Hugging Face website.",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "industrial-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "工业 AI (industrial AI)",
+      "file": "工业 AI",
+      "primary": true,
+      "how_described": "嘉宾 2016-2017 年在 Hitachi 押注的方向：面向发电厂、铁路等工业价值链，做故障预测、维修推荐、表面缺陷检测等共通数学的工业问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            136.635,
+            156.72
+          ],
+          "quote": "And we were focused a lot. We started focusing we started with focus on industrial AI, as we defined it at that time. And as the industry matured, we started looking at a broader spectrum of things. And that's what I was doing. And then I joined Rackspace, and I've been here for four months.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 19,
+          "t": [
+            309.84,
+            327.14502
+          ],
+          "quote": "Chris, that's a hard one. I was more prepared to answer the AI related question. I'm sorry. But I think that's actually a very, very interesting question. I think one thing that I think helped in my career, Hitachi, was we decided to take a bit on industrial AI.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 21,
+          "t": [
+            342.47998,
+            357.54498
+          ],
+          "quote": "And it was a risky bet. We were in Bay Area. We were competing with the likes of Facebook, Google for top talent. But we took that risk. We were sort of forward looking in the sense that we figured that industrial AI, physical AI will become important.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 23,
+          "t": [
+            416.02502,
+            452.25998
+          ],
+          "quote": "Yeah. I I love that answer because even, you know, Chris, I don't know if you remember, but the beginning of this year, I think we said, Chetan, we do a kind of forward looking episode usually at the beginning of each year, and one of the things we talked about about kind of coming into its own was this idea of physical AI, I think, if I'm if I'm remembering right. And so you were very much ahead of that as you mentioned. You know, you took a maybe a gamble or a risk looking towards that direction. I'm wondering for the listeners who might not be as familiar with industrial AI, physical AI, these sorts of terms.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 45,
+          "t": [
+            982.05,
+            1014.83
+          ],
+          "quote": "Now now it almost seems like with AI, every everything is feasible, but not everything is easy. Right? Or not everything is you can't operationalize everything. You can't make it accessible. Could could you help us understand your thought process around maybe that transition then from that world of industrial AI to now where when you're thinking a lot about these types of issues around operationalizing, scaling, making accessible these an actual useful and safe So,",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集定义为可大规模做机器人技术；嘉宾判断商业用途机器人会先产生冲击，通用机器人面向人类环境是下一道战线，现在谁都有机会赢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            342.47998,
+            357.54498
+          ],
+          "quote": "And it was a risky bet. We were in Bay Area. We were competing with the likes of Facebook, Google for top talent. But we took that risk. We were sort of forward looking in the sense that we figured that industrial AI, physical AI will become important.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 23,
+          "t": [
+            416.02502,
+            452.25998
+          ],
+          "quote": "Yeah. I I love that answer because even, you know, Chris, I don't know if you remember, but the beginning of this year, I think we said, Chetan, we do a kind of forward looking episode usually at the beginning of each year, and one of the things we talked about about kind of coming into its own was this idea of physical AI, I think, if I'm if I'm remembering right. And so you were very much ahead of that as you mentioned. You know, you took a maybe a gamble or a risk looking towards that direction. I'm wondering for the listeners who might not be as familiar with industrial AI, physical AI, these sorts of terms.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 29,
+          "t": [
+            571.84,
+            606.04
+          ],
+          "quote": "And then, as we got into large language models, then there was further expansion of what you could do in the industrial world itself. So one big move, obviously, is what we what people call physical AI now, which is sort of contested definition, but the idea that you could do robotics at scale. So so part of the work that we've done on automation with traditional reinforcement learning now could sort of be done in a much more formal, larger basis with sort of around robotics. Right? Can you make multiple robots work together, or even a robot can work in this environment or not?",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 32,
+          "t": [
+            641.285,
+            689.715
+          ],
+          "quote": "Yeah. I I know in you know, that you have you've run labs both in North America and Japan. And as we're talking about physical AI at this point, it occurs to me as I'm listening to you that, you know, we have a global audience here, and people from different parts of the world have different experiences in terms of this move into physical AI and some of these processes. I would imagine, I don't want to put words in your mouth, but I would imagine your time in Japan, there's a lot more robotics out there, and as we're all sitting here in The United States, there's a little bit less exposure to most people out there in terms of physical AI and robotics. I think we're kind of, in my view, we're kind of lagging other parts of the world in capacity.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 33,
+          "t": [
+            691.075,
+            717.345
+          ],
+          "quote": "I'm kind of curious, as you're looking at this, kind of what your experiences were about different parts of the globe and how that's moving the the notion of physical AI forward in these various contexts you're talking about, and and maybe, you know, with the advent of kind of embodied intelligence coming more and more into play with robotics and edge computing and stuff, What your thoughts are around that, you know, with your experiences.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集把 LLM 视为架构中的一层（模型层不只有大 LLM，还有自己的模型库），讨论其 token 成本、数据主权风险与换进换出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            1253.1849,
+            1277.525
+          ],
+          "quote": "So now, if you're going to deploy your own model, suppose you say, I want to develop my own model within the enterprise on my own data, and you deploy it. How do you guarantee that behaves in a regulated in a way that is safe? And also, you're using someone else's AI, like you're using a large LLM, how do you ensure that it behaves within guardrails? Right? It behaves in a way that is suitable for your enterprise.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1340.105,
+            1406.7699
+          ],
+          "quote": "And not only was it good, I'd like to actually get you to extend it a little bit by throwing a couple of extra logs on the fire. One of the challenges that we see in industry right now, and it's been evolving over the past, especially over the past year, is where open weights or open source models are available from. And there's so many external considerations that get brought into bear as while, to your point earlier, that the center of gravity for LLM development may be still in The US. A lot of those are closed. The number of available open weights models kind of shrunk a little bit with Metas kind of going away from that, and NVIDIA started stepping up a little bit more because the rest of the commercial industry in The US was reducing, and we're seeing an explosion of capability in terms of new models that are kind of rapidly catching up with very close followers or potentially equal from China.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1517.58,
+            1542.6799
+          ],
+          "quote": "Fix few things, meaning they need to sort of understand how much of their workload is sensitive today. Meaning, if you are, say, doing an HR query, maybe it's okay to go to an LLM. So one thing is sort of figure out what data is something you really want to work around. And there, ideally, you should sort of think about local models, open weight models in your own environment that you control. So I would say that's one North Star you should try to fix.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1542.6799,
+            1565.875
+          ],
+          "quote": "Don't marry into any model family because they will swap in and out both for commercial reasons, geopolitical reasons, right? So all of that will sort of evolve, change. So don't marry into any sort of Marry into an architectural way of thinking. Right? Meaning that these are the workloads that I can push to an LLM, outside LLM.",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (generative AI)",
+      "file": "生成式 AI",
+      "primary": true,
+      "how_described": "本集说它让 AI 民主化、人人可用，但企业不可能到处养博士团队，从而改变了把 AI 引入企业的整个模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            1078.4451,
+            1085.885
+          ],
+          "quote": "Right? So they took that responsibility. Now, with generative AI, AI has become democratized. Right? Everyone has access to AI.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 50,
+          "t": [
+            1098.82,
+            1111.725
+          ],
+          "quote": "They're very expensive to build. Right? So so so the whole model of how you would bring AI machine learning to an enterprise changes with generative AI. So that's the challenge, right? So at a high level.",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "sovereignty",
+      "type": "concept",
+      "role": "concept",
+      "name": "主权 (sovereignty)",
+      "file": "主权",
+      "primary": true,
+      "how_described": "本集说主权概念已从民族国家下移到任何企业实体——我的 AI 按我认可的治理和保证行事，「不是别人的宪法是我必须使用的，而是我自己的宪法」——最终还会延伸到个人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            1148.6849,
+            1167.8248
+          ],
+          "quote": "And everyone wants use Now, every time you ask a question, say, to a large language model, in some sense, you are sending your data over to them. So your data sovereignty is not guaranteed. So your so the way, sort of, said it, you're losing your alpha. Right? That's your IP.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1407.25,
+            1459.905
+          ],
+          "quote": "And overlaying all this, you have all these countries have their various exports concerns, import concerns, what you're allowed to use, and that makes it quite complicated as an ecosystem for companies in various businesses to try to figure out what makes sense for me. You talked about governance. You talked about data sovereignty. How do you navigate with some of these big issues that go beyond the technology of AI and the implementation of AI and can affect management concerns all the way up to the CEO and the board of directors? How do you start If you're a company now, it's late twenty twenty six, and all this has rapidly developed, how do you look at all these and make decisions for strategic interest in your organization going forward?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 75,
+          "t": [
+            1638.0901,
+            1697.28
+          ],
+          "quote": "I love how Chetan in this episode is emphasizing the need for operational sovereignty as we move into agentic AI. As agents have autonomy in your own infrastructure and touch your critical systems, it's absolutely crucial that you maintain control and limit the blast radius. That's why I'm so privileged to be leading a company called Prediction Guard, which has a self hosted control plane that allows you to maintain least agency for the agents operating in your environment and limit the blast radius of those agents. This runs in your own infrastructure. You have complete sovereign control, whether that's on prem, air gapped, or in your cloud VPC, and it's available on the AWS and Azure marketplaces. I would encourage you to check us out at predictionguard.com/practicalai. Again, check us out at predictionguard.com/practicalai.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 76,
+          "t": [
+            1697.28,
+            1729.0249
+          ],
+          "quote": "So, Chetan, you you brought us to the point of talking through kind of thinking about architecture, and I want I I do wanna come back to that here in a second in terms of how you're thinking about that and enabling that at Rackspace. But before I do that, I wanted maybe to get your perspective on a word that you that you used a a little bit ago, which was sovereignty, which has to do I I think maybe there's listeners out there that are thinking, oh, I'm you know, I work for an an industry company. I'm not a nation state.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 77,
+          "t": [
+            1729.0249,
+            1753.0848
+          ],
+          "quote": "I don't need I don't have a sovereign cloud. What what does sovereignty have to do with with me? Could you help clarify that? Because, some people might be thinking or or have different views of what that means and and kind of bring it down to maybe the the commercial or the industry setting. What what does sovereignty mean in that sense, both in terms of maybe privacy and control?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 78,
+          "t": [
+            1753.8049,
+            1769.6399
+          ],
+          "quote": "So, yeah, that's an excellent question, Daniel. And I think that's exactly the evolution that has happened. Folks typically associated sovereignty with sort of a nation state. That nation state is sovereign, and it needs to have their own AI stack. And that's how the conversation started.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 79,
+          "t": [
+            1769.72,
+            1819.9249
+          ],
+          "quote": "But I think maybe a few months ago, conversation shifted because people realized that whenever you are interacting with a large language model that is not sort of in your own environment, you are sharing your data, your context, your processes, your information. And that is an IP. And given how powerful these AI tools can be, so that is an IP in terms of your data, your knowledge that you're giving to someone else. And not only that, it can be acted upon using AI to build solutions that might impact you as a corporation. So the notion of then sovereignty comes down to not just a nation but also any entity.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 82,
+          "t": [
+            1869.165,
+            1898.775
+          ],
+          "quote": "But I think this idea of sovereignty, I think, will eventually extend to humans as well, to us as well, where we'll say, Look, how do I protect my own data when I'm interacting with these language models? Because people are sharing a lot of private information now, right? They are sort of using them as therapists, as guides, as friends. So this notion of sovereignty will come all the way down. And the idea is I am this entity, I have my own interests that are distinct from someone else's interests, and I need to protect them.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 112,
+          "t": [
+            2561.2551,
+            2593.8452
+          ],
+          "quote": "The intent should be that if you do it well, then we rotate it out to our customers. So I would say that's number two. And number three is around the governance, assurance, orchestration. I think these three layers are underserved today, and especially in a sovereign sort of environment. So how do I bring self sovereignty to our enterprises, to our customers, in a way that it is cost effective, it is safe, it is reliable, and I can orchestrate multiple workloads for them.",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "data-sovereignty",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据主权 (data sovereignty)",
+      "file": "数据主权",
+      "primary": true,
+      "how_described": "本集指出每次向外部大模型提问都在把数据送出去，「你在失去你的 alpha，那是你的 IP」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            1148.6849,
+            1167.8248
+          ],
+          "quote": "And everyone wants use Now, every time you ask a question, say, to a large language model, in some sense, you are sending your data over to them. So your data sovereignty is not guaranteed. So your so the way, sort of, said it, you're losing your alpha. Right? That's your IP.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1407.25,
+            1459.905
+          ],
+          "quote": "And overlaying all this, you have all these countries have their various exports concerns, import concerns, what you're allowed to use, and that makes it quite complicated as an ecosystem for companies in various businesses to try to figure out what makes sense for me. You talked about governance. You talked about data sovereignty. How do you navigate with some of these big issues that go beyond the technology of AI and the implementation of AI and can affect management concerns all the way up to the CEO and the board of directors? How do you start If you're a company now, it's late twenty twenty six, and all this has rapidly developed, how do you look at all these and make decisions for strategic interest in your organization going forward?",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "线束 (harness)",
+      "file": "线束",
+      "primary": true,
+      "how_described": "嘉宾认为是最关键的新构建：把机器学习模型与可用成果绑起来的机制；同一个模型配两个不同线束会得到两个不同成果，编码工具好用靠的是编码线束而非模型本身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            1930.215,
+            1952.485
+          ],
+          "quote": "Actually, that that in itself becomes a little bit complicated because, like you said, models are not the same as, quote, AI that you're deploying in the sense of, oh, maybe there's an agent that uses multiple models. It has a harness. It connects to MCP servers. There's a governance element to it. There's an observability element to it, etcetera, etcetera.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2061.695,
+            2095.5452
+          ],
+          "quote": "And on top of it sits, I would say, the harness. And I think you've read the word harness, Daniel. I think it's very important to think of harness as a sort of key construct in how you deploy your AI. So harness is what, in my mind, ties a machine learning model to an outcome that you can use. So when, for example, people use plot code, it's not that you are directly working with the model itself, it is the coding harness, right, around the underlying machine learning model that enables you to do something very useful.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 90,
+          "t": [
+            2095.785,
+            2129.25
+          ],
+          "quote": "So you take the same model and you build two different harnesses, you will get two different outcomes. So, it's very important to think through what sort of a harness looks like. And harness simply thinks through a harness as sort of the machinery that sort of specifies the logic the underlying underlying AI model to use and setting a set of tool sets that it could use, right, through MCP or whatever. And then, in any enterprise, there will be multiple harnesses. Right?",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 91,
+          "t": [
+            2129.25,
+            2149.6353
+          ],
+          "quote": "So you will have a coding harness, you might have a harness for your agents for HR, you might have a harness for agents for blah blah blah. And so, ideally, you should think of building an orchestration layer to manage multiple harnesses. Right? And on top of it, you can then think of the consumption layer. And around the whole thing should be wrapped, I would say, with the governance and assurance planes.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 98,
+          "t": [
+            2340.25,
+            2349.095
+          ],
+          "quote": "I will use this. Right? So I think you need to build an eval layer as part of the orchestration framework. And that can then help you decide which sort of harness to go to. Sorry, sorry, Daniel.",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集主张为企业自己的工作负载建评估层，作为模型动荡年代换进换出模型、保住客户体验稳定的锚；公开基准只是指导，且这就是当年「黄金数据集」思路的更全面版。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            2299.71,
+            2325.155
+          ],
+          "quote": "They don't represent your workloads. And as we said earlier, the boundary of AI is jagged, right? So although a certain model might do very well on a benchmark, it doesn't necessarily translate into that it will do very well for your workloads as well. So I would say having your own evals is very important. And once you make that eval layer, then in some sense you can have a very consistent experience for your customers.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 98,
+          "t": [
+            2340.25,
+            2349.095
+          ],
+          "quote": "I will use this. Right? So I think you need to build an eval layer as part of the orchestration framework. And that can then help you decide which sort of harness to go to. Sorry, sorry, Daniel.",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "在嘉宾的分层架构中，推理层位于模型层之上，是「你如何从一个模型中获得一些智能」的方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            2050.3901,
+            2061.51
+          ],
+          "quote": "There's a model library. And on top of it is an inference layer. So inference layer is how you get some intelligence out of a model. Right? So that is the inference layer.",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集问：用别人的 LLM 时，如何确保它在护栏之内、以适合你企业的方式行事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            1253.1849,
+            1277.525
+          ],
+          "quote": "So now, if you're going to deploy your own model, suppose you say, I want to develop my own model within the enterprise on my own data, and you deploy it. How do you guarantee that behaves in a regulated in a way that is safe? And also, you're using someone else's AI, like you're using a large LLM, how do you ensure that it behaves within guardrails? Right? It behaves in a way that is suitable for your enterprise.",
+          "speaker": "Chetan"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "治理 (governance)",
+      "file": "治理",
+      "primary": true,
+      "how_described": "本集把治理与保证平面视为包裹整个 AI 架构的一层，并认为治理、保障、编排这三层今天服务严重不足，尤其在主权环境中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            1277.685,
+            1311.435
+          ],
+          "quote": "Right? So the problem of governance and assurance becomes very important. The governance, the problem of how do you maximize the value of your AI, the tokenomics becomes important. The value of preserving your IP becomes important. And the problem of having the right architecture so that you can cater to the multiple needs within the enterprise from say programming, to writing emails, to summarizing, to research can be done in sort of a safe, guaranteed manner so that you can sort of interchange the models if needed.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1407.25,
+            1459.905
+          ],
+          "quote": "And overlaying all this, you have all these countries have their various exports concerns, import concerns, what you're allowed to use, and that makes it quite complicated as an ecosystem for companies in various businesses to try to figure out what makes sense for me. You talked about governance. You talked about data sovereignty. How do you navigate with some of these big issues that go beyond the technology of AI and the implementation of AI and can affect management concerns all the way up to the CEO and the board of directors? How do you start If you're a company now, it's late twenty twenty six, and all this has rapidly developed, how do you look at all these and make decisions for strategic interest in your organization going forward?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 72,
+          "t": [
+            1565.875,
+            1600.95
+          ],
+          "quote": "These are the workloads that I need to have on prem or in a governed environment, and what are my governance and assurance layers that I want to have? So what are the properties that are important to my enterprise, right, that I really need to enforce in the way I work with AI? Right? So I think if you have some of those principles pinned down, it becomes an easier way to get started. And I think most and then a year or so ago, I would have said, right, pick one problem up, and then do it well all the way, and then pick the second one up, then do it all the way.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 81,
+          "t": [
+            1835.22,
+            1869.165
+          ],
+          "quote": "My AI behaves in a way not model, sorry. My AI behaves in a way that I want it to behave with sort of the governance and assurances that I think are appropriate in my environment, not someone else dictating to me what my governance should be. It is not someone else's constitution that I have to use, but my own constitution as from a sovereign standpoint. And I think that idea will extend further as we go ahead, maybe to an individual as well, right? So we are quite of now used to the idea of sharing our private information with abandon, so to speak, right?",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 84,
+          "t": [
+            1930.215,
+            1952.485
+          ],
+          "quote": "Actually, that that in itself becomes a little bit complicated because, like you said, models are not the same as, quote, AI that you're deploying in the sense of, oh, maybe there's an agent that uses multiple models. It has a harness. It connects to MCP servers. There's a governance element to it. There's an observability element to it, etcetera, etcetera.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 91,
+          "t": [
+            2129.25,
+            2149.6353
+          ],
+          "quote": "So you will have a coding harness, you might have a harness for your agents for HR, you might have a harness for agents for blah blah blah. And so, ideally, you should think of building an orchestration layer to manage multiple harnesses. Right? And on top of it, you can then think of the consumption layer. And around the whole thing should be wrapped, I would say, with the governance and assurance planes.",
+          "speaker": "Chetan"
+        },
+        {
+          "seg": 112,
+          "t": [
+            2561.2551,
+            2593.8452
+          ],
+          "quote": "The intent should be that if you do it well, then we rotate it out to our customers. So I would say that's number two. And number three is around the governance, assurance, orchestration. I think these three layers are underserved today, and especially in a sovereign sort of environment. So how do I bring self sovereignty to our enterprises, to our customers, in a way that it is cost effective, it is safe, it is reliable, and I can orchestrate multiple workloads for them.",
+          "speaker": "Chetan"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

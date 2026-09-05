@@ -35,7 +35,7 @@ unlisted: true
 
 [[Harry Stebbings]] · [[NVIDIA]] · [[Hugging Face]] · [[OpenAI]] · [[Cursor]] · [[Anthropic]] · [[Cognition]] · [[Clay]] · [[Linear]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":9,"NVIDIA":27,"Hugging Face":17,"OpenAI":82,"Cursor":43,"Anthropic":94,"Cognition":14,"Clay":2,"Linear":7,"Salesforce":12}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":10,"NVIDIA":27,"Hugging Face":18,"OpenAI":82,"Cursor":43,"Anthropic":96,"Cognition":14,"Clay":2,"Linear":7,"Salesforce":12}</script>
 
 <script>
 (function(){

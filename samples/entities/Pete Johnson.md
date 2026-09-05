@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":3,"MongoDB":4,"Voyage AI":1,"Anthropic":94,"Eleven Labs":4,"Uber":7,"智能体":1,"智能体记忆":1,"RAG":7,"嵌入模型":1}</script>
+<script type="application/json" class="pd-epn">{"Nathan":3,"MongoDB":4,"Voyage AI":1,"Anthropic":96,"Eleven Labs":4,"Uber":7,"智能体":1,"智能体记忆":1,"RAG":7,"嵌入模型":1}</script>
 
 <script>
 (function(){

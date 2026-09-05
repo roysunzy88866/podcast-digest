@@ -1,0 +1,190 @@
+{
+  "title_zh": "拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局",
+  "tldr": "Anthropic 前置部署工程负责人 Amandeep Khurana 讲 FDE 与专业服务的区别、挑客户的三个过滤器，以及为什么他放弃了高两三倍的 offer。",
+  "digest_md": "拒绝一份薪水高三倍的 offer,跑去一家刚起步的团队带人——说这话的人是 Amandeep Khurana,Anthropic 前置部署工程(forward deployed engineering)里带团队的人。这一集是 Product School CEO Carlos 和他的一场公开对话：两人私聊过一百次，头一回当众聊。Amandeep 的路径不寻常：AWS 工程师出身，在 Cloudera 做了五年解决方案架构师，2016 年创业、公司被 Databricks 收购，然后在亚马逊干了五年半——期间在 2023 年主动放弃了管理职位，回去做 IC(个人贡献者，就是不带人的执行岗)。\n\n## 从创业者到亚马逊，再到“就不想做管理”的那一刻\n\n在亚马逊做到同时管产品和工程的职位之后，他却在 2023 年主动交还了管理职责。那时候“回去做 IC”还不像今天这么酷，没什么人这么干。他的理由很实际：面前有个 IC 机会，正好在一个他想学但完全不懂的领域——如果当时摆着的是管理岗，他可能就选管理岗了。但如果继续把大块时间花在组织建设上，他学不到东西。他还找了几位从 VP 转回 IC、后来又回到领导岗位的人聊，得到的建议是：最坏的情况是学到新领域，最好的情况也是学到新领域 [05:28 Amandeep Khurana]。\n\n离开亚马逊时，他本来的计划是再创一次业。辞职几周后，Anthropic 的 offer 来了，邀请他加入刚正式化的前置部署工程职能。他当时居然主动要求“就让我做 IC 前置部署工程师吧，这事太好玩了”，招聘经理拒绝了，要他进来带团队。他答应了。\n\n## FDE 不是改名的专业服务\n\n前置部署工程师这个头衔现在很火，很多公司拿它包装传统售后团队。Amandeep 先纠正了一件事：Anthropic 不是先驱——微软几十年前就干这个，这个术语的现行形态是 Palantir 在 2008 年前后推广开的，他们是在向 Palantir 学习 [09:33 Amandeep Khurana]。\n\n那 FDE 和传统专业服务的区别到底是什么？他给了两条硬标准：\n\n**第一，交换物不同。** 典型专业服务是“我给你时间、你给我钱”，你告诉我要做什么我就做。FDE 是双方先在一个**成果**上达成一致——甚至可能一起花时间，根据业务整体目标找出正确的结果——然后 FDE 跟你一起置身其中，把它做成。关系里有多得多的主人翁意识 [09:33 Amandeep Khurana]。\n\n**第二，工作必须反馈回产品。** 每次合作都要产出两样东西：一是对产品的反馈(在 Anthropic 还包括反馈到研究侧，这是飞轮的来源)；二是产出一份蓝图或打法手册，让这种类型的合作不必再做第二次。它是一个首创的、尖刀上的问题——解完之后模板化，要么产品化，要么交给客户自建，要么给系统集成商伙伴去规模化(“这就是你在一家银行里做这件事的方法”)。所以 FDE 不是要建一个专业服务部门来赚钱，而是弄清楚怎么把技术以最好的方式带进真实世界，再把经验送出去 [09:33 Amandeep Khurana]。\n\n## 挑客户的三个过滤器\n\n这么精英的团队，什么客户才接？三个过滤器：一，是否与使命一致(把 AI 安全地带给世界、为人类福祉)；二，是否是首创、能否打开一组目前拿不到的使用场景或一个行业；三，这次合作能否给产品带来信号。他强调，商业回报不是唯一视角，这三件事比商业回报重要得多 [13:32 Amandeep Khurana]。\n\n至于什么样的人能当 FDE:没有固定画像——有前工程师、有博士研究员、也有非工程背景的。真正筛的是：是否与使命对齐、是否动手造东西、能否在没人知道答案的复杂客户环境里自己把答案搞出来(“很高的主观能动性”)，同时维护客户的信任 [14:33 Amandeep Khurana]。\n\n## 人才战争与“我不缺这笔钱，但不是妥协”\n\n实验室的人才被当 NBA 球员抢，Anthropic 靠什么留人？Amandeep 说至少目前没遇到留存问题：公司涨得快，股票授予比你几个月前拿到的更值钱；竞争没造成流失，面试里会筛使命契合。他也承认，实验室的薪酬包比 FAANG 慷慨得多——这在五六年前不成立，那时付薪最健康的是 FAANG [16:03 Amandeep Khurana]。\n\n他自己就被开过两到三倍的价。决策标准说得很简单：历史上他一直凭头脑做决定，这次想跟着内心走——与使命的共鸣，加上遇见的每个人讲原则如何落地都让他信服 [17:54 Amandeep Khurana]。对人才战争，他的判断是“扩散”视角：如果 AI 要兑现从医学到化学的所有好处，应用侧的理解必须扩散到市场，否则它只属于一小撮人、影响也被锁死在一小撮人手里。开放权重模型是扩散的一种形式，人才也是。历史上 90 年代末网站开发者稀缺、收费吓人；今天你打开 Lovable 输入一句话就能得到完整应用——每个行业都会扩散，这里也不例外 [17:54 Amandeep Khurana]。\n\n## “先赢下游戏才能退出”——以及这句话哪里不对\n\nNaval Ravikant 说过：要摆脱一个游戏，你得先赢它，然后才会看清它的徒劳，然后自由。Amandeep 认为这话 90% 对，但缺了一块：看清徒劳不止“赢”这一条路。他自己不是亚马逊的总监、不是 VP——他没赢完就退出了。他只是发现，每次晋升，从 A 点到 B 点到 C 点，感觉没有任何不同；复盘的一致性是：每个台阶上，“内心”参与得太少。这个领悟花了好几年，不是一夜之间 [20:57 Amandeep Khurana]。\n\n他也坦白：不说自己已经“摆脱了游戏”——这家公司是 Anthropic、薪水不低、品牌和人都很棒，从生活质量上他没妥协任何东西。“我能看到它的徒劳，但我还没有把自己从中解放出来。”\n\nCarlos 补了一个视角：归根结底你有创造自己游戏的自由——公司的二级三级四级五级是人定义的，你也可以为自己的公司和生活定义级别。Amandeep 完全同意，并给了一个具体的账：他重视健康和社群。如果要在任何公司当 VP、每周干 60 小时，就顾不上社群、家人和健康。“我不想 70 岁的时候，生病，身体不太健康，守着 5000 万美元坐着。这笔交易对我来说就是不合理。” [23:11 Amandeep Khurana]\n\n## 为什么 Anthropic 人人头衔相同\n\nAnthropic 人人都是 MTS(技术组成员)，不管什么级别。Amandeep 的解释是文化加自选：在亚马逊，你和 VP 开会，VP 的话天然更有分量，存在隐性的权威关系。在 Anthropic,他和 Andrej Karpathy 开会——一位他本人也仰望的明星人物——对方自我介绍，头衔是 MTS;他自己也是 MTS;查公司通讯录，还是 MTS。对话在平等地位上进行，尊重的是想法而非头衔。他带的人是 MTS,他向之汇报的人也是 MTS——“行吧，都行。” [24:21 Amandeep Khurana]\n\n## 本集带走\n\n- **FDE 和专业服务的分界线**：不是卖时间，是先对齐成果再一起做成；且每次合作必须产出产品反馈 + 一份可复用的蓝图/模板，目标是“再也不用做第二次这类合作”。\n- **挑客户三过滤器**：使命一致、首创且能打开新场景/新行业、能给产品带来信号——商业回报排在这三条之后。\n- **职业换轨的决策法**：如果继续做管理就学不到想学的领域，就退回 IC;最坏结果和最好结果都是“学到新领域”，所以没什么可输的。\n- **Naval 那句话的修正版**：“先赢才能退”只对九成；复盘每次晋升“感觉没变化”这个信号，也能提前看清游戏，不必赢完才退。\n- **定义自己的级别**：把健康、社群、家庭折算进去再评估一份工作——有些账(70 岁守着 5000 万)算完就不想做。\n- **无级别头衔的机制价值**：全员同一头衔砍掉了会议里的隐性权威，让对话权重回到想法本身。",
+  "quotes": [
+    {
+      "en": "There were a couple of opportunities that would have paid two to three times more. My heart felt pulled in this direction, and this time I wanted to do it differently.",
+      "zh": "有几个机会的报酬会是两到三倍。我的内心被拉向了这个方向，而这一次我想用不同的方式来做。",
+      "timestamp": "00:21",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "To be free of a game, you have to first win the game, and only then do you realize the futility of the game, and then you're free of it.",
+      "zh": "要摆脱一个游戏，你必须先赢得这个游戏，只有到那时你才会意识到这个游戏的徒劳，然后你才能从中解脱。",
+      "timestamp": "00:40",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "Every engagement should produce a couple of things for us. One, feedback into product. Two, it needs to create some sort of blueprint or playbook, so we don't have to do that type of engagement again.",
+      "zh": "每一次合作都应该为我们产出几样东西。第一，对产品的反馈。第二，它需要创造出某种蓝图或打法手册，这样我们就不必再做那种类型的合作了。",
+      "timestamp": "12:20",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "We're not trying to build or scale a professional services arm. This is essentially to figure out how to bring this technology into the real world in the best possible way, and then take all those learnings, templatize them, and give them away, either as product or as blueprints.",
+      "zh": "我们不是在尝试打造或规模化一个专业服务部门。这本质上是为了弄清楚如何以最好的方式把这项技术带进真实世界，然后把所有这些经验模板化，并把它们送出去，要么作为产品，要么作为蓝图。",
+      "timestamp": "13:00",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "The comp packages are very generous within the labs, much more so than the FAANG companies, which was not true five or six years ago.",
+      "zh": "实验室内部的薪酬包非常慷慨，比 FAANG 公司还要慷慨得多，而这在五六年前是不成立的。",
+      "timestamp": "16:58",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "Otherwise, if it only remains with a small set of people, AI will not play out at the scale of humanity. It will remain concentrated among a very small group, and limited to the impact that small group can have.",
+      "zh": "否则，如果它只留在一小撮人手里，AI 就不会在人类的尺度上兑现。它将保持集中在非常小的一群人中，并且仅限于那一小群人所能产生的影响。",
+      "timestamp": "18:56",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "If you look historically, in the late 90s website developers were rare, and they used to charge a bomb. Well, today you just go to any of these tools, you go to Lovable and type one single thing, and it's going to give you a full app.",
+      "zh": "如果你回顾历史，90 年代末网站开发者很稀缺，他们收费高得吓人。而今天，你只要打开这些工具中的任何一个，你打开 Lovable，输入一句话，它就会给你一个完整的应用。",
+      "timestamp": "19:47",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "I think he's right, but only partly right. It's 90% right. The thing that's missing is that to realize the futility of the game, there are a number of other ways you can get there; it's not just winning the game.",
+      "zh": "我认为他是对的，但只对了一部分。90% 是对的。缺失的地方在于，要意识到游戏的徒劳，还有许多其他途径可以到达那里；不仅仅是赢得游戏。",
+      "timestamp": "21:07",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "So I won't say I'm free of the game; that's not the right characterization. I can see the futility of it, but I haven't freed myself of it.",
+      "zh": "所以我不会说我已经摆脱了游戏；那不是准确的描述。我能看到它的徒劳，但我还没有把自己从中解放出来。",
+      "timestamp": "22:37",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "I certainly got wrapped up in the game that was defined by somebody else. The rules were defined by somebody else, what good looks like is defined by somebody else.",
+      "zh": "我确实曾被别人定义的游戏缠住过。规则是别人定义的，什么是好是别人定义的。",
+      "timestamp": "23:14",
+      "speaker": "Amandeep Khurana"
+    },
+    {
+      "en": "So we're on equal footing in that conversation. It's all about that conversation, what you're bringing to it, adding value to it, and having respect for the other individual, not because of their title, but because of their ideas.",
+      "zh": "所以在那场对话中我们是平等的地位。一切都关于那场对话本身，你为它带来了什么，为它增添价值，并且尊重对方这个人，不是因为他头衔，而是因为他的想法。",
+      "timestamp": "25:13",
+      "speaker": "Amandeep Khurana"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Amandeep Khurana",
+      "en": "I don't want to be 70 years old, not very healthy, sitting on $50 million. That trade just didn't make sense to me.",
+      "zh": "我不想在 70 岁的时候，身体不太健康，守着 5000 万美元坐着。这笔交易对我来说就是不合理。"
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Amandeep Khurana",
+      "en": "There were a couple of opportunities that would have paid two to three times more. My heart felt pulled in this direction, and this time I wanted to do it differently.",
+      "zh": "有几个机会的报酬会是两到三倍。我的内心被拉向了这个方向，而这一次我想用不同的方式来做。"
+    },
+    {
+      "timestamp": "00:40",
+      "speaker": "Amandeep Khurana",
+      "en": "To be free of a game, you have to first win the game, and only then do you realize the futility of the game, and then you're free of it.",
+      "zh": "要摆脱一个游戏，你必须先赢得这个游戏，只有到那时你才会意识到这个游戏的徒劳，然后你才能从中解脱。"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Amandeep Khurana",
+      "en": "I would not call us the pioneers of this. The concept of forward deployed engineering has existed for a very, very long time. Microsoft is the OG of this; they used to do it several decades ago.",
+      "zh": "我不会称我们为先驱。前置部署工程的概念已经存在非常非常长的时间了。微软是这个玩法的 OG；他们几十年前就在做了。"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Amandeep Khurana",
+      "en": "It's that we're going to align on an outcome. We might even spend time together to identify the right outcome for the business based on the overall goals. I'm going to align on that, and then I'm in it with you.",
+      "zh": "而是我们要在一个成果上达成一致。我们甚至可能会一起花时间，根据整体目标为业务找出正确的成果。我会在那上面达成一致，然后我就和你一起置身其中。"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Amandeep Khurana",
+      "en": "Every engagement should produce a couple of things for us. One, feedback into product. Two, it needs to create some sort of blueprint or playbook, so we don't have to do that type of engagement again.",
+      "zh": "每一次合作都应该为我们产出几样东西。第一，对产品的反馈。第二，它需要创造出某种蓝图或打法手册，这样我们就不必再做那种类型的合作了。"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Amandeep Khurana",
+      "en": "We're not trying to build or scale a professional services arm. This is essentially to figure out how to bring this technology into the real world in the best possible way, and then take all those learnings, templatize them, and give them away, either as product or as blueprints.",
+      "zh": "我们不是在尝试打造或规模化一个专业服务部门。这本质上是为了弄清楚如何以最好的方式把这项技术带进真实世界，然后把所有这些经验模板化，并把它们送出去，要么作为产品，要么作为蓝图。"
+    },
+    {
+      "timestamp": "13:32",
+      "speaker": "Amandeep Khurana",
+      "en": "The FDE team actually does not look at commercials as the only lens. In fact, these three things are much more important than the commercials.",
+      "zh": "FDE 团队实际上并不会把商业回报作为唯一的视角。事实上，这三件事比商业回报重要得多。"
+    },
+    {
+      "timestamp": "14:33",
+      "speaker": "Amandeep Khurana",
+      "en": "Since it's never been done before, we're going to run into problems we never anticipated.",
+      "zh": "由于这事从来没有被做过，我们会遇到我们从未预料到的问题。"
+    },
+    {
+      "timestamp": "15:38",
+      "speaker": "Amandeep Khurana",
+      "en": "Competition has not been a reason why we've seen any attrition, and Anthropic generally has not seen attrition, from what I understand.",
+      "zh": "据我了解，竞争并不是我们见到任何人员流失的原因，而且 Anthropic 总体上没有出现人员流失。"
+    },
+    {
+      "timestamp": "16:03",
+      "speaker": "Amandeep Khurana",
+      "en": "The comp packages are very generous within the labs, much more so than the FAANG companies, which was not true five or six years ago.",
+      "zh": "实验室内部的薪酬包非常慷慨，比 FAANG 公司还要慷慨得多，而这在五六年前是不成立的。"
+    },
+    {
+      "timestamp": "17:54",
+      "speaker": "Amandeep Khurana",
+      "en": "Otherwise, if it only remains with a small set of people, AI will not play out at the scale of humanity. It will remain concentrated among a very small group, and limited to the impact that small group can have.",
+      "zh": "否则，如果它只留在一小撮人手里，AI 就不会在人类的尺度上兑现。它将保持集中在非常小的一群人中，并且仅限于那一小群人所能产生的影响。"
+    },
+    {
+      "timestamp": "17:54",
+      "speaker": "Amandeep Khurana",
+      "en": "If you look historically, in the late 90s website developers were rare, and they used to charge a bomb. Well, today you just go to any of these tools, you go to Lovable and type one single thing, and it's going to give you a full app.",
+      "zh": "如果你回顾历史，90 年代末网站开发者很稀缺，他们收费高得吓人。而今天，你只要打开这些工具中的任何一个，你打开 Lovable，输入一句话，它就会给你一个完整的应用。"
+    },
+    {
+      "timestamp": "20:57",
+      "speaker": "Amandeep Khurana",
+      "en": "I think he's right, but only partly right. It's 90% right. The thing that's missing is that to realize the futility of the game, there are a number of other ways you can get there; it's not just winning the game.",
+      "zh": "我认为他是对的，但只对了一部分。90% 是对的。缺失的地方在于，要意识到游戏的徒劳，还有许多其他途径可以到达那里；不仅仅是赢得游戏。"
+    },
+    {
+      "timestamp": "20:57",
+      "speaker": "Amandeep Khurana",
+      "en": "I started to see a consistency for myself: there was just not enough heart involved in each of those steps.",
+      "zh": "我开始为自己看到一个一致性：在每一个这样的台阶上，参与的内心都太少了。"
+    },
+    {
+      "timestamp": "20:57",
+      "speaker": "Amandeep Khurana",
+      "en": "So I won't say I'm free of the game; that's not the right characterization. I can see the futility of it, but I haven't freed myself of it.",
+      "zh": "所以我不会说我已经摆脱了游戏；那不是准确的描述。我能看到它的徒劳，但我还没有把自己从中解放出来。"
+    },
+    {
+      "timestamp": "23:11",
+      "speaker": "Amandeep Khurana",
+      "en": "I certainly got wrapped up in the game that was defined by somebody else. The rules were defined by somebody else, what good looks like is defined by somebody else.",
+      "zh": "我确实曾被别人定义的游戏缠住过。规则是别人定义的，什么是好是别人定义的。"
+    },
+    {
+      "timestamp": "24:21",
+      "speaker": "Amandeep Khurana",
+      "en": "So we're on equal footing in that conversation. It's all about that conversation, what you're bringing to it, adding value to it, and having respect for the other individual, not because of their title, but because of their ideas.",
+      "zh": "所以在那场对话中我们是平等的地位。一切都关于那场对话本身，你为它带来了什么，为它增添价值，并且尊重对方这个人，不是因为他头衔，而是因为他的想法。"
+    },
+    {
+      "timestamp": "24:21",
+      "speaker": "Amandeep Khurana",
+      "en": "I'm an MTS, the people who report to me are MTS, I report to an MTS. Yeah, okay, whatever.",
+      "zh": "我是一名 MTS，向我汇报的人是 MTS，我向一名 MTS 汇报。行吧，都行。"
+    }
+  ],
+  "voice_script": "拒绝一份薪水高三倍的 offer,跑去一家刚起步的团队带人——这事儿有人真干了。今天这一期,就是这位当事人讲讲自己为什么这么选,顺便把一个现在特别火的职位,前置部署工程师,给你讲明白。\n\n说话的人叫 Amandeep Khurana,现在在 Anthropic 负责前置部署工程这支团队。路径不太寻常:AWS 工程师出身,在 Cloudera 干了五年,创过业,公司被 Databricks 收购,然后回亚马逊干了五年半。最妙的是,2023 年在亚马逊,他主动把管理职位交还了,回去做 IC——说白了就是不带人的执行岗。那时候\"回去做 IC\"还不像今天这么酷,基本没人这么干。\n\n为什么?理由特别实际。当时面前有个 IC 机会,正好在一个他想学但完全不懂的领域。还找了几位从 VP 转回 IC、后来又回去当领导的人聊,得到的建议是:最坏的情况是学到新领域,最好的情况——也是学到新领域。这买卖稳赚不赔。\n\n顺便纠正一个误区:Anthropic 可不是 FDE 的先驱。微软几十年前就干这个,这个术语的现行形态是 Palantir 在 2008 年前后推广开的。\n\n那 FDE 和传统专业服务,区别到底在哪?两条硬标准。第一条,交换物不同。传统专业服务是\"我给你时间,你给我钱\",你告诉我要做什么我就做。FDE 是双方先在一个成果上达成一致,然后 FDE 跟你一起置身其中,把它做成。关系里多得多的是主人翁意识。\n\n第二条更关键:工作必须反馈回产品。每次合作都要产出两样东西——一是对产品的反馈,二是产出一份蓝图或打法手册,让这种类型的合作不必再做第二次。有句话值得记住:我们不是在尝试打造一个专业服务部门来赚钱。这本质上是弄清楚怎么把技术以最好的方式带进真实世界,再把经验模板化、送出去。\n\n那什么样的客户才接?三个过滤器:是否与使命一致;是否是首创、能打开一组拿不到的使用场景;这次合作能否给产品带来信号。商业回报不排第一,排在这三条后面。\n\n回到开头那个三倍薪酬的故事。他自己就被开过两到三倍的价。决策标准说得很简单:历史上一直凭头脑做决定,这次想跟着内心走——对使命的共鸣,加上遇见的每个人讲原则怎么落地都让人信服。\n\n关于 Naval 有句名言:要摆脱一个游戏,你得先赢它,然后才能看清它的徒劳,然后自由。Amandeep 说这话 90% 对,但缺了一块:看清徒劳不止\"赢\"这一条路。自己就没赢完就退出了——每次晋升,从 A 点到 B 点到 C 点,感觉没有任何不同;复盘下来,每个台阶上,\"内心\"都参与得太少。这个领悟花了好几年。\n\n他也坦白:不说自己已经摆脱了游戏。\"我能看到它的徒劳,但我还没有把自己从中解放出来。\"而且不觉得亏——薪水不低,品牌和人都很棒。还有一笔具体的账:如果去当 VP、每周干 60 小时,就顾不上社群、家人和健康。原话是——我不想 70 岁的时候,生病,守着 5000 万美元坐着。这笔交易不合理。\n\n最后说个细节,挺打动我的。Anthropic 人人都是 MTS,技术组成员,不管什么级别。开会的双方,一个是他仰望的明星人物,自我介绍头衔 MTS;他自己也是 MTS。对话在完全平等的地位上进行,尊重的是想法,不是头衔。\n\n所以你看,留人靠的从来不是钱本身。当一个地方让你学到新东西、跟想法平等对话,还允许你算清楚健康和家庭的账——三倍的薪酬,真的挖不动。"
+}

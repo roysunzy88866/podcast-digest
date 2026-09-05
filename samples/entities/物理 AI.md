@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>物理 AI (physical AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>201</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>205</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(00:49起):本集把它说成:AI 在物理世界(如建筑工地、电网、交通等)的应用;因为缺乏现成的数字比特数据且涉及硬件部署,比数字世界的 AI 挑战大得多。
 - **[[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|《Waymo 谈物理 AI 的七条实战教训》]]**(02:04起):本集将物理 AI 描述为存在于真实物理世界中的 AI，与数字 AI 之间存在错误代价、延迟、数据和验证四道根本差距，最好的物理 AI 时刻看起来像什么都没发生
 - **[[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]]**(04:41起):本集把它说成:必须在物理世界中直接做出决定的 AI。它和聊天机器人不同,必须比以往部署的机器学习系统少犯错得多才能在现实中自主运行。
+- **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(05:42起):本集定义为可大规模做机器人技术；嘉宾判断商业用途机器人会先产生冲击，通用机器人面向人类环境是下一道战线，现在谁都有机会赢。
 
 ## ① 提到它的金句
 
-*201 条*
+*205 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -418,15 +419,23 @@ unlisted: true
 
 ![[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced#^q4]]
 
+![[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l#^q6]]
+
 ![[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a#^q3]]
 
 ![[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#^q2]]
 
 ![[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#^q4]]
 
+![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q1]]
+
+![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q3]]
+
+![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q7]]
+
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为概念
 - [[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|《Travis Kalanick：为什么把下一家公司赌在工业AI》]] — 作为概念
@@ -434,14 +443,15 @@ unlisted: true
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为概念
 - [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|《Waymo 谈物理 AI 的七条实战教训》]] — 作为概念
 - [[2026-08-13-yc-chelsea-finn-this-is-the-state-of-the-ar|《让机器人在真实世界干活：Physical Intelligence 的通用机器人之路》]] — 作为概念
+- [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Waymo]] · [[智能体]] · [[Tesla]] · [[ChatGPT]] · [[强化学习]] · [[Lenny]] · [[Travis Kalanick]] · [[Jensen Huang]] · [[Matt Turk]] · [[Dmitri Dolgov]]
+[[Waymo]] · [[智能体]] · [[Tesla]] · [[ChatGPT]] · [[工业AI]] · [[强化学习]] · [[护栏]] · [[推理]] · [[生成式 AI]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Waymo":10,"智能体":1,"Tesla":6,"ChatGPT":48,"强化学习":14,"Lenny":66,"Travis Kalanick":1,"Jensen Huang":3,"Matt Turk":2,"Dmitri Dolgov":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":11,"智能体":1,"Tesla":6,"ChatGPT":48,"工业AI":2,"强化学习":14,"护栏":1,"推理":4,"生成式 AI":5,"Lenny":66}</script>
 
 <script>
 (function(){

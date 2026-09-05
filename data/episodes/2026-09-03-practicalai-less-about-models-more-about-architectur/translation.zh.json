@@ -1,0 +1,978 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.77,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎收听 Practical AI 播客,在这里我们剖析人工智能的真实世界应用,以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助让 AI 技术变得实用、高效,并且人人可用。无论你是开发者、商业领袖,还是只是对热潮背后的技术感到好奇,你来对地方了。请务必在 LinkedIn、X 或 Blue Sky 上与我们联系,以获取最新节目上线、幕后内容和 AI 洞察。你可以在 practicalai.fm 了解更多。"
+ },
+ {
+  "seg": 1,
+  "start": 35.77,
+  "end": 37.45,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在开始本期节目。"
+ },
+ {
+  "seg": 2,
+  "start": 41.29,
+  "end": 57.585,
+  "speaker": "Daniel Whitenack",
+  "en": "Welcome to another episode of Practical AI Podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Chris Benson, who is a principal AI and autonomy research engineer at Lockheed Martin. How are you doing, Chris?",
+  "zh": "欢迎收听 Practical AI 播客的另一期节目。我是 Daniel Whitenack。我是 Prediction Guard 的 CEO,一如既往地和我的联合主持人 Chris Benson 一起,他是 Lockheed Martin 的首席 AI 与自主系统研究工程师。Chris,你最近怎么样?"
+ },
+ {
+  "seg": 3,
+  "start": 57.585,
+  "end": 61.72,
+  "speaker": "Chris Benson",
+  "en": "Hey. Doing great today, Daniel. Looking forward to a conversation here.",
+  "zh": "嘿。今天状态很好,Daniel。很期待接下来的对话。"
+ },
+ {
+  "seg": 4,
+  "start": 61.88,
+  "end": 75.315,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. Excited to chat about all sorts of things, both in in terms of background and current work with Chetan Gupta today, is chief AI officer at Rackspace. Well, welcome, Chetan. How are doing?",
+  "zh": "是啊。是啊。很高兴今天能和 Chetan Gupta 聊各种话题,既有背景方面的,也有当前工作方面的,他是 Rackspace 的首席 AI 官。欢迎你,Chetan。你怎么样?"
+ },
+ {
+  "seg": 5,
+  "start": 75.315,
+  "end": 79.795006,
+  "speaker": "Chetan Gupta",
+  "en": "I'm doing good. Thanks, Daniel and Chris, for having me. Quite excited about the conversation.",
+  "zh": "我挺好的。感谢 Daniel 和 Chris 邀请我。对这次对话感到非常兴奋。"
+ },
+ {
+  "seg": 6,
+  "start": 81.075005,
+  "end": 96.119995,
+  "speaker": "Daniel Whitenack",
+  "en": "Let's start. Yeah. Yeah. Well, like I say, we we had bonded even yesterday when we were chatting about our backgrounds in in physics and mathematics. I know you started out in mathematics and spent a bunch of time at Hitachi.",
+  "zh": "我们开始吧。是啊。是啊。就像我说的,我们甚至昨天在聊我们物理学和数学的背景时就建立了默契。我知道你是数学出身,并在 Hitachi 待了很长时间。"
+ },
+ {
+  "seg": 7,
+  "start": 96.119995,
+  "end": 102.36,
+  "speaker": "Daniel Whitenack",
+  "en": "Do you wanna give us just an idea of a little bit of your background and and what you've been involved with over the years?",
+  "zh": "你想不想简单介绍一下你的背景,以及这些年来你参与过的事情?"
+ },
+ {
+  "seg": 8,
+  "start": 103.345,
+  "end": 110.065,
+  "speaker": "Chetan Gupta",
+  "en": "Sure. Sure. Sure, Daniel. So my background is actually quite diverse. It's sort of atypical of people in my role.",
+  "zh": "当然可以,当然,Daniel。我的背景其实相当多元。在我这个角色的人群里算是比较非典型的。"
+ },
+ {
+  "seg": 9,
+  "start": 110.705,
+  "end": 136.635,
+  "speaker": "Chetan Gupta",
+  "en": "I started off with a PhD in mathematics. Then I joined Hewlett Packard Labs as a research scientist working on data mining, machine learning. Then I joined Hitachi as a principal researcher, if I remember correctly. And then I sort of, you know, through the management ladder was when I left Hitachi in 2026, I was leading all of AI research at Hitachi globally. This is a very strong team, and that's what I did.",
+  "zh": "我最初是数学博士。然后我加入了 Hewlett Packard Labs 担任研究科学家,从事数据挖掘、机器学习的工作。接着我加入了 Hitachi 担任首席研究员,如果我没记错的话。然后我沿着管理阶梯晋升,当我 2026 年离开 Hitachi 时,我领导着 Hitachi 全球所有的 AI 研究。这是一支非常强大的团队,这就是我所做的工作。"
+ },
+ {
+  "seg": 10,
+  "start": 136.635,
+  "end": 156.72,
+  "speaker": "Chetan Gupta",
+  "en": "And we were focused a lot. We started focusing we started with focus on industrial AI, as we defined it at that time. And as the industry matured, we started looking at a broader spectrum of things. And that's what I was doing. And then I joined Rackspace, and I've been here for four months.",
+  "zh": "我们当时非常专注。我们开始专注于工业 AI,正如我们当时定义的那样。随着行业的成熟,我们开始关注更广泛领域的事情。这就是我一直在做的。然后我加入了 Rackspace,我在这里已经四个月了。"
+ },
+ {
+  "seg": 11,
+  "start": 156.72,
+  "end": 177.74,
+  "speaker": "Chetan Gupta",
+  "en": "So it's been sort of a very, very fascinating journey. And in some sense, prior to this podcast, I was thinking about my career. Typically, you don't think about these things. And I realized that I have a few in some sense, I have followed the trajectory of the whole community at a broad level. Right?",
+  "zh": "所以这是一段非常非常迷人的旅程。从某种意义上说,在这个播客之前,我回顾了我的职业生涯。通常你不会去想这些事情。我意识到我有几个——从某种意义上说,我在一个宏观层面上跟随着整个社群的轨迹。对吧?"
+ },
+ {
+  "seg": 12,
+  "start": 177.74,
+  "end": 198.985,
+  "speaker": "Chetan Gupta",
+  "en": "I mean, if you guys, we were all doing machine learning, making small models, right? Solving specific problems. And there was a community in Bay Area that was focused primarily on set recommendation systems. And as Chris, you would know, in companies like Lockheed Martin or Hitachi, we focus on industrial problems. And so that's what I was doing for the first half of my career.",
+  "zh": "我是说,你们看,我们当时都在做机器学习,制作小模型,对吧?解决具体问题。当时湾区有一个社群,主要专注于推荐系统。而且正如 Chris 你会知道的,在 Lockheed Martin 或 Hitachi 这样的公司,我们专注于工业问题。所以这就是我职业生涯前半段在做的事情。"
+ },
+ {
+  "seg": 13,
+  "start": 199.065,
+  "end": 227.105,
+  "speaker": "Chetan Gupta",
+  "en": "And then, more than the half. And then, obviously, deep learning became important. We started looking at vision models, language models that blossomed in total as language models. And in some sense, a lot of the traditional machine learning problems today are much more solvable with automated tools, with sort of whiteboarding and so on and so forth. And the new challenge now is, yes, you can do all this with machine learning and AI, but how do you make it accessible to more people?",
+  "zh": "然后是超过一半的时间。然后,显然,深度学习变得重要起来。我们开始研究视觉模型、语言模型,它们后来全面发展成大语言模型。从某种意义上说,今天很多传统的机器学习问题用自动化工具、用类似白板化的方法等等,都变得更容易解决了。而现在的新挑战是,是的,你可以用机器学习和 AI 做所有这些事,但你如何让它为更多人所用?"
+ },
+ {
+  "seg": 14,
+  "start": 227.105,
+  "end": 241.11,
+  "speaker": "Chetan Gupta",
+  "en": "How do you make it actionable? How do you make it much more sort of safe? And that's where sort of rack space comes in. Right? So in some sense, if you look at the trajectory of problems, that's how I have traveled in some sense, like looking for trouble, so to speak.",
+  "zh": "你如何让它可执行?你如何让它更加安全?这就是 Rackspace 的切入点。对吧?所以从某种意义上说,如果你看问题的轨迹,那就是我所走过的路,可以说是「自找麻烦」,打个比方。"
+ },
+ {
+  "seg": 15,
+  "start": 241.90999,
+  "end": 242.39,
+  "speaker": "Daniel Whitenack",
+  "en": "I love that.",
+  "zh": "我很喜欢这个说法。"
+ },
+ {
+  "seg": 16,
+  "start": 243.335,
+  "end": 303.585,
+  "speaker": "Chris Benson",
+  "en": "So I wanna go back for a second. I'm gonna drag you back as you went through your timeline for a second, because as you were talking about coming up through the managerial ranks at Hitachi, and you look at with kind of the AI world exploding in terms of volume and importance and budgets and all that stuff, and so many times organizations will go to kind of an outside expert and bring them in to fill a particular key position and stuff, and yet you kind of came through the ranks at Hitachi, and I'm wondering if you have any thoughts about because there are other people out there that are watching this and listening to this right now that are in their careers, and they are aspiring to move up through the ranks themselves. What were some of the things that you brought to bear that made you able to move up through that and take on the leadership role at Hitachi before you were able to",
+  "zh": "所以我想暂时回到前面。我想把你拉回你的时间线,因为当你谈到在 Hitachi 沿着管理阶梯晋升时,你看到 AI 世界在体量、重要性和预算等方面都在爆发,很多时候组织会去找某种外部专家,把他们引进来填补某个关键职位等等,而你是从 Hitachi 内部一步步晋升上来的,我想知道你有没有什么想法,因为现在还有其他人在看这个节目、听这个节目,他们正处于自己的职业生涯中,他们自己也渴望沿着阶梯往上走。你运用了哪些东西让你能够晋升,并在你能够"
+ },
+ {
+  "seg": 17,
+  "start": 303.585,
+  "end": 303.985,
+  "speaker": "Daniel Whitenack",
+  "en": "come over to",
+  "zh": "过来加入"
+ },
+ {
+  "seg": 18,
+  "start": 303.985,
+  "end": 309.745,
+  "speaker": "Chris Benson",
+  "en": "Rackspace, just from a growth learning standpoint, if you wouldn't mind sharing?",
+  "zh": "Rackspace 之前在 Hitachi 担任领导角色,纯粹从成长和学习的角度,如果你不介意分享的话?"
+ },
+ {
+  "seg": 19,
+  "start": 309.84,
+  "end": 327.14502,
+  "speaker": "Chetan Gupta",
+  "en": "Chris, that's a hard one. I was more prepared to answer the AI related question. I'm sorry. But I think that's actually a very, very interesting question. I think one thing that I think helped in my career, Hitachi, was we decided to take a bit on industrial AI.",
+  "zh": "Chris,这是个难题。我原本更有准备回答 AI 相关的问题。不好意思。不过我认为这实际上是一个非常非常有趣的问题。我认为在我的职业生涯中,在 Hitachi 有帮助的一点是,我们决定在工业 AI 上押注。"
+ },
+ {
+  "seg": 20,
+  "start": 327.14502,
+  "end": 342.47998,
+  "speaker": "Chetan Gupta",
+  "en": "This was 2016, 2017. And not very many people were talking about it. So we started a small research lab in North America. And I said given where Hitachi is, it's a giant industrial conglomerate, it makes lot of sense. But there wasn't a lot of background around it.",
+  "zh": "那是 2016、2017 年。当时没有多少人在谈论它。所以我们在北美创办了一个小型研究实验室。我说,鉴于 Hitachi 的定位,它是一个巨型工业集团,这非常合理。但它周围没有太多现成的背景。"
+ },
+ {
+  "seg": 21,
+  "start": 342.47998,
+  "end": 357.54498,
+  "speaker": "Chetan Gupta",
+  "en": "And it was a risky bet. We were in Bay Area. We were competing with the likes of Facebook, Google for top talent. But we took that risk. We were sort of forward looking in the sense that we figured that industrial AI, physical AI will become important.",
+  "zh": "这是一个有风险的赌注。我们在湾区。我们在和 Facebook、Google 这样的公司竞争顶尖人才。但我们承担了这个风险。我们在某种意义上是有前瞻性的,因为我们预感到工业 AI、物理 AI 会变得重要。"
+ },
+ {
+  "seg": 22,
+  "start": 358.26498,
+  "end": 416.02502,
+  "speaker": "Chetan Gupta",
+  "en": "And we tried to succeed, and we did succeed to a large extent. I think that sort of paved the way, in some sense, for management for our leadership from the CEO downwards to have confidence and internal talent to take Hitachi to the next level. And and I think so my if I if I look back, I would say look forward, see what's sort of around the corner. It's it's difficult, but I think if you spend time thinking about it, not just reading about it, but thinking about it as well, gestating what's happening in the industry around you, and take a risk, take a bet on on something different, something new that is aligned with your company's direction as well, obviously, Then I think that sort of shows your leadership in terms of looking ahead and ability to take risks and then to execute. I think that's maybe that's what worked for me, I would say.",
+  "zh": "我们努力去成功,而且我们在很大程度上确实成功了。我认为这在某种意义上为管理层——从 CEO 往下的领导层——建立了信心,相信内部人才能把 Hitachi 带到下一个台阶。如果我回顾过去,我会说:向前看,看看即将出现什么。这很难,但我认为如果你花时间去思考,不只是阅读,还要思考,去消化理解你周围行业正在发生的事情,然后冒一次险,在某个不同的、新的事物上押注,当然这个事物也要与公司的方向一致,那么我认为这就体现了你的领导力,体现在前瞻性、承担风险的能力以及执行力上。我想那大概就是对我有效的方法,我会这么说。"
+ },
+ {
+  "seg": 23,
+  "start": 416.02502,
+  "end": 452.25998,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I I love that answer because even, you know, Chris, I don't know if you remember, but the beginning of this year, I think we said, Chetan, we do a kind of forward looking episode usually at the beginning of each year, and one of the things we talked about about kind of coming into its own was this idea of physical AI, I think, if I'm if I'm remembering right. And so you were very much ahead of that as you mentioned. You know, you took a maybe a gamble or a risk looking towards that direction. I'm wondering for the listeners who might not be as familiar with industrial AI, physical AI, these sorts of terms.",
+  "zh": "是啊。我很喜欢这个回答,因为,你知道,Chris,我不确定你还记不记得,今年年初,我想我们说过——Chetan,我们通常在每年年初做一期前瞻性的节目,我们谈到的一件事,正在崭露头角的,就是这个物理 AI 的概念,如果我没记错的话。所以正如你提到的,你当时远远领先于那个趋势。你朝那个方向做了一次赌博或冒险。我在想,对于听众中那些可能不太熟悉工业 AI、物理 AI 这类术语的人,"
+ },
+ {
+  "seg": 24,
+  "start": 452.25998,
+  "end": 463.635,
+  "speaker": "Daniel Whitenack",
+  "en": "If you could just help us understand kind of maybe what that meant when you started getting into it and what that means now if those things are different, you know, in any That's sort of",
+  "zh": "你能不能帮我们理解一下,当你开始进入这个领域时那意味着什么,以及现在意味着什么,如果这些东西有任何不同的话——那有点像是"
+ },
+ {
+  "seg": 25,
+  "start": 464.275,
+  "end": 496.405,
+  "speaker": "Chetan Gupta",
+  "en": "actually a very good question, Daniel. And I think it certainly doesn't mean the same thing. Nothing means the same thing anymore. But when we first started out, we were trying to solve industrial problems, right? So if you look at the industrial value chain from design all the way to manufacturing, and this is not just manufacturing, but you think about power plants, you think about rail systems, you think about any industrial system, you could sort of organize the challenges in, say, maintenance, design, production.",
+  "zh": "实际上非常好的问题,Daniel。而且我认为它当然不再意味着同样的东西了。现在没有什么东西还意味着同样的东西了。但我们最初起步时,我们是在试图解决工业问题,对吧?如果你看工业价值链,从设计一直到制造——这不只是制造,你想想发电厂,你想想铁路系统,你想想任何工业系统——你可以把挑战大致归为维护、设计、生产几类。"
+ },
+ {
+  "seg": 26,
+  "start": 496.405,
+  "end": 526.415,
+  "speaker": "Chetan Gupta",
+  "en": "You could look at these verticals. And if you took a step back, you realized that although every vertical is different, the data itself is different, but there are a lot of commonalities in terms of the problems that you could solve and in terms of the techniques that you could bring to bear on there. So initially, it was much more around prediction, like you failure to predict. That was a classical predictive maintenance problem. And then, can you recommend the right repair to a technician, and whether that technician is an automotive technician or sort of in some other domain doesn't really matter.",
+  "zh": "你可以看这些垂直领域。如果你退后一步,你会意识到虽然每个垂直领域都不同,数据本身也不同,但在你能解决的问题以及你能运用的技术方面,有很多共通之处。所以最初,它更多是围绕预测,比如故障预测。那是一个经典的预测性维护问题。然后是,你能不能向技术人员推荐正确的修理方案,而这个技术人员是汽车技师还是其他领域的其实并不重要。"
+ },
+ {
+  "seg": 27,
+  "start": 526.415,
+  "end": 558.05505,
+  "speaker": "Chetan Gupta",
+  "en": "But the math behind it was somewhat similar. And that's how it started out. And those are the kinds of problems we were solving around maintenance, around quality, how do you sort of predict if a part was going to fail, and so forth. And then, as the industry evolved, both the physical industries, meaning companies like, say, Hitachi, they started collecting more data, and sort of the AI industry also was evolving towards deep learning. Right?",
+  "zh": "但背后的数学是有些相似的。这就是它的起点。那些就是我们当时解决的问题,围绕维护、围绕质量,比如你如何预测某个部件会不会失效,等等。然后,随着行业演变——既包括实体行业,也就是像 Hitachi 这样的公司,他们开始收集更多数据——AI 行业本身也在向深度学习演进。对吧?"
+ },
+ {
+  "seg": 28,
+  "start": 558.05505,
+  "end": 571.84,
+  "speaker": "Chetan Gupta",
+  "en": "And as the technology was becoming more mature, then computer vision problems became much more important. Right? Can you detect defects on a surface? Can you count number of cars in a parking lot kind of a problem? Right?",
+  "zh": "随着技术变得更加成熟,计算机视觉问题变得重要得多。对吧?你能不能检测表面上的缺陷?你能不能数出停车场里有几辆车这类问题?对吧?"
+ },
+ {
+  "seg": 29,
+  "start": 571.84,
+  "end": 606.04,
+  "speaker": "Chetan Gupta",
+  "en": "And then, as we got into large language models, then there was further expansion of what you could do in the industrial world itself. So one big move, obviously, is what we what people call physical AI now, which is sort of contested definition, but the idea that you could do robotics at scale. So so part of the work that we've done on automation with traditional reinforcement learning now could sort of be done in a much more formal, larger basis with sort of around robotics. Right? Can you make multiple robots work together, or even a robot can work in this environment or not?",
+  "zh": "然后当我们进入大语言模型时代,在工业世界本身,你能做的事情又进一步扩展了。一个大转变,显然,就是现在人们所说的物理 AI——它的定义还有争议——但核心想法是你可以大规模地做机器人技术。所以我们过去用传统强化学习在自动化上做的部分工作,现在可以以更加正式、更大规模的方式围绕机器人技术来实现。对吧?你能不能让多个机器人协同工作,或者一个机器人能不能在这个环境中工作?"
+ },
+ {
+  "seg": 30,
+  "start": 606.04,
+  "end": 634.50995,
+  "speaker": "Chetan Gupta",
+  "en": "And also, the traditional sort of industry AI kind of problems also became on a larger scale. So people started expecting much better answers, a way for humans to communicate. Metaverse sort of becomes important where you could construct these sort of virtual worlds for training, for problem resolution. Right? So so in some sense, the the field has moved along with the maturity of the AI technology as well.",
+  "zh": "而且,传统的工业 AI 类问题也在更大的规模上发展。人们开始期待好得多的答案、一种让人类沟通的方式。元宇宙变得重要起来,你可以在其中构建这些虚拟世界,用于训练、用于问题解决。对吧?所以从某种意义上说,这个领域随着 AI 技术的成熟也一起前进了。"
+ },
+ {
+  "seg": 31,
+  "start": 634.805,
+  "end": 641.285,
+  "speaker": "Chetan Gupta",
+  "en": "So that's and then this is a very exciting moment to be in that space as well, I would say, because a lot of emotion will come there.",
+  "zh": "所以,我认为现在身处这个领域是一个非常激动人心的时刻,因为会有大量的动能涌向那里。"
+ },
+ {
+  "seg": 32,
+  "start": 641.285,
+  "end": 689.715,
+  "speaker": "Chris Benson",
+  "en": "Yeah. I I know in you know, that you have you've run labs both in North America and Japan. And as we're talking about physical AI at this point, it occurs to me as I'm listening to you that, you know, we have a global audience here, and people from different parts of the world have different experiences in terms of this move into physical AI and some of these processes. I would imagine, I don't want to put words in your mouth, but I would imagine your time in Japan, there's a lot more robotics out there, and as we're all sitting here in The United States, there's a little bit less exposure to most people out there in terms of physical AI and robotics. I think we're kind of, in my view, we're kind of lagging other parts of the world in capacity.",
+  "zh": "是啊。我知道,你已经——你在北美和日本都运营过实验室。当我们现在谈到物理 AI 时,我在听你讲的时候意识到,我们这里有一个全球性的听众,来自世界不同地方的人们在进入物理 AI 和这些流程方面有着不同的经历。我可以想象——我不想替你说话——但我可以想象你在日本的那段时间,那里有更多的机器人,而当我们都坐在这里的美国,大多数人对物理 AI 和机器人接触得少一些。在我看来,我觉得我们在能力上有点落后于世界其他地方。"
+ },
+ {
+  "seg": 33,
+  "start": 691.075,
+  "end": 717.345,
+  "speaker": "Chris Benson",
+  "en": "I'm kind of curious, as you're looking at this, kind of what your experiences were about different parts of the globe and how that's moving the the notion of physical AI forward in these various contexts you're talking about, and and maybe, you know, with the advent of kind of embodied intelligence coming more and more into play with robotics and edge computing and stuff, What your thoughts are around that, you know, with your experiences.",
+  "zh": "我很好奇,当你审视这个问题时,你关于世界不同地区的经历是怎样的,以及这如何在你说到的这些不同语境中推动物理 AI 这一概念向前发展,还有,你知道,随着具身智能越来越多地在机器人技术和边缘计算等领域发挥作用,基于你的经历,你对此有什么想法。"
+ },
+ {
+  "seg": 34,
+  "start": 717.665,
+  "end": 738.84,
+  "speaker": "Chetan Gupta",
+  "en": "A actually, that's an interesting sort of reminds of cultural dimension to all of this. Right? So what I learned, and I should not make a cultural generalization often people, but I learned that at least, say, folks in Japan are much more open to sort of robots than, say, folks in North America. I think that is something cultural. I can't explain why.",
+  "zh": "啊,其实,这是个有趣的——它让我想起这一切的文化维度。对吧?所以我的体会是——我不应该经常做文化上的概括——但我了解到,至少可以说,日本人对机器人比北美人开放得多。我认为这是文化上的东西。我无法解释为什么。"
+ },
+ {
+  "seg": 35,
+  "start": 738.84,
+  "end": 771.27,
+  "speaker": "Chetan Gupta",
+  "en": "And that's why even, like, very many years ago, we were thinking about robots for elderly support. Even if they could not move, at least they could talk and understand and be empathetic. So getting the empathy right was a very hard problem. Just the way a machine would talk to a human, it's how do you introduce the right sort of language, the empathy, the warmth that typically humans have for each other? And so, in that sense, for use cases like elderly care, I would say yes.",
+  "zh": "正因如此,甚至很多年前,我们就在思考用于老年人支持的机器人。即使它们不能移动,至少它们可以交谈、理解并有同理心。所以把同理心做对是一个非常难的问题。机器与人类交谈的方式——你如何引入恰当的语言、那种人类彼此之间通常拥有的同理心、那种温暖?所以,在那方面,对于像养老照护这样的用例,我会说是的。"
+ },
+ {
+  "seg": 36,
+  "start": 771.27,
+  "end": 801.19,
+  "speaker": "Chetan Gupta",
+  "en": "The United States was sort of behind other Asian countries not all the Asian countries, but the leading countries in Japan, China, and so forth. And then, when it comes to industrial robotics as well, you're right, the center of gravity is not in North America. If you think about large language models, the center of gravity is North America. But for robots, for the industrial world, the center of gravity is in China. Today, you've seen robots do multiple things.",
+  "zh": "美国在某种程度上落后于其他亚洲国家——不是所有亚洲国家,而是领先的国家,如日本、中国等等。而当谈到工业机器人时,你也是对的,重心不在北美。如果你想想大语言模型,重心在北美。但对于机器人,对于工业世界,重心在中国。今天,你已经看到机器人做多种事情了。"
+ },
+ {
+  "seg": 37,
+  "start": 802.055,
+  "end": 831.445,
+  "speaker": "Chetan Gupta",
+  "en": "But I think we are catching up. We have some excellent startups that are trying very many new ways for the robots to work in the physical world. Whether they are for industrial use or whether they are for sort of more commercial use. And I would say the commercial use robots would be the first one to have an impact because a lot of industrial processes are already, in some sense, robotized because they're task specific. They don't need to be that general.",
+  "zh": "但我认为我们正在追赶。我们有一些优秀的初创公司,正在尝试让机器人在物理世界中工作的许多新方式。无论它们是用于工业用途,还是用于更偏商业的用途。我会说,商业用途的机器人会是第一个产生影响的,因为很多工业流程在某种意义上已经机器人化了,因为它们是任务特定的。它们不需要那么通用。"
+ },
+ {
+  "seg": 38,
+  "start": 831.525,
+  "end": 856.815,
+  "speaker": "Chetan Gupta",
+  "en": "More general robotics are needed more for the human environment, whereas a lot of factories are quite automated already. And I think that's where the next sort of battle lines are. And I think in that, there is I mean, it's anyone's game right now, I would say. Because some of the underlying math is where we are better than everyone else. Some of the underlying mechanics, maybe other countries are better than us.",
+  "zh": "更通用的机器人更多是为人类环境所需要的,而很多工厂已经相当自动化了。我认为那就是下一道战线所在。我认为在这件事上——我是说,现在谁都有机会赢,我会这么说。因为在某些底层数学上,我们比其他所有人都强。在某些底层机械技术上,也许其他国家比我们强。"
+ },
+ {
+  "seg": 39,
+  "start": 857.535,
+  "end": 875.12,
+  "speaker": "Chetan Gupta",
+  "en": "But yes, but culturally, you are spot on, right? So there was a broader acceptance, and maybe that is still there, of robots for day to day interaction in Japan compared to say North America. Does that answer your question, or did I sort of take it down sort of? That was",
+  "zh": "但是是的,但在文化上,你说得非常准确,对吧?所以在日本,机器人用于日常互动有更广泛的接受度,也许现在依然如此,相比北美。这回答了你的问题吗,还是我把它带偏了?那是——"
+ },
+ {
+  "seg": 40,
+  "start": 875.12,
+  "end": 875.68,
+  "speaker": "Daniel Whitenack",
+  "en": "a great answer.",
+  "zh": "一个很棒的回答。"
+ },
+ {
+  "seg": 41,
+  "start": 875.68,
+  "end": 876.39996,
+  "speaker": "Chris Benson",
+  "en": "I appreciate it.",
+  "zh": "我很感激。"
+ },
+ {
+  "seg": 42,
+  "start": 876.39996,
+  "end": 916.535,
+  "speaker": "Sponsor",
+  "en": "I hope that you're finding this episode practical and helpful. As the name suggests, we want this podcast to be practical, not just hype. And that's one of the reasons why we partnered with the Midwest AI Summit, which is happening October 15 in Indianapolis. This summit is more than just a bunch of hyped talks. There's really practical things there, like an AI engineering lounge where you can sit down with experienced AI practitioners like myself and others and work through your architecture, your tool questions, your road map, your strategy, etcetera.",
+  "zh": "我希望你觉得这一期节目实用且有帮助。正如名字所示,我们希望这个播客是实用的,而不只是炒作。这也是我们与 Midwest AI Summit 合作的原因之一,该峰会将于 10 月 15 日在 Indianapolis 举行。这个峰会不只是一堆被炒作的演讲。那里有真正实用的东西,比如一个 AI 工程师休息室,你可以和像我这样的以及其他有经验的 AI 从业者坐下来,一起梳理你的架构、你的工具问题、你的路线图、你的战略等等。"
+ },
+ {
+  "seg": 43,
+  "start": 916.535,
+  "end": 951.075,
+  "speaker": "Sponsor",
+  "en": "And that way you can actually leave with a huge value from the event. Again, the event is happening October 15 in Indianapolis. Some amazing speakers, some practical advice. Don't don't miss this event. Make sure you're there October 15 in Indianapolis. You can check us out at midwestaisummit.com, and you can use Practical AI 20 to get 20% off registration. Again, Midwest AI Summit, and you can use Practical AI 20 to get 20% off registration.",
+  "zh": "这样你就能真正从活动中带走巨大的价值。再说一次,活动将于 10 月 15 日在 Indianapolis 举行。有一些了不起的演讲者,一些实用的建议。不要错过这个活动。确保你 10 月 15 日在 Indianapolis。你可以在 midwestaisummit.com 查看我们,你可以使用优惠码 Practical AI 20 获得 20% 的注册折扣。再说一次,Midwest AI Summit,你可以使用优惠码 Practical AI 20 获得 20% 的注册折扣。"
+ },
+ {
+  "seg": 44,
+  "start": 951.075,
+  "end": 982.05,
+  "speaker": "Daniel Whitenack",
+  "en": "So, Chetan, I I wanna circle back to a comment that you made as you were talking about the the arc of your career and landing at Rackspace. You mentioned something to the effect of going with the technology, but now moving to a place where you could make it, you know, more accessible and and safe and etcetera, and oper operationalize it, if I'm if I'm understanding you right. Could you help us understand that dynamic a little bit more around kind of the technology?",
+  "zh": "那么,Chetan,我想回到你在谈到你职业生涯的弧线以及落脚 Rackspace 时说的一个评论。你提到了大意是跟着技术走,但现在转向一个你可以让它更加人人可用、更加安全等等、并把它运营化的地方,如果我没理解错的话。你能帮我们再多理解一点围绕这种技术的动态吗?"
+ },
+ {
+  "seg": 45,
+  "start": 982.05,
+  "end": 1014.83,
+  "speaker": "Daniel Whitenack",
+  "en": "Now now it almost seems like with AI, every everything is feasible, but not everything is easy. Right? Or not everything is you can't operationalize everything. You can't make it accessible. Could could you help us understand your thought process around maybe that transition then from that world of industrial AI to now where when you're thinking a lot about these types of issues around operationalizing, scaling, making accessible these an actual useful and safe So,",
+  "zh": "现在有了 AI,几乎看起来一切都可行,但不是一切都容易。对吧?或者说不是一切你都能运营化。你不能让一切都人人可用。你能不能帮我们理解一下你的思考过程,关于从那个工业 AI 的世界到现在的转变——现在你大量思考的是围绕运营化、扩展、让人人可用这些类型的议题,让这些真正有用且安全——那么,"
+ },
+ {
+  "seg": 46,
+  "start": 1015.79,
+  "end": 1050.3601,
+  "speaker": "Chetan Gupta",
+  "en": "Daniel, when we were working with our industrial partners, both internal and external, we were a team of highly trained researchers, engineers, right? PhDs and all of that. And so we will take up a customer problem, we'll understand the data, we'll build the model, and then we'll work with the customer to deploy it. Right? So and that deployment does not mean sort of throwing the model over the wall, but you sort of work with the customer, you talk to them, you understand exact business pain point, you understand the workflows, and then you integrate your model in the workflow.",
+  "zh": "Daniel,当我们与我们的工业合作伙伴合作时——包括内部和外部的——我们是一支由受过高度训练的研究人员、工程师组成的团队,对吧?博士之类的。所以我们接到一个客户问题,我们会理解数据,我们会构建模型,然后我们与客户一起部署它。对吧?而且那种部署并不意味着把模型扔过墙就完事,而是你与客户一起工作,你与他们交谈,你理解确切的业务痛点,你理解工作流程,然后你把你的模型集成到工作流程中。"
+ },
+ {
+  "seg": 47,
+  "start": 1050.5449,
+  "end": 1078.125,
+  "speaker": "Chetan Gupta",
+  "en": "And typically, that model was small enough that you could have it in their own environment. Right? So and this is what we did again and again. But if you now look and if you look back, like, maybe even five years, most of us were not using AI directly in our day to day world, right? So, AI was always mediated through maybe a solution that was developed, deployed, and operated by someone.",
+  "zh": "而且通常,那个模型足够小,你可以把它放在他们自己的环境里。对吧?这就是我们一次又一次做的事情。但如果你现在看,如果你回顾一下,也许甚至五年内,我们大多数人并没有在日常世界中直接使用 AI,对吧?所以,AI 总是通过某个由别人开发、部署和运营的解决方案来中介。"
+ },
+ {
+  "seg": 48,
+  "start": 1078.4451,
+  "end": 1085.885,
+  "speaker": "Chetan Gupta",
+  "en": "Right? So they took that responsibility. Now, with generative AI, AI has become democratized. Right? Everyone has access to AI.",
+  "zh": "对吧?所以是他们承担了那个责任。现在,随着生成式 AI,AI 已经变得民主化了。对吧?每个人都能使用 AI。"
+ },
+ {
+  "seg": 49,
+  "start": 1085.885,
+  "end": 1098.7399,
+  "speaker": "Chetan Gupta",
+  "en": "Every enterprise wants to use AI. And you don't have this team of PhDs and researchers everywhere who can sort of build a model and deploy it. First of all, it's cost prohibitive. Right? These large language models are typically very difficult to build.",
+  "zh": "每个企业都想使用 AI。而你不可能到处都有这样一支能构建模型并部署它的博士和研究员团队。首先,成本上是不可行的。对吧?这些大语言模型通常是非常难构建的。"
+ },
+ {
+  "seg": 50,
+  "start": 1098.82,
+  "end": 1111.725,
+  "speaker": "Chetan Gupta",
+  "en": "They're very expensive to build. Right? So so so the whole model of how you would bring AI machine learning to an enterprise changes with generative AI. So that's the challenge, right? So at a high level.",
+  "zh": "这些东西的构建成本非常高。对吧？所以，所以，所以，将 AI 机器学习引入企业的整个模式随着生成式 AI 而改变了。所以这就是挑战，对吧？所以，从高层次来看。"
+ },
+ {
+  "seg": 51,
+  "start": 1111.725,
+  "end": 1122.685,
+  "speaker": "Chetan Gupta",
+  "en": "But what does that mean in practical terms? The number of things. So you ask a question, right? I use, for example, some large language model. Now I could simply ask, What's the capital of St.",
+  "zh": "但这在实际中意味着什么？有好多件事。所以你问一个问题，对吧？比如，我使用某个大语言模型。现在我可以直接问，圣的"
+ },
+ {
+  "seg": 52,
+  "start": 1122.685,
+  "end": 1134.8201,
+  "speaker": "Chetan Gupta",
+  "en": "Norway? So for that, I don't need to go to, say, chat GPT based my tokens are expensive. If I have a local model, I should ask that question. It'll be much more cheaper. And I and right?",
+  "zh": "首都是什么，挪威？对于这个，我不需要去，比如说，基于 ChatGPT，因为我的 token 很贵。如果我有本地模型，我应该问那个问题。那会便宜得多。而且我，对吧？"
+ },
+ {
+  "seg": 53,
+  "start": 1134.8201,
+  "end": 1148.6849,
+  "speaker": "Chetan Gupta",
+  "en": "So that's number one. Number two is, this is an issue raised by Chetan Adela and even, I think, Jensen. Whenever you, as an enterprise, say, now you want to say, I want to operationalize AI. AI is accessible. I want my staff.",
+  "zh": "所以这是第一点。第二点是，这是 Chetan Adela 甚至是 Jensen 提出的一个问题。每当你作为一个企业说，现在你想说，我想把 AI 运营化。AI 是可及的。我要我的员工。"
+ },
+ {
+  "seg": 54,
+  "start": 1148.6849,
+  "end": 1167.8248,
+  "speaker": "Chetan Gupta",
+  "en": "And everyone wants use Now, every time you ask a question, say, to a large language model, in some sense, you are sending your data over to them. So your data sovereignty is not guaranteed. So your so the way, sort of, said it, you're losing your alpha. Right? That's your IP.",
+  "zh": "而且每个人都想用。现在，每次你问一个问题，比如说，向一个大语言模型提问，从某种意义上说，你是在把你的数据发送给他们。所以你的数据主权是没有保障的。所以你的，所以，正如他所说的那样，你正在失去你的 alpha。对吧？那是你的 IP。"
+ },
+ {
+  "seg": 55,
+  "start": 1167.825,
+  "end": 1183,
+  "speaker": "Chetan Gupta",
+  "en": "So that's that's another problem. Then and AI, in some sense today, is jagged. So so so meaning that there are some tasks for which AI is really good at. Right? So so I can really write some very good sort of software program using AI.",
+  "zh": "所以那是另一个问题。然后，从某种意义上说，今天的 AI 是参差不齐的。所以，所以，意思是说，有些任务是 AI 真正擅长的。对吧？所以我真的可以用 AI 写出非常好的软件程序。"
+ },
+ {
+  "seg": 56,
+  "start": 1183,
+  "end": 1190.375,
+  "speaker": "Chetan Gupta",
+  "en": "Right? I can code with AI. But if you try to write an email with AI, you realize that it's not all that great. Right? It's quite Right?",
+  "zh": "对吧？我可以用 AI 写代码。但如果你试着用 AI 写一封邮件，你会发现它并没有那么好。对吧？它相当，对吧？"
+ },
+ {
+  "seg": 57,
+  "start": 1190.375,
+  "end": 1215.84,
+  "speaker": "Chetan Gupta",
+  "en": "So I get AI emails, and they sometimes annoy me because they're sort of very verbose, and, you know, they're very cliched in some sense. Right? So although we thought that writing is the strength of AI, but it is turning out that it's good at it, but not that great at it. Humans can still do better at writing emails maybe than AI can. So that means in terms of capabilities of where AI is good or bad, it's jagged.",
+  "zh": "所以我会收到 AI 邮件，它们有时让我恼火，因为它们有点非常冗长，而且，你知道，它们在某种意义上非常陈词滥调。对吧？所以尽管我们认为写作是 AI 的强项，但事实证明它擅长，但不是那么出色。人类在写邮件方面也许仍然可以比 AI 做得更好。所以这意味着，就 AI 在哪里擅长或不擅长而言，它是参差不齐的。"
+ },
+ {
+  "seg": 58,
+  "start": 1215.84,
+  "end": 1229.8049,
+  "speaker": "Chetan Gupta",
+  "en": "Right? So so for an enterprise, they need to know. Right? So this is where I should use AI. And then to my first point earlier, whether I should use a local model because that's more expensive.",
+  "zh": "对吧？所以对于一个企业来说，他们需要知道。对吧？所以这是我应该使用 AI 的地方。然后回到我之前的第一点，我是否应该使用本地模型，因为那个更贵。"
+ },
+ {
+  "seg": 59,
+  "start": 1229.805,
+  "end": 1253.0249,
+  "speaker": "Chetan Gupta",
+  "en": "Should I use a larger model? And then, how do I preserve my health? So these are all the three questions that are today difficult to answer. Now, the jargon of AI also is in terms of how do you guarantee that it behaves in a responsible manner. So we all heard that Anthropic, sort of the latest model hacked Hugging Face website.",
+  "zh": "我是否应该使用更大的模型？然后，我如何保护我的健康？所以这些就是如今难以回答的三个问题。现在，AI 的术语还涉及如何保证它以负责任的方式行事。所以我们都听说过，Anthropic 某个最新模型入侵了 Hugging Face 网站。"
+ },
+ {
+  "seg": 60,
+  "start": 1253.1849,
+  "end": 1277.525,
+  "speaker": "Chetan Gupta",
+  "en": "So now, if you're going to deploy your own model, suppose you say, I want to develop my own model within the enterprise on my own data, and you deploy it. How do you guarantee that behaves in a regulated in a way that is safe? And also, you're using someone else's AI, like you're using a large LLM, how do you ensure that it behaves within guardrails? Right? It behaves in a way that is suitable for your enterprise.",
+  "zh": "所以现在，如果你要部署自己的模型，假设你说，我想在企业内部用我自己的数据开发自己的模型，然后你部署了它。你如何保证它以受监管的、安全的方式行事？而且，你也在使用别人的 AI，比如你在使用一个大 LLM，你如何确保它在护栏之内行事？对吧？它以一种适合你企业的方式行事。"
+ },
+ {
+  "seg": 61,
+  "start": 1277.685,
+  "end": 1311.435,
+  "speaker": "Chetan Gupta",
+  "en": "Right? So the problem of governance and assurance becomes very important. The governance, the problem of how do you maximize the value of your AI, the tokenomics becomes important. The value of preserving your IP becomes important. And the problem of having the right architecture so that you can cater to the multiple needs within the enterprise from say programming, to writing emails, to summarizing, to research can be done in sort of a safe, guaranteed manner so that you can sort of interchange the models if needed.",
+  "zh": "对吧？所以治理和保证的问题变得非常重要。治理的问题，如何最大化你的 AI 价值的问题，token 经济学变得重要。保护你的 IP 价值的问题变得重要。还有拥有正确架构的问题，这样你就能以满足企业内部多种需求的方式，比如说从编程，到写邮件，到总结，到研究，以一种安全的、有保证的方式来完成，这样如果需要你还可以更换模型。"
+ },
+ {
+  "seg": 62,
+  "start": 1311.435,
+  "end": 1322.88,
+  "speaker": "Chetan Gupta",
+  "en": "You can sort of right? So because the model technology is changing very rapidly. So all of that requires a very systematic way of thinking about your AI architectures. And I think this is the next frontier. This is the next challenge.",
+  "zh": "你可以某种程度地，对吧？因为模型技术变化非常快。所以所有这些都需要一种非常系统的方式来思考你的 AI 架构。而我认为这是下一个前沿。这是下一个挑战。"
+ },
+ {
+  "seg": 63,
+  "start": 1322.88,
+  "end": 1339.7849,
+  "speaker": "Chetan Gupta",
+  "en": "Right? So now how do we go from so simply sort of chatting with an AI through an interface, through working in the enterprise where there are people, processes, and all of the complications. It was a very long winded answer, but I hope sort of it addressed Great. The",
+  "zh": "对吧？那么现在我们如何从简单地通过与 AI 的界面聊天，走到在企业中工作，那里有人、流程和所有的复杂性。这是一个非常冗长的回答，但我希望它有点，它解决了问题。很好。"
+ },
+ {
+  "seg": 64,
+  "start": 1340.105,
+  "end": 1406.7699,
+  "speaker": "Chris Benson",
+  "en": "And not only was it good, I'd like to actually get you to extend it a little bit by throwing a couple of extra logs on the fire. One of the challenges that we see in industry right now, and it's been evolving over the past, especially over the past year, is where open weights or open source models are available from. And there's so many external considerations that get brought into bear as while, to your point earlier, that the center of gravity for LLM development may be still in The US. A lot of those are closed. The number of available open weights models kind of shrunk a little bit with Metas kind of going away from that, and NVIDIA started stepping up a little bit more because the rest of the commercial industry in The US was reducing, and we're seeing an explosion of capability in terms of new models that are kind of rapidly catching up with very close followers or potentially equal from China.",
+  "zh": "而且它不仅很好，我实际上想通过往火上扔几根额外的木柴来让你稍微扩展一下。我们现在在行业中看到的一个挑战，并且它在过去一直在演变，尤其是在过去一年，是开放权重或开源模型可以从哪里获得的问题。而且有非常多的外部考量被带入其中，正如，就像你之前说的，LLM 开发的重心可能仍然在美国。其中很多是闭源的。可用的开放权重模型数量随着 Meta 有点放弃这方面而有所缩减，而 NVIDIA 开始更多地加码，因为美国其他商业行业在减少，而我们正在看到新模型能力上的爆发式增长，它们正在快速追赶非常接近的追随者，或者可能与中国持平。"
+ },
+ {
+  "seg": 65,
+  "start": 1407.25,
+  "end": 1459.905,
+  "speaker": "Chris Benson",
+  "en": "And overlaying all this, you have all these countries have their various exports concerns, import concerns, what you're allowed to use, and that makes it quite complicated as an ecosystem for companies in various businesses to try to figure out what makes sense for me. You talked about governance. You talked about data sovereignty. How do you navigate with some of these big issues that go beyond the technology of AI and the implementation of AI and can affect management concerns all the way up to the CEO and the board of directors? How do you start If you're a company now, it's late twenty twenty six, and all this has rapidly developed, how do you look at all these and make decisions for strategic interest in your organization going forward?",
+  "zh": "而且在这一切之上，你还有所有这些国家有它们各自的各种出口关切、进口关切、你被允许使用什么，这使得作为一个生态系统，对于各个行业的公司来说，试图弄清楚什么对我有意义变得相当复杂。你谈到了治理。你谈到了数据主权。你如何应对这些超越 AI 技术和 AI 实施的大问题，它们可以影响管理层，一直影响到 CEO 和董事会？你如何开始？如果你是一家现在的公司，现在是 2026 年末，所有这一切都快速发展了，你如何看待这一切，并为你组织的未来战略利益做出决策？"
+ },
+ {
+  "seg": 66,
+  "start": 1459.905,
+  "end": 1462.8401,
+  "speaker": "Chris Benson",
+  "en": "Because it's quite the quagmire at this point.",
+  "zh": "因为在这一点上，这真是一个泥潭。"
+ },
+ {
+  "seg": 67,
+  "start": 1462.8401,
+  "end": 1473.64,
+  "speaker": "Chetan Gupta",
+  "en": "Yeah, know. And it's quagmire and the changes are at a dizzying pace as well, right? It does. So there is no easy answer to that. I do want to address the question of open models, though.",
+  "zh": "是的，知道。而且它是泥潭，而且变化的速度也令人眼花缭乱，对吧？确实如此。所以对此没有简单的答案。不过我确实想谈一谈开放模型的问题。"
+ },
+ {
+  "seg": 68,
+  "start": 1473.855,
+  "end": 1497.74,
+  "speaker": "Chetan Gupta",
+  "en": "And I know you said that we are somewhat behind in terms of open models. But I think the beauty of The United States is that the right incentive, we really step up. Right? So now, we realize, the AI community realizes as well that, look, with open source models, maybe they're from China today, obviously NVIDIA is doing a great job in it. Is a lot of merit in that.",
+  "zh": "而且我知道你说我们在开放模型方面有些落后。但我认为美国的美妙之处在于，只要有正确的激励，我们真的会加把劲。对吧？所以现在，我们意识到，AI 社区也意识到，看，用开源模型，也许它们今天来自中国，显然 NVIDIA 在这方面做得很出色。这有很大的价值。"
+ },
+ {
+  "seg": 69,
+  "start": 1498.0751,
+  "end": 1517.58,
+  "speaker": "Chetan Gupta",
+  "en": "And from what I know of people I talk to and friends I talk to, I think it's a matter of time before our open source model will be part of everyone else. That's number one, right? Number two, like, how do enterprises get started? I think they have to sort of fix few things, I would say. Right?",
+  "zh": "而且根据我与我交谈的人和我交谈的朋友的了解，我认为只是时间问题，我们的开源模型会成为其他人的一部分。这是第一点，对吧？第二点，比如，企业如何入门？我认为他们必须，我得说，先搞定几件事。对吧？"
+ },
+ {
+  "seg": 70,
+  "start": 1517.58,
+  "end": 1542.6799,
+  "speaker": "Chetan Gupta",
+  "en": "Fix few things, meaning they need to sort of understand how much of their workload is sensitive today. Meaning, if you are, say, doing an HR query, maybe it's okay to go to an LLM. So one thing is sort of figure out what data is something you really want to work around. And there, ideally, you should sort of think about local models, open weight models in your own environment that you control. So I would say that's one North Star you should try to fix.",
+  "zh": "搞定几件事，意思是他们需要理解他们今天有多少工作负载是敏感的。意思是，如果你是，比如，做一个 HR 查询，也许去问一个 LLM 是可以的。所以一件事是弄清楚哪些数据是你真正想要围绕它做文章的。而在那里，理想情况下，你应该考虑本地模型、开放权重模型，放在你自己控制的自己的环境里。所以我会说那是你应该努力搞定的一个北极星。"
+ },
+ {
+  "seg": 71,
+  "start": 1542.6799,
+  "end": 1565.875,
+  "speaker": "Chetan Gupta",
+  "en": "Don't marry into any model family because they will swap in and out both for commercial reasons, geopolitical reasons, right? So all of that will sort of evolve, change. So don't marry into any sort of Marry into an architectural way of thinking. Right? Meaning that these are the workloads that I can push to an LLM, outside LLM.",
+  "zh": "不要与任何模型家族联姻，因为它们会因为商业原因、地缘政治原因被换进换出，对吧？所以所有这些都会演变、变化。所以不要与任何，与一种架构性的思维方式联姻。对吧？意思是，这些是我可以推给 LLM 的工作负载，推给外部 LLM。"
+ },
+ {
+  "seg": 72,
+  "start": 1565.875,
+  "end": 1600.95,
+  "speaker": "Chetan Gupta",
+  "en": "These are the workloads that I need to have on prem or in a governed environment, and what are my governance and assurance layers that I want to have? So what are the properties that are important to my enterprise, right, that I really need to enforce in the way I work with AI? Right? So I think if you have some of those principles pinned down, it becomes an easier way to get started. And I think most and then a year or so ago, I would have said, right, pick one problem up, and then do it well all the way, and then pick the second one up, then do it all the way.",
+  "zh": "这些是我需要放在本地部署（on-prem）或在受治理环境中的工作负载，以及我想要拥有哪些治理和保证层？所以，对我的企业来说，哪些属性是重要的，对吧，在我与 AI 合作的方式中我真的需要执行的？对吧？所以我认为如果你把这些原则中的一些确定下来，入门就变成一个更容易的方式。而且我认为大多数，然后大约一年前，我会说，对吧，挑一个问题，然后一路把它做好，然后再挑第二个问题，然后一路把它做好。"
+ },
+ {
+  "seg": 73,
+  "start": 1601.03,
+  "end": 1614.525,
+  "speaker": "Chetan Gupta",
+  "en": "Because at least six months to a year ago, there were so many pilots and not as much impact on the bottom line or top line of a corporation. But I think people are learning that lesson. But yep. But that's the other thing. Right?",
+  "zh": "因为至少在六个月到一年前，有非常多的试点项目，但对公司的损益底线或营收顶线没有那么多影响。但我认为人们正在吸取这个教训。但是，是的。但那是另一回事。对吧？"
+ },
+ {
+  "seg": 74,
+  "start": 1614.525,
+  "end": 1638.0901,
+  "speaker": "Chetan Gupta",
+  "en": "Pick one or two sort of problems that are meaningful in terms of impact if you're not started yet, and start with the but for most enterprises, which are already somewhere in the journey that have started, I would say stop thinking models and start thinking architectures, right, enterprise architectures for AI. Right? So so that would be sort of my one liner, if you would, for how to go about it, if that makes sense.",
+  "zh": "挑一两个在影响方面有意义的问题，如果你还没有开始的话，然后从，开始做，但对于大多数企业，它们已经在这个旅程中的某个地方，已经开始了，我会说停止思考模型，开始思考架构，对吧，面向 AI 的企业架构。对吧？所以这就是我的单句建议，如果你愿意这么说的话，关于如何着手去做，如果这说得通的话。"
+ },
+ {
+  "seg": 75,
+  "start": 1638.0901,
+  "end": 1697.28,
+  "speaker": "Sponsor",
+  "en": "I love how Chetan in this episode is emphasizing the need for operational sovereignty as we move into agentic AI. As agents have autonomy in your own infrastructure and touch your critical systems, it's absolutely crucial that you maintain control and limit the blast radius. That's why I'm so privileged to be leading a company called Prediction Guard, which has a self hosted control plane that allows you to maintain least agency for the agents operating in your environment and limit the blast radius of those agents. This runs in your own infrastructure. You have complete sovereign control, whether that's on prem, air gapped, or in your cloud VPC, and it's available on the AWS and Azure marketplaces. I would encourage you to check us out at predictionguard.com/practicalai. Again, check us out at predictionguard.com/practicalai.",
+  "zh": "我很欣赏 Chetan 在这一集中强调的运营主权的必要性，因为我们迈入智能体 AI 时代。当智能体在你的自有基础设施中拥有自主权并触及你的关键系统时，保持控制并限制爆炸半径是绝对关键的。这就是为什么我如此荣幸能领导一家名为 Prediction Guard 的公司，它有一个自托管的控制平面，让你能在你的环境中运行的智能体保持最小智能体权限（least agency）并限制这些智能体的爆炸半径。这在你的自有基础设施中运行。你拥有完全的主权控制，无论是在本地部署（on-prem）、气隙隔离，还是在你的云 VPC 中，而且它在 AWS 和 Azure 市场上可用。我鼓励你去 predictionguard.com/practicalai 看看我们。再次，去 predictionguard.com/practicalai 看看我们。"
+ },
+ {
+  "seg": 76,
+  "start": 1697.28,
+  "end": 1729.0249,
+  "speaker": "Daniel Whitenack",
+  "en": "So, Chetan, you you brought us to the point of talking through kind of thinking about architecture, and I want I I do wanna come back to that here in a second in terms of how you're thinking about that and enabling that at Rackspace. But before I do that, I wanted maybe to get your perspective on a word that you that you used a a little bit ago, which was sovereignty, which has to do I I think maybe there's listeners out there that are thinking, oh, I'm you know, I work for an an industry company. I'm not a nation state.",
+  "zh": "那么，Chetan，你把我们带到了谈论架构思考的地步，我想要，我确实想在一会儿之后回到这里，谈谈你在 Rackspace 是如何思考这个以及如何启用这个的。但在那之前，我想也许可以得到你对你不久前用到的的一个词的看法，那就是主权，这个与，我想也许有听众在外面想，哦，我，你知道，我在一家行业公司工作。我不是一个民族国家。"
+ },
+ {
+  "seg": 77,
+  "start": 1729.0249,
+  "end": 1753.0848,
+  "speaker": "Daniel Whitenack",
+  "en": "I don't need I don't have a sovereign cloud. What what does sovereignty have to do with with me? Could you help clarify that? Because, some people might be thinking or or have different views of what that means and and kind of bring it down to maybe the the commercial or the industry setting. What what does sovereignty mean in that sense, both in terms of maybe privacy and control?",
+  "zh": "我不需要，我没有主权云。主权与我有什么关系？你能帮忙澄清一下吗？因为，有些人可能在思考，或者对这意味着什么有不同的看法，并把它带回到也许商业或行业的场景中。主权在那个意义上意味着什么，无论是在隐私还是在控制方面？"
+ },
+ {
+  "seg": 78,
+  "start": 1753.8049,
+  "end": 1769.6399,
+  "speaker": "Chetan Gupta",
+  "en": "So, yeah, that's an excellent question, Daniel. And I think that's exactly the evolution that has happened. Folks typically associated sovereignty with sort of a nation state. That nation state is sovereign, and it needs to have their own AI stack. And that's how the conversation started.",
+  "zh": "所以，是的，这是一个非常好的问题，Daniel。而且我认为这正是已经发生的演变。人们通常把主权与民族国家联系起来。那个民族国家是主权的，它需要拥有自己的 AI 技术栈。对话就是这样开始的。"
+ },
+ {
+  "seg": 79,
+  "start": 1769.72,
+  "end": 1819.9249,
+  "speaker": "Chetan Gupta",
+  "en": "But I think maybe a few months ago, conversation shifted because people realized that whenever you are interacting with a large language model that is not sort of in your own environment, you are sharing your data, your context, your processes, your information. And that is an IP. And given how powerful these AI tools can be, so that is an IP in terms of your data, your knowledge that you're giving to someone else. And not only that, it can be acted upon using AI to build solutions that might impact you as a corporation. So the notion of then sovereignty comes down to not just a nation but also any entity.",
+  "zh": "但我想也许几个月前，对话发生了转变，因为人们意识到，每当你与一个不在你自己环境中的大语言模型互动时，你是在分享你的数据、你的上下文、你的流程、你的信息。而那是一种 IP。而且鉴于这些 AI 工具可以多么强大，所以那是一种 IP，就你给别人的数据、你的知识而言。不仅如此，它还可以被用 AI 来操作，构建可能影响你作为一个公司的解决方案。所以主权的概念就落到了不仅是民族国家，还有任何实体。"
+ },
+ {
+  "seg": 80,
+  "start": 1819.9249,
+  "end": 1835.22,
+  "speaker": "Chetan Gupta",
+  "en": "Enterprise entity, for example. And I'll sort of make an interesting extension to it. Then that means that how do I protect my own IP? How do I protect my own data? How do I ensure that my model behaves in the way that I want it to behave?",
+  "zh": "比如，企业实体。而且我会对它做一个有趣的延伸。然后那意味着，我如何保护我自己的 IP？我如何保护我自己的数据？我如何确保我的模型以我想要的方式行事？"
+ },
+ {
+  "seg": 81,
+  "start": 1835.22,
+  "end": 1869.165,
+  "speaker": "Chetan Gupta",
+  "en": "My AI behaves in a way not model, sorry. My AI behaves in a way that I want it to behave with sort of the governance and assurances that I think are appropriate in my environment, not someone else dictating to me what my governance should be. It is not someone else's constitution that I have to use, but my own constitution as from a sovereign standpoint. And I think that idea will extend further as we go ahead, maybe to an individual as well, right? So we are quite of now used to the idea of sharing our private information with abandon, so to speak, right?",
+  "zh": "我的 AI 以我想要的方式行事——不是模型，抱歉。我的 AI 以我想要的方式行事，配上我认为在我的环境中合适的治理和保证，而不是别人来对我指手画脚我的治理应该是什么。它不是别人的宪法是我必须使用的，而是我自己的宪法，从主权的角度来说。而且我认为这个想法会随着我们前进进一步延伸，也许延伸到个人，对吧？所以我们现在已经相当习惯于可以说尽情地分享我们的私人信息的想法，对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 1869.165,
+  "end": 1898.775,
+  "speaker": "Chetan Gupta",
+  "en": "But I think this idea of sovereignty, I think, will eventually extend to humans as well, to us as well, where we'll say, Look, how do I protect my own data when I'm interacting with these language models? Because people are sharing a lot of private information now, right? They are sort of using them as therapists, as guides, as friends. So this notion of sovereignty will come all the way down. And the idea is I am this entity, I have my own interests that are distinct from someone else's interests, and I need to protect them.",
+  "zh": "但我认为主权这个想法，我认为，最终会延伸到人类，延伸到我们自己，到那时我们会说，看，当我与这些语言模型互动时，我如何保护我自己的数据？因为人们现在正在分享大量私人信息，对吧？他们在把它们用作治疗师，用作向导，用作朋友。所以主权的概念会一路延伸下来。而这个想法是，我是这个实体，我有我自己区别于别人利益的利益，而我需要保护它们。"
+ },
+ {
+  "seg": 83,
+  "start": 1898.775,
+  "end": 1930.1349,
+  "speaker": "Daniel Whitenack",
+  "en": "That's great. And I I love well, I love that definition. I think it gets people thinking in the right direction. But I also loved how you actually kind of made a distinction there when you talked about AI versus model, and you you brought us to the point of thinking about architecture before. And I'm wondering if you can help us now that you're kinda you're at Rackspace, you're helping Rackspace think through the architecture that needs to be enabled for different enterprises.",
+  "zh": "太好了。而且我，我很喜欢，我很喜欢那个定义。我认为它让人们朝正确的方向思考。但我也很喜欢你实际上在那里做了一个区分，当你谈到 AI 与模型的时候，而且你之前把我们带到了思考架构的地步。而我想知道你能否帮我们，现在你在 Rackspace，你在帮助 Rackspace 思考需要为不同企业启用的架构。"
+ },
+ {
+  "seg": 84,
+  "start": 1930.215,
+  "end": 1952.485,
+  "speaker": "Daniel Whitenack",
+  "en": "Actually, that that in itself becomes a little bit complicated because, like you said, models are not the same as, quote, AI that you're deploying in the sense of, oh, maybe there's an agent that uses multiple models. It has a harness. It connects to MCP servers. There's a governance element to it. There's an observability element to it, etcetera, etcetera.",
+  "zh": "实际上，那那本身就变得有点复杂，因为，就像你说的，模型不等同于你部署的，引号里的，「AI」，从意义上说，哦，也许有一个使用多个模型的智能体。它有一个线束（harness）。它连接到 MCP 服务器。有一个治理元素。有一个可观测性元素，等等等等。"
+ },
+ {
+  "seg": 85,
+  "start": 1952.645,
+  "end": 1987.035,
+  "speaker": "Daniel Whitenack",
+  "en": "It it's almost like you can look at that AI stack, and it can be very overwhelming to understand, you know, how to put all the pieces together, what what is the right architecture. Could you help help us understand maybe how you're think helping Rackspace enable, the architecture the architectures that are important for people now and how you're encouraging your customers, your partners to think about that architecture, not just as a model, but as a whole architecture that's supporting the deployment of AI.",
+  "zh": "它几乎就像是你可以看着那个 AI 技术栈，而理解如何把所有部件拼在一起、什么是正确的架构会是非常令人不知所措的。你能帮我们理解也许你是在怎么帮助 Rackspace 启用那些现在对人们重要的架构，以及你如何鼓励你的客户、你的伙伴去思考那个架构，不仅是作为一个模型，而是作为一个支持 AI 部署的整体架构？"
+ },
+ {
+  "seg": 86,
+  "start": 1987.035,
+  "end": 2020.765,
+  "speaker": "Chetan Gupta",
+  "en": "So in some sense, Rackspace today goes from, as you say, from chip to outcome, right? Because we have a partnership with AMD, we have our own data centers, so our stack goes all the way. And for our customers, we provide the whole sort of private AI kind of environment, private cloud kind of environment where they can safely run their AI in their own environment, completely controlled by them. And this is what we are trying to do. I'm trying to build this sort of stack out for our customers, partners, and also internally at Rackspace.",
+  "zh": "所以在某种意义上，Rackspace 今天覆盖，就像你说的，从芯片到成果，对吧？因为我们与 AMD 有合作关系，我们有自己的数据中心，所以我们的技术栈一路到底。对于我们的客户，我们提供整个，私有 AI 类型的环境，私有云类型的环境，他们可以在自己的环境中安全地运行他们的 AI，完全由他们控制。而这就是我们正在尝试做的。我正在为我们的客户、伙伴以及 Rackspace 内部构建这种技术栈。"
+ },
+ {
+  "seg": 87,
+  "start": 2021.76,
+  "end": 2050.3901,
+  "speaker": "Chetan Gupta",
+  "en": "And I know I completely agree that this can be quite overwhelming, but I think it's not all that bad. If think if you take a step back and think systematically about it, it's sort of following the same paradigms of architecture and design that have come before. So if you think about, you start with a compute layer, then you have your data, it's fine, then you have a model layer. Now, by the model layer, it could mean not just the large LLMs, but also your own model. Right?",
+  "zh": "而且我知道我完全同意这可能是相当令人不知所措的，但我认为它并没有那么糟。如果你退一步系统地思考它，它有点遵循与之前相同的架构和设计范式。所以如果你想想，你从计算层开始，然后你有你的数据，这没问题，然后你有一个模型层。现在，说到模型层，它可能意味着不仅是大的 LLM，还有你自己的模型。对吧？"
+ },
+ {
+  "seg": 88,
+  "start": 2050.3901,
+  "end": 2061.51,
+  "speaker": "Chetan Gupta",
+  "en": "There's a model library. And on top of it is an inference layer. So inference layer is how you get some intelligence out of a model. Right? So that is the inference layer.",
+  "zh": "有一个模型库。而在它之上是一个推理层。所以推理层是你如何从一个模型中获得一些智能。对吧？所以那就是推理层。"
+ },
+ {
+  "seg": 89,
+  "start": 2061.695,
+  "end": 2095.5452,
+  "speaker": "Chetan Gupta",
+  "en": "And on top of it sits, I would say, the harness. And I think you've read the word harness, Daniel. I think it's very important to think of harness as a sort of key construct in how you deploy your AI. So harness is what, in my mind, ties a machine learning model to an outcome that you can use. So when, for example, people use plot code, it's not that you are directly working with the model itself, it is the coding harness, right, around the underlying machine learning model that enables you to do something very useful.",
+  "zh": "而在它之上，我要说的是，坐着线束（harness）。而且我认为你读过「线束」这个词，Daniel。我认为把线束当作你部署 AI 的一个关键构建来思考是非常重要的。所以线束，在我看来，是把一个机器学习模型与一个你可以使用的成果联系起来的东西。所以当，例如，人们使用 plot code，并不是你直接在与模型本身打交道，而是围绕底层机器学习模型的编码线束，让你能做一些非常有用的事情。"
+ },
+ {
+  "seg": 90,
+  "start": 2095.785,
+  "end": 2129.25,
+  "speaker": "Chetan Gupta",
+  "en": "So you take the same model and you build two different harnesses, you will get two different outcomes. So, it's very important to think through what sort of a harness looks like. And harness simply thinks through a harness as sort of the machinery that sort of specifies the logic the underlying underlying AI model to use and setting a set of tool sets that it could use, right, through MCP or whatever. And then, in any enterprise, there will be multiple harnesses. Right?",
+  "zh": "所以你拿同一个模型，构建两个不同的线束，你会得到两个不同的成果。所以，想清楚一个线束看起来是什么样的非常重要。而线束，简单地说，就是把线束想成某种机制，它指定底层要使用的底层 AI 模型的逻辑，并设置一组它可以使用的工具集，对吧，通过 MCP 或其他什么。然后，在任何企业中，都会有多个线束。对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 2129.25,
+  "end": 2149.6353,
+  "speaker": "Chetan Gupta",
+  "en": "So you will have a coding harness, you might have a harness for your agents for HR, you might have a harness for agents for blah blah blah. And so, ideally, you should think of building an orchestration layer to manage multiple harnesses. Right? And on top of it, you can then think of the consumption layer. And around the whole thing should be wrapped, I would say, with the governance and assurance planes.",
+  "zh": "所以你会有一个编码线束，你可能有一个用于 HR 智能体的线束，你可能有一个用于某某智能体的线束。所以，理想情况下，你应该考虑构建一个编排层来管理多个线束。对吧？而在它之上，你然后可以考虑消费层。而围绕整个东西，我要说，应该用治理和保证平面（planes）包裹起来。"
+ },
+ {
+  "seg": 92,
+  "start": 2150.2751,
+  "end": 2191.35,
+  "speaker": "Chetan Gupta",
+  "en": "So if you think of this, this is not so different from how we thought about other sort of stacks in the past. It's a matter of just abstracting out the use cases and commonality and things from that point of view. And once you do that, this falls out naturally, at least to me. And everything can then be done through sort of the way we have done that in the past, through APIs, through specifications, who says what to whom, how do they interact, and that's how these multiple layers can interact. So, yes, I mean, it looks overwhelming, but I think the design principles are the same like in the past, and it should not be all that intimidating.",
+  "zh": "所以如果你想到这个，这与我们过去思考其他技术栈的方式没有太大不同。只是把用例和共同性之类的东西抽象出来，从这个角度来看。而一旦你做到了，这自然就落出来了，至少对我而言。而所有事情然后都可以通过我们过去做这件事的方式来完成，通过 API，通过规范，谁对谁说什么，他们如何互动，而这些多个层就是这样互动的。所以，是的，我是说，它看起来令人不知所措，但我认为设计原则与过去一样，而且它不应该那么吓人。"
+ },
+ {
+  "seg": 93,
+  "start": 2191.35,
+  "end": 2284.745,
+  "speaker": "Chris Benson",
+  "en": "No. I I think that was I think that's quite an elegant way of describing how architectural components fit together. I really found myself gravitating to the way that you were explaining it, and in my head, as you were doing that, I had a question which I think you've already started to answer, but I wanted to extend it a little bit, and that is from a customer standpoint, as they are looking at the products and services that, whatever their business is, that they're offering their own customers, and there's some sense of stability to achieve that value. They need the product or service to be reliable to their own customers over time, and yet on the back end, your customer who is providing that service to them is trying to navigate those decisions that you just were describing in terms of what harnesses for what kinds of jobs I wanna get done. And my question, which maybe I have a glimpse of, was how do you manage the tumultuousness of the evolving set of models, the never ending set of new harnesses and stuff that are always coming out, while keeping that customer experience downstream steady and level based on the value that you're trying to provide, I'm guessing that that's somehow being managed through the orchestration layer in terms of how you're Right.",
+  "zh": "不。我，我认为那是，我认为那是描述架构组件如何组合在一起的相当优雅的方式。我真的发现自己被你解释它的方式所吸引，而在我脑中，当你这么做的时候，我有一个问题，我想你已经已经开始回答了，但我想稍微延伸一下，那就是从客户的角度来看，当他们看着他们的产品和服务，无论他们的业务是什么，他们提供给他们自己的客户的，而且有某种稳定性来实现那个价值。他们需要产品或服务随时间对他们的自己的客户可靠，然而在后端，你那个向他们提供该服务的客户正在试图应对你刚才描述的那些决策，关于什么样的线束用于我想完成什么样的工作。而我的问题，也许我有一瞥，是如何管理不断演变的模型集合的动荡、永无止境的新线束之类的总是涌现出来的东西，同时保持下游的客户体验稳定和平稳，基于你试图提供的价值，我猜那在某种程度上是通过编排层来管理的，就你如何，对吧。"
+ },
+ {
+  "seg": 94,
+  "start": 2284.745,
+  "end": 2284.985,
+  "speaker": "Chris Benson",
+  "en": "Doing",
+  "zh": "正在做"
+ },
+ {
+  "seg": 95,
+  "start": 2285.865,
+  "end": 2299.71,
+  "speaker": "Chetan Gupta",
+  "en": "you need to sort of build evals for your own workloads. I think one thing people often gravitate towards is like, Oh, these are benchmark. This model is doing something else. It's better than the other benchmark. But those benchmarks are only guidelines in some sense.",
+  "zh": "你需要为你自己的工作负载构建评估（evals）。我认为人们经常倾向的一点是，哦，这些是基准测试。这个模型在做一些别的事情。它比另一个基准测试更好。但那些基准测试在某种意义上只是指导。"
+ },
+ {
+  "seg": 96,
+  "start": 2299.71,
+  "end": 2325.155,
+  "speaker": "Chetan Gupta",
+  "en": "They don't represent your workloads. And as we said earlier, the boundary of AI is jagged, right? So although a certain model might do very well on a benchmark, it doesn't necessarily translate into that it will do very well for your workloads as well. So I would say having your own evals is very important. And once you make that eval layer, then in some sense you can have a very consistent experience for your customers.",
+  "zh": "它们不代表你的工作负载。而且正如我们之前说的，AI 的边界是参差不齐的，对吧？所以尽管某个模型可能在基准测试上做得很好，它并不必然转化为它也会为你的工作负载做得很好。所以我会说拥有你自己的评估是非常重要的。而一旦你做出那个评估层，那么在某种意义上你就可以为你的客户有非常一致的体验。"
+ },
+ {
+  "seg": 97,
+  "start": 2325.6099,
+  "end": 2340.25,
+  "speaker": "Chetan Gupta",
+  "en": "So you can swap in models in and out based on your evaluation results. Right? So so you should say, okay. I have the same Evalids from my previous model to your model. New model is cheaper, lighter, whatever, or, you know, it's it's safe.",
+  "zh": "所以你可以基于你的评估结果把模型换进换出。对吧？所以你应该说，好的。我有同样的评估，从我之前的模型到你的模型。新模型更便宜、更轻量，随便什么，或者，你知道，它是安全的。"
+ },
+ {
+  "seg": 98,
+  "start": 2340.25,
+  "end": 2349.095,
+  "speaker": "Chetan Gupta",
+  "en": "I will use this. Right? So I think you need to build an eval layer as part of the orchestration framework. And that can then help you decide which sort of harness to go to. Sorry, sorry, Daniel.",
+  "zh": "我会用这个。对吧？所以我认为你需要构建一个评估层作为编排框架的一部分。而那然后可以帮你决定去哪个线束。抱歉，抱歉，Daniel。"
+ },
+ {
+  "seg": 99,
+  "start": 2349.095,
+  "end": 2382.11,
+  "speaker": "Daniel Whitenack",
+  "en": "No, I was just going to say I think that ties into what you were saying about some of the intuition that we've had from building software over the years and architecture over the years. Certainly, testing end to end testing, etcetera, is a key piece of that. And maybe the kinds of tests are slightly different or or there's different ways of testing in in this case, but I I love how you tied that that piece together. And also thinking about the you mentioned the term outcome. You know, what outcome are you after, and are you really testing for for that outcome?",
+  "zh": "不，我只是想说我认为那与你所说的关于我们多年来构建软件和架构的一些直觉联系起来了。当然，测试，端到端测试等等，是其中的一个关键部分。而且也许测试的种类略有不同，或者，在这个案例中有不同的测试方式，但是，我很喜欢你把那一块联系在一起。而且也思考一下你提到的术语成果。你知道，你在追求什么成果，而且你是否真的在为那个成果进行测试？"
+ },
+ {
+  "seg": 100,
+  "start": 2382.27,
+  "end": 2384.5103,
+  "speaker": "Daniel Whitenack",
+  "en": "I think that's a key piece of it.",
+  "zh": "我认为这是其中关键的一环。"
+ },
+ {
+  "seg": 101,
+  "start": 2385.6301,
+  "end": 2400.285,
+  "speaker": "Chetan Gupta",
+  "en": "I'm wondering Yeah. Just to add to that, Daniel. Right? If you remember, I mean, when we were doing sort of these machine learning models for industrial use cases, we had this golden dataset. So before you could deploy, the customer will say, prove your model works on this golden dataset.",
+  "zh": "我在想，是的。就是想补充一点，Daniel。对吧？如果你还记得，我是说，当我们做这些面向工业用例的机器学习模型时，我们有一个黄金数据集。所以在你部署之前，客户会说，证明你的模型在这个黄金数据集上是有效的。"
+ },
+ {
+  "seg": 102,
+  "start": 2400.285,
+  "end": 2407.4849,
+  "speaker": "Chetan Gupta",
+  "en": "Right? So I think it's the same. Like, now we call it Evalse. It is more comprehensive. But the basic idea is the same.",
+  "zh": "对吧？所以我认为是一样的。比如，现在我们叫它 Evalse。它更全面了。但基本思路是一样的。"
+ },
+ {
+  "seg": 103,
+  "start": 2407.4849,
+  "end": 2416.64,
+  "speaker": "Chetan Gupta",
+  "en": "Right? You've got to prove that your model works on data that's relevant to me before you deploy it for my customers in some sense. Right? So sorry. Sorry to interrupt you, but I apologize.",
+  "zh": "对吧？在某种意义上，你必须先证明你的模型在与我相关的数据上有效，然后才能为我的客户部署它。对吧？所以抱歉。抱歉打断你，我很抱歉。"
+ },
+ {
+  "seg": 104,
+  "start": 2416.64,
+  "end": 2417.2,
+  "speaker": "Daniel Whitenack",
+  "en": "No. That's great.",
+  "zh": "不，这很好。"
+ },
+ {
+  "seg": 105,
+  "start": 2417.2,
+  "end": 2418.72,
+  "speaker": "Chetan Gupta",
+  "en": "Make make that connection.",
+  "zh": "建立起那种联系。"
+ },
+ {
+  "seg": 106,
+  "start": 2418.7998,
+  "end": 2436.575,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Yeah. I I love that. And I I guess kind of as we as we get closer to the to the end here, I I wanna give you a chance to you know, you're sitting in this chief AI officer role. You've kind of navigated the this career are coming to Rackspace.",
+  "zh": "是的。是的。我很喜欢这一点。我想，随着我们接近尾声，我想给你一个机会，你知道，你坐在这个首席 AI 官的位置上。你算是走过了这样一条职业生涯，来到了 Rackspace。"
+ },
+ {
+  "seg": 107,
+  "start": 2437.31,
+  "end": 2490.1,
+  "speaker": "Daniel Whitenack",
+  "en": "Obviously, I know you can't share, you know, anything that that's not public, but I wonder if you could give us a sense of what are the types of challenges and the and the things that you're encouraging Rackspace to think about as we're going into the rest of this year and next year. What's what's on your mind as that chief AI officer for Rackspace? What's what's kind of, yeah. What what sorts of challenges are at kind of the top of your mind as you're as you're laying down to to to sleep at night or or coming to the end of the day? What what's at the top of your mind that that needs to be addressed, you know, within Rackspace and maybe the industry a little bit more broadly to make sure that we move forward to produce the types of AI outcomes and the accessibility and the safety that that we're after?",
+  "zh": "显然，我知道你不能分享任何未公开的东西，但我想知道你能否让我们了解一下，在我们进入今年剩余时间和明年之际，你在鼓励 Rackspace 思考哪些类型的挑战和问题。作为 Rackspace 的首席 AI 官，你在想些什么？什么，是的。哪些类型的挑战是你夜晚躺下入睡时或一天即将结束时最挂心的？在 Rackspace 内部，或者更广泛地说在整个行业，有什么是你最挂心的、需要解决的事情，以确保我们向前推进，产出我们所追求的那类 AI 成果、可及性和安全性？"
+ },
+ {
+  "seg": 108,
+  "start": 2490.1,
+  "end": 2496.9,
+  "speaker": "Chetan Gupta",
+  "en": "Yeah. I would say a couple of things, Daniel. So one sort of there are couple of things I think about. Right? So one is obviously the architecture.",
+  "zh": "是的。我想说几点，Daniel。嗯，我思考的事情有几件。对吧？其中一件显然是架构。"
+ },
+ {
+  "seg": 109,
+  "start": 2496.9,
+  "end": 2504.8948,
+  "speaker": "Chetan Gupta",
+  "en": "Right? So, like, how do you make it better? How do you define it? Who do we partner with for what layer? What are the different types of customers?",
+  "zh": "对吧？比如，你怎么把它做得更好？你怎么定义它？我们在哪一层与谁合作？有不同类型的客户？"
+ },
+ {
+  "seg": 110,
+  "start": 2504.8948,
+  "end": 2531.44,
+  "speaker": "Chetan Gupta",
+  "en": "Like, what makes sense? There's no one answer that fits all. So the general design questions around architecture and all the sort of underlying components of that are of interest and of importance to me, and we think about that. The other thing I think about, and I think in this case, in the sense Rackspace is unique, could be like other companies could learn from us as well. I want to build I don't know what the right word for it is, like, a mirror org.",
+  "zh": "比如，什么才是合理的？没有放之四海而皆准的答案。所以围绕架构以及其所有底层组件的一般性设计问题，是我感兴趣也对我很重要的，我们也在思考这些。另一件我在思考的事——我认为在这个意义上 Rackspace 是独特的，其他公司或许也可以向我们学习——我想构建一个我不知道确切的词是什么，比如，一个镜像组织。"
+ },
+ {
+  "seg": 111,
+  "start": 2531.755,
+  "end": 2561.11,
+  "speaker": "Chetan Gupta",
+  "en": "Meaning, what you're saying now is if you can build it internally and use it internally, then you can go sell it externally. Right? So if I have an AI solution that I have proven on my own workloads, then I can have confidence and go to my customer and say, You could use this. And so what I'm trying to do is, from an internal standpoint, build a discipline around it, right? So it's not that the central project is just valuable and it's like a throwaway project, right?",
+  "zh": "意思是，你现在说的就是，如果你能在内部构建它并在内部使用它，那你就可以拿出去对外销售。对吧？所以如果我有一个 AI 解决方案，已经在我自己的工作负载上得到验证，那我就可以有信心地去见我的客户，并说，你可以用这个。所以我正在尝试做的，是从内部的角度，围绕它建立一种纪律，对吧？所以并不是说这个中心项目只是有价值，然后就像一个用完即弃的项目，对吧？"
+ },
+ {
+  "seg": 112,
+  "start": 2561.2551,
+  "end": 2593.8452,
+  "speaker": "Chetan Gupta",
+  "en": "The intent should be that if you do it well, then we rotate it out to our customers. So I would say that's number two. And number three is around the governance, assurance, orchestration. I think these three layers are underserved today, and especially in a sovereign sort of environment. So how do I bring self sovereignty to our enterprises, to our customers, in a way that it is cost effective, it is safe, it is reliable, and I can orchestrate multiple workloads for them.",
+  "zh": "意图应该是，如果你做得好，那我们就把它轮换推广给我们的客户。所以我会说那是第二点。第三点围绕治理、保障、编排。我认为这三层在今天服务不足，尤其是在一种主权类的环境中。那么，我如何以一种划算的、安全的、可靠的方式，为我们的企业、我们的客户带来自我主权，并且我能为他们编排多种工作负载。"
+ },
+ {
+  "seg": 113,
+  "start": 2594.725,
+  "end": 2606.5598,
+  "speaker": "Chetan Gupta",
+  "en": "Because any enterprise will require multiple kinds of workloads, AI workloads for them. And I think that is sort of the broader design question I think about. I'm not sure if I answered your question correctly, but those are some of things that yeah.",
+  "zh": "因为任何企业都会需要多种类型的工作负载，为他们服务的 AI 工作负载。我认为这就是我在思考的更宏观的设计问题。我不确定我是否正确回答了你的问题，但这些是一些——是的。"
+ },
+ {
+  "seg": 114,
+  "start": 2606.5598,
+  "end": 2623.945,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I think that's great. I I love that perspective. Of of course, from from where you're sitting, you have a a broad view of of what challenges you're trying to address and and what's important, so always eager to to get insight there. This has been a a great conversation, Chetan.",
+  "zh": "是的。我认为这很棒。我很喜欢这个视角。当然，从你所处的位置，你对你在试图解决的挑战以及什么重要有广阔的视野，所以我总是渴望从那里获得洞见。Chetan，这是一次很棒的对话。"
+ },
+ {
+  "seg": 115,
+  "start": 2624.105,
+  "end": 2651.2449,
+  "speaker": "Daniel Whitenack",
+  "en": "I would very much encourage our listeners to check out what Rackspace is doing. We'll include some links in our in our show notes. Is there anywhere in particular, Chetan, that, obviously, people can go to the website, see what you're doing with AI, but anything to highlight in terms of what Rackspace is doing, kind of a jumping off point for people, or anything to highlight as we close out here in terms of what's what's currently available from Rackspace and what people can explore?",
+  "zh": "我非常鼓励我们的听众去看看 Rackspace 在做什么。我们会在节目笔记中加入一些链接。有没有什么特别的地方，Chetan？显然，人们可以去网站，看看你们在 AI 方面做的东西，但有没有什么值得强调的关于 Rackspace 正在做的事，作为给人们的一个起点？或者在我们收尾之际，关于 Rackspace 目前有什么可用的、人们可以探索的东西，有没有什么值得强调的？"
+ },
+ {
+  "seg": 116,
+  "start": 2651.2449,
+  "end": 2667.37,
+  "speaker": "Chetan Gupta",
+  "en": "So I would say that the questions that Rackspace are trying to answer is where the industry is moving towards. So you should think about those as well. How do you maintain? How do you build AI that is sovereign, that is safe, that meets your outcomes, and all of that. Right?",
+  "zh": "所以我想说，Rackspace 试图回答的问题正是行业正在走向的方向。所以你也应该思考这些问题。你如何维护？你如何构建主权的、安全的、能满足你期望成果的 AI，等等这些。对吧？"
+ },
+ {
+  "seg": 117,
+  "start": 2667.37,
+  "end": 2694.6,
+  "speaker": "Chetan Gupta",
+  "en": "So those are things that everyone should think about. And those are the kind of solutions that is bringing to market. So please visit us, send me an email, or reach out to me on LinkedIn if you have specific questions as to what sort of Rackspace is to it. But I would encourage everyone, if there is Rackspace or not, to think systematically about these problems because that's how you can ensure that AI succeeds in your own",
+  "zh": "所以这些是每个人都应该思考的事情。而这些就是推向市场的那类解决方案。所以请访问我们，给我发邮件，或者在 LinkedIn 上联系我，如果你有关于 Rackspace 究竟如何的具体问题。但我会鼓励每个人，无论是否有 Rackspace，都系统性地思考这些问题，因为这就是你如何能确保 AI 在你自己的……"
+ },
+ {
+  "seg": 118,
+  "start": 2694.6,
+  "end": 2706.36,
+  "speaker": "Daniel Whitenack",
+  "en": "That's that's great. Well, thank you so much for joining us, Chetan. Look forward to having you back on the show to give us some updates as you continue to advance with Rackspace. Thank you much so much for joining.",
+  "zh": "这太好了。非常感谢你加入我们，Chetan。期待你再次回到节目，在你继续在 Rackspace 前进的过程中给我们带来一些最新进展。非常感谢你的加入。"
+ },
+ {
+  "seg": 119,
+  "start": 2706.36,
+  "end": 2711.7952,
+  "speaker": "Chetan Gupta",
+  "en": "Yeah. Thank you, Chris and Daniel. Fantastic conversation. Thank you for hosting me. Love it.",
+  "zh": "是的。谢谢你，Chris 和 Daniel。精彩的对话。感谢你们邀请我。很喜欢。"
+ },
+ {
+  "seg": 120,
+  "start": 2719.795,
+  "end": 2740.605,
+  "speaker": "Narrator",
+  "en": "All right. That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner, Prediction Guard, for providing operational support for the show.",
+  "zh": "好的。这就是我们本周的节目。如果你还没有看过我们的网站，请前往 practicalai.fm，并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 进展相关的洞见，我们非常欢迎你加入对话。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 121,
+  "start": 2740.765,
+  "end": 2750.1252,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "请在 predictionguard.com 上了解他们。另外，感谢 Breakmaster Cylinder 提供的节拍，也感谢你的收听。本期就到这里，我们下周再会。"
+ }
+]

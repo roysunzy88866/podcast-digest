@@ -1,0 +1,33 @@
+{
+  "id": "2026-07-23-nopriors-building-an-autonomous-delivery-experien",
+  "audio_mp3": "https://traffic.megaphone.fm/PDP3380514610.mp3",
+  "duration_sec": 2958.057,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 644,
+  "asr": true,
+  "title_en": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
+  "podcast": "No Priors",
+  "date": "2026-07-23",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/67540c92-8640-11f1-8f2a-e322343e668d/image/7117c68b7f633d2b72f99d31e26d27f8.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-09-05",
+  "added_at": "2026-09-04T23:12:11.838Z",
+  "speaker_map": {
+    "SPEAKER_02": "Andy Fang"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Andy Fang",
+  "cohosts": [],
+  "title_zh": "DoorDash 联合创始人：我们其实是一家机器人公司",
+  "guest_name": "Andy Fang",
+  "guest_title": "DoorDash 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/67540c92-8640-11f1-8f2a-e322343e668d/image/7117c68b7f633d2b72f99d31e26d27f8.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "1920x1080",
+    "aspect": 1.778,
+    "fetched_at": "2026-09-05T00:57:57.692Z"
+  }
+}

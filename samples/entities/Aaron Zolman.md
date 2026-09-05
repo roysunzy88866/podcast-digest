@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]]
+[[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Nick Bostrom]] [[Max]] [[Nick Warner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"OpenClaw":14,"智能体":1,"红队":2,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":1,"harness":17,"供应链攻击":2}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"OpenClaw":14,"智能体":1,"红队":2,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":1,"harness":19,"供应链攻击":2}</script>
 
 <script>
 (function(){

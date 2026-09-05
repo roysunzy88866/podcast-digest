@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]] [[Max Hodak]]
+[[Amandeep Khurana]] [[Brian Singerman]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brett":1,"Core AI":1,"Facebook":11,"Akamai":1,"Microsoft":21,"学习循环":1,"工作图":1,"DRI":4,"苦差事":1,"大赌注":1}</script>
+<script type="application/json" class="pd-epn">{"Brett":1,"Core AI":1,"Facebook":11,"Akamai":1,"Microsoft":22,"学习循环":1,"工作图":1,"DRI":4,"苦差事":1,"大赌注":1}</script>
 
 <script>
 (function(){

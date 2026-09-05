@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Gabriel Vasquez]] · [[Elena Berger]] · [[Angela Strange]] · [[a16z]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[OpenAI]] · [[Salesforce]]
+[[Gabriel Vasquez]] · [[Elena Berger]] · [[Angela Strange]] · [[a16z]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[OpenAI]] · [[DoorDash]]
 
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"Angela Strange":1,"a16z":8,"Eleven Labs":4,"Cognition":14,"Vercel":12,"Brex":3,"OpenAI":82,"Salesforce":12}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"Angela Strange":1,"a16z":8,"Eleven Labs":4,"Cognition":14,"Vercel":12,"Brex":3,"OpenAI":82,"DoorDash":5}</script>
 
 <script>
 (function(){

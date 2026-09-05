@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]]
+[[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Anthropic":94,"Claude Code":43,"Co-work":3,"智能体":1,"验证":4,"测试驱动开发":2,"潜在需求":2,"结对编程":1,"Visual Studio":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Anthropic":96,"Claude Code":43,"Co-work":3,"智能体":1,"验证":4,"测试驱动开发":2,"潜在需求":2,"结对编程":1,"Visual Studio":1}</script>
 
 <script>
 (function(){

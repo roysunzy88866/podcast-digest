@@ -1,0 +1,1493 @@
+{
+  "episode_id": "2026-07-23-nopriors-building-an-autonomous-delivery-experien",
+  "podcast": "No Priors",
+  "date": "2026-07-23",
+  "tags": [
+    "自主配送",
+    "智能体商务",
+    "物理世界 AI",
+    "机器人",
+    "企业 AI 转型"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "andy-fang",
+      "type": "person",
+      "role": "host",
+      "name": "Andy Fang",
+      "file": "Andy Fang",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": true,
+      "how_described": "本集主角：一年 30 亿单配送的物理世界生意，从 2018 年起就投入自主配送，构建本地商业生态，自研配送机器人 Dot 并实现 L4 全自主。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7.641,
+            11.164
+          ],
+          "quote": "Today, I'm here with Andy Feng and Stanley Ting, co-founders at DoorDash.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            11.424,
+            33.18
+          ],
+          "quote": "We talk about how you can ask DoorDash in natural language for food and groceries, what that means for the future of agentic commerce, their delivery robot DOT, how DoorDash has been a robotics company for the last eight years, the data advantages of their network, and what all this means for 9 million dashers and 3 billion deliveries a year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            37.483,
+            40.665
+          ],
+          "quote": "Real excited to talk to you about all the crazy stuff DoorDash is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            40.885,
+            46.429
+          ],
+          "quote": "I thought we could start with what's going on with agentic commerce at DoorDash.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            129.762,
+            135.711
+          ],
+          "quote": "Which is huge because that's one of the hardest metrics historically for DoorDash for us to move.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            167.604,
+            178.512
+          ],
+          "quote": "I've never thought of DoorDash as difficult to use, but that suggests there's actually latent demand that wasn't being served because it wasn't easy enough to eat at new places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            203.151,
+            205.772
+          ],
+          "quote": "So I feel like that's even a different way people look at DoorDash.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            212.838,
+            214.679
+          ],
+          "quote": "Things that are going on with restaurants outside of DoorDash.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            250.921,
+            259.084
+          ],
+          "quote": "So for Ask DoorDash, I would say to start with, maybe that's like the next couple months or so, I think it's making it easier for people to discover the experience and like figure out what to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            282.931,
+            288.993
+          ],
+          "quote": "It's like, if someone were to create DoorDash today, like, I don't know, like college kids in a garage trying to store DoorDash, I think it would look very different.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            299.117,
+            303.658
+          ],
+          "quote": "And so it's like, how do we have a DoorDash type experience that plays into that trend?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            330.665,
+            338.027
+          ],
+          "quote": "It's like, hey, when the shelf starts to get empty, like I can fire off like a query to DoorDash to like stock up my shelf.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            356.702,
+            362.527
+          ],
+          "quote": "Well, while we're here talking about user needs, I've got to be like a top percentile DoorDash consumer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            372.374,
+            377.878
+          ],
+          "quote": "And, you know, we eat DoorDash because I'm going to cook for all these people every week or I can't all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            426.912,
+            436.658
+          ],
+          "quote": "Like you're clearly your view of DoorDash as founders is broader and more ambitious than, I don't know, maybe just like the surface level view of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            485.761,
+            494.823
+          ],
+          "quote": "I think like Andy said, like the next DoorDash that comes along is not going to be someone that builds the exact same version of DoorDash, but maybe with a better UI is going to be... Yeah, that would be dumb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            533.482,
+            537.523
+          ],
+          "quote": "Yeah, I think it's probably the same of how we invest in a lot of things at DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            539.723,
+            542.284
+          ],
+          "quote": "I mean, in a way, that was the founding story behind DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            542.304,
+            545.965
+          ],
+          "quote": "DoorDash was a Stanford College dorm room experiment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            662.496,
+            664.237
+          ],
+          "quote": "How does autonomy integrate with DoorDash?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            769.605,
+            776.728
+          ],
+          "quote": "And we went through this process where a lot of these companies out there always felt like it wasn't exactly what DoorDash needed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            795.835,
+            803.138
+          ],
+          "quote": "But we quickly realized the speed was like, and distance was a huge limitation because the average delivery at DoorDash is about...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            881.329,
+            890.274
+          ],
+          "quote": "So when we kind of looked around and asked ourselves, okay, if you were to start first principle, then again, this has always been our philosophy at DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            956.339,
+            967.426
+          ],
+          "quote": "We started looking at testing this with real DoorDash deliveries, looking at our 10 billion deliveries we've done, extracting the insights we have on the operational learnings we have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1066.447,
+            1075.134
+          ],
+          "quote": "I think maybe that approach works in like software land, but like for at least for a business like ours, like DoorDash is a physical world business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1083.762,
+            1087.629
+          ],
+          "quote": "I think one of the things I think people don't realize is just how complicated DoorDash is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1131.712,
+            1141.698
+          ],
+          "quote": "happen at DoorDash is so complex that I think people sometimes don't realize just how nuanced the problem is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1141.718,
+            1145.7
+          ],
+          "quote": "And that's kind of what we have to solve for at DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1165.327,
+            1166.068
+          ],
+          "quote": "It's called DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1281.109,
+            1285.25
+          ],
+          "quote": "So for those of us who aren't in Phoenix, like what is DoorDash DOT?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1287.19,
+            1290.031
+          ],
+          "quote": "Yeah, so DoorDash Dot, it's an autonomous delivery robot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1290.171,
+            1293.032
+          ],
+          "quote": "It's built entirely in-house at DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1382.856,
+            1392.662
+          ],
+          "quote": "And I think that's, again, that's also where DoorDash gets to shine with our advantage is we don't necessarily have to solve for 100% of our use cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1411.972,
+            1427.804
+          ],
+          "quote": "Was always, let's not design something to solve for everything, but instead kind of, let's go with a, how do you come up with a multimodal strategy where perhaps you have DoorDash Dot do kind of the three to five mile suburban deliveries from a strip mall.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1460.018,
+            1466.639
+          ],
+          "quote": "And I think that's the nice thing about DoorDash is you can kind of, you don't have to, it's not an all or nothing approach.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1505.532,
+            1507.954
+          ],
+          "quote": "You already integrated DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1519.861,
+            1525.865
+          ],
+          "quote": "And I think, again, that is what ultimately DoorDash is building.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1575.939,
+            1578.561
+          ],
+          "quote": "How do you convince people to work at DoorDash on these problems?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1599.387,
+            1609.789
+          ],
+          "quote": "I think, I think, I think that's kind of really been the culture we kind of set up, you know, both at DoorDash Labs and all the AI efforts is, is like, this is, we're not just here to do pure research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1663.335,
+            1668.32
+          ],
+          "quote": "I think that's... We did that pretty early on for DoorDash Data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1942.414,
+            1944.754
+          ],
+          "quote": "But the nice thing is, again, DoorDash has that data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1959.997,
+            1962.218
+          ],
+          "quote": "It only exists at DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2097.256,
+            2112.268
+          ],
+          "quote": "But I think one thing that's really powerful about what we have here at DoorDash is we have a world-class operations team that you can partner with, whether it's to collect or annotate data, whether it's to figure out how to deploy robots and figure out how to get the fleet operations to work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2177.566,
+            2186.888
+          ],
+          "quote": "I think this is the other thing people miss is you can't just copy and paste what Waymo's done and then plop it into the DoorDash dot and everything works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2198.577,
+            2203.821
+          ],
+          "quote": "There's nothing else like this in the world besides that even behaves like DoorDash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2342.193,
+            2347.058
+          ],
+          "quote": "And again, it's like this is I feel like this is where DoorDash gets to shine with our",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2355.962,
+            2361.404
+          ],
+          "quote": "And I feel like DoorDash is just so well positioned to take on this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2724.273,
+            2728.196
+          ],
+          "quote": "The pace at which DoorDash is growing is just...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2871.01,
+            2876.474
+          ],
+          "quote": "And I think we've been testing some of that with the recent DoorDash CLI that we launched last week.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2881.758,
+            2894.136
+          ],
+          "quote": "Um, once, once you start thinking about this, like one concrete example I can talk about is like someone who was really excited to use the DoorDash CLI because like, Hey, let me like basically streamline my office manager use case for my startup.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2895.137,
+            2898.582
+          ],
+          "quote": "And when they found out that DoorDash did more than just lunch, they're like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2898.682,
+            2901.383
+          ],
+          "quote": "Oh, actually, wait, DoorDash can order me convenience and groceries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2931.244,
+            2937.692
+          ],
+          "quote": "I love how ambitious you guys are for both the user experience and the scope and scale of DoorDash.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dot",
+      "type": "company",
+      "role": "company",
+      "name": "Dot",
+      "file": "Dot",
+      "primary": true,
+      "how_described": "DoorDash 自研的自主配送机器人：300 磅、时速 20 英里、自行车外形，可在人行道与马路之间穿行，已在凤凰城跑近两年并实现完全自主的 L4。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            11.424,
+            33.18
+          ],
+          "quote": "We talk about how you can ask DoorDash in natural language for food and groceries, what that means for the future of agentic commerce, their delivery robot DOT, how DoorDash has been a robotics company for the last eight years, the data advantages of their network, and what all this means for 9 million dashers and 3 billion deliveries a year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1061.303,
+            1066.307
+          ],
+          "quote": "I mean, that's basically your methodology into building the dot form factor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1262.465,
+            1276.848
+          ],
+          "quote": "And, you know, whether it's DOT and like delivering something end to end, or I mean, you probably invest in like a bunch of different players in this space, but like there's real pressure to like be better than the alternative from either a quality and or a cost perspective.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1281.109,
+            1285.25
+          ],
+          "quote": "So for those of us who aren't in Phoenix, like what is DoorDash DOT?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1287.19,
+            1290.031
+          ],
+          "quote": "Yeah, so DoorDash Dot, it's an autonomous delivery robot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1411.972,
+            1427.804
+          ],
+          "quote": "Was always, let's not design something to solve for everything, but instead kind of, let's go with a, how do you come up with a multimodal strategy where perhaps you have DoorDash Dot do kind of the three to five mile suburban deliveries from a strip mall.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1430.486,
+            1433.148
+          ],
+          "quote": "That's kind of our starting point with Dot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1433.408,
+            1435.21
+          ],
+          "quote": "That's kind of the perfect market for Dot, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1733.798,
+            1742.902
+          ],
+          "quote": "Like there's some leaves on the ground, but it only covers kind of, because again, our dot drives on the road, but it tries to act like a bike.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1938.133,
+            1939.613
+          ],
+          "quote": "And we're just imagining Dot looking around.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2177.566,
+            2186.888
+          ],
+          "quote": "I think this is the other thing people miss is you can't just copy and paste what Waymo's done and then plop it into the DoorDash dot and everything works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2763.035,
+            2766.477
+          ],
+          "quote": "And I think DOT, robotics, drones, like,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集反复引用的自动驾驶参照：证明自动驾驶「是何时而非是否」的问题，但嘉宾强调 Waymo 的技术栈没法复制粘贴进为配送打造的 Dot。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            503.008,
+            511.752
+          ],
+          "quote": "And I think, I mean, fast forward like seven, eight years later, I think we're seeing everything starting to play out in AI and robotics and autonomy, seeing Waymo's happening.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            644.593,
+            648.433
+          ],
+          "quote": "And again, fast forward today, you see the Waymo's driving it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            842.633,
+            846.397
+          ],
+          "quote": "In robo-taxis, you can walk to a Waymo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            846.557,
+            854.064
+          ],
+          "quote": "I mean, how often have you taken a Waymo where it drops you off half a block or a block away from where you need to be, which is totally fine because you can walk, but...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1322.679,
+            1327.701
+          ],
+          "quote": "If you come up to Phoenix, to Tempe, it really feels like Waymo San Francisco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2160.496,
+            2164.399
+          ],
+          "quote": "You see now, especially with AI, Waymo's made that breakthrough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2177.566,
+            2186.888
+          ],
+          "quote": "I think this is the other thing people miss is you can't just copy and paste what Waymo's done and then plop it into the DoorDash dot and everything works.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "also",
+      "type": "company",
+      "role": "company",
+      "name": "Also",
+      "file": "Also",
+      "primary": false,
+      "how_described": "本集提到 DoorDash 为解决硬件规模化与之合作的微出行公司，从 Rivian 分拆出来，「懂如何规模化车辆」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            179.693,
+            189.4
+          ],
+          "quote": "And I think a lot of people on the restaurant side, it's like people build habits, but I think people also want some diversity in terms of what they're eating.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            839.851,
+            842.073
+          ],
+          "quote": "The pickup drop-off problem is also very different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            934.138,
+            939.203
+          ],
+          "quote": "You know, 300 pounds, but it also has to be a lot faster than Sidewalk, but it has to go 20, 25 miles per hour.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1205.152,
+            1216.757
+          ],
+          "quote": "I mean, for me, kind of that analogy you brought up, I think about it in terms of the autonomy thing, but I also think about it in terms of how the humanoid robotics space is starting to play out potentially.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1216.777,
+            1229.062
+          ],
+          "quote": "I mean, we also launched a product called Tasks a couple months ago where we're having people in the Dasher fleet help basically collect data points to help train some of these world models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1307.13,
+            1312.973
+          ],
+          "quote": "Sidewalks, but also go on bike lanes and on the road as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1382.856,
+            1392.662
+          ],
+          "quote": "And I think that's, again, that's also where DoorDash gets to shine with our advantage is we don't necessarily have to solve for 100% of our use cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1392.802,
+            1394.243
+          ],
+          "quote": "I mean, that's also part of our...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1488.781,
+            1495.265
+          ],
+          "quote": "I also think that's really cool that you have control over the routing and the distribution where you're like, I can accomplish this task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2304.884,
+            2311.548
+          ],
+          "quote": "And so one of the things we actually did is we actually partnered up with this company called Also.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2458.548,
+            2463.132
+          ],
+          "quote": "But there's also work we're doing in terms of how do we do AI enablement across the entire organization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2787.588,
+            2806.034
+          ],
+          "quote": "And I also just think with the introduction of autonomy and robotics and efficiency gains you're going to see over time, I also think you're just going to see an even stronger surge in demand as delivery becomes even more affordable in the next 10 years.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rivian",
+      "type": "company",
+      "role": "company",
+      "name": "Rivian",
+      "file": "Rivian",
+      "primary": false,
+      "how_described": "本集提到微出行公司 Also 是从 Rivian 分拆出来的，其创始人 RJ 担任 Also 董事长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 512,
+          "t": [
+            2312.108,
+            2315.911
+          ],
+          "quote": "Which is this micromobility company that spun out of Rivian.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "metis",
+      "type": "company",
+      "role": "company",
+      "name": "Metis",
+      "file": "Metis",
+      "primary": false,
+      "how_described": "DoorDash 去年收购的公司，目的是把 AI 原生思维注入公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 536,
+          "t": [
+            2409.085,
+            2417.006
+          ],
+          "quote": "One of the reasons why we were so excited to acquire a company called Metis last year was really to just infuse some of that AI-native thinking into the company.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务 (agentic commerce)",
+      "file": "智能体商务",
+      "primary": true,
+      "how_described": "本集说它是 DoorDash 的两大布局之一：通过 Ask DoorDash 等自然对话体验改变人们的点餐与购物行为（新餐厅订单占 50%、杂货购物篮大 40%）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            11.424,
+            33.18
+          ],
+          "quote": "We talk about how you can ask DoorDash in natural language for food and groceries, what that means for the future of agentic commerce, their delivery robot DOT, how DoorDash has been a robotics company for the last eight years, the data advantages of their network, and what all this means for 9 million dashers and 3 billion deliveries a year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            40.885,
+            46.429
+          ],
+          "quote": "I thought we could start with what's going on with agentic commerce at DoorDash.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            494.823,
+            502.928
+          ],
+          "quote": "It's going to be like something like, okay, how do we incorporate AI, agentic commerce, how to incorporate autonomy, robotics, drone deliveries, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2810.355,
+            2819.838
+          ],
+          "quote": "And Andy, when you think about what you've learned with the initial forays into agentic commerce, like how are people going to buy differently in the future beyond food?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说网络上的智能体流量已超过人类流量，未来要打造「智能体优先」的体验，如把摄像头对准零食架、快空了自动触发补货的用例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            291.094,
+            299.077
+          ],
+          "quote": "You know, one stat that I always like to think about nowadays is just like, there's more agent traffic on the web than human traffic, you know?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 61,
+          "t": [
+            308.72,
+            316.202
+          ],
+          "quote": "What could my agent know about what I want to eat or what I want to buy from a grocery perspective?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            340.708,
+            355.972
+          ],
+          "quote": "And so that was kind of like, I mean, something we talk about more later, but like kind of our like early experimentation with our CLI is like, that's kind of an example of like making less friction for an agent to kind of like participate in that experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1992.653,
+            1998.975
+          ],
+          "quote": "Like that actually has like very little to do with the thing we're trying to, we could try to accomplish with an agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2369.962,
+            2379.407
+          ],
+          "quote": "So you have these enormous strengths, you've got the network and the existing great business and these like two, you know, amongst others, I'm sure, like two really big plays around agent of commerce and around autonomy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2862.523,
+            2869.889
+          ],
+          "quote": "Another thing that I think is going to be true is I think we're all going to need to think about what does the agent-first experience look like?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2905.185,
+            2911.787
+          ],
+          "quote": "And whenever the shelf was getting empty, they would fire off the agent to basically restock the shelf.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2924.396,
+            2929.562
+          ],
+          "quote": "But as we make things more naturally agent first, I think some of these use cases are going to become a lot more interesting.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主性 (autonomy)",
+      "file": "自主性",
+      "primary": true,
+      "how_described": "本集说 2018 年就判断它对配送领域是变革性技术；五年前瓶颈是自动驾驶可不可能，现在「正越来越不再是约束和阻碍」，瓶颈转移到了运营和硬件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            421.849,
+            426.792
+          ],
+          "quote": "Stanley, you guys are doing a whole bunch of things on the autonomy and robotics side as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            446.178,
+            457.227
+          ],
+          "quote": "Yeah, we've actually been looking into robotics and autonomy probably much longer than people thought, like since 2018, actually, back when it wasn't obvious autonomy and robotics was going to be a thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            494.823,
+            502.928
+          ],
+          "quote": "It's going to be like something like, okay, how do we incorporate AI, agentic commerce, how to incorporate autonomy, robotics, drone deliveries, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            503.008,
+            511.752
+          ],
+          "quote": "And I think, I mean, fast forward like seven, eight years later, I think we're seeing everything starting to play out in AI and robotics and autonomy, seeing Waymo's happening.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            560.408,
+            565.554
+          ],
+          "quote": "Throughout the past 13 years, and we've kind of applied it to autonomy as well, AI as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            585.015,
+            590.02
+          ],
+          "quote": "We don't even know what autonomy looks like, how robotics is going to impact our space, but let's go explore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            609.737,
+            613.299
+          ],
+          "quote": "There's all these startups out there that have built robots and autonomy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            640.852,
+            644.232
+          ],
+          "quote": "Autonomy is a question of when it was going to happen, not if.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            650.614,
+            662.276
+          ],
+          "quote": "The second is I think it allowed us to learn what it takes to actually enable autonomy, because it turns out there's a lot of things you have to build around autonomy, the infrastructure, the ecosystem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            662.496,
+            664.237
+          ],
+          "quote": "How does autonomy integrate with DoorDash?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            668.438,
+            672.64
+          ],
+          "quote": "It turned out a lot of things you have to build around autonomy in order to make autonomy possible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            689.387,
+            701.536
+          ],
+          "quote": "What are all the products and technology, the APIs, the dispatch you need to build now in a post-autonomy world where autonomy and robotics and drones are everywhere?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            718.668,
+            728.282
+          ],
+          "quote": "Yes, there's a lot of autonomy startups out there, but it always felt like these companies weren't really focused on a use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            981.905,
+            985.289
+          ],
+          "quote": "Aspect of the business, whether it's autonomy, robotics, AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1046.349,
+            1052.653
+          ],
+          "quote": "And especially in autonomy, my sense is people are like, okay, we'll make the model and then like the other stuff will be...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1145.72,
+            1155.006
+          ],
+          "quote": "And I think that's part of the learning process, especially when it comes to building autonomy or even AI, is how do you manage through all that complexity?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1205.152,
+            1216.757
+          ],
+          "quote": "I mean, for me, kind of that analogy you brought up, I think about it in terms of the autonomy thing, but I also think about it in terms of how the humanoid robotics space is starting to play out potentially.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1510.235,
+            1519.801
+          ],
+          "quote": "Dashers, but you get drones, you get autonomy, you get access to all the AI tools and products that are going to ship.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1613.95,
+            1623.992
+          ],
+          "quote": "And I think people, especially in the autonomy world for the past 10 years, were just fed up, just working on something for 10 years and never actually getting to a point where",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1698.216,
+            1702.677
+          ],
+          "quote": "I mean, the thing I always mention, talk about a lot is building autonomy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1704.438,
+            1706.1
+          ],
+          "quote": "Business takes more than just autonomy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1727.416,
+            1733.778
+          ],
+          "quote": "Like a dirt covering one of your camera sensors, okay, like how robust is your autonomy stack able to handle that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1760.237,
+            1767.424
+          ],
+          "quote": "Well, all of a sudden the torque you have to send to the wheels is like very different and your autonomy stack and your kind of your...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1785.536,
+            1789.818
+          ],
+          "quote": "People don't think about actually, in order to scale autonomy, there's a lot of non-autonomy or operations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2151.71,
+            2153.071
+          ],
+          "quote": "Can we get the autonomy to scale?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2153.231,
+            2156.053
+          ],
+          "quote": "Five years ago, the question was, was autonomy even possible?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2169.343,
+            2171.784
+          ],
+          "quote": "Our entire autonomy stack is built in-house.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2210.366,
+            2217.652
+          ],
+          "quote": "So autonomy is definitely one piece, like how to keep scaling across not just Phoenix, but we want to bring to the Bay Area, more cities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2222.996,
+            2229.859
+          ],
+          "quote": "But the funny thing is like the autonomy is probably increasingly becoming less and less of a constraint of a blocker.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2332.123,
+            2334.685
+          ],
+          "quote": "It's like the problem five years ago was autonomy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2369.962,
+            2379.407
+          ],
+          "quote": "So you have these enormous strengths, you've got the network and the existing great business and these like two, you know, amongst others, I'm sure, like two really big plays around agent of commerce and around autonomy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2777.664,
+            2784.449
+          ],
+          "quote": "So I think you're not only going to see more autonomy and more robotics, but I think you're going to see even more humans as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2787.588,
+            2806.034
+          ],
+          "quote": "And I also just think with the introduction of autonomy and robotics and efficiency gains you're going to see over time, I also think you're just going to see an even stronger surge in demand as delivery becomes even more affordable in the next 10 years.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据分布优势 (distribution)",
+      "file": "数据分布优势",
+      "primary": true,
+      "how_described": "本集说真实的数据优势不是「有客户记录」，而是分布：接触物理世界才会遇到「洗碗机里有只猫」这种想象不到的场景，只有靠真实数据积累才能知道它多常见——比如 DoorDash 独有的历史投递位置数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            617.723,
+            620.685
+          ],
+          "quote": "We'll build the APIs, we'll handle the distribution, etc.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1333.205,
+            1343.414
+          ],
+          "quote": "Even beyond understanding the wealth of use cases, like you need to know what the distribution of environments you're going to be playing in is in robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1488.781,
+            1495.265
+          ],
+          "quote": "I also think that's really cool that you have control over the routing and the distribution where you're like, I can accomplish this task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2007.937,
+            2015.679
+          ],
+          "quote": "And one thing that we like deeply believe in this company is you can't imagine the distribution, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2038.423,
+            2043.084
+          ],
+          "quote": "And then you like think like, okay, but like how important is that in the distribution?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2668.868,
+            2681.813
+          ],
+          "quote": "Or they're inherently things that the models just don't have in their data distribution or whatever capability set that is not allowing that step function change enablement in like accounting, analytics, or, you know, finance functions.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "drone",
+      "type": "concept",
+      "role": "concept",
+      "name": "无人机 (drone)",
+      "file": "无人机",
+      "primary": false,
+      "how_described": "本集把无人机列为多模态配送车队的一环：农村道路基础设施差的轻量订单可以派无人机配送。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            494.823,
+            502.928
+          ],
+          "quote": "It's going to be like something like, okay, how do we incorporate AI, agentic commerce, how to incorporate autonomy, robotics, drone deliveries, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1440.473,
+            1450.455
+          ],
+          "quote": "Maybe if it's a rural area where there's poor road infrastructure, maybe you send into lightweight order, maybe you send a drone delivery for that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "l4",
+      "type": "concept",
+      "role": "concept",
+      "name": "L4",
+      "file": "L4",
+      "primary": false,
+      "how_described": "本集说 Dot 去年在特定区域内实现了完全自主的 L4——全自动驾驶的里程碑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1319.117,
+            1322.398
+          ],
+          "quote": "It's fully autonomous L4.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2128.683,
+            2131.484
+          ],
+          "quote": "I mean, we went fully autonomous L4 last year.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": false,
+      "how_described": "本集讨论企业 AI 落地时提出的未解难题：清洗数据、搭好 RL 环境后模型表现很好，真实企业环境却不行——是 harness 还要打磨，还是模型数据分布里根本缺这块能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 548,
+          "t": [
+            2468.975,
+            2480.6
+          ],
+          "quote": "I think we announced a benchmark called DashBench a couple weeks ago now that was mainly focused on our ability to figure out how well various models and harness performed on coding tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2664.026,
+            2668.188
+          ],
+          "quote": "Like there's just things that we need to do with the harness to get the model to perform better.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open-weight models)",
+      "file": "开放权重模型",
+      "primary": false,
+      "how_described": "本集说 DoorDash 通过 DashBench 计算各模型在编程任务上的 ROI，把便宜任务委托给开放权重模型，用更低成本拿到旗舰模型级别的智能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 569,
+          "t": [
+            2551.644,
+            2559.03
+          ],
+          "quote": "If there's a way for us to maximize the intelligence, but maybe delegate to open-weight models for some of the cheaper tasks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

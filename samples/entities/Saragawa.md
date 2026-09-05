@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":21,"Azure":3,"GitHub":20,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":17,"轨迹":1,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":22,"Azure":3,"GitHub":20,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":19,"轨迹":1,"智能体":1}</script>
 
 <script>
 (function(){

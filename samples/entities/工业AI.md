@@ -7,15 +7,16 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>工业AI (industrial AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="工业AI">工业</div><div class="pi"><h1 class="pt">工业AI (industrial AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>201</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="工业AI">工业</div><div class="pi"><h1 class="pt">工业AI (industrial AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>205</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|《Travis Kalanick：为什么把下一家公司赌在工业AI》]]**(00:00起):本集说它是Atoms对其业务的统称，指全栈软件、机器人、传感器、机械的组合，用于一次一个地改造行业，区别于人形机器人和世界模型的叙事
+- **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(02:16起):嘉宾 2016-2017 年在 Hitachi 押注的方向：面向发电厂、铁路等工业价值链，做故障预测、维修推荐、表面缺陷检测等共通数学的工业问题。
 
 ## ① 提到它的金句
 
-*201 条*
+*205 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -413,25 +414,34 @@ unlisted: true
 
 ![[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced#^q4]]
 
+![[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l#^q6]]
+
 ![[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a#^q3]]
 
 ![[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#^q2]]
 
 ![[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#^q4]]
 
+![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q1]]
+
+![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q3]]
+
+![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q7]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|《Travis Kalanick：为什么把下一家公司赌在工业AI》]] — 作为概念
+- [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Travis Kalanick]] · [[Atoms]] · [[Pronto]] · [[物理 AI]] · [[自主性]] · [[套件]] · [[线控驾驶]] · [[执行器]] · [[无人进入矿山]] · [[运输]]
+[[物理 AI]] · [[Travis Kalanick]] · [[Daniel Whitenack]] · [[Atoms]] · [[Chris Benson]] · [[Pronto]] · [[Chetan Gupta]] · [[自主性]] · [[Rackspace]] · [[套件]]
 
-<script type="application/json" class="pd-epn">{"Travis Kalanick":1,"Atoms":1,"Pronto":1,"物理 AI":6,"自主性":4,"套件":1,"线控驾驶":1,"执行器":2,"无人进入矿山":1,"运输":1}</script>
+<script type="application/json" class="pd-epn">{"物理 AI":7,"Travis Kalanick":1,"Daniel Whitenack":6,"Atoms":1,"Chris Benson":6,"Pronto":1,"Chetan Gupta":1,"自主性":5,"Rackspace":2,"套件":1}</script>
 
 <script>
 (function(){

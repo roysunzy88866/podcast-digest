@@ -27,7 +27,7 @@ unlisted: true
 
 [[Ben Rudolph]] · [[数据集成]] · [[Nick Noone]] · [[派驻工程师]] · [[Palantir]] · [[ACV]] · [[前置部署工程]] · [[RFP]] · [[智能体]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Ben Rudolph":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":11,"ACV":3,"前置部署工程":2,"RFP":1,"智能体":1,"产品市场契合":12}</script>
+<script type="application/json" class="pd-epn">{"Ben Rudolph":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":12,"ACV":3,"前置部署工程":3,"RFP":1,"智能体":1,"产品市场契合":12}</script>
 
 <script>
 (function(){

@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Atoms":1,"Pronto":1,"工业AI":1,"物理 AI":6,"自主性":4,"套件":1,"线控驾驶":1,"执行器":2,"无人进入矿山":1,"运输":1}</script>
+<script type="application/json" class="pd-epn">{"Atoms":1,"Pronto":1,"工业AI":2,"物理 AI":7,"自主性":5,"套件":1,"线控驾驶":1,"执行器":2,"无人进入矿山":1,"运输":1}</script>
 
 <script>
 (function(){

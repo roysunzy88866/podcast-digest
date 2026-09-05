@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":4,"Amazon":9}</script>
+<script type="application/json" class="pd-epn">{"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":4,"Amazon":10}</script>
 
 <script>
 (function(){

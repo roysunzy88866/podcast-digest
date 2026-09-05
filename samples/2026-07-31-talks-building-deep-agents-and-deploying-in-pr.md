@@ -124,7 +124,7 @@ jsonLd: |
 
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同概念:护栏 (guardrails)、Codex</span>
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:harness、护栏 (guardrails)</span>
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:护栏 (guardrails)</span>
+- [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:harness、护栏 (guardrails)</span>
 
 </div>
 </div>

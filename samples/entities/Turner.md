@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":4,"Path Robotics":1,"LLM":23,"云计算":1,"真空":1,"主题化投资":1,"投资组合构建":1,"产品市场契合":12,"第一性原理":4}</script>
+<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":4,"Path Robotics":1,"LLM":24,"云计算":1,"真空":1,"主题化投资":1,"投资组合构建":1,"产品市场契合":12,"第一性原理":4}</script>
 
 <script>
 (function(){

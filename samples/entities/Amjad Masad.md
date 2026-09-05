@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":13,"智能体":1,"Patrick Collison":2,"公开构建":1,"Stripe":26,"vibe coding":26,"Magic School":1,"真实性":2,"OpenAI":82,"Anthropic":94}</script>
+<script type="application/json" class="pd-epn">{"Replit":13,"智能体":1,"Patrick Collison":2,"公开构建":1,"Stripe":26,"vibe coding":26,"Magic School":1,"真实性":2,"OpenAI":82,"Anthropic":96}</script>
 
 <script>
 (function(){

@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]]
+[[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]]
 
 </div>
 

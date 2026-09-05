@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":5,"智能体":1,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":5,"封闭模型":2,"垂直整合":2,"开放框架":1,"护栏":1}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":6,"智能体":1,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":5,"封闭模型":2,"垂直整合":2,"开放框架":1,"护栏":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,138 @@
+===标题===
+DoorDash 联创：我们是送货的，也是做了八年机器人的公司
+===导语===
+DoorDash 联合创始人 Andy Feng 与 Stanley Ting 谈自然语言点餐带来的行为变化、自研配送机器人 DOT，以及为什么他们 10 年后会有更多骑手而非更少。
+===正文===
+这一集聊的是 DoorDash 正在做的两件大事：用自然语言对话改变人们点餐买货的方式，以及自研自动驾驶配送机器人。主角是两位联合创始人——Andy Feng 负责 AI 与智能体商务方向，Stanley Ting 负责机器人与自动驾驶方向。
+
+最抓人的一个数字：在餐厅场景里，50% 通过对话式入口点餐的用户，是从**以前从未点过的餐厅**下单的。Andy 说这是 DoorDash 历史上最难推动的指标之一，却被对话体验撬动了。另外杂货订单的购物篮大了约 40%——用户会拍一张冰箱内部的照片说「帮我补满冰箱」，或者规划一顿带饮食限制的家庭晚餐。人不必再先做搜索调研、再琢磨关键词，直接把脑子里的想法说出来就行。[01:57 Stanley Ting]（此处依据上下文归纳为访谈中嘉宾所述）他们还把「世界知识」融进体验：网上正在流行什么、论坛上大家在聊什么——这些超出模型知识截止日期的东西，让推荐更可信、用户更信任。
+
+## 机器人这件事，他们从 2018 年就开始了
+
+Stanley 说，DoorDash 对机器人和自动驾驶的投入从 2018 年就开始了，那时这还不像是一股必然的潮流，但他们判断它会对自己的领域带来变革甚至颠覆。而做法完全不是「拉起一个庞大的机器人项目」：最初就是他加上半个工程师的时间，一个 Skunk Works 式的小实验——先去跟这个领域里所有人合作，从人行道机器人到 Robotaxi 玩家，DoorDash 自己只做平台和分发。[07:26 Stanley Ting]
+
+合作了好几年，他们学到三件事：①自动驾驶是「何时发生」的问题，不是「是否发生」；②真正实现自主性需要围绕它构建大量基础设施和生态，不是「放个机器人或放个大模型进去事情就神奇地发生了」；③最关键的一条——外面的自主性初创公司几乎都是**先造技术、再回头找能套进去的问题**，而软件世界教给他们的恰恰相反（他们经历过 YC，被反复灌输「做人们想要的东西」）。[10:31 Stanley Ting]
+
+具体到场景，现有两种形态都不对：人行道机器人时速两三英里，而 DoorDash 平均配送距离是三到五英里、去掉出餐时间后的典型配送约 15 分钟——两英里时速根本行不通；Robotaxi 是为运人设计的 4000 磅的车，运几个墨西哥卷饼不需要座椅和空调，而且 Waymo 把你放在半个街区外无所谓、人可以走过去，**包裹做不到**——这就是他说的「最初和最后一百英尺问题」：怎么在商家那儿取到餐、怎么准确开到顾客的车道和门廊前。[13:06 Stanley Ting]
+
+从顾客用例倒推，答案是介于两者之间的东西：一辆约 300 磅、时速 20-25 英里、外形像自动驾驶摩托车/踏板车的车。环顾四周发现没人在造，他们决定自己掌控命运，反复迭代，最终做出了自研机器人 DOT。
+
+## DOT 是什么：为「郊区三五英里」这一个用例造的车
+
+DOT 完全自研，重 300 磅，时速最高 20 英里，是汽车大小的十分之一，并且是市面上唯一被设计成不只走人行道、还能上自行车道和马路行驶的配送机器人。它在凤凰城已经跑了近两年，去年实现完全自主的 L4——Stanley 说你去坦佩，感觉就像旧金山的 Waymo。[21:27 Stanley Ting]
+
+关键是他们不打算用一种形态解决所有问题：郊区三到五英里、从带状购物中心出发的配送给 DOT；道路基础设施差的农村轻量订单可能给无人机；要爬楼、挑选打包的复杂多步杂货订单仍然给人。对顾客还是同一个应用，对商家还是一次集成——接了 DoorDash 就同时获得骑手、无人机、自动驾驶和后续的 AI 工具。Stanley 认为这就是 DoorDash 真正在建的东西：本地商业的生态，横跨 40 多个国家，非常难复制。[23:31 Stanley Ting]
+
+## 为什么「接触真实世界」是他们最大的数据护城河
+
+主持人抛出一个观点：做机器人的大难题不是做一个精心挑选的酷炫演示，而是让它在任何物体、任何环境里都能工作，而最好的真实感数据就是真实世界的数据。Stanley 完全认同，并给出 DoorDash 的独特论据：一年超过 30 亿单配送，**没有两单是一样的**——旧金山市中心和达拉斯不同，赫尔辛基的下雪天不同，比萨和冰淇淋不同，晚餐和杂货不同，现在还有零售、药房和包裹。人工智能没法靠想象覆盖这种分布。[18:07 Stanley Ting]
+
+最有说服力的例子是「最后一百英尺」的定位点问题：在地图上输入顾客地址，GPS 定位点几乎从来不指向真正的前门，尤其公寓小区。人类骑手会自己搞定——到楼下看一眼就知道是哪栋楼哪个门。机器人做不到，它到了定位点只会「四处张望」。但 DoorDash 有几亿次历史上人类骑手实际把包裹放在哪里的记录——Stanley 强调，**这些数据在 Google Maps 里不存在，只存在于 DoorDash**。[31:41 Stanley Ting]
+
+规模化之后冒出来的边缘情况更是坐在实验室里永远想象不到的：一块污垢盖住摄像头传感器怎么办；车走自行车道时右边两个轮子压在落叶上、左边还在沥青上，传给车轮的扭矩突然变得完全不同；急刹时再生制动系统的电冲击会压过电池；甚至「启动机器人」这件事——demo 时代是一位工程师花几小时拼的 Jenkins 脚本，每天早上启动上百台机器人后，脚本一半时间崩溃、一次要 30-45 分钟，乘以 500 台就变成巨大的生产力问题。主持人的概括很到位：这就像他投资的做家务机器人的公司 Sunday 遇到的问题——你以为是要洗碗，结果洗碗机里有一只猫，因为「这只猫喜欢洗碗机」。这种分布你无法想象出来，只能靠真实数据去撞见。[28:31 Stanley Ting]
+
+## 五年前的问题是自动驾驶，现在的问题是运营和硬件
+
+关于继续扩张的三个组成部分：①自动驾驶本身——整个技术栈自研、专为配送打造，Stanley 特别指出不能把 Waymo 的东西复制粘贴过来，因为他们那辆车在马路和人行道之间不断穿行，据他所知世界上没有别的东西这样做；②运营——商家接口、车队管理，凤凰城的餐厅和旧金山、伦敦、赫尔辛基的表现都不一样；③硬件——五年前大家觉得硬件是大宗商品，现在轮到自己造第一千、一万台时，才发现供应链、零部件可靠性才是难点。[35:49 Stanley Ting]
+
+为此他们和 Also 建立了合作——一家从 Rivian 分拆出来的微出行公司（Rivian 创始人 RJ 是其董事长），理由很直接：为什么不让真正知道怎么规模化车辆的人来帮忙。[38:24 Stanley Ting]
+
+在人才上的说法也很简单：你是想去博士实验室做原型和 demo，还是想做一件能真正在现实世界发布、有真实影响的事？他说自主驾驶领域的人过去十年「受够了」做出东西却永远看不到被真实使用。[26:19 Stanley Ting]
+
+## 内部 AI 化：开销 20 倍增长之后，开始算 ROI
+
+去年收购 Metis，就是为了把 AI 原生的思维方式注入公司——大公司的员工太习惯旧的工作方式，反而看不到前沿上什么是可能的。编程是最明显的转型点，他们几周前发布了 DashBench 基准测试，衡量各模型加 harness 在编程任务上的表现，用来算清投入的 ROI：6 月的模型开销比 1 月涨了约 20 倍，现在通过筛选任务、把便宜任务委托给开放权重模型，开销已经走平——目标是用更低成本拿到顶级的智能水平。[40:58 Andy Feng]
+
+更值得注意的是增长最快的反而不是工程部门，而是非技术团队：分析师、运营、客户经理都在用它准备和战略商家的业务回顾。但他们撞到一个真问题：问各团队「模型在你的任务上表现怎么样」，答案是「还行」——「3000 万美元的『还行』」。把数据清洗后发给实验室、放进 RL 环境，模型表现出色；但一上企业真实数据就不行。这是他们在编码之外要解决的下一步：到底是 harness 的问题，还是模型数据分布里根本缺这一块。[43:23 Andy Feng]
+
+## 10 年后的预测：骑手更多，不是更少
+
+Stanley 的预测相当反直觉：在机器人、无人机、AI 无处不在的 10 年后，DoorDash 的骑手会**更多**而不是更少。理由是业务还在以每年 25% 的速度增长、900 万骑手之上还要涨 5 到 10 倍——难道让半个美国人每月来送外卖？不可能，所以需要一切可用的配送方式组成多模态车队；同时自动驾驶带来效率提升、配送更便宜，需求会进一步激增。[45:01 Stanley Ting]
+
+Andy 看消费端的趋势则呼应了开头：Google 搜索的查询词这几年一直在变长，说明人们越来越习惯像跟真人说话那样跟智能体和应用交互。上周他们刚推出 DoorDash CLI（让智能体以程序接口方式下单，而不是模拟人点界面），立刻有人把摄像头对准办公室的食品储藏架，架子快空了就自动触发补货——这类你 beforehand 想不到的用例，才是智能体优先体验真正解锁的东西。[47:00 Andy Feng]
+
+## 本集带走
+
+- **对话式入口撬动了最难动的指标**：50% 的对话点餐轨迹来自用户没点过的餐厅，杂货购物篮大 40%——不是让旧流程更快，而是释放了原本被高摩擦压住的潜在需求。
+- **从用例倒推造硬件**：先算清配送距离三五英里、典型 15 分钟，才推导出 300 磅、20 英里时速的车辆形态；先造技术再找问题是硬件创业最容易踩的坑。
+- **不追求一种形态解决一切**：郊区给机器人、农村轻单给无人机、复杂杂货给人，顾客一个应用、商家一次集成，逐步引入新模态。
+- **真实世界接触是数据护城河**：落叶导致的扭矩变化、洗碗机里的猫、GPS 定位点不是真正的前门——这些分布无法靠想象获得，而 DoorDash 拥有别人没有的「骑手实际放在哪」数据。
+- **AI 内部落地要算账**：开销涨 20 倍后靠基准测试和任务分层（便宜任务给开放权重模型）把成本走平，并发现模型在企业真实数据上的表现远不如清洗过的评测数据——这是编码之外的下个战场。
+===金句===
+01:57 | Stanley Ting
+So I'd say on the restaurant side, we are seeing 50% of trajectories of people using AskDoordash for restaurants. 50% of those trajectories are people ordering from places they've never ordered from before.
+ZH | 在餐厅方面，我们看到 50% 使用 AskDoordash 点餐的轨迹里，用户是从他们以前从未点过餐的餐厅下单的。
+
+02:09 | Stanley Ting
+Which is huge because that's one of the hardest metrics historically for DoorDash for us to move.
+ZH | 这非常了不起，因为从历史上看，这是 DoorDash 最难推动的指标之一。
+
+07:26 | Stanley Ting
+We've actually been looking into robotics and autonomy probably much longer than people thought, like since 2018, actually, back when it wasn't obvious autonomy and robotics was going to be a thing.
+ZH | 实际上我们对机器人和自动驾驶的关注比人们以为的要早得多——从 2018 年就开始了，那时还不明显自动驾驶和机器人会成为一股潮流。
+
+08:05 | Stanley Ting
+The next DoorDash that comes along is not going to be someone that builds the exact same version of DoorDash, but maybe with a better UI
+ZH | 下一个出现的 DoorDash，不会是某个人做一个和 DoorDash 一模一样、只是 UI 好一点的版本。
+
+10:40 | Stanley Ting
+Autonomy is a question of when it was going to happen, not if.
+ZH | 自动驾驶是一个何时会发生的问题，而不是是否会的问题。
+
+11:12 | Stanley Ting
+It's not just you plop a robot in or even AI just plop an LM in and then things just magically happen.
+ZH | 不是说你随便放一个机器人进去，甚至放个大模型进去，然后事情就神奇地发生了。
+
+11:58 | Stanley Ting
+It always felt like these companies weren't really focused on a use case. It always felt like they kind of build the technology first and then retroactively try to go find a problem to fit into.
+ZH | 总觉得这些公司并没有真正专注于某个用例——总感觉他们是先构建技术，再回头找一个能套进去的问题。
+
+13:54 | Stanley Ting
+Do you really need a 4,000-pound car with chairs and AC?
+ZH | 你真的需要一辆带座椅和空调的 4000 磅的车吗？
+
+14:16 | Stanley Ting
+How do you solve that, what I call the first and last hundred feet problem?
+ZH | 你怎么解决我所说的最初和最后一百英尺问题？
+
+15:39 | Stanley Ting
+When we looked around and saw no one's building that, we decided, well, if no one's going to do that, instead of waiting around and wait for this to happen, we're going to control our own destiny here.
+ZH | 当我们环顾四周发现没人在造这个东西时，我们决定：既然没人要做，与其干等着它发生，我们要自己掌控命运。
+
+18:13 | Stanley Ting
+There are no two deliveries that look the same. All three billion deliveries look different.
+ZH | 没有两单配送是一样的。所有这 30 亿单配送看起来都不一样。
+
+20:43 | Andy Feng
+I think there's a lot of expense needed to invest in just like the V1 of this. But I think there's a lot of pressure though to figure out how do I actually provide value?
+ZH | 我认为仅仅在第一版上就需要投入大量费用，但也有很多压力要去搞清楚：我到底要如何真正提供价值？
+
+26:21 | Stanley Ting
+It's basically like, do you want to go work on prototypes and demos and be at a PhD lab? Or do you want to work on something where you can actually ship something in the real world?
+ZH | 基本上就是：你是想去博士实验室做原型和演示，还是想做一件能真正在现实世界发布东西的事？
+
+27:36 | Stanley Ting
+Technology, these things aren't built in a vacuum. You have to put something out in the real world, make contact with the real world.
+ZH | 技术、这些东西不是在真空中被构建出来的。你必须把东西放到真实世界中，与真实世界接触。
+
+32:37 | Stanley Ting
+That data doesn't exist anywhere else. It doesn't exist in Google Maps. It only exists at DoorDash.
+ZH | 那些数据在其他任何地方都不存在。Google Maps 里没有，只存在于 DoorDash。
+
+36:17 | Stanley Ting
+You can't just copy and paste what Waymo's done and then plop it into the DoorDash dot and everything works.
+ZH | 你没办法把 Waymo 做出的东西直接复制粘贴，然后塞到 DoorDash Dot 里，然后一切就都能正常运转。
+
+41:30 | Andy Feng
+I think our spend in June went up like 20x versus what the spend was in January.
+ZH | 我们 6 月的开销相比 1 月涨了大概 20 倍。
+
+45:10 | Stanley Ting
+My guess is that in 10 years time, we're actually going to have more dashers doing deliveries, not less.
+ZH | 我的猜测是，10 年后我们实际上会有更多骑手在做配送，而不是更少。
+
+47:00 | Andy Feng
+Over the past couple of years, Google search query links have gone longer.
+ZH | 过去几年里，Google 搜索的查询词变得更长了。
+
+===END===

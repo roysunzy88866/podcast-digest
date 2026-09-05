@@ -1,0 +1,5154 @@
+[
+ {
+  "seg": 0,
+  "start": 5.74,
+  "end": 6.341,
+  "speaker": "Unknown",
+  "en": "Hi, listeners.",
+  "zh": "听众们，你们好。"
+ },
+ {
+  "seg": 1,
+  "start": 6.401,
+  "end": 7.481,
+  "speaker": "Unknown",
+  "en": "Welcome back to KnowPriors.",
+  "zh": "欢迎回到 KnowPriors。"
+ },
+ {
+  "seg": 2,
+  "start": 7.641,
+  "end": 11.164,
+  "speaker": "Unknown",
+  "en": "Today, I'm here with Andy Feng and Stanley Ting, co-founders at DoorDash.",
+  "zh": "今天，我请到了 DoorDash 的联合创始人 Andy Feng 和 Stanley Ting。"
+ },
+ {
+  "seg": 3,
+  "start": 11.424,
+  "end": 33.18,
+  "speaker": "Unknown",
+  "en": "We talk about how you can ask DoorDash in natural language for food and groceries, what that means for the future of agentic commerce, their delivery robot DOT, how DoorDash has been a robotics company for the last eight years, the data advantages of their network, and what all this means for 9 million dashers and 3 billion deliveries a year.",
+  "zh": "我们会聊到如何用自然语言向 DoorDash 请求食品和杂货，这对智能体商务未来的意义，他们的配送机器人 DOT，DoorDash 在过去八年里如何一直是一家机器人公司，他们网络的数据优势，以及这一切对 900 万 dashers 和每年 30 亿次配送意味着什么。"
+ },
+ {
+  "seg": 4,
+  "start": 33.681,
+  "end": 34.021,
+  "speaker": "Unknown",
+  "en": "Welcome.",
+  "zh": "欢迎。"
+ },
+ {
+  "seg": 5,
+  "start": 34.461,
+  "end": 36.522,
+  "speaker": "Unknown",
+  "en": "Andy, Stanley, thank you so much for being here.",
+  "zh": "Andy、Stanley，非常感谢你们来到这里。"
+ },
+ {
+  "seg": 6,
+  "start": 37.483,
+  "end": 40.665,
+  "speaker": "Unknown",
+  "en": "Real excited to talk to you about all the crazy stuff DoorDash is doing.",
+  "zh": "非常期待和你们聊聊 DoorDash 正在做的所有疯狂的事情。"
+ },
+ {
+  "seg": 7,
+  "start": 40.885,
+  "end": 46.429,
+  "speaker": "Unknown",
+  "en": "I thought we could start with what's going on with agentic commerce at DoorDash.",
+  "zh": "我想我们可以从 DoorDash 在智能体商务方面正在发生的事情谈起。"
+ },
+ {
+  "seg": 8,
+  "start": 46.649,
+  "end": 51.373,
+  "speaker": "Unknown",
+  "en": "I feel like you have one of the largest rollouts of actually using AI to change what people consume.",
+  "zh": "我觉得你们是真正在用 AI 改变人们消费内容的最大规模部署之一。"
+ },
+ {
+  "seg": 9,
+  "start": 51.833,
+  "end": 52.333,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 10,
+  "start": 52.533,
+  "end": 54.335,
+  "speaker": "Unknown",
+  "en": "So what was the backstory here?",
+  "zh": "那么，这背后的故事是什么？"
+ },
+ {
+  "seg": 11,
+  "start": 55.035,
+  "end": 61.438,
+  "speaker": "Unknown",
+  "en": "I mean, it started a couple of years ago, honestly, in terms of like our attempts to try to make a play here.",
+  "zh": "我是说，老实说，就我们尝试在这方面有所布局而言，这始于几年前。"
+ },
+ {
+  "seg": 12,
+  "start": 61.778,
+  "end": 66.92,
+  "speaker": "Unknown",
+  "en": "It actually, originally we were bullish on voice as the modality.",
+  "zh": "实际上，最初我们看好语音作为交互模态。"
+ },
+ {
+  "seg": 13,
+  "start": 67.9,
+  "end": 69.461,
+  "speaker": "Unknown",
+  "en": "And it ended up not being the thing.",
+  "zh": "而结果它并不是那个对的东西。"
+ },
+ {
+  "seg": 14,
+  "start": 70.021,
+  "end": 75.103,
+  "speaker": "Unknown",
+  "en": "Ended up not being the thing, but maybe it will in the future, but just that didn't really land.",
+  "zh": "结果不是那个对的东西，但也许未来会是，只是它当时并没有真正落地。"
+ },
+ {
+  "seg": 15,
+  "start": 75.223,
+  "end": 79.985,
+  "speaker": "Unknown",
+  "en": "But the thing that was very interesting for us was just this natural conversational experience.",
+  "zh": "但对我们来说非常有趣的是这种自然对话式的体验。"
+ },
+ {
+  "seg": 16,
+  "start": 80.406,
+  "end": 85.048,
+  "speaker": "Unknown",
+  "en": "And I think, you know, what we've seen is just like people being able to",
+  "zh": "而且我认为，你知道，我们看到的就是人们能够"
+ },
+ {
+  "seg": 17,
+  "start": 86.048,
+  "end": 94.876,
+  "speaker": "Unknown",
+  "en": "Like just like naturally just translate what's in their head into this interface versus trying to like do some research online and then try to do some like keyword optimization stuff.",
+  "zh": "就像是自然地把他们脑子里的想法直接转化成这个界面输入，而不是试图先在网上做些调研，然后再尝试做一些关键词优化之类的事情。"
+ },
+ {
+  "seg": 18,
+  "start": 95.316,
+  "end": 104.824,
+  "speaker": "Unknown",
+  "en": "Like people just found it easier to search for things, either more nuanced kind of restaurant discovery searches or different tasks on the grocery side.",
+  "zh": "人们就是觉得搜索东西更容易了，无论是更细腻的餐厅发现类搜索，还是杂货方面的各种任务。"
+ },
+ {
+  "seg": 19,
+  "start": 105.265,
+  "end": 111.39,
+  "speaker": "Unknown",
+  "en": "And yeah, we've just seen a lot of interesting traction that's upheld as we've expanded the rollout.",
+  "zh": "是的，随着我们扩大发布范围，我们看到很多有趣的增长势头得以保持。"
+ },
+ {
+  "seg": 20,
+  "start": 111.61,
+  "end": 114.432,
+  "speaker": "Unknown",
+  "en": "What are you seeing in terms of behavior change from the user side?",
+  "zh": "从用户端来看，你们观察到了什么行为变化？"
+ },
+ {
+  "seg": 21,
+  "start": 114.472,
+  "end": 116.613,
+  "speaker": "Unknown",
+  "en": "Like, do I eat or buy differently?",
+  "zh": "比如，我吃的东西或买的东西会不一样吗？"
+ },
+ {
+  "seg": 22,
+  "start": 116.954,
+  "end": 117.314,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 23,
+  "start": 117.334,
+  "end": 124.679,
+  "speaker": "Unknown",
+  "en": "So I'd say on the restaurant side, we are seeing 50% of trajectories of people using AskDoordash for restaurants.",
+  "zh": "所以我想说，在餐厅方面，我们看到 50% 的轨迹是人们使用 AskDoordash 来点餐厅。"
+ },
+ {
+  "seg": 24,
+  "start": 125.379,
+  "end": 129.522,
+  "speaker": "Unknown",
+  "en": "50% of those trajectories are people ordering from places they've never ordered from before.",
+  "zh": "这 50% 的轨迹是人们从他们以前从未点过餐的餐厅下单。"
+ },
+ {
+  "seg": 25,
+  "start": 129.762,
+  "end": 135.711,
+  "speaker": "Unknown",
+  "en": "Which is huge because that's one of the hardest metrics historically for DoorDash for us to move.",
+  "zh": "这非常了不起，因为从历史上看，这是 DoorDash 对我们来说最难推动的指标之一。"
+ },
+ {
+  "seg": 26,
+  "start": 136.372,
+  "end": 137.333,
+  "speaker": "Unknown",
+  "en": "And so that's been big.",
+  "zh": "所以这一直是个大进展。"
+ },
+ {
+  "seg": 27,
+  "start": 137.553,
+  "end": 145.545,
+  "speaker": "Unknown",
+  "en": "And then another one is on the grocery side, we're seeing a lot higher basket sizes, like I would say like 40% larger basket sizes on grocery.",
+  "zh": "然后另一个是在杂货方面，我们看到了高得多的购物篮规模，我想说杂货的购物篮规模大了大约 40%。"
+ },
+ {
+  "seg": 28,
+  "start": 145.725,
+  "end": 150.309,
+  "speaker": "Unknown",
+  "en": "And so people are like, you know, they'll take a picture of what's in their fridge and they'll say, help me stock up my fridge.",
+  "zh": "比如人们会，你知道，他们会拍一张冰箱里的照片，然后说，帮我补满我的冰箱。"
+ },
+ {
+  "seg": 29,
+  "start": 150.989,
+  "end": 158.756,
+  "speaker": "Unknown",
+  "en": "Or they'll do meal planning with like, maybe they have some dietary constraints or they're like, hey, I want to like cook a pasta dinner this weekend with my family.",
+  "zh": "或者他们会做膳食规划，比如也许他们有一些饮食限制，或者他们会说，嘿，我想这周末和家人做一顿意大利面晚餐。"
+ },
+ {
+  "seg": 30,
+  "start": 159.016,
+  "end": 162.96,
+  "speaker": "Unknown",
+  "en": "Or even just like, hey, help me reorder like my, you know, my usuals.",
+  "zh": "或者甚至只是，嘿，帮我重新下单我，你知道，我常买的东西。"
+ },
+ {
+  "seg": 31,
+  "start": 163.14,
+  "end": 166.883,
+  "speaker": "Unknown",
+  "en": "And like, that's a lot easier than tapping through the traditional experience.",
+  "zh": "而这比在传统体验里不停点按要容易得多。"
+ },
+ {
+  "seg": 32,
+  "start": 167.164,
+  "end": 167.564,
+  "speaker": "Unknown",
+  "en": "That's wild.",
+  "zh": "这太不可思议了。"
+ },
+ {
+  "seg": 33,
+  "start": 167.604,
+  "end": 178.512,
+  "speaker": "Unknown",
+  "en": "I've never thought of DoorDash as difficult to use, but that suggests there's actually latent demand that wasn't being served because it wasn't easy enough to eat at new places.",
+  "zh": "我从未觉得 DoorDash 有多难用，但这表明其实存在未被满足的潜在需求，因为去新餐厅吃饭这件事之前不够容易。"
+ },
+ {
+  "seg": 34,
+  "start": 178.773,
+  "end": 179.113,
+  "speaker": "Unknown",
+  "en": "Correct.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 35,
+  "start": 179.353,
+  "end": 179.633,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 36,
+  "start": 179.693,
+  "end": 189.4,
+  "speaker": "Unknown",
+  "en": "And I think a lot of people on the restaurant side, it's like people build habits, but I think people also want some diversity in terms of what they're eating.",
+  "zh": "而且我认为餐厅方面很多人，就是人们会建立习惯，但我觉得人们在吃的方面也想要一些多样性。"
+ },
+ {
+  "seg": 37,
+  "start": 189.481,
+  "end": 195.245,
+  "speaker": "Unknown",
+  "en": "And so we felt like this experience ended up being a natural way to allow people to express that.",
+  "zh": "所以我们觉得这种体验最终成了一种让人们表达这种需求的自然方式。"
+ },
+ {
+  "seg": 38,
+  "start": 195.705,
+  "end": 201.75,
+  "speaker": "Unknown",
+  "en": "Oh, think about the social currency of like, my friend Andy found a new, like really good restaurant for me.",
+  "zh": "哦，想想这种社交货币，比如，我朋友 Andy 为我发现了一家新的、非常棒的餐厅。"
+ },
+ {
+  "seg": 39,
+  "start": 201.77,
+  "end": 202.85,
+  "speaker": "Unknown",
+  "en": "Andy's awesome.",
+  "zh": "Andy 真棒。"
+ },
+ {
+  "seg": 40,
+  "start": 203.151,
+  "end": 205.772,
+  "speaker": "Unknown",
+  "en": "So I feel like that's even a different way people look at DoorDash.",
+  "zh": "所以我觉得这甚至是人们看待 DoorDash 的一种不同方式。"
+ },
+ {
+  "seg": 41,
+  "start": 205.913,
+  "end": 211.817,
+  "speaker": "Unknown",
+  "en": "And yeah, another thing that was an investment we made was actually like incorporating like world knowledge into the experience.",
+  "zh": "还有，我们做的另一项投入，实际上是把世界知识融入到体验中。"
+ },
+ {
+  "seg": 42,
+  "start": 211.877,
+  "end": 212.717,
+  "speaker": "Unknown",
+  "en": "What does that mean here?",
+  "zh": "这在这里是什么意思？"
+ },
+ {
+  "seg": 43,
+  "start": 212.838,
+  "end": 214.679,
+  "speaker": "Unknown",
+  "en": "Things that are going on with restaurants outside of DoorDash.",
+  "zh": "DoorDash 之外正在发生的与餐厅有关的事情。"
+ },
+ {
+  "seg": 44,
+  "start": 214.859,
+  "end": 224.289,
+  "speaker": "Unknown",
+  "en": "So like, you know, we'll see, hey, what's trending on the internet or what's stuff that's not in the models, but stuff that people would find because like their knowledge cutoff is too early.",
+  "zh": "所以就像，你知道，我们会去看，嘿，网上现在流行什么，或者哪些东西不在模型里、而是人们自己会发现的东西，因为它们的知识截止日期太早了。"
+ },
+ {
+  "seg": 45,
+  "start": 224.849,
+  "end": 229.153,
+  "speaker": "Unknown",
+  "en": "But maybe it's like, hey, what's trending online or what are people talking about in various forums or whatever?",
+  "zh": "但也许是像，嘿，网上什么在流行，或者人们在各种论坛上都在聊什么之类的？"
+ },
+ {
+  "seg": 46,
+  "start": 229.534,
+  "end": 232.517,
+  "speaker": "Unknown",
+  "en": "And kind of goes to your point of like, hey, like kind of want to eat what's cool.",
+  "zh": "而这有点呼应了你说的那个点，就是，嘿，有点想吃现在流行的东西。"
+ },
+ {
+  "seg": 47,
+  "start": 232.697,
+  "end": 238.543,
+  "speaker": "Unknown",
+  "en": "And so like that was something we tried to incorporate into the experience to make people trust it more.",
+  "zh": "所以这就是我们试图融入体验中的东西，让人们更信任它。"
+ },
+ {
+  "seg": 48,
+  "start": 238.703,
+  "end": 244.89,
+  "speaker": "Unknown",
+  "en": "How do you think people will buy or think about restaurants differently in like five years from now?",
+  "zh": "你认为五年后，人们购买或看待餐厅的方式会有什么不同？"
+ },
+ {
+  "seg": 49,
+  "start": 244.91,
+  "end": 246.332,
+  "speaker": "Unknown",
+  "en": "I don't know about five years from now.",
+  "zh": "五年后的情况我说不好。"
+ },
+ {
+  "seg": 50,
+  "start": 246.372,
+  "end": 250.417,
+  "speaker": "Unknown",
+  "en": "I realize it's really hard in the age of AI, like next step, next step.",
+  "zh": "我意识到在 AI 时代这真的很难，就是下一步，下一步。"
+ },
+ {
+  "seg": 51,
+  "start": 250.921,
+  "end": 259.084,
+  "speaker": "Unknown",
+  "en": "So for Ask DoorDash, I would say to start with, maybe that's like the next couple months or so, I think it's making it easier for people to discover the experience and like figure out what to do.",
+  "zh": "所以对于 Ask DoorDash，我想说首先，大概是接下来的几个月左右，我认为是让人们更容易发现这个体验，并弄清楚该做什么。"
+ },
+ {
+  "seg": 52,
+  "start": 259.104,
+  "end": 266.486,
+  "speaker": "Unknown",
+  "en": "Because I think it can be intimidating if you just see like, hey, like there's like suggested queries that you can type, but like some people don't know what to start with.",
+  "zh": "因为我觉得如果你只是看到，嘿，这里有一些你可以输入的建议查询，可能会让人望而生畏，但有些人不知道从什么开始。"
+ },
+ {
+  "seg": 53,
+  "start": 266.786,
+  "end": 275.729,
+  "speaker": "Unknown",
+  "en": "So figuring out how to experiment and take care with the user experience to kind of get people or encourage people to find use cases for it.",
+  "zh": "所以要弄清楚如何试验，并用心对待用户体验，从而让人们或鼓励人们为它找到用例。"
+ },
+ {
+  "seg": 54,
+  "start": 276.549,
+  "end": 278.59,
+  "speaker": "Unknown",
+  "en": "I think if I think further out, then it's",
+  "zh": "我想如果我想得更远一点，那就是"
+ },
+ {
+  "seg": 55,
+  "start": 279.23,
+  "end": 282.911,
+  "speaker": "Unknown",
+  "en": "A little more speculative, but, you know, Stanley and I talk about this all the time.",
+  "zh": "就更有推测性一点，但，你知道，Stanley 和我经常聊这个。"
+ },
+ {
+  "seg": 56,
+  "start": 282.931,
+  "end": 288.993,
+  "speaker": "Unknown",
+  "en": "It's like, if someone were to create DoorDash today, like, I don't know, like college kids in a garage trying to store DoorDash, I think it would look very different.",
+  "zh": "就像，如果今天有人要创造 DoorDash，比如，我不知道，比如车库里的大学生试图存储 DoorDash，我认为它看起来会非常不同。"
+ },
+ {
+  "seg": 57,
+  "start": 289.193,
+  "end": 290.694,
+  "speaker": "Unknown",
+  "en": "Probably more agentic first.",
+  "zh": "可能更多是智能体优先。"
+ },
+ {
+  "seg": 58,
+  "start": 291.094,
+  "end": 299.077,
+  "speaker": "Unknown",
+  "en": "You know, one stat that I always like to think about nowadays is just like, there's more agent traffic on the web than human traffic, you know?",
+  "zh": "你知道，现在我一直很喜欢思考的一个数据是，网络上智能体的流量比人类流量还要多。"
+ },
+ {
+  "seg": 59,
+  "start": 299.117,
+  "end": 303.658,
+  "speaker": "Unknown",
+  "en": "And so it's like, how do we have a DoorDash type experience that plays into that trend?",
+  "zh": "所以就是，我们要如何打造一种顺应这个趋势的 DoorDash 式体验？"
+ },
+ {
+  "seg": 60,
+  "start": 304.179,
+  "end": 308.38,
+  "speaker": "Unknown",
+  "en": "And so, you know, I think there's some interesting speculations there, but hard to say.",
+  "zh": "所以，我觉得这其中有一些有趣的推测，但很难说。"
+ },
+ {
+  "seg": 61,
+  "start": 308.72,
+  "end": 316.202,
+  "speaker": "Unknown",
+  "en": "What could my agent know about what I want to eat or what I want to buy from a grocery perspective?",
+  "zh": "我的智能体能知道我想吃什么，或者从食品杂货的角度我想买什么？"
+ },
+ {
+  "seg": 62,
+  "start": 316.302,
+  "end": 320.723,
+  "speaker": "Unknown",
+  "en": "Like, help me understand like how you think about richer context or how to be smarter.",
+  "zh": "比如，帮我理解你们如何思考更丰富的上下文，或者如何变得更聪明。"
+ },
+ {
+  "seg": 63,
+  "start": 320.963,
+  "end": 321.283,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 64,
+  "start": 321.463,
+  "end": 330.145,
+  "speaker": "Unknown",
+  "en": "I mean, one cool example is someone's like, hey, for our office, it's like I can just like have the like one of the cameras on the pantry shelf.",
+  "zh": "我是说，一个很酷的例子是有人说，嘿，对于我们的办公室，就像我可以用放在食品储藏架上的其中一个摄像头。"
+ },
+ {
+  "seg": 65,
+  "start": 330.665,
+  "end": 338.027,
+  "speaker": "Unknown",
+  "en": "It's like, hey, when the shelf starts to get empty, like I can fire off like a query to DoorDash to like stock up my shelf.",
+  "zh": "就是，嘿，当架子开始变空的时候，我就可以向 DoorDash 发出一个查询，来补足我的货架。"
+ },
+ {
+  "seg": 66,
+  "start": 338.407,
+  "end": 339.907,
+  "speaker": "Unknown",
+  "en": "Yes, as a human being passed care.",
+  "zh": "是的，作为一个人类传递了关怀。"
+ },
+ {
+  "seg": 67,
+  "start": 339.987,
+  "end": 340.208,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 68,
+  "start": 340.248,
+  "end": 340.408,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 69,
+  "start": 340.428,
+  "end": 340.608,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 70,
+  "start": 340.708,
+  "end": 355.972,
+  "speaker": "Unknown",
+  "en": "And so that was kind of like, I mean, something we talk about more later, but like kind of our like early experimentation with our CLI is like, that's kind of an example of like making less friction for an agent to kind of like participate in that experience.",
+  "zh": "所以那有点像，我是说，我们后面会多谈的东西，但就像我们围绕 CLI 做的早期试验，那就算是一个让智能体参与那种体验时摩擦更小的例子。"
+ },
+ {
+  "seg": 71,
+  "start": 356.322,
+  "end": 356.582,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 72,
+  "start": 356.702,
+  "end": 362.527,
+  "speaker": "Unknown",
+  "en": "Well, while we're here talking about user needs, I've got to be like a top percentile DoorDash consumer.",
+  "zh": "好吧，既然我们在这里聊用户需求，我得说，我算是排在最顶端百分位的 DoorDash 消费者。"
+ },
+ {
+  "seg": 73,
+  "start": 362.587,
+  "end": 363.527,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 74,
+  "start": 363.607,
+  "end": 371.653,
+  "speaker": "Unknown",
+  "en": "I'm a lot of customers at this point, but I host family dinner for like extended family every Sunday night.",
+  "zh": "到现在我就是很多客户了，但我每周日晚上都会为亲戚们这样的大家庭举办家庭晚餐。"
+ },
+ {
+  "seg": 75,
+  "start": 372.374,
+  "end": 377.878,
+  "speaker": "Unknown",
+  "en": "And, you know, we eat DoorDash because I'm going to cook for all these people every week or I can't all the time.",
+  "zh": "而且，你知道，我们吃 DoorDash，因为我每周都要给这些人做饭，或者我没法一直做到。"
+ },
+ {
+  "seg": 76,
+  "start": 377.898,
+  "end": 383.922,
+  "speaker": "Unknown",
+  "en": "And like, I do the same thing every time, which is poll everyone.",
+  "zh": "而且，我每次都做同样的事情，就是征询所有人。"
+ },
+ {
+  "seg": 77,
+  "start": 383.962,
+  "end": 384.182,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 78,
+  "start": 384.202,
+  "end": 384.783,
+  "speaker": "Unknown",
+  "en": "Who's coming?",
+  "zh": "谁要来？"
+ },
+ {
+  "seg": 79,
+  "start": 385.583,
+  "end": 386.204,
+  "speaker": "Unknown",
+  "en": "Oh, yeah, yeah.",
+  "zh": "哦，对，对。"
+ },
+ {
+  "seg": 80,
+  "start": 386.264,
+  "end": 388.826,
+  "speaker": "Unknown",
+  "en": "And then these people have these allergies and whatever else.",
+  "zh": "然后这些人有这些过敏，还有其他各种情况。"
+ },
+ {
+  "seg": 81,
+  "start": 388.846,
+  "end": 388.986,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 82,
+  "start": 389.006,
+  "end": 390.888,
+  "speaker": "Unknown",
+  "en": "And like, does anybody feel like anything special?",
+  "zh": "然后，有没有人想吃点什么特别的？"
+ },
+ {
+  "seg": 83,
+  "start": 391.108,
+  "end": 391.428,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 84,
+  "start": 391.548,
+  "end": 392.889,
+  "speaker": "Unknown",
+  "en": "And then, you know, I order.",
+  "zh": "然后，你知道，我就下单。"
+ },
+ {
+  "seg": 85,
+  "start": 393.209,
+  "end": 393.39,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 86,
+  "start": 393.43,
+  "end": 393.63,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 87,
+  "start": 393.65,
+  "end": 396.912,
+  "speaker": "Unknown",
+  "en": "And I'm like, I feel like, I feel like that's all within the realm of possibility.",
+  "zh": "然后我就觉得，我觉得，我觉得这都在可能性的范围之内。"
+ },
+ {
+  "seg": 88,
+  "start": 396.952,
+  "end": 397.493,
+  "speaker": "Unknown",
+  "en": "That is definitely.",
+  "zh": "那绝对是。"
+ },
+ {
+  "seg": 89,
+  "start": 397.513,
+  "end": 398.914,
+  "speaker": "Unknown",
+  "en": "You just put it on autopilot for me.",
+  "zh": "你只要帮我把它设置成自动驾驶就行。"
+ },
+ {
+  "seg": 90,
+  "start": 398.994,
+  "end": 399.555,
+  "speaker": "Unknown",
+  "en": "I show up.",
+  "zh": "我人到场就行。"
+ },
+ {
+  "seg": 91,
+  "start": 399.635,
+  "end": 400.335,
+  "speaker": "Unknown",
+  "en": "I hang out with my family.",
+  "zh": "我和家人聚在一起。"
+ },
+ {
+  "seg": 92,
+  "start": 400.355,
+  "end": 400.876,
+  "speaker": "Unknown",
+  "en": "Everything's good.",
+  "zh": "一切都好。"
+ },
+ {
+  "seg": 93,
+  "start": 401.256,
+  "end": 408.702,
+  "speaker": "Unknown",
+  "en": "That is a use case that is, I mean, I think not exactly the same, but like a similar use case is like the office lunch ordering kind of thing.",
+  "zh": "那是一个用例，我是说，我觉得不完全一样，但一个类似的用例就像办公室订午餐那种事。"
+ },
+ {
+  "seg": 94,
+  "start": 408.982,
+  "end": 415.025,
+  "speaker": "Unknown",
+  "en": "It's like, if you're the office manager, it's like, I don't want to like, and then you got to like, hey, make sure you ordered lunch at this time.",
+  "zh": "就是，如果你是办公室经理，就像，我不想，比如，然后你就得，嘿，确保你在那个时间点订了午餐。"
+ },
+ {
+  "seg": 95,
+  "start": 415.066,
+  "end": 416.226,
+  "speaker": "Unknown",
+  "en": "Otherwise it's not going to show up.",
+  "zh": "否则它就不会送到了。"
+ },
+ {
+  "seg": 96,
+  "start": 416.286,
+  "end": 420.609,
+  "speaker": "Unknown",
+  "en": "And it's like, again, everyone has their own like allergies or dietary preferences and stuff.",
+  "zh": "而且再说一次，每个人都有自己的过敏或饮食偏好之类的东西。"
+ },
+ {
+  "seg": 97,
+  "start": 420.629,
+  "end": 420.809,
+  "speaker": "Unknown",
+  "en": "So.",
+  "zh": "所以。"
+ },
+ {
+  "seg": 98,
+  "start": 421.849,
+  "end": 426.792,
+  "speaker": "Unknown",
+  "en": "Stanley, you guys are doing a whole bunch of things on the autonomy and robotics side as well.",
+  "zh": "Stanley，你们在自主性和机器人方面也在做一大堆事情。"
+ },
+ {
+  "seg": 99,
+  "start": 426.912,
+  "end": 436.658,
+  "speaker": "Unknown",
+  "en": "Like you're clearly your view of DoorDash as founders is broader and more ambitious than, I don't know, maybe just like the surface level view of",
+  "zh": "就像，你们作为创始人对 DoorDash 的看法显然比，我不知道，也许比表面层次的看法，要更广也更有雄心"
+ },
+ {
+  "seg": 100,
+  "start": 437.592,
+  "end": 442.341,
+  "speaker": "Unknown",
+  "en": "It's a food delivery network or whatever the first one-liner for the company was.",
+  "zh": "这是一家外卖配送网络，或者说是这家公司最初的一句话简介什么的。"
+ },
+ {
+  "seg": 101,
+  "start": 443.984,
+  "end": 445.648,
+  "speaker": "Unknown",
+  "en": "How long ago did the robotics efforts start?",
+  "zh": "机器人方面的努力是多久之前开始的？"
+ },
+ {
+  "seg": 102,
+  "start": 446.178,
+  "end": 457.227,
+  "speaker": "Unknown",
+  "en": "Yeah, we've actually been looking into robotics and autonomy probably much longer than people thought, like since 2018, actually, back when it wasn't obvious autonomy and robotics was going to be a thing.",
+  "zh": "是的，实际上我们对机器人和自动驾驶的关注可能比人们以为的要早得多，比如实际上是从 2018 年开始的，那时还不明显自动驾驶和机器人会成为一股潮流。"
+ },
+ {
+  "seg": 103,
+  "start": 458.588,
+  "end": 466.053,
+  "speaker": "Unknown",
+  "en": "But we felt like this was going to be a technology that was going to be transformative to our space and potentially disruptive.",
+  "zh": "但我们当时感觉这会是一项对我们所在领域具有变革性、并且可能带来颠覆的技术。"
+ },
+ {
+  "seg": 104,
+  "start": 466.173,
+  "end": 469.896,
+  "speaker": "Unknown",
+  "en": "And I think that's the nice thing about being a founder-led company is we get to",
+  "zh": "而且我认为作为一家创始人主导的公司的好处就在于我们可以"
+ },
+ {
+  "seg": 105,
+  "start": 472.158,
+  "end": 485.721,
+  "speaker": "Unknown",
+  "en": "Think about kind of much more future speculative things that are on the horizon and constantly think about like, how do we make sure we don't get disrupted by the next one?",
+  "zh": "去思考那些更面向未来的、还出现在地平线上的投机性的事情，并且不断思考，比如，我们要如何确保不被下一个东西颠覆？"
+ },
+ {
+  "seg": 106,
+  "start": 485.761,
+  "end": 494.823,
+  "speaker": "Unknown",
+  "en": "I think like Andy said, like the next DoorDash that comes along is not going to be someone that builds the exact same version of DoorDash, but maybe with a better UI is going to be... Yeah, that would be dumb.",
+  "zh": "我认为就像 Andy 说的，下一个出现的 DoorDash 不会是某个人做一个和 DoorDash 一模一样的版本、只是 UI 好一点，那会是……对，那就太蠢了。"
+ },
+ {
+  "seg": 107,
+  "start": 494.823,
+  "end": 502.928,
+  "speaker": "Unknown",
+  "en": "It's going to be like something like, okay, how do we incorporate AI, agentic commerce, how to incorporate autonomy, robotics, drone deliveries, et cetera.",
+  "zh": "而会是类似于，好，我们要如何融入 AI、智能体商务，如何融入自动驾驶、机器人、无人机配送，等等。"
+ },
+ {
+  "seg": 108,
+  "start": 503.008,
+  "end": 511.752,
+  "speaker": "Unknown",
+  "en": "And I think, I mean, fast forward like seven, eight years later, I think we're seeing everything starting to play out in AI and robotics and autonomy, seeing Waymo's happening.",
+  "zh": "而且我认为，我是说，快进七八年之后的今天，我们看到 AI、机器人和自动驾驶的一切都开始显现，看到 Waymo 正在发生。"
+ },
+ {
+  "seg": 109,
+  "start": 511.792,
+  "end": 515.815,
+  "speaker": "Unknown",
+  "en": "And I think, you know, we're glad that we made that investment early on 2018.",
+  "zh": "而且我觉得，你知道，我们很高兴我们在 2018 年就早早做了那笔投资。"
+ },
+ {
+  "seg": 110,
+  "start": 516.435,
+  "end": 519.276,
+  "speaker": "Unknown",
+  "en": "There's just an amazing business in 2018.",
+  "zh": "2018 年就已经是一门很了不起的生意了。"
+ },
+ {
+  "seg": 111,
+  "start": 519.316,
+  "end": 521.477,
+  "speaker": "Unknown",
+  "en": "It was like less amazing than it is today.",
+  "zh": "那时候还没有今天这么了不起。"
+ },
+ {
+  "seg": 112,
+  "start": 521.817,
+  "end": 523.318,
+  "speaker": "Unknown",
+  "en": "I feel like that's a fair statement, right?",
+  "zh": "我觉得这个说法挺公允的，对吧？"
+ },
+ {
+  "seg": 113,
+  "start": 524.098,
+  "end": 533.082,
+  "speaker": "Unknown",
+  "en": "How do you think about like the timing and sequencing of these very long-term bets and like we just did from a capital allocation perspective, like when you can invest in these things?",
+  "zh": "你是如何思考这些非常长期的押注的时机和先后顺序的？比如我们刚才做的那样，从资本配置的角度来看，比如你什么时候能投资这些东西？"
+ },
+ {
+  "seg": 114,
+  "start": 533.482,
+  "end": 537.523,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's probably the same of how we invest in a lot of things at DoorDash.",
+  "zh": "是的，我觉得这大概和我们在 DoorDash 投资很多事情的方式是一样的。"
+ },
+ {
+  "seg": 115,
+  "start": 537.943,
+  "end": 539.443,
+  "speaker": "Unknown",
+  "en": "Everything started out as experiments.",
+  "zh": "一切都是从实验开始的。"
+ },
+ {
+  "seg": 116,
+  "start": 539.723,
+  "end": 542.284,
+  "speaker": "Unknown",
+  "en": "I mean, in a way, that was the founding story behind DoorDash.",
+  "zh": "我是说，从某种意义上说，那就是 DoorDash 背后的创业故事。"
+ },
+ {
+  "seg": 117,
+  "start": 542.304,
+  "end": 545.965,
+  "speaker": "Unknown",
+  "en": "DoorDash was a Stanford College dorm room experiment.",
+  "zh": "DoorDash 是一个斯坦福大学宿舍里的实验。"
+ },
+ {
+  "seg": 118,
+  "start": 546.045,
+  "end": 551.366,
+  "speaker": "Unknown",
+  "en": "It started out as a website called politodelivery.com with eight PDF menus and a Google Voice phone number.",
+  "zh": "它最初是一个叫 politodelivery.com 的网站，有八份 PDF 菜单和一个 Google Voice 电话号码。"
+ },
+ {
+  "seg": 119,
+  "start": 551.926,
+  "end": 555.487,
+  "speaker": "Unknown",
+  "en": "And it was only once we figured out, okay, there's something here, let's turn this into company.",
+  "zh": "然后只有当我们搞清楚了，好，这里面有点东西，让我们把它做成一家公司。"
+ },
+ {
+  "seg": 120,
+  "start": 556.127,
+  "end": 559.488,
+  "speaker": "Unknown",
+  "en": "And that's basically, we've kind of taken that philosophy",
+  "zh": "而这基本上就是，我们一直秉持的那种理念"
+ },
+ {
+  "seg": 121,
+  "start": 560.408,
+  "end": 565.554,
+  "speaker": "Unknown",
+  "en": "Throughout the past 13 years, and we've kind of applied it to autonomy as well, AI as well.",
+  "zh": "贯穿了过去的 13 年，我们也把它应用到了自动驾驶上，也应用到了 AI 上。"
+ },
+ {
+  "seg": 122,
+  "start": 565.594,
+  "end": 576.026,
+  "speaker": "Unknown",
+  "en": "I mean, when it first started in 2018, the intention wasn't, hey, let's go spin up this giant robotics program, let's hire roboticists, go build hardware.",
+  "zh": "我是说，2018 年刚起步的时候，我们的意图并不是，嘿，让我们搞一个庞大的机器人项目，让我们雇机器人专家，去造硬件。"
+ },
+ {
+  "seg": 123,
+  "start": 576.106,
+  "end": 576.666,
+  "speaker": "Unknown",
+  "en": "It was really...",
+  "zh": "它其实是……"
+ },
+ {
+  "seg": 124,
+  "start": 577.247,
+  "end": 580.33,
+  "speaker": "Unknown",
+  "en": "We put together, it was me and half an engineer's time.",
+  "zh": "我们凑起来的，就是我加上半个工程师的时间。"
+ },
+ {
+  "seg": 125,
+  "start": 580.43,
+  "end": 581.731,
+  "speaker": "Unknown",
+  "en": "It was a Skunk Works project.",
+  "zh": "那是一个 Skunk Works 项目。"
+ },
+ {
+  "seg": 126,
+  "start": 582.272,
+  "end": 584.995,
+  "speaker": "Unknown",
+  "en": "It was an experimentation to go, let's go explore what's out there.",
+  "zh": "那是一次实验，就是，让我们去看看外面有什么。"
+ },
+ {
+  "seg": 127,
+  "start": 585.015,
+  "end": 590.02,
+  "speaker": "Unknown",
+  "en": "We don't even know what autonomy looks like, how robotics is going to impact our space, but let's go explore.",
+  "zh": "我们甚至不知道自动驾驶是什么样子，机器人会如何影响我们的领域，但让我们去探索吧。"
+ },
+ {
+  "seg": 128,
+  "start": 590.46,
+  "end": 591.781,
+  "speaker": "Unknown",
+  "en": "Let's go form partnerships.",
+  "zh": "让我们去建立合作伙伴关系。"
+ },
+ {
+  "seg": 129,
+  "start": 591.841,
+  "end": 592.482,
+  "speaker": "Unknown",
+  "en": "Let's go learn.",
+  "zh": "让我们去学习。"
+ },
+ {
+  "seg": 130,
+  "start": 592.502,
+  "end": 593.723,
+  "speaker": "Unknown",
+  "en": "Let's go experiment.",
+  "zh": "让我们去做实验。"
+ },
+ {
+  "seg": 131,
+  "start": 594.524,
+  "end": 596.786,
+  "speaker": "Unknown",
+  "en": "And I think in the beginning...",
+  "zh": "而且我认为在一开始……"
+ },
+ {
+  "seg": 132,
+  "start": 597.587,
+  "end": 599.008,
+  "speaker": "Unknown",
+  "en": "The intention wasn't to build our own robot.",
+  "zh": "当时的意图并不是要造我们自己的机器人。"
+ },
+ {
+  "seg": 133,
+  "start": 599.048,
+  "end": 602.051,
+  "speaker": "Unknown",
+  "en": "Actually, we didn't think we needed to build any of this technology ourselves.",
+  "zh": "实际上，我们不认为我们需要自己构建这些技术中的任何一项。"
+ },
+ {
+  "seg": 134,
+  "start": 602.091,
+  "end": 605.473,
+  "speaker": "Unknown",
+  "en": "We thought, okay, we can just partner up with a bunch of folks.",
+  "zh": "我们当时想，好，我们只要和一群人合作就行了。"
+ },
+ {
+  "seg": 135,
+  "start": 606.374,
+  "end": 609.056,
+  "speaker": "Unknown",
+  "en": "Back then, we didn't know anything about robotics.",
+  "zh": "那时候，我们对机器人一无所知。"
+ },
+ {
+  "seg": 136,
+  "start": 609.737,
+  "end": 613.299,
+  "speaker": "Unknown",
+  "en": "There's all these startups out there that have built robots and autonomy.",
+  "zh": "外面有这么多已经造出机器人和自动驾驶的初创公司。"
+ },
+ {
+  "seg": 137,
+  "start": 613.359,
+  "end": 614.44,
+  "speaker": "Unknown",
+  "en": "Why don't we just work with them?",
+  "zh": "我们为什么不直接和他们合作呢？"
+ },
+ {
+  "seg": 138,
+  "start": 615.121,
+  "end": 616.782,
+  "speaker": "Unknown",
+  "en": "We can essentially just be the platform.",
+  "zh": "我们基本上只需要做平台就好。"
+ },
+ {
+  "seg": 139,
+  "start": 617.723,
+  "end": 620.685,
+  "speaker": "Unknown",
+  "en": "We'll build the APIs, we'll handle the distribution, etc.",
+  "zh": "我们来构建 API，我们来搞定分发，等等。"
+ },
+ {
+  "seg": 140,
+  "start": 621.366,
+  "end": 622.567,
+  "speaker": "Unknown",
+  "en": "And we did that for about...",
+  "zh": "而我们这样做了大约……"
+ },
+ {
+  "seg": 141,
+  "start": 623.207,
+  "end": 631.742,
+  "speaker": "Unknown",
+  "en": "Actually, several years, actually, we worked with everyone in the space, everyone from the sidewalk robot players all the way up to the robotaxi players.",
+  "zh": "实际上，有好几年，实际上，我们和这个领域里的所有人合作过，从人行道机器人玩家一直到 Robotaxi 玩家。"
+ },
+ {
+  "seg": 142,
+  "start": 631.903,
+  "end": 633.806,
+  "speaker": "Unknown",
+  "en": "I'll say there's three things we learned through that experience.",
+  "zh": "我想说的是，我们通过那段经历学到了三件事。"
+ },
+ {
+  "seg": 143,
+  "start": 633.826,
+  "end": 635.609,
+  "speaker": "Unknown",
+  "en": "I think one is it kind of...",
+  "zh": "我认为第一是它有点……"
+ },
+ {
+  "seg": 144,
+  "start": 636.791,
+  "end": 640.572,
+  "speaker": "Unknown",
+  "en": "Validated or confirmed our belief that there's something here.",
+  "zh": "验证或确认了我们的信念，就是这里确实有东西。"
+ },
+ {
+  "seg": 145,
+  "start": 640.852,
+  "end": 644.232,
+  "speaker": "Unknown",
+  "en": "Autonomy is a question of when it was going to happen, not if.",
+  "zh": "自动驾驶是一个何时会发生的问题，而不是是否会的问题。"
+ },
+ {
+  "seg": 146,
+  "start": 644.593,
+  "end": 648.433,
+  "speaker": "Unknown",
+  "en": "And again, fast forward today, you see the Waymo's driving it.",
+  "zh": "再一次，快进到今天，你看到那些 Waymo 在路上开。"
+ },
+ {
+  "seg": 147,
+  "start": 648.453,
+  "end": 648.953,
+  "speaker": "Unknown",
+  "en": "It's happening.",
+  "zh": "它正在发生。"
+ },
+ {
+  "seg": 148,
+  "start": 648.993,
+  "end": 649.594,
+  "speaker": "Unknown",
+  "en": "It's happening.",
+  "zh": "它正在发生。"
+ },
+ {
+  "seg": 149,
+  "start": 649.674,
+  "end": 650.594,
+  "speaker": "Unknown",
+  "en": "So we should keep investing.",
+  "zh": "所以我们应该继续投资。"
+ },
+ {
+  "seg": 150,
+  "start": 650.614,
+  "end": 662.276,
+  "speaker": "Unknown",
+  "en": "The second is I think it allowed us to learn what it takes to actually enable autonomy, because it turns out there's a lot of things you have to build around autonomy, the infrastructure, the ecosystem.",
+  "zh": "第二是,我认为它让我们了解到真正实现自主性需要什么,因为事实证明,围绕自主性你需要构建很多东西,基础设施、生态系统。"
+ },
+ {
+  "seg": 151,
+  "start": 662.496,
+  "end": 664.237,
+  "speaker": "Unknown",
+  "en": "How does autonomy integrate with DoorDash?",
+  "zh": "自主性如何与 DoorDash 集成?"
+ },
+ {
+  "seg": 152,
+  "start": 664.277,
+  "end": 668.358,
+  "speaker": "Unknown",
+  "en": "What deliveries do you take on the operational aspects?",
+  "zh": "你承接哪些配送?运营方面是怎样的?"
+ },
+ {
+  "seg": 153,
+  "start": 668.438,
+  "end": 672.64,
+  "speaker": "Unknown",
+  "en": "It turned out a lot of things you have to build around autonomy in order to make autonomy possible.",
+  "zh": "事实证明,为了使自主性成为可能,你需要围绕自主性构建很多东西。"
+ },
+ {
+  "seg": 154,
+  "start": 672.66,
+  "end": 679.043,
+  "speaker": "Unknown",
+  "en": "It's not just you plop a robot in or even AI just plop an LM in and then things just magically happen.",
+  "zh": "不是说你随便放一个机器人进去,甚至放个 AI、放个 LM 进去,然后事情就神奇地发生了。"
+ },
+ {
+  "seg": 155,
+  "start": 679.063,
+  "end": 683.405,
+  "speaker": "Unknown",
+  "en": "There's a lot of things around it and you kind of have to build a platform, an ecosystem.",
+  "zh": "它周围有很多东西,你基本上必须构建一个平台、一个生态系统。"
+ },
+ {
+  "seg": 156,
+  "start": 683.425,
+  "end": 687.806,
+  "speaker": "Unknown",
+  "en": "So one of the things that we ended up building is this thing called the autonomous delivery platform.",
+  "zh": "所以我们最终构建的东西之一,就是这个叫做自主配送平台的东西。"
+ },
+ {
+  "seg": 157,
+  "start": 687.866,
+  "end": 688.767,
+  "speaker": "Unknown",
+  "en": "Essentially, it's like",
+  "zh": "本质上,就像是"
+ },
+ {
+  "seg": 158,
+  "start": 689.387,
+  "end": 701.536,
+  "speaker": "Unknown",
+  "en": "What are all the products and technology, the APIs, the dispatch you need to build now in a post-autonomy world where autonomy and robotics and drones are everywhere?",
+  "zh": "在一个自主性、机器人和无人机无处不在的后自主世界里,你现在需要构建的所有产品和技术、API、调度是什么?"
+ },
+ {
+  "seg": 159,
+  "start": 701.556,
+  "end": 702.777,
+  "speaker": "Unknown",
+  "en": "What are all the things you have to build?",
+  "zh": "你必须构建的所有东西是什么?"
+ },
+ {
+  "seg": 160,
+  "start": 703.157,
+  "end": 704.178,
+  "speaker": "Unknown",
+  "en": "How do you integrate with merchants?",
+  "zh": "你如何与商家集成?"
+ },
+ {
+  "seg": 161,
+  "start": 704.198,
+  "end": 705.639,
+  "speaker": "Unknown",
+  "en": "What does the consumer experience look like?",
+  "zh": "消费者体验是什么样的?"
+ },
+ {
+  "seg": 162,
+  "start": 706.659,
+  "end": 717.627,
+  "speaker": "Unknown",
+  "en": "And I think the last thing, which I think is probably the most important thing we learned, which eventually led us to realize we have to build this technology ourselves, is really this idea of building towards a use case.",
+  "zh": "我认为最后一点,也可能是我们学到的最重要的一点,它最终让我们意识到我们必须自己构建这项技术,其实就是朝着用例去构建这个理念。"
+ },
+ {
+  "seg": 163,
+  "start": 718.668,
+  "end": 728.282,
+  "speaker": "Unknown",
+  "en": "Yes, there's a lot of autonomy startups out there, but it always felt like these companies weren't really focused on a use case.",
+  "zh": "是的,外面有很多自主性初创公司,但总觉得这些公司并没有真正专注于某个用例。"
+ },
+ {
+  "seg": 164,
+  "start": 728.342,
+  "end": 733.89,
+  "speaker": "Unknown",
+  "en": "It always felt like they kind of build the technology first and then retroactively try to go...",
+  "zh": "总感觉他们是先构建技术,然后再回过头来试图去找……"
+ },
+ {
+  "seg": 165,
+  "start": 734.531,
+  "end": 735.792,
+  "speaker": "Unknown",
+  "en": "Find a problem to fit into.",
+  "zh": "找一个能套进去的问题。"
+ },
+ {
+  "seg": 166,
+  "start": 736.212,
+  "end": 747.676,
+  "speaker": "Unknown",
+  "en": "These things are all built in a vacuum, which is kind of weird because in the software world, when we went through YC, we're always taught to, oh, you got to serve the customer, build something people want.",
+  "zh": "这些东西都是在真空中构建的,这有点奇怪,因为在软件世界里,当我们经历 YC 的时候,我们总是被教导,哦,你必须服务客户,构建人们想要的东西。"
+ },
+ {
+  "seg": 167,
+  "start": 747.696,
+  "end": 749.877,
+  "speaker": "Unknown",
+  "en": "That's kind of like drilled into you and then you can iterate.",
+  "zh": "这基本上是被灌输到你脑子里的,然后你就可以迭代。"
+ },
+ {
+  "seg": 168,
+  "start": 750.257,
+  "end": 757.08,
+  "speaker": "Unknown",
+  "en": "But then when it comes to hardware and hard tech and AI and robotics, people just kind of...",
+  "zh": "但当涉及硬件、硬科技、AI 和机器人时,人们就有点……"
+ },
+ {
+  "seg": 169,
+  "start": 757.64,
+  "end": 762.882,
+  "speaker": "Unknown",
+  "en": "Do the opposite, where they try to build the tech first and not really think about the use case they're building towards.",
+  "zh": "反其道而行,他们试图先构建技术,而不真正思考他们要朝着什么用例去构建。"
+ },
+ {
+  "seg": 170,
+  "start": 762.902,
+  "end": 769.505,
+  "speaker": "Unknown",
+  "en": "And whenever that happens, you just end up with something that just wasn't quite the right fit.",
+  "zh": "而每当这种情况发生时,你最终得到的东西就是不太合适。"
+ },
+ {
+  "seg": 171,
+  "start": 769.605,
+  "end": 776.728,
+  "speaker": "Unknown",
+  "en": "And we went through this process where a lot of these companies out there always felt like it wasn't exactly what DoorDash needed.",
+  "zh": "而我们经历了这个过程,外面很多这样的公司总感觉不完全是 DoorDash 需要的。"
+ },
+ {
+  "seg": 172,
+  "start": 776.748,
+  "end": 781.19,
+  "speaker": "Unknown",
+  "en": "For example, a simple example is that you have...",
+  "zh": "例如,一个简单的例子是你有……"
+ },
+ {
+  "seg": 173,
+  "start": 782.129,
+  "end": 786.411,
+  "speaker": "Unknown",
+  "en": "These in tiny world, there's basically two buckets, a category of companies out there.",
+  "zh": "这些,在 tiny world 里,基本上有两个桶,外面的一类公司。"
+ },
+ {
+  "seg": 174,
+  "start": 786.431,
+  "end": 794.934,
+  "speaker": "Unknown",
+  "en": "You have these sidewalk robot companies, which are kind of these two, three mile per hour, kind of water cooler on wheels, super effective, simple technology.",
+  "zh": "你有这些人行道机器人公司,它们是那种每小时两三英里的、像装了轮子的饮水机,超级有效、技术简单。"
+ },
+ {
+  "seg": 175,
+  "start": 795.835,
+  "end": 803.138,
+  "speaker": "Unknown",
+  "en": "But we quickly realized the speed was like, and distance was a huge limitation because the average delivery at DoorDash is about...",
+  "zh": "但我们很快意识到速度就像是……而距离是一个巨大的限制,因为 DoorDash 的平均配送大约是……"
+ },
+ {
+  "seg": 176,
+  "start": 803.658,
+  "end": 804.538,
+  "speaker": "Unknown",
+  "en": "Three to five miles.",
+  "zh": "三到五英里。"
+ },
+ {
+  "seg": 177,
+  "start": 806.119,
+  "end": 810.64,
+  "speaker": "Unknown",
+  "en": "And the typical delivery time is about 15 minutes if you exclude the time it takes to make the food.",
+  "zh": "而典型的配送时间大约是 15 分钟,如果你排除制作食物所需的时间。"
+ },
+ {
+  "seg": 178,
+  "start": 810.98,
+  "end": 814.02,
+  "speaker": "Unknown",
+  "en": "So if you put a two mile per hour sidewalk robot, it's just never going to work.",
+  "zh": "所以如果你放一个每小时两英里的人行道机器人,它根本行不通。"
+ },
+ {
+  "seg": 179,
+  "start": 814.901,
+  "end": 821.362,
+  "speaker": "Unknown",
+  "en": "And on the end of the spectrum, you have kind of the robo taxi players, which really are designed for carrying people around.",
+  "zh": "而在光谱的另一端,你有那种 robo taxi 玩家,它们实际上是为载人而设计的。"
+ },
+ {
+  "seg": 180,
+  "start": 821.442,
+  "end": 822.762,
+  "speaker": "Unknown",
+  "en": "It's a 4,000 pound vehicle.",
+  "zh": "那是一辆 4000 磅的车。"
+ },
+ {
+  "seg": 181,
+  "start": 823.203,
+  "end": 824.223,
+  "speaker": "Unknown",
+  "en": "This goes super fast.",
+  "zh": "它开得超级快。"
+ },
+ {
+  "seg": 182,
+  "start": 824.243,
+  "end": 825.143,
+  "speaker": "Unknown",
+  "en": "You're transporting people.",
+  "zh": "你运输的是人。"
+ },
+ {
+  "seg": 183,
+  "start": 825.183,
+  "end": 830.364,
+  "speaker": "Unknown",
+  "en": "But it turns out the problem around carrying people and carrying goods is actually a little bit different.",
+  "zh": "但事实证明,载人和运货的问题实际上是有点不同的。"
+ },
+ {
+  "seg": 184,
+  "start": 833.745,
+  "end": 834.586,
+  "speaker": "Unknown",
+  "en": "A couple of burritos around.",
+  "zh": "运几个墨西哥卷饼。"
+ },
+ {
+  "seg": 185,
+  "start": 834.606,
+  "end": 839.05,
+  "speaker": "Unknown",
+  "en": "Do you really need a 4,000-pound car with chairs and AC?",
+  "zh": "你真的需要一辆带座椅和空调的 4000 磅的车吗?"
+ },
+ {
+  "seg": 186,
+  "start": 839.851,
+  "end": 842.073,
+  "speaker": "Unknown",
+  "en": "The pickup drop-off problem is also very different.",
+  "zh": "取件和投递的问题也非常不同。"
+ },
+ {
+  "seg": 187,
+  "start": 842.633,
+  "end": 846.397,
+  "speaker": "Unknown",
+  "en": "In robo-taxis, you can walk to a Waymo.",
+  "zh": "在 robo taxi 的情况下,你可以走着去到一辆 Waymo 那里。"
+ },
+ {
+  "seg": 188,
+  "start": 846.557,
+  "end": 854.064,
+  "speaker": "Unknown",
+  "en": "I mean, how often have you taken a Waymo where it drops you off half a block or a block away from where you need to be, which is totally fine because you can walk, but...",
+  "zh": "我是说,你坐 Waymo 有多少次它把你放在离你要去的地方半个街区或一个街区远的地方,这完全没问题,因为你可以走过去,但是……"
+ },
+ {
+  "seg": 189,
+  "start": 855.005,
+  "end": 856.007,
+  "speaker": "Unknown",
+  "en": "Packages can't do that.",
+  "zh": "包裹做不到这一点。"
+ },
+ {
+  "seg": 190,
+  "start": 856.568,
+  "end": 860.877,
+  "speaker": "Unknown",
+  "en": "How do you solve that, what I call the first and last hundred feet problem?",
+  "zh": "你如何解决那个问题,也就是我所称的最初和最后一百英尺问题?"
+ },
+ {
+  "seg": 191,
+  "start": 860.917,
+  "end": 862.721,
+  "speaker": "Unknown",
+  "en": "How does the food...",
+  "zh": "食物如何……"
+ },
+ {
+  "seg": 192,
+  "start": 864.658,
+  "end": 866.539,
+  "speaker": "Unknown",
+  "en": "How do you get picked up at the merchant?",
+  "zh": "你如何在商家那里被取件?"
+ },
+ {
+  "seg": 193,
+  "start": 867.2,
+  "end": 868.46,
+  "speaker": "Unknown",
+  "en": "What does that integration look like?",
+  "zh": "那种集成是什么样的?"
+ },
+ {
+  "seg": 194,
+  "start": 868.981,
+  "end": 871.122,
+  "speaker": "Unknown",
+  "en": "And then on the customer, how do you drop off the food?",
+  "zh": "然后在顾客这边,你如何投递食物?"
+ },
+ {
+  "seg": 195,
+  "start": 871.142,
+  "end": 872.263,
+  "speaker": "Unknown",
+  "en": "How do you find the driveway?",
+  "zh": "你如何找到私家车道?"
+ },
+ {
+  "seg": 196,
+  "start": 872.843,
+  "end": 881.169,
+  "speaker": "Unknown",
+  "en": "People expect their food to be dropped off or the vehicles be pulled up straight to the front of the driveway or their porch.",
+  "zh": "人们期望他们的食物被投递,或者车辆直接开到私家车道前面或他们的门廊前。"
+ },
+ {
+  "seg": 197,
+  "start": 881.329,
+  "end": 890.274,
+  "speaker": "Unknown",
+  "en": "So when we kind of looked around and asked ourselves, okay, if you were to start first principle, then again, this has always been our philosophy at DoorDash.",
+  "zh": "所以当我们环顾四周并问自己,好,如果你要从第一性原理开始,再说一次,这一直是我们在 DoorDash 的哲学。"
+ },
+ {
+  "seg": 198,
+  "start": 891.055,
+  "end": 893.656,
+  "speaker": "Unknown",
+  "en": "If you were to start from the customer use case,",
+  "zh": "如果你要从顾客用例出发,"
+ },
+ {
+  "seg": 199,
+  "start": 894.597,
+  "end": 902.443,
+  "speaker": "Unknown",
+  "en": "Work your way backwards, our first principles, and you can build exactly what we need to solve our use case.",
+  "zh": "往回推导,我们的第一性原理,你就能精确构建出我们解决用例所需要的东西。"
+ },
+ {
+  "seg": 200,
+  "start": 902.523,
+  "end": 903.364,
+  "speaker": "Unknown",
+  "en": "What would that look like?",
+  "zh": "那会是什么样子？"
+ },
+ {
+  "seg": 201,
+  "start": 905.195,
+  "end": 905.735,
+  "speaker": "Unknown",
+  "en": "We looked around.",
+  "zh": "我们环顾四周。"
+ },
+ {
+  "seg": 202,
+  "start": 905.755,
+  "end": 907.437,
+  "speaker": "Unknown",
+  "en": "Turns out no one's really doing that.",
+  "zh": "结果发现没有人真正在做这个。"
+ },
+ {
+  "seg": 203,
+  "start": 907.457,
+  "end": 908.758,
+  "speaker": "Unknown",
+  "en": "It's not a sidewalk robot.",
+  "zh": "它不是人行道机器人。"
+ },
+ {
+  "seg": 204,
+  "start": 908.838,
+  "end": 910.019,
+  "speaker": "Unknown",
+  "en": "It's not a robo-taxi.",
+  "zh": "它不是自动驾驶出租车。"
+ },
+ {
+  "seg": 205,
+  "start": 911.78,
+  "end": 913.882,
+  "speaker": "Unknown",
+  "en": "We felt like it was probably something in between.",
+  "zh": "我们觉得它可能是介于两者之间的东西。"
+ },
+ {
+  "seg": 206,
+  "start": 913.902,
+  "end": 929.615,
+  "speaker": "Unknown",
+  "en": "The right metaphor for us, again, it's like if you're trying to solve that three to five mile delivery in dense suburbs, which is where most of the deliveries happen, the right metaphor is probably a autonomous motorcycle or a scooter or a bike profile vehicle.",
+  "zh": "对我们来说，正确的类比，再说一次，就像是，如果你要解决密集郊区三到五英里的配送——大多数配送都发生在那里——正确的类比可能是自动驾驶摩托车，或者踏板车，或者自行车外形的车辆。"
+ },
+ {
+  "seg": 207,
+  "start": 930.415,
+  "end": 932.777,
+  "speaker": "Unknown",
+  "en": "And it doesn't even be 4,000 pounds.",
+  "zh": "而它甚至不需要有4000磅。"
+ },
+ {
+  "seg": 208,
+  "start": 932.797,
+  "end": 933.498,
+  "speaker": "Unknown",
+  "en": "It's probably...",
+  "zh": "它大概……"
+ },
+ {
+  "seg": 209,
+  "start": 934.138,
+  "end": 939.203,
+  "speaker": "Unknown",
+  "en": "You know, 300 pounds, but it also has to be a lot faster than Sidewalk, but it has to go 20, 25 miles per hour.",
+  "zh": "你知道，300磅，但它也必须比人行道机器人快得多，但它必须达到每小时20、25英里。"
+ },
+ {
+  "seg": 210,
+  "start": 939.223,
+  "end": 950.294,
+  "speaker": "Unknown",
+  "en": "And when we looked around and saw no one's building that, we decided, well, if no one's going to do that, instead of waiting around and wait for this to happen, we're going to control our own destiny here.",
+  "zh": "当我们环顾四周，发现没有人在造这个，我们决定，好吧，既然没人要做这个，与其干等着这件事发生，我们要自己掌控命运。"
+ },
+ {
+  "seg": 211,
+  "start": 950.334,
+  "end": 952.236,
+  "speaker": "Unknown",
+  "en": "Let's invest in this and see.",
+  "zh": "我们来投资这个，看看。"
+ },
+ {
+  "seg": 212,
+  "start": 953.237,
+  "end": 953.857,
+  "speaker": "Unknown",
+  "en": "where we can build.",
+  "zh": "我们能把它建造到什么程度。"
+ },
+ {
+  "seg": 213,
+  "start": 954.358,
+  "end": 955.799,
+  "speaker": "Unknown",
+  "en": "And it took many iterations.",
+  "zh": "而这经过了许多次迭代。"
+ },
+ {
+  "seg": 214,
+  "start": 956.339,
+  "end": 967.426,
+  "speaker": "Unknown",
+  "en": "We started looking at testing this with real DoorDash deliveries, looking at our 10 billion deliveries we've done, extracting the insights we have on the operational learnings we have.",
+  "zh": "我们开始考虑用真实的 DoorDash 配送来测试这个，研究我们做过的100亿次配送，提取我们从运营经验中获得的洞察。"
+ },
+ {
+  "seg": 215,
+  "start": 967.886,
+  "end": 975.171,
+  "speaker": "Unknown",
+  "en": "And that's eventually what led us to launch and ship, which is our in-house autonomous delivery robot.",
+  "zh": "而这最终让我们推出并交付了它，也就是我们自研的自动驾驶配送机器人。"
+ },
+ {
+  "seg": 216,
+  "start": 976.072,
+  "end": 977.553,
+  "speaker": "Unknown",
+  "en": "So it's been quite a journey.",
+  "zh": "所以这是一段相当长的旅程。"
+ },
+ {
+  "seg": 217,
+  "start": 977.953,
+  "end": 980.735,
+  "speaker": "Unknown",
+  "en": "But again, this is something we look to bring to every",
+  "zh": "但再说一次，这是我们希望带给业务的每一个"
+ },
+ {
+  "seg": 218,
+  "start": 981.905,
+  "end": 985.289,
+  "speaker": "Unknown",
+  "en": "Aspect of the business, whether it's autonomy, robotics, AI.",
+  "zh": "方面，无论是自动驾驶、机器人技术，还是 AI。"
+ },
+ {
+  "seg": 219,
+  "start": 985.41,
+  "end": 987.572,
+  "speaker": "Unknown",
+  "en": "It always starts out as experiments.",
+  "zh": "它总是从实验开始。"
+ },
+ {
+  "seg": 220,
+  "start": 988.513,
+  "end": 991.157,
+  "speaker": "Unknown",
+  "en": "It always starts out as what is the customer problem you're solving for?",
+  "zh": "它总是从「你要解决的客户问题是什么」开始。"
+ },
+ {
+  "seg": 221,
+  "start": 991.177,
+  "end": 992.458,
+  "speaker": "Unknown",
+  "en": "What's the use case you're solving for?",
+  "zh": "你要解决的使用场景是什么？"
+ },
+ {
+  "seg": 222,
+  "start": 992.518,
+  "end": 999.307,
+  "speaker": "Unknown",
+  "en": "Work your way backwards and then iterate and validate your hypothesis and slowly build the product over time.",
+  "zh": "从后往前推导，然后迭代、验证你的假设，并随着时间慢慢构建产品。"
+ },
+ {
+  "seg": 223,
+  "start": 999.547,
+  "end": 1001.609,
+  "speaker": "Unknown",
+  "en": "That sounds extremely rational.",
+  "zh": "这听起来极其理性。"
+ },
+ {
+  "seg": 224,
+  "start": 1001.729,
+  "end": 1003.671,
+  "speaker": "Unknown",
+  "en": "I have a hypothesis and it's very cool.",
+  "zh": "我有一个假设，而且它非常酷。"
+ },
+ {
+  "seg": 225,
+  "start": 1003.691,
+  "end": 1008.396,
+  "speaker": "Unknown",
+  "en": "I want to ask you where we are in the life cycle of everybody getting these automated deliveries.",
+  "zh": "我想问你们，在「每个人都获得这些自动化配送」的生命周期中，我们处在哪个阶段。"
+ },
+ {
+  "seg": 226,
+  "start": 1009.217,
+  "end": 1013.461,
+  "speaker": "Unknown",
+  "en": "I have a hypothesis and I'm curious if it resonates with either of you about like...",
+  "zh": "我有一个假设，我很好奇它会不会引起你们中任何一位的共鸣，就是关于……"
+ },
+ {
+  "seg": 227,
+  "start": 1015.306,
+  "end": 1020.19,
+  "speaker": "Unknown",
+  "en": "I don't know why a lot of people in this era are building technology first versus customer back.",
+  "zh": "我不知道为什么这个时代的很多人都是先造技术，而不是从客户倒推。"
+ },
+ {
+  "seg": 228,
+  "start": 1021.091,
+  "end": 1026.094,
+  "speaker": "Unknown",
+  "en": "I think people think everything is going to work like ChatGPT.",
+  "zh": "我觉得人们认为一切都会像 ChatGPT 那样运作。"
+ },
+ {
+  "seg": 229,
+  "start": 1026.495,
+  "end": 1035.341,
+  "speaker": "Unknown",
+  "en": "By the way, there was, of course, work done on instruction fine tuning to get it to be shaped in a product that was still a user experience.",
+  "zh": "顺便说一下，当然，之前在指令微调上是做过工作的，把它塑造成了一个仍然属于用户体验的产品。"
+ },
+ {
+  "seg": 230,
+  "start": 1035.381,
+  "end": 1039.825,
+  "speaker": "Unknown",
+  "en": "But I think the mental model that people have, it's a general technology, and it's just kind of like...",
+  "zh": "但我认为人们的心智模型是，这是一项通用技术，它就有点像……"
+ },
+ {
+  "seg": 231,
+  "start": 1040.285,
+  "end": 1046.229,
+  "speaker": "Unknown",
+  "en": "Free to turn into different applications is what they're applying to lots of different things now.",
+  "zh": "可以自由地转变成不同的应用，这就是他们现在把它应用于很多不同事物的方式。"
+ },
+ {
+  "seg": 232,
+  "start": 1046.349,
+  "end": 1052.653,
+  "speaker": "Unknown",
+  "en": "And especially in autonomy, my sense is people are like, okay, we'll make the model and then like the other stuff will be...",
+  "zh": "尤其是在自动驾驶领域，我的感觉是人们会说，好吧，我们把模型做出来，然后其他的东西就会……"
+ },
+ {
+  "seg": 233,
+  "start": 1054.897,
+  "end": 1057.439,
+  "speaker": "Unknown",
+  "en": "If not easy, at least secondary.",
+  "zh": "即使不容易，至少也是次要的。"
+ },
+ {
+  "seg": 234,
+  "start": 1057.96,
+  "end": 1059.521,
+  "speaker": "Unknown",
+  "en": "This is not my view at all.",
+  "zh": "这完全不是我的观点。"
+ },
+ {
+  "seg": 235,
+  "start": 1059.801,
+  "end": 1060.882,
+  "speaker": "Unknown",
+  "en": "Yeah, I agree with you there.",
+  "zh": "是的，在这一点上我同意你。"
+ },
+ {
+  "seg": 236,
+  "start": 1061.303,
+  "end": 1066.307,
+  "speaker": "Unknown",
+  "en": "I mean, that's basically your methodology into building the dot form factor.",
+  "zh": "我是说，那基本上就是你们打造 dot 这种形态的方法论。"
+ },
+ {
+  "seg": 237,
+  "start": 1066.447,
+  "end": 1075.134,
+  "speaker": "Unknown",
+  "en": "I think maybe that approach works in like software land, but like for at least for a business like ours, like DoorDash is a physical world business.",
+  "zh": "我觉得也许那种方法在软件领域行得通，但至少对于像我们这样的业务来说，DoorDash 是一个物理世界的业务。"
+ },
+ {
+  "seg": 238,
+  "start": 1075.234,
+  "end": 1078.756,
+  "speaker": "Unknown",
+  "en": "It's like, you know, you bring technology into physical world and the physical world is always...",
+  "zh": "就是，你知道，你把技术带进物理世界，而物理世界总是……"
+ },
+ {
+  "seg": 239,
+  "start": 1079.655,
+  "end": 1080.376,
+  "speaker": "Unknown",
+  "en": "A lot messier.",
+  "zh": "乱得多。"
+ },
+ {
+  "seg": 240,
+  "start": 1080.677,
+  "end": 1083.682,
+  "speaker": "Unknown",
+  "en": "It's a lot more complicated, a lot more nuanced.",
+  "zh": "它复杂得多，微妙得多。"
+ },
+ {
+  "seg": 241,
+  "start": 1083.762,
+  "end": 1087.629,
+  "speaker": "Unknown",
+  "en": "I think one of the things I think people don't realize is just how complicated DoorDash is.",
+  "zh": "我认为人们没有意识到的事情之一，就是 DoorDash 有多么复杂。"
+ },
+ {
+  "seg": 242,
+  "start": 1087.649,
+  "end": 1092.157,
+  "speaker": "Unknown",
+  "en": "I mean, we do over 3 billion deliveries a year.",
+  "zh": "我是说，我们一年做超过30亿单配送。"
+ },
+ {
+  "seg": 243,
+  "start": 1093.503,
+  "end": 1094.903,
+  "speaker": "Unknown",
+  "en": "There are no two deliveries that look the same.",
+  "zh": "没有两单配送是一样的。"
+ },
+ {
+  "seg": 244,
+  "start": 1094.983,
+  "end": 1096.904,
+  "speaker": "Unknown",
+  "en": "All three billion deliveries look different.",
+  "zh": "所有这30亿单配送看起来都不一样。"
+ },
+ {
+  "seg": 245,
+  "start": 1097.804,
+  "end": 1103.585,
+  "speaker": "Unknown",
+  "en": "And they all come in all sorts of shapes and sizes and different geographies.",
+  "zh": "而且它们以各种各样的形态和规模出现，分布在不同的地域。"
+ },
+ {
+  "seg": 246,
+  "start": 1103.605,
+  "end": 1115.208,
+  "speaker": "Unknown",
+  "en": "Like a delivery in downtown San Francisco is completely different than a delivery done in Dallas or even in Europe or in Helsinki where it's snowing or you're doing a...",
+  "zh": "比如在旧金山市中心的一单配送，就与在达拉斯、甚至在欧洲、在下着雪的赫尔辛基做的一单配送完全不同，或者你正在做一个……"
+ },
+ {
+  "seg": 247,
+  "start": 1116.348,
+  "end": 1118.089,
+  "speaker": "Unknown",
+  "en": "Pizza is very different than ice cream.",
+  "zh": "比萨和冰淇淋非常不同。"
+ },
+ {
+  "seg": 248,
+  "start": 1118.469,
+  "end": 1127.013,
+  "speaker": "Unknown",
+  "en": "Your dinner is very different than your grocery order, which is very different now that we're expanding to retail and pharmacy and parcels as well.",
+  "zh": "你的晚餐和你的杂货订单非常不同，而随着我们现在也扩展到零售、药房和包裹，它又非常不同了。"
+ },
+ {
+  "seg": 249,
+  "start": 1127.073,
+  "end": 1130.595,
+  "speaker": "Unknown",
+  "en": "It's like the diversity of deliveries that...",
+  "zh": "就是配送的多样性……"
+ },
+ {
+  "seg": 250,
+  "start": 1131.712,
+  "end": 1141.698,
+  "speaker": "Unknown",
+  "en": "happen at DoorDash is so complex that I think people sometimes don't realize just how nuanced the problem is.",
+  "zh": "在 DoorDash 发生的事情是如此复杂，以至于我觉得人们有时并没有意识到这个问题有多么微妙。"
+ },
+ {
+  "seg": 251,
+  "start": 1141.718,
+  "end": 1145.7,
+  "speaker": "Unknown",
+  "en": "And that's kind of what we have to solve for at DoorDash.",
+  "zh": "而这大概就是我们在 DoorDash 必须解决的问题。"
+ },
+ {
+  "seg": 252,
+  "start": 1145.72,
+  "end": 1155.006,
+  "speaker": "Unknown",
+  "en": "And I think that's part of the learning process, especially when it comes to building autonomy or even AI, is how do you manage through all that complexity?",
+  "zh": "而且我认为这是学习过程的一部分，尤其是在构建自主性甚至 AI 的时候，就是你要如何应对所有这些复杂性？"
+ },
+ {
+  "seg": 253,
+  "start": 1155.026,
+  "end": 1156.447,
+  "speaker": "Unknown",
+  "en": "And again, it always comes down to",
+  "zh": "再说一次，这总是归结为"
+ },
+ {
+  "seg": 254,
+  "start": 1158.441,
+  "end": 1159.762,
+  "speaker": "Unknown",
+  "en": "Do you understand the use case?",
+  "zh": "你是否理解这个用例？"
+ },
+ {
+  "seg": 255,
+  "start": 1159.902,
+  "end": 1165.307,
+  "speaker": "Unknown",
+  "en": "And I think we just have such a huge advantage over everyone else because we have something that everyone else doesn't have.",
+  "zh": "而且我认为我们比其他所有人都拥有巨大的优势，因为我们拥有一样别人没有的东西。"
+ },
+ {
+  "seg": 256,
+  "start": 1165.327,
+  "end": 1166.068,
+  "speaker": "Unknown",
+  "en": "It's called DoorDash.",
+  "zh": "它叫 DoorDash。"
+ },
+ {
+  "seg": 257,
+  "start": 1166.228,
+  "end": 1169.41,
+  "speaker": "Unknown",
+  "en": "We have 10 billion deliveries of data to extract from.",
+  "zh": "我们有 100 亿次配送的数据可供提取。"
+ },
+ {
+  "seg": 258,
+  "start": 1169.47,
+  "end": 1175.175,
+  "speaker": "Unknown",
+  "en": "We have all these consumers, over 40 million consumers running every single month.",
+  "zh": "我们有所有这些消费者，每个月有超过 4000 万消费者在使用。"
+ },
+ {
+  "seg": 259,
+  "start": 1175.195,
+  "end": 1178.879,
+  "speaker": "Unknown",
+  "en": "We understand the complexities of how to handle when things go wrong.",
+  "zh": "我们理解在事情出错时如何处理的复杂性。"
+ },
+ {
+  "seg": 260,
+  "start": 1179.319,
+  "end": 1182.18,
+  "speaker": "Unknown",
+  "en": "How to integrate all across all different types of merchants.",
+  "zh": "如何与所有不同类型的商户进行对接。"
+ },
+ {
+  "seg": 261,
+  "start": 1182.22,
+  "end": 1190.525,
+  "speaker": "Unknown",
+  "en": "Like the way you work with a McDonald's or Starbucks is very different than working with a mom and pop sandwich shop.",
+  "zh": "比如你与麦当劳或星巴克合作的方式，就与和一家夫妻三明治店合作非常不同。"
+ },
+ {
+  "seg": 262,
+  "start": 1190.685,
+  "end": 1196.748,
+  "speaker": "Unknown",
+  "en": "Like a drive-through restaurant is, again, it's very different than a restaurant at a strip mall or downtown Main Street.",
+  "zh": "比如一家得来速餐厅，再说一次，它和沿街商铺区里的餐厅或市中心主街上的餐厅是非常不同的。"
+ },
+ {
+  "seg": 263,
+  "start": 1197.028,
+  "end": 1199.969,
+  "speaker": "Unknown",
+  "en": "And how do you handle kind of those different use cases, right?",
+  "zh": "那你要如何处理那些不同的用例，对吧？"
+ },
+ {
+  "seg": 264,
+  "start": 1199.989,
+  "end": 1201.61,
+  "speaker": "Unknown",
+  "en": "Different interaction, different pickup points.",
+  "zh": "不同的交互，不同的取餐点。"
+ },
+ {
+  "seg": 265,
+  "start": 1202.431,
+  "end": 1204.972,
+  "speaker": "Unknown",
+  "en": "I don't know if there's anything you want to add on the AI side.",
+  "zh": "我不知道在 AI 方面你有没有什么想补充的。"
+ },
+ {
+  "seg": 266,
+  "start": 1205.152,
+  "end": 1216.757,
+  "speaker": "Unknown",
+  "en": "I mean, for me, kind of that analogy you brought up, I think about it in terms of the autonomy thing, but I also think about it in terms of how the humanoid robotics space is starting to play out potentially.",
+  "zh": "我的意思是，对我来说，你提到的那个类比，我会从自主性这个角度来思考，但我也会从人形机器人这个领域可能会如何展开的角度来思考。"
+ },
+ {
+  "seg": 267,
+  "start": 1216.777,
+  "end": 1229.062,
+  "speaker": "Unknown",
+  "en": "I mean, we also launched a product called Tasks a couple months ago where we're having people in the Dasher fleet help basically collect data points to help train some of these world models.",
+  "zh": "我的意思是，我们几个月前也推出了一个叫 Tasks 的产品，我们让 Dasher 车队里的人基本上帮忙收集数据点，以帮助训练一些这样的世界模型。"
+ },
+ {
+  "seg": 268,
+  "start": 1229.242,
+  "end": 1229.602,
+  "speaker": "Unknown",
+  "en": "And I think",
+  "zh": "而且我认为"
+ },
+ {
+  "seg": 269,
+  "start": 1230.846,
+  "end": 1241.653,
+  "speaker": "Unknown",
+  "en": "We're so early there and I think there's so many different form factors that you can use and there's like different opinions on like what type of model is gonna work versus not.",
+  "zh": "我们在那里还非常早期，我认为有很多不同的形态可以使用，而且对于什么类型的模型会有效、什么不会，也有很多不同的看法。"
+ },
+ {
+  "seg": 270,
+  "start": 1243.134,
+  "end": 1250.879,
+  "speaker": "Unknown",
+  "en": "But I think unlike something like ChatGPT, I think there's a lot of expense needed to invest in just like the V1 of this.",
+  "zh": "但我认为与 ChatGPT 这样的东西不同，我认为仅仅在 V1 上就需要投入大量费用。"
+ },
+ {
+  "seg": 271,
+  "start": 1251.359,
+  "end": 1257.023,
+  "speaker": "Unknown",
+  "en": "I guess ChatGPT costs a lot of money too but I think there's a lot of pressure though to figure out how do I actually provide value?",
+  "zh": "我想 ChatGPT 也花了很多钱，但我觉得还是有很多压力要去搞清楚，我到底要如何真正提供价值？"
+ },
+ {
+  "seg": 272,
+  "start": 1257.223,
+  "end": 1259.024,
+  "speaker": "Unknown",
+  "en": "Like I have to be better than",
+  "zh": "比如我必须比"
+ },
+ {
+  "seg": 273,
+  "start": 1260.045,
+  "end": 1261.145,
+  "speaker": "Unknown",
+  "en": "What people can do today.",
+  "zh": "人们今天所能做到的更好。"
+ },
+ {
+  "seg": 274,
+  "start": 1262.465,
+  "end": 1276.848,
+  "speaker": "Unknown",
+  "en": "And, you know, whether it's DOT and like delivering something end to end, or I mean, you probably invest in like a bunch of different players in this space, but like there's real pressure to like be better than the alternative from either a quality and or a cost perspective.",
+  "zh": "而且，你知道，无论是 DOT 还是端到端地配送东西，或者我是说，你可能投资了这个领域里的一堆不同玩家，但确实有真正的压力要比替代方案更好，无论是从质量还是成本的角度。"
+ },
+ {
+  "seg": 275,
+  "start": 1277.488,
+  "end": 1278.408,
+  "speaker": "Unknown",
+  "en": "So, yeah.",
+  "zh": "所以，是的。"
+ },
+ {
+  "seg": 276,
+  "start": 1278.428,
+  "end": 1278.508,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 277,
+  "start": 1278.528,
+  "end": 1279.269,
+  "speaker": "Unknown",
+  "en": "Otherwise, what are we doing?",
+  "zh": "否则，我们在做什么呢？"
+ },
+ {
+  "seg": 278,
+  "start": 1279.489,
+  "end": 1280.189,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 279,
+  "start": 1281.109,
+  "end": 1285.25,
+  "speaker": "Unknown",
+  "en": "So for those of us who aren't in Phoenix, like what is DoorDash DOT?",
+  "zh": "所以对于我们这些不在凤凰城的人来说，DoorDash DOT 是什么？"
+ },
+ {
+  "seg": 280,
+  "start": 1285.31,
+  "end": 1286.83,
+  "speaker": "Unknown",
+  "en": "And like, tell us about the design of it.",
+  "zh": "然后，给我们讲讲它的设计。"
+ },
+ {
+  "seg": 281,
+  "start": 1287.19,
+  "end": 1290.031,
+  "speaker": "Unknown",
+  "en": "Yeah, so DoorDash Dot, it's an autonomous delivery robot.",
+  "zh": "是的，DoorDash Dot 是一个自主配送机器人。"
+ },
+ {
+  "seg": 282,
+  "start": 1290.171,
+  "end": 1293.032,
+  "speaker": "Unknown",
+  "en": "It's built entirely in-house at DoorDash.",
+  "zh": "它完全是在 DoorDash 内部打造的。"
+ },
+ {
+  "seg": 283,
+  "start": 1293.192,
+  "end": 1297.713,
+  "speaker": "Unknown",
+  "en": "It weighs 300 pounds, travels up to 20 miles per hour.",
+  "zh": "它重 300 磅，速度可达每小时 20 英里。"
+ },
+ {
+  "seg": 284,
+  "start": 1297.953,
+  "end": 1300.634,
+  "speaker": "Unknown",
+  "en": "It's one tenth the size of a car.",
+  "zh": "它是汽车大小的十分之一。"
+ },
+ {
+  "seg": 285,
+  "start": 1300.974,
+  "end": 1305.796,
+  "speaker": "Unknown",
+  "en": "It's the only delivery robot out there that's designed to travel not just on",
+  "zh": "它是市面上唯一被设计成不只是在"
+ },
+ {
+  "seg": 286,
+  "start": 1307.13,
+  "end": 1312.973,
+  "speaker": "Unknown",
+  "en": "Sidewalks, but also go on bike lanes and on the road as well.",
+  "zh": "人行道上行驶、还能上自行车道和道路上行驶的配送机器人。"
+ },
+ {
+  "seg": 287,
+  "start": 1313.233,
+  "end": 1314.114,
+  "speaker": "Unknown",
+  "en": "It's live in Phoenix.",
+  "zh": "它已经在凤凰城上线。"
+ },
+ {
+  "seg": 288,
+  "start": 1314.134,
+  "end": 1317.756,
+  "speaker": "Unknown",
+  "en": "We've been live doing deliveries for almost two years now.",
+  "zh": "我们已经上线做配送差不多两年了。"
+ },
+ {
+  "seg": 289,
+  "start": 1319.117,
+  "end": 1322.398,
+  "speaker": "Unknown",
+  "en": "It's fully autonomous L4.",
+  "zh": "它是完全自主的 L4。"
+ },
+ {
+  "seg": 290,
+  "start": 1322.679,
+  "end": 1327.701,
+  "speaker": "Unknown",
+  "en": "If you come up to Phoenix, to Tempe, it really feels like Waymo San Francisco.",
+  "zh": "如果你来到凤凰城，来到坦佩(Tempe),感觉真的就像旧金山的 Waymo。"
+ },
+ {
+  "seg": 291,
+  "start": 1328.262,
+  "end": 1331.343,
+  "speaker": "Unknown",
+  "en": "I'm going to state something and see if this is like a correct or you agree.",
+  "zh": "我要说一个东西，看看这是否正确，或者你是否同意。"
+ },
+ {
+  "seg": 292,
+  "start": 1333.205,
+  "end": 1343.414,
+  "speaker": "Unknown",
+  "en": "Even beyond understanding the wealth of use cases, like you need to know what the distribution of environments you're going to be playing in is in robotics.",
+  "zh": "甚至在理解大量用例之外，你还需要知道在机器人领域里，你将要运行的环境的分布是什么样的。"
+ },
+ {
+  "seg": 293,
+  "start": 1343.654,
+  "end": 1353.763,
+  "speaker": "Unknown",
+  "en": "This is a huge problem for everybody where like it's not, I think most people familiar with the area understand that it's not that hard to get a cherry pick demo of like one cool.",
+  "zh": "这对所有人来说都是个大问题，就是它并不是……我想大多数熟悉这个领域的人都明白，搞一个精心挑选的、比如「一个很酷的……」的演示并不那么难。"
+ },
+ {
+  "seg": 294,
+  "start": 1354.223,
+  "end": 1355.604,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 295,
+  "start": 1356.124,
+  "end": 1361.226,
+  "speaker": "Unknown",
+  "en": "The problem is getting it to work on any object or in any environment.",
+  "zh": "问题在于让它能在任何物体上或任何环境中工作。"
+ },
+ {
+  "seg": 296,
+  "start": 1361.466,
+  "end": 1368.829,
+  "speaker": "Unknown",
+  "en": "And so there's this huge question in the industry of like, okay, how are we going to go get data that feels like realistic data?",
+  "zh": "所以行业里有一个巨大的问题，就是，好吧，我们要怎么去获取感觉像是真实数据的数据？"
+ },
+ {
+  "seg": 297,
+  "start": 1368.849,
+  "end": 1371.89,
+  "speaker": "Unknown",
+  "en": "And the best realistic data is the real world data.",
+  "zh": "而最好的真实感数据就是真实世界的数据。"
+ },
+ {
+  "seg": 298,
+  "start": 1372.21,
+  "end": 1381.255,
+  "speaker": "Unknown",
+  "en": "Actually, and so I think that's like a really interesting premise of like why you might have the right to go do this besides you want to do it for the quality of your business.",
+  "zh": "实际上，所以我认为这是一个非常有趣的前提，就是为什么你可能有资格去做这件事，除了你是为了自己业务的质量而想做它之外。"
+ },
+ {
+  "seg": 299,
+  "start": 1381.355,
+  "end": 1382.836,
+  "speaker": "Unknown",
+  "en": "Yeah, no, exactly.",
+  "zh": "是啊，是的，完全正确。"
+ },
+ {
+  "seg": 300,
+  "start": 1382.856,
+  "end": 1392.662,
+  "speaker": "Unknown",
+  "en": "And I think that's, again, that's also where DoorDash gets to shine with our advantage is we don't necessarily have to solve for 100% of our use cases.",
+  "zh": "我认为,再说一次,这也是 DoorDash 能凭我们的优势大放异彩的地方,就是我们不一定非要解决 100% 的用例。"
+ },
+ {
+  "seg": 301,
+  "start": 1392.802,
+  "end": 1394.243,
+  "speaker": "Unknown",
+  "en": "I mean, that's also part of our...",
+  "zh": "我是说,这也是我们……的一部分。"
+ },
+ {
+  "seg": 302,
+  "start": 1394.823,
+  "end": 1407.93,
+  "speaker": "Unknown",
+  "en": "Again, that was part of the learning with our kind of the kind of the first early years when when we did the partnerships for how we built our autonomous delivery platform was understanding what kind of deliveries fits into what modality.",
+  "zh": "再说一次,那是我们最初头几年学到的一部分,当时我们为构建自主配送平台而做的合作,就是要理解什么样的配送适合什么样的模态。"
+ },
+ {
+  "seg": 303,
+  "start": 1408.971,
+  "end": 1411.152,
+  "speaker": "Unknown",
+  "en": "And and I think the vision was always",
+  "zh": "而且我认为这个愿景一直是"
+ },
+ {
+  "seg": 304,
+  "start": 1411.972,
+  "end": 1427.804,
+  "speaker": "Unknown",
+  "en": "Was always, let's not design something to solve for everything, but instead kind of, let's go with a, how do you come up with a multimodal strategy where perhaps you have DoorDash Dot do kind of the three to five mile suburban deliveries from a strip mall.",
+  "zh": "一直是,我们不要设计一个能解决所有问题的东西,而是,你怎么提出一个多模态策略,比如让 DoorDash Dot 来做从带状购物中心出发的三到五英里郊区配送。"
+ },
+ {
+  "seg": 305,
+  "start": 1427.824,
+  "end": 1430.466,
+  "speaker": "Unknown",
+  "en": "So right now we're live in Phoenix.",
+  "zh": "所以现在我们已经在凤凰城上线了。"
+ },
+ {
+  "seg": 306,
+  "start": 1430.486,
+  "end": 1433.148,
+  "speaker": "Unknown",
+  "en": "That's kind of our starting point with Dot.",
+  "zh": "那差不多是我们做 Dot 的起点。"
+ },
+ {
+  "seg": 307,
+  "start": 1433.408,
+  "end": 1435.21,
+  "speaker": "Unknown",
+  "en": "That's kind of the perfect market for Dot, right?",
+  "zh": "那对 Dot 来说差不多是完美的市场,对吧?"
+ },
+ {
+  "seg": 308,
+  "start": 1435.23,
+  "end": 1439.213,
+  "speaker": "Unknown",
+  "en": "These then suburbs, yet things are still far, far apart enough.",
+  "zh": "这些郊区,但各处之间仍然相距足够远。"
+ },
+ {
+  "seg": 309,
+  "start": 1440.473,
+  "end": 1450.455,
+  "speaker": "Unknown",
+  "en": "Maybe if it's a rural area where there's poor road infrastructure, maybe you send into lightweight order, maybe you send a drone delivery for that.",
+  "zh": "如果是道路基础设施差的农村地区,也许你会派送一个轻量订单,也许你为此派一架无人机配送。"
+ },
+ {
+  "seg": 310,
+  "start": 1450.635,
+  "end": 1459.437,
+  "speaker": "Unknown",
+  "en": "If it's a complicated multi-step grocery order where you have to climb, go up and down stairs and pick and pack orders, you're still gonna have a dasher for that.",
+  "zh": "如果是一个复杂的多步骤杂货订单,你需要爬上爬下楼梯、挑选和打包订单,那你还是需要一个 dasher 来做。"
+ },
+ {
+  "seg": 311,
+  "start": 1460.018,
+  "end": 1466.639,
+  "speaker": "Unknown",
+  "en": "And I think that's the nice thing about DoorDash is you can kind of, you don't have to, it's not an all or nothing approach.",
+  "zh": "而且我认为这就是 DoorDash 的好处,你可以……你不必……这不是一个全有或全无的方法。"
+ },
+ {
+  "seg": 312,
+  "start": 1466.659,
+  "end": 1469.84,
+  "speaker": "Unknown",
+  "en": "You can kind of phase in these modalities.",
+  "zh": "你可以逐步引入这些模态。"
+ },
+ {
+  "seg": 313,
+  "start": 1470.6,
+  "end": 1474.865,
+  "speaker": "Unknown",
+  "en": "over time and pick and choose what the right... Again, it's about the use case.",
+  "zh": "随着时间推移,并挑选出合适的……再说一次,关键是用例。"
+ },
+ {
+  "seg": 314,
+  "start": 1474.885,
+  "end": 1482.314,
+  "speaker": "Unknown",
+  "en": "What are the right use cases to solve for... What are the right modalities to fit into for each of the use cases?",
+  "zh": "什么是要解决的正确用例……对每个用例来说,什么是要适配的正确模态?"
+ },
+ {
+  "seg": 315,
+  "start": 1482.394,
+  "end": 1484.536,
+  "speaker": "Unknown",
+  "en": "Are there certain deliveries to carve out?",
+  "zh": "是否有某些配送要划分出来?"
+ },
+ {
+  "seg": 316,
+  "start": 1484.857,
+  "end": 1487.159,
+  "speaker": "Unknown",
+  "en": "That makes a lot of sense for robotics versus humans.",
+  "zh": "这对于机器人相对于人类来说非常有意义。"
+ },
+ {
+  "seg": 317,
+  "start": 1487.98,
+  "end": 1488.681,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 318,
+  "start": 1488.781,
+  "end": 1495.265,
+  "speaker": "Unknown",
+  "en": "I also think that's really cool that you have control over the routing and the distribution where you're like, I can accomplish this task.",
+  "zh": "我还觉得这很酷的一点是,你们控制着路由和分配,你可以说,我能完成这个任务。"
+ },
+ {
+  "seg": 319,
+  "start": 1495.285,
+  "end": 1495.885,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 320,
+  "start": 1495.965,
+  "end": 1499.328,
+  "speaker": "Unknown",
+  "en": "And then from the consumer side and the merchant side, it's like the exact same experience.",
+  "zh": "然后从消费者端和商家端来看,体验完全一样。"
+ },
+ {
+  "seg": 321,
+  "start": 1499.388,
+  "end": 1503.691,
+  "speaker": "Unknown",
+  "en": "It's still the same app for the customer that you can access everything.",
+  "zh": "对顾客来说仍然是同一个应用,你可以访问一切。"
+ },
+ {
+  "seg": 322,
+  "start": 1503.711,
+  "end": 1505.512,
+  "speaker": "Unknown",
+  "en": "And then for the merchant, it's just one integration.",
+  "zh": "对商家来说,只需要一次集成。"
+ },
+ {
+  "seg": 323,
+  "start": 1505.532,
+  "end": 1507.954,
+  "speaker": "Unknown",
+  "en": "You already integrated DoorDash.",
+  "zh": "你已经集成了 DoorDash。"
+ },
+ {
+  "seg": 324,
+  "start": 1508.014,
+  "end": 1509.635,
+  "speaker": "Unknown",
+  "en": "All of a sudden, you get not just...",
+  "zh": "突然之间,你得到的不只是……"
+ },
+ {
+  "seg": 325,
+  "start": 1510.235,
+  "end": 1519.801,
+  "speaker": "Unknown",
+  "en": "Dashers, but you get drones, you get autonomy, you get access to all the AI tools and products that are going to ship.",
+  "zh": "Dashers,还有无人机、自主配送,以及所有即将发布的 AI 工具和产品的访问权限。"
+ },
+ {
+  "seg": 326,
+  "start": 1519.861,
+  "end": 1525.865,
+  "speaker": "Unknown",
+  "en": "And I think, again, that is what ultimately DoorDash is building.",
+  "zh": "而且我认为,再说一次,这最终就是 DoorDash 正在构建的东西。"
+ },
+ {
+  "seg": 327,
+  "start": 1525.965,
+  "end": 1529.867,
+  "speaker": "Unknown",
+  "en": "It's really that ecosystem for local commerce.",
+  "zh": "这真的就是本地商业的那个生态系统。"
+ },
+ {
+  "seg": 328,
+  "start": 1529.887,
+  "end": 1531.769,
+  "speaker": "Unknown",
+  "en": "And I think that is something that is...",
+  "zh": "而且我认为这是某种……"
+ },
+ {
+  "seg": 329,
+  "start": 1533.89,
+  "end": 1535.712,
+  "speaker": "Unknown",
+  "en": "It's really hard to replicate.",
+  "zh": "这真的很难复制。"
+ },
+ {
+  "seg": 330,
+  "start": 1535.973,
+  "end": 1545.666,
+  "speaker": "Unknown",
+  "en": "And I think it's trying to do that in the real world across 40, 50 plus countries and all these different merchants.",
+  "zh": "而且我认为,要在现实世界中、横跨 40、50 多个国家以及这么多不同的商家来做到这一点。"
+ },
+ {
+  "seg": 331,
+  "start": 1545.746,
+  "end": 1547.428,
+  "speaker": "Unknown",
+  "en": "That's the hard part about the business.",
+  "zh": "这就是这个生意难的地方。"
+ },
+ {
+  "seg": 332,
+  "start": 1547.888,
+  "end": 1549.891,
+  "speaker": "Unknown",
+  "en": "Asking for a friend, question of how you got here.",
+  "zh": "替朋友问一下,你是怎么走到这里的。"
+ },
+ {
+  "seg": 333,
+  "start": 1551.638,
+  "end": 1566.451,
+  "speaker": "Unknown",
+  "en": "There is an insufficient supply of researchers and people who know how to work on robotics or applied AI in the ecosystem for the recognition of all the different cool use cases you go after.",
+  "zh": "在生态系统中,研究者和懂得如何做机器人或应用 AI 的人才供给不足,难以认识到你们所追求的所有这些不同的酷用例。"
+ },
+ {
+  "seg": 334,
+  "start": 1566.471,
+  "end": 1572.135,
+  "speaker": "Unknown",
+  "en": "And a lot of people gravitate toward like the general case, like we can solve it once.",
+  "zh": "而且很多人倾向于通用情形,比如“我们可以一次解决”。"
+ },
+ {
+  "seg": 335,
+  "start": 1572.155,
+  "end": 1575.158,
+  "speaker": "Unknown",
+  "en": "I assume you're competing for some of those people.",
+  "zh": "我猜你们也在争夺其中一些人。"
+ },
+ {
+  "seg": 336,
+  "start": 1575.939,
+  "end": 1578.561,
+  "speaker": "Unknown",
+  "en": "How do you convince people to work at DoorDash on these problems?",
+  "zh": "你怎么说服人们来 DoorDash 做这些问题?"
+ },
+ {
+  "seg": 337,
+  "start": 1578.781,
+  "end": 1579.061,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 338,
+  "start": 1579.401,
+  "end": 1581.042,
+  "speaker": "Unknown",
+  "en": "My pitch is really simple.",
+  "zh": "我的说法真的很简单。"
+ },
+ {
+  "seg": 339,
+  "start": 1581.122,
+  "end": 1590.925,
+  "speaker": "Unknown",
+  "en": "It's basically like, do you want to go work on prototypes and demos and be at a PhD lab?",
+  "zh": "基本上就是,你是想去研究原型和演示、待在一个博士实验室里?"
+ },
+ {
+  "seg": 340,
+  "start": 1591.065,
+  "end": 1595.986,
+  "speaker": "Unknown",
+  "en": "Or do you want to work on something where you can actually ship something in the real world?",
+  "zh": "还是想做一件你能真正在现实世界中发布东西的事?"
+ },
+ {
+  "seg": 341,
+  "start": 1596.986,
+  "end": 1598.247,
+  "speaker": "Unknown",
+  "en": "And I think that's kind of...",
+  "zh": "而且我认为这差不多是……"
+ },
+ {
+  "seg": 342,
+  "start": 1599.007,
+  "end": 1599.327,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 343,
+  "start": 1599.387,
+  "end": 1609.789,
+  "speaker": "Unknown",
+  "en": "I think, I think, I think that's kind of really been the culture we kind of set up, you know, both at DoorDash Labs and all the AI efforts is, is like, this is, we're not just here to do pure research.",
+  "zh": "我想,我想,我认为这真的差不多就是我们建立的文化,你知道,无论是在 DoorDash Labs 还是所有 AI 工作中,就是,这个,我们不只是来这里做纯研究的。"
+ },
+ {
+  "seg": 344,
+  "start": 1609.809,
+  "end": 1613.83,
+  "speaker": "Unknown",
+  "en": "Like at the end of the day, like you, we get to ship something where you have real impact.",
+  "zh": "说到底,就像你,我们能够发布一些有真实影响的东西。"
+ },
+ {
+  "seg": 345,
+  "start": 1613.95,
+  "end": 1623.992,
+  "speaker": "Unknown",
+  "en": "And I think people, especially in the autonomy world for the past 10 years, were just fed up, just working on something for 10 years and never actually getting to a point where",
+  "zh": "而且我认为人们,尤其是过去 10 年里在自主技术领域的人,简直受够了,只做一件事做了 10 年,却从来没有真正达到一个"
+ },
+ {
+  "seg": 346,
+  "start": 1625.1,
+  "end": 1627.403,
+  "speaker": "Unknown",
+  "en": "They actually saw their products being used in the real world.",
+  "zh": "他们真正看到自己产品在现实世界中被使用的地步。"
+ },
+ {
+  "seg": 347,
+  "start": 1627.523,
+  "end": 1637.053,
+  "speaker": "Unknown",
+  "en": "And I think for us, because we've always been much more focused on creating, taking this much more pragmatic, practical approach.",
+  "zh": "而且我认为对我们来说,因为我们一直更专注于创造、采取这种更加务实、实用的方法。"
+ },
+ {
+  "seg": 348,
+  "start": 1637.073,
+  "end": 1638.835,
+  "speaker": "Unknown",
+  "en": "We're not here necessarily to do...",
+  "zh": "我们来这里不一定是为了……"
+ },
+ {
+  "seg": 349,
+  "start": 1639.997,
+  "end": 1642.7,
+  "speaker": "Unknown",
+  "en": "It's not about, oh, let's go work on a crazy moonshot idea.",
+  "zh": "这不是关于,哦,让我们去做一个疯狂的登月式想法。"
+ },
+ {
+  "seg": 350,
+  "start": 1642.72,
+  "end": 1644.121,
+  "speaker": "Unknown",
+  "en": "It's like, let's get something out.",
+  "zh": "就是,让我们先拿出点东西来。"
+ },
+ {
+  "seg": 351,
+  "start": 1644.762,
+  "end": 1652.467,
+  "speaker": "Unknown",
+  "en": "that can be shipped in the real world and actually start learning how these technologies interact with the physical world and start iterating.",
+  "zh": "能在真实世界中交付的东西,真正开始学习这些技术如何与物理世界互动,并开始迭代。"
+ },
+ {
+  "seg": 352,
+  "start": 1652.527,
+  "end": 1656.67,
+  "speaker": "Unknown",
+  "en": "Because again, technology, these things aren't built in a vacuum.",
+  "zh": "因为再说一次,技术,这些东西不是在真空中被构建出来的。"
+ },
+ {
+  "seg": 353,
+  "start": 1656.69,
+  "end": 1659.792,
+  "speaker": "Unknown",
+  "en": "You have to put something out in the real world, make contact with the real world.",
+  "zh": "你必须把东西放到真实世界中,与真实世界接触。"
+ },
+ {
+  "seg": 354,
+  "start": 1661.634,
+  "end": 1663.315,
+  "speaker": "Unknown",
+  "en": "And actually learn from that.",
+  "zh": "并真正从中学习。"
+ },
+ {
+  "seg": 355,
+  "start": 1663.335,
+  "end": 1668.32,
+  "speaker": "Unknown",
+  "en": "I think that's... We did that pretty early on for DoorDash Data.",
+  "zh": "我觉得那是……我们很早就为 DoorDash Data 这么做了。"
+ },
+ {
+  "seg": 356,
+  "start": 1668.38,
+  "end": 1670.682,
+  "speaker": "Unknown",
+  "en": "Actually, again, I don't think a lot of people know.",
+  "zh": "实际上,再说一次,我觉得很多人不知道。"
+ },
+ {
+  "seg": 357,
+  "start": 1670.702,
+  "end": 1675.085,
+  "speaker": "Unknown",
+  "en": "We've actually been doing autonomous deliveries in Phoenix for over two years now.",
+  "zh": "我们实际上已经在凤凰城做自主配送两年多了。"
+ },
+ {
+  "seg": 358,
+  "start": 1675.226,
+  "end": 1679.209,
+  "speaker": "Unknown",
+  "en": "I mean, we publicly announced last year that we've been doing that for over two years.",
+  "zh": "我是说,我们去年公开宣布了我们做这件事已经超过两年。"
+ },
+ {
+  "seg": 359,
+  "start": 1679.249,
+  "end": 1681.972,
+  "speaker": "Unknown",
+  "en": "But really, in the beginning, it was just learning like, okay, like...",
+  "zh": "但实际上,一开始,只是在学习,比如,好吧,比如……"
+ },
+ {
+  "seg": 360,
+  "start": 1682.512,
+  "end": 1689.114,
+  "speaker": "Unknown",
+  "en": "Again, like I think you mentioned earlier, it's one thing to just do a fancy demo or have something that works in a one-off environment.",
+  "zh": "再说一次,就像你之前提到的,做一个花哨的演示或者有东西能在一次性环境中运行是一回事。"
+ },
+ {
+  "seg": 361,
+  "start": 1689.814,
+  "end": 1697.656,
+  "speaker": "Unknown",
+  "en": "It's entirely different to now, okay, how do you turn this into an actual scaled fleet, a scaled service, a scaled business?",
+  "zh": "现在就完全不同了,好,你怎么把它变成一个真正规模化的车队、规模化的服务、规模化的业务?"
+ },
+ {
+  "seg": 362,
+  "start": 1698.216,
+  "end": 1702.677,
+  "speaker": "Unknown",
+  "en": "I mean, the thing I always mention, talk about a lot is building autonomy.",
+  "zh": "我是说,我经常提到、经常谈论的事情是构建自主性。"
+ },
+ {
+  "seg": 363,
+  "start": 1704.438,
+  "end": 1706.1,
+  "speaker": "Unknown",
+  "en": "Business takes more than just autonomy.",
+  "zh": "业务需要的不只是自主性。"
+ },
+ {
+  "seg": 364,
+  "start": 1706.22,
+  "end": 1710.783,
+  "speaker": "Unknown",
+  "en": "It's like, how do you actually scale something in the real world, scale fleets?",
+  "zh": "就像,你怎么在真实世界中真正规模化某样东西,规模化车队?"
+ },
+ {
+  "seg": 365,
+  "start": 1711.444,
+  "end": 1714.366,
+  "speaker": "Unknown",
+  "en": "All of a sudden you're running into all these edge cases, right?",
+  "zh": "突然之间你就会遇到所有这些边缘情况,对吧?"
+ },
+ {
+  "seg": 366,
+  "start": 1714.386,
+  "end": 1715.227,
+  "speaker": "Unknown",
+  "en": "You just don't see it.",
+  "zh": "你根本看不到它们。"
+ },
+ {
+  "seg": 367,
+  "start": 1715.247,
+  "end": 1723.553,
+  "speaker": "Unknown",
+  "en": "And when you have to do something seven days a week or 10 hours a day, seven days a week at scale, things start breaking, right?",
+  "zh": "当你必须一周 7 天、或者每天 10 小时、一周 7 天规模化地做某件事时,东西就开始出问题了,对吧?"
+ },
+ {
+  "seg": 368,
+  "start": 1723.573,
+  "end": 1726.355,
+  "speaker": "Unknown",
+  "en": "Like it could be something as simple as, I don't know, like...",
+  "zh": "比如可能简单到,我不知道,比如……"
+ },
+ {
+  "seg": 369,
+  "start": 1727.416,
+  "end": 1733.778,
+  "speaker": "Unknown",
+  "en": "Like a dirt covering one of your camera sensors, okay, like how robust is your autonomy stack able to handle that?",
+  "zh": "比如一块污垢盖住了你其中一个摄像头传感器,好,比如你的自主性栈有多强的鲁棒性去处理那种情况?"
+ },
+ {
+  "seg": 370,
+  "start": 1733.798,
+  "end": 1742.902,
+  "speaker": "Unknown",
+  "en": "Like there's some leaves on the ground, but it only covers kind of, because again, our dot drives on the road, but it tries to act like a bike.",
+  "zh": "比如地上有一些落叶,但它只覆盖了部分,因为再说一次,我们的 dot 在道路上行驶,但它试着表现得像一辆自行车。"
+ },
+ {
+  "seg": 371,
+  "start": 1742.982,
+  "end": 1745.363,
+  "speaker": "Unknown",
+  "en": "So it will take the kind of the right side of the road or...",
+  "zh": "所以它会走道路的右侧那种地方,或者……"
+ },
+ {
+  "seg": 372,
+  "start": 1746.223,
+  "end": 1759.196,
+  "speaker": "Unknown",
+  "en": "The bike lane and if there's kind of leaves located along where the sidewalks are, maybe half your wheels, the right two wheels are on the leaves, the left two wheels are still on the asphalt.",
+  "zh": "自行车道,而如果有落叶恰好位于人行道旁边,也许你一半的轮子,右边两个轮子在落叶上,左边两个轮子还在沥青上。"
+ },
+ {
+  "seg": 373,
+  "start": 1759.456,
+  "end": 1759.656,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 374,
+  "start": 1760.237,
+  "end": 1767.424,
+  "speaker": "Unknown",
+  "en": "Well, all of a sudden the torque you have to send to the wheels is like very different and your autonomy stack and your kind of your...",
+  "zh": "好吧,突然之间你必须传给车轮的扭矩就变得非常不同,而你的自主性栈和你的那种……"
+ },
+ {
+  "seg": 375,
+  "start": 1769.846,
+  "end": 1776.45,
+  "speaker": "Unknown",
+  "en": "Kind of your middleware and your low-level controls has to handle that differently.",
+  "zh": "那种你的中间件和你的底层控制就必须以不同的方式处理它。"
+ },
+ {
+  "seg": 376,
+  "start": 1776.55,
+  "end": 1782.494,
+  "speaker": "Unknown",
+  "en": "That's something I would have never thought of if it was just like driving in a nice little demo environment.",
+  "zh": "如果只是在漂亮的小型演示环境里行驶,这是我绝不会想到的事情。"
+ },
+ {
+  "seg": 377,
+  "start": 1782.934,
+  "end": 1784.195,
+  "speaker": "Unknown",
+  "en": "It's like things just start breaking.",
+  "zh": "就是东西开始出问题。"
+ },
+ {
+  "seg": 378,
+  "start": 1784.215,
+  "end": 1785.516,
+  "speaker": "Unknown",
+  "en": "How do you handle operations?",
+  "zh": "你怎么处理运营?"
+ },
+ {
+  "seg": 379,
+  "start": 1785.536,
+  "end": 1789.818,
+  "speaker": "Unknown",
+  "en": "People don't think about actually, in order to scale autonomy, there's a lot of non-autonomy or operations.",
+  "zh": "人们不去想,实际上,为了规模化自主性,有很多非自主性或者运营的事情。"
+ },
+ {
+  "seg": 380,
+  "start": 1789.838,
+  "end": 1790.959,
+  "speaker": "Unknown",
+  "en": "You have to set up depots.",
+  "zh": "你必须建立配送站。"
+ },
+ {
+  "seg": 381,
+  "start": 1791.339,
+  "end": 1792.62,
+  "speaker": "Unknown",
+  "en": "Again, it's a physical world business.",
+  "zh": "再说一次,这是一个物理世界的业务。"
+ },
+ {
+  "seg": 382,
+  "start": 1792.64,
+  "end": 1794.161,
+  "speaker": "Unknown",
+  "en": "You have to set up depots, maintenance.",
+  "zh": "你必须建立配送站、维护。"
+ },
+ {
+  "seg": 383,
+  "start": 1794.681,
+  "end": 1797.803,
+  "speaker": "Unknown",
+  "en": "What if your battery... How do you recharge your battery?",
+  "zh": "如果你的电池……你怎么给你的电池充电?"
+ },
+ {
+  "seg": 384,
+  "start": 1798.403,
+  "end": 1799.284,
+  "speaker": "Unknown",
+  "en": "What if one of your...",
+  "zh": "如果你的某个……"
+ },
+ {
+  "seg": 385,
+  "start": 1799.684,
+  "end": 1808.615,
+  "speaker": "Unknown",
+  "en": "braking system kind of like over you have to kind of like here here is an issue we ran into.",
+  "zh": "刹车系统之类的超……你得之类的……这里这里就是我们遇到的一个问题。"
+ },
+ {
+  "seg": 386,
+  "start": 1808.655,
+  "end": 1815.824,
+  "speaker": "Unknown",
+  "en": "It's like it's like there are certain situations where the vehicle has to brake so hard that it kind of the regen braking system.",
+  "zh": "就像是就像是有些情况下车辆必须刹车刹得那么猛,以至于那种再生制动系统。"
+ },
+ {
+  "seg": 387,
+  "start": 1816.545,
+  "end": 1820.506,
+  "speaker": "Unknown",
+  "en": "Overpowers the battery because it causes this electric shock.",
+  "zh": "压过电池,因为它会造成这种电冲击。"
+ },
+ {
+  "seg": 388,
+  "start": 1820.566,
+  "end": 1829.968,
+  "speaker": "Unknown",
+  "en": "Again, it only happens in extreme edge cases, but there are certain situations where you have to do that because it's something in the real world.",
+  "zh": "再说一次,它只发生在极端边缘情况下,但有些情况下你必须这么做,因为这就是真实世界中的事情。"
+ },
+ {
+  "seg": 389,
+  "start": 1830.008,
+  "end": 1832.309,
+  "speaker": "Unknown",
+  "en": "Safety is something that's super important.",
+  "zh": "安全是超级重要的东西。"
+ },
+ {
+  "seg": 390,
+  "start": 1832.329,
+  "end": 1836.33,
+  "speaker": "Unknown",
+  "en": "So if it can't handle that, you gotta figure that out.",
+  "zh": "所以如果它处理不了那个,你就得想办法解决。"
+ },
+ {
+  "seg": 391,
+  "start": 1836.43,
+  "end": 1841.331,
+  "speaker": "Unknown",
+  "en": "Another example we didn't think about is booting up the robots.",
+  "zh": "我们没想到的另一个例子是启动机器人。"
+ },
+ {
+  "seg": 392,
+  "start": 1841.351,
+  "end": 1844.892,
+  "speaker": "Unknown",
+  "en": "When this was still a demo project, no one thought about, oh,",
+  "zh": "当这还是一个演示项目的时候,没有人想过,哦,"
+ },
+ {
+  "seg": 393,
+  "start": 1845.372,
+  "end": 1845.932,
+  "speaker": "Unknown",
+  "en": "boot up time.",
+  "zh": "启动时间。"
+ },
+ {
+  "seg": 394,
+  "start": 1846.573,
+  "end": 1857.299,
+  "speaker": "Unknown",
+  "en": "So it's literally the original version of the robot boot up was a kind of a simple Jenkins script that one of our engineers hacked together in like a couple hours.",
+  "zh": "所以说真的,机器人启动的原始版本就是一个挺简单的 Jenkins 脚本,是我们的一位工程师花大概几个小时匆忙拼凑出来的。"
+ },
+ {
+  "seg": 395,
+  "start": 1857.779,
+  "end": 1859.781,
+  "speaker": "Unknown",
+  "en": "And then, which worked fine.",
+  "zh": "然后,那个运行得挺好。"
+ },
+ {
+  "seg": 396,
+  "start": 1859.881,
+  "end": 1865.964,
+  "speaker": "Unknown",
+  "en": "But then now you're doing like hundreds of robots a day every morning, needs to get booted up.",
+  "zh": "但现在你每天早上要处理上百个机器人,它们需要被启动。"
+ },
+ {
+  "seg": 397,
+  "start": 1866.404,
+  "end": 1866.945,
+  "speaker": "Unknown",
+  "en": "And the script...",
+  "zh": "而这个脚本……"
+ },
+ {
+  "seg": 398,
+  "start": 1867.405,
+  "end": 1869.207,
+  "speaker": "Unknown",
+  "en": "You know, like crashes half the time.",
+  "zh": "你知道,比如有一半时间会崩溃。"
+ },
+ {
+  "seg": 399,
+  "start": 1869.247,
+  "end": 1874.332,
+  "speaker": "Unknown",
+  "en": "It takes like 30, 45 minutes, but to multiply across 500 robots, all of a sudden it's like, holy crap.",
+  "zh": "它要花大概 30、45 分钟,但乘到 500 个机器人上,突然之间就是,天哪。"
+ },
+ {
+  "seg": 400,
+  "start": 1874.352,
+  "end": 1877.055,
+  "speaker": "Unknown",
+  "en": "It's like, it's like, there's this huge productivity.",
+  "zh": "就是说，就是说，有这么巨大的生产力。"
+ },
+ {
+  "seg": 401,
+  "start": 1877.615,
+  "end": 1879.457,
+  "speaker": "Unknown",
+  "en": "It becomes this huge productivity issue.",
+  "zh": "它变成了一个巨大的生产力问题。"
+ },
+ {
+  "seg": 402,
+  "start": 1880.198,
+  "end": 1885.423,
+  "speaker": "Unknown",
+  "en": "Um, and, and then, and then of course it's like, how do you think through like reliability, uh,",
+  "zh": "呃，然后，然后当然就是，你怎么去思考可靠性这个问题，呃，"
+ },
+ {
+  "seg": 403,
+  "start": 1886.824,
+  "end": 1895.811,
+  "speaker": "Unknown",
+  "en": "Now you have to start thinking on manufacturing, supply chain, and of course, the operational aspect of actually how does this thing integrate with merchants?",
+  "zh": "现在你得开始考虑制造、供应链，当然还有运营层面，就是这东西到底怎么和商家整合？"
+ },
+ {
+  "seg": 404,
+  "start": 1896.572,
+  "end": 1898.953,
+  "speaker": "Unknown",
+  "en": "How do you do the pickup drop-off problem?",
+  "zh": "你怎么解决取件和投递的问题？"
+ },
+ {
+  "seg": 405,
+  "start": 1898.973,
+  "end": 1900.194,
+  "speaker": "Unknown",
+  "en": "How do you educate the merchants?",
+  "zh": "你怎么教育商家？"
+ },
+ {
+  "seg": 406,
+  "start": 1901.395,
+  "end": 1905.018,
+  "speaker": "Unknown",
+  "en": "How do you even find the pin, the location of a customer's home?",
+  "zh": "你甚至怎么找到那个定位点，也就是顾客家的位置？"
+ },
+ {
+  "seg": 407,
+  "start": 1906.119,
+  "end": 1915.006,
+  "speaker": "Unknown",
+  "en": "Which again, sounds kind of silly, but when you punch in someone's address on Google Maps, like the GPS pin, it's like, especially if you're going to an apartment complex, it's never kind of...",
+  "zh": "这话说起来有点傻，但当你在 Google Maps 上输入某人的地址时，比如那个 GPS 定位点，尤其是你要去一个公寓小区的时候，它从来都不太……"
+ },
+ {
+  "seg": 408,
+  "start": 1915.686,
+  "end": 1918.167,
+  "speaker": "Unknown",
+  "en": "I mean, I mean, it's not like always the exact same spot.",
+  "zh": "我是说，我是说，它并不总是同一个确切的位置。"
+ },
+ {
+  "seg": 409,
+  "start": 1918.187,
+  "end": 1918.867,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 410,
+  "start": 1918.887,
+  "end": 1921.188,
+  "speaker": "Unknown",
+  "en": "But if you're a human, it's like you kind of figure it out, right?",
+  "zh": "但如果你是一个人，你多少能自己搞定，对吧？"
+ },
+ {
+  "seg": 411,
+  "start": 1921.208,
+  "end": 1922.268,
+  "speaker": "Unknown",
+  "en": "Like you kind of don't think about it.",
+  "zh": "就是你基本不会去想这件事。"
+ },
+ {
+  "seg": 412,
+  "start": 1922.288,
+  "end": 1925.449,
+  "speaker": "Unknown",
+  "en": "It's like, oh yeah, a human Dasher shows up, they can kind of find where the restaurant is.",
+  "zh": "就是说，哦对，一个人类 Dasher 到了，他们基本能找到餐厅在哪儿。"
+ },
+ {
+  "seg": 413,
+  "start": 1925.469,
+  "end": 1926.07,
+  "speaker": "Unknown",
+  "en": "Yeah, is this the building?",
+  "zh": "是的，是这栋楼吗？"
+ },
+ {
+  "seg": 414,
+  "start": 1926.09,
+  "end": 1926.21,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 415,
+  "start": 1926.23,
+  "end": 1927.51,
+  "speaker": "Unknown",
+  "en": "This is the building, this is the front door.",
+  "zh": "是这栋楼，这是前门。"
+ },
+ {
+  "seg": 416,
+  "start": 1928.17,
+  "end": 1929.351,
+  "speaker": "Unknown",
+  "en": "You can't do that with a robot.",
+  "zh": "机器人可做不到这一点。"
+ },
+ {
+  "seg": 417,
+  "start": 1929.371,
+  "end": 1932.772,
+  "speaker": "Unknown",
+  "en": "The robot's going to show up to a pin and all of a sudden say, well, okay, which...",
+  "zh": "机器人到了一个定位点，然后突然说，好吧，那到底是哪个……"
+ },
+ {
+  "seg": 418,
+  "start": 1934.652,
+  "end": 1936.293,
+  "speaker": "Unknown",
+  "en": "Which storefront is it?",
+  "zh": "是哪家店面？"
+ },
+ {
+  "seg": 419,
+  "start": 1936.313,
+  "end": 1937.173,
+  "speaker": "Unknown",
+  "en": "Which front door is it?",
+  "zh": "是哪个前门？"
+ },
+ {
+  "seg": 420,
+  "start": 1937.213,
+  "end": 1937.993,
+  "speaker": "Unknown",
+  "en": "Which gate is it?",
+  "zh": "是哪道大门？"
+ },
+ {
+  "seg": 421,
+  "start": 1938.133,
+  "end": 1939.613,
+  "speaker": "Unknown",
+  "en": "And we're just imagining Dot looking around.",
+  "zh": "我们可以想象 Dot 正在四处张望。"
+ },
+ {
+  "seg": 422,
+  "start": 1939.693,
+  "end": 1940.473,
+  "speaker": "Unknown",
+  "en": "Exactly, right?",
+  "zh": "就是，对吧？"
+ },
+ {
+  "seg": 423,
+  "start": 1940.533,
+  "end": 1942.394,
+  "speaker": "Unknown",
+  "en": "And again, that's something you have to figure out.",
+  "zh": "而且再说一次，这是你必须搞清楚的事情。"
+ },
+ {
+  "seg": 424,
+  "start": 1942.414,
+  "end": 1944.754,
+  "speaker": "Unknown",
+  "en": "But the nice thing is, again, DoorDash has that data.",
+  "zh": "但好消息是，再说一次，DoorDash 有那些数据。"
+ },
+ {
+  "seg": 425,
+  "start": 1945.074,
+  "end": 1949.555,
+  "speaker": "Unknown",
+  "en": "All the drop-offs, we can see where people are actually dropping off the package.",
+  "zh": "所有的投递记录，我们能看到人们实际上把包裹放在哪里。"
+ },
+ {
+  "seg": 426,
+  "start": 1949.695,
+  "end": 1952.576,
+  "speaker": "Unknown",
+  "en": "Yeah, where did the human dasher drop it off historically?",
+  "zh": "是的，历史上人类 dasher 把它放在哪里？"
+ },
+ {
+  "seg": 427,
+  "start": 1952.616,
+  "end": 1956.117,
+  "speaker": "Unknown",
+  "en": "And that is that first and last 100 feet problem.",
+  "zh": "而这就是那个最初和最后一百英尺的问题。"
+ },
+ {
+  "seg": 428,
+  "start": 1957.017,
+  "end": 1958.677,
+  "speaker": "Unknown",
+  "en": "That data doesn't exist anywhere else.",
+  "zh": "那些数据在其他任何地方都不存在。"
+ },
+ {
+  "seg": 429,
+  "start": 1958.697,
+  "end": 1959.917,
+  "speaker": "Unknown",
+  "en": "It doesn't exist in Google Maps.",
+  "zh": "Google Maps 里没有。"
+ },
+ {
+  "seg": 430,
+  "start": 1959.997,
+  "end": 1962.218,
+  "speaker": "Unknown",
+  "en": "It only exists at DoorDash.",
+  "zh": "它只存在于 DoorDash。"
+ },
+ {
+  "seg": 431,
+  "start": 1962.712,
+  "end": 1962.912,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 432,
+  "start": 1963.112,
+  "end": 1967.575,
+  "speaker": "Unknown",
+  "en": "I think that is a really interesting and genuine advantage.",
+  "zh": "我认为这是一个非常有趣且真实的优势。"
+ },
+ {
+  "seg": 433,
+  "start": 1968.556,
+  "end": 1981.845,
+  "speaker": "Unknown",
+  "en": "Early on when people were like talking about what's going to happen with AI and incumbents and startups, there were a lot of people I think had a very surface level view of like what the incumbent data advantage was.",
+  "zh": "早期当人们在谈论 AI 会对现有大公司和初创公司造成什么影响的时候，我觉得有很多人对现有大公司的数据优势持一种非常肤浅的看法。"
+ },
+ {
+  "seg": 434,
+  "start": 1982.326,
+  "end": 1982.986,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 435,
+  "start": 1983.066,
+  "end": 1985.968,
+  "speaker": "Unknown",
+  "en": "Because they didn't like really think about like, well, what are we trying to do, right?",
+  "zh": "因为他们没有真正去想，嗯，我们到底想做什么，对吧？"
+ },
+ {
+  "seg": 436,
+  "start": 1986.028,
+  "end": 1986.889,
+  "speaker": "Unknown",
+  "en": "What is the use case?",
+  "zh": "用例是什么？"
+ },
+ {
+  "seg": 437,
+  "start": 1986.929,
+  "end": 1988.55,
+  "speaker": "Unknown",
+  "en": "What is the intelligence supposed to accomplish?",
+  "zh": "这种智能应该完成什么？"
+ },
+ {
+  "seg": 438,
+  "start": 1988.991,
+  "end": 1992.453,
+  "speaker": "Unknown",
+  "en": "And so they'd be like, ah, like we have the, I don't know, customer records and the database.",
+  "zh": "所以他们会说，啊，比如我们有那个，我不知道，客户记录和数据库。"
+ },
+ {
+  "seg": 439,
+  "start": 1992.653,
+  "end": 1998.975,
+  "speaker": "Unknown",
+  "en": "Like that actually has like very little to do with the thing we're trying to, we could try to accomplish with an agent, right?",
+  "zh": "而那其实和我们试图、我们可以尝试用智能体完成的事情关系很小，对吧？"
+ },
+ {
+  "seg": 440,
+  "start": 1999.275,
+  "end": 2007.617,
+  "speaker": "Unknown",
+  "en": "And I think this is totally like real in robotics where I'm an investor in a company called Sunday, right?",
+  "zh": "而且我认为这在机器人领域是完全真实的，我是一家叫 Sunday 的公司的投资人，对吧？"
+ },
+ {
+  "seg": 441,
+  "start": 2007.937,
+  "end": 2015.679,
+  "speaker": "Unknown",
+  "en": "And one thing that we like deeply believe in this company is you can't imagine the distribution, right?",
+  "zh": "而我们在这家公司里深信的一点是，你没法凭想象得到那些分布，对吧？"
+ },
+ {
+  "seg": 442,
+  "start": 2015.699,
+  "end": 2020.6,
+  "speaker": "Unknown",
+  "en": "As soon as you like make contact with the physical world, as you said, or like the real world, you're like,",
+  "zh": "一旦你和物理世界，就像你说的，或者和真实世界发生接触，你就会说，"
+ },
+ {
+  "seg": 443,
+  "start": 2022.38,
+  "end": 2026.321,
+  "speaker": "Unknown",
+  "en": "Man, if we're trying to do the dishes, why is a cat in the dishwasher?",
+  "zh": "天哪，如果我们是要洗碗，为什么洗碗机里有一只猫？"
+ },
+ {
+  "seg": 444,
+  "start": 2026.341,
+  "end": 2029.882,
+  "speaker": "Unknown",
+  "en": "And like, you know, you're in somebody's real house and they're like, the cat likes the dishwasher.",
+  "zh": "而且，你知道，你在某人的真实家里，他们说，这只猫喜欢洗碗机。"
+ },
+ {
+  "seg": 445,
+  "start": 2029.902,
+  "end": 2033.182,
+  "speaker": "Unknown",
+  "en": "They're like, that's not, you know, that's not something you're going to go imagine.",
+  "zh": "他们会说，那不是，你知道，那不是你能凭空想象出来的东西。"
+ },
+ {
+  "seg": 446,
+  "start": 2033.262,
+  "end": 2037.823,
+  "speaker": "Unknown",
+  "en": "Just like you're not going to imagine like, oh, I'm going to deal with this torque problem where like one wheel is on the leaves and not.",
+  "zh": "就像你不会去想象，哦，我要处理这个扭矩问题，一个轮子压在落叶上而另一个没有。"
+ },
+ {
+  "seg": 447,
+  "start": 2038.423,
+  "end": 2043.084,
+  "speaker": "Unknown",
+  "en": "And then you like think like, okay, but like how important is that in the distribution?",
+  "zh": "然后你会想，好吧，但那在分布里有多重要？"
+ },
+ {
+  "seg": 448,
+  "start": 2043.104,
+  "end": 2046.185,
+  "speaker": "Unknown",
+  "en": "Then you find another cat in another dishwasher when you have enough data and you're like...",
+  "zh": "然后当你有了足够的数据，你会在另一台洗碗机里发现另一只猫，然后你就会说……"
+ },
+ {
+  "seg": 449,
+  "start": 2047.185,
+  "end": 2058.02,
+  "speaker": "Unknown",
+  "en": "I don't know how many of these are out there, but the only way to find out is not by an engineer sitting and being like, let me imagine the setup and the scenario for this robot.",
+  "zh": "我不知道外面还有多少这种情况，但想搞清楚的唯一办法，绝不是让一个工程师坐在那儿说，让我来想象一下这个机器人的设置和场景。"
+ },
+ {
+  "seg": 450,
+  "start": 2058.04,
+  "end": 2059.442,
+  "speaker": "Unknown",
+  "en": "That's clearly not going to be the reality.",
+  "zh": "这显然不会成为现实。"
+ },
+ {
+  "seg": 451,
+  "start": 2059.663,
+  "end": 2062.346,
+  "speaker": "Unknown",
+  "en": "I just feel like for the next frontier of AI, it's...",
+  "zh": "我只是觉得，对于 AI 的下一个前沿来说，它是……"
+ },
+ {
+  "seg": 452,
+  "start": 2063.007,
+  "end": 2066.468,
+  "speaker": "Unknown",
+  "en": "At least what we're really excited about is how it's going to affect the physical world.",
+  "zh": "至少我们真正感到兴奋的，是它将如何影响物理世界。"
+ },
+ {
+  "seg": 453,
+  "start": 2066.648,
+  "end": 2070.57,
+  "speaker": "Unknown",
+  "en": "And I think, to your point, it's like you can only simulate so much.",
+  "zh": "而且我觉得，正如你所说，你能模拟的东西终究是有限的。"
+ },
+ {
+  "seg": 454,
+  "start": 2070.67,
+  "end": 2076.692,
+  "speaker": "Unknown",
+  "en": "You can only pretend and imagine various demo situations.",
+  "zh": "你只能假装和设想各种演示场景。"
+ },
+ {
+  "seg": 455,
+  "start": 2076.832,
+  "end": 2081.674,
+  "speaker": "Unknown",
+  "en": "So I think another thing that makes us very confident is pairing that world-class",
+  "zh": "所以我认为，让我们非常有信心的另一件事，是配对我们拥有的那种世界级的"
+ },
+ {
+  "seg": 456,
+  "start": 2085.968,
+  "end": 2089.371,
+  "speaker": "Unknown",
+  "en": "Operational expertise that we have with world-class technology.",
+  "zh": "运营专长与世界级的技术。"
+ },
+ {
+  "seg": 457,
+  "start": 2090.231,
+  "end": 2097.036,
+  "speaker": "Unknown",
+  "en": "And I think a lot of AI researchers are very hesitant to do a lot of the operational stuff or they think it's easy to handle.",
+  "zh": "而且我觉得很多 AI 研究人员很不情愿做很多运营层面的事情，或者他们觉得那很容易处理。"
+ },
+ {
+  "seg": 458,
+  "start": 2097.256,
+  "end": 2112.268,
+  "speaker": "Unknown",
+  "en": "But I think one thing that's really powerful about what we have here at DoorDash is we have a world-class operations team that you can partner with, whether it's to collect or annotate data, whether it's to figure out how to deploy robots and figure out how to get the fleet operations to work.",
+  "zh": "但我认为，我们在 DoorDash 所拥有的东西里真正强大的一点是，我们有一个世界级的运营团队可以与之合作，无论是收集还是标注数据，无论是搞清楚如何部署机器人，还是搞清楚如何让车队运营运转起来。"
+ },
+ {
+  "seg": 459,
+  "start": 2113.749,
+  "end": 2120.234,
+  "speaker": "Unknown",
+  "en": "And I think for a lot of people we talk to, that's very compelling because it's like, hey, actually, we're not just talking hypothetical here.",
+  "zh": "而且我觉得，对我们交谈过的很多人来说，这非常有吸引力，因为这就像是：嘿，实际上，我们不只是在谈论假设。"
+ },
+ {
+  "seg": 460,
+  "start": 2121.501,
+  "end": 2123.021,
+  "speaker": "Unknown",
+  "en": "You're making the deliveries in Phoenix.",
+  "zh": "你是在菲尼克斯实际做配送的。"
+ },
+ {
+  "seg": 461,
+  "start": 2123.241,
+  "end": 2125.162,
+  "speaker": "Unknown",
+  "en": "What are the challenges from here for scale up?",
+  "zh": "从这里再往上扩大规模，挑战是什么？"
+ },
+ {
+  "seg": 462,
+  "start": 2125.182,
+  "end": 2127.883,
+  "speaker": "Unknown",
+  "en": "I mean, we've been doing deliveries in Phoenix for over two years now.",
+  "zh": "我是说，我们在菲尼克斯做配送已经两年多了。"
+ },
+ {
+  "seg": 463,
+  "start": 2128.683,
+  "end": 2131.484,
+  "speaker": "Unknown",
+  "en": "I mean, we went fully autonomous L4 last year.",
+  "zh": "我是说，我们去年实现了完全自动驾驶的 L4。"
+ },
+ {
+  "seg": 464,
+  "start": 2131.504,
+  "end": 2136.265,
+  "speaker": "Unknown",
+  "en": "I mean, it's like, I think that was a super exciting milestone.",
+  "zh": "我是说，我觉得那是一个非常令人兴奋的里程碑。"
+ },
+ {
+  "seg": 465,
+  "start": 2136.925,
+  "end": 2144.267,
+  "speaker": "Unknown",
+  "en": "And really, it's just a matter of like, how do you take this from, again, it's like, originally it was just a couple of robots, 10 robots to a hundred.",
+  "zh": "而且真的，这就是一个问题：你要怎么把它从，再说一次，就是说，最初就只是几台机器人，10 台到一百台。"
+ },
+ {
+  "seg": 466,
+  "start": 2144.727,
+  "end": 2147.008,
+  "speaker": "Unknown",
+  "en": "Again, it's just like, we gotta make that hill climb.",
+  "zh": "再说一次，就是说，我们得完成那个爬坡。"
+ },
+ {
+  "seg": 467,
+  "start": 2147.188,
+  "end": 2148.168,
+  "speaker": "Unknown",
+  "en": "It's like, how do you...",
+  "zh": "就是说，你要怎么……"
+ },
+ {
+  "seg": 468,
+  "start": 2148.788,
+  "end": 2149.809,
+  "speaker": "Unknown",
+  "en": "How do you scale this?",
+  "zh": "你要怎么把它规模化？"
+ },
+ {
+  "seg": 469,
+  "start": 2149.889,
+  "end": 2151.59,
+  "speaker": "Unknown",
+  "en": "And I think there's really three components.",
+  "zh": "而且我觉得实际上有三个组成部分。"
+ },
+ {
+  "seg": 470,
+  "start": 2151.71,
+  "end": 2153.071,
+  "speaker": "Unknown",
+  "en": "Can we get the autonomy to scale?",
+  "zh": "我们能让自动驾驶实现规模化吗？"
+ },
+ {
+  "seg": 471,
+  "start": 2153.231,
+  "end": 2156.053,
+  "speaker": "Unknown",
+  "en": "Five years ago, the question was, was autonomy even possible?",
+  "zh": "五年前，问题是，自动驾驶到底可不可能？"
+ },
+ {
+  "seg": 472,
+  "start": 2156.714,
+  "end": 2158.315,
+  "speaker": "Unknown",
+  "en": "Was this just a research project?",
+  "zh": "这是不是只是一个研究项目？"
+ },
+ {
+  "seg": 473,
+  "start": 2158.335,
+  "end": 2159.356,
+  "speaker": "Unknown",
+  "en": "Is this a science fiction?",
+  "zh": "这是不是科幻？"
+ },
+ {
+  "seg": 474,
+  "start": 2160.496,
+  "end": 2164.399,
+  "speaker": "Unknown",
+  "en": "You see now, especially with AI, Waymo's made that breakthrough.",
+  "zh": "你现在可以看到，尤其是在 AI 的加持下，Waymo 已经实现了那个突破。"
+ },
+ {
+  "seg": 475,
+  "start": 2164.439,
+  "end": 2166.381,
+  "speaker": "Unknown",
+  "en": "I think Tesla's starting to make that breakthrough.",
+  "zh": "我觉得 Tesla 正开始实现那个突破。"
+ },
+ {
+  "seg": 476,
+  "start": 2166.981,
+  "end": 2168.342,
+  "speaker": "Unknown",
+  "en": "We made that breakthrough last year.",
+  "zh": "我们去年实现了那个突破。"
+ },
+ {
+  "seg": 477,
+  "start": 2169.343,
+  "end": 2171.784,
+  "speaker": "Unknown",
+  "en": "Our entire autonomy stack is built in-house.",
+  "zh": "我们整个自动驾驶技术栈都是自研的。"
+ },
+ {
+  "seg": 478,
+  "start": 2172.565,
+  "end": 2176.686,
+  "speaker": "Unknown",
+  "en": "But purpose-built for delivery, which is, again, it's a little bit different.",
+  "zh": "但它是专为配送打造的，再说一次，这有点不一样。"
+ },
+ {
+  "seg": 479,
+  "start": 2176.726,
+  "end": 2177.526,
+  "speaker": "Unknown",
+  "en": "It's not just copy.",
+  "zh": "这不只是照搬。"
+ },
+ {
+  "seg": 480,
+  "start": 2177.566,
+  "end": 2186.888,
+  "speaker": "Unknown",
+  "en": "I think this is the other thing people miss is you can't just copy and paste what Waymo's done and then plop it into the DoorDash dot and everything works.",
+  "zh": "我觉得这是人们忽略的另一件事：你没办法把 Waymo 做出的东西直接复制粘贴，然后塞到 DoorDash dot 里，然后一切就都能正常运转。"
+ },
+ {
+  "seg": 481,
+  "start": 2187.028,
+  "end": 2188.608,
+  "speaker": "Unknown",
+  "en": "Again, the use case is a little bit different.",
+  "zh": "再说一次，使用场景有点不一样。"
+ },
+ {
+  "seg": 482,
+  "start": 2188.628,
+  "end": 2196.43,
+  "speaker": "Unknown",
+  "en": "This is a bike claim profile vehicle, but that's constantly navigating between the road and the sidewalks.",
+  "zh": "这是一辆 bike claim profile 车辆，但它不断在马路和人行道之间穿行。"
+ },
+ {
+  "seg": 483,
+  "start": 2196.51,
+  "end": 2197.65,
+  "speaker": "Unknown",
+  "en": "As far as I know, this is like...",
+  "zh": "据我所知，这就像是……"
+ },
+ {
+  "seg": 484,
+  "start": 2198.577,
+  "end": 2203.821,
+  "speaker": "Unknown",
+  "en": "There's nothing else like this in the world besides that even behaves like DoorDash.",
+  "zh": "世界上再没有别的东西与此类似，除了那个甚至连行为方式都像 DoorDash 的。"
+ },
+ {
+  "seg": 485,
+  "start": 2204.622,
+  "end": 2209.806,
+  "speaker": "Unknown",
+  "en": "But we've kind of built it because we kind of built it uniquely to our use case.",
+  "zh": "但我们算是把它造出来了，因为我们算是专门针对我们的使用场景独特地构建了它。"
+ },
+ {
+  "seg": 486,
+  "start": 2210.366,
+  "end": 2217.652,
+  "speaker": "Unknown",
+  "en": "So autonomy is definitely one piece, like how to keep scaling across not just Phoenix, but we want to bring to the Bay Area, more cities.",
+  "zh": "所以自动驾驶绝对是其中一块，比如如何持续扩展，不只是菲尼克斯，我们还想带到湾区、更多城市。"
+ },
+ {
+  "seg": 487,
+  "start": 2219.233,
+  "end": 2221.835,
+  "speaker": "Unknown",
+  "en": "I'm sure we're going to run into more and more edge cases.",
+  "zh": "我确信我们会遇到越来越多的边缘情况。"
+ },
+ {
+  "seg": 488,
+  "start": 2222.996,
+  "end": 2229.859,
+  "speaker": "Unknown",
+  "en": "But the funny thing is like the autonomy is probably increasingly becoming less and less of a constraint of a blocker.",
+  "zh": "但有趣的是，自动驾驶可能正越来越不再是约束和阻碍。"
+ },
+ {
+  "seg": 489,
+  "start": 2229.899,
+  "end": 2236.821,
+  "speaker": "Unknown",
+  "en": "It's really like now, how do you, it's really more than the next two, which is the second is like operational.",
+  "zh": "现在真的就是，你要怎么——其实更多是在于接下来的两个，其中第二个就是运营。"
+ },
+ {
+  "seg": 490,
+  "start": 2237.181,
+  "end": 2239.122,
+  "speaker": "Unknown",
+  "en": "Like how do you scale operations, restaurants?",
+  "zh": "比如你要怎么扩展运营？餐厅？"
+ },
+ {
+  "seg": 491,
+  "start": 2239.842,
+  "end": 2247.851,
+  "speaker": "Unknown",
+  "en": "Behave in Phoenix look different than restaurants in San Francisco versus like, you know, London versus Helsinki.",
+  "zh": "在菲尼克斯的表现看起来就和旧金山的餐厅不一样，又和，你知道，伦敦、和赫尔辛基。"
+ },
+ {
+  "seg": 492,
+  "start": 2248.191,
+  "end": 2250.414,
+  "speaker": "Unknown",
+  "en": "How do you adapt to all these different integrations?",
+  "zh": "你要怎么适应所有这些不同的整合？"
+ },
+ {
+  "seg": 493,
+  "start": 2250.874,
+  "end": 2251.194,
+  "speaker": "Unknown",
+  "en": "How do you...",
+  "zh": "你要怎么……"
+ },
+ {
+  "seg": 494,
+  "start": 2251.214,
+  "end": 2254.158,
+  "speaker": "Unknown",
+  "en": "So it's the interface layer and the fleet management of it?",
+  "zh": "所以是它的接口层和车队管理？"
+ },
+ {
+  "seg": 495,
+  "start": 2254.178,
+  "end": 2254.518,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，正是。"
+ },
+ {
+  "seg": 496,
+  "start": 2254.538,
+  "end": 2256,
+  "speaker": "Unknown",
+  "en": "Interface and fleet management.",
+  "zh": "接口和车队管理。"
+ },
+ {
+  "seg": 497,
+  "start": 2256.2,
+  "end": 2258.522,
+  "speaker": "Unknown",
+  "en": "And then the last piece is hardware.",
+  "zh": "然后最后一块是硬件。"
+ },
+ {
+  "seg": 498,
+  "start": 2258.642,
+  "end": 2259.984,
+  "speaker": "Unknown",
+  "en": "And it's kind of funny.",
+  "zh": "而且这有点好笑。"
+ },
+ {
+  "seg": 499,
+  "start": 2260.024,
+  "end": 2260.524,
+  "speaker": "Unknown",
+  "en": "It's like...",
+  "zh": "就是说……"
+ },
+ {
+  "seg": 500,
+  "start": 2261.105,
+  "end": 2264.127,
+  "speaker": "Unknown",
+  "en": "When we first started five years ago, everyone thought hardware was a commodity.",
+  "zh": "五年前我们刚起步的时候,所有人都认为硬件是大宗商品。"
+ },
+ {
+  "seg": 501,
+  "start": 2264.808,
+  "end": 2268.03,
+  "speaker": "Unknown",
+  "en": "And now it's starting to look like hardware is starting to become a bottom.",
+  "zh": "而现在看起来,硬件开始变成一个底部。"
+ },
+ {
+  "seg": 502,
+  "start": 2268.131,
+  "end": 2272.314,
+  "speaker": "Unknown",
+  "en": "It's like we had built the first 100 robots ourselves, which is not an issue.",
+  "zh": "就好比我们自己造出了最初的一百台机器人,这不是问题。"
+ },
+ {
+  "seg": 503,
+  "start": 2272.334,
+  "end": 2282.842,
+  "speaker": "Unknown",
+  "en": "But then, OK, the next 1,000 or 10,000, we're going to have to now start to figure out things like supply chain, like component reliability.",
+  "zh": "但接下来,好了,再往下的下一千台或一万台,我们现在就得开始去搞清楚供应链、零部件可靠性之类的事情。"
+ },
+ {
+  "seg": 504,
+  "start": 2282.942,
+  "end": 2285.064,
+  "speaker": "Unknown",
+  "en": "It's like these things have to last for a really long time.",
+  "zh": "就好比这些东西必须能用上很长很长时间。"
+ },
+ {
+  "seg": 505,
+  "start": 2286.225,
+  "end": 2288.206,
+  "speaker": "Unknown",
+  "en": "It's like how you think about...",
+  "zh": "就好比你要怎么考虑……"
+ },
+ {
+  "seg": 506,
+  "start": 2290.815,
+  "end": 2295.138,
+  "speaker": "Unknown",
+  "en": "And you're not guessing because you can actually tell how long it needs to last and how it's doing in the field.",
+  "zh": "而且你不是在猜,因为你能真的知道它需要用多久,以及它在现场表现如何。"
+ },
+ {
+  "seg": 507,
+  "start": 2295.198,
+  "end": 2295.738,
+  "speaker": "Unknown",
+  "en": "Exactly, right?",
+  "zh": "没错,对吧?"
+ },
+ {
+  "seg": 508,
+  "start": 2295.758,
+  "end": 2296.999,
+  "speaker": "Unknown",
+  "en": "Like manufacturing.",
+  "zh": "比如制造。"
+ },
+ {
+  "seg": 509,
+  "start": 2298.26,
+  "end": 2299.881,
+  "speaker": "Unknown",
+  "en": "It's like learning all that.",
+  "zh": "就好比学习所有那些东西。"
+ },
+ {
+  "seg": 510,
+  "start": 2299.941,
+  "end": 2304.704,
+  "speaker": "Unknown",
+  "en": "And that turns out to be a pretty hard problem at scale.",
+  "zh": "而事实证明,这在规模化时是一个相当难的问题。"
+ },
+ {
+  "seg": 511,
+  "start": 2304.884,
+  "end": 2311.548,
+  "speaker": "Unknown",
+  "en": "And so one of the things we actually did is we actually partnered up with this company called Also.",
+  "zh": "所以我们实际做的事情之一,就是我们真的和一家叫 Also 的公司建立了合作。"
+ },
+ {
+  "seg": 512,
+  "start": 2312.108,
+  "end": 2315.911,
+  "speaker": "Unknown",
+  "en": "Which is this micromobility company that spun out of Rivian.",
+  "zh": "这是一家从 Rivian 分拆出来的微出行公司。"
+ },
+ {
+  "seg": 513,
+  "start": 2316.331,
+  "end": 2321.294,
+  "speaker": "Unknown",
+  "en": "So RJ is actually the board of founder and chairman of the company.",
+  "zh": "所以 RJ 其实是这家公司的董事会创始人和董事长。"
+ },
+ {
+  "seg": 514,
+  "start": 2321.314,
+  "end": 2327.118,
+  "speaker": "Unknown",
+  "en": "So why don't we work with someone who knows how to actually scale vehicles?",
+  "zh": "那我们为什么不和真正懂如何规模化车辆的人合作呢?"
+ },
+ {
+  "seg": 515,
+  "start": 2327.198,
+  "end": 2328.639,
+  "speaker": "Unknown",
+  "en": "And so that's kind of one of the...",
+  "zh": "所以这就是……之一。"
+ },
+ {
+  "seg": 516,
+  "start": 2329.64,
+  "end": 2331.182,
+  "speaker": "Unknown",
+  "en": "Partnerships we struck up.",
+  "zh": "我们达成的合作伙伴关系。"
+ },
+ {
+  "seg": 517,
+  "start": 2331.222,
+  "end": 2332.103,
+  "speaker": "Unknown",
+  "en": "But it's kind of funny.",
+  "zh": "不过这挺有意思的。"
+ },
+ {
+  "seg": 518,
+  "start": 2332.123,
+  "end": 2334.685,
+  "speaker": "Unknown",
+  "en": "It's like the problem five years ago was autonomy.",
+  "zh": "就好比五年前的问题是自动驾驶。"
+ },
+ {
+  "seg": 519,
+  "start": 2334.725,
+  "end": 2341.412,
+  "speaker": "Unknown",
+  "en": "Now it's increasingly becoming more about operations, commercialization, hardware, manufacturing.",
+  "zh": "而现在越来越多地变成了运营、商业化、硬件、制造的问题。"
+ },
+ {
+  "seg": 520,
+  "start": 2342.193,
+  "end": 2347.058,
+  "speaker": "Unknown",
+  "en": "And again, it's like this is I feel like this is where DoorDash gets to shine with our",
+  "zh": "而且再说一次,这就好比这正是 DoorDash 能大放异彩的地方,凭借我们的"
+ },
+ {
+  "seg": 521,
+  "start": 2347.658,
+  "end": 2354.101,
+  "speaker": "Unknown",
+  "en": "scale advantage and operation advantage is how do we take this thing from not just zero to one, but like one a hundred, one a thousand.",
+  "zh": "规模优势和运营优势,是如何把这件事从不只是零到一,而是做到从一到一百、从一到一千。"
+ },
+ {
+  "seg": 522,
+  "start": 2354.361,
+  "end": 2354.961,
+  "speaker": "Unknown",
+  "en": "One to three billion.",
+  "zh": "从一到三十亿。"
+ },
+ {
+  "seg": 523,
+  "start": 2354.981,
+  "end": 2355.822,
+  "speaker": "Unknown",
+  "en": "Yeah, one to three billion.",
+  "zh": "对,从一到三十亿。"
+ },
+ {
+  "seg": 524,
+  "start": 2355.962,
+  "end": 2361.404,
+  "speaker": "Unknown",
+  "en": "And I feel like DoorDash is just so well positioned to take on this.",
+  "zh": "而且我觉得 DoorDash 的定位实在太适合承接这件事了。"
+ },
+ {
+  "seg": 525,
+  "start": 2361.865,
+  "end": 2364.766,
+  "speaker": "Unknown",
+  "en": "It's like we have just such a unique advantage here.",
+  "zh": "就好比我们在这里有着非常独特的优势。"
+ },
+ {
+  "seg": 526,
+  "start": 2364.926,
+  "end": 2369.228,
+  "speaker": "Unknown",
+  "en": "And I think that's where we want to play in terms of our play to our strengths.",
+  "zh": "而且我认为,就发挥我们的优势而言,这就是我们想要发力的地方。"
+ },
+ {
+  "seg": 527,
+  "start": 2369.962,
+  "end": 2379.407,
+  "speaker": "Unknown",
+  "en": "So you have these enormous strengths, you've got the network and the existing great business and these like two, you know, amongst others, I'm sure, like two really big plays around agent of commerce and around autonomy.",
+  "zh": "所以你拥有这些巨大的优势,你有网络和现有的出色业务,还有这两项,你知道的,我相信除此之外还有其他,比如围绕商务智能体和围绕自动驾驶的两个非常大的布局。"
+ },
+ {
+  "seg": 528,
+  "start": 2380.007,
+  "end": 2388.751,
+  "speaker": "Unknown",
+  "en": "How do you think about just, it's a 10,000 plus person company and like a lot of that company is ops, a lot of that company is technology.",
+  "zh": "你是怎么考虑的,这是一家一万多人的公司,而且这家公司很大一部分是运营,很大一部分是技术。"
+ },
+ {
+  "seg": 529,
+  "start": 2391.993,
+  "end": 2395.836,
+  "speaker": "Unknown",
+  "en": "I'm sure you're thinking deeply about productivity of that workforce.",
+  "zh": "我相信你在深入思考这支劳动力的生产力。"
+ },
+ {
+  "seg": 530,
+  "start": 2396.557,
+  "end": 2397.838,
+  "speaker": "Unknown",
+  "en": "Like, who owns it?",
+  "zh": "比如,谁负责这件事?"
+ },
+ {
+  "seg": 531,
+  "start": 2397.938,
+  "end": 2399.139,
+  "speaker": "Unknown",
+  "en": "What matters today?",
+  "zh": "如今什么才是重要的?"
+ },
+ {
+  "seg": 532,
+  "start": 2399.199,
+  "end": 2400.36,
+  "speaker": "Unknown",
+  "en": "You're even publishing benchmarks.",
+  "zh": "你们甚至在发布基准测试。"
+ },
+ {
+  "seg": 533,
+  "start": 2400.38,
+  "end": 2401.22,
+  "speaker": "Unknown",
+  "en": "Like, talk about that.",
+  "zh": "比如,谈谈这个。"
+ },
+ {
+  "seg": 534,
+  "start": 2401.42,
+  "end": 2407.385,
+  "speaker": "Unknown",
+  "en": "I feel like in the past couple years, what was required to really operate at a high level in the technology industry has changed a lot.",
+  "zh": "我觉得在过去几年里,要在科技行业真正高水平地运营,所需要的东西已经改变了很多。"
+ },
+ {
+  "seg": 535,
+  "start": 2407.565,
+  "end": 2407.986,
+  "speaker": "Unknown",
+  "en": "And I think...",
+  "zh": "而且我认为……"
+ },
+ {
+  "seg": 536,
+  "start": 2409.085,
+  "end": 2417.006,
+  "speaker": "Unknown",
+  "en": "One of the reasons why we were so excited to acquire a company called Metis last year was really to just infuse some of that AI-native thinking into the company.",
+  "zh": "我们去年如此兴奋地收购一家叫 Metis 的公司的原因之一,其实就是想把那种 AI 原生的思维方式注入公司。"
+ },
+ {
+  "seg": 537,
+  "start": 2417.227,
+  "end": 2425.088,
+  "speaker": "Unknown",
+  "en": "And I think for a company of our size, it's been really... And I think every company is... Every large company, at least, is facing...",
+  "zh": "而且我认为,对于我们这种规模的公司来说,这一直很……而且我认为每家公司都……至少每家大公司都在面临……"
+ },
+ {
+  "seg": 538,
+  "start": 2425.268,
+  "end": 2426.328,
+  "speaker": "Unknown",
+  "en": "I think a lot of startups...",
+  "zh": "我认为很多初创公司……"
+ },
+ {
+  "seg": 539,
+  "start": 2426.368,
+  "end": 2429.269,
+  "speaker": "Unknown",
+  "en": "I mean, you see this better than anyone else, probably.",
+  "zh": "我是说,你可能比任何人都更清楚这一点。"
+ },
+ {
+  "seg": 540,
+  "start": 2429.289,
+  "end": 2431.769,
+  "speaker": "Unknown",
+  "en": "It's like, the way they operate is so different.",
+  "zh": "就好比,它们运营的方式非常不同。"
+ },
+ {
+  "seg": 541,
+  "start": 2432.229,
+  "end": 2435.61,
+  "speaker": "Unknown",
+  "en": "And I think a lot of people at our company, they...",
+  "zh": "而且我认为我们公司的很多人,他们……"
+ },
+ {
+  "seg": 542,
+  "start": 2435.95,
+  "end": 2441.194,
+  "speaker": "Unknown",
+  "en": "They have struggled to see what's possible because they're so used to how things have worked historically.",
+  "zh": "他们很难看到什么是可能的,因为他们太习惯于事情过去是如何运作的。"
+ },
+ {
+  "seg": 543,
+  "start": 2441.414,
+  "end": 2449.741,
+  "speaker": "Unknown",
+  "en": "And so I think really figuring out how do we bring in people who actually have seen what is possible on the frontier and incorporating that into how we do our work.",
+  "zh": "所以我认为,真正要搞清楚的是,我们如何引入那些真正见过前沿上什么是可能的人,并把那融入我们的工作方式。"
+ },
+ {
+  "seg": 544,
+  "start": 2449.921,
+  "end": 2456.586,
+  "speaker": "Unknown",
+  "en": "And I think coding is obviously the most obvious place to do transformation, and we've seen a lot of gains there.",
+  "zh": "而且我认为编程显然是最明显的转型之处,我们在那里已经看到了很多收益。"
+ },
+ {
+  "seg": 545,
+  "start": 2458.548,
+  "end": 2463.132,
+  "speaker": "Unknown",
+  "en": "But there's also work we're doing in terms of how do we do AI enablement across the entire organization.",
+  "zh": "但我们也在做其他工作,比如如何在整个组织范围内做 AI 赋能。"
+ },
+ {
+  "seg": 546,
+  "start": 2463.372,
+  "end": 2463.972,
+  "speaker": "Unknown",
+  "en": "And so I think",
+  "zh": "所以我认为"
+ },
+ {
+  "seg": 547,
+  "start": 2464.853,
+  "end": 2468.855,
+  "speaker": "Unknown",
+  "en": "You know, figuring out how to like benchmark various parts of the company.",
+  "zh": "你知道,搞清楚如何对公司各个部分进行基准测试。"
+ },
+ {
+  "seg": 548,
+  "start": 2468.975,
+  "end": 2480.6,
+  "speaker": "Unknown",
+  "en": "I think we announced a benchmark called DashBench a couple weeks ago now that was mainly focused on our ability to figure out how well various models and harness performed on coding tasks.",
+  "zh": "我想我们在几周前发布了一个叫 DashBench 的基准测试,它主要聚焦于我们衡量各种模型和 harness 在编程任务上表现有多好的能力。"
+ },
+ {
+  "seg": 549,
+  "start": 2481.381,
+  "end": 2487.744,
+  "speaker": "Unknown",
+  "en": "And so that was a really good initial exercise for us to figure out how do we calculate the ROI on all this money we're spending.",
+  "zh": "所以那对我们来说是一次非常好的初步练习,用来搞清楚我们该如何计算在这笔全部开销上的 ROI。"
+ },
+ {
+  "seg": 550,
+  "start": 2487.824,
+  "end": 2488.264,
+  "speaker": "Unknown",
+  "en": "I mean, I think",
+  "zh": "我是说,我觉得"
+ },
+ {
+  "seg": 551,
+  "start": 2489.105,
+  "end": 2490.646,
+  "speaker": "Unknown",
+  "en": "I was looking at it a week ago.",
+  "zh": "我一周前还看过这个。"
+ },
+ {
+  "seg": 552,
+  "start": 2490.666,
+  "end": 2495.251,
+  "speaker": "Unknown",
+  "en": "I think our spend in June went up like 20x versus what the spend was in January.",
+  "zh": "我觉得我们六月的开销相比一月涨了大概 20 倍。"
+ },
+ {
+  "seg": 553,
+  "start": 2495.872,
+  "end": 2496.172,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 554,
+  "start": 2496.532,
+  "end": 2496.772,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 555,
+  "start": 2496.793,
+  "end": 2501.297,
+  "speaker": "Unknown",
+  "en": "And so I think it's like, okay, like, clearly this has got to get some sort of return.",
+  "zh": "所以我觉得就是,好吧,这显然必须得有某种回报。"
+ },
+ {
+  "seg": 556,
+  "start": 2501.357,
+  "end": 2507.644,
+  "speaker": "Unknown",
+  "en": "And so, and obviously, like, I think we're seeing a lot of, you know, subjective...",
+  "zh": "所以,很明显,我觉得我们看到很多,你知道,主观的..."
+ },
+ {
+  "seg": 557,
+  "start": 2507.664,
+  "end": 2509.145,
+  "speaker": "Unknown",
+  "en": "Wait, can I ask?",
+  "zh": "等等,我能问一下吗?"
+ },
+ {
+  "seg": 558,
+  "start": 2509.165,
+  "end": 2510.607,
+  "speaker": "Unknown",
+  "en": "You can not answer, but like...",
+  "zh": "你可以不回答,但是..."
+ },
+ {
+  "seg": 559,
+  "start": 2512.265,
+  "end": 2516.106,
+  "speaker": "Unknown",
+  "en": "Since you have inspected this spend, has it come down?",
+  "zh": "既然你已经查过这笔开销,它降下来了吗?"
+ },
+ {
+  "seg": 560,
+  "start": 2516.126,
+  "end": 2516.887,
+  "speaker": "Unknown",
+  "en": "Has it been flat?",
+  "zh": "它是持平的吗?"
+ },
+ {
+  "seg": 561,
+  "start": 2516.907,
+  "end": 2517.887,
+  "speaker": "Unknown",
+  "en": "Has it continued to grow?",
+  "zh": "还是继续在涨?"
+ },
+ {
+  "seg": 562,
+  "start": 2518.967,
+  "end": 2519.768,
+  "speaker": "Unknown",
+  "en": "We're seeing a flat line.",
+  "zh": "我们看到的是一条平线。"
+ },
+ {
+  "seg": 563,
+  "start": 2521.268,
+  "end": 2525.33,
+  "speaker": "Unknown",
+  "en": "And I think a lot of it is through some of these intentional efforts.",
+  "zh": "而且我觉得很大程度上是通过一些有意识的努力实现的。"
+ },
+ {
+  "seg": 564,
+  "start": 2525.35,
+  "end": 2534.393,
+  "speaker": "Unknown",
+  "en": "Because I think when people were experimenting with, especially at the beginning of the year or maybe December last year, I think there was just a step function change in terms of what was possible.",
+  "zh": "因为我觉得当人们在试验的时候,尤其是今年年初或者去年十二月,我觉得在什么是可能的这件事上出现了一个阶跃式变化。"
+ },
+ {
+  "seg": 565,
+  "start": 2534.473,
+  "end": 2534.953,
+  "speaker": "Unknown",
+  "en": "And so I think",
+  "zh": "所以我觉得"
+ },
+ {
+  "seg": 566,
+  "start": 2535.653,
+  "end": 2537.955,
+  "speaker": "Unknown",
+  "en": "A lot of it was just experimenting and letting people run with it.",
+  "zh": "很多时候就是做实验,让人们放手去做。"
+ },
+ {
+  "seg": 567,
+  "start": 2538.415,
+  "end": 2544.539,
+  "speaker": "Unknown",
+  "en": "But it's gone to a point where it's like, okay, one, there's easy things we can do to make sure that we're not doing wasteful stuff.",
+  "zh": "但现在已经到了这样一个地步:好吧,第一,有一些简单的事情我们可以做,确保我们不做浪费的事。"
+ },
+ {
+  "seg": 568,
+  "start": 2545,
+  "end": 2551.264,
+  "speaker": "Unknown",
+  "en": "But two, as it relates to this benchmark that we released, it's like, okay, we actually need to start calculating the ROI.",
+  "zh": "第二,就我们发布的这个 benchmark 而言,就是,好吧,我们实际上需要开始计算 ROI 了。"
+ },
+ {
+  "seg": 569,
+  "start": 2551.644,
+  "end": 2559.03,
+  "speaker": "Unknown",
+  "en": "If there's a way for us to maximize the intelligence, but maybe delegate to open-weight models for some of the cheaper tasks.",
+  "zh": "如果有一种方法能让智能最大化,同时把一些更便宜的任务委托给开放权重模型,"
+ },
+ {
+  "seg": 570,
+  "start": 2559.61,
+  "end": 2567.618,
+  "speaker": "Unknown",
+  "en": "We can actually do, we can get the Fable level of intelligence, but actually pay less than if we were just using these close weight models.",
+  "zh": "我们实际上可以做到,我们能得到 Fable 级别的智能,但实际支付的费用比只用这些闭权重模型要少。"
+ },
+ {
+  "seg": 571,
+  "start": 2567.858,
+  "end": 2575.966,
+  "speaker": "Unknown",
+  "en": "So I think coding is kind of where we think there's a lot of opportunity, mainly because, I mean, the vast majority of that spend is still within like engineering related tasks.",
+  "zh": "所以我觉得编码是我们认为有很多机会的地方,主要是因为,我的意思是,那笔开销的绝大部分仍然是在工程相关的任务里。"
+ },
+ {
+  "seg": 572,
+  "start": 2576.606,
+  "end": 2580.23,
+  "speaker": "Unknown",
+  "en": "But we're actually seeing the highest amount of growth in our organization in terms of like...",
+  "zh": "但我们实际上在组织里看到增长最多的,是在于..."
+ },
+ {
+  "seg": 573,
+  "start": 2580.75,
+  "end": 2593.058,
+  "speaker": "Unknown",
+  "en": "Seeds in the non-technical organizations because analysts are finding a lot of value in it, our operators, account managers who are trying to figure out, okay, how do I do my QBR with the strategic merchants?",
+  "zh": "Seeds 出现在非技术组织里,因为分析师们从中发现了很大价值,还有我们的运营人员、客户经理,他们正试图搞清楚,好吧,我怎么和战略商家做我的 QBR?"
+ },
+ {
+  "seg": 574,
+  "start": 2593.218,
+  "end": 2594.639,
+  "speaker": "Unknown",
+  "en": "How do we automate a lot of that?",
+  "zh": "我们怎么把其中很多环节自动化?"
+ },
+ {
+  "seg": 575,
+  "start": 2594.759,
+  "end": 2603.044,
+  "speaker": "Unknown",
+  "en": "And so I think there's work we're doing there to figure out, okay, how do we benchmark some of the work we're doing in some of these other areas?",
+  "zh": "所以我觉得我们在那里做的工作是要搞清楚,好吧,我们怎么为我们在其他一些领域所做的一些工作做基准测试?"
+ },
+ {
+  "seg": 576,
+  "start": 2603.184,
+  "end": 2603.564,
+  "speaker": "Unknown",
+  "en": "And I think...",
+  "zh": "而且我觉得..."
+ },
+ {
+  "seg": 577,
+  "start": 2604.124,
+  "end": 2616.657,
+  "speaker": "Unknown",
+  "en": "Another thing that is interesting for us is because we've worked with some of these frontier labs on like, okay, like for like accounting tasks or analytics tasks, like how well do the latest models perform?",
+  "zh": "对我们来说另一件有趣的事是,因为我们和这些前沿实验室合作过,比如,好吧,像是在会计任务或分析任务上,最新模型的表现有多好?"
+ },
+ {
+  "seg": 578,
+  "start": 2617.658,
+  "end": 2624.885,
+  "speaker": "Unknown",
+  "en": "And I think a challenge that we've run into is like, we'll ask our teams like, hey, how well do the models perform on your tasks?",
+  "zh": "而且我觉得我们遇到的一个挑战是,我们会问我们的团队,嘿,模型在你的任务上表现怎么样?"
+ },
+ {
+  "seg": 579,
+  "start": 2624.905,
+  "end": 2626.506,
+  "speaker": "Unknown",
+  "en": "They're like, you know, it works okay.",
+  "zh": "他们会说,你知道,还行吧。"
+ },
+ {
+  "seg": 580,
+  "start": 2627.007,
+  "end": 2627.768,
+  "speaker": "Unknown",
+  "en": "And I think...",
+  "zh": "而且我觉得..."
+ },
+ {
+  "seg": 581,
+  "start": 2628.915,
+  "end": 2631.616,
+  "speaker": "Unknown",
+  "en": "And you're like, okay, like $30 million of okay.",
+  "zh": "然后你就想,好吧,3000 万美元的“还行”。"
+ },
+ {
+  "seg": 582,
+  "start": 2631.696,
+  "end": 2632.436,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "对,就是这样。"
+ },
+ {
+  "seg": 583,
+  "start": 2632.516,
+  "end": 2641.658,
+  "speaker": "Unknown",
+  "en": "It's like the cost, but then it's like, okay, then when we send somebody's data to the labs, we'll have to do like the data scrubbing and then we'll have to like, you know, put in like RL environment, whatever.",
+  "zh": "就是这个成本,但然后就是,好吧,当我们把某人的数据发给实验室时,我们得做数据清洗,然后我们得,你知道,放进 RL 环境之类的。"
+ },
+ {
+  "seg": 584,
+  "start": 2642.158,
+  "end": 2644.119,
+  "speaker": "Unknown",
+  "en": "And then, you know, then the models crush it.",
+  "zh": "然后,你知道,模型就表现得很出色。"
+ },
+ {
+  "seg": 585,
+  "start": 2644.279,
+  "end": 2649.2,
+  "speaker": "Unknown",
+  "en": "But then we're like, there's clearly, it's kind of like what you're saying with like the Sunday robotics example.",
+  "zh": "但我们就觉得,很明显,这有点像你说的那个 Sunday robotics 的例子。"
+ },
+ {
+  "seg": 586,
+  "start": 2649.22,
+  "end": 2658.222,
+  "speaker": "Unknown",
+  "en": "It's like, okay, if you like dumb down the problem, maybe the models do well, but like for some reason, and when we actually have it with the enterprise data and all the real stuff,",
+  "zh": "就像,好吧,如果你把问题简化,也许模型表现不错,但出于某种原因,当我们真正用企业数据和所有真实的东西时,"
+ },
+ {
+  "seg": 587,
+  "start": 2658.722,
+  "end": 2659.583,
+  "speaker": "Unknown",
+  "en": "It's not performing as well.",
+  "zh": "它表现得就没那么好了。"
+ },
+ {
+  "seg": 588,
+  "start": 2659.723,
+  "end": 2662.846,
+  "speaker": "Unknown",
+  "en": "And so I think for us, it's a question of like, hey, is it because...",
+  "zh": "所以我觉得对我们来说,问题是,嘿,这是因为..."
+ },
+ {
+  "seg": 589,
+  "start": 2664.026,
+  "end": 2668.188,
+  "speaker": "Unknown",
+  "en": "Like there's just things that we need to do with the harness to get the model to perform better.",
+  "zh": "就像有一些我们需要在 harness 上做的事情,来让模型表现更好。"
+ },
+ {
+  "seg": 590,
+  "start": 2668.868,
+  "end": 2681.813,
+  "speaker": "Unknown",
+  "en": "Or they're inherently things that the models just don't have in their data distribution or whatever capability set that is not allowing that step function change enablement in like accounting, analytics, or, you know, finance functions.",
+  "zh": "还是说这些本质上就是模型的数据分布或者某种能力集里没有的东西,导致无法在会计、分析,或者,你知道,财务职能上实现那种阶跃式变化。"
+ },
+ {
+  "seg": 591,
+  "start": 2681.873,
+  "end": 2688.475,
+  "speaker": "Unknown",
+  "en": "And so I think that's like kind of like the next step for us beyond the coding stuff, which of course there's a lot of work for us to do.",
+  "zh": "所以我觉得这有点像我们在编码之外要走的下一步,当然在编码方面我们还有很多工作要做。"
+ },
+ {
+  "seg": 592,
+  "start": 2689.055,
+  "end": 2690.016,
+  "speaker": "Unknown",
+  "en": "But I think there's a lot of",
+  "zh": "但我觉得有很多"
+ },
+ {
+  "seg": 593,
+  "start": 2690.856,
+  "end": 2695.259,
+  "speaker": "Unknown",
+  "en": "Interesting things in terms of like how do we really see that step function change across the org?",
+  "zh": "有趣的事情,比如说我们怎么真正在整个组织中看到那种阶跃式变化?"
+ },
+ {
+  "seg": 594,
+  "start": 2695.599,
+  "end": 2700.402,
+  "speaker": "Unknown",
+  "en": "Is the long-term view like you get rid of all the dashers and it's just dots everywhere?",
+  "zh": "长期来看,是不是把所有 dashers 都去掉,然后到处都是点?"
+ },
+ {
+  "seg": 595,
+  "start": 2700.422,
+  "end": 2700.903,
+  "speaker": "Unknown",
+  "en": "What happens?",
+  "zh": "会发生什么?"
+ },
+ {
+  "seg": 596,
+  "start": 2701.59,
+  "end": 2701.83,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 597,
+  "start": 2701.85,
+  "end": 2708.913,
+  "speaker": "Unknown",
+  "en": "Well, my take, my prediction actually is in a world where robotics, drones, AI is everywhere.",
+  "zh": "嗯,我的看法,实际上我的预测是,在一个机器人、无人机、AI 无处不在的世界里,"
+ },
+ {
+  "seg": 598,
+  "start": 2710.374,
+  "end": 2716.097,
+  "speaker": "Unknown",
+  "en": "My guess is that in 10 years time, we're actually going to have more dashers doing deliveries, not less.",
+  "zh": "我的猜测是,10 年后,我们实际上会有更多 dashers 做配送,而不是更少。"
+ },
+ {
+  "seg": 599,
+  "start": 2717.497,
+  "end": 2722.68,
+  "speaker": "Unknown",
+  "en": "Simply just because, again, I think it's just the... Well, one, I think...",
+  "zh": "仅仅是因为,再说一次,我觉得这就是...嗯,第一,我觉得..."
+ },
+ {
+  "seg": 600,
+  "start": 2724.273,
+  "end": 2728.196,
+  "speaker": "Unknown",
+  "en": "The pace at which DoorDash is growing is just...",
+  "zh": "DoorDash 增长的速度简直……"
+ },
+ {
+  "seg": 601,
+  "start": 2728.336,
+  "end": 2731.638,
+  "speaker": "Unknown",
+  "en": "I mean, and the scale at which we're operating is pretty insane.",
+  "zh": "我是说，我们运营的规模相当疯狂。"
+ },
+ {
+  "seg": 602,
+  "start": 2731.898,
+  "end": 2738.243,
+  "speaker": "Unknown",
+  "en": "I don't know if people know, but we have over 9 million Dashers doing deliveries and the business growing 25% year over year.",
+  "zh": "我不知道大家是否知道，我们有超过 900 万名 Dashers 在做配送，业务同比增长 25%。"
+ },
+ {
+  "seg": 603,
+  "start": 2740.247,
+  "end": 2745.149,
+  "speaker": "Unknown",
+  "en": "Like, fast forward 10 years time, like, and we want a 5X from here, 10X from here.",
+  "zh": "快进 10 年，我们想要从这个基础上增长 5 倍、10 倍。"
+ },
+ {
+  "seg": 604,
+  "start": 2745.649,
+  "end": 2748.29,
+  "speaker": "Unknown",
+  "en": "Well, where are the, where's the supply going to come from?",
+  "zh": "那么，供给要从哪里来？"
+ },
+ {
+  "seg": 605,
+  "start": 2748.33,
+  "end": 2752.311,
+  "speaker": "Unknown",
+  "en": "Like, are you going to have half America doing deliveries for us every month?",
+  "zh": "难道要让半个美国每个月都为我们做配送吗？"
+ },
+ {
+  "seg": 606,
+  "start": 2752.331,
+  "end": 2753.572,
+  "speaker": "Unknown",
+  "en": "Like, that's probably not going to be the case.",
+  "zh": "那种情况应该不太可能发生。"
+ },
+ {
+  "seg": 607,
+  "start": 2753.592,
+  "end": 2762.935,
+  "speaker": "Unknown",
+  "en": "Like, there has to be, we're going to have to find other areas of opportunity to both brand new modalities as well as improve efficiencies within our business.",
+  "zh": "就是说，必须要有，我们将不得不找到其他的机会领域，既要开拓全新的配送方式，也要提升我们业务内部的效率。"
+ },
+ {
+  "seg": 608,
+  "start": 2763.035,
+  "end": 2766.477,
+  "speaker": "Unknown",
+  "en": "And I think DOT, robotics, drones, like,",
+  "zh": "而且我认为 DOT、机器人、无人机，比如，"
+ },
+ {
+  "seg": 609,
+  "start": 2767.397,
+  "end": 2769.439,
+  "speaker": "Unknown",
+  "en": "Waymos, like sidewalk robots.",
+  "zh": "Waymo,比如人行道机器人。"
+ },
+ {
+  "seg": 610,
+  "start": 2769.459,
+  "end": 2773.722,
+  "speaker": "Unknown",
+  "en": "I think we're going to, you're going to see a world where we're going to have this multimodal fleet.",
+  "zh": "我认为我们将会，你们将会看到一个拥有这种多种配送方式并存的运力车队的世界。"
+ },
+ {
+  "seg": 611,
+  "start": 2773.742,
+  "end": 2777.604,
+  "speaker": "Unknown",
+  "en": "Like we're going to need our hand, get our hands on every single modality we can get.",
+  "zh": "就像，我们需要把每一种我们能获取到的配送方式都拿到手。"
+ },
+ {
+  "seg": 612,
+  "start": 2777.664,
+  "end": 2784.449,
+  "speaker": "Unknown",
+  "en": "So I think you're not only going to see more autonomy and more robotics, but I think you're going to see even more humans as well.",
+  "zh": "所以我认为你们不仅会看到更多的自动驾驶和更多的机器人，我认为你们还会看到更多的人类。"
+ },
+ {
+  "seg": 613,
+  "start": 2787.588,
+  "end": 2806.034,
+  "speaker": "Unknown",
+  "en": "And I also just think with the introduction of autonomy and robotics and efficiency gains you're going to see over time, I also think you're just going to see an even stronger surge in demand as delivery becomes even more affordable in the next 10 years.",
+  "zh": "而且我还认为，随着自动驾驶和机器人技术的引入以及随时间推移你们会看到的效率提升，我还认为，随着未来 10 年配送变得更加实惠，你们会看到需求出现更强劲的激增。"
+ },
+ {
+  "seg": 614,
+  "start": 2806.054,
+  "end": 2807.434,
+  "speaker": "Unknown",
+  "en": "I look forward to getting six of these a day.",
+  "zh": "我很期待一天能收到六个这样的东西。"
+ },
+ {
+  "seg": 615,
+  "start": 2807.454,
+  "end": 2807.915,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 616,
+  "start": 2809.895,
+  "end": 2810.295,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 617,
+  "start": 2810.355,
+  "end": 2819.838,
+  "speaker": "Unknown",
+  "en": "And Andy, when you think about what you've learned with the initial forays into agentic commerce, like how are people going to buy differently in the future beyond food?",
+  "zh": "那么 Andy,当你思考你们在初步涉足智能体商务中所学到的东西时，人们未来在食物之外会有怎样不同的购买方式？"
+ },
+ {
+  "seg": 618,
+  "start": 2820.378,
+  "end": 2820.658,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 619,
+  "start": 2820.678,
+  "end": 2828,
+  "speaker": "Unknown",
+  "en": "I mean, I think one of the trends that I found fascinating is like over the past couple of years, Google search query links have gone longer.",
+  "zh": "我是说，我觉得一个让我着迷的趋势是，过去几年里，Google 搜索查询词变得更长了。"
+ },
+ {
+  "seg": 620,
+  "start": 2829.44,
+  "end": 2834.602,
+  "speaker": "Unknown",
+  "en": "And I think to me, how I've translated that is like, okay, people feel more comfortable like talking to",
+  "zh": "而且对我而言，我是这样解读的：好吧，人们感觉更自在了，像是和……交谈"
+ },
+ {
+  "seg": 621,
+  "start": 2835.722,
+  "end": 2839.825,
+  "speaker": "Unknown",
+  "en": "Like agents or to like apps like they would a normal human being.",
+  "zh": "像是和智能体，或者像各种应用，就像和一个正常人说话那样。"
+ },
+ {
+  "seg": 622,
+  "start": 2840.005,
+  "end": 2861.462,
+  "speaker": "Unknown",
+  "en": "And so I think if we fast forward and look ahead to the future, I think the easier we can make it for people to kind of interface with apps or with agents like they would with a person, I think it's going to reduce the friction in terms of they're compelling them to place an order, whether that's for food or for like their groceries or for retail, what have you.",
+  "zh": "所以我认为，如果我们快进并展望未来，我认为我们越能让人们像与真人交互那样与应用或智能体交互，就越能减少摩擦，促使他们下单，无论是点食物、买杂货还是零售商品等等。"
+ },
+ {
+  "seg": 623,
+  "start": 2861.583,
+  "end": 2861.903,
+  "speaker": "Unknown",
+  "en": "And I think",
+  "zh": "而且我认为"
+ },
+ {
+  "seg": 624,
+  "start": 2862.523,
+  "end": 2869.889,
+  "speaker": "Unknown",
+  "en": "Another thing that I think is going to be true is I think we're all going to need to think about what does the agent-first experience look like?",
+  "zh": "我认为另一件会成为现实的事情是，我们都需要思考智能体优先的体验是什么样子？"
+ },
+ {
+  "seg": 625,
+  "start": 2871.01,
+  "end": 2876.474,
+  "speaker": "Unknown",
+  "en": "And I think we've been testing some of that with the recent DoorDash CLI that we launched last week.",
+  "zh": "而且我认为我们已经在上周刚推出的 DoorDash CLI 中测试了其中一部分。"
+ },
+ {
+  "seg": 626,
+  "start": 2877.095,
+  "end": 2880.898,
+  "speaker": "Unknown",
+  "en": "But I just think there's a lot of interesting emerging use cases that can crop up.",
+  "zh": "但我认为会有很多有趣的新兴用例涌现出来。"
+ },
+ {
+  "seg": 627,
+  "start": 2881.758,
+  "end": 2894.136,
+  "speaker": "Unknown",
+  "en": "Um, once, once you start thinking about this, like one concrete example I can talk about is like someone who was really excited to use the DoorDash CLI because like, Hey, let me like basically streamline my office manager use case for my startup.",
+  "zh": "呃，一旦，一旦你开始思考这个问题，比如我可以讲一个具体的例子：有人非常兴奋地想要使用 DoorDash CLI,因为，嘿，让我基本上把自己创业公司的办公室管理员场景简化一下。"
+ },
+ {
+  "seg": 628,
+  "start": 2895.137,
+  "end": 2898.582,
+  "speaker": "Unknown",
+  "en": "And when they found out that DoorDash did more than just lunch, they're like,",
+  "zh": "而当他们发现 DoorDash 不只是送午餐时，他们说，"
+ },
+ {
+  "seg": 629,
+  "start": 2898.682,
+  "end": 2901.383,
+  "speaker": "Unknown",
+  "en": "Oh, actually, wait, DoorDash can order me convenience and groceries.",
+  "zh": "哦，其实，等等，DoorDash 还能帮我订便利店商品和杂货。"
+ },
+ {
+  "seg": 630,
+  "start": 2901.603,
+  "end": 2904.725,
+  "speaker": "Unknown",
+  "en": "So then they just pointed a camera at their pantry shelf.",
+  "zh": "于是他们就把一个摄像头对准了他们的食品储藏架。"
+ },
+ {
+  "seg": 631,
+  "start": 2905.185,
+  "end": 2911.787,
+  "speaker": "Unknown",
+  "en": "And whenever the shelf was getting empty, they would fire off the agent to basically restock the shelf.",
+  "zh": "每当储藏架快空了，他们就会启动智能体来给货架补货。"
+ },
+ {
+  "seg": 632,
+  "start": 2911.827,
+  "end": 2919.771,
+  "speaker": "Unknown",
+  "en": "So I think those types of use cases that you wouldn't really think of, but I think it's going to unlock some interesting use cases that I think...",
+  "zh": "所以我认为这些你真的不会想到的用例，但我认为它会解锁一些有趣的用例，我认为……"
+ },
+ {
+  "seg": 633,
+  "start": 2920.451,
+  "end": 2923.795,
+  "speaker": "Unknown",
+  "en": "Would not really be as feasible or possible like in today's world.",
+  "zh": "在当今的世界里并不那么可行或可能实现。"
+ },
+ {
+  "seg": 634,
+  "start": 2924.396,
+  "end": 2929.562,
+  "speaker": "Unknown",
+  "en": "But as we make things more naturally agent first, I think some of these use cases are going to become a lot more interesting.",
+  "zh": "但随着我们让各种事物变得更自然地智能体优先，我认为其中一些用例会变得有趣得多。"
+ },
+ {
+  "seg": 635,
+  "start": 2930.703,
+  "end": 2931.104,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 636,
+  "start": 2931.244,
+  "end": 2937.692,
+  "speaker": "Unknown",
+  "en": "I love how ambitious you guys are for both the user experience and the scope and scale of DoorDash.",
+  "zh": "我很欣赏你们在用户体验以及 DoorDash 的范围和规模上都如此雄心勃勃。"
+ },
+ {
+  "seg": 637,
+  "start": 2937.712,
+  "end": 2938.172,
+  "speaker": "Unknown",
+  "en": "Thanks, guys.",
+  "zh": "谢谢你们。"
+ },
+ {
+  "seg": 638,
+  "start": 2938.553,
+  "end": 2939.594,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a pleasure to be here.",
+  "zh": "是的，很高兴来到这里。"
+ },
+ {
+  "seg": 639,
+  "start": 2942.213,
+  "end": 2944.356,
+  "speaker": "Unknown",
+  "en": "Find us on Twitter at NoPriorsPod.",
+  "zh": "在 Twitter 上找我们，账号是 NoPriorsPod。"
+ },
+ {
+  "seg": 640,
+  "start": 2944.797,
+  "end": 2947.301,
+  "speaker": "Unknown",
+  "en": "Subscribe to our YouTube channel if you want to see our faces.",
+  "zh": "如果想看到我们的脸，就订阅我们的 YouTube 频道。"
+ },
+ {
+  "seg": 641,
+  "start": 2947.821,
+  "end": 2951.307,
+  "speaker": "Unknown",
+  "en": "Follow the show on Apple Podcasts, Spotify, or wherever you listen.",
+  "zh": "在 Apple Podcasts、Spotify 或任何你收听播客的地方关注本节目。"
+ },
+ {
+  "seg": 642,
+  "start": 2951.527,
+  "end": 2953.129,
+  "speaker": "Unknown",
+  "en": "That way you get a new episode every week.",
+  "zh": "这样你每周都能收到新的一集。"
+ },
+ {
+  "seg": 643,
+  "start": 2953.65,
+  "end": 2958.057,
+  "speaker": "Unknown",
+  "en": "And sign up for emails or find transcripts for every episode at no-priors.com.",
+  "zh": "并且在 no-priors.com 注册邮件或查找每一集的文字稿。"
+ }
+]

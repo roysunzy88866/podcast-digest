@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]]
+[[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"HubSpot":4,"Sequoia":4,"MongoDB":4,"Salesforce":12,"Google":35,"Microsoft":21,"McKinsey":5,"Clay":2,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"HubSpot":4,"Sequoia":4,"MongoDB":4,"Salesforce":12,"Google":35,"Microsoft":22,"McKinsey":5,"Clay":2,"Delphi":3}</script>
 
 <script>
 (function(){

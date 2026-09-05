@@ -25,7 +25,7 @@ unlisted: true
 
 [[Dmitri Dolgov]] · [[Waymo]] · [[智能体]] · [[物理 AI]] · [[LiDAR]] · [[端到端模型]] · [[模拟器]] · [[世界模型]] · [[Waymo 基础模型]] · [[结构增强型端到端]]
 
-<script type="application/json" class="pd-epn">{"Dmitri Dolgov":1,"Waymo":10,"智能体":1,"物理 AI":6,"LiDAR":1,"端到端模型":1,"模拟器":3,"世界模型":5,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Dmitri Dolgov":1,"Waymo":11,"智能体":1,"物理 AI":7,"LiDAR":1,"端到端模型":1,"模拟器":3,"世界模型":5,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

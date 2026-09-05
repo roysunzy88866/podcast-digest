@@ -25,7 +25,7 @@ unlisted: true
 
 [[Harry Stebbings]] · [[Jerry Murdock]] · [[Fireworks]] · [[前沿模型]] · [[开源模型]] · [[沙箱]] · [[智能体]] · [[推理]] · [[GPU]] · [[持续学习模型]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":9,"Jerry Murdock":1,"Fireworks":3,"前沿模型":6,"开源模型":4,"沙箱":35,"智能体":1,"推理":4,"GPU":10,"持续学习模型":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":10,"Jerry Murdock":1,"Fireworks":3,"前沿模型":6,"开源模型":4,"沙箱":35,"智能体":1,"推理":4,"GPU":10,"持续学习模型":1}</script>
 
 <script>
 (function(){

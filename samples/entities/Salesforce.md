@@ -57,7 +57,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Cursor]] · [[Cognition]] · [[Stripe]] · [[Replit]] · [[Microsoft]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":82,"Anthropic":94,"Lenny":66,"Cursor":43,"Cognition":14,"Stripe":26,"Replit":13,"Microsoft":21,"NVIDIA":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":82,"Anthropic":96,"Lenny":66,"Cursor":43,"Cognition":14,"Stripe":26,"Replit":13,"Microsoft":22,"NVIDIA":27}</script>
 
 <script>
 (function(){

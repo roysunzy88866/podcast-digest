@@ -62,11 +62,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ajaya Khatra]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]] [[Flo Crivello]]
+[[Chetan Gupta]] [[Ajaya Khatra]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":82,"Anthropic":94,"Hugging Face":17,"对齐":6,"奖励黑客":1,"智能体":1,"Matt Turk":2,"Theo Jaffe":5,"Google DeepMind":4}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":82,"Anthropic":96,"Hugging Face":18,"对齐":6,"奖励黑客":1,"智能体":1,"Matt Turk":2,"Theo Jaffe":5,"Google DeepMind":4}</script>
 
 <script>
 (function(){

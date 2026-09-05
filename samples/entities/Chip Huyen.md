@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"后训练":17,"强化学习":14,"评估":17,"RAG":7,"数据准备":1,"测试时计算":3,"系统思维":3,"采样策略":1,"监督微调":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"后训练":17,"强化学习":14,"评估":19,"RAG":7,"数据准备":1,"测试时计算":3,"系统思维":3,"采样策略":1,"监督微调":1}</script>
 
 <script>
 (function(){

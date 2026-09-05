@@ -1,0 +1,196 @@
+{
+  "title_zh": "Mercor CPO:开源模型蚕食不了数据生意",
+  "tldr": "Mercor CPO Oswald 谈开源模型为何蚕食不了数据生意、RL 环境成增长最快的数据类型，以及 AI 时代产品管理与招聘的巨变。",
+  "digest_md": "这一集聊的是一个很少被公开谈透的话题：给前沿模型供应训练数据的生意，到底会不会被开源模型、合成数据蚕食。说话的主角是 Oswald,Mercor 的 CPO(首席产品官)。\n\n> 【背景】Mercor 是一家为 AI 实验室提供人类训练数据、评测与标注服务的公司；文中提到的 Brandon 指 Mercor 的 CEO。主持人是 20VC/20Product 的 Harry Stebbings。\n\nOswald 一开场就甩出一个很反直觉的现状：「我们花钱的速度都不够快，无法满足现有的全部需求」，每个周末银行里的钱都会多出几百万——面对外界「这不是收入」的质疑，他的回应是：现金流就是疯狂的。\n\n## 开源模型蚕食不了这门生意\n\n很多人担心开源模型(Kimi 等免费开放权重、任何人可本地部署的模型)会让数据提供商失业。Oswald 的回答是：数据在模型性能的最前沿才最有价值，客户的每个实验室都有自己独特的目标，购买训练数据集是为了填补当前模型能力的空白。开源模型只是抬高了下限——「没有人会购买 Kimi K3 已经能做到的任何东西」，但只要客户还有想做得更好的新能力，生意就还在增长。\n\n主持人追问：如果 90% 的企业工作流开源模型都能做，剩下的 10% 前沿又越来越远，收入会不会越来越难赚？Oswald 说他根本不信这个 90-10 的算法：这类估算基于现有需求，但还有一整类「潜在需求」没人算进去——比如设置一个采购智能体，连续几个月把采购团队完全自动化、一周只检查一次，这种长程任务还没人尝试，而支持这些用例的数据市场正在增长。他的基准测试里，顶级模型在长程工作流上只拿到 50% 左右。更重要的是，有一类工作(法律论证、医疗建议)根本不该用「能不能做」的二元框架去衡量——要用「连续的、没有上限的奖励」去思考，永远可以更好。\n\n## ROI 问题和会涨过 3% 的 token 支出\n\n针对 Alex Karp 提出的企业 ROI 质疑，Oswald 的判断是：现在不存在 ROI 问题，我们处在探索实验期，行业还有容忍度和耐心，因为一切变化太快，ROI 计算本身都可能剧变。\n\n怎么平衡性能和预算？他说完全看场景：工程师的编码智能体支出不是 COGS(直接成本)，花得再高也可能带来复利式收益；但一个客服智能体如果 token 花费远超它服务的客户收入，那就肯定是糟糕处境。对 Salesforce 每年 3 亿美元 Anthropic 支出(约等于开发者工资的 3.8%)这个基准，他认为宏观上这个比例会随时间上涨、超过 3%——而当主持人转述 Brandon 说过会到 100%、而且他们今天的模型支出已经超过工资时，Oswald 直接承认：「是的，我们确实如此，100% 听起来很合理」。理由很简单：需求太大了，公司加入以来人数涨了 10 倍以上，收入同步增长，他们处在一场不停歇满足客户需求的竞赛里。\n\n## AI 时代做产品：更难，而不是更简单\n\n编码智能体让「更快造 10 倍产品」成为可能，但 Oswald 说这让产品管理难得多：团队要拼命对抗产品表面积的膨胀——总有人想「直接推送几千行的 PR」,而产品团队的核心战斗是简化表面积、找到最能扩展的交互和工作流。另一个结构性变化是 PM 与工程师的比例在升高，因为工程的瓶颈变小了，现在真正的瓶颈是理解用户工作流、弄清哪些产品最驱动收入。\n\n对 PM 本人的要求也变了，主要两点：一是工具技能大幅贬值——不用学那么多工具了，几个编码智能体就够，连 Figma 都在被 Claude Design 替代(团队自然迁移，还省了采购许可的摩擦)；二是所有人都必须提升到业务影响层面思考，「技能问题几乎消失了，现在全在于判断力」。\n\n他复盘了自己今年最大的产品教训：标注平台为了满足各种客户要求，做了一个极度灵活的工具，上面跑着几百个不同的项目——「那管理起来简直就是混乱」。本该更早给服务类型加上护栏，收窄支持范围；客户什么都会要求，但「我们能做，不等于我们该做」，没有持久需求的工作流不值得投入。至于怎么判断持久需求：扎根市场、持续接触各家实验室的领导者、不断验证假设——但归根结底仍是一种判断。\n\n## 服务部门的崛起：是知识传播问题，不是烂产品\n\n对「Palantir 式服务部门是不是 AI 企业部署的未来」这个争论，Oswald 的尖锐观点是：短期是，长期不是。原因不是产品烂(他不同意「服务是烂产品的借口」)，而是知识传播问题——真正懂怎么部署智能体、做评测、践行 AI first 的人高度集中在旧金山，这项技能在外界还不存在，人才也不够每家企业自建。长期看它会变成类似软件工程的常规职能，产品也会成熟到能自助完成。他估计这是一场长达十年的变革。\n\n## 招聘：偏资深，只留下「真正在乎的人」\n\nAI 之后 Mercor 的招聘明显偏向更资深的人——不是挖高管，而是把每次招聘当高管搜寻：找那种「还有饥饿感、已经把这份工作干过几年、正处在巅峰期」的人，他心中的巅峰期是 25 到 35 岁。带回家作业只剩一道：给你一段时间自己用智能体做出一个产出物——做一次就知道这个人是否精通 AI;之后是大量白板环节，考察实验设计、统计、判断力和系统设计，确保候选人不是只会照搬 Claude 的输出。\n\n对「高主观能动性但难搞」的人才，他的态度很明确：公司文化是高能动性、高性能、高所有权，性格可以磨合，「几个混蛋一起喝几次酒就磨好了」，但「让一个人真正在乎某件事，真的很难」。流失只有一种他乐于接受：去创业——「失去一个人去创办公司，比失去一个人去另一份工作要好得多」。而 AI 用法上他给团队的纪律是：判断和决策绝不能委托给模型——那条边界划在判断与执行之间，你必须对模型的输出保持偏执、复查一切，否则你会失去那块「肌肉」。\n\n## 供给的秘密与「隐私」的收入集中度\n\nMarketplace 供给侧做得好的秘诀有三：专家按时、透明、丰厚地拿到报酬；由此驱动出色的推荐机制——没人会把朋友推荐到糟糕的工作里；再加一个能在世界各个角落找到特定技能人才的寻源团队。留人靠的不是单次高薪，而是长期的高报酬、可见的未来工作、技能成长感。\n\n被问收入高度集中于前沿实验室要不要紧，Oswald 说最大的战略挑战恰恰是往下游走：让每一家企业都能自助运行人类数据项目，配上 AI 项目经理——实验室项目是白手套服务，运营极重；把它做标准化，就能服务更多更小的客户，自然稀释集中度。为什么这件事难？因为运行人类数据项目本质上是持续暴露边界情况的过程，需要客户与标注专家之间极快的对齐，加上运营团队对每个数据点完美的偏执。\n\n## 增长最快的数据：RL 环境，以及三年后的机器人\n\n现在需求增长最快的数据类型是 RL 环境(强化学习环境)：模拟的应用加一个丰富的「世界」起始状态——可能是几百上千个文件——再加训练智能体使用工具完成任务的任务。核心转变是：训练数据长得越来越像智能体部署时看到的真实场景，想学 Salesforce 就得有一个行为完全像 Salesforce 的高保真模拟。这就像当年 SFT、偏好排序刚出现时一样难搭，但现在实验室在搞通、NeoLabs 在跟进，最终企业也能做。数据生意的一个美妙之处：实验室在数据上的花费直接转化为模型能力、进而转化为它们的收入，所以「只要花的钱少于将获得的收入，他们就很乐意去扳动那个杠杆」。\n\n对「Mercor 如何成为 2000 亿美元公司」，他的逻辑是：评测和训练数据是当前模型性能的主要瓶颈；如果每家企业都要专门的专有模型，评测集就是 PRD(需求文档)兼优化目标；只要更好的模型对经济有价值，这个需求就在。三年后他会押注的新营收线是真实世界物理数据——机器人数据市场相对生成式 AI 还非常早期。面对主持人「机器人演示 15 分钟拿瓶水还是人后台操控」的调侃，他的回应是：想想十年前自动驾驶车里常年坐着安全员，而现在他坐 Waymo 比坐 Uber 还多；机器人会迎来拐点，但形态更像 Waymo/Robotaxi 时刻——物理世界的东西规模化比软件难，而不是一夜爆发的 ChatGPT 时刻。\n\n## 本集带走\n\n- **开源不蚕食数据生意，反而抬高下限**：没人买开源模型已能做的事，数据的价值在最前沿；而「90% 工作流已解决」的估算漏掉了长程智能体这类还没人尝试的潜在需求。\n- **别用二元框架看模型能力**：法律、医疗、安全这类工作没有「完成」状态，要按「连续无上限的奖励」思考——安全领域永远不会有那 90%,因为目标线一直在动。\n- **AI 让 PM 更难而不是更闲**：主动收缩产品表面积、提高 PM 对工程师的比例；工具技能贬值，判断力和业务影响思考是新的核心竞争力。\n- **判断和决策绝不外包给模型**：边界划在判断与执行之间，复查一切，否则会丧失思考能力。\n- **招人找「还在饥饿期的资深者」**：把每次招聘当高管搜寻；带回家作业就用智能体做一件事，一眼验出 AI 熟练度；能动性难教，「在乎」最难教，性格冲突反而好磨。\n- **下一波数据是 RL 环境和物理世界**：训练数据正长得越来越像部署场景；机器人数据的三年机会值得现在下注。",
+  "quotes": [
+    {
+      "en": "I wouldn't say that open source model improvements cannibalize our core business because data is most valuable on the frontier of model performance.",
+      "zh": "我不认为开源模型的进步会蚕食我们的核心业务，因为数据在模型性能的最前沿才是最有价值的。",
+      "timestamp": "04:21",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "Open source models just mean that nobody's buying anything that Kimmy K3 can already do.",
+      "zh": "开源模型只是意味着，没有人会购买 Kimi K3 已经能做到的任何东西。",
+      "timestamp": "04:49",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "So for us, it makes sense because we can't spend money fast enough to service all of the demand that we have.",
+      "zh": "所以对我们来说，这是合理的，因为我们花钱的速度都不够快，无法满足我们所有的需求。",
+      "timestamp": "13:31",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "And we also see a higher ratio of PMs to ENG because engineering is less bottlenecked.",
+      "zh": "我们也看到 PM 与工程师的比例更高了，因为工程的瓶颈变小了。",
+      "timestamp": "14:29",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "I can do things very quickly now you know it's like this skill issues have almost gone away so now it's all about judgment and am I doing what is going to drive the most business value.",
+      "zh": "我现在做事非常快，你知道，就像这类技能问题几乎消失了，所以现在全都在于判断力，以及我做的事是否能驱动最大的业务价值。",
+      "timestamp": "15:38",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "Customers are going to ask for everything. We can do it, but should we do it?",
+      "zh": "客户什么都会要求。我们能做，但我们该不该做？",
+      "timestamp": "17:11",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "It's a lot better to lose someone to starting a company than to taking another job.",
+      "zh": "失去一个人去创办公司，比失去一个人去另一份工作要好得多。",
+      "timestamp": "21:55",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "So I want very careful never to delegate judgment or decision-making to models because they make you think that it's doing the right thing, but you have to be paranoid with them still.",
+      "zh": "所以我非常小心，绝不把判断或决策委托给模型，因为它们会让你以为它做的是对的事，但你仍然必须对它们保持偏执。",
+      "timestamp": "26:37",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "It doesn't annoy me, no, because we end every week with millions more in the bank, right?",
+      "zh": "不，这不会让我恼火，因为我们每个周末银行里的钱都会多出几百万，对吧？",
+      "timestamp": "35:43",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "People want to crank it harder and harder because spend on Mercor directly translates to more revenue for our customers.",
+      "zh": "人们想要越来越用力地扳动那个杠杆，因为在 Mercor 上的花费直接转化为我们客户更多的收入。",
+      "timestamp": "41:22",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "There's never going to be that 90% for security because the goal posts are always going to move.",
+      "zh": "安全领域永远不会有那 90%,因为目标线总是在移动。",
+      "timestamp": "48:11",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "It's really hard to make someone give a shit.",
+      "zh": "但要让一个人真正在乎某件事，真的很难。",
+      "timestamp": "49:55",
+      "speaker": "Osvald Nitski"
+    },
+    {
+      "en": "They're all kind of even in that they're all behind Mercor.",
+      "zh": "他们都算是平手，因为他们全都落后于 Mercor。",
+      "timestamp": "52:18",
+      "speaker": "Osvald Nitski"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:21",
+      "speaker": "Oswald",
+      "en": "I wouldn't say that open source model improvements cannibalize our core business because data is most valuable on the frontier of model performance.",
+      "zh": "我不认为开源模型的进步会蚕食我们的核心业务，因为数据在模型性能的最前沿才是最有价值的。"
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Oswald",
+      "en": "Open source models just mean that nobody's buying anything that Kimmy K3 can already do.",
+      "zh": "开源模型只是意味着，没有人会购买 Kimi K3 已经能做到的任何东西。"
+    },
+    {
+      "timestamp": "05:22",
+      "speaker": "Oswald",
+      "en": "But there's a whole category of latent demand that people aren't even, these are things that people aren't even trying to do with models yet.",
+      "zh": "但还有一整类潜在需求，人们甚至还没——这些是人们甚至还没尝试用模型去做的事情。"
+    },
+    {
+      "timestamp": "09:50",
+      "speaker": "Oswald",
+      "en": "I don't think there's an ROI problem right now.",
+      "zh": "我不认为现在有 ROI 问题。"
+    },
+    {
+      "timestamp": "13:31",
+      "speaker": "Oswald",
+      "en": "So for us, it makes sense because we can't spend money fast enough to service all of the demand that we have.",
+      "zh": "所以对我们来说，这是合理的，因为我们花钱的速度都不够快，无法满足我们所有的需求。"
+    },
+    {
+      "timestamp": "14:29",
+      "speaker": "Oswald",
+      "en": "And we also see a higher ratio of PMs to ENG because engineering is less bottlenecked.",
+      "zh": "我们也看到 PM 与工程师的比例更高了，因为工程的瓶颈变小了。"
+    },
+    {
+      "timestamp": "15:38",
+      "speaker": "Oswald",
+      "en": "I can do things very quickly now you know it's like this skill issues have almost gone away so now it's all about judgment and am I doing what is going to drive the most business value.",
+      "zh": "我现在做事非常快，你知道，就像这类技能问题几乎消失了，所以现在全都在于判断力，以及我做的事是否能驱动最大的业务价值。"
+    },
+    {
+      "timestamp": "17:12",
+      "speaker": "Oswald",
+      "en": "Customers are going to ask for everything. We can do it, but should we do it?",
+      "zh": "客户什么都会要求。我们能做，但我们该不该做？"
+    },
+    {
+      "timestamp": "19:41",
+      "speaker": "Oswald",
+      "en": "I think it's the future for the short term as the knowledge of how to use AI gets disseminated throughout industry.",
+      "zh": "我认为短期内它是未来，因为如何使用 AI 的知识正在整个行业中传播。"
+    },
+    {
+      "timestamp": "20:33",
+      "speaker": "Oswald",
+      "en": "I think that it's a knowledge dissemination problem.",
+      "zh": "我认为这是一个知识传播问题。"
+    },
+    {
+      "timestamp": "21:55",
+      "speaker": "Oswald",
+      "en": "It's a lot better to lose someone to starting a company than to taking another job.",
+      "zh": "失去一个人去创办公司，比失去一个人去另一份工作要好得多。"
+    },
+    {
+      "timestamp": "26:37",
+      "speaker": "Oswald",
+      "en": "So I want very careful never to delegate judgment or decision-making to models because they make you think that it's doing the right thing, but you have to be paranoid with them still.",
+      "zh": "所以我非常小心，绝不把判断或决策委托给模型，因为它们会让你以为它做的是对的事，但你仍然必须对它们保持偏执。"
+    },
+    {
+      "timestamp": "35:43",
+      "speaker": "Oswald",
+      "en": "It doesn't annoy me, no, because we end every week with millions more in the bank, right?",
+      "zh": "不，这不会让我恼火，因为我们每个周末银行里的钱都会多出几百万，对吧？"
+    },
+    {
+      "timestamp": "41:22",
+      "speaker": "Oswald",
+      "en": "People want to crank it harder and harder because spend on Mercor directly translates to more revenue for our customers.",
+      "zh": "人们想要越来越用力地扳动那个杠杆，因为在 Mercor 上的花费直接转化为我们客户更多的收入。"
+    },
+    {
+      "timestamp": "44:12",
+      "speaker": "Oswald",
+      "en": "So it's a totally healthy thing to happen as long as Mercor is winning.",
+      "zh": "所以只要 Mercor 在赢，这就是一件完全健康的事情。"
+    },
+    {
+      "timestamp": "48:01",
+      "speaker": "Oswald",
+      "en": "There's never going to be that 90% for security because the goal posts are always going to move.",
+      "zh": "安全领域永远不会有那 90%,因为目标线总是在移动。"
+    },
+    {
+      "timestamp": "49:55",
+      "speaker": "Oswald",
+      "en": "It's really hard to make someone give a shit.",
+      "zh": "但要让一个人真正在乎某件事，真的很难。"
+    },
+    {
+      "timestamp": "52:15",
+      "speaker": "Oswald",
+      "en": "They're all kind of even in that they're all behind Mercor.",
+      "zh": "他们都算是平手，因为他们全都落后于 Mercor。"
+    }
+  ],
+  "voice_script": "先说个反直觉的事:有一家给 AI 实验室卖数据的公司,每个周末银行里的钱都会多出几百万,CEO 却说烦恼是——我们花钱的速度,都赶不上客户需求来的速度。这一期聊的就是这门生意的底层逻辑:开源模型满天飞,数据生意到底会不会被蚕食?说话的人是 Mercor 的首席产品官 Oswald,公司就是专门给前沿实验室提供训练数据和评测的那家,一句话概括,站在 AI 供应链最上游。\n\n很多人担心,开源模型都免费了,谁还买数据?Oswald 的回答特别干脆:数据在最前沿才最值钱。每个实验室都有自己想突破的能力空白,买数据就是为了填这个空白。开源模型干的事,是抬高整个行业的下限——没人会花钱买 Kimi 已经能做到的东西,但只要实验室还想做得更好,这门生意就还在涨。\n\n主持人不服,追了一句:都说 90% 的企业工作流开源模型就能搞定,剩下 10% 的前沿越来越远,钱是不是越来越难赚?Oswald 说,他根本不信这个算法。因为这类估算只算了现有需求,漏掉了一整类潜在需求——比如让一个采购智能体连续干几个月、把整个团队自动化、人一周只看一次,这种长程任务还没人真正做成。在他的基准测试里,顶级模型干这种活只拿 50 分左右。这里还有个更关键的思维方式:像法律论证、医疗建议这类工作,压根不该用能不能做来打分,它是一根没有上限的连续奖励,永远可以更好。所以那条 90% 的线,实际上一直在动。\n\n那 AI 企业的 ROI 问题呢?他判断,现在根本不存在 ROI 问题,整个行业还在探索期,有耐心,因为变化太快,连 ROI 怎么算都可能被颠覆。至于模型支出会不会一直涨——主持人提到 Mercor 自己的模型花费已经超过了员工工资,是不是会到 100%?Oswald 直接承认:确实如此,100% 听起来很合理。需求太大了,公司人数涨了十倍以上,收入同步在涨。\n\n有意思的是,编码智能体让造产品快了十倍,但 Oswald 说,这让产品经理这份工作更难了,不是更闲。因为总有人想直接推送几千行代码,而产品团队真正的战斗,是收缩产品表面积,砍掉不该做的功能。他自己今年最大的教训就是这个:为了满足客户各种要求,做了一个极度灵活的标注平台,上面跑着几百个项目,管理起来就是混乱。一句很值得记住的话——客户什么都会要求,我们能做,不等于我们该做。而且工具技能在大幅贬值,连 Figma 都在被智能体替代,技能问题几乎消失了,现在全看判断力。\n\n招聘逻辑也变了。不是挖高管,而是把每一次招聘都当高管搜寻来找:找那种已经把这份工作干过几年、还有饥饿感的人。带回家作业只剩一道题,给你时间,自己用智能体做出一个产出物——做过一次,这个人对 AI 熟不熟,一眼就看出来。但对难搞的人才,态度也鲜明:性格可以磨,几个混蛋一起喝几次酒就磨好了,可让一个人真正在乎某件事,真的很难。\n\n最后说说未来。现在增长最快的数据类型,是 RL 环境——说白了,就是给智能体搭一个高度仿真的世界,比如几百上千个文件,再给它任务,让它学着用工具完成。训练数据正长得越来越像智能体部署时看到的真实场景。再往后看三年,他押的是真实世界的物理数据——机器人这一波。怎么形容?想想十年前自动驾驶车里常年坐着安全员,今天坐 Waymo 比坐 Uber 还安心。机器人会迎来拐点,但那是 Waymo 时刻,不是一夜爆发的 ChatGPT 时刻。\n\n整期听下来,最值得带走的是这一句:数据在模型性能的最前沿才最有价值——开源抬高的是所有人的下限,而真正值钱的,永远是没人做得到的那一段。"
+}

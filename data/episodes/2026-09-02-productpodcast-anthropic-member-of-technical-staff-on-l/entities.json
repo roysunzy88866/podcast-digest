@@ -1,0 +1,819 @@
+{
+  "episode_id": "2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l",
+  "podcast": "The Product Podcast",
+  "date": "2026-09-02",
+  "tags": [
+    "前置部署工程",
+    "职业选择",
+    "人才战争",
+    "组织文化",
+    "AI 应用落地"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "amandeep-khurana",
+      "type": "person",
+      "role": "host",
+      "name": "Amandeep Khurana",
+      "file": "Amandeep Khurana",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7,
+            21
+          ],
+          "quote": "You recently joined Anthropic, and you have a pretty amazing career. I know you started as an entrepreneur, then you took the blue pill and went to Amazon, and then you kind of took the red pill and went back to building. Amandeep Khurana, Member of Technical Staff at Anthropic.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集嘉宾任职的公司：把前置部署工程正式化为一个职能，人人头衔都是 MTS，靠使命对齐与增长中的股票授予留住人才。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7,
+            21
+          ],
+          "quote": "You recently joined Anthropic, and you have a pretty amazing career. I know you started as an entrepreneur, then you took the blue pill and went to Amazon, and then you kind of took the red pill and went back to building. Amandeep Khurana, Member of Technical Staff at Anthropic.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 10,
+          "t": [
+            119,
+            127
+          ],
+          "quote": "Yeah, thank you, and thank you for the opportunity. It's going to be an interesting one. It'll be fun, and it is a different conversation for sure. From Entrepreneur to Amazon to Anthropic",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 11,
+          "t": [
+            127,
+            153
+          ],
+          "quote": "You've been a collaborator behind the scenes, and I appreciate that, but I wanted to bring you on stage, especially because you recently joined Anthropic, and you have a pretty amazing career. I know you started as an entrepreneur, then you took the blue pill and went to Amazon, and then you took the red pill and went back to building, but now with Anthropic. So I want to understand a little bit more about that part of your journey.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 16,
+          "t": [
+            421,
+            463
+          ],
+          "quote": "That's true. So the story there: I do this thing at Amazon, five and a half years in, and I said, \"Okay, I'm ready for something new, and I'm going to go build a company.\" I made up my mind, I resigned from Amazon. And then about a couple of weeks into it, I get an offer from Anthropic to come in and be part of forward deployed engineering. When that conversation was happening, I did say, \"Hey, can you just make me an IC forward deployed engineer? Because this is just so much fun, I want to do this.\" And the hiring manager for that particular role refused. He said, \"No, I want you to come in and lead the team, be a leader on the team.\" So I said, \"Okay, fine, whatever the company needs, we'll make it happen.\" What Forward Deployed Engineering Actually Is",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 17,
+          "t": [
+            463,
+            466
+          ],
+          "quote": "So tell me more about your current team. What do you really do at Anthropic?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 18,
+          "t": [
+            466,
+            544
+          ],
+          "quote": "Anthropic had recently started a forward deployed engineering function. Now, we had PhDs, we had people working with customers on implementations, so the concept is not new at Anthropic, but we formalized it as a function relatively recently. I'm part of that function, and I manage a part of it. I've got a bunch of forward deployed engineers working with a number of external and internal initiatives: working with customers, working on internal projects, and really bringing AI into the world in a safe manner, aligned with the charter and mission of the company. These can be projects of all kinds. Internal projects might be, \"Oh, there's a new product we're building, let's go try it out,\" or, \"There's a new initiative that impacts Anthropic's operations, so let's bring AI into that.\" And then, working with customers on identifying use cases that can transform the way they do certain workflows and processes, and then going and building those out. So it's the applied side of AI. Some of the folks also get involved a little bit in the research on the model side of things, but not in the training. It's still once the model is at different stages of its training that people get involved.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 20,
+          "t": [
+            573,
+            799
+          ],
+          "quote": "I would not call us the pioneers of this. The concept of forward deployed engineering has existed for a very, very long time. Microsoft is the OG of this; they used to do it several decades ago. And the current incarnation of the term was popularized by Palantir back in the 2006, 2007, 2008 time frame, so from 2008 onwards. So we're not the pioneers at all. In fact, we are learning from them and seeing how we take all of that and adapt it to the business we're building. The way I think about it: in any company building and selling a product, there are two things, and everything else is a supporting function. What does selling a product entail? There's the technical selling of it: your typical solution architect or systems engineer persona who comes in, drills through the demos, shows you the use cases, and walks you through the architectures, depending on the product you're selling. So it's technical pieces tied to certain accounts or verticals, and they're incentivized to close the deal. Then there's post-sales, which could be one of two ways: \"I'm going to help you implement the thing you bought,\" or, \"Now it's implemented and I'm going to be the service or customer support team, so if something goes wrong, you call us and we'll help you fix it.\" Note that in both cases, the product team builds something technical, and the go-to-market teams, both pre- and post-sales, go make the customer successful with what the product team built. FDE, forward deployed engineering, is actually different. There are a couple of things that are different from traditional professional services, which is the post-implementation work. One: in typical professional services, I'm going to give you my time and you're going to give me money. The exchange is time and money, and you tell me what you want me to do and I'll do it for you. I'm simplifying it, but generally that's how it works. One of the core parts of FDE is that it's not that I'm going to just give you my time and do whatever you want. It's that we're going to align on an outcome. We might even spend time together to identify the right outcome for the business based on the overall goals. I'm going to align on that, and then I'm in it with you. We're going to make it happen. So there's a lot more ownership in that relationship, as opposed to, \"You just tell me what to do and I'm your implementation person.\" The second component is that whatever work we do will feed back into the product. In Anthropic's case, part of it feeds into the research as well, because that's how you build the flywheel. So FDE as a function is very closely tied to the product and engineering function, and that's where the value gets created. Every engagement should produce a couple of things for us. One, feedback into product. Two, it needs to create some sort of blueprint or playbook, so we don't have to do that type of engagement again. It's a first-of-a-kind, tip-of-the-spear problem that hasn't been solved before. We come in and help solve it, and then that becomes a template that either gets productized, or we give it to customers to build themselves if appropriate, or we give it to partners to scale up. There are a bunch of system integrator partners that will take those templates and say, \"This is how you do this in a bank.\" So that's how we think about it. We're not trying to build or scale a professional services arm. This is essentially to figure out how to bring this technology into the real world in the best possible way, and then take all those learnings, templatize them, and give them away, either as product or as blueprints. The Three Filters for Choosing Customers",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 23,
+          "t": [
+            859,
+            873
+          ],
+          "quote": "Where do these PhDs come from? Because if you go to LinkedIn, everybody calls themselves either an APM or a forward deployed engineer or whatever they want to call themselves. But realistically, what does it take to become an FDE at Anthropic?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 26,
+          "t": [
+            963,
+            1034
+          ],
+          "quote": "As far as I know, we have not really had a problem from a retention perspective so far. Anthropic has been growing very, very fast, and the stock grants are worth more than what you got three or six months ago. Competition has not been a reason why we've seen any attrition, and Anthropic generally has not seen attrition, from what I understand. Now, again, it's a very young company, so we still have to keep doing what we're doing and keep raising the bar for ourselves. In the long term, this has yet to play out. But we are a very, very principled company, and people who join Anthropic are generally very aligned with that set of principles. That's one of the primary drivers when people join us, and we screen for that in the interview. Having said that, you're right that the comp packages are very generous within the labs, much more so than the FAANG companies, which was not true five or six years ago. The FAANG companies were the biggest, or the healthiest, paymasters. That has definitely changed now.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 27,
+          "t": [
+            1034,
+            1074
+          ],
+          "quote": "I want to share a quick anecdote you and I talked about, and you gave me permission to put it here: in your case, other companies tried to hire you for even more money than Anthropic offered, and you're really one of the few who chose mission over comp, assuming there's a certain level of comp that makes you comfortable enough. So it's true that now a lot of these talented professionals working at the labs are being treated like NBA players, and the comp packages we're seeing are absolutely insane. And I just don't know how long this talent war is going to last.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 28,
+          "t": [
+            1074,
+            1212
+          ],
+          "quote": "Yes. In my case, there were a couple of opportunities that would have paid more, even two to three times more. My decision criteria was actually very simple. My heart felt pulled in this direction, and historically I have not operated from my heart, I've operated from my mind. This time I wanted to do it differently. My heart pulled in this direction, and I followed it. Why did the heart pull in this direction? Really because I felt connected to the mission, and it resonated. And everybody I met, and how they talked about how the mission and principles actually play out in practice on a day-to-day basis, that resonated for me. So that's why I chose this direction. In terms of the talent wars, my line of thinking is: if AI is to play out all the benefits we talk about, ranging from medicine to bio research to chemicals to everything, then the understanding of AI, especially on the applied side, has to be taken to the market, and there needs to be diffusion of it. Otherwise, if it only remains with a small set of people, AI will not play out at the scale of humanity. It will remain concentrated among a very small group, and limited to the impact that small group can have. So I believe it's our job and our responsibility to diffuse this: to train people, to teach, to make it easier to deploy, to make it easier to build, and so on. And that's very much part of Anthropic's line of thinking. If you start to think about open weights models, that's another form of diffusion. These capabilities are not all just behind paywalls now; you have to pay for infrastructure, but you have these open weights models, and you have choice available to you. So that's another form of diffusion happening. The same thing has to happen with talent. If you look historically, in the late 90s website developers were rare, and they used to charge a bomb. Well, today you just go to any of these tools, you go to Lovable and type one single thing, and it's going to give you a full app. So diffusion happens in every industry over time, and it's going to happen here as well. Winning the Game vs. Seeing Its Futility",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 30,
+          "t": [
+            1257,
+            1367
+          ],
+          "quote": "Naval Ravikant says this: that to be free of a game, you have to first win the game, and only then do you realize the futility of the game, and then you're free of it. I think he's right, but only partly right. It's 90% right. The thing that's missing is that to realize the futility of the game, there are a number of other ways you can get there; it's not just winning the game. You can realize the futility of the game in other ways. How I realized the futility of the game was as I reflected on my journey. I wasn't a director at Amazon, I wasn't a VP at Amazon, for instance. So it's not that I got to VP and then said, \"What's the big deal, I can just give this up.\" I was very much on that ladder of growth, for that definition of growth. But I also found myself just not any happier as I grew. It just kind of wasn't cutting it. Then I had a few experiences that made me go through this thinking: I went from point A to point B, I didn't feel any different. I went from point A to point C, I didn't feel any different. What were the things missing for me at each of these points? I started to see a consistency for myself: there was just not enough heart involved in each of those steps. So that realization, over several years, not overnight, led me to this place of, \"I've got to at least give it a shot and see what happens. I owe it to myself to let my heart be the leader here.\" Now, it doesn't hurt that the company is Anthropic. It doesn't hurt that they pay well. So I'm not compromising on anything from a quality-of-life perspective. If anything, it's an awesome brand and a fantastic group of people. So I won't say I'm free of the game; that's not the right characterization. I can see the futility of it, but I haven't freed myself of it.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 32,
+          "t": [
+            1391,
+            1446
+          ],
+          "quote": "Totally, absolutely. What you're pointing to is incredibly important. I certainly got wrapped up in the game that was defined by somebody else. The rules were defined by somebody else, what good looks like is defined by somebody else, and some of those things just did not align with how I saw the world and the life I wanted to live. For instance, I value health and community. If I need to be a VP at any company and work 60 hours a week, I won't be able to pay attention to my community, my family, and my health. That's just how it is. And you see this, right? I don't want to be 70 years old, sick, not very healthy, sitting on $50 million. That trade just didn't make sense to me. So that's an example of me observing the game, evaluating it for myself, and saying, \"Does this fit me?\" And it just didn't fit me. Why Everyone at Anthropic Shares One Title",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 33,
+          "t": [
+            1446,
+            1461
+          ],
+          "quote": "One of the mechanisms I think Anthropic is using, which is very smart, is that everybody is a Member of Technical Staff. So tell me more about it. How are people okay with using the same term regardless of level?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1461,
+            1540
+          ],
+          "quote": "This is a culture thing, and people self-select into it. If I'm in a meeting with somebody who would have been a VP, let's say I'm at Amazon in a meeting with a VP, I'm in a meeting with the VP. Their word carries more weight than my word. There's an implicit authority relationship there. At Anthropic, I'm in a meeting with Andrej Karpathy, an absolute celebrity, so deep in the space, someone so many people look up to, including me. When he introduces himself, sure, I know who Andrej is, but he's an MTS and I'm an MTS. So the titles almost don't matter. Now, let's assume I didn't know who Andrej is, that I was living under a rock and had never heard his name. I'm in a meeting with him, having a discussion. Titles? His says MTS, mine says MTS. I look him up in the company directory: MTS. So we're on equal footing in that conversation. It's all about that conversation, what you're bringing to it, adding value to it, and having respect for the other individual, not because of their title, but because of their ideas. So people just bring it; people self-select into it. That's why I don't have a problem with the title. I'm an MTS, the people who report to me are MTS, I report to an MTS. Yeah, okay, whatever.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 35,
+          "t": [
+            1540,
+            1548
+          ],
+          "quote": "That's a great way to wrap this. Amandeep, thank you so much for your time, and for giving us an insider's view into how Anthropic is doing things.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集说嘉宾在此待了五年半、做了四个从零到一项目，并在 2023 年主动放弃管理职责回归 IC；也是隐性权威文化的对照例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7,
+            21
+          ],
+          "quote": "You recently joined Anthropic, and you have a pretty amazing career. I know you started as an entrepreneur, then you took the blue pill and went to Amazon, and then you kind of took the red pill and went back to building. Amandeep Khurana, Member of Technical Staff at Anthropic.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 10,
+          "t": [
+            119,
+            127
+          ],
+          "quote": "Yeah, thank you, and thank you for the opportunity. It's going to be an interesting one. It'll be fun, and it is a different conversation for sure. From Entrepreneur to Amazon to Anthropic",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 11,
+          "t": [
+            127,
+            153
+          ],
+          "quote": "You've been a collaborator behind the scenes, and I appreciate that, but I wanted to bring you on stage, especially because you recently joined Anthropic, and you have a pretty amazing career. I know you started as an entrepreneur, then you took the blue pill and went to Amazon, and then you took the red pill and went back to building, but now with Anthropic. So I want to understand a little bit more about that part of your journey.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 12,
+          "t": [
+            153,
+            299
+          ],
+          "quote": "Yeah, for sure. Let me give some background context. I trained as an engineer and took up a typical engineering job back in the 2010, 2011 time frame. I went to work for AWS at that time. What I found was that while I enjoyed the engineering work, the hands-on engineering, it just wasn't enough for me. It wasn't really what I truly wanted to do. I got an opportunity to work at a startup and go work with customers, and I had no idea what that entailed. So I took it on and moved to the Valley. The company was called Cloudera. I became a solution architect and did all kinds of customer-facing and partner-facing work there. I spent five years, did a bunch of different projects, worked with a bunch of different customers, and I really loved it. Through that experience, I also learned, just by osmosis, what company building looks like. I had this dream in the back of my mind that I wanted to be a business person at some point, and I don't know where it came from. I think it came from watching my dad build his business. So I wanted to do that. I said, \"You know what, I'm in the Valley, the game to be played here is to go build a business.\" So I started thinking about it, found a set of problems I got excited about, and said, \"I'm going to go do this.\" That's how I started my company, in 2016. That company eventually exited to Databricks. Awesome experience, lots of learnings, lots of ups and downs along the way. In 2020, Covid hit, and I wanted to start another company, but it just didn't happen. I said I need to do something. A friend of mine was at Amazon at the time. He calls me and says, \"Hey, you're up to no good, why don't you come here and help me build this line of business?\" So I said, fine, whatever ideas I'm working on aren't quite working out, so maybe I'll go do this and not burn through my savings. I joined Amazon and ended up spending five and a half years there, building different kinds of things from the ground up. I did four zero-to-one initiatives, two of them in the AI space. And even there the journey is interesting, because I went from being an IC, to a management role owning both product and engineering, to then giving up all the management responsibilities and becoming an IC product manager back in 2023, because I just wanted to.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 13,
+          "t": [
+            299,
+            328
+          ],
+          "quote": "I want to stop you there, because it's pretty unique. A lot of times people want to grow in their careers and assume that means managing more people, and you kind of did that as a general manager at Amazon. And then it seems like you chose to go back, quote-unquote, to being an IC. Now it's cool again, right? But I think it wasn't that obvious or cool in 2023, and I want to understand more about that rationale.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 15,
+          "t": [
+            408,
+            421
+          ],
+          "quote": "So you try it, and I think you liked it, because when you left Amazon, you wanted to either build your own business again or continue working as an IC. But then you didn't choose either of those two.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 16,
+          "t": [
+            421,
+            463
+          ],
+          "quote": "That's true. So the story there: I do this thing at Amazon, five and a half years in, and I said, \"Okay, I'm ready for something new, and I'm going to go build a company.\" I made up my mind, I resigned from Amazon. And then about a couple of weeks into it, I get an offer from Anthropic to come in and be part of forward deployed engineering. When that conversation was happening, I did say, \"Hey, can you just make me an IC forward deployed engineer? Because this is just so much fun, I want to do this.\" And the hiring manager for that particular role refused. He said, \"No, I want you to come in and lead the team, be a leader on the team.\" So I said, \"Okay, fine, whatever the company needs, we'll make it happen.\" What Forward Deployed Engineering Actually Is",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 30,
+          "t": [
+            1257,
+            1367
+          ],
+          "quote": "Naval Ravikant says this: that to be free of a game, you have to first win the game, and only then do you realize the futility of the game, and then you're free of it. I think he's right, but only partly right. It's 90% right. The thing that's missing is that to realize the futility of the game, there are a number of other ways you can get there; it's not just winning the game. You can realize the futility of the game in other ways. How I realized the futility of the game was as I reflected on my journey. I wasn't a director at Amazon, I wasn't a VP at Amazon, for instance. So it's not that I got to VP and then said, \"What's the big deal, I can just give this up.\" I was very much on that ladder of growth, for that definition of growth. But I also found myself just not any happier as I grew. It just kind of wasn't cutting it. Then I had a few experiences that made me go through this thinking: I went from point A to point B, I didn't feel any different. I went from point A to point C, I didn't feel any different. What were the things missing for me at each of these points? I started to see a consistency for myself: there was just not enough heart involved in each of those steps. So that realization, over several years, not overnight, led me to this place of, \"I've got to at least give it a shot and see what happens. I owe it to myself to let my heart be the leader here.\" Now, it doesn't hurt that the company is Anthropic. It doesn't hurt that they pay well. So I'm not compromising on anything from a quality-of-life perspective. If anything, it's an awesome brand and a fantastic group of people. So I won't say I'm free of the game; that's not the right characterization. I can see the futility of it, but I haven't freed myself of it.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1461,
+            1540
+          ],
+          "quote": "This is a culture thing, and people self-select into it. If I'm in a meeting with somebody who would have been a VP, let's say I'm at Amazon in a meeting with a VP, I'm in a meeting with the VP. Their word carries more weight than my word. There's an implicit authority relationship there. At Anthropic, I'm in a meeting with Andrej Karpathy, an absolute celebrity, so deep in the space, someone so many people look up to, including me. When he introduces himself, sure, I know who Andrej is, but he's an MTS and I'm an MTS. So the titles almost don't matter. Now, let's assume I didn't know who Andrej is, that I was living under a rock and had never heard his name. I'm in a meeting with him, having a discussion. Titles? His says MTS, mine says MTS. I look him up in the company directory: MTS. So we're on equal footing in that conversation. It's all about that conversation, what you're bringing to it, adding value to it, and having respect for the other individual, not because of their title, but because of their ideas. So people just bring it; people self-select into it. That's why I don't have a problem with the title. I'm an MTS, the people who report to me are MTS, I report to an MTS. Yeah, okay, whatever.",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集说嘉宾的职业生涯起点，2010、2011 年前后在那里做工程师，后来发现动手工程对他来说不够。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 12,
+          "t": [
+            153,
+            299
+          ],
+          "quote": "Yeah, for sure. Let me give some background context. I trained as an engineer and took up a typical engineering job back in the 2010, 2011 time frame. I went to work for AWS at that time. What I found was that while I enjoyed the engineering work, the hands-on engineering, it just wasn't enough for me. It wasn't really what I truly wanted to do. I got an opportunity to work at a startup and go work with customers, and I had no idea what that entailed. So I took it on and moved to the Valley. The company was called Cloudera. I became a solution architect and did all kinds of customer-facing and partner-facing work there. I spent five years, did a bunch of different projects, worked with a bunch of different customers, and I really loved it. Through that experience, I also learned, just by osmosis, what company building looks like. I had this dream in the back of my mind that I wanted to be a business person at some point, and I don't know where it came from. I think it came from watching my dad build his business. So I wanted to do that. I said, \"You know what, I'm in the Valley, the game to be played here is to go build a business.\" So I started thinking about it, found a set of problems I got excited about, and said, \"I'm going to go do this.\" That's how I started my company, in 2016. That company eventually exited to Databricks. Awesome experience, lots of learnings, lots of ups and downs along the way. In 2020, Covid hit, and I wanted to start another company, but it just didn't happen. I said I need to do something. A friend of mine was at Amazon at the time. He calls me and says, \"Hey, you're up to no good, why don't you come here and help me build this line of business?\" So I said, fine, whatever ideas I'm working on aren't quite working out, so maybe I'll go do this and not burn through my savings. I joined Amazon and ended up spending five and a half years there, building different kinds of things from the ground up. I did four zero-to-one initiatives, two of them in the AI space. And even there the journey is interesting, because I went from being an IC, to a management role owning both product and engineering, to then giving up all the management responsibilities and becoming an IC product manager back in 2023, because I just wanted to.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 14,
+          "t": [
+            328,
+            408
+          ],
+          "quote": "You're right, it wasn't cool. It wasn't something a lot of people were doing. I found myself in a place where there was this opportunity in front of me, which was an IC opportunity, and it was in a domain I wanted to learn and didn't know anything about. If there had been a management opportunity, I might have picked that over the IC opportunity. But I said, \"Look, I want to learn this thing. I want to get involved. Let me just jump in and see what happens, and let me learn,\" because I'm not going to learn a ton if I continue spending a large chunk of my time on org building or management work. I wanted to be hands-on. That was one. Second, I spoke with a few folks at AWS at the time who had done similar transitions, who had gone from a VP role to an IC role and then eventually back into a leadership role. I asked them how they thought about it, and they advised me with some perspectives. So I took that on and said, \"I'll give it a shot. I have nothing to lose here. Worst case, I'm going to learn about this new domain. Best case, I'm going to learn about this new domain. And as this team grows, there might be management opportunities I can take on.\" So that's how I thought about it. It wasn't where it is today. For me, it was: I want to learn that thing, I want to be hands-on, and we'll see what happens.",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "cloudera",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudera",
+      "file": "Cloudera",
+      "primary": true,
+      "how_described": "本集说嘉宾在硅谷加入的第一家初创公司，做了五年解决方案架构师，做面向客户和合作伙伴的工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 12,
+          "t": [
+            153,
+            299
+          ],
+          "quote": "Yeah, for sure. Let me give some background context. I trained as an engineer and took up a typical engineering job back in the 2010, 2011 time frame. I went to work for AWS at that time. What I found was that while I enjoyed the engineering work, the hands-on engineering, it just wasn't enough for me. It wasn't really what I truly wanted to do. I got an opportunity to work at a startup and go work with customers, and I had no idea what that entailed. So I took it on and moved to the Valley. The company was called Cloudera. I became a solution architect and did all kinds of customer-facing and partner-facing work there. I spent five years, did a bunch of different projects, worked with a bunch of different customers, and I really loved it. Through that experience, I also learned, just by osmosis, what company building looks like. I had this dream in the back of my mind that I wanted to be a business person at some point, and I don't know where it came from. I think it came from watching my dad build his business. So I wanted to do that. I said, \"You know what, I'm in the Valley, the game to be played here is to go build a business.\" So I started thinking about it, found a set of problems I got excited about, and said, \"I'm going to go do this.\" That's how I started my company, in 2016. That company eventually exited to Databricks. Awesome experience, lots of learnings, lots of ups and downs along the way. In 2020, Covid hit, and I wanted to start another company, but it just didn't happen. I said I need to do something. A friend of mine was at Amazon at the time. He calls me and says, \"Hey, you're up to no good, why don't you come here and help me build this line of business?\" So I said, fine, whatever ideas I'm working on aren't quite working out, so maybe I'll go do this and not burn through my savings. I joined Amazon and ended up spending five and a half years there, building different kinds of things from the ground up. I did four zero-to-one initiatives, two of them in the AI space. And even there the journey is interesting, because I went from being an IC, to a management role owning both product and engineering, to then giving up all the management responsibilities and becoming an IC product manager back in 2023, because I just wanted to.",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集提到嘉宾 2016 年创办的公司最终被 Databricks 收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 12,
+          "t": [
+            153,
+            299
+          ],
+          "quote": "Yeah, for sure. Let me give some background context. I trained as an engineer and took up a typical engineering job back in the 2010, 2011 time frame. I went to work for AWS at that time. What I found was that while I enjoyed the engineering work, the hands-on engineering, it just wasn't enough for me. It wasn't really what I truly wanted to do. I got an opportunity to work at a startup and go work with customers, and I had no idea what that entailed. So I took it on and moved to the Valley. The company was called Cloudera. I became a solution architect and did all kinds of customer-facing and partner-facing work there. I spent five years, did a bunch of different projects, worked with a bunch of different customers, and I really loved it. Through that experience, I also learned, just by osmosis, what company building looks like. I had this dream in the back of my mind that I wanted to be a business person at some point, and I don't know where it came from. I think it came from watching my dad build his business. So I wanted to do that. I said, \"You know what, I'm in the Valley, the game to be played here is to go build a business.\" So I started thinking about it, found a set of problems I got excited about, and said, \"I'm going to go do this.\" That's how I started my company, in 2016. That company eventually exited to Databricks. Awesome experience, lots of learnings, lots of ups and downs along the way. In 2020, Covid hit, and I wanted to start another company, but it just didn't happen. I said I need to do something. A friend of mine was at Amazon at the time. He calls me and says, \"Hey, you're up to no good, why don't you come here and help me build this line of business?\" So I said, fine, whatever ideas I'm working on aren't quite working out, so maybe I'll go do this and not burn through my savings. I joined Amazon and ended up spending five and a half years there, building different kinds of things from the ground up. I did four zero-to-one initiatives, two of them in the AI space. And even there the journey is interesting, because I went from being an IC, to a management role owning both product and engineering, to then giving up all the management responsibilities and becoming an IC product manager back in 2023, because I just wanted to.",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": true,
+      "how_described": "本集说前置部署工程这个术语的当前形态是 Palantir 在 2008 年前后推广开的，Anthropic 正在向他们学习。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            573,
+            799
+          ],
+          "quote": "I would not call us the pioneers of this. The concept of forward deployed engineering has existed for a very, very long time. Microsoft is the OG of this; they used to do it several decades ago. And the current incarnation of the term was popularized by Palantir back in the 2006, 2007, 2008 time frame, so from 2008 onwards. So we're not the pioneers at all. In fact, we are learning from them and seeing how we take all of that and adapt it to the business we're building. The way I think about it: in any company building and selling a product, there are two things, and everything else is a supporting function. What does selling a product entail? There's the technical selling of it: your typical solution architect or systems engineer persona who comes in, drills through the demos, shows you the use cases, and walks you through the architectures, depending on the product you're selling. So it's technical pieces tied to certain accounts or verticals, and they're incentivized to close the deal. Then there's post-sales, which could be one of two ways: \"I'm going to help you implement the thing you bought,\" or, \"Now it's implemented and I'm going to be the service or customer support team, so if something goes wrong, you call us and we'll help you fix it.\" Note that in both cases, the product team builds something technical, and the go-to-market teams, both pre- and post-sales, go make the customer successful with what the product team built. FDE, forward deployed engineering, is actually different. There are a couple of things that are different from traditional professional services, which is the post-implementation work. One: in typical professional services, I'm going to give you my time and you're going to give me money. The exchange is time and money, and you tell me what you want me to do and I'll do it for you. I'm simplifying it, but generally that's how it works. One of the core parts of FDE is that it's not that I'm going to just give you my time and do whatever you want. It's that we're going to align on an outcome. We might even spend time together to identify the right outcome for the business based on the overall goals. I'm going to align on that, and then I'm in it with you. We're going to make it happen. So there's a lot more ownership in that relationship, as opposed to, \"You just tell me what to do and I'm your implementation person.\" The second component is that whatever work we do will feed back into the product. In Anthropic's case, part of it feeds into the research as well, because that's how you build the flywheel. So FDE as a function is very closely tied to the product and engineering function, and that's where the value gets created. Every engagement should produce a couple of things for us. One, feedback into product. Two, it needs to create some sort of blueprint or playbook, so we don't have to do that type of engagement again. It's a first-of-a-kind, tip-of-the-spear problem that hasn't been solved before. We come in and help solve it, and then that becomes a template that either gets productized, or we give it to customers to build themselves if appropriate, or we give it to partners to scale up. There are a bunch of system integrator partners that will take those templates and say, \"This is how you do this in a bank.\" So that's how we think about it. We're not trying to build or scale a professional services arm. This is essentially to figure out how to bring this technology into the real world in the best possible way, and then take all those learnings, templatize them, and give them away, either as product or as blueprints. The Three Filters for Choosing Customers",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集说微软是前置部署工程玩法的 OG，几十年前就在做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            573,
+            799
+          ],
+          "quote": "I would not call us the pioneers of this. The concept of forward deployed engineering has existed for a very, very long time. Microsoft is the OG of this; they used to do it several decades ago. And the current incarnation of the term was popularized by Palantir back in the 2006, 2007, 2008 time frame, so from 2008 onwards. So we're not the pioneers at all. In fact, we are learning from them and seeing how we take all of that and adapt it to the business we're building. The way I think about it: in any company building and selling a product, there are two things, and everything else is a supporting function. What does selling a product entail? There's the technical selling of it: your typical solution architect or systems engineer persona who comes in, drills through the demos, shows you the use cases, and walks you through the architectures, depending on the product you're selling. So it's technical pieces tied to certain accounts or verticals, and they're incentivized to close the deal. Then there's post-sales, which could be one of two ways: \"I'm going to help you implement the thing you bought,\" or, \"Now it's implemented and I'm going to be the service or customer support team, so if something goes wrong, you call us and we'll help you fix it.\" Note that in both cases, the product team builds something technical, and the go-to-market teams, both pre- and post-sales, go make the customer successful with what the product team built. FDE, forward deployed engineering, is actually different. There are a couple of things that are different from traditional professional services, which is the post-implementation work. One: in typical professional services, I'm going to give you my time and you're going to give me money. The exchange is time and money, and you tell me what you want me to do and I'll do it for you. I'm simplifying it, but generally that's how it works. One of the core parts of FDE is that it's not that I'm going to just give you my time and do whatever you want. It's that we're going to align on an outcome. We might even spend time together to identify the right outcome for the business based on the overall goals. I'm going to align on that, and then I'm in it with you. We're going to make it happen. So there's a lot more ownership in that relationship, as opposed to, \"You just tell me what to do and I'm your implementation person.\" The second component is that whatever work we do will feed back into the product. In Anthropic's case, part of it feeds into the research as well, because that's how you build the flywheel. So FDE as a function is very closely tied to the product and engineering function, and that's where the value gets created. Every engagement should produce a couple of things for us. One, feedback into product. Two, it needs to create some sort of blueprint or playbook, so we don't have to do that type of engagement again. It's a first-of-a-kind, tip-of-the-spear problem that hasn't been solved before. We come in and help solve it, and then that becomes a template that either gets productized, or we give it to customers to build themselves if appropriate, or we give it to partners to scale up. There are a bunch of system integrator partners that will take those templates and say, \"This is how you do this in a bank.\" So that's how we think about it. We're not trying to build or scale a professional services arm. This is essentially to figure out how to bring this technology into the real world in the best possible way, and then take all those learnings, templatize them, and give them away, either as product or as blueprints. The Three Filters for Choosing Customers",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集以它举例说明能力的扩散：打开 Lovable 输入一句话就能得到一个完整应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            1074,
+            1212
+          ],
+          "quote": "Yes. In my case, there were a couple of opportunities that would have paid more, even two to three times more. My decision criteria was actually very simple. My heart felt pulled in this direction, and historically I have not operated from my heart, I've operated from my mind. This time I wanted to do it differently. My heart pulled in this direction, and I followed it. Why did the heart pull in this direction? Really because I felt connected to the mission, and it resonated. And everybody I met, and how they talked about how the mission and principles actually play out in practice on a day-to-day basis, that resonated for me. So that's why I chose this direction. In terms of the talent wars, my line of thinking is: if AI is to play out all the benefits we talk about, ranging from medicine to bio research to chemicals to everything, then the understanding of AI, especially on the applied side, has to be taken to the market, and there needs to be diffusion of it. Otherwise, if it only remains with a small set of people, AI will not play out at the scale of humanity. It will remain concentrated among a very small group, and limited to the impact that small group can have. So I believe it's our job and our responsibility to diffuse this: to train people, to teach, to make it easier to deploy, to make it easier to build, and so on. And that's very much part of Anthropic's line of thinking. If you start to think about open weights models, that's another form of diffusion. These capabilities are not all just behind paywalls now; you have to pay for infrastructure, but you have these open weights models, and you have choice available to you. So that's another form of diffusion happening. The same thing has to happen with talent. If you look historically, in the late 90s website developers were rare, and they used to charge a bomb. Well, today you just go to any of these tools, you go to Lovable and type one single thing, and it's going to give you a full app. So diffusion happens in every industry over time, and it's going to happen here as well. Winning the Game vs. Seeing Its Futility",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "前置部署工程师 (forward deployed engineer)",
+      "file": "前置部署工程师",
+      "primary": true,
+      "how_described": "本集说它不是改名的专业服务：先在成果上达成一致再一起做成，且每次合作必须产出产品反馈和可复用的蓝图/打法手册。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 16,
+          "t": [
+            421,
+            463
+          ],
+          "quote": "That's true. So the story there: I do this thing at Amazon, five and a half years in, and I said, \"Okay, I'm ready for something new, and I'm going to go build a company.\" I made up my mind, I resigned from Amazon. And then about a couple of weeks into it, I get an offer from Anthropic to come in and be part of forward deployed engineering. When that conversation was happening, I did say, \"Hey, can you just make me an IC forward deployed engineer? Because this is just so much fun, I want to do this.\" And the hiring manager for that particular role refused. He said, \"No, I want you to come in and lead the team, be a leader on the team.\" So I said, \"Okay, fine, whatever the company needs, we'll make it happen.\" What Forward Deployed Engineering Actually Is",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 19,
+          "t": [
+            544,
+            573
+          ],
+          "quote": "The term forward deployed engineer is super hot now, and a lot of companies doing some sort of enterprise motion claim to have PhDs who go and help the client adopt whatever SaaS tool they're selling. But you guys are the pioneers of this concept, right? So I really want to understand what it really means to do forward deployed engineering, as opposed to just renaming traditional professional services.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 23,
+          "t": [
+            859,
+            873
+          ],
+          "quote": "Where do these PhDs come from? Because if you go to LinkedIn, everybody calls themselves either an APM or a forward deployed engineer or whatever they want to call themselves. But realistically, what does it take to become an FDE at Anthropic?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "前置部署工程 (forward deployed engineering)",
+      "file": "前置部署工程",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic 近期正式化的职能，本质是弄清如何以最好的方式把 AI 技术带进真实世界，再把经验模板化送出去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 16,
+          "t": [
+            421,
+            463
+          ],
+          "quote": "That's true. So the story there: I do this thing at Amazon, five and a half years in, and I said, \"Okay, I'm ready for something new, and I'm going to go build a company.\" I made up my mind, I resigned from Amazon. And then about a couple of weeks into it, I get an offer from Anthropic to come in and be part of forward deployed engineering. When that conversation was happening, I did say, \"Hey, can you just make me an IC forward deployed engineer? Because this is just so much fun, I want to do this.\" And the hiring manager for that particular role refused. He said, \"No, I want you to come in and lead the team, be a leader on the team.\" So I said, \"Okay, fine, whatever the company needs, we'll make it happen.\" What Forward Deployed Engineering Actually Is",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 18,
+          "t": [
+            466,
+            544
+          ],
+          "quote": "Anthropic had recently started a forward deployed engineering function. Now, we had PhDs, we had people working with customers on implementations, so the concept is not new at Anthropic, but we formalized it as a function relatively recently. I'm part of that function, and I manage a part of it. I've got a bunch of forward deployed engineers working with a number of external and internal initiatives: working with customers, working on internal projects, and really bringing AI into the world in a safe manner, aligned with the charter and mission of the company. These can be projects of all kinds. Internal projects might be, \"Oh, there's a new product we're building, let's go try it out,\" or, \"There's a new initiative that impacts Anthropic's operations, so let's bring AI into that.\" And then, working with customers on identifying use cases that can transform the way they do certain workflows and processes, and then going and building those out. So it's the applied side of AI. Some of the folks also get involved a little bit in the research on the model side of things, but not in the training. It's still once the model is at different stages of its training that people get involved.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 19,
+          "t": [
+            544,
+            573
+          ],
+          "quote": "The term forward deployed engineer is super hot now, and a lot of companies doing some sort of enterprise motion claim to have PhDs who go and help the client adopt whatever SaaS tool they're selling. But you guys are the pioneers of this concept, right? So I really want to understand what it really means to do forward deployed engineering, as opposed to just renaming traditional professional services.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 20,
+          "t": [
+            573,
+            799
+          ],
+          "quote": "I would not call us the pioneers of this. The concept of forward deployed engineering has existed for a very, very long time. Microsoft is the OG of this; they used to do it several decades ago. And the current incarnation of the term was popularized by Palantir back in the 2006, 2007, 2008 time frame, so from 2008 onwards. So we're not the pioneers at all. In fact, we are learning from them and seeing how we take all of that and adapt it to the business we're building. The way I think about it: in any company building and selling a product, there are two things, and everything else is a supporting function. What does selling a product entail? There's the technical selling of it: your typical solution architect or systems engineer persona who comes in, drills through the demos, shows you the use cases, and walks you through the architectures, depending on the product you're selling. So it's technical pieces tied to certain accounts or verticals, and they're incentivized to close the deal. Then there's post-sales, which could be one of two ways: \"I'm going to help you implement the thing you bought,\" or, \"Now it's implemented and I'm going to be the service or customer support team, so if something goes wrong, you call us and we'll help you fix it.\" Note that in both cases, the product team builds something technical, and the go-to-market teams, both pre- and post-sales, go make the customer successful with what the product team built. FDE, forward deployed engineering, is actually different. There are a couple of things that are different from traditional professional services, which is the post-implementation work. One: in typical professional services, I'm going to give you my time and you're going to give me money. The exchange is time and money, and you tell me what you want me to do and I'll do it for you. I'm simplifying it, but generally that's how it works. One of the core parts of FDE is that it's not that I'm going to just give you my time and do whatever you want. It's that we're going to align on an outcome. We might even spend time together to identify the right outcome for the business based on the overall goals. I'm going to align on that, and then I'm in it with you. We're going to make it happen. So there's a lot more ownership in that relationship, as opposed to, \"You just tell me what to do and I'm your implementation person.\" The second component is that whatever work we do will feed back into the product. In Anthropic's case, part of it feeds into the research as well, because that's how you build the flywheel. So FDE as a function is very closely tied to the product and engineering function, and that's where the value gets created. Every engagement should produce a couple of things for us. One, feedback into product. Two, it needs to create some sort of blueprint or playbook, so we don't have to do that type of engagement again. It's a first-of-a-kind, tip-of-the-spear problem that hasn't been solved before. We come in and help solve it, and then that becomes a template that either gets productized, or we give it to customers to build themselves if appropriate, or we give it to partners to scale up. There are a bunch of system integrator partners that will take those templates and say, \"This is how you do this in a bank.\" So that's how we think about it. We're not trying to build or scale a professional services arm. This is essentially to figure out how to bring this technology into the real world in the best possible way, and then take all those learnings, templatize them, and give them away, either as product or as blueprints. The Three Filters for Choosing Customers",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "professional-services",
+      "type": "concept",
+      "role": "concept",
+      "name": "专业服务 (professional services)",
+      "file": "专业服务",
+      "primary": true,
+      "how_described": "本集把它与 FDE 对比：典型专业服务是『我给你时间、你给我钱』，你告诉我要做什么我就做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 19,
+          "t": [
+            544,
+            573
+          ],
+          "quote": "The term forward deployed engineer is super hot now, and a lot of companies doing some sort of enterprise motion claim to have PhDs who go and help the client adopt whatever SaaS tool they're selling. But you guys are the pioneers of this concept, right? So I really want to understand what it really means to do forward deployed engineering, as opposed to just renaming traditional professional services.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 20,
+          "t": [
+            573,
+            799
+          ],
+          "quote": "I would not call us the pioneers of this. The concept of forward deployed engineering has existed for a very, very long time. Microsoft is the OG of this; they used to do it several decades ago. And the current incarnation of the term was popularized by Palantir back in the 2006, 2007, 2008 time frame, so from 2008 onwards. So we're not the pioneers at all. In fact, we are learning from them and seeing how we take all of that and adapt it to the business we're building. The way I think about it: in any company building and selling a product, there are two things, and everything else is a supporting function. What does selling a product entail? There's the technical selling of it: your typical solution architect or systems engineer persona who comes in, drills through the demos, shows you the use cases, and walks you through the architectures, depending on the product you're selling. So it's technical pieces tied to certain accounts or verticals, and they're incentivized to close the deal. Then there's post-sales, which could be one of two ways: \"I'm going to help you implement the thing you bought,\" or, \"Now it's implemented and I'm going to be the service or customer support team, so if something goes wrong, you call us and we'll help you fix it.\" Note that in both cases, the product team builds something technical, and the go-to-market teams, both pre- and post-sales, go make the customer successful with what the product team built. FDE, forward deployed engineering, is actually different. There are a couple of things that are different from traditional professional services, which is the post-implementation work. One: in typical professional services, I'm going to give you my time and you're going to give me money. The exchange is time and money, and you tell me what you want me to do and I'll do it for you. I'm simplifying it, but generally that's how it works. One of the core parts of FDE is that it's not that I'm going to just give you my time and do whatever you want. It's that we're going to align on an outcome. We might even spend time together to identify the right outcome for the business based on the overall goals. I'm going to align on that, and then I'm in it with you. We're going to make it happen. So there's a lot more ownership in that relationship, as opposed to, \"You just tell me what to do and I'm your implementation person.\" The second component is that whatever work we do will feed back into the product. In Anthropic's case, part of it feeds into the research as well, because that's how you build the flywheel. So FDE as a function is very closely tied to the product and engineering function, and that's where the value gets created. Every engagement should produce a couple of things for us. One, feedback into product. Two, it needs to create some sort of blueprint or playbook, so we don't have to do that type of engagement again. It's a first-of-a-kind, tip-of-the-spear problem that hasn't been solved before. We come in and help solve it, and then that becomes a template that either gets productized, or we give it to customers to build themselves if appropriate, or we give it to partners to scale up. There are a bunch of system integrator partners that will take those templates and say, \"This is how you do this in a bank.\" So that's how we think about it. We're not trying to build or scale a professional services arm. This is essentially to figure out how to bring this technology into the real world in the best possible way, and then take all those learnings, templatize them, and give them away, either as product or as blueprints. The Three Filters for Choosing Customers",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "ic",
+      "type": "concept",
+      "role": "concept",
+      "name": "IC",
+      "file": "IC",
+      "primary": true,
+      "how_described": "本集说嘉宾在 2023 年主动放弃管理职责回归 IC，理由是想学新领域就必须亲自动手，而不是把时间花在组织建设上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Amandeep Khurana, who leads a team inside Anthropic's forward deployed engineering function. He's also a friend, so this is a first: we've had 100 private conversations and zero public ones. His path is unusual: engineer at AWS, solutions architect at Cloudera, founded a company that exited to Databricks, then five and a half years at Amazon, where he voluntarily gave up his management role in 2023 to go back to being an IC. The things we'll cover: what a forward deployed engineer actually is versus renamed professional services, the three filters they use to decide which customers to take, turning down offers worth two to three times more and why, on winning the game before you can quit it and where that advice breaks, and why everyone at Anthropic has the same title, including Karpathy. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 12,
+          "t": [
+            153,
+            299
+          ],
+          "quote": "Yeah, for sure. Let me give some background context. I trained as an engineer and took up a typical engineering job back in the 2010, 2011 time frame. I went to work for AWS at that time. What I found was that while I enjoyed the engineering work, the hands-on engineering, it just wasn't enough for me. It wasn't really what I truly wanted to do. I got an opportunity to work at a startup and go work with customers, and I had no idea what that entailed. So I took it on and moved to the Valley. The company was called Cloudera. I became a solution architect and did all kinds of customer-facing and partner-facing work there. I spent five years, did a bunch of different projects, worked with a bunch of different customers, and I really loved it. Through that experience, I also learned, just by osmosis, what company building looks like. I had this dream in the back of my mind that I wanted to be a business person at some point, and I don't know where it came from. I think it came from watching my dad build his business. So I wanted to do that. I said, \"You know what, I'm in the Valley, the game to be played here is to go build a business.\" So I started thinking about it, found a set of problems I got excited about, and said, \"I'm going to go do this.\" That's how I started my company, in 2016. That company eventually exited to Databricks. Awesome experience, lots of learnings, lots of ups and downs along the way. In 2020, Covid hit, and I wanted to start another company, but it just didn't happen. I said I need to do something. A friend of mine was at Amazon at the time. He calls me and says, \"Hey, you're up to no good, why don't you come here and help me build this line of business?\" So I said, fine, whatever ideas I'm working on aren't quite working out, so maybe I'll go do this and not burn through my savings. I joined Amazon and ended up spending five and a half years there, building different kinds of things from the ground up. I did four zero-to-one initiatives, two of them in the AI space. And even there the journey is interesting, because I went from being an IC, to a management role owning both product and engineering, to then giving up all the management responsibilities and becoming an IC product manager back in 2023, because I just wanted to.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 13,
+          "t": [
+            299,
+            328
+          ],
+          "quote": "I want to stop you there, because it's pretty unique. A lot of times people want to grow in their careers and assume that means managing more people, and you kind of did that as a general manager at Amazon. And then it seems like you chose to go back, quote-unquote, to being an IC. Now it's cool again, right? But I think it wasn't that obvious or cool in 2023, and I want to understand more about that rationale.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 14,
+          "t": [
+            328,
+            408
+          ],
+          "quote": "You're right, it wasn't cool. It wasn't something a lot of people were doing. I found myself in a place where there was this opportunity in front of me, which was an IC opportunity, and it was in a domain I wanted to learn and didn't know anything about. If there had been a management opportunity, I might have picked that over the IC opportunity. But I said, \"Look, I want to learn this thing. I want to get involved. Let me just jump in and see what happens, and let me learn,\" because I'm not going to learn a ton if I continue spending a large chunk of my time on org building or management work. I wanted to be hands-on. That was one. Second, I spoke with a few folks at AWS at the time who had done similar transitions, who had gone from a VP role to an IC role and then eventually back into a leadership role. I asked them how they thought about it, and they advised me with some perspectives. So I took that on and said, \"I'll give it a shot. I have nothing to lose here. Worst case, I'm going to learn about this new domain. Best case, I'm going to learn about this new domain. And as this team grows, there might be management opportunities I can take on.\" So that's how I thought about it. It wasn't where it is today. For me, it was: I want to learn that thing, I want to be hands-on, and we'll see what happens.",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 15,
+          "t": [
+            408,
+            421
+          ],
+          "quote": "So you try it, and I think you liked it, because when you left Amazon, you wanted to either build your own business again or continue working as an IC. But then you didn't choose either of those two.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 16,
+          "t": [
+            421,
+            463
+          ],
+          "quote": "That's true. So the story there: I do this thing at Amazon, five and a half years in, and I said, \"Okay, I'm ready for something new, and I'm going to go build a company.\" I made up my mind, I resigned from Amazon. And then about a couple of weeks into it, I get an offer from Anthropic to come in and be part of forward deployed engineering. When that conversation was happening, I did say, \"Hey, can you just make me an IC forward deployed engineer? Because this is just so much fun, I want to do this.\" And the hiring manager for that particular role refused. He said, \"No, I want you to come in and lead the team, be a leader on the team.\" So I said, \"Okay, fine, whatever the company needs, we'll make it happen.\" What Forward Deployed Engineering Actually Is",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 29,
+          "t": [
+            1212,
+            1257
+          ],
+          "quote": "I want to acknowledge, as I hear you talk about the decisions you've been able to make, that you earned the right and the privilege to make them: to not take an offer that's double what you're making, or to decide to be an IC and then a manager. I see a lot of people who are fighting their way up, let's call it director level, and they say, \"Yeah, right, but in reality I really want that 2x package, and I really want to be a CPO.\" So I'm curious how you think about it from the perspective of someone who has achieved certain things in life and is now in a position to be more free to choose their next move.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "mission-alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "使命对齐 (mission alignment)",
+      "file": "使命对齐",
+      "primary": true,
+      "how_described": "本集说它是挑客户的第一个过滤器，也是筛选 FDE 人才和面试候选人时真正看的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            873,
+            938
+          ],
+          "quote": "I don't think I can say there's one kind of persona that makes for a good FDE. We've got FDEs who were engineers. We have FDEs who were researchers and have their PhDs. We have FDEs who come from non-engineering backgrounds as well. So the background, while important, is not the only thing that matters. What really matters is mission alignment. Are you hands-on and building things? Can you be in front of customers in complex environments and actually guide them through the journey? Because we have to help them, and oftentimes we don't even know the answers, so we have to go figure it out. Since it's never been done before, we're going to run into problems we never anticipated. So it's: do you have high agency? Are you going to go figure things out and really try to disambiguate, while maintaining the customer relationship, maintaining the trust of the customer, having their back, and doing it in a manner aligned with our culture and mission? That's really what we look for. The Talent Wars and Choosing Mission Over Comp",
+          "speaker": "Amandeep Khurana"
+        },
+        {
+          "seg": 25,
+          "t": [
+            938,
+            963
+          ],
+          "quote": "I want to talk about comp packages too, because I think it's a big elephant in the room. We're hearing how these frontier labs are throwing money at incredible talent, but at the same time, this talent is being poached from one lab to another. As I hear you talk about mission alignment and thinking beyond pure comp, how do you think about retaining this type of talent?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集说好的 FDE 要有很高的主观能动性：在没人知道答案的复杂客户环境里自己把答案搞出来，同时维护客户信任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            873,
+            938
+          ],
+          "quote": "I don't think I can say there's one kind of persona that makes for a good FDE. We've got FDEs who were engineers. We have FDEs who were researchers and have their PhDs. We have FDEs who come from non-engineering backgrounds as well. So the background, while important, is not the only thing that matters. What really matters is mission alignment. Are you hands-on and building things? Can you be in front of customers in complex environments and actually guide them through the journey? Because we have to help them, and oftentimes we don't even know the answers, so we have to go figure it out. Since it's never been done before, we're going to run into problems we never anticipated. So it's: do you have high agency? Are you going to go figure things out and really try to disambiguate, while maintaining the customer relationship, maintaining the trust of the customer, having their back, and doing it in a manner aligned with our culture and mission? That's really what we look for. The Talent Wars and Choosing Mission Over Comp",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "talent-war",
+      "type": "concept",
+      "role": "concept",
+      "name": "人才战争 (talent war)",
+      "file": "人才战争",
+      "primary": true,
+      "how_described": "本集说实验室人才被当 NBA 球员抢、薪酬包疯狂；嘉宾的判断是理解和人才终将像 90 年代末的网站开发者一样扩散。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            28,
+            40
+          ],
+          "quote": "It's true that now, a lot of these talented professionals working at the labs are being treated like NBA players, and the packages we're seeing are absolutely insane. And I just don't know how long this talent war is going to last.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 27,
+          "t": [
+            1034,
+            1074
+          ],
+          "quote": "I want to share a quick anecdote you and I talked about, and you gave me permission to put it here: in your case, other companies tried to hire you for even more money than Anthropic offered, and you're really one of the few who chose mission over comp, assuming there's a certain level of comp that makes you comfortable enough. So it's true that now a lot of these talented professionals working at the labs are being treated like NBA players, and the comp packages we're seeing are absolutely insane. And I just don't know how long this talent war is going to last.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "mts",
+      "type": "concept",
+      "role": "concept",
+      "name": "MTS",
+      "file": "MTS",
+      "primary": true,
+      "how_described": "本集说 Anthropic 人人都是 MTS，砍掉了会议里的隐性权威关系，让对话权重回到想法而非头衔。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            1461,
+            1540
+          ],
+          "quote": "This is a culture thing, and people self-select into it. If I'm in a meeting with somebody who would have been a VP, let's say I'm at Amazon in a meeting with a VP, I'm in a meeting with the VP. Their word carries more weight than my word. There's an implicit authority relationship there. At Anthropic, I'm in a meeting with Andrej Karpathy, an absolute celebrity, so deep in the space, someone so many people look up to, including me. When he introduces himself, sure, I know who Andrej is, but he's an MTS and I'm an MTS. So the titles almost don't matter. Now, let's assume I didn't know who Andrej is, that I was living under a rock and had never heard his name. I'm in a meeting with him, having a discussion. Titles? His says MTS, mine says MTS. I look him up in the company directory: MTS. So we're on equal footing in that conversation. It's all about that conversation, what you're bringing to it, adding value to it, and having respect for the other individual, not because of their title, but because of their ideas. So people just bring it; people self-select into it. That's why I don't have a problem with the title. I'm an MTS, the people who report to me are MTS, I report to an MTS. Yeah, okay, whatever.",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    },
+    {
+      "id": "open-weights-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weights models)",
+      "file": "开放权重模型",
+      "primary": false,
+      "how_described": "本集说开放权重模型是扩散的一种形式——这些能力并非全都躲在付费墙后面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            1074,
+            1212
+          ],
+          "quote": "Yes. In my case, there were a couple of opportunities that would have paid more, even two to three times more. My decision criteria was actually very simple. My heart felt pulled in this direction, and historically I have not operated from my heart, I've operated from my mind. This time I wanted to do it differently. My heart pulled in this direction, and I followed it. Why did the heart pull in this direction? Really because I felt connected to the mission, and it resonated. And everybody I met, and how they talked about how the mission and principles actually play out in practice on a day-to-day basis, that resonated for me. So that's why I chose this direction. In terms of the talent wars, my line of thinking is: if AI is to play out all the benefits we talk about, ranging from medicine to bio research to chemicals to everything, then the understanding of AI, especially on the applied side, has to be taken to the market, and there needs to be diffusion of it. Otherwise, if it only remains with a small set of people, AI will not play out at the scale of humanity. It will remain concentrated among a very small group, and limited to the impact that small group can have. So I believe it's our job and our responsibility to diffuse this: to train people, to teach, to make it easier to deploy, to make it easier to build, and so on. And that's very much part of Anthropic's line of thinking. If you start to think about open weights models, that's another form of diffusion. These capabilities are not all just behind paywalls now; you have to pay for infrastructure, but you have these open weights models, and you have choice available to you. So that's another form of diffusion happening. The same thing has to happen with talent. If you look historically, in the late 90s website developers were rare, and they used to charge a bomb. Well, today you just go to any of these tools, you go to Lovable and type one single thing, and it's going to give you a full app. So diffusion happens in every industry over time, and it's going to happen here as well. Winning the Game vs. Seeing Its Futility",
+          "speaker": "Amandeep Khurana"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

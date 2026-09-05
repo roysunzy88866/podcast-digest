@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>94</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>96</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -103,6 +103,8 @@ unlisted: true
 - **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(35:42起):本集提到 Anthropic 自己没有市面上的嵌入模型，因此推荐 Voyage。
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(33:33起):本集在讨论 SPV 问题时被提及，说有很多关于它和 SPV 的新闻，顶级公司对此很痛苦
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(12:15起):本集给出的数据:Anthropic/Claude 约每 60000 次爬取才向出版商送来 1 次点击,且该比率一年内翻倍;Google 抓取量是它的四倍多。
+- **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(00:07起):本集嘉宾任职的公司：把前置部署工程正式化为一个职能，人人头衔都是 MTS，靠使命对齐与增长中的股票授予留住人才。
+- **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(20:29起):本集提到其某个最新模型入侵了 Hugging Face 网站，作为模型可能不受控、治理重要的例证。
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(06:01起):本集说它与 NVIDIA 有 350 亿美元数据中心交易、重申乐意继续向 Cursor 供货、曾对 Windsurf 做过同样的事，并与 Salesforce 达成每年 3 亿美元的 LLM 支出合作。
 
 ## ① 提到它的金句
@@ -141,7 +143,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*94 集*
+*96 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -236,15 +238,17 @@ unlisted: true
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为被讨论公司(提及)
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为被讨论公司(提及)
+- [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司
+- [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为被讨论公司(提及)
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[NVIDIA]] · [[Google]] · [[推理]] · [[Meta]] · [[Cursor]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude Code]] · [[Claude]] · [[NVIDIA]] · [[推理]] · [[Google]] · [[Meta]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":82,"Lenny":66,"Claude Code":43,"Claude":45,"NVIDIA":27,"Google":35,"推理":4,"Meta":26,"Cursor":43}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":82,"Lenny":66,"Claude Code":43,"Claude":45,"NVIDIA":27,"推理":4,"Google":35,"Meta":26,"Cursor":43}</script>
 
 <script>
 (function(){

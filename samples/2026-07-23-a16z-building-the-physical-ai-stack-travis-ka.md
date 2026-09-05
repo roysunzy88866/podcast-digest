@@ -144,17 +144,17 @@ Travis 说他对高管的要求有两件事：能在规模上组织和管理，�
 **顺着「智能体」挖下去**
 
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
+- [[2026-07-23-nopriors-building-an-autonomous-delivery-experien|DoorDash 联合创始人：我们其实是一家机器人公司]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同概念:物理AI (physical AI)</span>
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]]<span class="pd-rz">同概念:物理AI (physical AI)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:工业AI (industrial AI)、物理AI (physical AI)</span>
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同概念:物理AI (physical AI)</span>
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同概念:自动化 (automation)</span>
 
 </div>
 </div>

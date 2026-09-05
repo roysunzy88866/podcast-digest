@@ -64,7 +64,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Microsoft]] · [[SpaceX]] · [[Sophia Du]] · [[Steven Sinofsky]] · [[Sarah Wang]] · [[Justin Johnson]] · [[Theo Jaffe]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":82,"Anthropic":94,"Cursor":43,"Microsoft":21,"SpaceX":12,"Sophia Du":2,"Steven Sinofsky":2,"Sarah Wang":2,"Justin Johnson":2,"Theo Jaffe":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":82,"Anthropic":96,"Cursor":43,"Microsoft":22,"SpaceX":12,"Sophia Du":2,"Steven Sinofsky":2,"Sarah Wang":2,"Justin Johnson":2,"Theo Jaffe":5}</script>
 
 <script>
 (function(){

@@ -163,9 +163,9 @@ Travis 当年的信条是"要比全世界所有竞争对手加起来融更多的
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-23-nopriors-building-an-autonomous-delivery-experien|DoorDash 联合创始人：我们其实是一家机器人公司]]<span class="pd-rz">同公司:DoorDash · 同概念:分发 (distribution)、自动驾驶 (autonomy)</span>
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪]]<span class="pd-rz">同概念:分发 (distribution)、智能体 (agents)</span>
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同公司:Tesla、Waymo · 同概念:智能体 (agents)</span>
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agents)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

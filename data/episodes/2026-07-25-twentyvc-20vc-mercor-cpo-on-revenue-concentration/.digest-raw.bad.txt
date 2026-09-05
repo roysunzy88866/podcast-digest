@@ -1,0 +1,138 @@
+===标题===
+开源不会蚕食 Mercor:数据的价值只在前沿
+===导语===
+Mercor CPO Oswald 解释为什么开源模型抬高的只是下限、人类数据的真正市场在长程任务与 RL 环境,以及 AI 时代 PM 与招聘的巨变。
+===正文##
+这一集聊的是一个之前没人公开谈过的话题:AI 训练数据这门生意到底会不会被开源模型和合成数据吃掉。坐上热座的是 Mercor 的 CPO Oswald——Mercor 是一家超高速增长的人类数据公司,靠给前沿实验室提供评测集和训练数据赚钱,他加入以来公司人数涨了超过 10 倍。他甩出的第一个判断就很反直觉:「我不认为开源模型的进步会蚕食我们的核心业务,因为数据在模型性能的最前沿才是最有价值的。」开源模型只是抬高了人们感兴趣事物的下限——没人会再买 Kimi K3 已经能做到的东西,但只要客户还有想做得更好的新能力,这门生意就继续增长。
+
+## 「90% 工作流能被 AI 做」是个错误的框架
+主持人问:如果 90% 的企业工作流开源模型都能干,你只服务剩下那 10%,生意不会越做越窄吗?Oswald 的回答是两层。第一,他不信这个 90%:这类估算基于现有需求,但还有一整类「潜在需求」没人算进去——比如长程任务:设一个采购智能体,连续几个月全自动运行,你一周才检查一次,「还没人尝试做这些事,所以根本没被算进任何估算」。在他们的 Apex 基准里,顶级模型在长程工作流上也就接近 50%。
+
+第二,更根本的是,百分比这个框架本身就是错的。有些工作流是「充分性即可」的——比如更新一个 CRM,做完了就完了;但另一类——法律论证、医疗建议、网络安全——是可以永远做得更好的。对这类任务,该想的不是「能不能做到」,而是「连续的、没有上限的奖励」。
+
+## 企业对共享数据的恐惧,分场景
+大型企业不愿把数据交给前沿模型公司,这确实存在,但取决于工作流离业务核心有多近。HR、采购这类每家公司都要做的通用事务,敏感度低,企业愿意放上专有模型;而律所真正写的备忘录、给客户的建议这种核心业务,才是敏感地带。主持人顺势吐槽了这个讽刺:敏感数据放开源(很可能是中国的)模型,HR 数据反而放闭源模型?Oswald 的回应是:开放权重模型的美妙之处在于推理可以在你自己控制的地方跑——「你可能会犯错,但你拥有更多控制权」。
+
+## 专门化模型:他信,而且这对 Mercor 也是自利的
+Fireworks 创始人的判断是每家公司都会有自己的专门化模型(因为「更好」的定义因公司而异:增长、利润率、工作生活平衡)。Oswald 直接表态相信——并坦承这对 Mercor 同样自利:每个专门化模型都需要企业专属的评测和训练数据,来告诉模型在这个环境里怎么表现。而且 ROI 合理的场景会越来越多。
+
+## ROI 问题不存在,token 支出会超过工资
+「我不认为现在有 ROI 问题。」他说现在处于探索期,大家有容忍度,因为变化太快,ROI 计算随时可能剧变。至于怎么平衡性能和预算,完全看场景:编码智能体的支出不是 COGS(售货成本),花再多也可能给你复利式收益;但一个客服智能体的 token 支出超过它服务的客户收入,那你就糟了。Salesforce 说每年花 3 亿美元在 Anthropic 上,约为开发者工资的 3.8%——Oswald 认为这个比例宏观上会涨过 3%,而且他承认 Brandon 在节目里说的属实:Mercor 今天在模型上的花费已经超过了工资支出。「我们花钱的速度都不够快,无法满足现有的全部需求」,每周结束银行里的钱都在变多。
+
+## AI 让产品管理更难,而不是更简单
+生成的代码太快,产品表面积容易失控——有人随手推送几千行的 PR,「我们一直在打这场仗:削减产品表面积,找到最具可扩展性的交互和工作流」。连锁反应有两个:PM 对工程师的比例在上升,因为工程不再是瓶颈;瓶颈变成了理解用户工作流、判断哪些产品真正驱动收入。
+
+对 PM 本身,变化有两条:一是工具技能贬值,「你只需要会用编码智能体」,连 Figma 都在被 Claude Design 取代——团队自然迁移,还省了管理一堆软件许可;二是每个人都必须升级到业务层思考,「技能问题几乎消失了,现在全在于判断力:我做的是不是最能驱动业务价值的事」。
+
+## 他承认的一次产品失误:灵活性过头
+标注平台曾经试图满足客户的每一个要求,做成了一个「最大程度灵活」的工具,上面跑着几百个不同的项目——「那管理起来简直就是混乱」。教训是:本该更早给服务类型加上护栏,收窄支持范围。「客户什么都会要求。我们能做,但我们该不该做?」判断持久需求没有公式——持续接触各家实验室的领导者、不断验证假设,「但归根结底,这多少是一种猜测」。
+
+## 服务型部署:短期未来,十年变革
+微软设服务部门、Palantir 飙升,服务是不是 AI 企业部署的未来?他的「尖锐观点」:短期内是——但这不是「烂产品的借口」(引 Factory 的 Matan 的说法),而是知识传播问题:懂部署、评估智能体的人现在全挤在旧金山,这项技能外界还没有,人才也不够每家企业自建。长期看它会变成类似软件工程的工作职能,「这可能是一场长达十年的变革」。至于优秀工程师愿不愿当前置部署工程师(FD)——擅长沟通、直击问题根源并简化的那类工程师非常适合,而且这类人最终也适合创业,这也是 Mercor 大量前员工出去创业的原因。他说失去人去创业,比失去人去别家工作好得多。
+
+## 招聘:只要资深,一道「用智能体」作业
+AI 之后他们更偏向资深候选人——不是挖高管,而是把每次招聘当高管搜寻:找那些还有饥饿感、已把这份工作干了几年、正处在巅峰期(他认为是 25 到 35 岁)的人。流程也变了:只留一道带回家作业——用智能体独立做一个产出物,一次就能看出是否精通 AI;然后是大量白板环节,考实验设计、统计、判断力和系统设计。原因很直接:用 AI 工具太容易把思考和判断卸载出去,「我们要确保人不只是照搬 Claude 输出的东西」。他对团队的纪律是:判断与决策绝不能委托给模型,委托的边界只在执行——「不委托你就会失去那块肌肉」。
+
+## 供给端的秘密与「这不是收入」的嘲讽
+Marketplace 供给为什么扩张得快?三条:专家体验(按时、丰厚、透明地付钱,工作有尊严)→ 好的推荐计划(没人会把朋友推荐去糟糕的工作)→ 出色的寻源团队补突发需求的缺口。光靠砸钱留不住人,「知道自己将长期为一件能长期做的事获得高报酬,才是留住人的原因」。至于外界嘲讽 Mercor 的收入「不是真收入」——「不恼火,因为我们每个周末银行里的钱都会多出几百万。人们想叫它什么随他们,但现金流是疯狂的」。
+
+收入高度集中在实验室客户,他不回避:解法是下沉市场——让每家企业都能自助运行人类数据项目,配 AI 项目经理,因为企业数量远多于实验室。为什么难?运行一个人类数据项目需要把海量信息从客户传到专家,持续暴露并裁决边界情况,「需要极快的对齐和运营团队巨大的偏执」。数据形态也在不停变:监督微调→偏好排序→基于量规的标注→现在的 RL 环境。
+
+## RL 环境:当下最前沿的数据类型
+对他们增长最快的数据类型是 RL 环境(强化学习环境,给智能体练手的模拟世界):模拟应用加上一个丰富的起始状态——「世界」,可能是几百上千个文件——再用任务训练智能体用这些工具完成有用的事。核心转变:训练数据越来越接近智能体部署时真正看到的东西,比如想学 Salesforce 就需要一个高保真的 Salesforce 模拟。就像当年的 SFT 和偏好排序一样难搭,「但这是现在的前沿」,最终会顺畅到企业也能自己做。
+
+至于竞争格局,确实已经有大量「垂直版 Mercor」的小玩家,但他毫不客气地描绘了现状:很多是创始人亲自做标注的家庭作坊——「这简直就是风险投资补贴的工作,实验室很喜欢」,只是无法规模化。实验室买数据也基本不砍价,因为在 Mercor 上的花费直接转化成他们自己的收入,「人们想越来越用力地扳那个杠杆」。
+
+## 下一个三年:机器人和物理数据
+看多逻辑上,他认为评测集就是企业的 PRD(产品需求文档)兼优化目标——只要更好的模型对经济有价值,评测集和训练集的需求就在。三年后会变得重要的新营收线:真实世界物理数据,尤其是机器人——目前这个市场相对生成式 AI 还很早期。面对主持人对机器人演示的嘲讽(15 分钟从冰箱拿瓶水还是人躲在隔壁房间遥控),他的类比是:十年前自动驾驶车里也一直坐着安全员,「但我现在坐 Waymo 比坐 Uber 还多」。机器人会有自己的拐点,但物理世界的规模化比软件难,「可能更像一个 Waymo 时刻,而不是 ChatGPT 时刻」。
+
+## 本集带走
+- **数据生意的护城河在最前沿**:开源模型抬高的只是下限;只要客户还有想做不好的新能力(长程任务、专门化模型),评测与训练数据的需求就继续涨。
+- **别用百分比框架想 AI 能力**:区分「充分性即可」的任务(CRM 更新)和「无上限」的任务(法律、医疗、安全)——后者永远值得花钱做得更好,网络安全更是目标线永远在移动的猫鼠游戏。
+- **AI 时代 PM 的两条硬要求**:工具技能收敛到会用编码智能体即可;核心价值变成判断力——削减产品表面积、判断什么不该做( Mercor 自己在标注平台上交过「几百个项目=混乱」的学费)。
+- **招聘直接照抄**:偏向 25-35 岁、已干过这份工作几年、仍在巅峰期的资深人选;一道「用智能体独立产出」的作业测 AI 熟练度;白板考实验设计与系统设计,专门防「把判断卸载给 Claude」。
+- **判断与决策不外包给模型**:委托的边界画在执行层;把决策外包给模型,「你会失去那块能力」。
+- **人类数据项目难在运营而非技术**:海量边界情况 + 极速对齐 + 运营团队的偏执;这正是它暂时无法被自助化、也是下沉市场机会所在。
+
+===金句===
+04:21 | Oswald
+I wouldn't say that open source model improvements cannibalize our core business because data is most valuable on the frontier of model performance.
+ZH | 我不认为开源模型的进步会蚕食我们的核心业务,因为数据在模型性能的最前沿才是最有价值的。
+
+04:49 | Oswald
+Open source models just mean that nobody's buying anything that Kimmy K3 can already do.
+ZH | 开源模型只是意味着,没有人会购买 Kimi K3 已经能做到的任何东西。
+
+05:22 | Oswald
+We think that these calculations might be based off of existing demand or things that come top of mind when current model users are thinking of what models can do, but there's a whole category of latent demand that people aren't even, these are things that people aren't even trying to do with models yet.
+ZH | 我们认为这些估算可能基于现有需求,或者当前模型用户想到模型能做什么时最先浮现的东西,但还有一整类潜在需求——人们甚至还没尝试用模型去做的事情。
+
+08:18 | Oswald
+And in those cases, I think that the percentage framing is just totally off and we need to be thinking more about continuous uncapped rewards.
+ZH | 在那些情况下,我认为百分比的框架完全不对,我们需要更多地去思考连续的、没有上限的奖励。
+
+09:50 | Oswald
+I don't think there's an ROI problem right now.
+ZH | 我不认为现在有 ROI 问题。
+
+11:12 | Oswald
+Coding agent spend for your software engineers, that's not COGS for your work.
+ZH | 你的软件工程师的编码智能体支出,那不是你工作的售货成本。
+
+13:31 | Oswald
+So for us, it makes sense because we can't spend money fast enough to service all of the demand that we have.
+ZH | 所以对我们来说这是合理的,因为我们花钱的速度都不够快,无法满足我们所有的需求。
+
+14:21 | Oswald
+But we're constantly in this battle to try to simplify our product surface area and find the interactions and the workflows that are most scalable.
+ZH | 但我们一直在进行这场战斗,努力简化我们的产品表面积,找到最具可扩展性的交互和工作流。
+
+15:38 | Oswald
+I can do things very quickly now you know it's like this skill issues have almost gone away so now it's all about judgment and am I doing what is going to drive the most business value.
+ZH | 我现在做事非常快,技能问题几乎消失了,所以现在全在于判断力:我做的是不是最能驱动业务价值的事。
+
+16:59 | Oswald
+That's just chaos to manage.
+ZH | 那管理起来简直就是混乱。
+
+17:12 | Oswald
+We can do it, but should we do it?
+ZH | 我们能做,但我们该不该做?
+
+20:30 | Oswald
+I think that it's a knowledge dissemination problem.
+ZH | 我认为这是一个知识传播问题。
+
+20:53 | Oswald
+This is, I think, like, you know, maybe a decade-long change.
+ZH | 我认为,这可能是一场长达十年的变革。
+
+22:01 | Oswald
+It's a lot better to lose someone to starting a company than to taking another job.
+ZH | 失去一个人去创办公司,比失去一个人去另一份工作要好得多。
+
+24:37 | Oswald
+Do that once, you know that the person's AI fluent.
+ZH | 做一次这个,你就知道这个人是不是精通 AI 了。
+
+26:48 | Oswald
+So I want very careful never to delegate judgment or decision-making to models because they make you think that it's doing the right thing, but you have to be paranoid with them still.
+ZH | 所以我非常小心,绝不把判断或决策委托给模型,因为它们会让你以为它做的是对的事,但你仍然必须对它们保持偏执。
+
+34:30 | Oswald
+Knowing that you're going to get paid highly for a long time for something that you can do for a long time is what keeps people interested.
+ZH | 知道自己将在很长一段时间里为一件你能长期做的事获得高报酬,才是让人们保持兴趣的原因。
+
+36:06 | Oswald
+So what people want to call it is up to them, but the cash flow is insane.
+ZH | 所以人们想叫它什么随他们,但现金流是疯狂的。
+
+42:40 | Oswald
+This is just like VC subsidized work that labs love.
+ZH | 这简直就是风险投资补贴的工作,实验室很喜欢。
+
+53:34 | Oswald
+If every enterprise needs to have specialized proprietary models, even if the capabilities start to saturate, the evals serve as the PRD for kind of like exactly what you want, but also the optimization objective for better performance.
+ZH | 如果每家企业都需要拥有专门的专有模型,即使能力开始饱和,评测也充当 PRD,明确你到底想要什么,同时也是获得更好性能的优化目标。
+
+===END===

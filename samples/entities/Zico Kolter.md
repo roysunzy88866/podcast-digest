@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]]
+[[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":5,"Anthropic":94,"Twitter":5,"智能体":1,"红队测试":3,"提示词注入":10,"越狱":1,"护栏":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":5,"Anthropic":96,"Twitter":5,"智能体":1,"红队测试":3,"提示词注入":10,"越狱":1,"护栏":1}</script>
 
 <script>
 (function(){

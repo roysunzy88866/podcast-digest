@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"分词":3,"开源":12,"Stripe":26}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"分词":3,"开源":13,"Stripe":26}</script>
 
 <script>
 (function(){

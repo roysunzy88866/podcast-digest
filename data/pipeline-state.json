@@ -56,17 +56,16 @@
   "transient": {
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
-    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2026-09-03-practicalai-less-about-models-more-about-architectur": 2
+    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1
   },
   "cutoffs": {
     "lennys": "2026-09-02T12:03:39.000Z",
     "pg": "2026-08-28T22:38:13.000Z",
     "a16z": "2026-09-04T10:00:00.000Z",
-    "yc": "2026-08-29T13:00:00.000Z",
+    "yc": "2026-09-04T18:05:48.000Z",
     "mad": "2026-08-27T14:22:21.000Z",
     "trainingdata": "2026-09-01T09:00:00.000Z",
-    "bigtech": "2026-09-02T10:00:00.000Z",
+    "bigtech": "2026-09-04T19:14:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-08-27T10:00:00.000Z",
     "thepeel": "2026-08-27T14:06:16.000Z",
@@ -702,6 +701,24 @@
       "reason": "超长集:估 286 分 > 单班预算 300 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
       "title": "AI:AM Highlights: Exploring the J-Space, AI Superforecasters, SambaNova's Chips, & LTX Video Gen",
       "pubDate": "2026-07-09T19:38:35.000Z"
+    },
+    {
+      "id": "2026-09-04-yc-the-worlds-largest-electric-aircraft-jus",
+      "reason": "题材不对味:电动飞机属航空/硬件新闻,与 AI 无关,不落在档案任何收录类目内。",
+      "title": "The World’s Largest Electric Aircraft Just Flew",
+      "pubDate": "2026-09-04T18:05:48.000Z"
+    },
+    {
+      "id": "2026-09-04-bigtech-gpt-6-openai-s-comeback-hugging-face-att",
+      "reason": "题材不对味:命中❌聚合/多主题简报:一期塞 GPT-6 模型发布、Hugging Face 攻击争论、鲍尔默往事三个话题的新闻杂谈体,单主题不深挖,且 GPT-6 讨论本就落「大模型发布」跳过类",
+      "title": "GPT-6 & OpenAI’s Comeback, Hugging Face Attack Debate, Ballmer’s Scandalous Legacy",
+      "pubDate": "2026-09-04T19:14:00.000Z"
+    },
+    {
+      "id": "2026-07-30-twentyvc-20vc-jensen-s-open-weights-letter-travis",
+      "reason": "题材不对味:过时:五条融资/行情/要闻打包的新闻速览体,距今 37 天已超时效,且多主题聚合体裁本身落档案❌「聚合/多主题简报」",
+      "title": "20VC: Jensen's Open-Weights Letter | Travis Kalanick Raises $1.7B for Atoms | Google Cloud Grows 82% But The Market Tanks | Francisco Partners Raises $21BN | Etched Raises $300M to Take on Nvidia",
+      "pubDate": "2026-07-30T07:07:00.000Z"
     }
   ]
 }

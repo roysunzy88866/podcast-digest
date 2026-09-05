@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Slack]] · [[Codex]] · [[原型]] · [[Harry Stebbings]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Cursor":43,"OpenAI":82,"Anthropic":94,"Slack":22,"Codex":35,"原型":3,"Harry Stebbings":9,"Meta":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"Cursor":43,"OpenAI":82,"Anthropic":96,"Slack":22,"Codex":35,"原型":3,"Harry Stebbings":10,"Meta":26}</script>
 
 <script>
 (function(){

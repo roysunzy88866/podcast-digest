@@ -33,7 +33,7 @@ unlisted: true
 
 [[基准测试]] · [[Harry Stebbings]] · [[Philip Johnston]] · [[Matt Murphy]] · [[数据中心]] · [[Anthropic]] · [[SpaceX]] · [[Menlo]] · [[NVIDIA]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"基准测试":7,"Harry Stebbings":9,"Philip Johnston":1,"Matt Murphy":1,"数据中心":3,"Anthropic":94,"SpaceX":12,"Menlo":1,"NVIDIA":27,"OpenAI":82}</script>
+<script type="application/json" class="pd-epn">{"基准测试":7,"Harry Stebbings":10,"Philip Johnston":1,"Matt Murphy":1,"数据中心":3,"Anthropic":96,"SpaceX":12,"Menlo":1,"NVIDIA":27,"OpenAI":82}</script>
 
 <script>
 (function(){

@@ -1,0 +1,184 @@
+{
+  "title_zh": "DoorDash 联合创始人：我们其实是一家机器人公司",
+  "tldr": "DoorDash 联合创始人 Andy Feng 与 Stanley Ting 谈对话式点餐如何改变消费行为、自研配送机器人 DOT，以及为何 10 年后人类骑手会更多。",
+  "digest_md": "这一集聊的是 DoorDash 怎么把 AI 和机器人装进一个一年 30 亿单配送的物理世界生意里。说话的两位是 DoorDash 联合创始人 Andy Feng 和 Stanley Ting。最颠覆的一点：他们不是在「外卖公司里加机器人」——他们从 2018 年就开始做自主配送了，而且两位创始人预测，10 年后人类骑手不但不会消失，反而会更多。\n\n## 对话式点餐真的改变了行为\n\nDoorDash 最早押的是语音交互，结果没落地，真正成立的是「自然对话」这个体验：人们直接把脑子里想的东西说出来，而不是先上网做调研、再优化关键词。数据很能说明问题：用 Ask DoorDash 点餐厅的用户里，50% 是从**从未点过餐的餐厅**下单的——而「尝试新餐厅」恰恰是 DoorDash 历史上最难推动的指标之一。杂货侧则是购物篮大了约 40%：有人拍一张冰箱内部的照片说「帮我补满冰箱」，有人带着饮食限制做膳食规划，或者一句「帮我重下单常买的东西」——比在传统界面里不停点按容易得多。\n\n他们还专门把「世界知识」融进体验：去看网上正在流行什么、论坛里人们在聊什么——这些东西不在大模型的知识里，因为模型知识截止日期太早，但用户恰恰想吃「现在流行的东西」，这让用户更信任它。\n\n## 机器人不是新故事，是 2018 年的故事\n\n很多人以为 DoorDash 刚开始碰机器人，其实他们从 2018 年就启动了——那时自动驾驶还不明显会成为一股潮流，但创始人判断这项技术对配送领域是变革性、甚至颠覆性的。逻辑是创始人主导公司的好处：不断想「下一个颠覆我们的不会是 UI 好一点的 DoorDash，而是融入 AI、智能体商务、自主驾驶、无人机的东西」。\n\n路径也和想象的不同：最初他们**不想自己造**，而是跟领域里所有人合作——从人行道机器人到 Robotaxi——自己做平台、建 API、管分发。这样干了好几年，学到三件事：①确认了自主驾驶是「何时」而非「是否」的问题；②明白了真正实现自主性需要围绕它构建多少基础设施和生态；③也是最重要的一点——那些初创公司都是**先造技术、再回头找问题**，而 DoorDash 需要的是朝自己的用例倒推构建的东西。\n\n用例倒推到底长什么样？DoorDash 的平均配送距离是三到五英里，典型配送时间约 15 分钟（不算做餐时间）。人行道机器人每小时两三英里，像「装了轮子的饮水机」，根本跑不完这个距离；Robotaxi 是一辆 4000 磅、为载人设计的车——运几个墨西哥卷饼需要座椅和空调吗？而且 Robotaxi 把你放在离目的地半个街区没问题，人可以走过去，**包裹做不到**——这就是 Stanley 说的「最初和最后一百英尺问题」：怎么在商家取餐、怎么开到顾客的私家车道和门廊前。从第一性原理出发，正确形态是「自动驾驶摩托车」级别的东西：约 300 磅、时速 20-25 英里。环顾四周发现没人在造，他们决定自己掌控命运。这就是 DOT。\n\n## 为什么这个别人学不了\n\nStanley 强调，DoorDash 一年 30 亿单，**没有两单是一样的**：旧金山市中心的配送和下雪的赫尔辛基完全不同，比萨和冰淇淋完全不同，晚餐和杂货完全不同，现在还扩展到零售、药房和包裹。把技术带进物理世界，物理世界乱得多、复杂得多。\n\n而 Dot 的策略恰恰不是解决一切，而是多模态分工：Dot 负责郊区带状购物中心出发的三到五英里配送（凤凰城是完美市场）；道路基础设施差的农村可能派无人机；需要爬楼、挑选打包的复杂杂货订单仍然交给人类 Dasher。对消费者还是同一个应用，对商家只需集成 DoorDash 一次——之后自动获得 Dasher、无人机、自主配送和后续所有 AI 工具的访问。Stanley 认为这个本地商业生态极难复制。\n\nDot 已在凤凰城跑了近两年，去年实现完全自主的 L4（在特定区域内全自动驾驶），整个自主技术栈全部自研——但专为配送打造，Waymo 的东西没法复制粘贴进来：这是一辆在马路和人行道之间反复穿行的自行车外形车辆，「据我所知世界上没有别的东西 behaving like DoorDash」。\n\n## 规模化时，「自动驾驶」反而不再是瓶颈\n\n有趣的是，五年前的问题是自动驾驶可不可能，现在自动驾驶「正越来越不再是约束和阻碍」。瓶颈变成了两块：**运营**和**硬件**。\n\n运营侧的坑都是真实世界里才会遇到的：落叶盖住半个轮子——右边两个轮子在落叶上、左边两个还在沥青上——传给车轮的扭矩完全不同，中间件和底层控制必须区别处理；刹车刹得太猛时，再生制动系统的电冲击会压过电池；还有启动问题——原始版本就是个工程师几小时拼出来的 Jenkins 脚本，一台机器人要 30-45 分钟还一半时间崩溃，乘以 500 台就是巨大的生产力灾难。再加配送站、维护、充电、制造、供应链、商家教育，以及「怎么找到顾客家真正的门」——GPS 定位点在公寓小区从来不准，人类 Dasher 能自己搞定，机器人不能。好消息是：历史上人类 Dasher 每一单实际放在哪里的数据，DoorDash 全都有，「那些数据 Google Maps 里没有，只存在于 DoorDash」。\n\n硬件侧，前 100 台自己造没问题，下一千、一万台就要搞供应链和零部件可靠性。为此他们和 Rivian 分拆出来的微出行公司 Also 合作——「为什么不和真正懂如何规模化车辆的人合作呢」。\n\n## 数据优势到底「真」在哪\n\n主持人点出一个关键：早期很多人对「大公司数据优势」的理解很肤浅——「我们有客户记录和数据库」——那和智能体要完成的事关系很小。真实的数据优势是**分布**：一旦接触物理世界，你会遇到洗碗机里有一只猫这种你根本想象不到的场景，而唯一搞清楚的办法不是让工程师坐在那里想象场景，是靠真实数据积累——数据够了，你会在另一台洗碗机里发现另一只猫，才知道这种分布有多常见。DoorDash 的另一个吸引人才之处：世界级的运营团队可以配合收集和标注数据、部署车队——「我们不只是在谈论假设，你是在凤凰城实际做配送的」。\n\n这也是 Stanley 招人的说法：「你想去做原型和演示、待在博士实验室，还是想做一件能真正在现实世界发布、有真实影响的事？」过去 10 年自主驾驶领域的人早就受够了做了十年从没看到产品被真正使用。\n\n## 10 年后骑手更多，而不是更少\n\n主持人问：长期是不是把骑手都换成机器人？Stanley 的预测正相反：10 年后 Dasher 会**更多**。DoorDash 有超过 900 万骑手，业务同比增长 25%——如果再涨 5 倍、10 倍，「总不能让半个美国每个月都为我们送外卖」，必须开拓新模态、也提升效率。结果是多模态车队并存：机器人、无人机、Waymo、人行道机器人，加上更多人类。而且效率提升会让配送更便宜，需求会更强劲地激增——「你们不仅会看到更多的自动驾驶和机器人，还会看到更多的人类」。\n\n## AI 内部转型：花钱要算 ROI\n\nAndy 分享了公司内部：去年收购 Metis 就是为了注入 AI 原生思维。编程是最 obvious 的转型处、收益明显；六月的 AI 开销比一月涨了约 20 倍，目前开销已趋平——靠的是做 DashBench（衡量各模型和 harness 在编程任务上的表现）来计算 ROI，并把便宜任务委托给开放权重模型，用更低成本拿到旗舰模型级别的智能。增长最快的反而是非技术组织：分析师、运营、客户经理都在用。但一个未解难题：把企业真实数据扔给前沿实验室、清洗数据、搭好 RL 环境之后模型表现很好，可在真实企业环境里就没那么好——到底是 harness 还要打磨，还是模型数据分布里根本缺这块能力？这是他们在编码之外的下一步。\n\n至于智能体商务的未来：Google 搜索词这几年越变越长，Andy 的解读是人们越来越习惯像和真人说话那样跟智能体交互。他们上周刚推出 DoorDash CLI 测试「智能体优先」体验——有人把摄像头对准办公室零食架，架子快空了就自动触发补货。「这些你真的想不到的用例，会随着一切变得更智能体优先而变得有趣得多」。\n\n## 本集带走\n\n- **先问用例，再造技术**：DoorDash 看到的通病是硬件/机器人公司先造技术再找问题；从「三到五英里、15 分钟、郊区」这个用例倒推，才得出 300 磅、时速 20 英里的正确形态。\n- **新市场先当平台再做产品**：跟所有玩家合作数年，验证方向、摸清基础设施缺口，确认没人造自己需要的，才自研。\n- **规模化瓶颈会转移**：五年前瓶颈是自动驾驶，现在是运营（车队管理、边缘情况、商家教育）和硬件（供应链、制造），提前想清楚下一阶段的真瓶颈。\n- **数据优势要具体到分布**：「我们有客户记录」是假的；「历史上每一单实际放在哪」才是真实优势——它只存在于你的业务里。\n- **机器人替代不等于人类消失**：业务增速快于自动化速度，效率提升又压低价格、刺激需求，多模态车队里人类运力反而会增长。\n- **企业 AI 要算 ROI**：开销暴涨后用自建基准测试评估模型×任务的表现，便宜任务分流到开放权重模型。",
+  "quotes": [
+    {
+      "en": "50% of those trajectories are people ordering from places they've never ordered from before.",
+      "zh": "这 50% 的轨迹是人们从他们以前从未点过餐的餐厅下单。",
+      "timestamp": "02:05",
+      "speaker": "Andy Fang"
+    },
+    {
+      "en": "You know, one stat that I always like to think about nowadays is just like, there's more agent traffic on the web than human traffic, you know?",
+      "zh": "现在我一直很喜欢思考的一个数据是，网络上智能体的流量比人类流量还要多。",
+      "timestamp": "04:51",
+      "speaker": "Andy Fang"
+    },
+    {
+      "en": "Yeah, we've actually been looking into robotics and autonomy probably much longer than people thought, like since 2018, actually, back when it wasn't obvious autonomy and robotics was going to be a thing.",
+      "zh": "实际上我们对机器人和自动驾驶的关注比人们以为的要早得多，从 2018 年就开始了，那时还不明显自动驾驶和机器人会成为一股潮流。",
+      "timestamp": "07:26",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Autonomy is a question of when it was going to happen, not if.",
+      "zh": "自动驾驶是一个何时会发生的问题，而不是是否会的问题。",
+      "timestamp": "10:40",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "A couple of burritos around. Do you really need a 4,000-pound car with chairs and AC?",
+      "zh": "运几个墨西哥卷饼，你真的需要一辆带座椅和空调的 4000 磅的车吗？",
+      "timestamp": "13:53",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And when we looked around and saw no one's building that, we decided, well, if no one's going to do that, instead of waiting around and wait for this to happen, we're going to control our own destiny here.",
+      "zh": "当我们环顾四周，发现没有人在造这个，我们决定，既然没人要做这个，与其干等着这件事发生，我们要自己掌控命运。",
+      "timestamp": "15:39",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And I think we just have such a huge advantage over everyone else because we have something that everyone else doesn't have. It's called DoorDash.",
+      "zh": "我认为我们比其他所有人都拥有巨大的优势，因为我们拥有一样别人没有的东西。它叫 DoorDash。",
+      "timestamp": "19:19",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "That data doesn't exist anywhere else. It doesn't exist in Google Maps. It only exists at DoorDash.",
+      "zh": "那些数据在其他任何地方都不存在。Google Maps 里没有。它只存在于 DoorDash。",
+      "timestamp": "32:37",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "My guess is that in 10 years time, we're actually going to have more dashers doing deliveries, not less.",
+      "zh": "我的猜测是，10 年后，我们实际上会有更多 dashers 做配送，而不是更少。",
+      "timestamp": "45:10",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:35",
+      "speaker": "Unknown",
+      "en": "Like people just found it easier to search for things, either more nuanced kind of restaurant discovery searches or different tasks on the grocery side.",
+      "zh": "人们就是觉得搜索东西更容易了，无论是更细腻的餐厅发现类搜索，还是杂货方面的各种任务。"
+    },
+    {
+      "timestamp": "02:05",
+      "speaker": "Unknown",
+      "en": "50% of those trajectories are people ordering from places they've never ordered from before.",
+      "zh": "这 50% 的轨迹是人们从他们以前从未点过餐的餐厅下单。"
+    },
+    {
+      "timestamp": "02:16",
+      "speaker": "Unknown",
+      "en": "Which is huge because that's one of the hardest metrics historically for DoorDash for us to move.",
+      "zh": "这非常了不起，因为从历史上看，这是 DoorDash 对我们来说最难推动的指标之一。"
+    },
+    {
+      "timestamp": "02:25",
+      "speaker": "Unknown",
+      "en": "And so people are like, you know, they'll take a picture of what's in their fridge and they'll say, help me stock up my fridge.",
+      "zh": "比如人们会拍一张冰箱里的照片，然后说，帮我补满我的冰箱。"
+    },
+    {
+      "timestamp": "04:51",
+      "speaker": "Unknown",
+      "en": "You know, one stat that I always like to think about nowadays is just like, there's more agent traffic on the web than human traffic, you know?",
+      "zh": "现在我一直很喜欢思考的一个数据是，网络上智能体的流量比人类流量还要多。"
+    },
+    {
+      "timestamp": "07:26",
+      "speaker": "Unknown",
+      "en": "Yeah, we've actually been looking into robotics and autonomy probably much longer than people thought, like since 2018, actually, back when it wasn't obvious autonomy and robotics was going to be a thing.",
+      "zh": "实际上我们对机器人和自动驾驶的关注比人们以为的要早得多，从 2018 年就开始了，那时还不明显自动驾驶和机器人会成为一股潮流。"
+    },
+    {
+      "timestamp": "08:05",
+      "speaker": "Unknown",
+      "en": "I think like Andy said, like the next DoorDash that comes along is not going to be someone that builds the exact same version of DoorDash, but maybe with a better UI is going to be... Yeah, that would be dumb.",
+      "zh": "我认为就像 Andy 说的，下一个出现的 DoorDash 不会是某个人做一个和 DoorDash 一模一样的版本、只是 UI 好一点……对，那就太蠢了。"
+    },
+    {
+      "timestamp": "10:40",
+      "speaker": "Unknown",
+      "en": "Autonomy is a question of when it was going to happen, not if.",
+      "zh": "自动驾驶是一个何时会发生的问题，而不是是否会的问题。"
+    },
+    {
+      "timestamp": "12:14",
+      "speaker": "Unknown",
+      "en": "Find a problem to fit into.",
+      "zh": "找一个能套进去的问题。"
+    },
+    {
+      "timestamp": "13:26",
+      "speaker": "Unknown",
+      "en": "And the typical delivery time is about 15 minutes if you exclude the time it takes to make the food.",
+      "zh": "而典型的配送时间大约是 15 分钟，如果你排除制作食物所需的时间。"
+    },
+    {
+      "timestamp": "13:53",
+      "speaker": "Unknown",
+      "en": "A couple of burritos around. Do you really need a 4,000-pound car with chairs and AC?",
+      "zh": "运几个墨西哥卷饼，你真的需要一辆带座椅和空调的 4000 磅的车吗？"
+    },
+    {
+      "timestamp": "15:39",
+      "speaker": "Unknown",
+      "en": "And when we looked around and saw no one's building that, we decided, well, if no one's going to do that, instead of waiting around and wait for this to happen, we're going to control our own destiny here.",
+      "zh": "当我们环顾四周，发现没有人在造这个，我们决定，既然没人要做这个，与其干等着这件事发生，我们要自己掌控命运。"
+    },
+    {
+      "timestamp": "18:13",
+      "speaker": "Unknown",
+      "en": "There are no two deliveries that look the same. All three billion deliveries look different.",
+      "zh": "没有两单配送是一样的。所有这 30 亿单配送看起来都不一样。"
+    },
+    {
+      "timestamp": "19:25",
+      "speaker": "Unknown",
+      "en": "And I think we just have such a huge advantage over everyone else because we have something that everyone else doesn't have. It's called DoorDash.",
+      "zh": "我认为我们比其他所有人都拥有巨大的优势，因为我们拥有一样别人没有的东西。它叫 DoorDash。"
+    },
+    {
+      "timestamp": "26:31",
+      "speaker": "Unknown",
+      "en": "Or do you want to work on something where you can actually ship something in the real world?",
+      "zh": "还是想做一件你能真正在现实世界中发布东西的事？"
+    },
+    {
+      "timestamp": "32:37",
+      "speaker": "Unknown",
+      "en": "That data doesn't exist anywhere else. It doesn't exist in Google Maps. It only exists at DoorDash.",
+      "zh": "那些数据在其他任何地方都不存在。Google Maps 里没有。它只存在于 DoorDash。"
+    },
+    {
+      "timestamp": "34:07",
+      "speaker": "Unknown",
+      "en": "I don't know how many of these are out there, but the only way to find out is not by an engineer sitting and being like, let me imagine the setup and the scenario for this robot.",
+      "zh": "我不知道外面还有多少这种情况，但想搞清楚的唯一办法，绝不是让一个工程师坐在那儿说，让我来想象一下这个机器人的设置和场景。"
+    },
+    {
+      "timestamp": "37:02",
+      "speaker": "Unknown",
+      "en": "But the funny thing is like the autonomy is probably increasingly becoming less and less of a constraint of a blocker.",
+      "zh": "但有趣的是，自动驾驶可能正越来越不再是约束和阻碍。"
+    },
+    {
+      "timestamp": "38:41",
+      "speaker": "Unknown",
+      "en": "So RJ is actually the board of founder and chairman of the company. So why don't we work with someone who knows how to actually scale vehicles?",
+      "zh": "所以 RJ 其实是这家公司的董事会创始人和董事长。那我们为什么不和真正懂如何规模化车辆的人合作呢？"
+    },
+    {
+      "timestamp": "45:10",
+      "speaker": "Unknown",
+      "en": "My guess is that in 10 years time, we're actually going to have more dashers doing deliveries, not less.",
+      "zh": "我的猜测是，10 年后，我们实际上会有更多 dashers 做配送，而不是更少。"
+    }
+  ],
+  "voice_script": "你可能以为 DoorDash 是一家外卖公司，其实他们自己说，我们是一家机器人公司。这一期，就是DoorDash 两位联合创始人 Andy Feng 和 Stanley Ting 聊的：怎么把 AI 和机器人，装进一个一年 30 亿单的物理世界生意里。\n\n先说一个颠覆认知的事实：很多人以为 DoorDash 是最近才开始碰机器人，错了，人家 2018 年就启动自主配送了。那时候自动驾驶还看不出会成为一股潮流，但两位创始人的判断很朴素：下一个颠覆我们的，不会是一个 UI 好一点的 DoorDash，而是融入 AI、智能体商务、自动驾驶、无人机的东西。所以与其等着被颠覆，不如自己先动手。\n\n有意思的是路径。一开始他们根本不想自己造，而是跟领域里所有人合作，从人行道机器人到 Robotaxi，自己做平台、建 API、管分发。这样干了好几年，学到三件事。第一，确认了自动驾驶是「何时」的问题，不是「是否」的问题。第二，明白了真要实现自主性，背后需要多少基础设施和生态。第三，也是最重要的：那些机器人初创公司，几乎都是先造技术、再回头找问题。而 DoorDash 需要的，是从自己的用例倒推出来的东西。\n\n那用例倒推到底长什么样？DoorDash 的平均配送距离是三到五英里，典型配送时间大概 15 分钟。拿这个标准去套现成的方案，全都对不上。人行道机器人每小时只能跑两三英里，说白了就是一台装了轮子的饮水机，根本跑不完这个距离。Robotaxi 呢？一辆 4000 磅、为载人设计的车—— Stanley 打了个特别妙的比方：运几个墨西哥卷饼，你真的需要座椅和空调吗？更关键的是，Robotaxi 把你放在离目的地半个街区的地方，人可以自己走过去，但包裹做不到。这就是所谓的「最初和最后一百英尺问题」：怎么在商家取到餐，怎么开到顾客的私家车道和门廊前。\n\n从第一性原理出发，正确形态应该是「自动驾驶摩托车」这个级别的东西：大概 300 磅，时速 20 到 25 英里。环顾四周，发现没人在造。于是有了那句话：既然没人要做，与其干等着这件事发生，我们要自己掌控命运。这就是 DOT，一台在马路和人行道之间反复穿行的自行车外形车辆，整个自主技术栈全部自研，已经在凤凰城跑了快两年，去年做到了特定区域内的完全自动驾驶，也就是 L4。按 Stanley 的说法，据他所知，世界上没有别的东西的行为方式跟它一样。\n\n那为什么这个别人学不了？因为 DoorDash 一年 30 亿单，没有两单是一样的。旧金山市中心的配送，和下雪的赫尔辛基完全不同；比萨和冰淇淋完全不同；晚餐和杂货完全不同。物理世界乱得多、复杂得多。所以 DOT 的策略恰恰不是解决一切，而是多模态分工：机器人负责郊区带状购物中心出发的三到五英里配送，凤凰城就是完美市场；道路差的农村可能派无人机；需要爬楼、挑选打包的复杂订单，还是交给人类骑手。对消费者还是同一个应用，对商家只需要集成一次，之后就自动获得所有配送方式的访问。这套本地商业生态，才是真正难复制的护城河。\n\n更有意思的是规模化之后发生的事。五年前大家的问题是：自动驾驶到底可不可能？现在，自动驾驶反而越来越不再是瓶颈了。瓶颈转移到了两个地方：运营和硬件。运营侧的坑，只有真实世界才会教给你。比如落叶盖住半个轮子，右边两个轮子在落叶上，左边两个还在沥青上，传给车轮的扭矩完全不同。比如刹车太猛时，再生制动的电冲击会压过电池。再比如「怎么找到顾客家真正的门」——GPS 在公寓小区从来不准，人类骑手凭直觉就能搞定，机器人不能。但这里恰好藏着 DoorDash 最深的数据优势：历史上每一单实际放在哪，这些数据他们全都有。这些数据 Google Maps 里没有，只存在于 DoorDash。\n\n聊到数据优势，主持人点得很关键。早期很多人理解的数据优势很肤浅，「我们有客户记录和数据库」，那跟智能体要干的事关系很小。真实的优势是分布。一旦接触物理世界，你会遇到洗碗机里有只猫这种你根本想象不到的场景，唯一搞清楚的办法不是工程师坐在那儿空想，而是靠真实数据积累。数据够了，你会在另一台洗碗机里再发现一只猫，才知道这种情况有多常见。\n\n最后说一个反直觉的预测。主持人问：长期是不是要把骑手都换成机器人？Stanley 的回答正相反：十年后，人类骑手会更多。DoorDash 现在有超过 900 万骑手，业务同比增长 25%，如果再涨五倍十倍，总不能让半个美国每个月都来送外卖吧？所以必须开拓新模态，也要提效率。而效率提升会让配送更便宜，更便宜会刺激更强的需求，结果是机器人、无人机、Waymo，加上更多的人类，一起并存。\n\n所以你看，自动化不等于替代，效率反而会把蛋糕做得更大。先问用例，再造技术；先当平台，再做产品；而且永远想清楚，下一阶段真正的瓶颈在哪儿。这三条，比任何一台机器人都值钱。"
+}

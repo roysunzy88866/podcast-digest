@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]]
+[[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":1,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":2,"主观能动性":16}</script>
+<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":1,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":2,"主观能动性":17}</script>
 
 <script>
 (function(){

@@ -1,0 +1,460 @@
+{
+  "episode_id": "2026-07-25-twentyvc-20vc-mercor-cpo-on-revenue-concentration",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-07-25",
+  "tags": [
+    "AI 训练数据",
+    "开源模型",
+    "智能体",
+    "产品管理",
+    "RL 环境"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "osvald-nitski",
+      "type": "person",
+      "role": "host",
+      "name": "Osvald Nitski",
+      "file": "Osvald Nitski",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            21.478,
+            27.8
+          ],
+          "quote": "This is 20 Product with me, Harry Stebbings, and today we have Oswald Nitsky, CPO at McCaw in the hot seat.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mercor",
+      "type": "company",
+      "role": "company",
+      "name": "Mercor",
+      "file": "Mercor",
+      "primary": true,
+      "how_described": "本集说 Mercor 是为 AI 实验室提供人类训练数据、评测与标注的公司,现金流疯狂、每周银行里的钱都会多出几百万,嘉宾 Oswald 任其 CPO。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1050.681,
+            1060.506
+          ],
+          "quote": "So this is what makes Mercor a hypergrowth company is that we're incredibly tapped into the market and the ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2482.203,
+            2488.266
+          ],
+          "quote": "People want to crank it harder and harder because spend on Mercor directly translates to more revenue for our customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2652.079,
+            2655.701
+          ],
+          "quote": "So it's a totally healthy thing to happen as long as Mercor is winning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3138.542,
+            3141.363
+          ],
+          "quote": "They're all kind of even in that they're all behind Mercor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3188.856,
+            3194.819
+          ],
+          "quote": "Can you please paint the bull case for how Mercor is a $200 billion company?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复谈智能体:长程智能体(如连续数月自动化的采购智能体)是没人算进90-10估算的潜在需求;RL 环境用于训练智能体使用工具;企业部署智能体的知识集中在旧金山。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            69.131,
+            76.052
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            338.552,
+            346.299
+          ],
+          "quote": "Most commonly we think these are like long horizon tasks like setting up a procurement agent to fully automate your procurement team for months on end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            672.955,
+            677.699
+          ],
+          "quote": "Coding agent spend for your software engineers, that's not COGS for your work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            682.603,
+            693.892
+          ],
+          "quote": "If you're looking at a customer service agent that has massive token spend and the revenue you're getting from the customers being served is way lower than the token spend, then you're definitely in a bad position.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1235.667,
+            1240.308
+          ],
+          "quote": "The other way is why not hire someone to just do this agent deployment at your own company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1467.693,
+            1476.675
+          ],
+          "quote": "We do one take-home assignment, which is, like, can you just, like, use an agent to go, you're on your own for a bit of time, go use an agent, you know, produce this artifact for me, and we'll look at it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2365.628,
+            2376.131
+          ],
+          "quote": "That you might want your agent to use and also a rich start state which we call like the world that is basically representative of all the data you might have on your machine like your laptop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2380.833,
+            2384.454
+          ],
+          "quote": "It's a bit of a complicated annotation process because the agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 701,
+          "t": [
+            3244.124,
+            3249.03
+          ],
+          "quote": "And then we also have a growing agent deployment enterprise arm as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3473.1,
+            3480.004
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源模型只是抬高下限,不会蚕食数据生意——「没有人会购买 Kimi K3 已经能做到的任何东西」,数据价值在模型性能的最前沿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            43.945,
+            49.787
+          ],
+          "quote": "Does open source help or hurt data providers because their biggest customer",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            261.103,
+            269.645
+          ],
+          "quote": "I wouldn't say that open source model improvements cannibalize our core business because data is most valuable on the frontier of model performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            289.555,
+            294.239
+          ],
+          "quote": "Open source models just mean that nobody's buying anything that Kimmy K3 can already do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            428.189,
+            441.032
+          ],
+          "quote": "Am I the only one who sees the irony and we put the sensitive data on open source, most likely Chinese models, and we put the HR and procurement data on the closed model?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL 环境 (RL environments)",
+      "file": "RL 环境",
+      "primary": true,
+      "how_described": "本集说 RL 环境是需求增长最快的数据类型:应用的模拟加丰富的「世界」起始状态,再加训练智能体用工具完成任务;训练数据正长得越来越像部署场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 458,
+          "t": [
+            2316.372,
+            2325.517
+          ],
+          "quote": "So we've moved from supervised fine-tuning to preference ranking to rubric-based annotation to now RL environments across a whole bunch of different modalities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2349.482,
+            2352.203
+          ],
+          "quote": "You might have seen a lot about these RL environments on Twitter.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说工程师的编码智能体支出不是 COGS、可带来复利式收益;更好的编码智能体提升工程速度,让 PM 对工程师的比例升高、产品管理更难。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            672.955,
+            677.699
+          ],
+          "quote": "Coding agent spend for your software engineers, that's not COGS for your work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集说评测和训练数据是当前模型性能的主要瓶颈;如果每家企业都要专门的专有模型,评测集就是 PRD 兼优化目标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 346,
+          "t": [
+            1699.786,
+            1714.168
+          ],
+          "quote": "And our annotation and eval platform, which is where experts log in to do annotation for eval or training datasets, where our operations team also logs in to run those projects, and our customers will log in to see their data and run evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3209.889,
+            3214.133
+          ],
+          "quote": "Evals and training data are the primary bottlenecks in model performance right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3214.613,
+            3227.816
+          ],
+          "quote": "If every enterprise needs to have specialized proprietary models, even if the capabilities start to saturate, the evals serve as the PRD for kind of like exactly what you want, but also the optimization objective for better performance.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集说机器人数据市场相对生成式 AI 还非常早期,是三年后值得押注的营收线,拐点更像 Waymo/Robotaxi 时刻而非 ChatGPT 时刻。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 496,
+          "t": [
+            2494.528,
+            2501.034
+          ],
+          "quote": "I see so many people that are like, oh, we're like, we're like McCaw, but for like domestic robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3262.065,
+            3265.889
+          ],
+          "quote": "Robotics is an interesting area for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3266.329,
+            3275.359
+          ],
+          "quote": "The data market for robotics is nascent relative to Gen.AI, relative to autonomous vehicles as well, and we think that's going to grow a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3323.845,
+            3329.646
+          ],
+          "quote": "Probably the same answers before in that, like, the three years out opportunity of robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3330.127,
+            3335.548
+          ],
+          "quote": "I think there's a lot of discussion around robotics on Twitter and in certain- I'm sorry, dude, can you just help me out here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3341.369,
+            3342.83
+          ],
+          "quote": "Whenever you watch a robotics talk, like-",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3422.078,
+            3427.302
+          ],
+          "quote": "You think we'll hit a ChatGPT moment with robotics which will cause an inflection in usage and adoption?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": false,
+      "how_described": "本集提到合成数据用于自动质量控制和改进交付,是项目成本中 LLM 支出的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            40.884,
+            43.785
+          ],
+          "quote": "How does synthetic data cannibalize their business?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2098.372,
+            2110.901
+          ],
+          "quote": "So there are cases where you could have automatic quality control and synthetic data improvements to make the delivery better, situations where you could think about the staffing on the project to change the cost of the service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2123.811,
+            2132.477
+          ],
+          "quote": "And, you know, now for a lot of these projects, the costs are driven from paying experts and LLM spend on things like synthetic data and automatic quality control.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

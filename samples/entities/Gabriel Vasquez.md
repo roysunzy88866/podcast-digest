@@ -27,17 +27,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Elena Berger]] · [[Angela Strange]] · [[a16z]] · [[Adi]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[OpenAI]] · [[Salesforce]]
+[[Elena Berger]] · [[Angela Strange]] · [[a16z]] · [[Adi]] · [[Eleven Labs]] · [[Cognition]] · [[Vercel]] · [[Brex]] · [[OpenAI]] · [[DoorDash]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":8,"Adi":1,"Eleven Labs":4,"Cognition":14,"Vercel":12,"Brex":3,"OpenAI":82,"Salesforce":12}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":8,"Adi":1,"Eleven Labs":4,"Cognition":14,"Vercel":12,"Brex":3,"OpenAI":82,"DoorDash":5}</script>
 
 <script>
 (function(){

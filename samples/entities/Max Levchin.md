@@ -61,7 +61,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]] [[Eno Reyes]]
+[[Justin Johnson]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]] [[Brian Singerman]]
 
 </div>
 

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]]
+[[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Cisco":2,"NVIDIA":27,"ChatGPT":48,"主观能动性":16,"AI 优先":2,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Cisco":2,"NVIDIA":27,"ChatGPT":48,"主观能动性":17,"AI 优先":2,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
 
 <script>
 (function(){

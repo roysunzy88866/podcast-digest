@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Pete Johnson]] [[Brian Singerman]] [[Andrew Antos]]
+[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":3,"token":11,"GPU":10,"推理":4,"商业地产":1,"前沿模型":6,"harness":17,"预训练":5,"后训练":17,"AGI":16}</script>
+<script type="application/json" class="pd-epn">{"数据中心":3,"token":11,"GPU":10,"推理":4,"商业地产":1,"前沿模型":6,"harness":19,"预训练":5,"后训练":17,"AGI":16}</script>
 
 <script>
 (function(){
