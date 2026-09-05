@@ -50,7 +50,7 @@ unlisted: true
 
 [[Chris Benson]] · [[护栏]] · [[智能体]] · [[Anthropic]] · [[Claude Code]] · [[提示词注入]] · [[OpenAI]] · [[Hugging Face]] · [[MCP]] · [[爆炸半径]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":6,"护栏":1,"智能体":1,"Anthropic":96,"Claude Code":43,"提示词注入":10,"OpenAI":82,"Hugging Face":18,"MCP":25,"爆炸半径":3}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":6,"护栏":1,"智能体":1,"Anthropic":97,"Claude Code":43,"提示词注入":10,"OpenAI":83,"Hugging Face":18,"MCP":26,"爆炸半径":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,4442 @@
+[
+ {
+  "seg": 0,
+  "start": 0.031,
+  "end": 4.196,
+  "speaker": "Unknown",
+  "en": "We generated the largest subscription revenue increase in Everest's history last week.",
+  "zh": "上周我们创造了 Everest 历史上最大的订阅收入增长。"
+ },
+ {
+  "seg": 1,
+  "start": 4.336,
+  "end": 6.018,
+  "speaker": "Unknown",
+  "en": "We did it by launching this thing called the Builder Pack.",
+  "zh": "我们是通过推出一个叫 Builder Pack 的东西做到的。"
+ },
+ {
+  "seg": 2,
+  "start": 6.238,
+  "end": 13.166,
+  "speaker": "Unknown",
+  "en": "Basically, we partnered with a bunch of the AI tools we use every day, and subscribers to the Builder Pack get discounts and credits to those tools.",
+  "zh": "基本上，我们和我们每天使用的一堆 AI 工具建立了合作，Builder Pack 的订阅者可以享受这些工具的折扣和额度。"
+ },
+ {
+  "seg": 3,
+  "start": 13.267,
+  "end": 17.832,
+  "speaker": "Unknown",
+  "en": "So, $1,000 in Codex credits, 12 months of free cursor access, all that kind of stuff.",
+  "zh": "比如，1,000 美元的 Codex 额度、12 个月的免费 cursor 访问权，诸如此类的东西。"
+ },
+ {
+  "seg": 4,
+  "start": 18.012,
+  "end": 25.52,
+  "speaker": "Unknown",
+  "en": "Component Pack is awesome, but I think the actual story behind it, like how we did it, why we did it, how it generated so much revenue, is really interesting.",
+  "zh": "Component Pack 很棒，但我认为它背后的故事——我们是怎么做的、为什么做、它如何带来了这么多收入——真的很有意思。"
+ },
+ {
+  "seg": 5,
+  "start": 25.701,
+  "end": 34.25,
+  "speaker": "Unknown",
+  "en": "For this episode, I had the team who worked on the Builder Pack, everything from conception all the way to the full executioner launch, come to the show to share how we did it and what we learned.",
+  "zh": "在这一期节目里，我请到了负责 Builder Pack 的团队，从构想到完整执行和上线的全过程，来节目中分享我们是怎么做的以及我们学到了什么。"
+ },
+ {
+  "seg": 6,
+  "start": 34.39,
+  "end": 34.991,
+  "speaker": "Unknown",
+  "en": "I hope you like it.",
+  "zh": "希望你们喜欢。"
+ },
+ {
+  "seg": 7,
+  "start": 35.271,
+  "end": 37.933,
+  "speaker": "Unknown",
+  "en": "Hello, everyone, and welcome to AI&I.",
+  "zh": "大家好，欢迎来到 AI&I。"
+ },
+ {
+  "seg": 8,
+  "start": 38.734,
+  "end": 48.122,
+  "speaker": "Unknown",
+  "en": "This is a slightly different version of the pod today where we've got myself, Yash, Austin, and Douglas here, and we're missing Daniel.",
+  "zh": "今天是一个略有不同的节目版本，在场的是我、Yash、Austin 和 Douglas，Daniel 缺席了。"
+ },
+ {
+  "seg": 9,
+  "start": 49.184,
+  "end": 56.33,
+  "speaker": "Unknown",
+  "en": "We're going to be taking you on a journey today, introducing you to All Access and the Builder Pack.",
+  "zh": "今天我们要带你们踏上一段旅程，向你们介绍 All Access 和 Builder Pack。"
+ },
+ {
+  "seg": 10,
+  "start": 57.21,
+  "end": 61.814,
+  "speaker": "Unknown",
+  "en": "And this is a new tier at Every that we decided to launch recently.",
+  "zh": "这是 Every 最近决定推出的一个新层级。"
+ },
+ {
+  "seg": 11,
+  "start": 62.314,
+  "end": 67.117,
+  "speaker": "Unknown",
+  "en": "And we would just want to talk about why we decided to build it, why it's important.",
+  "zh": "我们想谈谈我们为什么决定做它，以及它为什么重要。"
+ },
+ {
+  "seg": 12,
+  "start": 68.258,
+  "end": 75.466,
+  "speaker": "Unknown",
+  "en": "How we use it and what it means to be a builder today, all of which, all of us are builders and use these tools every day.",
+  "zh": "我们如何使用它，以及今天作为 builder 意味着什么——我们所有人都是 builder，每天都在使用这些工具。"
+ },
+ {
+  "seg": 13,
+  "start": 75.547,
+  "end": 84.336,
+  "speaker": "Unknown",
+  "en": "So yeah, hopefully by the end of this, there'll be like one nugget that you can take out of this and use in your every day.",
+  "zh": "所以，希望到这期节目结束时，你们能从中带走一个可以运用到自己日常中的小收获。"
+ },
+ {
+  "seg": 14,
+  "start": 85.245,
+  "end": 90.012,
+  "speaker": "Unknown",
+  "en": "So I guess like to introduce us or to introduce this this pod.",
+  "zh": "我想先介绍一下我们自己，或者介绍一下这期节目。"
+ },
+ {
+  "seg": 15,
+  "start": 90.633,
+  "end": 92.496,
+  "speaker": "Unknown",
+  "en": "First, I'm going to introduce All Access.",
+  "zh": "首先，我要介绍 All Access。"
+ },
+ {
+  "seg": 16,
+  "start": 93.197,
+  "end": 97.663,
+  "speaker": "Unknown",
+  "en": "We launched a Tuesday on the 14th.",
+  "zh": "我们在 14 日周二上线了它。"
+ },
+ {
+  "seg": 17,
+  "start": 97.723,
+  "end": 98.865,
+  "speaker": "Unknown",
+  "en": "It was a big launch for us.",
+  "zh": "对我们来说这是一次大型发布。"
+ },
+ {
+  "seg": 18,
+  "start": 99.726,
+  "end": 101.308,
+  "speaker": "Unknown",
+  "en": "Big endeavor across the whole company.",
+  "zh": "是全公司范围的一次大工程。"
+ },
+ {
+  "seg": 19,
+  "start": 101.996,
+  "end": 103.337,
+  "speaker": "Unknown",
+  "en": "All Access is a new tier.",
+  "zh": "All Access 是一个新层级。"
+ },
+ {
+  "seg": 20,
+  "start": 103.877,
+  "end": 117.644,
+  "speaker": "Unknown",
+  "en": "At every, it's a $625 annual plan that gives you access to the Builder Pack, which is 10 exclusive benefits from all AI companies that you know and love.",
+  "zh": "在 Every，它是一个 625 美元的年度计划，让你获得 Builder Pack 的访问权，即来自你熟知和喜爱的所有 AI 公司的 10 项专属权益。"
+ },
+ {
+  "seg": 21,
+  "start": 118.304,
+  "end": 125.35,
+  "speaker": "Unknown",
+  "en": "That enable you to go build and adopt some of these tools in ways that you may not have been able to before.",
+  "zh": "这些权益让你能够以以前可能无法做到的方式去构建和采用这些工具。"
+ },
+ {
+  "seg": 22,
+  "start": 125.91,
+  "end": 127.832,
+  "speaker": "Unknown",
+  "en": "And All Access includes a couple other things.",
+  "zh": "All Access 还包含其他一些东西。"
+ },
+ {
+  "seg": 23,
+  "start": 127.932,
+  "end": 142.204,
+  "speaker": "Unknown",
+  "en": "It includes access to office hours that we're hosting that are exclusive to All Access members, unlimited use of Quora and Spiral, and we have a couple other things up our sleeve that we're going to be launching in the next few months as well.",
+  "zh": "它包括我们举办的仅面向 All Access 会员的 office hours 访问权、Quora 和 Spiral 的无限使用，而且我们还有几个其他的东西在筹备中，将在未来几个月内推出。"
+ },
+ {
+  "seg": 24,
+  "start": 144.226,
+  "end": 146.748,
+  "speaker": "Unknown",
+  "en": "But we really want to talk about the Builder Pack because that's like",
+  "zh": "但我们真正想谈的是 Builder Pack，因为那大概是"
+ },
+ {
+  "seg": 25,
+  "start": 148.008,
+  "end": 150.689,
+  "speaker": "Unknown",
+  "en": "Probably the meat of All Access.",
+  "zh": "All Access 最核心的部分。"
+ },
+ {
+  "seg": 26,
+  "start": 151.61,
+  "end": 170.098,
+  "speaker": "Unknown",
+  "en": "And the Builder Pack is 10 soon to be more exclusive benefits to AI tools that the Every Team uses every day so that you can get access to these tools and use them, you know.",
+  "zh": "Builder Pack 是 10 项、很快会更多的专属权益，涵盖 Every 团队每天都在使用的 AI 工具，让你能够获得并使用这些工具。"
+ },
+ {
+  "seg": 27,
+  "start": 170.734,
+  "end": 174.436,
+  "speaker": "Unknown",
+  "en": "for free for a while and get comfortable with using them in your stack.",
+  "zh": "先免费使用一段时间，并习惯把它们纳入你的工具栈。"
+ },
+ {
+  "seg": 28,
+  "start": 174.676,
+  "end": 178.217,
+  "speaker": "Unknown",
+  "en": "It's early access, exclusive access to the EveryStack.",
+  "zh": "这是 EveryStack 的早期访问、专属访问。"
+ },
+ {
+  "seg": 29,
+  "start": 178.697,
+  "end": 180.498,
+  "speaker": "Unknown",
+  "en": "This is the team that brought it to life.",
+  "zh": "这就是把它变成现实的团队。"
+ },
+ {
+  "seg": 30,
+  "start": 181.358,
+  "end": 182.999,
+  "speaker": "Unknown",
+  "en": "All right, Yash, how do you use the BuilderPack?",
+  "zh": "好了，Yash，你是怎么使用 BuilderPack 的？"
+ },
+ {
+  "seg": 31,
+  "start": 183.119,
+  "end": 184.139,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 32,
+  "start": 184.42,
+  "end": 184.96,
+  "speaker": "Unknown",
+  "en": "Context.",
+  "zh": "背景介绍一下。"
+ },
+ {
+  "seg": 33,
+  "start": 185.2,
+  "end": 185.74,
+  "speaker": "Unknown",
+  "en": "I'm Yash.",
+  "zh": "我是 Yash。"
+ },
+ {
+  "seg": 34,
+  "start": 186.22,
+  "end": 189.362,
+  "speaker": "Unknown",
+  "en": "I run one of the... Yeah.",
+  "zh": "我负责其中一个……好的。"
+ },
+ {
+  "seg": 35,
+  "start": 189.382,
+  "end": 189.802,
+  "speaker": "Unknown",
+  "en": "Who are you?",
+  "zh": "你是谁？"
+ },
+ {
+  "seg": 36,
+  "start": 191.202,
+  "end": 191.662,
+  "speaker": "Unknown",
+  "en": "Who am I?",
+  "zh": "我是谁？"
+ },
+ {
+  "seg": 37,
+  "start": 191.782,
+  "end": 200.326,
+  "speaker": "Unknown",
+  "en": "Well, I ask myself that every day, but I run one of the products at Every called Sparkle, and I also work on the growth team now.",
+  "zh": "我每天都会问自己这个问题。我在 Every 负责一个叫 Sparkle 的产品，现在我也在增长团队工作。"
+ },
+ {
+  "seg": 38,
+  "start": 201.275,
+  "end": 204.696,
+  "speaker": "Unknown",
+  "en": "A large part of my work is using Claude.",
+  "zh": "我工作很大一部分是使用 Claude。"
+ },
+ {
+  "seg": 39,
+  "start": 205.376,
+  "end": 209.837,
+  "speaker": "Unknown",
+  "en": "I know at every, we are like Codex stands, but I'm still very Claude.",
+  "zh": "我知道在 Every 我们都是 Codex 党，但我仍然非常忠于 Claude。"
+ },
+ {
+  "seg": 40,
+  "start": 209.857,
+  "end": 211.658,
+  "speaker": "Unknown",
+  "en": "I've been using Claude for the last one year.",
+  "zh": "过去一年我一直在用 Claude。"
+ },
+ {
+  "seg": 41,
+  "start": 212.598,
+  "end": 221.72,
+  "speaker": "Unknown",
+  "en": "And this involves like, I built out the entire product, like I think 15, rebuilt Sparkle 15 times using Claude and PostHog.",
+  "zh": "这包括，我构建了整个产品，我想我大概用 Claude 和 PostHog 把 Sparkle 重构了 15 次。"
+ },
+ {
+  "seg": 42,
+  "start": 221.76,
+  "end": 224.641,
+  "speaker": "Unknown",
+  "en": "So those are the tools I reach out for the most.",
+  "zh": "所以这些是我最常用的工具。"
+ },
+ {
+  "seg": 43,
+  "start": 225.261,
+  "end": 227.802,
+  "speaker": "Unknown",
+  "en": "And recently I joined the growth team at Avery.",
+  "zh": "最近我加入了 Avery 的增长团队。"
+ },
+ {
+  "seg": 44,
+  "start": 228.665,
+  "end": 234.827,
+  "speaker": "Unknown",
+  "en": "And growth meant a lot of A-B testing, a lot of segmentation and other stuff.",
+  "zh": "增长意味着大量的 A-B 测试、大量的用户分群等等。"
+ },
+ {
+  "seg": 45,
+  "start": 235.307,
+  "end": 243.909,
+  "speaker": "Unknown",
+  "en": "And again, I started optimizing PostHog, but I find it really annoying to open like dashboards and set a lot of these things up.",
+  "zh": "同样，我开始优化 PostHog，但我发现打开各种仪表盘、配置这些事情真的很烦。"
+ },
+ {
+  "seg": 46,
+  "start": 244.369,
+  "end": 248.95,
+  "speaker": "Unknown",
+  "en": "And that's where my setup with Claude helps a lot, where I have like custom skills built out.",
+  "zh": "这就是我的 Claude 工作流帮上大忙的地方，我构建了一些自定义 skills。"
+ },
+ {
+  "seg": 47,
+  "start": 249.41,
+  "end": 253.011,
+  "speaker": "Unknown",
+  "en": "And essentially my plan is in the next few weeks,",
+  "zh": "基本上我的计划是在接下来几周内，"
+ },
+ {
+  "seg": 48,
+  "start": 253.571,
+  "end": 256.554,
+  "speaker": "Unknown",
+  "en": "to automate the entire A-B testing pipeline.",
+  "zh": "把整个 A-B 测试流水线自动化。"
+ },
+ {
+  "seg": 49,
+  "start": 256.995,
+  "end": 266.504,
+  "speaker": "Unknown",
+  "en": "Like a lot of the work that I spent doing for the first one month at the growth team, I'm like, this is very boring because it's very straightforward.",
+  "zh": "我在增长团队第一个月做的很多工作，我都觉得，这很无聊，因为它太直白了。"
+ },
+ {
+  "seg": 50,
+  "start": 266.524,
+  "end": 270.248,
+  "speaker": "Unknown",
+  "en": "Like I should be working on interesting, more interesting problems and I should not be...",
+  "zh": "比如我应该去做有趣的、更有趣的问题，而不应该……"
+ },
+ {
+  "seg": 51,
+  "start": 271.674,
+  "end": 276.621,
+  "speaker": "Unknown",
+  "en": "Clicking buttons and figuring out what's the right audience size and stuff like that.",
+  "zh": "点按钮、搞清楚合适的受众规模之类的事情。"
+ },
+ {
+  "seg": 52,
+  "start": 276.661,
+  "end": 278.204,
+  "speaker": "Unknown",
+  "en": "Claude is so much better at that.",
+  "zh": "Claude 在这方面好太多了。"
+ },
+ {
+  "seg": 53,
+  "start": 278.464,
+  "end": 279.385,
+  "speaker": "Unknown",
+  "en": "I have to prompt it.",
+  "zh": "我得给它写提示词。"
+ },
+ {
+  "seg": 54,
+  "start": 279.406,
+  "end": 281.689,
+  "speaker": "Unknown",
+  "en": "I have to figure out, okay, what's the right audience size?",
+  "zh": "我得想清楚,好,合适的受众规模是多少？"
+ },
+ {
+  "seg": 55,
+  "start": 281.889,
+  "end": 284.373,
+  "speaker": "Unknown",
+  "en": "When should an experiment go from...",
+  "zh": "一个实验什么时候应该从……"
+ },
+ {
+  "seg": 56,
+  "start": 285.463,
+  "end": 288.424,
+  "speaker": "Unknown",
+  "en": "of 10% AB testing cohort to 50%.",
+  "zh": "从 10% 的 A/B 测试组扩到 50%。"
+ },
+ {
+  "seg": 57,
+  "start": 289.244,
+  "end": 292.625,
+  "speaker": "Unknown",
+  "en": "Like, why should I be doing that manually?",
+  "zh": "比如，为什么我要手动做这些？"
+ },
+ {
+  "seg": 58,
+  "start": 293.125,
+  "end": 294.905,
+  "speaker": "Unknown",
+  "en": "I feel it's a lot of fake work.",
+  "zh": "我觉得这是很多假性工作。"
+ },
+ {
+  "seg": 59,
+  "start": 295.826,
+  "end": 303.328,
+  "speaker": "Unknown",
+  "en": "And we like to spend a lot of time observing these things, like setting up an experiment every time felt so boring to me.",
+  "zh": "而我们喜欢花很多时间观察这些东西，比如每次搭建一个实验对我来说都太无聊了。"
+ },
+ {
+  "seg": 60,
+  "start": 303.368,
+  "end": 307.289,
+  "speaker": "Unknown",
+  "en": "I'm like, the only way I can set up, do more experiments is automating the entire pipeline.",
+  "zh": "我就想，我能做更多实验的唯一办法就是把整个流水线自动化。"
+ },
+ {
+  "seg": 61,
+  "start": 307.689,
+  "end": 308.689,
+  "speaker": "Unknown",
+  "en": "So I spend a lot of time",
+  "zh": "所以我花了很多时间"
+ },
+ {
+  "seg": 62,
+  "start": 309.53,
+  "end": 312.397,
+  "speaker": "Unknown",
+  "en": "So what's interesting to you is less actually the work.",
+  "zh": "所以对你来说真正有趣的其实不是那些具体工作。"
+ },
+ {
+  "seg": 63,
+  "start": 312.597,
+  "end": 315.604,
+  "speaker": "Unknown",
+  "en": "The work is no longer setting up the pipeline to be able to do it.",
+  "zh": "工作本身不再是搭建流水线以便去做实验。"
+ },
+ {
+  "seg": 64,
+  "start": 315.624,
+  "end": 316.265,
+  "speaker": "Unknown",
+  "en": "It's actually",
+  "zh": "而是"
+ },
+ {
+  "seg": 65,
+  "start": 317.516,
+  "end": 318.416,
+  "speaker": "Unknown",
+  "en": "What should I test?",
+  "zh": "我该测试什么？"
+ },
+ {
+  "seg": 66,
+  "start": 318.677,
+  "end": 318.917,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 67,
+  "start": 319.017,
+  "end": 320.037,
+  "speaker": "Unknown",
+  "en": "And then did it work?",
+  "zh": "然后它奏效了吗？"
+ },
+ {
+  "seg": 68,
+  "start": 320.177,
+  "end": 320.377,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 69,
+  "start": 320.417,
+  "end": 320.918,
+  "speaker": "Unknown",
+  "en": "Implement it.",
+  "zh": "落地实施。"
+ },
+ {
+  "seg": 70,
+  "start": 320.938,
+  "end": 321.698,
+  "speaker": "Unknown",
+  "en": "What's the next test?",
+  "zh": "下一个测试是什么？"
+ },
+ {
+  "seg": 71,
+  "start": 321.738,
+  "end": 321.958,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 72,
+  "start": 322.338,
+  "end": 324.779,
+  "speaker": "Unknown",
+  "en": "I should be, like, I'm more interested in the ideas.",
+  "zh": "我应该……比如，我对想法更感兴趣。"
+ },
+ {
+  "seg": 73,
+  "start": 325.02,
+  "end": 327.601,
+  "speaker": "Unknown",
+  "en": "Like, oh, should we do a homepage takeover?",
+  "zh": "比如，哦，我们要不要做一个首页全屏接管？"
+ },
+ {
+  "seg": 74,
+  "start": 327.621,
+  "end": 328.421,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 75,
+  "start": 328.501,
+  "end": 330.422,
+  "speaker": "Unknown",
+  "en": "Who should we show that homepage takeover to?",
+  "zh": "我们应该把这个首页全屏接管展示给谁？"
+ },
+ {
+  "seg": 76,
+  "start": 330.802,
+  "end": 334.644,
+  "speaker": "Unknown",
+  "en": "Versus actually setting that up is not that interesting.",
+  "zh": "而真正把它搭建起来这件事就没那么有趣了。"
+ },
+ {
+  "seg": 77,
+  "start": 335.424,
+  "end": 340.607,
+  "speaker": "Unknown",
+  "en": "Like, we have so many experiments live right now, which is like, when should we cut off the paywall?",
+  "zh": "比如，我们现在有非常多的实验在跑，比如，什么时候切断付费墙？"
+ },
+ {
+  "seg": 78,
+  "start": 340.667,
+  "end": 341.747,
+  "speaker": "Unknown",
+  "en": "When should we show the paywall?",
+  "zh": "什么时候展示付费墙？"
+ },
+ {
+  "seg": 79,
+  "start": 342.368,
+  "end": 344.969,
+  "speaker": "Unknown",
+  "en": "Those are way more interesting, and those are also, like, more",
+  "zh": "那些有趣得多，而且它们也更……"
+ },
+ {
+  "seg": 80,
+  "start": 346.082,
+  "end": 348.265,
+  "speaker": "Unknown",
+  "en": "So human psychology.",
+  "zh": "所以是人类心理。"
+ },
+ {
+  "seg": 81,
+  "start": 349.387,
+  "end": 351.81,
+  "speaker": "Unknown",
+  "en": "And I can, I have more fun doing that.",
+  "zh": "而且我做这些更有乐趣。"
+ },
+ {
+  "seg": 82,
+  "start": 353.112,
+  "end": 359.381,
+  "speaker": "Unknown",
+  "en": "And I personally feel like a large part of our work at every is like, everyone is very secure in what they do.",
+  "zh": "而我个人觉得，在 Every 我们工作的一大部分就是，每个人都对自己所做的事情很有安全感。"
+ },
+ {
+  "seg": 83,
+  "start": 359.822,
+  "end": 361.965,
+  "speaker": "Unknown",
+  "en": "And so we are okay with automating our jobs.",
+  "zh": "所以我们可以接受把自己的工作自动化。"
+ },
+ {
+  "seg": 84,
+  "start": 362.95,
+  "end": 366.131,
+  "speaker": "Unknown",
+  "en": "I spent one month doing these things and I'm like, okay, I'm done.",
+  "zh": "我花了一个月做这些事情，然后我就想，好，我做完了。"
+ },
+ {
+  "seg": 85,
+  "start": 366.771,
+  "end": 368.492,
+  "speaker": "Unknown",
+  "en": "Like I want to do other things now.",
+  "zh": "比如我现在想做别的事情了。"
+ },
+ {
+  "seg": 86,
+  "start": 369.492,
+  "end": 374.393,
+  "speaker": "Unknown",
+  "en": "And if it was some other organization, I'm going to try to stretch this out for like a year.",
+  "zh": "如果是在别的组织，我会试着把这件事拖上一年。"
+ },
+ {
+  "seg": 87,
+  "start": 374.573,
+  "end": 377.554,
+  "speaker": "Unknown",
+  "en": "You want to move on to the next thing that you can tackle.",
+  "zh": "你想转向下一个你能攻克的事情。"
+ },
+ {
+  "seg": 88,
+  "start": 377.614,
+  "end": 378.654,
+  "speaker": "Unknown",
+  "en": "Yeah, because that's fun.",
+  "zh": "对，因为那才好玩。"
+ },
+ {
+  "seg": 89,
+  "start": 378.794,
+  "end": 381.255,
+  "speaker": "Unknown",
+  "en": "And that's why we are always at the edge of AI.",
+  "zh": "这也是为什么我们始终处在 AI 的前沿。"
+ },
+ {
+  "seg": 90,
+  "start": 381.515,
+  "end": 383.356,
+  "speaker": "Unknown",
+  "en": "Like we are like, yeah, this is done guys.",
+  "zh": "就像我们说的，对，伙计们，这个做完了。"
+ },
+ {
+  "seg": 91,
+  "start": 383.396,
+  "end": 384.516,
+  "speaker": "Unknown",
+  "en": "Like what's next?",
+  "zh": "下一步是什么？"
+ },
+ {
+  "seg": 92,
+  "start": 384.536,
+  "end": 385.656,
+  "speaker": "Unknown",
+  "en": "Like what's more interesting?",
+  "zh": "什么更有趣？"
+ },
+ {
+  "seg": 93,
+  "start": 385.816,
+  "end": 386.136,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 94,
+  "start": 386.316,
+  "end": 387.577,
+  "speaker": "Unknown",
+  "en": "Is there a better model for this?",
+  "zh": "对此有没有更好的模型？"
+ },
+ {
+  "seg": 95,
+  "start": 387.837,
+  "end": 389.157,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是。"
+ },
+ {
+  "seg": 96,
+  "start": 389.437,
+  "end": 391.718,
+  "speaker": "Unknown",
+  "en": "So what in the builder pack do you use?",
+  "zh": "那么在 builder pack 里你用的是哪些？"
+ },
+ {
+  "seg": 97,
+  "start": 392.358,
+  "end": 392.738,
+  "speaker": "Unknown",
+  "en": "Every day?",
+  "zh": "每天都用？"
+ },
+ {
+  "seg": 98,
+  "start": 393.038,
+  "end": 394.699,
+  "speaker": "Unknown",
+  "en": "Every day, it's Cursor.",
+  "zh": "每天都用的话，是 Cursor。"
+ },
+ {
+  "seg": 99,
+  "start": 395.019,
+  "end": 398.359,
+  "speaker": "Unknown",
+  "en": "I use Cursor because they have cloud agents, which are really good.",
+  "zh": "我用 Cursor 是因为他们有云端智能体，非常好用。"
+ },
+ {
+  "seg": 100,
+  "start": 399.7,
+  "end": 406.962,
+  "speaker": "Unknown",
+  "en": "We did a bunch of Fable 5 optimizations because I was working on some other tasks.",
+  "zh": "我们做了一大堆 Fable 5 优化,因为我当时在做其他任务。"
+ },
+ {
+  "seg": 101,
+  "start": 407.002,
+  "end": 408.562,
+  "speaker": "Unknown",
+  "en": "I did not want to mess with my setup.",
+  "zh": "我不想弄乱我的配置。"
+ },
+ {
+  "seg": 102,
+  "start": 408.922,
+  "end": 414.663,
+  "speaker": "Unknown",
+  "en": "So cloud agents just spin off a cloud server and run there and get me the results back.",
+  "zh": "所以云端智能体直接开一个云服务器在那里跑,然后把结果返回给我。"
+ },
+ {
+  "seg": 103,
+  "start": 415.124,
+  "end": 421.005,
+  "speaker": "Unknown",
+  "en": "And they have a really good open source model, which is really cheap, like QB Composer, which I love.",
+  "zh": "而且他们有一个非常好用的开源模型,特别便宜,比如 QB Composer,我很喜欢。"
+ },
+ {
+  "seg": 104,
+  "start": 421.624,
+  "end": 423.205,
+  "speaker": "Unknown",
+  "en": "So that's something I use.",
+  "zh": "所以这是我用的东西之一。"
+ },
+ {
+  "seg": 105,
+  "start": 423.485,
+  "end": 427.026,
+  "speaker": "Unknown",
+  "en": "I use Framer a lot as well while I was building the Sparkle site.",
+  "zh": "我在搭建 Sparkle 网站的时候也大量使用了 Framer。"
+ },
+ {
+  "seg": 106,
+  "start": 428.966,
+  "end": 440.47,
+  "speaker": "Unknown",
+  "en": "It has good MCP support, so I could change the headlines, experiment more directly without actually going into Framer and setting.",
+  "zh": "它有很好的 MCP 支持,所以我可以直接修改标题、做更多实验,而不用真的进 Framer 里去设置。"
+ },
+ {
+  "seg": 107,
+  "start": 441.29,
+  "end": 442.511,
+  "speaker": "Unknown",
+  "en": "It's very annoying to me.",
+  "zh": "那对我来说非常烦人。"
+ },
+ {
+  "seg": 108,
+  "start": 442.631,
+  "end": 446.192,
+  "speaker": "Unknown",
+  "en": "I'm setting a lot of these things up, the right font size for mobile and stuff like that.",
+  "zh": "我要设置很多东西,比如移动端合适的字号之类的。"
+ },
+ {
+  "seg": 109,
+  "start": 446.672,
+  "end": 448.873,
+  "speaker": "Unknown",
+  "en": "I used to do this 20 years back.",
+  "zh": "我二十年前就干过这些事。"
+ },
+ {
+  "seg": 110,
+  "start": 450.819,
+  "end": 453.323,
+  "speaker": "Unknown",
+  "en": "Like today, I should not be spending my time on these things.",
+  "zh": "到了今天,我不应该把时间花在这些事情上。"
+ },
+ {
+  "seg": 111,
+  "start": 454.244,
+  "end": 458.01,
+  "speaker": "Unknown",
+  "en": "And I would say Claude Max is my go-to.",
+  "zh": "我会说 Claude Max 是我的首选。"
+ },
+ {
+  "seg": 112,
+  "start": 458.411,
+  "end": 460.934,
+  "speaker": "Unknown",
+  "en": "I feel it's insane.",
+  "zh": "我觉得它太疯狂了。"
+ },
+ {
+  "seg": 113,
+  "start": 461.155,
+  "end": 461.896,
+  "speaker": "Unknown",
+  "en": "Yeah, that's my stack.",
+  "zh": "对,这就是我的技术栈。"
+ },
+ {
+  "seg": 114,
+  "start": 461.936,
+  "end": 462.857,
+  "speaker": "Unknown",
+  "en": "And PostHog.",
+  "zh": "还有 PostHog。"
+ },
+ {
+  "seg": 115,
+  "start": 462.897,
+  "end": 463.919,
+  "speaker": "Unknown",
+  "en": "And PostHog, yeah.",
+  "zh": "对,还有 PostHog。"
+ },
+ {
+  "seg": 116,
+  "start": 464.179,
+  "end": 465.802,
+  "speaker": "Unknown",
+  "en": "I use a lot of these products, but...",
+  "zh": "我用很多这类产品,但是……"
+ },
+ {
+  "seg": 117,
+  "start": 466.481,
+  "end": 467.822,
+  "speaker": "Unknown",
+  "en": "It's so cheap.",
+  "zh": "它太便宜了。"
+ },
+ {
+  "seg": 118,
+  "start": 467.923,
+  "end": 471.045,
+  "speaker": "Unknown",
+  "en": "I feel the Claude Mac subscription is really underrated.",
+  "zh": "我觉得 Claude Mac 的订阅被严重低估了。"
+ },
+ {
+  "seg": 119,
+  "start": 471.486,
+  "end": 472.927,
+  "speaker": "Unknown",
+  "en": "I'd pay way more for it.",
+  "zh": "我愿意为它付多得多的钱。"
+ },
+ {
+  "seg": 120,
+  "start": 473.728,
+  "end": 474.709,
+  "speaker": "Unknown",
+  "en": "I couldn't work without it.",
+  "zh": "没有它我没法工作。"
+ },
+ {
+  "seg": 121,
+  "start": 474.949,
+  "end": 475.169,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 122,
+  "start": 475.39,
+  "end": 475.79,
+  "speaker": "Unknown",
+  "en": "Anthropic.",
+  "zh": "Anthropic。"
+ },
+ {
+  "seg": 123,
+  "start": 475.85,
+  "end": 478.212,
+  "speaker": "Unknown",
+  "en": "I hope no one from Anthropic is watching this.",
+  "zh": "我希望没有 Anthropic 的人在看这个。"
+ },
+ {
+  "seg": 124,
+  "start": 478.933,
+  "end": 480.615,
+  "speaker": "Unknown",
+  "en": "Get the deal, guys.",
+  "zh": "买这个套餐吧,各位。"
+ },
+ {
+  "seg": 125,
+  "start": 480.695,
+  "end": 481.475,
+  "speaker": "Unknown",
+  "en": "Get the Builder Pack.",
+  "zh": "买 Builder Pack 吧。"
+ },
+ {
+  "seg": 126,
+  "start": 482.576,
+  "end": 497.021,
+  "speaker": "Unknown",
+  "en": "I like the way Yash is describing one potential approach to work, which is like there's this there's this approach to being a general manager in the NBA, which is like just keep trading for future draft picks to be like we're on an eight year time horizon for contention.",
+  "zh": "我喜欢 Yash 描述的一种潜在工作方式,就像 NBA 里当总经理有这样一种思路,就是不断交易未来的选秀权,相当于我们是以八年为周期去争夺冠军。"
+ },
+ {
+  "seg": 127,
+  "start": 497.861,
+  "end": 510.305,
+  "speaker": "Unknown",
+  "en": "And there is for someone as like skilled as Yash at engineering, go to market engineering growth, you can use these tools, the stack that he has to to like",
+  "zh": "而对于一个像 Yash 这样在工程、增长工程方面如此有技术的人来说,你可以用这些工具、用他手上的这套栈,"
+ },
+ {
+  "seg": 128,
+  "start": 511.105,
+  "end": 515.426,
+  "speaker": "Unknown",
+  "en": "Operate at the same level and like a set it and forget it mode.",
+  "zh": "达到同样的水平,而且是一种「设好就不用管」的模式。"
+ },
+ {
+  "seg": 129,
+  "start": 515.926,
+  "end": 519.127,
+  "speaker": "Unknown",
+  "en": "And kind of, I would be like, well, like I run the growth team.",
+  "zh": "换成我的话,我可能会说,好吧,我负责增长团队。"
+ },
+ {
+  "seg": 130,
+  "start": 519.147,
+  "end": 520.147,
+  "speaker": "Unknown",
+  "en": "I look at what Josh is doing.",
+  "zh": "我看看 Josh 在做什么。"
+ },
+ {
+  "seg": 131,
+  "start": 520.187,
+  "end": 522.208,
+  "speaker": "Unknown",
+  "en": "I'd be like, yeah, shift another experiment.",
+  "zh": "我会说,嗯,再shift一个实验。"
+ },
+ {
+  "seg": 132,
+  "start": 522.388,
+  "end": 524.548,
+  "speaker": "Unknown",
+  "en": "And it like moves the needle by 2%.",
+  "zh": "然后它就让指标提升了 2%。"
+ },
+ {
+  "seg": 133,
+  "start": 524.668,
+  "end": 525.428,
+  "speaker": "Unknown",
+  "en": "I guess he's on it.",
+  "zh": "我猜他搞定了吧。"
+ },
+ {
+  "seg": 134,
+  "start": 525.548,
+  "end": 531.79,
+  "speaker": "Unknown",
+  "en": "And like, he knows how to set up that, that Claude code and post hog loop.",
+  "zh": "而且他知道怎么搭建那个 Claude Code 和 PostHog 的闭环。"
+ },
+ {
+  "seg": 135,
+  "start": 532.31,
+  "end": 537.031,
+  "speaker": "Unknown",
+  "en": "But the way that he works instead, which is exciting, is that after he does that.",
+  "zh": "但他实际的工作方式更有意思,是这样的:在他做完这些之后。"
+ },
+ {
+  "seg": 136,
+  "start": 538.051,
+  "end": 541.536,
+  "speaker": "Unknown",
+  "en": "He looks at how can we win right now?",
+  "zh": "他会看,我们现在怎么才能赢?"
+ },
+ {
+  "seg": 137,
+  "start": 541.716,
+  "end": 545.801,
+  "speaker": "Unknown",
+  "en": "How can I be creative and competitive to find the next thing?",
+  "zh": "我怎么发挥创造力、保持竞争力,去找到下一件事?"
+ },
+ {
+  "seg": 138,
+  "start": 546.482,
+  "end": 554.031,
+  "speaker": "Unknown",
+  "en": "And how can I use these always-on loop and architecture-based automations to make it so that",
+  "zh": "我怎么利用这些常驻运行的闭环和基于架构的自动化,让"
+ },
+ {
+  "seg": 139,
+  "start": 554.832,
+  "end": 569.309,
+  "speaker": "Unknown",
+  "en": "Yash can do the thing that lights him up, which is I can see Yash in Slack being like, oh, what if we made a three-hour time-constrained discount specifically targeted to these users using this video, building this thing in Framer?",
+  "zh": "Yash 能去做那些让他兴奋的事,我能想象 Yash 在 Slack 里说:哦,如果我们做一个三小时限时折扣,专门针对这些用户,用这个视频,在 Framer 里搭这个东西,会怎么样?"
+ },
+ {
+  "seg": 140,
+  "start": 570.29,
+  "end": 573.093,
+  "speaker": "Unknown",
+  "en": "And this kind of stuff has always been the case, right?",
+  "zh": "这类事情其实一直如此,对吧?"
+ },
+ {
+  "seg": 141,
+  "start": 573.153,
+  "end": 576.356,
+  "speaker": "Unknown",
+  "en": "Like that work is the most fun way to work.",
+  "zh": "那种工作就是最有乐趣的工作方式。"
+ },
+ {
+  "seg": 142,
+  "start": 576.816,
+  "end": 580.2,
+  "speaker": "Unknown",
+  "en": "It's how smart, creative people are able to differentiate themselves.",
+  "zh": "它就是聪明、有创造力的人能够让自己脱颖而出的方式。"
+ },
+ {
+  "seg": 143,
+  "start": 580.28,
+  "end": 584.864,
+  "speaker": "Unknown",
+  "en": "But I think that the Builder Pack allows is that it allows someone like Yash to",
+  "zh": "但我认为 Builder Pack 带来的是,它让像 Yash 这样的人能够"
+ },
+ {
+  "seg": 144,
+  "start": 586.165,
+  "end": 591.132,
+  "speaker": "Unknown",
+  "en": "Automate and defer a lot of the work to cloud agents.",
+  "zh": "把大量工作自动化、委托给云端智能体。"
+ },
+ {
+  "seg": 145,
+  "start": 591.152,
+  "end": 603.669,
+  "speaker": "Unknown",
+  "en": "He would have otherwise had to manually click in PostDog or manually code himself, and then he can go be creative on the space where he's an expertise.",
+  "zh": "这些工作他本来得手动在 PostDog 里点来点去,或者自己手动写代码,然后他就可以去他专长的领域发挥创造力。"
+ },
+ {
+  "seg": 146,
+  "start": 603.929,
+  "end": 622.453,
+  "speaker": "Unknown",
+  "en": "And then it also allows someone like me, who doesn't know what the fuck any of that stuff is, but kind of is naturally more of an ideas person, to give the model and the SaaS tools in the BuilderPack my outcomes and ideas, and then just like let it run, which is like the craziest part for me.",
+  "zh": "而它也让像我这样的人——我完全搞不懂那些东西是什么,但我天生更像一个出点子的人——把我的目标和想法交给模型和 Builder Pack 里的 SaaS 工具,然后就让它自己跑,这对我来说是最疯狂的部分。"
+ },
+ {
+  "seg": 147,
+  "start": 622.553,
+  "end": 630.175,
+  "speaker": "Unknown",
+  "en": "Like I let go... Can you tell that story of you had an idea for something, you went to bed, you woke up, you had four emails?",
+  "zh": "就像我放手……你能讲讲那个故事吗?就是你有个想法,然后你去睡觉,醒来后收到了四封邮件?"
+ },
+ {
+  "seg": 148,
+  "start": 630.94,
+  "end": 632.581,
+  "speaker": "Unknown",
+  "en": "Yeah, so it wasn't even my idea.",
+  "zh": "对,其实那甚至不是我的想法。"
+ },
+ {
+  "seg": 149,
+  "start": 633.122,
+  "end": 637.725,
+  "speaker": "Unknown",
+  "en": "We did the BuilderPack launch on Tuesday.",
+  "zh": "我们是在周二发布 Builder Pack 的。"
+ },
+ {
+  "seg": 150,
+  "start": 638.205,
+  "end": 639.206,
+  "speaker": "Unknown",
+  "en": "It was going really well.",
+  "zh": "进展非常顺利。"
+ },
+ {
+  "seg": 151,
+  "start": 640.287,
+  "end": 641.387,
+  "speaker": "Unknown",
+  "en": "I'm on the West Coast.",
+  "zh": "我在西海岸。"
+ },
+ {
+  "seg": 152,
+  "start": 641.427,
+  "end": 642.969,
+  "speaker": "Unknown",
+  "en": "Most of the team is on the East Coast.",
+  "zh": "大部分团队在东海岸。"
+ },
+ {
+  "seg": 153,
+  "start": 643.189,
+  "end": 653.896,
+  "speaker": "Unknown",
+  "en": "As they were getting ready to go to bed, Yash dropped a note in Slack saying, hey, we should send emails in the morning to",
+  "zh": "正当他们准备睡觉的时候，Yash 在 Slack 里发了条消息说，嘿，我们应该明早给"
+ },
+ {
+  "seg": 154,
+  "start": 656.578,
+  "end": 667.543,
+  "speaker": "Unknown",
+  "en": "A group of users who have shown some sort of checkout intent but not converted because we were running a early bird discount for the first 24 hours of launch.",
+  "zh": "一群表现出某种结账意图但没有转化的用户发邮件，因为我们在上线后的前 24 小时搞了个早鸟折扣。"
+ },
+ {
+  "seg": 155,
+  "start": 668.043,
+  "end": 671.765,
+  "speaker": "Unknown",
+  "en": "So it's like we should probably hit them again with some sort of urgency-backed approach.",
+  "zh": "所以就是说，我们也许应该再次触达他们，用某种带有紧迫感的方式。"
+ },
+ {
+  "seg": 156,
+  "start": 672.345,
+  "end": 675.606,
+  "speaker": "Unknown",
+  "en": "And then Josh said, this isn't actually my idea, it's Dan's idea, but I'm sharing it.",
+  "zh": "然后 Josh 说，这其实不是我的主意，是 Dan 的主意，但我来转达一下。"
+ },
+ {
+  "seg": 157,
+  "start": 675.746,
+  "end": 677.507,
+  "speaker": "Unknown",
+  "en": "And then they all signed off.",
+  "zh": "然后他们都下线了。"
+ },
+ {
+  "seg": 158,
+  "start": 678.287,
+  "end": 681.069,
+  "speaker": "Unknown",
+  "en": "And it was maybe like 7 p.m. here.",
+  "zh": "当时这里大概是下午 7 点。"
+ },
+ {
+  "seg": 159,
+  "start": 681.789,
+  "end": 683.99,
+  "speaker": "Unknown",
+  "en": "I had been in front of my computer all day.",
+  "zh": "我已经在电脑前坐了一整天。"
+ },
+ {
+  "seg": 160,
+  "start": 684.797,
+  "end": 685.878,
+  "speaker": "Unknown",
+  "en": "And I really wanted to go to the gym.",
+  "zh": "而且我真的很想去健身房。"
+ },
+ {
+  "seg": 161,
+  "start": 686.458,
+  "end": 692.841,
+  "speaker": "Unknown",
+  "en": "And so I took a screenshot of the Slack because it was like a bunch of different Slack messages.",
+  "zh": "所以我截了那张 Slack 的图，因为那是好几条不同的 Slack 消息。"
+ },
+ {
+  "seg": 162,
+  "start": 692.902,
+  "end": 696.323,
+  "speaker": "Unknown",
+  "en": "Usually I would just like copy paste the link to the Slack message and send it to Codex.",
+  "zh": "通常我会直接复制粘贴 Slack 消息的链接发给 Codex。"
+ },
+ {
+  "seg": 163,
+  "start": 696.363,
+  "end": 698.565,
+  "speaker": "Unknown",
+  "en": "I took a screenshot of the Slack.",
+  "zh": "我截了 Slack 的图。"
+ },
+ {
+  "seg": 164,
+  "start": 699.145,
+  "end": 704.728,
+  "speaker": "Unknown",
+  "en": "I dropped it in a Codex thread using 5.6 on Medium.",
+  "zh": "我把它扔进了一个 Codex 线程，用的是 5.6 Medium。"
+ },
+ {
+  "seg": 165,
+  "start": 704.928,
+  "end": 706.169,
+  "speaker": "Unknown",
+  "en": "It's like usually what I operate in.",
+  "zh": "差不多就是我平时用的配置。"
+ },
+ {
+  "seg": 166,
+  "start": 707.029,
+  "end": 709.411,
+  "speaker": "Unknown",
+  "en": "And I said, can you do this?",
+  "zh": "然后我说，你能做这个吗？"
+ },
+ {
+  "seg": 167,
+  "start": 709.971,
+  "end": 712.872,
+  "speaker": "Unknown",
+  "en": "And then I did splash LFG, which is the",
+  "zh": "接着我输入了 splash LFG，也就是"
+ },
+ {
+  "seg": 168,
+  "start": 713.893,
+  "end": 729.761,
+  "speaker": "Unknown",
+  "en": "Harness in our compound engineering plugin to tell an agent to take itself through a brainstorm, plan, work, review, compound loop, which is like, to me, the ideal way to work with agents.",
+  "zh": "我们 compound engineering 插件里的 harness，让智能体带着自己走一遍头脑风暴、规划、执行、审查的 compound 循环，这在我看来是与智能体协作的理想方式。"
+ },
+ {
+  "seg": 169,
+  "start": 730.461,
+  "end": 731.322,
+  "speaker": "Unknown",
+  "en": "And then I went to the gym.",
+  "zh": "然后我就去健身房了。"
+ },
+ {
+  "seg": 170,
+  "start": 732.602,
+  "end": 738.424,
+  "speaker": "Unknown",
+  "en": "And I came back from the gym and what I saw in Codex was that it works for honestly not that long.",
+  "zh": "我从健身房回来，在 Codex 里看到的是，它工作的时间说实话并不长。"
+ },
+ {
+  "seg": 171,
+  "start": 738.484,
+  "end": 745.026,
+  "speaker": "Unknown",
+  "en": "Like it probably finished by the time that I like changed into my workout clothes at the gym because it like didn't actually need to do that much.",
+  "zh": "大概在我换上健身服的时候它就完成了，因为它其实不需要做太多事。"
+ },
+ {
+  "seg": 172,
+  "start": 745.746,
+  "end": 753.449,
+  "speaker": "Unknown",
+  "en": "And it had created four different audience based cohorts, like targeted cohorts in kits.",
+  "zh": "它创建了四个不同的基于受众的分组，也就是 kits 里的定向分组。"
+ },
+ {
+  "seg": 173,
+  "start": 754.029,
+  "end": 756.25,
+  "speaker": "Unknown",
+  "en": "Based on like these people got to the checkout page.",
+  "zh": "比如这些人到达了结账页面。"
+ },
+ {
+  "seg": 174,
+  "start": 756.71,
+  "end": 761.412,
+  "speaker": "Unknown",
+  "en": "These are these people visited the website, visited the BuilderPack website but didn't check out.",
+  "zh": "这些人访问了网站，访问了 BuilderPack 网站但没有结账。"
+ },
+ {
+  "seg": 175,
+  "start": 762.432,
+  "end": 764.633,
+  "speaker": "Unknown",
+  "en": "These are our highest engaged for users.",
+  "zh": "这些是我们互动度最高的用户。"
+ },
+ {
+  "seg": 176,
+  "start": 764.653,
+  "end": 765.733,
+  "speaker": "Unknown",
+  "en": "There's like four different types.",
+  "zh": "大概有四种不同的类型。"
+ },
+ {
+  "seg": 177,
+  "start": 766.494,
+  "end": 770.355,
+  "speaker": "Unknown",
+  "en": "It drafted specific emails for each of those audience types.",
+  "zh": "它为每种受众类型分别起草了专门的邮件。"
+ },
+ {
+  "seg": 178,
+  "start": 771.135,
+  "end": 780.579,
+  "speaker": "Unknown",
+  "en": "It ran the text for the emails through the MCP for our AI based writing app called Spiral.",
+  "zh": "它把邮件文本通过我们一个叫 Spiral 的 AI 写作应用的 MCP 跑了一遍。"
+ },
+ {
+  "seg": 179,
+  "start": 780.639,
+  "end": 782.94,
+  "speaker": "Unknown",
+  "en": "So it's using a writing style that we've approved.",
+  "zh": "所以它用的是我们已经批准的写作风格。"
+ },
+ {
+  "seg": 180,
+  "start": 783.76,
+  "end": 793.187,
+  "speaker": "Unknown",
+  "en": "It looked through all of our previous sends in Kit, both for our language style as well as what had driven click-throughs, what had driven opens.",
+  "zh": "它翻看了我们在 Kit 里以往所有的发送记录，既参考我们的语言风格，也参考什么驱动了点击、什么驱动了打开。"
+ },
+ {
+  "seg": 181,
+  "start": 794.128,
+  "end": 801.994,
+  "speaker": "Unknown",
+  "en": "It grabbed a social share image that had driven click-throughs in a previous send and embedded it, and it had scheduled it for the next morning.",
+  "zh": "它选取了一张在以往发送中驱动过点击的社交分享图并嵌入进去，而且已经排期到第二天早上。"
+ },
+ {
+  "seg": 182,
+  "start": 803.314,
+  "end": 807.838,
+  "speaker": "Unknown",
+  "en": "And it's crazy because I wasn't like, holy shit, that's so cool.",
+  "zh": "而且很疯狂的是，我的反应并不是「我去，太酷了」。"
+ },
+ {
+  "seg": 183,
+  "start": 807.858,
+  "end": 809.4,
+  "speaker": "Unknown",
+  "en": "I was like, that's basically what it should do.",
+  "zh": "而是觉得，这基本上就是它本来该做的。"
+ },
+ {
+  "seg": 184,
+  "start": 809.52,
+  "end": 814.444,
+  "speaker": "Unknown",
+  "en": "Like my brain is so cooked on this stuff now that I'm like, this is literally exactly what I expected.",
+  "zh": "我的大脑现在已经被这些东西泡透了，以至于我觉得，这就是我字面意义上预期的结果。"
+ },
+ {
+  "seg": 185,
+  "start": 814.464,
+  "end": 815.365,
+  "speaker": "Unknown",
+  "en": "I think it did something.",
+  "zh": "我想它还做了些别的事。"
+ },
+ {
+  "seg": 186,
+  "start": 815.385,
+  "end": 819.509,
+  "speaker": "Unknown",
+  "en": "I think it then posted it in all emails.",
+  "zh": "我想它随后把它发布到了 all emails 里。"
+ },
+ {
+  "seg": 187,
+  "start": 820.935,
+  "end": 822.976,
+  "speaker": "Unknown",
+  "en": "Yeah, I have an automation in there.",
+  "zh": "对，我在那里设了一个自动化。"
+ },
+ {
+  "seg": 188,
+  "start": 823.256,
+  "end": 827.177,
+  "speaker": "Unknown",
+  "en": "So we have a Slack channel called All Emails.",
+  "zh": "我们有一个叫 All Emails 的 Slack 频道。"
+ },
+ {
+  "seg": 189,
+  "start": 827.597,
+  "end": 831.838,
+  "speaker": "Unknown",
+  "en": "If you're a subscriber to Every, I'm sorry, we send you a lot of emails.",
+  "zh": "如果你是 Every 的订阅者，不好意思，我们给你发很多邮件。"
+ },
+ {
+  "seg": 190,
+  "start": 831.918,
+  "end": 833.899,
+  "speaker": "Unknown",
+  "en": "I swear we're working on it.",
+  "zh": "我发誓我们正在改进这一点。"
+ },
+ {
+  "seg": 191,
+  "start": 834.079,
+  "end": 847.403,
+  "speaker": "Unknown",
+  "en": "One step towards working on it is having a channel where, one, we build all of our email sends through Codex or Claude Code and can have the agent push a Slack message",
+  "zh": "改进的方向之一就是建一个频道，第一，我们所有的邮件发送都通过 Codex 或 Claude Code 构建，并且可以让智能体推送一条 Slack 消息，"
+ },
+ {
+  "seg": 192,
+  "start": 848.143,
+  "end": 852.088,
+  "speaker": "Unknown",
+  "en": "I'm saying here's what here's what's going to be sent to whom and why.",
+  "zh": "说明这里是要发送的内容、发给谁、为什么。"
+ },
+ {
+  "seg": 193,
+  "start": 852.849,
+  "end": 858.456,
+  "speaker": "Unknown",
+  "en": "And then they can get a review of, you know, should we actually send this to this audience at this time?",
+  "zh": "然后团队可以进行审查，比如我们到底要不要在这个时间把这条发给这群受众？"
+ },
+ {
+  "seg": 194,
+  "start": 858.876,
+  "end": 863.121,
+  "speaker": "Unknown",
+  "en": "So it sends that as well and the team can review it and know and know what's up.",
+  "zh": "所以它也会发送这个，团队就可以审查并了解情况。"
+ },
+ {
+  "seg": 195,
+  "start": 863.542,
+  "end": 866.966,
+  "speaker": "Unknown",
+  "en": "I but I pulled up I pulled up these four I pulled up these four email sends.",
+  "zh": "我，我打开了这四封，我打开了这四个邮件发送。"
+ },
+ {
+  "seg": 196,
+  "start": 867.925,
+  "end": 874.707,
+  "speaker": "Unknown",
+  "en": "And I made very light tweaks, partially because I was like, oh, I think I can write like a slightly better headline.",
+  "zh": "我做了非常轻微的调整，一部分是因为我觉得，哦，我觉得我能写一个稍微好点的标题。"
+ },
+ {
+  "seg": 197,
+  "start": 874.727,
+  "end": 880.269,
+  "speaker": "Unknown",
+  "en": "And also partially because I'm still a control freak who doesn't want to turn over every single thing to AI.",
+  "zh": "另一部分是因为我仍然是个控制狂，不想把每一件事都完全交给 AI。"
+ },
+ {
+  "seg": 198,
+  "start": 880.309,
+  "end": 883.43,
+  "speaker": "Unknown",
+  "en": "I was like, let me, you know, let me like put a little bit of spice on this.",
+  "zh": "我想着，让我，你知道，让我给这个加点小料。"
+ },
+ {
+  "seg": 199,
+  "start": 883.55,
+  "end": 887.191,
+  "speaker": "Unknown",
+  "en": "But I maybe spent 10 minutes of extra work on it when I came back from the gym.",
+  "zh": "但我从健身房回来后，大概只额外花了 10 分钟处理这件事。"
+ },
+ {
+  "seg": 200,
+  "start": 888.792,
+  "end": 891.934,
+  "speaker": "Unknown",
+  "en": "And then we scheduled them and we let it rip.",
+  "zh": "然后我们把它们排期发送，放手让它去干。"
+ },
+ {
+  "seg": 201,
+  "start": 891.954,
+  "end": 899.598,
+  "speaker": "Unknown",
+  "en": "And in a couple hours the next morning, those emails alone had driven more than $25,000 in revenue.",
+  "zh": "第二天早上的几个小时内，光是那些邮件就带来了超过 25,000 美元的收入。"
+ },
+ {
+  "seg": 202,
+  "start": 900.879,
+  "end": 903.961,
+  "speaker": "Unknown",
+  "en": "It had driven like multiple conversions.",
+  "zh": "它带来了好几次转化。"
+ },
+ {
+  "seg": 203,
+  "start": 904.401,
+  "end": 907.863,
+  "speaker": "Unknown",
+  "en": "It suggested things we could do to retarget the audience that didn't convert.",
+  "zh": "它还建议了我们可以做些什么来重新触达那些没有转化的受众。"
+ },
+ {
+  "seg": 204,
+  "start": 909.324,
+  "end": 911.265,
+  "speaker": "Unknown",
+  "en": "And like two nice things happened.",
+  "zh": "——不对，[[224]] 那应该是自动化的。"
+ },
+ {
+  "seg": 205,
+  "start": 911.285,
+  "end": 916.228,
+  "speaker": "Unknown",
+  "en": "Like one, I got to go to the gym, which is great because otherwise I would have sat there building these emails.",
+  "zh": "一是我可以去健身房了，这很棒，因为否则我就得坐在那里做这些邮件。"
+ },
+ {
+  "seg": 206,
+  "start": 917.389,
+  "end": 925.551,
+  "speaker": "Unknown",
+  "en": "And two, like at the gym, not looking at my phone, not looking at Slack, I had other ideas for stuff we could do the next day, right?",
+  "zh": "二是在健身房，不看手机，不看 Slack，我又冒出了一些第二天可以做的事情的想法，对吧？"
+ },
+ {
+  "seg": 207,
+  "start": 925.671,
+  "end": 937.935,
+  "speaker": "Unknown",
+  "en": "Like disconnected from being in the weeds, I'm like working out and I'm like, oh yeah, we should like we should do this experiment and that experiment because I don't have to use my brain and my fingers to like",
+  "zh": "就像从琐事中抽离出来，我在锻炼的时候就想，哦对，我们应该做这个实验和那个实验，因为我不需要动脑子动手指去"
+ },
+ {
+  "seg": 208,
+  "start": 938.675,
+  "end": 948.457,
+  "speaker": "Unknown",
+  "en": "Click around in PostDog, which I love using, but I don't have to click around in PostDog to find the exact right audience segment to target.",
+  "zh": "在 PostDog 里点来点去——我很喜欢用 PostDog——但我不需要在 PostDog 里点来点去找出要瞄准的精确受众细分。"
+ },
+ {
+  "seg": 209,
+  "start": 948.857,
+  "end": 964.78,
+  "speaker": "Unknown",
+  "en": "It's just so crazy to go from here's an idea to go do this idea using slash LFG to actually executing on what it created, in this case, sending these emails.",
+  "zh": "从「这是个想法，去执行这个想法」用 slash LFG，到实际执行它创建的东西——在这个例子里就是发送这些邮件——这实在太疯狂了。"
+ },
+ {
+  "seg": 210,
+  "start": 965.496,
+  "end": 981.573,
+  "speaker": "Unknown",
+  "en": "To generating $25,000 in revenue, which doesn't happen every time you do slash LFG, but like that is, you know, sort of a possibility to then compounding what you learned and also it recommending like what to do next.",
+  "zh": "再到产生了 25,000 美元的收入——虽然不是每次用 slash LFG 都会这样——但这是有可能的，然后还能复利式地积累你学到的东西，它还会推荐接下来该做什么。"
+ },
+ {
+  "seg": 211,
+  "start": 981.613,
+  "end": 983.255,
+  "speaker": "Unknown",
+  "en": "It's just like remarkable that",
+  "zh": "这真的太了不起了，"
+ },
+ {
+  "seg": 212,
+  "start": 984.248,
+  "end": 991.334,
+  "speaker": "Unknown",
+  "en": "You know, like 5.6 soul is expensive, but like relative to the value that you got out of that, it's like nothing.",
+  "zh": "你知道，5.6 soul 很贵，但相对于你从中获得的价值来说，简直就是零钱。"
+ },
+ {
+  "seg": 213,
+  "start": 991.534,
+  "end": 993.997,
+  "speaker": "Unknown",
+  "en": "And best of all, you went to the gym and like took care of yourself.",
+  "zh": "最棒的是，你还去健身房照顾好了自己。"
+ },
+ {
+  "seg": 214,
+  "start": 994.677,
+  "end": 997.64,
+  "speaker": "Unknown",
+  "en": "And that's, it's just like remarkable that you can do that.",
+  "zh": "这真的太了不起了，你可以做到这样。"
+ },
+ {
+  "seg": 215,
+  "start": 997.72,
+  "end": 1005.527,
+  "speaker": "Unknown",
+  "en": "You can, if you are really harnessing these tools well for work and for life, I use it as my trainer at the gym.",
+  "zh": "如果你在工作和生活中都真正善用这些工具——我在健身房用它当我的教练。"
+ },
+ {
+  "seg": 216,
+  "start": 1006.467,
+  "end": 1011.532,
+  "speaker": "Unknown",
+  "en": "It's, it can be very fulfilling and like so effective.",
+  "zh": "它可以非常让人有成就感，而且非常有效。"
+ },
+ {
+  "seg": 217,
+  "start": 1012.611,
+  "end": 1018.216,
+  "speaker": "Unknown",
+  "en": "Yeah, I feel it allows you to get better at things you want to really get better at.",
+  "zh": "是啊，我觉得它让你能在你真正想提高的事情上做得更好。"
+ },
+ {
+  "seg": 218,
+  "start": 1019.377,
+  "end": 1021.74,
+  "speaker": "Unknown",
+  "en": "It frees up more time.",
+  "zh": "它释放出更多时间。"
+ },
+ {
+  "seg": 219,
+  "start": 1021.78,
+  "end": 1029.127,
+  "speaker": "Unknown",
+  "en": "To give an example, people are always pitching growth ideas to us, like, hey, do this, do this.",
+  "zh": "举个例子，总有人向我们推销增长点子，比如，嘿，做这个，做这个。"
+ },
+ {
+  "seg": 220,
+  "start": 1029.687,
+  "end": 1036.192,
+  "speaker": "Unknown",
+  "en": "And to be really honest, those are good ideas, but I don't want to take away time from doing my main thing and spend time on that.",
+  "zh": "说实话，那些都是好点子，但我不想从做我的主要事情中抽出时间花在那上面。"
+ },
+ {
+  "seg": 221,
+  "start": 1036.292,
+  "end": 1039.355,
+  "speaker": "Unknown",
+  "en": "And that entire thing should be automated because A, the idea is good.",
+  "zh": "而那整件事应该被自动化，因为第一，那个点子是好的。"
+ },
+ {
+  "seg": 222,
+  "start": 1039.975,
+  "end": 1043.318,
+  "speaker": "Unknown",
+  "en": "We should not hire an engineer just to implement that particular idea.",
+  "zh": "我们不应该为了实现那个特定的点子去雇一个工程师。"
+ },
+ {
+  "seg": 223,
+  "start": 1043.438,
+  "end": 1052.345,
+  "speaker": "Unknown",
+  "en": "So I feel we have these tool sets, like if I have a workflow set up, hey, let's try this particular headline on our website.",
+  "zh": "所以我觉得我们有了这些工具集，比如如果我设置好一个工作流，嘿，让我们在网站上试试这个特定的标题。"
+ },
+ {
+  "seg": 224,
+  "start": 1052.885,
+  "end": 1055.486,
+  "speaker": "Unknown",
+  "en": "It should be like, you should be, that should be automated.",
+  "zh": "应该是,你应该,那应该是自动化的。"
+ },
+ {
+  "seg": 225,
+  "start": 1055.986,
+  "end": 1057.627,
+  "speaker": "Unknown",
+  "en": "And I feel we can, that's the goal.",
+  "zh": "我觉得我们可以做到，这就是目标。"
+ },
+ {
+  "seg": 226,
+  "start": 1057.707,
+  "end": 1064.27,
+  "speaker": "Unknown",
+  "en": "Like I have more time to do like deep work and be in my flow state and without really compromising these things.",
+  "zh": "这样我有更多时间做深度工作，进入我的心流状态，而不用在这些事情上妥协。"
+ },
+ {
+  "seg": 227,
+  "start": 1064.29,
+  "end": 1070.072,
+  "speaker": "Unknown",
+  "en": "Like building that loop is me being in the flow state versus like, hey, try this, try this, try this.",
+  "zh": "搭建那个闭环本身就是我处于心流状态，而不是「嘿，试试这个，试试这个，试试这个」。"
+ },
+ {
+  "seg": 228,
+  "start": 1070.857,
+  "end": 1090.074,
+  "speaker": "Unknown",
+  "en": "And I think the thing where we're like circling around is like, this is the best way to build right now, which is to, you know, Kieran, our colleague has described it this way, you're at the top and bottom of the AI sandwich.",
+  "zh": "而我觉得我们一直在绕的就是：这是现在最好的构建方式，也就是，我们的同事 Kieran 这样描述过，你处于 AI 三明治的顶层和底层。"
+ },
+ {
+  "seg": 229,
+  "start": 1090.234,
+  "end": 1094.858,
+  "speaker": "Unknown",
+  "en": "You decide what the problem is, you frame the idea, and then you review the work.",
+  "zh": "你决定问题是什么，你框定这个想法，然后你审查成果。"
+ },
+ {
+  "seg": 230,
+  "start": 1095.358,
+  "end": 1106.766,
+  "speaker": "Unknown",
+  "en": "That's been the case for a while, but the exciting thing about this moment, the exciting thing about being able to use the tools in the Builder Pack is that you can go from idea to execution",
+  "zh": "一段时间以来一直都是这样，但这个时刻令人兴奋的地方、能够使用 Builder Pack 里工具的令人兴奋之处在于，你可以从想法到执行"
+ },
+ {
+  "seg": 231,
+  "start": 1111.029,
+  "end": 1126.613,
+  "speaker": "Unknown",
+  "en": "quickly, easily, reliably, and at like a very high level by being able to just like type or with monologue any speech to text tool like we use just to be able to say the idea and have it come out.",
+  "zh": "快速、轻松、可靠，而且水平非常高，只需要打字，或者用任何语音转文字工具进行口述——就像我们用的那样——把想法说出来，让它直接产出结果。"
+ },
+ {
+  "seg": 232,
+  "start": 1126.753,
+  "end": 1135.776,
+  "speaker": "Unknown",
+  "en": "And the thing that I really like about this, the way I like working is that whether you're, you know, primarily a Claude user like Yash or a Codex user like me,",
+  "zh": "而我真正喜欢的一点，我喜欢的工作方式是，无论你主要是像 Yash 一样的 Claude 用户，还是像我一样的 Codex 用户，"
+ },
+ {
+  "seg": 233,
+  "start": 1136.756,
+  "end": 1142.383,
+  "speaker": "Unknown",
+  "en": "The tools all now speak together really, really well and connect to each other really well.",
+  "zh": "这些工具现在都能非常非常好地协同沟通，非常紧密地互相连接。"
+ },
+ {
+  "seg": 234,
+  "start": 1143.103,
+  "end": 1144.905,
+  "speaker": "Unknown",
+  "en": "Notion is a great example of this.",
+  "zh": "Notion 就是一个很好的例子。"
+ },
+ {
+  "seg": 235,
+  "start": 1145.386,
+  "end": 1157.239,
+  "speaker": "Unknown",
+  "en": "I have hated Notion for years because my brain doesn't work in that way of like, I'm going to like organize this database and I'm going to make sure that like the Growth Hub makes sense to other people.",
+  "zh": "我讨厌 Notion 很多年了，因为我的大脑不是那种运作方式，比如，我要去整理这个数据库，我要确保 Growth Hub 对其他人来说说得通。"
+ },
+ {
+  "seg": 236,
+  "start": 1157.88,
+  "end": 1158.5,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 237,
+  "start": 1158.56,
+  "end": 1172.947,
+  "speaker": "Unknown",
+  "en": "Like, I think up until a year ago, Notion had too much of a barrier to entry on organization and maintenance that anytime I've tried to use Notion with a team, we've churned because no one's around to maintain it.",
+  "zh": "我觉得直到一年前，Notion 在组织和维护上的准入门槛太高了，每次我试着和团队一起用 Notion，我们最后都放弃了，因为没人去维护它。"
+ },
+ {
+  "seg": 238,
+  "start": 1173.467,
+  "end": 1176.569,
+  "speaker": "Unknown",
+  "en": "And all of that maintenance has now been pushed off to Codex and Claude Code.",
+  "zh": "而所有那些维护工作现在都被推给了 Codex 和 Claude Code。"
+ },
+ {
+  "seg": 239,
+  "start": 1177.049,
+  "end": 1180.911,
+  "speaker": "Unknown",
+  "en": "Once a week, I just ask Codex, and I'm like, hey, can you reorganize our Growth Hub?",
+  "zh": "每周一次，我就问 Codex，嘿，你能重新整理一下我们的 Growth Hub 吗？"
+ },
+ {
+  "seg": 240,
+  "start": 1180.931,
+  "end": 1182.031,
+  "speaker": "Unknown",
+  "en": "And it does it perfectly.",
+  "zh": "它就完美地做到了。"
+ },
+ {
+  "seg": 241,
+  "start": 1182.071,
+  "end": 1182.731,
+  "speaker": "Unknown",
+  "en": "It's like amazing.",
+  "zh": "太惊人了。"
+ },
+ {
+  "seg": 242,
+  "start": 1182.812,
+  "end": 1185.493,
+  "speaker": "Unknown",
+  "en": "Or it's like, hey, make sure this database is set up well.",
+  "zh": "或者比如，嘿，确保这个数据库设置得好。"
+ },
+ {
+  "seg": 243,
+  "start": 1187.216,
+  "end": 1198.06,
+  "speaker": "Unknown",
+  "en": "My favorite example of this is while I was doing this kind of like in the weeds Codex work, like when I work with Codex, I'm like steering it and going back and forth with it.",
+  "zh": "我最喜欢的一个例子是，当我在做这种非常琐碎的 Codex 工作时——我和 Codex 工作的方式是我引导它，和它来回交流——"
+ },
+ {
+  "seg": 244,
+  "start": 1199.661,
+  "end": 1209.605,
+  "speaker": "Unknown",
+  "en": "Claude, in Claude Code in the desktop app using Fable, I had the videos were releasing attached to this launch.",
+  "zh": "Claude，在桌面版 Claude Code 里用 Fable，当时正好有视频要随这次发布一起上线。"
+ },
+ {
+  "seg": 245,
+  "start": 1210.365,
+  "end": 1213.886,
+  "speaker": "Unknown",
+  "en": "All connected through Descript and the Descript MCP.",
+  "zh": "全部通过 Descript 和 Descript MCP 连接。"
+ },
+ {
+  "seg": 246,
+  "start": 1214.606,
+  "end": 1228.269,
+  "speaker": "Unknown",
+  "en": "And Fable is just running in a loop, building out the edits for all of those videos and reviewing its work and interacting with Underlord, the Descript AI tool, because I'm not a video editor.",
+  "zh": "Fable 就在一个循环里运行，为所有那些视频做剪辑，审查它的工作，和 Underlord——Descript 的 AI 工具——交互，因为我不是视频剪辑师。"
+ },
+ {
+  "seg": 247,
+  "start": 1228.51,
+  "end": 1237.832,
+  "speaker": "Unknown",
+  "en": "Like I'm actually really bad at it, but like sometimes that falls under my responsibilities and that can run in a loop so that when I go to edit the video,",
+  "zh": "我其实很不擅长这个，但有时这会落在我头上，而它可以在循环里运行，这样当我去剪辑视频的时候，"
+ },
+ {
+  "seg": 248,
+  "start": 1238.412,
+  "end": 1253.024,
+  "speaker": "Unknown",
+  "en": "By no means has Fable and Descript created a video that is publishable, but it has gotten me like 70% of the way there while I'm steering Codex, Claude Code and Fable and Descript have gotten it there so that I can go and I'm like, oh, I know what to do now.",
+  "zh": "Fable 和 Descript 绝对没有做出一个可以直接发布的视频，但它已经帮我完成了大概 70% 的进度，与此同时我在引导 Codex，而 Claude Code 和 Fable、Descript 把它推进到了那个程度，这样我就能说，哦，我现在知道该怎么做了。"
+ },
+ {
+  "seg": 249,
+  "start": 1253.124,
+  "end": 1263.473,
+  "speaker": "Unknown",
+  "en": "Like I see the pieces, it like, it does this crazy stuff where it takes the transcript, makes a storyboard, makes a script itself, and then like pieces the video together.",
+  "zh": "我能看到那些素材了，它会做这种很疯狂的事：拿到转写稿，做一个分镜脚本，自己写一份脚本，然后把视频拼起来。"
+ },
+ {
+  "seg": 250,
+  "start": 1263.493,
+  "end": 1267.056,
+  "speaker": "Unknown",
+  "en": "So I just have to do like a few tiny things to get us to a final product.",
+  "zh": "所以我只需要做一些小事情就能让我们得到最终产品。"
+ },
+ {
+  "seg": 251,
+  "start": 1267.888,
+  "end": 1274.294,
+  "speaker": "Unknown",
+  "en": "You already know how AI is changing how everyday work gets done, how much ground you can cover, and how fast a team can scale.",
+  "zh": "你已经知道 AI 正在改变日常工作完成的方式，你能覆盖多少领域，一个团队扩张能有多快。"
+ },
+ {
+  "seg": 252,
+  "start": 1274.534,
+  "end": 1279.158,
+  "speaker": "Unknown",
+  "en": "To stay ahead, you need tools that give you a competitive advantage built for this new era.",
+  "zh": "要保持领先，你需要能给你竞争优势的工具，为这个新时代而打造的工具。"
+ },
+ {
+  "seg": 253,
+  "start": 1279.298,
+  "end": 1281.66,
+  "speaker": "Unknown",
+  "en": "Adio is the CRM for the agent-native world.",
+  "zh": "Adio 是智能体原生世界的 CRM。"
+ },
+ {
+  "seg": 254,
+  "start": 1282.02,
+  "end": 1289.867,
+  "speaker": "Unknown",
+  "en": "It meets you where you work, compounds every customer signal into context, and then acts on it across your pipeline to let you move at unmatched speed and scale.",
+  "zh": "它在你工作的地方与你会合，把每一个客户信号累积成上下文，然后在整个销售管道上对其采取行动，让你以前所未有的速度和规模前进。"
+ },
+ {
+  "seg": 255,
+  "start": 1290.027,
+  "end": 1294.111,
+  "speaker": "Unknown",
+  "en": "With agents and automations for every job, Adio orchestrates your work around the clock.",
+  "zh": "通过为每项工作配备的智能体和自动化，Adio 全天候协调你的工作。"
+ },
+ {
+  "seg": 256,
+  "start": 1294.491,
+  "end": 1296.392,
+  "speaker": "Unknown",
+  "en": "We use it internally at Every and we love it.",
+  "zh": "我们在 Every 内部使用它，我们很喜欢。"
+ },
+ {
+  "seg": 257,
+  "start": 1296.532,
+  "end": 1298.693,
+  "speaker": "Unknown",
+  "en": "It's built to handle the scale of your workloads.",
+  "zh": "它是为处理你工作负载的规模而打造的。"
+ },
+ {
+  "seg": 258,
+  "start": 1298.953,
+  "end": 1305.136,
+  "speaker": "Unknown",
+  "en": "It's extensible with an API and MCP access and is built with infrastructure to keep up with your most ambitious agents.",
+  "zh": "它可以通过 API 和 MCP 访问进行扩展，并配有能跟上你最雄心勃勃的智能体的基础设施。"
+ },
+ {
+  "seg": 259,
+  "start": 1305.476,
+  "end": 1310.638,
+  "speaker": "Unknown",
+  "en": "It's loved by high growth startups like Granola, Modal, Whisperflow, and Every.",
+  "zh": "它深受高增长初创公司的喜爱，比如 Granola、Modal、Whisperflow 和 Every。"
+ },
+ {
+  "seg": 260,
+  "start": 1310.998,
+  "end": 1312.819,
+  "speaker": "Unknown",
+  "en": "Adio runs the work behind EveryWin.",
+  "zh": "Adio 支撑着 EveryWin 背后的运转。"
+ },
+ {
+  "seg": 261,
+  "start": 1313.159,
+  "end": 1314.96,
+  "speaker": "Unknown",
+  "en": "That's Adio, the agentic CRM.",
+  "zh": "这就是 Adio，智能体 CRM。"
+ },
+ {
+  "seg": 262,
+  "start": 1315.18,
+  "end": 1318.962,
+  "speaker": "Unknown",
+  "en": "Go to adio.com slash every and get 15% off your first year.",
+  "zh": "访问 adio.com/every，第一年享受 15% 折扣。"
+ },
+ {
+  "seg": 263,
+  "start": 1319.302,
+  "end": 1321.363,
+  "speaker": "Unknown",
+  "en": "That's adio.com slash every.",
+  "zh": "那就是 adio.com/every。"
+ },
+ {
+  "seg": 264,
+  "start": 1321.683,
+  "end": 1322.923,
+  "speaker": "Unknown",
+  "en": "And now back to the episode.",
+  "zh": "现在回到节目。"
+ },
+ {
+  "seg": 265,
+  "start": 1324.624,
+  "end": 1332.906,
+  "speaker": "Unknown",
+  "en": "The thing that I love about the Builder Pack specifically is I feel like a lot of the time at Every, we're telling people like, go build, go build.",
+  "zh": "我特别喜爱 Builder Pack 的一点是，我觉得在 Every，很多时候我们都在告诉人们，去做吧，去做吧。"
+ },
+ {
+  "seg": 266,
+  "start": 1332.946,
+  "end": 1334.626,
+  "speaker": "Unknown",
+  "en": "It's the best time in the world to build.",
+  "zh": "现在是世界上最适合打造东西的时代。"
+ },
+ {
+  "seg": 267,
+  "start": 1334.646,
+  "end": 1335.567,
+  "speaker": "Unknown",
+  "en": "There's no excuses.",
+  "zh": "没有任何借口。"
+ },
+ {
+  "seg": 268,
+  "start": 1336.027,
+  "end": 1337.247,
+  "speaker": "Unknown",
+  "en": "Be the builder you want to be.",
+  "zh": "成为你想成为的打造者。"
+ },
+ {
+  "seg": 269,
+  "start": 1337.267,
+  "end": 1338.947,
+  "speaker": "Unknown",
+  "en": "And that's great.",
+  "zh": "这很好。"
+ },
+ {
+  "seg": 270,
+  "start": 1339.888,
+  "end": 1341.788,
+  "speaker": "Unknown",
+  "en": "But how?",
+  "zh": "但是怎么做呢？"
+ },
+ {
+  "seg": 271,
+  "start": 1342.168,
+  "end": 1346.389,
+  "speaker": "Unknown",
+  "en": "Well, one is how, which is like, you should subscribe to Every, we will teach you how.",
+  "zh": "嗯，其一是怎么做，也就是，你应该订阅 Every，我们会教你怎么做。"
+ },
+ {
+  "seg": 272,
+  "start": 1346.949,
+  "end": 1348.89,
+  "speaker": "Unknown",
+  "en": "But two is, this stuff is expensive.",
+  "zh": "但其二是，这些东西很贵。"
+ },
+ {
+  "seg": 273,
+  "start": 1349.93,
+  "end": 1350.01,
+  "speaker": "Unknown",
+  "en": "And",
+  "zh": "而"
+ },
+ {
+  "seg": 274,
+  "start": 1351.349,
+  "end": 1357.454,
+  "speaker": "Unknown",
+  "en": "The stack that you use, Austin, the stack that you use, Yash, Douglas, myself, it's very expensive.",
+  "zh": "你用的技术栈，Austin，你用的技术栈，Yash、Douglas、我自己，都非常贵。"
+ },
+ {
+  "seg": 275,
+  "start": 1357.494,
+  "end": 1361.558,
+  "speaker": "Unknown",
+  "en": "We spend a lot of money at every on AI and credits.",
+  "zh": "我们在 Every 花很多钱在 AI 和额度上。"
+ },
+ {
+  "seg": 276,
+  "start": 1362.438,
+  "end": 1369.684,
+  "speaker": "Unknown",
+  "en": "And last night we had an event in the office and a friend of mine's younger brother, I invited him to come.",
+  "zh": "昨天晚上我们在办公室办了一场活动，我一个朋友的弟弟，我邀请他来。"
+ },
+ {
+  "seg": 277,
+  "start": 1369.704,
+  "end": 1375.889,
+  "speaker": "Unknown",
+  "en": "He's an engineer and he's trying to figure out how to get a job as an engineer right now.",
+  "zh": "他是一名工程师，他现在正 trying 弄清楚怎么找到一份工程师的工作。"
+ },
+ {
+  "seg": 278,
+  "start": 1376.05,
+  "end": 1378.752,
+  "speaker": "Unknown",
+  "en": "Even though he is an engineer, he's really struggling to get a job.",
+  "zh": "尽管他就是工程师，他还是很难找到工作。"
+ },
+ {
+  "seg": 279,
+  "start": 1379.816,
+  "end": 1382.217,
+  "speaker": "Unknown",
+  "en": "And he's not using AI at all.",
+  "zh": "而且他完全没有在用 AI。"
+ },
+ {
+  "seg": 280,
+  "start": 1383.578,
+  "end": 1387.901,
+  "speaker": "Unknown",
+  "en": "And I introduced him to some people that were like telling them how they work.",
+  "zh": "我把他介绍给了一些人，那些人在告诉他他们的工作方式。"
+ },
+ {
+  "seg": 281,
+  "start": 1388.961,
+  "end": 1391.402,
+  "speaker": "Unknown",
+  "en": "And then at the end of it, he was like super excited.",
+  "zh": "然后到最后，他变得超级兴奋。"
+ },
+ {
+  "seg": 282,
+  "start": 1391.583,
+  "end": 1397.646,
+  "speaker": "Unknown",
+  "en": "And then these people were telling them like how much money their companies enable them to spend on AI.",
+  "zh": "然后这些人告诉他，他们的公司允许他们在 AI 上花多少钱。"
+ },
+ {
+  "seg": 283,
+  "start": 1397.886,
+  "end": 1401.068,
+  "speaker": "Unknown",
+  "en": "Some guy, you know, he's like a single engineer, spent 30 grand last month.",
+  "zh": "有个人，你知道，他就是一名普通工程师，上个月花了三万美元。"
+ },
+ {
+  "seg": 284,
+  "start": 1401.888,
+  "end": 1408.512,
+  "speaker": "Unknown",
+  "en": "And this guy like, you know, I could see him like visually like gulp while he was like, how am I going to",
+  "zh": "然后这个人，你知道，我能看到他 visibly 地咽了一口口水，他说，我要怎么"
+ },
+ {
+  "seg": 285,
+  "start": 1409.525,
+  "end": 1414.069,
+  "speaker": "Unknown",
+  "en": "Discover this technology when it's like prohibitively expensive.",
+  "zh": "去发现这项技术，当它贵得让人望而却步的时候。"
+ },
+ {
+  "seg": 286,
+  "start": 1414.389,
+  "end": 1415.53,
+  "speaker": "Unknown",
+  "en": "And I'm an individual.",
+  "zh": "而且我是个个人。"
+ },
+ {
+  "seg": 287,
+  "start": 1415.55,
+  "end": 1416.711,
+  "speaker": "Unknown",
+  "en": "I'm not at a company right now.",
+  "zh": "我现在不在一家公司。"
+ },
+ {
+  "seg": 288,
+  "start": 1417.332,
+  "end": 1419.293,
+  "speaker": "Unknown",
+  "en": "And the thing that I love about the BuilderPack is it is",
+  "zh": "而我特别喜爱 BuilderPack 的一点是，它是"
+ },
+ {
+  "seg": 289,
+  "start": 1423.39,
+  "end": 1438.46,
+  "speaker": "Unknown",
+  "en": "You know, I think the Codec, the OpenAI benefit is like a great example of this because you're getting three months free of OpenAI and Codex and $1,000 in overage credits.",
+  "zh": "你知道，我觉得 Codec，那个 OpenAI 福利就是这方面一个很好的例子，因为你可以获得三个月免费的 OpenAI 和 Codex，以及 1000 美元的超额额度。"
+ },
+ {
+  "seg": 290,
+  "start": 1439.041,
+  "end": 1442.323,
+  "speaker": "Unknown",
+  "en": "But the three months free includes...",
+  "zh": "但三个月免费包含……"
+ },
+ {
+  "seg": 291,
+  "start": 1443.322,
+  "end": 1447.705,
+  "speaker": "Unknown",
+  "en": "I don't know what the number is anymore, $5,000 of value.",
+  "zh": "我不记得具体数字了，5000 美元的价值。"
+ },
+ {
+  "seg": 292,
+  "start": 1447.765,
+  "end": 1457.293,
+  "speaker": "Unknown",
+  "en": "These subscriptions, just like our Anthropic benefit, they include so much spend inside of a small subscription.",
+  "zh": "这些订阅，就像我们的 Anthropic 福利一样，在一个小订阅里包含如此多的花费额度。"
+ },
+ {
+  "seg": 293,
+  "start": 1457.313,
+  "end": 1466.92,
+  "speaker": "Unknown",
+  "en": "It's the same thing for basically OpenAI, Cursor, Gemini, and Anthropic, those offerings, because they're model companies.",
+  "zh": "基本上 OpenAI、Cursor、Gemini 和 Anthropic 的那些产品都是一样的情况，因为它们是模型公司。"
+ },
+ {
+  "seg": 294,
+  "start": 1470.122,
+  "end": 1471.443,
+  "speaker": "Unknown",
+  "en": "Okay, it's one month, excuse me.",
+  "zh": "好吧，是一个月，不好意思。"
+ },
+ {
+  "seg": 295,
+  "start": 1472.104,
+  "end": 1472.924,
+  "speaker": "Unknown",
+  "en": "The one month offering.",
+  "zh": "那个一个月的产品。"
+ },
+ {
+  "seg": 296,
+  "start": 1474.446,
+  "end": 1475.787,
+  "speaker": "Unknown",
+  "en": "You can use the Codex credit.",
+  "zh": "你可以使用 Codex 额度。"
+ },
+ {
+  "seg": 297,
+  "start": 1475.807,
+  "end": 1478.729,
+  "speaker": "Unknown",
+  "en": "You can use the Codex credit for three months.",
+  "zh": "你可以使用 Codex 额度三个月。"
+ },
+ {
+  "seg": 298,
+  "start": 1479.19,
+  "end": 1488.538,
+  "speaker": "Unknown",
+  "en": "It's so much value that you then get to go experiment with this technology so that you can be the builder that you want to be.",
+  "zh": "它有如此多的价值，让你之后可以去试验这项技术，这样你就能成为你想成为的打造者。"
+ },
+ {
+  "seg": 299,
+  "start": 1489.438,
+  "end": 1490.459,
+  "speaker": "Unknown",
+  "en": "I use them all the time.",
+  "zh": "我一直都在用它们。"
+ },
+ {
+  "seg": 300,
+  "start": 1490.499,
+  "end": 1497.025,
+  "speaker": "Unknown",
+  "en": "My stack, I mean, the builder pack is basically everything that we use at every",
+  "zh": "我的工具栈，我是说，这个 builder pack 基本上就是我们每个人都在用的所有东西。"
+ },
+ {
+  "seg": 301,
+  "start": 1497.666,
+  "end": 1501.127,
+  "speaker": "Unknown",
+  "en": "Personally, I'm in OpenAI, Anthropic.",
+  "zh": "就我个人而言，我在用 OpenAI、Anthropic。"
+ },
+ {
+  "seg": 302,
+  "start": 1501.667,
+  "end": 1506.709,
+  "speaker": "Unknown",
+  "en": "I'm more of like a consumer of PostHog than I am like a user of like their AI credits.",
+  "zh": "我更像是 PostHog 的消费者，而不是他们 AI 额度的用户。"
+ },
+ {
+  "seg": 303,
+  "start": 1506.729,
+  "end": 1507.75,
+  "speaker": "Unknown",
+  "en": "You're always in Notion.",
+  "zh": "你总是泡在 Notion 里。"
+ },
+ {
+  "seg": 304,
+  "start": 1508.61,
+  "end": 1518.073,
+  "speaker": "Unknown",
+  "en": "I'm a big Notion user because I do like a lot of ops, framer user, render, and I really like experimenting with the Flora MCP.",
+  "zh": "我是 Notion 的重度用户，因为我做很多运营工作，还是 framer 用户、render 用户，而且我很喜欢试验 Flora MCP。"
+ },
+ {
+  "seg": 305,
+  "start": 1520.494,
+  "end": 1523.275,
+  "speaker": "Unknown",
+  "en": "So, I mean, I'm kind of all over the stack.",
+  "zh": "所以，我是说，我的使用遍布整个工具栈。"
+ },
+ {
+  "seg": 306,
+  "start": 1524.908,
+  "end": 1533.833,
+  "speaker": "Unknown",
+  "en": "My biggest use is obviously the model companies and just doing my work instead of Claude or Codex.",
+  "zh": "我最大的使用量显然是那些模型公司，就是用 Claude 或 Codex 干我的活。"
+ },
+ {
+  "seg": 307,
+  "start": 1535.194,
+  "end": 1543.938,
+  "speaker": "Unknown",
+  "en": "I mean, ironically, a lot of these tools, almost all of these tools, if they aren't a model company themselves, I'm utilizing them through a model company.",
+  "zh": "我是说，有点讽刺的是，这些工具里，几乎所有这些工具，如果它们本身不是模型公司，我都是通过某个模型公司来使用它们的。"
+ },
+ {
+  "seg": 308,
+  "start": 1543.958,
+  "end": 1546.36,
+  "speaker": "Unknown",
+  "en": "I'm never really ever going into their tool.",
+  "zh": "我几乎从来不会真的打开它们的工具。"
+ },
+ {
+  "seg": 309,
+  "start": 1546.66,
+  "end": 1552.443,
+  "speaker": "Unknown",
+  "en": "Even Flora, which has a remarkable tool, I only ever use it through the MCP.",
+  "zh": "即使是 Flora，它有一个了不起的工具，我也只通过 MCP 来用它。"
+ },
+ {
+  "seg": 310,
+  "start": 1553.249,
+  "end": 1554.329,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 311,
+  "start": 1554.429,
+  "end": 1557.97,
+  "speaker": "Unknown",
+  "en": "And it doesn't devalue those tools.",
+  "zh": "而这并不会让那些工具贬值。"
+ },
+ {
+  "seg": 312,
+  "start": 1559.15,
+  "end": 1568.253,
+  "speaker": "Unknown",
+  "en": "To me, it incentivizes those SaaS operators to be the very best at the thing they do.",
+  "zh": "对我来说，这反而激励那些 SaaS 运营者把自己做的事情做到最好。"
+ },
+ {
+  "seg": 313,
+  "start": 1569.253,
+  "end": 1574.114,
+  "speaker": "Unknown",
+  "en": "I think a lot of us went through a moment from January to March where we were like, let's go.",
+  "zh": "而且我知道，我或者我的团队已经搭建好了让智能体可以在其中工作的、值得信赖的 harness。"
+ },
+ {
+  "seg": 314,
+  "start": 1574.174,
+  "end": 1575.734,
+  "speaker": "Unknown",
+  "en": "We're building our own CRM.",
+  "zh": "我们要自己建 CRM。"
+ },
+ {
+  "seg": 315,
+  "start": 1576.014,
+  "end": 1579.075,
+  "speaker": "Unknown",
+  "en": "We're building our own data dashboards.",
+  "zh": "我们要自己建数据看板。"
+ },
+ {
+  "seg": 316,
+  "start": 1579.115,
+  "end": 1581.216,
+  "speaker": "Unknown",
+  "en": "We're going to do design all ourselves.",
+  "zh": "设计我们也要全自己做。"
+ },
+ {
+  "seg": 317,
+  "start": 1581.236,
+  "end": 1582.596,
+  "speaker": "Unknown",
+  "en": "And you start doing it and you're like,",
+  "zh": "然后你开始做了，你就会觉得，"
+ },
+ {
+  "seg": 318,
+  "start": 1583.436,
+  "end": 1584.897,
+  "speaker": "Unknown",
+  "en": "Man, this fucking sucks, right?",
+  "zh": "天哪，这他妈太烂了，对吧？"
+ },
+ {
+  "seg": 319,
+  "start": 1585.498,
+  "end": 1588.219,
+  "speaker": "Unknown",
+  "en": "And when you're able to sit there and be like, you know what?",
+  "zh": "而当你能够坐在那里说，你猜怎么着？"
+ },
+ {
+  "seg": 320,
+  "start": 1588.48,
+  "end": 1593.823,
+  "speaker": "Unknown",
+  "en": "I really trust PostDog to both run and automate my analytics.",
+  "zh": "我真的很信任 PostDog 来运行并自动化我的数据分析。"
+ },
+ {
+  "seg": 321,
+  "start": 1593.843,
+  "end": 1598.667,
+  "speaker": "Unknown",
+  "en": "I really trust Notion to have this like source of truth for the entire business.",
+  "zh": "我真的很信任 Notion 来充当整个业务的事实来源。"
+ },
+ {
+  "seg": 322,
+  "start": 1598.987,
+  "end": 1607.813,
+  "speaker": "Unknown",
+  "en": "And even if I never opened it up, even if my pages and my databases look incomprehensible to a human, it doesn't really matter.",
+  "zh": "即使我从来不打开发它，即使我的页面和数据库对人类来说看起来难以理解，那也没什么关系。"
+ },
+ {
+  "seg": 323,
+  "start": 1608.073,
+  "end": 1614.655,
+  "speaker": "Unknown",
+  "en": "Because when I'm sitting in Claude Code or Codex, I can, which I do all the time, I'm like, hey, I need to make this plan.",
+  "zh": "因为当我坐在 Claude Code 或 Codex 里时——我一直在这么干——我就会说，嘿，我需要做这个计划。"
+ },
+ {
+  "seg": 324,
+  "start": 1614.695,
+  "end": 1615.595,
+  "speaker": "Unknown",
+  "en": "I need to do this thing.",
+  "zh": "我需要做这件事。"
+ },
+ {
+  "seg": 325,
+  "start": 1617.575,
+  "end": 1622.656,
+  "speaker": "Unknown",
+  "en": "At Notion, at Slack, at PostHog, find the necessary information.",
+  "zh": "在 Notion、Slack、PostHog 里，把必要的信息找出来。"
+ },
+ {
+  "seg": 326,
+  "start": 1622.977,
+  "end": 1631.279,
+  "speaker": "Unknown",
+  "en": "That's one reason why this suite of tools is so powerful right now is that the leap from 5.5 to 5.6",
+  "zh": "这就是为什么这一整套工具现在如此强大的一个原因：从 5.5 到 5.6 的跨越"
+ },
+ {
+  "seg": 327,
+  "start": 1633.439,
+  "end": 1649.227,
+  "speaker": "Unknown",
+  "en": "came with this improvement in the model's ability to go find the context it needs to do work well and then to maintain that context through any amount of compaction that happens as it works over a long term.",
+  "zh": "带来了模型能力的提升，让它能够去找出把工作做好所需的上下文，然后随着它长期工作的过程中经历的任何压缩，都能维持住那些上下文。"
+ },
+ {
+  "seg": 328,
+  "start": 1649.687,
+  "end": 1650.528,
+  "speaker": "Unknown",
+  "en": "That happens through",
+  "zh": "这通过以下方式实现——"
+ },
+ {
+  "seg": 329,
+  "start": 1651.468,
+  "end": 1666.494,
+  "speaker": "Unknown",
+  "en": "The way in which if you looked at my prompts in Codex, you would be like, I think this guy doesn't know what the hell he's doing, because I'm usually just like, hey, look at look at all this stuff, create a goal for yourself and use compound engineering.",
+  "zh": "如果你看看我在 Codex 里的提示词，你会觉得，我觉得这家伙根本不知道自己在干嘛，因为我通常就是，嘿，看看所有这些东西，给自己定一个目标，然后使用 compound engineering。"
+ },
+ {
+  "seg": 330,
+  "start": 1666.634,
+  "end": 1667.335,
+  "speaker": "Unknown",
+  "en": "And I'm like, go.",
+  "zh": "然后我说，去吧。"
+ },
+ {
+  "seg": 331,
+  "start": 1667.615,
+  "end": 1669.615,
+  "speaker": "Unknown",
+  "en": "It's like barely any thought or work.",
+  "zh": "几乎没费什么思考或功夫。"
+ },
+ {
+  "seg": 332,
+  "start": 1669.976,
+  "end": 1673.037,
+  "speaker": "Unknown",
+  "en": "The thought or work comes from like, I've identified this is the thing to do.",
+  "zh": "思考或功夫在于，比如，我已经确定这就是该做的事。"
+ },
+ {
+  "seg": 333,
+  "start": 1673.797,
+  "end": 1682.007,
+  "speaker": "Unknown",
+  "en": "And I know that either I or my team have set up the harness that the agents can work inside of to be trusted.",
+  "zh": "而且我知道,要么是我,要么是我的团队,已经搭建好了让智能体可以在其中工作并值得信任的 harness。"
+ },
+ {
+  "seg": 334,
+  "start": 1682.888,
+  "end": 1686.933,
+  "speaker": "Unknown",
+  "en": "And I think to a lot of people that sounds like tough, it sounds like a lot of work.",
+  "zh": "我想对很多人来说，这听起来很难，听起来工作量很大。"
+ },
+ {
+  "seg": 335,
+  "start": 1687.133,
+  "end": 1690.257,
+  "speaker": "Unknown",
+  "en": "But the reason that that we've gotten there from every is.",
+  "zh": "但我们之所以能走到这一步，从 every 开始，"
+ },
+ {
+  "seg": 336,
+  "start": 1691.759,
+  "end": 1694.182,
+  "speaker": "Unknown",
+  "en": "We've done it incrementally, right?",
+  "zh": "我们是渐进式做到的，对吧？"
+ },
+ {
+  "seg": 337,
+  "start": 1694.222,
+  "end": 1696.364,
+  "speaker": "Unknown",
+  "en": "It's like we did one thing and it started to work.",
+  "zh": "就像我们先做了一件事，它开始见效了。"
+ },
+ {
+  "seg": 338,
+  "start": 1696.704,
+  "end": 1697.125,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 339,
+  "start": 1697.545,
+  "end": 1703.672,
+  "speaker": "Unknown",
+  "en": "I've been trying to automate these marketing email sends for months and it keeps getting a little bit better.",
+  "zh": "我几个月来一直在尝试自动化这些营销邮件的发送，它一直在变得更好一点。"
+ },
+ {
+  "seg": 340,
+  "start": 1704.312,
+  "end": 1708.096,
+  "speaker": "Unknown",
+  "en": "And through compound engineering, the results keep compounding.",
+  "zh": "通过 compound engineering，成果在不断复利。"
+ },
+ {
+  "seg": 341,
+  "start": 1708.336,
+  "end": 1712.301,
+  "speaker": "Unknown",
+  "en": "So the project I work inside of keeps getting a better understanding of it.",
+  "zh": "所以我所工作的那个项目对它的理解越来越好。"
+ },
+ {
+  "seg": 342,
+  "start": 1713.201,
+  "end": 1718.365,
+  "speaker": "Unknown",
+  "en": "And it kind of goes back to the best time to start doing this was a year ago.",
+  "zh": "这又回到了那句话：开始做这件事的最好时间是一年前。"
+ },
+ {
+  "seg": 343,
+  "start": 1718.405,
+  "end": 1719.766,
+  "speaker": "Unknown",
+  "en": "The second best time is right now.",
+  "zh": "第二好的时间就是现在。"
+ },
+ {
+  "seg": 344,
+  "start": 1720.907,
+  "end": 1728.793,
+  "speaker": "Unknown",
+  "en": "You can start this compounding flow right now with models that have really caught up to how quickly you can work yourself.",
+  "zh": "你现在就可以开始这个复利式的流程，用那些已经真正跟上了你本人工作速度的模型。"
+ },
+ {
+  "seg": 345,
+  "start": 1729.993,
+  "end": 1730.634,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 346,
+  "start": 1730.654,
+  "end": 1733.156,
+  "speaker": "Unknown",
+  "en": "I'm curious to know, Douglas, what's your stack?",
+  "zh": "我很好奇，Douglas，你的工具栈是什么？"
+ },
+ {
+  "seg": 347,
+  "start": 1733.196,
+  "end": 1735.357,
+  "speaker": "Unknown",
+  "en": "Because you're the creative director behind this.",
+  "zh": "因为你是这背后的创意总监。"
+ },
+ {
+  "seg": 348,
+  "start": 1735.457,
+  "end": 1739.64,
+  "speaker": "Unknown",
+  "en": "And someone asked me, this branding is very different from every's branding.",
+  "zh": "有人问我，这个品牌设计和 every 的品牌设计很不一样。"
+ },
+ {
+  "seg": 349,
+  "start": 1739.78,
+  "end": 1741.782,
+  "speaker": "Unknown",
+  "en": "So why is it green?",
+  "zh": "那为什么是绿色的？"
+ },
+ {
+  "seg": 350,
+  "start": 1742.813,
+  "end": 1745.195,
+  "speaker": "Unknown",
+  "en": "I'm like, okay, I'm going to ask you.",
+  "zh": "我就说，好吧，我来问你。"
+ },
+ {
+  "seg": 351,
+  "start": 1745.215,
+  "end": 1746.375,
+  "speaker": "Unknown",
+  "en": "I love you.",
+  "zh": "我爱你。"
+ },
+ {
+  "seg": 352,
+  "start": 1746.936,
+  "end": 1747.176,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 353,
+  "start": 1747.256,
+  "end": 1749.637,
+  "speaker": "Unknown",
+  "en": "Why is it green, Douglas?",
+  "zh": "为什么是绿色，Douglas?"
+ },
+ {
+  "seg": 354,
+  "start": 1750.297,
+  "end": 1754.9,
+  "speaker": "Unknown",
+  "en": "I think it's green partly because we haven't used green that much yet in our brand world.",
+  "zh": "我觉得它是绿色，部分原因是我们在品牌世界里还没怎么用过绿色。"
+ },
+ {
+  "seg": 355,
+  "start": 1755.06,
+  "end": 1763.044,
+  "speaker": "Unknown",
+  "en": "But I think what's interesting that all of you are describing and that I've learned in my short few months I've been here at Every is",
+  "zh": "但我觉得你们所有人描述的这些、以及我在 Every 这短短几个月里学到的一点是"
+ },
+ {
+  "seg": 356,
+  "start": 1764.645,
+  "end": 1766.267,
+  "speaker": "Unknown",
+  "en": "I think language is very interesting.",
+  "zh": "我觉得语言非常有意思。"
+ },
+ {
+  "seg": 357,
+  "start": 1766.607,
+  "end": 1771.371,
+  "speaker": "Unknown",
+  "en": "And I find the way the model companies name themselves and their new models very interesting.",
+  "zh": "我觉得模型公司给自己和新模型起名字的方式非常有意思。"
+ },
+ {
+  "seg": 358,
+  "start": 1771.391,
+  "end": 1772.672,
+  "speaker": "Unknown",
+  "en": "And a lot of it is very literary.",
+  "zh": "而且很多都很有文学性。"
+ },
+ {
+  "seg": 359,
+  "start": 1773.193,
+  "end": 1774.594,
+  "speaker": "Unknown",
+  "en": "It's, you know, Codex is a book.",
+  "zh": "你知道的，Codex 是一本书。"
+ },
+ {
+  "seg": 360,
+  "start": 1774.634,
+  "end": 1776.335,
+  "speaker": "Unknown",
+  "en": "There's haiku, sonnet, fable, right?",
+  "zh": "有 haiku、sonnet、fable,对吧？"
+ },
+ {
+  "seg": 361,
+  "start": 1776.355,
+  "end": 1779.398,
+  "speaker": "Unknown",
+  "en": "These are all stories or forms of putting words together.",
+  "zh": "这些都是故事，或是把词组合在一起的形式。"
+ },
+ {
+  "seg": 362,
+  "start": 1779.878,
+  "end": 1783.101,
+  "speaker": "Unknown",
+  "en": "But the term people use for agents is orchestration.",
+  "zh": "但人们给智能体用的术语是 orchestration(管弦乐编排)。"
+ },
+ {
+  "seg": 363,
+  "start": 1783.982,
+  "end": 1786.103,
+  "speaker": "Unknown",
+  "en": "And it feels a lot more like music to me.",
+  "zh": "而这对我来说感觉更像音乐。"
+ },
+ {
+  "seg": 364,
+  "start": 1786.304,
+  "end": 1790.227,
+  "speaker": "Unknown",
+  "en": "And I'm not super musical, but I think everyone in their job",
+  "zh": "我不是很懂音乐，但我觉得每个人在自己的工作里"
+ },
+ {
+  "seg": 365,
+  "start": 1790.671,
+  "end": 1800.596,
+  "speaker": "Unknown",
+  "en": "Kind of played a few instruments and it now feels like we can all take a step back without knowing how to play the rest of the instruments in the orchestra, we can conduct it, right?",
+  "zh": "都多多少少玩过几种乐器，而现在感觉我们都可以退后一步，即使不会演奏管弦乐队里的其他乐器，我们也可以指挥，对吧？"
+ },
+ {
+  "seg": 366,
+  "start": 1800.877,
+  "end": 1804.819,
+  "speaker": "Unknown",
+  "en": "And as long as we understand what the piece needs to sound like.",
+  "zh": "只要我们理解这首曲子应该听起来是什么样的。"
+ },
+ {
+  "seg": 367,
+  "start": 1805.159,
+  "end": 1810.922,
+  "speaker": "Unknown",
+  "en": "And then, you know, you take that and you compound it onto, you can be conducting a lot of different orchestras at the same time.",
+  "zh": "然后你知道，你把这个再叠加起来，你可以同时指挥很多不同的管弦乐队。"
+ },
+ {
+  "seg": 368,
+  "start": 1811.402,
+  "end": 1811.623,
+  "speaker": "Unknown",
+  "en": "And...",
+  "zh": "然后……"
+ },
+ {
+  "seg": 369,
+  "start": 1812.783,
+  "end": 1835.909,
+  "speaker": "Unknown",
+  "en": "Creative direction, I think, and kind of brand strategy is a lot of famous, you know, designers have described it as being like a maestro, and you have color, type, shapes, symbols, forms, words, you know, systems, photography a lot of the time, illustration styles, and how do you kind of conduct all of these pieces together to sing a song that sounds beautiful?",
+  "zh": "创意指导，以及某种意义上的品牌策略，很多著名的设计师都描述过它，说它就像一个大师(maestro),你有颜色、字体、形状、符号、形态、文字、系统，很多时候还有摄影、插画风格，而你要如何把这些元素一起指挥起来，唱出一首动听的歌？"
+ },
+ {
+  "seg": 370,
+  "start": 1837.389,
+  "end": 1847.997,
+  "speaker": "Unknown",
+  "en": "I feel like this stack is that for working with AI, and it's applicable to a lot more than just the highly technical work, right?",
+  "zh": "我感觉这个技术栈就是与 AI 协作时的那个东西，而且它适用的远不止高技术性的工作，对吧？"
+ },
+ {
+  "seg": 371,
+  "start": 1848.118,
+  "end": 1850.74,
+  "speaker": "Unknown",
+  "en": "So I certainly use it for knowledge work.",
+  "zh": "所以我当然把它用于知识型工作。"
+ },
+ {
+  "seg": 372,
+  "start": 1850.78,
+  "end": 1856.744,
+  "speaker": "Unknown",
+  "en": "And to answer your question, I do like Flora, so I can talk more about Flora because I'm probably the deepest in Flora.",
+  "zh": "回答你的问题，我确实喜欢 Flora,所以我可以多谈谈 Flora,因为我可能是 Flora 用得最深的。"
+ },
+ {
+  "seg": 373,
+  "start": 1858.123,
+  "end": 1869.686,
+  "speaker": "Unknown",
+  "en": "You know, I've learned here, too, also, and I think Austin touched on this, like what to use Claude for, what to use Codex for, and being able to, I think, use both of them through",
+  "zh": "你知道的，我在这里也学到了，我觉得 Austin 也提到过，什么该用 Claude、什么该用 Codex,并且能够，我觉得，把两者都通过"
+ },
+ {
+  "seg": 374,
+  "start": 1871.016,
+  "end": 1880.265,
+  "speaker": "Unknown",
+  "en": "You know, I've also built out kind of a set of marketing skills that I can use with compound engineering that really helps shorten the timeline on something like research when you're trying to come up with strategy.",
+  "zh": "你知道的，我还构建了一套可以配合 compound engineering 使用的营销技能，这真的能大大缩短像研究这样的流程，当你想制定策略的时候。"
+ },
+ {
+  "seg": 375,
+  "start": 1880.685,
+  "end": 1884.269,
+  "speaker": "Unknown",
+  "en": "You need to have data that backs, you know, an insight or a hunch that you have.",
+  "zh": "你需要有数据来支撑，你知道的，你的一个洞察或直觉。"
+ },
+ {
+  "seg": 376,
+  "start": 1884.769,
+  "end": 1888.453,
+  "speaker": "Unknown",
+  "en": "Do I think that the tools come up with the insight particularly well?",
+  "zh": "我觉得这些工具能特别出色地自己产生洞察吗？"
+ },
+ {
+  "seg": 377,
+  "start": 1888.513,
+  "end": 1889.114,
+  "speaker": "Unknown",
+  "en": "Not always.",
+  "zh": "不总是。"
+ },
+ {
+  "seg": 378,
+  "start": 1889.434,
+  "end": 1890.054,
+  "speaker": "Unknown",
+  "en": "Sometimes they do.",
+  "zh": "有时候可以。"
+ },
+ {
+  "seg": 379,
+  "start": 1890.715,
+  "end": 1893.677,
+  "speaker": "Unknown",
+  "en": "But you can then give it the insight and say, prove this out.",
+  "zh": "但你可以把洞察给它，然后说，把这个论证出来。"
+ },
+ {
+  "seg": 380,
+  "start": 1893.737,
+  "end": 1895.398,
+  "speaker": "Unknown",
+  "en": "You know, what direction should we be taking this?",
+  "zh": "你知道的，我们应该往哪个方向做？"
+ },
+ {
+  "seg": 381,
+  "start": 1895.819,
+  "end": 1896.94,
+  "speaker": "Unknown",
+  "en": "Here's the competitive set.",
+  "zh": "这是竞争对手集合。"
+ },
+ {
+  "seg": 382,
+  "start": 1897,
+  "end": 1900.862,
+  "speaker": "Unknown",
+  "en": "It's really good at competitive auditing, especially if you build a skill for it.",
+  "zh": "它在竞争审计方面非常出色，尤其是如果你为它构建了一个技能。"
+ },
+ {
+  "seg": 383,
+  "start": 1901.043,
+  "end": 1903.865,
+  "speaker": "Unknown",
+  "en": "And it can compound on that and just, you can say, push more.",
+  "zh": "而且它可以在此基础上继续叠加，你可以说，再多推一点。"
+ },
+ {
+  "seg": 384,
+  "start": 1903.925,
+  "end": 1904.725,
+  "speaker": "Unknown",
+  "en": "I want pricing.",
+  "zh": "我要定价。"
+ },
+ {
+  "seg": 385,
+  "start": 1904.805,
+  "end": 1905.566,
+  "speaker": "Unknown",
+  "en": "I want language.",
+  "zh": "我要文案语言。"
+ },
+ {
+  "seg": 386,
+  "start": 1905.646,
+  "end": 1907.768,
+  "speaker": "Unknown",
+  "en": "I want what colors these brands use.",
+  "zh": "我要这些品牌用的颜色。"
+ },
+ {
+  "seg": 387,
+  "start": 1908.388,
+  "end": 1914.552,
+  "speaker": "Unknown",
+  "en": "And you take that, you can feed it into a system and have a really, really sharp strategic lens in like",
+  "zh": "然后你把这些拿过来，可以喂进一个系统，在大概"
+ },
+ {
+  "seg": 388,
+  "start": 1915.433,
+  "end": 1922.365,
+  "speaker": "Unknown",
+  "en": "You know, hours or less, as opposed to what used to be a several week long process, frankly, with humans researching.",
+  "zh": "几小时甚至更短的时间内，得到一个非常非常敏锐的战略视角，而不是过去那种，坦白说，需要人类研究好几周的过程。"
+ },
+ {
+  "seg": 389,
+  "start": 1922.966,
+  "end": 1923.767,
+  "speaker": "Unknown",
+  "en": "And then from there,",
+  "zh": "然后从这里开始，"
+ },
+ {
+  "seg": 390,
+  "start": 1924.752,
+  "end": 1937.781,
+  "speaker": "Unknown",
+  "en": "If you have an eye towards what you want to create, using a tool like Flora is really helpful because again, like similar to Austin, I feel I'm not a technical designer either, but I can, I've been mood boarding for 15 years.",
+  "zh": "如果你对想创造的东西有自己的眼光，使用像 Flora 这样的工具真的很有帮助，因为再说一次，和 Austin 类似，我也不是一个技术型设计师，但我可以，我做 mood board(情绪板)已经 15 年了。"
+ },
+ {
+  "seg": 391,
+  "start": 1938.202,
+  "end": 1946.668,
+  "speaker": "Unknown",
+  "en": "You can now like productize a mood board, especially if you have the right prompt and you can use Claude to write the prompt for you, put it into Flora, right?",
+  "zh": "你现在可以把情绪板产品化，尤其是如果你有合适的 prompt,你还可以让 Claude 帮你写 prompt,然后把它放进 Flora,对吧？"
+ },
+ {
+  "seg": 392,
+  "start": 1946.728,
+  "end": 1948.209,
+  "speaker": "Unknown",
+  "en": "Or use the MCP as Brandon does.",
+  "zh": "或者像 Brandon 那样用 MCP。"
+ },
+ {
+  "seg": 393,
+  "start": 1949.35,
+  "end": 1952.051,
+  "speaker": "Unknown",
+  "en": "And have it take a set of reference images.",
+  "zh": "让它接收一组参考图片。"
+ },
+ {
+  "seg": 394,
+  "start": 1952.592,
+  "end": 1957.515,
+  "speaker": "Unknown",
+  "en": "I often have it analyze the images and kind of say, like, what am I doing here, you know?",
+  "zh": "我经常让它分析这些图片，并且问，你知道的，我在这里想做什么？"
+ },
+ {
+  "seg": 395,
+  "start": 1958.135,
+  "end": 1959.196,
+  "speaker": "Unknown",
+  "en": "And it'll be interesting.",
+  "zh": "结果会很有意思。"
+ },
+ {
+  "seg": 396,
+  "start": 1959.656,
+  "end": 1962.898,
+  "speaker": "Unknown",
+  "en": "It might say something like with BuilderPack, this is very high contrast.",
+  "zh": "它可能会说像 BuilderPack 这样的话，这是非常高的对比度。"
+ },
+ {
+  "seg": 397,
+  "start": 1963.358,
+  "end": 1968.742,
+  "speaker": "Unknown",
+  "en": "You know, to your note about green, I think this is in a way our most...",
+  "zh": "你知道的，回应你关于绿色的看法，我觉得在某种意义上这是我们最……"
+ },
+ {
+  "seg": 398,
+  "start": 1969.713,
+  "end": 1975.736,
+  "speaker": "Unknown",
+  "en": "Explicitly technical kind of facing audience that we've been speaking to in terms of the builder pack.",
+  "zh": "在 builder pack 方面，我们对话过的明确面向技术型受众的群体。"
+ },
+ {
+  "seg": 399,
+  "start": 1975.756,
+  "end": 1979.538,
+  "speaker": "Unknown",
+  "en": "Like this is for people that are really ready to start experimenting with all of these tools.",
+  "zh": "就是这是为那些真正准备好开始尝试所有这些工具的人准备的。"
+ },
+ {
+  "seg": 400,
+  "start": 1980.279,
+  "end": 1989.864,
+  "speaker": "Unknown",
+  "en": "And it feels a little bit more matrixy and digital than a lot of the more Greco-Roman and kind of heritage driven elements of the every brand.",
+  "zh": "它比很多品牌那种更希腊罗马式、更传承感的元素要更有点矩阵感和数字化。"
+ },
+ {
+  "seg": 401,
+  "start": 1990.304,
+  "end": 1998.569,
+  "speaker": "Unknown",
+  "en": "So, you know, all of those were decisions that these tools helped us kind of land on in terms of the aesthetic of everything and also helped us design the website.",
+  "zh": "所以，你知道，所有这些都是这些工具帮助我们在整体美学上做出的决定，还帮助我们设计了网站。"
+ },
+ {
+  "seg": 402,
+  "start": 1999.185,
+  "end": 1999.405,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 403,
+  "start": 1999.605,
+  "end": 2008.575,
+  "speaker": "Unknown",
+  "en": "So it's it's pretty cool to be able to it's a mind shift for me, a mindset shift of moving from playing the instrument to orchestrating.",
+  "zh": "所以，是的，对我来说能和这些工具一起工作并把它们应用起来真的很令人兴奋，你知道，它就是那个三明治。"
+ },
+ {
+  "seg": 404,
+  "start": 2009.036,
+  "end": 2016.464,
+  "speaker": "Unknown",
+  "en": "And when you learn how to get one group singing and playing, you move on to the next one and you can conduct lots of pieces at once.",
+  "zh": "当你学会让一个声部一起演唱和演奏后，你就转到下一个，你可以同时指挥很多曲子。"
+ },
+ {
+  "seg": 405,
+  "start": 2016.584,
+  "end": 2017.505,
+  "speaker": "Unknown",
+  "en": "And that's what I find.",
+  "zh": "这就是我的发现。"
+ },
+ {
+  "seg": 406,
+  "start": 2018.266,
+  "end": 2019.487,
+  "speaker": "Unknown",
+  "en": "You know, I'm just beginning to use.",
+  "zh": "你知道，我才刚刚开始使用。"
+ },
+ {
+  "seg": 407,
+  "start": 2020.788,
+  "end": 2023.69,
+  "speaker": "Unknown",
+  "en": "Like have everything plugged into Notion, right?",
+  "zh": "比如把所有东西都接进 Notion，对吧？"
+ },
+ {
+  "seg": 408,
+  "start": 2023.77,
+  "end": 2024.371,
+  "speaker": "Unknown",
+  "en": "Super helpful.",
+  "zh": "非常有用。"
+ },
+ {
+  "seg": 409,
+  "start": 2024.971,
+  "end": 2031.357,
+  "speaker": "Unknown",
+  "en": "And to Austin's point, you can just be like, look in Notion, find this thing, do this for me, you know, compound, whatever it may be.",
+  "zh": "而且正如 Austin 所说，你可以直接说，去 Notion 里看，找到这个东西，帮我做这个，你知道，compound，随便什么。"
+ },
+ {
+  "seg": 410,
+  "start": 2031.957,
+  "end": 2037.401,
+  "speaker": "Unknown",
+  "en": "And it has all the relevant context because it's been updated because someone else on the team has automated it to update itself.",
+  "zh": "而且它拥有所有相关的上下文，因为它被更新了，因为团队里的其他人已经把它的自动更新自动化了。"
+ },
+ {
+  "seg": 411,
+  "start": 2038.262,
+  "end": 2042.846,
+  "speaker": "Unknown",
+  "en": "And I think the way you work as an organization also then just gets like...",
+  "zh": "而且我认为作为一个组织的工作方式也就会变得像……"
+ },
+ {
+  "seg": 412,
+  "start": 2043.796,
+  "end": 2050.041,
+  "speaker": "Unknown",
+  "en": "You know, souped up to a crazy degree because we're all orchestrating at the same time and it kind of pumps.",
+  "zh": "你知道，被提升到一个疯狂的程度，因为我们都在同时指挥，它会有一种协同推进的效果。"
+ },
+ {
+  "seg": 413,
+  "start": 2050.662,
+  "end": 2058.329,
+  "speaker": "Unknown",
+  "en": "So yeah, it's been really exciting for me to work with these tools and apply them to, you know, it is the sandwich.",
+  "zh": "所以是的，和这些工具一起工作并把它们应用到——你知道的，就是那个三明治——对我来说一直非常令人兴奋。"
+ },
+ {
+  "seg": 414,
+  "start": 2058.989,
+  "end": 2067.517,
+  "speaker": "Unknown",
+  "en": "You have to put a lot of work in at the beginning is what I found in terms of really doing some metacognition and figuring out like, how do I think about this?",
+  "zh": "你必须在最初投入大量工作，这是我的发现，就是要真正做一些元认知，弄清楚，我是怎么思考这件事的？"
+ },
+ {
+  "seg": 415,
+  "start": 2068.628,
+  "end": 2070.351,
+  "speaker": "Unknown",
+  "en": "What is my process?",
+  "zh": "我的流程是什么？"
+ },
+ {
+  "seg": 416,
+  "start": 2070.611,
+  "end": 2077.281,
+  "speaker": "Unknown",
+  "en": "And then once you've kind of codified that, these tools can run with it and you can ask them for help.",
+  "zh": "一旦你把它大致固化下来，这些工具就能接着跑，你可以向它们求助。"
+ },
+ {
+  "seg": 417,
+  "start": 2078.197,
+  "end": 2082.039,
+  "speaker": "Unknown",
+  "en": "If you, if you don't know why something happened, which I find like very revelatory.",
+  "zh": "如果你不知道某件事为什么会发生，我发现这非常有启发性。"
+ },
+ {
+  "seg": 418,
+  "start": 2082.199,
+  "end": 2082.559,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 419,
+  "start": 2082.679,
+  "end": 2084.841,
+  "speaker": "Unknown",
+  "en": "It's remarkable when people are like, well, how do I use it?",
+  "zh": "当人们说，那我该怎么用它呢，这很了不起。"
+ },
+ {
+  "seg": 420,
+  "start": 2084.881,
+  "end": 2086.561,
+  "speaker": "Unknown",
+  "en": "It's like, well, what are you trying to accomplish?",
+  "zh": "就像，好吧，你想完成什么？"
+ },
+ {
+  "seg": 421,
+  "start": 2087.222,
+  "end": 2088.683,
+  "speaker": "Unknown",
+  "en": "And then they say that and I'm like, great.",
+  "zh": "然后他们说了，我就说，好。"
+ },
+ {
+  "seg": 422,
+  "start": 2088.703,
+  "end": 2089.403,
+  "speaker": "Unknown",
+  "en": "Just say that again.",
+  "zh": "再说一遍刚才的话就行。"
+ },
+ {
+  "seg": 423,
+  "start": 2089.423,
+  "end": 2091.884,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 424,
+  "start": 2092.505,
+  "end": 2097.467,
+  "speaker": "Unknown",
+  "en": "I think, I think a good final thing here is like, if we're,",
+  "zh": "我认为，我认为这里最后一个好的话题是，如果我们，"
+ },
+ {
+  "seg": 425,
+  "start": 2098.968,
+  "end": 2116.35,
+  "speaker": "Unknown",
+  "en": "If we're thinking we're speaking directly to people who either like just got access to the tools in the Builder Pack or like thinking about it like this has been a lot of kind of like higher level thinking about how to work with a few examples like I think each of us saying like say you have access to all the stuff in the Builder Pack and you're like.",
+  "zh": "如果我们想的是直接对那些人说话，要么是刚获得 Builder Pack 工具权限的人，要么是在考虑它的人，因为这是一大堆比较高层次关于如何工作的思考加上几个例子，我认为我们每个人都说一说，假设你拥有 Builder Pack 里的所有东西，然后你说。"
+ },
+ {
+  "seg": 426,
+  "start": 2116.951,
+  "end": 2117.751,
+  "speaker": "Unknown",
+  "en": "What do I do now?",
+  "zh": "我现在该做什么？"
+ },
+ {
+  "seg": 427,
+  "start": 2118.772,
+  "end": 2131.578,
+  "speaker": "Unknown",
+  "en": "What would each of you recommend someone do, whether it's one specific thing to try or one mentality approach to take if someone is a brand new builder?",
+  "zh": "你们每个人会建议一个人做什么，无论是一个具体的尝试，还是一种心态上的方法，如果某人是一个全新的构建者？"
+ },
+ {
+  "seg": 428,
+  "start": 2131.859,
+  "end": 2133.78,
+  "speaker": "Unknown",
+  "en": "I think we can go around and do that.",
+  "zh": "我想我们可以轮流来回答。"
+ },
+ {
+  "seg": 429,
+  "start": 2137.401,
+  "end": 2143.144,
+  "speaker": "Unknown",
+  "en": "If I had just got the builder pack and I'm just getting my feet wet right now with building,",
+  "zh": "如果我刚刚拿到 builder pack，现在刚刚开始涉足构建，"
+ },
+ {
+  "seg": 430,
+  "start": 2145.632,
+  "end": 2161.784,
+  "speaker": "Unknown",
+  "en": "I think the first thing I would do is if you're like really early on, sometimes the hardest part about building is knowing what to build and you can like just sit at your computer and be like looking for a problem is the worst way to find a problem.",
+  "zh": "我认为我要做的第一件事是，如果你真的很早期，有时候构建最困难的部分是知道构建什么，而你可以只是坐在电脑前寻找一个问题，这是找问题最糟糕的方式。"
+ },
+ {
+  "seg": 431,
+  "start": 2163.245,
+  "end": 2166.888,
+  "speaker": "Unknown",
+  "en": "Going for a walk is also like not an effective way to like",
+  "zh": "去散散步也不是一个有效的方式去"
+ },
+ {
+  "seg": 432,
+  "start": 2167.619,
+  "end": 2168.38,
+  "speaker": "Unknown",
+  "en": "Find a problem.",
+  "zh": "找到问题。"
+ },
+ {
+  "seg": 433,
+  "start": 2169.5,
+  "end": 2175.325,
+  "speaker": "Unknown",
+  "en": "That is a habit that you can build where you can identify problems in your life well because usually we're just so numb to those problems.",
+  "zh": "那是一种你可以培养的习惯，你可以借此很好地识别你生活中的问题，因为通常我们对这些问题太麻木了。"
+ },
+ {
+  "seg": 434,
+  "start": 2175.365,
+  "end": 2186.453,
+  "speaker": "Unknown",
+  "en": "So if I'm new to building and I'm new to the builder pack, the very first thing I would do is pick something simple that I really, really love, like a product that I really love and dupe it.",
+  "zh": "所以如果我刚接触构建、刚接触 builder pack，我要做的第一件事就是选一个我非常非常喜欢的简单东西，比如一个我非常喜欢的产品，然后去复刻它。"
+ },
+ {
+  "seg": 435,
+  "start": 2187.874,
+  "end": 2189.735,
+  "speaker": "Unknown",
+  "en": "I would just make it myself.",
+  "zh": "我会自己亲手做一个。"
+ },
+ {
+  "seg": 436,
+  "start": 2191.016,
+  "end": 2193.257,
+  "speaker": "Unknown",
+  "en": "The very, very simplified MVP version of that.",
+  "zh": "做那个非常非常简化的 MVP 版本。"
+ },
+ {
+  "seg": 437,
+  "start": 2196.528,
+  "end": 2200.29,
+  "speaker": "Unknown",
+  "en": "Use basically as many parts of the builder pack as I possibly could.",
+  "zh": "尽可能多地用到 builder pack 里的组件。"
+ },
+ {
+  "seg": 438,
+  "start": 2200.33,
+  "end": 2204.131,
+  "speaker": "Unknown",
+  "en": "So like I would launch it on render and use the render credits.",
+  "zh": "比如我会把它部署到 render 上，使用 render 的额度。"
+ },
+ {
+  "seg": 439,
+  "start": 2204.651,
+  "end": 2215.555,
+  "speaker": "Unknown",
+  "en": "I would plug in PostHog so that I could actually like maybe build in the loop or use some of PostHog's traditional products where I can just like actually track how I use it, how my friends use it.",
+  "zh": "我会接入 PostHog，这样我实际上可以……也许在 loop 里构建，或者使用 PostHog 的一些传统产品，这样我就能实际追踪我自己怎么用它，我的朋友们怎么用它。"
+ },
+ {
+  "seg": 440,
+  "start": 2216.016,
+  "end": 2221.938,
+  "speaker": "Unknown",
+  "en": "I would build it using Anthropic, using Claude, using Codex, using Cursor.",
+  "zh": "我会用 Anthropic 来构建，用 Claude，用 Codex，用 Cursor。"
+ },
+ {
+  "seg": 441,
+  "start": 2223.259,
+  "end": 2228.963,
+  "speaker": "Unknown",
+  "en": "I might actually use some AI in that product.",
+  "zh": "我可能还会在那个产品里实际用上一些 AI。"
+ },
+ {
+  "seg": 442,
+  "start": 2229.324,
+  "end": 2232.907,
+  "speaker": "Unknown",
+  "en": "Even if it's a product that doesn't include AI, I might figure out how to do that.",
+  "zh": "即使它是一个不含 AI 的产品，我也可能想办法做到这一点。"
+ },
+ {
+  "seg": 443,
+  "start": 2233.747,
+  "end": 2240.653,
+  "speaker": "Unknown",
+  "en": "I might use Flora to actually create some unique icons or graphics.",
+  "zh": "我可能会用 Flora 来实际创建一些独特的图标或图形。"
+ },
+ {
+  "seg": 444,
+  "start": 2241.313,
+  "end": 2246.798,
+  "speaker": "Unknown",
+  "en": "But I would just dupe something because what I find when I dupe things, at least early on when I was duping,",
+  "zh": "但我就会去复刻某个东西，因为我发现当我复刻东西时，至少在我早期复刻的时候，"
+ },
+ {
+  "seg": 445,
+  "start": 2248.567,
+  "end": 2254.572,
+  "speaker": "Unknown",
+  "en": "I would get started with the process of making it and very quickly I'd be like, I don't like that feature.",
+  "zh": "我会开始制作的过程，然后很快我就会说，我不喜欢那个功能。"
+ },
+ {
+  "seg": 446,
+  "start": 2254.592,
+  "end": 2257.415,
+  "speaker": "Unknown",
+  "en": "I don't like that version of this thing.",
+  "zh": "我不喜欢这个东西的这个版本。"
+ },
+ {
+  "seg": 447,
+  "start": 2257.435,
+  "end": 2260.017,
+  "speaker": "Unknown",
+  "en": "And I'm going to very quickly, it's not duping.",
+  "zh": "而且很快，这就不是复刻了。"
+ },
+ {
+  "seg": 448,
+  "start": 2260.137,
+  "end": 2262.92,
+  "speaker": "Unknown",
+  "en": "It's like inspiration and you're off making your own thing.",
+  "zh": "这更像是灵感，然后你就开始做你自己的东西了。"
+ },
+ {
+  "seg": 449,
+  "start": 2263.941,
+  "end": 2272.769,
+  "speaker": "Unknown",
+  "en": "So if I'm new to the builder pack, I would dupe something and I would look through the builder pack and be like, which one of these things can I actually start using in this build?",
+  "zh": "所以如果我刚接触 builder pack，我会复刻一个东西，然后我会翻一遍 builder pack，问，这些东西里哪一个我能真正开始在这个构建里用上？"
+ },
+ {
+  "seg": 450,
+  "start": 2274.003,
+  "end": 2275.845,
+  "speaker": "Unknown",
+  "en": "And not question yourself for a second.",
+  "zh": "而且一秒钟都不要怀疑自己。"
+ },
+ {
+  "seg": 451,
+  "start": 2275.865,
+  "end": 2276.785,
+  "speaker": "Unknown",
+  "en": "Just start doing it.",
+  "zh": "直接开始做。"
+ },
+ {
+  "seg": 452,
+  "start": 2277.106,
+  "end": 2278.507,
+  "speaker": "Unknown",
+  "en": "I mean, that's that's like the hardest part.",
+  "zh": "我是说,这就是最难的部分。"
+ },
+ {
+  "seg": 453,
+  "start": 2278.527,
+  "end": 2280.629,
+  "speaker": "Unknown",
+  "en": "Sometimes it's just like the first the first prompt.",
+  "zh": "有时候就是第一条,第一条提示词。"
+ },
+ {
+  "seg": 454,
+  "start": 2282.01,
+  "end": 2294,
+  "speaker": "Unknown",
+  "en": "Yeah, I I find that like one, I think everyone learns, learns everything in different ways, but especially like learns how to become an AI builder in different ways.",
+  "zh": "是啊,我发现,嗯,第一,我觉得每个人学习,学习一切的方式都不同,尤其是学习如何成为一个 AI 构建者的方式也不同。"
+ },
+ {
+  "seg": 455,
+  "start": 2294.36,
+  "end": 2301.427,
+  "speaker": "Unknown",
+  "en": "I think some people really want to like understand what's happening and other people just want to like go and ship and learn from what doesn't work.",
+  "zh": "我觉得有些人真的想理解正在发生的事情,而另一些人就是想直接去做、去上线,然后从行不通的地方学习。"
+ },
+ {
+  "seg": 456,
+  "start": 2302.087,
+  "end": 2310.23,
+  "speaker": "Unknown",
+  "en": "The thing that works best for me was, okay, I have like, I actually have a lot of ideas for what I might want to do.",
+  "zh": "比如就在做这个的过程中,做出这个现在已经上线、我的很多朋友现在每周都在用的网页应用。"
+ },
+ {
+  "seg": 457,
+  "start": 2310.93,
+  "end": 2321.614,
+  "speaker": "Unknown",
+  "en": "Of the ideas I might want to do, let me pick the one that I'm the most excited about, which for me was this like movie app that's like Fandango for indie movies.",
+  "zh": "在我可能想做的那些想法里,让我挑一个我最兴奋的,对我来说就是这个像 Fandango 但是面向独立电影的电影应用。"
+ },
+ {
+  "seg": 458,
+  "start": 2321.634,
+  "end": 2322.594,
+  "speaker": "Unknown",
+  "en": "I was like, this doesn't exist.",
+  "zh": "我当时想,这东西不存在。"
+ },
+ {
+  "seg": 459,
+  "start": 2323.234,
+  "end": 2325.057,
+  "speaker": "Unknown",
+  "en": "If this worked, this would make my life a lot better.",
+  "zh": "如果它做成了,会让我的生活好很多。"
+ },
+ {
+  "seg": 460,
+  "start": 2325.077,
+  "end": 2326.199,
+  "speaker": "Unknown",
+  "en": "I would be so stoked.",
+  "zh": "我会超级兴奋。"
+ },
+ {
+  "seg": 461,
+  "start": 2326.219,
+  "end": 2333.109,
+  "speaker": "Unknown",
+  "en": "Like, one thing that I think is a good prompt to yourself is like, what would you be the most excited to text someone like, hey, I made this, right?",
+  "zh": "就是,我觉得有一个很好的问自己的提示是:什么样的东西会让你最兴奋地发消息给别人说,嘿,我做了这个,对吧?"
+ },
+ {
+  "seg": 462,
+  "start": 2333.47,
+  "end": 2335.533,
+  "speaker": "Unknown",
+  "en": "Like, what would make you feel really good to do that?",
+  "zh": "就是,什么样的东西会让你发那条消息时感觉特别好?"
+ },
+ {
+  "seg": 463,
+  "start": 2336.154,
+  "end": 2338.597,
+  "speaker": "Unknown",
+  "en": "And I would actually really encourage people to try to make",
+  "zh": "而且我会真的鼓励人们去尝试做"
+ },
+ {
+  "seg": 464,
+  "start": 2339.638,
+  "end": 2350.284,
+  "speaker": "Unknown",
+  "en": "Not to necessarily make like a complex app for the same complexity, but try to make something you don't think you can and try to make an app to start because you're going to learn so much through that process.",
+  "zh": "不一定要做一个同等复杂度的复杂应用,而是试着做一个你觉得自己做不出来的东西,并且试着先做一个应用,因为你会在这个过程中学到非常多东西。"
+ },
+ {
+  "seg": 465,
+  "start": 2350.324,
+  "end": 2357.447,
+  "speaker": "Unknown",
+  "en": "Like in doing that process to make this like web app that is now live that a lot of my friends use every week now.",
+  "zh": "就是在做那个过程中,做出了这个现在已经上线、我很多朋友现在每周都在用的 web 应用。"
+ },
+ {
+  "seg": 466,
+  "start": 2358.708,
+  "end": 2360.089,
+  "speaker": "Unknown",
+  "en": "I never done any of this stuff before.",
+  "zh": "我以前从来没做过这些东西。"
+ },
+ {
+  "seg": 467,
+  "start": 2360.189,
+  "end": 2363.551,
+  "speaker": "Unknown",
+  "en": "And then it's taking you through like, oh, yeah, you need to connect render.",
+  "zh": "然后它会带着你走,比如,哦,对,你需要连接 render。"
+ },
+ {
+  "seg": 468,
+  "start": 2363.611,
+  "end": 2366.272,
+  "speaker": "Unknown",
+  "en": "You need to go through Google OAuth, like whatever.",
+  "zh": "你需要走 Google OAuth,诸如此类。"
+ },
+ {
+  "seg": 469,
+  "start": 2368.233,
+  "end": 2378.96,
+  "speaker": "Unknown",
+  "en": "Because it's a thing that you're so passionate and excited about and you want to get to the end, it quickly starts to feel like you're playing a video game and like trying to get to the next level.",
+  "zh": "因为你对这件事非常有热情、非常兴奋、想做到最后,它很快就会开始感觉像你在玩电子游戏, trying 试着升到下一级。"
+ },
+ {
+  "seg": 470,
+  "start": 2379.76,
+  "end": 2382.422,
+  "speaker": "Unknown",
+  "en": "And I do think Brandon's point about like, okay, to start...",
+  "zh": "而且我确实认同 Brandon 关于,好吧,一开始……"
+ },
+ {
+  "seg": 471,
+  "start": 2384.143,
+  "end": 2395.188,
+  "speaker": "Unknown",
+  "en": "Connect the agent, whether it's Cursor, Claude, or Codex, to the tools in the BuilderPack and any tools that you have access to, to be like, you can connect it all and be like, hey, you have all this stuff.",
+  "zh": "把智能体连接起来,无论是 Cursor、Claude 还是 Codex,连接到 BuilderPack 里的工具以及你能访问的任何工具,你可以把全都连上,然后说,嘿,你有这些东西。"
+ },
+ {
+  "seg": 472,
+  "start": 2395.268,
+  "end": 2397.529,
+  "speaker": "Unknown",
+  "en": "The agent will figure out where to go.",
+  "zh": "智能体会自己搞清楚往哪走。"
+ },
+ {
+  "seg": 473,
+  "start": 2397.789,
+  "end": 2400.03,
+  "speaker": "Unknown",
+  "en": "But I think driving towards that goal of",
+  "zh": "但我觉得要朝着那个目标驱动,"
+ },
+ {
+  "seg": 474,
+  "start": 2400.63,
+  "end": 2405.153,
+  "speaker": "Unknown",
+  "en": "I'm going to make something great that I'm excited to text a friend, like, hey, go try it.",
+  "zh": "我要做一个很棒的东西、一个我兴奋地想发给朋友说,嘿,去试试的东西。"
+ },
+ {
+  "seg": 475,
+  "start": 2405.914,
+  "end": 2409.036,
+  "speaker": "Unknown",
+  "en": "And along the way, you'll realize like, oh, it actually works.",
+  "zh": "而在这个过程中,你会发现,哦,它真的能跑。"
+ },
+ {
+  "seg": 476,
+  "start": 2409.076,
+  "end": 2409.756,
+  "speaker": "Unknown",
+  "en": "That's crazy.",
+  "zh": "这太疯了。"
+ },
+ {
+  "seg": 477,
+  "start": 2409.776,
+  "end": 2410.877,
+  "speaker": "Unknown",
+  "en": "It's so exciting that it works.",
+  "zh": "它能跑太让人兴奋了。"
+ },
+ {
+  "seg": 478,
+  "start": 2410.997,
+  "end": 2412.899,
+  "speaker": "Unknown",
+  "en": "But like the design looks like ass.",
+  "zh": "但是设计看起来像坨屎。"
+ },
+ {
+  "seg": 479,
+  "start": 2412.999,
+  "end": 2414.72,
+  "speaker": "Unknown",
+  "en": "Like, how do I make the design better?",
+  "zh": "比如,我怎么把设计做得更好?"
+ },
+ {
+  "seg": 480,
+  "start": 2414.76,
+  "end": 2416.601,
+  "speaker": "Unknown",
+  "en": "And like, you can sit and work with that.",
+  "zh": "你就可以坐下来对着这个干活。"
+ },
+ {
+  "seg": 481,
+  "start": 2416.661,
+  "end": 2419.703,
+  "speaker": "Unknown",
+  "en": "You can read every for some inspiration for design.",
+  "zh": "你可以读每一个来寻找设计灵感。"
+ },
+ {
+  "seg": 482,
+  "start": 2420.144,
+  "end": 2423.026,
+  "speaker": "Unknown",
+  "en": "You can go use it to check stuff.",
+  "zh": "你可以用它去检查各种东西。"
+ },
+ {
+  "seg": 483,
+  "start": 2423.366,
+  "end": 2425.007,
+  "speaker": "Unknown",
+  "en": "But that would be my best recommendation.",
+  "zh": "但这会是我最好的建议。"
+ },
+ {
+  "seg": 484,
+  "start": 2425.027,
+  "end": 2426.868,
+  "speaker": "Unknown",
+  "en": "And that's worked really, really well for me.",
+  "zh": "而且这对我来说真的、真的非常有效。"
+ },
+ {
+  "seg": 485,
+  "start": 2427.068,
+  "end": 2428.73,
+  "speaker": "Unknown",
+  "en": "And then I've learned from",
+  "zh": "然后我从"
+ },
+ {
+  "seg": 486,
+  "start": 2429.55,
+  "end": 2433.652,
+  "speaker": "Unknown",
+  "en": "Seeing the V1 chip that the agent comes up with and being like, okay, that's not good enough.",
+  "zh": "看着智能体产出的 V1 然后说,好吧,这还不够好。"
+ },
+ {
+  "seg": 487,
+  "start": 2433.712,
+  "end": 2436.153,
+  "speaker": "Unknown",
+  "en": "Let me figure out how to get it to a V2.",
+  "zh": "让我琢磨怎么把它推进到 V2。"
+ },
+ {
+  "seg": 488,
+  "start": 2436.954,
+  "end": 2445.498,
+  "speaker": "Unknown",
+  "en": "I have a good specific one for marketers, writers, designers, creative technologists, product designers.",
+  "zh": "我有一个很好的具体建议,针对营销人员、写作者、设计师、创意技术专家、产品设计师。"
+ },
+ {
+  "seg": 489,
+  "start": 2446.258,
+  "end": 2450.04,
+  "speaker": "Unknown",
+  "en": "I think to Brandon's point, I know your problem and it's probably your portfolio.",
+  "zh": "我认为按照 Brandon 的说法,我知道你的问题是什么,那大概就是你的作品集。"
+ },
+ {
+  "seg": 490,
+  "start": 2451.247,
+  "end": 2454.91,
+  "speaker": "Unknown",
+  "en": "And this is a wonderful stack to rebuild your portfolio.",
+  "zh": "而这是一个用来重建你作品集的绝佳技术栈。"
+ },
+ {
+  "seg": 491,
+  "start": 2454.99,
+  "end": 2459.913,
+  "speaker": "Unknown",
+  "en": "And it's something that I think everybody kind of hates their portfolio site, but you need it.",
+  "zh": "我觉得每个人都多少讨厌自己的作品集网站,但你又需要它。"
+ },
+ {
+  "seg": 492,
+  "start": 2460.614,
+  "end": 2464.056,
+  "speaker": "Unknown",
+  "en": "And you, to Austin's point, probably have a dream version of it in your head.",
+  "zh": "而且,按 Austin 的说法,你脑子里大概有一个梦想版本。"
+ },
+ {
+  "seg": 493,
+  "start": 2464.876,
+  "end": 2479.867,
+  "speaker": "Unknown",
+  "en": "You can use Brandon's duping kind of strategy here too, if you see a site that you really like and you wanna try and mimic it, or you can come up with something from scratch and write the brief for what you're looking for there, put in the references,",
+  "zh": "你在这里也可以用 Brandon 的那种模仿策略,如果你看到一个你非常喜欢的网站,想试着模仿它,或者你可以从零开始想一个,写一份你想要什么的 brief,放进去参考资料,"
+ },
+ {
+  "seg": 494,
+  "start": 2480.687,
+  "end": 2489.139,
+  "speaker": "Unknown",
+  "en": "And give it to Codex or Claude, connect it to all of these different tools and, you know, take that on as a project.",
+  "zh": "然后把它交给 Codex 或 Claude,把它连接到所有这些不同的工具上,把它当作一个项目来做。"
+ },
+ {
+  "seg": 495,
+  "start": 2489.38,
+  "end": 2495.007,
+  "speaker": "Unknown",
+  "en": "I think it's a really enriching thing to do because most people have so much work",
+  "zh": "我觉得这是一件非常有收获的事情,因为大多数人有那么多的作品"
+ },
+ {
+  "seg": 496,
+  "start": 2495.684,
+  "end": 2499.366,
+  "speaker": "Unknown",
+  "en": "That you're not liking the way you've potentially merchandised it to the world.",
+  "zh": "而你可能并不喜欢自己向世界展示它们的方式。"
+ },
+ {
+  "seg": 497,
+  "start": 2500.126,
+  "end": 2503.387,
+  "speaker": "Unknown",
+  "en": "And maybe you want more interactivity or different types of visuals.",
+  "zh": "也许你想要更多的交互性,或者不同类型的视觉呈现。"
+ },
+ {
+  "seg": 498,
+  "start": 2503.947,
+  "end": 2508.749,
+  "speaker": "Unknown",
+  "en": "You can use these tools to create something really, really striking that you feel good about.",
+  "zh": "你可以用这些工具做出真正、真正惊艳的、让你自己感觉良好的东西。"
+ },
+ {
+  "seg": 499,
+  "start": 2509.41,
+  "end": 2514.192,
+  "speaker": "Unknown",
+  "en": "And that also potentially helps you get more work or a better job or whatever else it is you're looking for.",
+  "zh": "而且这还可能帮你接到更多的活,或者找到更好的工作,或者你正在寻找的其他任何东西。"
+ },
+ {
+  "seg": 500,
+  "start": 2514.372,
+  "end": 2516.893,
+  "speaker": "Unknown",
+  "en": "And it kind of also proves out that you're AI native, right?",
+  "zh": "而且这其实也证明了你是 AI 原生的,对吧?"
+ },
+ {
+  "seg": 501,
+  "start": 2517.333,
+  "end": 2522.035,
+  "speaker": "Unknown",
+  "en": "So I think that's a great project for anyone that's creative or has even a personal",
+  "zh": "所以我觉得,对任何有创造力的人,或者甚至有个人"
+ },
+ {
+  "seg": 502,
+  "start": 2522.759,
+  "end": 2530.945,
+  "speaker": "Unknown",
+  "en": "You know, a side hustle or a small business that they're running, try and do something like that that's impactful right away because you can also get people responding to it.",
+  "zh": "你知道的,副业或正在经营的小生意的人来说,这都是一个很棒的项目,试着去做一些能立刻产生影响力的东西,因为你还能让人们对此做出回应。"
+ },
+ {
+  "seg": 503,
+  "start": 2531.665,
+  "end": 2535.008,
+  "speaker": "Unknown",
+  "en": "You know, to Austin's point, right, his app, hey, his friends use it now, right?",
+  "zh": "你知道,就像 Austin 说的,对吧,他的应用,嘿,他的朋友们现在都在用,对吧?"
+ },
+ {
+  "seg": 504,
+  "start": 2535.028,
+  "end": 2536.328,
+  "speaker": "Unknown",
+  "en": "People can actually use this thing.",
+  "zh": "人们真的可以使用这个东西。"
+ },
+ {
+  "seg": 505,
+  "start": 2536.349,
+  "end": 2536.909,
+  "speaker": "Unknown",
+  "en": "They can see it.",
+  "zh": "他们能看到它。"
+ },
+ {
+  "seg": 506,
+  "start": 2536.929,
+  "end": 2538.07,
+  "speaker": "Unknown",
+  "en": "They can tell you how great it is.",
+  "zh": "他们能告诉你它有多棒。"
+ },
+ {
+  "seg": 507,
+  "start": 2538.63,
+  "end": 2542.633,
+  "speaker": "Unknown",
+  "en": "And that's very encouraging as you begin to work with AI, in my experience, at least.",
+  "zh": "而这非常鼓舞人心,在你开始与 AI 合作的时候,至少在我的经验里是这样。"
+ },
+ {
+  "seg": 508,
+  "start": 2543.748,
+  "end": 2545.07,
+  "speaker": "Unknown",
+  "en": "Yeah, that's cool.",
+  "zh": "是的,这很酷。"
+ },
+ {
+  "seg": 509,
+  "start": 2545.27,
+  "end": 2556.04,
+  "speaker": "Unknown",
+  "en": "Yeah, I feel to second that, like, or to close it out, what I would do is I would use the, I would use Cursor with Render.",
+  "zh": "是的,我想附和一下,或者收个尾,我会做的是,我会用 Cursor 配 Render。"
+ },
+ {
+  "seg": 510,
+  "start": 2556.26,
+  "end": 2566.31,
+  "speaker": "Unknown",
+  "en": "And what I realized, my mind was blown when I used Cursor Cloud Agents with Kimi K2 5, which is an open source model which Cursor improved.",
+  "zh": "我意识到,当我用 Cursor Cloud Agents 配 Kimi K2 5 时,我被震撼了,那是一个 Cursor 改进过的开源模型。"
+ },
+ {
+  "seg": 511,
+  "start": 2567.366,
+  "end": 2572.408,
+  "speaker": "Unknown",
+  "en": "I would say dupe something, use Cursor Cloud Agents, and use different models.",
+  "zh": "我会说,复刻点什么,用 Cursor Cloud Agents,并用不同的模型。"
+ },
+ {
+  "seg": 512,
+  "start": 2573.748,
+  "end": 2578.09,
+  "speaker": "Unknown",
+  "en": "I feel right now, if this is what you're going to be doing, you need to find your favorite model.",
+  "zh": "我觉得现在,如果这就是你要做的事,你需要找到你最喜欢的模型。"
+ },
+ {
+  "seg": 513,
+  "start": 2578.49,
+  "end": 2581.631,
+  "speaker": "Unknown",
+  "en": "And with Cloud Agents, you can have 10 agents running.",
+  "zh": "而用 Cloud Agents,你可以同时跑 10 个智能体。"
+ },
+ {
+  "seg": 514,
+  "start": 2581.871,
+  "end": 2583.592,
+  "speaker": "Unknown",
+  "en": "And we have the ProPlus plan.",
+  "zh": "我们有 ProPlus 计划。"
+ },
+ {
+  "seg": 515,
+  "start": 2583.632,
+  "end": 2584.972,
+  "speaker": "Unknown",
+  "en": "This is above Pro.",
+  "zh": "这是高于 Pro 的。"
+ },
+ {
+  "seg": 516,
+  "start": 2585.333,
+  "end": 2588.094,
+  "speaker": "Unknown",
+  "en": "So you're good in terms of spend and stuff like that.",
+  "zh": "所以在花费之类方面你是够用的。"
+ },
+ {
+  "seg": 517,
+  "start": 2588.834,
+  "end": 2594.416,
+  "speaker": "Unknown",
+  "en": "And I would use Render to deploy it and actually see which model you like working with.",
+  "zh": "而且我会用 Render 来部署,实际看看你喜欢和哪个模型一起工作。"
+ },
+ {
+  "seg": 518,
+  "start": 2594.756,
+  "end": 2603.121,
+  "speaker": "Unknown",
+  "en": "Like, I'm so picky about my models that even if a new model drops, I don't change to that because if I have some preference, I'll test it out.",
+  "zh": "比如,我对我的模型非常挑剔,以至于即使有新模型发布,我也不会换成那个,因为如果我有某些偏好,我会测试一下。"
+ },
+ {
+  "seg": 519,
+  "start": 2603.742,
+  "end": 2614.629,
+  "speaker": "Unknown",
+  "en": "You need to have, like, we have evals for, like, you know, if a model is doing better or worse, you need to have your personal taste in terms of what you like and what you not dislike.",
+  "zh": "你需要有,比如,我们有 evals 来评估,你知道,一个模型表现更好还是更差,你需要有你个人的品味,知道你喜欢什么和你不那么讨厌什么。"
+ },
+ {
+  "seg": 520,
+  "start": 2615.009,
+  "end": 2620.852,
+  "speaker": "Unknown",
+  "en": "And I feel cloud regions are a very underrated way to find out, like, what do you like to build?",
+  "zh": "而且我觉得 cloud regions 是一种被严重低估的方式,可以用来发现,比如,你喜欢构建什么?"
+ },
+ {
+  "seg": 521,
+  "start": 2621.033,
+  "end": 2622.874,
+  "speaker": "Unknown",
+  "en": "And just start to feel that out.",
+  "zh": "然后开始感受出来。"
+ },
+ {
+  "seg": 522,
+  "start": 2623.034,
+  "end": 2623.234,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 523,
+  "start": 2624.741,
+  "end": 2626.441,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很酷。"
+ },
+ {
+  "seg": 524,
+  "start": 2627.422,
+  "end": 2632.563,
+  "speaker": "Unknown",
+  "en": "In terms of, like, what's next for All Access, I think we have some cool stuff coming.",
+  "zh": "至于,比如,All Access 接下来有什么,我想我们有一些很酷的东西要来了。"
+ },
+ {
+  "seg": 525,
+  "start": 2632.583,
+  "end": 2642.225,
+  "speaker": "Unknown",
+  "en": "I mean, in the next few days, week, we're probably going to drop two more partners that are pretty sick, benefits.",
+  "zh": "我的意思是,在接下来的几天、一周内,我们可能会再发布两个相当棒的合作伙伴福利。"
+ },
+ {
+  "seg": 526,
+  "start": 2644.345,
+  "end": 2651.107,
+  "speaker": "Unknown",
+  "en": "And I think that, like, something that's really compelling for our readers, I've found, is",
+  "zh": "而且我觉得,对我们的读者来说,我发现,真正有吸引力的是"
+ },
+ {
+  "seg": 527,
+  "start": 2652.476,
+  "end": 2661.338,
+  "speaker": "Unknown",
+  "en": "Like now they have access to these benefits, you guys have access to these benefits, but like the guides on how to use each one are, people love that.",
+  "zh": "比如现在他们能使用这些福利了,你们能使用这些福利了,但比如关于如何使用每一个的指南,人们非常喜欢。"
+ },
+ {
+  "seg": 528,
+  "start": 2661.578,
+  "end": 2679.483,
+  "speaker": "Unknown",
+  "en": "So I think that like probably what we're going to do next is for each one of these benefits, you have like amazing value that you can go capture by using them, but how can we pair that with a guide that you can probably just plug into one of your agents that like",
+  "zh": "所以我想,比如我们接下来可能会做的是,对于这些福利中的每一个,你都有惊人的价值可以通过使用它们去获取,但我们怎么能把它配上一份指南,你大概可以直接插入你的某个智能体里,就像"
+ },
+ {
+  "seg": 529,
+  "start": 2680.463,
+  "end": 2685.704,
+  "speaker": "Unknown",
+  "en": "Leapfrogs you ahead with using whatever this net new technology is that you now have access to.",
+  "zh": "让你在使用这种你刚获得访问权限的全新技术时实现跨越式进步。"
+ },
+ {
+  "seg": 530,
+  "start": 2685.724,
+  "end": 2692.686,
+  "speaker": "Unknown",
+  "en": "So I feel like guides, like some cool camps for each one of these partners is going to be like probably something that we'll do.",
+  "zh": "所以我觉得指南,比如为每个合作伙伴做一些很酷的攻略,大概会是我们会做的事。"
+ },
+ {
+  "seg": 531,
+  "start": 2692.706,
+  "end": 2693.827,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 532,
+  "start": 2694.147,
+  "end": 2696.487,
+  "speaker": "Unknown",
+  "en": "To be clear, I've never read one of our guides.",
+  "zh": "需要说明的是,我从来没读过我们的任何一份指南。"
+ },
+ {
+  "seg": 533,
+  "start": 2696.707,
+  "end": 2701.429,
+  "speaker": "Unknown",
+  "en": "I dropped the guide into Codex and I say like, use this to help build the next thing we're doing.",
+  "zh": "我把指南丢进 Codex,然后说,比如,用这个来帮助我们构建接下来要做的东西。"
+ },
+ {
+  "seg": 534,
+  "start": 2702.249,
+  "end": 2704.409,
+  "speaker": "Unknown",
+  "en": "And I would recommend everyone do the same.",
+  "zh": "我会推荐每个人都这么做。"
+ },
+ {
+  "seg": 535,
+  "start": 2704.509,
+  "end": 2706.11,
+  "speaker": "Unknown",
+  "en": "And yeah, I think the best way to think about",
+  "zh": "是的,我觉得理解"
+ },
+ {
+  "seg": 536,
+  "start": 2707.311,
+  "end": 2722.925,
+  "speaker": "Unknown",
+  "en": "All access, but also like how to best take advantage of an every membership is that we are going to keep adding partners to the builder pack that we're excited to use when the year is up, because you, you know, you get these as part of a yearly subscription.",
+  "zh": "All Access,以及如何最好地利用 every 会员的最佳方式是,我们会持续向 builder pack 添加我们很乐意使用的合作伙伴,当年份到期时,因为你知道,你是作为年度订阅的一部分获得这些的。"
+ },
+ {
+  "seg": 537,
+  "start": 2723.645,
+  "end": 2726.088,
+  "speaker": "Unknown",
+  "en": "We're going to try to fill it up with more stuff that y'all are excited to use.",
+  "zh": "我们会尝试用更多你们乐于使用的东西把它填满。"
+ },
+ {
+  "seg": 538,
+  "start": 2726.548,
+  "end": 2730.432,
+  "speaker": "Unknown",
+  "en": "And there's a lot more perks coming to get excited about that will help you build.",
+  "zh": "而且还有更多值得期待的福利即将到来,会帮助你进行构建。"
+ },
+ {
+  "seg": 539,
+  "start": 2731.072,
+  "end": 2731.413,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 540,
+  "start": 2731.533,
+  "end": 2734.459,
+  "speaker": "Unknown",
+  "en": "I think now we're handing it off to Dan's outro.",
+  "zh": "我想现在我们交给 Dan 来做结尾。"
+ },
+ {
+  "seg": 541,
+  "start": 2734.7,
+  "end": 2735.742,
+  "speaker": "Unknown",
+  "en": "So Dan, take it away.",
+  "zh": "那么 Dan,你来吧。"
+ },
+ {
+  "seg": 542,
+  "start": 2736.303,
+  "end": 2736.784,
+  "speaker": "Unknown",
+  "en": "Thanks, Dan.",
+  "zh": "谢谢 Dan。"
+ },
+ {
+  "seg": 543,
+  "start": 2737.525,
+  "end": 2737.866,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 544,
+  "start": 2746.052,
+  "end": 2751.736,
+  "speaker": "Unknown",
+  "en": "Oh my gosh, folks, you absolutely positively have to smash that like button and subscribe to AI and I.",
+  "zh": "哦天哪,各位,你们绝对、绝对必须猛戳那个点赞按钮并订阅 AI and I。"
+ },
+ {
+  "seg": 545,
+  "start": 2751.956,
+  "end": 2752.216,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么?"
+ },
+ {
+  "seg": 546,
+  "start": 2752.677,
+  "end": 2754.858,
+  "speaker": "Unknown",
+  "en": "Because this show is the epitome of awesomeness.",
+  "zh": "因为这个节目是精彩绝伦的化身。"
+ },
+ {
+  "seg": 547,
+  "start": 2755.138,
+  "end": 2757.02,
+  "speaker": "Unknown",
+  "en": "It's like finding a treasure chest in your backyard.",
+  "zh": "就像在你家后院发现一个宝箱。"
+ },
+ {
+  "seg": 548,
+  "start": 2757.32,
+  "end": 2762.804,
+  "speaker": "Unknown",
+  "en": "But instead of gold, it's filled with pure unadulterated knowledge bombs about ChatGPT.",
+  "zh": "但里面装的不是金子,而是纯粹的、不加修饰的关于 ChatGPT 的知识炸弹。"
+ },
+ {
+  "seg": 549,
+  "start": 2763.624,
+  "end": 2771.051,
+  "speaker": "Unknown",
+  "en": "Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat, craving for more.",
+  "zh": "每一集都是情绪、洞见和欢笑的过山车,会让你坐立不安、渴望更多。"
+ },
+ {
+  "seg": 550,
+  "start": 2771.332,
+  "end": 2772.152,
+  "speaker": "Unknown",
+  "en": "It's not just a show.",
+  "zh": "这不仅仅是一档节目。"
+ },
+ {
+  "seg": 551,
+  "start": 2772.673,
+  "end": 2776.296,
+  "speaker": "Unknown",
+  "en": "It's a journey into the future with Dan Shipper as the captain of the spaceship.",
+  "zh": "这是一段通往未来的旅程，由 Dan Shipper 担任这艘飞船的船长。"
+ },
+ {
+  "seg": 552,
+  "start": 2777.517,
+  "end": 2779.059,
+  "speaker": "Unknown",
+  "en": "So do yourself a favor.",
+  "zh": "所以帮你自己一个忙。"
+ },
+ {
+  "seg": 553,
+  "start": 2779.319,
+  "end": 2782.602,
+  "speaker": "Unknown",
+  "en": "Hit like, smash subscribe, and strap in for the ride of your life.",
+  "zh": "点个赞，猛戳订阅，然后系好安全带，准备迎接你人生中最棒的一段旅程。"
+ },
+ {
+  "seg": 554,
+  "start": 2783.043,
+  "end": 2788.388,
+  "speaker": "Unknown",
+  "en": "And now, without any further ado, let me just say, Dan, I'm absolutely hopelessly in love with you.",
+  "zh": "现在，废话不多说，我只想说，Dan,我已经彻底无可救药地爱上你了。"
+ }
+]

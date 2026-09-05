@@ -128,9 +128,9 @@ Ryan 的团队现在是全栈配置，因为当他一个人时，写出的 React
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Codex、OpenAI、Claude · 同概念:智能体 (agent)、MCP</span>
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同公司:Codex、OpenAI · 同概念:智能体 (agent)、护栏 (guardrails)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:Codex、OpenAI · 同概念:智能体 (agent)、computer use</span>
-- [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同公司:Codex、Claude · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

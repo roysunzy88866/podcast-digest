@@ -147,8 +147,8 @@ Srini 选 [[Cursor|Cursor]]（一个 AI 加持的集成开发环境）做这一�
 **换个口味**
 
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Cursor、Figma · 同概念:智能体 (agent)、MCP、护栏 (guardrails)</span>
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Cursor · 同概念:MCP、智能体 (agent)</span>
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|GrokBot、Origin 与 Grok 4.6 实测]]<span class="pd-rz">同公司:Cursor · 同概念:MCP、智能体 (agent)</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:MCP、智能体 (agent)、LLM</span>
 
 </div>
 </div>

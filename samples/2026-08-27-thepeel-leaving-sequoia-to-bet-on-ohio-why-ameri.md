@@ -140,9 +140,9 @@ Chris 认为风投行业正在经历他职业生涯里最严重的大洗牌。�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同概念:LLM、产品市场匹配 (product market fit)</span>
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|一个人六个月做出八千万美元公司]]<span class="pd-rz">同概念:LLM、产品市场匹配 (product market fit)</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
-- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
 
 </div>
 <div class="pd-ex">

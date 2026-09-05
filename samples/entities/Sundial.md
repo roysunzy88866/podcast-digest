@@ -25,7 +25,7 @@ unlisted: true
 
 [[Julie Zhuo]] · [[智能体]] · [[构建者]] · [[可观测性]] · [[对话分析]] · [[评估]] · [[维度思维]] · [[ChatGPT]] · [[Cursor]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Julie Zhuo":1,"智能体":1,"构建者":2,"可观测性":18,"对话分析":1,"评估":19,"维度思维":1,"ChatGPT":48,"Cursor":43,"OpenAI":82}</script>
+<script type="application/json" class="pd-epn">{"Julie Zhuo":1,"智能体":1,"构建者":2,"可观测性":18,"对话分析":1,"评估":20,"维度思维":1,"ChatGPT":49,"Cursor":44,"OpenAI":83}</script>
 
 <script>
 (function(){

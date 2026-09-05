@@ -1,0 +1,1923 @@
+{
+  "episode_id": "2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big",
+  "podcast": "AI & I",
+  "date": "2026-07-22",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "订阅与增长",
+    "AI 工作流",
+    "Builder Pack"
+  ],
+  "categories": [
+    "AI 编程",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "yash",
+      "type": "person",
+      "role": "host",
+      "name": "Yash",
+      "file": "Yash",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            38.734,
+            48.122
+          ],
+          "quote": "This is a slightly different version of the pod today where we've got myself, Yash, Austin, and Douglas here, and we're missing Daniel.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 30,
+          "t": [
+            181.358,
+            182.999
+          ],
+          "quote": "All right, Yash, how do you use the BuilderPack?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 33,
+          "t": [
+            185.2,
+            185.74
+          ],
+          "quote": "I'm Yash.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            482.576,
+            497.021
+          ],
+          "quote": "I like the way Yash is describing one potential approach to work, which is like there's this there's this approach to being a general manager in the NBA, which is like just keep trading for future draft picks to be like we're on an eight year time horizon for contention.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 127,
+          "t": [
+            497.861,
+            510.305
+          ],
+          "quote": "And there is for someone as like skilled as Yash at engineering, go to market engineering growth, you can use these tools, the stack that he has to to like",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 139,
+          "t": [
+            554.832,
+            569.309
+          ],
+          "quote": "Yash can do the thing that lights him up, which is I can see Yash in Slack being like, oh, what if we made a three-hour time-constrained discount specifically targeted to these users using this video, building this thing in Framer?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 143,
+          "t": [
+            580.28,
+            584.864
+          ],
+          "quote": "But I think that the Builder Pack allows is that it allows someone like Yash to",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 153,
+          "t": [
+            643.189,
+            653.896
+          ],
+          "quote": "As they were getting ready to go to bed, Yash dropped a note in Slack saying, hey, we should send emails in the morning to",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1126.753,
+            1135.776
+          ],
+          "quote": "And the thing that I really like about this, the way I like working is that whether you're, you know, primarily a Claude user like Yash or a Codex user like me,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1351.349,
+            1357.454
+          ],
+          "quote": "The stack that you use, Austin, the stack that you use, Yash, Douglas, myself, it's very expensive.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "builder-pack",
+      "type": "concept",
+      "role": "concept",
+      "name": "Builder Pack",
+      "file": "Builder Pack",
+      "primary": true,
+      "how_described": "本集主线:Every 新订阅层级 All Access 的核心权益包,把 10 家 AI 工具(Codex、Claude、Cursor、PostHog、Framer、Flora、Render、Notion 等)的折扣和额度打包,上线一周带来 Every 历史上最大的订阅收入增长",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.336,
+            6.018
+          ],
+          "quote": "We did it by launching this thing called the Builder Pack.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 2,
+          "t": [
+            6.238,
+            13.166
+          ],
+          "quote": "Basically, we partnered with a bunch of the AI tools we use every day, and subscribers to the Builder Pack get discounts and credits to those tools.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 5,
+          "t": [
+            25.701,
+            34.25
+          ],
+          "quote": "For this episode, I had the team who worked on the Builder Pack, everything from conception all the way to the full executioner launch, come to the show to share how we did it and what we learned.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 9,
+          "t": [
+            49.184,
+            56.33
+          ],
+          "quote": "We're going to be taking you on a journey today, introducing you to All Access and the Builder Pack.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 20,
+          "t": [
+            103.877,
+            117.644
+          ],
+          "quote": "At every, it's a $625 annual plan that gives you access to the Builder Pack, which is 10 exclusive benefits from all AI companies that you know and love.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 24,
+          "t": [
+            144.226,
+            146.748
+          ],
+          "quote": "But we really want to talk about the Builder Pack because that's like",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 26,
+          "t": [
+            151.61,
+            170.098
+          ],
+          "quote": "And the Builder Pack is 10 soon to be more exclusive benefits to AI tools that the Every Team uses every day so that you can get access to these tools and use them, you know.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 96,
+          "t": [
+            389.437,
+            391.718
+          ],
+          "quote": "So what in the builder pack do you use?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            480.695,
+            481.475
+          ],
+          "quote": "Get the Builder Pack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            580.28,
+            584.864
+          ],
+          "quote": "But I think that the Builder Pack allows is that it allows someone like Yash to",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1095.358,
+            1106.766
+          ],
+          "quote": "That's been the case for a while, but the exciting thing about this moment, the exciting thing about being able to use the tools in the Builder Pack is that you can go from idea to execution",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1324.624,
+            1332.906
+          ],
+          "quote": "The thing that I love about the Builder Pack specifically is I feel like a lot of the time at Every, we're telling people like, go build, go build.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1490.499,
+            1497.025
+          ],
+          "quote": "My stack, I mean, the builder pack is basically everything that we use at every",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1969.713,
+            1975.736
+          ],
+          "quote": "Explicitly technical kind of facing audience that we've been speaking to in terms of the builder pack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2098.968,
+            2116.35
+          ],
+          "quote": "If we're thinking we're speaking directly to people who either like just got access to the tools in the Builder Pack or like thinking about it like this has been a lot of kind of like higher level thinking about how to work with a few examples like I think each of us saying like say you have access to all the stuff in the Builder Pack and you're like.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2137.401,
+            2143.144
+          ],
+          "quote": "If I had just got the builder pack and I'm just getting my feet wet right now with building,",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2175.365,
+            2186.453
+          ],
+          "quote": "So if I'm new to building and I'm new to the builder pack, the very first thing I would do is pick something simple that I really, really love, like a product that I really love and dupe it.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2196.528,
+            2200.29
+          ],
+          "quote": "Use basically as many parts of the builder pack as I possibly could.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2263.941,
+            2272.769
+          ],
+          "quote": "So if I'm new to the builder pack, I would dupe something and I would look through the builder pack and be like, which one of these things can I actually start using in this build?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2707.311,
+            2722.925
+          ],
+          "quote": "All access, but also like how to best take advantage of an every membership is that we are going to keep adding partners to the builder pack that we're excited to use when the year is up, because you, you know, you get these as part of a yearly subscription.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "all-access",
+      "type": "concept",
+      "role": "concept",
+      "name": "All Access",
+      "file": "All Access",
+      "primary": true,
+      "how_described": "本集说它是 Every 推出的 625 美元年度订阅新层级,包含 Builder Pack 权益、专属 office hours 及 Spiral/Quora 无限使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            49.184,
+            56.33
+          ],
+          "quote": "We're going to be taking you on a journey today, introducing you to All Access and the Builder Pack.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 15,
+          "t": [
+            90.633,
+            92.496
+          ],
+          "quote": "First, I'm going to introduce All Access.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 19,
+          "t": [
+            101.996,
+            103.337
+          ],
+          "quote": "All Access is a new tier.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 22,
+          "t": [
+            125.91,
+            127.832
+          ],
+          "quote": "And All Access includes a couple other things.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 23,
+          "t": [
+            127.932,
+            142.204
+          ],
+          "quote": "It includes access to office hours that we're hosting that are exclusive to All Access members, unlimited use of Quora and Spiral, and we have a couple other things up our sleeve that we're going to be launching in the next few months as well.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 25,
+          "t": [
+            148.008,
+            150.689
+          ],
+          "quote": "Probably the meat of All Access.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2627.422,
+            2632.563
+          ],
+          "quote": "In terms of, like, what's next for All Access, I think we have some cool stuff coming.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2707.311,
+            2722.925
+          ],
+          "quote": "All access, but also like how to best take advantage of an every membership is that we are going to keep adding partners to the builder pack that we're excited to use when the year is up, because you, you know, you get these as part of a yearly subscription.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论的核心:人退到「AI 三明治」两端(定义问题、审查成果),把执行交给智能体;云端智能体可同时跑 10 个,Austin 用 Codex 智能体在睡一觉期间自动建好四个受众分组和定向邮件并带来 25,000+ 美元收入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            713.893,
+            729.761
+          ],
+          "quote": "Harness in our compound engineering plugin to tell an agent to take itself through a brainstorm, plan, work, review, compound loop, which is like, to me, the ideal way to work with agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            834.079,
+            847.403
+          ],
+          "quote": "One step towards working on it is having a channel where, one, we build all of our email sends through Codex or Claude Code and can have the agent push a Slack message",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1279.298,
+            1281.66
+          ],
+          "quote": "Adio is the CRM for the agent-native world.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2384.143,
+            2395.188
+          ],
+          "quote": "Connect the agent, whether it's Cursor, Claude, or Codex, to the tools in the BuilderPack and any tools that you have access to, to be like, you can connect it all and be like, hey, you have all this stuff.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2395.268,
+            2397.529
+          ],
+          "quote": "The agent will figure out where to go.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2429.55,
+            2433.652
+          ],
+          "quote": "Seeing the V1 chip that the agent comes up with and being like, okay, that's not good enough.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "compound-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "compound engineering",
+      "file": "compound engineering",
+      "primary": true,
+      "how_described": "本集说它是他们插件里的方法/slash LFG 指令,让智能体自己走「头脑风暴→规划→执行→审查」的 compound 循环,成果随时间不断复利叠加",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            713.893,
+            729.761
+          ],
+          "quote": "Harness in our compound engineering plugin to tell an agent to take itself through a brainstorm, plan, work, review, compound loop, which is like, to me, the ideal way to work with agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1651.468,
+            1666.494
+          ],
+          "quote": "The way in which if you looked at my prompts in Codex, you would be like, I think this guy doesn't know what the hell he's doing, because I'm usually just like, hey, look at look at all this stuff, create a goal for yourself and use compound engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1704.312,
+            1708.096
+          ],
+          "quote": "And through compound engineering, the results keep compounding.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1871.016,
+            1880.265
+          ],
+          "quote": "You know, I've also built out kind of a set of marketing skills that I can use with compound engineering that really helps shorten the timeline on something like research when you're trying to come up with strategy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成让工具互相连接的协议:智能体通过 MCP 接入 Spiral 保持品牌文风、操控 Notion/Framer/Flora/Descript 等工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            428.966,
+            440.47
+          ],
+          "quote": "It has good MCP support, so I could change the headlines, experiment more directly without actually going into Framer and setting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            771.135,
+            780.579
+          ],
+          "quote": "It ran the text for the emails through the MCP for our AI based writing app called Spiral.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1210.365,
+            1213.886
+          ],
+          "quote": "All connected through Descript and the Descript MCP.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1298.953,
+            1305.136
+          ],
+          "quote": "It's extensible with an API and MCP access and is built with infrastructure to keep up with your most ambitious agents.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1508.61,
+            1518.073
+          ],
+          "quote": "I'm a big Notion user because I do like a lot of ops, framer user, render, and I really like experimenting with the Flora MCP.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1546.66,
+            1552.443
+          ],
+          "quote": "Even Flora, which has a remarkable tool, I only ever use it through the MCP.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1946.728,
+            1948.209
+          ],
+          "quote": "Or use the MCP as Brandon does.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说它是 OpenAI 的编程智能体,Every 团队的默认工具:Austin 用截图加 slash LFG 让它自动完成追单邮件、每周让它整理 Notion 的 Growth Hub",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            13.267,
+            17.832
+          ],
+          "quote": "So, $1,000 in Codex credits, 12 months of free cursor access, all that kind of stuff.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 39,
+          "t": [
+            205.376,
+            209.837
+          ],
+          "quote": "I know at every, we are like Codex stands, but I'm still very Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            692.902,
+            696.323
+          ],
+          "quote": "Usually I would just like copy paste the link to the Slack message and send it to Codex.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            699.145,
+            704.728
+          ],
+          "quote": "I dropped it in a Codex thread using 5.6 on Medium.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 170,
+          "t": [
+            732.602,
+            738.424
+          ],
+          "quote": "And I came back from the gym and what I saw in Codex was that it works for honestly not that long.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            834.079,
+            847.403
+          ],
+          "quote": "One step towards working on it is having a channel where, one, we build all of our email sends through Codex or Claude Code and can have the agent push a Slack message",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1126.753,
+            1135.776
+          ],
+          "quote": "And the thing that I really like about this, the way I like working is that whether you're, you know, primarily a Claude user like Yash or a Codex user like me,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1173.467,
+            1176.569
+          ],
+          "quote": "And all of that maintenance has now been pushed off to Codex and Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1177.049,
+            1180.911
+          ],
+          "quote": "Once a week, I just ask Codex, and I'm like, hey, can you reorganize our Growth Hub?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1187.216,
+            1198.06
+          ],
+          "quote": "My favorite example of this is while I was doing this kind of like in the weeds Codex work, like when I work with Codex, I'm like steering it and going back and forth with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1238.412,
+            1253.024
+          ],
+          "quote": "By no means has Fable and Descript created a video that is publishable, but it has gotten me like 70% of the way there while I'm steering Codex, Claude Code and Fable and Descript have gotten it there so that I can go and I'm like, oh, I know what to do now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1423.39,
+            1438.46
+          ],
+          "quote": "You know, I think the Codec, the OpenAI benefit is like a great example of this because you're getting three months free of OpenAI and Codex and $1,000 in overage credits.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1474.446,
+            1475.787
+          ],
+          "quote": "You can use the Codex credit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1475.807,
+            1478.729
+          ],
+          "quote": "You can use the Codex credit for three months.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1524.908,
+            1533.833
+          ],
+          "quote": "My biggest use is obviously the model companies and just doing my work instead of Claude or Codex.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1608.073,
+            1614.655
+          ],
+          "quote": "Because when I'm sitting in Claude Code or Codex, I can, which I do all the time, I'm like, hey, I need to make this plan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1651.468,
+            1666.494
+          ],
+          "quote": "The way in which if you looked at my prompts in Codex, you would be like, I think this guy doesn't know what the hell he's doing, because I'm usually just like, hey, look at look at all this stuff, create a goal for yourself and use compound engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1773.193,
+            1774.594
+          ],
+          "quote": "It's, you know, Codex is a book.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1858.123,
+            1869.686
+          ],
+          "quote": "You know, I've learned here, too, also, and I think Austin touched on this, like what to use Claude for, what to use Codex for, and being able to, I think, use both of them through",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2216.016,
+            2221.938
+          ],
+          "quote": "I would build it using Anthropic, using Claude, using Codex, using Cursor.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2384.143,
+            2395.188
+          ],
+          "quote": "Connect the agent, whether it's Cursor, Claude, or Codex, to the tools in the BuilderPack and any tools that you have access to, to be like, you can connect it all and be like, hey, you have all this stuff.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2480.687,
+            2489.139
+          ],
+          "quote": "And give it to Codex or Claude, connect it to all of these different tools and, you know, take that on as a project.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2696.707,
+            2701.429
+          ],
+          "quote": "I dropped the guide into Codex and I say like, use this to help build the next thing we're doing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说 Yash 用它重构 Sparkle 十五次并自动化整条 A/B 测试流水线;Claude Code 桌面版配 Fable 循环剪辑发布视频;Claude Max 订阅被称严重低估",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            201.275,
+            204.696
+          ],
+          "quote": "A large part of my work is using Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            205.376,
+            209.837
+          ],
+          "quote": "I know at every, we are like Codex stands, but I'm still very Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            209.857,
+            211.658
+          ],
+          "quote": "I've been using Claude for the last one year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            212.598,
+            221.72
+          ],
+          "quote": "And this involves like, I built out the entire product, like I think 15, rebuilt Sparkle 15 times using Claude and PostHog.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            244.369,
+            248.95
+          ],
+          "quote": "And that's where my setup with Claude helps a lot, where I have like custom skills built out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            276.661,
+            278.204
+          ],
+          "quote": "Claude is so much better at that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            454.244,
+            458.01
+          ],
+          "quote": "And I would say Claude Max is my go-to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            467.923,
+            471.045
+          ],
+          "quote": "I feel the Claude Mac subscription is really underrated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            525.548,
+            531.79
+          ],
+          "quote": "And like, he knows how to set up that, that Claude code and post hog loop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            834.079,
+            847.403
+          ],
+          "quote": "One step towards working on it is having a channel where, one, we build all of our email sends through Codex or Claude Code and can have the agent push a Slack message",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1126.753,
+            1135.776
+          ],
+          "quote": "And the thing that I really like about this, the way I like working is that whether you're, you know, primarily a Claude user like Yash or a Codex user like me,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1173.467,
+            1176.569
+          ],
+          "quote": "And all of that maintenance has now been pushed off to Codex and Claude Code.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1199.661,
+            1209.605
+          ],
+          "quote": "Claude, in Claude Code in the desktop app using Fable, I had the videos were releasing attached to this launch.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1238.412,
+            1253.024
+          ],
+          "quote": "By no means has Fable and Descript created a video that is publishable, but it has gotten me like 70% of the way there while I'm steering Codex, Claude Code and Fable and Descript have gotten it there so that I can go and I'm like, oh, I know what to do now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1524.908,
+            1533.833
+          ],
+          "quote": "My biggest use is obviously the model companies and just doing my work instead of Claude or Codex.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1608.073,
+            1614.655
+          ],
+          "quote": "Because when I'm sitting in Claude Code or Codex, I can, which I do all the time, I'm like, hey, I need to make this plan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1858.123,
+            1869.686
+          ],
+          "quote": "You know, I've learned here, too, also, and I think Austin touched on this, like what to use Claude for, what to use Codex for, and being able to, I think, use both of them through",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1938.202,
+            1946.668
+          ],
+          "quote": "You can now like productize a mood board, especially if you have the right prompt and you can use Claude to write the prompt for you, put it into Flora, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2216.016,
+            2221.938
+          ],
+          "quote": "I would build it using Anthropic, using Claude, using Codex, using Cursor.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2384.143,
+            2395.188
+          ],
+          "quote": "Connect the agent, whether it's Cursor, Claude, or Codex, to the tools in the BuilderPack and any tools that you have access to, to be like, you can connect it all and be like, hey, you have all this stuff.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2480.687,
+            2489.139
+          ],
+          "quote": "And give it to Codex or Claude, connect it to all of these different tools and, you know, take that on as a project.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它是模型公司之一,Claude 的出品方,其福利包含在一个小订阅里的大量花费额度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            475.39,
+            475.79
+          ],
+          "quote": "Anthropic.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 123,
+          "t": [
+            475.85,
+            478.212
+          ],
+          "quote": "I hope no one from Anthropic is watching this.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1447.765,
+            1457.293
+          ],
+          "quote": "These subscriptions, just like our Anthropic benefit, they include so much spend inside of a small subscription.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1457.313,
+            1466.92
+          ],
+          "quote": "It's the same thing for basically OpenAI, Cursor, Gemini, and Anthropic, those offerings, because they're model companies.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1497.666,
+            1501.127
+          ],
+          "quote": "Personally, I'm in OpenAI, Anthropic.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2216.016,
+            2221.938
+          ],
+          "quote": "I would build it using Anthropic, using Claude, using Codex, using Cursor.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它是模型公司之一,Codex 的出品方,Builder Pack 提供 1,000 美元 Codex 额度和三个月免费访问",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1423.39,
+            1438.46
+          ],
+          "quote": "You know, I think the Codec, the OpenAI benefit is like a great example of this because you're getting three months free of OpenAI and Codex and $1,000 in overage credits.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1457.313,
+            1466.92
+          ],
+          "quote": "It's the same thing for basically OpenAI, Cursor, Gemini, and Anthropic, those offerings, because they're model companies.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1497.666,
+            1501.127
+          ],
+          "quote": "Personally, I'm in OpenAI, Anthropic.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说它有很好用的云端智能体,可同时跑 10 个;Yash 建议用它配不同模型(如开源的 Kimi K2 5)找到个人最喜欢的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            13.267,
+            17.832
+          ],
+          "quote": "So, $1,000 in Codex credits, 12 months of free cursor access, all that kind of stuff.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 98,
+          "t": [
+            393.038,
+            394.699
+          ],
+          "quote": "Every day, it's Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            395.019,
+            398.359
+          ],
+          "quote": "I use Cursor because they have cloud agents, which are really good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1457.313,
+            1466.92
+          ],
+          "quote": "It's the same thing for basically OpenAI, Cursor, Gemini, and Anthropic, those offerings, because they're model companies.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2216.016,
+            2221.938
+          ],
+          "quote": "I would build it using Anthropic, using Claude, using Codex, using Cursor.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2384.143,
+            2395.188
+          ],
+          "quote": "Connect the agent, whether it's Cursor, Claude, or Codex, to the tools in the BuilderPack and any tools that you have access to, to be like, you can connect it all and be like, hey, you have all this stuff.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2545.27,
+            2556.04
+          ],
+          "quote": "Yeah, I feel to second that, like, or to close it out, what I would do is I would use the, I would use Cursor with Render.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2556.26,
+            2566.31
+          ],
+          "quote": "And what I realized, my mind was blown when I used Cursor Cloud Agents with Kimi K2 5, which is an open source model which Cursor improved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2567.366,
+            2572.408
+          ],
+          "quote": "I would say dupe something, use Cursor Cloud Agents, and use different models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "posthog",
+      "type": "company",
+      "role": "company",
+      "name": "PostHog",
+      "file": "PostHog",
+      "primary": true,
+      "how_described": "本集说它是数据分析工具,Yash 嫌手动点仪表盘烦,把 A/B 测试流水线自动化,让智能体代替人去 PostHog 里找受众分组",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            212.598,
+            221.72
+          ],
+          "quote": "And this involves like, I built out the entire product, like I think 15, rebuilt Sparkle 15 times using Claude and PostHog.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            235.307,
+            243.909
+          ],
+          "quote": "And again, I started optimizing PostHog, but I find it really annoying to open like dashboards and set a lot of these things up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            461.936,
+            462.857
+          ],
+          "quote": "And PostHog.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            462.897,
+            463.919
+          ],
+          "quote": "And PostHog, yeah.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1501.667,
+            1506.709
+          ],
+          "quote": "I'm more of like a consumer of PostHog than I am like a user of like their AI credits.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1617.575,
+            1622.656
+          ],
+          "quote": "At Notion, at Slack, at PostHog, find the necessary information.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2204.651,
+            2215.555
+          ],
+          "quote": "I would plug in PostHog so that I could actually like maybe build in the loop or use some of PostHog's traditional products where I can just like actually track how I use it, how my friends use it.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": true,
+      "how_described": "本集说 Austin 讨厌它多年,因为数据库没人维护;现在维护被推给 Codex 和 Claude Code,每周一句「重新整理 Growth Hub」它就完美做到",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1143.103,
+            1144.905
+          ],
+          "quote": "Notion is a great example of this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1145.386,
+            1157.239
+          ],
+          "quote": "I have hated Notion for years because my brain doesn't work in that way of like, I'm going to like organize this database and I'm going to make sure that like the Growth Hub makes sense to other people.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1158.56,
+            1172.947
+          ],
+          "quote": "Like, I think up until a year ago, Notion had too much of a barrier to entry on organization and maintenance that anytime I've tried to use Notion with a team, we've churned because no one's around to maintain it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1506.729,
+            1507.75
+          ],
+          "quote": "You're always in Notion.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1508.61,
+            1518.073
+          ],
+          "quote": "I'm a big Notion user because I do like a lot of ops, framer user, render, and I really like experimenting with the Flora MCP.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1593.843,
+            1598.667
+          ],
+          "quote": "I really trust Notion to have this like source of truth for the entire business.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1617.575,
+            1622.656
+          ],
+          "quote": "At Notion, at Slack, at PostHog, find the necessary information.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2020.788,
+            2023.69
+          ],
+          "quote": "Like have everything plugged into Notion, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2024.971,
+            2031.357
+          ],
+          "quote": "And to Austin's point, you can just be like, look in Notion, find this thing, do this for me, you know, compound, whatever it may be.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "flora",
+      "type": "company",
+      "role": "company",
+      "name": "Flora",
+      "file": "Flora",
+      "primary": true,
+      "how_described": "本集说 Douglas 是它用得最深的人:把情绪板产品化、生成 Builder Pack 的视觉和网站;Austin 也用 Flora MCP 做图标和图形",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1508.61,
+            1518.073
+          ],
+          "quote": "I'm a big Notion user because I do like a lot of ops, framer user, render, and I really like experimenting with the Flora MCP.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1546.66,
+            1552.443
+          ],
+          "quote": "Even Flora, which has a remarkable tool, I only ever use it through the MCP.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1850.78,
+            1856.744
+          ],
+          "quote": "And to answer your question, I do like Flora, so I can talk more about Flora because I'm probably the deepest in Flora.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1924.752,
+            1937.781
+          ],
+          "quote": "If you have an eye towards what you want to create, using a tool like Flora is really helpful because again, like similar to Austin, I feel I'm not a technical designer either, but I can, I've been mood boarding for 15 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1938.202,
+            1946.668
+          ],
+          "quote": "You can now like productize a mood board, especially if you have the right prompt and you can use Claude to write the prompt for you, put it into Flora, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2233.747,
+            2240.653
+          ],
+          "quote": "I might use Flora to actually create some unique icons or graphics.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "type": "company",
+      "role": "company",
+      "name": "Render",
+      "file": "Render",
+      "primary": true,
+      "how_described": "本集说它是 Builder Pack 里用来部署应用的工具,新手复刻 MVP 时用 Render 的额度上线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1508.61,
+            1518.073
+          ],
+          "quote": "I'm a big Notion user because I do like a lot of ops, framer user, render, and I really like experimenting with the Flora MCP.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2200.33,
+            2204.131
+          ],
+          "quote": "So like I would launch it on render and use the render credits.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2360.189,
+            2363.551
+          ],
+          "quote": "And then it's taking you through like, oh, yeah, you need to connect render.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2545.27,
+            2556.04
+          ],
+          "quote": "Yeah, I feel to second that, like, or to close it out, what I would do is I would use the, I would use Cursor with Render.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2588.834,
+            2594.416
+          ],
+          "quote": "And I would use Render to deploy it and actually see which model you like working with.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "every",
+      "type": "company",
+      "role": "company",
+      "name": "Every",
+      "file": "Every",
+      "primary": true,
+      "how_described": "本集的主场:推出 All Access 订阅和 Builder Pack 的媒体/公司,团队全员用 AI 工具工作并分享内部打法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            6.238,
+            13.166
+          ],
+          "quote": "Basically, we partnered with a bunch of the AI tools we use every day, and subscribers to the Builder Pack get discounts and credits to those tools.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 10,
+          "t": [
+            57.21,
+            61.814
+          ],
+          "quote": "And this is a new tier at Every that we decided to launch recently.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 12,
+          "t": [
+            68.258,
+            75.466
+          ],
+          "quote": "How we use it and what it means to be a builder today, all of which, all of us are builders and use these tools every day.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 13,
+          "t": [
+            75.547,
+            84.336
+          ],
+          "quote": "So yeah, hopefully by the end of this, there'll be like one nugget that you can take out of this and use in your every day.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 20,
+          "t": [
+            103.877,
+            117.644
+          ],
+          "quote": "At every, it's a $625 annual plan that gives you access to the Builder Pack, which is 10 exclusive benefits from all AI companies that you know and love.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 26,
+          "t": [
+            151.61,
+            170.098
+          ],
+          "quote": "And the Builder Pack is 10 soon to be more exclusive benefits to AI tools that the Every Team uses every day so that you can get access to these tools and use them, you know.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 37,
+          "t": [
+            191.782,
+            200.326
+          ],
+          "quote": "Well, I ask myself that every day, but I run one of the products at Every called Sparkle, and I also work on the growth team now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            205.376,
+            209.837
+          ],
+          "quote": "I know at every, we are like Codex stands, but I'm still very Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            295.826,
+            303.328
+          ],
+          "quote": "And we like to spend a lot of time observing these things, like setting up an experiment every time felt so boring to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            353.112,
+            359.381
+          ],
+          "quote": "And I personally feel like a large part of our work at every is like, everyone is very secure in what they do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            392.358,
+            392.738
+          ],
+          "quote": "Every day?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 98,
+          "t": [
+            393.038,
+            394.699
+          ],
+          "quote": "Every day, it's Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            827.597,
+            831.838
+          ],
+          "quote": "If you're a subscriber to Every, I'm sorry, we send you a lot of emails.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 197,
+          "t": [
+            874.727,
+            880.269
+          ],
+          "quote": "And also partially because I'm still a control freak who doesn't want to turn over every single thing to AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            965.496,
+            981.573
+          ],
+          "quote": "To generating $25,000 in revenue, which doesn't happen every time you do slash LFG, but like that is, you know, sort of a possibility to then compounding what you learned and also it recommending like what to do next.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1282.02,
+            1289.867
+          ],
+          "quote": "It meets you where you work, compounds every customer signal into context, and then acts on it across your pipeline to let you move at unmatched speed and scale.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1290.027,
+            1294.111
+          ],
+          "quote": "With agents and automations for every job, Adio orchestrates your work around the clock.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1294.491,
+            1296.392
+          ],
+          "quote": "We use it internally at Every and we love it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1305.476,
+            1310.638
+          ],
+          "quote": "It's loved by high growth startups like Granola, Modal, Whisperflow, and Every.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1315.18,
+            1318.962
+          ],
+          "quote": "Go to adio.com slash every and get 15% off your first year.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1319.302,
+            1321.363
+          ],
+          "quote": "That's adio.com slash every.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1324.624,
+            1332.906
+          ],
+          "quote": "The thing that I love about the Builder Pack specifically is I feel like a lot of the time at Every, we're telling people like, go build, go build.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1342.168,
+            1346.389
+          ],
+          "quote": "Well, one is how, which is like, you should subscribe to Every, we will teach you how.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1357.494,
+            1361.558
+          ],
+          "quote": "We spend a lot of money at every on AI and credits.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1490.499,
+            1497.025
+          ],
+          "quote": "My stack, I mean, the builder pack is basically everything that we use at every",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1687.133,
+            1690.257
+          ],
+          "quote": "But the reason that that we've gotten there from every is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1735.457,
+            1739.64
+          ],
+          "quote": "And someone asked me, this branding is very different from every's branding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1755.06,
+            1763.044
+          ],
+          "quote": "But I think what's interesting that all of you are describing and that I've learned in my short few months I've been here at Every is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1980.279,
+            1989.864
+          ],
+          "quote": "And it feels a little bit more matrixy and digital than a lot of the more Greco-Roman and kind of heritage driven elements of the every brand.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2350.324,
+            2357.447
+          ],
+          "quote": "Like in doing that process to make this like web app that is now live that a lot of my friends use every week now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2416.661,
+            2419.703
+          ],
+          "quote": "You can read every for some inspiration for design.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2707.311,
+            2722.925
+          ],
+          "quote": "All access, but also like how to best take advantage of an every membership is that we are going to keep adding partners to the builder pack that we're excited to use when the year is up, because you, you know, you get these as part of a yearly subscription.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2763.624,
+            2771.051
+          ],
+          "quote": "Every episode is a roller coaster of emotions, insights, and laughter that will leave you on the edge of your seat, craving for more.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "framer",
+      "type": "company",
+      "role": "company",
+      "name": "Framer",
+      "file": "Framer",
+      "primary": false,
+      "how_described": "本集说 Yash 用它搭 Sparkle 网站,它有很好的 MCP 支持,可以直接由智能体改标题做实验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            423.485,
+            427.026
+          ],
+          "quote": "I use Framer a lot as well while I was building the Sparkle site.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            428.966,
+            440.47
+          ],
+          "quote": "It has good MCP support, so I could change the headlines, experiment more directly without actually going into Framer and setting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            554.832,
+            569.309
+          ],
+          "quote": "Yash can do the thing that lights him up, which is I can see Yash in Slack being like, oh, what if we made a three-hour time-constrained discount specifically targeted to these users using this video, building this thing in Framer?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1508.61,
+            1518.073
+          ],
+          "quote": "I'm a big Notion user because I do like a lot of ops, framer user, render, and I really like experimenting with the Flora MCP.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "spiral",
+      "type": "company",
+      "role": "company",
+      "name": "Spiral",
+      "file": "Spiral",
+      "primary": false,
+      "how_described": "本集说它是 Every 的 AI 写作应用,追单邮件的文本通过它的 MCP 跑一遍以保持已批准的品牌文风",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            127.932,
+            142.204
+          ],
+          "quote": "It includes access to office hours that we're hosting that are exclusive to All Access members, unlimited use of Quora and Spiral, and we have a couple other things up our sleeve that we're going to be launching in the next few months as well.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 178,
+          "t": [
+            771.135,
+            780.579
+          ],
+          "quote": "It ran the text for the emails through the MCP for our AI based writing app called Spiral.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ai-sandwich",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 三明治 (AI sandwich)",
+      "file": "AI 三明治",
+      "primary": true,
+      "how_described": "本集借同事 Kieran 的说法总结当下工作方式:你决定问题、框定想法,再审查成果,中间全部交给模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 228,
+          "t": [
+            1070.857,
+            1090.074
+          ],
+          "quote": "And I think the thing where we're like circling around is like, this is the best way to build right now, which is to, you know, Kieran, our colleague has described it this way, you're at the top and bottom of the AI sandwich.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排 (orchestration)",
+      "file": "编排",
+      "primary": true,
+      "how_described": "本集 Douglas 把它比作指挥乐队:不需要会演奏每件乐器,只要理解曲子该听起来什么样,就能退后当指挥、同时指挥多个乐团",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 362,
+          "t": [
+            1779.878,
+            1783.101
+          ],
+          "quote": "But the term people use for agents is orchestration.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

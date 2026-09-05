@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":1,"Anthropic":96,"Claude Code":43,"ClaudeTag":1,"Fable":8,"Slack":22,"Bun":1,"Rust":2,"Gemini":5}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":1,"Anthropic":97,"Claude Code":43,"ClaudeTag":1,"Fable":8,"Slack":23,"Bun":1,"Rust":2,"Gemini":5}</script>
 
 <script>
 (function(){

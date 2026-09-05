@@ -111,8 +111,8 @@ Claire 的总结很精辟：Opus 5 是她最讨厌的同事，但干的活最好
 **换个口味**
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、Claude、Claude Code、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、Claude、Codex、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Anthropic、Claude、Claude Code</span>
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

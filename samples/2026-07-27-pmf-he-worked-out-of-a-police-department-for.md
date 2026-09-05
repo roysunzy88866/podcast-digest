@@ -110,7 +110,7 @@ Ben 对"半年冲到五亿收入"的模式持怀疑态度："如果你能在六�
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同概念:ACV</span>
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同公司:Anthropic</span>
-- [[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu|Omni 创始人：丢掉五笔交易后怎么找到产品市场契合]]<span class="pd-rz">同概念:产品市场契合 (Product Market Fit)</span>
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic</span>
 
 </div>
 <div class="pd-ex">

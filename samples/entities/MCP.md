@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>25</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>26</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,6 +23,7 @@ unlisted: true
 - **[[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]]**(55:23起):Daniel在讨论反馈循环时提到，可以通过MCP或智能体连接到可观测性，让它弄清楚自己构建并部署的东西是否正在崩溃
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(14:50起):本集把它说成:一种让大模型更好地与外部工具（如 Figma）或 API 进行通信的标准，能大幅拓展 AI 的执行边界。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(00:45起):被描述为让大模型与 Slack、Gmail 等外部系统安全通信的集成编织层标准。嘉宾将私有知识库部署为本地 MCP 服务器，从而随时通过桌面端安全调用。
+- **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(07:08起):本集把它说成让工具互相连接的协议:智能体通过 MCP 接入 Spiral 保持品牌文风、操控 Notion/Framer/Flora/Descript 等工具
 - **[[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]]**(19:35起):本集说当 Codex 里的 MCP 插件不好使或无法通过 MCP 完成操作时，浏览器操控是最通用的兜底方案
 - **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(21:48起):本集说 MCP 是一种让 AI 智能体连接外部工具的标准协议，企业软件公司通过它把数据平台和功能以智能体方式开放出去
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(01:54起):本集提到它是出自 Labs 团队的代表性创新产品之一。
@@ -47,7 +48,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*25 集*
+*26 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
@@ -61,6 +62,7 @@ unlisted: true
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]] — 作为概念(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念(提及)
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为概念
 - [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]] — 作为概念(提及)
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为概念
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念(提及)
@@ -79,9 +81,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Codex]] · [[Anthropic]] · [[护栏]] · [[Claude Code]] · [[Lenny]] · [[Figma]] · [[OpenAI]] · [[LLM]]
+[[智能体]] · [[Claude]] · [[Codex]] · [[Anthropic]] · [[Claude Code]] · [[OpenAI]] · [[护栏]] · [[Lenny]] · [[Figma]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude":45,"Codex":35,"Anthropic":96,"护栏":1,"Claude Code":43,"Lenny":66,"Figma":12,"OpenAI":82,"LLM":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude":46,"Codex":36,"Anthropic":97,"Claude Code":43,"OpenAI":83,"护栏":1,"Lenny":66,"Figma":12,"Cursor":44}</script>
 
 <script>
 (function(){

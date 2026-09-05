@@ -1,0 +1,160 @@
+{
+  "title_zh": "一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕",
+  "tldr": "Every 团队(Yash、Austin、Douglas 等)复盘新订阅层 All Access 与 Builder Pack 的打造过程，以及他们用 AI 智能体跑增长、做设计的真实工作流。",
+  "digest_md": "这一集是 Every 团队的一期内讧式复盘：他们刚上线了一个叫 All Access 的新订阅层级——625 美元一年，核心权益是 Builder Pack,一个把 10 家 AI 工具(OpenAI 的 Codex、Anthropic 的 Claude、Cursor、PostHog、Framer、Flora、Render、Notion 等)的折扣和额度打包的权益包。据主持人开场说，它上线一周就创造了 Every 历史上最大的订阅收入增长。上场讲的是把这件事做出来的三个人：负责产品 Sparkle、现在在增长团队的 Yash,自嘲「完全不懂那些技术」的点子型选手 Austin,和创意总监 Douglas。\n\n## 睡一觉，醒来多了 25,000 美元\n\n全集中最抓人的是一个真实故事。Builder Pack 上线当晚，Yash 在 Slack 里提议：给一批「看过结账页但没付款」的用户发一封带紧迫感的追单邮件。大部分同事已经下线了，西海岸的 Austin 当时刚在电脑前坐了一整天，很想去健身房。他的做法是：把几条 Slack 消息**截图**扔进 Codex 线程，配一句「你能做这个吗」，再加一条 slash LFG——这是他们 compound engineering 插件里的一个指令，让智能体自己走一遍「头脑风暴→规划→执行→审查」的循环。然后他就去健身了 [10:30–12:12 Austin]。\n\n回来时，智能体已经建好了四个受众分组(到过结账页的、访问过产品页没结账的、互动度最高的等等)，为每组分别起草了邮件，把文案通过 MCP(一种让工具互相连接的协议)过了一遍他们的 AI 写作应用 Spiral 以保持品牌文风，翻查了历史邮件数据找出了驱动点击的标题和配图，全部排期到第二天早上。Austin 只花了大约 10 分钟微调，第二天几个小时内**光这几封邮件就带来超过 25,000 美元收入**。他最有意思的反应是：「我并不是『哇太酷了』，而是觉得这基本上就是它本来该做的」。\n\n## 人的工作变成「AI 三明治的两端」\n\nYash 的日常是另一面。他在增长团队第一个月干的全是搭 A/B 实验、调受众规模这类「假性工作」，于是决定用 Claude 把整条 A/B 测试流水线自动化——「我能做更多实验的唯一办法就是把整个流水线自动化」。他甚至说「我们都对自己的工作很有安全感，所以可以接受把自己的工作自动化」:自动化的回报不是裁员，而是人挪去做真正有趣的部分——该测什么、人类心理怎么反应、下一个实验是什么。\n\nAustin 把现在的工作方式总结为同事 Kieran 说的「AI 三明治」：**你决定问题是什么、框定想法，然后审查成果，中间全部交给模型**。他自己的用法是同时指挥多个智能体：Codex 在跑增长分析的同时，桌面版 Claude Code 里的 Fable 在循环地为发布视频做剪辑——不是做出能直接发布的成品，而是完成约 70%,让他接手收尾。\n\n连最「烦人」的工具都变了。Austin 讨厌 Notion 多年，因为没人维护数据库；现在维护被推给了 Codex——「每周一次我问 Codex,能不能重新整理一下 Growth Hub,它就完美地做到」。这套打法的底层原因，他归到模型的一次跃迁：从 5.5 到 5.6,模型自己去找齐工作所需上下文、并在长期压缩中维持住它的能力大幅提升。起步也简单：先做一件事让它见效，然后复利。原话是「最好的开始时间是一年前，第二好的就是现在」。\n\n## 设计师也在「指挥乐队」，而不是弹乐器\n\n创意总监 Douglas 的视角最反直觉。他说模型公司起名都很有文学性(Codex 是书、haiku/sonnet/fable 是诗歌)，但智能体的关键词 orchestration 其实是音乐——**你不需要会演奏乐队里的每件乐器，只要理解这首曲子该听起来什么样，就能退后一步当指挥**。他不是技术型设计师，但把原来耗时数周的竞品研究压缩到几小时：给智能体一个洞察，让它做竞争审计、定价、文案、品牌配色，喂进系统就得到一个锋利的战略视角。Builder Pack 的绿色视觉本身，就是这些工具帮他们一起定下来的。\n\n## 刚拿到这堆工具，第一步做什么\n\n节目最后每人给了一条新手建议。Brandon(团队另一名成员)说：别坐在电脑前干想「做什么」，那是找问题最糟的方式——直接**复刻一个你特别喜欢的产品的极简 MVP**,尽量用上 Builder Pack 里的额度(部署到 Render、接 PostHog 追踪、用 Claude/Codex/Cursor 构建)，做着做着它就不再是复刻，而是你自己的东西。Austin 的心法是挑一个「你最兴奋地想发消息告诉朋友『嘿我做这个了』」的东西，他会变成打电动闯关一样的过程——他自己的作品是一个面向独立电影的应用，朋友每周都在用。Douglas 给创意人群的具体建议：**重做你早就看不顺眼的作品集网站**，还能顺带证明你是 AI 原生的。Yash 则推荐用 Cursor 的云端智能体(可以同时跑 10 个)配不同模型，找到你个人最喜欢、有品味的那个模型。\n\n## 本集带走\n\n- **想法到执行只隔一条指令**：截图 Slack 讨论扔给 Codex + slash LFG,让它自己走「头脑风暴→规划→执行→审查」循环；四封定向追单邮件睡一觉醒来带来 25,000+ 美元。\n- **人守三明治两端**：你负责定义问题和审查成果，中间的执行交给智能体；别把时间花在点仪表盘、调字号这类「假性工作」上，把它们整条流水线自动化。\n- **让智能体接管 SaaS 的维护**：不用打开 Notion/PostHog,直接让 Codex 或 Claude 通过 MCP 去这些工具里找信息、整理数据库、跑分析——工具商反而被激励把自己的核心做到最好。\n- **起步靠复利不靠豪赌**：先自动化一件小事让它见效，成果会通过 compound engineering 不断叠加；最好的开始时间就是现在。\n- **新手第一课是复刻**:挑一个你爱的产品做极简复刻版，把 Builder Pack 的额度全用上；用「我最想发给朋友炫耀什么」来选题，别怀疑自己，先发出第一条提示词。\n- **指南别读，喂给智能体**:Every 的用法是把工具指南直接丢进 Codex 说「用它帮我做下一件事」，读者也该照此办理。",
+  "quotes": [
+    {
+      "en": "And in a couple hours the next morning, those emails alone had driven more than $25,000 in revenue.",
+      "zh": "第二天早上的几个小时内，光是那些邮件就带来了超过 25,000 美元的收入。",
+      "timestamp": "14:51",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "And it's crazy because I wasn't like, holy shit, that's so cool. I was like, that's basically what it should do.",
+      "zh": "很疯狂的是，我的反应并不是「我去，太酷了」，而是觉得，这基本上就是它本来该做的。",
+      "timestamp": "13:23",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "It kind of goes back to the best time to start doing this was a year ago. The second best time is right now.",
+      "zh": "这又回到了那句话：开始做这件事的最好时间是一年前，第二好的时间就是现在。",
+      "timestamp": "28:33",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "we can all take a step back without knowing how to play the rest of the instruments in the orchestra, we can conduct it, right?",
+      "zh": "我们都可以退后一步，即使不会演奏管弦乐队里的其他乐器，我们也可以指挥，对吧？",
+      "timestamp": "29:53",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "sometimes the hardest part about building is knowing what to build and you can like just sit at your computer and be like looking for a problem is the worst way to find a problem.",
+      "zh": "有时候构建最困难的部分是知道构建什么，而只是坐在电脑前寻找一个问题，是找问题最糟糕的方式。",
+      "timestamp": "35:50",
+      "speaker": "SPEAKER_06"
+    },
+    {
+      "en": "Like, one thing that I think is a good prompt to yourself is like, what would you be the most excited to text someone like, hey, I made this, right?",
+      "zh": "有一个很好的问自己的提示是：什么样的东西会让你最兴奋地发消息给别人说，嘿，我做了这个，对吧？",
+      "timestamp": "38:46",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "Because it's a thing that you're so passionate and excited about and you want to get to the end, it quickly starts to feel like you're playing a video game and like trying to get to the next level.",
+      "zh": "因为你对这件事非常有热情、非常兴奋、想做到最后，它很快就会开始感觉像你在玩电子游戏，试着升到下一级。",
+      "timestamp": "39:28",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "14:51",
+      "speaker": "Austin",
+      "en": "And in a couple hours the next morning, those emails alone had driven more than $25,000 in revenue.",
+      "zh": "第二天早上的几个小时内，光是那些邮件就带来了超过 25,000 美元的收入。"
+    },
+    {
+      "timestamp": "13:27",
+      "speaker": "Austin",
+      "en": "And it's crazy because I wasn't like, holy shit, that's so cool. I was like, that's basically what it should do.",
+      "zh": "很疯狂的是，我的反应并不是「我去，太酷了」，而是觉得，这基本上就是它本来该做的。"
+    },
+    {
+      "timestamp": "05:03",
+      "speaker": "Yash",
+      "en": "I'm like, the only way I can set up, do more experiments is automating the entire pipeline.",
+      "zh": "我就想，我能做更多实验的唯一办法就是把整个流水线自动化。"
+    },
+    {
+      "timestamp": "05:53",
+      "speaker": "Yash",
+      "en": "And so we are okay with automating our jobs.",
+      "zh": "所以我们可以接受把自己的工作自动化。"
+    },
+    {
+      "timestamp": "18:10",
+      "speaker": "Austin",
+      "en": "You decide what the problem is, you frame the idea, and then you review the work.",
+      "zh": "你决定问题是什么，你框定这个想法，然后你审查成果。"
+    },
+    {
+      "timestamp": "19:37",
+      "speaker": "Austin",
+      "en": "Once a week, I just ask Codex, and I'm like, hey, can you reorganize our Growth Hub?",
+      "zh": "每周一次，我就问 Codex,嘿，你能重新整理一下我们的 Growth Hub 吗?"
+    },
+    {
+      "timestamp": "28:33",
+      "speaker": "Austin",
+      "en": "It kind of goes back to the best time to start doing this was a year ago. The second best time is right now.",
+      "zh": "这又回到了那句话：开始做这件事的最好时间是一年前，第二好的时间就是现在。"
+    },
+    {
+      "timestamp": "29:50",
+      "speaker": "Douglas",
+      "en": "we can all take a step back without knowing how to play the rest of the instruments in the orchestra, we can conduct it, right?",
+      "zh": "我们都可以退后一步，即使不会演奏管弦乐队里的其他乐器，我们也可以指挥，对吧？"
+    },
+    {
+      "timestamp": "31:55",
+      "speaker": "Douglas",
+      "en": "You know, hours or less, as opposed to what used to be a several week long process, frankly, with humans researching.",
+      "zh": "几小时甚至更短的时间，而不是过去那种，坦白说，需要人类研究好几周的过程。"
+    },
+    {
+      "timestamp": "26:09",
+      "speaker": "Austin",
+      "en": "We're building our own CRM. We're building our own data dashboards. We're going to do design all ourselves.",
+      "zh": "我们要自己建 CRM。我们要自己建数据看板。设计我们也要全自己做。"
+    },
+    {
+      "timestamp": "35:45",
+      "speaker": "Brandon",
+      "en": "sometimes the hardest part about building is knowing what to build and you can like just sit at your computer and be like looking for a problem is the worst way to find a problem.",
+      "zh": "有时候构建最困难的部分是知道构建什么，而只是坐在电脑前寻找一个问题，是找问题最糟糕的方式。"
+    },
+    {
+      "timestamp": "38:46",
+      "speaker": "Austin",
+      "en": "Like, one thing that I think is a good prompt to yourself is like, what would you be the most excited to text someone like, hey, I made this, right?",
+      "zh": "有一个很好的问自己的提示是：什么样的东西会让你最兴奋地发消息给别人说，嘿，我做了这个，对吧？"
+    },
+    {
+      "timestamp": "39:28",
+      "speaker": "Austin",
+      "en": "Because it's a thing that you're so passionate and excited about and you want to get to the end, it quickly starts to feel like you're playing a video game and like trying to get to the next level.",
+      "zh": "因为你对这件事非常有热情、非常兴奋、想做到最后，它很快就会开始感觉像你在玩电子游戏，试着升到下一级。"
+    },
+    {
+      "timestamp": "23:21",
+      "speaker": "Austin",
+      "en": "Some guy, you know, he's like a single engineer, spent 30 grand last month.",
+      "zh": "有个人，他就是一名普通工程师，上个月花了三万美元。"
+    },
+    {
+      "timestamp": "16:24",
+      "speaker": "Austin",
+      "en": "You know, like 5.6 soul is expensive, but like relative to the value that you got out of that, it's like nothing.",
+      "zh": "你知道，5.6 soul 很贵，但相对于你从中获得的价值来说，简直就是零钱。"
+    },
+    {
+      "timestamp": "45:56",
+      "speaker": "Austin",
+      "en": "I dropped the guide into Codex and I say like, use this to help build the next thing we're doing.",
+      "zh": "我把指南丢进 Codex,然后说，用这个来帮助我们构建接下来要做的东西。"
+    },
+    {
+      "timestamp": "25:46",
+      "speaker": "Douglas",
+      "en": "Even Flora, which has a remarkable tool, I only ever use it through the MCP.",
+      "zh": "即使是 Flora,它有一个了不起的工具，我也只通过 MCP 来用它。"
+    },
+    {
+      "timestamp": "27:02",
+      "speaker": "Austin",
+      "en": "the leap from 5.5 to 5.6 came with this improvement in the model's ability to go find the context it needs to do work well and then to maintain that context through any amount of compaction that happens as it works over a long term.",
+      "zh": "从 5.5 到 5.6 的跨越，带来了模型能力的提升，让它能够找出把工作做好所需的上下文，然后随着长期工作中经历的任何压缩，都能维持住那些上下文。"
+    }
+  ],
+  "voice_script": "睡一觉醒来，多了一万七千美金——不对，是两万五千多美金。今天这期，就聊 Every 团队怎么用一个订阅包和几封 AI 写的邮件，创下公司历史上最大的订阅收入增长。\n\nEvery 是一家做 AI 内容和工具的媒体，这期节目是他们自己人的内讧式复盘：新上线了一个叫 All Access 的订阅层级，一年 625 美元，核心权益是 Builder Pack——把 OpenAI 的 Codex、Anthropic 的 Claude、Cursor、Notion 这十家 AI 工具的折扣和额度打包在一起。讲的人有三位：增长团队的 Yash、点子型选手 Austin,还有创意总监 Douglas。\n\n先说那个睡一觉变出钱的故事。Builder Pack 上线当晚，Yash 在 Slack 里提议：给一批看过结账页但没付钱的用户，发一封带紧迫感的追单邮件。大部分同事都下线了，西海岸的 Austin 刚在电脑前坐了一整天，只想赶紧去健身房。怎么处理？他把几条 Slack 消息截图扔进 Codex 线程，配一句「你能做这个吗」，再加一条指令——这条指令会让智能体自己走一遍头脑风暴、规划、执行、审查的完整循环。然后，他就去健身了。\n\n回来一看，智能体已经建好了四个受众分组，给每组分别起草了邮件，文案还过了一遍他们的 AI 写作应用保持品牌文风，甚至翻查历史邮件数据找出最有点击率的标题，全部排期到第二天早上。Austin 只花了大概十分钟微调。第二天几个小时之内，光这几封邮件就带来超过两万五千美元收入。\n\n最有意思的是 Austin 的反应。不是「哇太酷了」，而是——这基本上就是它本来该做的。\n\n这个心态背后，是整期节目最值钱的一条线：人的工作，变成了 AI 三明治的两端。你决定问题是什么、框定想法，然后审查成果，中间全部交给模型。Yash 刚进增长团队那个月，干的全是搭实验、调受众规模这种假性工作，于是干脆用 Claude 把整条 A/B 测试流水线自动化了。理由特别实在：想跑更多实验，唯一的办法就是把流水线整个交出去。回报不是裁员，是人挪到真正有意思的部分——该测什么、人的心理会怎么反应、下一个实验是什么。\n\nAustin 更狠，同时指挥多个智能体：这边 Codex 在跑增长分析，那边桌面版的智能体在循环剪辑发布视频——不追求成品，做到七成，剩下的自己接手收尾。连他讨厌多年的 Notion 都变了：以前数据库没人维护，现在每周问一句 Codex 能不能整理一下 Growth Hub,它就完美做到。\n\n为什么现在突然行了？Austin 把原因归到模型的一次跃迁：自己去找齐工作所需的上下文、并且长期记住的能力大幅提升了。而起步特别简单——先做一件事让它见效，然后吃复利。有句话可以记下来：最好的开始时间是一年前，第二好的就是现在。\n\nDouglas 的视角最反直觉。模型公司起名都很有文学性，什么 haiku、fable,全是诗歌。但智能体时代的关键词，其实是音乐里的「指挥」。你不需要会演奏乐队里的每件乐器，只要知道这首曲子该听起来什么样，就能退后一步当指挥。这位自认不技术的创意总监，把原来耗时数周的竞品研究压到几小时——给智能体一个洞察，让它做竞争审计、定价、文案，喂进系统，出来一个锋利的战略视角。连 Builder Pack 那个绿色视觉，都是这些工具一起帮忙定的。\n\n节目最后每人给了一条新手建议，挑一条最戳的：有时候构建最困难的部分，是知道该构建什么。而坐在电脑前干想找问题，恰恰是找问题最糟糕的方式。不如直接复刻一个你特别喜欢的产品的极简版，做着做着，它就不再是复刻，而是你自己的东西了。\n\n一个选题的检验标准也送给你：什么样的东西，会让你最兴奋地发消息告诉朋友——嘿，我做了这个。\n\n你看，从想法到执行，现在可能就隔一条指令。开始做这件事的最好时间是一年前，第二好的时间，就是现在。"
+}

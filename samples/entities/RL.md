@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Redwood Research]] · [[Hugging Face]] · [[Anthropic]] · [[Meter]] · [[沙箱]] · [[推理]] · [[Tane]] · [[Nathan]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":82,"Redwood Research":3,"Hugging Face":18,"Anthropic":96,"Meter":2,"沙箱":35,"推理":4,"Tane":1,"Nathan":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":83,"Redwood Research":3,"Hugging Face":18,"Anthropic":97,"Meter":2,"沙箱":35,"推理":4,"Tane":1,"Nathan":3}</script>
 
 <script>
 (function(){

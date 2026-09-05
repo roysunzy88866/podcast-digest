@@ -141,9 +141,9 @@ Compounding 这个理念是：你给 AI 的每一条反馈，都应该回馈进�
 
 **换个口味**
 
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Claude、Codex、Every · 同概念:智能体 (agent)</span>
 - [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同公司:ChatGPT、Every、Claude、Codex · 同概念:智能体 (agent)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

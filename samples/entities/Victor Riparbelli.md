@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Synthesia":1,"虚拟形象":2,"智能体":1,"基础模型层":1,"应用层":2,"LLM":24,"Netflix":3,"TikTok":2,"Instagram":4,"Google":35}</script>
+<script type="application/json" class="pd-epn">{"Synthesia":1,"虚拟形象":2,"智能体":1,"基础模型层":1,"应用层":2,"LLM":25,"Netflix":3,"TikTok":2,"Instagram":4,"Google":35}</script>
 
 <script>
 (function(){

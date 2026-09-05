@@ -154,9 +154,9 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 **换个口味**
 
+- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同概念:定价 (pricing)、A/B 测试 (A/B testing)、B2B、LLM</span>
 - [[2026-07-22-rework-start-here-building-a-better-onboarding|Basecamp 5 引导设计：让CEO亲自带客户过产品]]<span class="pd-rz">同公司:37Signals · 同概念:入职引导 (onboarding)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:SaaS</span>
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同概念:SaaS</span>
 
 </div>
 </div>

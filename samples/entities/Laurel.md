@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jiaona Zhang]] · [[Akash]] · [[GitHub]] · [[Slack]] · [[Dust]] · [[Devon]] · [[智能体]] · [[剧本]] · [[技能]] · [[本体]]
 
-<script type="application/json" class="pd-epn">{"Jiaona Zhang":1,"Akash":3,"GitHub":20,"Slack":22,"Dust":1,"Devon":3,"智能体":1,"剧本":3,"技能":9,"本体":2}</script>
+<script type="application/json" class="pd-epn">{"Jiaona Zhang":1,"Akash":3,"GitHub":20,"Slack":23,"Dust":1,"Devon":3,"智能体":1,"剧本":3,"技能":9,"本体":2}</script>
 
 <script>
 (function(){

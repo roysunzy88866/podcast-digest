@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Slack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>23</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(03:00起):本集把它说成:Claude Tag 目前驻留的工作表面，让智能体更贴近你日常工作的所有场景，不需要在跟团队沟通和跟智能体协作之间切换上下文
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(15:01起):本集把它说成:因架构合适,无意中成为大家跑智能体的平台,它证明了把地基打好让用户自行拓展的价值。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(06:56起):本集把它说成:团队协作工具,ClaudeTag 扎根其中,让整个团队在同一频道里共同指挥智能体干活
+- **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(01:52起):本集把它和 Notion、Loom 一起列为非纵向化的横向公司典范，是 Gamma 押注横向产品的参照。
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(06:39起):本集中作为通知渠道，智能体审查完 PR 后会在这里 ping 相关人员采取最终行动。
 - **[[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]]**(05:50起):本集把它说成:为普通办公设计的通讯工具(非专为软件开发),被当作比喻用来解释智能体工作流指令和 ACE 协作界面的外在形态。
 - **[[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]]**(11:59起):本集强调的工程师日常交互的主要阵地。智能体可以在 Slack 里被消息触发、被动监听频道回答问题，甚至给工程师发私信确认答案，是智能体集成的第一方体验。
@@ -46,7 +47,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*22 集*
+*23 集*
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
@@ -63,6 +64,7 @@ unlisted: true
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为概念
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
+- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]] — 作为被讨论公司
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司(提及)
 - [[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]] — 作为被讨论公司(提及)
 - [[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]] — 作为被讨论公司
@@ -75,9 +77,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Claude]] · [[Cursor]] · [[护栏]] · [[Notion]]
+[[智能体]] · [[Lenny]] · [[GitHub]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Claude]] · [[护栏]] · [[Notion]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"GitHub":20,"Anthropic":96,"Claude Code":43,"沙箱":35,"Claude":45,"Cursor":43,"护栏":1,"Notion":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"GitHub":20,"Anthropic":97,"Claude Code":43,"沙箱":35,"Claude":46,"护栏":1,"Notion":12,"Cursor":44}</script>
 
 <script>
 (function(){

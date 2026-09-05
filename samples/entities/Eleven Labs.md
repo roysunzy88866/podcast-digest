@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[可观测性]] · [[OpenAI]] · [[Daniel Whitenack]] · [[Harry Stebbings]] · [[Gabriel Vasquez]] · [[Nathan]] · [[Emil Lassen]] · [[Matt Murphy]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":96,"可观测性":18,"OpenAI":82,"Daniel Whitenack":6,"Harry Stebbings":10,"Gabriel Vasquez":1,"Nathan":3,"Emil Lassen":1,"Matt Murphy":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":97,"可观测性":18,"OpenAI":83,"Daniel Whitenack":6,"Harry Stebbings":10,"Gabriel Vasquez":1,"Nathan":3,"Emil Lassen":1,"Matt Murphy":1}</script>
 
 <script>
 (function(){

@@ -7,16 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Every</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Every">EV</div><div class="pi"><h1 class="pt">Every</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>77</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Every">EV</div><div class="pi"><h1 class="pt">Every</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>78</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]]**(00:29起):本集将其描述为一家处于 AI 最前沿的公司，15 人团队运营每日通讯、四款产品（Cora、Spiral、Sparkle 等）和咨询业务，产品团队不手写一行代码，全部由智能体完成
+- **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(00:06起):本集的主场:推出 All Access 订阅和 Builder Pack 的媒体/公司,团队全员用 AI 工具工作并分享内部打法
 - **[[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]]**(01:29起):本集的主场：Katie 是 Every 的全明星撰稿人，Compound Writing 插件由她构建并发布在 Every 的 GitHub 上，灵感来自 Every 团队成员的实践
 
 ## ① 提到它的金句
 
-*77 条*
+*78 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q3]]
 
@@ -83,6 +84,8 @@ unlisted: true
 ![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q6]]
 
 ![[2026-07-22-rework-start-here-building-a-better-onboarding#^q1]]
+
+![[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon#^q7]]
 
 ![[2026-07-25-twentyvc-20vc-mercor-cpo-on-revenue-concentration#^q9]]
 
@@ -174,18 +177,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为被讨论公司
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[ChatGPT]] · [[Claude]] · [[智能体]] · [[Codex]] · [[Lenny]] · [[风格指南]] · [[Dan Shipper]] · [[复合]] · [[Cora]] · [[Compound Writing]]
+[[Claude]] · [[智能体]] · [[Codex]] · [[ChatGPT]] · [[Lenny]] · [[Yash]] · [[风格指南]] · [[Dan Shipper]] · [[Builder Pack]] · [[复合]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":48,"Claude":45,"智能体":1,"Codex":35,"Lenny":66,"风格指南":1,"Dan Shipper":2,"复合":1,"Cora":1,"Compound Writing":1}</script>
+<script type="application/json" class="pd-epn">{"Claude":46,"智能体":1,"Codex":36,"ChatGPT":49,"Lenny":66,"Yash":1,"风格指南":1,"Dan Shipper":2,"Builder Pack":1,"复合":1}</script>
 
 <script>
 (function(){

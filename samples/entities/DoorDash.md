@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[Waymo]] · [[Stripe]] · [[OpenAI]] · [[Cognition]] · [[智能体商务]] · [[Vercel]] · [[Cursor]] · [[自主性]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"推理":4,"Waymo":11,"Stripe":26,"OpenAI":82,"Cognition":14,"智能体商务":3,"Vercel":12,"Cursor":43,"自主性":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"推理":4,"Waymo":11,"Stripe":26,"OpenAI":83,"Cognition":14,"智能体商务":3,"Vercel":12,"Cursor":44,"自主性":5}</script>
 
 <script>
 (function(){

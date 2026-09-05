@@ -153,8 +153,8 @@ jsonLd: |
 **换个口味**
 
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Slack · 同概念:智能体 (agents)</span>
+- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同公司:Slack · 同概念:产品市场契合度 (product market fit)、护栏 (guardrails)</span>
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Webflow</span>
-- [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agents)</span>
 
 </div>
 </div>

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Notion</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,8 @@ unlisted: true
 - **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(00:19起):本集重点讨论的公司，嘉宾的产品团队所在地。本集将其描述为一个拥有庞大用户基础、可作为连接工作空间，并为 Notion AI 智能体提供完美上下文环境的平台。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(32:14起):本集说用 LLM 摄取全公司的 Notion 文档来掌握组织内部发生的事。
 - **[[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]]**(66:22起):本集提到 Figma Agent 通过新增的连接器，可以把 Notion 里的外部数据和上下文直接拉进画布。
+- **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(19:03起):本集说 Austin 讨厌它多年,因为数据库没人维护;现在维护被推给 Codex 和 Claude Code,每周一句「重新整理 Growth Hub」它就完美做到
+- **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(04:20起):本集把它列为最令人振奋的横向生产力公司之一，靠好模板对抗空白页做得很好。
 - **[[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]]**(28:19起):本集作为对比项提及：过去产品经理的活儿散落在各种工具里，比如待在 Notion 中。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(08:09起):本集说 Notion 是伪装成文字处理器的无代码数据库，与 Canva 一样面临被智能体绕过的风险，Jason 团队已经不再需要它
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(30:36起):本集仅作为 Parag 个人用例一笔带过，说他使用 Notion 的智能体构建自定义会议准备智能体，每次开会前自动做几十到几百次网络搜索
@@ -40,12 +42,14 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*12 集*
 
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司(提及)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
 - [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为被讨论公司(提及)
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为被讨论公司
+- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]] — 作为被讨论公司
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为被讨论公司(提及)
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为被讨论公司(提及)
@@ -57,9 +61,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Claude]] · [[Figma]] · [[Slack]] · [[GitHub]] · [[Google]] · [[Anthropic]] · [[Lenny]]
+[[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Claude]] · [[Slack]] · [[Anthropic]] · [[Figma]] · [[GitHub]] · [[LLM]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":48,"OpenAI":82,"Claude":45,"Figma":12,"Slack":22,"GitHub":20,"Google":35,"Anthropic":96,"Lenny":66}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":49,"OpenAI":83,"Claude":46,"Slack":23,"Anthropic":97,"Figma":12,"GitHub":20,"LLM":25,"Google":35}</script>
 
 <script>
 (function(){

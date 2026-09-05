@@ -187,8 +187,8 @@ Stripe 收购 PayPal 告吹，众人判断只是价格之舞：传言一方出�
 **换个口味**
 
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Anthropic · 同概念:奖励作弊 (reward hacking)、智能体 (agent)</span>
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、Cursor、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Cursor、Linear、Anthropic · 同概念:智能体 (agent)</span>
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、OpenAI、Hugging Face · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

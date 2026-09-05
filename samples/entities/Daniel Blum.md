@@ -27,7 +27,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claire Vo]] · [[Co-work]] · [[Claude Code]] · [[Codex]] · [[ChatGPT]] · [[Notion]] · [[Slack]] · [[Whisper]] · [[Cursor]] · [[Intercom]]
+[[Claire Vo]] · [[Co-work]] · [[Claude Code]] · [[Codex]] · [[ChatGPT]] · [[Notion]] · [[Slack]] · [[Whisper]] · [[Cursor]] · [[Optimizely]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":3,"Co-work":3,"Claude Code":43,"Codex":35,"ChatGPT":48,"Notion":10,"Slack":22,"Whisper":2,"Cursor":43,"Intercom":5}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":3,"Co-work":3,"Claude Code":43,"Codex":36,"ChatGPT":49,"Notion":12,"Slack":23,"Whisper":2,"Cursor":44,"Optimizely":2}</script>
 
 <script>
 (function(){

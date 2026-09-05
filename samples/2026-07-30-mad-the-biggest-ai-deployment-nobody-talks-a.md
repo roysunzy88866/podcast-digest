@@ -116,7 +116,7 @@ jsonLd: |
 
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:物理 AI (physical AI)、生成式 AI (generative AI)、护栏 (guardrails)</span>
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agents)</span>
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)</span>
+- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同概念:护栏 (guardrails)、生成式 AI (generative AI)</span>
 
 </div>
 </div>

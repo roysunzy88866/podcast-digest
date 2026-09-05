@@ -27,7 +27,7 @@ unlisted: true
 
 [[Garry Tan]] · [[智能体]] · [[技能文件]] · [[RAG]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]] · [[Codex]] · [[YC]] · [[上下文工程]]
 
-<script type="application/json" class="pd-epn">{"Garry Tan":2,"智能体":1,"技能文件":2,"RAG":7,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Codex":35,"YC":9,"上下文工程":7}</script>
+<script type="application/json" class="pd-epn">{"Garry Tan":2,"智能体":1,"技能文件":2,"RAG":7,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Codex":36,"YC":9,"上下文工程":7}</script>
 
 <script>
 (function(){

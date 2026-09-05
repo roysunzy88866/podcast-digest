@@ -136,7 +136,7 @@ Adam 说现在的竞争激烈程度如果是十分制，那就是十一分。一
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同概念:前置部署工程师 (forward-deployed engineer)、go-to-market、智能体 (agent)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:Cursor · 同概念:前置部署工程师 (forward-deployed engineer)、智能体 (agent)</span>
-- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Cursor、Anthropic · 同概念:智能体 (agent)</span>
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Cursor、Anthropic · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

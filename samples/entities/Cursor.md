@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>43</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>44</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,6 +29,7 @@ unlisted: true
 - **[[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]]**(19:21起):本集将 Cursor 与 Cognition 并列为编码领域的两个大名字
 - **[[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]]**(21:33起):本集说所有编排器包括 Cursor 和 Copilot 迭代了这么久，最好的 UI 就是左边文件夹列表、右边聊天框，对同时处理 140 个项目完全不够用
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(03:01起):本集把它说成:一款带有 AI 智能体的代码编辑器，嘉宾曾是其重度用户，但在 OpenAI 推出 Codex 后改变了工作流思维。
+- **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(00:13起):本集说它有很好用的云端智能体,可同时跑 10 个;Yash 建议用它配不同模型(如开源的 Kimi K2 5)找到个人最喜欢的模型
 - **[[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]]**(22:17起):本集说它「曾几乎是处在 Anthropic 十字准星正中」,但仍然取得了相当不错的结果
 - **[[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]]**(00:00起):Datadog 内部 AI 编程工具采用的起点。2025 年初发起 POC，原目标 100-200 人，一个月内约 1000 名开发者几乎每天都在用，需求远超预期。
 - **[[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]]**(07:35起):本集提到:一家代码助手公司,为了不依赖闭源 API,开始基于开源模型做自己的后训练微调。
@@ -71,7 +72,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*43 集*
+*44 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -91,6 +92,7 @@ unlisted: true
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为被讨论公司(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为被讨论公司
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司(提及)
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为被讨论公司
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为被讨论公司(提及)
@@ -121,9 +123,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Claude Code]] · [[Codex]] · [[vibe coding]] · [[Lovable]] · [[推理]] · [[ChatGPT]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Codex]] · [[Claude Code]] · [[vibe coding]] · [[Lovable]] · [[推理]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":82,"Anthropic":96,"Lenny":66,"Claude Code":43,"Codex":35,"vibe coding":26,"Lovable":13,"推理":4,"ChatGPT":48}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":83,"Anthropic":97,"Lenny":66,"Codex":36,"Claude Code":43,"vibe coding":26,"Lovable":13,"推理":4,"ChatGPT":49}</script>
 
 <script>
 (function(){

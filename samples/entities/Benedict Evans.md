@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"OpenAI":82,"Anthropic":96,"Google":35,"Meta":26,"Apple":14,"Microsoft":22,"AWS":10,"McKinsey":5,"Claude Code":43}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"OpenAI":83,"Anthropic":97,"Google":35,"Meta":26,"Apple":14,"Microsoft":22,"AWS":10,"McKinsey":5,"Claude Code":43}</script>
 
 <script>
 (function(){

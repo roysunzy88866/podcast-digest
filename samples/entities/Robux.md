@@ -25,7 +25,7 @@ unlisted: true
 
 [[Roblox CEO]] · [[Roblox]] · [[用户生成内容]] · [[虚拟货币]] · [[官僚主义]] · [[API]] · [[MCP]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Roblox CEO":1,"Roblox":2,"用户生成内容":1,"虚拟货币":1,"官僚主义":1,"API":3,"MCP":25,"AI":13}</script>
+<script type="application/json" class="pd-epn">{"Roblox CEO":1,"Roblox":2,"用户生成内容":1,"虚拟货币":1,"官僚主义":1,"API":3,"MCP":26,"AI":13}</script>
 
 <script>
 (function(){

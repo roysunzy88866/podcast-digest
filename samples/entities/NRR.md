@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[Jen Abel]] · [[Jason Cohen]] · [[Lindsey Scrase]] · [[企业销售]] · [[客户流失率]] · [[Checkr]] · [[愿景描绘]] · [[定价]] · [[企业市场]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Jen Abel":1,"Jason Cohen":1,"Lindsey Scrase":1,"企业销售":1,"客户流失率":1,"Checkr":1,"愿景描绘":1,"定价":1,"企业市场":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Jen Abel":1,"Jason Cohen":1,"Lindsey Scrase":1,"企业销售":1,"客户流失率":1,"Checkr":1,"愿景描绘":1,"定价":2,"企业市场":1}</script>
 
 <script>
 (function(){

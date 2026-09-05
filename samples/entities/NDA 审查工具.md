@@ -25,7 +25,7 @@ unlisted: true
 
 [[Andrew Antos]] · [[产品市场契合]] · [[产品-市场-创始人契合]] · [[公司大脑]] · [[智能体]] · [[MCP]] · [[go-to-market]] · [[客户之声]]
 
-<script type="application/json" class="pd-epn">{"Andrew Antos":1,"产品市场契合":12,"产品-市场-创始人契合":1,"公司大脑":2,"智能体":1,"MCP":25,"go-to-market":5,"客户之声":1}</script>
+<script type="application/json" class="pd-epn">{"Andrew Antos":1,"产品市场契合":13,"产品-市场-创始人契合":1,"公司大脑":2,"智能体":1,"MCP":26,"go-to-market":5,"客户之声":1}</script>
 
 <script>
 (function(){

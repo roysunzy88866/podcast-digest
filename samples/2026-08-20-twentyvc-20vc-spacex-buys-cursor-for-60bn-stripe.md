@@ -186,8 +186,8 @@ Jason 最后总结了一整集的底层逻辑："增长或死亡。这整个节�
 **顺着「AI 编程」挖下去**
 
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:Anthropic、Cursor、Microsoft、Claude Code、OpenAI、SpaceX</span>
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、Cursor、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Cursor、Anthropic、Claude Code、Lovable · 同概念:智能体 (agent)</span>
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic、Claude Code、Microsoft · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

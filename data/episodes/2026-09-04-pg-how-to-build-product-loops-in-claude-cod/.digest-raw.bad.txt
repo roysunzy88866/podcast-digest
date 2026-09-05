@@ -1,0 +1,198 @@
+===标题===
+循环才是新提示词：JobNimbus 首席 AI 官的 vibe PM 实操手册
+===导语===
+JobNimbus 首席 AI 官 Tyler Folkman 演示如何用「循环」把 AI 从问答工具变成能自我改进的产品系统，并给出 PM、工程师、设计师各自的实操方法。
+===正文===
+「循环」(loops)正在取代提示词(prompt),成为用 AI 干活的新单位——意思是不再一问一答，而是搭一个能自己跑、自己验证、自己变好的系统。这一集讲的正是产品经理怎么做这件事。主角 Tyler Folkman 是 JobNimbus 的首席 AI 官兼产品负责人，管着差不多 100 人的团队，该公司刚完成 3.03 亿美元融资。他从终端里现场演示：说一句「研究 2028 年的承包商需求」，AI 就自己开一个窗格去干活，绿点表示完成、黄点表示在跑——他聊着天的功夫，AI 已经给他建出了三个产品原型 [02:48 Tyler Folkman][17:20 Tyler Folkman]。
+
+## 智能体和提示词的区别是什么
+
+Tyler 的定义很直接：智能体(agent)是在自己独立做事情、并且自己做决策，而不是你不断提示它。ChatGPT 式的一问一答，「几乎是更聪明的 Google 搜索」；智能体化则是你给它一个任务、给它一种自我验证的方式，然后让它尽可能自主执行。核心区别是：你把自己从循环里抽出来，这样才能规模化自己；而纯提示词的麻烦在于你一直卡在循环里，感受不到杠杆 [04:57 Tyler Folkman]。
+
+他用的工具叫 Herder,一个编排多个智能体的终端系统。为什么不用 VS Code?他一年前也很怀疑终端编程智能体，但现在觉得终端「非常原生」——而且社区工具大多用 AI 构建自身，迭代速度跟着 AI 一起飞，不用等 VS Code 按自己的节奏发版 [03:53 Tyler Folkman]。
+
+## 一个循环长什么样：取料、干活、闸门、学习
+
+Tyler 把循环画成四段：**获取输入 → 做工作 → 闸门验证 → 学习迭代**。第一段的原则是自己去拿：别说「这里是我的研究，你看看」，而是说「去把这事搞清楚」[12:17 Tyler Folkman]。
+
+**闸门是整个循环最重要的部分**，而且要尽可能做成确定性(可重复、不靠猜)的验证。有个叫 mirror coding 的做法说明这一点：如果一段代码周围有大量扎实的测试，AI 可以相当自主地复刻它——学到手的不是「复制旧代码」，而是「AI 在边界清晰、完成定义清晰时极其擅长」[12:45 Tyler Folkman]。
+
+第四段才是「循环」这个名字的来源：把整个来回日志回喂给 AI,让它改进自己的技能(skill,一份预定义的指令文件)。漏掉学习这一环，你跑的就只是静态技能；把学习反馈进去，技能才会持续变好 [08:31 Tyler Folkman]。版本管理用 Git 解决——能提交、能回溯，这规矩将来可能有更智能体化的替代品，但现在够用 [08:54 Tyler Folkman]。另外 Tyler 现在很少回退，更喜欢「向前修复」：新版本里丢了什么喜欢的，就往新版本里调回来，因为过去未必一致地更好 [14:11 Tyler Folkman]。
+
+还有一个反直觉的坑：换更好的模型，技能可能反而变差。你换到更强的模型，发现精心调过的技能效果下降——因为你强制了一些已经不需要再强制的东西。这是个要持续处理的悖论 [09:45 Tyler Folkman]。
+
+## 实战一：产品开发的循环，瓶颈在闸门
+
+代码的循环很顺，但产品工作的闸门往往是人或客户——你不能把客户锁在屋里反复问喜不喜欢。Tyler 引用 Marty Kagan 的四大风险框架：想法可以无限生成、快速原型，但「对业务有价值吗、可行吗」依然难判定，原因就是缺一个能快速迭代的清晰闸门 [15:30 Tyler Folkman]。
+
+JobNimbus 的做法分几层：
+
+1. **原型发散**。UX 团队自建了一套原型技能(放在代码仓库的 .claude 目录里)，一句「用这个技能生成 10 个原型解决这个问题」就能跑。每次至少出三个变体：最小版、全功能版、创意版。演示现场，他说一句「继续」，AI 就在聊天期间建出了支付跟进、班组排班等多个原型 [16:39 Tyler Folkman][42:22 Tyler Folkman]。
+
+2. **合成用户过闸**。他们把所有客户研究通话的转写稿灌进数据仓库，让 AI 扮演客户来检验原型。这不是最高门槛，但能低成本抓住低级失败，把约 100 个想法快速筛到最好的 5 个，然后才安排真实客户通话，最后在生产环境做 A/B 测试。核心思路：投入逐级增加，想法的有效性验证也逐级增强 [19:57 Tyler Folkman]。
+
+3. **人人上客户一线**。传统上客户访谈归 UX 和产品，但 AI 时代新瓶颈之一就是「接触客户」——设太多门槛就跟不上 AI 的速度。他们在练的「新肌肉」是让所有人每周(目标每周两次)都去和客户聊，同时培训大家避开诱导提问之类的明显陷阱——「唯一比没有数据更糟的，就是非常糟糕的数据」[21:23 Tyler Folkman]。
+
+## 实战二：文档与入职——「AI 写给 AI 读」
+
+Tyler 收到的文件常常是 10 到 20 页的 AI 生成内容，他直接丢给自己的 AI 去读——这其实违背初衷。他的原则：**文档要么是 AI 写给 AI 读的，要么是人类写给人类读的，别混**[26:29 Tyler Folkman]。给 AI 的文档尽量塞满上下文，没人需要读完；给人的文档则要更视觉化、更精炼，一到三页封顶，最好做成 HTML 加图表——大部分人不是设计师，AI 时代做图变容易了。如果写的人自己没花思考、全靠 AI,却指望别人耗自己的精力去消化，这不合理 [27:55 Tyler Folkman]。
+
+入职流程就是用这套思路系统化的：先写下你想要的流程(关键前提——AI 极擅长系统化已有流程，流程本身乱就先理流程)，再把可编码的部分交给 AI——约会议直接读日历自动安排，产品理解做成一个「产品导师」技能放在仓库里，新人跑一下就能带着问答走完产品。结果是入职更快也更愉快 [24:02 Tyler Folkman]。
+
+## 实战三：从零写一个技能，警惕「AI 跑步机」
+
+写技能，Tyler 建议**第一版手写**。有论文表明人类写的技能往往比 AI 写的好，因为你知道更多、更能表达你想让它干什么。他打了电动自行车的比方：买的时候都说「我还会踩踏板锻炼的」，骑上去就没踩过——一旦上了 AI 的循环，它转得飞快、多巴胺满满，你很难再插入自己的思考 [29:59 Tyler Folkman]。
+
+现场演示里他手写了一个「帮我做决策」的技能：要求苏格拉底式提问、质疑我、揭穿我的胡扯、简洁(他总加这条，因为 Opus 5 话特别多，「听起来比我用过的任何 AI 都更像 AI」)。跑起来后 AI 自动用上了单向门/双向门、爆炸半径这些决策框架，判断「屋顶机器人投资」是「单向门、高爆炸半径、低紧急度——教科书式的暂不决策案例」。收尾时问它「基于这次对话怎么改进技能」，它给出修改建议——而**这正是该下跑步机用自己脑子的时刻**：AI 永远会有改进建议，照单全收的话技能会变得过于固执、上下文爆炸，反而稀释价值(它尤其爱把 10 个用例塞进一个超级技能，这违反 Anthropic 自己的最佳实践)[36:25 Tyler Folkman][39:15 Tyler Folkman]。
+
+闭环的自动化有现成零件：Claude 支持 `/loop` 定时跑命令；钩子(hooks)则在循环的各阶段注入确定性——启动时检查所在仓库和分支；拦截 `rm -rf`、拦截分享凭证这类 bash 命令。钩子和提示词的区别是确定性：提示词里写「永远不要分享密码」，Claude 可能「今天没读到那条」；钩子一定会拦住。会话结束时的钩子还能强制跑一轮「从日志学习」，等于给你的工具链自建评估集 [40:15 Tyler Folkman][44:56 Tyler Folkman]。
+
+Tyler 自己重视的循环：**客户触达循环**——每天或每周自动从数据里找出该联系的客户(使用量变了、在用你负责的功能)，设置好护栏后甚至自动发邮件，省掉「找谁、发消息」这个最大的时间黑洞；**项目管理循环**——从 Linear/Jira 拉工单、看进展、看风险、汇总成人不用手动整理的简报 [42:53 Tyler Folkman]。还有一种更特别的**思考推进技能**：不替你干活，而是逼你回答「你和客户谈过了吗？数据从哪来？想过这个风险吗？」——目的是在某些节点强行把你从 AI 跑步机上拉下来 [46:32 Tyler Folkman]。
+
+## 最危险的失败模式：外包思考
+
+Tyler 见过有人跟 Claude 说「CEO 让我建这个功能，你去做所有研究、告诉我建什么和为什么」——这不算糟糕的起点，糟糕的是因为太上瘾就停在那里：拿到一大堆结果，不想评估，直接往上传。「那不是在做产品工作，那是把思考外包出去。」主持人说这对 PM 简直是职业声誉自杀——交付的东西全是 AI 生成就往上传，等于把工作甩给比你更忙的上级。Tyler 补充：一年前大家还会惊呼，现在大家一眼看穿「那就是 AI 干的，没过脑子」。他常听到「Claude 说这个功能要建多久」——Claude 不知道，你问它，它说一周，然后真就一周建完了 [47:27 Tyler Folkman]。
+
+## PM 该不该提交代码？工程师该不该做产品？
+
+**PM 提 PR:分场景。** 后端计费系统别碰，那里全是架构级决策；但在前后端解耦好、API 好、CI/CD 和质量测试到位的地方，前端改动 PM、UX 都可以提交——你越信任系统做检查，越可以人人上手。注意两点：一要在团队内先约定，否则你随手一个「帮我看一眼」就是给工程师凭空制造几小时的影子工作；二是更大的背景——AI 能生成近乎无限的代码，工程师群体正在艰难应对「代码洪流」，大多数公司的工程体系以前就不完美，现在也不 [50:45 Tyler Folkman][52:28 Tyler Folkman]。
+
+**工程侧最该循环的是质量。** 账很简单：你发布速度快一倍，客户体验到的不是你的缺陷率，而是 bug 的数量——同样出错率下，坏的东西更多了。不做质量的循环，你跑得越快，客户越觉得你变差了，哪怕你没有。Tyler 几乎认为 AI 的质量优势能打败速度优势，因为「让你能更安全地发布」[49:24 Tyler Folkman]。
+
+**工程师做 vibe PM:从低风险处切入。** Vibe PM 的失败模式是发布没人要的东西、走不可行的路。工程师的天然优势是能快速构建——那就从「双向门」开始：和业务聊聊怎么赚钱、和客户聊聊要什么，把东西放在 feature flag(功能开关)后面发布给客户聊。风险极低，相当于 PM 改个按钮颜色的级别。但战略级投资决策不在此列——不是所有问题都需要受训的产品思维，就像不是所有问题都是硬核工程问题。关键回报：一个人能从「问题」端到端走到「赚钱的方案」，杠杆和到达价值的速度都指数级上升——以前铁三角(产品/设计/工程)协作本身就是一种降低风险的手段，因为东西建得慢；现在建得快，前期降险的需求也变了 [53:24 Tyler Folkman][55:39 Tyler Folkman]。
+
+**发散原型永远不要跳过。** Tyler 的类比：单元测试 100% 覆盖率现在基本免费，为什么不？引用 Microsoft 的研究，发布的功能里只有三分之一产生价值，三分之二表现平平或无效——既然多一次「击球机会」接近免费，为什么不拿？合成用户、客户关系，都是在免费堆练习次数 [57:08 Tyler Folkman]。
+
+**设计师的位置反而更稳。** UX 最大的循环是原型——他们本来就在 Figma 里做，现在 AI 工具能按他们的组件库和设计系统直接出东西。Tyler 认为设计师比任何人更懂客户，「这是 AI 最难复制的东西」：AI 会写代码、能做研究，但复制不了客户。设计师补上业务思维和构建思维，完全可以打通端到端 [60:51 Tyler Folkman]。
+
+## 「构建者」与领导者的示范
+
+三人融合成一人的「构建者」(builder)正在出现，但 Tyler 提醒：这种融合会比大家想的慢——学技能、建系统都需要时间，「不像有些人表现得好像今天人人都是 builder」。JobNimbus 在招这类人：他们办了号称犹他州最大的黑客马拉松，几百人参加，获胜者之一现在是公司 SVP——那人在两天里带小团队端到端建出一个面向真实用户的产品。Tyler 的观察：技能不是不重要，反而更重要——正因为你懂工程或设计，再以正确的方式注入 AI、稍走出舒适区，才能释放以前不可能的价值 [60:04 Tyler Folkman][61:41 Tyler Folkman]。
+
+那每个人都该往构建者转吗？「在我看来，是的」，除非你在高度专业化的角色(比如安全工程师、数据库底层研究)。很多 SaaS 公司根本没有那些岗位，更适合通才，而通才最难的不是任何单项——「大多数公司的代码库没人会说是代码界的毕加索，大多数设计也不会美到挂墙上」——难的是把三样东西以正确的方式融合 [62:58 Tyler Folkman]。
+
+对被会议淹没的领导者，他的方法是：JobNimbus 周二到周四线下，周一和周五远程日**不鼓励开会**——他这个近百人团队的负责人，周一周五经常一个会都没有。「在一个房间里待八小时，有大量时间、AI 和想探索的东西，你能搞出很多名堂。」没有这种文化的，就把动手试验当作角色职责来对待：光说「要用 AI」没用，麦肯锡式口号没用，「这是我在怎么用 AI」才有效——你必须亲身体验过失败模式，才有资格跟团队谈这件事 [65:36 Tyler Folkman]。
+
+## 本集带走
+
+- **循环四段缺一不可**：自己取输入 → 干活 → 确定性的闸门验证 → 把日志回喂让技能自我改进。漏掉学习环节，你有的只是静态技能。
+- **技能第一版手写**：人写的比 AI 写的好；收尾时审它的改进建议而不是照单全收，否则技能会膨胀成违反最佳实践的「超级技能」。
+- **安全的事用钩子，别用提示词**：拦截 `rm -rf`、分享凭证这类操作，钩子是确定性的，提示词里的禁令 Claude 可能「今天没读到」。
+- **PM 最值的两个循环**：客户触达循环(自动从数据里挑出该联系的客户)和项目汇总循环(自动拉工单、看风险、合成简报)。
+- **工程循环先做质量**：发布翻倍时客户体验到的是 bug 数量的翻倍——不做质量循环，越快越显得差。
+- **文档分家**：AI 写给 AI 读的(管够上下文)和写给人的(一到三页、视觉化)分开；全 AI 生成的大部头别指望人读。
+- **别把思考外包给 Claude**:让它做研究、推你思考都行，但开会时你的答案不能是「Claude 说的」。
+- **原型和发散是免费的**：功能只有三分之一产生价值，多几个变体、多几轮合成用户检验，成本接近零。
+===金句===
+04:57 | Tyler Folkman
+For me, the difference is an agent is doing something on its own. And making decisions versus you consistently prompting it.
+ZH | 对我来说，区别在于智能体是在自己独立做事情、并且自己做决策，而不是你持续不断地提示它。
+
+05:30 | Tyler Folkman
+That way you can actually scale yourself.
+ZH | 这样你才能真正把自己规模化。
+
+09:56 | Tyler Folkman
+because sometimes you might have forced things that don't need to be forced anymore.
+ZH | 因为有时候你可能强制了一些已经不需要再强制的东西。
+
+12:40 | Tyler Folkman
+This is almost always the most important part. As much as possible, being able to make this deterministic is critical.
+ZH | 这几乎总是最重要的部分。尽可能让这个环节变得确定性，是至关重要的。
+
+13:03 | Tyler Folkman
+It's AI is really good with clear boundaries and clear definitions of done and success that it can work through.
+ZH | AI 在有清晰边界、清晰的完成与成功定义时非常擅长，它可以顺着这些去工作。
+
+13:27 | Tyler Folkman
+A skill goes to a loop when you feed back the learning so that it continues to improve.
+ZH | 当你把学习反馈进去让它持续改进时，技能就变成了循环。
+
+21:59 | Tyler Folkman
+The only thing worse than no data is really bad data, so we don't want that.
+ZH | 唯一比没有数据更糟糕的就是非常糟糕的数据，所以我们不想要那种情况。
+
+26:22 | Tyler Folkman
+And I'm just like, yeah, that's not happening. That's going straight to my AI, which kind of defeats the point, right?
+ZH | 我就想，算了吧，这不可能读完。那就直接丢给我的 AI,这其实有点违背初衷，对吧？
+
+27:55 | Tyler Folkman
+I don't think it's reasonable that the other people will use their own energy to consume the document.
+ZH | 我不认为指望其他人耗费自己的精力去消化那份文档是合理的。
+
+28:43 | Tyler Folkman
+And I would argue that some AI slop is actually better than human slop that I've seen before AI.
+ZH | 而且我认为，有些 AI 垃圾内容其实比我在 AI 出现之前见过的人类垃圾内容还要好。
+
+29:05 | Tyler Folkman
+People don't like to remember, but we used to copy and paste code from Stack Overflow, right? It was not that different than AI, just less efficient.
+ZH | 人们不愿回忆，但我们过去是从 Stack Overflow 上复制粘贴代码的，对吧？那和 AI 没什么不同，只是效率更低。
+
+30:03 | Tyler Folkman
+Once you get on the e-bike, you're not pedaling. Like that's just the truth for most people.
+ZH | 一旦你骑上电动自行车，你就不会踩踏板了。对大多数人来说，这就是事实。
+
+31:41 | Tyler Folkman
+It sounds more like AI than any AI I've used. It's insane.
+ZH | 它听起来比我用过的任何 AI 都更像 AI。太疯狂了。
+
+39:23 | Tyler Folkman
+And if you always accept what it says, it will become too much. The skill gets too opinionated, too much context, too many tokens, and it kind of dilutes the whole value.
+ZH | 而如果你总是接受它说的话，事情会变得过头。技能会变得过于固执己见，太多上下文，太多 token,它有点稀释了整个价值。
+
+45:49 | Tyler Folkman
+Claude can just be like, eh, I didn't read that today.
+ZH | Claude 可能就是会觉得，呃，我今天没读那条。
+
+47:30 | Tyler Folkman
+That's not doing product work. That's more kind of outsourcing your thinking.
+ZH | 那不是在做产品工作。那更像是把你的思考外包出去。
+
+48:43 | Tyler Folkman
+I'm like, whoa, Claude does not know how long it will take.
+ZH | 我会说，哇，Claude 并不知道需要多长时间。
+
+50:27 | Tyler Folkman
+Because they will experience the velocity of more bugs. So that's where I would start. If you're looping, loop on quality for engineers.
+ZH | 因为他们会体验到更多 bug 的速度。所以这是我会开始的地方。如果你在做循环，为工程师在质量上循环。
+
+52:46 | Tyler Folkman
+because I almost think that the quality advantage of AI can beat the velocity advantage because it lets you ship safer.
+ZH | 因为我几乎认为 AI 的质量优势可以击败速度优势，因为它让你能更安全地发布。
+
+52:36 | Tyler Folkman
+but the dirty truth is most companies' engineering systems weren't perfect before, so they're not perfect now.
+ZH | 但一个不那么体面的真相是，大多数公司的工程体系以前就不完美，所以现在也不完美。
+
+55:04 | Tyler Folkman
+It's like the version of shipping a button color change or something for a PM in code.
+ZH | 这就像是 PM 在代码里改个按钮颜色然后发布之类的版本。
+
+56:11 | Tyler Folkman
+All those human bottlenecks internally go away, all those different decision points and like getting people together.
+ZH | 内部那些人为瓶颈全都消失了，所有那些不同的决策点，以及把人们聚到一起之类的事情。
+
+57:58 | Tyler Folkman
+So, like, two-thirds of the thing either flat or don't do anything for the business. So, why would you not take some time to basically get more at-bats for free?
+ZH | 所以，有三分之二的功能要么表现平平，要么对业务没有任何作用。那么，为什么不花点时间，基本上免费获得更多的击球机会呢？
+
+61:01 | Tyler Folkman
+AI can code. AI can do the research, but they can't really replicate the customer.
+ZH | AI 会写代码。AI 能做研究，但它们无法真正复制客户。
+
+62:52 | Tyler Folkman
+I think they matter more than ever. But I think because they matter and with AI and systems, you can actually upskill yourself more than ever.
+ZH | 我认为技能比以往任何时候都更重要。但正因为它们重要，而且有了 AI 和系统，你实际上可以比以往任何时候都更好地提升自己。
+
+64:03 | Tyler Folkman
+Like if you looked at most companies' code base, no one would be like, wow, this is like the Picasso of code.
+ZH | 就像如果你去看大多数公司的代码库，没有人会说，哇，这简直是代码界的毕加索。
+
+65:41 | Tyler Folkman
+if you get in a room for eight hours with a lot of time and AI and a lot of things you want to learn and explore, you can do a lot of damage.
+ZH | 如果你在一个房间里待八个小时，有大量时间、AI,还有很多你想学习和探索的东西，你可以搞出很多名堂。
+
+66:34 | Tyler Folkman
+You really got to experience it yourself to be able to speak to it.
+ZH | 你真的必须亲自体验过，才有资格谈论它。
+===END===

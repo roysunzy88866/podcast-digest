@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>45</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>46</b> 集 · <b>21</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -33,6 +33,7 @@ unlisted: true
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集的核心主角。嘉宾完整分享了 Claude 的五层架构栈（模型、界面、知识库、集成、智能体与编排），教你如何利用整个 Claude 生态系统将日常生产力提升 10 倍。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:Anthropic 的核心 AI 产品,本集大量提到它的能力提升以及「诚实无害有帮助」的训练对齐理念
 - **[[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]]**(15:01起):本集在讲述 Replit 智能体误删数据库事件时提到，当时的模型真的会变得很焦虑，特别是 Claude。
+- **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(03:21起):本集说 Yash 用它重构 Sparkle 十五次并自动化整条 A/B 测试流水线;Claude Code 桌面版配 Fable 循环剪辑发布视频;Claude Max 订阅被称严重低估
 - **[[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]]**(02:11起):本集提到 Claude 桌面应用和 Claude 浏览器扩展作为调用浏览器和计算机使用的另一种方式
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(06:25起):本集把它说成:Anthropic 的模型(演讲中常口误为 Cloud),它的任务视界从 Opus 3 时代的 10-20 分钟一直拉长到了 12 小时以上的长程自主工作。
 - **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(07:32起):本集说 Claude 的文字输出风格是冗余废话，形容词堆砌、不停道歉和规避，读起来血压飙升；Claude Code 中的体验比 Worker Chat 稍好
@@ -104,7 +105,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*45 集*
+*46 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -128,6 +129,7 @@ unlisted: true
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为被讨论公司
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念(提及)
 - [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]] — 作为被讨论公司(提及)
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为被讨论公司
 - [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]] — 作为被讨论公司(提及)
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为概念
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为概念
@@ -158,7 +160,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Codex]] · [[OpenAI]] · [[Claude Code]] · [[Google]] · [[vibe coding]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":96,"ChatGPT":48,"Lenny":66,"Codex":35,"OpenAI":82,"Claude Code":43,"Google":35,"vibe coding":26,"MCP":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":97,"ChatGPT":49,"Lenny":66,"Codex":36,"OpenAI":83,"Claude Code":43,"Google":35,"vibe coding":26,"MCP":26}</script>
 
 <script>
 (function(){

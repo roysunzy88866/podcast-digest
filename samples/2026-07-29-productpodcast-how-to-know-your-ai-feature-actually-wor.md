@@ -185,8 +185,8 @@ n8n 内部也设了 AI 与自动化部门,但职责是赋能而非代建:创建[
 **换个口味**
 
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic、Nvidia、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同公司:Hugging Face · 同概念:护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同概念:开源 (open source)、智能体 (agent)</span>
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、编排 (orchestration)</span>
+- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同公司:Salesforce · 同概念:LLM、护栏 (guardrails)</span>
 
 </div>
 </div>

@@ -1,0 +1,1627 @@
+{
+  "episode_id": "2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon",
+  "podcast": "In Depth",
+  "date": "2026-07-24",
+  "tags": [
+    "产品市场契合",
+    "创业公司故事",
+    "AI 产品",
+    "定价",
+    "横向产品"
+  ],
+  "categories": [
+    "产品方法",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jon-noronha",
+      "type": "person",
+      "role": "host",
+      "name": "Jon Noronha",
+      "file": "Jon Noronha",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "gamma",
+      "type": "company",
+      "role": "company",
+      "name": "Gamma",
+      "file": "Gamma",
+      "primary": true,
+      "how_described": "本集主角：超过一亿用户的 AI 演示平台，通过用 AI 解决空白页问题从零 PMF 走到每天十万新用户注册。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.834,
+            13.662
+          ],
+          "quote": "For today's episode, I'm sitting down with John Nerona, co-founder and chief product officer of Gamma, the AI presentation platform that has over 100 million users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            48.117,
+            51.197
+          ],
+          "quote": "In our conversation, John unpacks why Gamma worked.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            58.859,
+            71.362
+          ],
+          "quote": "He gets into the sudden unplanned sprint into enterprise and why he now believes the very guardrails that made Gamma work in 2023 are the same things holding back what today's smarter AI models can do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            71.783,
+            74.987
+          ],
+          "quote": "Gamma's early success came when LLMs weren't very good yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            93.154,
+            105.347
+          ],
+          "quote": "Sort of a way to sort of frame part of the discussion is for Gamma, if you go back to like six months before the company was started all the way through today, how would you define like the distinct phases of product market fit for the company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            218.242,
+            221.063
+          ],
+          "quote": "And we realized that Gamma's core problem is this blank page problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1016.37,
+            1020.633
+          ],
+          "quote": "To give a simple example, one of the early bets that Gamma took was interactivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1052.526,
+            1065.416
+          ],
+          "quote": "But as we grow our distribution and become a platform in our own right where people spend time, now we can actually reintroduce those elements and they become actually part of the stickiness of why someone wants to stay in a tool like Gamma versus exporting to somewhere else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1116.808,
+            1121.129
+          ],
+          "quote": "And I think you really see this with companies that have been in this game much longer than we have at Gamma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1293.147,
+            1300.014
+          ],
+          "quote": "And it feels like in the in the journey of Gamma, there's been this sort of connection between these two because there's this dogfooding culture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2488.826,
+            2496.609
+          ],
+          "quote": "And so for all those reasons, we want to keep nurturing this wide base of people who know and love Gamma and refer to their friends and use it sometimes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2636.377,
+            2644.582
+          ],
+          "quote": "I never would have thought that people in Fortune 25 companies want a product like Gamma right now because we started with these prosumer-y roots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3294.228,
+            3308.033
+          ],
+          "quote": "A simple example for us at Gamma is that we orchestrate both text and image models, but even in those categories we have probably three-ish major providers of each one and use different models for different tasks, in particular optimizing for cost, latency, and reliability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 700,
+          "t": [
+            3411.724,
+            3416.089
+          ],
+          "quote": "You should choose Gamma over PowerPoint because we are so much faster at getting you to the polished outcomes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3431.644,
+            3435.187
+          ],
+          "quote": "And probably like the single biggest lesson that you could take from Gamma was",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3690.37,
+            3695.056
+          ],
+          "quote": "At the same time, I'm also cognizant that Gamma really only succeeded because of luck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 774,
+          "t": [
+            3741.837,
+            3750.259
+          ],
+          "quote": "My synthesis of these ideas and the one I'm trying to apply at Gamma is you need to both give yourself room to be creative and try a lot of ideas.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint",
+      "type": "company",
+      "role": "company",
+      "name": "PowerPoint",
+      "file": "PowerPoint",
+      "primary": true,
+      "how_described": "本集把 PowerPoint 描述为 Gamma 从一开始锁定的目标：每月约十亿人使用却不满意、没人喜欢的产品、巨大的 TAM，且 39 年来没被拉下马。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            145,
+            146.16
+          ],
+          "quote": "The target was always PowerPoint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            156.725,
+            158.786
+          ],
+          "quote": "And so PowerPoint checked those two boxes really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            166.312,
+            170.695
+          ],
+          "quote": "There's like a billion people that use PowerPoint and Google Slides every month, and they're not happy with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            228.525,
+            233.326
+          ],
+          "quote": "But why wasn't that a problem for Google Slides or PowerPoint?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            237.935,
+            244.899
+          ],
+          "quote": "And that actually is what drove product market fit for us is, you know, we always tell ourselves we're 10x better than PowerPoint, 10x better than Google Slides.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            679.416,
+            682.277
+          ],
+          "quote": "A tool like PowerPoint is not a vertical solution, it's horizontal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1210.231,
+            1221.418
+          ],
+          "quote": "I think the blind spot for us, though, was drinking our own Kool-Aid that people always want to operate in our new format versus the sort of obvious realization that, no, everybody is still exporting this thing to PowerPoint early on because that's where their team lives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1222.118,
+            1225.6
+          ],
+          "quote": "And so we did build a PowerPoint export, but probably a year too late.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1465.186,
+            1471.288
+          ],
+          "quote": "PowerPoint came out in 1987, and in the last 39 years, basically nobody else has managed to unseat them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1773.959,
+            1777.081
+          ],
+          "quote": "PowerPoint felt so ripe to attack because it doesn't have the same feeling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1787.868,
+            1792.611
+          ],
+          "quote": "Like, you know, at PowerPoint, you have, I think, a bunch of smart people that are trying to do great work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1810.223,
+            1818.707
+          ],
+          "quote": "If you think about who's buying the Google suite or the Microsoft Office suite, nobody's doing it by comparing the feature set of PowerPoint versus Google Slides.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1824.489,
+            1827.791
+          ],
+          "quote": "And PowerPoint and Google Slides are afterthoughts in their product roadmap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1878.997,
+            1882.92
+          ],
+          "quote": "And just like Excel to your point is much more beloved than PowerPoint.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1896.448,
+            1902.094
+          ],
+          "quote": "I think probably the biggest difference between the Excel workflow and the PowerPoint workflow is creativity and taste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1916.067,
+            1922.79
+          ],
+          "quote": "For example, if you imagine how to write evals for a product like Excel versus a product like PowerPoint, I think it's pretty easy to imagine how to write the Excel ones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1930.413,
+            1936.856
+          ],
+          "quote": "If you now imagine how to do that for PowerPoint, there are these mechanical failures, like did the text get clipped at the bottom of the slide or whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1945.401,
+            1948.602
+          ],
+          "quote": "At the scale of PowerPoint and Google Slides, you have hundreds of millions of people using them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 700,
+          "t": [
+            3411.724,
+            3416.089
+          ],
+          "quote": "You should choose Gamma over PowerPoint because we are so much faster at getting you to the polished outcomes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google-slides",
+      "type": "company",
+      "role": "company",
+      "name": "Google Slides",
+      "file": "Google Slides",
+      "primary": true,
+      "how_described": "本集说它与 PowerPoint 一样每月约十亿人使用且用户不满，但因被捆绑在大套件里、是套件销售的事后考虑，被在位者 neglected。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            166.312,
+            170.695
+          ],
+          "quote": "There's like a billion people that use PowerPoint and Google Slides every month, and they're not happy with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            228.525,
+            233.326
+          ],
+          "quote": "But why wasn't that a problem for Google Slides or PowerPoint?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            237.935,
+            244.899
+          ],
+          "quote": "And that actually is what drove product market fit for us is, you know, we always tell ourselves we're 10x better than PowerPoint, 10x better than Google Slides.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            405.542,
+            408.664
+          ],
+          "quote": "People are wasting all this time just like formatting their PowerPoints and Google Slides.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1471.588,
+            1475.21
+          ],
+          "quote": "The companies that have come closest, you know, you probably say Google Slides and maybe Keynote.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1792.691,
+            1797.774
+          ],
+          "quote": "I think Google Slides has talented technologists and product builders.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1810.223,
+            1818.707
+          ],
+          "quote": "If you think about who's buying the Google suite or the Microsoft Office suite, nobody's doing it by comparing the feature set of PowerPoint versus Google Slides.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1819.127,
+            1823.949
+          ],
+          "quote": "Instead, they're comparing Outlook versus Gmail, and maybe after that, like Word versus Google Slides.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1824.489,
+            1827.791
+          ],
+          "quote": "And PowerPoint and Google Slides are afterthoughts in their product roadmap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1838.538,
+            1853.928
+          ],
+          "quote": "The thing that I've heard secondhand is that, you know, when Google was thinking about where to put its AI resources, of course, they're gonna throw those at Search, which is its flagship, you know, core product, rather than something like Google Slides, which it can count on being sold for free, whether it does well or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1872.155,
+            1878.377
+          ],
+          "quote": "But it feels like Google Sheets is doing a much better job of delivering on the promise than Google Slides is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1945.401,
+            1948.602
+          ],
+          "quote": "At the scale of PowerPoint and Google Slides, you have hundreds of millions of people using them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "optimizely",
+      "type": "company",
+      "role": "company",
+      "name": "Optimizely",
+      "file": "Optimizely",
+      "primary": true,
+      "how_described": "本集说这是 John 的老东家，从每月 10、20 美元的 SMB 产品历时几年转型为客户年付数百万美元的企业级产品，他的企业级经验来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            724.367,
+            734.914
+          ],
+          "quote": "I think another example is that we've relied heavily on techniques like A-B testing, coming from my kind of Optimizely heritage, to iterate our way towards everything from pricing to AI models to user experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2672.959,
+            2686.304
+          ],
+          "quote": "Because I'd been through a virtuous journey at my previous company, Optimizely, where we also started as an SMB product with $10, $20 a month plans, and over a period of, in Optimizely's case, several years, transitioned to an enterprise product with customers paying millions of dollars a year.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": true,
+      "how_described": "本集把它列为最令人振奋的横向生产力公司之一，靠好模板对抗空白页做得很好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            260.968,
+            263.81
+          ],
+          "quote": "It's also what Notion's done really well in its own kind of separate domain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1121.469,
+            1126.01
+          ],
+          "quote": "I'm thinking again about these companies that inspire us, like a Slack or a Notion or a Canva.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": true,
+      "how_described": "本集把它和 Notion、Loom 一起列为非纵向化的横向公司典范，是 Gamma 押注横向产品的参照。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            112.145,
+            119.708
+          ],
+          "quote": "And it was this period when we saw all these companies like say Zoom and Loom and Slack really blowing up because people were taking a new approach to work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            619.95,
+            622.491
+          ],
+          "quote": "Maybe slack was early stage startups or whatever it is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1121.469,
+            1126.01
+          ],
+          "quote": "I'm thinking again about these companies that inspire us, like a Slack or a Notion or a Canva.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "loom",
+      "type": "company",
+      "role": "company",
+      "name": "Loom",
+      "file": "Loom",
+      "primary": true,
+      "how_described": "本集把它与 Notion、Slack 并列为相当横向、非纵向化的令人振奋的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            112.145,
+            119.708
+          ],
+          "quote": "And it was this period when we saw all these companies like say Zoom and Loom and Slack really blowing up because people were taking a new approach to work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": true,
+      "how_described": "本集举例说销售团队用 Salesforce 做记录系统，Gamma 在商机创建、推进或约了会时自动生成演示文稿交付给销售代表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 348,
+          "t": [
+            1621.737,
+            1627.78
+          ],
+          "quote": "So a simple example to think about is that sales team uses, let's say, Salesforce as their CRM system of record.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "excel",
+      "type": "company",
+      "role": "company",
+      "name": "Excel",
+      "file": "Excel",
+      "primary": false,
+      "how_described": "本集用它对比 PowerPoint：太受使用者喜爱、评测容易写客观标准，所以 John 不会想和它竞争。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 370,
+          "t": [
+            1753.826,
+            1757.929
+          ],
+          "quote": "So Excel is such a dominant tool for spreadsheets and I love Excel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1759.63,
+            1765.594
+          ],
+          "quote": "I would not want to compete with Excel, even though I do think there are all these interesting ways you could compete with Excel in the sense that like code is coming along.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1878.997,
+            1882.92
+          ],
+          "quote": "And just like Excel to your point is much more beloved than PowerPoint.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1883.02,
+            1885.581
+          ],
+          "quote": "But a lot of times the suite is not sold because of Excel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1885.641,
+            1888.203
+          ],
+          "quote": "It's in some ways, I guess, Excel has kind of become Kleenex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1896.448,
+            1902.094
+          ],
+          "quote": "I think probably the biggest difference between the Excel workflow and the PowerPoint workflow is creativity and taste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1916.067,
+            1922.79
+          ],
+          "quote": "For example, if you imagine how to write evals for a product like Excel versus a product like PowerPoint, I think it's pretty easy to imagine how to write the Excel ones.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "canvas",
+      "type": "company",
+      "role": "company",
+      "name": "Canvas",
+      "file": "Canvas",
+      "primary": false,
+      "how_described": "本集说给用户好模板是对抗空白页最接近的旧办法，即 Canvas 的策略(照转写稿写法 Canvas)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            259.527,
+            260.608
+          ],
+          "quote": "This is Canvas strategy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到他们看到的是 GPT-3、当时甚至还没有 ChatGPT。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            215.281,
+            217.422
+          ],
+          "quote": "We're seeing GPT-3, not even ChatGPT yet.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stable-diffusion",
+      "type": "concept",
+      "role": "concept",
+      "name": "stable diffusion",
+      "file": "stable diffusion",
+      "primary": false,
+      "how_described": "本集说 AI 的第一抹新绿出现时他们看到 Stable Diffusion 这样的模型存在于世。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            212.721,
+            214.861
+          ],
+          "quote": "We're seeing stable diffusion as a model out there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (generative AI)",
+      "file": "生成式 AI",
+      "primary": true,
+      "how_described": "本集说它是超级强大的克敌工具，让他们终于能解决空白页问题、设计出一整场起飞的发布。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            264.23,
+            269.533
+          ],
+          "quote": "But we got to now use this ultra powerful kryptonite tool to solve the problem, which was generative AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 Gamma 早期成功发生在 LLM 还很笨的 2023 年，护栏是为笨提示词设的；现在聪明得多的 LLM 正被这些护栏拖住后腿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 474,
+          "t": [
+            2268.337,
+            2276.68
+          ],
+          "quote": "A lot of what we've had to cobble together along the way have been guardrails that get an LLM to produce consistently good visual output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2306.146,
+            2311.567
+          ],
+          "quote": "We kind of enforced them from the outside and said, LLM, you just write text and we will style it for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把护栏说成双刃剑：早期为笨 AI 设的硬约束(接管字体、渲染布局、防溢出)造就了成功，如今却拖累更聪明的 AI，需要踢开护栏、给 AI 更高的创造力上限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            58.859,
+            71.362
+          ],
+          "quote": "He gets into the sudden unplanned sprint into enterprise and why he now believes the very guardrails that made Gamma work in 2023 are the same things holding back what today's smarter AI models can do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            75.107,
+            78.652
+          ],
+          "quote": "All those guardrails we put in place are holding these much more intelligent AIs back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            936.194,
+            945.741
+          ],
+          "quote": "And so a lot of what made our product great was guardrails we put around these kind of dumb, they weren't even agents yet, dumb prompts to protect the AI from itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            946.521,
+            952.344
+          ],
+          "quote": "Now what we're finding actually is that all those guardrails we put in place are holding these much more intelligent AIs back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2268.337,
+            2276.68
+          ],
+          "quote": "A lot of what we've had to cobble together along the way have been guardrails that get an LLM to produce consistently good visual output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2296.525,
+            2301.566
+          ],
+          "quote": "Early on, the guardrails we took to that were hard structural constraints of our format.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2337.121,
+            2342.345
+          ],
+          "quote": "But frankly, we're finding now that it's actually hamstringing us by building all these guardrails in about formatting and design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2348.007,
+            2363.114
+          ],
+          "quote": "And so a lot of the hard problems we're digging into now is how do we actually give the AI more of a creative ceiling and in some cases kick away these guardrails that were previously holding it up while still maintaining that floor and the editing experience that is simple and focused.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "blank-page",
+      "type": "concept",
+      "role": "concept",
+      "name": "空白页 (blank page)",
+      "file": "空白页",
+      "primary": true,
+      "how_described": "本集的核心问题：用户进来面对空屏被要求从零开始，Gamma 押注一切用 AI 克服它，结果发现自己是在发现产品市场契合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            18.786,
+            22.53
+          ],
+          "quote": "They bet everything on solving one problem, the blank page.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            218.242,
+            221.063
+          ],
+          "quote": "And we realized that Gamma's core problem is this blank page problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            245.299,
+            248.241
+          ],
+          "quote": "But until we actually solved that blank page problem for people, we weren't really.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            248.341,
+            254.265
+          ],
+          "quote": "That was actually the foundational problem with those products is they start in a blank page and you cobble something together out of templates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            295.206,
+            302.89
+          ],
+          "quote": "So as soon as we went to say, well, what would get this number to be 20, 30, 50%, it was like, well, this blank page was staring us in the face is the obvious problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            304.711,
+            307.612
+          ],
+          "quote": "So we designed a whole launch around let's overcome that blank page.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            315.136,
+            318.757
+          ],
+          "quote": "And we wanted to bet on use AI to overcome the blank page problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            438.466,
+            447.933
+          ],
+          "quote": "We thought we were solving an onboarding problem, which was overcome the blank page, but it turns out we were discovering product market fit because the real job to be done for the customer is also solve the blank page.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            448.513,
+            457.846
+          ],
+          "quote": "And so when we solved what we thought was our problem, which was solve the blank page for our onboarding, we actually solved their problem, which was solve the blank page for me to avoid all this time making a presentation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            775.382,
+            778.726
+          ],
+          "quote": "It was almost all the same few problems, which is actually this blank page problem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集说最好的定义是「你不再把石头往山上推，而是开始追着往山下滚的石头跑」，并按 PMF 各阶段串起全公司故事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            29.017,
+            34.165
+          ],
+          "quote": "The best definition I've heard of product market fit is you stop pushing the rock up the hill and you start chasing the rock down the hill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            93.154,
+            105.347
+          ],
+          "quote": "Sort of a way to sort of frame part of the discussion is for Gamma, if you go back to like six months before the company was started all the way through today, how would you define like the distinct phases of product market fit for the company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            105.942,
+            108.543
+          ],
+          "quote": "Well, let's start with the none era of product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            197.513,
+            203.636
+          ],
+          "quote": "We have slightly linear growth, but I would say we're in this era of weak to middling product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            237.935,
+            244.899
+          ],
+          "quote": "And that actually is what drove product market fit for us is, you know, we always tell ourselves we're 10x better than PowerPoint, 10x better than Google Slides.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            325.84,
+            330.723
+          ],
+          "quote": "That really did scratch an itch and got us through our first stage of product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            331.643,
+            336.85
+          ],
+          "quote": "The best definition I've heard of product market fit is you stop pushing the rock up the hill and you start chasing the rock down the hill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            360.59,
+            365.712
+          ],
+          "quote": "That's kind of as red hot as it gets with product market fit, and we spent the whole next couple years just trying to keep up with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            366.072,
+            370.538
+          ],
+          "quote": "Now we're in an era where I think we've finally caught up with that prosumer product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            373.922,
+            379.629
+          ],
+          "quote": "But now we've entered this new stage of product market fit challenge, which is in the last year or so B2B demand appeared.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            408.985,
+            413.347
+          ],
+          "quote": "And so we hit this new source of product market fit that we were once again woefully unprepared for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            438.466,
+            447.933
+          ],
+          "quote": "We thought we were solving an onboarding problem, which was overcome the blank page, but it turns out we were discovering product market fit because the real job to be done for the customer is also solve the blank page.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            458.266,
+            460.489
+          ],
+          "quote": "And it turned out that was actually the thing that had product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            704.69,
+            713.017
+          ],
+          "quote": "The composition of our team early on, you know, our original team, we had product market fit, was 12 people, of which zero were in any kind of GTM role, so we had no sales or marketing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            854.298,
+            869.384
+          ],
+          "quote": "Do you think the fact that you had weak product market fit ended up being a huge lucky break in that if the company had much stronger product market fit, it would be harder to rebuild it when these new AI primitives sort of were invented?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            897.493,
+            901.556
+          ],
+          "quote": "And it's an interesting challenge now because as we grow, you know, product market fit is not guaranteed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1008.585,
+            1016.31
+          ],
+          "quote": "So, you know, there are some aspects of our product which never hit product market fit in that early stage, but I think still could actually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1029.138,
+            1037.9
+          ],
+          "quote": "Early on that turned out not to resonate with our first product market fit because people really just wanted to interoperate with the world they're used to of make traditional PowerPoints.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1350.442,
+            1357.751
+          ],
+          "quote": "We're really experiencing this now as we take our consumery product and go into B2B, where in many ways there's already product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2992.183,
+            2998.568
+          ],
+          "quote": "So the way to know if you're not moving fast enough is when you start seeing signals in the data that you're losing even an ounce of product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3028.583,
+            3034.545
+          ],
+          "quote": "You sort of gave the qualitative definition of your experience of product market fit while rolling up the hill versus down the hill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3056.241,
+            3061.304
+          ],
+          "quote": "Obviously a vanity metric, it's not the one that most drives the business, but it was the one that drove the qualitative feel of product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3076.435,
+            3080.158
+          ],
+          "quote": "But the reason we knew product market fit was happening was that the numbers started inflecting upwards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3485.167,
+            3492.894
+          ],
+          "quote": "Ironically, I would say the happiest and easiest time was when we had zero product market fit because zero PMF equals no responsibilities, complete creative freedom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3530.632,
+            3534.073
+          ],
+          "quote": "But once we hit product market fit, it wasn't all sunshine and roses.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "horizontal-product",
+      "type": "concept",
+      "role": "concept",
+      "name": "横向产品 (horizontal product)",
+      "file": "横向产品",
+      "primary": true,
+      "how_described": "本集说 Gamma 很早且一贯地押注做横向而非纵向产品，这是融资中投资人反复质疑的持续紧张来源，但 100 场用户访谈证明问题天然横向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            51.617,
+            55.978
+          ],
+          "quote": "We bet early on and pretty consistently on building a horizontal product rather than a vertical one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            584.597,
+            590.879
+          ],
+          "quote": "We bet early on and pretty consistently on building a horizontal product rather than a vertical one that was focused on a specific persona.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1545.256,
+            1551.858
+          ],
+          "quote": "It's not build the horizontal product or build the sort of like verticalized solution with depth for a different customer base.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "定价 (pricing)",
+      "file": "定价",
+      "primary": true,
+      "how_described": "本集说 AI 产品的商业化是移动的靶子，没有一种定价模型能一直有效；他们用 10/25/100 美元分层筛选偏好，定价自然揭示用户偏好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            724.367,
+            734.914
+          ],
+          "quote": "I think another example is that we've relied heavily on techniques like A-B testing, coming from my kind of Optimizely heritage, to iterate our way towards everything from pricing to AI models to user experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2374.889,
+            2383.672
+          ],
+          "quote": "And there's no pricing model we could have had starting in 2023 up to now in 2026 that would have worked at every period of our growth or into the future.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2527.512,
+            2530.535
+          ],
+          "quote": "And, you know, pricing naturally reveals preference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3319.078,
+            3324.402
+          ],
+          "quote": "On pricing, segmenting users into different types and finding ways to serve those different categories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3382.353,
+            3383.373
+          ],
+          "quote": "Rethink pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3383.553,
+            3386.475
+          ],
+          "quote": "Don't take legacy SaaS pricing as a given in this new world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3386.535,
+            3388.715
+          ],
+          "quote": "I think you'll need to test your way to pricing yourself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "virality",
+      "type": "concept",
+      "role": "concept",
+      "name": "病毒式传播 (virality)",
+      "file": "病毒式传播",
+      "primary": true,
+      "how_described": "本集说拐点是他们通过引入 AI 在产品内真正解决了病毒式传播——用户做出好东西、分享、低摩擦试用、再告诉朋友，分发种子大小不重要，斜率全是产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            642.524,
+            644.565
+          ],
+          "quote": "Because there was natural virality to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2832.644,
+            2837.227
+          ],
+          "quote": "The inflection point came when we truly solved virality in the product by introducing AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "b2b",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业需求 (B2B)",
+      "file": "企业需求",
+      "primary": true,
+      "how_described": "本集说 B2B 需求是过去一年自己撞上来的：AI 强制令下演示文稿是员工调研第三大用例，财富 25 强找上门、拒绝也赶不走，逼他们从零搭 B2B 运作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            373.922,
+            379.629
+          ],
+          "quote": "But now we've entered this new stage of product market fit challenge, which is in the last year or so B2B demand appeared.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            416.049,
+            420.092
+          ],
+          "quote": "And so for the last year in building up that B2B motion, basically from scratch and getting it in place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1350.442,
+            1357.751
+          ],
+          "quote": "We're really experiencing this now as we take our consumery product and go into B2B, where in many ways there's already product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1563.623,
+            1567.347
+          ],
+          "quote": "And we're already seeing signs of that, particularly in our B2B motion, our API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1615.334,
+            1621.517
+          ],
+          "quote": "And where we have now rolled out a B2B offering as well as an API with connectors into common tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集说演示类产品的评测是「软」问题——越过文字溢出这类机械失败后，难以客观迭代；他们的解法是把它当数据问题，提取用户品味和偏好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            1916.067,
+            1922.79
+          ],
+          "quote": "For example, if you imagine how to write evals for a product like Excel versus a product like PowerPoint, I think it's pretty easy to imagine how to write the Excel ones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1966.349,
+            1970.23
+          ],
+          "quote": "So how have you solved the evals problem or how do you think about it at a philosophical level?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2034.627,
+            2039.591
+          ],
+          "quote": "So for us, it's not about the one right answer of evals, although we do have evals for a lot of common cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3308.493,
+            3314.775
+          ],
+          "quote": "Building both evals on top and also a data pipeline to actually gather real user preference signals",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-model-orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模型编排 (multi-model orchestration)",
+      "file": "多模型编排",
+      "primary": true,
+      "how_described": "本集说不能绑死单一模型做套壳，Gamma 同编排名约三家文本和三家图像供应商，按成本、延迟、可靠性为不同任务选模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 676,
+          "t": [
+            3285.501,
+            3286.742
+          ],
+          "quote": "Multi-model orchestration.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编程 (AI coding)",
+      "file": "AI 编程",
+      "primary": false,
+      "how_described": "本集提了一句工程文化转向与 AI 编码的移动相契合：可惜六个月后要扔掉，但同时能以四倍速度构建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            827.305,
+            832.148
+          ],
+          "quote": "Keep in mind, this is pre-AI coding, so we still had to do it all the old-fashioned way, hand-rolled by hand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2136.877,
+            2144.625
+          ],
+          "quote": "It also kind of jives with this whole move towards AI coding where, gosh, it's a shame we're going to throw this all away in six months, but at the same time we can build it four times faster.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "a-b-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "A/B 测试 (A-B testing)",
+      "file": "A/B 测试",
+      "primary": true,
+      "how_described": "本集说他们重度依赖 A/B 测试(源于 John 的 Optimizely 出身)打磨从定价到 AI 模型到用户体验的一切，包括在不同模型上跑 A/B 测试看什么打动用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            724.367,
+            734.914
+          ],
+          "quote": "I think another example is that we've relied heavily on techniques like A-B testing, coming from my kind of Optimizely heritage, to iterate our way towards everything from pricing to AI models to user experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1408.231,
+            1412.572
+          ],
+          "quote": "We really stick to metrics and analytics and A-B testing, but there's also qualitative data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-mandate",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 强制令 (AI mandate)",
+      "file": "AI 强制令",
+      "primary": true,
+      "how_described": "本集把它说成 CEO 自上而下要求更多 AI 的现象：调查员工最想用 AI 做什么，演示文稿是反复冒出来的第三大用例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            384.034,
+            389.116
+          ],
+          "quote": "And also, we saw this phenomenon of the AI mandate, where the CEO says top-down, we need more AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-tourism",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 旅游 (AI tourism)",
+      "file": "AI 旅游",
+      "primary": true,
+      "how_described": "本集用它命名流失现象：人们很愿意试新 AI 产品，但第一次刷卡付费不代表真的留下。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 505,
+          "t": [
+            2432.932,
+            2436.314
+          ],
+          "quote": "But then there's a churn component on the other end of that, which is this AI tourism phenomenon.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

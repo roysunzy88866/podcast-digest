@@ -97,7 +97,7 @@ Claire 认为最大的惊喜是:它终于能操作复杂的节点式 web 界面�
 
 - [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|让AI替你操作电脑和浏览器的三个实战用法]]<span class="pd-rz">同概念:browser use、Codex、computer use、QA、ChatPRD、MCP</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、computer use、vibe coding</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、vibe coding</span>
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、MCP、Flora</span>
 
 </div>
 <div class="pd-ex">
