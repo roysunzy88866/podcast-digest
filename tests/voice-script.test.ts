@@ -7,6 +7,7 @@ import {
   distortErrs,
   baseErrs,
   scriptErrs,
+  endingErrs,
   buildInput,
   buildRef,
   generateWithRetry,
@@ -134,5 +135,32 @@ describe("C38 · generateWithRetry(DI 假 GLM,不烧钱)", () => {
     const ask = async () => "## 永远带标题的坏稿";
     const r = await generateWithRetry({ sys: "S", digest: { digest_md: digestMd }, ask, maxRetry: 2, saveBad: () => {}, log: () => {}, warn: () => {} });
     expect(r).toBeNull();
+  });
+});
+
+describe("C38 闸门④ · 结尾必须落地(用户 2026-09-05「没有结尾」)", () => {
+  const body = "这是一段足够长的口播稿正文,讲清了今天是谁、聊什么问题、来龙去脉,现在到收尾了。";
+  it("★★★ 陈述句收尾(。!」』)放行", () => {
+    expect(endingErrs(body + "记住这一句就够了。")).toEqual([]);
+    expect(endingErrs(body + "这就是他想说的!")).toEqual([]);
+    expect(endingErrs(body + "用他的原话说,「答案早就写在数据里」。")).toEqual([]);
+  });
+  it("★★★ 反问句/问句收尾 → 拦(听着像没说完)", () => {
+    const e = endingErrs(body + "而这到底意味着什么呢?");
+    expect(e.length).toBe(1);
+    expect(e[0]).toContain("问句");
+  });
+  it("★★★ 戛然而止(无句末标点)→ 拦", () => {
+    expect(endingErrs(body + "然后就没有然后了").length).toBe(1);
+    expect(endingErrs(body + "还有个细节,").length).toBe(1);
+  });
+  it("★★ 太短交 baseErrs 管,结尾闸门不重复报", () => {
+    expect(endingErrs("短")).toEqual([]);
+    expect(endingErrs("")).toEqual([]);
+  });
+  it("★★ 并入 scriptErrs(不接上 = 摆设)", () => {
+    const ref = "";
+    expect(scriptErrs(body + "留个悬念,你说呢?", ref).some((x) => x.includes("问句"))).toBe(true);
+    expect(scriptErrs(body + "落在这句话上。", ref).some((x) => x.includes("问句") || x.includes("戛然"))).toBe(false);
   });
 });

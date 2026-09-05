@@ -69,6 +69,15 @@ export function distortErrs(script, ref) {
   return errs;
 }
 
+// ── 闸门④:结尾必须落地 —— 用户 2026-09-05「没有结尾」:稿子常以反问句吊着或戛然而止,念出来像话没说完 ──
+export function endingErrs(script) {
+  const errs = [];
+  const s = String(script ?? "").trim();
+  if (s.length < 20) return errs; // 太短交 baseErrs 管
+  if (/[？?]$/.test(s)) errs.push("结尾是问句——收尾要落在一句能记住的陈述上,别用反问吊着(听着像没说完)");
+  else if (!/[。！!」』]$/.test(s)) errs.push("结尾没落在完整句子上(该以 。!」』 收束),别戛然而止");
+  return errs;
+}
 // ── 结构/长度基本校验 + 三闸合一 ──
 export function baseErrs(script) {
   const errs = [];
@@ -79,7 +88,7 @@ export function baseErrs(script) {
 }
 
 export function scriptErrs(script, ref) {
-  return [...baseErrs(script), ...taErrs(script), ...speechErrs(script), ...distortErrs(script, ref)];
+  return [...baseErrs(script), ...taErrs(script), ...speechErrs(script), ...distortErrs(script, ref), ...endingErrs(script)];
 }
 
 // ── 组织给 GLM 的输入(digest 正文 + 金句素材,都是已定稿的干净料)──
