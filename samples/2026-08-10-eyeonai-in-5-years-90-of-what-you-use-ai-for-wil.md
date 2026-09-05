@@ -208,8 +208,8 @@ Paolo 把所有这些串成一条线：40 亿人拿不到基本金融服务，�
 **换个口味**
 
 - [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同概念:微调 (fine-tuning)、智能体 (agents)</span>
+- [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同概念:开源 (open source)、推理 (inference)</span>
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同概念:开源 (open source)、推理 (inference)</span>
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agents)</span>
 
 </div>
 </div>

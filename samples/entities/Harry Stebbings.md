@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[OpenRouter]] · [[开源]] · [[Lovable]] · [[Meta]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":86,"Anthropic":99,"Cursor":45,"推理":4,"OpenRouter":8,"开源":13,"Lovable":13,"Meta":26,"SpaceX":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":87,"Anthropic":100,"Cursor":45,"推理":4,"OpenRouter":8,"开源":14,"Lovable":14,"Meta":26,"SpaceX":12}</script>
 
 <script>
 (function(){

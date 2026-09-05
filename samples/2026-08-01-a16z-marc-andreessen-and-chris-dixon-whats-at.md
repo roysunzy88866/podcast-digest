@@ -155,8 +155,8 @@ Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法]]<span class="pd-rz">同概念:区块链 (blockchain)、代币化 (tokenization)</span>
+- [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同概念:开源软件 (open source)</span>
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同概念:开源软件 (open source)</span>
-- [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|Steven Sinofsky：AI监管为什么急不得]]<span class="pd-rz">同概念:开源软件 (open source)</span>
 
 </div>
 <div class="pd-ex">

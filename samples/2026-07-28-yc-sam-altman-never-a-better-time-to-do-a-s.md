@@ -182,7 +182,7 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|PG 炉边谈话：创业的核心从来没变过]]<span class="pd-rz">同公司:OpenAI、YC · 同概念:AGI、推理 (inference)、ChatGPT</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
-- [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司]]<span class="pd-rz">同公司:OpenAI · 同概念:主观能动性 (agency)、智能体 (agents)</span>
+- [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

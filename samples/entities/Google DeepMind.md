@@ -31,7 +31,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[持续学习]] · [[Apple]] · [[Harry Stabbings]] · [[Zubin Gharemani]] · [[Ryan Greenblatt]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":86,"Anthropic":99,"Google":35,"智能体":1,"持续学习":5,"Apple":14,"Harry Stabbings":1,"Zubin Gharemani":1,"Ryan Greenblatt":2,"Microsoft":22}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":87,"Anthropic":100,"Google":35,"智能体":1,"持续学习":5,"Apple":14,"Harry Stabbings":1,"Zubin Gharemani":1,"Ryan Greenblatt":2,"Microsoft":22}</script>
 
 <script>
 (function(){

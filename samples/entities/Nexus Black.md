@@ -25,7 +25,7 @@ unlisted: true
 
 [[Kriti Sharma]] · [[Craig Smith]] · [[IFS]] · [[Anthropic]] · [[William Grant]] · [[Boston Dynamics]] · [[智能体]] · [[Resolve]] · [[知识表征]] · [[管道和仪表图]]
 
-<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Craig Smith":1,"IFS":1,"Anthropic":99,"William Grant":1,"Boston Dynamics":2,"智能体":1,"Resolve":1,"知识表征":1,"管道和仪表图":1}</script>
+<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Craig Smith":1,"IFS":1,"Anthropic":100,"William Grant":1,"Boston Dynamics":2,"智能体":1,"Resolve":1,"知识表征":1,"管道和仪表图":1}</script>
 
 <script>
 (function(){

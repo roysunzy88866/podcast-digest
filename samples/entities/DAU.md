@@ -25,7 +25,7 @@ unlisted: true
 
 [[点图]] · [[队列留存曲线]] · [[PayPal]] · [[Spotify]] · [[GitHub]] · [[YC]]
 
-<script type="application/json" class="pd-epn">{"点图":1,"队列留存曲线":1,"PayPal":5,"Spotify":3,"GitHub":20,"YC":10}</script>
+<script type="application/json" class="pd-epn">{"点图":1,"队列留存曲线":1,"PayPal":5,"Spotify":3,"GitHub":21,"YC":10}</script>
 
 <script>
 (function(){

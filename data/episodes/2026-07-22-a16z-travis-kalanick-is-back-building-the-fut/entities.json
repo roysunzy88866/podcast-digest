@@ -1,0 +1,1769 @@
+{
+  "episode_id": "2026-07-22-a16z-travis-kalanick-is-back-building-the-fut",
+  "podcast": "The a16z Show",
+  "date": "2026-07-22",
+  "tags": [
+    "创业与行业",
+    "工业 AI",
+    "融资",
+    "物理世界数字化",
+    "管理哲学"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "travis-kalanick",
+      "type": "person",
+      "role": "host",
+      "name": "Travis Kalanick",
+      "file": "Travis Kalanick",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.46,
+            7.023
+          ],
+          "quote": "Travis Kalanick has stepped down from his role as chief executive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            66.238,
+            71.119
+          ],
+          "quote": "Today I'm joined by Travis Kalanick and Ben Horowitz for a conversation years in the making.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ben-horowitz",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ben Horowitz",
+      "file": "Ben Horowitz",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            66.238,
+            71.119
+          ],
+          "quote": "Today I'm joined by Travis Kalanick and Ben Horowitz for a conversation years in the making.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": true,
+      "how_described": "本集把 Uber 说成 Travis 2011 年融资 B 轮、把物理世界『网络』几乎数字化完毕的公司，也是 2017 年创始人离任危机的现场；Ben 说若 A16Z 在董事会，结局不会那样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.757,
+            3.24
+          ],
+          "quote": "We know what Uber's 2017 was like.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 13,
+          "t": [
+            56.072,
+            59.434
+          ],
+          "quote": "If it does, you do to the kitchen what Uber did to the car.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            71.819,
+            82.202
+          ],
+          "quote": "We look back at the investment that almost happened, the lessons Travis took from building Uber, and why he believes the next great technology revolution won't be in software, but in the physical world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            122.157,
+            126.399
+          ],
+          "quote": "I've known Mark and Ben for a long time, and we got oh so close to partnering up at Uber in 2011.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            133.343,
+            136.804
+          ],
+          "quote": "And in 2017, Uber suffered the consequences of not having Mark on the board.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            158.156,
+            161.318
+          ],
+          "quote": "Uber started 2010, June 2010.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 48,
+          "t": [
+            172.467,
+            179.953
+          ],
+          "quote": "I went through such tough times as an entrepreneur pre-Uber that once I'm in Uber and things are working, I'm still acting like",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 127,
+          "t": [
+            427.443,
+            429.185
+          ],
+          "quote": "This is how Shervin got involved in Uber.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 167,
+          "t": [
+            558.822,
+            564.105
+          ],
+          "quote": "And by the way, that kind of got off to a very, very difficult start largely because of Uber.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 218,
+          "t": [
+            727.265,
+            733.227
+          ],
+          "quote": "That made it, that kind of just was the extra texture on the Uber experience, at least for me.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 226,
+          "t": [
+            758.939,
+            769.069
+          ],
+          "quote": "Well, what I would say is there's one middle piece to this, which is those who are obviously in the tech industry, like we know what Uber's 2017 was like.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 233,
+          "t": [
+            788.947,
+            794.011
+          ],
+          "quote": "I mean, it would have been... By the way, Uber would be...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 237,
+          "t": [
+            807.006,
+            808.606
+          ],
+          "quote": "Uber was dominating food.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 308,
+          "t": [
+            987.291,
+            993.292
+          ],
+          "quote": "That was sort of coming in on Uber and trying to constrain it, if that makes sense.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1015.131,
+            1019.355
+          ],
+          "quote": "I continue to stand by every decision I made at Uber.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1125.383,
+            1132.047
+          ],
+          "quote": "Recruit the drivers on Lyft to bring them over to Uber so that it was hard for Lyft to build supply.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1232.666,
+            1244.413
+          ],
+          "quote": "So I had a buddy who started a thing right near the end of my Uber tenure, and it was called Cloud Kitchens.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1262.588,
+            1264.909
+          ],
+          "quote": "We got Uber Eats up in 2015.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1273.529,
+            1278.85
+          ],
+          "quote": "Commercial kitchens in Melbourne that were not restaurants that were on Uber Eats.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1313.926,
+            1320.033
+          ],
+          "quote": "And then in the fall, like, like three months after I had left Uber, we meet up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1612.23,
+            1615.611
+          ],
+          "quote": "If it does, you do to the kitchen what Uber did to the car.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2056.958,
+            2063.98
+          ],
+          "quote": "So look, the vision for digitizing the physical world for me started at Uber, okay?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2064.76,
+            2067.621
+          ],
+          "quote": "And treating atoms like bits started at Uber.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2084.272,
+            2086.454
+          ],
+          "quote": "Everybody's first Uber experience was a magical moment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2092.218,
+            2108.152
+          ],
+          "quote": "And this idea of what I would call an atoms-based computer was something I sort of was working on in terms of her framework at the end of Uber, which is CPU manipulates bits, storage stores bits, network moves bits from point A to point B.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2211.009,
+            2212.73
+          ],
+          "quote": "Okay, so the vision started at Uber.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2220.573,
+            2225.655
+          ],
+          "quote": "And the idea that, oh, okay, Uber was network for the physical world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2290.971,
+            2299.615
+          ],
+          "quote": "It's funny because the framework started near the end of my Uber time, really when we were getting deep, we were going into deep learning and heavy duty ML.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2393.382,
+            2404.893
+          ],
+          "quote": "And, you know, folks like Uber or other partners across different categories were like, we're interested.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2527.251,
+            2530.752
+          ],
+          "quote": "That's Uber's advanced technology group, is working for us.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2532.053,
+            2544.637
+          ],
+          "quote": "And then Anthony Lewandowski, who is one of my top leads on autonomy back at Uber, was running Pronto, which was an autonomous mining company, let's call it off-road autonomy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 786,
+          "t": [
+            3035.296,
+            3043.022
+          ],
+          "quote": "There's a very few entrepreneurs, you know, in the history of the Valley that built something like Uber.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3043.942,
+            3051.348
+          ],
+          "quote": "And that Uber, basically, it survived and is still a very valuable company without them, which almost, you know, like that never happens without the founder.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 795,
+          "t": [
+            3072.475,
+            3082.358
+          ],
+          "quote": "I realized this at Uber, too, is that I think, in any ways, maybe Bezos was the guy to sort of really go there, which is,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3168.871,
+            3177.016
+          ],
+          "quote": "You can start going, Uber rides, then it's Uber Eats, then it's Uber Autonomy, then it was Uber Freight, then it's like Uber AI Labs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 833,
+          "t": [
+            3212.386,
+            3218.808
+          ],
+          "quote": "And because he's a customer of these things, right, at Uber, he all of a sudden, he knows what the network is.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 885,
+          "t": [
+            3378.629,
+            3386.813
+          ],
+          "quote": "They went to work that morning at a six-person startup, and an hour later, the founder of Uber is now the CEO.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1027,
+          "t": [
+            3923.356,
+            3926.518
+          ],
+          "quote": "I started seeing that on rides at Uber where it was like,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1034,
+          "t": [
+            3944.344,
+            3950.39
+          ],
+          "quote": "So, actually, this brings up one of the things that he did best at Uber, having had to deal with these guys.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            4024.733,
+            4030.736
+          ],
+          "quote": "So you've got, you've got, I've got, you know, I'm running Uber, let's say.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            4129.046,
+            4136.632
+          ],
+          "quote": "And I think that's the difference between what we did at Uber versus we're seeing how a lot of other companies are expanding internationally that are buying things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1116,
+          "t": [
+            4239.404,
+            4244.146
+          ],
+          "quote": "A problem creator might be like, creating a problem might be like, hey, let's do Uber in China.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1158,
+          "t": [
+            4383.013,
+            4392.459
+          ],
+          "quote": "And so if you had still been running Uber, you know, in this other universe, are some of the vision that you have here with Atoms, would that have been, you know...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            4402.9,
+            4420.285
+          ],
+          "quote": "And so if the future of food is about infrastructure, automated production, automated logistics, that's the future of Uber Eats too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1220,
+          "t": [
+            4707.348,
+            4708.989
+          ],
+          "quote": "Like the Uber and Atoms.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1221,
+          "t": [
+            4709.59,
+            4717.777
+          ],
+          "quote": "Atoms is the evolution of Uber in a sense in that you kind of said, okay, we're the Cisco of the physical world.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1240,
+          "t": [
+            4793.784,
+            4798.108
+          ],
+          "quote": "Well, and it's like I think the entrepreneurs that are coming up since the Uber time",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1357,
+          "t": [
+            5249.516,
+            5254.378
+          ],
+          "quote": "You were saying when you started Uber, you worked with people who would choose to work with you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1388,
+          "t": [
+            5415.733,
+            5430.964
+          ],
+          "quote": "And if you're joining now, you're joining both with the benefit of having, you know, all the lessons you've learned and things you've proven out with Cloud Kitchens, and of course, Uber before that's almost two decades, but early enough such that there's the upside of, you know, the enormous opportunity going forward.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": true,
+      "how_described": "本集说它是 2011 年差点以 3.75 亿投前估值领投 Uber B 轮、如今对 Atoms 全押的硅谷风投，Ben 自述为此后悔了近十年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            197.114,
+            202.557
+          ],
+          "quote": "So met with A16Z guys, met with lots of folks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 89,
+          "t": [
+            305.072,
+            306.793
+          ],
+          "quote": "So we got to 375 million pre with A16Z.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1406,
+          "t": [
+            5471.22,
+            5474.101
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1409,
+          "t": [
+            5486.002,
+            5491.664
+          ],
+          "quote": "Follow us on X, A16Z, and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1412,
+          "t": [
+            5499.706,
+            5509.589
+          ],
+          "quote": "It should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1413,
+          "t": [
+            5510.302,
+            5514.984
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1414,
+          "t": [
+            5515.505,
+            5522.128
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "atoms",
+      "type": "company",
+      "role": "company",
+      "name": "Atoms",
+      "file": "Atoms",
+      "primary": true,
+      "how_described": "本集说 Atoms 是 Travis 各公司合并成的单一股权结构实体，使命是『用物理自动化变革行业』，一次攻一个成熟物理行业（食品、采矿、运输）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            83.142,
+            95.745
+          ],
+          "quote": "We discuss the origins of atoms, why Travis spent years building in stealth, the rise of industrial AI, robotics, autonomy, and what it takes to build companies that transform entire industries.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            993.472,
+            999.354
+          ],
+          "quote": "There's this interim period, it was like seven, eight months between when I left and when I started what's now called Atoms.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2064.76,
+            2067.621
+          ],
+          "quote": "And treating atoms like bits started at Uber.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2092.218,
+            2108.152
+          ],
+          "quote": "And this idea of what I would call an atoms-based computer was something I sort of was working on in terms of her framework at the end of Uber, which is CPU manipulates bits, storage stores bits, network moves bits from point A to point B.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2109.173,
+            2111.655
+          ],
+          "quote": "Okay, well, CPU manipulates bits, what manipulates atoms?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2114.903,
+            2115.744
+          ],
+          "quote": "What stores atoms?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2119.349,
+            2120.511
+          ],
+          "quote": "What moves atoms?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2123.014,
+            2127.76
+          ],
+          "quote": "And those now are your three core computing resources in an atoms-based computer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2129.336,
+            2135.68
+          ],
+          "quote": "Everything you learn in your computer science curriculum, everything you learn in engineering, it plays in the Atoms world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2178.08,
+            2179.62
+          ],
+          "quote": "They're computing atoms, not bits.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2212.75,
+            2216.531
+          ],
+          "quote": "So the point is that atoms-based computation is a thing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2343.812,
+            2350.916
+          ],
+          "quote": "So let's fast forward to how the bigger vision for Atoms comes together in terms of the combination of the companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 731,
+          "t": [
+            2826.74,
+            2829.922
+          ],
+          "quote": "Or at what point does this become all wrapped up in the atoms?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 743,
+          "t": [
+            2875.623,
+            2876.184
+          ],
+          "quote": "Creation of atoms.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 744,
+          "t": [
+            2876.304,
+            2884.152
+          ],
+          "quote": "And the funding itself, yeah, the creation of atoms and the funding itself being at what we would call top co-level.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 942,
+          "t": [
+            3589.905,
+            3594.127
+          ],
+          "quote": "So we've talked about, you know, what books were to Amazon, you know, food is to atoms in the sense of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 969,
+          "t": [
+            3669.53,
+            3679.862
+          ],
+          "quote": "I already thought about this as digitized manufacturing in real estate, about an atoms-based computer, about a food computer, and that's why I was excited.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            3862.242,
+            3874.951
+          ],
+          "quote": "So with that said, paint us a picture about the future of atoms or maybe some of the guiding principles that will dictate which industries you enter next or how you think about where you go from here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1158,
+          "t": [
+            4383.013,
+            4392.459
+          ],
+          "quote": "And so if you had still been running Uber, you know, in this other universe, are some of the vision that you have here with Atoms, would that have been, you know...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1160,
+          "t": [
+            4396.838,
+            4401.599
+          ],
+          "quote": "So the digitizing the physical world, the atoms-based computation, that was already set.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1210,
+          "t": [
+            4638.961,
+            4659.487
+          ],
+          "quote": "was get to the brass tacks and sort of when you look at, okay, well, there's software, there's bits that are affecting how atoms, what happens to atoms, like how they're assembled, where they go, what function do they do in the physical world?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1220,
+          "t": [
+            4707.348,
+            4708.989
+          ],
+          "quote": "Like the Uber and Atoms.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1221,
+          "t": [
+            4709.59,
+            4717.777
+          ],
+          "quote": "Atoms is the evolution of Uber in a sense in that you kind of said, okay, we're the Cisco of the physical world.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1239,
+          "t": [
+            4779.172,
+            4793.644
+          ],
+          "quote": "Peter Thiel a decade ago famously sort of talked about how we've had so much progress in bits but not in atoms and because regulation or for whatever reason, it was just easier in bits and here we are and we're finally getting to it in a real way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1244,
+          "t": [
+            4812.085,
+            4817.128
+          ],
+          "quote": "But these go together because it's like once the bits start controlling atoms in the physical world—",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cloud-kitchens",
+      "type": "company",
+      "role": "company",
+      "name": "Cloud Kitchens",
+      "file": "Cloud Kitchens",
+      "primary": true,
+      "how_described": "本集说它是 Travis 收购的隐身八年、30 个国家数百家设施的多租户外卖厨房公司，注册名叫 City Storage Systems，被他称为『食物计算机』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 359,
+          "t": [
+            1232.666,
+            1244.413
+          ],
+          "quote": "So I had a buddy who started a thing right near the end of my Uber tenure, and it was called Cloud Kitchens.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1594.467,
+            1610.73
+          ],
+          "quote": "Adam's Food or what folks know as Cloud Kitchens is can you make the preparation and delivery of a meal, a quality meal, so efficient that it approaches the cost of going to the grocery store?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 478,
+          "t": [
+            1766.988,
+            1772.552
+          ],
+          "quote": "We were a bit early on cloud kitchens, but you build those bricks, all those things I talked about.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2007.698,
+            2011.101
+          ],
+          "quote": "So people know it as cloud kitchens in the U.S., but it's in Latin America.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 873,
+          "t": [
+            3339.206,
+            3344.247
+          ],
+          "quote": "I acquired Cloud Kitchens, partnered with a buddy of mine, Diego, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 947,
+          "t": [
+            3602.251,
+            3605.453
+          ],
+          "quote": "So what Cloud Kitchens was",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 950,
+          "t": [
+            3616.982,
+            3621.966
+          ],
+          "quote": "It was called, I called it when I came, people know it as Cloud Kitchens because that's what we'd sell restaurant customers on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1170,
+          "t": [
+            4453.094,
+            4461.8
+          ],
+          "quote": "Like, by the way, I built with my team like 500 cloud kitchens facilities around the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1388,
+          "t": [
+            5415.733,
+            5430.964
+          ],
+          "quote": "And if you're joining now, you're joining both with the benefit of having, you know, all the lessons you've learned and things you've proven out with Cloud Kitchens, and of course, Uber before that's almost two decades, but early enough such that there's the upside of, you know, the enormous opportunity going forward.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "city-storage-systems",
+      "type": "company",
+      "role": "company",
+      "name": "City Storage Systems",
+      "file": "City Storage Systems",
+      "primary": false,
+      "how_described": "本集说这是 CloudKitchens 的注册名，『实体世界的存储』，刻意起得无聊到没人记得。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 951,
+          "t": [
+            3622.427,
+            3625.349
+          ],
+          "quote": "But the name of the company was City Storage Systems.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "pronto",
+      "type": "company",
+      "role": "company",
+      "name": "Pronto",
+      "file": "Pronto",
+      "primary": true,
+      "how_described": "本集说它是 Anthony Lewandowski 创办的越野自动驾驶采矿公司，做了七八年，刚跨过『比人类生产力更高』的门槛、客户反过来催着铺开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 665,
+          "t": [
+            2532.053,
+            2544.637
+          ],
+          "quote": "And then Anthony Lewandowski, who is one of my top leads on autonomy back at Uber, was running Pronto, which was an autonomous mining company, let's call it off-road autonomy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2558.951,
+            2560.553
+          ],
+          "quote": "I was the biggest investor in Pronto.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2564.096,
+            2567.38
+          ],
+          "quote": "So acquired Pronto and now I'm in the mining business.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2603.589,
+            2611.691
+          ],
+          "quote": "But that's what's happened is so separately, Pronto is working on mining for eight years on their own, seven, eight years on their own.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2683.73,
+            2689.413
+          ],
+          "quote": "So what happened is that Pronto just now is coming past human productivity.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": false,
+      "how_described": "本集说 Travis 离任时它只有 5% 外卖市场份额，但创始人 Tony 挺了过来，Travis 给了公道话：『活下来是很大的一部分』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 241,
+          "t": [
+            816.767,
+            819.288
+          ],
+          "quote": "DoorDash was 5% market share when I left.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 246,
+          "t": [
+            835.154,
+            839.097
+          ],
+          "quote": "Like right at that period, he was doing a round at DoorDash.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "lyft",
+      "type": "company",
+      "role": "company",
+      "name": "Lyft",
+      "file": "Lyft",
+      "primary": false,
+      "how_described": "本集说 Uber 那轮融资丢了之后 A16Z 去投的领域内另一家公司，Ben 后来进董事会收拾烂摊子，还透露 Lyft 那轮估值差不多就是 210；Travis 也说『这就是为什么我没买 Lyft』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            552.651,
+            557.855
+          ],
+          "quote": "And then meanwhile, Scott Weissen did a deal for the other company in the space, Lyft.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 170,
+          "t": [
+            571.249,
+            578.713
+          ],
+          "quote": "And just so you understand my experience on the Lyft thing, it happened, I believe a year later, almost to the day, something like this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 171,
+          "t": [
+            579.653,
+            582.275
+          ],
+          "quote": "And the deal on Lyft was 210.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 209,
+          "t": [
+            694.764,
+            696.686
+          ],
+          "quote": "Of course, it didn't because they were at Lyft.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1117.578,
+            1123.001
+          ],
+          "quote": "Yeah, we had this thing where we would, against Lyft, we would...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1125.383,
+            1132.047
+          ],
+          "quote": "Recruit the drivers on Lyft to bring them over to Uber so that it was hard for Lyft to build supply.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1097,
+          "t": [
+            4182.793,
+            4183.735
+          ],
+          "quote": "That's why I didn't buy Lyft.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集说 Uber 的自动驾驶项目当时排第二、仅次于 Waymo，且 Waymo 已在路上跑、证明交通几乎全软件化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            870.837,
+            874.638
+          ],
+          "quote": "Our timing program was like second to Waymo, but catching up at the time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1729.953,
+            1731.855
+          ],
+          "quote": "We see Waymo's cruising around already.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集用它论证『伟大公司系于不可复制的创业者』：Elon 一个人基本让美国汽车业脱碳，但没有第二个 Tesla。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 392,
+          "t": [
+            1360.297,
+            1369.421
+          ],
+          "quote": "Like I think there's an interesting story about like Elon was involved, like obviously involved in Tesla from the beginning, was an investor at first, but then went all the way in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2507.232,
+            2512.015
+          ],
+          "quote": "Of course, Tesla's gonna get there, you know, sometime soon or maybe some amount of time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 760,
+          "t": [
+            2941.093,
+            2942.673
+          ],
+          "quote": "How did, you know, Tesla come?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 766,
+          "t": [
+            2953.276,
+            2960.339
+          ],
+          "quote": "And, like, if you look at Tesla, there was a very famous documentary called Who Killed the Electric Car that came out before Tesla.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 776,
+          "t": [
+            2999.73,
+            3002.475
+          ],
+          "quote": "But why didn't all those people build another Tesla?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "industrial-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "工业 AI (industrial AI)",
+      "file": "工业 AI",
+      "primary": true,
+      "how_described": "本集说这是 Travis 给品类的命名：软件、传感器、机器人、机械组成的技术栈，一次攻一个行业整体自动化，刻意与做人形机器人的『物理 AI』划清界限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            83.142,
+            95.745
+          ],
+          "quote": "We discuss the origins of atoms, why Travis spent years building in stealth, the rise of industrial AI, robotics, autonomy, and what it takes to build companies that transform entire industries.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2049.857,
+            2053.457
+          ],
+          "quote": "You're creating a category of the term industrial AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1203,
+          "t": [
+            4590.189,
+            4601.556
+          ],
+          "quote": "So speaking of, you know, painting this vision to talent and just talking about where the future is going, talk more about the emerging category that Adams sits within, you're calling industrial AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1322,
+          "t": [
+            5133.629,
+            5136.231
+          ],
+          "quote": "So like, but on the industrial AI thing, it was like...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1326,
+          "t": [
+            5148.036,
+            5153.318
+          ],
+          "quote": "Industrial AI is basically this stack of software, sensors, robotics, machinery.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "atoms-based-computer",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于原子的计算机 (atoms-based computer)",
+      "file": "基于原子的计算机",
+      "primary": true,
+      "how_described": "本集的核心框架：制造=CPU、房地产=存储、运输物流=网络，计算机科学的一切数据结构与算法在原子世界全部适用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 563,
+          "t": [
+            2092.218,
+            2108.152
+          ],
+          "quote": "And this idea of what I would call an atoms-based computer was something I sort of was working on in terms of her framework at the end of Uber, which is CPU manipulates bits, storage stores bits, network moves bits from point A to point B.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2123.014,
+            2127.76
+          ],
+          "quote": "And those now are your three core computing resources in an atoms-based computer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 969,
+          "t": [
+            3669.53,
+            3679.862
+          ],
+          "quote": "I already thought about this as digitized manufacturing in real estate, about an atoms-based computer, about a food computer, and that's why I was excited.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "stealth",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐身创业 (stealth)",
+      "file": "隐身创业",
+      "primary": true,
+      "how_described": "本集说 Travis 隐身八年是为了让团队不担心《纽约时报》明天写什么，成就感来自工作本身；一旦公司为外部地位做事，就失去真正的北极星。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            28.277,
+            30.378
+          ],
+          "quote": "Also remember, I did it stealth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            83.142,
+            95.745
+          ],
+          "quote": "We discuss the origins of atoms, why Travis spent years building in stealth, the rise of industrial AI, robotics, autonomy, and what it takes to build companies that transform entire industries.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 503,
+          "t": [
+            1875.354,
+            1881.818
+          ],
+          "quote": "100 facilities in 30 countries, thousands of employees in an over eight-year period, and you're in stealth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            1916.352,
+            1921.713
+          ],
+          "quote": "And it was always from a recruiter who has a stealth thing in LinkedIn and on their signature.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1929.439,
+            1935.404
+          ],
+          "quote": "With like stealth in LinkedIn, like, and you're thousands of people big, this is hard mode.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 522,
+          "t": [
+            1942.831,
+            1946.374
+          ],
+          "quote": "You know what happens is, here's the cool part about stealth if you go that long.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 534,
+          "t": [
+            1996.39,
+            2003.855
+          ],
+          "quote": "where it's easier to be stealth over time because even if somebody tries to leak, nobody even knows what to do with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3324.682,
+            3328.243
+          ],
+          "quote": "Yeah, you got to really want, because also remember, I did it stealth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 867,
+          "t": [
+            3329.243,
+            3332.884
+          ],
+          "quote": "So what it means, here's the thing about stealth is that- Stealth and starting at the bottom, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 897,
+          "t": [
+            3421.089,
+            3425.772
+          ],
+          "quote": "And what I mean by that is imagine you start from the bottom, you also do it stealth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 908,
+          "t": [
+            3468.448,
+            3471.129
+          ],
+          "quote": "And that's part of the upside of stealth and part of what I was doing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3562.719,
+            3568.745
+          ],
+          "quote": "So there is a human nature piece which I was malnourishing by being stealth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 936,
+          "t": [
+            3569.385,
+            3576.792
+          ],
+          "quote": "But it forced a emotional intelligence that's very powerful now that we're moving out of stealth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 960,
+          "t": [
+            3645.938,
+            3648.018
+          ],
+          "quote": "It was purposely boring because I was going stealth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1360,
+          "t": [
+            5258.46,
+            5260.021
+          ],
+          "quote": "You've been building in stealth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1383,
+          "t": [
+            5387.17,
+            5389.492
+          ],
+          "quote": "And because we were stealth for so long, we weren't in the flow.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶 (autonomy)",
+      "file": "自动驾驶",
+      "primary": true,
+      "how_described": "本集把它说成 Travis 亲手掌握的必备能力——『机器人在物理世界行动，不能只依赖一家公司』，并靠 Pronto 进入采矿业，跨过比人更高产的门槛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            83.142,
+            95.745
+          ],
+          "quote": "We discuss the origins of atoms, why Travis spent years building in stealth, the rise of industrial AI, robotics, autonomy, and what it takes to build companies that transform entire industries.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2373.957,
+            2381.884
+          ],
+          "quote": "The minute about a year ago, I started looking into autonomous burritos and I went to China and checked out all of the autonomy guys.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2381.904,
+            2384.586
+          ],
+          "quote": "I was here in the U.S. talking to a lot of the autonomy guys.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2386.287,
+            2388.369
+          ],
+          "quote": "They're like, Travis is looking at autonomy again.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2435.325,
+            2448.64
+          ],
+          "quote": "And so, okay, so partnered with a couple folks, actually created a new company to do it because funding autonomy through a sort of core food company.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2480.214,
+            2496.865
+          ],
+          "quote": "I need to get my guys from way back when, 2016, when we were, 2017, when we were running hardcore at autonomy, we need to get that going because if you're gonna be in the specialized robotics game, you have to have autonomy for yourself.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2532.053,
+            2544.637
+          ],
+          "quote": "And then Anthony Lewandowski, who is one of my top leads on autonomy back at Uber, was running Pronto, which was an autonomous mining company, let's call it off-road autonomy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2574.037,
+            2580.442
+          ],
+          "quote": "It's one of the most beautiful and interesting autonomy categories or use cases.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2612.191,
+            2620.874
+          ],
+          "quote": "Also a great target for autonomy because, you know, maybe the worst job for humans there is, is the mining jobs, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2706.731,
+            2710.494
+          ],
+          "quote": "In the autonomy world, it's about, it's better than human productivity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3168.871,
+            3177.016
+          ],
+          "quote": "You can start going, Uber rides, then it's Uber Eats, then it's Uber Autonomy, then it was Uber Freight, then it's like Uber AI Labs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1069,
+          "t": [
+            4093.602,
+            4098.204
+          ],
+          "quote": "So we can't dilute the culture because we gave you autonomy.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 1147,
+          "t": [
+            4368.424,
+            4369.805
+          ],
+          "quote": "Oh, it's time for autonomy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1378,
+          "t": [
+            5349.023,
+            5358.166
+          ],
+          "quote": "Like, I need to build technical leadership across the board from autonomy, heavy-duty robotics.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集说食品机器人与机器人配送是把每餐成本从 12 美元降到 50 美分的关键，也是『20 年后必然、把现实弯向现在』路线的核心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            83.142,
+            95.745
+          ],
+          "quote": "We discuss the origins of atoms, why Travis spent years building in stealth, the rise of industrial AI, robotics, autonomy, and what it takes to build companies that transform entire industries.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1542.776,
+            1548.88
+          ],
+          "quote": "And shit, let's just get some robotics going at the same time because labor's your biggest problem if you're a restaurateur.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1657.562,
+            1662.705
+          ],
+          "quote": "That's the manufacturing, so robotic food robots, essentially, food robotics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1687.067,
+            1694.57
+          ],
+          "quote": "Then you go, well, in 20 years, will robotics, I start with a really easy question.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1700.412,
+            1706.755
+          ],
+          "quote": "And there will be a suite of robotics that basically will make higher quality meals",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1713.482,
+            1718.186
+          ],
+          "quote": "And I think most people, especially those in the robotics space, would be like, of course, that's obvious that that's gonna happen.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 484,
+          "t": [
+            1805.035,
+            1806.496
+          ],
+          "quote": "The robotics start to work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2480.214,
+            2496.865
+          ],
+          "quote": "I need to get my guys from way back when, 2016, when we were, 2017, when we were running hardcore at autonomy, we need to get that going because if you're gonna be in the specialized robotics game, you have to have autonomy for yourself.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2522.289,
+            2526.191
+          ],
+          "quote": "Eric Maihofer, who ran ATG, is already running my food robotics division.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1326,
+          "t": [
+            5148.036,
+            5153.318
+          ],
+          "quote": "Industrial AI is basically this stack of software, sensors, robotics, machinery.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1378,
+          "t": [
+            5349.023,
+            5358.166
+          ],
+          "quote": "Like, I need to build technical leadership across the board from autonomy, heavy-duty robotics.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "uncapped-anchor",
+      "type": "concept",
+      "role": "concept",
+      "name": "无封顶锚定 (uncapped anchor)",
+      "file": "无封顶锚定",
+      "primary": true,
+      "how_described": "本集说这是 Travis 的融资拍卖打法：只说『至少是这个数、还会往上涨』，起锚从低，让多家投资人互相抬价。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            233.728,
+            241.536
+          ],
+          "quote": "And I call this the uncapped anchor, meaning I'm never in a place where I'm negotiating with somebody where I'm here and they're here and we meet in the middle.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "let-builders-build",
+      "type": "concept",
+      "role": "concept",
+      "name": "让建造者去建造 (Let Builders Build)",
+      "file": "让建造者去建造",
+      "primary": true,
+      "how_described": "本集说这是 Travis 在 Uber 的管理框架：前端对齐（战略、目标、文化），后端问责，让创始人级负责人放手干，拒绝靠收购扩张。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1061,
+          "t": [
+            4069.815,
+            4071.517
+          ],
+          "quote": "And we would call this Let Builders Build.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "problem-creator",
+      "type": "concept",
+      "role": "concept",
+      "name": "问题制造者水位线 (problem creator)",
+      "file": "问题制造者水位线",
+      "primary": true,
+      "how_described": "本集说 Travis 自认问题制造者，框架是问题制造的速度必须小于等于问题解决的速度，否则就『溺水』，错得离谱时先关闸停止制造新问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1115,
+          "t": [
+            4237.963,
+            4239.384
+          ],
+          "quote": "I'm a problem creator.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1116,
+          "t": [
+            4239.404,
+            4244.146
+          ],
+          "quote": "A problem creator might be like, creating a problem might be like, hey, let's do Uber in China.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

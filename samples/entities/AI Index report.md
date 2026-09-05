@@ -25,7 +25,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[锯齿状前沿]] · [[世界模型]] · [[智能体]] · [[开源模型]] · [[前沿模型]] · [[负责任的 AI]] · [[护栏]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":6,"Chris Benson":6,"锯齿状前沿":1,"世界模型":5,"智能体":1,"开源模型":4,"前沿模型":6,"负责任的 AI":1,"护栏":1,"Claude Code":44}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":6,"Chris Benson":6,"锯齿状前沿":1,"世界模型":5,"智能体":1,"开源模型":4,"前沿模型":7,"负责任的 AI":1,"护栏":2,"Claude Code":44}</script>
 
 <script>
 (function(){

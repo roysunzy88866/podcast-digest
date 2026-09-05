@@ -31,7 +31,7 @@ unlisted: true
 
 [[Andy Fang]] · [[DoorDash]] · [[Waymo]] · [[智能体商务]] · [[智能体]] · [[自主性]] · [[分发]] · [[harness]] · [[开放权重模型]]
 
-<script type="application/json" class="pd-epn">{"Andy Fang":1,"DoorDash":5,"Waymo":11,"智能体商务":3,"智能体":1,"自主性":5,"分发":5,"harness":19,"开放权重模型":8}</script>
+<script type="application/json" class="pd-epn">{"Andy Fang":1,"DoorDash":6,"Waymo":12,"智能体商务":3,"智能体":1,"自主性":6,"分发":5,"harness":19,"开放权重模型":8}</script>
 
 <script>
 (function(){

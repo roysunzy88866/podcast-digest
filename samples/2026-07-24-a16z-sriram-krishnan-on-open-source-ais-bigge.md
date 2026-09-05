@@ -103,7 +103,7 @@ Sriram 显得不太愿意做宏大叙事,他认为学界对此分歧很大,有�
 
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同嘉宾:Sofia Puccini · 同公司:Hugging Face、Anthropic · 同概念:蒸馏 (distillation)</span>
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:开源权重 (open weight)、智能体 (agent)</span>
-- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同公司:Hugging Face、Anthropic · 同概念:蒸馏 (distillation)</span>
 
 </div>
 <div class="pd-ex">

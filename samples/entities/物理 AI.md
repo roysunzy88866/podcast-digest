@@ -483,9 +483,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Waymo]] · [[智能体]] · [[Tesla]] · [[ChatGPT]] · [[工业AI]] · [[强化学习]] · [[护栏]] · [[推理]] · [[生成式 AI]] · [[Lenny]]
+[[Waymo]] · [[智能体]] · [[Tesla]] · [[ChatGPT]] · [[工业 AI]] · [[强化学习]] · [[护栏]] · [[推理]] · [[生成式 AI]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Waymo":11,"智能体":1,"Tesla":6,"ChatGPT":50,"工业AI":2,"强化学习":14,"护栏":1,"推理":4,"生成式 AI":6,"Lenny":66}</script>
+<script type="application/json" class="pd-epn">{"Waymo":12,"智能体":1,"Tesla":7,"ChatGPT":50,"工业 AI":3,"强化学习":14,"护栏":2,"推理":4,"生成式 AI":6,"Lenny":66}</script>
 
 <script>
 (function(){

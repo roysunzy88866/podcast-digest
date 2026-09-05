@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ben Horowitz</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ben Horowitz">BE</div><div class="pi"><h1 class="pt">Ben Horowitz</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ben Horowitz">BE</div><div class="pi"><h1 class="pt">Ben Horowitz</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*19 条*
+*22 条*
 
 ![[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a#^q1]]
 
@@ -30,6 +30,12 @@ unlisted: true
 ![[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a#^q8]]
 
 ![[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a#^q9]]
+
+![[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut#^q3]]
+
+![[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut#^q7]]
+
+![[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut#^q8]]
 
 ![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q1]]
 
@@ -53,18 +59,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a|《Ben Horowitz：别追随激情，追随贡献》]] — 作为主持
+- [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|《Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」》]] — 作为联合主持
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[air bed and breakfast]] · [[Theo Jaffe]] · [[Google]] · [[Sofia Puccini]] · [[Apple]] · [[NVIDIA]] · [[a16z]] · [[Andreessen Horowitz]] · [[图灵机]] · [[Anthropic]]
+[[a16z]] · [[air bed and breakfast]] · [[Travis Kalanick]] · [[Theo Jaffe]] · [[Google]] · [[Uber]] · [[Sofia Puccini]] · [[Apple]] · [[Atoms]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"air bed and breakfast":1,"Theo Jaffe":6,"Google":35,"Sofia Puccini":4,"Apple":14,"NVIDIA":28,"a16z":8,"Andreessen Horowitz":1,"图灵机":1,"Anthropic":99}</script>
+<script type="application/json" class="pd-epn">{"a16z":9,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":6,"Google":35,"Uber":8,"Sofia Puccini":4,"Apple":14,"Atoms":2,"NVIDIA":28}</script>
 
 <script>
 (function(){

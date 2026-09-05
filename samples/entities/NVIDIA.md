@@ -89,7 +89,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Microsoft]] · [[推理]] · [[GPU]] · [[护栏]] · [[Google]] · [[Meta]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":99,"OpenAI":86,"智能体":1,"Microsoft":22,"推理":4,"GPU":11,"护栏":1,"Google":35,"Meta":26,"ChatGPT":50}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":100,"OpenAI":87,"智能体":1,"Microsoft":22,"推理":4,"GPU":11,"护栏":2,"Google":35,"Meta":26,"ChatGPT":50}</script>
 
 <script>
 (function(){

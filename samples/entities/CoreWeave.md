@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[NVIDIA]] · [[Microsoft]] · [[智能体]] · [[Anthropic]] · [[Amazon]] · [[Google]] · [[Reid Alberghati]] · [[SoftBank]] · [[Safe Superintelligence]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":86,"NVIDIA":28,"Microsoft":22,"智能体":1,"Anthropic":99,"Amazon":10,"Google":35,"Reid Alberghati":1,"SoftBank":4,"Safe Superintelligence":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":87,"NVIDIA":28,"Microsoft":22,"智能体":1,"Anthropic":100,"Amazon":10,"Google":35,"Reid Alberghati":1,"SoftBank":4,"Safe Superintelligence":1}</script>
 
 <script>
 (function(){

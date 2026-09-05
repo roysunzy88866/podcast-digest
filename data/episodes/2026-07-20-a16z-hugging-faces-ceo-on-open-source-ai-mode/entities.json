@@ -1,0 +1,830 @@
+{
+  "episode_id": "2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode",
+  "podcast": "The a16z Show",
+  "date": "2026-07-20",
+  "tags": [
+    "开源 AI",
+    "AI 监管",
+    "本地模型",
+    "模型路由",
+    "蒸馏攻击"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "clement-delong",
+      "type": "person",
+      "role": "host",
+      "name": "Clement DeLong",
+      "file": "Clement DeLong",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            58.566,
+            81.607
+          ],
+          "quote": "In this episode, Theo Jaffe and Sofia Puccini sit down with Hugging Face co-founder and CEO Clement DeLong to discuss why he believes open source AI is inherently safer, what Hugging Face reaching $100 million in annual recurring revenue says about the business of open source, and why the next phase of AI may be defined by model routing rather than a handful of dominant frontier labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            95.745,
+            100.947
+          ],
+          "quote": "And we are back with Clement DeLong from Hugging Face, his second time on MTS.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集说它「基本上就是开源 AI 平台」,刚跨过 1 亿美元 ARR,是基于用量、触达并赋能尽可能多 AI 构建者的平台,变现从来不是优先级。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            58.566,
+            81.607
+          ],
+          "quote": "In this episode, Theo Jaffe and Sofia Puccini sit down with Hugging Face co-founder and CEO Clement DeLong to discuss why he believes open source AI is inherently safer, what Hugging Face reaching $100 million in annual recurring revenue says about the business of open source, and why the next phase of AI may be defined by model routing rather than a handful of dominant frontier labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            95.745,
+            100.947
+          ],
+          "quote": "And we are back with Clement DeLong from Hugging Face, his second time on MTS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            101.087,
+            105.549
+          ],
+          "quote": "Hugging Face is basically the open source AI platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            814.98,
+            817.822
+          ],
+          "quote": "And if so, what would that mean for Hugging Face?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            828.349,
+            841.2
+          ],
+          "quote": "So for example, you know, if you remove an open-wait from Hugging Face, then it's still going to be on Modelscope, for example, which is like the Chinese equivalent, or it's going to be like on torrent platforms.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 AI (open source)",
+      "file": "开源 AI",
+      "primary": true,
+      "how_described": "本集主线:Clem 的核心判断是开源 AI 天生比专有前沿模型安全——「阳光是最好的消毒剂」,最危险的东西(核弹类比)从不在开源中诞生;开源解决的是本地智能等不同问题,像引擎之于法拉利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            58.566,
+            81.607
+          ],
+          "quote": "In this episode, Theo Jaffe and Sofia Puccini sit down with Hugging Face co-founder and CEO Clement DeLong to discuss why he believes open source AI is inherently safer, what Hugging Face reaching $100 million in annual recurring revenue says about the business of open source, and why the next phase of AI may be defined by model routing rather than a handful of dominant frontier labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            101.087,
+            105.549
+          ],
+          "quote": "Hugging Face is basically the open source AI platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            278.265,
+            285.593
+          ],
+          "quote": "What we were just talking about before was just like, is this, could this be applied to open source companies and models in any way?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            286.574,
+            292.26
+          ],
+          "quote": "Like, is there a way that the US government could come in and restrict open source companies either practically or legally?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            293.44,
+            311.041
+          ],
+          "quote": "I don't think so because, you know, I think open source models are inherently less dangerous than kind of like the models that are getting restricted now because, you know, these models are a little ahead in terms of like being closer to the frontier.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 41,
+          "t": [
+            312.463,
+            315.845
+          ],
+          "quote": "Also open source models are less generous, they're more specialized.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 45,
+          "t": [
+            333.976,
+            338.039
+          ],
+          "quote": "I don't think it's going to get to open source just because of some of these differences.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 46,
+          "t": [
+            339.08,
+            352.091
+          ],
+          "quote": "A more high level, I think in general, open source AI is much, much safer than kind of like proprietary AI for a bunch of different reasons that I've talked about in different outlets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 49,
+          "t": [
+            389.186,
+            401.394
+          ],
+          "quote": "I agree that open source models are less dangerous now, but in, you know, six months, if trends continue, you're going to have an open source model from somewhere with like Mythos-level capabilities that freaks out the government.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            402.194,
+            406.997
+          ],
+          "quote": "And you could imagine them at least wanting to restrict open source models at that time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            408.007,
+            417.952
+          ],
+          "quote": "I'm not that sure because there's this weird thing where basically the most dangerous things usually are not so much developed in open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 55,
+          "t": [
+            432.459,
+            437.482
+          ],
+          "quote": "A nuclear bomb has never been built in open source, and I think it would have never been built in open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            452.855,
+            464.403
+          ],
+          "quote": "So I think there's also a path where open source keeps building kind of like more specialized models for different domains and not necessarily for the domains that are presenting the biggest risks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 63,
+          "t": [
+            496.58,
+            500.265
+          ],
+          "quote": "So I think I wouldn't be totally surprised if the open source",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 65,
+          "t": [
+            518.421,
+            523.425
+          ],
+          "quote": "Well, is this not also kind of an argument against the capability of open source AI research?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            539.541,
+            541.602
+          ],
+          "quote": "You can only get that through open source, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            550.511,
+            553.054
+          ],
+          "quote": "And actually open source is on top of closed source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 74,
+          "t": [
+            553.094,
+            557.358
+          ],
+          "quote": "A lot of the closed source is using open source models and is using open source infrastructure.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            560.761,
+            567.248
+          ],
+          "quote": "The analogy is like, you know, open source maybe is the engine and the API is the car, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 81,
+          "t": [
+            588.685,
+            594.046
+          ],
+          "quote": "Maybe open source is better at solving people's problems.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 92,
+          "t": [
+            638.497,
+            644.303
+          ],
+          "quote": "So I'm curious as like, what do you think this means for like, like the business model of open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            667.628,
+            674.75
+          ],
+          "quote": "But at this small scale, I think it shows that there's a business model for open source, there's a business model for open source platform,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 96,
+          "t": [
+            675.611,
+            682.696
+          ],
+          "quote": "We kind of knew it, right, because there's been GitHub before and there's been kind of like a bunch of open source successful companies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 98,
+          "t": [
+            687.861,
+            698.309
+          ],
+          "quote": "And we've seen, I mean, for the past few weeks, we've seen quite a lot of growth in terms of interest and adoption of not only open source models, but also local models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 122,
+          "t": [
+            842.341,
+            848.166
+          ],
+          "quote": "So like restriction like looks very, very different, I think, for open source than for APIs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            897.436,
+            899.358
+          ],
+          "quote": "But for OpenWay, it's an open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 133,
+          "t": [
+            913.881,
+            918.543
+          ],
+          "quote": "So I think for open source, like the provenance doesn't matter as much.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1209.632,
+            1218.739
+          ],
+          "quote": "Now we're moving to the second phase of the AI field more maturing and using several models, using open source, having control, building themselves.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1486.393,
+            1491.654
+          ],
+          "quote": "The T of transformers obviously is coming from Google, that open source transformers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1492.894,
+            1499.136
+          ],
+          "quote": "And so it's more of a matter of, in my opinion, fostering an ecosystem of open research, open source AI.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说受政府限制的专有前沿模型更接近前沿、是最危险的;前沿实验室过去的危险营销(GPT-2 太危险不能发布)招来了政府监管;前沿在不同任务间是参差不齐的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            189.235,
+            193.758
+          ],
+          "quote": "A safe approach to the deployment of Frontier models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 47,
+          "t": [
+            354.911,
+            378.941
+          ],
+          "quote": "Yeah, so I think the approach there is going to be, hopefully, is going to be a little bit different between kind of like low source, proprietary, frontier models, and then the rest of the industry and the ecosystem that has, in my opinion, posed much less danger, much less threats, where we want to keep kind of like, you know, supporting and building up to",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1104.013,
+            1110.926
+          ],
+          "quote": "Most of the questions you ask or most of the AI workloads that people do today with Frontier Models,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1179.123,
+            1187.166
+          ],
+          "quote": "And I think it will, it's possible that it's gonna redistribute a lot of the value capture from frontier models, which have been the case now, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1187.206,
+            1194.11
+          ],
+          "quote": "Like majority of the revenue capture was on frontier models to a more like long tail of models",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "local-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "本地模型 (local models)",
+      "file": "本地模型",
+      "primary": true,
+      "how_described": "本集说是增长最快的场景之一:跑在手机或笔记本上基本免费、设计上保护隐私(数据不出设备),适合私人数据、24/7 智能体负载等用途。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            82.62,
+            92.844
+          ],
+          "quote": "They also discuss GPT-5, AI regulation, local models, Europe's AI ecosystem, and the growing importance of competition across the AI stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            528.377,
+            532.058
+          ],
+          "quote": "Like I sometimes take the example of, you know, local models, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 98,
+          "t": [
+            687.861,
+            698.309
+          ],
+          "quote": "And we've seen, I mean, for the past few weeks, we've seen quite a lot of growth in terms of interest and adoption of not only open source models, but also local models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            705.918,
+            711.144
+          ],
+          "quote": "Yeah, what are some of the specific use cases that, like, people are using local models for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            712.23,
+            716.354
+          ],
+          "quote": "So local models are kind of free, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说是 AI 的下一阶段:70% 问 ChatGPT 的问题可由本地模型准确回答,订阅补贴却把一切都路由给最贵的模型(「把一切都丢给爱因斯坦」);底层自动路由会把价值从前沿模型分向长尾模型群。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            58.566,
+            81.607
+          ],
+          "quote": "In this episode, Theo Jaffe and Sofia Puccini sit down with Hugging Face co-founder and CEO Clement DeLong to discuss why he believes open source AI is inherently safer, what Hugging Face reaching $100 million in annual recurring revenue says about the business of open source, and why the next phase of AI may be defined by model routing rather than a handful of dominant frontier labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1077.667,
+            1083.472
+          ],
+          "quote": "And so I think that's driving to this outcome of doing more routing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1175.541,
+            1177.542
+          ],
+          "quote": "Like doing the routing under the hood.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集针对 Anthropic 指控阿里蒸馏攻击,说蒸馏是人人都在用的常见做法、只是加速器——「如果你很烂,不管有没有蒸馏你都很烂」,不决定训练模型的好坏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.749,
+            4.653
+          ],
+          "quote": "I think distillation is a very common, you know, practice that everyone is using.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 2,
+          "t": [
+            10.099,
+            13.102
+          ],
+          "quote": "Like if you suck, you suck with or without distillation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1222.002,
+            1231.685
+          ],
+          "quote": "So another big news story of yesterday was Anthropic accused Alibaba of doing distillation attacks, which is, you know, there's two perspectives on this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1253.577,
+            1258.06
+          ],
+          "quote": "Well, I mean, I think distillation is a very common, you know, practice that everyone is using.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1258.08,
+            1267.125
+          ],
+          "quote": "You know, I wouldn't be surprised if Anthropic used distillation in the past for some of their models, for some of their specialized models using kind of like someone else who's better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1282.395,
+            1285.418
+          ],
+          "quote": "Like if you suck, you suck with or without distillation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1295.768,
+            1302.174
+          ],
+          "quote": "So if you stop distillation tomorrow, the Chinese labs won't like go down and disappear because it's still going to be good.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说开放权重的来源不重要,但用中国的 API 跑推理是「大得多的问题」——那是在发送数据,对方可以切断或偏向你的访问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            880.645,
+            895.035
+          ],
+          "quote": "It's a different game, for example, for APIs to run the inference because if you're using an API provider or a cloud from China, obviously you're sending your data and also they could cut your access or bias your access.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (safeguards)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集批评行业只谈事后加护栏,而那些「我们明知并不真正起作用」,因为每个人都能越狱它们;该谈的是训练数据而不是事后护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            488.567,
+            495.418
+          ],
+          "quote": "Removing the ability to release or putting off like safeguards after the fact that we know are not really working because everyone can jailbreak them.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它指控阿里巴巴进行蒸馏攻击;Clem 回应说 Anthropic 自己过去可能也用过蒸馏,而且它是世界上增长最快的公司,「很难同情它被不公平竞争」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            154.009,
+            171.455
+          ],
+          "quote": "Interesting anecdote is that we bumped into Tom Brown there, like the co-founder of Anthropic, and we were like, oh, this seems to be like a change of staff or something like that before it was made public that they changed a little bit the people talking to the White House there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1222.002,
+            1231.685
+          ],
+          "quote": "So another big news story of yesterday was Anthropic accused Alibaba of doing distillation attacks, which is, you know, there's two perspectives on this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1258.08,
+            1267.125
+          ],
+          "quote": "You know, I wouldn't be surprised if Anthropic used distillation in the past for some of their models, for some of their specialized models using kind of like someone else who's better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1321.135,
+            1325.981
+          ],
+          "quote": "But it's hard for me to accept this one because frankly, you know, I mean, Anthropic, OpenAI.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 编程更强时,别人会用它的模型帮自己训练编程模型;它与 Anthropic 一样一夜之间成了万亿美元公司,不需要被同情的竞争保护。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            15.913,
+            23.237
+          ],
+          "quote": "More entropy, more OpenAI, you're getting unfairly competed with when you're like the fastest growing company in the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1267.146,
+            1277.032
+          ],
+          "quote": "For example, you know, when OpenAI was better at coding, like you use this model to kind of like help you a little bit in the training of your coding model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1321.135,
+            1325.981
+          ],
+          "quote": "But it's hard for me to accept this one because frankly, you know, I mean, Anthropic, OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1339.032,
+            1340.673
+          ],
+          "quote": "Poor Entropic, Poor OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1483.072,
+            1486.373
+          ],
+          "quote": "And you see that from OpenAI, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mistral",
+      "type": "company",
+      "role": "company",
+      "name": "Mistral",
+      "file": "Mistral",
+      "primary": false,
+      "how_described": "本集列为欧洲已有的出色实验室之一,与 Black Forest Lab 一起「可以说已经处于前沿」,证明欧洲能建前沿实验室。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 233,
+          "t": [
+            1436.577,
+            1443.345
+          ],
+          "quote": "Black Forest Lab, Mistral, all these people are doing amazingly and arguably they're at the frontier.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": false,
+      "how_described": "本集说它「也开始这么做了」,即在底层自动做模型路由。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1173.12,
+            1175.521
+          ],
+          "quote": "Lovable is starting to do that too, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集举它为「开源存在商业模式」的先例:「之前有 GitHub,也有一批成功的开源公司」,1 亿美元 ARR 算是对此的验证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            675.611,
+            682.696
+          ],
+          "quote": "We kind of knew it, right, because there's been GitHub before and there's been kind of like a bunch of open source successful companies.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "llama.cpp",
+      "reason": "专名「llama.cpp」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":1,"Codex":37,"OpenAI":86,"智能体":1,"提示词注入":11,"护栏":1,"上下文工程":7,"Symfony":1,"规范":1}</script>
+<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":1,"Codex":37,"OpenAI":87,"智能体":1,"提示词注入":11,"护栏":2,"上下文工程":7,"Symfony":1,"规范":1}</script>
 
 <script>
 (function(){

@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程学":1,"思维链":4,"护栏":1,"探针":1,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":17}</script>
+<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程学":1,"思维链":4,"护栏":2,"探针":1,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":17}</script>
 
 <script>
 (function(){

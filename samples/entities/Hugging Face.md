@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Hugging Face</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]]**(00:58起):本集说它「基本上就是开源 AI 平台」,刚跨过 1 亿美元 ARR,是基于用量、触达并赋能尽可能多 AI 构建者的平台,变现从来不是优先级。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(10:34起):本集提到两次：一是作为下载开源权重模型、供全球开发者拆解和检查的安全平台；二是作为受害者，报道了在录制当天有人使用 AI 智能体在其系统多个节点猛烈攻击试图突破的事件。
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(02:28起):本集以它遭遇 OpenAI 黑客入侵的安全事件为例，指出由于其专有模型受限于护栏，最终只能依靠开源模型才得以阻止安全威胁。
 - **[[2026-07-27-twiml-why-models-are-ai-s-next-training-datase|《把训练好的模型当数据喂给模型：权重空间学习》]]**(04:28起):本集说 Hugging Face 是一个存放了大量开放权重模型的在线仓库，他们从中下载约两万个模型，筛选出两千个通过质量检查的来训练权重空间学习模型
@@ -39,8 +40,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*18 集*
+*19 集*
 
+- [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
 - [[2026-07-27-twiml-why-models-are-ai-s-next-training-datase|《把训练好的模型当数据喂给模型：权重空间学习》]] — 作为被讨论公司
@@ -64,9 +66,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[推理]] · [[开源权重]] · [[NVIDIA]] · [[沙箱]] · [[Theo Jaffe]] · [[开源]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[推理]] · [[开源权重]] · [[NVIDIA]] · [[沙箱]] · [[开源]] · [[蒸馏]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":86,"Anthropic":99,"护栏":1,"推理":4,"开源权重":5,"NVIDIA":28,"沙箱":35,"Theo Jaffe":6,"开源":13}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":87,"Anthropic":100,"护栏":2,"推理":4,"开源权重":5,"NVIDIA":28,"沙箱":35,"开源":14,"蒸馏":9}</script>
 
 <script>
 (function(){

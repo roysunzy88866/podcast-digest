@@ -128,8 +128,8 @@ jsonLd: |
 **顺着「AI 安全」挖下去**
 
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同嘉宾:Joel de la Garza · 同概念:软件供应链 (software supply chain)、泄露的凭证 (credentials)</span>
+- [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同公司:Hugging Face · 同概念:前沿模型 (frontier models)</span>
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同嘉宾:Joel de la Garza · 同公司:Hugging Face</span>
-- [[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|AI智能体安全：它们听起来像实习生]]<span class="pd-rz">同嘉宾:Joel de la Garza · 同公司:NPM · 同概念:智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">

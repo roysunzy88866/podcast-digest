@@ -31,7 +31,7 @@ unlisted: true
 
 [[Kitsa]] · [[智能体]] · [[编排器]] · [[护栏]] · [[循环]] · [[规则]] · [[police 文件]] · [[vibe coding]] · [[技能文件]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"Kitsa":1,"智能体":1,"编排器":2,"护栏":1,"循环":1,"规则":1,"police 文件":1,"vibe coding":26,"技能文件":2,"Codex":37}</script>
+<script type="application/json" class="pd-epn">{"Kitsa":1,"智能体":1,"编排器":2,"护栏":2,"循环":1,"规则":1,"police 文件":1,"vibe coding":26,"技能文件":2,"Codex":37}</script>
 
 <script>
 (function(){

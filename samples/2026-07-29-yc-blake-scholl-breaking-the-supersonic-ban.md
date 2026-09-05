@@ -145,8 +145,8 @@ Blake 说,他们在这个过程中找到了一个巧妙的杠杆。因为决定�
 **顺着「创业与行业」挖下去**
 
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]]<span class="pd-rz">同概念:第一性原理 (first principles)</span>
+- [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」]]<span class="pd-rz">同公司:Uber</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Amazon</span>
-- [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Amazon</span>
 
 </div>
 <div class="pd-ex">

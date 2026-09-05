@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[护栏]] · [[CI-CD]] · [[Sherwin Wu]] · [[Jenny Wen]] · [[Bruno Scott Sperka]] · [[Patrick Dubois]] · [[Codex]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"护栏":1,"CI-CD":8,"Sherwin Wu":1,"Jenny Wen":1,"Bruno Scott Sperka":1,"Patrick Dubois":1,"Codex":37,"Anthropic":99}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"护栏":2,"CI-CD":8,"Sherwin Wu":1,"Jenny Wen":1,"Bruno Scott Sperka":1,"Patrick Dubois":1,"Codex":37,"Anthropic":100}</script>
 
 <script>
 (function(){

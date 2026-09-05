@@ -25,7 +25,7 @@ unlisted: true
 
 [[Patrick Dubois]] · [[Tamuz Dubnov]] · [[Daniel Jones]] · [[Simon Maple]] · [[智能体]] · [[智能体编码]] · [[PR]] · [[CI-CD]] · [[可观测性]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"Patrick Dubois":1,"Tamuz Dubnov":1,"Daniel Jones":1,"Simon Maple":7,"智能体":1,"智能体编码":3,"PR":4,"CI-CD":8,"可观测性":18,"护栏":1}</script>
+<script type="application/json" class="pd-epn">{"Patrick Dubois":1,"Tamuz Dubnov":1,"Daniel Jones":1,"Simon Maple":7,"智能体":1,"智能体编码":3,"PR":4,"CI-CD":8,"可观测性":18,"护栏":2}</script>
 
 <script>
 (function(){

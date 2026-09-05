@@ -10,14 +10,14 @@ image: "/covers/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka.jpg"
 description: Travis Kalanick 聊他的新公司 Atoms 如何用自主驾驶套件改造采矿和食品行业，将物理世界自动化视为比纯软件更大的机会。
 host: "[[Travis Kalanick]]"
 companies: ["[[Atoms]]", "[[Pronto]]"]
-concepts: ["[[工业AI]]", "[[物理 AI]]", "[[自主性]]", "[[套件]]", "[[线控驾驶]]", "[[无人进入矿山]]", "[[运输]]", "[[生产力]]", "[[机器人的轮基]]"]
+concepts: ["[[工业 AI]]", "[[物理 AI]]", "[[自主性]]", "[[套件]]", "[[线控驾驶]]", "[[无人进入矿山]]", "[[运输]]", "[[生产力]]", "[[机器人的轮基]]"]
 category: 智能体
 tags:
   - 智能体
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka#post","headline":"Travis Kalanick：为什么把下一家公司赌在工业AI","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka","description":"Travis Kalanick 聊他的新公司 Atoms 如何用自主驾驶套件改造采矿和食品行业，将物理世界自动化视为比纯软件更大的机会。","datePublished":"2026-09-02","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka.jpg","about":[{"@type":"Person","name":"Travis Kalanick"},{"@type":"Organization","name":"Atoms"},{"@type":"Organization","name":"Pronto"},{"@type":"Thing","name":"工业AI (industrial AI)"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"自主性 (autonomy)"},{"@type":"Thing","name":"套件 (kit)"},{"@type":"Thing","name":"线控驾驶 (drive by wire)"},{"@type":"Thing","name":"无人进入矿山 (no entry mine)"},{"@type":"Thing","name":"运输 (haulage)"},{"@type":"Thing","name":"生产力 (productivity)"},{"@type":"Thing","name":"机器人的轮基 (wheelbase for robots)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Travis Kalanick：为什么把下一家公司赌在工业AI","item":"https://talk.solomind.cc/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka#post","headline":"Travis Kalanick：为什么把下一家公司赌在工业AI","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka","description":"Travis Kalanick 聊他的新公司 Atoms 如何用自主驾驶套件改造采矿和食品行业，将物理世界自动化视为比纯软件更大的机会。","datePublished":"2026-09-02","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka.jpg","about":[{"@type":"Person","name":"Travis Kalanick"},{"@type":"Organization","name":"Atoms"},{"@type":"Organization","name":"Pronto"},{"@type":"Thing","name":"工业 AI (industrial AI)"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"自主性 (autonomy)"},{"@type":"Thing","name":"套件 (kit)"},{"@type":"Thing","name":"线控驾驶 (drive by wire)"},{"@type":"Thing","name":"无人进入矿山 (no entry mine)"},{"@type":"Thing","name":"运输 (haulage)"},{"@type":"Thing","name":"生产力 (productivity)"},{"@type":"Thing","name":"机器人的轮基 (wheelbase for robots)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Travis Kalanick：为什么把下一家公司赌在工业AI","item":"https://talk.solomind.cc/2026-07-23-a16z-building-the-physical-ai-stack-travis-ka"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Travis Kalanick：为什么把下一家公司赌在工业AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Atoms]] · [[Pronto]]
 >
-> **概念** [[工业AI]] · [[物理 AI]] · [[自主性]] · [[套件]] · [[线控驾驶]] · [[无人进入矿山]] · [[运输]] · [[生产力]] · [[机器人的轮基]]
+> **概念** [[工业 AI]] · [[物理 AI]] · [[自主性]] · [[套件]] · [[线控驾驶]] · [[无人进入矿山]] · [[运输]] · [[生产力]] · [[机器人的轮基]]
 
 这一集是 [[Travis Kalanick|Travis Kalanick]] 聊他的新公司 [[Atoms|Atoms]]——他把之前分散的几家子公司（食品自动化、采矿自动化、[[运输|运输]]）合并成一个实体，统称为"工业 AI"，今天刚宣布完成了 17 亿美元融资 <button class="pd-ts" data-t="03:05" data-who="嘉宾" data-en="Unfinished business. So yeah, I announced earlier today we did a $1.7 billion raise. There's some noise that's going to happen." aria-label="回原文"></button>。最反直觉的一点是：他去巴西亚马逊深处的铁矿、去伊拉克和沙特边境的磷酸盐矿做市场拓展，而客户买单的理由非常直接——"你愿不愿意每年多产 20% 的金子？
 
@@ -152,9 +152,9 @@ Travis 说他对高管的要求有两件事：能在规模上组织和管理，�
 
 **换个口味**
 
+- [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」]]<span class="pd-rz">同公司:Atoms、Pronto · 同概念:工业AI (industrial AI)、自主化 (autonomy)</span>
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:工业AI (industrial AI)、物理AI (physical AI)</span>
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同概念:物理AI (physical AI)</span>
 
 </div>
 </div>

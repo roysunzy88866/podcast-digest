@@ -25,7 +25,7 @@ unlisted: true
 
 [[OpenAI]] · [[GPT-6]] · [[计算机使用]] · [[浏览器使用]] · [[Codex]] · [[ChatPRD]] · [[MCP]] · [[vibe coding]] · [[QA]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":86,"GPT-6":1,"计算机使用":7,"浏览器使用":5,"Codex":37,"ChatPRD":5,"MCP":26,"vibe coding":26,"QA":2,"Figma":13}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":87,"GPT-6":1,"计算机使用":7,"浏览器使用":5,"Codex":37,"ChatPRD":5,"MCP":26,"vibe coding":26,"QA":2,"Figma":13}</script>
 
 <script>
 (function(){

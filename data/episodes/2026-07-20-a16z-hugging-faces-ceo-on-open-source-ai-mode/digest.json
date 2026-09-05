@@ -1,0 +1,166 @@
+{
+  "title_zh": "Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由",
+  "tldr": "Hugging Face 联合创始人兼 CEO Clement DeLong 谈开源 AI 为何本质上更安全、1 亿美元 ARR 意味着什么，以及蒸馏争议与模型路由如何重塑价值分配。",
+  "digest_md": "这一集聊的是 AI 监管与开源生态：政府第一次单方面限制前沿模型发布、Anthropic 指控阿里「蒸馏攻击」、Hugging Face 突破 1 亿美元 ARR——主角是 Hugging Face 联合创始人兼 CEO Clement DeLong(大家叫他 Clem),Hugging Face 基本上就是开源 AI 的平台。他的核心判断很反直觉：开源模型天生就比被限制的那些专有前沿模型安全，「阳光是最好的消毒剂」。\n\n## 政府限制前沿模型：他不同情，但希望别波及开源\n\n起因是一条新闻：政府单方面要求一家前沿实验室不要发布 GPT 5.6,还要监督模型发布给哪些客户——这在以前从没有过。Clem 说他上周正好在华盛顿特区，算是坐在前排目睹了全程，还碰到了 Anthropic 联合创始人 Tom Brown。[02:26 Clement]\n\n他的态度分两层。第一，他不怪政府：「前沿实验室过去几年基本上一直在做营销——GPT-2 当年被认为太危险而不能发布，那是四五年前的事」，政府被吓到是这些实验室自己宣传的结果。他真正希望的是更多透明评估，比如他盛赞一个叫 Casey 的评估机构，「以非常科学的方法来评估这些模型」。[03:14 Clement]\n\n> 【背景】转写稿中的机构名「Casey」疑为语音识别误差，未能核实对应机构全称。\n\n第二，他不希望这种监管扩散：「这些是万亿美元级公司，有成群的华盛顿人员，它们应对得了；但别扩散到初创公司、小公司、学术界——那些没有资金和规模来应对的人。」[04:01 Clement] 而且他觉得这很难波及开源，原因见下。\n\n## 为什么开源本质上更安全\n\n他的论证链条是这样的：\n\n- **开源模型不够「前沿」**：受限制的专有模型更接近前沿；开源模型更专业化、没那么通用，而且「几乎没人专注于在开源里构建危险的网络安全能力」。[05:12 Clement]\n- **最危险的东西从来不在开源里诞生**：安全圈的人爱谈核弹，但「核弹从来没有在开源中被造出来过，我也认为它永远不会——它是在闭源的专有团队里、投入数十亿美元的资源造出来的」。[07:12 Clement]\n- **能力 ≠ 危险**：「你完全可以构建一个更强大的模型，但它在网络安全方面并不更危险——只要你不用网络安全数据去训练它。而这一点人们真的没有怎么谈论。」他反问：为什么大家讨论的是事后加那些「人人都能越狱」的护栏，而不是这个？[07:53 Clement]\n- **开源解决的是不同的问题**：本地智能——在飞机上开飞行模式没有网络、依然能获得智能——「你只能通过开源做到，用 API 是不可能的」。他的比喻：「开源也许是引擎，API 是汽车。引擎永远成不了法拉利，但正是它在为法拉利提供动力。」而且在坏事上不擅长，不代表在好事上不擅长——开源也许更擅长解决人们的真实问题。[09:20 Clement]\n\n主持人追问：六个月后如果开源模型有了 Mythos 级别的能力呢？Clem 说不确定会怎样，但开源社区在结构上就和大实验室完全不同，很可能走向不同方向、始终保持更安全，「永远不需要闭源 AI 实验室需要的那种监管」。[08:22 Clement]\n\n## 1 亿美元 ARR:开源平台有商业模式\n\nHugging Face 刚跨过 1 亿美元 ARR。Clem 很坦率：很多 AI 公司收入比他们高得多，变现从来不是优先级——他们做的是基于用量的平台，目标是「触达并赋能尽可能多的 AI 构建者」。但在他看来这仍是一个信号：「开源存在一种商业模式，开源平台存在一种商业模式。其实我们早就知道——之前有 GitHub,也有一批成功的开源公司——这算是一种验证。」[11:07 Clement]\n\n本地模型是他看到增长最快的场景之一。理由很实际：本地模型跑在你自己的手机或笔记本上，基本免费、设计上就保护隐私(数据不出设备)，适合三类用途——不想交给 API 提供商的私人健康或公司数据、需要 24/7 全天候跑的智能体重负载(本地硬件更可持续)。他们维护的 llama.cpp(本地运行开源模型的运行时库)是本地 AI 用得最多的运行时，人们在上面跑 GPT-OSS、Gemma 4 等模型。[12:05 Clement]\n\n关于中国模型，他也不担心「来源」问题：开放权重的来源不重要——「分享它的人已经放弃了对它的控制和影响你的能力」，你拥有全部控制权和透明度，没人能欺骗你、偏向你或切断你的访问；就算从 Hugging Face 移除，它还在中国等效平台 Modelscope 或种子平台上，「几乎按定义，总有方式能访问它」。真正要警惕的是用中国的 API 跑推理——那是在发送数据、且对方可以切断或偏向你的访问，「那是大得多的问题」。[14:34 Clement]\n\n## 下一阶段：模型路由，把问题从爱因斯坦手里拿回来\n\n这是他最完整的行业判断。斯坦福去年底的研究显示：人们问 ChatGPT 的问题里，70% 可以在笔记本上本地准确回答。大多数今天的 AI 工作负载，本可以由「更便宜、更快、更可定制、更可控」的模型完成——但没人这么做，因为订阅有补贴，大家图省事把一切都路由给最贵的模型。「这就像把一切都丢给爱因斯坦：嘿，爱因斯坦，今天天气怎么样？在正常生活中你会说，去你的，我才不回答这种蠢问题。」[18:56 Clement]\n\n改变的动力是风险意识：单靠一个模型太危险——它可能被下架、可能有偏见、可能拒绝回答或故意告诉你错误的东西(他举了某模型被下架前在某些领域被设计成故意说错话的例子)。所以公司在转向多模型依赖和底层自动路由(他点名 Lovable 已经在这么做)。这可能重新分配价值：「大部分收入获取一直集中在前沿模型上，将转向更像长尾的模型群——在我看来，这合理得多，这就像 AI 在走向成熟。」第一阶段是所有人用一个巨型模型躲在专有 API 后面；第二阶段是用多个模型、用开源、自己掌控、自己构建。[19:47 Clement]\n\n## 蒸馏攻击：「你很烂的话，有没有蒸馏都很烂」\n\nAnthropic 指控阿里巴巴通过正常付费账号蒸馏(用强模型的输出去训练自己的模型)窃取能力。Clem 的回应很直接：\n\n- 蒸馏是人人都在用的常见做法，他「不会惊讶 Anthropic 自己过去也在一些专门模型上用过蒸馏」——比如 OpenAI 编程更强的时候，用它的模型帮自己训练编程模型。[20:53 Clement]\n- 但蒸馏只是加速器，不决定成败：「如果你很烂，不管有没有蒸馏你都很烂。它不是让你训练模型变好或变坏的东西。明天就停止蒸馏，中国实验室也不会衰落消失，它们依然会做得很好。」[21:22 Clement]\n- 最不支持「不公平竞争」叙事的一点：「Anthropic、OpenAI 是世界上增长最快的公司，一夜之间成了万亿美元公司。我很难同情它们被不公平竞争。」[22:09 Clement]\n- 更大的图景：「如果说有什么，我认为它们需要的是更多竞争而不是更少——我们正走向少数几家公司垄断所有权力、能力、财富的世界，这比它们损失几十亿美元收入危险得多。当前 AI 领域有太多比这重要得多的问题。」[22:29 Clement]\n\n## 欧洲能建前沿实验室吗？\n\n能。他列了条件：人才(Black Forest Lab、Mistral 已可说身处前沿)、能源(法国核能极充足，可以用大量清洁能源跑 AI)、缺的只是聚焦和生态。「公司凭一己之力横空出世是故事，现实是生态系统——OpenAI 就是例子，Transformer 里的 T 显然来自 Google,是 Google 开源了 transformer。」所以要做的就是培育开放研究、开源 AI 的生态，再把越来越多的公司带向前沿——这正是美国发生过的路径。[23:48 Clement]\n\n最后一片积极信号：他平台上看到很多年轻人，很快越过了「AI 用户」阶段，现在想做建造者——自己下模型、训模型、做数据集、做产品，而且不只在热门领域，还有气候变化、生物、化学、社交媒体这些没人谈但更贴近每个人的方向。[25:31 Clement]\n\n## 本集带走\n\n- **开源与专有的安全逻辑不同**：最危险的能力在闭源、巨资团队里诞生(核弹类比)；不用危险领域数据训练，更强的模型也不会更危险——该谈的是训练数据，不是事后护栏。\n- **模型路由是下一阶段**：70% 的日常问题可在本地模型回答，订阅补贴掩盖了错配；底层自动路由会把价值从前沿模型分向长尾模型群。\n- **开放权重的来源不重要**：拿到权重就拿到全部控制与透明，没人能切断或偏向你；真正要警惕的是把数据和推理交给外部 API。\n- **蒸馏不是胜负手**：人人都在用，只起加速作用；增长最快的公司抱怨不公平竞争，很难成立——这个行业需要的是更多竞争。\n- **开源商业模式已验证**：Hugging Face 1 亿美元 ARR,加上 GitHub 与一众开源公司的先例，说明开源平台能赚钱。",
+  "quotes": [
+    {
+      "en": "If anything, I think they need more competition than less competition because we're heading towards a world where a few companies are completely dominating, concentrating all power, all capabilities, all wealth.",
+      "zh": "如果非要说，我认为它们需要的是更多竞争而不是更少——因为我们正走向一个少数几家公司完全主导、集中所有权力、能力与财富的世界。",
+      "timestamp": "00:23",
+      "speaker": "Clement DeLong"
+    },
+    {
+      "en": "A nuclear bomb has never been built in open source, and I think it would have never been built in open source.",
+      "zh": "核弹从来没有在开源中被造出来过，而且我认为它永远不会在开源中被造出来。",
+      "timestamp": "07:12",
+      "speaker": "Clement DeLong"
+    },
+    {
+      "en": "You could build a more powerful model that is not more dangerous for cybersecurity, for example, if you don't train it on cybersecurity, which really people are not really talking about.",
+      "zh": "你完全可以构建一个更强大的模型，但它在网络安全方面并不更危险——只要你不用网络安全数据去训练它，而这一点人们真的没有怎么谈论。",
+      "timestamp": "07:53",
+      "speaker": "Clement DeLong"
+    },
+    {
+      "en": "You can only get that through open source, right? Like you can't get that with API.",
+      "zh": "你只能通过开源才能做到这一点，对吧？用 API 是做不到的。",
+      "timestamp": "08:59",
+      "speaker": "Clement DeLong"
+    },
+    {
+      "en": "I think what we're seeing right now is that a lot of people, companies are realizing that it's too dangerous, it's too risky, it doesn't make any sense to rely exclusively on one model.",
+      "zh": "我们现在看到的是，很多人、很多公司意识到，完全依赖一个模型太危险、风险太大，完全说不通。",
+      "timestamp": "17:10",
+      "speaker": "Clement DeLong"
+    },
+    {
+      "en": "Like majority of the revenue capture was on frontier models to a more like long tail of models",
+      "zh": "就像大部分收入获取原本集中在前沿模型上，将转向一个更像长尾的模型群。",
+      "timestamp": "19:47",
+      "speaker": "Clement DeLong"
+    },
+    {
+      "en": "And, you know, you can't accuse people of stealing when you stole the entire internet.",
+      "zh": "而且，你知道，当你窃取了整个互联网的时候，你不能指责别人偷窃。",
+      "timestamp": "20:45",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "Like if you suck, you suck with or without distillation.",
+      "zh": "就像如果你很烂，不管有没有蒸馏你都很烂。",
+      "timestamp": "21:22",
+      "speaker": "Clement DeLong"
+    },
+    {
+      "en": "They've been the fastest growing companies in the world. They've become overnight trillion dollar companies.",
+      "zh": "它们一直是世界上增长最快的公司，一夜之间成了万亿美元的公司。",
+      "timestamp": "22:06",
+      "speaker": "Clement DeLong"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:23",
+      "speaker": "Clement",
+      "en": "If anything, I think they need more competition than less competition because we're heading towards a world where a few companies are completely dominating, concentrating all power, all capabilities, all wealth.",
+      "zh": "如果非要说，我认为它们需要的是更多竞争而不是更少——因为我们正走向一个少数几家公司完全主导、集中所有权力、能力与财富的世界。"
+    },
+    {
+      "timestamp": "00:39",
+      "speaker": "Clement",
+      "en": "And that's much more dangerous than maybe losing a couple billion dollars of revenue.",
+      "zh": "这比可能损失几十亿美元的收入要危险得多。"
+    },
+    {
+      "timestamp": "07:12",
+      "speaker": "Clement",
+      "en": "A nuclear bomb has never been built in open source, and I think it would have never been built in open source.",
+      "zh": "核弹从来没有在开源中被造出来过，而且我认为它永远不会在开源中被造出来。"
+    },
+    {
+      "timestamp": "07:53",
+      "speaker": "Clement",
+      "en": "You could build a more powerful model that is not more dangerous for cybersecurity, for example, if you don't train it on cybersecurity, which really people are not really talking about.",
+      "zh": "你完全可以构建一个更强大的模型，但它在网络安全方面并不更危险——只要你不用网络安全数据去训练它，而这一点人们真的没有怎么谈论。"
+    },
+    {
+      "timestamp": "08:59",
+      "speaker": "Clement",
+      "en": "You can only get that through open source, right? Like you can't get that with API.",
+      "zh": "你只能通过开源才能做到这一点，对吧？用 API 是做不到的。"
+    },
+    {
+      "timestamp": "09:20",
+      "speaker": "Clement",
+      "en": "The analogy is like, you know, open source maybe is the engine and the API is the car, right?",
+      "zh": "打个比方，开源也许是引擎，而 API 是汽车，对吧？"
+    },
+    {
+      "timestamp": "11:07",
+      "speaker": "Clement",
+      "en": "But at this small scale, I think it shows that there's a business model for open source, there's a business model for open source platform,",
+      "zh": "但在这个规模上，我认为它表明开源存在一种商业模式，开源平台存在一种商业模式。"
+    },
+    {
+      "timestamp": "17:10",
+      "speaker": "Clement",
+      "en": "I think what we're seeing right now is that a lot of people, companies are realizing that it's too dangerous, it's too risky, it doesn't make any sense to rely exclusively on one model.",
+      "zh": "我们现在看到的是，很多人、很多公司意识到，完全依赖一个模型太危险、风险太大，完全说不通。"
+    },
+    {
+      "timestamp": "15:00",
+      "speaker": "Clement",
+      "en": "It doesn't really matter where it comes from because it's kind of like you get all the control, you get all the transparency.",
+      "zh": "它来自哪里真的不重要，因为基本上你拥有全部的控制权，你拥有全部的透明度。"
+    },
+    {
+      "timestamp": "18:56",
+      "speaker": "Clement",
+      "en": "It's like directing everything to Einstein, right? It's like, hey, Einstein, what's the weather today?",
+      "zh": "这就像把一切都丢给爱因斯坦，对吧？就像，嘿，爱因斯坦，今天天气怎么样？"
+    },
+    {
+      "timestamp": "19:47",
+      "speaker": "Clement",
+      "en": "Like majority of the revenue capture was on frontier models to a more like long tail of models",
+      "zh": "就像大部分收入获取原本集中在前沿模型上，将转向一个更像长尾的模型群。"
+    },
+    {
+      "timestamp": "20:45",
+      "speaker": "主持人",
+      "en": "And, you know, you can't accuse people of stealing when you stole the entire internet.",
+      "zh": "而且，你知道，当你窃取了整个互联网的时候，你不能指责别人偷窃。"
+    },
+    {
+      "timestamp": "21:22",
+      "speaker": "Clement",
+      "en": "Like if you suck, you suck with or without distillation.",
+      "zh": "就像如果你很烂，不管有没有蒸馏你都很烂。"
+    },
+    {
+      "timestamp": "22:09",
+      "speaker": "Clement",
+      "en": "They've been the fastest growing companies in the world. They've become overnight trillion dollar companies.",
+      "zh": "它们一直是世界上增长最快的公司，一夜之间成了万亿美元的公司。"
+    },
+    {
+      "timestamp": "24:32",
+      "speaker": "Clement",
+      "en": "We build the stories of companies emerging out of the blue by their sheer power.",
+      "zh": "我们构建那种公司凭一己之力横空出世的故事。"
+    },
+    {
+      "timestamp": "24:52",
+      "speaker": "Clement",
+      "en": "And so it's more of a matter of, in my opinion, fostering an ecosystem of open research, open source AI.",
+      "zh": "所以在我看来，这更多是培育一个开放研究、开源 AI 生态系统的问题。"
+    },
+    {
+      "timestamp": "25:40",
+      "speaker": "Clement",
+      "en": "And now a lot of them, I think, want to be builders.",
+      "zh": "而现在，我想他们中的很多人想成为建造者。"
+    }
+  ],
+  "voice_script": "今天这一期，来的是 Clement DeLong,大家叫他 Clem,是 Hugging Face 的联合创始人兼 CEO。Hugging Face 是什么？简单说，它基本上就是开源 AI 的平台，全世界的开发者下载模型、分享模型，大部分都经过这里。这一期聊的事情有三件：政府头一回单方面限制前沿模型的发布、Anthropic 指控阿里巴巴搞「蒸馏攻击」、还有 Hugging Face 自己刚跨过 1 亿美元的收入门槛。串起这一切的，是 Clem 一个很反直觉的判断——开源模型，天生就比那些被限制的专有前沿模型更安全。\n\n先说那条新闻是怎么来的。政府要求一家前沿实验室不要发布 GPT 5.6,还要监督模型发布给哪些客户，这在以前从来没有过。Clem 说自己上周正好在华盛顿特区，算是坐在前排目睹了全程。有意思的是，他对这事的第一反应不是怪政府。理由是：前沿实验室过去几年基本一直在做营销，拿「模型太危险了不能发」当卖点——GPT-2 当年被认为太危险不能发布，那都已经是四五年前的事了。政府被吓到，某种程度上是这些实验室自己宣传出来的结果。真正让 Clem 担心的是另一件事：这种监管可别扩散。那些万亿美元级的大公司，有成群的华盛顿人员，应付得起；但初创公司、小公司、学术界，没有资金也没有规模去应对。而他觉得这事很难波及到开源，为什么？这就引出了这一期最核心的一段论证。\n\n开源为什么本质上更安全？Clem 给了一条完整的逻辑链。第一，开源模型不够「前沿」——受限制的那些专有模型才更接近前沿，开源模型更专业化、没那么通用，而且几乎没人专注在开源里构建危险的网络安全能力。第二，最危险的东西从来不在开源里诞生。安全圈的人爱谈核弹，但核弹从来没有在开源中被造出来过，Clem 认为永远不会——那是在闭源的专有团队里、投入数十亿美元的资源才造得出来的。第三，也是他觉得最被忽视的一点：能力不等于危险。你完全可以构建一个更强大的模型，但它在网络安全方面并不更危险——只要你不拿网络安全的数据去训练它。而大家讨论的却都是事后加护栏，偏偏那些护栏人人都能越狱。那开源到底是干什么的？它解决的是另一个问题：本地智能。你在飞机上开着飞行模式、没有网络，依然能获得智能——这只能靠开源做到，用 API 是不可能的。 Clem 有个比喻很妙：开源也许是引擎，API 是汽车。引擎永远成不了法拉利，但正是它在给法拉利提供动力。\n\n顺着这个思路往下走，就到了 Clem 最完整的行业判断：模型路由。斯坦福去年底有个研究，发现人们问 ChatGPT 的问题里，70% 在一台笔记本上本地就能准确回答。也就是说，大多数 AI 工作负载，本可以交给更便宜、更快、更可控的模型——但没人这么干，因为订阅有补贴，大家图省事，把一切都丢给最贵的模型。Clem 打了个比方：这就像把所有事都丢给爱因斯坦——嘿，爱因斯坦，今天天气怎么样？那现在为什么变了？因为大家意识到，单靠一个模型风险太大：它可能被下架、可能有偏见、可能拒绝回答，甚至故意告诉你错误的东西。所以公司在转向多模型加底层自动路由，Lovable 已经在这么做了。这会带来什么？价值的重新分配——大部分收入原来集中在前沿模型手里，接下来会转向一个更像长尾的模型群。用 Clem 的说法，第一阶段是所有人躲在专有 API 后面用一个巨型模型，第二阶段是用多个模型、用开源、自己掌控。\n\n聊到 Anthropic 指控阿里巴巴蒸馏窃取能力那件事，Clem 的回应很直接。蒸馏，说白了就是拿强模型的输出去训练自己的模型，这是人人都在用的常见做法，他甚至不会惊讶 Anthropic 自己过去也在一些专门模型上用过。但蒸馏只是加速器，不决定成败——如果你很烂，不管有没有蒸馏都很烂；明天就停止蒸馏，中国实验室也不会衰落消失。最不支持「不公平竞争」这个说法的一点是：Anthropic、OpenAI 是世界上增长最快的公司，一夜之间成了万亿美元公司，很难让人同情它们被不公平竞争。真要说起来，这个行业需要的是更多竞争而不是更少——我们正走向一个少数几家公司垄断所有权力、能力和财富的世界，这比它们损失几十亿美元收入危险得多。\n\n回到 Hugging Face 自己，1 亿美元 ARR 意味着什么？Clem 很坦率，很多 AI 公司收入比他们高得多，变现从来不是优先级。但这是个信号：开源存在商业模式，开源平台也存在商业模式——其实之前有 GitHub、有一批成功的开源公司，早就验证过了。顺便说一句，开放权重的来源重不重要？Clem 说不重要，因为你拿到权重，就拿到了全部的控制权和透明度，没人能欺骗你或者切断你的访问；真正要警惕的，是把数据和推理交给外部 API。\n\n最后落到一句话上。这一期最值得记住的，也许就是那个核弹的判断：核弹从来没有在开源中被造出来过，而且 Clem 相信，它永远不会。"
+}
