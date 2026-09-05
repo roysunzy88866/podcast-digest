@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":5,"DevOps":3,"变革管理":2,"数字分身":2,"ChatGPT":49}</script>
+<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":5,"DevOps":3,"变革管理":2,"数字分身":2,"ChatGPT":50}</script>
 
 <script>
 (function(){

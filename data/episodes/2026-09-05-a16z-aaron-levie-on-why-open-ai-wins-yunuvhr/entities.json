@@ -1,0 +1,972 @@
+{
+  "episode_id": "2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr",
+  "podcast": "The a16z Show",
+  "date": "2026-09-05",
+  "tags": [
+    "开源权重",
+    "AI 经济学",
+    "企业 AI",
+    "模型路由",
+    "前沿模型"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "aaron-levie",
+      "type": "person",
+      "role": "host",
+      "name": "Aaron Levie",
+      "file": "Aaron Levie",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sofia-puccini",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sofia Puccini",
+      "file": "Sofia Puccini",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.12,
+            21.811
+          ],
+          "quote": "The Box co-founder and CEO joins Theo Jaffe and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more competitive, the debate around distillation in China, and why America needs more open-weight AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "theo-jaffe",
+      "type": "person",
+      "role": "cohost",
+      "name": "Theo Jaffe",
+      "file": "Theo Jaffe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.12,
+            21.811
+          ],
+          "quote": "The Box co-founder and CEO joins Theo Jaffe and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more competitive, the debate around distillation in China, and why America needs more open-weight AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "box",
+      "type": "company",
+      "role": "company",
+      "name": "Box",
+      "file": "Box",
+      "primary": true,
+      "how_described": "本集介绍 Box 是做云端内容管理、企业文档、权限与协作的公司，嘉宾是其联合创始人兼 CEO；本集还谈了 Box 用 AI 扩大而非缩小工程路线图、对 Opus 5 跑企业评测。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.12,
+            21.811
+          ],
+          "quote": "The Box co-founder and CEO joins Theo Jaffe and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more competitive, the debate around distillation in China, and why America needs more open-weight AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            22.432,
+            32.42
+          ],
+          "quote": "They also get into the latest frontier models, how AI is expanding rather than shrinking Box's engineering roadmap, and why model routing could become the default for enterprise AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            35.694,
+            47.721
+          ],
+          "quote": "We are live with Aaron Levy, the co-founder and CEO of Box, which does all kinds of things, cloud content management, enterprise documents, permissions, collaboration, a lot of different AI functions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            85.62,
+            91.384
+          ],
+          "quote": "So today there was an open weights letter that Jensen Huang wrote and Box signed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1041.321,
+            1049.585
+          ],
+          "quote": "So with that being said, what were your thoughts on Opus 5, especially from like a, you know, knowledge work perspective, because you have that perspective at Box?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1349.281,
+            1352.264
+          ],
+          "quote": "So how is it affecting software engineering at Box?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 从蒸馏 API 调用中赚到的钱比大多数人从原始训练运行中赚到的还多，且它因认为开放权重是重大安全风险（需单一实体控制 token 流动、防提示词注入）而大概率永远不会开源模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            278.33,
+            285.374
+          ],
+          "quote": "And that general knowledge, whether it comes from Reddit or it comes from Anthropic is like, I don't see the distinction between those in any meaningful way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            293.798,
+            306.484
+          ],
+          "quote": "It should really be like, how is Anthropic thinking about like how to restrict their API use or like how to very effectively like prevent the sort of, because we were also talking about how like distillation, they still have to pay for the API usage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            308.265,
+            313.129
+          ],
+          "quote": "Anthropic is getting paid more for distillation than most people have ever gotten paid for the original trading run.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            875.828,
+            882.914
+          ],
+          "quote": "Yeah, so the dollars are going to flow into some infrastructure provider, and there's no reason that OpenAI can't be that infrastructure provider or Anthropic can't be that infrastructure provider.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            929.638,
+            931.679
+          ],
+          "quote": "You know, Anthropic has never open source anything.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            976.839,
+            982.786
+          ],
+          "quote": "And then the second part for Anthropic specifically, let's say, is I actually just believe that they consider this to be a major safety risk.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1010.131,
+            1021.717
+          ],
+          "quote": "So I would just almost consider them to likely never to open source their models for, you know, sort of like, you know, kind of reasons that, you know, are tied to just the creation of Anthropic in the first place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1161.088,
+            1165.892
+          ],
+          "quote": "And so, you know, I think it's been a great month for both OpenAI and Anthropic on that front.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1269.13,
+            1272.473
+          ],
+          "quote": "So I do think that Anthropic is going to have to kind of work through that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1289.005,
+            1304.509
+          ],
+          "quote": "I appreciated Anthropic's ultimate proposal on how we should kind of work through these types of dynamics with the government, have a kind of multi-point framework where we kind of agree on what are these kind of capabilities that are of different risk levels and test the models for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1656.257,
+            1660.98
+          ],
+          "quote": "Anthropic, OpenAI, and Meta.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集嘉宾建议 OpenAI 用开源版本以稳定节奏快速跟进前沿模型（比如上一代），把更多用例留在自家生态并承接开放模型的推理收入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            819.309,
+            841.337
+          ],
+          "quote": "And so if you assume that with things like, you know, I would actually make the case that even for something like an OpenAI, if you fast followed your frontier models with open source versions of, let's say, the prior generation at a more consistent pace, I actually think you would be even more competitive with your frontier models because it would keep more and more of the use cases within your ecosystem and your family.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            875.828,
+            882.914
+          ],
+          "quote": "Yeah, so the dollars are going to flow into some infrastructure provider, and there's no reason that OpenAI can't be that infrastructure provider or Anthropic can't be that infrastructure provider.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1161.088,
+            1165.892
+          ],
+          "quote": "And so, you know, I think it's been a great month for both OpenAI and Anthropic on that front.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1656.257,
+            1660.98
+          ],
+          "quote": "Anthropic, OpenAI, and Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1784.2,
+            1788.323
+          ],
+          "quote": "I mean, OpenAI hacked Hugging Face just four days ago.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重 (open weights)",
+      "file": "开源权重",
+      "primary": true,
+      "how_described": "本集主线：开源权重指把模型参数公开、任何人可下载微调部署；嘉宾认为它推动 AI 进步、被错误框定成与闭源的零和博弈，并呼吁美国加大对开源权重的投入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            85.62,
+            91.384
+          ],
+          "quote": "So today there was an open weights letter that Jensen Huang wrote and Box signed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            125.101,
+            133.768
+          ],
+          "quote": "So like open weights in general, I would argue is actually a very important part of the AI ecosystem, so much so that I think it's actually kind of misframed as zero sum with closed weights.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            139.052,
+            147.039
+          ],
+          "quote": "And then part two, I think embedded in there was a little bit of a call to arms on the US actually needs to be probably even more invested in open weights models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            151.382,
+            159.733
+          ],
+          "quote": "And so it didn't seem like it was directly about we must support all of the things that are happening in China as much as U.S. needs to continue to support open weights.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            179.768,
+            182.929
+          ],
+          "quote": "So I think everybody is sort of a winner as a result of open weights.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            201.384,
+            208.991
+          ],
+          "quote": "But I almost unequivocally take the stance that more open innovation and open weights innovation is good for AI broadly and the diffusion of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            367.36,
+            373.725
+          ],
+          "quote": "But all of that to me is independent of do we want open weights models and do we want this innovation in general from the ecosystem?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            400.714,
+            405.295
+          ],
+          "quote": "There's another angle here, which is, you know, most open weights models are coming from China.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 90,
+          "t": [
+            405.755,
+            421.319
+          ],
+          "quote": "And some people worry that if we become too dependent, if the American startup ecosystem becomes too dependent on Chinese open weight models, and then they like shut off the open weights, they stop releasing new open weights models, that this could be very bad for the American tech industry.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            460.701,
+            462.362
+          ],
+          "quote": "Like, open-weights models exist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            618.175,
+            634.318
+          ],
+          "quote": "You know, kind of a lot of the sort of theoretical risks of either open weights or, you know, the infrastructure side have to assume that we have such an insurmountable lead against China and that only accelerates past the point where, like, there's just simply no catching up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            903.568,
+            905.708
+          ],
+          "quote": "So I'm pro U.S. open weights.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            905.789,
+            917.093
+          ],
+          "quote": "I actually think a lot of the closed labs should consider having kind of faster follow open weights models to be able to handle the post-training use cases and some of the sovereign use cases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            938.672,
+            946.542
+          ],
+          "quote": "One is you sort of, you have to have a, you know, your time horizon has to be longer to believe that you can monetize open weights.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1007.229,
+            1009.61
+          ],
+          "quote": "You can't do that in an open weights environment.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集用蒸馏指用大模型输出去训练另一个模型；嘉宾认为很难划出「正常经济活动」与「违法」之间的线——模型可以在公共互联网上训练，却不可以用其他模型的输出训练，这个论证站不住脚。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.12,
+            21.811
+          ],
+          "quote": "The Box co-founder and CEO joins Theo Jaffe and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more competitive, the debate around distillation in China, and why America needs more open-weight AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            161.355,
+            165.922
+          ],
+          "quote": "I know, by the way, like distillation is actually not always bad and there's lots of use cases around it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            209.772,
+            221.815
+          ],
+          "quote": "So diving into the distillation point, how would you separate distillation that is like just normal, basically normal economic activity from distillation that crosses a line into like some sort of civil or criminal violation?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 59,
+          "t": [
+            249.482,
+            253.305
+          ],
+          "quote": "So I'd be trying to find every defensive mechanism to prevent the distillation of my models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            289.036,
+            293.758
+          ],
+          "quote": "It was just like, we're focusing on the wrong part of the chain when we blame distillation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            293.798,
+            306.484
+          ],
+          "quote": "It should really be like, how is Anthropic thinking about like how to restrict their API use or like how to very effectively like prevent the sort of, because we were also talking about how like distillation, they still have to pay for the API usage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            308.265,
+            313.129
+          ],
+          "quote": "Anthropic is getting paid more for distillation than most people have ever gotten paid for the original trading run.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            313.169,
+            328.983
+          ],
+          "quote": "So, and if you kind of like, you almost kind of do a thought experiment of like, well, what's the difference between distillation in a very direct, like I'm using the API across 10,000 accounts versus just quite literally, if we all generate code from Fable or GPT 5.6 and all that code ends up in public repos.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            339.176,
+            347.347
+          ],
+          "quote": "And then you kind of layer in another element, which is I think there's a lot of people that argue that actually China in this case are doing kind of breakthrough innovation in general independent of distillation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集嘉宾的核心经济学判断：AI 的赚钱机器是推理，钱最终会流向基础设施层；无论开源闭源，最终真正重要的只是推理成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            727.088,
+            735.719
+          ],
+          "quote": "But, you know, on the open source US side, I generally think that the moneymaker in AI is inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            816.688,
+            819.129
+          ],
+          "quote": "Just by, again, driving the inference of that model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            841.357,
+            845.418
+          ],
+          "quote": "And you probably could just power a lot of the inference of those open models as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            957.193,
+            975.258
+          ],
+          "quote": "But over the long arc of time, where no matter what, you have to assume that the cost of token per task, you know, gets driven down regardless, then, you know, you kind of play things out two or three stages and it's sort of, it's almost, you know, kind of a wash whether you were closed or open, because again, it's really just the inference cost that ends up mattering.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说模型路由是凌驾于多个模型之上、按任务在不同节点挑选使用哪个模型的一层，对企业价值巨大，还能缓解企业押注单一供应商的分析瘫痪。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            22.432,
+            32.42
+          ],
+          "quote": "They also get into the latest frontier models, how AI is expanding rather than shrinking Box's engineering roadmap, and why model routing could become the default for enterprise AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1567.174,
+            1573.378
+          ],
+          "quote": "We were talking about how model routing is the future and all of these services that offer that sort of thing are the future.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "closed",
+      "type": "concept",
+      "role": "concept",
+      "name": "闭源模型 (closed)",
+      "file": "闭源模型",
+      "primary": true,
+      "how_described": "本集把闭源与开源权重作为对照主线：闭源实验室会继续在前沿领先、拿走大部分利润，但纸面上闭源更赚、长期看开源闭源几乎平局。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            77.954,
+            80.696
+          ],
+          "quote": "I think astrology might remain closed source for the time being.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            125.101,
+            133.768
+          ],
+          "quote": "So like open weights in general, I would argue is actually a very important part of the AI ecosystem, so much so that I think it's actually kind of misframed as zero sum with closed weights.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            173.726,
+            179.728
+          ],
+          "quote": "And I actually think it pushes even the closed model providers to innovate faster and be able to deliver more for the market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            186.73,
+            196.259
+          ],
+          "quote": "For getting kind of commercial and economic interest for a second of some of the closed players, I think there's a category that obviously has real arguments around the safety elements of open weight at some point in the future of capability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            701.632,
+            720.64
+          ],
+          "quote": "Yeah, first of all, even the open versus closed, I actually appreciate all the debate that happens on this, so I'm very passionate about the topic, but I also totally appreciate all of the arguments on the other side, even though I probably lean the other way in some of them, but some of them do inform",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            742.687,
+            757.823
+          ],
+          "quote": "I think in a world where you only had one or two labs and somehow there were these insanely kind of closed secrets about training and you had like real intellectual property that was protectable and patentable and nobody ever could know about and it's like, you know, totally locked down.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            905.789,
+            917.093
+          ],
+          "quote": "I actually think a lot of the closed labs should consider having kind of faster follow open weights models to be able to handle the post-training use cases and some of the sovereign use cases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            946.602,
+            953.87
+          ],
+          "quote": "Because like tomorrow, if I release a closed model, I just will literally make more money if I just keep it closed and I force everything to route through my API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            957.193,
+            975.258
+          ],
+          "quote": "But over the long arc of time, where no matter what, you have to assume that the cost of token per task, you know, gets driven down regardless, then, you know, you kind of play things out two or three stages and it's sort of, it's almost, you know, kind of a wash whether you were closed or open, because again, it's really just the inference cost that ends up mattering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1143.855,
+            1152.462
+          ],
+          "quote": "And I think, you know, again, like what's exciting is, and this is why I don't think it's zero sum, like the closed labs continue to stay ahead on the frontier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1152.762,
+            1160.468
+          ],
+          "quote": "And I think the vast majority of the dollars in profit will still go to the closed labs in almost all scenarios that this plays out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "opus-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Opus 5",
+      "file": "Opus 5",
+      "primary": true,
+      "how_described": "本集说 Box 对 Opus 5 跑了一两周评测，相比已是同类最佳的 Opus 4.8 有实质性飞跃，在深度领域理解和横向数据分析两个轴上都提升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1022.872,
+            1031.957
+          ],
+          "quote": "I feel like, well, with regards to like Frontier Labs, this is going to be a segue to Claude Opus 4.5 or Claude Opus 5 being out now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1041.321,
+            1049.585
+          ],
+          "quote": "So with that being said, what were your thoughts on Opus 5, especially from like a, you know, knowledge work perspective, because you have that perspective at Box?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1050.59,
+            1062.159
+          ],
+          "quote": "Yeah, so we've been running evals on Opus 5 for the past kind of maybe a week or a week and a half or so, a couple weeks, and it's a fantastic model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1117.458,
+            1121.061
+          ],
+          "quote": "And Opus 5, you know, kind of just represents an improvement on both those axes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1178.958,
+            1196.839
+          ],
+          "quote": "Yeah, so I don't think we've, like, so we have internal benchmarks that deal with kind of general knowledge work, and I would actually agree with you that probably due to the cost difference, you'd probably argue that Opus 5 is now kind of an improvement over Fable because of the cost delta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1213.051,
+            1214.172
+          ],
+          "quote": "Sorry, 4.8 or Opus 5?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "type": "concept",
+      "role": "concept",
+      "name": "Fable",
+      "file": "Fable",
+      "primary": true,
+      "how_described": "本集说 Fable 在某些编码任务上曾完全碾压 Opus 4.8，但常把查询降级推给 4.8、触发安全警告后不再给出 Fable 级别的智能，生物领域有人因此没法用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            313.169,
+            328.983
+          ],
+          "quote": "So, and if you kind of like, you almost kind of do a thought experiment of like, well, what's the difference between distillation in a very direct, like I'm using the API across 10,000 accounts versus just quite literally, if we all generate code from Fable or GPT 5.6 and all that code ends up in public repos.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            862.924,
+            872.527
+          ],
+          "quote": "Open source AI does not mean that somehow I'm going to be running Fable on my laptop and I'm able to circumvent the need to have cloud infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1166.933,
+            1170.235
+          ],
+          "quote": "Are you finding Fable better for any tasks than Opus?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1178.958,
+            1196.839
+          ],
+          "quote": "Yeah, so I don't think we've, like, so we have internal benchmarks that deal with kind of general knowledge work, and I would actually agree with you that probably due to the cost difference, you'd probably argue that Opus 5 is now kind of an improvement over Fable because of the cost delta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1199.562,
+            1208.088
+          ],
+          "quote": "That we had tested internally, Fable completely outmatched 4.8, like in a way that you couldn't make up for by the token cost difference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1244.529,
+            1252.416
+          ],
+          "quote": "The one problem that Fable had, and everybody's kind of tweeted about this already, is it will often, you know, again, kind of push you down to 4.8 for certain capabilities.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1263.726,
+            1268.31
+          ],
+          "quote": "And so it kind of freaked out and isn't then giving you kind of Fable level of intelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1273.214,
+            1282
+          ],
+          "quote": "I've heard of folks in the biospace that effectively can't use Fable because it just again pushes their queries down too frequently.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1318.652,
+            1328.794
+          ],
+          "quote": "If you kind of snapshot it in time, Fable, right now, the level of things that they push down and prevent you from doing, that would be untenable for the future of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1714.755,
+            1717.037
+          ],
+          "quote": "And then you want to use Fable one day, go for it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": false,
+      "how_described": "本集在解释 Anthropic 为何不开源时提到：需要单一实体控制 token 流动、防止提示词注入（攻击者借输入操控模型），这在开放权重环境里做不到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            994.802,
+            1006.909
+          ],
+          "quote": "One entity to control the flow of the tokens, to be able to do, you know, kind of prevent, you know, prompt injection and make sure that you can route to different models based on the kind of queries people are doing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kimi-k3",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kimi K3",
+      "file": "Kimi K3",
+      "primary": false,
+      "how_described": "本集提到最近 Kimi K3 等模型显示中美模型差距也许在缩小而非扩大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            673.104,
+            682.55
+          ],
+          "quote": "Well, okay, what do you think would have happened if, like, let's say the U.S. would have open-sourced, like, beat China to open-sourcing like a Kimi K3-level capability model?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": false,
+      "how_described": "本集认为竞争会迫使 token 成本趋近基础设施成本——基础设施成本之上加 20-40% 而非 70-90%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            957.193,
+            975.258
+          ],
+          "quote": "But over the long arc of time, where no matter what, you have to assume that the cost of token per task, you know, gets driven down regardless, then, you know, you kind of play things out two or three stages and it's sort of, it's almost, you know, kind of a wash whether you were closed or open, because again, it's really just the inference cost that ends up mattering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1199.562,
+            1208.088
+          ],
+          "quote": "That we had tested internally, Fable completely outmatched 4.8, like in a way that you couldn't make up for by the token cost difference.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

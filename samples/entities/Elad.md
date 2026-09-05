@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Cliff Weitzman]] [[Justin Johnson]] [[Max Levchin]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
+[[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]]
 
 </div>
 

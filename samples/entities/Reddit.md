@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Reddit</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Reddit">RE</div><div class="pi"><h1 class="pt">Reddit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Reddit">RE</div><div class="pi"><h1 class="pt">Reddit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(00:29起):本集说 Reddit 在 LLM 中被大量引用，社区管理很严，创建假账号刷屏会被封；有效策略是注册账号说明你是谁、在哪工作，然后给有用的回答
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(09:49起):本集把它说成:演讲者曾写爬虫从中抓取编程幽默热帖来制作表情包的平台。
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(00:02起):本集提到:嘉宾强调物理世界的数据是互联网上抓取不到的,比如你无法爬取 Reddit 去发现某个特定建筑工地今天发生了什么(以此说明 Samsara 数据的独特性)。
+- **[[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]]**(01:48起):本集举 Reddit 作为『美好旧时光』YC 投的公司的例子：有价值，但『算不上洲际弹道货物』，用来对比现在这一批的『严肃』公司
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司(提及)
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
+- [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Theo Browne]] · [[Matt Turk]] · [[Ethan Smith]] · [[Sonnet 3.5]] · [[Sanjit Biswas]] · [[AEO]] · [[Opus 4.5]] · [[Samsara]] · [[SEO]]
+[[ChatGPT]] · [[Lenny]] · [[Theo Browne]] · [[Matt Turk]] · [[Paul Graham]] · [[Ethan Smith]] · [[Sonnet 3.5]] · [[Sanjit Biswas]] · [[YC]] · [[AEO]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Theo Browne":1,"Matt Turk":2,"Ethan Smith":1,"Sonnet 3.5":1,"Sanjit Biswas":1,"AEO":3,"Opus 4.5":1,"Samsara":2,"SEO":5}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":50,"Lenny":66,"Theo Browne":1,"Matt Turk":2,"Paul Graham":1,"Ethan Smith":1,"Sonnet 3.5":1,"Sanjit Biswas":1,"YC":10,"AEO":3}</script>
 
 <script>
 (function(){

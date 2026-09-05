@@ -112,7 +112,7 @@ Sriram 显得不太愿意做宏大叙事,他认为学界对此分歧很大,有�
 
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同公司:Hugging Face · 同概念:开源权重 (open weight)、智能体 (agent)</span>
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Hugging Face、Anthropic、OpenAI · 同概念:开源权重 (open weight)、智能体 (agent)</span>
-- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Hugging Face、Anthropic、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|开源权重不是威胁：Box CEO 聊 AI 的经济账]]<span class="pd-rz">同嘉宾:Sofia Puccini · 同公司:Anthropic、OpenAI · 同概念:蒸馏 (distillation)、Kimi K3</span>
 
 </div>
 </div>

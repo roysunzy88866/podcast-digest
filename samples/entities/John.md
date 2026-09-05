@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Cliff Weitzman]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]]
+[[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":9,"创始人-市场契合度":3,"智能体":1,"模型能力的边缘":1,"垂直化":1,"SaaS":12}</script>
+<script type="application/json" class="pd-epn">{"YC":10,"创始人-市场契合度":3,"智能体":1,"模型能力的边缘":1,"垂直化":1,"SaaS":12}</script>
 
 <script>
 (function(){

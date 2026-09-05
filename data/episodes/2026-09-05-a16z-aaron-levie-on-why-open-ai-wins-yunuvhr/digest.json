@@ -1,0 +1,232 @@
+{
+  "title_zh": "开源权重不是威胁：Box CEO 聊 AI 的经济账",
+  "tldr": "Box 联合创始人兼 CEO Aaron Levy 做客 A16Z 播客，谈为什么开源权重推动而非威胁 AI 进步、蒸馏争议、Opus 5 实测与企业模型路由策略。",
+  "digest_md": "这一集是 Box 联合创始人兼 CEO Aaron Levy 做客 A16Z 播客。Box 做云端内容管理和企业文档，横跨金融、法律、医疗等行业，是 AI 在企业落地的前排亲历者。当天刚发生一件事：Jensen Huang 写了一封开源权重信，Box 是签署方之一——「开源权重」指把模型的参数公开出来，任何人都能下载、微调、部署，与闭源 API 相对。\n\n## 这封信想说什么\n\nLevy 的解读分两层。第一层：开放权重实际上在**推动** AI 进步，带来更多创新、更多选择，你可以基于这些模型构建、按自己的用例微调——它被错误地框定成了与闭源的零和博弈，实际上只是增加了 AI 的用例数量。第二层是一点号召：美国需要对开放权重模型投入更多，希望更多公司带着这种创新上牌桌——「不是我们必须支持中国正在发生的所有事，而是美国需要继续支持开放权重」。\n\n他承认反方有关于安全的真实论据(未来某个能力节点上开放模型可能危险)，「我不同意，但这是场健康的辩论」。他的立场几乎毫不含糊：更开放的创新整体上有利于 AI 及其扩散。\n\n## 蒸馏之争：这条线划不出来\n\n蒸馏(用大模型的输出去训练另一个模型)最近因中国实验室被推上风口浪尖。Levy 的态度很直接：他不知道「正常经济活动」和「民事或刑事违法」之间的线划在哪里。「很难论证 AI 模型可以在宽泛的公共互联网上训练，但另一个 AI 模型却不能用 AI 模型的输出训练——这是个非常站不住脚的论证」。通用知识无论来自 Reddit 还是来自 Anthropic,在他看来没有有意义的区别。\n\n他同时理解实验室的处境：如果他是实验室负责人，也会想尽一切防御机制防止模型被蒸馏——但这与「存在某条被跨越的伦理界线」是两回事，否则你就是在反对这些模型底层的训练本身，毕竟大多数人并没有机会选择退出让自己的数据被用于训练。主持人补了一句扎心的账：Anthropic 从蒸馏中赚到的钱，比大多数人从原始训练运行中赚到的都多。\n\n## 封锁中国？木已成舟\n\n大多数开放权重模型来自中国，有人担心：依赖中国开源模型、被挤压利润率、国家安全风险。Levy 认为这些论点有力，但关键是「然后呢？」——推演下去，你论证的其实是「美国应该用昂贵的 AI,世界其他地方用便宜的 AI」,再看看未来五年十年谁更有竞争力。\n\n他在 Jensen 与访谈者那期著名的播客对谈中站 Jensen 一边：\n\n> 【背景】「访谈者」指 Dwarkesh Patel,科技播客主持人。\n\n> 【背景】此处指的是 Jensen Huang 与播客主持人 Dwarkesh Patel 的访谈，转写稿中人名拼写不一(写作 Dorakesh/Dworkesh 等)。\n\n逻辑是：封锁中国，中国不会放弃 AI——他们有海量 AI 人才、工业实力，训练数据总能想办法拿到(「雇 10 万人去生成海量数据」)。模型反正会被训练出来，只不过换一套不同的硬件栈，最终那个硬件栈会部署进各国的主权云。所以他「不认为存在这样一个场景：对中国完全封闭、大幅拖慢他们、然后含糊地说我们就赢了」。而且最近 Kimi K3 等模型显示，差距也许在缩小而非扩大。\n\n## 开源改变了 AI 的经济结构吗？没有\n\nLevy 的核心经济学判断：**AI 的赚钱机器是推理**，钱最终会流向基础设施层。开源 AI 不意味着你能在笔记本上跑模型绕过云基础设施，「无论如何你都要为大型 GPU 集群买单」。\n\n在美国将有三到五个把领先模型视为存亡的玩家世界里，竞争会迫使 token 成本趋近基础设施成本——不是零利润，而是基础设施成本之上加 20-40% 的区间，而非 70-90%。既然如此，如果你是开放模型的首选基础设施、或为其构建后训练环境、或是企业眼中部署它更安全的品牌，「你赚到的收入几乎一样多——仅仅是靠驱动那个模型的推理」。\n\n所以他甚至给 OpenAI 出主意：用开源版本以稳定节奏快速跟进前沿模型(比如上一代的版本)，会让前沿模型更有竞争力，因为更多用例留在你的生态里，你还能顺便承接这些开放模型的推理。那为什么实验室不这么做？他给两个解释：一是纸面上闭源今天确实更赚，要相信开源能变现需要更长的时间视野——但把事情推演两三个阶段，开源闭源「几乎是一场平局，因为最终真正重要的只是推理成本」；二是 Anthropic 大概率永远不会开源，因为他们从根上就认为这是安全风险——需要单一实体控制 token 流动、防提示词注入(攻击者借输入操控模型)，这在开放权重环境里做不到。\n\n## Opus 5 实测：知识工作双轴提升\n\nBox 对 Opus 5 跑了一两周评测，结论是很出色，相比已是同类最佳的 Opus 4.8 有实质性飞跃。企业需要 AI 模型的两个轴：深度的领域理解(生命科学、法律要打包进模型)和处理大量数据、使用工具的横向分析能力——Opus 5 在两个轴上都提升了。\n\n和 Fable 比：考虑成本差，Opus 5 大概是更优选择。但 Fable 在某些编码任务上曾完全碾压 4.8,大到 token 成本差补不回来。Fable 的一个真实问题：它经常把查询降级推给 4.8,尤其涉及权限、访问控制代码时会触发安全警告，「然后它就慌了，不再给你 Fable 级别的智能」——他听说生物领域有人因此根本没法用 Fable。由此他提出一个更深的问题：谁来决定风险框架？Fable 现在降级拦截的程度，对 AI 的未来是站不住脚的——这样下去人们干脆不用 AI 了。所以现在把这些模型锁死还为时过早。\n\n## AI 扩大而非缩小 Box 的路线图\n\nBox 没有因为 AI 少招工程师，反而在想办法多招。「我们有几十个项目，如果 AI 不存在，我们绝对不会去做」。原因是一个有趣的漏斗效应：纯人力约束下，你要么对小事说不(不值得做)，要么对大事说不(太难做)，项目都挤在「一到六个月能做完」的中间地带。现在多年的项目不再需要多年，一周的小事两小时就能做完——你能解决越来越多客户一直有的问题，而这会推高你的雄心。\n\n「如果你觉得自己已经消除了对软件工程师的需求，那你绝对不可能在产品路线图上有足够的雄心」。现在限制 Box 的反而是财务约束——业务还有别的领域要增长要招人。\n\n## 模型路由是企业的默认未来\n\n模型发布越来越频繁，企业对单一供应商的忠诚度行不通了。Levy(承认自己有强烈偏见——Box 就坐在这个位置上)的结论：你越需要多个模型完成一组任务，价值就越积聚到「能理解任务、获取数据、处理工作流」的那一层。美国现在有五个可信的模型玩家(SpaceX、Google、Anthropic、OpenAI、Meta),都在同时压低成本、推进前沿。一个凌驾其上的模型路由器(按任务在不同节点挑选用哪个模型)对企业价值巨大，还意外地缓解了企业的「分析瘫痪」——不必押注某一家，工作流和数据先跑起来，今天用 Fable、明天用 GPT 5.6 都行，还能降低整体工作流成本。\n\n而这一层之所以值钱，是因为纯粹的横向模型深入法律、金融、医疗很难——不是模型做不到，而是模型周围需要的配套机制(正确的数据访问、正确地嵌入工作流)不在那里。\n\n## 本集带走\n\n- **开源权重与闭源不是零和**：开放模型增加用例、倒逼闭源实验室更快创新；利润大头仍会流向闭源实验室，因为 AI 的钱最终流向推理和基础设施。\n- **蒸馏的伦理线很难划**：模型可以用整个公共互联网训练，却不能用别的模型的输出？而且 API 调用是要付钱的，蒸馏方在给原实验室创收。\n- **封锁中国在 AI 上行不通**：人才、工业实力、数据都不是壁垒，「木已成舟」；更现实的选项是参与全球基础设施建设，否则对手只会换一套硬件栈继续训练。\n- **闭源实验室可以试试「开源上一代」**：稳定地用开源版本快速跟进前沿模型，把用例留在自家生态、顺便承接推理收入——长期看几乎是平局，短期看只是少赚。\n- **AI 的正确用法是扩大野心，不是裁人**：多年项目不再需要多年、一周的小事两小时做完；认为不再需要工程师，只能说明路线图不够雄心勃勃。\n- **企业别押注单一模型**：模型相互超越太快，价值在会路由、懂数据和工作流的应用层；这一层还能缓解「选哪家」的决策瘫痪。",
+  "quotes": [
+    {
+      "en": "So like open weights in general, I would argue is actually a very important part of the AI ecosystem, so much so that I think it's actually kind of misframed as zero sum with closed weights.",
+      "zh": "所以一般来说，我想说开放权重实际上是 AI 生态系统中非常重要的一部分，以至于我认为它被错误地框定成了与闭源权重的零和博弈。",
+      "timestamp": "02:05",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "I'm almost deeply on the side of, I think it's very hard to make the argument that AI models should be trained on broadly the public internet, but another AI model can't be trained on the outputs of an AI model.",
+      "zh": "我几乎是深切地站在这一边：很难论证 AI 模型可以在宽泛的公共互联网上训练，但另一个 AI 模型却不能用 AI 模型的输出训练。",
+      "timestamp": "03:48",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "Anthropic is getting paid more for distillation than most people have ever gotten paid for the original trading run.",
+      "zh": "Anthropic 从蒸馏中赚到的钱，比大多数人从原始训练运行中赚到的钱都多。",
+      "timestamp": "05:08",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "You get a few people that are at a stage in life where they can just be like, yep, I'm going to drop $10 billion on building an open lab in America.",
+      "zh": "有那么几个人，处在那样的人生阶段，可以直接说：好，我要砸 100 亿美元在美国建一个开放实验室。",
+      "timestamp": "06:17",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "if you kind of play out the alternative, then all you would basically be arguing is America should have really expensive AI and the rest of the world should have very cheap AI.",
+      "zh": "如果你把另一种情形推演下去，那你基本上论证的就是：美国应该用非常昂贵的 AI,而世界其他地方应该用非常便宜的 AI。",
+      "timestamp": "07:23",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "If you block off China, China is like not going to give up on AI.",
+      "zh": "如果你封锁中国，中国是不会放弃 AI 的。",
+      "timestamp": "08:14",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "I just don't think there's a scenario here where you can kind of close off completely to China and somehow you dramatically slow them down and then kind of hand-wavy, we just win.",
+      "zh": "我就是不认为存在这样一个场景：你可以对中国完全封闭，然后不知怎么就大幅拖慢了他们，然后含糊其辞地说，我们就赢了。",
+      "timestamp": "10:01",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "on the open source US side, I generally think that the moneymaker in AI is inference.",
+      "zh": "在美国开源这一边，我总体上认为 AI 的赚钱机器是推理。",
+      "timestamp": "12:08",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "you have to expect that the cost of tokens converge closer and closer to the cost of the infrastructure over time.",
+      "zh": "你必须预期 token 的成本会随着时间越来越趋近于基础设施的成本。",
+      "timestamp": "12:57",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "I actually think you would be even more competitive with your frontier models because it would keep more and more of the use cases within your ecosystem and your family.",
+      "zh": "我实际上认为你的前沿模型会更有竞争力，因为这会让越来越多的用例留在你的生态系统和你的家族之内。",
+      "timestamp": "13:52",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "Because like tomorrow, if I release a closed model, I just will literally make more money if I just keep it closed and I force everything to route through my API.",
+      "zh": "因为就像明天，如果我发布一个闭源模型，如果我把它保持闭源、强迫一切通过我的 API 路由，我字面意义上就会赚到更多的钱。",
+      "timestamp": "15:46",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "And I think the vast majority of the dollars in profit will still go to the closed labs in almost all scenarios that this plays out.",
+      "zh": "我认为在几乎所有可能的演进场景中，绝大部分的利润美元仍会流向闭源实验室。",
+      "timestamp": "19:12",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "People will simply not use AI if this is the kind of ongoing environment.",
+      "zh": "如果这种环境持续下去，人们干脆就不会用 AI 了。",
+      "timestamp": "22:09",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "We have multiple dozens of projects right now that we absolutely would not be doing if AI didn't exist.",
+      "zh": "我们现在有几十个项目，如果 AI 不存在，我们绝对不会去做。",
+      "timestamp": "23:22",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "You either say no to the very small things because it's not worth it, or you say no to the really big things because they're simply too hard.",
+      "zh": "你要么对非常小的事情说不，因为不值得；要么对真正大的事情说不，因为它们简直太难了。",
+      "timestamp": "23:39",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "if you think that you've kind of eliminated the need for software engineers, there's just no chance you're being ambitious enough with your product roadmap.",
+      "zh": "如果你觉得自己已经消除了对软件工程师的需求，那你绝对不可能在产品路线图上有足够的雄心。",
+      "timestamp": "24:42",
+      "speaker": "Aaron Levie"
+    },
+    {
+      "en": "the more that you need multiple models to do a task or a set of tasks, the more value accrues to the layer that can understand the task and get access to the data and handle the workflow",
+      "zh": "你越是需要多个模型来完成一项任务或一组任务，价值就越是积聚到那个能够理解任务、获取数据并处理工作流的层上",
+      "timestamp": "26:22",
+      "speaker": "Aaron Levie"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:05",
+      "speaker": "Aaron Levy",
+      "en": "So like open weights in general, I would argue is actually a very important part of the AI ecosystem, so much so that I think it's actually kind of misframed as zero sum with closed weights.",
+      "zh": "所以一般来说，我想说开放权重实际上是 AI 生态系统中非常重要的一部分，以至于我认为它被错误地框定成了与闭源权重的零和博弈。"
+    },
+    {
+      "timestamp": "03:48",
+      "speaker": "Aaron Levy",
+      "en": "I'm almost deeply on the side of, I think it's very hard to make the argument that AI models should be trained on broadly the public internet, but another AI model can't be trained on the outputs of an AI model.",
+      "zh": "我几乎是深切地站在这一边：很难论证 AI 模型可以在宽泛的公共互联网上训练，但另一个 AI 模型却不能用 AI 模型的输出训练。"
+    },
+    {
+      "timestamp": "05:08",
+      "speaker": "Theo Jaffe",
+      "en": "Anthropic is getting paid more for distillation than most people have ever gotten paid for the original trading run.",
+      "zh": "Anthropic 从蒸馏中赚到的钱，比大多数人从原始训练运行中赚到的钱都多。"
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Aaron Levy",
+      "en": "You get a few people that are at a stage in life where they can just be like, yep, I'm going to drop $10 billion on building an open lab in America.",
+      "zh": "有那么几个人，处在那样的人生阶段，可以直接说：好，我要砸 100 亿美元在美国建一个开放实验室。"
+    },
+    {
+      "timestamp": "07:22",
+      "speaker": "Aaron Levy",
+      "en": "if you kind of play out the alternative, then all you would basically be arguing is America should have really expensive AI and the rest of the world should have very cheap AI.",
+      "zh": "如果你把另一种情形推演下去，那你基本上论证的就是：美国应该用非常昂贵的 AI,而世界其他地方应该用非常便宜的 AI。"
+    },
+    {
+      "timestamp": "08:14",
+      "speaker": "Aaron Levy",
+      "en": "If you block off China, China is like not going to give up on AI.",
+      "zh": "如果你封锁中国，中国是不会放弃 AI 的。"
+    },
+    {
+      "timestamp": "10:01",
+      "speaker": "Aaron Levy",
+      "en": "I just don't think there's a scenario here where you can kind of close off completely to China and somehow you dramatically slow them down and then kind of hand-wavy, we just win.",
+      "zh": "我就是不认为存在这样一个场景：你可以对中国完全封闭，然后不知怎么就大幅拖慢了他们，然后含糊其辞地说，我们就赢了。"
+    },
+    {
+      "timestamp": "12:07",
+      "speaker": "Aaron Levy",
+      "en": "on the open source US side, I generally think that the moneymaker in AI is inference.",
+      "zh": "在美国开源这一边，我总体上认为 AI 的赚钱机器是推理。"
+    },
+    {
+      "timestamp": "13:04",
+      "speaker": "Aaron Levy",
+      "en": "you have to expect that the cost of tokens converge closer and closer to the cost of the infrastructure over time.",
+      "zh": "你必须预期 token 的成本会随着时间越来越趋近于基础设施的成本。"
+    },
+    {
+      "timestamp": "13:36",
+      "speaker": "Aaron Levy",
+      "en": "I actually would argue make almost the same amount of revenue.",
+      "zh": "我实际上会争辩说，你赚到的收入几乎一样多。"
+    },
+    {
+      "timestamp": "13:39",
+      "speaker": "Aaron Levy",
+      "en": "I actually think you would be even more competitive with your frontier models because it would keep more and more of the use cases within your ecosystem and your family.",
+      "zh": "我实际上认为你的前沿模型会更有竞争力，因为这会让越来越多的用例留在你的生态系统和你的家族之内。"
+    },
+    {
+      "timestamp": "15:53",
+      "speaker": "Aaron Levy",
+      "en": "Because like tomorrow, if I release a closed model, I just will literally make more money if I just keep it closed and I force everything to route through my API.",
+      "zh": "因为就像明天，如果我发布一个闭源模型，如果我把它保持闭源、强迫一切通过我的 API 路由，我字面意义上就会赚到更多的钱。"
+    },
+    {
+      "timestamp": "17:02",
+      "speaker": "Aaron Levy",
+      "en": "So I would just almost consider them to likely never to open source their models",
+      "zh": "所以我几乎会认为他们很可能永远不会开源他们的模型"
+    },
+    {
+      "timestamp": "19:12",
+      "speaker": "Aaron Levy",
+      "en": "And I think the vast majority of the dollars in profit will still go to the closed labs in almost all scenarios that this plays out.",
+      "zh": "我认为在几乎所有可能的演进场景中，绝大部分的利润美元仍会流向闭源实验室。"
+    },
+    {
+      "timestamp": "22:09",
+      "speaker": "Aaron Levy",
+      "en": "People will simply not use AI if this is the kind of ongoing environment.",
+      "zh": "如果这种环境持续下去，人们干脆就不会用 AI 了。"
+    },
+    {
+      "timestamp": "23:23",
+      "speaker": "Aaron Levy",
+      "en": "We have multiple dozens of projects right now that we absolutely would not be doing if AI didn't exist.",
+      "zh": "我们现在有几十个项目，如果 AI 不存在，我们绝对不会去做。"
+    },
+    {
+      "timestamp": "23:39",
+      "speaker": "Aaron Levy",
+      "en": "You either say no to the very small things because it's not worth it, or you say no to the really big things because they're simply too hard.",
+      "zh": "你要么对非常小的事情说不，因为不值得；要么对真正大的事情说不，因为它们简直太难了。"
+    },
+    {
+      "timestamp": "24:40",
+      "speaker": "Aaron Levy",
+      "en": "if you think that you've kind of eliminated the need for software engineers, there's just no chance you're being ambitious enough with your product roadmap.",
+      "zh": "如果你觉得自己已经消除了对软件工程师的需求，那你绝对不可能在产品路线图上有足够的雄心。"
+    },
+    {
+      "timestamp": "26:21",
+      "speaker": "Aaron Levy",
+      "en": "the more that you need multiple models to do a task or a set of tasks, the more value accrues to the layer that can understand the task and get access to the data and handle the workflow",
+      "zh": "你越是需要多个模型来完成一项任务或一组任务，价值就越是积聚到那个能够理解任务、获取数据并处理工作流的层上"
+    },
+    {
+      "timestamp": "25:19",
+      "speaker": "Aaron Levy",
+      "en": "Yeah, that's because it was trained on all of our Slack messages pre-AI.",
+      "zh": "是的，那是因为它是用我们 AI 之前所有的 Slack 消息训练出来的。"
+    }
+  ],
+  "voice_script": "开源权重不是威胁？这话出自一家上市公司 CEO 之口，而且说的当天，黄仁勋刚发了一封开源权重信，他们公司就签在名单上。\n\n这一期，咱们就跟着 Box 的联合创始人兼 CEO Aaron Levy,聊聊 AI 到底是一门什么生意。Box 做企业文档和云端内容管理，横跨金融、法律、医疗，是 AI 在企业落地的前排亲历者。什么叫开源权重？说白了，就是把模型的参数公开，任何人都能下载、微调、部署，跟闭源的 API 相对。\n\n那天 Box 刚签完这封信，Levy 的解读分两层。第一层，开放权重其实在推动 AI 进步，带来更多创新、更多选择，你可以拿这些模型按自己的用例去微调。这事儿被错误地框成了跟闭源的零和博弈，实际上只是把 AI 的用例变多了。第二层是一点号召：美国需要对开放权重投入更多。当然了，反方也有关于安全的真实论据，万一未来某个能力节点上，开放模型变危险了呢？他不同意，但承认这是场健康的辩论。\n\n那最近吵翻天的蒸馏呢？就是拿大模型的输出去训练另一个模型。这条线，他觉得根本划不出来。举个扎心的账：AI 模型可以在宽泛的公共互联网上训练，怎么另一个 AI 模型就不能用 AI 模型的输出训练了？而且通用知识来自 Reddit 还是来自 Anthropic,有啥有意义的区别？再加上 API 调用是要付钱的——Anthropic 从蒸馏里赚到的钱，比大多数人从原始训练运行里赚到的都多。当然也能理解实验室的心情，换成谁坐那个位置，都会拼命防御。但那跟“有人越过了伦理界线”是两码事。\n\n再往深一步，有人担心开放模型大多来自中国，要封锁。这些论点听着有力，但关键是，然后呢？推演下去，你论证的其实是：美国用昂贵的 AI,世界其他地方用便宜的 AI,然后咱们比比看五年十年谁更有竞争力。封锁中国，中国不会放弃 AI 的——人才在那儿、工业实力在那儿、数据总有办法搞到，模型照样会被训练出来，只不过换一套硬件栈，最后那套栈还会部署进各国的主权云。而最近 Kimi K3 这些模型还在提示一件事：差距也许在缩小，不是在扩大。\n\n好，那开源到底改变了 AI 的经济结构吗？答案是，没有。Levy 的核心判断是，AI 的赚钱机器是推理，钱最终流向基础设施层。开源不等于你能在笔记本上跑模型绕过云，大型 GPU 集群的钱，怎么都省不掉。竞争会让 token 成本趋近基础设施成本——不是零利润，是加 20 到 40 个点，而不是 70 到 90。所以你哪怕是开放模型的首选基础设施，光是承接推理，收入就几乎一样多。他甚至给 OpenAI 出主意：用开源版本稳定地快速跟进前沿模型，比如上一代，这样更多用例留在自家生态，推理收入也顺便接住了。\n\n再看实测。Box 对 Opus 5 跑了一两周评测，结论是相比已经是同类最佳的 4.8,有实质性飞跃——深度领域理解和横向处理能力，两个轴都上去了。跟 Fable 比，算上成本差，Opus 5 大概更优。但 Fable 有个真实问题：碰到权限、访问控制相关的代码就触发安全警告，然后慌了，直接降级推给 4.8,不再给你 Fable 级别的智能。这就引出一个更深的问题：谁来决定风险框架？拦到这个程度，对 AI 的未来是站不住脚的——这样下去，人们干脆不用 AI 了。\n\n最后说说 Box 自己。AI 没让他们少招工程师，反而在想办法多招。为啥？一个有意思的漏斗效应：纯靠人力，小事不值得做、大事做不动，项目全挤在“一到六个月能做完”的中间地带。现在多年项目不用多年了，一周的小事两小时搞定，于是几十个原来绝对不会碰的项目，都上马了。有句话特别提气：如果你觉得自己已经不需要软件工程师了，那说明你的产品路线图根本不够雄心勃勃。\n\n开源闭源不是零和，钱最终流向推理；企业别押注单一模型，价值在懂任务、懂数据、能路由的那一层。一句话带走：AI 不是让你省下人力，是让你的野心配得上新的可能。"
+}

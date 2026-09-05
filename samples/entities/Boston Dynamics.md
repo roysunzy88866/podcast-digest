@@ -27,7 +27,7 @@ unlisted: true
 
 [[Kriti Sharma]] · [[Mike LeBlanc]] · [[Craig Smith]] · [[Foundation]] · [[Nexus Black]] · [[人形机器人]] · [[IFS]] · [[执行器]] · [[Anthropic]] · [[视觉-语言-行动模型]]
 
-<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Mike LeBlanc":1,"Craig Smith":1,"Foundation":1,"Nexus Black":1,"人形机器人":1,"IFS":1,"执行器":2,"Anthropic":98,"视觉-语言-行动模型":1}</script>
+<script type="application/json" class="pd-epn">{"Kriti Sharma":1,"Mike LeBlanc":1,"Craig Smith":1,"Foundation":1,"Nexus Black":1,"人形机器人":1,"IFS":1,"执行器":2,"Anthropic":99,"视觉-语言-行动模型":1}</script>
 
 <script>
 (function(){

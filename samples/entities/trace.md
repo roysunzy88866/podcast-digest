@@ -33,7 +33,7 @@ unlisted: true
 
 [[Lenny]] · [[Hamel Husain]] · [[Shreya Shankar]] · [[评估]] · [[错误分析]] · [[开放式编码]] · [[轴向编码]] · [[LLM 判别器]] · [[智能体]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Hamel Husain":1,"Shreya Shankar":1,"评估":20,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":1,"Anthropic":98}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Hamel Husain":1,"Shreya Shankar":1,"评估":20,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":1,"Anthropic":99}</script>
 
 <script>
 (function(){

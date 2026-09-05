@@ -175,8 +175,8 @@ Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,
 **顺着「智能体」挖下去**
 
 - [[2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil|Tether 做本地 AI：数据中心造太多了]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agents)</span>
+- [[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|开源权重不是威胁：Box CEO 聊 AI 的经济账]]<span class="pd-rz">同概念:推理 (inference)、蒸馏 (distillation)</span>
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网]]<span class="pd-rz">同公司:Google · 同概念:推理 (inference)、多智能体系统 (multi-agent systems)</span>
-- [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|Parag：为什么智能体搜索不该照搬人类那一套]]<span class="pd-rz">同公司:Google · 同概念:推理 (inference)、多智能体系统 (multi-agent systems)</span>
 
 </div>
 <div class="pd-ex">

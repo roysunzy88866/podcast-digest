@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
+[[Aaron Levie]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":11,"Speechify":1,"Eleven Labs":5,"Sierra":5,"NVIDIA":28,"Dell":1,"Anthropic":98,"OpenAI":84,"Claude Code":44,"Cursor":45}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":11,"Speechify":1,"Eleven Labs":5,"Sierra":5,"NVIDIA":28,"Dell":1,"Anthropic":99,"OpenAI":86,"Claude Code":44,"Cursor":45}</script>
 
 <script>
 (function(){

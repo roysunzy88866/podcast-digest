@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[ChatGPT]] · [[Google]] · [[TikTok]] · [[Facebook]] · [[Stories]] · [[Reels]] · [[Peter Deng]] · [[Robby Stein]] · [[Adam Mosseri]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"ChatGPT":49,"Google":35,"TikTok":2,"Facebook":11,"Stories":2,"Reels":2,"Peter Deng":1,"Robby Stein":1,"Adam Mosseri":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"ChatGPT":50,"Google":35,"TikTok":2,"Facebook":11,"Stories":2,"Reels":2,"Peter Deng":1,"Robby Stein":1,"Adam Mosseri":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/fa4d1de0-221c-4305-9b44-d8ee5ef2a0db/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=fa4d1de0-221c-4305-9b44-d8ee5ef2a0db&feed=JGE3yC0V",
+  "duration_sec": 1854.85,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 353,
+  "asr": true,
+  "title_en": "Aaron Levie on Why Open AI Wins",
+  "podcast": "The a16z Show",
+  "date": "2026-09-05",
+  "added": "2026-09-05",
+  "added_at": "2026-09-05T14:10:51.233Z",
+  "speaker_map": {
+    "SPEAKER_02": "Aaron Levie",
+    "SPEAKER_01": "Sofia Puccini",
+    "SPEAKER_03": "Theo Jaffe"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Aaron Levie",
+  "cohosts": [
+    "Sofia Puccini",
+    "Theo Jaffe"
+  ],
+  "title_zh": "开源权重不是威胁：Box CEO 聊 AI 的经济账",
+  "guest_name": "Aaron Levie",
+  "guest_title": "Box 联合创始人兼 CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

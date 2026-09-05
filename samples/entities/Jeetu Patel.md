@@ -37,7 +37,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Cisco]] · [[NVIDIA]] · [[ChatGPT]] · [[主观能动性]] · [[AI 优先]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]] · [[丢包]]
+[[Lenny]] · [[Cisco]] · [[NVIDIA]] · [[Box]] · [[ChatGPT]] · [[主观能动性]] · [[AI 优先]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Cisco":2,"NVIDIA":28,"ChatGPT":49,"主观能动性":17,"AI 优先":2,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Cisco":2,"NVIDIA":28,"Box":3,"ChatGPT":50,"主观能动性":17,"AI 优先":2,"能力过剩":2,"超级趋势":1,"炒作周期":1}</script>
 
 <script>
 (function(){

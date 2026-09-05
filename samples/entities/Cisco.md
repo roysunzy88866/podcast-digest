@@ -25,9 +25,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jeetu Patel]] · [[Elena Berger]] · [[Lenny]] · [[Joe Schmidt]] · [[NVIDIA]] · [[Andy McCall]] · [[ChatGPT]] · [[Lighthouse]] · [[主观能动性]] · [[LandGrab]]
+[[Jeetu Patel]] · [[Elena Berger]] · [[Lenny]] · [[Joe Schmidt]] · [[NVIDIA]] · [[Andy McCall]] · [[Box]] · [[Lighthouse]] · [[ChatGPT]] · [[LandGrab]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Elena Berger":3,"Lenny":66,"Joe Schmidt":1,"NVIDIA":28,"Andy McCall":1,"ChatGPT":49,"Lighthouse":1,"主观能动性":17,"LandGrab":1}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Elena Berger":3,"Lenny":66,"Joe Schmidt":1,"NVIDIA":28,"Andy McCall":1,"Box":3,"Lighthouse":1,"ChatGPT":50,"LandGrab":1}</script>
 
 <script>
 (function(){

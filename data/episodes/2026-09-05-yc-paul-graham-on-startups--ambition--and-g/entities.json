@@ -1,0 +1,478 @@
+{
+  "episode_id": "2026-09-05-yc-paul-graham-on-startups--ambition--and-g",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-09-05",
+  "tags": [
+    "创业心法",
+    "YC",
+    "AGI",
+    "融资",
+    "创始人特质"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "paul-graham",
+      "type": "person",
+      "role": "guest",
+      "name": "Paul Graham",
+      "file": "Paul Graham",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "concept",
+      "name": "YC",
+      "file": "YC",
+      "primary": true,
+      "how_described": "本集围绕 YC 第 47 批开营演讲展开：最初只是想做一家天使投资公司，批次和三个月时长纯属取代暑期工作的偶然产物，后来效果太好就永远这么干了；对『YC 江河日下』的论调从 2008 年就存在，且永远不会停",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.111,
+            7.454
+          ],
+          "quote": "So we're here in Mountain View today with PG himself at the original offices doing your talk that you do for the YC batch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            8.114,
+            10.815
+          ],
+          "quote": "This is actually the 47th YC batch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            21.6,
+            24.04
+          ],
+          "quote": "It's the 21st year also of YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            36.245,
+            37.825
+          ],
+          "quote": "Oops, I better, I'm just talking to YC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            67.211,
+            73.812
+          ],
+          "quote": "So you recently posted that the startups YC funds now are much more serious than they were in the supposedly good old days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            75.519,
+            81.303
+          ],
+          "quote": "Well, what I meant by supposedly good old days is people are always saying that YC has jumped the shark, you know?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            86.607,
+            90.109
+          ],
+          "quote": "YC is always this thing that was great, but now it's not what it was, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            192.59,
+            195.831
+          ],
+          "quote": "And they're actually really interesting because they helped another YC group.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            197.152,
+            199.472
+          ],
+          "quote": "It's part of the whole YC community.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            238.47,
+            242.991
+          ],
+          "quote": "Yeah, using another YC term to attack his cancer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            292.31,
+            293.731
+          ],
+          "quote": "And it was incubated at YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            317.037,
+            325.402
+          ],
+          "quote": "I think I already knew that before we started YC because when we started YC, we already had all this experience of doing a startup ourselves, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            423.646,
+            431.952
+          ],
+          "quote": "And I'm curious, can you tell me a story about a founder where when they started YC, they were maybe not ambitious enough, and then they became very ambitious during the batch?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            506.536,
+            514.144
+          ],
+          "quote": "It was quite early on in YC's history when people started applying to YC for the prestige, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            541.581,
+            544.144
+          ],
+          "quote": "And so these people trying to do YC as a credential.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            585.8,
+            591.402
+          ],
+          "quote": "And so we already had this word before we started YC, like for a certain kind of person.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            650.192,
+            658.797
+          ],
+          "quote": "I mean, we already had a kind of startup that we funded in YC, and maybe it has a lot of overlap with what was described in this book, the lean startup, but I haven't actually read it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1025.875,
+            1030.941
+          ],
+          "quote": "I'm also curious, how does being in a batch like YC give founders an advantage?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1059.464,
+            1062.686
+          ],
+          "quote": "And another advantage is what we call the YC GDP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1078.96,
+            1080.482
+          ],
+          "quote": "How did you come up with the idea for YC?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1165.659,
+            1168.965
+          ],
+          "quote": "How has YC changed or not changed since it's grown?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1179.56,
+            1188.044
+          ],
+          "quote": "There's a lot more of them, but they, you know, they live in small groups that are just like individual bits of YC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1188.384,
+            1195.167
+          ],
+          "quote": "So one of the things people saying, when people say YC is jump the shark, one of the things they always say is, oh, it's so big now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1204.454,
+            1215.123
+          ],
+          "quote": "And if you divide YC up into little bits where each startup is part of a pot of 70 startups, then it's just like they were back in 2012 when there were 70 startups.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "concept",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 是『惊悚级野心』点子兑现的例证——等 Google 的模型过时就能做出新的 Google，PG 用了 OpenAI 之后不再用搜索了，而且它当年是在 YC 孵化的（Sam 众多副业项目之一）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            275.382,
+            277.183
+          ],
+          "quote": "And that's what OpenAI is, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            277.263,
+            281.964
+          ],
+          "quote": "Like, I realized very early on, like, after using OpenAI, like, whoa, I don't use Google anymore.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集用 ChatGPT 早期版本比喻 AI 的反直觉发展路径：不是从完美苍蝇走向人类，而是一开始就得到『一个完完全全的人类，但满嘴胡扯』，像在论文里硬着头皮胡编的本科生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            830.639,
+            837.885
+          ],
+          "quote": "Like the first AIs, the first versions of ChatGPT were like an undergrad trying to bullshit his way through a paper.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gitlab",
+      "type": "company",
+      "role": "concept",
+      "name": "GitLab",
+      "file": "GitLab",
+      "primary": true,
+      "how_described": "本集提到 GitLab 的 Sid 得癌症后把治病当初创公司打（『用创始人模式对待我的癌症』），帮他打赢的人后来创办了本批为癌症患者做按需研究的公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            200.513,
+            205.675
+          ],
+          "quote": "They helped Sid from GitLab deal with his cancer, which he has done very successfully.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "starcloud",
+      "type": "company",
+      "role": "concept",
+      "name": "StarCloud",
+      "file": "StarCloud",
+      "primary": true,
+      "how_described": "本集作为低成本起步的例证：写一份白皮书、预订一次发射就融到了钱——『没有什么比预订一次发射更有说服力』，且其创始人自带领域权威信誉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            751.54,
+            759.504
+          ],
+          "quote": "Yeah, I think Philip from StarCloud was saying that they basically just wrote a white paper and booked a launch, and they raised the money for StarCloud.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "type": "company",
+      "role": "concept",
+      "name": "Reddit",
+      "file": "Reddit",
+      "primary": true,
+      "how_described": "本集举 Reddit 作为『美好旧时光』YC 投的公司的例子：有价值，但『算不上洲际弹道货物』，用来对比现在这一批的『严肃』公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            108.624,
+            113.269
+          ],
+          "quote": "But like in the old days, there was a lot of things like Reddit, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集说 AGI 原以为是条清晰的终点线，跨过去一切分明；但站上去才发现它有宽度——是一道模糊的 smear，AI 在不同任务上参差不齐，能解数学难题却查不到餐馆营业时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            896.733,
+            900.257
+          ],
+          "quote": "So what is the official PG definition of AGI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            908.585,
+            916.828
+          ],
+          "quote": "One of the reasons, one of the ways I knew we were getting close to AGI was I actually had to go and look up the definition of the Turing test.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            925.252,
+            930.256
+          ],
+          "quote": "Back in the day that AI would be sort of like this finish line and AGI would be this finish line.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集用它论证低成本起步没死：同等推理水平下价格一年大约降 30 倍，token 现在贵只是 GPU 短缺所致，技术总会变便宜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            692.613,
+            699.961
+          ],
+          "quote": "Certainly inference prices at any given level of inference go down dramatically, like 30x a year or something like that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "turing-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "图灵测试 (Turing test)",
+      "file": "图灵测试",
+      "primary": true,
+      "how_described": "本集说 PG 押图灵测试作 AGI 定义，并称知道自己接近 AGI 的标志之一是他居然需要去查图灵测试的定义了——『我们是不是已经到了？』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            902.182,
+            905.824
+          ],
+          "quote": "Oh, well, honestly, I mean, could you do better than the Turing test?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            908.585,
+            916.828
+          ],
+          "quote": "One of the reasons, one of the ways I knew we were getting close to AGI was I actually had to go and look up the definition of the Turing test.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            918.769,
+            919.99
+          ],
+          "quote": "Like, what was the Turing test again?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

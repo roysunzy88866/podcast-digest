@@ -27,7 +27,7 @@ unlisted: true
 
 [[评估]] · [[ChatGPT]] · [[Julie Zhuo]] · [[Jon Noronha]] · [[Sundial]] · [[PowerPoint]] · [[智能体]] · [[Google Slides]] · [[构建者]] · [[Optimizely]]
 
-<script type="application/json" class="pd-epn">{"评估":20,"ChatGPT":49,"Julie Zhuo":1,"Jon Noronha":1,"Sundial":1,"PowerPoint":1,"智能体":1,"Google Slides":1,"构建者":3,"Optimizely":2}</script>
+<script type="application/json" class="pd-epn">{"评估":20,"ChatGPT":50,"Julie Zhuo":1,"Jon Noronha":1,"Sundial":1,"PowerPoint":1,"智能体":1,"Google Slides":1,"构建者":3,"Optimizely":2}</script>
 
 <script>
 (function(){

@@ -124,7 +124,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[OpenAI]] · [[Cursor]] · [[Claude]] · [[评估]] · [[沙箱]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":98,"Codex":37,"Lenny":66,"OpenAI":84,"Cursor":45,"Claude":47,"评估":20,"沙箱":35,"Slack":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":99,"Codex":37,"Lenny":66,"OpenAI":86,"Cursor":45,"Claude":47,"评估":20,"沙箱":35,"Slack":23}</script>
 
 <script>
 (function(){

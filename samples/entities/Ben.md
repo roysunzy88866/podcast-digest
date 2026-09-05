@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":1,"ChatGPT":49,"情感分析":1,"营运杠杆":1,"Windsurf":3,"LLM":25,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":1,"ChatGPT":50,"情感分析":1,"营运杠杆":1,"Windsurf":3,"LLM":25,"量化投资":1}</script>
 
 <script>
 (function(){

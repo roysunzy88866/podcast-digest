@@ -33,9 +33,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Ethan Smith]] · [[Jessica Fain]] · [[AEO]] · [[Slack]] · [[SEO]] · [[智能体]] · [[RAG]] · [[护栏]] · [[LLM]]
+[[Lenny]] · [[Ethan Smith]] · [[Jessica Fain]] · [[AEO]] · [[Slack]] · [[SEO]] · [[Box]] · [[RAG]] · [[智能体]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Ethan Smith":1,"Jessica Fain":1,"AEO":3,"Slack":23,"SEO":5,"智能体":1,"RAG":7,"护栏":1,"LLM":25}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Ethan Smith":1,"Jessica Fain":1,"AEO":3,"Slack":23,"SEO":5,"Box":3,"RAG":7,"智能体":1,"LLM":25}</script>
 
 <script>
 (function(){
