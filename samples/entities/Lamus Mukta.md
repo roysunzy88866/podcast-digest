@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
+[[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":7,"Anthropic":97,"Claude Tag":1,"Claude Code":43,"智能体":1,"沙箱":35,"记忆":5,"dreaming":3,"智能体身份":1}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":7,"Anthropic":98,"Claude Tag":1,"Claude Code":44,"智能体":1,"沙箱":35,"记忆":5,"dreaming":3,"智能体身份":1}</script>
 
 <script>
 (function(){

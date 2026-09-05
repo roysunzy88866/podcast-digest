@@ -179,7 +179,7 @@ Stripe 收购 PayPal 告吹，众人判断只是价格之舞：传言一方出�
 
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI、Cursor · 同概念:智能体 (agent)</span>
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI · 同概念:开源模型 (open source)</span>
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Cursor · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

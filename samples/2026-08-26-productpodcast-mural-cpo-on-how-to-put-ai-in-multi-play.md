@@ -141,8 +141,8 @@ Mural 把团队分成两类。核心产品团队用传统的"铁三角"（设计
 **顺着「产品方法」挖下去**
 
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Claude · 同概念:智能体 (agents)</span>
+- [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM]]<span class="pd-rz">同公司:Claude · 同概念:原型 (prototype)</span>
 - [[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|MercadoLibre 的 18000 人工程团队怎么管]]<span class="pd-rz">同概念:智能体 (agents)</span>
-- [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同概念:智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">

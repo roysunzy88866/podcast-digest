@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Boris Cherny]] · [[GPT-506]] · [[Cloud Code]] · [[OpenAI]] · [[提示词注入]] · [[Claude]] · [[系统提示词]] · [[智能过剩]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":97,"Boris Cherny":2,"GPT-506":1,"Cloud Code":3,"OpenAI":83,"提示词注入":10,"Claude":46,"系统提示词":3,"智能过剩":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":98,"Boris Cherny":2,"GPT-506":1,"Cloud Code":3,"OpenAI":84,"提示词注入":10,"Claude":47,"系统提示词":3,"智能过剩":1}</script>
 
 <script>
 (function(){

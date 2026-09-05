@@ -1,0 +1,1805 @@
+{
+  "episode_id": "2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-05",
+  "tags": [
+    "AI 基础设施",
+    "GPU 采购",
+    "智能体",
+    "B2B 战略",
+    "招人用人"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            15.113,
+            16.933
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cliff-weitzman",
+      "type": "person",
+      "role": "cohost",
+      "name": "Cliff Weitzman",
+      "file": "Cliff Weitzman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            23.975,
+            42.94
+          ],
+          "quote": "Cliff Weitzman, founder and CEO at Speechify, one of the fastest growing text-to-speech startups in the world, on the show where we have a real debate about whether it's right to scale into enterprise from a phenomenal consumer business, what it takes to build an amazing go-to-market motion when you've already built this amazing consumer business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            952.627,
+            958.068
+          ],
+          "quote": "Well, you're going to buy it, you know, it's an NVIDIA produced product, but NVIDIA is not going to waste the time talking to Cliff Weitzman.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "speechify",
+      "type": "company",
+      "role": "company",
+      "name": "Speechify",
+      "file": "Speechify",
+      "primary": true,
+      "how_described": "嘉宾创办的文本转语音公司，全球增长最快之一，最新模型 Simba 3.2 质量号称世界第一、比同类便宜 10 倍，B2C 占文字转语音 App 安装量 98%，现已发布 API 进军 B2B。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            23.975,
+            42.94
+          ],
+          "quote": "Cliff Weitzman, founder and CEO at Speechify, one of the fastest growing text-to-speech startups in the world, on the show where we have a real debate about whether it's right to scale into enterprise from a phenomenal consumer business, what it takes to build an amazing go-to-market motion when you've already built this amazing consumer business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            250.857,
+            254.319
+          ],
+          "quote": "The newest Speechify Simba 3.2 model is ranked number one in the world for quality.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            260.482,
+            267.09
+          ],
+          "quote": "And we found that engineers at Speechify would be parsimonious with how they use the GPUs because they were like, oh, my God, I'm costing the company tens of thousands of dollars.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            449.732,
+            454.635
+          ],
+          "quote": "At Speechify, we still use K80s for a lot of specific operations for inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            478.21,
+            488.452
+          ],
+          "quote": "But if you go speech-to-text or text-to-speech with Speechify, I can afford to give you a lower quality GPU, and it'll give you what you need still in 100 milliseconds, so it's totally good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            644.101,
+            661.531
+          ],
+          "quote": "But I can use all the chips I have at any given point in time, and I still will have more demand, especially when I have multiple teammates and 60 million users who are using inference on my Speechify software that's providing text-to-speech and helping them read their work and dictate their work and use Speechify work, which is our newest product that's a GenTech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            674.937,
+            679.8
+          ],
+          "quote": "Inference is when you actually make a call to Speechify and you give me text and I give you back audio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1458.964,
+            1461.205
+          ],
+          "quote": "It's the biggest strategic mistake I made in the history of Speechify.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1492.882,
+            1498.226
+          ],
+          "quote": "What I didn't understand is that the point of an AI lab like Speechify, or like Eleven Labs, is to continuously innovate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1581.907,
+            1585.13
+          ],
+          "quote": "I think it's a strategic mistake for Speechify to go to B2B.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1657.759,
+            1665.543
+          ],
+          "quote": "The first one is if you go to the App Store and you search text-to-speech, Speechify has 98% of the installs in text-to-speech for B2C.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1665.923,
+            1674.667
+          ],
+          "quote": "Speechify has served more than 770 billion words to users over the last few years, which in terms of times of listening, it's like 6,000 years of listening, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 523,
+          "t": [
+            1874.615,
+            1875.575
+          ],
+          "quote": "Speechify is an example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 540,
+          "t": [
+            1953.785,
+            1960.247
+          ],
+          "quote": "When we were 21 people at Speechify, 18 of the folks at the company were previously either CEO, CTO, or VP of engineering at the last company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2393.962,
+            2399.103
+          ],
+          "quote": "So even inside of the AI team, if you build a really amazing, and this is part of why Speechify ended up when you asked, how did you build bigger labs?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2407.045,
+            2415.187
+          ],
+          "quote": "And so if you're an engineer at Speechify, the analogy I always give people is imagine that you are in the milk delivery business and you make me a beautiful bottle of milk and you leave it down the road.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2439.42,
+            2441.361
+          ],
+          "quote": "Definitely not with a user-based number that Speechify has.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2441.901,
+            2446.003
+          ],
+          "quote": "And so in the AI team at Speechify, you make some amazing discovery.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2522.13,
+            2529.937
+          ],
+          "quote": "I think there's a guy, Jason Yeager, who used to work at Speechify, and now he has my tech CEO on Instagram.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 768,
+          "t": [
+            2787.258,
+            2796.905
+          ],
+          "quote": "You want to babysit your agent basically every three hours and the beautiful thing now is you can go work out and the agent will tell you the answer and then you like voice note back with Speechify what you wanted to do next and like that'll happen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 804,
+          "t": [
+            2891.587,
+            2896.688
+          ],
+          "quote": "If you walk down the street in New York City, way more people will know Speechify than know Whisperflow, just by virtue of the fact we have way more users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 809,
+          "t": [
+            2904.61,
+            2907.391
+          ],
+          "quote": "Who are you going to use instead of Speechify to do text-to-speech for your models?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 860,
+          "t": [
+            3046.692,
+            3053.575
+          ],
+          "quote": "In the API business, you have Speechify, Eleven Labs, Gemini, Grok, or SpaceX is now in the race, and that's kind of it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": true,
+      "how_described": "文本转语音竞争对手，早期也自购 GPU 建集群；先做出色 API、再做创作者产品、再做 Agents 一路滚动，被嘉宾称为超越了 Speechify 的 B2B 业务，且与西方各国政府合作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 303,
+          "t": [
+            1147.129,
+            1154.674
+          ],
+          "quote": "Eleven Labs worries about the same thing because for them to train excellent models, they need to have co-located GPUs with a lot of memory available.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1296.398,
+            1308.126
+          ],
+          "quote": "Because if you are a Mercore, shout out to Brendan Foody, Eleven Labs or OpenAI or Anthropic is going to make money for the next decade or two on the data that they bought from you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1315.11,
+            1319.453
+          ],
+          "quote": "Yes, Eleven Labs or OpenAI can go and make a team that will get the data,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1419.309,
+            1422.931
+          ],
+          "quote": "So Eleven Labs, huge credit to them, leapfrogged us because they sell to B2B.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1492.882,
+            1498.226
+          ],
+          "quote": "What I didn't understand is that the point of an AI lab like Speechify, or like Eleven Labs, is to continuously innovate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1587.012,
+            1591.616
+          ],
+          "quote": "You are now competing against Eleven Labs and Sierra, and those two are competing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1704.3,
+            1714.825
+          ],
+          "quote": "Now, to your point about competing against giants like Sierra or Eleven Labs, hey, Anthropic came into the market as a second to OpenAI, and they were second for a very long time, and now they're not second.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 472,
+          "t": [
+            1723.327,
+            1727.888
+          ],
+          "quote": "And if you look at what happened with Eleven Labs, I'm gonna exclude Sierra because Brett Taylor effect is huge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 520,
+          "t": [
+            1870.893,
+            1871.853
+          ],
+          "quote": "Eleven Labs is an example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 810,
+          "t": [
+            2907.411,
+            2910.612
+          ],
+          "quote": "The closest thing is Eleven Labs, and we're so much bigger than Eleven Labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 860,
+          "t": [
+            3046.692,
+            3053.575
+          ],
+          "quote": "In the API business, you have Speechify, Eleven Labs, Gemini, Grok, or SpaceX is now in the race, and that's kind of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 879,
+          "t": [
+            3112.044,
+            3116.789
+          ],
+          "quote": "And so you mentioned the right thing, which is Eleven Labs now has all these partnerships with governments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 883,
+          "t": [
+            3125.072,
+            3130.374
+          ],
+          "quote": "Eleven Labs is, in addition to OpenAI, is the most integrated company right now, AI company with governments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 888,
+          "t": [
+            3140.778,
+            3143.759
+          ],
+          "quote": "What will be a bigger company in five years, Sierra or Eleven Labs?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 904,
+          "t": [
+            3196.304,
+            3197.184
+          ],
+          "quote": "But neither is Eleven Labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 905,
+          "t": [
+            3197.325,
+            3199.166
+          ],
+          "quote": "Eleven Labs has a product that also does, too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 911,
+          "t": [
+            3217.68,
+            3222.324
+          ],
+          "quote": "Eleven Labs lets you do some tool calling, but that's not the bread and butter.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sierra",
+      "type": "company",
+      "role": "company",
+      "name": "Sierra",
+      "file": "Sierra",
+      "primary": true,
+      "how_described": "Brett Taylor 创办的 AI 智能体公司，以基于成果的定价（outcome-based pricing）闻名，嘉宾判断它在做「下一代 Salesforce」，与 Eleven Labs 玩不同的游戏但都会巨大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 422,
+          "t": [
+            1548.894,
+            1551.075
+          ],
+          "quote": "Sierra has this concept called outcome-based pricing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1587.012,
+            1591.616
+          ],
+          "quote": "You are now competing against Eleven Labs and Sierra, and those two are competing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1626.814,
+            1635.903
+          ],
+          "quote": "I think Sierra are running behind them chasing and they're doing a decent job of it, but they've got Brett and they've got Sequoia and Green Oaks and every royalty of Silicon Valley behind them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1704.3,
+            1714.825
+          ],
+          "quote": "Now, to your point about competing against giants like Sierra or Eleven Labs, hey, Anthropic came into the market as a second to OpenAI, and they were second for a very long time, and now they're not second.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 472,
+          "t": [
+            1723.327,
+            1727.888
+          ],
+          "quote": "And if you look at what happened with Eleven Labs, I'm gonna exclude Sierra because Brett Taylor effect is huge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 841,
+          "t": [
+            2986.201,
+            2989.785
+          ],
+          "quote": "You have Sierra and Dak gone out in front with the majority of funding and attention.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 855,
+          "t": [
+            3033.124,
+            3035.205
+          ],
+          "quote": "So Sierra doesn't have their own model team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 856,
+          "t": [
+            3035.365,
+            3039.007
+          ],
+          "quote": "They use other people's models because the value of Sierra is the go-to-market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 858,
+          "t": [
+            3039.968,
+            3045.871
+          ],
+          "quote": "And so that's why if you talk to Monty and Piotrek, they'll tell you we're not competitive with Sierra because their main business historically has been the API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 888,
+          "t": [
+            3140.778,
+            3143.759
+          ],
+          "quote": "What will be a bigger company in five years, Sierra or Eleven Labs?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 892,
+          "t": [
+            3150.463,
+            3158.907
+          ],
+          "quote": "I think he started Google Maps, then he was CTO of Meta, then he was co-CEO of Salesforce, he's on the board of OpenAI, and now he founded Sierra.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 910,
+          "t": [
+            3210.515,
+            3217.24
+          ],
+          "quote": "To put it another way, if you use a tool like Sierra, the wedge right now is voice, but the important part is tool calling.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 913,
+          "t": [
+            3227.768,
+            3231.053
+          ],
+          "quote": "And how he uses Sierra to do customer support and sales and everything else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 919,
+          "t": [
+            3239.325,
+            3241.328
+          ],
+          "quote": "I agree with you on the Sierra conclusion.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "GPU 制造商；Speechify 花数千万美元买它的 GPU，还愿每月多付 10 万美元提前四个月拿到货；它还与 Blackstone、BlackRock 等做回购承保交易，为 GPU 创造有底价的二级市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            43.38,
+            54.784
+          ],
+          "quote": "And then he also tells us some wild freaking stories about spending tens of millions of dollars on NVIDIA GPUs and why so many more companies should be doing that over relying on other providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            228.145,
+            238.431
+          ],
+          "quote": "Now, I wanted to start with you're spending tens of millions of dollars on NVIDIA GPUs and you're paying an additional $100,000 per GPU to receive them four months early.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            241.753,
+            246.695
+          ],
+          "quote": "So in 2022, we bought a huge rack of GPUs from NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            303.239,
+            305.88
+          ],
+          "quote": "NVIDIA came out with A100 GPUs in 2019.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 198,
+          "t": [
+            793.742,
+            795.624
+          ],
+          "quote": "And NVIDIA just does a really good job.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            807.216,
+            815.106
+          ],
+          "quote": "So I believe earlier this month, NVIDIA did a huge deal with Blackstone, BlackRock, Apollo, and Goldman Sachs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            859.263,
+            864.465
+          ],
+          "quote": "So NVIDIA has done an amazing job now in creating a clear floor for the value of the GPU over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            864.685,
+            870.967
+          ],
+          "quote": "Do you think the circular economy fears that people often cast against NVIDIA are justified or not?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            884.452,
+            885.772
+          ],
+          "quote": "I think the NVIDIA stuff is not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            931.381,
+            937.024
+          ],
+          "quote": "So yes, you can have all these circular things, but at the end of the day, NVIDIA is making a product that's real.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            952.627,
+            958.068
+          ],
+          "quote": "Well, you're going to buy it, you know, it's an NVIDIA produced product, but NVIDIA is not going to waste the time talking to Cliff Weitzman.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1034.223,
+            1037.006
+          ],
+          "quote": "And then you go to NVIDIA or Dell or whatever, and you're like, oh, it's a market.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "dell",
+      "type": "company",
+      "role": "company",
+      "name": "Dell",
+      "file": "Dell",
+      "primary": true,
+      "how_described": "本集指出所有人都以为它是个人电脑公司，实际上如今它是评级最好的 GPU 机架供应商，Speechify 的 GPU 实际从它这里买。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 245,
+          "t": [
+            959.549,
+            963.629
+          ],
+          "quote": "Well, one of the best rated vendors is Dell.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            963.989,
+            966.39
+          ],
+          "quote": "So everybody thinks Dell is a personal computer company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            967.15,
+            969.952
+          ],
+          "quote": "Dell is a GPU rack supplier at this point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            970.352,
+            971.473
+          ],
+          "quote": "And then, okay, I wanna buy it from Dell.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            971.633,
+            976.157
+          ],
+          "quote": "Well, Dell has a constraint because there's not a lot of like Blackwells out there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1034.223,
+            1037.006
+          ],
+          "quote": "And then you go to NVIDIA or Dell or whatever, and you're like, oh, it's a market.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "被多次引用的案例：进入市场时是 OpenAI 之后的老二、后来不再是老二；它大规模高薪挖上市与成功初创公司 CTO，是人才竞争的标杆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            405.702,
+            410.644
+          ],
+          "quote": "The next thing that we found is actually if you run open source models for coding, you could pay Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1296.398,
+            1308.126
+          ],
+          "quote": "Because if you are a Mercore, shout out to Brendan Foody, Eleven Labs or OpenAI or Anthropic is going to make money for the next decade or two on the data that they bought from you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1704.3,
+            1714.825
+          ],
+          "quote": "Now, to your point about competing against giants like Sierra or Eleven Labs, hey, Anthropic came into the market as a second to OpenAI, and they were second for a very long time, and now they're not second.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            1872.374,
+            1873.374
+          ],
+          "quote": "Anthropic is an example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1919.713,
+            1925.701
+          ],
+          "quote": "OpenAI and Anthropic have such a carrot reward mechanism in front of you, especially with impending IPOs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 537,
+          "t": [
+            1938.993,
+            1942.877
+          ],
+          "quote": "I mean, he should be fucking prime minister and he's going to join Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            1943.237,
+            1949.443
+          ],
+          "quote": "Am I wrong that this is the hardest time ever for startups to hire because the prizes of Anthropic and OpenAI are so great?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            1960.687,
+            1966.83
+          ],
+          "quote": "Anthropic, I have never seen a company like this, hires so many CTOs of publicly traded companies and other successful startups.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2169.68,
+            2175.786
+          ],
+          "quote": "The people who really fucking get AI and systems and have seen the magic inside OpenAI, Anthropic, DeepMind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2231.057,
+            2239.586
+          ],
+          "quote": "But I think people would rather know that the certainty of a $10 million from Anthropic versus a 60 from that quirky startup they could make.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 740,
+          "t": [
+            2655.925,
+            2661.727
+          ],
+          "quote": "And I think Anthropic published this paper when Fable 1 came out about long horizon tasks with Fable.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "ChatGPT 背后的 AI 实验室，被作为「在位者也会搞砸细分市场」的例证——语音 AI 和 AI 编程这两个领域都被它 fumble 了；其文本转语音模型每百万字符折算 196 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            876.749,
+            883.071
+          ],
+          "quote": "I think that a lot of the things that about a year ago, like we're going on between Oracle and OpenAI, like that was way too much.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1296.398,
+            1308.126
+          ],
+          "quote": "Because if you are a Mercore, shout out to Brendan Foody, Eleven Labs or OpenAI or Anthropic is going to make money for the next decade or two on the data that they bought from you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1315.11,
+            1319.453
+          ],
+          "quote": "Yes, Eleven Labs or OpenAI can go and make a team that will get the data,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1434.438,
+            1437.939
+          ],
+          "quote": "The OpenAI model on the benchmarks cost $196 per million characters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1619.868,
+            1621.609
+          ],
+          "quote": "And so you know the graph of OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1704.3,
+            1714.825
+          ],
+          "quote": "Now, to your point about competing against giants like Sierra or Eleven Labs, hey, Anthropic came into the market as a second to OpenAI, and they were second for a very long time, and now they're not second.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 487,
+          "t": [
+            1792.894,
+            1794.495
+          ],
+          "quote": "But you would then think that OpenAI",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1919.713,
+            1925.701
+          ],
+          "quote": "OpenAI and Anthropic have such a carrot reward mechanism in front of you, especially with impending IPOs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            1943.237,
+            1949.443
+          ],
+          "quote": "Am I wrong that this is the hardest time ever for startups to hire because the prizes of Anthropic and OpenAI are so great?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2133.914,
+            2137.597
+          ],
+          "quote": "This is a guy who's probably spent four years at OpenAI or spent four years at DeepMind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2169.68,
+            2175.786
+          ],
+          "quote": "The people who really fucking get AI and systems and have seen the magic inside OpenAI, Anthropic, DeepMind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 883,
+          "t": [
+            3125.072,
+            3130.374
+          ],
+          "quote": "Eleven Labs is, in addition to OpenAI, is the most integrated company right now, AI company with governments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 892,
+          "t": [
+            3150.463,
+            3158.907
+          ],
+          "quote": "I think he started Google Maps, then he was CTO of Meta, then he was co-CEO of Salesforce, he's on the board of OpenAI, and now he founded Sierra.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "Speechify 工程团队内部使用排第一的 AI 编程工具（其次 Cursor、Codex）；发明者 Boris 的「一切在于循环」心法被嘉宾引用为与 AI 协作的核心方法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 634,
+          "t": [
+            2310.835,
+            2312.659
+          ],
+          "quote": "Claude Code, Cursor, Codex?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2312.739,
+            2313.52
+          ],
+          "quote": "Cursor and Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2319.016,
+            2321.698
+          ],
+          "quote": "I would say Claude Code is number one, then Cursor, then Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 746,
+          "t": [
+            2688.541,
+            2695.026
+          ],
+          "quote": "So what you want to build, and Boris, who's the inventor of Claude Code, talks about this all the time, it's all about the loop.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "Speechify 团队使用的 AI 编程工具之一，使用量排第二（Claude Code 之后、Codex 之前）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 634,
+          "t": [
+            2310.835,
+            2312.659
+          ],
+          "quote": "Claude Code, Cursor, Codex?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2312.739,
+            2313.52
+          ],
+          "quote": "Cursor and Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2319.016,
+            2321.698
+          ],
+          "quote": "I would say Claude Code is number one, then Cursor, then Codex.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "Speechify 团队使用量排第三的 AI 编程工具，「有一点使用，没那么大」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 634,
+          "t": [
+            2310.835,
+            2312.659
+          ],
+          "quote": "Claude Code, Cursor, Codex?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2316.533,
+            2317.774
+          ],
+          "quote": "It's a little bit of codex usage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2319.016,
+            2321.698
+          ],
+          "quote": "I would say Claude Code is number one, then Cursor, then Codex.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": false,
+      "how_described": "被列为「拥有极度狂热的领导团队和工程团队的赢家」公司例子之一，与 Eleven Labs、Anthropic、Speechify 并列。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            84.567,
+            93.536
+          ],
+          "quote": "Crosby combines AI, some of the best engineers in the world, from companies like Ramp and Stripe, and some of the best attorneys in the world from top 10 law firms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            103.345,
+            109.611
+          ],
+          "quote": "They help the fastest growing companies like Cognition, Ramp, and Clay close deals in hours, not weeks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            1873.734,
+            1874.515
+          ],
+          "quote": "Ramp is an example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1060,
+          "t": [
+            3752.585,
+            3761.533
+          ],
+          "quote": "Crosby combines AI, some of the best engineers in the world, from companies like Ramp and Stripe, and some of the best attorneys in the world from top ten law firms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1063,
+          "t": [
+            3771.342,
+            3777.648
+          ],
+          "quote": "They help the fastest growing companies like Cognition, Ramp, and Clay close deals in hours, not weeks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集主线：租一年 H100 的钱是买价的 1.5 倍，确定性负载应直接买断；训练用最新芯片、推理可降级用老款（还在用 K80），芯片不似汽车有磨损，多余容量可转租，几乎不亏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            228.145,
+            238.431
+          ],
+          "quote": "Now, I wanted to start with you're spending tens of millions of dollars on NVIDIA GPUs and you're paying an additional $100,000 per GPU to receive them four months early.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            321.709,
+            326.151
+          ],
+          "quote": "One, every class of GPU is more affordable per 1 trillion flops, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            326.171,
+            333.555
+          ],
+          "quote": "So a flop is addition, subtraction, multiplication, any mathematical operation, and you measure them in how many trillion of operations happen per second in a GPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            354.41,
+            362.159
+          ],
+          "quote": "So if I multiply that times 24 hours and then times 365 days in a year, I'm actually going to end up paying $35,000 to $50,000 to rent that GPU for one year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            472.647,
+            477.73
+          ],
+          "quote": "And so having a GPU architecture that is much faster by orders of magnitude is a huge advantage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            478.21,
+            488.452
+          ],
+          "quote": "But if you go speech-to-text or text-to-speech with Speechify, I can afford to give you a lower quality GPU, and it'll give you what you need still in 100 milliseconds, so it's totally good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            488.892,
+            492.533
+          ],
+          "quote": "And so I can always use these older GPU models for inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            562.901,
+            567.043
+          ],
+          "quote": "The best bond you can buy long tail will yield you to like 5%, or you can buy a GPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            780.632,
+            784.455
+          ],
+          "quote": "That's not necessarily true for a GPU because it doesn't have as much wear and tear.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            818.15,
+            821.611
+          ],
+          "quote": "We're going to underwrite for you up to 25% the value of a GPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            821.891,
+            834.675
+          ],
+          "quote": "That if you lend money to someone who buys a GPU, let's say Google or a startup, Corvieve, and that startup goes out of business and you have that GPU as collateral against that investment, we'll buy back the GPU for up to 25% of the value of the GPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            859.263,
+            864.465
+          ],
+          "quote": "So NVIDIA has done an amazing job now in creating a clear floor for the value of the GPU over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            900.944,
+            902.706
+          ],
+          "quote": "But a GPU, it has intrinsic value.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            906.369,
+            908.49
+          ],
+          "quote": "And it doesn't matter where that GPU is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            951.507,
+            952.607
+          ],
+          "quote": "Imagine you're buying a GPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            967.15,
+            969.952
+          ],
+          "quote": "Dell is a GPU rack supplier at this point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1014.531,
+            1017.893
+          ],
+          "quote": "But if you have a better price, we'll go with you, but I just need the GPU now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1022.135,
+            1029.02
+          ],
+          "quote": "So the most expensive part of a delivery of a GPU is if it's late, I'm still paying rent for that data center space.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1029.42,
+            1033.783
+          ],
+          "quote": "Now that GPU, and so you put pressure on Pierre to send you the thing when he said he was going to send it to you,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1040.69,
+            1048.039
+          ],
+          "quote": "Now there's a truck somewhere in the United States with a GPU whose value is the value of a house that's coming to my data center.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1049.821,
+            1053.485
+          ],
+          "quote": "Because if that truck gets hit or there's too much humidity or the GPU gets flipped,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            3550.013,
+            3554.214
+          ],
+          "quote": "Every day I have like six years worth of data on him and ran it on a GPU cluster.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1026,
+          "t": [
+            3572.122,
+            3583.31
+          ],
+          "quote": "And so I'm organizing meetups with all the people who have this disease to sequence all of their genomes and then compare them all on a gigantic GPU cluster to figure out what epigenetic common thread there is between them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1032,
+          "t": [
+            3606.383,
+            3624.133
+          ],
+          "quote": "I can use a lab like Twist where I can tell it I want you to make me this RNA sequence or this DNA sequence and it can make it for me and ship it to my lab or my house and I can create amazing outcomes with it and I can simulate all of it on my computer that's SSH into my GPU cluster in Scottsdale, Arizona and I could cure my brother.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "type": "concept",
+      "role": "concept",
+      "name": "训练 (training)",
+      "file": "训练",
+      "primary": true,
+      "how_described": "嘉宾区分的两种 GPU 用途之一：用海量数据「在烤箱里烤」出新模型黑盒；训练必须用最新最快芯片，且需要海量数据内存与 GPU 集群共置一地。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            247.196,
+            249.737
+          ],
+          "quote": "And the reason we bought them is for training, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            289.43,
+            291.311
+          ],
+          "quote": "And we ended up training really good models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            384.33,
+            387.552
+          ],
+          "quote": "The other big part is if you want to do large scale training like we do,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            392.454,
+            403.36
+          ],
+          "quote": "I can't just rent from Google or Microsoft or even base 10 and run the size of training that I want because I need a gigantic memory card next to it with all of my data that all the GPUs are accessing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            458.818,
+            463.261
+          ],
+          "quote": "And there's essentially a difference between when you do inference and when you do training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            463.601,
+            466.202
+          ],
+          "quote": "For training, I'm like, okay, I have this hypothesis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            535.53,
+            542.413
+          ],
+          "quote": "And so the parts of that load that I know for sure I'm always going to use, whether it be training or it be inference, I might as well just own it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            545.275,
+            547.676
+          ],
+          "quote": "I have so many other friends who are running training and running inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            663.732,
+            674.817
+          ],
+          "quote": "And so I go, okay, let's imagine I have 100% capacity that is the average usage per month that I need for GPUs for training of my AI models and for inference on my AI models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            682.983,
+            689.87
+          ],
+          "quote": "Training is I take a gigantic amount of data, I take all the architecture and software engineering that we're doing, and I go, I think that this will give me a better model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            798.287,
+            802.811
+          ],
+          "quote": "And let's say it got so not good, so outdated that I no longer can run training on it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1404.823,
+            1410.504
+          ],
+          "quote": "And really, the key is the company training on your data needs to actually see improvements in their model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2495.899,
+            2499.583
+          ],
+          "quote": "And he was like, hey, I was waiting for like three training runs to finish.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "另一种 GPU 用途：用户调用 Speechify、给文本还音频时后台跑的数学；推理对芯片速度要求低、100 毫秒内出结果即可，因此可用老款 GPU，是买旧 GPU 不亏的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            449.732,
+            454.635
+          ],
+          "quote": "At Speechify, we still use K80s for a lot of specific operations for inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            458.818,
+            463.261
+          ],
+          "quote": "And there's essentially a difference between when you do inference and when you do training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            488.892,
+            492.533
+          ],
+          "quote": "And so I can always use these older GPU models for inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            535.53,
+            542.413
+          ],
+          "quote": "And so the parts of that load that I know for sure I'm always going to use, whether it be training or it be inference, I might as well just own it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            545.275,
+            547.676
+          ],
+          "quote": "I have so many other friends who are running training and running inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            644.101,
+            661.531
+          ],
+          "quote": "But I can use all the chips I have at any given point in time, and I still will have more demand, especially when I have multiple teammates and 60 million users who are using inference on my Speechify software that's providing text-to-speech and helping them read their work and dictate their work and use Speechify work, which is our newest product that's a GenTech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            663.732,
+            674.817
+          ],
+          "quote": "And so I go, okay, let's imagine I have 100% capacity that is the average usage per month that I need for GPUs for training of my AI models and for inference on my AI models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            674.937,
+            679.8
+          ],
+          "quote": "Inference is when you actually make a call to Speechify and you give me text and I give you back audio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            680.48,
+            682.602
+          ],
+          "quote": "Like there's math that happens in the background, that's inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 202,
+          "t": [
+            803.552,
+            804.413
+          ],
+          "quote": "Now I'll use it for inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            1777.706,
+            1788.091
+          ],
+          "quote": "I think, you know, it's kind of like the inference market where Fireworks will be a multi-hundred-brillion-dollar company, and then, like, I think a genuine base time will be a hundred-brillion-dollar company, and then together and a load of the others will be 15, which is amazing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复出现的通用概念：工程师每人同时跑 5-18 个智能体做长时程任务；AI 实验室要靠推出 Agents 把买家从工程师变成 CTO/CEO；不会编排智能体的工程师「不值得雇」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 425,
+          "t": [
+            1554.617,
+            1558.74
+          ],
+          "quote": "And having an AI agent is like having an AI coworker.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2258.803,
+            2263.205
+          ],
+          "quote": "What did you learn in that discovery process around agent orchestration internally?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 734,
+          "t": [
+            2639.766,
+            2642.147
+          ],
+          "quote": "You do the same thing when you're interfacing with the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 735,
+          "t": [
+            2642.247,
+            2645.628
+          ],
+          "quote": "You want the agent to take the path of least resistance, not the path of most resistance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 767,
+          "t": [
+            2777.371,
+            2786.878
+          ],
+          "quote": "And so I think about moments earlier in the year when my brother Tyler would literally have an alarm to wake up at three in the morning because he needed to check what the agent was doing at three in the morning and then you wake up, make sure it's good, go back to sleep.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 768,
+          "t": [
+            2787.258,
+            2796.905
+          ],
+          "quote": "You want to babysit your agent basically every three hours and the beautiful thing now is you can go work out and the agent will tell you the answer and then you like voice note back with Speechify what you wanted to do next and like that'll happen.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source model)",
+      "file": "开源模型",
+      "primary": false,
+      "how_described": "嘉宾提到的省钱路径：不付 Anthropic 的品牌模型 token 费，而是用自己的硬件跑开源模型，每 token 成本降到一分钱的零头的零头。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            415.827,
+            424.654
+          ],
+          "quote": "Or you could run an open source model, and instead of running it on a Spot instance from Azure or anyone else, you run it on your own hardware, and then you're paying a fraction of a fraction of a cent per token.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-lab",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 实验室 (AI lab)",
+      "file": "AI 实验室",
+      "primary": true,
+      "how_described": "嘉宾反思错过 B2B 时提出的核心认知：AI 实验室的意义在于持续创新，第一个产品只是楔子——先让用户用上、免费也行，然后再卖别的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 403,
+          "t": [
+            1492.882,
+            1498.226
+          ],
+          "quote": "What I didn't understand is that the point of an AI lab like Speechify, or like Eleven Labs, is to continuously innovate.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环 (loop)",
+      "file": "循环",
+      "primary": true,
+      "how_described": "与 AI 协作的心法（引 Claude Code 发明者 Boris）：定目标、定度量，让智能体对着目标一遍又一遍迭代，而不是无目的烧 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 353,
+          "t": [
+            1326.476,
+            1331.818
+          ],
+          "quote": "And ideally, you need users that use you a lot, and a lot of them, to have a feedback loop of whether the stuff is good or not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 746,
+          "t": [
+            2688.541,
+            2695.026
+          ],
+          "quote": "So what you want to build, and Boris, who's the inventor of Claude Code, talks about this all the time, it's all about the loop.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

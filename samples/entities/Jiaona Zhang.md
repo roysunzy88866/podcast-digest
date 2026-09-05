@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
+[[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":20,"Slack":23,"Dust":1,"Devon":3,"智能体":1,"剧本":3,"技能":9,"本体":2}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":20,"Slack":23,"Dust":1,"Devon":3,"智能体":1,"剧本":3,"技能":10,"本体":2}</script>
 
 <script>
 (function(){

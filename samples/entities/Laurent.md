@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
+[[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Alan":1,"Mistral":5,"Stripe":26,"OpenAI":83,"智能体":1,"Mo":1,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":2}</script>
+<script type="application/json" class="pd-epn">{"Charles Gorintin":1,"Alan":1,"Mistral":5,"Stripe":26,"OpenAI":84,"智能体":1,"Mo":1,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":2}</script>
 
 <script>
 (function(){

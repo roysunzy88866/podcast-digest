@@ -1,0 +1,178 @@
+{
+  "title_zh": "每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋",
+  "tldr": "Speechify 创始人 Cliff Weitzman 谈为什么自购 NVIDIA GPU 而不是租、错过 B2B 的最大战略错误，以及 AI 时代怎么招人和用智能体开发。",
+  "digest_md": "这一集的嘉宾是 Cliff Weitzman——文本转语音公司 Speechify 的创始人兼 CEO,他 8 岁时因阅读障碍学不会读书，靠爸爸读《哈利·波特》才学会阅读，上大学时做了一个给自己念书的文字转语音工具，这就是 Speechify 的起点。而最让人瞠目的是他开篇就抛出的做法：Speechify 花数千万美元直接买 NVIDIA GPU,还愿意为每块 GPU 额外支付 10 万美元、只为了提前四个月拿到货。为什么？\n\n## 为什么买 GPU 比租划算\n\nCliff 的核心类比是「家里要有篮筐」：如果迈克尔·乔丹每小时要付 20 美元才能进篮球馆训练，他肯定想在自己家里装个篮筐。Speechify 早期租 GPU 时，工程师因为「一跑就烧几万美元」而不敢用，训练效率被压着；买了自己的 GPU 之后模型质量上来了——他称最新模型质量全球第一、比同类便宜 10 倍。\n\n经济账是这样算的：一块 H100 约 3 万美元；从云厂商租一小时竞价实例要 3.5 到 5 美元，一年下来是 3.5 万到 5 万美元——**租一年等于买价的 1.5 倍**，而硬件质保三年、实际能用更久。「这数学就是数学，买要合理得多。」[06:07 Unknown] 更关键的是，大规模训练需要海量数据内存与 GPU 集群共置一地，租云厂商根本给不了这种配置。\n\n至于芯片贬值？他分两头看：**训练要最新最快的芯片**(每多一分钟没结果就多一分钟落后于人)，但**推理可以用老款**——Speechify 至今还在用 K80 做部分推理，100 毫秒内出结果就够用。GPU 不像汽车有磨损，放在恒温恒湿、持续维护的机房里寿命很长；就算老到不能训练了，还能降级做推理。而且你同一时间只能用一部 iPhone,但 10 万块 GPU 可以同时全部用上——多余的容量还能租给别人。\n\n最后是一层金融逻辑：富余资金存银行或买债券年化也就 5%,而「买 GPU 替代租用」的回报率远高于此。更妙的是，NVIDIA 本月刚和 Blackstone、BlackRock、Apollo、Goldman Sachs 做了一笔交易：如果借款人倒闭，NVIDIA 承诺以最高 GPU 价值 25% 的价格回购抵押 GPU——等于给 GPU 创造了一个有底价的流动性二级市场。他认为这和 Elon 当年让银行按 30 年摊销太阳能板、从而发明 SolarCity 是同一招。所以「循环经济」的担忧在他看来不成立：GPU 每秒能做多少万亿次浮点运算，就是它的内在价值，「不是完全的郁金香狂热」。\n\n## 买芯片这摊事，没人告诉你的坑\n\n实际采购远比想象琐碎：NVIDIA 不会直接理你，你实际是从 Dell 买——所有人都以为 Dell 是个人电脑公司，其实它现在是 GPU 机架供应商。货紧时你得全球找现货(他就遇过从法国订的货迟到一个多月)，谈不拢就取消合同换供应商，或者干脆加钱插队——这就是「每月多付 10 万美元提前拿货」的由来。而 GPU 迟到的最大成本，是你照付数据中心租金却没机器可用。运输途中一块 GPU 价值一栋房子，所以必须买保险；散热要上液冷，大多数数据中心没有预批的液冷装置，得自购「液冷侧柜」搬进去请人安装；电力则是现在最大的瓶颈。「运营纯软件公司和运营含硬件的公司，差别非常大。」\n\n## 最大的战略错误：看衰 API,错过 B2B\n\nHarry 追问了一个尖锐问题：Eleven Labs 是否超越了你？Cliff 的回答毫不回避：「100% 是我的错，这是 Speechify 历史上最大的战略错误。」[24:18 Unknown]\n\n他 2022 年就认识了 Eleven Labs 的创始人，当时判断文字转语音 API 终将商品化，不想入局。他错在没理解：**AI 实验室的意义在于持续创新，第一个产品只是楔子**——做出最好的文字转语音，就能加声音、加情感、加声音克隆、加语音转文字、加双工对话模型、做面向销售和客服的智能体；买家也从工程师变成 CTO、CEO,甚至可以按成果收费。Eleven Labs 先做出色 API,再做创作者产品，再做 Agents,一路滚动。「我忘了硅谷的核心论点：持续创新，先让用户用上你的产品，免费也没关系，然后再卖别的东西。」\n\n更深的动因是收入结构：B2C 客户付费远低于 B2B,所以 Speechify 必须把成本压到极限——他们的 API 每百万字符成本 10 美元，而 Eleven Labs 收 100 美元、OpenAI 的模型折算 196 美元。现在他刚发布了 API,正面进入 B2B。Harry 质疑：你这是要去和 Eleven Labs 以及 Brett Taylor 的 Sierra 竞争？Cliff 的回应是全集最响亮的一句：「输掉比赛最好的方式就是不参加比赛。」[30:46 Unknown] 他举 Anthropic(当了很久老二现在不是了)和 Facebook(Friendster 之后的老二)为例，认为这是寡头市场而非赢家通吃，「你不能因为有个庞大的在位者就不参赛」。同一个教训让他现在同时推出了对标 Siri、对标 Whisperflow、对标 Eleven Labs 的产品。\n\n## AI 时代怎么招人\n\nHarry 说这是初创公司招人有史以来最难的时期(Anthropic 挖走一堆知名创始人)，Cliff 反驳：Anthropic 招的人年薪至少 1500 万美元，种子轮创始人本来也雇不起。对种子公司来说，现在反而是**最容易招人的时候**——任何人都能这么快变强，可教的人才池比以往更大。Speechify 的招人标准已经变了：不再最看重手写代码，而是**技术天赋本身**——招数学奥赛选手、算法竞赛高手、Kaggle 获奖者、学物理数学的人，哪怕没写过代码，「我只需要饥饿感、职业道德和智力」。一句话：「比起截距，更要招斜率」——看潜力，而不是他今天在哪。招人流程也要改：①功能性面试，现场构建加单元测试；②给一个大代码库让其理解并修改，检查弄坏了什么；③看会不会编排智能体，不会就不值得雇。\n\n## AI 团队怎么干活\n\nSpeechify 内部用 Claude Code(第一)、Cursor、Codex,把 Linear 票直接丢给智能体开干。如今「一个真正优秀的工程师，就是一名出色的 QA」——AI 做功能，你测试、找边界情况、提示修复，然后每天做大约 10 个真正好的产品与架构决策。\n\n他的管理心法有两条。第一是**只认上线**：不做 token 排行榜(他认为是「最糟糕的激励形式」)，只看 demo——Zoom 上演示、你自己上手用。「送牛奶的比喻：牛奶放在路边会变质，必须送到我家门口敲门。没做到，就没有认可。」他常在会上把电脑转过来对着手机当面用产品、录下所有 bug 发群里——有个 19 岁工程师趁等训练的空档把 14 条修改全做了，第二天一早就交了 demo。第二是**一切在于循环**(他引 Claude Code 发明者 Boris 的说法)：定目标、定度量，然后让智能体对着目标一遍遍迭代。好钢用在刀刃上——两周任务烧 12,500 美元 token 做出更好的模型是完美用法；五小时烧 12,000 个 token 干无意义的事会让你抓狂，甚至「毫无理由乱烧 token 的人会让他走人」。他自己凌晨三点设闹钟起来照看智能体，再用语音回复下一步指令。\n\n对于 Sierra vs Eleven Labs 谁更大，他的判断是两家都会巨大：Brett Taylor 履历世界第一(创办 Google Maps、Meta CTO、Salesforce 联合 CEO、OpenAI 董事)，做的其实是「下一代 Salesforce」;Eleven Labs 则是以语音为核心的完全不同的游戏。\n\n## 结尾：为什么他信技术\n\n最后他把话题拉回个人：他有一位家人患罕见的自身免疫性神经炎症，他连续 15 周每周采血，做基因组测序、蛋白质组学和 RNA 分析，在 GPU 集群上跑出了「没有任何医生能告诉我的」发现；现在他在组织全球病友给彼此测序、用 AlphaFold 设计分子、用 CRISPR 和合成生物学实验室验证——「我知道我会攻克这个病」。技术解决了他的阅读障碍、他的 ADHD,还帮他定位了父亲前列腺癌的病灶。「你只需要数据、算力，和提出好问题。」[61:50 Unknown]\n\n## 本集带走\n\n- **租一年 GPU = 买价的 1.5 倍**：确定性负载直接买断，训练用最新芯片、推理降级用老款，多余容量还能转租，几乎不亏。\n- **买硬件是一摊琐碎活**：供应商谈判、插队加价、货运保险、液冷侧柜、数据中心电力，都是真成本，想清楚再上。\n- **别因为「怕商品化」拒绝一个赛道**：第一个产品只是楔子，持续创新才是 AI 实验室的本质；「输掉比赛最好的方式就是不参加比赛」。\n- **招人招斜率不招截距**：技术天赋、饥饿感、职业道德优先，不会编排智能体的工程师不值得雇。\n- **只认上线，不认 token 消耗**：用 demo 和生产环境说话，牛奶必须送到门口；让智能体对着明确目标循环迭代，而不是漫无目的地烧 token。",
+  "quotes": [
+    {
+      "en": "So you can't not go into the race because there's a big incumbent.",
+      "zh": "所以你不能因为有个庞大的在位者，就不去参赛。",
+      "timestamp": "30:00",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "The best way to lose is not to be in the race.",
+      "zh": "输掉比赛最好的方式，就是不参加比赛。",
+      "timestamp": "30:46",
+      "speaker": "Cliff Weitzman"
+    },
+    {
+      "en": "But remember, they're hiring people that their annual compensation needs to be $15 million a year minimum.",
+      "zh": "但要记住，他们招的人年薪至少需要 1500 万美元。",
+      "timestamp": "33:14",
+      "speaker": "Cliff Weitzman"
+    },
+    {
+      "en": "And then really a good engineer today is just an exceptional QA.",
+      "zh": "而如今一个真正优秀的工程师，其实就是一名出色的 QA。",
+      "timestamp": "38:56",
+      "speaker": "Cliff Weitzman"
+    },
+    {
+      "en": "And so I think hiring for slope more than intercept is more important today than ever before.",
+      "zh": "所以我认为，如今比起截距更要招斜率，这比以往任何时候都更重要。",
+      "timestamp": "46:44",
+      "speaker": "Cliff Weitzman"
+    },
+    {
+      "en": "Try to not compete.",
+      "zh": "尽量不要竞争。",
+      "timestamp": "48:38",
+      "speaker": "Cliff Weitzman"
+    },
+    {
+      "en": "The way that you win is you offer an excellent product for free.",
+      "zh": "赢的方式是，你免费提供一款出色的产品。",
+      "timestamp": "49:25",
+      "speaker": "Cliff Weitzman"
+    },
+    {
+      "en": "Technology solved my dyslexia and it solved my ADHD and it's gonna solve my brother's disease.",
+      "zh": "技术解决了我的阅读障碍，解决了我的 ADHD,它还会治好我兄弟的病。",
+      "timestamp": "61:11",
+      "speaker": "Cliff Weitzman"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:40",
+      "speaker": "Cliff",
+      "en": "In fact, you want a hoop in your house.",
+      "zh": "事实上，你想要自己家里就有一个篮筐。"
+    },
+    {
+      "timestamp": "06:07",
+      "speaker": "Cliff",
+      "en": "But I could buy it for $30,000.",
+      "zh": "但我可以花 3 万美元把它买下来。"
+    },
+    {
+      "timestamp": "24:18",
+      "speaker": "Cliff",
+      "en": "100% is on me. It's the biggest strategic mistake I made in the history of Speechify.",
+      "zh": "100% 是我的错。这是我在 Speechify 历史上犯下的最大战略错误。"
+    },
+    {
+      "timestamp": "24:52",
+      "speaker": "Cliff",
+      "en": "What I didn't understand is that the point of an AI lab like Speechify, or like Eleven Labs, is to continuously innovate.",
+      "zh": "我没有理解的是，像 Speechify 或 Eleven Labs 这样的 AI 实验室，其意义就在于持续创新。"
+    },
+    {
+      "timestamp": "26:06",
+      "speaker": "Cliff",
+      "en": "And I forgot the central thesis about Silicon Valley, which is constantly innovate.",
+      "zh": "我忘记了硅谷的核心论点，那就是持续创新。"
+    },
+    {
+      "timestamp": "26:12",
+      "speaker": "Cliff",
+      "en": "I don't care if it's free. Then you sell them other things.",
+      "zh": "我不在乎它是不是免费的。然后再向他们卖别的东西。"
+    },
+    {
+      "timestamp": "30:02",
+      "speaker": "Cliff",
+      "en": "So you can't not go into the race because there's a big incumbent.",
+      "zh": "所以你不能因为有个庞大的在位者，就不去参赛。"
+    },
+    {
+      "timestamp": "30:46",
+      "speaker": "Cliff",
+      "en": "The best way to lose is not to be in the race.",
+      "zh": "输掉比赛最好的方式，就是不参加比赛。"
+    },
+    {
+      "timestamp": "33:14",
+      "speaker": "Cliff",
+      "en": "But remember, they're hiring people that their annual compensation needs to be $15 million a year minimum.",
+      "zh": "但要记住，他们招的人年薪至少需要 1500 万美元。"
+    },
+    {
+      "timestamp": "34:19",
+      "speaker": "Cliff",
+      "en": "Because I just need the hunger and the work ethic and the intelligence.",
+      "zh": "因为我只需要那种饥饿感、职业道德和智力。"
+    },
+    {
+      "timestamp": "34:30",
+      "speaker": "Cliff",
+      "en": "And so the pool for hiring exceptional talent is bigger than ever before.",
+      "zh": "所以招卓越人才的池子，比以往任何时候都大。"
+    },
+    {
+      "timestamp": "38:56",
+      "speaker": "Cliff",
+      "en": "And then really a good engineer today is just an exceptional QA.",
+      "zh": "而如今一个真正优秀的工程师，其实就是一名出色的 QA。"
+    },
+    {
+      "timestamp": "39:59",
+      "speaker": "Cliff",
+      "en": "The answer is we ship to production all the time.",
+      "zh": "答案是，我们一直在向生产环境发布。"
+    },
+    {
+      "timestamp": "40:15",
+      "speaker": "Cliff",
+      "en": "The milk will spoil.",
+      "zh": "牛奶会变质。"
+    },
+    {
+      "timestamp": "41:47",
+      "speaker": "Cliff",
+      "en": "So it's not a token leaderboard.",
+      "zh": "所以这不是一个 token 排行榜。"
+    },
+    {
+      "timestamp": "44:48",
+      "speaker": "Cliff",
+      "en": "So what you want to build, and Boris, who's the inventor of Claude Code, talks about this all the time, it's all about the loop.",
+      "zh": "所以你想要构建的——Boris,Claude Code 的发明者，一直在讲这个——一切都在于循环。"
+    },
+    {
+      "timestamp": "46:44",
+      "speaker": "Cliff",
+      "en": "And so I think hiring for slope more than intercept is more important today than ever before.",
+      "zh": "所以我认为，如今比起截距更要招斜率，这比以往任何时候都更重要。"
+    },
+    {
+      "timestamp": "48:38",
+      "speaker": "Cliff",
+      "en": "Try to not compete.",
+      "zh": "尽量不要竞争。"
+    },
+    {
+      "timestamp": "49:25",
+      "speaker": "Cliff",
+      "en": "The way that you win is you offer an excellent product for free.",
+      "zh": "赢的方式是，你免费提供一款出色的产品。"
+    },
+    {
+      "timestamp": "61:11",
+      "speaker": "Cliff",
+      "en": "Technology solved my dyslexia and it solved my ADHD and it's gonna solve my brother's disease.",
+      "zh": "技术解决了我的阅读障碍，解决了我的 ADHD,它还会治好我兄弟的病。"
+    }
+  ],
+  "voice_script": "每块 GPU 多付 10 万美元，就为了提前四个月拿到货——你没听错，是每块。这一期我们聊的，就是文本转语音公司 Speechify 的创始人 Cliff Weitzman 那套看起来很疯、其实账算得明明白白的买芯片逻辑。先交代一下背景：这人 8 岁时有阅读障碍，靠爸爸读《哈利·波特》才学会阅读，后来上大学自己做了个给自己念书的工具，就成了 Speechify。\n\n那为什么买 GPU 而不是租？有个特别妙的类比，叫「家里要有篮筐」。你想想，如果迈克尔·乔丹每小时要付 20 美元才能进球馆训练，他肯定想在自己家装个篮筐。Speechify 早期租 GPU 的时候，工程师一看一跑就是几万美元，根本不敢放开手用，训练效率被死死压住。买了自己的机器之后，模型质量直接上来了，号称全球第一，还比同类便宜 10 倍。\n\n具体账怎么算的？一块 H100 大概 3 万美元。你要是从云厂商租竞价实例，一小时 3.5 到 5 美元，一年下来就是 3.5 万到 5 万美元。也就是说，租一年，等于买价的 1.5 倍。而硬件质保三年，实际能用更久。用原话说，这数学就是数学。更关键的一点，大规模训练需要海量数据和 GPU 集群放在同一个地方，云厂商根本给不了这种配置。\n\n你可能会说，芯片贬值怎么办？这里有个很有意思的分法：训练要用最新最快的芯片，因为每多一分钟没结果，就多一分钟落后；但推理可以用老款——Speechify 到今天还在用 K80 做部分推理，100 毫秒内出结果就够用了。GPU 又不像汽车会磨损，放在恒温恒湿的机房里寿命很长，老到不能训练了，还能降级做推理。而且你同一时间只能用一部 iPhone,但几万块 GPU 可以同时全部用上，多余的容量还能租给别人。\n\n最后还有一层金融逻辑。你富余的钱存银行年化也就 5%,买 GPU 替代租用的回报远高于此。更妙的是，NVIDIA 最近跟 Blackstone、BlackRock 这些机构做了笔交易：借款人要是倒闭了，NVIDIA 承诺以最高 GPU 价值 25% 的价格回购。这等于给 GPU 创造了一个有底价的二级市场。这招眼熟吗？就跟 Elon 当年让银行按 30 年摊销太阳能板、从而发明 SolarCity 是同一套打法。\n\n不过话说回来，买芯片这摊事，坑比你想的多得多。NVIDIA 根本不会直接理你，你实际是从 Dell 买的——所有人都以为 Dell 是个电脑公司，其实它现在主要是 GPU 机架供应商。货紧的时候你得全球找现货，谈不拢就取消合同换供应商，或者干脆加钱插队，这就是那个「每月多付 10 万美元提前拿货」的由来。运输途中一块 GPU 价值一栋房子，必须买保险；散热要上液冷，大多数数据中心没有预批的液冷装置，得自己买设备搬进去装；电力更是现在最大的瓶颈。所以有句话说得特别实在：运营纯软件公司和运营含硬件的公司，差别非常大。\n\n但这一集里最扎心的部分，其实是主动承认的错误。2022 年就认识了 Eleven Labs 的创始人，当时判断文字转语音 API 终将商品化，不想入局。回过头看，答案毫不回避：100% 是我的错，这是 Speechify 历史上最大的战略错误。错在哪？没理解 AI 实验室的意义在于持续创新，第一个产品只是个楔子——做出最好的文字转语音，就能加声音、加情感、加声音克隆，一路滚动下去。忘了硅谷的核心论点：先让用户用上你的产品，免费都没关系，然后再卖别的东西。现在的回应特别硬气：「输掉比赛最好的方式，就是不参加比赛。」Anthropic 当了很久老二，现在不是了。这是寡头市场，不是赢家通吃。\n\n最后再送你两条 AI 时代的招人心法。第一条，比起截距，更要招斜率——不看你今天在哪，看你能涨多快。招数学奥赛选手、Kaggle 获奖者，哪怕一行代码没写过都行，要的是饥饿感、职业道德和智力。而且现在不会编排智能体的工程师，不值得雇。第二条管理心法更狠：只认上线，不做 token 排行榜。有个比喻是这么说的：牛奶放在路边会变质，必须送到我家门口敲门。没做到，就没有认可。如今一个真正优秀的工程师，其实就是一名出色的 QA——AI 做功能，你来测试、找边界、做每天大约 10 个真正好的决策。\n\n技术解决了这个创始人的阅读障碍，解决了 ADHD,还帮他定位了父亲的癌症病灶。这一期听完你会发现，你只需要数据、算力，和提出好问题。"
+}

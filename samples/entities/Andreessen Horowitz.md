@@ -25,7 +25,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[Ben Horowitz]] · [[Sofia Puccini]] · [[NVIDIA]] · [[Anthropic]] · [[Hugging Face]] · [[DeepSeq]] · [[Thinking Machines]] · [[Mistral]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":5,"Ben Horowitz":2,"Sofia Puccini":3,"NVIDIA":27,"Anthropic":97,"Hugging Face":18,"DeepSeq":1,"Thinking Machines":1,"Mistral":5,"开源":13}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":5,"Ben Horowitz":2,"Sofia Puccini":3,"NVIDIA":28,"Anthropic":98,"Hugging Face":18,"DeepSeq":1,"Thinking Machines":1,"Mistral":5,"开源":13}</script>
 
 <script>
 (function(){

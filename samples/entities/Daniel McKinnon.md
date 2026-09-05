@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
+[[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"评估":20,"PRD":6,"智能体":1,"harness":19,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":36}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"评估":20,"PRD":6,"智能体":1,"harness":19,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":37}</script>
 
 <script>
 (function(){

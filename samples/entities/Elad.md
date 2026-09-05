@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]] [[Brian Singerman]]
+[[Cliff Weitzman]] [[Justin Johnson]] [[Max Levchin]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":4,"Meta":26,"NVIDIA":27,"CPU":4,"推理":4,"芯片设计":1,"验证":4,"供应链攻击":2}</script>
+<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":4,"Meta":26,"NVIDIA":28,"CPU":4,"推理":4,"芯片设计":1,"验证":4,"供应链攻击":2}</script>
 
 <script>
 (function(){

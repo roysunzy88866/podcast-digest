@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
+[[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":1,"Canva":3,"智能体":1,"无代码":1,"Figma":12,"Notion":12,"Airtable":3,"Palantir":12,"Replit":13,"ChatGPT":49}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":1,"Canva":3,"智能体":1,"无代码":1,"Figma":13,"Notion":12,"Airtable":3,"Palantir":12,"Replit":13,"ChatGPT":49}</script>
 
 <script>
 (function(){

@@ -132,7 +132,7 @@ Parag 自己用 Notion 的智能体做会议准备文档，一次写好提示词
 
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|Parag：为什么智能体搜索不该照搬人类那一套]]<span class="pd-rz">同嘉宾:Parag、Sonia · 同公司:Parallel · 同概念:后台智能体 (background agent)、推理 (inference)、搜索智能体 (search agent)、智能体 (agent)、爬取 (crawl)、索引 (index)、差异化定价 (differential pricing)</span>
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

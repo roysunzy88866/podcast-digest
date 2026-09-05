@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>11</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,6 +21,7 @@ unlisted: true
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(14:58起):本集反复讨论，说它是 AI 专用芯片，比普通 CPU 大得多、耗能多得多，Stargate Abilene 每栋楼 5 万个；买 GPU 成了大公司'踢罐子'让市场觉得还在增长的方式。
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(07:03起):本集说 Poolside'无法筹集 20 亿美元来购买 4 万块 GPU'，NVIDIA 因为'我们制造 GPU'所以能搞到 GPU，GPU 是前沿模型竞争的核心资源
 - **[[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|《RL环境的供应链黑箱与模型的分工时代》]]**(71:36起):本集讨论了 GPU 使用异常是否是发现流氓智能体的信号——Nathan 认为真正的信号是触手伸向开放互联网，而不是 GPU 使用异常。
+- **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(03:48起):本集主线：租一年 H100 的钱是买价的 1.5 倍，确定性负载应直接买断；训练用最新芯片、推理可降级用老款（还在用 K80），芯片不似汽车有磨损，多余容量可转租，几乎不亏。
 
 ## ① 提到它的金句
 
@@ -30,7 +31,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
@@ -42,14 +43,15 @@ unlisted: true
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为概念(提及)
 - [[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|《RL环境的供应链黑箱与模型的分工时代》]] — 作为概念(提及)
+- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[推理]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[OpenRouter]] · [[token]] · [[Cursor]] · [[后训练]] · [[人工智能]]
+[[推理]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[OpenRouter]] · [[Cursor]] · [[token]] · [[后训练]] · [[人工智能]]
 
-<script type="application/json" class="pd-epn">{"推理":4,"NVIDIA":27,"Anthropic":97,"OpenAI":83,"智能体":1,"OpenRouter":8,"token":11,"Cursor":44,"后训练":17,"人工智能":2}</script>
+<script type="application/json" class="pd-epn">{"推理":4,"NVIDIA":28,"Anthropic":98,"OpenAI":84,"智能体":1,"OpenRouter":8,"Cursor":45,"token":11,"后训练":17,"人工智能":2}</script>
 
 <script>
 (function(){

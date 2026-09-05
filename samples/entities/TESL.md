@@ -31,7 +31,7 @@ unlisted: true
 
 [[Simon Maple]] · [[智能体]] · [[Guy Fajani]] · [[Guy Pajani]] · [[循环工程]] · [[暗工厂]] · [[技能]] · [[上下文]] · [[验证器]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":7,"智能体":1,"Guy Fajani":3,"Guy Pajani":3,"循环工程":4,"暗工厂":2,"技能":9,"上下文":13,"验证器":1,"可观测性":18}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":7,"智能体":1,"Guy Fajani":3,"Guy Pajani":3,"循环工程":4,"暗工厂":2,"技能":10,"上下文":13,"验证器":1,"可观测性":18}</script>
 
 <script>
 (function(){

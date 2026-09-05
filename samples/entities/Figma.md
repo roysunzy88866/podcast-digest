@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Figma</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,6 +23,7 @@ unlisted: true
 - **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(00:31起):本集说团队选择使用 Figma 及其内的 AI 生成工具 Figma Make 来做原型设计，主要是因为团队对其熟悉度最高，在改变软件构建方式时不想同时逼人换工具以减少阻力。
 - **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(13:07起):本集说整个 OLX 设计系统（Nexus）在 Figma 中从提示词构建，智能体能感知缺少的组件并自动在 Figma 里创建，设计师只做审查
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(28:58起):本集说 Figma 一直是 computer use 表现糟糕的应用,而 Astra 这次接管电脑用它拼好了播客缩略图。
+- **[[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]]**(58:44起):本集顺带提到 Figma 曾是科技界的宠儿，但 AI 确实伤害了它，很多人开始 vibe coding 内部设计工具。
 
 ## ① 提到它的金句
 
@@ -32,7 +33,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]] — 作为被讨论公司(提及)
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司
@@ -46,6 +47,7 @@ unlisted: true
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为被讨论公司
 - [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司(提及)
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念(提及)
+- [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -53,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Lenny]] · [[Notion]] · [[设计系统]] · [[GitHub]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Aakash]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":26,"Lenny":66,"Notion":12,"设计系统":4,"GitHub":20,"Anthropic":97,"OpenAI":83,"Cursor":44,"Aakash":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":26,"Lenny":66,"Notion":12,"设计系统":4,"GitHub":20,"Anthropic":98,"OpenAI":84,"Cursor":45,"Aakash":3}</script>
 
 <script>
 (function(){

@@ -188,9 +188,9 @@ Ed 预计 2027 年左右事情会失速 <button class="pd-ts" data-t="130:25" da
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:GPU、推理 (inference)、智能体 (agent)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:GPU、token、推理 (inference)</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Anthropic、OpenAI、Amazon、Google、Microsoft、NVIDIA · 同概念:LLM、资本支出 (capex)</span>
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Amazon、Google、Microsoft · 同概念:资本支出 (capex)</span>
 
 </div>
 <div class="pd-ex">

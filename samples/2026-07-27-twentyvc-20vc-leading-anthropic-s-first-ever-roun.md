@@ -137,9 +137,9 @@ Harry 问：手里有 Anthropic、Lovable、Legora、OpenRouter,你本可以募�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、Eleven Labs、OpenAI · 同概念:推理 (inference)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Anthropic、OpenRouter、Cursor、Lovable、OpenAI · 同概念:推理 (inference)</span>
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|Martin Casado：AI 时代，钱比以前好使了]]<span class="pd-rz">同公司:OpenAI、OpenRouter、Anthropic、Cursor · 同概念:开源模型 (open source)、推理 (inference)</span>
-- [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、OpenAI、OpenRouter · 同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]] [[Tara Seshan]]
+[[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Ben Rudolph]] [[Justin Johnson]]
 
 </div>
 

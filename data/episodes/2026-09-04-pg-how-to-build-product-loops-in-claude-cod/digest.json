@@ -1,0 +1,190 @@
+{
+  "title_zh": "循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM",
+  "tldr": "JobNimbus 首席 AI 官 Tyler Folkman 现场演示如何为产品工作搭建能自我改进的 AI 循环：闸门、钩子、原型与客户触达。",
+  "digest_md": "「循环是新的提示词」——这句话最近被反复提起,但很少有人讲清楚:对做产品的人来说,一个循环到底怎么搭、怎么改进。这一集请来的主角是 Tyler Folkman,JobNimbus(一家刚完成 3.03 亿美元 B 轮融资的犹他州创业公司,主持人开场介绍的)的首席 AI 官兼产品负责人,管着约 100 人的团队。他最有冲击力的一个现场演示:在他讲话的几分钟里,他的 AI 已经自动构建出了三个可用于客户访谈的产品原型——而启动它的提示词只有一句「继续」[17:01 Tyler Folkman]。\n\n## 什么是循环:比提示词多一层「自我改进」\nTyler 的区分很干净:普通提问是你和 AI 一问一答,「几乎是更聪明的 Google 搜索」;智能体(agent)是你给它一个任务、给它验证方式,让它尽可能自己执行。而循环(loop)比「跑一次任务」更进一步——**结束时把整次对话的日志喂回去,让 AI 改进那个技能本身**。「这是自我改进的智能体的理念,而不是一个静态的技能」[08:31 Tyler Folkman]。没有学习这一环,你跑的只是一个技能;反馈回去持续改进,技能才变成循环[13:27 Tyler Folkman]。\n\n## 好循环的命门:一个确定性的闸门\n他把循环拆成四步:自己取输入 → 干活 → **闸门(gate)** → 产出工件(artifact),然后学习闭环。其中闸门「几乎总是最重要的部分」,而「尽可能地让这个验证是确定性的,这一点至关重要」[12:40 Tyler Folkman]——也就是用测试、检查这类可机器判定的标准,而不是全靠 LLM 裁判。代码领域之所以好做,是因为有大量可靠测试;推论是:**AI 在有清晰边界和清晰的完成定义时非常擅长工作**[13:03 Tyler Folkman]。产品工作的难点恰恰在这里——闸门是客户,你没法把客户锁在房间里反复问「你喜欢这个吗」[15:53 Tyler Folkman]。\n\n## 实操:从零写一个技能,手写第一稿\n现场他真的从零建了一个「决策技能」:先手写一个 `skill.md`——「第一稿我会手写」,因为他读到过论文,人写的技能往往比 AI 写的更好,因为你更清楚自己要它做什么[29:39 Tyler Folkman]。他的警告是「电动自行车比喻」:买了电动车的人都说自己还会踩踏板锻炼,「一旦你骑上电动自行车,你就不会踩踏板了」[30:03 Tyler Folkman]——AI 循环转得太快、多巴胺太足,人会停不下来。所以要让 AI 用苏格拉底式提问反过来质问你、拆穿你的胡说(比如演示里它判断「屋顶机器人投资」是单向门、高爆炸半径、低紧急度——「不急着做决定的教科书案例」)。收到 AI 的改进建议时,「这是离开 AI 跑步机的时刻」,「如果你总是接受它说的,技能会变得太多、太自以为是,稀释整个价值」[39:20 Tyler Folkman]。闭合循环最简单的做法:问 AI「基于这次对话,怎么改进这个技能」,再用 Claude 的 hooks(在会话结束等时点自动强制触发的机制)把改进固化;定时循环用 slash loop。版本管理靠 Git,他现在更多是「向前修复」而不是回滚。\n\n## 产品侧:原型冲量,合成客户过闸\nJobNimbus 的产品循环:让 AI 一次性生成至少三个不同类型的原型变体(极简版、全功能版、创意版)[42:26 Tyler Folkman],「瞬间,任何人都能做出一个原型,然后拿着它去和客户聊」[19:41 Tyler Folkman]。第一步闸门是用数据仓库里所有客户调研通话的转录稿,造一个「合成客户」让 AI 以客户视角审查原型——门槛不高,但能快速从约 100 个想法筛到最好的 5 个,再真人上。他同时强调:**别把客户触达设太多门槛**。传统上访谈由 UX 把关,但 AI 时代新瓶颈就是接触客户本身,「如果你对这件事设太多门槛,它就无法跟上 AI 的速度」[21:40 Tyler Folkman]——目标是训练所有人每周做两次客户访谈。他还推荐两个高价值循环:客户触达循环(每天/每周自动从 Pendo、Amplitude 或数据库里识别该联系谁)和项目管理循环(自动从 Linear/Jira 拉工单、汇总风险和停滞项)。\n\n## 文档:AI 写给 AI 看,人只读 1-3 页\n他收到太多 10-20 页的 AI 生成文档,「直接丢给我的 AI,这多少有点违背初衷」[26:24 Tyler Folkman]。他的解法是把文档分成两类:**写给 AI 看的文档**——把所有战略上下文尽量全喂给 AI,没人读得完也没关系,它用来支撑 AI 回答问题(新员工入职流程就是这么生成的,连安排会议都用他的日历自动化了);**写给人类看的文档**——1 到 3 页为上限,更视觉化。底线是:「如果那个人是用 AI 而不是自己的思考生成的文档,让其他人用自己的精力去消化它是不合理的」[27:51 Tyler Folkman]。\n\n## 工程侧:先做质量循环,PM 能不能写代码看系统\n「客户体验到的并不是你的缺陷率,他们体验到的是 bug 的数量」[49:36 Tyler Folkman]——发布速度翻倍,bug 也以同速变多,客户只会觉得你变差了。所以他最推荐工程师做的循环就是质量循环(标准、检查、自动化端到端测试):「AI 的质量优势可以击败速度优势,因为它能让你更安全地发布」[52:46 Tyler Folkman]。PM 推代码:在解耦良好、CI 和质量测试健全的系统里,任何人都可以推;系统烂的公司,PM 连靠近都别。唯一要小心的是事先和团队约定好,否则你的 PR 会给工程师制造计划外的「影子工作」。工程师反过来做 vibe PM:失败点不显性(没有 bug,只有「发布了没人要的东西」),缓解靠速度——快速丢弃不行 idea,在 feature flag 后面发布再拿去和客户聊,「这就好比 PM 在代码里发布一个按钮颜色改动,风险非常低」[55:03 Tyler Folkman]。红线下不碰:战略级投资决策;以及「把思考外包」——拿 AI 研究结果原样上交,「那不是在做产品工作」[47:27 Tyler Folkman]。\n\n## 三种角色正在融合成「构建者」\n设计侧最大的循环就是原型制作,AI 确实冲击了 Figma 这类工具;有好的设计系统,AI 会直接用你们的组件库,非设计专家的改动也在安全边界内。PM、设计、工程正在融合成「构建者」(builder),但他提醒这比大家想的慢——「学习新技能、构建系统都需要时间」[60:10 Tyler Folkman]。他们真招过:办了号称犹他州最大的黑客马拉松,冠军现在是公司 SVP。他的判断:技能比以往更重要,但正因如此,借助 AI 你能比以往更快地跨域提升。「由于构建时间下降了,去风险的需求也变了——以前瀑布式存在,是因为造个实物要很久」[56:41 Tyler Folkman]。「为什么不让 AI 写 100% 的单元测试覆盖率?基本上是免费的」——产品同理:微软的研究说我们发布的产品里三分之二表现平平或对业务毫无作用,「所以,为什么不花点时间,基本上免费获得更多尝试机会呢?」[58:04 Tyler Folkman]\n\n他自己的做法也值得领导层抄:周一周五远程日不鼓励开会——管着近 100 人,他这两天通常一个会都没有。「如果你在一个房间里待八个小时,有大量时间和 AI,还有很多你想学的东西,你能搞出很多名堂」[65:41 Tyler Folkman]。光说「要用 AI」没用,「远不如『这就是我使用 AI 的方式』」。\n\n## 本集带走\n- **循环 = 技能 + 学习闭环**:跑完把日志喂回去让 AI 改进技能本身;没有这一环,你只是在跑一个静态技能。用 Claude hooks 在会话收尾时强制触发改进,用 slash loop 做定时循环。\n- **闸门尽可能确定性**:用测试、检查这类可机器判定的标准;产品侧的闸门难在客户,先用合成客户(基于真实通话转录稿)把 100 个想法筛到 5 个,再真人访谈。\n- **第一稿手写技能,警惕 AI 建议全收**:人写的技能往往更好;AI 永远会提改进建议,全收会让技能臃肿、稀释价值。\n- **文档分两类**:给 AI 的尽量全喂上下文,给人读的压到 1-3 页、视觉化。\n- **工程师先循环质量,再谈速度**:客户感知的是 bug 数量,质量优势能让你更安全地提速。\n- **vibe PM 从双向门起步**:feature flag 后面发布、拿去和客户聊,风险极低;但别拿 AI 研究结果原样上交,也别让 AI 替你做战略决策。",
+  "quotes": [
+    {
+      "en": "So you're taking yourself out of the loop more than you are with just like a prompt. That way you can actually scale yourself.",
+      "zh": "你比只是写个提示词时更多地把自己从循环中抽离出来。这样你才能真正把自己扩展放大。",
+      "timestamp": "05:26",
+      "speaker": "Tyler Folkman"
+    },
+    {
+      "en": "The only thing worse than no data is really bad data, so we don't want that.",
+      "zh": "唯一比没有数据更糟糕的就是非常糟糕的数据,所以我们不想要那样。",
+      "timestamp": "21:59",
+      "speaker": "Tyler Folkman"
+    },
+    {
+      "en": "What we're thinking about is something should be AI written for AI, in my opinion.",
+      "zh": "我的看法是,有些东西应该写成 AI 写给 AI 看的。",
+      "timestamp": "26:29",
+      "speaker": "Tyler Folkman"
+    },
+    {
+      "en": "If the person used AI and not a lot of their own thinking to generate that document, I don't think it's reasonable that the other people will use their own energy to consume the document.",
+      "zh": "如果那个人是用 AI 而不是太多自己的思考生成的那个文档,我认为让其他人用自己的精力去消化那个文档是不合理的。",
+      "timestamp": "27:51",
+      "speaker": "Tyler Folkman"
+    },
+    {
+      "en": "And I would argue that some AI slop is actually better than human slop that I've seen before AI.",
+      "zh": "而且我想说,有些 AI 垃圾内容实际上比我在 AI 出现之前见过的人类垃圾内容要好。",
+      "timestamp": "28:43",
+      "speaker": "Tyler Folkman"
+    },
+    {
+      "en": "Once you get on the e-bike, you're not pedaling.",
+      "zh": "一旦你骑上电动自行车,你就不会踩踏板了。",
+      "timestamp": "30:03",
+      "speaker": "Tyler Folkman"
+    },
+    {
+      "en": "And this is where I would say, again, this is the time to get off the AI treadmill.",
+      "zh": "而这里我会再次说,这正是该离开 AI 跑步机的时刻。",
+      "timestamp": "39:12",
+      "speaker": "Tyler Folkman"
+    },
+    {
+      "en": "That's not doing product work. That's more kind of outsourcing your thinking.",
+      "zh": "那不是在做产品工作。那更像是把你的思考外包出去了。",
+      "timestamp": "47:27",
+      "speaker": "Tyler Folkman"
+    },
+    {
+      "en": "because I almost think that the quality advantage of AI can beat the velocity advantage because it lets you ship safer.",
+      "zh": "因为我几乎认为 AI 的质量优势可以击败速度优势,因为它能让你更安全地发布。",
+      "timestamp": "52:42",
+      "speaker": "Tyler Folkman"
+    },
+    {
+      "en": "And now my opinion is just be 100%. It's basically free.",
+      "zh": "现在我的观点就是做到 100%。这基本上是免费的。",
+      "timestamp": "57:15",
+      "speaker": "Tyler Folkman"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:26",
+      "speaker": "Tyler Folkman",
+      "en": "So you're taking yourself out of the loop more than you are with just like a prompt. That way you can actually scale yourself.",
+      "zh": "你比只是写个提示词时更多地把自己从循环中抽离出来。这样你才能真正把自己扩展放大。"
+    },
+    {
+      "timestamp": "08:31",
+      "speaker": "Tyler Folkman",
+      "en": "This idea of self-improving agents as opposed to a static skill",
+      "zh": "这种自我改进的智能体的理念,而不是一个静态的技能"
+    },
+    {
+      "timestamp": "12:40",
+      "speaker": "Tyler Folkman",
+      "en": "As much as possible, being able to make this deterministic is critical.",
+      "zh": "尽可能地让这个验证是确定性的,这一点至关重要。"
+    },
+    {
+      "timestamp": "13:03",
+      "speaker": "Tyler Folkman",
+      "en": "It's AI is really good with clear boundaries and clear definitions of done and success that it can work through.",
+      "zh": "AI 在有清晰边界和清晰的完成与成功定义时非常擅长,它能够据此推进工作。"
+    },
+    {
+      "timestamp": "19:41",
+      "speaker": "Tyler Folkman",
+      "en": "Instantly, anyone can build a prototype and go talk to a customer about it.",
+      "zh": "瞬间,任何人都能做出一个原型,然后拿着它去和客户聊。"
+    },
+    {
+      "timestamp": "21:59",
+      "speaker": "Tyler Folkman",
+      "en": "The only thing worse than no data is really bad data, so we don't want that.",
+      "zh": "唯一比没有数据更糟糕的就是非常糟糕的数据,所以我们不想要那样。"
+    },
+    {
+      "timestamp": "24:02",
+      "speaker": "Tyler Folkman",
+      "en": "What we found is AI is really good at systematizing existing process.",
+      "zh": "我们发现,AI 非常擅长将现有流程系统化。"
+    },
+    {
+      "timestamp": "26:24",
+      "speaker": "Tyler Folkman",
+      "en": "That's going straight to my AI, which kind of defeats the point, right?",
+      "zh": "这直接丢给我的 AI,这多少有点违背初衷,对吧?"
+    },
+    {
+      "timestamp": "26:29",
+      "speaker": "Tyler Folkman",
+      "en": "What we're thinking about is something should be AI written for AI, in my opinion.",
+      "zh": "我的看法是,有些东西应该写成 AI 写给 AI 看的。"
+    },
+    {
+      "timestamp": "27:51",
+      "speaker": "Tyler Folkman",
+      "en": "If the person used AI and not a lot of their own thinking to generate that document, I don't think it's reasonable that the other people will use their own energy to consume the document.",
+      "zh": "如果那个人是用 AI 而不是太多自己的思考生成的那个文档,我认为让其他人用自己的精力去消化那个文档是不合理的。"
+    },
+    {
+      "timestamp": "28:43",
+      "speaker": "Tyler Folkman",
+      "en": "And I would argue that some AI slop is actually better than human slop that I've seen before AI.",
+      "zh": "而且我想说,有些 AI 垃圾内容实际上比我在 AI 出现之前见过的人类垃圾内容要好。"
+    },
+    {
+      "timestamp": "29:00",
+      "speaker": "Tyler Folkman",
+      "en": "It was not that different than AI, just less efficient.",
+      "zh": "那和 AI 没有太大区别,只是效率更低。"
+    },
+    {
+      "timestamp": "30:03",
+      "speaker": "Tyler Folkman",
+      "en": "Once you get on the e-bike, you're not pedaling.",
+      "zh": "一旦你骑上电动自行车,你就不会踩踏板了。"
+    },
+    {
+      "timestamp": "39:12",
+      "speaker": "Tyler Folkman",
+      "en": "And this is where I would say, again, this is the time to get off the AI treadmill.",
+      "zh": "而这里我会再次说,这正是该离开 AI 跑步机的时刻。"
+    },
+    {
+      "timestamp": "39:20",
+      "speaker": "Tyler Folkman",
+      "en": "And if you always accept what it says, it will become too much.",
+      "zh": "而如果你总是接受它说的,它就会变得太多。"
+    },
+    {
+      "timestamp": "47:27",
+      "speaker": "Tyler Folkman",
+      "en": "That's not doing product work. That's more kind of outsourcing your thinking.",
+      "zh": "那不是在做产品工作。那更像是把你的思考外包出去了。"
+    },
+    {
+      "timestamp": "49:36",
+      "speaker": "Tyler Folkman",
+      "en": "They experience the number of bugs.",
+      "zh": "他们体验到的是 bug 的数量。"
+    },
+    {
+      "timestamp": "52:46",
+      "speaker": "Tyler Folkman",
+      "en": "because I almost think that the quality advantage of AI can beat the velocity advantage because it lets you ship safer.",
+      "zh": "因为我几乎认为 AI 的质量优势可以击败速度优势,因为它能让你更安全地发布。"
+    },
+    {
+      "timestamp": "55:03",
+      "speaker": "Tyler Folkman",
+      "en": "It's like the version of shipping a button color change or something for a PM in code.",
+      "zh": "这就好比 PM 在代码里发布一个按钮颜色改动之类的版本。"
+    },
+    {
+      "timestamp": "57:17",
+      "speaker": "Tyler Folkman",
+      "en": "And now my opinion is just be 100%. It's basically free.",
+      "zh": "现在我的观点就是做到 100%。这基本上是免费的。"
+    }
+  ],
+  "voice_script": "你敢信吗？有人在台上讲话的几分钟里，他的 AI 已经自动做出来了三个可以直接拿去给客户看的产品原型——而启动这一切的提示词，只有两个字：「继续」。\n\n这一期聊的就是这件事：一个做产品的人，怎么给 AI 搭一个能自己转、还能自己变强的循环。讲的人叫 Tyler Folkman,是 JobNimbus 的首席 AI 官，就是那家刚融了 3.03 亿美元的犹他州创业公司，手下管着大约一百人的团队。\n\n先把概念掰清楚。普通提问，就是你问一句 AI 答一句，说白了就是个更聪明的 Google 搜索；智能体呢，是你给它一个任务、给它一套验证标准，让它自己去干。那循环是什么？循环比这两个都多一层——任务跑完之后，把整段对话的日志喂回去，让 AI 去改进那个技能本身。这句话是关键。没有学习这一环，你跑的只是一个静态的技能；反馈回去了，技能才会持续变强，这才叫循环。\n\n那怎么搭一个好循环？拆开看就四步：自己取输入、干活、过闸门、产出工件，最后学习闭环。这里面闸门几乎永远是最重要的部分，而且有个铁律：验证要尽量做成确定性的——也就是用测试、用检查这类机器能自动判定的东西，而不是让 AI 自己当裁判。代码领域为什么最好做？因为有大量可靠的测试。反过来说，AI 在边界清晰、完成定义清晰的时候，干活是真的强。可产品工作的麻烦恰恰在这儿——产品的闸门是客户啊，你总不能把客户锁在屋里反复问人家喜不喜欢吧？\n\n所以产品侧得换个玩法。做法是让 AI 一次性生成至少三个不同风格的原型变体：极简版、全功能版、创意版。瞬间任何人都能做出一个原型，拿着就去跟客户聊。第一道闸门先用「合成客户」——把数据仓库里所有客户调研通话的转录稿喂给 AI,让它站在客户的视角审查原型。门槛不高，但够用：能快速从大概一百个想法筛到最好的五个，然后真人再上。这里还有个特别值得记的观点：传统上客户访谈都是 UX 团队把关的，但 AI 时代的新瓶颈就是接触客户这件事本身。要是对它设太多门槛，根本跟不上 AI 的速度。所以他们的目标是让所有人每周做两次客户访谈。\n\n技能本身怎么写？答案有点反直觉：第一稿手写。因为有人读到过论文，人写的技能往往比 AI 写得更好——毕竟你最清楚自己要它干什么。但这里有个警告，叫电动自行车比喻：买了电动车的人都说自己以后还踩踏板锻炼，真骑上去了，谁还踩啊。AI 循环转得太快、多巴胺太足，人就停不下来了。所以要让 AI 用苏格拉底式提问反过来质问你、拆穿你的胡说。而每当 AI 提改进建议的时候，正是你离开 AI 跑步机的时刻——要是它说什么你都照单全收，技能会变得越来越多、越来越自以为是，最后把整个价值都稀释了。闭环最简单的做法，就是收尾时问一句「基于这次对话，怎么改进这个技能」，再用 Claude 的 hooks——就是在会话结束这类时点自动强制触发的机制——把改进固化下来，版本管理交给 Git。\n\n文档这块也有一套狠活。现在太多人拿着 AI 生成的十几二十页文档往上交，直接丢给别人的 AI 去读，这多少有点违背初衷。解法是把文档分成两类：写给 AI 看的，战略上下文尽量全喂进去，没人读得完没关系；写给人看的，压到一到三页、尽量视觉化。底线就一句话：如果那份文档是 AI 生成、而不是带着自己的思考的，让其他人花自己的精力去消化它，是不合理的。\n\n工程侧呢，先做质量循环再谈速度。客户体验到的不是你的发布频率，而是 bug 的数量——发布速度翻倍，bug 同速变多，客户只会觉得你变差了。所以质量优势可以击败速度优势，因为它让你能更安全地发布。至于产品经理能不能写代码，看系统：解耦好、CI 和测试健全的公司，谁都可以推；系统烂的公司，靠近都别靠近。反过来工程师做产品也有个坑——失败不显性，没有报错，只有「发布了但没人要」。缓解靠速度：在 feature flag 后面悄悄发布，拿去跟客户聊，不行就快速丢掉。但有两条红线别碰：战略级投资决策别让 AI 拍板；更别拿 AI 的研究结果原样上交——那不叫做产品工作。\n\nPM、设计、工程，这三种角色正在融合成一个新物种，叫「构建者」。不过提醒一句，这事比大家想的要慢，学新技能、搭系统都得花时间。可正因为构建时间下降了，尝试的机会也变得基本免费——微软有个研究说，我们发布的产品里有三分之二表现平平，甚至对业务毫无作用。既然如此，为什么不花点时间，多拿几次几乎免费的尝试机会呢？\n\n最后送一句特别实在的话。管着一百人的人，周一周五定为远程日，不鼓励开会，通常一个会都没有。理由是：如果你在一个房间里待八个小时，有大量时间和 AI,还有一堆你想学的东西，你能搞出很多名堂。光喊「要用 AI」没用，「这就是我使用 AI 的方式」才是真的。循环是新的提示词——把自己从循环里抽出来，你才能真正把自己放大。"
+}

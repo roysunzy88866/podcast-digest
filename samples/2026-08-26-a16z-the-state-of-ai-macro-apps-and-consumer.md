@@ -148,8 +148,8 @@ Anish 对「模型商品化」的判断是明确的否定。他给自己定的�
 **顺着「智能体」挖下去**
 
 - [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:开放权重模型 (open weight models)、智能体 (agent)</span>
+- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor、Salesforce · 同概念:智能体 (agent)</span>
-- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

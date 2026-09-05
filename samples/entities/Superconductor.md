@@ -25,7 +25,7 @@ unlisted: true
 
 [[Arjun Singh]] · [[智能体]] · [[沙箱]] · [[基准测试]] · [[上下文]] · [[开放权重模型]] · [[Slack]] · [[Claude Code]] · [[Codex]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Arjun Singh":1,"智能体":1,"沙箱":35,"基准测试":7,"上下文":13,"开放权重模型":8,"Slack":23,"Claude Code":43,"Codex":36,"Cursor":44}</script>
+<script type="application/json" class="pd-epn">{"Arjun Singh":1,"智能体":1,"沙箱":35,"基准测试":7,"上下文":13,"开放权重模型":8,"Slack":23,"Claude Code":44,"Codex":37,"Cursor":45}</script>
 
 <script>
 (function(){

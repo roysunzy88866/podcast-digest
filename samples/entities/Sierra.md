@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sierra</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Sierra">SI</div><div class="pi"><h1 class="pt">Sierra</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Sierra">SI</div><div class="pi"><h1 class="pt">Sierra</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,25 @@ unlisted: true
 - **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(01:26起):本集说 Sierra 是一家构建面向客户的 AI 智能体的公司，帮助企业在客户服务和客户体验领域（如接听电话、回答聊天）自主解决问题，并采用基于解决率的定价模式。
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(37:11起):本集提到的企业客服智能体赛道的直接竞争对手。采用重度服务（黑盒 FDE）模式，有客户受不了其慢速转投 Decagon（在对手那花一年搭三个流程，Decagon 一个月搭七个）。
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(59:49起):本集举其为自动驾驶类别的例子，去做航空公司客户支持，以五分之一价格解决每张50美元的工单，从副驾驶快速切到自动驾驶按结果收费
+- **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(25:48起):Brett Taylor 创办的 AI 智能体公司，以基于成果的定价（outcome-based pricing）闻名，嘉宾判断它在做「下一代 Salesforce」，与 Eleven Labs 玩不同的游戏但都会巨大。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
+- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Lenny]] · [[Anthropic]] · [[Madhavan Ramanujam]] · [[Bret Taylor]] · [[Sarah Wang]] · [[Julien Bek]] · [[Intercom]]
+[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Harry Stebbings]] · [[Madhavan Ramanujam]] · [[Bret Taylor]] · [[Sarah Wang]] · [[Julien Bek]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":44,"OpenAI":83,"Lenny":66,"Anthropic":97,"Madhavan Ramanujam":1,"Bret Taylor":1,"Sarah Wang":2,"Julien Bek":1,"Intercom":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":45,"OpenAI":84,"Anthropic":98,"Lenny":66,"Harry Stebbings":11,"Madhavan Ramanujam":1,"Bret Taylor":1,"Sarah Wang":2,"Julien Bek":1}</script>
 
 <script>
 (function(){

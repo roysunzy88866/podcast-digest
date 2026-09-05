@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
+[[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":10,"Neoclouds":1,"Fireworks":3,"前沿模型":6,"开源模型":4,"沙箱":35,"智能体":1,"推理":4,"GPU":10,"持续学习模型":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":11,"Neoclouds":1,"Fireworks":3,"前沿模型":6,"开源模型":4,"沙箱":35,"智能体":1,"推理":4,"GPU":11,"持续学习模型":1}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
+[[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":97,"William Grant":1,"Boston Dynamics":2,"智能体":1,"Resolve":1,"知识表征":1,"管道和仪表图":1}</script>
+<script type="application/json" class="pd-epn">{"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":98,"William Grant":1,"Boston Dynamics":2,"智能体":1,"Resolve":1,"知识表征":1,"管道和仪表图":1}</script>
 
 <script>
 (function(){

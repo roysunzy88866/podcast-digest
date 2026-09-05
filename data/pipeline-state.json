@@ -56,12 +56,11 @@
   "transient": {
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
-    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2026-09-04-pg-how-to-build-product-loops-in-claude-cod": 1
+    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1
   },
   "cutoffs": {
     "lennys": "2026-09-02T12:03:39.000Z",
-    "pg": "2026-08-28T22:38:13.000Z",
+    "pg": "2026-09-04T23:01:00.000Z",
     "a16z": "2026-09-04T10:00:00.000Z",
     "yc": "2026-09-04T18:05:48.000Z",
     "mad": "2026-08-27T14:22:21.000Z",
@@ -75,7 +74,7 @@
     "dwarkesh": "2026-09-01T15:41:06.000Z",
     "doac": "2026-09-03T05:00:00.000Z",
     "deepmind": "2026-07-10T15:50:06.000Z",
-    "twentyvc": "2026-09-03T07:07:00.000Z",
+    "twentyvc": "2026-09-05T07:07:00.000Z",
     "cogrev": "2026-08-26T11:02:32.000Z",
     "knowledge": "2026-09-01T10:00:00.000Z",
     "pragmatic": "2026-08-26T15:59:59.000Z",
@@ -738,6 +737,12 @@
       "reason": "题材不对味:过时:AI 安全事件快讯类内容距今 45 天已过时效窗口,且题材偏安全/事件报道而非产业格局或人物访谈",
       "title": "OpenAI's Bots Hack Hugging Face Autonomously — With Alex Stamos",
       "pubDate": "2026-07-22T18:53:00.000Z"
+    },
+    {
+      "id": "2026-07-23-mad-the-biggest-chip-ever-built--why-openai",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+      "pubDate": "2026-07-23T11:30:00.000Z"
     }
   ]
 }

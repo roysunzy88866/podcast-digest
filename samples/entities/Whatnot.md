@@ -39,7 +39,7 @@ unlisted: true
 
 [[Anthropic]] · [[直播购物]] · [[Tom Verrilli]] · [[Harry Stabbings]] · [[David George]] · [[Lenny]] · [[Jason Lamkin]] · [[Grant LaFontaine]] · [[Twitch]] · [[Canva]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":97,"直播购物":2,"Tom Verrilli":1,"Harry Stabbings":1,"David George":2,"Lenny":66,"Jason Lamkin":1,"Grant LaFontaine":1,"Twitch":1,"Canva":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":98,"直播购物":2,"Tom Verrilli":1,"Harry Stabbings":1,"David George":2,"Lenny":66,"Jason Lamkin":1,"Grant LaFontaine":1,"Twitch":1,"Canva":3}</script>
 
 <script>
 (function(){

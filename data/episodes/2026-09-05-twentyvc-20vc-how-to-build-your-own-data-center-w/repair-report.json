@@ -1,0 +1,75 @@
+{
+  "kept": [
+    {
+      "i": 2,
+      "timestamp": "30:00",
+      "speaker": "SPEAKER_01",
+      "trimmed": false,
+      "tsWas": "30:02",
+      "spkWas": "Cliff"
+    },
+    {
+      "i": 3,
+      "timestamp": "30:46",
+      "speaker": "Cliff Weitzman",
+      "trimmed": false,
+      "tsWas": "30:46",
+      "spkWas": "Cliff"
+    },
+    {
+      "i": 4,
+      "timestamp": "33:14",
+      "speaker": "Cliff Weitzman",
+      "trimmed": false,
+      "tsWas": "33:14",
+      "spkWas": "Cliff"
+    },
+    {
+      "i": 5,
+      "timestamp": "38:56",
+      "speaker": "Cliff Weitzman",
+      "trimmed": false,
+      "tsWas": "38:56",
+      "spkWas": "Cliff"
+    },
+    {
+      "i": 6,
+      "timestamp": "46:44",
+      "speaker": "Cliff Weitzman",
+      "trimmed": false,
+      "tsWas": "46:44",
+      "spkWas": "Cliff"
+    },
+    {
+      "i": 7,
+      "timestamp": "48:38",
+      "speaker": "Cliff Weitzman",
+      "trimmed": false,
+      "tsWas": "48:38",
+      "spkWas": "Cliff"
+    },
+    {
+      "i": 8,
+      "timestamp": "49:25",
+      "speaker": "Cliff Weitzman",
+      "trimmed": false,
+      "tsWas": "49:25",
+      "spkWas": "Cliff"
+    },
+    {
+      "i": 9,
+      "timestamp": "61:11",
+      "speaker": "Cliff Weitzman",
+      "trimmed": false,
+      "tsWas": "61:11",
+      "spkWas": "Cliff"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 1,
+      "reason": "命中片段跨说话人(占比0.57/连续他人6词,疑拼接)",
+      "en": "I don't care if it's free. Then you sell them other things."
+    }
+  ]
+}

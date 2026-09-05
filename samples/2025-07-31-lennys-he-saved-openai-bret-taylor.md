@@ -184,9 +184,9 @@ Bret 接着说了一个更深的坑：你以为自己在回答"什么最有影�
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Sierra、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]]<span class="pd-rz">同概念:前沿模型 (frontier model)、智能体 (agent)</span>
-- [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
+[[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":1,"QVAC":1,"推理":4,"微调":6,"BitNet":1,"LoRa":1,"数据中心":3,"去中介化":1,"智能体":1,"GPU":10}</script>
+<script type="application/json" class="pd-epn">{"Tether":1,"QVAC":1,"推理":4,"微调":6,"BitNet":1,"LoRa":1,"数据中心":3,"去中介化":1,"智能体":1,"GPU":11}</script>
 
 <script>
 (function(){

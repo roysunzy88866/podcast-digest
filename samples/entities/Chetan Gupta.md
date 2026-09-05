@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]] [[Brian Singerman]]
+[[Cliff Weitzman]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]] [[Amandeep Khurana]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":6,"Chris Benson":6,"Rackspace":2,"Hitachi":2,"Anthropic":97,"Hugging Face":18,"工业AI":2,"物理 AI":7,"LLM":25,"生成式 AI":6}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":6,"Chris Benson":6,"Rackspace":2,"Hitachi":2,"Anthropic":98,"Hugging Face":18,"工业AI":2,"物理 AI":7,"LLM":25,"生成式 AI":6}</script>
 
 <script>
 (function(){

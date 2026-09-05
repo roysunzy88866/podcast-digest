@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
+[[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":27,"Sega":1,"Waymo":11,"Tesla":6,"Mercedes":1,"加速计算":1,"智能体":1,"物理 AI":7,"系统思维":3}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":28,"Sega":1,"Waymo":11,"Tesla":6,"Mercedes":1,"加速计算":1,"智能体":1,"物理 AI":7,"系统思维":3}</script>
 
 <script>
 (function(){

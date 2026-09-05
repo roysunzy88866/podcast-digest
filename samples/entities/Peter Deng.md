@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
+[[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Brandon Foo":1,"ChatGPT":49,"Facebook":11,"Uber":7,"Instagram":4,"OpenAI":83,"Copilot":8,"Cursor":44,"Windsurf":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Brandon Foo":1,"ChatGPT":49,"Facebook":11,"Uber":7,"Instagram":4,"OpenAI":84,"Copilot":8,"Cursor":45,"Windsurf":3}</script>
 
 <script>
 (function(){

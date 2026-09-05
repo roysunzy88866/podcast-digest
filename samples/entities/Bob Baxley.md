@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
+[[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Apple":14,"ThoughtSpot":1,"设计":2,"设计信条":1,"软件作为一种媒介":1,"原始印记":1,"设计系统":4,"Figma":12}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"Apple":14,"ThoughtSpot":1,"设计":2,"设计信条":1,"软件作为一种媒介":1,"原始印记":1,"设计系统":4,"Figma":13}</script>
 
 <script>
 (function(){

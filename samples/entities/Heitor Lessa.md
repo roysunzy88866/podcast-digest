@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]] [[Justin Johnson]] [[Daniel Blum]]
+[[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]] [[Ben Rudolph]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":9,"确定性":1,"伪造证据":1,"三层模型分层":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":10,"确定性":1,"伪造证据":1,"三层模型分层":1}</script>
 
 <script>
 (function(){

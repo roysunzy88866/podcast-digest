@@ -1,0 +1,1869 @@
+{
+  "episode_id": "2026-09-04-pg-how-to-build-product-loops-in-claude-cod",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-09-04",
+  "tags": [
+    "AI 产品方法",
+    "循环与技能",
+    "智能体",
+    "客户访谈",
+    "组织与角色融合"
+  ],
+  "categories": [
+    "产品方法",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "tyler-folkman",
+      "type": "person",
+      "role": "guest",
+      "name": "Tyler Folkman",
+      "file": "Tyler Folkman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            20.197,
+            20.948
+          ],
+          "quote": "Tyler Folkman,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1366,
+          "t": [
+            4017.68,
+            4020.252
+          ],
+          "quote": "You can find my name, Tyler Folkman, or The AI Architect.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jobnimbus",
+      "type": "company",
+      "role": "company",
+      "name": "JobNimbus",
+      "file": "JobNimbus",
+      "primary": true,
+      "how_described": "本集嘉宾 Tyler Folkman 任首席 AI 官兼产品负责人的犹他州创业公司，刚完成犹他州史上最大的 3.03 亿美元 B 轮融资，团队近 100 人，本集展示的循环实践都来自这家公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            20.998,
+            24.361
+          ],
+          "quote": "the Chief AI Officer and Head of Product at JobNimbus,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            106.618,
+            113.618
+          ],
+          "quote": "He leads up product and engineering at one of Utah's most exciting startups, JobNimbus.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            887.205,
+            892.746
+          ],
+          "quote": "What we do at JobNimbus to kind of convert this into practice is we try to think",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 856,
+          "t": [
+            2515.576,
+            2521.264
+          ],
+          "quote": "What I said is create a crew schedule prototype for a contractor in a product like JobNimbus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1379,
+          "t": [
+            4042.93,
+            4045.571
+          ],
+          "quote": "So JobNimbus is a super fun place to work here.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集反复使用的 AI 工具：通过 .claude 目录加载技能、用 hooks 在会话收尾时强制触发改进循环、用 slash loop 做定时循环；Tyler 还吐槽 Opus 5 特别啰嗦。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            225.482,
+            231.803
+          ],
+          "quote": "Why would I use Herder instead of VS Code or Cursor or Claude Code in the terminal?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            642.302,
+            645.526
+          ],
+          "quote": "which means AI tools like Claude can see directly what's happening",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            654.239,
+            655.2700000000001
+          ],
+          "quote": "Claude already knows it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 471,
+          "t": [
+            1341.947,
+            1344.57
+          ],
+          "quote": "if you don't use Claude as much, it's doing what they call hooks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2067.386,
+            2069.348
+          ],
+          "quote": "advanced PM with Claude Code,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 732,
+          "t": [
+            2159.678,
+            2164.863
+          ],
+          "quote": "write quit and then the way Claude looks for skills is you can make a dot Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 818,
+          "t": [
+            2415.716,
+            2418.4937777777777
+          ],
+          "quote": "The one thing Claude actually supports is looping,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 823,
+          "t": [
+            2430.543,
+            2436.311
+          ],
+          "quote": " So you can actually tell Claude, hey, Do this for me or help me know how to do it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 903,
+          "t": [
+            2640.934,
+            2644.989555555556
+          ],
+          "quote": "You can set up a hook when Claude closes a session to do specific things,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 919,
+          "t": [
+            2706.251,
+            2709.064
+          ],
+          "quote": "As opposed to telling Claude not to delete everything in a prompt,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 925,
+          "t": [
+            2722.581,
+            2726.344
+          ],
+          "quote": "it'll stop you or stop Claude more importantly because maybe it thinks it needs",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 928,
+          "t": [
+            2728.365,
+            2733.689
+          ],
+          "quote": "It adds some determinism into the looping of Claude because Claude itself is a loop, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 930,
+          "t": [
+            2738.633,
+            2742.35
+          ],
+          "quote": "And so at each kind of phase of that loop, they let you inject Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 934,
+          "t": [
+            2749.503,
+            2751.824
+          ],
+          "quote": "Claude can just be like, eh, I didn't read that today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            2751.844,
+            2755.326
+          ],
+          "quote": "I know we've all experienced this where Claude's like, yeah, you're totally right.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 957,
+          "t": [
+            2821.962,
+            2826.927
+          ],
+          "quote": " As opposed to just say, hey, Claude, the CEO told me to go build this feature.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 986,
+          "t": [
+            2906.666,
+            2910.522
+          ],
+          "quote": "If you end up in a meeting and your answer is Claude said that or told me that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 991,
+          "t": [
+            2920.006,
+            2922.1589999999997
+          ],
+          "quote": "People are like, yeah, Claude said it would take...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 993,
+          "t": [
+            2923.49,
+            2926.931
+          ],
+          "quote": "I'm like, whoa, Claude does not know how long it will take.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 994,
+          "t": [
+            2927.352,
+            2932.074
+          ],
+          "quote": "And that was more like six months ago that I would hear that when Claude was newer",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 996,
+          "t": [
+            2933.955,
+            2935.6216666666664
+          ],
+          "quote": "I'm like, no, Claude does not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 997,
+          "t": [
+            2935.816,
+            2937.516
+          ],
+          "quote": "You ask Claude how long it'll take six months ago.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "herder",
+      "type": "company",
+      "role": "company",
+      "name": "Herder",
+      "file": "Herder",
+      "primary": true,
+      "how_described": "Tyler 每天用来做循环工程的终端系统，本质上是编排智能体的工具，可以拆分窗格、同时管理多个循环，他解释为什么用它而不是 VS Code 或 Cursor。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            168.574,
+            172.79622222222224
+          ],
+          "quote": "But the system I'm in for people that want to follow along is called Herder,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            192.477,
+            194.179
+          ],
+          "quote": "And it actually knows in Herder,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            225.482,
+            231.803
+          ],
+          "quote": "Why would I use Herder instead of VS Code or Cursor or Claude Code in the terminal?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            240.87,
+            244.915
+          ],
+          "quote": "the systems around them like Herder have also been made in such",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            259.877,
+            263.361
+          ],
+          "quote": "I can also in that terminal spin up an agent In Herder,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            360.817,
+            361.768
+          ],
+          "quote": "of Herder with Loops,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1052.354,
+            1054.096
+          ],
+          "quote": "And in fact, this is a good example of herder.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环 (loop)",
+      "file": "循环",
+      "primary": true,
+      "how_described": "本集主线概念：比提示词和智能体更进一步——任务跑完后把整次对话日志喂回去让 AI 改进技能本身，形成自我改进的飞轮，而不是一个静态技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            93.218,
+            95.99577777777777
+          ],
+          "quote": "How do you actually build a loop that's effective?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            96.242,
+            98.606
+          ],
+          "quote": "What are the steps to improving that loop?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            161.043,
+            164.168
+          ],
+          "quote": "that I use every day to do loop engineering,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            266.743,
+            272.407
+          ],
+          "quote": "So it's easier for me to have control over the agent loop cycle as opposed to having",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            326.349,
+            330.24199999999996
+          ],
+          "quote": "So you're taking yourself out of the loop more than you are with just like a prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            332.093,
+            335.945
+          ],
+          "quote": "Where I think prompting kind of got hard is you're kind of constantly in the loop",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            391.579,
+            393.991
+          ],
+          "quote": "which makes it a little bit more of an agent loop,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            440.138,
+            444.905
+          ],
+          "quote": "that loop is starting off with conditions that I've told it are required",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            470.136,
+            471.558
+          ],
+          "quote": "And you called it a loop specifically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            471.598,
+            472.40299999999996
+          ],
+          "quote": "What makes it a loop?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            478.3,
+            482.646
+          ],
+          "quote": "the way you close that loop is you feedback information into the AI",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            495.617,
+            500.119
+          ],
+          "quote": "So any good loop has this end that says, hey, let's review what I did.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            506.981,
+            508.532
+          ],
+          "quote": "So that's really where the loop comes from.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            734.251,
+            734.811
+          ],
+          "quote": "What is a loop?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            799.128,
+            801.128
+          ],
+          "quote": "upon itself, hence making it a loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            807.135,
+            811.9683333333334
+          ],
+          "quote": "A skill goes to a loop when you feed back the learning so that it continues to improve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            903.512,
+            905.2897777777778
+          ],
+          "quote": "How do we think of it as a loop?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            907.277,
+            908.939
+          ],
+          "quote": "this loop of fetching its input,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            923.081,
+            927.064
+          ],
+          "quote": "but how do you really get that into the loop so that it's fast?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1015.914,
+            1018.325
+          ],
+          "quote": "that loop is doing something at the first step.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1024.837,
+            1028.477
+          ],
+          "quote": "The hard part of the loop is going to be validating that it passed the gate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1109.959,
+            1112.9034444444444
+          ],
+          "quote": "And then we can start iterating on the feedback loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            1712.644,
+            1715.587
+          ],
+          "quote": "So how do we create like a non-slop loop?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            1715.627,
+            1718.559
+          ],
+          "quote": "Maybe you can help us like program a loop from scratch.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 631,
+          "t": [
+            1810.77,
+            1811.991
+          ],
+          "quote": "once you kind of get on the AI loop,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            1813.351,
+            1817.893
+          ],
+          "quote": "now I'm going to inject my thinking because the loop's moving so fast, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 739,
+          "t": [
+            2195.244,
+            2197.497
+          ],
+          "quote": "So we're starting the loop off with a skill,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 768,
+          "t": [
+            2283.544,
+            2286.0969999999998
+          ],
+          "quote": "what you would do to close the loop in the most simple way possible,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 773,
+          "t": [
+            2301.705,
+            2304.147
+          ],
+          "quote": "So this is kind of where the loop's coming in more manually,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 785,
+          "t": [
+            2329.363,
+            2331.354
+          ],
+          "quote": " And that's really where the loop happens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 789,
+          "t": [
+            2340.686,
+            2344.187
+          ],
+          "quote": "the session, it will force a kind of improvement loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 807,
+          "t": [
+            2388.207,
+            2389.798
+          ],
+          "quote": "So how do we turn this into a loop?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 814,
+          "t": [
+            2402.758,
+            2406.801
+          ],
+          "quote": "And then you can set this up as a loop and ask me what you need,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 819,
+          "t": [
+            2418.917,
+            2420.038
+          ],
+          "quote": "which if you do slash loop,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 822,
+          "t": [
+            2426.941,
+            2430.493
+          ],
+          "quote": "But one of the things of a loop is you want it to run on a schedule.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 829,
+          "t": [
+            2448.835,
+            2449.966
+          ],
+          "quote": "You said, hey, can we make this a loop?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 835,
+          "t": [
+            2455.798,
+            2457.028
+          ],
+          "quote": "It can set up the loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 843,
+          "t": [
+            2475.612,
+            2481.037
+          ],
+          "quote": "Every day goes off, does its thing, takes any feedback, updates the loop, and goes back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 874,
+          "t": [
+            2565.696,
+            2567.698
+          ],
+          "quote": "I have a morning planning loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 877,
+          "t": [
+            2573.607,
+            2577.192
+          ],
+          "quote": "One that I've really valued for myself is customer outreach loop so",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 890,
+          "t": [
+            2612.891,
+            2616.9779999999996
+          ],
+          "quote": "Another one I see that comes up a lot is just like a project management loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 928,
+          "t": [
+            2728.365,
+            2733.689
+          ],
+          "quote": "It adds some determinism into the looping of Claude because Claude itself is a loop, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 930,
+          "t": [
+            2738.633,
+            2742.35
+          ],
+          "quote": "And so at each kind of phase of that loop, they let you inject Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 947,
+          "t": [
+            2785.941,
+            2788.103
+          ],
+          "quote": "This one's less of a loop and more of,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1025,
+          "t": [
+            3034.911,
+            3037.323
+          ],
+          "quote": "If you're looping, loop on quality for engineers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1189,
+          "t": [
+            3510.28,
+            3513.491
+          ],
+          "quote": "So we touched on the PM and the engineering loop side of it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体定义为：给它一个任务加一种自我验证的方式，让它尽可能自主执行和决策，而不像问答式 prompting 那样人一直在循环里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            183.47,
+            190.47
+          ],
+          "quote": "which I can then tell it to spin up another agent to research contractor needs",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            196.1,
+            197.962
+          ],
+          "quote": "how to spin up an agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            259.877,
+            263.361
+          ],
+          "quote": "I can also in that terminal spin up an agent In Herder,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            266.743,
+            272.407
+          ],
+          "quote": "So it's easier for me to have control over the agent loop cycle as opposed to having",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            286.3,
+            288.183
+          ],
+          "quote": " And then we're using this term agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            288.203,
+            290.9252222222222
+          ],
+          "quote": "I feel like agent is like used on so many things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            291.067,
+            295.353
+          ],
+          "quote": "What makes it an agent here versus just another Cloud Code instance?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 95,
+          "t": [
+            297.116,
+            301.122
+          ],
+          "quote": "For me, the difference is an agent is doing something on its own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            339.737,
+            342.3
+          ],
+          "quote": "So what do we do next with this research contractor agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            374.236,
+            377.681
+          ],
+          "quote": "a predefined skill or agent that I've built that knows the things I want to talk",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            391.579,
+            393.991
+          ],
+          "quote": "which makes it a little bit more of an agent loop,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            617.405,
+            621.952
+          ],
+          "quote": " Every message I send is now based on The AI agent makes it fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            637.474,
+            640.629
+          ],
+          "quote": "I just ask the agent directly and it tells me what to do next.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2034.923,
+            2037.935
+          ],
+          "quote": "Bolt.new's design system agent ingests your real system,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2042.088,
+            2045.6435555555556
+          ],
+          "quote": "The agent builds a complete design system from your actual code.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集反复讲的技能/skill.md：领域负责人（如 UX 团队）为特定领域编写，Tyler 建议第一稿手写，因为论文表明人写的技能往往比 AI 写的更好；技能加上学习闭环才变成循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            8.554,
+            12.205
+          ],
+          "quote": "I honestly believe it's a very powerful skill for engineers to develop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            374.236,
+            377.681
+          ],
+          "quote": "a predefined skill or agent that I've built that knows the things I want to talk",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            511.298,
+            516.442
+          ],
+          "quote": "This idea of self-improving agents as opposed to a static skill,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            516.622,
+            519.014
+          ],
+          "quote": "that the skill could just sit here and be the same forever,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            519.064,
+            523.427
+          ],
+          "quote": "or we could take this entire experience and feed it back into the skill and have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            590.578,
+            593.86
+          ],
+          "quote": "or Fable 5 and find that your skill gets worse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            802.43,
+            805.8430000000001
+          ],
+          "quote": "then you're mostly just running what I would call like a skill,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            807.135,
+            811.9683333333334
+          ],
+          "quote": "A skill goes to a loop when you feed back the learning so that it continues to improve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            830.307,
+            833.859
+          ],
+          "quote": "which if you're just yourself building your own skill, that would be you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            999.209,
+            1003.651
+          ],
+          "quote": "It's actually using our product skill, which the first step is to build a bunch of prototypes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1045.537,
+            1047.3400000000001
+          ],
+          "quote": "Can we look inside that product skill?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1107.416,
+            1109.939
+          ],
+          "quote": "use this skill to generate 10 prototypes to solve this problem for our customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            1488.337,
+            1490.851
+          ],
+          "quote": "run this skill, and it will actually walk you through the product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            1750.146,
+            1752.3682222222221
+          ],
+          "quote": "when I think about writing a good skill,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 611,
+          "t": [
+            1762.375,
+            1763.666
+          ],
+          "quote": "So if you're gonna make a skill,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 615,
+          "t": [
+            1769.932,
+            1774.196
+          ],
+          "quote": "you're going in here and we'll just do skill.md, which is very basic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 733,
+          "t": [
+            2165.632,
+            2171.553
+          ],
+          "quote": " And we can move that skill to .clod and we'll just make it decisions.md.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 737,
+          "t": [
+            2185.996,
+            2190.297
+          ],
+          "quote": "I'm just making stuff up using our decide skill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 738,
+          "t": [
+            2190.617,
+            2195.194
+          ],
+          "quote": " And so if this worked correctly, you can see that it pulled the skill to side, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 739,
+          "t": [
+            2195.244,
+            2197.497
+          ],
+          "quote": "So we're starting the loop off with a skill,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 772,
+          "t": [
+            2294.216,
+            2300.724
+          ],
+          "quote": "how should we improve our skill to be better and more effective next time?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 782,
+          "t": [
+            2320.578,
+            2321.758
+          ],
+          "quote": "And if we go back and look at the skill,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 799,
+          "t": [
+            2366.944,
+            2370.127
+          ],
+          "quote": "The skill gets too opinionated,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 806,
+          "t": [
+            2385.605,
+            2388.1569999999997
+          ],
+          "quote": " Wants to solve all the problems with a given skill.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 836,
+          "t": [
+            2457.078,
+            2458.4689999999996
+          ],
+          "quote": "It makes the skill better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 838,
+          "t": [
+            2460.04,
+            2465.144
+          ],
+          "quote": "we've kind of gone from a one-off kind of prompt skill to a system",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 847,
+          "t": [
+            2489.336,
+            2492.398
+          ],
+          "quote": "Yeah, so if you look at this demo skill that I've made,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 849,
+          "t": [
+            2494.94,
+            2497.5919999999996
+          ],
+          "quote": "the skill has step-by-steps that it's running through.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 851,
+          "t": [
+            2502.285,
+            2503.5627777777777
+          ],
+          "quote": "It's reading the skill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 863,
+          "t": [
+            2531.86,
+            2536.907
+          ],
+          "quote": "but the skill itself had the boundaries of this type of prototype,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 933,
+          "t": [
+            2745.541,
+            2749.096555555556
+          ],
+          "quote": "Whereas in a prompt or a skill, you say, never share a password.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 948,
+          "t": [
+            2788.263,
+            2791.957
+          ],
+          "quote": "I'd say, a straight skill because it's not necessarily looping as much.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1319,
+          "t": [
+            3884.927,
+            3889.39
+          ],
+          "quote": "How do you personally find the right time to do this, build this skill set?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gate",
+      "type": "concept",
+      "role": "concept",
+      "name": "闸门 (gate)",
+      "file": "闸门",
+      "primary": true,
+      "how_described": "本集说闸门几乎总是循环中最重要的部分，要尽可能做成确定性的（测试、检查等可机器判定的标准）；产品工作难就难在闸门是客户，本集用合成客户来充当第一道闸门。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            751.767,
+            753.9590000000001
+          ],
+          "quote": "Then there's usually a gate if you can have it,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            824.204,
+            827.056
+          ],
+          "quote": "So generally what I would do is if it passes the gate,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            909.7,
+            914.0250000000001
+          ],
+          "quote": "the gate, writing an artifact, this all works pretty efficiently if it's code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            914.075,
+            918.718
+          ],
+          "quote": "But what do you do when you need to get like the gate is a human or a customer",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            944.372,
+            947.142
+          ],
+          "quote": "And a lot of times it's because you're missing a clear gate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            948.813,
+            952.3040000000001
+          ],
+          "quote": "there's not a clear defined gate that you can quickly iterate on",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            990.966,
+            995.008
+          ],
+          "quote": "pull stuff out and really more efficiently build that gate to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1024.837,
+            1028.477
+          ],
+          "quote": "The hard part of the loop is going to be validating that it passed the gate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1223.339,
+            1225.702
+          ],
+          "quote": " You need a gate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1300.283,
+            1305.166
+          ],
+          "quote": "And if you try to gate that too much, it's not going to scale with the speed of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 809,
+          "t": [
+            2391.329,
+            2394.712
+          ],
+          "quote": "basically we had the human gate and then we gave it feedback and",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prototype",
+      "type": "concept",
+      "role": "concept",
+      "name": "原型 (prototype)",
+      "file": "原型",
+      "primary": true,
+      "how_described": "本集现场演示 AI 在几分钟内构建出三个不同类型的原型变体（极简版、全功能版、创意版），任何人都能拿着原型去和客户聊，以快速测试大量想法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            931.086,
+            935.9193333333334
+          ],
+          "quote": "You can generate ideas faster than ever, prototype them, even build them in some cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1028.947,
+            1031.069
+          ],
+          "quote": "So where did this prototype come from?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1043.776,
+            1045.487
+          ],
+          "quote": "Like, why did it know to start a prototype?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1096.22,
+            1101.348
+          ],
+          "quote": "an iOS prototype, an Android one, port components, pull requests, run content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1181.87,
+            1185.502
+          ],
+          "quote": "Instantly, anyone can build a prototype and go talk to a customer about it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1204.495,
+            1207.096
+          ],
+          "quote": "a customer inspect the prototype through AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 856,
+          "t": [
+            2515.576,
+            2521.264
+          ],
+          "quote": "What I said is create a crew schedule prototype for a contractor in a product like JobNimbus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 863,
+          "t": [
+            2531.86,
+            2536.907
+          ],
+          "quote": "but the skill itself had the boundaries of this type of prototype,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 871,
+          "t": [
+            2558.344,
+            2562.836
+          ],
+          "quote": "We just spend a little bit more time kind of refining the context into the prototype",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hooks",
+      "type": "concept",
+      "role": "concept",
+      "name": "钩子 (hooks)",
+      "file": "钩子",
+      "primary": true,
+      "how_described": "本集介绍的 Claude hooks：在会话结束等时点强制触发机制，可用于闭环改进技能；工具 hooks 还能确定性地拦截 rm-rf 或分享凭证等危险操作，比提示词约定更可靠。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 471,
+          "t": [
+            1341.947,
+            1344.57
+          ],
+          "quote": "if you don't use Claude as much, it's doing what they call hooks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 787,
+          "t": [
+            2332.844,
+            2336.765
+          ],
+          "quote": "And so what I've seen a lot of people do is build in hooks,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 790,
+          "t": [
+            2344.507,
+            2347.5769999999998
+          ],
+          "quote": "And that's something you can build in claw that's called clawed hooks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 875,
+          "t": [
+            2567.899,
+            2571.184
+          ],
+          "quote": "What other loops and hooks should PMs be building?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 901,
+          "t": [
+            2634.512,
+            2636.0829999999996
+          ],
+          "quote": "And also, what hooks do I need?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 902,
+          "t": [
+            2636.133,
+            2640.884
+          ],
+          "quote": "Hooks that I find useful is one I did already talk a little bit about, which is like a post.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 910,
+          "t": [
+            2680.565,
+            2683.028
+          ],
+          "quote": " Other hooks are like startup hooks that are useful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 914,
+          "t": [
+            2691.698,
+            2695.0719999999997
+          ],
+          "quote": "And then as you're in the work, you can actually set up tool hooks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 931,
+          "t": [
+            2742.4,
+            2743.561
+          ],
+          "quote": " Code through hooks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 938,
+          "t": [
+            2761.05,
+            2764.913
+          ],
+          "quote": " So you create a bunch of safety-related hooks, it sounds like.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1004,
+          "t": [
+            2943.887,
+            2949.15
+          ],
+          "quote": "So I think I got a good sense of what loops are, what hooks are, when I need to use them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1007,
+          "t": [
+            2955.773,
+            2958.9396666666667
+          ],
+          "quote": "what engineering hooks should be out there, and then PMs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "builder",
+      "type": "concept",
+      "role": "concept",
+      "name": "构建者 (builder)",
+      "file": "构建者",
+      "primary": true,
+      "how_described": "本集认为 PM、设计、工程正在融合成构建者，但比大家想的慢；技能比以往更重要，正因如此借助 AI 能更快跨域提升；JobNimbus 靠黑客马拉松招到了这类人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            47.47,
+            51.903000000000006
+          ],
+          "quote": "designer, and engineer be aspiring to upskill themselves into a product builder?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2079.598,
+            2084.523
+          ],
+          "quote": "That's exactly what Product Faculty's AI Builder Fellowship gets you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 719,
+          "t": [
+            2116.133,
+            2120.415
+          ],
+          "quote": "help you master Frontier AI skills to become an AI native product builder",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 728,
+          "t": [
+            2149.549,
+            2152.852
+          ],
+          "quote": " Join the AI Builder Fellowship at productfaculty.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1223,
+          "t": [
+            3599.681,
+            3604.181
+          ],
+          "quote": "it's really more coming together and what people might be calling like a builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1225,
+          "t": [
+            3607.184,
+            3610.225
+          ],
+          "quote": "It's not like some people want to act like today everyone's a builder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1267,
+          "t": [
+            3725.561,
+            3727.521
+          ],
+          "quote": "And he's a builder,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1279,
+          "t": [
+            3764.965,
+            3767.966
+          ],
+          "quote": "So I'm super pro this builder mentality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1285,
+          "t": [
+            3783.671,
+            3784.5629999999996
+          ],
+          "quote": "a product builder?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1296,
+          "t": [
+            3815.519,
+            3817.6899999999996
+          ],
+          "quote": "And if you can become a product builder,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "type": "concept",
+      "role": "concept",
+      "name": "Git",
+      "file": "Git",
+      "primary": false,
+      "how_described": "本集说 Git 是 Tyler 处理技能版本管理的主要方式，可以提交并回到过去，不过他现在更多是向前修复而不是回滚。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            534.857,
+            537.961
+          ],
+          "quote": " Yeah, for me, Git is the main way I handle that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            544.09,
+            545.973
+          ],
+          "quote": "Git lets you version control these things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            548.136,
+            551.711
+          ],
+          "quote": "hey, your Git is unclean, what do you Oh, here he goes, I pulled it up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            556.488,
+            556.948
+          ],
+          "quote": "like Git,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            560.834,
+            561.6650000000001
+          ],
+          "quote": "on this than Git.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            561.715,
+            564.7700000000001
+          ],
+          "quote": "But with Git, I can kind of commit and move back in time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 913,
+          "t": [
+            2687.433,
+            2691.4885555555556
+          ],
+          "quote": "where it's at on the Git, like is it which branch, is it the main branch?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "concept",
+      "role": "concept",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集顺带提到 Figma 曾是科技界的宠儿，但 AI 确实伤害了它，很多人开始 vibe coding 内部设计工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1195,
+          "t": [
+            3524.185,
+            3527.596
+          ],
+          "quote": "Like they were doing a lot of that anyways through like Figma.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1197,
+          "t": [
+            3528.347,
+            3531.3779999999997
+          ],
+          "quote": "Figma was like a darling in tech and I think that AIs really hurt them",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "type": "concept",
+      "role": "concept",
+      "name": "Linear",
+      "file": "Linear",
+      "primary": false,
+      "how_described": "本集提到 JobNimbus 用 Linear 做项目管理，AI 会为新人创建 Linear 看板；项目管理循环会从 Linear/Jira 拉工单、汇总风险和停滞项。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            77.027,
+            82.308
+          ],
+          "quote": "Airtable, Speechify, Descript, Magic Patterns, Linear, Dovetail, Arise, and Mobbin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 493,
+          "t": [
+            1405.397,
+            1408.558
+          ],
+          "quote": "We use linear for our project management, so it creates them a linear board.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 891,
+          "t": [
+            2617.028,
+            2619.049
+          ],
+          "quote": "Pull tickets from linear, Jira,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 942,
+          "t": [
+            2769.017,
+            2772.99
+          ],
+          "quote": "but there is one around work in progress and things happening in linear.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1403,
+          "t": [
+            4105.53,
+            4110.494
+          ],
+          "quote": "Airtable, Speechify, Descript, Magic Patterns, Linear, Dovetail, Arise, and Mobbin.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "quality loop",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "synthetic customer",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

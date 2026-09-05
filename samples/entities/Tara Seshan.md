@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Blum]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]] [[Roblox CEO]]
+[[Tyler Folkman]] [[Daniel Blum]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"OpenAI":83,"Codex":36,"Work":1,"ChatGPT":49,"智能体":1,"知识工作":2,"Sites":1,"Stripe":26,"写作即思考":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":66,"OpenAI":84,"Codex":37,"Work":1,"ChatGPT":49,"智能体":1,"知识工作":2,"Sites":1,"Stripe":26,"写作即思考":1}</script>
 
 <script>
 (function(){

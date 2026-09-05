@@ -193,8 +193,8 @@ Ben 的思路是向人类组织学习：公司就是最大规模的人类智能�
 **换个口味**
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Claude、智能体 (agent)</span>
+- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Claude Code、智能体 (agent)</span>
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|Opus 5：神经质但干活最强的评测]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Claude、智能体 (agent)、Claude Code</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、对齐 (alignment)</span>
 
 </div>
 </div>
