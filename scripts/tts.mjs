@@ -29,18 +29,30 @@ export const AZURE_MP3_FORMAT = "audio-24khz-48kbitrate-mono-mp3"; // Azure fall
 
 // ── C37 · MiMo 主路(vendored peiyin)────────────────────────────────────────
 export const PEIYIN_BIN = resolve(ROOT, "scripts/vendor/peiyin.py");
-export const MIMO_VOICE = "mimo_default"; // 用户 2026-08-22 听样品拍板的那把嗓
+export const MIMO_VOICE = "mimo_default"; // 用户 2026-08-22 听样品拍板的那把嗓(现为轮换表的兜底/首项)
+// 2026-09-05 用户「找 3–4 个音色循环用」:按集 id 确定性轮换(同一集重跑永远同一把嗓,不随重试抖动)。
+// 名单待用户听样品拍板后填定;存量不重配(ADR 0014 修订:缓存只按 source_sha256 判陈旧),只影响新合成的集。
+export const MIMO_VOICES = ["茉莉", "冰糖", "苏打", "白桦"]; // 用户 2026-09-05 听 9 样品拍板,4 把随机(按集确定性轮换=跨集随机、同集不变声)
+/** 纯逻辑:集 id → 轮换表里的一把嗓。FNV-1a 取模,确定性;表为空/非法回落 MIMO_VOICE。 */
+export function pickMimoVoice(id, voices = MIMO_VOICES) {
+  const pool = Array.isArray(voices) ? voices.filter((v) => typeof v === "string" && v.trim()) : []; // 空串/非字符串项剔除(GLM 006[3]:--voice '' = 整集回落 edge)
+  if (!pool.length) return MIMO_VOICE;
+  const str = String(id ?? "");
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; } // 逐 UTF-16 单元 = 标准 FNV-1a(GLM 006[4])
+  return pool[h % pool.length];
+}
 export const MIMO_TIMEOUT_MS = 40 * 60_000; // 一集串行实测 ~13-15 分;40 分卡死视为失败回落 edge,不吃光预算
 /** 只有拿得到 key 才试 MiMo(本地开发/无 Secret 环境自动全走 edge,行为与 C37 前一致) */
 export const mimoEnabled = (env = process.env) => Boolean(env.PEIYIN_MIMO_KEY);
 /** peiyin CLI 参数(纯函数可单测):stdin 喂全文,内部自行 ≤200 字切块+剪尾+重试+拼接 */
-export function peiyinArgs(outPath) {
-  return [PEIYIN_BIN, "--voice", MIMO_VOICE, "-f", "-", "--chunk", "--no-fallback", "-o", outPath];
+export function peiyinArgs(outPath, voice = MIMO_VOICE) {
+  return [PEIYIN_BIN, "--voice", voice, "-f", "-", "--chunk", "--no-fallback", "-o", outPath];
 }
 /** 真跑 vendored peiyin(副作用薄壳;fail 就抛,由编排层决定回落) */
-export function runPeiyinMimo(text, outPath, { spawnImpl = spawn, timeoutMs = MIMO_TIMEOUT_MS } = {}) {
+export function runPeiyinMimo(text, outPath, { spawnImpl = spawn, timeoutMs = MIMO_TIMEOUT_MS, voice = MIMO_VOICE } = {}) {
   return new Promise((res, rej) => {
-    const p = spawnImpl("python3", peiyinArgs(outPath), { stdio: ["pipe", "ignore", "pipe"] });
+    const p = spawnImpl("python3", peiyinArgs(outPath, voice), { stdio: ["pipe", "ignore", "pipe"] });
     let err = "";
     let settled = false; // GLM 006[3]:超时 rej 与自然 close 只结算一次,kill 竞态不双结算
     const settle = (fn, v) => { if (!settled) { settled = true; fn(v); } };
@@ -371,7 +383,7 @@ const defaultDeps = {
   mkdtemp: (pfx) => mkdtempSync(join(tmpdir(), pfx)),
   rmrf: (d) => rmSync(d, { recursive: true, force: true }),
   synth: (text, o) => synthesizeChunk(text, o),
-  synthMimo: (text, outPath) => runPeiyinMimo(text, outPath),
+  synthMimo: (text, outPath, voice) => runPeiyinMimo(text, outPath, { voice }),
   mimoOn: () => mimoEnabled(),
   concat: (parts, out) => runFfmpegConcat(parts, out),
   probe: (p) => ffprobeDuration(p),
@@ -412,14 +424,15 @@ export async function synthesizeEpisode(
     const mimoTmp = io.mkdtemp("tts-mimo-");
     try {
       const tmpOut = io.join(mimoTmp, "audio.mp3");
-      await io.synthMimo(plan.text, tmpOut);
+      const mimoVoice = pickMimoVoice(id); // 按集 id 确定性轮换(2026-09-05)
+      await io.synthMimo(plan.text, tmpOut, mimoVoice);
       const duration = await io.probe(tmpOut);
       if (!(duration > 0)) throw new Error(`合成后时长 ${duration}(疑空壳)`);
       io.ensureDir(dir);
       io.writeBytes(audioPath, readFileSync(tmpOut));
       const meta = {
         id,
-        voice: MIMO_VOICE,
+        voice: mimoVoice,
         engine: "mimo-peiyin",
         duration_sec: duration,
         source_sha256: plan.hash,

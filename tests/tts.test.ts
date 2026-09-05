@@ -22,6 +22,8 @@ import {
   DEFAULT_VOICE,
   AZURE_MP3_FORMAT,
   MIMO_VOICE,
+  MIMO_VOICES,
+  pickMimoVoice,
   mimoEnabled,
   peiyinArgs,
 } from "../scripts/tts.mjs";
@@ -457,7 +459,7 @@ describe("C37 · MiMo 主路与回落(注入假 deps,不真跑 python)", () => {
     expect(r.engine).toBe("mimo-peiyin");
     const meta = JSON.parse(readFileSync(join(dir, "audio.meta.json"), "utf8"));
     expect(meta.engine).toBe("mimo-peiyin");
-    expect(meta.voice).toBe(MIMO_VOICE);
+    expect(MIMO_VOICES).toContain(meta.voice); // 2026-09-05 起按集轮换,记的是实际用的那把嗓
     expect(meta.source_sha256).toBe(sourceHash(modalDigest));
     rmSync(dir, { recursive: true, force: true });
   });
@@ -507,5 +509,45 @@ describe("C37 · MiMo 主路与回落(注入假 deps,不真跑 python)", () => {
   it("★ mimoEnabled:纯看 env 有没有 PEIYIN_MIMO_KEY", () => {
     expect(mimoEnabled({ PEIYIN_MIMO_KEY: "sk-x" } as any)).toBe(true);
     expect(mimoEnabled({} as any)).toBe(false);
+  });
+});
+
+describe("MiMo 音色轮换(用户 2026-09-05「找 3–4 个音色循环用」)", () => {
+  it("★★★ 确定性:同一集 id 永远同一把嗓(重跑/重试不抖动)", () => {
+    const id = "2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model";
+    expect(pickMimoVoice(id)).toBe(pickMimoVoice(id));
+    expect(MIMO_VOICES).toContain(pickMimoVoice(id));
+  });
+  it("★★★ 真轮换:拿仓库里真实的集 id(≥100 个)跑,表里每一把嗓都被用到(不是只会挑一把)", () => {
+    const ids = readdirSync(new URL("../data/episodes/", import.meta.url)).filter((d) => /^\d{4}-\d{2}-\d{2}-/.test(d));
+    expect(ids.length).toBeGreaterThan(100);
+    const used = new Set(ids.map((id) => pickMimoVoice(id)));
+    for (const v of MIMO_VOICES) expect(used.has(v), v).toBe(true); // 每把都轮到;不硬钉比例(GLM 006[5])
+  });
+  it("★★ 表里有空串/非字符串项 → 剔除后再轮换,绝不把 --voice '' 传给 CLI(那会整集回落 edge)", () => {
+    const out = new Set(["a", "b", "c", "d", "e", "f"].map((id) => pickMimoVoice(id, ["", null as any, "茉莉", 42 as any])));
+    expect([...out]).toEqual(["茉莉"]);
+  });
+  it("★★ 表为空/非法 → 回落 MIMO_VOICE(不炸、不合成成空嗓)", () => {
+    expect(pickMimoVoice("x", [])).toBe(MIMO_VOICE);
+    expect(pickMimoVoice("x", null as any)).toBe(MIMO_VOICE);
+    expect(pickMimoVoice(undefined as any)).toBeTruthy();
+  });
+  it("★★ 轮换表里的名字都是 vendored peiyin 认识的 MiMo 内置嗓(名字错 = 整集回落 edge)", () => {
+    const py = readFileSync(new URL("../scripts/vendor/peiyin.py", import.meta.url), "utf8");
+    const m = py.match(/MIMO_BUILTINS = \{([^}]*)\}/);
+    const builtins = new Set((m?.[1] ?? "").split(",").map((s) => s.trim().replace(/^"|"$/g, "")).filter(Boolean));
+    for (const v of MIMO_VOICES) expect(builtins.has(v), v).toBe(true);
+  });
+  it("★★ peiyinArgs 把指定嗓传给 CLI;不传时仍是默认嗓(旧口径不变)", () => {
+    const a = peiyinArgs("/tmp/o.mp3", "茉莉");
+    expect(a[a.indexOf("--voice") + 1]).toBe("茉莉");
+    expect(peiyinArgs("/tmp/o.mp3")[peiyinArgs("/tmp/o.mp3").indexOf("--voice") + 1]).toBe(MIMO_VOICE);
+  });
+  it("★★★ 源码锚:主路真把 pickMimoVoice(id) 传进 synthMimo 并记进 meta.voice(不接上 = 轮换是摆设)", () => {
+    const src = readFileSync(new URL("../scripts/tts.mjs", import.meta.url), "utf8");
+    expect(src).toContain("const mimoVoice = pickMimoVoice(id)");
+    expect(src).toContain("io.synthMimo(plan.text, tmpOut, mimoVoice)");
+    expect(src).toContain("voice: mimoVoice,");
   });
 });
