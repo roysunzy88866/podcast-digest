@@ -116,9 +116,9 @@ Chai 不自己研发药物,而是把模型作为基础设施,卖给礼来、诺�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:OpenAI · 同概念:缩放定律 (scaling laws)</span>
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|AI 如何把工程问题变回资本问题]]<span class="pd-rz">同公司:OpenAI · 同概念:缩放定律 (scaling laws)</span>
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同概念:苦涩的教训 (bitter lesson)</span>
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:OpenAI</span>
 
 </div>
 <div class="pd-ex">

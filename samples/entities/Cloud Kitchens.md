@@ -25,7 +25,7 @@ unlisted: true
 
 [[Travis Kalanick]] · [[Ben Horowitz]] · [[Uber]] · [[a16z]] · [[Atoms]] · [[Pronto]] · [[DoorDash]] · [[Waymo]] · [[Tesla]] · [[工业 AI]]
 
-<script type="application/json" class="pd-epn">{"Travis Kalanick":2,"Ben Horowitz":3,"Uber":8,"a16z":11,"Atoms":2,"Pronto":2,"DoorDash":6,"Waymo":12,"Tesla":7,"工业 AI":3}</script>
+<script type="application/json" class="pd-epn">{"Travis Kalanick":2,"Ben Horowitz":3,"Uber":8,"a16z":11,"Atoms":2,"Pronto":2,"DoorDash":6,"Waymo":12,"Tesla":8,"工业 AI":3}</script>
 
 <script>
 (function(){

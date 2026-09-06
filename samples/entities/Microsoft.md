@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Microsoft</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>23</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(35:16起):本集举例说明历史：当年微软靠 Windows 的分发优势打败了网景浏览器，并探讨模型是否会像 Windows 一样在堆栈中拥有垄断杠杆。
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(00:28起):本集将其描述为正经历第四次平台变迁的科技巨头，并提出应将 AI 视为生态系统而非单一模型，同时正以惊人速度扩建 Azure 算力。
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(01:20起):Fiona 职业生涯早期工作了 11 年的公司；她在那里首次接触带调试器的 IDE，经历了从光盘硬截止日期到云端在线发版的转变。
+- **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(16:09起):本集举 Microsoft 为先例：从本地永久授权转向更低利润率的云模式后，之后十年股价相当不错，说明软件公司能应对利润率下滑。
 - **[[2026-07-15-rework-don-39-t-write-it-down|《别记客户反馈：37signals 的产品决策逻辑》]]**(05:43起):本集说它把 AI 功能硬塞进 MS Paint 等产品各处，不合适且让产品变笨重，最后不得不拔掉
 - **[[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]]**(24:32起):本集提到其 CEO Satya 发了一篇关于 token 成本的长文，获得了几千万浏览量，精准切中了所有人当下最关心的话题并推进了公司观点。
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(06:45起):本集提及它正在使用和测试中国的开源模型(如 Kimi),甚至可能取代对 OpenAI 和 Anthropic 的一部分使用。
@@ -46,12 +47,13 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*22 集*
+*23 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司(提及)
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为被讨论公司
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为被讨论公司(提及)
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为被讨论公司(提及)
 - [[2026-07-15-rework-don-39-t-write-it-down|《别记客户反馈：37signals 的产品决策逻辑》]] — 作为被讨论公司(提及)
 - [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]] — 作为被讨论公司(提及)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司(提及)
@@ -77,7 +79,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[NVIDIA]] · [[Google]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[SpaceX]] · [[AWS]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":103,"智能体":1,"OpenAI":90,"NVIDIA":29,"Google":35,"Meta":27,"Amazon":10,"Apple":14,"SpaceX":12,"AWS":10}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":106,"智能体":1,"OpenAI":92,"NVIDIA":30,"Google":36,"Meta":28,"Amazon":11,"Apple":14,"SpaceX":12,"AWS":10}</script>
 
 <script>
 (function(){

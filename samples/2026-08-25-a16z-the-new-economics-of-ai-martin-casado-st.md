@@ -144,9 +144,9 @@ AI 最近在数学上的进展引发了很多兴奋，但最有意思的现象�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI、Microsoft · 同概念:缩放定律 (scaling laws)</span>
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Google、Microsoft、OpenAI、Amazon</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Anthropic、Google、Microsoft、OpenAI、Amazon</span>
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI、Microsoft</span>
 
 </div>
 <div class="pd-ex">

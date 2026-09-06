@@ -80,7 +80,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":90,"Cursor":47,"智能体":1,"护城河":8,"编码智能体":3,"Jen Ka":1,"Lenny":67,"Anthropic":103,"a16z":11,"Salesforce":13}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":92,"Cursor":48,"智能体":1,"护城河":8,"编码智能体":3,"Jen Ka":1,"Lenny":67,"Anthropic":106,"a16z":11,"Salesforce":14}</script>
 
 <script>
 (function(){

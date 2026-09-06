@@ -151,8 +151,8 @@ Alex 接得干脆：你说 AI 现在不会为互动优化——但它最终会�
 **换个口味**
 
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:LLM、幻觉 (hallucination)</span>
+- [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|Benedict Evans:AI 价值会落在哪一层?]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:LLM</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:LLM</span>
-- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”]]<span class="pd-rz">同公司:ChatGPT · 同概念:LLM、智能体 (agents)</span>
 
 </div>
 </div>

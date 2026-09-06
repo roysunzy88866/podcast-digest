@@ -25,7 +25,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[Sofia Puccini]] · [[Steven Sinofsky]] · [[监管俘获]] · [[开源]] · [[bank shots]] · [[AT&T]] · [[Anthropic]] · [[regulation]] · [[幻觉]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Sofia Puccini":4,"Steven Sinofsky":2,"监管俘获":3,"开源":15,"bank shots":1,"AT&T":2,"Anthropic":103,"regulation":1,"幻觉":4}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Sofia Puccini":4,"Steven Sinofsky":2,"监管俘获":3,"开源":15,"bank shots":1,"AT&T":2,"Anthropic":106,"regulation":1,"幻觉":4}</script>
 
 <script>
 (function(){

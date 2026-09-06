@@ -134,7 +134,7 @@ Jeetu 解释了一个常识：哪怕有了 [[NVIDIA|NVIDIA]] 或 AMD 造的 GPU�
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同嘉宾:Lenny · 同公司:NVIDIA · 同概念:ChatGPT</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同概念:ChatGPT、主观能动性 (agency)</span>
-- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同嘉宾:Lenny · 同概念:ChatGPT</span>
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:NVIDIA、Cisco · 同概念:ChatGPT</span>
 
 </div>
 </div>

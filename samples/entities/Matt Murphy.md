@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":12,"Anthropic":103,"Menlo":1,"OpenAI":90,"Lovable":14,"Lagura":1,"OpenRouter":9,"Eleven Labs":5,"ChatGPT":50,"Cursor":47}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":13,"Anthropic":106,"Menlo":1,"OpenAI":92,"Lovable":14,"Lagura":1,"OpenRouter":9,"Eleven Labs":5,"ChatGPT":51,"Cursor":48}</script>
 
 <script>
 (function(){

@@ -7,17 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TPU">TP</div><div class="pi"><h1 class="pt">TPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TPU">TP</div><div class="pi"><h1 class="pt">TPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(08:25起):本集说 TPU 是今天唯一能替代 NVIDIA 训练的芯片、可能也是最好的推理替代品，Google 花了三代才做对；若 Google 开始对外卖 TPU，未来三年会有一批高知名度 ASIC 项目被取消。
 - **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(00:24起):本集把它说成：2013 年 Jeff 做「算盘数学」算出 Google 语音识别扛不住 CPU 开销，于是造了极度专用于低精度密集线性代数的芯片，几年后能效比 CPU/GPU 高 30-80 倍、延迟低 20-30 倍。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(38:37起):本集把它说成:Google 自研的、专为机器学习定制的优质芯片,被 Google 囤积供自家用
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为概念
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]] — 作为概念
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念
 
@@ -25,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Google]] · [[Jeff Dean]] · [[Alex]] · [[智能体]] · [[David Cahn]] · [[多智能体系统]] · [[AGI]] · [[专用推理硬件]] · [[资本支出]] · [[推理]]
+[[Google]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Gemini]] · [[SaaS]] · [[Meta]] · [[Amazon]] · [[Microsoft]] · [[Gavin Baker]]
 
-<script type="application/json" class="pd-epn">{"Google":35,"Jeff Dean":1,"Alex":4,"智能体":1,"David Cahn":1,"多智能体系统":1,"AGI":18,"专用推理硬件":1,"资本支出":4,"推理":4}</script>
+<script type="application/json" class="pd-epn">{"Google":36,"NVIDIA":30,"OpenAI":92,"Anthropic":106,"Gemini":6,"SaaS":13,"Meta":28,"Amazon":11,"Microsoft":23,"Gavin Baker":1}</script>
 
 <script>
 (function(){

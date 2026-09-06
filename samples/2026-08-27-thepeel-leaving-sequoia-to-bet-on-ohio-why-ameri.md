@@ -142,7 +142,7 @@ Chris 认为风投行业正在经历他职业生涯里最严重的大洗牌。�
 
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同概念:LLM、产品市场匹配 (product market fit)</span>
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|一个人六个月做出八千万美元公司]]<span class="pd-rz">同概念:LLM、产品市场匹配 (product market fit)</span>
-- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同公司:Anthropic · 同概念:产品市场匹配 (product market fit)</span>
+- [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|Benedict Evans:AI 价值会落在哪一层?]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
 
 </div>
 <div class="pd-ex">

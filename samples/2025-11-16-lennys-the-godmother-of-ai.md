@@ -108,7 +108,7 @@ jsonLd: |
 
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]]<span class="pd-rz">同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)</span>
 - [[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model|Atlas:让 AI 预测世界的下一个视角]]<span class="pd-rz">同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)</span>
-- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]]<span class="pd-rz">同公司:NVIDIA · 同概念:GPU、人工智能 (artificial intelligence)、深度学习 (deep learning)</span>
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:ChatGPT、Google、NVIDIA · 同概念:GPU</span>
 
 </div>
 <div class="pd-ex">

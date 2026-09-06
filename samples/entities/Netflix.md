@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Google]] · [[Lenny]] · [[Victor Riparbelli]] · [[Justine Moore]] · [[Elizabeth Stone]] · [[Synthesia]] · [[生成式媒体]] · [[InterPositive]] · [[虚拟形象]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Google":35,"Lenny":67,"Victor Riparbelli":1,"Justine Moore":1,"Elizabeth Stone":1,"Synthesia":1,"生成式媒体":1,"InterPositive":1,"虚拟形象":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Google":36,"Lenny":67,"Victor Riparbelli":1,"Justine Moore":1,"Elizabeth Stone":1,"Synthesia":1,"生成式媒体":1,"InterPositive":1,"虚拟形象":2}</script>
 
 <script>
 (function(){

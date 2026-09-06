@@ -1,0 +1,851 @@
+{
+  "episode_id": "2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h",
+  "podcast": "Unsupervised Learning",
+  "date": "2026-07-16",
+  "tags": [
+    "AI 行业分析",
+    "基础模型",
+    "技术史类比",
+    "企业落地",
+    "消费级 AI"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "jacob-efron",
+      "type": "person",
+      "role": "host",
+      "name": "Jacob Efron",
+      "file": "Jacob Efron",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            28.189,
+            36.234
+          ],
+          "quote": "I'm Jacob Efron from Redpoint, and this is Unsupervised Learning, a podcast where we probe the sharpest minds in AI about what's happening in the ecosystem today and where the future is headed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1183,
+          "t": [
+            4396.691,
+            4407.136
+          ],
+          "quote": "I'm Jacob Efron, and this has been Unsupervised Learning, a podcast where I get to talk to the smartest people in AI and ask them tons of questions about what's happening with models and what it means for businesses in the world.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benedict-evans",
+      "type": "person",
+      "role": "cohost",
+      "name": "Benedict Evans",
+      "file": "Benedict Evans",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            36.594,
+            39.096
+          ],
+          "quote": "Today, we had an awesome conversation with Benedict Evans.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 去年下半年选择在商品化基础模型之上什么都试——浏览器、社交视频、应用商店、购物、广告;Evans 对 Sam Altman 表示同情:要同时自己建基础设施、芯片、分发和产品,'就像你是 Bill Gates,得在 1980 年同时发明 PC、企业软件和宽带网络'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            609.321,
+            615.883
+          ],
+          "quote": "And that gets you, like, then, so you set that whole argument aside and say, right, OpenAI kind of looks like Nescape.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            1943.443,
+            1949.207
+          ],
+          "quote": "I'm still unsure whether you think they'll actually be, you know, whether these long-term, as Anthropic and OpenAI go public will be like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 729,
+          "t": [
+            2799.395,
+            2803.759
+          ],
+          "quote": "How do you think about, of course, OpenAI and Anthropic don't have infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 754,
+          "t": [
+            2871.221,
+            2878.022
+          ],
+          "quote": "If you are OpenAI or Anthropic, you don't have a legacy business, you don't have a way to make it a feature, you don't have distribution, you don't have infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 756,
+          "t": [
+            2883.283,
+            2889.625
+          ],
+          "quote": "And so I think what OpenAI did second half of last year was, what can we build on top of a commodity foundation model?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 786,
+          "t": [
+            2957.69,
+            2973.637
+          ],
+          "quote": "But if you're running a model company, I mean obviously OpenAI has had all sorts of like weird political stuff going on, but like you're shepherding your researchers, you're shepherding capital, you're shepherding infrastructure, you're herding cats in all sorts, shepherd is the wrong word, you're herding cats in all sorts of different directions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 805,
+          "t": [
+            3070.395,
+            3074.918
+          ],
+          "quote": "The thing that sort of fascinated me about OpenAI in the last couple of days is the new app launches.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 991,
+          "t": [
+            3740.65,
+            3742.613
+          ],
+          "quote": "If you've got a job at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            4118.263,
+            4120.425
+          ],
+          "quote": "I mean, this was the conversation about OpenAI last year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1094,
+          "t": [
+            4122.807,
+            4125.789
+          ],
+          "quote": "I mean, I think just like last week, OpenAI gave up on the web browser.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1130,
+          "t": [
+            4236.064,
+            4237.405
+          ],
+          "quote": "This is before OpenAI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 资本更少、更专注,误打误撞发现了编程这条路,然后所有人一拥而上;并讨论了 Claude 专注把编程做到极致是否构成竞争领先。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 511,
+          "t": [
+            1943.443,
+            1949.207
+          ],
+          "quote": "I'm still unsure whether you think they'll actually be, you know, whether these long-term, as Anthropic and OpenAI go public will be like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 729,
+          "t": [
+            2799.395,
+            2803.759
+          ],
+          "quote": "How do you think about, of course, OpenAI and Anthropic don't have infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 754,
+          "t": [
+            2871.221,
+            2878.022
+          ],
+          "quote": "If you are OpenAI or Anthropic, you don't have a legacy business, you don't have a way to make it a feature, you don't have distribution, you don't have infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 766,
+          "t": [
+            2899.336,
+            2903.899
+          ],
+          "quote": "If you're Anthropic, less money, more focused, more worried about evil stuff, fine, whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 799,
+          "t": [
+            3041.781,
+            3049.866
+          ],
+          "quote": "If you're Anthropic and you had less capital and you're more worried about like takeoff and evil stuff happening, then it made more sense just to focus in narrowly on coding.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tsmc",
+      "type": "company",
+      "role": "company",
+      "name": "TSMC",
+      "file": "TSMC",
+      "primary": false,
+      "how_described": "本集用 TSMC 做价值链类比:它垄断半导体尖端制程、净利润是苹果的一半、是非常好的生意,但'你不会为 TSMC 写应用'——没有一个拥有整条栈的玩家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 513,
+          "t": [
+            1955.377,
+            1957.722
+          ],
+          "quote": "TSMC has a monopoly on the cutting edge of semis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            1959.626,
+            1961.069
+          ],
+          "quote": "You don't write apps for TSMC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1971.368,
+            1972.71
+          ],
+          "quote": "Uber does not write apps for TSMC.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集的核心分析对象:Evans 指出 LLM 没有网络效应,所以大概率不会像 Sam Altman 说的那样变成 Windows;并用 LLM 讨论能力参差、'大多数人可能会怎么做'的平均值问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 929,
+          "t": [
+            3488.87,
+            3495.573
+          ],
+          "quote": "How much of what you do with an LLM is stuff that you're already doing and you realize, ah, I could do that much better with this?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "foundation-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础模型 (foundation models)",
+      "file": "基础模型",
+      "primary": true,
+      "how_described": "本集把它比作半导体:尖端晶圆厂成本每几年翻倍、前沿公司数量会收窄;并讨论基础模型公司最终估值与价值捕获——赚大钱但不会吃掉整条价值链。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            20.301,
+            24.523
+          ],
+          "quote": "Given this discussion we've had on the foundation models, would you be doing anything different in terms of, like, focus?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            46.4,
+            51.704
+          ],
+          "quote": "We talked about where value will accrue in AI, as well as what he thinks the ultimate valuations of the foundation models might look like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            272.869,
+            275.27
+          ],
+          "quote": "And foundation models look a little bit like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 509,
+          "t": [
+            1932.356,
+            1939.32
+          ],
+          "quote": "Like, you know, I think you've, you know, probably said, you know, the foundation models are, you know, I mean, I don't even take it as, like, not necessarily valuable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 717,
+          "t": [
+            2759.58,
+            2767.442
+          ],
+          "quote": "I mean, I guess, given this discussion we've had on the foundation models, like, if you were running one of these companies, like, would you be doing anything different in terms of, like, focus or, you know, what they're...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编程 (coding)",
+      "file": "AI 编程",
+      "primary": true,
+      "how_described": "本集说编程是唯一毫无疑问找到产品市场契合的场景:Anthropic 误打误撞发现编程管用后所有人涌向编程;原因之一是工具构建者本身就是开发者,之二在于代码有可规模化的验证、能跑几百万次。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            831.658,
+            832.679
+          ],
+          "quote": "And then the coding stuff starts to work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2035.138,
+            2036.6
+          ],
+          "quote": "What do you make of what's happened in the coding space?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2222.012,
+            2224.954
+          ],
+          "quote": "In the case of coding, the model, to some extent, is the product, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2283.123,
+            2288.927
+          ],
+          "quote": "You know, there's a couple of, like, things you can ask about the specificity of why is it that it's coding that worked?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 767,
+          "t": [
+            2905.1,
+            2906.501
+          ],
+          "quote": "Much more narrowly focused on coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 768,
+          "t": [
+            2906.961,
+            2908.782
+          ],
+          "quote": "Stumble into coding is something that works, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 769,
+          "t": [
+            2908.842,
+            2911.023
+          ],
+          "quote": "OK, everyone else now rushes towards coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 770,
+          "t": [
+            2911.103,
+            2916.407
+          ],
+          "quote": "It's like the scene in Monty Python with, you know, in Life of Brian with Jehovah, you know, like you're throwing rocks at coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 771,
+          "t": [
+            2917.467,
+            2917.767
+          ],
+          "quote": "Coding!",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 774,
+          "t": [
+            2923.733,
+            2928.138
+          ],
+          "quote": "I mean, part of the other thing we could have said about coding is coding is actually a pretty small industry.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 792,
+          "t": [
+            3010.483,
+            3014.124
+          ],
+          "quote": "So you could argue what Claude has done is focused on getting coding really, really good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 799,
+          "t": [
+            3041.781,
+            3049.866
+          ],
+          "quote": "If you're Anthropic and you had less capital and you're more worried about like takeoff and evil stuff happening, then it made more sense just to focus in narrowly on coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 800,
+          "t": [
+            3049.926,
+            3051.326
+          ],
+          "quote": "You know, we didn't know that coding was going to work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scaling",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力扩展 (scaling)",
+      "file": "算力扩展",
+      "primary": true,
+      "how_described": "本集说算力是当下唯一的护城河:只要 scaling 持续,就应该预期最前沿模型公司的数量像半导体那样收窄;若曲线慢下来则一切都会改变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 442,
+          "t": [
+            1673.882,
+            1679.425
+          ],
+          "quote": "As long as scaling continues, then you should sort of expect the number of cutting edge companies to shrink down.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": true,
+      "how_described": "本集反复用网络效应论证模型层格局:LLM 没有网络效应、当不了 Windows;模型公司自问'我们这里有通往网络效应的路径吗',并回顾社交、网约车当年靠执行赢得网络效应的历史。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            327.125,
+            331.387
+          ],
+          "quote": "Sam Altman said we're going to be like Windows, but LLMs don't have network effects.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 789,
+          "t": [
+            2992.856,
+            2994.517
+          ],
+          "quote": "Do we have a path to network effects here?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 832,
+          "t": [
+            3144.429,
+            3147.692
+          ],
+          "quote": "You can get very deterministic about, well, I want the network effects.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集把 AGI 会不会来当成古巴导弹危机里那位交易员的二元赌注:真发生了,我们有比中产失业更大的问题;没发生,就回来老实分析企业软件;并借 Anselm 的证明批评'把它定义为全能所以全能'的论证方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            492.117,
+            499.579
+          ],
+          "quote": "And, you know, if this stuff, like, if, you know, if AGI really does, you know, get a happen, an ASI, whatever, pick your acronym or sort concept.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1032.602,
+            1039.824
+          ],
+          "quote": "Even if you had a model that actually was AGI, whatever AGI means, and now people are trying to redefine AGI stuff that was working two years ago, but fine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1543.759,
+            1550.781
+          ],
+          "quote": "And the reason I mention it is if you define AGI as necessarily inevitable and necessarily going to kill us all, then AGI is necessarily going to kill us all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            1893.882,
+            1902.165
+          ],
+          "quote": "And then there's a horrible moment where you say, hey, maybe we should use Workday, which is like the ultimate test for AGI if it can navigate Workday successfully.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-software",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业软件 (enterprise software)",
+      "file": "企业软件",
+      "primary": true,
+      "how_described": "本集用大量篇幅讨论企业落地:大多数人不满足三件事——不是工具构建者、看不见工具要解决的问题、不在能动手构建的位置上;还有受监管的数据,你不能让人随手搭工具替换 SAP。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            506.42,
+            511.961
+          ],
+          "quote": "Otherwise, then, okay, let's worry about, let's try and work out what this means for enterprise software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            519.666,
+            531.474
+          ],
+          "quote": "There's some, all the shape that we're worrying about and the implications it would have for everything else, there's so much bigger fish to fry, if that's the case, that it's almost like, you probably wouldn't be writing about enterprise software in the context of which there's a rapid takeoff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1771.711,
+            1776.333
+          ],
+          "quote": "If you think about half of enterprise software, you look at it and you don't get it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2011.318,
+            2021.367
+          ],
+          "quote": "Now, you can turn around and say, yes, but Benedict, like, you'll just be able to go to Claude and say, invent 10 new enterprise software applications, and then go build them, and then go and work out the right way of building.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 738,
+          "t": [
+            2816.349,
+            2823.473
+          ],
+          "quote": "It's like you're Bill Gates and you've got to invent, you've got to build PCs and enterprise software and broadband networks in like 1985 or 1980.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 979,
+          "t": [
+            3675.625,
+            3697.13
+          ],
+          "quote": "I think one thing that occurred to me there, though, is that there's a sort of symmetry or an overlap between what an enterprise software company does, a vertical enterprise software particularly does, and what a consulting firm does, in that what their strategy consulting firm, management consulting, like Bain, BCG, McKinsey, and so on, what they're doing is they're kind of going and looking at your company and saying, you're kind of doing it like this.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "digital-transformation",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字化转型 (digital transformation)",
+      "file": "数字化转型",
+      "primary": true,
+      "how_described": "本集说企业 AI 落地的真正问题是'如何从结构上改变做事方式',而那就是以前叫数字化转型的庞大项目,是咨询公司存在的原因;'把数字化转型念三遍,就会有一位 Accenture 的合伙人从烟雾中出现'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 971,
+          "t": [
+            3644.669,
+            3646.45
+          ],
+          "quote": "This is what used to be called digital transformation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            3647.971,
+            3652.673
+          ],
+          "quote": "I always used to joke that if you say digital transformation three times, then a partner from Accenture will appear in a puff of smoke.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "enabling-technology",
+      "type": "concept",
+      "role": "concept",
+      "name": "赋能技术 (enabling technology)",
+      "file": "赋能技术",
+      "primary": true,
+      "how_described": "本集收尾的核心观点:AI 是一项赋能技术,最重要的应用到你面前时不会自称 AI;就像 1994 年记者只看见'聊天室'而 Bowie 看见了网络——重要的不是文字和图片,是那项赋能技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            60.029,
+            65.193
+          ],
+          "quote": "And we hit on a lot of his really interesting takes on job usage, whether this is an enabling technology or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            385.549,
+            393.031
+          ],
+          "quote": "And semiconductors didn't need to wait for, I don't know, specialty chemicals or whatever you think the enabling technology is, photolithography.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1065,
+          "t": [
+            4005.539,
+            4022.545
+          ],
+          "quote": "The basic mistake that I still see people making is not to understand that this is an enabling technology that makes lots of different things possible and still look at it as something that makes text and pictures and not understand, no, this will make fraud detection work better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            4072.496,
+            4073.697
+          ],
+          "quote": "It's the enabling technology.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "token 定价 (token pricing)",
+      "file": "token 定价",
+      "primary": true,
+      "how_described": "本集说 Evans 写 token 定价的文章时并列拆解半导体、移动、光纤、操作系统各自的规律——类比没有预测力,但能告诉你该看什么;并讨论价格崩塌与帕累托曲线上各位置的 ROI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            232.837,
+            236.299
+          ],
+          "quote": "I wrote something at the end of last week talking about token pricing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jagged",
+      "type": "concept",
+      "role": "concept",
+      "name": "能力的参差 (jagged)",
+      "file": "能力的参差",
+      "primary": true,
+      "how_described": "本集强调模型能力是参差不齐的:AI 能干人花 17 小时的事,也有五分钟就能干而它干不了的事——智能不是线性的;'AI 能做一年级律师 93% 的工作'这类雷达图是妄想。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            52.184,
+            59.529
+          ],
+          "quote": "We talked about why consumer AI applications aren't really working today and the kind of jagged edge of capabilities and their implications on enterprise adoption overall.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1151.961,
+            1153.282
+          ],
+          "quote": "We have something that's very jagged.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1390.055,
+            1392.457
+          ],
+          "quote": "As long as the models have jagged capabilities like this, where they",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1392.677,
+            1401.819
+          ],
+          "quote": "Yeah, the models are jagged, and then the use cases are jagged, and some of the use cases are physical, and not just about processing information.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "consumer-surplus",
+      "type": "concept",
+      "role": "concept",
+      "name": "消费者剩余 (consumer surplus)",
+      "file": "消费者剩余",
+      "primary": false,
+      "how_described": "本集用它解释企业端的隐性价值:律师调研从一天两个判例到 20 个判例,客户付同样的钱、结果一样,多余的工作变成消费者剩余——就像 iPhone 让上万美元的消费电子消失。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1269.915,
+            1273.138
+          ],
+          "quote": "The thing I wonder here is about consumer surplus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1273.959,
+            1276.42
+          ],
+          "quote": "So whatever the enterprise version of consumer surplus is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1311.05,
+            1312.131
+          ],
+          "quote": "It's a consumer surplus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2751.858,
+            2753.178
+          ],
+          "quote": "Which is my consumer surplus point.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire":2,"Devon":3,"Cognition":15,"Codex":39,"Claude Code":46,"Cursor":47,"智能体":1,"云端智能体":1,"后台智能体":4,"剧本":3}</script>
+<script type="application/json" class="pd-epn">{"Claire":2,"Devon":3,"Cognition":15,"Codex":39,"Claude Code":46,"Cursor":48,"智能体":1,"云端智能体":1,"后台智能体":4,"剧本":3}</script>
 
 <script>
 (function(){

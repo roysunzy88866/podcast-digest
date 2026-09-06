@@ -31,7 +31,7 @@ unlisted: true
 
 [[Alex Lieberman]] · [[Claire Veau]] · [[10X]] · [[内容机器]] · [[AI 垃圾内容]] · [[员工倡导]] · [[工作流]] · [[Claude Code]] · [[Anthropic]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Alex Lieberman":1,"Claire Veau":1,"10X":1,"内容机器":1,"AI 垃圾内容":1,"员工倡导":1,"工作流":1,"Claude Code":46,"Anthropic":103,"OpenAI":90}</script>
+<script type="application/json" class="pd-epn">{"Alex Lieberman":1,"Claire Veau":1,"10X":1,"内容机器":1,"AI 垃圾内容":1,"员工倡导":1,"工作流":1,"Claude Code":46,"Anthropic":106,"OpenAI":92}</script>
 
 <script>
 (function(){

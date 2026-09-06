@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":1,"沙箱":35,"基准测试":7,"上下文":13,"开放权重模型":8,"Slack":23,"Claude Code":46,"Codex":39,"Cursor":47}</script>
+<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":1,"沙箱":35,"基准测试":7,"上下文":13,"开放权重模型":8,"Slack":23,"Claude Code":46,"Codex":39,"Cursor":48}</script>
 
 <script>
 (function(){

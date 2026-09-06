@@ -152,9 +152,9 @@ Square 从支付公司长成了整个生态系统，[[TAM|TAM]] 怎么算？Will
 
 **换个口味**
 
+- [[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险]]<span class="pd-rz">同概念:TAM、智能体 (agent)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>

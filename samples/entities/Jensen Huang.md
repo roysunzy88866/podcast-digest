@@ -69,7 +69,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[深度学习]] · [[智能体]] · [[沙箱]] · [[Condi Rice]] · [[harness]] · [[Jerry]] · [[GPU]] · [[前沿模型]] · [[Sega]]
+[[NVIDIA]] · [[深度学习]] · [[智能体]] · [[沙箱]] · [[Condi Rice]] · [[harness]] · [[Jerry]] · [[AMD]] · [[前沿模型]] · [[Sega]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -79,7 +79,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":29,"深度学习":3,"智能体":1,"沙箱":35,"Condi Rice":1,"harness":20,"Jerry":1,"GPU":12,"前沿模型":8,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":30,"深度学习":3,"智能体":1,"沙箱":35,"Condi Rice":1,"harness":20,"Jerry":1,"AMD":2,"前沿模型":8,"Sega":1}</script>
 
 <script>
 (function(){

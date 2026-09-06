@@ -27,7 +27,7 @@ unlisted: true
 
 [[Figma]] · [[产品构建者]] · [[MCP]] · [[Dylan Field]] · [[Aakash]] · [[Lenny]] · [[Srini Raghavan]] · [[FigJam]] · [[Freshworks]] · [[Dev Mode]]
 
-<script type="application/json" class="pd-epn">{"Figma":13,"产品构建者":2,"MCP":26,"Dylan Field":2,"Aakash":3,"Lenny":67,"Srini Raghavan":1,"FigJam":1,"Freshworks":1,"Dev Mode":1}</script>
+<script type="application/json" class="pd-epn">{"Figma":14,"产品构建者":2,"MCP":26,"Dylan Field":2,"Aakash":3,"Lenny":67,"Srini Raghavan":1,"FigJam":1,"Freshworks":1,"Dev Mode":1}</script>
 
 <script>
 (function(){

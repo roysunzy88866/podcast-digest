@@ -141,8 +141,8 @@ Cursor 的产品经历了剧烈的演变：先做 IDE 编辑器，然后转向�
 **换个口味**
 
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|AI 如何把工程问题变回资本问题]]<span class="pd-rz">同嘉宾:Martin Casado · 同公司:Anthropic、Microsoft、OpenAI</span>
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Anthropic、Cursor、OpenAI、Microsoft · 同概念:推理 (reasoning)</span>
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agents)、IDE</span>
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Anthropic、Claude Code、OpenAI、Microsoft</span>
 
 </div>
 </div>

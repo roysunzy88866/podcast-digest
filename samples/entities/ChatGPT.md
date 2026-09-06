@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>50</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>51</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -33,6 +33,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(70:36起):本集提到消费者会花钱试用它，但发现每月支付 20 美元后，得到的只是一个类似“Siri 1.0”的体验，从而对它失去耐心。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(12:24起):本集说现在可以把银行账户连到 ChatGPT 上问问题，但最后多半沦为无人问津的副业项目。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(36:09起):本集说 Codex 的经验与能力正在与 ChatGPT 结合,它们未来将融合为一个通用知识工作的主基地大本营。
+- **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(06:11起):本集用它做类比：ChatGPT 之于 AI，如同 Netscape Navigator 之于互联网——此刻 Google 还没成立、Zuckerberg 还在上初中，说明现在仍非常早；它对 Google 来说就是珍珠港。
 - **[[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]]**(02:00起):本集说 ChatGPT 桌面应用配合 Chrome 浏览器扩展，是目前控制计算机和浏览器最出色的工具，其内部嵌入了浏览器技能（browser skill）
 - **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(03:35起):本集提到他们看到的是 GPT-3、当时甚至还没有 ChatGPT。
 - **[[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]]**(05:11起):本集把它说成:Dario 在 OpenAI 内部缔造的起飞产品,当时 Anthropic 的基准测试已与其打平甚至更好
@@ -64,7 +65,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ① 提到它的金句
 
-*12 条*
+*14 条*
 
 ![[2025-07-17-lennys-inside-every-dan-shipper#^q8]]
 
@@ -77,6 +78,10 @@ aliases: ["chat gpt", "ChatGPD"]
 ![[2026-01-29-lennys-marc-andreessen-the-real-ai-boom#^q16]]
 
 ![[2026-07-09-pg-pm-guide-ai-design#^q1]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q3]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q5]]
 
 ![[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex#^q5]]
 
@@ -92,7 +97,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*50 集*
+*51 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
@@ -116,6 +121,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为概念(提及)
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为被讨论公司
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为被讨论公司
 - [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]] — 作为被讨论公司
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]] — 作为概念(提及)
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司(提及)
@@ -151,7 +157,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Cursor]] · [[vibe coding]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"OpenAI":90,"Claude":47,"Anthropic":103,"Google":35,"Codex":39,"Cursor":47,"vibe coding":27,"LLM":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"OpenAI":92,"Claude":47,"Anthropic":106,"Google":36,"Codex":39,"Cursor":48,"vibe coding":27,"LLM":26}</script>
 
 <script>
 (function(){

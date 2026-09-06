@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>103</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>106</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -43,7 +43,9 @@ unlisted: true
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(05:00起):本集在提到哪些顶级 AI 公司使用 WorkOS 时列出了它，并提及最近领导其 Claude 产品设计的设计师 Jenny Wen。
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(02:56起):本集提到它是 Fable 模型的开发商,在订阅中限制了 Fable 的使用,主持人猜测 OpenAI 的定价可能会对其产生压力。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:15起):本集把它说成:Thariq 和 Kat 所在的公司,内部团队重度使用 Claude Code 处理了高达 65% 的 PR
+- **[[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]]**(32:23起):本集说 Anthropic 资本更少、更专注,误打误撞发现了编程这条路,然后所有人一拥而上;并讨论了 Claude 专注把编程做到极致是否构成竞争领先。
 - **[[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]]**(09:51起):本集举它为例，说无论外界怎么看，他们真的相信安全和使命，这给了他们坚持下去的力量；还提到其模型 Claude 在当时出错时会变得很焦虑。
+- **[[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|《从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险》]]**(00:43起):本集说它是 Curative 的领先指标：其账单过去六七个月每月增长 6 倍，从几万美元涨到每月数百万美元；Turner 甚至说价格翻倍也照用，并猜想其估值可达 10 万亿美元。
 - **[[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]]**(02:34起):本集说它指控阿里巴巴进行蒸馏攻击;Clem 回应说 Anthropic 自己过去可能也用过蒸馏,而且它是世界上增长最快的公司,「很难同情它被不公平竞争」。
 - **[[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]]**(28:05起):本集说 Anthropic 在『员工网红』上做得极好——围绕 Claude Code 的一批员工成了品牌延伸,因为是人在谈产品而不只是公司,因此更被信任。
 - **[[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]]**(03:17起):本集把它作为「完全信仰 AGI（一个模型解决所有问题）」的代表来对照 Lin 的反主流主张，并用其企业业务引出「为什么不用 Anthropic/OpenAI 的 API 就好」的追问。
@@ -116,7 +118,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*16 条*
+*18 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q1]]
 
@@ -125,6 +127,10 @@ unlisted: true
 ![[2026-03-01-lennys-the-design-process-is-dead#^q4]]
 
 ![[2026-04-23-lennys-how-anthropics-product-team-moves#^q5]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q2]]
+
+![[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees#^q4]]
 
 ![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q5]]
 
@@ -152,7 +158,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*103 集*
+*106 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -186,8 +192,11 @@ unlisted: true
 - [[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k|《Kriti Sharma：戴安全帽的AI，三周落地》]] — 作为被讨论公司
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为被讨论公司
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为被讨论公司
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为被讨论公司
+- [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]] — 作为被讨论公司
 - [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]] — 作为被讨论公司(提及)
+- [[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|《从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险》]] — 作为被讨论公司
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]] — 作为被讨论公司
 - [[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]] — 作为被讨论公司(提及)
 - [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]] — 作为被讨论公司
@@ -264,7 +273,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Lenny]] · [[推理]] · [[NVIDIA]] · [[Claude]] · [[Cursor]] · [[Meta]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":90,"Claude Code":46,"Lenny":67,"推理":4,"NVIDIA":29,"Claude":47,"Cursor":47,"Meta":27,"Google":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":92,"Claude Code":46,"Lenny":67,"推理":5,"NVIDIA":30,"Claude":47,"Cursor":48,"Meta":28,"Google":36}</script>
 
 <script>
 (function(){

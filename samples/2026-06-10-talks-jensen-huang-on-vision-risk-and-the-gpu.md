@@ -149,8 +149,8 @@ jsonLd: |
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同嘉宾:Jensen Huang · 同公司:NVIDIA · 同概念:深度学习 (deep learning)</span>
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:NVIDIA、AMD · 同概念:GPU</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同嘉宾:Jensen Huang · 同公司:NVIDIA</span>
-- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:NVIDIA · 同概念:GPU</span>
 
 </div>
 <div class="pd-ex">

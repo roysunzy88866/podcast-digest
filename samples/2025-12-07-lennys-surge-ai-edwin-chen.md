@@ -135,8 +135,8 @@ Edwin 觉得,大多数人根本不懂什么是[[数据质量|数据质量]]。�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic · 同概念:后训练 (post training)、AGI</span>
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Anthropic、ChatGPT</span>
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic · 同概念:后训练 (post training)</span>
-- [[2025-08-24-lennys-inside-handshake-garrett-lord|Handshake：靠学生网络四个月做到五千万ARR]]<span class="pd-rz">同公司:Anthropic、ChatGPT · 同概念:后训练 (post training)、数据标注 (data labeling)</span>
 
 </div>
 <div class="pd-ex">

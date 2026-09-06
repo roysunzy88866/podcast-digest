@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jensen Huang]] · [[NVIDIA]] · [[GPU]] · [[Parallel]] · [[深度学习]] · [[第一性原理]] · [[五层蛋糕]] · [[模拟]] · [[CPU]] · [[人工智能]]
+[[Jensen Huang]] · [[NVIDIA]] · [[AMD]] · [[GPU]] · [[Parallel]] · [[深度学习]] · [[第一性原理]] · [[五层蛋糕]] · [[模拟]] · [[CPU]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":29,"GPU":12,"Parallel":4,"深度学习":3,"第一性原理":4,"五层蛋糕":1,"模拟":4,"CPU":4,"人工智能":2}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":30,"AMD":2,"GPU":13,"Parallel":4,"深度学习":3,"第一性原理":4,"五层蛋糕":1,"模拟":4,"CPU":4}</script>
 
 <script>
 (function(){

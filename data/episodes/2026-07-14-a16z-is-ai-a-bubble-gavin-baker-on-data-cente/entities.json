@@ -1,0 +1,1509 @@
+{
+  "episode_id": "2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente",
+  "podcast": "The a16z Show",
+  "date": "2026-07-14",
+  "tags": [
+    "AI 泡沫",
+    "芯片竞争",
+    "NVIDIA",
+    "商业模式",
+    "前沿模型"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "gavin-baker",
+      "type": "person",
+      "role": "host",
+      "name": "Gavin Baker",
+      "file": "Gavin Baker",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            49.329,
+            59.194
+          ],
+          "quote": "David George sits down with Atreides Management's Gavin Baker to unpack the AI boom from GPUs and data centers to frontier models, software, and robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            93.542,
+            100.969
+          ],
+          "quote": "To kick this off and to help us answer this question, please join us in welcoming Gavin Baker, Managing Partner and CIO of Atreides.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "david-george",
+      "type": "person",
+      "role": "cohost",
+      "name": "David George",
+      "file": "David George",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            49.329,
+            59.194
+          ],
+          "quote": "David George sits down with Atreides Management's Gavin Baker to unpack the AI boom from GPUs and data centers to frontier models, software, and robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            116.363,
+            119.145
+          ],
+          "quote": "Joining him is our very own David George, General Partner at A16Z.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说它是 AI 芯片双雄之一：已不只是半导体公司，凭 CUDA 成软件公司、凭机架级方案成系统公司、再凭 scale-up/out/across 网络架构成数据中心级公司；估值约 40 倍市盈率远低于 2000 年思科的 150-180 倍，其循环交易被夸大、每一步都完全理性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            252.981,
+            254.442
+          ],
+          "quote": "NVIDIA's at more like 40 times.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            419.921,
+            421.201
+          ],
+          "quote": "If you're on NVIDIA chips.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 101,
+          "t": [
+            421.282,
+            422.062
+          ],
+          "quote": "On NVIDIA chips.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            468.848,
+            475.953
+          ],
+          "quote": "So NVIDIA, if they sign a deal with OpenAI, they can say, hey, you can't use our money to buy our chips, but money is fungible.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            495.883,
+            504.467
+          ],
+          "quote": "So NVIDIA's biggest competitor, it's not AMD, it's not Broadcom, it's certainly not Marvell, it's not Intel, it's Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            511.284,
+            520.191
+          ],
+          "quote": "And this is by far, maybe perhaps today, the only alternative to NVIDIA for training and maybe the best inference alternative.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            564.299,
+            575.525
+          ],
+          "quote": "And if Google is going to a lab like Anthropic and saying, I'm going to help you fundraise and give you chips, for competitive reasons, it's very hard for NVIDIA not to respond.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            584.751,
+            595.137
+          ],
+          "quote": "I mean, what NVIDIA really needs is they need Meta to get their act together or another American open source player to emerge or maybe some sort of detente with China in AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            596.478,
+            602.202
+          ],
+          "quote": "When people ask me about NVIDIA and all the moves and the round tripping, my reaction is everything they've done is completely rational.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1384.47,
+            1385.951
+          ],
+          "quote": "So, okay, I know you love NVIDIA.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1387.165,
+            1399.572
+          ],
+          "quote": "Talk about, you know, your view of NVIDIA, AMD, TPUs, ASICs, and how do you think sort of market structure shakes out their, you know, competitive advantage that the various players have?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1400.793,
+            1410.639
+          ],
+          "quote": "Yeah, I think it goes, I think it is really, it's a fight between NVIDIA and the Google TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1418.844,
+            1423.948
+          ],
+          "quote": "NVIDIA is no longer just a semiconductor company, as I'm sure you'll hear from Jensen tomorrow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1446.639,
+            1459.11
+          ],
+          "quote": "And what Broadcom is saying to companies like Meta is, hey, we will build you a fabric that can theoretically compete with NVIDIA's fabric, which is a mixture of NVLink and either InfiniBand or Ethernet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1526.738,
+            1530.94
+          ],
+          "quote": "So it's really Google and the TPU versus NVIDIA with Amazon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集称它是 NVIDIA 真正最大的竞争对手：拥有 TPU、DeepMind 和 Gemini，过去两三个月 Gemini 抢下 15-20 个百分点流量份额，按实际流量可能已超 OpenAI 和 Anthropic；ChatGPT 对它而言是珍珠港。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            213.536,
+            223.003
+          ],
+          "quote": "And Google released a stat recently that they have seen a 150X increase in the amount of tokens processed in the last 17 months.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 109,
+          "t": [
+            446.59,
+            450.011
+          ],
+          "quote": "And I think that is the mentality for sure at Google and perhaps Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            495.883,
+            504.467
+          ],
+          "quote": "So NVIDIA's biggest competitor, it's not AMD, it's not Broadcom, it's certainly not Marvell, it's not Intel, it's Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            505.399,
+            510.643
+          ],
+          "quote": "And more specifically, it is Google because Google owns the TPU chip.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            520.711,
+            527.556
+          ],
+          "quote": "And Google's a problematic competitor because they also own a company called DeepMind and they have a product called Gemini.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            540.265,
+            547.309
+          ],
+          "quote": "I suspect on an actual traffic basis, Google is bigger than OpenAI, Anthropic, anyone today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            553.833,
+            556.695
+          ],
+          "quote": "There's Anthropic, and that's an Amazon and Google Captive.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            564.299,
+            575.525
+          ],
+          "quote": "And if Google is going to a lab like Anthropic and saying, I'm going to help you fundraise and give you chips, for competitive reasons, it's very hard for NVIDIA not to respond.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            653.118,
+            656.72
+          ],
+          "quote": "At this point in the internet boom, Google had not been founded.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            690.519,
+            698.905
+          ],
+          "quote": "I mean, that's most true of Google, but I think it's hard to have high conviction other than to observe the internet was a very disruptive innovation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            752.256,
+            756.262
+          ],
+          "quote": "Maybe Google in particular, but obviously Meta's making the dramatic moves they're making too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            756.783,
+            761.685
+          ],
+          "quote": "No, to me, ChatGPT was Pearl Harbor for Google, and we're going to see how they responded.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            907.91,
+            916.333
+          ],
+          "quote": "Google is making it really easy, if you're a customer of theirs, to use your data and essentially make any SaaS app you want, and then your data isn't shared with anyone else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1140.891,
+            1155.282
+          ],
+          "quote": "So obviously Google was the portal to the internet, kind of still is the portal to the internet, and the whole business model was predicated upon taking some intent and directing you to someone else's website where they would do stuff with you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1200.384,
+            1205.509
+          ],
+          "quote": "And if you're Google, you can just go look at what happened with Google Buzz.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1235.01,
+            1237.491
+          ],
+          "quote": "Maybe for the companies other than Google who don't own Chrome.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1400.793,
+            1410.639
+          ],
+          "quote": "Yeah, I think it goes, I think it is really, it's a fight between NVIDIA and the Google TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1463.453,
+            1467.336
+          ],
+          "quote": "And hey, we'll make you your version of TPU, which, by the way, took Google",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1485.458,
+            1497.423
+          ],
+          "quote": "In the next three years, I think you'll see a bunch of high-profile ASIC programs canceled, especially if Google starts selling TPUs externally, which has been all over X.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1505.447,
+            1509.329
+          ],
+          "quote": "If you're Anthropic, maybe you don't want Google seeing your secret sauce, but there's ways around that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1509.829,
+            1513.691
+          ],
+          "quote": "So I think this is really a battle between Google and its TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1514.571,
+            1519.574
+          ],
+          "quote": "Enabled by Broadcom for now, and Google can take the TPU away from Broadcom whenever they want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1526.738,
+            1530.94
+          ],
+          "quote": "So it's really Google and the TPU versus NVIDIA with Amazon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1544.348,
+            1546.649
+          ],
+          "quote": "It took Google three generations to get the TPE right.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1708.365,
+            1719.656
+          ],
+          "quote": "And again, that's just being paid for an outcome and kind of closing that loop, which will be probably a little bit of a business model degradation because the great, why did Google never start a marketplace?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1720.476,
+            1729.685
+          ],
+          "quote": "Because people overvalue systematically their ability once they've acquired a customer through Google to keep it as an organic customer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1733.507,
+            1740.93
+          ],
+          "quote": "That's why Google never went to outcomes or marketplace, because advertising leads to the advertisers systematically overpaying.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "TPU",
+      "file": "TPU",
+      "primary": true,
+      "how_described": "本集说 TPU 是今天唯一能替代 NVIDIA 训练的芯片、可能也是最好的推理替代品，Google 花了三代才做对；若 Google 开始对外卖 TPU，未来三年会有一批高知名度 ASIC 项目被取消。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            505.399,
+            510.643
+          ],
+          "quote": "And more specifically, it is Google because Google owns the TPU chip.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1400.793,
+            1410.639
+          ],
+          "quote": "Yeah, I think it goes, I think it is really, it's a fight between NVIDIA and the Google TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1463.453,
+            1467.336
+          ],
+          "quote": "And hey, we'll make you your version of TPU, which, by the way, took Google",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1509.829,
+            1513.691
+          ],
+          "quote": "So I think this is really a battle between Google and its TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1514.571,
+            1519.574
+          ],
+          "quote": "Enabled by Broadcom for now, and Google can take the TPU away from Broadcom whenever they want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1520.214,
+            1526.698
+          ],
+          "quote": "Now, they can't do the Ethernet networking that Broadcom is doing, but they control the TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1526.738,
+            1530.94
+          ],
+          "quote": "So it's really Google and the TPU versus NVIDIA with Amazon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 一家已有超一万亿美元承诺交易，是循环交易争议的对象（NVIDIA 无法禁止它拿投资款买自家芯片）；并强调 GPT-5 是个更小的模型，为运行更经济而设计，与缩放定律无关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            199.386,
+            204.029
+          ],
+          "quote": "OpenAI alone, I think, has more than a trillion dollars of deals.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            468.848,
+            475.953
+          ],
+          "quote": "So NVIDIA, if they sign a deal with OpenAI, they can say, hey, you can't use our money to buy our chips, but money is fungible.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            540.265,
+            547.309
+          ],
+          "quote": "I suspect on an actual traffic basis, Google is bigger than OpenAI, Anthropic, anyone today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            560.717,
+            563.639
+          ],
+          "quote": "And so you're left with XAI and OpenAI at the forefront.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1303.286,
+            1310.291
+          ],
+          "quote": "And so I think that fundamentally changes economics for Anthropic, for XAI, for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1363.362,
+            1367.003
+          ],
+          "quote": "It was designed to be more economical for OpenAI and Microsoft to run.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            540.265,
+            547.309
+          ],
+          "quote": "I suspect on an actual traffic basis, Google is bigger than OpenAI, Anthropic, anyone today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            553.833,
+            556.695
+          ],
+          "quote": "There's Anthropic, and that's an Amazon and Google Captive.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 134,
+          "t": [
+            557.215,
+            560.137
+          ],
+          "quote": "You know, Anthropic is really going to run on TPUs and Traniums.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            564.299,
+            575.525
+          ],
+          "quote": "And if Google is going to a lab like Anthropic and saying, I'm going to help you fundraise and give you chips, for competitive reasons, it's very hard for NVIDIA not to respond.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1303.286,
+            1310.291
+          ],
+          "quote": "And so I think that fundamentally changes economics for Anthropic, for XAI, for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1497.624,
+            1505.007
+          ],
+          "quote": "And who knows exactly how that would work, because if you're Anthropic, it was just rumored Anthropic wants to buy tens of billions of TPUs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1505.447,
+            1509.329
+          ],
+          "quote": "If you're Anthropic, maybe you don't want Google seeing your secret sauce, but there's ways around that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "broadcom",
+      "type": "company",
+      "role": "company",
+      "name": "Broadcom",
+      "file": "Broadcom",
+      "primary": true,
+      "how_described": "本集说 Broadcom 实际上在与 AMD 联合走向市场：向 Meta 这类公司推销用以太网做的开放标准 fabric 对抗 NVIDIA，并帮它们造自己的 TPU 版本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            495.883,
+            504.467
+          ],
+          "quote": "So NVIDIA's biggest competitor, it's not AMD, it's not Broadcom, it's certainly not Marvell, it's not Intel, it's Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1411.319,
+            1415.762
+          ],
+          "quote": "And then something that I don't think is broadly appreciated is the extent to which Broadcom and AMD",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1446.639,
+            1459.11
+          ],
+          "quote": "And what Broadcom is saying to companies like Meta is, hey, we will build you a fabric that can theoretically compete with NVIDIA's fabric, which is a mixture of NVLink and either InfiniBand or Ethernet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1514.571,
+            1519.574
+          ],
+          "quote": "Enabled by Broadcom for now, and Google can take the TPU away from Broadcom whenever they want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1520.214,
+            1526.698
+          ],
+          "quote": "Now, they can't do the Ethernet networking that Broadcom is doing, but they control the TPU.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "amd",
+      "type": "company",
+      "role": "company",
+      "name": "AMD",
+      "file": "AMD",
+      "primary": true,
+      "how_described": "本集说 AMD 与 Broadcom 联手服务自研芯片阵营——ASIC 不行可以直接插 AMD——但它永远是那个必要的第二供应商。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            495.883,
+            504.467
+          ],
+          "quote": "So NVIDIA's biggest competitor, it's not AMD, it's not Broadcom, it's certainly not Marvell, it's not Intel, it's Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1387.165,
+            1399.572
+          ],
+          "quote": "Talk about, you know, your view of NVIDIA, AMD, TPUs, ASICs, and how do you think sort of market structure shakes out their, you know, competitive advantage that the various players have?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1411.319,
+            1415.762
+          ],
+          "quote": "And then something that I don't think is broadly appreciated is the extent to which Broadcom and AMD",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1469.958,
+            1473.059
+          ],
+          "quote": "If your ASIC isn't good, you can just plug AMD right in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1547.509,
+            1552.092
+          ],
+          "quote": "And then AMD will always be kind of the second source, and you need a second source.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": true,
+      "how_described": "本集说 Gemini 过去两三个月抢下 15-20 个百分点的流量份额（还不算搜索摘要），使 Google 可能按实际流量已是最大的 AI 公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            520.711,
+            527.556
+          ],
+          "quote": "And Google's a problematic competitor because they also own a company called DeepMind and they have a product called Gemini.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            534.802,
+            537.504
+          ],
+          "quote": "In the last two or three months, and that's just traffic to Gemini.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1337.238,
+            1351.713
+          ],
+          "quote": "Because the problem is if you don't have Gemini 2.5 Pro, or a later checkpoint of it, or a later checkpoint of Grok that we don't see, or a later GPT checkpoint, training the next model, you're at a big disadvantage.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集用它做类比：ChatGPT 之于 AI，如同 Netscape Navigator 之于互联网——此刻 Google 还没成立、Zuckerberg 还在上初中，说明现在仍非常早；它对 Google 来说就是珍珠港。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            371.82,
+            379.605
+          ],
+          "quote": "In the case of the AI tools, all you have to do is kind of light them up via API or turn on your website, ChatGPT, and everybody has access to them, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 157,
+          "t": [
+            646.075,
+            652.338
+          ],
+          "quote": "And say that ChatGPT is to AI as Netscape Navigator was to the internet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            756.783,
+            761.685
+          ],
+          "quote": "No, to me, ChatGPT was Pearl Harbor for Google, and we're going to see how they responded.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "本集说老牌应用层 SaaS 别死守毛利结构——在 AI 上成功却不承受毛利率压力从定义上讲是不可能的，应把毛利下降看作成功的勋章；服务碎片化 SMB 客户的 SaaS 仍可能出大赢家，微软转云是先例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            790.632,
+            802.681
+          ],
+          "quote": "I don't think they'll be airlines, but you can, anybody can just look at the P&L, you know, of a SaaS company circa 2021 and 2022, and you see, you know, 80, 90% gross margins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            820.013,
+            832.601
+          ],
+          "quote": "I just, I think it's going to be a long time before we see a truly kind of, you know, an AI lab, a frontier lab with gross margins anywhere near SaaS or internet era margins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            854.718,
+            858.083
+          ],
+          "quote": "So you just kind of got into it a little bit with the SaaS businesses.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 199,
+          "t": [
+            866.895,
+            869.716
+          ],
+          "quote": "SaaS is terrible and it's dead and, you know, it's all going to go away.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 201,
+          "t": [
+            880.959,
+            883.04
+          ],
+          "quote": "So what do you think happens with SaaS and software?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 202,
+          "t": [
+            883.42,
+            893.123
+          ],
+          "quote": "You know, I think I, you know, first said probably in early 24 that I thought all of application SaaS might be a zero, different than infrastructure SaaS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            897.605,
+            907.169
+          ],
+          "quote": "And I think there could be some really big application SaaS winners, especially if you serve a more fragmented SMB customer base.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            907.91,
+            916.333
+          ],
+          "quote": "Google is making it really easy, if you're a customer of theirs, to use your data and essentially make any SaaS app you want, and then your data isn't shared with anyone else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            938.96,
+            952.743
+          ],
+          "quote": "And I worry that application SaaS companies are trying to preserve their existing gross margin structures because they believe that if their gross margins go down, their stocks will go down.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            991.416,
+            996.518
+          ],
+          "quote": "So if you're an application SaaS company, what I would just say is, don't be scared.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1049.763,
+            1057.811
+          ],
+          "quote": "And then the big advantage these legacy applications SaaS companies have is they do have these really profitable existing businesses.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "本集说由于缩放定律和《苦涩的教训》，AI 本质上更耗算力，前沿实验室毛利率结构性更低；并把 GPT-5 与缩放定律挂钩的说法斥为疯狂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            803.842,
+            812.849
+          ],
+          "quote": "And the nature of AI because of scaling laws, Richard Sutton's The Bitter Listen, they're just more compute intensive.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            841.647,
+            850.232
+          ],
+          "quote": "And until scaling laws change and the importance of test time compute, things like that change, which I don't see happening, they are going to be lower margin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1368.504,
+            1373.046
+          ],
+          "quote": "Any reference to GPT-5 and scaling laws is crazy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (reasoning)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说推理（让模型先想再答）从根本上改变了前沿模型的经济性：庞大用户群经后训练的 RL 喂回数据，解锁了消费互联网式的增长飞轮，Anthropic、XAI、OpenAI 都受益。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1252.598,
+            1259.7
+          ],
+          "quote": "And I also think reasoning has fundamentally changed the economics of these frontier models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1260.5,
+            1269.783
+          ],
+          "quote": "You know, pre-reasoning, I often said, if you are a frontier model without access to unique, valuable data,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1274.832,
+            1296.442
+          ],
+          "quote": "I think reasoning really changed that because the way RL works during post-training, having a big user base now kind of unlocks that flywheel that was at the center of every great consumer internet company, where you have a good product, you get a lot of users, the users make the algorithm better, the algorithm makes the product better, and it just spins.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": true,
+      "how_described": "本集说后训练阶段 RL 的运作方式使大用户基础解锁飞轮；在客户支持等场景跑 RL 对齐「客户满意、首次通话解决」这类可验证奖励，就能实现按结果付费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1274.832,
+            1296.442
+          ],
+          "quote": "I think reasoning really changed that because the way RL works during post-training, having a big user base now kind of unlocks that flywheel that was at the center of every great consumer internet company, where you have a good product, you get a lot of users, the users make the algorithm better, the algorithm makes the product better, and it just spins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1634.525,
+            1646.175
+          ],
+          "quote": "You can kind of, you know, probably really easily run some RL to make sure that they, you know, get a good verified reward, you know, verified reward being happy customer, first call resolution or whatever it is.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集以「没有暗着的 GPU」作为非泡沫的核心判据：对比 2000 年 97% 暗光纤，今天 GPU 在训练中被「跑融化」，且最大买家的 ROIC 提升了约 10 个百分点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            485.558,
+            495.343
+          ],
+          "quote": "And I think what is driving this isn't the need to finance GPU or data center purchases, but it's actually competitive dynamics.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集惊讶于没有一家上市编程公司尝试与 Cursor 竞争：它已有一万亿 token，等编程 token 积累够了就真的追不上了，老牌公司现在用现有业务利润养 AI 产品盈亏平衡运行仍有机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 236,
+          "t": [
+            1069.687,
+            1074.134
+          ],
+          "quote": "Like why are none of the public coding companies even trying to compete with Cursor?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1075.194,
+            1084.984
+          ],
+          "quote": "And the reality is, Cursor, now they have a trillion tokens, and there will be a point where they have enough coding tokens that it's tough to catch them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "asic",
+      "type": "concept",
+      "role": "concept",
+      "name": "ASIC",
+      "file": "ASIC",
+      "primary": true,
+      "how_described": "本集判断大部分自研 ASIC 项目会失败：未来三年预计一批高知名度的 ASIC 项目被取消，尤其若 Google 开始对外卖 TPU。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 320,
+          "t": [
+            1469.958,
+            1473.059
+          ],
+          "quote": "If your ASIC isn't good, you can just plug AMD right in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1485.458,
+            1497.423
+          ],
+          "quote": "In the next three years, I think you'll see a bunch of high-profile ASIC programs canceled, especially if Google starts selling TPUs externally, which has been all over X.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到 Meta 或许也抱着「宁愿破产也不输」的心态在做 AI 大动作，且是 Broadcom 自研芯片方案的目标客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            446.59,
+            450.011
+          ],
+          "quote": "And I think that is the mentality for sure at Google and perhaps Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            584.751,
+            595.137
+          ],
+          "quote": "I mean, what NVIDIA really needs is they need Meta to get their act together or another American open source player to emerge or maybe some sort of detente with China in AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            752.256,
+            756.262
+          ],
+          "quote": "Maybe Google in particular, but obviously Meta's making the dramatic moves they're making too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1446.639,
+            1459.11
+          ],
+          "quote": "And what Broadcom is saying to companies like Meta is, hey, we will build you a fabric that can theoretically compete with NVIDIA's fabric, which is a mixture of NVLink and either InfiniBand or Ethernet.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集说 Google 还拥有一家叫 DeepMind 的公司，是它成为棘手竞争对手的原因之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            520.711,
+            527.556
+          ],
+          "quote": "And Google's a problematic competitor because they also own a company called DeepMind and they have a product called Gemini.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            553.833,
+            556.695
+          ],
+          "quote": "There's Anthropic, and that's an Amazon and Google Captive.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            917.594,
+            923.737
+          ],
+          "quote": "But the critical mistake that I think a lot of retailers made in dealing with Amazon",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            924.617,
+            929.058
+          ],
+          "quote": "is they looked at Amazon's margins and they said, we don't want to be in that business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            932.679,
+            937.92
+          ],
+          "quote": "And here we are 25 years later and Amazon has really healthy retail margins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1526.738,
+            1530.94
+          ],
+          "quote": "So it's really Google and the TPU versus NVIDIA with Amazon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "decagon",
+      "type": "company",
+      "role": "company",
+      "name": "Decagon",
+      "file": "Decagon",
+      "primary": false,
+      "how_described": "本集以 a16z 所投的 Decagon（客户支持）作为按结果付费最容易的首个案例：文本数据多、可验证奖励清晰。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1586.657,
+            1597.287
+          ],
+          "quote": "So, you know, we're investors in Decagon, customer support, like you can pretty easily see a business model that is priced on the resolution of a task because it's so measurable.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集说 Figma 上市时主动宣布会激进分发 AI 工具、毛利率会下降，市场反应反而很好，是「毛利下降即成功勋章」的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1112.6,
+            1126.745
+          ],
+          "quote": "Yeah, we actually saw, I mean, you know, we see it, you know, we may, if we, you know, Figma, for example, like, when they went out, they are extremely high gross margin, and they're like, hey, we're gonna, you know, pretty aggressively distribute our AI tools, and our gross margins are gonna go down.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集判断机器人格局会是 Tesla 对阵中国厂商，就像汽车业；50 台 Optimus 做 50 种不同任务的视频让每个机器人专家印象深刻。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 382,
+          "t": [
+            1787.292,
+            1795.597
+          ],
+          "quote": "Do you have a view on... Yeah, very real, and it's gonna be Tesla versus the Chinese in the same way it's Tesla versus the Chinese in cars.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "xai",
+      "type": "company",
+      "role": "company",
+      "name": "XAI",
+      "file": "XAI",
+      "primary": false,
+      "how_described": "本集说与 OpenAI 一起留在前沿的是 XAI，推理的经济性改变同样惠及它；嘉宾还设想自己的 AI 会是一个懂他的 Grok 版本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            560.717,
+            563.639
+          ],
+          "quote": "And so you're left with XAI and OpenAI at the forefront.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1303.286,
+            1310.291
+          ],
+          "quote": "And so I think that fundamentally changes economics for Anthropic, for XAI, for OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1672.621,
+            1674.122
+          ],
+          "quote": "Cause we're both XAI shareholders.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集举 Microsoft 为先例：从本地永久授权转向更低利润率的云模式后，之后十年股价相当不错，说明软件公司能应对利润率下滑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            969.35,
+            972.311
+          ],
+          "quote": "And Microsoft and Adobe to the whole AI thing came along.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            981.033,
+            988.395
+          ],
+          "quote": "And Microsoft, they transitioned from on-premise perpetual licenses with maintenance to a cloud model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1363.362,
+            1367.003
+          ],
+          "quote": "It was designed to be more economical for OpenAI and Microsoft to run.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chrome",
+      "type": "company",
+      "role": "company",
+      "name": "Chrome",
+      "file": "Chrome",
+      "primary": false,
+      "how_described": "本集说推出 AI 浏览器的 AI 原生公司可能会后悔：Chrome 有约 50 亿用户，Google 因诉讼谨慎但完全可以等三到六个月再跟进、做得更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 263,
+          "t": [
+            1186.571,
+            1199.383
+          ],
+          "quote": "Two, I would just say, I think the AI companies that have launched these AI browsers may come to regret it because there's something called Chrome that has whatever it is, 5 billion users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1235.01,
+            1237.491
+          ],
+          "quote": "Maybe for the companies other than Google who don't own Chrome.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cisco",
+      "type": "company",
+      "role": "company",
+      "name": "Cisco",
+      "file": "Cisco",
+      "primary": false,
+      "how_described": "本集以思科 2000 年峰值 150-180 倍滚动市盈率对比 NVIDIA 当下约 40 倍，论证今天估值上不在泡沫之中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            248.258,
+            252.901
+          ],
+          "quote": "First, I think Cisco peaked at 150 or 180 times trailing earnings.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Trainium",
+      "reason": "专名「Trainium」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>25</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>26</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,6 +22,7 @@ unlisted: true
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(10:42起):本集提到从业者现在晚上要花时间喂养这头在夜间运行的野兽，这带来了跟上前沿的压力，但也带来了让工作自动化的可能。
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(26:56起):本集把它说成：本质上依然是训练数据的函数，擅长模仿已有事物，但很难跳出固有分布去创造尚未存在的新文化或新概念。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(04:20起):本集说它彻底改变了公司的架构和产品；CEO 现在每天用它递归扫描全公司的 Slack、Notion 和 PR，生成直观的『船长日志』，让组织层级变扁平。
+- **[[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]]**(58:08起):本集的核心分析对象:Evans 指出 LLM 没有网络效应,所以大概率不会像 Sam Altman 说的那样变成 Windows;并用 LLM 讨论能力参差、'大多数人可能会怎么做'的平均值问题。
 - **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(37:48起):本集说 Gamma 早期成功发生在 LLM 还很笨的 2023 年，护栏是为笨提示词设的；现在聪明得多的 LLM 正被这些护栏拖住后腿。
 - **[[2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and|《Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介》]]**(15:52起):本集说在实时交互场景中，大多数用例背后是 LLM 在驱动虚拟形象说话；也提到 Victor 自己用 LLM 来回答战略问题、扮演魔鬼代言人
 - **[[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]]**(15:37起):本集把它比作「发动机」:LLM 需要大量来自 Google Drive、本地文件、Salesforce 等来源的数据,处理后输出回系统——这些环节 n8n 早就就位。
@@ -79,7 +80,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*25 集*
+*26 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -92,6 +93,7 @@ unlisted: true
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为概念(提及)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为概念(提及)
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念
+- [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]] — 作为概念
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]] — 作为概念
 - [[2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and|《Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介》]] — 作为概念(提及)
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]] — 作为概念
@@ -111,9 +113,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Claude]] · [[护栏]] · [[Google]] · [[OpenAI]] · [[Claude Code]] · [[Replit]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[Claude]] · [[OpenAI]] · [[护栏]] · [[Google]] · [[Claude Code]] · [[Replit]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":103,"Lenny":67,"ChatGPT":50,"Claude":47,"护栏":2,"Google":35,"OpenAI":90,"Claude Code":46,"Replit":13}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":106,"Lenny":67,"ChatGPT":51,"Claude":47,"OpenAI":92,"护栏":2,"Google":36,"Claude Code":46,"Replit":13}</script>
 
 <script>
 (function(){

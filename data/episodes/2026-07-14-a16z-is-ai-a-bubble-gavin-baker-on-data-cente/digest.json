@@ -1,0 +1,196 @@
+{
+  "title_zh": "没有暗GPU:一位基金经理拆解AI泡沫论与棋局",
+  "tldr": "Atreides 管理合伙人兼 CIO Gavin Baker 对比 2000 年电信泡沫，论证当前 AI 不是泡沫，并拆解 NVIDIA、Google TPU、模型公司与 SaaS 的竞争格局。",
+  "digest_md": "这一集是 a16z 的炉边谈话：主持人 David George 对坐 Gavin Baker——Atreides Management 的管理合伙人兼首席投资官，硅谷圈里 AI 大新闻出来时大家都会去他那找解读的人。开场主持人先甩数据：美国现有约一万亿美元数据中心，未来五年还要再建三到四万亿；但 Google 的 token 处理量 17 个月涨了 150 倍。那么，现在是 AI 泡沫吗？\n\n## 不算泡沫，因为「没有暗着的 GPU」\n\nGavin 的答案很干脆：不认为今天是泡沫，判据来自他亲历的 2000 年电信泡沫。当年泡沫的定义物是「暗光纤」——铺进地下却没点亮的光纤，没有两端的光学器件和交换机，它毫无用处。泡沫顶峰时，美国已铺设的光纤里 97% 是暗的。对比今天：**没有暗着的 GPU**——读任何技术论文都知道，训练运行中最大的问题之一是 GPU 被「跑融化了」。\n\n再看两个硬指标：估值上，思科当年峰值市盈率 150-180 倍，NVIDIA 现在约 40 倍；回报上，最大的 GPU 买家全是上市公司，加大资本开支以来它们的投入资本回报率(ROIC,即每投一块钱赚回多少)提升了约 10 个百分点——到目前为止，AI 支出的回报是实实在在正面的。另外买单的人也有底气：为资本开支出钱的这些公司每年合计产生约 3000 亿美元自由现金流，账上还有 5000 亿美元现金。主持人补充：现在点亮一吉瓦的算力要花三四百亿美元(NVIDIA 芯片)，但那是个以每年 3000 亿速度增长的约 8000 亿美元缓冲。Larry Page 在内部说过「宁愿破产也不输掉这场竞赛」，这种心态在 Google 必然存在，Meta 或许也是——这是一场被看作关乎存亡的竞赛。\n\n## 「循环交易」被夸大了\n\n对争议最大的「循环交易」(比如 NVIDIA 投资客户、客户再拿钱买 NVIDIA 芯片)，Gavin 承认客观上在发生——钱是可替代的，NVIDIA 没法禁止 OpenAI 拿投资款去买自家芯片——但规模非常小。驱动力不是融资需要，而是竞争：NVIDIA 最大的对手不是 AMD、Broadcom 或 Intel,而是手握 TPU 芯片的 Google。TPU 是今天唯一能替代 NVIDIA 训练的芯片，可能也是最好的推理替代品；而且 Google 还有 DeepMind 和 Gemini——过去两三个月 Gemini 抢下了 15-20 个百分点的流量份额(还不算搜索摘要)，按实际流量算 Google 可能已超过 OpenAI 和 Anthropic。当 Google 对 Anthropic 说「我帮你融资、给你芯片」时，NVIDIA 出于竞争很难不回应。Jensen 所做的每一步都是完全理性的；他和 Elon 是 Gavin 见过最好的两位 CEO。\n\n## 模型层：现在像 Netscape 时代，别急着下注应用\n\nGavin 提醒保持谦逊：如果说 ChatGPT 之于 AI 相当于 Netscape Navigator 之于互联网，那这个时间点上 Google 还没成立、Zuckerberg 还在上初中。AI 到底是颠覆性创新还是持续性创新，也还没定论——数据、算力资金、分发渠道这些要素，今天的大科技公司全都绰绰有余，只要执行得当，AI 对 Mag-7 的很多成员可能反而是「持续性创新」；但它是生死攸关的，执行不好下场就是 IBM。对 Google 而言，「ChatGPT 就是珍珠港」。\n\n商业模型上别指望 SaaS 式利润率：由于缩放定律(模型能力随算力投入可预测提升的规律)和《苦涩的教训》，前沿实验室的毛利率在结构上就会更低，在缩放定律和测试时算力的重要性改变之前，看不到毛利率接近 SaaS 或互联网时代水平的可能。\n\n推理能力(让模型先「想」再答)则根本性地改变了这些公司的经济性。推理出现之前 Gavin 常说：一个没有独占数据和互联网级分发的前沿模型，是「历史上贬值最快的资产」；而推理改变了这一点——庞大的用户群通过后训练阶段的强化学习(RL)喂回数据，解锁了每个伟大消费互联网公司核心的那个飞轮：好产品带来用户，用户让算法更好，算法让产品更好。这个飞轮在 AI 里还没真正转起来，但「眯起眼睛能看到它在转」。另一件让他抓狂的事：说「GPT-5 宣告 scaling 失败」是错的——GPT-5 是个更小的模型，设计目标是对 OpenAI 和微软运行起来更经济，不是更强，任何把它和缩放定律挂钩的说法都是疯狂的。\n\n## SaaS 公司：别怕毛利率下降，那是成功的勋章\n\nGavin 曾说过应用层 SaaS 可能归零，现在观点更细致了：服务碎片化 SMB 客户的 SaaS 可能出大赢家。他最想敲打的是那些死守毛利结构的老牌 SaaS——很多零售商当年面对 Amazon 犯的关键错误，就是看着 Amazon 的利润率说「我们不想做那门生意」，25 年后 Amazon 零售利润率非常健康。**鉴于 AI 更耗算力的本质，在 AI 上成功却不承受毛利率压力，从定义上讲是不可能的**。先例也有：微软从本地永久授权转向更低利润率的云模式，之后十年股价相当不错。他甚至说，把毛利率下降看作成功的标志而不是耻辱。他惊讶于为什么没有一家上市的编程公司试着和 Cursor 竞争——哪怕用现有业务的利润养着 AI 产品盈亏平衡运行，你也有一个机会；Cursor 已有一万亿 token,等编程 token 积累够了就真的追不上了。Figma 上市时主动宣布会激进分发 AI 工具、毛利率会下降，市场反应反而很好。\n\n消费端，他判断推出 AI 浏览器的 AI 原生公司「可能会后悔」：Chrome 有约 50 亿用户，Google 也在诉讼中不敢轻举妄动，完全可以等别人跑三到六个月再跟进，做得还更好。押注反对拥有庞大现有用户基础的公司，很难。\n\n## 芯片战：NVIDIA vs Google TPU,大部分自研 ASIC 会失败\n\n芯片格局 Gavin 判断为一场双雄对决：NVIDIA 对 Google TPU。NVIDIA 已不只是半导体公司——先是 CUDA 使其成为软件公司，然后是机架级方案的系统公司，如今靠 scale-up/scale-out/scale-across 网络架构成为「数据中心级」公司；网络、fabric、软件全都重要。不被广泛认识的一点：Broadcom 和 AMD 实际上在联合走向市场——Broadcom 对 Meta 这类公司的说辞是：给你用以太网做的开放标准 fabric 对抗 NVIDIA 的 NVLink + InfiniBand/以太网组合，再给你造你自己的「TPU 版本」(那是 Google 花了三代才调通的)，如果 ASIC 不行还可以直接插 AMD。但 Gavin 认为未来三年会看到一批高知名度的 ASIC 项目被取消，尤其如果 Google 开始对外卖 TPU——传闻 Anthropic 想买数百亿美元的 TPU。Amazon 的 Annapurna 团队是超大规模厂商里最有才华的硅芯片团队，其新一代芯片应会远好于上一代——毕竟 Google 也是三代才把 TPU 做对。AMD 则永远是那个必要的第二供应商。\n\n> 【背景】Trainium 是 Amazon 自研 AI 芯片系列；正文所说「新一代远好于上一代」即指 Trainium 3 相对 Trainium 2。\n\n## 商业模式与机器人：一切走向「按结果付费」\n\n平台转移叠加商业模式转移时机会最大。客户支持(如 a16z 投的 Decagon)是最容易的首个案例：文本数据多、LLM 擅长文本、跑 RL 就能对齐「客户满意、首次通话解决」这类可验证的奖励。更广的趋势是：人类本来就按结果获得报酬，AI 增强乃至取代一部分人类后，也会走向按结果付费。广告模式里那种「广告主系统性地高估自己留住 Google 带来的客户」的低效率，会被按结果付费挤压掉——这也是 Google 从不做市场平台的原因。至于人人讨论的联盟佣金，Gavin 设想自己的 AI 会是一个懂他、喜欢他的 Grok 版本，度假时帮他订到最好价格的房间，然后收一笔联盟佣金。\n\n机器人「非常真实」，格局会是 Tesla 对阵中国厂商，就像汽车业。人形与非人形之争已经结束：人形能从看 YouTube 视频学习，人也更容易穿动捕服给它示范——看 50 台 Optimus 做 50 种不同任务的视频很震撼，而他认识的每个机器人专家都印象极深。他最后对时间线的吐槽：Karpathy 因为说 AGI 还有十年而被描绘成怀疑论者——「开什么玩笑，十年？」\n\n## 本集带走\n\n- **判断 AI 泡沫的一个硬指标**：有没有「暗算力」。2000 年 97% 的光纤是暗的，今天 GPU 不够用；最大买家 ROIC 实际提升了约 10 个百分点，估值(NVIDIA 约 40 倍)也远低于思科当年的 150-180 倍。\n- **芯片格局是双雄对决**：NVIDIA(芯片+软件+系统+网络的全栈)对 Google TPU,Broadcom 和 AMD 联手服务自研芯片阵营；未来三年预计一批高知名度 ASIC 项目会被取消。\n- **别用 SaaS 毛利率框架套 AI**:缩放定律决定了前沿模型毛利结构性更低；应用层公司主动接受毛利下降反而是「有人真在用 AI」的勋章，微软转云是先例。\n- **老牌 SaaS 的窗口正在关闭**：用现有业务的利润养 AI 产品盈亏平衡运行、全力铺开，还有机会追；编程 token 积累到一定量级后(Cursor 已一万亿)就追不上了。\n- **推理改变了模型公司经济性**：大用户群通过 RL 后训练解锁消费互联网式的增长飞轮，Anthropic、XAI、OpenAI 都受益。\n- **未来按结果付费**：从客户支持到个人 AI 助理带联盟佣金，广告模式中「广告主系统性多付钱」的低效率会被挤压掉。",
+  "quotes": [
+    {
+      "en": "So NVIDIA's biggest competitor, it's not AMD, it's not Broadcom, it's certainly not Marvell, it's not Intel, it's Google.",
+      "zh": "NVIDIA 最大的竞争对手，不是 AMD,不是 Broadcom,肯定不是 Marvell,也不是 Intel,而是 Google。",
+      "timestamp": "08:15",
+      "speaker": "David George"
+    },
+    {
+      "en": "I suspect on an actual traffic basis, Google is bigger than OpenAI, Anthropic, anyone today.",
+      "zh": "我怀疑按实际流量计算，Google 今天比 OpenAI、Anthropic 或任何公司都大。",
+      "timestamp": "09:00",
+      "speaker": "David George"
+    },
+    {
+      "en": "And say that ChatGPT is to AI as Netscape Navigator was to the internet. At this point in the internet boom, Google had not been founded.",
+      "zh": "如果说 ChatGPT 之于 AI,就像 Netscape Navigator 之于互联网——在互联网繁荣的这个时间点，Google 还没有创立。",
+      "timestamp": "10:46",
+      "speaker": "David George"
+    },
+    {
+      "en": "It's one reason I think the infrastructure layer is often maybe a safe place to be at the beginning of one of these new technology waves.",
+      "zh": "这是我认为基础设施层在这类新技术浪潮的初期往往可能是一个安全所在的原因之一。",
+      "timestamp": "11:11",
+      "speaker": "David George"
+    },
+    {
+      "en": "No, to me, ChatGPT was Pearl Harbor for Google, and we're going to see how they responded.",
+      "zh": "不，对我来说，ChatGPT 对 Google 来说就是珍珠港事件，我们将看到他们如何应对。",
+      "timestamp": "12:36",
+      "speaker": "David George"
+    },
+    {
+      "en": "It is definitionally impossible, given what we just discussed, to succeed in AI without gross margin pressure.",
+      "zh": "鉴于我们刚才讨论的内容，在 AI 领域取得成功却不承受毛利率压力，从定义上讲是不可能的。",
+      "timestamp": "15:53",
+      "speaker": "David George"
+    },
+    {
+      "en": "And look at declining gross margins kind of has a mark of success rather than a badge of shame or something to be feared.",
+      "zh": "把毛利率下降看作是成功的标志，而不是耻辱的标记，或者值得恐惧的东西。",
+      "timestamp": "16:37",
+      "speaker": "David George"
+    },
+    {
+      "en": "And the one thing I would say is I do think it's tough to bet against the companies with large existing user bases today.",
+      "zh": "我想说的一点是，我确实认为，押注反对那些今天拥有庞大现有用户基础的公司是很难的。",
+      "timestamp": "20:46",
+      "speaker": "David George"
+    },
+    {
+      "en": "And internet scale distribution, you're the fastest depreciating asset in history.",
+      "zh": "也没有互联网规模的分发能力，你就是历史上贬值最快的资产。",
+      "timestamp": "21:11",
+      "speaker": "David George"
+    },
+    {
+      "en": "And that, it's not quite spinning yet in AI, but you can squint and see it.",
+      "zh": "而那个飞轮，在 AI 领域还没真正转起来，但你眯起眼睛可以看到它在转。",
+      "timestamp": "21:37",
+      "speaker": "David George"
+    },
+    {
+      "en": "Any reference to GPT-5 and scaling laws is crazy.",
+      "zh": "任何把 GPT-5 和缩放定律联系起来的说法都是疯狂的。",
+      "timestamp": "22:48",
+      "speaker": "David George"
+    },
+    {
+      "en": "Humans were fundamentally paid based on outcomes, and a lot of AI will be augmenting humans, but probably also replacing some humans, and that will involve being paid for outcomes.",
+      "zh": "从根本上说，人类是按结果获得报酬的，很多 AI 会增强人类，但可能也会取代一部分人类，而这将涉及按结果付费。",
+      "timestamp": "27:31",
+      "speaker": "David George"
+    },
+    {
+      "en": "In the next three years, I think you'll see a bunch of high-profile ASIC programs canceled, especially if Google starts selling TPUs externally, which has been all over X.",
+      "zh": "在接下来三年里，我认为你会看到一批高知名度的 ASIC 项目被取消，尤其是如果 Google 开始对外销售 TPU 的话，这在 X 上已经传遍了。",
+      "timestamp": "24:45",
+      "speaker": "David George"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:56",
+      "speaker": "Gavin Baker",
+      "en": "I had, depending on how you look at it, the privilege and the misfortune of being a tech investor during the year 2000 bubble, which was really a telecom bubble.",
+      "zh": "我曾——取决于你怎么看——在 2000 年泡沫期间做科技投资者，这既是幸运也是不幸，那实际上是一场电信泡沫。"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Gavin Baker",
+      "en": "Contrast that with today. There are no dark GPUs.",
+      "zh": "对比一下今天：没有暗着的 GPU。"
+    },
+    {
+      "timestamp": "05:44",
+      "speaker": "Gavin Baker",
+      "en": "But there's no debate that thus far the ROI on AI has been really positive.",
+      "zh": "但到目前为止 AI 的投资回报率是非常正面的，这一点没有争议。"
+    },
+    {
+      "timestamp": "08:15",
+      "speaker": "Gavin Baker",
+      "en": "So NVIDIA's biggest competitor, it's not AMD, it's not Broadcom, it's certainly not Marvell, it's not Intel, it's Google.",
+      "zh": "NVIDIA 最大的竞争对手，不是 AMD,不是 Broadcom,肯定不是 Marvell,也不是 Intel,而是 Google。"
+    },
+    {
+      "timestamp": "09:00",
+      "speaker": "Gavin Baker",
+      "en": "I suspect on an actual traffic basis, Google is bigger than OpenAI, Anthropic, anyone today.",
+      "zh": "我怀疑按实际流量计算，Google 今天比 OpenAI、Anthropic 或任何公司都大。"
+    },
+    {
+      "timestamp": "10:46",
+      "speaker": "Gavin Baker",
+      "en": "And say that ChatGPT is to AI as Netscape Navigator was to the internet. At this point in the internet boom, Google had not been founded.",
+      "zh": "如果说 ChatGPT 之于 AI,就像 Netscape Navigator 之于互联网——在互联网繁荣的这个时间点，Google 还没有创立。"
+    },
+    {
+      "timestamp": "11:11",
+      "speaker": "Gavin Baker",
+      "en": "It's one reason I think the infrastructure layer is often maybe a safe place to be at the beginning of one of these new technology waves.",
+      "zh": "这是我认为基础设施层在这类新技术浪潮的初期往往可能是一个安全所在的原因之一。"
+    },
+    {
+      "timestamp": "12:36",
+      "speaker": "Gavin Baker",
+      "en": "No, to me, ChatGPT was Pearl Harbor for Google, and we're going to see how they responded.",
+      "zh": "不，对我来说，ChatGPT 对 Google 来说就是珍珠港事件，我们将看到他们如何应对。"
+    },
+    {
+      "timestamp": "15:53",
+      "speaker": "Gavin Baker",
+      "en": "It is definitionally impossible, given what we just discussed, to succeed in AI without gross margin pressure.",
+      "zh": "鉴于我们刚才讨论的内容，在 AI 领域取得成功却不承受毛利率压力，从定义上讲是不可能的。"
+    },
+    {
+      "timestamp": "16:37",
+      "speaker": "Gavin Baker",
+      "en": "And look at declining gross margins kind of has a mark of success rather than a badge of shame or something to be feared.",
+      "zh": "把毛利率下降看作是成功的标志，而不是耻辱的标记，或者值得恐惧的东西。"
+    },
+    {
+      "timestamp": "17:49",
+      "speaker": "Gavin Baker",
+      "en": "Like why are none of the public coding companies even trying to compete with Cursor?",
+      "zh": "比如为什么没有一家上市的编程公司哪怕尝试与 Cursor 竞争？"
+    },
+    {
+      "timestamp": "20:46",
+      "speaker": "Gavin Baker",
+      "en": "And the one thing I would say is I do think it's tough to bet against the companies with large existing user bases today.",
+      "zh": "我想说的一点是，我确实认为，押注反对那些今天拥有庞大现有用户基础的公司是很难的。"
+    },
+    {
+      "timestamp": "21:14",
+      "speaker": "Gavin Baker",
+      "en": "And internet scale distribution, you're the fastest depreciating asset in history.",
+      "zh": "也没有互联网规模的分发能力，你就是历史上贬值最快的资产。"
+    },
+    {
+      "timestamp": "21:37",
+      "speaker": "Gavin Baker",
+      "en": "And that, it's not quite spinning yet in AI, but you can squint and see it.",
+      "zh": "而那个飞轮，在 AI 领域还没真正转起来，但你眯起眼睛可以看到它在转。"
+    },
+    {
+      "timestamp": "22:48",
+      "speaker": "Gavin Baker",
+      "en": "Any reference to GPT-5 and scaling laws is crazy.",
+      "zh": "任何把 GPT-5 和缩放定律联系起来的说法都是疯狂的。"
+    },
+    {
+      "timestamp": "27:31",
+      "speaker": "Gavin Baker",
+      "en": "Humans were fundamentally paid based on outcomes, and a lot of AI will be augmenting humans, but probably also replacing some humans, and that will involve being paid for outcomes.",
+      "zh": "从根本上说，人类是按结果获得报酬的，很多 AI 会增强人类，但可能也会取代一部分人类，而这将涉及按结果付费。"
+    },
+    {
+      "timestamp": "24:45",
+      "speaker": "Gavin Baker",
+      "en": "In the next three years, I think you'll see a bunch of high-profile ASIC programs canceled, especially if Google starts selling TPUs externally, which has been all over X.",
+      "zh": "在接下来三年里，我认为你会看到一批高知名度的 ASIC 项目被取消，尤其是如果 Google 开始对外销售 TPU 的话，这在 X 上已经传遍了。"
+    },
+    {
+      "timestamp": "29:33",
+      "speaker": "Gavin Baker",
+      "en": "Are you kidding? That's insane. 10 years?",
+      "zh": "你在开玩笑吧？这太离谱了。十年？"
+    }
+  ],
+  "voice_script": "今天这期，咱们来听一个专门管钱的人，怎么拆解现在最热闹的问题：AI 到底是不是泡沫。\n\n说话的人叫 Gavin Baker,是 Atreides Management 的管理合伙人兼首席投资官。在硅谷，每当 AI 圈冒出个大新闻，大家都会去找他讨个解读。这一集是 a16z 的炉边谈话，主持人 David George 开场就甩了两个数：美国现在大约有一万亿美元的数据中心，未来五年还要再建三到四万亿；但与此同时，Google 的 token 处理量，十七个月里涨了一百五十倍。一边是天量的钱砸进去，一边是真发生了天量的使用。那么问题来了：这是泡沫吗？\n\nGavin 的答案很干脆：不是。而且这个判断，来自他亲历过的一段历史。二〇〇〇年电信泡沫，泡沫的标志物叫「暗光纤」——就是铺进了地下、却没点亮的光纤。为什么点不亮？因为没有两端的光学器件和交换机，那东西就是一捆废线。泡沫顶峰的时候，美国已经铺下去的光纤里，百分之九十七是暗的。\n\n现在把同样的尺子拿到今天来量：没有暗着的 GPU。读任何一篇技术论文都知道，训练模型最大的问题之一，就是 GPU 被跑融化了。算力不够用，这是和当年最本质的区别。\n\n再看两个硬指标。估值上，思科当年顶峰时市盈率一百五十到一百八十倍，NVIDIA 现在大约四十倍。回报上，最大的那几个 GPU 买家全是上市公司，加大资本开支以来，它们的投入资本回报率——说白了就是每投一块钱能赚回多少——提升了大约十个百分点。也就是说，到目前为止，AI 支出的回报是实实在在正面的。而且买单的人也有底气：出钱建这些设施的公司，每年合计产生大约三千亿美元自由现金流，账上还躺着五千亿现金。顺带一提，Larry Page 在 Google 内部说过一句狠话：宁愿破产，也不输掉这场竞赛。这种心态在 Google 是真实存在的，Meta 或许也是——这场竞赛，很多人是拿命在赌的。\n\n讲到这儿，肯定会有人反驳：NVIDIA 投资客户，客户转手就拿钱买 NVIDIA 的芯片，这不就是循环交易吗？Gavin 承认，这事客观上在发生——钱是可替代的，NVIDIA 也没法禁止 OpenAI 拿投资款去买自家芯片——但规模非常小。真正的驱动力不是融资，而是竞争。这里有个关键判断：NVIDIA 最大的竞争对手，不是 AMD,不是 Broadcom,肯定不是 Intel,而是手握 TPU 芯片的 Google。TPU 是今天唯一能替代 NVIDIA 做训练的芯片，可能也是最好的推理替代品。而且 Google 还有 DeepMind 和 Gemini——过去两三个月，Gemini 抢下了十五到二十个百分点的流量份额，这还不算搜索摘要。按实际流量算，Google 今天可能已经比 OpenAI 和 Anthropic 都大。所以当 Google 对 Anthropic 说「我帮你融资、给你芯片」的时候，NVIDIA 出于竞争，很难不回应。在 Gavin 眼里，Jensen 走的每一步棋都完全理性，而且他和 Elon 是自己见过最好的两位 CEO。\n\n这就引出一个更深的问题：模型这一层，格局到底会怎么走？Gavin 在这里提醒大家保持谦逊。他说，如果说 ChatGPT 之于 AI,相当于 Netscape Navigator 之于互联网——那在互联网繁荣的这个时间点上，Google 还没成立，Zuckerberg 还在上初中。意思就是，现在离终局还远得很。AI 到底是颠覆性创新还是持续性创新，也没定论：数据、算力资金、分发渠道，今天的大科技公司全都绰绰有余，只要执行得当，AI 对这些巨头反而可能是持续性创新；但它是生死攸关的，执行不好，下场就是当年的 IBM。对 Google 来说，ChatGPT 就是珍珠港。\n\n那模型公司能赚钱吗？别指望 SaaS 那种利润率。因为缩放定律——就是模型能力随算力投入可预测提升的规律——前沿实验室的毛利率在结构上就会更低。不过推理能力的出现，根本性地改变了这些公司的经济性。以前 Gavin 常说，一个没有独占数据、没有互联网级分发的前沿模型，是历史上贬值最快的资产；现在不一样了，庞大的用户群通过后训练阶段的强化学习把数据喂回去，解锁了每个伟大消费互联网公司都有的那个飞轮：好产品带来用户，用户让算法更好，算法又让产品更好。这个飞轮在 AI 里还没真正转起来，但眯起眼睛，已经能看到它在转了。\n\n接下来这拨人对 SaaS 公司的判断，挺反直觉的。Gavin 最想敲打的，是那些死守毛利结构的老牌 SaaS。当年很多零售商面对 Amazon 犯的关键错误，就是看着 Amazon 的利润率说「我们不想做那门生意」，结果二十五年后，Amazon 零售的利润率非常健康。一句话：鉴于 AI 更耗算力的本质，在 AI 上取得成功却不承受毛利率压力，从定义上讲是不可能的。先例也有——微软当年从本地永久授权转向利润率更低的云模式，之后十年股价相当不错。所以毛利下降不是耻辱，是成功的勋章。窗口期还有多久？Gavin 很惊讶，为什么没有一家上市的编程公司去和 Cursor 竞争——哪怕用现有业务的利润，养着 AI 产品盈亏平衡地跑，也是个机会。Cursor 已经积累了一万亿 token,等编程 token 攒够了量级，就真的追不上了。\n\n再看芯片这层棋局，Gavin 判断是一场双雄对决：NVIDIA 对 Google TPU。NVIDIA 已经不只是半导体公司——先是 CUDA 让它成了软件公司，然后是机架级方案让它成了系统公司，如今靠网络架构成了数据中心级的公司。另一个不被广泛认识的事实：Broadcom 和 AMD 实际上在联合走向市场，一起服务自研芯片阵营。但未来三年，Gavin 预计会看到一批高知名度的 ASIC 项目被取消——尤其如果 Google 开始对外卖 TPU 的话。\n\n最后落在商业模式上，一切都在走向按结果付费。最先跑通的会是客户支持，因为文本数据多、模型擅长文本、奖励也容易验证。往后，连个人的 AI 助理都会帮你订到最好价格的房间，然后收一笔联盟佣金。\n\n回头看这盘棋，为什么在新技术浪潮初期，基础设施层往往是相对安全的地方——因为算力真的不够用，因为回报是真实的，因为最大的玩家们把它当成存亡之战。二〇〇〇年，百分之九十七的光纤是暗的；今天，没有暗着的 GPU。这就是 Gavin Baker 说 AI 不是泡沫的理由。"
+}

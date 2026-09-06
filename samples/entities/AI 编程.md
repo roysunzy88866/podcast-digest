@@ -1,22 +1,21 @@
 ---
-title: AI 编程 (AI coding)
+title: AI 编程 (coding)
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 编程 (AI coding)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 编程 (coding)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 编程">AI</div><div class="pi"><h1 class="pt">AI 编程 (AI coding)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>232</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 编程">AI</div><div class="pi"><h1 class="pt">AI 编程 (coding)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>236</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(07:53起):本集将其描述为编程抽象的下一层，顶尖程序员现在的工作变成编排十几个并行的编码机器人、整天跟 AI 争论让它写出正确的代码
-- **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(13:47起):本集提了一句工程文化转向与 AI 编码的移动相契合：可惜六个月后要扔掉，但同时能以四倍速度构建。
+- **[[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]]**(13:51起):本集说编程是唯一毫无疑问找到产品市场契合的场景:Anthropic 误打误撞发现编程管用后所有人涌向编程;原因之一是工具构建者本身就是开发者,之二在于代码有可规模化的验证、能跑几百万次。
 
 ## ① 提到它的金句
 
-*232 条*
+*236 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -157,6 +156,14 @@ unlisted: true
 ![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q3]]
 
 ![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q7]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q3]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q6]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q10]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q12]]
 
 ![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q2]]
 
@@ -484,18 +491,17 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*1 集*
 
-- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念
-- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]] — 作为概念(提及)
+- [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[LLM]] · [[ChatGPT]] · [[Marc Andreessen]] · [[Jon Noronha]] · [[Lenny]] · [[Gamma]] · [[AI]] · [[PowerPoint]] · [[生产力增长]] · [[Google Slides]]
+[[Jacob Efron]] · [[Benedict Evans]] · [[OpenAI]] · [[Anthropic]] · [[LLM]] · [[基础模型]] · [[算力扩展]] · [[网络效应]] · [[AGI]] · [[企业软件]]
 
-<script type="application/json" class="pd-epn">{"LLM":25,"ChatGPT":50,"Marc Andreessen":2,"Jon Noronha":1,"Lenny":67,"Gamma":2,"AI":14,"PowerPoint":1,"生产力增长":1,"Google Slides":1}</script>
+<script type="application/json" class="pd-epn">{"Jacob Efron":1,"Benedict Evans":2,"OpenAI":92,"Anthropic":106,"LLM":26,"基础模型":1,"算力扩展":1,"网络效应":5,"AGI":19,"企业软件":3}</script>
 
 <script>
 (function(){

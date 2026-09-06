@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[ChatGPT]] · [[Matt Swulinski]] · [[Daniel Blum]] · [[Harry Stebbings]] · [[Claire Vo]] · [[Superhuman]] · [[Co-work]] · [[Victor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":46,"ChatGPT":50,"Matt Swulinski":1,"Daniel Blum":1,"Harry Stebbings":12,"Claire Vo":3,"Superhuman":4,"Co-work":3,"Victor":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":46,"ChatGPT":51,"Matt Swulinski":1,"Daniel Blum":1,"Harry Stebbings":13,"Claire Vo":3,"Superhuman":4,"Co-work":3,"Victor":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,190 @@
+{
+  "title_zh": "从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险",
+  "tldr": "Curative 联合创始人兼 CEO Fred Turner 讲述公司从牛基因检测一路做成 50 亿美元新冠检测巨头、再转型健康保险，以及如何用 AI 智能体重构保险后台。",
+  "digest_md": "一家公司从检测奶牛产奶量起步，九个月扩张到 7000 名员工、单日检测 20.6 万人、三年做到 50 亿美元收入——最后因为疫情退潮不得不整个转型成健康保险公司。这期的主角是 Curative 的联合创始人兼 CEO Fred Turner，一个 19 岁从英国搬到硅谷的连续创业者，他讲了自己两次「从零再来」的经历，以及为什么他今年要砍掉 80% 的 SaaS 支出。\n\n## 创业起点：奶牛、STD、脓毒症\n\nTurner 的第一家公司 TL Biolabs 做的是给牛做 DNA 测序，从幼年预测牛的肌肉量和产奶量。生意起源于一个农民寄来样本、前面附了张支票。他在英国融不到资——「我连会议都约不到，人们纯粹按资历投资」——而去硅谷，人们问的是「十年后它能多大」。这是两种完全不同的心态：一边优化最好的结果，一边规避最坏的结果。[05:53-07:02 Unknown]\n\n公司后来通过 YC、拿了 Andreessen 生物基金的种子轮，但 A 轮时投资人算了 TAM（总可触达市场）：美国 1 亿头牛、每例检测 15 到 20 美元，市场撑死 15 亿，不足以支撑 A 轮。于是他用同一套 DNA 检测技术转向人类诊断——先做 STD 检测（瞄准抗生素耐药性问题），再做脓毒症（sepsis，血液感染引发的免疫风暴，每延迟治疗一小时死亡率上升约 12%）。[10:42-14:13 Unknown]\n\n这家公司在 2019 年底死了：B 轮 term sheet 被一家大型诊断公司的 CEO 毙掉，因为与其核心产品竞争。只剩三周现金。清算时，他把辛苦两年拿到的实验室执照以 15 万美元卖掉——五个月后，为了重启新冠检测，他花 2700 万美元买回了同类执照。「时机就是一切。」[15:05-16:01 Unknown]\n\n## 新冠：八个月从 0 到日检 20.6 万\n\n转机来自意外：首席科学官在业余时间攒了一个新冠检测（原本只是给员工「求个安心」的训练练习）。2020 年 2 月中，Turner 看到数据后意识到「这会比人们想象的严重得多」。[21:27-21:39 Turner]\n\n他们的第一个大客户洛杉矶市，来自朋友 Laura Deming 的一条推文——「我们有新冠检测能力，有人要吗？」副市长私信了过来。合同条件苛刻到极致：交付后第二天早上去市政厅领支票，因为公司需要现金买耗材扩产能。[25:21-27:20 Unknown]\n\n最大的一单是佛罗里达州全州养老院检测：几亿美元级别，全州每家养老院每位员工每周检测一次、连续三个月。招标时所有大实验室都说不可能，他们接了并交付了。他的洞察是：Quest、LabCorp 这类传统实验室是为「效率」而建的机器，你让它们把产能放大 10 倍，恰恰与它们的构造相反。所以 Curative 搭建了「正交供应链」——不用所有人都在抢的耗材：拭子从电子行业供应商采购再消毒，用玻璃和塑料的过滤板替代产能锁死在中国两家工厂的磁珠。[28:24-30:36 Unknown]\n\n但这门生意本质上按峰值产能建设、低谷期照付 7000 人工资：「低谷期间我们每一单检测都在亏钱。」三年 50 亿收入里，约 5 亿美元被投进了下一门生意——健康保险。他们还做了 250 万剂疫苗接种，每一剂都亏钱。「回馈社会。」[32:55-35:06 Unknown]\n\n## 为什么是保险：支付方驱动一切\n\n找下一门生意时，实验室检测行业被否掉了——就算取代全部 LabCorp 和 Quest，也就是 300 亿美元市值的公司，不够大。买医院也被否：支付方太分散，医院端能改变的东西有限。最后他们的结论是：「支付方才是驱动美国医疗体系行为的那一方。你付钱做什么，人们就做什么。」[36:26-38:13 Unknown]\n\n对美国医疗体系，他想动的一刀是拆分谈判单位：同样的初级诊疗服务，隶属于大医院系统的医生平均报酬是独立医生的两倍——医院系统拿「你必须接入我们的手术中心」当筹码。四大支付方对高度整合的医院系统，谈判陷入僵局，所有人都在为一切多付钱。[38:23-39:52 Unknown]\n\n## AI 重构保险后台：三个真实案例\n\n健康保险「本质上就是搬运比特」，因此被 AI 根本性改变。他 2022 年创办时完全没想到这波 AI 会来——「如果早知道，我们会用完全不同的方式设计业务」。\n\n**资质认证归零**：核查每位签约医生的执照、成绩单、诉讼记录，过去平均 2-3 个月、成本 50 美元。现在一个跑在 Claude 上的自研智能体端到端完成，周转 12 小时，成本约 20 美分。[42:17-42:36 Unknown]\n\n**任意格式数据接入**：经纪人发来的文件格式五花八门。他们发现模型不擅长解析文件、但极其擅长写代码，于是让智能体写 Python 把任意文件转成标准格式，测通之后——「把那个脚本扔掉，这是一次性代码」。以前几百人搬电子表格，现在 15 分钟由模型搞定。[43:53-45:07 Unknown]\n\n**智能体 Gwen 签合同**：保险网络需要签约全美约 120 万医疗服务方、折合六七万份合同——这是蓝十字花 100 年、United/Cigna/Aetna 花 50 年垒起来的护城河。Gwen 拿到线索后自己搜索、研究诊所、查费率透明度数据、发定制邮件、多轮谈判费率、红线批注合同条款（模型不会编辑 Word，但让它们写 Python 来编辑就行），最后打开 DocuSign、用 Turner 本人的签名点击签署。人力做一份合同成本 1500-2000 美元，Gwen 平均约 70 美元。整个流程从每周 100 份合同变成每天 100 份：去年全团队做了 2300 份，最近八周智能体 alone 做了 3500 份。[51:31-52:43 Unknown]\n\n关键细节：Gwen 平均每天发 1.5 万封定制邮件，而「坚持不懈的跟进才有效——很多供应商到第九封邮件才回复。人类不可能发九封，因为你得不要脸」。但团队没有归零，而是转向大医院系统那种需要当面建立关系的合同。[52:43-52:48]\n\n## SaaS 已死？砍掉 80%\n\n他认同「SaaS 已死」：最近取消了每年 60 万美元的 Salesforce 订阅，换成 vibe coding（用自然语言让 AI 生成代码）两个月做出来的内部 CRM——运行更好、集成更深、智能体直接在里面跑，而且「没人再用 Salesforce 了」，连原本的全职 Salesforce 管理员都省了。今年公司要砍约 80% 的 SaaS 支出，内部会议有一页幻灯片列着「哪些合同到期、谁去通知对方不续约」。会存续的是偏基础设施的软件（如 Sentry）和 Slack 这种长满集成的，但「如果 Slack 涨价太狠，替换它终会变得合理」。[45:20-47:11 Unknown]\n\n对大保险公司，他的判断残酷但明确：它们在技术上未必做不到，而是组织上做不到——「如果你有 10 万员工，要裁 5 万才能拿到这种利润率，某个人的地盘就缩小了。所以它们会用 10 年慢慢做。在此期间，我们能更有效地竞争。」[48:21-48:51 Unknown]\n\n## 人往哪里去\n\nCurative 现在约 650 人，短期内会降到 400 左右。他押注两个不会消失的方向：技术能力（资深工程师不再写代码、甚至不读代码，用 Claude Code/Codex 部署智能体，产出是一年前的数倍，角色变成审查者和架构师）和关系（会员要能打电话找到真人，大合同靠面对面的信任，销售还是要吃饭打高尔夫）。他说新岗位会是「智能体监督者」：智能体做十倍的工作，哪怕只有 1% 触发审批，审批量也是十倍，怎么管理这些例外成了真瓶颈——试过让智能体监督智能体，一定程度有效。[55:17 嘉宾]\n\nAnthropic 的账单是领先指标：过去六七个月每月增长 6 倍，从几万美元的基础涨到每月数百万美元，虽然最终会不得不停止这种支出增长，但总是能发现新的用法。[50:02-50:24 嘉宾] 当被问到「如果 Anthropic 把价格翻倍，会影响你们的用量吗」，他说会的——照用不误。因为用人力做一份合同平均要花 1500 到 2000 美元，而用他们的智能体 Gwen 平均只要大约 70 美元。[53:44-54:13 嘉宾]\n\n## 彩蛋：核裂变\n\n他还和妻子共同创立了核裂变公司 Subcritical。他的核心论点：核能不是科学或工程问题——安全反应堆 60 年代就有了——而是监管问题。传统反应堆在「临界」的刀刃上平衡（恰好 1.0 的中子自持），很难保证永不出错。能量放大器方案（由前 CERN 主任、诺贝尔物理学奖得主 Carla Rubia 推动）始终运行在 0.97 的次临界状态，用粒子加速器注入中子驱动反应——关掉加速器，反应立刻熄灭。「无论你怎么对它，裂变永远不会失控。」每个 300 兆瓦部署约 10 亿美元建造成本，他认为这个市场与 Curative 的 1.5 万亿美元雇主医疗市场是同一数量级，而 Subcritical 会做得更大。\n\n> 【背景】Carla Rubia一般指意大利物理学家 Carlo Rubbia（卡洛·鲁比亚），1984 年诺贝尔物理学奖得主，曾任 CERN 总干事。\n\n最后，关于未来他改口最快的一点：「一年前我认为有些工作流今天的模型做不了。现在我确信，当前一代模型能完成我们在 Curative 的所有后台任务——剩下的只是部署、配置和制定正确的策略。」[79:00-79:28 Unknown]\n\n## 本集带走\n\n- **换行业先换判断轴**：从牛到 STD 到脓毒症，逻辑始终是「同一套 DNA 检测技术，找人们更在乎、更愿意付费的市场」；后来选保险，是因为看清了「支付方驱动美国医疗体系的一切行为」。\n- **10 倍扩张别找现有玩家**：传统实验室为效率而生，让它们扩产 10 倍等于反着来。要「正交供应链」——绕开所有人抢的耗材，从没人用的替代品入手。\n- **模型不擅长解析文件、但极其擅长写代码**：让智能体写 Python 把任意格式转成标准格式，用完即弃、一次性代码——这是他们最有效的数据接入方案，同理可编辑 Word、生成 CAD 模型。\n- **智能体的真正红利不是替代人力，而是做大分母**：Gwen 没有让 45 人团队归零，而是把每周 100 份合同变成每天 100 份——「既然有了智能体，我们今年能做去年 10 倍的量」。\n- **「坚持不懈」是可规模化的资源**：供应商到第九封邮件才回复，人类发不了九封，智能体可以——把这种不要脸的跟进规模化，就是销售优势。\n- **要砍 SaaS 先看集成密度**：偏基础设施的软件和长满工作流的（Slack）暂时安全；纯流程类 SaaS 面对一个为你的流程定制、两个月 vibe coding 出来的内部系统，很难招架。",
+  "quotes": [
+    {
+      "en": "Because with sepsis, basically every hour that you don't treat somebody is about a 12% increase in mortality.",
+      "zh": "因为对于脓毒症来说，基本上每延迟治疗一小时，死亡率就会增加大约 12%。",
+      "timestamp": "14:08",
+      "speaker": "Fred Turner"
+    },
+    {
+      "en": "Like the payer is the one that drives behavior in the US healthcare system. If you are providing the dollars, people will go where the dollars are.",
+      "zh": "支付方才是驱动美国医疗体系行为的那一方。如果你在提供资金，人们就会往钱所在的地方去。",
+      "timestamp": "38:01",
+      "speaker": "Fred Turner"
+    },
+    {
+      "en": "I think some of the biggest insurers will struggle.",
+      "zh": "我觉得一些最大的保险公司会挣扎。",
+      "timestamp": "48:21",
+      "speaker": "Fred Turner"
+    },
+    {
+      "en": "So, I mean, this is one of the, I think, the kind of leading indicators for us is that our Anthropic cost over the last six or seven months has 6X'd every month",
+      "zh": "嗯，我认为这对我们来说是一个领先指标，过去六七个月我们的 Anthropic 成本每月增长 6 倍。",
+      "timestamp": "50:02",
+      "speaker": "Fred Turner"
+    },
+    {
+      "en": "Last year, as an entire team, we did 2,300 contracts. So far in about the last eight weeks, the agent alone has done 3,500.",
+      "zh": "去年，整个团队我们完成了 2300 份合同。而在大约过去八周里，仅这个智能体就完成了 3500 份。",
+      "timestamp": "52:35",
+      "speaker": "Fred Turner"
+    },
+    {
+      "en": "What we've done is said, well, now that we have the agent, we can do 10 times as many contracts this year as we could do last year.",
+      "zh": "我们所做的是说，好吧，既然我们有了这个智能体，我们今年能做的合同数量可以达到去年的 10 倍。",
+      "timestamp": "54:43",
+      "speaker": "Fred Turner"
+    },
+    {
+      "en": "I think these are jobs that will look back and say, God, I can't believe we had people doing that kind of work.",
+      "zh": "我认为这些是将来我们回头看会说，天哪，真不敢相信我们当时让人做那种工作。",
+      "timestamp": "65:32",
+      "speaker": "Fred Turner"
+    },
+    {
+      "en": "I think today, the current gen models can do every back office task we have at Curative.",
+      "zh": "我认为现在，当前这一代模型可以完成我们在 Curative 的所有后台任务。",
+      "timestamp": "79:08",
+      "speaker": "Fred Turner"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "14:08",
+      "speaker": "Unknown",
+      "en": "Because with sepsis, basically every hour that you don't treat somebody is about a 12% increase in mortality.",
+      "zh": "因为对于脓毒症来说，基本上每延迟治疗一小时，死亡率就会增加大约 12%。"
+    },
+    {
+      "timestamp": "15:59",
+      "speaker": "Unknown",
+      "en": "So timing is everything.",
+      "zh": "所以时机就是一切。"
+    },
+    {
+      "timestamp": "19:05",
+      "speaker": "Unknown",
+      "en": "And so it doesn't matter if you have a better test if no one ever runs it.",
+      "zh": "所以，如果根本没人去跑那个检测，你再好的检测也没用。"
+    },
+    {
+      "timestamp": "30:47",
+      "speaker": "Unknown",
+      "en": "And so we peaked. I think our peak day was 206,000 people tested in a single day.",
+      "zh": "于是我们达到了峰值。我记得我们的峰值日是单日检测了 20.6 万人。"
+    },
+    {
+      "timestamp": "33:58",
+      "speaker": "Unknown",
+      "en": "Well, you'd actually lose money. We'd lose money on every test during the dips.",
+      "zh": "嗯，你实际上是在亏钱。在低谷期间，我们每一次检测都在亏钱。"
+    },
+    {
+      "timestamp": "38:01",
+      "speaker": "Unknown",
+      "en": "Like the payer is the one that drives behavior in the US healthcare system. If you are providing the dollars, people will go where the dollars are.",
+      "zh": "支付方才是驱动美国医疗体系行为的那一方。如果你在提供资金，人们就会往钱所在的地方去。"
+    },
+    {
+      "timestamp": "38:55",
+      "speaker": "Unknown",
+      "en": "Same service, same credentials, it's just that this one is part of a hospital system.",
+      "zh": "同样的服务，同样的资质，只是这一个属于某个医院系统。"
+    },
+    {
+      "timestamp": "41:03",
+      "speaker": "Unknown",
+      "en": "There's so much, I mean, all health insurance does is like moving bits around, right?",
+      "zh": "有太多，我的意思是，健康保险做的其实就是搬运比特，对吧？"
+    },
+    {
+      "timestamp": "42:17",
+      "speaker": "Unknown",
+      "en": "And that used to take us two to three months on average and cost about $50.",
+      "zh": "这以前平均要花我们两到三个月，成本大约 50 美元。"
+    },
+    {
+      "timestamp": "43:39",
+      "speaker": "Unknown",
+      "en": "We had a full-time Salesforce administrator.",
+      "zh": "我们曾有一名全职的 Salesforce 管理员。"
+    },
+    {
+      "timestamp": "44:23",
+      "speaker": "Unknown",
+      "en": "And then you throw away that script. And so it's single use code that never gets used again.",
+      "zh": "然后你把那个脚本扔掉。所以这是一次性的代码，再也不会被用到。"
+    },
+    {
+      "timestamp": "45:21",
+      "speaker": "Unknown",
+      "en": "Because I see the number of contracts we're canceling.",
+      "zh": "因为我看到我们在取消的合同数量。"
+    },
+    {
+      "timestamp": "46:32",
+      "speaker": "Unknown",
+      "en": "You can transition that into one great engineer, and then whenever you want a custom feature, you just go build it.",
+      "zh": "你可以把它转给一个优秀的工程师，然后每当你想要一个自定义功能，你直接去构建就行了。"
+    },
+    {
+      "timestamp": "48:21",
+      "speaker": "Unknown",
+      "en": "I think some of the biggest insurers will struggle.",
+      "zh": "我觉得一些最大的保险公司会挣扎。"
+    },
+    {
+      "timestamp": "48:42",
+      "speaker": "Unknown",
+      "en": "And so they will do it slowly over 10 years. It will happen, but will it happen quickly? No.",
+      "zh": "所以他们会在 10 年里慢慢做。这会发生，但会很快发生吗？不会。"
+    },
+    {
+      "timestamp": "49:06",
+      "speaker": "Unknown",
+      "en": "If we get in a dollar, we've got to spend 85 cents, pay half to, by law.",
+      "zh": "所以如果我们收到一美元，我们必须花掉 85 美分，按法律规定。"
+    },
+    {
+      "timestamp": "50:02",
+      "speaker": "Unknown",
+      "en": "So, I mean, this is one of the, I think, the kind of leading indicators for us is that our Anthropic cost over the last six or seven months has 6X'd every month",
+      "zh": "嗯，我认为这对我们来说是一个领先指标，过去六七个月我们的 Anthropic 成本每月增长 6 倍。"
+    },
+    {
+      "timestamp": "52:35",
+      "speaker": "Unknown",
+      "en": "Last year, as an entire team, we did 2,300 contracts. So far in about the last eight weeks, the agent alone has done 3,500.",
+      "zh": "去年，整个团队我们完成了 2300 份合同。而在大约过去八周里，仅这个智能体就完成了 3500 份。"
+    },
+    {
+      "timestamp": "54:43",
+      "speaker": "Unknown",
+      "en": "What we've done is said, well, now that we have the agent, we can do 10 times as many contracts this year as we could do last year.",
+      "zh": "我们所做的是说，好吧，既然我们有了这个智能体，我们今年能做的合同数量可以达到去年的 10 倍。"
+    },
+    {
+      "timestamp": "58:30",
+      "speaker": "Unknown",
+      "en": "A lot of providers will get them on the ninth email.",
+      "zh": "很多供应商要到第九封邮件才会回复。"
+    },
+    {
+      "timestamp": "65:32",
+      "speaker": "Unknown",
+      "en": "I think these are jobs that will look back and say, God, I can't believe we had people doing that kind of work.",
+      "zh": "我认为这些是将来我们回头看会说，天哪，真不敢相信我们当时让人做那种工作。"
+    },
+    {
+      "timestamp": "79:08",
+      "speaker": "Unknown",
+      "en": "I think today, the current gen models can do every back office task we have at Curative.",
+      "zh": "我认为现在，当前这一代模型可以完成我们在 Curative 的所有后台任务。"
+    }
+  ],
+  "voice_script": "今天这期，讲一个特别能折腾的人。Fred Turner，Curative 的联合创始人兼 CEO，19 岁从英国搬到硅谷的连续创业者。这家公司从检测奶牛起步，疫情里九个月扩到七千名员工、单日检测二十万多人，三年做了五十亿美元收入，疫情退潮之后，整个转型成健康保险公司，现在又在用 AI 智能体重构保险后台。两次从零再来，今年还要砍掉八成的 SaaS 支出。这一路是怎么走过来的，咱们从头讲。\n\n起点很接地气。Turner 的第一家公司，是给牛做 DNA 测序，从幼年预测牛的肌肉量和产奶量。生意怎么来的？一个农民寄来样本，前面附了张支票。但这家公司在英国融不到资，原话是「我连会议都约不到，人们纯粹按资历投资」。去了硅谷，人们问的是「十年后它能多大」。这就是两种心态：一边优化最好的结果，一边规避最坏的结果。后来进了 YC，拿了 Andreessen 生物基金的种子轮。可到了 A 轮，投资人一算市场：美国一亿头牛，每例检测十五到二十美元，撑死十五亿，不够。于是用同一套 DNA 检测技术转向人类——先做 STD 检测，瞄准抗生素耐药性；再做脓毒症，就是血液感染引发的免疫风暴，每延迟治疗一小时，死亡率上升大约百分之十二。\n\n那这家公司后来怎么样了？死在了 2019 年底。B 轮的 term sheet 被一家大型诊断公司的 CEO 毙掉，因为构成竞争。当时只剩三周现金。清算的时候，辛苦两年拿到的实验室执照，十五万美元卖了。你猜后来怎么着？五个月后，为了重启新冠检测，花了两千七百万美元买回同类执照。时机就是一切。\n\n新冠这个转机纯属意外。首席科学官业余时间攒了一个新冠检测，本来只是给员工求个安心的练习。2020 年 2 月中，Turner 看到数据，意识到这会比人们想象的严重得多。第一个大客户洛杉矶市，来自朋友的一条推文：「我们有新冠检测能力，有人要吗？」副市长私信过来的。合同条件苛刻到什么程度？交付后第二天早上就得去市政厅领支票，因为公司需要现金买耗材扩产能。最大一单是佛罗里达全州养老院检测，几亿美元级别，全州每家养老院每位员工每周检一次、连续三个月。招标时所有大实验室都说不可能，他们接了，也交付了。凭什么？Turner 的洞察是：Quest、LabCorp 这类传统实验室是为效率造的机器，你让它们产能放大十倍，恰恰跟构造相反。所以 Curative 搭了一套「正交供应链」——不用所有人都在抢的耗材：拭子从电子行业供应商采购再消毒，用过滤板替代产能锁死在中国两家工厂的磁珠。\n\n不过这生意是按峰值产能建的，低谷期照付七千人工资，每一单都在亏钱。三年五十亿收入里，大约五亿美元投进了下一门生意——健康保险，另外还做了二百五十万剂亏钱的疫苗接种。用他的话说，回馈社会。\n\n那为什么偏偏是保险？找方向的时候，实验室检测行业先被否掉了——就算吃下全部 LabCorp 和 Quest，也就三百亿美元市值，不够大。买医院也被否：支付方太分散，医院端能改的东西有限。最后的结论是一句话：「支付方才是驱动美国医疗体系行为的那一方。你付钱做什么，人们就做什么。」想动的一刀，是拆分谈判单位：同样的初级诊疗，挂在大医院系统下的医生平均报酬是独立医生的两倍，因为医院系统拿手术中心接入当筹码。四大支付方对高度整合的医院系统，谈判僵住，所有人都在为一切多付钱。\n\n健康保险本质上就是搬运比特，所以被 AI 根本性改变。2022 年创办时完全没想到这波 AI 会来。举三个真实案例。第一，资质认证：核查每位签约医生的执照、成绩单、诉讼记录，过去平均两三个月、成本五十美元；现在一个跑在 Claude 上的自研智能体端到端完成，十二小时周转，成本约二十美分。第二，数据接入：经纪人发来的文件格式五花八门，团队发现模型不擅长解析文件、但极其擅长写代码，就让智能体写 Python 把任意文件转成标准格式——测通之后脚本直接扔掉，一次性代码。以前几百人搬电子表格，现在十五分钟搞定。第三个最猛：一个叫 Gwen 的智能体签合同。保险网络要签约全美约一百二十万医疗服务方，折合六七万份合同，这是蓝十字花一百年、United 和 Cigna 和 Aetna 花五十年垒起来的护城河。Gwen 拿到线索，自己搜索、研究诊所、查费率数据、发定制邮件、多轮谈判、给合同条款做批注，最后打开 DocuSign，用 Turner 本人签名点签署。人力做一份合同一千五到两千美元，Gwen 平均七十美元。去年全团队做了两千三百份，最近八周智能体一家做了三千五百份。还有个关键细节：Gwen 平均每天发一万五千封定制邮件，很多供应商到第九封才回复——人类发不了九封，因为你得不要脸。但团队没有归零，转向了大医院系统那种要当面建立关系的合同。\n\n这套玩法底下，是对 SaaS 行业的判断：SaaS 已死。最近取消了每年六十万美元的 Salesforce 订阅，换成用自然语言让 AI 生成代码、两个月做出来的内部 CRM，运行更好、智能体直接在里面跑，连全职 Salesforce 管理员都省了。今年要砍掉约八成 SaaS 支出，会里有一页幻灯片列着「哪些合同到期、谁去通知不续约」。能活下来的是偏基础设施的软件和 Slack 这种长满集成的——不过要是 Slack 涨价太狠，替换它终会变得合理。对大保险公司，判断残酷但明确：技术上未必做不到，是组织上做不到。十万员工的公司要裁五万才能拿到这种利润率，某人的地盘就缩小了，所以它们会用十年慢慢做。在此期间，小公司能更有效地竞争。\n\n那人往哪儿去？公司现在约六百五十人，短期会降到四百左右。押注两个不会消失的方向：技术能力和关系。资深工程师不再写代码、甚至不读代码，专门部署智能体，角色变成审查者和架构师；而会员要能打电话找到真人，大合同靠面对面的信任。新岗位叫「智能体监督者」：智能体做十倍的工作，哪怕只有百分之一触发审批，审批量也是十倍，管理例外成了真瓶颈。Anthropic 的账单是个领先指标：过去六七个月每月增长六倍，从几万美元涨到每月数百万美元。要问如果价格翻倍影响用量吗？会——照用不误，毕竟跟一千五百美元的人力成本比，七十美元还是太便宜了。\n\n彩蛋一个。Turner 还跟妻子共同创立了核裂变公司 Subcritical，论点是核能不是科学或工程问题——安全反应堆六十年代就有了——而是监管问题。传统反应堆在「临界」的刀刃上平衡，很难保证永不出错；他们的方案始终运行在零点九七的次临界状态，用粒子加速器注入中子驱动反应，关掉加速器，反应立刻熄灭，裂变永远不会失控。这个市场，跟 Curative 那个一点五万亿美元的雇主医疗市场是同一数量级。\n\n最后留一句话，是关于未来改口最快的一点：「一年前我认为有些工作流今天的模型做不了。现在我确信，当前一代模型能完成我们在 Curative 的所有后台任务——剩下的只是部署、配置和制定正确的策略。」"
+}

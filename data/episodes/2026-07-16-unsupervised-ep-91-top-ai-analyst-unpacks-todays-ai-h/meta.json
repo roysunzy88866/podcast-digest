@@ -1,0 +1,27 @@
+{
+  "id": "2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h",
+  "audio_mp3": "https://cdn.simplecast.com/media/audio/transcoded/b3414ac6-61c8-4752-8722-491e1457c3bf/2c08ad29-5b79-42c0-a40a-6c1af4327f2f/episodes/audio/group/5b19b465-998c-4edf-905b-2451524aa49b/group-item/a926beb0-2bd8-446f-9450-f1e1ad96cc82/128_default_tc.mp3?aid=rss_feed&feed=dOSE_bdP",
+  "duration_sec": 4426.898,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 1191,
+  "asr": true,
+  "title_en": "Ep 91: Top AI Analyst Unpacks Today's AI Hype Cycle",
+  "podcast": "Unsupervised Learning",
+  "date": "2026-07-16",
+  "added": "2026-09-07",
+  "added_at": "2026-09-06T21:16:46.242Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jacob Efron",
+    "SPEAKER_01": "Benedict Evans"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Jacob Efron",
+  "cohosts": [
+    "Benedict Evans"
+  ],
+  "title_zh": "Benedict Evans:AI 价值会落在哪一层?",
+  "guest_name": "Benedict Evans",
+  "guest_title": "科技分析家",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

@@ -43,7 +43,7 @@ unlisted: true
 
 [[Google]] · [[ChatGPT]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Andrew]] · [[Cloudflare]] · [[LLM]] · [[Sonia]] · [[Parag]]
 
-<script type="application/json" class="pd-epn">{"Google":35,"ChatGPT":50,"智能体":1,"OpenAI":90,"Lenny":67,"Andrew":3,"Cloudflare":9,"LLM":25,"Sonia":2,"Parag":2}</script>
+<script type="application/json" class="pd-epn">{"Google":36,"ChatGPT":51,"智能体":1,"OpenAI":92,"Lenny":67,"Andrew":3,"Cloudflare":9,"LLM":26,"Sonia":2,"Parag":2}</script>
 
 <script>
 (function(){

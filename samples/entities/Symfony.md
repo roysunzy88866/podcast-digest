@@ -25,7 +25,7 @@ unlisted: true
 
 [[Guy Fajani]] · [[Ryan Lopopolo]] · [[harness 工程]] · [[Codex]] · [[OpenAI]] · [[智能体]] · [[提示词注入]] · [[护栏]] · [[上下文工程]] · [[规范]]
 
-<script type="application/json" class="pd-epn">{"Guy Fajani":3,"Ryan Lopopolo":1,"harness 工程":1,"Codex":39,"OpenAI":90,"智能体":1,"提示词注入":11,"护栏":2,"上下文工程":7,"规范":1}</script>
+<script type="application/json" class="pd-epn">{"Guy Fajani":3,"Ryan Lopopolo":1,"harness 工程":1,"Codex":39,"OpenAI":92,"智能体":1,"提示词注入":11,"护栏":2,"上下文工程":7,"规范":1}</script>
 
 <script>
 (function(){

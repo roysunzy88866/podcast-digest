@@ -1,0 +1,196 @@
+{
+  "title_zh": "Benedict Evans:AI 价值会落在哪一层?",
+  "tldr": "科技分析家 Benedict Evans 用移动、半导体、云的历史类比拆解 AI:价值为何难归模型公司、消费端为何不温不火、企业落地缺的到底是什么。",
+  "digest_md": "这一集聊的是当下 AI 最难回答的几个问题:它到底有多大、钱会赚在谁手里、普通人为什么还没天天用它。说话的主角是 Benedict Evans——硅谷最有影响力的独立科技分析者之一,以年度趋势演示文稿和周更 newsletter 出名,主持人是 Redpoint 的投资人 Jacob Efron。\n\n## 别争论它比谁大,去看上五次发生了什么\n\nEvans 对「AI 是不是比互联网更大」这类问题很警惕:这种比较根本没法量化。他的方法是把争论放到一边,回头研究「过去五次改变世界的技术出现时,都发生了什么」。他写 token 定价时会并列拆解半导体、移动、光纤、操作系统各自的规律——这些类比没有预测力,但能告诉你该看什么。半导体那边,尖端晶圆厂成本每几年翻倍,基础模型看起来很像;移动那边,网络有真实的边际成本,流量翻倍就得加建基站——这很像过去半年 GPU 供应紧张、大家改定价方案的样子。而移动最扎心的教训是:15 年里移动数据流量涨了一两千倍,这是个万亿美元行业、每年资本开支 2000 亿美元,却不怎么赚钱——因为 Uber、YouTube、银行应用全是别人做的,价值全往上走。AI 的核心问题之一正是:模型层会不会也这样?\n\n与以往平台转移最大的不同,是我们不知道这东西的物理极限。1995 年你不知道互联网会怎样,但你知道 PC 多少钱、光纤不可能下个月铺进每家;今天你不知道模型为什么这么好、下一步会怎样。他把「AGI 会不会来」当成古巴导弹危机里那位交易员的二元赌注:真发生了,我们有比中产失业更大的问题;没发生,那就回来老老实实分析企业软件。\n\n## 价值在哪一层?模型可能不像 Windows\n\nSam Altman 说模型公司会像 Windows,但 Evans 指出 LLM 没有网络效应,所以大概率不会变成 Windows。现状是三到六家公司做着差不多领先的模型,你方唱罢我登场——这在他看来反而是坏信号:彻底搞砸过的玩家还能直接跳回榜首,说明只要肯花几十亿美元、雇对人,就没有根本性的进入壁垒,不像搜索、社交当年。只要 scaling 持续,前沿公司数量应该会像半导体那样收窄;算力是当下唯一的护城河。\n\n模型公司能赚大钱——他承认 TSMC、AWS、Windows 都是好生意——但没有一个拥有整条栈。TSMC 垄断尖端制程,净利润是苹果的一半,可你不会为 TSMC 写应用。「你不会因为基础模型商品化就否定它,但也别指望它吃掉整条价值链。」\n\n## 消费端:惊艳,但还没到「每天用」\n\n现在大约 10%-15% 的人是日活,而且一天也就用一两次;还有二三十个百分点的周活月活——而从社交产品的历史你知道,周活是扯淡。软件开发是毫无疑问找到产品市场契合的特例;另一群重度用户是像他这样为自己工作的知识工作者;其他人只是「还挺有用」。他的经典类比:1970 年代末,会计看到第一批电子表格是改变人生,律师看到只是「下周可以拿它记工时表」。身处硅谷泡沫、抱着五台 Mac mini 让 Claude Code 整天跑的人,根本不是普通用户——你是 1992 年用 Telnet 上网的那种人。\n\n他提醒:每项新技术,一开始都是拿旧事做得更快、逼新技术适应旧方式;想出「只有它才可能做到的全新事物」需要更久,而那个新东西通常不是自动化旧任务。\n\n## 就业:参差的能力,糟糕的预测\n\n能力是参差不齐的:AI 能干人花 17 小时的事,也有五分钟就能干而它干不了的事——智能不是线性的。「AI 能做一年级律师 93% 的工作」这种雷达图在他看来是妄想:你既没法那样衡量律师在做什么,也没法衡量模型能不能做到。Geoff Hinton 十年前说别再培养放射科医生,双重错误是:机器学习做不到他以为的事,而那本来也不是放射科医生的工作核心。他还用 Uber/Airbnb 的对比说明影响有多不均匀:Uber 摧毁了纽约四分之三的出租车市场,Airbnb 只稍稍拖慢了酒店增长;互联网没改变「记者」意味着什么,却摧毁了本地广告业——这种事你的就业暴露分析根本算不到。那些回溯测试「就是扯淡」。\n\n## 企业落地:三个门槛,一个翻译层\n\n他最近的核心分析:大多数人不满足三件事——不是工具构建者、看不见工具要解决的那个问题、即使前两条成立也不在能动手构建的位置上。出色的销售员的技能,和设计销售软件的技能,完全是两回事;可你却期待大公司后台的中层经理拿到 Claude 就能发明下一个伟大的企业软件。第三层是受监管的数据和挂在上面的钱,你不能让人随手搭工具替换 SAP。\n\n于是企业部署的剧本是:第一步给每人发一个 Copilot,第二步「哎呀,没起作用」,第三步做一堆试点、部署一半、跑得还行——但那是一次一个的自动化痛点,大家隐约觉得这不是全部,真正的问题是「如何从结构上改变做事方式」,而那就是以前叫数字化转型的庞大项目,是咨询公司存在的原因。他有个保留节目:「把数字化转型念三遍,就会有一团烟雾,Accenture 的合伙人从中出现。」\n\n## 编程为什么先跑通?\n\n模型提供商第一次杀进应用层就赢了——Claude Code。他给的解释之一:工具构建者本身就是开发者的领域,恰好就是开发工具。另外代码有可规模化的验证:能跑几百万次;越往复杂咨询项目走,越难有可重复的客观验证。他还抛出一个概念性问题:模型本质上是在学「大多数人可能会怎么做」,而有些场景你偏偏不想要平均值——AI 音乐模型能给你造更多糟糕的爵士乐,但想象一下发明朋克、发明嘻哈?那从哪来?\n\n## 如果你经营一家模型公司\n\n他对 Sam Altman 抱有同情:基础设施、芯片、分发、产品全要自己建,「就像你是 Bill Gates,得在 1980 年同时发明 PC、企业软件和宽带网络」。OpenAI 去年下半年选择在商品化模型之上什么都试:浏览器、社交视频、应用商店、购物、广告;Anthropic 资本更少、更专注,误打误撞发现了编程,然后所有人一拥而上。但每四到六周榜首就换人,可持续差异化的路径至今没有迹象。他提醒别忘了执行:Google 手握所有数据照样在社交上输给了先做出来的 Facebook——「历史不是一个人,总得有人真正把事做成」。至于从 Meta 挖一批 2010 年之后的高管来跑打法,他形容为货物崇拜:模仿了仪式的形式,但飞机不会因此降落。\n\n## 本集带走\n\n- **用历史校准,别用比喻站队**:每次技术变革都「不一样也更大」,但回去看电力、移动、半导体发生了什么,比争论这次是不是工业革命有用得多。\n- **盯住移动网络的教训**:有边际成本、流量涨千倍、基础设施不赚钱、价值全在上层应用——这是模型层最该担心的剧本;LLM 缺网络效应,当不了 Windows。\n- **判断工作影响,看三件事**:有没有足够训练数据、验证能不能规模化、以及你要不要「大多数人的平均值」——越想要独特结果,模型越吃力。\n- **企业落地的真实瓶颈不是模型**:是没人能把自己的问题讲清楚、没人会设计工具、数据又受监管;所以试点模式一个一个来,真正的变革是又一个「数字化转型」级的大项目。\n- **消费端在等创业者,不是等用户自发**:Flickr、Instagram、TikTok 都是被发明出来的;Sora 之败更像无人机和 3D 打印——很酷,但没有解决具体问题的场景。\n- **AI 是赋能技术**:最重要的应用到你面前时不会自称 AI,就像 1994 年记者只看见「聊天室」而 Bowie 看见了网络。",
+  "quotes": [
+    {
+      "en": "And it's a trillion-dollar industry, and they spend $200 billion a year on CapEx, and they don't make any money.",
+      "zh": "这是一个万亿美元的行业,他们每年在资本开支上花 2000 亿美元,而他们不赚钱。",
+      "timestamp": "05:06",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "Sam Altman said we're going to be like Windows, but LLMs don't have network effects.",
+      "zh": "Sam Altman 说我们会像 Windows 一样,但 LLM 没有网络效应。",
+      "timestamp": "05:27",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "The big difference, like the actual tangible difference to previous platform shifts is that we don't know the physical limits of this.",
+      "zh": "与以往平台转移真正的、实际的区别在于,我们不知道这个东西的物理极限。",
+      "timestamp": "06:50",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "Either the rumor's true, in which case we're all dead anyway, or it's not, in which case the stocks are cheap.",
+      "zh": "要么传言是真的,那种情况下我们反正都死了;要么不是,那种情况下股票很便宜。",
+      "timestamp": "08:05",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "A lot of these conversations also end up sounding like the stuff you say at two o'clock in the morning if you're a slightly drunk philosophy grad student.",
+      "zh": "很多这类对话最后听起来,就像一个有点喝醉的哲学研究生凌晨两点会说的话。",
+      "timestamp": "09:00",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "The analogy I always use here is imagine you're an accountant seeing the first software spreadsheets in the late 70s. This is life changing.",
+      "zh": "我在这里总用的类比是:想象你是个会计,在 1970 年代末看到第一批电子表格软件——这是改变人生的。",
+      "timestamp": "12:45",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "With every new technology, you start by taking the thing you're already doing and doing it more and faster with the new technology and forcing the new technology to fit the old way of doing it.",
+      "zh": "每一项新技术出现时,你一开始都是拿你已经在做的事情,用新技术做得更多、更快,并强迫新技术去适应旧的做事方式。",
+      "timestamp": "15:41",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "Because what that says to me is not very hard if you're willing to spend a couple of billion dollars and hire the right people.",
+      "zh": "因为对我来说这说明,只要你愿意花个几十亿美元并雇到对的人,这事就没那么难。",
+      "timestamp": "27:11",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "And yet you're expecting like random middle managers in the back office of big companies to dream that up like this afternoon if you give them Claude.",
+      "zh": "然而你却期待大公司后台部门随随便便的中层经理,如果给他们 Claude,就能像今天下午这样凭空想出来。",
+      "timestamp": "30:31",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "You've got to work out, well, what is the path to sustainable competitive differentiation when every four to six weeks there's another model at the top of the leaderboard?",
+      "zh": "你得想明白:当每四到六周排行榜榜首就出现另一个新模型时,可持续的竞争差异化路径到底是什么?",
+      "timestamp": "49:34",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "This is the mistake. It's not the chat rooms. It's the network. And it's the same thing here. It's not the text in the pictures. It's the enabling technology.",
+      "zh": "这就是那个错误。重要的不是聊天室,是网络。这里也是同样的道理:重要的不是文字和图片,是那项赋能技术。",
+      "timestamp": "67:47",
+      "speaker": "Benedict Evans"
+    },
+    {
+      "en": "I mean, sometimes it is kind of simple. It's a low-margin reseller, one-time sales.",
+      "zh": "我是说,有时候事情就是这么简单:低利润率的转售商,一次性销售。",
+      "timestamp": "73:07",
+      "speaker": "Benedict Evans"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:06",
+      "speaker": "Benedict Evans",
+      "en": "And it's a trillion-dollar industry, and they spend $200 billion a year on CapEx, and they don't make any money.",
+      "zh": "这是一个万亿美元的行业,他们每年在资本开支上花 2000 亿美元,而他们不赚钱。"
+    },
+    {
+      "timestamp": "05:19",
+      "speaker": "Benedict Evans",
+      "en": "And all the value went up stack. And obviously, that's one of the questions about AI.",
+      "zh": "而所有的价值都往上走,到了栈的上层。显然,这也是关于 AI 的问题之一。"
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Benedict Evans",
+      "en": "Sam Altman said we're going to be like Windows, but LLMs don't have network effects.",
+      "zh": "Sam Altman 说我们会像 Windows 一样,但 LLM 没有网络效应。"
+    },
+    {
+      "timestamp": "07:00",
+      "speaker": "Benedict Evans",
+      "en": "The big difference, like the actual tangible difference to previous platform shifts is that we don't know the physical limits of this.",
+      "zh": "与以往平台转移真正的、实际的区别在于,我们不知道这个东西的物理极限。"
+    },
+    {
+      "timestamp": "08:05",
+      "speaker": "Benedict Evans",
+      "en": "Either the rumor's true, in which case we're all dead anyway, or it's not, in which case the stocks are cheap.",
+      "zh": "要么传言是真的,那种情况下我们反正都死了;要么不是,那种情况下股票很便宜。"
+    },
+    {
+      "timestamp": "09:08",
+      "speaker": "Benedict Evans",
+      "en": "A lot of these conversations also end up sounding like the stuff you say at two o'clock in the morning if you're a slightly drunk philosophy grad student.",
+      "zh": "很多这类对话最后听起来,就像一个有点喝醉的哲学研究生凌晨两点会说的话。"
+    },
+    {
+      "timestamp": "09:24",
+      "speaker": "Benedict Evans",
+      "en": "We'll find out. Meanwhile, let's build some stuff and work out what works.",
+      "zh": "我们会弄清楚的。在此期间,我们先造点东西,看看什么管用。"
+    },
+    {
+      "timestamp": "11:57",
+      "speaker": "Benedict Evans",
+      "en": "So if you're using this once or twice a week, You're clearly not in the dream of Silicon Valley that this changes computing.",
+      "zh": "所以如果你一周才用一两次,你显然不在硅谷的那个梦想里,即这会改变计算。"
+    },
+    {
+      "timestamp": "12:45",
+      "speaker": "Benedict Evans",
+      "en": "The analogy I always use here is imagine you're an accountant seeing the first software spreadsheets in the late 70s. This is life changing.",
+      "zh": "我在这里总用的类比是:想象你是个会计,在 1970 年代末看到第一批电子表格软件——这是改变人生的。"
+    },
+    {
+      "timestamp": "15:41",
+      "speaker": "Benedict Evans",
+      "en": "With every new technology, you start by taking the thing you're already doing and doing it more and faster with the new technology and forcing the new technology to fit the old way of doing it.",
+      "zh": "每一项新技术出现时,你一开始都是拿你已经在做的事情,用新技术做得更多、更快,并强迫新技术去适应旧的做事方式。"
+    },
+    {
+      "timestamp": "19:29",
+      "speaker": "Benedict Evans",
+      "en": "Yeah, but there's also stuff that takes people five minutes that it can't do. It's not linear like that.",
+      "zh": "是的,但也有一些人只要五分钟就能做到而它做不到的事情。它不是那样线性的。"
+    },
+    {
+      "timestamp": "24:38",
+      "speaker": "Benedict Evans",
+      "en": "It's horseshit.",
+      "zh": "这就是扯淡。"
+    },
+    {
+      "timestamp": "27:11",
+      "speaker": "Benedict Evans",
+      "en": "Because what that says to me is not very hard if you're willing to spend a couple of billion dollars and hire the right people.",
+      "zh": "因为对我来说这说明,只要你愿意花个几十亿美元并雇到对的人,这事就没那么难。"
+    },
+    {
+      "timestamp": "30:31",
+      "speaker": "Benedict Evans",
+      "en": "And yet you're expecting like random middle managers in the back office of big companies to dream that up like this afternoon if you give them Claude.",
+      "zh": "然而你却期待大公司后台部门随随便便的中层经理,如果给他们 Claude,就能像今天下午这样凭空想出来。"
+    },
+    {
+      "timestamp": "44:39",
+      "speaker": "Benedict Evans",
+      "en": "But imagine inventing punk. Yeah. Imagine inventing hip hop.",
+      "zh": "但想象一下发明朋克。是的,想象一下发明嘻哈。"
+    },
+    {
+      "timestamp": "49:47",
+      "speaker": "Benedict Evans",
+      "en": "You've got to work out, well, what is the path to sustainable competitive differentiation when every four to six weeks there's another model at the top of the leaderboard?",
+      "zh": "你得想明白:当每四到六周排行榜榜首就出现另一个新模型时,可持续的竞争差异化路径到底是什么?"
+    },
+    {
+      "timestamp": "52:44",
+      "speaker": "Benedict Evans",
+      "en": "Somebody actually has to do it. So you have to actually make that thing happen.",
+      "zh": "总得有人真正去做这件事。所以你必须真正把那件事做成。"
+    },
+    {
+      "timestamp": "67:47",
+      "speaker": "Benedict Evans",
+      "en": "This is the mistake. It's not the chat rooms. It's the network. And it's the same thing here. It's not the text in the pictures. It's the enabling technology.",
+      "zh": "这就是那个错误。重要的不是聊天室,是网络。这里也是同样的道理:重要的不是文字和图片,是那项赋能技术。"
+    },
+    {
+      "timestamp": "73:07",
+      "speaker": "Benedict Evans",
+      "en": "I mean, sometimes it is kind of simple. It's a low-margin reseller, one-time sales.",
+      "zh": "我是说,有时候事情就是这么简单:低利润率的转售商,一次性销售。"
+    }
+  ],
+  "voice_script": "今天这一集的主角是 Benedict Evans,硅谷最有影响力的独立科技分析者之一,做过很多年的年度趋势演示文稿,每周还写一份 newsletter,在行业里引用率极高。主持人是 Redpoint 的投资人 Jacob Efron。两个人聊的,是当下 AI 最难回答的几个问题:这个东西到底有多大、钱最后会赚在谁手里、还有,普通人为什么到现在都没天天用它。\n\n先说 Evans 的基本方法。很多人爱争论 AI 是不是比互联网更大,Evans 对这类问题很警惕,因为根本没法量化。他的办法是把争论放到一边,回头研究过去五次改变世界的技术出现时,都发生了什么。比如他分析 token 定价的时候,会把半导体、移动、光纤、操作系统各自的规律并排列出来。这些类比没有预测力,但能告诉你该看什么。\n\n那这些类比里,哪个最扎心呢?是移动网络。15 年里移动数据流量涨了一两千倍,这是个万亿美元的行业,每年资本开支 2000 亿美元,却不怎么赚钱。为什么?因为 Uber、YouTube、银行应用全是别人做的,价值全往上走。而这恰恰是 AI 最该担心的问题:模型层会不会也这样?基础模型现在看起来很像半导体那边,尖端晶圆厂成本每几年翻倍;GPU 供应紧张、大家改定价方案,又很像移动当年网络的边际成本。模型公司是不是注定就是那个不赚钱的基础设施?\n\n要回答这个问题,得先看模型层有没有护城河。Sam Altman 说模型公司会像 Windows,但 Evans 指出,LLM 没有网络效应,所以大概率当不了 Windows。现状是三到六家公司做着差不多领先的模型,你方唱罢我登场。听起来竞争激烈,但 Evans 认为这反而是坏信号——彻底搞砸过的玩家还能直接跳回榜首,说明只要肯花几十亿美元、雇对人,就没有根本性的进入壁垒,不像搜索、社交当年。只要 scaling 持续,前沿公司数量应该会像半导体那样收窄,算力是当下唯一的护城河。\n\n当然,模型公司也能赚大钱,TSMC、AWS、Windows 都是好生意,但没有一个拥有整条栈。TSMC 垄断尖端制程,净利润是苹果的一半,可你不会为 TSMC 写应用。所以他的判断是:你不会因为基础模型商品化就否定它,但也别指望它吃掉整条价值链。\n\n那为什么普通消费者到现在还用得不多?现在大约 10% 到 15% 的人是日活,而且一天也就用一两次;还有二三十个百分点的周活月活,而从社交产品的历史你知道,周活是扯淡。软件开发是毫无疑问找到产品市场契合的特例;另一群重度用户,是像 Evans 这样为自己工作的知识工作者;其他人只是觉得「还挺有用」。这里他有个经典类比:想象你是个会计,在 1970 年代末看到第一批电子表格软件——这是改变人生的;但同一个时代的律师看到,只会觉得下周可以拿它记工时表。所以身处硅谷、抱着五台 Mac mini 让 Claude Code 整天跑的人,根本不是普通用户——你是 1992 年用 Telnet 上网的那种人。\n\n那什么时候会变?Evans 提醒,每项新技术,一开始都是拿旧事做得更快、逼新技术适应旧方式;想出只有它才可能做到的全新事物,需要更久,而那个新东西通常不是自动化旧任务。就像 Flickr、Instagram、TikTok,全都是被创业者发明出来的,不是等用户自发冒出来的。\n\n这个「能力参差」的特点,也直接影响对就业的判断。AI 能干人花 17 小时的事,也有五分钟就能干而它干不了的事——智能不是线性的。所以「AI 能做一年级律师 93% 的工作」这种雷达图,在他看来是妄想:你既没法那样衡量律师在做什么,也没法衡量模型能不能做到。Geoff Hinton 十年前说别再培养放射科医生,结果双重错误:机器学习做不到他以为的事,而那本来也不是放射科医生工作的核心。再看 Uber 和 Airbnb 的对比就知道影响有多不均匀——Uber 摧毁了纽约四分之三的出租车市场,Airbnb 只稍稍拖慢了酒店增长。这种事,你的就业暴露分析根本算不到,那些回溯测试就是扯淡。\n\n说回企业落地,这是 Evans 最近的核心分析。大多数人为什么用不上?因为不满足三件事:不是工具构建者;看不见工具要解决的那个问题;就算前两条成立,也不在能动手构建的位置上。出色的销售员的技能,和设计销售软件的技能,完全是两回事,可你却期待大公司后台的中层经理拿到 Claude 就能发明下一个伟大的企业软件。第三层是受监管的数据和挂在上面的钱,你不能让人随手搭工具替换 SAP。\n\n所以企业部署的剧本大家都见过:第一步给每人发一个 Copilot,第二步发现没起作用,第三步做一堆试点、部署一半、跑得还行。但那是一次一个的自动化痛点,真正的问题是如何从结构上改变做事方式——那就是以前叫数字化转型的庞大项目。Evans 有个保留节目:「把数字化转型念三遍,就会有一团烟雾,Accenture 的合伙人从中出现。」\n\n那为什么编程先跑通了?因为模型提供商第一次杀进应用层就赢了,就是 Claude Code。一个解释是:工具构建者本身就是开发者的领域,恰好就是开发工具。更关键的是代码有可规模化的验证,能跑几百万次;越往复杂咨询项目走,越难有可重复的客观验证。\n\n最后一个角度:如果你经营一家模型公司,日子有多难?Evans 对 Sam Altman 其实抱有同情,因为基础设施、芯片、分发、产品全要自己建,「就像你是 Bill Gates,得在 1980 年同时发明 PC、企业软件和宽带网络」。OpenAI 选择在商品化模型之上什么都试,浏览器、社交视频、应用商店、购物、广告;Anthropic 资本更少、更专注,误打误撞发现了编程,然后所有人一拥而上。但每四到六周榜首就换人,可持续差异化的路径至今没有迹象。别忘了执行——Google 手握所有数据,照样在社交上输给了先做出来的 Facebook。历史不是一个人,总得有人真正把事做成。\n\n所以最后记住这一集的核心:别用比喻站队,用历史校准。盯住移动网络的教训——基础设施有边际成本、流量涨千倍、价值全在上层应用,这可能就是模型层的剧本。而 AI 归根结底是一项赋能技术,最重要的应用到你面前时,不会自称 AI,就像 1994 年记者只看见聊天室,而 Bowie 看见了网络。"
+}

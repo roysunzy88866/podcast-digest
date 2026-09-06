@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>90</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>92</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,8 @@ unlisted: true
 - **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(03:58起):本集一笔带过:与 Anthropic、Google 一起在 AI 基础模型方面做得很棒
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(01:40起):本集把它说成:前沿 AI 研究实验室,曾提供 GPT-2 等早期开源模型;但也指出这类大实验室常背着「模型必须完美、产品必须达到高标准才能见人」的包袱。
 - **[[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]]**(09:42起):本集的开发者日主办方,主张现在是做工程师最好的时代,目标是打造彻底开放、人人可建生态的 AI 智能体底层平台
+- **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(03:19起):本集说 OpenAI 一家已有超一万亿美元承诺交易，是循环交易争议的对象（NVIDIA 无法禁止它拿投资款买自家芯片）；并强调 GPT-5 是个更小的模型，为运行更经济而设计，与缩放定律无关。
+- **[[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]]**(10:09起):本集说 OpenAI 去年下半年选择在商品化基础模型之上什么都试——浏览器、社交视频、应用商店、购物、广告;Evans 对 Sam Altman 表示同情:要同时自己建基础设施、芯片、分发和产品,'就像你是 Bill Gates,得在 1980 年同时发明 PC、企业软件和宽带网络'。
 - **[[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]]**(00:15起):本集提到 OpenAI 编程更强时,别人会用它的模型帮自己训练编程模型;它与 Anthropic 一样一夜之间成了万亿美元公司,不需要被同情的竞争保护。
 - **[[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]]**(28:05起):本集提到 OpenAI 和 Anthropic 作为有『实验室光环』的对比对象,以及 OpenAI 已做过类似前置部署工程组织的事情。
 - **[[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]]**(02:23起):本集多次提及的模型实验室,Codex 的出品方,被引为'拥有模型+自家 harness'天真论的另一方。
@@ -104,11 +106,13 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*16 条*
+*17 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
 ![[2026-02-12-lennys-engineers-are-becoming-sorcerers#^q2]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q2]]
 
 ![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q5]]
 
@@ -140,7 +144,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*90 集*
+*92 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -166,6 +170,8 @@ unlisted: true
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为被讨论公司
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为被讨论公司
+- [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]] — 作为被讨论公司
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]] — 作为被讨论公司(提及)
 - [[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]] — 作为被讨论公司(提及)
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]] — 作为被讨论公司(提及)
@@ -237,9 +243,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Google]] · [[推理]] · [[ChatGPT]] · [[Cursor]] · [[Lenny]] · [[NVIDIA]] · [[Stripe]] · [[Codex]]
+[[智能体]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[Lenny]] · [[Stripe]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":103,"Google":35,"推理":4,"ChatGPT":50,"Cursor":47,"Lenny":67,"NVIDIA":29,"Stripe":26,"Codex":39}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":106,"Google":36,"ChatGPT":51,"推理":5,"Cursor":48,"NVIDIA":30,"Lenny":67,"Stripe":26,"Codex":39}</script>
 
 <script>
 (function(){

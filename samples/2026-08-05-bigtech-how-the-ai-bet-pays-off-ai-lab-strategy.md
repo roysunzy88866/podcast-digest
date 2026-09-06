@@ -134,7 +134,7 @@ Google 的纠结引出了一个关键洞察：为什么手握重金的超大规�
 
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Amazon、Anthropic、Apple、Google、Microsoft、OpenAI、NVIDIA · 同概念:CapEx、AGI</span>
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI、SpaceX · 同概念:AGI、CapEx</span>
-- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Apple、Meta、Microsoft、NVIDIA、OpenAI、Amazon、Anthropic、Google</span>
+- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Anthropic、Google、NVIDIA、OpenAI、Amazon、Meta、Microsoft · 同概念:TPU、SaaS</span>
 
 </div>
 <div class="pd-ex">

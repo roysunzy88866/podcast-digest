@@ -1,0 +1,1129 @@
+{
+  "episode_id": "2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-07-18",
+  "tags": [
+    "AI 智能体",
+    "健康保险",
+    "创业与公司故事",
+    "SaaS 与 vibe coding",
+    "医疗体系"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "fred-turner",
+      "type": "person",
+      "role": "host",
+      "name": "Fred Turner",
+      "file": "Fred Turner",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            52.25,
+            54.951
+          ],
+          "quote": "Fred Turner, co-founder and CEO of Curative.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            46.967,
+            52.049
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings, and I'm so excited for a freaking wild story today.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "curative",
+      "type": "company",
+      "role": "company",
+      "name": "Curative",
+      "file": "Curative",
+      "primary": true,
+      "how_described": "本集主角：从奶牛 DNA 检测转向人类诊断、新冠期间八个月做到单日 20.6 万人检测、三年 50 亿美元收入，随后整个转型为价值 13 亿美元的健康保险公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.071,
+            5.216
+          ],
+          "quote": "So our chief scientific officer at Curative had, in his spare time, developed a COVID test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            52.25,
+            54.951
+          ],
+          "quote": "Fred Turner, co-founder and CEO of Curative.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            326.88,
+            335.861
+          ],
+          "quote": "Certainly during COVID, with some of what we built at Curative, I got kind of a taste for the speed at which you can move when everything is behind you and all the momentum is behind you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            594.263,
+            596.224
+          ],
+          "quote": "Is this still the same curative company?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1045.467,
+            1051.631
+          ],
+          "quote": "Originally, the pitch behind Curative was we were going to also solve sepsis, but in a completely different way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1149.017,
+            1161.291
+          ],
+          "quote": "And so the original pitch behind curative is let's take the learnings from an academic medical center and go out to community hospitals and basically build mini hospital in a hospital that just manages their sepsis patients.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1317.143,
+            1322.406
+          ],
+          "quote": "So our chief scientific officer at Curative had, in his spare time, developed a COVID test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1426.606,
+            1432.489
+          ],
+          "quote": "And so it started off as a 50-50 JV between Curative and this company that had the lab license.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2140.401,
+            2144.704
+          ],
+          "quote": "So the CFO and now the president of Curative joined at the beginning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3317.665,
+            3323.39
+          ],
+          "quote": "So what we've tried to kind of differentiate at Curative is there's like two areas where we're really investing in people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1166,
+          "t": [
+            4175.252,
+            4183.319
+          ],
+          "quote": "Outside of Curative, I invest primarily in companies of people that I know, and I do very little investing if I don't know the founders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1270,
+          "t": [
+            4513.962,
+            4517.944
+          ],
+          "quote": "What company will be larger, curative or subcritical?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1274,
+          "t": [
+            4521.265,
+            4525.808
+          ],
+          "quote": "Curative has a larger market opportunity, but I think they're both- It has a larger market opportunity?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1299,
+          "t": [
+            4636.174,
+            4641.595
+          ],
+          "quote": "Very busy running curative, but that was an idea that was just too important to pass up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1334,
+          "t": [
+            4748.532,
+            4753.635
+          ],
+          "quote": "I think today, the current gen models can do every back office task we have at Curative.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1403,
+          "t": [
+            5002.573,
+            5008.574
+          ],
+          "quote": "And one of the things I learned during the curative COVID push is we had to bring together a bunch of people from very different backgrounds.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tl-biolabs",
+      "type": "company",
+      "role": "company",
+      "name": "TL Biolabs",
+      "file": "TL Biolabs",
+      "primary": true,
+      "how_described": "Fred Turner 在英国的第一家公司，对奶牛和肉牛做 DNA 测序以从幼年预测肌肉量和产奶量，后改名 Shield 并转向人类诊断。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            451.399,
+            460.646
+          ],
+          "quote": "My first company in the UK, which was called TL Biolabs at the time, basically sequencing dairy and beef cows to predict various traits about the animal from an early age.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            884.618,
+            886.939
+          ],
+          "quote": "It changed its name from TL Biolabs to Shield.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subcritical",
+      "type": "company",
+      "role": "company",
+      "name": "Subcritical",
+      "file": "Subcritical",
+      "primary": true,
+      "how_described": "Turner 与妻子共同创立的核裂变公司，采用始终运行在 0.97 次临界状态的能量放大器方案，用粒子加速器注入中子驱动反应，每个 300 兆瓦部署约 10 亿美元建造成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1173,
+          "t": [
+            4195.345,
+            4208.309
+          ],
+          "quote": "So there is a company that I co-founded with my wife, Subcritical, in the nuclear fission space based on an idea that I had a few years ago that we need more power and that nuclear is a really good way to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1265,
+          "t": [
+            4487.22,
+            4493.043
+          ],
+          "quote": "And I think Subcritical is leading the way there with a faster path to market than any of the other players.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1270,
+          "t": [
+            4513.962,
+            4517.944
+          ],
+          "quote": "What company will be larger, curative or subcritical?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1271,
+          "t": [
+            4518.104,
+            4518.884
+          ],
+          "quote": "Subcritical, yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1272,
+          "t": [
+            4518.964,
+            4519.664
+          ],
+          "quote": "Or subcritical?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1298,
+          "t": [
+            4633.754,
+            4635.894
+          ],
+          "quote": "Well, that's why we ended up starting Subcritical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1302,
+          "t": [
+            4653.177,
+            4656.038
+          ],
+          "quote": "How much money do you need to make Subcritical significant?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它是 Curative 的领先指标：其账单过去六七个月每月增长 6 倍，从几万美元涨到每月数百万美元；Turner 甚至说价格翻倍也照用，并猜想其估值可达 10 万亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            43.755,
+            45.297
+          ],
+          "quote": "How big do you think Anthropic will be?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 866,
+          "t": [
+            2999.044,
+            3001.805
+          ],
+          "quote": "With that, how's your Anthropic costs gone?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 868,
+          "t": [
+            3002.771,
+            3017.532
+          ],
+          "quote": "So, I mean, this is one of the, I think, the kind of leading indicators for us is that our Anthropic cost over the last six or seven months has 6X'd every month from, you know, a base of, you know, a couple of tens of thousands of dollars now up to millions of dollars a month.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 908,
+          "t": [
+            3224.793,
+            3231.919
+          ],
+          "quote": "Given the transformational nature of what you're describing, if Anthropic doubled their price, would it impact your usage?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 911,
+          "t": [
+            3241.964,
+            3245.366
+          ],
+          "quote": "If I say yes, I don't want our Anthropic rep to double our pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 972,
+          "t": [
+            3476.077,
+            3482.141
+          ],
+          "quote": "In three years' time, knowing what you do now about the capabilities that you use it for, how big do you think Anthropic will be?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            4017.6,
+            4030.844
+          ],
+          "quote": "Do you worry about the concentration of value when you look at the Mag7 providing 85% of gains year-to-date in stock markets and then Anthropic, OpenAI, maybe one or two more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1129,
+          "t": [
+            4085.27,
+            4088.372
+          ],
+          "quote": "Anthropic is not going into business banking in Southeast Asia.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1131,
+          "t": [
+            4090.713,
+            4100.757
+          ],
+          "quote": "I think things that have some like regulation around them and are like complex industries, yes, they're going to see the advantages of the models, but they're not going to see competition from Anthropic or OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1133,
+          "t": [
+            4102.012,
+            4107.894
+          ],
+          "quote": "When I listen to you, I'm like, Jesus, if I was you, I'd also take a chunk of my money and invest it actively into Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1293,
+          "t": [
+            4610.713,
+            4613.814
+          ],
+          "quote": "And I think this is one of the bets Anthropic made and they're totally right on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1351,
+          "t": [
+            4818.434,
+            4822.776
+          ],
+          "quote": "Mark Benioff said he spent $300 million on Anthropic, equated across the developers that they have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1352,
+          "t": [
+            4823.177,
+            4826.799
+          ],
+          "quote": "It works out to be about 3.8% of developer salary spent on Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1353,
+          "t": [
+            4827.219,
+            4833.563
+          ],
+          "quote": "What do you think total percent of developer salary spend will be on Anthropic in three years' time?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1364,
+          "t": [
+            4875.892,
+            4878.493
+          ],
+          "quote": "If it's 50%, Anthropic's like a $20 trillion company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1367,
+          "t": [
+            4889.694,
+            4892.937
+          ],
+          "quote": "Message my friend to let me into that new Anthropic round.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": true,
+      "how_described": "本集说 Curative 取消了每年 60 万美元的 Salesforce 订阅，换成两个月 vibe coding 出来的内部 CRM，运行更好、集成更深，连全职管理员都省了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            74.22,
+            87.889
+          ],
+          "quote": "And in the show, he says some pretty wild stuff, like he's gonna cancel his $600,000 Salesforce subscription, sorry Mark and Salesforce don't kill me, for a vibe-coded solution they built in a matter of months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 783,
+          "t": [
+            2724.394,
+            2734.883
+          ],
+          "quote": "Like we just recently canceled our Salesforce contract because we have an internal CRM that was vibe coded, that is working better, that is managing our process better, is more integrated into what we're doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 784,
+          "t": [
+            2735.083,
+            2738.506
+          ],
+          "quote": "We run our agents inside of it and no one was using Salesforce anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 799,
+          "t": [
+            2774.358,
+            2776.399
+          ],
+          "quote": "We had a full-time Salesforce administrator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 801,
+          "t": [
+            2781.941,
+            2791.805
+          ],
+          "quote": "Not that Salesforce is archaic, but we have a few other internal apps that we were paying for, like industry software that is taking multiple FTEs to maintain it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 804,
+          "t": [
+            2801.188,
+            2802.709
+          ],
+          "quote": "$600,000 a year on Salesforce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 821,
+          "t": [
+            2851.724,
+            2853.825
+          ],
+          "quote": "Is it all legacies of our likes Salesforce, though?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 984,
+          "t": [
+            3521.366,
+            3522.387
+          ],
+          "quote": "You mentioned Salesforce.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": true,
+      "how_described": "Turner 2015 年底申请、加入 16 年夏季批次，并通过 YC 认识了最早投资人；他称 YC 是当时搬去美国唯一该做的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            534.801,
+            537.662
+          ],
+          "quote": "And he was like, oh, you need to apply to YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            540.082,
+            541.343
+          ],
+          "quote": "You need to apply to YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            543.663,
+            546.524
+          ],
+          "quote": "And I was familiar with YC, but had never applied.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            611.395,
+            614.617
+          ],
+          "quote": "So we did this, went through YC, and we raised a seed round from Andreessen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            617.119,
+            620.402
+          ],
+          "quote": "Their bio fund did our seed round right out of YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1375.51,
+            1380.215
+          ],
+          "quote": "And there's actually a guy who was in the same YC batch as me who had become a VC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1525.402,
+            1527.744
+          ],
+          "quote": "She's a YC and longevity person.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1371,
+          "t": [
+            4898.468,
+            4925.684
+          ],
+          "quote": "I think when I first was getting started, there were a lot of people that helped make it be possible to move to the US and kind of like made a bet on a kid coming from the north of England to come to Silicon Valley, like some of the earliest investors, the guy, Josh Buckley, who was one of the first guys who invested in us during the YC batch just because he liked what we were doing and he thought it was cool, but being willing to kind of take a bet on a kid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1390,
+          "t": [
+            4950.605,
+            4955.548
+          ],
+          "quote": "A month into the YC batch came by the lab and was super supportive of what we're doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1394,
+          "t": [
+            4961.913,
+            4969.859
+          ],
+          "quote": "But to get, I mean, he'd been through YC and had a successful company, and it was just awesome to have someone like that take a bet on what you're doing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "blue-cross",
+      "type": "company",
+      "role": "company",
+      "name": "Blue Cross",
+      "file": "Blue Cross",
+      "primary": false,
+      "how_described": "本集提到蓝十字花了 100 多年才垒起医疗服务方网络护城河，是大保险公司谈判力的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 702,
+          "t": [
+            2380.038,
+            2385.54
+          ],
+          "quote": "If they want to fight with Blue Cross, the only way to survive is to get really big so they have the negotiating power.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 876,
+          "t": [
+            3065.307,
+            3075.357
+          ],
+          "quote": "And this has been one of the biggest pieces of staying power of the big health plan businesses is they built that over 100 years for Blue Cross and over 50 years for United, Cigna, and Aetna.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sentry",
+      "type": "company",
+      "role": "company",
+      "name": "Sentry",
+      "file": "Sentry",
+      "primary": false,
+      "how_described": "本集说它这类偏基础设施的后端软件是 SaaS 大清洗中会存续的例外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 808,
+          "t": [
+            2811.583,
+            2818.288
+          ],
+          "quote": "So we're seeing a lot of backend stuff like Sentry, like stuff like that, right, where it's like kind of become part of your infrastructure.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：Curative 用智能体把资质认证从 2-3 个月/50 美元降到 12 小时/20 美分，Gwen 智能体把合同从每周 100 份做到每天 100 份；Turner 认为当前一代模型能完成其所有后台任务，新岗位是「智能体监督者」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 738,
+          "t": [
+            2537.702,
+            2556.191
+          ],
+          "quote": "We have now built in-house an agent that runs on Claude that does this end-to-end, and it goes to the website, it verifies the license, it goes and reads the transcripts, it puts it all together, it stamps it for approval, and we're now averaging about 12 hours turnaround time for credentialing somebody, and it costs us about 20 cents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 762,
+          "t": [
+            2639.973,
+            2662.808
+          ],
+          "quote": "And it kind of worked, but what we found works amazingly is literally to give the files to an agent, tell it to write Python to get these files into a standardized format because they're not very good at parsing files, but they're incredibly good at code gen. And so you can tell it to write a Python script to convert any random file into this known format and then test it and loop and iterate on your script until it's working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 778,
+          "t": [
+            2712.085,
+            2717.429
+          ],
+          "quote": "The first one is you mentioned that kind of the internal agent build-out that you've done for the company and for your specific processes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 881,
+          "t": [
+            3091.773,
+            3095.015
+          ],
+          "quote": "What we launched earlier this year is an agent called Gwen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 896,
+          "t": [
+            3159.041,
+            3163.063
+          ],
+          "quote": "So far in about the last eight weeks, the agent alone has done 3,500.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 900,
+          "t": [
+            3175.231,
+            3176.373
+          ],
+          "quote": "This agent is email only.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 906,
+          "t": [
+            3211.042,
+            3217.886
+          ],
+          "quote": "And then all of the smaller, the individual PCP over here, the small behavioral health provider here, the therapist over here, the agent just gets it done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 925,
+          "t": [
+            3279.178,
+            3283.059
+          ],
+          "quote": "We've not said, okay, we're doing 100 a week, so we'll get the agent to do 100 a week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 926,
+          "t": [
+            3283.339,
+            3288.78
+          ],
+          "quote": "What we've done is said, well, now that we have the agent, we can do 10 times as many contracts this year as we could do last year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 959,
+          "t": [
+            3400.64,
+            3404.765
+          ],
+          "quote": "A lot of people talk about agent-to-agent transactions and how that changes the process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 971,
+          "t": [
+            3470.614,
+            3475.717
+          ],
+          "quote": "So we kind of trust the agent to do that legal review within certain parameters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1054,
+          "t": [
+            3757.17,
+            3758.17
+          ],
+          "quote": "Agent supervisor?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1056,
+          "t": [
+            3759.61,
+            3768.32
+          ],
+          "quote": "One of the things we've found that's been like a bottleneck is when you launch these agent workflows, there's always things that they, you don't want to let it do everything, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1057,
+          "t": [
+            3768.34,
+            3777.131
+          ],
+          "quote": "So like with our contracting, our sales workflow, like there's a certain margin threshold where the sales agent can't promise a client that will do it at that margin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            3971.407,
+            3980.151
+          ],
+          "quote": "I think Isaac, our CTO and co-founder, and I have trusted the agents faster than most of the team, and we're okay giving the agent authority to do things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1106,
+          "t": [
+            3981.831,
+            3984.992
+          ],
+          "quote": "Dispute getting the agent to sign these contracts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1107,
+          "t": [
+            3985.292,
+            3990.873
+          ],
+          "quote": "So the agent opens DocuSign and clicks the sign button and it's legally binding and it has my signature on the page.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "saas-is-dead",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS 已死 (SaaS is dead)",
+      "file": "SaaS 已死",
+      "primary": true,
+      "how_described": "Turner 认同此论：今年砍掉约 80% 的 SaaS 支出，因为为自己的流程定制、两个月 vibe coding 出来的内部系统效果更好；存续的是偏基础设施软件和长满集成的 Slack。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 779,
+          "t": [
+            2717.709,
+            2720.471
+          ],
+          "quote": "Do you buy the SaaS is dead theory that we rule?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "single-use-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "一次性代码 (single use code)",
+      "file": "一次性代码",
+      "primary": true,
+      "how_described": "本集的核心技巧：模型不擅长解析文件但极其擅长写代码，让智能体写 Python 把任意格式转成标准格式，测通后「把脚本扔掉」——用完即弃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 764,
+          "t": [
+            2664.35,
+            2666.971
+          ],
+          "quote": "And so it's single use code that never gets used again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-gen",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码生成 (code gen)",
+      "file": "代码生成",
+      "primary": true,
+      "how_described": "本集反复出现的论点：模型不擅长解析文件、编辑 Word 或输出 3D 图纸，但极其擅长生成代码，所以让它们写 Python 来做这些事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 762,
+          "t": [
+            2639.973,
+            2662.808
+          ],
+          "quote": "And it kind of worked, but what we found works amazingly is literally to give the files to an agent, tell it to write Python to get these files into a standardized format because they're not very good at parsing files, but they're incredibly good at code gen. And so you can tell it to write a Python script to convert any random file into this known format and then test it and loop and iterate on your script until it's working.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orthogonal-supply-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "正交供应链 (orthogonal supply chain)",
+      "file": "正交供应链",
+      "primary": true,
+      "how_described": "Turner 新冠检测期的洞察：不用所有人都在抢的耗材，拭子从电子行业供应商采购再消毒、用玻璃塑料过滤板替代被中国两家工厂锁死的磁珠。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 518,
+          "t": [
+            1754.824,
+            1761.965
+          ],
+          "quote": "And so we built what we called an orthogonal supply chain, which is just basically a fancy way of saying we don't use the things other people use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            1764.966,
+            1766.226
+          ],
+          "quote": "An orthogonal supply chain.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "payer",
+      "type": "concept",
+      "role": "concept",
+      "name": "支付方 (payer)",
+      "file": "支付方",
+      "primary": true,
+      "how_described": "本集说支付方才是驱动美国医疗体系行为的那一方：「你付钱做什么，人们就做什么」，这也是他们选择做健康保险的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 670,
+          "t": [
+            2247.454,
+            2253.258
+          ],
+          "quote": "What we ultimately decided is it doesn't work that well because the payer mix is too broken up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2279.469,
+            2281.15
+          ],
+          "quote": "Everything sort of ends up coming back to the payer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2281.47,
+            2284.532
+          ],
+          "quote": "Like the payer is the one that drives behavior in the US healthcare system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2293.638,
+            2296.72
+          ],
+          "quote": "And so the payer is the one that's kind of driving things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2371.014,
+            2375.396
+          ],
+          "quote": "You basically have like four large players that control the entire market on the payer side.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tam",
+      "type": "concept",
+      "role": "concept",
+      "name": "TAM",
+      "file": "TAM",
+      "primary": true,
+      "how_described": "贯穿本集的判断轴：奶牛检测市场撑死 15 亿不足以支撑 A 轮；取代 LabCorp 和 Quest 也只有 300 亿市值；所以他们反复按 TAM 挑市场，最终选了 1.5 万亿美元的雇主医疗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            597.886,
+            607.952
+          ],
+          "quote": "Okay, I was about to say, God, this is where investing is so difficult, because if you hear a founder pitching milk yield optimization, and I'm sure it is like logistically a big TAM, I'm sure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            620.962,
+            623.825
+          ],
+          "quote": "And I don't think they did the TAM calculation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            889.44,
+            893.762
+          ],
+          "quote": "Okay, so we go to Razor Series B, bigger TAM, sepsis, death, more gravitas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            893.822,
+            905.826
+          ],
+          "quote": "Bigger TAM, yeah, many billions of dollars TAM for testing for this and ended up getting a term sheet from a strategic large public diagnostic company, signed the term sheet, did three weeks of work on docs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1277,
+          "t": [
+            4528.81,
+            4536.416
+          ],
+          "quote": "The US spends, or US employers spend one and a half trillion dollars a year on healthcare, which is, that's our direct TAM every single year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1282,
+          "t": [
+            4549.015,
+            4550.317
+          ],
+          "quote": "I figured out the TAM thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "energy-amplifier",
+      "type": "concept",
+      "role": "concept",
+      "name": "能量放大器 (energy amplifier)",
+      "file": "能量放大器",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1244,
+          "t": [
+            4405.607,
+            4409.009
+          ],
+          "quote": "And then I stumbled on this idea of what's called the energy amplifier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            4437.626,
+            4446.13
+          ],
+          "quote": "What you do in the energy amplifier is you point a really powerful particle accelerator at that fuel, and that puts in the extra neutrons to drive the reaction forward.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

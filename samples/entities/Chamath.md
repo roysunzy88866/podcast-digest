@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dan":1,"OpenAI":90,"Anthropic":103,"NVIDIA":29,"SPAC":1,"闭源模型":1,"开放权重模型":8,"分布式计算":1,"末日论":1,"KYC":1}</script>
+<script type="application/json" class="pd-epn">{"Dan":1,"OpenAI":92,"Anthropic":106,"NVIDIA":30,"SPAC":1,"闭源模型":1,"开放权重模型":8,"分布式计算":1,"末日论":1,"KYC":1}</script>
 
 <script>
 (function(){

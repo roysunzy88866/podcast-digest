@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>A轮 (Series A)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="A轮">A轮</div><div class="pi"><h1 class="pt">A轮 (Series A)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>920</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="A轮">A轮</div><div class="pi"><h1 class="pt">A轮 (Series A)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>929</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*920 条*
+*929 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q4]]
 
@@ -693,6 +693,14 @@ unlisted: true
 
 ![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q4]]
 
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q4]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q7]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q12]]
+
+![[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente#^q13]]
+
 ![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q3]]
 
 ![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q5]]
@@ -717,6 +725,14 @@ unlisted: true
 
 ![[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s#^q2]]
 
+![[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h#^q1]]
+
+![[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h#^q5]]
+
+![[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h#^q8]]
+
+![[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h#^q12]]
+
 ![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q2]]
 
 ![[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep#^q3]]
@@ -736,6 +752,8 @@ unlisted: true
 ![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q13]]
 
 ![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q14]]
+
+![[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees#^q1]]
 
 ![[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future#^q2]]
 
@@ -1869,7 +1887,7 @@ unlisted: true
 
 [[Harry Stebbings]] · [[Matt Murphy]] · [[Anthropic]] · [[Menlo]] · [[OpenAI]] · [[Lovable]] · [[Lagura]] · [[OpenRouter]] · [[Eleven Labs]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":12,"Matt Murphy":1,"Anthropic":103,"Menlo":1,"OpenAI":90,"Lovable":14,"Lagura":1,"OpenRouter":9,"Eleven Labs":5,"ChatGPT":50}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":13,"Matt Murphy":1,"Anthropic":106,"Menlo":1,"OpenAI":92,"Lovable":14,"Lagura":1,"OpenRouter":9,"Eleven Labs":5,"ChatGPT":51}</script>
 
 <script>
 (function(){

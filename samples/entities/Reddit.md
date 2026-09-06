@@ -31,7 +31,7 @@ unlisted: true
 
 [[ChatGPT]] · [[Lenny]] · [[Theo Browne]] · [[Matt Turk]] · [[Paul Graham]] · [[Ethan Smith]] · [[Sonnet 3.5]] · [[Sanjit Biswas]] · [[YC]] · [[AEO]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":50,"Lenny":67,"Theo Browne":1,"Matt Turk":2,"Paul Graham":1,"Ethan Smith":1,"Sonnet 3.5":1,"Sanjit Biswas":1,"YC":10,"AEO":3}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":51,"Lenny":67,"Theo Browne":1,"Matt Turk":2,"Paul Graham":1,"Ethan Smith":1,"Sonnet 3.5":1,"Sanjit Biswas":1,"YC":11,"AEO":3}</script>
 
 <script>
 (function(){
