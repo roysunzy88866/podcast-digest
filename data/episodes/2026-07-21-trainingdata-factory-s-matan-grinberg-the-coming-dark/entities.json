@@ -1,0 +1,1292 @@
+{
+  "episode_id": "2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark",
+  "podcast": "Training Data",
+  "date": "2026-07-21",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "创业与公司故事",
+    "商业模式与定价",
+    "开源模型"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "matan-grinberg",
+      "type": "person",
+      "role": "host",
+      "name": "Matan Grinberg",
+      "file": "Matan Grinberg",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "factory",
+      "type": "company",
+      "role": "company",
+      "name": "Factory",
+      "file": "Factory",
+      "primary": true,
+      "how_described": "嘉宾 Matan 创办的公司,做用于软件开发的自主智能体 droids,主打模型独立性与多模型 harness;本集讲了它退回全部营收、两年旷野后翻身的公司故事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            58.276,
+            61.34
+          ],
+          "quote": "We're here in the studio with Matan from Factory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            69.61,
+            77.259
+          ],
+          "quote": "Matan is the co-founder and CEO of Factory, which makes droids, which are autonomous agents for the art of software development.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            93.008,
+            96.49
+          ],
+          "quote": "Talk about the competitive dynamics and what makes Factory special.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            97.59,
+            100.192
+          ],
+          "quote": "We started Factory three and a half years ago now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            249.905,
+            266.369
+          ],
+          "quote": "And that's, I think, one of the biggest reasons why a lot of the largest enterprises are taking the momentum that they had from a Codex or a Claude Code and then are carrying that into factory because they get that performance from these fantastic models, but they do it without the vendor lock-in that, you know, the ModelLabs directly",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            266.609,
+            270.332
+          ],
+          "quote": "And if I'm the enterprise, I'm going to be like, wait a minute, am I now just getting locked into factory?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            281.659,
+            288.144
+          ],
+          "quote": "Factory is not staying at the frontier anymore, whether it's like the automations that you build or the skills registry that we help you create.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            367.65,
+            377.758
+          ],
+          "quote": "And, you know, over the course of those two years, convinced, you know, 20 of the smartest people that I've ever met to quit what it was that they were doing and, you know, join factory and join us on this mission.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1147.88,
+            1157.231
+          ],
+          "quote": "These are things that you can kind of have individual metrics on and that we kind of have our own internal benchmarks to measure how do the out-of-the-box agents do versus how does factory perform?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1418.919,
+            1420.222
+          ],
+          "quote": "What does that mean for factory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1521.899,
+            1531.503
+          ],
+          "quote": "Where factory fits in, I think one of the most important things that we do is that we have the factory router, which allows you to dynamically route to different models based on the task that you're doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2157.833,
+            2160.735
+          ],
+          "quote": "Maybe zooming out a little bit, you named the company Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2160.815,
+            2162.936
+          ],
+          "quote": "Actually, you named it Droid before Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2163.416,
+            2169.4
+          ],
+          "quote": "But you named it Factory before this concept took off, and now it feels like everybody wants to build a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2170.061,
+            2176.405
+          ],
+          "quote": "Where do you think we are today in terms of the building of software factories, and how close are we to the ultimate vision of a software factory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2176.685,
+            2179.486
+          ],
+          "quote": "Yeah, everyone has a software factory, whether they know it or not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2434.383,
+            2439.706
+          ],
+          "quote": "But these are things that we're going to need like quantitative insight on and you need a software factory to do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2840.883,
+            2846.408
+          ],
+          "quote": "And this idea of a dark factory where the lights are off and things are just happening, that is where software development is going.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 655,
+          "t": [
+            2849.63,
+            2852.453
+          ],
+          "quote": "Elon was always talking about the factory is the machine that builds the machine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2862.901,
+            2867.401
+          ],
+          "quote": "And in our case, factory becomes artisanal, which is kind of a good flip there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2868.129,
+            2872.53
+          ],
+          "quote": "What's your most optimistic version of the future, both for factory and for the world at large?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 684,
+          "t": [
+            2976.424,
+            2984.31
+          ],
+          "quote": "And, you know, the vision for Factory is that we are kind of the factory that allows them to go and build this incredible software to solve these different problems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3046.559,
+            3054.187
+          ],
+          "quote": "And then just seeing how much you've grown as a leader and how much Factory has grown as a company, even since the last time we did this training data episode, it's truly awe-inspiring.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "droid",
+      "type": "concept",
+      "role": "concept",
+      "name": "Droid",
+      "file": "Droid",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            868.339,
+            874.742
+          ],
+          "quote": "September 26, 2025 was when we first put out basically the Droid CLI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            875.322,
+            881.984
+          ],
+          "quote": "And the Droid CLI met developers where they were in a manner that previously these fully autonomous agents did not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1004.5,
+            1007.382
+          ],
+          "quote": "OK, so September 2025, you launched the Droid CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1229.704,
+            1243.835
+          ],
+          "quote": "And this was why, for example, we kind of stopped doing it because TerminalBench got so bench maxed, but initially when like every new Opus or GPT model would come out, it would perform better on TerminalBench in Droid than it would in Claude Code or Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2160.815,
+            2162.936
+          ],
+          "quote": "Actually, you named it Droid before Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2794.568,
+            2797.59
+          ],
+          "quote": "Because it's all just, hey, Claude Code, or hey, Codex, or hey, Droid, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:完全自主的智能体早了两三年没人接受,直到开发者行为水位到了才爆发;未来 90% token 将是异步智能体自主运行的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            596.221,
+            602.385
+          ],
+          "quote": "Like we could see internally, we were starting to become a lot more agent native in how we were doing things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            902.051,
+            909.736
+          ],
+          "quote": "And many were starting to at the time use like a chat interface to ask an agent to go do changes like wholesale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            988.208,
+            993.352
+          ],
+          "quote": "You start seeing it from people within your organization who are maybe a little bit more agent native.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2136.545,
+            2141.647
+          ],
+          "quote": "Because like, you know, there are stories of like, you know, you ask an agent to like, fix my code and it deletes your code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 648,
+          "t": [
+            2815.542,
+            2820.306
+          ],
+          "quote": "The real like agent native stuff begins, because right now we're still kind of in like co-pilot mode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2820.847,
+            2827.632
+          ],
+          "quote": "Like if you're going to an agent and say, hey, go do this for me, it is more agentic because it's not going to come back and ask you a ton, but it's still like you are kicking it off.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集核心论点:支持多模型的 harness 反而更强——'数据之于模型,正如模型之于 harness',暴露越多模型越不过拟合单一模型的细微特性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 252,
+          "t": [
+            1073.513,
+            1076.217
+          ],
+          "quote": "What goes into building a great, and is it a great harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1076.257,
+            1085.749
+          ],
+          "quote": "And it seems like there's almost a lot of FUD in the ecosystem of, my harness is better than your harness, and you need to own the model to have a good harness, or actually you have a better harness if you don't own the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1100.04,
+            1107.063
+          ],
+          "quote": "And so one big piece of performance for a given harness is what, what is your like rate of, of token caching?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1119.667,
+            1124.368
+          ],
+          "quote": "And so the harness will do some sort of, you know, summarization, compression, compaction, whatever you want to call it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1124.748,
+            1129.69
+          ],
+          "quote": "And the way that you perform during that compaction is a big determining factor of how good your harness is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1138.131,
+            1141.092
+          ],
+          "quote": "How often will your harness preserve that through compaction?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1160.455,
+            1166.36
+          ],
+          "quote": "Naively, everyone believed initially was if you train the model and you build the harness, you're going to make them better together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1173.046,
+            1177.85
+          ],
+          "quote": "If you build a harness that supports different models, that harness will be better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1178.07,
+            1181.693
+          ],
+          "quote": "What's the, like, my intuition would be model, harness, co-design makes you better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1206.676,
+            1213.605
+          ],
+          "quote": "So there's a sort of analog that emerges where it's what data is to a model, models are to a harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1215.152,
+            1221.257
+          ],
+          "quote": "Where the more models you expose to a harness, you avoid overfitting that harness to the nuances of that model in particular.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1222.218,
+            1229.344
+          ],
+          "quote": "And there are certain intricacies about different models that you can learn from and then improve different models performance in your own harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1245.416,
+            1257.559
+          ],
+          "quote": "Which is why, like, and this is something that, you know, I think was somewhat frustrating to, because ideally, like from a lab perspective, you ideally want it so that it's better together, because then that means you have to use their harness and you can't use a different one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1257.959,
+            1265.9
+          ],
+          "quote": "But I think the reality is it's, you know, having that multi-model harness ends up getting kind of frontier on all of those aspects.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1328.183,
+            1333.346
+          ],
+          "quote": "If you build a harness for each of those, there are actually different things that that harness will then be good or bad at.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1343.554,
+            1351.56
+          ],
+          "quote": "And the Claude Code harness can, in some cases, or, and this is maybe less relevant now, but I think earlier, this is just a more illustrative example.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "model-independence",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型独立性 (model independence)",
+      "file": "模型独立性",
+      "primary": true,
+      "how_described": "本集说企业从云锁定(AWS/Azure 续约十倍涨价、数据引力)学到教训,不愿把命运交给任何一家模型实验室,这是选 Factory 的核心原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            166.802,
+            169.584
+          ],
+          "quote": "And so something that really matters is model independence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "router",
+      "type": "concept",
+      "role": "concept",
+      "name": "router",
+      "file": "router",
+      "primary": true,
+      "how_described": "Factory router:按任务动态路由到不同模型,路由规则可用自然语言写;闲聊用便宜模型、COBOL 用微调模型、关键代码多模型交叉生成/测试/审查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 356,
+          "t": [
+            1521.899,
+            1531.503
+          ],
+          "quote": "Where factory fits in, I think one of the most important things that we do is that we have the factory router, which allows you to dynamically route to different models based on the task that you're doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1597.245,
+            1602.329
+          ],
+          "quote": "The point of the router is that we can kind of accommodate these different constraints where maybe you say, you know what?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1789.276,
+            1791.217
+          ],
+          "quote": "But right now they're just going from no router to router.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2018.088,
+            2030.918
+          ],
+          "quote": "Now, since we are model independent, we kind of, with our router, we are kind of pointing a token cannon at either OpenAI, Anthropic, AWS, GCP, you know, any one of these people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集从 token maxing 讲到成本理性:有银行每月花几十万美元问 Opus 天气;每个 CIO 都要回答'每多一个 token 放在哪',进而变成'每多一美元投人力还是 token'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            1100.04,
+            1107.063
+          ],
+          "quote": "And so one big piece of performance for a given harness is what, what is your like rate of, of token caching?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1412.868,
+            1413.95
+          ],
+          "quote": "Let's talk about token maxing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1415.954,
+            1418.899
+          ],
+          "quote": "We've gone from token maxing to now cost rationalization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1421.087,
+            1428.75
+          ],
+          "quote": "Yeah, so maybe I'll lay this out just so we're all on the same page of like the way that we see what's led us to this token maxing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1472.06,
+            1477.983
+          ],
+          "quote": "It's this token maxing where people are using like Opus for literally everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1562.84,
+            1568.864
+          ],
+          "quote": "Having a blanket kind of token cap for every individual in some large bank, let's say, makes no sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1569.565,
+            1573.828
+          ],
+          "quote": "So every CIO is going to need to answer, for every incremental token, where do we put it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1578.611,
+            1584.936
+          ],
+          "quote": "Right now we're saying, oh, you know, the PMs who are like vibe coding dashboards get the same token limits as like the engineers who are building like critical infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1657.608,
+            1665.332
+          ],
+          "quote": "It's at the point where internally we have no token limits for our engineers and like half of our tokens are open to open models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1829.325,
+            1835.269
+          ],
+          "quote": "But that doesn't mean they're going to be like that's of token share, not necessarily of leverage share.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2018.088,
+            2030.918
+          ],
+          "quote": "Now, since we are model independent, we kind of, with our router, we are kind of pointing a token cannon at either OpenAI, Anthropic, AWS, GCP, you know, any one of these people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2284.428,
+            2295.304
+          ],
+          "quote": "Talking before about the tokenomics, if you're that CIO and you're faced with that question of where do you put every incremental token, really the question two years from now is going to become where do you put every incremental dollar?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2393.278,
+            2398.639
+          ],
+          "quote": "Meanwhile, at companies, you know, people are determining token budgets just by shooting from the hip.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说流向开源模型的 token 从年初不到 1% 涨到两位数;开源模型落后闭源一代但已达到'前沿减一代'水平,终将占绝大部分 token 份额(非价值份额)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 380,
+          "t": [
+            1639.977,
+            1647.404
+          ],
+          "quote": "Or, you know, I think we really need to avoid having them use open models because, you know, whatever reason, we don't like the way open models perform here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1652.688,
+            1654.109
+          ],
+          "quote": "How close are the open models at this point?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1657.608,
+            1665.332
+          ],
+          "quote": "It's at the point where internally we have no token limits for our engineers and like half of our tokens are open to open models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1685.282,
+            1688.743
+          ],
+          "quote": "Because generally the open models come later and they're kind of a generation behind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1693.165,
+            1696.786
+          ],
+          "quote": "The question is, are the open models getting as good as like frontier minus one?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1796.302,
+            1801.686
+          ],
+          "quote": "At the beginning of the year, there's less than 1% of tokens went to open models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集说每家公司都有软件工厂只是极低效:万人公司发布一个功能牵扯上千人;方向是像 Tesla 黑暗工厂那样,把部落知识代码化、自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 500,
+          "t": [
+            2163.416,
+            2169.4
+          ],
+          "quote": "But you named it Factory before this concept took off, and now it feels like everybody wants to build a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2170.061,
+            2176.405
+          ],
+          "quote": "Where do you think we are today in terms of the building of software factories, and how close are we to the ultimate vision of a software factory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2176.685,
+            2179.486
+          ],
+          "quote": "Yeah, everyone has a software factory, whether they know it or not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2434.383,
+            2439.706
+          ],
+          "quote": "But these are things that we're going to need like quantitative insight on and you need a software factory to do that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "outcome-based",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于结果的付费 (outcome-based)",
+      "file": "基于结果的付费",
+      "primary": true,
+      "how_described": "Matan 预测定价终局:任务加验证标准,模型提供商竞标,定价对赚利润、错则负利润;基于席位付费没有意义,2030 年代会更像基于结果的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 450,
+          "t": [
+            1987.479,
+            1990.442
+          ],
+          "quote": "My sense is that eventually we will change to outcome-based.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2001.716,
+            2005.899
+          ],
+          "quote": "You know, in the 2030s, things will probably look more like outcome-based.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2005.919,
+            2008.001
+          ],
+          "quote": "What does outcome-based mean for your market?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2105.915,
+            2111.537
+          ],
+          "quote": "And then in that world, that's basically that's a way that you kind of dynamically shift from usage based to outcome based.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集举例:用 vibe coding 做仪表盘的部门应该路由到便宜的模型,不必和构建关键基础设施的工程师一样配额。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 364,
+          "t": [
+            1578.611,
+            1584.936
+          ],
+          "quote": "Right now we're saying, oh, you know, the PMs who are like vibe coding dashboards get the same token limits as like the engineers who are building like critical infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1602.349,
+            1604.19
+          ],
+          "quote": "This part of the org, they're just vibe coding.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集反复提及的领先竞品;Matan 说新模型在 TerminalBench 上于 Droid 里跑得比在 Claude Code 里还好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            86.725,
+            92.528
+          ],
+          "quote": "There are folks like Claude Code and Cognition and others who have a lead, but you guys are coming up strong.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            143.947,
+            152.352
+          ],
+          "quote": "And some of these other players like Anthropic or OpenAI who have a ton of distribution are going in and bringing their incredible tools like Claude Code or Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            196.607,
+            199.769
+          ],
+          "quote": "And so everyone knows, look, Claude Code is fantastic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            249.905,
+            266.369
+          ],
+          "quote": "And that's, I think, one of the biggest reasons why a lot of the largest enterprises are taking the momentum that they had from a Codex or a Claude Code and then are carrying that into factory because they get that performance from these fantastic models, but they do it without the vendor lock-in that, you know, the ModelLabs directly",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1229.704,
+            1243.835
+          ],
+          "quote": "And this was why, for example, we kind of stopped doing it because TerminalBench got so bench maxed, but initially when like every new Opus or GPT model would come out, it would perform better on TerminalBench in Droid than it would in Claude Code or Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1343.554,
+            1351.56
+          ],
+          "quote": "And the Claude Code harness can, in some cases, or, and this is maybe less relevant now, but I think earlier, this is just a more illustrative example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 643,
+          "t": [
+            2787.503,
+            2794.148
+          ],
+          "quote": "In other words, like if everyone woke up sick tomorrow, like a lot of Claude code usage would be zero.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2794.568,
+            2797.59
+          ],
+          "quote": "Because it's all just, hey, Claude Code, or hey, Codex, or hey, Droid, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "OpenAI 的编程智能体产品,本集作为领先竞品与'厂商协同设计 harness'论点的例子反复提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            143.947,
+            152.352
+          ],
+          "quote": "And some of these other players like Anthropic or OpenAI who have a ton of distribution are going in and bringing their incredible tools like Claude Code or Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            199.909,
+            201.491
+          ],
+          "quote": "Codex from OpenAI is fantastic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            249.905,
+            266.369
+          ],
+          "quote": "And that's, I think, one of the biggest reasons why a lot of the largest enterprises are taking the momentum that they had from a Codex or a Claude Code and then are carrying that into factory because they get that performance from these fantastic models, but they do it without the vendor lock-in that, you know, the ModelLabs directly",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1229.704,
+            1243.835
+          ],
+          "quote": "And this was why, for example, we kind of stopped doing it because TerminalBench got so bench maxed, but initially when like every new Opus or GPT model would come out, it would perform better on TerminalBench in Droid than it would in Claude Code or Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1359.662,
+            1364.567
+          ],
+          "quote": "Meanwhile, Codex wouldn't do that because the model itself was really, really OCD about that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2794.568,
+            2797.59
+          ],
+          "quote": "Because it's all just, hey, Claude Code, or hey, Codex, or hey, Droid, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "开场提到与 Claude Code 并列的市场领先玩家,本集一笔带过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            86.725,
+            92.528
+          ],
+          "quote": "There are folks like Claude Code and Cognition and others who have a lead, but you guys are coming up strong.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "terminalbench",
+      "type": "concept",
+      "role": "concept",
+      "name": "TerminalBench",
+      "file": "TerminalBench",
+      "primary": false,
+      "how_described": "Factory 推出时推崇的终端环境基准测试,后来被刷爆(benchmaxed),本集用它说明 Droid 的多模型 harness 表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 244,
+          "t": [
+            1019.322,
+            1026.565
+          ],
+          "quote": "At the time, I think the one that we kind of championed when we launched and kind of it ended up becoming a pretty good benchmark was TerminalBench.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1035.969,
+            1047.44
+          ],
+          "quote": "The problem with that was it was very focused on like Python and like scripting or like individual file changes, whereas TerminalBench was more, one, it was in the terminal setting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1229.704,
+            1243.835
+          ],
+          "quote": "And this was why, for example, we kind of stopped doing it because TerminalBench got so bench maxed, but initially when like every new Opus or GPT model would come out, it would perform better on TerminalBench in Droid than it would in Claude Code or Codex.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "back-prop",
+      "type": "concept",
+      "role": "concept",
+      "name": "反向传播 (back prop)",
+      "file": "反向传播",
+      "primary": false,
+      "how_described": "Matan 的类比:公司是一个 AGI,要像训练模型一样定量地弄清哪些节点承重,'你不会凭感觉对一个模型做反向传播',但现在公司运营全靠拍脑袋。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 550,
+          "t": [
+            2377.334,
+            2380.435
+          ],
+          "quote": "You don't, I guess more importantly, you don't do back prop in a model by vibes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集多次提及:拥有大量分发渠道的模型实验室,其 Claude Code 是领先竞品;'训练模型又做 harness 会更好'是 Anthropic/OpenAI 朋友们的天真想法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            143.947,
+            152.352
+          ],
+          "quote": "And some of these other players like Anthropic or OpenAI who have a ton of distribution are going in and bringing their incredible tools like Claude Code or Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1167.301,
+            1171.805
+          ],
+          "quote": "And much to the chagrin of many of my friends at OpenAI and Anthropic, this is not true.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1617.219,
+            1623.524
+          ],
+          "quote": "So let's generate the code with OpenAI, test it with Anthropic, review it with like Gemini, things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2018.088,
+            2030.918
+          ],
+          "quote": "Now, since we are model independent, we kind of, with our router, we are kind of pointing a token cannon at either OpenAI, Anthropic, AWS, GCP, you know, any one of these people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集多次提及的模型实验室,Codex 的出品方,被引为'拥有模型+自家 harness'天真论的另一方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            143.947,
+            152.352
+          ],
+          "quote": "And some of these other players like Anthropic or OpenAI who have a ton of distribution are going in and bringing their incredible tools like Claude Code or Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            199.909,
+            201.491
+          ],
+          "quote": "Codex from OpenAI is fantastic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1167.301,
+            1171.805
+          ],
+          "quote": "And much to the chagrin of many of my friends at OpenAI and Anthropic, this is not true.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1617.219,
+            1623.524
+          ],
+          "quote": "So let's generate the code with OpenAI, test it with Anthropic, review it with like Gemini, things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2018.088,
+            2030.918
+          ],
+          "quote": "Now, since we are model independent, we kind of, with our router, we are kind of pointing a token cannon at either OpenAI, Anthropic, AWS, GCP, you know, any one of these people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ey",
+      "type": "company",
+      "role": "company",
+      "name": "EY",
+      "file": "EY",
+      "primary": false,
+      "how_described": "Factory 最大客户之一,不以 AI 前沿著称但态度是'我们不会在这件事上迟到'。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 625,
+          "t": [
+            2712.791,
+            2713.951
+          ],
+          "quote": "One of our largest customers is EY.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2715.052,
+            2720.854
+          ],
+          "quote": "EY is not necessarily known to be at the absolute frontier of AI, but I think for them, they were just like, look, this matters.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

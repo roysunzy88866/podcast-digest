@@ -7,19 +7,22 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Factory</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Factory">FA</div><div class="pi"><h1 class="pt">Factory</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Factory">FA</div><div class="pi"><h1 class="pt">Factory</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]]**(00:58起):嘉宾 Matan 创办的公司,做用于软件开发的自主智能体 droids,主打模型独立性与多模型 harness;本集讲了它退回全部营收、两年旷野后翻身的公司故事。
 - **[[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]]**(32:33起):本集提及为一家提供类 Claude Code 体验的公司，本集工作流中的命令（如 slash roadmap）就是在其平台上定义和运行的
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(01:03起):本集称其为专门从事自主软件开发（autonomous software development）的公司，不补贴消费者、不追求 PLG，而是按项目和结果分配 token、追求最好产品体验的企业
 - **[[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]]**(01:03起):本集把它说成一种工作方式：把几乎所有开发转移到循环的创建、维护和监控上，你的定制化「什么是正确」的定义就是新的软件工程，且工厂是连续体不是两个月的项目
 
 ## ① 提到它的金句
 
-*4 条*
+*5 条*
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q12]]
+
+![[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark#^q12]]
 
 ![[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co#^q1]]
 
@@ -29,8 +32,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
+- [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]] — 作为被讨论公司
 - [[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司
 - [[2026-09-02-ainativedev-850-prs-a-week-how-tessl-runs-a-software|《从技能到循环再到工厂:软件工厂实战路线图》]] — 作为概念
@@ -39,9 +43,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[技能]] · [[token]] · [[Heitor Lessa]] · [[Harry Stebbings]] · [[Simon Maple]] · [[规范驱动开发]] · [[Eno Reyes]] · [[Drew]] · [[苏格拉底方法]]
+[[智能体]] · [[token]] · [[harness]] · [[技能]] · [[开源模型]] · [[Cognition]] · [[Anthropic]] · [[OpenAI]] · [[Matan Grinberg]] · [[Heitor Lessa]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"技能":10,"token":12,"Heitor Lessa":1,"Harry Stebbings":11,"Simon Maple":7,"规范驱动开发":1,"Eno Reyes":1,"Drew":1,"苏格拉底方法":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"token":13,"harness":20,"技能":10,"开源模型":5,"Cognition":15,"Anthropic":101,"OpenAI":88,"Matan Grinberg":1,"Heitor Lessa":1}</script>
 
 <script>
 (function(){

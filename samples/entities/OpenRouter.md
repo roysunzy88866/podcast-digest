@@ -39,7 +39,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[推理]] · [[Cursor]] · [[智能体]] · [[Harry Stebbings]] · [[NVIDIA]] · [[GPU]] · [[Stripe]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":100,"OpenAI":87,"推理":4,"Cursor":45,"智能体":1,"Harry Stebbings":11,"NVIDIA":28,"GPU":11,"Stripe":26,"Cognition":14}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":101,"OpenAI":88,"推理":4,"Cursor":45,"智能体":1,"Harry Stebbings":11,"NVIDIA":28,"GPU":11,"Stripe":26,"Cognition":15}</script>
 
 <script>
 (function(){

@@ -1,0 +1,33 @@
+{
+  "id": "2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark",
+  "audio_mp3": "https://pscrb.fm/rss/p/traffic.megaphone.fm/CPUAI7029994616.mp3",
+  "duration_sec": 3059.412,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 702,
+  "asr": true,
+  "title_en": "Factory's Matan Grinberg: The Coming ‘Dark Factory’ Where Software Builds Itself",
+  "podcast": "Training Data",
+  "date": "2026-07-21",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/8b31e580-845b-11f1-850d-e78291a15e5d/image/0483f625a5d84dbe73e47453992bb567.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-09-06",
+  "added_at": "2026-09-06T03:01:51.913Z",
+  "speaker_map": {
+    "SPEAKER_01": "Matan Grinberg"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Matan Grinberg",
+  "cohosts": [],
+  "title_zh": "Factory CEO Matan:早两年等于错，退款、路由器与软件工厂",
+  "guest_name": "Matan Grinberg",
+  "guest_title": "Factory 联合创始人兼 CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/8b31e580-845b-11f1-850d-e78291a15e5d/image/0483f625a5d84dbe73e47453992bb567.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "2995x2995",
+    "aspect": 1,
+    "fetched_at": "2026-09-06T03:37:39.665Z"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "title_zh": "Factory CEO Matan:早两年等于错，退款、路由器与软件工厂",
+  "tldr": "Factory 联合创始人兼 CEO Matan 讲述企业级编程智能体的突围之路：主动退还全部营收、多模型 harness 为何胜过厂商自家、以及 token 该像预算一样分配。",
+  "digest_md": "这一集的主角是 Matan，Factory 的联合创始人兼 CEO。Factory 做「droids」——用于软件开发的自主智能体(能自己接活干完、不用人一步步指挥的程序)。在 Claude Code、Cognition 等玩家已经领先的市场里，他们算黑马。但 Matan 讲的最精彩的部分，不是产品，而是这家公司差点死掉又活过来的那两年——以及他由此得出的一个狠判断：「早了两三年和错了是一样的。」\n\n## 旷野两年：把到手的钱退回去\n\nFactory 创立于三年半前，做的是完全自主的智能体——但当时的工程师和企业采购都没准备好接受。「旷野中的旅程」就是这么来的：方向是对的，早了两年，所以就是错的。\n\n最难熬的一段：他们企业销售做得越来越好，签了合同，收入接近 200 万美元——但产品本身不好。「如果你很擅长销售，你能签下合同。但如果开发者不喜欢你的产品，那就像一颗定时炸弹。」于是他们做了一个极罕见的决定：**主动把所有客户的钱退回去**，并承诺三个月后拿出真东西。理由是他们的一条运营原则：「打造痴迷的客户」——这是对贝索斯「顾客痴迷」的反转：\n\n> 「你是不是痴迷顾客并不重要。你可以很痴迷顾客，然后他们因为不喜欢你在做的事对你申请限制令。我们的工作是打造出足够好的东西，好到客户自己对我们着迷。」[09:02 Matan]\n\n他的类比：篮球教练不会在球员上场前说「记得流汗」，而是「去得分」——流汗只是副产物。痴迷是输入指标，被痴迷才是输出。\n\n对团队，他坦诚到底：「这很糟糕，我们刚把所有营收退了回去，我们必须振作。」正是这段共同谷底——公司刚创立时估值只有 500 万，从没当过一天独角兽——锻造了团队的韧性，「没有一个人离开」。\n\n## 什么变了：不是模型，是人\n\n主持人以为「模型变好」是最大的变化，Matan 不同意。方向没错但太激进的交互模式，要求开发者彻底改变行为——在大家连 Copilot 都没用熟时就让人开箱即用全自主智能体，步子跨太大。转机出现在 2025 年晚些时候：他们推出 Droid CLI，「在开发者所在之处与他们相遇」——这时大多数工程师已经用惯自动补全、开始接受聊天式智能体交互。加上 Karpathy 等意见领袖发推背书，行为的水位到了，产品才浮上来。\n\n## 反直觉：多模型 harness 反而更强\n\n大家(包括 OpenAI、Anthropic 的人)天真地以为：自己训练模型又自己做 harness,一起会更好。Matan 说事实恰恰相反——**支持多个模型的 harness 会更好**。他的类比：数据之于模型，正如模型之于 harness。只用自家数据训练的「个人 AI」不如用整个互联网训练的；同理，向 harness 暴露的模型越多，越能避免 harness 过拟合到某一个模型的细微特性上。结果是：每个新模型发布，它在 TerminalBench 上于 Droid 里的表现比在厂商自家的 Claude Code 或 Codex 里还好。\n\n具体例子：Opus 像那个友善的同事——你说要做 20 个任务，它会告诉你其中 5 个其实不用做；GPT 5.6 则是绝不睡觉、一个不落全做完的偏执型选手。为各自单独构建的 harness,会各自擅长和不擅长不同的事(比如待办清单的保持、长会话压缩时不丢关键信息)，而用户要的是换模型也不变样的体验——这只有多模型 harness 做得到。\n\n这也是企业选他们的核心原因：模型独立性。云时代的教训太深——「签三年便宜合同，续约时十倍涨价，数据引力，拿捏你了」——没人想把命运交给任何一家模型实验室。\n\n## Token 要像预算一样分配\n\n行业正从「token maxing」走向成本理性。Matan 描了条演化线：阶段零没人信 AI → 阶段一董事会逼 CEO 表态 → 阶段二把 AI 使用量写进绩效、公开排名 → 阶段三所有人用最贵的模型干所有事——有银行每月花几十万美元，就为了让员工问 Opus「今天天气怎么样」。\n\nFactory 的答案是 router:按任务动态路由到不同模型。vibe coding(让 AI 随手做点东西)的部门用便宜的，COBOL 老代码库用专门微调的模型，关键代码「用 OpenAI 生成、用 Anthropic 测试、用 Gemini 审查」。路由规则可以用自然语言写。他说 12 个月后每个 CIO 都得回答：「每多一个 token,放在哪？」一刀切的 token 上限毫无道理——写文档的工程师用掉的是极低杠杆的脑力，应该自动化掉，让高杠杆的深度思考从「时刻」变成「一次几个小时」。\n\n关于开源模型：年初流向开源模型的 token 不到 1%,一季度变个位数百分比，现在已破两位数。他的判断是开源模型落后闭源约一代，但「开源模型有没有做到和前沿减一代一样好？答案是毫无疑问的肯定」，最终会渐近地占据绝大部分 token 份额——当然不是价值份额，那最关键的 1% 决策 token 仍属于智能的最前沿。\n\n他甚至展望定价的终局：从按用量付费走向**按结果付费**——任务加上验证标准，模型提供商竞标，定价对了赚利润、错了负利润。「基于席位付费没有意义；到 2030 年代，事情可能看起来会更像基于结果的。」\n\n## 软件工厂：给公司做反向传播\n\n为什么叫 Factory?灵感来自 Tesla 工厂和「黑暗工厂」——灯全关着，机械臂自己在干活。Matan 说今天的每个公司都有软件工厂，只不过效率极低：一万人的公司里，一个功能的发布流程牵扯几百上千人，而且没人画得出这个流程。大量「部落知识」——去问那位干了 30 年的大师、各种审批、没人记得的检查清单——都可以代码化和自动化。\n\n更狠的推论：两年后 CIO 的问题会从「每个 token 放哪」变成「**每个增量美元放哪**」——投人力还是投 token?「人们拍脑袋决定 token 预算，拍脑袋裁员两万。裁掉两万人不可能有什么科学依据。」他类比：公司是一个 AGI,你要优化权重、搞清哪些节点承重——「你不会凭感觉对一个模型做反向传播」，但现在公司运营全靠拍脑袋。十年后回望，今天的软件管理就像《广告狂人》时代的营销：全靠创意，不知道什么真正有效。\n\n至于企业怎么上路：他的答案朴素得出人意料——搞全公司黑客马拉松，「留出一天，让所有员工就用 AI 造点东西」，失败也没关系；还有「没有圣牛，先挪开试试，不灵再放回去」；而且变革必须来自内部，来自董事会的基本不顺。他们最大的客户之一是 EY——并不以 AI 前沿著称，但「我们不会在这件事上迟到」。\n\n## 本集带走\n\n- **「早两年等于错」**：方向对但时机不对没有安慰奖，没有加分项——要么做成，要么没做成。据此他甚至退掉全部营收重建信任，换来了此后客户的回头。\n- **痴迷是输入，被痴迷才是输出**：别衡量「我们对客户多上心」，衡量「客户对我们多上心」——像要求球员得分，而不是要求流汗。\n- **多模型 harness 胜过厂商协同设计**：暴露给 harness 的模型越多，越不过拟合单一模型的怪癖，每个新模型在你的 harness 里跑得比在它自家产品里还快。\n- **别用最贵的模型干所有事**：按任务路由——闲聊用便宜的，老代码库用微调模型，关键链路多模型交叉生成、测试、审查；开源模型已追平「前沿减一代」，够用且便宜得多。\n- **每个 CIO 很快要回答**：每个增量美元投人力还是投 token?公司应像训练模型一样定量地「反向传播」自己，而不是拍脑袋。\n- **企业转型最有效的一招出奇朴素**：全公司黑客马拉松 + 允许失败 + 敢动「圣牛」，且必须由内部驱动。\n\n> 【背景】EY 指安永，全球四大会计师事务所之一。Karpathy 指 Andrej Karpathy,前 Tesla AI 总监、OpenAI 创始成员，在工程师群体中影响力极大。",
+  "quotes": [
+    {
+      "en": "And you responded with something along the lines of, thank you, but being two or three years early is the same as being wrong.",
+      "zh": "你回应的大意是：谢谢你，但早了两三年和错了是一样的。",
+      "timestamp": "05:33",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "Like you could be customer obsessed and they file a restraining order against you because they don't like what it is that you're doing.",
+      "zh": "就像你可以痴迷于客户,然后他们因为你做的事对你申请限制令。",
+      "timestamp": "09:07",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "Like our job is to build something so good that our customers themselves become obsessed with us.",
+      "zh": "我们的工作是打造出足够好的东西,好到客户自己对我们着迷。",
+      "timestamp": "09:12",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "That makes us so resilient and so strong that, you know, going forward, things are going a lot better now, but there are going to be really bad times, but we have that resiliency in our DNA that I'm not sure some of these other companies do.",
+      "zh": "这让我们如此坚韧、如此强大——往前看,现在情况已经好了很多,但还会有非常糟糕的时期,而我们的 DNA 里有那种韧性,我不确定其他一些公司有没有。",
+      "timestamp": "13:35",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "We were right in that what we were building for was fully autonomous agents, but it was two years too early, which makes it wrong.",
+      "zh": "我们的方向没错——我们面向构建的确实是完全自主的智能体,但早了两年,这就使得它错了。",
+      "timestamp": "14:08",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "So there's a sort of analog that emerges where it's what data is to a model, models are to a harness.",
+      "zh": "所以这里出现了一种类比:数据之于模型,正如模型之于 harness。",
+      "timestamp": "20:06",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "And the reality is this happened because we were so worried about adoption that we overcorrected and we're like adoption by any means necessary.",
+      "zh": "现实是,之所以会这样,是因为我们太担心采用率,以至于矫枉过正,变成「不惜一切代价追求采用率」。",
+      "timestamp": "24:57",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "So every CIO is going to need to answer, for every incremental token, where do we put it?",
+      "zh": "所以每一位 CIO 都需要回答:每多一个 token,我们该把它放在哪里?",
+      "timestamp": "26:09",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "And it is a very good world where there is not like a monopoly on intelligence, but instead kind of a garden of intelligence that you can pick and choose, you know, when you'd like.",
+      "zh": "一个没有智能垄断、而是一座可以随手采撷的「智能花园」的世界,是非常好的世界。",
+      "timestamp": "28:46",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "There is no way there is science to laying off 20,000 people.",
+      "zh": "裁掉两万人这件事,不可能有什么科学依据。",
+      "timestamp": "40:04",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "In other words, like if everyone woke up sick tomorrow, like a lot of Claude code usage would be zero.",
+      "zh": "换句话说,如果明天所有人都病倒了,很多 Claude Code 的使用量会直接归零。",
+      "timestamp": "46:27",
+      "speaker": "Matan Grinberg"
+    },
+    {
+      "en": "And this idea of a dark factory where the lights are off and things are just happening, that is where software development is going.",
+      "zh": "「黑暗工厂」——灯都关着,事情就那么发生着——这就是软件开发的方向。",
+      "timestamp": "47:20",
+      "speaker": "Matan Grinberg"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:33",
+      "speaker": "Matan",
+      "en": "And you responded with something along the lines of, thank you, but being two or three years early is the same as being wrong.",
+      "zh": "你回应的大意是：谢谢你，但早了两三年和错了是一样的。"
+    },
+    {
+      "timestamp": "09:07",
+      "speaker": "Matan",
+      "en": "Like you could be customer obsessed and they file a restraining order against you because they don't like what it is that you're doing.",
+      "zh": "就像你可以痴迷于客户,然后他们因为你做的事对你申请限制令。"
+    },
+    {
+      "timestamp": "09:12",
+      "speaker": "Matan",
+      "en": "Like our job is to build something so good that our customers themselves become obsessed with us.",
+      "zh": "我们的工作是打造出足够好的东西,好到客户自己对我们着迷。"
+    },
+    {
+      "timestamp": "07:18",
+      "speaker": "Matan",
+      "en": "Like there's no consolation prize.",
+      "zh": "就是没有安慰奖这回事。"
+    },
+    {
+      "timestamp": "07:48",
+      "speaker": "Matan",
+      "en": "But if you're doing that and the developers don't like your product, it's like a ticking time bomb because it's eventually they're going to turn and it's going to be really, really bad.",
+      "zh": "但如果你在这么做,而开发者不喜欢你的产品,那就像一颗定时炸弹——最终他们会流失,而且会变得非常非常糟糕。"
+    },
+    {
+      "timestamp": "13:22",
+      "speaker": "Matan",
+      "en": "Like a lot of our competitors, a lot of the companies out there these days, they don't know what it's like to not be a unicorn.",
+      "zh": "我们的很多竞争对手、如今外面的很多公司,它们不知道「不是独角兽」是什么滋味。"
+    },
+    {
+      "timestamp": "13:35",
+      "speaker": "Matan",
+      "en": "That makes us so resilient and so strong that, you know, going forward, things are going a lot better now, but there are going to be really bad times, but we have that resiliency in our DNA that I'm not sure some of these other companies do.",
+      "zh": "这让我们如此坚韧、如此强大——往前看,现在情况已经好了很多,但还会有非常糟糕的时期,而我们的 DNA 里有那种韧性,我不确定其他一些公司有没有。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Matan",
+      "en": "We were right in that what we were building for was fully autonomous agents, but it was two years too early, which makes it wrong.",
+      "zh": "我们的方向没错——我们面向构建的确实是完全自主的智能体,但早了两年,这就使得它错了。"
+    },
+    {
+      "timestamp": "19:27",
+      "speaker": "Matan",
+      "en": "And much to the chagrin of many of my friends at OpenAI and Anthropic, this is not true.",
+      "zh": "而让我的许多 OpenAI 和 Anthropic 朋友懊恼的是,这不是真的。"
+    },
+    {
+      "timestamp": "19:33",
+      "speaker": "Matan",
+      "en": "If you build a harness that supports different models, that harness will be better.",
+      "zh": "如果你构建一个支持不同模型的 harness,那个 harness 会更好。"
+    },
+    {
+      "timestamp": "20:06",
+      "speaker": "Matan",
+      "en": "So there's a sort of analog that emerges where it's what data is to a model, models are to a harness.",
+      "zh": "所以这里出现了一种类比:数据之于模型,正如模型之于 harness。"
+    },
+    {
+      "timestamp": "21:51",
+      "speaker": "Matan",
+      "en": "I will do every single one of those and nothing will stop me.",
+      "zh": "我会把每一个都做完,没有任何东西能阻止我。"
+    },
+    {
+      "timestamp": "24:51",
+      "speaker": "Matan",
+      "en": "Or like, tell me about Python, like trivial questions that you could Google, people are asking Opus.",
+      "zh": "或者像「给我讲讲 Python」——那种你谷歌一下就能知道的琐碎问题,人们拿来问 Opus。"
+    },
+    {
+      "timestamp": "25:02",
+      "speaker": "Matan",
+      "en": "And the reality is this happened because we were so worried about adoption that we overcorrected and we're like adoption by any means necessary.",
+      "zh": "现实是,之所以会这样,是因为我们太担心采用率,以至于矫枉过正,变成「不惜一切代价追求采用率」。"
+    },
+    {
+      "timestamp": "26:14",
+      "speaker": "Matan",
+      "en": "So every CIO is going to need to answer, for every incremental token, where do we put it?",
+      "zh": "所以每一位 CIO 都需要回答:每多一个 token,我们该把它放在哪里?"
+    },
+    {
+      "timestamp": "28:17",
+      "speaker": "Matan",
+      "en": "And the answer is unequivocally yes, which I think is a really, really interesting outcome.",
+      "zh": "答案是毫无疑问的肯定——我认为这是一个非常、非常有趣的结果。"
+    },
+    {
+      "timestamp": "28:46",
+      "speaker": "Matan",
+      "en": "And it is a very good world where there is not like a monopoly on intelligence, but instead kind of a garden of intelligence that you can pick and choose, you know, when you'd like.",
+      "zh": "一个没有智能垄断、而是一座可以随手采撷的「智能花园」的世界,是非常好的世界。"
+    },
+    {
+      "timestamp": "29:11",
+      "speaker": "Matan",
+      "en": "Now, it might be that she eventually goes and becomes like a leading, you know, physicist or something, in which case, yeah, maybe let's get Albert Einstein in there.",
+      "zh": "当然,也可能她将来会成为顶尖物理学家什么的——那样的话,好吧,也许我们该请爱因斯坦出山。"
+    },
+    {
+      "timestamp": "39:37",
+      "speaker": "Matan",
+      "en": "You don't, I guess more importantly, you don't do back prop in a model by vibes.",
+      "zh": "你不会——更准确地说——你不会凭感觉对一个模型做反向传播。"
+    },
+    {
+      "timestamp": "40:04",
+      "speaker": "Matan",
+      "en": "There is no way there is science to laying off 20,000 people.",
+      "zh": "裁掉两万人这件事,不可能有什么科学依据。"
+    },
+    {
+      "timestamp": "46:27",
+      "speaker": "Matan",
+      "en": "In other words, like if everyone woke up sick tomorrow, like a lot of Claude code usage would be zero.",
+      "zh": "换句话说,如果明天所有人都病倒了,很多 Claude Code 的使用量会直接归零。"
+    },
+    {
+      "timestamp": "47:20",
+      "speaker": "Matan",
+      "en": "And this idea of a dark factory where the lights are off and things are just happening, that is where software development is going.",
+      "zh": "「黑暗工厂」——灯都关着,事情就那么发生着——这就是软件开发的方向。"
+    },
+    {
+      "timestamp": "48:40",
+      "speaker": "Matan",
+      "en": "Generally, there is a huge number of problems in the world.",
+      "zh": "总的来说,世界上存在大量的问题。"
+    },
+    {
+      "timestamp": "49:33",
+      "speaker": "Matan",
+      "en": "And like, this is going to enable people to solve it with incredible software.",
+      "zh": "而这会让人们能够用真正出色的软件去解决它们。"
+    }
+  ],
+  "voice_script": "今天这期，咱们听一个人讲一段挺狠的创业故事。主角叫 Matan,是 Factory 这家公司的联合创始人兼 CEO。Factory 做的东西叫 droids,用在软件开发上的自主智能体，说白了就是能自己接活干完、不用人一步步指挥的程序。这个赛道现在很挤，Claude Code、Cognition 这些玩家都跑在前面，Factory 算是一匹黑马。但这期最精彩的，不是产品，而是这家公司差点死掉又活过来的那两年，以及由此得出的一个狠判断：早了两三年，和错了是一样的。\n\n先把来龙去脉垫一下。Factory 创立于三年半前，一开始做的就是完全自主的智能体。方向你听着是不是很对？可问题是，当时的工程师和企业采购都还没准备好接受这东西。Matan 把那段经历叫「旷野中的旅程」，方向是对的，早了两年，所以就错了。\n\n最难熬的是这么一段：企业销售做得越来越好，合同签下来了，收入接近两百万美元。听着不错吧？可产品本身不好。用他的话说，如果你很擅长销售，你能签下合同，但如果开发者不喜欢你的产品，那就像一颗定时炸弹。于是他们做了一个极其罕见的决定：主动把所有客户的钱退回去，承诺三个月后拿出真东西。理由来自他们的一条运营原则，叫「打造痴迷的客户」。这个词是对贝索斯「顾客痴迷」的反转。原话很妙：你是不是痴迷顾客并不重要，你可以很痴迷顾客，然后他们因为不喜欢你在做的事，对你申请限制令。我们的工作是打造出足够好的东西，好到客户自己对我们着迷。打个比方，篮球教练不会在球员上场前说「记得流汗」，而是说「去得分」，流汗只是副产物。痴迷是输入指标，被痴迷才是输出。\n\n退款的时候，对团队也很坦诚：这很糟糕，我们刚把所有营收退了回去，必须振作。公司刚创立时估值只有五百万，从没当过一天独角兽。但正是这段共同谷底锻造了韧性，没有一个人离开。\n\n那后来到底什么变了？主持人以为最大的变化是模型变好，Matan 不同意。问题出在交互模式太激进，要求开发者彻底改变行为，在大家连 Copilot 都没用熟的时候，就让人开箱即用全自主智能体，步子跨太大了。转机出现在二〇二五年晚些时候，他们推出 Droid CLI,在开发者所在之处与他们相遇。这时大多数工程师已经用惯自动补全，开始接受聊天式的智能体交互，加上 Karpathy 这些意见领袖发推背书，行为的水位到了，产品才浮上来。\n\n接下来是一个反直觉的判断。大家——包括 OpenAI、Anthropic 的人——都天真地以为，自己训练模型又自己做外围的调度框架，也就是 harness,一起会更好。Matan 说事实恰恰相反，支持多个模型的 harness 反而更强。这里有个类比：数据之于模型，正如模型之于 harness。只用自家数据训练的个人 AI,不如用整个互联网训练的；同理，harness 见过的模型越多，就越不会过拟合到某一个模型的细微特性上。结果是，每个新模型发布，放进他们的 Droid 里跑，比在厂商自家的 Claude Code 或 Codex 里表现还好。具体说，Opus 像那个友善的同事，你说要做二十个任务，它会告诉你其中五个其实不用做；GPT 5.6 则是绝不睡觉、一个不落全做完的偏执型选手。各自单独建的框架，各有各的长短板，而用户要的是换模型也不变样的体验，这只有多模型 harness 做得到。这也是企业选他们的核心原因：模型独立性。云时代的教训太深了——签三年便宜合同，续约时十倍涨价，数据引力拿捏你了——没人想把命运交给任何一家模型实验室。\n\n顺着成本这条线，还能看到行业的变化。大家正从一味堆 token,走向成本理性。Matan 描了条演化线：最开始没人信 AI;然后董事会逼着 CEO 表态；再把 AI 使用量写进绩效、公开排名；到最后，所有人用最贵的模型干所有事。有银行每月花几十万美元，就为了让员工问 Opus 今天天气怎么样。Factory 的答案是 router,按任务动态路由到不同模型：随手做点东西的用便宜的，COBOL 老代码库用专门微调的模型，关键代码用 OpenAI 生成、用 Anthropic 测试、用 Gemini 审查。路由规则还能用自然语言写。照这个趋势，十二个月后每个 CIO 都得回答一个问题：每多一个 token,放在哪？一刀切的 token 上限毫无道理——写文档这种低杠杆的活，应该自动化掉，让高杠杆的深度思考从几分钟的「时刻」，变成一次几个小时。\n\n顺着这个问题再往下推，是更狠的一步：两年后，CIO 的问题会从「每个 token 放哪」，变成「每个增量美元放哪」——投人力，还是投 token?Matan 打了个比方：公司就是一个 AGI,你要搞清哪些节点承重，你不会凭感觉对一个模型做反向传播，可现在公司运营全靠拍脑袋——人们拍脑袋决定 token 预算，也拍脑袋裁员两万。十年后回望，今天的软件管理，就像《广告狂人》时代的营销，全靠创意，不知道什么真正有效。那企业怎么上路？答案朴素得出人意料：搞全公司黑客马拉松，留出一天，让所有员工就用 AI 造点东西，失败也没关系。还有一条，没有圣牛，先挪开试试，不灵再放回去。变革必须来自内部，他们最大的客户之一安永，并不以 AI 前沿著称，但态度是：我们不会在这件事上迟到。\n\n再往远处看一步，Matan 连定价的终局都想好了：从按用量付费走向按结果付费——任务加上验证标准，模型提供商竞标，定价对了赚利润，错了负利润。基于席位付费没有意义，到二〇三〇年代，事情会更像基于结果的。\n\n回头看这整个故事，其实是一句话：方向对但时机不对，没有安慰奖，没有加分项——要么做成，要么没做成。所以别衡量你对客户多上心，去衡量客户对你多上心；别用最贵的模型干所有事，把每个 token 当预算花；也别拍脑袋管公司，该像训练模型一样，定量地给自己做反向传播。正如 Matan 说的，我们的工作是打造出足够好的东西，好到客户自己对我们着迷。"
+}

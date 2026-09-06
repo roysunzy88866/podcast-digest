@@ -27,7 +27,7 @@ aliases: ["tiktok", "tik tok"]
 
 [[Instagram]] · [[Lenny]] · [[Victor Riparbelli]] · [[Adam Mosseri]] · [[Synthesia]] · [[Anthropic]] · [[虚拟形象]] · [[Facebook]] · [[智能体]] · [[open ai]]
 
-<script type="application/json" class="pd-epn">{"Instagram":4,"Lenny":66,"Victor Riparbelli":1,"Adam Mosseri":1,"Synthesia":1,"Anthropic":100,"虚拟形象":2,"Facebook":11,"智能体":1,"open ai":2}</script>
+<script type="application/json" class="pd-epn">{"Instagram":4,"Lenny":66,"Victor Riparbelli":1,"Adam Mosseri":1,"Synthesia":1,"Anthropic":101,"虚拟形象":2,"Facebook":11,"智能体":1,"open ai":2}</script>
 
 <script>
 (function(){

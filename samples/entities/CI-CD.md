@@ -46,7 +46,7 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 [[智能体]] · [[MCP]] · [[Codex]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[Simon Maple]] · [[多模态]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":26,"Codex":37,"OpenAI":87,"护栏":2,"Anthropic":100,"Cursor":45,"Claude":47,"Simon Maple":7,"多模态":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":26,"Codex":38,"OpenAI":88,"护栏":2,"Anthropic":101,"Cursor":45,"Claude":47,"Simon Maple":7,"多模态":1}</script>
 
 <script>
 (function(){

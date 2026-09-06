@@ -129,7 +129,7 @@ AI 带来的生产力提升，恰恰出现在入门级就业开始萎缩的那�
 
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同概念:前沿模型 (frontier models)、开源模型 (open models)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:前沿模型 (frontier models)、护栏 (guardrails)</span>
-- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同嘉宾:Chris Benson · 同概念:护栏 (guardrails)</span>
+- [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同概念:开源模型 (open models)、Claude code</span>
 
 </div>
 <div class="pd-ex">

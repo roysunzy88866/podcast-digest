@@ -151,7 +151,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Cursor]] · [[vibe coding]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"OpenAI":87,"Claude":47,"Anthropic":100,"Google":35,"Codex":37,"Cursor":45,"vibe coding":26,"LLM":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":66,"OpenAI":88,"Claude":47,"Anthropic":101,"Google":35,"Codex":38,"Cursor":45,"vibe coding":27,"LLM":25}</script>
 
 <script>
 (function(){

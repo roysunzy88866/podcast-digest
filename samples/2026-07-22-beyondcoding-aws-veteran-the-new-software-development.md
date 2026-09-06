@@ -139,8 +139,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同概念:循环工程 (loop engineering)、智能体 (agent)、技能 (skill)</span>
+- [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同公司:Factory · 同概念:智能体 (agent)、token</span>
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:智能体 (agent)、token</span>
-- [[2026-07-28-ainativedev-inside-the-dark-factory-ai-that-ships-co|Tesla 的暗工厂：65% 的 PR 由智能体自动产出，95% 的代码没人看过]]<span class="pd-rz">同概念:智能体 (agent)、形式化验证 (formal verification)</span>
 
 </div>
 <div class="pd-ex">

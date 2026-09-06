@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>12</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]]**(16:00起):本集将 token 描述为稀缺资源，用阿拉丁神灯三个愿望的比喻说明上下文记忆窗口有限；如果不给文件引用，agent 会把 80% 的 token 花在阅读代码上
 - **[[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]]**(27:14起):本集说 Boris 建议 CTO 们先给工程师尽可能多的 token，小规模下 token 成本相对其他业务成本很低，Anthropic 内部已有工程师每月花数十万美元在 token 上
 - **[[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]]**(31:33起):Daniel指出既然是智能体在做工作、消耗token及成本，公司突然开始关心软件开发生命周期的效率；Tamuz发现不感兴趣的开发者会把验证甩给智能体导致token消耗飙升
+- **[[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]]**(18:20起):本集从 token maxing 讲到成本理性:有银行每月花几十万美元问 Opus 天气;每个 CIO 都要回答'每多一个 token 放在哪',进而变成'每多一美元投人力还是 token'。
 - **[[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]]**(33:16起):本集作为成本度量单位，嘉宾提到一次重构花掉 2 亿个 token 才意识到必须停止全程用最贵模型，在 1400 人组织中每个工程师每月几千美元的 token 费用会引发领导层质疑
 - **[[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]]**(17:49起):在成本管理讨论中出现。Datadog 刻意不走配额限制路线，而是从系统角度去压缩输出、减少 token 浪费。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(16:00起):本集把它说成：数据中心这个工厂生产的、史上贬值最快的商品，在恒定性能下每年跌价 70% 到 80%，持续至少四年没有停下来的迹象。
@@ -26,13 +27,15 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*15 条*
+*16 条*
 
 ![[2026-02-19-lennys-head-of-claude-code-what-happens#^q12]]
 
 ![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q7]]
 
 ![[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers#^q3]]
+
+![[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark#^q8]]
 
 ![[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge#^q1]]
 
@@ -60,11 +63,12 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为概念
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念(提及)
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|《DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑》]] — 作为概念
+- [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]] — 作为概念
 - [[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]] — 作为概念(提及)
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为概念(提及)
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
@@ -79,9 +83,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[OpenAI]] · [[沙箱]] · [[后训练]] · [[NVIDIA]] · [[Claude]] · [[护栏]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[沙箱]] · [[后训练]] · [[harness]] · [[NVIDIA]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":100,"Cursor":45,"推理":4,"OpenAI":87,"沙箱":35,"后训练":17,"NVIDIA":28,"Claude":47,"护栏":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":101,"OpenAI":88,"Cursor":45,"推理":4,"沙箱":35,"后训练":17,"harness":20,"NVIDIA":28,"vibe coding":27}</script>
 
 <script>
 (function(){

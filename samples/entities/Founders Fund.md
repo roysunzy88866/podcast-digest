@@ -25,7 +25,7 @@ unlisted: true
 
 [[Brian Singerman]] · [[GPX]] · [[Anduril]] · [[SpaceX]] · [[Palantir]] · [[Airbnb]] · [[OpenAI]] · [[Anthropic]] · [[Cognition]] · [[Ramp]]
 
-<script type="application/json" class="pd-epn">{"Brian Singerman":1,"GPX":1,"Anduril":3,"SpaceX":12,"Palantir":12,"Airbnb":10,"OpenAI":87,"Anthropic":100,"Cognition":14,"Ramp":6}</script>
+<script type="application/json" class="pd-epn">{"Brian Singerman":1,"GPX":1,"Anduril":3,"SpaceX":12,"Palantir":12,"Airbnb":10,"OpenAI":88,"Anthropic":101,"Cognition":15,"Ramp":6}</script>
 
 <script>
 (function(){

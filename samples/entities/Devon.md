@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[剧本]] · [[Cognition]] · [[技能]] · [[Jiaona Zhang]] · [[Tane]] · [[Ryan Carson]] · [[Akash]] · [[Carter]] · [[Claire]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"剧本":3,"Cognition":14,"技能":10,"Jiaona Zhang":1,"Tane":1,"Ryan Carson":1,"Akash":3,"Carter":1,"Claire":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"剧本":3,"Cognition":15,"技能":10,"Jiaona Zhang":1,"Tane":1,"Ryan Carson":1,"Akash":3,"Carter":1,"Claire":2}</script>
 
 <script>
 (function(){
