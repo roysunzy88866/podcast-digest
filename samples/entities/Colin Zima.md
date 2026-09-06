@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":5,"Databricks":10,"Google":35,"BI":1,"数据模型":1,"创新者的窘境":2,"产品市场契合":15,"AI":13}</script>
+<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":5,"Databricks":10,"Google":35,"BI":1,"数据模型":1,"创新者的窘境":2,"产品市场契合":15,"AI":14}</script>
 
 <script>
 (function(){

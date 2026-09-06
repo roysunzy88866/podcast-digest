@@ -58,7 +58,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[护栏]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Hugging Face]] · [[Claude Code]] · [[MCP]] · [[Workday]] · [[爆炸半径]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":6,"护栏":2,"Anthropic":103,"智能体":1,"OpenAI":89,"Hugging Face":19,"Claude Code":46,"MCP":26,"Workday":4,"爆炸半径":3}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":6,"护栏":2,"Anthropic":103,"智能体":1,"OpenAI":90,"Hugging Face":19,"Claude Code":46,"MCP":26,"Workday":4,"爆炸半径":3}</script>
 
 <script>
 (function(){

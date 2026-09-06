@@ -1,0 +1,214 @@
+{
+  "title_zh": "a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小",
+  "tldr": "a16z 普通合伙人 Anish Acharya 与 Lenny 聊「永久底层阶级」为何是伪命题，公司正在变成一堆智能体循环，以及「Loop，让我更快乐」这个更大的消费级机会。",
+  "digest_md": "这一集的主角是 Anish Acharya——a16z 的普通合伙人，专注消费领域投资。他不是纯金融背景：先后创办过 SocialDeck 和 Snowball 两家公司（分别卖给 Google 和 Credit Karma），在 Google 和 Credit Karma 做过产品负责人，是一位产品出身的投资人。\n\n开场先聊了一个让很多人焦虑的梗：**永久底层阶级**——如果你没跟上所有最新 AI 工具、没成为最高效的人，就会被永久甩下。Anish 的态度是：不用太认真，「这是我们硅谷集体似乎拥有的一个有趣的黑暗幻想」。他给出三层论据：\n\n- **这个时代反而在去中心化**。上一个移动时代的黄金标准是网络效应产品，而网络效应天然是 N-of-1（赢家独占）网络，导致了戏剧性的中心化。现在技术栈每一层都不止两个玩家，而是二十个——有实验室、有开放权重模型。连大家以为必然赢家通吃的编程智能体，Claude Code、Codex、Lovable、Replit、Wabi 全都活得不错。\n- **经验数据不支持**。放射科医生「每年都要完蛋」的预言已经持续约二十年，但职位招聘数量比以往任何时候都高，程序员也是。\n- **真正在发生的不是 RSI**（递归自我改进，那才可能导致因领先一点点而失控的赢家），而是自催化效应——用技术改进自己的流程，但并不真正递归。\n\n他补了一个被讨论不够的点：**有多少问题真正是受智能约束的**？让一群博士组成的数据中心去 FedEx 或达美乐披萨工作，他们会指数级主导供应链和披萨吗？不会。另外，经济扩散的速度很慢——他回了一趟长大的小镇，人们的生活并没有那么大变化。\n\n## 公司正在变成一堆「循环」\n\nAnish 最核心的框架：公司建设正变成创造一系列**循环（loop）**。他的推演是：我们有 prompt → 智能体（模型在循环里加上工具、记忆和 skill 文件）→ 循环（一组执行任务的智能体）。编码是最成熟的例子：bug 报告进来 → 自动生成复现 → 生成修复 → 评审，高风险才需人类确认发布，低风险直接上线——五分钟内完成。\n\n他的问题是：编码循环的输出改的是代码库，那**业务循环**是什么？一个 GM 在编码、营销、销售、支持、法务上都有循环在跑，所有这些循环的输出本身就是一个该被优化的循环。强形式是：它能向 CEO 发出「我们需要改变商业模式或战略」的信号。他预判会看到级联的一切：从每人一个循环、每职能一个循环，到能运营公司大部分业务的循环。\n\n但人类仍是关键要素：**循环帮你爬到局部最优，然后进入平台期——你需要人类直觉，需要有人帮你降落到下一座山的山脚下**。模型做「分布外思考」（跳出已有模式的新思考）的能力仍非常有限。OpenAI 的市场团队用 Codex 比工程团队还勤，正是因为 AI 把他们的工作蒸馏成了最擅长、最感兴趣的那部分——举奖杯、吃牛排晚宴——行政事务全被接管了。\n\n落到个人怎么参与？把每个职能视为一个智能体循环，你的工作是找出它在哪里卡住，然后补上知识缺口或数据缺口。他从 Kavak（墨西哥卖二手车的公司）听到一个好例子：每个客户配一个智能体，智能体卡住时会打电话叫人，人来指导它——神奇之处在于智能体随后捕获全部轨迹并学习，下次就不用再打了。\n\n## 通才 vs 专才：按「上行空间」分配智能\n\nAnish 认为组织内部会出现按职能分化的模型架构。前沿模型其实定价是非理性的——概念上每多一个 IQ 点的智能，你要付出比次旗舰贵 100 倍的价格。这在药物发现这类上行空间无界的领域是理性的（一个 IQ 点可能换来万亿美元的结果）；但结账这类事只能「结得正确」，没法「结得好上 100 倍」，就该用更便宜、经强化学习调优的开放权重模型。\n\n两个反驳他都摆出来：客户支持里一个 bug 报告可能藏着改变整个组织的线索，只有前沿智能能追下去；但反过来，对几乎所有经济上有用的问题，我们已经跨过了智能阈值，超过的部分只是浪费。别忘了：今天的非前沿模型，就是六个月前让我们惊呼「这就是 AGI」的前沿。\n\n## 护城河是被发现的，不是被设计的\n\n被问到产品发布速度千倍化之后怎么想护城河，他引了 Decagon 的 Jesse 的话：护城河往往是被发现出来的，不是设计出来的。Cursor 曾因「没护城河」被批评，但高 NPS 高日活本身就是好东西，随时间他们捕获了所有推理轨迹、训练了自己的模型。另外，**没有一条经典护城河是基于软件有多难做**——网络效应、规模优势、品牌、专有数据，五年前的每条护城河今天依然是好护城河。\n\n关于分发，他问过 Chris Dixon（「为工具而来，为网络而留」的作者）之后的观察是：今天每个现存网络都被高度训练过，防止别人在它上面建网络，所以网络效应回归了草根式真实口碑——在 X、YouTube、Instagram 上有机获得大量提及，就是当下最好的第三方网络效应。但他给创业者的希望是：**如今没有人有增长问题，他们有的是产品问题**——你可以在任何方向构建野心极大的产品并收很高的价钱。问问自己：产品每月收 1000、10000 美元的「软件版 Birkin 包」版本是什么样？\n\n## 最大的机会：「Loop，让我更快乐」\n\n这是全集最反直觉的转向。Anish 说：**我们相信人们想变得更高效，但他们并不想；想花时间的人多于想省时间的人**——所以世界上最大的产品是娱乐和社交。他调侃两种用户：X 的 AI 用户害怕被甩出永久底层、对模型对比有强烈观点；Instagram 的 AI 用户只觉得「像更好用的 Google 搜索，挺酷的」——而这是产品设计上的失败。\n\n「我们花了 40 年建造了一项让电子表格变得更好的技术。我们建了延伸智力的技术，却没有任何东西延伸灵魂。」所以机会在消费者需求的基本面：如何感到更连通、更被爱、如何取得进步、如何获得乐趣——这不是模型或能力挑战，只是产品设计挑战。消费级 AI 现在相当于「iPhone 2010 年」——Airbnb、WhatsApp、Uber 诞生之前。三个拖累正在解除：模型变便宜（开放权重）、界面问题（普通消费者的理想界面是 TikTok 不是聊天框，要找到中间态）、技术从生产力转向连接与娱乐。\n\n他甚至认为 AI 可以挑战你、推动你、跟你唱反调——这恰是创业公司相对巨头的优势：Google 那一千个委员会绝不会批准发布一个会唱反调的模型，「但那些全都是人类生存体验的一部分」。\n\n## 雄心是新的稀缺品\n\nAnish 投资口味的剧变：三年前如果一家公司野心太大我们不参与；**今天问题几乎相反——太小的想法反而不是我们想参与的**。他还反对「消费产品必须免费」的旧观念：价格是产品市场契合度的衡量，昂贵的消费软件是五年前不会去想的新物种。\n\n对 AI 就业冲击，他的长期答案是：人类欲望的增长速度快于满足欲望的能力。今天被视为理所当然的东西，五百年前是不可想象的奢侈品。「20 年后，人们会因为自己在火星上没有度假屋而发自内心地愤怒」。\n\n## 本集带走\n\n- **别太担心「被甩下」**：去中心化、经验数据、非真递归三重证据都指向相反方向；真正要防的是高估「受智能约束的问题」的数量。\n- **把职能当循环来经营**：找出智能体在哪里卡住，补上知识/数据缺口，让它下次不再打电话叫人；循环到平台期时，轮到人类直觉去选下一座山。\n- **按上行空间分配模型**：无界上行（药物发现、销售、研究）用前沿模型；有界上行（结账、法务）用更便宜的开放权重模型。\n- **想建立模型直觉，就「每个新模型都交付点东西」**：不必重要，做个底盘持续迭代，一周发布一次就够——Anish 用 Codex 给妻子做了个母亲节幻灯片。\n- **护城河别提前设计**：先发布，靠势头、匠心和增长的参与度让它被「发现」；经典护城河（网络效应、规模、品牌、专有数据）依然全部有效。\n- **没有增长问题，只有产品问题**：想象你的产品是每月 10000 美元的「软件 Birkin 包」，再倒推它要做成什么样。",
+  "quotes": [
+    {
+      "en": "If you look at what's happening now, it's like every part of the stack there's not even two relevant players, there's 20.",
+      "zh": "看看现在正在发生的事，技术栈的每一部分都不止两个相关玩家，而是二十个。",
+      "timestamp": "04:10",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "If you had a data center of PhDs working at FedEx or Domino's Pizza, are they going to be exponentially dominating supply chain and pizzas?",
+      "zh": "如果你让一群博士组成的数据中心去 FedEx 或达美乐披萨工作，他们会指数级地主导供应链和披萨吗？",
+      "timestamp": "06:38",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "If you look at the diffusion of electricity as a technology, it took 40 years for us to get from the inception of electricity to reorganizing factories.",
+      "zh": "看看电力作为一项技术的扩散，从电力的诞生到重组工厂，我们花了四十年。",
+      "timestamp": "09:29",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "The loop will help you climb to the local maxima, but then it plateaus and you need some sort of out of distribution thinking, you need human intuition, you need somebody to actually help you land at the base of the next hill.",
+      "zh": "循环会帮你爬到局部最优，然后进入平台期——你需要某种分布之外的思考，需要人类直觉，需要有人真正帮你降落到下一座山的山脚下。",
+      "timestamp": "15:15",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "So, I actually think that this is a distillation of their job into the thing that they're the best in the world at, that they're the most interested in, and all the administration that goes around doing that core work is now handled for them.",
+      "zh": "我实际上认为这是把他们的工作蒸馏成了他们最擅长于世、最感兴趣的那件事，而围绕核心工作的一切行政事务现在都由别人替他们处理了。",
+      "timestamp": "16:37",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "I think the most useful question to ask yourself as a founder CEO is just, \"Hey, if we assume these things are infinitely intelligent and astonishingly cheap, how would we reorganize the company?\"",
+      "zh": "我认为创始人 CEO 最值得问自己的问题就是：「如果我们假设这些东西拥有无限智能、而且便宜得惊人，我们会如何重组这家公司？」",
+      "timestamp": "21:29",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "Which is simply that we've crossed an intelligence threshold for almost every economically useful problem, and anything beyond that threshold is simply waste.",
+      "zh": "理由很简单：对几乎每一个经济上有用的问题，我们已经跨过了智能阈值，超过那个阈值的任何东西都只是浪费。",
+      "timestamp": "25:49",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "I think for people who believe the models are commodities or totally fungible, you just haven't actually used the models.",
+      "zh": "对于那些相信模型是大宗商品或完全可互换的人来说，你只是真的没有用过这些模型。",
+      "timestamp": "26:53",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "We built this technology that extends our intellect, but nothing to extend our soul.",
+      "zh": "我们建造了这项延伸我们智力的技术，却没有任何东西延伸我们的灵魂。",
+      "timestamp": "33:10",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "So, I think exploring the kind of uncomfortable parts of our social existence are things that startups are uniquely set up to do.",
+      "zh": "探索我们社会存在中那些令人不舒服的部分，是创业公司 uniquely 具备条件去做的事情。",
+      "timestamp": "34:35",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "So, I really think that we have the makings of a sort of dramatically happier, more fulfilled, more productive society, and yet we're here talking about permanent underclass.",
+      "zh": "我真的认为我们已经具备成为一个显著更快乐、更充实、更有生产力的社会的基础，然而我们却在这里谈论永久底层阶级。",
+      "timestamp": "38:55",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "I think it's easy to say most people don't want to make code, but the big change in my thinking is that coding agents are a way to interact with the world generally.",
+      "zh": "很容易说大多数人不想写代码，但我想法上的大转变是，编程智能体其实是一种与世界互动的通用方式。",
+      "timestamp": "51:57",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "One is something that Jesse from Decagon said, which I love, and that is that moats are most often discovered, not designed.",
+      "zh": "一个是 Decagon 的 Jesse 说过的、我很喜欢的话：护城河往往是被发现出来的，而不是被设计出来的。",
+      "timestamp": "54:56",
+      "speaker": "Anish Acharya"
+    },
+    {
+      "en": "And even if somebody replicates your big idea, they never see the small ideas that make the big idea work.",
+      "zh": "即使有人复制了你的大想法，他们也永远看不到让大想法成立的那十几个小想法。",
+      "timestamp": "57:40",
+      "speaker": "Anish Acharya"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:09",
+      "speaker": "Anish Acharya",
+      "en": "Not very seriously, and it's a funny dark fantasy that we seem to have as Silicon Valley collectively.",
+      "zh": "不用太认真，这是我们硅谷集体似乎拥有的一个有趣的黑暗幻想。"
+    },
+    {
+      "timestamp": "04:16",
+      "speaker": "Anish Acharya",
+      "en": "If you look at what's happening now, it's like every part of the stack there's not even two relevant players, there's 20.",
+      "zh": "看看现在正在发生的事，技术栈的每一部分都不止两个相关玩家，而是二十个。"
+    },
+    {
+      "timestamp": "05:12",
+      "speaker": "Anish Acharya",
+      "en": "It's auto catalytic effects, which just means you're using the technology to improve your process, but it's not truly recursive.",
+      "zh": "实际发生的是自催化效应，只是你在用这项技术改进你的流程，但它并不是真正递归的。"
+    },
+    {
+      "timestamp": "06:38",
+      "speaker": "Anish Acharya",
+      "en": "If you had a data center of PhDs working at FedEx or Domino's Pizza, are they going to be exponentially dominating supply chain and pizzas?",
+      "zh": "如果你让一群博士组成的数据中心去 FedEx 或达美乐披萨工作，他们会指数级地主导供应链和披萨吗？"
+    },
+    {
+      "timestamp": "09:28",
+      "speaker": "Anish Acharya",
+      "en": "If you look at the diffusion of electricity as a technology, it took 40 years for us to get from the inception of electricity to reorganizing factories.",
+      "zh": "看看电力作为一项技术的扩散，从电力的诞生到重组工厂，我们花了四十年。"
+    },
+    {
+      "timestamp": "13:30",
+      "speaker": "Anish Acharya",
+      "en": "With that said, I think humans are a critical ingredient.",
+      "zh": "话虽如此，我认为人类是一个关键要素。"
+    },
+    {
+      "timestamp": "15:15",
+      "speaker": "Anish Acharya",
+      "en": "The loop will help you climb to the local maxima, but then it plateaus and you need some sort of out of distribution thinking, you need human intuition, you need somebody to actually help you land at the base of the next hill.",
+      "zh": "循环会帮你爬到局部最优，然后进入平台期——你需要某种分布之外的思考，需要人类直觉，需要有人真正帮你降落到下一座山的山脚下。"
+    },
+    {
+      "timestamp": "16:37",
+      "speaker": "Anish Acharya",
+      "en": "So, I actually think that this is a distillation of their job into the thing that they're the best in the world at, that they're the most interested in, and all the administration that goes around doing that core work is now handled for them.",
+      "zh": "我实际上认为这是把他们的工作蒸馏成了他们最擅长于世、最感兴趣的那件事，而围绕核心工作的一切行政事务现在都由别人替他们处理了。"
+    },
+    {
+      "timestamp": "20:21",
+      "speaker": "Anish Acharya",
+      "en": "I think the most useful question to ask yourself as a founder CEO is just, \"Hey, if we assume these things are infinitely intelligent and astonishingly cheap, how would we reorganize the company?\"",
+      "zh": "我认为创始人 CEO 最值得问自己的问题就是：「如果我们假设这些东西拥有无限智能、而且便宜得惊人，我们会如何重组这家公司？」"
+    },
+    {
+      "timestamp": "25:46",
+      "speaker": "Anish Acharya",
+      "en": "Which is simply that we've crossed an intelligence threshold for almost every economically useful problem, and anything beyond that threshold is simply waste.",
+      "zh": "理由很简单：对几乎每一个经济上有用的问题，我们已经跨过了智能阈值，超过那个阈值的任何东西都只是浪费。"
+    },
+    {
+      "timestamp": "27:00",
+      "speaker": "Anish Acharya",
+      "en": "I think for people who believe the models are commodities or totally fungible, you just haven't actually used the models.",
+      "zh": "对于那些相信模型是大宗商品或完全可互换的人来说，你只是真的没有用过这些模型。"
+    },
+    {
+      "timestamp": "29:17",
+      "speaker": "Anish Acharya",
+      "en": "It's actually better if it's not important with a capital I, and then keep finding new ways to invest in it and add to it with a model as a kind of tool rather than as a goal.",
+      "zh": "如果它不是大写 I 的「重要」的东西反而更好，然后不断用模型往里面投入和添加——把模型当作工具，而不是目标。"
+    },
+    {
+      "timestamp": "33:10",
+      "speaker": "Anish Acharya",
+      "en": "We built this technology that extends our intellect, but nothing to extend our soul.",
+      "zh": "我们建造了这项延伸我们智力的技术，却没有任何东西延伸我们的灵魂。"
+    },
+    {
+      "timestamp": "33:48",
+      "speaker": "Anish Acharya",
+      "en": "It's just a product design challenge.",
+      "zh": "它只是一个产品设计的挑战。"
+    },
+    {
+      "timestamp": "34:35",
+      "speaker": "Anish Acharya",
+      "en": "So, I think exploring the kind of uncomfortable parts of our social existence are things that startups are uniquely set up to do.",
+      "zh": "探索我们社会存在中那些令人不舒服的部分，是创业公司 uniquely 具备条件去做的事情。"
+    },
+    {
+      "timestamp": "38:55",
+      "speaker": "Anish Acharya",
+      "en": "So, I really think that we have the makings of a sort of dramatically happier, more fulfilled, more productive society, and yet we're here talking about permanent underclass.",
+      "zh": "我真的认为我们已经具备成为一个显著更快乐、更充实、更有生产力的社会的基础，然而我们却在这里谈论永久底层阶级。"
+    },
+    {
+      "timestamp": "52:05",
+      "speaker": "Anish Acharya",
+      "en": "I think it's easy to say most people don't want to make code, but the big change in my thinking is that coding agents are a way to interact with the world generally.",
+      "zh": "很容易说大多数人不想写代码，但我想法上的大转变是，编程智能体其实是一种与世界互动的通用方式。"
+    },
+    {
+      "timestamp": "55:04",
+      "speaker": "Anish Acharya",
+      "en": "One is something that Jesse from Decagon said, which I love, and that is that moats are most often discovered, not designed.",
+      "zh": "一个是 Decagon 的 Jesse 说过的、我很喜欢的话：护城河往往是被发现出来的，而不是被设计出来的。"
+    },
+    {
+      "timestamp": "57:40",
+      "speaker": "Anish Acharya",
+      "en": "And even if somebody replicates your big idea, they never see the small ideas that make the big idea work.",
+      "zh": "即使有人复制了你的大想法，他们也永远看不到让大想法成立的那十几个小想法。"
+    },
+    {
+      "timestamp": "61:32",
+      "speaker": "Anish Acharya",
+      "en": "Which is I always say that nobody has a growth problem these days, they have a product problem.",
+      "zh": "我总说，如今没有人有增长问题，他们有的是产品问题。"
+    }
+  ],
+  "voice_script": "今天这期咱们聊一个挺扎心的话题：AI 这么快，普通人会不会被永久甩下？聊这个的人叫 Anish Acharya，a16z 的普通合伙人，专投消费领域。这不是一位纯金融背景的投资人，先后创办过两家公司，分别卖给了 Google 和 Credit Karma，后来又在这些公司做产品负责人——是产品出身的人，所以聊起 AI 对公司和个人的影响，视角特别实在。\n\n先说这个焦虑的梗，「永久底层阶级」——意思是你要是没跟上所有最新 AI 工具、没成为最高效的人，就会被永久甩在后面。Anish 的态度很干脆：不用太当回事，说这是硅谷集体拥有的一个有趣的黑暗幻想。为什么这么讲？给了三层论据。\n\n第一层，这个时代反而在去中心化。上一个移动时代的黄金标准是网络效应产品，而网络效应天然是赢家独占，导致了戏剧性的中心化。但现在技术栈的每一层都不止两个玩家，而是二十个——有实验室，也有开放权重模型。连大家以为必然赢家通吃的编程智能体，Claude Code、Codex、Lovable、Replit，全都活得不错。第二层，经验数据不支持那个预言。放射科医生「每年都要完蛋」这话已经说了差不多二十年，结果招聘数量比以往任何时候都高，程序员也一样。第三层就更有意思了：真正在发生的不是递归自我改进——那才可能导致领先一点点就失控的赢家——而是自催化效应，说白了就是用技术改进自己的流程，但并不真正递归。还有个被讨论不够的点：到底有多少问题是真正受智能约束的？举个例子，让一群博士组成的数据中心去 FedEx 或者达美乐披萨工作，他们会指数级地主导供应链和披萨吗？不会。而且经济扩散本来就慢——回一趟长大的小镇，你会发现人们的生活并没有那么大变化。\n\n好，那既然个人不会被甩下，公司层面在发生什么？这就引出 Anish 最核心的框架：公司建设正在变成创造一系列循环。推演是这样的：我们有 prompt，然后是智能体——模型在循环里加上工具、记忆和 skill 文件，再往上，循环就是一组执行任务的智能体。编码是最成熟的例子：bug 报告进来，自动生成复现，生成修复，评审，高风险才需要人类确认发布，低风险直接上线，五分钟内搞定。那问题来了：编码循环的输出改的是代码库，那业务循环是什么？一个总经理在营销、销售、支持、法务上都有循环在跑，所有这些循环的输出，本身就是一个该被优化的循环。强形式下，它甚至能向 CEO 发出「我们需要改变商业模式或战略」的信号。预判是级联的一切：从每人一个循环，到能运营公司大部分业务的循环。\n\n但人仍然是关键。因为循环会帮你爬到局部最优，然后进入平台期——这时候你需要分布之外的思考，需要人类直觉，需要有人真正帮你降落到下一座山的山脚下。落到个人怎么参与？把每个职能当成一个智能体循环，你的工作是找出它在哪里卡住，然后补上知识缺口或数据缺口。有个好例子来自墨西哥卖二手车的公司 Kavak：每个客户配一个智能体，智能体卡住时会打电话叫人，人来指导——神奇之处在于智能体随后捕获全部轨迹并学习，下次就不用再打了。\n\n再往深一层，组织内部还会出现按职能分化的模型选择。前沿模型其实定价是非理性的——每多一个 IQ 点的智能，要付出比次旗舰贵一百倍的价格。这在药物发现这种上行空间无界的领域是理性的，一个 IQ 点可能换来万亿美元的结果；但结账这种事只能「结得正确」，没法「结得好上一百倍」，就该用更便宜的开放权重模型。别忘了，今天的非前沿模型，就是六个月前让大家惊呼「这就是 AGI」的前沿。\n\n那产品发布速度千倍化之后，护城河还怎么想？答案是：护城河往往是被发现的，不是被设计的。Cursor 曾经因为「没护城河」被批评，但高满意度、高日活本身就是好东西，随着时间推移，他们捕获了所有推理轨迹、训练了自己的模型。而且没有一条经典护膜河是基于软件有多难做的——网络效应、规模、品牌、专有数据，五年前的每条护城河今天依然是好护城河。分发上，网络效应回归了草根式真实口碑。所以给创业者的那句话特别提气：如今没有人有增长问题，人们有的是产品问题。问问自己，产品每月收一万美金的「软件版 Birkin 包」版本是什么样？\n\n最后是全集最反直觉的转向。大家都说人们想变得更高效，Anish 说不对——想花时间的人多于想省时间的人，所以世界上最大的产品是娱乐和社交。有句话值得记住：我们花了四十年建造了一项让电子表格变得更好的技术，建了延伸智力的技术，却没有任何东西延伸灵魂。所以最大的机会在消费者需求的基本面——如何感到更连通、更被爱、如何获得乐趣。这不是模型挑战，只是产品设计挑战。消费级 AI 现在相当于 2010 年的 iPhone，Airbnb、WhatsApp、Uber 诞生之前。甚至 AI 可以挑战你、跟你唱反调——这恰恰是创业公司相对巨头的优势，Google 那一千个委员会绝不会批准发布一个会唱反调的模型，但那些全都是人类生存体验的一部分。\n\n所以这一期真正的结论是：别怕被 AI 甩下，该怕的是野心太小——人类欲望的增长速度，永远快过满足欲望的能力。二十年后，人们会因为自己在火星上没有度假屋，而发自内心地愤怒。"
+}

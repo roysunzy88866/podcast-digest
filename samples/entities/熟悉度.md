@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Nesrine Changuel]] · [[delight]] · [[deep delight]] · [[surface delight]] · [[低愉悦]] · [[消除摩擦]] · [[预判需求]] · [[超出预期]] · [[情感连接]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Nesrine Changuel":1,"delight":1,"deep delight":1,"surface delight":1,"低愉悦":1,"消除摩擦":1,"预判需求":1,"超出预期":1,"情感连接":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Nesrine Changuel":1,"delight":1,"deep delight":1,"surface delight":1,"低愉悦":1,"消除摩擦":1,"预判需求":1,"超出预期":1,"情感连接":1}</script>
 
 <script>
 (function(){

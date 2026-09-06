@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]]
+[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":3,"评估":20,"基准测试":7,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":46,"Codex":38,"Anthropic":103}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":3,"评估":20,"基准测试":7,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":46,"Codex":39,"Anthropic":103}</script>
 
 <script>
 (function(){

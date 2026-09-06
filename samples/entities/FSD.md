@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Qasar Younis]] · [[Applied Intuition]] · [[物理 AI]] · [[自动驾驶]] · [[工业革命]] · [[Tesla]] · [[Waymo]] · [[ChatGPT]] · [[Huawei]]
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Qasar Younis":1,"Applied Intuition":1,"物理 AI":7,"自动驾驶":1,"工业革命":1,"Tesla":7,"Waymo":12,"ChatGPT":50,"Huawei":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Qasar Younis":1,"Applied Intuition":1,"物理 AI":7,"自动驾驶":1,"工业革命":1,"Tesla":7,"Waymo":12,"ChatGPT":50,"Huawei":1}</script>
 
 <script>
 (function(){

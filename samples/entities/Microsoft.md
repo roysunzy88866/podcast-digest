@@ -77,7 +77,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[NVIDIA]] · [[Google]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[SpaceX]] · [[AWS]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":103,"智能体":1,"OpenAI":89,"NVIDIA":29,"Google":35,"Meta":27,"Amazon":10,"Apple":14,"SpaceX":12,"AWS":10}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":103,"智能体":1,"OpenAI":90,"NVIDIA":29,"Google":35,"Meta":27,"Amazon":10,"Apple":14,"SpaceX":12,"AWS":10}</script>
 
 <script>
 (function(){

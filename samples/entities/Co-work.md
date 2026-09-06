@@ -29,7 +29,7 @@ unlisted: true
 
 [[Claude Code]] · [[智能体]] · [[Slack]] · [[Lenny]] · [[Anthropic]] · [[Kat Wu]] · [[Fiona Fung]] · [[Daniel Blum]] · [[产品品味]] · [[验证]]
 
-<script type="application/json" class="pd-epn">{"Claude Code":46,"智能体":1,"Slack":23,"Lenny":66,"Anthropic":103,"Kat Wu":1,"Fiona Fung":1,"Daniel Blum":1,"产品品味":1,"验证":4}</script>
+<script type="application/json" class="pd-epn">{"Claude Code":46,"智能体":1,"Slack":23,"Lenny":67,"Anthropic":103,"Kat Wu":1,"Fiona Fung":1,"Daniel Blum":1,"产品品味":1,"验证":4}</script>
 
 <script>
 (function(){

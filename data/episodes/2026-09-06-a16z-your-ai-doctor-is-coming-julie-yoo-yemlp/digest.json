@@ -1,0 +1,190 @@
+{
+  "title_zh": "为什么医疗是 AI 受益最大的行业: Julie Yu 的判断",
+  "tldr": "A16Z 医疗投资负责人 Julie Yu 解释为什么医疗保健从 AI 中获益最多，以及创始人当前最大的机会所在。",
+  "digest_md": "医疗保健是全世界最昂贵的行业之一，但时间和医疗专业知识始终稀缺——这一集聊的就是 AI 能不能改变这件事。主角 Julie Yu 在医疗行业待了 18 年：技术出身、写了七年代码，2010 年创立预约调度公司 Kairos 做了九年、去年才卖掉，之后加入 Andreessen(即 a16z)领导医疗投资团队。她的判断是：**医疗保健将是从 AI 中受益最多的行业**，而过去三年到五年的增长和采用速度正在证明这一点 [07:08 Julie Yu]。\n\n## 她太早入场的那十几年\n\n20 年前，美国医疗行业的大部分还在用纸和传真机工作。联邦政府为了让行业数字化，搞了一个堪称奇迹的项目：付给医生数万美元，让他们部署电子健康记录系统。大约五到七年里，全美 100% 的医生都埋头实施了这类记录系统——行业就是这样被硬拉进数字时代的 [01:57 Julie Yu]。\n\n等她创业做 Kairos 时，状况依然残酷：技术还处在「前 API 时代」，风投几乎不进这个领域，她开玩笑说当时只有五个人投医疗，而她把这五位的钱都融了一遍 [05:00 Julie Yu]。她的原话是，自己亲手做集成「就像拿着凿子和钉子，去凿医疗基础设施这堵混凝土墙」——费时费钱、招不到人。传统观念认为医疗监管太严、太慢、出错代价太高，其他行业那种增长速度在这里不可能发生。Kairos 做了十五年才「一夜成名」，但正是这段经历让她能看清：现在 conditions 彻底变了。\n\n## 复兴是怎么来的：四股力量汇合\n\n**消费者到了临界点。** Uber 改变了出行、Airbnb 改变了旅行，人们对一切服务的期望被拉高，唯独医疗停滞不前，差距到了消费者愿意「用脚和用钱包投票」的程度 [09:12 Julie Yu]。\n\n**在位者被成本围困。** 劳动力又贵又缺，COVID 还导致大量医护人才流失离场；政府开始压降成本，支付方也在压。医院和保险公司被迫承认：旧的商业模式「账算不过来了」。\n\n**第三方支付的怪圈正在松动。** 医疗之所以显得臃肿低效，是因为有奇怪的第三方支付体系——你绝大部分医疗费用不是自己出的，所以感受不到每一块钱的痛，系统里自然长出大量浪费 [10:22 Julie Yu]。近几年雇主开始做「成本转移」：设免赔额，比如 1000 美元以内保险不生效。消费者第一次直接痛了，于是愿意自掏腰包买服务——现在每月 10 美元就能买到比传统体系同样价钱好一千倍的服务 [12:27 Julie Yu]。\n\n**LLM 拆掉了专业壁垒。** 医疗是个稀缺培训导向的行业，读至少七年书才能成为专科服务提供者，所以技术一直很难复制那种专业水平。LLM(大语言模型，能生成类人回答的 AI)带来了「充裕的智能」，这道墙塌了 [11:25 Julie Yu]。另外 COVID 还迫使监管从第一性原理重审限制：州级行医执照、远程医疗不报销等规则被放开。\n\n## 落后反而成了优势：「跨越式动态」\n\n为什么说医疗从 AI 中受益最多？Julie 给出的最反直觉的理由是：**医疗多年来在技术上垫底，如今反而没有沉没成本** [13:44 Julie Yu]。其他行业过去几十年铺满了工作流 SaaS 轨道和中间件层，花了数百亿美元、训练了整整一代员工；AI 来了，他们得把旧范式连根拔掉、换成智能体 AI、重新培训员工。医疗只建过 EHR(电子健康记录)这一层 ERP,剩下全靠人力硬堆——所以可以直接跳到 AI 原生的工作流，不用拆任何东西 [14:40 Julie Yu]。\n\n更关键的是，这是医疗科技**第一波真正有机的采用浪潮**：以前你要付钱让医生用技术、要靠大流行逼大家用远程医疗，现在医生主动在用 AI 记录员(自动写病历的工具)，因为它们真的好使，而且是一线医生自己有能动性地用 [15:09 Julie Yu]。消费侧，「感谢 ChatGPT 和 Claude」,人人都在用 LLM 问健康问题——权衡很简单：等四个月约医生、或去急诊室花 2000 美元，还是打开手机？人们已经知道存在摩擦更低的路 [16:35 Julie Yu]。\n\n## 创始人的机会在哪\n\nJulie 把医疗 AI 的机会切成三段：第一段「降低获取智能的门槛」已经被通用工具解决了；真正的机会在**第二、第三段**——拿到建议之后怎么办(验证、临床级检测、开药转诊、线下照护)，以及长期的陪伴关系 [19:40 Julie Yu]。具体几个方向：\n\n- **消费级医疗，「消费者是新的支付方」**。七年前向投资人 pitch 消费者健康业务会被赶出房间——没有可行的商业模式。现在 AI 把提供医学上可信服务的成本结构降了约一百倍，现金支付型公司成了健康科技里增长最快的一批，产品第一次为消费者、而非保险公司设计 [21:26 Julie Yu]。\n- **既 AI 原生、又 AI 防护(AI proof)**。通用医学 LLM 只能答题；怎么给去不了医院的人做线下服务、怎么抽血做出真诊断、怎么合法做那些需要受监管实体才能做的事——答案是外面包着全栈业务、里面高度 AI 原生的公司：外面看像零售商或服务商，里面成本结构是颠覆性的，高利润率还能持续投创新 [22:45 Julie Yu]。她投的 Council Health 就是例子：一家 AI 原生医生诊所，24×7 异步聊天，但聊天里有真正持照的 MD,可以开处方、转诊、诊断 [17:09 Julie Yu]。\n- **机器人**。她认为机器人公司的能力和高精度医疗场景的需求之间，产品市场契合已经出现。\n- **炸掉支付体系重来**。医疗不是坏了，是「完全按设计在运行」——现有支付体系下的激励对齐，导致的就是今天的体验 [23:49 Julie Yu]。最有雄心的一类公司想在一家公司里建一个迷你医疗体系，如 Devoted Health;现在可行是因为基础设施齐了、进入成本降了、系统两端的胃口都是前所未有的。\n\n## 十年后的预测：N=1 医疗\n\n回到开场那个罕见病黑客马拉松的例子(Anthropic 和 AWS 上传一个孩子的基因组和临床数据，让社区用 AI 生成洞见)——Julie 认为未来会有大量「自己动手的医疗」：N=1 的、超级个性化的方案，同时仍能享受所有人回馈的共同智能 [25:17 Julie Yu]。她的深层观察是：我们其实**还没有训练医疗级 AI 所需的数据集**——现有数据严重依赖电子健康记录，而人一年顶多看一次医生，患者经历的整条叙事弧线在所有现存数据集里都是缺失的。所以一批公司会做 N=1 实验，生成新的数据轨道，喂出下一代模型 [25:46 Julie Yu]。\n\n而终局她说得很直白：我们所有人都将真正拥有一个装在口袋里、伴随一生的 AI 医生——一个比世界上任何东西都更了解你的个性化专科医生 [25:59 Julie Yu]。\n\n## 本集带走\n\n- **落后是医疗的 AI 优势**：其他行业要拆除几十年数百亿美元的 SaaS/中间件再上智能体 AI,医疗没有这层沉没成本，可以直接跳到 AI 原生工作流。\n- **医疗科技迎来第一波有机采用**：不再靠政府补贴或疫情强推，医生和消费者自己就在用，因为好使——这是判断产品价值的信号。\n- **看创业方向的三段切法**：「获取智能」已被通用工具解决，机会在「拿到建议后怎么办」(检测、开药、线下照护)和「终身陪伴」这两段。\n- **最好的公司 = AI 原生 + AI 防护**：表面是全栈服务商(能做检测、开处方等受监管的事)，内核是 AI 原生的颠覆性成本结构。\n- **最有雄心的机会在支付层**：医疗的乱象是现有支付激励「按设计运行」的结果，从零重建支付模式，相当于在一家公司里建迷你医疗体系。\n- **数据是下一代模型的护城河**：现有数据集缺失患者 longitudinal 叙事，做 N=1 个性化医疗的公司会生成新的数据轨道，驱动下一代医疗 AI。",
+  "quotes": [
+    {
+      "en": "Literally 100 percent of doctors in the U.S. were heads down implementing these kind of system of record electronic health record platforms.",
+      "zh": "可以说，全美 100% 的医生都埋头实施了这类作为记录系统的电子健康记录平台。",
+      "timestamp": "02:10",
+      "speaker": "Julie Yoo"
+    },
+    {
+      "en": "I liken the work that I did literally with my own two hands as taking a chisel and a nail against this concrete wall of integrating into the infrastructure of healthcare.",
+      "zh": "我把自己亲手做的工作比作：拿着凿子和钉子，去凿医疗基础设施这堵混凝土墙，做集成。",
+      "timestamp": "05:07",
+      "speaker": "Julie Yoo"
+    },
+    {
+      "en": "Yeah, it was like a 15-year overnight success.",
+      "zh": "是啊，那就像是一场十五年磨一剑的一夜成名。",
+      "timestamp": "05:37",
+      "speaker": "Julie Yoo"
+    },
+    {
+      "en": "This is currently is the only, like the first real organic adoption wave that we've seen in health tech where doctors are just using AI scribes because they freaking work.",
+      "zh": "这是目前唯一——算是我们在医疗科技领域见到的第一波真正有机的采用浪潮——医生们就在用 AI 记录员，因为它们真的好使。",
+      "timestamp": "15:15",
+      "speaker": "Julie Yoo"
+    },
+    {
+      "en": "Like imagine chatting with your chatbot, but having an actual licensed MD in the chat who can fully prescribe, who can fully refer, who can fully diagnose.",
+      "zh": "想象一下你和你的聊天机器人对话，但聊天里有一位真正持照的医学博士，他可以完全开处方、可以完全转诊、可以完全做出诊断。",
+      "timestamp": "17:09",
+      "speaker": "Julie Yoo"
+    },
+    {
+      "en": "Now that all that's changed and some of the fastest growing companies that we see in health tech are, you know, cash pay.",
+      "zh": "现在这一切都变了，我们在健康科技领域看到的一些增长最快的公司是现金支付型的。",
+      "timestamp": "21:06",
+      "speaker": "Julie Yoo"
+    },
+    {
+      "en": "The cost structure to deliver an actual like medically credible service is like a hundred times lower than it used to be.",
+      "zh": "如今提供一项真正的、医学上可信的服务的成本结构，比过去低了大约一百倍。",
+      "timestamp": "21:26",
+      "speaker": "Julie Yoo"
+    },
+    {
+      "en": "So we wrote a piece called Consumers Are the New Payer, basically.",
+      "zh": "所以我们写了一篇文章，基本上就叫《消费者是新的支付方》。",
+      "timestamp": "21:50",
+      "speaker": "Julie Yoo"
+    },
+    {
+      "en": "And so there's a lot of really ambitious companies that are saying, what if we blew up that current healthcare payment modality and built a new one from scratch.",
+      "zh": "所以有很多非常有雄心的公司在说：如果我们把现在这个医疗支付模式炸掉、从零开始建一个新的会怎样。",
+      "timestamp": "23:59",
+      "speaker": "Julie Yoo"
+    },
+    {
+      "en": "And I think all of us will genuinely have an AI doctor in our pocket for life.",
+      "zh": "而且我认为我们所有人都将真正拥有一个装在口袋里、伴随一生的 AI 医生。",
+      "timestamp": "25:59",
+      "speaker": "Julie Yoo"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:57",
+      "speaker": "Julie Yu",
+      "en": "Basically, what they said was, we will pay doctors tens of thousands of dollars to implement electronic health records.",
+      "zh": "基本上他们说的是：我们付给医生数万美元，让他们部署电子健康记录系统。"
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Julie Yu",
+      "en": "Literally 100 percent of doctors in the U.S. were heads down implementing these kind of system of record electronic health record platforms.",
+      "zh": "可以说，全美 100% 的医生都埋头实施了这类作为记录系统的电子健康记录平台。"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Julie Yu",
+      "en": "I liken the work that I did literally with my own two hands as taking a chisel and a nail against this concrete wall of integrating into the infrastructure of healthcare.",
+      "zh": "我把自己亲手做的工作比作：拿着凿子和钉子，去凿医疗基础设施这堵混凝土墙，做集成。"
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Julie Yu",
+      "en": "Yeah, it was like a 15-year overnight success.",
+      "zh": "是啊，那就像是一场十五年磨一剑的一夜成名。"
+    },
+    {
+      "timestamp": "10:50",
+      "speaker": "Julie Yu",
+      "en": "Like the math doesn't math anymore.",
+      "zh": "账算不过来了。"
+    },
+    {
+      "timestamp": "10:25",
+      "speaker": "Julie Yu",
+      "en": "Like the vast majority of your healthcare is not paid for by you.",
+      "zh": "你的绝大部分医疗费用不是由你自己支付的。"
+    },
+    {
+      "timestamp": "11:00",
+      "speaker": "Julie Yu",
+      "en": "You know, historically, because healthcare is such an esoteric sort of scarce training oriented industry where you literally have to go to school for, what is it, you know, at least seven years and train and to even become a specialist, you know, service provider in our industry.",
+      "zh": "从历史上看，医疗是一个如此深奥、以稀缺培训为导向的行业，你必须上学——是多少年来着，至少七年——接受培训，才能成为我们这个行业里的专科服务提供者。"
+    },
+    {
+      "timestamp": "14:40",
+      "speaker": "Julie Yu",
+      "en": "So we only had really like the ERP layer with EHRs and then labor, like we were just throwing bodies at every problem.",
+      "zh": "所以我们其实只有 EHR 这一层 ERP,然后就是人力——我们就是往每个问题上砸人。"
+    },
+    {
+      "timestamp": "14:52",
+      "speaker": "Julie Yu",
+      "en": "We can actually just go directly to this agentic form of technology.",
+      "zh": "我们实际上可以直接采用这种智能体形式的技术。"
+    },
+    {
+      "timestamp": "15:15",
+      "speaker": "Julie Yu",
+      "en": "This is currently is the only, like the first real organic adoption wave that we've seen in health tech where doctors are just using AI scribes because they freaking work.",
+      "zh": "这是目前唯一——算是我们在医疗科技领域见到的第一波真正有机的采用浪潮——医生们就在用 AI 记录员，因为它们真的好使。"
+    },
+    {
+      "timestamp": "16:30",
+      "speaker": "Julie Yu",
+      "en": "Or go to an emergency room and pay $2,000.",
+      "zh": "要么去急诊室，付 2000 美元。"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "Julie Yu",
+      "en": "And so I think people like consumers are now educated that there's a better way.",
+      "zh": "所以我认为消费者现在已经被教育得知：存在一种更好的方式。"
+    },
+    {
+      "timestamp": "17:09",
+      "speaker": "Julie Yu",
+      "en": "Like imagine chatting with your chatbot, but having an actual licensed MD in the chat who can fully prescribe, who can fully refer, who can fully diagnose.",
+      "zh": "想象一下你和你的聊天机器人对话，但聊天里有一位真正持照的医学博士，他可以完全开处方、可以完全转诊、可以完全做出诊断。"
+    },
+    {
+      "timestamp": "20:56",
+      "speaker": "Julie Yu",
+      "en": "Now that all that's changed and some of the fastest growing companies that we see in health tech are, you know, cash pay.",
+      "zh": "现在这一切都变了，我们在健康科技领域看到的一些增长最快的公司是现金支付型的。"
+    },
+    {
+      "timestamp": "21:26",
+      "speaker": "Julie Yu",
+      "en": "The cost structure to deliver an actual like medically credible service is like a hundred times lower than it used to be.",
+      "zh": "如今提供一项真正的、医学上可信的服务的成本结构，比过去低了大约一百倍。"
+    },
+    {
+      "timestamp": "21:50",
+      "speaker": "Julie Yu",
+      "en": "So we wrote a piece called Consumers Are the New Payer, basically.",
+      "zh": "所以我们写了一篇文章，基本上就叫《消费者是新的支付方》。"
+    },
+    {
+      "timestamp": "23:48",
+      "speaker": "Julie Yu",
+      "en": "It's actually designing exactly as planned.",
+      "zh": "它实际上完全是按计划设计的。"
+    },
+    {
+      "timestamp": "23:59",
+      "speaker": "Julie Yu",
+      "en": "And so there's a lot of really ambitious companies that are saying, what if we blew up that current healthcare payment modality and built a new one from scratch.",
+      "zh": "所以有很多非常有雄心的公司在说：如果我们把现在这个医疗支付模式炸掉、从零开始建一个新的会怎样。"
+    },
+    {
+      "timestamp": "25:56",
+      "speaker": "Julie Yu",
+      "en": "So I think end of one health is a big idea.",
+      "zh": "所以我认为 N=1 医疗是一个很大的想法。"
+    },
+    {
+      "timestamp": "25:59",
+      "speaker": "Julie Yu",
+      "en": "And I think all of us will genuinely have an AI doctor in our pocket for life.",
+      "zh": "而且我认为我们所有人都将真正拥有一个装在口袋里、伴随一生的 AI 医生。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个挺大的判断：为什么说医疗保健，是从 AI 里受益最大的行业。说这话的人叫 Julie Yu,她是顶级风投 a16z 的医疗投资负责人。这个判断可不是拍脑袋来的：她在医疗行业干了十八年，最早是写代码的技术出身，2010 年自己创业做了家叫 Kairos 的预约调度公司，一做就是十五年，去年才卖掉，然后加入了 a16z。可以说，医疗这行的坑，她基本都踩过一遍。\n\n她这个判断，得先从二十年前讲起。那时候美国医疗行业大部分还在用纸和传真机干活。联邦政府为了让这个庞然大物数字化，下了一剂猛药：直接付给医生数万美元，让他们部署电子健康记录系统。结果呢，大约五到七年里，全美百分之百的医生都埋头上了这类记录系统。整个行业，就是这么被硬拉进数字时代的。\n\n听着挺成功，对吧？但等你真进场创业，才发现是另一回事。Julie 做 Kairos 的时候，技术还处在前 API 时代，风投几乎不碰医疗。她开玩笑说，当时全美只有五个人投医疗，而她把这五位的钱都融了一遍。做系统对接是什么体验？她的原话是：就像拿着凿子和钉子，去凿医疗基础设施这堵混凝土墙。费时费钱，还招不到人。Kairos 十五年磨一剑，才算一夜成名。传统观念一直认为，医疗监管太严、太慢、出错的代价太高，别的行业那种增长速度，在这里不可能发生。但她正是因为熬过这段，才看得清：现在，条件彻底变了。\n\n那到底怎么变的？是四股力量同时汇合了。\n\n第一股，消费者到了临界点。Uber 改变了出行，Airbnb 改变了旅行，人们对一切服务的期望都被拉高了，唯独医疗原地不动。这个差距大到什么程度？大到消费者愿意用脚、用钱包投票了。\n\n第二股，在位者被成本围困。劳动力又贵又缺，疫情还让大量医护人才离场，政府和支付方都在压成本。医院和保险公司被迫承认：旧的商业模式，账算不过来了。\n\n第三股，跟每个人的钱包有关。医疗之所以显得臃肿低效，根源在一个怪东西上：第三方支付。你绝大部分医疗费用不是自己掏的，所以感受不到每一块钱的痛，系统里自然长出大量浪费。但这几年，雇主开始做成本转移——设个免赔额，比如一千美元以内保险不生效。消费者第一次直接痛了，于是愿意自掏腰包买服务。现在每个月十美元，就能买到比传统体系同样价钱好一千倍的服务。疼痛感一变，整个市场的逻辑就变了。\n\n第四股，也是最关键的一股：大语言模型拆掉了专业壁垒。医疗是个靠稀缺培训堆起来的行业，读至少七年书才能成为专科服务提供者，所以技术一直复制不了这种专业水平。而大语言模型带来了充裕的智能——说白了，这道墙塌了。再加上疫情逼着监管从零重审规则，州级行医执照、远程医疗不报销这些限制，也放开了。\n\n好，四股力量讲完了，这就引出全集最反直觉的一个论点：为什么偏偏是医疗从 AI 中受益最多？答案居然是——因为医疗在技术上落后了这么多年，如今反而没有沉没成本。你想，其他行业过去几十年铺满了各种工作流软件和中间件，花了数百亿美元，还训练了整整一代员工。AI 一来，他们得把旧范式连根拔掉，换成智能体，重新培训人。而医疗呢，只建过电子健康记录这一层，剩下全靠人力硬堆。所以可以直接跳到 AI 原生的工作流，不用拆任何东西。落后，反而成了优势。\n\n更有说服力的是，这是医疗科技第一波真正有机的采用浪潮。以前是什么？你得付钱求医生用技术，或者靠大流行逼大家用远程医疗。现在不一样了，医生主动在用 AI 记录员——就是自动帮你写病历的工具，因为这些工具真的好使，而且是一线医生自己有能动性地用。消费侧也是，多亏了 ChatGPT 和 Claude,人人都在用大语言模型问健康问题。这道选择题很简单：等四个月约上医生，或者去急诊室花两千美元，还是打开手机？人们已经知道存在摩擦更低的那条路。\n\n那对创始人来说，机会在哪呢？Julie 把医疗 AI 切成三段：第一段，降低获取智能的门槛，这段已经被通用工具解决了；真正的机会在第二段和第三段——拿到建议之后怎么办，比如验证、临床级检测、开药转诊、线下照护；以及长期的陪伴关系。\n\n具体说几个方向。第一个是消费级医疗，核心变化是：消费者成了新的支付方。七年前你向投资人讲消费者健康，会被赶出房间，因为没有可行的商业模式。现在 AI 把提供医学上可信服务的成本结构降了大约一百倍，现金支付型公司成了健康科技里增长最快的一批，产品第一次是为消费者、而不是为保险公司设计的。\n\n第二个方向，最好的公司既要是 AI 原生，又要 AI 防护。什么意思？通用的医学模型只能答题，但怎么给去不了医院的人做线下服务、怎么抽血做出真诊断、怎么合法做那些必须有受监管实体才能做的事？答案是外面包着全栈业务、里面高度 AI 原生：外面看像零售商或服务商，里面的成本结构是颠覆性的，高利润率还能持续投创新。她投的 Council Health 就是这么一家：AI 原生的医生诊所，全天候异步聊天，但聊天里有真正持照的医学博士，可以开处方、可以转诊、可以做出诊断。\n\n还有机器人，她认为机器人的能力和高精度医疗场景之间，产品市场契合已经出现了。最后一个方向最有野心：炸掉支付体系重来。她有句很扎心的话——医疗不是坏了，是完全按设计在运行。今天这种乱七八糟的体验，恰恰是现有支付体系下激励对齐的结果。所以最有雄心的一类公司，想在一家公司里建一个迷你医疗体系，就像 Devoted Health 那样。现在这事儿可行，是因为基础设施齐了，进入成本降了，系统两端的胃口都是前所未有的。\n\n最后说说十年后的图景。Julie 有个挺深的观察：我们其实还没有训练出医疗级 AI 所需的数据集。因为现有数据严重依赖电子健康记录，而人一年顶多看一次医生，患者经历的整条故事线，在所有现存数据集里都是缺失的。所以会有一批公司去做所谓 N 等于 1 的实验——超级个性化的、为自己一个人定制的医疗方案，同时生成新的数据轨道，喂出下一代模型，每个人还都能享受到所有人回馈的共同智能。\n\n而终局，她说得很直白：我们所有人都将真正拥有一个装在口袋里、伴随一生的 AI 医生——一个比世界上任何东西都更了解你的，个性化专科医生。"
+}

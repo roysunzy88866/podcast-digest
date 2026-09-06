@@ -161,7 +161,7 @@ ARR 从 100 万到 1000 万这个阶段,创始人不能继续单打独斗,需要
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor、Lovable</span>
 - [[2026-08-09-lennys-the-playbook-for-building-high-talent|Cursor 人才负责人：别再掉进招聘的厄运漏斗]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor · 同概念:前向部署工程师 (Forward Deployed Engineer)</span>
-- [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor</span>
+- [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor、OpenAI</span>
 
 </div>
 </div>

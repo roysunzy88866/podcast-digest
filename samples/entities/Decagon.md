@@ -7,13 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Decagon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Decagon">DE</div><div class="pi"><h1 class="pt">Decagon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Decagon">DE</div><div class="pi"><h1 class="pt">Decagon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(00:57起):本集核心受访公司，做帮大企业（如全球最大银行、航司）搭建客服 AI 智能体的应用层公司，主张把 90% 工作流转向微调的开源模型。
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(25:12起):本集把它说成是 AI 客服公司中，处理 POC 试用纪律的正面典范：明确签下要达到的基准，并在规定时间内兑现。
 - **[[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]]**(08:31起):本集提到 Decagon 的创始人 Jesse Tsang 发文说对很多公司来说开源实际上是唯一选项，因为可以本地化、训练、微调
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-06-lennys-why-companies-are-becoming-a-series#^q13]]
 
 ## ② 出现在这些集
 
@@ -29,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[微调]] · [[OpenAI]] · [[Anthropic]] · [[Sarah Wang]] · [[Elena Berger]] · [[Anish Acharya]] · [[Kimberley Tan]] · [[Joe Schmidt]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":46,"微调":6,"OpenAI":89,"Anthropic":103,"Sarah Wang":2,"Elena Berger":3,"Anish Acharya":1,"Kimberley Tan":1,"Joe Schmidt":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":47,"微调":6,"OpenAI":90,"Anthropic":103,"Sarah Wang":2,"Elena Berger":3,"Anish Acharya":2,"Kimberley Tan":1,"Joe Schmidt":1}</script>
 
 <script>
 (function(){

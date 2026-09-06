@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]]
+[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":2,"Whatnot":3,"直播购物":2,"市场":2,"信任与安全":1,"规则引擎":1,"大型语言模型":3,"发现":1,"网络效应":3,"虚拟形象":2}</script>
+<script type="application/json" class="pd-epn">{"David George":2,"Whatnot":3,"直播购物":2,"市场":2,"信任与安全":1,"规则引擎":1,"大型语言模型":4,"发现":1,"网络效应":4,"虚拟形象":2}</script>
 
 <script>
 (function(){

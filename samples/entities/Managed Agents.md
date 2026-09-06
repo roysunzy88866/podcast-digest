@@ -31,7 +31,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[沙箱]] · [[Claude Code]] · [[dreaming]] · [[Claude]] · [[Slack]] · [[harness]] · [[Lenny]] · [[Guy Pajani]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":103,"智能体":1,"沙箱":35,"Claude Code":46,"dreaming":3,"Claude":47,"Slack":23,"harness":20,"Lenny":66,"Guy Pajani":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":103,"智能体":1,"沙箱":35,"Claude Code":46,"dreaming":3,"Claude":47,"Slack":23,"harness":20,"Lenny":67,"Guy Pajani":3}</script>
 
 <script>
 (function(){

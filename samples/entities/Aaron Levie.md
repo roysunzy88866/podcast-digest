@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]] [[Matthew Prince]]
+[[Julie Yoo]] [[Anish Acharya]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sofia Puccini":4,"Theo Jaffe":6,"Box":3,"Anthropic":103,"OpenAI":89,"开放权重":3,"蒸馏":9,"推理":4,"模型路由":3,"闭源模型":1}</script>
+<script type="application/json" class="pd-epn">{"Sofia Puccini":4,"Theo Jaffe":6,"Box":3,"Anthropic":103,"OpenAI":90,"开放权重":3,"蒸馏":9,"推理":4,"模型路由":3,"闭源模型":1}</script>
 
 <script>
 (function(){

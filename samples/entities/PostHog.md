@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Cursor]] · [[OpenAI]] · [[Julie Zhuo]] · [[Yash]] · [[Matt Swulinski]] · [[Sundial]] · [[Builder Pack]] · [[Harry Stebbings]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":50,"Cursor":46,"OpenAI":89,"Julie Zhuo":1,"Yash":1,"Matt Swulinski":1,"Sundial":1,"Builder Pack":1,"Harry Stebbings":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":50,"Cursor":47,"OpenAI":90,"Julie Zhuo":1,"Yash":1,"Matt Swulinski":1,"Sundial":1,"Builder Pack":1,"Harry Stebbings":12}</script>
 
 <script>
 (function(){

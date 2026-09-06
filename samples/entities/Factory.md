@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[token]] · [[harness]] · [[技能]] · [[开源模型]] · [[Cognition]] · [[Anthropic]] · [[OpenAI]] · [[Matan Grinberg]] · [[Heitor Lessa]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"token":14,"harness":20,"技能":10,"开源模型":5,"Cognition":15,"Anthropic":103,"OpenAI":89,"Matan Grinberg":1,"Heitor Lessa":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"token":14,"harness":20,"技能":10,"开源模型":5,"Cognition":15,"Anthropic":103,"OpenAI":90,"Matan Grinberg":1,"Heitor Lessa":1}</script>
 
 <script>
 (function(){

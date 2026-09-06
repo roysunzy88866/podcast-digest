@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>89</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>90</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -100,6 +100,7 @@ unlisted: true
 - **[[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]]**(13:39起):本集嘉宾建议 OpenAI 用开源版本以稳定节奏快速跟进前沿模型（比如上一代），把更多用例留在自家生态并承接开放模型的推理收入。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(14:36起):ChatGPT 背后的 AI 实验室，被作为「在位者也会搞砸细分市场」的例证——语音 AI 和 AI 编程这两个领域都被它 fumble 了；其文本转语音模型每百万字符折算 196 美元。
 - **[[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]]**(04:35起):本集说 OpenAI 是『惊悚级野心』点子兑现的例证——等 Google 的模型过时就能做出新的 Google，PG 用了 OpenAI 之后不再用搜索了，而且它当年是在 YC 孵化的（Sam 众多副业项目之一）
+- **[[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]]**(05:26起):本集多次谈到 OpenAI：市场团队用 Codex 超过工程团队、放慢 AI 开发引发讨论、ChatGPT Work 是它发布过的最好的产品之一。
 
 ## ① 提到它的金句
 
@@ -139,7 +140,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*89 集*
+*90 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -230,14 +231,15 @@ unlisted: true
 - [[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]] — 作为被讨论公司
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]] — 作为概念
+- [[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Google]] · [[推理]] · [[ChatGPT]] · [[Cursor]] · [[NVIDIA]] · [[Lenny]] · [[Stripe]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[Google]] · [[推理]] · [[ChatGPT]] · [[Cursor]] · [[Lenny]] · [[NVIDIA]] · [[Stripe]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":103,"Google":35,"推理":4,"ChatGPT":50,"Cursor":46,"NVIDIA":29,"Lenny":66,"Stripe":26,"Claude":47}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":103,"Google":35,"推理":4,"ChatGPT":50,"Cursor":47,"Lenny":67,"NVIDIA":29,"Stripe":26,"Codex":39}</script>
 
 <script>
 (function(){

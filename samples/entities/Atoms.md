@@ -39,7 +39,7 @@ unlisted: true
 
 [[Travis Kalanick]] · [[Pronto]] · [[工业 AI]] · [[自主性]] · [[Ben Horowitz]] · [[物理 AI]] · [[Uber]] · [[套件]] · [[a16z]] · [[线控驾驶]]
 
-<script type="application/json" class="pd-epn">{"Travis Kalanick":2,"Pronto":2,"工业 AI":3,"自主性":6,"Ben Horowitz":3,"物理 AI":7,"Uber":8,"套件":1,"a16z":9,"线控驾驶":1}</script>
+<script type="application/json" class="pd-epn">{"Travis Kalanick":2,"Pronto":2,"工业 AI":3,"自主性":6,"Ben Horowitz":3,"物理 AI":7,"Uber":8,"套件":1,"a16z":11,"线控驾驶":1}</script>
 
 <script>
 (function(){

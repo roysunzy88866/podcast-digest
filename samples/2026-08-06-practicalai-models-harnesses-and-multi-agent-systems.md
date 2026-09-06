@@ -101,8 +101,8 @@ Daniel 的观点很到位：这就像咨询公司——麦肯锡有自己非常�
 **顺着「智能体」挖下去**
 
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同公司:Hugging Face · 同概念:开放权重模型 (open-weight)、智能体 (agent)、护栏 (guardrails)</span>
+- [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同公司:OpenAI · 同概念:开放权重模型 (open-weight)、智能体 (agent)</span>
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:开放权重模型 (open-weight)、智能体 (agent)</span>
-- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

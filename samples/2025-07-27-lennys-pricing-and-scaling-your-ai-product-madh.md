@@ -206,7 +206,7 @@ jsonLd: |
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor · 同概念:智能体 (agent)</span>
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同概念:基于结果的定价 (outcome-based pricing)、智能体 (agent)、自主性 (autonomy)</span>
-- [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor、Sierra · 同概念:智能体 (agent)</span>
+- [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

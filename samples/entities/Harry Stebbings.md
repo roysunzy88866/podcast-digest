@@ -42,7 +42,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[OpenRouter]] · [[Fireworks]] · [[NVIDIA]] · [[Meta]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":103,"OpenAI":89,"Cursor":46,"推理":4,"OpenRouter":9,"Fireworks":4,"NVIDIA":29,"Meta":27,"开源":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":103,"OpenAI":90,"Cursor":47,"推理":4,"OpenRouter":9,"Fireworks":4,"NVIDIA":29,"Meta":27,"开源":15}</script>
 
 <script>
 (function(){

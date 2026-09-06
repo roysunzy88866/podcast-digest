@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Willem Avé]] · [[Poolside]] · [[Square]] · [[NVIDIA]] · [[Block]] · [[OpenAI]] · [[业务单元模式]] · [[Anthropic]] · [[职能制]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Willem Avé":1,"Poolside":1,"Square":3,"NVIDIA":29,"Block":2,"OpenAI":89,"业务单元模式":1,"Anthropic":103,"职能制":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Willem Avé":1,"Poolside":1,"Square":3,"NVIDIA":29,"Block":2,"OpenAI":90,"业务单元模式":1,"Anthropic":103,"职能制":1}</script>
 
 <script>
 (function(){

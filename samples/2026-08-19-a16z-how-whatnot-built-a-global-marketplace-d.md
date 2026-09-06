@@ -115,7 +115,7 @@ Whatnot 是一个本质上是人类连接的平台——你认识店主，认识
 
 - [[2026-08-05-a16z-three-startups-reinventing-critical-infr|造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造]]<span class="pd-rz">同概念:LLMs</span>
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法]]<span class="pd-rz">同概念:市场 (marketplace)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:网络效应 (network effect)</span>
+- [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|为什么医疗是 AI 受益最大的行业: Julie Yu 的判断]]<span class="pd-rz">同概念:LLMs</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,688 @@
+{
+  "episode_id": "2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp",
+  "podcast": "The a16z Show",
+  "date": "2026-09-06",
+  "tags": [
+    "医疗健康",
+    "AI 基础设施",
+    "智能体",
+    "消费级医疗",
+    "创业与投资"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sophia-du",
+      "type": "person",
+      "role": "host",
+      "name": "Sophia Du",
+      "file": "Sophia Du",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.445,
+            25.817
+          ],
+          "quote": "The A16Z general partner joins Sophia Du on MTS to explain why healthcare may benefit more from AI than almost any other industry, and why its slow adoption of technology could now be an advantage, allowing it to leapfrog legacy software and move directly to AI-native workflows.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "julie-yoo",
+      "type": "person",
+      "role": "cohost",
+      "name": "Julie Yoo",
+      "file": "Julie Yoo",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": true,
+      "how_described": "本集说 Julie Yoo 离开自己创办的公司后加入的基金，她在那里领导医疗保健投资团队(A16Z general partner)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.445,
+            25.817
+          ],
+          "quote": "The A16Z general partner joins Sophia Du on MTS to explain why healthcare may benefit more from AI than almost any other industry, and why its slow adoption of technology could now be an advantage, allowing it to leapfrog legacy software and move directly to AI-native workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1589.932,
+            1592.774
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1604.743,
+            1610.427
+          ],
+          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1621.316,
+            1628.861
+          ],
+          "quote": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1629.241,
+            1636.286
+          ],
+          "quote": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1636.746,
+            1642.41
+          ],
+          "quote": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kairos",
+      "type": "company",
+      "role": "company",
+      "name": "Kairos",
+      "file": "Kairos",
+      "primary": true,
+      "how_described": "本集说这是 Julie Yoo 2010 年创立的预约调度公司，想通过全系统统一的预约库存解决患者可及性悖论，她做了九年、去年卖掉，称之为「十五年磨一剑的一夜成名」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            181.653,
+            186.777
+          ],
+          "quote": "And then ultimately around 2010 was when I started Kairos, which was my company, really with the thesis of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            225.973,
+            239.804
+          ],
+          "quote": "And so that was the thesis behind our company, Kairos, was how do you sort of solve this patient access paradox by creating a single system of appointment inventory across the healthcare system and the ability to route patients to the right doctor",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "council-health",
+      "type": "company",
+      "role": "company",
+      "name": "Council Health",
+      "file": "Council Health",
+      "primary": true,
+      "how_described": "本集说这是 a16z 投资组合里的一家 AI 原生医生诊所，以 24×7 异步聊天形态对接真正持照的 MD，可以开处方、转诊、诊断。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            1010.523,
+            1029.971
+          ],
+          "quote": "are taking a specialized approach to how we leverage AI to create consumer-grade experiences, where you're now seeing like a company, we have a company called Council Health in our portfolio, which is literally an AI native doctor practice that is a 24 by 7 asynchronous chat modality with real doctors.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "devoted-health",
+      "type": "company",
+      "role": "company",
+      "name": "Devoted Health",
+      "file": "Devoted Health",
+      "primary": false,
+      "how_described": "本集举例说它是在一家公司里构建迷你医疗体系、重建支付模式的有雄心的公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            1455.56,
+            1457.883
+          ],
+          "quote": "But there's companies like Devoted Health and others who are doing this.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集主线论点：医疗保健将是从 AI 中受益最多的行业——它没有旧软件的沉没成本，可以直接跳到 AI 原生工作流，并迎来第一波真正的有机采用浪潮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            6.803,
+            8.765
+          ],
+          "quote": "Julie Yu thinks AI could change that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            9.445,
+            25.817
+          ],
+          "quote": "The A16Z general partner joins Sophia Du on MTS to explain why healthcare may benefit more from AI than almost any other industry, and why its slow adoption of technology could now be an advantage, allowing it to leapfrog legacy software and move directly to AI-native workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            26.677,
+            39.559
+          ],
+          "quote": "Julie also shares where she sees the biggest opportunities for founders, from consumer healthcare and AI native care delivery, to robotics and new payment models, and why the future could include an AI doctor in your pocket for life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            45.115,
+            55.204
+          ],
+          "quote": "I'm so excited to chat with you and I'm so excited to get into this conversation because often in some of the conversations around AI, people don't totally understand how it affects them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            428.045,
+            428.805
+          ],
+          "quote": "And then obviously AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            428.946,
+            449.336
+          ],
+          "quote": "I mean, I think I've declared loudly that I believe healthcare is the industry that will benefit the most from AI for many reasons that I'm sure we'll talk about, but the level of accelerated growth and scale and adoption that we've now seen in the last, let's call it three to five years post AI, I think is proving that point and demonstrating that the moment is here for digital health to be",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            493.553,
+            512.326
+          ],
+          "quote": "I talk to startups all of the time, especially in AI, and one of the common themes that we're seeing is that they're going towards the hard problems, the ones that are really bureaucratic, the ones that are legacy that if you solve it correctly, literally saves hundreds of thousands, millions, billions of lives.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            656.493,
+            660.395
+          ],
+          "quote": "And AI, like I would say, certainly AI in some ways was like the straw that broke the back where",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            775.226,
+            779.029
+          ],
+          "quote": "And then, of course, what exists now with technology and AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            779.07,
+            783.834
+          ],
+          "quote": "And one of the things that you argued is that healthcare may benefit more from AI than",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            784.795,
+            793.862
+          ],
+          "quote": "And so I want to just unpack a little bit more about where exactly you can see AI's benefits when it comes to healthcare.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            814.938,
+            816.601
+          ],
+          "quote": "Where is AI actually playing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            860.469,
+            870.774
+          ],
+          "quote": "And then when AI came along, they said, oh my God, we have to rip and replace this whole previous paradigm of technology and replace it with agentic AI and retrain our whole generation of workers on that modality.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            915.709,
+            925.997
+          ],
+          "quote": "This is currently is the only, like the first real organic adoption wave that we've seen in health tech where doctors are just using AI scribes because they freaking work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1010.523,
+            1029.971
+          ],
+          "quote": "are taking a specialized approach to how we leverage AI to create consumer-grade experiences, where you're now seeing like a company, we have a company called Council Health in our portfolio, which is literally an AI native doctor practice that is a 24 by 7 asynchronous chat modality with real doctors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1038.775,
+            1045.721
+          ],
+          "quote": "And so you kind of get the best of both worlds of, you know, an AI native care with real doctors who can actually provide clinical utility.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1056.05,
+            1059.092
+          ],
+          "quote": "Hackathon by Anthropic AI and AWS Cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1106.065,
+            1113.248
+          ],
+          "quote": "This is one really clear example of how AI can actually play out, can actually save human lives.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1166.33,
+            1168.671
+          ],
+          "quote": "I mean, medical AI today is highly transactional.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1283.825,
+            1285.967
+          ],
+          "quote": "And now because of the, you know, magic of AI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1319.726,
+            1327.692
+          ],
+          "quote": "Another post that I had just last week actually was one where we made the argument that the best companies right now are those that are AI native and AI proof.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1379.613,
+            1382.457
+          ],
+          "quote": "But on the inside, they were obviously highly AI native and therefore",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1397.526,
+            1402.049
+          ],
+          "quote": "So I think AI native, AI proof combination is a lot of where the excitement is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1467.011,
+            1468.012
+          ],
+          "quote": "You can do so much more with AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1517.683,
+            1533.232
+          ],
+          "quote": "I mean, one of the interesting things about healthcare is that in order to train a model in healthcare, I would argue that we actually don't even have the datasets necessary to truly train like a medical grade AI because we rely heavily today on electronic health record data, which is really sporadic, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1559.387,
+            1563.67
+          ],
+          "quote": "And I think all of us will genuinely have an AI doctor in our pocket for life.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 AI (agentic AI)",
+      "file": "智能体 AI",
+      "primary": true,
+      "how_described": "本集说其他行业要把几十年数百亿美元的 SaaS/中间件范式连根拔掉、换成智能体 AI 并重新培训员工，而医疗可以不经拆除直接采用这种智能体形式的技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            860.469,
+            870.774
+          ],
+          "quote": "And then when AI came along, they said, oh my God, we have to rip and replace this whole previous paradigm of technology and replace it with agentic AI and retrain our whole generation of workers on that modality.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llms",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLMs",
+      "file": "LLMs",
+      "primary": true,
+      "how_described": "本集说 LLM 带来「充裕的智能」，拆掉了医疗以稀缺培训为导向的专业壁垒；消费者也在用 LLM 问健康问题，获得摩擦低得多的医疗建议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            685.896,
+            690.641
+          ],
+          "quote": "Until we now have this, you know, abundant intelligence, you know, capability that we have with LLMs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            943.382,
+            951.024
+          ],
+          "quote": "On the consumer side, you know, thank you ChatGPT and Claude, like everybody is going to LLMs for health related questions, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "electronic-health-records",
+      "type": "concept",
+      "role": "concept",
+      "name": "电子健康记录 (electronic health records)",
+      "file": "电子健康记录",
+      "primary": true,
+      "how_described": "本集说联邦政府曾付钱让医生部署 EHR,把整个行业硬拉进数字时代；但也指出医疗至今只有 EHR 这一层 ERP,且现有数据依赖零散的 EHR,缺失患者长期叙事弧线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            117.085,
+            123.413
+          ],
+          "quote": "Basically, what they said was, we will pay doctors tens of thousands of dollars to implement electronic health records.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "third-party-payer",
+      "type": "concept",
+      "role": "concept",
+      "name": "第三方支付体系 (third party payer)",
+      "file": "第三方支付体系",
+      "primary": true,
+      "how_described": "本集说医疗之所以臃肿低效，是因为绝大部分费用不是患者自己出的、感受不到每一块钱的痛；近年免赔额带来的成本转移让消费者第一次直接痛了，成为新的支付方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            614.658,
+            622.56
+          ],
+          "quote": "And this is a little bit of a rat hole, but you know, one of the reasons that healthcare appears to be so esoteric is that we have this weird third party payer system, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "consumer-health",
+      "type": "concept",
+      "role": "concept",
+      "name": "消费级医疗 (consumer health)",
+      "file": "消费级医疗",
+      "primary": true,
+      "how_described": "本集说七年前 pitch 消费者健康业务会被赶出房间，现在 AI 把提供医学上可信服务的成本结构降了约一百倍，现金支付型公司成了健康科技里增长最快的一批——「消费者是新的支付方」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            1244.503,
+            1256.128
+          ],
+          "quote": "I joked a few months ago that if you had come to any investor, let's call it, you know, seven years ago and pitched a consumer health business, you would have been kicked out of the room because there was no viable business model.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-native-and-ai-proof",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 原生加 AI 防护 (AI native and AI proof)",
+      "file": "AI 原生加 AI 防护",
+      "primary": false,
+      "how_described": "本集说现在最好的公司是外面包着全栈业务(能做检测、开处方等受监管的事)、内核高度 AI 原生、成本结构颠覆性的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1319.726,
+            1327.692
+          ],
+          "quote": "Another post that I had just last week actually was one where we made the argument that the best companies right now are those that are AI native and AI proof.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "n-of-one",
+      "type": "concept",
+      "role": "concept",
+      "name": "N=1 医疗 (N of one)",
+      "file": "N=1 医疗",
+      "primary": true,
+      "how_described": "本集预测未来会有大量自己动手的、超级个性化的 N=1 医疗方案；公司做 N=1 实验生成新的数据轨道，喂出下一代医疗模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1497.451,
+            1517.283
+          ],
+          "quote": "I mean, I think, so getting to your example about the sort of, you know, roll your own genome analysis thing, like I do think there will be a lot of roll your own healthcare, where you will have N of one solutions that are like only like super personalized to you, but still get, you know, the kind of benefit of the broader set of intelligence that everybody's contributing back to.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "telehealth",
+      "type": "concept",
+      "role": "concept",
+      "name": "远程医疗 (telehealth)",
+      "file": "远程医疗",
+      "primary": false,
+      "how_described": "本集说 COVID 迫使监管从第一性原理放宽限制，此前远程医疗在很多情况下不被报销支付。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            394.298,
+            398.182
+          ],
+          "quote": "But with telehealth, all of a sudden you had this national scale demand for clinical",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            412.514,
+            418.92
+          ],
+          "quote": "Telehealth previously was in many cases was not paid for unless you had previously had an in-person visit with a doctor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            913.107,
+            915.288
+          ],
+          "quote": "You had to have a pandemic to force people to use telehealth.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "leapfrog",
+      "type": "concept",
+      "role": "concept",
+      "name": "跨越式动态 (leapfrog)",
+      "file": "跨越式动态",
+      "primary": true,
+      "how_described": "本集说医疗几十年来技术支出垫底、没有铺满 SaaS 轨道和中间件层，反而没有沉没成本偏见，可以直接跳到 AI 原生的工作流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            9.445,
+            25.817
+          ],
+          "quote": "The A16Z general partner joins Sophia Du on MTS to explain why healthcare may benefit more from AI than almost any other industry, and why its slow adoption of technology could now be an advantage, allowing it to leapfrog legacy software and move directly to AI-native workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            840.821,
+            851.585
+          ],
+          "quote": "And so, you know, one thing that's changed now is kind of this like what I call a leapfrog dynamic where when you think about every other industry, they spent the last, you know, couple of decades laying down like workflow SaaS rails, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": false,
+      "how_described": "本集说机器人公司的能力和高精尖医疗场景的需求之间，产品市场契合已经出现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            26.677,
+            39.559
+          ],
+          "quote": "Julie also shares where she sees the biggest opportunities for founders, from consumer healthcare and AI native care delivery, to robotics and new payment models, and why the future could include an AI doctor in your pocket for life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1410.014,
+            1416.158
+          ],
+          "quote": "You know, what robotics companies can do and what is necessary in really, like, high-acuity healthcare settings.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -167,9 +167,9 @@ Kitsa 的观点很直白：这个行业大多数人是"薪水过高用来瞎搞"
 
 **换个口味**
 
+- [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:循环 (loop)、智能体 (agent)</span>
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
 - [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM]]<span class="pd-rz">同公司:Claude · 同概念:循环 (loop)、智能体 (agent)</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Claude、Codex · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 </div>

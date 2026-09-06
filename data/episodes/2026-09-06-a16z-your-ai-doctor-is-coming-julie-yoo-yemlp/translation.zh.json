@@ -1,0 +1,2642 @@
+[
+ {
+  "seg": 0,
+  "start": 0.599,
+  "end": 6.063,
+  "speaker": "Unknown",
+  "en": "Healthcare is one of the most expensive industries in the world, yet time and medical expertise remain scarce.",
+  "zh": "医疗保健是世界上最昂贵的行业之一,然而时间和医疗专业知识仍然稀缺。"
+ },
+ {
+  "seg": 1,
+  "start": 6.803,
+  "end": 8.765,
+  "speaker": "Unknown",
+  "en": "Julie Yu thinks AI could change that.",
+  "zh": "Julie Yu 认为 AI 可以改变这一点。"
+ },
+ {
+  "seg": 2,
+  "start": 9.445,
+  "end": 25.817,
+  "speaker": "Unknown",
+  "en": "The A16Z general partner joins Sophia Du on MTS to explain why healthcare may benefit more from AI than almost any other industry, and why its slow adoption of technology could now be an advantage, allowing it to leapfrog legacy software and move directly to AI-native workflows.",
+  "zh": "这位 A16Z 普通合伙人做客 MTS,与 Sophia Du 畅谈为什么医疗保健可能比几乎任何其他行业都更能从 AI 中受益,以及为什么它对技术的缓慢采用如今反而可能成为一种优势,使其能够跨越传统遗留软件,直接迈向 AI 原生的工作流。"
+ },
+ {
+  "seg": 3,
+  "start": 26.677,
+  "end": 39.559,
+  "speaker": "Unknown",
+  "en": "Julie also shares where she sees the biggest opportunities for founders, from consumer healthcare and AI native care delivery, to robotics and new payment models, and why the future could include an AI doctor in your pocket for life.",
+  "zh": "Julie 还分享了她认为创始人最大的机会在哪里,从消费级医疗保健和 AI 原生的护理服务,到机器人技术和新的支付模式,以及为什么未来可能包括一个在你口袋里相伴一生的 AI 医生。"
+ },
+ {
+  "seg": 4,
+  "start": 42.373,
+  "end": 43.974,
+  "speaker": "Unknown",
+  "en": "Julie, welcome to MTS.",
+  "zh": "Julie,欢迎来到 MTS。"
+ },
+ {
+  "seg": 5,
+  "start": 44.014,
+  "end": 44.895,
+  "speaker": "Unknown",
+  "en": "Thanks so much for having me.",
+  "zh": "非常感谢邀请我。"
+ },
+ {
+  "seg": 6,
+  "start": 45.115,
+  "end": 55.204,
+  "speaker": "Unknown",
+  "en": "I'm so excited to chat with you and I'm so excited to get into this conversation because often in some of the conversations around AI, people don't totally understand how it affects them.",
+  "zh": "我非常期待和你聊天,也非常期待进入这场对话,因为通常在围绕 AI 的一些讨论中,人们并不完全理解它如何影响自己。"
+ },
+ {
+  "seg": 7,
+  "start": 55.724,
+  "end": 60.568,
+  "speaker": "Unknown",
+  "en": "And I think healthcare is one of the most obvious places where you actually get to see that possible.",
+  "zh": "而我认为医疗保健是最显而易见的、你真的能看到这种可能性的领域之一。"
+ },
+ {
+  "seg": 8,
+  "start": 60.648,
+  "end": 66.273,
+  "speaker": "Unknown",
+  "en": "But before we jump into all of the details there, I would love to just start a little bit with your personal story.",
+  "zh": "但在我们深入细节之前,我很想先从你的个人经历聊起。"
+ },
+ {
+  "seg": 9,
+  "start": 66.493,
+  "end": 68.775,
+  "speaker": "Unknown",
+  "en": "Why is healthcare one of the big problems you wanted to solve?",
+  "zh": "为什么医疗保健是你想解决的重大问题之一?"
+ },
+ {
+  "seg": 10,
+  "start": 68.955,
+  "end": 69.576,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的,当然可以。"
+ },
+ {
+  "seg": 11,
+  "start": 69.776,
+  "end": 75.14,
+  "speaker": "Unknown",
+  "en": "I've been in the healthcare industry now for probably, gosh, 18 years at this point, and I was too early.",
+  "zh": "我在医疗保健行业已经待了大概,天哪,到现在有 18 年了,而我太早入场了。"
+ },
+ {
+  "seg": 12,
+  "start": 75.2,
+  "end": 75.881,
+  "speaker": "Unknown",
+  "en": "You're too early, wow.",
+  "zh": "你太早入场了,哇。"
+ },
+ {
+  "seg": 13,
+  "start": 75.981,
+  "end": 89.572,
+  "speaker": "Unknown",
+  "en": "I was actually a technologist by training, so out of school, was a software engineer in the broader tech ecosystem, wrote code for the first seven years of my career, did a lot in the early era of e-commerce and fintech and manufacturing, et cetera, and then made a career change into healthcare.",
+  "zh": "我其实是技术出身,所以毕业后,我在更广泛的技术生态系统中做软件工程师,在职业生涯的前七年写代码,在电子商务、金融科技和制造业等早期时代做了很多工作,然后转行进入了医疗保健。"
+ },
+ {
+  "seg": 14,
+  "start": 89.852,
+  "end": 96.681,
+  "speaker": "Unknown",
+  "en": "Right when the federal government was starting to talk about how do we digitize healthcare, because I'm sure I've talked to anyone about their experience in healthcare.",
+  "zh": "那时恰好是联邦政府开始讨论如何将医疗保健数字化的时期,因为我确信如果我和任何谈过他们在医疗保健方面的经历。"
+ },
+ {
+  "seg": 15,
+  "start": 97.021,
+  "end": 100.545,
+  "speaker": "Unknown",
+  "en": "One of the first things they'll say is I'm being paper to death, I'm being fax machine to death.",
+  "zh": "他们最先说的事情之一就是,我被纸张折腾得要死,我被传真机折腾得要死。"
+ },
+ {
+  "seg": 16,
+  "start": 100.866,
+  "end": 102.228,
+  "speaker": "Unknown",
+  "en": "We still have a long way to go.",
+  "zh": "我们仍然有很长的路要走。"
+ },
+ {
+  "seg": 17,
+  "start": 102.308,
+  "end": 106.613,
+  "speaker": "Unknown",
+  "en": "But imagine 20 years ago when the majority of the industry was actually still working on paper.",
+  "zh": "但想象一下 20 年前,当时行业的大部分实际上仍在使用纸张工作。"
+ },
+ {
+  "seg": 18,
+  "start": 106.673,
+  "end": 111.258,
+  "speaker": "Unknown",
+  "en": "Like doctors offices still had those paper folders in their cabinets and nothing was digitized.",
+  "zh": "比如医生的诊所柜子里还放着那些纸质文件夹,什么都没有数字化。"
+ },
+ {
+  "seg": 19,
+  "start": 111.299,
+  "end": 117.045,
+  "speaker": "Unknown",
+  "en": "And so the federal government decided to implement this massive program, which is kind of a miraculous program when you think about it.",
+  "zh": "于是联邦政府决定实施这个庞大的项目,想想看这几乎是一个奇迹般的项目。"
+ },
+ {
+  "seg": 20,
+  "start": 117.085,
+  "end": 123.413,
+  "speaker": "Unknown",
+  "en": "Basically, what they said was, we will pay doctors tens of thousands of dollars to implement electronic health records.",
+  "zh": "基本上,他们说,我们会付给医生数万美元让他们实施电子健康记录。"
+ },
+ {
+  "seg": 21,
+  "start": 123.633,
+  "end": 130.339,
+  "speaker": "Unknown",
+  "en": "And that was the way by which our industry sort of came into the modern era was for over the course of about five to seven years, I would say.",
+  "zh": "而这就是我们的行业进入现代时代的方式,大约在五到七年的时间里。"
+ },
+ {
+  "seg": 22,
+  "start": 130.66,
+  "end": 137.466,
+  "speaker": "Unknown",
+  "en": "Literally 100 percent of doctors in the U.S. were heads down implementing these kind of system of record electronic health record platforms.",
+  "zh": "可以说,美国 100% 的医生都埋头实施这类作为记录系统的电子健康记录平台。"
+ },
+ {
+  "seg": 23,
+  "start": 137.986,
+  "end": 140.489,
+  "speaker": "Unknown",
+  "en": "And that's how we kind of came into digitization.",
+  "zh": "我们就是这样进入数字化的。"
+ },
+ {
+  "seg": 24,
+  "start": 140.729,
+  "end": 147.255,
+  "speaker": "Unknown",
+  "en": "So right around then was when I made a career change thinking, OK, I've now seen what great looks like with respect to enterprise technology being applied to",
+  "zh": "所以差不多在那个时候,我换了职业,心想,好,我已经见识过企业级技术应用到"
+ },
+ {
+  "seg": 25,
+  "start": 147.695,
+  "end": 150.876,
+  "speaker": "Unknown",
+  "en": "All these other industries, e-commerce, retail, manufacturing, et cetera.",
+  "zh": "所有这些其他行业——电子商务、零售、制造业等——时的最佳样子。"
+ },
+ {
+  "seg": 26,
+  "start": 151.136,
+  "end": 153.237,
+  "speaker": "Unknown",
+  "en": "Now it's time for healthcare to have its shot in the light.",
+  "zh": "现在轮到医疗保健在阳光下崭露头角了。"
+ },
+ {
+  "seg": 27,
+  "start": 153.697,
+  "end": 160.879,
+  "speaker": "Unknown",
+  "en": "And of course, again, I was like 15, 20 years too early, but obviously so much of the evolution that's occurred in the last 10 years is really what I get excited about.",
+  "zh": "当然,我又像早了 15、20 年,但显然,过去 10 年发生的这么多演进正是让我感到兴奋的东西。"
+ },
+ {
+  "seg": 28,
+  "start": 161.419,
+  "end": 166.02,
+  "speaker": "Unknown",
+  "en": "And I initially started out in kind of the genomics era, which was one of the first areas where you saw",
+  "zh": "我最初是在基因组学时代起步的,那是最早出现"
+ },
+ {
+  "seg": 29,
+  "start": 166.36,
+  "end": 167.281,
+  "speaker": "Unknown",
+  "en": "Just an explosion of data.",
+  "zh": "数据爆炸式增长的领域之一。"
+ },
+ {
+  "seg": 30,
+  "start": 167.301,
+  "end": 168.522,
+  "speaker": "Unknown",
+  "en": "We had the Human Genome Project.",
+  "zh": "我们有人类基因组计划。"
+ },
+ {
+  "seg": 31,
+  "start": 168.562,
+  "end": 171.104,
+  "speaker": "Unknown",
+  "en": "We now understood the fundamental code of humanity.",
+  "zh": "我们当时已经理解了人类的基础代码。"
+ },
+ {
+  "seg": 32,
+  "start": 171.644,
+  "end": 175.548,
+  "speaker": "Unknown",
+  "en": "And there was a whole industry that exploded around kind of computational biology.",
+  "zh": "围绕计算生物学爆发出了一整个产业。"
+ },
+ {
+  "seg": 33,
+  "start": 175.648,
+  "end": 179.01,
+  "speaker": "Unknown",
+  "en": "How does genomics tie to ultimate disease and things of that sort?",
+  "zh": "基因组学如何与最终疾病等诸如此类的事情联系起来?"
+ },
+ {
+  "seg": 34,
+  "start": 179.251,
+  "end": 181.212,
+  "speaker": "Unknown",
+  "en": "So did a couple of really cool companies in that area.",
+  "zh": "所以我在那个领域做了几家非常酷的公司。"
+ },
+ {
+  "seg": 35,
+  "start": 181.653,
+  "end": 186.777,
+  "speaker": "Unknown",
+  "en": "And then ultimately around 2010 was when I started Kairos, which was my company, really with the thesis of",
+  "zh": "然后最终在 2010 年左右,我创办了 Kairos,这是我自己的公司,核心论点是"
+ },
+ {
+  "seg": 36,
+  "start": 187.117,
+  "end": 187.957,
+  "speaker": "Unknown",
+  "en": "Some of what you described.",
+  "zh": "你描述的部分内容。"
+ },
+ {
+  "seg": 37,
+  "start": 187.977,
+  "end": 193.439,
+  "speaker": "Unknown",
+  "en": "So we as consumers experience extreme access issues when we try to get in touch with the healthcare system.",
+  "zh": "我们作为消费者,在试图接触医疗保健系统时会遇到极大的可及性问题。"
+ },
+ {
+  "seg": 38,
+  "start": 193.559,
+  "end": 200.021,
+  "speaker": "Unknown",
+  "en": "The average wait time for a primary care doctor's appointment is weeks, if not months in most major cities across the U.S. still today.",
+  "zh": "在美国大多数主要城市,直到今天,看初级保健医生的平均等待时间仍是数周甚至数月。"
+ },
+ {
+  "seg": 39,
+  "start": 200.581,
+  "end": 215.345,
+  "speaker": "Unknown",
+  "en": "And when me and my co-founder started to talk to executives who were running these large hospitals and physician groups in the industry, what we didn't realize was they were telling us, yes, people are waiting out the door, but if you actually look at the way that our physicians are being utilized,",
+  "zh": "当我和我的联合创始人开始与业内经营大型医院和医生集团的负责人交谈时,我们没有意识到的是,他们告诉我们,是的,人们在门外排队等着,但如果你真正看一下我们医生被使用的方式,"
+ },
+ {
+  "seg": 40,
+  "start": 215.725,
+  "end": 217.987,
+  "speaker": "Unknown",
+  "en": "We're still way under 100%, which was shocking, right?",
+  "zh": "我们的利用率还远低于 100%,这很令人震惊,对吧?"
+ },
+ {
+  "seg": 41,
+  "start": 218.007,
+  "end": 220.349,
+  "speaker": "Unknown",
+  "en": "We had this paradox of demand out the door.",
+  "zh": "我们面临着需求排到门外的悖论。"
+ },
+ {
+  "seg": 42,
+  "start": 220.749,
+  "end": 225.573,
+  "speaker": "Unknown",
+  "en": "And yet when you looked at utilization rates of physicians' time, it was way under 100%.",
+  "zh": "然而当你看医生时间的利用率时,却远低于 100%。"
+ },
+ {
+  "seg": 43,
+  "start": 225.973,
+  "end": 239.804,
+  "speaker": "Unknown",
+  "en": "And so that was the thesis behind our company, Kairos, was how do you sort of solve this patient access paradox by creating a single system of appointment inventory across the healthcare system and the ability to route patients to the right doctor",
+  "zh": "所以这就是我们公司 Kairos 背后的论点:如何通过在整个医疗保健系统中创建一个单一的预约库存系统,以及将患者引导到正确的医生"
+ },
+ {
+  "seg": 44,
+  "start": 240.264,
+  "end": 244.728,
+  "speaker": "Unknown",
+  "en": "And the right appointment in such a way that you could actually effectively utilize that capacity much more efficiently.",
+  "zh": "和正确的预约的能力,来解决这种患者可及性悖论,从而真正更高效地利用这些容量。"
+ },
+ {
+  "seg": 45,
+  "start": 245.168,
+  "end": 249.092,
+  "speaker": "Unknown",
+  "en": "And so I did that for an amazing nine years as co-founder and CPO.",
+  "zh": "所以我作为联合创始人和 CPO 做了精彩的九年。"
+ },
+ {
+  "seg": 46,
+  "start": 249.532,
+  "end": 252.815,
+  "speaker": "Unknown",
+  "en": "But it was, again, in sort of like the stone age of health tech.",
+  "zh": "但那还是,可以这么说,医疗科技的石器时代。"
+ },
+ {
+  "seg": 47,
+  "start": 252.855,
+  "end": 255.277,
+  "speaker": "Unknown",
+  "en": "So this gets to sort of my current job today.",
+  "zh": "所以这就说到了我今天的工作。"
+ },
+ {
+  "seg": 48,
+  "start": 255.617,
+  "end": 261.102,
+  "speaker": "Unknown",
+  "en": "Back then was Imagine Tech sort of like pre-Stripe, pre all the sort of like API",
+  "zh": "那时候,想象一下,技术还处于前 Stripe 时代,前所有那种 API"
+ },
+ {
+  "seg": 49,
+  "start": 261.222,
+  "end": 267.245,
+  "speaker": "Unknown",
+  "en": "The layer of how you build companies and stand up companies, that was effectively the situation in health tech back then.",
+  "zh": "也就是你如何构建公司、把公司搭起来的那一层,这基本上就是当年医疗科技的状况。"
+ },
+ {
+  "seg": 50,
+  "start": 267.765,
+  "end": 270.487,
+  "speaker": "Unknown",
+  "en": "Very little venture capital also going into our space back then.",
+  "zh": "当时也很少有风险投资进入我们的领域。"
+ },
+ {
+  "seg": 51,
+  "start": 271.047,
+  "end": 274.449,
+  "speaker": "Unknown",
+  "en": "And a lot of the conventional wisdom at the time was health care is just so hard, right?",
+  "zh": "而且当时很多传统观念认为，医疗保健就是太难了，对吧？"
+ },
+ {
+  "seg": 52,
+  "start": 274.469,
+  "end": 275.849,
+  "speaker": "Unknown",
+  "en": "It's a highly regulated industry.",
+  "zh": "这是一个监管高度严格的行业。"
+ },
+ {
+  "seg": 53,
+  "start": 276.209,
+  "end": 277.19,
+  "speaker": "Unknown",
+  "en": "Things are super slow.",
+  "zh": "事情超级慢。"
+ },
+ {
+  "seg": 54,
+  "start": 277.33,
+  "end": 282.413,
+  "speaker": "Unknown",
+  "en": "People are understandably conservative because the stakes are very high to get something wrong.",
+  "zh": "人们保守是可以理解的，因为搞错事情的代价非常高。"
+ },
+ {
+  "seg": 55,
+  "start": 283.533,
+  "end": 285.294,
+  "speaker": "Unknown",
+  "en": "If you get something wrong, the stakes are very high.",
+  "zh": "如果你搞错了什么，代价是非常高的。"
+ },
+ {
+  "seg": 56,
+  "start": 285.394,
+  "end": 295.582,
+  "speaker": "Unknown",
+  "en": "And so there was a reticence to believe that the kind of speed of growth and scale of technology application that you would see in other industries could even happen in healthcare.",
+  "zh": "所以人们不愿意相信，你在其他行业能看到的那种增长速度和技术应用的规模，在医疗保健领域也能发生。"
+ },
+ {
+  "seg": 57,
+  "start": 295.702,
+  "end": 299.565,
+  "speaker": "Unknown",
+  "en": "And so it was not as popular of an industry for VCs to really kind of put their half behind.",
+  "zh": "所以这对风险投资家来说，不是一个真正愿意投入精力的热门行业。"
+ },
+ {
+  "seg": 58,
+  "start": 300.025,
+  "end": 304.87,
+  "speaker": "Unknown",
+  "en": "So back then I joked that there was like five guys who like invested in our space and I raised from like all five of them.",
+  "zh": "所以我那时开玩笑说，大概就只有五个人投资我们这个领域，而我几乎把这五位的钱都融了一遍。"
+ },
+ {
+  "seg": 59,
+  "start": 305.29,
+  "end": 306.631,
+  "speaker": "Unknown",
+  "en": "But, you know, it was pre-APIs.",
+  "zh": "但是，你知道，那是在 API 之前的时代。"
+ },
+ {
+  "seg": 60,
+  "start": 307.032,
+  "end": 316.521,
+  "speaker": "Unknown",
+  "en": "I liken the work that I did literally with my own two hands as taking a chisel and a nail against this concrete wall of integrating into the infrastructure of healthcare.",
+  "zh": "我把我亲手用自己双手做的工作比作拿着凿子和钉子，去凿医疗保健基础设施这堵混凝土墙，做集成。"
+ },
+ {
+  "seg": 61,
+  "start": 317.021,
+  "end": 318.762,
+  "speaker": "Unknown",
+  "en": "And so it took a lot of time, a lot of capital.",
+  "zh": "所以那花了很多时间，很多资本。"
+ },
+ {
+  "seg": 62,
+  "start": 319.043,
+  "end": 322.965,
+  "speaker": "Unknown",
+  "en": "It was really hard to recruit talent back then because it just was an unsexy industry, right?",
+  "zh": "那时候招人真的很难，因为这就是一个不性感的行业，对吧？"
+ },
+ {
+  "seg": 63,
+  "start": 323.045,
+  "end": 329.91,
+  "speaker": "Unknown",
+  "en": "If you had a choice of going to Google versus trying to build these 1970s systems, like, why would you choose to come into our space?",
+  "zh": "如果你可以选择去 Google，还是去试着构建这些 1970 年代的系统，你会为什么选择进入我们这个领域呢？"
+ },
+ {
+  "seg": 64,
+  "start": 329.95,
+  "end": 332.292,
+  "speaker": "Unknown",
+  "en": "So we did it the hard way, but great outcome.",
+  "zh": "所以我们是用最难的方式做成的，但结果很棒。"
+ },
+ {
+  "seg": 65,
+  "start": 332.312,
+  "end": 333.653,
+  "speaker": "Unknown",
+  "en": "We actually just sold the company last year.",
+  "zh": "我们实际上就在去年把公司卖掉了。"
+ },
+ {
+  "seg": 66,
+  "start": 333.673,
+  "end": 334.473,
+  "speaker": "Unknown",
+  "en": "Congratulations.",
+  "zh": "恭喜。"
+ },
+ {
+  "seg": 67,
+  "start": 334.493,
+  "end": 334.933,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 68,
+  "start": 334.953,
+  "end": 336.154,
+  "speaker": "Unknown",
+  "en": "That's so huge.",
+  "zh": "这真是太了不起了。"
+ },
+ {
+  "seg": 69,
+  "start": 336.294,
+  "end": 337.295,
+  "speaker": "Unknown",
+  "en": "A decade paid off.",
+  "zh": "十年的付出得到了回报。"
+ },
+ {
+  "seg": 70,
+  "start": 337.515,
+  "end": 339.156,
+  "speaker": "Unknown",
+  "en": "Yeah, it was like a 15-year overnight success.",
+  "zh": "是啊，那就像是一场十五年磨一剑的一夜成名。"
+ },
+ {
+  "seg": 71,
+  "start": 339.356,
+  "end": 347.802,
+  "speaker": "Unknown",
+  "en": "But in that time, so many things occurred to really mature the industry in so many ways that now, I would argue, this is our moment in health tech.",
+  "zh": "但在那段时间里，发生了非常多的事情，让这个行业在许多方面真正走向了成熟，所以现在，我认为，这是我们在医疗科技领域的时刻。"
+ },
+ {
+  "seg": 72,
+  "start": 347.882,
+  "end": 349.683,
+  "speaker": "Unknown",
+  "en": "And I've now been an investor.",
+  "zh": "而我现在已经成为一名投资人。"
+ },
+ {
+  "seg": 73,
+  "start": 349.723,
+  "end": 355.007,
+  "speaker": "Unknown",
+  "en": "After I stepped on from my company, I came to the dark side and I now run the healthcare investing team at Andreessen.",
+  "zh": "在我离开自己创立的公司之后，我投奔了黑暗面，现在在 Andreessen 领导医疗保健投资团队。"
+ },
+ {
+  "seg": 74,
+  "start": 355.567,
+  "end": 359.89,
+  "speaker": "Unknown",
+  "en": "And what's occurred over the last seven years, like literally since I've joined the firm, is really remarkable.",
+  "zh": "而过去七年里发生的事情，几乎就是从我加入这家公司以来，真的非常了不起。"
+ },
+ {
+  "seg": 75,
+  "start": 359.95,
+  "end": 363.313,
+  "speaker": "Unknown",
+  "en": "So one, obviously we had COVID, which I think was a huge reason why people",
+  "zh": "所以第一，显然我们经历了 COVID，我认为这是让人们"
+ },
+ {
+  "seg": 76,
+  "start": 363.793,
+  "end": 370.037,
+  "speaker": "Unknown",
+  "en": "We're forced to recognize the need to create a digital modality for engaging with the healthcare system.",
+  "zh": "被迫认识到需要创建一种数字化的方式来与医疗保健系统互动的一个巨大原因。"
+ },
+ {
+  "seg": 77,
+  "start": 370.617,
+  "end": 380.303,
+  "speaker": "Unknown",
+  "en": "And it really tore apart a lot of the previously held assumptions about how healthcare needs to work in terms of everything from how are physicians credentialed to practice medicine.",
+  "zh": "它还真的推翻了很多以前关于医疗保健必须如何运作的假设，涵盖从医生如何获得行医资质认证到方方面面。"
+ },
+ {
+  "seg": 78,
+  "start": 380.704,
+  "end": 382.705,
+  "speaker": "Unknown",
+  "en": "Historically, it's been a very sort of local.",
+  "zh": "历史上，它一直是一种非常地方性的"
+ },
+ {
+  "seg": 79,
+  "start": 383.025,
+  "end": 387.25,
+  "speaker": "Unknown",
+  "en": "system where we sort of deliberately constrain supply in healthcare in weird ways.",
+  "zh": "体系，我们以奇怪的方式刻意限制了医疗保健的供给。"
+ },
+ {
+  "seg": 80,
+  "start": 387.31,
+  "end": 389.252,
+  "speaker": "Unknown",
+  "en": "So you have to get licensed at the state level.",
+  "zh": "所以你必须获得州一级的执照。"
+ },
+ {
+  "seg": 81,
+  "start": 389.692,
+  "end": 393.937,
+  "speaker": "Unknown",
+  "en": "And it was not the case that doctors typically would have a license to practice medicine outside of their state.",
+  "zh": "而且医生通常在他们的州之外是没有行医执照的，情况并不是那样。"
+ },
+ {
+  "seg": 82,
+  "start": 394.298,
+  "end": 398.182,
+  "speaker": "Unknown",
+  "en": "But with telehealth, all of a sudden you had this national scale demand for clinical",
+  "zh": "但随着远程医疗的出现，突然之间你就有了这种全国规模的临床需求"
+ },
+ {
+  "seg": 83,
+  "start": 398.942,
+  "end": 403.426,
+  "speaker": "Unknown",
+  "en": "And so lots of states and federal agencies had to kind of rethink from first principles.",
+  "zh": "于是很多州和联邦机构不得不从第一性原理出发重新思考。"
+ },
+ {
+  "seg": 84,
+  "start": 403.807,
+  "end": 409.372,
+  "speaker": "Unknown",
+  "en": "How do we relax some of these constraints to enable people to get access to care when you can no longer go in person?",
+  "zh": "当人们无法再亲自前往时，我们该如何放宽其中一些限制，让人们能够获得医疗服务？"
+ },
+ {
+  "seg": 85,
+  "start": 409.752,
+  "end": 410.232,
+  "speaker": "Unknown",
+  "en": "That was one.",
+  "zh": "这是其一。"
+ },
+ {
+  "seg": 86,
+  "start": 410.293,
+  "end": 412.194,
+  "speaker": "Unknown",
+  "en": "Another was kind of the way that we pay for health care.",
+  "zh": "另一个是我们为医疗保健付费的方式。"
+ },
+ {
+  "seg": 87,
+  "start": 412.514,
+  "end": 418.92,
+  "speaker": "Unknown",
+  "en": "Telehealth previously was in many cases was not paid for unless you had previously had an in-person visit with a doctor.",
+  "zh": "此前，远程医疗在很多情况下是不被报销支付的，除非你之前与医生有过一次面对面的就诊。"
+ },
+ {
+  "seg": 88,
+  "start": 419.3,
+  "end": 419.881,
+  "speaker": "Unknown",
+  "en": "So we had to relax.",
+  "zh": "所以我们不得不放宽。"
+ },
+ {
+  "seg": 89,
+  "start": 419.881,
+  "end": 420.121,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 90,
+  "start": 420.141,
+  "end": 420.821,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 91,
+  "start": 421.142,
+  "end": 427.525,
+  "speaker": "Unknown",
+  "en": "So there was a lot of tailwinds in the industry during that period that sort of led to acceleration of the ability to build tech companies in this space.",
+  "zh": "所以在那个时期，行业里有很多顺风因素，某种程度上加速了在这个领域构建科技公司的能力。"
+ },
+ {
+  "seg": 92,
+  "start": 428.045,
+  "end": 428.805,
+  "speaker": "Unknown",
+  "en": "And then obviously AI.",
+  "zh": "然后显然还有 AI。"
+ },
+ {
+  "seg": 93,
+  "start": 428.946,
+  "end": 449.336,
+  "speaker": "Unknown",
+  "en": "I mean, I think I've declared loudly that I believe healthcare is the industry that will benefit the most from AI for many reasons that I'm sure we'll talk about, but the level of accelerated growth and scale and adoption that we've now seen in the last, let's call it three to five years post AI, I think is proving that point and demonstrating that the moment is here for digital health to be",
+  "zh": "我是说，我想我已经大声宣布过，我相信医疗保健将是从 AI 中受益最多的行业，原因有很多，我确信我们会谈到，但在 AI 之后，姑且称之为过去三到五年里，我们所看到的加速增长、规模和采用程度，我认为正在证明这一点，并表明数字健康的时刻已经到来。"
+ },
+ {
+  "seg": 94,
+  "start": 449.816,
+  "end": 450.677,
+  "speaker": "Unknown",
+  "en": "Definitely.",
+  "zh": "的确。"
+ },
+ {
+  "seg": 95,
+  "start": 450.877,
+  "end": 458.523,
+  "speaker": "Unknown",
+  "en": "It's so fascinating getting to hear your story because you understand how technology has affected the healthcare industry for over multiple decades.",
+  "zh": "能听到你的故事真是太迷人了，因为你已经理解了技术如何影响医疗保健行业长达数十年之久。"
+ },
+ {
+  "seg": 96,
+  "start": 458.623,
+  "end": 461.826,
+  "speaker": "Unknown",
+  "en": "And you've gotten to see when you're way too early, as you say.",
+  "zh": "而且你也如你所说，见识过什么是起得太早了。"
+ },
+ {
+  "seg": 97,
+  "start": 461.846,
+  "end": 465.489,
+  "speaker": "Unknown",
+  "en": "I like how you mentioned your 15-year overnight success.",
+  "zh": "我很喜欢你提到你那“十五年磨一剑的一夜成名”。"
+ },
+ {
+  "seg": 98,
+  "start": 466.029,
+  "end": 467.25,
+  "speaker": "Unknown",
+  "en": "Which most startups are.",
+  "zh": "大多数初创公司都是这样。"
+ },
+ {
+  "seg": 99,
+  "start": 467.391,
+  "end": 467.811,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 100,
+  "start": 467.851,
+  "end": 468.512,
+  "speaker": "Unknown",
+  "en": "Most startups are.",
+  "zh": "大多数创业公司都是如此。"
+ },
+ {
+  "seg": 101,
+  "start": 468.532,
+  "end": 469.793,
+  "speaker": "Unknown",
+  "en": "I'm going to quote that for my parents.",
+  "zh": "我要把这句话引用给我父母听。"
+ },
+ {
+  "seg": 102,
+  "start": 469.833,
+  "end": 470.533,
+  "speaker": "Unknown",
+  "en": "I'm like, no, no, no.",
+  "zh": "我就像，不，不，不。"
+ },
+ {
+  "seg": 103,
+  "start": 470.613,
+  "end": 472.015,
+  "speaker": "Unknown",
+  "en": "I'll be a 15-year overnight success.",
+  "zh": "我会成为一个十五年磨一剑的一夜成名者。"
+ },
+ {
+  "seg": 104,
+  "start": 472.035,
+  "end": 472.595,
+  "speaker": "Unknown",
+  "en": "Just you wait.",
+  "zh": "你就等着瞧吧。"
+ },
+ {
+  "seg": 105,
+  "start": 472.615,
+  "end": 473.076,
+  "speaker": "Unknown",
+  "en": "Just you wait.",
+  "zh": "你就等着瞧吧。"
+ },
+ {
+  "seg": 106,
+  "start": 473.376,
+  "end": 477.099,
+  "speaker": "Unknown",
+  "en": "But as you alluded to, healthcare, it's been a long time coming.",
+  "zh": "但正如你所提到的，医疗健康领域，这一刻已经等了很久了。"
+ },
+ {
+  "seg": 107,
+  "start": 477.119,
+  "end": 479.802,
+  "speaker": "Unknown",
+  "en": "This was maybe prior when you were starting your startup.",
+  "zh": "这可能是在你创办你的创业公司之前。"
+ },
+ {
+  "seg": 108,
+  "start": 480.122,
+  "end": 481.823,
+  "speaker": "Unknown",
+  "en": "It wasn't as sexy of an industry.",
+  "zh": "它当时并不是一个那么性感的行业。"
+ },
+ {
+  "seg": 109,
+  "start": 481.843,
+  "end": 482.904,
+  "speaker": "Unknown",
+  "en": "It was harder to get talent.",
+  "zh": "更难招到人才。"
+ },
+ {
+  "seg": 110,
+  "start": 482.924,
+  "end": 484.165,
+  "speaker": "Unknown",
+  "en": "It was harder to get capital.",
+  "zh": "更难拿到资本。"
+ },
+ {
+  "seg": 111,
+  "start": 484.466,
+  "end": 486.988,
+  "speaker": "Unknown",
+  "en": "But it seems to me that that's no longer the case.",
+  "zh": "但在我看来，情况已经不再是这样了。"
+ },
+ {
+  "seg": 112,
+  "start": 487.208,
+  "end": 493.212,
+  "speaker": "Unknown",
+  "en": "Even if what you're seeing with Dario, where he's saying, okay, we're doubling down in health, we're going to cure cancer.",
+  "zh": "即使从你在 Dario 那里看到的情况来看，他说，好，我们要在健康领域加倍投入，我们要治愈癌症。"
+ },
+ {
+  "seg": 113,
+  "start": 493.553,
+  "end": 512.326,
+  "speaker": "Unknown",
+  "en": "I talk to startups all of the time, especially in AI, and one of the common themes that we're seeing is that they're going towards the hard problems, the ones that are really bureaucratic, the ones that are legacy that if you solve it correctly, literally saves hundreds of thousands, millions, billions of lives.",
+  "zh": "我一直在和创业公司交流，尤其是在 AI 领域，我们看到的共同主题之一是，他们正走向那些困难的问题，那些真正官僚的问题，那些遗留系统的问题，而如果你正确地解决了它， literally 就能拯救成千上万、数百万、数十亿的生命。"
+ },
+ {
+  "seg": 114,
+  "start": 512.786,
+  "end": 513.167,
+  "speaker": "Unknown",
+  "en": "And so-",
+  "zh": "所以——"
+ },
+ {
+  "seg": 115,
+  "start": 513.907,
+  "end": 515.228,
+  "speaker": "Unknown",
+  "en": "I'm so excited to see that.",
+  "zh": "我对此感到非常兴奋。"
+ },
+ {
+  "seg": 116,
+  "start": 515.428,
+  "end": 517.45,
+  "speaker": "Unknown",
+  "en": "And I would love to just get your opinion.",
+  "zh": "我很想听听你的看法。"
+ },
+ {
+  "seg": 117,
+  "start": 517.59,
+  "end": 518.29,
+  "speaker": "Unknown",
+  "en": "What shifted?",
+  "zh": "到底发生了什么变化？"
+ },
+ {
+  "seg": 118,
+  "start": 518.35,
+  "end": 524.395,
+  "speaker": "Unknown",
+  "en": "What was the big change over the past few years that gave us this renaissance, this healthcare industry renaissance that we're in?",
+  "zh": "过去几年里，是什么巨大的变化给了我们这场复兴，这场我们正处于其中的医疗健康行业的复兴？"
+ },
+ {
+  "seg": 119,
+  "start": 524.415,
+  "end": 525.976,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it was a confluence of factors.",
+  "zh": "是的，我认为这是多种因素汇合的结果。"
+ },
+ {
+  "seg": 120,
+  "start": 525.996,
+  "end": 530.759,
+  "speaker": "Unknown",
+  "en": "So, I mean, exactly to your point, it's always been the one industry that literally impacts everyone.",
+  "zh": "所以，我的意思是，正如你所说的，它一直是那个 literally 影响每一个人的行业。"
+ },
+ {
+  "seg": 121,
+  "start": 530.86,
+  "end": 533.602,
+  "speaker": "Unknown",
+  "en": "Every single life has some interaction with the healthcare system at some point.",
+  "zh": "每一个生命在某个时点都会与医疗系统有某种接触。"
+ },
+ {
+  "seg": 122,
+  "start": 533.942,
+  "end": 535.983,
+  "speaker": "Unknown",
+  "en": "And typically it's a very negative experience, unfortunately.",
+  "zh": "而且不幸的是，这通常是一种非常负面的体验。"
+ },
+ {
+  "seg": 123,
+  "start": 536.043,
+  "end": 540.607,
+  "speaker": "Unknown",
+  "en": "And so I think one thing is that just consumers have gotten to a certain breaking point where",
+  "zh": "所以我认为有一点是，消费者已经达到了某个临界点，"
+ },
+ {
+  "seg": 124,
+  "start": 541.247,
+  "end": 544.629,
+  "speaker": "Unknown",
+  "en": "Especially as all of the experiences in the rest of our life, right?",
+  "zh": "尤其是我们生活中其他所有方面的体验，对吧？"
+ },
+ {
+  "seg": 125,
+  "start": 544.649,
+  "end": 552.332,
+  "speaker": "Unknown",
+  "en": "If you think about how Uber has changed transportation, how Airbnb has changed travel, how Instacart has changed the way we think about food, et cetera, et cetera.",
+  "zh": "如果你想想 Uber 如何改变了交通，Airbnb 如何改变了旅行，Instacart 如何改变了我们对食物的看法，等等，等等。"
+ },
+ {
+  "seg": 126,
+  "start": 552.612,
+  "end": 559.075,
+  "speaker": "Unknown",
+  "en": "Our standard and our bar for what we expect from any service industry has gone way up while healthcare has kind of stayed stagnant.",
+  "zh": "我们对任何服务行业的期望标准和门槛都大大提高了，而医疗健康却有点停滞不前。"
+ },
+ {
+  "seg": 127,
+  "start": 559.635,
+  "end": 566.699,
+  "speaker": "Unknown",
+  "en": "I think that gap has really gotten to a breaking point where consumers are saying, I want to vote with my feet and my dollars to get better services wherever I can get them.",
+  "zh": "我认为这个差距真的达到了一个临界点，消费者在说，我想用我的双脚和我的钱包投票，去获得我在任何地方能获得的更好的服务。"
+ },
+ {
+  "seg": 128,
+  "start": 567.079,
+  "end": 568.4,
+  "speaker": "Unknown",
+  "en": "So that's been one big change.",
+  "zh": "所以这是一个巨大的变化。"
+ },
+ {
+  "seg": 129,
+  "start": 568.74,
+  "end": 573.743,
+  "speaker": "Unknown",
+  "en": "I think at the same time, the incumbent industry is under extreme siege, right?",
+  "zh": "我认为与此同时，在位的行业正处于极度围困之中，对吧？"
+ },
+ {
+  "seg": 130,
+  "start": 573.783,
+  "end": 583.969,
+  "speaker": "Unknown",
+  "en": "So if you think about large hospital systems, large insurance companies, employers put the majority of the bill for most insurance fees and premium dollars for a vast majority of Americans.",
+  "zh": "所以如果你想想大型医院系统、大型保险公司，雇主承担了大多数美国人的大部分保险费用和保费的账单。"
+ },
+ {
+  "seg": 131,
+  "start": 584.009,
+  "end": 585.97,
+  "speaker": "Unknown",
+  "en": "And so all of these organizations are",
+  "zh": "所以所有这些组织都"
+ },
+ {
+  "seg": 132,
+  "start": 586.47,
+  "end": 588.631,
+  "speaker": "Unknown",
+  "en": "Sort of experiencing increased cost structure, right?",
+  "zh": "在某种程度上经历着不断上升的成本结构，对吧？"
+ },
+ {
+  "seg": 133,
+  "start": 588.651,
+  "end": 590.351,
+  "speaker": "Unknown",
+  "en": "So labor has gotten much more expensive.",
+  "zh": "所以劳动力变得更加昂贵了。"
+ },
+ {
+  "seg": 134,
+  "start": 590.471,
+  "end": 591.972,
+  "speaker": "Unknown",
+  "en": "Labor has gotten much more constrained.",
+  "zh": "劳动力变得更加紧缺了。"
+ },
+ {
+  "seg": 135,
+  "start": 592.252,
+  "end": 605.116,
+  "speaker": "Unknown",
+  "en": "We did unfortunately have a big sort of outflux of talent from the healthcare industry because of COVID, you know, because it was such a stressful and arduous time that a lot of people said, I'm throwing the towel in and I'm going to go do something else with my medical training.",
+  "zh": "很不幸，我们确实经历了医疗健康行业人才的大量流失，因为新冠疫情，你知道，那是一段如此充满压力和艰辛的时期，很多人说，我要认输了，我要用我的医学训练去做别的事情。"
+ },
+ {
+  "seg": 136,
+  "start": 605.536,
+  "end": 607.757,
+  "speaker": "Unknown",
+  "en": "So at the same time, the government has also",
+  "zh": "所以与此同时，政府也"
+ },
+ {
+  "seg": 137,
+  "start": 608.297,
+  "end": 610.538,
+  "speaker": "Unknown",
+  "en": "really come down on the cost, right?",
+  "zh": "真的开始压降成本，对吧？"
+ },
+ {
+  "seg": 138,
+  "start": 610.578,
+  "end": 614.578,
+  "speaker": "Unknown",
+  "en": "And said, we have just unsustainable amounts of bloat right now.",
+  "zh": "并说，我们现在有完全不可持续的臃肿规模。"
+ },
+ {
+  "seg": 139,
+  "start": 614.658,
+  "end": 622.56,
+  "speaker": "Unknown",
+  "en": "And this is a little bit of a rat hole, but you know, one of the reasons that healthcare appears to be so esoteric is that we have this weird third party payer system, right?",
+  "zh": "这有点跑题了，但你知道，医疗健康之所以显得如此深奥的原因之一是，我们有这个奇怪的第三方支付系统，对吧？"
+ },
+ {
+  "seg": 140,
+  "start": 622.58,
+  "end": 624.961,
+  "speaker": "Unknown",
+  "en": "Like the vast majority of your healthcare is not paid for by you.",
+  "zh": "比如你的绝大部分医疗费用不是由你自己支付的。"
+ },
+ {
+  "seg": 141,
+  "start": 625.401,
+  "end": 629.982,
+  "speaker": "Unknown",
+  "en": "And so you don't necessarily feel the pain with every dollar that you're spending in the healthcare system.",
+  "zh": "因此你不一定会在医疗系统中花出的每一块钱上感受到痛苦。"
+ },
+ {
+  "seg": 142,
+  "start": 630.722,
+  "end": 636.443,
+  "speaker": "Unknown",
+  "en": "And therefore there tends to be a lot more bloat than if you would have with like a free market dynamic.",
+  "zh": "于是就会比你原本在自由市场动态下会有的情况有更多的臃肿。"
+ },
+ {
+  "seg": 143,
+  "start": 636.803,
+  "end": 639.164,
+  "speaker": "Unknown",
+  "en": "And so, you know, the government's coming down on that.",
+  "zh": "所以，你知道，政府正在压这个。"
+ },
+ {
+  "seg": 144,
+  "start": 639.484,
+  "end": 640.925,
+  "speaker": "Unknown",
+  "en": "Payers in general are coming down on that.",
+  "zh": "支付方总体上也在压这个。"
+ },
+ {
+  "seg": 145,
+  "start": 640.945,
+  "end": 650.09,
+  "speaker": "Unknown",
+  "en": "So you have all this cost pressure on the incumbent system that has driven, you know, traditional providers and payers to say our business model like no longer works.",
+  "zh": "所以整个在位系统承受着所有这些成本压力，这迫使传统的医疗服务提供方和支付方说，我们的商业模式已经行不通了。"
+ },
+ {
+  "seg": 146,
+  "start": 650.11,
+  "end": 651.771,
+  "speaker": "Unknown",
+  "en": "Like the math doesn't math anymore.",
+  "zh": "账算不过来了。"
+ },
+ {
+  "seg": 147,
+  "start": 652.271,
+  "end": 655.392,
+  "speaker": "Unknown",
+  "en": "And we can't continue to sustain this kind of payment modality.",
+  "zh": "我们无法继续维持这种支付模式。"
+ },
+ {
+  "seg": 148,
+  "start": 656.493,
+  "end": 660.395,
+  "speaker": "Unknown",
+  "en": "And AI, like I would say, certainly AI in some ways was like the straw that broke the back where",
+  "zh": "而 AI，我想说，当然 AI 在某种意义上就像压垮骆驼的最后一根稻草，"
+ },
+ {
+  "seg": 149,
+  "start": 660.935,
+  "end": 676.608,
+  "speaker": "Unknown",
+  "en": "You know, historically, because healthcare is such an esoteric sort of scarce training oriented industry where you literally have to go to school for, what is it, you know, at least seven years and train and to even become a specialist, you know, service provider in our industry.",
+  "zh": "你知道，从历史上看，因为医疗健康是一个如此深奥的、以稀缺培训为导向的行业，你必须上学——是多少年来着，你知道，至少七年——并且接受培训，才能成为我们这个行业里的专科服务提供者。"
+ },
+ {
+  "seg": 150,
+  "start": 676.688,
+  "end": 685.536,
+  "speaker": "Unknown",
+  "en": "So the bar to, you know, being able to create technology that could replicate anything that's close to that level of expertise has been really difficult.",
+  "zh": "所以说,要创造出能够复制任何接近那种专业水平的技术,门槛一直非常高。"
+ },
+ {
+  "seg": 151,
+  "start": 685.896,
+  "end": 690.641,
+  "speaker": "Unknown",
+  "en": "Until we now have this, you know, abundant intelligence, you know, capability that we have with LLMs.",
+  "zh": "直到我们现在拥有了这种由 LLMs 带来的、可以说是充裕的智能能力。"
+ },
+ {
+  "seg": 152,
+  "start": 691.102,
+  "end": 701.513,
+  "speaker": "Unknown",
+  "en": "And so I think that, you know, those I would say are the major confluence of factors that have now resulted in a recognition by both the supply side and the demand side that things need to change.",
+  "zh": "所以我认为,这些就是现在主要的各种因素汇聚,使得供给方和需求方都认识到事情必须改变。"
+ },
+ {
+  "seg": 153,
+  "start": 702.093,
+  "end": 717.541,
+  "speaker": "Unknown",
+  "en": "And I mean, the last thing I'll say is that one of the ways by which the system had reacted to this kind of cost bloat in the past was to say, OK, if you have, let's say, insurance covered by your employer, you know, historically the employer covered the majority of the costs and you didn't really feel any of the financial pain.",
+  "zh": "我想说,最后一点是,过去这个体系应对这种成本膨胀的方式之一是说,好吧,比如说,如果你的保险是由你的雇主提供的,历史上雇主承担了大部分费用,而你基本上感受不到任何财务上的痛苦。"
+ },
+ {
+  "seg": 154,
+  "start": 718.022,
+  "end": 722.184,
+  "speaker": "Unknown",
+  "en": "Now, what they started to say like a few years ago was, OK, let's actually do some cost shifting.",
+  "zh": "现在,大约几年前他们开始说,好吧,我们来做一些成本转移。"
+ },
+ {
+  "seg": 155,
+  "start": 722.244,
+  "end": 728.027,
+  "speaker": "Unknown",
+  "en": "Let's actually give consumers a little bit of skin in the game and say, OK, we're going to have deductibles.",
+  "zh": "我们实际上让消费者也投入一点利益,说,好吧,我们要有免赔额。"
+ },
+ {
+  "seg": 156,
+  "start": 728.227,
+  "end": 731.712,
+  "speaker": "Unknown",
+  "en": "And so up to $1,000, your insurance is not gonna kick in.",
+  "zh": "所以在 1000 美元以内,你的保险不会生效。"
+ },
+ {
+  "seg": 157,
+  "start": 731.772,
+  "end": 733.555,
+  "speaker": "Unknown",
+  "en": "So anything under that, you're gonna have to pay for.",
+  "zh": "所以低于这个数额的任何费用,你都得自己掏钱。"
+ },
+ {
+  "seg": 158,
+  "start": 734.035,
+  "end": 740.645,
+  "speaker": "Unknown",
+  "en": "And then that actually is what caused consumers to realize, okay, gosh, I have to pay how much for what kind of crappy services?",
+  "zh": "而这实际上就是让消费者意识到,天哪,我为这么烂的服务得付这么多钱?"
+ },
+ {
+  "seg": 159,
+  "start": 740.966,
+  "end": 743.689,
+  "speaker": "Unknown",
+  "en": "And, you know, people really start to feel it directly.",
+  "zh": "然后人们真的开始直接感受到这一点。"
+ },
+ {
+  "seg": 160,
+  "start": 744.21,
+  "end": 747.831,
+  "speaker": "Unknown",
+  "en": "And now you have this proliferation of services to kind of fill that void, right?",
+  "zh": "而现在你看到大量服务涌现出来填补这个空白,对吧?"
+ },
+ {
+  "seg": 161,
+  "start": 747.851,
+  "end": 762.017,
+  "speaker": "Unknown",
+  "en": "We have amazing companies that you can pay literally $10 per month out of pocket to get incredible services that when compared to what you could get for that same amount of dollars with the traditional healthcare system is just a thousand times better.",
+  "zh": "我们有一些了不起的公司,你每个月实际上只需自掏腰包 10 美元就能获得出色的服务,与用同样多的钱在传统医疗体系里能获得的东西相比,简直好上一千倍。"
+ },
+ {
+  "seg": 162,
+  "start": 762.457,
+  "end": 767.079,
+  "speaker": "Unknown",
+  "en": "And so that's what really I think has caused the adoption wave that we've seen by just individuals.",
+  "zh": "而现在这实际上是医疗科技领域我们看到的第一波真正的有机采用浪潮,医生们就在用 AI 医疗记录员,因为它们真的好使。"
+ },
+ {
+  "seg": 163,
+  "start": 767.279,
+  "end": 767.86,
+  "speaker": "Unknown",
+  "en": "Oh, interesting.",
+  "zh": "哦,有意思。"
+ },
+ {
+  "seg": 164,
+  "start": 767.9,
+  "end": 772.544,
+  "speaker": "Unknown",
+  "en": "So what I'm hearing is there's some systemic shifts around how healthcare is just paid for.",
+  "zh": "所以我听到的是,医疗保健的支付方式正在发生一些系统性转变。"
+ },
+ {
+  "seg": 165,
+  "start": 772.624,
+  "end": 774.946,
+  "speaker": "Unknown",
+  "en": "And that's really been changing over the last few years.",
+  "zh": "而这确实在过去几年里一直在变化。"
+ },
+ {
+  "seg": 166,
+  "start": 775.226,
+  "end": 779.029,
+  "speaker": "Unknown",
+  "en": "And then, of course, what exists now with technology and AI.",
+  "zh": "然后,当然,还有现在技术和 AI 的存在。"
+ },
+ {
+  "seg": 167,
+  "start": 779.07,
+  "end": 783.834,
+  "speaker": "Unknown",
+  "en": "And one of the things that you argued is that healthcare may benefit more from AI than",
+  "zh": "你提出的一个论点是,医疗保健从 AI 中获益可能比"
+ },
+ {
+  "seg": 168,
+  "start": 784.795,
+  "end": 793.862,
+  "speaker": "Unknown",
+  "en": "And so I want to just unpack a little bit more about where exactly you can see AI's benefits when it comes to healthcare.",
+  "zh": "所以我想再多拆解一下,在医疗保健方面,你究竟在哪里能看到 AI 的好处。"
+ },
+ {
+  "seg": 169,
+  "start": 794.162,
+  "end": 809.614,
+  "speaker": "Unknown",
+  "en": "One of the areas that we were just talking about yesterday is in discovery of diseases and drug discovery, but there's still a whole development pipeline that doesn't totally benefit the consumer until maybe it goes through a bunch of clinical trials.",
+  "zh": "我们昨天刚谈到的一个领域是疾病发现和药物研发,但在经历一连串临床试验之前,整个开发管线仍然不能真正惠及消费者。"
+ },
+ {
+  "seg": 170,
+  "start": 809.934,
+  "end": 811.515,
+  "speaker": "Unknown",
+  "en": "I know there's a lot of different angles.",
+  "zh": "我知道角度有很多。"
+ },
+ {
+  "seg": 171,
+  "start": 811.815,
+  "end": 813.217,
+  "speaker": "Unknown",
+  "en": "If we could just briefly touch upon",
+  "zh": "如果我们能简单谈谈"
+ },
+ {
+  "seg": 172,
+  "start": 813.897,
+  "end": 814.878,
+  "speaker": "Unknown",
+  "en": "The whole staff.",
+  "zh": "整个员工体系。"
+ },
+ {
+  "seg": 173,
+  "start": 814.938,
+  "end": 816.601,
+  "speaker": "Unknown",
+  "en": "Where is AI actually playing?",
+  "zh": "AI 实际在哪些方面发挥作用?"
+ },
+ {
+  "seg": 174,
+  "start": 816.861,
+  "end": 821.647,
+  "speaker": "Unknown",
+  "en": "How will I as a person, as a consumer, as a customer, how will I feel this benefit?",
+  "zh": "作为一个个人、一个消费者、一个客户,我将如何感受到这种好处?"
+ },
+ {
+  "seg": 175,
+  "start": 821.727,
+  "end": 822.288,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的,当然。"
+ },
+ {
+  "seg": 176,
+  "start": 822.608,
+  "end": 824.23,
+  "speaker": "Unknown",
+  "en": "I'll talk about it in a couple of different ways.",
+  "zh": "我会从几个不同的方面来谈。"
+ },
+ {
+  "seg": 177,
+  "start": 824.351,
+  "end": 829.898,
+  "speaker": "Unknown",
+  "en": "One is the industry itself has been almost like antithetical to technology adoption historically.",
+  "zh": "一方面,这个行业在历史上几乎可以说是与技术采用背道而驰的。"
+ },
+ {
+  "seg": 178,
+  "start": 830.178,
+  "end": 840.401,
+  "speaker": "Unknown",
+  "en": "We literally have been like the lowest in terms of dollars spent on tech, you know, relative to revenue, like the lowest of the lowest in terms of industries.",
+  "zh": "我们确实一直是,按相对收入计算的技术支出美元来看,在所有行业里垫底的垫底。"
+ },
+ {
+  "seg": 179,
+  "start": 840.821,
+  "end": 851.585,
+  "speaker": "Unknown",
+  "en": "And so, you know, one thing that's changed now is kind of this like what I call a leapfrog dynamic where when you think about every other industry, they spent the last, you know, couple of decades laying down like workflow SaaS rails, right?",
+  "zh": "所以现在改变的一件事,可以说是我所谓的跨越式动态——当你想想其他所有行业,它们在过去几十年里铺下了工作流 SaaS 的轨道,对吧?"
+ },
+ {
+  "seg": 180,
+  "start": 851.605,
+  "end": 852.685,
+  "speaker": "Unknown",
+  "en": "Like software service companies.",
+  "zh": "比如软件即服务公司。"
+ },
+ {
+  "seg": 181,
+  "start": 853.365,
+  "end": 860.028,
+  "speaker": "Unknown",
+  "en": "And they had this whole sort of like middleware layer on top of infrastructure that they spent tens of billions of dollars on, trained a whole generation of workers on.",
+  "zh": "它们在基础设施之上还有整个中间件层,为此花费了数百亿美元,并训练了整整一代员工。"
+ },
+ {
+  "seg": 182,
+  "start": 860.469,
+  "end": 870.774,
+  "speaker": "Unknown",
+  "en": "And then when AI came along, they said, oh my God, we have to rip and replace this whole previous paradigm of technology and replace it with agentic AI and retrain our whole generation of workers on that modality.",
+  "zh": "然后 AI 来了,它们说,天哪,我们得把之前整个技术范式连根拔掉,换成智能体 AI,并按这种新模式重新训练我们整整一代员工。"
+ },
+ {
+  "seg": 183,
+  "start": 871.514,
+  "end": 874.156,
+  "speaker": "Unknown",
+  "en": "Healthcare, for better or for worse, did not spend that amount of money, right?",
+  "zh": "而医疗保健,不管是好是坏,没有花那么多钱,对吧?"
+ },
+ {
+  "seg": 184,
+  "start": 874.176,
+  "end": 879.821,
+  "speaker": "Unknown",
+  "en": "So we only had really like the ERP layer with EHRs and then labor, like we were just throwing bodies at every problem.",
+  "zh": "所以我们其实只有 ERP 层的 EHR,然后就是人力,我们就是往每个问题上砸人。"
+ },
+ {
+  "seg": 185,
+  "start": 880.221,
+  "end": 887.447,
+  "speaker": "Unknown",
+  "en": "And so in some ways we have less of a sunk cost bias as an industry to say, okay, this new technology paradigm has come along and we can just leap right to it.",
+  "zh": "所以在某种程度上,作为一个行业,我们的沉没成本偏见更少,可以说,好了,这个新技术范式来了,我们可以直接跳过去。"
+ },
+ {
+  "seg": 186,
+  "start": 887.467,
+  "end": 892.711,
+  "speaker": "Unknown",
+  "en": "We don't have to worry about ripping out, you know, 20 years and tens of billions of dollars worth of middleware software.",
+  "zh": "我们不用操心拔掉 20 年、价值数百亿美元的中间件软件。"
+ },
+ {
+  "seg": 187,
+  "start": 892.771,
+  "end": 896.554,
+  "speaker": "Unknown",
+  "en": "We can actually just go directly to this agentic form of technology.",
+  "zh": "我们实际上可以直接采用这种智能体形式的技术。"
+ },
+ {
+  "seg": 188,
+  "start": 896.894,
+  "end": 900.457,
+  "speaker": "Unknown",
+  "en": "And that's actually been a huge boon to many of the companies that sell into the space.",
+  "zh": "而这对许多向这个领域销售的公司来说其实是一大福音。"
+ },
+ {
+  "seg": 189,
+  "start": 900.917,
+  "end": 909.344,
+  "speaker": "Unknown",
+  "en": "So the other, I wrote a blog post about a year ago that talked about the fact that historical eras of technology adoption in healthcare were always very unnatural.",
+  "zh": "另一方面,大约一年前我写过一篇博客文章,谈到医疗保健历史上的技术采用时代总是非常不自然的。"
+ },
+ {
+  "seg": 190,
+  "start": 909.484,
+  "end": 912.807,
+  "speaker": "Unknown",
+  "en": "Like what I talked about earlier, you had to pay doctors to adopt technology.",
+  "zh": "就像我之前说的,你得付钱给医生让他们采用技术。"
+ },
+ {
+  "seg": 191,
+  "start": 913.107,
+  "end": 915.288,
+  "speaker": "Unknown",
+  "en": "You had to have a pandemic to force people to use telehealth.",
+  "zh": "你得有一场大流行病才能迫使人们使用远程医疗。"
+ },
+ {
+  "seg": 192,
+  "start": 915.709,
+  "end": 925.997,
+  "speaker": "Unknown",
+  "en": "This is currently is the only, like the first real organic adoption wave that we've seen in health tech where doctors are just using AI scribes because they freaking work.",
+  "zh": "这是目前唯一的,算是我们在医疗科技领域见到的第一波真正的自然采用浪潮,医生们就是因为在用 AI 记录员,因为它们真的太好用了。"
+ },
+ {
+  "seg": 193,
+  "start": 926.097,
+  "end": 930.198,
+  "speaker": "Unknown",
+  "en": "And they're so good and they really change the nature of their job for the positive.",
+  "zh": "它们太好了,真的把他们的工作性质往好的方向改变了。"
+ },
+ {
+  "seg": 194,
+  "start": 930.818,
+  "end": 939.801,
+  "speaker": "Unknown",
+  "en": "And you're seeing a lot more of this almost like PLG-led motion where individual physicians and frontline workers actually have agency and being able to use these tools in a much different way.",
+  "zh": "而且你看到更多这种几乎由 PLG 主导的动作,个体医生和一线员工实际上拥有主观能动性,能够以非常不同的方式使用这些工具。"
+ },
+ {
+  "seg": 195,
+  "start": 939.881,
+  "end": 942.542,
+  "speaker": "Unknown",
+  "en": "So that's one part that's happening more on kind of the enterprise side.",
+  "zh": "所以这是发生在偏企业侧的一个部分。"
+ },
+ {
+  "seg": 196,
+  "start": 943.382,
+  "end": 951.024,
+  "speaker": "Unknown",
+  "en": "On the consumer side, you know, thank you ChatGPT and Claude, like everybody is going to LLMs for health related questions, right?",
+  "zh": "在消费者侧,你知道的,感谢 ChatGPT 和 Claude,每个人都在用 LLMs 问健康相关的问题,对吧?"
+ },
+ {
+  "seg": 197,
+  "start": 951.084,
+  "end": 952.644,
+  "speaker": "Unknown",
+  "en": "And they're pretty damn good, right?",
+  "zh": "而且它们相当好用,对吧?"
+ },
+ {
+  "seg": 198,
+  "start": 952.744,
+  "end": 956.545,
+  "speaker": "Unknown",
+  "en": "And they've gotten a lot better since the early days when they first came out.",
+  "zh": "自从它们刚推出的早期以来,它们已经好了很多。"
+ },
+ {
+  "seg": 199,
+  "start": 956.885,
+  "end": 961.746,
+  "speaker": "Unknown",
+  "en": "Less hallucination, much more, you know, sort of actionable advice and recommendations.",
+  "zh": "幻觉更少,可操作的建议和推荐也多了很多。"
+ },
+ {
+  "seg": 200,
+  "start": 961.806,
+  "end": 969.007,
+  "speaker": "Unknown",
+  "en": "And they're starting to like forward integrate into actual marketplaces where you can get advice from ChatGPT and then go book an appointment with a real doctor.",
+  "zh": "他们开始向前整合进真正的市场，你可以在那里从 ChatGPT 获取建议，然后去预约一位真正的医生。"
+ },
+ {
+  "seg": 201,
+  "start": 969.507,
+  "end": 972.788,
+  "speaker": "Unknown",
+  "en": "And so I think that's just taught a whole generation of humans.",
+  "zh": "所以我认为这只是教会了整整一代人。"
+ },
+ {
+  "seg": 202,
+  "start": 973.128,
+  "end": 977.03,
+  "speaker": "Unknown",
+  "en": "There's, number one, just a much more low friction way to get medical advice.",
+  "zh": "有，第一，一种摩擦力低得多的获取医疗建议的方式。"
+ },
+ {
+  "seg": 203,
+  "start": 977.77,
+  "end": 989.954,
+  "speaker": "Unknown",
+  "en": "Even if the medical advice might not be regulated and licensed and fully validated in the way that you would get from doctors, the trade-off is I either have to wait four months to get a real doctor's appointment",
+  "zh": "即使医疗建议可能不像你从医生那里得到的那样受到监管、持有执照并经过充分验证，但权衡是：我要么必须等四个月才能约到真正的医生，"
+ },
+ {
+  "seg": 204,
+  "start": 990.654,
+  "end": 993.235,
+  "speaker": "Unknown",
+  "en": "Or go to an emergency room and pay $2,000.",
+  "zh": "要么去急诊室并支付 2000 美元。"
+ },
+ {
+  "seg": 205,
+  "start": 993.756,
+  "end": 995.376,
+  "speaker": "Unknown",
+  "en": "Or I can just open up my phone.",
+  "zh": "要么我直接打开手机就行。"
+ },
+ {
+  "seg": 206,
+  "start": 995.396,
+  "end": 1001.079,
+  "speaker": "Unknown",
+  "en": "And so I think that trade-off, again, that delta makes it incredibly easy for people to just go to the lowest friction place.",
+  "zh": "所以我认为这种权衡， again，那个差值让人们极其容易地就去到摩擦最低的地方。"
+ },
+ {
+  "seg": 207,
+  "start": 1001.659,
+  "end": 1005.101,
+  "speaker": "Unknown",
+  "en": "And so I think people like consumers are now educated that there's a better way.",
+  "zh": "所以我认为像消费者这样的人现在已经被教育得知存在一种更好的方式。"
+ },
+ {
+  "seg": 208,
+  "start": 1005.701,
+  "end": 1009.883,
+  "speaker": "Unknown",
+  "en": "And now we have a whole wave of new companies, many of which we've invested in, that",
+  "zh": "而现在我们有一整波新公司，其中许多是我们投资过的，"
+ },
+ {
+  "seg": 209,
+  "start": 1010.523,
+  "end": 1029.971,
+  "speaker": "Unknown",
+  "en": "are taking a specialized approach to how we leverage AI to create consumer-grade experiences, where you're now seeing like a company, we have a company called Council Health in our portfolio, which is literally an AI native doctor practice that is a 24 by 7 asynchronous chat modality with real doctors.",
+  "zh": "它们正在采取一种专门的方法来利用 AI 打造消费者级体验，你现在能看到，比如我们投资组合里有一家叫 Council Health 的公司，它实际上是一个 AI 原生的医生诊所，以 24×7 的异步聊天形态对接真正的医生。"
+ },
+ {
+  "seg": 210,
+  "start": 1029.991,
+  "end": 1038.355,
+  "speaker": "Unknown",
+  "en": "Like imagine chatting with your chatbot, but having an actual licensed MD in the chat who can fully prescribe, who can fully refer, who can fully diagnose.",
+  "zh": "想象一下你和你的聊天机器人对话，但聊天里有一位真正持有执照的医学博士(MD)，他可以完全开处方、可以完全转诊、可以完全做出诊断。"
+ },
+ {
+  "seg": 211,
+  "start": 1038.775,
+  "end": 1045.721,
+  "speaker": "Unknown",
+  "en": "And so you kind of get the best of both worlds of, you know, an AI native care with real doctors who can actually provide clinical utility.",
+  "zh": "所以你有点同时获得了两个世界中最好的部分：AI 原生的照护，加上真正能提供临床价值的真实医生。"
+ },
+ {
+  "seg": 212,
+  "start": 1046.182,
+  "end": 1050.946,
+  "speaker": "Unknown",
+  "en": "And so you're seeing the advent of these new capabilities that literally were not possible even just a few years ago.",
+  "zh": "所以你正在目睹这些新能力的出现，而这些能力就在几年前还根本不可能实现。"
+ },
+ {
+  "seg": 213,
+  "start": 1051.286,
+  "end": 1055.47,
+  "speaker": "Unknown",
+  "en": "One of the things that just wasn't possible a few years ago that I wanted to bring up, there was this",
+  "zh": "有一件几年前还不可能实现的事，我想提一下，曾经有这样一个"
+ },
+ {
+  "seg": 214,
+  "start": 1056.05,
+  "end": 1059.092,
+  "speaker": "Unknown",
+  "en": "Hackathon by Anthropic AI and AWS Cloud.",
+  "zh": "由 Anthropic AI 和 AWS Cloud 举办的黑客马拉松。"
+ },
+ {
+  "seg": 215,
+  "start": 1059.652,
+  "end": 1063.574,
+  "speaker": "Unknown",
+  "en": "And it was called the Rare Disease Real Kid Hackathon.",
+  "zh": "它叫罕见病真实儿童黑客马拉松(Rare Disease Real Kid Hackathon)。"
+ },
+ {
+  "seg": 216,
+  "start": 1063.634,
+  "end": 1065.715,
+  "speaker": "Unknown",
+  "en": "And they had $50,000 in prizes.",
+  "zh": "他们有 5 万美元的奖金。"
+ },
+ {
+  "seg": 217,
+  "start": 1066.176,
+  "end": 1076.381,
+  "speaker": "Unknown",
+  "en": "And the way that they did it is they actually had a child, they uploaded the kid's genome and the clinical data, and they shared it with the community, of course, with parental consent.",
+  "zh": "他们的做法是，他们实际上拿了一个孩子，上传了这个孩子的基因组和临床数据，当然，在获得父母同意的情况下与社区共享。"
+ },
+ {
+  "seg": 218,
+  "start": 1077.002,
+  "end": 1079.103,
+  "speaker": "Unknown",
+  "en": "And people were able to actually...",
+  "zh": "然后人们能够真正……"
+ },
+ {
+  "seg": 219,
+  "start": 1080.232,
+  "end": 1082.553,
+  "speaker": "Unknown",
+  "en": "Understand, yeah, and generate insights.",
+  "zh": "理解，对，并生成洞见。"
+ },
+ {
+  "seg": 220,
+  "start": 1082.713,
+  "end": 1087.056,
+  "speaker": "Unknown",
+  "en": "And I saw this and I was, I was, I was amazed.",
+  "zh": "我看到这个的时候，我，我，我惊呆了。"
+ },
+ {
+  "seg": 221,
+  "start": 1087.156,
+  "end": 1088.797,
+  "speaker": "Unknown",
+  "en": "I was, this is so cool.",
+  "zh": "我当时想，这也太酷了。"
+ },
+ {
+  "seg": 222,
+  "start": 1088.837,
+  "end": 1094.94,
+  "speaker": "Unknown",
+  "en": "You can actually, for specialists, it's really hard to find specialists, especially for rare diseases.",
+  "zh": "对于专科医生来说，找到专科医生真的很难，尤其是罕见病领域。"
+ },
+ {
+  "seg": 223,
+  "start": 1095.36,
+  "end": 1097.981,
+  "speaker": "Unknown",
+  "en": "Those are children with rare diseases.",
+  "zh": "那些是患有罕见病的儿童。"
+ },
+ {
+  "seg": 224,
+  "start": 1098.021,
+  "end": 1102.183,
+  "speaker": "Unknown",
+  "en": "There's so little resources actually going into this.",
+  "zh": "实际投入到这上面的资源太少了。"
+ },
+ {
+  "seg": 225,
+  "start": 1102.243,
+  "end": 1103.464,
+  "speaker": "Unknown",
+  "en": "The money doesn't actually make sense.",
+  "zh": "钱从经济逻辑上根本说不通。"
+ },
+ {
+  "seg": 226,
+  "start": 1103.504,
+  "end": 1106.045,
+  "speaker": "Unknown",
+  "en": "And so seeing this, I was like, wow, this is amazing.",
+  "zh": "所以看到这个，我当时就想，哇，这太了不起了。"
+ },
+ {
+  "seg": 227,
+  "start": 1106.065,
+  "end": 1113.248,
+  "speaker": "Unknown",
+  "en": "This is one really clear example of how AI can actually play out, can actually save human lives.",
+  "zh": "这是一个非常清晰的例子，说明 AI 真的可以落地，真的可以拯救人的生命。"
+ },
+ {
+  "seg": 228,
+  "start": 1113.608,
+  "end": 1116.67,
+  "speaker": "Unknown",
+  "en": "Curious to hear what your opinion was of this whole hackathon, if you saw it.",
+  "zh": "很想听听你对这整个黑客马拉松的看法，如果你看到了的话。"
+ },
+ {
+  "seg": 229,
+  "start": 1116.77,
+  "end": 1117.67,
+  "speaker": "Unknown",
+  "en": "Yeah, no, absolutely.",
+  "zh": "是的，不，当然。"
+ },
+ {
+  "seg": 230,
+  "start": 1117.71,
+  "end": 1124.014,
+  "speaker": "Unknown",
+  "en": "I think every day, I mean, one of the most exciting things is that like literally every day on my X feed, I will see a hundred examples of something like that.",
+  "zh": "我想每一天，我的意思是，最令人兴奋的事情之一就是，真的每一天在我的 X 信息流上，我都会看到一百个类似那样的例子。"
+ },
+ {
+  "seg": 231,
+  "start": 1124.194,
+  "end": 1126.615,
+  "speaker": "Unknown",
+  "en": "And I think to me, there's sort of three parts.",
+  "zh": "而对我来说，这大致分为三个部分。"
+ },
+ {
+  "seg": 232,
+  "start": 1126.735,
+  "end": 1131.017,
+  "speaker": "Unknown",
+  "en": "One is, you know, how do you lower the barrier to access intelligence?",
+  "zh": "第一是，你知道，你如何降低获取智能的门槛？"
+ },
+ {
+  "seg": 233,
+  "start": 1131.097,
+  "end": 1136.961,
+  "speaker": "Unknown",
+  "en": "Which again, that barrier used to be a real, you know, kind of impediment to people getting access to healthcare.",
+  "zh": "again，这个门槛曾经是人们获得医疗保健的一个真正阻碍。"
+ },
+ {
+  "seg": 234,
+  "start": 1137.001,
+  "end": 1138.882,
+  "speaker": "Unknown",
+  "en": "Now that thing, that's really gone away.",
+  "zh": "现在这个东西，真的已经消失了。"
+ },
+ {
+  "seg": 235,
+  "start": 1139.702,
+  "end": 1143.384,
+  "speaker": "Unknown",
+  "en": "And then I think now the question moves towards, what do you do about it?",
+  "zh": "然后我认为现在问题转向：你要为此做什么？"
+ },
+ {
+  "seg": 236,
+  "start": 1143.644,
+  "end": 1150.092,
+  "speaker": "Unknown",
+  "en": "Once you actually understand a bit more about what your issue might be or what diagnosis you might have, you still need to, number one, get that verified.",
+  "zh": "一旦你对自己的问题可能是什么、或者你可能有什么诊断有了更多的了解，你仍然需要，第一，让那个结果得到验证。"
+ },
+ {
+  "seg": 237,
+  "start": 1150.112,
+  "end": 1155.359,
+  "speaker": "Unknown",
+  "en": "You might need actual testing or kind of clinical grade testing to get it fully diagnosed.",
+  "zh": "你可能需要真正的检测，或者某种临床级别的检测才能得到完整的诊断。"
+ },
+ {
+  "seg": 238,
+  "start": 1155.659,
+  "end": 1161.727,
+  "speaker": "Unknown",
+  "en": "You might need to be either prescribed a therapeutic or a procedure or get some sort of in-person care.",
+  "zh": "你可能需要被开具某种治疗方案或手术，或者获得某种线下面对面的照护。"
+ },
+ {
+  "seg": 239,
+  "start": 1162.207,
+  "end": 1164.208,
+  "speaker": "Unknown",
+  "en": "And then there's like the longitudinal aspect of it as well.",
+  "zh": "而且还有长期纵向的那一面。"
+ },
+ {
+  "seg": 240,
+  "start": 1164.228,
+  "end": 1166.31,
+  "speaker": "Unknown",
+  "en": "A lot of the way that people are using, which is great.",
+  "zh": "很多人们现在使用的方式，这很棒。"
+ },
+ {
+  "seg": 241,
+  "start": 1166.33,
+  "end": 1168.671,
+  "speaker": "Unknown",
+  "en": "I mean, medical AI today is highly transactional.",
+  "zh": "我的意思是，如今的医疗 AI 是高度交易性的。"
+ },
+ {
+  "seg": 242,
+  "start": 1169.411,
+  "end": 1174.434,
+  "speaker": "Unknown",
+  "en": "Imagine if you can have a doctor for life that's powered by that kind of modality.",
+  "zh": "想象一下，如果你能拥有一个由那种形态驱动的终身医生。"
+ },
+ {
+  "seg": 243,
+  "start": 1174.875,
+  "end": 1175.975,
+  "speaker": "Unknown",
+  "en": "We know what that could mean for life.",
+  "zh": "我们知道这对人生可能意味着什么。"
+ },
+ {
+  "seg": 244,
+  "start": 1175.995,
+  "end": 1180.098,
+  "speaker": "Unknown",
+  "en": "So I think the first bucket is being solved by a lot of these generalist tools.",
+  "zh": "所以我认为第一个部分正在被许多这类通用工具所解决。"
+ },
+ {
+  "seg": 245,
+  "start": 1180.858,
+  "end": 1194.178,
+  "speaker": "Unknown",
+  "en": "I think it's really the second and third bucket that therein is the opportunity for, you know, health tech builders to really take a crack at that last mile of what do we do about it and how do we stay with you for life until it's resolved, until the next issue comes up, et cetera.",
+  "zh": "我认为真正的机会在于第二和第三部分，那是医疗科技建设者们真正可以去尝试的机会——那最后一英里：我们要为此做什么，以及我们如何与你相伴一生，直到问题被解决，直到下一个问题出现，等等。"
+ },
+ {
+  "seg": 246,
+  "start": 1194.398,
+  "end": 1195.139,
+  "speaker": "Unknown",
+  "en": "That's so cool.",
+  "zh": "太酷了。"
+ },
+ {
+  "seg": 247,
+  "start": 1195.54,
+  "end": 1212.936,
+  "speaker": "Unknown",
+  "en": "One thing I wanted to get your opinion on, since now you're on the investor side, coming from the builder side to now the investor side, you, one, have to make a bit of predictions about where things are going to go, and two, you get to see the opportunity landscape almost at a macro level.",
+  "zh": "有一件事我想听听你的看法，既然你现在在投资人这一边，从建设者一端来到投资人一端，你，第一，必须做一些关于事情将走向何方的预测，第二，你几乎能在宏观层面上看到机会的全景。"
+ },
+ {
+  "seg": 248,
+  "start": 1213.316,
+  "end": 1217.7,
+  "speaker": "Unknown",
+  "en": "And so if someone is coming to you for maybe advice or there's a founder who is...",
+  "zh": "所以如果有人来找你寻求建议，或者有一位创始人正在……"
+ },
+ {
+  "seg": 249,
+  "start": 1219.582,
+  "end": 1221.384,
+  "speaker": "Unknown",
+  "en": "Asking, okay, Julie, where do I go?",
+  "zh": "问，好吧，Julie，我该往哪里走？"
+ },
+ {
+  "seg": 250,
+  "start": 1221.904,
+  "end": 1223.486,
+  "speaker": "Unknown",
+  "en": "What are the big opportunities here?",
+  "zh": "这里有哪些大的机会?"
+ },
+ {
+  "seg": 251,
+  "start": 1223.546,
+  "end": 1225.948,
+  "speaker": "Unknown",
+  "en": "What are the big problems that still need solving?",
+  "zh": "还有哪些大的问题需要解决?"
+ },
+ {
+  "seg": 252,
+  "start": 1226.188,
+  "end": 1227.169,
+  "speaker": "Unknown",
+  "en": "What advice would you share?",
+  "zh": "你会分享什么建议?"
+ },
+ {
+  "seg": 253,
+  "start": 1227.249,
+  "end": 1228.069,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 254,
+  "start": 1228.13,
+  "end": 1228.91,
+  "speaker": "Unknown",
+  "en": "How much time do we have?",
+  "zh": "我们还有多少时间?"
+ },
+ {
+  "seg": 255,
+  "start": 1228.97,
+  "end": 1230.291,
+  "speaker": "Unknown",
+  "en": "I mean, there's the opportunity.",
+  "zh": "我是说,机会是存在的。"
+ },
+ {
+  "seg": 256,
+  "start": 1230.371,
+  "end": 1231.993,
+  "speaker": "Unknown",
+  "en": "It's like the best time to be building in this space.",
+  "zh": "现在是这个领域里创业的最佳时机。"
+ },
+ {
+  "seg": 257,
+  "start": 1232.093,
+  "end": 1234.355,
+  "speaker": "Unknown",
+  "en": "I'm so jealous about my founders who get to be building right now.",
+  "zh": "我非常羡慕那些现在正在创业的创始人们。"
+ },
+ {
+  "seg": 258,
+  "start": 1235.436,
+  "end": 1242.102,
+  "speaker": "Unknown",
+  "en": "I think probably a couple that I would highlight that we've written about recently so folks can kind of check out our theses on this.",
+  "zh": "我想可能会强调几个我们最近写过的方向,大家可以去看我们在这方面的论点。"
+ },
+ {
+  "seg": 259,
+  "start": 1242.282,
+  "end": 1243.643,
+  "speaker": "Unknown",
+  "en": "One is definitely the consumer angle.",
+  "zh": "第一个绝对是消费者这个角度。"
+ },
+ {
+  "seg": 260,
+  "start": 1244.503,
+  "end": 1256.128,
+  "speaker": "Unknown",
+  "en": "I joked a few months ago that if you had come to any investor, let's call it, you know, seven years ago and pitched a consumer health business, you would have been kicked out of the room because there was no viable business model.",
+  "zh": "几个月前我开玩笑说,如果你在大概,你知道的,七年前去找任何一位投资人,推介一个消费者健康业务,你会被赶出房间,因为根本没有可行的商业模式。"
+ },
+ {
+  "seg": 261,
+  "start": 1256.329,
+  "end": 1263.152,
+  "speaker": "Unknown",
+  "en": "It was not clear that consumers understood and had agency to, you know, really take control of their health, et cetera.",
+  "zh": "当时并不清楚消费者是否理解并且有主观能动性去,你知道的,真正掌控自己的健康,等等。"
+ },
+ {
+  "seg": 262,
+  "start": 1264.132,
+  "end": 1265.633,
+  "speaker": "Unknown",
+  "en": "And, you know, the payment models were not there.",
+  "zh": "而且,你知道的,支付模式也不存在。"
+ },
+ {
+  "seg": 263,
+  "start": 1266.713,
+  "end": 1272.157,
+  "speaker": "Unknown",
+  "en": "Now that all that's changed and some of the fastest growing companies that we see in health tech are, you know, cash pay.",
+  "zh": "现在这一切都变了,我们在健康科技领域看到的一些增长最快的公司,你知道的,是现金支付型的。"
+ },
+ {
+  "seg": 264,
+  "start": 1272.177,
+  "end": 1276.36,
+  "speaker": "Unknown",
+  "en": "You just pay out of pocket for a service at a disruptively low price.",
+  "zh": "你只需要自掏腰包,以一个颠覆性的低价购买一项服务。"
+ },
+ {
+  "seg": 265,
+  "start": 1276.4,
+  "end": 1283.565,
+  "speaker": "Unknown",
+  "en": "I think that's actually the biggest lever that's changed is even if you could pay for things out of pocket historically, the price was prohibitive.",
+  "zh": "我认为这实际上是发生的最大变化的一个杠杆,因为即便历史上你可以自费购买这些东西,价格也是让人望而却步的。"
+ },
+ {
+  "seg": 266,
+  "start": 1283.825,
+  "end": 1285.967,
+  "speaker": "Unknown",
+  "en": "And now because of the, you know, magic of AI,",
+  "zh": "而现在,由于,你知道的,AI 的魔力,"
+ },
+ {
+  "seg": 267,
+  "start": 1286.887,
+  "end": 1293.031,
+  "speaker": "Unknown",
+  "en": "The cost structure to deliver an actual like medically credible service is like a hundred times lower than it used to be.",
+  "zh": "提供一项真正的、医学上可信的服务的成本结构,比过去低了大约一百倍。"
+ },
+ {
+  "seg": 268,
+  "start": 1293.511,
+  "end": 1306.318,
+  "speaker": "Unknown",
+  "en": "And so you're seeing a whole proliferation of an entirely new marketplace of products that were designed for the consumer, not like historically where you had to design for the insurance company and the doctor and then consumers almost as an afterthought.",
+  "zh": "所以你看到一整套全新的产品市场在爆发式增长,这些产品是为消费者设计的,而不像历史上那样,你必须为保险公司和医生设计,然后消费者几乎只是事后才被考虑。"
+ },
+ {
+  "seg": 269,
+  "start": 1306.638,
+  "end": 1310.32,
+  "speaker": "Unknown",
+  "en": "Consumers are now at the top of that pile in a really exciting way.",
+  "zh": "消费者现在站在这个堆叠的最顶端,以一种非常令人兴奋的方式。"
+ },
+ {
+  "seg": 270,
+  "start": 1310.74,
+  "end": 1314.022,
+  "speaker": "Unknown",
+  "en": "So we wrote a piece called Consumers Are the New Payer, basically.",
+  "zh": "所以我们写了一篇文章,基本上就叫《消费者是新的支付方》。"
+ },
+ {
+  "seg": 271,
+  "start": 1314.582,
+  "end": 1316.564,
+  "speaker": "Unknown",
+  "en": "To sort of recognize that trend.",
+  "zh": "大致就是为了承认这个趋势。"
+ },
+ {
+  "seg": 272,
+  "start": 1316.784,
+  "end": 1318.405,
+  "speaker": "Unknown",
+  "en": "So that's one big area.",
+  "zh": "所以这是一个大的方向。"
+ },
+ {
+  "seg": 273,
+  "start": 1319.726,
+  "end": 1327.692,
+  "speaker": "Unknown",
+  "en": "Another post that I had just last week actually was one where we made the argument that the best companies right now are those that are AI native and AI proof.",
+  "zh": "另一篇文章实际上就是我上周刚发的,我们在其中论证了,现在最好的公司是那些既 AI 原生又 AI 防护的公司。"
+ },
+ {
+  "seg": 274,
+  "start": 1328.133,
+  "end": 1341.523,
+  "speaker": "Unknown",
+  "en": "And it kind of gets to what I was saying earlier, where yes, you can have an amazing, you know, medical, sort of general medical intelligence LLM that answers a bunch of questions that, you know, historically you had to go wait for six months to see a specialist to get.",
+  "zh": "这有点回到我之前说的,是的,你可以有一个了不起的、你知道的、医学方面的、通用医学智能 LLM,它能回答一大堆问题,你知道的,历史上你必须等六个月才能见到专科医生才能得到答案。"
+ },
+ {
+  "seg": 275,
+  "start": 1342.283,
+  "end": 1343.444,
+  "speaker": "Unknown",
+  "en": "But what about the rest of it, right?",
+  "zh": "但其余的部分呢,对吧? [[251→276]] 那么你如何真正为那些无法前往医院的人提供线下服务?"
+ },
+ {
+  "seg": 276,
+  "start": 1343.484,
+  "end": 1347.106,
+  "speaker": "Unknown",
+  "en": "So how do you actually deliver in-person services to people who can't travel to the hospital?",
+  "zh": "那么，你实际上如何为那些无法前往医院的人提供面对面服务呢？"
+ },
+ {
+  "seg": 277,
+  "start": 1347.606,
+  "end": 1352.148,
+  "speaker": "Unknown",
+  "en": "How do you actually do, you know, how do you take a blood draw and actually diagnose like what you actually have?",
+  "zh": "你如何真正地,你知道的,如何进行抽血并真正诊断出你到底得了什么病?"
+ },
+ {
+  "seg": 278,
+  "start": 1353.109,
+  "end": 1362.994,
+  "speaker": "Unknown",
+  "en": "How do you, you know, do all the things that today, at least in our country, are not like are legal to do, you know, lest you have some sort of regulated entity?",
+  "zh": "你如何,你知道的,做所有那些在今天,至少在我们国家,如果没有任何受监管实体就不能合法去做的事情?"
+ },
+ {
+  "seg": 279,
+  "start": 1363.854,
+  "end": 1365.415,
+  "speaker": "Unknown",
+  "en": "So we have a lot of companies that",
+  "zh": "所以我们有很多公司,"
+ },
+ {
+  "seg": 280,
+  "start": 1365.895,
+  "end": 1373.745,
+  "speaker": "Unknown",
+  "en": "On the outside, and this kind of mirrors a lot of what we saw in the first era of tech, you know, more broadly, where you had kind of these challenger businesses that were full stack in nature.",
+  "zh": "从外表上看,这在某种程度上映照了我们在更广泛的第一个科技时代所看到的很多东西,就是那些天生全栈的挑战者业务。"
+ },
+ {
+  "seg": 281,
+  "start": 1374.146,
+  "end": 1379.193,
+  "speaker": "Unknown",
+  "en": "So like from the outside, they might just look like a retailer or just look like some kind of service provider.",
+  "zh": "所以,比如从外面看,它们可能只像一家零售商,或者只像某种服务提供商。"
+ },
+ {
+  "seg": 282,
+  "start": 1379.613,
+  "end": 1382.457,
+  "speaker": "Unknown",
+  "en": "But on the inside, they were obviously highly AI native and therefore",
+  "zh": "但在里面,它们显然是高度 AI 原生的,因此"
+ },
+ {
+  "seg": 283,
+  "start": 1382.897,
+  "end": 1393.043,
+  "speaker": "Unknown",
+  "en": "Had a surface area that was not achievable, you know, through historical means and a cost structure that was disruptive such that they can continue to invest in innovation because they had high margins.",
+  "zh": "拥有通过历史手段无法企及的业务覆盖面,以及一个颠覆性的成本结构,使得它们能够持续投资于创新,因为它们有高利润率。"
+ },
+ {
+  "seg": 284,
+  "start": 1393.444,
+  "end": 1397.126,
+  "speaker": "Unknown",
+  "en": "We're seeing a ton of companies that are embracing kind of the best of both worlds in that way.",
+  "zh": "我们看到大量公司正在以这种方式拥抱两全其美的模式。"
+ },
+ {
+  "seg": 285,
+  "start": 1397.526,
+  "end": 1402.049,
+  "speaker": "Unknown",
+  "en": "So I think AI native, AI proof combination is a lot of where the excitement is.",
+  "zh": "所以我认为,AI 原生加 AI 防护的组合正是令人兴奋的地方所在。"
+ },
+ {
+  "seg": 286,
+  "start": 1402.389,
+  "end": 1404.691,
+  "speaker": "Unknown",
+  "en": "Hardware companies, you know, are included in that.",
+  "zh": "硬件公司,你知道的,也包括在内。"
+ },
+ {
+  "seg": 287,
+  "start": 1405.011,
+  "end": 1409.534,
+  "speaker": "Unknown",
+  "en": "So I think, you know, robots are like, I think there's product market fit between",
+  "zh": "所以我认为,你知道的,机器人方面,我认为在"
+ },
+ {
+  "seg": 288,
+  "start": 1410.014,
+  "end": 1416.158,
+  "speaker": "Unknown",
+  "en": "You know, what robotics companies can do and what is necessary in really, like, high-acuity healthcare settings.",
+  "zh": "你知道的,机器人公司能做的事情,以及真正高精尖医疗环境中所需要的事情之间,存在产品市场契合。"
+ },
+ {
+  "seg": 289,
+  "start": 1417.419,
+  "end": 1425.946,
+  "speaker": "Unknown",
+  "en": "And then the final thing I'll say is, like, insurance, like the payment rails are one of the reasons that, like, you know, people look at healthcare and they say, oh, it's so screwed up.",
+  "zh": "然后我要说的最后一件事是,像保险,像支付通道,是原因之一,就是,你知道的,人们看到医疗体系会说,哦,它太糟糕了。"
+ },
+ {
+  "seg": 290,
+  "start": 1425.986,
+  "end": 1427.587,
+  "speaker": "Unknown",
+  "en": "Like, it's so, like, why is it so screwed up?",
+  "zh": "就像,它太,就像,为什么它这么糟糕?"
+ },
+ {
+  "seg": 291,
+  "start": 1428.267,
+  "end": 1429.91,
+  "speaker": "Unknown",
+  "en": "It's actually designing exactly as planned.",
+  "zh": "它实际上完全是按计划设计的。"
+ },
+ {
+  "seg": 292,
+  "start": 1429.93,
+  "end": 1439.303,
+  "speaker": "Unknown",
+  "en": "Like if you actually study the innards of how incentives are aligned based on the payment system that exists in healthcare, it results in exactly what we experience today.",
+  "zh": "就是说,如果你真的去研究医疗体系中基于现有支付体系的激励机制是如何对齐的,它导致的结果正是我们今天所经历的。"
+ },
+ {
+  "seg": 293,
+  "start": 1439.743,
+  "end": 1444.15,
+  "speaker": "Unknown",
+  "en": "And so there's a lot of really ambitious companies that are saying, what if we blew up that current healthcare",
+  "zh": "所以有很多非常有雄心的公司在说,如果我们把现在这个医疗"
+ },
+ {
+  "seg": 294,
+  "start": 1444.49,
+  "end": 1447.793,
+  "speaker": "Unknown",
+  "en": "Payment modality and built a new one from scratch.",
+  "zh": "支付模式炸掉,从零开始建一个新的会怎样。"
+ },
+ {
+  "seg": 295,
+  "start": 1448.354,
+  "end": 1455.18,
+  "speaker": "Unknown",
+  "en": "And, you know, that is amongst probably the most ambitious things that you could do is kind of build almost like a mini healthcare system in one company.",
+  "zh": "而且,你知道的,这可能是你能做的最有雄心的事情之一,就是在一家公司里构建几乎像一个迷你医疗体系的东西。"
+ },
+ {
+  "seg": 296,
+  "start": 1455.56,
+  "end": 1457.883,
+  "speaker": "Unknown",
+  "en": "But there's companies like Devoted Health and others who are doing this.",
+  "zh": "但有像 Devoted Health 这样的公司和其他一些公司正在做这件事。"
+ },
+ {
+  "seg": 297,
+  "start": 1458.163,
+  "end": 1466.571,
+  "speaker": "Unknown",
+  "en": "And I think now it's possible because, again, the cost to entering into building a company in our space has gone down because all this infrastructure now exists.",
+  "zh": "而且我认为现在是可行的,因为,再说一次,在我们这个领域创建公司的成本已经下降了,因为所有这些基础设施现在都已经存在了。"
+ },
+ {
+  "seg": 298,
+  "start": 1467.011,
+  "end": 1468.012,
+  "speaker": "Unknown",
+  "en": "You can do so much more with AI.",
+  "zh": "你可以用 AI 做多得多的的事情。"
+ },
+ {
+  "seg": 299,
+  "start": 1469.453,
+  "end": 1478.619,
+  "speaker": "Unknown",
+  "en": "And the appetite from the system, both in terms of consumer customers, as well as the traditional ecosystem is there in a way that's never been before.",
+  "zh": "而且来自这个系统的需求——无论是消费者客户方面,还是传统生态系统方面——都以一种前所未有的方式存在着。"
+ },
+ {
+  "seg": 300,
+  "start": 1478.939,
+  "end": 1481.201,
+  "speaker": "Unknown",
+  "en": "Oh, that is so exciting and exciting to hear.",
+  "zh": "哦，这真是太令人激动了，听到这些真让人兴奋。"
+ },
+ {
+  "seg": 301,
+  "start": 1481.501,
+  "end": 1488.205,
+  "speaker": "Unknown",
+  "en": "My last question for you, what prediction do you have that will be true in a decade from now?",
+  "zh": "我最后一个问题是，你有什么预测是十年后会成真的？"
+ },
+ {
+  "seg": 302,
+  "start": 1488.645,
+  "end": 1495.91,
+  "speaker": "Unknown",
+  "en": "I would love to one day, you know, tell my kids or future kids, yeah, back in my day, healthcare was X and now.",
+  "zh": "我希望有一天，你知道，能告诉我的孩子或未来的孩子，是啊，在我那个年代，医疗保健是什么样的，而现在。"
+ },
+ {
+  "seg": 303,
+  "start": 1496.07,
+  "end": 1496.771,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 304,
+  "start": 1496.791,
+  "end": 1497.331,
+  "speaker": "Unknown",
+  "en": "What do you think?",
+  "zh": "你怎么看？"
+ },
+ {
+  "seg": 305,
+  "start": 1497.451,
+  "end": 1517.283,
+  "speaker": "Unknown",
+  "en": "I mean, I think, so getting to your example about the sort of, you know, roll your own genome analysis thing, like I do think there will be a lot of roll your own healthcare, where you will have N of one solutions that are like only like super personalized to you, but still get, you know, the kind of benefit of the broader set of intelligence that everybody's contributing back to.",
+  "zh": "我是说，我觉得，回到你刚才那个例子，就是那种自己动手做基因组分析的事情，我确实认为将会出现很多自己动手的医疗保健，你会拥有 N=1 的解决方案，就是那种只针对你个人、超级个性化的方案，但仍然能获得所有人都回馈回来的更广泛智能所带来的那种好处。"
+ },
+ {
+  "seg": 306,
+  "start": 1517.683,
+  "end": 1533.232,
+  "speaker": "Unknown",
+  "en": "I mean, one of the interesting things about healthcare is that in order to train a model in healthcare, I would argue that we actually don't even have the datasets necessary to truly train like a medical grade AI because we rely heavily today on electronic health record data, which is really sporadic, right?",
+  "zh": "我是说，医疗保健有一个有趣的地方，我认为为了在医疗保健领域训练一个模型，我们实际上甚至还没有真正训练出医疗级 AI 所必需的数据集，因为我们今天严重依赖电子健康记录数据，而这些数据非常零散，对吧？"
+ },
+ {
+  "seg": 307,
+  "start": 1533.252,
+  "end": 1537.895,
+  "speaker": "Unknown",
+  "en": "Like how many times you actually go to see a traditional doctor in your life, it's like maybe at best once a year.",
+  "zh": "就像你一生中真正去看传统医生的次数，大概充其量一年一次。"
+ },
+ {
+  "seg": 308,
+  "start": 1538.355,
+  "end": 1546.44,
+  "speaker": "Unknown",
+  "en": "So there's a whole narrative arc of your experience as a patient that is absent from pretty much every dataset that exists today.",
+  "zh": "所以，作为一个患者的整个经历叙事弧线，在现存几乎所有数据集中都是缺失的。"
+ },
+ {
+  "seg": 309,
+  "start": 1546.5,
+  "end": 1555.585,
+  "speaker": "Unknown",
+  "en": "So I think a lot of companies will start doing these kind of end of one experiments that generate the new data rails that then drive the next generation of models that are built in our space.",
+  "zh": "所以我认为很多公司将开始做这种 N=1 实验，生成新的数据轨道，进而推动在我们这个领域构建的下一代模型。"
+ },
+ {
+  "seg": 310,
+  "start": 1556.366,
+  "end": 1559.367,
+  "speaker": "Unknown",
+  "en": "So I think end of one health is a big idea.",
+  "zh": "所以我认为 N=1 医疗是一个很大的想法。"
+ },
+ {
+  "seg": 311,
+  "start": 1559.387,
+  "end": 1563.67,
+  "speaker": "Unknown",
+  "en": "And I think all of us will genuinely have an AI doctor in our pocket for life.",
+  "zh": "而且我认为我们所有人都将真正拥有一个装在口袋里、伴随一生的 AI 医生。"
+ },
+ {
+  "seg": 312,
+  "start": 1564.13,
+  "end": 1569.432,
+  "speaker": "Unknown",
+  "en": "Yeah, we'll all have a personalized specialist that knows us better than anything in the world.",
+  "zh": "是啊，我们都会拥有一个比世界上任何东西都更了解我们的个性化专科医生。"
+ },
+ {
+  "seg": 313,
+  "start": 1569.792,
+  "end": 1571.012,
+  "speaker": "Unknown",
+  "en": "That is so exciting to see.",
+  "zh": "这真是太令人期待了。"
+ },
+ {
+  "seg": 314,
+  "start": 1571.152,
+  "end": 1577.114,
+  "speaker": "Unknown",
+  "en": "And this is one of the reasons I am such a big tech optimist and so excited for the future and how technology is impacting the future.",
+  "zh": "而这也是我为什么如此坚信技术乐观主义、对未来以及技术如何影响未来如此兴奋的原因之一。"
+ },
+ {
+  "seg": 315,
+  "start": 1577.214,
+  "end": 1580.255,
+  "speaker": "Unknown",
+  "en": "And you touched upon directly some very concrete reasons.",
+  "zh": "而你直接触及了一些非常具体的原因。"
+ },
+ {
+  "seg": 316,
+  "start": 1580.295,
+  "end": 1583.276,
+  "speaker": "Unknown",
+  "en": "But Julie, really wanted to thank you for joining us today on MTS.",
+  "zh": "但是 Julie,真的非常感谢你今天参加我们的 MTS 节目。"
+ },
+ {
+  "seg": 317,
+  "start": 1583.356,
+  "end": 1583.776,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 318,
+  "start": 1583.856,
+  "end": 1585.216,
+  "speaker": "Unknown",
+  "en": "Such a great conversation.",
+  "zh": "真是一次很棒的对话。"
+ },
+ {
+  "seg": 319,
+  "start": 1585.296,
+  "end": 1586.057,
+  "speaker": "Unknown",
+  "en": "Thanks for having me.",
+  "zh": "谢谢你们的邀请。"
+ },
+ {
+  "seg": 320,
+  "start": 1586.077,
+  "end": 1587.057,
+  "speaker": "Unknown",
+  "en": "Thank you so much for joining.",
+  "zh": "非常感谢你加入我们。"
+ },
+ {
+  "seg": 321,
+  "start": 1589.932,
+  "end": 1592.774,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 322,
+  "start": 1593.415,
+  "end": 1599.799,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期，请务必点赞、评论、订阅，给我们评分或写评论，并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 323,
+  "start": 1600.58,
+  "end": 1604.143,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请访问 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 324,
+  "start": 1604.743,
+  "end": 1610.427,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z,并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 325,
+  "start": 1610.828,
+  "end": 1613.33,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期节目见。"
+ },
+ {
+  "seg": 326,
+  "start": 1614.671,
+  "end": 1621.015,
+  "speaker": "Unknown",
+  "en": "This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.",
+  "zh": "本信息仅用于教育目的，不构成对任何投资或金融产品的买入、持有或卖出建议。"
+ },
+ {
+  "seg": 327,
+  "start": 1621.316,
+  "end": 1628.861,
+  "speaker": "Unknown",
+  "en": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+  "zh": "本播客由第三方制作，可能包含付费推广广告、其他公司提及的内容以及与 A16Z 无关联的个人。"
+ },
+ {
+  "seg": 328,
+  "start": 1629.241,
+  "end": 1636.286,
+  "speaker": "Unknown",
+  "en": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+  "zh": "此类广告、公司和个人均未获得 AH Capital Management LLC、A16Z 或其任何关联公司的背书。"
+ },
+ {
+  "seg": 329,
+  "start": 1636.746,
+  "end": 1642.41,
+  "speaker": "Unknown",
+  "en": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+  "zh": "信息来自发布日期被视为可靠的来源，但 A16Z 不保证其准确性。"
+ }
+]

@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"代码行数":1,"DORA":1,"SPACE":1,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":1,"技术债":2,"幻觉":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"代码行数":1,"DORA":1,"SPACE":1,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":1,"技术债":2,"幻觉":4}</script>
 
 <script>
 (function(){

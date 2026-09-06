@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]]
+[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":103,"Theo Jaffe":6,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":89,"监管俘获":3,"Google":35,"precautionary principle":1,"Microsoft":22,"开源":15}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":103,"Theo Jaffe":6,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":90,"监管俘获":3,"Google":35,"precautionary principle":1,"Microsoft":22,"开源":15}</script>
 
 <script>
 (function(){

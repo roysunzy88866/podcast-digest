@@ -25,7 +25,7 @@ unlisted: true
 
 [[Stéphane Bancel]] · [[Jorge Conde]] · [[Moderna]] · [[mRNA]] · [[癌症疫苗]] · [[Keytruda]] · [[CAR T 疗法]] · [[个性化医疗]] · [[FDA]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Stéphane Bancel":1,"Jorge Conde":1,"Moderna":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":13}</script>
+<script type="application/json" class="pd-epn">{"Stéphane Bancel":1,"Jorge Conde":1,"Moderna":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":14}</script>
 
 <script>
 (function(){

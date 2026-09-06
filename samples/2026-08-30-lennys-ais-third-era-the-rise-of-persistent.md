@@ -203,7 +203,7 @@ Tara 认为在可预见的未来，人脑在三个地方持续有价值：
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:ChatGPT、Codex、智能体 (agent)</span>
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:Codex、智能体 (agent)、ChatGPT</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同嘉宾:Lenny · 同概念:ChatGPT、智能体 (agent)、Claude Code、Codex</span>
+- [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:Codex、智能体 (agent)</span>
 
 </div>
 </div>

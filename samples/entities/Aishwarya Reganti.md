@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]]
+[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Kiriti Badam":1,"智能体":1,"非确定性":1,"主观能动性":17,"评估":20,"生产监控":1,"持续校准持续开发":1,"飞轮":2,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":1,"非确定性":1,"主观能动性":17,"评估":20,"生产监控":1,"持续校准持续开发":1,"飞轮":2,"行为校准":1}</script>
 
 <script>
 (function(){

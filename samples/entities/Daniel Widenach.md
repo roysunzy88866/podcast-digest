@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]] [[Nick Noone]]
+[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":6,"智能体":1,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":5,"封闭模型":2,"垂直整合":2,"开放框架":1,"护栏":2}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":6,"智能体":1,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":6,"封闭模型":2,"垂直整合":2,"开放框架":1,"护栏":2}</script>
 
 <script>
 (function(){

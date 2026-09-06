@@ -80,11 +80,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]] [[Jorge Conde]]
+[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":66,"Robert Hackett":1,"AI":13,"清晰法案":1,"生产力增长":1,"稳定币":1,"一对一辅导":1,"加密货币":1,"超级赋能个体":1,"区块链":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Robert Hackett":1,"AI":14,"清晰法案":1,"生产力增长":1,"稳定币":1,"一对一辅导":1,"加密货币":1,"超级赋能个体":1,"区块链":2}</script>
 
 <script>
 (function(){
