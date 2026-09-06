@@ -1,0 +1,220 @@
+{
+  "title_zh": "「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言",
+  "tldr": "Fireworks 创始人 Lin Kuo 与主持人 Harry Stebbings 对谈：为什么未来不是几个 AGI 模型统治世界，而是数百万个定制化模型。",
+  "digest_md": "这一集聊的是一个正被整个 AI 行业激烈争论的问题：未来的智能，是被少数几家 Frontier Labs 的通用大模型垄断，还是散落在每一家企业自己手里？给出答案的人是 Lin Kuo，AI 推理与模型定制平台 Fireworks 的创始人——主持人 Harry Stebbings 只见了他 15 分钟就开出 1000 万美元的支票，并称这是他 10 年投资生涯里最容易的决定之一；Fireworks 据称四年内做到了 10 亿美元 ARR 的规模。而 Lin 的核心主张非常反主流：**AGI「一个模型解决所有问题」的世界不会到来，未来属于数百万个专门化模型。**\n\n## 核心主张：专用智能才是智能的前沿\n\nLin 的论证起点是一句判断：智能是数据的派生物。而训练通用模型的数据来自公共互联网和标注数据，公共互联网相对世界总数据量是很小的语料库——世界上的大部分数据，是被锁在应用里、锁在企业里的私有数据，永远不会被共享，因为那是公司的专有 IP。这些数据绝大多数没有被「激活」来产生任何智能，而 Fireworks 做的就是激活它们。[08:03 Lin Kuo]\n\n为什么不直接用 Anthropic、OpenAI 的 API 省心？Lin 的回答带上了价值观色彩：如果未来世界由单一标准统治、品味由某一家公司说了算，「我们就把自己变成了一支机器人军队」。他认为把智人与其他物种区分开的是创造力，而这一部分无法被复制。[09:59 Lin Kuo] 他对 Dario、Sam 这些人的贡献并不否定——他把通用大模型比作输电线：一条输送强大智能的基础设施，所有人在其上构建。但没有电力线，就不会有各种电器；问题只是——「这条电力线会取代我们所做的一切吗？我不这么认为。」[12:47 Lin Kuo]\n\n一个佐证来自黄仁勋。Lin 在 GTC 之后与他对谈，Jensen 说了一句让他回味的话：「没有所谓的专门化的通用公司，每家公司都建立在一种做事情的特定信念之上，否则它们没有存在的理由。」这种独特性深植于产品设计、软件架构、数据和用户交互之中，外部公司学不到也共享不了——这正是企业需要自己的智能的原因。[10:59 Lin Kuo]\n\n## 开放权重的赌注：从「扩展到破产」说起\n\nFireworks 早期联合创始人之间有过一场深辩：自建模型还是在开放模型之上构建。当时开放模型还在萌芽期，这是一场巨大的赌注，但 Lin 们因为开源出身的根基押了开放——因为「开放性把控制权交给了用户」，模型权重一旦发布就完全归你，可以随意修改、在其上构建。押注的回报是：开放和闭源两条路线在过去两年都跨过了质量阈值，而开放模型跨过阈值后调优容易得多——用一家公司少量的独特数据朝它的评估指标爬坡，结果往往是用你的数据解决你的独特问题时，你比通用模型更好。[15:21 Lin Kuo]\n\n这里引出本集最有信息量的一个观察：**产品市场契合（PMF）和可持续业务，在 SaaS 时代几乎是同义词，现在裂成了两个概念。**SaaS 时代 CPU 是大宗商品、基础设施近乎免费，找到 PMF 就可以全力扩张；而现在「有很多很棒的公司拥有 PMF，客户愿意付钱，但他们无法扩展——一旦扩展，他们可能扩展到破产」。对有巨大流量的数字原生大企业，这个问题更尖锐：一旦推出 AI 功能就会触达全部客户群，但 CFO 看一眼成本预测就会否掉。替代方案只有一条：掌控自己的开放权重模型，推出自己的模型。[16:34 Lin Kuo]\n\n对安全问题（比如 OpenRouter 上前列模型多为中国模型），Lin 的建议是：无论开放还是封闭模型，都应该自己加护栏——因为模型提供商必然把自己的判断和品味融入训练，你无法保证它与你匹配。至于中国若限制开放模型出口，他承认短期冲击很大，但开放生态的美妙就在于它不止一个提供商，以美国的人才密度和资源，能够也应该自建开放系统。\n\n## 和 Cursor 一起造 RL 基础设施\n\n本集最「硬核」的一段是 Fireworks 与 Cursor 的合作细节。训练是资本密集型活动，大厂买昂贵集群互联，不必太操心效率；但两家创业公司都极其在意资本，要在不拖慢研究创新的前提下求高效。方法是把强化学习（RL，让模型通过试错拿奖励来改进的训练方式）的后训练拆成两块：一块是训练器，不断调整权重、产出新的模型版本；另一块是 RL rollout——把新版本部署出去，与合成或真实的编码环境交互，拿回奖励来判断版本好坏。大厂把这两块在同一个超级集群上一起跑，而 Fireworks 设计了完全分布式的系统：跨全球五、六个数据中心区域运行，调用分散的 GPU 跑大规模 RL 作业。难点在于跨区域同步模型权重——权重分发太慢，奖励就太陈旧，训练就偏了。他们创新了一种快速分发全新权重的方法，数值上仍然可靠，又不受限于昂贵的 GPU 集群。这套合作直接促成了 Cursor 近期的模型发布。[34:12 Lin Kuo]\n\n为什么 CTO Dima 要驻场几个月？Lin 的解释是新技术采纳曲线的规律：早期采用者都是黑客——想要深度控制、有深厚专业能力的人；后期才是要更少控制的大众用户。Fireworks 瞄准的是后期，但理解前期需要什么极其有价值。\n\n## token 经济学：三年降 10 倍，用量涨 100 倍\n\nLin 给出几个关键数字：Fireworks 每天处理超过 40 万亿 token，其中大部分来自定制化模型而非现成模型；他预计到明年底这个量可能是 20 到 100 倍。由此他给出预测：**未来三年 token 成本降 10 倍，这 10 倍的降本将驱动 100 倍的使用量。**降本的路径有三层：一、模型质量提升后，解决同一任务需要的 token 更少（有些模型便宜 2 倍但要 2 倍的量才能完成同一任务，所以应该按任务评估 token 经济学，而不是只看单价）；二、通过模型定制让每个 token 更精确；三、GPU 和内存等底层基础设施目前处于严峻的供应链约束之下，未来两三年会缓解。至于 capex 泡沫论，他的回应是：如果是 20 到 100 倍的用量增长，「说我们处于 capex 泡沫就很荒谬」——但瓶颈在黄仁勋「五层 AI 蛋糕」的下层：芯片、能源、物理世界的制造速度，甚至小到一个晶体管。[44:39 Lin Kuo]\n\n关于质量，他举了一个极端例子：0KLD——训练系统和推理系统之间做到比特级等价，不损失哪怕一个比特的精度。这极难做到，但客户投入训练的每一美元都应该被最大化；跨过训练-推理边界时质量打折，等于训练投资按折扣兑现。这也是为什么他对「商品化的一刀切」生意不感兴趣：Fireworks 把每一次模型部署都视为「一人适配」，只针对你的工作负载，从质量、速度、成本三个维度优化——在数百万用户的生产规模下，5% 的成本降低都是巨款，更别说他们见过的 5 到 10 倍降本。\n\n## 不进军应用层，建数据中心可以谈\n\n战略边界上 Lin 说得非常清楚：「我们绝对不会进军应用层。」至于向下自建数据中心，可以放在桌面上，但取决于时机。他的通用判据是：使用量过某个阈值后，自建底层供应才在经济上说得通——Meta 年轻时也不什么都自建。Cursor 最早与他合作时只有几百万美元规模，正因为他们认清自己只想专注产品和研究的创新，把平台创新交给把全部研发押在这上面的 Fireworks。「专精才是赢大局的正确心态。」[40:17 Lin Kuo]\n\n至于为什么黄仁勋「跳过」他这一层去做 Nemotron 模型，Lin 的解读很冷静：那是纯粹的供应链问题——美国没有本土开放模型是个问题，NVIDIA 在补这个缺口；而如果 Fireworks 这样的公司把专用智能平台层补上了，这个堵塞就不存在。\n\n## 毛利率 30-40% 不是新常态，是超高速增长的代价\n\n面对「你们利润率 30-40%，而传统 SaaS 是 80%，这是不是新常态」的追问，Lin 的回答是公司哲学级的：**「你是为增长优化，还是为毛利率优化？」**毛利率优化本质是约束问题——先定目标再倒推施加约束，而约束会拖慢创新。在高度实验期就过度优化毫无意义；一旦确定一个系统要百分百构建、要放大一千倍，再「拼命优化它」。他明确说要避免过度优化毛利导致增长缓慢——「完全不增长、拼命优化，那绝对是灾难性的结果」。\n\n硬件折旧问题也让「自建 vs 购买」的账变了：过去硬件折旧六年、三年一发布；现在光一家供应商一年就有三个 SKU，模型每周都在发布、在下一代模型出来前就达到价值峰值。三年后你还会想回到落后九代的硬件上跑三年前的模型吗？以这个创新速度看，这是存疑的。\n\n## 本集带走\n\n- **判断一个模型不能只看单价**：有的模型便宜 2 倍但要用 2 倍的量才能完成同一任务——应该按任务建立评估 token 经济学的最佳实践。\n- **「扩展到破产」是这个时代的真问题**：有 PMF 不等于有可持续业务；当 AI 成本压垮单位经济时，掌控自己的开放权重模型是企业的替代出路。\n- **拥有智能要等时机**：企业走向「拥有而非租用」智能的触发点是规模化阶段——优化开始起作用时，你必须有控制权才有优化空间，而控制权来自构建在开放模型之上。\n- **自建芯片/数据中心的判据是工作负载成熟度**：使用量过阈值、业务稳定不再剧变，才值得把逻辑固化进硬件——一旦流片，回头修改代价极高。\n- **领导力是判断力，不是特权**：Lin 从黄仁勋身上学到的——在高速度领域，信息层层传递必有损失，领导者必须掌握一线的真实上下文才能做对判断。\n- **招人的第一指标不是能力**：Fireworks 最看重「极致所有权」——没人给你划框，你自己认领端到端的问题、无论如何交付；Lin 最大的悔恨则是等太久才做市场营销——营销不是流量，是教育和清晰。",
+  "quotes": [
+    {
+      "en": "What I don't want to see is there's only one company owns intelligence.",
+      "zh": "我不想看到的是只有一家公司拥有智能。",
+      "timestamp": "00:00",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "I do think the cost of token will go down drastically, 10x cost reduction in the next three years, and this 10x cost reduction will drive 100x usage.",
+      "zh": "我确实认为 token 的成本会大幅下降，未来三年内成本降低 10 倍，而这 10 倍的成本降低将驱动 100 倍的使用量。",
+      "timestamp": "00:12",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "If you think intelligence is a derivative of data, then majority of the data is actually not used for training a general intelligence model.",
+      "zh": "如果你认为智能是数据的派生物，那么大部分数据其实并没有被用于训练通用智能模型。",
+      "timestamp": "07:32",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "If our future world is going to be ruled by one standard, a taste dictated by one company, we turn ourselves into an army of robots.",
+      "zh": "如果我们未来的世界要由单一标准统治、品味由某一家公司 dictate，那我们就把自己变成了一支机器人军队。",
+      "timestamp": "09:47",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "Once the model is released, you have the full control of the weights. You can change it however you want. It's yours.",
+      "zh": "一旦模型发布，你就拥有对权重的完全控制。你可以随意修改它。它是你的。",
+      "timestamp": "13:52",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "Customers want to pay them, and they really value their product, but they cannot scale because once they scale, they could scale into bankruptcy.",
+      "zh": "客户愿意付钱给他们，也非常看重他们的产品，但他们无法扩展，因为一旦扩展，他们可能会扩展到破产。",
+      "timestamp": "16:27",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "And often time, the end result of heel climbing is to solve your unique problem with your data, you are better than a general purpose model.",
+      "zh": "而且通常，爬坡的最终结果是：用你的数据解决你的独特问题，你会比通用模型更好。",
+      "timestamp": "15:21",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "I really believe the future will be, it may be scary, but I think that's true, it will be millions of specialized models, one per application per use case.",
+      "zh": "我真的相信，未来会是——这可能很可怕，但我认为这是真的——数百万个专门化模型，每个应用、每个用例一个。",
+      "timestamp": "20:58",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "We think about every single model deployment as one size fits one. It's unique for your workload only.",
+      "zh": "我们把每一次模型部署都视为「一人适配」。它只对你的工作负载是独特的。",
+      "timestamp": "18:59",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "Today we process more than 40 trillion tokens a day.",
+      "zh": "如今我们每天处理超过 40 万亿个 token。",
+      "timestamp": "37:01",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "And usually constraints slow down innovation.",
+      "zh": "而且通常约束会拖慢创新。",
+      "timestamp": "48:12",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "If our focus is only optimize growth margin, we absolutely can do that. But we are sacrificing the speed of growth.",
+      "zh": "如果我们的焦点只是优化增长毛利率，我们绝对可以做到。但那样我们会牺牲增长的速度。",
+      "timestamp": "48:46",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "I know we can kill climb to a high number, but that's absolutely a disaster outcome.",
+      "zh": "我知道我们可以干掉竞争、爬到一个很高的数字，但那绝对是一个灾难性的结果。",
+      "timestamp": "55:44",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "Leadership is just judgment. It's not privilege. It's judgment.",
+      "zh": "领导力就是判断力。不是特权。是判断力。",
+      "timestamp": "69:27",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "Marketing is not about flows. It's more about education. It's more about clarity.",
+      "zh": "市场营销不是关于流量。它更多是关于教育。它更多是关于清晰。",
+      "timestamp": "71:19",
+      "speaker": "Lin Qiao"
+    },
+    {
+      "en": "I really see people will own their, every single company will own their own intelligence as a must-have. It's not optional.",
+      "zh": "我真的看到，每一家公司都会把拥有自己的智能视为一种必需品。这不是可选项。",
+      "timestamp": "73:21",
+      "speaker": "Lin Qiao"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Unknown",
+      "en": "What I don't want to see is there's only one company owns intelligence.",
+      "zh": "我不想看到的是只有一家公司拥有智能。"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Unknown",
+      "en": "I do think the cost of token will go down drastically, 10x cost reduction in the next three years, and this 10x cost reduction will drive 100x usage.",
+      "zh": "我确实认为 token 的成本会大幅下降，未来三年内成本降低 10 倍，而这 10 倍的成本降低将驱动 100 倍的使用量。"
+    },
+    {
+      "timestamp": "07:32",
+      "speaker": "Unknown",
+      "en": "If you think intelligence is a derivative of data, then majority of the data is actually not used for training a general intelligence model.",
+      "zh": "如果你认为智能是数据的派生物，那么大部分数据其实并没有被用于训练通用智能模型。"
+    },
+    {
+      "timestamp": "09:47",
+      "speaker": "Unknown",
+      "en": "If our future world is going to be ruled by one standard, a taste dictated by one company, we turn ourselves into an army of robots.",
+      "zh": "如果我们未来的世界要由单一标准统治、品味由某一家公司 dictate，那我们就把自己变成了一支机器人军队。"
+    },
+    {
+      "timestamp": "10:48",
+      "speaker": "Unknown",
+      "en": "Ling, you're right. There's no specialized general company, as in every company is built on a special belief of doing things.",
+      "zh": "Ling，你说得对。没有所谓的专门化通用公司，每家公司都是建立在一种做事情的特定信念之上的。"
+    },
+    {
+      "timestamp": "12:43",
+      "speaker": "Unknown",
+      "en": "But the question is, is this power line going to replace everything we do? I don't think so.",
+      "zh": "但问题是，这条电力线会取代我们所做的一切吗？我不这么认为。"
+    },
+    {
+      "timestamp": "13:51",
+      "speaker": "Unknown",
+      "en": "Once the model is released, you have the full control of the weights. You can change it however you want. It's yours.",
+      "zh": "一旦模型发布，你就拥有对权重的完全控制。你可以随意修改它。它是你的。"
+    },
+    {
+      "timestamp": "16:34",
+      "speaker": "Unknown",
+      "en": "Customers want to pay them, and they really value their product, but they cannot scale because once they scale, they could scale into bankruptcy.",
+      "zh": "客户愿意付钱给他们，也非常看重他们的产品，但他们无法扩展，因为一旦扩展，他们可能会扩展到破产。"
+    },
+    {
+      "timestamp": "15:21",
+      "speaker": "Unknown",
+      "en": "And often time, the end result of heel climbing is to solve your unique problem with your data, you are better than a general purpose model.",
+      "zh": "而且通常，爬坡的最终结果是：用你的数据解决你的独特问题，你会比通用模型更好。"
+    },
+    {
+      "timestamp": "20:58",
+      "speaker": "Unknown",
+      "en": "I really believe the future will be, it may be scary, but I think that's true, it will be millions of specialized models, one per application per use case.",
+      "zh": "我真的相信，未来会是——这可能很可怕，但我认为这是真的——数百万个专门化模型，每个应用、每个用例一个。"
+    },
+    {
+      "timestamp": "19:04",
+      "speaker": "Unknown",
+      "en": "We think about every single model deployment as one size fits one. It's unique for your workload only.",
+      "zh": "我们把每一次模型部署都视为「一人适配」。它只对你的工作负载是独特的。"
+    },
+    {
+      "timestamp": "37:01",
+      "speaker": "Unknown",
+      "en": "Today we process more than 40 trillion tokens a day.",
+      "zh": "如今我们每天处理超过 40 万亿个 token。"
+    },
+    {
+      "timestamp": "46:11",
+      "speaker": "Unknown",
+      "en": "We do not lose a bit of accuracy. That's really hard to achieve.",
+      "zh": "我们不损失哪怕一个比特的精度。这真的很难实现。"
+    },
+    {
+      "timestamp": "48:12",
+      "speaker": "Unknown",
+      "en": "And usually constraints slow down innovation.",
+      "zh": "而且通常约束会拖慢创新。"
+    },
+    {
+      "timestamp": "48:51",
+      "speaker": "Unknown",
+      "en": "If our focus is only optimize growth margin, we absolutely can do that. But we are sacrificing the speed of growth.",
+      "zh": "如果我们的焦点只是优化增长毛利率，我们绝对可以做到。但那样我们会牺牲增长的速度。"
+    },
+    {
+      "timestamp": "55:44",
+      "speaker": "Unknown",
+      "en": "I know we can kill climb to a high number, but that's absolutely a disaster outcome.",
+      "zh": "我知道我们可以干掉竞争、爬到一个很高的数字，但那绝对是一个灾难性的结果。"
+    },
+    {
+      "timestamp": "69:27",
+      "speaker": "Unknown",
+      "en": "Leadership is just judgment. It's not privilege. It's judgment.",
+      "zh": "领导力就是判断力。不是特权。是判断力。"
+    },
+    {
+      "timestamp": "71:19",
+      "speaker": "Unknown",
+      "en": "Marketing is not about flows. It's more about education. It's more about clarity.",
+      "zh": "市场营销不是关于流量。它更多是关于教育。它更多是关于清晰。"
+    },
+    {
+      "timestamp": "73:21",
+      "speaker": "Unknown",
+      "en": "I really see people will own their, every single company will own their own intelligence as a must-have. It's not optional.",
+      "zh": "我真的看到，每一家公司都会把拥有自己的智能视为一种必需品。这不是可选项。"
+    }
+  ],
+  "voice_script": "今天这一集,聊的是一个整个 AI 行业都在吵的问题:未来的智能,是被少数几家前沿实验室的通用大模型垄断,还是散落在每一家企业自己手里?\n\n先说说给答案的人是谁。Lin Kuo,Fireworks 的创始人。Fireworks 是一个 AI 推理与模型定制平台,据说四年做到了 10 亿美元的年经常性收入。主持人 Harry Stebbings 只见了他 15 分钟,就开出一千万美元的支票,还说这是自己十年投资生涯里最容易的决定之一。而这个人的核心主张,非常反主流:AGI 那种一个模型解决所有问题的世界,不会到来。未来属于数百万个专门化模型。\n\n论证的起点是一句判断:智能是数据的派生物。说白了,模型聪明不聪明,取决于喂进去什么数据。可通用模型的训练数据,来自公共互联网和标注数据——公共互联网,相对于世界总数据量,其实是个很小的语料库。世界上大部分数据,锁在应用里、锁在企业里,那是公司的专有 IP,永远不会被共享。这些数据绝大多数没有被激活来产生智能,而 Fireworks 干的,就是激活它们。\n\n那为什么不直接调 OpenAI、Anthropic 的 API,省心省钱?这里 Lin 的回答就带价值观了。如果未来世界由单一标准统治、品味由某一家公司说了算,\"我们就把自己变成了一支机器人军队\"。能把智人和其他物种区分开的,是创造力,这一部分无法被复制。当然,并没否定大模型的价值——通用大模型更像输电线,一条输送强大智能的基础设施,所有人都能在上面构建。但问题来了:这条电力线,会取代我们所做的一切吗?答案是不。没有电力线,就没有各种电器;电器本身,才是各家的独特之处。\n\n黄仁勋有句话正好佐证这一点。Lin 在 GTC 之后跟他聊,黄仁勋说:没有所谓的专门化的通用公司,每家公司都建立在一种做事情的特定信念之上,否则就没有存在的理由。这种独特性藏在产品设计、软件架构、数据和用户交互里,外部公司学不到也共享不了。所以每家企业,都需要属于自己的智能。\n\n接下来就得讲讲 Fireworks 押的一个大注了。早期创始人之间有过一场深辩:是自建模型,还是在开放模型之上构建。当时开放模型还在萌芽期,这是一场豪赌,但因为开源出身的根基,最后押了开放。理由很简单:开放性把控制权交给了用户。模型权重一旦发布,就完全归你,可以随意修改、在其上构建。这个赌的回报在于:过去两年,开放和闭源两条路线都跨过了质量阈值,而开放模型跨过阈值之后,调优要容易得多——用一家公司少量的独特数据,朝着自己的评估指标去爬坡,结果往往是用你的数据解决你的独特问题时,你比通用模型更好。\n\n这就引出本集最有信息量的一个观察。在 SaaS 时代,产品市场契合和可持续业务几乎是同义词——那时候 CPU 是大宗商品,基础设施近乎免费,找到产品市场契合就可以全力扩张。但现在,这两个概念裂开了。现在有很多很棒的公司,客户愿意付钱,产品也被看重,但就是无法扩展——一旦扩展,可能会扩展到破产。对那些有巨大流量的数字原生大企业,这个问题更尖锐:推出一个 AI 功能,瞬间触达全部客户群,但 CFO 看一眼成本预测,直接否掉。替代方案只有一条:掌控自己的开放权重模型,推出自己的模型。\n\n顺带回应一个安全上的疑虑:开放模型榜单前列有不少中国模型,这靠谱吗?Lin 的建议是,无论开放还是封闭,你都应该自己加护栏——因为模型提供商必然把自己的判断和品味融入训练,你没法保证跟你匹配。至于中国若限制开放模型出口,短期冲击确实大,但开放生态的美妙就在于它不止一个提供商,以美国的人才密度和资源,能够也应该自建开放系统。\n\n再说点硬核的:Fireworks 和 Cursor 的合作。训练是资本密集型的活动,大厂买昂贵集群,不太操心效率;但两家创业公司都极其在意资本。方法是把强化学习的后训练拆成两块:一块是训练器,不断调整权重、产出新的模型版本;另一块叫 rollout,把新版本部署出去,跟真实的编码环境交互,拿回奖励来判断版本好坏。大厂把这两块放在同一个超级集群上跑,Fireworks 却设计了完全分布式的系统——跨全球五六个数据中心区域,调用分散的 GPU 跑大规模作业。难点在跨区域同步模型权重:权重分发太慢,奖励就太陈旧,训练就偏了。他们发明了一种快速分发权重的方法,数值上依然可靠,又不用受限于昂贵的 GPU 集群。这套合作,直接促成了 Cursor 近期的模型发布。\n\n回到生意本身,几个关键数字。Fireworks 每天处理超过 40 万亿 token,大部分来自定制化模型,而不是现成模型。由此给出预测:未来三年,token 成本降 10 倍,而这 10 倍降本,将驱动 100 倍的使用量。降本有三条路:一是模型质量提升后,解决同一任务需要的 token 更少——注意,有的模型便宜两倍,却要用两倍的量才能干完同一个活,所以要按任务算账,不能只看单价;二是通过定制让每个 token 更精确;三是 GPU 和内存的供应链约束,未来两三年会缓解。所以对于 capex 泡沫论,回应很直接:如果是 20 到 100 倍的用量增长,说泡沫就很荒谬——真正的瓶颈在下面那层:芯片、能源、物理世界的制造速度。\n\n那利润率呢?有人追问:你们毛利率 30 到 40%,传统 SaaS 是 80%,这是不是新常态?Lin 的回答是公司哲学级的:你是为增长优化,还是为毛利率优化?优化毛利,本质是先定目标再倒推施加约束,而约束会拖慢创新。在高度实验期过度优化毫无意义,等系统确定了、要放大一千倍了,再拼命优化。完全不增长、拼命优化,那绝对是灾难性的结果。硬件折旧的账也变了:过去硬件用六年、三年一发布;现在光一家供应商一年就有三个 SKU,模型每周都在发。三年后,你还会想回到落后九代的硬件上,跑三年前的模型吗?\n\n战略边界同样清楚:绝对不会进军应用层。向下自建数据中心,可以放在桌面上谈,但有个判据——使用量过了某个阈值,自建才在经济上说得通。Cursor 最早来合作时只有几百万美元的规模,正因为认清自己只想专注产品和研究的创新,才把平台创新交给把全部研发押在上面的 Fireworks。专精,才是赢大局的正确心态。\n\n这一集能带走的话很多,但最值得记住的还是那个起点和那个终点。起点是:如果智能是数据的派生物,那大部分数据,其实根本没被用来训练通用智能。终点是 Lin 的一句话——我不想看到的,是只有一家公司拥有智能。"
+}

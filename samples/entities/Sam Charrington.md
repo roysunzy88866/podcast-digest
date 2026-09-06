@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Damian Borth]] · [[Max Welling]] · [[Justin Johnson]] · [[Hugging Face]] · [[cusp.ai]] · [[World Labs]] · [[权重空间学习]] · [[等变性]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Meta":26,"Damian Borth":1,"Max Welling":1,"Justin Johnson":2,"Hugging Face":19,"cusp.ai":1,"World Labs":4,"权重空间学习":1,"等变性":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Meta":27,"Damian Borth":1,"Max Welling":1,"Justin Johnson":2,"Hugging Face":19,"cusp.ai":1,"World Labs":4,"权重空间学习":1,"等变性":1}</script>
 
 <script>
 (function(){

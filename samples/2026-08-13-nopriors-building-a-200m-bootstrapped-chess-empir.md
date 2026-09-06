@@ -109,9 +109,9 @@ Chess.com 不愿透露具体的[[反作弊|反作弊]]机制,但核心在于极�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同概念:AGI</span>
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同概念:AGI</span>
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同概念:AGI</span>
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同概念:AGI</span>
 
 </div>
 <div class="pd-ex">

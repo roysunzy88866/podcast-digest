@@ -1,0 +1,1075 @@
+{
+  "episode_id": "2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-07-20",
+  "tags": [
+    "AI 基础设施",
+    "专用智能",
+    "开源模型",
+    "token 经济学",
+    "推理市场"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.947,
+            45.553
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings, and in the hot seat today, a founder who I wrote a $10 million check for after just a 15-minute meeting, Lin Kuo, founder at Fireworks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lin-qiao",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lin Qiao",
+      "file": "Lin Qiao",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": true,
+      "how_described": "本集嘉宾 Lin Kuo 创办的专门化智能平台：帮企业调优开放模型并针对其工作负载做推理部署（质量、速度、成本三维优化，主张「一人适配」），四年内做到 10 亿美元 ARR，每天处理超 40 万亿 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.947,
+            45.553
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings, and in the hot seat today, a founder who I wrote a $10 million check for after just a 15-minute meeting, Lin Kuo, founder at Fireworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            71.154,
+            78.384
+          ],
+          "quote": "When you can invest in fireworks, which is scaled to 1 billion in ARR in four years, that's what you should do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            102.292,
+            106.458
+          ],
+          "quote": "If so, Fireworks, honestly, it can be a $500 billion company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            413.228,
+            418.871
+          ],
+          "quote": "So with fireworks, you saw something in inference that the world was not focused on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            866.041,
+            869.263
+          ],
+          "quote": "So within Fireworks, obviously we dock for our own product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            886.013,
+            890.6
+          ],
+          "quote": "We have a ton of agents within Fireworks ourselves, and we are cost-conscious.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1118.537,
+            1123.02
+          ],
+          "quote": "Especially Fireworks, we are a specialized intelligence platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1138.19,
+            1139.171
+          ],
+          "quote": "Think about fireworks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 875,
+          "t": [
+            3814.68,
+            3821.247
+          ],
+          "quote": "And now we have companies like Fireworks, where you scale to 800 million in revenue in a matter of years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 954,
+          "t": [
+            4097.387,
+            4109.562
+          ],
+          "quote": "We want people with the high competence, but more importantly, the strong indicator whether they will do well in this wave, especially in fireworks, is whether they are really built for taking extreme ownership.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 980,
+          "t": [
+            4235.025,
+            4239.529
+          ],
+          "quote": "What did you wait on in the fireworks journey that you wish you hadn't waited on?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说它是编程领域最早调优自己模型的先锋，与 Fireworks 深度合作（CTO Dima 驻场数月）搭建分布式 RL 基础设施，促成其近期模型发布；早期只有几百万美元规模时便选择专注产品、把平台创新交给 Fireworks。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 342,
+          "t": [
+            1528.545,
+            1534.008
+          ],
+          "quote": "Coding, for example, I think in coding space, Cursor probably is one of the pioneers starting to tune their model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1539.81,
+            1546.334
+          ],
+          "quote": "Because every single day, it seems like we have a new model with a new capability, and it's like, oh my gosh, Cursor's newest model is amazing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1826.337,
+            1829.941
+          ],
+          "quote": "You said Cursor being the frontrunners in terms of how innovative they've been.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1831.943,
+            1842.414
+          ],
+          "quote": "But I heard, and I really stalk you before shows, but I heard that your CTO, Dima, was embedded at Cursor for months building the RL infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1893.504,
+            1895.165
+          ],
+          "quote": "So that's why we partner deeply with Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1936.853,
+            1938.334
+          ],
+          "quote": "Cursor is, like us, their startup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2052.529,
+            2059.873
+          ],
+          "quote": "So those are the innovations we worked together with Cursor to push the boundary and leading to their recent model launches.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2088.223,
+            2090.904
+          ],
+          "quote": "And last year, Cursor is one of the few.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2091.344,
+            2095.645
+          ],
+          "quote": "I would say all model companies are concentrated on Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2387.489,
+            2392.254
+          ],
+          "quote": "I would say Cursor is the first company they have decided to work with us early on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 876,
+          "t": [
+            3821.528,
+            3825.932
+          ],
+          "quote": "And you mentioned Cursor, scaling to billions in revenue in a matter of years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集多次借黄仁勋展开：Jensen 说「没有所谓的专门化的通用公司」，提出「五层 AI 蛋糕」，并因美国缺本土开放模型而训练 Nemotron——Lin 解读为补供应链缺口，与本集主题（专用智能平台层）直接相关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1081.252,
+            1087.797
+          ],
+          "quote": "I know within US, there are multiple companies doing that, including NVIDIA training Nemotron.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2124.19,
+            2128.073
+          ],
+          "quote": "What will be the NVIDIA GPU prize two years later?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2441.06,
+            2444.481
+          ],
+          "quote": "You can say, hey, Jensen probably have all the rights to build an NVIDIA cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3016.085,
+            3020.688
+          ],
+          "quote": "For example, we're talking about NVIDIA recently acquired a company also called Grok with Q.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它作为「完全信仰 AGI（一个模型解决所有问题）」的代表来对照 Lin 的反主流主张，并用其企业业务引出「为什么不用 Anthropic/OpenAI 的 API 就好」的追问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            197.03,
+            202.431
+          ],
+          "quote": "And that's why leaders like Visa, Stripe, Figma, and even Anthropic rely on Navan these days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            523.429,
+            528.475
+          ],
+          "quote": "That's interesting because I view Anthropic as a company fully believing AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2321.041,
+            2330.573
+          ],
+          "quote": "We've seen OpenAI come out with Jalapeno, terrible name, Anthropic talking to Samsung about building their own chips, DeepSeeker building their own chips, Zuck came out with Meta building their own chips.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2489.77,
+            2503.979
+          ],
+          "quote": "Mark Benioff, one of your investors, I think in the new round, which obviously this will come out after the round is announced, said that he spends about 3.8% of developer salaries at Salesforce on Anthropic and Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 792,
+          "t": [
+            3485.524,
+            3495.51
+          ],
+          "quote": "We cannot be at the hands of OpenAI and Anthropic, where we can just be banned in our health services, sit on the infrastructure of something that an administration can turn off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 809,
+          "t": [
+            3571.251,
+            3574.132
+          ],
+          "quote": "As I said, OpenAI, Anthropic, DeepSeq, Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1050,
+          "t": [
+            4552.147,
+            4557.548
+          ],
+          "quote": "And that's why leaders like Visa, Stripe, Figma, and even Anthropic rely on Navan these days.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": false,
+      "how_described": "本集两次顺带提及：前列模型多为中国模型，引出国家安全与护栏的讨论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1178.766,
+            1184.612
+          ],
+          "quote": "When you look at OpenRouter, I think the top six models today are Chinese models and they're incredible quality.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集以 Meta 为例说明「年轻时不必什么都自建、使用量过阈值自建才经济」，并提到其造芯片已超五年（MTIA 项目）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 483,
+          "t": [
+            2171.98,
+            2184.607
+          ],
+          "quote": "And that's very interesting to me because we have obviously worked at a huge recommendation system in the world, Meta, and we are very eager to see how that transformed into a new economy for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2321.041,
+            2330.573
+          ],
+          "quote": "We've seen OpenAI come out with Jalapeno, terrible name, Anthropic talking to Samsung about building their own chips, DeepSeeker building their own chips, Zuck came out with Meta building their own chips.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2361.868,
+            2369.013
+          ],
+          "quote": "But over time, when the business grows very big, right, so I still remember when Meta was young, they don't build everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2981.745,
+            2983.386
+          ],
+          "quote": "So I have built data centers at Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 809,
+          "t": [
+            3571.251,
+            3574.132
+          ],
+          "quote": "As I said, OpenAI, Anthropic, DeepSeq, Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 811,
+          "t": [
+            3575.973,
+            3582.016
+          ],
+          "quote": "I think Meta has been building their chips for more than five years, way more than five years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 813,
+          "t": [
+            3588.6,
+            3591.141
+          ],
+          "quote": "Because Meta has been investing in AI for a long time, pre-gen AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 815,
+          "t": [
+            3595.303,
+            3598.825
+          ],
+          "quote": "And Meta has been building other hardware as well in the past.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "specialized-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "专用智能 (specialized intelligence)",
+      "file": "专用智能",
+      "primary": true,
+      "how_described": "本集核心主张：智能是数据的派生物，而大部分私有数据锁在企业里未被激活；未来不属于少数 AGI 通用模型，而属于数百万个专门化模型——每个应用、每个用例一个。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            437.471,
+            439.532
+          ],
+          "quote": "But why bother specialized intelligence?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            483.859,
+            498.583
+          ],
+          "quote": "If you look at the space, then it becomes very interesting because majority of data is not being activated to derive any intelligence, and that's where we believe in, is to activate that data, and we believe in the future of the frontier of the intelligence, actually private intelligence, our specialized intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            644.189,
+            645.889
+          ],
+          "quote": "We talk about this specialized intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1118.537,
+            1123.02
+          ],
+          "quote": "Especially Fireworks, we are a specialized intelligence platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1687.368,
+            1702.819
+          ],
+          "quote": "And then there's a specialized intelligence that actually help us advance in history to think differently, to create a new paradigm of living or a new paradigm of doing business and shaping the industry.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2213.556,
+            2216.717
+          ],
+          "quote": "Again, we view ourselves as delivering these specialized intelligence where",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2471.97,
+            2479.272
+          ],
+          "quote": "But if there's no supply chain problem because the company like us are providing this specialized intelligence platform layer, then he doesn't need to worry about it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 776,
+          "t": [
+            3401.258,
+            3410.67
+          ],
+          "quote": "We're in the adoption curve where a lot more companies, they are in the AI space, start to seriously think about moving to specialized intelligence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集把 AGI 定义为「存在某一个模型，能以最好的方式解决所有问题」，Lin 明确说这样的世界不会到来，并把通用大模型比作输电线——重要但不会取代一切。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            523.429,
+            528.475
+          ],
+          "quote": "That's interesting because I view Anthropic as a company fully believing AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            528.776,
+            534.964
+          ],
+          "quote": "The definition of AGI is there's this one model that can solve all the problem in the best way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            535.264,
+            537.387
+          ],
+          "quote": "That, to me, that's the definition of AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            705.253,
+            719.505
+          ],
+          "quote": "Can you help me understand, you know, as a podcaster, I specialize in asking basic questions, so forgive me, but why then do people like Dario, like Sam, like Larry and Sergey talk about AGI in the way that they do as an inevitable?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1251.645,
+            1258.13
+          ],
+          "quote": "And I really believe the future will not be a few small number of AGI models dominating the world.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集称推理市场增长极其疯狂、将成为世界最大市场之一；Fireworks 在模型调优后进一步针对推理部署优化，并追求训练与推理系统间的 0KLD 比特级等价以兑现训练投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            55.078,
+            56.639
+          ],
+          "quote": "Number two, the inference market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            413.228,
+            418.871
+          ],
+          "quote": "So with fireworks, you saw something in inference that the world was not focused on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1134.587,
+            1137.81
+          ],
+          "quote": "And then we further optimize for inference deployment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2187.408,
+            2195.653
+          ],
+          "quote": "Do people work with just one provider in the inference space like you, or do they work with you and with Together or anyone else in the space?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2210.515,
+            2213.496
+          ],
+          "quote": "But we don't view ourselves as an inference provider.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2736.847,
+            2742.249
+          ],
+          "quote": "The second is when we deliver those models in inference, it's also quality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2757.818,
+            2767.745
+          ],
+          "quote": "And what it means is between the training system and inference system, when models move over, we have bit equivalence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2776.932,
+            2786.86
+          ],
+          "quote": "But the reason we push that, we deliver that, and the reason we push that is because we know primary business is in model customization and inference of customized model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2792.144,
+            2800.051
+          ],
+          "quote": "And then if cross-training inference boundary is not bid-wise equivalent, they just drop the quality down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 850,
+          "t": [
+            3718.767,
+            3722.931
+          ],
+          "quote": "And these really accelerate the execution of inference and so on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集把它视为 Fireworks 的根本运营原则：「开放性把控制权交给了用户」——模型权重发布后完全归你、可随意修改；开放模型跨过质量阈值后，用少量企业独特数据调优即可胜过通用模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            775.678,
+            794.412
+          ],
+          "quote": "Open source in the last, I would say, three months, we've all realized is actually accelerating so fast and the capabilities have increased to such an extent that it's not comparable quite, but it's getting 90% as efficient with 15 times to chum ass statement, more cost effective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            794.833,
+            797.835
+          ],
+          "quote": "Are power lines good businesses in a world of open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            798.147,
+            800.048
+          ],
+          "quote": "So here's how I view open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            840.216,
+            847.898
+          ],
+          "quote": "So that is a fundamental different operating principle that we believe in because of our roots in open source before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            930.115,
+            945.009
+          ],
+          "quote": "When 90% of enterprise workflows can be done, as you said there, the incredible array of functions that you now use open source for, with open models though, the usage for frontier models will not be as large as it was if it was needed for everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1188.396,
+            1193.561
+          ],
+          "quote": "Do we have serious national security concerns when analyzing the power of Chinese open source?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集硬核段落：把 RL 后训练拆成训练器（调整权重产出新模型版本）与 RL rollout（部署新版本与合成/真实编码环境交互拿奖励）两块，Fireworks 为 Cursor 设计了跨五、六个数据中心区域的完全分布式系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            1945.56,
+            1954.106
+          ],
+          "quote": "So together, we figured out a very smart way to drive their training process is they do massive post-training, which is reinforcement learning-based.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1954.526,
+            1958.069
+          ],
+          "quote": "And reinforcement learning, we break that into two pieces.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集给出核心预测：未来三年 token 成本降 10 倍、驱动 100 倍使用量；并非所有 token 平等，应按任务建立评估 token 经济学的最佳实践——有的模型便宜 2 倍却要用 2 倍的量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            12.105,
+            23.856
+          ],
+          "quote": "I do think the cost of token will go down drastically, 10x cost reduction in the next three years, and this 10x cost reduction will drive 100x usage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2233.881,
+            2236.702
+          ],
+          "quote": "What will that token count be end of next year?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2532.537,
+            2537.28
+          ],
+          "quote": "I do think the cost of token will go down drastically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2587.811,
+            2589.992
+          ],
+          "quote": "How much will token cost come down?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2599.777,
+            2610.683
+          ],
+          "quote": "I think we should establish a best practice to evaluate the token economy per task because different models have different way of spit out tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2635.352,
+            2642.555
+          ],
+          "quote": "And the second is for one token, and how to do that is you need to customize the model to solve your problem especially better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2645.736,
+            2656.779
+          ],
+          "quote": "And second is for each token spit out from those models and processed by those models, we also specialize in making the unit economists much better through our platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2690.273,
+            2695.414
+          ],
+          "quote": "You said there about token efficiency and how you enable your customers to be much more efficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 858,
+          "t": [
+            3750.418,
+            3752.46
+          ],
+          "quote": "For solving tasks, we should need less token.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1002,
+          "t": [
+            4330.033,
+            4337.618
+          ],
+          "quote": "The token maxing is just a thing in time, but we're quickly moving to ROI maxing, which is all about running a business.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集最有信息量的观察：SaaS 时代 PMF 与可持续业务几乎是同义词，现在裂成两个概念——很多公司有 PMF、客户愿意付钱，但一旦扩展就可能「扩展到破产」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            962.027,
+            967.048
+          ],
+          "quote": "During SaaS time, product market fit and a durable business almost are equivalent to each other.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            967.428,
+            969.189
+          ],
+          "quote": "The hardest thing is find product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            979.346,
+            983.391
+          ],
+          "quote": "Now, product market fit and durable business are two separate concepts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            983.751,
+            986.935
+          ],
+          "quote": "For startups, you know, we have great companies that have product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3302.109,
+            3307.491
+          ],
+          "quote": "Optimize for growth requires a lot of business planning, assuming there's product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 986,
+          "t": [
+            4254.981,
+            4264.166
+          ],
+          "quote": "And we want to devote all our effort and focus on building product, work with the customer, validate product market fit, and go from there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集建议：无论开放还是封闭模型，企业都应自建护栏，因为模型提供商会把自己的判断和品味融入训练，无法保证与你匹配。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1198.022,
+            1203.884
+          ],
+          "quote": "Once the model is open, you can put all kind of guardrails specialized to your business around.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集提到 GPU 与内存等底层基础设施处于严峻供应链约束之下、未来两三年会缓解，也是 Fireworks 分布式 RL 系统利用分散 GPU 的基础。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 453,
+          "t": [
+            2044.705,
+            2052.509
+          ],
+          "quote": "So numerically, it's still sound, while we are not limited by a very expensive deployment of GPU fleets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2124.19,
+            2128.073
+          ],
+          "quote": "What will be the NVIDIA GPU prize two years later?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2988.309,
+            2990.95
+          ],
+          "quote": "And building a GPU-native data center is also interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3032.556,
+            3046.924
+          ],
+          "quote": "So, but it's a great combination between a Flops Intense GPU and SRAM Intense ASICs because Flop Intense is really good for first half of LN processing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>26</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>27</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(16:33起):本集提到 Meta 做了一项研究，显示智能体能自主成功完成任务的时间跨度大约每四个月翻一倍，这条指数曲线已持续近十年
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(65:41起):本集把它说成:近期裁掉了许多 PM 的大公司之一，释放出非技术型 PM 正被淘汰的市场信号。
 - **[[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]]**(00:12起):本集说理解 meta 比发帖本身更耗时，指的是理解当前更大的争论是什么，把你的论点和世界观包装进当下正在发生的对话里才能传播。
+- **[[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]]**(36:11起):本集以 Meta 为例说明「年轻时不必什么都自建、使用量过阈值自建才经济」，并提到其造芯片已超五年（MTIA 项目）。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(00:30起):本集把它说成:一种更具攻击性、由创始人绝对控制的产品主导文化,与工程主导、共识驱动的 Google 形成鲜明对比。
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(59:10起):本集提到:由于数据中心大爆发引发电网新建和全美电工严重短缺,Meta 正在推出计划,培训更多人成为电工。
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(17:40起):本集指出其因 AI 成本飙升股价下跌 10%，并讨论了它试图将多余算力租出去的算力战略，但面临核心社交媒体业务被颠覆的极大风险。
@@ -53,7 +54,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*26 集*
+*27 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司(提及)
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -64,6 +65,7 @@ unlisted: true
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为被讨论公司(提及)
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
 - [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]] — 作为概念(提及)
+- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]] — 作为被讨论公司(提及)
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
@@ -86,9 +88,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Claude Code]] · [[推理]] · [[Lenny]] · [[Cursor]] · [[Microsoft]] · [[NVIDIA]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[推理]] · [[Claude Code]] · [[Cursor]] · [[NVIDIA]] · [[Lenny]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":101,"OpenAI":88,"Google":35,"Claude Code":45,"推理":4,"Lenny":66,"Cursor":45,"Microsoft":22,"NVIDIA":28}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":103,"OpenAI":89,"Google":35,"推理":4,"Claude Code":46,"Cursor":46,"NVIDIA":29,"Lenny":66,"AGI":18}</script>
 
 <script>
 (function(){

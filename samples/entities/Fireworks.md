@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Fireworks</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Fireworks">FI</div><div class="pi"><h1 class="pt">Fireworks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Fireworks">FI</div><div class="pi"><h1 class="pt">Fireworks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]]**(00:34起):本集嘉宾 Lin Kuo 创办的专门化智能平台：帮企业调优开放模型并针对其工作负载做推理部署（质量、速度、成本三维优化，主张「一人适配」），四年内做到 10 亿美元 ARR，每天处理超 40 万亿 token。
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(00:13起):本集说 Fireworks 赚的钱比 Base10 多得多，资本效率更高、有在业务上盈利的意愿，三年半达到 10 亿美元 ARR，是理解 PyTorch 的天才团队向上移动技术栈做微调和定制
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(53:52起):本集作为基础设施层投资的例子，说无论谁在应用层获胜都会用Fireworks
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(01:31起):本集开头广告中称其为许多世界领先 AI 产品背后的专业智能平台
@@ -23,8 +24,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
+- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]] — 作为被讨论公司
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为被讨论公司
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
@@ -33,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harry Stebbings]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[前沿模型]] · [[Sequoia]] · [[推理]] · [[SpaceX]] · [[OpenRouter]]
+[[Harry Stebbings]] · [[Cursor]] · [[Anthropic]] · [[OpenRouter]] · [[智能体]] · [[推理]] · [[OpenAI]] · [[NVIDIA]] · [[前沿模型]] · [[Sequoia]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":11,"智能体":1,"Anthropic":101,"OpenAI":88,"Cursor":45,"前沿模型":7,"Sequoia":4,"推理":4,"SpaceX":12,"OpenRouter":8}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":12,"Cursor":46,"Anthropic":103,"OpenRouter":9,"智能体":1,"推理":4,"OpenAI":89,"NVIDIA":29,"前沿模型":7,"Sequoia":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,854 @@
+{
+  "episode_id": "2026-07-20-howiai-how-the-founder-of-morning-brew-built-a",
+  "podcast": "How I AI",
+  "date": "2026-07-20",
+  "tags": [
+    "内容创作",
+    "AI 工作流",
+    "员工倡导",
+    "分发与营销",
+    "AI slop"
+  ],
+  "categories": [
+    "AI 编程",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "alex-lieberman",
+      "type": "person",
+      "role": "host",
+      "name": "Alex Lieberman",
+      "file": "Alex Lieberman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            91.388,
+            101.234
+          ],
+          "quote": "Today, I have Alex Lieberman at 10X, and he's going to show us how he climbs Cringe Mountain, aka builds a content machine at his company by using AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2524.481,
+            2530.425
+          ],
+          "quote": "I am Business Barista on X, Alex Lieberman on LinkedIn, and 10X is our company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claire-veau",
+      "type": "person",
+      "role": "cohost",
+      "name": "Claire Veau",
+      "file": "Claire Veau",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            85.644,
+            90.988
+          ],
+          "quote": "I'm Claire Veau, product leader and AI obsessive here on a mission to help you build better with these new tools.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "10x",
+      "type": "company",
+      "role": "company",
+      "name": "10X",
+      "file": "10X",
+      "primary": true,
+      "how_described": "本集说 10X 是一家应用 AI 公司,帮助中型市场和企业级公司完成 AI 转型,业务从战略到前置部署工程,完全自筹资金(bootstrapped),正在其上构建一家媒体公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            91.388,
+            101.234
+          ],
+          "quote": "Today, I have Alex Lieberman at 10X, and he's going to show us how he climbs Cringe Mountain, aka builds a content machine at his company by using AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            231.676,
+            237.76
+          ],
+          "quote": "So basically there have been two problems within the context of 10X that I've been trying to solve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            237.78,
+            244.984
+          ],
+          "quote": "And just for folks that don't know what 10X is, applied AI company helping mid-market and enterprise companies go through their AI transformation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            324.094,
+            342.479
+          ],
+          "quote": "So overall, I am building a media company on top of 10X, and I think that, you know, I'm gonna do all the obvious things, like bring full-time creators onto staff, writers, we're gonna have a newsletter, all these things, but I don't think enough companies think about turning their own employees into creators if they want to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            516.104,
+            529.254
+          ],
+          "quote": "So the alternative for our team at 10X, and we can talk a little bit in a bit about how we're incentivizing people to create, but the alternative before this content machine was people just not creating content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            546.985,
+            559.191
+          ],
+          "quote": "And even though we're talking about it in the context of using AI for content, our view at 10X and my view is like you kind of use this kind of process mapping and then rebuilding for any process in your work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            831.468,
+            846.836
+          ],
+          "quote": "And the whole idea is that the content machine, which is just a directory of skills, it is a plugin in, you can either do it through the CLI or through Claude Code or Cowork, is it is connected to all of my systems of record at 10x.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1417.51,
+            1426.214
+          ],
+          "quote": "And just so you can see, because this may be helpful, like the content machine lives as a plugin in 10X's...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1945.77,
+            1949.773
+          ],
+          "quote": "And so we literally just started yesterday, 10X's version of this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1954.316,
+            1957.299
+          ],
+          "quote": "So it's called the 10X Creator Cup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1958.159,
+            1961.044
+          ],
+          "quote": "And it's a month long challenge to get everyone at 10X posting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2034.93,
+            2037.651
+          ],
+          "quote": "And I said, 10X, we're playing the game on hard mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2040.313,
+            2043.934
+          ],
+          "quote": "Yeah, like I think, so 10X is fully bootstrapped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2087.129,
+            2101.054
+          ],
+          "quote": "And so to me, even if the 10X Creator Cup does not generate any leads for our business, if it just leads to more engineers knowing about 10X and applying to 10X, and in a perfect world, if we hire one engineer,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2101.854,
+            2113.805
+          ],
+          "quote": "From this whole campaign, well, then the $5,000 we would have paid at, we're paying out for 10X Creator Cup is worth it so many times over, because you think about what you'd pay a recruiting agency to get one engineer, it makes it entirely worth it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2114.285,
+            2126.917
+          ],
+          "quote": "And so, yeah, like, I just believe that, like, we should lean into the bootstrapping thing, which is, like, have an underdog mentality, use guerrilla marketing, us all in this together to kind of create this aura around 10X.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2285.448,
+            2288.229
+          ],
+          "quote": "And that's why we pay our engineers like salespeople at 10X.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2318.611,
+            2323.173
+          ],
+          "quote": "We've had two other 10X folks on the podcast, both amazing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2333.039,
+            2335.36
+          ],
+          "quote": "I really messed up the flow of the 10X guests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2524.481,
+            2530.425
+          ],
+          "quote": "I am Business Barista on X, Alex Lieberman on LinkedIn, and 10X is our company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2530.785,
+            2535.889
+          ],
+          "quote": "So if you're a big business, you need help with AI transformation, hit us up at 10X.co.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "content-machine",
+      "type": "concept",
+      "role": "concept",
+      "name": "内容机器 (content machine)",
+      "file": "内容机器",
+      "primary": true,
+      "how_described": "本集把它说成:一组技能(skill)组成的插件,可通过 CLI 或 Claude Code / Cowork 运行,连接 Slack、Notion、Linear、Git、Gmail 等记录系统,五步流程(Oracle→研究助手→面试小组→以你的声音起草→写作者委员会)把创作者的时间价值最大化并防 AI slop。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.305,
+            26.108
+          ],
+          "quote": "And so that was kind of the genesis of this content machine idea was optimizing for these two problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            32.842,
+            35.364
+          ],
+          "quote": "So the first step of the content machine is called the Oracle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            59.018,
+            69.51
+          ],
+          "quote": "The only time in my view that the content machine actually produces slop is more of an indictment of the person not sharing good enough ideas during the interview step than the AI writing bad stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            91.388,
+            101.234
+          ],
+          "quote": "Today, I have Alex Lieberman at 10X, and he's going to show us how he climbs Cringe Mountain, aka builds a content machine at his company by using AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            351.225,
+            356.048
+          ],
+          "quote": "And so that was kind of the genesis of this content machine idea was optimizing for these two problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            516.104,
+            529.254
+          ],
+          "quote": "So the alternative for our team at 10X, and we can talk a little bit in a bit about how we're incentivizing people to create, but the alternative before this content machine was people just not creating content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            813.79,
+            817.074
+          ],
+          "quote": "And so what came out of that was this thing called the content machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            825.265,
+            827.826
+          ],
+          "quote": "So basically here is how the content machine works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            828.307,
+            830.848
+          ],
+          "quote": "So the first step of the content machine is called the Oracle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            831.468,
+            846.836
+          ],
+          "quote": "And the whole idea is that the content machine, which is just a directory of skills, it is a plugin in, you can either do it through the CLI or through Claude Code or Cowork, is it is connected to all of my systems of record at 10x.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            892.258,
+            903.621
+          ],
+          "quote": "And then the other half of them are doing what's called internet reading where I have provided the content machine a list of the accounts that I follow on X, LinkedIn, and just the websites I go to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1010.663,
+            1012.965
+          ],
+          "quote": "And so the way that this works with the content machine is...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1013.765,
+            1022.812
+          ],
+          "quote": "Basically the entire process, like all of these steps are what live in the content machine repo that everyone on our team has kind of pulled down onto their computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1073.721,
+            1077.482
+          ],
+          "quote": "And so what this is, is basically when I launched the content machine, it's studied.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1111.258,
+            1124.903
+          ],
+          "quote": "And then we'll get to it in a minute, but the other really important piece of this whole process is when a piece of content is drafted by the content machine for me, I will give it feedback and it will have a reinforcing loop from that feedback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1125.303,
+            1130.264
+          ],
+          "quote": "And so one other file that's in the content machine is the content lessons markdown file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1163.851,
+            1173.938
+          ],
+          "quote": "So the way that the content machine works is basically after a piece of content is drafted and then it goes through the editing process, which I'll show you in a second, I get the final piece of content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1270.439,
+            1272.72
+          ],
+          "quote": "The content machine asks, what do you want to repurpose it into?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1412.928,
+            1417.07
+          ],
+          "quote": "So basically, what we're looking at is the content machine running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1417.51,
+            1426.214
+          ],
+          "quote": "And just so you can see, because this may be helpful, like the content machine lives as a plugin in 10X's...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1524.291,
+            1526.654
+          ],
+          "quote": "And just so you know here, the other thing in the content machine is,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1534.58,
+            1541.265
+          ],
+          "quote": "And so part of the content machine is when everyone at the company sets it up for the first time, what's created is the vault.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1718.998,
+            1727.061
+          ],
+          "quote": "This whole content machine is built on the fact that the interview I do with the panel is just turned into a large markdown file of the transcript.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1743.569,
+            1754.395
+          ],
+          "quote": "And so the only time in my view that the content machine actually produces slop is more of an indictment of the person not sharing good enough ideas during the interview step than the AI writing bad stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1810.855,
+            1822.862
+          ],
+          "quote": "And then my view, and this is something I want to add to the content machine, is right now the content machine is not, when I run the Oracle, it's not pulling previous pieces of content that I should think about repurposing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1868.59,
+            1875.073
+          ],
+          "quote": "So can you just walk us through some like the non-AI parts of your content machine and some things you're experimenting with at the company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2541.562,
+            2545.708
+          ],
+          "quote": "As far as the content machine is telling me, you are hiring all of them.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 垃圾内容 (AI slop)",
+      "file": "AI 垃圾内容",
+      "primary": true,
+      "how_described": "本集说 AI slop 唯一产出的情况是那个人在面试环节没分享出足够好的想法——『人们其实是在指着自己说,我不够聪明』;防 slop 的核心是训练机器只使用创作者自己的话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            72.994,
+            80.422
+          ],
+          "quote": "My take is that AI slop is hilariously people just pointing the finger at themselves and saying, I'm not intelligent enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            102.295,
+            103.836
+          ],
+          "quote": "He doesn't get AI slop out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            276.388,
+            285.53
+          ],
+          "quote": "And what I've thought a lot about is how can I re-engineer my content process to be AI native or AI assisted while making sure that I'm not putting out AI slop?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            934.635,
+            950.547
+          ],
+          "quote": "And going back to the point of even if you believe that AI will create AI slop and you don't want it drafting your content, just helping you go from blank page to concrete idea, I think lowers the friction so much that you'll actually get in the habit of creating.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1242.549,
+            1249.132
+          ],
+          "quote": "So it's like David Perel, Sean Puri, Morgan Housel, the AI slop allergist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1760.063,
+            1767.486
+          ],
+          "quote": "My take is that AI slop is hilariously people just pointing the finger at themselves and saying, I'm not intelligent enough.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "employee-advocacy",
+      "type": "concept",
+      "role": "concept",
+      "name": "员工倡导 (employee advocacy)",
+      "file": "员工倡导",
+      "primary": true,
+      "how_described": "本集说它是鼓励全员在 LinkedIn 发帖的玩法,StoryArb 的六到八周活动带来了 40% 的入站线索;10X 用『Creator Cup』积分赛落地,并将其作为自筹资金公司的招聘武器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 360,
+          "t": [
+            1875.513,
+            1882.336
+          ],
+          "quote": "So this actually, this content, first of all, I do not want to claim to be the inventor of employee advocacy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fde",
+      "type": "concept",
+      "role": "concept",
+      "name": "FDE",
+      "file": "FDE",
+      "primary": true,
+      "how_described": "本集说 FDE(驻在客户现场帮企业落地 AI 的工程师)比以往更重要,因为 AI 转型只能靠理解企业业务背景来实现;现场演示的爆点就是 Aaron Levy 与 Ethan Mollick 关于『FDE 是不是万能解药』的公开交锋。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            1509.073,
+            1516.362
+          ],
+          "quote": "Aaron Levy versus Ethan Mollick talking about like, are FDE is the solution to every enterprise's problems versus not?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流映射 (workflow)",
+      "file": "工作流映射",
+      "primary": true,
+      "how_described": "本集说方法论是先原原本本画出当前流程、再按零约束理想世界重画,很多效率提升不需要 AI 就能找到,AI 只是逼你梳理流程的强制力;这套方法适用于任何工作流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            104.096,
+            108.439
+          ],
+          "quote": "This is an awesome workflow for anybody trying to market their company and get an edge on distribution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            678.748,
+            681.71
+          ],
+          "quote": "It is like taking this workflow first approach.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            694.618,
+            703.544
+          ],
+          "quote": "The other thing that I recommend to people is I say, like, don't workflow what you do now, given your current constraints.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            704.064,
+            714.268
+          ],
+          "quote": "Workflow, what you would do in an ideal world, given no constraints, like given no constraints, of course you would cut all this content into multi-channel, like little micro content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            720.591,
+            724.893
+          ],
+          "quote": "And so I think those two things, writing out your workflow and then also like removing",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            725.653,
+            728.475
+          ],
+          "quote": "Existing constraints from how you design the workflow is really important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1289.432,
+            1290.633
+          ],
+          "quote": "One, map your workflow.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "morning-brew",
+      "type": "company",
+      "role": "company",
+      "name": "Morning Brew",
+      "file": "Morning Brew",
+      "primary": false,
+      "how_described": "本集提到 Alex 大学时创办 Morning Brew,做了十年互联网内容,卖掉之后一度很痛苦。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            250.207,
+            256.573
+          ],
+          "quote": "I have been creating content on the internet for the last 10 years, basically since I started Morning Brew when I was in college.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1489.875,
+            1492.678
+          ],
+          "quote": "I said to someone on a call, after I sold Morning Brew, I was miserable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2379.999,
+            2387.262
+          ],
+          "quote": "But I think we're in this age, like people have always talked about when we're working on Morning Brew, like someone's going to build the one-of-one newsletter.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到内容机器可以通过 Claude Code 或 Cowork 运行;还举了银行的人用 Claude Code 一周重建 McKinsey 说要六个月做的东西的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 147,
+          "t": [
+            831.468,
+            846.836
+          ],
+          "quote": "And the whole idea is that the content machine, which is just a directory of skills, it is a plugin in, you can either do it through the CLI or through Claude Code or Cowork, is it is connected to all of my systems of record at 10x.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1481.266,
+            1483.849
+          ],
+          "quote": "He said he rebuilt it in a week with Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2192.335,
+            2198.42
+          ],
+          "quote": "Like if you think about everyone surrounding Claude Code and cowork, whether it's Tariq or Boris or Felix, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说 Anthropic 在『员工网红』上做得极好——围绕 Claude Code 的一批员工成了品牌延伸,因为是人在谈产品而不只是公司,因此更被信任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1685.688,
+            1688.589
+          ],
+          "quote": "OpenAI and Anthropic already did versions of the same thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2060.596,
+            2062.117
+          ],
+          "quote": "Like OpenAI or Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2179.345,
+            2191.995
+          ],
+          "quote": "If I think about what even Anthropic has done really well on the internet is they've basically been incredible, whether planned or not, at employee influencer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 和 Anthropic 作为有『实验室光环』的对比对象,以及 OpenAI 已做过类似前置部署工程组织的事情。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1685.688,
+            1688.589
+          ],
+          "quote": "OpenAI and Anthropic already did versions of the same thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2060.596,
+            2062.117
+          ],
+          "quote": "Like OpenAI or Anthropic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

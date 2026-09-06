@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>29</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,6 +16,7 @@ unlisted: true
 - **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(00:05起):本集把它说成：世界上最具影响力的技术公司，真诚地是一个「只在美国才能发生」的故事；它在通用计算主导的时代逆流而上，押注加速计算和 GPU。
 - **[[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|《Chamath 谈 AI：别信末日论，打破寡头垄断》]]**(38:03起):本集把它说成:迎住了开源时代时刻的公司,引领美国本土的开源权重(如 Nemotron 系列)生态。
 - **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(00:34起):本集把它说成:多年来致力于构建开放 AI 系统,自研了 Nemotron 大语言模型系列,并为企业提供安全运行时 OpenShell 以及从云到本地的全套部署方案
+- **[[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]]**(18:01起):本集多次借黄仁勋展开：Jensen 说「没有所谓的专门化的通用公司」，提出「五层 AI 蛋糕」，并因美国缺本土开放模型而训练 Nemotron——Lin 解读为补供应链缺口，与本集主题（专用智能平台层）直接相关。
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(00:00起):本集把它说成:目前世界上最有价值的公司之一,制造支撑 AI 与数据中心运作的底层芯片和计算机,目前在中国市场的销售额约等于零。
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(01:24起):本集提到它今天发布了一封名为《开放权重与美国 AI 领导力》的公开信，并由其创始人 Jensen（黄仁勋）专门为此注册推特账号发布，旨在呼吁保护开源 AI。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(00:14起):本集主角，被描述为从教科书自学起步、以加速计算为核心视角穿越技术周期的 AI 芯片巨头，其物理 AI 业务已接近 100 亿美元。
@@ -52,13 +53,14 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*28 集*
+*29 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为被讨论公司
 - [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|《Chamath 谈 AI：别信末日论，打破寡头垄断》]] — 作为被讨论公司
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司
+- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]] — 作为被讨论公司
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为被讨论公司
@@ -87,9 +89,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Microsoft]] · [[推理]] · [[GPU]] · [[护栏]] · [[Google]] · [[Meta]] · [[ChatGPT]]
+[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[推理]] · [[GPU]] · [[护栏]] · [[Microsoft]] · [[Google]] · [[Meta]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":101,"OpenAI":88,"智能体":1,"Microsoft":22,"推理":4,"GPU":11,"护栏":2,"Google":35,"Meta":26,"ChatGPT":50}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":103,"OpenAI":89,"智能体":1,"推理":4,"GPU":12,"护栏":2,"Microsoft":22,"Google":35,"Meta":27,"Cursor":46}</script>
 
 <script>
 (function(){

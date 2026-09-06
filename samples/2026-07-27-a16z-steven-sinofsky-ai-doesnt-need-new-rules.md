@@ -129,7 +129,7 @@ Sinofsky 提了一个很务实的替代路径：**不需要新造 AI 专属法�
 
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同嘉宾:Sofia Puccini · 同公司:Anthropic · 同概念:open source</span>
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同公司:Anthropic · 同概念:open source</span>
-- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同公司:Anthropic · 同概念:open source</span>
+- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同公司:Anthropic · 同概念:open source</span>
 
 </div>
 <div class="pd-ex">

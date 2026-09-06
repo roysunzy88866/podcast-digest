@@ -1,0 +1,135 @@
+===标题===
+10X 打造「内容机器」：让全公司员工都能持续发帖的 AI 工作流
+===导语===
+Morning Brew 联合创始人、10X 创始人 Alex Lieberman 展示他用 AI 搭建的端到端内容生产流程，以及不产出 AI 垃圾内容的关键设计。
+===正文===
+你公司最被浪费的营销渠道，可能就是你的员工。这一集的 How I AI 里，主持人 Claire Vo 请来了 Alex Lieberman——他大学时创办了 Morning Brew，现在经营一家帮企业做 AI 转型的应用 AI 公司 10X。他现场演示了自己搭的「内容机器」：从找灵感、采访、起草到打分修订全流程跑一遍，而且当场承诺「节目结束后马上把这篇发出去」。
+
+## 他要解决的两个问题
+
+第一个是他自己：他做内容十年，内容给了他大量机会，但每天最多只能拿四分之一的时间来创作，所以要想怎么把这 25% 的时间价值最大化，同时不发布那种「听起来和互联网上所有东西都一样」的 AI 垃圾内容。第二个是公司层面：他认为 AI 时代技术越来越商品化，商业护城河变少，而「可信的分发渠道」是仅存的护城河之一，所以每家公司都该在业务之上再建一家「媒体公司」——不只是招全职创作者，更要让有全职工作的员工也能轻松成为创作者 [03:51 Alex Lieberman]。
+
+## 第一步永远是画流程
+
+他的方法不是直接上 AI，而是先把现有的内容流程完整画出来：找灵感 → （需要的话）做研究 → 把想法倾倒出来 → 选锚定格式 → 写初稿 → 修改 → 发布 → 按「内容金字塔」切成微内容分发到各平台。然后问两个问题：AI 放在哪些环节才合理？每个环节里 AI 应该当驱动者还是副驾驶？[09:22 Alex Lieberman]
+
+Claire 补充了一个关键建议：不要按你现在的约束条件画工作流，要按「零约束的理想世界」来画——理想世界里你当然会有一位随时在线的研究员帮你挖点子。Alex 说，他和客户做这种流程映射时发现，很多效率提升甚至根本不需要 AI 就能找到，AI 只是逼着大家把流程梳理了一遍的「强制力」；而能做到这一步的前提，是他自己做过几千次内容创作——没有垂直领域的专业知识，你根本无法重新想象这项工作 [12:28 Alex Lieberman]。
+
+## 内容机器怎么跑
+
+重建出来的东西叫内容机器，本质是一组技能的插件（可以通过 CLI 或 Claude Code 使用），连着他所有的记录系统：Slack、Notion、会议记录、Linear、Git、Gmail。流程分几步：
+
+**1. Oracle（神谕）**：扫描过去七天所有渠道的信息，用一套评分系统排出内容爆点——有故事轶事加分、有鲜明观点加分、有具体例子加分。每天产出 15 个爆点，一半来自内部系统，一半来自「互联网阅读」（扫描他关注的 X/LinkedIn 账号和网站近七天的内容）。没选中的点子全部进一个 Notion 数据库（vault）存着以后用。
+
+**2. 面试小组**：他把六位世界级采访者固化成技能人设——Tim Ferriss、Joe Rogan、Michael Barbaro、Barbara Walters、Howard Stern、Larry King——一个接一个就选定的话题向你提问，追问直到挖够具体细节和例子。他全程用语音转文字（Whisperflow）回答。如果对话题不熟，可以先跑研究助手拿到完整简报。
+
+**3. 用「你的声音」起草**：机器里有他个人的风格指南和 voice markdown 文件——后者是他所有表现最好的帖子被研究后的产物，包含语气、钩子公式、内容结构，以及他的头号写作规则「像给朋友发短信一样写」。还有一个 content lessons 文件：每次他给终稿反馈后，一个「lessons 循环」会对比原稿与新稿的差异，提炼可抽象的教训（比如「某某句式太俗」），经他确认后写入文件，以后每次编辑都会先查这个文件避免重犯 [19:58 Alex Lieberman]。
+
+**4. 写作者委员会打分**：六位写作者人设（包括一位「AI 垃圾内容过敏者」）通读草稿打一到十分，低于九分就自动进入修订循环，直到十分才交付。之后可以一句话改写成其他形式，比如「三条短推文、两条长 LinkedIn 帖子」，机器会按他过去各格式的写法来写。
+
+**不产出垃圾内容的核心秘密**，Alex 说是：整台机器建立在「访谈转写稿应该是唯一被使用的文字」之上——AI 的工作只是给这块黏土塑形，不是发明新东西。所以内容机器产出垃圾的唯一情况，是那个人在访谈环节没分享出足够好的想法。「AI slop 这件事可笑之处在于，人们其实是在指着自己说：我不够聪明」[29:20 Alex Lieberman]。
+
+## 非 AI 的那一半：Creator Cup
+
+光有工具不够，还得改变人的行为。Alex 之前在另一家公司 StoryArb 测过一场「Own the Internet」活动：鼓励全员发 LinkedIn 帖（唯一规则是 50% 内容必须与业务相关），结果那个季度带来了公司 40% 的全部入站线索和大量招聘流量 [32:14 Alex Lieberman]。
+
+昨天他刚在 10X 启动同款：为期一个月的「Creator Cup」，发帖得 10 分、与同事帖子互动得 3 分、每周有联合创始人评的「编辑之选」加 50 分；还有周赛——比如本周的 Full House：公司至少 70% 的人发一次帖就解锁奖池，人人得一张彩票抽一人赢几百美元。设计的关键是不让它变成单纯的曝光量竞赛，让「参与本身就有回报」。这周要发 5000 美元奖金，但账很好算：10X 完全自筹资金、没有实验室光环和融资曝光，招顶尖工程师靠的就是让人才「展示而非讲述」自己的工作——哪怕活动一条线索都没带来，只要能因此雇到一名工程师，比起付给猎头公司的钱，这 5000 美元就值回票价无数倍 [35:01 Alex Lieberman]。他举 Anthropic 为例：围绕 Claude Code 的那些员工个体如今都是品牌延伸，「因为是他们在谈论产品，而不仅仅是公司，我对产品的信任度更高了」。
+
+Claire 补了一个尖锐的观点：很多 CEO 短视，怕员工太出风头被挖走——但恰恰是「没法谈论自己了不起的工作、没法建个人品牌」才是员工跳槽的头号原因。
+
+## 快问快答：好工程师与个人用法
+
+什么样的工程师最好？Alex 的答案：既有深度理解系统的基础功（很多年轻工程师全盘 AI 化但没有 staff/senior 级的知识底子），又有可塑性把工作流智能体化（很多资深工程师做不到这点）；此外，理解企业业务背景的前置部署工程师比以往更重要。10X 还有一个出格做法：**像给销售发薪那样给工程师发浮动薪酬**——大量外部人士骂他们疯了，但这是为了自我筛选出「愿意赌自己能力」的人，而且这让全员贴近技术前沿，因为他们的杠杆就来自理解技术能实现什么 [38:05 Alex Lieberman]。
+
+个人生活里，他给做招聘的妻子搭了定制招聘看板：每天一封邮件，根据她的履历和求职方向打分筛选出 10 个职位，从邮件里点一下就自动填写初始申请表；另一个是给十一个半月大的女儿做定制儿童绘本。
+
+被问到「AI 一直给你输出垃圾时怎么办」，他的诚实答案：要么「去他的，我自己写」——当花的时间不值得时干脆手写；要么投入大量时间把烂的地方逐条列出来质问它「这些教训我不是早教过你了吗，为什么没被记进 lessons 文件」——顺便承认，自己有时确实对 AI 挺混蛋的。
+
+## 本集带走
+
+- **先画流程再上 AI**：把现有工作流完整写出来，逐环节决定 AI 当驱动者还是副驾驶；而且按零约束的理想世界画，不按现状画。很多浪费不用 AI 就能找到，AI 只是逼你梳理流程的强制力。
+- **让 AI 只用你的话**：不产出 slop 的关键是访谈环节挖出你自己的真实观点和故事，AI 只负责塑形，不发明新内容——垃圾内容的根源是人没分享出好想法。
+- **固化你的声音 + 反馈循环**：用历史最佳帖子建 voice 文件，每次修改的反馈经 lessons 循环写成教训文件，机器不再重犯。
+- **没有专家就建专家委员会**：AI 让你近似实现「被最顶尖的采访者面试、被最挑剔的写作者审稿」，用打分门槛（低于 9/10 自动修订）强制质量。
+- **把员工变成创作者要靠机制**：全员发帖挑战 + 游戏化积分 + 小额奖池，目标不是曝光量竞赛，而是让参与本身有回报；对照一下雇一名工程师的猎头费，这笔钱怎么算都值。
+===金句===
+00:59 | Alex Lieberman
+EN | The only time in my view that the content machine actually produces slop is more of an indictment of the person not sharing good enough ideas during the interview step than the AI writing bad stuff.
+ZH | 在我看来，内容机器真正产出垃圾内容的唯一情况，更多是指控这个人没有在访谈环节分享足够好的想法，而不是 AI 写出了糟糕的东西。
+
+01:12 | Alex Lieberman
+EN | My take is that AI slop is hilariously people just pointing the finger at themselves and saying, I'm not intelligent enough.
+ZH | 我的看法是，AI 垃圾内容这件事可笑之处在于，人们其实只是在指着自己说：我不够聪明。
+
+03:44 | Alex Lieberman
+EN | In a world in which distribution is more important than ever before, I don't think that's necessarily the case or isn't most of the time.
+ZH | 在一个分发比以往任何时候都更重要的世界里，我不认为「造出来自然有人来」这回事还成立，或者说大多数时候不成立。
+
+05:13 | Alex Lieberman
+EN | In a post AI world where technology gets more commoditized than ever before, there are fewer moats in business. And I believe that trusted distribution is one of them.
+ZH | 在一个技术比以往任何时候都更商品化的 AI 后世界，商业中的护城河更少了，而我相信可信的分发渠道就是其中之一。
+
+06:43 | Claire Vo
+EN | And every single one of them I tell your number one marketing channel should be your employees.
+ZH | 我对他们每一位 CEO 都说，你的第一营销渠道应该是你的员工。
+
+07:28 | Alex Lieberman
+EN | And so her view is AI will raise the floor of bad writers, but then cap the ceiling of great writers.
+ZH | 所以她的观点是，AI 会提高糟糕写作者的下限，但会封住优秀写作者的上限。
+
+08:36 | Alex Lieberman
+EN | So the alternative before this content machine was people just not creating content.
+ZH | 所以在这台内容机器之前，替代方案就是人们干脆不创作内容。
+
+12:28 | Alex Lieberman
+EN | And AI was just like the force function to get them to do it. And then they find all of this waste in their process.
+ZH | 而 AI 只是促使他们去做这件事的强制力，然后他们就在自己的流程里发现了所有这些浪费。
+
+13:14 | Alex Lieberman
+EN | And so it shows you the importance of like being a subject matter expert and having vertical expertise. That knowledge, at least right now, is really needed.
+ZH | 这向你展示了成为领域专家、拥有垂直专业知识的重要性——这种知识，至少在现在，是真正被需要的。
+
+15:34 | Alex Lieberman
+EN | Just helping you go from blank page to concrete idea, I think lowers the friction so much that you'll actually get in the habit of creating.
+ZH | 仅仅是帮你从空白页面走到具体想法，我认为这就把摩擦降低到让你真正养成创作习惯的程度。
+
+21:29 | Alex Lieberman
+EN | Two, with AI, you can bring in basically a council of experts without having a council of experts.
+ZH | 第二，有了 AI，你基本上可以在没有专家团队的情况下引入一个专家委员会。
+
+29:14 | Claire Vo
+EN | Uh-oh, so what you're saying is we are actually the slop.
+ZH | 哎呀，所以你的意思是，我们其实才是那个垃圾内容。
+
+32:14 | Alex Lieberman
+EN | It drove 40% of all of our inbound leads. It drove a ton of top of funnel for hiring.
+ZH | 它占了我们所有入站线索的 40%，还为招聘带来了大量的漏斗顶端流量。
+
+34:39 | Alex Lieberman
+EN | Part of my view is the way you do it is have your top talent show versus tell the cool work that they're doing.
+ZH | 我的观点之一是，做法就是让你的顶尖人才去展示，而不是讲述他们正在做的很酷的工作。
+
+35:01 | Alex Lieberman
+EN | Then the $5,000 we would have paid at, we're paying out for 10X Creator Cup is worth it so many times over, because you think about what you'd pay a recruiting agency to get one engineer, it makes it entirely worth it.
+ZH | 那么我们为 10X Creator Cup 支出的那 5000 美元就值回票价无数倍了——想想为了雇到一名工程师你得付给猎头公司多少钱，这就完全值了。
+
+35:54 | Claire Vo
+EN | And I'm like, that is the number one thing that's going to jump them out of this company is their inability to talk about all the amazing stuff that they're doing and build their own personal brands.
+ZH | 而我会说，恰恰是没法谈论他们正在做的所有了不起的事情、没法打造自己的个人品牌，才是最能让他们跳槽离开这家公司的头号原因。
+
+36:38 | Alex Lieberman
+EN | Like they are extensions of the brand now and I trust their product more because they're talking about it and not just the company.
+ZH | 他们现在都是品牌的延伸了，而我对他们产品的信任度更高了，因为是他们在谈论它，而不仅仅是公司。
+
+38:05 | Alex Lieberman
+EN | And that's why we pay our engineers like salespeople at 10X. People think we're crazy for doing it.
+ZH | 这就是为什么我们在 10X 像给销售发薪那样给工程师发薪，人们觉得我们这么做是疯了。
+
+38:10 | Alex Lieberman
+EN | But my view is I want to self-select for people that are willing to bet on their own abilities.
+ZH | 但我的观点是，我想自我筛选出那些愿意赌上自己能力的人。
+
+41:37 | Alex Lieberman
+EN | So I really should be kinder to it, given that the AI overlords will be my boss at some point. But honestly, I am sometimes an asshole to it.
+ZH | 所以我真的应该对它友善一点，毕竟 AI 霸主迟早会成为我的老板。但说实话，我有时候确实对它挺混蛋的。
+===END===

@@ -110,7 +110,7 @@ Ben 对"半年冲到五亿收入"的模式持怀疑态度："如果你能在六�
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同概念:ACV</span>
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]]<span class="pd-rz">同公司:Anthropic</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic</span>
+- [[2026-07-20-pmf-1st-time-solo-founder-does-90-interviews|90 天 90 场访谈：一个 Solo Founder 的两年 2500 万之路]]<span class="pd-rz">同概念:产品市场契合 (Product Market Fit)</span>
 
 </div>
 <div class="pd-ex">
@@ -118,8 +118,8 @@ Ben 对"半年冲到五亿收入"的模式持怀疑态度："如果你能在六�
 **换个口味**
 
 - [[2026-09-01-trainingdata-making-cities-awesome-peregrine-s-nick-n|Peregrine：不做监控国家，用AI保护城市安全]]<span class="pd-rz">同公司:Peregrine</span>
+- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同公司:Anthropic · 同概念:产品市场契合 (Product Market Fit)</span>
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同公司:Anthropic · 同概念:产品市场契合 (Product Market Fit)</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic</span>
 
 </div>
 </div>

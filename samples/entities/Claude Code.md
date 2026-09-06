@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>45</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>46</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -31,6 +31,7 @@ unlisted: true
 - **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(00:03起):本集把它说成:单人、同步的智能体编码工具，你开一个会话盯着它每一步输出；最初是 Boris 的副业项目，内部发帖只得到六个反应，后来公司一半人每周在用
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集将其定位为集成在 VS Code 等 IDE 中的编程扩展。嘉宾用它从零编写知识库架构，并构建了赢得黑客马拉松的「对抗性智能体评估器」。(注:英文稿中误听为 plot code / cloud code)
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:去年二月发布的编码工具,从最初需死盯权限提示,演变为可托付复杂任务、甚至能自主做代码审查的智能体
+- **[[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]]**(13:51起):本集提到内容机器可以通过 Claude Code 或 Cowork 运行;还举了银行的人用 Claude Code 一周重建 McKinsey 说要六个月做的东西的例子。
 - **[[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]]**(01:26起):本集反复提及的领先竞品;Matan 说新模型在 TerminalBench 上于 Droid 里跑得比在 Claude Code 里还好。
 - **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(20:24起):本集说很多人还停留在跟 Claude Code 一对一交互的阶段，觉得成千上万智能体跑在企业基础设施里很遥远
 - **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(16:00起):本集说大部分 Claude 废话体验发生在 Claude Code 中，体验比 Claude Code Worker Chat 稍好一点
@@ -74,7 +75,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*45 集*
+*46 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -96,6 +97,7 @@ unlisted: true
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为概念
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
+- [[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]] — 作为概念(提及)
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]] — 作为被讨论公司
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为概念(提及)
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为概念(提及)
@@ -128,7 +130,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[OpenAI]] · [[Cursor]] · [[Claude]] · [[评估]] · [[沙箱]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":101,"Codex":38,"Lenny":66,"OpenAI":88,"Cursor":45,"Claude":47,"评估":20,"沙箱":35,"Slack":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":103,"Codex":38,"Lenny":66,"OpenAI":89,"Cursor":46,"Claude":47,"评估":20,"沙箱":35,"Slack":23}</script>
 
 <script>
 (function(){

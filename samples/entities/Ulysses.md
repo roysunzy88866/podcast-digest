@@ -25,7 +25,7 @@ unlisted: true
 
 [[Willowryan]] · [[Mariana Minerals]] · [[Radiant]] · [[a16z]] · [[SpaceX]] · [[自主水下航行器]] · [[关键矿物]] · [[微反应堆]] · [[垂直整合]] · [[强化学习]]
 
-<script type="application/json" class="pd-epn">{"Willowryan":1,"Mariana Minerals":1,"Radiant":1,"a16z":9,"SpaceX":12,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":2,"强化学习":14}</script>
+<script type="application/json" class="pd-epn">{"Willowryan":1,"Mariana Minerals":1,"Radiant":1,"a16z":9,"SpaceX":12,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":2,"强化学习":15}</script>
 
 <script>
 (function(){

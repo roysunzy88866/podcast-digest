@@ -1,0 +1,208 @@
+{
+  "title_zh": "10X 的 AI 内容机器：让员工发帖不再尴尬",
+  "tldr": "10X 创始人 Alex Lieberman 展示他用 AI 打造的「内容机器」：从 idea 扫描到成稿发布全流程，且不产出 AI 垃圾内容。",
+  "digest_md": "这一集聊的是怎么用 AI 把「发帖做内容」这件事的门槛降到最低——主角是 10X(一家帮企业做 AI 转型的应用 AI 公司)的创始人 Alex Lieberman,他之前在大学时创办了 Morning Brew,做了十年互联网内容。主持人 Claire 开场就说，每个创业者都必须「攀登尴尬山」——也就是逼自己在 X、LinkedIn 上发帖谈自己的业务。Alex 走的是另一个极端：他很乐意「尬」，因为他认为在分发比以往任何时候都重要的世界里，相信「造出来自然有人来」是错的。\n\n他做内容机器，是为了解决两个问题：一是自己每天只有 25% 的时间能花在创作上，要让这 25% 的价值最大化；二是他想在 10X 之上建一家媒体公司——AI 后世界技术高度商品化、商业护城河变少，而「可信的分发渠道」正是少数剩下的护城河之一，所以要让员工在有全职工作的同时尽可能轻松地成为创作者。\n\n## 先画流程，再重建\n\n在讲机器之前，Alex 先讲了方法论，而且他说这套方法适用于任何工作流程，不只是内容:第一步把现在的内容流程原原本本画出来——找灵感、(必要时)做研究、把想法全部倒在纸上、选锚定格式(长文/LinkedIn/newsletter)、写、改、发布、再按「内容金字塔」切成微内容分发到各平台。Claude 补充了一个关键点：**不要按当前约束画工作流，要按零约束的理想世界画**——零约束下你当然会有一个随时在线的研究员帮你挖选题。Alex 说他和客户做这种流程映射时发现，很多效率提升根本不需要 AI 就能找到，大多数人只是从没梳理过自己的流程，AI 只是逼他们去做的强制力。而他自己能重塑这个流程，唯一原因是把内容创作做过成千上万遍——领域知识现在仍然不可替代，否则你无法重新想象这项工作。\n\n## 内容机器怎么运转\n\n内容机器本体就是一组技能(skill)组成的插件，可以走 CLI 或 Claude Code / Cowork 运行，连接着他所有的记录系统：Slack、Notion、会议记录、Linear、Git、Gmail。流程分五步：\n\n**① Oracle(神谕)**：扫描过去七天所有渠道的信息，排出一批「内容爆点」并打分——有故事或轶事加分、有鲜明观点加分、有具体例子加分。每天他拿到 15 个爆点：一半来自内部系统扫描，一半来自「互联网阅读」——机器会去读他关注的账号(包括主持人 Claire)过去七天发的内容，找值得引用转发的点。没用上的爆点会全部进一个叫 vault 的 Notion 数据库存着以后捞。Alex 说光这一步可能就是整个系统里最有用的东西——哪怕你不想让 AI 代笔，它帮你从空白页走到具体想法，摩擦就低到你能养成创作习惯了。\n\n**② 研究助手(可选)**：选了爆点但信息不够时，先生成一份完整简报：各方观点、已有论述、可采取的反主流角度、待回答的开放问题。他现场演示选的爆点就是 Aaron Levy 和 Ethan Mollick 关于「前置部署工程师(FDE,驻在客户现场帮企业落地 AI 的工程师)是不是万能解药」的公开交锋。\n\n**③ 面试小组**：六位世界级采访者被固化成技能——Tim Ferriss、Joe Rogan、Michael Barbaro、Barbara Walters、Howard Stern、Larry King——他们一个个向你提问，追问被训练得专挖具体细节和客户故事，直到信息足够写一篇内容。Alex 用 Whisperflow 语音转文字来回答。关键原则：**成稿基本只能用访谈转写里的原话**(hook 和结尾除外)，写作者的工作是给黏土塑形，不是发明新东西。\n\n**④ 以你的声音起草**：每个人有一个个人文件夹，固化了风格指南(你是谁、要推广什么、关注谁)和语气指南——机器研究过他历史上表现最好的 X 和 LinkedIn 帖子，总结出钩子公式、内容结构，他的头号规则是「像给朋友发短信一样写作」。还有一个 content lessons markdown 文件记录他历次反馈的教训(比如「他们俩都对，而这恰恰就是问题」这种句式太 AI 尬、是「最新版的破折号」)，编辑时机器必查，保证不重犯。发布后还有一个 lessons 循环：自动对比原稿和终稿的 diff,提炼可抽象的教训，问他要不要写入教训文件。\n\n**⑤ 写作者委员会 + 修订循环**：六位写作者人设(David Perel、Sean Puri、Morgan Housel,还有一位「AI 垃圾内容过敏者」)给草稿打 1-10 分，总分低于 9 分就自动跑修订循环，直到 10 分为止。之后可以说「把它改写成三条短推文加两条长 LinkedIn 帖子」，机器会照他过去各类帖子的格式风格来写。\n\n所以「AI slop(AI 垃圾内容)」到底从哪来？Alex 的答案很锋利：内容机器产出垃圾的唯一情况，是那个人在面试环节没分享出足够好的想法，而不是 AI 写得烂——「AI slop 这事儿滑稽之处在于，人们其实是在指着自己说，我不够聪明」。另外他强调防 slop 的核心是他训练机器只使用他自己的话。\n\n## 非 AI 的那一半：让全员变创作者\n\n内容机器只是工具，另一半是改团队行为。Alex 第一次在另一家公司 StoryArb 测试「员工倡导」：一场六到八周的活动，人人被鼓励在 LinkedIn 发帖，唯一规则是 50% 的内容要和业务相关，赢家拿约 5000 美元——那个活动带来了全部入站线索的 40%,还有大量招聘漏斗流量。昨天他刚在 10X 启动同样玩法：「10X Creator Cup」,一个月挑战，发帖得 10 分、和同事帖子互动得 3 分、每周编辑之选加 50 分，还有周赛(比如本周 Full House:全公司 70% 的人至少发一次帖就解锁抽奖)。设计上刻意不做纯曝光量竞赛，让普通参与者也有获得感。\n\n10X 是完全自筹资金的，没有实验室光环也没上过 TechCrunch,他说自己是在「困难模式」下玩这个游戏——但正因如此，让顶尖工程师「展示」而非「讲述」他们做的酷工作就是招聘武器：哪怕一个线索都没带来，只要多雇到一名工程师，就比付给猎头公司的钱值回无数倍。主持人补充：太多 CEO 短视，怕员工太出挑被挖走——恰恰是无法谈论自己做的厉害事、无法建立个人品牌，才是员工离职的头号原因。Alex 举 Anthropic 为例：围绕 Claude Code 的一批员工成了品牌延伸，他因此更信任其产品，因为是人在谈，而不是公司在谈。\n\n## 快问快答\n\n- **现在什么样的工程师最好？** 深层理解系统(老派的基础)加上足够的可塑性拥抱智能体化工作流——很多年轻工程师完全 AI 化但没有资深工程师的知识根基，很多资深工程师则不肯改变工作方式。另外 FDE 比以往更重要，因为 AI 转型只能靠理解企业业务背景来实现。\n- **最 controversial 的做法**：10X 像给销售发薪那样给工程师发浮动薪酬，被很多人骂疯了——但这是为了自我筛选出愿意赌自己能力的人，而且这让团队保持在前沿，因为他们的杠杆来自理解技术能做什么。\n- **个人生活用例**：给做招聘的妻子做了一个定制招聘看板——每天一封邮件，基于她的 LinkedIn 打分筛出 10 个职位，可从邮件一键自动填写申请;以及给十一个半月大的女儿做和她家庭相关的定制儿童绘本。\n- **AI 一直给垃圾怎么办？** 诚实答案：要么「去他的」自己手写，要么投入大量时间把烂的地方全列出来、追问「这些不是早该是 content lesson 了吗」——虽然他对 AI 有时挺混蛋的，但考虑到 AI 霸主迟早当他老板，他应该友善点。\n\n## 本集带走\n\n- **先画流程、按零约束理想世界重画，再决定哪步给 AI**:画的过程本身就能挖出一堆和 AI 无关的浪费，AI 只是逼你梳理的强制力。\n- **AI 当面试官，人当素材**：让多个采访者人设追问你挖出具体故事，成稿只准用转写里的原话——机器塑形、不发明，这是防 AI slop 的根本。\n- **声音和教训要文件化**：研究你历史最佳帖子做成 voice/style guide,再建一个 lessons 文件持续记录你的反馈，让机器不重犯。\n- **低门槛比好文笔更重要**：哪怕只让 AI 帮你从空白页走到具体选题，也足以让你养成创作习惯。\n- **把员工当第一营销渠道**：设一个月度发帖挑战，积分 + 奖金 + 团队互动，规则上避免纯曝光竞赛；对自筹资金的公司，这可能比猎头便宜得多。\n- **别怕员工建立个人品牌**：不让他们谈自己做的酷事，才是他们被挖走的头号原因。",
+  "quotes": [
+    {
+      "en": "The only time in my view that the content machine actually produces slop is more of an indictment of the person not sharing good enough ideas during the interview step than the AI writing bad stuff.",
+      "zh": "在我看来，内容机器真正产出垃圾内容的唯一情况，更多是指那个人在面试环节没分享出足够好的想法，而不是 AI 写出了糟糕的东西。",
+      "timestamp": "00:59",
+      "speaker": "Alex Lieberman"
+    },
+    {
+      "en": "My take is that AI slop is hilariously people just pointing the finger at themselves and saying, I'm not intelligent enough.",
+      "zh": "我的看法是，AI 垃圾内容这事的滑稽之处在于，人们其实只是在指着自己说：我不够聪明。",
+      "timestamp": "01:12",
+      "speaker": "Alex Lieberman"
+    },
+    {
+      "en": "In a world in which distribution is more important than ever before, I don't think that's necessarily the case or isn't most of the time.",
+      "zh": "在一个分发比以往任何时候都更重要的世界里，我不认为「造出来自然有人来」还成立，至少大多数时候不成立。",
+      "timestamp": "03:44",
+      "speaker": "Alex Lieberman"
+    },
+    {
+      "en": "And the reason for that is in a post AI world where technology gets more commoditized than ever before, there are fewer moats in business. And I believe that trusted distribution is one of them.",
+      "zh": "原因在于，在一个技术比以往更加商品化的 AI 后世界，商业中的护城河更少了，而我相信可信的分发渠道就是其中之一。",
+      "timestamp": "05:13",
+      "speaker": "Alex Lieberman"
+    },
+    {
+      "en": "And so her view is AI will raise the floor of bad writers, but then cap the ceiling of great writers.",
+      "zh": "所以她的观点是，AI 会提高糟糕写作者的下限，但会封住优秀写作者的上限。",
+      "timestamp": "07:28",
+      "speaker": "Alex Lieberman"
+    },
+    {
+      "en": "The other thing that I recommend to people is I say, like, don't workflow what you do now, given your current constraints. Workflow, what you would do in an ideal world, given no constraints.",
+      "zh": "我给人们的另一个建议是：不要按你当前约束下的做法去画工作流，要按你在理想世界里、没有任何约束时会怎么做去画。",
+      "timestamp": "11:34",
+      "speaker": "Claire Veau"
+    },
+    {
+      "en": "And what we've found in kind of doing this process mapping process with companies and with clients is, first of all, you end up realizing that a lot of efficiencies are found outside of even thinking about using AI, because most people have not actually done the process of mapping their processes before.",
+      "zh": "我们和公司客户做流程映射时发现，首先你会意识到很多效率提升根本不用考虑 AI 就能找到，因为大多数人之前从来没梳理过自己的流程。",
+      "timestamp": "12:28",
+      "speaker": "Alex Lieberman"
+    },
+    {
+      "en": "And so it shows you the importance of like being a subject matter expert and having vertical expertise. That knowledge, at least right now, is really needed. Otherwise you can't reimagine the work.",
+      "zh": "这说明了成为领域专家、拥有垂直专业知识的重要性。这种知识至少现在仍是真正被需要的，否则你无法重新想象这项工作。",
+      "timestamp": "13:14",
+      "speaker": "Alex Lieberman"
+    },
+    {
+      "en": "One, map your workflow. Two, with AI, you can bring in basically a council of experts without having a council of experts.",
+      "zh": "第一，把你的工作流画出来。第二，有了 AI,你基本上可以在没有专家团队的情况下引入一个专家委员会。",
+      "timestamp": "21:29",
+      "speaker": "Claire Veau"
+    },
+    {
+      "en": "And going back to the point of even if you believe that AI will create AI slop and you don't want it drafting your content, just helping you go from blank page to concrete idea, I think lowers the friction so much that you'll actually get in the habit of creating.",
+      "zh": "回到之前那个观点，哪怕你相信 AI 会制造垃圾、不让它替你起草，仅仅是让它帮你从空白页走到具体想法，我认为就已经把摩擦降低到你能真正养成创作习惯的程度。",
+      "timestamp": "15:34",
+      "speaker": "Alex Lieberman"
+    },
+    {
+      "en": "And I'm like, that is the number one thing that's going to jump them out of this company is their inability to talk about all the amazing stuff that they're doing and build their own personal brands.",
+      "zh": "而我会说，恰恰是没法谈论自己正在做的了不起的事、没法打造个人品牌，才是让他们跳槽离开这家公司的头号原因。",
+      "timestamp": "35:54",
+      "speaker": "Claire Veau"
+    },
+    {
+      "en": "And that's why we pay our engineers like salespeople at 10X. People think we're crazy for doing it.",
+      "zh": "这就是为什么我们在 10X 像给销售发薪那样给工程师发薪。人们觉得我们这么做是疯了。",
+      "timestamp": "38:05",
+      "speaker": "Alex Lieberman"
+    },
+    {
+      "en": "So I really should be kinder to it, given that the AI overlords will be my boss at some point. But honestly, I am sometimes an asshole to it.",
+      "zh": "所以我真的应该对它友善一点，毕竟 AI 霸主迟早会成为我的老板。但说实话，我有时候确实对它挺混蛋的。",
+      "timestamp": "41:37",
+      "speaker": "Alex Lieberman"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:59",
+      "speaker": "Alex Lieberman",
+      "en": "The only time in my view that the content machine actually produces slop is more of an indictment of the person not sharing good enough ideas during the interview step than the AI writing bad stuff.",
+      "zh": "在我看来，内容机器真正产出垃圾内容的唯一情况，更多是指那个人在面试环节没分享出足够好的想法，而不是 AI 写出了糟糕的东西。"
+    },
+    {
+      "timestamp": "01:12",
+      "speaker": "Alex Lieberman",
+      "en": "My take is that AI slop is hilariously people just pointing the finger at themselves and saying, I'm not intelligent enough.",
+      "zh": "我的看法是，AI 垃圾内容这事的滑稽之处在于，人们其实只是在指着自己说：我不够聪明。"
+    },
+    {
+      "timestamp": "03:44",
+      "speaker": "Alex Lieberman",
+      "en": "In a world in which distribution is more important than ever before, I don't think that's necessarily the case or isn't most of the time.",
+      "zh": "在一个分发比以往任何时候都更重要的世界里，我不认为「造出来自然有人来」还成立，至少大多数时候不成立。"
+    },
+    {
+      "timestamp": "05:13",
+      "speaker": "Alex Lieberman",
+      "en": "And the reason for that is in a post AI world where technology gets more commoditized than ever before, there are fewer moats in business. And I believe that trusted distribution is one of them.",
+      "zh": "原因在于，在一个技术比以往更加商品化的 AI 后世界，商业中的护城河更少了，而我相信可信的分发渠道就是其中之一。"
+    },
+    {
+      "timestamp": "07:28",
+      "speaker": "Alex Lieberman",
+      "en": "And so her view is AI will raise the floor of bad writers, but then cap the ceiling of great writers.",
+      "zh": "所以她的观点是，AI 会提高糟糕写作者的下限，但会封住优秀写作者的上限。"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Alex Lieberman",
+      "en": "So the alternative for our team at 10X, and we can talk a little bit in a bit about how we're incentivizing people to create, but the alternative before this content machine was people just not creating content.",
+      "zh": "对我们在 10X 的团队来说——我们稍后可以聊聊怎么激励大家创作——在这台内容机器之前，替代方案就是人们干脆不创作内容。"
+    },
+    {
+      "timestamp": "11:44",
+      "speaker": "Claire Veau",
+      "en": "The other thing that I recommend to people is I say, like, don't workflow what you do now, given your current constraints. Workflow, what you would do in an ideal world, given no constraints.",
+      "zh": "我给人们的另一个建议是：不要按你当前约束下的做法去画工作流，要按你在理想世界里、没有任何约束时会怎么做去画。"
+    },
+    {
+      "timestamp": "12:28",
+      "speaker": "Alex Lieberman",
+      "en": "And what we've found in kind of doing this process mapping process with companies and with clients is, first of all, you end up realizing that a lot of efficiencies are found outside of even thinking about using AI, because most people have not actually done the process of mapping their processes before.",
+      "zh": "我们和公司客户做流程映射时发现，首先你会意识到很多效率提升根本不用考虑 AI 就能找到，因为大多数人之前从来没梳理过自己的流程。"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Alex Lieberman",
+      "en": "And so it shows you the importance of like being a subject matter expert and having vertical expertise. That knowledge, at least right now, is really needed. Otherwise you can't reimagine the work.",
+      "zh": "这说明了成为领域专家、拥有垂直专业知识的重要性。这种知识至少现在仍是真正被需要的，否则你无法重新想象这项工作。"
+    },
+    {
+      "timestamp": "13:14",
+      "speaker": "Alex Lieberman",
+      "en": "You know, thousands of times.",
+      "zh": "你知道的，成千上万遍。"
+    },
+    {
+      "timestamp": "21:29",
+      "speaker": "Alex Lieberman",
+      "en": "One, map your workflow. Two, with AI, you can bring in basically a council of experts without having a council of experts.",
+      "zh": "第一，把你的工作流画出来。第二，有了 AI,你基本上可以在没有专家团队的情况下引入一个专家委员会。"
+    },
+    {
+      "timestamp": "28:27",
+      "speaker": "Alex Lieberman",
+      "en": "One of the reasons that this doesn't write slop mostly is because I have basically trained it to only use my words.",
+      "zh": "它大体上不写垃圾内容，原因之一是我基本上已经训练它只使用我的话。"
+    },
+    {
+      "timestamp": "28:53",
+      "speaker": "Alex Lieberman",
+      "en": "Like shape, like shaping the clay of the content, not inventing net new things.",
+      "zh": "就像塑形，给内容这块黏土塑形，而不是发明全新的东西。"
+    },
+    {
+      "timestamp": "15:34",
+      "speaker": "Alex Lieberman",
+      "en": "And going back to the point of even if you believe that AI will create AI slop and you don't want it drafting your content, just helping you go from blank page to concrete idea, I think lowers the friction so much that you'll actually get in the habit of creating.",
+      "zh": "回到之前那个观点，哪怕你相信 AI 会制造垃圾、不让它替你起草，仅仅是让它帮你从空白页走到具体想法，我认为就已经把摩擦降低到你能真正养成创作习惯的程度。"
+    },
+    {
+      "timestamp": "31:38",
+      "speaker": "Alex Lieberman",
+      "en": "And so I tested this for the first time at one of my other businesses called StoryArb, where we did a campaign called Own the Internet.",
+      "zh": "所以我第一次是在我另一家叫 StoryArb 的公司测试这个的，我们在那里做了一场叫 Own the Internet 的活动。"
+    },
+    {
+      "timestamp": "33:07",
+      "speaker": "Alex Lieberman",
+      "en": "And the whole point here is we want to encourage people to post where it's not just a race for impressions, where if one person ends up crushing it with impressions, it's like we don't want people feeling like they don't have a chance.",
+      "zh": "这里的重点是，我们想鼓励人们发帖，但不只是一场争夺曝光量的竞赛——如果一个人在曝光量上大杀四方，我们不希望其他人觉得自己没有机会。"
+    },
+    {
+      "timestamp": "35:01",
+      "speaker": "Alex Lieberman",
+      "en": "From this whole campaign, well, then the $5,000 we would have paid at, we're paying out for 10X Creator Cup is worth it so many times over, because you think about what you'd pay a recruiting agency to get one engineer, it makes it entirely worth it.",
+      "zh": "那么这波活动为 10X Creator Cup 支出的那 5000 美元就值回票价无数倍了——想想雇到一名工程师你得付给猎头公司多少钱，这就完全值了。"
+    },
+    {
+      "timestamp": "35:54",
+      "speaker": "Claire Veau",
+      "en": "And I'm like, that is the number one thing that's going to jump them out of this company is their inability to talk about all the amazing stuff that they're doing and build their own personal brands.",
+      "zh": "而我会说，恰恰是没法谈论自己正在做的了不起的事、没法打造个人品牌，才是让他们跳槽离开这家公司的头号原因。"
+    },
+    {
+      "timestamp": "38:05",
+      "speaker": "Alex Lieberman",
+      "en": "And that's why we pay our engineers like salespeople at 10X. People think we're crazy for doing it.",
+      "zh": "这就是为什么我们在 10X 像给销售发薪那样给工程师发薪。人们觉得我们这么做是疯了。"
+    },
+    {
+      "timestamp": "41:44",
+      "speaker": "Alex Lieberman",
+      "en": "So I really should be kinder to it, given that the AI overlords will be my boss at some point. But honestly, I am sometimes an asshole to it.",
+      "zh": "所以我真的应该对它友善一点，毕竟 AI 霸主迟早会成为我的老板。但说实话，我有时候确实对它挺混蛋的。"
+    }
+  ],
+  "voice_script": "今天这期节目,咱们聊一件很多创业者都躲不开、但又特别别扭的事:在 X 和 LinkedIn 上发帖谈自己的业务。主持人管这个叫攀登尴尬山。而今天的主角,Alex Lieberman,走的是另一个极端——他特别乐意尬。这人什么来头?大学时创办了 Morning Brew,做了十年互联网内容,现在经营一家叫 10X 的应用 AI 公司,专门帮企业做 AI 转型。\n\nAlex 为什么要搞这件事?两个原因。第一,每天只有四分之一的时间能花在创作上,得把这四分之一的价值榨到最大。第二,更根本的:在 AI 时代,技术越来越商品化,商业护城河越来越少,而可信的分发渠道恰恰是剩下不多的护城河之一。所以相信\"造出来自然有人来\"是错的,分发比以往任何时候都重要。于是有了这套\"内容机器\",目标就是让员工哪怕有全职工作,也能轻松当创作者。\n\n那这套机器怎么来的?Alex 先讲了个方法论,而且这套方法适用于任何工作流程,不只内容。第一步,把现在的流程原原本本画出来:找灵感、做研究、倒想法、选格式、写、改、发布,再切成微内容分发到各平台。主持人补充了一个关键点:画的时候不要按你当前的约束画,要按零约束的理想世界画——零约束下,你当然会雇一个随时在线的研究员帮你挖选题。有意思的是,做这种梳理时会发现,很多效率提升根本不需要 AI,大多数人只是从没认真梳理过自己的流程,AI 只是逼他们去做的强制力。而 Alex 能重塑整个流程,唯一原因是内容创作这件事做过成千上万遍——领域知识现在依然不可替代。\n\n有了方法论,再看机器本身。这是一组技能插件,连着他所有的记录系统:Slack、Notion、会议记录、Gmail 等等。流程五步。\n\n第一步叫神谕,扫描过去七天所有渠道的信息,排出内容爆点并打分:有故事加分、有鲜明观点加分、有具体例子加分。每天产出十五个爆点,一半来自内部系统,一半来自互联网阅读——机器会去读他关注的账号最近发了什么,找值得转的点。没用上的全存进一个数据库,以后再捞。Alex 说光这一步可能就是整个系统最有用的东西:哪怕你不想让 AI 代笔,只要它能帮你从空白页走到具体想法,摩擦就低到你能养成创作习惯。\n\n第二步是可选的研究助手,信息不够时先生成一份完整简报。第三步最有意思,叫面试小组:六位世界级采访者被固化成技能——Tim Ferriss、Joe Rogan、Michael Barbaro 这些人设,一个个向你提问,追问专门挖具体细节和客户故事,直到素材够写一篇内容。关键原则是:成稿基本只能用访谈转写里的原话。写作者的工作是给黏土塑形,不是发明新东西。\n\n第四步,用你的声音起草。机器研究过历史上表现最好的帖子,总结出钩子公式和内容结构,头号规则是\"像给朋友发短信一样写作\"。还有个教训文件,记录历次反馈——比如\"他们俩都对,而这恰恰就是问题\"这种句式太 AI 尬了,编辑时机器必查,保证不重犯。发布后还会自动对比原稿和终稿,提炼教训。\n\n第五步,写作者委员会:六个人设给草稿打分,低于九分就自动修订,直到十分为止。然后一句话,就能改写成三条短推文加两条长帖。\n\n说到这,一个绕不开的问题:AI 垃圾内容到底从哪来?Alex 的答案很锋利:机器产出垃圾的唯一情况,是那个人在面试环节没分享出足够好的想法,而不是 AI 写得烂。说白了,AI 垃圾内容这事的滑稽之处在于,人们其实是在指着自己说:我不够聪明。而防垃圾的核心,就是训练机器只使用你自己的话。\n\n不过工具只是工具,另一半是改团队行为。Alex 先在另一家公司做了测试:一场六到八周的员工发帖活动,唯一规则是过半内容要和业务相关,赢家拿五千美元,结果带来了全部入站线索的四成。现在 10X 内部也搞了一个月度 Creator Cup:发帖得分、同事互动得分、每周编辑之选加分,规则刻意避开纯曝光竞赛,让普通参与者也有获得感。对一家完全自筹资金、没上过 TechCrunch 的公司来说,让顶尖工程师展示而非讲述自己做的酷工作,就是招聘武器——哪怕一个线索都没带来,只要多雇到一名工程师,就比付给猎头的钱值回无数倍。反过来,怕员工太出挑被挖走的 CEO 得想想:恰恰是无法谈论自己的厉害事、无法建立个人品牌,才是员工离职的头号原因。\n\n最后收一句。这集最值得记住的,就是 Alex 那句话:AI 会提高糟糕写作者的下限,但会封住优秀写作者的上限——机器能塑形,但素材得你自己给。"
+}

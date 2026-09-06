@@ -1,0 +1,530 @@
+{
+  "episode_id": "2026-07-20-pmf-1st-time-solo-founder-does-90-interviews",
+  "podcast": "The Product Market Fit Show",
+  "date": "2026-07-20",
+  "tags": [
+    "客户发现",
+    "销售",
+    "创业早期",
+    "设计合作伙伴",
+    "网络安全"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "damien-lewke",
+      "type": "person",
+      "role": "host",
+      "name": "Damien Lewke",
+      "file": "Damien Lewke",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nebulock",
+      "type": "company",
+      "role": "company",
+      "name": "Nebulock",
+      "file": "Nebulock",
+      "primary": true,
+      "how_described": "本集嘉宾 Damien Lewke 一人创办的网络安全公司，主打默认主动的安全解决方案，找出其他现有工具遗漏的威胁；两年内从 40 美元做到 2500 万美元 A 轮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            248,
+            345
+          ],
+          "quote": "Yeah, a hundred percent. I think like all founders, you got to take a bet, right? And we took a position two years ago that at some point, you would have threat actors that would do things that existing tools might have missed and we've been building towards that eventuality. And it was one of those things that the two kind of hit at the exact perfect time, and that's allowed us to prove that value to keep earning budget, and displacing solutions. Which is where we're at now as we scale and now validated by the Series A. I guess we'll go back a little bit because the journey to product market fit is a long and different one than you might expect. So, I've only ever worked in security. I was an operator in the defense industrial base here in the United States. I was fortunate to work at CrowdStrike, you know, from the CRC through and after the IPO. So I got to see hyper growth, was fortunate then to do some grad school and study at MIT's computer science AI lab, and then work in a security operations company. But basically, cyber is my jam and all of that informed my initial thesis about the company. But actually, it's been really formulated not just about my opinions, but constant customer discovery. Understanding, to your point, what your top two priorities are, what the real pain is, and how at first the idea. Now the platform that is Nebulock, can align with those and it really was a combination of. I mean, we're talking about constant calls, getting on planes, sitting with customers that got us to this point, and then. Honestly building an amazing team of practitioners, engineering, marketing, sales, and customer success leaders who really helped bring this enterprise to where it is today.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike",
+      "type": "company",
+      "role": "company",
+      "name": "CrowdStrike",
+      "file": "CrowdStrike",
+      "primary": false,
+      "how_described": "嘉宾曾任职的公司，从 CRC 到 IPO 之后，他在那里见证了超高速增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            248,
+            345
+          ],
+          "quote": "Yeah, a hundred percent. I think like all founders, you got to take a bet, right? And we took a position two years ago that at some point, you would have threat actors that would do things that existing tools might have missed and we've been building towards that eventuality. And it was one of those things that the two kind of hit at the exact perfect time, and that's allowed us to prove that value to keep earning budget, and displacing solutions. Which is where we're at now as we scale and now validated by the Series A. I guess we'll go back a little bit because the journey to product market fit is a long and different one than you might expect. So, I've only ever worked in security. I was an operator in the defense industrial base here in the United States. I was fortunate to work at CrowdStrike, you know, from the CRC through and after the IPO. So I got to see hyper growth, was fortunate then to do some grad school and study at MIT's computer science AI lab, and then work in a security operations company. But basically, cyber is my jam and all of that informed my initial thesis about the company. But actually, it's been really formulated not just about my opinions, but constant customer discovery. Understanding, to your point, what your top two priorities are, what the real pain is, and how at first the idea. Now the platform that is Nebulock, can align with those and it really was a combination of. I mean, we're talking about constant calls, getting on planes, sitting with customers that got us to this point, and then. Honestly building an amazing team of practitioners, engineering, marketing, sales, and customer success leaders who really helped bring this enterprise to where it is today.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "customer-discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户发现 (customer discovery)",
+      "file": "客户发现",
+      "primary": true,
+      "how_described": "本集称之为找到 Product Market Fit 的根本手段：嘉宾做了二十一个月持续的客户发现，『如果你有三十分钟不知道该干什么，就给潜在客户打电话问他们』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            48
+          ],
+          "quote": "It also teased out a really important piece of Product Market Fit for us, which was building a repeatable POC process. So the idea, because we kept iterating through these design partnerships, right? And seeing what worked, and the cadences, was it allowed us to start structuring a real proof of concept process. I mean, I'm actually excited to say that every single one of our design partners converted to a paying customer and that was a really, really exciting moment. Product Market Fit is honestly a journey. You have moments where you see that you have it and we experienced that. But we got there because of, gosh, at the time, twenty one months of constant customer discovery. I think the best thing, if you got thirty minutes or an hour and you're not sure what to do with your time. Get on the phone with a prospect. Get on the phone with a customer and ask them. That is the best thing that you can do is continuous customer discovery.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 9,
+          "t": [
+            248,
+            345
+          ],
+          "quote": "Yeah, a hundred percent. I think like all founders, you got to take a bet, right? And we took a position two years ago that at some point, you would have threat actors that would do things that existing tools might have missed and we've been building towards that eventuality. And it was one of those things that the two kind of hit at the exact perfect time, and that's allowed us to prove that value to keep earning budget, and displacing solutions. Which is where we're at now as we scale and now validated by the Series A. I guess we'll go back a little bit because the journey to product market fit is a long and different one than you might expect. So, I've only ever worked in security. I was an operator in the defense industrial base here in the United States. I was fortunate to work at CrowdStrike, you know, from the CRC through and after the IPO. So I got to see hyper growth, was fortunate then to do some grad school and study at MIT's computer science AI lab, and then work in a security operations company. But basically, cyber is my jam and all of that informed my initial thesis about the company. But actually, it's been really formulated not just about my opinions, but constant customer discovery. Understanding, to your point, what your top two priorities are, what the real pain is, and how at first the idea. Now the platform that is Nebulock, can align with those and it really was a combination of. I mean, we're talking about constant calls, getting on planes, sitting with customers that got us to this point, and then. Honestly building an amazing team of practitioners, engineering, marketing, sales, and customer success leaders who really helped bring this enterprise to where it is today.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 43,
+          "t": [
+            1249,
+            1390
+          ],
+          "quote": "Yeah, step one, customer discovery. If there is one takeaway for anybody who's listening, if you haven't read it, read a book called The Mom Test. It is, in my opinion, the best book on customer discovery that is out there. Followed by The Challenger Sale, but that's a sales book. Yeah, I kicked off what I called the ninety in ninety. Ninety customer interviews in ninety days. So I spent ninety days mom testing people. So not going to them saying, hey, my name is Damien, I've got this idea, this is what it is, can you please tell me you like it? But rather going, hey, I'm thinking about this space. Talk to me about how you've solved this problem. How would you rank this in order of priorities? Where would I focus on if we were to build something like this? And most importantly, friends, if you're doing customer discovery, always ask at the end if they're willing to introduce you to somebody else in network. Because not only does that build a relationship with this person, but it means that you also get routed to other like minded folks. Not for confirmation bias, but rather you're going to get to continue to see either in role or industry segment different folks. So it allowed me to build a pretty comprehensive market map of where am I solving this problem, for whom, and how would they expect us to do it? And to be honest with you, Pablo, it actually changed some of my thinking. It altered key parts of our architecture. It informed me that the underlying thesis and analytical layer I wanted to build was correct. There was a whole other system I thought that we needed to build and invest in, and I was totally wrong. And I found that that was really helpful because what that allowed us to do is have a warm group of prospective customers, many of whom became design partners, and also a core roadmap. So that when you brought in people, again, thinking about the unknowns, it was, hey, this is what we're building, right? Can you come in and take these systems, right? Show me how you would do this. Versus, welcome to Nebula, here's your laptop. I don't really know what we're going to do today, but tinker around and do some Google searching. So it really helped in terms of focusing that and I think that is the one nuance about being a solo founder that is a bit different. You do have a responsibility to at least have an opinion about what it is that you need to do and the best way to drive that is constant customer discovery. So ninety and ninety, I've now spoken to hundreds. I try to speak to customers certainly every week, honestly, many times a week. Because the market is changing so fast and you constantly have to bring that feedback back into the company.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 44,
+          "t": [
+            1390,
+            1439
+          ],
+          "quote": "I think out of all the things that founders need to do, customer discovery is probably the one that they do the worst job at consistently and gets skipped, and just done like. I remember I had a coach, I think it was a basketball coach and he'd be like, don't just run through the motions. Do the work, actually do it, right? Yeah, I got to pass, I got to shoot, whatever. That is how customer discovery gets done often and gets really bad results. Let's go through that in detail because this is one of the tactical areas that I really want to get a lot of detail about. So that founders listening could actually steal it. Talk to me about the process first of all. How do you get the first, you mentioned asking later on for more interviews, but the first ten, twenty, thirty meetings? What are you asking for? When you ask somebody for time, you got to be like, this is what I want out of it. What's the ask? Tell me as much as you can about just that piece of it.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1800,
+            1860
+          ],
+          "quote": "Oh my God. Yeah, absolutely. I mentioned this earlier, the architecture, I was so wrong. I thought we were going to plug into this one system called the SIM and we were going to pull all this data from it. So off base, we ended up needing to plug into an entirely different tech stack. The other thing is I wanted to build this new system that would run in their environment and I learned that that would add zero value. But if I had operated, and this is a personal suggestion but as a founder, yes, you have conviction. You want to be obsessed with the problem. You have conviction in your idea, but you do need to check your assumptions. Because if I hadn't, if I had not done this customer discovery, if I had not learned how they run operations and how and where we would fit. We would have built the wrong solution. We absolutely would have and we would have had to hard pivot, burn money, make some tough choices versus case the market, get a flavor for what that actually is. So, yeah, no, I had core assumptions that were very wrong. I'm very glad that I did the discovery because it got me to the right place.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2997,
+            3027
+          ],
+          "quote": "Continuous customer discovery. It doesn't matter if you have a solution built. I mean, people use product market. Product Market Fit is honestly a journey. You have moments where you see that you have it and we experienced that. But we got there because of, gosh, at the time, twenty one months of constant customer discovery. I think the best thing, if you got thirty minutes or an hour and you're not sure what to do with your time. Get on the phone with a prospect, get on the phone with a customer and ask them. That is the best thing that you can do is continuous customer discovery.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "the-mom-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "The Mom Test",
+      "file": "The Mom Test",
+      "primary": true,
+      "how_described": "嘉宾推荐的一本书，教你怎么在访谈里不暴露自己的想法、只挖用户真实痛点；他的『九十进九十』就是照它做的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            1249,
+            1390
+          ],
+          "quote": "Yeah, step one, customer discovery. If there is one takeaway for anybody who's listening, if you haven't read it, read a book called The Mom Test. It is, in my opinion, the best book on customer discovery that is out there. Followed by The Challenger Sale, but that's a sales book. Yeah, I kicked off what I called the ninety in ninety. Ninety customer interviews in ninety days. So I spent ninety days mom testing people. So not going to them saying, hey, my name is Damien, I've got this idea, this is what it is, can you please tell me you like it? But rather going, hey, I'm thinking about this space. Talk to me about how you've solved this problem. How would you rank this in order of priorities? Where would I focus on if we were to build something like this? And most importantly, friends, if you're doing customer discovery, always ask at the end if they're willing to introduce you to somebody else in network. Because not only does that build a relationship with this person, but it means that you also get routed to other like minded folks. Not for confirmation bias, but rather you're going to get to continue to see either in role or industry segment different folks. So it allowed me to build a pretty comprehensive market map of where am I solving this problem, for whom, and how would they expect us to do it? And to be honest with you, Pablo, it actually changed some of my thinking. It altered key parts of our architecture. It informed me that the underlying thesis and analytical layer I wanted to build was correct. There was a whole other system I thought that we needed to build and invest in, and I was totally wrong. And I found that that was really helpful because what that allowed us to do is have a warm group of prospective customers, many of whom became design partners, and also a core roadmap. So that when you brought in people, again, thinking about the unknowns, it was, hey, this is what we're building, right? Can you come in and take these systems, right? Show me how you would do this. Versus, welcome to Nebula, here's your laptop. I don't really know what we're going to do today, but tinker around and do some Google searching. So it really helped in terms of focusing that and I think that is the one nuance about being a solo founder that is a bit different. You do have a responsibility to at least have an opinion about what it is that you need to do and the best way to drive that is constant customer discovery. So ninety and ninety, I've now spoken to hundreds. I try to speak to customers certainly every week, honestly, many times a week. Because the market is changing so fast and you constantly have to bring that feedback back into the company.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "ninety-in-ninety",
+      "type": "concept",
+      "role": "concept",
+      "name": "九十进九十 (ninety in ninety)",
+      "file": "九十进九十",
+      "primary": true,
+      "how_described": "嘉宾创业第一步的打法：九十天做九十场客户访谈，邮件不超过五十个字、用『参与感』作交换，转化率超过 70%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            1249,
+            1390
+          ],
+          "quote": "Yeah, step one, customer discovery. If there is one takeaway for anybody who's listening, if you haven't read it, read a book called The Mom Test. It is, in my opinion, the best book on customer discovery that is out there. Followed by The Challenger Sale, but that's a sales book. Yeah, I kicked off what I called the ninety in ninety. Ninety customer interviews in ninety days. So I spent ninety days mom testing people. So not going to them saying, hey, my name is Damien, I've got this idea, this is what it is, can you please tell me you like it? But rather going, hey, I'm thinking about this space. Talk to me about how you've solved this problem. How would you rank this in order of priorities? Where would I focus on if we were to build something like this? And most importantly, friends, if you're doing customer discovery, always ask at the end if they're willing to introduce you to somebody else in network. Because not only does that build a relationship with this person, but it means that you also get routed to other like minded folks. Not for confirmation bias, but rather you're going to get to continue to see either in role or industry segment different folks. So it allowed me to build a pretty comprehensive market map of where am I solving this problem, for whom, and how would they expect us to do it? And to be honest with you, Pablo, it actually changed some of my thinking. It altered key parts of our architecture. It informed me that the underlying thesis and analytical layer I wanted to build was correct. There was a whole other system I thought that we needed to build and invest in, and I was totally wrong. And I found that that was really helpful because what that allowed us to do is have a warm group of prospective customers, many of whom became design partners, and also a core roadmap. So that when you brought in people, again, thinking about the unknowns, it was, hey, this is what we're building, right? Can you come in and take these systems, right? Show me how you would do this. Versus, welcome to Nebula, here's your laptop. I don't really know what we're going to do today, but tinker around and do some Google searching. So it really helped in terms of focusing that and I think that is the one nuance about being a solo founder that is a bit different. You do have a responsibility to at least have an opinion about what it is that you need to do and the best way to drive that is constant customer discovery. So ninety and ninety, I've now spoken to hundreds. I try to speak to customers certainly every week, honestly, many times a week. Because the market is changing so fast and you constantly have to bring that feedback back into the company.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "design-partner",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计合作伙伴 (design partner)",
+      "file": "设计合作伙伴",
+      "primary": true,
+      "how_described": "本集把它分成阶段管理：架构合作伙伴→早期设计合作伙伴→功能设计合作伙伴；检验诚意的硬指标是对方愿不愿意每周给你三十分钟。嘉宾的每一个设计合作伙伴都转化成了付费客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            2099,
+            2142
+          ],
+          "quote": "So we signed our first design partner when we had one employee, which was cool. It was actually at Black Hat. I can't share their name, but they are a paying customer now, and I'm very grateful for their early partnership. And actually it was really helpful, right? Before you even can deploy, cause the product was so early. You know, I pitched it as an architecture partnership. Hey, do you just want to give feedback while we start poking around and building this? It was so valuable. We had a few key early architecture partners back then and it made such a difference, Pablo. Because, yeah, we've done the ninety-ninety, we had the roadmap, but to keep getting feedback continuously, right? Just allowed us to, not just in terms of how the system worked, but customer experience, build right from the outset, which was really, really awesome to see.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 79,
+          "t": [
+            2172,
+            2220
+          ],
+          "quote": "I mean, I'm actually excited to say that every single one of our design partners converted to a paying customer and that was a really, really exciting moment. But I work with a lot of founders now who are thinking about design partnerships. Because our design partner program did end up being effective. My suggestion is you actually have to break up design partnerships into stages. Early on your design partnership, you are not sending them a POC document that says you will be entitled to a discount after this time, right? You don't have something to sell yet. The idea is, hey, we're going to work through this and eventually you set the expectation. I'm going to send this and you will get a discount, right? Once this product goes live. But it starts with architectural partner. Early design partner. Hey, we've deployed it. Does this work? How is the deployment process? Are things breaking? How is your experience?",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 81,
+          "t": [
+            2225,
+            2271
+          ],
+          "quote": "Yeah, you want to keep it super tight. So I get them to commit to thirty, or I got them to commit to thirty minutes every single week. I will not miss the meeting. Please don't miss the meeting. Let's do thirty minutes a week and most people are willing to find thirty minutes. And I would challenge, especially early on, if someone is not willing to give you thirty minutes a week. How much do they really value the problem you're solving? And then the final phase, which was as we were starting to shift into paying customers towards the end of last year. It was kind of end of summer into fall. It was really more feature design partners. Hey, we're building this thing, right? What's your feedback on this? What else do we need to do to earn this price that we've suggested? And that's really how we made the transition. So you want to phase the design partner approach and don't overcomplicate it, right? Ask for time, they'll commit to time. You build a relationship and eventually, if what you do is valuable, they will pay for it.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "poc-process",
+      "type": "concept",
+      "role": "concept",
+      "name": "POC 流程 (POC process)",
+      "file": "POC 流程",
+      "primary": true,
+      "how_described": "本集反复讨论的可重复概念验证流程：设定预期、锁定范围、确认预算，并把法律文书（DPA/采购）与 POC 并行；最终做到一个月、只占客户两小时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            48
+          ],
+          "quote": "It also teased out a really important piece of Product Market Fit for us, which was building a repeatable POC process. So the idea, because we kept iterating through these design partnerships, right? And seeing what worked, and the cadences, was it allowed us to start structuring a real proof of concept process. I mean, I'm actually excited to say that every single one of our design partners converted to a paying customer and that was a really, really exciting moment. Product Market Fit is honestly a journey. You have moments where you see that you have it and we experienced that. But we got there because of, gosh, at the time, twenty one months of constant customer discovery. I think the best thing, if you got thirty minutes or an hour and you're not sure what to do with your time. Get on the phone with a prospect. Get on the phone with a customer and ask them. That is the best thing that you can do is continuous customer discovery.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 87,
+          "t": [
+            2312,
+            2353
+          ],
+          "quote": "It's funny because it also teased out a really important piece of product market fit for us, which was building a repeatable POC process. So the idea, because we kept iterating through these design partnerships, right? And seeing what worked, and the cadences, was it allowed us to start structuring a real proof of concept process. So net new, if we were to engage, how do we engage? And, you know, back to this original point of, hey, what was your moment of Product Market Fit? By the time we hit that Fortune 500, we had a month long POC process that required two hours of customer time. We had a playbook that we knew how to run and it just kind of followed, right? That muscle movement had been built.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 93,
+          "t": [
+            2436,
+            2577
+          ],
+          "quote": "I do just want to say I'm very grateful for our paying customers. But to be quite honest, Pablo, there were a few POCs that went three or six months or dragged out. And they dragged out really because of three core reasons. One, we were all excited but what I didn't do is set good expectations around, hey, this is how long the POC process is going to be. This is what we are doing and at this point, this will be done. The second piece, and it's just the way that we work, was also being really focused about scope of engagement. That does not mean you should pressure somebody in a POC to purchase your solution. I do not espouse the idea of like, it's two weeks, you agree to these success criteria, buy my thing. That's not cool, especially early, right? But you do want to set expectations. Hey, we're going to do this for a month. If we do things one, two, three, right? Would you move to a purchase? Which leads me to my third and the most important thing from the outset that goes back to this Fortune 500. Which is make sure that you have budget, or that they have the ability to spend money on what it is that you have built. Because there are a lot of people who are really helpful and extremely friendly, and they're down to do a POC. Sometimes they don't have budget or budget won't free up until later in the year. No harm, no foul. If you set a scope for the POC, great, you can get the tech win and move on with your life. And then you know that when the budget comes up, we have this agreed to, we can press go. The other piece that I think really helped us, and because we're an AI-native company, is really important. Is, nail your DPA, right? Have a really strong DPA, and know what it means to do data processing, and parallelize the legal paperwork. Do not do the POC and then suddenly be like, all right, hey, oh, by the way, we do data processing. They go, well, hey, wait a minute, we have our own DPA. This happened with one of our customers who I love, but we did a POC and we got to this point where it was like, great, we signed some stuff. Oh, now we have to go into procurement and some businesses will operate that way, right? And you cannot help that. That's okay. But as best as you can, it doesn't hurt at all to just ask like, hey, while we do this process, can I either do the procurement paperwork up front. So that the POC can roll over and do a paid engagement? Or can we run these two things alongside? That will not always be the case, but it will save you time and heartache. Because the worst anyone can say is no and that's okay. You're in the spot you were in before.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "Product Market Fit",
+      "file": "Product Market Fit",
+      "primary": true,
+      "how_described": "本集核心主题：PMF 是一段旅程，嘉宾的时刻是被财富 500 强六周内从 POC 到成交；主持人补充 B2B 的早期指标公式——对方有预算、在组织里有重要性、你解决其头号或二号问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            48
+          ],
+          "quote": "It also teased out a really important piece of Product Market Fit for us, which was building a repeatable POC process. So the idea, because we kept iterating through these design partnerships, right? And seeing what worked, and the cadences, was it allowed us to start structuring a real proof of concept process. I mean, I'm actually excited to say that every single one of our design partners converted to a paying customer and that was a really, really exciting moment. Product Market Fit is honestly a journey. You have moments where you see that you have it and we experienced that. But we got there because of, gosh, at the time, twenty one months of constant customer discovery. I think the best thing, if you got thirty minutes or an hour and you're not sure what to do with your time. Get on the phone with a prospect. Get on the phone with a customer and ask them. That is the best thing that you can do is continuous customer discovery.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 1,
+          "t": [
+            48,
+            60
+          ],
+          "quote": "That's Product Market Fit. Product Market Fit. Product Market Fit. I called it the Product Market Fit question. Product Market Fit. Product Market Fit. Product Market Fit. Product Market Fit. I mean, the name of the show is Product Market Fit.",
+          "speaker": "Previous Guests"
+        },
+        {
+          "seg": 2,
+          "t": [
+            60,
+            77
+          ],
+          "quote": "Do you think the Product Market Fit Show, has product market fit? Because if you do, then there's something you just have to do. You have to take out your phone. You have to leave the show five stars. It lets us reach more founders and it lets us get better guests, thank you. Damien, welcome to the show, man.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 6,
+          "t": [
+            116,
+            124
+          ],
+          "quote": "So let's start where we always start. That gets us right into the thick of it. When for you was the moment when you felt like you'd found true product market fit?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 8,
+          "t": [
+            207,
+            248
+          ],
+          "quote": "I'm curious to undertake on this, but I think it's a good story to pull on, right? Because product market fit is hard to define. It's easy for somebody to say, I have product market fit and then you get into it. And you try, and figure out, do you, do you not? And you can have ten people with ten opinions. But in this particular case, it's like, what is the most important thing for a CIO, right? What rises to the top of their pile? I think my formula, especially in B2B, is whoever you're selling into, they need to have meaningful budget. They need to be important in that organization and you need to solve a number one or number two problem for them. If you're doing that consistently, that is an early indicator. Certainly that you're delivering value, but it's an early indicator of product market fit. Seems like that was the case here.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 9,
+          "t": [
+            248,
+            345
+          ],
+          "quote": "Yeah, a hundred percent. I think like all founders, you got to take a bet, right? And we took a position two years ago that at some point, you would have threat actors that would do things that existing tools might have missed and we've been building towards that eventuality. And it was one of those things that the two kind of hit at the exact perfect time, and that's allowed us to prove that value to keep earning budget, and displacing solutions. Which is where we're at now as we scale and now validated by the Series A. I guess we'll go back a little bit because the journey to product market fit is a long and different one than you might expect. So, I've only ever worked in security. I was an operator in the defense industrial base here in the United States. I was fortunate to work at CrowdStrike, you know, from the CRC through and after the IPO. So I got to see hyper growth, was fortunate then to do some grad school and study at MIT's computer science AI lab, and then work in a security operations company. But basically, cyber is my jam and all of that informed my initial thesis about the company. But actually, it's been really formulated not just about my opinions, but constant customer discovery. Understanding, to your point, what your top two priorities are, what the real pain is, and how at first the idea. Now the platform that is Nebulock, can align with those and it really was a combination of. I mean, we're talking about constant calls, getting on planes, sitting with customers that got us to this point, and then. Honestly building an amazing team of practitioners, engineering, marketing, sales, and customer success leaders who really helped bring this enterprise to where it is today.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 87,
+          "t": [
+            2312,
+            2353
+          ],
+          "quote": "It's funny because it also teased out a really important piece of product market fit for us, which was building a repeatable POC process. So the idea, because we kept iterating through these design partnerships, right? And seeing what worked, and the cadences, was it allowed us to start structuring a real proof of concept process. So net new, if we were to engage, how do we engage? And, you know, back to this original point of, hey, what was your moment of Product Market Fit? By the time we hit that Fortune 500, we had a month long POC process that required two hours of customer time. We had a playbook that we knew how to run and it just kind of followed, right? That muscle movement had been built.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 110,
+          "t": [
+            2987,
+            2997
+          ],
+          "quote": "Perfect, well, I'll ask the last question we tend to end on. Which is what would be your top piece of advice for an early stage founder who's kind of still looking for and finding Product Market Fit?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2997,
+            3027
+          ],
+          "quote": "Continuous customer discovery. It doesn't matter if you have a solution built. I mean, people use product market. Product Market Fit is honestly a journey. You have moments where you see that you have it and we experienced that. But we got there because of, gosh, at the time, twenty one months of constant customer discovery. I think the best thing, if you got thirty minutes or an hour and you're not sure what to do with your time. Get on the phone with a prospect, get on the phone with a customer and ask them. That is the best thing that you can do is continuous customer discovery.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "executive-sponsor",
+      "type": "concept",
+      "role": "concept",
+      "name": "执行发起人 (executive sponsor)",
+      "file": "执行发起人",
+      "primary": true,
+      "how_described": "嘉宾复盘被采购黑洞拖死的 POC 得出的教训：光有支持者（champion）不够，永远要有一个执行发起人，并提前问清采购流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            2640,
+            2731
+          ],
+          "quote": "All right, let's send it in for procurement. Hi, procurement, here you go and that was it, right? There was no like, hey, who should I be working with? Hey, should I, our champion was awesome. But there was also an executive sponsor that we should have worked with, right? Is there anyone I can do? So basically, what ended up happening, Pablo, was there was like this black hole of procurement. There was my champion, who is an amazing human being. Who can't push procurement, and we just had to work through their machinery, and it took weeks to get something turned around. Once we got it, we needed to make a bunch of edits and we ended up going through a few different iterations or red lines. And it just ended up dragging out. And it's because while I figured out my champion internally, what I didn't do was identify if there was another executive sponsor I could loop in and I didn't ask about their procurement process. I didn't know who the stakeholders were. I didn't know who I should be working with, you know, and who I should be introduced to. I just kind of was like, here you go. I hope this closes. There's no urgency. That was the problem and the key learning for me was, always have an executive sponsor and ask him about the procurement process. It's okay, I have been a customer before of security solutions. I was not always thrilled with my procurement process and that's not to say the procurement teams are bad. I love procurement teams. They're amazing people. But they have a responsibility to do what's right for the business and if you're an early stage company, they're going to push back. So it's important to understand who you're working with on the procurement side. That was the key learning.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "solo-founder",
+      "type": "concept",
+      "role": "concept",
+      "name": "solo founder",
+      "file": "solo founder",
+      "primary": true,
+      "how_described": "嘉宾是第一次做 solo founder，本集讨论了这种模式的打法：持续把自己从岗位上雇出来、更早招负责人、为火场招人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            827,
+            827
+          ],
+          "quote": "First time solo founder. So it was just me.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 36,
+          "t": [
+            978,
+            1023
+          ],
+          "quote": "I guess, I ask it from the perspective, like, I'll give you the anecdote and curious if you have something similar to this. Maybe in a different role, like, founder I work with closely. Solo founder, non-technical, hired, you know, there were maybe fifteen people, twenty people, and they hired a VP. And some of the people I reached out to, to say, hey, do you have a good VP, blah, blah, blah. They're like, dude, it's so early. Why are you hiring a VP when you have fifteen people? And I'm like, the answer is you're looking at it from your perspective of me and my co founder, right? We split the roles and effectively they were operating as a VP. And so we didn't have a VP until we were fifty. Yeah, okay but this person is a solo founder. Therefore they hired these heads up earlier. I'm curious if you had anything like that. Maybe not on the VP side, but whether on the sales or marketing, or not really. If you think like compared to somebody who had two or three co-founders, it was actually, you build the org in a similar way, sort of thing.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 37,
+          "t": [
+            1023,
+            1102
+          ],
+          "quote": "You know, I'd say we definitely did it a little bit earlier, right? As a solo founder, the way that I've always thought about it is, I visualize it as either like a balloon or a bucket but it's basically how and where am I spending my time. And how, and where should I be spending my time, right? Where is there becoming an increasing need for the business such that we need to bring in somebody full time. So, you know, our Head of Eng. was first. We were nine people at the time. I was an engineering manager, I was our salesperson, we were still in stealth. It's not much marketing, but I was doing all the things and we just got to a point. We were all engineers at the time, where I was like, it's time to bring in an effective engineering leader but also, this is a personal belief. Bring in somebody who can grow with this business, right? That's why I actually like your VP of Eng. anecdote of, it doesn't matter about size of team. It's, hey, bring in the right person and ideally bring in somebody who can grow with this business. Because as I tell everybody here at Nebula, my desire is to build an environment and a business such that they are here for a good time, and a long time. And can grow as we grow. So that was really the thought process and the management of the team had gotten to the point. Where I was like, I can be of more service to this business if we bring in the right personnel and bring in somebody who's going to run this team, and scale it. And our head of engineering has done exactly that.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 42,
+          "t": [
+            1241,
+            1249
+          ],
+          "quote": "So back to the main storyline, you're the solo founder and you got the thesis. You've jumped fully on board on this. What's step one?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 43,
+          "t": [
+            1249,
+            1390
+          ],
+          "quote": "Yeah, step one, customer discovery. If there is one takeaway for anybody who's listening, if you haven't read it, read a book called The Mom Test. It is, in my opinion, the best book on customer discovery that is out there. Followed by The Challenger Sale, but that's a sales book. Yeah, I kicked off what I called the ninety in ninety. Ninety customer interviews in ninety days. So I spent ninety days mom testing people. So not going to them saying, hey, my name is Damien, I've got this idea, this is what it is, can you please tell me you like it? But rather going, hey, I'm thinking about this space. Talk to me about how you've solved this problem. How would you rank this in order of priorities? Where would I focus on if we were to build something like this? And most importantly, friends, if you're doing customer discovery, always ask at the end if they're willing to introduce you to somebody else in network. Because not only does that build a relationship with this person, but it means that you also get routed to other like minded folks. Not for confirmation bias, but rather you're going to get to continue to see either in role or industry segment different folks. So it allowed me to build a pretty comprehensive market map of where am I solving this problem, for whom, and how would they expect us to do it? And to be honest with you, Pablo, it actually changed some of my thinking. It altered key parts of our architecture. It informed me that the underlying thesis and analytical layer I wanted to build was correct. There was a whole other system I thought that we needed to build and invest in, and I was totally wrong. And I found that that was really helpful because what that allowed us to do is have a warm group of prospective customers, many of whom became design partners, and also a core roadmap. So that when you brought in people, again, thinking about the unknowns, it was, hey, this is what we're building, right? Can you come in and take these systems, right? Show me how you would do this. Versus, welcome to Nebula, here's your laptop. I don't really know what we're going to do today, but tinker around and do some Google searching. So it really helped in terms of focusing that and I think that is the one nuance about being a solo founder that is a bit different. You do have a responsibility to at least have an opinion about what it is that you need to do and the best way to drive that is constant customer discovery. So ninety and ninety, I've now spoken to hundreds. I try to speak to customers certainly every week, honestly, many times a week. Because the market is changing so fast and you constantly have to bring that feedback back into the company.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "the-challenger-sale",
+      "type": "concept",
+      "role": "concept",
+      "name": "The Challenger Sale",
+      "file": "The Challenger Sale",
+      "primary": false,
+      "how_described": "嘉宾顺带提到的销售类书籍，排在 The Mom Test 之后推荐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            1249,
+            1390
+          ],
+          "quote": "Yeah, step one, customer discovery. If there is one takeaway for anybody who's listening, if you haven't read it, read a book called The Mom Test. It is, in my opinion, the best book on customer discovery that is out there. Followed by The Challenger Sale, but that's a sales book. Yeah, I kicked off what I called the ninety in ninety. Ninety customer interviews in ninety days. So I spent ninety days mom testing people. So not going to them saying, hey, my name is Damien, I've got this idea, this is what it is, can you please tell me you like it? But rather going, hey, I'm thinking about this space. Talk to me about how you've solved this problem. How would you rank this in order of priorities? Where would I focus on if we were to build something like this? And most importantly, friends, if you're doing customer discovery, always ask at the end if they're willing to introduce you to somebody else in network. Because not only does that build a relationship with this person, but it means that you also get routed to other like minded folks. Not for confirmation bias, but rather you're going to get to continue to see either in role or industry segment different folks. So it allowed me to build a pretty comprehensive market map of where am I solving this problem, for whom, and how would they expect us to do it? And to be honest with you, Pablo, it actually changed some of my thinking. It altered key parts of our architecture. It informed me that the underlying thesis and analytical layer I wanted to build was correct. There was a whole other system I thought that we needed to build and invest in, and I was totally wrong. And I found that that was really helpful because what that allowed us to do is have a warm group of prospective customers, many of whom became design partners, and also a core roadmap. So that when you brought in people, again, thinking about the unknowns, it was, hey, this is what we're building, right? Can you come in and take these systems, right? Show me how you would do this. Versus, welcome to Nebula, here's your laptop. I don't really know what we're going to do today, but tinker around and do some Google searching. So it really helped in terms of focusing that and I think that is the one nuance about being a solo founder that is a bit different. You do have a responsibility to at least have an opinion about what it is that you need to do and the best way to drive that is constant customer discovery. So ninety and ninety, I've now spoken to hundreds. I try to speak to customers certainly every week, honestly, many times a week. Because the market is changing so fast and you constantly have to bring that feedback back into the company.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "black-hat",
+      "type": "concept",
+      "role": "concept",
+      "name": "Black Hat",
+      "file": "Black Hat",
+      "primary": false,
+      "how_described": "嘉宾在九十进九十进行到两个月时自掏腰包飞去的核心行业安全大会，他在会场走向陌生人请喝咖啡，签下了第一个设计合作伙伴。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            1968,
+            2008
+          ],
+          "quote": "It varies. So one of the key things that I benefited from was there was a core industry conference about two months into the ninety and ninety called Black Hat that happened for us, and I just, on my own dime. Flew out to Black Hat, got myself a hotel room, paid for my Ubers and I just walked the floor. I walked up to strangers and I was like, hey, I'm Damien. Can I get you a coffee? But it was putting myself in those positions to be successful. So it was for plenty of first meetings and yes, definitely for second meetings. We had a bunch of folks, I'm based in Boston, Massachusetts. We had a bunch of folks in Boston and it was like, hey, this was great. Hey, do you want to go for a run? You want to grab a coffee? And then I'd get out there and meet them where they were in their respective city.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 77,
+          "t": [
+            2099,
+            2142
+          ],
+          "quote": "So we signed our first design partner when we had one employee, which was cool. It was actually at Black Hat. I can't share their name, but they are a paying customer now, and I'm very grateful for their early partnership. And actually it was really helpful, right? Before you even can deploy, cause the product was so early. You know, I pitched it as an architecture partnership. Hey, do you just want to give feedback while we start poking around and building this? It was so valuable. We had a few key early architecture partners back then and it made such a difference, Pablo. Because, yeah, we've done the ninety-ninety, we had the roadmap, but to keep getting feedback continuously, right? Just allowed us to, not just in terms of how the system worked, but customer experience, build right from the outset, which was really, really awesome to see.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    },
+    {
+      "id": "icp",
+      "type": "concept",
+      "role": "concept",
+      "name": "ICP",
+      "file": "ICP",
+      "primary": false,
+      "how_described": "本集说九十场访谈的终局之一就是得出你的 ICP（理想客户画像）和路线图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            1566,
+            1732
+          ],
+          "quote": "Yeah, so I'm glad you asked that, Pablo and it's funny you mentioned basketball. Conversation for another time, but I played soccer pretty competitively. I actually played overseas for a few years and one of the core pieces I resonate with is doing the motions, not going through the motions. Because what happens is, in the beginning, those motions feel odd or uncomfortable and by the end. They're second nature and it's that second nature that allows you to hit that buzzer beater or nail that cross, right? Those are the ways that this works, is it's building the muscle memory. So, of course, the structure of the calls changed and honestly, for all you founders out there. It's an important muscle movement to learn because it will help you as you start to do founder led sales. You'll learn how to better actively listen. You'll learn to key in on keywords and pain points, and time your questions and responses. So, structure of the call started out with this. Before I met them, I sent a background on who I was. So they knew who I was and they knew the question I was asking. Came in and it was like, hey, tell me about what you do. Tell me about your top three priorities this year and how, and where have you thought about this particular problem, right? We were talking about the false negatives and threat hunting, and security operations problem statement, right? And then you just actively listened. And then the next layer down was, okay, and what investments have you made there? How much money have you spent? And how does that work across, tools and people? And then finally, it would be like, okay, based on everything that you've said. How would you stack rank this in terms of existing problems? And if something were to tackle this, what should that look like? So it was really nebulous. But really, it drilled down into understand what's top of mind, understand their priorities, understand their investments, and then understand their opinion about what you should do. That evolved because the idea started to take much more shape, right? I already had an architecture, the architecture was evolving, and it ended up drilling more into, I'd say, a bit more focus around like, okay, again, top priorities, blah, blah, blah. But then it really dug into, how do you validate that? What metrics do you prove? How do you demonstrate business value? And then, okay, I have some data on business value. Okay, how do you think about pricing and budgeting, right? Is this replacing? Is this augmenting? How valuable is that to you? The idea was end state for the ninety and niniety to get a market scape in terms of who your ICP was, which verticals you might plan. But also understand what does their environment look like? What does their team look like? What are their priorities in general? How much money do they have? How do they value your solution? And ninety data points, as that discussion evolves, really builds that comprehensive data set. Which allowed me to raise money and be like, this is what we're doing. This is how they value it. This is how it's going to work and at the same time, bring in a team to help build that out.",
+          "speaker": "Damien Lewke"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1732,
+            1800
+          ],
+          "quote": "I'm really worried because listen, you've been listening for like, what, ten, twenty, thirty minutes now? Clearly you like it and the thing is, the next episode is way better and you're gonna miss it. You're gonna miss it because you're not following the show. So take your phone out and hit that follow button. This is why it takes, sometimes founders will do this and be like, yeah, I spoke with ten or twenty and it's like, first of all, you need to start broad. Because otherwise you're going to lead them to the thing that you want to lead them to. So you have to start broad to even validate that piece, takes probably twenty, thirty calls to get those patterns and then you use the next fifty or sixty or a hundred calls, whatever it is, to figure out all the other details, right? All the infrastructure, everything else they're using, and then come out with the ICP. And, you know, if it's this type of customer and with this type of role, with this type of setup. Then now we're really feeling the pull for the kind of product that I'm thinking about and that's what you have to come out of with Discovery. Which leads me to my next question on learnings. What is, do you remember an example or two of something that as a result of doing these calls, you learned that you otherwise wouldn't have or it might have taken you a long time, selling the wrong thing, to get at?",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "dpa",
+      "type": "concept",
+      "role": "concept",
+      "name": "DPA",
+      "file": "DPA",
+      "primary": true,
+      "how_described": "AI 原生公司绕不开的数据处理协议；本集警告别等 POC 做完才提数据处理，要把法律文书与 POC 并行，否则会被送进采购黑洞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            2436,
+            2577
+          ],
+          "quote": "I do just want to say I'm very grateful for our paying customers. But to be quite honest, Pablo, there were a few POCs that went three or six months or dragged out. And they dragged out really because of three core reasons. One, we were all excited but what I didn't do is set good expectations around, hey, this is how long the POC process is going to be. This is what we are doing and at this point, this will be done. The second piece, and it's just the way that we work, was also being really focused about scope of engagement. That does not mean you should pressure somebody in a POC to purchase your solution. I do not espouse the idea of like, it's two weeks, you agree to these success criteria, buy my thing. That's not cool, especially early, right? But you do want to set expectations. Hey, we're going to do this for a month. If we do things one, two, three, right? Would you move to a purchase? Which leads me to my third and the most important thing from the outset that goes back to this Fortune 500. Which is make sure that you have budget, or that they have the ability to spend money on what it is that you have built. Because there are a lot of people who are really helpful and extremely friendly, and they're down to do a POC. Sometimes they don't have budget or budget won't free up until later in the year. No harm, no foul. If you set a scope for the POC, great, you can get the tech win and move on with your life. And then you know that when the budget comes up, we have this agreed to, we can press go. The other piece that I think really helped us, and because we're an AI-native company, is really important. Is, nail your DPA, right? Have a really strong DPA, and know what it means to do data processing, and parallelize the legal paperwork. Do not do the POC and then suddenly be like, all right, hey, oh, by the way, we do data processing. They go, well, hey, wait a minute, we have our own DPA. This happened with one of our customers who I love, but we did a POC and we got to this point where it was like, great, we signed some stuff. Oh, now we have to go into procurement and some businesses will operate that way, right? And you cannot help that. That's okay. But as best as you can, it doesn't hurt at all to just ask like, hey, while we do this process, can I either do the procurement paperwork up front. So that the POC can roll over and do a paid engagement? Or can we run these two things alongside? That will not always be the case, but it will save you time and heartache. Because the worst anyone can say is no and that's okay. You're in the spot you were in before.",
+          "speaker": "Damien Lewke"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -164,7 +164,7 @@ Rene 认同机器人领域还早——任务泛化、上下文学习的演示很
 
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Meta · 同概念:推理 (inference)、数据中心 (data center)</span>
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:NVIDIA、SoftBank · 同概念:推理 (inference)</span>
-- [[2026-08-05-yc-building-the-first-data-centers-in-space|把数据中心搬上太空：StarCloud 的万亿美元硬科技突围]]<span class="pd-rz">同公司:NVIDIA · 同概念:数据中心 (data center)</span>
+- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

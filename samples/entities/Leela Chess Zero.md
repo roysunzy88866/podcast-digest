@@ -25,7 +25,7 @@ unlisted: true
 
 [[Erik Allebest]] · [[Chess.com]] · [[Deep Blue]] · [[Stockfish]] · [[反作弊]] · [[评级系统]] · [[AGI]] · [[ASI]]
 
-<script type="application/json" class="pd-epn">{"Erik Allebest":1,"Chess.com":2,"Deep Blue":1,"Stockfish":2,"反作弊":1,"评级系统":1,"AGI":17,"ASI":2}</script>
+<script type="application/json" class="pd-epn">{"Erik Allebest":1,"Chess.com":2,"Deep Blue":1,"Stockfish":2,"反作弊":1,"评级系统":1,"AGI":18,"ASI":2}</script>
 
 <script>
 (function(){

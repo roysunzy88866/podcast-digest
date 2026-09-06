@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>11</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>12</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(19:20起):本集说它最初是游戏玩家用的显卡,后来被发现极其擅长做相关的数学运算,在 2012 年配合大数据与神经网络算法取得了突破,是现代 AI 黄金配方的三要素之一。
 - **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(28:16起):本集把它说成：为并行模拟（如图形、大脑思考）而设计的处理器；它具有指令集且可编程，最终成为了今天 AI 计算的基石。
+- **[[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]]**(34:04起):本集提到 GPU 与内存等底层基础设施处于严峻供应链约束之下、未来两三年会缓解，也是 Fireworks 分布式 RL 系统利用分散 GPU 的基础。
 - **[[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]]**(43:52起):本集说 GPU 和 AI 加速器已经存在但连接它们是巨大瓶颈，铜线无法超过一米，需要光通信连接；模型公司大部分资金花在 GPU 上
 - **[[2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil|《Tether 做本地 AI：数据中心造太多了》]]**(21:38起):本集反复讨论消费级 GPU——QVAC 让推理和微调能跑在 Snapdragon GPU、Adreno GPU、Apple GPU 等所有消费级 GPU 上，Apple 每年出新 GPU 跑 Llama 速度翻倍
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(14:39起):本集把它说成：寿命极大取决于历史用途，用于训练的芯片（相当于 72 小时拉力赛跑出的车）故障率远高于只做推理的芯片（周日去教堂跑出的车），用平均寿命算账会严重失真。
@@ -31,10 +32,11 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*11 集*
+*12 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
+- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]] — 作为概念(提及)
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|《Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法》]] — 作为概念
 - [[2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil|《Tether 做本地 AI：数据中心造太多了》]] — 作为概念
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
@@ -49,9 +51,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[推理]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[OpenRouter]] · [[Cursor]] · [[token]] · [[后训练]] · [[人工智能]]
+[[推理]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Cursor]] · [[OpenRouter]] · [[token]] · [[Harry Stebbings]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"推理":4,"NVIDIA":28,"Anthropic":101,"OpenAI":88,"智能体":1,"OpenRouter":8,"Cursor":45,"token":13,"后训练":17,"人工智能":2}</script>
+<script type="application/json" class="pd-epn">{"推理":4,"NVIDIA":29,"Anthropic":103,"OpenAI":89,"智能体":1,"Cursor":46,"OpenRouter":9,"token":14,"Harry Stebbings":12,"后训练":17}</script>
 
 <script>
 (function(){

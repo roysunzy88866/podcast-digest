@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":11,"Sequoia":4,"智能体":1,"Copilot":8,"自动驾驶":1,"服务伪装成软件":1,"IC":7,"AEO":3,"Sierra":5,"SpaceX":12}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":12,"Sequoia":4,"智能体":1,"Copilot":8,"自动驾驶":1,"服务伪装成软件":1,"IC":7,"AEO":3,"Sierra":5,"SpaceX":12}</script>
 
 <script>
 (function(){

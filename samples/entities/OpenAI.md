@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>88</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>89</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -36,6 +36,7 @@ unlisted: true
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(01:40起):本集把它说成:前沿 AI 研究实验室,曾提供 GPT-2 等早期开源模型;但也指出这类大实验室常背着「模型必须完美、产品必须达到高标准才能见人」的包袱。
 - **[[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]]**(09:42起):本集的开发者日主办方,主张现在是做工程师最好的时代,目标是打造彻底开放、人人可建生态的 AI 智能体底层平台
 - **[[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]]**(00:15起):本集提到 OpenAI 编程更强时,别人会用它的模型帮自己训练编程模型;它与 Anthropic 一样一夜之间成了万亿美元公司,不需要被同情的竞争保护。
+- **[[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]]**(28:05起):本集提到 OpenAI 和 Anthropic 作为有『实验室光环』的对比对象,以及 OpenAI 已做过类似前置部署工程组织的事情。
 - **[[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]]**(02:23起):本集多次提及的模型实验室,Codex 的出品方,被引为'拥有模型+自家 harness'天真论的另一方。
 - **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(23:43起):本集说它是模型公司之一,Codex 的出品方,Builder Pack 提供 1,000 美元 Codex 额度和三个月免费访问
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(08:24起):本集提到它发起了 Parameter Golf 机器学习挑战赛,且指出它的前沿模型也处于 12 小时以上的任务视界范围。
@@ -138,7 +139,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*88 集*
+*89 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -165,6 +166,7 @@ unlisted: true
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为被讨论公司
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]] — 作为被讨论公司(提及)
+- [[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]] — 作为被讨论公司(提及)
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]] — 作为被讨论公司(提及)
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为被讨论公司
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为被讨论公司(提及)
@@ -235,7 +237,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Google]] · [[推理]] · [[ChatGPT]] · [[Cursor]] · [[NVIDIA]] · [[Lenny]] · [[Stripe]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":101,"Google":35,"推理":4,"ChatGPT":50,"Cursor":45,"NVIDIA":28,"Lenny":66,"Stripe":26,"Claude":47}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":103,"Google":35,"推理":4,"ChatGPT":50,"Cursor":46,"NVIDIA":29,"Lenny":66,"Stripe":26,"Claude":47}</script>
 
 <script>
 (function(){
